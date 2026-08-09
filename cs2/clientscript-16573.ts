@@ -7,7 +7,8 @@ function script16573(int0: number): void {
     };
     IF_SETONTIMER(callback(script16582, 120), comp(485, 11));
     var int1 = -1;
-    while ((++int1 < 5)) {
+    int1 = (int1 + 1);
+    while ((int1 < 5)) {
         script16201(varbitplayer_27092, 4, 31784960, (25 + (int1 * 150)), (-75 - RANDOM(20)), int1, 1, 0);
     };
     return;

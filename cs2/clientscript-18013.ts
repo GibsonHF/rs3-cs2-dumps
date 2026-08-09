@@ -5,8 +5,8 @@ function script18013(int0: number, int1: number, int2: number, int3: number, int
     var int9 = script17890(int2);
     var int10 = MIN((int1 + int0), int9);
     var int11 = 1;
-    var int12 = 80412712;
-    var int13 = 80412713;
+    var int12 = comp(1227, 40);
+    var int13 = comp(1227, 41);
     var int14 = dbrow_getfield(int2, 991264, 0);
     var int15 = 0;
     var int16 = 1;
@@ -28,13 +28,13 @@ function script18013(int0: number, int1: number, int2: number, int3: number, int
         } else if ((script17868(7906, int8) == 1)) {
             int18 = 1;
         };
-        var [int6, int7] = script17978(int14, int13, int15, int16, -1, int11, int8, int18, int17, int6, int7, -1);
-        var [int4, int5] = script18021(int8, int4, int5, int2, int12, int15, int18, int14, int15, -1);
+        [int6, int7] = script17978(int14, int13, int15, int16, -1, int11, int8, int18, int17, int6, int7, -1);
+        [int4, int5] = script18021(int8, int4, int5, int2, int12, int15, int18, int14, int15, -1);
         var int3 = (int3 + (int15 + script18011()));
         int8 = (int8 + 1);
     };
     if ((int10 < int9)) {
-        IF_SETONTIMER(callback(script18012, int0, (int10 + 1), int2, int3, int4, int5, int6, int7), 80412705);
+        IF_SETONTIMER(callback(script18012, int0, (int10 + 1), int2, int3, int4, int5, int6, int7), comp(1227, 33));
         return;
     };
     [int6, int7, int4, int5, int3] = script18015(int6, int7, int4, int5, int3);

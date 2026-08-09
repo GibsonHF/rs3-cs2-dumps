@@ -23,9 +23,9 @@ function script4889(): void {
         IF_SETHIDE(false, comp(1258, 53));
         IF_SETHIDE(false, comp(1258, 58));
         string0 = "You need at least a tier 2 citadel to customise the keep fireplace.";
-        IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643), 82444341);
+        IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643), comp(1258, 53));
         string0 = "You need at least a tier 2 citadel to customise the potted plants.";
-        IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643), 82444346);
+        IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643), comp(1258, 58));
     };
     if ((varbitclan_6507 > 2)) {
         IF_SETHIDE(false, comp(1258, 62));
@@ -49,17 +49,17 @@ function script4889(): void {
         IF_SETHIDE(false, comp(1258, 73));
         IF_SETHIDE(false, comp(1258, 83));
         string0 = "You need at least a tier 3 citadel to customise the party room chairs.";
-        IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643), 82444351);
+        IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643), comp(1258, 63));
         string0 = "You need at least a tier 3 citadel to customise the party room tables.";
-        IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643), 82444356);
+        IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643), comp(1258, 68));
         string0 = "You need at least a tier 3 citadel to customise the sundials.";
-        IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643), 82444381);
+        IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643), comp(1258, 93));
         string0 = "You need at least a tier 3 citadel to customise the keep tapestry.";
-        IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643), 82444376);
+        IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643), comp(1258, 88));
         string0 = "You need at least a tier 3 citadel to customise the keep banners.";
-        IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643), 82444361);
+        IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643), comp(1258, 73));
         string0 = "You need at least a tier 3 citadel to customise the keep door.";
-        IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643), 82444371);
+        IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643), comp(1258, 83));
     };
     if ((varbitclan_6507 > 3)) {
         IF_SETHIDE(false, comp(1258, 107));
@@ -76,20 +76,20 @@ function script4889(): void {
         IF_SETHIDE(false, comp(1258, 103));
         IF_SETHIDE(false, comp(1258, 98));
         string0 = "You need at least a tier 4 citadel to customise the keep lower windows.";
-        IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643), 82444396);
+        IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643), comp(1258, 108));
         string0 = "You need at least a tier 4 citadel to customise the keep upper windows.";
-        IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643), 82444401);
+        IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643), comp(1258, 113));
         string0 = "You need at least a tier 4 citadel to customise the citadel flags.";
-        IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643), 82444391);
+        IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643), comp(1258, 103));
         string0 = "You need at least a tier 4 citadel to customise the keep shields.";
-        IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643), 82444386);
+        IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643), comp(1258, 98));
     };
     if ((varbitclan_6507 > 4)) {
         IF_SETHIDE(false, comp(1258, 77));
     } else {
         IF_SETHIDE(false, comp(1258, 78));
         string0 = "You need at least a tier 5 citadel to customise the keep flag.";
-        IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643), 82444366);
+        IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643), comp(1258, 78));
     };
     return;
 }

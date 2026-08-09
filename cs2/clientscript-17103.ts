@@ -1,7 +1,7 @@
 //
-function script17103(int0: number, int1: number, string0: string): [string, number] {
+function script17103(int0: number, int1: number, string0: string): [number, string] {
     var string1 = "";
-    var [string1, int1] = script17102(int0, int1, 65280, 15651330);
+    [string1, int1] = script17102(int0, int1, 65280, 15651330);
     switch (int0) {
         case 10: {
             return [`Protect Item Prayer${string1}: Requires ${string0}25 Prayer</col> in the standard prayer book.`, int1];

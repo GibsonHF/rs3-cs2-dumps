@@ -1,6 +1,6 @@
 //
 function script16824(): number {
-    if (((varbitplayer_43655[1] == 1) || (varbitplayer_43655[1] == 2))) {
+    if (((varbitplayer_43655 == 1) || (varbitplayer_43655 == 2))) {
         if ((script16826() != 1)) {
             return 0;
         };

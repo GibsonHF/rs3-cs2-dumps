@@ -12,9 +12,9 @@ function script20631(int0: number): void {
     var int3 = -1;
     var string0 = "";
     var int4 = 0;
-    while ((++int2 < int1)) {
-        stack(dbrow_getfield(17540 as dbrow, 1421312, int2));
-        [int3, string0] = stack();
+    int2 = (int2 + 1);
+    while ((int2 < int1)) {
+        [int3, string0] = dbrow_getfield(17540 as dbrow, 1421312, int2);
         if ((script20473(int3) == 1)) {
             if ((int0 == 1)) {
                 script20857(98172929, int3, script20651(int3), int4);

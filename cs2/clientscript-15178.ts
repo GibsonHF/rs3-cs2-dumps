@@ -19,9 +19,19 @@ function script15178(int0: number, int1: number, int2: number, int3: number, int
     IF_SETOBJECT(int0, int5, comp(653, 281));
     IF_SETOBJECT_NONUM(int7, 0, comp(653, 283));
     var int8 = 0;
-    if (((int6 == 1) && (int5 != int1))) {
-        IF_SETTEXT(`You deposited ${TOSTRING_LOCALISED(int5, 1)} and skipped the rest!`, comp(653, 280));
-        IF_SETTEXT("You've already skipped this ingredient!", comp(653, 282));
+    if ((int6 == 1)) {
+        if ((int5 != int1)) {
+            IF_SETTEXT(`You deposited ${TOSTRING_LOCALISED(int5, 1)} and skipped the rest!`, comp(653, 280));
+            IF_SETTEXT("You've already skipped this ingredient!", comp(653, 282));
+        } else {
+            int8 = script15125(int0, (int1 - int5));
+            IF_SETTEXT(`You've deposited ${TOSTRING_LOCALISED(int5, 1)}/${TOSTRING_LOCALISED(int1, 1)}`, comp(653, 280));
+            if ((int6 == 1)) {
+                IF_SETTEXT("You've already completed this ingredient!", comp(653, 282));
+            } else {
+                IF_SETTEXT(`You can skip the remainder of this ingredient for : ${TOSTRING_LOCALISED(int8, 1)} x ${OC_NAME(int7)}`, comp(653, 282));
+            };
+        };
     } else {
         int8 = script15125(int0, (int1 - int5));
         IF_SETTEXT(`You've deposited ${TOSTRING_LOCALISED(int5, 1)}/${TOSTRING_LOCALISED(int1, 1)}`, comp(653, 280));

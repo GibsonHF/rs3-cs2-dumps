@@ -7,7 +7,7 @@ function script5461(): void {
     var int1 = 0;
     int0 = enum_getvalue(0, 73, 5332 as cs2enum, varbitplayer_3659);
     if ((int0 == -1 as struct)) {
-        int0 = enum_getvalue(0, 73, 5213 as cs2enum, varbitplayer_3654);
+        int0 = enum_getvalue(0, 73, 5213, varbitplayer_3654);
     };
     varclient_1676 = 0;
     string0 = struct_getparam(int0, 2095);
@@ -135,7 +135,7 @@ function script5461(): void {
     IF_SETONTIMER(callback(script5467), comp(1159, 30));
     varclient_1674 = -45;
     varclient_1675 = -75;
-    IF_SETPOSITION(0, varclient_1674, 1, 0, 75956246);
-    IF_SETPOSITION(3, varclient_1675, 2, 2, 75956247);
+    IF_SETPOSITION(0, varclient_1674, 1, 0, comp(1159, 22));
+    IF_SETPOSITION(3, varclient_1675, 2, 2, comp(1159, 23));
     return;
 }

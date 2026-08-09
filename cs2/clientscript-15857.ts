@@ -1,11 +1,11 @@
 //
 function script15857(int0: number): void {
-    var int1 = -1 as graphic;
-    var int2 = -1 as graphic;
-    var int3 = -1 as graphic;
-    var int4 = -1 as graphic;
+    var int1 = -1;
+    var int2 = -1;
+    var int3 = -1;
+    var int4 = -1;
     [int1, int2, int3, int4] = dbrow_getfield(int0, 557104, 0);
-    if (((((int1 == -1 as graphic) || (int2 == -1 as graphic)) || (int3 == -1 as graphic)) || (int4 == -1 as graphic))) {
+    if (((((int1 == -1) || (int2 == -1)) || (int3 == -1)) || (int4 == -1))) {
         IF_SETHIDE(true, comp(857, 20));
         return;
     };

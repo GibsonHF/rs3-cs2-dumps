@@ -3,8 +3,7 @@ function script12480(): void {
     stack(37008);
     stack(script12477());
     DB_FIND(0);
-    dbrow_findnext();
-    var int0 = stack();
+    var int0 = dbrow_findnext();
     var string0 = "Today's case: Speak to Meg for information.";
     if ((int0 != -1)) {
         if ((script12475(dbrow_getfield(int0, 36864, 0)) == 1)) {

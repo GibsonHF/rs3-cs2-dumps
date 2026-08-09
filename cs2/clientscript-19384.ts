@@ -1,6 +1,6 @@
 //
 function script19384(int0: number): number {
-    if ((int0 == -1 as dbrow)) {
+    if ((int0 == -1)) {
         return 1;
     };
     if ((WORLDMAP_GETDISPLAYCOORD(dbrow_getfield(int0, 668064, 0)) >= dbrow_getfield(int0, 668080, 0))) {

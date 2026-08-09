@@ -20,8 +20,12 @@ function script3930(int0: number, int1: number, int2: number, string0: string): 
         string1 = `${SUBSTRING(string0, 0, int7)}...`;
         int5 = PARAHEIGHT(string1, int0, int2);
         int6 = PARAWIDTH(string1, int0, int2);
-        if (((int6 <= int0) && (int5 <= int1))) {
-            int4 = (int7 + 1);
+        if ((int6 <= int0)) {
+            if ((int5 <= int1)) {
+                int4 = (int7 + 1);
+            } else {
+                int3 = int7;
+            };
         } else {
             int3 = int7;
         };

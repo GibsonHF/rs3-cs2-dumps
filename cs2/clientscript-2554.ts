@@ -24,7 +24,7 @@ function script2554(int0: number, int1: number, int2: number, int3: number, int4
         CC_SETGRAPHIC(int2);
     };
     int5 = (int5 + 1);
-    if (((int1 != 2) || ((int1 == 2) && (int3 == 0)))) {
+    if ((int1 != 2)) {
         CC_CREATE(int0, 4, int5);
         CC_SETPOSITION(int6, 42, 1, 0);
         CC_SETSIZE(42, 15, 0, 0);
@@ -32,6 +32,26 @@ function script2554(int0: number, int1: number, int2: number, int3: number, int4
         CC_SETTEXTALIGN(1, 1, 0);
         CC_SETCOLOUR(13683842);
         CC_SETTEXT(string0);
+    } else if ((int1 == 2)) {
+        if ((int3 == 0)) {
+            CC_CREATE(int0, 4, int5);
+            CC_SETPOSITION(int6, 42, 1, 0);
+            CC_SETSIZE(42, 15, 0, 0);
+            CC_SETTEXTFONT(26 as fontmetrics);
+            CC_SETTEXTALIGN(1, 1, 0);
+            CC_SETCOLOUR(13683842);
+            CC_SETTEXT(string0);
+        } else {
+            CC_CREATE(int0, 5, int5);
+            CC_SETPOSITION(int6, 42, 1, 0);
+            CC_SETSIZE(15, 15, 0, 0);
+            CC_SETCOLOUR(13683842);
+            if ((int4 == 1)) {
+                CC_SETGRAPHIC(20368 as graphic);
+            } else {
+                CC_SETGRAPHIC(20367 as graphic);
+            };
+        };
     } else {
         CC_CREATE(int0, 5, int5);
         CC_SETPOSITION(int6, 42, 1, 0);

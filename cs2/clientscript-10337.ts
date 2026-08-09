@@ -5,17 +5,11 @@ function script10337(): void {
     var int0 = 25862 as graphic;
     var int1 = 0;
     if ((IF_GETGRAPHIC(comp(1519, 37)) == int0)) {
-        stack(25863 as graphic);
-        stack("Your group is not registered for matchmaking.");
-        [int0, string0] = stack();
+        [int0, string0] = [25863 as graphic, "Your group is not registered for matchmaking."];
     };
     if ((PLAYER_GROUP_FIND() == 1)) {
         if ((varplayergroup_16 == 999999)) {
-            stack(1);
-            stack(21231 as graphic);
-            stack("Open matchmaking interface.");
-            stack("Open Grouping System");
-            [int1, int0, string0, string1] = stack();
+            [int1, int0, string0, string1] = [1, 21231 as graphic, "Open matchmaking interface.", "Open Grouping System"];
         };
         script10339(int0, string0, string1);
     };

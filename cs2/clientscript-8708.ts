@@ -23,8 +23,10 @@ function script8708(int0: number, int1: number): void {
     [int5, int6, int13, int13, int7, int8, int9, int10, int11, int12, int13] = script8701(9, int0);
     int7 = script8712(int7, int14);
     int8 = script8712(int8, int15);
-    if ((((int0 == 1001) && (int1 == 8)) && ((int7 != 800) || (int8 != 576)))) {
-        return;
+    if (((int0 == 1001) && (int1 == 8))) {
+        if (((int7 != 800) || (int8 != 576))) {
+            return;
+        };
     };
     int5 = script8710(int5, int7, int14);
     int6 = script8710(int6, int8, int15);

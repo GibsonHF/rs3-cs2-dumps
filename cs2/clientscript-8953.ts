@@ -7,13 +7,13 @@ function script8953(int0: number, int1: number, int2: number, int3: number): num
     var int5 = 5;
     var int6 = 3;
     var int7 = 0;
-    var int8 = -1 as struct;
+    var int8 = -1;
     var int9 = struct_getparam(int8, 8072);
     var string0 = "";
     var string1 = "";
     var int10 = 0;
     var int11 = 0;
-    var int12 = -1 as obj;
+    var int12 = -1;
     var string2 = "";
     var int13 = 0;
     var int14 = 0;
@@ -52,7 +52,8 @@ function script8953(int0: number, int1: number, int2: number, int3: number): num
             string1 = struct_getparam(int8, 6969);
             int10 = script7593(string1, (int17 - 45), 26, 0);
             int5 = (int5 + int10);
-            int5 = (++int5 + 5);
+            int5 = (int5 + 16);
+            int5 = (int5 + 5);
             int16 = script10410(int0, int1, 28556, int2, int3, int17, int5, int16, 0, "");
             int4 = (int3 + 5);
             CC_CREATE(int0, 4, IF_GETNEXTSUBID(int0));
@@ -88,7 +89,7 @@ function script8953(int0: number, int1: number, int2: number, int3: number): num
             CC_SETCOLOUR(script10495(3));
             CC_SETTEXTALIGN(0, 2, 0);
             CC_SETMAXLINES(1);
-            if ((int12 != -1 as obj)) {
+            if ((int12 != -1)) {
                 if ((int11 > 1)) {
                     string2 = script13575(`Reward: ${TOSTRING_LOCALISED(int11, 1)} x ${OC_NAME(int12)}`, ((int17 - int18) - 5), CC_GETFONTMETRICS(), 1);
                 } else {
@@ -102,10 +103,10 @@ function script8953(int0: number, int1: number, int2: number, int3: number): num
             CC_CREATE(int0, 5, IF_GETNEXTSUBID(int0));
             CC_SETSIZE(int18, int18, 0, 0);
             CC_SETPOSITION((int2 + 5), (int4 - CC_GETHEIGHT()), 2, 0);
-            if ((int12 != -1 as obj)) {
+            if ((int12 != -1)) {
                 CC_SETOBJECT(script7197(int11, int12), -1);
             } else {
-                CC_SETGRAPHIC(struct_getparam(38581 as struct, 3496));
+                CC_SETGRAPHIC(struct_getparam(38581, 3496));
             };
             var int3 = (int3 + (int5 + 2));
         };

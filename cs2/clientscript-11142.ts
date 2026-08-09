@@ -6,7 +6,7 @@ function script11142(int0: number, int1: number, int2: number, int3: number, int
     CC_SETPOSITION((int10 + 2), 10, 0, 0);
     CC_SETSIZE(36, 32, 0, 0);
     CC_SETONMOUSEREPEAT(callback(script3876, OC_NAME(int3), int0, CC_GETID()));
-    if ((((int1 != -1) && (int3 != -1 as obj)) && (CC_FIND[1](int1, item_getparam(int3, 4882)) == 1))) {
+    if ((((int1 != comp(-1, 65535)) && (int3 != -1 as obj)) && (CC_FIND[1](int1, item_getparam(int3, 4882)) == 1))) {
         CC_SETHIDE[1](false);
         CC_SETSIZE[1](CC_GETWIDTH(), CC_GETHEIGHT(), 0, 0);
         CC_SETPOSITION[1](CC_GETX(), CC_GETY(), 0, 0);

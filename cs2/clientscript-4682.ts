@@ -5,7 +5,8 @@ function script4682(): number {
     if ((PLAYERMEMBER() == false)) {
         int1 = 3;
     };
-    while ((++int0 < int1)) {
+    int0 = (int0 + 1);
+    while ((int0 < int1)) {
         if ((STOCKMARKET_ISOFFEREMPTY(int0, 0) == 1)) {
             return int0;
         };

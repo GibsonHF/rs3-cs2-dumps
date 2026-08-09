@@ -27,7 +27,7 @@ function script10931(int0: number, int1: number, int2: number, int3: number, int
         if ((int2 != -1)) {
             string4 = enum_getvalue(0, 36, 9621 as cs2enum, int2);
         } else if ((int3 != -1)) {
-            string4 = enum_getvalue(0, 36, 9621 as cs2enum, int3);
+            string4 = enum_getvalue(0, 36, 9621, int3);
         };
         int5 = enum_getvalue(0, 9, 9623 as cs2enum, int0);
         script10934(int5, int0);

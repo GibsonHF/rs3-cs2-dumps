@@ -27,6 +27,7 @@ function script9534(int0: number): number {
             return SETBIT(int1, 0);
         }
         case 10: {
+            break;
         }
         default: {
             return int1;

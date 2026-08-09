@@ -1,6 +1,6 @@
 //
 function script11053(int0: number): void {
-    if ((int0 == -1 as struct)) {
+    if ((int0 == -1)) {
         var int0 = varplayer_5144;
     };
     var int1 = 0;
@@ -37,8 +37,12 @@ function script11053(int0: number): void {
         varbitplayer_27140 = varbitplayer_27147;
     };
     IF_SETTEXT(struct_getparam(int0, 3815), comp(1591, 9));
-    if ((((struct_getparam(int0, 3345) != -1 as struct) || (struct_getparam(int0, 4826) == 1)) && (struct_getparam(int0, 7426) == 0))) {
-        IF_SETHIDE(false, comp(1591, 10));
+    if (((struct_getparam(int0, 3345) != -1) || (struct_getparam(int0, 4826) == 1))) {
+        if ((struct_getparam(int0, 7426) == 0)) {
+            IF_SETHIDE(false, comp(1591, 10));
+        } else {
+            IF_SETHIDE(true, comp(1591, 10));
+        };
     } else {
         IF_SETHIDE(true, comp(1591, 10));
     };

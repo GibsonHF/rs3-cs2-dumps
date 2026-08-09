@@ -22,11 +22,12 @@ function script14746(int0: number, int1: number, int2: number, int3: number, int
     var int15 = DB_GETFIELDCOUNT(int4, 360720);
     var int16 = MIN(int14, 4);
     define_array[33](4);
-    var int17 = -1 as dbrow;
-    var int18 = -1 as obj;
+    var int17 = -1;
+    var int18 = -1;
     var int19 = -1;
     var int20 = -1;
-    while ((++int20 < 4)) {
+    int20 = (int20 + 1);
+    while ((int20 < 4)) {
         if ((int20 < int16)) {
             [int18, int19] = dbrow_getfield(int4, 360688, int20);
             pop_array(int20, int18);
@@ -39,7 +40,8 @@ function script14746(int0: number, int1: number, int2: number, int3: number, int
     };
     int16 = MIN(int15, 4);
     int20 = -1;
-    while ((++int20 < 4)) {
+    int20 = (int20 + 1);
+    while ((int20 < 4)) {
         if ((int20 < int16)) {
             [int17, int19] = dbrow_getfield(int4, 360720, int20);
             if ((DB_GETROWTABLE(int17) == 89)) {
@@ -57,15 +59,20 @@ function script14746(int0: number, int1: number, int2: number, int3: number, int
     var int21 = (int1 - int10);
     int11 = ((int8 + 4) + 4);
     var int22 = 35;
-    var int23 = (((35 + 2) + 2) + enum_getvalue(25, 0, 8549 as cs2enum, 26 as fontmetrics));
-    if (((MAP_MEMBERS() == 0) && (dbrow_getfield(int4, 360496, 0) == true))) {
-        int21 = MAX(int21, ((int22 + int23) + (2 * 2)));
-        int1 = (int10 + ((((int21 - int22) - int23) - (2 * 2)) / 2));
-        script7924(int0, IF_GETNEXTSUBID(int0), 35, 32, int11, int1, 21354, 0, 0, 0, 0);
-        int1 = (int1 + (35 + (2 * 2)));
+    var int23 = (((35 + 2) + 2) + enum_getvalue(25, 0, 8549, 26));
+    if ((MAP_MEMBERS() == 0)) {
+        if ((dbrow_getfield(int4, 360496, 0) == 1)) {
+            int21 = MAX(int21, ((int22 + int23) + (2 * 2)));
+            int1 = (int10 + ((((int21 - int22) - int23) - (2 * 2)) / 2));
+            script7924(int0, IF_GETNEXTSUBID(int0), 35, 32, int11, int1, 21354, 0, 0, 0, 0);
+            int1 = (int1 + (35 + (2 * 2)));
+        } else {
+            int21 = MAX(int21, int23);
+            int1 = (int10 + ((((int21 - (35 + 2)) - enum_getvalue(25, 0, 8549, 26)) - (2 * 2)) / 2));
+        };
     } else {
         int21 = MAX(int21, int23);
-        int1 = (int10 + ((((int21 - (35 + 2)) - enum_getvalue(25, 0, 8549 as cs2enum, 26 as fontmetrics)) - (2 * 2)) / 2));
+        int1 = (int10 + ((((int21 - (35 + 2)) - enum_getvalue(25, 0, 8549, 26)) - (2 * 2)) / 2));
     };
     script14761(int0, int11, int1, 35, 28, dbrow_getfield(int4, 360512, 0), int13);
     if ((int6 > int21)) {

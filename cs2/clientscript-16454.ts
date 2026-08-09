@@ -1,23 +1,22 @@
 //
 function script16454(): void {
-    var int0 = comp(1486, 14);
+    var int0 = 97386510;
     var int1 = cc_getparam(4261);
     stack(700416);
     stack(int1);
     DB_FIND(0);
-    dbrow_findnext();
-    var int2 = stack();
+    var int2 = dbrow_findnext();
     if ((int2 == -1)) {
         return;
     };
     if ((dbrow_getfield(int2, 700416, 0) <= 0)) {
         return;
     };
-    var int3 = -1 as struct;
+    var int3 = -1;
     var int4 = 0;
     var int5 = 1;
     [int3, int4] = dbrow_getfield(int2, 700464, 0);
-    if ((int3 != -1 as struct)) {
+    if ((int3 != -1)) {
         int5 = DB_GETFIELDCOUNT(int2, 700464);
     };
     var int6 = 200;
@@ -37,18 +36,19 @@ function script16454(): void {
     var string2 = "";
     var string3 = "";
     var int14 = -1;
-    var int15 = -1 as obj;
+    var int15 = -1;
     var int16 = 0;
     var int17 = 0;
     var int18 = 0;
     int8 = -1;
-    while ((++int8 < int5)) {
+    int8 = (int8 + 1);
+    while ((int8 < int5)) {
         [int3, int4] = dbrow_getfield(int2, 700464, int8);
         if ((int8 == 0)) {
-            if (((int3 != -1 as struct) && (struct_getparam(int3, 2190) == 1))) {
+            if (((int3 != -1) && (struct_getparam(int3, 2190) == 1))) {
                 int12 = 1;
             };
-            if ((int10 != -1 as struct)) {
+            if ((int10 != -1)) {
                 [int11, string0, int13] = script16461(int10, int12);
             };
             int7 = script14747(int0, 0, int7, (int6 * int9), string1, int13, 0);
@@ -71,7 +71,7 @@ function script16454(): void {
         int11 = 1;
         string0 = "";
         int13 = -1;
-        int15 = -1 as obj;
+        int15 = -1;
         switch (int4) {
             case 1: {
                 int14 = 52868;
@@ -127,9 +127,29 @@ function script16454(): void {
                 break;
             }
             default: {
-                if (((int3 != -1 as struct) && (struct_getparam(int3, 1998) == 24932 as seq))) {
-                    int14 = 52869;
-                    string2 = "Net";
+                if ((int3 != -1)) {
+                    if ((struct_getparam(int3, 1998) == 24932)) {
+                        int14 = 52869;
+                        string2 = "Net";
+                    } else {
+                        switch (int1) {
+                            case 25: {
+                                int14 = 52869;
+                                string2 = "Net";
+                                break;
+                            }
+                            case 36: {
+                                int14 = 311;
+                                string2 = "Harpoon/Cage";
+                                break;
+                            }
+                            default: {
+                                int14 = 307;
+                                string2 = "Catch";
+                                break;
+                            }
+                        };
+                    };
                 } else {
                     switch (int1) {
                         case 25: {
@@ -152,28 +172,28 @@ function script16454(): void {
                 break;
             }
         };
-        if ((int3 != -1 as struct)) {
+        if ((int3 != -1)) {
             int15 = struct_getparam(int3, 2004);
-            if (((int15 == -1 as obj) && (int4 == 3))) {
-                int15 = 313 as obj;
+            if (((int15 == -1) && (int4 == 3))) {
+                int15 = 313;
             };
             switch (int1) {
                 case 37: {
-                    int15 = 3150 as obj;
+                    int15 = 3150;
                     break;
                 }
                 case 24: {
                     switch (int3) {
                         case 39515: {
-                            int15 = 42238 as obj;
+                            int15 = 42238;
                             break;
                         }
                         case 39517: {
-                            int15 = 42240 as obj;
+                            int15 = 42240;
                             break;
                         }
                         case 39516: {
-                            int15 = 42239 as obj;
+                            int15 = 42239;
                             break;
                         }
                     };
@@ -181,7 +201,7 @@ function script16454(): void {
                 }
             };
         };
-        if ((int15 != -1 as obj)) {
+        if ((int15 != -1)) {
             string3 = OC_NAME(int15);
             if ((STRING_LENGTH(string3) < 16)) {
                 string2 = strconcat(string2, "<br>(");

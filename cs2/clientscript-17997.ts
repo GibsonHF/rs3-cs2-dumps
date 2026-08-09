@@ -8,11 +8,11 @@ function script17997(int0: number): void {
     script17982(100);
     script17946(80412743, 1, 0, 0, 0, 0, 0, 0, 1, 1, 7930);
     script17946(80412751, 1, 0, 0, 0, 0, 0, 0, 1, 1, 7929);
-    CC_DELETEALL(80412736);
+    CC_DELETEALL(comp(1227, 64));
     script7852(80412736, 1, 0, 0, 0, 0, 0, 0, 1, 1, script17989(26), "<col=E0D471>Claim All</col>");
-    CC_SETTEXTFONT(57);
+    CC_SETTEXTFONT(57 as fontmetrics);
     CC_SETOP(1, "Claim All");
-    CC_DELETEALL(80412738);
+    CC_DELETEALL(comp(1227, 66));
     var string0 = "Back";
     if ((MAP_LANG() == 0)) {
         string0 = "Back to Track";
@@ -20,8 +20,8 @@ function script17997(int0: number): void {
     script7852(80412738, 1, 0, 0, 0, 0, 0, 0, 1, 1, script17989(24), `<col=E0D471>${string0}</col>`);
     CC_SETOP(1, string0);
     CC_SETONOP(callback(script17996));
-    CC_SETTEXTFONT(57);
-    CC_DELETEALL(80412737);
+    CC_SETTEXTFONT(57 as fontmetrics);
+    CC_DELETEALL(comp(1227, 65));
     var int1 = script17989(27);
     if ((varplayer_11339 == script17854())) {
         int1 = 8376;

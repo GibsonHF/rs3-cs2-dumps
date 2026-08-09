@@ -6,7 +6,7 @@ function script17070(int0: number, int1: number, int2: number, int3: number, int
     var int13 = ((int12 * int3) + int2);
     var int14 = 9178 as graphic;
     var int15 = 9179;
-    var int16 = 33679;
+    var int16 = 33679 as graphic;
     if ((int9 == 0)) {
         int10 = script16491(varbitplayer_55314);
     } else {
@@ -16,9 +16,19 @@ function script17070(int0: number, int1: number, int2: number, int3: number, int
     CC_SETSIZE(60, 27, 0, 0);
     CC_SETPOSITION(int1, int13, 0, 0);
     var int17 = 16747520;
-    if (((varbitplayer_19009 == 1) && (((int9 == 1) && (int11 >= 99)) || ((int9 == 0) && (int10 >= 99))))) {
-        int14 = 14833 as graphic;
-        int15 = 14834;
+    if ((varbitplayer_19009 == 1)) {
+        if ((int9 == 1)) {
+            if ((int11 >= 99)) {
+                int14 = 14833 as graphic;
+                int15 = 14834;
+            } else if (((int9 == 0) && (int10 >= 99))) {
+                int14 = 14833 as graphic;
+                int15 = 14834;
+            };
+        } else if (((int9 == 0) && (int10 >= 99))) {
+            int14 = 14833 as graphic;
+            int15 = 14834;
+        };
     };
     CC_SETGRAPHIC(int14);
     CC_SETONMOUSEOVER(callback(script688, -2147483645, 29, int15));
@@ -30,7 +40,7 @@ function script17070(int0: number, int1: number, int2: number, int3: number, int
     CC_CREATE(int6, 4, 29);
     CC_SETSIZE(18, 11, 0, 0);
     CC_SETPOSITION((int1 + 24), (int13 + 2), 0, 0);
-    CC_SETTEXTFONT(66);
+    CC_SETTEXTFONT(66 as fontmetrics);
     CC_SETTEXTALIGN(1, 1, 0);
     CC_SETCOLOUR(int17);
     if ((int9 == 1)) {

@@ -16,7 +16,7 @@ function script8078(int0: number, int1: number, int2: number): void {
             script8080(5, int5, int6);
             script8080(2, int5, int6);
             script6247(int5, int6);
-            IF_SETONTIMER(callback(script8078, IF_GETWIDTH(comp(1477, 45)), IF_GETHEIGHT(comp(1477, 45)), 96796717), 96796717);
+            IF_SETONTIMER(callback(script8078, IF_GETWIDTH(comp(1477, 45)), IF_GETHEIGHT(comp(1477, 45)), 96796717), comp(1477, 45));
         };
     };
     return;

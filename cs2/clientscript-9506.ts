@@ -14,6 +14,6 @@ function script9506(int0: number, int1: number): void {
         int2 = 1;
     };
     IF_SETSIZE(int2, 0, 0, 1, comp(749, 5));
-    IF_SETONMOUSEREPEAT(callback(script9508, -2147483645, -2147483647, -2147483646, int0), 49086526);
+    IF_SETONMOUSEREPEAT(callback(script9508, -2147483645, -2147483647, -2147483646, int0), comp(749, 62));
     return;
 }

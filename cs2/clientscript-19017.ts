@@ -12,8 +12,10 @@ function script19017(int0: number, int1: number, int2: number): void {
     if ((CC_FIND(comp(1870, 4), (varbitplayer_43520 * int6)) == 1)) {
         CC_SETGRAPHIC(int3);
     };
-    if ((((int4 != -1 as graphic) || (int5 != -1)) && (CC_FIND(comp(1870, 4), ((varbitplayer_43520 * int6) + 2)) == 1))) {
-        CC_SETGRAPHIC(-1 as graphic);
+    if (((int4 != -1 as graphic) || (int5 != -1))) {
+        if ((CC_FIND(comp(1870, 4), ((varbitplayer_43520 * int6) + 2)) == 1)) {
+            CC_SETGRAPHIC(-1 as graphic);
+        };
     };
     if (((int9 != -1 as graphic) && (CC_FIND(comp(1870, 4), ((varbitplayer_43520 * int6) + 3)) == 1))) {
         CC_SETGRAPHIC(int9);
@@ -22,8 +24,10 @@ function script19017(int0: number, int1: number, int2: number): void {
     if ((CC_FIND(comp(1870, 4), (int1 * int6)) == 1)) {
         CC_SETGRAPHIC(int3);
     };
-    if ((((int4 != -1 as graphic) || (int5 != -1)) && (CC_FIND(comp(1870, 4), ((int1 * int6) + 2)) == 1))) {
-        CC_SETGRAPHIC(int4);
+    if (((int4 != -1 as graphic) || (int5 != -1))) {
+        if ((CC_FIND(comp(1870, 4), ((int1 * int6) + 2)) == 1)) {
+            CC_SETGRAPHIC(int4);
+        };
     };
     if (((int8 != -1 as graphic) && (CC_FIND(comp(1870, 4), ((int1 * int6) + 3)) == 1))) {
         CC_SETGRAPHIC(int8);

@@ -31,14 +31,14 @@ function script7533(int0: number, int1: number, int2: number, int3: number, int4
         CC_CREATE(int0, 4, IF_GETNEXTSUBID(int0));
         CC_SETSIZE((int8 - (36 + 5)), int9, 0, 0);
         CC_SETPOSITION(((int6 + 10) + 36), int7, 0, 0);
-        CC_SETTEXTFONT(26);
+        CC_SETTEXTFONT(26 as fontmetrics);
         CC_SETTEXTALIGN(1, 1, 0);
-        CC_SETCOLOUR(IF_GETCOLOUR(91357196));
-        CC_SETTEXTSHADOW(1);
+        CC_SETCOLOUR(IF_GETCOLOUR(comp(1394, 12)));
+        CC_SETTEXTSHADOW(true);
         [int16, int17] = [struct_getparam(int5, 3248), struct_getparam(int5, 3249)];
-        [int18, int19] = [enum_getvalue(0, 0, 7321, int16), enum_getvalue(0, 0, 7322, int16)];
+        [int18, int19] = [enum_getvalue(0, 0, 7321 as cs2enum, int16), enum_getvalue(0, 0, 7322 as cs2enum, int16)];
         [int18, int19] = [(int18 * int17), (int19 * int17)];
-        if ((struct_getparam(int5, 3251) == 1)) {
+        if ((struct_getparam(int5, 3251) == true)) {
             [int18, int19] = [SCALE(111, 100, int18), SCALE(111, 100, int19)];
         };
         if ((int4 == 11507)) {

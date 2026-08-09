@@ -28,40 +28,43 @@ function script12233(int0: number, int1: number, int2: number, int3: number, int
         pop_array(int27, script8108(int3, int4, int27));
         int27 = (int27 + 1);
     };
-    while (((int24 < int12) && (int15 < int6))) {
-        int26 = 1;
-        [int25, int17, string0, int20, int21, int22, int23] = script12003(int11, int24);
-        CC_CREATE(int0, 5, int24);
-        CC_SETSIZE(int7, int8, 0, 0);
-        CC_SETPOSITION(push_array(MODULO(int15, int2)), (((int15 / int2) * int5) + 3), 0, 0);
-        int18 = script7821(int25, int0, int24);
-        int19 = script12248(int24);
-        if ((int1 == 37672)) {
-            script12004(int0, string0, int25, int1, int24, int11);
-        } else {
-            if ((((varbitplayer_45116 == 0) && (varbitplayer_45115 == 1)) && (int18 == 0))) {
-                int26 = 0;
-            };
-            if ((((varbitplayer_45116 == 1) && (int17 == 0)) && (int19 == 0))) {
-                int26 = 0;
-            };
-            if ((int26 == 1)) {
-                CC_SETHIDE(false);
+    while ((int24 < int12)) {
+        if ((int15 < int6)) {
+            int26 = 1;
+            [int25, int17, string0, int20, int21, int22, int23] = script12003(int11, int24);
+            CC_CREATE(int0, 5, int24);
+            CC_SETSIZE(int7, int8, 0, 0);
+            CC_SETPOSITION(push_array(MODULO(int15, int2)), (((int15 / int2) * int5) + 3), 0, 0);
+            int18 = script7821(int25, int0, int24);
+            int19 = script12248(int24);
+            if ((int1 == 37672)) {
                 script12004(int0, string0, int25, int1, int24, int11);
             } else {
-                CC_SETHIDE(true);
+                if ((((varbitplayer_45116 == 0) && (varbitplayer_45115 == 1)) && (int18 == 0))) {
+                    int26 = 0;
+                };
+                if ((((varbitplayer_45116 == 1) && (int17 == 0)) && (int19 == 0))) {
+                    int26 = 0;
+                };
+                if ((int26 == 1)) {
+                    CC_SETHIDE(false);
+                    script12004(int0, string0, int25, int1, int24, int11);
+                } else {
+                    CC_SETHIDE(true);
+                };
             };
+            CC_CREATE(struct_getparam(int1, 8128), 5, int24);
+            CC_SETSIZE(int9, int10, 0, 0);
+            CC_SETPOSITION((push_array(MODULO(int15, int2)) - 2), (((int15 / int2) * int5) + 1), 0, 0);
+            if (((int0 != comp(1890, 38)) && (CC_FIND(struct_getparam(int1, 8128), int24) == 1))) {
+                CC_SETGRAPHIC(int20);
+            };
+            if (((int1 == 37672) || (int26 == 1))) {
+                int15 = (int15 + 1);
+            };
+            int24 = (int24 + 1);
         };
-        CC_CREATE(struct_getparam(int1, 8128), 5, int24);
-        CC_SETSIZE(int9, int10, 0, 0);
-        CC_SETPOSITION((push_array(MODULO(int15, int2)) - 2), (((int15 / int2) * int5) + 1), 0, 0);
-        if (((int0 != comp(1890, 38)) && (CC_FIND(struct_getparam(int1, 8128), int24) == 1))) {
-            CC_SETGRAPHIC(int20);
-        };
-        if (((int1 == 37672) || (int26 == 1))) {
-            int15 = (int15 + 1);
-        };
-        int24 = (int24 + 1);
+        return;
     };
     return;
 }

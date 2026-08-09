@@ -6,7 +6,7 @@ function script13439(int0: number, int1: number, int2: number): void {
     var int6 = 122880078;
     var int7 = 122880083;
     var int8 = comp(1875, 79);
-    var int9 = 122880080;
+    var int9 = comp(1875, 80);
     var int10 = struct_getparam(int1, 6582);
     var int11 = struct_getparam(int1, 6583);
     var int12 = 0;
@@ -79,7 +79,7 @@ function script13439(int0: number, int1: number, int2: number): void {
             CC_CREATE[1](int9, 4, IF_GETNEXTSUBID(int9));
             CC_SETTEXT[1](inttostring(int20, 10));
             CC_SETPOSITION[1]((int21 + 2), 0, 0, 0);
-            CC_SETTEXTFONT[1](26);
+            CC_SETTEXTFONT[1](26 as fontmetrics);
             CC_SETSIZE[1](40, 22, 0, 0);
             CC_SETCOLOUR[1](16777215);
             CC_SETTEXTALIGN[1](1, 1, 0);

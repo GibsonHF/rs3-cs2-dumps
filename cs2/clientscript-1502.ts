@@ -179,6 +179,7 @@ function script1502(int0: number): number {
             return 59;
         }
         case 66650314: {
+            break;
         }
         default: {
             return -1;

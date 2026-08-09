@@ -27,7 +27,7 @@ function script20607(int0: number, int1: number, int2: number, int3: number, int
     string0 = "";
     var string3 = "";
     var string4 = "";
-    if ((((int1 != -1 as dbrow) && (DB_GETROWTABLE(int1) == 348)) && (dbrow_getfield(int1, 1425728, 0) == true))) {
+    if ((((int1 != -1 as dbrow) && (DB_GETROWTABLE(int1) == 348)) && (dbrow_getfield(int1, 1425728, 0) == 1))) {
         if ((DB_GETFIELDCOUNT(int1, 1425744) > 0)) {
             if ((int7 == 1)) {
                 string3 = `<col=32FA32>${dbrow_getfield(int1, 1425760, 0)}</col>`;

@@ -6,8 +6,18 @@ function script6347(int0: number): void {
     var int4 = CLIENTOPTION_GET(25);
     var int5 = CLIENTOPTION_GET(26);
     if ((varplayer_1754 != 0)) {
-        if ((((varclient_1882 == 1) && (PLAYERMEMBER() == false)) && (USERDETAIL_LOBBY_PLAYAGE() > 0))) {
-            IF_SETONTIMER(callback(script1999, 59375616, 0, int1, int2, int3, int4, int5), 59375616);
+        if ((varclient_1882 == 1)) {
+            if ((PLAYERMEMBER() == false)) {
+                if ((USERDETAIL_LOBBY_PLAYAGE() > 0)) {
+                    IF_SETONTIMER(callback(script1999, 59375616, 0, int1, int2, int3, int4, int5), comp(906, 0));
+                } else {
+                    IF_SETONTIMER(callback(), comp(906, 0));
+                    script1299();
+                };
+            } else {
+                IF_SETONTIMER(callback(), comp(906, 0));
+                script1299();
+            };
         } else {
             IF_SETONTIMER(callback(), comp(906, 0));
             script1299();

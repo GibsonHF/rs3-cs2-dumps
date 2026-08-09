@@ -12,14 +12,24 @@ function script19816(): number {
     var int9 = -1;
     var int10 = -1;
     var int11 = 0;
-    script7918(13, int7++, int0, 5, 0, 0, 120, 120, 0, 0, 34743);
-    script7918(13, int7++, int0, 130, 0, 0, 120, 120, 0, 0, 34742);
+    stack(13);
+    stack(int7);
+    int7 = (int7 + 1);
+    script7918(int0, 5, 0, 0, 120, 120, 0, 0, 34743);
+    stack(13);
+    stack(int7);
+    int7 = (int7 + 1);
+    script7918(int0, 130, 0, 0, 120, 120, 0, 0, 34742);
     int0 = (int0 + 150);
     var int12 = 0;
-    while ((++int1 < int6)) {
+    int1 = (int1 + 1);
+    while ((int1 < int6)) {
         if ((int1 < int4)) {
             if ((int12 == 0)) {
-                script7918(13, int7++, (int0 - 55), (5 + 25), 0, 0, 89, 50, 0, 0, 34747);
+                stack(13);
+                stack(int7);
+                int7 = (int7 + 1);
+                script7918((int0 - 55), (5 + 25), 0, 0, 89, 50, 0, 0, 34747);
             };
             script7918(10, int1, int0, 5, 0, 0, 120, 120, 0, 0, 34739);
             script19798(10, int1, 34739, 34740);
@@ -29,17 +39,29 @@ function script19816(): number {
             int10 = dbrow_getfield(int8, 1273890, 0);
             int9 = dbrow_getfield(int8, 1273873, 0);
             if ((int10 != -1)) {
-                script7918(13, int7++, (int0 + 25), (5 + 22), 0, 0, 70, 70, 0, 0, int10);
+                stack(13);
+                stack(int7);
+                int7 = (int7 + 1);
+                script7918((int0 + 25), (5 + 22), 0, 0, 70, 70, 0, 0, int10);
             } else if ((int9 != -1)) {
-                script17950(13, int7++, (int0 + 25), (5 + 22), 0, 0, 70, 70, 0, 0, int9, 0);
+                stack(13);
+                stack(int7);
+                int7 = (int7 + 1);
+                script17950((int0 + 25), (5 + 22), 0, 0, 70, 70, 0, 0, int9, 0);
             };
             if ((varbitplayer_57155 >= (int1 + 1))) {
-                script7918(13, int7++, int0, 5, 0, 0, 120, 120, 0, 0, 34744);
+                stack(13);
+                stack(int7);
+                int7 = (int7 + 1);
+                script7918(int0, 5, 0, 0, 120, 120, 0, 0, 34744);
             };
         };
         if ((int1 < int5)) {
             if ((int12 == 0)) {
-                script7918(13, int7++, (int0 - 55), (130 + 45), 0, 0, 89, 50, 0, 0, 34746);
+                stack(13);
+                stack(int7);
+                int7 = (int7 + 1);
+                script7918((int0 - 55), (130 + 45), 0, 0, 89, 50, 0, 0, 34746);
             };
             script7918(11, int1, int0, 130, 0, 0, 120, 120, 0, 0, 34739);
             script19798(11, int1, 34739, 34740);
@@ -49,41 +71,68 @@ function script19816(): number {
             int10 = dbrow_getfield(int8, 1273890, 0);
             int9 = dbrow_getfield(int8, 1273873, 0);
             if ((int10 != -1)) {
-                script7918(13, int7++, (int0 + 25), (130 + 22), 0, 0, 70, 70, 0, 0, int10);
+                stack(13);
+                stack(int7);
+                int7 = (int7 + 1);
+                script7918((int0 + 25), (130 + 22), 0, 0, 70, 70, 0, 0, int10);
             } else if ((int9 != -1)) {
-                script17950(13, int7++, (int0 + 25), (130 + 22), 0, 0, 70, 70, 0, 0, int9, 0);
+                stack(13);
+                stack(int7);
+                int7 = (int7 + 1);
+                script17950((int0 + 25), (130 + 22), 0, 0, 70, 70, 0, 0, int9, 0);
             };
             if ((varbitplayer_57156 >= (int1 + 1))) {
-                script7918(13, int7++, int0, 130, 0, 0, 120, 120, 0, 0, 34744);
+                stack(13);
+                stack(int7);
+                int7 = (int7 + 1);
+                script7918(int0, 130, 0, 0, 120, 120, 0, 0, 34744);
             };
             int12 = 0;
         };
         if (((DB_GETFIELDCOUNT(14848 as dbrow, 1277952) > int11) && (int1 == (dbrow_getfield(14848 as dbrow, 1277953, int11) - 1)))) {
             int0 = (int0 + 150);
-            script7918(13, int7++, (int0 - 55), (5 + 45), 0, 0, 117, 138, 0, 0, 34749);
+            stack(13);
+            stack(int7);
+            int7 = (int7 + 1);
+            script7918((int0 - 55), (5 + 45), 0, 0, 117, 138, 0, 0, 34749);
             script7918(12, int1, int0, 60, 0, 0, 120, 120, 0, 0, 34739);
             script19798(12, int1, 34739, 34740);
             CC_SETOP(1, "Select");
             CC_SETONOP(callback(script19817, 3, int11));
-            dbrow_getfield(14848, 1277952, int11);
-            int10 = dbrow_getfield(14848, 1277957, int11);
-            int9 = dbrow_getfield(14848, 1277954, int11);
+            dbrow_getfield(14848 as dbrow, 1277952, int11);
+            int10 = dbrow_getfield(14848 as dbrow, 1277957, int11);
+            int9 = dbrow_getfield(14848 as dbrow, 1277954, int11);
             if ((int10 != -1)) {
-                script7918(13, int7++, (int0 + 25), (60 + 22), 0, 0, 70, 70, 0, 0, int10);
+                stack(13);
+                stack(int7);
+                int7 = (int7 + 1);
+                script7918((int0 + 25), (60 + 22), 0, 0, 70, 70, 0, 0, int10);
             } else if ((int9 != -1)) {
-                script17950(13, int7++, (int0 + 25), (60 + 22), 0, 0, 70, 70, 0, 0, int9, 0);
+                stack(13);
+                stack(int7);
+                int7 = (int7 + 1);
+                script17950((int0 + 25), (60 + 22), 0, 0, 70, 70, 0, 0, int9, 0);
             };
             if ((TESTBIT(varbitplayer_57157, int11) == 1)) {
-                script7918(13, int7++, int0, 60, 0, 0, 120, 120, 0, 0, 34744);
+                stack(13);
+                stack(int7);
+                int7 = (int7 + 1);
+                script7918(int0, 60, 0, 0, 120, 120, 0, 0, 34744);
             };
-            script7918(13, int7++, (int0 + 62), (5 + 45), 0, 0, 117, 138, 0, 0, 34748);
+            stack(13);
+            stack(int7);
+            int7 = (int7 + 1);
+            script7918((int0 + 62), (5 + 45), 0, 0, 117, 138, 0, 0, 34748);
             int12 = 1;
             int11 = (int11 + 1);
         };
         int0 = (int0 + 150);
     };
     if ((int12 == 0)) {
-        script7918(13, int7++, (int0 - 55), (5 + 25), 0, 0, 89, 50, 0, 0, 34747);
+        stack(13);
+        stack(int7);
+        int7 = (int7 + 1);
+        script7918((int0 - 55), (5 + 25), 0, 0, 89, 50, 0, 0, 34747);
     };
     script7918(10, int6, int0, 5, 0, 0, 120, 120, 0, 0, 34739);
     script19798(10, int1, 34739, 34740);
@@ -93,13 +142,25 @@ function script19816(): number {
     int10 = dbrow_getfield(int8, 1273890, 0);
     int9 = dbrow_getfield(int8, 1273873, 0);
     if ((int10 != -1)) {
-        script7918(13, int7++, (int0 + 25), (5 + 22), 0, 0, 70, 70, 0, 0, int10);
+        stack(13);
+        stack(int7);
+        int7 = (int7 + 1);
+        script7918((int0 + 25), (5 + 22), 0, 0, 70, 70, 0, 0, int10);
     } else if ((int9 != -1)) {
-        script17950(13, int7++, (int0 + 25), (5 + 22), 0, 0, 70, 70, 0, 0, int9, 0);
+        stack(13);
+        stack(int7);
+        int7 = (int7 + 1);
+        script17950((int0 + 25), (5 + 22), 0, 0, 70, 70, 0, 0, int9, 0);
     };
-    script7918(13, int7++, (int0 + 30), 5, 0, 0, 25, 15, 0, 0, 4147);
+    stack(13);
+    stack(int7);
+    int7 = (int7 + 1);
+    script7918((int0 + 30), 5, 0, 0, 25, 15, 0, 0, 4147);
     if ((int12 == 0)) {
-        script7918(13, int7++, (int0 - 55), (130 + 45), 0, 0, 89, 50, 0, 0, 34746);
+        stack(13);
+        stack(int7);
+        int7 = (int7 + 1);
+        script7918((int0 - 55), (130 + 45), 0, 0, 89, 50, 0, 0, 34746);
     };
     script7918(11, int6, int0, 130, 0, 0, 120, 120, 0, 0, 34739);
     script19798(11, int1, 34739, 34740);
@@ -109,10 +170,20 @@ function script19816(): number {
     int10 = dbrow_getfield(int8, 1273890, 0);
     int9 = dbrow_getfield(int8, 1273873, 0);
     if ((int10 != -1)) {
-        script7918(13, int7++, (int0 + 25), (130 + 22), 0, 0, 70, 70, 0, 0, int10);
+        stack(13);
+        stack(int7);
+        int7 = (int7 + 1);
+        script7918((int0 + 25), (130 + 22), 0, 0, 70, 70, 0, 0, int10);
     } else if ((int9 != -1)) {
-        script17950(13, int7++, (int0 + 25), (130 + 22), 0, 0, 70, 70, 0, 0, int9, 0);
+        stack(13);
+        stack(int7);
+        int7 = (int7 + 1);
+        script17950((int0 + 25), (130 + 22), 0, 0, 70, 70, 0, 0, int9, 0);
     };
-    script7918(13, int7++, (int0 + 30), 130, 0, 0, 25, 15, 0, 0, 4147);
-    return ++int0;
+    stack(13);
+    stack(int7);
+    int7 = (int7 + 1);
+    script7918((int0 + 30), 130, 0, 0, 25, 15, 0, 0, 4147);
+    int0 = (int0 + 180);
+    return int0;
 }

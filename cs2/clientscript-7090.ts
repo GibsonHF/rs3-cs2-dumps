@@ -3,7 +3,7 @@ function script7090(int0: number): number {
     switch (OC_CATEGORY(int0)) {
         case 35: {
             if ((item_getparam(int0, 1047) == 0)) {
-                if ((int0 == 1351 as obj)) {
+                if ((int0 == 1351)) {
                     return 1;
                 };
                 if ((enum_hasoutput(33, 6397 as cs2enum, int0) == 1)) {
@@ -18,7 +18,7 @@ function script7090(int0: number): number {
         }
         case 67: {
             if ((item_getparam(int0, 1047) == 0)) {
-                if ((int0 == 1265 as obj)) {
+                if ((int0 == 1265)) {
                     return 1;
                 };
                 if ((enum_hasoutput(33, 2433 as cs2enum, int0) == 1)) {

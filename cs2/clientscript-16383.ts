@@ -1,7 +1,7 @@
 //
 function script16383(int0: number, int1: number): number {
     var int2 = 0;
-    var int3 = -1 as dbrow;
+    var int3 = -1;
     switch (script16379()) {
         case 1: {
             int2 = DB_GETFIELDCOUNT(int0, 290864);

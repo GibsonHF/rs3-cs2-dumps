@@ -15,6 +15,6 @@ function script4452(int0: number, int1: number, int2: number, int3: number): voi
     var int1 = (int1 - int11);
     var int2 = (int2 + (int10 + int12));
     var int3 = (int3 + (int11 + int13));
-    UNKNOWN_COMMAND_127(int0, int1, int2, int3);
+    SET_MENU_SCREENRECT(int0, int1, int2, int3);
     return;
 }

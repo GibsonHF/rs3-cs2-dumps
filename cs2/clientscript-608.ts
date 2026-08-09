@@ -1,6 +1,6 @@
 //
 function script608(int0: number): void {
-    if ((int0 != comp(-1, 65535))) {
+    if ((int0 != -1)) {
         IF_SETOPBASE(`<col=00FF00>${varclient_2516}`, int0);
         IF_SETTARGETVERB("Cast", int0);
         if ((varclient_1436 == 1)) {

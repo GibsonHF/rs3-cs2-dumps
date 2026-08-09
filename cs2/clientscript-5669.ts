@@ -9,6 +9,6 @@ function script5669(): void {
     CC_SETTEXTFONT(27 as fontmetrics);
     CC_SETCOLOUR(script10495(3));
     CC_SETTEXTALIGN(0, 0, 0);
-    IF_SETTEXT(struct_getparam(varplayer_8242, 7695), comp(556, 9));
+    IF_SETTEXT(struct_getparam(varplayer_8242, 7695), 36438025);
     return;
 }

@@ -35,11 +35,15 @@ function script13406(int0: number, int1: number, int2: number, int3: number, int
         int10 = IF_SETPLAYERHEAD_SELF(WORLDMAP_LISTELEMENT_START(1515776, 52587, 3, 0));
         int9 = IF_SETPLAYERHEAD_SELF(int9, int10);
     };
-    if (((int2 > 0) && (int2 < 120))) {
-        if ((int6 == 1)) {
-            var int2 = MIN(int2, STAT(22 as stat));
+    if ((int2 > 0)) {
+        if ((int2 < 120)) {
+            if ((int6 == 1)) {
+                var int2 = MIN(int2, STAT(22 as stat));
+            };
+            int9 = IF_SETPLAYERHEAD_SELF(int9, WORLDMAP_LISTELEMENT_START(1515664, int2, 2, 0));
+        } else if (((int6 == 1) && (STAT(22 as stat) < 120))) {
+            int9 = IF_SETPLAYERHEAD_SELF(int9, WORLDMAP_LISTELEMENT_START(1515664, STAT(22 as stat), 2, 0));
         };
-        int9 = IF_SETPLAYERHEAD_SELF(int9, WORLDMAP_LISTELEMENT_START(1515664, int2, 2, 0));
     } else if (((int6 == 1) && (STAT(22 as stat) < 120))) {
         int9 = IF_SETPLAYERHEAD_SELF(int9, WORLDMAP_LISTELEMENT_START(1515664, STAT(22 as stat), 2, 0));
     };

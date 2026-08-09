@@ -21,7 +21,10 @@ function script84(int0: number): void {
         } else {
             [int2, int3, int4, int5, int6, int7, int8, int9, int10, int11, int12, int13] = script9910();
         };
+    } else if ((int0 == 1019)) {
+        [int2, int3, int4, int5, int6, int7, int8, int9, int10, int11, int12, int13] = script8546(int0);
     } else {
+        [int2, int3, int4, int5, int6, int7, int8, int9, int10, int11, int12, int13] = script9910();
     };
     define_array(147);
     var int14 = 0;
@@ -49,14 +52,28 @@ function script84(int0: number): void {
                 break;
             }
             case 1: {
-                if (((varbitplayer_27169 == 0) && ((varbitplayer_38842 == 1) || (varbitplayer_60441 == 0)))) {
-                    if ((int0 == 18)) {
+                if ((varbitplayer_27169 == 0)) {
+                    if (((varbitplayer_38842 == 1) || (varbitplayer_60441 == 0))) {
+                        if ((int0 == 18)) {
+                            pop_array(int14, 1);
+                        } else {
+                            pop_array(int14, int2);
+                        };
+                    } else if ((int0 != 1019)) {
+                        if (((varbitplayer_22846 == 2) || (varbitplayer_22846 == 0))) {
+                            pop_array(int14, 1);
+                        } else {
+                            pop_array(int14, int5);
+                        };
+                    } else {
+                        pop_array(int14, int5);
+                    };
+                } else if ((int0 != 1019)) {
+                    if (((varbitplayer_22846 == 2) || (varbitplayer_22846 == 0))) {
                         pop_array(int14, 1);
                     } else {
-                        pop_array(int14, int2);
+                        pop_array(int14, int5);
                     };
-                } else if (((int0 != 1019) && ((varbitplayer_22846 == 2) || (varbitplayer_22846 == 0)))) {
-                    pop_array(int14, 1);
                 } else {
                     pop_array(int14, int5);
                 };
@@ -98,8 +115,14 @@ function script84(int0: number): void {
             case 7: {
                 switch (int0) {
                     case 18: {
-                        if (((varbitplayer_27169 == 0) && ((varbitplayer_38842 == 1) || (varbitplayer_60441 == 0)))) {
-                            pop_array(int14, 1);
+                        if ((varbitplayer_27169 == 0)) {
+                            if (((varbitplayer_38842 == 1) || (varbitplayer_60441 == 0))) {
+                                pop_array(int14, 1);
+                            } else if ((((varbitplayer_22846 == 2) || (varbitplayer_22846 == 0)) || (varbitplayer_22846 == 3))) {
+                                pop_array(int14, 1);
+                            } else {
+                                pop_array(int14, int6);
+                            };
                         } else if ((((varbitplayer_22846 == 2) || (varbitplayer_22846 == 0)) || (varbitplayer_22846 == 3))) {
                             pop_array(int14, 1);
                         } else {
@@ -127,8 +150,37 @@ function script84(int0: number): void {
             case 30:
             case 31: {
                 if ((varbitplayer_27169 == 1)) {
-                } else if ((((((varbitplayer_38842 == 0) && (varbitplayer_60441 == 1)) && (int0 == 18)) && (varbitplayer_22846 == 0)) && (varbitplayer_20187 == 1))) {
-                    pop_array(int14, 0);
+                    if ((int0 == 18)) {
+                        if ((varbitplayer_22846 == 0)) {
+                            if ((varbitplayer_20187 == 1)) {
+                                pop_array(int14, 0);
+                            } else {
+                                pop_array(int14, int6);
+                            };
+                        } else {
+                            pop_array(int14, int6);
+                        };
+                    } else {
+                        pop_array(int14, int6);
+                    };
+                } else if ((varbitplayer_38842 == 0)) {
+                    if ((varbitplayer_60441 == 1)) {
+                        if ((int0 == 18)) {
+                            if ((varbitplayer_22846 == 0)) {
+                                if ((varbitplayer_20187 == 1)) {
+                                    pop_array(int14, 0);
+                                } else {
+                                    pop_array(int14, int6);
+                                };
+                            } else {
+                                pop_array(int14, int6);
+                            };
+                        } else {
+                            pop_array(int14, int6);
+                        };
+                    } else {
+                        pop_array(int14, int6);
+                    };
                 } else {
                     pop_array(int14, int6);
                 };
@@ -251,8 +303,7 @@ function script84(int0: number): void {
     var int20 = -1;
     var int21 = IF_GETWIDTH(int1);
     var int22 = -1;
-    stack(unk11059(int15));
-    [int17, string0, int18, string1, string2, string3, string4, int19, string5, int20, int22] = stack();
+    [int17, string0, int18, string1, string2, string3, string4, int19, string5, int20, int22] = unk11059(int15);
     var int23 = script4467();
     var int24 = script1891();
     var int25 = 1;
@@ -271,65 +322,68 @@ function script84(int0: number): void {
     };
     var int33 = 0;
     var int34 = 0;
-    while (((int33 < 200) && (int16 < 500))) {
-        if ((int17 > -1)) {
-            switch (int17) {
-                case 41:
-                case 43:
-                case 42: {
-                    if ((int22 == 1)) {
-                        int34 = int13;
-                    } else {
-                        int34 = push_array(int17);
-                    };
-                    break;
-                }
-                default: {
-                    int34 = push_array(int17);
-                    break;
-                }
-            };
-            if (((int34 == 1) && (script8508(int0, int17, int18, string2, int20, int22) == 1))) {
-                CC_CREATE(int1, 4, int33);
-                script8505(int17, string5, int18, string1, string4, int22, int19, string0);
-                CC_SETTEXTFONT(int28);
-                CC_SETTEXTALIGN(0, 0, int29);
-                CC_SETTEXTSHADOW(true);
-                CC_SETPOSITION(0, int30, 0, int31);
-                script8506(int0, int17, string5, int18, string1, string2, int19, int23, int24, int22);
-                script16610(int17, int18);
-                cc_setparam(3443, int15);
-                CC_SETSIZE(0, (PARAHEIGHT(CC_GETTEXT(), int21, CC_GETFONTMETRICS()) * int29), 1, 0);
-                int30 = (int30 + CC_GETHEIGHT());
-                if ((int26 == 1)) {
-                    CC_SETTRANS(int32);
-                    int30 = (int30 + 4);
-                };
-                int33 = (int33 + 1);
-                script10487(int17, string3, int22);
-            };
-            if ((int25 == 1)) {
+    while ((int33 < 200)) {
+        if ((int16 < 500)) {
+            if ((int17 > -1)) {
                 switch (int17) {
-                    case 3:
-                    case 6:
-                    case 7:
-                    case 18:
-                    case 19: {
-                        varclient_2505 = REMOVETAGS(string2);
-                        int25 = 0;
+                    case 41:
+                    case 43:
+                    case 42: {
+                        if ((int22 == 1)) {
+                            int34 = int13;
+                        } else {
+                            int34 = push_array(int17);
+                        };
+                        break;
+                    }
+                    default: {
+                        int34 = push_array(int17);
                         break;
                     }
                 };
+                if (((int34 == 1) && (script8508(int0, int17, int18, string2, int20, int22) == 1))) {
+                    CC_CREATE(int1, 4, int33);
+                    script8505(int17, string5, int18, string1, string4, int22, int19, string0);
+                    CC_SETTEXTFONT(int28);
+                    CC_SETTEXTALIGN(0, 0, int29);
+                    CC_SETTEXTSHADOW(true);
+                    CC_SETPOSITION(0, int30, 0, int31);
+                    script8506(int0, int17, string5, int18, string1, string2, int19, int23, int24, int22);
+                    script16610(int17, int18);
+                    cc_setparam(3443, int15);
+                    CC_SETSIZE(0, (PARAHEIGHT(CC_GETTEXT(), int21, CC_GETFONTMETRICS()) * int29), 1, 0);
+                    int30 = (int30 + CC_GETHEIGHT());
+                    if ((int26 == 1)) {
+                        CC_SETTRANS(int32);
+                        int30 = (int30 + 4);
+                    };
+                    int33 = (int33 + 1);
+                    script10487(int17, string3, int22);
+                };
+                if ((int25 == 1)) {
+                    switch (int17) {
+                        case 3:
+                        case 6:
+                        case 7:
+                        case 18:
+                        case 19: {
+                            varclient_2505 = REMOVETAGS(string2);
+                            int25 = 0;
+                            break;
+                        }
+                    };
+                };
+            };
+            int15 = unk11132(int15);
+            if ((int15 != -1)) {
+                [int17, string0, int18, string1, string2, string3, string4, int19, string5, int20, int22] = unk11059(int15);
+                int16 = (int16 + 1);
+            } else {
+                int16 = 500;
             };
         };
-        int15 = unk11132(int15);
-        if ((int15 != -1)) {
-            stack(unk11059(int15));
-            [int17, string0, int18, string1, string2, string3, string4, int19, string5, int20, int22] = stack();
-            int16 = (int16 + 1);
-        } else {
-            int16 = 500;
-        };
+        script8504(int0, int30);
+        return;
     };
     script8504(int0, int30);
     return;

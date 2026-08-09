@@ -26,9 +26,12 @@ function script4794(int0: number, int1: number, int2: number, int3: number, int4
     var int31 = 0;
     var int32 = 0;
     var int33 = 0;
-    while (((int8 <= int0) && (int8 != 0))) {
-        var [int1, int2, int3, int4, int5, int6, int7, int9, int10, int11, int12, int13, int14, int15, int16, int17, int18, int19, int20, int28, int29, int30, int31, int32, int33, int21, int22, int23, int24, int25, int26, int27] = script4795(int8, int1, int2, int3, int4, int5, int6, int7);
-        int8 = (int8 + 1);
+    while ((int8 <= int0)) {
+        if ((int8 != 0)) {
+            [int1, int2, int3, int4, int5, int6, int7, int9, int10, int11, int12, int13, int14, int15, int16, int17, int18, int19, int20, int28, int29, int30, int31, int32, int33, int21, int22, int23, int24, int25, int26, int27] = script4795(int8, int1, int2, int3, int4, int5, int6, int7);
+            int8 = (int8 + 1);
+        };
+        return [int9, int10, int11, int12, int13, int14, int15, int16, int17, int18, int19, int20, int28, int29, int30, int31, int32, int33, int21, int22, int23, int24, int25, int26, int27];
     };
     return [int9, int10, int11, int12, int13, int14, int15, int16, int17, int18, int19, int20, int28, int29, int30, int31, int32, int33, int21, int22, int23, int24, int25, int26, int27];
 }

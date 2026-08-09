@@ -39,8 +39,8 @@ function script6851(int0: number, int1: number, int2: number, int3: number): voi
     if ((int8 == 0)) {
         script6852(int2);
         IF_SETONTIMER(callback(), comp(1354, 35));
-        SOUND_VORBIS_VOLUME(19101, 1, 0, 0);
-        SOUND_VORBIS_RATE(6758, 1, 0, 240, 280);
+        SOUND_VORBIS_VOLUME(19101 as vorbis, 1, 0, 0);
+        SOUND_VORBIS_RATE(6758 as vorbis, 1, 0, 240, 280);
         script6853(int2);
     };
     return;

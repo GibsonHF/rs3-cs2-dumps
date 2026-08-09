@@ -5,10 +5,10 @@ function script2371(int0: number): void {
     var int3 = (CLIENTCLOCK() + 800);
     SOUND_VORBIS_RATE(RANDOM_SOUND_PITCH(36961 as vorbis, 1, 0, int1, 15, 15));
     IF_SETONTIMER(callback(), comp(1253, 116));
-    IF_SETONTIMER(callback(script1549, int3), 82116719);
-    IF_SETGRAPHIC(29467, 82116721);
-    IF_SETGRAPHIC(29467, 82116722);
-    IF_SETGRAPHIC(29467, 82116723);
+    IF_SETONTIMER(callback(script1549, int3), comp(1253, 111));
+    IF_SETGRAPHIC(29467 as graphic, comp(1253, 113));
+    IF_SETGRAPHIC(29467 as graphic, comp(1253, 114));
+    IF_SETGRAPHIC(29467 as graphic, comp(1253, 115));
     switch (int0) {
         case 0: {
             IF_SETPOSITION(0, 0, 0, 0, comp(1253, 117));

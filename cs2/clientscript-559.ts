@@ -1,7 +1,8 @@
 //
 function script559(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number): void {
     var int6 = -1;
-    while ((++int6 < 4)) {
+    int6 = (int6 + 1);
+    while ((int6 < 4)) {
         CC_DELETEALL(enum_getvalue(0, 9, 5704 as cs2enum, (int6 + 1)));
         CC_DELETEALL(enum_getvalue(0, 9, 7933 as cs2enum, (int6 + 1)));
         CC_DELETEALL(enum_getvalue(0, 9, 7934 as cs2enum, (int6 + 1)));

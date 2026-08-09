@@ -61,11 +61,11 @@ function script15091(int0: number, int1: number, int2: number, int3: number, int
         CC_SETPOSITION(int8, int9, 0, 0);
         CC_SETONVARTRANSMIT(callback(script12874, int6, 6626, 1));
         CC_CREATE(int1, 5, IF_GETNEXTSUBID(int1));
-        CC_SETGRAPHIC(31696);
+        CC_SETGRAPHIC(31696 as graphic);
         CC_SETPOSITION((int8 + 12), int9, 0, 0);
         CC_SETSIZE(0, 19, 1, 0);
         CC_CREATE(int1, 5, IF_GETNEXTSUBID(int1));
-        CC_SETGRAPHIC(31697);
+        CC_SETGRAPHIC(31697 as graphic);
         CC_SETSIZE(12, 0, 0, 1);
         CC_SETPOSITION(0, int9, 2, 0);
     };
@@ -116,12 +116,24 @@ function script15091(int0: number, int1: number, int2: number, int3: number, int
             CC_SETHIDE(true);
         };
         if ((IF_GETNEXTSUBID(int4) == int10)) {
-            if (((int14 >= int11) && (int13 == 0))) {
-                int27 = 28303;
-                if ((item_getparam(int20, 4909) != -1 as graphic)) {
-                    int23 = item_getparam(int20, 4909);
+            if ((int14 >= int11)) {
+                if ((int13 == 0)) {
+                    int27 = 28303;
+                    if ((item_getparam(int20, 4909) != -1 as graphic)) {
+                        int23 = item_getparam(int20, 4909);
+                    };
+                    int24 = item_getparam(int20, 4915);
+                } else {
+                    int27 = 29356;
+                    if ((int14 < int11)) {
+                        int27 = 21363;
+                        int13 = 2;
+                        if ((item_getparam(int20, 4912) != -1 as graphic)) {
+                            int23 = item_getparam(int20, 4912);
+                        };
+                        int24 = item_getparam(int20, 4917);
+                    };
                 };
-                int24 = item_getparam(int20, 4915);
             } else {
                 int27 = 29356;
                 if ((int14 < int11)) {

@@ -11,9 +11,7 @@ function script16089(int0: number): [number, string] {
     var int4 = 0;
     var int5 = 0;
     while ((int5 < 12)) {
-        stack(1);
-        stack("null");
-        [int2, string1] = stack();
+        [int2, string1] = [1, "null"];
         switch (int5) {
             case 0: {
                 [int3, int4] = [struct_getparam(int0, 1294), struct_getparam(int0, 1295)];

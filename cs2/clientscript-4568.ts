@@ -30,9 +30,13 @@ function script4568(int0: number, int1: number, int2: number, int3: number, int4
             case 9:
             case 20: {
                 if ((strcmp(REMOVETAGS(CHAT_PLAYERNAME_UNFILTERED()), REMOVETAGS(string2)) != 0)) {
-                    if (((FRIEND_TEST(REMOVETAGS(string2)) == 0) && (IGNORE_TEST(REMOVETAGS(string2)) == 0))) {
-                        CC_SETOP(1, "Add friend");
-                        CC_SETOP(2, "Add ignore");
+                    if ((FRIEND_TEST(REMOVETAGS(string2)) == 0)) {
+                        if ((IGNORE_TEST(REMOVETAGS(string2)) == 0)) {
+                            CC_SETOP(1, "Add friend");
+                            CC_SETOP(2, "Add ignore");
+                        } else if (((FRIEND_TEST(REMOVETAGS(string2)) == 1) && (USERDETAIL_QUICKCHAT() == 0))) {
+                            CC_SETOP(3, "Message");
+                        };
                     } else if (((FRIEND_TEST(REMOVETAGS(string2)) == 1) && (USERDETAIL_QUICKCHAT() == 0))) {
                         CC_SETOP(3, "Message");
                     };

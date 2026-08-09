@@ -10,7 +10,8 @@ function script17817(int0: number): string {
     var int2 = 0;
     var int3 = script17512(int0);
     var int4 = -1;
-    while ((++int4 < int3)) {
+    int4 = (int4 + 1);
+    while ((int4 < int3)) {
         [int1, int2] = script17511(int0, int4);
         string0 = `${string0}<br>- ${inttostring(int2, 10)} x ${script17522(int1)}`;
     };
@@ -20,7 +21,8 @@ function script17817(int0: number): string {
     var int6 = 0;
     var int7 = script17505(int0);
     int4 = -1;
-    while ((++int4 < int7)) {
+    int4 = (int4 + 1);
+    while ((int4 < int7)) {
         [int5, int6] = script17504(int0, -1, int4);
         string0 = `${string0}<br>- ${inttostring(int6, 10)} x ${OC_NAME(int5)}`;
     };

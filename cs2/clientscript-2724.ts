@@ -70,7 +70,7 @@ function script2724(int0: number): void {
     if ((STAT_BASE(25 as stat) < int2)) {
         string0 = "<col=B52912>You cannot yet use this colony.</col><br>";
     };
-    string0 = strconcat(string0, enum_getvalue(0, 36, 7893 as cs2enum, int1));
+    string0 = strconcat(string0, enum_getvalue(0, 36, 7893, int1));
     IF_SETTEXT(string0, comp(92, 31));
     IF_SETHIDE(false, comp(92, 26));
     SOUND_VORBIS_VOLUME(36961 as vorbis, 1, 0, 120);

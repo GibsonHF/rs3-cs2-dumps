@@ -99,9 +99,16 @@ function script17966(int0: number, int1: number, int2: number, int3: number, int
     var int11 = 0;
     var int12 = 0;
     var int13 = (int3 - 8);
-    if (((int5 != -1) && (int10 == -1))) {
-        script17950(int1, int2, 0, 0, 1, 1, int13, int13, 0, 0, int5, int8);
-        var int2 = (int2 + 1);
+    if ((int5 != -1)) {
+        if ((int10 == -1)) {
+            script17950(int1, int2, 0, 0, 1, 1, int13, int13, 0, 0, int5, int8);
+            var int2 = (int2 + 1);
+        } else if ((int10 != -1)) {
+            script7918(int1, int2, 0, 0, 1, 1, int13, int13, 0, 0, int10);
+            int2 = (int2 + 1);
+        } else {
+            script12478("Unspecified reward drawing.");
+        };
     } else if ((int10 != -1)) {
         script7918(int1, int2, 0, 0, 1, 1, int13, int13, 0, 0, int10);
         int2 = (int2 + 1);
@@ -109,7 +116,7 @@ function script17966(int0: number, int1: number, int2: number, int3: number, int
         script12478("Unspecified reward drawing.");
     };
     if ((int8 > 1)) {
-        var [int1, int2] = script17967(int1, int2, int8);
+        [int1, int2] = script17967(int1, int2, int8);
     };
     var string0 = "";
     if (((script4148() == 1) && (script17885(int0) == 1))) {

@@ -8,9 +8,12 @@ function script13386(int0: number): number {
     };
     var int3 = RANDOM(int2);
     var int4 = enum_getvalue(0, 73, int0, int3);
-    while ((((int3 != 0) && (int4 == 1579 as struct)) || (int4 == enum_getvalue(0, 73, int0, int1)))) {
-        int3 = RANDOM(int2);
-        int4 = enum_getvalue(0, 73, int0, int3);
+    while ((int3 != 0)) {
+        if (((int4 == 1579 as struct) || (int4 == enum_getvalue(0, 73, int0, int1)))) {
+            int3 = RANDOM(int2);
+            int4 = enum_getvalue(0, 73, int0, int3);
+        };
+        return int3;
     };
     return int3;
 }

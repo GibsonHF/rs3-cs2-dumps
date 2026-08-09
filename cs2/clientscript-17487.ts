@@ -9,8 +9,6 @@ function script17487(int0: number): string {
     };
     switch (dbrow_getfield(int0, 954400, 0)) {
         case 1: {
-        }
-        default: {
             break;
         }
     };

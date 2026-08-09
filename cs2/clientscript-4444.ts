@@ -33,8 +33,8 @@ function script4444(int0: number, int1: number): void {
         int30 = 1;
     };
     IF_SETONCLANCHANNELTRANSMIT(callback(script4443, -1, int1), int5);
-    IF_SETGRAPHIC(6255, int14);
-    IF_SETHIDE(1, int10);
+    IF_SETGRAPHIC(6255 as graphic, int14);
+    IF_SETHIDE(true, int10);
     IF_SETTEXT("", int11);
     if ((int0 <= -1)) {
         var int0 = IF_GETX(int4);

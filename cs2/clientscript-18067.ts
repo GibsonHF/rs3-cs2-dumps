@@ -17,13 +17,13 @@ function script18067(int0: number, int1: number, int2: number): [number, number,
     var int8 = 0;
     var int9 = 0;
     var int10 = 0;
-    var int11 = -1 as stat;
+    var int11 = -1;
     var int12 = 0;
     var int13 = 1;
     var int14 = DB_GETFIELDCOUNT(int3, 1020064);
     var int15 = 0;
     var int16 = 0;
-    var int17 = -1 as obj;
+    var int17 = -1;
     var int18 = 0;
     var int19 = 0;
     var int20 = script4148();
@@ -48,7 +48,7 @@ function script18067(int0: number, int1: number, int2: number): [number, number,
         int9 = (int9 + 25);
         int8 = dbrow_getfield(int3, 1020096, 0);
         if ((int8 > 0)) {
-            script7918(int0, int13, ((IF_GETWIDTH(int1) / 2) + int9), 60, 0, 0, 32, 32, 0, 0, 8459 as graphic);
+            script7918(int0, int13, ((IF_GETWIDTH(int1) / 2) + int9), 60, 0, 0, 32, 32, 0, 0, 8459);
             script17954(`${inttostring(int8, 10)} x Hero points`, 1);
             int9 = (int9 + 36);
             int13 = (int13 + 1);
@@ -56,18 +56,18 @@ function script18067(int0: number, int1: number, int2: number): [number, number,
         };
         if ((int20 == 0)) {
             int10 = dbrow_getfield(int3, 1020080, 0);
-            if (((int10 > 0) && (PLAYERMEMBER() == true))) {
+            if (((int10 > 0) && (PLAYERMEMBER() == 1))) {
                 script17927();
-                script17950(int0, int13, ((IF_GETWIDTH(int1) / 2) + int9), 60, 0, 0, 36, 32, 0, 0, 55762 as obj, int10);
+                script17950(int0, int13, ((IF_GETWIDTH(int1) / 2) + int9), 60, 0, 0, 36, 32, 0, 0, 55762, int10);
                 script17954(`${inttostring(int10, 10)} x Treasure Hunter Keys`, 1);
                 int9 = (int9 + 36);
                 int13 = (int13 + 1);
                 int16 = (int16 + 1);
             };
             [int11, int12] = dbrow_getfield(int3, 1020112, 0);
-            if (((int11 != -1 as stat) && (int12 > 0))) {
+            if (((int11 != -1) && (int12 > 0))) {
                 script7918(int0, int13, ((IF_GETWIDTH(int1) / 2) + int9), 60, 0, 0, 36, 32, 0, 0, script8894(int11));
-                script17954(`${inttostring((int12 / 10), 10)} x ${enum_getvalue(17, 36, 680 as cs2enum, int11)} XP`, 1);
+                script17954(`${inttostring((int12 / 10), 10)} x ${enum_getvalue(17, 36, 680, int11)} XP`, 1);
                 int9 = (int9 + 36);
                 int13 = (int13 + 1);
                 int16 = (int16 + 1);
@@ -75,33 +75,105 @@ function script18067(int0: number, int1: number, int2: number): [number, number,
         };
         int14 = DB_GETFIELDCOUNT(int3, 1020064);
         if ((int14 > 0)) {
-            while (((int15 < int14) && (int16 < 5))) {
-                if (((int16 == 4) && (int14 != (int15 + 1)))) {
-                    script7918(int0, int13, ((IF_GETWIDTH(int1) / 2) + int9), 60, 0, 0, 36, 32, 0, 0, 3818 as graphic);
-                    script17954("Plus more rewards!", 1);
-                    int9 = (int9 + 36);
-                    int16 = (int16 + 1);
-                    int13 = (int13 + 1);
-                } else {
-                    [int17, int18, int19] = dbrow_getfield(int3, 1020064, int15);
-                    if (((int20 == 0) || ((int20 == 1) && (int19 == 1)))) {
-                        script17950(int0, int13, ((IF_GETWIDTH(int1) / 2) + int9), 60, 0, 0, 36, 32, 0, 0, OC_UNCERT(int17), 1);
-                        script17954(`${inttostring(int18, 10)} x ${OC_NAME(int17)}`, 1);
-                        int9 = (int9 + 36);
-                        int16 = (int16 + 1);
-                        int13 = (int13 + 1);
+            while ((int15 < int14)) {
+                if ((int16 < 5)) {
+                    if ((int16 == 4)) {
+                        if ((int14 != (int15 + 1))) {
+                            script7918(int0, int13, ((IF_GETWIDTH(int1) / 2) + int9), 60, 0, 0, 36, 32, 0, 0, 3818);
+                            script17954("Plus more rewards!", 1);
+                            int9 = (int9 + 36);
+                            int16 = (int16 + 1);
+                            int13 = (int13 + 1);
+                        } else {
+                            [int17, int18, int19] = dbrow_getfield(int3, 1020064, int15);
+                            if ((int20 == 0)) {
+                                script17950(int0, int13, ((IF_GETWIDTH(int1) / 2) + int9), 60, 0, 0, 36, 32, 0, 0, OC_UNCERT(int17), 1);
+                                script17954(`${inttostring(int18, 10)} x ${OC_NAME(int17)}`, 1);
+                                int9 = (int9 + 36);
+                                int16 = (int16 + 1);
+                                int13 = (int13 + 1);
+                            } else if (((int20 == 1) && (int19 == 1))) {
+                                script17950(int0, int13, ((IF_GETWIDTH(int1) / 2) + int9), 60, 0, 0, 36, 32, 0, 0, OC_UNCERT(int17), 1);
+                                script17954(`${inttostring(int18, 10)} x ${OC_NAME(int17)}`, 1);
+                                int9 = (int9 + 36);
+                                int16 = (int16 + 1);
+                                int13 = (int13 + 1);
+                            };
+                        };
+                    } else {
+                        [int17, int18, int19] = dbrow_getfield(int3, 1020064, int15);
+                        if ((int20 == 0)) {
+                            script17950(int0, int13, ((IF_GETWIDTH(int1) / 2) + int9), 60, 0, 0, 36, 32, 0, 0, OC_UNCERT(int17), 1);
+                            script17954(`${inttostring(int18, 10)} x ${OC_NAME(int17)}`, 1);
+                            int9 = (int9 + 36);
+                            int16 = (int16 + 1);
+                            int13 = (int13 + 1);
+                        } else if (((int20 == 1) && (int19 == 1))) {
+                            script17950(int0, int13, ((IF_GETWIDTH(int1) / 2) + int9), 60, 0, 0, 36, 32, 0, 0, OC_UNCERT(int17), 1);
+                            script17954(`${inttostring(int18, 10)} x ${OC_NAME(int17)}`, 1);
+                            int9 = (int9 + 36);
+                            int16 = (int16 + 1);
+                            int13 = (int13 + 1);
+                        };
                     };
+                    int15 = (int15 + 1);
                 };
-                int15 = (int15 + 1);
+                int13 = (int13 + 1);
+                [string0, string1] = script18072(int3);
+                int5 = dbrow_getfield(int3, 1019984, 0);
+                if ((int4 < int5)) {
+                    script7918(int0, int13, 110, 62, 0, 0, 160, 26, 0, 0, 31230);
+                    int13 = (int13 + 1);
+                    script7918(int0, int13, 112, 64, 0, 0, SCALE(int4, int5, 156), 22, 0, 0, 31916);
+                    int13 = (int13 + 1);
+                    script10485(int0, int13, 110, 62, 0, 0, 160, 26, 0, 0, 7998, `<col=000000>Progress: </col><col=2EF8FF>${inttostring(int4, 10)}</col> / <col=2EF8FF>${inttostring(int5, 10)}</col>`);
+                    CC_SETTEXTALIGN(1, 1, 0);
+                } else {
+                    script7858(101, int0, 110, 62, 0, 0, 160, 26, 0, 0, script17989(22), "Claim");
+                    script17954("Complete Mission", 0);
+                    script7872(1, 1, 0, 0);
+                    CC_SETOP(1, "Complete Mission");
+                    CC_SETONOP(callback(script18086));
+                };
+                int13 = (int13 + 1);
+                script10485(int0, int13, (IF_GETWIDTH(int1) - 110), 60, 0, 0, 40, 30, 0, 0, 8003, script18087(int6, 0, 1));
+                int13 = (int13 + 1);
+                script7918(int0, int13, (IF_GETWIDTH(int1) - 115), 5, 0, 0, 50, 50, 0, 0, 3815);
+                if ((int6 == (DATE_RUNEDAY() + 1))) {
+                    CC_SETCOLOUR(16522243);
+                } else if ((int6 <= (DATE_RUNEDAY() + 2))) {
+                    CC_SETCOLOUR(15249936);
+                } else {
+                    CC_SETCOLOUR(12837623);
+                };
+                int13 = (int13 + 1);
+                if ((dbrow_getfield(int3, 1020000, 0) != -1)) {
+                    if ((script6431() == 1)) {
+                        script7918(int0, int13, (IF_GETWIDTH(int1) - 40), 60, 0, 0, 24, 24, 0, 0, 4441);
+                    } else {
+                        script7918(int0, int13, (IF_GETWIDTH(int1) - 55), 10, 0, 0, 12, 12, 0, 0, 4441);
+                    };
+                    script17954("This mission is part of a chain. Claiming on completion unlocks the next mission.", 1);
+                    int13 = (int13 + 1);
+                };
+                script18069(int0, int1);
+                int13 = (int13 + 1);
+                script7862(0, (int0 + 50), 8, 0, 0, 0, (IF_GETWIDTH(int1) - 16), 100, 0, 0, callback(script7953), 1, 1, 0, 0);
+                CC_SETOP(3, "Mission Information");
+                CC_SETONOP(callback(script18070, int0, -2147483645, -2147483643, CC_GETLAYER()));
+                int21 = CC_GETLAYER();
+                int22 = CC_GETID();
+                int13 = (int13 + 1);
+                return [int21, int22, (int2 + 110)];
             };
         };
         int13 = (int13 + 1);
         [string0, string1] = script18072(int3);
         int5 = dbrow_getfield(int3, 1019984, 0);
         if ((int4 < int5)) {
-            script7918(int0, int13, 110, 62, 0, 0, 160, 26, 0, 0, 31230 as graphic);
+            script7918(int0, int13, 110, 62, 0, 0, 160, 26, 0, 0, 31230);
             int13 = (int13 + 1);
-            script7918(int0, int13, 112, 64, 0, 0, SCALE(int4, int5, 156), 22, 0, 0, 31916 as graphic);
+            script7918(int0, int13, 112, 64, 0, 0, SCALE(int4, int5, 156), 22, 0, 0, 31916);
             int13 = (int13 + 1);
             script10485(int0, int13, 110, 62, 0, 0, 160, 26, 0, 0, 7998, `<col=000000>Progress: </col><col=2EF8FF>${inttostring(int4, 10)}</col> / <col=2EF8FF>${inttostring(int5, 10)}</col>`);
             CC_SETTEXTALIGN(1, 1, 0);
@@ -115,7 +187,7 @@ function script18067(int0: number, int1: number, int2: number): [number, number,
         int13 = (int13 + 1);
         script10485(int0, int13, (IF_GETWIDTH(int1) - 110), 60, 0, 0, 40, 30, 0, 0, 8003, script18087(int6, 0, 1));
         int13 = (int13 + 1);
-        script7918(int0, int13, (IF_GETWIDTH(int1) - 115), 5, 0, 0, 50, 50, 0, 0, 3815 as graphic);
+        script7918(int0, int13, (IF_GETWIDTH(int1) - 115), 5, 0, 0, 50, 50, 0, 0, 3815);
         if ((int6 == (DATE_RUNEDAY() + 1))) {
             CC_SETCOLOUR(16522243);
         } else if ((int6 <= (DATE_RUNEDAY() + 2))) {
@@ -124,18 +196,18 @@ function script18067(int0: number, int1: number, int2: number): [number, number,
             CC_SETCOLOUR(12837623);
         };
         int13 = (int13 + 1);
-        if ((dbrow_getfield(int3, 1020000, 0) != -1 as dbrow)) {
+        if ((dbrow_getfield(int3, 1020000, 0) != -1)) {
             if ((script6431() == 1)) {
-                script7918(int0, int13, (IF_GETWIDTH(int1) - 40), 60, 0, 0, 24, 24, 0, 0, 4441 as graphic);
+                script7918(int0, int13, (IF_GETWIDTH(int1) - 40), 60, 0, 0, 24, 24, 0, 0, 4441);
             } else {
-                script7918(int0, int13, (IF_GETWIDTH(int1) - 55), 10, 0, 0, 12, 12, 0, 0, 4441 as graphic);
+                script7918(int0, int13, (IF_GETWIDTH(int1) - 55), 10, 0, 0, 12, 12, 0, 0, 4441);
             };
             script17954("This mission is part of a chain. Claiming on completion unlocks the next mission.", 1);
             int13 = (int13 + 1);
         };
         script18069(int0, int1);
         int13 = (int13 + 1);
-        script7862(0, (int0 + 50), 8, 0, 0, 0, (IF_GETWIDTH(int1) - 16), 100, 0, 0, 7953, "", 1, 1, 0, 0);
+        script7862(0, (int0 + 50), 8, 0, 0, 0, (IF_GETWIDTH(int1) - 16), 100, 0, 0, callback(script7953), 1, 1, 0, 0);
         CC_SETOP(3, "Mission Information");
         CC_SETONOP(callback(script18070, int0, -2147483645, -2147483643, CC_GETLAYER()));
         int21 = CC_GETLAYER();

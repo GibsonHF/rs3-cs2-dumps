@@ -24,8 +24,12 @@ function script11003(int0: number, int1: number, int2: number, int3: number, int
         IF_SETPOSITION(((IF_GETX(comp(1311, 384)) + IF_GETWIDTH(comp(1311, 384))) + 5), 0, 0, 0, comp(1311, 385));
         IF_SETHIDE(true, comp(1311, 603));
     };
-    if (((int0 != 3) && ((struct_getparam(int1, 477) == 0) || (struct_getparam(int1, 477) == -1)))) {
-        IF_SETHIDE(false, comp(1311, 363));
+    if ((int0 != 3)) {
+        if (((struct_getparam(int1, 477) == 0) || (struct_getparam(int1, 477) == -1))) {
+            IF_SETHIDE(false, comp(1311, 363));
+        } else {
+            IF_SETHIDE(true, comp(1311, 363));
+        };
     } else {
         IF_SETHIDE(true, comp(1311, 363));
     };
@@ -42,8 +46,12 @@ function script11003(int0: number, int1: number, int2: number, int3: number, int
     var int10 = 0;
     var int11 = -1 as cs2enum;
     var int12 = -1 as cs2enum;
-    if (((int1 == 6865) && (int5 == 0))) {
-        IF_SETHIDE(false, comp(1311, 520));
+    if ((int1 == 6865)) {
+        if ((int5 == 0)) {
+            IF_SETHIDE(false, comp(1311, 520));
+        } else {
+            IF_SETHIDE(true, comp(1311, 520));
+        };
     } else {
         IF_SETHIDE(true, comp(1311, 520));
     };
@@ -67,12 +75,13 @@ function script11003(int0: number, int1: number, int2: number, int3: number, int
             CC_DELETEALL(comp(1311, 558));
             CC_DELETEALL(comp(1311, 559));
             int10 = ENUM_GETOUTPUTCOUNT(struct_getparam(int1, 8210));
-            while ((++int7 < int10)) {
+            int7 = (int7 + 1);
+            while ((int7 < int10)) {
                 script11605(85918254, 85918255, 28749, 0, ((24 + 5) * int7), int7, 1, "Select", "Unselect", enum_getvalue(0, 36, int12, int7));
                 if ((CC_FIND(comp(1311, 559), int7) == 1)) {
                     CC_SETOPCURSOR(1, 46);
                 };
-                if ((int11 != -1 as cs2enum)) {
+                if ((int11 != -1)) {
                     script4512(85918254, 24, 24, 0, ((24 + 5) * int7), enum_getvalue(0, 23, int11, int7));
                 } else {
                     script152(85918254, 24, 24, 0, ((24 + 5) * int7), 26, inttostring((int7 + 1), 10), 16777215);
@@ -83,7 +92,7 @@ function script11003(int0: number, int1: number, int2: number, int3: number, int
             script3836(int1, int2, int3, int4);
         };
     } else if ((int0 == 1)) {
-        if ((struct_getparam(int1, 8705) == false)) {
+        if ((struct_getparam(int1, 8705) == 0)) {
             IF_SETHIDE(false, comp(1311, 560));
         };
         if (((script6488(int1) == 0) || (script11005(int1) == 24000))) {

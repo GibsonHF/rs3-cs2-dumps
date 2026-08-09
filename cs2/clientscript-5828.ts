@@ -7,7 +7,7 @@ function script5828(int0: number, int1: number, int2: number, int3: number, int4
     var string4 = "";
     var string5 = "";
     var string6 = "";
-    if ((int1 == 28977 as struct)) {
+    if ((int1 == 28977)) {
         int7 = script10495(3);
         string3 = GET_COL_TAG(int7);
         string1 = GET_COL_TAG(0);
@@ -54,11 +54,11 @@ function script5828(int0: number, int1: number, int2: number, int3: number, int4
     var int34 = 0;
     var int35 = 0;
     var int36 = 0;
-    var int37 = -1 as obj;
+    var int37 = -1;
     var int38 = -1 as struct;
     var int39 = 0;
     var string8 = "0";
-    var int40 = -1 as npc;
+    var int40 = -1;
     var string9 = "";
     var string10 = "";
     var string11 = "";
@@ -73,7 +73,7 @@ function script5828(int0: number, int1: number, int2: number, int3: number, int4
     CC_DELETEALL(int4);
     var int44 = 0;
     var int45 = -1;
-    if ((((int0 != -1 as obj) && (int1 != -1 as struct)) && (STRING_LENGTH(string0) > 0))) {
+    if ((((int0 != -1 as obj) && (int1 != -1)) && (STRING_LENGTH(string0) > 0))) {
         int44 = script7235(string0, string7, int1, int3, int4, int44);
         if (((int3 == 96797557) && (int4 == comp(1477, 888)))) {
             int44 = script20487(int3, int4, int44);
@@ -121,7 +121,20 @@ function script5828(int0: number, int1: number, int2: number, int3: number, int4
             int32 = script10005(varclient_2239, 3);
             int33 = script10005(varclient_2239, 7);
         };
-        if (((int11 > 0) || (((int25 > 0) && (OC_WEARPOS(varclient_2239) != 5)) && (OC_WEARPOS(varclient_2239) != 3)))) {
+        if ((int11 > 0)) {
+            if ((varclient_2239 == -1 as obj)) {
+                string7 = "<col=00ff00>";
+            } else if ((int8 != int23)) {
+                string7 = "<col=00ffff>";
+            } else if ((int11 > int25)) {
+                string7 = "<col=00ff00>";
+            } else if ((int11 < int25)) {
+                string7 = "<col=ff0000>";
+            } else {
+                string7 = string4;
+            };
+            int44 = script7235(`${string3}Damage:</col> ${string7}${script7653(int11, 1, 0, 0, 1)}</col>`, string7, int2, int3, int4, int44);
+        } else if ((((int25 > 0) && (OC_WEARPOS(varclient_2239) != 5)) && (OC_WEARPOS(varclient_2239) != 3))) {
             if ((varclient_2239 == -1 as obj)) {
                 string7 = "<col=00ff00>";
             } else if ((int8 != int23)) {
@@ -148,7 +161,7 @@ function script5828(int0: number, int1: number, int2: number, int3: number, int4
                 string7 = string4;
             };
             if ((enum_getvalue(0, 0, 7338 as cs2enum, int12) != int18)) {
-                int44 = script7235(`Accuracy: ${string7}${TOSTRING_LOCALISED(int12, 1)} (Tier ${inttostring(enum_getvalue(0, 0, 7338 as cs2enum, int12), 10)})</col> `, string3, int2, int3, int4, int44);
+                int44 = script7235(`Accuracy: ${string7}${TOSTRING_LOCALISED(int12, 1)} (Tier ${inttostring(enum_getvalue(0, 0, 7338, int12), 10)})</col> `, string3, int2, int3, int4, int44);
             } else {
                 int44 = script7236("Accuracy", int12, int7, string7, int2, int3, int4, int44);
             };
@@ -198,8 +211,20 @@ function script5828(int0: number, int1: number, int2: number, int3: number, int4
                 string7 = string4;
             };
             int41 = enum_getvalue(0, 26, 8289 as cs2enum, OC_WEARPOS(int0));
-            if (((((int18 > 1) && (int41 != -1 as cs2enum)) && (enum_getvalue(0, 0, int41, int18) != int14)) && (enum_hasoutput(0, int41, int14) == 1))) {
-                int44 = script7235(`Armour: ${string7}${TOSTRING_LOCALISED(MAX(1, (int14 / 10)), 1)} (Tier ${inttostring(enum_getreverseindex(0, 0, int41, int14, 0), 10)})</col>`, string3, int2, int3, int4, int44);
+            if ((int18 > 1)) {
+                if ((int41 != -1 as cs2enum)) {
+                    if ((enum_getvalue(0, 0, int41, int18) != int14)) {
+                        if ((enum_hasoutput(0, int41, int14) == 1)) {
+                            int44 = script7235(`Armour: ${string7}${TOSTRING_LOCALISED(MAX(1, (int14 / 10)), 1)} (Tier ${inttostring(enum_getreverseindex(0, 0, int41, int14, 0), 10)})</col>`, string3, int2, int3, int4, int44);
+                        } else {
+                            int44 = script7236("Armour", MAX(1, (int14 / 10)), int7, string7, int2, int3, int4, int44);
+                        };
+                    } else {
+                        int44 = script7236("Armour", MAX(1, (int14 / 10)), int7, string7, int2, int3, int4, int44);
+                    };
+                } else {
+                    int44 = script7236("Armour", MAX(1, (int14 / 10)), int7, string7, int2, int3, int4, int44);
+                };
             } else {
                 int44 = script7236("Armour", MAX(1, (int14 / 10)), int7, string7, int2, int3, int4, int44);
             };
@@ -396,7 +421,7 @@ function script5828(int0: number, int1: number, int2: number, int3: number, int4
                 string7 = string4;
             };
             if ((int9 != 0)) {
-                int44 = script7235(`Type: ${string7}${enum_getvalue(0, 36, 6742 as cs2enum, int8)} (${enum_getvalue(0, 36, 16975 as cs2enum, int9)})</col>`, string3, int2, int3, int4, int44);
+                int44 = script7235(`Type: ${string7}${enum_getvalue(0, 36, 6742, int8)} (${enum_getvalue(0, 36, 16975, int9)})</col>`, string3, int2, int3, int4, int44);
             } else {
                 int44 = script7237("Type", int8, 6742, int7, string7, int2, int3, int4, int44);
             };
@@ -486,19 +511,27 @@ function script5828(int0: number, int1: number, int2: number, int3: number, int4
                 int44 = script7235("When repaired:", string4, int2, int3, int4, int44);
                 string11 = "";
             };
-            string9 = script8240(int38, -1 as obj);
+            string9 = script8240(int38, -1);
             string10 = script17662(int38, -1);
             if ((STRING_LENGTH(string10) > 0)) {
                 string10 = strconcat("<br>", string10);
             };
             if ((strcmp(struct_getparam(int38, 2794), "") != 0)) {
-                if (((varbitplayer_27168 == 1) && (strcmp(struct_getparam(int38, 7998), "") != 0))) {
-                    int44 = script7235(`${string11}${struct_getparam(int38, 2794)}: ${string9}${struct_getparam(int38, 7998)}${string10}`, string3, int2, int3, int4, int44);
+                if ((varbitplayer_27168 == 1)) {
+                    if ((strcmp(struct_getparam(int38, 7998), "") != 0)) {
+                        int44 = script7235(`${string11}${struct_getparam(int38, 2794)}: ${string9}${struct_getparam(int38, 7998)}${string10}`, string3, int2, int3, int4, int44);
+                    } else {
+                        int44 = script7235(`${string11}${struct_getparam(int38, 2794)}: ${string9}${struct_getparam(int38, 2795)}${string10}`, string3, int2, int3, int4, int44);
+                    };
                 } else {
                     int44 = script7235(`${string11}${struct_getparam(int38, 2794)}: ${string9}${struct_getparam(int38, 2795)}${string10}`, string3, int2, int3, int4, int44);
                 };
-            } else if (((varbitplayer_27168 == 1) && (strcmp(struct_getparam(int38, 7998), "") != 0))) {
-                int44 = script7235(`${string11}${string9}${struct_getparam(int38, 7998)}${string10}`, string3, int2, int3, int4, int44);
+            } else if ((varbitplayer_27168 == 1)) {
+                if ((strcmp(struct_getparam(int38, 7998), "") != 0)) {
+                    int44 = script7235(`${string11}${string9}${struct_getparam(int38, 7998)}${string10}`, string3, int2, int3, int4, int44);
+                } else {
+                    int44 = script7235(`${string11}${string9}${struct_getparam(int38, 2795)}${string10}`, string3, int2, int3, int4, int44);
+                };
             } else {
                 int44 = script7235(`${string11}${string9}${struct_getparam(int38, 2795)}${string10}`, string3, int2, int3, int4, int44);
             };
@@ -524,50 +557,60 @@ function script5828(int0: number, int1: number, int2: number, int3: number, int4
     } else {
         int38 = item_getparam(int0, 6186);
         if ((int38 != -1 as struct)) {
-            string9 = script8240(int38, -1 as obj);
+            string9 = script8240(int38, -1);
             string10 = script17662(int38, -1);
             if ((STRING_LENGTH(string10) > 0)) {
                 string10 = strconcat("<br>", string10);
             };
             if ((strcmp(struct_getparam(int38, 2794), "") != 0)) {
-                if (((varbitplayer_27168 == 1) && (strcmp(struct_getparam(int38, 7998), "") != 0))) {
-                    int44 = script7235(`${string11}${struct_getparam(int38, 2794)}: ${string9}${struct_getparam(int38, 7998)}${string10}`, string3, int2, int3, int4, int44);
+                if ((varbitplayer_27168 == 1)) {
+                    if ((strcmp(struct_getparam(int38, 7998), "") != 0)) {
+                        int44 = script7235(`${string11}${struct_getparam(int38, 2794)}: ${string9}${struct_getparam(int38, 7998)}${string10}`, string3, int2, int3, int4, int44);
+                    } else {
+                        int44 = script7235(`${string11}${struct_getparam(int38, 2794)}: ${string9}${struct_getparam(int38, 2795)}${string10}`, string3, int2, int3, int4, int44);
+                    };
                 } else {
                     int44 = script7235(`${string11}${struct_getparam(int38, 2794)}: ${string9}${struct_getparam(int38, 2795)}${string10}`, string3, int2, int3, int4, int44);
                 };
-            } else if (((varbitplayer_27168 == 1) && (strcmp(struct_getparam(int38, 7998), "") != 0))) {
-                int44 = script7235(`${string11}${string9}${struct_getparam(int38, 7998)}${string10}`, string3, int2, int3, int4, int44);
+            } else if ((varbitplayer_27168 == 1)) {
+                if ((strcmp(struct_getparam(int38, 7998), "") != 0)) {
+                    int44 = script7235(`${string11}${string9}${struct_getparam(int38, 7998)}${string10}`, string3, int2, int3, int4, int44);
+                } else {
+                    int44 = script7235(`${string11}${string9}${struct_getparam(int38, 2795)}${string10}`, string3, int2, int3, int4, int44);
+                };
             } else {
                 int44 = script7235(`${string11}${string9}${struct_getparam(int38, 2795)}${string10}`, string3, int2, int3, int4, int44);
             };
         };
     };
-    if (((int34 > 0) && ((item_getparam(int0, 2281) == -1 as struct) || (item_getparam(int0, 2970) > 1)))) {
-        string7 = "<col=00ff00>";
-        int34 = script7246(int0);
-        if (((int0 == 20429 as obj) && (varbitplayer_1899 == 0))) {
-            int34 = SCALE(int34, 2475, 2800);
-        };
-        if (((varbitplayer_27168 == 1) && (varclient_1533 != 1))) {
-            int34 = (int34 / 10);
-        };
-        if ((item_getparam(int0, 2972) > 0)) {
-            int44 = script7235("Heals: <col=00ff00>???</col>", string3, int2, int3, int4, int44);
-        } else {
-            int44 = script7236("Heals", int34, int7, string7, int2, int3, int4, int44);
-        };
-        if ((item_getparam(int0, 6924) > 0)) {
-            int44 = script7235(`Allows overhealing up to <col=00ff00>${inttostring(item_getparam(int0, 6924), 10)}%</col> of your maximum <sprite=18851><nbsp><col=ED705A>Life<nbsp>Points</col>.`, string3, int2, int3, int4, int44);
-        };
-        if (((item_getparam(int0, 4653) > 0) && (STRING_LENGTH(item_getparam(int0, 4797)) > 0))) {
-            int44 = script7235(`Regenerates <col=00ff00>${inttostring(item_getparam(int0, 4653), 10)} health</col> every <col=00ffff>1.2 seconds</col> over <col=00ffff>${item_getparam(int0, 4797)} seconds</col>.`, string3, int2, int3, int4, int44);
-        };
-        int34 = script4000(int0);
-        if ((int34 > 0)) {
-            int44 = script7236("Prayer points", int34, int7, string7, int2, int3, int4, int44);
-        };
-        if ((item_getparam(int0, 4342) == 0)) {
-            int44 = script7235(`${script18556(30)} while in combat.`, string3, int2, int3, int4, int44);
+    if ((int34 > 0)) {
+        if (((item_getparam(int0, 2281) == -1) || (item_getparam(int0, 2970) > 1))) {
+            string7 = "<col=00ff00>";
+            int34 = script7246(int0);
+            if (((int0 == 20429) && (varbitplayer_1899 == 0))) {
+                int34 = SCALE(int34, 2475, 2800);
+            };
+            if (((varbitplayer_27168 == 1) && (varclient_1533 != 1))) {
+                int34 = (int34 / 10);
+            };
+            if ((item_getparam(int0, 2972) > 0)) {
+                int44 = script7235("Heals: <col=00ff00>???</col>", string3, int2, int3, int4, int44);
+            } else {
+                int44 = script7236("Heals", int34, int7, string7, int2, int3, int4, int44);
+            };
+            if ((item_getparam(int0, 6924) > 0)) {
+                int44 = script7235(`Allows overhealing up to <col=00ff00>${inttostring(item_getparam(int0, 6924), 10)}%</col> of your maximum <sprite=18851><nbsp><col=ED705A>Life<nbsp>Points</col>.`, string3, int2, int3, int4, int44);
+            };
+            if (((item_getparam(int0, 4653) > 0) && (STRING_LENGTH(item_getparam(int0, 4797)) > 0))) {
+                int44 = script7235(`Regenerates <col=00ff00>${inttostring(item_getparam(int0, 4653), 10)} health</col> every <col=00ffff>1.2 seconds</col> over <col=00ffff>${item_getparam(int0, 4797)} seconds</col>.`, string3, int2, int3, int4, int44);
+            };
+            int34 = script4000(int0);
+            if ((int34 > 0)) {
+                int44 = script7236("Prayer points", int34, int7, string7, int2, int3, int4, int44);
+            };
+            if ((item_getparam(int0, 4342) == 0)) {
+                int44 = script7235(`${script18556(30)} while in combat.`, string3, int2, int3, int4, int44);
+            };
         };
     };
     if ((item_getparam(int0, 3698) != 0)) {
@@ -613,8 +656,7 @@ function script5828(int0: number, int1: number, int2: number, int3: number, int4
     stack(348240);
     stack(int0);
     DB_FIND(0);
-    dbrow_findnext();
-    int46 = stack();
+    int46 = dbrow_findnext();
     if ((int46 != -1)) {
         int44 = script7235(script3956(int46), string3, int2, int3, int4, int44);
         int46 = -1;
@@ -622,8 +664,7 @@ function script5828(int0: number, int1: number, int2: number, int3: number, int4
     stack(348256);
     stack(int0);
     DB_FIND(0);
-    dbrow_findnext();
-    int46 = stack();
+    int46 = dbrow_findnext();
     if ((int46 != -1)) {
         int44 = script7235(script5521(int46), string3, int2, int3, int4, int44);
         int46 = -1;
@@ -631,13 +672,12 @@ function script5828(int0: number, int1: number, int2: number, int3: number, int4
     stack(1515584);
     stack(int0);
     DB_FIND(0);
-    dbrow_findnext();
-    int46 = stack();
+    int46 = dbrow_findnext();
     if ((int46 != -1)) {
         int44 = script7235(script15086(int46), string3, int2, int3, int4, int44);
         int46 = -1;
     };
-    if (((varclient_5121 != -1 as inv) && (varclient_5122 >= 0))) {
+    if (((varclient_5121 != -1) && (varclient_5122 >= 0))) {
         if ((item_getparam(int0, 5553) != 0)) {
             if (((varbitplayer_49710 == 0) || (varbitplayer_49710 == 1))) {
                 int44 = script12197(int0, varclient_5121, varclient_5122, int2, int3, int4, int44);
@@ -646,46 +686,48 @@ function script5828(int0: number, int1: number, int2: number, int3: number, int4
                 int44 = script15935(int0, varclient_5121, varclient_5122, int2, int3, int4, int44, string3);
             };
         };
-        if ((((item_getparam(int0, 6810) == true) && (varclient_5121 != -1 as inv)) && (varclient_5122 >= 0))) {
-            if ((OC_CATEGORY(int0) == 4430 as category)) {
+        if ((((item_getparam(int0, 6810) == 1) && (varclient_5121 != -1)) && (varclient_5122 >= 0))) {
+            if ((OC_CATEGORY(int0) == 4430)) {
                 if ((INV_GETVAR(varclient_5121, varclient_5122, 42932) > 0)) {
-                    int44 = script7235(`<col=00ff00>${enum_getvalue(0, 36, 15018 as cs2enum, INV_GETVAR(varclient_5121, varclient_5122, 42932))}`, string3, int2, int3, int4, int44);
+                    int44 = script7235(`<col=00ff00>${enum_getvalue(0, 36, 15018, INV_GETVAR(varclient_5121, varclient_5122, 42932))}`, string3, int2, int3, int4, int44);
                 } else {
                     int44 = script7235("<col=ff0000>Empty slot", string3, int2, int3, int4, int44);
                 };
                 if ((INV_GETVAR(varclient_5121, varclient_5122, 42933) > 0)) {
-                    int44 = script7235(`<col=00ff00>${enum_getvalue(0, 36, 15018 as cs2enum, INV_GETVAR(varclient_5121, varclient_5122, 42933))}`, string3, int2, int3, int4, int44);
+                    int44 = script7235(`<col=00ff00>${enum_getvalue(0, 36, 15018, INV_GETVAR(varclient_5121, varclient_5122, 42933))}`, string3, int2, int3, int4, int44);
                 } else {
                     int44 = script7235("<col=ff0000>Empty slot", string3, int2, int3, int4, int44);
                 };
                 if ((INV_GETVAR(varclient_5121, varclient_5122, 42934) > 0)) {
-                    int44 = script7235(`<col=00ff00>${enum_getvalue(0, 36, 15018 as cs2enum, INV_GETVAR(varclient_5121, varclient_5122, 42934))}`, string3, int2, int3, int4, int44);
+                    int44 = script7235(`<col=00ff00>${enum_getvalue(0, 36, 15018, INV_GETVAR(varclient_5121, varclient_5122, 42934))}`, string3, int2, int3, int4, int44);
                 } else {
                     int44 = script7235("<col=ff0000>Empty slot", string3, int2, int3, int4, int44);
                 };
                 if ((INV_GETVAR(varclient_5121, varclient_5122, 42935) > 0)) {
-                    int44 = script7235(`<col=00ff00>${enum_getvalue(0, 36, 15018 as cs2enum, INV_GETVAR(varclient_5121, varclient_5122, 42935))}`, string3, int2, int3, int4, int44);
+                    int44 = script7235(`<col=00ff00>${enum_getvalue(0, 36, 15018, INV_GETVAR(varclient_5121, varclient_5122, 42935))}`, string3, int2, int3, int4, int44);
                 } else {
                     int44 = script7235("<col=ff0000>Empty slot", string3, int2, int3, int4, int44);
                 };
                 if ((INV_GETVAR(varclient_5121, varclient_5122, 42936) > 0)) {
-                    int44 = script7235(`<col=00ff00>${enum_getvalue(0, 36, 15018 as cs2enum, INV_GETVAR(varclient_5121, varclient_5122, 42936))}`, string3, int2, int3, int4, int44);
+                    int44 = script7235(`<col=00ff00>${enum_getvalue(0, 36, 15018, INV_GETVAR(varclient_5121, varclient_5122, 42936))}`, string3, int2, int3, int4, int44);
                 } else {
                     int44 = script7235("<col=ff0000>Empty slot", string3, int2, int3, int4, int44);
                 };
                 if ((INV_GETVAR(varclient_5121, varclient_5122, 42937) > 0)) {
-                    int44 = script7235(`<col=00ff00>${enum_getvalue(0, 36, 15018 as cs2enum, INV_GETVAR(varclient_5121, varclient_5122, 42937))}`, string3, int2, int3, int4, int44);
+                    int44 = script7235(`<col=00ff00>${enum_getvalue(0, 36, 15018, INV_GETVAR(varclient_5121, varclient_5122, 42937))}`, string3, int2, int3, int4, int44);
                 } else {
                     int44 = script7235("<col=ff0000>Empty slot", string3, int2, int3, int4, int44);
                 };
             };
-            if (((((int0 != 44540 as obj) && (OC_CATEGORY(int0) != 4058 as category)) && (OC_CATEGORY(int0) != 4431 as category)) && ((OC_CATEGORY(int0) != 4430 as category) || (script12676(44542 as obj) == 0)))) {
-                int34 = INV_GETVAR(varclient_5121, varclient_5122, 30214);
-                int44 = script7236("Charges remaining", int34, int7, "", int2, int3, int4, int44);
+            if ((((int0 != 44540) && (OC_CATEGORY(int0) != 4058)) && (OC_CATEGORY(int0) != 4431))) {
+                if (((OC_CATEGORY(int0) != 4430) || (script12676(44542) == 0))) {
+                    int34 = INV_GETVAR(varclient_5121, varclient_5122, 30214);
+                    int44 = script7236("Charges remaining", int34, int7, "", int2, int3, int4, int44);
+                };
             };
         };
-        if ((int0 == 41081 as obj)) {
-            if ((varplayer_7253 != -1 as obj)) {
+        if ((int0 == 41081)) {
+            if ((varplayer_7253 != -1)) {
                 int38 = item_getparam(varplayer_7253, 2281);
                 string1 = struct_getparam(int38, 2524);
                 int44 = script7235(`Potion stored: ${string1} (${TOSTRING_LOCALISED(varbitplayer_37584, 1)})`, string3, int2, int3, int4, int44);
@@ -700,50 +742,52 @@ function script5828(int0: number, int1: number, int2: number, int3: number, int4
         };
         if ((varbitplayer_42534 == 0)) {
             int38 = item_getparam(int0, 2281);
-            if (((int0 == 41081 as obj) && (varplayer_7253 != -1 as obj))) {
+            if (((int0 == 41081) && (varplayer_7253 != -1))) {
                 int38 = item_getparam(varplayer_7253, 2281);
             };
-            if ((int38 != -1 as struct)) {
+            if ((int38 != -1)) {
                 int38 = struct_getparam(int38, 7601);
-                if ((int38 != -1 as struct)) {
+                if ((int38 != -1)) {
                     int44 = script7235(script4744(int38, 1), string3, int2, int3, int4, int44);
                 };
-                int38 = -1 as struct;
+                int38 = -1;
             } else {
                 int38 = item_getparam(int0, 7601);
-                if (((int0 == 41081 as obj) && (varplayer_7253 != -1 as obj))) {
+                if (((int0 == 41081) && (varplayer_7253 != -1))) {
                     int38 = item_getparam(varplayer_7253, 7601);
                 };
-                if ((int38 != -1 as struct)) {
+                if ((int38 != -1)) {
                     int44 = script7235(script4744(int38, 1), string3, int2, int3, int4, int44);
-                    int38 = -1 as struct;
+                    int38 = -1;
                 };
             };
         };
-        if (((item_getparam(int0, 7796) != -1 as dbrow) || ((OC_CATEGORY(int0) == 67 as category) && (item_getparam(int0, 1047) == 1)))) {
+        if ((item_getparam(int0, 7796) != -1)) {
+            int44 = script2579(int0, int7, int2, int3, int4, int44);
+        } else if (((OC_CATEGORY(int0) == 67) && (item_getparam(int0, 1047) == 1))) {
             int44 = script2579(int0, int7, int2, int3, int4, int44);
         };
-        if ((item_getparam(int0, 6663) != -1 as dbrow)) {
+        if ((item_getparam(int0, 6663) != -1)) {
             int44 = script14793(int0, int7, int2, int3, int4, int44);
         };
-        if ((item_getparam(int0, 8229) == true)) {
+        if ((item_getparam(int0, 8229) == 1)) {
             if ((INV_GETVAR(varclient_5121, varclient_5122, 27398) == 1)) {
-                if ((int0 == 50682 as obj)) {
+                if ((int0 == 50682)) {
                     int44 = script7235("Discovery mode", string3, int2, int3, int4, int44);
                 } else {
                     int44 = script7235("XP mode", string3, int2, int3, int4, int44);
                 };
             } else if ((INV_GETVAR(varclient_5121, varclient_5122, 27398) == 2)) {
-                if ((int0 == 50682 as obj)) {
+                if ((int0 == 50682)) {
                     int44 = script7235("Material mode", string3, int2, int3, int4, int44);
-                } else if ((int0 == 34519 as obj)) {
+                } else if ((int0 == 34519)) {
                     int44 = script7235("Damage mode", string3, int2, int3, int4, int44);
                 } else {
                     int44 = script7235("Resource mode", string3, int2, int3, int4, int44);
                 };
             };
         };
-        if ((OC_CATEGORY(int0) == 5694 as category)) {
+        if ((OC_CATEGORY(int0) == 5694)) {
             [int11, int12, int14] = script4705(item_getparam(int0, 9432));
             int44 = script7235(`Seeds required: <col=FF00>${inttostring(item_getparam(int0, 9433), 10)}`, string3, int2, int3, int4, int44);
             int44 = script7235(`Time to trap: <col=FF00>${script5729(-1, int12, int14, 0, 0)} seconds`, string3, int2, int3, int4, int44);
@@ -752,107 +796,107 @@ function script5828(int0: number, int1: number, int2: number, int3: number, int4
             int44 = script13776(int0, int3, int4, int44);
         };
         if ((item_getparam(int0, 667) != 0)) {
-            if (((int0 == 27616 as obj) || (int0 == 27617 as obj))) {
+            if (((int0 == 27616) || (int0 == 27617))) {
                 int44 = script7235(`Kills: ${TOSTRING_LOCALISED(varbitplayer_18238, 1)}`, string3, int2, int3, int4, int44);
             };
-            if (((int0 == 27618 as obj) || (int0 == 27619 as obj))) {
+            if (((int0 == 27618) || (int0 == 27619))) {
                 int44 = script7235(`Kills: ${TOSTRING_LOCALISED(varbitplayer_18242, 1)}`, string3, int2, int3, int4, int44);
             };
-            if (((int0 == 27622 as obj) || (int0 == 27623 as obj))) {
+            if (((int0 == 27622) || (int0 == 27623))) {
                 int44 = script7235(`Kills: ${TOSTRING_LOCALISED(varbitplayer_18250, 1)}`, string3, int2, int3, int4, int44);
             };
-            if (((int0 == 27620 as obj) || (int0 == 27621 as obj))) {
+            if (((int0 == 27620) || (int0 == 27621))) {
                 int44 = script7235(`Kills: ${TOSTRING_LOCALISED(varbitplayer_18246, 1)}`, string3, int2, int3, int4, int44);
             };
-            if (((int0 == 27624 as obj) || (int0 == 27625 as obj))) {
+            if (((int0 == 27624) || (int0 == 27625))) {
                 int44 = script7235(`Kills: ${TOSTRING_LOCALISED(varbitplayer_18254, 1)}`, string3, int2, int3, int4, int44);
             };
-            if (((int0 == 31089 as obj) || (int0 == 31090 as obj))) {
+            if (((int0 == 31089) || (int0 == 31090))) {
                 int44 = script7235(`Kills: ${TOSTRING_LOCALISED(varbitplayer_21930, 1)}`, string3, int2, int3, int4, int44);
             };
-            if (((int0 == 31091 as obj) || (int0 == 31092 as obj))) {
+            if (((int0 == 31091) || (int0 == 31092))) {
                 int44 = script7235(`Kills: ${TOSTRING_LOCALISED(varbitplayer_21934, 1)}`, string3, int2, int3, int4, int44);
             };
-            if (((int0 == 31093 as obj) || (int0 == 31094 as obj))) {
+            if (((int0 == 31093) || (int0 == 31094))) {
                 int44 = script7235(`Kills: ${TOSTRING_LOCALISED(varbitplayer_21938, 1)}`, string3, int2, int3, int4, int44);
                 if ((DATE_RUNEDAY() < varbitplayer_21951)) {
                     int44 = script7235(`Days until task can be forced: ${TOSTRING_LOCALISED((varbitplayer_21951 - DATE_RUNEDAY()), 1)}`, string3, int2, int3, int4, int44);
                 };
             };
-            if (((int0 == 31095 as obj) || (int0 == 31096 as obj))) {
+            if (((int0 == 31095) || (int0 == 31096))) {
                 int44 = script7235(`Kills: ${TOSTRING_LOCALISED(varbitplayer_21942, 1)}`, string3, int2, int3, int4, int44);
                 if ((DATE_RUNEDAY() < varbitplayer_21951)) {
                     int44 = script7235(`Days until task can be forced: ${TOSTRING_LOCALISED((varbitplayer_21951 - DATE_RUNEDAY()), 1)}`, string3, int2, int3, int4, int44);
                 };
             };
-            if (((int0 == 31097 as obj) || (int0 == 31098 as obj))) {
+            if (((int0 == 31097) || (int0 == 31098))) {
                 int44 = script7235(`Kills: ${TOSTRING_LOCALISED(varbitplayer_21946, 1)}`, string3, int2, int3, int4, int44);
                 if ((DATE_RUNEDAY() < varbitplayer_21951)) {
                     int44 = script7235(`Days until task can be forced: ${TOSTRING_LOCALISED((varbitplayer_21951 - DATE_RUNEDAY()), 1)}`, string3, int2, int3, int4, int44);
                 };
             };
-            if (((int0 == 31099 as obj) || (int0 == 31100 as obj))) {
+            if (((int0 == 31099) || (int0 == 31100))) {
                 int44 = script7235(`Kills: ${TOSTRING_LOCALISED(varbitplayer_21950, 1)}`, string3, int2, int3, int4, int44);
             };
-            if (((int0 == 35277 as obj) || (int0 == 35278 as obj))) {
+            if (((int0 == 35277) || (int0 == 35278))) {
                 int44 = script7235(`Kills: ${TOSTRING_LOCALISED(varbitplayer_26736, 1)}`, string3, int2, int3, int4, int44);
                 if ((DATE_RUNEDAY() < varbitplayer_28874)) {
                     int44 = script7235(`Days until task can be forced: ${TOSTRING_LOCALISED((varbitplayer_28874 - DATE_RUNEDAY()), 1)}`, string3, int2, int3, int4, int44);
                 };
             };
-            if (((int0 == 35279 as obj) || (int0 == 35280 as obj))) {
+            if (((int0 == 35279) || (int0 == 35280))) {
                 int44 = script7235(`Kills: ${TOSTRING_LOCALISED(varbitplayer_26740, 1)}`, string3, int2, int3, int4, int44);
             };
-            if (((int0 == 35281 as obj) || (int0 == 35282 as obj))) {
+            if (((int0 == 35281) || (int0 == 35282))) {
                 int44 = script7235(`Kills: ${TOSTRING_LOCALISED(varbitplayer_26744, 1)}`, string3, int2, int3, int4, int44);
                 if ((DATE_RUNEDAY() < varbitplayer_28875)) {
                     int44 = script7235(`Days until task can be forced: ${TOSTRING_LOCALISED((varbitplayer_28875 - DATE_RUNEDAY()), 1)}`, string3, int2, int3, int4, int44);
                 };
             };
-            if (((int0 == 35285 as obj) || (int0 == 35286 as obj))) {
+            if (((int0 == 35285) || (int0 == 35286))) {
                 int44 = script7235(`Kills: ${TOSTRING_LOCALISED(varbitplayer_28865, 1)}`, string3, int2, int3, int4, int44);
                 if ((DATE_RUNEDAY() < varbitplayer_28877)) {
                     int44 = script7235(`Days until task can be forced: ${TOSTRING_LOCALISED((varbitplayer_28877 - DATE_RUNEDAY()), 1)}`, string3, int2, int3, int4, int44);
                 };
             };
-            if (((int0 == 35287 as obj) || (int0 == 35288 as obj))) {
+            if (((int0 == 35287) || (int0 == 35288))) {
                 int44 = script7235(`Kills: ${TOSTRING_LOCALISED(varbitplayer_28869, 1)}`, string3, int2, int3, int4, int44);
                 if ((DATE_RUNEDAY() < varbitplayer_28878)) {
                     int44 = script7235(`Days until task can be forced: ${TOSTRING_LOCALISED((varbitplayer_28878 - DATE_RUNEDAY()), 1)}`, string3, int2, int3, int4, int44);
                 };
             };
-            if (((int0 == 35289 as obj) || (int0 == 35290 as obj))) {
+            if (((int0 == 35289) || (int0 == 35290))) {
                 int44 = script7235(`Kills: ${TOSTRING_LOCALISED(varbitplayer_28873, 1)}`, string3, int2, int3, int4, int44);
                 if ((DATE_RUNEDAY() < varbitplayer_28879)) {
                     int44 = script7235(`Days until task can be forced: ${TOSTRING_LOCALISED((varbitplayer_28879 - DATE_RUNEDAY()), 1)}`, string3, int2, int3, int4, int44);
                 };
             };
-            if (((int0 == 35283 as obj) || (int0 == 35284 as obj))) {
+            if (((int0 == 35283) || (int0 == 35284))) {
                 int44 = script7235(`Kills: ${TOSTRING_LOCALISED(varbitplayer_28861, 1)}`, string3, int2, int3, int4, int44);
                 if ((DATE_RUNEDAY() < varbitplayer_28876)) {
                     int44 = script7235(`Days until task can be forced: ${TOSTRING_LOCALISED((varbitplayer_28876 - DATE_RUNEDAY()), 1)}`, string3, int2, int3, int4, int44);
                 };
             };
-            if (((int0 == 28686 as obj) || (int0 == 28687 as obj))) {
+            if (((int0 == 28686) || (int0 == 28687))) {
                 int44 = script7235(`Kills: ${TOSTRING_LOCALISED(varbitplayer_18611, 1)}`, string3, int2, int3, int4, int44);
             };
-            if (((int0 == 28688 as obj) || (int0 == 28689 as obj))) {
+            if (((int0 == 28688) || (int0 == 28689))) {
                 int44 = script7235(`Kills: ${TOSTRING_LOCALISED(varbitplayer_18615, 1)}`, string3, int2, int3, int4, int44);
             };
-            if (((int0 == 28690 as obj) || (int0 == 28691 as obj))) {
+            if (((int0 == 28690) || (int0 == 28691))) {
                 int44 = script7235(`Kills: ${TOSTRING_LOCALISED(varbitplayer_18619, 1)}`, string3, int2, int3, int4, int44);
             };
-            if (((int0 == 28692 as obj) || (int0 == 28693 as obj))) {
+            if (((int0 == 28692) || (int0 == 28693))) {
                 int44 = script7235(`Kills: ${TOSTRING_LOCALISED(varbitplayer_18623, 1)}`, string3, int2, int3, int4, int44);
             };
-            if (((int0 == 28694 as obj) || (int0 == 28695 as obj))) {
+            if (((int0 == 28694) || (int0 == 28695))) {
                 int44 = script7235(`Kills: ${TOSTRING_LOCALISED(varbitplayer_18627, 1)}`, string3, int2, int3, int4, int44);
             };
         };
         if ((OC_HASVAROBJ(int0) == 1)) {
             switch (int0) {
                 case 20120: {
-                    if ((int0 == 20120 as obj)) {
+                    if ((int0 == 20120)) {
                         int17 = INV_GETVAR(varclient_5121, varclient_5122, 15191);
                         int44 = script7235(`Charges remaining: ${inttostring(int17, 10)}`, string3, int2, int3, int4, int44);
                     };
@@ -860,8 +904,8 @@ function script5828(int0: number, int1: number, int2: number, int3: number, int4
                 }
                 case 40408:
                 case 42892: {
-                    int40 = enum_getvalue(0, 32, 12737 as cs2enum, INV_GETVAR(varclient_5121, varclient_5122, 36325));
-                    string1 = struct_getparam(enum_getvalue(32, 73, 12740 as cs2enum, int40), 6600);
+                    int40 = enum_getvalue(0, 32, 12737, INV_GETVAR(varclient_5121, varclient_5122, 36325));
+                    string1 = struct_getparam(enum_getvalue(32, 73, 12740, int40), 6600);
                     int44 = script7235(`Soul contained: ${string1}`, string3, int2, int3, int4, int44);
                     break;
                 }
@@ -890,8 +934,8 @@ function script5828(int0: number, int1: number, int2: number, int3: number, int4
                     break;
                 }
                 case 27360: {
-                    int38 = enum_getvalue(0, 73, 7319 as cs2enum, INV_GETVAR(varclient_5121, varclient_5122, 17956));
-                    string1 = enum_getvalue(0, 36, 1563 as cs2enum, struct_getparam(int38, 3248));
+                    int38 = enum_getvalue(0, 73, 7319, INV_GETVAR(varclient_5121, varclient_5122, 17956));
+                    string1 = enum_getvalue(0, 36, 1563, struct_getparam(int38, 3248));
                     int17 = INV_GETVAR(varclient_5121, varclient_5122, 17957);
                     int44 = script7235(`Target to kill: ${string1}`, string3, int2, int3, int4, int44);
                     int44 = script7235(`Kills: ${inttostring(int17, 10)}`, string3, int2, int3, int4, int44);
@@ -933,8 +977,8 @@ function script5828(int0: number, int1: number, int2: number, int3: number, int4
                     break;
                 }
                 case 47068: {
-                    int37 = enum_getvalue(0, 33, 15095 as cs2enum, INV_GETVAR(varclient_5121, varclient_5122, 43222));
-                    if ((int37 != -1 as obj)) {
+                    int37 = enum_getvalue(0, 33, 15095, INV_GETVAR(varclient_5121, varclient_5122, 43222));
+                    if ((int37 != -1)) {
                         int44 = script7235(`Item being created: ${OC_NAME(int37)}`, string3, int2, int3, int4, int44);
                         int44 = script7235(`Current heat: ${TOSTRING_LOCALISED(INV_GETVAR(varclient_5121, varclient_5122, 43225), 1)}/${TOSTRING_LOCALISED(script2547(int37), 1)} (${TOSTRING_LOCALISED(SCALE(INV_GETVAR(varclient_5121, varclient_5122, 43225), script2547(int37), 100), 1)}%)`, string3, int2, int3, int4, int44);
                         int44 = script7235(`Current progress: ${TOSTRING_LOCALISED(INV_GETVAR(varclient_5121, varclient_5122, 43223), 1)}/${TOSTRING_LOCALISED(item_getparam(int37, 7801), 1)} (${TOSTRING_LOCALISED(SCALE(INV_GETVAR(varclient_5121, varclient_5122, 43223), item_getparam(int37, 7801), 100), 1)}%) `, string3, int2, int3, int4, int44);
@@ -943,8 +987,8 @@ function script5828(int0: number, int1: number, int2: number, int3: number, int4
                     break;
                 }
                 case 58111: {
-                    int37 = enum_getvalue(0, 33, 6535 as cs2enum, INV_GETVAR(varclient_5121, varclient_5122, 56966));
-                    if ((int37 != -1 as obj)) {
+                    int37 = enum_getvalue(0, 33, 6535, INV_GETVAR(varclient_5121, varclient_5122, 56966));
+                    if ((int37 != -1)) {
                         int44 = script7235(`Item being created: ${OC_NAME(int37)}`, string3, int2, int3, int4, int44);
                         int44 = script7235(`Current progress: ${TOSTRING_LOCALISED(INV_GETVAR(varclient_5121, varclient_5122, 56967), 1)}/${TOSTRING_LOCALISED(item_getparam(int37, 9218), 1)} (${TOSTRING_LOCALISED(SCALE(INV_GETVAR(varclient_5121, varclient_5122, 56967), item_getparam(int37, 9218), 100), 1)}%) `, string3, int2, int3, int4, int44);
                         int44 = script7235(`Experience left in item: ${TOSTRING_LOCALISED((INV_GETVAR(varclient_5121, varclient_5122, 56968) / 10), 1)}`, string3, int2, int3, int4, int44);
@@ -973,7 +1017,7 @@ function script5828(int0: number, int1: number, int2: number, int3: number, int4
                         int44 = script7235("Divine", string3, int2, int3, int4, int44);
                     };
                     if (((int16 == 0) && (int19 == 0))) {
-                        int44 = script7235(`Host item: ${enum_getvalue(0, 36, 12899 as cs2enum, int17)}`, string3, int2, int3, int4, int44);
+                        int44 = script7235(`Host item: ${enum_getvalue(0, 36, 12899, int17)}`, string3, int2, int3, int4, int44);
                     };
                     int44 = script7235(`Reward rate: ${inttostring((int34 / 10), 10)}.${inttostring(MODULO(int34, 10), 10)}x`, string3, int2, int3, int4, int44);
                     break;
@@ -1015,7 +1059,7 @@ function script5828(int0: number, int1: number, int2: number, int3: number, int4
                 }
                 case 57066: {
                     int44 = script7235(`You have performed ${inttostring(INV_GETVAR(varclient_5121, varclient_5122, 55665), 10)}/${inttostring(INV_GETVAR(varclient_5121, varclient_5122, 55664), 10)} rituals.`, string3, int2, int3, int4, int44);
-                    int44 = script7235(`Preferred ritual type: ${enum_getvalue(0, 36, 17518 as cs2enum, INV_GETVAR(varclient_5121, varclient_5122, 55663))} rituals.`, string3, int2, int3, int4, int44);
+                    int44 = script7235(`Preferred ritual type: ${enum_getvalue(0, 36, 17518, INV_GETVAR(varclient_5121, varclient_5122, 55663))} rituals.`, string3, int2, int3, int4, int44);
                     break;
                 }
                 case 58325:
@@ -1026,8 +1070,8 @@ function script5828(int0: number, int1: number, int2: number, int3: number, int4
                     break;
                 }
                 case 58493: {
-                    int37 = enum_getvalue(0, 33, 7927 as cs2enum, INV_GETVAR(varclient_5121, varclient_5122, 57697));
-                    if ((int37 != -1 as obj)) {
+                    int37 = enum_getvalue(0, 33, 7927, INV_GETVAR(varclient_5121, varclient_5122, 57697));
+                    if ((int37 != -1)) {
                         int44 = script7235(`Item being created: ${OC_NAME(int37)}`, string3, int2, int3, int4, int44);
                         int44 = script7235(`Current progress: ${inttostring(INV_GETVAR(varclient_5121, varclient_5122, 57698), 10)}/${inttostring(item_getparam(int37, 9241), 10)} (${inttostring(SCALE(INV_GETVAR(varclient_5121, varclient_5122, 57698), item_getparam(int37, 9241), 100), 10)}%) `, string3, int2, int3, int4, int44);
                         int44 = script7235(`Experience left in item: ${inttostring((((item_getparam(int37, 9241) - INV_GETVAR(varclient_5121, varclient_5122, 57698)) * item_getparam(int37, 9242)) / 10), 10)}`, string3, int2, int3, int4, int44);
@@ -1039,8 +1083,8 @@ function script5828(int0: number, int1: number, int2: number, int3: number, int4
                         case 5568:
                         case 5569:
                         case 5570: {
-                            int37 = enum_getvalue(0, 33, 8465 as cs2enum, INV_GETVAR(varclient_5121, varclient_5122, 58104));
-                            if ((int37 != -1 as obj)) {
+                            int37 = enum_getvalue(0, 33, 8465, INV_GETVAR(varclient_5121, varclient_5122, 58104));
+                            if ((int37 != -1)) {
                                 int44 = script7235(`Item being created: ${OC_NAME(int37)}`, string3, int2, int3, int4, int44);
                                 if ((INV_GETVAR(varclient_5121, varclient_5122, 58107) >= script20006(int37))) {
                                     int44 = script7235("<col=ff0000>You have damaged this item. Until you repair it, your progress when working on this item is halved.", string3, int2, int3, int4, int44);
@@ -1062,7 +1106,7 @@ function script5828(int0: number, int1: number, int2: number, int3: number, int4
                         case 5506:
                         case 5572: {
                             if ((item_getparam(int0, 9122) > 0)) {
-                                if ((item_getparam(int0, 9123) != -1 as obj)) {
+                                if ((item_getparam(int0, 9123) != -1)) {
                                     int44 = script7235(`Item to craft: ${OC_NAME(item_getparam(int0, 9123))}`, string3, int2, int3, int4, int44);
                                 };
                                 int44 = script7235(`Current progress: ${inttostring(INV_GETVAR(varclient_5121, varclient_5122, 55926), 10)}/${inttostring(item_getparam(int0, 9122), 10)} (${inttostring(SCALE(INV_GETVAR(varclient_5121, varclient_5122, 55926), item_getparam(int0, 9122), 100), 10)}%) `, string3, int2, int3, int4, int44);
@@ -1071,13 +1115,17 @@ function script5828(int0: number, int1: number, int2: number, int3: number, int4
                         }
                         case 2804:
                         case 3794: {
-                            if ((OC_CATEGORY(int0) == 2804 as category)) {
-                                if (((varclient_5121 == 94 as inv) && (INV_GETVAR(varclient_5121, varclient_5122, 17232) == 1))) {
-                                    int17 = varbitplayer_17234;
+                            if ((OC_CATEGORY(int0) == 2804)) {
+                                if ((varclient_5121 == 94)) {
+                                    if ((INV_GETVAR(varclient_5121, varclient_5122, 17232) == 1)) {
+                                        int17 = varbitplayer_17234;
+                                    } else {
+                                        int17 = INV_GETVAR(varclient_5121, varclient_5122, 17233);
+                                    };
                                 } else {
                                     int17 = INV_GETVAR(varclient_5121, varclient_5122, 17233);
                                 };
-                            } else if ((OC_CATEGORY(int0) == 3794 as category)) {
+                            } else if ((OC_CATEGORY(int0) == 3794)) {
                                 if ((INV_GETVAR(varclient_5121, varclient_5122, 30602) == 1)) {
                                     int17 = varbitplayer_30604;
                                 } else {
@@ -1123,7 +1171,7 @@ function script5828(int0: number, int1: number, int2: number, int3: number, int4
                             break;
                         }
                         case 3021: {
-                            if ((int0 == 44550 as obj)) {
+                            if ((int0 == 44550)) {
                                 int44 = script7235(script13424(script734(varbitplayer_35985), `Stored sign of the porter (disabled) charges: ${inttostring(INV_GETVAR(varclient_5121, varclient_5122, 30214), 10)}/${inttostring(script17012(), 10)}`, `Stored sign of the porter charges: ${inttostring(INV_GETVAR(varclient_5121, varclient_5122, 30214), 10)}/${inttostring(script17012(), 10)}`), string3, int2, int3, int4, int44);
                             } else {
                                 int44 = script7235(`Charges remaining: ${inttostring(INV_GETVAR(varclient_5121, varclient_5122, 20171), 10)}`, string3, int2, int3, int4, int44);
@@ -1148,7 +1196,7 @@ function script5828(int0: number, int1: number, int2: number, int3: number, int4
                         }
                         case 4058: {
                             int17 = INV_GETVAR(varclient_5121, varclient_5122, 34484);
-                            int44 = script7235(`Charges remaining: ${TOSTRING_LOCALISED(int17, 1)}/${TOSTRING_LOCALISED(enum_getvalue(33, 0, 11952 as cs2enum, int0), 1)}`, string3, int2, int3, int4, int44);
+                            int44 = script7235(`Charges remaining: ${TOSTRING_LOCALISED(int17, 1)}/${TOSTRING_LOCALISED(enum_getvalue(33, 0, 11952, int0), 1)}`, string3, int2, int3, int4, int44);
                             break;
                         }
                         case 4299: {
@@ -1163,9 +1211,41 @@ function script5828(int0: number, int1: number, int2: number, int3: number, int4
                         }
                         case 4322: {
                             int34 = item_getparam(int0, 7176);
-                            if ((int0 == 42907 as obj)) {
-                                if ((((((INV_GETVAR(varclient_5121, varclient_5122, 40680) == int34) && (INV_GETVAR(varclient_5121, varclient_5122, 40681) == int34)) && (INV_GETVAR(varclient_5121, varclient_5122, 40682) == int34)) && (INV_GETVAR(varclient_5121, varclient_5122, 40683) == int34)) && (INV_GETVAR(varclient_5121, varclient_5122, 40684) == int34))) {
-                                    int44 = script7235("Memories successfully recovered", string3, int2, int3, int4, int44);
+                            if ((int0 == 42907)) {
+                                if ((INV_GETVAR(varclient_5121, varclient_5122, 40680) == int34)) {
+                                    if ((INV_GETVAR(varclient_5121, varclient_5122, 40681) == int34)) {
+                                        if ((INV_GETVAR(varclient_5121, varclient_5122, 40682) == int34)) {
+                                            if ((INV_GETVAR(varclient_5121, varclient_5122, 40683) == int34)) {
+                                                if ((INV_GETVAR(varclient_5121, varclient_5122, 40684) == int34)) {
+                                                    int44 = script7235("Memories successfully recovered", string3, int2, int3, int4, int44);
+                                                } else {
+                                                    int44 = script7235(`Lustrous data recovered: ${inttostring(INV_GETVAR(varclient_5121, varclient_5122, 40680), 10)}/${inttostring(int34, 10)}`, string3, int2, int3, int4, int44);
+                                                    int44 = script7235(`Brilliant data recovered: ${inttostring(INV_GETVAR(varclient_5121, varclient_5122, 40681), 10)}/${inttostring(int34, 10)}`, string3, int2, int3, int4, int44);
+                                                    int44 = script7235(`Radiant data recovered: ${inttostring(INV_GETVAR(varclient_5121, varclient_5122, 40682), 10)}/${inttostring(int34, 10)}`, string3, int2, int3, int4, int44);
+                                                    int44 = script7235(`Luminous data recovered: ${inttostring(INV_GETVAR(varclient_5121, varclient_5122, 40683), 10)}/${inttostring(int34, 10)}`, string3, int2, int3, int4, int44);
+                                                    int44 = script7235(`Incandescent data recovered: ${inttostring(INV_GETVAR(varclient_5121, varclient_5122, 40684), 10)}/${inttostring(int34, 10)}`, string3, int2, int3, int4, int44);
+                                                };
+                                            } else {
+                                                int44 = script7235(`Lustrous data recovered: ${inttostring(INV_GETVAR(varclient_5121, varclient_5122, 40680), 10)}/${inttostring(int34, 10)}`, string3, int2, int3, int4, int44);
+                                                int44 = script7235(`Brilliant data recovered: ${inttostring(INV_GETVAR(varclient_5121, varclient_5122, 40681), 10)}/${inttostring(int34, 10)}`, string3, int2, int3, int4, int44);
+                                                int44 = script7235(`Radiant data recovered: ${inttostring(INV_GETVAR(varclient_5121, varclient_5122, 40682), 10)}/${inttostring(int34, 10)}`, string3, int2, int3, int4, int44);
+                                                int44 = script7235(`Luminous data recovered: ${inttostring(INV_GETVAR(varclient_5121, varclient_5122, 40683), 10)}/${inttostring(int34, 10)}`, string3, int2, int3, int4, int44);
+                                                int44 = script7235(`Incandescent data recovered: ${inttostring(INV_GETVAR(varclient_5121, varclient_5122, 40684), 10)}/${inttostring(int34, 10)}`, string3, int2, int3, int4, int44);
+                                            };
+                                        } else {
+                                            int44 = script7235(`Lustrous data recovered: ${inttostring(INV_GETVAR(varclient_5121, varclient_5122, 40680), 10)}/${inttostring(int34, 10)}`, string3, int2, int3, int4, int44);
+                                            int44 = script7235(`Brilliant data recovered: ${inttostring(INV_GETVAR(varclient_5121, varclient_5122, 40681), 10)}/${inttostring(int34, 10)}`, string3, int2, int3, int4, int44);
+                                            int44 = script7235(`Radiant data recovered: ${inttostring(INV_GETVAR(varclient_5121, varclient_5122, 40682), 10)}/${inttostring(int34, 10)}`, string3, int2, int3, int4, int44);
+                                            int44 = script7235(`Luminous data recovered: ${inttostring(INV_GETVAR(varclient_5121, varclient_5122, 40683), 10)}/${inttostring(int34, 10)}`, string3, int2, int3, int4, int44);
+                                            int44 = script7235(`Incandescent data recovered: ${inttostring(INV_GETVAR(varclient_5121, varclient_5122, 40684), 10)}/${inttostring(int34, 10)}`, string3, int2, int3, int4, int44);
+                                        };
+                                    } else {
+                                        int44 = script7235(`Lustrous data recovered: ${inttostring(INV_GETVAR(varclient_5121, varclient_5122, 40680), 10)}/${inttostring(int34, 10)}`, string3, int2, int3, int4, int44);
+                                        int44 = script7235(`Brilliant data recovered: ${inttostring(INV_GETVAR(varclient_5121, varclient_5122, 40681), 10)}/${inttostring(int34, 10)}`, string3, int2, int3, int4, int44);
+                                        int44 = script7235(`Radiant data recovered: ${inttostring(INV_GETVAR(varclient_5121, varclient_5122, 40682), 10)}/${inttostring(int34, 10)}`, string3, int2, int3, int4, int44);
+                                        int44 = script7235(`Luminous data recovered: ${inttostring(INV_GETVAR(varclient_5121, varclient_5122, 40683), 10)}/${inttostring(int34, 10)}`, string3, int2, int3, int4, int44);
+                                        int44 = script7235(`Incandescent data recovered: ${inttostring(INV_GETVAR(varclient_5121, varclient_5122, 40684), 10)}/${inttostring(int34, 10)}`, string3, int2, int3, int4, int44);
+                                    };
                                 } else {
                                     int44 = script7235(`Lustrous data recovered: ${inttostring(INV_GETVAR(varclient_5121, varclient_5122, 40680), 10)}/${inttostring(int34, 10)}`, string3, int2, int3, int4, int44);
                                     int44 = script7235(`Brilliant data recovered: ${inttostring(INV_GETVAR(varclient_5121, varclient_5122, 40681), 10)}/${inttostring(int34, 10)}`, string3, int2, int3, int4, int44);
@@ -1184,24 +1264,45 @@ function script5828(int0: number, int1: number, int2: number, int3: number, int4
                             break;
                         }
                         case 4359: {
-                            if (((varclient_5121 == 90 as inv) && (varclient_6492 == 1))) {
-                                int44 = script7235(`Name: ${script1004(int0)}`, string3, int2, int3, int4, int44);
-                                if ((INVOTHER_GETVAR(varclient_5121, varclient_5122, 41803) == 0)) {
-                                    int44 = script7235("Gender: Male", string3, int2, int3, int4, int44);
+                            if ((varclient_5121 == 90)) {
+                                if ((varclient_6492 == 1)) {
+                                    int44 = script7235(`Name: ${script1004(int0)}`, string3, int2, int3, int4, int44);
+                                    if ((INVOTHER_GETVAR(varclient_5121, varclient_5122, 41803) == 0)) {
+                                        int44 = script7235("Gender: Male", string3, int2, int3, int4, int44);
+                                    } else {
+                                        int44 = script7235("Gender: Female", string3, int2, int3, int4, int44);
+                                    };
+                                    if ((INVOTHER_GETVAR(varclient_5121, varclient_5122, 41805) == 1)) {
+                                        int44 = script7235("Shiny!", string3, int2, int3, int4, int44);
+                                    };
+                                    int44 = script7235(`Growth stage: ${script1005(int0)}`, string3, int2, int3, int4, int44);
+                                    int44 = script7235("", string3, int2, int3, int4, int44);
+                                    int44 = script7235(script1006(int0), string3, int2, int3, int4, int44);
+                                    if ((INVOTHER_GETVAR(varclient_5121, varclient_5122, 41808) > 0)) {
+                                        int44 = script7235(script1007(int0), string3, int2, int3, int4, int44);
+                                    };
+                                    if ((INVOTHER_GETVAR(varclient_5121, varclient_5122, 41809) > 0)) {
+                                        int44 = script7235(script1008(int0), string3, int2, int3, int4, int44);
+                                    };
                                 } else {
-                                    int44 = script7235("Gender: Female", string3, int2, int3, int4, int44);
-                                };
-                                if ((INVOTHER_GETVAR(varclient_5121, varclient_5122, 41805) == 1)) {
-                                    int44 = script7235("Shiny!", string3, int2, int3, int4, int44);
-                                };
-                                int44 = script7235(`Growth stage: ${script1005(int0)}`, string3, int2, int3, int4, int44);
-                                int44 = script7235("", string3, int2, int3, int4, int44);
-                                int44 = script7235(script1006(int0), string3, int2, int3, int4, int44);
-                                if ((INVOTHER_GETVAR(varclient_5121, varclient_5122, 41808) > 0)) {
-                                    int44 = script7235(script1007(int0), string3, int2, int3, int4, int44);
-                                };
-                                if ((INVOTHER_GETVAR(varclient_5121, varclient_5122, 41809) > 0)) {
-                                    int44 = script7235(script1008(int0), string3, int2, int3, int4, int44);
+                                    int44 = script7235(`Name: ${script999(int0)}`, string3, int2, int3, int4, int44);
+                                    if ((INV_GETVAR(varclient_5121, varclient_5122, 41803) == 0)) {
+                                        int44 = script7235("Gender: Male", string3, int2, int3, int4, int44);
+                                    } else {
+                                        int44 = script7235("Gender: Female", string3, int2, int3, int4, int44);
+                                    };
+                                    if ((INV_GETVAR(varclient_5121, varclient_5122, 41805) == 1)) {
+                                        int44 = script7235("Shiny!", string3, int2, int3, int4, int44);
+                                    };
+                                    int44 = script7235(`Growth stage: ${script1000(int0)}`, string3, int2, int3, int4, int44);
+                                    int44 = script7235("", string3, int2, int3, int4, int44);
+                                    int44 = script7235(script1001(int0), string3, int2, int3, int4, int44);
+                                    if ((INV_GETVAR(varclient_5121, varclient_5122, 41808) > 0)) {
+                                        int44 = script7235(script1002(int0), string3, int2, int3, int4, int44);
+                                    };
+                                    if ((INV_GETVAR(varclient_5121, varclient_5122, 41809) > 0)) {
+                                        int44 = script7235(script1003(int0), string3, int2, int3, int4, int44);
+                                    };
                                 };
                             } else {
                                 int44 = script7235(`Name: ${script999(int0)}`, string3, int2, int3, int4, int44);
@@ -1265,7 +1366,7 @@ function script5828(int0: number, int1: number, int2: number, int3: number, int4
                             break;
                         }
                         case 5292: {
-                            int44 = script7235(`Mode: ${enum_getvalue(0, 36, 16911 as cs2enum, INV_GETVAR(varclient_5121, varclient_5122, 52915))}`, string3, int2, int3, int4, int44);
+                            int44 = script7235(`Mode: ${enum_getvalue(0, 36, 16911, INV_GETVAR(varclient_5121, varclient_5122, 52915))}`, string3, int2, int3, int4, int44);
                             int44 = script7235(`Charges: ${TOSTRING_LOCALISED(INV_GETVAR(varclient_5121, varclient_5122, 52916), 1)}`, string3, int2, int3, int4, int44);
                             break;
                         }
@@ -1283,9 +1384,11 @@ function script5828(int0: number, int1: number, int2: number, int3: number, int4
                             break;
                         }
                         case 35: {
-                            string12 = inttostring(enum_getvalue(33, 0, 6560 as cs2enum, int0), 10);
-                            if ((((item_getparam(int0, 485) == 1265) || (item_getparam(int0, 485) == 1300)) && (STAT_BASE(8 as stat) >= struct_getparam(28972 as struct, 2212)))) {
-                                string12 = inttostring((enum_getvalue(33, 0, 6560 as cs2enum, int0) + 2), 10);
+                            string12 = inttostring(enum_getvalue(33, 0, 6560, int0), 10);
+                            if (((item_getparam(int0, 485) == 1265) || (item_getparam(int0, 485) == 1300))) {
+                                if ((STAT_BASE(8 as stat) >= struct_getparam(28972, 2212))) {
+                                    string12 = inttostring((enum_getvalue(33, 0, 6560, int0) + 2), 10);
+                                };
                             };
                             int44 = script7235(`Cutting power: Tier ${string12}`, string3, int2, int3, int4, int44);
                             break;
@@ -1315,7 +1418,7 @@ function script5828(int0: number, int1: number, int2: number, int3: number, int4
                                 };
                                 int44 = script7235(`Item Charge: ${string2}${string1}%`, string3, int2, int3, int4, int44);
                             } else if ((item_getparam(int0, 1324) == 1)) {
-                                if ((item_getparam(int0, 5527) == -1 as obj)) {
+                                if ((item_getparam(int0, 5527) == -1)) {
                                     if ((item_getparam(int0, 3385) >= 1)) {
                                         int17 = script670(varclient_5121, varclient_5122, int0);
                                         if ((item_getparam(int0, 9308) == 1)) {
@@ -1350,17 +1453,27 @@ function script5828(int0: number, int1: number, int2: number, int3: number, int4
                                             int44 = script7235(`Item Charge: ${string2}${string1}%`, string3, int2, int3, int4, int44);
                                         };
                                     } else if ((item_getparam(int0, 6880) == 0)) {
-                                        if (((item_getparam(int0, 5777) != -1 as obj) && (item_getparam(int0, 5778) != -1 as obj))) {
-                                            if ((OC_WEARPOS(int0) == 3)) {
-                                                int17 = SCALE(INV_GETVAR(varclient_5121, varclient_5122, 507), 3000, 1000);
+                                        if ((item_getparam(int0, 5777) != -1)) {
+                                            if ((item_getparam(int0, 5778) != -1)) {
+                                                if ((OC_WEARPOS(int0) == 3)) {
+                                                    int17 = SCALE(INV_GETVAR(varclient_5121, varclient_5122, 507), 3000, 1000);
+                                                } else {
+                                                    int17 = SCALE(INV_GETVAR(varclient_5121, varclient_5122, 507), 35000, 1000);
+                                                };
+                                            } else if ((item_getparam(int0, 3112) == 1)) {
+                                                int17 = MIN(1000, SCALE(INV_GETVAR(varclient_5121, varclient_5122, 17233), (item_getparam(int0, 3109) / 10), 100));
+                                            } else if ((int0 == 24338)) {
+                                                int17 = (1000 - SCALE(INV_GETVAR(varclient_5121, varclient_5122, 16238), 6000, 100));
+                                            } else if ((OC_CATEGORY(int0) == 3847)) {
+                                                int17 = SCALE(INV_GETVAR(varclient_5121, varclient_5122, 31193), item_getparam(int0, 5722), 1000);
                                             } else {
-                                                int17 = SCALE(INV_GETVAR(varclient_5121, varclient_5122, 507), 35000, 1000);
+                                                int17 = (1000 - SCALE(INV_GETVAR(varclient_5121, varclient_5122, 15190), 6000, 100));
                                             };
                                         } else if ((item_getparam(int0, 3112) == 1)) {
                                             int17 = MIN(1000, SCALE(INV_GETVAR(varclient_5121, varclient_5122, 17233), (item_getparam(int0, 3109) / 10), 100));
-                                        } else if ((int0 == 24338 as obj)) {
+                                        } else if ((int0 == 24338)) {
                                             int17 = (1000 - SCALE(INV_GETVAR(varclient_5121, varclient_5122, 16238), 6000, 100));
-                                        } else if ((OC_CATEGORY(int0) == 3847 as category)) {
+                                        } else if ((OC_CATEGORY(int0) == 3847)) {
                                             int17 = SCALE(INV_GETVAR(varclient_5121, varclient_5122, 31193), item_getparam(int0, 5722), 1000);
                                         } else {
                                             int17 = (1000 - SCALE(INV_GETVAR(varclient_5121, varclient_5122, 15190), 6000, 100));
@@ -1420,7 +1533,7 @@ function script5828(int0: number, int1: number, int2: number, int3: number, int4
         } else {
             switch (int0) {
                 case 44155: {
-                    if (((varplayer_3079 >= struct_getparam(40722 as struct, 7487)) && (varplayer_3079 <= struct_getparam(40722 as struct, 7489)))) {
+                    if (((varplayer_3079 >= struct_getparam(40722, 7487)) && (varplayer_3079 <= struct_getparam(40722, 7489)))) {
                         int44 = script7235(`Charges: ${TOSTRING_LOCALISED(varbitplayer_42023, 1)}/${TOSTRING_LOCALISED(4000, 1)}<br>Provides a 2% XP boost while equipped or in your inventory.`, string3, int2, int3, int4, int44);
                     };
                     break;
@@ -1430,7 +1543,7 @@ function script5828(int0: number, int1: number, int2: number, int3: number, int4
                     break;
                 }
                 case 31846: {
-                    string1 = enum_getvalue(0, 36, 9197 as cs2enum, varbitplayer_22901);
+                    string1 = enum_getvalue(0, 36, 9197, varbitplayer_22901);
                     int44 = script7235(`Reaper assignment: ${string1}`, string3, int2, int3, int4, int44);
                     if ((varbitplayer_22902 >= 1)) {
                         int17 = script7235(`Kills remaining: ${TOSTRING_LOCALISED(varbitplayer_22902, 1)}`, string3, int2, int3, int4, int44);
@@ -1836,7 +1949,7 @@ function script5828(int0: number, int1: number, int2: number, int3: number, int4
                             break;
                         }
                         case 4058: {
-                            int17 = enum_getvalue(33, 0, 11952 as cs2enum, int0);
+                            int17 = enum_getvalue(33, 0, 11952, int0);
                             int44 = script7235(`Charges remaining: ${TOSTRING_LOCALISED(int17, 1)}/${TOSTRING_LOCALISED(int17, 1)}`, string3, int2, int3, int4, int44);
                             break;
                         }
@@ -1890,15 +2003,17 @@ function script5828(int0: number, int1: number, int2: number, int3: number, int4
                             break;
                         }
                         case 35: {
-                            string12 = inttostring(enum_getvalue(33, 0, 6560 as cs2enum, int0), 10);
-                            if ((((item_getparam(int0, 485) == 1265) || (item_getparam(int0, 485) == 1300)) && (STAT_BASE(8 as stat) >= struct_getparam(28972 as struct, 2212)))) {
-                                string12 = inttostring((enum_getvalue(33, 0, 6560 as cs2enum, int0) + 2), 10);
+                            string12 = inttostring(enum_getvalue(33, 0, 6560, int0), 10);
+                            if (((item_getparam(int0, 485) == 1265) || (item_getparam(int0, 485) == 1300))) {
+                                if ((STAT_BASE(8 as stat) >= struct_getparam(28972, 2212))) {
+                                    string12 = inttostring((enum_getvalue(33, 0, 6560, int0) + 2), 10);
+                                };
                             };
                             int44 = script7235(`Cutting power: Tier ${string12}`, string3, int2, int3, int4, int44);
                             break;
                         }
                         default: {
-                            if ((item_getparam(int0, 3203) == 39402 as struct)) {
+                            if ((item_getparam(int0, 3203) == 39402)) {
                                 int17 = (3 + script3862());
                                 switch (int0) {
                                     case 42111:
@@ -1952,7 +2067,7 @@ function script5828(int0: number, int1: number, int2: number, int3: number, int4
     };
     switch (int0) {
         case 59358: {
-            if ((item_getparam(int0, 8928) != -1 as struct)) {
+            if ((item_getparam(int0, 8928) != -1)) {
                 int44 = script7235(`Passive: ${struct_getparam(item_getparam(int0, 8928), 2794)}<br>${script17663(int0)}`, string3, int2, int3, int4, int44);
             };
             break;
@@ -1979,13 +2094,17 @@ function script5828(int0: number, int1: number, int2: number, int3: number, int4
             int44 = script7235("<col=ff0000>May no longer be traded.", string3, int2, int3, int4, int44);
         };
     };
-    if ((((int29 == 0) && (item_getparam(int0, 8696) == true)) && (script16823() == 1))) {
+    if ((((int29 == 0) && (item_getparam(int0, 8696) == 1)) && (script16823() == 1))) {
         int44 = script7235("<col=ff0000>May only be traded outside of Fresh Start Worlds.", string3, int2, int3, int4, int44);
     };
     if ((strcmp(item_getparam(int0, 3200), "") != 0)) {
-        string9 = script8240(-1 as struct, int0);
-        if (((script4148() == 1) && (strcmp(item_getparam(int0, 8572), "") != 0))) {
-            int44 = script7235(`${string9}${item_getparam(int0, 8572)}`, string3, int2, int3, int4, int44);
+        string9 = script8240(-1, int0);
+        if ((script4148() == 1)) {
+            if ((strcmp(item_getparam(int0, 8572), "") != 0)) {
+                int44 = script7235(`${string9}${item_getparam(int0, 8572)}`, string3, int2, int3, int4, int44);
+            } else {
+                int44 = script7235(`${string9}${item_getparam(int0, 3200)}`, string3, int2, int3, int4, int44);
+            };
         } else {
             int44 = script7235(`${string9}${item_getparam(int0, 3200)}`, string3, int2, int3, int4, int44);
         };
@@ -2005,13 +2124,13 @@ function script5828(int0: number, int1: number, int2: number, int3: number, int4
         string7 = "<col=00ff00>";
         int44 = script7235(varclient_4645, string7, int2, int3, int4, int44);
     };
-    if (((int5 != -1 as obj) && (int5 != int0))) {
-        if ((int0 != -1 as obj)) {
+    if (((int5 != -1) && (int5 != int0))) {
+        if ((int0 != -1)) {
             int44 = script7235(" ", string1, int2, int3, int4, int44);
         };
         int44 = script10761(int5, int6, int1, int2, int3, int4, int44);
     };
-    if (((item_getparam(int0, 3824) == true) && (STRING_LENGTH(OC_DESC(int0)) > 0))) {
+    if (((item_getparam(int0, 3824) == 1) && (STRING_LENGTH(OC_DESC(int0)) > 0))) {
         int44 = script7235(OC_DESC(int0), string3, int2, int3, int4, int44);
     };
     if (((int45 != -1) && (int44 == int45))) {

@@ -16,7 +16,7 @@ function script11317(int0: number): void {
     };
     if ((int4 >= 255)) {
         IF_SETONTIMER(callback(), int0);
-        IF_SETHIDE(1, int0);
+        IF_SETHIDE(true, int0);
         return;
     };
     return;

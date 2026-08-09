@@ -33,25 +33,221 @@ function script3067(int0: number, int1: number): void {
     } else {
         return;
     };
-    stack(unk11102());
-    [int2, int3, string0, int4, string1, int5, int6, string2] = stack();
+    [int2, int3, string0, int4, string1, int5, int6, string2] = unk11102();
     var int8 = 0;
-    while (((int2 != -1) && (int8 == 0))) {
-        if ((int2 == int7)) {
-            int8 = 1;
-        } else {
-            stack(unk11101());
-            [int2, int3, string0, int4, string1, int5, int6, string2] = stack();
+    while ((int2 != -1)) {
+        if ((int8 == 0)) {
+            if ((int2 == int7)) {
+                int8 = 1;
+            } else {
+                [int2, int3, string0, int4, string1, int5, int6, string2] = unk11101();
+            };
         };
+        if ((int2 > 0)) {
+            if ((MAP_WORLD() != int2)) {
+                if ((TESTBIT(int3, 30) == 1)) {
+                    if ((script16823() == 0)) {
+                        if ((STAFFMODLEVEL() < 2)) {
+                            script3064(1);
+                            script3093(-5, 4036, "Connection Failed", "You do not have access to Fresh Start Worlds. Please select a different world and try again.", 2608, "", "Back");
+                        } else if ((TESTBIT(int3, 30) == 0)) {
+                            if ((script16823() == 1)) {
+                                if ((STAFFMODLEVEL() < 2)) {
+                                    script3064(1);
+                                    script3093(-5, 4036, "Connection Failed", "You only have access to Fresh Start Worlds. Please select a different world and try again.", 2608, "", "Back");
+                                } else if ((unk11027(int2, string2) == 1)) {
+                                    varclient_547 = 0;
+                                    script3064(1);
+                                    script3062(59375697);
+                                    script3116();
+                                } else {
+                                    script3064(1);
+                                    script3093(-5, 4036, "Connection Failed", "Could not connect you to the chosen world. Please choose another.", 2608, "", "Back");
+                                };
+                            } else if ((unk11027(int2, string2) == 1)) {
+                                varclient_547 = 0;
+                                script3064(1);
+                                script3062(59375697);
+                                script3116();
+                            } else {
+                                script3064(1);
+                                script3093(-5, 4036, "Connection Failed", "Could not connect you to the chosen world. Please choose another.", 2608, "", "Back");
+                            };
+                        } else if ((unk11027(int2, string2) == 1)) {
+                            varclient_547 = 0;
+                            script3064(1);
+                            script3062(59375697);
+                            script3116();
+                        } else {
+                            script3064(1);
+                            script3093(-5, 4036, "Connection Failed", "Could not connect you to the chosen world. Please choose another.", 2608, "", "Back");
+                        };
+                    } else if ((TESTBIT(int3, 30) == 0)) {
+                        if ((script16823() == 1)) {
+                            if ((STAFFMODLEVEL() < 2)) {
+                                script3064(1);
+                                script3093(-5, 4036, "Connection Failed", "You only have access to Fresh Start Worlds. Please select a different world and try again.", 2608, "", "Back");
+                            } else if ((unk11027(int2, string2) == 1)) {
+                                varclient_547 = 0;
+                                script3064(1);
+                                script3062(59375697);
+                                script3116();
+                            } else {
+                                script3064(1);
+                                script3093(-5, 4036, "Connection Failed", "Could not connect you to the chosen world. Please choose another.", 2608, "", "Back");
+                            };
+                        } else if ((unk11027(int2, string2) == 1)) {
+                            varclient_547 = 0;
+                            script3064(1);
+                            script3062(59375697);
+                            script3116();
+                        } else {
+                            script3064(1);
+                            script3093(-5, 4036, "Connection Failed", "Could not connect you to the chosen world. Please choose another.", 2608, "", "Back");
+                        };
+                    } else if ((unk11027(int2, string2) == 1)) {
+                        varclient_547 = 0;
+                        script3064(1);
+                        script3062(59375697);
+                        script3116();
+                    } else {
+                        script3064(1);
+                        script3093(-5, 4036, "Connection Failed", "Could not connect you to the chosen world. Please choose another.", 2608, "", "Back");
+                    };
+                } else if ((TESTBIT(int3, 30) == 0)) {
+                    if ((script16823() == 1)) {
+                        if ((STAFFMODLEVEL() < 2)) {
+                            script3064(1);
+                            script3093(-5, 4036, "Connection Failed", "You only have access to Fresh Start Worlds. Please select a different world and try again.", 2608, "", "Back");
+                        } else if ((unk11027(int2, string2) == 1)) {
+                            varclient_547 = 0;
+                            script3064(1);
+                            script3062(59375697);
+                            script3116();
+                        } else {
+                            script3064(1);
+                            script3093(-5, 4036, "Connection Failed", "Could not connect you to the chosen world. Please choose another.", 2608, "", "Back");
+                        };
+                    } else if ((unk11027(int2, string2) == 1)) {
+                        varclient_547 = 0;
+                        script3064(1);
+                        script3062(59375697);
+                        script3116();
+                    } else {
+                        script3064(1);
+                        script3093(-5, 4036, "Connection Failed", "Could not connect you to the chosen world. Please choose another.", 2608, "", "Back");
+                    };
+                } else if ((unk11027(int2, string2) == 1)) {
+                    varclient_547 = 0;
+                    script3064(1);
+                    script3062(59375697);
+                    script3116();
+                } else {
+                    script3064(1);
+                    script3093(-5, 4036, "Connection Failed", "Could not connect you to the chosen world. Please choose another.", 2608, "", "Back");
+                };
+            } else {
+                script3062(59375697);
+            };
+        } else {
+            script3093(-5, 4036, "Connection Failed", `World ${inttostring(int7, 10)} is running in a different language or is unavailable.`, 2608, "", "Back");
+        };
+        return;
     };
     if ((int2 > 0)) {
         if ((MAP_WORLD() != int2)) {
-            if ((((TESTBIT(int3, 30) == 1) && (script16823() == 0)) && (STAFFMODLEVEL() < 2))) {
-                script3064(1);
-                script3093(-5, 4036, "Connection Failed", "You do not have access to Fresh Start Worlds. Please select a different world and try again.", 2608, "", "Back");
-            } else if ((((TESTBIT(int3, 30) == 0) && (script16823() == 1)) && (STAFFMODLEVEL() < 2))) {
-                script3064(1);
-                script3093(-5, 4036, "Connection Failed", "You only have access to Fresh Start Worlds. Please select a different world and try again.", 2608, "", "Back");
+            if ((TESTBIT(int3, 30) == 1)) {
+                if ((script16823() == 0)) {
+                    if ((STAFFMODLEVEL() < 2)) {
+                        script3064(1);
+                        script3093(-5, 4036, "Connection Failed", "You do not have access to Fresh Start Worlds. Please select a different world and try again.", 2608, "", "Back");
+                    } else if ((TESTBIT(int3, 30) == 0)) {
+                        if ((script16823() == 1)) {
+                            if ((STAFFMODLEVEL() < 2)) {
+                                script3064(1);
+                                script3093(-5, 4036, "Connection Failed", "You only have access to Fresh Start Worlds. Please select a different world and try again.", 2608, "", "Back");
+                            } else if ((unk11027(int2, string2) == 1)) {
+                                varclient_547 = 0;
+                                script3064(1);
+                                script3062(59375697);
+                                script3116();
+                            } else {
+                                script3064(1);
+                                script3093(-5, 4036, "Connection Failed", "Could not connect you to the chosen world. Please choose another.", 2608, "", "Back");
+                            };
+                        } else if ((unk11027(int2, string2) == 1)) {
+                            varclient_547 = 0;
+                            script3064(1);
+                            script3062(59375697);
+                            script3116();
+                        } else {
+                            script3064(1);
+                            script3093(-5, 4036, "Connection Failed", "Could not connect you to the chosen world. Please choose another.", 2608, "", "Back");
+                        };
+                    } else if ((unk11027(int2, string2) == 1)) {
+                        varclient_547 = 0;
+                        script3064(1);
+                        script3062(59375697);
+                        script3116();
+                    } else {
+                        script3064(1);
+                        script3093(-5, 4036, "Connection Failed", "Could not connect you to the chosen world. Please choose another.", 2608, "", "Back");
+                    };
+                } else if ((TESTBIT(int3, 30) == 0)) {
+                    if ((script16823() == 1)) {
+                        if ((STAFFMODLEVEL() < 2)) {
+                            script3064(1);
+                            script3093(-5, 4036, "Connection Failed", "You only have access to Fresh Start Worlds. Please select a different world and try again.", 2608, "", "Back");
+                        } else if ((unk11027(int2, string2) == 1)) {
+                            varclient_547 = 0;
+                            script3064(1);
+                            script3062(59375697);
+                            script3116();
+                        } else {
+                            script3064(1);
+                            script3093(-5, 4036, "Connection Failed", "Could not connect you to the chosen world. Please choose another.", 2608, "", "Back");
+                        };
+                    } else if ((unk11027(int2, string2) == 1)) {
+                        varclient_547 = 0;
+                        script3064(1);
+                        script3062(59375697);
+                        script3116();
+                    } else {
+                        script3064(1);
+                        script3093(-5, 4036, "Connection Failed", "Could not connect you to the chosen world. Please choose another.", 2608, "", "Back");
+                    };
+                } else if ((unk11027(int2, string2) == 1)) {
+                    varclient_547 = 0;
+                    script3064(1);
+                    script3062(59375697);
+                    script3116();
+                } else {
+                    script3064(1);
+                    script3093(-5, 4036, "Connection Failed", "Could not connect you to the chosen world. Please choose another.", 2608, "", "Back");
+                };
+            } else if ((TESTBIT(int3, 30) == 0)) {
+                if ((script16823() == 1)) {
+                    if ((STAFFMODLEVEL() < 2)) {
+                        script3064(1);
+                        script3093(-5, 4036, "Connection Failed", "You only have access to Fresh Start Worlds. Please select a different world and try again.", 2608, "", "Back");
+                    } else if ((unk11027(int2, string2) == 1)) {
+                        varclient_547 = 0;
+                        script3064(1);
+                        script3062(59375697);
+                        script3116();
+                    } else {
+                        script3064(1);
+                        script3093(-5, 4036, "Connection Failed", "Could not connect you to the chosen world. Please choose another.", 2608, "", "Back");
+                    };
+                } else if ((unk11027(int2, string2) == 1)) {
+                    varclient_547 = 0;
+                    script3064(1);
+                    script3062(59375697);
+                    script3116();
+                } else {
+                    script3064(1);
+                    script3093(-5, 4036, "Connection Failed", "Could not connect you to the chosen world. Please choose another.", 2608, "", "Back");
+                };
             } else if ((unk11027(int2, string2) == 1)) {
                 varclient_547 = 0;
                 script3064(1);

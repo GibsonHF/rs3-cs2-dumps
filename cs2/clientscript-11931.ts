@@ -5,11 +5,11 @@ function script11931(int0: number, int1: number): void {
     };
     script9554(4653077, 4653085, 4653078, enum_getvalue(0, 36, 10582 as cs2enum, int0), 21217);
     IF_SETHIDE(false, comp(71, 18));
-    var string0 = `${enum_getvalue(0, 36, 16062 as cs2enum, int0)}<br><br>Requires level ${inttostring(enum_getvalue(0, 0, 16061 as cs2enum, int0), 10)} Archaeology.`;
+    var string0 = `${enum_getvalue(0, 36, 16062, int0)}<br><br>Requires level ${inttostring(enum_getvalue(0, 0, 16061, int0), 10)} Archaeology.`;
     var string1 = "Fast travel";
     var int2 = 0;
     if ((MAP_MEMBERS() == 0)) {
-        if ((PLAYERMEMBER() == false)) {
+        if ((PLAYERMEMBER() == 0)) {
             string0 = `${string0}<br>Members' only location.`;
             string1 = "Subscribe";
         } else {

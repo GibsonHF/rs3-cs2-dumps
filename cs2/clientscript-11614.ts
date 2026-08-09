@@ -7,8 +7,15 @@ function script11614(int0: number): void {
     if ((int1 != -1 as cs2enum)) {
         while ((int3 <= 7)) {
             int4 = enum_getvalue(0, 31, int1, int3);
-            if (((int4 != -1 as model) && (int4 != 88196 as model))) {
-                IF_NPC_SETCUSTOMBODYMODEL(int3, int4, 58392596);
+            if ((int4 != -1 as model)) {
+                if ((int4 != 88196 as model)) {
+                    IF_NPC_SETCUSTOMBODYMODEL(int3, int4, 58392596);
+                } else if ((int2 != -1 as cs2enum)) {
+                    int4 = enum_getvalue(0, 31, int2, int3);
+                    if (((int4 != -1 as model) && (int4 != 88196 as model))) {
+                        IF_NPC_SETCUSTOMBODYMODEL(int3, int4, 58392596);
+                    };
+                };
             } else if ((int2 != -1 as cs2enum)) {
                 int4 = enum_getvalue(0, 31, int2, int3);
                 if (((int4 != -1 as model) && (int4 != 88196 as model))) {

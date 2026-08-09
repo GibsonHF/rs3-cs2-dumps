@@ -12,6 +12,7 @@ function script15474(int0: number): number {
             return 3449;
         }
         case 4: {
+            break;
         }
         default: {
             return 3446;

@@ -6,7 +6,9 @@ function script13785(): void {
     var int3 = -1;
     var int4 = ((IF_GETHEIGHT(comp(662, 0)) - IF_GETY(int0)) - int2);
     script15831();
-    while ((CC_FIND(comp(662, 48), ++int3) == 1)) {
+    stack(comp(662, 48));
+    int3 = (int3 + 1);
+    while ((CC_FIND(int3) == 1)) {
         if ((strcmp(CC_GETTEXT(), "") != 0)) {
             CC_SETSIZE((2 * int2), (2 * int2), 1, 1);
             int1 = (script7593(CC_GETTEXT(), CC_GETWIDTH(), 28, 0) + (4 * int2));

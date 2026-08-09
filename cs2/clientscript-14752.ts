@@ -7,11 +7,19 @@ function script14752(int0: number, int1: number, int2: number, string0: string):
     if ((script6431() == 1)) {
         int6 = 28 as fontmetrics;
     };
-    CC_CREATE(int0, 5, int3++);
+    stack(int0);
+    stack(5);
+    stack(int3);
+    int3 = (int3 + 1);
+    CC_CREATE();
     CC_SETPOSITION(4, int1, 0, 0);
     CC_SETSIZE(int4, int4, 0, 0);
     CC_SETGRAPHIC(21342 as graphic);
-    CC_CREATE(int0, 4, int3++);
+    stack(int0);
+    stack(4);
+    stack(int3);
+    int3 = (int3 + 1);
+    CC_CREATE();
     CC_SETPOSITION(int5, int1, 0, 0);
     var int7 = script7593(string0, ((int2 - int5) - 4), int6, 0);
     if ((int7 < int4)) {

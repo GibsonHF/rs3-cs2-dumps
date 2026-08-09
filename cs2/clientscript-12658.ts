@@ -23,10 +23,17 @@ function script12658(int0: number, int1: number, int2: number, int3: number, int
     };
     var string5 = "0";
     var string6 = "0";
-    if (((int4 == 1) && (struct_getparam(int0, 1445) == true))) {
-        string5 = TOSTRING_LOCALISED(int2, 1);
-        if ((int3 > 0)) {
-            string6 = TOSTRING_LOCALISED(int3, 1);
+    if ((int4 == 1)) {
+        if ((struct_getparam(int0, 1445) == 1)) {
+            string5 = TOSTRING_LOCALISED(int2, 1);
+            if ((int3 > 0)) {
+                string6 = TOSTRING_LOCALISED(int3, 1);
+            };
+        } else {
+            string5 = script11478(int2);
+            if ((int3 > 0)) {
+                string6 = script11478(int3);
+            };
         };
     } else {
         string5 = script11478(int2);

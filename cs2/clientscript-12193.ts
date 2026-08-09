@@ -14,10 +14,14 @@ function script12193(): string {
     var int0 = 9;
     var int1 = 0;
     var int2 = 0;
-    while ((int0-- > 0)) {
+    stack(int0);
+    int0 = (int0 - 1);
+    while (BRANCH_GREATER_THAN(0)) {
         int2 = (push_array[1](int0) + 1);
         int1 = int0;
-        while ((int1-- > 0)) {
+        stack(int1);
+        int1 = (int1 - 1);
+        while (BRANCH_GREATER_THAN(0)) {
             if ((push_array(int0) == push_array(int1))) {
                 pop_array[1](int1, (push_array[1](int1) + int2));
                 int1 = -1;
@@ -30,7 +34,8 @@ function script12193(): string {
     var string0 = "";
     var string1 = "";
     int0 = -1;
-    while ((++int0 < 9)) {
+    int0 = (int0 + 1);
+    while ((int0 < 9)) {
         if (((push_array(int0) != -1) && (push_array[1](int0) > 0))) {
             pop_array[1](int0, (push_array[1](int0) * script12065(push_array(int0))));
             string0 = `${string0}${string1}${TOSTRING_LOCALISED(push_array[1](int0), 1)} x ${dbrow_getfield(push_array(int0), 16400, 0)}`;

@@ -118,8 +118,20 @@ function script3713(int0: number, int1: number): number {
                 break;
             }
         };
-        if (((int5 > 0) && (int5 < 60))) {
-            if ((STAT_BASE(enum_getvalue(0, 17, 681 as cs2enum, int5)) < int6)) {
+        if ((int5 > 0)) {
+            if ((int5 < 60)) {
+                if ((STAT_BASE(enum_getvalue(0, 17, 681 as cs2enum, int5)) < int6)) {
+                    return 0;
+                };
+            } else if ((int5 == 60)) {
+                int4 = script5795(int6);
+                if ((int4 == -1)) {
+                    return 0;
+                };
+                if ((script3227(int6) != 2)) {
+                    return 0;
+                };
+            } else if (((int5 == 61) && (script7073(int6) != 2))) {
                 return 0;
             };
         } else if ((int5 == 60)) {
@@ -216,7 +228,13 @@ function script3713(int0: number, int1: number): number {
             break;
         }
         case 3015: {
-            if ((((STAT_BASE(0 as stat) < 65) && (STAT_BASE(1 as stat) < 65)) || ((INV_TOTAL(93 as inv, 18757 as obj) == 0) && (INV_TOTAL(95 as inv, 18757 as obj) == 0)))) {
+            if ((STAT_BASE(0 as stat) < 65)) {
+                if ((STAT_BASE(1 as stat) < 65)) {
+                    return 0;
+                } else if (((INV_TOTAL(93 as inv, 18757 as obj) == 0) && (INV_TOTAL(95 as inv, 18757 as obj) == 0))) {
+                    return 0;
+                };
+            } else if (((INV_TOTAL(93 as inv, 18757 as obj) == 0) && (INV_TOTAL(95 as inv, 18757 as obj) == 0))) {
                 return 0;
             };
             break;

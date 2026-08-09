@@ -42,12 +42,14 @@ function script947(int0: number): [number, number, number] {
                 break;
             }
             case 4058: {
-                if (((item_getparam(int1, 6810) == false) && ((OC_MEMBERS(int1) == 0) || (MAP_MEMBERS() == 1)))) {
-                    if ((item_getparam(int1, 3384) == 1)) {
-                        int3 = enum_getvalue(33, 33, 11953 as cs2enum, int1);
-                    } else {
-                        int3 = int1;
-                        int1 = enum_getreverseindex(33, 33, 11953 as cs2enum, int1, 0);
+                if ((item_getparam(int1, 6810) == false)) {
+                    if (((OC_MEMBERS(int1) == 0) || (MAP_MEMBERS() == 1))) {
+                        if ((item_getparam(int1, 3384) == 1)) {
+                            int3 = enum_getvalue(33, 33, 11953 as cs2enum, int1);
+                        } else {
+                            int3 = int1;
+                            int1 = enum_getreverseindex(33, 33, 11953 as cs2enum, int1, 0);
+                        };
                     };
                 };
                 break;

@@ -1,7 +1,7 @@
 //
 function script19218(int0: number, int1: number): number {
-    if ((int0 == -1 as dbrow)) {
-        return -1 as dbrow;
+    if ((int0 == -1)) {
+        return -1;
     };
     switch (int1) {
         case 1: {
@@ -20,5 +20,5 @@ function script19218(int0: number, int1: number): number {
             return dbrow_getfield(int0, 1241168, 0);
         }
     };
-    return -1 as dbrow;
+    return -1;
 }

@@ -2,7 +2,7 @@
 function script16791(int0: number, int1: number, int2: number): void {
     var int3 = -1;
     var int4 = DB_LISTALL(217);
-    var int5 = -1 as dbrow;
+    var int5 = -1;
     var int6 = 0;
     var int7 = (140 + IF_GETCHILDSPACING(int0));
     if (((int7 * int4) > IF_GETHEIGHT(int0))) {
@@ -24,15 +24,10 @@ function script16791(int0: number, int1: number, int2: number): void {
     var string0 = "";
     var string1 = "";
     var int18 = int2;
-    while ((++int3 < int4)) {
-        dbrow_findnext();
-        int5 = stack();
-        stack(3);
-        stack(int5);
-        stack(888832);
-        stack(0);
-        dbrow_getfield();
-        int6 = MIN(stack(), script15809(stack()));
+    int3 = (int3 + 1);
+    while ((int3 < int4)) {
+        int5 = dbrow_findnext();
+        int6 = MIN(3, script15809(dbrow_getfield(int5, 888832, 0)));
         if ((int18 == -1)) {
             if ((int6 >= 1)) {
                 string1 = `Earned Tier ${inttostring(int6, 10)} Rewards`;
@@ -99,7 +94,8 @@ function script16791(int0: number, int1: number, int2: number): void {
             }
             case 1: {
                 int17 = DB_GETFIELDCOUNT(int5, 888880);
-                while ((++int16 < int17)) {
+                int16 = (int16 + 1);
+                while ((int16 < int17)) {
                     string0 = dbrow_getfield(int5, 888880, int16);
                     [int15, int9] = script16821(int3, int15, int9, int14, string0);
                 };
@@ -107,7 +103,8 @@ function script16791(int0: number, int1: number, int2: number): void {
             }
             case 2: {
                 int17 = DB_GETFIELDCOUNT(int5, 888896);
-                while ((++int16 < int17)) {
+                int16 = (int16 + 1);
+                while ((int16 < int17)) {
                     string0 = dbrow_getfield(int5, 888896, int16);
                     [int15, int9] = script16821(int3, int15, int9, int14, string0);
                 };
@@ -115,7 +112,8 @@ function script16791(int0: number, int1: number, int2: number): void {
             }
             case 3: {
                 int17 = DB_GETFIELDCOUNT(int5, 888912);
-                while ((++int16 < int17)) {
+                int16 = (int16 + 1);
+                while ((int16 < int17)) {
                     string0 = dbrow_getfield(int5, 888912, int16);
                     [int15, int9] = script16821(int3, int15, int9, int14, string0);
                 };
@@ -123,7 +121,8 @@ function script16791(int0: number, int1: number, int2: number): void {
             }
             default: {
                 int17 = DB_GETFIELDCOUNT(int5, 888912);
-                while ((++int16 < int17)) {
+                int16 = (int16 + 1);
+                while ((int16 < int17)) {
                     string0 = dbrow_getfield(int5, 888912, int16);
                     [int15, int9] = script16821(int3, int15, int9, int14, string0);
                 };
@@ -132,9 +131,25 @@ function script16791(int0: number, int1: number, int2: number): void {
         };
     };
     var int19 = 0;
-    script1431(int0, int1, int19++, -1, "Current Tier", "View Current");
-    script1431(int0, int1, int19++, 1, "Tier 1", "View Tier 1");
-    script1431(int0, int1, int19++, 2, "Tier 2", "View Tier 2");
-    script1431(int0, int1, int19++, 3, "Tier 3", "View Tier 3");
+    stack(int0);
+    stack(int1);
+    stack(int19);
+    int19 = (int19 + 1);
+    script1431(-1, "Current Tier", "View Current");
+    stack(int0);
+    stack(int1);
+    stack(int19);
+    int19 = (int19 + 1);
+    script1431(1, "Tier 1", "View Tier 1");
+    stack(int0);
+    stack(int1);
+    stack(int19);
+    int19 = (int19 + 1);
+    script1431(2, "Tier 2", "View Tier 2");
+    stack(int0);
+    stack(int1);
+    stack(int19);
+    int19 = (int19 + 1);
+    script1431(3, "Tier 3", "View Tier 3");
     return;
 }

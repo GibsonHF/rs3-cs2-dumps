@@ -19,7 +19,8 @@ function script7111(int0: number, int1: number): number {
                 int5 = MAX(int5, int6);
             };
         };
-        switch (++int7) {
+        int7 = (int7 + 1);
+        switch (int7) {
             case 2: {
                 int2 = struct_getparam(int0, 2656);
                 int3 = struct_getparam(int0, 2666);

@@ -86,9 +86,9 @@ function script6671(int0: number, int1: number): void {
     IF_SETOP(1, string0, comp(1253, 276));
     IF_SETENABLED(int2, comp(1253, 276));
     if ((int2 == true)) {
-        IF_SETONMOUSEREPEAT(callback(script3876, string1, -2147483645, -1), 82116884);
+        IF_SETONMOUSEREPEAT(callback(script3876, string1, -2147483645, -1), comp(1253, 276));
     } else {
-        IF_SETONMOUSEREPEAT(callback(script3876, string2, -2147483645, -1), 82116884);
+        IF_SETONMOUSEREPEAT(callback(script3876, string2, -2147483645, -1), comp(1253, 276));
     };
     return;
 }

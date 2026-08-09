@@ -46,7 +46,9 @@ function script10441(int0: number, int1: number, int2: number): void {
         int3 = (int3 + 1);
     };
     int3 = -1;
-    while ((CC_FIND(int8, ++int3) == 1)) {
+    stack(int8);
+    int3 = (int3 + 1);
+    while ((CC_FIND(int3) == 1)) {
         if ((CC_FIND[1](int7, cc_getparam(6308)) == 1)) {
             if ((cc_getparam(5928) == 2)) {
                 CC_SETPOSITION(0, CC_GETY[1](), 2, 0);

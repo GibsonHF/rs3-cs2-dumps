@@ -14,5 +14,5 @@ function script1611(int0: number, int1: number): number {
             return dbrow_getfield(int1, 983168, 0);
         }
     };
-    return -1 as seq;
+    return -1;
 }

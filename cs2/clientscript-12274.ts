@@ -145,9 +145,9 @@ function script12274(): void {
             IF_SETOP(8, "", comp(753, 57));
             IF_SETOP(9, "", comp(753, 57));
         };
-        IF_SETONMOUSEREPEAT(callback(script8799, string3, 49348669, -1), 49348662);
-        IF_SETTEXT(string0, 49348664);
-        IF_SETHIDE(0, 49348662);
+        IF_SETONMOUSEREPEAT(callback(script8799, string3, 49348669, -1), comp(753, 54));
+        IF_SETTEXT(string0, comp(753, 56));
+        IF_SETHIDE(false, comp(753, 54));
     } else {
         IF_SETHIDE(true, comp(753, 54));
     };

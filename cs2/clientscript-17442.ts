@@ -53,6 +53,7 @@ function script17442(int0: number, int1: number): number {
             return struct_getparam(int0, 4347);
         }
         case 17: {
+            break;
         }
         default: {
             return -1 as obj;

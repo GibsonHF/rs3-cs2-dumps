@@ -1,17 +1,21 @@
 //
 function script20771(int0: number, int1: number, int2: number): void {
-    dbrow_findnext();
-    var int3 = stack();
+    var int3 = dbrow_findnext();
     var int4 = 0;
     var int5 = -1;
-    while ((int3 != -1 as dbrow)) {
+    while ((int3 != -1)) {
         int4 = dbrow_getfield(int3, 1515520, 0);
         if ((CC_FIND(int0, int4) == 1)) {
-            unk11040(callback(script20772, int0, int1, int2, int3, int4));
+            stack(20772);
+            stack(int0);
+            stack(int1);
+            stack(int2);
+            stack(int3);
+            stack(int4);
+            unk11040("iiiii");
             CC_CALLONRESIZE();
         };
-        dbrow_findnext();
-        int3 = stack();
+        int3 = dbrow_findnext();
     };
     return;
 }

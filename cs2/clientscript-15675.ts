@@ -27,13 +27,10 @@ function script15675(): void {
             int1 = 34816;
         };
         PRELOAD_DOWNLOAD_DOWNLOADEDSIZE("Preparing Cache (", inttostring(int0, 10), "% downloaded - ");
-        stack(inttostring(stack(), 10));
+        stack(inttostring(10));
         stack("mb / ");
         PRELOAD_DOWNLOAD_TOTALSIZE();
-        stack(inttostring(stack(), 10));
-        stack("mb (");
-        stack(PRELOAD_DOWNLOAD_RATE());
-        IF_SETTEXT(`${stack()}${inttostring(10)}kb/s))`, 54132737);
+        IF_SETTEXT(`${inttostring(10)}mb (${inttostring(PRELOAD_DOWNLOAD_RATE(), 10)}kb/s))`, comp(826, 1));
     };
     var int2 = IF_GETHIDE(comp(826, 0));
     if ((int2 == false)) {

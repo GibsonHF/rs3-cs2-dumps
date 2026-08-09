@@ -9,9 +9,11 @@ function script2945(): void {
     if ((script4597() == 1)) {
         return;
     };
-    if (((SSO_AVAILABLE() == 0) && ((STRING_LENGTH(varclient_2576) == 0) || (STRING_LENGTH(varclient_2577) == 0)))) {
-        script2940(8);
-        return;
+    if ((SSO_AVAILABLE() == 0)) {
+        if (((STRING_LENGTH(varclient_2576) == 0) || (STRING_LENGTH(varclient_2577) == 0))) {
+            script2940(8);
+            return;
+        };
     };
     varclient_200 = 0;
     varclient_201 = 0;

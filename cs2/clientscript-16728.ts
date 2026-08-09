@@ -7,7 +7,7 @@ function script16728(int0: number, int1: number): void {
             CC_SETGRAPHIC(-1 as graphic);
         };
     } else if (((int0 != 5) && (IF_FIND(comp(485, 13)) == 1))) {
-        script7919(0, 1, 20, 0, 1, 0, 28, 27, 0, 0, 20673 as graphic, 0, 0, 0, 0);
+        script7919(0, 1, 20, 0, 1, 0, 28, 27, 0, 0, 20673, 0, 0, 0, 0);
     };
     if ((CC_FINDBYCATEGORY(comp(485, 13), 0, 2) == 1)) {
         if ((int1 > 1)) {

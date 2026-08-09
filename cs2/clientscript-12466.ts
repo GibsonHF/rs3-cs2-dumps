@@ -16,6 +16,6 @@ function script12466(int0: number, int1: number, int2: number, int3: number, int
     };
     int0 = (int0 + 1);
     int1 = (int1 + 1);
-    IF_SETONTIMER(callback(script12466, int0, int1, int2, int3, int4, int5), 102432768);
+    IF_SETONTIMER(callback(script12466, int0, int1, int2, int3, int4, int5), comp(1563, 0));
     return;
 }

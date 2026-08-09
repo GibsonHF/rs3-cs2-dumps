@@ -29,8 +29,12 @@ function script9943(): void {
         int0 = enum_getvalue(0, 0, 7717 as cs2enum, int2);
         int1 = script10405(int0);
         if ((int1 != -1)) {
-            if (((enum_getreversecount(0, 9010 as cs2enum, int0) > 0) && ((int10 == 0) || (script9932(int0) == 0)))) {
-                int4 = false;
+            if ((enum_getreversecount(0, 9010 as cs2enum, int0) > 0)) {
+                if (((int10 == 0) || (script9932(int0) == 0))) {
+                    int4 = false;
+                } else {
+                    int4 = true;
+                };
             } else {
                 int4 = true;
             };
@@ -40,20 +44,68 @@ function script9943(): void {
                 IF_SETSIZE(int5, int6, 0, 0, struct_getparam(int1, 3503));
             };
             if (((((struct_getparam(int1, 3534) != -1) || (int0 == 9)) || (int0 == 12)) || (int0 == 17))) {
-                if ((((int7 != -1) && (int0 == 32)) && (varplayer_12314 > 0))) {
-                    IF_SETHIDE(int14, struct_getparam(int1, 3503));
-                    if ((int8 == 0)) {
-                        IF_SETPOSITION((int11 + 210), int12, 2, 2, struct_getparam(int1, 3503));
-                        IF_SETSIZE((script19630(int8) - 210), 315, 0, 0, struct_getparam(int1, 3503));
-                    } else {
-                        int6 = (((IF_GETHEIGHT(comp(1477, 26)) - 275) - 315) - int12);
-                        if ((int6 >= 315)) {
-                            IF_SETPOSITION(int11, ((int12 + 315) + ((int6 - 315) / 2)), 2, 2, struct_getparam(int1, 3503));
-                            IF_SETSIZE(script19630(int8), 315, 0, 0, struct_getparam(int1, 3503));
+                if ((int7 != -1)) {
+                    if ((int0 == 32)) {
+                        if ((varplayer_12314 > 0)) {
+                            IF_SETHIDE(int14, struct_getparam(int1, 3503));
+                            if ((int8 == 0)) {
+                                IF_SETPOSITION((int11 + 210), int12, 2, 2, struct_getparam(int1, 3503));
+                                IF_SETSIZE((script19630(int8) - 210), 315, 0, 0, struct_getparam(int1, 3503));
+                            } else {
+                                int6 = (((IF_GETHEIGHT(comp(1477, 26)) - 275) - 315) - int12);
+                                if ((int6 >= 315)) {
+                                    IF_SETPOSITION(int11, ((int12 + 315) + ((int6 - 315) / 2)), 2, 2, struct_getparam(int1, 3503));
+                                    IF_SETSIZE(script19630(int8), 315, 0, 0, struct_getparam(int1, 3503));
+                                } else {
+                                    IF_SETPOSITION(0, 0, 0, 0, struct_getparam(int1, 3503));
+                                    IF_SETSIZE(350, 315, 0, 0, struct_getparam(int1, 3503));
+                                };
+                            };
+                        } else if ((struct_getparam(int1, 9398) == true)) {
+                            if (((varbitclient_22877 == 0) || (varbitclient_22877 == varbitclient_60444))) {
+                                IF_SETPOSITION(int11, int12, 2, 2, struct_getparam(int1, 3503));
+                                IF_SETSIZE(210, 315, 0, 0, struct_getparam(int1, 3503));
+                            } else if ((int8 == 0)) {
+                                IF_SETPOSITION((int11 + 210), int12, 2, 2, struct_getparam(int1, 3503));
+                                IF_SETSIZE(210, 315, 0, 0, struct_getparam(int1, 3503));
+                            } else {
+                                IF_SETPOSITION(int11, int12, 2, 2, struct_getparam(int1, 3503));
+                                IF_SETSIZE(210, 315, 0, 0, struct_getparam(int1, 3503));
+                            };
+                        } else if ((int8 == 0)) {
+                            if ((varbitclient_60444 != 0)) {
+                                IF_SETPOSITION((int11 + 210), int12, 2, 2, struct_getparam(int1, 3503));
+                                IF_SETSIZE(210, 315, 0, 0, struct_getparam(int1, 3503));
+                            } else {
+                                IF_SETPOSITION(int11, int12, 2, 2, struct_getparam(int1, 3503));
+                                IF_SETSIZE(210, 315, 0, 0, struct_getparam(int1, 3503));
+                            };
                         } else {
-                            IF_SETPOSITION(0, 0, 0, 0, struct_getparam(int1, 3503));
-                            IF_SETSIZE(350, 315, 0, 0, struct_getparam(int1, 3503));
+                            IF_SETPOSITION(int11, int12, 2, 2, struct_getparam(int1, 3503));
+                            IF_SETSIZE(210, 315, 0, 0, struct_getparam(int1, 3503));
                         };
+                    } else if ((struct_getparam(int1, 9398) == true)) {
+                        if (((varbitclient_22877 == 0) || (varbitclient_22877 == varbitclient_60444))) {
+                            IF_SETPOSITION(int11, int12, 2, 2, struct_getparam(int1, 3503));
+                            IF_SETSIZE(210, 315, 0, 0, struct_getparam(int1, 3503));
+                        } else if ((int8 == 0)) {
+                            IF_SETPOSITION((int11 + 210), int12, 2, 2, struct_getparam(int1, 3503));
+                            IF_SETSIZE(210, 315, 0, 0, struct_getparam(int1, 3503));
+                        } else {
+                            IF_SETPOSITION(int11, int12, 2, 2, struct_getparam(int1, 3503));
+                            IF_SETSIZE(210, 315, 0, 0, struct_getparam(int1, 3503));
+                        };
+                    } else if ((int8 == 0)) {
+                        if ((varbitclient_60444 != 0)) {
+                            IF_SETPOSITION((int11 + 210), int12, 2, 2, struct_getparam(int1, 3503));
+                            IF_SETSIZE(210, 315, 0, 0, struct_getparam(int1, 3503));
+                        } else {
+                            IF_SETPOSITION(int11, int12, 2, 2, struct_getparam(int1, 3503));
+                            IF_SETSIZE(210, 315, 0, 0, struct_getparam(int1, 3503));
+                        };
+                    } else {
+                        IF_SETPOSITION(int11, int12, 2, 2, struct_getparam(int1, 3503));
+                        IF_SETSIZE(210, 315, 0, 0, struct_getparam(int1, 3503));
                     };
                 } else if ((struct_getparam(int1, 9398) == true)) {
                     if (((varbitclient_22877 == 0) || (varbitclient_22877 == varbitclient_60444))) {
@@ -66,9 +118,14 @@ function script9943(): void {
                         IF_SETPOSITION(int11, int12, 2, 2, struct_getparam(int1, 3503));
                         IF_SETSIZE(210, 315, 0, 0, struct_getparam(int1, 3503));
                     };
-                } else if (((int8 == 0) && (varbitclient_60444 != 0))) {
-                    IF_SETPOSITION((int11 + 210), int12, 2, 2, struct_getparam(int1, 3503));
-                    IF_SETSIZE(210, 315, 0, 0, struct_getparam(int1, 3503));
+                } else if ((int8 == 0)) {
+                    if ((varbitclient_60444 != 0)) {
+                        IF_SETPOSITION((int11 + 210), int12, 2, 2, struct_getparam(int1, 3503));
+                        IF_SETSIZE(210, 315, 0, 0, struct_getparam(int1, 3503));
+                    } else {
+                        IF_SETPOSITION(int11, int12, 2, 2, struct_getparam(int1, 3503));
+                        IF_SETSIZE(210, 315, 0, 0, struct_getparam(int1, 3503));
+                    };
                 } else {
                     IF_SETPOSITION(int11, int12, 2, 2, struct_getparam(int1, 3503));
                     IF_SETSIZE(210, 315, 0, 0, struct_getparam(int1, 3503));

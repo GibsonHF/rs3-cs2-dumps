@@ -1,12 +1,11 @@
 //
 function script8500(int0: number): void {
-    stack(8501);
-    stack("");
+    stack(callback(script8501));
     stack(int0);
     IF_SETONMISCTRANSMIT();
     IF_SETONCHATTRANSMIT(callback(script1546), int0);
     CHAT_GETFILTER_PUBLIC();
-    CHAT_GETFILTER_TRADE(stack(), CHAT_GETFILTER_PRIVATE());
+    CHAT_GETFILTER_TRADE(CHAT_GETFILTER_PRIVATE());
     CHAT_SETFILTER();
     varclient_3937 = -1;
     varclient_3938 = -1;

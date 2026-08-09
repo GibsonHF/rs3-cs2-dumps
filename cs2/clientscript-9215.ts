@@ -15,11 +15,59 @@ function script9215(int0: number, int1: number): void {
     [int2, int2, int2, int2, int2, int6, int2, int2, int2, int2, int2, int2] = script8472(95813635);
     var int11 = script14074(93);
     var int12 = script14074(94);
-    if ((((script6352(int11) == 1) && (CC_FIND(int11, int1) == 1)) || (((script6352(int3) == 1) && (CC_FIND(int3, int1) == 1)) || ((script6352(int5) == 1) && (CC_FIND(int5, int1) == 1))))) {
+    if ((script6352(int11) == 1)) {
+        if ((CC_FIND(int11, int1) == 1)) {
+            int7 = CC_GETINVOBJECT();
+            int8 = CC_GETINVCOUNT();
+        } else if ((script6352(int3) == 1)) {
+            if ((CC_FIND(int3, int1) == 1)) {
+                int7 = CC_GETINVOBJECT();
+                int8 = CC_GETINVCOUNT();
+            } else if (((script6352(int5) == 1) && (CC_FIND(int5, int1) == 1))) {
+                int7 = CC_GETINVOBJECT();
+                int8 = CC_GETINVCOUNT();
+            };
+        } else if (((script6352(int5) == 1) && (CC_FIND(int5, int1) == 1))) {
+            int7 = CC_GETINVOBJECT();
+            int8 = CC_GETINVCOUNT();
+        };
+    } else if ((script6352(int3) == 1)) {
+        if ((CC_FIND(int3, int1) == 1)) {
+            int7 = CC_GETINVOBJECT();
+            int8 = CC_GETINVCOUNT();
+        } else if (((script6352(int5) == 1) && (CC_FIND(int5, int1) == 1))) {
+            int7 = CC_GETINVOBJECT();
+            int8 = CC_GETINVCOUNT();
+        };
+    } else if (((script6352(int5) == 1) && (CC_FIND(int5, int1) == 1))) {
         int7 = CC_GETINVOBJECT();
         int8 = CC_GETINVCOUNT();
     };
-    if ((((script6352(int12) == 1) && (CC_FIND(int12, int0) == 1)) || (((script6352(int4) == 1) && (CC_FIND(int4, int0) == 1)) || ((script6352(int6) == 1) && (CC_FIND(int6, int0) == 1))))) {
+    if ((script6352(int12) == 1)) {
+        if ((CC_FIND(int12, int0) == 1)) {
+            int9 = CC_GETINVOBJECT();
+            int10 = CC_GETINVCOUNT();
+        } else if ((script6352(int4) == 1)) {
+            if ((CC_FIND(int4, int0) == 1)) {
+                int9 = CC_GETINVOBJECT();
+                int10 = CC_GETINVCOUNT();
+            } else if (((script6352(int6) == 1) && (CC_FIND(int6, int0) == 1))) {
+                int9 = CC_GETINVOBJECT();
+                int10 = CC_GETINVCOUNT();
+            };
+        } else if (((script6352(int6) == 1) && (CC_FIND(int6, int0) == 1))) {
+            int9 = CC_GETINVOBJECT();
+            int10 = CC_GETINVCOUNT();
+        };
+    } else if ((script6352(int4) == 1)) {
+        if ((CC_FIND(int4, int0) == 1)) {
+            int9 = CC_GETINVOBJECT();
+            int10 = CC_GETINVCOUNT();
+        } else if (((script6352(int6) == 1) && (CC_FIND(int6, int0) == 1))) {
+            int9 = CC_GETINVOBJECT();
+            int10 = CC_GETINVCOUNT();
+        };
+    } else if (((script6352(int6) == 1) && (CC_FIND(int6, int0) == 1))) {
         int9 = CC_GETINVOBJECT();
         int10 = CC_GETINVCOUNT();
     };
@@ -47,13 +95,13 @@ function script9215(int0: number, int1: number): void {
                 script9240(int11, cc_getparam(3819), 93, int9, int16, 1, "", "", "", "", "", "", "", "", "", "");
             };
             if ((CC_FIND(int4, int0) == 1)) {
-                script9222(-1 as obj, 0);
+                script9222(-1, 0);
             };
             if ((CC_FIND(int6, int0) == 1)) {
-                script9222(-1 as obj, 0);
+                script9222(-1, 0);
             };
             if (((int12 != comp(-1, 65535)) && (CC_FIND(int12, int0) == 1))) {
-                script9222(-1 as obj, 0);
+                script9222(-1, 0);
             };
         };
     };
@@ -77,13 +125,13 @@ function script9215(int0: number, int1: number): void {
                 script9222(int9, int16);
             };
             if ((CC_FIND(int3, int1) == 1)) {
-                script9230(-1 as obj, 0);
+                script9230(-1, 0);
             };
             if ((CC_FIND(int5, int1) == 1)) {
-                script9230(-1 as obj, 0);
+                script9230(-1, 0);
             };
             if (((int11 != comp(-1, 65535)) && (CC_FIND(int11, int1) == 1))) {
-                script9240(int11, cc_getparam(3819), 93, -1 as obj, 0, 1, "", "", "", "", "", "", "", "", "", "");
+                script9240(int11, cc_getparam(3819), 93, -1, 0, 1, "", "", "", "", "", "", "", "", "", "");
             };
         };
     };

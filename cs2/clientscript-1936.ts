@@ -8,9 +8,9 @@ function script1936(int0: number): void {
         IF_SETSIZE(1, 0, 0, 1, comp(267, 43));
     };
     IF_SETONTIMER(callback(), comp(267, 59));
-    IF_SETHIDE(1, 17498155);
-    CC_DELETEALL(17498169);
-    CC_DELETEALL(17498170);
+    IF_SETHIDE(true, comp(267, 43));
+    CC_DELETEALL(comp(267, 57));
+    CC_DELETEALL(comp(267, 58));
     if ((varbitplayer_42072 == 1)) {
         IF_SETSIZE((84 + (180 * 6)), 0, 0, 1, comp(267, 55));
         IF_SETSIZE((84 + (180 * 6)), 0, 0, 1, comp(267, 56));

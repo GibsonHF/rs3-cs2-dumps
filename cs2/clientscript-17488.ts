@@ -1,7 +1,7 @@
 //
 function script17488(int0: number): number {
     if (((int0 == -1 as dbrow) || (DB_GETROWTABLE(int0) != 233))) {
-        return false;
+        return 0;
     };
     switch (dbrow_getfield(int0, 954400, 0)) {
         case 1: {

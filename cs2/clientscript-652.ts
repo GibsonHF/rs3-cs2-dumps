@@ -39,7 +39,9 @@ function script652(int0: number, int1: number, int2: number, int3: number, int4:
         };
     };
     int6 = (int6 + 1);
-    if (((int9 == 0) || ((STOCKMARKET_ISOFFERFINISHED(int4, 0) == 1) && (STOCKMARKET_GETOFFERCOMPLETEDCOUNT(int4, 0) == STOCKMARKET_GETOFFERCOUNT(int4, 0))))) {
+    if ((int9 == 0)) {
+        return int6;
+    } else if (((STOCKMARKET_ISOFFERFINISHED(int4, 0) == 1) && (STOCKMARKET_GETOFFERCOMPLETEDCOUNT(int4, 0) == STOCKMARKET_GETOFFERCOUNT(int4, 0)))) {
         return int6;
     };
     CC_CREATE(int5, 4, int6);
@@ -50,5 +52,6 @@ function script652(int0: number, int1: number, int2: number, int3: number, int4:
     CC_SETCOLOUR(16777215);
     CC_SETTEXTALIGN(1, 1, 0);
     CC_SETTEXTFONT(26 as fontmetrics);
-    return ++int6;
+    int6 = (int6 + 1);
+    return int6;
 }

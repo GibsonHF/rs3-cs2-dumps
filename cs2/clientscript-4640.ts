@@ -21,7 +21,8 @@ function script4640(int0: number): void {
     var int5 = 20;
     var int6 = IF_GETWIDTH(int2);
     var string0 = "";
-    while ((++int3 < int4)) {
+    int3 = (int3 + 1);
+    while ((int3 < int4)) {
         CC_CREATE(int2, 4, IF_GETNEXTSUBID(int2));
         script2733(int2, CC_GETID(), 3);
         CC_SETPOSITION(((int6 / 2) * MODULO(int3, 2)), int5, 0, 0);

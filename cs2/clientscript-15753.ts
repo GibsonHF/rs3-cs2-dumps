@@ -2,9 +2,9 @@
 function script15753(): void {
     if ((script6431() == 1)) {
         SHOP_REQUESTDATA();
-        IF_SETONTIMER(callback(script1219), 55050242);
-        IF_SETHIDE(1, 55050261);
-        IF_SETHIDE(1, 55050259);
+        IF_SETONTIMER(callback(script1219), comp(840, 2));
+        IF_SETHIDE(true, comp(840, 21));
+        IF_SETHIDE(true, comp(840, 19));
     } else {
         IF_SETTEXT("Try For Free", comp(840, 26));
         IF_SETTEXT("Then monthly recurring billing. Cancel any time.", comp(840, 19));

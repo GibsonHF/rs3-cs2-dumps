@@ -21,11 +21,17 @@ function script12636(int0: number, int1: number, int2: number, int3: number): [n
             int6 = CC_GETLAYER();
             if (((int6 != comp(-1, 65535)) && (int6 == cc_getparam(5848)))) {
                 int7 = cc_getparam(4423);
-                if (((CC_FIND[1](int6, int7) == 1) || ((int7 == -1) && (IF_FIND[1](int6) == 1)))) {
+                if ((CC_FIND[1](int6, int7) == 1)) {
                     int4 = CC_GETX[1]();
                     int5 = CC_GETY[1]();
                     var int2 = 0;
                     var int3 = 0;
+                    CC_SETPOSITION(int4, int5, int2, int3);
+                } else if (((int7 == -1) && (IF_FIND[1](int6) == 1))) {
+                    int4 = CC_GETX[1]();
+                    int5 = CC_GETY[1]();
+                    int2 = 0;
+                    int3 = 0;
                     CC_SETPOSITION(int4, int5, int2, int3);
                 };
             };

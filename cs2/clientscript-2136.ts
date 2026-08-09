@@ -16,10 +16,10 @@ function script2136(int0: number): void {
     CC_CREATE(int0, 4, 1);
     CC_SETSIZE(200, 32, 0, 0);
     CC_SETPOSITION(int1, 70, 0, 0);
-    CC_SETTEXTFONT(68);
+    CC_SETTEXTFONT(68 as fontmetrics);
     CC_SETTEXTALIGN(0, 1, 0);
     CC_SETCOLOUR(3419664);
-    CC_SETTEXTSHADOW(0);
+    CC_SETTEXTSHADOW(false);
     CC_SETTEXT(enum_getvalue(0, 36, 2224, varbitplayer_14118));
     CC_SETONMOUSEOVER(callback(script1356, -2147483645, -2147483643, 16777215));
     CC_SETONMOUSELEAVE(callback(script1356, -2147483645, -2147483643, 3419664));
@@ -27,10 +27,10 @@ function script2136(int0: number): void {
     CC_CREATE(int0, 4, 2);
     CC_SETSIZE(200, 32, 0, 0);
     CC_SETPOSITION(int1, 104, 0, 0);
-    CC_SETTEXTFONT(68);
+    CC_SETTEXTFONT(68 as fontmetrics);
     CC_SETTEXTALIGN(0, 1, 0);
     CC_SETCOLOUR(3419664);
-    CC_SETTEXTSHADOW(0);
+    CC_SETTEXTSHADOW(false);
     CC_SETTEXT(enum_getvalue(0, 36, 2224, varbitplayer_14120));
     CC_SETONMOUSEOVER(callback(script1356, -2147483645, -2147483643, 16777215));
     CC_SETONMOUSELEAVE(callback(script1356, -2147483645, -2147483643, 3419664));
@@ -40,19 +40,19 @@ function script2136(int0: number): void {
     CC_SETPOSITION[1](0, 147, 1, 0);
     switch (varbitplayer_14117) {
         case 0: {
-            CC_SETMODEL[1](enum_getvalue(0, 31, 2225 as cs2enum, varbitplayer_14122));
+            CC_SETMODEL[1](enum_getvalue(0, 31, 2225, varbitplayer_14122));
             break;
         }
         case 1: {
-            CC_SETMODEL[1](enum_getvalue(0, 31, 2226 as cs2enum, varbitplayer_14122));
+            CC_SETMODEL[1](enum_getvalue(0, 31, 2226, varbitplayer_14122));
             break;
         }
         case 2: {
-            CC_SETMODEL[1](enum_getvalue(0, 31, 2227 as cs2enum, varbitplayer_14122));
+            CC_SETMODEL[1](enum_getvalue(0, 31, 2227, varbitplayer_14122));
             break;
         }
         default: {
-            CC_SETMODEL[1](enum_getvalue(0, 31, 2228 as cs2enum, varbitplayer_14122));
+            CC_SETMODEL[1](enum_getvalue(0, 31, 2228, varbitplayer_14122));
             break;
         }
     };
@@ -87,8 +87,8 @@ function script2136(int0: number): void {
     CC_CREATE(int0, 5, 5);
     CC_SETSIZE(19, 16, 0, 0);
     CC_SETPOSITION(349, (varbitplayer_14119 + 148), 0, 0);
-    CC_SETHFLIP(1);
-    CC_SETGRAPHIC(1538);
+    CC_SETHFLIP(true);
+    CC_SETGRAPHIC(1538 as graphic);
     CC_SETONMOUSEOVER(callback(script2140, -2147483645, -2147483643, 125));
     CC_SETONMOUSELEAVE(callback(script2140, -2147483645, -2147483643, 0));
     CC_SETOP(1, "Change spin");

@@ -115,12 +115,20 @@ function script9313(): void {
     var int15 = comp(-1, 65535);
     var int16 = comp(-1, 65535);
     if ((int10 == 1)) {
-        if (((int7 == 1) && (int8 <= 650))) {
-            IF_SETSIZE(0, (138 + 5), 1, 1, comp(517, 4));
-            IF_SETSIZE(0, 30, 1, 1, comp(517, 11));
-            IF_SETSIZE(0, 70, 1, 1, comp(517, 22));
-            IF_SETPOSITION(0, 0, 0, 1, comp(517, 22));
-            IF_SETSIZE(0, 35, 1, 1, comp(517, 31));
+        if ((int7 == 1)) {
+            if ((int8 <= 650)) {
+                IF_SETSIZE(0, (138 + 5), 1, 1, comp(517, 4));
+                IF_SETSIZE(0, 30, 1, 1, comp(517, 11));
+                IF_SETSIZE(0, 70, 1, 1, comp(517, 22));
+                IF_SETPOSITION(0, 0, 0, 1, comp(517, 22));
+                IF_SETSIZE(0, 35, 1, 1, comp(517, 31));
+            } else {
+                IF_SETSIZE(0, (358 + int5), 1, 0, comp(517, 4));
+                IF_SETSIZE(0, (291 + int5), 1, 0, comp(517, 11));
+                IF_SETSIZE(0, 291, 1, 0, comp(517, 22));
+                IF_SETPOSITION(0, 35, 0, 2, comp(517, 22));
+                IF_SETSIZE(0, 295, 1, 0, comp(517, 31));
+            };
         } else {
             IF_SETSIZE(0, (358 + int5), 1, 0, comp(517, 4));
             IF_SETSIZE(0, (291 + int5), 1, 0, comp(517, 11));

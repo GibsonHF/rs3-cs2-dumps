@@ -8,7 +8,7 @@ function script11606(int0: number, int1: number, int2: number, int3: number, int
         var int2 = int7;
     };
     var int8 = script9984(int2, int6);
-    if (((int2 == -1 as struct) || (int8 == -1 as struct))) {
+    if (((int2 == -1 as struct) || (int8 == -1))) {
         return int5;
     };
     var int5 = MAX(0, int5);

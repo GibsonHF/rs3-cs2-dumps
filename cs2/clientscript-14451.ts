@@ -5,7 +5,8 @@ function script14451(int0: number): number {
     };
     var int1 = ENUM_GETOUTPUTCOUNT(int0);
     var int2 = -1;
-    while ((++int2 < int1)) {
+    int2 = (int2 + 1);
+    while ((int2 < int1)) {
         if ((script14449(enum_getvalue(0, 0, int0, int2)) == 0)) {
             return 1;
         };

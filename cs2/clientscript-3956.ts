@@ -5,7 +5,7 @@ function script3956(int0: number): string {
     string0 = strconcat(string0, `<br>Duration: ${inttostring(dbrow_getfield(int0, 348192, 0), 10)} minutes`);
     string0 = strconcat(string0, `<br>${dbrow_getfield(int0, 348208, 0)}`);
     var int1 = dbrow_getfield(int0, 348256, 0);
-    if ((int1 != -1 as obj)) {
+    if ((int1 != -1)) {
         if ((OC_MEMBERS(int1) == 1)) {
             string0 = strconcat(string0, `<br><br><col=F8D56B>${OC_NAME(int1)}</col>`);
         } else {

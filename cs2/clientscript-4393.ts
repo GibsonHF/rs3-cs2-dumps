@@ -13,7 +13,8 @@ function script4393(int0: number, int1: number, int2: number): void {
         CC_SETGRAPHIC(enum_getvalue(0, 23, int2, (int3 + 1)));
         CC_SETOP(1, "Select");
         int3 = (int3 + 1);
-        if (((++int5 + 65) > int4)) {
+        int5 = (int5 + 65);
+        if (((int5 + 65) > int4)) {
             int5 = 5;
             int6 = (int6 + 60);
         };

@@ -51,12 +51,12 @@ function script1839(int0: number, int1: number, int2: number, int3: number): voi
     CC_SETSIZE(0, 0, 1, 0);
     CC_SETCOLOUR(script10495(8));
     int8 = (int8 + 5);
-    define_array((ENUM_GETOUTPUTCOUNT(1805) + 1));
-    var int9 = -1;
-    define_array[65536]((ENUM_GETOUTPUTCOUNT(1805) + 1));
+    define_array((ENUM_GETOUTPUTCOUNT(1805 as cs2enum) + 1));
+    var int9 = -1 as struct;
+    define_array[65536]((ENUM_GETOUTPUTCOUNT(1805 as cs2enum) + 1));
     var int10 = -1;
     var int11 = -1;
-    var int12 = -1;
+    var int12 = -1 as cs2enum;
     var int13 = 0;
     var int14 = 0;
     var int15 = 1;
@@ -73,19 +73,23 @@ function script1839(int0: number, int1: number, int2: number, int3: number): voi
     if ((int0 == 0)) {
         while ((int4 <= ENUM_GETOUTPUTCOUNT(1805 as cs2enum))) {
             int9 = enum_getvalue(0, 73, 1805 as cs2enum, int4);
-            if (((int9 != -1 as struct) && ((MAP_MEMBERS() == 1) || (struct_getparam(int9, 478) == false)))) {
-                pop_array(int7, int4);
-                pop_array[1](int7, ((((struct_getparam(int9, 597) + 1) * 100) + struct_getparam(int9, 4031)) + 1));
-                int7 = (int7 + 1);
+            if ((int9 != -1 as struct)) {
+                if (((MAP_MEMBERS() == 1) || (struct_getparam(int9, 478) == false))) {
+                    pop_array(int7, int4);
+                    pop_array[1](int7, ((((struct_getparam(int9, 597) + 1) * 100) + struct_getparam(int9, 4031)) + 1));
+                    int7 = (int7 + 1);
+                };
             };
             int4 = (int4 + 1);
         };
     } else {
         while ((int4 <= ENUM_GETOUTPUTCOUNT(1805 as cs2enum))) {
             int9 = enum_getvalue(0, 73, 1805 as cs2enum, int4);
-            if (((int9 != -1 as struct) && ((MAP_MEMBERS() == 1) || (struct_getparam(int9, 478) == false)))) {
-                pop_array(int7, int4);
-                int7 = (int7 + 1);
+            if ((int9 != -1 as struct)) {
+                if (((MAP_MEMBERS() == 1) || (struct_getparam(int9, 478) == false))) {
+                    pop_array(int7, int4);
+                    int7 = (int7 + 1);
+                };
             };
             int4 = (int4 + 1);
         };

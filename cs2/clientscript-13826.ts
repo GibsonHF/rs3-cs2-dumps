@@ -43,9 +43,43 @@ function script13826(int0: number, int1: number, int2: number, int3: number): vo
             int6 = script14342(int8, 0, 1);
             int7 = int6;
         };
-        if (((int6 == -1) && (int7 == -1))) {
-            varclient_6707 = (1820 + 1);
-            varclient_6708 = 0;
+        if ((int6 == -1)) {
+            if ((int7 == -1)) {
+                varclient_6707 = (1820 + 1);
+                varclient_6708 = 0;
+            } else {
+                if ((int14 == 1)) {
+                    if (((IF_GETHIDE(comp(517, 209)) == true) && (IF_GETHIDE(comp(517, 207)) == true))) {
+                        int4 = script5798(int7);
+                        int5 = script14374(int4);
+                        if ((((varbitplayer_45141 != 1) && (varbitplayer_45141 != int4)) && (int7 != -1))) {
+                            if ((varbitplayer_45911 == 0)) {
+                                IF_TRIGGEROP(comp(517, 169), int4, 1);
+                            };
+                            return;
+                        };
+                        if (((int6 != -1) && (CC_FIND[1](comp(517, 201), int6) == 1))) {
+                            varclient_6707 = -1;
+                            varclient_6708 = 1;
+                            script13827(33882321);
+                        };
+                        if (((int7 != -1) && (CC_FIND[1](comp(517, 201), int7) == 1))) {
+                            if ((int6 == -1)) {
+                                varclient_6707 = (1820 + 1);
+                                varclient_6708 = 0;
+                                script13827(33882319);
+                            };
+                            script14370(varbitplayer_45141, MAX(0, MAX((((CC_GETY[1]() + CC_GETHEIGHT[1]()) + 2) - (int11 / 2)), MIN(((CC_GETY[1]() - 2) - (int11 / 2)), int13))));
+                            script157(33882307, 33882311, script14369(varbitplayer_45141), 1);
+                        };
+                    };
+                } else {
+                    varclient_6708 = 0;
+                    IF_SETHIDE(true, comp(517, 209));
+                    IF_SETHIDE(true, comp(517, 207));
+                };
+                return;
+            };
         } else {
             if ((int14 == 1)) {
                 if (((IF_GETHIDE(comp(517, 209)) == true) && (IF_GETHIDE(comp(517, 207)) == true))) {

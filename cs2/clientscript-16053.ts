@@ -7,7 +7,11 @@ function script16053(int0: number): void {
     varbitclient_50190 = 0;
     var int3 = -1 as obj;
     while ((int1 < 6)) {
-        CC_CREATE(int0, 6, int1++);
+        stack(int0);
+        stack(6);
+        stack(int1);
+        int1 = (int1 + 1);
+        CC_CREATE();
         CC_SETSIZE(91, 82, 0, 0);
         int3 = enum_getvalue(0, 33, 15414 as cs2enum, RANDOM(int2));
         CC_SETOBJECT(int3, -1);

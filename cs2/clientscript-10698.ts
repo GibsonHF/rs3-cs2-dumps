@@ -17,6 +17,6 @@ function script10698(int0: number, int1: number, int2: number, string0: string):
         };
     };
     var int1 = (int1 + 1);
-    IF_SETONTIMER(callback(script10698, int0, string0, int1, int2), 46268417);
+    IF_SETONTIMER(callback(script10698, int0, string0, int1, int2), comp(706, 1));
     return;
 }

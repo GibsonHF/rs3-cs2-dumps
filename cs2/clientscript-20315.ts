@@ -1,7 +1,7 @@
 //
 function script20315(int0: number, int1: number): void {
     var int2 = dbrow_getfield(int0, 1368096, 0);
-    if ((int2 == -1 as achievement)) {
+    if ((int2 == -1)) {
         CC_DELETEALL(comp(1361, 17));
         IF_SETTRANS(255, comp(1361, 14));
         IF_SETONTIMER(callback(), comp(1361, 13));

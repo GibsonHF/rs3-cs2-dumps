@@ -9,11 +9,11 @@ function script9762(int0: number, int1: number): void {
                     break;
                 }
                 case 10: {
-                    string0 = strconcat("M: ", enum_getvalue(0, 36, 2535 as cs2enum, int0));
+                    string0 = strconcat("M: ", enum_getvalue(0, 36, 2535, int0));
                     break;
                 }
                 default: {
-                    string0 = strconcat(`${inttostring((int0 + 1), 10)}: `, enum_getvalue(0, 36, 2535 as cs2enum, int0));
+                    string0 = strconcat(`${inttostring((int0 + 1), 10)}: `, enum_getvalue(0, 36, 2535, int0));
                     break;
                 }
             };

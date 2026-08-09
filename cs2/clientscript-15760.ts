@@ -3,32 +3,20 @@ function script15760(int0: number): number {
     switch (PLATFORMTYPE()) {
         case 0:
         case 5: {
-            stack(int0);
-            stack(815200);
-            stack(0);
-            dbrow_getfield();
-            if ((stack() == 1)) {
+            if ((dbrow_getfield(int0, 815200, 0) == 1)) {
                 return 1;
             };
             break;
         }
         case 3:
         case 2: {
-            stack(int0);
-            stack(815232);
-            stack(0);
-            dbrow_getfield();
-            if ((stack() == 1)) {
+            if ((dbrow_getfield(int0, 815232, 0) == 1)) {
                 return 1;
             };
             break;
         }
         case 1: {
-            stack(int0);
-            stack(815216);
-            stack(0);
-            dbrow_getfield();
-            if ((stack() == 1)) {
+            if ((dbrow_getfield(int0, 815216, 0) == 1)) {
                 return 1;
             };
             break;

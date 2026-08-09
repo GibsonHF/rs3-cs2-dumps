@@ -119,9 +119,9 @@ function script336(): void {
         int1 = 1;
     };
     if ((varbitplayer_20940 == 30)) {
-        IF_SETONTIMER(callback(script3336, (CLIENTCLOCK() + 100), (CLIENTCLOCK() + 200), (CLIENTCLOCK() + 5000000), varbitclient_31168), 79691776);
+        IF_SETONTIMER(callback(script3336, (CLIENTCLOCK() + 100), (CLIENTCLOCK() + 200), (CLIENTCLOCK() + 5000000), varbitclient_31168), comp(1216, 0));
     } else {
-        IF_SETONTIMER(callback(script3336, (CLIENTCLOCK() + 100), (CLIENTCLOCK() + 200), (CLIENTCLOCK() + 500), varbitclient_31168), 79691776);
+        IF_SETONTIMER(callback(script3336, (CLIENTCLOCK() + 100), (CLIENTCLOCK() + 200), (CLIENTCLOCK() + 500), varbitclient_31168), comp(1216, 0));
     };
     IF_SETHIDE(false, comp(1216, 5));
     IF_SETHIDE(true, comp(1213, 1));

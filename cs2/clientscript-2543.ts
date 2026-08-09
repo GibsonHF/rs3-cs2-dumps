@@ -8,10 +8,9 @@ function script2543(int0: number, int1: number): number {
     var int6 = 0;
     var int7 = 0;
     var int8 = -1 as obj;
-    var int9 = -1 as obj;
+    var int9 = -1;
     while ((int6 < int4)) {
-        stack(dbrow_getfield(int2, 458752, int6));
-        [string0, int3] = stack();
+        [string0, int3] = dbrow_getfield(int2, 458752, int6);
         int5 = ENUM_GETOUTPUTCOUNT(int3);
         while ((int7 < int5)) {
             int8 = enum_getvalue(0, 33, int3, int7);

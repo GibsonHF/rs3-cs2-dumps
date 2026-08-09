@@ -13,7 +13,13 @@ function script18222(int0: number): void {
     script16248(string0, int0, -1);
     script16247(int0, -1);
     var int3 = script6431();
-    if (((((int3 == 1) && (int2 == false)) || (int3 == 0)) && (STRING_LENGTH(string0) > 0))) {
+    if ((int3 == 1)) {
+        if (((int2 == false) || (int3 == 0))) {
+            if ((STRING_LENGTH(string0) > 0)) {
+                script3536(string0, int0, -1);
+            };
+        };
+    } else if (((int3 == 0) && (STRING_LENGTH(string0) > 0))) {
         script3536(string0, int0, -1);
     };
     return;

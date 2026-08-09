@@ -216,8 +216,38 @@ function script6263(): void {
     IF_SETTEXT(`${inttostring(int4, 10)} tokens`, comp(925, 100));
     var int14 = enum_getvalue(0, 0, 5887 as cs2enum, int10);
     IF_SETTEXT(`Requires ${inttostring(int14, 10)} medals`, comp(925, 99));
-    if (((((((script259(15666) == 0) && (script259(15667) == 0)) && (script259(15668) == 0)) && (script259(15669) == 0)) && (script259(15670) == 0)) && (varbitplayer_4673 > 0))) {
-        IF_SETHIDE(true, comp(925, 94));
+    if ((script259(15666) == 0)) {
+        if ((script259(15667) == 0)) {
+            if ((script259(15668) == 0)) {
+                if ((script259(15669) == 0)) {
+                    if ((script259(15670) == 0)) {
+                        if ((varbitplayer_4673 > 0)) {
+                            IF_SETHIDE(true, comp(925, 94));
+                        } else if ((((varbitplayer_4662 < int4) || (varbitplayer_4649 < int14)) || (varbitplayer_4673 == 5))) {
+                            IF_SETHIDE(false, comp(925, 94));
+                        } else {
+                            IF_SETHIDE(true, comp(925, 94));
+                        };
+                    } else if ((((varbitplayer_4662 < int4) || (varbitplayer_4649 < int14)) || (varbitplayer_4673 == 5))) {
+                        IF_SETHIDE(false, comp(925, 94));
+                    } else {
+                        IF_SETHIDE(true, comp(925, 94));
+                    };
+                } else if ((((varbitplayer_4662 < int4) || (varbitplayer_4649 < int14)) || (varbitplayer_4673 == 5))) {
+                    IF_SETHIDE(false, comp(925, 94));
+                } else {
+                    IF_SETHIDE(true, comp(925, 94));
+                };
+            } else if ((((varbitplayer_4662 < int4) || (varbitplayer_4649 < int14)) || (varbitplayer_4673 == 5))) {
+                IF_SETHIDE(false, comp(925, 94));
+            } else {
+                IF_SETHIDE(true, comp(925, 94));
+            };
+        } else if ((((varbitplayer_4662 < int4) || (varbitplayer_4649 < int14)) || (varbitplayer_4673 == 5))) {
+            IF_SETHIDE(false, comp(925, 94));
+        } else {
+            IF_SETHIDE(true, comp(925, 94));
+        };
     } else if ((((varbitplayer_4662 < int4) || (varbitplayer_4649 < int14)) || (varbitplayer_4673 == 5))) {
         IF_SETHIDE(false, comp(925, 94));
     } else {

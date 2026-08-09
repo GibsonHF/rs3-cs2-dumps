@@ -3,7 +3,8 @@ function script17047(): void {
     var int0 = 0;
     CC_DELETEALL(comp(1253, 556));
     var int1 = -1;
-    while ((++int1 <= 30)) {
+    int1 = (int1 + 1);
+    while ((int1 <= 30)) {
         CC_CREATE(comp(1253, 556), 5, int1);
     };
     script19904();

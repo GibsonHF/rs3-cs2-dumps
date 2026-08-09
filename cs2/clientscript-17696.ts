@@ -28,7 +28,7 @@ function script17696(int0: number): [string, string] {
         case 3: {
             int5 = 90;
             int6 = 20;
-            if (((int2 != -1 as obj) && (item_getparam(int2, 8928) == 52804 as struct))) {
+            if (((int2 != -1) && (item_getparam(int2, 8928) == 52804 as struct))) {
                 int5 = 45;
                 int6 = 10;
                 int7 = 2;

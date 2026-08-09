@@ -9,7 +9,8 @@ function script13(int0: number): number {
     var int4 = 0;
     var int5 = -1;
     if ((int1 != -1 as cs2enum)) {
-        while ((++int5 <= ENUM_GETOUTPUTCOUNT(int1))) {
+        int5 = (int5 + 1);
+        while ((int5 <= ENUM_GETOUTPUTCOUNT(int1))) {
             int2 = enum_getvalue(0, 73, int1, int5);
             if ((int2 != -1 as struct)) {
                 int4 = (int4 + 1);

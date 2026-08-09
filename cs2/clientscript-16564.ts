@@ -1,6 +1,6 @@
 //
 function script16564(int0: number, int1: number): number {
-    if ((((dbrow_getfield(int0, 114816, 0) == false) && (script15536() == 7)) && (script15532(0) == 1))) {
+    if ((((dbrow_getfield(int0, 114816, 0) == 0) && (script15536() == 7)) && (script15532(0) == 1))) {
         return 0;
     };
     var int2 = DB_GETFIELDCOUNT(int0, 114784);

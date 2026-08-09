@@ -48,8 +48,12 @@ function script2469(int0: number, string0: string): void {
             CC_SETHIDE(int7);
         };
         if ((CC_FIND(int4, int2) == 1)) {
-            if (((int7 == false) && (cc_getparam(5438) == 1))) {
-                CC_SETHIDE(false);
+            if ((int7 == false)) {
+                if ((cc_getparam(5438) == 1)) {
+                    CC_SETHIDE(false);
+                } else {
+                    CC_SETHIDE(true);
+                };
             } else {
                 CC_SETHIDE(true);
             };

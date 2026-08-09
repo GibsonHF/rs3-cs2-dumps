@@ -13,9 +13,9 @@ function script2957(int0: number, int1: number, int2: number): void {
     IF_SETHIDE(true, comp(365, 7));
     var int3 = script20382();
     var int4 = 0;
-    var int5 = comp(365, 2);
+    var int5 = 23920642;
     var int6 = STRING_LENGTH(IF_GETTEXT(int5));
-    var [int0, int1] = script2510(int0, int1);
+    [int0, int1] = script2510(int0, int1);
     var int7 = 0;
     var int8 = ENUM_GETOUTPUTCOUNT(int3);
     var int9 = 0;
@@ -23,10 +23,10 @@ function script2957(int0: number, int1: number, int2: number): void {
     var int11 = 0;
     var int12 = 0;
     var int13 = 0;
-    var int14 = -1 as dbrow;
-    var int15 = -1 as dbrow;
-    var int16 = enum_getvalue(0, 74, 14569 as cs2enum, int1);
-    var int17 = enum_getvalue(0, 74, 14569 as cs2enum, int0);
+    var int14 = -1;
+    var int15 = -1;
+    var int16 = enum_getvalue(0, 74, 14569, int1);
+    var int17 = enum_getvalue(0, 74, 14569, int0);
     while ((int7 < int8)) {
         int14 = enum_getvalue(0, 74, int3, int7);
         int13 = DB_GETFIELDCOUNT(int14, 127024);

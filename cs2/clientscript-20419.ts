@@ -11,7 +11,19 @@ function script20419(int0: number, int1: number): number {
     };
     switch (int1) {
         case 0: {
-            if (((((((QUEST_STATREQ_COUNT(int0) == 0) && (QUEST_QUESTREQ_COUNT(int0) == 0)) && (quest_getparam(int0, 7859) == 0)) && (QUEST_POINTSREQ(int0) == 0)) || (int0 == 356 as quest)) || (int0 == 359 as quest))) {
+            if ((QUEST_STATREQ_COUNT(int0) == 0)) {
+                if ((QUEST_QUESTREQ_COUNT(int0) == 0)) {
+                    if ((quest_getparam(int0, 7859) == 0)) {
+                        if ((((QUEST_POINTSREQ(int0) == 0) || (int0 == 356 as quest)) || (int0 == 359 as quest))) {
+                            return 1;
+                        };
+                    } else if (((int0 == 356 as quest) || (int0 == 359 as quest))) {
+                        return 1;
+                    };
+                } else if (((int0 == 356 as quest) || (int0 == 359 as quest))) {
+                    return 1;
+                };
+            } else if (((int0 == 356 as quest) || (int0 == 359 as quest))) {
                 return 1;
             };
             return 2;

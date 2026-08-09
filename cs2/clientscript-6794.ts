@@ -77,8 +77,14 @@ function script6794(int0: number, int1: number, int2: number, int3: number, int4
         };
     };
     if ((int3 == 93 as inv)) {
-        if (((int0 == 995 as obj) && (script14288() == 0))) {
-            int8 = script17405(int1);
+        if ((int0 == 995 as obj)) {
+            if ((script14288() == 0)) {
+                int8 = script17405(int1);
+            } else if ((int7 == 1)) {
+                int8 = script14351(int3, OC_CERT(int0), int1, INV_SIZE(int3));
+            } else {
+                int8 = script14351(int3, int0, int1, INV_SIZE(int3));
+            };
         } else if ((int7 == 1)) {
             int8 = script14351(int3, OC_CERT(int0), int1, INV_SIZE(int3));
         } else {
@@ -103,15 +109,15 @@ function script6794(int0: number, int1: number, int2: number, int3: number, int4
         if ((int0 != 995 as obj)) {
             script14362(int2, int5, int0, int1, int3, int4, int7, int6);
         } else if (((int3 == 530 as inv) || (script14288() == 1))) {
-            script14362(int2, int5, 995 as obj, int1, int3, -1, 0, int6);
+            script14362(int2, int5, 995, int1, int3, -1, 0, int6);
         } else {
             if ((int8 == 0)) {
                 script17384(int2, int5, int1, int6);
             } else if ((int8 != int1)) {
                 script17384(int2, int5, (int1 - int8), int6);
-                script14362(int2, ((int5 - int1) - int8), 995 as obj, int8, int3, -1, 0, int6);
+                script14362(int2, ((int5 - int1) - int8), 995, int8, int3, -1, 0, int6);
             } else {
-                script14362(int2, int5, 995 as obj, int8, int3, -1, 0, int6);
+                script14362(int2, int5, 995, int8, int3, -1, 0, int6);
             };
             if ((script14345(int2) == (int5 - int11))) {
                 int8 = 0;
@@ -128,7 +134,8 @@ function script6794(int0: number, int1: number, int2: number, int3: number, int4
             };
         };
         script14362(int2, 1, int0, 1, int3, int4, 0, int6);
-        if ((--int1 > 0)) {
+        int1 = (int1 - 1);
+        if ((int1 > 0)) {
             script6795(int2, int0, int3, int1, int6);
         } else {
             script6961(int2, int0, int6);

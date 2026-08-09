@@ -2,12 +2,12 @@
 function script6747(int0: number): void {
     IF_SETHIDE(true, comp(1344, 37));
     IF_SETONMOUSEREPEAT(callback(), comp(1344, 36));
-    IF_SETONMOUSEREPEAT(callback(), 88080421);
+    IF_SETONMOUSEREPEAT(callback(), comp(1344, 37));
     var string0 = "";
-    var int1 = struct_getparam(enum_getvalue(0, 73, 10016, varplayer_5420), 1268);
-    var int2 = struct_getparam(enum_getvalue(0, 73, 10016, varplayer_5421), 1268);
-    var int3 = struct_getparam(enum_getvalue(0, 73, 10016, varplayer_5422), 1268);
-    var int4 = struct_getparam(enum_getvalue(0, 73, 10016, varplayer_5423), 1268);
+    var int1 = struct_getparam(enum_getvalue(0, 73, 10016 as cs2enum, varplayer_5420), 1268);
+    var int2 = struct_getparam(enum_getvalue(0, 73, 10016 as cs2enum, varplayer_5421), 1268);
+    var int3 = struct_getparam(enum_getvalue(0, 73, 10016 as cs2enum, varplayer_5422), 1268);
+    var int4 = struct_getparam(enum_getvalue(0, 73, 10016 as cs2enum, varplayer_5423), 1268);
     var int5 = 0;
     var int6 = struct_getparam(int0, 1268);
     if ((int1 == int6)) {
@@ -34,8 +34,8 @@ function script6747(int0: number): void {
         int5 = 1;
     };
     if ((int5 == 1)) {
-        IF_SETONMOUSEREPEAT(callback(script8799, string0, 88080420, -1), 88080420);
-        IF_SETONMOUSEREPEAT(callback(script8799, string0, 88080420, -1), 88080421);
+        IF_SETONMOUSEREPEAT(callback(script8799, string0, 88080420, -1), comp(1344, 36));
+        IF_SETONMOUSEREPEAT(callback(script8799, string0, 88080420, -1), comp(1344, 37));
     };
     IF_SETHIDE(false, comp(1344, 38));
     IF_SETHIDE(true, comp(1344, 99));
@@ -65,36 +65,98 @@ function script6747(int0: number): void {
         IF_SETGRAPHIC(21100 as graphic, comp(1344, 36));
     };
     if ((strcmp(struct_getparam(int0, 3631), "") != 0)) {
-        IF_SETTEXT(struct_getparam(int0, 3631), comp(1344, 93));
+        IF_SETTEXT(struct_getparam(int0, 3631), 88080477);
     } else {
-        IF_SETTEXT(struct_getparam(int0, 1273), comp(1344, 93));
+        IF_SETTEXT(struct_getparam(int0, 1273), 88080477);
     };
     if ((strcmp(struct_getparam(int0, 1292), "") != 0)) {
-        IF_SETTEXT(struct_getparam(int0, 1292), comp(1344, 97));
+        IF_SETTEXT(struct_getparam(int0, 1292), 88080481);
     } else {
         IF_SETTEXT("There are no rewards for this minigame.", comp(1344, 97));
     };
     script9181();
     var int7 = 80;
-    if (((MAP_MEMBERS() == 0) && (struct_getparam(int0, 1290) == 2))) {
-        IF_SETHIDE(true, comp(1344, 52));
-        IF_SETHIDE(true, comp(1344, 69));
-        IF_SETHIDE(true, comp(1344, 86));
-        IF_SETHIDE(true, comp(1344, 89));
-        IF_SETTEXT("Options", comp(1344, 68));
-        if ((PLAYERMEMBER() == true)) {
-            if ((int6 == 3004)) {
-                IF_SETTEXT("Crashed stars can sometimes be found around Gielinor.", comp(1344, 62));
+    if ((MAP_MEMBERS() == 0)) {
+        if ((struct_getparam(int0, 1290) == 2)) {
+            IF_SETHIDE(true, comp(1344, 52));
+            IF_SETHIDE(true, comp(1344, 69));
+            IF_SETHIDE(true, comp(1344, 86));
+            IF_SETHIDE(true, comp(1344, 89));
+            IF_SETTEXT("Options", comp(1344, 68));
+            if ((PLAYERMEMBER() == 1)) {
+                if ((int6 == 3004)) {
+                    IF_SETTEXT("Crashed stars can sometimes be found around Gielinor.", comp(1344, 62));
+                } else {
+                    IF_SETTEXT("This activity is a members only feature. Please log into a members' world to play.", comp(1344, 62));
+                };
             } else {
-                IF_SETTEXT("This activity is a members only feature. Please log into a members' world to play.", comp(1344, 62));
+                if ((int6 == 3004)) {
+                    IF_SETTEXT("Crashed stars can sometimes be found around Gielinor.", comp(1344, 62));
+                } else {
+                    IF_SETTEXT("This activity is a members only feature.", comp(1344, 62));
+                };
+                IF_SETHIDE(false, comp(1344, 77));
             };
+        } else if ((script3224(int6) == 0)) {
+            IF_SETTEXT("Requirements", comp(1344, 68));
+            int7 = script9182(int0);
+            IF_SETHIDE(true, comp(1344, 52));
+            IF_SETHIDE(true, comp(1344, 69));
+            IF_SETTEXT("", comp(1344, 62));
+            IF_SETHIDE(true, comp(1344, 77));
+            IF_SETHIDE(true, comp(1344, 86));
+            IF_SETHIDE(true, comp(1344, 89));
         } else {
-            if ((int6 == 3004)) {
-                IF_SETTEXT("Crashed stars can sometimes be found around Gielinor.", comp(1344, 62));
+            IF_SETTEXT("Options", comp(1344, 68));
+            IF_SETHIDE(false, comp(1344, 52));
+            if ((script8229(6, enum_getreverseindex(73, 0, 6452 as cs2enum, int0, 0)) > -1)) {
+                IF_SETOP(1, "Untrack", comp(1344, 56));
+                IF_SETTEXT("Untrack", comp(1344, 59));
+            } else if ((script8230() == 0)) {
+                IF_SETHIDE(true, comp(1344, 52));
             } else {
-                IF_SETTEXT("This activity is a members only feature.", comp(1344, 62));
+                IF_SETOP(1, "Track", comp(1344, 56));
+                IF_SETTEXT("Track", comp(1344, 59));
             };
-            IF_SETHIDE(false, comp(1344, 77));
+            if ((struct_getparam(int0, 2700) == -1)) {
+                if ((struct_getparam(int0, 2701) == -1)) {
+                    IF_SETHIDE(true, comp(1344, 69));
+                } else {
+                    IF_SETHIDE(false, comp(1344, 69));
+                    if ((varbitplayer_20797 == 1)) {
+                        if ((struct_getparam(int0, 2701) > 0)) {
+                            IF_SETHIDE(false, comp(1344, 86));
+                            IF_SETHIDE(true, comp(1344, 88));
+                            IF_SETHIDE(false, comp(1344, 87));
+                            IF_SETHIDE(false, comp(1344, 89));
+                        } else {
+                            IF_SETHIDE(true, comp(1344, 86));
+                            IF_SETHIDE(true, comp(1344, 89));
+                        };
+                    } else {
+                        IF_SETHIDE(true, comp(1344, 86));
+                        IF_SETHIDE(true, comp(1344, 89));
+                    };
+                };
+            } else {
+                IF_SETHIDE(false, comp(1344, 69));
+                if ((varbitplayer_20797 == 1)) {
+                    if ((struct_getparam(int0, 2701) > 0)) {
+                        IF_SETHIDE(false, comp(1344, 86));
+                        IF_SETHIDE(true, comp(1344, 88));
+                        IF_SETHIDE(false, comp(1344, 87));
+                        IF_SETHIDE(false, comp(1344, 89));
+                    } else {
+                        IF_SETHIDE(true, comp(1344, 86));
+                        IF_SETHIDE(true, comp(1344, 89));
+                    };
+                } else {
+                    IF_SETHIDE(true, comp(1344, 86));
+                    IF_SETHIDE(true, comp(1344, 89));
+                };
+            };
+            IF_SETTEXT("", comp(1344, 62));
+            IF_SETHIDE(true, comp(1344, 77));
         };
     } else if ((script3224(int6) == 0)) {
         IF_SETTEXT("Requirements", comp(1344, 68));
@@ -117,15 +179,38 @@ function script6747(int0: number): void {
             IF_SETOP(1, "Track", comp(1344, 56));
             IF_SETTEXT("Track", comp(1344, 59));
         };
-        if (((struct_getparam(int0, 2700) == -1 as coordgrid) && (struct_getparam(int0, 2701) == -1))) {
-            IF_SETHIDE(true, comp(1344, 69));
+        if ((struct_getparam(int0, 2700) == -1)) {
+            if ((struct_getparam(int0, 2701) == -1)) {
+                IF_SETHIDE(true, comp(1344, 69));
+            } else {
+                IF_SETHIDE(false, comp(1344, 69));
+                if ((varbitplayer_20797 == 1)) {
+                    if ((struct_getparam(int0, 2701) > 0)) {
+                        IF_SETHIDE(false, comp(1344, 86));
+                        IF_SETHIDE(true, comp(1344, 88));
+                        IF_SETHIDE(false, comp(1344, 87));
+                        IF_SETHIDE(false, comp(1344, 89));
+                    } else {
+                        IF_SETHIDE(true, comp(1344, 86));
+                        IF_SETHIDE(true, comp(1344, 89));
+                    };
+                } else {
+                    IF_SETHIDE(true, comp(1344, 86));
+                    IF_SETHIDE(true, comp(1344, 89));
+                };
+            };
         } else {
             IF_SETHIDE(false, comp(1344, 69));
-            if (((varbitplayer_20797 == 1) && (struct_getparam(int0, 2701) > 0))) {
-                IF_SETHIDE(false, comp(1344, 86));
-                IF_SETHIDE(true, comp(1344, 88));
-                IF_SETHIDE(false, comp(1344, 87));
-                IF_SETHIDE(false, comp(1344, 89));
+            if ((varbitplayer_20797 == 1)) {
+                if ((struct_getparam(int0, 2701) > 0)) {
+                    IF_SETHIDE(false, comp(1344, 86));
+                    IF_SETHIDE(true, comp(1344, 88));
+                    IF_SETHIDE(false, comp(1344, 87));
+                    IF_SETHIDE(false, comp(1344, 89));
+                } else {
+                    IF_SETHIDE(true, comp(1344, 86));
+                    IF_SETHIDE(true, comp(1344, 89));
+                };
             } else {
                 IF_SETHIDE(true, comp(1344, 86));
                 IF_SETHIDE(true, comp(1344, 89));

@@ -11,7 +11,7 @@ function script537(int0: number, int1: number): void {
             return;
         };
         IF_SETONTIMER(callback(), comp(745, 13));
-        IF_SETTRANS(0, 48824333);
+        IF_SETTRANS(0, comp(745, 13));
         return;
     };
     if ((int4 <= 5)) {

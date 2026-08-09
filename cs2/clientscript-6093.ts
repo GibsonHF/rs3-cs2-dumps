@@ -150,8 +150,12 @@ function script6093(int0: number): void {
                 };
             };
             if (((int4 != comp(-1, 65535)) && (CC_FIND(int4, int5) == 1))) {
-                if (((varplayer_303 == 1) && (int6 == -1))) {
-                    CC_SETGRAPHIC(2180 as graphic);
+                if ((varplayer_303 == 1)) {
+                    if ((int6 == -1)) {
+                        CC_SETGRAPHIC(2180 as graphic);
+                    } else {
+                        CC_SETGRAPHIC(enum_getvalue(0, 23, 200 as cs2enum, varplayer_306));
+                    };
                 } else {
                     CC_SETGRAPHIC(enum_getvalue(0, 23, 200 as cs2enum, varplayer_306));
                 };

@@ -16,6 +16,7 @@ function script8984(): number {
         case 8:
         case 9:
         case 10: {
+            break;
         }
         default: {
             return 0;

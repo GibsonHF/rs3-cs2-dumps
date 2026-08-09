@@ -29,18 +29,18 @@ function script19891(int0: number, int1: number, int2: number, int3: number, int
                     string1 = "There are more buy options if you right-click.";
                 };
                 if ((struct_getparam(int2, 4855) != -1)) {
-                    CC_SETOP(2, script12793(int2, struct_getparam(int2, 4855), false));
+                    CC_SETOP(2, script12793(int2, struct_getparam(int2, 4855), 0));
                 };
                 if ((struct_getparam(int2, 4856) != -1)) {
-                    CC_SETOP(3, script12793(int2, struct_getparam(int2, 4856), false));
-                    if ((int11 == false)) {
-                        CC_SETOP(4, script12793(int2, -1, true));
+                    CC_SETOP(3, script12793(int2, struct_getparam(int2, 4856), 0));
+                    if ((int11 == 0)) {
+                        CC_SETOP(4, script12793(int2, -1, 1));
                     };
                 };
                 if ((struct_getparam(int2, 4857) != -1)) {
-                    CC_SETOP(4, script12793(int2, struct_getparam(int2, 4857), false));
-                    if ((int11 == false)) {
-                        CC_SETOP(5, script12793(int2, -1, true));
+                    CC_SETOP(4, script12793(int2, struct_getparam(int2, 4857), 0));
+                    if ((int11 == 0)) {
+                        CC_SETOP(5, script12793(int2, -1, 1));
                     };
                 };
             };
@@ -48,8 +48,12 @@ function script19891(int0: number, int1: number, int2: number, int3: number, int
             CC_CLEAROPS();
         };
         if ((script6431() == 1)) {
-            if (((int7 == 1) && (STRING_LENGTH(string1) > 0))) {
-                CC_SETONCLICK(callback(script7774, string1, -2147483645, -2147483643, int10));
+            if ((int7 == 1)) {
+                if ((STRING_LENGTH(string1) > 0)) {
+                    CC_SETONCLICK(callback(script7774, string1, -2147483645, -2147483643, int10));
+                } else {
+                    CC_SETONCLICK(callback());
+                };
             } else {
                 CC_SETONCLICK(callback());
             };

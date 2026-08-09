@@ -16,7 +16,11 @@ function script15453(int0: number, int1: number, int2: number, int3: number): vo
     };
     while ((int4 < int5)) {
         if ((INV_GETVAR(int1, int4, 48837) == 1)) {
-            CC_CREATE(int0, 5, int10++);
+            stack(int0);
+            stack(5);
+            stack(int10);
+            int10 = (int10 + 1);
+            CC_CREATE();
             CC_SETSIZE(8, 8, 0, 0);
             CC_SETPOSITION(((int6 * MODULO(int4, int2)) + int8), ((int7 * (int4 / int2)) + int9), 0, 0);
             CC_SETGRAPHIC(15217 as graphic);

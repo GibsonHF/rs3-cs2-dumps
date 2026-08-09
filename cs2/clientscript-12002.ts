@@ -27,8 +27,12 @@ function script12002(int0: number, int1: number, int2: number): void {
     };
     if ((IF_FIND(struct_getparam(int0, 8122)) == 1)) {
         CC_SETPOSITION(0, int1, 0, 0);
-        if (((varbitplayer_27169 == 1) && (int2 == 0))) {
-            CC_SETSIZE(0, (int3 + int1), 1, 1);
+        if ((varbitplayer_27169 == 1)) {
+            if ((int2 == 0)) {
+                CC_SETSIZE(0, (int3 + int1), 1, 1);
+            } else {
+                CC_SETSIZE(16, (int3 + int1), 1, 1);
+            };
         } else {
             CC_SETSIZE(16, (int3 + int1), 1, 1);
         };

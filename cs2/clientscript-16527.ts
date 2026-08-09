@@ -3,7 +3,7 @@ function script16527(): void {
     var int0 = 0;
     var int1 = -1;
     var int2 = comp(-1, 65535);
-    var int3 = -1 as dbrow;
+    var int3 = -1;
     var int4 = -1 as dbrow;
     var int5 = 22607;
     var int6 = struct_getparam(int5, 8006);
@@ -17,7 +17,8 @@ function script16527(): void {
     var int14 = struct_getparam(int5, 8014);
     var int15 = struct_getparam(int5, 8015);
     var string0 = "";
-    while ((++int0 <= 6)) {
+    int0 = (int0 + 1);
+    while ((int0 <= 6)) {
         int3 = script16520(int0);
         int2 = dbrow_getfield(int3, 720912, 0);
         int1 = script16512(int0);

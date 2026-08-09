@@ -19,7 +19,8 @@ function script6605(int0: number): void {
         CC_CREATE(int0, 4, int5);
         CC_SETSIZE(21, 21, 0, 0);
         CC_SETPOSITION(int1, int2, 0, 0);
-        if ((MODULO(++int5, 10) == 0)) {
+        int5 = (int5 + 1);
+        if ((MODULO(int5, 10) == 0)) {
             int1 = int3;
             int2 = (int2 + 21);
         } else {
@@ -65,7 +66,8 @@ function script6605(int0: number): void {
         CC_SETDRAGDEADZONE(14);
         int5 = (int5 + 1);
         int7 = (int7 + 1);
-        if ((++int2 > int8)) {
+        int2 = (int2 + 1);
+        if ((int2 > int8)) {
             int2 = int4;
             int1 = (int1 + 84);
         };

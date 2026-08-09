@@ -35,6 +35,7 @@ function script7656(int0: number): string {
             return "Mandrith near the Pirates' Hideout in the Wilderness.";
         }
         case 8: {
+            break;
         }
         default: {
             return "";

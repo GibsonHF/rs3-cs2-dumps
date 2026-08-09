@@ -8,10 +8,10 @@ function script8418(int0: number, int1: number): number {
             return int3;
         };
     } else if ((varbitplayer_27169 == 1)) {
-        if (((int0 == 21278 as struct) && (varbitplayer_60446 == 1))) {
+        if (((int0 == 21278) && (varbitplayer_60446 == 1))) {
             return 28517 as struct;
         };
-    } else if (((int0 == 21278 as struct) && (varbitplayer_60446 == 1))) {
+    } else if (((int0 == 21278) && (varbitplayer_60446 == 1))) {
         return 28517 as struct;
     };
     int3 = script9952(int2);
@@ -21,10 +21,22 @@ function script8418(int0: number, int1: number): number {
     if ((int1 == 1)) {
         return int2;
     };
-    if ((int0 == 21136 as struct)) {
+    if ((int0 == 21136)) {
         return int2;
     };
-    if ((((varbitplayer_19928 == 1) && (script1186() == 1)) || (script12616(int0) == 1))) {
+    if ((varbitplayer_19928 == 1)) {
+        if (((script1186() == 1) || (script12616(int0) == 1))) {
+            int3 = struct_getparam(int2, 3795);
+            if ((int3 != -1 as struct)) {
+                int2 = int3;
+            };
+        } else if ((varbitplayer_19924 == 1)) {
+            int3 = struct_getparam(int2, 3794);
+            if ((int3 != -1 as struct)) {
+                int2 = int3;
+            };
+        };
+    } else if ((script12616(int0) == 1)) {
         int3 = struct_getparam(int2, 3795);
         if ((int3 != -1 as struct)) {
             int2 = int3;

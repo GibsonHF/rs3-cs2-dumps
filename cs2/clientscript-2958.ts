@@ -3,12 +3,12 @@ function script2958(int0: number, int1: number, int2: number): void {
     if ((IF_SLIDER_GETMINMAX[1](int0, int1) == 1)) {
         switch (CC_GETLAYER[1]()) {
             case 33882313: {
-                script3347(CC_GETINVOBJECT[1](), 95 as inv, CC_GETID[1](), int2, int1);
+                script3347(CC_GETINVOBJECT[1](), 95, CC_GETID[1](), int2, int1);
                 return;
             }
             case 21954574:
             case 21954577: {
-                script3347(CC_GETINVOBJECT[1](), 90 as inv, CC_GETID[1](), int2, int1);
+                script3347(CC_GETINVOBJECT[1](), 90, CC_GETID[1](), int2, int1);
                 return;
             }
             case 71565319: {

@@ -1,27 +1,31 @@
 //
-function script15449(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number): [number, string, string, number] {
+function script15449(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number): [number, number, string, string] {
     var int7 = enum_getvalue(0, 32, 14311 as cs2enum, dbrow_getfield(int0, 118800, 0));
     var int8 = 0;
-    var int9 = -1 as cs2enum;
-    var int10 = -1 as cs2enum;
+    var int9 = -1;
+    var int10 = -1;
     var string0 = "";
     var string1 = "Elder";
     if (((dbrow_getfield(int0, 118816, 0) != -1) && (int4 == 0))) {
-        int7 = enum_getvalue(0, 32, 14311 as cs2enum, dbrow_getfield(int0, 118816, 0));
+        int7 = enum_getvalue(0, 32, 14311, dbrow_getfield(int0, 118816, 0));
     };
     if ((int6 == 1)) {
-        if (((dbrow_getfield(int0, 118848, 0) != -1) && (int4 == 0))) {
-            int7 = enum_getvalue(0, 32, 14311 as cs2enum, dbrow_getfield(int0, 118848, 0));
+        if ((dbrow_getfield(int0, 118848, 0) != -1)) {
+            if ((int4 == 0)) {
+                int7 = enum_getvalue(0, 32, 14311, dbrow_getfield(int0, 118848, 0));
+            } else {
+                int7 = enum_getvalue(0, 32, 14311, dbrow_getfield(int0, 118832, 0));
+            };
         } else {
-            int7 = enum_getvalue(0, 32, 14311 as cs2enum, dbrow_getfield(int0, 118832, 0));
+            int7 = enum_getvalue(0, 32, 14311, dbrow_getfield(int0, 118832, 0));
         };
     };
     if ((int3 < dbrow_getfield(int0, 118912, 0))) {
         string1 = "Egg";
-        int7 = enum_getvalue(0, 32, 14311 as cs2enum, dbrow_getfield(int0, 118960, 0));
+        int7 = enum_getvalue(0, 32, 14311, dbrow_getfield(int0, 118960, 0));
     } else if ((int3 < dbrow_getfield(int0, 118928, 0))) {
         string1 = "Child";
-        int7 = enum_getvalue(0, 32, 14311 as cs2enum, dbrow_getfield(int0, 118976, 0));
+        int7 = enum_getvalue(0, 32, 14311, dbrow_getfield(int0, 118976, 0));
     } else if ((int3 < dbrow_getfield(int0, 118944, 0))) {
         string1 = "Adolescent";
     } else if ((int3 < dbrow_getfield(int0, 118896, 0))) {
@@ -35,7 +39,7 @@ function script15449(int0: number, int1: number, int2: number, int3: number, int
     };
     switch (int7) {
         case 25754: {
-            int7 = 25749 as npc;
+            int7 = 25749;
             int8 = SCALE(45, 100, npc_getparam(int7, 7479));
             break;
         }

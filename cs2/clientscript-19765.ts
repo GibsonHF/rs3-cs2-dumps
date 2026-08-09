@@ -6,12 +6,12 @@ function script19765(int0: number, int1: number): [number, number, number, numbe
     var int2 = 0;
     var int3 = -1 as dbrow;
     var int4 = 0;
-    var int5 = -1 as dbrow;
+    var int5 = -1;
     var int6 = 0;
-    var int7 = -1 as obj;
+    var int7 = -1;
     var int8 = 1;
-    var int9 = -1 as struct;
-    var int10 = -1 as graphic;
+    var int9 = -1;
+    var int10 = -1;
     switch (int0) {
         case 1: {
             int3 = dbrow_getfield(14845 as dbrow, 1106000, 0);
@@ -32,7 +32,7 @@ function script19765(int0: number, int1: number): [number, number, number, numbe
     } else {
         int5 = dbrow_getfield(int3, 1269760, int1);
     };
-    if ((int5 != -1 as dbrow)) {
+    if ((int5 != -1)) {
         [int7, int8] = dbrow_getfield(int5, 1273872, 0);
         [int9, int10] = dbrow_getfield(int5, 1273888, 0);
     } else {

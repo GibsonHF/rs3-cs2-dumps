@@ -22,7 +22,8 @@ function script26(): void {
             CC_SETOP(2, "Buy");
             CC_SETOP(10, "Examine");
         };
-        if ((MODULO(++int0, int4) == 0)) {
+        int0 = (int0 + 1);
+        if ((MODULO(int0, int4) == 0)) {
             int1 = (int1 + 1);
         };
     };

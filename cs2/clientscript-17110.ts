@@ -4,6 +4,6 @@ function script17110(): void {
     cc_setparam(7540, -1);
     cc_setparam(7541, -1);
     cc_setparam(7543, -1);
-    CC_SETPARAM_STRING(4277, "");
+    CC_SETPARAM_STRING(callback(script4277));
     return;
 }

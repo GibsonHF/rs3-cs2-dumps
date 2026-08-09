@@ -6,7 +6,7 @@ function script2584(int0: number, int1: number, int2: number, int3: number, int4
     };
     var int19 = 0;
     var string0 = "";
-    var int20 = -1 as cs2enum;
+    var int20 = -1;
     var int21 = comp(-1, 65535);
     var int22 = comp(-1, 65535);
     var int23 = comp(-1, 65535);
@@ -38,8 +38,7 @@ function script2584(int0: number, int1: number, int2: number, int3: number, int4
     var int26 = 1;
     var int27 = 1;
     while ((int19 < int18)) {
-        stack(dbrow_getfield(int0, 458752, int19));
-        [string0, int20] = stack();
+        [string0, int20] = dbrow_getfield(int0, 458752, int19);
         switch (int19) {
             case 0: {
                 int21 = int1;

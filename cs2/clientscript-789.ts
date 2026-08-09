@@ -6,6 +6,7 @@ function script789(int0: number): [number, number] {
                 return [17548, 17549];
             }
             case 1: {
+                break;
             }
             default: {
                 return [17546, 17547];

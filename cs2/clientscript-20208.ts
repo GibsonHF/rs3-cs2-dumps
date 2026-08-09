@@ -23,10 +23,10 @@ function script20208(): void {
     varbitplayer_58385 = 0;
     script20211(1);
     IF_SETONTIMER(callback(script20212, CLIENTCLOCK()), comp(1401, 3));
-    IF_SETTEXT("Nominate this Account", 91815959);
-    IF_SETTEXT("Nominate another Account", 91815965);
-    IF_SETTEXT("Confirm this Account", 91815972);
-    IF_SETTEXT("Confirm Nomination", 91815973);
+    IF_SETTEXT("Nominate this Account", comp(1401, 23));
+    IF_SETTEXT("Nominate another Account", comp(1401, 29));
+    IF_SETTEXT("Confirm this Account", comp(1401, 36));
+    IF_SETTEXT("Confirm Nomination", comp(1401, 37));
     script20209(0, "You can switch between the League and RuneScape at any time by switching worlds.");
     return;
 }

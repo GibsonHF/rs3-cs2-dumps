@@ -14,7 +14,7 @@ function script1172(): void {
     script2593();
     if (((varclient_6799 == true) && (IF_CRMVIEW_INIT() == false))) {
         CAM2_REMOVEEFFECT(1);
-        varclient_6799 = false;
+        varclient_6799 = 0;
     };
     script14175();
     SETUP_MESSAGEBOX(0, 0, 4, 3, 135, 30, 3791, 3792, 6127, 16753152, 26);
@@ -24,8 +24,8 @@ function script1172(): void {
     if ((script13749() == 1)) {
         IF_SETONRESIZE(callback(script15677), comp(744, 26));
         script15678();
-        IF_SETHIDE(0, 48758785);
-        IF_SETONCLICK(callback(), 48758924);
+        IF_SETHIDE(false, comp(744, 1));
+        IF_SETONCLICK(callback(), comp(744, 140));
     };
     IF_SETONRESIZE(callback(script3229), comp(744, 0));
     script3230();
@@ -38,7 +38,7 @@ function script1172(): void {
     script15699();
     varclient_4192 = "";
     script15700();
-    varclient_4193 = false;
+    varclient_4193 = 0;
     varclient_6908 = -1;
     varclient_1100 = -1;
     if ((varclient_6406 == -1)) {
@@ -54,7 +54,7 @@ function script1172(): void {
     script316();
     script53();
     varclient_547 = 0;
-    varclient_1093 = false;
+    varclient_1093 = 0;
     script1129();
     script4142(-1);
     if ((varclient_1701 == -1)) {
@@ -105,7 +105,9 @@ function script1172(): void {
     var int1 = 0;
     var int2 = 0;
     [int0, int1, int2] = DATE_RUNEDAY_TODATE(DATE_RUNEDAY());
-    if (((int1 == 11) || ((int1 == 0) && (int0 <= 10)))) {
+    if ((int1 == 11)) {
+        CONSOLE_ENABLESNOW();
+    } else if (((int1 == 0) && (int0 <= 10))) {
         CONSOLE_ENABLESNOW();
     };
     return;

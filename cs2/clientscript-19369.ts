@@ -73,7 +73,8 @@ function script19369(int0: number, int1: number, int2: number, int3: number, int
             };
         };
         script19602(int2, 1, int0, 1, int3, int4, 0, int6);
-        if ((--int1 > 0)) {
+        int1 = (int1 - 1);
+        if ((int1 > 0)) {
             int2 = script19584(int0, int2, 0);
             script19370(int2, int0, int3, int1, int6);
         } else {

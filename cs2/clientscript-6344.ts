@@ -46,6 +46,7 @@ function script6344(int0: number): number {
                     return 66;
                 }
                 case 4: {
+                    break;
                 }
                 default: {
                     return 200;

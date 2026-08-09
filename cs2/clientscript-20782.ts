@@ -1,7 +1,7 @@
 //
 function script20782(): void {
     unk11177();
-    if ((stack() > 0)) {
+    if (BRANCH_GREATER_THAN(0)) {
         if ((varbitplayer_61207 == 0)) {
             if ((script6431() == 1)) {
                 if ((script20783(varplayer_12920) == 0)) {

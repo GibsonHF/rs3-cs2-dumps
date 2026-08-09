@@ -32,7 +32,11 @@ function script2117(int0: number, int1: number): number {
                 break;
             }
         };
-        CC_CREATE(comp(267, 76), 5, int3++);
+        stack(comp(267, 76));
+        stack(5);
+        stack(int3);
+        int3 = (int3 + 1);
+        CC_CREATE();
         CC_SETSIZE(100, 100, 0, 0);
         CC_SETPOSITION(int1, 0, 0, 1);
         CC_SETGRAPHIC(int4);

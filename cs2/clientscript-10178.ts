@@ -1,5 +1,5 @@
 //
-function script10178(int0: number): [string, string, number, number, number] {
+function script10178(int0: number): [number, number, number, string, string] {
     switch (int0) {
         case 0: {
             return [varclient_4331, varclient_4361, varclient_4391, varclient_4421, varclient_4451];

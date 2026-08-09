@@ -462,6 +462,7 @@ function script6506(int0: number): [number, number] {
             return [varclient_7281, varclient_7282];
         }
         case 49072: {
+            break;
         }
         default: {
             return [0, 0];

@@ -131,8 +131,10 @@ function script8385(int0: number, int1: number, int2: number, int3: number, int4
             int9 = (int9 + 1);
         };
     };
-    if (((int15 == 2147483647) && ((int18 != 0) || (int19 != 0)))) {
-        int20 = -1;
+    if ((int15 == 2147483647)) {
+        if (((int18 != 0) || (int19 != 0))) {
+            int20 = -1;
+        };
     };
     return [int18, int19, int20];
 }

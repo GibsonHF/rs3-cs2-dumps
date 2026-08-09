@@ -115,7 +115,7 @@ function script7481(int0: number, int1: number, int2: number): number {
                 break;
             }
         };
-        return script7482(string1, -1 as graphic, int3, string2, script7484(int0, int2));
+        return script7482(string1, -1, int3, string2, script7484(int0, int2));
     };
     switch (int1) {
         case 48299: {
@@ -125,7 +125,7 @@ function script7481(int0: number, int1: number, int2: number): number {
                 string0 = "<col=ff0000>";
             };
             string1 = `${string0}${inttostring(1, 10)}</col>`;
-            return script7482(string1, struct_getparam(48334, 2802), -1 as obj, `Requires ${struct_getparam(48334, 2794)} stacks.`, script7484(int0, int2));
+            return script7482(string1, struct_getparam(48334, 2802), -1, `Requires ${struct_getparam(48334, 2794)} stacks.`, script7484(int0, int2));
         }
         case 48301: {
             if ((varplayer_11035 >= 2)) {
@@ -134,7 +134,7 @@ function script7481(int0: number, int1: number, int2: number): number {
                 string0 = "<col=ff0000>";
             };
             string1 = `${string0}${inttostring(2, 10)}+</col>`;
-            return script7482(string1, struct_getparam(48334, 2802), -1 as obj, `Requires ${struct_getparam(48334, 2794)} stacks.`, script7484(int0, int2));
+            return script7482(string1, struct_getparam(48334, 2802), -1, `Requires ${struct_getparam(48334, 2794)} stacks.`, script7484(int0, int2));
         }
     };
     return int0;

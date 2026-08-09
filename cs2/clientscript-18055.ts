@@ -6,7 +6,7 @@ function script18055(): void {
     var int3 = comp(1226, 34);
     CC_DELETEALL(int3);
     var int4 = 0;
-    var int5 = -1 as dbrow;
+    var int5 = -1;
     var int6 = 0;
     var int7 = 0;
     var int8 = -1;
@@ -45,9 +45,13 @@ function script18055(): void {
     script18058();
     script18061(int3, int14, int15);
     script18065();
-    if (((varclient_7307 <= 0) && (CC_FIND(varclient_7298, varclient_7299) == 1))) {
-        script10643(script17989(2));
-        int12 = (CC_UNKNOWN2() - 450);
+    if ((varclient_7307 <= 0)) {
+        if ((CC_FIND(varclient_7298, varclient_7299) == 1)) {
+            script10643(script17989(2));
+            int12 = (CC_GETABSOLUTEY() - 450);
+        } else {
+            int12 = varclient_7307;
+        };
     } else {
         int12 = varclient_7307;
     };

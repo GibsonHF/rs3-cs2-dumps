@@ -1,7 +1,7 @@
 //
 function script16140(int0: number): number {
     SHOP_GETINDEXFORCATEGORYID(int0);
-    var int1 = stack();
+    var int1 = [];
     stack(int1);
     var int2 = SHOP_GETPRODUCTCOUNT();
     var int3 = 0;
@@ -16,19 +16,24 @@ function script16140(int0: number): number {
     var string5 = "";
     var int7 = 0;
     var string6 = "";
-    while (((int4 < int2) && (int3 == 0))) {
-        stack(SHOP_GETPRODUCTDETAILS(int1, int4));
-        [string0, string1, string2, string3, string4, string5, int7, string6] = stack();
-        if ((strcmp(string1, "") != 0)) {
-            int5 = script16590(PLATFORMTYPE(), string1);
-            if ((int5 != -1)) {
-                if ((script15747(SHOP_ISPRODUCTAVAILABLE(int1, int4), int5) == 1)) {
-                    int3 = 1;
+    while ((int4 < int2)) {
+        if ((int3 == 0)) {
+            [string0, string1, string2, string3, string4, string5, int7, string6] = SHOP_GETPRODUCTDETAILS(int1, int4);
+            if ((strcmp(string1, "") != 0)) {
+                int5 = script16590(PLATFORMTYPE(), string1);
+                if ((int5 != -1)) {
+                    if ((script15747(SHOP_ISPRODUCTAVAILABLE(int1, int4), int5) == 1)) {
+                        int3 = 1;
+                    };
+                    int5 = -1;
                 };
-                int5 = -1;
             };
+            int4 = (int4 + 1);
         };
-        int4 = (int4 + 1);
+        if ((int3 == 1)) {
+            return 0;
+        };
+        return 1;
     };
     if ((int3 == 1)) {
         return 0;

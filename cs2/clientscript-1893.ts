@@ -20,12 +20,12 @@ function script1893(): void {
     define_array[65536]((int0 + 1));
     while ((int2 < int0)) {
         FRIEND_GETRANK(int2);
-        int1 = stack();
-        CC_CREATE(72613893, 5, int2);
+        int1 = [];
+        CC_CREATE(comp(1108, 5), 5, int2);
         CC_SETSIZE(14, 14, 0, 0);
-        CC_CREATE(72613894, 4, int2);
+        CC_CREATE(comp(1108, 6), 4, int2);
         CC_SETSIZE(0, 14, 1, 0);
-        CC_CREATE(72613895, 4, int2);
+        CC_CREATE(comp(1108, 7), 4, int2);
         CC_SETSIZE(0, 14, 1, 0);
         CC_SETONTIMER(callback(script11952, int2, int1));
         pop_array(int2, int2);

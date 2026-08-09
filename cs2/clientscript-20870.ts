@@ -1,7 +1,7 @@
 //
 function script20870(): number {
     unk11188();
-    if (((stack() == 1) && (CC_GETLAYER() == comp(707, 5)))) {
+    if ((BRANCH_EQUALS(1) && (CC_GETLAYER() == 46333957))) {
         return 1;
     };
     return 0;

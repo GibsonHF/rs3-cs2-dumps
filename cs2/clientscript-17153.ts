@@ -4,18 +4,9 @@ function script17153(int0: number): void {
     stack(761856);
     stack(int0);
     DB_FIND(0);
-    dbrow_findnext();
-    var int2 = stack();
-    stack(int2);
-    stack(761888);
-    stack(0);
-    dbrow_getfield();
-    var int3 = stack();
-    stack(int2);
-    stack(761904);
-    stack(0);
-    dbrow_getfield();
-    var int4 = stack();
+    var int2 = dbrow_findnext();
+    var int3 = dbrow_getfield(int2, 761888, 0);
+    var int4 = dbrow_getfield(int2, 761904, 0);
     if ((int1 == 19)) {
         IF_SETHIDE(true, int3);
         IF_SETGRAPHIC(26128 as graphic, int4);

@@ -7,10 +7,24 @@ function script3826(int0: number, int1: number): void {
     var int6 = 0;
     var int7 = 0;
     [int4, int5, int6] = script8548(int1);
-    if ((((int4 - int5) == int6) && (int0 == 0))) {
-        int7 = 0;
-    } else if (((int5 == 0) && (int0 == 1))) {
-        int7 = int4;
+    if (((int4 - int5) == int6)) {
+        if ((int0 == 0)) {
+            int7 = 0;
+        } else if ((int5 == 0)) {
+            if ((int0 == 1)) {
+                int7 = int4;
+            } else {
+                return;
+            };
+        } else {
+            return;
+        };
+    } else if ((int5 == 0)) {
+        if ((int0 == 1)) {
+            int7 = int4;
+        } else {
+            return;
+        };
     } else {
         return;
     };

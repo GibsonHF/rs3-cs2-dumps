@@ -28,21 +28,37 @@ function script18274(int0: number, int1: number): void {
     CC_DELETEALL(comp(1311, 371));
     if ((int0 != -1)) {
         int2 = struct_getparam(int0, 9201);
-        if (((varbitplayer_55451 == 1) && (struct_getparam(int0, 3752) != -1 as seq))) {
-            int3 = struct_getparam(int0, 3752);
+        if ((varbitplayer_55451 == 1)) {
+            if ((struct_getparam(int0, 3752) != -1 as seq)) {
+                int3 = struct_getparam(int0, 3752);
+            } else {
+                int3 = struct_getparam(int0, 2535);
+            };
         } else {
             int3 = struct_getparam(int0, 2535);
         };
-        if (((GENDER() == 1) && (struct_getparam(int0, 3752) != -1 as seq))) {
-            if ((struct_getparam(int0, 4796) == 1)) {
-                int3 = script10996(int0, 0);
+        if ((GENDER() == 1)) {
+            if ((struct_getparam(int0, 3752) != -1 as seq)) {
+                if ((struct_getparam(int0, 4796) == 1)) {
+                    int3 = script10996(int0, 0);
+                };
+                int4 = struct_getparam(int0, 3753);
+                int5 = struct_getparam(int0, 3754);
+                int12 = struct_getparam(int0, 3755);
+                int13 = struct_getparam(int0, 3756);
+                int14 = struct_getparam(int0, 4297);
+                int15 = struct_getparam(int0, 4298);
+            } else {
+                if ((struct_getparam(int0, 4796) == 1)) {
+                    int3 = script10996(int0, 0);
+                };
+                int4 = struct_getparam(int0, 2536);
+                int5 = struct_getparam(int0, 2537);
+                int12 = struct_getparam(int0, 2538);
+                int13 = struct_getparam(int0, 2539);
+                int14 = struct_getparam(int0, 4295);
+                int15 = struct_getparam(int0, 4296);
             };
-            int4 = struct_getparam(int0, 3753);
-            int5 = struct_getparam(int0, 3754);
-            int12 = struct_getparam(int0, 3755);
-            int13 = struct_getparam(int0, 3756);
-            int14 = struct_getparam(int0, 4297);
-            int15 = struct_getparam(int0, 4298);
         } else {
             if ((struct_getparam(int0, 4796) == 1)) {
                 int3 = script10996(int0, 0);
@@ -62,31 +78,47 @@ function script18274(int0: number, int1: number): void {
         int26 = struct_getparam(int0, 4267);
         int18 = struct_getparam(int0, 5166);
     };
-    if (((int23 == 0) && (int18 == -1 as cs2enum))) {
-        script6443(int19, int20, int21, int22, 1, 1);
-        if (((int2 != -1 as npc) && (CC_FIND(int16, 0) == 1))) {
-            CC_SETNPCMODEL(int2);
-        };
-        if ((int3 == -1 as seq)) {
-            if ((((varbitplayer_673 == 4) && (varbitplayer_675 == 5)) && (script10996(int0, 1) != -1 as seq))) {
-                int3 = script10996(int0, 1);
-            } else if ((varclient_779 != -1 as bas)) {
-                int3 = BAS_GETANIM_READY(varclient_779);
+    if ((int23 == 0)) {
+        if ((int18 == -1 as cs2enum)) {
+            script6443(int19, int20, int21, int22, 1, 1);
+            if (((int2 != -1 as npc) && (CC_FIND(int16, 0) == 1))) {
+                CC_SETNPCMODEL(int2);
+            };
+            if ((int3 == -1 as seq)) {
+                if ((varbitplayer_673 == 4)) {
+                    if ((varbitplayer_675 == 5)) {
+                        if ((script10996(int0, 1) != -1)) {
+                            int3 = script10996(int0, 1);
+                        } else if ((varclient_779 != -1 as bas)) {
+                            int3 = BAS_GETANIM_READY(varclient_779);
+                        } else {
+                            int3 = BAS_GETANIM_READY(1426 as bas);
+                        };
+                    } else if ((varclient_779 != -1 as bas)) {
+                        int3 = BAS_GETANIM_READY(varclient_779);
+                    } else {
+                        int3 = BAS_GETANIM_READY(1426 as bas);
+                    };
+                } else if ((varclient_779 != -1 as bas)) {
+                    int3 = BAS_GETANIM_READY(varclient_779);
+                } else {
+                    int3 = BAS_GETANIM_READY(1426 as bas);
+                };
+                if ((varclient_1968 == 1)) {
+                    int3 = 37903 as seq;
+                };
+                IF_SETONTIMER(callback(script6449, -2147483645, int16, 0, 0), comp(1311, 657));
             } else {
-                int3 = BAS_GETANIM_READY(1426 as bas);
+                IF_SETONTIMER(callback(), comp(1311, 657));
             };
-            if ((varclient_1968 == 1)) {
-                int3 = 37903 as seq;
+            if ((CC_FIND(int16, 0) == 1)) {
+                CC_SETONVARCTRANSMIT(callback());
+                CC_SETMODELANIM(int3);
             };
-            IF_SETONTIMER(callback(script6449, -2147483645, int16, 0, 0), 85918353);
+            int25 = (int25 + 1);
         } else {
-            IF_SETONTIMER(callback(), comp(1311, 657));
+            CC_DELETEALL(comp(1311, 343));
         };
-        if ((CC_FIND(int16, 0) == 1)) {
-            CC_SETONVARCTRANSMIT(callback());
-            CC_SETMODELANIM(int3);
-        };
-        int25 = (int25 + 1);
     } else {
         CC_DELETEALL(comp(1311, 343));
     };
@@ -96,12 +128,12 @@ function script18274(int0: number, int1: number): void {
         int25 = (int25 + 1);
     };
     if (((int12 != -1 as seq) && (int13 != -1 as model))) {
-        script6446(int16, 300, int19, int21, int22, int20, int13, int12, -1 as material, -1 as material, -1, -1, -1, -1);
+        script6446(int16, 300, int19, int21, int22, int20, int13, int12, -1, -1, -1, -1, -1, -1);
         int24 = (int24 + 1);
         int25 = (int25 + 1);
     };
     if (((int14 != -1 as seq) && (int15 != -1 as model))) {
-        script6446(int16, 300, int19, int21, int22, int20, int15, int14, -1 as material, -1 as material, -1, -1, -1, -1);
+        script6446(int16, 300, int19, int21, int22, int20, int15, int14, -1, -1, -1, -1, -1, -1);
         int24 = (int24 + 1);
         int25 = (int25 + 1);
     };
@@ -114,8 +146,20 @@ function script18274(int0: number, int1: number): void {
             CC_SETNPCMODEL(int2);
         };
         if ((int3 == -1 as seq)) {
-            if ((((struct_getparam(int0, 2531) == 4) && (struct_getparam(int0, 2532) == 5)) && (script10996(int0, 1) != -1 as seq))) {
-                int3 = script10996(int0, 1);
+            if ((struct_getparam(int0, 2531) == 4)) {
+                if ((struct_getparam(int0, 2532) == 5)) {
+                    if ((script10996(int0, 1) != -1)) {
+                        int3 = script10996(int0, 1);
+                    } else if ((varclient_779 != -1 as bas)) {
+                        int3 = BAS_GETANIM_READY(varclient_779);
+                    } else {
+                        int3 = BAS_GETANIM_READY(1426 as bas);
+                    };
+                } else if ((varclient_779 != -1 as bas)) {
+                    int3 = BAS_GETANIM_READY(varclient_779);
+                } else {
+                    int3 = BAS_GETANIM_READY(1426 as bas);
+                };
             } else if ((varclient_779 != -1 as bas)) {
                 int3 = BAS_GETANIM_READY(varclient_779);
             } else {
@@ -124,7 +168,7 @@ function script18274(int0: number, int1: number): void {
             if ((varclient_1968 == 1)) {
                 int3 = 37903 as seq;
             };
-            IF_SETONTIMER(callback(script6449, -2147483645, int16, 0, 0), 85918353);
+            IF_SETONTIMER(callback(script6449, -2147483645, int16, 0, 0), comp(1311, 657));
         } else {
             IF_SETONTIMER(callback(), comp(1311, 657));
         };
@@ -186,7 +230,7 @@ function script18274(int0: number, int1: number): void {
         case 51607:
         case 985:
         case 980: {
-            IF_SETONTIMER(callback(script18275, int0, int1, (SEQLENGTH(struct_getparam(int0, 2535)) + 1)), 85918353);
+            IF_SETONTIMER(callback(script18275, int0, int1, (SEQLENGTH(struct_getparam(int0, 2535)) + 1)), comp(1311, 657));
             break;
         }
         case 47045:
@@ -195,7 +239,7 @@ function script18274(int0: number, int1: number): void {
         case 47185:
         case 47186:
         case 52414: {
-            IF_SETONTIMER(callback(script18275, int0, int1, 240), 85918353);
+            IF_SETONTIMER(callback(script18275, int0, int1, 240), comp(1311, 657));
             break;
         }
     };

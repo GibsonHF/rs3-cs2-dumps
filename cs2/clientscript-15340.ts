@@ -32,7 +32,12 @@ function script15340(int0: number, int1: number, int2: number): number {
     var int9 = 0;
     var int10 = -1 as achievement;
     if ((int8 != -1 as cs2enum)) {
-        int10 = enum_getvalue(0, 131, int8, int9++);
+        stack(0);
+        stack(131);
+        stack(int8);
+        stack(int9);
+        int9 = (int9 + 1);
+        int10 = enum_getvalue();
     } else {
         int10 = ACHIEVEMENT_FINDNEXT();
     };
@@ -75,7 +80,12 @@ function script15340(int0: number, int1: number, int2: number): number {
             }
         };
         if ((int8 != -1 as cs2enum)) {
-            int10 = enum_getvalue(0, 131, int8, int9++);
+            stack(0);
+            stack(131);
+            stack(int8);
+            stack(int9);
+            int9 = (int9 + 1);
+            int10 = enum_getvalue();
         } else {
             int10 = ACHIEVEMENT_FINDNEXT();
         };
@@ -166,8 +176,12 @@ function script15340(int0: number, int1: number, int2: number): number {
         int30 = script15342(int10);
         int31 = 1;
         int32 = 0;
-        if (((int12 != -2) && (unk11113(int10) == 2))) {
-            int32 = 1;
+        if ((int12 != -2)) {
+            if ((unk11113(int10) == 2)) {
+                int32 = 1;
+            } else if (((int12 == -1) && (unk11113(int10) == 1))) {
+                int32 = 1;
+            };
         } else if (((int12 == -1) && (unk11113(int10) == 1))) {
             int32 = 1;
         };
@@ -210,20 +224,24 @@ function script15340(int0: number, int1: number, int2: number): number {
                 };
             };
             if ((int18 == 1)) {
-                if (((int31 == 1) && (CC_FIND(int3, (int21 + 4)) == 1))) {
-                    CC_SETSIZE(14, 14, 0, 0);
-                    if ((int29 > 0)) {
-                        CC_SETPOSITION((int22 + 2), (int28 + 2), 0, 0);
+                if ((int31 == 1)) {
+                    if ((CC_FIND(int3, (int21 + 4)) == 1)) {
+                        CC_SETSIZE(14, 14, 0, 0);
+                        if ((int29 > 0)) {
+                            CC_SETPOSITION((int22 + 2), (int28 + 2), 0, 0);
+                        } else {
+                            CC_SETPOSITION((int22 + 2), (int28 + ((int17 / 2) - (CC_GETHEIGHT() / 2))), 0, 0);
+                        };
+                        CC_SETNOCLICKTHROUGH(true);
+                        if ((int12 == -2)) {
+                            script13618(int3, CC_GETID(), int10);
+                        } else {
+                            script13339(int3, CC_GETID(), int10);
+                        };
+                        int23 = (CC_GETX() + CC_GETWIDTH());
                     } else {
-                        CC_SETPOSITION((int22 + 2), (int28 + ((int17 / 2) - (CC_GETHEIGHT() / 2))), 0, 0);
+                        int23 = 0;
                     };
-                    CC_SETNOCLICKTHROUGH(true);
-                    if ((int12 == -2)) {
-                        script13618(int3, CC_GETID(), int10);
-                    } else {
-                        script13339(int3, CC_GETID(), int10);
-                    };
-                    int23 = (CC_GETX() + CC_GETWIDTH());
                 } else {
                     int23 = 0;
                 };
@@ -270,32 +288,38 @@ function script15340(int0: number, int1: number, int2: number): number {
                     CC_SETGRAPHIC(ACHIEVEMENT_SPRITE(int10));
                     int22 = (CC_GETX() + CC_GETWIDTH());
                 };
-                if ((((int12 == -1) || (int12 == -2)) && (CC_FIND(int3, (int21 + 3)) == 1))) {
-                    CC_SETPOSITION(2, (int28 + 2), 0, 0);
-                    CC_SETSIZE(28, 28, 0, 0);
-                    if ((int12 == -2)) {
-                        CC_SETGRAPHIC(26606 as graphic);
-                    } else {
-                        CC_SETGRAPHIC(26605 as graphic);
-                        if ((CC_FIND[1](int3, (int21 + 2)) == 1)) {
-                            CC_SETPOSITION[1](2, (int28 + 2), 0, 0);
-                            CC_SETSIZE[1](28, 28, 0, 0);
-                            CC_SETFILL[1](1);
-                            CC_SETCOLOUR[1](8421504);
-                            CC_SETTRANS[1](128);
+                if (((int12 == -1) || (int12 == -2))) {
+                    if ((CC_FIND(int3, (int21 + 3)) == 1)) {
+                        CC_SETPOSITION(2, (int28 + 2), 0, 0);
+                        CC_SETSIZE(28, 28, 0, 0);
+                        if ((int12 == -2)) {
+                            CC_SETGRAPHIC(26606 as graphic);
+                        } else {
+                            CC_SETGRAPHIC(26605 as graphic);
+                            if ((CC_FIND[1](int3, (int21 + 2)) == 1)) {
+                                CC_SETPOSITION[1](2, (int28 + 2), 0, 0);
+                                CC_SETSIZE[1](28, 28, 0, 0);
+                                CC_SETFILL[1](1);
+                                CC_SETCOLOUR[1](8421504);
+                                CC_SETTRANS[1](128);
+                            };
                         };
                     };
                 };
-                if (((int31 == 1) && (CC_FIND(int3, (int21 + 4)) == 1))) {
-                    CC_SETPOSITION((int22 + 2), int28, 0, 0);
-                    CC_SETSIZE(14, 14, 0, 0);
-                    CC_SETNOCLICKTHROUGH(true);
-                    if ((int12 == -2)) {
-                        script13618(int3, CC_GETID(), int10);
+                if ((int31 == 1)) {
+                    if ((CC_FIND(int3, (int21 + 4)) == 1)) {
+                        CC_SETPOSITION((int22 + 2), int28, 0, 0);
+                        CC_SETSIZE(14, 14, 0, 0);
+                        CC_SETNOCLICKTHROUGH(true);
+                        if ((int12 == -2)) {
+                            script13618(int3, CC_GETID(), int10);
+                        } else {
+                            script13339(int3, CC_GETID(), int10);
+                        };
+                        int23 = (CC_GETX() + CC_GETWIDTH());
                     } else {
-                        script13339(int3, CC_GETID(), int10);
+                        int23 = (int22 + 2);
                     };
-                    int23 = (CC_GETX() + CC_GETWIDTH());
                 } else {
                     int23 = (int22 + 2);
                 };
@@ -368,8 +392,12 @@ function script15340(int0: number, int1: number, int2: number): number {
             int36 = varclient_6917;
         };
         if ((script15954() == 1)) {
-            if (((int34 != -1 as achievement) && (int35 != -1))) {
-                script9291(int35, int34);
+            if ((int34 != -1 as achievement)) {
+                if ((int35 != -1)) {
+                    script9291(int35, int34);
+                } else {
+                    script9291(varclient_6918, varclient_6919);
+                };
             } else {
                 script9291(varclient_6918, varclient_6919);
             };

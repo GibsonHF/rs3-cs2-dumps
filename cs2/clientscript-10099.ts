@@ -74,6 +74,6 @@ function script10099(int0: number, int1: number, int2: number): void {
         }
     };
     IF_SETPOSITION(int7, int8, 0, 0, int3);
-    IF_SETONTIMER(callback(script10100, int12, int3, int4, int5), 99287055);
+    IF_SETONTIMER(callback(script10100, int12, int3, int4, int5), comp(1515, 15));
     return;
 }

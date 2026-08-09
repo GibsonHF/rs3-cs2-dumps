@@ -1,7 +1,10 @@
 //
 function script20181(int0: number, int1: number, int2: number, int3: number, string0: string, string1: string, string2: string, string3: string): void {
     var int4 = script20117(varplayer_12314);
-    if (((int4 == -1) || ((script13749() == 1) && (IF_GETHIDE(comp(276, 27)) == false)))) {
+    if ((int4 == -1)) {
+        IF_SETHIDE(true, comp(1395, 0));
+        return;
+    } else if (((script13749() == 1) && (IF_GETHIDE(comp(276, 27)) == false))) {
         IF_SETHIDE(true, comp(1395, 0));
         return;
     };

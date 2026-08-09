@@ -129,6 +129,7 @@ function script16143(int0: number): string {
                     break;
                 }
                 case 225: {
+                    break;
                 }
             };
             break;

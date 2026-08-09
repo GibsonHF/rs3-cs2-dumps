@@ -1,12 +1,12 @@
 //[clientscript,clan_noticeboard_event_show]
-function script4363(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, long0: BigInt, string0: string): void {
+function script4363(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, string0: string, long0: bigint): void {
     IF_SETTEXT(string0, comp(1099, 66));
     IF_SETGRAPHIC(5933 as graphic, int1);
     if ((varbitplayer_43999 == 0)) {
-        if (branch_not_long[14](long0, -1n)) {
+        if (LONG_BRANCH_NOT(long0, -1n)) {
             IF_SETONOP(callback(script4330, long0), comp(1099, 52));
-            IF_SETOP(1, "Select", 72024116);
-            IF_SETHIDE(0, 72024112);
+            IF_SETOP(1, "Select", comp(1099, 52));
+            IF_SETHIDE(false, comp(1099, 48));
         } else {
             IF_CLEAROPS(comp(1099, 52));
             IF_SETHIDE(true, comp(1099, 48));

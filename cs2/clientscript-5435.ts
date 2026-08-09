@@ -3,7 +3,7 @@ function script5435(int0: number, int1: number): void {
     var int2 = -1 as struct;
     var string0 = "";
     var string1 = "";
-    var int3 = -1 as graphic;
+    var int3 = -1;
     var string2 = "";
     var int4 = 0;
     if ((varbitplayer_3658 == 0)) {

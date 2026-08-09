@@ -40,8 +40,12 @@ function script12035(int0: number, string0: string): void {
             CC_SETHIDE(int5);
         };
         if ((CC_FIND(int2, int3) == 1)) {
-            if (((int5 == false) && (cc_getparam(5438) == 1))) {
-                CC_SETHIDE(false);
+            if ((int5 == false)) {
+                if ((cc_getparam(5438) == 1)) {
+                    CC_SETHIDE(false);
+                } else {
+                    CC_SETHIDE(true);
+                };
             } else {
                 CC_SETHIDE(true);
             };

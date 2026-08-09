@@ -16,10 +16,9 @@ function script3062(int0: number): number {
         IF_SETONTIMER(callback(script3061, int0), int0);
         return 0;
     };
-    stack(WORLDLIST_SPECIFIC(MAP_WORLD()));
-    [int1, string0, int2, string1, int3, int4, string2] = stack();
+    [int1, string0, int2, string1, int3, int4, string2] = WORLDLIST_SPECIFIC(MAP_WORLD());
     if ((int3 < 0)) {
-        script3093(-5, 4036, "Connection Failed", "Could not connect you to the chosen world. Please choose another.", 2608, "", "Back");
+        script3093(-5, 4036, "Connection Failed", "Could not connect you to the chosen world. Please choose another.", callback(script2608), "Back");
         script3064(1);
         IF_SETONTIMER(callback(), int0);
         return 0;
@@ -45,13 +44,13 @@ function script3062(int0: number): number {
     script3064(0);
     LOBBY_ENTERGAME(varclient_4192, varclient_4193);
     DETAILGET_SOUNDVOL();
-    var int5 = stack();
+    var int5 = [];
     DETAILGET_MUSICVOL();
-    var int6 = stack();
+    var int6 = [];
     DETAILGET_BGSOUNDVOL();
-    var int7 = stack();
+    var int7 = [];
     DETAILGET_SPEECHVOL();
-    var int8 = stack();
+    var int8 = [];
     var int9 = DETAILGET_LOGINVOL();
     IF_SETONTIMER(callback(script3063, int0, MAP_WORLD(), int5, int6, int7, int8, int9), int0);
     return 1;

@@ -8,7 +8,7 @@ function script18236(): void {
     IF_SETHIDE(int1, comp(1345, 28));
     IF_SETTEXT(string0, comp(1345, 26));
     IF_SETGRAPHIC(int0, comp(1345, 24));
-    IF_SETONMOUSEREPEAT(callback(script8799, string1, -2147483645, -2147483643), 88145943);
-    IF_SETONMOUSELEAVE(callback(script8805), 88145943);
+    IF_SETONMOUSEREPEAT(callback(script8799, string1, -2147483645, -2147483643), comp(1345, 23));
+    IF_SETONMOUSELEAVE(callback(script8805), comp(1345, 23));
     return;
 }

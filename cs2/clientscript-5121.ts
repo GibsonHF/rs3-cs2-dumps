@@ -26,7 +26,7 @@ function script5121(): void {
             if (((CC_FIND(comp(1119, 9), (int0 * 3)) == 1) && (CC_GETHIDE() == false))) {
                 CC_SETONMOUSEOVER(callback(script5122, -2147483645, -2147483643, int2, 16777215));
                 CC_SETONMOUSELEAVE(callback(script5122, -2147483645, -2147483643, int3, 14671823));
-                if ((CC_FIND[1](73334793, ((int0 * 3) + 1)) == 1)) {
+                if ((CC_FIND[1](comp(1119, 9), ((int0 * 3) + 1)) == 1)) {
                     CC_SETGRAPHIC[1](int3);
                 };
                 if ((CC_FIND[1](comp(1119, 9), ((int0 * 3) + 2)) == 1)) {
@@ -39,7 +39,7 @@ function script5121(): void {
             if (((CC_FIND(comp(1119, 9), (int0 * 3)) == 1) && (CC_GETHIDE() == false))) {
                 CC_SETONMOUSEOVER(callback(script5122, -2147483645, -2147483643, int2, 16777215));
                 CC_SETONMOUSELEAVE(callback(script5122, -2147483645, -2147483643, int3, 13615023));
-                if ((CC_FIND[1](73334793, ((int0 * 3) + 1)) == 1)) {
+                if ((CC_FIND[1](comp(1119, 9), ((int0 * 3) + 1)) == 1)) {
                     CC_SETGRAPHIC[1](int3);
                 };
                 if ((CC_FIND[1](comp(1119, 9), ((int0 * 3) + 2)) == 1)) {

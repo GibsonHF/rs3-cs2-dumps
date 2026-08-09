@@ -1,8 +1,8 @@
 //
-function script7318(int0: number, int1: number): [string, string, string, string, string, string, string, number] {
+function script7318(int0: number, int1: number): [number, string, string, string, string, string, string, string] {
     var int2 = INV_GETOBJ(int0, int1);
     if ((int2 == -1 as obj)) {
-        return ["No crewman.", "", "", "", "", "", "", -1 as graphic];
+        return ["No crewman.", "", "", "", "", "", "", -1];
     };
     var int3 = 0;
     var int4 = 0;
@@ -164,7 +164,7 @@ function script7318(int0: number, int1: number): [string, string, string, string
     };
     var int17 = enum_getvalue(0, 73, 2175 as cs2enum, int12);
     if ((int17 == -1 as struct)) {
-        int17 = 17474 as struct;
+        int17 = 17474;
     };
     var string6 = "";
     var int18 = -1 as struct;

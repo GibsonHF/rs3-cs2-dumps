@@ -4,13 +4,13 @@ function script3736(int0: number, int1: number, int2: number, int3: number, int4
     var int8 = IF_GETHEIGHT(comp(573, 62));
     var int9 = 0;
     var int10 = 0;
-    var int11 = -1 as struct;
+    var int11 = -1;
     var int12 = 0;
     var int13 = 0;
     var string0 = "";
-    var int14 = struct_getparam(21332 as struct, 1379);
-    var int15 = struct_getparam(21332 as struct, 1380);
-    var int16 = struct_getparam(21332 as struct, 1381);
+    var int14 = struct_getparam(21332, 1379);
+    var int15 = struct_getparam(21332, 1380);
+    var int16 = struct_getparam(21332, 1381);
     var int17 = 0;
     var int18 = -1;
     IF_SETHIDE(true, comp(573, 21));
@@ -24,7 +24,7 @@ function script3736(int0: number, int1: number, int2: number, int3: number, int4
         int12 = ((15 * int12) + 10);
         CC_CREATE(int1, 4, int9);
         CC_SETSIZE(0, 20, 1, 0);
-        CC_SETTEXT(enum_getvalue(0, 36, 8662 as cs2enum, int9));
+        CC_SETTEXT(enum_getvalue(0, 36, 8662, int9));
         CC_SETTEXTFONT(28 as fontmetrics);
         CC_SETTEXTALIGN(0, 0, 0);
         CC_SETCOLOUR(15777401);
@@ -49,8 +49,8 @@ function script3736(int0: number, int1: number, int2: number, int3: number, int4
     var int20 = 0;
     int19 = ENUM_GETOUTPUTCOUNT(8659 as cs2enum);
     while ((int10 < int19)) {
-        int20 = enum_getvalue(0, 0, 8659 as cs2enum, int10);
-        int11 = enum_getvalue(0, 73, 8660 as cs2enum, int20);
+        int20 = enum_getvalue(0, 0, 8659, int10);
+        int11 = enum_getvalue(0, 73, 8660, int20);
         string0 = struct_getparam(int11, 4188);
         int12 = PARAHEIGHT(string0, IF_GETWIDTH(int2), 27 as fontmetrics);
         CC_CREATE(comp(573, 62), 4, int10);
@@ -94,10 +94,10 @@ function script3736(int0: number, int1: number, int2: number, int3: number, int4
                 CC_SETPOSITION[1](0, int13, 0, 0);
             };
             int13 = (int13 + CC_GETHEIGHT());
-            while ((enum_getvalue(0, 0, 8659 as cs2enum, int10) != -1)) {
-                int20 = enum_getvalue(0, 0, 8659 as cs2enum, int10);
-                int11 = enum_getvalue(0, 73, 8660 as cs2enum, int20);
-                if (((int11 != -1 as struct) && (struct_getparam(int11, 4187) == int9))) {
+            while ((enum_getvalue(0, 0, 8659, int10) != -1)) {
+                int20 = enum_getvalue(0, 0, 8659, int10);
+                int11 = enum_getvalue(0, 73, 8660, int20);
+                if (((int11 != -1) && (struct_getparam(int11, 4187) == int9))) {
                     if ((CC_FIND(int5, int10) == 1)) {
                         CC_SETPOSITION(0, int13, 0, 0);
                         if ((MODULO(int21, 2) == 0)) {

@@ -12,12 +12,32 @@ function script11131(): void {
     var int2 = (CC_GETY() + cc_getparam(4892));
     var int3 = 0;
     var int4 = CC_GETLAYER();
-    if ((((cc_getparam(4891) < 0) && (int1 < 0)) || ((cc_getparam(4891) > 0) && (int1 > (IF_GETWIDTH(int4) - CC_GETWIDTH()))))) {
+    if ((cc_getparam(4891) < 0)) {
+        if ((int1 < 0)) {
+            cc_setparam(4891, (0 - cc_getparam(4891)));
+            int1 = (CC_GETX() + cc_getparam(4891));
+            int3 = 1;
+        } else if (((cc_getparam(4891) > 0) && (int1 > (IF_GETWIDTH(int4) - CC_GETWIDTH())))) {
+            cc_setparam(4891, (0 - cc_getparam(4891)));
+            int1 = (CC_GETX() + cc_getparam(4891));
+            int3 = 1;
+        };
+    } else if (((cc_getparam(4891) > 0) && (int1 > (IF_GETWIDTH(int4) - CC_GETWIDTH())))) {
         cc_setparam(4891, (0 - cc_getparam(4891)));
         int1 = (CC_GETX() + cc_getparam(4891));
         int3 = 1;
     };
-    if ((((cc_getparam(4892) < 0) && (int2 < 0)) || ((cc_getparam(4892) > 0) && (int2 > (IF_GETHEIGHT(int4) - CC_GETHEIGHT()))))) {
+    if ((cc_getparam(4892) < 0)) {
+        if ((int2 < 0)) {
+            cc_setparam(4892, (0 - cc_getparam(4892)));
+            int2 = (CC_GETY() + cc_getparam(4892));
+            int3 = 1;
+        } else if (((cc_getparam(4892) > 0) && (int2 > (IF_GETHEIGHT(int4) - CC_GETHEIGHT())))) {
+            cc_setparam(4892, (0 - cc_getparam(4892)));
+            int2 = (CC_GETY() + cc_getparam(4892));
+            int3 = 1;
+        };
+    } else if (((cc_getparam(4892) > 0) && (int2 > (IF_GETHEIGHT(int4) - CC_GETHEIGHT())))) {
         cc_setparam(4892, (0 - cc_getparam(4892)));
         int2 = (CC_GETY() + cc_getparam(4892));
         int3 = 1;

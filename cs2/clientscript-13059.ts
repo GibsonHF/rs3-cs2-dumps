@@ -28,7 +28,7 @@ function script13059(int0: number, int1: number, int2: number): void {
     CC_SETPOSITION(0, 0, 1, 1);
     CC_SETTRANS(255);
     CC_SETPAUSETEXT(`Confirm: ${enum_getvalue(0, 36, 108 as cs2enum, varclient_1796)} & ${enum_getvalue(0, 36, 108 as cs2enum, varclient_5924)}`);
-    var string0 = script13050(enum_getvalue(0, 17, 681 as cs2enum, varclient_1796), enum_getvalue(0, 17, 681 as cs2enum, varclient_5924));
+    var string0 = script13050(enum_getvalue(0, 17, 681, varclient_1796), enum_getvalue(0, 17, 681, varclient_5924));
     script6046(string0, int2, 50);
     return;
 }

@@ -36,9 +36,9 @@ function script12199(int0: number, int1: number, int2: number, int3: number): vo
         int11 = script12074(int9);
         string0 = `${string0}<br>Next level: ${TOSTRING_LOCALISED(int10, 1)}<br>Remainder: ${TOSTRING_LOCALISED((int10 - int8), 1)}`;
         IF_SETONMOUSEREPEAT(callback(), comp(1711, 33));
-        IF_SETHIDE(0, 112132143);
-        IF_SETHIDE(1, 112132149);
-        IF_SETSIZE(SCALE((IF_GETWIDTH(112132143) - 2), (int10 - int11), (int8 - int11)), 0, 0, 1, 112132147);
+        IF_SETHIDE(false, comp(1711, 47));
+        IF_SETHIDE(true, comp(1711, 53));
+        IF_SETSIZE(SCALE((IF_GETWIDTH(comp(1711, 47)) - 2), (int10 - int11), (int8 - int11)), 0, 0, 1, comp(1711, 51));
     } else {
         IF_SETTEXT("-", comp(1711, 53));
         IF_SETHIDE(true, comp(1711, 47));
@@ -49,7 +49,7 @@ function script12199(int0: number, int1: number, int2: number, int3: number): vo
             string0 = `${string0}<br>This item has reached the maximum level.`;
         };
     };
-    IF_SETONMOUSEREPEAT(callback(script3876, string0, -2147483645, -1), 112132129);
+    IF_SETONMOUSEREPEAT(callback(script3876, string0, -2147483645, -1), comp(1711, 33));
     var int12 = varplayer_5991;
     if ((int3 == 0)) {
         int12 = int2;
@@ -63,7 +63,7 @@ function script12199(int0: number, int1: number, int2: number, int3: number): vo
         IF_SETTEXT("Drain rate:<br>Equipped items", comp(1711, 19));
         string0 = "This section refers to all currently equipped augmented equipment.";
     };
-    IF_SETONMOUSEREPEAT(callback(script3876, string0, -2147483645, -1), 112132115);
+    IF_SETONMOUSEREPEAT(callback(script3876, string0, -2147483645, -1), comp(1711, 19));
     if ((item_getparam(int4, 5772) == 1)) {
         IF_SETTEXT("Charges used:", comp(1711, 36));
         IF_SETTEXT(TOSTRING_LOCALISED(script670(int0, int1, int4), 1), comp(1711, 37));
@@ -71,8 +71,8 @@ function script12199(int0: number, int1: number, int2: number, int3: number): vo
         IF_SETTEXT("n/a", comp(1711, 28));
         IF_SETHIDE(false, comp(1711, 38));
         string0 = `Once this item runs out of charge it will become broken. It is not possible to repair, only disassemble to gain item experience and materials.<br><br>Once all charges are used up, the item will be able to level up to ${TOSTRING_LOCALISED(MIN(10, script12072()), 1)}.`;
-        IF_SETONMOUSEREPEAT(callback(script3876, string0, -2147483645, -1), 112132130);
-        IF_SETONMOUSEREPEAT(callback(script3876, string0, -2147483645, -1), 112132134);
+        IF_SETONMOUSEREPEAT(callback(script3876, string0, -2147483645, -1), comp(1711, 34));
+        IF_SETONMOUSEREPEAT(callback(script3876, string0, -2147483645, -1), comp(1711, 38));
     } else {
         IF_SETTEXT("Charge drain:", comp(1711, 36));
         IF_SETTEXT(`${script12069(SCALE(int2, 6, 10), 2)}/s`, comp(1711, 37));
@@ -86,18 +86,18 @@ function script12199(int0: number, int1: number, int2: number, int3: number): vo
     if ((int12 > 0)) {
         IF_SETTEXT(script17049(int12, 7), comp(1711, 30));
         string0 = `Approximate time remaining: ${script17049(int12, 1)}`;
-        IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -1), 112132119);
+        IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -1), comp(1711, 23));
     } else {
         IF_SETTEXT("n/a", comp(1711, 30));
         IF_SETONMOUSEREPEAT(callback(), comp(1711, 23));
     };
     string0 = `Maximum charge stored: ${script12069(script12067(), 0)}.`;
-    IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -1), 112132118);
+    IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -1), comp(1711, 22));
     var int16 = 1;
     if ((int3 == 1)) {
         int16 = 0;
     };
-    IF_SETONOP(callback(script12199, int0, int1, int2, int16), 112132155);
+    IF_SETONOP(callback(script12199, int0, int1, int2, int16), comp(1711, 59));
     var int17 = INV_GETVAR(int0, int1, 30215);
     var int18 = INV_GETVAR(int0, int1, 30216);
     var int19 = INV_GETVAR(int0, int1, 30217);
@@ -106,18 +106,13 @@ function script12199(int0: number, int1: number, int2: number, int3: number): vo
     var int22 = INV_GETVAR(int0, int1, 30220);
     var int23 = INV_GETVAR(int0, int1, 30221);
     var int24 = INV_GETVAR(int0, int1, 30222);
-    IF_SETTEXT(script14926(INV_GETVAR(int0, int1, 47354)), 112132175);
-    IF_SETTEXT(script14926(INV_GETVAR(int0, int1, 47355)), 112132192);
+    IF_SETTEXT(script14926(INV_GETVAR(int0, int1, 47354)), comp(1711, 79));
+    IF_SETTEXT(script14926(INV_GETVAR(int0, int1, 47355)), comp(1711, 96));
     stack(32768);
     stack(int17);
     DB_FIND(0);
-    dbrow_findnext();
-    var int25 = stack();
-    stack(int25);
-    stack(32864);
-    stack(0);
-    dbrow_getfield();
-    var int26 = stack();
+    var int25 = dbrow_findnext();
+    var int26 = dbrow_getfield(int25, 32864, 0);
     script12201(int17, int18, 112132178, 112132179, 112132181, 0);
     if ((int26 > 1)) {
         script12201(int17, int18, 112132184, 112132185, 112132187, 1);
@@ -127,13 +122,8 @@ function script12199(int0: number, int1: number, int2: number, int3: number): vo
     stack(32768);
     stack(int21);
     DB_FIND(0);
-    dbrow_findnext();
-    int25 = stack();
-    stack(int25);
-    stack(32864);
-    stack(0);
-    dbrow_getfield();
-    int26 = stack();
+    int25 = dbrow_findnext();
+    int26 = dbrow_getfield(int25, 32864, 0);
     script12201(int21, int22, 112132195, 112132196, 112132198, 0);
     if ((int26 > 1)) {
         script12201(int21, int22, 112132201, 112132202, 112132204, 1);
@@ -252,35 +242,35 @@ function script12199(int0: number, int1: number, int2: number, int3: number): vo
             IF_SETHIDE(false, comp(1711, 84));
             IF_SETPOSITION(55, 0, 0, 0, comp(1711, 85));
             string3 = `${script12078(script12076(int17), int18)} has a 10% increased chance to activate!`;
-            IF_SETONMOUSEREPEAT(callback(script8799, string3, -2147483645, -1), 112132180);
+            IF_SETONMOUSEREPEAT(callback(script8799, string3, -2147483645, -1), comp(1711, 84));
         };
         if ((script20178(script12076(int19)) == 1)) {
             IF_SETHIDE(false, comp(1711, 90));
             IF_SETPOSITION(55, 0, 0, 0, comp(1711, 91));
             string3 = `${script12078(script12076(int19), int20)} has a 10% increased chance to activate!`;
-            IF_SETONMOUSEREPEAT(callback(script8799, string3, -2147483645, -1), 112132186);
+            IF_SETONMOUSEREPEAT(callback(script8799, string3, -2147483645, -1), comp(1711, 90));
         };
         if ((script20178(script12076(int21)) == 1)) {
             IF_SETHIDE(false, comp(1711, 101));
             IF_SETPOSITION(55, 0, 0, 0, comp(1711, 102));
             string3 = `${script12078(script12076(int21), int22)} has a 10% increased chance to activate!`;
-            IF_SETONMOUSEREPEAT(callback(script8799, string3, -2147483645, -1), 112132197);
+            IF_SETONMOUSEREPEAT(callback(script8799, string3, -2147483645, -1), comp(1711, 101));
         };
         if ((script20178(script12076(int23)) == 1)) {
             IF_SETHIDE(false, comp(1711, 107));
             IF_SETPOSITION(55, 0, 0, 0, comp(1711, 108));
             string3 = `${script12078(script12076(int23), int24)} has a 10% increased chance to activate!`;
-            IF_SETONMOUSEREPEAT(callback(script8799, string3, -2147483645, -1), 112132203);
+            IF_SETONMOUSEREPEAT(callback(script8799, string3, -2147483645, -1), comp(1711, 107));
         };
     } else {
         string0 = `${string0}${string2}`;
     };
     string0 = `${string0}Level 20: Helpful perks will activate 10% more frequently.</col><br>`;
     IF_SETONOP(callback(script1259), comp(1711, 13));
-    IF_SETTEXT(string0, 112132167);
+    IF_SETTEXT(string0, comp(1711, 71));
     var int27 = 26;
     if ((script6431() == 1)) {
-        int27 = 28 as fontmetrics;
+        int27 = 28;
     };
     IF_SETTEXTFONT(int27, comp(1711, 71));
     IF_SETSCROLLSIZE(IF_GETWIDTH(comp(1711, 70)), (10 + script7593(string0, IF_GETWIDTH(comp(1711, 70)), int27, 0)), comp(1711, 70));

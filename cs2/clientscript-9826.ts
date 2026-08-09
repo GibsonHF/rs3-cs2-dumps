@@ -5,7 +5,6 @@ function script9826(): number {
     if ((int1 != -1 as struct)) {
         switch (int1) {
             default: {
-                break;
             }
         };
         if ((struct_getparam(int1, 8544) == true)) {

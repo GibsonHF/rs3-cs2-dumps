@@ -198,7 +198,13 @@ function script8232(int0: number): number {
         case 757:
         case 767:
         case 11164: {
-            if ((((varplayer_2739 > 0) && (varplayer_2739 < 4)) || ((varplayer_2738 > 0) && (varplayer_2738 < 7)))) {
+            if ((varplayer_2739 > 0)) {
+                if ((varplayer_2739 < 4)) {
+                    return -1;
+                } else if (((varplayer_2738 > 0) && (varplayer_2738 < 7))) {
+                    return -1;
+                };
+            } else if (((varplayer_2738 > 0) && (varplayer_2738 < 7))) {
                 return -1;
             };
             break;

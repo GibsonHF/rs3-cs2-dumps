@@ -5,7 +5,8 @@ function script19851(int0: number): [number, number] {
     var int3 = int1;
     var int4 = -1 as achievement;
     var int5 = -1;
-    while ((++int5 < int1)) {
+    int5 = (int5 + 1);
+    while ((int5 < int1)) {
         int4 = unk11032(int0, int5);
         switch (int4) {
             case 3625:

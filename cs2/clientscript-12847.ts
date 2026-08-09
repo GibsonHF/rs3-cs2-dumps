@@ -11,8 +11,8 @@ function script12847(int0: number, string0: string): void {
     CC_CREATE[1](int0, 5, 1);
     CC_SETSIZE[1](10, 32, 0, 0);
     CC_SETPOSITION[1](0, 0, 1, 1);
-    CC_SETGRAPHIC[1](937);
-    CC_SETHIDE[1](1);
+    CC_SETGRAPHIC[1](937 as graphic);
+    CC_SETHIDE[1](true);
     CC_SETONTIMER(callback(script12848, int0, CC_GETID[1]()));
     return;
 }

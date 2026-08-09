@@ -14,13 +14,28 @@ function script12733(): void {
         int0 = MIN((int0 + 1), 8);
     };
     int5 = comp(1786, 146);
-    if ((((varbitplayer_33713 + 1) < int0) && ((varbitplayer_33713 + 1) < 8))) {
-        int6 = 15455 as graphic;
-        IF_SETOP(1, "Travel", int5);
-        IF_SETGRAPHIC(int6, int5);
-        IF_SETONMOUSEOVER(callback(script12734, int5, 1), int5);
-        IF_SETONMOUSELEAVE(callback(script12734, int5, 0), int5);
-        IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -1), int5);
+    if (((varbitplayer_33713 + 1) < int0)) {
+        if (((varbitplayer_33713 + 1) < 8)) {
+            int6 = 15455 as graphic;
+            IF_SETOP(1, "Travel", int5);
+            IF_SETGRAPHIC(int6, int5);
+            IF_SETONMOUSEOVER(callback(script12734, int5, 1), int5);
+            IF_SETONMOUSELEAVE(callback(script12734, int5, 0), int5);
+            IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -1), int5);
+        } else {
+            string0 = "Unlock all treasures within the area to move on.";
+            if (((varbitplayer_33713 + 1) == 8)) {
+                int6 = -1 as graphic;
+                IF_SETONMOUSEREPEAT(callback(), int5);
+            } else {
+                int6 = 15457 as graphic;
+                IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -1), int5);
+            };
+            IF_SETOP(callback(script1), int5);
+            IF_SETGRAPHIC(int6, int5);
+            IF_SETONMOUSEOVER(callback(), int5);
+            IF_SETONMOUSELEAVE(callback(), int5);
+        };
     } else {
         string0 = "Unlock all treasures within the area to move on.";
         if (((varbitplayer_33713 + 1) == 8)) {
@@ -30,7 +45,7 @@ function script12733(): void {
             int6 = 15457 as graphic;
             IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -1), int5);
         };
-        IF_SETOP(1, "", int5);
+        IF_SETOP(callback(script1), int5);
         IF_SETGRAPHIC(int6, int5);
         IF_SETONMOUSEOVER(callback(), int5);
         IF_SETONMOUSELEAVE(callback(), int5);
@@ -46,14 +61,22 @@ function script12733(): void {
         IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -1), int5);
     } else {
         string0 = "";
-        IF_SETOP(1, "", int5);
+        IF_SETOP(callback(script1), int5);
         IF_SETGRAPHIC(-1 as graphic, int5);
         IF_SETONMOUSEOVER(callback(), int5);
         IF_SETONMOUSELEAVE(callback(), int5);
         IF_SETONMOUSEREPEAT(callback(), int5);
     };
-    if ((((varbitplayer_33716 > 0) && ((varbitplayer_33713 + 1) == int0)) && (varbitplayer_33712 != 45))) {
-        IF_SETHIDE(true, comp(1786, 121));
+    if ((varbitplayer_33716 > 0)) {
+        if (((varbitplayer_33713 + 1) == int0)) {
+            if ((varbitplayer_33712 != 45)) {
+                IF_SETHIDE(true, comp(1786, 121));
+            } else {
+                IF_SETHIDE(false, comp(1786, 121));
+            };
+        } else {
+            IF_SETHIDE(false, comp(1786, 121));
+        };
     } else {
         IF_SETHIDE(false, comp(1786, 121));
     };

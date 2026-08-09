@@ -9,8 +9,7 @@ function script7420(int0: number, int1: number, int2: number, int3: number, int4
     var int11 = 0;
     var int12 = 0;
     var string2 = "";
-    stack(unk11102());
-    [int8, int9, string0, int10, string1, int11, int12, string2] = stack();
+    [int8, int9, string0, int10, string1, int11, int12, string2] = unk11102();
     if ((int8 == -1)) {
         return 0;
     };
@@ -52,8 +51,8 @@ function script7420(int0: number, int1: number, int2: number, int3: number, int4
         IF_SETHIDE(true, comp(1587, 3));
         IF_SETONBUTTONCLICK(callback(), 104005750);
         IF_SETONBUTTONCLICK(callback(), 104005752);
-        IF_SETPOSITION(0, 0, 0, 0, 104005644);
-        IF_SETSIZE(0, 0, 1, 1, 104005644);
+        IF_SETPOSITION(0, 0, 0, 0, comp(1587, 12));
+        IF_SETSIZE(0, 0, 1, 1, comp(1587, 12));
     } else {
         int23 = (int23 + 40);
         IF_SETPOSITION(0, 40, 0, 0, comp(1587, 12));
@@ -165,9 +164,9 @@ function script7420(int0: number, int1: number, int2: number, int3: number, int4
                 script11014(int29, "Members", int14, (655 + int31), int18, 65, int26);
             };
             if ((TESTBIT(int9, 3) == 1)) {
-                script7742(int29, 18694 as graphic, (736 + int31), (int18 + ((int25 - 16) / 2)), 16, 16);
+                script7742(int29, 18694, (736 + int31), (int18 + ((int25 - 16) / 2)), 16, 16);
             } else {
-                script7742(int29, 23768 as graphic, (736 + int31), (int18 + ((int25 - 16) / 2)), 16, 16);
+                script7742(int29, 23768, (736 + int31), (int18 + ((int25 - 16) / 2)), 16, 16);
             };
             if ((CC_FIND(int30, int8) == 1)) {
                 CC_SETOP(1, "Select");
@@ -183,8 +182,7 @@ function script7420(int0: number, int1: number, int2: number, int3: number, int4
             };
             int15 = (int15 + 1);
         };
-        stack(unk11101());
-        [int8, int9, string0, int10, string1, int11, int12, string2] = stack();
+        [int8, int9, string0, int10, string1, int11, int12, string2] = unk11101();
     };
     var int32 = IF_GETHEIGHT(int0);
     if ((int28 > int32)) {

@@ -7,11 +7,11 @@ function script19764(int0: number): [number, number, number, number] {
     var int2 = 0;
     var int3 = -1 as dbrow;
     var int4 = 0;
-    var int5 = -1 as dbrow;
-    var int6 = -1 as obj;
+    var int5 = -1;
+    var int6 = -1;
     var int7 = 1;
-    var int8 = -1 as struct;
-    var int9 = -1 as graphic;
+    var int8 = -1;
+    var int9 = -1;
     if ((int0 == 1)) {
         int1 = varbitplayer_57153;
         int2 = varbitplayer_57155;
@@ -27,7 +27,7 @@ function script19764(int0: number): [number, number, number, number] {
     } else {
         int5 = dbrow_getfield(int3, 1269760, int2);
     };
-    if ((int5 != -1 as dbrow)) {
+    if ((int5 != -1)) {
         [int6, int7] = dbrow_getfield(int5, 1273872, 0);
         [int8, int9] = dbrow_getfield(int5, 1273888, 0);
     } else {

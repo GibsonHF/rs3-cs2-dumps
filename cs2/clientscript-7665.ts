@@ -12,7 +12,7 @@ function script7665(int0: number): void {
         script31(92078093, 92078081, 7900, 7897, 7898, 7899, 7902, 7901);
         script958(92078092, 92078095, varclient_2758, int0);
     } else if ((int0 == 2)) {
-        int1 = ((PARAHEIGHT(varclient_2759, IF_GETWIDTH(comp(1405, 26)), 26 as fontmetrics) * 12) + 12);
+        int1 = ((PARAHEIGHT(varclient_2759, IF_GETWIDTH(comp(1405, 26)), 26) * 12) + 12);
         if ((int1 < IF_GETHEIGHT(comp(1405, 25)))) {
             IF_SETHIDE(true, comp(1405, 28));
         } else {

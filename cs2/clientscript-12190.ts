@@ -26,15 +26,15 @@ function script12190(): void {
             }
         };
         IF_SETHIDE(false, comp(1712, 25));
-        IF_SETONMOUSEREPEAT(callback(script3876, string0, -2147483645, -1), 112197657);
+        IF_SETONMOUSEREPEAT(callback(script3876, string0, -2147483645, -1), comp(1712, 25));
     } else if ((int0 == 0)) {
         IF_SETHIDE(false, comp(1712, 25));
         string0 = "You must have at least one material in the gizmo.";
-        IF_SETONMOUSEREPEAT(callback(script3876, string0, -2147483645, -1), 112197657);
+        IF_SETONMOUSEREPEAT(callback(script3876, string0, -2147483645, -1), comp(1712, 25));
     } else if ((script12191(varclient_6775) == 0)) {
         IF_SETHIDE(false, comp(1712, 25));
         string0 = "You do not have enough materials in stock to make this gizmo.";
-        IF_SETONMOUSEREPEAT(callback(script3876, string0, -2147483645, -1), 112197657);
+        IF_SETONMOUSEREPEAT(callback(script3876, string0, -2147483645, -1), comp(1712, 25));
     } else {
         IF_SETHIDE(true, comp(1712, 25));
     };

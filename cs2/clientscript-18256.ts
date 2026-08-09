@@ -36,7 +36,13 @@ function script18256(int0: number, int1: number, int2: number, int3: number): vo
     script16248(string0, int3, -1);
     script16247(int2, -1);
     var int7 = script6431();
-    if (((((int7 == 1) && (int6 == false)) || (int7 == 0)) && (STRING_LENGTH(string0) > 0))) {
+    if ((int7 == 1)) {
+        if (((int6 == false) || (int7 == 0))) {
+            if ((STRING_LENGTH(string0) > 0)) {
+                script3536(string0, int2, -1);
+            };
+        };
+    } else if (((int7 == 0) && (STRING_LENGTH(string0) > 0))) {
         script3536(string0, int2, -1);
     };
     return;

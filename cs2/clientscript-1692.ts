@@ -2,7 +2,7 @@
 function script1692(int0: number, int1: number, int2: number, int3: number): [number, number] {
     var int4 = enum_getvalue(0, 73, 845 as cs2enum, int2);
     if ((int2 == -1)) {
-        int4 = 34782 as struct;
+        int4 = 34782;
     };
     var string0 = struct_getparam(int4, 925);
     var int5 = struct_getparam(int4, 813);
@@ -37,7 +37,7 @@ function script1692(int0: number, int1: number, int2: number, int3: number): [nu
     CC_SETPOSITION(4, (int1 + 6), 0, 0);
     CC_SETOBJECT_NONUM(struct_getparam(int4, 813), 1);
     var string2 = "You already have this book in your pack.";
-    if ((INV_TOTAL(93, int5) == 0)) {
+    if ((INV_TOTAL(93 as inv, int5) == 0)) {
         CC_SETTRANS(0);
         CC_SETOUTLINE(2);
         CC_SETONMOUSEREPEAT(callback());
@@ -59,7 +59,7 @@ function script1692(int0: number, int1: number, int2: number, int3: number): [nu
     CC_SETTEXTALIGN[1](0, 1, 0);
     CC_SETTEXTSHADOW[1](false);
     var int8 = struct_getparam(int4, 923);
-    if ((int8 != -1 as quest)) {
+    if ((int8 != -1)) {
         CC_SETSIZE((36 + 4), (32 - CC_GETHEIGHT[1]()), 1, 0);
         CC_SETTEXT[1](script2103(int8));
     } else {

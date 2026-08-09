@@ -10,7 +10,8 @@ function script19959(): void {
     var int7 = -1 as struct;
     var int8 = -1 as graphic;
     var int9 = MAP_LANG();
-    while ((++int2 < int1)) {
+    int2 = (int2 + 1);
+    while ((int2 < int1)) {
         int7 = enum_getvalue(0, 73, int0, int2);
         if ((IF_FIND(comp(1337, 4)) == 1)) {
             if ((MODULO((int2 + 1), 2) == 0)) {
@@ -58,19 +59,19 @@ function script19959(): void {
     };
     switch (int9) {
         case 0: {
-            IF_SETGRAPHIC(struct_getparam(51627 as struct, 4640), comp(1339, 3));
+            IF_SETGRAPHIC(struct_getparam(51627, 4640), comp(1339, 3));
             break;
         }
         case 1: {
-            IF_SETGRAPHIC(struct_getparam(51627 as struct, 4639), comp(1339, 3));
+            IF_SETGRAPHIC(struct_getparam(51627, 4639), comp(1339, 3));
             break;
         }
         case 2: {
-            IF_SETGRAPHIC(struct_getparam(51627 as struct, 4642), comp(1339, 3));
+            IF_SETGRAPHIC(struct_getparam(51627, 4642), comp(1339, 3));
             break;
         }
         case 3: {
-            IF_SETGRAPHIC(struct_getparam(51627 as struct, 4643), comp(1339, 3));
+            IF_SETGRAPHIC(struct_getparam(51627, 4643), comp(1339, 3));
             break;
         }
     };

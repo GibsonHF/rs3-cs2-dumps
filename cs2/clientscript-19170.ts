@@ -1,9 +1,9 @@
 //
 function script19170(int0: number): [number, number, number, number] {
-    var int1 = -1 as graphic;
-    var int2 = -1 as graphic;
-    var int3 = -1 as graphic;
-    var int4 = -1 as graphic;
+    var int1 = -1;
+    var int2 = -1;
+    var int3 = -1;
+    var int4 = -1;
     switch (DB_GETROWTABLE(int0)) {
         case 193: {
             int1 = dbrow_getfield(int0, 790704, 0);

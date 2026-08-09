@@ -28,12 +28,20 @@ function script5692(int0: number, int1: number, int2: number, int3: number): voi
             };
         };
     };
-    if (((int6 != -1 as stat) && (script11863(int6) < int7))) {
-        CC_SETSIZE[1](25, 25, 0, 0);
-        CC_SETGRAPHIC[1](8277 as graphic);
-        CC_SETPOSITION[1](6, (int1 + 5), 0, 0);
-        CC_SETONMOUSEOVER[1](callback(script5693, -2147483643, 1));
-        CC_SETONMOUSELEAVE[1](callback(script5694));
+    if ((int6 != -1 as stat)) {
+        if ((script11863(int6) < int7)) {
+            CC_SETSIZE[1](25, 25, 0, 0);
+            CC_SETGRAPHIC[1](8277 as graphic);
+            CC_SETPOSITION[1](6, (int1 + 5), 0, 0);
+            CC_SETONMOUSEOVER[1](callback(script5693, -2147483643, 1));
+            CC_SETONMOUSELEAVE[1](callback(script5694));
+        } else if ((int5 == -1 as obj)) {
+            CC_SETGRAPHIC[1](script12099(int2, int3));
+            CC_SETSIZE[1](32, 32, 0, 0);
+        } else {
+            CC_SETOBJECT[1](int5, -1);
+            script14739(int5);
+        };
     } else if ((int5 == -1 as obj)) {
         CC_SETGRAPHIC[1](script12099(int2, int3));
         CC_SETSIZE[1](32, 32, 0, 0);
@@ -63,14 +71,42 @@ function script5692(int0: number, int1: number, int2: number, int3: number): voi
     CC_CREATE[1](comp(1218, 247), 4, IF_GETNEXTSUBID(comp(1218, 247)));
     CC_SETPOSITION[1](105, int1, 0, 0);
     CC_SETTEXT[1](string0);
-    if (((int2 != -1) && ((strcmp("", struct_getparam(int2, 2216)) != 0) || ((struct_getparam(int2, 6569) != -1 as dbrow) && ((DB_GETROWTABLE(struct_getparam(int2, 6569)) == 5) || (DB_GETROWTABLE(struct_getparam(int2, 6569)) == 94)))))) {
-        CC_SETSIZE[1](455, 17, 0, 0);
-        if ((STRINGWIDTH(string0, 28 as fontmetrics) <= 455)) {
-            CC_SETTEXTFONT[1](28 as fontmetrics);
+    if ((int2 != -1)) {
+        if ((strcmp("", struct_getparam(int2, 2216)) != 0)) {
+            CC_SETSIZE[1](455, 17, 0, 0);
+            if ((STRINGWIDTH(string0, 28 as fontmetrics) <= 455)) {
+                CC_SETTEXTFONT[1](28 as fontmetrics);
+            } else {
+                CC_SETTEXTFONT[1](26 as fontmetrics);
+            };
+            CC_SETMAXLINES[1](1);
+        } else if ((struct_getparam(int2, 6569) != -1)) {
+            if (((DB_GETROWTABLE(struct_getparam(int2, 6569)) == 5) || (DB_GETROWTABLE(struct_getparam(int2, 6569)) == 94))) {
+                CC_SETSIZE[1](455, 17, 0, 0);
+                if ((STRINGWIDTH(string0, 28 as fontmetrics) <= 455)) {
+                    CC_SETTEXTFONT[1](28 as fontmetrics);
+                } else {
+                    CC_SETTEXTFONT[1](26 as fontmetrics);
+                };
+                CC_SETMAXLINES[1](1);
+            } else {
+                CC_SETSIZE[1](455, 36, 0, 0);
+                if ((PARAHEIGHT(string0, 455, 28 as fontmetrics) <= 2)) {
+                    CC_SETTEXTFONT[1](28 as fontmetrics);
+                } else {
+                    CC_SETTEXTFONT[1](26 as fontmetrics);
+                };
+                CC_SETMAXLINES[1](2);
+            };
         } else {
-            CC_SETTEXTFONT[1](26 as fontmetrics);
+            CC_SETSIZE[1](455, 36, 0, 0);
+            if ((PARAHEIGHT(string0, 455, 28 as fontmetrics) <= 2)) {
+                CC_SETTEXTFONT[1](28 as fontmetrics);
+            } else {
+                CC_SETTEXTFONT[1](26 as fontmetrics);
+            };
+            CC_SETMAXLINES[1](2);
         };
-        CC_SETMAXLINES[1](1);
     } else {
         CC_SETSIZE[1](455, 36, 0, 0);
         if ((PARAHEIGHT(string0, 455, 28 as fontmetrics) <= 2)) {
@@ -83,11 +119,110 @@ function script5692(int0: number, int1: number, int2: number, int3: number): voi
     CC_SETTEXTSHADOW[1](true);
     CC_SETCOLOUR[1](15122040);
     CC_SETTEXTALIGN[1](1, 1, 12);
-    if ((((int2 != -1) && (strcmp("", struct_getparam(int2, 4279)) != 0)) && (script6431() == 1))) {
-        script14716(int1, struct_getparam(int2, 4279));
-    } else if (((int2 != -1) && (strcmp("", struct_getparam(int2, 2216)) != 0))) {
-        script14716(int1, struct_getparam(int2, 2216));
-    } else if ((int3 != -1 as dbrow)) {
+    if ((int2 != -1)) {
+        if ((strcmp("", struct_getparam(int2, 4279)) != 0)) {
+            if ((script6431() == 1)) {
+                script14716(int1, struct_getparam(int2, 4279));
+            } else if ((int2 != -1)) {
+                if ((strcmp("", struct_getparam(int2, 2216)) != 0)) {
+                    script14716(int1, struct_getparam(int2, 2216));
+                } else if ((int3 != -1)) {
+                    switch (DB_GETROWTABLE(int3)) {
+                        case 5: {
+                            if ((script12058(int3) == 1)) {
+                                script14716(int1, "Discovered");
+                            } else if ((DB_GETFIELDCOUNT(int3, 20688) > 0)) {
+                                script14716(int1, `Also requires: ${script12051(int3, 0)} Technology`);
+                            };
+                            break;
+                        }
+                        case 94: {
+                            if ((script14602(int3) == 1)) {
+                                script14716(int1, "Ancient power unlocked");
+                            };
+                            break;
+                        }
+                    };
+                };
+            } else if ((int3 != -1)) {
+                switch (DB_GETROWTABLE(int3)) {
+                    case 5: {
+                        if ((script12058(int3) == 1)) {
+                            script14716(int1, "Discovered");
+                        } else if ((DB_GETFIELDCOUNT(int3, 20688) > 0)) {
+                            script14716(int1, `Also requires: ${script12051(int3, 0)} Technology`);
+                        };
+                        break;
+                    }
+                    case 94: {
+                        if ((script14602(int3) == 1)) {
+                            script14716(int1, "Ancient power unlocked");
+                        };
+                        break;
+                    }
+                };
+            };
+        } else if ((int2 != -1)) {
+            if ((strcmp("", struct_getparam(int2, 2216)) != 0)) {
+                script14716(int1, struct_getparam(int2, 2216));
+            } else if ((int3 != -1)) {
+                switch (DB_GETROWTABLE(int3)) {
+                    case 5: {
+                        if ((script12058(int3) == 1)) {
+                            script14716(int1, "Discovered");
+                        } else if ((DB_GETFIELDCOUNT(int3, 20688) > 0)) {
+                            script14716(int1, `Also requires: ${script12051(int3, 0)} Technology`);
+                        };
+                        break;
+                    }
+                    case 94: {
+                        if ((script14602(int3) == 1)) {
+                            script14716(int1, "Ancient power unlocked");
+                        };
+                        break;
+                    }
+                };
+            };
+        } else if ((int3 != -1)) {
+            switch (DB_GETROWTABLE(int3)) {
+                case 5: {
+                    if ((script12058(int3) == 1)) {
+                        script14716(int1, "Discovered");
+                    } else if ((DB_GETFIELDCOUNT(int3, 20688) > 0)) {
+                        script14716(int1, `Also requires: ${script12051(int3, 0)} Technology`);
+                    };
+                    break;
+                }
+                case 94: {
+                    if ((script14602(int3) == 1)) {
+                        script14716(int1, "Ancient power unlocked");
+                    };
+                    break;
+                }
+            };
+        };
+    } else if ((int2 != -1)) {
+        if ((strcmp("", struct_getparam(int2, 2216)) != 0)) {
+            script14716(int1, struct_getparam(int2, 2216));
+        } else if ((int3 != -1)) {
+            switch (DB_GETROWTABLE(int3)) {
+                case 5: {
+                    if ((script12058(int3) == 1)) {
+                        script14716(int1, "Discovered");
+                    } else if ((DB_GETFIELDCOUNT(int3, 20688) > 0)) {
+                        script14716(int1, `Also requires: ${script12051(int3, 0)} Technology`);
+                    };
+                    break;
+                }
+                case 94: {
+                    if ((script14602(int3) == 1)) {
+                        script14716(int1, "Ancient power unlocked");
+                    };
+                    break;
+                }
+            };
+        };
+    } else if ((int3 != -1)) {
         switch (DB_GETROWTABLE(int3)) {
             case 5: {
                 if ((script12058(int3) == 1)) {
@@ -105,7 +240,7 @@ function script5692(int0: number, int1: number, int2: number, int3: number): voi
             }
         };
     };
-    if (((int4 == 0) && (int3 != -1 as dbrow))) {
+    if (((int4 == 0) && (int3 != -1))) {
         switch (DB_GETROWTABLE(int3)) {
             case 5:
             case 86:

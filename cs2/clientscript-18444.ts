@@ -1,7 +1,7 @@
 //
 function script18444(): void {
     var int0 = 0;
-    var int1 = -1 as dbrow;
+    var int1 = -1;
     var int2 = comp(-1, 65535);
     var int3 = comp(-1, 65535);
     var int4 = comp(-1, 65535);
@@ -19,7 +19,8 @@ function script18444(): void {
     var int14 = false;
     var int15 = 0;
     var int16 = DB_LISTALL(275);
-    while ((++int0 <= int16)) {
+    int0 = (int0 + 1);
+    while ((int0 <= int16)) {
         int1 = script18445(int0);
         int2 = dbrow_getfield(int1, 1126416, 0);
         int3 = dbrow_getfield(int1, 1126432, 0);

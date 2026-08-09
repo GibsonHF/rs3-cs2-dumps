@@ -12,28 +12,28 @@ function script6036(int0: number, int1: number, int2: number): string {
             if ((script9121(int0) == 1)) {
                 return `${enum_getvalue(17, 36, 680 as cs2enum, int0)} XP <col=00FF00>(+100% Extra Bonus XP)</col>`;
             };
-            return `${enum_getvalue(17, 36, 680 as cs2enum, int0)} XP <col=FFFF00>(+33% Extra Bonus XP)</col>`;
+            return `${enum_getvalue(17, 36, 680, int0)} XP <col=FFFF00>(+33% Extra Bonus XP)</col>`;
         };
         if ((item_getparam(int2, 3779) != -1 as obj)) {
-            return `${enum_getvalue(17, 36, 680 as cs2enum, int0)} XP`;
+            return `${enum_getvalue(17, 36, 680, int0)} XP`;
         };
-        return `${enum_getvalue(17, 36, 680 as cs2enum, int0)} `;
+        return `${enum_getvalue(17, 36, 680, int0)} `;
     };
     if ((item_getparam(int2, 4762) == 1)) {
         int3 = (int1 / 10);
         if ((int3 > 0)) {
-            return `${enum_getvalue(17, 36, 680 as cs2enum, int0)}: ${TOSTRING_LOCALISED(int3, 1)} XP`;
+            return `${enum_getvalue(17, 36, 680, int0)}: ${TOSTRING_LOCALISED(int3, 1)} XP`;
         };
-        return `${enum_getvalue(17, 36, 680 as cs2enum, int0)} XP`;
+        return `${enum_getvalue(17, 36, 680, int0)} XP`;
     };
     if ((item_getparam(int2, 4881) == 1)) {
-        return `${enum_getvalue(17, 36, 680 as cs2enum, int0)} XP`;
+        return `${enum_getvalue(17, 36, 680, int0)} XP`;
     };
     if ((item_getparam(int2, 5208) != -1)) {
-        return `${enum_getvalue(17, 36, 680 as cs2enum, int0)} XP`;
+        return `${enum_getvalue(17, 36, 680, int0)} XP`;
     };
     if ((OC_CATEGORY(int2) == 3636 as category)) {
-        return `${enum_getvalue(17, 36, 680 as cs2enum, int0)} XP`;
+        return `${enum_getvalue(17, 36, 680, int0)} XP`;
     };
     switch (int2) {
         case 20935:
@@ -94,22 +94,22 @@ function script6036(int0: number, int1: number, int2: number): string {
         case 47664:
         case 47665:
         case 47666: {
-            return `${enum_getvalue(17, 36, 680 as cs2enum, int0)} XP`;
+            return `${enum_getvalue(17, 36, 680, int0)} XP`;
         }
         case 28904:
         case 28905:
         case 28906:
         case 28907: {
-            return `${enum_getvalue(17, 36, 680 as cs2enum, int0)} XP`;
+            return `${enum_getvalue(17, 36, 680, int0)} XP`;
         }
         case 36073:
         case 36074:
         case 36075:
         case 36076: {
-            return `${enum_getvalue(17, 36, 680 as cs2enum, int0)} XP`;
+            return `${enum_getvalue(17, 36, 680, int0)} XP`;
         }
         case 28320: {
-            return `${enum_getvalue(17, 36, 680 as cs2enum, int0)} boost`;
+            return `${enum_getvalue(17, 36, 680, int0)} boost`;
         }
         case 2528:
         case 14058:
@@ -124,7 +124,7 @@ function script6036(int0: number, int1: number, int2: number): string {
         case 13463: {
             int4 = STAT_BASE(int0);
             if ((int4 <= 18)) {
-                int3 = (enum_getvalue(0, 0, 716 as cs2enum, (int4 + 1)) - enum_getvalue(0, 0, 716 as cs2enum, int4));
+                int3 = (enum_getvalue(0, 0, 716, (int4 + 1)) - enum_getvalue(0, 0, 716, int4));
             } else {
                 int3 = (STAT_BASE(int0) * 25);
             };
@@ -133,7 +133,7 @@ function script6036(int0: number, int1: number, int2: number): string {
         case 18782: {
             int4 = STAT_BASE(int0);
             if ((int4 < 30)) {
-                int3 = (enum_getvalue(0, 0, 716 as cs2enum, (int4 + 1)) - enum_getvalue(0, 0, 716 as cs2enum, int4));
+                int3 = (enum_getvalue(0, 0, 716, (int4 + 1)) - enum_getvalue(0, 0, 716, int4));
             } else {
                 int3 = (((int4 * int4) - (2 * int4)) + 100);
                 int3 = (int3 * ((int4 * 10000) / 20));
@@ -192,36 +192,36 @@ function script6036(int0: number, int1: number, int2: number): string {
             break;
         }
         case 31822: {
-            return `${enum_getvalue(17, 36, 680 as cs2enum, int0)} XP`;
+            return `${enum_getvalue(17, 36, 680, int0)} XP`;
         }
         case 27366:
         case 27367: {
-            return `${enum_getvalue(17, 36, 680 as cs2enum, int0)} XP`;
+            return `${enum_getvalue(17, 36, 680, int0)} XP`;
         }
         case 28567:
         case 28568:
         case 28569:
         case 28570:
         case 28571: {
-            return `${enum_getvalue(17, 36, 680 as cs2enum, int0)} XP`;
+            return `${enum_getvalue(17, 36, 680, int0)} XP`;
         }
         case 28908:
         case 28909:
         case 28910: {
-            return `${enum_getvalue(17, 36, 680 as cs2enum, int0)} XP`;
+            return `${enum_getvalue(17, 36, 680, int0)} XP`;
         }
         case 25200:
         case 25201:
         case 26492: {
-            return `${enum_getvalue(17, 36, 680 as cs2enum, int0)} XP`;
+            return `${enum_getvalue(17, 36, 680, int0)} XP`;
         }
         case 30226: {
-            int3 = ((int1 * enum_getvalue(17, 0, 8103 as cs2enum, int0)) / 10);
+            int3 = ((int1 * enum_getvalue(17, 0, 8103, int0)) / 10);
             break;
         }
         case 31294:
         case 33591: {
-            return `${enum_getvalue(17, 36, 680 as cs2enum, int0)} XP`;
+            return `${enum_getvalue(17, 36, 680, int0)} XP`;
         }
         case 29293: {
             int3 = ((script1128(int0, 0) * varclient_4173) + (script1128(int0, 1) * varclient_6903));
@@ -235,10 +235,10 @@ function script6036(int0: number, int1: number, int2: number): string {
             break;
         }
         case 31929: {
-            return `You will receive ${inttostring(script10267(int0), 10)} ${enum_getvalue(17, 36, 680 as cs2enum, int0)} XP.`;
+            return `You will receive ${inttostring(script10267(int0), 10)} ${enum_getvalue(17, 36, 680, int0)} XP.`;
         }
         case 31931: {
-            return enum_getvalue(17, 36, 680 as cs2enum, int0);
+            return enum_getvalue(17, 36, 680, int0);
         }
         case 32193: {
             switch (varbitplayer_25049) {
@@ -282,27 +282,27 @@ function script6036(int0: number, int1: number, int2: number): string {
         case 33524:
         case 33525:
         case 33526: {
-            return `${enum_getvalue(17, 36, 680 as cs2enum, int0)} XP`;
+            return `${enum_getvalue(17, 36, 680, int0)} XP`;
         }
         case 32537:
         case 32538:
         case 32539:
         case 32540: {
             if ((script9121(int0) == 1)) {
-                return `${enum_getvalue(17, 36, 680 as cs2enum, int0)} XP <col=00FF00>(+100% Extra XP)</col>`;
+                return `${enum_getvalue(17, 36, 680, int0)} XP <col=00FF00>(+100% Extra XP)</col>`;
             };
-            return `${enum_getvalue(17, 36, 680 as cs2enum, int0)} XP <col=FFFF00>(+33% Extra XP)</col>`;
+            return `${enum_getvalue(17, 36, 680, int0)} XP <col=FFFF00>(+33% Extra XP)</col>`;
         }
         case 34186: {
-            return `${enum_getvalue(17, 36, 680 as cs2enum, int0)}: 1,500 XP`;
+            return `${enum_getvalue(17, 36, 680, int0)}: 1,500 XP`;
         }
         case 36835: {
-            return `${enum_getvalue(17, 36, 680 as cs2enum, int0)}: 50,000 XP`;
+            return `${enum_getvalue(17, 36, 680, int0)}: 50,000 XP`;
         }
         case 34187:
         case 34188:
         case 34189: {
-            return `${enum_getvalue(17, 36, 680 as cs2enum, int0)} XP`;
+            return `${enum_getvalue(17, 36, 680, int0)} XP`;
         }
         case 35919: {
             if ((STAT_BASE(int0) < 50)) {
@@ -459,31 +459,31 @@ function script6036(int0: number, int1: number, int2: number): string {
         }
         case 39669: {
             if ((script9121(int0) == 1)) {
-                return `${enum_getvalue(17, 36, 680 as cs2enum, int0)}: 1,500 bonus XP`;
+                return `${enum_getvalue(17, 36, 680, int0)}: 1,500 bonus XP`;
             };
             break;
         }
         case 39668: {
             if ((script13031(int0) == 1)) {
-                return `${enum_getvalue(17, 36, 680 as cs2enum, int0)}: 1,500 bonus XP`;
+                return `${enum_getvalue(17, 36, 680, int0)}: 1,500 bonus XP`;
             };
             break;
         }
         case 21409: {
-            return `${TOSTRING_LOCALISED(script5345(int0), 1)} ${enum_getvalue(17, 36, 680 as cs2enum, int0)} XP`;
+            return `${TOSTRING_LOCALISED(script5345(int0), 1)} ${enum_getvalue(17, 36, 680, int0)} XP`;
         }
         case 55178: {
-            return `You will exchange ${script7653(script17430(int0), 1, 1, 0, 1)} Bonus XP from ${enum_getvalue(17, 36, 680 as cs2enum, int0)}.`;
+            return `You will exchange ${script7653(script17430(int0), 1, 1, 0, 1)} Bonus XP from ${enum_getvalue(17, 36, 680, int0)}.`;
         }
         case 55179: {
-            var [int1, int3] = script17431(int0, int1);
-            return `You will gain ${script7653(int3, 1, 1, 0, 1)} Bonus XP in ${enum_getvalue(17, 36, 680 as cs2enum, int0)}.`;
+            [int1, int3] = script17431(int0, int1);
+            return `You will gain ${script7653(int3, 1, 1, 0, 1)} Bonus XP in ${enum_getvalue(17, 36, 680, int0)}.`;
         }
         case 22340: {
             if ((int0 == 5 as stat)) {
-                int3 = SCALE(enum_getvalue(0, 0, 5230 as cs2enum, MIN(99, STAT_BASE(int0))), 1000, int1);
+                int3 = SCALE(enum_getvalue(0, 0, 5230, MIN(99, STAT_BASE(int0))), 1000, int1);
             } else {
-                int3 = SCALE(enum_getvalue(0, 0, 17317 as cs2enum, MIN(99, STAT_BASE(int0))), 1000, int1);
+                int3 = SCALE(enum_getvalue(0, 0, 17317, MIN(99, STAT_BASE(int0))), 1000, int1);
             };
             break;
         }
@@ -493,7 +493,7 @@ function script6036(int0: number, int1: number, int2: number): string {
         }
     };
     if ((int3 > 0)) {
-        return `${enum_getvalue(17, 36, 680 as cs2enum, int0)}: ${TOSTRING_LOCALISED(int3, 1)} XP`;
+        return `${enum_getvalue(17, 36, 680, int0)}: ${TOSTRING_LOCALISED(int3, 1)} XP`;
     };
-    return `${enum_getvalue(17, 36, 680 as cs2enum, int0)} XP`;
+    return `${enum_getvalue(17, 36, 680, int0)} XP`;
 }

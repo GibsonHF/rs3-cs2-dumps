@@ -12,7 +12,7 @@ function script476(int0: number, int1: number, int2: number, int3: number, int4:
     if ((int7 > 0)) {
         if ((int8 == 1)) {
             string0 = `${string0} master`;
-            int9 = 14173 as cs2enum;
+            int9 = 14173;
         };
         int6 = enum_getvalue(0, 23, 8548 as cs2enum, int7);
         IF_SETOP(1, "Select", int1);
@@ -26,7 +26,7 @@ function script476(int0: number, int1: number, int2: number, int3: number, int4:
         };
     } else {
         string0 = "";
-        int6 = -1 as graphic;
+        int6 = -1;
     };
     IF_SETTEXT(string0, int3);
     IF_SETTEXT(string1, int4);

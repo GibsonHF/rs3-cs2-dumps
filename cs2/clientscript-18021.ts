@@ -11,7 +11,7 @@ function script18021(int0: number, int1: number, int2: number, int3: number, int
         };
     };
     if ((CC_FINDBYCATEGORY(int4, 2, int0) == 1)) {
-        var [int1, int2] = script17970(int1, int2);
+        [int1, int2] = script17970(int1, int2);
         cc_setparam(4935, int1);
         cc_setparam(8654, int2);
         script17947(int1, int2, 0, 0, 0, 0, 0, 0, 1, 1, script17986(int12, int6, int9));

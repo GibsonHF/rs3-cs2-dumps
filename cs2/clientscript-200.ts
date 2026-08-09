@@ -8,7 +8,7 @@ function script200(int0: number): string {
         return "This is unavailable right now.";
     };
     var string0 = "";
-    if (((dbrow_getfield(int0, 905216, 0) == true) && (MAP_MEMBERS() == 0))) {
+    if (((dbrow_getfield(int0, 905216, 0) == 1) && (MAP_MEMBERS() == 0))) {
         string0 = "Membership is required.";
     };
     if ((DB_GETFIELDCOUNT(int0, 905232) > 0)) {

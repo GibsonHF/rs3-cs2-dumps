@@ -14,7 +14,7 @@ function script3451(int0: number, int1: number, int2: number, int3: number): voi
     if ((varclient_178 >= FULLSCREEN_MODECOUNT())) {
         varclient_178 = 0;
     };
-    script10428(99155989, 99155990, 13254, -1, "", varclient_178, 0);
+    script10428(99155989, 99155990, 13254, callback(), varclient_178, 0);
     script7794(99155976, 21361);
     IF_SETHIDE(false, comp(1513, 32));
     IF_SETHIDE(false, comp(1513, 34));

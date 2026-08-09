@@ -12,7 +12,7 @@ function script9574(): void {
     var int2 = script9575();
     IF_SETGRAPHIC(enum_getvalue(0, 23, 1024 as cs2enum, varbitplayer_21322), comp(1028, 0));
     IF_SETTEXT(`${inttostring(varbitplayer_21323, 10)} ${enum_getvalue(0, 36, 2164 as cs2enum, varbitplayer_21322)}`, comp(1028, 1));
-    IF_SETTEXT(`Available at ${inttostring(int2, 10)} ${enum_getvalue(0, 36, 2164 as cs2enum, varbitplayer_21324)} each`, comp(1028, 2));
+    IF_SETTEXT(`Available at ${inttostring(int2, 10)} ${enum_getvalue(0, 36, 2164, varbitplayer_21324)} each`, comp(1028, 2));
     IF_SETTEXT(`Buy 1 for ${inttostring(int2, 10)}`, comp(1028, 10));
     IF_SETTEXT(`Buy 5 for ${inttostring((int2 * 5), 10)}`, comp(1028, 11));
     IF_SETTEXT(`Buy 10 for ${inttostring((int2 * 10), 10)}`, comp(1028, 12));

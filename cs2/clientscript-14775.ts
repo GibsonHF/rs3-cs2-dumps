@@ -13,6 +13,6 @@ function script14775(): void {
     };
     IF_SETGRAPHIC(int1, comp(656, 12));
     IF_SETONMOUSEOVER(callback(script44, 42991628, int2), comp(656, 12));
-    IF_SETONMOUSELEAVE(callback(script44, 42991628, int1), 42991628);
+    IF_SETONMOUSELEAVE(callback(script44, 42991628, int1), comp(656, 12));
     return;
 }

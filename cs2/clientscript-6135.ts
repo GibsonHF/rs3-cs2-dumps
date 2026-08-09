@@ -48,7 +48,8 @@ function script6135(): void {
         int6 = CC_GETWIDTH();
     };
     IF_SETONTIMER(callback(script6141, -2147483645, int2, int4, int5, 0, 0, 0, 0, 0, 0, 0), int0);
-    if ((++int3 > 0)) {
+    int3 = (int3 + 1);
+    if ((int3 > 0)) {
         IF_SETGRAPHIC(10576 as graphic, comp(1270, 20));
     };
     if ((int3 > 1)) {

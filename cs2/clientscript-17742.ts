@@ -47,7 +47,8 @@ function script17742(int0: number, int1: number, int2: number, int3: number, int
     script15938(int1, int3, 0, int5, int6, int7, int8, int9, int10, int11, int12);
     var int16 = 1;
     var int17 = -1;
-    while ((++int17 < int15)) {
+    int17 = (int17 + 1);
+    while ((int17 < int15)) {
         int16 = script17744(int0, int3, 0, int1, int3, 0, int3, int13, int17, int14, ((((4 + 28) / 2) + ((0 - ((50 + 12) / 2)) * (int15 - 1))) + ((50 + 12) * int17)), 0, 1, 1, 50, 50, 0, 0);
     };
     var int18 = CC_GETX();

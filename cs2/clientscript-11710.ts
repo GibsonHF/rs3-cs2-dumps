@@ -10,7 +10,7 @@ function script11710(int0: number, int1: number): void {
         script12642(0, 0);
         cc_setparam(5926, 750);
         cc_getparam(5926);
-        IF_SETPOSITION(750, 146, 0, 0, 70909991);
+        IF_SETPOSITION(750, 146, 0, 0, comp(1082, 39));
     };
     IF_SETONTIMER(callback(), int1);
     return;

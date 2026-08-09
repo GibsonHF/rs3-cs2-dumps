@@ -3,7 +3,7 @@ function script17887(int0: number, int1: number, int2: number, int3: number, int
     var string0 = "";
     var string1 = "";
     var int6 = -1 as struct;
-    if ((int1 != -1 as struct)) {
+    if ((int1 != -1)) {
         string1 = script17935(int1);
     };
     switch (int4) {
@@ -15,7 +15,7 @@ function script17887(int0: number, int1: number, int2: number, int3: number, int
             break;
         }
         case 1: {
-            if ((int1 == -1 as struct)) {
+            if ((int1 == -1)) {
                 return string0;
             };
             switch (struct_getparam(int1, 2531)) {

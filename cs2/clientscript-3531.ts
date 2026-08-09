@@ -1,15 +1,15 @@
 //
 function script3531(int0: number, int1: number): void {
-    if ((int0 == -1 as dbrow)) {
+    if ((int0 == -1)) {
         return;
     };
-    if ((dbrow_getfield(int0, 274560, 0) == true)) {
+    if ((dbrow_getfield(int0, 274560, 0) == 1)) {
         return;
     };
     if ((script11748(int0) == 0)) {
         return;
     };
-    if (((int0 == 7013 as dbrow) && ((script12477() - 30) > varclient_7099))) {
+    if (((int0 == 7013) && ((script12477() - 30) > varclient_7099))) {
         return;
     };
     var int2 = -1;

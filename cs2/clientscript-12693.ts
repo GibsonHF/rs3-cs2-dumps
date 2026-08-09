@@ -38,12 +38,12 @@ function script12693(): void {
         IF_SETHIDE(true, comp(1784, 6));
         if ((struct_getparam(int0, 5901) != -1 as graphic)) {
             IF_SETGRAPHIC(struct_getparam(int0, 5901), comp(1784, 9));
-            IF_SETONMOUSEREPEAT(callback(script8799, struct_getparam(int0, 5905), -2147483645, -1), 116916231);
+            IF_SETONMOUSEREPEAT(callback(script8799, struct_getparam(int0, 5905), -2147483645, -1), comp(1784, 7));
         };
         if ((struct_getparam(int0, 5906) != -1 as graphic)) {
             IF_SETHIDE(false, comp(1784, 10));
             IF_SETGRAPHIC(struct_getparam(int0, 5906), comp(1784, 15));
-            IF_SETONMOUSEREPEAT(callback(script8799, struct_getparam(int0, 5910), -2147483645, -1), 116916234);
+            IF_SETONMOUSEREPEAT(callback(script8799, struct_getparam(int0, 5910), -2147483645, -1), comp(1784, 10));
             int2 = (int2 + 1);
         } else {
             IF_SETHIDE(true, comp(1784, 10));
@@ -51,7 +51,7 @@ function script12693(): void {
         if ((struct_getparam(int0, 5911) != -1 as graphic)) {
             IF_SETHIDE(false, comp(1784, 11));
             IF_SETGRAPHIC(struct_getparam(int0, 5911), comp(1784, 17));
-            IF_SETONMOUSEREPEAT(callback(script8799, struct_getparam(int0, 5915), -2147483645, -1), 116916235);
+            IF_SETONMOUSEREPEAT(callback(script8799, struct_getparam(int0, 5915), -2147483645, -1), comp(1784, 11));
             int2 = (int2 + 1);
         } else {
             IF_SETHIDE(true, comp(1784, 11));
@@ -59,7 +59,7 @@ function script12693(): void {
         if ((struct_getparam(int0, 5916) != -1 as graphic)) {
             IF_SETHIDE(false, comp(1784, 12));
             IF_SETGRAPHIC(struct_getparam(int0, 5916), comp(1784, 19));
-            IF_SETONMOUSEREPEAT(callback(script8799, struct_getparam(int0, 5920), -2147483645, -1), 116916236);
+            IF_SETONMOUSEREPEAT(callback(script8799, struct_getparam(int0, 5920), -2147483645, -1), comp(1784, 12));
             int2 = (int2 + 1);
         } else {
             IF_SETHIDE(true, comp(1784, 12));
@@ -67,7 +67,7 @@ function script12693(): void {
         if ((struct_getparam(int0, 5921) != -1 as graphic)) {
             IF_SETHIDE(false, comp(1784, 13));
             IF_SETGRAPHIC(struct_getparam(int0, 5921), comp(1784, 21));
-            IF_SETONMOUSEREPEAT(callback(script8799, struct_getparam(int0, 5925), -2147483645, -1), 116916237);
+            IF_SETONMOUSEREPEAT(callback(script8799, struct_getparam(int0, 5925), -2147483645, -1), comp(1784, 13));
             int2 = (int2 + 1);
         } else {
             IF_SETHIDE(true, comp(1784, 13));

@@ -6,7 +6,7 @@ function script20759(int0: number): void {
     } else {
         IF_SETOPKEY(1, 0, 0, comp(1516, 34));
         IF_SETONKEY(callback(), comp(1516, 23));
-        IF_SETOPKEY(1, 0, 0, 99352581);
+        IF_SETOPKEY(1, 0, 0, comp(1516, 5));
     };
     return;
 }

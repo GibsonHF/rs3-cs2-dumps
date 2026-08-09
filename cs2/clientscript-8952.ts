@@ -23,10 +23,12 @@ function script8952(int0: number): number {
         };
         if ((int3 > 0)) {
             int4 = enum_getvalue(0, 73, script8221(), int3);
-            int1 = (++int1 + 16);
+            int1 = (int1 + 5);
+            int1 = (int1 + 16);
             string0 = struct_getparam(int4, 6969);
             int1 = (int1 + script7593(string0, (int0 - 45), 26, 0));
-            int1 = (++int1 + 5);
+            int1 = (int1 + 16);
+            int1 = (int1 + 5);
             int1 = (int1 + 2);
         };
         int2 = (int2 - 1);

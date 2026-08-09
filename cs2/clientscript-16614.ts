@@ -12,8 +12,7 @@ function script16614(): void {
     stack(749568);
     stack(int0);
     DB_FIND(0);
-    dbrow_findnext();
-    var int2 = stack();
+    var int2 = dbrow_findnext();
     if ((int2 == -1)) {
         script12478(`Unable to specifiy dbrow from modifier for current: ${inttostring(int0, 10)}`);
         int2 = 6065;
@@ -22,8 +21,7 @@ function script16614(): void {
     stack(749568);
     stack(int1);
     DB_FIND(0);
-    dbrow_findnext();
-    int2 = stack();
+    int2 = dbrow_findnext();
     if ((int2 == -1)) {
         script12478(`Unable to specifiy dbrow from modifier for next: ${inttostring(int0, 10)}`);
         int2 = 6065;

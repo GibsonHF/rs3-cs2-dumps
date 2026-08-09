@@ -9,14 +9,14 @@ function script398(): void {
     varclient_765 = 0;
     varclient_766 = 0;
     IF_SETONTIMER(callback(), comp(306, 20));
-    IF_SETONTIMER(callback(), 20054037);
-    IF_SETONTIMER(callback(), 20054038);
-    IF_SETONTIMER(callback(), 20054039);
-    IF_SETONTIMER(callback(), 20054027);
-    IF_SETONTIMER(callback(), 20054041);
-    IF_SETTEXT(`Correct: ${inttostring(varclient_767, 10)}/${inttostring(10, 10)}`, 20054020);
-    varclient_761 = enum_getvalue(0, 31, 208, 1);
-    if ((varclient_761 != -1)) {
+    IF_SETONTIMER(callback(), comp(306, 21));
+    IF_SETONTIMER(callback(), comp(306, 22));
+    IF_SETONTIMER(callback(), comp(306, 23));
+    IF_SETONTIMER(callback(), comp(306, 11));
+    IF_SETONTIMER(callback(), comp(306, 25));
+    IF_SETTEXT(`Correct: ${inttostring(varclient_767, 10)}/${inttostring(10, 10)}`, comp(306, 4));
+    varclient_761 = enum_getvalue(0, 31, 208 as cs2enum, 1);
+    if ((varclient_761 != -1 as model)) {
         IF_SETMODEL(varclient_761, comp(306, 7));
         IF_SETMODELANGLE(0, 0, 512, 0, 0, 800, comp(306, 7));
     };

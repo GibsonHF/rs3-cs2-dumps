@@ -6,10 +6,15 @@ function script18116(int0: number, int1: number, int2: number, int3: number, int
     var int8 = struct_getparam(int0, 5166);
     var int9 = enum_getvalue(0, 32, int8, int1);
     var int10 = 0;
-    if (((CC_FIND(comp(1311, 343), 0) == 1) && (int6 == 0))) {
-        var int5 = CC_GETMODELANGLE_Y();
-        int10 = CC_GETMODELZOOM();
-        var int3 = CC_GETMODELYOF();
+    if ((CC_FIND(comp(1311, 343), 0) == 1)) {
+        if ((int6 == 0)) {
+            var int5 = CC_GETMODELANGLE_Y();
+            int10 = CC_GETMODELZOOM();
+            var int3 = CC_GETMODELYOF();
+        } else {
+            int10 = (300 + int2);
+            int3 = (100 + int3);
+        };
     } else {
         int10 = (300 + int2);
         int3 = (100 + int3);

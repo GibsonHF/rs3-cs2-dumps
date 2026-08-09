@@ -17,7 +17,7 @@ function script19283(int0: number, int1: number, int2: number, int3: number, int
             if ((int2 == (varbitplayer_56168 + 1))) {
                 CC_SETGRAPHIC(dbrow_getfield(int12, 1237010, 0));
             };
-            script2994(int0, IF_GETNEXTSUBID(int0), int18, int19, 0, 0, int14, int14, 0, 0, -1 as graphic);
+            script2994(int0, IF_GETNEXTSUBID(int0), int18, int19, 0, 0, int14, int14, 0, 0, -1);
             if ((int2 >= (varbitplayer_56168 + 1))) {
                 if ((int2 == (varbitplayer_56168 + 1))) {
                     CC_SETGRAPHIC(dbrow_getfield(int12, 1237026, 0));
@@ -32,10 +32,14 @@ function script19283(int0: number, int1: number, int2: number, int3: number, int
             if (((int2 == varbitplayer_56169) && (varbitplayer_56168 >= dbrow_getfield(varplayer_11902, 1220656, 0)))) {
                 CC_SETGRAPHIC(dbrow_getfield(int12, 1237010, 0));
             };
-            script2994(int0, IF_GETNEXTSUBID(int0), int18, int19, 0, 0, int14, int14, 0, 0, -1 as graphic);
+            script2994(int0, IF_GETNEXTSUBID(int0), int18, int19, 0, 0, int14, int14, 0, 0, -1);
             if ((int2 >= varbitplayer_56169)) {
-                if (((int2 == varbitplayer_56169) && (varbitplayer_56168 >= dbrow_getfield(varplayer_11902, 1220656, 0)))) {
-                    CC_SETGRAPHIC(dbrow_getfield(int12, 1237042, 0));
+                if ((int2 == varbitplayer_56169)) {
+                    if ((varbitplayer_56168 >= dbrow_getfield(varplayer_11902, 1220656, 0))) {
+                        CC_SETGRAPHIC(dbrow_getfield(int12, 1237042, 0));
+                    } else {
+                        CC_SETGRAPHIC(dbrow_getfield(int12, 1237041, 0));
+                    };
                 } else {
                     CC_SETGRAPHIC(dbrow_getfield(int12, 1237041, 0));
                 };
@@ -47,10 +51,14 @@ function script19283(int0: number, int1: number, int2: number, int3: number, int
             if (((int2 == varbitplayer_56170) && (varbitplayer_56168 >= dbrow_getfield(varplayer_11902, 1220672, 0)))) {
                 CC_SETGRAPHIC(dbrow_getfield(int12, 1237010, 0));
             };
-            script2994(int0, IF_GETNEXTSUBID(int0), int18, int19, 0, 0, int14, int14, 0, 0, -1 as graphic);
+            script2994(int0, IF_GETNEXTSUBID(int0), int18, int19, 0, 0, int14, int14, 0, 0, -1);
             if ((int2 >= varbitplayer_56170)) {
-                if (((int2 == varbitplayer_56170) && (varbitplayer_56168 >= dbrow_getfield(varplayer_11902, 1220672, 0)))) {
-                    CC_SETGRAPHIC(dbrow_getfield(int12, 1237042, 0));
+                if ((int2 == varbitplayer_56170)) {
+                    if ((varbitplayer_56168 >= dbrow_getfield(varplayer_11902, 1220672, 0))) {
+                        CC_SETGRAPHIC(dbrow_getfield(int12, 1237042, 0));
+                    } else {
+                        CC_SETGRAPHIC(dbrow_getfield(int12, 1237041, 0));
+                    };
                 } else {
                     CC_SETGRAPHIC(dbrow_getfield(int12, 1237041, 0));
                 };
@@ -59,7 +67,7 @@ function script19283(int0: number, int1: number, int2: number, int3: number, int
             break;
         }
     };
-    script2994(int0, IF_GETNEXTSUBID(int0), (int18 + 3), (int19 + 3), 0, 0, 36, 36, 0, 0, -1 as graphic);
+    script2994(int0, IF_GETNEXTSUBID(int0), (int18 + 3), (int19 + 3), 0, 0, 36, 36, 0, 0, -1);
     switch (int6) {
         case 2: {
             break;
@@ -72,7 +80,7 @@ function script19283(int0: number, int1: number, int2: number, int3: number, int
         }
     };
     if (((int0 == comp(1290, 49)) && (int2 == varbitplayer_56168))) {
-        script2994(int0, IF_GETNEXTSUBID(int0), int18, int19, 0, 0, int14, int14, 0, 0, 34462 as graphic);
+        script2994(int0, IF_GETNEXTSUBID(int0), int18, int19, 0, 0, int14, int14, 0, 0, 34462);
         script3537("You are here");
     };
     CC_CREATE(int1, 5, int2);

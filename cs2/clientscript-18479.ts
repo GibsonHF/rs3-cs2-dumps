@@ -37,8 +37,8 @@ function script18479(): void {
     var string3 = dbrow_getfield(int7, 983040, 0);
     var int12 = -1;
     var int13 = -1;
-    var int14 = -1 as seq;
-    var int15 = -1 as seq;
+    var int14 = -1;
+    var int15 = -1;
     var int16 = script20102();
     var int17 = script20103();
     [int12, int13, int14, int15] = script10516();

@@ -1,10 +1,10 @@
 //
 function script18940(int0: number, int1: number, int2: number, int3: number, int4: number): void {
-    if (((int1 == -1 as dbrow) || (int4 == 0))) {
+    if (((int1 == -1) || (int4 == 0))) {
         return;
     };
     var int5 = dbrow_getfield(int1, 127008, int2);
-    if ((int5 == -1 as struct)) {
+    if ((int5 == -1)) {
         return;
     };
     var int6 = struct_getparam(int5, 7514);

@@ -1,5 +1,5 @@
 //
-function script3358(): [number, string, number] {
+function script3358(): [number, number, string] {
     switch (varplayer_1831) {
         case 17985: {
             return [2, "Poisonous Shot (Tier 1)", 18037];
@@ -29,6 +29,7 @@ function script3358(): [number, string, number] {
             return [82, "Poisonous Shot (Tier 9)", 18045];
         }
         case 17994: {
+            break;
         }
         default: {
             return [2, "Poisonous Shot (Tier 1)", 18037];

@@ -9,6 +9,6 @@ function script2394(int0: number): void {
         IF_SETOP(1, "Join chat", comp(1927, 11));
         IF_SETGRAPHIC(6256 as graphic, comp(1927, 12));
     };
-    IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643), 126287883);
+    IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643), comp(1927, 11));
     return;
 }

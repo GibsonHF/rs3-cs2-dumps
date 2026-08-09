@@ -5,7 +5,6 @@ function script15774(int0: number): number {
     };
     switch (int0) {
         default: {
-            break;
         }
     };
     if (((MAP_MEMBERS() == 0) && (script15773(1, int0) == 0))) {

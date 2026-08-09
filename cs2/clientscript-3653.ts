@@ -18,8 +18,8 @@ function script3653(int0: number): void {
     var int10 = 0;
     var int11 = 0;
     var int12 = 0;
-    var int13 = -1 as obj;
-    var int14 = -1 as struct;
+    var int13 = -1;
+    var int14 = -1;
     var int15 = DB_GETFIELDCOUNT(int0, 299328);
     [int2, int4, int5] = dbrow_getfield(int0, 299216, 0);
     while ((int1 < int3)) {
@@ -31,17 +31,39 @@ function script3653(int0: number): void {
         int7 = 1;
         int11 = script3599(int1);
         [int9, int10, int13, int14, int12] = dbrow_getfield(int0, 299328, int8);
-        while (((int8 < int15) && (int9 < int1))) {
-            int8 = (int8 + 1);
-            [int9, int10, int13, int14, int12] = dbrow_getfield(int0, 299328, int8);
-        };
-        while (((int8 < int15) && (int9 == int1))) {
-            if ((((int7 == 1) && (AND(varplayer_9062, int10) != 0)) && (AND(int10, int11) == 0))) {
-                int7 = 0;
-            };
-            if ((++int8 < int15)) {
+        while ((int8 < int15)) {
+            if ((int9 < int1)) {
+                int8 = (int8 + 1);
                 [int9, int10, int13, int14, int12] = dbrow_getfield(int0, 299328, int8);
             };
+            while ((int8 < int15)) {
+                if ((int9 == int1)) {
+                    if ((((int7 == 1) && (AND(varplayer_9062, int10) != 0)) && (AND(int10, int11) == 0))) {
+                        int7 = 0;
+                    };
+                    int8 = (int8 + 1);
+                    if ((int8 < int15)) {
+                        [int9, int10, int13, int14, int12] = dbrow_getfield(int0, 299328, int8);
+                    };
+                };
+                script3657(int1, 41549847, 41549848, 41549843, 41549844, 41549845, 41549846, int6, int7, 0);
+                int1 = (int1 + 1);
+            };
+            script3657(int1, 41549847, 41549848, 41549843, 41549844, 41549845, 41549846, int6, int7, 0);
+            int1 = (int1 + 1);
+        };
+        while ((int8 < int15)) {
+            if ((int9 == int1)) {
+                if ((((int7 == 1) && (AND(varplayer_9062, int10) != 0)) && (AND(int10, int11) == 0))) {
+                    int7 = 0;
+                };
+                int8 = (int8 + 1);
+                if ((int8 < int15)) {
+                    [int9, int10, int13, int14, int12] = dbrow_getfield(int0, 299328, int8);
+                };
+            };
+            script3657(int1, 41549847, 41549848, 41549843, 41549844, 41549845, 41549846, int6, int7, 0);
+            int1 = (int1 + 1);
         };
         script3657(int1, 41549847, 41549848, 41549843, 41549844, 41549845, 41549846, int6, int7, 0);
         int1 = (int1 + 1);

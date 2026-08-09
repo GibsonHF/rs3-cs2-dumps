@@ -22,6 +22,6 @@ function script12444(int0: number, int1: number, int2: number, int3: number): vo
             script3012(int7, int8);
         };
     };
-    IF_SETONMOUSEREPEAT(callback(script10817, -2147483647, -2147483646, int0, int1), 31129607);
+    IF_SETONMOUSEREPEAT(callback(script10817, -2147483647, -2147483646, int0, int1), comp(475, 7));
     return;
 }

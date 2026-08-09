@@ -22,7 +22,8 @@ function script17225(int0: number, int1: number): void {
     var int12 = 0;
     var int13 = IF_GETHEIGHT(comp(1030, 14));
     var int14 = int13;
-    while ((++int2 < int3)) {
+    int2 = (int2 + 1);
+    while ((int2 < int3)) {
         int4 = dbrow_getfield(int1, 892928, int2);
         if ((int4 != -1 as dbrow)) {
             int5 = -1;
@@ -34,7 +35,8 @@ function script17225(int0: number, int1: number): void {
                 int9 = (IF_GETWIDTH(comp(1030, 16)) - 326);
                 int11 = int12;
             };
-            while ((++int5 < int6)) {
+            int5 = (int5 + 1);
+            while ((int5 < int6)) {
                 int8 = dbrow_getfield(int4, 897024, int5);
                 if ((int8 != -1 as dbrow)) {
                     int7 = DB_GETFIELDCOUNT(int8, 901136);

@@ -43,9 +43,9 @@ function script12318(int0: number): void {
     };
     var int4 = script12285(varbitclient_30618, varbitclient_30619);
     if ((varbitclient_30630 == 1)) {
-        varclient_5173 = enum_getvalue(0, 0, 10877 as cs2enum, int4);
-        varclient_5174 = enum_getvalue(0, 0, 10878 as cs2enum, int4);
-        varclient_5175 = enum_getvalue(0, 0, 10878 as cs2enum, int4);
+        varclient_5173 = enum_getvalue(0, 0, 10877, int4);
+        varclient_5174 = enum_getvalue(0, 0, 10878, int4);
+        varclient_5175 = enum_getvalue(0, 0, 10878, int4);
         varclient_5176 = varclient_5173;
         varclient_5177 = varclient_5174;
         varclient_5178 = varclient_5175;
@@ -67,8 +67,13 @@ function script12318(int0: number): void {
         return;
     };
     var int8 = varbitclient_30624;
-    if (((int8 == 1) && (((IF_GETHEIGHT(int6) - 28) - (IF_GETHEIGHT(int7) - IF_GETHEIGHT(int3))) >= 27))) {
-        IF_SETSIZE(0, 28, 1, 0, int5);
+    if ((int8 == 1)) {
+        if ((((IF_GETHEIGHT(int6) - 28) - (IF_GETHEIGHT(int7) - IF_GETHEIGHT(int3))) >= 27)) {
+            IF_SETSIZE(0, 28, 1, 0, int5);
+        } else {
+            int8 = 0;
+            IF_SETSIZE(0, 0, 1, 0, int5);
+        };
     } else {
         int8 = 0;
         IF_SETSIZE(0, 0, 1, 0, int5);
@@ -79,8 +84,13 @@ function script12318(int0: number): void {
         return;
     };
     var int10 = varbitclient_30625;
-    if (((int10 == 1) && (((IF_GETWIDTH(int6) - 28) - (IF_GETWIDTH(int7) - IF_GETWIDTH(int3))) >= 80))) {
-        IF_SETSIZE(28, 0, 0, 1, int9);
+    if ((int10 == 1)) {
+        if ((((IF_GETWIDTH(int6) - 28) - (IF_GETWIDTH(int7) - IF_GETWIDTH(int3))) >= 80)) {
+            IF_SETSIZE(28, 0, 0, 1, int9);
+        } else {
+            int10 = 0;
+            IF_SETSIZE(0, 0, 0, 1, int9);
+        };
     } else {
         int10 = 0;
         IF_SETSIZE(0, 0, 0, 1, int9);
@@ -164,7 +174,7 @@ function script12318(int0: number): void {
     CC_DELETEALL(int15);
     var int16 = 0;
     int6 = IF_GETLAYER(int15);
-    if ((int6 == -1)) {
+    if ((int6 == comp(-1, 65535))) {
         return;
     };
     if ((int1 == 1)) {
@@ -294,7 +304,8 @@ function script12318(int0: number): void {
     var int28 = 1;
     var int29 = 0;
     var int30 = 0;
-    while ((++int26 < int23)) {
+    int26 = (int26 + 1);
+    while ((int26 < int23)) {
         if ((int28 == 1)) {
             [int28, int29, int30] = script12310(96796685, ((((int23 - 1) - int26) * int19) + int20), int19);
             int29 = script12311(int29, int30);
@@ -317,31 +328,34 @@ function script12318(int0: number): void {
     };
     var int31 = 0;
     var int32 = 0;
-    if (((varbitclient_30621 == 1) && (++int23 > 0))) {
-        if (((int20 == 0) || (int28 == 0))) {
-            int29 = 0;
-            int30 = 0;
-        } else {
-            [int28, int29, int30] = script12310(96796685, 0, int20);
+    if ((varbitclient_30621 == 1)) {
+        int23 = (int23 + 1);
+        if ((int23 > 0)) {
+            if (((int20 == 0) || (int28 == 0))) {
+                int29 = 0;
+                int30 = 0;
+            } else {
+                [int28, int29, int30] = script12310(96796685, 0, int20);
+            };
+            if ((int28 == 1)) {
+                [int28, int31, int32] = script12310(96796686, 0, 1);
+            };
+            if ((int28 == 1)) {
+                [int29, int30] = script12313(int29, int30, int31, int32);
+            };
+            int29 = script12311(int29, int30);
+            if ((int29 > int17)) {
+                int17 = int29;
+            } else if ((int29 < int18)) {
+                int18 = int29;
+            };
+            CC_CREATE(int2, 3, int26);
+            CC_SETSIZE((int22 - 1), 0, 0, 0);
+            CC_SETFILL(1);
+            cc_setparam(5946, int29);
+            CC_SETTRANS(127);
+            CC_SETONMOUSEREPEAT(callback(script12326, -2147483645, -2147483643));
         };
-        if ((int28 == 1)) {
-            [int28, int31, int32] = script12310(96796686, 0, 1);
-        };
-        if ((int28 == 1)) {
-            [int29, int30] = script12313(int29, int30, int31, int32);
-        };
-        int29 = script12311(int29, int30);
-        if ((int29 > int17)) {
-            int17 = int29;
-        } else if ((int29 < int18)) {
-            int18 = int29;
-        };
-        CC_CREATE(int2, 3, int26);
-        CC_SETSIZE((int22 - 1), 0, 0, 0);
-        CC_SETFILL(1);
-        cc_setparam(5946, int29);
-        CC_SETTRANS(127);
-        CC_SETONMOUSEREPEAT(callback(script12326, -2147483645, -2147483643));
     };
     IF_SETPARAM_INT(5644, int17, int2);
     IF_SETPARAM_INT(5645, int18, int2);
@@ -363,7 +377,13 @@ function script12318(int0: number): void {
     var int42 = 0;
     if ((int23 > 0)) {
         IF_SETONSCROLLWHEEL(callback(script12301, -2147483646), int3);
-        if (((int8 == 1) || ((int1 == 1) && (IF_GETHIDE(int15) == false)))) {
+        if ((int8 == 1)) {
+            int35 = (((10 * varclient_5157) * int19) / 50);
+            string0 = `Zoom: ${script12304()}`;
+            string0 = `Interval: ${script12291(int35)}<br>${string0}`;
+            int35 = (int35 * int23);
+            string0 = `Time window: ${script12291(int35)}<br>${string0}`;
+        } else if (((int1 == 1) && (IF_GETHIDE(int15) == false))) {
             int35 = (((10 * varclient_5157) * int19) / 50);
             string0 = `Zoom: ${script12304()}`;
             string0 = `Interval: ${script12291(int35)}<br>${string0}`;
@@ -373,9 +393,9 @@ function script12318(int0: number): void {
         if (((int1 == 1) && (IF_GETHIDE(int15) == false))) {
             IF_SETONSCROLLWHEEL(callback(script12301, -2147483646), int15);
             CC_CREATE(int15, 4, 0);
-            CC_SETTEXTFONT(26);
+            CC_SETTEXTFONT(26 as fontmetrics);
             CC_SETCOLOUR(int37);
-            CC_SETTEXTSHADOW(1);
+            CC_SETTEXTSHADOW(true);
             CC_SETTEXTALIGN(1, 1, 0);
             CC_SETPOSITION(0, 0, 2, 2);
             CC_SETSIZE(0, 0, 1, 1);

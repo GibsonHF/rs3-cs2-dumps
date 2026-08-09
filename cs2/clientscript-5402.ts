@@ -1,6 +1,6 @@
 //
 function script5402(int0: number): void {
-    var int1 = -1 as struct;
+    var int1 = -1;
     var string0 = "";
     var string1 = "";
     var string2 = "";
@@ -69,7 +69,7 @@ function script5402(int0: number): void {
         CC_DELETE();
     };
     string1 = struct_getparam(int1, 2184);
-    string2 = `If you win you'll get a dominion factor of: <col=F5B241>${inttostring(enum_getvalue(0, 0, 5224 as cs2enum, int0), 10)}</col>. You will get no dominion factor for dying.`;
+    string2 = `If you win you'll get a dominion factor of: <col=F5B241>${inttostring(enum_getvalue(0, 0, 5224, int0), 10)}</col>. You will get no dominion factor for dying.`;
     if ((struct_getparam(int1, 2097) == 1)) {
         string3 = "<col=F5B241>Arena</col>: Single-way combat.";
     } else if ((struct_getparam(int1, 2097) == 2)) {

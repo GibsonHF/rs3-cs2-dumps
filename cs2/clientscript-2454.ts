@@ -8,6 +8,7 @@ function script2454(int0: number): number {
             return 14064640;
         }
         case 3: {
+            break;
         }
         default: {
             return 16777215;

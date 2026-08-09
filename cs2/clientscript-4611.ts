@@ -110,7 +110,7 @@ function script4611(): void {
         }
     };
     IF_SETONVARTRANSMIT(callback(script4612, 8572, 426, 2), comp(20, 266));
-    IF_SETONVARTRANSMIT(callback(script4611, 11583, 11583, 2), 1310987);
+    IF_SETONVARTRANSMIT(callback(script4611, 11583, 11583, 2), comp(20, 267));
     script4613(1310986);
     return;
 }

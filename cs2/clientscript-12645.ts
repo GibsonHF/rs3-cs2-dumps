@@ -5,7 +5,8 @@ function script12645(int0: number): void {
     };
     CC_DELETEALL(int0);
     var int1 = -1;
-    while ((++int1 <= 32)) {
+    int1 = (int1 + 1);
+    while ((int1 <= 32)) {
         CC_CREATE(int0, 4, int1);
         if ((STRING_LENGTH(enum_getvalue(0, 36, 9734 as cs2enum, int1)) != 0)) {
             CC_SETPOSITION(0, 0, 0, 0);

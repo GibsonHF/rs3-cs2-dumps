@@ -33,8 +33,10 @@ function script5812(int0: number, int1: number): number {
             break;
         }
         case 3000: {
-            if (((int1 == 2) && ((varplayer_1297 >= varbitplayer_4915) || (script4218() <= 0)))) {
-                int2 = 1;
+            if ((int1 == 2)) {
+                if (((varplayer_1297 >= varbitplayer_4915) || (script4218() <= 0))) {
+                    int2 = 1;
+                };
             };
             break;
         }
@@ -76,8 +78,10 @@ function script5812(int0: number, int1: number): number {
             break;
         }
         case 3007: {
-            if (((int1 == 1) && (((varbitplayer_5479 == 0) || (varbitplayer_5480 == 0)) || (varbitplayer_5481 == 0)))) {
-                int2 = 1;
+            if ((int1 == 1)) {
+                if ((((varbitplayer_5479 == 0) || (varbitplayer_5480 == 0)) || (varbitplayer_5481 == 0))) {
+                    int2 = 1;
+                };
             };
             break;
         }
@@ -106,14 +110,18 @@ function script5812(int0: number, int1: number): number {
             break;
         }
         case 3015: {
-            if (((int1 == 2) && ((STAT_BASE(0 as stat) >= 65) || (STAT_BASE(1 as stat) >= 65)))) {
-                int2 = 1;
+            if ((int1 == 2)) {
+                if (((STAT_BASE(0 as stat) >= 65) || (STAT_BASE(1 as stat) >= 65))) {
+                    int2 = 1;
+                };
             };
             break;
         }
         case 3034: {
-            if (((int1 == 1) && ((((STAT_BASE(2 as stat) + STAT_BASE(0 as stat)) >= 130) || (STAT_BASE(0 as stat) >= 99)) || (STAT_BASE(2 as stat) >= 99)))) {
-                int2 = 1;
+            if ((int1 == 1)) {
+                if (((((STAT_BASE(2 as stat) + STAT_BASE(0 as stat)) >= 130) || (STAT_BASE(0 as stat) >= 99)) || (STAT_BASE(2 as stat) >= 99))) {
+                    int2 = 1;
+                };
             };
             break;
         }
@@ -192,8 +200,10 @@ function script5812(int0: number, int1: number): number {
             break;
         }
         case 858: {
-            if (((int1 == 2) && ((varplayer_2171 >= 60) || (varbitplayer_13266 >= 5)))) {
-                int2 = 1;
+            if ((int1 == 2)) {
+                if (((varplayer_2171 >= 60) || (varbitplayer_13266 >= 5))) {
+                    int2 = 1;
+                };
             };
             break;
         }

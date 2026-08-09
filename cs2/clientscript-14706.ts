@@ -1,6 +1,6 @@
 //
 function script14706(int0: number, int1: number): number {
-    if ((int1 == -1 as dbrow)) {
+    if ((int1 == -1)) {
         return 0;
     };
     var int2 = -1 as cs2enum;

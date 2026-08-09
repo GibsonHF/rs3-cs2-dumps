@@ -8,14 +8,12 @@ function script17046(int0: number, int1: number, int2: number, int3: number, int
             stack(409632);
             stack(enum_getreverseindex(0, 0, 13321 as cs2enum, varbitplayer_18994, 0));
             DB_FIND(0);
-            dbrow_findnext();
-            if ((stack() != -1)) {
+            if ((dbrow_findnext() != -1)) {
                 DB_FIND_REFINE(409648, (int3 + 1), 0);
-                dbrow_findnext();
-                int6 = stack();
+                int6 = dbrow_findnext();
                 if (((int6 != -1) && (script17032(int6) > 0))) {
                     CC_SETONVARTRANSMIT(callback(script17041, int6, -1, int0, int2, int1, -1, CC_GETWIDTH(), 9433, 9434, 11334, 3));
-                    CC_SETHIDE(0);
+                    CC_SETHIDE(false);
                 };
             };
         };

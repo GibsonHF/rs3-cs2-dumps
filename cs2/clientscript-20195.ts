@@ -1,7 +1,7 @@
 //
 function script20195(int0: number): void {
     var int1 = script20117(varplayer_12314);
-    if (((int1 == -1 as dbrow) || (script20129() == 0))) {
+    if (((int1 == -1) || (script20129() == 0))) {
         script20207();
         return;
     };
@@ -12,9 +12,9 @@ function script20195(int0: number): void {
     var int5 = -1;
     var int6 = 0;
     var int7 = 0;
-    var int8 = -1 as graphic;
-    var int9 = comp(-1, 65535);
-    var int10 = comp(-1, 65535);
+    var int8 = -1;
+    var int9 = -1;
+    var int10 = -1;
     var string0 = "";
     var int11 = -1;
     var int12 = 0;
@@ -30,7 +30,7 @@ function script20195(int0: number): void {
         } else {
             int11 = 4476;
         };
-        if (((int9 != comp(-1, 65535)) && (int10 != comp(-1, 65535)))) {
+        if (((int9 != -1) && (int10 != -1))) {
             if ((IF_FIND[1](int10) == 1)) {
                 int8 = CC_GETGRAPHIC[1]();
             };

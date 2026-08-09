@@ -1,20 +1,20 @@
 //
 function script11881(int0: number, int1: number, int2: number): void {
-    var int3 = comp(1687, 24);
-    var int4 = comp(1687, 16);
+    var int3 = 110559256;
+    var int4 = 110559248;
     var int5 = IF_GETWIDTH(comp(1687, 54));
     var int6 = (int5 / 10);
     var int7 = MAX(1, (SCALE(varbitplayer_29651, 500, int5) + 1));
-    IF_SETONTIMER(callback(script11884, int7, int6, 110559284, 110559286), 110559286);
+    IF_SETONTIMER(callback(script11884, int7, int6, 110559284, 110559286), comp(1687, 54));
     var int8 = MAX(1, (SCALE(int0, 1000, int5) + 1));
-    IF_SETONTIMER(callback(script11884, int8, int6, 110559310, 110559309), 110559309);
-    IF_SETTEXT(struct_getparam(int1, 5346), 110559259);
+    IF_SETONTIMER(callback(script11884, int8, int6, 110559310, 110559309), comp(1687, 77));
+    IF_SETTEXT(struct_getparam(int1, 5346), comp(1687, 27));
     var int9 = MIN((int2 - script766(32550)), 5);
-    var int10 = -1;
-    var int11 = -1;
+    var int10 = -1 as stat;
+    var int11 = -1 as stat;
     [int10, int11] = script11875(int9);
-    var string0 = enum_getvalue(17, 36, 680, int10);
-    var string1 = enum_getvalue(17, 36, 680, int11);
+    var string0 = enum_getvalue(17, 36, 680 as cs2enum, int10);
+    var string1 = enum_getvalue(17, 36, 680 as cs2enum, int11);
     if ((int9 >= 5)) {
         string0 = "-";
         string1 = "";
@@ -29,7 +29,7 @@ function script11881(int0: number, int1: number, int2: number): void {
     var int13 = 1;
     var int14 = 104;
     var int15 = 0;
-    var int16 = -1 as obj;
+    var int16 = -1;
     var int17 = -1;
     var int18 = MIN(SCALE(varbitplayer_29651, 500, 100), SCALE(int0, 1000, 100));
     while ((int13 <= 10)) {
@@ -41,7 +41,7 @@ function script11881(int0: number, int1: number, int2: number): void {
             int17 = 21363;
         };
         script10764(int4, int17, (int15 - 18), 131, 36, 36, -1);
-        int16 = enum_getvalue(0, 33, 10440 as cs2enum, (int13 - 1));
+        int16 = enum_getvalue(0, 33, 10440, (int13 - 1));
         CC_CREATE(int4, 6, IF_GETNEXTSUBID(int4));
         CC_SETOBJECT(int16, 1);
         CC_SETSIZE(36, 32, 0, 0);

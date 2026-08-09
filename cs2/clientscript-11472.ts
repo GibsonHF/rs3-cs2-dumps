@@ -1,5 +1,5 @@
 //
-function script11472(int0: number): BigInt {
+function script11472(int0: number): bigint {
     switch (int0) {
         case 0: {
             return varclient_4829;

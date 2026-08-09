@@ -1,4 +1,4 @@
 //
 function script12279(): number {
-    return varbitplayer_30615[1];
+    return varbitplayer_30615;
 }

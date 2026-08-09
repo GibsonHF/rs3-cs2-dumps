@@ -26,8 +26,12 @@ function script2184(int0: number, int1: number, int2: number): void {
                 long0 = MAX_LONG(1n, script2185(int4));
                 if ((int6 > 1)) {
                     long2 = DIVIDE_LONG(9223372036854775807n, long0);
-                    if ((branch_gt_long[102](long0, 0n) && (script17138(long2) < int6))) {
-                        string0 = `${TOSTRING_LOCALISED(int6, 1)} x ${TOSTRING_LOCALISED_LONG(long0, 1)}<br>=<br>LOTS`;
+                    if (LONG_BRANCH_GREATER_THAN(long0, 0n)) {
+                        if ((script17138(long2) < int6)) {
+                            string0 = `${TOSTRING_LOCALISED(int6, 1)} x ${TOSTRING_LOCALISED_LONG(long0, 1)}<br>=<br>LOTS`;
+                        } else {
+                            string0 = `${TOSTRING_LOCALISED(int6, 1)} x ${TOSTRING_LOCALISED_LONG(long0, 1)}<br>=<br>${TOSTRING_LOCALISED_LONG(MULTIPLY_LONG(INT_TO_LONG(int6), long0), 1)}`;
+                        };
                     } else {
                         string0 = `${TOSTRING_LOCALISED(int6, 1)} x ${TOSTRING_LOCALISED_LONG(long0, 1)}<br>=<br>${TOSTRING_LOCALISED_LONG(MULTIPLY_LONG(INT_TO_LONG(int6), long0), 1)}`;
                     };
@@ -94,7 +98,7 @@ function script2184(int0: number, int1: number, int2: number): void {
         CC_DELETEALL(int1);
         IF_SETPOSITION(0, IF_GETY(int0), 1, 0, int0);
     };
-    if (branch_lt_long[372](varclient_7153, 0n)) {
+    if (LONG_BRANCH_LESS_THAN(varclient_7153, 0n)) {
         IF_SETTEXT("Total value:<br>---", int2);
     } else {
         IF_SETTEXT(`Total value:<br>${TOSTRING_LOCALISED_LONG(varclient_7153, 1)}`, int2);

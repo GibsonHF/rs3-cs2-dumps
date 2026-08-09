@@ -2,12 +2,14 @@
 function script20043(): void {
     CC_DELETEALL(comp(1253, 556));
     var int0 = -1;
-    while ((++int0 <= 2)) {
+    int0 = (int0 + 1);
+    while ((int0 <= 2)) {
         CC_CREATE(comp(1253, 556), 5, int0);
     };
     var int1 = -1;
     int0 = 0;
-    while ((++int0 <= 2)) {
+    int0 = (int0 + 1);
+    while ((int0 <= 2)) {
         switch (int0) {
             case 1: {
                 int1 = 87949336;

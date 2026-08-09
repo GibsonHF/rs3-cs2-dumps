@@ -5,7 +5,8 @@ function script7476(int0: number, int1: number, int2: number): number {
     var int5 = 0;
     var string0 = "";
     var string1 = "";
-    while ((++int3 < 4)) {
+    int3 = (int3 + 1);
+    while ((int3 < 4)) {
         int4 = 0;
         int5 = 0;
         switch (int3) {

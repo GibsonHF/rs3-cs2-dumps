@@ -3,14 +3,14 @@ function script17821(int0: number): void {
     var int1 = script10061();
     var int2 = -1;
     var int3 = 2;
-    var int4 = -1 as obj;
+    var int4 = -1;
     var int5 = 0;
-    var int6 = false;
+    var int6 = 0;
     var int7 = 0;
     var int8 = -1;
-    var int9 = comp(-1, 65535);
+    var int9 = -1;
     var int10 = -1;
-    var int11 = -1 as obj;
+    var int11 = -1;
     IF_SETHIDE(true, comp(1023, 92));
     IF_SETHIDE(true, comp(1023, 90));
     IF_SETHIDE(true, comp(1023, 88));
@@ -18,14 +18,15 @@ function script17821(int0: number): void {
     IF_SETHIDE(true, comp(1023, 89));
     IF_SETHIDE(true, comp(1023, 91));
     IF_SETHIDE(true, comp(1023, 93));
-    while ((++int10 < DB_GETFIELDCOUNT(int1, 1392720))) {
+    int10 = (int10 + 1);
+    while ((int10 < DB_GETFIELDCOUNT(int1, 1392720))) {
         [int4, int5, int8, int6] = dbrow_getfield(int1, 1392720, int10);
         int11 = int4;
-        if ((int4 != -1 as obj)) {
+        if ((int4 != -1)) {
             switch (int5) {
                 case 1: {
-                    int9 = comp(1023, 87);
-                    if ((varplayer_11329 != -1 as obj)) {
+                    int9 = 67043415;
+                    if ((varplayer_11329 != -1)) {
                         int11 = varplayer_11329;
                         int2 = script20351(script20349());
                         if ((script15109() == 1)) {
@@ -35,8 +36,8 @@ function script17821(int0: number): void {
                     break;
                 }
                 case 2: {
-                    int9 = comp(1023, 89);
-                    if ((varplayer_11700 != -1 as obj)) {
+                    int9 = 67043417;
+                    if ((varplayer_11700 != -1)) {
                         int11 = varplayer_11700;
                         int2 = script20351(int4);
                         int3 = 3;
@@ -44,11 +45,11 @@ function script17821(int0: number): void {
                     break;
                 }
                 case 3: {
-                    int9 = comp(1023, 91);
+                    int9 = 67043419;
                     break;
                 }
                 case 4: {
-                    int9 = comp(1023, 93);
+                    int9 = 67043421;
                     break;
                 }
             };
@@ -56,14 +57,14 @@ function script17821(int0: number): void {
                 int8 = -1;
             };
             IF_SETOBJECT(int11, int8, int9);
-            if ((int9 != comp(-1, 65535))) {
+            if ((int9 != -1)) {
                 IF_SETHIDE(false, int9);
             };
-            if (((int6 == true) && (int2 != -1))) {
+            if (((int6 == 1) && (int2 != -1))) {
                 IF_SETOP(1, "Select", int9);
                 IF_SETOPCURSOR(1, 46, int9);
                 IF_SETONOP(callback(script17822, int11, int9, int2, int3), int9);
-                IF_SETHIDE(0, int9);
+                IF_SETHIDE(false, int9);
             };
         };
     };

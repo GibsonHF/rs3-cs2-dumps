@@ -56,6 +56,7 @@ function script17443(int0: number, int1: number): number {
             return struct_getparam(int0, 8910);
         }
         case 18: {
+            break;
         }
         default: {
             return 0;

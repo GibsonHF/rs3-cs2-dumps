@@ -10,13 +10,16 @@ function script12191(int0: number): number {
     var int3 = 0;
     var int4 = 0;
     var int5 = -1 as dbrow;
-    while ((int1-- > 0)) {
+    stack(int1);
+    int1 = (int1 - 1);
+    while (BRANCH_GREATER_THAN(0)) {
         if ((CC_FIND(comp(1712, 3), int1) == 1)) {
             int5 = cc_getparam(5529);
             if ((int5 != -1 as dbrow)) {
                 int4 = 1;
                 int2 = -1;
-                while ((++int2 < int3)) {
+                int2 = (int2 + 1);
+                while ((int2 < int3)) {
                     if ((int5 == push_array(int2))) {
                         pop_array[1](int2, (push_array[1](int2) + int4));
                         int2 = int3;
@@ -35,7 +38,8 @@ function script12191(int0: number): number {
     var string0 = "";
     var string1 = "";
     int1 = -1;
-    while ((++int1 < int3)) {
+    int1 = (int1 + 1);
+    while ((int1 < int3)) {
         if ((((push_array(int1) != -1) && (push_array[1](int1) > 0)) && (script12054(dbrow_getfield(push_array(int1), 16384, 0)) < (push_array[1](int1) * script12065(push_array(int1)))))) {
             return 0;
         };

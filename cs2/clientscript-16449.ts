@@ -1,12 +1,11 @@
 //
 function script16449(): void {
-    var int0 = comp(1486, 14);
+    var int0 = 97386510;
     var int1 = cc_getparam(4261);
     stack(696320);
     stack(int1);
     DB_FIND(0);
-    dbrow_findnext();
-    var int2 = stack();
+    var int2 = dbrow_findnext();
     if ((int2 == -1)) {
         return;
     };
@@ -22,7 +21,7 @@ function script16449(): void {
         return;
     };
     var int11 = enum_getvalue(0, 73, int9, MAX((int10 - 1), 0));
-    if ((int11 == -1 as struct)) {
+    if ((int11 == -1)) {
         return;
     };
     var int12 = 0;
@@ -45,7 +44,7 @@ function script16449(): void {
         int3 = (int3 * 2);
         int8 = 1;
     };
-    script7924(int0, IF_GETNEXTSUBID(int0), 35, 35, 0, 0, enum_getvalue(0, 23, 8548 as cs2enum, 21), 0, 0, 0, 0);
+    script7924(int0, IF_GETNEXTSUBID(int0), 35, 35, 0, 0, enum_getvalue(0, 23, 8548, 21), 0, 0, 0, 0);
     int6 = script14747(int0, (35 + (4 * 2)), int6, ((int3 - 35) - (4 * 2)), string1, int13, 40);
     int6 = script14748(int0, 0, int6);
     if ((STRING_LENGTH(string0) > 0)) {
@@ -57,10 +56,14 @@ function script16449(): void {
     var int16 = int6;
     var int17 = 0;
     var int18 = -1;
-    while ((++int7 < int10)) {
+    int7 = (int7 + 1);
+    while ((int7 < int10)) {
         int11 = enum_getvalue(0, 73, int9, int7);
-        if ((int11 != -1 as struct)) {
-            [int6, int15, int18] = script16450(int0, int6, ++int4, int3, int11, int10, int8, int17, int16, int18);
+        if ((int11 != -1)) {
+            stack(int0);
+            stack(int6);
+            int4 = (int4 + 1);
+            [int6, int15, int18] = script16450(int4, int3, int11, int10, int8, int17, int16, int18);
             if ((MODULO(int4, 2) == 1)) {
                 int16 = int6;
                 int17 = int15;

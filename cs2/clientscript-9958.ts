@@ -7,7 +7,8 @@ function script9958(int0: number, int1: number): void {
         } else if ((int1 < int2)) {
             if ((script8854() == int0)) {
                 script8841(script8855((int2 - 1)), 1);
-                if ((--int2 == int1)) {
+                int2 = (int2 - 1);
+                if ((int2 == int1)) {
                     return;
                 };
             };

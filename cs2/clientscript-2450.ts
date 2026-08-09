@@ -20,10 +20,27 @@ function script2450(int0: number, int1: number, int2: number, int3: number): voi
     var int12 = (int11 + int5);
     var int13 = (int11 + IF_GETHEIGHT(int6));
     var int14 = (int13 - int5);
-    if (((int4 >= int11) && (int4 <= int12))) {
-        int10 = -4;
-    } else if (((int4 >= int14) && (int4 <= int13))) {
-        int10 = 4;
+    if ((int4 >= int11)) {
+        if ((int4 <= int12)) {
+            int10 = -4;
+        } else if ((int4 >= int14)) {
+            if ((int4 <= int13)) {
+                int10 = 4;
+            } else {
+                varclient_821 = 0;
+                return;
+            };
+        } else {
+            varclient_821 = 0;
+            return;
+        };
+    } else if ((int4 >= int14)) {
+        if ((int4 <= int13)) {
+            int10 = 4;
+        } else {
+            varclient_821 = 0;
+            return;
+        };
     } else {
         varclient_821 = 0;
         return;

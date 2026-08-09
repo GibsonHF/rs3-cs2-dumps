@@ -26,10 +26,14 @@ function script20479(int0: number, string0: string): void {
                 int2 = (2 * STYLESHEET_GET_VALUE(int1, "groupbox.header.background.sprite.edge.horizontal", 0));
                 int2 = (int2 + PARAWIDTH(string0, 2147483647, CC_GETFONTMETRICS()));
                 int2 = (int2 + (int5 * 2));
-            } else if (((STYLESHEET_HAS_VALUE(int1, "groupbox.header.background.sprite.edge.left") == 1) && (STYLESHEET_HAS_VALUE(int1, "groupbox.header.background.sprite.edge.right") == 1))) {
-                int2 = (STYLESHEET_GET_VALUE(int1, "groupbox.header.background.sprite.edge.left", 0) + STYLESHEET_GET_VALUE(int1, "groupbox.header.background.sprite.edge.right", 0));
-                int2 = (int2 + PARAWIDTH(string0, 2147483647, CC_GETFONTMETRICS()));
-                int2 = (int2 + (int5 * 2));
+            } else if ((STYLESHEET_HAS_VALUE(int1, "groupbox.header.background.sprite.edge.left") == 1)) {
+                if ((STYLESHEET_HAS_VALUE(int1, "groupbox.header.background.sprite.edge.right") == 1)) {
+                    int2 = (STYLESHEET_GET_VALUE(int1, "groupbox.header.background.sprite.edge.left", 0) + STYLESHEET_GET_VALUE(int1, "groupbox.header.background.sprite.edge.right", 0));
+                    int2 = (int2 + PARAWIDTH(string0, 2147483647, CC_GETFONTMETRICS()));
+                    int2 = (int2 + (int5 * 2));
+                } else {
+                    int2 = CC_GETWIDTH();
+                };
             } else {
                 int2 = CC_GETWIDTH();
             };

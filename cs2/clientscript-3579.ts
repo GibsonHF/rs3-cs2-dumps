@@ -7,27 +7,27 @@ function script3579(int0: number, int1: number, int2: number, int3: number, int4
         return string0;
     };
     if ((int1 > -1)) {
-        string0 = `${string0}, ${struct_getparam(enum_getvalue(0, 73, 15791 as cs2enum, int1), 7456)}`;
+        string0 = `${string0}, ${struct_getparam(enum_getvalue(0, 73, 15791, int1), 7456)}`;
     } else {
         return string0;
     };
     if ((int2 > -1)) {
-        string0 = `${string0}, ${struct_getparam(enum_getvalue(0, 73, 15791 as cs2enum, int2), 7456)}`;
+        string0 = `${string0}, ${struct_getparam(enum_getvalue(0, 73, 15791, int2), 7456)}`;
     } else {
         return string0;
     };
     if ((int3 > -1)) {
-        string0 = `${string0}, ${struct_getparam(enum_getvalue(0, 73, 15791 as cs2enum, int3), 7456)}`;
+        string0 = `${string0}, ${struct_getparam(enum_getvalue(0, 73, 15791, int3), 7456)}`;
     } else {
         return string0;
     };
     if ((int4 > -1)) {
-        string0 = `${string0}, ${struct_getparam(enum_getvalue(0, 73, 15791 as cs2enum, int4), 7456)}`;
+        string0 = `${string0}, ${struct_getparam(enum_getvalue(0, 73, 15791, int4), 7456)}`;
     } else {
         return string0;
     };
     if ((int5 > -1)) {
-        string0 = `${string0}, ${struct_getparam(enum_getvalue(0, 73, 15791 as cs2enum, int5), 7456)}`;
+        string0 = `${string0}, ${struct_getparam(enum_getvalue(0, 73, 15791, int5), 7456)}`;
     };
     return string0;
 }

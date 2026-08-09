@@ -3,7 +3,8 @@ function script17484(int0: number, int1: number): number {
     var int2 = 0;
     var int3 = DB_GETFIELDCOUNT(int0, 950288);
     var int4 = -1;
-    while ((++int4 < int3)) {
+    int4 = (int4 + 1);
+    while ((int4 < int3)) {
         if ((script17485(int0, dbrow_getfield(int0, 950288, int4)) == int1)) {
             int2 = (int2 + 1);
         };

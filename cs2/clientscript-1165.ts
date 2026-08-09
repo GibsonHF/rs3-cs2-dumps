@@ -19,7 +19,7 @@ function script1165(int0: number, int1: number): void {
         int3 = CC_GETMODELYOF();
         int4 = CC_GETMODELZOOM();
         CC_GETMODELANGLE_X();
-        int5 = stack();
+        int5 = [];
         int6 = (CC_GETMODELANGLE_Y() + 2);
         int7 = CC_GETMODELANGLE_Z();
         CC_SETMODELANGLE(int2, int3, int5, int6, int7, int4);

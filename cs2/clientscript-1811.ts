@@ -21,8 +21,7 @@ function script1811(int0: number, int1: number, int2: number): void {
     var int10 = -1;
     var int11 = -1;
     while ((int9 <= int3)) {
-        stack(unk11059(int9));
-        [int5, string0, int6, string1, string2, string3, string4, int7, string5, int8, int11] = stack();
+        [int5, string0, int6, string1, string2, string3, string4, int7, string5, int8, int11] = unk11059(int9);
         switch (int5) {
             case 1:
             case 2:

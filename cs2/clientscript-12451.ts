@@ -5,12 +5,12 @@ function script12451(int0: number, int1: number): void {
     };
     if ((int0 == 0)) {
         CAM2_GETPOSITIONPOINT_POINT();
-        MOVECOORD_FINE(stack(), 0, 0, (((varclient_4667 * int1) / 30) * -1), 0);
-        CAM2_SETPOSITIONPOINT_POINT(stack());
+        MOVECOORD_FINE(0, 0, (((varclient_4667 * int1) / 30) * -1), 0);
+        CAM2_SETPOSITIONPOINT_POINT();
     } else if ((int0 == 1)) {
         CAM2_GETPOSITIONPOINT_POINT();
-        MOVECOORD_FINE(stack(), 0, 0, ((varclient_4667 * int1) / 30), 0);
-        CAM2_SETPOSITIONPOINT_POINT(stack());
+        MOVECOORD_FINE(0, 0, ((varclient_4667 * int1) / 30), 0);
+        CAM2_SETPOSITIONPOINT_POINT();
     } else {
         return;
     };

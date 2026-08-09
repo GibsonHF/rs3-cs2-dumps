@@ -396,138 +396,209 @@ function script6414(int0: number, int1: number): void {
     if ((int2 != comp(-1, 65535))) {
         IF_SETHIDE(false, int2);
     };
-    if (((((int0 != 85721635) && (int0 != 85721647)) && (int0 != 85721659)) && (int0 != 85721671))) {
-        if ((int1 == 1)) {
-            switch (int0) {
-                case 85721853:
-                case 85721901:
-                case 85721965: {
-                    IF_SETTEXT("Already owned", int4);
-                    break;
-                }
-                case 85721202: {
-                    if ((STAT_BASE(1 as stat) < 30)) {
-                        IF_SETTEXT("Req: 30 Defence", int4);
+    if ((int0 != 85721635)) {
+        if ((int0 != 85721647)) {
+            if ((int0 != 85721659)) {
+                if ((int0 != 85721671)) {
+                    if ((int1 == 1)) {
+                        switch (int0) {
+                            case 85721853:
+                            case 85721901:
+                            case 85721965: {
+                                IF_SETTEXT("Already owned", int4);
+                                break;
+                            }
+                            case 85721202: {
+                                if ((STAT_BASE(1 as stat) < 30)) {
+                                    IF_SETTEXT("Req: 30 Defence", int4);
+                                } else {
+                                    IF_SETTEXT("No suitable helm", int4);
+                                };
+                                break;
+                            }
+                            case 85721237: {
+                                if ((STAT_BASE(1 as stat) < 50)) {
+                                    IF_SETTEXT("Req: 50 Defence", int4);
+                                } else {
+                                    IF_SETTEXT("No suitable helm", int4);
+                                };
+                                break;
+                            }
+                            case 85721272: {
+                                if ((STAT_BASE(1 as stat) < 70)) {
+                                    IF_SETTEXT("Req: 70 Defence", int4);
+                                } else {
+                                    IF_SETTEXT("No suitable helm", int4);
+                                };
+                                break;
+                            }
+                            case 85721290: {
+                                if ((STAT_BASE(1 as stat) < 70)) {
+                                    IF_SETTEXT("Req: 70 Defence", int4);
+                                } else {
+                                    IF_SETTEXT("No suitable helm", int4);
+                                };
+                                break;
+                            }
+                            case 85721772: {
+                                IF_SETTEXT("No suitable helm", int4);
+                                break;
+                            }
+                            case 85721788: {
+                                IF_SETTEXT("No suitable ring", int4);
+                                break;
+                            }
+                            case 85721949:
+                            case 85721917:
+                            case 85721933: {
+                                if ((TESTBIT(varplayer_1778, MODULO(34, 42)) == 0)) {
+                                    IF_SETTEXT("Requires pet", int4);
+                                } else {
+                                    IF_SETTEXT("Already owned", int4);
+                                };
+                                break;
+                            }
+                            case 85721500: {
+                                if ((varbitplayer_9054 < 250)) {
+                                    if ((script1858(8) == 0)) {
+                                        IF_SETTEXT("Req Smoking Kills", int4);
+                                    } else {
+                                        IF_SETTEXT("Already learned", int4);
+                                    };
+                                } else {
+                                    IF_SETTEXT("Already learned", int4);
+                                };
+                                break;
+                            }
+                            case 85721516: {
+                                if ((varbitplayer_9054 < 250)) {
+                                    if ((script1858(8) == 0)) {
+                                        IF_SETTEXT("Req Smoking Kills", int4);
+                                    } else {
+                                        IF_SETTEXT("Already learned", int4);
+                                    };
+                                } else {
+                                    IF_SETTEXT("Already learned", int4);
+                                };
+                                break;
+                            }
+                            case 85721220: {
+                                if (((varbitplayer_25043 == 0) || (varbitplayer_23198 < 400))) {
+                                    IF_SETTEXT("Req Plague's End", int4);
+                                } else {
+                                    IF_SETTEXT("Already bought", int4);
+                                };
+                                break;
+                            }
+                            case 85721308: {
+                                if (((STAT_BASE(18 as stat) < 99) || (varbitplayer_36286 < 3))) {
+                                    IF_SETTEXT("Locked", int4);
+                                };
+                                break;
+                            }
+                            case 85721325: {
+                                if ((((STAT_BASE(18 as stat) < 99) || (varbitplayer_36286 < 3)) || (varbitplayer_58246 < 138))) {
+                                    IF_SETTEXT("Locked", int4);
+                                } else {
+                                    IF_SETTEXT("Already bought", int4);
+                                };
+                                break;
+                            }
+                            default: {
+                                IF_SETTEXT("Already learned", int4);
+                                break;
+                            }
+                        };
                     } else {
-                        IF_SETTEXT("No suitable helm", int4);
+                        switch (int0) {
+                            case 85721237: {
+                                if ((varbitplayer_21750 == 0)) {
+                                    IF_SETTEXT("400 points", int4);
+                                } else {
+                                    IF_SETTEXT("40 points", int4);
+                                };
+                                break;
+                            }
+                            case 85721272: {
+                                if ((varbitplayer_21751 == 0)) {
+                                    IF_SETTEXT("600 points", int4);
+                                } else {
+                                    IF_SETTEXT("60 points", int4);
+                                };
+                                break;
+                            }
+                            case 85721290: {
+                                if ((varbitplayer_36284 == 0)) {
+                                    IF_SETTEXT("1000 points", int4);
+                                } else {
+                                    IF_SETTEXT("100 points", int4);
+                                };
+                                break;
+                            }
+                            case 85721949:
+                            case 85721917:
+                            case 85721933: {
+                                IF_SETTEXT("125 points", int4);
+                                break;
+                            }
+                        };
                     };
-                    break;
-                }
-                case 85721237: {
-                    if ((STAT_BASE(1 as stat) < 50)) {
-                        IF_SETTEXT("Req: 50 Defence", int4);
-                    } else {
-                        IF_SETTEXT("No suitable helm", int4);
+                } else {
+                    switch (int0) {
+                        case 85721635: {
+                            IF_SETTEXT("Cancel task", comp(1308, 557));
+                            break;
+                        }
+                        case 85721647: {
+                            IF_SETTEXT("Block task", comp(1308, 560));
+                            break;
+                        }
+                        case 85721659: {
+                            IF_SETTEXT("Extend task", comp(1308, 572));
+                            break;
+                        }
+                        case 85721671: {
+                            IF_SETTEXT("Prefer task", comp(1308, 584));
+                            break;
+                        }
                     };
-                    break;
-                }
-                case 85721272: {
-                    if ((STAT_BASE(1 as stat) < 70)) {
-                        IF_SETTEXT("Req: 70 Defence", int4);
-                    } else {
-                        IF_SETTEXT("No suitable helm", int4);
-                    };
-                    break;
-                }
-                case 85721290: {
-                    if ((STAT_BASE(1 as stat) < 70)) {
-                        IF_SETTEXT("Req: 70 Defence", int4);
-                    } else {
-                        IF_SETTEXT("No suitable helm", int4);
-                    };
-                    break;
-                }
-                case 85721772: {
-                    IF_SETTEXT("No suitable helm", int4);
-                    break;
-                }
-                case 85721788: {
-                    IF_SETTEXT("No suitable ring", int4);
-                    break;
-                }
-                case 85721949:
-                case 85721917:
-                case 85721933: {
-                    if ((TESTBIT(varplayer_1778, MODULO(34, 42)) == 0)) {
-                        IF_SETTEXT("Requires pet", int4);
-                    } else {
-                        IF_SETTEXT("Already owned", int4);
-                    };
-                    break;
-                }
-                case 85721500: {
-                    if (((varbitplayer_9054 < 250) && (script1858(8) == 0))) {
-                        IF_SETTEXT("Req Smoking Kills", int4);
-                    } else {
-                        IF_SETTEXT("Already learned", int4);
-                    };
-                    break;
-                }
-                case 85721516: {
-                    if (((varbitplayer_9054 < 250) && (script1858(8) == 0))) {
-                        IF_SETTEXT("Req Smoking Kills", int4);
-                    } else {
-                        IF_SETTEXT("Already learned", int4);
-                    };
-                    break;
-                }
-                case 85721220: {
-                    if (((varbitplayer_25043 == 0) || (varbitplayer_23198 < 400))) {
-                        IF_SETTEXT("Req Plague's End", int4);
-                    } else {
-                        IF_SETTEXT("Already bought", int4);
-                    };
-                    break;
-                }
-                case 85721308: {
-                    if (((STAT_BASE(18 as stat) < 99) || (varbitplayer_36286 < 3))) {
-                        IF_SETTEXT("Locked", int4);
-                    };
-                    break;
-                }
-                case 85721325: {
-                    if ((((STAT_BASE(18 as stat) < 99) || (varbitplayer_36286 < 3)) || (varbitplayer_58246 < 138))) {
-                        IF_SETTEXT("Locked", int4);
-                    } else {
-                        IF_SETTEXT("Already bought", int4);
-                    };
-                    break;
-                }
-                default: {
-                    IF_SETTEXT("Already learned", int4);
-                    break;
-                }
+                };
+            } else {
+                switch (int0) {
+                    case 85721635: {
+                        IF_SETTEXT("Cancel task", comp(1308, 557));
+                        break;
+                    }
+                    case 85721647: {
+                        IF_SETTEXT("Block task", comp(1308, 560));
+                        break;
+                    }
+                    case 85721659: {
+                        IF_SETTEXT("Extend task", comp(1308, 572));
+                        break;
+                    }
+                    case 85721671: {
+                        IF_SETTEXT("Prefer task", comp(1308, 584));
+                        break;
+                    }
+                };
             };
         } else {
             switch (int0) {
-                case 85721237: {
-                    if ((varbitplayer_21750 == 0)) {
-                        IF_SETTEXT("400 points", int4);
-                    } else {
-                        IF_SETTEXT("40 points", int4);
-                    };
+                case 85721635: {
+                    IF_SETTEXT("Cancel task", comp(1308, 557));
                     break;
                 }
-                case 85721272: {
-                    if ((varbitplayer_21751 == 0)) {
-                        IF_SETTEXT("600 points", int4);
-                    } else {
-                        IF_SETTEXT("60 points", int4);
-                    };
+                case 85721647: {
+                    IF_SETTEXT("Block task", comp(1308, 560));
                     break;
                 }
-                case 85721290: {
-                    if ((varbitplayer_36284 == 0)) {
-                        IF_SETTEXT("1000 points", int4);
-                    } else {
-                        IF_SETTEXT("100 points", int4);
-                    };
+                case 85721659: {
+                    IF_SETTEXT("Extend task", comp(1308, 572));
                     break;
                 }
-                case 85721949:
-                case 85721917:
-                case 85721933: {
-                    IF_SETTEXT("125 points", int4);
+                case 85721671: {
+                    IF_SETTEXT("Prefer task", comp(1308, 584));
                     break;
                 }
             };

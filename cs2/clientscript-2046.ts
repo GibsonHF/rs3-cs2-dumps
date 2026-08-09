@@ -2,15 +2,15 @@
 function script2046(int0: number): void {
     IF_SETONTIMER(callback(script2045, int0, 93126656, 0, 0, 0), int0);
     CC_DELETEALL(int0);
-    CC_DELETEALL(93192197);
-    CC_DELETEALL(93192198);
-    CC_DELETEALL(93192199);
-    CC_DELETEALL(93192200);
-    CC_DELETEALL(93192201);
-    CC_DELETEALL(93192202);
-    CC_DELETEALL(93192204);
-    CC_DELETEALL(93192223);
-    if ((PLAYERMEMBER() == 0)) {
+    CC_DELETEALL(comp(1422, 5));
+    CC_DELETEALL(comp(1422, 6));
+    CC_DELETEALL(comp(1422, 7));
+    CC_DELETEALL(comp(1422, 8));
+    CC_DELETEALL(comp(1422, 9));
+    CC_DELETEALL(comp(1422, 10));
+    CC_DELETEALL(comp(1422, 12));
+    CC_DELETEALL(comp(1422, 31));
+    if ((PLAYERMEMBER() == false)) {
         CC_DELETEALL(comp(1422, 20));
         CC_DELETEALL(comp(1422, 21));
         CC_DELETEALL(comp(1422, 22));

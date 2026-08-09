@@ -11,7 +11,7 @@ function script14931(int0: number, int1: number): void {
             return;
         };
         script14933(int0, IF_GETNEXTSUBID(int0), 0, 0, IF_GETWIDTH(int0), IF_GETHEIGHT(int0), dbrow_getfield(int1, 409776, 0));
-        if ((dbrow_getfield(int1, 409760, 0) == true)) {
+        if ((dbrow_getfield(int1, 409760, 0) == 1)) {
             script14934(int0, IF_GETNEXTSUBID(int0), int2, 0, 0, IF_GETWIDTH(int0), IF_GETHEIGHT(int0));
         };
     };

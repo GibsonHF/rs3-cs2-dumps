@@ -1,5 +1,4 @@
 //
-function script20458(int0: number, int1: number): number {
-    var int2 = script20465(int0, int1);
-    return int2;
+function script20458(long0: bigint, long1: bigint): bigint {
+    return MAX_LONG(1n, MIN_LONG(SUB_LONG(long0, 1n), SCALE_LONG(long1, 100n, long0)));
 }

@@ -2,7 +2,7 @@
 function script20786(int0: number): void {
     var int1 = 0;
     unk11177();
-    if ((stack() > 0)) {
+    if (BRANCH_GREATER_THAN(0)) {
         switch (RANDOM(7)) {
             case 0: {
                 SOUND_VORBIS_RATE(RANDOM_SOUND_PITCH(59903 as vorbis, 1, 0, 135, 15, 15));

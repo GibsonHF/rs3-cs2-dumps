@@ -15,8 +15,7 @@ function script10064(): void {
     var int4 = 0;
     var int5 = 0;
     var string2 = "";
-    stack(WORLDLIST_SPECIFIC(int1));
-    [int2, string0, int3, string1, int4, int5, string2] = stack();
+    [int2, string0, int3, string1, int4, int5, string2] = WORLDLIST_SPECIFIC(int1);
     var int6 = -1 as graphic;
     var string3 = "";
     var string4 = "";

@@ -16,10 +16,10 @@ function script14773(int0: number): void {
     var int6 = 0;
     var int7 = 0;
     var string0 = "";
-    if ((dbrow_getfield(varplayer_9212, 340016, 0) == true)) {
+    if ((dbrow_getfield(varplayer_9212, 340016, 0) == 1)) {
         int3 = 20;
     };
-    if ((dbrow_getfield(int1, 344192, 0) == true)) {
+    if ((dbrow_getfield(int1, 344192, 0) == 1)) {
         int4 = 20;
         IF_SETHIDE(false, comp(656, 13));
     } else {
@@ -47,9 +47,10 @@ function script14773(int0: number): void {
     int7 = script14767(42991633, 42991637, 42991636, int1, 0, 0, IF_GETWIDTH(comp(656, 16)), IF_GETHEIGHT(comp(656, 16)), (IF_GETWIDTH(comp(656, 16)) - 19), 0);
     var int8 = DB_GETFIELDCOUNT(int1, 344272);
     var int9 = -1;
-    while ((++int9 < int8)) {
+    int9 = (int9 + 1);
+    while ((int9 < int8)) {
         if ((CC_FIND(comp(656, 20), int9) == 1)) {
-            if ((dbrow_getfield(int1, 344192, 0) == true)) {
+            if ((dbrow_getfield(int1, 344192, 0) == 1)) {
                 CC_SETOPCURSOR(1, 44);
                 CC_SETOP(1, "Share");
             };

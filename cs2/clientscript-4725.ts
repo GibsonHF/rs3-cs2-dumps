@@ -4,9 +4,9 @@ function script4725(): void {
     var int1 = 20316161;
     var int2 = comp(310, 20);
     var int3 = 20316181;
-    var int4 = 20316183;
+    var int4 = comp(310, 23);
     var int5 = comp(310, 22);
-    var int6 = 20316186;
+    var int6 = comp(310, 26);
     var string0 = "";
     CC_DELETEALL(int2);
     CC_DELETEALL(int5);
@@ -35,14 +35,14 @@ function script4725(): void {
         CC_SETONMOUSEOVER(callback(script5336, -2147483645, -2147483643, int11));
         CC_SETONMOUSELEAVE(callback(script5336, -2147483645, -2147483643, int10));
         CC_SETTARGETVERB("Add Actor");
-        CC_SETTARGETCURSORS(176, -1);
+        CC_SETTARGETCURSORS(176 as cursor, -1 as cursor);
         CC_CREATE(int6, 3, IF_GETNEXTSUBID(int6));
         CC_SETSIZE(12, 13, 0, 0);
         CC_SETPOSITION(18, (1 + (int9 * int7)), 2, 0);
         string0 = "Add someone to the actor list. Click this, then click on the person you would like to add.";
         CC_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643));
         CC_SETONMOUSELEAVE(callback(script8805));
-        int10 = 7718;
+        int10 = 7718 as graphic;
         int11 = 7719;
         CC_CREATE(int4, 5, int9);
         CC_SETGRAPHIC(int10);
@@ -69,6 +69,6 @@ function script4725(): void {
     };
     IF_SETGRAPHIC(int10, comp(310, 27));
     IF_SETONMOUSEOVER(callback(script44, -2147483645, int11), comp(310, 27));
-    IF_SETONMOUSELEAVE(callback(script44, -2147483645, int10), 20316187);
+    IF_SETONMOUSELEAVE(callback(script44, -2147483645, int10), comp(310, 27));
     return;
 }

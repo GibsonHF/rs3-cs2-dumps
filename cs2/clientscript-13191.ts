@@ -1,5 +1,5 @@
 //
-function script13191(int0: number, int1: number): [string, number] {
+function script13191(int0: number, int1: number): [number, string] {
     if ((int1 < 0)) {
         return ["", -1];
     };

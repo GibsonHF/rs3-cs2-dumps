@@ -10,8 +10,12 @@ function script6593(int0: number): void {
         int5 = script10405(int3);
         if ((int5 != -1)) {
             if ((struct_getparam(int5, 3533) == true)) {
-                if (((int0 == 1) && (int1 == 1))) {
-                    script8393(int3, 1);
+                if ((int0 == 1)) {
+                    if ((int1 == 1)) {
+                        script8393(int3, 1);
+                    } else {
+                        script8393(int3, 0);
+                    };
                 } else {
                     script8393(int3, 0);
                 };

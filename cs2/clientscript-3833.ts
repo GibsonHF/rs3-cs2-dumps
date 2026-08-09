@@ -33,23 +33,27 @@ function script3833(int0: number, int1: number): number {
                 int13 = 0;
                 int14 = (int14 - 1);
             };
-        } else if (((int3 != -1 as obj) && (int4 > 0))) {
-            [int3, int5, int4] = script2734(int0, int3, int5, int4);
-            int15 = script7115(int0, int4, int3, int5, int2);
-            if ((OC_STACKABLE(int3) == 0)) {
-                int13 = 0;
-                int14 = (int14 - 1);
-            };
-            if ((int15 != -1)) {
-                if ((int7 == false)) {
-                    if ((((2147483647 - int15) - ((int4 * int12) - 1)) <= 0)) {
-                        int8 = MIN(int8, ((int15 - int16) / ((int4 * int12) - 1)));
-                    } else {
-                        int8 = MIN(int8, ((int15 + ((int4 * int12) - 1)) / (int4 * int12)));
-                    };
-                } else {
-                    int8 = MIN(int8, (int15 / int4));
+        } else if ((int3 != -1 as obj)) {
+            if ((int4 > 0)) {
+                [int3, int5, int4] = script2734(int0, int3, int5, int4);
+                int15 = script7115(int0, int4, int3, int5, int2);
+                if ((OC_STACKABLE(int3) == 0)) {
+                    int13 = 0;
+                    int14 = (int14 - 1);
                 };
+                if ((int15 != -1)) {
+                    if ((int7 == false)) {
+                        if ((((2147483647 - int15) - ((int4 * int12) - 1)) <= 0)) {
+                            int8 = MIN(int8, ((int15 - int16) / ((int4 * int12) - 1)));
+                        } else {
+                            int8 = MIN(int8, ((int15 + ((int4 * int12) - 1)) / (int4 * int12)));
+                        };
+                    } else {
+                        int8 = MIN(int8, (int15 / int4));
+                    };
+                };
+            } else if ((((int6 == -1 as struct) && (int3 == -1 as obj)) && (int4 <= 0))) {
+                int9 = 11;
             };
         } else if ((((int6 == -1 as struct) && (int3 == -1 as obj)) && (int4 <= 0))) {
             int9 = 11;

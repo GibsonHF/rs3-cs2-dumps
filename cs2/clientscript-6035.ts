@@ -3,7 +3,7 @@ function script6035(int0: number, int1: number, int2: number, int3: number): num
     if ((int2 == 54603 as obj)) {
         return 1;
     };
-    if (((int0 == -1 as stat) && (script16690(int0, int2) == 0))) {
+    if (((int0 == -1) && (script16690(int0, int2) == 0))) {
         if ((int3 == 1)) {
             printmessage("You cannot use this on the currently embargoed skill.");
             SOUND_VORBIS_VOLUME(10046 as vorbis, 1, 0, 150);
@@ -1168,7 +1168,7 @@ function script6035(int0: number, int1: number, int2: number, int3: number): num
         case 44607:
         case 44608:
         case 44609: {
-            if ((int0 == 26 as stat)) {
+            if ((int0 == 26)) {
                 return 0;
             };
             break;

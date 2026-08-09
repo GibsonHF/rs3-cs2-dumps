@@ -12,7 +12,7 @@ function script18874(int0: number, string0: string): string {
     } else if ((int2 > 0)) {
         string0 = strconcat(string0, `Location: ${enum_getvalue(0, 36, 11811 as cs2enum, int2)}<br>`);
     } else if ((int1 > 0)) {
-        string0 = strconcat(string0, `Location: ${enum_getvalue(0, 36, 11811 as cs2enum, int1)}<br>`);
+        string0 = strconcat(string0, `Location: ${enum_getvalue(0, 36, 11811, int1)}<br>`);
     };
     var int3 = script18920(int0, 19);
     if ((int3 > 0)) {

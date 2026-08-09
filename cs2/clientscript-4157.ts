@@ -9,8 +9,7 @@ function script4157(): number {
     stack(348240);
     stack(varplayer_1831);
     DB_FIND(0);
-    dbrow_findnext();
-    var int0 = stack();
+    var int0 = dbrow_findnext();
     if ((int0 == -1)) {
         switch (script8085()) {
             case 1: {

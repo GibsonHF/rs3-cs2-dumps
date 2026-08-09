@@ -12,20 +12,20 @@ function script12881(int0: number): void {
     };
     var int5 = -1;
     var int6 = comp(1802, 158);
-    var int7 = 118096033;
+    var int7 = comp(1802, 161);
     var int8 = 118096034;
-    var int9 = 118096032;
-    var int10 = 118096042;
-    var int11 = 118096039;
+    var int9 = comp(1802, 160);
+    var int10 = comp(1802, 170);
+    var int11 = comp(1802, 167);
     var int12 = comp(1802, 163);
     CC_DELETEALL(int6);
     if (((int0 == 9802) || (int0 == 40974))) {
         int6 = comp(1930, 67);
-        int7 = 126484706;
+        int7 = comp(1930, 226);
         int8 = 126484707;
-        int9 = 126484708;
-        int10 = 126484716;
-        int11 = 126484713;
+        int9 = comp(1930, 228);
+        int10 = comp(1930, 236);
+        int11 = comp(1930, 233);
         int12 = comp(1930, 229);
     };
     IF_SETONVARTRANSMIT(callback(script12880, int0, 9782, 9781, 2), int12);
@@ -49,7 +49,8 @@ function script12881(int0: number): void {
     var int15 = -1 as struct;
     var int16 = -1;
     int5 = -1;
-    while ((++int5 < int4)) {
+    int5 = (int5 + 1);
+    while ((int5 < int4)) {
         int15 = enum_getvalue(0, 73, int1, int5);
         script3412(34906, int15, int7, int8, int9, 5, int5);
     };

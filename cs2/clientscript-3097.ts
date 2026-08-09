@@ -3,15 +3,15 @@ function script3097(): void {
     IF_CLEAROPS(comp(820, 12));
     IF_CLEAROPS(comp(820, 13));
     IF_SETONCLICK(callback(), comp(820, 12));
-    IF_SETONCLICK(callback(), 53739533);
-    IF_SETONOP(callback(), 53739532);
-    IF_SETONOP(callback(), 53739533);
-    IF_SETHIDE(1, 53739532);
-    IF_SETHIDE(1, 53739533);
-    IF_SETTEXT("", 53739530);
-    IF_SETHIDE(1, 53739529);
-    IF_SETHIDE(1, 53739526);
-    IF_SETONKEY(callback(), 59375767);
-    IF_SETHIDE(1, 59375767);
+    IF_SETONCLICK(callback(), comp(820, 13));
+    IF_SETONOP(callback(), comp(820, 12));
+    IF_SETONOP(callback(), comp(820, 13));
+    IF_SETHIDE(true, comp(820, 12));
+    IF_SETHIDE(true, comp(820, 13));
+    IF_SETTEXT("", comp(820, 10));
+    IF_SETHIDE(true, comp(820, 9));
+    IF_SETHIDE(true, comp(820, 6));
+    IF_SETONKEY(callback(), comp(906, 151));
+    IF_SETHIDE(true, comp(906, 151));
     return;
 }

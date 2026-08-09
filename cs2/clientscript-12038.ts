@@ -5,7 +5,7 @@ function script12038(int0: number): number {
             return 1;
         };
         if ((enum_hasoutput(17, 5472 as cs2enum, int0) == 1)) {
-            if ((((int0 == 27 as stat) || (int0 == 28 as stat)) || (int0 == 22 as stat))) {
+            if ((((int0 == 27) || (int0 == 28)) || (int0 == 22))) {
                 return 20;
             };
             return 5;

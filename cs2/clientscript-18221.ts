@@ -32,7 +32,8 @@ function script18221(): void {
     script7925(int1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 7, 1, 0);
     script7925(int2, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 7, 1, 0);
     int5 = 0;
-    while ((++int5 <= 7)) {
+    int5 = (int5 + 1);
+    while ((int5 <= 7)) {
         IF_CREATENESTED(0, int5, 0, 0, 0, int1);
         CC_SETSIZE(16384, 16384, 2, 2);
         script18223(int1, int5, (int5 - 1), 1, 3);
@@ -41,8 +42,8 @@ function script18221(): void {
         script18223(int2, int5, (int5 - 1), 0, 2);
     };
     IF_SETONVARTRANSMIT(callback(script18220, 10297, 10298, 2), comp(1343, 30));
-    IF_SETHIDE(PLAYERMEMBER(), 88015018);
+    IF_SETHIDE(PLAYERMEMBER(), comp(1343, 170));
     script18222(88015019);
-    IF_SETPOSITION((6 + STRINGWIDTH(IF_GETTEXT(88015050), 168)), 4, 2, 0, 88015049);
+    IF_SETPOSITION((6 + STRINGWIDTH(IF_GETTEXT(comp(1343, 202)), 168 as fontmetrics)), 4, 2, 0, comp(1343, 201));
     return;
 }

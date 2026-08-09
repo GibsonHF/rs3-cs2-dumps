@@ -23,16 +23,16 @@ function script15867(int0: number): void {
     var int8 = ((int7 - 128) + 9);
     var int9 = 0;
     var int10 = 0;
-    var int11 = -1 as struct;
+    var int11 = -1;
     var int12 = -1;
     var int13 = -1;
     var int14 = -1;
-    var int15 = -1 as cs2enum;
+    var int15 = -1;
     var int16 = ((40 / 2) - 11);
     while ((int9 < int6)) {
         int11 = enum_getvalue(0, 73, 10680 as cs2enum, push_array(int9));
         int15 = script755(int11);
-        if ((int15 != -1 as cs2enum)) {
+        if ((int15 != -1)) {
             CC_CREATE(int2, 4, IF_GETNEXTSUBID(int2));
             CC_SETSIZE(int8, 40, 1, 0);
             CC_SETPOSITION(9, int10, 0, 0);
@@ -41,9 +41,17 @@ function script15867(int0: number): void {
             CC_SETCOLOUR(script693(255, 255, 255));
             CC_SETTEXT(struct_getparam(int11, 6647));
             [int12, int13] = script11599(int0, int11);
-            if (((int12 == 0) || ((int11 == 37632 as struct) && (varbitplayer_36983 == 1)))) {
+            if ((int12 == 0)) {
                 int14 = (ENUM_GETOUTPUTCOUNT(int15) - 1);
-            } else if ((int11 == 37641 as struct)) {
+            } else if ((int11 == 37632)) {
+                if ((varbitplayer_36983 == 1)) {
+                    int14 = (ENUM_GETOUTPUTCOUNT(int15) - 1);
+                } else if ((int11 == 37641)) {
+                    int14 = int12;
+                } else {
+                    int14 = int13;
+                };
+            } else if ((int11 == 37641)) {
                 int14 = int12;
             } else {
                 int14 = int13;

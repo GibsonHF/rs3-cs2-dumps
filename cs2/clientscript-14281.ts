@@ -14,16 +14,16 @@ function script14281(int0: number): [number, number, string] {
         }
         case 2: {
             if ((script14283() == 0)) {
-                return [1, -1 as graphic, "<col=BA2D14>Level requirements not met."];
+                return [1, -1, "<col=BA2D14>Level requirements not met."];
             };
             break;
         }
         case 3: {
             if ((script14283() == 0)) {
-                return [1, -1 as graphic, "<col=BA2D14>Level requirements not met."];
+                return [1, -1, "<col=BA2D14>Level requirements not met."];
             };
             if ((varbitplayer_13118 < 40)) {
-                return [1, -1 as graphic, "<col=BA2D14>Quest requirements not met."];
+                return [1, -1, "<col=BA2D14>Quest requirements not met."];
             };
             break;
         }

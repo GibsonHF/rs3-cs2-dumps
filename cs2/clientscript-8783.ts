@@ -1,13 +1,13 @@
 //
 function script8783(int0: number, int1: number, int2: number): void {
     IF_SETONRESIZE(callback(), int2);
-    var int3 = ENUM_GETOUTPUTCOUNT(7717);
+    var int3 = ENUM_GETOUTPUTCOUNT(7717 as cs2enum);
     var int4 = 0;
     var int5 = -1;
-    var int6 = -1;
+    var int6 = comp(-1, 65535);
     var int7 = 1;
     var int8 = script10405(int0);
-    var int9 = -1;
+    var int9 = comp(-1, 65535);
     if ((int8 != -1)) {
         int9 = struct_getparam(int8, 3503);
         if (((int9 != comp(-1, 65535)) && (IF_GETHIDE(int9) == false))) {

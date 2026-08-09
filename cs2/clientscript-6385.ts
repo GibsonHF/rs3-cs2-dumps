@@ -57,7 +57,8 @@ function script6385(): void {
     if ((varclient_5836 != -1 as obj)) {
         int0 = MAX(PARAWIDTH(OC_NAME(varclient_5836), 2147483647, 26 as fontmetrics), int0);
     };
-    int0 = MAX((++int0 + (4 * 2)), 56);
+    int0 = (int0 + 4);
+    int0 = MAX((int0 + (4 * 2)), 56);
     int1 = script5528(int2, int0, int2, varclient_1703, 77266953, 77266956, 77266955, 77266957);
     int1 = script5528(int1, int0, int2, varclient_1704, 77266958, 77266961, 77266960, 77266962);
     int1 = script5528(int1, int0, int2, varclient_1705, 77266963, 77266966, 77266965, 77266967);
@@ -136,23 +137,17 @@ function script6385(): void {
         IF_SETSCROLLSIZE(int1, 0, comp(1179, 8));
         IF_SETSCROLLPOS(varclient_93, 0, comp(1179, 8));
         IF_SETONMOUSEREPEAT(callback(script5532, -2147483645, -4), comp(1179, 5));
-        IF_SETONMOUSEREPEAT(callback(script5532, -2147483645, 4), 77266950);
-        stack(5532);
-        stack(-2147483645);
-        stack(-6);
-        stack("ii");
+        IF_SETONMOUSEREPEAT(callback(script5532, -2147483645, 4), comp(1179, 6));
+        stack(callback(script5532, -2147483645, -6));
         stack(77266949);
         IF_SETONHOLD();
-        stack(5532);
-        stack(-2147483645);
-        stack(6);
-        stack("ii");
+        stack(callback(script5532, -2147483645, 6));
         stack(77266950);
         IF_SETONHOLD();
-        IF_SETONCLICK(callback(script5532, -2147483645, -6), 77266949);
-        IF_SETONCLICK(callback(script5532, -2147483645, 6), 77266950);
-        IF_SETHIDE(0, 77266949);
-        IF_SETHIDE(0, 77266950);
+        IF_SETONCLICK(callback(script5532, -2147483645, -6), comp(1179, 5));
+        IF_SETONCLICK(callback(script5532, -2147483645, 6), comp(1179, 6));
+        IF_SETHIDE(false, comp(1179, 5));
+        IF_SETHIDE(false, comp(1179, 6));
         script5533();
     } else {
         IF_SETSCROLLSIZE(0, 0, comp(1179, 8));

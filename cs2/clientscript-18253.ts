@@ -29,8 +29,14 @@ function script18253(int0: number, int1: number): void {
     IF_SETONOP(callback(), comp(1343, 69));
     script16247(88014917, -1);
     var int7 = script6431();
-    if (((STRING_LENGTH(string1) > 0) && (((int7 == 1) && (int4 == false)) || (int7 == 0)))) {
-        script3536(string1, 88014917, -1);
+    if ((STRING_LENGTH(string1) > 0)) {
+        if ((int7 == 1)) {
+            if (((int4 == false) || (int7 == 0))) {
+                script3536(string1, 88014917, -1);
+            };
+        } else if ((int7 == 0)) {
+            script3536(string1, 88014917, -1);
+        };
     };
     if ((struct_getparam(int0, 2700) != -1 as coordgrid)) {
         IF_SETHIDE(false, comp(1343, 47));

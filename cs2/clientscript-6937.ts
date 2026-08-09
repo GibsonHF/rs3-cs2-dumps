@@ -16,27 +16,31 @@ function script6937(): void {
         int2 = INV_GETOBJ(676 as inv, int0);
         int3 = INV_GETNUM(676 as inv, int0);
         CC_CREATE(comp(636, 8), 5, int0);
-        if (((int2 != -1 as obj) && (int3 > 0))) {
-            CC_SETSIZE(36, 32, 0, 0);
-            CC_SETOBJECT(int2, int3);
-            int4 = (int1 / 4);
-            int5 = MODULO(int1, 4);
-            int6 = ((int5 * 40) + 2);
-            int7 = ((int4 * 40) + 4);
-            CC_SETPOSITION(int6, int7, 0, 0);
-            CC_SETOP(1, "Protect");
-            CC_SETOP(2, "Examine");
-            CC_SETOPBASE(OC_NAME(int2));
-            CC_SETONMOUSEREPEAT(callback(script11555, int2, int0));
-            if ((int0 < varbitplayer_28114)) {
-                CC_SETOP(1, "Deprotect");
-                CC_CREATE(comp(636, 0), 3, int0);
+        if ((int2 != -1 as obj)) {
+            if ((int3 > 0)) {
                 CC_SETSIZE(36, 32, 0, 0);
+                CC_SETOBJECT(int2, int3);
+                int4 = (int1 / 4);
+                int5 = MODULO(int1, 4);
+                int6 = ((int5 * 40) + 2);
+                int7 = ((int4 * 40) + 4);
                 CC_SETPOSITION(int6, int7, 0, 0);
-                CC_SETFILL(0);
-                script11024(1);
+                CC_SETOP(1, "Protect");
+                CC_SETOP(2, "Examine");
+                CC_SETOPBASE(OC_NAME(int2));
+                CC_SETONMOUSEREPEAT(callback(script11555, int2, int0));
+                if ((int0 < varbitplayer_28114)) {
+                    CC_SETOP(1, "Deprotect");
+                    CC_CREATE(comp(636, 0), 3, int0);
+                    CC_SETSIZE(36, 32, 0, 0);
+                    CC_SETPOSITION(int6, int7, 0, 0);
+                    CC_SETFILL(0);
+                    script11024(1);
+                };
+                int1 = (int1 + 1);
+            } else {
+                CC_SETHIDE(true);
             };
-            int1 = (int1 + 1);
         } else {
             CC_SETHIDE(true);
         };

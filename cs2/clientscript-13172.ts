@@ -14,7 +14,7 @@ function script13172(int0: number, int1: number): void {
             CC_SETSCROLLSIZE[1](int0, 0);
             script11147(120783110, 120783109);
             IF_SETONSCROLLWHEEL(callback(), comp(1843, 261));
-            IF_SETONSCROLLWHEEL(callback(script1701, 120783110, 120783109, -2147483646), 120783099);
+            IF_SETONSCROLLWHEEL(callback(script1701, 120783110, 120783109, -2147483646), comp(1843, 251));
             script14180();
         };
     };

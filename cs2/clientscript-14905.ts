@@ -1,11 +1,11 @@
 //
 function script14905(int0: number): void {
-    var int1 = -1 as dbrow;
+    var int1 = -1;
     var string0 = "";
     var int2 = -1 as graphic;
     var string1 = "";
     var string2 = "Assign";
-    if ((int0 != -1 as dbrow)) {
+    if ((int0 != -1)) {
         IF_SETHIDE(true, comp(693, 97));
         IF_SETHIDE(false, comp(693, 96));
         int1 = script14589(dbrow_getfield(int0, 372752, 0));
@@ -23,7 +23,7 @@ function script14905(int0: number): void {
             }
             case 3: {
                 string0 = "Unknown";
-                int2 = -1 as graphic;
+                int2 = -1;
                 string1 = "-";
                 string2 = "";
                 break;

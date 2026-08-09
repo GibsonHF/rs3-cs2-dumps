@@ -14,7 +14,7 @@ function script13337(int0: number): string {
                 return `${struct_getparam(int1, 6141)} x ${TOSTRING_LOCALISED(struct_getparam(int0, 4448), 1)}`;
             };
             int2 = script15143();
-            if (((int2 != -1) && (script15145(int2) != -1 as obj))) {
+            if (((int2 != -1) && (script15145(int2) != -1))) {
                 return `${OC_NAME(script15145(int2))} x ${TOSTRING_LOCALISED(struct_getparam(int0, 4448), 1)}`;
             };
             break;
@@ -29,7 +29,7 @@ function script13337(int0: number): string {
     var string0 = struct_getparam(int0, 4849);
     var int3 = struct_getparam(int0, 4851);
     if ((STRING_LENGTH(string0) == 0)) {
-        if ((int3 != -1 as obj)) {
+        if ((int3 != -1)) {
             string0 = OC_NAME(int3);
         } else {
             string0 = "null";

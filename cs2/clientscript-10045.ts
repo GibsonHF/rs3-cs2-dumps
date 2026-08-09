@@ -6,7 +6,7 @@ function script10045(int0: number, int1: number, int2: number, int3: number, int
     IF_SETONOP(callback(), int0);
     IF_SETONCLICK(callback(), int0);
     script13264(-1, 0, int4);
-    var int5 = 9861;
+    var int5 = 9861 as cs2enum;
     if ((int4 == 2)) {
         int5 = 9862 as cs2enum;
     };
@@ -47,7 +47,7 @@ function script10045(int0: number, int1: number, int2: number, int3: number, int
     } else {
         int7 = push_array(RANDOM(int9));
     };
-    if (((script17266(52316 as struct) == 1) && (RANDOM(2) == 0))) {
+    if (((script17266(52316) == 1) && (RANDOM(2) == 0))) {
         int7 = 52316 as struct;
     };
     switch (MAP_LANG()) {
@@ -84,16 +84,24 @@ function script10045(int0: number, int1: number, int2: number, int3: number, int
     switch (int7) {
         case 39677: {
             if ((varbitplayer_31201 == 0)) {
-                pop_array[1](int9++, 1);
+                stack(int9);
+                int9 = (int9 + 1);
+                pop_array[1](1);
             };
             if ((varbitplayer_31202 == 0)) {
-                pop_array[1](int9++, 2);
+                stack(int9);
+                int9 = (int9 + 1);
+                pop_array[1](2);
             };
             if ((varbitplayer_31203 == 0)) {
-                pop_array[1](int9++, 3);
+                stack(int9);
+                int9 = (int9 + 1);
+                pop_array[1](3);
             };
             if ((varbitplayer_31204 == 0)) {
-                pop_array[1](int9++, 4);
+                stack(int9);
+                int9 = (int9 + 1);
+                pop_array[1](4);
             };
             switch (push_array[1](RANDOM(int9))) {
                 case 1: {
@@ -117,16 +125,24 @@ function script10045(int0: number, int1: number, int2: number, int3: number, int
         }
         case 39679: {
             if ((varbitplayer_33770 == 0)) {
-                pop_array[1](int9++, 1);
+                stack(int9);
+                int9 = (int9 + 1);
+                pop_array[1](1);
             };
             if ((varbitplayer_33771 == 0)) {
-                pop_array[1](int9++, 2);
+                stack(int9);
+                int9 = (int9 + 1);
+                pop_array[1](2);
             };
             if ((varbitplayer_33772 == 0)) {
-                pop_array[1](int9++, 3);
+                stack(int9);
+                int9 = (int9 + 1);
+                pop_array[1](3);
             };
             if ((varbitplayer_33773 == 0)) {
-                pop_array[1](int9++, 4);
+                stack(int9);
+                int9 = (int9 + 1);
+                pop_array[1](4);
             };
             switch (push_array[1](RANDOM(int9))) {
                 case 1: {
@@ -150,13 +166,19 @@ function script10045(int0: number, int1: number, int2: number, int3: number, int
         }
         case 39685: {
             if ((varbitplayer_32669 == 0)) {
-                pop_array[1](int9++, 1);
+                stack(int9);
+                int9 = (int9 + 1);
+                pop_array[1](1);
             };
             if ((varbitplayer_32670 == 0)) {
-                pop_array[1](int9++, 2);
+                stack(int9);
+                int9 = (int9 + 1);
+                pop_array[1](2);
             };
             if ((varbitplayer_32671 == 0)) {
-                pop_array[1](int9++, 3);
+                stack(int9);
+                int9 = (int9 + 1);
+                pop_array[1](3);
             };
             switch (push_array[1](RANDOM(int9))) {
                 case 1: {
@@ -261,8 +283,13 @@ function script10045(int0: number, int1: number, int2: number, int3: number, int
                 string0 = "Marketplace";
             };
             int10 = 1;
-            if (((PLATFORMTYPE() != 0) && (PLATFORMTYPE() != 5))) {
-                script13264(14, 1, int4);
+            if ((PLATFORMTYPE() != 0)) {
+                if ((PLATFORMTYPE() != 5)) {
+                    script13264(14, 1, int4);
+                } else {
+                    IF_SETOP(1, "Select", int0);
+                    IF_SETONOP(callback(script15228, 19), int0);
+                };
             } else {
                 IF_SETOP(1, "Select", int0);
                 IF_SETONOP(callback(script15228, 19), int0);
@@ -322,9 +349,16 @@ function script10045(int0: number, int1: number, int2: number, int3: number, int
     var int12 = IF_GETWIDTH(int2);
     var int13 = 50;
     var string4 = "";
-    script10047(int2, int11++);
+    stack(int2);
+    stack(int11);
+    int11 = (int11 + 1);
+    script10047();
     string4 = "Loyalty Points";
-    CC_CREATE(int2, 4, int11++);
+    stack(int2);
+    stack(4);
+    stack(int11);
+    int11 = (int11 + 1);
+    CC_CREATE();
     if ((varclient_4660 > -1)) {
         CC_SETTEXT(inttostring(varclient_4660, 10));
     };
@@ -332,16 +366,24 @@ function script10045(int0: number, int1: number, int2: number, int3: number, int
     CC_SETPOSITION(int13, 0, 0, 2);
     CC_SETSIZE(((int12 / 2) - int13), 32, 0, 0);
     CC_SETTEXTALIGN(0, 1, 0);
-    CC_SETTEXTFONT(28);
+    CC_SETTEXTFONT(28 as fontmetrics);
     CC_SETCOLOUR(script10495(3));
-    CC_SETTEXTSHADOW(1);
-    CC_CREATE[1](int2, 5, int11++);
-    CC_SETGRAPHIC[1](23851);
+    CC_SETTEXTSHADOW(true);
+    stack(int2);
+    stack(5);
+    stack(int11);
+    int11 = (int11 + 1);
+    CC_CREATE[1]();
+    CC_SETGRAPHIC[1](23851 as graphic);
     CC_SETSIZE[1](34, 35, 0, 0);
     CC_SETPOSITION[1](((CC_GETX() - 20) - (CC_GETWIDTH[1]() / 2)), -1, 0, 2);
     CC_SETONMOUSEREPEAT[1](callback(script8799, string4, -2147483645, -2147483643));
     string4 = "Runecoins";
-    CC_CREATE(int2, 4, int11++);
+    stack(int2);
+    stack(4);
+    stack(int11);
+    int11 = (int11 + 1);
+    CC_CREATE();
     if ((varclient_4659 > -1)) {
         CC_SETTEXT(inttostring(varclient_4659, 10));
     };
@@ -349,11 +391,15 @@ function script10045(int0: number, int1: number, int2: number, int3: number, int
     CC_SETPOSITION(((int12 / 2) + int13), 0, 0, 2);
     CC_SETSIZE(((int12 / 2) - int13), 32, 0, 0);
     CC_SETTEXTALIGN(0, 1, 0);
-    CC_SETTEXTFONT(28);
+    CC_SETTEXTFONT(28 as fontmetrics);
     CC_SETCOLOUR(script10495(3));
-    CC_SETTEXTSHADOW(1);
-    CC_CREATE[1](int2, 5, int11++);
-    CC_SETGRAPHIC[1](23852);
+    CC_SETTEXTSHADOW(true);
+    stack(int2);
+    stack(5);
+    stack(int11);
+    int11 = (int11 + 1);
+    CC_CREATE[1]();
+    CC_SETGRAPHIC[1](23852 as graphic);
     CC_SETSIZE[1](34, 35, 0, 0);
     CC_SETPOSITION[1](((CC_GETX() - 20) - (CC_GETWIDTH[1]() / 2)), -1, 0, 2);
     CC_SETONMOUSEREPEAT[1](callback(script8799, string4, -2147483645, -2147483643));

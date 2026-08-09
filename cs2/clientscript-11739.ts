@@ -42,7 +42,7 @@ function script11739(int0: number, int1: number, int2: number, int3: number, int
         };
     } else if ((int0 == 2)) {
         IF_SETHIDE(false, comp(1657, 13));
-        IF_SETTEXT(struct_getparam(int1, 5216), comp(1657, 33));
+        IF_SETTEXT(struct_getparam(int1, 5216), 108593185);
         if ((int1 == 32062)) {
             IF_SETTEXT(`<col=ffff00>Goal: ${string2}`, comp(1657, 34));
         } else {
@@ -55,7 +55,7 @@ function script11739(int0: number, int1: number, int2: number, int3: number, int
         };
     } else if ((int0 == 3)) {
         IF_SETHIDE(false, comp(1657, 12));
-        IF_SETTEXT(struct_getparam(int1, 5216), comp(1657, 37));
+        IF_SETTEXT(struct_getparam(int1, 5216), 108593189);
         if ((int1 == 32062)) {
             IF_SETTEXT(`<col=ffff00>Goal: ${string2}`, comp(1657, 38));
         } else {

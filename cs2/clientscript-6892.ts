@@ -13,12 +13,20 @@ function script6892(): void {
         if ((int1 != -1 as obj)) {
             [int1, int2] = [OC_UNCERT(int1), INV_GETNUM(134 as inv, int0)];
             [int4, int5] = [0, 0];
-            while (((int4 < int3) && (int5 == 0))) {
-                if ((push_array(int4) == int1)) {
-                    pop_array[1](int4, (push_array[1](int4) + 1));
-                    int5 = 1;
+            while ((int4 < int3)) {
+                if ((int5 == 0)) {
+                    if ((push_array(int4) == int1)) {
+                        pop_array[1](int4, (push_array[1](int4) + 1));
+                        int5 = 1;
+                    };
+                    int4 = (int4 + 1);
                 };
-                int4 = (int4 + 1);
+                if ((int5 == 0)) {
+                    pop_array(int3, int1);
+                    pop_array[1](int3, int2);
+                    int3 = (int3 + 1);
+                };
+                int0 = (int0 + 1);
             };
             if ((int5 == 0)) {
                 pop_array(int3, int1);
@@ -50,12 +58,20 @@ function script6892(): void {
         if ((int1 != -1 as obj)) {
             [int1, int2] = [OC_UNCERT(int1), INVOTHER_GETNUM(134 as inv, int0)];
             [int4, int5] = [0, 0];
-            while (((int4 < int3) && (int5 == 0))) {
-                if ((push_array(int4) == int1)) {
-                    pop_array[1](int4, (push_array[1](int4) + 1));
-                    int5 = 1;
+            while ((int4 < int3)) {
+                if ((int5 == 0)) {
+                    if ((push_array(int4) == int1)) {
+                        pop_array[1](int4, (push_array[1](int4) + 1));
+                        int5 = 1;
+                    };
+                    int4 = (int4 + 1);
                 };
-                int4 = (int4 + 1);
+                if ((int5 == 0)) {
+                    pop_array(int3, int1);
+                    pop_array[1](int3, int2);
+                    int3 = (int3 + 1);
+                };
+                int0 = (int0 + 1);
             };
             if ((int5 == 0)) {
                 pop_array(int3, int1);

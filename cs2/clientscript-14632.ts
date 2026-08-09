@@ -1,6 +1,6 @@
 //
 function script14632(int0: number): string {
-    if ((int0 == -1 as dbrow)) {
+    if ((int0 == -1)) {
         return "";
     };
     var string0 = dbrow_getfield(int0, 368688, 0);
@@ -8,7 +8,7 @@ function script14632(int0: number): string {
         return `Research: ${string0}`;
     };
     var int1 = dbrow_getfield(int0, 368832, 0);
-    if ((int1 == -1 as obj)) {
+    if ((int1 == -1)) {
         return "";
     };
     return `Research: ${OC_NAME(int1)}`;

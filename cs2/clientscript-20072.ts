@@ -1,12 +1,12 @@
 //
 function script20072(int0: number): void {
-    if ((int0 == -1 as dbrow)) {
+    if ((int0 == -1)) {
         script12478("Marketplace floater setup called with null data - Returning.");
         return;
     };
     if ((script6431() == 0)) {
         IF_SETDRAGGABLE(comp(1359, 1), -1, comp(1359, 2));
-        IF_SETONDRAGCOMPLETE(callback(script20073, -2147483647, -2147483646, 89063425, -2147483645), 89063426);
+        IF_SETONDRAGCOMPLETE(callback(script20073, -2147483647, -2147483646, 89063425, -2147483645), comp(1359, 2));
         script20074(varclient_8314, varclient_8315, 89063425, 89063426);
     };
     var int1 = dbrow_getfield(int0, 1314816, 0);
@@ -27,7 +27,7 @@ function script20072(int0: number): void {
     };
     IF_SETTEXT(string0, comp(1359, 11));
     if ((DB_GETFIELDCOUNT(int0, 1314864) > 0)) {
-        IF_SETONMOUSEREPEAT(callback(script2674, dbrow_getfield(int0, 1314864, 0), 89063427, -1), 89063427);
+        IF_SETONMOUSEREPEAT(callback(script2674, dbrow_getfield(int0, 1314864, 0), 89063427, -1), comp(1359, 3));
     } else {
         IF_SETONMOUSEREPEAT(callback(), comp(1359, 3));
     };

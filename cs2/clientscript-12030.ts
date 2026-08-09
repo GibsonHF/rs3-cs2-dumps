@@ -36,11 +36,11 @@ function script12030(int0: number, int1: number): void {
         };
         CC_SETOP(2, "Remove");
         IGNORE_GETNAME_UNFILTERED(130, -2147483644, int1);
-        CC_SETONOP(callback());
+        CC_SETONOP("is");
         CC_SETONMOUSEREPEAT(callback(script3876, string2, -2147483645, -2147483643));
         cc_setparam(7540, 2);
         CC_SETPARAM_STRING(4277, string2);
-        CC_SETHIDE(0);
+        CC_SETHIDE(false);
     };
     if ((CC_FIND(int3, int1) == 1)) {
         CC_SETHIDE(false);

@@ -1,9 +1,9 @@
 //
 function script17870(int0: number, int1: number): number {
-    var int2 = -1 as var_reference;
+    var int2 = -1;
     if (((int0 == -1 as dbrow) || (DB_GETROWTABLE(int0) != 242))) {
         script12478("Invalid pass!");
-        return -1 as var_reference;
+        return -1;
     };
     switch (int1) {
         case 0: {
@@ -24,7 +24,7 @@ function script17870(int0: number, int1: number): number {
         }
         default: {
             script12478("Invalid var index!");
-            return -1 as var_reference;
+            return -1;
         }
     };
     return int2;

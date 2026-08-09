@@ -13,23 +13,12 @@ function script20184(): void {
     IF_SETONTIMER(callback(script20186, CLIENTCLOCK()), comp(1396, 2));
     var int0 = 16777215;
     var string0 = "Leagues: CATALYST";
-    stack(PUSH_CONSTANT_INT[16]("<col=", int0));
-    stack(inttostring());
-    stack(">");
-    stack(string0);
-    stack(PUSH_CONSTANT_INT[16]("</col> is an alternative game mode for <col=", int0));
-    stack(inttostring());
-    stack(PUSH_CONSTANT_INT[16](">RuneScape</col>, available from <col=", int0));
-    stack(inttostring());
-    stack(">");
-    stack(script3381(8601));
-    stack(PUSH_CONSTANT_INT[16]("</col> to <col=", int0));
-    var string1 = `${stack()}${inttostring()}>${script3381(8657)}</col>.<br>You can switch between the League and RuneScape at any time by switching worlds.`;
-    var int1 = IF_GETWIDTH(91488264);
-    var int2 = (script15891(string1, int1, IF_GETFONTMETRICS(91488266), 0) + 4);
-    IF_SETTEXT(string1, 91488266);
-    IF_SETSIZE(int1, int2, 0, 0, 91488264);
-    if ((PLAYERMEMBER() == 1)) {
+    var string1 = `${inttostring(PUSH_CONSTANT_INT[16]("<col=", int0))}>${string0}${inttostring(PUSH_CONSTANT_INT[16]("</col> is an alternative game mode for <col=", int0))}${inttostring(PUSH_CONSTANT_INT[16](">RuneScape</col>, available from <col=", int0))}>${script3381(8601)}${inttostring(PUSH_CONSTANT_INT[16]("</col> to <col=", int0))}>${script3381(8657)}</col>.<br>You can switch between the League and RuneScape at any time by switching worlds.`;
+    var int1 = IF_GETWIDTH(comp(1396, 8));
+    var int2 = (script15891(string1, int1, IF_GETFONTMETRICS(comp(1396, 10)), 0) + 4);
+    IF_SETTEXT(string1, comp(1396, 10));
+    IF_SETSIZE(int1, int2, 0, 0, comp(1396, 8));
+    if ((PLAYERMEMBER() == true)) {
         IF_SETHIDE(true, comp(1396, 23));
     };
     return;

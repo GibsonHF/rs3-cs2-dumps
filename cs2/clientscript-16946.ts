@@ -1,14 +1,12 @@
 //
 function script16946(int0: number): number {
     DB_LISTALL(206);
-    dbrow_findnext();
-    var int1 = stack();
-    while ((int1 != -1 as dbrow)) {
+    var int1 = dbrow_findnext();
+    while ((int1 != -1)) {
         if ((dbrow_getfield(int1, 843776, 0) == int0)) {
             return int1;
         };
-        dbrow_findnext();
-        int1 = stack();
+        int1 = dbrow_findnext();
     };
-    return -1 as dbrow;
+    return -1;
 }

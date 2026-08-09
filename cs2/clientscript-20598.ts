@@ -4,18 +4,18 @@ function script20598(int0: number, int1: number): void {
     var int3 = 0;
     var int4 = 0;
     var int5 = 0;
-    var int6 = 35897 as graphic;
+    var int6 = 35897;
     switch (MAP_LANG()) {
         case 1: {
-            int6 = 35899 as graphic;
+            int6 = 35899;
             break;
         }
         case 2: {
-            int6 = 35898 as graphic;
+            int6 = 35898;
             break;
         }
         case 3: {
-            int6 = 35900 as graphic;
+            int6 = 35900;
             break;
         }
     };
@@ -42,9 +42,9 @@ function script20598(int0: number, int1: number): void {
     if ((script6431() == 0)) {
         if ((int0 == comp(1494, 22))) {
             int4 = IF_GETNEXTSUBID(int0);
-            script7918(UI_GETCATEGORY(IF_GETNEXTSUBID(int0)), UI_GETDYNID(IF_GETNEXTSUBID(int0)), 0, 0, 2, 0, 0, 0, 1, 1, 35933 as graphic);
+            script7918(UI_GETCATEGORY(IF_GETNEXTSUBID(int0)), UI_GETDYNID(IF_GETNEXTSUBID(int0)), 0, 0, 2, 0, 0, 0, 1, 1, 35933);
             int5 = IF_GETNEXTSUBID(int0);
-            script7918(UI_GETCATEGORY(IF_GETNEXTSUBID(int0)), UI_GETDYNID(IF_GETNEXTSUBID(int0)), 0, 0, 2, 0, 0, 0, 1, 1, 17037 as graphic);
+            script7918(UI_GETCATEGORY(IF_GETNEXTSUBID(int0)), UI_GETDYNID(IF_GETNEXTSUBID(int0)), 0, 0, 2, 0, 0, 0, 1, 1, 17037);
             CC_SETHIDE(true);
             IF_SETONMOUSEOVER(callback(script20601, int0, 1, int4, int5), int0);
             IF_SETONMOUSELEAVE(callback(script20601, int0, 0, int4, int5), int0);
@@ -52,7 +52,7 @@ function script20598(int0: number, int1: number): void {
             IF_SETHIDE(false, comp(1494, 18));
         };
     };
-    if ((dbrow_getfield(int1, 1417504, 0) == false)) {
+    if ((dbrow_getfield(int1, 1417504, 0) == 0)) {
         IF_GETNEXTSUBID(int0);
         script7918(UI_GETCATEGORY(IF_GETNEXTSUBID(int0)), UI_GETDYNID(IF_GETNEXTSUBID(int0)), 0, 0, 0, 0, 128, 128, 0, 0, int6);
     };

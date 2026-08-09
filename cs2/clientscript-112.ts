@@ -60,7 +60,7 @@ function script112(int0: number, int1: number): void {
                         } else if ((varclient_5 == 6)) {
                             if ((CHAT_GETFILTER_PRIVATE() == 2)) {
                                 CHAT_GETFILTER_PUBLIC();
-                                CHAT_GETFILTER_TRADE(stack(), 1);
+                                CHAT_GETFILTER_TRADE(1);
                                 CHAT_SETFILTER();
                             };
                             CHAT_SENDPRIVATE(varclient_2367, varclient_2506);
@@ -70,7 +70,7 @@ function script112(int0: number, int1: number): void {
                     }
                     case 7: {
                         varclient_2506 = script17391(varclient_2506);
-                        if ((KEYHELD_SHIFT() == true)) {
+                        if ((KEYHELD_SHIFT() == 1)) {
                             varclient_2506 = script17397(varclient_2506);
                             varclient_1029 = STRING_LENGTH(varclient_2506);
                             int3 = 0;
@@ -81,7 +81,7 @@ function script112(int0: number, int1: number): void {
                     }
                     case 17: {
                         varclient_2506 = script17393(varclient_2506);
-                        if ((KEYHELD_SHIFT() == true)) {
+                        if ((KEYHELD_SHIFT() == 1)) {
                             varclient_2506 = script17398(varclient_2506);
                             varclient_1029 = STRING_LENGTH(varclient_2506);
                             int3 = 0;
@@ -92,7 +92,7 @@ function script112(int0: number, int1: number): void {
                     }
                     case 8: {
                         varclient_2507 = ESCAPE(varclient_2506);
-                        varclient_1026 = true;
+                        varclient_1026 = 1;
                         RESUME_NAMEDIALOG(varclient_2506);
                         break;
                     }
@@ -106,7 +106,7 @@ function script112(int0: number, int1: number): void {
                     }
                     case 10: {
                         varclient_2508 = ESCAPE(varclient_2506);
-                        varclient_1027 = true;
+                        varclient_1027 = 1;
                         CLAN_JOINCHAT(varclient_2506);
                         break;
                     }
@@ -204,7 +204,7 @@ function script112(int0: number, int1: number): void {
     script1557();
     if ((varclient_5 == 14)) {
         varclient_2249 = LOWERCASE(varclient_2506);
-        varclient_89 = true;
+        varclient_89 = 1;
         script7746();
     };
     return;

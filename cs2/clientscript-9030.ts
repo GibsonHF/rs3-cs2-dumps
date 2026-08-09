@@ -140,13 +140,13 @@ function script9030(int0: number, int1: number, int2: number): [number, string] 
                 if ((int0 == script16319(1))) {
                     string0 = `<str=FFFFFE>${inttostring(struct_getparam(int0, 2236), 10)} ${enum_getvalue(0, 36, 108 as cs2enum, varbitplayer_16574)}`;
                 } else if ((int0 == script16319(2))) {
-                    string0 = `<str=FFFFFE>${inttostring(struct_getparam(int0, 2236), 10)} ${enum_getvalue(0, 36, 108 as cs2enum, varbitplayer_16578)}`;
+                    string0 = `<str=FFFFFE>${inttostring(struct_getparam(int0, 2236), 10)} ${enum_getvalue(0, 36, 108, varbitplayer_16578)}`;
                 } else if ((int0 == script16319(3))) {
-                    string0 = `<str=FFFFFE>${inttostring(struct_getparam(int0, 2236), 10)} ${enum_getvalue(0, 36, 108 as cs2enum, varbitplayer_16582)}`;
+                    string0 = `<str=FFFFFE>${inttostring(struct_getparam(int0, 2236), 10)} ${enum_getvalue(0, 36, 108, varbitplayer_16582)}`;
                 } else if ((int0 == script16319(4))) {
-                    string0 = `<str=FFFFFE>${inttostring(struct_getparam(int0, 2236), 10)} ${enum_getvalue(0, 36, 108 as cs2enum, varbitplayer_16586)}`;
+                    string0 = `<str=FFFFFE>${inttostring(struct_getparam(int0, 2236), 10)} ${enum_getvalue(0, 36, 108, varbitplayer_16586)}`;
                 } else if ((int0 == script16319(5))) {
-                    string0 = `<str=FFFFFE>${inttostring(struct_getparam(int0, 2236), 10)} ${enum_getvalue(0, 36, 108 as cs2enum, varbitplayer_16590)}`;
+                    string0 = `<str=FFFFFE>${inttostring(struct_getparam(int0, 2236), 10)} ${enum_getvalue(0, 36, 108, varbitplayer_16590)}`;
                 };
             };
             string1 = script13327(int0);
@@ -172,7 +172,7 @@ function script9030(int0: number, int1: number, int2: number): [number, string] 
             [int8, int9, int10] = script13289(struct_getparam(int0, 8072));
             if ((int8 >= int9)) {
                 int3 = -2;
-                int0 = -1 as struct;
+                int0 = -1;
             } else {
                 [int4, int0] = script6301(int0, 0, -1);
             };

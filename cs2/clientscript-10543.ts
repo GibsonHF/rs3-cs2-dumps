@@ -1,51 +1,51 @@
 //
 function script10543(int0: number, int1: number): void {
     var int2 = -1;
-    var int3 = comp(-1, 65535);
-    var int4 = comp(-1, 65535);
-    var int5 = comp(-1, 65535);
-    var int6 = comp(-1, 65535);
-    var int7 = comp(-1, 65535);
-    var int8 = comp(-1, 65535);
-    var int9 = comp(-1, 65535);
-    var int10 = comp(-1, 65535);
+    var int3 = -1;
+    var int4 = -1;
+    var int5 = -1;
+    var int6 = -1;
+    var int7 = -1;
+    var int8 = -1;
+    var int9 = -1;
+    var int10 = -1;
     switch (int0) {
         case 0: {
             int2 = 126484529;
-            int3 = comp(1930, 58);
-            int4 = comp(1930, 57);
-            int5 = comp(1930, 33);
-            int6 = comp(1930, 51);
-            int7 = comp(1930, 154);
-            int8 = comp(1930, 156);
-            int10 = comp(1930, 52);
-            int9 = comp(1930, 150);
+            int3 = 126484538;
+            int4 = 126484537;
+            int5 = 126484513;
+            int6 = 126484531;
+            int7 = 126484634;
+            int8 = 126484636;
+            int10 = 126484532;
+            int9 = 126484630;
             IF_SETHIDE(false, comp(1930, 49));
             break;
         }
         case 1: {
             int2 = 126484530;
-            int3 = comp(1930, 131);
-            int4 = comp(1930, 130);
-            int5 = comp(1930, 126);
-            int6 = comp(1930, 123);
-            int7 = comp(1930, 153);
-            int8 = comp(1930, 157);
-            int10 = comp(1930, 122);
-            int9 = comp(1930, 149);
+            int3 = 126484611;
+            int4 = 126484610;
+            int5 = 126484606;
+            int6 = 126484603;
+            int7 = 126484633;
+            int8 = 126484637;
+            int10 = 126484602;
+            int9 = 126484629;
             IF_SETHIDE(false, comp(1930, 50));
             break;
         }
         case 2: {
             int2 = 126484576;
-            int3 = comp(1930, 140);
-            int4 = comp(1930, 139);
-            int5 = comp(1930, 135);
-            int6 = comp(1930, 132);
-            int7 = comp(1930, 152);
-            int8 = comp(1930, 158);
-            int10 = comp(1930, 97);
-            int9 = comp(1930, 148);
+            int3 = 126484620;
+            int4 = 126484619;
+            int5 = 126484615;
+            int6 = 126484612;
+            int7 = 126484632;
+            int8 = 126484638;
+            int10 = 126484577;
+            int9 = 126484628;
             IF_SETHIDE(false, comp(1930, 96));
             break;
         }

@@ -1,6 +1,7 @@
 //
 function script6120(int0: number, int1: number, int2: number, int3: number): void {
-    if ((++int3 > int2)) {
+    var int3 = (int3 + 1);
+    if ((int3 > int2)) {
         IF_SETHIDE(int1, int0);
         IF_SETONTIMER(callback(), int0);
     } else {

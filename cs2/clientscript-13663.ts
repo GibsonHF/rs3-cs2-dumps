@@ -12,36 +12,28 @@ function script13663(): void {
     stack(90112);
     stack(varbitplayer_37614);
     DB_FIND(0);
-    dbrow_findnext();
-    var int5 = stack();
-    stack(int5);
-    stack(90384);
-    stack(0);
-    dbrow_getfield();
-    var int6 = stack();
-    stack(int5);
-    stack(90272);
-    stack(0);
-    dbrow_getfield();
-    var int7 = stack();
+    var int5 = dbrow_findnext();
+    var int6 = dbrow_getfield(int5, 90384, 0);
+    var int7 = dbrow_getfield(int5, 90272, 0);
     var int8 = -1;
     var int9 = 0;
     var int10 = -1;
     var int11 = 0;
     var int12 = DB_GETFIELDCOUNT(int5, 90416);
-    stack(int5);
-    stack(90464);
-    stack(0);
-    dbrow_getfield();
-    var int13 = stack();
+    var int13 = dbrow_getfield(int5, 90464, 0);
     var int14 = 0;
     var int15 = 0;
     var int16 = 0;
     var int17 = 0;
     var int18 = 0;
-    if (((int7 == 2) && (varbitplayer_48814 > 0))) {
-        int17 = SCALE(varbitplayer_48814, int6, 100);
-        int18 = varbitplayer_48814;
+    if ((int7 == 2)) {
+        if ((varbitplayer_48814 > 0)) {
+            int17 = SCALE(varbitplayer_48814, int6, 100);
+            int18 = varbitplayer_48814;
+        } else {
+            int17 = SCALE(varplayer_7270, int6, 100);
+            int18 = varplayer_7270;
+        };
     } else {
         int17 = SCALE(varplayer_7270, int6, 100);
         int18 = varplayer_7270;
@@ -62,14 +54,14 @@ function script13663(): void {
         int19 = 1;
     };
     if ((varplayer_7270 > 0)) {
-        if ((int8 != -1 as obj)) {
+        if ((int8 != -1)) {
             if ((varbitplayer_37616 < int9)) {
                 int19 = 1;
             } else {
                 int14 = (varbitplayer_37616 / int9);
             };
         };
-        if ((int10 != -1 as obj)) {
+        if ((int10 != -1)) {
             if ((varbitplayer_37617 < int11)) {
                 int19 = 1;
             } else {
@@ -86,10 +78,10 @@ function script13663(): void {
         };
     };
     if ((int19 == 0)) {
-        if ((int8 != -1 as obj)) {
+        if ((int8 != -1)) {
             int18 = MIN(varplayer_7270, int14);
         };
-        if ((int10 != -1 as obj)) {
+        if ((int10 != -1)) {
             int18 = MIN(int18, int15);
         };
         int18 = MIN(int18, int16);
@@ -118,22 +110,94 @@ function script13663(): void {
         if ((int1 > 0)) {
             string0 = `${inttostring(int1, 10)} weeks ${string0}`;
         };
-        if ((((int8 != -1 as obj) && (int14 < varplayer_7270)) || (((int10 != -1 as obj) && (int15 < varplayer_7270)) || (varbitplayer_37590 < int17)))) {
+        if ((int8 != -1)) {
+            if ((int14 < varplayer_7270)) {
+                string0 = `<col=ff0000>! ${string0} !</col>`;
+            } else if ((int10 != -1)) {
+                if (((int15 < varplayer_7270) || (varbitplayer_37590 < int17))) {
+                    string0 = `<col=ff0000>! ${string0} !</col>`;
+                };
+            } else if ((varbitplayer_37590 < int17)) {
+                string0 = `<col=ff0000>! ${string0} !</col>`;
+            };
+        } else if ((int10 != -1)) {
+            if (((int15 < varplayer_7270) || (varbitplayer_37590 < int17))) {
+                string0 = `<col=ff0000>! ${string0} !</col>`;
+            };
+        } else if ((varbitplayer_37590 < int17)) {
             string0 = `<col=ff0000>! ${string0} !</col>`;
         };
     } else if ((varplayer_7270 == 0)) {
         string0 = "<col=ff0000>! You have no items to process !</col>";
-    } else if (((int8 != -1 as obj) && (varbitplayer_37616 < int9))) {
-        string0 = `<col=ff0000>You have no: ${OC_NAME(int8)}</col>`;
-        if (((int10 != -1 as obj) && (varbitplayer_37617 < int11))) {
-            string0 = `${string0}<col=ff0000>, ${OC_NAME(int10)}</col>`;
+    } else if ((int8 != -1)) {
+        if ((varbitplayer_37616 < int9)) {
+            string0 = `<col=ff0000>You have no: ${OC_NAME(int8)}</col>`;
+            if (((int10 != -1) && (varbitplayer_37617 < int11))) {
+                string0 = `${string0}<col=ff0000>, ${OC_NAME(int10)}</col>`;
+            };
+        } else if ((int10 != -1)) {
+            if ((varbitplayer_37617 < int11)) {
+                string0 = `<col=ff0000>You have no: ${OC_NAME(int10)}</col>`;
+            } else if ((varbitplayer_37590 < int13)) {
+                string0 = "<col=ff0000>You have no charge to process items</col>";
+            } else if ((int7 == 2)) {
+                if ((varbitplayer_48814 < 1)) {
+                    if ((varplayer_7270 > 0)) {
+                        string0 = "<col=ff0000>You don't have enough batch items</col>";
+                    } else {
+                        string0 = "Lots!";
+                    };
+                } else {
+                    string0 = "Lots!";
+                };
+            } else {
+                string0 = "Lots!";
+            };
+        } else if ((varbitplayer_37590 < int13)) {
+            string0 = "<col=ff0000>You have no charge to process items</col>";
+        } else if ((int7 == 2)) {
+            if ((varbitplayer_48814 < 1)) {
+                if ((varplayer_7270 > 0)) {
+                    string0 = "<col=ff0000>You don't have enough batch items</col>";
+                } else {
+                    string0 = "Lots!";
+                };
+            } else {
+                string0 = "Lots!";
+            };
+        } else {
+            string0 = "Lots!";
         };
-    } else if (((int10 != -1 as obj) && (varbitplayer_37617 < int11))) {
-        string0 = `<col=ff0000>You have no: ${OC_NAME(int10)}</col>`;
+    } else if ((int10 != -1)) {
+        if ((varbitplayer_37617 < int11)) {
+            string0 = `<col=ff0000>You have no: ${OC_NAME(int10)}</col>`;
+        } else if ((varbitplayer_37590 < int13)) {
+            string0 = "<col=ff0000>You have no charge to process items</col>";
+        } else if ((int7 == 2)) {
+            if ((varbitplayer_48814 < 1)) {
+                if ((varplayer_7270 > 0)) {
+                    string0 = "<col=ff0000>You don't have enough batch items</col>";
+                } else {
+                    string0 = "Lots!";
+                };
+            } else {
+                string0 = "Lots!";
+            };
+        } else {
+            string0 = "Lots!";
+        };
     } else if ((varbitplayer_37590 < int13)) {
         string0 = "<col=ff0000>You have no charge to process items</col>";
-    } else if ((((int7 == 2) && (varbitplayer_48814 < 1)) && (varplayer_7270 > 0))) {
-        string0 = "<col=ff0000>You don't have enough batch items</col>";
+    } else if ((int7 == 2)) {
+        if ((varbitplayer_48814 < 1)) {
+            if ((varplayer_7270 > 0)) {
+                string0 = "<col=ff0000>You don't have enough batch items</col>";
+            } else {
+                string0 = "Lots!";
+            };
+        } else {
+            string0 = "Lots!";
+        };
     } else {
         string0 = "Lots!";
     };

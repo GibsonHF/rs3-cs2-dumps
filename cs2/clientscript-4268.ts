@@ -280,9 +280,17 @@ function script4268(int0: number): void {
             break;
         }
     };
-    if (((int0 < 9) || ((int0 > 14) && (int0 < 18)))) {
+    if ((int0 < 9)) {
         IF_SETHIDE(false, comp(1083, 141));
         script13741(0);
+    } else if ((int0 > 14)) {
+        if ((int0 < 18)) {
+            IF_SETHIDE(false, comp(1083, 141));
+            script13741(0);
+        } else {
+            IF_SETHIDE(true, comp(1083, 141));
+            script13741(1);
+        };
     } else {
         IF_SETHIDE(true, comp(1083, 141));
         script13741(1);

@@ -3,7 +3,7 @@ function script13339(int0: number, int1: number, int2: number): void {
     var string0 = "Pin Achievement";
     var string1 = "Pin";
     var int3 = 1;
-    var int4 = 29246;
+    var int4 = 29246 as graphic;
     var int5 = 29247;
     var int6 = 29398;
     var int7 = 0;
@@ -12,13 +12,13 @@ function script13339(int0: number, int1: number, int2: number): void {
         string0 = "Unpin Achievement";
         string1 = "Unpin";
         int3 = 2;
-        int4 = 29401;
+        int4 = 29401 as graphic;
         int5 = 29831;
         int6 = 29832;
         int7 = 1;
     } else if ((script8230() == 0)) {
         int8 = 1;
-        int4 = 29400;
+        int4 = 29400 as graphic;
     };
     CC_CLEAROPS();
     CC_CLEARSCRIPTHOOKS();

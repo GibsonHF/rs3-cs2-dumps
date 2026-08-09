@@ -30,7 +30,8 @@ function script5671(): void {
                 script4512(36438023, 18, 18, (int3 + 8), (int4 + 13), 27213);
             };
         };
-        if ((MODULO(++int2, 8) == 0)) {
+        int2 = (int2 + 1);
+        if ((MODULO(int2, 8) == 0)) {
             int3 = 0;
             int4 = (int4 + 48);
         } else {

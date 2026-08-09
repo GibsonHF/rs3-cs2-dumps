@@ -77,7 +77,7 @@ function script9327(int0: number, int1: number): void {
                 } else {
                     int12 = script5883(int7);
                     if ((int12 != 0)) {
-                        string0 = `Tab ${inttostring(int7, 10)} - ${enum_getvalue(0, 36, 8657 as cs2enum, int12)}`;
+                        string0 = `Tab ${inttostring(int7, 10)} - ${enum_getvalue(0, 36, 8657, int12)}`;
                     } else {
                         string0 = `Tab ${inttostring(int7, 10)}`;
                     };

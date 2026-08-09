@@ -1,7 +1,7 @@
 //
 function script11224(int0: number): void {
     IF_SETTEXT(struct_getparam(int0, 4950), comp(1139, 27));
-    IF_SETTEXT(struct_getparam(int0, 4951), comp(1139, 30));
+    IF_SETTEXT(struct_getparam(int0, 4951), 74645534);
     var string0 = "general";
     switch (struct_getparam(int0, 4952)) {
         case 0: {

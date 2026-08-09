@@ -41,7 +41,8 @@ function script20905(int0: number, int1: number, int2: number, int3: number, int
         script20899(int1, 5, int20, int14, `Results for: ${string0}`);
     };
     var int7 = (int7 + int19);
-    while ((--int19 >= 0)) {
+    int19 = (int19 - 1);
+    while ((int19 >= 0)) {
         if ((CC_FIND(int2, (int21 + int19)) == 1)) {
             CC_SETOBJECT_NONUM(cc_getparam(4677), 1);
         };

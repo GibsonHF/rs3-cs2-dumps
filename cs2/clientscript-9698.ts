@@ -5,7 +5,8 @@ function script9698(int0: number, int1: number, int2: number): number {
     var int5 = -1;
     var int6 = -1;
     var int7 = 0;
-    while ((++int7 < int4)) {
+    int7 = (int7 + 1);
+    while ((int7 < int4)) {
         int5 = MODULO((int2 + int7), int4);
         int6 = script9693(int0, int1, int5);
         if ((int6 != 0)) {

@@ -7,8 +7,12 @@ function script3657(int0: number, int1: number, int2: number, int3: number, int4
     var int11 = (int0 * 11);
     while ((int10 < 11)) {
         if ((CC_FIND(int5, (int11 + int10)) == 1)) {
-            if (((int10 == 8) && ((script3616() == 1) || (int9 == true)))) {
-                CC_SETHIDE(true);
+            if ((int10 == 8)) {
+                if (((script3616() == 1) || (int9 == true))) {
+                    CC_SETHIDE(true);
+                } else {
+                    CC_SETHIDE(int9);
+                };
             } else {
                 CC_SETHIDE(int9);
             };
@@ -33,8 +37,8 @@ function script3657(int0: number, int1: number, int2: number, int3: number, int4
         CC_SETHIDE(int7);
         if ((int8 == 1)) {
             CC_SETONOP(callback());
-            CC_SETOP(1, "");
-            CC_SETHIDE(1);
+            CC_SETOP(callback(script1));
+            CC_SETHIDE(true);
         } else {
             CC_SETONOP(callback(script3641, int0));
             CC_SETOP(1, "Claim reward");

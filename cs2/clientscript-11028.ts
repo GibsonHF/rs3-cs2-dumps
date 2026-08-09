@@ -3,7 +3,7 @@ function script11028(int0: number, int1: number): void {
     var int2 = 0;
     if ((varbitplayer_52330 == 0)) {
         IF_SETONTIMER(callback(script16715, CLIENTCLOCK(), int0, int1, 250), int1);
-        IF_SETMODEL(126627, int1);
+        IF_SETMODEL(126627 as model, int1);
         return;
     };
     IF_SETMODEL(134024 as model, int1);

@@ -9,10 +9,20 @@ function script11833(int0: number, int1: number, int2: number, int3: number, int
     if ((CC_FIND(int1, int0) == 1)) {
         while ((int10 < int9)) {
             if ((CC_FIND[1](int2, int10) == 1)) {
-                if (((int3 == 1) && (cc_getparam[1](5326) == cc_getparam(5326)))) {
-                    CC_SETPOSITION[1](int4, CC_GETY[1](), 0, 0);
-                    CC_SENDTOFRONT[1]();
-                    CC_SETTRANS[1](125);
+                if ((int3 == 1)) {
+                    if ((cc_getparam[1](5326) == cc_getparam(5326))) {
+                        CC_SETPOSITION[1](int4, CC_GETY[1](), 0, 0);
+                        CC_SENDTOFRONT[1]();
+                        CC_SETTRANS[1](125);
+                    } else if (((int3 == 2) && (cc_getparam[1](5325) == cc_getparam(5325)))) {
+                        if ((cc_getparam[1](5638) == 1)) {
+                            CC_SETPOSITION[1](CC_GETX[1](), ((int5 + (27 / 2)) - (8 / 2)), 0, 0);
+                        } else {
+                            CC_SETPOSITION[1](CC_GETX[1](), int5, 0, 0);
+                        };
+                        CC_SENDTOFRONT[1]();
+                        CC_SETTRANS[1](125);
+                    };
                 } else if (((int3 == 2) && (cc_getparam[1](5325) == cc_getparam(5325)))) {
                     if ((cc_getparam[1](5638) == 1)) {
                         CC_SETPOSITION[1](CC_GETX[1](), ((int5 + (27 / 2)) - (8 / 2)), 0, 0);

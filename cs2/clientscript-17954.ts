@@ -1,8 +1,12 @@
 //
 function script17954(int0: number, string0: string): void {
     if ((STRING_LENGTH(string0) > 0)) {
-        if (((script13749() == 1) && (int0 == 1))) {
-            script17955(string0);
+        if ((script13749() == 1)) {
+            if ((int0 == 1)) {
+                script17955(string0);
+            } else {
+                CC_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643));
+            };
         } else {
             CC_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643));
         };

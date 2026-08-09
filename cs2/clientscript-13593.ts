@@ -25,9 +25,9 @@ function script13593(): void {
     IF_SETGRAPHIC(int0, comp(1892, 116));
     IF_SETCOLOUR(int1, comp(1892, 117));
     IF_SETONVARTRANSMIT(callback(script13597, 7156, 1), comp(1892, 25));
-    IF_SETONVARTRANSMIT(callback(script13596, 123994115, 0, 9628, 1), 123994115);
-    IF_SETONVARTRANSMIT(callback(script13596, 123994116, 1, 9629, 1), 123994116);
-    IF_SETONVARTRANSMIT(callback(script13596, 123994117, 2, 9630, 1), 123994117);
-    IF_SETONVARTRANSMIT(callback(script13596, 123994118, 3, 9631, 1), 123994118);
+    IF_SETONVARTRANSMIT(callback(script13596, 123994115, 0, 9628, 1), comp(1892, 3));
+    IF_SETONVARTRANSMIT(callback(script13596, 123994116, 1, 9629, 1), comp(1892, 4));
+    IF_SETONVARTRANSMIT(callback(script13596, 123994117, 2, 9630, 1), comp(1892, 5));
+    IF_SETONVARTRANSMIT(callback(script13596, 123994118, 3, 9631, 1), comp(1892, 6));
     return;
 }

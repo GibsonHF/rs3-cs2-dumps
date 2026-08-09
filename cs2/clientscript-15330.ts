@@ -27,9 +27,9 @@ function script15330(int0: number, int1: number): void {
         string0 = strconcat(inttostring((int2 / 100), 10), "%");
         IF_SETTEXT(string0, comp(1852, 41));
         string1 = script15321(int0);
-        IF_SETONMOUSEREPEAT(callback(script8799, string1, -2147483645, -1), 121372687);
-        IF_SETOPBASE(string2, 121372687);
-        IF_SETOPCURSOR(1, 210, 121372687);
+        IF_SETONMOUSEREPEAT(callback(script8799, string1, -2147483645, -1), comp(1852, 15));
+        IF_SETOPBASE(string2, comp(1852, 15));
+        IF_SETOPCURSOR(1, 210, comp(1852, 15));
     };
     if ((int1 != -1 as achievement)) {
         IF_SETHIDE(false, comp(1852, 16));
@@ -42,9 +42,9 @@ function script15330(int0: number, int1: number): void {
         string0 = strconcat(inttostring((int2 / 100), 10), "%");
         IF_SETTEXT(string0, comp(1852, 38));
         string1 = script15321(int1);
-        IF_SETONMOUSEREPEAT(callback(script8799, string1, -2147483645, -1), 121372688);
-        IF_SETOPBASE(string2, 121372688);
-        IF_SETOPCURSOR(1, 210, 121372688);
+        IF_SETONMOUSEREPEAT(callback(script8799, string1, -2147483645, -1), comp(1852, 16));
+        IF_SETOPBASE(string2, comp(1852, 16));
+        IF_SETOPCURSOR(1, 210, comp(1852, 16));
     };
     return;
 }

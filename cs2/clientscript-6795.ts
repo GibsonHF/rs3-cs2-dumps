@@ -23,7 +23,8 @@ function script6795(int0: number, int1: number, int2: number, int3: number, int4
             while ((int0 != -1)) {
                 script14362(int0, 1, int1, 1, int2, -1, 0, int4);
                 int11 = MIN(int0, int11);
-                if ((--int3 <= 0)) {
+                var int3 = (int3 - 1);
+                if ((int3 <= 0)) {
                     script6961(int11, int1, int4);
                     return;
                 };
@@ -33,7 +34,8 @@ function script6795(int0: number, int1: number, int2: number, int3: number, int4
                 };
             };
         };
-        if ((++int9 > 15)) {
+        int9 = (int9 + 1);
+        if ((int9 > 15)) {
             int9 = 0;
         } else if ((int9 == 1)) {
             int9 = 2;

@@ -27,7 +27,8 @@ function script2961(int0: number, int1: number, int2: number): [number, number] 
                 };
             };
         };
-        switch (++int8) {
+        int8 = (int8 + 1);
+        switch (int8) {
             case 2: {
                 int3 = struct_getparam(int1, 2656);
                 int4 = struct_getparam(int1, 2666);

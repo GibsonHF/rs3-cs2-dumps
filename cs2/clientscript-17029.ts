@@ -1,29 +1,29 @@
 //
 function script17029(int0: number, int1: number): void {
-    var int2 = comp(-1, 65535);
-    var int3 = comp(-1, 65535);
+    var int2 = -1;
+    var int3 = -1;
     switch (int0) {
         case 1: {
-            int2 = comp(226, 22);
-            int3 = comp(226, 21);
+            int2 = 14811158;
+            int3 = 14811157;
             break;
         }
         case 2: {
-            int2 = comp(226, 28);
-            int3 = comp(226, 25);
+            int2 = 14811164;
+            int3 = 14811161;
             break;
         }
         case 3: {
-            int2 = comp(226, 30);
-            int3 = comp(226, 29);
+            int2 = 14811166;
+            int3 = 14811165;
             break;
         }
     };
     CC_DELETEALL(int3);
-    if ((int1 == -1 as dbrow)) {
+    if ((int1 == -1)) {
         return;
     };
-    var int4 = -1 as obj;
+    var int4 = -1;
     var int5 = 0;
     [int4, int5] = dbrow_getfield(int1, 880656, 0);
     var int6 = 0;
@@ -32,7 +32,7 @@ function script17029(int0: number, int1: number): void {
     var int9 = 0;
     var int10 = 0;
     var int11 = 0;
-    if (((int4 != -1 as obj) && (int5 > 0))) {
+    if (((int4 != -1) && (int5 > 0))) {
         IF_SETTEXT(`${TOSTRING_LOCALISED(int5, 1)} x ${OC_NAME(int4)}`, int2);
         script15941(int3, 0, IF_GETNEXTSUBID(int3), 0, 0, 1, 1, 0, 0, 1, 1);
         CC_SETOBJECT_NONUM(int4, int5);

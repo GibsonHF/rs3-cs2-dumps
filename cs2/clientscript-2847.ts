@@ -18,7 +18,8 @@ function script2847(int0: number): void {
         if ((CC_FIND(int0, push_array(int3)) == 1)) {
             CC_SETPOSITION(int1, int2, 0, 0);
         };
-        if ((++int3 == 3)) {
+        int3 = (int3 + 1);
+        if ((int3 == 3)) {
             int1 = (308 + 48);
             int2 = 55;
         } else if ((int3 == 6)) {

@@ -21,9 +21,9 @@ function script3207(int0: number): void {
             };
         };
     };
-    if ((varclient_1094 == true)) {
+    if ((varclient_1094 == 1)) {
         script3015("", "Open a bug report form?<br>(opens a new window)", 6, "", "");
-        varclient_1094 = false;
+        varclient_1094 = 0;
     };
     return;
 }

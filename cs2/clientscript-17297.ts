@@ -1,16 +1,16 @@
 //
 function script17297(): [number, number, string] {
     var string0 = "";
-    var int0 = -1 as obj;
+    var int0 = -1;
     var int1 = 0;
-    var int2 = -1 as dbrow;
+    var int2 = -1;
     var int3 = 0;
     var int4 = script17292();
-    if ((int4 == -1 as dbrow)) {
+    if ((int4 == -1)) {
         return [int0, int1, string0];
     };
     [int2, int3] = dbrow_getfield(int4, 401440, 0);
-    if ((int2 == -1 as dbrow)) {
+    if ((int2 == -1)) {
         return [int0, int1, string0];
     };
     [int0, int1] = dbrow_getfield(int2, 847872, 0);

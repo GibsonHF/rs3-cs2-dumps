@@ -24,7 +24,7 @@ function script17544(int0: number, int1: number): void {
     var int23 = 100;
     var int24 = varplayer_10946;
     var string0 = varclient_7157;
-    if ((((int24 != -1 as struct) && (struct_getparam(int24, 8990) != -1 as struct)) && (int2 != comp(1171, 28)))) {
+    if ((((int24 != -1) && (struct_getparam(int24, 8990) != -1)) && (int2 != 76742684))) {
         int24 = struct_getparam(int24, 8990);
         string0 = struct_getparam(int24, 8849);
     };
@@ -43,72 +43,1176 @@ function script17544(int0: number, int1: number): void {
         int32 = 300;
     };
     var int33 = SCALE((CLIENTCLOCK() - int1), int32, int32);
-    if (((int25 == 0) && (int33 < int27))) {
-        IF_SETHIDE(false, int5);
-        IF_SETHIDE(false, int6);
-        IF_SETMODELANIM(28171 as seq, int5);
-        IF_SETMODELANIM(28123 as seq, int6);
-    } else if (((int25 == 0) && (int33 == int28))) {
-        IF_SETHIDE(false, int3);
-        IF_SETHIDE(false, int4);
+    if ((int25 == 0)) {
+        if ((int33 < int27)) {
+            IF_SETHIDE(false, int5);
+            IF_SETHIDE(false, int6);
+            IF_SETMODELANIM(28171 as seq, int5);
+            IF_SETMODELANIM(28123 as seq, int6);
+        } else if ((int25 == 0)) {
+            if ((int33 == int28)) {
+                IF_SETHIDE(false, int3);
+                IF_SETHIDE(false, int4);
+            } else if ((int33 == int29)) {
+                if ((int25 == 0)) {
+                    IF_SETHIDE(true, int5);
+                    IF_SETHIDE(true, int6);
+                };
+                if (((int26 == 0) && (int24 != -1))) {
+                    IF_SETTEXT(string0, int21);
+                    IF_SETSIZE(MIN(400, (STRINGWIDTH(IF_GETTEXT(int21), 55 as fontmetrics) + 60)), 33, 0, 0, int22);
+                };
+            } else if ((int26 == 0)) {
+                if ((int33 > int29)) {
+                    if ((int33 <= int30)) {
+                        int33 = (255 - SCALE(255, 100, (int33 - int29)));
+                        IF_SETTRANS(int33, int18);
+                        IF_SETTRANS(int33, int19);
+                        IF_SETTRANS(int33, int20);
+                        IF_SETTRANS(int33, int21);
+                    } else if ((int33 > int30)) {
+                        if ((int33 < int31)) {
+                            int33 = (255 - SCALE(255, 100, (int33 - int30)));
+                            IF_SETTRANS(int33, int9);
+                            IF_SETTRANS(int33, int10);
+                            IF_SETTRANS(int33, int11);
+                            IF_SETTRANS(int33, int12);
+                            IF_SETTRANS(int33, int13);
+                            IF_SETTRANS(int33, int14);
+                            IF_SETTRANS(int33, int16);
+                            IF_SETTRANS(int33, int15);
+                            if ((int24 != -1)) {
+                                IF_SETGRAPHIC(struct_getparam(int24, 9156), int14);
+                                IF_SETCOLOUR(struct_getparam(int24, 8860), int14);
+                                IF_SETCOLOUR(struct_getparam(int24, 8860), int13);
+                                IF_SETCOLOUR(struct_getparam(int24, 8860), int12);
+                                if ((struct_getparam(int24, 9157) != -1)) {
+                                    IF_SETHIDE(false, int16);
+                                    IF_SETCOLOUR(struct_getparam(int24, 9157), int16);
+                                };
+                                if ((struct_getparam(int24, 9155) != -1)) {
+                                    int23 = IF_GETWIDTH(int17);
+                                    IF_SETSIZE(struct_getparam(int24, 9155), 33, 0, 0, int17);
+                                };
+                            };
+                        } else if ((int33 > int31)) {
+                            if ((int33 < int32)) {
+                                if ((int26 == 0)) {
+                                    int33 = (int33 - int31);
+                                    IF_SETMODELZOOM((2000 + SCALE(1500, 100, int33)), int3);
+                                    IF_SETMODELZOOM((2000 + SCALE(1500, 100, int33)), int4);
+                                    int33 = (255 - SCALE(255, 100, int33));
+                                    if ((script17757() == 0)) {
+                                        IF_SETTRANS((255 - int33), int18);
+                                        IF_SETTRANS((255 - int33), int19);
+                                        IF_SETTRANS((255 - int33), int20);
+                                        IF_SETTRANS((255 - int33), int21);
+                                    };
+                                };
+                                IF_SETHIDE(false, int7);
+                            } else if ((int33 >= int32)) {
+                                IF_SETHIDE(true, int3);
+                                IF_SETHIDE(true, int4);
+                                IF_SETHIDE(false, int8);
+                                if ((int24 != -1)) {
+                                    IF_SETONVARTRANSMIT(callback(script17545, int0, 10937, 10938, 10939, 10940, 10941, 10942, 10943, 11535, 11536, 9), int12);
+                                };
+                                IF_SETONTIMER(callback(), int0);
+                            };
+                        } else if ((int33 >= int32)) {
+                            IF_SETHIDE(true, int3);
+                            IF_SETHIDE(true, int4);
+                            IF_SETHIDE(false, int8);
+                            if ((int24 != -1)) {
+                                IF_SETONVARTRANSMIT(callback(script17545, int0, 10937, 10938, 10939, 10940, 10941, 10942, 10943, 11535, 11536, 9), int12);
+                            };
+                            IF_SETONTIMER(callback(), int0);
+                        };
+                    } else if ((int33 > int31)) {
+                        if ((int33 < int32)) {
+                            if ((int26 == 0)) {
+                                int33 = (int33 - int31);
+                                IF_SETMODELZOOM((2000 + SCALE(1500, 100, int33)), int3);
+                                IF_SETMODELZOOM((2000 + SCALE(1500, 100, int33)), int4);
+                                int33 = (255 - SCALE(255, 100, int33));
+                                if ((script17757() == 0)) {
+                                    IF_SETTRANS((255 - int33), int18);
+                                    IF_SETTRANS((255 - int33), int19);
+                                    IF_SETTRANS((255 - int33), int20);
+                                    IF_SETTRANS((255 - int33), int21);
+                                };
+                            };
+                            IF_SETHIDE(false, int7);
+                        } else if ((int33 >= int32)) {
+                            IF_SETHIDE(true, int3);
+                            IF_SETHIDE(true, int4);
+                            IF_SETHIDE(false, int8);
+                            if ((int24 != -1)) {
+                                IF_SETONVARTRANSMIT(callback(script17545, int0, 10937, 10938, 10939, 10940, 10941, 10942, 10943, 11535, 11536, 9), int12);
+                            };
+                            IF_SETONTIMER(callback(), int0);
+                        };
+                    } else if ((int33 >= int32)) {
+                        IF_SETHIDE(true, int3);
+                        IF_SETHIDE(true, int4);
+                        IF_SETHIDE(false, int8);
+                        if ((int24 != -1)) {
+                            IF_SETONVARTRANSMIT(callback(script17545, int0, 10937, 10938, 10939, 10940, 10941, 10942, 10943, 11535, 11536, 9), int12);
+                        };
+                        IF_SETONTIMER(callback(), int0);
+                    };
+                } else if ((int33 > int30)) {
+                    if ((int33 < int31)) {
+                        int33 = (255 - SCALE(255, 100, (int33 - int30)));
+                        IF_SETTRANS(int33, int9);
+                        IF_SETTRANS(int33, int10);
+                        IF_SETTRANS(int33, int11);
+                        IF_SETTRANS(int33, int12);
+                        IF_SETTRANS(int33, int13);
+                        IF_SETTRANS(int33, int14);
+                        IF_SETTRANS(int33, int16);
+                        IF_SETTRANS(int33, int15);
+                        if ((int24 != -1)) {
+                            IF_SETGRAPHIC(struct_getparam(int24, 9156), int14);
+                            IF_SETCOLOUR(struct_getparam(int24, 8860), int14);
+                            IF_SETCOLOUR(struct_getparam(int24, 8860), int13);
+                            IF_SETCOLOUR(struct_getparam(int24, 8860), int12);
+                            if ((struct_getparam(int24, 9157) != -1)) {
+                                IF_SETHIDE(false, int16);
+                                IF_SETCOLOUR(struct_getparam(int24, 9157), int16);
+                            };
+                            if ((struct_getparam(int24, 9155) != -1)) {
+                                int23 = IF_GETWIDTH(int17);
+                                IF_SETSIZE(struct_getparam(int24, 9155), 33, 0, 0, int17);
+                            };
+                        };
+                    } else if ((int33 > int31)) {
+                        if ((int33 < int32)) {
+                            if ((int26 == 0)) {
+                                int33 = (int33 - int31);
+                                IF_SETMODELZOOM((2000 + SCALE(1500, 100, int33)), int3);
+                                IF_SETMODELZOOM((2000 + SCALE(1500, 100, int33)), int4);
+                                int33 = (255 - SCALE(255, 100, int33));
+                                if ((script17757() == 0)) {
+                                    IF_SETTRANS((255 - int33), int18);
+                                    IF_SETTRANS((255 - int33), int19);
+                                    IF_SETTRANS((255 - int33), int20);
+                                    IF_SETTRANS((255 - int33), int21);
+                                };
+                            };
+                            IF_SETHIDE(false, int7);
+                        } else if ((int33 >= int32)) {
+                            IF_SETHIDE(true, int3);
+                            IF_SETHIDE(true, int4);
+                            IF_SETHIDE(false, int8);
+                            if ((int24 != -1)) {
+                                IF_SETONVARTRANSMIT(callback(script17545, int0, 10937, 10938, 10939, 10940, 10941, 10942, 10943, 11535, 11536, 9), int12);
+                            };
+                            IF_SETONTIMER(callback(), int0);
+                        };
+                    } else if ((int33 >= int32)) {
+                        IF_SETHIDE(true, int3);
+                        IF_SETHIDE(true, int4);
+                        IF_SETHIDE(false, int8);
+                        if ((int24 != -1)) {
+                            IF_SETONVARTRANSMIT(callback(script17545, int0, 10937, 10938, 10939, 10940, 10941, 10942, 10943, 11535, 11536, 9), int12);
+                        };
+                        IF_SETONTIMER(callback(), int0);
+                    };
+                } else if ((int33 > int31)) {
+                    if ((int33 < int32)) {
+                        if ((int26 == 0)) {
+                            int33 = (int33 - int31);
+                            IF_SETMODELZOOM((2000 + SCALE(1500, 100, int33)), int3);
+                            IF_SETMODELZOOM((2000 + SCALE(1500, 100, int33)), int4);
+                            int33 = (255 - SCALE(255, 100, int33));
+                            if ((script17757() == 0)) {
+                                IF_SETTRANS((255 - int33), int18);
+                                IF_SETTRANS((255 - int33), int19);
+                                IF_SETTRANS((255 - int33), int20);
+                                IF_SETTRANS((255 - int33), int21);
+                            };
+                        };
+                        IF_SETHIDE(false, int7);
+                    } else if ((int33 >= int32)) {
+                        IF_SETHIDE(true, int3);
+                        IF_SETHIDE(true, int4);
+                        IF_SETHIDE(false, int8);
+                        if ((int24 != -1)) {
+                            IF_SETONVARTRANSMIT(callback(script17545, int0, 10937, 10938, 10939, 10940, 10941, 10942, 10943, 11535, 11536, 9), int12);
+                        };
+                        IF_SETONTIMER(callback(), int0);
+                    };
+                } else if ((int33 >= int32)) {
+                    IF_SETHIDE(true, int3);
+                    IF_SETHIDE(true, int4);
+                    IF_SETHIDE(false, int8);
+                    if ((int24 != -1)) {
+                        IF_SETONVARTRANSMIT(callback(script17545, int0, 10937, 10938, 10939, 10940, 10941, 10942, 10943, 11535, 11536, 9), int12);
+                    };
+                    IF_SETONTIMER(callback(), int0);
+                };
+            } else if ((int33 > int30)) {
+                if ((int33 < int31)) {
+                    int33 = (255 - SCALE(255, 100, (int33 - int30)));
+                    IF_SETTRANS(int33, int9);
+                    IF_SETTRANS(int33, int10);
+                    IF_SETTRANS(int33, int11);
+                    IF_SETTRANS(int33, int12);
+                    IF_SETTRANS(int33, int13);
+                    IF_SETTRANS(int33, int14);
+                    IF_SETTRANS(int33, int16);
+                    IF_SETTRANS(int33, int15);
+                    if ((int24 != -1)) {
+                        IF_SETGRAPHIC(struct_getparam(int24, 9156), int14);
+                        IF_SETCOLOUR(struct_getparam(int24, 8860), int14);
+                        IF_SETCOLOUR(struct_getparam(int24, 8860), int13);
+                        IF_SETCOLOUR(struct_getparam(int24, 8860), int12);
+                        if ((struct_getparam(int24, 9157) != -1)) {
+                            IF_SETHIDE(false, int16);
+                            IF_SETCOLOUR(struct_getparam(int24, 9157), int16);
+                        };
+                        if ((struct_getparam(int24, 9155) != -1)) {
+                            int23 = IF_GETWIDTH(int17);
+                            IF_SETSIZE(struct_getparam(int24, 9155), 33, 0, 0, int17);
+                        };
+                    };
+                } else if ((int33 > int31)) {
+                    if ((int33 < int32)) {
+                        if ((int26 == 0)) {
+                            int33 = (int33 - int31);
+                            IF_SETMODELZOOM((2000 + SCALE(1500, 100, int33)), int3);
+                            IF_SETMODELZOOM((2000 + SCALE(1500, 100, int33)), int4);
+                            int33 = (255 - SCALE(255, 100, int33));
+                            if ((script17757() == 0)) {
+                                IF_SETTRANS((255 - int33), int18);
+                                IF_SETTRANS((255 - int33), int19);
+                                IF_SETTRANS((255 - int33), int20);
+                                IF_SETTRANS((255 - int33), int21);
+                            };
+                        };
+                        IF_SETHIDE(false, int7);
+                    } else if ((int33 >= int32)) {
+                        IF_SETHIDE(true, int3);
+                        IF_SETHIDE(true, int4);
+                        IF_SETHIDE(false, int8);
+                        if ((int24 != -1)) {
+                            IF_SETONVARTRANSMIT(callback(script17545, int0, 10937, 10938, 10939, 10940, 10941, 10942, 10943, 11535, 11536, 9), int12);
+                        };
+                        IF_SETONTIMER(callback(), int0);
+                    };
+                } else if ((int33 >= int32)) {
+                    IF_SETHIDE(true, int3);
+                    IF_SETHIDE(true, int4);
+                    IF_SETHIDE(false, int8);
+                    if ((int24 != -1)) {
+                        IF_SETONVARTRANSMIT(callback(script17545, int0, 10937, 10938, 10939, 10940, 10941, 10942, 10943, 11535, 11536, 9), int12);
+                    };
+                    IF_SETONTIMER(callback(), int0);
+                };
+            } else if ((int33 > int31)) {
+                if ((int33 < int32)) {
+                    if ((int26 == 0)) {
+                        int33 = (int33 - int31);
+                        IF_SETMODELZOOM((2000 + SCALE(1500, 100, int33)), int3);
+                        IF_SETMODELZOOM((2000 + SCALE(1500, 100, int33)), int4);
+                        int33 = (255 - SCALE(255, 100, int33));
+                        if ((script17757() == 0)) {
+                            IF_SETTRANS((255 - int33), int18);
+                            IF_SETTRANS((255 - int33), int19);
+                            IF_SETTRANS((255 - int33), int20);
+                            IF_SETTRANS((255 - int33), int21);
+                        };
+                    };
+                    IF_SETHIDE(false, int7);
+                } else if ((int33 >= int32)) {
+                    IF_SETHIDE(true, int3);
+                    IF_SETHIDE(true, int4);
+                    IF_SETHIDE(false, int8);
+                    if ((int24 != -1)) {
+                        IF_SETONVARTRANSMIT(callback(script17545, int0, 10937, 10938, 10939, 10940, 10941, 10942, 10943, 11535, 11536, 9), int12);
+                    };
+                    IF_SETONTIMER(callback(), int0);
+                };
+            } else if ((int33 >= int32)) {
+                IF_SETHIDE(true, int3);
+                IF_SETHIDE(true, int4);
+                IF_SETHIDE(false, int8);
+                if ((int24 != -1)) {
+                    IF_SETONVARTRANSMIT(callback(script17545, int0, 10937, 10938, 10939, 10940, 10941, 10942, 10943, 11535, 11536, 9), int12);
+                };
+                IF_SETONTIMER(callback(), int0);
+            };
+        } else if ((int33 == int29)) {
+            if ((int25 == 0)) {
+                IF_SETHIDE(true, int5);
+                IF_SETHIDE(true, int6);
+            };
+            if (((int26 == 0) && (int24 != -1))) {
+                IF_SETTEXT(string0, int21);
+                IF_SETSIZE(MIN(400, (STRINGWIDTH(IF_GETTEXT(int21), 55 as fontmetrics) + 60)), 33, 0, 0, int22);
+            };
+        } else if ((int26 == 0)) {
+            if ((int33 > int29)) {
+                if ((int33 <= int30)) {
+                    int33 = (255 - SCALE(255, 100, (int33 - int29)));
+                    IF_SETTRANS(int33, int18);
+                    IF_SETTRANS(int33, int19);
+                    IF_SETTRANS(int33, int20);
+                    IF_SETTRANS(int33, int21);
+                } else if ((int33 > int30)) {
+                    if ((int33 < int31)) {
+                        int33 = (255 - SCALE(255, 100, (int33 - int30)));
+                        IF_SETTRANS(int33, int9);
+                        IF_SETTRANS(int33, int10);
+                        IF_SETTRANS(int33, int11);
+                        IF_SETTRANS(int33, int12);
+                        IF_SETTRANS(int33, int13);
+                        IF_SETTRANS(int33, int14);
+                        IF_SETTRANS(int33, int16);
+                        IF_SETTRANS(int33, int15);
+                        if ((int24 != -1)) {
+                            IF_SETGRAPHIC(struct_getparam(int24, 9156), int14);
+                            IF_SETCOLOUR(struct_getparam(int24, 8860), int14);
+                            IF_SETCOLOUR(struct_getparam(int24, 8860), int13);
+                            IF_SETCOLOUR(struct_getparam(int24, 8860), int12);
+                            if ((struct_getparam(int24, 9157) != -1)) {
+                                IF_SETHIDE(false, int16);
+                                IF_SETCOLOUR(struct_getparam(int24, 9157), int16);
+                            };
+                            if ((struct_getparam(int24, 9155) != -1)) {
+                                int23 = IF_GETWIDTH(int17);
+                                IF_SETSIZE(struct_getparam(int24, 9155), 33, 0, 0, int17);
+                            };
+                        };
+                    } else if ((int33 > int31)) {
+                        if ((int33 < int32)) {
+                            if ((int26 == 0)) {
+                                int33 = (int33 - int31);
+                                IF_SETMODELZOOM((2000 + SCALE(1500, 100, int33)), int3);
+                                IF_SETMODELZOOM((2000 + SCALE(1500, 100, int33)), int4);
+                                int33 = (255 - SCALE(255, 100, int33));
+                                if ((script17757() == 0)) {
+                                    IF_SETTRANS((255 - int33), int18);
+                                    IF_SETTRANS((255 - int33), int19);
+                                    IF_SETTRANS((255 - int33), int20);
+                                    IF_SETTRANS((255 - int33), int21);
+                                };
+                            };
+                            IF_SETHIDE(false, int7);
+                        } else if ((int33 >= int32)) {
+                            IF_SETHIDE(true, int3);
+                            IF_SETHIDE(true, int4);
+                            IF_SETHIDE(false, int8);
+                            if ((int24 != -1)) {
+                                IF_SETONVARTRANSMIT(callback(script17545, int0, 10937, 10938, 10939, 10940, 10941, 10942, 10943, 11535, 11536, 9), int12);
+                            };
+                            IF_SETONTIMER(callback(), int0);
+                        };
+                    } else if ((int33 >= int32)) {
+                        IF_SETHIDE(true, int3);
+                        IF_SETHIDE(true, int4);
+                        IF_SETHIDE(false, int8);
+                        if ((int24 != -1)) {
+                            IF_SETONVARTRANSMIT(callback(script17545, int0, 10937, 10938, 10939, 10940, 10941, 10942, 10943, 11535, 11536, 9), int12);
+                        };
+                        IF_SETONTIMER(callback(), int0);
+                    };
+                } else if ((int33 > int31)) {
+                    if ((int33 < int32)) {
+                        if ((int26 == 0)) {
+                            int33 = (int33 - int31);
+                            IF_SETMODELZOOM((2000 + SCALE(1500, 100, int33)), int3);
+                            IF_SETMODELZOOM((2000 + SCALE(1500, 100, int33)), int4);
+                            int33 = (255 - SCALE(255, 100, int33));
+                            if ((script17757() == 0)) {
+                                IF_SETTRANS((255 - int33), int18);
+                                IF_SETTRANS((255 - int33), int19);
+                                IF_SETTRANS((255 - int33), int20);
+                                IF_SETTRANS((255 - int33), int21);
+                            };
+                        };
+                        IF_SETHIDE(false, int7);
+                    } else if ((int33 >= int32)) {
+                        IF_SETHIDE(true, int3);
+                        IF_SETHIDE(true, int4);
+                        IF_SETHIDE(false, int8);
+                        if ((int24 != -1)) {
+                            IF_SETONVARTRANSMIT(callback(script17545, int0, 10937, 10938, 10939, 10940, 10941, 10942, 10943, 11535, 11536, 9), int12);
+                        };
+                        IF_SETONTIMER(callback(), int0);
+                    };
+                } else if ((int33 >= int32)) {
+                    IF_SETHIDE(true, int3);
+                    IF_SETHIDE(true, int4);
+                    IF_SETHIDE(false, int8);
+                    if ((int24 != -1)) {
+                        IF_SETONVARTRANSMIT(callback(script17545, int0, 10937, 10938, 10939, 10940, 10941, 10942, 10943, 11535, 11536, 9), int12);
+                    };
+                    IF_SETONTIMER(callback(), int0);
+                };
+            } else if ((int33 > int30)) {
+                if ((int33 < int31)) {
+                    int33 = (255 - SCALE(255, 100, (int33 - int30)));
+                    IF_SETTRANS(int33, int9);
+                    IF_SETTRANS(int33, int10);
+                    IF_SETTRANS(int33, int11);
+                    IF_SETTRANS(int33, int12);
+                    IF_SETTRANS(int33, int13);
+                    IF_SETTRANS(int33, int14);
+                    IF_SETTRANS(int33, int16);
+                    IF_SETTRANS(int33, int15);
+                    if ((int24 != -1)) {
+                        IF_SETGRAPHIC(struct_getparam(int24, 9156), int14);
+                        IF_SETCOLOUR(struct_getparam(int24, 8860), int14);
+                        IF_SETCOLOUR(struct_getparam(int24, 8860), int13);
+                        IF_SETCOLOUR(struct_getparam(int24, 8860), int12);
+                        if ((struct_getparam(int24, 9157) != -1)) {
+                            IF_SETHIDE(false, int16);
+                            IF_SETCOLOUR(struct_getparam(int24, 9157), int16);
+                        };
+                        if ((struct_getparam(int24, 9155) != -1)) {
+                            int23 = IF_GETWIDTH(int17);
+                            IF_SETSIZE(struct_getparam(int24, 9155), 33, 0, 0, int17);
+                        };
+                    };
+                } else if ((int33 > int31)) {
+                    if ((int33 < int32)) {
+                        if ((int26 == 0)) {
+                            int33 = (int33 - int31);
+                            IF_SETMODELZOOM((2000 + SCALE(1500, 100, int33)), int3);
+                            IF_SETMODELZOOM((2000 + SCALE(1500, 100, int33)), int4);
+                            int33 = (255 - SCALE(255, 100, int33));
+                            if ((script17757() == 0)) {
+                                IF_SETTRANS((255 - int33), int18);
+                                IF_SETTRANS((255 - int33), int19);
+                                IF_SETTRANS((255 - int33), int20);
+                                IF_SETTRANS((255 - int33), int21);
+                            };
+                        };
+                        IF_SETHIDE(false, int7);
+                    } else if ((int33 >= int32)) {
+                        IF_SETHIDE(true, int3);
+                        IF_SETHIDE(true, int4);
+                        IF_SETHIDE(false, int8);
+                        if ((int24 != -1)) {
+                            IF_SETONVARTRANSMIT(callback(script17545, int0, 10937, 10938, 10939, 10940, 10941, 10942, 10943, 11535, 11536, 9), int12);
+                        };
+                        IF_SETONTIMER(callback(), int0);
+                    };
+                } else if ((int33 >= int32)) {
+                    IF_SETHIDE(true, int3);
+                    IF_SETHIDE(true, int4);
+                    IF_SETHIDE(false, int8);
+                    if ((int24 != -1)) {
+                        IF_SETONVARTRANSMIT(callback(script17545, int0, 10937, 10938, 10939, 10940, 10941, 10942, 10943, 11535, 11536, 9), int12);
+                    };
+                    IF_SETONTIMER(callback(), int0);
+                };
+            } else if ((int33 > int31)) {
+                if ((int33 < int32)) {
+                    if ((int26 == 0)) {
+                        int33 = (int33 - int31);
+                        IF_SETMODELZOOM((2000 + SCALE(1500, 100, int33)), int3);
+                        IF_SETMODELZOOM((2000 + SCALE(1500, 100, int33)), int4);
+                        int33 = (255 - SCALE(255, 100, int33));
+                        if ((script17757() == 0)) {
+                            IF_SETTRANS((255 - int33), int18);
+                            IF_SETTRANS((255 - int33), int19);
+                            IF_SETTRANS((255 - int33), int20);
+                            IF_SETTRANS((255 - int33), int21);
+                        };
+                    };
+                    IF_SETHIDE(false, int7);
+                } else if ((int33 >= int32)) {
+                    IF_SETHIDE(true, int3);
+                    IF_SETHIDE(true, int4);
+                    IF_SETHIDE(false, int8);
+                    if ((int24 != -1)) {
+                        IF_SETONVARTRANSMIT(callback(script17545, int0, 10937, 10938, 10939, 10940, 10941, 10942, 10943, 11535, 11536, 9), int12);
+                    };
+                    IF_SETONTIMER(callback(), int0);
+                };
+            } else if ((int33 >= int32)) {
+                IF_SETHIDE(true, int3);
+                IF_SETHIDE(true, int4);
+                IF_SETHIDE(false, int8);
+                if ((int24 != -1)) {
+                    IF_SETONVARTRANSMIT(callback(script17545, int0, 10937, 10938, 10939, 10940, 10941, 10942, 10943, 11535, 11536, 9), int12);
+                };
+                IF_SETONTIMER(callback(), int0);
+            };
+        } else if ((int33 > int30)) {
+            if ((int33 < int31)) {
+                int33 = (255 - SCALE(255, 100, (int33 - int30)));
+                IF_SETTRANS(int33, int9);
+                IF_SETTRANS(int33, int10);
+                IF_SETTRANS(int33, int11);
+                IF_SETTRANS(int33, int12);
+                IF_SETTRANS(int33, int13);
+                IF_SETTRANS(int33, int14);
+                IF_SETTRANS(int33, int16);
+                IF_SETTRANS(int33, int15);
+                if ((int24 != -1)) {
+                    IF_SETGRAPHIC(struct_getparam(int24, 9156), int14);
+                    IF_SETCOLOUR(struct_getparam(int24, 8860), int14);
+                    IF_SETCOLOUR(struct_getparam(int24, 8860), int13);
+                    IF_SETCOLOUR(struct_getparam(int24, 8860), int12);
+                    if ((struct_getparam(int24, 9157) != -1)) {
+                        IF_SETHIDE(false, int16);
+                        IF_SETCOLOUR(struct_getparam(int24, 9157), int16);
+                    };
+                    if ((struct_getparam(int24, 9155) != -1)) {
+                        int23 = IF_GETWIDTH(int17);
+                        IF_SETSIZE(struct_getparam(int24, 9155), 33, 0, 0, int17);
+                    };
+                };
+            } else if ((int33 > int31)) {
+                if ((int33 < int32)) {
+                    if ((int26 == 0)) {
+                        int33 = (int33 - int31);
+                        IF_SETMODELZOOM((2000 + SCALE(1500, 100, int33)), int3);
+                        IF_SETMODELZOOM((2000 + SCALE(1500, 100, int33)), int4);
+                        int33 = (255 - SCALE(255, 100, int33));
+                        if ((script17757() == 0)) {
+                            IF_SETTRANS((255 - int33), int18);
+                            IF_SETTRANS((255 - int33), int19);
+                            IF_SETTRANS((255 - int33), int20);
+                            IF_SETTRANS((255 - int33), int21);
+                        };
+                    };
+                    IF_SETHIDE(false, int7);
+                } else if ((int33 >= int32)) {
+                    IF_SETHIDE(true, int3);
+                    IF_SETHIDE(true, int4);
+                    IF_SETHIDE(false, int8);
+                    if ((int24 != -1)) {
+                        IF_SETONVARTRANSMIT(callback(script17545, int0, 10937, 10938, 10939, 10940, 10941, 10942, 10943, 11535, 11536, 9), int12);
+                    };
+                    IF_SETONTIMER(callback(), int0);
+                };
+            } else if ((int33 >= int32)) {
+                IF_SETHIDE(true, int3);
+                IF_SETHIDE(true, int4);
+                IF_SETHIDE(false, int8);
+                if ((int24 != -1)) {
+                    IF_SETONVARTRANSMIT(callback(script17545, int0, 10937, 10938, 10939, 10940, 10941, 10942, 10943, 11535, 11536, 9), int12);
+                };
+                IF_SETONTIMER(callback(), int0);
+            };
+        } else if ((int33 > int31)) {
+            if ((int33 < int32)) {
+                if ((int26 == 0)) {
+                    int33 = (int33 - int31);
+                    IF_SETMODELZOOM((2000 + SCALE(1500, 100, int33)), int3);
+                    IF_SETMODELZOOM((2000 + SCALE(1500, 100, int33)), int4);
+                    int33 = (255 - SCALE(255, 100, int33));
+                    if ((script17757() == 0)) {
+                        IF_SETTRANS((255 - int33), int18);
+                        IF_SETTRANS((255 - int33), int19);
+                        IF_SETTRANS((255 - int33), int20);
+                        IF_SETTRANS((255 - int33), int21);
+                    };
+                };
+                IF_SETHIDE(false, int7);
+            } else if ((int33 >= int32)) {
+                IF_SETHIDE(true, int3);
+                IF_SETHIDE(true, int4);
+                IF_SETHIDE(false, int8);
+                if ((int24 != -1)) {
+                    IF_SETONVARTRANSMIT(callback(script17545, int0, 10937, 10938, 10939, 10940, 10941, 10942, 10943, 11535, 11536, 9), int12);
+                };
+                IF_SETONTIMER(callback(), int0);
+            };
+        } else if ((int33 >= int32)) {
+            IF_SETHIDE(true, int3);
+            IF_SETHIDE(true, int4);
+            IF_SETHIDE(false, int8);
+            if ((int24 != -1)) {
+                IF_SETONVARTRANSMIT(callback(script17545, int0, 10937, 10938, 10939, 10940, 10941, 10942, 10943, 11535, 11536, 9), int12);
+            };
+            IF_SETONTIMER(callback(), int0);
+        };
+    } else if ((int25 == 0)) {
+        if ((int33 == int28)) {
+            IF_SETHIDE(false, int3);
+            IF_SETHIDE(false, int4);
+        } else if ((int33 == int29)) {
+            if ((int25 == 0)) {
+                IF_SETHIDE(true, int5);
+                IF_SETHIDE(true, int6);
+            };
+            if (((int26 == 0) && (int24 != -1))) {
+                IF_SETTEXT(string0, int21);
+                IF_SETSIZE(MIN(400, (STRINGWIDTH(IF_GETTEXT(int21), 55 as fontmetrics) + 60)), 33, 0, 0, int22);
+            };
+        } else if ((int26 == 0)) {
+            if ((int33 > int29)) {
+                if ((int33 <= int30)) {
+                    int33 = (255 - SCALE(255, 100, (int33 - int29)));
+                    IF_SETTRANS(int33, int18);
+                    IF_SETTRANS(int33, int19);
+                    IF_SETTRANS(int33, int20);
+                    IF_SETTRANS(int33, int21);
+                } else if ((int33 > int30)) {
+                    if ((int33 < int31)) {
+                        int33 = (255 - SCALE(255, 100, (int33 - int30)));
+                        IF_SETTRANS(int33, int9);
+                        IF_SETTRANS(int33, int10);
+                        IF_SETTRANS(int33, int11);
+                        IF_SETTRANS(int33, int12);
+                        IF_SETTRANS(int33, int13);
+                        IF_SETTRANS(int33, int14);
+                        IF_SETTRANS(int33, int16);
+                        IF_SETTRANS(int33, int15);
+                        if ((int24 != -1)) {
+                            IF_SETGRAPHIC(struct_getparam(int24, 9156), int14);
+                            IF_SETCOLOUR(struct_getparam(int24, 8860), int14);
+                            IF_SETCOLOUR(struct_getparam(int24, 8860), int13);
+                            IF_SETCOLOUR(struct_getparam(int24, 8860), int12);
+                            if ((struct_getparam(int24, 9157) != -1)) {
+                                IF_SETHIDE(false, int16);
+                                IF_SETCOLOUR(struct_getparam(int24, 9157), int16);
+                            };
+                            if ((struct_getparam(int24, 9155) != -1)) {
+                                int23 = IF_GETWIDTH(int17);
+                                IF_SETSIZE(struct_getparam(int24, 9155), 33, 0, 0, int17);
+                            };
+                        };
+                    } else if ((int33 > int31)) {
+                        if ((int33 < int32)) {
+                            if ((int26 == 0)) {
+                                int33 = (int33 - int31);
+                                IF_SETMODELZOOM((2000 + SCALE(1500, 100, int33)), int3);
+                                IF_SETMODELZOOM((2000 + SCALE(1500, 100, int33)), int4);
+                                int33 = (255 - SCALE(255, 100, int33));
+                                if ((script17757() == 0)) {
+                                    IF_SETTRANS((255 - int33), int18);
+                                    IF_SETTRANS((255 - int33), int19);
+                                    IF_SETTRANS((255 - int33), int20);
+                                    IF_SETTRANS((255 - int33), int21);
+                                };
+                            };
+                            IF_SETHIDE(false, int7);
+                        } else if ((int33 >= int32)) {
+                            IF_SETHIDE(true, int3);
+                            IF_SETHIDE(true, int4);
+                            IF_SETHIDE(false, int8);
+                            if ((int24 != -1)) {
+                                IF_SETONVARTRANSMIT(callback(script17545, int0, 10937, 10938, 10939, 10940, 10941, 10942, 10943, 11535, 11536, 9), int12);
+                            };
+                            IF_SETONTIMER(callback(), int0);
+                        };
+                    } else if ((int33 >= int32)) {
+                        IF_SETHIDE(true, int3);
+                        IF_SETHIDE(true, int4);
+                        IF_SETHIDE(false, int8);
+                        if ((int24 != -1)) {
+                            IF_SETONVARTRANSMIT(callback(script17545, int0, 10937, 10938, 10939, 10940, 10941, 10942, 10943, 11535, 11536, 9), int12);
+                        };
+                        IF_SETONTIMER(callback(), int0);
+                    };
+                } else if ((int33 > int31)) {
+                    if ((int33 < int32)) {
+                        if ((int26 == 0)) {
+                            int33 = (int33 - int31);
+                            IF_SETMODELZOOM((2000 + SCALE(1500, 100, int33)), int3);
+                            IF_SETMODELZOOM((2000 + SCALE(1500, 100, int33)), int4);
+                            int33 = (255 - SCALE(255, 100, int33));
+                            if ((script17757() == 0)) {
+                                IF_SETTRANS((255 - int33), int18);
+                                IF_SETTRANS((255 - int33), int19);
+                                IF_SETTRANS((255 - int33), int20);
+                                IF_SETTRANS((255 - int33), int21);
+                            };
+                        };
+                        IF_SETHIDE(false, int7);
+                    } else if ((int33 >= int32)) {
+                        IF_SETHIDE(true, int3);
+                        IF_SETHIDE(true, int4);
+                        IF_SETHIDE(false, int8);
+                        if ((int24 != -1)) {
+                            IF_SETONVARTRANSMIT(callback(script17545, int0, 10937, 10938, 10939, 10940, 10941, 10942, 10943, 11535, 11536, 9), int12);
+                        };
+                        IF_SETONTIMER(callback(), int0);
+                    };
+                } else if ((int33 >= int32)) {
+                    IF_SETHIDE(true, int3);
+                    IF_SETHIDE(true, int4);
+                    IF_SETHIDE(false, int8);
+                    if ((int24 != -1)) {
+                        IF_SETONVARTRANSMIT(callback(script17545, int0, 10937, 10938, 10939, 10940, 10941, 10942, 10943, 11535, 11536, 9), int12);
+                    };
+                    IF_SETONTIMER(callback(), int0);
+                };
+            } else if ((int33 > int30)) {
+                if ((int33 < int31)) {
+                    int33 = (255 - SCALE(255, 100, (int33 - int30)));
+                    IF_SETTRANS(int33, int9);
+                    IF_SETTRANS(int33, int10);
+                    IF_SETTRANS(int33, int11);
+                    IF_SETTRANS(int33, int12);
+                    IF_SETTRANS(int33, int13);
+                    IF_SETTRANS(int33, int14);
+                    IF_SETTRANS(int33, int16);
+                    IF_SETTRANS(int33, int15);
+                    if ((int24 != -1)) {
+                        IF_SETGRAPHIC(struct_getparam(int24, 9156), int14);
+                        IF_SETCOLOUR(struct_getparam(int24, 8860), int14);
+                        IF_SETCOLOUR(struct_getparam(int24, 8860), int13);
+                        IF_SETCOLOUR(struct_getparam(int24, 8860), int12);
+                        if ((struct_getparam(int24, 9157) != -1)) {
+                            IF_SETHIDE(false, int16);
+                            IF_SETCOLOUR(struct_getparam(int24, 9157), int16);
+                        };
+                        if ((struct_getparam(int24, 9155) != -1)) {
+                            int23 = IF_GETWIDTH(int17);
+                            IF_SETSIZE(struct_getparam(int24, 9155), 33, 0, 0, int17);
+                        };
+                    };
+                } else if ((int33 > int31)) {
+                    if ((int33 < int32)) {
+                        if ((int26 == 0)) {
+                            int33 = (int33 - int31);
+                            IF_SETMODELZOOM((2000 + SCALE(1500, 100, int33)), int3);
+                            IF_SETMODELZOOM((2000 + SCALE(1500, 100, int33)), int4);
+                            int33 = (255 - SCALE(255, 100, int33));
+                            if ((script17757() == 0)) {
+                                IF_SETTRANS((255 - int33), int18);
+                                IF_SETTRANS((255 - int33), int19);
+                                IF_SETTRANS((255 - int33), int20);
+                                IF_SETTRANS((255 - int33), int21);
+                            };
+                        };
+                        IF_SETHIDE(false, int7);
+                    } else if ((int33 >= int32)) {
+                        IF_SETHIDE(true, int3);
+                        IF_SETHIDE(true, int4);
+                        IF_SETHIDE(false, int8);
+                        if ((int24 != -1)) {
+                            IF_SETONVARTRANSMIT(callback(script17545, int0, 10937, 10938, 10939, 10940, 10941, 10942, 10943, 11535, 11536, 9), int12);
+                        };
+                        IF_SETONTIMER(callback(), int0);
+                    };
+                } else if ((int33 >= int32)) {
+                    IF_SETHIDE(true, int3);
+                    IF_SETHIDE(true, int4);
+                    IF_SETHIDE(false, int8);
+                    if ((int24 != -1)) {
+                        IF_SETONVARTRANSMIT(callback(script17545, int0, 10937, 10938, 10939, 10940, 10941, 10942, 10943, 11535, 11536, 9), int12);
+                    };
+                    IF_SETONTIMER(callback(), int0);
+                };
+            } else if ((int33 > int31)) {
+                if ((int33 < int32)) {
+                    if ((int26 == 0)) {
+                        int33 = (int33 - int31);
+                        IF_SETMODELZOOM((2000 + SCALE(1500, 100, int33)), int3);
+                        IF_SETMODELZOOM((2000 + SCALE(1500, 100, int33)), int4);
+                        int33 = (255 - SCALE(255, 100, int33));
+                        if ((script17757() == 0)) {
+                            IF_SETTRANS((255 - int33), int18);
+                            IF_SETTRANS((255 - int33), int19);
+                            IF_SETTRANS((255 - int33), int20);
+                            IF_SETTRANS((255 - int33), int21);
+                        };
+                    };
+                    IF_SETHIDE(false, int7);
+                } else if ((int33 >= int32)) {
+                    IF_SETHIDE(true, int3);
+                    IF_SETHIDE(true, int4);
+                    IF_SETHIDE(false, int8);
+                    if ((int24 != -1)) {
+                        IF_SETONVARTRANSMIT(callback(script17545, int0, 10937, 10938, 10939, 10940, 10941, 10942, 10943, 11535, 11536, 9), int12);
+                    };
+                    IF_SETONTIMER(callback(), int0);
+                };
+            } else if ((int33 >= int32)) {
+                IF_SETHIDE(true, int3);
+                IF_SETHIDE(true, int4);
+                IF_SETHIDE(false, int8);
+                if ((int24 != -1)) {
+                    IF_SETONVARTRANSMIT(callback(script17545, int0, 10937, 10938, 10939, 10940, 10941, 10942, 10943, 11535, 11536, 9), int12);
+                };
+                IF_SETONTIMER(callback(), int0);
+            };
+        } else if ((int33 > int30)) {
+            if ((int33 < int31)) {
+                int33 = (255 - SCALE(255, 100, (int33 - int30)));
+                IF_SETTRANS(int33, int9);
+                IF_SETTRANS(int33, int10);
+                IF_SETTRANS(int33, int11);
+                IF_SETTRANS(int33, int12);
+                IF_SETTRANS(int33, int13);
+                IF_SETTRANS(int33, int14);
+                IF_SETTRANS(int33, int16);
+                IF_SETTRANS(int33, int15);
+                if ((int24 != -1)) {
+                    IF_SETGRAPHIC(struct_getparam(int24, 9156), int14);
+                    IF_SETCOLOUR(struct_getparam(int24, 8860), int14);
+                    IF_SETCOLOUR(struct_getparam(int24, 8860), int13);
+                    IF_SETCOLOUR(struct_getparam(int24, 8860), int12);
+                    if ((struct_getparam(int24, 9157) != -1)) {
+                        IF_SETHIDE(false, int16);
+                        IF_SETCOLOUR(struct_getparam(int24, 9157), int16);
+                    };
+                    if ((struct_getparam(int24, 9155) != -1)) {
+                        int23 = IF_GETWIDTH(int17);
+                        IF_SETSIZE(struct_getparam(int24, 9155), 33, 0, 0, int17);
+                    };
+                };
+            } else if ((int33 > int31)) {
+                if ((int33 < int32)) {
+                    if ((int26 == 0)) {
+                        int33 = (int33 - int31);
+                        IF_SETMODELZOOM((2000 + SCALE(1500, 100, int33)), int3);
+                        IF_SETMODELZOOM((2000 + SCALE(1500, 100, int33)), int4);
+                        int33 = (255 - SCALE(255, 100, int33));
+                        if ((script17757() == 0)) {
+                            IF_SETTRANS((255 - int33), int18);
+                            IF_SETTRANS((255 - int33), int19);
+                            IF_SETTRANS((255 - int33), int20);
+                            IF_SETTRANS((255 - int33), int21);
+                        };
+                    };
+                    IF_SETHIDE(false, int7);
+                } else if ((int33 >= int32)) {
+                    IF_SETHIDE(true, int3);
+                    IF_SETHIDE(true, int4);
+                    IF_SETHIDE(false, int8);
+                    if ((int24 != -1)) {
+                        IF_SETONVARTRANSMIT(callback(script17545, int0, 10937, 10938, 10939, 10940, 10941, 10942, 10943, 11535, 11536, 9), int12);
+                    };
+                    IF_SETONTIMER(callback(), int0);
+                };
+            } else if ((int33 >= int32)) {
+                IF_SETHIDE(true, int3);
+                IF_SETHIDE(true, int4);
+                IF_SETHIDE(false, int8);
+                if ((int24 != -1)) {
+                    IF_SETONVARTRANSMIT(callback(script17545, int0, 10937, 10938, 10939, 10940, 10941, 10942, 10943, 11535, 11536, 9), int12);
+                };
+                IF_SETONTIMER(callback(), int0);
+            };
+        } else if ((int33 > int31)) {
+            if ((int33 < int32)) {
+                if ((int26 == 0)) {
+                    int33 = (int33 - int31);
+                    IF_SETMODELZOOM((2000 + SCALE(1500, 100, int33)), int3);
+                    IF_SETMODELZOOM((2000 + SCALE(1500, 100, int33)), int4);
+                    int33 = (255 - SCALE(255, 100, int33));
+                    if ((script17757() == 0)) {
+                        IF_SETTRANS((255 - int33), int18);
+                        IF_SETTRANS((255 - int33), int19);
+                        IF_SETTRANS((255 - int33), int20);
+                        IF_SETTRANS((255 - int33), int21);
+                    };
+                };
+                IF_SETHIDE(false, int7);
+            } else if ((int33 >= int32)) {
+                IF_SETHIDE(true, int3);
+                IF_SETHIDE(true, int4);
+                IF_SETHIDE(false, int8);
+                if ((int24 != -1)) {
+                    IF_SETONVARTRANSMIT(callback(script17545, int0, 10937, 10938, 10939, 10940, 10941, 10942, 10943, 11535, 11536, 9), int12);
+                };
+                IF_SETONTIMER(callback(), int0);
+            };
+        } else if ((int33 >= int32)) {
+            IF_SETHIDE(true, int3);
+            IF_SETHIDE(true, int4);
+            IF_SETHIDE(false, int8);
+            if ((int24 != -1)) {
+                IF_SETONVARTRANSMIT(callback(script17545, int0, 10937, 10938, 10939, 10940, 10941, 10942, 10943, 11535, 11536, 9), int12);
+            };
+            IF_SETONTIMER(callback(), int0);
+        };
     } else if ((int33 == int29)) {
         if ((int25 == 0)) {
             IF_SETHIDE(true, int5);
             IF_SETHIDE(true, int6);
         };
-        if (((int26 == 0) && (int24 != -1 as struct))) {
+        if (((int26 == 0) && (int24 != -1))) {
             IF_SETTEXT(string0, int21);
             IF_SETSIZE(MIN(400, (STRINGWIDTH(IF_GETTEXT(int21), 55 as fontmetrics) + 60)), 33, 0, 0, int22);
         };
-    } else if ((((int26 == 0) && (int33 > int29)) && (int33 <= int30))) {
-        int33 = (255 - SCALE(255, 100, (int33 - int29)));
-        IF_SETTRANS(int33, int18);
-        IF_SETTRANS(int33, int19);
-        IF_SETTRANS(int33, int20);
-        IF_SETTRANS(int33, int21);
-    } else if (((int33 > int30) && (int33 < int31))) {
-        int33 = (255 - SCALE(255, 100, (int33 - int30)));
-        IF_SETTRANS(int33, int9);
-        IF_SETTRANS(int33, int10);
-        IF_SETTRANS(int33, int11);
-        IF_SETTRANS(int33, int12);
-        IF_SETTRANS(int33, int13);
-        IF_SETTRANS(int33, int14);
-        IF_SETTRANS(int33, int16);
-        IF_SETTRANS(int33, int15);
-        if ((int24 != -1 as struct)) {
-            IF_SETGRAPHIC(struct_getparam(int24, 9156), int14);
-            IF_SETCOLOUR(struct_getparam(int24, 8860), int14);
-            IF_SETCOLOUR(struct_getparam(int24, 8860), int13);
-            IF_SETCOLOUR(struct_getparam(int24, 8860), int12);
-            if ((struct_getparam(int24, 9157) != -1)) {
-                IF_SETHIDE(false, int16);
-                IF_SETCOLOUR(struct_getparam(int24, 9157), int16);
+    } else if ((int26 == 0)) {
+        if ((int33 > int29)) {
+            if ((int33 <= int30)) {
+                int33 = (255 - SCALE(255, 100, (int33 - int29)));
+                IF_SETTRANS(int33, int18);
+                IF_SETTRANS(int33, int19);
+                IF_SETTRANS(int33, int20);
+                IF_SETTRANS(int33, int21);
+            } else if ((int33 > int30)) {
+                if ((int33 < int31)) {
+                    int33 = (255 - SCALE(255, 100, (int33 - int30)));
+                    IF_SETTRANS(int33, int9);
+                    IF_SETTRANS(int33, int10);
+                    IF_SETTRANS(int33, int11);
+                    IF_SETTRANS(int33, int12);
+                    IF_SETTRANS(int33, int13);
+                    IF_SETTRANS(int33, int14);
+                    IF_SETTRANS(int33, int16);
+                    IF_SETTRANS(int33, int15);
+                    if ((int24 != -1)) {
+                        IF_SETGRAPHIC(struct_getparam(int24, 9156), int14);
+                        IF_SETCOLOUR(struct_getparam(int24, 8860), int14);
+                        IF_SETCOLOUR(struct_getparam(int24, 8860), int13);
+                        IF_SETCOLOUR(struct_getparam(int24, 8860), int12);
+                        if ((struct_getparam(int24, 9157) != -1)) {
+                            IF_SETHIDE(false, int16);
+                            IF_SETCOLOUR(struct_getparam(int24, 9157), int16);
+                        };
+                        if ((struct_getparam(int24, 9155) != -1)) {
+                            int23 = IF_GETWIDTH(int17);
+                            IF_SETSIZE(struct_getparam(int24, 9155), 33, 0, 0, int17);
+                        };
+                    };
+                } else if ((int33 > int31)) {
+                    if ((int33 < int32)) {
+                        if ((int26 == 0)) {
+                            int33 = (int33 - int31);
+                            IF_SETMODELZOOM((2000 + SCALE(1500, 100, int33)), int3);
+                            IF_SETMODELZOOM((2000 + SCALE(1500, 100, int33)), int4);
+                            int33 = (255 - SCALE(255, 100, int33));
+                            if ((script17757() == 0)) {
+                                IF_SETTRANS((255 - int33), int18);
+                                IF_SETTRANS((255 - int33), int19);
+                                IF_SETTRANS((255 - int33), int20);
+                                IF_SETTRANS((255 - int33), int21);
+                            };
+                        };
+                        IF_SETHIDE(false, int7);
+                    } else if ((int33 >= int32)) {
+                        IF_SETHIDE(true, int3);
+                        IF_SETHIDE(true, int4);
+                        IF_SETHIDE(false, int8);
+                        if ((int24 != -1)) {
+                            IF_SETONVARTRANSMIT(callback(script17545, int0, 10937, 10938, 10939, 10940, 10941, 10942, 10943, 11535, 11536, 9), int12);
+                        };
+                        IF_SETONTIMER(callback(), int0);
+                    };
+                } else if ((int33 >= int32)) {
+                    IF_SETHIDE(true, int3);
+                    IF_SETHIDE(true, int4);
+                    IF_SETHIDE(false, int8);
+                    if ((int24 != -1)) {
+                        IF_SETONVARTRANSMIT(callback(script17545, int0, 10937, 10938, 10939, 10940, 10941, 10942, 10943, 11535, 11536, 9), int12);
+                    };
+                    IF_SETONTIMER(callback(), int0);
+                };
+            } else if ((int33 > int31)) {
+                if ((int33 < int32)) {
+                    if ((int26 == 0)) {
+                        int33 = (int33 - int31);
+                        IF_SETMODELZOOM((2000 + SCALE(1500, 100, int33)), int3);
+                        IF_SETMODELZOOM((2000 + SCALE(1500, 100, int33)), int4);
+                        int33 = (255 - SCALE(255, 100, int33));
+                        if ((script17757() == 0)) {
+                            IF_SETTRANS((255 - int33), int18);
+                            IF_SETTRANS((255 - int33), int19);
+                            IF_SETTRANS((255 - int33), int20);
+                            IF_SETTRANS((255 - int33), int21);
+                        };
+                    };
+                    IF_SETHIDE(false, int7);
+                } else if ((int33 >= int32)) {
+                    IF_SETHIDE(true, int3);
+                    IF_SETHIDE(true, int4);
+                    IF_SETHIDE(false, int8);
+                    if ((int24 != -1)) {
+                        IF_SETONVARTRANSMIT(callback(script17545, int0, 10937, 10938, 10939, 10940, 10941, 10942, 10943, 11535, 11536, 9), int12);
+                    };
+                    IF_SETONTIMER(callback(), int0);
+                };
+            } else if ((int33 >= int32)) {
+                IF_SETHIDE(true, int3);
+                IF_SETHIDE(true, int4);
+                IF_SETHIDE(false, int8);
+                if ((int24 != -1)) {
+                    IF_SETONVARTRANSMIT(callback(script17545, int0, 10937, 10938, 10939, 10940, 10941, 10942, 10943, 11535, 11536, 9), int12);
+                };
+                IF_SETONTIMER(callback(), int0);
             };
-            if ((struct_getparam(int24, 9155) != -1)) {
-                int23 = IF_GETWIDTH(int17);
-                IF_SETSIZE(struct_getparam(int24, 9155), 33, 0, 0, int17);
+        } else if ((int33 > int30)) {
+            if ((int33 < int31)) {
+                int33 = (255 - SCALE(255, 100, (int33 - int30)));
+                IF_SETTRANS(int33, int9);
+                IF_SETTRANS(int33, int10);
+                IF_SETTRANS(int33, int11);
+                IF_SETTRANS(int33, int12);
+                IF_SETTRANS(int33, int13);
+                IF_SETTRANS(int33, int14);
+                IF_SETTRANS(int33, int16);
+                IF_SETTRANS(int33, int15);
+                if ((int24 != -1)) {
+                    IF_SETGRAPHIC(struct_getparam(int24, 9156), int14);
+                    IF_SETCOLOUR(struct_getparam(int24, 8860), int14);
+                    IF_SETCOLOUR(struct_getparam(int24, 8860), int13);
+                    IF_SETCOLOUR(struct_getparam(int24, 8860), int12);
+                    if ((struct_getparam(int24, 9157) != -1)) {
+                        IF_SETHIDE(false, int16);
+                        IF_SETCOLOUR(struct_getparam(int24, 9157), int16);
+                    };
+                    if ((struct_getparam(int24, 9155) != -1)) {
+                        int23 = IF_GETWIDTH(int17);
+                        IF_SETSIZE(struct_getparam(int24, 9155), 33, 0, 0, int17);
+                    };
+                };
+            } else if ((int33 > int31)) {
+                if ((int33 < int32)) {
+                    if ((int26 == 0)) {
+                        int33 = (int33 - int31);
+                        IF_SETMODELZOOM((2000 + SCALE(1500, 100, int33)), int3);
+                        IF_SETMODELZOOM((2000 + SCALE(1500, 100, int33)), int4);
+                        int33 = (255 - SCALE(255, 100, int33));
+                        if ((script17757() == 0)) {
+                            IF_SETTRANS((255 - int33), int18);
+                            IF_SETTRANS((255 - int33), int19);
+                            IF_SETTRANS((255 - int33), int20);
+                            IF_SETTRANS((255 - int33), int21);
+                        };
+                    };
+                    IF_SETHIDE(false, int7);
+                } else if ((int33 >= int32)) {
+                    IF_SETHIDE(true, int3);
+                    IF_SETHIDE(true, int4);
+                    IF_SETHIDE(false, int8);
+                    if ((int24 != -1)) {
+                        IF_SETONVARTRANSMIT(callback(script17545, int0, 10937, 10938, 10939, 10940, 10941, 10942, 10943, 11535, 11536, 9), int12);
+                    };
+                    IF_SETONTIMER(callback(), int0);
+                };
+            } else if ((int33 >= int32)) {
+                IF_SETHIDE(true, int3);
+                IF_SETHIDE(true, int4);
+                IF_SETHIDE(false, int8);
+                if ((int24 != -1)) {
+                    IF_SETONVARTRANSMIT(callback(script17545, int0, 10937, 10938, 10939, 10940, 10941, 10942, 10943, 11535, 11536, 9), int12);
+                };
+                IF_SETONTIMER(callback(), int0);
             };
+        } else if ((int33 > int31)) {
+            if ((int33 < int32)) {
+                if ((int26 == 0)) {
+                    int33 = (int33 - int31);
+                    IF_SETMODELZOOM((2000 + SCALE(1500, 100, int33)), int3);
+                    IF_SETMODELZOOM((2000 + SCALE(1500, 100, int33)), int4);
+                    int33 = (255 - SCALE(255, 100, int33));
+                    if ((script17757() == 0)) {
+                        IF_SETTRANS((255 - int33), int18);
+                        IF_SETTRANS((255 - int33), int19);
+                        IF_SETTRANS((255 - int33), int20);
+                        IF_SETTRANS((255 - int33), int21);
+                    };
+                };
+                IF_SETHIDE(false, int7);
+            } else if ((int33 >= int32)) {
+                IF_SETHIDE(true, int3);
+                IF_SETHIDE(true, int4);
+                IF_SETHIDE(false, int8);
+                if ((int24 != -1)) {
+                    IF_SETONVARTRANSMIT(callback(script17545, int0, 10937, 10938, 10939, 10940, 10941, 10942, 10943, 11535, 11536, 9), int12);
+                };
+                IF_SETONTIMER(callback(), int0);
+            };
+        } else if ((int33 >= int32)) {
+            IF_SETHIDE(true, int3);
+            IF_SETHIDE(true, int4);
+            IF_SETHIDE(false, int8);
+            if ((int24 != -1)) {
+                IF_SETONVARTRANSMIT(callback(script17545, int0, 10937, 10938, 10939, 10940, 10941, 10942, 10943, 11535, 11536, 9), int12);
+            };
+            IF_SETONTIMER(callback(), int0);
         };
-    } else if (((int33 > int31) && (int33 < int32))) {
-        if ((int26 == 0)) {
-            int33 = (int33 - int31);
-            IF_SETMODELZOOM((2000 + SCALE(1500, 100, int33)), int3);
-            IF_SETMODELZOOM((2000 + SCALE(1500, 100, int33)), int4);
-            int33 = (255 - SCALE(255, 100, int33));
-            if ((script17757() == 0)) {
-                IF_SETTRANS((255 - int33), int18);
-                IF_SETTRANS((255 - int33), int19);
-                IF_SETTRANS((255 - int33), int20);
-                IF_SETTRANS((255 - int33), int21);
+    } else if ((int33 > int30)) {
+        if ((int33 < int31)) {
+            int33 = (255 - SCALE(255, 100, (int33 - int30)));
+            IF_SETTRANS(int33, int9);
+            IF_SETTRANS(int33, int10);
+            IF_SETTRANS(int33, int11);
+            IF_SETTRANS(int33, int12);
+            IF_SETTRANS(int33, int13);
+            IF_SETTRANS(int33, int14);
+            IF_SETTRANS(int33, int16);
+            IF_SETTRANS(int33, int15);
+            if ((int24 != -1)) {
+                IF_SETGRAPHIC(struct_getparam(int24, 9156), int14);
+                IF_SETCOLOUR(struct_getparam(int24, 8860), int14);
+                IF_SETCOLOUR(struct_getparam(int24, 8860), int13);
+                IF_SETCOLOUR(struct_getparam(int24, 8860), int12);
+                if ((struct_getparam(int24, 9157) != -1)) {
+                    IF_SETHIDE(false, int16);
+                    IF_SETCOLOUR(struct_getparam(int24, 9157), int16);
+                };
+                if ((struct_getparam(int24, 9155) != -1)) {
+                    int23 = IF_GETWIDTH(int17);
+                    IF_SETSIZE(struct_getparam(int24, 9155), 33, 0, 0, int17);
+                };
             };
+        } else if ((int33 > int31)) {
+            if ((int33 < int32)) {
+                if ((int26 == 0)) {
+                    int33 = (int33 - int31);
+                    IF_SETMODELZOOM((2000 + SCALE(1500, 100, int33)), int3);
+                    IF_SETMODELZOOM((2000 + SCALE(1500, 100, int33)), int4);
+                    int33 = (255 - SCALE(255, 100, int33));
+                    if ((script17757() == 0)) {
+                        IF_SETTRANS((255 - int33), int18);
+                        IF_SETTRANS((255 - int33), int19);
+                        IF_SETTRANS((255 - int33), int20);
+                        IF_SETTRANS((255 - int33), int21);
+                    };
+                };
+                IF_SETHIDE(false, int7);
+            } else if ((int33 >= int32)) {
+                IF_SETHIDE(true, int3);
+                IF_SETHIDE(true, int4);
+                IF_SETHIDE(false, int8);
+                if ((int24 != -1)) {
+                    IF_SETONVARTRANSMIT(callback(script17545, int0, 10937, 10938, 10939, 10940, 10941, 10942, 10943, 11535, 11536, 9), int12);
+                };
+                IF_SETONTIMER(callback(), int0);
+            };
+        } else if ((int33 >= int32)) {
+            IF_SETHIDE(true, int3);
+            IF_SETHIDE(true, int4);
+            IF_SETHIDE(false, int8);
+            if ((int24 != -1)) {
+                IF_SETONVARTRANSMIT(callback(script17545, int0, 10937, 10938, 10939, 10940, 10941, 10942, 10943, 11535, 11536, 9), int12);
+            };
+            IF_SETONTIMER(callback(), int0);
         };
-        IF_SETHIDE(false, int7);
+    } else if ((int33 > int31)) {
+        if ((int33 < int32)) {
+            if ((int26 == 0)) {
+                int33 = (int33 - int31);
+                IF_SETMODELZOOM((2000 + SCALE(1500, 100, int33)), int3);
+                IF_SETMODELZOOM((2000 + SCALE(1500, 100, int33)), int4);
+                int33 = (255 - SCALE(255, 100, int33));
+                if ((script17757() == 0)) {
+                    IF_SETTRANS((255 - int33), int18);
+                    IF_SETTRANS((255 - int33), int19);
+                    IF_SETTRANS((255 - int33), int20);
+                    IF_SETTRANS((255 - int33), int21);
+                };
+            };
+            IF_SETHIDE(false, int7);
+        } else if ((int33 >= int32)) {
+            IF_SETHIDE(true, int3);
+            IF_SETHIDE(true, int4);
+            IF_SETHIDE(false, int8);
+            if ((int24 != -1)) {
+                IF_SETONVARTRANSMIT(callback(script17545, int0, 10937, 10938, 10939, 10940, 10941, 10942, 10943, 11535, 11536, 9), int12);
+            };
+            IF_SETONTIMER(callback(), int0);
+        };
     } else if ((int33 >= int32)) {
         IF_SETHIDE(true, int3);
         IF_SETHIDE(true, int4);
         IF_SETHIDE(false, int8);
-        if ((int24 != -1 as struct)) {
+        if ((int24 != -1)) {
             IF_SETONVARTRANSMIT(callback(script17545, int0, 10937, 10938, 10939, 10940, 10941, 10942, 10943, 11535, 11536, 9), int12);
         };
         IF_SETONTIMER(callback(), int0);

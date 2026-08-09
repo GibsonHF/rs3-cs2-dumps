@@ -11,12 +11,12 @@ function script7516(): void {
     };
     string1 = `${string0} - Collect ${LOWERCASE(string0)} you find within the sinkhole.`;
     IF_SETTEXT(string0, comp(1391, 18));
-    IF_SETONMOUSEREPEAT(callback(script8799, string1, -2147483645, -1), 91160602);
-    IF_SETONMOUSELEAVE(callback(script8805), 91160602);
-    IF_SETOBJECT(27318, -1, 91160603);
-    IF_SETOBJECT(27317, -1, 91160604);
-    IF_SETHIDE(1, 91160591);
-    IF_SETHIDE(1, 91160592);
-    IF_SETHIDE(1, 91160593);
+    IF_SETONMOUSEREPEAT(callback(script8799, string1, -2147483645, -1), comp(1391, 26));
+    IF_SETONMOUSELEAVE(callback(script8805), comp(1391, 26));
+    IF_SETOBJECT(27318 as obj, -1, comp(1391, 27));
+    IF_SETOBJECT(27317 as obj, -1, comp(1391, 28));
+    IF_SETHIDE(true, comp(1391, 15));
+    IF_SETHIDE(true, comp(1391, 16));
+    IF_SETHIDE(true, comp(1391, 17));
     return;
 }

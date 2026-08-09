@@ -27,7 +27,8 @@ function script17804(int0: number): void {
         IF_SETTEXT("Input (select an option)", comp(1224, 22));
         script17634(int2, 0, 0, 0, 0, 0, 18, (int7 * (18 + 4)), 0, 0, 7570);
         CC_SETONVARTRANSMIT(callback(script17805, int0, 11181, 1));
-        while ((++int12 < int7)) {
+        int12 = (int12 + 1);
+        while ((int12 < int7)) {
             [int5, int6] = script17504(int0, -1, int12);
             int8 = script17503(int0, int12);
             int10 = INV_TOTAL(942 as inv, int5);

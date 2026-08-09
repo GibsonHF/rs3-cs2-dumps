@@ -56,7 +56,7 @@ function script3020(int0: number, string0: string): void {
                 break;
             }
             case 6: {
-                varclient_1094 = false;
+                varclient_1094 = 0;
                 script15230(12);
                 break;
             }
@@ -86,7 +86,7 @@ function script3020(int0: number, string0: string): void {
             }
         };
     };
-    varclient_1650 = false;
+    varclient_1650 = 0;
     script3017();
     return;
 }

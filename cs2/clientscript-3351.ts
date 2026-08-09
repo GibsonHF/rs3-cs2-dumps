@@ -8,7 +8,7 @@ function script3351(int0: number, int1: number, int2: number, int3: number): [nu
     var int9 = IF_GETHEIGHT(comp(1322, 18));
     int6 = int8;
     if ((varclient_6403 != 0)) {
-        [int4, int5, int6, int7] = UNKNOWN_COMMAND_126();
+        [int4, int5, int6, int7] = VIEWPORT_GETBOUNDS();
     };
     var int10 = 0;
     var int11 = 0;

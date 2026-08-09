@@ -3,10 +3,15 @@ function script14989(): void {
     if ((script6431() == 0)) {
         return;
     };
-    if (((varclient_6791 == false) || ((varbitplayer_1899 == 0) && (varbitplayer_27003 == 0)))) {
+    if ((varclient_6791 == false)) {
         varclient_6515 = 0;
         IF_SETONTIMER(callback(), comp(1477, 904));
-        IF_SETHIDE(1, 96797576);
+        IF_SETHIDE(true, comp(1477, 904));
+        return;
+    } else if (((varbitplayer_1899 == 0) && (varbitplayer_27003 == 0))) {
+        varclient_6515 = 0;
+        IF_SETONTIMER(callback(), comp(1477, 904));
+        IF_SETHIDE(true, comp(1477, 904));
         return;
     };
     var int0 = 0;
@@ -14,7 +19,7 @@ function script14989(): void {
     var int2 = 0;
     var int3 = 0;
     if ((varclient_6515 == 1)) {
-        [int0, int1, int2, int3] = UNKNOWN_COMMAND_126();
+        [int0, int1, int2, int3] = VIEWPORT_GETBOUNDS();
         if ((varclient_6403 == 0)) {
             int2 = IF_GETWIDTH(comp(1477, 26));
             int3 = IF_GETHEIGHT(comp(1477, 26));

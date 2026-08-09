@@ -1,8 +1,9 @@
 //
 function script7929(int0: number, int1: number, int2: number, int3: number): void {
     if ((CLIENTCLOCK() > int3)) {
-        if ((++int2 > 7)) {
-            var int2 = 0;
+        var int2 = (int2 + 1);
+        if ((int2 > 7)) {
+            int2 = 0;
         };
         switch (int2) {
             case 0: {
@@ -43,8 +44,8 @@ function script7929(int0: number, int1: number, int2: number, int3: number): voi
     IF_SETTEXT(`${inttostring(PRELOAD_PERCENT(), 10)}%`, int1);
     if ((PRELOAD_PERCENT() == 100)) {
         IF_SETONTIMER(callback(), int1);
-        IF_SETHIDE(1, int0);
-        IF_SETHIDE(1, int1);
+        IF_SETHIDE(true, int0);
+        IF_SETHIDE(true, int1);
     } else {
         IF_SETONTIMER(callback(script7929, int0, int1, int2, int3), int1);
     };

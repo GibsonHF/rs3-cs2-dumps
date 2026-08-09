@@ -20,6 +20,6 @@ function script15037(): void {
     IF_SETTEXT("0", comp(105, 170));
     IF_SETTEXT("1", comp(105, 185));
     IF_SETONTIMER(callback(), comp(105, 141));
-    IF_SETTEXT("", 6881421);
+    IF_SETTEXT("", comp(105, 141));
     return;
 }

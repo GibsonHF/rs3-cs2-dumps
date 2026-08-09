@@ -13,7 +13,7 @@ function script12158(int0: number, int1: number, int2: number): void {
             int4 = 0;
         };
     };
-    var int7 = -1 as dbrow;
+    var int7 = -1;
     var int8 = 0;
     var int9 = ENUM_GETOUTPUTCOUNT(10742 as cs2enum);
     var int10 = 0;
@@ -29,38 +29,40 @@ function script12158(int0: number, int1: number, int2: number): void {
         CC_CREATE(int1, 5, int10);
         CC_SETHIDE(true);
         int7 = enum_getvalue(0, 74, 10742 as cs2enum, int10);
-        if ((((int3 == 1) || (script12053(int7) > 0)) && ((int6 == -1 as cs2enum) || (enum_hasoutput(74, int6, int7) == 1)))) {
-            pop_array(int8, int10);
-            int8 = (int8 + 1);
-            CC_SETPARAM_STRING(5441, LOWERCASE(dbrow_getfield(int7, 16400, 0)));
-            cc_setparam(5529, int7);
-            switch (dbrow_getfield(int7, 16496, 0)) {
-                case 2: {
-                    cc_setparam(5535, 2);
-                    int11 = (int11 + 1);
-                    break;
-                }
-                case 6:
-                case 3: {
-                    cc_setparam(5535, 3);
-                    int12 = (int12 + 1);
-                    break;
-                }
-                case 4: {
-                    cc_setparam(5535, 4);
-                    int13 = (int13 + 1);
-                    break;
-                }
-                case 5: {
-                    cc_setparam(5535, 5);
-                    int14 = (int14 + 1);
-                    break;
-                }
-                default: {
-                    cc_setparam(5535, -1);
-                    int15 = (int15 + 1);
-                    break;
-                }
+        if (((int3 == 1) || (script12053(int7) > 0))) {
+            if (((int6 == -1 as cs2enum) || (enum_hasoutput(74, int6, int7) == 1))) {
+                pop_array(int8, int10);
+                int8 = (int8 + 1);
+                CC_SETPARAM_STRING(5441, LOWERCASE(dbrow_getfield(int7, 16400, 0)));
+                cc_setparam(5529, int7);
+                switch (dbrow_getfield(int7, 16496, 0)) {
+                    case 2: {
+                        cc_setparam(5535, 2);
+                        int11 = (int11 + 1);
+                        break;
+                    }
+                    case 6:
+                    case 3: {
+                        cc_setparam(5535, 3);
+                        int12 = (int12 + 1);
+                        break;
+                    }
+                    case 4: {
+                        cc_setparam(5535, 4);
+                        int13 = (int13 + 1);
+                        break;
+                    }
+                    case 5: {
+                        cc_setparam(5535, 5);
+                        int14 = (int14 + 1);
+                        break;
+                    }
+                    default: {
+                        cc_setparam(5535, -1);
+                        int15 = (int15 + 1);
+                        break;
+                    }
+                };
             };
         };
         int10 = (int10 + 1);
@@ -178,27 +180,27 @@ function script12158(int0: number, int1: number, int2: number): void {
             int39 = cc_getparam(5535);
             switch (int39) {
                 case 2: {
-                    int33 = int11++;
+                    [int33, int11] = [int11, (int11 + 1)];
                     int31 = int25;
                     break;
                 }
                 case 3: {
-                    int33 = int12++;
+                    [int33, int12] = [int12, (int12 + 1)];
                     int31 = int26;
                     break;
                 }
                 case 4: {
-                    int33 = int13++;
+                    [int33, int13] = [int13, (int13 + 1)];
                     int31 = int27;
                     break;
                 }
                 case 5: {
-                    int33 = int14++;
+                    [int33, int14] = [int14, (int14 + 1)];
                     int31 = int28;
                     break;
                 }
                 default: {
-                    int33 = int15++;
+                    [int33, int15] = [int15, (int15 + 1)];
                     int31 = int29;
                     break;
                 }
@@ -245,7 +247,7 @@ function script12158(int0: number, int1: number, int2: number): void {
                     break;
                 }
             };
-            if ((int1 == comp(1709, 1))) {
+            if ((int1 == 112001025)) {
                 CC_SETONCLICK[1](callback(script6558, string1, string0));
             };
             int37 = DB_GETFIELDCOUNT(int7, 16560);
@@ -259,15 +261,8 @@ function script12158(int0: number, int1: number, int2: number): void {
                 stack(32768);
                 stack(int35);
                 DB_FIND(0);
-                dbrow_findnext();
-                int38 = stack();
-                stack(string0);
-                stack(" ");
-                stack(int38);
-                stack(32784);
-                stack(0);
-                dbrow_getfield();
-                string0 = `${stack()}`;
+                int38 = dbrow_findnext();
+                string0 = `${string0} ${dbrow_getfield(int38, 32784, 0)}`;
                 if ((int37 > 1)) {
                     string0 = `${string0},`;
                 };
@@ -284,15 +279,8 @@ function script12158(int0: number, int1: number, int2: number): void {
                 stack(32768);
                 stack(int35);
                 DB_FIND(0);
-                dbrow_findnext();
-                int38 = stack();
-                stack(string0);
-                stack(" ");
-                stack(int38);
-                stack(32784);
-                stack(0);
-                dbrow_getfield();
-                string0 = `${stack()}`;
+                int38 = dbrow_findnext();
+                string0 = `${string0} ${dbrow_getfield(int38, 32784, 0)}`;
                 if ((int37 > 1)) {
                     string0 = `${string0},`;
                 };
@@ -309,15 +297,8 @@ function script12158(int0: number, int1: number, int2: number): void {
                 stack(32768);
                 stack(int35);
                 DB_FIND(0);
-                dbrow_findnext();
-                int38 = stack();
-                stack(string0);
-                stack(" ");
-                stack(int38);
-                stack(32784);
-                stack(0);
-                dbrow_getfield();
-                string0 = `${stack()}`;
+                int38 = dbrow_findnext();
+                string0 = `${string0} ${dbrow_getfield(int38, 32784, 0)}`;
                 if ((int37 > 1)) {
                     string0 = `${string0},`;
                 };

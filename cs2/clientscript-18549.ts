@@ -1,6 +1,6 @@
 //
 function script18549(int0: number, int1: number, int2: number, int3: number, int4: number): [number, number, number, number] {
-    if ((dbrow_getfield(int0, 790656, 0) == false)) {
+    if ((dbrow_getfield(int0, 790656, 0) == 0)) {
         if ((script18539() == 1)) {
             var int1 = 33584;
             var int2 = 33585;

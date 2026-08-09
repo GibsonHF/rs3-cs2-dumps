@@ -150,15 +150,24 @@ function script19010(int0: number): void {
     while ((int24 < ENUM_GETOUTPUTCOUNT(int11))) {
         int28 = enum_getvalue(0, 73, int11, int24);
         [int25, int26, int27] = script19012(int0, int28, int30);
-        script2994(122552324, int29++, int22, int23, 0, 0, int14, int15, 0, 0, int25);
-        script2994(122552324, int29++, (int22 + int18), (int23 + int19), 0, 0, int16, int17, 0, 0, -1);
+        stack(122552324);
+        stack(int29);
+        int29 = (int29 + 1);
+        script2994(int22, int23, 0, 0, int14, int15, 0, 0, int25);
+        stack(122552324);
+        stack(int29);
+        int29 = (int29 + 1);
+        script2994((int22 + int18), (int23 + int19), 0, 0, int16, int17, 0, 0, -1);
         if ((struct_getparam(int28, 856) != -1 as graphic)) {
             CC_SETGRAPHIC(struct_getparam(int28, 856));
         } else if ((struct_getparam(int28, 9111) != -1 as obj)) {
             CC_SETOBJECT_HIGHRES(struct_getparam(int28, 9111));
         };
         if (((int26 != -1 as graphic) || (int27 != -1))) {
-            script2994(122552324, int29++, int22, int23, 0, 0, int14, int15, 0, 0, -1);
+            stack(122552324);
+            stack(int29);
+            int29 = (int29 + 1);
+            script2994(int22, int23, 0, 0, int14, int15, 0, 0, -1);
             if ((int30 == 1)) {
                 CC_SETGRAPHIC(int26);
             };

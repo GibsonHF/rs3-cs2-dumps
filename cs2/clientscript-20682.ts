@@ -1,5 +1,5 @@
 //
-function script20682(int0: number): [number, string, number] {
+function script20682(int0: number): [number, number, string] {
     var int1 = (script20673(int0) - 1);
     if ((((int0 == -1) || (script20666(int0) == 2)) || (int1 < 0))) {
         return [-1, "", -1];

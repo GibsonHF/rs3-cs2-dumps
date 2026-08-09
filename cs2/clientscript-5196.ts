@@ -1,21 +1,21 @@
 //
 function script5196(int0: number): void {
-    var int1 = false;
-    var int2 = false;
+    var int1 = 0;
+    var int2 = 0;
     var int3 = false;
-    var int4 = false;
-    var int5 = false;
+    var int4 = 0;
+    var int5 = 0;
     if ((varclient_1595 < 1)) {
-        int2 = true;
+        int2 = 1;
     };
     if ((varclient_1595 < 2)) {
         int3 = true;
     };
     if ((varclient_1595 < 3)) {
-        int4 = true;
+        int4 = 1;
     };
     if ((varclient_1595 < 4)) {
-        int5 = true;
+        int5 = 1;
     };
     script13996(73531519, 73531520, 28556, "", int1, script9670(0, int0));
     script13996(73531522, 73531523, 28556, "", int2, script9670(1, int0));

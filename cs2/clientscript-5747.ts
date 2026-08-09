@@ -11,7 +11,13 @@ function script5747(int0: number): number {
             int1 = (int1 + script17032(int0));
             int3 = (DB_GETFIELDCOUNT(int0, 409600) - 1);
             while ((int3 > -1)) {
-                pop_array(int2++, dbrow_getfield(int0, 409600, int3--));
+                stack(int2);
+                int2 = (int2 + 1);
+                stack(int0);
+                stack(409600);
+                stack(int3);
+                int3 = (int3 - 1);
+                pop_array(dbrow_getfield());
             };
         };
         int2 = (int2 - 1);

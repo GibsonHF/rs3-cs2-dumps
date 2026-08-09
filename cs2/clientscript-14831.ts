@@ -1,12 +1,12 @@
 //
 function script14831(int0: number): void {
-    var int1 = -1 as graphic;
+    var int1 = -1;
     var int2 = -1 as obj;
     var string0 = "???";
     var string1 = "No information available.";
     var string2 = "Unknown";
     var string3 = "Unknown";
-    if ((int0 != -1 as dbrow)) {
+    if ((int0 != -1)) {
         int1 = dbrow_getfield(int0, 364576, 0);
         int2 = dbrow_getfield(int0, 364640, 0);
         string0 = OC_NAME(int2);

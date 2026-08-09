@@ -1,5 +1,5 @@
 //
-function script3117(int0: number, int1: number, int2: number, int3: number, int4: number, string0: string, string1: string): [number, string, string, number, number, number, number, string, string] {
+function script3117(int0: number, int1: number, int2: number, int3: number, int4: number, string0: string, string1: string): [number, number, number, number, number, string, string, string, string] {
     var int5 = -1;
     var int6 = 0;
     var int7 = 0;

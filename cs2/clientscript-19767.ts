@@ -4,7 +4,7 @@ function script19767(int0: number): number {
         var int0 = varbitplayer_57152;
     };
     var int1 = -1 as dbrow;
-    var int2 = -1 as dbrow;
+    var int2 = -1;
     var int3 = 0;
     if ((int0 == 1)) {
         int1 = dbrow_getfield(14845 as dbrow, 1106000, 0);

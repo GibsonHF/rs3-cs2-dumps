@@ -19,7 +19,8 @@ function script13166(int0: number): void {
     var int4 = -1;
     var string0 = "";
     var string1 = "";
-    while ((++int1 < int2)) {
+    int1 = (int1 + 1);
+    while ((int1 < int2)) {
         int3 = enum_getvalue(0, 73, 12222 as cs2enum, int1);
         if ((int3 != -1 as struct)) {
             [int4, string0, string1] = script13167(script13165(int1));

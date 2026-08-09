@@ -13,10 +13,10 @@ function script11841(): void {
     var string0 = "Unlock the ability to win the scrimshaw of aggression.<br>Dark lamps and stars will grant 20% more XP than standard prismatics.";
     var string1 = "Unlock the ability to win the scrimshaw of sacrifice and a greater chance to win the scrimshaw of aggression.<br>Dark lamps and stars will grant 30% more XP than standard prismatics.";
     var string2 = "Unlock the ability to win the scrimshaw of corruption, the helm of corruption and a greater chance to win the previous scrimshaws.<br>Dark lamps and stars will grant 40% more XP than standard prismatics.";
-    IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -1), 110297095);
-    IF_SETONMOUSEREPEAT(callback(script8799, string1, -2147483645, -1), 110297096);
-    IF_SETONMOUSEREPEAT(callback(script8799, string2, -2147483645, -1), 110297097);
-    IF_SETSIZE(1, 0, 0, 1, 110297093);
+    IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -1), comp(1683, 7));
+    IF_SETONMOUSEREPEAT(callback(script8799, string1, -2147483645, -1), comp(1683, 8));
+    IF_SETONMOUSEREPEAT(callback(script8799, string2, -2147483645, -1), comp(1683, 9));
+    IF_SETSIZE(1, 0, 0, 1, comp(1683, 5));
     if ((varbitplayer_29511 == 0)) {
         IF_SETSIZE(1, 0, 0, 1, comp(1683, 5));
     } else {

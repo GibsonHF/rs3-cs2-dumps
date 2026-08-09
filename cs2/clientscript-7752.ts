@@ -19,8 +19,12 @@ function script7752(int0: number, int1: number, int2: number): number {
         };
         int7 = (int7 + 1);
     };
-    if (((int6 == 1) && ((int2 < 1) || ((int2 >= 1) && (script10504(int5, int2) == 1))))) {
-        return 1;
+    if ((int6 == 1)) {
+        if ((int2 < 1)) {
+            return 1;
+        } else if (((int2 >= 1) && (script10504(int5, int2) == 1))) {
+            return 1;
+        };
     };
     return 0;
 }

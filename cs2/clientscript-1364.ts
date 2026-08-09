@@ -74,11 +74,17 @@ function script1364(): void {
                 };
                 script14163();
             };
-        } else if (((IF_HASSUBOVERLAY(comp(1418, 2), 389 as overlayinterface) == 1) && (IF_GETHIDE(comp(389, 0)) == true))) {
-            IF_SETNOCLICKTHROUGH(0, struct_getparam(21303, 3503));
-            IF_SETNOCLICKTHROUGH(0, struct_getparam(21303, 6121));
-            IF_SETHIDE(true, comp(1418, 3));
-            script3374(1006);
+        } else if ((IF_HASSUBOVERLAY(comp(1418, 2), 389 as overlayinterface) == 1)) {
+            if ((IF_GETHIDE(comp(389, 0)) == true)) {
+                IF_SETNOCLICKTHROUGH(0, struct_getparam(21303, 3503));
+                IF_SETNOCLICKTHROUGH(0, struct_getparam(21303, 6121));
+                IF_SETHIDE(true, comp(1418, 3));
+                script3374(1006);
+            } else {
+                IF_SETNOCLICKTHROUGH(1, struct_getparam(21303, 3503));
+                IF_SETNOCLICKTHROUGH(0, struct_getparam(21303, 6121));
+                IF_SETHIDE(false, comp(1418, 3));
+            };
         } else {
             IF_SETNOCLICKTHROUGH(1, struct_getparam(21303, 3503));
             IF_SETNOCLICKTHROUGH(0, struct_getparam(21303, 6121));
@@ -142,8 +148,12 @@ function script1364(): void {
     script3288();
     if (((((varplayer_1784 != -1 as npc) || (varplayer_1831 == 24906 as obj)) || (varplayer_1831 == 24907 as obj)) || (varplayer_1831 == 24908 as obj))) {
         IF_SETHIDE(false, comp(1430, 28));
-    } else if (((varplayer_1831 != -1 as obj) && (OC_CATEGORY(varplayer_1831) == 2840 as category))) {
-        IF_SETHIDE(false, comp(1430, 28));
+    } else if ((varplayer_1831 != -1 as obj)) {
+        if ((OC_CATEGORY(varplayer_1831) == 2840 as category)) {
+            IF_SETHIDE(false, comp(1430, 28));
+        } else {
+            script8084();
+        };
     } else {
         script8084();
     };

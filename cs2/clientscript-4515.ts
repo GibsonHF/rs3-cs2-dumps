@@ -1,7 +1,9 @@
 //
 function script4515(int0: number, int1: number): void {
     var int2 = -1;
-    while ((CC_FIND(int0, ++int2) == 1)) {
+    stack(int0);
+    int2 = (int2 + 1);
+    while ((CC_FIND(int2) == 1)) {
         if ((cc_getparam(7186) == 1)) {
             CC_SETHIDE(true);
         };

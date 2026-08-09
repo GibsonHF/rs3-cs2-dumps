@@ -10,20 +10,18 @@ function script14921(int0: number): void {
     CC_DELETEALL(comp(694, 52));
     CC_DELETEALL(comp(694, 53));
     var int1 = -1;
-    var int2 = -1 as dbrow;
+    var int2 = -1;
     stack(340080);
     stack(int0);
     DB_FIND(0);
-    dbrow_findnext();
-    int1 = stack();
+    int1 = dbrow_findnext();
     if ((int1 != -1)) {
         stack(335984);
         stack(int1);
         DB_FIND(0);
-        dbrow_findnext();
-        int2 = stack();
+        int2 = dbrow_findnext();
     };
-    if ((int2 != -1 as dbrow)) {
+    if ((int2 != -1)) {
         IF_SETTEXT(`${dbrow_getfield(int2, 335888, 0)}<br>Location: ${dbrow_getfield(int2, 335952, 0)}`, comp(694, 11));
     };
     var int3 = 0;

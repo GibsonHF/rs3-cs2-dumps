@@ -8,7 +8,6 @@ function script6617(int0: number, int1: number, int2: number, int3: number, int4
             };
         };
         if ((int2 == 1)) {
-        } else {
         };
         if ((int2 == 2)) {
             int3 = MIN((int3 + 20), 255);
@@ -31,7 +30,7 @@ function script6617(int0: number, int1: number, int2: number, int3: number, int4
     };
     if ((int0 == 0)) {
         IF_SETONTIMER(callback(), int5);
-        IF_SETHIDE(1, int5);
+        IF_SETHIDE(true, int5);
     } else {
         IF_SETONTIMER(callback(script6617, int0, int1, int2, int3, int4, int5), int5);
     };

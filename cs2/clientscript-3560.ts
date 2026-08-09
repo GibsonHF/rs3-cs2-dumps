@@ -7,7 +7,8 @@ function script3560(int0: number): void {
         MES_TYPED(99, 0, "Inactive list.");
         int2 = cc_getparam(8101);
         while ((IF_FIND[1](int2) == 1)) {
-            if ((++int1 > 50)) {
+            int1 = (int1 + 1);
+            if ((int1 > 50)) {
                 return;
             };
             if ((cc_getparam[1](8102) == false)) {
@@ -24,7 +25,8 @@ function script3560(int0: number): void {
         MES_TYPED(99, 0, "Active list.");
         int2 = cc_getparam(8100);
         while ((IF_FIND[1](int2) == 1)) {
-            if ((++int1 > 50)) {
+            int1 = (int1 + 1);
+            if ((int1 > 50)) {
                 return;
             };
             if ((cc_getparam[1](8102) == false)) {

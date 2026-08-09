@@ -20,8 +20,12 @@ function script2671(): void {
             int2 = false;
             int3 = true;
             int4 = true;
-            if (((item_getparam(varplayer_1831, 5048) == 1) && (varbitplayer_27747 == 1))) {
-                int5 = true;
+            if ((item_getparam(varplayer_1831, 5048) == 1)) {
+                if ((varbitplayer_27747 == 1)) {
+                    int5 = true;
+                } else {
+                    int5 = false;
+                };
             } else {
                 int5 = false;
             };
@@ -32,13 +36,22 @@ function script2671(): void {
             int7 = false;
         };
     };
-    if (((varbitplayer_6068 == 5) && (int0 == true))) {
-        IF_SETHIDE(false, comp(1430, 46));
-        IF_SETHIDE(true, comp(1430, 45));
-        IF_SETHIDE(false, comp(1506, 27));
-        IF_SETHIDE(true, comp(1506, 26));
-        IF_SETHIDE(false, comp(1923, 44));
-        IF_SETHIDE(true, comp(1923, 43));
+    if ((varbitplayer_6068 == 5)) {
+        if ((int0 == true)) {
+            IF_SETHIDE(false, comp(1430, 46));
+            IF_SETHIDE(true, comp(1430, 45));
+            IF_SETHIDE(false, comp(1506, 27));
+            IF_SETHIDE(true, comp(1506, 26));
+            IF_SETHIDE(false, comp(1923, 44));
+            IF_SETHIDE(true, comp(1923, 43));
+        } else {
+            IF_SETHIDE(true, comp(1430, 46));
+            IF_SETHIDE(false, comp(1430, 45));
+            IF_SETHIDE(true, comp(1506, 27));
+            IF_SETHIDE(false, comp(1506, 26));
+            IF_SETHIDE(true, comp(1923, 44));
+            IF_SETHIDE(false, comp(1923, 43));
+        };
     } else {
         IF_SETHIDE(true, comp(1430, 46));
         IF_SETHIDE(false, comp(1430, 45));
@@ -47,13 +60,22 @@ function script2671(): void {
         IF_SETHIDE(true, comp(1923, 44));
         IF_SETHIDE(false, comp(1923, 43));
     };
-    if (((varbitplayer_6068 == 2) && (int2 == true))) {
-        IF_SETHIDE(false, comp(1430, 43));
-        IF_SETHIDE(true, comp(1430, 33));
-        IF_SETHIDE(false, comp(1506, 24));
-        IF_SETHIDE(true, comp(1506, 13));
-        IF_SETHIDE(false, comp(1923, 41));
-        IF_SETHIDE(true, comp(1923, 31));
+    if ((varbitplayer_6068 == 2)) {
+        if ((int2 == true)) {
+            IF_SETHIDE(false, comp(1430, 43));
+            IF_SETHIDE(true, comp(1430, 33));
+            IF_SETHIDE(false, comp(1506, 24));
+            IF_SETHIDE(true, comp(1506, 13));
+            IF_SETHIDE(false, comp(1923, 41));
+            IF_SETHIDE(true, comp(1923, 31));
+        } else {
+            IF_SETHIDE(true, comp(1430, 43));
+            IF_SETHIDE(false, comp(1430, 33));
+            IF_SETHIDE(true, comp(1506, 24));
+            IF_SETHIDE(false, comp(1506, 13));
+            IF_SETHIDE(true, comp(1923, 41));
+            IF_SETHIDE(false, comp(1923, 31));
+        };
     } else {
         IF_SETHIDE(true, comp(1430, 43));
         IF_SETHIDE(false, comp(1430, 33));
@@ -62,13 +84,22 @@ function script2671(): void {
         IF_SETHIDE(true, comp(1923, 41));
         IF_SETHIDE(false, comp(1923, 31));
     };
-    if (((varbitplayer_6068 == 4) && (int3 == true))) {
-        IF_SETHIDE(false, comp(1430, 50));
-        IF_SETHIDE(true, comp(1430, 48));
-        IF_SETHIDE(false, comp(1506, 31));
-        IF_SETHIDE(true, comp(1506, 29));
-        IF_SETHIDE(false, comp(1923, 48));
-        IF_SETHIDE(true, comp(1923, 46));
+    if ((varbitplayer_6068 == 4)) {
+        if ((int3 == true)) {
+            IF_SETHIDE(false, comp(1430, 50));
+            IF_SETHIDE(true, comp(1430, 48));
+            IF_SETHIDE(false, comp(1506, 31));
+            IF_SETHIDE(true, comp(1506, 29));
+            IF_SETHIDE(false, comp(1923, 48));
+            IF_SETHIDE(true, comp(1923, 46));
+        } else {
+            IF_SETHIDE(true, comp(1430, 50));
+            IF_SETHIDE(false, comp(1430, 48));
+            IF_SETHIDE(true, comp(1506, 31));
+            IF_SETHIDE(false, comp(1506, 29));
+            IF_SETHIDE(true, comp(1923, 48));
+            IF_SETHIDE(false, comp(1923, 46));
+        };
     } else {
         IF_SETHIDE(true, comp(1430, 50));
         IF_SETHIDE(false, comp(1430, 48));
@@ -77,21 +108,36 @@ function script2671(): void {
         IF_SETHIDE(true, comp(1923, 48));
         IF_SETHIDE(false, comp(1923, 46));
     };
-    if (((varbitplayer_6068 == 3) && (int4 == true))) {
-        IF_SETHIDE(false, comp(1430, 51));
-        IF_SETHIDE(true, comp(1430, 49));
-        IF_SETHIDE(false, comp(1506, 32));
-        IF_SETHIDE(true, comp(1506, 30));
-        IF_SETHIDE(false, comp(1923, 49));
-        IF_SETHIDE(true, comp(1923, 47));
-        if (((item_getparam(varplayer_1831, 395) > 0) && (item_getparam(varplayer_1831, 5051) == -1 as struct))) {
-            IF_SETOP(1, "Pick up", comp(1430, 51));
-            IF_SETOP(1, "Pick up", comp(1506, 32));
-            IF_SETOP(1, "Pick up", comp(1923, 49));
+    if ((varbitplayer_6068 == 3)) {
+        if ((int4 == true)) {
+            IF_SETHIDE(false, comp(1430, 51));
+            IF_SETHIDE(true, comp(1430, 49));
+            IF_SETHIDE(false, comp(1506, 32));
+            IF_SETHIDE(true, comp(1506, 30));
+            IF_SETHIDE(false, comp(1923, 49));
+            IF_SETHIDE(true, comp(1923, 47));
+            if ((item_getparam(varplayer_1831, 395) > 0)) {
+                if ((item_getparam(varplayer_1831, 5051) == -1 as struct)) {
+                    IF_SETOP(1, "Pick up", comp(1430, 51));
+                    IF_SETOP(1, "Pick up", comp(1506, 32));
+                    IF_SETOP(1, "Pick up", comp(1923, 49));
+                } else {
+                    IF_SETOP(1, "Dismiss", comp(1430, 51));
+                    IF_SETOP(1, "Dismiss", comp(1506, 32));
+                    IF_SETOP(1, "Dismiss", comp(1923, 49));
+                };
+            } else {
+                IF_SETOP(1, "Dismiss", comp(1430, 51));
+                IF_SETOP(1, "Dismiss", comp(1506, 32));
+                IF_SETOP(1, "Dismiss", comp(1923, 49));
+            };
         } else {
-            IF_SETOP(1, "Dismiss", comp(1430, 51));
-            IF_SETOP(1, "Dismiss", comp(1506, 32));
-            IF_SETOP(1, "Dismiss", comp(1923, 49));
+            IF_SETHIDE(true, comp(1430, 51));
+            IF_SETHIDE(false, comp(1430, 49));
+            IF_SETHIDE(true, comp(1506, 32));
+            IF_SETHIDE(false, comp(1506, 30));
+            IF_SETHIDE(true, comp(1923, 49));
+            IF_SETHIDE(false, comp(1923, 47));
         };
     } else {
         IF_SETHIDE(true, comp(1430, 51));
@@ -101,13 +147,22 @@ function script2671(): void {
         IF_SETHIDE(true, comp(1923, 49));
         IF_SETHIDE(false, comp(1923, 47));
     };
-    if (((varbitplayer_6068 == 8) && (int5 == true))) {
-        IF_SETHIDE(false, comp(1430, 40));
-        IF_SETHIDE(true, comp(1430, 30));
-        IF_SETHIDE(false, comp(1506, 20));
-        IF_SETHIDE(true, comp(1506, 10));
-        IF_SETHIDE(false, comp(1923, 38));
-        IF_SETHIDE(true, comp(1923, 28));
+    if ((varbitplayer_6068 == 8)) {
+        if ((int5 == true)) {
+            IF_SETHIDE(false, comp(1430, 40));
+            IF_SETHIDE(true, comp(1430, 30));
+            IF_SETHIDE(false, comp(1506, 20));
+            IF_SETHIDE(true, comp(1506, 10));
+            IF_SETHIDE(false, comp(1923, 38));
+            IF_SETHIDE(true, comp(1923, 28));
+        } else {
+            IF_SETHIDE(true, comp(1430, 40));
+            IF_SETHIDE(false, comp(1430, 30));
+            IF_SETHIDE(true, comp(1506, 20));
+            IF_SETHIDE(false, comp(1506, 10));
+            IF_SETHIDE(true, comp(1923, 38));
+            IF_SETHIDE(false, comp(1923, 28));
+        };
     } else {
         IF_SETHIDE(true, comp(1430, 40));
         IF_SETHIDE(false, comp(1430, 30));
@@ -116,13 +171,22 @@ function script2671(): void {
         IF_SETHIDE(true, comp(1923, 38));
         IF_SETHIDE(false, comp(1923, 28));
     };
-    if (((varbitplayer_6068 == 9) && (int5 == true))) {
-        IF_SETHIDE(false, comp(1430, 41));
-        IF_SETHIDE(true, comp(1430, 31));
-        IF_SETHIDE(false, comp(1506, 21));
-        IF_SETHIDE(true, comp(1506, 11));
-        IF_SETHIDE(false, comp(1923, 39));
-        IF_SETHIDE(true, comp(1923, 29));
+    if ((varbitplayer_6068 == 9)) {
+        if ((int5 == true)) {
+            IF_SETHIDE(false, comp(1430, 41));
+            IF_SETHIDE(true, comp(1430, 31));
+            IF_SETHIDE(false, comp(1506, 21));
+            IF_SETHIDE(true, comp(1506, 11));
+            IF_SETHIDE(false, comp(1923, 39));
+            IF_SETHIDE(true, comp(1923, 29));
+        } else {
+            IF_SETHIDE(true, comp(1430, 41));
+            IF_SETHIDE(false, comp(1430, 31));
+            IF_SETHIDE(true, comp(1506, 21));
+            IF_SETHIDE(false, comp(1506, 11));
+            IF_SETHIDE(true, comp(1923, 39));
+            IF_SETHIDE(false, comp(1923, 29));
+        };
     } else {
         IF_SETHIDE(true, comp(1430, 41));
         IF_SETHIDE(false, comp(1430, 31));
@@ -131,13 +195,22 @@ function script2671(): void {
         IF_SETHIDE(true, comp(1923, 39));
         IF_SETHIDE(false, comp(1923, 29));
     };
-    if (((varbitplayer_6068 == 7) && (int6 == true))) {
-        IF_SETHIDE(false, comp(1430, 42));
-        IF_SETHIDE(true, comp(1430, 32));
-        IF_SETHIDE(false, comp(1506, 23));
-        IF_SETHIDE(true, comp(1506, 12));
-        IF_SETHIDE(false, comp(1923, 40));
-        IF_SETHIDE(true, comp(1923, 30));
+    if ((varbitplayer_6068 == 7)) {
+        if ((int6 == true)) {
+            IF_SETHIDE(false, comp(1430, 42));
+            IF_SETHIDE(true, comp(1430, 32));
+            IF_SETHIDE(false, comp(1506, 23));
+            IF_SETHIDE(true, comp(1506, 12));
+            IF_SETHIDE(false, comp(1923, 40));
+            IF_SETHIDE(true, comp(1923, 30));
+        } else {
+            IF_SETHIDE(true, comp(1430, 42));
+            IF_SETHIDE(false, comp(1430, 32));
+            IF_SETHIDE(true, comp(1506, 23));
+            IF_SETHIDE(false, comp(1506, 12));
+            IF_SETHIDE(true, comp(1923, 40));
+            IF_SETHIDE(false, comp(1923, 30));
+        };
     } else {
         IF_SETHIDE(true, comp(1430, 42));
         IF_SETHIDE(false, comp(1430, 32));
@@ -146,13 +219,22 @@ function script2671(): void {
         IF_SETHIDE(true, comp(1923, 40));
         IF_SETHIDE(false, comp(1923, 30));
     };
-    if (((varbitplayer_6068 == 6) && (int7 == true))) {
-        IF_SETHIDE(false, comp(1430, 44));
-        IF_SETHIDE(true, comp(1430, 34));
-        IF_SETHIDE(false, comp(1506, 25));
-        IF_SETHIDE(true, comp(1506, 14));
-        IF_SETHIDE(false, comp(1923, 42));
-        IF_SETHIDE(true, comp(1923, 32));
+    if ((varbitplayer_6068 == 6)) {
+        if ((int7 == true)) {
+            IF_SETHIDE(false, comp(1430, 44));
+            IF_SETHIDE(true, comp(1430, 34));
+            IF_SETHIDE(false, comp(1506, 25));
+            IF_SETHIDE(true, comp(1506, 14));
+            IF_SETHIDE(false, comp(1923, 42));
+            IF_SETHIDE(true, comp(1923, 32));
+        } else {
+            IF_SETHIDE(true, comp(1430, 44));
+            IF_SETHIDE(false, comp(1430, 34));
+            IF_SETHIDE(true, comp(1506, 25));
+            IF_SETHIDE(false, comp(1506, 14));
+            IF_SETHIDE(true, comp(1923, 42));
+            IF_SETHIDE(false, comp(1923, 32));
+        };
     } else {
         IF_SETHIDE(true, comp(1430, 44));
         IF_SETHIDE(false, comp(1430, 34));
@@ -275,56 +357,60 @@ function script2671(): void {
         IF_SETHIDE(false, comp(1430, 27));
         IF_SETHIDE(false, comp(1506, 6));
         IF_SETHIDE(false, comp(1923, 25));
-    } else if (((varplayer_1831 != -1 as obj) && (varplayer_1784 != -1 as npc))) {
-        IF_SETHIDE(false, comp(1430, 28));
-        IF_SETHIDE(false, comp(1506, 7));
-        IF_SETHIDE(false, comp(1923, 26));
-        if ((int0 == false)) {
-            IF_SETHIDE(true, comp(1430, 45));
-            IF_SETHIDE(true, comp(1506, 26));
-            IF_SETHIDE(true, comp(1923, 43));
+    } else if ((varplayer_1831 != -1 as obj)) {
+        if ((varplayer_1784 != -1 as npc)) {
+            IF_SETHIDE(false, comp(1430, 28));
+            IF_SETHIDE(false, comp(1506, 7));
+            IF_SETHIDE(false, comp(1923, 26));
+            if ((int0 == false)) {
+                IF_SETHIDE(true, comp(1430, 45));
+                IF_SETHIDE(true, comp(1506, 26));
+                IF_SETHIDE(true, comp(1923, 43));
+            };
+            if ((int1 == false)) {
+                IF_SETHIDE(true, comp(1430, 35));
+                IF_SETHIDE(true, comp(1506, 15));
+                IF_SETHIDE(true, comp(1923, 33));
+            };
+            if ((int2 == false)) {
+                IF_SETHIDE(true, comp(1430, 33));
+                IF_SETHIDE(true, comp(1506, 13));
+                IF_SETHIDE(true, comp(1923, 31));
+            };
+            if ((int3 == false)) {
+                IF_SETHIDE(true, comp(1430, 48));
+                IF_SETHIDE(true, comp(1506, 29));
+                IF_SETHIDE(true, comp(1923, 46));
+            };
+            if ((int4 == false)) {
+                IF_SETHIDE(true, comp(1430, 49));
+                IF_SETHIDE(true, comp(1506, 30));
+                IF_SETHIDE(true, comp(1923, 47));
+            };
+            if ((int5 == false)) {
+                IF_SETHIDE(true, comp(1430, 30));
+                IF_SETHIDE(true, comp(1506, 10));
+                IF_SETHIDE(true, comp(1923, 28));
+                IF_SETHIDE(true, comp(1430, 31));
+                IF_SETHIDE(true, comp(1506, 11));
+                IF_SETHIDE(true, comp(1923, 29));
+            };
+            if ((int6 == false)) {
+                IF_SETHIDE(true, comp(1430, 32));
+                IF_SETHIDE(true, comp(1506, 12));
+                IF_SETHIDE(true, comp(1923, 30));
+            };
+            if ((int7 == false)) {
+                IF_SETHIDE(true, comp(1430, 34));
+                IF_SETHIDE(true, comp(1506, 14));
+                IF_SETHIDE(true, comp(1923, 32));
+            };
+            IF_SETHIDE(false, comp(1430, 27));
+            IF_SETHIDE(false, comp(1506, 6));
+            IF_SETHIDE(false, comp(1923, 25));
+        } else {
+            script8084();
         };
-        if ((int1 == false)) {
-            IF_SETHIDE(true, comp(1430, 35));
-            IF_SETHIDE(true, comp(1506, 15));
-            IF_SETHIDE(true, comp(1923, 33));
-        };
-        if ((int2 == false)) {
-            IF_SETHIDE(true, comp(1430, 33));
-            IF_SETHIDE(true, comp(1506, 13));
-            IF_SETHIDE(true, comp(1923, 31));
-        };
-        if ((int3 == false)) {
-            IF_SETHIDE(true, comp(1430, 48));
-            IF_SETHIDE(true, comp(1506, 29));
-            IF_SETHIDE(true, comp(1923, 46));
-        };
-        if ((int4 == false)) {
-            IF_SETHIDE(true, comp(1430, 49));
-            IF_SETHIDE(true, comp(1506, 30));
-            IF_SETHIDE(true, comp(1923, 47));
-        };
-        if ((int5 == false)) {
-            IF_SETHIDE(true, comp(1430, 30));
-            IF_SETHIDE(true, comp(1506, 10));
-            IF_SETHIDE(true, comp(1923, 28));
-            IF_SETHIDE(true, comp(1430, 31));
-            IF_SETHIDE(true, comp(1506, 11));
-            IF_SETHIDE(true, comp(1923, 29));
-        };
-        if ((int6 == false)) {
-            IF_SETHIDE(true, comp(1430, 32));
-            IF_SETHIDE(true, comp(1506, 12));
-            IF_SETHIDE(true, comp(1923, 30));
-        };
-        if ((int7 == false)) {
-            IF_SETHIDE(true, comp(1430, 34));
-            IF_SETHIDE(true, comp(1506, 14));
-            IF_SETHIDE(true, comp(1923, 32));
-        };
-        IF_SETHIDE(false, comp(1430, 27));
-        IF_SETHIDE(false, comp(1506, 6));
-        IF_SETHIDE(false, comp(1923, 25));
     } else {
         script8084();
     };

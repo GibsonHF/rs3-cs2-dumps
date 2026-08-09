@@ -9,17 +9,17 @@ function script13903(): void {
     script10239();
     script9511(1);
     script9325(varclient_6711, 1);
-    varclient_6684 = true;
-    varclient_2235 = comp(517, 234);
+    varclient_6684 = 1;
+    varclient_2235 = 33882346;
     varclient_2236 = 8;
     varclient_2237 = 12;
     var string0 = "";
     IF_SETONTIMER(callback(script13905, string0, CLIENTCLOCK()), comp(517, 231));
-    IF_SETONTIMER(callback(script9830, string0, CLIENTCLOCK(), 33882345, 33882314, 1), 33882345);
+    IF_SETONTIMER(callback(script9830, string0, CLIENTCLOCK(), 33882345, 33882314, 1), comp(517, 233));
     script9833(33882346, 33882347, 33882348, 33882349, 33882351, 0, 0);
-    IF_SETHIDE(0, 33882369);
-    IF_SETPOSITION(0, 0, 2, 2, 33882369);
+    IF_SETHIDE(false, comp(517, 257));
+    IF_SETPOSITION(0, 0, 2, 2, comp(517, 257));
     script13993(33882369, -1, 28228, "Cancel Search");
-    IF_SETONOP(callback(script13898), 33882371);
+    IF_SETONOP(callback(script13898), comp(517, 259));
     return;
 }

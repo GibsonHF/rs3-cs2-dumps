@@ -22,11 +22,26 @@ function script20243(int0: number): void {
         int3 = int8;
         int6 = DB_GETFIELDCOUNT(int9, 1363968);
     };
-    script8023(int0, 0, int14++, 5, 0, 0, 1, 44, 40, 0, 0, 35251);
-    script15938(int0, 0, int14++, 50, 12, 0, 2, 68, 18, 1, 0);
+    stack(int0);
+    stack(0);
+    stack(int14);
+    int14 = (int14 + 1);
+    script8023(5, 0, 0, 1, 44, 40, 0, 0, 35251);
+    stack(int0);
+    stack(0);
+    stack(int14);
+    int14 = (int14 + 1);
+    script15938(50, 12, 0, 2, 68, 18, 1, 0);
     [int14, int15] = script20247(0, int14, int3, int4, int10, int11, 0);
-    script15938(int0, 0, int14++, 48, 0, 0, 2, 48, 24, 1, 0);
-    script15937(0, int14++, 6, 0, 0, 2, 16, 0, 1, 1);
+    stack(int0);
+    stack(0);
+    stack(int14);
+    int14 = (int14 + 1);
+    script15938(48, 0, 0, 2, 48, 24, 1, 0);
+    stack(0);
+    stack(int14);
+    int14 = (int14 + 1);
+    script15937(6, 0, 0, 2, 16, 0, 1, 1);
     var int16 = 0;
     var string0 = "";
     if ((int4 < int8)) {
@@ -38,7 +53,10 @@ function script20243(int0: number): void {
             } else {
                 string0 = `${string0}<br>Tier ${inttostring((int12 + 1), 10)} requires ${TOSTRING_LOCALISED(int13, 1)} points.`;
                 int16 = MAX(0, (SCALE(int13, int3, int15) - 9));
-                script7918(0, int14++, int16, 0, 0, 2, 18, 24, 0, 0, 35259);
+                stack(0);
+                stack(int14);
+                int14 = (int14 + 1);
+                script7918(int16, 0, 0, 2, 18, 24, 0, 0, 35259);
             };
             int12 = (int12 + 1);
         };
@@ -50,7 +68,10 @@ function script20243(int0: number): void {
             };
             string0 = `${string0}<br>${dbrow_getfield(int9, 1363971, int12)} requires ${TOSTRING_LOCALISED(int13, 1)} points.`;
             int16 = MAX(0, (SCALE(int13, int3, int15) - 9));
-            script7918(0, int14++, int16, 0, 0, 2, 18, 24, 0, 0, 35259);
+            stack(0);
+            stack(int14);
+            int14 = (int14 + 1);
+            script7918(int16, 0, 0, 2, 18, 24, 0, 0, 35259);
             int12 = (int12 + 1);
         };
     };
@@ -59,20 +80,9 @@ function script20243(int0: number): void {
     script3537(string0);
     stack(int0);
     stack(0);
-    stack(int14++);
-    stack(55);
-    stack(2);
-    stack(0);
-    stack(0);
-    stack(200);
-    stack(20);
-    stack(0);
-    stack(0);
-    stack(2141);
-    stack(PUSH_CONSTANT_INT[16]("<col=", script10495(2)));
-    stack(inttostring());
-    stack(PUSH_CONSTANT_INT[16](">League points</col>: <col=", script10495(21)));
-    script15947(stack(), `${stack()}${inttostring()}>${inttostring(int4, 10)}`);
+    stack(int14);
+    int14 = (int14 + 1);
+    script15947(55, 2, 0, 0, 200, 20, 0, `${0}${2141}${inttostring(PUSH_CONSTANT_INT[16]("<col=", script10495(2)))}${inttostring(PUSH_CONSTANT_INT[16](">League points</col>: <col=", script10495(21)))}>${inttostring(int4, 10)}`);
     CC_SETTEXTALIGN(0, 1, 0);
     return;
 }

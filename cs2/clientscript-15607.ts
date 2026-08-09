@@ -9,6 +9,7 @@ function script15607(): void {
     DETAILGET_MUSICVOL();
     DETAILGET_BGSOUNDVOL();
     DETAILGET_SPEECHVOL();
-    IF_SETONTIMER(callback(script-1, DETAILGET_LOGINVOL()), int0);
+    stack(DETAILGET_LOGINVOL());
+    IF_SETONTIMER("iiiiiii", int0);
     return;
 }

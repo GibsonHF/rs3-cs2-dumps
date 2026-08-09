@@ -1,7 +1,7 @@
 //
 function script17417(int0: number, int1: number): void {
     var int2 = -1;
-    var int3 = -1 as obj;
+    var int3 = -1;
     var int4 = 0;
     var int5 = 0;
     var int6 = 0;
@@ -14,20 +14,41 @@ function script17417(int0: number, int1: number): void {
     CC_DELETEALL(int1);
     var int10 = 0;
     if ((IF_FIND(int1) == 1)) {
-        while ((++int2 < int8)) {
+        int2 = (int2 + 1);
+        while ((int2 < int8)) {
             [int3, int4, int5, int6, int6, int6, int6, int6] = dbrow_getfield(int0, 413696, int2);
-            if (((script10613(int3) == 0) && ((PLAYERMEMBER() == true) || ((OC_MEMBERS(int3) == 0) && (PLAYERMEMBER() == false))))) {
-                script14391(int1, int2, 0, 0, 1, 1, 61, 75, 0, 0);
-                if ((int5 != 7)) {
-                    script7920(int1, (int2 + 1), int9, 0, int2, 0, 0, 1, 1, 61, 75, 0, 0, script227(int5));
-                    int9 = (int9 + 1);
+            if ((script10613(int3) == 0)) {
+                if ((PLAYERMEMBER() == 1)) {
+                    script14391(int1, int2, 0, 0, 1, 1, 61, 75, 0, 0);
+                    if ((int5 != 7)) {
+                        script7920(int1, (int2 + 1), int9, 0, int2, 0, 0, 1, 1, 61, 75, 0, 0, script227(int5));
+                        int9 = (int9 + 1);
+                    } else {
+                        script16708(int1, int5, script8948(int5), (int2 + 1), int9, 0, -2, 1, 1, 60, 79, 0, 0);
+                        int9 = (int9 + 3);
+                    };
+                    script10024(int1, (int2 + 1), int9, 0, int2, 1, 0, 1, 1, 27, 24, 0, 0, int3, int4, 0, 1);
+                    script20379(int2, int0, int3, int4);
+                    int9 = 0;
+                } else if ((OC_MEMBERS(int3) == 0)) {
+                    if ((PLAYERMEMBER() == 0)) {
+                        script14391(int1, int2, 0, 0, 1, 1, 61, 75, 0, 0);
+                        if ((int5 != 7)) {
+                            script7920(int1, (int2 + 1), int9, 0, int2, 0, 0, 1, 1, 61, 75, 0, 0, script227(int5));
+                            int9 = (int9 + 1);
+                        } else {
+                            script16708(int1, int5, script8948(int5), (int2 + 1), int9, 0, -2, 1, 1, 60, 79, 0, 0);
+                            int9 = (int9 + 3);
+                        };
+                        script10024(int1, (int2 + 1), int9, 0, int2, 1, 0, 1, 1, 27, 24, 0, 0, int3, int4, 0, 1);
+                        script20379(int2, int0, int3, int4);
+                        int9 = 0;
+                    } else {
+                        int10 = (int10 + 1);
+                    };
                 } else {
-                    script16708(int1, int5, script8948(int5), (int2 + 1), int9, 0, -2, 1, 1, 60, 79, 0, 0);
-                    int9 = (int9 + 3);
+                    int10 = (int10 + 1);
                 };
-                script10024(int1, (int2 + 1), int9, 0, int2, 1, 0, 1, 1, 27, 24, 0, 0, int3, int4, 0, 1);
-                script20379(int2, int0, int3, int4);
-                int9 = 0;
             } else {
                 int10 = (int10 + 1);
             };

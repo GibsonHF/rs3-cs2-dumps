@@ -13,13 +13,14 @@ function script19287(): void {
     var string1 = dbrow_getfield(varplayer_11902, 1228832, 0);
     IF_SETTEXT(string0, comp(1290, 103));
     IF_SETOPBASE(`<col=FFFF00>${string0}</col> <col=FF0000>(level: ???)</col>`, comp(1290, 88));
-    IF_SETONOP(callback(script7774, string1, -2147483645, -2147483643, 0), 84541528);
+    IF_SETONOP(callback(script7774, string1, -2147483645, -2147483643, 0), comp(1290, 88));
     var int1 = -1;
     var int2 = -1;
     var int3 = 0;
     var int4 = 1;
     var int5 = 0;
-    while ((++int5 <= 8)) {
+    int5 = (int5 + 1);
+    while ((int5 <= 8)) {
         [int2, int3, int4] = script19217(int5);
         if ((MODULO(((int5 - 1) / 2), 2) == 0)) {
             int1 = 84541526;

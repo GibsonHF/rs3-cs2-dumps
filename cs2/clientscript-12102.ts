@@ -10,7 +10,7 @@ function script12102(int0: number, int1: number, int2: number, int3: number, str
     if ((STRING_LENGTH(string1) == 0)) {
         return string0;
     };
-    var [int1, int2, int3] = script2734(int0, int1, int2, int3);
+    [int1, int2, int3] = script2734(int0, int1, int2, int3);
     if ((int3 > 1)) {
         return `${string0}<br><col=ffffff>${TOSTRING_LOCALISED(int3, 1)}</col> x <col=ffffff>${string1}</col>`;
     };

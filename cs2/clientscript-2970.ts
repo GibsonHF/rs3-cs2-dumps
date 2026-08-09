@@ -14,7 +14,7 @@ function script2970(int0: number, int1: number, int2: number, int3: number, int4
     var int9 = 0;
     var int10 = 0;
     var int11 = 0;
-    var int12 = -1 as struct;
+    var int12 = -1;
     while ((int9 < int7)) {
         int12 = dbrow_getfield(int3, 127008, int9);
         int11 = script9395(int12);

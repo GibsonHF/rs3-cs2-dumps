@@ -5,8 +5,12 @@ function script4572(int0: number, int1: number, int2: number): void {
         IF_SETHIDE(true, int2);
         return;
     };
-    if (((MODULO((CLIENTCLOCK() - int0), 40) < 20) && (APPLET_HASFOCUS() == 1))) {
-        IF_SETHIDE(false, int2);
+    if ((MODULO((CLIENTCLOCK() - int0), 40) < 20)) {
+        if ((APPLET_HASFOCUS() == 1)) {
+            IF_SETHIDE(false, int2);
+        } else {
+            IF_SETHIDE(true, int2);
+        };
     } else {
         IF_SETHIDE(true, int2);
     };

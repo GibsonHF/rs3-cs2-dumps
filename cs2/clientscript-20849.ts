@@ -2,7 +2,7 @@
 function script20849(int0: number): [number, number] {
     var int1 = dbrow_getfield(int0, 1425728, 0);
     var int2 = 0;
-    if ((int1 == true)) {
+    if ((int1 == 1)) {
         switch (int0) {
             case 19494:
             case 19495: {

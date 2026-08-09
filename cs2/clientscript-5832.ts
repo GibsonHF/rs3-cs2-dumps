@@ -12,7 +12,7 @@ function script5832(): void {
     var string0 = "You can only purchase this reward on a member's world.";
     if ((MAP_MEMBERS() == 0)) {
         IF_SETHIDE(true, comp(1043, 186));
-        IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643), 68354237);
+        IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643), comp(1043, 189));
     };
     return;
 }

@@ -29,8 +29,12 @@ function script14134(int0: number, int1: number, int2: number, int3: number, int
     };
     if ((CC_FIND(comp(1944, 7), (int3 - 1)) == 1)) {
         CC_SETOP(1, `View ${string1}${OC_NAME(int6)}</col>`);
-        if (((struct_getparam(int5, 7765) == 1) && (int7 == 1))) {
-            CC_SETOP(2, `Remove ${string1}${OC_NAME(int6)}</col>`);
+        if ((struct_getparam(int5, 7765) == 1)) {
+            if ((int7 == 1)) {
+                CC_SETOP(2, `Remove ${string1}${OC_NAME(int6)}</col>`);
+            } else if (((int6 == 2574 as obj) && (int7 == 1))) {
+                CC_SETOP(2, `Look through ${string1}${OC_NAME(int6)}</col>`);
+            };
         } else if (((int6 == 2574 as obj) && (int7 == 1))) {
             CC_SETOP(2, `Look through ${string1}${OC_NAME(int6)}</col>`);
         };
@@ -39,8 +43,14 @@ function script14134(int0: number, int1: number, int2: number, int3: number, int
     if ((CC_FIND(comp(1944, 6), int4) == 1)) {
         CC_SETOBJECT(int6, -1);
         CC_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643));
-        if (((int7 == 0) || ((MAP_MEMBERS() == 0) && (OC_MEMBERS(int6) == 1)))) {
+        if ((int7 == 0)) {
             CC_SETCOLOUR(5526612);
+        } else if ((MAP_MEMBERS() == 0)) {
+            if ((OC_MEMBERS(int6) == 1)) {
+                CC_SETCOLOUR(5526612);
+            } else {
+                CC_SETCOLOUR(16777215);
+            };
         } else {
             CC_SETCOLOUR(16777215);
         };

@@ -72,7 +72,7 @@ function script5989(int0: number, int1: number): void {
     CC_SETONMOUSEOVER(callback(script2140, -2147483645, int2, 128));
     CC_SETONMOUSELEAVE(callback(script2140, -2147483645, int2, 255));
     CC_SETTRANS(255);
-    var int3 = -1;
+    var int3 = -1 as graphic;
     switch (int1) {
         case 0: {
             int3 = 7396 as graphic;

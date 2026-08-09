@@ -6,11 +6,26 @@ function script14351(int0: number, int1: number, int2: number, int3: number): nu
     };
     var int5 = 0;
     var int6 = script14074(int0);
-    if (((OC_UNCERT(int1) == int1) && (OC_STACKABLE(int1) == 0))) {
+    if ((OC_UNCERT(int1) == int1)) {
+        if (((OC_STACKABLE(int1) == 0) || (script3802(int1) == 1))) {
+            while ((int5 < int3)) {
+                if (((CC_FIND[1](int6, int5) == 1) && (CC_GETINVOBJECT[1]() == -1 as obj))) {
+                    var int2 = (int2 - 1);
+                    if ((int2 == 0)) {
+                        return 0;
+                    };
+                };
+                int5 = (int5 + 1);
+            };
+            return int2;
+        };
     } else if ((script3802(int1) == 1)) {
         while ((int5 < int3)) {
-            if ((((CC_FIND[1](int6, int5) == 1) && (CC_GETINVOBJECT[1]() == -1 as obj)) && (--int2 == 0))) {
-                return 0;
+            if (((CC_FIND[1](int6, int5) == 1) && (CC_GETINVOBJECT[1]() == -1 as obj))) {
+                int2 = (int2 - 1);
+                if ((int2 == 0)) {
+                    return 0;
+                };
             };
             int5 = (int5 + 1);
         };

@@ -1,10 +1,20 @@
 //
 function script12094(int0: number, int1: number, int2: number): void {
     varclient_1691 = int0;
-    if ((((int1 != -1 as inv) && (int2 >= 0)) && (INV_GETOBJ(int1, int2) == int0))) {
-        varclient_5121 = int1;
-        varclient_5122 = int2;
-        varclient_6492 = 0;
+    if ((int1 != -1 as inv)) {
+        if ((int2 >= 0)) {
+            if ((INV_GETOBJ(int1, int2) == int0)) {
+                varclient_5121 = int1;
+                varclient_5122 = int2;
+                varclient_6492 = 0;
+            } else {
+                varclient_5121 = -1 as inv;
+                varclient_5122 = -1;
+            };
+        } else {
+            varclient_5121 = -1 as inv;
+            varclient_5122 = -1;
+        };
     } else {
         varclient_5121 = -1 as inv;
         varclient_5122 = -1;

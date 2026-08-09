@@ -27,7 +27,7 @@ function script4317(int0: number, int1: number, int2: number, int3: number): voi
             };
             CC_SETPOSITION(0, int10, 2, 0);
             CC_SETONTIMER(callback(script4629, 1, int9, int8, int3));
-            IF_SETHIDE(0, int8);
+            IF_SETHIDE(false, int8);
             IF_SETPOSITION(0, int10, 2, 0, int8);
         };
         script5395(int5, int6);

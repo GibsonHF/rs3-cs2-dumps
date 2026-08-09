@@ -15,13 +15,20 @@ function script6386(): void {
     while ((int1 < int0)) {
         int2 = enum_getvalue(0, 0, 3537 as cs2enum, int1);
         string0 = script3151(int2);
-        if (((((STAT_BASE(24 as stat) < script3144(int2)) || (script3136(int2) == 0)) || (script3145(int2) == 0)) || ((MAP_MEMBERS() == 0) && (script3150(int2) == 1)))) {
+        if ((((STAT_BASE(24 as stat) < script3144(int2)) || (script3136(int2) == 0)) || (script3145(int2) == 0))) {
             int3 = 1;
+        } else if ((MAP_MEMBERS() == 0)) {
+            if ((script3150(int2) == 1)) {
+                int3 = 1;
+            } else {
+                int3 = 0;
+            };
         } else {
             int3 = 0;
         };
         script12501(92536837, 92536836, 28556, (8 + ((int4 / 2) * MODULO(int1, 2))), int6, int5, int7, int1, int3, string0);
-        if ((MODULO(++int1, 2) == 0)) {
+        int1 = (int1 + 1);
+        if ((MODULO(int1, 2) == 0)) {
             int6 = (int6 + (int7 + 3));
         };
     };

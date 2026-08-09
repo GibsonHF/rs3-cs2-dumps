@@ -13,6 +13,6 @@ function script17056(int0: number, int1: number, int2: number, int3: number, int
     IF_SETMODELANIM(int2, int0);
     IF_SETONTIMER(callback(script17059, SEQLENGTH(int2), int3, int0), int0);
     IF_SETONTIMER(callback(script17057, SEQLENGTH(int4), int1), int1);
-    IF_SETONTIMER(callback(script17058, (SEQLENGTH(int4) - 60), int1), 70910000);
+    IF_SETONTIMER(callback(script17058, (SEQLENGTH(int4) - 60), int1), comp(1082, 48));
     return;
 }

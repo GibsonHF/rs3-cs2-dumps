@@ -19,7 +19,8 @@ function script1911(): void {
         string0 = `Earn quest points to claim more rewards! Your previous rewards at ${inttostring(int0, 10)} QP were:`;
     };
     IF_SETTEXT(string0, comp(267, 28));
-    while ((++int2 < int5)) {
+    int2 = (int2 + 1);
+    while ((int2 < int5)) {
         int6 = enum_getvalue(0, 73, int4, int2);
         int3 = (270 - ((int5 - 1) * 80));
         script1924(17498147, 17498148, int2, -1, int6, (int3 + (160 * int2)), 30, 140, 140, 0, 1);

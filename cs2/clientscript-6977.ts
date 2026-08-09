@@ -51,11 +51,11 @@ function script6977(): void {
             CC_SETOP(1, "Select");
             CC_SETONMOUSEREPEAT(callback(script6721, -2147483645, -2147483643, string0));
             CC_SETONOP(callback(script6065, -2147483645, -2147483643));
-            CC_CREATE(101908488, 5, IF_GETNEXTSUBID(101908488));
+            CC_CREATE(comp(1555, 8), 5, IF_GETNEXTSUBID(comp(1555, 8)));
             CC_SETPOSITION(int2, int3, 0, 0);
             CC_SETSIZE(40, 36, 0, 0);
-            CC_SETGRAPHIC(18266);
-            CC_CREATE(101908488, 5, IF_GETNEXTSUBID(101908488));
+            CC_SETGRAPHIC(18266 as graphic);
+            CC_CREATE(comp(1555, 8), 5, IF_GETNEXTSUBID(comp(1555, 8)));
             CC_SETPOSITION((int2 + 2), (int3 + 2), 0, 0);
             CC_SETSIZE(36, 32, 0, 0);
             if ((script7612(int7) == 0)) {

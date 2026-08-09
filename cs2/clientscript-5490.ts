@@ -12,7 +12,8 @@ function script5490(string0: string): void {
     var int2 = 0;
     if (((script13749() == 0) && (varbitplayer_60413 == 0))) {
         [int1, int2] = unk11051();
-        if ((--int1 > 0)) {
+        int1 = (int1 - 2);
+        if ((int1 > 0)) {
             int0 = script20487(96797557, 96797560, int0);
             int0 = script7238(`+<col=E3D7CF>${inttostring(int1, 10)} ${script4583(int1, "option", "options")}</col>`, 14931919, 52669, 96797557, 96797560, int0);
         };

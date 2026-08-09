@@ -9,7 +9,137 @@ function script7478(int0: number, int1: number, int2: number): number {
     var int6 = struct_getparam(int1, 2806);
     var string3 = "";
     if ((struct_getparam(int1, 2811) == 1)) {
-        if (((((item_getparam(int3, 2826) == 1) && (item_getparam(int4, 2826) == 1)) && (int6 == 3)) || ((((item_getparam(int3, 2827) == 1) && (item_getparam(int4, 2827) == 1)) && (int6 == 4)) || ((((item_getparam(int3, 8898) == 1) && (item_getparam(int4, 8898) == 1)) && (int6 == 29)) || (((((item_getparam(int3, 2825) == 1) && (item_getparam(int4, 2825) == 1)) && (int6 != 3)) && (int6 != 4)) && (int6 != 29)))))) {
+        if ((item_getparam(int3, 2826) == 1)) {
+            if ((item_getparam(int4, 2826) == 1)) {
+                if ((int6 == 3)) {
+                    string0 = "<col=00ff00>";
+                } else if ((item_getparam(int3, 2827) == 1)) {
+                    if ((item_getparam(int4, 2827) == 1)) {
+                        if ((int6 == 4)) {
+                            string0 = "<col=00ff00>";
+                        } else if ((item_getparam(int3, 8898) == 1)) {
+                            if ((item_getparam(int4, 8898) == 1)) {
+                                if ((int6 == 29)) {
+                                    string0 = "<col=00ff00>";
+                                } else if ((((((item_getparam(int3, 2825) == 1) && (item_getparam(int4, 2825) == 1)) && (int6 != 3)) && (int6 != 4)) && (int6 != 29))) {
+                                    string0 = "<col=00ff00>";
+                                };
+                            } else if ((((((item_getparam(int3, 2825) == 1) && (item_getparam(int4, 2825) == 1)) && (int6 != 3)) && (int6 != 4)) && (int6 != 29))) {
+                                string0 = "<col=00ff00>";
+                            };
+                        } else if ((((((item_getparam(int3, 2825) == 1) && (item_getparam(int4, 2825) == 1)) && (int6 != 3)) && (int6 != 4)) && (int6 != 29))) {
+                            string0 = "<col=00ff00>";
+                        };
+                    } else if ((item_getparam(int3, 8898) == 1)) {
+                        if ((item_getparam(int4, 8898) == 1)) {
+                            if ((int6 == 29)) {
+                                string0 = "<col=00ff00>";
+                            } else if ((((((item_getparam(int3, 2825) == 1) && (item_getparam(int4, 2825) == 1)) && (int6 != 3)) && (int6 != 4)) && (int6 != 29))) {
+                                string0 = "<col=00ff00>";
+                            };
+                        } else if ((((((item_getparam(int3, 2825) == 1) && (item_getparam(int4, 2825) == 1)) && (int6 != 3)) && (int6 != 4)) && (int6 != 29))) {
+                            string0 = "<col=00ff00>";
+                        };
+                    } else if ((((((item_getparam(int3, 2825) == 1) && (item_getparam(int4, 2825) == 1)) && (int6 != 3)) && (int6 != 4)) && (int6 != 29))) {
+                        string0 = "<col=00ff00>";
+                    };
+                } else if ((item_getparam(int3, 8898) == 1)) {
+                    if ((item_getparam(int4, 8898) == 1)) {
+                        if ((int6 == 29)) {
+                            string0 = "<col=00ff00>";
+                        } else if ((((((item_getparam(int3, 2825) == 1) && (item_getparam(int4, 2825) == 1)) && (int6 != 3)) && (int6 != 4)) && (int6 != 29))) {
+                            string0 = "<col=00ff00>";
+                        };
+                    } else if ((((((item_getparam(int3, 2825) == 1) && (item_getparam(int4, 2825) == 1)) && (int6 != 3)) && (int6 != 4)) && (int6 != 29))) {
+                        string0 = "<col=00ff00>";
+                    };
+                } else if ((((((item_getparam(int3, 2825) == 1) && (item_getparam(int4, 2825) == 1)) && (int6 != 3)) && (int6 != 4)) && (int6 != 29))) {
+                    string0 = "<col=00ff00>";
+                };
+            } else if ((item_getparam(int3, 2827) == 1)) {
+                if ((item_getparam(int4, 2827) == 1)) {
+                    if ((int6 == 4)) {
+                        string0 = "<col=00ff00>";
+                    } else if ((item_getparam(int3, 8898) == 1)) {
+                        if ((item_getparam(int4, 8898) == 1)) {
+                            if ((int6 == 29)) {
+                                string0 = "<col=00ff00>";
+                            } else if ((((((item_getparam(int3, 2825) == 1) && (item_getparam(int4, 2825) == 1)) && (int6 != 3)) && (int6 != 4)) && (int6 != 29))) {
+                                string0 = "<col=00ff00>";
+                            };
+                        } else if ((((((item_getparam(int3, 2825) == 1) && (item_getparam(int4, 2825) == 1)) && (int6 != 3)) && (int6 != 4)) && (int6 != 29))) {
+                            string0 = "<col=00ff00>";
+                        };
+                    } else if ((((((item_getparam(int3, 2825) == 1) && (item_getparam(int4, 2825) == 1)) && (int6 != 3)) && (int6 != 4)) && (int6 != 29))) {
+                        string0 = "<col=00ff00>";
+                    };
+                } else if ((item_getparam(int3, 8898) == 1)) {
+                    if ((item_getparam(int4, 8898) == 1)) {
+                        if ((int6 == 29)) {
+                            string0 = "<col=00ff00>";
+                        } else if ((((((item_getparam(int3, 2825) == 1) && (item_getparam(int4, 2825) == 1)) && (int6 != 3)) && (int6 != 4)) && (int6 != 29))) {
+                            string0 = "<col=00ff00>";
+                        };
+                    } else if ((((((item_getparam(int3, 2825) == 1) && (item_getparam(int4, 2825) == 1)) && (int6 != 3)) && (int6 != 4)) && (int6 != 29))) {
+                        string0 = "<col=00ff00>";
+                    };
+                } else if ((((((item_getparam(int3, 2825) == 1) && (item_getparam(int4, 2825) == 1)) && (int6 != 3)) && (int6 != 4)) && (int6 != 29))) {
+                    string0 = "<col=00ff00>";
+                };
+            } else if ((item_getparam(int3, 8898) == 1)) {
+                if ((item_getparam(int4, 8898) == 1)) {
+                    if ((int6 == 29)) {
+                        string0 = "<col=00ff00>";
+                    } else if ((((((item_getparam(int3, 2825) == 1) && (item_getparam(int4, 2825) == 1)) && (int6 != 3)) && (int6 != 4)) && (int6 != 29))) {
+                        string0 = "<col=00ff00>";
+                    };
+                } else if ((((((item_getparam(int3, 2825) == 1) && (item_getparam(int4, 2825) == 1)) && (int6 != 3)) && (int6 != 4)) && (int6 != 29))) {
+                    string0 = "<col=00ff00>";
+                };
+            } else if ((((((item_getparam(int3, 2825) == 1) && (item_getparam(int4, 2825) == 1)) && (int6 != 3)) && (int6 != 4)) && (int6 != 29))) {
+                string0 = "<col=00ff00>";
+            };
+        } else if ((item_getparam(int3, 2827) == 1)) {
+            if ((item_getparam(int4, 2827) == 1)) {
+                if ((int6 == 4)) {
+                    string0 = "<col=00ff00>";
+                } else if ((item_getparam(int3, 8898) == 1)) {
+                    if ((item_getparam(int4, 8898) == 1)) {
+                        if ((int6 == 29)) {
+                            string0 = "<col=00ff00>";
+                        } else if ((((((item_getparam(int3, 2825) == 1) && (item_getparam(int4, 2825) == 1)) && (int6 != 3)) && (int6 != 4)) && (int6 != 29))) {
+                            string0 = "<col=00ff00>";
+                        };
+                    } else if ((((((item_getparam(int3, 2825) == 1) && (item_getparam(int4, 2825) == 1)) && (int6 != 3)) && (int6 != 4)) && (int6 != 29))) {
+                        string0 = "<col=00ff00>";
+                    };
+                } else if ((((((item_getparam(int3, 2825) == 1) && (item_getparam(int4, 2825) == 1)) && (int6 != 3)) && (int6 != 4)) && (int6 != 29))) {
+                    string0 = "<col=00ff00>";
+                };
+            } else if ((item_getparam(int3, 8898) == 1)) {
+                if ((item_getparam(int4, 8898) == 1)) {
+                    if ((int6 == 29)) {
+                        string0 = "<col=00ff00>";
+                    } else if ((((((item_getparam(int3, 2825) == 1) && (item_getparam(int4, 2825) == 1)) && (int6 != 3)) && (int6 != 4)) && (int6 != 29))) {
+                        string0 = "<col=00ff00>";
+                    };
+                } else if ((((((item_getparam(int3, 2825) == 1) && (item_getparam(int4, 2825) == 1)) && (int6 != 3)) && (int6 != 4)) && (int6 != 29))) {
+                    string0 = "<col=00ff00>";
+                };
+            } else if ((((((item_getparam(int3, 2825) == 1) && (item_getparam(int4, 2825) == 1)) && (int6 != 3)) && (int6 != 4)) && (int6 != 29))) {
+                string0 = "<col=00ff00>";
+            };
+        } else if ((item_getparam(int3, 8898) == 1)) {
+            if ((item_getparam(int4, 8898) == 1)) {
+                if ((int6 == 29)) {
+                    string0 = "<col=00ff00>";
+                } else if ((((((item_getparam(int3, 2825) == 1) && (item_getparam(int4, 2825) == 1)) && (int6 != 3)) && (int6 != 4)) && (int6 != 29))) {
+                    string0 = "<col=00ff00>";
+                };
+            } else if ((((((item_getparam(int3, 2825) == 1) && (item_getparam(int4, 2825) == 1)) && (int6 != 3)) && (int6 != 4)) && (int6 != 29))) {
+                string0 = "<col=00ff00>";
+            };
+        } else if ((((((item_getparam(int3, 2825) == 1) && (item_getparam(int4, 2825) == 1)) && (int6 != 3)) && (int6 != 4)) && (int6 != 29))) {
             string0 = "<col=00ff00>";
         };
         string2 = `${string0}2x</col>`;
@@ -49,8 +179,52 @@ function script7478(int0: number, int1: number, int2: number): number {
             }
         };
     } else if ((struct_getparam(int1, 2812) == 1)) {
-        if ((((OC_WEARPOS(int3) > 0) && (OC_WEARPOS2(int3) > 0)) && (((int6 == 3) && (item_getparam(int3, 2826) == 1)) || (((int6 == 4) && (item_getparam(int3, 2827) == 1)) || (((int6 == 29) && (item_getparam(int3, 8898) == 1)) || ((((int6 != 3) && (int6 != 4)) && (int6 != 29)) && (item_getparam(int3, 2825) == 1))))))) {
-            string0 = "<col=00ff00>";
+        if (((OC_WEARPOS(int3) > 0) && (OC_WEARPOS2(int3) > 0))) {
+            if ((int6 == 3)) {
+                if ((item_getparam(int3, 2826) == 1)) {
+                    string0 = "<col=00ff00>";
+                } else if ((int6 == 4)) {
+                    if ((item_getparam(int3, 2827) == 1)) {
+                        string0 = "<col=00ff00>";
+                    } else if ((int6 == 29)) {
+                        if ((item_getparam(int3, 8898) == 1)) {
+                            string0 = "<col=00ff00>";
+                        } else if (((((int6 != 3) && (int6 != 4)) && (int6 != 29)) && (item_getparam(int3, 2825) == 1))) {
+                            string0 = "<col=00ff00>";
+                        };
+                    } else if (((((int6 != 3) && (int6 != 4)) && (int6 != 29)) && (item_getparam(int3, 2825) == 1))) {
+                        string0 = "<col=00ff00>";
+                    };
+                } else if ((int6 == 29)) {
+                    if ((item_getparam(int3, 8898) == 1)) {
+                        string0 = "<col=00ff00>";
+                    } else if (((((int6 != 3) && (int6 != 4)) && (int6 != 29)) && (item_getparam(int3, 2825) == 1))) {
+                        string0 = "<col=00ff00>";
+                    };
+                } else if (((((int6 != 3) && (int6 != 4)) && (int6 != 29)) && (item_getparam(int3, 2825) == 1))) {
+                    string0 = "<col=00ff00>";
+                };
+            } else if ((int6 == 4)) {
+                if ((item_getparam(int3, 2827) == 1)) {
+                    string0 = "<col=00ff00>";
+                } else if ((int6 == 29)) {
+                    if ((item_getparam(int3, 8898) == 1)) {
+                        string0 = "<col=00ff00>";
+                    } else if (((((int6 != 3) && (int6 != 4)) && (int6 != 29)) && (item_getparam(int3, 2825) == 1))) {
+                        string0 = "<col=00ff00>";
+                    };
+                } else if (((((int6 != 3) && (int6 != 4)) && (int6 != 29)) && (item_getparam(int3, 2825) == 1))) {
+                    string0 = "<col=00ff00>";
+                };
+            } else if ((int6 == 29)) {
+                if ((item_getparam(int3, 8898) == 1)) {
+                    string0 = "<col=00ff00>";
+                } else if (((((int6 != 3) && (int6 != 4)) && (int6 != 29)) && (item_getparam(int3, 2825) == 1))) {
+                    string0 = "<col=00ff00>";
+                };
+            } else if (((((int6 != 3) && (int6 != 4)) && (int6 != 29)) && (item_getparam(int3, 2825) == 1))) {
+                string0 = "<col=00ff00>";
+            };
         };
         string2 = `${string0}2h</col>`;
         switch (int6) {

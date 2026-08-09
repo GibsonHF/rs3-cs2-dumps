@@ -1,11 +1,11 @@
 //
 function script15748(string0: string): void {
-    var int0 = -1 as dbrow;
+    var int0 = -1;
     int0 = script16590(PLATFORMTYPE(), string0);
-    if ((int0 == -1 as dbrow)) {
+    if ((int0 == -1)) {
         return;
     };
-    if ((dbrow_getfield(int0, 500016, 0) == true)) {
+    if ((dbrow_getfield(int0, 500016, 0) == 1)) {
         varclient_6911 = 1;
     };
     switch (int0) {

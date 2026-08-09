@@ -1,7 +1,9 @@
 //
 function script16196(): void {
     var int0 = script6430(IF_GETHIDE(comp(1253, 467)));
-    if ((((script17333() == 1) || (IF_GETENABLED(82116674) == 0)) || ((script16199(82116674) == 1) && (int0 == false)))) {
+    if (((script17333() == 1) || (IF_GETENABLED(82116674) == 0))) {
+        return;
+    } else if (((script16199(82116674) == 1) && (int0 == false))) {
         return;
     };
     if (((script18808() == 1) && (varbitplayer_58043 == 0))) {
@@ -14,10 +16,7 @@ function script16196(): void {
     if ((int0 == false)) {
         script16185(82117082, 82117083, 82117081, 82117084);
     };
-    if ((script18808() == 1)) {
-        if ((varbitplayer_58043 != 0)) {
-        } else {
-        };
+    if (((script18808() == 1) && (varbitplayer_58043 != 0))) {
     };
     SOUND_VORBIS_RATE(RANDOM_SOUND_PITCH(36961 as vorbis, 1, 0, 160, 15, 15));
     IF_SETHIDE(int0, comp(1253, 467));

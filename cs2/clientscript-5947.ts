@@ -7,8 +7,20 @@ function script5947(int0: number): void {
         IF_SETHIDE(true, comp(268, 0));
         return;
     };
-    if ((((varbitplayer_21686 == 1) && (int0 != 3)) && (varbitplayer_27170 == 0))) {
-        IF_SETHIDE(false, comp(268, 0));
+    if ((varbitplayer_21686 == 1)) {
+        if ((int0 != 3)) {
+            if ((varbitplayer_27170 == 0)) {
+                IF_SETHIDE(false, comp(268, 0));
+            } else {
+                script3374(1049);
+                IF_SETHIDE(true, comp(268, 0));
+                return;
+            };
+        } else {
+            script3374(1049);
+            IF_SETHIDE(true, comp(268, 0));
+            return;
+        };
     } else {
         script3374(1049);
         IF_SETHIDE(true, comp(268, 0));
@@ -17,6 +29,6 @@ function script5947(int0: number): void {
     [int1, int2, string0] = script5941(int0);
     IF_SETGRAPHIC(int2, comp(268, 0));
     string0 = strconcat("Combat Mode: ", string0);
-    IF_SETONMOUSEREPEAT(callback(script8799, string0, 17563648, -1), 17563648);
+    IF_SETONMOUSEREPEAT(callback(script8799, string0, 17563648, -1), comp(268, 0));
     return;
 }

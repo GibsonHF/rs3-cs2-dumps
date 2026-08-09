@@ -7,7 +7,7 @@ function script17248(int0: number): number {
         script12478("Invalid dbrow, pretending requirements are not met.");
         return 0;
     };
-    if (((dbrow_getfield(int0, 905216, 0) == true) && (MAP_MEMBERS() == 0))) {
+    if (((dbrow_getfield(int0, 905216, 0) == 1) && (MAP_MEMBERS() == 0))) {
         return 0;
     };
     if (((DB_GETFIELDCOUNT(int0, 905232) > 0) && (script17249(int0) == 0))) {

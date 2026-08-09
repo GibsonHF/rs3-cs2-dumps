@@ -11,7 +11,7 @@ function script19162(int0: number): void {
     var int2 = 12;
     IF_NPC_SETCUSTOMBODYMODEL(int2, -1 as model, 84410437);
     var int3 = script19150(50263);
-    var int4 = -1 as stat;
+    var int4 = -1;
     var int5 = -1 as model;
     if ((DB_GETFIELDCOUNT(int3, 1204240) > 0)) {
         int4 = dbrow_getfield(int3, 1204240, 0);

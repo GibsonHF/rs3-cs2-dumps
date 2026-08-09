@@ -63,8 +63,12 @@ function script3902(int0: number, int1: number, int2: number, int3: number): voi
                 if ((CC_GETINVOBJECT() != -1 as obj)) {
                     int7 = item_getparam(CC_GETINVOBJECT(), 5432);
                 };
-                if ((((int0 != comp(517, 15)) || (script5730(int7, CC_GETINVOBJECT(), int1) == 1)) && ((script10906() == 0) || ((item_getparam(CC_GETINVOBJECT(), 3845) == false) && (enum_getvalue(33, 1, 15589 as cs2enum, CC_GETINVOBJECT()) == false))))) {
-                    script9214(CC_GETINVOBJECT(), 93, int1, 1);
+                if (((int0 != comp(517, 15)) || (script5730(int7, CC_GETINVOBJECT(), int1) == 1))) {
+                    if ((script10906() == 0)) {
+                        script9214(CC_GETINVOBJECT(), 93, int1, 1);
+                    } else if (((item_getparam(CC_GETINVOBJECT(), 3845) == false) && (enum_getvalue(33, 1, 15589 as cs2enum, CC_GETINVOBJECT()) == false))) {
+                        script9214(CC_GETINVOBJECT(), 93, int1, 1);
+                    };
                 };
             };
             break;

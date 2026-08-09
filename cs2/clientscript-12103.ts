@@ -1,20 +1,20 @@
 //
-function script12103(int0: number, int1: number): [string, number, number] {
+function script12103(int0: number, int1: number): [number, number, string] {
     switch (int0) {
         case 36365: {
-            return [script12160(int1), -1 as obj];
+            return [script12160(int1), -1];
         }
         case 47066: {
-            return [`${enum_getvalue(0, 36, 15092 as cs2enum, int1)} inside metal bank`, -1, enum_getvalue(0, 33, 15093 as cs2enum, int1)];
+            return [`${enum_getvalue(0, 36, 15092 as cs2enum, int1)} inside metal bank`, -1, enum_getvalue(0, 33, 15093, int1)];
         }
         case 47067: {
-            return [`${OC_NAME(enum_getvalue(0, 33, 2503 as cs2enum, int1))} inside ore box`, -1, enum_getvalue(0, 33, 2503 as cs2enum, int1)];
+            return [`${OC_NAME(enum_getvalue(0, 33, 2503, int1))} inside ore box`, -1, enum_getvalue(0, 33, 2503, int1)];
         }
         case 58252: {
-            return [`${OC_NAME(enum_getvalue(0, 33, 6544 as cs2enum, int1))} inside wood box`, -1, enum_getvalue(0, 33, 6544 as cs2enum, int1)];
+            return [`${OC_NAME(enum_getvalue(0, 33, 6544, int1))} inside wood box`, -1, enum_getvalue(0, 33, 6544, int1)];
         }
         case 37411: {
-            return ["Dungeoneering tokens", 2184, -1 as obj];
+            return ["Dungeoneering tokens", 2184, -1];
         }
         case 20139:
         case 25064:

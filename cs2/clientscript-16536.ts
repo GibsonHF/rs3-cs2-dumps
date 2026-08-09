@@ -3,9 +3,9 @@ function script16536(): void {
     if ((script16513() == 0)) {
         return;
     };
-    var int0 = comp(970, 54);
-    var int1 = comp(970, 55);
-    var int2 = comp(970, 56);
+    var int0 = 63569974;
+    var int1 = 63569975;
+    var int2 = 63569976;
     var int3 = comp(970, 63);
     var int4 = comp(970, 74);
     var int5 = comp(970, 100);
@@ -20,8 +20,8 @@ function script16536(): void {
     script16537(int3, int6);
     IF_SETTEXT("Bonus Prize", comp(970, 101));
     IF_SETTEXT("1x Mystery Egg", comp(970, 102));
-    script16538(int5, 58755 as obj, 1);
-    var int7 = -1 as obj;
+    script16538(int5, 58755, 1);
+    var int7 = -1;
     var int8 = 0;
     var string1 = "";
     if ((MODULO(varplayer_10425, 2) == 0)) {

@@ -23,8 +23,8 @@ function script6043(int0: number, int1: number, int2: number): void {
     CC_SETPOSITION(0, 0, 1, 1);
     CC_SETTRANS(255);
     CC_SETPAUSETEXT(`Confirm: ${enum_getvalue(0, 36, 108 as cs2enum, varclient_1796)}`);
-    script6046(script6036(enum_getvalue(0, 17, 681 as cs2enum, varclient_1796), varclient_1797, varclient_1799), int2, 50);
-    if ((varclient_1799 == 54603 as obj)) {
+    script6046(script6036(enum_getvalue(0, 17, 681, varclient_1796), varclient_1797, varclient_1799), int2, 50);
+    if ((varclient_1799 == 54603)) {
         if ((script17262(varclient_1796) == 0)) {
             IF_SETTEXT("Block XP", comp(1263, 81));
         } else {

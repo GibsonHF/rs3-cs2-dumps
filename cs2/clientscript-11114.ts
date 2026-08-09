@@ -52,23 +52,23 @@ function script11114(int0: number, int1: number, int2: number, int3: number, int
     CC_SETGRAPHIC(24897 as graphic);
     CC_SETSIZE(int10, 11, 0, 0);
     CC_SETTILING(true);
-    var int13 = 24768 as graphic;
+    var int13 = 24768;
     var int14 = SCALE(int2, 500, 16);
     if (((int3 != 1) && (int3 != 3))) {
         if ((int14 > int12)) {
             int14 = int12;
             if ((int2 > 2500)) {
-                int13 = 24770 as graphic;
+                int13 = 24770;
             } else {
-                int13 = 24769 as graphic;
+                int13 = 24769;
             };
         };
         if ((int14 < (0 - int12))) {
             int14 = (0 - int12);
             if ((int2 < -2500)) {
-                int13 = 24896 as graphic;
+                int13 = 24896;
             } else {
-                int13 = 24895 as graphic;
+                int13 = 24895;
             };
         };
         CC_CREATE(int5, 5, IF_GETNEXTSUBID(int5));

@@ -1,6 +1,6 @@
 //
-function script5560(long0: BigInt): void {
-    if (branch_eq_long[4](long0, -1n)) {
+function script5560(long0: bigint): void {
+    if (LONG_BRANCH_EQUALS(long0, -1n)) {
         varclient_6480 = script5567();
     } else {
         varclient_6480 = long0;
@@ -9,7 +9,7 @@ function script5560(long0: BigInt): void {
     var int0 = -1;
     [string0, int0] = script17399(varclient_6480);
     var string1 = `You currently have<br>${TOSTRING_LOCALISED_LONG(varclient_6480, 1)} coins.`;
-    if (branch_eq_long[28](long0, 1n)) {
+    if (LONG_BRANCH_EQUALS(long0, 1n)) {
         string1 = `You currently have<br>${TOSTRING_LOCALISED_LONG(varclient_6480, 1)} coin.`;
     };
     script16559(96534537, 2);
@@ -18,7 +18,7 @@ function script5560(long0: BigInt): void {
     IF_SETCOLOUR(int0, comp(1666, 2));
     IF_SETTEXT(string0, comp(1920, 12));
     IF_SETTEXT(string0, comp(1666, 2));
-    IF_SETONMOUSEREPEAT(callback(script8799, string1, -2147483645, -2147483643), 125829132);
-    IF_SETONMOUSEREPEAT(callback(script8799, string1, -2147483645, -2147483643), 109182978);
+    IF_SETONMOUSEREPEAT(callback(script8799, string1, -2147483645, -2147483643), comp(1920, 12));
+    IF_SETONMOUSEREPEAT(callback(script8799, string1, -2147483645, -2147483643), comp(1666, 2));
     return;
 }

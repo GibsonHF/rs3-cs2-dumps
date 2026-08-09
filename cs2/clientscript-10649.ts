@@ -13,7 +13,8 @@ function script10649(): void {
     var int5 = -1;
     var int6 = 0;
     var int7 = 0;
-    while ((++int6 <= 3)) {
+    int6 = (int6 + 1);
+    while ((int6 <= 3)) {
         int0 = script11356(int6);
         int1 = enum_getvalue(0, 73, 9013 as cs2enum, int0);
         switch (int6) {
@@ -48,10 +49,10 @@ function script10649(): void {
             } else {
                 if ((int6 > varclient_4787)) {
                     CC_SETONMOUSEREPEAT(callback(script11362, int2, -1));
-                    CC_SETGRAPHIC(24901);
+                    CC_SETGRAPHIC(24901 as graphic);
                 } else {
                     CC_SETONMOUSEREPEAT(callback(script11363, -1, -2147483645, -1));
-                    CC_SETGRAPHIC(18269);
+                    CC_SETGRAPHIC(18269 as graphic);
                 };
                 CC_SETONMOUSELEAVE(callback(script8805));
             };

@@ -14,9 +14,14 @@ function script13363(int0: number): void {
     };
     script13358();
     if ((int1 == 0)) {
-        if (((int2 >= 1) && (int2 <= 13))) {
-            IF_SET2DANGLE(31494, comp(1858, 85));
-            int1 = 13;
+        if ((int2 >= 1)) {
+            if ((int2 <= 13)) {
+                IF_SET2DANGLE(31494, comp(1858, 85));
+                int1 = 13;
+            } else {
+                IF_SET2DANGLE(34042, comp(1858, 85));
+                int1 = 14;
+            };
         } else {
             IF_SET2DANGLE(34042, comp(1858, 85));
             int1 = 14;
@@ -38,6 +43,6 @@ function script13363(int0: number): void {
         script13368(int2);
         return;
     };
-    IF_SETONTIMER(callback(script13366, CLIENTCLOCK(), int1, int2, int3), 121765973);
+    IF_SETONTIMER(callback(script13366, CLIENTCLOCK(), int1, int2, int3), comp(1858, 85));
     return;
 }

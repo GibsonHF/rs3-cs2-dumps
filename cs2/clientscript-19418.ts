@@ -7,7 +7,8 @@ function script19418(): void {
     var int3 = -1;
     CC_DELETEALL(comp(1300, 13));
     if ((IF_FIND(comp(1300, 13)) == 1)) {
-        while ((++int0 <= 5)) {
+        int0 = (int0 + 1);
+        while ((int0 <= 5)) {
             switch (int0) {
                 case 1: {
                     string0 = varclient_8161;

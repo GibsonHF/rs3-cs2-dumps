@@ -6,7 +6,7 @@ function script8132(int0: number): void {
         CC_SETONOP(callback(script8134, int0, -2147483644));
         CC_SETOP(2, "Sheathe/Unsheathe Weapon");
         CC_SETMOUSEOVERCURSOR(36);
-        CC_SETNOCLICKTHROUGH(1);
+        CC_SETNOCLICKTHROUGH(true);
     };
     script8133(int0);
     return;

@@ -8,9 +8,9 @@ function script10354(int0: number, int1: number, int2: number, int3: number): [n
     var int5 = 0;
     var int6 = 0;
     var int7 = ENUM_GETOUTPUTCOUNT(int0);
-    var int8 = -1 as struct;
+    var int8 = -1;
     var int9 = 0;
-    var int10 = struct_getparam(enum_getvalue(0, 73, 10016 as cs2enum, varplayer_5420), 1268);
+    var int10 = struct_getparam(enum_getvalue(0, 73, 10016, varplayer_5420), 1268);
     var int11 = ((MODULO(DATE_RUNEDAY(), 3) + 49) - 1);
     var int12 = 0;
     var string0 = "This minigame is currently in the Spotlight and will give thaler at 500% of the normal rate.<br>Find Stanley Limelight near the minigame to learn about thaler.";

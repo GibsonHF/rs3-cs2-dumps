@@ -31,8 +31,10 @@ function script13290(int0: number): number {
             return 1;
         };
     };
-    if (((((struct_getparam(int0, 8072) == -1 as cs2enum) && (struct_getparam(int0, 6415) != 1)) && (struct_getparam(int0, 1290) != 1)) && ((PLAYERMEMBER() == false) || (MAP_MEMBERS() == 0)))) {
-        return 0;
+    if ((((struct_getparam(int0, 8072) == -1 as cs2enum) && (struct_getparam(int0, 6415) != 1)) && (struct_getparam(int0, 1290) != 1))) {
+        if (((PLAYERMEMBER() == false) || (MAP_MEMBERS() == 0))) {
+            return 0;
+        };
     };
     var int2 = 0;
     var int3 = 0;
@@ -198,9 +200,13 @@ function script13290(int0: number): number {
                 break;
             }
             default: {
-                if (((int3 > 0) && (int3 < 60))) {
-                    if ((STAT_BASE_ACTUAL(enum_getvalue(0, 17, 681 as cs2enum, int3)) < int4)) {
-                        return 0;
+                if ((int3 > 0)) {
+                    if ((int3 < 60)) {
+                        if ((STAT_BASE_ACTUAL(enum_getvalue(0, 17, 681 as cs2enum, int3)) < int4)) {
+                            return 0;
+                        };
+                    } else {
+                        int2 = int5;
                     };
                 } else {
                     int2 = int5;

@@ -288,6 +288,7 @@ function script11599(int0: number, int1: number): [number, number] {
             break;
         }
         case 24: {
+            break;
         }
     };
     return [0, 0];

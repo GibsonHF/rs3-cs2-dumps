@@ -9,12 +9,12 @@ function script12837(): void {
     script4565(68419592, 68419595, 68419596);
     IF_SETONOP(callback(script11559, 68419609), comp(1044, 50));
     script7871(68419634, 0, 1, 0, 0);
-    IF_SETTEXT("Name", 68419622);
-    IF_SETONOP(callback(script4557), 68419599);
-    IF_SETHIDE(0, 68419599);
-    IF_SETHIDE(0, 68419609);
-    IF_SETHIDE(1, 68419608);
-    IF_SETHIDE(1, 68419611);
-    IF_SETHIDE(1, 68419633);
+    IF_SETTEXT("Name", comp(1044, 38));
+    IF_SETONOP(callback(script4557), comp(1044, 15));
+    IF_SETHIDE(false, comp(1044, 15));
+    IF_SETHIDE(false, comp(1044, 25));
+    IF_SETHIDE(true, comp(1044, 24));
+    IF_SETHIDE(true, comp(1044, 27));
+    IF_SETHIDE(true, comp(1044, 49));
     return;
 }

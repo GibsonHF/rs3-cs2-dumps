@@ -2,7 +2,7 @@
 function script14817(int0: number, int1: number): void {
     var int2 = script14589(varbitplayer_46468);
     var string0 = "-";
-    if ((int2 != -1 as dbrow)) {
+    if ((int2 != -1)) {
         string0 = dbrow_getfield(int2, 380944, 0);
         script14724("Achievement", int0, -1);
     } else {

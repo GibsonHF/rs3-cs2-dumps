@@ -128,7 +128,7 @@ function script4864(): void {
                     break;
                 }
             };
-            string1 = `${inttostring(int24, 10)} ${enum_getvalue(0, 36, 4285 as cs2enum, int39)}`;
+            string1 = `${inttostring(int24, 10)} ${enum_getvalue(0, 36, 4285, int39)}`;
         } else {
             string1 = "No target set";
         };
@@ -270,9 +270,9 @@ function script4864(): void {
                 IF_SETGRAPHIC(5919 as graphic, comp(1260, 87));
             };
             string3 = "Toggle whether this skill plot will lock when the resource target is reached. It will automatically unlock once all resource targets are hit.";
-            IF_SETONMOUSEREPEAT(callback(script8799, string3, -2147483645, -2147483643), 82575447);
+            IF_SETONMOUSEREPEAT(callback(script8799, string3, -2147483645, -2147483643), comp(1260, 87));
             string3 = "Toggle whether this skill plot is locked. If this is checked, the plot will stay locked until manually unlocked.";
-            IF_SETONMOUSEREPEAT(callback(script8799, string3, -2147483645, -2147483643), 82575449);
+            IF_SETONMOUSEREPEAT(callback(script8799, string3, -2147483645, -2147483643), comp(1260, 89));
             if ((varclan_2744 == varbitplayer_6680)) {
                 if ((script5224(-1) == 1)) {
                     IF_SETGRAPHIC(5916 as graphic, comp(1260, 133));
@@ -298,9 +298,9 @@ function script4864(): void {
                 string3 = "You do not have permission from your clan to set the primary resource target.";
                 IF_SETOP(1, "", comp(1260, 133));
             };
-            IF_SETONMOUSEREPEAT(callback(script8799, string3, -2147483645, -2147483643), 82575493);
-            IF_SETHIDE(0, 82575649);
-            IF_SETONMOUSEREPEAT(callback(script8799, string5, -2147483645, -2147483643), 82575648);
+            IF_SETONMOUSEREPEAT(callback(script8799, string3, -2147483645, -2147483643), comp(1260, 133));
+            IF_SETHIDE(false, comp(1260, 289));
+            IF_SETONMOUSEREPEAT(callback(script8799, string5, -2147483645, -2147483643), comp(1260, 288));
             if ((script5224(-1) == 1)) {
                 if ((script5214(varbitplayer_6680) <= varbitclan_6507)) {
                     IF_SETHIDE(true, comp(1260, 289));
@@ -312,7 +312,7 @@ function script4864(): void {
                 IF_SETHIDE(false, comp(1260, 289));
                 string4 = "You do not have permission from your clan to set resource targets.";
             };
-            IF_SETONMOUSEREPEAT(callback(script8799, string4, -2147483645, -2147483643), 82575649);
+            IF_SETONMOUSEREPEAT(callback(script8799, string4, -2147483645, -2147483643), comp(1260, 289));
         } else {
             IF_SETHIDE(true, comp(1260, 91));
             IF_SETHIDE(false, comp(1260, 93));

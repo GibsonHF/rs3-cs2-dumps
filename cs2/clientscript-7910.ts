@@ -37,8 +37,9 @@ function script7910(int0: number, int1: number, int2: number): void {
             break;
         }
     };
-    if ((++int1 == 8)) {
-        var int1 = 0;
+    var int1 = (int1 + 1);
+    if ((int1 == 8)) {
+        int1 = 0;
     };
     IF_SETONTIMER(callback(script7910, (CLIENTCLOCK() + 10), int1, int2), int2);
     return;

@@ -9,8 +9,9 @@ function script745(int0: number, int1: number, int2: number): void {
         int4 = comp(1630, 46);
     };
     if ((MODULO(CLIENTCLOCK(), 50) == 0)) {
-        if ((--int1 < 0)) {
-            var int1 = 59;
+        var int1 = (int1 - 1);
+        if ((int1 < 0)) {
+            int1 = 59;
             var int0 = MAX(0, (int0 - 1));
         };
         string0 = inttostring(int0, 10);
@@ -26,9 +27,9 @@ function script745(int0: number, int1: number, int2: number): void {
         if (((int1 == 0) && (int0 == 0))) {
             IF_SETPOSITION(0, 35, 1, 0, int4);
             IF_SETONTIMER(callback(), int3);
-            IF_SENDTOBACK(1114119);
-            IF_SENDTOBACK(106823726);
-            IF_SETHIDE(1, 1114119);
+            IF_SENDTOBACK(comp(17, 7));
+            IF_SENDTOBACK(comp(1630, 46));
+            IF_SETHIDE(true, comp(17, 7));
         };
     };
     return;

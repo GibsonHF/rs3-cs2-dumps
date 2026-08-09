@@ -32,7 +32,7 @@ function script20393(int0: number, int1: number): void {
                 break;
             }
             case 7: {
-                script14167(int1, comp(1477, 744), 96797416);
+                script14167(int1, 96797416, 96797416);
                 break;
             }
         };

@@ -21,7 +21,8 @@ function script14893(int0: number, int1: number): void {
     var int6 = 0;
     var int7 = 0;
     var int8 = -1;
-    while ((++int8 < int4)) {
+    int8 = (int8 + 1);
+    while ((int8 < int4)) {
         int5 = enum_getvalue(0, 74, int0, int8);
         if ((script14669(int5) == 1)) {
             int6 = (int6 + 1);

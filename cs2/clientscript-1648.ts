@@ -18,8 +18,10 @@ function script1648(int0: number): void {
     if (((int0 == 67764244) && (varbitplayer_21626 == 1))) {
         return;
     };
-    if (((MAP_MEMBERS() == 0) && ((int0 == 67764225) || (int0 == 67764244)))) {
-        return;
+    if ((MAP_MEMBERS() == 0)) {
+        if (((int0 == 67764225) || (int0 == 67764244))) {
+            return;
+        };
     };
     return;
 }

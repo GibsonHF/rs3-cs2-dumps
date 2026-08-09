@@ -37,8 +37,10 @@ function script4908(int0: number): void {
         };
         int9 = script4961(int0, 3);
         int10 = script4953(int9);
-        if (((((int6 == 6) || (int6 == 6)) || (int6 == 5)) && (((varbitclan_6690 == int5) || (varbitclan_6699 == int5)) || (varbitclan_6708 == int5)))) {
-            int13 = script5171(int5);
+        if ((((int6 == 6) || (int6 == 6)) || (int6 == 5))) {
+            if ((((varbitclan_6690 == int5) || (varbitclan_6699 == int5)) || (varbitclan_6708 == int5))) {
+                int13 = script5171(int5);
+            };
         };
         if ((int10 > 0)) {
             int13 = script5171(int5);

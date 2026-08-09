@@ -1,8 +1,23 @@
 //
 function script10458(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number, int8: number): void {
     var int9 = 0;
-    if (((int7 == -1) && (int2 != comp(-1, 65535)))) {
-        int9 = MAX(50, MIN(int8, (IF_GETHEIGHT(int0) - IF_GETHEIGHT(int2))));
+    if ((int7 == -1)) {
+        if ((int2 != comp(-1, 65535))) {
+            int9 = MAX(50, MIN(int8, (IF_GETHEIGHT(int0) - IF_GETHEIGHT(int2))));
+        } else {
+            switch (int7) {
+                case 0:
+                case 1: {
+                    int9 = MAX(50, MIN(int8, IF_GETHEIGHT(int0)));
+                    break;
+                }
+                case 2:
+                case 3: {
+                    int9 = MAX(50, MIN(int8, IF_GETWIDTH(int0)));
+                    break;
+                }
+            };
+        };
     } else {
         switch (int7) {
             case 0:

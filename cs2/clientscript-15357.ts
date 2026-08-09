@@ -16,7 +16,11 @@ function script15357(int0: number, int1: number, int2: number, int3: number): vo
                     int5 = CC_GETY();
                 };
                 while ((int10 < 15)) {
-                    if ((CC_FIND(int0, (int6 + int10++)) == 1)) {
+                    stack(int0);
+                    stack(int6);
+                    stack(int10);
+                    int10 = (int10 + 1);
+                    if ((CC_FIND(ADD()) == 1)) {
                         CC_SETPOSITION(CC_GETX(), ((int4 + (CC_GETY() - int5)) + int3), 0, 0);
                     };
                 };

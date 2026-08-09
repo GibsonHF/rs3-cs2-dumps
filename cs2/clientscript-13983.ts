@@ -12,7 +12,7 @@ function script13983(int0: number, int1: number, int2: number, int3: number, int
     var int13 = script9984(int2, 3);
     var int14 = script9984(int2, 4);
     var int15 = script9984(int2, 6);
-    if (((int7 == 1) && (script9984(int2, 8) != -1 as struct))) {
+    if (((int7 == 1) && (script9984(int2, 8) != -1))) {
         int15 = script9984(int2, 8);
     };
     var int16 = int11;
@@ -22,10 +22,10 @@ function script13983(int0: number, int1: number, int2: number, int3: number, int
         int16 = int11;
     } else if ((int7 == 1)) {
         int16 = script9984(int2, 5);
-    } else if (((int12 != -1 as struct) && (script12838(int0, (int6 + 4)) == 1))) {
+    } else if (((int12 != -1) && (script12838(int0, (int6 + 4)) == 1))) {
         int16 = int12;
     };
-    if ((int16 == -1 as struct)) {
+    if ((int16 == -1)) {
         return int6;
     };
     var int17 = struct_getparam(int16, 3808);
@@ -34,18 +34,30 @@ function script13983(int0: number, int1: number, int2: number, int3: number, int
     var int20 = struct_getparam(int16, 7448);
     var int21 = IF_GETNEXTSUBID(int0);
     var int22 = int21;
-    CC_CREATE(int0, 5, int22++);
+    stack(int0);
+    stack(5);
+    stack(int22);
+    int22 = (int22 + 1);
+    CC_CREATE();
     CC_SETSIZE(int17, int18, 0, 0);
     CC_SETPOSITION(int3, int4, 0, 0);
     CC_SETGRAPHIC(struct_getparam(int16, 3801));
     CC_SETCOLOUR(int20);
-    CC_CREATE(int0, 5, int22++);
+    stack(int0);
+    stack(5);
+    stack(int22);
+    int22 = (int22 + 1);
+    CC_CREATE();
     CC_SETSIZE((int5 - (int17 * 2)), int18, 0, 0);
     CC_SETPOSITION((int3 + int17), int4, 0, 0);
     CC_SETGRAPHIC(struct_getparam(int16, 3802));
     CC_SETCOLOUR(int20);
     CC_SETTILING(int19);
-    CC_CREATE(int0, 5, int22++);
+    stack(int0);
+    stack(5);
+    stack(int22);
+    int22 = (int22 + 1);
+    CC_CREATE();
     CC_SETSIZE(int17, int18, 0, 0);
     CC_SETPOSITION((int3 + (int5 - int17)), int4, 0, 0);
     CC_SETGRAPHIC(struct_getparam(int16, 3803));
@@ -53,7 +65,11 @@ function script13983(int0: number, int1: number, int2: number, int3: number, int
     if ((struct_getparam(int16, 8062) == true)) {
         CC_SETHFLIP(true);
     };
-    CC_CREATE(int0, 4, int22++);
+    stack(int0);
+    stack(4);
+    stack(int22);
+    int22 = (int22 + 1);
+    CC_CREATE();
     if ((STRING_LENGTH(string0) > 0)) {
         if ((struct_getparam(int15, 8063) == true)) {
             CC_SETSIZE((int5 - struct_getparam(int15, 8066)), (int18 - struct_getparam(int15, 9395)), 0, 0);
@@ -68,11 +84,15 @@ function script13983(int0: number, int1: number, int2: number, int3: number, int
         CC_SETTEXT(string0);
         CC_SETTEXTSHADOW(struct_getparam(int15, 7405));
     };
-    CC_CREATE(int0, 4, int22++);
+    stack(int0);
+    stack(4);
+    stack(int22);
+    int22 = (int22 + 1);
+    CC_CREATE();
     CC_SETSIZE(int5, int18, 0, 0);
     CC_SETPOSITION(int3, int4, 0, 0);
     CC_SETONVARTRANSMIT(callback(script13984, -2147483645, -2147483643, int2, int7, int21, int9, 3814, 1));
-    if ((((int7 == 0) && (int11 != -1 as struct)) && (int12 != -1 as struct))) {
+    if ((((int7 == 0) && (int11 != -1)) && (int12 != -1))) {
         CC_SETONMOUSEOVER(callback(script13985, -2147483645, int12, int21, 1));
         CC_SETONMOUSELEAVE(callback(script13985, -2147483645, int11, int21, 0));
         if ((int13 != -1)) {

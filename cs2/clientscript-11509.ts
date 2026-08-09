@@ -17,8 +17,10 @@ function script11509(int0: number, int1: number, int2: number, int3: number): vo
             int4 = 0;
         };
     };
-    if (((int0 != -1) && ((item_getparam(int0, 5100) == 1) || (item_getparam(int0, 5099) < 0)))) {
-        int4 = 0;
+    if ((int0 != -1)) {
+        if (((item_getparam(int0, 5100) == 1) || (item_getparam(int0, 5099) < 0))) {
+            int4 = 0;
+        };
     };
     script11511(int1, 106627084, 106627083);
     if ((int4 == 1)) {

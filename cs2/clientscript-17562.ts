@@ -5,7 +5,7 @@ function script17562(int0: number, int1: number): void {
     CC_SETSIZE(0, 0, 1, 1);
     if ((int1 == 1)) {
         IF_SETONOP(callback(script17564), comp(1197, 2));
-        IF_SETHIDE(0, 78446594);
+        IF_SETHIDE(false, comp(1197, 2));
     } else {
         IF_CLEAROPS(comp(1197, 2));
         IF_SETHIDE(true, comp(1197, 2));

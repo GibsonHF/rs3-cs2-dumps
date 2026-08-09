@@ -5,7 +5,8 @@ function script19714(int0: number, int1: number, int2: number, int3: number): vo
         return;
     };
     var int5 = -1;
-    while ((++int5 < int4)) {
+    int5 = (int5 + 1);
+    while ((int5 < int4)) {
         script7852(97976345, int5, 0, 0, 1, 1, 25, 25, 0, 0, 4479, inttostring((int5 + 1), 10));
         CC_BUTTON_SETCANTOGGLE(1);
         if ((int5 == 0)) {

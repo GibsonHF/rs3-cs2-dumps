@@ -2,27 +2,48 @@
 function script18465(int0: number): void {
     switch (int0) {
         case 13086: {
-            unk11030(callback(script18466, -2147483645, -2147483647));
+            stack(18466);
+            stack(-2147483645);
+            stack(-2147483647);
+            unk11030("ii");
             break;
         }
         case 13087: {
-            unk11030(callback(script18467, -2147483645, -2147483647, 1));
+            stack(18467);
+            stack(-2147483645);
+            stack(-2147483647);
+            stack(1);
+            unk11030("iii");
             break;
         }
         case 13089: {
-            unk11030(callback(script18467, -2147483645, -2147483647, 2));
+            stack(18467);
+            stack(-2147483645);
+            stack(-2147483647);
+            stack(2);
+            unk11030("iii");
             break;
         }
         case 13088: {
-            unk11030(callback(script18467, -2147483645, -2147483647, 0));
+            stack(18467);
+            stack(-2147483645);
+            stack(-2147483647);
+            stack(0);
+            unk11030("iii");
             break;
         }
         case 4539: {
-            unk11030(callback(script18475, -2147483645, -2147483647));
+            stack(18475);
+            stack(-2147483645);
+            stack(-2147483647);
+            unk11030("ii");
             break;
         }
         case 13090: {
-            unk11030(callback(script18469, -2147483645, -2147483647));
+            stack(18469);
+            stack(-2147483645);
+            stack(-2147483647);
+            unk11030("ii");
             break;
         }
         default: {

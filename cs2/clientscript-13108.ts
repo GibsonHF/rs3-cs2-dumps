@@ -3,10 +3,10 @@ function script13108(int0: number, int1: number): number {
     if ((int0 == -1)) {
         return -1;
     };
-    var int2 = -1 as dbrow;
+    var int2 = -1;
     if ((struct_getparam(int0, 2531) == 2)) {
         int2 = script15769(int0);
-        if (((int2 == -1 as dbrow) && (int0 != 35691))) {
+        if (((int2 == -1) && (int0 != 35691))) {
             script12478(`Non-null $item_struct lacks a dbrow - ${struct_getparam(int0, 2533)}`);
             return -1;
         };
@@ -17,10 +17,12 @@ function script13108(int0: number, int1: number): number {
     var int5 = -1 as cs2enum;
     var int6 = 0;
     var int7 = -1;
-    while ((++int3 <= 7)) {
+    int3 = (int3 + 1);
+    while ((int3 <= 7)) {
         if (((int1 == 1) || (script13106(script13156(), int3) == 1))) {
             int4 = -1;
-            while ((++int4 <= 21)) {
+            int4 = (int4 + 1);
+            while ((int4 <= 21)) {
                 int5 = enum_getvalue(0, 26, 5958 as cs2enum, int3);
                 int4 = 21;
                 if ((int5 != -1 as cs2enum)) {

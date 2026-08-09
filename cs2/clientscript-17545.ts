@@ -10,7 +10,7 @@ function script17545(int0: number): void {
     var int8 = varbitplayer_53292;
     var int9 = varbitplayer_53294;
     var int10 = 0;
-    if ((((int7 != -1 as struct) && (struct_getparam(int7, 8990) != -1 as struct)) && (int1 != comp(1171, 28)))) {
+    if ((((int7 != -1 as struct) && (struct_getparam(int7, 8990) != -1 as struct)) && (int1 != 76742684))) {
         int7 = struct_getparam(int7, 8990);
         int8 = varplayer_11535;
         int9 = varplayer_11536;
@@ -24,15 +24,45 @@ function script17545(int0: number): void {
     var int13 = struct_getparam(int7, 9157);
     var int14 = struct_getparam(int7, 8861);
     if ((int10 == 0)) {
-        if (((varbitplayer_53296 > 0) && (varbitplayer_53295 > 0))) {
-            int11 = SCALE(varbitplayer_53295, varbitplayer_53296, 100);
-            IF_SETCOLOUR(struct_getparam(int7, 8862), int3);
-        } else if (((varbitplayer_53298 > 0) && (varbitplayer_53297 > 0))) {
-            int11 = SCALE(varbitplayer_53297, varbitplayer_53298, 100);
-            if ((varplayer_10945 != -1)) {
-                int14 = varplayer_10945;
+        if ((varbitplayer_53296 > 0)) {
+            if ((varbitplayer_53295 > 0)) {
+                int11 = SCALE(varbitplayer_53295, varbitplayer_53296, 100);
+                IF_SETCOLOUR(struct_getparam(int7, 8862), int3);
+            } else if ((varbitplayer_53298 > 0)) {
+                if ((varbitplayer_53297 > 0)) {
+                    int11 = SCALE(varbitplayer_53297, varbitplayer_53298, 100);
+                    if ((varplayer_10945 != -1)) {
+                        int14 = varplayer_10945;
+                    };
+                    IF_SETCOLOUR(int14, int3);
+                } else {
+                    if ((varplayer_10944 != -1)) {
+                        int14 = varplayer_10944;
+                    };
+                    int11 = SCALE(int8, int9, 100);
+                    IF_SETCOLOUR(int12, int3);
+                };
+            } else {
+                if ((varplayer_10944 != -1)) {
+                    int14 = varplayer_10944;
+                };
+                int11 = SCALE(int8, int9, 100);
+                IF_SETCOLOUR(int12, int3);
             };
-            IF_SETCOLOUR(int14, int3);
+        } else if ((varbitplayer_53298 > 0)) {
+            if ((varbitplayer_53297 > 0)) {
+                int11 = SCALE(varbitplayer_53297, varbitplayer_53298, 100);
+                if ((varplayer_10945 != -1)) {
+                    int14 = varplayer_10945;
+                };
+                IF_SETCOLOUR(int14, int3);
+            } else {
+                if ((varplayer_10944 != -1)) {
+                    int14 = varplayer_10944;
+                };
+                int11 = SCALE(int8, int9, 100);
+                IF_SETCOLOUR(int12, int3);
+            };
         } else {
             if ((varplayer_10944 != -1)) {
                 int14 = varplayer_10944;

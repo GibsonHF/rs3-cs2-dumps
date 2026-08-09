@@ -2,7 +2,8 @@
 function script19044(): void {
     var int0 = 0;
     var int1 = comp(-1, 65535);
-    while ((++int0 <= 3)) {
+    int0 = (int0 + 1);
+    while ((int0 <= 3)) {
         switch (int0) {
             case 1: {
                 int1 = comp(1014, 79);

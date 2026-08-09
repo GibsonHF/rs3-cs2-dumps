@@ -58,7 +58,7 @@ function script20515(int0: number): void {
             };
             if ((int7 == 1)) {
                 int6 = enum_getvalue(0, 0, 13938 as cs2enum, int3);
-                if ((((int6 == 0) && (struct_getparam(int8, 3533) == false)) && (IF_GETHIDE(struct_getparam(int8, 3503)) == false))) {
+                if ((((int6 == 0) && (struct_getparam(int8, 3533) == false)) && (IF_GETHIDE(struct_getparam(int8, 3503)) == 0))) {
                     int6 = 1;
                 };
                 string0 = struct_getparam(int8, 3493);
@@ -69,7 +69,7 @@ function script20515(int0: number): void {
                 CC_SETOP(1, "Toggle");
                 CC_SETONOP(callback(script6591, -2147483643));
                 CC_SETONSCROLLWHEEL(callback(script36, 96665622, 96665604, -2147483646));
-                CC_SETHIDE(1);
+                CC_SETHIDE(true);
                 if ((int6 == 1)) {
                     script8393(int3, int6);
                 };

@@ -18,8 +18,12 @@ function script8083(int0: number): [number, number, number, number, number, numb
         pop_array(4, 1);
         pop_array(6, 1);
     };
-    if (((npc_getparam(int0, 1323) < 1) && (npc_getparam(int0, 379) <= 0))) {
-        pop_array(5, 0);
+    if ((npc_getparam(int0, 1323) < 1)) {
+        if ((npc_getparam(int0, 379) <= 0)) {
+            pop_array(5, 0);
+        } else {
+            pop_array(5, 1);
+        };
     } else {
         pop_array(5, 1);
     };

@@ -25,13 +25,12 @@ function script13678(int0: number, int1: number, int2: number, int3: number, int
     var int9 = enum_getvalue(0, 74, 13176 as cs2enum, varbitplayer_37615);
     var int10 = enum_getvalue(0, 74, 13175 as cs2enum, varbitplayer_37614);
     var int11 = enum_getvalue(0, 74, 13175 as cs2enum, int3);
-    var int12 = -1 as dbrow;
+    var int12 = -1;
     if ((int11 != -1 as dbrow)) {
         stack(20480);
         stack(dbrow_getfield(int11, 90176, 0));
         DB_FIND(0);
-        dbrow_findnext();
-        int12 = stack();
+        int12 = dbrow_findnext();
     };
     var int13 = dbrow_getfield(int10, 90448, 0);
     var int14 = IF_GETNEXTSUBID(int1);
@@ -40,20 +39,24 @@ function script13678(int0: number, int1: number, int2: number, int3: number, int
     var int17 = 5;
     var int18 = 15;
     var int19 = 15;
-    var int20 = -1 as dbrow;
+    var int20 = -1;
     var int21 = 0;
     var int22 = -1;
     var int23 = 22;
     var int24 = -1;
     var string0 = "null";
     var int25 = -1;
-    var int26 = -1 as obj;
+    var int26 = -1;
     var int27 = -1;
     var int28 = 0;
     var int29 = 0;
     var int30 = (55 - 10);
     var int31 = 0;
-    CC_CREATE(int1, 3, int14++);
+    stack(int1);
+    stack(3);
+    stack(int14);
+    int14 = (int14 + 1);
+    CC_CREATE();
     CC_SETSIZE((2 * int7), 55, 1, 0);
     CC_SETPOSITION(int7, int8, 0, 0);
     cc_setparam(6813, dbrow_getfield(int9, 94288, int2));
@@ -64,13 +67,21 @@ function script13678(int0: number, int1: number, int2: number, int3: number, int
         script13650(28680);
     };
     CC_SETMOUSEOVERCURSOR(46);
-    CC_CREATE(int1, 5, int14++);
+    stack(int1);
+    stack(5);
+    stack(int14);
+    int14 = (int14 + 1);
+    CC_CREATE();
     CC_SETGRAPHIC(dbrow_getfield(int12, 20560, 0));
     CC_SETSIZE(int30, int30, 0, 0);
     CC_SETPOSITION(int19, (int8 + ((55 - int30) / 2)), 0, 0);
     int19 = (int19 + (int30 + int17));
     if ((int2 < int6)) {
-        CC_CREATE(int1, 5, int14++);
+        stack(int1);
+        stack(5);
+        stack(int14);
+        int14 = (int14 + 1);
+        CC_CREATE();
         CC_SETPOSITION(((int19 - int17) - 12), ((int8 + 55) - int23), 0, 0);
         CC_SETSIZE(12, 12, 0, 0);
         if ((dbrow_getfield(int11, 90208, 0) < dbrow_getfield(int10, 90208, 0))) {
@@ -81,12 +92,20 @@ function script13678(int0: number, int1: number, int2: number, int3: number, int
             CC_SETCOLOUR(65280);
         };
     };
-    CC_CREATE(int1, 9, int14++);
+    stack(int1);
+    stack(9);
+    stack(int14);
+    int14 = (int14 + 1);
+    CC_CREATE();
     CC_SETSIZE(0, (55 - 1), 0, 0);
     CC_SETPOSITION(int19, int8, 0, 0);
     CC_SETCOLOUR(0);
     int19 = (int19 + int17);
-    CC_CREATE(int1, 4, int14++);
+    stack(int1);
+    stack(4);
+    stack(int14);
+    int14 = (int14 + 1);
+    CC_CREATE();
     CC_SETSIZE((4 * int7), (55 / 2), 1, 0);
     CC_SETPOSITION(int19, int8, 0, 0);
     CC_SETCOLOUR(16777215);
@@ -94,7 +113,11 @@ function script13678(int0: number, int1: number, int2: number, int3: number, int
     CC_SETTEXTFONT(26 as fontmetrics);
     CC_SETTEXT(dbrow_getfield(int11, 90128, 0));
     CC_SETTEXTSHADOW(true);
-    CC_CREATE(int1, 5, int14++);
+    stack(int1);
+    stack(5);
+    stack(int14);
+    int14 = (int14 + 1);
+    CC_CREATE();
     CC_SETPOSITION(int19, ((int8 + (55 / 2)) + (((55 / 2) - int23) / 2)), 0, 0);
     CC_SETSIZE(int23, int23, 0, 0);
     CC_SETGRAPHIC(26537 as graphic);
@@ -102,11 +125,15 @@ function script13678(int0: number, int1: number, int2: number, int3: number, int
     CC_SETONMOUSEREPEAT(callback(script3876, string0, -2147483645, -2147483643));
     int19 = (int19 + (int23 + int17));
     int24 = dbrow_getfield(int11, 90160, 0);
-    CC_CREATE(int1, 4, int14++);
-    CC_SETSIZE(PARAWIDTH("999", IF_GETWIDTH(int1), 26), (55 / 2), 0, 0);
+    stack(int1);
+    stack(4);
+    stack(int14);
+    int14 = (int14 + 1);
+    CC_CREATE();
+    CC_SETSIZE(PARAWIDTH("999", IF_GETWIDTH(int1), 26 as fontmetrics), (55 / 2), 0, 0);
     CC_SETPOSITION(int19, (int8 + (55 / 2)), 0, 0);
     CC_SETTEXT(inttostring(int24, 10));
-    if ((STAT(26) >= int24)) {
+    if ((STAT(26 as stat) >= int24)) {
         CC_SETCOLOUR(65280);
     } else {
         CC_SETCOLOUR(16711680);
@@ -115,11 +142,15 @@ function script13678(int0: number, int1: number, int2: number, int3: number, int
     CC_SETTEXTFONT(26 as fontmetrics);
     CC_SETTEXTSHADOW(true);
     CC_SETONMOUSEREPEAT(callback(script3876, string0, -2147483645, -2147483643));
-    int19 = (int19 + (PARAWIDTH("999", IF_GETWIDTH(int1), 26) + int17));
-    CC_CREATE(int1, 5, int14++);
+    int19 = (int19 + (PARAWIDTH("999", IF_GETWIDTH(int1), 26 as fontmetrics) + int17));
+    stack(int1);
+    stack(5);
+    stack(int14);
+    int14 = (int14 + 1);
+    CC_CREATE();
     CC_SETPOSITION(int19, ((int8 + (55 / 2)) + (((55 / 2) - int23) / 2)), 0, 0);
     CC_SETSIZE(int23, int23, 0, 0);
-    CC_SETGRAPHIC(30989);
+    CC_SETGRAPHIC(30989 as graphic);
     if ((varbitplayer_37615 == 1)) {
         CC_SETONMOUSEREPEAT(callback(script13684, -2147483645, -2147483643, 1, dbrow_getfield(int11, 90448, 0), int13));
     } else {
@@ -127,7 +158,11 @@ function script13678(int0: number, int1: number, int2: number, int3: number, int
     };
     int19 = (int19 + (int23 + int17));
     int28 = dbrow_getfield(int11, 90448, 0);
-    CC_CREATE(int1, 4, int14++);
+    stack(int1);
+    stack(4);
+    stack(int14);
+    int14 = (int14 + 1);
+    CC_CREATE();
     CC_SETSIZE(PARAWIDTH("9999", IF_GETWIDTH(int1), 26 as fontmetrics), (55 / 2), 0, 0);
     CC_SETPOSITION(int19, (int8 + (55 / 2)), 0, 0);
     CC_SETTEXT(inttostring(int28, 10));
@@ -154,7 +189,11 @@ function script13678(int0: number, int1: number, int2: number, int3: number, int
             int18 = 15;
         };
         [int26, int27] = dbrow_getfield(int11, 90240, (int29 - 1));
-        CC_CREATE(int1, 4, int14++);
+        stack(int1);
+        stack(4);
+        stack(int14);
+        int14 = (int14 + 1);
+        CC_CREATE();
         CC_SETSIZE(PARAWIDTH("999", IF_GETWIDTH(int1), 26 as fontmetrics), (55 / 2), 0, 0);
         if ((int31 >= 2)) {
             CC_SETPOSITION(int18, (int8 + (55 / 2)), 2, 0);
@@ -170,9 +209,13 @@ function script13678(int0: number, int1: number, int2: number, int3: number, int
         CC_SETTEXTFONT(26 as fontmetrics);
         CC_SETTEXT(inttostring(int27, 10));
         CC_SETTEXTSHADOW(true);
-        CC_SETONMOUSEREPEAT(callback(script8801, script13683(int26, 1), int1, int14, 1, 0, enum_getvalue(25, 0, 8549 as cs2enum, 26 as fontmetrics)));
-        int18 = (int18 + (PARAWIDTH("999", IF_GETWIDTH(int1), 26) + int17));
-        CC_CREATE(int1, 5, int14++);
+        CC_SETONMOUSEREPEAT(callback(script8801, script13683(int26, 1), int1, int14, 1, 0, enum_getvalue(25, 0, 8549, 26)));
+        int18 = (int18 + (PARAWIDTH("999", IF_GETWIDTH(int1), 26 as fontmetrics) + int17));
+        stack(int1);
+        stack(5);
+        stack(int14);
+        int14 = (int14 + 1);
+        CC_CREATE();
         CC_SETSIZE(int23, int23, 0, 0);
         if ((int31 >= 2)) {
             CC_SETPOSITION(int18, ((int8 + (55 / 2)) + (((55 / 2) - int23) / 2)), 2, 0);
@@ -180,7 +223,7 @@ function script13678(int0: number, int1: number, int2: number, int3: number, int
             CC_SETPOSITION(int18, (int8 + (((55 / 2) - int23) / 2)), 2, 0);
         };
         CC_SETOBJECT(int26, -1);
-        CC_SETONMOUSEREPEAT(callback(script8801, script13683(int26, 1), int1, int14, 1, 0, enum_getvalue(25, 0, 8549 as cs2enum, 26 as fontmetrics)));
+        CC_SETONMOUSEREPEAT(callback(script8801, script13683(int26, 1), int1, int14, 1, 0, enum_getvalue(25, 0, 8549, 26)));
         int18 = (int18 + (int23 + int17));
         int29 = (int29 - 1);
         int31 = (int31 + 1);
@@ -191,7 +234,11 @@ function script13678(int0: number, int1: number, int2: number, int3: number, int
         };
         [int20, int21] = dbrow_getfield(int11, 90224, (int15 - 1));
         int25 = dbrow_getfield(int20, 16384, 0);
-        CC_CREATE(int1, 4, int14++);
+        stack(int1);
+        stack(4);
+        stack(int14);
+        int14 = (int14 + 1);
+        CC_CREATE();
         CC_SETSIZE(PARAWIDTH("999", IF_GETWIDTH(int1), 26 as fontmetrics), (55 / 2), 0, 0);
         if ((int31 >= 2)) {
             CC_SETPOSITION(int18, (int8 + (55 / 2)), 2, 0);
@@ -207,10 +254,14 @@ function script13678(int0: number, int1: number, int2: number, int3: number, int
         CC_SETTEXTALIGN(0, 1, 0);
         CC_SETTEXTFONT(26 as fontmetrics);
         CC_SETTEXTSHADOW(true);
-        CC_SETONMOUSEREPEAT(callback(script8801, script13682(int25, 1, dbrow_getfield(int20, 16400, 0)), int1, int14, 1, 0, enum_getvalue(25, 0, 8549 as cs2enum, 26 as fontmetrics)));
-        int18 = (int18 + (PARAWIDTH("999", IF_GETWIDTH(int1), 26) + int17));
+        CC_SETONMOUSEREPEAT(callback(script8801, script13682(int25, 1, dbrow_getfield(int20, 16400, 0)), int1, int14, 1, 0, enum_getvalue(25, 0, 8549, 26)));
+        int18 = (int18 + (PARAWIDTH("999", IF_GETWIDTH(int1), 26 as fontmetrics) + int17));
         int22 = dbrow_getfield(int20, 16448, 0);
-        CC_CREATE(int1, 5, int14++);
+        stack(int1);
+        stack(5);
+        stack(int14);
+        int14 = (int14 + 1);
+        CC_CREATE();
         CC_SETGRAPHIC(int22);
         CC_SETSIZE(int23, int23, 0, 0);
         if ((int31 >= 2)) {
@@ -218,19 +269,27 @@ function script13678(int0: number, int1: number, int2: number, int3: number, int
         } else {
             CC_SETPOSITION(int18, (int8 + (((55 / 2) - int23) / 2)), 2, 0);
         };
-        CC_SETONMOUSEREPEAT(callback(script8801, script13682(int25, 1, dbrow_getfield(int20, 16400, 0)), int1, int14, 1, 0, enum_getvalue(25, 0, 8549 as cs2enum, 26 as fontmetrics)));
+        CC_SETONMOUSEREPEAT(callback(script8801, script13682(int25, 1, dbrow_getfield(int20, 16400, 0)), int1, int14, 1, 0, enum_getvalue(25, 0, 8549, 26)));
         int18 = (int18 + (int23 + int17));
         int15 = (int15 - 1);
         int31 = (int31 + 1);
     };
-    CC_CREATE(int1, 9, int14++);
+    stack(int1);
+    stack(9);
+    stack(int14);
+    int14 = (int14 + 1);
+    CC_CREATE();
     CC_SETSIZE(0, (55 - 1), 0, 0);
     CC_SETPOSITION((((int7 + (5 * int17)) + (2 * int23)) + (2 * PARAWIDTH("999", IF_GETWIDTH(int1), 26 as fontmetrics))), int8, 2, 0);
     CC_SETCOLOUR(0);
     if (((int2 + 1) == int6)) {
         IF_SETTEXT("Upgrades & downgrades available for this machine:", comp(1901, 3));
         if ((int6 != int5)) {
-            CC_CREATE(int1, 4, int14++);
+            stack(int1);
+            stack(4);
+            stack(int14);
+            int14 = (int14 + 1);
+            CC_CREATE();
             CC_SETTEXTFONT(26 as fontmetrics);
             CC_SETSIZE((2 * int7), 11, 1, 0);
             script11024(3);

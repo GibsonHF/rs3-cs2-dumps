@@ -4,14 +4,13 @@ function script19438(): void {
     stack(1253376);
     stack(varbitplayer_56570);
     DB_FIND(0);
-    dbrow_findnext();
-    var int0 = stack();
+    var int0 = dbrow_findnext();
     var int1 = 85327966;
     if ((((IF_FIND(int1) == 1) && (cc_getparam(5946) == varbitplayer_56570)) && (cc_getparam(5947) == varbitplayer_56571))) {
         return;
     };
     CC_DELETEALL(int1);
-    if ((int0 == -1 as dbrow)) {
+    if ((int0 == -1)) {
         script19450();
         return;
     };
@@ -34,15 +33,14 @@ function script19438(): void {
     IF_SETSIZE(40, int6, 0, 0, int1);
     var int7 = 0;
     var int8 = 0;
-    var int9 = -1 as graphic;
-    var int10 = -1 as graphic;
+    var int9 = -1;
+    var int10 = -1;
     var string0 = "";
     var int11 = int2;
     var int12 = 0;
     var int13 = 0;
     while ((int7 < int11)) {
-        stack(dbrow_getfield(int0, 1253408, int7));
-        [int9, int10, int12, int13, string0] = stack();
+        [int9, int10, int12, int13, string0] = dbrow_getfield(int0, 1253408, int7);
         script19439(int1, int8, int9, int10, -1, -1, string0, int12, int13);
         int8 = (int8 + 1);
         int7 = (int7 + 1);
@@ -53,7 +51,7 @@ function script19438(): void {
     while ((int7 < int11)) {
         int9 = dbrow_getfield(int0, 1253441, int7);
         int14 = script19338(int0, int7, varbitplayer_56614);
-        script19439(int1, int8, int9, -1 as graphic, int14, -1, "", -1, -1);
+        script19439(int1, int8, int9, -1, int14, -1, "", -1, -1);
         int8 = (int8 + 1);
         int7 = (int7 + 1);
     };
@@ -63,7 +61,7 @@ function script19438(): void {
     while ((int7 < int11)) {
         int9 = dbrow_getfield(int0, 1253425, int7);
         int15 = script19339(int0, int7, varbitplayer_56614);
-        script19439(int1, int8, int9, -1 as graphic, -1, int15, "", -1, -1);
+        script19439(int1, int8, int9, -1, -1, int15, "", -1, -1);
         int8 = (int8 + 1);
         int7 = (int7 + 1);
     };

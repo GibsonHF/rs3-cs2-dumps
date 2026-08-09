@@ -5,7 +5,8 @@ function script13792(): void {
     var int2 = 3;
     var int3 = 0;
     var int4 = -1;
-    while ((++int4 < int0)) {
+    int4 = (int4 + 1);
+    while ((int4 < int0)) {
         CC_CREATE(comp(1918, 3), 5, int3);
         CC_SETSIZE(36, 32, 0, 0);
         CC_SETPOSITION(int1, int2, 0, 0);
@@ -15,7 +16,8 @@ function script13792(): void {
             CC_SETOP(1, "Withdraw");
             CC_SETOUTLINE(1);
         };
-        if ((++int1 > 180)) {
+        int1 = (int1 + 45);
+        if ((int1 > 180)) {
             int1 = 5;
             int2 = (int2 + 45);
         };

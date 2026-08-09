@@ -12,7 +12,7 @@ function script7368(): void {
     if ((int0 > 0)) {
         script996(90374227, -1, 28556, 0, script9670(varbitplayer_17496, 1));
         IF_SETONMOUSEOVER(callback(script7370, 1), comp(1379, 83));
-        IF_SETONOP(callback(script7370, 1), 90374227);
+        IF_SETONOP(callback(script7370, 1), comp(1379, 83));
     } else {
         script996(90374227, -1, 28556, 1, script9670(varbitplayer_17496, 1));
         IF_SETTEXT("???", comp(1379, 84));
@@ -20,7 +20,7 @@ function script7368(): void {
     if ((int0 > 1)) {
         script996(90374231, -1, 28556, 0, script9670(varbitplayer_17496, 2));
         IF_SETONMOUSEOVER(callback(script7370, 2), comp(1379, 87));
-        IF_SETONOP(callback(script7370, 2), 90374231);
+        IF_SETONOP(callback(script7370, 2), comp(1379, 87));
     } else {
         script996(90374231, -1, 28556, 1, script9670(varbitplayer_17496, 2));
         IF_SETTEXT("???", comp(1379, 88));
@@ -28,7 +28,7 @@ function script7368(): void {
     if ((int0 > 2)) {
         script996(90374235, -1, 28556, 0, script9670(varbitplayer_17496, 3));
         IF_SETONMOUSEOVER(callback(script7370, 3), comp(1379, 91));
-        IF_SETONOP(callback(script7370, 3), 90374235);
+        IF_SETONOP(callback(script7370, 3), comp(1379, 91));
     } else {
         script996(90374235, -1, 28556, 1, script9670(varbitplayer_17496, 3));
         IF_SETTEXT("???", comp(1379, 92));
@@ -36,7 +36,7 @@ function script7368(): void {
     if ((int0 > 3)) {
         script996(90374239, -1, 28556, 0, script9670(varbitplayer_17496, 4));
         IF_SETONMOUSEOVER(callback(script7370, 4), comp(1379, 95));
-        IF_SETONOP(callback(script7370, 4), 90374239);
+        IF_SETONOP(callback(script7370, 4), comp(1379, 95));
     } else {
         script996(90374239, -1, 28556, 1, script9670(varbitplayer_17496, 4));
         IF_SETTEXT("???", comp(1379, 96));
@@ -44,7 +44,7 @@ function script7368(): void {
     if ((int0 > 4)) {
         script996(90374243, -1, 28556, 0, script9670(varbitplayer_17496, 5));
         IF_SETONMOUSEOVER(callback(script7370, 5), comp(1379, 99));
-        IF_SETONOP(callback(script7370, 5), 90374243);
+        IF_SETONOP(callback(script7370, 5), comp(1379, 99));
     } else {
         script996(90374243, -1, 28556, 1, script9670(varbitplayer_17496, 5));
         IF_SETTEXT("???", comp(1379, 100));
@@ -52,7 +52,7 @@ function script7368(): void {
     if ((int0 > 5)) {
         script996(90374247, -1, 28556, 0, script9670(varbitplayer_17496, 6));
         IF_SETONMOUSEOVER(callback(script7370, 6), comp(1379, 103));
-        IF_SETONOP(callback(script7370, 6), 90374247);
+        IF_SETONOP(callback(script7370, 6), comp(1379, 103));
     } else {
         script996(90374247, -1, 28556, 1, script9670(varbitplayer_17496, 6));
         IF_SETTEXT("???", comp(1379, 104));
@@ -60,7 +60,7 @@ function script7368(): void {
     if ((int0 > 6)) {
         script996(90374251, -1, 28556, 0, script9670(varbitplayer_17496, 7));
         IF_SETONMOUSEOVER(callback(script7370, 7), comp(1379, 107));
-        IF_SETONOP(callback(script7370, 7), 90374251);
+        IF_SETONOP(callback(script7370, 7), comp(1379, 107));
     } else {
         script996(90374251, -1, 28556, 1, script9670(varbitplayer_17496, 7));
         IF_SETTEXT("???", comp(1379, 108));
@@ -68,7 +68,7 @@ function script7368(): void {
     if ((int0 > 7)) {
         script996(90374255, -1, 28556, 0, script9670(varbitplayer_17496, 8));
         IF_SETONMOUSEOVER(callback(script7370, 8), comp(1379, 111));
-        IF_SETONOP(callback(script7370, 8), 90374255);
+        IF_SETONOP(callback(script7370, 8), comp(1379, 111));
     } else {
         script996(90374255, -1, 28556, 1, script9670(varbitplayer_17496, 8));
         IF_SETTEXT("???", comp(1379, 112));

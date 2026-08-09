@@ -81,7 +81,8 @@ function script7127(int0: number, int1: number, int2: number): number {
                 int4 = (int7 + int5);
             };
         };
-        switch (++int13) {
+        int13 = (int13 + 1);
+        switch (int13) {
             case 2: {
                 int8 = item_getparam(int0, 2641);
                 int9 = item_getparam(int0, 2646);

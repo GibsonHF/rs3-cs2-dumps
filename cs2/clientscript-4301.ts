@@ -1,12 +1,12 @@
 //[proc,clansettings_list_build]
 function script4301(): void {
-    var int0 = 71827479;
-    var int1 = 71827480;
-    var int2 = 71827481;
-    var int3 = 71827482;
+    var int0 = comp(1096, 23);
+    var int1 = comp(1096, 24);
+    var int2 = comp(1096, 25);
+    var int3 = comp(1096, 26);
     var int4 = 71827476;
-    var int5 = 71827477;
-    var int6 = 71827483;
+    var int5 = comp(1096, 21);
+    var int6 = comp(1096, 27);
     var string0 = "";
     var string1 = "";
     var int7 = 15;
@@ -44,7 +44,7 @@ function script4301(): void {
         string0 = ACTIVECLANSETTINGS_GETAFFINEDDISPLAYNAME(int12);
         int20 = ACTIVECLANSETTINGS_GETAFFINEDRANK(int12);
         int22 = unk10985(int12, 10, 10);
-        int21 = unk11121(int12);
+        int21 = unk11123(int12);
         if (((varclient_1516 - 1) != int20)) {
             int23 = 1;
             if (((varclient_1516 == 0) || (varclient_1516 == -1))) {
@@ -55,7 +55,7 @@ function script4301(): void {
         };
         CC_CREATE(int0, 4, int12);
         if ((int23 == 0)) {
-            CC_SETTEXTFONT(26);
+            CC_SETTEXTFONT(26 as fontmetrics);
             CC_SETSIZE(int26, int25, 2, 0);
             int19 = -1;
             if ((int21 == 0)) {
@@ -74,7 +74,7 @@ function script4301(): void {
             } else {
                 CC_SETCOLOUR(12497548);
             };
-            CC_SETTEXTSHADOW(1);
+            CC_SETTEXTSHADOW(true);
             CC_SETTEXT(string0);
         };
         CC_CREATE(int2, 5, int12);
@@ -106,7 +106,7 @@ function script4301(): void {
     int12 = 0;
     var int34 = 0;
     while ((int12 < int13)) {
-        int34 = unk11120(int12);
+        int34 = unk11122(int12);
         if (((CC_FIND(int0, int34) == 1) && (strcmp(CC_GETTEXT(), "") != 0))) {
             if ((MODULO(int33, 2) != 0)) {
                 int10 = int27;

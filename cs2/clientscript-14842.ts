@@ -17,7 +17,8 @@ function script14842(int0: number): void {
     var int5 = IF_GETHEIGHT(comp(685, 23));
     var int6 = int5;
     var int7 = -1;
-    while ((++int7 < int2)) {
+    int7 = (int7 + 1);
+    while ((int7 < int2)) {
         int1 = enum_getvalue(0, 74, int0, int7);
         if (((int7 > 0) && (MODULO(int7, 2) == 0))) {
             if ((MODULO(int7, (2 * 2)) == 0)) {

@@ -5,7 +5,7 @@ function script14102(int0: number, int1: number, int2: number): void {
         return;
     };
     IF_SETONTIMER(callback(), int1);
-    IF_SETOP(1, "Shrink", 127402015);
+    IF_SETOP(1, "Shrink", comp(1944, 31));
     IF_SETVFLIP(0, int1);
     return;
 }

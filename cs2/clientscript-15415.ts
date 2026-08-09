@@ -33,9 +33,14 @@ function script15415(int0: number, int1: number, int2: number): void {
         }
     };
     if ((script6431() == 0)) {
-        if (((int3 == 1) && (item_getparam(int2, 4414) != -1 as struct))) {
-            if ((IF_FIND(int0) == 1)) {
-                script14994(-1, -1, -1, int2, 819, 1);
+        if ((int3 == 1)) {
+            if ((item_getparam(int2, 4414) != -1 as struct)) {
+                if ((IF_FIND(int0) == 1)) {
+                    script14994(-1, -1, -1, int2, 819, 1);
+                };
+            } else {
+                IF_SETONMOUSEREPEAT(callback(script8801, string0, -2147483645, -2147483643, 0, 1, 12), int0);
+                IF_SETONMOUSELEAVE(callback(script8805), int0);
             };
         } else {
             IF_SETONMOUSEREPEAT(callback(script8801, string0, -2147483645, -2147483643, 0, 1, 12), int0);

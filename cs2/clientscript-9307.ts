@@ -19,10 +19,18 @@ function script9307(int0: number, int1: number): number {
                     int8 = CC_GETINVOBJECT();
                     int6 = CC_GETINVCOUNT();
                 };
-                if ((((int8 != -1 as obj) && (int8 != 48447 as obj)) && (int6 == 0))) {
-                    cc_setparam(3844, int4);
-                    pop_array(int4, (push_array(int4) + 1));
-                    int7 = (int7 + 1);
+                if ((int8 != -1 as obj)) {
+                    if ((int8 != 48447 as obj)) {
+                        if ((int6 == 0)) {
+                            cc_setparam(3844, int4);
+                            pop_array(int4, (push_array(int4) + 1));
+                            int7 = (int7 + 1);
+                        } else {
+                            cc_setparam(3844, -1);
+                        };
+                    } else {
+                        cc_setparam(3844, -1);
+                    };
                 } else {
                     cc_setparam(3844, -1);
                 };

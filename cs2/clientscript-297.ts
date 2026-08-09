@@ -31,9 +31,22 @@ function script297(int0: number, int1: number, int2: number, int3: number, int4:
         int22 = (0 - int22);
         int23 = 1;
     };
-    if (((CC_FIND(int5, int10) == 1) && (CC_FIND[1](int5, int11) == 1))) {
-        CC_SETPOSITION((int15 + 1), (int16 + 1), 1, 1);
-        CC_SETPOSITION[1]((int17 + 1), (int18 + 1), 1, 1);
+    if ((CC_FIND(int5, int10) == 1)) {
+        if ((CC_FIND[1](int5, int11) == 1)) {
+            CC_SETPOSITION((int15 + 1), (int16 + 1), 1, 1);
+            CC_SETPOSITION[1]((int17 + 1), (int18 + 1), 1, 1);
+        } else {
+            CC_CREATE(int5, 3, int10);
+            CC_CREATE[1](int5, 3, int11);
+            CC_SETPOSITION((int15 + 1), (int16 + 1), 1, 1);
+            CC_SETPOSITION[1]((int17 + 1), (int18 + 1), 1, 1);
+            CC_SETSIZE(int4, int4, 0, 0);
+            CC_SETSIZE[1](int4, int4, 0, 0);
+            CC_SETCOLOUR(0);
+            CC_SETCOLOUR[1](0);
+            CC_SETFILL(1);
+            CC_SETFILL[1](1);
+        };
     } else {
         CC_CREATE(int5, 3, int10);
         CC_CREATE[1](int5, 3, int11);
@@ -50,9 +63,33 @@ function script297(int0: number, int1: number, int2: number, int3: number, int4:
     var int25 = 0;
     var int26 = 0;
     var int27 = 0;
-    if (((CC_FIND(int5, int12) == 1) && (CC_FIND[1](int5, int13) == 1))) {
-        CC_SETPOSITION(int15, int16, 1, 1);
-        CC_SETPOSITION[1](int17, int18, 1, 1);
+    if ((CC_FIND(int5, int12) == 1)) {
+        if ((CC_FIND[1](int5, int13) == 1)) {
+            CC_SETPOSITION(int15, int16, 1, 1);
+            CC_SETPOSITION[1](int17, int18, 1, 1);
+        } else {
+            [int24, int25, int26] = script2413(int3);
+            [int24, int25, int26] = [MAX((int24 - 48), 0), MAX((int25 - 48), 0), MAX((int26 - 48), 0)];
+            int27 = script693(int24, int25, int26);
+            CC_CREATE(int5, 3, int12);
+            CC_CREATE[1](int5, 3, int13);
+            CC_SETPOSITION(int15, int16, 1, 1);
+            CC_SETPOSITION[1](int17, int18, 1, 1);
+            CC_SETSIZE(int4, int4, 0, 0);
+            CC_SETSIZE[1](int4, int4, 0, 0);
+            CC_SETCOLOUR(int27);
+            CC_SETCOLOUR[1](int27);
+            CC_SETFILL(1);
+            CC_SETFILL[1](1);
+            CC_SETONMOUSEOVER(callback(script301, 1, int5, int12, int13, int14, int3));
+            CC_SETONMOUSEOVER[1](callback(script301, 1, int5, int12, int13, int14, int3));
+            CC_SETONMOUSELEAVE(callback(script301, 0, int5, int12, int13, int14, int27));
+            CC_SETONMOUSELEAVE[1](callback(script301, 0, int5, int12, int13, int14, int27));
+            CC_SETOP(1, "Scroll map");
+            CC_SETOP[1](1, "Scroll map");
+            CC_SETONOP(callback(script302, -2147483644, int1, int2));
+            CC_SETONOP[1](callback(script302, -2147483644, int0, int2));
+        };
     } else {
         [int24, int25, int26] = script2413(int3);
         [int24, int25, int26] = [MAX((int24 - 48), 0), MAX((int25 - 48), 0), MAX((int26 - 48), 0)];

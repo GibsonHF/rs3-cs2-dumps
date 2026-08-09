@@ -13,6 +13,6 @@ function script15106(): void {
         string0 = "Switch to item withdrawal mode.";
     };
     IF_SETOP(1, string0, comp(168, 70));
-    IF_SETONMOUSEREPEAT(callback(script10009, string0, -2147483645, -2147483643), 11010118);
+    IF_SETONMOUSEREPEAT(callback(script10009, string0, -2147483645, -2147483643), comp(168, 70));
     return;
 }

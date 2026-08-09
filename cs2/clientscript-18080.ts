@@ -47,7 +47,8 @@ function script18080(int0: number, int1: number, int2: number, int3: number): nu
             } else {
                 int5 = -1 as dbrow;
             };
-            if (((++int7 > 10) && (int5 != -1 as dbrow))) {
+            int7 = (int7 + 1);
+            if (((int7 > 10) && (int5 != -1 as dbrow))) {
                 script12478("Chain is too long, possible recurrsive loop. Breaking early.");
                 int5 = -1 as dbrow;
             };

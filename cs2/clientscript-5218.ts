@@ -19,11 +19,26 @@ function script5218(int0: number, int1: number, int2: number, int3: number, int4
     };
     script4161(int0, int6);
     script4161(int1, int6);
-    if (((int6 == 0) && (int2 == 0))) {
-        IF_SETONTIMER(callback(), int4);
-    } else if (((int6 == 255) && (int2 == 1))) {
-        IF_SETONTIMER(callback(), int4);
-        IF_SETHIDE(1, IF_GETPARENTLAYER(int0));
+    if ((int6 == 0)) {
+        if ((int2 == 0)) {
+            IF_SETONTIMER(callback(), int4);
+        } else if ((int6 == 255)) {
+            if ((int2 == 1)) {
+                IF_SETONTIMER(callback(), int4);
+                IF_SETHIDE(true, IF_GETPARENTLAYER(int0));
+            } else {
+                IF_SETONTIMER(callback(script5218, int0, int1, int2, 0, int4), int4);
+            };
+        } else {
+            IF_SETONTIMER(callback(script5218, int0, int1, int2, 0, int4), int4);
+        };
+    } else if ((int6 == 255)) {
+        if ((int2 == 1)) {
+            IF_SETONTIMER(callback(), int4);
+            IF_SETHIDE(true, IF_GETPARENTLAYER(int0));
+        } else {
+            IF_SETONTIMER(callback(script5218, int0, int1, int2, 0, int4), int4);
+        };
     } else {
         IF_SETONTIMER(callback(script5218, int0, int1, int2, 0, int4), int4);
     };

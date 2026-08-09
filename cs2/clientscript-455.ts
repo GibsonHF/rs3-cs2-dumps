@@ -2,7 +2,7 @@
 function script455(int0: number, int1: number, int2: number): void {
     var string0 = "";
     var string1 = "";
-    var int3 = 3720 as cs2enum;
+    var int3 = 3720;
     CC_SETGRAPHIC(enum_getvalue(0, 23, 3712 as cs2enum, int1));
     if ((script6431() == 1)) {
         var int0 = (int0 + ((27 / 2) - (CC_GETHEIGHT() / 2)));
@@ -14,19 +14,19 @@ function script455(int0: number, int1: number, int2: number): void {
     if ((int2 > 0)) {
         switch (MAP_LANG()) {
             case 1: {
-                int3 = 3727 as cs2enum;
+                int3 = 3727;
                 break;
             }
             case 2: {
-                int3 = 3728 as cs2enum;
+                int3 = 3728;
                 break;
             }
             case 3: {
-                int3 = 3729 as cs2enum;
+                int3 = 3729;
                 break;
             }
             case 6: {
-                int3 = 7498 as cs2enum;
+                int3 = 7498;
                 break;
             }
         };

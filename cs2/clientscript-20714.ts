@@ -2,7 +2,7 @@
 function script20714(int0: number, int1: number): void {
     var int2 = script11638(int0);
     var int3 = dbrow_getfield(int2, 1511504, 0);
-    if (((int1 == 1) && (int3 == true))) {
+    if (((int1 == 1) && (int3 == 1))) {
         return;
     };
     var int4 = varbitplayer_61208;
@@ -26,9 +26,13 @@ function script20714(int0: number, int1: number): void {
     while ((int15 < int7)) {
         [int8, int9, int10, int11, int12, int13] = dbrow_getfield(int2, 1511664, int15);
         int12 = MODULO((int12 + varbitplayer_61210), 4);
-        if (((int13 > 0) && (int12 == int4))) {
-            int14 = 1;
-            int15 = int7;
+        if ((int13 > 0)) {
+            if ((int12 == int4)) {
+                int14 = 1;
+                int15 = int7;
+            } else {
+                int15 = (int15 + 1);
+            };
         } else {
             int15 = (int15 + 1);
         };
@@ -58,7 +62,7 @@ function script20714(int0: number, int1: number): void {
     var int33 = -1;
     var int34 = 0;
     var int35 = 0;
-    if (((int26 == 1) && (int25 == true))) {
+    if (((int26 == 1) && (int25 == 1))) {
         [int27, int28, int29, int30] = dbrow_getfield(int2, 1511648, 0);
         if ((int27 < int29)) {
             int31 = ((int29 - int27) + 1);

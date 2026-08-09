@@ -7,7 +7,7 @@ function script8305(int0: number): void {
     script8690();
     IF_SETONMOUSEREPEAT(callback(script8415, int0), int3);
     script3380(1);
-    if ((enum_getreversecount(0, 7718, int0) <= 0)) {
+    if ((enum_getreversecount(0, 7718 as cs2enum, int0) <= 0)) {
         script1850(int0, 1);
     };
     script8368(int0, int3, 0, 1);

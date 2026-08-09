@@ -3,10 +3,16 @@ function script3681(int0: number, int1: number): void {
     var string0 = "Add to playlist";
     var string1 = "Remove from playlist";
     CC_SETOP(1, "Play");
-    if (((varbitplayer_38906 == int0) && (varbitplayer_38905 == 1))) {
-        CC_SETCOLOUR(65535);
-        CC_SETONMOUSELEAVE(callback(script1356, -2147483645, -2147483643, 65535));
-        CC_SETOP(5, "Unloop");
+    if ((varbitplayer_38906 == int0)) {
+        if ((varbitplayer_38905 == 1)) {
+            CC_SETCOLOUR(65535);
+            CC_SETONMOUSELEAVE(callback(script1356, -2147483645, -2147483643, 65535));
+            CC_SETOP(5, "Unloop");
+        } else {
+            CC_SETCOLOUR(65280);
+            CC_SETONMOUSELEAVE(callback(script1356, -2147483645, -2147483643, 65280));
+            CC_SETOP(5, "Loop");
+        };
     } else {
         CC_SETCOLOUR(65280);
         CC_SETONMOUSELEAVE(callback(script1356, -2147483645, -2147483643, 65280));

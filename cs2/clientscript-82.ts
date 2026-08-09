@@ -110,10 +110,10 @@ function script82(int0: number, int1: number, int2: number, int3: number, int4: 
     };
     IF_SETPARAM_STRING(4277, string1, comp(1490, 15));
     IF_SETPARAM_INT(7540, 2, comp(1490, 15));
-    IF_SETONMOUSEREPEAT(callback(script8799, string1, -2147483645, -2147483643), 97648667);
+    IF_SETONMOUSEREPEAT(callback(script8799, string1, -2147483645, -2147483643), comp(1490, 27));
     varclient_7158 = -1;
-    IF_SETTEXT("-", 97648715);
-    IF_SETCOLOUR(16777215, 97648715);
+    IF_SETTEXT("-", comp(1490, 75));
+    IF_SETCOLOUR(16777215, comp(1490, 75));
     script3536("Last known hit chance", 97648715, -1);
     script91();
     return;

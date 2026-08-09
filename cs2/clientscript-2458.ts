@@ -26,8 +26,12 @@ function script2458(): void {
         CC_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -1));
         CC_SETONMOUSELEAVE(callback(script8805));
     };
-    if (((varplayer_3871 == 1) && (varbitplayer_27169 == 0))) {
-        IF_SETHIDE(false, int3);
+    if ((varplayer_3871 == 1)) {
+        if ((varbitplayer_27169 == 0)) {
+            IF_SETHIDE(false, int3);
+        } else {
+            IF_SETHIDE(true, int3);
+        };
     } else {
         IF_SETHIDE(true, int3);
     };

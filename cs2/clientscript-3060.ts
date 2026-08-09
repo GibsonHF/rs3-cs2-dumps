@@ -3,7 +3,10 @@ function script3060(int0: number): void {
     var int1 = script13749();
     var int2 = script17126();
     var int3 = enum_getvalue(0, 9, int2, int0);
-    if (((int3 == comp(-1, 65535)) || ((IF_GETHIDE(int3) == false) && (int1 == 0)))) {
+    if ((int3 == comp(-1, 65535))) {
+        script15612();
+        return;
+    } else if (((IF_GETHIDE(int3) == false) && (int1 == 0))) {
         script15612();
         return;
     };

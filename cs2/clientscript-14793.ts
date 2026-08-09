@@ -35,7 +35,7 @@ function script14793(int0: number, int1: number, int2: number, int3: number, int
     } else {
         string0 = GET_COL_TAG(int1);
     };
-    if ((int0 == 59630 as obj)) {
+    if ((int0 == 59630)) {
     } else {
         var int5 = script7235(`Level : ${string0}${inttostring(int6, 10)}</col>`, "", int2, int3, int4, int5);
     };

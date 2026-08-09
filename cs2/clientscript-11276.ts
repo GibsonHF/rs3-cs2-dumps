@@ -5,8 +5,12 @@ function script11276(int0: number, int1: number): void {
     };
     varclient_4777 = int1;
     script11275(int0, (int1 * 10), 28303);
-    if (((varclient_4777 > 0) && (varclient_4777 <= ENUM_GETOUTPUTCOUNT(9458 as cs2enum)))) {
-        IF_SETHIDE(true, comp(1611, 16));
+    if ((varclient_4777 > 0)) {
+        if ((varclient_4777 <= ENUM_GETOUTPUTCOUNT(9458 as cs2enum))) {
+            IF_SETHIDE(true, comp(1611, 16));
+        } else {
+            IF_SETHIDE(false, comp(1611, 16));
+        };
     } else {
         IF_SETHIDE(false, comp(1611, 16));
     };

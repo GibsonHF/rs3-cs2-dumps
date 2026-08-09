@@ -18,7 +18,7 @@ function script20739(int0: number, int1: number, int2: number, int3: number, int
     if ((int6 != int7)) {
         varclient_8428 = int7;
         IF_SETONRESIZE(callback(script20741, int7), comp(1512, 9));
-        IF_CALLONRESIZE(99090441);
+        IF_CALLONRESIZE(comp(1512, 9));
     };
     if (((int4 == 1) && (CC_FIND(int0, int1) == 1))) {
         CC_SETONDRAG(callback(script20739, -2147483645, -2147483643, int7, -1, 0));

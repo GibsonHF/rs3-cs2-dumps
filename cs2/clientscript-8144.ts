@@ -31,43 +31,465 @@ function script8144(): void {
     var int24 = IF_GETWIDTH(int1);
     var int25 = IF_GETHEIGHT(int1);
     var int26 = script6431();
-    if (((varbitplayer_27169 == 0) && (int26 == 0))) {
-        if ((varbitplayer_22875 == 1)) {
+    if ((varbitplayer_27169 == 0)) {
+        if ((int26 == 0)) {
+            if ((varbitplayer_22875 == 1)) {
+                int22 = 32;
+                int23 = 32;
+                int20 = 4;
+                int21 = 7;
+            };
+            int15 = MAX(1, (int24 / int22));
+            int16 = MAX(1, (int25 / int23));
+            int13 = (MODULO(int24, int22) / int15);
+            int14 = (MODULO(int25, int23) / int16);
+            int7 = (int15 * int16);
+            int6 = int7;
+            int9 = script2387(varbitclient_42113);
+            if ((int9 < int7)) {
+                int8 = (int7 - int9);
+                int17 = ((int15 + int16) - 1);
+                while ((int8 >= int17)) {
+                    if (((int15 > 1) && (int16 > 1))) {
+                        int8 = (int8 - int17);
+                        int15 = (int15 - 1);
+                        int16 = (int16 - 1);
+                        int17 = ((int15 + int16) - 1);
+                    };
+                    while ((int8 >= int15)) {
+                        if ((int16 > 1)) {
+                            int8 = (int8 - int15);
+                            int16 = (int16 - 1);
+                        };
+                        while ((int8 >= int16)) {
+                            if ((int15 > 1)) {
+                                int8 = (int8 - int16);
+                                int15 = (int15 - 1);
+                            };
+                            int13 = ((int24 - (int22 * int15)) / int15);
+                            int14 = ((int25 - (int23 * int16)) / int16);
+                            int7 = int9;
+                            int18 = (int13 / 2);
+                            int19 = (int14 / 2);
+                            if (((PLAYERMEMBER() == false) && (int9 < script2385(135, 1)))) {
+                                script2393(135, int9);
+                            };
+                            script13846(int2, int3, 13319);
+                            if ((int26 == 1)) {
+                                int19 = 0;
+                            };
+                            while ((int10 < int7)) {
+                                int11 = script2384(int10, varbitclient_42113);
+                                if ((int26 == 1)) {
+                                    if ((script13856(int11) == 0)) {
+                                        int20 = 0;
+                                        int21 = 0;
+                                    } else {
+                                        int20 = 6;
+                                        int21 = 15;
+                                    };
+                                } else if ((varbitplayer_22875 != 1)) {
+                                    int20 = 4;
+                                    int21 = 4;
+                                };
+                                if ((enum_hasoutput(0, 13319 as cs2enum, int11) == 1)) {
+                                    int12 = enum_getreverseindex(0, 0, 13319 as cs2enum, int11, 0);
+                                    if (((CC_FIND(int2, int12) == 1) && (CC_FIND[1](int3, int12) == 1))) {
+                                        CC_SETPOSITION(int18, int19, 0, 0);
+                                        CC_SETHIDE(false);
+                                        CC_SETPOSITION[1]((int18 + int20), (int19 + int21), 0, 0);
+                                        CC_SETHIDE[1](false);
+                                        if ((int26 == 0)) {
+                                            int18 = (int18 + (int13 + int22));
+                                            if (((int18 + int22) > int24)) {
+                                                int18 = (int13 / 2);
+                                                int19 = (int19 + (int14 + int23));
+                                            };
+                                        } else {
+                                            int19 = (int19 + (int23 + 3));
+                                        };
+                                    };
+                                } else {
+                                    script2393(int11, -1);
+                                };
+                                int10 = (int10 + 1);
+                            };
+                            IF_SETPARAM_INT(6837, int7, int0);
+                            IF_SETPARAM_INT(6838, int6, int0);
+                            script8145();
+                            script17044(93782029);
+                            script15783();
+                            return;
+                        };
+                        int13 = ((int24 - (int22 * int15)) / int15);
+                        int14 = ((int25 - (int23 * int16)) / int16);
+                        int7 = int9;
+                        int18 = (int13 / 2);
+                        int19 = (int14 / 2);
+                        if (((PLAYERMEMBER() == false) && (int9 < script2385(135, 1)))) {
+                            script2393(135, int9);
+                        };
+                        script13846(int2, int3, 13319);
+                        if ((int26 == 1)) {
+                            int19 = 0;
+                        };
+                        while ((int10 < int7)) {
+                            int11 = script2384(int10, varbitclient_42113);
+                            if ((int26 == 1)) {
+                                if ((script13856(int11) == 0)) {
+                                    int20 = 0;
+                                    int21 = 0;
+                                } else {
+                                    int20 = 6;
+                                    int21 = 15;
+                                };
+                            } else if ((varbitplayer_22875 != 1)) {
+                                int20 = 4;
+                                int21 = 4;
+                            };
+                            if ((enum_hasoutput(0, 13319 as cs2enum, int11) == 1)) {
+                                int12 = enum_getreverseindex(0, 0, 13319 as cs2enum, int11, 0);
+                                if (((CC_FIND(int2, int12) == 1) && (CC_FIND[1](int3, int12) == 1))) {
+                                    CC_SETPOSITION(int18, int19, 0, 0);
+                                    CC_SETHIDE(false);
+                                    CC_SETPOSITION[1]((int18 + int20), (int19 + int21), 0, 0);
+                                    CC_SETHIDE[1](false);
+                                    if ((int26 == 0)) {
+                                        int18 = (int18 + (int13 + int22));
+                                        if (((int18 + int22) > int24)) {
+                                            int18 = (int13 / 2);
+                                            int19 = (int19 + (int14 + int23));
+                                        };
+                                    } else {
+                                        int19 = (int19 + (int23 + 3));
+                                    };
+                                };
+                            } else {
+                                script2393(int11, -1);
+                            };
+                            int10 = (int10 + 1);
+                        };
+                        IF_SETPARAM_INT(6837, int7, int0);
+                        IF_SETPARAM_INT(6838, int6, int0);
+                        script8145();
+                        script17044(93782029);
+                        script15783();
+                        return;
+                    };
+                    while ((int8 >= int16)) {
+                        if ((int15 > 1)) {
+                            int8 = (int8 - int16);
+                            int15 = (int15 - 1);
+                        };
+                        int13 = ((int24 - (int22 * int15)) / int15);
+                        int14 = ((int25 - (int23 * int16)) / int16);
+                        int7 = int9;
+                        int18 = (int13 / 2);
+                        int19 = (int14 / 2);
+                        if (((PLAYERMEMBER() == false) && (int9 < script2385(135, 1)))) {
+                            script2393(135, int9);
+                        };
+                        script13846(int2, int3, 13319);
+                        if ((int26 == 1)) {
+                            int19 = 0;
+                        };
+                        while ((int10 < int7)) {
+                            int11 = script2384(int10, varbitclient_42113);
+                            if ((int26 == 1)) {
+                                if ((script13856(int11) == 0)) {
+                                    int20 = 0;
+                                    int21 = 0;
+                                } else {
+                                    int20 = 6;
+                                    int21 = 15;
+                                };
+                            } else if ((varbitplayer_22875 != 1)) {
+                                int20 = 4;
+                                int21 = 4;
+                            };
+                            if ((enum_hasoutput(0, 13319 as cs2enum, int11) == 1)) {
+                                int12 = enum_getreverseindex(0, 0, 13319 as cs2enum, int11, 0);
+                                if (((CC_FIND(int2, int12) == 1) && (CC_FIND[1](int3, int12) == 1))) {
+                                    CC_SETPOSITION(int18, int19, 0, 0);
+                                    CC_SETHIDE(false);
+                                    CC_SETPOSITION[1]((int18 + int20), (int19 + int21), 0, 0);
+                                    CC_SETHIDE[1](false);
+                                    if ((int26 == 0)) {
+                                        int18 = (int18 + (int13 + int22));
+                                        if (((int18 + int22) > int24)) {
+                                            int18 = (int13 / 2);
+                                            int19 = (int19 + (int14 + int23));
+                                        };
+                                    } else {
+                                        int19 = (int19 + (int23 + 3));
+                                    };
+                                };
+                            } else {
+                                script2393(int11, -1);
+                            };
+                            int10 = (int10 + 1);
+                        };
+                        IF_SETPARAM_INT(6837, int7, int0);
+                        IF_SETPARAM_INT(6838, int6, int0);
+                        script8145();
+                        script17044(93782029);
+                        script15783();
+                        return;
+                    };
+                    int13 = ((int24 - (int22 * int15)) / int15);
+                    int14 = ((int25 - (int23 * int16)) / int16);
+                    int7 = int9;
+                    int18 = (int13 / 2);
+                    int19 = (int14 / 2);
+                    if (((PLAYERMEMBER() == false) && (int9 < script2385(135, 1)))) {
+                        script2393(135, int9);
+                    };
+                    script13846(int2, int3, 13319);
+                    if ((int26 == 1)) {
+                        int19 = 0;
+                    };
+                    while ((int10 < int7)) {
+                        int11 = script2384(int10, varbitclient_42113);
+                        if ((int26 == 1)) {
+                            if ((script13856(int11) == 0)) {
+                                int20 = 0;
+                                int21 = 0;
+                            } else {
+                                int20 = 6;
+                                int21 = 15;
+                            };
+                        } else if ((varbitplayer_22875 != 1)) {
+                            int20 = 4;
+                            int21 = 4;
+                        };
+                        if ((enum_hasoutput(0, 13319 as cs2enum, int11) == 1)) {
+                            int12 = enum_getreverseindex(0, 0, 13319 as cs2enum, int11, 0);
+                            if (((CC_FIND(int2, int12) == 1) && (CC_FIND[1](int3, int12) == 1))) {
+                                CC_SETPOSITION(int18, int19, 0, 0);
+                                CC_SETHIDE(false);
+                                CC_SETPOSITION[1]((int18 + int20), (int19 + int21), 0, 0);
+                                CC_SETHIDE[1](false);
+                                if ((int26 == 0)) {
+                                    int18 = (int18 + (int13 + int22));
+                                    if (((int18 + int22) > int24)) {
+                                        int18 = (int13 / 2);
+                                        int19 = (int19 + (int14 + int23));
+                                    };
+                                } else {
+                                    int19 = (int19 + (int23 + 3));
+                                };
+                            };
+                        } else {
+                            script2393(int11, -1);
+                        };
+                        int10 = (int10 + 1);
+                    };
+                    IF_SETPARAM_INT(6837, int7, int0);
+                    IF_SETPARAM_INT(6838, int6, int0);
+                    script8145();
+                    script17044(93782029);
+                    script15783();
+                    return;
+                };
+                while ((int8 >= int15)) {
+                    if ((int16 > 1)) {
+                        int8 = (int8 - int15);
+                        int16 = (int16 - 1);
+                    };
+                    while ((int8 >= int16)) {
+                        if ((int15 > 1)) {
+                            int8 = (int8 - int16);
+                            int15 = (int15 - 1);
+                        };
+                        int13 = ((int24 - (int22 * int15)) / int15);
+                        int14 = ((int25 - (int23 * int16)) / int16);
+                        int7 = int9;
+                        int18 = (int13 / 2);
+                        int19 = (int14 / 2);
+                        if (((PLAYERMEMBER() == false) && (int9 < script2385(135, 1)))) {
+                            script2393(135, int9);
+                        };
+                        script13846(int2, int3, 13319);
+                        if ((int26 == 1)) {
+                            int19 = 0;
+                        };
+                        while ((int10 < int7)) {
+                            int11 = script2384(int10, varbitclient_42113);
+                            if ((int26 == 1)) {
+                                if ((script13856(int11) == 0)) {
+                                    int20 = 0;
+                                    int21 = 0;
+                                } else {
+                                    int20 = 6;
+                                    int21 = 15;
+                                };
+                            } else if ((varbitplayer_22875 != 1)) {
+                                int20 = 4;
+                                int21 = 4;
+                            };
+                            if ((enum_hasoutput(0, 13319 as cs2enum, int11) == 1)) {
+                                int12 = enum_getreverseindex(0, 0, 13319 as cs2enum, int11, 0);
+                                if (((CC_FIND(int2, int12) == 1) && (CC_FIND[1](int3, int12) == 1))) {
+                                    CC_SETPOSITION(int18, int19, 0, 0);
+                                    CC_SETHIDE(false);
+                                    CC_SETPOSITION[1]((int18 + int20), (int19 + int21), 0, 0);
+                                    CC_SETHIDE[1](false);
+                                    if ((int26 == 0)) {
+                                        int18 = (int18 + (int13 + int22));
+                                        if (((int18 + int22) > int24)) {
+                                            int18 = (int13 / 2);
+                                            int19 = (int19 + (int14 + int23));
+                                        };
+                                    } else {
+                                        int19 = (int19 + (int23 + 3));
+                                    };
+                                };
+                            } else {
+                                script2393(int11, -1);
+                            };
+                            int10 = (int10 + 1);
+                        };
+                        IF_SETPARAM_INT(6837, int7, int0);
+                        IF_SETPARAM_INT(6838, int6, int0);
+                        script8145();
+                        script17044(93782029);
+                        script15783();
+                        return;
+                    };
+                    int13 = ((int24 - (int22 * int15)) / int15);
+                    int14 = ((int25 - (int23 * int16)) / int16);
+                    int7 = int9;
+                    int18 = (int13 / 2);
+                    int19 = (int14 / 2);
+                    if (((PLAYERMEMBER() == false) && (int9 < script2385(135, 1)))) {
+                        script2393(135, int9);
+                    };
+                    script13846(int2, int3, 13319);
+                    if ((int26 == 1)) {
+                        int19 = 0;
+                    };
+                    while ((int10 < int7)) {
+                        int11 = script2384(int10, varbitclient_42113);
+                        if ((int26 == 1)) {
+                            if ((script13856(int11) == 0)) {
+                                int20 = 0;
+                                int21 = 0;
+                            } else {
+                                int20 = 6;
+                                int21 = 15;
+                            };
+                        } else if ((varbitplayer_22875 != 1)) {
+                            int20 = 4;
+                            int21 = 4;
+                        };
+                        if ((enum_hasoutput(0, 13319 as cs2enum, int11) == 1)) {
+                            int12 = enum_getreverseindex(0, 0, 13319 as cs2enum, int11, 0);
+                            if (((CC_FIND(int2, int12) == 1) && (CC_FIND[1](int3, int12) == 1))) {
+                                CC_SETPOSITION(int18, int19, 0, 0);
+                                CC_SETHIDE(false);
+                                CC_SETPOSITION[1]((int18 + int20), (int19 + int21), 0, 0);
+                                CC_SETHIDE[1](false);
+                                if ((int26 == 0)) {
+                                    int18 = (int18 + (int13 + int22));
+                                    if (((int18 + int22) > int24)) {
+                                        int18 = (int13 / 2);
+                                        int19 = (int19 + (int14 + int23));
+                                    };
+                                } else {
+                                    int19 = (int19 + (int23 + 3));
+                                };
+                            };
+                        } else {
+                            script2393(int11, -1);
+                        };
+                        int10 = (int10 + 1);
+                    };
+                    IF_SETPARAM_INT(6837, int7, int0);
+                    IF_SETPARAM_INT(6838, int6, int0);
+                    script8145();
+                    script17044(93782029);
+                    script15783();
+                    return;
+                };
+                while ((int8 >= int16)) {
+                    if ((int15 > 1)) {
+                        int8 = (int8 - int16);
+                        int15 = (int15 - 1);
+                    };
+                    int13 = ((int24 - (int22 * int15)) / int15);
+                    int14 = ((int25 - (int23 * int16)) / int16);
+                    int7 = int9;
+                    int18 = (int13 / 2);
+                    int19 = (int14 / 2);
+                    if (((PLAYERMEMBER() == false) && (int9 < script2385(135, 1)))) {
+                        script2393(135, int9);
+                    };
+                    script13846(int2, int3, 13319);
+                    if ((int26 == 1)) {
+                        int19 = 0;
+                    };
+                    while ((int10 < int7)) {
+                        int11 = script2384(int10, varbitclient_42113);
+                        if ((int26 == 1)) {
+                            if ((script13856(int11) == 0)) {
+                                int20 = 0;
+                                int21 = 0;
+                            } else {
+                                int20 = 6;
+                                int21 = 15;
+                            };
+                        } else if ((varbitplayer_22875 != 1)) {
+                            int20 = 4;
+                            int21 = 4;
+                        };
+                        if ((enum_hasoutput(0, 13319 as cs2enum, int11) == 1)) {
+                            int12 = enum_getreverseindex(0, 0, 13319 as cs2enum, int11, 0);
+                            if (((CC_FIND(int2, int12) == 1) && (CC_FIND[1](int3, int12) == 1))) {
+                                CC_SETPOSITION(int18, int19, 0, 0);
+                                CC_SETHIDE(false);
+                                CC_SETPOSITION[1]((int18 + int20), (int19 + int21), 0, 0);
+                                CC_SETHIDE[1](false);
+                                if ((int26 == 0)) {
+                                    int18 = (int18 + (int13 + int22));
+                                    if (((int18 + int22) > int24)) {
+                                        int18 = (int13 / 2);
+                                        int19 = (int19 + (int14 + int23));
+                                    };
+                                } else {
+                                    int19 = (int19 + (int23 + 3));
+                                };
+                            };
+                        } else {
+                            script2393(int11, -1);
+                        };
+                        int10 = (int10 + 1);
+                    };
+                    IF_SETPARAM_INT(6837, int7, int0);
+                    IF_SETPARAM_INT(6838, int6, int0);
+                    script8145();
+                    script17044(93782029);
+                    script15783();
+                    return;
+                };
+                int13 = ((int24 - (int22 * int15)) / int15);
+                int14 = ((int25 - (int23 * int16)) / int16);
+                int7 = int9;
+            };
+            int18 = (int13 / 2);
+            int19 = (int14 / 2);
+        } else if ((int26 == 1)) {
+            int7 = 8;
+            int22 = 50;
+            int23 = 50;
+            int20 = 0;
+            int21 = 0;
+        } else {
+            int7 = 16;
             int22 = 32;
             int23 = 32;
             int20 = 4;
             int21 = 7;
         };
-        int15 = MAX(1, (int24 / int22));
-        int16 = MAX(1, (int25 / int23));
-        int13 = (MODULO(int24, int22) / int15);
-        int14 = (MODULO(int25, int23) / int16);
-        int7 = (int15 * int16);
-        int6 = int7;
-        int9 = script2387(varbitclient_42113);
-        if ((int9 < int7)) {
-            int8 = (int7 - int9);
-            int17 = ((int15 + int16) - 1);
-            while ((((int8 >= int17) && (int15 > 1)) && (int16 > 1))) {
-                int8 = (int8 - int17);
-                int15 = (int15 - 1);
-                int16 = (int16 - 1);
-                int17 = ((int15 + int16) - 1);
-            };
-            while (((int8 >= int15) && (int16 > 1))) {
-                int8 = (int8 - int15);
-                int16 = (int16 - 1);
-            };
-            while (((int8 >= int16) && (int15 > 1))) {
-                int8 = (int8 - int16);
-                int15 = (int15 - 1);
-            };
-            int13 = ((int24 - (int22 * int15)) / int15);
-            int14 = ((int25 - (int23 * int16)) / int16);
-            int7 = int9;
-        };
-        int18 = (int13 / 2);
-        int19 = (int14 / 2);
     } else if ((int26 == 1)) {
         int7 = 8;
         int22 = 50;

@@ -15,7 +15,7 @@ function script7333(): void {
     var string1 = "";
     var string2 = "";
     if ((int5 == 1)) {
-        int9 = 5767 as cs2enum;
+        int9 = 5767;
         int10 = 2188;
     };
     var int11 = script2356(int5, int8, varbitplayer_17219, varbitplayer_17217);
@@ -24,8 +24,8 @@ function script7333(): void {
     if ((int0 > 0)) {
         IF_SETHIDE(false, comp(905, 17));
         IF_SETPOSITION(0, int4, 0, 0, comp(905, 17));
-        IF_SETTEXT(enum_getvalue(0, 36, 1626 as cs2enum, int0), comp(905, 42));
-        IF_SETMODEL(enum_getvalue(0, 31, 1669 as cs2enum, int0), comp(905, 41));
+        IF_SETTEXT(enum_getvalue(0, 36, 1626, int0), 59310122);
+        IF_SETMODEL(enum_getvalue(0, 31, 1669, int0), comp(905, 41));
         IF_SETMODELANIM(9806 as seq, comp(905, 41));
         if ((int1 == 2)) {
             IF_SETTEXT("In Port", comp(905, 43));
@@ -39,8 +39,8 @@ function script7333(): void {
     if ((int2 > 0)) {
         IF_SETHIDE(false, comp(905, 18));
         IF_SETPOSITION(0, int4, 0, 0, comp(905, 18));
-        IF_SETTEXT(enum_getvalue(0, 36, 1626 as cs2enum, int2), comp(905, 69));
-        IF_SETMODEL(enum_getvalue(0, 31, 1669 as cs2enum, int2), comp(905, 68));
+        IF_SETTEXT(enum_getvalue(0, 36, 1626, int2), 59310149);
+        IF_SETMODEL(enum_getvalue(0, 31, 1669, int2), comp(905, 68));
         IF_SETMODELANIM(9806 as seq, comp(905, 68));
         if ((int3 == 2)) {
             IF_SETTEXT("In Port", comp(905, 70));
@@ -66,28 +66,28 @@ function script7333(): void {
         IF_SETPOSITION(0, int4, 0, 0, comp(905, 22));
         IF_SETMODEL(81333 as model, comp(905, 33));
         IF_SETMODELANIM(9806 as seq, comp(905, 33));
-        IF_SETGRAPHIC(enum_getvalue(0, 23, 7153 as cs2enum, varbitplayer_17462), comp(905, 36));
+        IF_SETGRAPHIC(enum_getvalue(0, 23, 7153, varbitplayer_17462), comp(905, 36));
         IF_SETSIZE(17, 17, 0, 0, comp(905, 36));
-        IF_SETTEXT(enum_getvalue(0, 36, 2164 as cs2enum, varbitplayer_17462), comp(905, 35));
+        IF_SETTEXT(enum_getvalue(0, 36, 2164, varbitplayer_17462), 59310115);
         IF_SETTEXT(`x ${inttostring(varbitplayer_17463, 10)}`, comp(905, 37));
         int4 = (int4 + IF_GETHEIGHT(comp(905, 22)));
     } else {
         IF_SETHIDE(true, comp(905, 22));
     };
     if ((varbitplayer_21323 > 0)) {
-        string1 = enum_getvalue(0, 36, 2164 as cs2enum, varbitplayer_21322);
-        string2 = enum_getvalue(0, 36, 2164 as cs2enum, varbitplayer_21324);
+        string1 = enum_getvalue(0, 36, 2164, varbitplayer_21322);
+        string2 = enum_getvalue(0, 36, 2164, varbitplayer_21324);
         IF_SETHIDE(false, comp(905, 24));
         IF_SETPOSITION(0, int4, 0, 0, comp(905, 24));
         IF_SETMODEL(93056 as model, comp(905, 104));
         IF_SETMODELANIM(9836 as seq, comp(905, 104));
-        IF_SETGRAPHIC(enum_getvalue(0, 23, 7155 as cs2enum, varbitplayer_21322), comp(905, 107));
+        IF_SETGRAPHIC(enum_getvalue(0, 23, 7155, varbitplayer_21322), comp(905, 107));
         IF_SETSIZE(17, 17, 0, 0, comp(905, 107));
-        IF_SETGRAPHIC(enum_getvalue(0, 23, 7153 as cs2enum, varbitplayer_21324), comp(905, 109));
+        IF_SETGRAPHIC(enum_getvalue(0, 23, 7153, varbitplayer_21324), comp(905, 109));
         IF_SETSIZE(17, 17, 0, 0, comp(905, 109));
-        IF_SETONMOUSEREPEAT(callback(script8799, string1, -2147483645, -1), 59310187);
-        IF_SETONMOUSEREPEAT(callback(script8799, string2, -2147483645, -1), 59310189);
-        int4 = (int4 + IF_GETHEIGHT(59310104));
+        IF_SETONMOUSEREPEAT(callback(script8799, string1, -2147483645, -1), comp(905, 107));
+        IF_SETONMOUSEREPEAT(callback(script8799, string2, -2147483645, -1), comp(905, 109));
+        int4 = (int4 + IF_GETHEIGHT(comp(905, 24)));
     } else {
         IF_SETHIDE(true, comp(905, 24));
     };

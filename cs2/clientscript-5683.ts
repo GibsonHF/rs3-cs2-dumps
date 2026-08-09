@@ -6,7 +6,7 @@ function script5683(int0: number): void {
     varclient_1753 = int0;
     varclient_1754 = script12842(int0);
     var int1 = 0;
-    var int2 = -1 as cs2enum;
+    var int2 = -1;
     var int3 = 0;
     var int4 = 0;
     var int5 = 30;
@@ -19,13 +19,13 @@ function script5683(int0: number): void {
         IF_SETHIDE(false, comp(1218, 259));
         IF_SETTEXT(enum_getvalue(0, 36, 108 as cs2enum, int0), comp(1218, 4));
         if ((varbitplayer_19007 == 1)) {
-            IF_SETTEXT(`${inttostring(script11862(enum_getvalue(0, 17, 681 as cs2enum, int0)), 10)}</col>`, comp(1218, 5));
+            IF_SETTEXT(`${inttostring(script11862(enum_getvalue(0, 17, 681, int0)), 10)}</col>`, comp(1218, 5));
         } else {
-            IF_SETTEXT(inttostring(STAT_BASE(enum_getvalue(0, 17, 681 as cs2enum, int0)), 10), comp(1218, 5));
+            IF_SETTEXT(inttostring(STAT_BASE(enum_getvalue(0, 17, 681, int0)), 10), comp(1218, 5));
         };
-        int2 = enum_getvalue(0, 26, 5421 as cs2enum, int0);
+        int2 = enum_getvalue(0, 26, 5421, int0);
         script10428(79823108, 79823109, int2, -1, "", varclient_1754, 0);
-        script10428(79823105, 79823106, 14116 as cs2enum, -1, "", varclient_1755, 0);
+        script10428(79823105, 79823106, 14116, -1, "", varclient_1755, 0);
     };
     IF_SETHIDE(true, comp(1218, 20));
     IF_SETHIDE(true, comp(1218, 36));

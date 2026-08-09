@@ -32,8 +32,7 @@ function script11454(): void {
     var int4 = varbitplayer_28116;
     var int5 = varbitplayer_28119;
     var int6 = 0;
-    stack(PUSH_CONSTANT_INT[16]("<br><col=", script10495(3)));
-    var string0 = `${stack()}${inttostring()}>`;
+    var string0 = `${inttostring(PUSH_CONSTANT_INT[16]("<br><col=", script10495(3)))}>`;
     var string1 = `Protected Items:${string0}These items are free to reclaim.</col>`;
     var string2 = `Saved Items:${string0}These items compose the base reclaim cost.</col>`;
     var string3 = `Lost Items:${string0}These items are lost upon death.</col>`;
@@ -57,7 +56,24 @@ function script11454(): void {
             break;
         }
     };
-    if ((((varbitplayer_28118 == 1) && (varbitplayer_52406 == 1)) || (varbitplayer_52406 == 2))) {
+    if ((varbitplayer_28118 == 1)) {
+        if (((varbitplayer_52406 == 1) || (varbitplayer_52406 == 2))) {
+            IF_SETSIZE(288, (5 + IF_GETHEIGHT(comp(1626, 43))), 1, 1, comp(1626, 24));
+            IF_SETSIZE(30, (30 + IF_GETHEIGHT(comp(1626, 43))), 1, 1, comp(1626, 52));
+            IF_SETHIDE(false, comp(1626, 43));
+            if ((varbitplayer_52406 == 2)) {
+                IF_SETHIDE(false, comp(1626, 44));
+                IF_SETHIDE(false, comp(1626, 45));
+            } else {
+                IF_SETHIDE(true, comp(1626, 44));
+                IF_SETHIDE(true, comp(1626, 45));
+            };
+        } else {
+            IF_SETSIZE(288, 5, 1, 1, comp(1626, 24));
+            IF_SETSIZE(30, 30, 1, 1, comp(1626, 52));
+            IF_SETHIDE(true, comp(1626, 43));
+        };
+    } else if ((varbitplayer_52406 == 2)) {
         IF_SETSIZE(288, (5 + IF_GETHEIGHT(comp(1626, 43))), 1, 1, comp(1626, 24));
         IF_SETSIZE(30, (30 + IF_GETHEIGHT(comp(1626, 43))), 1, 1, comp(1626, 52));
         IF_SETHIDE(false, comp(1626, 43));
@@ -86,7 +102,7 @@ function script11454(): void {
     var int10 = (int5 - int4);
     define_array[33]((5 + 1));
     define_array[65536]((5 + 1));
-    var int11 = -1 as obj;
+    var int11 = -1;
     var int12 = 0;
     var int13 = 0;
     var int14 = 0;
@@ -263,8 +279,12 @@ function script11454(): void {
     IF_SETTEXT("Confirm", comp(1626, 71));
     IF_SETTEXT("Yes", comp(1626, 72));
     IF_SETTEXT("No", comp(1626, 73));
-    if (((int24 == 0) && (varbitplayer_28117 == 0))) {
-        IF_SETHIDE(false, comp(1626, 38));
+    if ((int24 == 0)) {
+        if ((varbitplayer_28117 == 0)) {
+            IF_SETHIDE(false, comp(1626, 38));
+        } else {
+            IF_SETHIDE(true, comp(1626, 38));
+        };
     } else {
         IF_SETHIDE(true, comp(1626, 38));
     };

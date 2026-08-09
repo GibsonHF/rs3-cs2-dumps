@@ -18,7 +18,8 @@ function script1415(): void {
             CC_SETOP(10, "Examine");
         };
         int0 = (int0 + 1);
-        if ((++int1 > 6)) {
+        int1 = (int1 + 1);
+        if ((int1 > 6)) {
             int1 = 0;
             int2 = (int2 + 1);
         };

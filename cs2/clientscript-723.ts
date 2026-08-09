@@ -8,7 +8,7 @@ function script723(int0: number, int1: number, int2: number, int3: number): void
         var int1 = int4;
     };
     var int5 = script9984(int1, int2);
-    if (((int1 == -1 as struct) || (int5 == -1 as struct))) {
+    if (((int1 == -1 as struct) || (int5 == -1))) {
         return;
     };
     var int6 = struct_getparam(int5, 3808);

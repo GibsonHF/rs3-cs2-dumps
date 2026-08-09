@@ -25,40 +25,40 @@ function script6566(): void {
         return;
     };
     varclient_4083 = 3;
-    var int0 = -1;
-    var int1 = -1;
+    var int0 = comp(-1, 65535);
+    var int1 = comp(-1, 65535);
     var int2 = -1 as struct;
     var int3 = -1 as seq;
     var int4 = 0;
     switch (varclient_1781) {
         case 1: {
-            int0 = 82116639;
-            int1 = 82116641;
+            int0 = comp(1253, 31);
+            int1 = comp(1253, 33);
             break;
         }
         case 2: {
-            int0 = 82116629;
-            int1 = 82116631;
+            int0 = comp(1253, 21);
+            int1 = comp(1253, 23);
             break;
         }
         case 3: {
-            int0 = 82116634;
-            int1 = 82116636;
+            int0 = comp(1253, 26);
+            int1 = comp(1253, 28);
             break;
         }
         case 4: {
-            int0 = 82116624;
-            int1 = 82116626;
+            int0 = comp(1253, 16);
+            int1 = comp(1253, 18);
             break;
         }
         case 5: {
-            int0 = 82116619;
-            int1 = 82116621;
+            int0 = comp(1253, 11);
+            int1 = comp(1253, 13);
             break;
         }
         default: {
-            int0 = 82116639;
-            int1 = 82116641;
+            int0 = comp(1253, 31);
+            int1 = comp(1253, 33);
             break;
         }
     };
@@ -101,38 +101,38 @@ function script6566(): void {
         case 6: {
             switch (varclient_1781) {
                 case 1: {
-                    int0 = 103874580;
-                    int1 = 103874582;
+                    int0 = comp(1585, 20);
+                    int1 = comp(1585, 22);
                     break;
                 }
                 case 2: {
-                    int0 = 103874589;
-                    int1 = 103874591;
+                    int0 = comp(1585, 29);
+                    int1 = comp(1585, 31);
                     break;
                 }
                 case 3: {
-                    int0 = 103874584;
-                    int1 = 103874586;
+                    int0 = comp(1585, 24);
+                    int1 = comp(1585, 26);
                     break;
                 }
                 case 4: {
-                    int0 = 103874574;
-                    int1 = 103874577;
+                    int0 = comp(1585, 14);
+                    int1 = comp(1585, 17);
                     break;
                 }
                 case 5: {
-                    int0 = 103874570;
-                    int1 = 103874572;
+                    int0 = comp(1585, 10);
+                    int1 = comp(1585, 12);
                     break;
                 }
                 case 6: {
-                    int0 = 103874566;
-                    int1 = 103874593;
+                    int0 = comp(1585, 6);
+                    int1 = comp(1585, 33);
                     break;
                 }
                 default: {
-                    int0 = 103874580;
-                    int1 = 103874582;
+                    int0 = comp(1585, 20);
+                    int1 = comp(1585, 22);
                     break;
                 }
             };
@@ -141,22 +141,22 @@ function script6566(): void {
         case 34: {
             switch (varbitplayer_42991) {
                 case 1: {
-                    int0 = 2293787;
+                    int0 = comp(35, 27);
                     int2 = enum_getvalue(0, 73, 1932 as cs2enum, varbitplayer_42981);
                     break;
                 }
                 case 2: {
-                    int0 = 2293772;
+                    int0 = comp(35, 12);
                     int2 = enum_getvalue(0, 73, 1932 as cs2enum, varbitplayer_42982);
                     break;
                 }
                 case 3: {
-                    int0 = 2293789;
+                    int0 = comp(35, 29);
                     int2 = enum_getvalue(0, 73, 1932 as cs2enum, varbitplayer_42983);
                     break;
                 }
                 case 4: {
-                    int0 = 2293770;
+                    int0 = comp(35, 10);
                     int2 = enum_getvalue(0, 73, 1932 as cs2enum, varbitplayer_42984);
                     break;
                 }
@@ -173,23 +173,23 @@ function script6566(): void {
         case 36: {
             switch (varbitplayer_43348) {
                 case 1: {
-                    int0 = 1245186;
-                    int1 = 1245187;
+                    int0 = comp(19, 2);
+                    int1 = comp(19, 3);
                     break;
                 }
                 case 2: {
-                    int0 = 1245191;
-                    int1 = 1245192;
+                    int0 = comp(19, 7);
+                    int1 = comp(19, 8);
                     break;
                 }
                 case 3: {
-                    int0 = 1245193;
-                    int1 = 1245194;
+                    int0 = comp(19, 9);
+                    int1 = comp(19, 10);
                     break;
                 }
                 default: {
-                    int0 = 1245191;
-                    int1 = 1245192;
+                    int0 = comp(19, 7);
+                    int1 = comp(19, 8);
                     break;
                 }
             };
@@ -198,7 +198,7 @@ function script6566(): void {
         case 54: {
             if ((varbitplayer_47441 == 1)) {
                 int3 = 33402 as seq;
-                int0 = 45613061;
+                int0 = comp(696, 5);
                 int4 = 60;
             } else {
                 int4 = 300;
@@ -223,22 +223,26 @@ function script6566(): void {
     IF_SETMODELANIM(22645 as seq, comp(1585, 10));
     IF_SETMODELANIM(22645 as seq, comp(1585, 6));
     IF_SETONTIMER(callback(), comp(1253, 31));
-    IF_SETONTIMER(callback(), 82116629);
-    IF_SETONTIMER(callback(), 82116634);
-    IF_SETONTIMER(callback(), 82116624);
-    IF_SETONTIMER(callback(), 82116619);
-    IF_SETONTIMER(callback(), 103874580);
-    IF_SETONTIMER(callback(), 103874589);
-    IF_SETONTIMER(callback(), 103874584);
-    IF_SETONTIMER(callback(), 103874574);
-    IF_SETONTIMER(callback(), 103874570);
-    IF_SETONTIMER(callback(), 103874566);
+    IF_SETONTIMER(callback(), comp(1253, 21));
+    IF_SETONTIMER(callback(), comp(1253, 26));
+    IF_SETONTIMER(callback(), comp(1253, 16));
+    IF_SETONTIMER(callback(), comp(1253, 11));
+    IF_SETONTIMER(callback(), comp(1585, 20));
+    IF_SETONTIMER(callback(), comp(1585, 29));
+    IF_SETONTIMER(callback(), comp(1585, 24));
+    IF_SETONTIMER(callback(), comp(1585, 14));
+    IF_SETONTIMER(callback(), comp(1585, 10));
+    IF_SETONTIMER(callback(), comp(1585, 6));
     IF_SETONMOUSEOVER(callback(), int1);
     IF_SETONMOUSELEAVE(callback(), int1);
     IF_SETMODELANIM(int3, int0);
     var int5 = script16161();
-    if (((int5 != -1) && (struct_getparam(int5, 8676) == true))) {
-        script16776(script16774(int5));
+    if ((int5 != -1)) {
+        if ((struct_getparam(int5, 8676) == true)) {
+            script16776(script16774(int5));
+        } else {
+            IF_SETONTIMER(callback(script5898, -2147483645, int4), comp(1253, 0));
+        };
     } else {
         IF_SETONTIMER(callback(script5898, -2147483645, int4), comp(1253, 0));
     };

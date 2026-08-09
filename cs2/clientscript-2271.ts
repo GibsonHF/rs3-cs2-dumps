@@ -5,9 +5,7 @@ function script2271(int0: number, int1: number, int2: number, int3: number, int4
     IF_SETONMOUSEREPEAT(callback(script2274, int0, int1, int4, string0, string1, int6, int7, int8, int9, int10, int11, int12, int13), int0);
     IF_SETONMOUSELEAVE(callback(script11, int1), int0);
     if ((IF_GETTARGETMASK(int0) != 0)) {
-        stack(17);
-        stack(int0);
-        stack("i");
+        stack(callback(script17, int0));
         stack(int0);
         IF_SETONTARGETENTER();
         IF_SETONTARGETLEAVE(callback(script18, int0), int0);

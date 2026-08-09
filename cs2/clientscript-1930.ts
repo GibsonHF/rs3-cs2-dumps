@@ -6,14 +6,26 @@ function script1930(int0: number, int1: number, int2: number, int3: number, int4
     var int8 = 0;
     var int9 = script1931(int2, int3);
     int6 = (int6 + 1);
-    CC_FIND(int0, int6++);
+    stack(int0);
+    stack(int6);
+    int6 = (int6 + 1);
+    CC_FIND();
     CC_SETTEXT(struct_getparam(int4, 7505));
-    CC_FIND(int0, int6++);
+    stack(int0);
+    stack(int6);
+    int6 = (int6 + 1);
+    CC_FIND();
     CC_SETTEXT(struct_getparam(int4, 7506));
-    CC_FIND(int0, int6++);
+    stack(int0);
+    stack(int6);
+    int6 = (int6 + 1);
+    CC_FIND();
     CC_SETGRAPHIC(struct_getparam(int4, 7508));
     if ((varbitplayer_42072 == 1)) {
-        CC_FIND(int0, int6++);
+        stack(int0);
+        stack(int6);
+        int6 = (int6 + 1);
+        CC_FIND();
         CC_SETTEXT(script4583(int9, `Includes ${inttostring(int9, 10)} unlock`, `Includes ${inttostring(int9, 10)} unlocks`));
         if ((int9 > 0)) {
             CC_SETHIDE(false);

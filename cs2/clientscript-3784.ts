@@ -19,7 +19,14 @@ function script3784(int0: number, int1: number, int2: number): void {
         int8 = MIN(MAX(int8, 0), (int4 - int5));
     };
     IF_SETONCLICK(callback(script3785, int1, int2, -2147483646, int0), int1);
-    if ((((int0 != -1) && (IF_FIND(int0) == 1)) || (CC_FIND(int1, 1) == 1))) {
+    if ((int0 != comp(-1, 65535))) {
+        if (((IF_FIND(int0) == 1) || (CC_FIND(int1, 1) == 1))) {
+            CC_SETDRAGGABLE(int1, -1);
+            CC_SETDRAGRENDERBEHAVIOUR(3);
+            CC_SETONDRAG(callback(script3787, int1, int2, -2147483646, 0, int0));
+            CC_SETONDRAGCOMPLETE(callback(script3787, int1, int2, -2147483646, 1, int0));
+        };
+    } else if ((CC_FIND(int1, 1) == 1)) {
         CC_SETDRAGGABLE(int1, -1);
         CC_SETDRAGRENDERBEHAVIOUR(3);
         CC_SETONDRAG(callback(script3787, int1, int2, -2147483646, 0, int0));

@@ -19,7 +19,7 @@ function script14001(int0: number, int1: number, int2: number, int3: number, int
     } else if ((int3 == 1)) {
         int7 = script9984(int1, 5);
         int10 = int7;
-    } else if ((((int11 == 1) && (int8 != -1 as struct)) && (int4 != -1))) {
+    } else if ((((int11 == 1) && (int8 != -1)) && (int4 != -1))) {
         int10 = int8;
     };
     if ((CC_FIND(int0, (int2 + 10)) == 1)) {
@@ -29,7 +29,7 @@ function script14001(int0: number, int1: number, int2: number, int3: number, int
             CC_SETONMOUSELEAVE(callback());
             CC_SETONCLICK(callback());
             CC_SETONRELEASE(callback());
-        } else if (((int7 != -1 as struct) && (int8 != -1 as struct))) {
+        } else if (((int7 != -1) && (int8 != -1))) {
             CC_SETONMOUSEOVER(callback(script10413, -2147483645, int8, int2, 1));
             CC_SETONMOUSELEAVE(callback(script10413, -2147483645, int7, int2, 0));
             if ((int9 != -1)) {
@@ -39,8 +39,16 @@ function script14001(int0: number, int1: number, int2: number, int3: number, int
         };
     };
     var int12 = struct_getparam(int1, 4398);
-    if (((int12 == -1 as struct) || ((struct_getparam(int12, 3808) == struct_getparam(int10, 3808)) && (struct_getparam(int12, 3807) == struct_getparam(int10, 3807))))) {
+    if ((int12 == -1 as struct)) {
         script10415(int0, int10, int2, int11);
+    } else if ((struct_getparam(int12, 3808) == struct_getparam(int10, 3808))) {
+        if ((struct_getparam(int12, 3807) == struct_getparam(int10, 3807))) {
+            script10415(int0, int10, int2, int11);
+        } else if ((int5 == 0)) {
+            script14418(int0, int10, int2, int11);
+        } else {
+            script14417(int0, int10, int2, int11);
+        };
     } else if ((int5 == 0)) {
         script14418(int0, int10, int2, int11);
     } else {

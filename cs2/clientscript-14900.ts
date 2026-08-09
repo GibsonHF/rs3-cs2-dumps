@@ -11,7 +11,7 @@ function script14900(int0: number): void {
     var int4 = 0;
     var string3 = "";
     var string4 = "";
-    if ((int3 != -1 as dbrow)) {
+    if ((int3 != -1)) {
         string1 = dbrow_getfield(int3, 368688, 0);
         if ((int0 > 0)) {
             switch (script14649(int0)) {

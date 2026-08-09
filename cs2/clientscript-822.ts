@@ -1,6 +1,6 @@
 //
 function script822(): void {
-    var int0 = struct_getparam(40949 as struct, 7411);
+    var int0 = struct_getparam(40949, 7411);
     var string0 = "";
     if ((int0 != -1 as struct)) {
         switch (MAP_LANG()) {

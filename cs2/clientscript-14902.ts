@@ -15,7 +15,8 @@ function script14902(): void {
     var int12 = 0;
     var int13 = -1;
     var int14 = -1;
-    while ((++int13 < int4)) {
+    int13 = (int13 + 1);
+    while ((int13 < int4)) {
         int5 = enum_getvalue(0, 26, 14095 as cs2enum, int13);
         int6 = ENUM_GETOUTPUTCOUNT(int5);
         switch (int5) {
@@ -56,13 +57,18 @@ function script14902(): void {
         int10 = int8;
         int11 = int9;
         int14 = -1;
-        while ((++int14 < int6)) {
+        int14 = (int14 + 1);
+        while ((int14 < int6)) {
             int7 = enum_getvalue(0, 74, int5, int14);
             if (((((int10 - int8) + 60) + 8) > IF_GETWIDTH(int2))) {
                 [int10, int11] = [int8, ((int11 + 90) + 2)];
             };
-            if (((int5 == varplayer_9288) && (int14 == varplayer_9289))) {
-                int12 = 1;
+            if ((int5 == varplayer_9288)) {
+                if ((int14 == varplayer_9289)) {
+                    int12 = 1;
+                } else {
+                    int12 = 0;
+                };
             } else {
                 int12 = 0;
             };

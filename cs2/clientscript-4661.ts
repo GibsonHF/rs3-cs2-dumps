@@ -32,6 +32,7 @@ function script4661(): [number, number] {
             return [2, 4];
         }
         case 10: {
+            break;
         }
         default: {
             return [0, 0];

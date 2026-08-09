@@ -6,11 +6,26 @@ function script12498(int0: number): void {
     var int3 = 0;
     var int4 = ENUM_GETOUTPUTCOUNT(int1);
     if ((int0 == 0)) {
-        int2 = script12499(enum_getvalue(0, 36, int1, int3++), int2, 0);
-        int2 = script12499(enum_getvalue(0, 36, int1, int3++), int2, 0);
+        stack(0);
+        stack(36);
+        stack(int1);
+        stack(int3);
+        int3 = (int3 + 1);
+        int2 = script12499(enum_getvalue(), int2, 0);
+        stack(0);
+        stack(36);
+        stack(int1);
+        stack(int3);
+        int3 = (int3 + 1);
+        int2 = script12499(enum_getvalue(), int2, 0);
     };
     while ((int3 < int4)) {
-        int2 = script12499(enum_getvalue(0, 36, int1, int3++), int2, 1);
+        stack(0);
+        stack(36);
+        stack(int1);
+        stack(int3);
+        int3 = (int3 + 1);
+        int2 = script12499(enum_getvalue(), int2, 1);
     };
     IF_SETSCROLLSIZE(IF_GETWIDTH(comp(1760, 57)), int2, comp(1760, 57));
     script7791(115343419, 115343417);

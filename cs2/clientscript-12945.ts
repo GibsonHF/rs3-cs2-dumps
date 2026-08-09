@@ -14,8 +14,7 @@ function script12945(int0: number): void {
         int3 = DB_GETFIELDCOUNT(int1, 53328);
         int2 = 0;
         while ((int2 < int3)) {
-            stack(dbrow_getfield(int1, 53328, int2));
-            [int6, string0] = stack();
+            [int6, string0] = dbrow_getfield(int1, 53328, int2);
             if ((int6 == 1)) {
                 [int5, int4] = script176(118620187, IF_GETNEXTSUBID(comp(1810, 27)), 5, int4, IF_GETWIDTH(comp(1810, 27)), 21341, 16, 16, string0, 29166);
             } else {
@@ -39,6 +38,6 @@ function script12945(int0: number): void {
     IF_SETHIDE(true, comp(1810, 72));
     IF_SETHIDE(true, comp(1810, 80));
     IF_SETHIDE(true, comp(1810, 88));
-    IF_SETHIDE(false, struct_getparam(enum_getvalue(0, 73, 11920 as cs2enum, int0), 4040));
+    IF_SETHIDE(false, struct_getparam(enum_getvalue(0, 73, 11920, int0), 4040));
     return;
 }

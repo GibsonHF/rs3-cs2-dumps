@@ -86,7 +86,7 @@ function script19366(int0: number, int1: number, int2: number, int3: number, int
             if ((int21 == 0)) {
                 return 0;
             };
-            if ((script19588(int1, int3) != -1 as obj)) {
+            if ((script19588(int1, int3) != -1)) {
                 return 0;
             };
             int7 = script19587(int0);
@@ -120,12 +120,16 @@ function script19366(int0: number, int1: number, int2: number, int3: number, int
         };
         int10 = MIN(int10, int18);
         var int2 = int17;
-    } else if ((script19588(int1, int3) != -1 as obj)) {
+    } else if ((script19588(int1, int3) != -1)) {
         return 0;
     };
     int7 = script19587(int0);
-    if (((OC_STACKABLE(int6) == 0) && (int12 == 0))) {
-        script19602(int0, int7, int6, 1, int1, int2, script734(int12), int4);
+    if ((OC_STACKABLE(int6) == 0)) {
+        if ((int12 == 0)) {
+            script19602(int0, int7, int6, 1, int1, int2, script734(int12), int4);
+        } else {
+            script19602(int0, int7, int6, int10, int1, int2, script734(int12), int4);
+        };
     } else {
         script19602(int0, int7, int6, int10, int1, int2, script734(int12), int4);
     };

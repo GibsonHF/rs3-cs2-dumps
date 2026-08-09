@@ -11,7 +11,7 @@ function script20304(): void {
     var int2 = dbrow_getfield(int1, 1372256, 1);
     var int3 = 0;
     var int4 = script20168(dbrow_getfield(int0, 1335616, 0));
-    var int5 = -1 as achievement;
+    var int5 = -1;
     var string0 = "";
     var int6 = 0;
     var int7 = 0;
@@ -19,11 +19,10 @@ function script20304(): void {
     var int9 = 0;
     var int10 = 0;
     unk11023(int4, 1368160, 1);
-    dbrow_findnext();
-    var int11 = stack();
+    var int11 = dbrow_findnext();
     var int12 = 0;
     var int13 = script20491(2100);
-    while ((int11 != -1 as dbrow)) {
+    while ((int11 != -1)) {
         int9 = dbrow_getfield(int11, 1368064, 0);
         int5 = dbrow_getfield(int11, 1368096, 0);
         int6 = dbrow_getfield(int11, 1368144, 0);
@@ -50,8 +49,7 @@ function script20304(): void {
                 cc_setparam[1](9334, int10);
             };
         };
-        dbrow_findnext();
-        int11 = stack();
+        int11 = dbrow_findnext();
     };
     script20309(89194517, 89194516, 89194518);
     varclient_8334 = IF_GETWIDTH(comp(1361, 7));

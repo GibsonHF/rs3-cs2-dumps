@@ -33,13 +33,13 @@ function script343(int0: number, int1: number, int2: number, int3: number, int4:
     script341(93192240, varbitclient_21370);
     IF_SETONRESIZE(callback(script10088, -2147483645), comp(1422, 48));
     script341(93192252, varbitclient_23021);
-    IF_SETONRESIZE(callback(script10089, -2147483645), 93192252);
+    IF_SETONRESIZE(callback(script10089, -2147483645), comp(1422, 60));
     script9639();
     script285(int1);
     script1839(varbitplayer_14108, int2, int3, int4);
     IF_SETONVARCTRANSMIT(callback(script342, int0, int1, int2, int3, int4, int5, int6, int7, int8, int9, int10, 622, 1), int0);
     IF_SETONVARTRANSMIT(callback(script1404, int1, int2, int3, int4, int6, int0, varbitplayer_14110, 2805, 2807, 2), int0);
-    varclient_3703 = -1;
+    varclient_3703 = -1 as coordgrid;
     script8841(31, 1);
     varclient_2545 = "";
     IF_SETOP(1, "Search", int5);

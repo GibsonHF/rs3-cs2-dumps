@@ -12,18 +12,44 @@ function script459(int0: number, int1: number, int2: number, int3: number, int4:
         string1 = `RuneScape ${string0}`;
         int5 = 28;
         [string1, int8, int9] = script6305(string1, int2);
-    } else if (((int2 >= 300) && (int2 < 600))) {
-        string0 = inttostring(int2, 10);
-        string1 = `Old School ${inttostring(int2, 10)}`;
-        int5 = 28;
+    } else if ((int2 >= 300)) {
+        if ((int2 < 600)) {
+            string0 = inttostring(int2, 10);
+            string1 = `Old School ${inttostring(int2, 10)}`;
+            int5 = 28;
+        } else if (((int2 < 1100) || (int2 > 6000))) {
+            string0 = `World ${inttostring(int2, 10)}`;
+            string1 = string0;
+            int5 = 0;
+        } else if ((int2 >= 1100)) {
+            if ((int2 <= 5000)) {
+                string0 = "Lobby";
+                string1 = "Lobby";
+                int5 = 0;
+            } else {
+                string0 = `Classic ${inttostring((int2 - 5000), 10)}`;
+                string1 = string0;
+                int5 = 0;
+            };
+        } else {
+            string0 = `Classic ${inttostring((int2 - 5000), 10)}`;
+            string1 = string0;
+            int5 = 0;
+        };
     } else if (((int2 < 1100) || (int2 > 6000))) {
         string0 = `World ${inttostring(int2, 10)}`;
         string1 = string0;
         int5 = 0;
-    } else if (((int2 >= 1100) && (int2 <= 5000))) {
-        string0 = "Lobby";
-        string1 = "Lobby";
-        int5 = 0;
+    } else if ((int2 >= 1100)) {
+        if ((int2 <= 5000)) {
+            string0 = "Lobby";
+            string1 = "Lobby";
+            int5 = 0;
+        } else {
+            string0 = `Classic ${inttostring((int2 - 5000), 10)}`;
+            string1 = string0;
+            int5 = 0;
+        };
     } else {
         string0 = `Classic ${inttostring((int2 - 5000), 10)}`;
         string1 = string0;
@@ -35,8 +61,22 @@ function script459(int0: number, int1: number, int2: number, int3: number, int4:
         CC_SETHIDE(true);
     } else {
         int7 = int5;
-        if (((int2 >= 300) && (int2 < 600))) {
-            CC_SETGRAPHIC(131 as graphic);
+        if ((int2 >= 300)) {
+            if ((int2 < 600)) {
+                CC_SETGRAPHIC(131 as graphic);
+            } else if ((int8 == -1)) {
+                if ((int9 >= 0)) {
+                    CC_SETGRAPHIC(enum_getvalue(0, 23, 1810 as cs2enum, int9));
+                } else {
+                    CC_SETGRAPHIC(23848 as graphic);
+                };
+            } else if ((TESTBIT(int8, 24) == 1)) {
+                CC_SETGRAPHIC(35198 as graphic);
+            } else if ((TESTBIT(int8, 16) == 1)) {
+                CC_SETGRAPHIC(23849 as graphic);
+            } else {
+                CC_SETGRAPHIC(enum_getvalue(0, 23, 1810 as cs2enum, int9));
+            };
         } else if ((int8 == -1)) {
             if ((int9 >= 0)) {
                 CC_SETGRAPHIC(enum_getvalue(0, 23, 1810 as cs2enum, int9));

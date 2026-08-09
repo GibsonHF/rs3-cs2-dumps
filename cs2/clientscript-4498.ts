@@ -16,7 +16,14 @@ function script4498(): number {
         varbitclient_40723 = 0;
         varbitclient_40724 = (varbitclient_40724 + 1);
     };
-    if ((((varbitclient_40723 > int4) && (int5 == varbitclient_40724)) || (varbitclient_40724 > int5))) {
+    if ((varbitclient_40723 > int4)) {
+        if (((int5 == varbitclient_40724) || (varbitclient_40724 > int5))) {
+            varbitclient_40723 = int4;
+            varbitclient_40724 = int5;
+            printmessage("You cannot go forward any further than this.");
+            int0 = 0;
+        };
+    } else if ((varbitclient_40724 > int5)) {
         varbitclient_40723 = int4;
         varbitclient_40724 = int5;
         printmessage("You cannot go forward any further than this.");

@@ -19,7 +19,7 @@ function script1612(int0: number, int1: number): void {
     IF_SETGRAPHICSHADOW(3153952, int0);
     IF_SETONOP(callback(script1620, -2147483645, -1, 100, 0, 8), int0);
     IF_CLEAROPS(int0);
-    if ((item_getparam(int2, 2091) == 1)) {
+    if ((item_getparam(int2, 2091) == true)) {
     } else {
         IF_SETOP(1, "Remove", int0);
     };

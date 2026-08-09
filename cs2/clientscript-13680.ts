@@ -3,7 +3,7 @@ function script13680(int0: number): void {
     var int1 = comp(1901, 14);
     CC_DELETEALL(int1);
     var int2 = enum_getvalue(0, 74, 13175 as cs2enum, varbitplayer_37614);
-    var int3 = -1 as dbrow;
+    var int3 = -1;
     var int4 = dbrow_getfield(int2, 90448, 0);
     var string0 = "null";
     var int5 = IF_GETNEXTSUBID(int1);
@@ -17,8 +17,8 @@ function script13680(int0: number): void {
     var int13 = 0;
     var int14 = 0;
     var int15 = 0;
-    var int16 = -1 as obj;
-    var int17 = -1 as dbrow;
+    var int16 = -1;
+    var int17 = -1;
     var int18 = -1;
     var int19 = IF_GETY(comp(1901, 14));
     var int20 = 1;
@@ -26,9 +26,8 @@ function script13680(int0: number): void {
         stack(90112);
         stack(cc_getparam(6813));
         DB_FIND(0);
-        dbrow_findnext();
-        int3 = stack();
-        if ((CC_FIND[1](124583937, 0) == 1)) {
+        int3 = dbrow_findnext();
+        if ((CC_FIND[1](comp(1901, 1), 0) == 1)) {
             CC_SETPOSITION[1](CC_GETX[1](), cc_getparam(6814), 0, 0);
             CC_SETHIDE[1](false);
             CC_SENDTOFRONT[1]();
@@ -62,9 +61,9 @@ function script13680(int0: number): void {
     IF_SETTEXT(string0, comp(1901, 56));
     if ((varbitplayer_37615 == 1)) {
         IF_SETTEXT("Power supplied", comp(1901, 55));
-        IF_SETONMOUSEREPEAT(callback(script13684, -2147483645, -2147483643, 1, dbrow_getfield(int3, 90448, 0), int4), 124583947);
+        IF_SETONMOUSEREPEAT(callback(script13684, -2147483645, -2147483643, 1, dbrow_getfield(int3, 90448, 0), int4), comp(1901, 11));
     } else {
-        IF_SETONMOUSEREPEAT(callback(script13684, -2147483645, -2147483643, 0, 0, int4), 124583947);
+        IF_SETONMOUSEREPEAT(callback(script13684, -2147483645, -2147483643, 0, 0, int4), comp(1901, 11));
     };
     if (((((varbitplayer_37612 - varbitplayer_37613) + int4) >= int9) || (varbitplayer_37615 == 1))) {
         IF_SETGRAPHIC(13165 as graphic, comp(1901, 57));
@@ -87,10 +86,10 @@ function script13680(int0: number): void {
         int20 = 0;
     };
     string0 = `<col=f5b241>Current Invention level:</col> ${inttostring(STAT(26 as stat), 10)}`;
-    IF_SETONMOUSEREPEAT(callback(script3876, string0, -2147483645, -1), 124583994);
+    IF_SETONMOUSEREPEAT(callback(script3876, string0, -2147483645, -1), comp(1901, 58));
     int9 = dbrow_getfield(int3, 90176, 0);
     string0 = dbrow_getfield(int3, 90128, 0);
-    IF_SETTEXT(string0, 124584007);
+    IF_SETTEXT(string0, comp(1901, 71));
     if ((script12059(int9) == 1)) {
         IF_SETGRAPHIC(13165 as graphic, comp(1901, 72));
     } else {
@@ -98,7 +97,7 @@ function script13680(int0: number): void {
         int20 = 0;
     };
     string0 = `<col=f5b241>Discover blueprint:</col> ${dbrow_getfield(int3, 90128, 0)}`;
-    IF_SETONMOUSEREPEAT(callback(script3876, string0, -2147483645, -1), 124584007);
+    IF_SETONMOUSEREPEAT(callback(script3876, string0, -2147483645, -1), comp(1901, 71));
     var int21 = dbrow_getfield(int3, 90192, 0);
     if ((int21 != -1)) {
         IF_SETTEXT(`Tier ${inttostring(dbrow_getfield(int21, 90208, 0), 10)}`, comp(1901, 78));
@@ -111,13 +110,13 @@ function script13680(int0: number): void {
             int20 = 0;
         };
         string0 = `<col=f5b241>Machine required:</col> ${dbrow_getfield(int21, 90128, 0)}`;
-        IF_SETONMOUSEREPEAT(callback(script3876, string0, -2147483645, -1), 124584013);
+        IF_SETONMOUSEREPEAT(callback(script3876, string0, -2147483645, -1), comp(1901, 77));
     } else {
         IF_SETTEXT("None", comp(1901, 78));
         IF_SETGRAPHIC(13165 as graphic, comp(1901, 79));
         IF_SETCOLOUR(65280, comp(1901, 78));
         string0 = "<col=f5b241>Machine required:</col> None";
-        IF_SETONMOUSEREPEAT(callback(script3876, string0, -2147483645, -1), 124584013);
+        IF_SETONMOUSEREPEAT(callback(script3876, string0, -2147483645, -1), comp(1901, 77));
     };
     int13 = DB_GETFIELDCOUNT(int3, 90224);
     int14 = DB_GETFIELDCOUNT(int3, 90240);
@@ -132,12 +131,12 @@ function script13680(int0: number): void {
         CC_SETSIZE((8 + int8), int10, 1, 0);
         CC_SETPOSITION((int8 + 4), int7, 0, 0);
         CC_SETGRAPHIC(13123 as graphic);
-        CC_SETONMOUSEREPEAT(callback(script8801, script13683(int16, 0), int1, int5, 1, 0, enum_getvalue(25, 0, 8549 as cs2enum, 26 as fontmetrics)));
+        CC_SETONMOUSEREPEAT(callback(script8801, script13683(int16, 0), int1, int5, 1, 0, enum_getvalue(25, 0, 8549, 26)));
         int5 = (int5 + 1);
         CC_CREATE(int1, 5, int5);
         CC_SETSIZE(4, int10, 0, 0);
         CC_SETPOSITION(int8, int7, 2, 0);
-        CC_SETGRAPHIC(13124);
+        CC_SETGRAPHIC(13124 as graphic);
         int5 = (int5 + 1);
         CC_CREATE(int1, 5, int5);
         CC_SETSIZE(int12, int12, 0, 0);
@@ -177,12 +176,12 @@ function script13680(int0: number): void {
         CC_SETSIZE((8 + int8), int10, 1, 0);
         CC_SETPOSITION((int8 + 4), int7, 0, 0);
         CC_SETGRAPHIC(13123 as graphic);
-        CC_SETONMOUSEREPEAT(callback(script8801, script13682(int18, 0, "null"), int1, int5, 1, 0, enum_getvalue(25, 0, 8549 as cs2enum, 26 as fontmetrics)));
+        CC_SETONMOUSEREPEAT(callback(script8801, script13682(int18, 0, "null"), int1, int5, 1, 0, enum_getvalue(25, 0, 8549, 26)));
         int5 = (int5 + 1);
         CC_CREATE(int1, 5, int5);
         CC_SETSIZE(4, int10, 0, 0);
         CC_SETPOSITION(int8, int7, 2, 0);
-        CC_SETGRAPHIC(13124);
+        CC_SETGRAPHIC(13124 as graphic);
         int5 = (int5 + 1);
         CC_CREATE(int1, 5, int5);
         CC_SETSIZE(int12, int12, 0, 0);
@@ -237,12 +236,12 @@ function script13680(int0: number): void {
         CC_CREATE(int1, 5, int5);
         CC_SETSIZE(4, int10, 0, 0);
         CC_SETPOSITION(int8, int7, 2, 0);
-        CC_SETGRAPHIC(13124);
+        CC_SETGRAPHIC(13124 as graphic);
         int5 = (int5 + 1);
         CC_CREATE(int1, 5, int5);
         CC_SETSIZE(int12, int12, 0, 0);
         CC_SETPOSITION((2 * int8), (int7 + ((int10 - int12) / 2)), 0, 0);
-        CC_SETGRAPHIC(24224);
+        CC_SETGRAPHIC(24224 as graphic);
         int5 = (int5 + 1);
         script13681(int1, int5, ((2 * int8) + int10), int7, "Machine charge", (2 * int8), int10, 11505726, 0, 1, 26);
         int5 = (int5 + 1);
@@ -269,7 +268,7 @@ function script13680(int0: number): void {
             CC_CREATE(int1, 5, int5);
             CC_SETSIZE(4, int10, 0, 0);
             CC_SETPOSITION(int8, int7, 2, 0);
-            CC_SETGRAPHIC(13124);
+            CC_SETGRAPHIC(13124 as graphic);
             int5 = (int5 + 1);
             CC_CREATE(int1, 5, int5);
             CC_SETSIZE(int12, int12, 0, 0);
@@ -285,7 +284,7 @@ function script13680(int0: number): void {
             int15 = (int15 - 1);
         };
     };
-    if ((int2 != -1 as dbrow)) {
+    if ((int2 != -1)) {
         if ((dbrow_getfield(int3, 90272, 0) == dbrow_getfield(int2, 90272, 0))) {
             if ((dbrow_getfield(int3, 90208, 0) < dbrow_getfield(int2, 90208, 0))) {
                 IF_SETTEXT("Downgrade", comp(1901, 54));
@@ -301,7 +300,7 @@ function script13680(int0: number): void {
     if ((int20 == 0)) {
         IF_SETHIDE(false, comp(1901, 52));
         string0 = "You do not have all of the requirements to build this machine.";
-        IF_SETONMOUSEREPEAT(callback(script3876, string0, -2147483645, -2147483643), 124583988);
+        IF_SETONMOUSEREPEAT(callback(script3876, string0, -2147483645, -2147483643), comp(1901, 52));
     } else {
         IF_SETHIDE(true, comp(1901, 52));
         IF_SETONMOUSEREPEAT(callback(), comp(1901, 52));

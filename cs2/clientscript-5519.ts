@@ -10,7 +10,7 @@ function script5519(): void {
         int1 = enum_getvalue(0, 73, int0, int2);
         IF_SETOBJECT_NONUM(struct_getparam(int1, 2213), 1, enum_getvalue(0, 9, 615 as cs2enum, int2));
         IF_SETTEXT(struct_getparam(int1, 2210), enum_getvalue(0, 9, 5361 as cs2enum, int2));
-        script8800(`Requires ${inttostring(struct_getparam(int1, 2212), 10)} Dungeoneering`, enum_getvalue(0, 9, 7952 as cs2enum, int2), -1);
+        script8800(`Requires ${inttostring(struct_getparam(int1, 2212), 10)} Dungeoneering`, enum_getvalue(0, 9, 7952, int2), -1);
         int2 = (int2 + 1);
     };
     if ((varbitplayer_41365 == 1)) {

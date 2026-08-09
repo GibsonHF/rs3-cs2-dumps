@@ -1,13 +1,13 @@
 //
 function script19167(int0: number): void {
-    var int1 = 84410400;
-    var int2 = 84410396;
-    var int3 = 84410392;
-    var int4 = 84410384;
-    var int5 = 84410378;
-    var int6 = 84410382;
-    var int7 = 84410415;
-    var int8 = 84410404;
+    var int1 = comp(1288, 32);
+    var int2 = comp(1288, 28);
+    var int3 = comp(1288, 24);
+    var int4 = comp(1288, 16);
+    var int5 = comp(1288, 10);
+    var int6 = comp(1288, 14);
+    var int7 = comp(1288, 47);
+    var int8 = comp(1288, 36);
     switch (int0) {
         case 32986: {
             IF_SETONVARTRANSMIT(callback(script19185, int0, 0, 10601, 1), int1);

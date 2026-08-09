@@ -1,7 +1,7 @@
 //
 function script19472(int0: number, int1: number): [number, number] {
     var int2 = 0;
-    var [int0, int2] = script19615(0, int0, int2, int1, "All Ironman mode rules apply to Group Ironman mode. Rules within the Group Ironman ruleset override any conflicting rules from the Ironman mode ruleset.");
+    [int0, int2] = script19615(0, int0, int2, int1, "All Ironman mode rules apply to Group Ironman mode. Rules within the Group Ironman ruleset override any conflicting rules from the Ironman mode ruleset.");
     [int0, int2] = script19613(0, int0, int2, int1, "Group Creation");
     [int0, int2] = script19617(0, int0, int2, int1, 0, "New groups must be founded by two or more players who have chosen Group Ironman mode whilst on Iron Enclave.");
     [int0, int2] = script19617(0, int0, int2, int1, 0, "A group may not have the same name as another group or a clan.");

@@ -74,12 +74,74 @@ function script8380(int0: number, int1: number, int2: number, int3: number, int4
                 }
             };
             int21 = MAX(int19, (0 - int19));
-            if (((int12 < (int15 + int21)) && (int12 > (int15 - int21)))) {
-                if ((((int13 > (int17 - int20)) && (int13 < (int18 + int20))) || (((int14 > (int17 - int20)) && (int14 < (int18 + int20))) || ((int17 > int13) && (int17 < int14))))) {
-                    int19 = (int12 - int15);
+            if ((int12 < (int15 + int21))) {
+                if ((int12 > (int15 - int21))) {
+                    if ((int13 > (int17 - int20))) {
+                        if ((int13 < (int18 + int20))) {
+                            int19 = (int12 - int15);
+                        } else if ((int14 > (int17 - int20))) {
+                            if ((int14 < (int18 + int20))) {
+                                int19 = (int12 - int15);
+                            } else if (((int17 > int13) && (int17 < int14))) {
+                                int19 = (int12 - int15);
+                            };
+                        } else if (((int17 > int13) && (int17 < int14))) {
+                            int19 = (int12 - int15);
+                        };
+                    } else if ((int14 > (int17 - int20))) {
+                        if ((int14 < (int18 + int20))) {
+                            int19 = (int12 - int15);
+                        } else if (((int17 > int13) && (int17 < int14))) {
+                            int19 = (int12 - int15);
+                        };
+                    } else if (((int17 > int13) && (int17 < int14))) {
+                        int19 = (int12 - int15);
+                    };
+                } else if (((int12 < (int16 + int21)) && (int12 > (int16 - int21)))) {
+                    if ((int13 > (int17 - int20))) {
+                        if ((int13 < (int18 + int20))) {
+                            int19 = (int12 - int16);
+                        } else if ((int14 > (int17 - int20))) {
+                            if ((int14 < (int18 + int20))) {
+                                int19 = (int12 - int16);
+                            } else if (((int17 > int13) && (int17 < int14))) {
+                                int19 = (int12 - int16);
+                            };
+                        } else if (((int17 > int13) && (int17 < int14))) {
+                            int19 = (int12 - int16);
+                        };
+                    } else if ((int14 > (int17 - int20))) {
+                        if ((int14 < (int18 + int20))) {
+                            int19 = (int12 - int16);
+                        } else if (((int17 > int13) && (int17 < int14))) {
+                            int19 = (int12 - int16);
+                        };
+                    } else if (((int17 > int13) && (int17 < int14))) {
+                        int19 = (int12 - int16);
+                    };
                 };
-            } else if ((((int12 < (int16 + int21)) && (int12 > (int16 - int21))) && (((int13 > (int17 - int20)) && (int13 < (int18 + int20))) || (((int14 > (int17 - int20)) && (int14 < (int18 + int20))) || ((int17 > int13) && (int17 < int14)))))) {
-                int19 = (int12 - int16);
+            } else if (((int12 < (int16 + int21)) && (int12 > (int16 - int21)))) {
+                if ((int13 > (int17 - int20))) {
+                    if ((int13 < (int18 + int20))) {
+                        int19 = (int12 - int16);
+                    } else if ((int14 > (int17 - int20))) {
+                        if ((int14 < (int18 + int20))) {
+                            int19 = (int12 - int16);
+                        } else if (((int17 > int13) && (int17 < int14))) {
+                            int19 = (int12 - int16);
+                        };
+                    } else if (((int17 > int13) && (int17 < int14))) {
+                        int19 = (int12 - int16);
+                    };
+                } else if ((int14 > (int17 - int20))) {
+                    if ((int14 < (int18 + int20))) {
+                        int19 = (int12 - int16);
+                    } else if (((int17 > int13) && (int17 < int14))) {
+                        int19 = (int12 - int16);
+                    };
+                } else if (((int17 > int13) && (int17 < int14))) {
+                    int19 = (int12 - int16);
+                };
             };
         };
         int23 = (int23 + 1);

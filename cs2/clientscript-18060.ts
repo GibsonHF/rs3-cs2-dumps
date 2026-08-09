@@ -4,7 +4,8 @@ function script18060(): number {
     var int1 = 0;
     var int2 = -1;
     var int3 = 0;
-    while ((++int1 <= int0)) {
+    int1 = (int1 + 1);
+    while ((int1 <= int0)) {
         if ((CC_FINDBYCATEGORY(comp(1226, 34), (int1 + 40), 0) == 1)) {
             CC_SETPOSITION(0, int3, 0, 0);
             if ((cc_getparam(8193) == 1)) {

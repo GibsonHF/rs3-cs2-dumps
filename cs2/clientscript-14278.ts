@@ -12,10 +12,10 @@ function script14278(int0: number): void {
     var int5 = 9;
     var int6 = 0;
     var int7 = 0;
-    var int8 = -1 as struct;
+    var int8 = -1;
     var int9 = 0;
     var int10 = -1;
-    var int11 = -1 as obj;
+    var int11 = -1;
     var string0 = "";
     var string1 = "";
     while ((int2 < int3)) {
@@ -51,8 +51,12 @@ function script14278(int0: number): void {
                     };
                 };
             };
-            if (((int11 != -1 as obj) && (struct_getparam(int8, 7277) != 4))) {
-                CC_SETONMOUSEREPEAT(callback(script14193, string1, int11, -2147483645, -2147483643));
+            if ((int11 != -1)) {
+                if ((struct_getparam(int8, 7277) != 4)) {
+                    CC_SETONMOUSEREPEAT(callback(script14193, string1, int11, -2147483645, -2147483643));
+                } else {
+                    CC_SETONMOUSEREPEAT(callback(script8799, string1, -2147483645, -2147483643));
+                };
             } else {
                 CC_SETONMOUSEREPEAT(callback(script8799, string1, -2147483645, -2147483643));
             };
@@ -64,7 +68,8 @@ function script14278(int0: number): void {
         script6200(66256906, 175, 13, (int5 + 40), (int4 + 4), 26, struct_getparam(int8, 4849), 0);
         script6201(66256906, 175, 24, (int5 + 40), (int4 + 17), 27, string0);
         int2 = (int2 + 1);
-        if ((++int5 > 300)) {
+        int5 = (int5 + 229);
+        if ((int5 > 300)) {
             int5 = 9;
             int4 = (int4 + 44);
         };

@@ -1,13 +1,12 @@
 //
 function script14628(int0: number): number {
-    if ((int0 == -1 as dbrow)) {
+    if ((int0 == -1)) {
         return 0;
     };
     var int1 = script14629(int0);
     var int2 = script14630(int0);
     switch (int0) {
         default: {
-            break;
         }
     };
     if ((int1 == 0)) {

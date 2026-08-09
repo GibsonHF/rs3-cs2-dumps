@@ -15,7 +15,7 @@ function script15066(): void {
         varbitclient_46362 = int0;
     };
     BATTERY_GETLEVELPERCENT();
-    var int1 = stack();
+    var int1 = [];
     if ((BATTERY_ISCHARGING() == 1)) {
         IF_SETGRAPHIC(11328 as graphic, comp(280, 7));
     } else if ((int1 >= 80)) {

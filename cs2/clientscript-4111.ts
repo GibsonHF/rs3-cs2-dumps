@@ -5,7 +5,8 @@ function script4111(int0: number): void {
     if ((enum_getvalue(0, 0, 11271 as cs2enum, int2) != -1)) {
         SOUND_VORBIS_VOLUME(script5925(11278), 1, 0, 140);
     };
-    if ((--int1 < 0)) {
+    int1 = (int1 - 16384);
+    if ((int1 < 0)) {
         int1 = 49152;
     };
     IF_SET2DANGLE(int1, int0);

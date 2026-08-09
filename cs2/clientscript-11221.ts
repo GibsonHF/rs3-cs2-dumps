@@ -18,5 +18,6 @@ function script11221(int0: number, int1: number, int2: number): number {
         CC_SETTEXT("");
         CC_SETHIDE(true);
     };
-    return ++int1;
+    var int1 = (int1 + 1);
+    return int1;
 }

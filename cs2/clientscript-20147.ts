@@ -1,7 +1,7 @@
 //
 function script20147(): void {
     var int0 = script20117(varplayer_12314);
-    if ((int0 == -1 as dbrow)) {
+    if ((int0 == -1)) {
         script12478(`Attempted lookup without an active league: ${inttostring(varplayer_12314, 10)}`);
         return;
     };
@@ -9,7 +9,7 @@ function script20147(): void {
     var int2 = WORLDMAP_GETDISPLAYCOORD(int1);
     script1854(dbrow_getfield(int0, 1335456, 0), int2);
     var int3 = dbrow_getfield(int0, 1335424, 0);
-    var int4 = -1 as dbrow;
+    var int4 = -1;
     var int5 = 0;
     var int6 = DB_GETFIELDCOUNT(int3, 1339392);
     var int7 = 0;

@@ -106,16 +106,16 @@ function script19855(): void {
         IF_SETTEXT("-", comp(1329, 40));
         IF_SETGRAPHIC(34762 as graphic, comp(1329, 43));
     };
-    if ((int5 != -1 as achievement)) {
-        IF_SETTEXT(`${IF_GETTEXT(comp(1329, 40))}<br><col=969696>(Previously ${enum_getvalue(131, 36, 7208 as cs2enum, int5)})</col>`, comp(1329, 40));
+    if ((int5 != -1)) {
+        IF_SETTEXT(`${IF_GETTEXT(comp(1329, 40))}<br><col=969696>(Previously ${enum_getvalue(131, 36, 7208, int5)})</col>`, comp(1329, 40));
     };
     var int6 = script19852(int4);
-    var int7 = script19852(3625 as achievement);
-    var int8 = script19852(3626 as achievement);
-    var int9 = script19852(3627 as achievement);
-    var int10 = script19852(3628 as achievement);
-    var int11 = script19852(3629 as achievement);
-    var int12 = script19852(3630 as achievement);
+    var int7 = script19852(3625);
+    var int8 = script19852(3626);
+    var int9 = script19852(3627);
+    var int10 = script19852(3628);
+    var int11 = script19852(3629);
+    var int12 = script19852(3630);
     var string0 = "";
     if ((int6 > 0)) {
         IF_SETTEXT(`Achieved by ${TOSTRING_LOCALISED(int6, 1)} ${script4583(int6, "player", "players")}`, comp(1329, 44));
@@ -129,7 +129,7 @@ function script19855(): void {
     } else {
         IF_SETTEXT("", comp(1329, 44));
         IF_SETONCLICK(callback(), comp(1329, 44));
-        IF_SETONMOUSEREPEAT(callback(), 87097388);
+        IF_SETONMOUSEREPEAT(callback(), comp(1329, 44));
     };
     var int13 = 0;
     var int14 = 0;

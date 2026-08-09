@@ -32,11 +32,15 @@ function script16543(int0: number): void {
         };
         int5 = (int5 + 1);
     };
-    if (((int4 < IF_GETHEIGHT(int1)) && (int8 > 0))) {
-        if ((CC_FINDBYCATEGORY(int1, (int8 - 1), 0) == 1)) {
-            IF_SETSIZE(CC_GETWIDTH(), (IF_GETHEIGHT(int1) - (CC_GETY() + CC_GETHEIGHT())), 0, 0, int3);
-            IF_SETPOSITION(CC_GETX(), (CC_GETY() + CC_GETHEIGHT()), 0, 0, int3);
-            IF_SETHIDE(false, int3);
+    if ((int4 < IF_GETHEIGHT(int1))) {
+        if ((int8 > 0)) {
+            if ((CC_FINDBYCATEGORY(int1, (int8 - 1), 0) == 1)) {
+                IF_SETSIZE(CC_GETWIDTH(), (IF_GETHEIGHT(int1) - (CC_GETY() + CC_GETHEIGHT())), 0, 0, int3);
+                IF_SETPOSITION(CC_GETX(), (CC_GETY() + CC_GETHEIGHT()), 0, 0, int3);
+                IF_SETHIDE(false, int3);
+            };
+        } else {
+            IF_SETHIDE(true, int3);
         };
     } else {
         IF_SETHIDE(true, int3);

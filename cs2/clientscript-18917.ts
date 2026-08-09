@@ -14,12 +14,28 @@ function script18917(int0: number, int1: number, int2: number): number {
         int3 = script18916(int9, int0);
         int4 = script18920(int3, -1);
         int5 = script18920(int3, 22);
-        if (((int4 == 0) && ((int5 == 100) || (int5 == MAP_LANG())))) {
-            int6 = script18920(int3, 0);
-            int7 = script18920(int3, 1);
-            if ((((int6 < varclient_7418) && (int7 < varclient_7418)) || ((int6 > int2) && (int7 > int2)))) {
-            } else {
-                int8 = (int8 + 1);
+        if ((int4 == 0)) {
+            if (((int5 == 100) || (int5 == MAP_LANG()))) {
+                int6 = script18920(int3, 0);
+                int7 = script18920(int3, 1);
+                if ((int6 < varclient_7418)) {
+                    if ((int7 < varclient_7418)) {
+                    } else if ((int6 > int2)) {
+                        if ((int7 > int2)) {
+                        } else {
+                            int8 = (int8 + 1);
+                        };
+                    } else {
+                        int8 = (int8 + 1);
+                    };
+                } else if ((int6 > int2)) {
+                    if ((int7 > int2)) {
+                    } else {
+                        int8 = (int8 + 1);
+                    };
+                } else {
+                    int8 = (int8 + 1);
+                };
             };
         };
         int9 = (int9 + 1);

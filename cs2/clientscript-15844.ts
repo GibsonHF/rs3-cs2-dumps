@@ -11,15 +11,15 @@ function script15844(int0: number): void {
         IF_SETHIDE(false, comp(137, 85));
         IF_SETHIDE(true, comp(137, 74));
         IF_SETONOP(callback(script8513, 18), comp(137, 67));
-        IF_SETOP(1, "Enter Message", 8978499);
-        IF_CLEAROPS(8978514);
-        IF_SETONOP(callback(), 8978514);
-        IF_SETNOCLICKTHROUGH(0, 8978508);
-        IF_SETNOCLICKTHROUGH(1, 8978499);
+        IF_SETOP(1, "Enter Message", comp(137, 67));
+        IF_CLEAROPS(comp(137, 82));
+        IF_SETONOP(callback(), comp(137, 82));
+        IF_SETNOCLICKTHROUGH(0, comp(137, 76));
+        IF_SETNOCLICKTHROUGH(1, comp(137, 67));
         script15881();
-        IF_SETONTIMER(callback(script2704), 8978433);
-        IF_SETTRANS(255, 8978434);
-        IF_SETPARAM_INT(6839, varclient_2835, 8978487);
+        IF_SETONTIMER(callback(script2704), comp(137, 1));
+        IF_SETTRANS(255, comp(137, 2));
+        IF_SETPARAM_INT(6839, varclient_2835, comp(137, 55));
         if ((int0 == 1)) {
             script9292();
         };

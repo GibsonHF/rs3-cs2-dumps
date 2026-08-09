@@ -5,7 +5,7 @@ function script20887(): void {
         IF_SETENABLED(false, comp(651, 1));
         IF_SETENABLED(false, comp(651, 0));
         IF_SETONVARTRANSMIT(callback(), comp(651, 1));
-        IF_SETONVARTRANSMIT(callback(), 42663936);
+        IF_SETONVARTRANSMIT(callback(), comp(651, 0));
         stack(script10495(25));
         stack(0);
         stack(42663936);

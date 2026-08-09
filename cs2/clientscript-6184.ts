@@ -31,29 +31,29 @@ function script6184(): void {
     var string3 = inttostring(varclient_2609, 10);
     IF_SETTEXT(string3, comp(916, 333));
     var string4 = "";
-    string4 = struct_getparam(enum_getvalue(0, 73, 1010 as cs2enum, script1161(varplayer_3390, 1)), 6865);
+    string4 = struct_getparam(enum_getvalue(0, 73, 1010, script1161(varplayer_3390, 1)), 6865);
     if ((strcmp(string4, "") == 0)) {
-        string4 = struct_getparam(enum_getvalue(0, 73, 1010 as cs2enum, script1161(varplayer_3390, 1)), 662);
+        string4 = struct_getparam(enum_getvalue(0, 73, 1010, script1161(varplayer_3390, 1)), 662);
     };
     IF_SETTEXT(string4, comp(916, 105));
-    string4 = struct_getparam(enum_getvalue(0, 73, 1011 as cs2enum, script1161(varplayer_3390, 2)), 6865);
+    string4 = struct_getparam(enum_getvalue(0, 73, 1011, script1161(varplayer_3390, 2)), 6865);
     if ((strcmp(string4, "") == 0)) {
-        string4 = struct_getparam(enum_getvalue(0, 73, 1011 as cs2enum, script1161(varplayer_3390, 2)), 662);
+        string4 = struct_getparam(enum_getvalue(0, 73, 1011, script1161(varplayer_3390, 2)), 662);
     };
     IF_SETTEXT(string4, comp(916, 96));
-    string4 = struct_getparam(enum_getvalue(0, 73, 1011 as cs2enum, script1161(varplayer_3390, 3)), 6865);
+    string4 = struct_getparam(enum_getvalue(0, 73, 1011, script1161(varplayer_3390, 3)), 6865);
     if ((strcmp(string4, "") == 0)) {
-        string4 = struct_getparam(enum_getvalue(0, 73, 1011 as cs2enum, script1161(varplayer_3390, 3)), 662);
+        string4 = struct_getparam(enum_getvalue(0, 73, 1011, script1161(varplayer_3390, 3)), 662);
     };
     IF_SETTEXT(string4, comp(916, 99));
-    string4 = struct_getparam(enum_getvalue(0, 73, 1012 as cs2enum, script1161(varplayer_3390, 4)), 6865);
+    string4 = struct_getparam(enum_getvalue(0, 73, 1012, script1161(varplayer_3390, 4)), 6865);
     if ((strcmp(string4, "") == 0)) {
-        string4 = struct_getparam(enum_getvalue(0, 73, 1012 as cs2enum, script1161(varplayer_3390, 4)), 662);
+        string4 = struct_getparam(enum_getvalue(0, 73, 1012, script1161(varplayer_3390, 4)), 662);
     };
     IF_SETTEXT(string4, comp(916, 102));
-    string4 = struct_getparam(enum_getvalue(0, 73, 1013 as cs2enum, script1161(varplayer_3390, 5)), 6865);
+    string4 = struct_getparam(enum_getvalue(0, 73, 1013, script1161(varplayer_3390, 5)), 6865);
     if ((strcmp(string4, "") == 0)) {
-        string4 = struct_getparam(enum_getvalue(0, 73, 1013 as cs2enum, script1161(varplayer_3390, 5)), 662);
+        string4 = struct_getparam(enum_getvalue(0, 73, 1013, script1161(varplayer_3390, 5)), 662);
     };
     IF_SETTEXT(string4, comp(916, 93));
     script7252(varplayer_3390);
@@ -69,7 +69,7 @@ function script6184(): void {
     IF_SETHIDE(false, comp(916, 212));
     IF_SETHIDE(false, comp(916, 213));
     IF_SETHIDE(false, comp(916, 214));
-    var int0 = -1 as struct;
+    var int0 = -1;
     var int1 = script2047();
     switch (varplayer_3390) {
         case 1: {
@@ -97,22 +97,36 @@ function script6184(): void {
             break;
         }
     };
-    int0 = enum_getvalue(0, 73, 1022 as cs2enum, int1);
-    if ((int0 == -1 as struct)) {
+    int0 = enum_getvalue(0, 73, 1022, int1);
+    if ((int0 == -1)) {
         return;
     };
-    if (((varbitplayer_17130 > 0) && (int0 != 17069 as struct))) {
-        IF_SETHIDE(false, comp(916, 40));
-        IF_SETHIDE(false, comp(916, 33));
-        IF_SETHIDE(true, comp(916, 86));
-        script7254(int0);
+    if ((varbitplayer_17130 > 0)) {
+        if ((int0 != 17069)) {
+            IF_SETHIDE(false, comp(916, 40));
+            IF_SETHIDE(false, comp(916, 33));
+            IF_SETHIDE(true, comp(916, 86));
+            script7254(int0);
+        } else {
+            IF_SETHIDE(true, comp(916, 40));
+            IF_SETHIDE(false, comp(916, 33));
+            IF_SETHIDE(false, comp(916, 86));
+        };
     } else {
         IF_SETHIDE(true, comp(916, 40));
         IF_SETHIDE(false, comp(916, 33));
         IF_SETHIDE(false, comp(916, 86));
     };
-    if (((varbitplayer_17495 >= 24) && (varbitplayer_17495 < 26))) {
-        varclient_2611 = 1;
+    if ((varbitplayer_17495 >= 24)) {
+        if ((varbitplayer_17495 < 26)) {
+            varclient_2611 = 1;
+        } else if ((varbitplayer_17495 == 26)) {
+            varclient_2611 = 2;
+        } else if ((varbitplayer_17495 == 50)) {
+            varclient_2611 = 1;
+        } else if ((varbitplayer_17495 == 52)) {
+            varclient_2611 = 2;
+        };
     } else if ((varbitplayer_17495 == 26)) {
         varclient_2611 = 2;
     } else if ((varbitplayer_17495 == 50)) {
@@ -133,7 +147,7 @@ function script6184(): void {
     var string6 = "";
     var string7 = "";
     var int5 = 0;
-    var int6 = -1 as obj;
+    var int6 = -1;
     var int7 = -1;
     if ((varclient_2611 > 0)) {
         IF_SETHIDE(true, comp(916, 107));
@@ -155,76 +169,84 @@ function script6184(): void {
                 break;
             }
         };
-        if (((varbitplayer_17495 >= 24) && (varbitplayer_17495 <= 28))) {
-            int1 = 415;
+        if ((varbitplayer_17495 >= 24)) {
+            if ((varbitplayer_17495 <= 28)) {
+                int1 = 415;
+            } else if (((varbitplayer_17495 >= 50) && (varbitplayer_17495 <= 54))) {
+                int1 = 417;
+            };
         } else if (((varbitplayer_17495 >= 50) && (varbitplayer_17495 <= 54))) {
             int1 = 417;
         };
-        int0 = enum_getvalue(0, 73, 1022 as cs2enum, int1);
-        if (((int0 != -1 as struct) && (int0 != 17069 as struct))) {
+        int0 = enum_getvalue(0, 73, 1022, int1);
+        if (((int0 != -1) && (int0 != 17069))) {
             int7 = struct_getparam(int0, 2366);
             string5 = script2057(int0, 0);
             IF_SETTEXT(string5, comp(916, 215));
-            if (((int7 == 13) && (((int0 == 17071 as struct) || (int0 == 17070 as struct)) || (int0 == 17072 as struct)))) {
-                IF_SETHIDE(false, comp(916, 242));
-                if ((script17401() < (varplayer_3417 * 20000))) {
-                    script13994(60031219, -1, 28556, `Finish repairs for ${inttostring((varplayer_3417 * 20), 10)}k`, 1);
+            if ((int7 == 13)) {
+                if ((((int0 == 17071) || (int0 == 17070)) || (int0 == 17072))) {
+                    IF_SETHIDE(false, comp(916, 242));
+                    if ((script17401() < (varplayer_3417 * 20000))) {
+                        script13994(60031219, -1, 28556, `Finish repairs for ${inttostring((varplayer_3417 * 20), 10)}k`, 1);
+                    } else {
+                        script13993(60031219, -1, 28556, `Finish repairs for ${inttostring((varplayer_3417 * 20), 10)}k`);
+                    };
                 } else {
-                    script13993(60031219, -1, 28556, `Finish repairs for ${inttostring((varplayer_3417 * 20), 10)}k`);
+                    IF_SETHIDE(true, comp(916, 242));
                 };
             } else {
                 IF_SETHIDE(true, comp(916, 242));
             };
             if ((struct_getparam(int0, 3060) == 20)) {
-                IF_SETGRAPHIC(enum_getvalue(0, 23, 7213 as cs2enum, varbitplayer_17497), comp(916, 265));
+                IF_SETGRAPHIC(enum_getvalue(0, 23, 7213, varbitplayer_17497), comp(916, 265));
             } else {
-                IF_SETGRAPHIC(enum_getvalue(0, 23, 1024 as cs2enum, struct_getparam(int0, 3060)), comp(916, 265));
+                IF_SETGRAPHIC(enum_getvalue(0, 23, 1024, struct_getparam(int0, 3060)), comp(916, 265));
             };
             if ((struct_getparam(int0, 3062) == 20)) {
-                IF_SETGRAPHIC(enum_getvalue(0, 23, 7213 as cs2enum, varbitplayer_17497), comp(916, 270));
+                IF_SETGRAPHIC(enum_getvalue(0, 23, 7213, varbitplayer_17497), comp(916, 270));
             } else {
-                IF_SETGRAPHIC(enum_getvalue(0, 23, 1024 as cs2enum, struct_getparam(int0, 3062)), comp(916, 270));
+                IF_SETGRAPHIC(enum_getvalue(0, 23, 1024, struct_getparam(int0, 3062)), comp(916, 270));
             };
             if ((struct_getparam(int0, 3064) == 20)) {
-                IF_SETGRAPHIC(enum_getvalue(0, 23, 7213 as cs2enum, varbitplayer_17497), comp(916, 275));
+                IF_SETGRAPHIC(enum_getvalue(0, 23, 7213, varbitplayer_17497), comp(916, 275));
             } else {
-                IF_SETGRAPHIC(enum_getvalue(0, 23, 1024 as cs2enum, struct_getparam(int0, 3064)), comp(916, 275));
+                IF_SETGRAPHIC(enum_getvalue(0, 23, 1024, struct_getparam(int0, 3064)), comp(916, 275));
             };
             int5 = struct_getparam(int0, 3061);
             string6 = inttostring(int5, 10);
             if ((int7 == 2)) {
-                string6 = enum_getvalue(0, 36, 7164 as cs2enum, int5);
+                string6 = enum_getvalue(0, 36, 7164, int5);
                 switch (int5) {
                     case 0: {
-                        int6 = 26209 as obj;
+                        int6 = 26209;
                         break;
                     }
                     case 2: {
-                        int6 = 26217 as obj;
+                        int6 = 26217;
                         break;
                     }
                     case 3: {
-                        int6 = 26225 as obj;
+                        int6 = 26225;
                         break;
                     }
                     case 4: {
-                        int6 = 26233 as obj;
+                        int6 = 26233;
                         break;
                     }
                     case 5: {
-                        int6 = 26241 as obj;
+                        int6 = 26241;
                         break;
                     }
                     case 6: {
-                        int6 = 26245 as obj;
+                        int6 = 26245;
                         break;
                     }
                     case 13: {
-                        int6 = 30555 as obj;
+                        int6 = 30555;
                         break;
                     }
                     case 14: {
-                        int6 = 30561 as obj;
+                        int6 = 30561;
                         break;
                     }
                 };
@@ -292,11 +314,11 @@ function script6184(): void {
             };
             if ((((strcmp(string6, "") != 0) && (strcmp(string6, "0") != 0)) && (strcmp(string6, "-1") != 0))) {
                 IF_SETTEXT(string6, comp(916, 266));
-                string7 = enum_getvalue(0, 36, 1025 as cs2enum, int2);
+                string7 = enum_getvalue(0, 36, 1025, int2);
                 if ((int7 == 2)) {
-                    string7 = `Unlock island: ${enum_getvalue(0, 36, 7164 as cs2enum, int5)}`;
+                    string7 = `Unlock island: ${enum_getvalue(0, 36, 7164, int5)}`;
                 } else if ((int7 == 7)) {
-                    string7 = `Captain gains a trait: ${struct_getparam(enum_getvalue(0, 73, 2175 as cs2enum, int5), 3090)}`;
+                    string7 = `Captain gains a trait: ${struct_getparam(enum_getvalue(0, 73, 2175, int5), 3090)}`;
                 } else if ((int7 == 4)) {
                     switch (int5) {
                         case 1: {
@@ -386,27 +408,27 @@ function script6184(): void {
                     };
                     string7 = `Experience in ${string7}`;
                 };
-                IF_SETONMOUSEREPEAT(callback(script8799, string7, -2147483645, -1), 60031241);
+                IF_SETONMOUSEREPEAT(callback(script8799, string7, -2147483645, -1), comp(916, 265));
             };
             int5 = struct_getparam(int0, 3063);
             string6 = inttostring(int5, 10);
-            if (((int7 == 2) && (int6 != -1 as obj))) {
+            if (((int7 == 2) && (int6 != -1))) {
                 IF_SETGRAPHIC(item_getparam(int6, 3080), comp(916, 270));
                 string7 = `Unlock crewman: ${OC_NAME(int6)}`;
-                IF_SETONMOUSEREPEAT(callback(script8799, string7, -2147483645, -1), 60031246);
+                IF_SETONMOUSEREPEAT(callback(script8799, string7, -2147483645, -1), comp(916, 270));
                 string6 = "";
             };
             if ((((strcmp(string6, "") != 0) && (strcmp(string6, "0") != 0)) && (strcmp(string6, "-1") != 0))) {
                 IF_SETTEXT(string6, comp(916, 271));
-                string7 = enum_getvalue(0, 36, 1025 as cs2enum, int3);
-                IF_SETONMOUSEREPEAT(callback(script8799, string7, -2147483645, -1), 60031246);
+                string7 = enum_getvalue(0, 36, 1025, int3);
+                IF_SETONMOUSEREPEAT(callback(script8799, string7, -2147483645, -1), comp(916, 270));
             };
             int5 = struct_getparam(int0, 3065);
             string6 = inttostring(int5, 10);
             if ((((strcmp(string6, "") != 0) && (strcmp(string6, "0") != 0)) && (strcmp(string6, "-1") != 0))) {
                 IF_SETTEXT(string6, comp(916, 276));
-                string7 = enum_getvalue(0, 36, 1025 as cs2enum, int4);
-                IF_SETONMOUSEREPEAT(callback(script8799, string7, -2147483645, -1), 60031251);
+                string7 = enum_getvalue(0, 36, 1025, int4);
+                IF_SETONMOUSEREPEAT(callback(script8799, string7, -2147483645, -1), comp(916, 275));
             };
         };
     };

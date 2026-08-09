@@ -96,10 +96,32 @@ function script3379(int0: number, int1: number, int2: number): void {
                     int12 = (int12 + 1);
                 };
             };
-            if (((int8 != -1) && (int10 >= ((int17 * int18) / 3)))) {
-                script8356(int8, int0, 1000, int1, 1);
-                if ((int1 == 0)) {
-                    script8390(int8);
+            if ((int8 != -1)) {
+                if ((int10 >= ((int17 * int18) / 3))) {
+                    script8356(int8, int0, 1000, int1, 1);
+                    if ((int1 == 0)) {
+                        script8390(int8);
+                    };
+                } else {
+                    [int13, int14, int17, int18, int19] = script8382(int13, int14, int17, int18, int0, 0, 1);
+                    if ((int19 == 1)) {
+                        script8387(int13, int14, int17, int18, int0);
+                        script173(int0);
+                    } else if ((script12612(int3) == 0)) {
+                        [int13, int14, int15, int16, int17, int18] = script8725(1, int0);
+                        if ((varclient_4108 == 8)) {
+                            int13 = script8711(int13, int15, int17, IF_GETWIDTH(comp(1477, 27)));
+                            int14 = script8711(int14, int16, int18, IF_GETHEIGHT(comp(1477, 27)));
+                        };
+                        [int13, int14, int17, int18, int19] = script8382(int13, int14, int17, int18, int0, 0, 1);
+                        script8387(int13, int14, int17, int18, int0);
+                        script173(int0);
+                    } else if ((int8 != -1)) {
+                        script8356(int8, int0, 1000, 0, 1);
+                        script8390(int8);
+                    } else {
+                        script8786(int0, 1);
+                    };
                 };
             } else {
                 [int13, int14, int17, int18, int19] = script8382(int13, int14, int17, int18, int0, 0, 1);
@@ -125,27 +147,43 @@ function script3379(int0: number, int1: number, int2: number): void {
         } else {
             if (((((struct_getparam(int3, 3534) != -1) || (int0 == 9)) || (int0 == 12)) || (int0 == 17))) {
                 int22 = script20117(-1);
-                if (((struct_getparam(int3, 9398) == true) && (int22 == -1))) {
-                    if ((varbitclient_60445 == 1)) {
-                        if ((varbitclient_60444 == varbitclient_22877)) {
-                            varbitclient_22877 = 0;
-                        };
-                        if (((varbitclient_60444 != 0) && (varbitclient_60444 != (int0 + 1)))) {
-                            script8323((varbitclient_60444 - 1), 1);
-                        };
-                        varbitclient_60444 = (int0 + 1);
-                        [int13, int14] = script9950();
-                        IF_SETPOSITION(int13, int14, 2, 2, struct_getparam(int3, 3503));
-                        if ((varbitclient_22877 != 0)) {
-                            script10535((varbitclient_22877 - 1));
+                if ((struct_getparam(int3, 9398) == true)) {
+                    if ((int22 == -1)) {
+                        if ((varbitclient_60445 == 1)) {
+                            if ((varbitclient_60444 == varbitclient_22877)) {
+                                varbitclient_22877 = 0;
+                            };
+                            if (((varbitclient_60444 != 0) && (varbitclient_60444 != (int0 + 1)))) {
+                                script8323((varbitclient_60444 - 1), 1);
+                            };
+                            varbitclient_60444 = (int0 + 1);
+                            [int13, int14] = script9950();
+                            IF_SETPOSITION(int13, int14, 2, 2, struct_getparam(int3, 3503));
+                            if ((varbitclient_22877 != 0)) {
+                                script10535((varbitclient_22877 - 1));
+                            };
+                        } else {
+                            if (((varbitclient_22877 != 0) && (varbitclient_22877 != (int0 + 1)))) {
+                                script8323((varbitclient_22877 - 1), 1);
+                            };
+                            varbitclient_22877 = (int0 + 1);
+                            [int13, int14] = script9950();
+                            IF_SETPOSITION(int13, int14, 2, 2, struct_getparam(int3, 3503));
                         };
                     } else {
-                        if (((varbitclient_22877 != 0) && (varbitclient_22877 != (int0 + 1)))) {
+                        [int13, int14] = script9950();
+                        if ((varbitclient_60445 == 1)) {
+                            if ((varbitclient_60444 > 0)) {
+                                int13 = (int13 + 210);
+                            };
+                            IF_SETPOSITION(int13, int14, 2, 2, struct_getparam(int3, 3503));
+                        };
+                        if ((((varbitclient_22877 != 0) && (varbitclient_22877 != (int0 + 1))) && (script1423(int0, int22) == 0))) {
                             script8323((varbitclient_22877 - 1), 1);
                         };
-                        varbitclient_22877 = (int0 + 1);
-                        [int13, int14] = script9950();
-                        IF_SETPOSITION(int13, int14, 2, 2, struct_getparam(int3, 3503));
+                        if ((script1423(int0, int22) == 0)) {
+                            varbitclient_22877 = (int0 + 1);
+                        };
                     };
                 } else {
                     [int13, int14] = script9950();

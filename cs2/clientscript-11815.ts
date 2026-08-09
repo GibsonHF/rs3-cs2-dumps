@@ -26,13 +26,58 @@ function script11815(int0: number, int1: number, int2: number, string0: string):
                     case 6:
                     case 5:
                     case 8: {
-                        if ((((((struct_getparam(int8, 4499) == false) && (struct_getparam(int8, 5550) == false)) && (script17453(int8) == 0)) || (script17694(int8) > CLIENTCLOCK())) && ((int2 != 4) || ((int2 == 4) && (cc_getparam(5314) == true))))) {
-                            if ((int2 == 4)) {
-                                cc_setparam(5314, 0);
-                            } else {
-                                cc_setparam(5314, 1);
+                        if ((struct_getparam(int8, 4499) == false)) {
+                            if ((struct_getparam(int8, 5550) == false)) {
+                                if (((script17453(int8) == 0) || (script17694(int8) > CLIENTCLOCK()))) {
+                                    if ((int2 != 4)) {
+                                        if ((int2 == 4)) {
+                                            cc_setparam(5314, 0);
+                                        } else {
+                                            cc_setparam(5314, 1);
+                                        };
+                                        script11819(int5, int7, int6, -1, int2, string0, int1);
+                                    } else if (((int2 == 4) && (cc_getparam(5314) == true))) {
+                                        if ((int2 == 4)) {
+                                            cc_setparam(5314, 0);
+                                        } else {
+                                            cc_setparam(5314, 1);
+                                        };
+                                        script11819(int5, int7, int6, -1, int2, string0, int1);
+                                    };
+                                };
+                            } else if ((script17694(int8) > CLIENTCLOCK())) {
+                                if ((int2 != 4)) {
+                                    if ((int2 == 4)) {
+                                        cc_setparam(5314, 0);
+                                    } else {
+                                        cc_setparam(5314, 1);
+                                    };
+                                    script11819(int5, int7, int6, -1, int2, string0, int1);
+                                } else if (((int2 == 4) && (cc_getparam(5314) == true))) {
+                                    if ((int2 == 4)) {
+                                        cc_setparam(5314, 0);
+                                    } else {
+                                        cc_setparam(5314, 1);
+                                    };
+                                    script11819(int5, int7, int6, -1, int2, string0, int1);
+                                };
                             };
-                            script11819(int5, int7, int6, -1, int2, string0, int1);
+                        } else if ((script17694(int8) > CLIENTCLOCK())) {
+                            if ((int2 != 4)) {
+                                if ((int2 == 4)) {
+                                    cc_setparam(5314, 0);
+                                } else {
+                                    cc_setparam(5314, 1);
+                                };
+                                script11819(int5, int7, int6, -1, int2, string0, int1);
+                            } else if (((int2 == 4) && (cc_getparam(5314) == true))) {
+                                if ((int2 == 4)) {
+                                    cc_setparam(5314, 0);
+                                } else {
+                                    cc_setparam(5314, 1);
+                                };
+                                script11819(int5, int7, int6, -1, int2, string0, int1);
+                            };
                         };
                         break;
                     }

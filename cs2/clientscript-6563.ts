@@ -19,7 +19,8 @@ function script6563(int0: number, int1: number, int2: number): void {
     CC_DELETEALL(int0);
     CC_DELETEALL(int1);
     IF_SETHIDE(true, comp(175, 3));
-    while ((++int3 < int11)) {
+    int3 = (int3 + 1);
+    while ((int3 < int11)) {
         int14 = enum_getvalue(0, 33, 15225 as cs2enum, int3);
         if ((int14 != -1 as obj)) {
             int12 = script6561(int14);
@@ -29,13 +30,9 @@ function script6563(int0: number, int1: number, int2: number): void {
                 if (((varbitplayer_44082 == 1) && (int12 > 0))) {
                     int12 = script6562(int14);
                 };
-                stack((int5 - 75));
-                stack(`Current available: ${TOSTRING_LOCALISED(int12, 1)}`);
-                [int6, string1] = stack();
+                [int6, string1] = [(int5 - 75), `Current available: ${TOSTRING_LOCALISED(int12, 1)}`];
             } else {
-                stack((int5 - 18));
-                stack(`Current charges: ${TOSTRING_LOCALISED(int12, 1)}`);
-                [int6, string1] = stack();
+                [int6, string1] = [(int5 - 18), `Current charges: ${TOSTRING_LOCALISED(int12, 1)}`];
             };
             string0 = OC_NAME(int14);
             int8 = script7593(string0, int6, 26, 0);

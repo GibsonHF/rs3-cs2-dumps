@@ -12,8 +12,8 @@ function script8008(int0: number, int1: number, int2: number, int3: number, int4
             IF_SETHIDE(false, int1);
         };
         IF_SETONTIMER(callback(script8008, int0, int1, int2, int3, 0, int5, int6, int7, int8, int9, int10), int2);
-        IF_SETHIDE(1, int0);
-        IF_SETHIDE(1, int2);
+        IF_SETHIDE(true, int0);
+        IF_SETHIDE(true, int2);
     };
     return;
 }

@@ -6,34 +6,28 @@ function script13664(): void {
     stack(90112);
     stack(varbitplayer_37614);
     DB_FIND(0);
-    dbrow_findnext();
-    var int0 = stack();
+    var int0 = dbrow_findnext();
     var int1 = -1;
     var int2 = 0;
     var int3 = 0;
-    stack(int0);
-    stack(90288);
-    stack(0);
-    dbrow_getfield();
-    var int4 = stack();
+    var int4 = dbrow_getfield(int0, 90288, 0);
     var int5 = DB_GETFIELDCOUNT(int0, 90416);
-    stack(int0);
-    stack(90272);
-    stack(0);
-    dbrow_getfield();
-    var int6 = stack();
-    var int7 = IF_GETWIDTH(124649482);
-    var int8 = IF_GETWIDTH(124649483);
-    stack(int0);
-    stack(90384);
-    stack(0);
-    dbrow_getfield();
-    var int9 = stack();
+    var int6 = dbrow_getfield(int0, 90272, 0);
+    var int7 = IF_GETWIDTH(comp(1902, 10));
+    var int8 = IF_GETWIDTH(comp(1902, 11));
+    var int9 = dbrow_getfield(int0, 90384, 0);
     var int10 = 0;
-    if (((int6 == 2) && (varbitplayer_48814 > 0))) {
-        int10 = (varbitplayer_48814 / int9);
-        if ((MODULO(varbitplayer_48814, int9) > 0)) {
-            int10 = (int10 + 1);
+    if ((int6 == 2)) {
+        if ((varbitplayer_48814 > 0)) {
+            int10 = (varbitplayer_48814 / int9);
+            if ((MODULO(varbitplayer_48814, int9) > 0)) {
+                int10 = (int10 + 1);
+            };
+        } else {
+            int10 = (varplayer_7270 / int9);
+            if ((MODULO(varplayer_7270, int9) > 0)) {
+                int10 = (int10 + 1);
+            };
         };
     } else {
         int10 = (varplayer_7270 / int9);

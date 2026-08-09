@@ -12,7 +12,7 @@ function script13262(int0: number): number {
         int2 = script13108(int1, 1);
         int3 = script15768(int2);
     };
-    var int4 = 35731 as struct;
+    var int4 = 35731;
     var int5 = struct_getparam(int4, 6397);
     var int6 = struct_getparam(int4, 6398);
     var int7 = struct_getparam(int4, 6400);

@@ -1,20 +1,28 @@
 //
 function script14755(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, string0: string, string1: string): number {
     var int6 = -1;
-    var [int6, int1] = script14749(int0, 0, int1, int2, 0);
+    [int6, int1] = script14749(int0, 0, int1, int2, 0);
     var int7 = IF_GETNEXTSUBID(int0);
     var int8 = 26 as fontmetrics;
     if ((script6431() == 1)) {
         int8 = 28 as fontmetrics;
     };
-    CC_CREATE(int0, 4, int7++);
+    stack(int0);
+    stack(4);
+    stack(int7);
+    int7 = (int7 + 1);
+    CC_CREATE();
     CC_SETPOSITION(4, int1, 0, 0);
     CC_SETTEXT(`${string0}:`);
     CC_SETTEXTFONT(int8);
     CC_SETCOLOUR(16777215);
     CC_SETTEXTALIGN(0, 1, 0);
     CC_SETSIZE((2 * 4), enum_getvalue(25, 0, 8549 as cs2enum, int8), 1, 0);
-    CC_CREATE(int0, 4, int7++);
+    stack(int0);
+    stack(4);
+    stack(int7);
+    int7 = (int7 + 1);
+    CC_CREATE();
     CC_SETPOSITION(4, int1, 0, 0);
     CC_SETTEXT(string1);
     CC_SETTEXTFONT(int8);

@@ -9,12 +9,48 @@ function script17445(int0: number): number {
     };
     switch (struct_getparam(int0, 2806)) {
         case 4: {
-            if (((int1 > 0) && (varplayer_12652 == 1))) {
-                int1 = MAX(0, (int1 - 450));
-            } else if (((int1 > 0) && (varplayer_12650 == 1))) {
-                int1 = MAX(0, (int1 - 350));
-            } else if (((int1 > 0) && (varplayer_12651 == 1))) {
-                int1 = MAX(0, (int1 - 200));
+            if ((int1 > 0)) {
+                if ((varplayer_12652 == 1)) {
+                    int1 = MAX(0, (int1 - 450));
+                } else if ((int1 > 0)) {
+                    if ((varplayer_12650 == 1)) {
+                        int1 = MAX(0, (int1 - 350));
+                    } else if ((int1 > 0)) {
+                        if ((varplayer_12651 == 1)) {
+                            int1 = MAX(0, (int1 - 200));
+                        } else if (((int1 > 0) && (varplayer_12649 == 1))) {
+                            int1 = MAX(0, (int1 - 100));
+                        };
+                    } else if (((int1 > 0) && (varplayer_12649 == 1))) {
+                        int1 = MAX(0, (int1 - 100));
+                    };
+                } else if ((int1 > 0)) {
+                    if ((varplayer_12651 == 1)) {
+                        int1 = MAX(0, (int1 - 200));
+                    } else if (((int1 > 0) && (varplayer_12649 == 1))) {
+                        int1 = MAX(0, (int1 - 100));
+                    };
+                } else if (((int1 > 0) && (varplayer_12649 == 1))) {
+                    int1 = MAX(0, (int1 - 100));
+                };
+            } else if ((int1 > 0)) {
+                if ((varplayer_12650 == 1)) {
+                    int1 = MAX(0, (int1 - 350));
+                } else if ((int1 > 0)) {
+                    if ((varplayer_12651 == 1)) {
+                        int1 = MAX(0, (int1 - 200));
+                    } else if (((int1 > 0) && (varplayer_12649 == 1))) {
+                        int1 = MAX(0, (int1 - 100));
+                    };
+                } else if (((int1 > 0) && (varplayer_12649 == 1))) {
+                    int1 = MAX(0, (int1 - 100));
+                };
+            } else if ((int1 > 0)) {
+                if ((varplayer_12651 == 1)) {
+                    int1 = MAX(0, (int1 - 200));
+                } else if (((int1 > 0) && (varplayer_12649 == 1))) {
+                    int1 = MAX(0, (int1 - 100));
+                };
             } else if (((int1 > 0) && (varplayer_12649 == 1))) {
                 int1 = MAX(0, (int1 - 100));
             };

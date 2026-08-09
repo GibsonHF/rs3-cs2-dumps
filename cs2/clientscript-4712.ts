@@ -6,7 +6,8 @@ function script4712(): void {
     var int3 = 0;
     var int4 = RANDOM(6);
     while ((int3 < int4)) {
-        if ((MODULO(++int3, 2) == 1)) {
+        int3 = (int3 + 1);
+        if ((MODULO(int3, 2) == 1)) {
             int0 = (int0 + int1);
             int1 = (int0 - int1);
             int0 = (int0 - int1);

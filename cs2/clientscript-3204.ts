@@ -6,8 +6,12 @@ function script3204(int0: number): number {
         int2 = script11367(int0);
         if ((int2 < 9000)) {
             int1 = 1;
-        } else if (((int2 >= 9000) && (int2 < 24000))) {
-            int1 = 2;
+        } else if ((int2 >= 9000)) {
+            if ((int2 < 24000)) {
+                int1 = 2;
+            } else {
+                int1 = 3;
+            };
         } else {
             int1 = 3;
         };

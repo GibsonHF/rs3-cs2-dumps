@@ -14,6 +14,6 @@ function script990(int0: number, int1: number, int2: number): void {
     IF_SETTEXT(`${string2}<br><br>Your prizes are shown below, and must be claimed before entering another Lucky Dip.`, comp(204, 90));
     script13969(13369431, -1, 41028, string1);
     script13969(13369436, 13369437, 28553, "Claim");
-    IF_SETONVARTRANSMIT(callback(script992, int0, int4, int1, 10167, 10168, 10169, 3), 13369422);
+    IF_SETONVARTRANSMIT(callback(script992, int0, int4, int1, 10167, 10168, 10169, 3), comp(204, 78));
     return;
 }

@@ -1,6 +1,6 @@
 //[clientscript,meslayer_mode15]
 function script2688(): void {
-    if (((CLAN_GETCHATCOUNT() > 0) && operator(">=", CLAN_GETCHATMINKICK(CLAN_GETCHATRANK())))) {
+    if (((CLAN_GETCHATCOUNT() > 0) && BRANCH_GREATER_THAN_OR_EQUALS(CLAN_GETCHATMINKICK(CLAN_GETCHATRANK())))) {
         if ((varclient_1413 == false)) {
             return;
         };

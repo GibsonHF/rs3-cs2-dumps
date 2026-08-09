@@ -1,9 +1,9 @@
 //
 function script4199(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number, string0: string): number {
-    var int8 = 4220 as struct;
+    var int8 = 4220;
     var int9 = 0;
     if ((int6 == 0)) {
-        int8 = 4227 as struct;
+        int8 = 4227;
     };
     var int10 = struct_getparam(int8, 4403);
     if ((IF_FIND(int2) == 1)) {

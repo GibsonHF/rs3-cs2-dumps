@@ -28,11 +28,11 @@ function script20218(int0: number): void {
         } else {
             IF_SETPARAM_INT(8058, 0, comp(1401, 3));
             IF_SETONTIMER(callback(), comp(1401, 3));
-            IF_SETENABLED(1, 91815972);
-            IF_SETHIDE(1, 91815973);
-            IF_SETENABLED(0, 91815973);
-            IF_SETHIDE(1, 91815974);
-            IF_SETTEXT("Confirm this Account", 91815972);
+            IF_SETENABLED(true, comp(1401, 36));
+            IF_SETHIDE(true, comp(1401, 37));
+            IF_SETENABLED(false, comp(1401, 37));
+            IF_SETHIDE(true, comp(1401, 38));
+            IF_SETTEXT("Confirm this Account", comp(1401, 36));
         };
     } else {
         IF_SETPARAM_INT(8058, 0, comp(1401, 3));

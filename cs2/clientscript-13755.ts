@@ -49,7 +49,7 @@ function script13755(int0: number, int1: number, int2: number, int3: number, int
         int9 = 1;
     };
     CC_SETONMOUSEREPEAT(callback(script13761, int2, (IF_GETNEXTSUBID(comp(1029, 67)) - 1), 67436611));
-    CC_SETONMOUSELEAVE(callback(script13762, (IF_GETNEXTSUBID(67436611) - 1), 67436611));
+    CC_SETONMOUSELEAVE(callback(script13762, (IF_GETNEXTSUBID(comp(1029, 67)) - 1), 67436611));
     CC_SETONCLICK(callback(script13759, -2147483643, string0, string1, string2, int2, -1, int9, int5, int6, int7, int8));
     return;
 }

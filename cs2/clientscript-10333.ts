@@ -4,15 +4,11 @@ function script10333(): void {
     var int0 = -1;
     switch (IF_GETGRAPHIC(comp(1519, 57))) {
         case 25852: {
-            stack(25853);
-            stack("You are marked as ready.");
-            [int0, string0] = stack();
+            [int0, string0] = [25853, "You are marked as ready."];
             break;
         }
         case 25853: {
-            stack(25852);
-            stack("You are marked as not ready.");
-            [int0, string0] = stack();
+            [int0, string0] = [25852, "You are marked as not ready."];
             break;
         }
         default: {

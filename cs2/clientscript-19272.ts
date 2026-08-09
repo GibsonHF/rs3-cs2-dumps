@@ -1,6 +1,6 @@
 //
 function script19272(): void {
-    var int0 = -1 as model;
+    var int0 = -1;
     switch (script16161()) {
         case 50555: {
             int0 = 64543 as model;

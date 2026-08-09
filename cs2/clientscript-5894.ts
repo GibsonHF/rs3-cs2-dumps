@@ -3,9 +3,7 @@ function script5894(): void {
     var string0 = "";
     var int0 = -1;
     if ((varbitplayer_25836 == 1)) {
-        stack(25870);
-        stack("Changes to lootshare settings are pending.");
-        [int0, string0] = stack();
+        [int0, string0] = [25870, "Changes to lootshare settings are pending."];
         switch (varplayergroup_21) {
             case 1: {
                 string0 = strconcat(string0, "<br>Lootshare is currently active.");
@@ -23,21 +21,15 @@ function script5894(): void {
     } else {
         switch (varplayergroup_21) {
             case 1: {
-                stack(25868);
-                stack("Lootshare is active.");
-                [int0, string0] = stack();
+                [int0, string0] = [25868, "Lootshare is active."];
                 break;
             }
             case 2: {
-                stack(25871);
-                stack("Coinshare is active.");
-                [int0, string0] = stack();
+                [int0, string0] = [25871, "Coinshare is active."];
                 break;
             }
             default: {
-                stack(25869);
-                stack("Lootshare and Coinshare are disabled.");
-                [int0, string0] = stack();
+                [int0, string0] = [25869, "Lootshare and Coinshare are disabled."];
                 break;
             }
         };

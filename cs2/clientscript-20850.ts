@@ -5,7 +5,8 @@ function script20850(int0: number): void {
     IF_SETSIZE(int1, 22, 0, 0, comp(1494, 13));
     var int2 = -1;
     var int3 = -1;
-    while ((++int2 < int0)) {
+    int2 = (int2 + 1);
+    while ((int2 < int0)) {
         if ((int2 == 0)) {
             int3 = 17038;
         } else {

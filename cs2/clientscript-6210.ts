@@ -10,6 +10,6 @@ function script6210(int0: number): void {
         IF_SETGRAPHIC(6256 as graphic, comp(234, 47));
         IF_SETOP(1, "Join Clan Channel", comp(234, 35));
     };
-    IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643), 15335459);
+    IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643), comp(234, 35));
     return;
 }

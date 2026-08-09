@@ -4,7 +4,8 @@ function script1186(): number {
         if (((((varclient_3477 == false) || (varclient_3477 == false)) || (varbitplayer_27169 == 1)) || (varbitplayer_38842 == 1))) {
             return 1;
         };
-    } else {
+    } else if (((varbitplayer_27169 == 1) || (varbitplayer_38842 == 1))) {
+        return 1;
     };
     return 0;
 }

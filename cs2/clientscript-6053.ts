@@ -29,7 +29,7 @@ function script6053(int0: number, int1: number, int2: number): void {
         };
         if (((script42(IF_GETHIDE(int7)) != int1) && (int1 != int2))) {
             IF_SETONTIMER(callback(), int0);
-            IF_SETHIDE(1, int7);
+            IF_SETHIDE(true, int7);
             return;
         };
         int5 = SCALE(IF_GETWIDTH(int0), int3, 100);
@@ -42,7 +42,7 @@ function script6053(int0: number, int1: number, int2: number): void {
         IF_SETSIZE(1, IF_GETHEIGHT(int0), 0, 0, int0);
     };
     IF_SETONTIMER(callback(), int0);
-    IF_SETHIDE(1, int7);
+    IF_SETHIDE(true, int7);
     if (((int8 == 1) && (varbitplayer_1902 < varplayer_679))) {
         IF_SETHIDE(false, int9);
         IF_SETTRANS(255, int9);

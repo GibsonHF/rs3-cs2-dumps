@@ -8,13 +8,18 @@ function script15164(int0: number, int1: number, int2: number, int3: number, int
     var int11 = 0;
     while ((int8 < int9)) {
         int7 = enum_getvalue(0, 74, int3, int8);
-        if (((int4 == 1) && (int8 == int5))) {
-            int11 = 1;
+        if ((int4 == 1)) {
+            if ((int8 == int5)) {
+                int11 = 1;
+            } else {
+                int11 = 0;
+            };
         } else {
             int11 = 0;
         };
         int6 = script15165(int0, int1, int2, int7, int6, int10, int11);
-        int10 = (++int10 + 3);
+        int10 = (int10 + 50);
+        int10 = (int10 + 3);
         int8 = (int8 + 1);
     };
     return int10;

@@ -2,7 +2,7 @@
 function script7532(int0: number, int1: number): void {
     IF_SETHIDE(true, comp(1394, 4));
     IF_SETONCLICK(callback(script7540, 1), comp(1394, 9));
-    var int2 = -1;
+    var int2 = -1 as cs2enum;
     if ((script133(55578048, 861916671, COORD()) == 1)) {
         int2 = 7320 as cs2enum;
     } else if ((script133(50761155, 50892220, COORD()) == 1)) {

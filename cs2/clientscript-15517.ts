@@ -4,14 +4,13 @@ function script15517(int0: number, int1: number, int2: number, int3: number, int
     var int10 = 4;
     var string0 = "";
     var string1 = "";
-    var int11 = -1 as dbrow;
-    var int12 = 12670 as graphic;
-    var int13 = 12669 as graphic;
+    var int11 = -1;
+    var int12 = 12670;
+    var int13 = 12669;
     stack(495616);
     stack(int0);
     DB_FIND(0);
-    dbrow_findnext();
-    int11 = stack();
+    int11 = dbrow_findnext();
     if ((int11 == -1)) {
         return [int1, int2];
     };
@@ -19,7 +18,7 @@ function script15517(int0: number, int1: number, int2: number, int3: number, int
     if ((((script3101(int14) == 1) && (script15320(int14) == 1)) && (script3104(int14) == 1))) {
         string0 = dbrow_getfield(int11, 495648, 0);
         string1 = dbrow_getfield(int11, 495664, 0);
-        if ((dbrow_getfield(int11, 495696, 0) != -1 as dbrow)) {
+        if ((dbrow_getfield(int11, 495696, 0) != -1)) {
             string0 = script12398(int11);
         };
         if ((CC_FIND(int4, int0) == 1)) {

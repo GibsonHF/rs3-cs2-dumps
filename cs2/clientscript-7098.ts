@@ -40,9 +40,9 @@ function script7098(): void {
     };
     SOUND_VORBIS_RATE(RANDOM_SOUND_PITCH(int0, 1, 0, int1, 5, 10));
     IF_SETONTIMER(callback(), comp(1251, 3));
-    IF_SETTEXT("Done", 81985546);
-    IF_SETONTIMER(callback(), 81985546);
-    IF_SETHIDE(1, 81985549);
+    IF_SETTEXT("Done", comp(1251, 10));
+    IF_SETONTIMER(callback(), comp(1251, 10));
+    IF_SETHIDE(true, comp(1251, 13));
     if ((script6431() == 0)) {
         IF_SETHIDE(false, comp(1251, 14));
     };

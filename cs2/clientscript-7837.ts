@@ -20,6 +20,9 @@ function script7837(int0: number): void {
             int7 = (int6 * int3);
             int3 = (int3 - 1);
         };
+        IF_SETTEXTFONT(int4, int0);
+        IF_SETTEXTALIGN(1, 1, 0, int0);
+        return;
     };
     IF_SETTEXTFONT(int4, int0);
     IF_SETTEXTALIGN(1, 1, 0, int0);

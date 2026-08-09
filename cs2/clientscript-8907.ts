@@ -22,7 +22,8 @@ function script8907(int0: number): void {
             CC_SETOP(1, "Select");
             CC_SETONOP(callback(script8908, int0, -2147483643));
         };
-        if (((++int4 + 45) > int8)) {
+        int4 = (int4 + 45);
+        if (((int4 + 45) > int8)) {
             int4 = 5;
             int5 = (int5 + 45);
         };

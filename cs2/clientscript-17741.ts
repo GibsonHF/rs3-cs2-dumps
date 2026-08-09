@@ -18,14 +18,15 @@ function script17741(int0: number): void {
     var int2 = 1;
     var int3 = 1;
     var int4 = -1;
-    while ((++int4 < int1)) {
+    int4 = (int4 + 1);
+    while ((int4 < int1)) {
         int3 = script17742(80085014, 80085019, int0, int4, int2, 0, ((int4 * 52) + ((int4 + 1) * 5)), 1, 2, (2 * 8), 52, 1, 0);
         if ((int3 == 0)) {
             int2 = 0;
         };
     };
-    var int5 = -1 as dbrow;
-    var int6 = -1 as dbrow;
+    var int5 = -1;
+    var int6 = -1;
     if (((varclient_7216 != -1) && (varclient_7217 != -1))) {
         int5 = dbrow_getfield(int0, 946272, varclient_7216);
         int6 = dbrow_getfield(int5, 950288, varclient_7217);

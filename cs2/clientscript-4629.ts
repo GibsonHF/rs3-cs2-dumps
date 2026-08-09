@@ -17,7 +17,7 @@ function script4629(int0: number, int1: number, int2: number, int3: number): voi
             int4 = MAX(1, int4);
             if ((int4 == 1)) {
                 CC_SETONTIMER(callback());
-                IF_SETHIDE(1, int2);
+                IF_SETHIDE(true, int2);
             };
         };
         if ((int3 == 0)) {

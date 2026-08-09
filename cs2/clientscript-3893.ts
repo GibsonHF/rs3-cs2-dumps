@@ -2,7 +2,7 @@
 function script3893(int0: number, string0: string): void {
     script8841(44, 1);
     IF_SETONTIMER(callback(script3897, (CLIENTCLOCK() + 216), CLIENTCLOCK()), comp(600, 0));
-    IF_SETHIDE(0, 39321600);
+    IF_SETHIDE(false, comp(600, 0));
     if ((((((strcmp(string0, "rs:preset:rent6:02w") == 0) || (strcmp(string0, "rs:preset:rent7:02w") == 0)) || (strcmp(string0, "rs:preset:rent8:02w") == 0)) || (strcmp(string0, "rs:preset:rent9:02w") == 0)) || (strcmp(string0, "rs:preset:rent10:02w") == 0))) {
         IF_SETHIDE(true, comp(600, 4));
         IF_SETHIDE(false, comp(600, 3));

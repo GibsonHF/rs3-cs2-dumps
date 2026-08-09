@@ -3,11 +3,11 @@ function script6867(int0: number, int1: number): number {
     var int2 = struct_getparam(enum_getvalue(0, 73, 6570 as cs2enum, int1), 2770);
     var int3 = struct_getparam(enum_getvalue(0, 73, 6570 as cs2enum, int1), 2769);
     var string0 = struct_getparam(enum_getvalue(0, 73, 6570 as cs2enum, int1), 2760);
-    var string1 = struct_getparam(enum_getvalue(0, 73, 6570 as cs2enum, int1), 2761);
+    var string1 = struct_getparam(enum_getvalue(0, 73, 6570, int1), 2761);
     var string2 = `Level ${inttostring(int3, 10)} Prayer`;
     var string3 = "You have already helped Father Joakim with these celebrations, so you will receive no additional rewards.";
     var int4 = 0;
-    var int5 = -1 as graphic;
+    var int5 = -1;
     if ((STAT_BASE(5 as stat) >= int3)) {
         int4 = 1;
     };
@@ -17,11 +17,11 @@ function script6867(int0: number, int1: number): number {
             int4 = 0;
         };
     };
-    var int6 = struct_getparam(enum_getvalue(0, 73, 6570 as cs2enum, int1), 2771);
-    var int7 = -1 as quest;
+    var int6 = struct_getparam(enum_getvalue(0, 73, 6570, int1), 2771);
+    var int7 = -1;
     if ((int6 != -1)) {
-        int7 = enum_getvalue(0, 3, 2252 as cs2enum, int6);
-        if ((int7 != -1 as quest)) {
+        int7 = enum_getvalue(0, 3, 2252, int6);
+        if ((int7 != -1)) {
             if ((script2156(int7) == 0)) {
                 int4 = 0;
             };
@@ -92,7 +92,7 @@ function script6867(int0: number, int1: number): number {
     switch (((int0 / 4) + 1)) {
         case 1: {
             if ((varbitplayer_14342 == 1)) {
-                int5 = 13165 as graphic;
+                int5 = 13165;
             } else {
                 string3 = "You have not yet helped Father Joakim with these celebrations.";
             };
@@ -100,7 +100,7 @@ function script6867(int0: number, int1: number): number {
         }
         case 2: {
             if ((varbitplayer_14343 == 1)) {
-                int5 = 13165 as graphic;
+                int5 = 13165;
             } else {
                 string3 = "You have not yet helped Father Joakim with these celebrations.";
             };
@@ -108,7 +108,7 @@ function script6867(int0: number, int1: number): number {
         }
         case 3: {
             if ((varbitplayer_14344 == 1)) {
-                int5 = 13165 as graphic;
+                int5 = 13165;
             } else {
                 string3 = "You have not yet helped Father Joakim with these celebrations.";
             };
@@ -116,7 +116,7 @@ function script6867(int0: number, int1: number): number {
         }
         case 4: {
             if ((varbitplayer_14345 == 1)) {
-                int5 = 13165 as graphic;
+                int5 = 13165;
             } else {
                 string3 = "You have not yet helped Father Joakim with these celebrations.";
             };
@@ -124,18 +124,18 @@ function script6867(int0: number, int1: number): number {
         }
         case 5: {
             if ((varbitplayer_14346 == 1)) {
-                int5 = 13165 as graphic;
+                int5 = 13165;
             } else {
                 string3 = "You have not yet helped Father Joakim with these celebrations.";
             };
             break;
         }
         default: {
-            int5 = 13166 as graphic;
+            int5 = 13166;
             break;
         }
     };
-    if ((int5 != -1 as graphic)) {
+    if ((int5 != -1)) {
         CC_SETGRAPHIC(int5);
         CC_SETONMOUSEREPEAT(callback(script6869, int0, int4, string3));
         CC_SETONMOUSELEAVE(callback(script6872, (int0 - 3), int4));

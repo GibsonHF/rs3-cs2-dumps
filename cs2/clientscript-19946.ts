@@ -1,10 +1,10 @@
 //
 function script19946(): void {
-    var int0 = comp(1336, 26);
-    var int1 = comp(1336, 27);
+    var int0 = 87556122;
+    var int1 = 87556123;
     var int2 = IF_GETWIDTH(int0);
     var int3 = 17865;
-    var int4 = -1 as dbrow;
+    var int4 = -1;
     var int5 = 0;
     var int6 = 0;
     var int7 = 0;
@@ -34,9 +34,9 @@ function script19946(): void {
         }
     };
     int5 = CC_SETPARAM_STRING(WORLDMAP_LISTELEMENT_START(1306640, int3, 3, 0), 1306624, 1, -1, 0);
-    while ((++int13 < int5)) {
-        dbrow_findnext();
-        int4 = stack();
+    int13 = (int13 + 1);
+    while ((int13 < int5)) {
+        int4 = dbrow_findnext();
         int6 = 0;
         int7 = 0;
         int12 = 33620;

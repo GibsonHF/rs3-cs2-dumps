@@ -9,11 +9,11 @@ function script8573(int0: number): void {
     CC_SETCOLOUR(script10495(12));
     CC_SETONMOUSEOVER(callback(script1356, -2147483645, -2147483643, script10495(9)));
     CC_SETONMOUSELEAVE(callback(script1356, -2147483645, -2147483643, script10495(12)));
-    CC_CREATE(123863045, 4, int0);
+    CC_CREATE(comp(1890, 5), 4, int0);
     CC_SETTEXT("Create preset");
-    CC_SETTEXTFONT(56);
+    CC_SETTEXTFONT(56 as fontmetrics);
     CC_SETCOLOUR(16777215);
-    CC_SETTEXTSHADOW(1);
+    CC_SETTEXTSHADOW(true);
     CC_SETTEXTALIGN(0, 1, 0);
     CC_SETSIZE(200, 25, 0, 0);
     CC_SETPOSITION(10, ((29 * int0) + 3), 0, 0);

@@ -15,7 +15,8 @@ function script14897(int0: number, int1: number): void {
         if ((CC_FIND(int3, (int7 + 1)) == 1)) {
             CC_SETONOP(callback(script14898, 0));
         };
-        while ((++int7 < int4)) {
+        int7 = (int7 + 1);
+        while ((int7 < int4)) {
             int5 = (int5 + 45);
             script13998(int2, int3, 28556, int5, int6, 40, 26, (int7 + 1), 0, script14641(int0, (int7 + 1)), script9670(int1, (int7 + 1)));
             if ((CC_FIND(int3, (int7 + 1)) == 1)) {

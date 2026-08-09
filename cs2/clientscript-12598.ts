@@ -20,7 +20,8 @@ function script12598(int0: number, int1: number, int2: number, int3: number, int
                     int3 = comp(-1, 65535);
                 };
                 if ((int3 != comp(-1, 65535))) {
-                    while ((++int7 < int6)) {
+                    int7 = (int7 + 1);
+                    while ((int7 < int6)) {
                         int8 = enum_getvalue(0, 73, 7674 as cs2enum, int7);
                         if (((int8 != -1 as struct) && (struct_getparam(int8, 3440) == int5))) {
                             IF_TRIGGEROP(int3, int7, int0);

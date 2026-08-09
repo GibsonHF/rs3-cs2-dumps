@@ -60,5 +60,6 @@ function script11457(int0: number, int1: number, int2: number, int3: number, int
             CC_SETOUTLINE(1);
         };
     };
-    return [++int4, int5];
+    int4 = (int4 + 39);
+    return [int4, int5];
 }

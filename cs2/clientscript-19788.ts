@@ -1,25 +1,25 @@
 //
 function script19788(int0: number): void {
     var int1 = -1;
-    var int2 = comp(-1, 65535);
-    var int3 = comp(-1, 65535);
-    var int4 = comp(-1, 65535);
+    var int2 = -1;
+    var int3 = -1;
+    var int4 = -1;
     var string0 = "";
     var string1 = "";
-    var int5 = -1 as dbrow;
+    var int5 = -1;
     switch (int0) {
         case 1: {
             int1 = varbitplayer_57146;
-            int2 = comp(1320, 88);
-            int3 = comp(1320, 89);
-            int4 = comp(1320, 87);
+            int2 = 86507608;
+            int3 = 86507609;
+            int4 = 86507607;
             break;
         }
         case 2: {
             int1 = varbitplayer_57147;
-            int2 = comp(1320, 95);
-            int3 = comp(1320, 96);
-            int4 = comp(1320, 94);
+            int2 = 86507615;
+            int3 = 86507616;
+            int4 = 86507614;
             break;
         }
         default: {
@@ -30,13 +30,13 @@ function script19788(int0: number): void {
     var int6 = dbrow_getfield(int5, 1282096, 0);
     CC_DELETEALL(int4);
     var int7 = 0;
-    var int8 = comp(-1, 65535);
-    var int9 = -1 as material;
+    var int8 = -1;
+    var int9 = -1;
     var int10 = 0;
     var int11 = 0;
-    var int12 = -1 as obj;
+    var int12 = -1;
     var int13 = 0;
-    var int14 = -1 as model;
+    var int14 = -1;
     var int15 = 0;
     var int16 = 0;
     var int17 = 0;
@@ -110,7 +110,6 @@ function script19788(int0: number): void {
         [int12, int13] = dbrow_getfield(int5, 1282160, 0);
         switch (int12) {
             default: {
-                break;
             }
         };
         string0 = "Instant reward";
@@ -132,7 +131,7 @@ function script19788(int0: number): void {
                 CC_SETRECOL(int21, dbrow_getfield(int5, 1282240, (int21 - 1)));
                 int21 = (int21 - 1);
             };
-        } else if ((int12 != -1 as obj)) {
+        } else if ((int12 != -1)) {
             CC_CREATE(int4, 5, int7);
             int7 = (int7 + 1);
             CC_SETOBJECT(int12, int13);

@@ -87,8 +87,12 @@ function script651(int0: number): void {
             IF_SETHIDE(false, int13);
         };
         IF_SETHIDE(true, int14);
-        if (((int0 >= 3) && (PLAYERMEMBER() == false))) {
-            IF_SETHIDE(true, int15);
+        if ((int0 >= 3)) {
+            if ((PLAYERMEMBER() == false)) {
+                IF_SETHIDE(true, int15);
+            } else {
+                IF_SETHIDE(false, int15);
+            };
         } else {
             IF_SETHIDE(false, int15);
         };
@@ -113,18 +117,18 @@ function script651(int0: number): void {
             IF_SETONMOUSEREPEAT(callback(script8799, string4, -2147483645, -2147483643), int14);
             IF_SETONMOUSELEAVE(callback(script1257, -2147483645), int14);
             IF_SETONCLICK(callback(script1257, -2147483645), int14);
-            IF_SETGRAPHIC(14121, int14);
+            IF_SETGRAPHIC(14121 as graphic, int14);
             IF_SETOP(1, "Collect and repeat", int14);
-            IF_SETHIDE(0, int14);
+            IF_SETHIDE(false, int14);
         } else {
             string4 = "Abort offer";
             IF_SETONMOUSEOVER(callback(script617, -2147483645), int14);
             IF_SETONMOUSEREPEAT(callback(script8799, string4, -2147483645, -2147483643), int14);
             IF_SETONMOUSELEAVE(callback(script618, -2147483645), int14);
             IF_SETONCLICK(callback(script618, -2147483645), int14);
-            IF_SETGRAPHIC(27308, int14);
+            IF_SETGRAPHIC(27308 as graphic, int14);
             IF_SETOP(1, "Abort Offer", int14);
-            IF_SETHIDE(0, int14);
+            IF_SETHIDE(false, int14);
         };
         IF_SETSIZE(24, 24, 0, 0, IF_GETPARENTLAYER(int14));
         IF_SETHIDE(true, int15);
@@ -146,13 +150,48 @@ function script651(int0: number): void {
         CC_SETPOSITION(48, 30, 0, 0);
         string0 = script18300(int8);
         int17 = (int3 - 53);
-        int16 = PARAWIDTH(string0, int17, 27);
+        int16 = PARAWIDTH(string0, int17, 27 as fontmetrics);
         if ((int16 > int17)) {
             int11 = STRING_LENGTH(string0);
-            while (((int16 > int17) && (int11 > 0))) {
-                int11 = (int11 - 1);
-                string0 = `${SUBSTRING(string0, 0, int11)}...`;
-                int16 = PARAWIDTH(string0, int17, 27 as fontmetrics);
+            while ((int16 > int17)) {
+                if ((int11 > 0)) {
+                    int11 = (int11 - 1);
+                    string0 = `${SUBSTRING(string0, 0, int11)}...`;
+                    int16 = PARAWIDTH(string0, int17, 27 as fontmetrics);
+                };
+                int9 = (int9 + 1);
+                int4 = (PARAHEIGHT(string0, int17, 27 as fontmetrics) * 14);
+                string0 = script18300(int8);
+                if ((int4 < 56)) {
+                    int4 = 56;
+                };
+                CC_SETSIZE(int17, int4, 0, 0);
+                CC_SETCOLOUR(15777401);
+                CC_SETTEXTFONT(27 as fontmetrics);
+                CC_SETTEXTALIGN(0, 0, 14);
+                CC_SETTEXTSHADOW(true);
+                CC_SETTEXT(string0);
+                CC_SETMAXLINES(4);
+                CC_CREATE(int1, 4, int9);
+                CC_SETPOSITION(6, 70, 0, 0);
+                CC_SETSIZE(40, 15, 0, 0);
+                CC_SETCOLOUR(16777215);
+                CC_SETTEXTFONT(26 as fontmetrics);
+                CC_SETTEXTALIGN(1, 1, 15);
+                CC_SETTEXTSHADOW(true);
+                if (LONG_BRANCH_LESS_THAN(long0, 10000n)) {
+                    CC_SETTEXT(string2);
+                } else {
+                    CC_SETTEXT(string3);
+                    CC_SETONMOUSEREPEAT(callback(script8799, string2, int1, int9));
+                };
+                int9 = (int9 + 1);
+                CC_CREATE(int1, 5, int9);
+                CC_SETPOSITION(4, 2, 2, 0);
+                CC_SETSIZE(20, 20, 0, 0);
+                CC_SETGRAPHIC(-1 as graphic);
+                int9 = (int9 + 1);
+                return;
             };
         };
         int9 = (int9 + 1);
@@ -175,7 +214,7 @@ function script651(int0: number): void {
         CC_SETTEXTFONT(26 as fontmetrics);
         CC_SETTEXTALIGN(1, 1, 15);
         CC_SETTEXTSHADOW(true);
-        if (branch_lt_long[667](long0, 10000n)) {
+        if (LONG_BRANCH_LESS_THAN(long0, 10000n)) {
             CC_SETTEXT(string2);
         } else {
             CC_SETTEXT(string3);

@@ -6,7 +6,7 @@ function script15621(): void {
     IF_SETTRANS(int1, comp(906, 153));
     if ((int0 >= 0)) {
         IF_SETONTIMER(callback(), comp(906, 5));
-        IF_SETTRANS(180, 59375769);
+        IF_SETTRANS(180, comp(906, 153));
     };
     return;
 }

@@ -13,7 +13,10 @@ function script12575(int0: number): void {
             return;
         };
     };
-    while ((CC_FIND(int0, int3++) == 1)) {
+    stack(int0);
+    stack(int3);
+    int3 = (int3 + 1);
+    while ((CC_FIND() == 1)) {
         int1 = (CC_GETX() + int4);
         if ((int1 > int2)) {
             int1 = ((-150 + int1) - int2);

@@ -15,7 +15,8 @@ function script14888(int0: number, int1: number, int2: number): void {
                     script14890();
                 };
             } else {
-                while ((++int7 < int4)) {
+                int7 = (int7 + 1);
+                while ((int7 < int4)) {
                     int5 = enum_getvalue(0, 26, 14095 as cs2enum, int7);
                     int6 = ENUM_GETOUTPUTCOUNT(int5);
                     if ((enum_getreversecount(74, int5, int3) > 0)) {

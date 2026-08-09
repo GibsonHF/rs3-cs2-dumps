@@ -1,5 +1,5 @@
 //
-function script959(): [string, string, number] {
+function script959(): [number, string, string] {
     var int0 = INV_GETOBJ(94 as inv, 3);
     var int1 = INV_GETOBJ(94 as inv, 5);
     int0 = script15231(int0);

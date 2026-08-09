@@ -4,7 +4,7 @@ function script8391(int0: number, int1: number): void {
         script20393(0, 2);
     };
     var int2 = script10405(int0);
-    if ((int2 == -1 as struct)) {
+    if ((int2 == -1)) {
         return;
     };
     var int3 = -1 as struct;
@@ -65,11 +65,35 @@ function script8391(int0: number, int1: number): void {
             int13 = (int13 + 10);
         };
         IF_SETSIZE(int13, int14, 1, 1, int6);
-        if ((((int1 == 0) && (varclient_3477 == true)) && (struct_getparam(int2, 3533) == true))) {
-            IF_SETPOSITION(0, 0, 0, 0, int6);
-            IF_SETSIZE(0, 0, 1, 1, int6);
-        } else if (((int2 == 21279 as struct) && (script20503(int2) == 1))) {
-            script20504(21279);
+        if ((int1 == 0)) {
+            if ((varclient_3477 == true)) {
+                if ((struct_getparam(int2, 3533) == true)) {
+                    IF_SETPOSITION(0, 0, 0, 0, int6);
+                    IF_SETSIZE(0, 0, 1, 1, int6);
+                } else if ((int2 == 21279)) {
+                    if ((script20503(int2) == 1)) {
+                        script20504(21279);
+                    } else {
+                        IF_SETPOSITION(int11, int12, 0, 0, int6);
+                    };
+                } else {
+                    IF_SETPOSITION(int11, int12, 0, 0, int6);
+                };
+            } else if ((int2 == 21279)) {
+                if ((script20503(int2) == 1)) {
+                    script20504(21279);
+                } else {
+                    IF_SETPOSITION(int11, int12, 0, 0, int6);
+                };
+            } else {
+                IF_SETPOSITION(int11, int12, 0, 0, int6);
+            };
+        } else if ((int2 == 21279)) {
+            if ((script20503(int2) == 1)) {
+                script20504(21279);
+            } else {
+                IF_SETPOSITION(int11, int12, 0, 0, int6);
+            };
         } else {
             IF_SETPOSITION(int11, int12, 0, 0, int6);
         };

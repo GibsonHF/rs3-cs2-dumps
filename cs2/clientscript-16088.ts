@@ -63,9 +63,29 @@ function script16088(int0: number): number {
                 break;
             }
         };
-        if (((int1 > 0) && (int1 < 60))) {
-            if ((STAT_BASE(enum_getvalue(0, 17, 681 as cs2enum, int1)) < int2)) {
-                return 0;
+        if ((int1 > 0)) {
+            if ((int1 < 60)) {
+                if ((STAT_BASE(enum_getvalue(0, 17, 681 as cs2enum, int1)) < int2)) {
+                    return 0;
+                };
+            } else if ((int1 == 60)) {
+                int3 = script5795(int2);
+                if ((int3 != -1)) {
+                    if ((script3227(struct_getparam(int3, 1268)) != 2)) {
+                        return 0;
+                    };
+                    int3 = -1;
+                };
+            } else if ((int1 == 61)) {
+                if ((script1524(int2) == 0)) {
+                    return 0;
+                };
+            } else if ((int1 == 66)) {
+            } else if ((int1 == 62)) {
+                [int4, string0] = script16085(int2);
+                if ((int4 == 0)) {
+                    return 0;
+                };
             };
         } else if ((int1 == 60)) {
             int3 = script5795(int2);

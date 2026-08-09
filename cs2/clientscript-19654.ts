@@ -2,12 +2,20 @@
 function script19654(int0: number, int1: number): void {
     var int2 = 0;
     var string0 = "";
-    if ((((int0 == 1) && (varbitplayer_51273 == 1)) && (script6431() == 1))) {
-        string0 = "You are purchasing a licence to a digital product. For full terms and conditions, please see Jagex's<col=FFFFFF><nbsp>End<nbsp>User<nbsp>Licence<nbsp>Agreement</col>.";
-        int2 = script20478(string0, IF_GETWIDTH(comp(891, 26)), 2101, 0);
-        IF_SETHIDE(false, comp(891, 26));
-        IF_SETTEXT(string0, comp(891, 26));
-        IF_SETOPCURSOR(1, 210, comp(891, 26));
+    if ((int0 == 1)) {
+        if ((varbitplayer_51273 == 1)) {
+            if ((script6431() == 1)) {
+                string0 = "You are purchasing a licence to a digital product. For full terms and conditions, please see Jagex's<col=FFFFFF><nbsp>End<nbsp>User<nbsp>Licence<nbsp>Agreement</col>.";
+                int2 = script20478(string0, IF_GETWIDTH(comp(891, 26)), 2101, 0);
+                IF_SETHIDE(false, comp(891, 26));
+                IF_SETTEXT(string0, comp(891, 26));
+                IF_SETOPCURSOR(1, 210, comp(891, 26));
+            } else {
+                IF_SETHIDE(true, comp(891, 26));
+            };
+        } else {
+            IF_SETHIDE(true, comp(891, 26));
+        };
     } else {
         IF_SETHIDE(true, comp(891, 26));
     };

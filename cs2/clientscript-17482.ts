@@ -12,7 +12,7 @@ function script17482(int0: number): [number, string] {
             break;
         }
         case 7601: {
-            string1 = `${string1}<br>- Level <col=ffffff>${inttostring(20, 10)}</col> ${enum_getvalue(17, 36, 680 as cs2enum, 28 as stat)}`;
+            string1 = `${string1}<br>- Level <col=ffffff>${inttostring(20, 10)}</col> ${enum_getvalue(17, 36, 680, 28)}`;
             if ((STAT_BASE(28 as stat) < 20)) {
                 int1 = 0;
             };
@@ -27,7 +27,7 @@ function script17482(int0: number): [number, string] {
             break;
         }
         case 7602: {
-            string1 = `${string1}<br>- Level <col=ffffff>${inttostring(40, 10)}</col> ${enum_getvalue(17, 36, 680 as cs2enum, 28 as stat)}`;
+            string1 = `${string1}<br>- Level <col=ffffff>${inttostring(40, 10)}</col> ${enum_getvalue(17, 36, 680, 28)}`;
             if ((STAT_BASE(28 as stat) < 40)) {
                 int1 = 0;
             };
@@ -47,7 +47,7 @@ function script17482(int0: number): [number, string] {
             break;
         }
         case 7603: {
-            string1 = `${string1}<br>- Level <col=ffffff>${inttostring(60, 10)}</col> ${enum_getvalue(17, 36, 680 as cs2enum, 28 as stat)}`;
+            string1 = `${string1}<br>- Level <col=ffffff>${inttostring(60, 10)}</col> ${enum_getvalue(17, 36, 680, 28)}`;
             if ((STAT_BASE(28 as stat) < 60)) {
                 int1 = 0;
             };
@@ -62,7 +62,7 @@ function script17482(int0: number): [number, string] {
             break;
         }
         case 7604: {
-            string1 = `${string1}<br>- Level <col=ffffff>${inttostring(70, 10)}</col> ${enum_getvalue(17, 36, 680 as cs2enum, 28 as stat)}`;
+            string1 = `${string1}<br>- Level <col=ffffff>${inttostring(70, 10)}</col> ${enum_getvalue(17, 36, 680, 28)}`;
             if ((STAT_BASE(28 as stat) < 70)) {
                 int1 = 0;
             };
@@ -77,7 +77,7 @@ function script17482(int0: number): [number, string] {
             break;
         }
         case 7605: {
-            string1 = `${string1}<br>- Level <col=ffffff>${inttostring(80, 10)}</col> ${enum_getvalue(17, 36, 680 as cs2enum, 28 as stat)}`;
+            string1 = `${string1}<br>- Level <col=ffffff>${inttostring(80, 10)}</col> ${enum_getvalue(17, 36, 680, 28)}`;
             if ((STAT_BASE(28 as stat) < 80)) {
                 int1 = 0;
             };
@@ -92,7 +92,7 @@ function script17482(int0: number): [number, string] {
             break;
         }
         case 7606: {
-            string1 = `${string1}<br>- Level <col=ffffff>${inttostring(90, 10)}</col> ${enum_getvalue(17, 36, 680 as cs2enum, 28 as stat)}`;
+            string1 = `${string1}<br>- Level <col=ffffff>${inttostring(90, 10)}</col> ${enum_getvalue(17, 36, 680, 28)}`;
             if ((STAT_BASE(28 as stat) < 90)) {
                 int1 = 0;
             };

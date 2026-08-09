@@ -6,19 +6,30 @@ function script9220(int0: number, int1: number, int2: number, int3: number, int4
     if ((script9224(int2, -1) == 1)) {
         return;
     };
-    if (((INV_FREESPACE(int0) == 0) && ((OC_STACKABLE(int2) == 0) || ((INV_TOTAL(int0, int2) > 0) && ((2147483647 - INV_GETNUM(94 as inv, int3)) < INV_GETNUM(int0, script9250(int0, int2))))))) {
-        if ((int1 == 1)) {
-            printmessage("You don't have enough space in your inventory to do that.");
+    if ((INV_FREESPACE(int0) == 0)) {
+        if ((OC_STACKABLE(int2) == 0)) {
+            if ((int1 == 1)) {
+                printmessage("You don't have enough space in your inventory to do that.");
+            };
+            return;
+        } else if (((INV_TOTAL(int0, int2) > 0) && ((2147483647 - INV_GETNUM(94 as inv, int3)) < INV_GETNUM(int0, script9250(int0, int2))))) {
+            if ((int1 == 1)) {
+                printmessage("You don't have enough space in your inventory to do that.");
+            };
+            return;
         };
-        return;
     };
     var int6 = OC_UNCERT(int2);
     if ((int0 == 93 as inv)) {
         if ((int4 == -1)) {
             script9215(int3, script9249(93));
-        } else if (((int4 >= 0) && (int4 < INV_SIZE(int0)))) {
-            if ((INV_GETOBJ(int0, int4) == -1 as obj)) {
-                script9215(int3, int4);
+        } else if ((int4 >= 0)) {
+            if ((int4 < INV_SIZE(int0))) {
+                if ((INV_GETOBJ(int0, int4) == -1 as obj)) {
+                    script9215(int3, int4);
+                };
+            } else {
+                return;
             };
         } else {
             return;

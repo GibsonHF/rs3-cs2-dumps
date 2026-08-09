@@ -11,12 +11,12 @@ function script7344(): void {
     };
     IF_SETGRAPHIC(enum_getvalue(0, 23, 1024 as cs2enum, varbitplayer_17462), comp(941, 0));
     IF_SETTEXT(`${inttostring(varbitplayer_17463, 10)} ${enum_getvalue(0, 36, 2164 as cs2enum, varbitplayer_17462)}`, comp(941, 1));
-    IF_SETTEXT(`Available at ${inttostring(enum_getvalue(0, 0, 7162 as cs2enum, varbitplayer_17462), 10)} coins each`, comp(941, 2));
-    IF_SETTEXT(`Buy 1 for ${inttostring(enum_getvalue(0, 0, 7162 as cs2enum, varbitplayer_17462), 10)}`, comp(941, 11));
-    IF_SETTEXT(`Buy 5 for ${inttostring((5 * enum_getvalue(0, 0, 7162 as cs2enum, varbitplayer_17462)), 10)}`, comp(941, 12));
-    IF_SETTEXT(`Buy 10 for ${inttostring((10 * enum_getvalue(0, 0, 7162 as cs2enum, varbitplayer_17462)), 10)}`, comp(941, 13));
-    IF_SETTEXT(`Buy 50 for ${inttostring((50 * enum_getvalue(0, 0, 7162 as cs2enum, varbitplayer_17462)), 10)}`, comp(941, 14));
-    IF_SETTEXT(`Buy ${inttostring(varbitplayer_17463, 10)} for ${inttostring((varbitplayer_17463 * enum_getvalue(0, 0, 7162 as cs2enum, varbitplayer_17462)), 10)}`, comp(941, 15));
+    IF_SETTEXT(`Available at ${inttostring(enum_getvalue(0, 0, 7162, varbitplayer_17462), 10)} coins each`, comp(941, 2));
+    IF_SETTEXT(`Buy 1 for ${inttostring(enum_getvalue(0, 0, 7162, varbitplayer_17462), 10)}`, comp(941, 11));
+    IF_SETTEXT(`Buy 5 for ${inttostring((5 * enum_getvalue(0, 0, 7162, varbitplayer_17462)), 10)}`, comp(941, 12));
+    IF_SETTEXT(`Buy 10 for ${inttostring((10 * enum_getvalue(0, 0, 7162, varbitplayer_17462)), 10)}`, comp(941, 13));
+    IF_SETTEXT(`Buy 50 for ${inttostring((50 * enum_getvalue(0, 0, 7162, varbitplayer_17462)), 10)}`, comp(941, 14));
+    IF_SETTEXT(`Buy ${inttostring(varbitplayer_17463, 10)} for ${inttostring((varbitplayer_17463 * enum_getvalue(0, 0, 7162, varbitplayer_17462)), 10)}`, comp(941, 15));
     if ((varbitplayer_17463 < 50)) {
         IF_SETHIDE(true, comp(941, 9));
         IF_SETHIDE(true, comp(941, 14));

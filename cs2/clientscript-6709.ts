@@ -3,13 +3,13 @@ function script6709(int0: number, int1: number): void {
     stack(208896);
     stack(int1);
     DB_FIND(0);
-    dbrow_findnext();
-    var int2 = stack();
+    var int2 = dbrow_findnext();
     var string0 = "";
     var int3 = script6061(int1);
     var int4 = DB_GETFIELDCOUNT(int2, 209056);
     var int5 = -1;
-    while ((++int5 < 3)) {
+    int5 = (int5 + 1);
+    while ((int5 < 3)) {
         if ((int5 < int4)) {
             string0 = dbrow_getfield(int2, 209056, int5);
             switch (int5) {

@@ -18,7 +18,7 @@ function script5431(int0: number): number {
             if (((varclient_1667 == 1) && (varclient_1663 == varclient_1666))) {
                 IF_SETONTIMER(callback(), comp(1167, 1));
                 CC_SETPOSITION(0, 90, 1, 0);
-                SOUND_VORBIS_VOLUME(8103, 1, 0, 200);
+                SOUND_VORBIS_VOLUME(8103 as vorbis, 1, 0, 200);
                 if ((int0 == 0)) {
                     if ((CC_FIND(comp(1167, 1), 2) == 1)) {
                         CC_SETPOSITION(0, 0, 1, 0);
@@ -50,8 +50,13 @@ function script5431(int0: number): number {
                 script5432();
             };
         };
-        if (((int1 > 0) && (int1 < 270))) {
-            CC_SETPOSITION(0, int1, 1, 0);
+        if ((int1 > 0)) {
+            if ((int1 < 270)) {
+                CC_SETPOSITION(0, int1, 1, 0);
+            } else if ((int1 >= 270)) {
+                CC_DELETE();
+                script5433(int0, 0);
+            };
         } else if ((int1 >= 270)) {
             CC_DELETE();
             script5433(int0, 0);

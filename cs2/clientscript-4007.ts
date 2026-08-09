@@ -1,10 +1,10 @@
 //
 function script4007(int0: number): void {
     var string0 = enum_getvalue(9, 36, 10336 as cs2enum, int0);
-    var string1 = enum_getvalue(9, 36, 10337 as cs2enum, int0);
-    var int1 = enum_getvalue(9, 0, 10338 as cs2enum, int0);
+    var string1 = enum_getvalue(9, 36, 10337, int0);
+    var int1 = enum_getvalue(9, 0, 10338, int0);
     var string2 = `Combine ${inttostring(int1, 10)} starlight ore to create ${string0}. You will receive ${inttostring(int1, 10)} Smithing XP.`;
-    if ((int0 == comp(1675, 40))) {
+    if ((int0 == 109772840)) {
         string2 = `Combine ${inttostring(2500, 10)} starlight ore to create a Starborn diamond. This can be used to upgrade items from starfire to starfury.`;
     };
     switch (int0) {

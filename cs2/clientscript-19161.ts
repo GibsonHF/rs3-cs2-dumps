@@ -1,7 +1,7 @@
 //
 function script19161(): void {
     var int0 = script19150(50263);
-    if ((int0 == -1 as dbrow)) {
+    if ((int0 == -1)) {
         return;
     };
     var int1 = dbrow_getfield(int0, 1204592, 0);

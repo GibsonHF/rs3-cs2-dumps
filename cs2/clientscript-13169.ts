@@ -208,8 +208,12 @@ function script13169(int0: number, int1: number): number {
             };
             int10 = AND(varclient_5934, script13250());
             int11 = AND(varclient_5935, 12858);
-            if (((AND(int10, script13250()) == script13250()) && (AND(int11, 12858) == 12858))) {
-                varbitclient_35136 = 0;
+            if ((AND(int10, script13250()) == script13250())) {
+                if ((AND(int11, 12858) == 12858)) {
+                    varbitclient_35136 = 0;
+                } else {
+                    varbitclient_35136 = 1;
+                };
             } else {
                 varbitclient_35136 = 1;
             };
@@ -265,7 +269,8 @@ function script13169(int0: number, int1: number): number {
     var int16 = script13162();
     var int17 = -1;
     if ((int14 <= int16)) {
-        while ((++int17 <= int16)) {
+        int17 = (int17 + 1);
+        while ((int17 <= int16)) {
             int15 = enum_getvalue(0, 73, 12222 as cs2enum, int17);
             if ((int15 != -1 as struct)) {
                 if ((int14 == int17)) {

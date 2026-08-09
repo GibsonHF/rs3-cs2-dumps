@@ -22,7 +22,7 @@ function script14745(): void {
         int3 = 300;
     };
     var int8 = DB_GETFIELDCOUNT(int2, 352528);
-    var int9 = -1 as dbrow;
+    var int9 = -1;
     var int10 = 0;
     if ((int8 > 3)) {
         int3 = (int3 * 2);
@@ -34,10 +34,14 @@ function script14745(): void {
     var int11 = 0;
     var int12 = int6;
     var int13 = 0;
-    while ((++int7 < int8)) {
+    int7 = (int7 + 1);
+    while ((int7 < int8)) {
         int9 = dbrow_getfield(int2, 352528, int7);
-        if ((int9 != -1 as dbrow)) {
-            [int6, int11] = script14746(int0, int6, ++int4, int3, int9, int10, int13, int12);
+        if ((int9 != -1)) {
+            stack(int0);
+            stack(int6);
+            int4 = (int4 + 1);
+            [int6, int11] = script14746(int4, int3, int9, int10, int13, int12);
             if ((MODULO(int4, 2) == 1)) {
                 int12 = int6;
                 int13 = int11;

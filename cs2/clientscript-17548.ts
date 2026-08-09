@@ -5,10 +5,10 @@ function script17548(): void {
         return;
     };
     IF_SETONTIMER(callback(), comp(1181, 2));
-    IF_SETHIDE(1, 77398019);
-    IF_SETHIDE(1, 77398023);
-    IF_SETHIDE(1, 77398020);
-    IF_SETHIDE(1, 77398021);
+    IF_SETHIDE(true, comp(1181, 3));
+    IF_SETHIDE(true, comp(1181, 7));
+    IF_SETHIDE(true, comp(1181, 4));
+    IF_SETHIDE(true, comp(1181, 5));
     var int0 = 180;
     switch (script11319()) {
         case 29: {

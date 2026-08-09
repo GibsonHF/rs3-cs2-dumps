@@ -35,8 +35,196 @@ function script4796(int0: number, int1: number, int2: number, int3: number, int4
     int12 = MAX(int12, 1);
     var int20 = ((((((int14 + int15) + int16) + int17) + int18) + int19) / (int12 * 10));
     int13 = (100 - int20);
-    if (((int13 == 100) && (((int0 != int1) && (int0 != 0)) || (((int2 != int3) && (int2 != 0)) || (((int4 != int5) && (int4 != 0)) || (((int6 != int7) && (int6 != 0)) || (((int8 != int9) && (int8 != 0)) || ((int10 != int11) && (int10 != 0))))))))) {
-        int13 = 99;
+    if ((int13 == 100)) {
+        if ((int0 != int1)) {
+            if ((int0 != 0)) {
+                int13 = 99;
+            } else if ((int2 != int3)) {
+                if ((int2 != 0)) {
+                    int13 = 99;
+                } else if ((int4 != int5)) {
+                    if ((int4 != 0)) {
+                        int13 = 99;
+                    } else if ((int6 != int7)) {
+                        if ((int6 != 0)) {
+                            int13 = 99;
+                        } else if ((int8 != int9)) {
+                            if ((int8 != 0)) {
+                                int13 = 99;
+                            } else if (((int10 != int11) && (int10 != 0))) {
+                                int13 = 99;
+                            };
+                        } else if (((int10 != int11) && (int10 != 0))) {
+                            int13 = 99;
+                        };
+                    } else if ((int8 != int9)) {
+                        if ((int8 != 0)) {
+                            int13 = 99;
+                        } else if (((int10 != int11) && (int10 != 0))) {
+                            int13 = 99;
+                        };
+                    } else if (((int10 != int11) && (int10 != 0))) {
+                        int13 = 99;
+                    };
+                } else if ((int6 != int7)) {
+                    if ((int6 != 0)) {
+                        int13 = 99;
+                    } else if ((int8 != int9)) {
+                        if ((int8 != 0)) {
+                            int13 = 99;
+                        } else if (((int10 != int11) && (int10 != 0))) {
+                            int13 = 99;
+                        };
+                    } else if (((int10 != int11) && (int10 != 0))) {
+                        int13 = 99;
+                    };
+                } else if ((int8 != int9)) {
+                    if ((int8 != 0)) {
+                        int13 = 99;
+                    } else if (((int10 != int11) && (int10 != 0))) {
+                        int13 = 99;
+                    };
+                } else if (((int10 != int11) && (int10 != 0))) {
+                    int13 = 99;
+                };
+            } else if ((int4 != int5)) {
+                if ((int4 != 0)) {
+                    int13 = 99;
+                } else if ((int6 != int7)) {
+                    if ((int6 != 0)) {
+                        int13 = 99;
+                    } else if ((int8 != int9)) {
+                        if ((int8 != 0)) {
+                            int13 = 99;
+                        } else if (((int10 != int11) && (int10 != 0))) {
+                            int13 = 99;
+                        };
+                    } else if (((int10 != int11) && (int10 != 0))) {
+                        int13 = 99;
+                    };
+                } else if ((int8 != int9)) {
+                    if ((int8 != 0)) {
+                        int13 = 99;
+                    } else if (((int10 != int11) && (int10 != 0))) {
+                        int13 = 99;
+                    };
+                } else if (((int10 != int11) && (int10 != 0))) {
+                    int13 = 99;
+                };
+            } else if ((int6 != int7)) {
+                if ((int6 != 0)) {
+                    int13 = 99;
+                } else if ((int8 != int9)) {
+                    if ((int8 != 0)) {
+                        int13 = 99;
+                    } else if (((int10 != int11) && (int10 != 0))) {
+                        int13 = 99;
+                    };
+                } else if (((int10 != int11) && (int10 != 0))) {
+                    int13 = 99;
+                };
+            } else if ((int8 != int9)) {
+                if ((int8 != 0)) {
+                    int13 = 99;
+                } else if (((int10 != int11) && (int10 != 0))) {
+                    int13 = 99;
+                };
+            } else if (((int10 != int11) && (int10 != 0))) {
+                int13 = 99;
+            };
+        } else if ((int2 != int3)) {
+            if ((int2 != 0)) {
+                int13 = 99;
+            } else if ((int4 != int5)) {
+                if ((int4 != 0)) {
+                    int13 = 99;
+                } else if ((int6 != int7)) {
+                    if ((int6 != 0)) {
+                        int13 = 99;
+                    } else if ((int8 != int9)) {
+                        if ((int8 != 0)) {
+                            int13 = 99;
+                        } else if (((int10 != int11) && (int10 != 0))) {
+                            int13 = 99;
+                        };
+                    } else if (((int10 != int11) && (int10 != 0))) {
+                        int13 = 99;
+                    };
+                } else if ((int8 != int9)) {
+                    if ((int8 != 0)) {
+                        int13 = 99;
+                    } else if (((int10 != int11) && (int10 != 0))) {
+                        int13 = 99;
+                    };
+                } else if (((int10 != int11) && (int10 != 0))) {
+                    int13 = 99;
+                };
+            } else if ((int6 != int7)) {
+                if ((int6 != 0)) {
+                    int13 = 99;
+                } else if ((int8 != int9)) {
+                    if ((int8 != 0)) {
+                        int13 = 99;
+                    } else if (((int10 != int11) && (int10 != 0))) {
+                        int13 = 99;
+                    };
+                } else if (((int10 != int11) && (int10 != 0))) {
+                    int13 = 99;
+                };
+            } else if ((int8 != int9)) {
+                if ((int8 != 0)) {
+                    int13 = 99;
+                } else if (((int10 != int11) && (int10 != 0))) {
+                    int13 = 99;
+                };
+            } else if (((int10 != int11) && (int10 != 0))) {
+                int13 = 99;
+            };
+        } else if ((int4 != int5)) {
+            if ((int4 != 0)) {
+                int13 = 99;
+            } else if ((int6 != int7)) {
+                if ((int6 != 0)) {
+                    int13 = 99;
+                } else if ((int8 != int9)) {
+                    if ((int8 != 0)) {
+                        int13 = 99;
+                    } else if (((int10 != int11) && (int10 != 0))) {
+                        int13 = 99;
+                    };
+                } else if (((int10 != int11) && (int10 != 0))) {
+                    int13 = 99;
+                };
+            } else if ((int8 != int9)) {
+                if ((int8 != 0)) {
+                    int13 = 99;
+                } else if (((int10 != int11) && (int10 != 0))) {
+                    int13 = 99;
+                };
+            } else if (((int10 != int11) && (int10 != 0))) {
+                int13 = 99;
+            };
+        } else if ((int6 != int7)) {
+            if ((int6 != 0)) {
+                int13 = 99;
+            } else if ((int8 != int9)) {
+                if ((int8 != 0)) {
+                    int13 = 99;
+                } else if (((int10 != int11) && (int10 != 0))) {
+                    int13 = 99;
+                };
+            } else if (((int10 != int11) && (int10 != 0))) {
+                int13 = 99;
+            };
+        } else if ((int8 != int9)) {
+            if ((int8 != 0)) {
+                int13 = 99;
+            } else if (((int10 != int11) && (int10 != 0))) {
+                int13 = 99;
+            };
+        } else if (((int10 != int11) && (int10 != 0))) {
+            int13 = 99;
+        };
     };
     return int13;
 }

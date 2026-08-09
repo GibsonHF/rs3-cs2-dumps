@@ -4,7 +4,8 @@ function script10933(int0: number): number {
     var int2 = 0;
     var int3 = ENUM_GETOUTPUTCOUNT(15988 as cs2enum);
     var int4 = -1 as inv;
-    while ((++int1 < int3)) {
+    int1 = (int1 + 1);
+    while ((int1 < int3)) {
         int4 = enum_getvalue(0, 39, 15988 as cs2enum, int1);
         switch (int0) {
             case 36153: {

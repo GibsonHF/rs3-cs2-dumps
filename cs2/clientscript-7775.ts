@@ -1,9 +1,9 @@
 //
-function script7775(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, long0: BigInt, string0: string): [number, number] {
+function script7775(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, string0: string, long0: bigint): [number, number] {
     varclient_1700 = int1;
-    var int6 = 29;
+    var int6 = 29 as fontmetrics;
     if ((script6431() == 1)) {
-        int6 = 31;
+        int6 = 31 as fontmetrics;
     };
     var int7 = 202;
     var int8 = 180;
@@ -22,7 +22,7 @@ function script7775(int0: number, int1: number, int2: number, int3: number, int4
         int7 = MAX(int7, (45 + PARAWIDTH(`~${TOSTRING_LOCALISED_LONG(long0, 1)} coins`, int8, int6)));
         int9 = (22 + (15 * PARAHEIGHT(string0, int8, int6)));
         if ((int1 == 2)) {
-            if (branch_gt_long[96](long0, 0n)) {
+            if (LONG_BRANCH_GREATER_THAN(long0, 0n)) {
                 int10 = (int10 + 25);
             } else if (((int4 >= 0) && (int5 >= 0))) {
                 int10 = (int10 + 25);

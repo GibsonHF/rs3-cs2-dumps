@@ -24,9 +24,9 @@ function script12530(): void {
     var int1 = ((IF_GETX(comp(1762, 20)) + IF_GETWIDTH(comp(1762, 20))) + 5);
     IF_SETPOSITION(int1, IF_GETY(comp(1762, 21)), 0, 0, comp(1762, 21));
     IF_SETONVARTRANSMIT(callback(script12531, 6268, 1), comp(1762, 21));
-    IF_SETSIZE(STRINGWIDTH(IF_GETTEXT(115474465), IF_GETFONTMETRICS(115474465)), IF_GETHEIGHT(115474465), 0, 0, 115474465);
-    int1 = ((IF_GETX(115474465) + IF_GETWIDTH(115474465)) + 5);
-    IF_SETPOSITION(int1, IF_GETY(115474466), 0, 0, 115474466);
+    IF_SETSIZE(STRINGWIDTH(IF_GETTEXT(comp(1762, 33)), IF_GETFONTMETRICS(comp(1762, 33))), IF_GETHEIGHT(comp(1762, 33)), 0, 0, comp(1762, 33));
+    int1 = ((IF_GETX(comp(1762, 33)) + IF_GETWIDTH(comp(1762, 33))) + 5);
+    IF_SETPOSITION(int1, IF_GETY(comp(1762, 34)), 0, 0, comp(1762, 34));
     if ((varplayer_6269 == 2)) {
         IF_SETPOSITION(128, IF_GETY(comp(1762, 41)), 0, 0, comp(1762, 41));
         IF_SETPOSITION(224, IF_GETY(comp(1762, 42)), 0, 0, comp(1762, 42));

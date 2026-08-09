@@ -45,7 +45,7 @@ function script5999(int0: number, int1: number, int2: number, int3: number, stri
         }
         case 5: {
             int9 = 20;
-            int6 = 17489 as obj;
+            int6 = 17489;
             string1 = string0;
             var string0 = "";
             int10 = 6;
@@ -55,7 +55,7 @@ function script5999(int0: number, int1: number, int2: number, int3: number, stri
         }
         case 6: {
             int9 = 20;
-            int6 = 29468 as obj;
+            int6 = 29468;
             string1 = string0;
             string0 = "";
             int10 = 6;
@@ -65,7 +65,7 @@ function script5999(int0: number, int1: number, int2: number, int3: number, stri
         }
         case 7: {
             int9 = 20;
-            int6 = 18829 as obj;
+            int6 = 18829;
             string1 = string0;
             string0 = "";
             int10 = 6;
@@ -80,31 +80,31 @@ function script5999(int0: number, int1: number, int2: number, int3: number, stri
             int4 = (67 + int3);
             switch (int3) {
                 case 1: {
-                    int5 = 2825 as graphic;
+                    int5 = 2825;
                     int10 = 6;
                     int11 = 20;
                     break;
                 }
                 case 2: {
-                    int5 = 2826 as graphic;
+                    int5 = 2826;
                     int10 = 20;
                     int11 = 20;
                     break;
                 }
                 case 3: {
-                    int5 = 2827 as graphic;
+                    int5 = 2827;
                     int10 = 13;
                     int11 = 13;
                     break;
                 }
                 case 4: {
-                    int5 = 2828 as graphic;
+                    int5 = 2828;
                     int10 = 6;
                     int11 = 6;
                     break;
                 }
                 case 5: {
-                    int5 = 2829 as graphic;
+                    int5 = 2829;
                     int10 = 20;
                     int11 = 6;
                     break;
@@ -128,7 +128,7 @@ function script5999(int0: number, int1: number, int2: number, int3: number, stri
         CC_SETTEXTALIGN(0, 1, 0);
         CC_SETTEXTSHADOW(true);
         CC_SETCOLOUR(16777215);
-        string0 = `${enum_getvalue(0, 36, 108 as cs2enum, int3)} ${string0}`;
+        string0 = `${enum_getvalue(0, 36, 108, int3)} ${string0}`;
     };
     if ((strcmp(string1, "") != 0)) {
         CC_SETONMOUSEREPEAT(callback(script3282, -2147483645, -2147483643, 61734922, string1));

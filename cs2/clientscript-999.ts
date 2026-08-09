@@ -4,8 +4,8 @@ function script999(int0: number): string {
     if ((int1 == -1 as dbrow)) {
         return "Unknown";
     };
-    var int2 = -1 as cs2enum;
-    var int3 = -1 as cs2enum;
+    var int2 = -1;
+    var int3 = -1;
     [int2, int3] = dbrow_getfield(int1, 119456, 0);
     if ((INV_GETVAR(varclient_5121, varclient_5122, 41803) == 0)) {
         return enum_getvalue(0, 36, int2, INV_GETVAR(varclient_5121, varclient_5122, 41802));

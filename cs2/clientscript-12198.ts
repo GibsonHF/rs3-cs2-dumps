@@ -1,15 +1,14 @@
 //
 function script12198(int0: number, int1: number): [number, number] {
     if ((int0 == 0)) {
-        return [-1 as graphic, -1];
+        return [-1, -1];
     };
     stack(32768);
     stack(int0);
     DB_FIND(0);
-    dbrow_findnext();
-    var int2 = stack();
+    var int2 = dbrow_findnext();
     if ((int2 == -1)) {
-        return [-1 as graphic, -1];
+        return [-1, -1];
     };
     var int3 = -1;
     if ((DB_GETFIELDCOUNT(int2, 32880) > 1)) {

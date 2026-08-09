@@ -11,8 +11,12 @@ function script20519(): void {
         if ((int4 != -1)) {
             if ((struct_getparam(int4, 3533) == true)) {
                 if ((CC_FIND(comp(1475, 3), int2) == 1)) {
-                    if (((cc_getparam(7194) == 1) && (int0 == 1))) {
-                        script8393(int2, 1);
+                    if ((cc_getparam(7194) == 1)) {
+                        if ((int0 == 1)) {
+                            script8393(int2, 1);
+                        } else {
+                            script8393(int2, 0);
+                        };
                     } else {
                         script8393(int2, 0);
                     };

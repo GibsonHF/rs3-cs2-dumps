@@ -1,32 +1,32 @@
 //
 function script15430(int0: number, int1: number): void {
-    var int2 = comp(-1, 65535);
-    var int3 = comp(-1, 65535);
-    var int4 = comp(-1, 65535);
+    var int2 = -1;
+    var int3 = -1;
+    var int4 = -1;
     switch (int0) {
         case 1: {
-            int2 = comp(760, 60);
-            int3 = comp(760, 62);
-            int4 = comp(760, 61);
+            int2 = 49807420;
+            int3 = 49807422;
+            int4 = 49807421;
             break;
         }
         case 2: {
-            int2 = comp(760, 65);
-            int3 = comp(760, 67);
-            int4 = comp(760, 66);
+            int2 = 49807425;
+            int3 = 49807427;
+            int4 = 49807426;
             break;
         }
     };
     CC_DELETEALL(int4);
-    if ((int1 == -1 as dbrow)) {
+    if ((int1 == -1)) {
         return;
     };
     var string0 = "";
     var int5 = dbrow_getfield(int1, 987152, 0);
     var int6 = dbrow_getfield(int1, 987168, 0);
-    var int7 = -1 as obj;
+    var int7 = -1;
     var int8 = 0;
-    var int9 = -1 as graphic;
+    var int9 = -1;
     var int10 = 0;
     var int11 = 0;
     [int9, int10, int11] = dbrow_getfield(int1, 987200, 0);
@@ -41,14 +41,14 @@ function script15430(int0: number, int1: number): void {
             string0 = `Increase all multipliers on the trail by <col=FF00>${inttostring(int6, 10)}</col>!<br>(Max multiplier: x8)`;
         };
         script8023(int4, 0, IF_GETNEXTSUBID(int4), 0, 0, 1, 1, int10, int11, 0, 0, int9);
-    } else if (((int7 != -1 as obj) && (int8 > 0))) {
+    } else if (((int7 != -1) && (int8 > 0))) {
         IF_SETTEXT("Reward Item", int2);
         if ((int8 > 1)) {
             string0 = `${inttostring(int8, 10)} x ${OC_NAME(int7)}`;
         } else {
             string0 = OC_NAME(int7);
         };
-        if ((int9 != -1 as graphic)) {
+        if ((int9 != -1)) {
             script8023(int4, 0, IF_GETNEXTSUBID(int4), 0, 0, 1, 1, int10, int11, 0, 0, int9);
         } else {
             script15941(int4, 0, IF_GETNEXTSUBID(int4), 0, 0, 1, 1, 100, 100, 0, 0);

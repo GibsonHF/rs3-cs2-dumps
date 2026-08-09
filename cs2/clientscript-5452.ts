@@ -9,9 +9,9 @@ function script5452(int0: number, int1: number, int2: number): void {
     IF_SETHIDE(false, comp(90, 164));
     IF_SETOBJECT_NONUM(dbrow_getfield(int0, 155936, 0), 0, comp(90, 169));
     IF_SETMODELZOOM(dbrow_getfield(int0, 155952, 0), comp(90, 169));
-    IF_SETTEXT(dbrow_getfield(int0, 155648, 0), comp(90, 172));
+    IF_SETTEXT(dbrow_getfield(int0, 155648, 0), 5898412);
     var int3 = 0;
-    var int4 = -1 as dbrow;
+    var int4 = -1;
     var string0 = "";
     var int5 = 0;
     var int6 = 0;
@@ -37,7 +37,7 @@ function script5452(int0: number, int1: number, int2: number): void {
         } else {
             while ((int3 < int12)) {
                 int4 = dbrow_getfield(int0, 155920, int3);
-                if ((dbrow_getfield(int4, 159824, 0) == true)) {
+                if ((dbrow_getfield(int4, 159824, 0) == 1)) {
                     int5 = 1;
                 } else {
                     switch (dbrow_getfield(int4, 159776, 0)) {
@@ -59,6 +59,28 @@ function script5452(int0: number, int1: number, int2: number): void {
             };
         };
     } else {
+        while ((int3 < int12)) {
+            int4 = dbrow_getfield(int0, 155920, int3);
+            if ((dbrow_getfield(int4, 159824, 0) == 1)) {
+                int5 = 1;
+            } else {
+                switch (dbrow_getfield(int4, 159776, 0)) {
+                    case 1: {
+                        int6 = 1;
+                        break;
+                    }
+                    case 2: {
+                        int7 = 1;
+                        break;
+                    }
+                    case 3: {
+                        int8 = 1;
+                        break;
+                    }
+                };
+            };
+            int3 = (int3 + 1);
+        };
     };
     if ((int5 == 1)) {
         string0 = `${string0}Breeding pens.<br>`;
@@ -88,13 +110,13 @@ function script5452(int0: number, int1: number, int2: number): void {
     if ((int13 > 0)) {
         string0 = `${string0}${inttostring(int13, 10)} beans per month.<br>`;
     };
-    if ((dbrow_getfield(int0, 155696, 0) == true)) {
+    if ((dbrow_getfield(int0, 155696, 0) == 1)) {
         string0 = `${string0}Babysitter.<br>`;
     };
-    if ((dbrow_getfield(int0, 155824, 0) == true)) {
+    if ((dbrow_getfield(int0, 155824, 0) == 1)) {
         string0 = `${string0}Collector.<br>`;
     };
-    if ((dbrow_getfield(int0, 155840, 0) == true)) {
+    if ((dbrow_getfield(int0, 155840, 0) == 1)) {
         string0 = `${string0}Trapper.`;
     };
     if ((dbrow_getfield(int0, 155712, 0) == 1)) {
@@ -116,7 +138,7 @@ function script5452(int0: number, int1: number, int2: number): void {
         string0 = `${string0}Boosts materials.<br>`;
     };
     IF_SETTEXT(string0, comp(90, 171));
-    IF_SETTEXT(dbrow_getfield(int0, 155664, 0), comp(90, 168));
+    IF_SETTEXT(dbrow_getfield(int0, 155664, 0), 5898408);
     if ((int1 == 1)) {
         IF_SETHIDE(false, comp(90, 175));
         IF_SETHIDE(true, comp(90, 174));

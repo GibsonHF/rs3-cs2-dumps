@@ -11,23 +11,23 @@ function script8411(int0: number, int1: number): void {
     };
     var int4 = comp(-1, 65535);
     var int5 = comp(-1, 65535);
-    var int6 = comp(-1, 65535);
+    var int6 = -1;
     var int7 = comp(-1, 65535);
-    var int8 = comp(-1, 65535);
-    var int9 = comp(-1, 65535);
-    var int10 = comp(-1, 65535);
-    var int11 = comp(-1, 65535);
-    var int12 = comp(-1, 65535);
-    var int13 = comp(-1, 65535);
-    var int14 = comp(-1, 65535);
-    var int15 = comp(-1, 65535);
-    var int16 = comp(-1, 65535);
+    var int8 = -1;
+    var int9 = -1;
+    var int10 = -1;
+    var int11 = -1;
+    var int12 = -1;
+    var int13 = -1;
+    var int14 = -1;
+    var int15 = -1;
+    var int16 = -1;
     var int17 = 0;
-    var int18 = false;
+    var int18 = 0;
     var int19 = false;
     var int20 = 0;
-    var int21 = false;
-    var int22 = false;
+    var int21 = 0;
+    var int22 = 0;
     var int23 = 0;
     var int24 = 0;
     var int25 = 0;
@@ -66,7 +66,11 @@ function script8411(int0: number, int1: number): void {
     };
     int19 = struct_getparam(int3, 3545);
     int24 = struct_getparam(int3, 3546);
-    if ((((int1 == 1) && (script8314(int0) != -1)) || (int32 == 1))) {
+    if ((int1 == 1)) {
+        if (((script8314(int0) != -1) || (int32 == 1))) {
+            int25 = 1;
+        };
+    } else if ((int32 == 1)) {
         int25 = 1;
     };
     if ((((int0 == 32) && (int1 == 1)) && (varplayer_12314 > 0))) {
@@ -79,11 +83,64 @@ function script8411(int0: number, int1: number): void {
     var int36 = script12616(int2);
     var int37 = 1;
     var int38 = false;
-    if (((struct_getparam(int2, 3734) == 0) || (((int0 == 1000) && (IF_HASSUBOVERLAY(comp(1477, 31), 1421 as overlayinterface) == 1)) || ((int0 == 1004) && (varbitplayer_60446 == 1))))) {
+    if ((struct_getparam(int2, 3734) == 0)) {
         int37 = 0;
-    } else if ((((struct_getparam(int2, 3734) == 1) && (varbitplayer_20188 == 1)) || ((int1 == 0) && (int36 == 1)))) {
+    } else if ((int0 == 1000)) {
+        if ((IF_HASSUBOVERLAY(comp(1477, 31), 1421 as overlayinterface) == 1)) {
+            int37 = 0;
+        } else if ((int0 == 1004)) {
+            if ((varbitplayer_60446 == 1)) {
+                int37 = 0;
+            } else if ((struct_getparam(int2, 3734) == 1)) {
+                if ((varbitplayer_20188 == 1)) {
+                    int37 = 0;
+                    int38 = 1;
+                } else if (((int1 == 0) && (int36 == 1))) {
+                    int37 = 0;
+                    int38 = 1;
+                };
+            } else if (((int1 == 0) && (int36 == 1))) {
+                int37 = 0;
+                int38 = 1;
+            };
+        } else if ((struct_getparam(int2, 3734) == 1)) {
+            if ((varbitplayer_20188 == 1)) {
+                int37 = 0;
+                int38 = 1;
+            } else if (((int1 == 0) && (int36 == 1))) {
+                int37 = 0;
+                int38 = 1;
+            };
+        } else if (((int1 == 0) && (int36 == 1))) {
+            int37 = 0;
+            int38 = 1;
+        };
+    } else if ((int0 == 1004)) {
+        if ((varbitplayer_60446 == 1)) {
+            int37 = 0;
+        } else if ((struct_getparam(int2, 3734) == 1)) {
+            if ((varbitplayer_20188 == 1)) {
+                int37 = 0;
+                int38 = 1;
+            } else if (((int1 == 0) && (int36 == 1))) {
+                int37 = 0;
+                int38 = 1;
+            };
+        } else if (((int1 == 0) && (int36 == 1))) {
+            int37 = 0;
+            int38 = 1;
+        };
+    } else if ((struct_getparam(int2, 3734) == 1)) {
+        if ((varbitplayer_20188 == 1)) {
+            int37 = 0;
+            int38 = 1;
+        } else if (((int1 == 0) && (int36 == 1))) {
+            int37 = 0;
+            int38 = 1;
+        };
+    } else if (((int1 == 0) && (int36 == 1))) {
         int37 = 0;
-        int38 = true;
+        int38 = 1;
     };
     if ((int4 != comp(-1, 65535))) {
         IF_SETNOCLICKTHROUGH(int37, int4);
@@ -125,7 +182,7 @@ function script8411(int0: number, int1: number): void {
             CC_SETSIZE(4, (struct_getparam(int3, 3547) - 2), 1, 0);
             CC_SETGRAPHIC(2752 as graphic);
             CC_SETPOSITION(2, 2, 0, 0);
-            if ((int18 == true)) {
+            if ((int18 == 1)) {
                 script8412(int0);
             } else if ((int1 == 1)) {
                 script8413(int4, int0);
@@ -142,7 +199,7 @@ function script8411(int0: number, int1: number): void {
             CC_SETGRAPHIC(struct_getparam(int3, 3619));
             CC_SETTILING(true);
             if ((int24 == 2)) {
-                if ((int18 == true)) {
+                if ((int18 == 1)) {
                     script8412(int0);
                 } else if ((int1 == 1)) {
                     script8413(int4, int0);
@@ -181,7 +238,7 @@ function script8411(int0: number, int1: number): void {
                 script8414(int0, 3);
             } else if ((int17 == 2)) {
                 script8414(int0, 1);
-            } else if ((int18 == true)) {
+            } else if ((int18 == 1)) {
                 script8412(int0);
             };
             CC_CREATE(int7, 5, 1);
@@ -195,7 +252,7 @@ function script8411(int0: number, int1: number): void {
                 script8414(int0, 4);
             } else if ((int17 == 2)) {
                 script8414(int0, 1);
-            } else if ((int18 == true)) {
+            } else if ((int18 == 1)) {
                 script8412(int0);
             };
             CC_CREATE(int7, 5, 2);
@@ -207,7 +264,7 @@ function script8411(int0: number, int1: number): void {
                 script8414(int0, 1);
             } else if ((int17 == 1)) {
                 script8414(int0, -1);
-            } else if ((int18 == true)) {
+            } else if ((int18 == 1)) {
                 script8412(int0);
             };
             CC_CREATE(int7, 5, 3);
@@ -242,7 +299,7 @@ function script8411(int0: number, int1: number): void {
                     script8414(int0, 3);
                 } else if ((int17 == 2)) {
                     script8414(int0, 1);
-                } else if ((int18 == true)) {
+                } else if ((int18 == 1)) {
                     script8412(int0);
                 };
             };
@@ -251,7 +308,7 @@ function script8411(int0: number, int1: number): void {
             CC_SETSIZE((2 * struct_getparam(int3, 3587)), struct_getparam(int3, 3586), 1, 0);
             CC_SETNOCLICKTHROUGH(int38);
             CC_SETGRAPHIC(2752 as graphic);
-            if (((int24 == 3) && (int18 == true))) {
+            if (((int24 == 3) && (int18 == 1))) {
                 script8412(int0);
             };
             CC_CREATE(int7, 5, 7);
@@ -266,7 +323,7 @@ function script8411(int0: number, int1: number): void {
                     script8414(int0, 4);
                 } else if ((int17 == 2)) {
                     script8414(int0, 1);
-                } else if ((int18 == true)) {
+                } else if ((int18 == 1)) {
                     script8412(int0);
                 };
             };
@@ -330,8 +387,12 @@ function script8411(int0: number, int1: number): void {
                 CC_SETHIDE(true);
             } else {
                 CC_SETSIZE(0, struct_getparam(int3, 3547), 1, 0);
-                if (((struct_getparam(int2, 3495) != -1 as graphic) && (struct_getparam(int3, 3567) > 0))) {
-                    CC_SETPOSITION((28 + struct_getparam(int3, 3567)), 0, 0, 0);
+                if ((struct_getparam(int2, 3495) != -1 as graphic)) {
+                    if ((struct_getparam(int3, 3567) > 0)) {
+                        CC_SETPOSITION((28 + struct_getparam(int3, 3567)), 0, 0, 0);
+                    } else {
+                        CC_SETPOSITION(20, 0, 0, 0);
+                    };
                 } else {
                     CC_SETPOSITION(20, 0, 0, 0);
                 };
@@ -340,12 +401,12 @@ function script8411(int0: number, int1: number): void {
                 CC_SETCOLOUR(script10495(0));
                 CC_SETTEXTSHADOW(true);
                 CC_SETMAXLINES(2);
-                CC_SETTEXTALIGN(0, 1, enum_getvalue(25, 0, 8549 as cs2enum, 57 as fontmetrics));
-                if ((struct_getparam(int2, 3495) != -1 as graphic)) {
+                CC_SETTEXTALIGN(0, 1, enum_getvalue(25, 0, 8549, 57));
+                if ((struct_getparam(int2, 3495) != -1)) {
                     CC_CREATE(int7, 5, 16);
                     CC_SETPOSITION(5, 0, 0, 0);
                     CC_SETSIZE(32, 32, 0, 0);
-                    if ((struct_getparam(int2, 8097) != -1 as graphic)) {
+                    if ((struct_getparam(int2, 8097) != -1)) {
                         CC_SETGRAPHIC(struct_getparam(int2, 8097));
                     } else {
                         CC_SETGRAPHIC(struct_getparam(int2, 3495));
@@ -368,7 +429,7 @@ function script8411(int0: number, int1: number): void {
             CC_SETTILING(true);
             CC_SETNOCLICKTHROUGH(int38);
             if ((int24 == 1)) {
-                if ((int18 == true)) {
+                if ((int18 == 1)) {
                     script8412(int0);
                 } else if ((int1 == 1)) {
                     script8413(int4, int0);
@@ -388,7 +449,7 @@ function script8411(int0: number, int1: number): void {
                 script8414(int0, 3);
             } else if ((int17 == 2)) {
                 script8414(int0, 1);
-            } else if ((int18 == true)) {
+            } else if ((int18 == 1)) {
                 script8412(int0);
             };
             CC_CREATE(int7, 5, 2);
@@ -408,7 +469,7 @@ function script8411(int0: number, int1: number): void {
                 script8414(int0, 4);
             } else if ((int17 == 2)) {
                 script8414(int0, 1);
-            } else if ((int18 == true)) {
+            } else if ((int18 == 1)) {
                 script8412(int0);
             };
             CC_CREATE(int7, 5, 3);
@@ -421,7 +482,7 @@ function script8411(int0: number, int1: number): void {
             CC_SETTILING(true);
             CC_SETNOCLICKTHROUGH(int38);
             if ((int24 == 1)) {
-                if ((int18 == true)) {
+                if ((int18 == 1)) {
                     script8412(int0);
                 } else if ((int1 == 1)) {
                     script8413(int4, int0);
@@ -440,7 +501,7 @@ function script8411(int0: number, int1: number): void {
             };
             CC_SETNOCLICKTHROUGH(int38);
             if ((int24 == 1)) {
-                if ((int18 == true)) {
+                if ((int18 == 1)) {
                     script8412(int0);
                 } else if ((int1 == 1)) {
                     script8413(int4, int0);
@@ -459,7 +520,7 @@ function script8411(int0: number, int1: number): void {
                 script8414(int0, 1);
             } else if ((int17 == 1)) {
                 script8414(int0, -1);
-            } else if ((int18 == true)) {
+            } else if ((int18 == 1)) {
                 script8412(int0);
             };
             CC_CREATE(int7, 5, 6);
@@ -508,7 +569,7 @@ function script8411(int0: number, int1: number): void {
                     script8414(int0, 3);
                 } else if ((int17 == 2)) {
                     script8414(int0, 1);
-                } else if ((int18 == true)) {
+                } else if ((int18 == 1)) {
                     script8412(int0);
                 };
             };
@@ -521,7 +582,7 @@ function script8411(int0: number, int1: number): void {
             CC_SETGRAPHIC(struct_getparam(int3, 3620));
             CC_SETTILING(true);
             CC_SETNOCLICKTHROUGH(int38);
-            if (((int24 == 3) && (int18 == true))) {
+            if (((int24 == 3) && (int18 == 1))) {
                 script8412(int0);
             };
             CC_CREATE(int7, 5, 10);
@@ -540,7 +601,7 @@ function script8411(int0: number, int1: number): void {
                     script8414(int0, 4);
                 } else if ((int17 == 2)) {
                     script8414(int0, 1);
-                } else if ((int18 == true)) {
+                } else if ((int18 == 1)) {
                     script8412(int0);
                 };
             };
@@ -595,13 +656,13 @@ function script8411(int0: number, int1: number): void {
             if ((int1 == 0)) {
                 script12591(0, int2);
             };
-            if ((int19 == false)) {
+            if ((int19 == 0)) {
                 CC_SETHIDE(true);
             } else {
                 if ((int3 != 29114)) {
                     int33 = 0;
                 };
-                if ((struct_getparam(int2, 3495) != -1 as graphic)) {
+                if ((struct_getparam(int2, 3495) != -1)) {
                     CC_SETPOSITION((5 + struct_getparam(int3, 3552)), int33, 0, 0);
                     CC_SETSIZE(((5 + struct_getparam(int3, 3554)) + struct_getparam(int3, 3552)), (int26 - int33), 1, 0);
                 } else {
@@ -621,7 +682,7 @@ function script8411(int0: number, int1: number): void {
             CC_SETPOSITION(struct_getparam(int3, 3571), struct_getparam(int3, 3572), 0, 0);
             CC_SETSIZE(struct_getparam(int3, 3567), struct_getparam(int3, 3568), 0, 0);
             CC_SETGRAPHIC(struct_getparam(int2, 3495));
-            if ((int8 != comp(-1, 65535))) {
+            if ((int8 != -1)) {
                 CC_CREATE(int8, 5, 0);
                 CC_SETPOSITION(0, 0, 0, 0);
                 CC_SETSIZE(1, 1, 0, 0);
@@ -658,14 +719,143 @@ function script8411(int0: number, int1: number): void {
             };
         };
     };
-    if ((int9 != comp(-1, 65535))) {
+    if ((int9 != -1)) {
         CC_DELETEALL(int9);
         if ((struct_getparam(int3, 8094) == 1)) {
-            if ((((((((int32 == 1) || (int36 == 1)) && (int20 == 1)) && (int0 != 1001)) && (int0 != 1008)) && (int0 != 17)) && (enum_getreversecount(0, 7717 as cs2enum, int0) != 0))) {
-                IF_SETHIDE(true, int9);
+            if (((int32 == 1) || (int36 == 1))) {
+                if ((int20 == 1)) {
+                    if ((int0 != 1001)) {
+                        if ((int0 != 1008)) {
+                            if ((int0 != 17)) {
+                                if ((enum_getreversecount(0, 7717 as cs2enum, int0) != 0)) {
+                                    IF_SETHIDE(true, int9);
+                                } else {
+                                    if ((int0 == 17)) {
+                                        if ((varplayer_3871 == 0)) {
+                                            IF_SETHIDE(true, int9);
+                                        } else {
+                                            IF_SETHIDE(false, int9);
+                                        };
+                                    } else {
+                                        IF_SETHIDE(false, int9);
+                                    };
+                                    IF_SETPOSITION(0, 0, 0, 0, int9);
+                                    IF_SETSIZE(0, 0, 1, 1, int9);
+                                    CC_CREATE(int9, 5, 0);
+                                    CC_SETPOSITION(struct_getparam(int3, 3575), struct_getparam(int3, 3576), 2, 0);
+                                    CC_SETSIZE(struct_getparam(int3, 3563), struct_getparam(int3, 3564), 0, 0);
+                                    CC_SETOP(1, "Close Window");
+                                    CC_SETONOP(callback(script8320, int0));
+                                    CC_SETNOCLICKTHROUGH(true);
+                                    CC_CREATE(int9, 5, 1);
+                                    CC_SETNOCLICKTHROUGH(false);
+                                    CC_SETPOSITION(struct_getparam(int3, 3573), struct_getparam(int3, 3574), 2, 0);
+                                    CC_SETSIZE(struct_getparam(int3, 3565), int30, 0, 0);
+                                    CC_SETGRAPHIC(struct_getparam(int3, 3602));
+                                };
+                            } else {
+                                if ((int0 == 17)) {
+                                    if ((varplayer_3871 == 0)) {
+                                        IF_SETHIDE(true, int9);
+                                    } else {
+                                        IF_SETHIDE(false, int9);
+                                    };
+                                } else {
+                                    IF_SETHIDE(false, int9);
+                                };
+                                IF_SETPOSITION(0, 0, 0, 0, int9);
+                                IF_SETSIZE(0, 0, 1, 1, int9);
+                                CC_CREATE(int9, 5, 0);
+                                CC_SETPOSITION(struct_getparam(int3, 3575), struct_getparam(int3, 3576), 2, 0);
+                                CC_SETSIZE(struct_getparam(int3, 3563), struct_getparam(int3, 3564), 0, 0);
+                                CC_SETOP(1, "Close Window");
+                                CC_SETONOP(callback(script8320, int0));
+                                CC_SETNOCLICKTHROUGH(true);
+                                CC_CREATE(int9, 5, 1);
+                                CC_SETNOCLICKTHROUGH(false);
+                                CC_SETPOSITION(struct_getparam(int3, 3573), struct_getparam(int3, 3574), 2, 0);
+                                CC_SETSIZE(struct_getparam(int3, 3565), int30, 0, 0);
+                                CC_SETGRAPHIC(struct_getparam(int3, 3602));
+                            };
+                        } else {
+                            if ((int0 == 17)) {
+                                if ((varplayer_3871 == 0)) {
+                                    IF_SETHIDE(true, int9);
+                                } else {
+                                    IF_SETHIDE(false, int9);
+                                };
+                            } else {
+                                IF_SETHIDE(false, int9);
+                            };
+                            IF_SETPOSITION(0, 0, 0, 0, int9);
+                            IF_SETSIZE(0, 0, 1, 1, int9);
+                            CC_CREATE(int9, 5, 0);
+                            CC_SETPOSITION(struct_getparam(int3, 3575), struct_getparam(int3, 3576), 2, 0);
+                            CC_SETSIZE(struct_getparam(int3, 3563), struct_getparam(int3, 3564), 0, 0);
+                            CC_SETOP(1, "Close Window");
+                            CC_SETONOP(callback(script8320, int0));
+                            CC_SETNOCLICKTHROUGH(true);
+                            CC_CREATE(int9, 5, 1);
+                            CC_SETNOCLICKTHROUGH(false);
+                            CC_SETPOSITION(struct_getparam(int3, 3573), struct_getparam(int3, 3574), 2, 0);
+                            CC_SETSIZE(struct_getparam(int3, 3565), int30, 0, 0);
+                            CC_SETGRAPHIC(struct_getparam(int3, 3602));
+                        };
+                    } else {
+                        if ((int0 == 17)) {
+                            if ((varplayer_3871 == 0)) {
+                                IF_SETHIDE(true, int9);
+                            } else {
+                                IF_SETHIDE(false, int9);
+                            };
+                        } else {
+                            IF_SETHIDE(false, int9);
+                        };
+                        IF_SETPOSITION(0, 0, 0, 0, int9);
+                        IF_SETSIZE(0, 0, 1, 1, int9);
+                        CC_CREATE(int9, 5, 0);
+                        CC_SETPOSITION(struct_getparam(int3, 3575), struct_getparam(int3, 3576), 2, 0);
+                        CC_SETSIZE(struct_getparam(int3, 3563), struct_getparam(int3, 3564), 0, 0);
+                        CC_SETOP(1, "Close Window");
+                        CC_SETONOP(callback(script8320, int0));
+                        CC_SETNOCLICKTHROUGH(true);
+                        CC_CREATE(int9, 5, 1);
+                        CC_SETNOCLICKTHROUGH(false);
+                        CC_SETPOSITION(struct_getparam(int3, 3573), struct_getparam(int3, 3574), 2, 0);
+                        CC_SETSIZE(struct_getparam(int3, 3565), int30, 0, 0);
+                        CC_SETGRAPHIC(struct_getparam(int3, 3602));
+                    };
+                } else {
+                    if ((int0 == 17)) {
+                        if ((varplayer_3871 == 0)) {
+                            IF_SETHIDE(true, int9);
+                        } else {
+                            IF_SETHIDE(false, int9);
+                        };
+                    } else {
+                        IF_SETHIDE(false, int9);
+                    };
+                    IF_SETPOSITION(0, 0, 0, 0, int9);
+                    IF_SETSIZE(0, 0, 1, 1, int9);
+                    CC_CREATE(int9, 5, 0);
+                    CC_SETPOSITION(struct_getparam(int3, 3575), struct_getparam(int3, 3576), 2, 0);
+                    CC_SETSIZE(struct_getparam(int3, 3563), struct_getparam(int3, 3564), 0, 0);
+                    CC_SETOP(1, "Close Window");
+                    CC_SETONOP(callback(script8320, int0));
+                    CC_SETNOCLICKTHROUGH(true);
+                    CC_CREATE(int9, 5, 1);
+                    CC_SETNOCLICKTHROUGH(false);
+                    CC_SETPOSITION(struct_getparam(int3, 3573), struct_getparam(int3, 3574), 2, 0);
+                    CC_SETSIZE(struct_getparam(int3, 3565), int30, 0, 0);
+                    CC_SETGRAPHIC(struct_getparam(int3, 3602));
+                };
             } else {
-                if (((int0 == 17) && (varplayer_3871 == 0))) {
-                    IF_SETHIDE(true, int9);
+                if ((int0 == 17)) {
+                    if ((varplayer_3871 == 0)) {
+                        IF_SETHIDE(true, int9);
+                    } else {
+                        IF_SETHIDE(false, int9);
+                    };
                 } else {
                     IF_SETHIDE(false, int9);
                 };
@@ -676,9 +866,9 @@ function script8411(int0: number, int1: number): void {
                 CC_SETSIZE(struct_getparam(int3, 3563), struct_getparam(int3, 3564), 0, 0);
                 CC_SETOP(1, "Close Window");
                 CC_SETONOP(callback(script8320, int0));
-                CC_SETNOCLICKTHROUGH(1);
+                CC_SETNOCLICKTHROUGH(true);
                 CC_CREATE(int9, 5, 1);
-                CC_SETNOCLICKTHROUGH(0);
+                CC_SETNOCLICKTHROUGH(false);
                 CC_SETPOSITION(struct_getparam(int3, 3573), struct_getparam(int3, 3574), 2, 0);
                 CC_SETSIZE(struct_getparam(int3, 3565), int30, 0, 0);
                 CC_SETGRAPHIC(struct_getparam(int3, 3602));
@@ -686,11 +876,255 @@ function script8411(int0: number, int1: number): void {
         } else {
             IF_SETPOSITION(0, 0, 0, 0, int9);
             IF_SETSIZE(0, 0, 1, 1, int9);
-            if ((((((((int32 == 1) || (int36 == 1)) && (int20 == 1)) && (int0 != 1001)) && (int0 != 1008)) && (int0 != 17)) && (enum_getreversecount(0, 7717 as cs2enum, int0) != 0))) {
-                IF_SETHIDE(true, int9);
+            if (((int32 == 1) || (int36 == 1))) {
+                if ((int20 == 1)) {
+                    if ((int0 != 1001)) {
+                        if ((int0 != 1008)) {
+                            if ((int0 != 17)) {
+                                if ((enum_getreversecount(0, 7717 as cs2enum, int0) != 0)) {
+                                    IF_SETHIDE(true, int9);
+                                } else {
+                                    if ((int0 == 17)) {
+                                        if ((varplayer_3871 == 0)) {
+                                            IF_SETHIDE(true, int9);
+                                        } else {
+                                            IF_SETHIDE(false, int9);
+                                        };
+                                    } else {
+                                        IF_SETHIDE(false, int9);
+                                    };
+                                    CC_CREATE(int9, 5, 0);
+                                    CC_SETPOSITION(struct_getparam(int3, 3575), struct_getparam(int3, 3576), 2, 0);
+                                    CC_SETSIZE(struct_getparam(int3, 3563), struct_getparam(int3, 3564), 0, 0);
+                                    if ((int20 == 1)) {
+                                        CC_SETGRAPHIC(struct_getparam(int3, 3601));
+                                    } else if ((int21 == 1)) {
+                                        CC_SETGRAPHIC(struct_getparam(int3, 3604));
+                                    };
+                                    CC_CREATE(int9, 5, 1);
+                                    CC_SETPOSITION(struct_getparam(int3, 3573), struct_getparam(int3, 3574), 2, 0);
+                                    CC_SETSIZE(struct_getparam(int3, 3565), int30, 0, 0);
+                                    if ((int20 == 1)) {
+                                        CC_SETGRAPHIC(struct_getparam(int3, 3602));
+                                        CC_SETONMOUSEOVER(callback(script5336, int9, 1, struct_getparam(int3, 3603)));
+                                        CC_SETOP(1, "Close Window");
+                                        CC_SETONOP(callback(script8320, int0));
+                                        string0 = "Close";
+                                        CC_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643));
+                                        CC_SETONMOUSELEAVE(callback(script8806, -2147483645, -2147483643, struct_getparam(int3, 3602)));
+                                        CC_SETMOUSEOVERCURSOR(36);
+                                        CC_SETNOCLICKTHROUGH(true);
+                                    } else if ((int21 == 1)) {
+                                        if ((struct_getparam(int2, 3524) == 1)) {
+                                            script8319(int0);
+                                        } else {
+                                            CC_SETGRAPHIC(struct_getparam(int3, 3605));
+                                            CC_SETONMOUSEOVER(callback(script5336, int9, 1, struct_getparam(int3, 3606)));
+                                            CC_SETOP(1, "Options");
+                                            CC_SETONOP(callback(script8317, int0));
+                                            string0 = "Settings";
+                                            CC_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643));
+                                            CC_SETONMOUSELEAVE(callback(script8806, -2147483645, -2147483643, struct_getparam(int3, 3605)));
+                                            CC_SETMOUSEOVERCURSOR(36);
+                                            CC_SETNOCLICKTHROUGH(true);
+                                        };
+                                    };
+                                };
+                            } else {
+                                if ((int0 == 17)) {
+                                    if ((varplayer_3871 == 0)) {
+                                        IF_SETHIDE(true, int9);
+                                    } else {
+                                        IF_SETHIDE(false, int9);
+                                    };
+                                } else {
+                                    IF_SETHIDE(false, int9);
+                                };
+                                CC_CREATE(int9, 5, 0);
+                                CC_SETPOSITION(struct_getparam(int3, 3575), struct_getparam(int3, 3576), 2, 0);
+                                CC_SETSIZE(struct_getparam(int3, 3563), struct_getparam(int3, 3564), 0, 0);
+                                if ((int20 == 1)) {
+                                    CC_SETGRAPHIC(struct_getparam(int3, 3601));
+                                } else if ((int21 == 1)) {
+                                    CC_SETGRAPHIC(struct_getparam(int3, 3604));
+                                };
+                                CC_CREATE(int9, 5, 1);
+                                CC_SETPOSITION(struct_getparam(int3, 3573), struct_getparam(int3, 3574), 2, 0);
+                                CC_SETSIZE(struct_getparam(int3, 3565), int30, 0, 0);
+                                if ((int20 == 1)) {
+                                    CC_SETGRAPHIC(struct_getparam(int3, 3602));
+                                    CC_SETONMOUSEOVER(callback(script5336, int9, 1, struct_getparam(int3, 3603)));
+                                    CC_SETOP(1, "Close Window");
+                                    CC_SETONOP(callback(script8320, int0));
+                                    string0 = "Close";
+                                    CC_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643));
+                                    CC_SETONMOUSELEAVE(callback(script8806, -2147483645, -2147483643, struct_getparam(int3, 3602)));
+                                    CC_SETMOUSEOVERCURSOR(36);
+                                    CC_SETNOCLICKTHROUGH(true);
+                                } else if ((int21 == 1)) {
+                                    if ((struct_getparam(int2, 3524) == 1)) {
+                                        script8319(int0);
+                                    } else {
+                                        CC_SETGRAPHIC(struct_getparam(int3, 3605));
+                                        CC_SETONMOUSEOVER(callback(script5336, int9, 1, struct_getparam(int3, 3606)));
+                                        CC_SETOP(1, "Options");
+                                        CC_SETONOP(callback(script8317, int0));
+                                        string0 = "Settings";
+                                        CC_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643));
+                                        CC_SETONMOUSELEAVE(callback(script8806, -2147483645, -2147483643, struct_getparam(int3, 3605)));
+                                        CC_SETMOUSEOVERCURSOR(36);
+                                        CC_SETNOCLICKTHROUGH(true);
+                                    };
+                                };
+                            };
+                        } else {
+                            if ((int0 == 17)) {
+                                if ((varplayer_3871 == 0)) {
+                                    IF_SETHIDE(true, int9);
+                                } else {
+                                    IF_SETHIDE(false, int9);
+                                };
+                            } else {
+                                IF_SETHIDE(false, int9);
+                            };
+                            CC_CREATE(int9, 5, 0);
+                            CC_SETPOSITION(struct_getparam(int3, 3575), struct_getparam(int3, 3576), 2, 0);
+                            CC_SETSIZE(struct_getparam(int3, 3563), struct_getparam(int3, 3564), 0, 0);
+                            if ((int20 == 1)) {
+                                CC_SETGRAPHIC(struct_getparam(int3, 3601));
+                            } else if ((int21 == 1)) {
+                                CC_SETGRAPHIC(struct_getparam(int3, 3604));
+                            };
+                            CC_CREATE(int9, 5, 1);
+                            CC_SETPOSITION(struct_getparam(int3, 3573), struct_getparam(int3, 3574), 2, 0);
+                            CC_SETSIZE(struct_getparam(int3, 3565), int30, 0, 0);
+                            if ((int20 == 1)) {
+                                CC_SETGRAPHIC(struct_getparam(int3, 3602));
+                                CC_SETONMOUSEOVER(callback(script5336, int9, 1, struct_getparam(int3, 3603)));
+                                CC_SETOP(1, "Close Window");
+                                CC_SETONOP(callback(script8320, int0));
+                                string0 = "Close";
+                                CC_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643));
+                                CC_SETONMOUSELEAVE(callback(script8806, -2147483645, -2147483643, struct_getparam(int3, 3602)));
+                                CC_SETMOUSEOVERCURSOR(36);
+                                CC_SETNOCLICKTHROUGH(true);
+                            } else if ((int21 == 1)) {
+                                if ((struct_getparam(int2, 3524) == 1)) {
+                                    script8319(int0);
+                                } else {
+                                    CC_SETGRAPHIC(struct_getparam(int3, 3605));
+                                    CC_SETONMOUSEOVER(callback(script5336, int9, 1, struct_getparam(int3, 3606)));
+                                    CC_SETOP(1, "Options");
+                                    CC_SETONOP(callback(script8317, int0));
+                                    string0 = "Settings";
+                                    CC_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643));
+                                    CC_SETONMOUSELEAVE(callback(script8806, -2147483645, -2147483643, struct_getparam(int3, 3605)));
+                                    CC_SETMOUSEOVERCURSOR(36);
+                                    CC_SETNOCLICKTHROUGH(true);
+                                };
+                            };
+                        };
+                    } else {
+                        if ((int0 == 17)) {
+                            if ((varplayer_3871 == 0)) {
+                                IF_SETHIDE(true, int9);
+                            } else {
+                                IF_SETHIDE(false, int9);
+                            };
+                        } else {
+                            IF_SETHIDE(false, int9);
+                        };
+                        CC_CREATE(int9, 5, 0);
+                        CC_SETPOSITION(struct_getparam(int3, 3575), struct_getparam(int3, 3576), 2, 0);
+                        CC_SETSIZE(struct_getparam(int3, 3563), struct_getparam(int3, 3564), 0, 0);
+                        if ((int20 == 1)) {
+                            CC_SETGRAPHIC(struct_getparam(int3, 3601));
+                        } else if ((int21 == 1)) {
+                            CC_SETGRAPHIC(struct_getparam(int3, 3604));
+                        };
+                        CC_CREATE(int9, 5, 1);
+                        CC_SETPOSITION(struct_getparam(int3, 3573), struct_getparam(int3, 3574), 2, 0);
+                        CC_SETSIZE(struct_getparam(int3, 3565), int30, 0, 0);
+                        if ((int20 == 1)) {
+                            CC_SETGRAPHIC(struct_getparam(int3, 3602));
+                            CC_SETONMOUSEOVER(callback(script5336, int9, 1, struct_getparam(int3, 3603)));
+                            CC_SETOP(1, "Close Window");
+                            CC_SETONOP(callback(script8320, int0));
+                            string0 = "Close";
+                            CC_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643));
+                            CC_SETONMOUSELEAVE(callback(script8806, -2147483645, -2147483643, struct_getparam(int3, 3602)));
+                            CC_SETMOUSEOVERCURSOR(36);
+                            CC_SETNOCLICKTHROUGH(true);
+                        } else if ((int21 == 1)) {
+                            if ((struct_getparam(int2, 3524) == 1)) {
+                                script8319(int0);
+                            } else {
+                                CC_SETGRAPHIC(struct_getparam(int3, 3605));
+                                CC_SETONMOUSEOVER(callback(script5336, int9, 1, struct_getparam(int3, 3606)));
+                                CC_SETOP(1, "Options");
+                                CC_SETONOP(callback(script8317, int0));
+                                string0 = "Settings";
+                                CC_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643));
+                                CC_SETONMOUSELEAVE(callback(script8806, -2147483645, -2147483643, struct_getparam(int3, 3605)));
+                                CC_SETMOUSEOVERCURSOR(36);
+                                CC_SETNOCLICKTHROUGH(true);
+                            };
+                        };
+                    };
+                } else {
+                    if ((int0 == 17)) {
+                        if ((varplayer_3871 == 0)) {
+                            IF_SETHIDE(true, int9);
+                        } else {
+                            IF_SETHIDE(false, int9);
+                        };
+                    } else {
+                        IF_SETHIDE(false, int9);
+                    };
+                    CC_CREATE(int9, 5, 0);
+                    CC_SETPOSITION(struct_getparam(int3, 3575), struct_getparam(int3, 3576), 2, 0);
+                    CC_SETSIZE(struct_getparam(int3, 3563), struct_getparam(int3, 3564), 0, 0);
+                    if ((int20 == 1)) {
+                        CC_SETGRAPHIC(struct_getparam(int3, 3601));
+                    } else if ((int21 == 1)) {
+                        CC_SETGRAPHIC(struct_getparam(int3, 3604));
+                    };
+                    CC_CREATE(int9, 5, 1);
+                    CC_SETPOSITION(struct_getparam(int3, 3573), struct_getparam(int3, 3574), 2, 0);
+                    CC_SETSIZE(struct_getparam(int3, 3565), int30, 0, 0);
+                    if ((int20 == 1)) {
+                        CC_SETGRAPHIC(struct_getparam(int3, 3602));
+                        CC_SETONMOUSEOVER(callback(script5336, int9, 1, struct_getparam(int3, 3603)));
+                        CC_SETOP(1, "Close Window");
+                        CC_SETONOP(callback(script8320, int0));
+                        string0 = "Close";
+                        CC_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643));
+                        CC_SETONMOUSELEAVE(callback(script8806, -2147483645, -2147483643, struct_getparam(int3, 3602)));
+                        CC_SETMOUSEOVERCURSOR(36);
+                        CC_SETNOCLICKTHROUGH(true);
+                    } else if ((int21 == 1)) {
+                        if ((struct_getparam(int2, 3524) == 1)) {
+                            script8319(int0);
+                        } else {
+                            CC_SETGRAPHIC(struct_getparam(int3, 3605));
+                            CC_SETONMOUSEOVER(callback(script5336, int9, 1, struct_getparam(int3, 3606)));
+                            CC_SETOP(1, "Options");
+                            CC_SETONOP(callback(script8317, int0));
+                            string0 = "Settings";
+                            CC_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643));
+                            CC_SETONMOUSELEAVE(callback(script8806, -2147483645, -2147483643, struct_getparam(int3, 3605)));
+                            CC_SETMOUSEOVERCURSOR(36);
+                            CC_SETNOCLICKTHROUGH(true);
+                        };
+                    };
+                };
             } else {
-                if (((int0 == 17) && (varplayer_3871 == 0))) {
-                    IF_SETHIDE(true, int9);
+                if ((int0 == 17)) {
+                    if ((varplayer_3871 == 0)) {
+                        IF_SETHIDE(true, int9);
+                    } else {
+                        IF_SETHIDE(false, int9);
+                    };
                 } else {
                     IF_SETHIDE(false, int9);
                 };
@@ -699,7 +1133,7 @@ function script8411(int0: number, int1: number): void {
                 CC_SETSIZE(struct_getparam(int3, 3563), struct_getparam(int3, 3564), 0, 0);
                 if ((int20 == 1)) {
                     CC_SETGRAPHIC(struct_getparam(int3, 3601));
-                } else if ((int21 == true)) {
+                } else if ((int21 == 1)) {
                     CC_SETGRAPHIC(struct_getparam(int3, 3604));
                 };
                 CC_CREATE(int9, 5, 1);
@@ -714,9 +1148,9 @@ function script8411(int0: number, int1: number): void {
                     CC_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643));
                     CC_SETONMOUSELEAVE(callback(script8806, -2147483645, -2147483643, struct_getparam(int3, 3602)));
                     CC_SETMOUSEOVERCURSOR(36);
-                    CC_SETNOCLICKTHROUGH(1);
-                } else if ((int21 == true)) {
-                    if ((struct_getparam(int2, 3524) == true)) {
+                    CC_SETNOCLICKTHROUGH(true);
+                } else if ((int21 == 1)) {
+                    if ((struct_getparam(int2, 3524) == 1)) {
                         script8319(int0);
                     } else {
                         CC_SETGRAPHIC(struct_getparam(int3, 3605));
@@ -727,13 +1161,13 @@ function script8411(int0: number, int1: number): void {
                         CC_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643));
                         CC_SETONMOUSELEAVE(callback(script8806, -2147483645, -2147483643, struct_getparam(int3, 3605)));
                         CC_SETMOUSEOVERCURSOR(36);
-                        CC_SETNOCLICKTHROUGH(1);
+                        CC_SETNOCLICKTHROUGH(true);
                     };
                 };
             };
         };
     };
-    if ((int10 != comp(-1, 65535))) {
+    if ((int10 != -1)) {
         IF_SETPOSITION(0, 0, 0, 0, int10);
         IF_SETSIZE(0, 0, 1, 1, int10);
         IF_SETHIDE(false, int10);
@@ -753,7 +1187,7 @@ function script8411(int0: number, int1: number): void {
         CC_SETGRAPHIC(struct_getparam(int3, 4467));
         CC_SETONMOUSEOVER(callback(script5336, int10, 1, struct_getparam(int3, 4468)));
     };
-    if ((int11 != comp(-1, 65535))) {
+    if ((int11 != -1)) {
         IF_SETPOSITION(0, 0, 1, 1, int11);
         IF_SETSIZE(0, 0, 1, 1, int11);
         CC_CREATE(int11, 3, 0);
@@ -811,7 +1245,7 @@ function script8411(int0: number, int1: number): void {
         CC_SETGRAPHIC(18825 as graphic);
         CC_SETTILING(true);
     };
-    if ((int13 != comp(-1, 65535))) {
+    if ((int13 != -1)) {
         if ((struct_getparam(int3, 8094) == 1)) {
             CC_DELETEALL(int12);
             IF_SETPOSITION(0, (int26 + struct_getparam(int3, 3586)), 0, 0, int12);
@@ -830,7 +1264,7 @@ function script8411(int0: number, int1: number): void {
             IF_SETHIDE(true, int13);
         };
     };
-    if ((int14 != comp(-1, 65535))) {
+    if ((int14 != -1)) {
         IF_SETPOSITION(struct_getparam(int3, 3583), (int26 + struct_getparam(int3, 3586)), 0, 0, int14);
         IF_SETSIZE((2 * struct_getparam(int3, 3583)), struct_getparam(int3, 3577), 1, 0, int14);
         IF_SETHIDE(true, int14);
@@ -857,7 +1291,7 @@ function script8411(int0: number, int1: number): void {
         CC_SETONMOUSELEAVE(callback(script1845, int0));
     };
     var int41 = 0;
-    if ((((int13 != comp(-1, 65535)) && (int22 == true)) && (script16577(int0) == 1))) {
+    if ((((int13 != -1) && (int22 == 1)) && (script16577(int0) == 1))) {
         int41 = script8374(int13);
         if ((int41 < 1)) {
             if ((script8785() == 0)) {
@@ -879,7 +1313,7 @@ function script8411(int0: number, int1: number): void {
             script1847(int0);
         };
     };
-    if (((int16 != comp(-1, 65535)) && (CC_FIND(int16, 0) == 0))) {
+    if (((int16 != -1) && (CC_FIND(int16, 0) == 0))) {
         IF_SETNOCLICKTHROUGH(1, int16);
         IF_SETHIDE(true, int16);
         CC_CREATE(int16, 3, 0);
@@ -889,7 +1323,7 @@ function script8411(int0: number, int1: number): void {
         CC_SETFILL(1);
         CC_SETTRANS(75);
     };
-    if (((script8137(int0) == 1) && (int6 != comp(-1, 65535)))) {
+    if (((script8137(int0) == 1) && (int6 != -1))) {
         CC_CREATE(int6, 3, 0);
         CC_SETPOSITION(-1, -1, 0, 0);
         CC_SETSIZE(0, 0, 0, 0);
@@ -899,7 +1333,7 @@ function script8411(int0: number, int1: number): void {
         CC_SETSIZE(0, 0, 0, 0);
         CC_SETHIDE(true);
     };
-    if ((int15 != comp(-1, 65535))) {
+    if ((int15 != -1)) {
         script8331(int0);
     };
     script8391(int0, int1);
@@ -917,8 +1351,12 @@ function script8411(int0: number, int1: number): void {
         }
     };
     if ((script8137(int0) == 1)) {
-        if (((((int0 == 1003) || (int0 == 1032)) || (int0 == 1033)) && (varbitplayer_27169 == 1))) {
-            script8140(int0, 0, 0);
+        if ((((int0 == 1003) || (int0 == 1032)) || (int0 == 1033))) {
+            if ((varbitplayer_27169 == 1)) {
+                script8140(int0, 0, 0);
+            } else {
+                script8140(int0, script8721(int0));
+            };
         } else {
             script8140(int0, script8721(int0));
         };

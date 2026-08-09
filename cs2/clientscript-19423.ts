@@ -3,19 +3,18 @@ function script19423(int0: number, int1: number, int2: number, int3: number, int
     stack(1249280);
     stack(int0);
     DB_FIND(0);
-    dbrow_findnext();
-    var int5 = stack();
+    var int5 = dbrow_findnext();
     if ((int5 == -1)) {
         IF_SETHIDE(true, int1);
         IF_SETHIDE(true, int4);
         return;
     };
-    var int6 = 18100 as graphic;
+    var int6 = 18100;
     var string0 = dbrow_getfield(int5, 1249296, 0);
     var int7 = dbrow_getfield(int5, 1249312, 0);
     var int8 = script9464(int0, varbitplayer_56563);
     if ((int0 == varbitplayer_56563)) {
-        int6 = 18102 as graphic;
+        int6 = 18102;
         IF_SETTEXT(string0, comp(1302, 3));
     };
     IF_SETGRAPHIC(int6, int2);

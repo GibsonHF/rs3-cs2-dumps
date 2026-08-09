@@ -2,7 +2,8 @@
 function script14027(): void {
     var int0 = -1;
     var int1 = (4 * 5);
-    while ((++int0 < int1)) {
+    int0 = (int0 + 1);
+    while ((int0 < int1)) {
         switch ((int0 / 5)) {
             case 0: {
                 if ((CC_FIND(comp(1934, 5), MODULO(int0, 5)) == 1)) {

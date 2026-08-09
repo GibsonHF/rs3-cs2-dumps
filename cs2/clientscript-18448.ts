@@ -1,10 +1,9 @@
 //
 function script18448(int0: number): void {
     DB_LISTALL(275);
-    dbrow_findnext();
-    var int1 = stack();
+    var int1 = dbrow_findnext();
     var int2 = -1;
-    while ((int1 != -1 as dbrow)) {
+    while ((int1 != -1)) {
         int2 = dbrow_getfield(int1, 1126416, 0);
         if ((IF_FIND(int2) == 1)) {
             if ((int2 == int0)) {
@@ -14,8 +13,7 @@ function script18448(int0: number): void {
                 CC_BUTTON_SETTOGGLED(false);
             };
         };
-        dbrow_findnext();
-        int1 = stack();
+        int1 = dbrow_findnext();
     };
     return;
 }

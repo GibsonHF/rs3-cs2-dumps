@@ -8,10 +8,10 @@ function script20773(int0: number): void {
     IF_SETSIZE(16, int3, 0, 1, comp(1516, 18));
     var int4 = 0;
     var int5 = -1 as obj;
-    var int6 = -1 as dbrow;
+    var int6 = -1;
     if ((varbitclient_61228 != -1)) {
         int6 = script11651(varbitclient_61228);
-        if ((int6 != -1 as dbrow)) {
+        if ((int6 != -1)) {
             int5 = dbrow_getfield(int6, 1515584, 0);
         };
     };

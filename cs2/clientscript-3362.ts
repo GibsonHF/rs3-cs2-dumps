@@ -1,5 +1,5 @@
 //
-function script3362(): [number, string, number] {
+function script3362(): [number, number, string] {
     switch (varplayer_1831) {
         case 17965: {
             return [9, "Glimmer of Light (Tier 1)", 18077];
@@ -29,6 +29,7 @@ function script3362(): [number, string, number] {
             return [89, "Glimmer of Light (Tier 9)", 18085];
         }
         case 17974: {
+            break;
         }
         default: {
             return [9, "Glimmer of Light (Tier 1)", 18077];

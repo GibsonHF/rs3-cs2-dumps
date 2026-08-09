@@ -5,7 +5,8 @@ function script19074(): number {
     var int2 = 0;
     var int3 = -1;
     var int4 = 0;
-    while ((++int0 <= 8)) {
+    int0 = (int0 + 1);
+    while ((int0 <= 8)) {
         if ((script19071(int0) == 0)) {
             int2 = script19076(int0);
             int4 = enum_getreverseindex(0, 0, 6429 as cs2enum, int2, 0);

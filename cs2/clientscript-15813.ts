@@ -11,7 +11,7 @@ function script15813(int0: number): void {
         int4 = enum_getvalue(0, 9, int1, int3);
         if ((int4 != comp(-1, 65535))) {
             IF_SETONOP(callback(script15814, -2147483645, -2147483644, int0), int4);
-            IF_SETOP(1, enum_getvalue(9, 36, 16364, int4), int4);
+            IF_SETOP(1, enum_getvalue(9, 36, 16364 as cs2enum, int4), int4);
         };
         int3 = (int3 + 1);
     };

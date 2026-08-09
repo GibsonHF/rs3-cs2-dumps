@@ -10,6 +10,6 @@ function script16803(string0: string): void {
     IF_SETHIDE(false, comp(517, 339));
     IF_SETONCLICK(callback(script16804), comp(517, 331));
     script13979(33882450, -1, 28553, 0, "Withdraw", "Withdraw");
-    IF_SETTEXT(string0, 33882449);
+    IF_SETTEXT(string0, comp(517, 337));
     return;
 }

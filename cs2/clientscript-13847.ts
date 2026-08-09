@@ -21,14 +21,20 @@ function script13847(int0: number, int1: number, int2: number): void {
         if (((CC_FIND(int0, int3) == 1) && (CC_FIND[1](int1, int3) == 1))) {
             int12 = enum_getvalue(0, 0, int2, int3);
             int8 = script2385(int12, 1);
-            if (((int8 == -1) && (script19633(int12) == 1))) {
-                CC_SETHIDE(false);
-                CC_SETPOSITION(int5, int6, 0, 0);
-                CC_SETHIDE[1](false);
-                CC_SETPOSITION[1]((int5 + int10), (int6 + int11), 0, 0);
-                if (((++int5 + 35) >= int7)) {
-                    int5 = 0;
-                    int6 = (int6 + 44);
+            if ((int8 == -1)) {
+                if ((script19633(int12) == 1)) {
+                    CC_SETHIDE(false);
+                    CC_SETPOSITION(int5, int6, 0, 0);
+                    CC_SETHIDE[1](false);
+                    CC_SETPOSITION[1]((int5 + int10), (int6 + int11), 0, 0);
+                    int5 = (int5 + 44);
+                    if (((int5 + 35) >= int7)) {
+                        int5 = 0;
+                        int6 = (int6 + 44);
+                    };
+                } else {
+                    CC_SETHIDE(true);
+                    CC_SETHIDE[1](true);
                 };
             } else {
                 CC_SETHIDE(true);

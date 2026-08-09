@@ -9,6 +9,7 @@ function script11037(int0: number, int1: number): [number, number] {
             return [(int2 + int1), 17];
         }
         case 2: {
+            break;
         }
         default: {
             return [0, 17];

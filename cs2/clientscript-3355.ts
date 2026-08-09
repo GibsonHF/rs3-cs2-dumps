@@ -3,7 +3,7 @@ function script3355(int0: number, int1: number, int2: number, int3: number): [nu
     var int4 = 0;
     var int5 = 0;
     if (((int0 == -1) && (int1 == -1))) {
-        var [int0, int1] = script10900(DATE_MINUTES());
+        [int0, int1] = script10900(DATE_MINUTES());
     };
     if ((int0 > int2)) {
         return [-1, -1];

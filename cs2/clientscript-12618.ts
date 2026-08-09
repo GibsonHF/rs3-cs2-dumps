@@ -4,7 +4,6 @@ function script12618(int0: number, string0: string): string {
     var int2 = script8247(19342);
     switch (int0) {
         default: {
-            break;
         }
     };
     var string0 = `${string0}<br>-Your next <col=3366FF>Magic ability</col> is empowered:`;

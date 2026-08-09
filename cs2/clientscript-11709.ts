@@ -12,6 +12,6 @@ function script11709(int0: number, int1: number): void {
         cc_setparam(2977, 0);
     };
     IF_SETONTIMER(callback(script11709, 1500, 70909989), comp(1082, 37));
-    IF_SETONTIMER(callback(script11710, 450, 70909990), 70909990);
+    IF_SETONTIMER(callback(script11710, 450, 70909990), comp(1082, 38));
     return;
 }

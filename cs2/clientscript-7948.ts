@@ -6,7 +6,7 @@ function script7948(): void {
     IF_SETONTIMER(callback(), comp(1477, 800));
     var int0 = WORLDMAP_GETCURRENTMAP();
     var string0 = COORD_GRIDTOFINE(varclient_622, 1);
-    if ((int0 == -1)) {
+    if ((int0 == -1 as maparea)) {
         int0 = 28 as maparea;
         string0 = COORD_GRIDTOFINE(WORLDMAP_GETCONFIGORIGIN(int0), 1);
     };
@@ -21,14 +21,14 @@ function script7948(): void {
     CAM2_SETLINEARMOVEMENTMODE(0);
     CAM2_SETPOSITIONMODE(0);
     COORDY_FINE(string0, 0, 0, 0, string0);
-    MOVECOORD_FINE(stack(), operator("-", stack()), 0);
-    string0 = stack();
+    MOVECOORD_FINE(SUB(), 0);
+    string0 = [];
     COORDX_FINE(string0);
-    varclient_3524 = stack();
+    varclient_3524 = [];
     stack(string0);
     varclient_3525 = COORDZ_FINE();
     MOVECOORD_FINE(string0, 0, 0, 2000, -100);
-    var string1 = stack();
+    var string1 = [];
     stack(-1);
     stack(-1);
     stack(-1);
@@ -50,14 +50,11 @@ function script7948(): void {
     stack(-1);
     stack(1);
     CAM2_SETLOOKATMAXSPEED_AXIS();
-    stack(7951);
-    stack(-2147483647);
-    stack(-2147483646);
-    stack("ii");
+    stack(callback(script7951, -2147483647, -2147483646));
     stack(96797472);
     IF_SETONHOLD();
-    IF_SETONCLICK(callback(script7950, -2147483645, -2147483647, -2147483646), 96797472);
-    IF_SETONTIMER(callback(script7949), 96797472);
+    IF_SETONCLICK(callback(script7950, -2147483645, -2147483647, -2147483646), comp(1477, 800));
+    IF_SETONTIMER(callback(script7949), comp(1477, 800));
     script7956(100, 1);
     script7952();
     return;

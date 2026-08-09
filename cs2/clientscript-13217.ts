@@ -9,7 +9,7 @@ function script13217(): void {
     };
     if ((varclient_2236 <= 0)) {
         varclient_2250 = string0;
-        varclient_2235 = comp(1843, 241);
+        varclient_2235 = 120783089;
         varclient_2236 = 8;
         varclient_2237 = 18;
         varclient_1029 = script1553(103, varclient_1029, varclient_2250);

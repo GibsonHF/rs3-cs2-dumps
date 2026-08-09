@@ -17,7 +17,11 @@ function script12336(int0: number): void {
     var int5 = 0;
     var int6 = 0;
     [int4, int5, int5, int6, int5] = script12343(33124, script12293(1735));
-    CC_CREATE(int0, 4, int3++);
+    stack(int0);
+    stack(4);
+    stack(int3);
+    int3 = (int3 + 1);
+    CC_CREATE();
     CC_SETTEXTFONT(58 as fontmetrics);
     CC_SETTEXT("Settings");
     CC_SETPOSITION(0, int2, 0, 0);

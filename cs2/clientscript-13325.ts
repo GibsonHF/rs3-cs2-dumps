@@ -44,7 +44,14 @@ function script13325(int0: number, int1: number, int2: number): void {
             } else {
                 int4 = 1;
             };
-            script11605(85918251, 85918252, 28222, 0, int8, int3++, int4, "Select", "Unselect", script2431(int0, int5));
+            stack(85918251);
+            stack(85918252);
+            stack(28222);
+            stack(0);
+            stack(int8);
+            stack(int3);
+            int3 = (int3 + 1);
+            script11605(int4, "Select", "Unselect", script2431(int0, int5));
             if ((CC_FIND(comp(1311, 556), int5) == 1)) {
                 CC_SETOPCURSOR(1, 46);
             };

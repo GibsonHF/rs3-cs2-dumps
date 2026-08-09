@@ -14,7 +14,8 @@ function script14096(int0: number, int1: number, int2: number, int3: number, int
             int12 = MAX(MIN(int7, script12452(int2, int3, int7, int8, int10)), (int7 + int8));
         };
         CC_SETSIZE(int11, int12, int6, int9);
-        if ((++int2 <= int3)) {
+        var int2 = (int2 + 1);
+        if ((int2 <= int3)) {
             CC_SETONTIMER(callback(script14096, int0, int1, int2, int3, int4, int5, int6, int7, int8, int9, int10));
             script15058(int0);
         } else {

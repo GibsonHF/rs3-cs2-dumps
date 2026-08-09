@@ -1,9 +1,13 @@
 //
 function script11825(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number, int8: number, int9: number, int10: number): void {
     var int11 = 33;
-    if (((int0 == 1) && (varbitclient_32703 == 1))) {
-        int11 = 0;
-        IF_SETHIDE(true, int8);
+    if ((int0 == 1)) {
+        if ((varbitclient_32703 == 1)) {
+            int11 = 0;
+            IF_SETHIDE(true, int8);
+        } else {
+            IF_SETHIDE(false, int8);
+        };
     } else {
         IF_SETHIDE(false, int8);
     };
@@ -16,6 +20,10 @@ function script11825(int0: number, int1: number, int2: number, int3: number, int
     var int15 = 0;
     var int16 = 0;
     if ((int0 == 2)) {
+        if ((int1 > int13)) {
+            int16 = 1;
+            int14 = (int14 - 16);
+        };
     } else if ((((script6431() == 1) && (int0 == 1)) && (int1 > int13))) {
         int16 = 1;
         int14 = (int14 - 16);
@@ -34,9 +42,14 @@ function script11825(int0: number, int1: number, int2: number, int3: number, int
     };
     IF_SETSIZE(int13, int14, 0, 0, int7);
     IF_SETSCROLLPOS(int10, int9, int6);
-    if (((int15 == 1) && (int16 == 1))) {
-        IF_SETSIZE(16, int14, 0, 0, int4);
-        IF_SETSIZE(int13, 16, 0, 0, int5);
+    if ((int15 == 1)) {
+        if ((int16 == 1)) {
+            IF_SETSIZE(16, int14, 0, 0, int4);
+            IF_SETSIZE(int13, 16, 0, 0, int5);
+        } else {
+            IF_SETSIZE(16, int11, 0, 1, int4);
+            IF_SETSIZE(0, 16, 1, 0, int5);
+        };
     } else {
         IF_SETSIZE(16, int11, 0, 1, int4);
         IF_SETSIZE(0, 16, 1, 0, int5);

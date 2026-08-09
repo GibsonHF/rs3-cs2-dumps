@@ -22,10 +22,12 @@ function script3022(int0: number, int1: number, int2: number, int3: number, int4
             break;
         }
         default: {
-            if ((((int4 != -1) && (int4 != 6)) && (((CHAR_ISPRINTABLE(int1) == 1) || (int0 == 85)) || (int0 == 101)))) {
-                [varclient_2478, varclient_1097] = script802(varclient_1097, varclient_2478, int3, int0, int1);
-                IF_SETTEXT(ESCAPE(varclient_2478), int2);
-                script1875(52953098, 52953099, varclient_2478);
+            if (((int4 != -1) && (int4 != 6))) {
+                if ((((CHAR_ISPRINTABLE(int1) == 1) || (int0 == 85)) || (int0 == 101))) {
+                    [varclient_2478, varclient_1097] = script802(varclient_1097, varclient_2478, int3, int0, int1);
+                    IF_SETTEXT(ESCAPE(varclient_2478), int2);
+                    script1875(52953098, 52953099, varclient_2478);
+                };
             };
             break;
         }

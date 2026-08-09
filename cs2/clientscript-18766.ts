@@ -4,8 +4,8 @@ function script18766(int0: number, int1: number, int2: number, string0: string):
     varclient_7413 = CLIENTCLOCK();
     varclient_7414 = (CLIENTCLOCK() + (30 * int1));
     IF_SETONTIMER(callback(), comp(764, 0));
-    IF_SETSIZE(0, (12 + 4), 1, 0, 50069506);
-    IF_SETSIZE(0, 12, 1, 1, 50069505);
+    IF_SETSIZE(0, (12 + 4), 1, 0, comp(764, 2));
+    IF_SETSIZE(0, 12, 1, 1, comp(764, 1));
     switch (int0) {
         case 0: {
             IF_SETSIZE(0, 0, 1, 1, comp(764, 11));
@@ -23,7 +23,8 @@ function script18766(int0: number, int1: number, int2: number, string0: string):
     script18774(0);
     CC_DELETEALL(comp(764, 13));
     var int3 = -1;
-    while ((++int3 < int1)) {
+    int3 = (int3 + 1);
+    while ((int3 < int1)) {
         script2996(50069517, IF_GETNEXTSUBID(comp(764, 13)), ((IF_GETWIDTH(comp(764, 9)) - (2 * 1)) - SCALE((30 * int3), (varclient_7414 - varclient_7413), (IF_GETWIDTH(comp(764, 9)) - (2 * 1)))), 0, 0, 1, 1, 0, 0, 1, 4127);
     };
     IF_SETONTIMER(callback(script18767), comp(764, 9));

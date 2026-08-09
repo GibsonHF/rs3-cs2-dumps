@@ -9,6 +9,7 @@ function script9793(int0: number): number {
                 return 32089;
             }
             case 3: {
+                break;
             }
             default: {
                 return 32087;
@@ -24,6 +25,7 @@ function script9793(int0: number): number {
             return 20326;
         }
         case 3: {
+            break;
         }
         default: {
             return 20268;

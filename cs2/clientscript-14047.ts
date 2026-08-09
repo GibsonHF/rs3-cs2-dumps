@@ -6,7 +6,8 @@ function script14047(int0: number, int1: number): void {
     };
     var int3 = 0;
     var int4 = comp(-1, 65535);
-    while ((++int3 <= 5)) {
+    int3 = (int3 + 1);
+    while ((int3 <= 5)) {
         switch (int3) {
             case 1: {
                 int4 = comp(1433, 54);

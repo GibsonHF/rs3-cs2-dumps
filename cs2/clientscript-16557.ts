@@ -22,13 +22,13 @@ function script16557(int0: number, int1: number, int2: number): [number, number]
     var string2 = "";
     var int20 = -1;
     var int21 = false;
-    var int22 = 26 as fontmetrics;
+    var int22 = 26;
     var int23 = script6431();
     if ((int23 == 1)) {
         int9 = 36;
         int11 = 5;
         int10 = 4;
-        int22 = 28 as fontmetrics;
+        int22 = 28;
         int13 = 28;
         int14 = 32;
         int15 = 32;
@@ -121,7 +121,7 @@ function script16557(int0: number, int1: number, int2: number): [number, number]
             if ((CC_FINDBYCATEGORY(int0, int4, 1) == 1)) {
                 CC_SETOP(1, "View Options");
                 int17 = enum_getreverseindex(26, 0, 5134 as cs2enum, int1, 0);
-                var int0 = enum_getvalue(0, 9, 5135 as cs2enum, int17);
+                var int0 = enum_getvalue(0, 9, 5135, int17);
                 CC_SETONOP(callback(script16552, -2147483645, -2147483643, int0, int1, -2147483644));
             };
         };

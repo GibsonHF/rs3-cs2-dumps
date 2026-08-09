@@ -41,34 +41,35 @@ function script10210(int0: number, int1: number, int2: number, int3: number, int
                 unk11161();
             };
         };
-        if (((varclient_200 <= 0) && ((varclient_1745 == false) || (VIDEO_ADVERT_HAS_FINISHED() == 1)))) {
-            if ((WORLDLIST_FETCH() == 0)) {
-                varclient_200 = 1;
+        if ((varclient_200 <= 0)) {
+            if (((varclient_1745 == false) || (VIDEO_ADVERT_HAS_FINISHED() == 1))) {
+                if ((WORLDLIST_FETCH() == 0)) {
+                    varclient_200 = 1;
+                    return;
+                };
+                if ((int1 > 0)) {
+                    [int10, string2, int11, string3, int12, int13, string4] = WORLDLIST_SPECIFIC(int1);
+                    if ((unk11027(int1, string4) == 1)) {
+                        int10 = 0;
+                    };
+                };
+                IF_SETONTIMER(callback(), int0);
+                if ((varclient_1745 == true)) {
+                    VIDEO_ADVERT_FORCE_REMOVE();
+                    varclient_1745 = false;
+                };
+                if (((varclient_1745 == false) || (VIDEO_ADVERT_HAS_FINISHED() == 1))) {
+                    DETAIL_SOUNDVOL(int2);
+                    stack(int4);
+                    DETAIL_BGSOUNDVOL();
+                    stack(int5);
+                    DETAIL_SPEECHVOL();
+                    stack(int6);
+                    DETAIL_LOGINVOL();
+                };
+                script3062(int0);
                 return;
             };
-            if ((int1 > 0)) {
-                stack(WORLDLIST_SPECIFIC(int1));
-                [int10, string2, int11, string3, int12, int13, string4] = stack();
-                if ((unk11027(int1, string4) == 1)) {
-                    int10 = 0;
-                };
-            };
-            IF_SETONTIMER(callback(), int0);
-            if ((varclient_1745 == 1)) {
-                VIDEO_ADVERT_FORCE_REMOVE();
-                varclient_1745 = false;
-            };
-            if (((varclient_1745 == false) || (VIDEO_ADVERT_HAS_FINISHED() == 1))) {
-                DETAIL_SOUNDVOL(int2);
-                stack(int4);
-                DETAIL_BGSOUNDVOL();
-                stack(int5);
-                DETAIL_SPEECHVOL();
-                stack(int6);
-                DETAIL_LOGINVOL();
-            };
-            script3062(int0);
-            return;
         };
         int9 = (varclient_200 / 50);
         if ((int9 == 1)) {

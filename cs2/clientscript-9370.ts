@@ -80,8 +80,12 @@ function script9370(int0: number): void {
                 break;
             }
             case 45940793: {
-                if (((int1 != -1 as cs2enum) && (int2 > -1))) {
-                    varbitplayer_20996 = MODULO((varbitplayer_20996 + 1), 2);
+                if ((int1 != -1 as cs2enum)) {
+                    if ((int2 > -1)) {
+                        varbitplayer_20996 = MODULO((varbitplayer_20996 + 1), 2);
+                    } else {
+                        varbitplayer_20996 = 0;
+                    };
                 } else {
                     varbitplayer_20996 = 0;
                 };
@@ -95,8 +99,12 @@ function script9370(int0: number): void {
                 break;
             }
             case 45940777: {
-                if (((varbitplayer_20997 == 1) && (int3 > 0))) {
-                    varbitplayer_20998 = MODULO((varbitplayer_20998 + 1), 2);
+                if ((varbitplayer_20997 == 1)) {
+                    if ((int3 > 0)) {
+                        varbitplayer_20998 = MODULO((varbitplayer_20998 + 1), 2);
+                    } else {
+                        varbitplayer_20998 = 0;
+                    };
                 } else {
                     varbitplayer_20998 = 0;
                 };

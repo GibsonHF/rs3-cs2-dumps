@@ -6,7 +6,8 @@ function script9899(int0: number, int1: number, int2: number, int3: number, int4
         script8212(int0, int1, -1, -1);
         var int1 = (int1 + 1);
     };
-    switch (++int3) {
+    var int3 = (int3 + 1);
+    switch (int3) {
         case 1: {
             var int0 = 20;
             int1 = 0;

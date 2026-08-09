@@ -9,7 +9,7 @@ function script16294(int0: number): void {
     IF_SETHIDE(false, comp(1253, 31));
     IF_SETHIDE(false, comp(1253, 32));
     IF_SETONTIMER(callback(), comp(485, 44));
-    IF_SETHIDE(1, 31784969);
+    IF_SETHIDE(true, comp(485, 9));
     script16728(varbitplayer_22145, varbitplayer_27090);
     return;
 }

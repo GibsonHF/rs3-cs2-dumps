@@ -1,6 +1,6 @@
 //
-function script17379(long0: BigInt, string0: string, string1: string): string {
-    if (branch_eq_long[4](long0, 1n)) {
+function script17379(string0: string, string1: string, long0: bigint): string {
+    if (LONG_BRANCH_EQUALS(long0, 1n)) {
         return string0;
     };
     return string1;

@@ -2,7 +2,7 @@
 function script9625(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number): number {
     var int8 = true;
     if ((int6 == 1)) {
-        int8 = false;
+        int8 = 0;
     };
     var int9 = 1;
     CC_CREATE(int0, 5, IF_GETNEXTSUBID(int0));

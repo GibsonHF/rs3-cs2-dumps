@@ -128,7 +128,7 @@ function script4146(): void {
     CC_SETTEXTSHADOW(true);
     CC_SETTEXTALIGN(0, 1, 0);
     CC_SETTEXT(varclient_2352);
-    if ((((PARAHEIGHT(varclient_2352, (IF_GETWIDTH(IF_GETLAYER(comp(14, 18))) - 14), 27 as fontmetrics) * 11) + 5) <= IF_GETHEIGHT(comp(14, 18)))) {
+    if ((((PARAHEIGHT(varclient_2352, (IF_GETWIDTH(IF_GETLAYER(comp(14, 18))) - 14), 27) * 11) + 5) <= IF_GETHEIGHT(comp(14, 18)))) {
         IF_SETSIZE(14, 40, 1, 1, comp(14, 18));
         IF_SETSCROLLSIZE(0, 0, comp(14, 18));
         CC_SETPOSITION(0, 0, 1, 1);
@@ -137,7 +137,7 @@ function script4146(): void {
         return;
     };
     IF_SETSIZE(31, 40, 1, 1, comp(14, 18));
-    var int3 = ((PARAHEIGHT(varclient_2352, IF_GETWIDTH(comp(14, 18)), 27 as fontmetrics) * 11) + 5);
+    var int3 = ((PARAHEIGHT(varclient_2352, IF_GETWIDTH(comp(14, 18)), 27) * 11) + 5);
     IF_SETSCROLLSIZE(0, int3, comp(14, 18));
     IF_SETSCROLLPOS(0, 0, comp(14, 18));
     CC_SETPOSITION(0, 0, 1, 0);

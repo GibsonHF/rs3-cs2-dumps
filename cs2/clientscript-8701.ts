@@ -11,7 +11,7 @@ function script8701(int0: number, int1: number): [number, number, number, number
     var int10 = 0;
     var int11 = -1 as cs2enum;
     var int12 = -1 as struct;
-    var int13 = -1 as struct;
+    var int13 = -1;
     var int14 = -1;
     var int15 = -1;
     var int16 = -1;

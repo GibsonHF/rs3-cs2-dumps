@@ -8,7 +8,9 @@ function script4509(int0: number, int1: number, int2: number, int3: number, int4
     };
     var int8 = -1;
     var int9 = -1;
-    while ((CC_FIND(int0, ++int8) == 1)) {
+    stack(int0);
+    int8 = (int8 + 1);
+    while ((CC_FIND(int8) == 1)) {
         int9 = cc_getparam(7188);
         if (((((int9 != -1) && (cc_getparam(7192) == 1)) && (int9 >= int2)) && (int9 <= int3))) {
             script4511(int0, int8, int1, int9, int4, int5, int6, int7);

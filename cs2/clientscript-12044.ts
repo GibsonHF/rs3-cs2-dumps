@@ -9,6 +9,7 @@ function script12044(int0: number): string {
             return "<col=ff0000>";
         }
         case 5: {
+            break;
         }
         default: {
             return "";

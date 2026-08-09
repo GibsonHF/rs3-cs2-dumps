@@ -8,7 +8,7 @@ function script15515(int0: number, int1: number, int2: number, int3: number, int
     CC_DELETEALL(int5);
     var int6 = 0;
     var int7 = 0;
-    var int8 = -1 as dbrow;
+    var int8 = -1;
     var int9 = 0;
     var string0 = "";
     define_array(67);
@@ -23,8 +23,7 @@ function script15515(int0: number, int1: number, int2: number, int3: number, int
         stack(495616);
         stack(int6);
         DB_FIND(0);
-        dbrow_findnext();
-        int8 = stack();
+        int8 = dbrow_findnext();
         if ((int8 == -1)) {
             int7 = 1;
         } else {
@@ -32,7 +31,7 @@ function script15515(int0: number, int1: number, int2: number, int3: number, int
             switch (varbitplayer_12077) {
                 case 0:
                 case 1: {
-                    if ((dbrow_getfield(int8, 495696, 0) != -1 as dbrow)) {
+                    if ((dbrow_getfield(int8, 495696, 0) != -1)) {
                         int8 = dbrow_getfield(int8, 495696, 0);
                     };
                     string0 = dbrow_getfield(int8, 495648, 0);
@@ -49,16 +48,8 @@ function script15515(int0: number, int1: number, int2: number, int3: number, int
             stack(495616);
             stack(int6);
             DB_FIND(0);
-            dbrow_findnext();
-            stack(495632);
-            stack(0);
-            dbrow_getfield();
-            int10 = stack();
-            stack(int8);
-            stack(495632);
-            stack(0);
-            dbrow_getfield();
-            if ((((script3101(stack()) == 1) && (script15320(int10) == 1)) && (script3104(int10) == 1))) {
+            int10 = dbrow_getfield(dbrow_findnext(), 495632, 0);
+            if ((((script3101(dbrow_getfield(int8, 495632, 0)) == 1) && (script15320(int10) == 1)) && (script3104(int10) == 1))) {
                 int9 = (int9 + 1);
             };
         };

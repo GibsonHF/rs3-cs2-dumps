@@ -6,7 +6,7 @@ function script5884(int0: number): void {
     var int1 = -1;
     if ((PLAYER_GROUP_FIND() == 1)) {
         int1 = script10275();
-        if (((int1 != -1) && operator("==", PLAYER_GROUP_GET_OWNER_SLOT(int1)))) {
+        if (((int1 != -1) && BRANCH_EQUALS(PLAYER_GROUP_GET_OWNER_SLOT(int1)))) {
             varbitplayer_25836 = (1 - varbitplayer_25836);
             script5894();
         };

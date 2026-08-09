@@ -87,17 +87,17 @@ function script4632(int0: number): void {
         };
     };
     IF_SETHIDE(true, comp(21, 3));
-    if (((int0 == 1) && branch_gt_long[336](varclient_1523, 0n))) {
+    if (((int0 == 1) && LONG_BRANCH_GREATER_THAN(varclient_1523, 0n))) {
         IF_SETHIDE(false, comp(21, 3));
     };
     IF_SETPOSITION(IF_GETX(comp(21, 17)), IF_GETY(comp(21, 3)), 0, 0, comp(21, 17));
-    if ((IF_GETHIDE(comp(21, 3)) == true)) {
+    if ((IF_GETHIDE(comp(21, 3)) == 1)) {
         IF_SETHIDE(true, comp(21, 17));
         IF_SETPOSITION(IF_GETX(comp(21, 2)), 0, 0, 2, comp(21, 2));
         IF_SETPOSITION(IF_GETX(comp(21, 1)), IF_GETHEIGHT(comp(21, 2)), 0, 2, comp(21, 1));
     };
     IF_SETPOSITION(IF_GETX(comp(21, 17)), IF_GETY(comp(21, 1)), 0, 0, comp(21, 26));
-    if ((IF_GETHIDE(comp(21, 2)) == true)) {
+    if ((IF_GETHIDE(comp(21, 2)) == 1)) {
         IF_SETHIDE(true, comp(21, 26));
     };
     return;

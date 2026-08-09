@@ -44,16 +44,22 @@ function script7981(int0: number): number {
     var int6 = -1;
     var int7 = -1;
     var int8 = -1;
-    while (((int3 != -1) && (int5 == 0))) {
-        int4 = 1;
-        while (((int4 <= 14) && (int5 == 0))) {
-            [int7, int8, int6] = script11797(1003, int4);
-            if (((int7 == int1) && (int8 == int2))) {
-                int5 = 1;
+    while ((int3 != -1)) {
+        if ((int5 == 0)) {
+            int4 = 1;
+            while ((int4 <= 14)) {
+                if ((int5 == 0)) {
+                    [int7, int8, int6] = script11797(1003, int4);
+                    if (((int7 == int1) && (int8 == int2))) {
+                        int5 = 1;
+                    };
+                    int4 = (int4 + 1);
+                };
+                int3 = script8246(int3, 1, 0);
             };
-            int4 = (int4 + 1);
+            int3 = script8246(int3, 1, 0);
         };
-        int3 = script8246(int3, 1, 0);
+        return int5;
     };
     return int5;
 }

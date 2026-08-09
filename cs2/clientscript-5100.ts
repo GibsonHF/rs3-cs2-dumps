@@ -34,6 +34,6 @@ function script5100(int0: number, int1: number, int2: number, int3: number, int4
     IF_SETCOLOUR(HSVTORGB(int5), int19);
     IF_SETCOLOUR(HSVTORGB(int6), int20);
     IF_SETONOP(callback(script5111, int0, int8), int14);
-    IF_SETHIDE(1, int13);
+    IF_SETHIDE(true, int13);
     return;
 }

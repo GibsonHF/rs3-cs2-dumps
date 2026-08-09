@@ -1,5 +1,5 @@
 //
-function script967(int0: number, int1: number, int2: number, int3: number): [string, string, string, number, number] {
+function script967(int0: number, int1: number, int2: number, int3: number): [number, number, string, string, string] {
     var string0 = struct_getparam(int0, 2794);
     var string1 = struct_getparam(int0, 2795);
     var string2 = "";

@@ -2,18 +2,7 @@
 function script20209(int0: number, string0: string): void {
     var int1 = 16777215;
     var string1 = "Leagues: CATALYST";
-    stack(PUSH_CONSTANT_INT[16]("<col=", int1));
-    stack(inttostring());
-    stack(">");
-    stack(string1);
-    stack(PUSH_CONSTANT_INT[16]("</col> is an alternative game mode for <col=", int1));
-    stack(inttostring());
-    stack(PUSH_CONSTANT_INT[16](">RuneScape</col>, available from <col=", int1));
-    stack(inttostring());
-    stack(">");
-    stack(script3381(8601));
-    stack(PUSH_CONSTANT_INT[16]("</col> to <col=", int1));
-    var string2 = `${stack()}${inttostring()}>${script3381(8657)}</col>.`;
+    var string2 = `${inttostring(PUSH_CONSTANT_INT[16]("<col=", int1))}>${string1}${inttostring(PUSH_CONSTANT_INT[16]("</col> is an alternative game mode for <col=", int1))}${inttostring(PUSH_CONSTANT_INT[16](">RuneScape</col>, available from <col=", int1))}>${script3381(8601)}${inttostring(PUSH_CONSTANT_INT[16]("</col> to <col=", int1))}>${script3381(8657)}</col>.`;
     if ((STRING_LENGTH(string0) > 0)) {
         string2 = `${string2}<br><br>${string0}`;
     };

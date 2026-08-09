@@ -42,10 +42,15 @@ function script11465(int0: number, int1: number, int2: number, int3: number, int
         }
     };
     if (((int3 >= 47) && (varbitplayer_52406 != 2))) {
-        if (((int4 != -1) && (int3 == 47))) {
-            script11600(int0, int1, int2, "<col=FF0000>In dangerous PvP, individual items are protected, so you will lose some of this item stack.");
-            long0 = script11472(int4);
-            script12094(int2, int6, int4);
+        if ((int4 != -1)) {
+            if ((int3 == 47)) {
+                script11600(int0, int1, int2, "<col=FF0000>In dangerous PvP, individual items are protected, so you will lose some of this item stack.");
+                long0 = script11472(int4);
+                script12094(int2, int6, int4);
+            } else {
+                script11600(int0, int1, int2, "<col=FF0000>Your beast of burden is carrying this item. It will be lost on death.");
+                return;
+            };
         } else {
             script11600(int0, int1, int2, "<col=FF0000>Your beast of burden is carrying this item. It will be lost on death.");
             return;
@@ -60,7 +65,7 @@ function script11465(int0: number, int1: number, int2: number, int3: number, int
     var int8 = 0;
     var long3 = 0n;
     var string0 = `<col=00FF00>Item value: ${TOSTRING_LOCALISED_LONG(long0, 1)}`;
-    if (branch_gt_long[150](long1, long0)) {
+    if (LONG_BRANCH_GREATER_THAN(long1, long0)) {
         string0 = strconcat(string0, `<col=00FF00> (${TOSTRING_LOCALISED_LONG(long1, 1)})`);
     };
     if ((varbitplayer_52406 == 2)) {

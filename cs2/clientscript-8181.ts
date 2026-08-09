@@ -60,8 +60,14 @@ function script8181(int0: number, int1: number): void {
                         script2256(96797459);
                     } else if ((int0 == 93913160)) {
                         script4143();
-                    } else if (((script6431() == 1) && (script15532(0) == 1))) {
-                        IF_TRIGGEROP(comp(279, 4), -1, 1);
+                    } else if ((script6431() == 1)) {
+                        if ((script15532(0) == 1)) {
+                            IF_TRIGGEROP(comp(279, 4), -1, 1);
+                        } else if ((varplayer_12914 == 1)) {
+                            IF_TRIGGEROP(comp(1665, 28), -1, 1);
+                        } else {
+                            script8182();
+                        };
                     } else if ((varplayer_12914 == 1)) {
                         IF_TRIGGEROP(comp(1665, 28), -1, 1);
                     } else {

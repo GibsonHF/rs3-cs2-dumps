@@ -29,8 +29,8 @@ function script18995(): void {
                 CC_SETSIZE(int5, int5, 0, 0);
                 CC_SETPOSITION(int8, int9, 0, 0);
                 CC_SETONMOUSEREPEAT(callback(script3876, string0, -2147483645, -2147483643));
-                CC_CREATE[1](122552345, 5, IF_GETNEXTSUBID(122552345));
-                CC_SETGRAPHIC[1](21747);
+                CC_CREATE[1](comp(1870, 25), 5, IF_GETNEXTSUBID(comp(1870, 25)));
+                CC_SETGRAPHIC[1](21747 as graphic);
                 CC_SETSIZE[1](int5, int5, 0, 0);
                 CC_SETPOSITION[1](int8, int9, 0, 0);
                 if ((int1 >= int2)) {

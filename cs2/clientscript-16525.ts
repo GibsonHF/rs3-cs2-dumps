@@ -9,11 +9,17 @@ function script16525(): void {
         int2 = (3 + (int0 * 60));
         if ((int0 < varbitplayer_51243)) {
             int3 = 18648;
-            script2994(63569944, int1++, int2, 2, 0, 2, 55, 42, 0, 0, 18646);
+            stack(63569944);
+            stack(int1);
+            int1 = (int1 + 1);
+            script2994(int2, 2, 0, 2, 55, 42, 0, 0, 18646);
         } else {
             int3 = 18647;
         };
-        script2994(63569944, int1++, int2, 0, 0, 2, 54, 55, 0, 0, int3);
+        stack(63569944);
+        stack(int1);
+        int1 = (int1 + 1);
+        script2994(int2, 0, 0, 2, 54, 55, 0, 0, int3);
         int0 = (int0 + 1);
     };
     script3536(`For every 2 bonus eggs opened, you will receive a guaranteed reward.<br>You have currently opened ${inttostring(varbitplayer_51243, 10)}/${inttostring(2, 10)} bonus eggs for your next reward.`, 63569947, -1);

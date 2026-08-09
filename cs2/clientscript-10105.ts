@@ -10,8 +10,8 @@ function script10105(int0: number, int1: number): void {
             IF_SETTEXT(`Wall health: ${inttostring(SCALE((int2 * 2), 100, 43), 10)}%`, comp(1515, 30));
         } else if ((CLIENTCLOCK() > int1)) {
             IF_SETONTIMER(callback(), comp(1515, 20));
-            IF_SETHIDE(1, 99287058);
-            IF_SETSIZE(0, IF_GETHEIGHT(99287068), 0, 0, 99287068);
+            IF_SETHIDE(true, comp(1515, 18));
+            IF_SETSIZE(0, IF_GETHEIGHT(comp(1515, 28)), 0, 0, comp(1515, 28));
         } else {
             int2 = (100 - SCALE(MAX(0, (int1 - CLIENTCLOCK())), int3, 100));
             int2 = SCALE(230, 100, MIN(100, int2));

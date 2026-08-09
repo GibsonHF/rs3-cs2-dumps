@@ -11,9 +11,10 @@ function script19100(): void {
     var int4 = 0;
     var int5 = -1 as obj;
     var int6 = 1;
-    var int7 = -1;
+    var int7 = -1 as struct;
     var int8 = 1;
-    while ((++int3 < int1)) {
+    int3 = (int3 + 1);
+    while ((int3 < int1)) {
         script14391(int2, int3, 0, 0, 0, 0, 80, 42, 0, 0);
         CC_SETOP(1, "Preview");
         CC_SETOPCURSOR(1, 172);
@@ -24,9 +25,17 @@ function script19100(): void {
         script3537(OC_NAME(int5));
         script9862(int2, (int3 + 1), int4, 0, int3, 0, 0, 1, 1, 36, 34, 0, 0, int5, 1);
         int7 = item_getparam(int5, 4414);
-        if (((int7 != -1) && (script6488(int7) == 1))) {
-            int4 = (int4 + 1);
-            script7920(int2, (int3 + 1), int4, 0, int3, 0, 0, 1, 1, 32, 32, 0, 0, 34132);
+        if ((int7 != -1 as struct)) {
+            if ((script6488(int7) == 1)) {
+                int4 = (int4 + 1);
+                script7920(int2, (int3 + 1), int4, 0, int3, 0, 0, 1, 1, 32, 32, 0, 0, 34132);
+            } else if ((int8 == 1)) {
+                if ((CC_FINDBYCATEGORY(comp(1147, 4), (int3 + 1), 0) == 1)) {
+                    CC_SETGRAPHIC(34130 as graphic);
+                };
+                IF_SETTEXT(OC_NAME(int5), comp(1147, 153));
+                int8 = 0;
+            };
         } else if ((int8 == 1)) {
             if ((CC_FINDBYCATEGORY(comp(1147, 4), (int3 + 1), 0) == 1)) {
                 CC_SETGRAPHIC(34130 as graphic);

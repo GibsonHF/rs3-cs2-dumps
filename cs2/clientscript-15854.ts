@@ -6,8 +6,7 @@ function script15854(int0: number): void {
     stack(557056);
     stack(int0);
     DB_FIND(0);
-    dbrow_findnext();
-    var int3 = stack();
+    var int3 = dbrow_findnext();
     if ((((int3 != -1) && (varclient_6910 == 1)) && (DB_GETFIELDCOUNT(int3, 557088) > 0))) {
         var int0 = dbrow_getfield(int3, 557088, 0);
     };

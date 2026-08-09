@@ -9,7 +9,7 @@ function script421(int0: number, int1: number, int2: number, int3: number): void
     var int10 = 0;
     var int11 = 0;
     var int3 = (int3 + 1);
-    IF_SETONTIMER(callback(script421, int0, int1, int2, int3), 66387968);
+    IF_SETONTIMER(callback(script421, int0, int1, int2, int3), comp(1013, 0));
     if ((CAM_GETANGLE_XA() < int0)) {
         int10 = (int0 - CAM_GETANGLE_XA());
     } else if ((CAM_GETANGLE_XA() > int0)) {
@@ -32,7 +32,7 @@ function script421(int0: number, int1: number, int2: number, int3: number): void
             };
             if (((CAM_GETANGLE_YA() == 0) && (int2 == 0))) {
                 CAM_FORCEANGLE(CAM_GETANGLE_XA(), 2047);
-                IF_SETONTIMER(callback(script421, int0, int1, 1, int3), 66387968);
+                IF_SETONTIMER(callback(script421, int0, int1, 1, int3), comp(1013, 0));
             };
         };
     } else if ((CAM_GETANGLE_YA() > int1)) {
@@ -48,7 +48,7 @@ function script421(int0: number, int1: number, int2: number, int3: number): void
             };
             if (((CAM_GETANGLE_YA() == 2047) && (int2 == 0))) {
                 CAM_FORCEANGLE(CAM_GETANGLE_XA(), 0);
-                IF_SETONTIMER(callback(script421, int0, int1, 1, int3), 66387968);
+                IF_SETONTIMER(callback(script421, int0, int1, 1, int3), comp(1013, 0));
             };
         } else {
             int11 = int8;
@@ -65,7 +65,11 @@ function script421(int0: number, int1: number, int2: number, int3: number): void
     } else {
         int4 = 1;
     };
-    if ((((int4 == 1) && (int5 == 1)) || (int3 > 50))) {
+    if ((int4 == 1)) {
+        if (((int5 == 1) || (int3 > 50))) {
+            IF_SETONTIMER(callback(), comp(1013, 0));
+        };
+    } else if ((int3 > 50)) {
         IF_SETONTIMER(callback(), comp(1013, 0));
     };
     return;

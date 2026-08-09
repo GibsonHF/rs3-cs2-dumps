@@ -20,17 +20,17 @@ function script2134(int0: number, string0: string, string1: string): string {
     var int12 = 0;
     var int13 = 0;
     var int14 = -1 as obj;
-    var int15 = -1 as obj;
-    var int16 = -1 as obj;
-    var int17 = -1 as obj;
-    var int18 = -1 as obj;
-    var int19 = -1 as obj;
-    var int20 = -1 as obj;
-    var int21 = -1 as obj;
-    var int22 = -1 as obj;
-    var int23 = -1 as obj;
-    var int24 = -1 as obj;
-    var int25 = -1 as obj;
+    var int15 = -1;
+    var int16 = -1;
+    var int17 = -1;
+    var int18 = -1;
+    var int19 = -1;
+    var int20 = -1;
+    var int21 = -1;
+    var int22 = -1;
+    var int23 = -1;
+    var int24 = -1;
+    var int25 = -1;
     var string8 = "";
     var string9 = "";
     var string10 = "";
@@ -109,41 +109,41 @@ function script2134(int0: number, string0: string, string1: string): string {
                 if ((STRING_LENGTH(quest_getparam(int0, 7820)) > 0)) {
                     string4 = quest_getparam(int0, 7820);
                 } else {
-                    if ((((int14 != -1 as obj) && (item_getparam(int14, 4242) != -1 as stat)) && (item_getparam(int14, 4242) != 3 as stat))) {
-                        int14 = -1 as obj;
+                    if ((((int14 != -1) && (item_getparam(int14, 4242) != -1)) && (item_getparam(int14, 4242) != 3))) {
+                        int14 = -1;
                     };
-                    if ((((int15 != -1 as obj) && (item_getparam(int15, 4242) != -1 as stat)) && (item_getparam(int15, 4242) != 3 as stat))) {
-                        int15 = -1 as obj;
+                    if ((((int15 != -1) && (item_getparam(int15, 4242) != -1)) && (item_getparam(int15, 4242) != 3))) {
+                        int15 = -1;
                     };
-                    if ((((int16 != -1 as obj) && (item_getparam(int16, 4242) != -1 as stat)) && (item_getparam(int16, 4242) != 3 as stat))) {
-                        int16 = -1 as obj;
+                    if ((((int16 != -1) && (item_getparam(int16, 4242) != -1)) && (item_getparam(int16, 4242) != 3))) {
+                        int16 = -1;
                     };
-                    if ((((int17 != -1 as obj) && (item_getparam(int17, 4242) != -1 as stat)) && (item_getparam(int17, 4242) != 3 as stat))) {
-                        int17 = -1 as obj;
+                    if ((((int17 != -1) && (item_getparam(int17, 4242) != -1)) && (item_getparam(int17, 4242) != 3))) {
+                        int17 = -1;
                     };
-                    if ((((int18 != -1 as obj) && (item_getparam(int18, 4242) != -1 as stat)) && (item_getparam(int18, 4242) != 3 as stat))) {
-                        int18 = -1 as obj;
+                    if ((((int18 != -1) && (item_getparam(int18, 4242) != -1)) && (item_getparam(int18, 4242) != 3))) {
+                        int18 = -1;
                     };
-                    if ((((int19 != -1 as obj) && (item_getparam(int19, 4242) != -1 as stat)) && (item_getparam(int19, 4242) != 3 as stat))) {
-                        int19 = -1 as obj;
+                    if ((((int19 != -1) && (item_getparam(int19, 4242) != -1)) && (item_getparam(int19, 4242) != 3))) {
+                        int19 = -1;
                     };
-                    if ((((int20 != -1 as obj) && (item_getparam(int20, 4242) != -1 as stat)) && (item_getparam(int20, 4242) != 3 as stat))) {
-                        int20 = -1 as obj;
+                    if ((((int20 != -1) && (item_getparam(int20, 4242) != -1)) && (item_getparam(int20, 4242) != 3))) {
+                        int20 = -1;
                     };
-                    if ((((int21 != -1 as obj) && (item_getparam(int21, 4242) != -1 as stat)) && (item_getparam(int21, 4242) != 3 as stat))) {
-                        int21 = -1 as obj;
+                    if ((((int21 != -1) && (item_getparam(int21, 4242) != -1)) && (item_getparam(int21, 4242) != 3))) {
+                        int21 = -1;
                     };
-                    if ((((int22 != -1 as obj) && (item_getparam(int22, 4242) != -1 as stat)) && (item_getparam(int22, 4242) != 3 as stat))) {
-                        int22 = -1 as obj;
+                    if ((((int22 != -1) && (item_getparam(int22, 4242) != -1)) && (item_getparam(int22, 4242) != 3))) {
+                        int22 = -1;
                     };
-                    if ((((int23 != -1 as obj) && (item_getparam(int23, 4242) != -1 as stat)) && (item_getparam(int23, 4242) != 3 as stat))) {
-                        int23 = -1 as obj;
+                    if ((((int23 != -1) && (item_getparam(int23, 4242) != -1)) && (item_getparam(int23, 4242) != 3))) {
+                        int23 = -1;
                     };
-                    if ((((int24 != -1 as obj) && (item_getparam(int24, 4242) != -1 as stat)) && (item_getparam(int24, 4242) != 3 as stat))) {
-                        int24 = -1 as obj;
+                    if ((((int24 != -1) && (item_getparam(int24, 4242) != -1)) && (item_getparam(int24, 4242) != 3))) {
+                        int24 = -1;
                     };
-                    if ((((int25 != -1 as obj) && (item_getparam(int25, 4242) != -1 as stat)) && (item_getparam(int25, 4242) != 3 as stat))) {
-                        int25 = -1 as obj;
+                    if ((((int25 != -1) && (item_getparam(int25, 4242) != -1)) && (item_getparam(int25, 4242) != 3))) {
+                        int25 = -1;
                     };
                 };
             };
@@ -151,41 +151,41 @@ function script2134(int0: number, string0: string, string1: string): string {
                 if ((STRING_LENGTH(quest_getparam(int0, 7819)) > 0)) {
                     string5 = quest_getparam(int0, 7819);
                 } else {
-                    if ((((int14 != -1 as obj) && (item_getparam(int14, 4242) != -1 as stat)) && (item_getparam(int14, 4242) != 1 as stat))) {
-                        int14 = -1 as obj;
+                    if ((((int14 != -1) && (item_getparam(int14, 4242) != -1)) && (item_getparam(int14, 4242) != 1))) {
+                        int14 = -1;
                     };
-                    if ((((int15 != -1 as obj) && (item_getparam(int15, 4242) != -1 as stat)) && (item_getparam(int15, 4242) != 1 as stat))) {
-                        int15 = -1 as obj;
+                    if ((((int15 != -1) && (item_getparam(int15, 4242) != -1)) && (item_getparam(int15, 4242) != 1))) {
+                        int15 = -1;
                     };
-                    if ((((int16 != -1 as obj) && (item_getparam(int16, 4242) != -1 as stat)) && (item_getparam(int16, 4242) != 1 as stat))) {
-                        int16 = -1 as obj;
+                    if ((((int16 != -1) && (item_getparam(int16, 4242) != -1)) && (item_getparam(int16, 4242) != 1))) {
+                        int16 = -1;
                     };
-                    if ((((int17 != -1 as obj) && (item_getparam(int17, 4242) != -1 as stat)) && (item_getparam(int17, 4242) != 1 as stat))) {
-                        int17 = -1 as obj;
+                    if ((((int17 != -1) && (item_getparam(int17, 4242) != -1)) && (item_getparam(int17, 4242) != 1))) {
+                        int17 = -1;
                     };
-                    if ((((int18 != -1 as obj) && (item_getparam(int18, 4242) != -1 as stat)) && (item_getparam(int18, 4242) != 1 as stat))) {
-                        int18 = -1 as obj;
+                    if ((((int18 != -1) && (item_getparam(int18, 4242) != -1)) && (item_getparam(int18, 4242) != 1))) {
+                        int18 = -1;
                     };
-                    if ((((int19 != -1 as obj) && (item_getparam(int19, 4242) != -1 as stat)) && (item_getparam(int19, 4242) != 1 as stat))) {
-                        int19 = -1 as obj;
+                    if ((((int19 != -1) && (item_getparam(int19, 4242) != -1)) && (item_getparam(int19, 4242) != 1))) {
+                        int19 = -1;
                     };
-                    if ((((int20 != -1 as obj) && (item_getparam(int20, 4242) != -1 as stat)) && (item_getparam(int20, 4242) != 1 as stat))) {
-                        int20 = -1 as obj;
+                    if ((((int20 != -1) && (item_getparam(int20, 4242) != -1)) && (item_getparam(int20, 4242) != 1))) {
+                        int20 = -1;
                     };
-                    if ((((int21 != -1 as obj) && (item_getparam(int21, 4242) != -1 as stat)) && (item_getparam(int21, 4242) != 1 as stat))) {
-                        int21 = -1 as obj;
+                    if ((((int21 != -1) && (item_getparam(int21, 4242) != -1)) && (item_getparam(int21, 4242) != 1))) {
+                        int21 = -1;
                     };
-                    if ((((int22 != -1 as obj) && (item_getparam(int22, 4242) != -1 as stat)) && (item_getparam(int22, 4242) != 1 as stat))) {
-                        int22 = -1 as obj;
+                    if ((((int22 != -1) && (item_getparam(int22, 4242) != -1)) && (item_getparam(int22, 4242) != 1))) {
+                        int22 = -1;
                     };
-                    if ((((int23 != -1 as obj) && (item_getparam(int23, 4242) != -1 as stat)) && (item_getparam(int23, 4242) != 1 as stat))) {
-                        int23 = -1 as obj;
+                    if ((((int23 != -1) && (item_getparam(int23, 4242) != -1)) && (item_getparam(int23, 4242) != 1))) {
+                        int23 = -1;
                     };
-                    if ((((int24 != -1 as obj) && (item_getparam(int24, 4242) != -1 as stat)) && (item_getparam(int24, 4242) != 1 as stat))) {
-                        int24 = -1 as obj;
+                    if ((((int24 != -1) && (item_getparam(int24, 4242) != -1)) && (item_getparam(int24, 4242) != 1))) {
+                        int24 = -1;
                     };
-                    if ((((int25 != -1 as obj) && (item_getparam(int25, 4242) != -1 as stat)) && (item_getparam(int25, 4242) != 1 as stat))) {
-                        int25 = -1 as obj;
+                    if ((((int25 != -1) && (item_getparam(int25, 4242) != -1)) && (item_getparam(int25, 4242) != 1))) {
+                        int25 = -1;
                     };
                 };
             };
@@ -224,9 +224,17 @@ function script2134(int0: number, string0: string, string1: string): string {
         string22 = strconcat(string22, string7);
         string22 = strconcat(string22, "<br>");
     };
-    if (((int26 == 1) && (STRING_LENGTH(string1) > 0))) {
-        string22 = strconcat(string22, string1);
-        string22 = strconcat(string22, "<br>");
+    if ((int26 == 1)) {
+        if ((STRING_LENGTH(string1) > 0)) {
+            string22 = strconcat(string22, string1);
+            string22 = strconcat(string22, "<br>");
+        } else if ((STRING_LENGTH(string0) > 0)) {
+            if ((int0 == 371)) {
+                string22 = strconcat(string22, inttostring(script2135(), 10));
+            };
+            string22 = strconcat(string22, string0);
+            string22 = strconcat(string22, "<br>");
+        };
     } else if ((STRING_LENGTH(string0) > 0)) {
         if ((int0 == 371)) {
             string22 = strconcat(string22, inttostring(script2135(), 10));

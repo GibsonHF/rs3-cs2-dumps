@@ -38,6 +38,6 @@ function script6624(int0: number, int1: number, int2: number, int3: number, int4
             SOUND_VORBIS_VOLUME(16938 as vorbis, 1, 16, 50);
         };
     };
-    IF_SETONTIMER(callback(script6624, int0, int1, int2, int3, int4), 86704129);
+    IF_SETONTIMER(callback(script6624, int0, int1, int2, int3, int4), comp(1323, 1));
     return;
 }

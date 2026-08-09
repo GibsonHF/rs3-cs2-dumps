@@ -17,16 +17,24 @@ function script11007(int0: number): void {
         int2 = 0;
     } else if ((int3 < 9000)) {
         int2 = ((((int1 * 1000) / 9000) * int3) / 1000);
-    } else if (((int3 > 9000) && (int3 < 24000))) {
-        int2 = ((((int1 * 1000) / (24000 - 9000)) * (int3 - 9000)) / 1000);
+    } else if ((int3 > 9000)) {
+        if ((int3 < 24000)) {
+            int2 = ((((int1 * 1000) / (24000 - 9000)) * (int3 - 9000)) / 1000);
+        } else if ((int3 == 24000)) {
+            int2 = int1;
+        };
     } else if ((int3 == 24000)) {
         int2 = int1;
     };
     int4 = ((int2 * 100) / int1);
     if ((int3 < 9000)) {
         IF_SETTEXT(`Growth until Adolescence: <col=FFFFFF>${inttostring(int4, 10)}%</col>`, comp(1311, 388));
-    } else if (((int3 >= 9000) && (int3 < 24000))) {
-        IF_SETTEXT(`Growth until Adult: <col=FFFFFF>${inttostring(int4, 10)}%</col>`, comp(1311, 388));
+    } else if ((int3 >= 9000)) {
+        if ((int3 < 24000)) {
+            IF_SETTEXT(`Growth until Adult: <col=FFFFFF>${inttostring(int4, 10)}%</col>`, comp(1311, 388));
+        } else {
+            IF_SETTEXT("Adult", comp(1311, 388));
+        };
     } else {
         IF_SETTEXT("Adult", comp(1311, 388));
     };

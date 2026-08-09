@@ -18,24 +18,41 @@ function script12581(int0: number, int1: number, int2: number, int3: number): vo
         };
         varbitclient_32659 = (varbitclient_32659 + 1);
     };
-    while (((CC_FIND(int1, int6) == 1) && (CC_FIND[1](int0, int6) == 1))) {
-        int6 = (int6 + 1);
-        int5 = (CC_GETX() + int7);
-        if ((int5 > int4)) {
-            int5 = ((-150 + int5) - int4);
-            if ((((varbitplayer_32636 != 0) && (varbitclient_32660 == 0)) && (int6 != 1))) {
-                CC_SETTEXT[1](inttostring(varbitplayer_32636, 10));
-                script12574(varbitplayer_32636);
-                varbitclient_32660 = (int6 - 1);
-                varbitclient_32659 = 1;
-            } else {
-                int8 = (5 + RANDOMINC(15));
-                CC_SETTEXT[1](inttostring(int8, 10));
-                script12574(int8);
+    while ((CC_FIND(int1, int6) == 1)) {
+        if ((CC_FIND[1](int0, int6) == 1)) {
+            int6 = (int6 + 1);
+            int5 = (CC_GETX() + int7);
+            if ((int5 > int4)) {
+                int5 = ((-150 + int5) - int4);
+                if ((varbitplayer_32636 != 0)) {
+                    if ((varbitclient_32660 == 0)) {
+                        if ((int6 != 1)) {
+                            CC_SETTEXT[1](inttostring(varbitplayer_32636, 10));
+                            script12574(varbitplayer_32636);
+                            varbitclient_32660 = (int6 - 1);
+                            varbitclient_32659 = 1;
+                        } else {
+                            int8 = (5 + RANDOMINC(15));
+                            CC_SETTEXT[1](inttostring(int8, 10));
+                            script12574(int8);
+                        };
+                    } else {
+                        int8 = (5 + RANDOMINC(15));
+                        CC_SETTEXT[1](inttostring(int8, 10));
+                        script12574(int8);
+                    };
+                } else {
+                    int8 = (5 + RANDOMINC(15));
+                    CC_SETTEXT[1](inttostring(int8, 10));
+                    script12574(int8);
+                };
             };
+            CC_SETPOSITION(int5, CC_GETY(), 0, 4);
+            CC_SETPOSITION[1](int5, CC_GETY(), 0, 4);
         };
-        CC_SETPOSITION(int5, CC_GETY(), 0, 4);
-        CC_SETPOSITION[1](int5, CC_GETY(), 0, 4);
+        script12578(int2, int3);
+        SOUND_VORBIS_VOLUME(7715 as vorbis, 1, 0, 30);
+        return;
     };
     script12578(int2, int3);
     SOUND_VORBIS_VOLUME(7715 as vorbis, 1, 0, 30);

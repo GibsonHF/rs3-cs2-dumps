@@ -40,135 +40,139 @@ function script6757(): void {
     var int13 = -1;
     var int14 = 0;
     var int15 = 0;
-    while (((int14 < 12) && (int15 == 0))) {
-        switch (int14) {
-            case 0: {
-                int7 = struct_getparam(int4, 1294);
-                int8 = struct_getparam(int4, 1295);
-                int9 = 88146037;
-                int10 = 88146043;
-                int11 = 88146044;
-                int13 = 88146041;
-                int12 = 88146042;
-                break;
-            }
-            case 1: {
-                int7 = struct_getparam(int4, 1296);
-                int8 = struct_getparam(int4, 1297);
-                int9 = 88146045;
-                int10 = 88146051;
-                int11 = 88146052;
-                int13 = 88146049;
-                int12 = 88146050;
-                break;
-            }
-            case 2: {
-                int7 = struct_getparam(int4, 1298);
-                int8 = struct_getparam(int4, 1299);
-                int9 = 88146053;
-                int10 = 88146059;
-                int11 = 88146060;
-                int13 = 88146057;
-                int12 = 88146058;
-                break;
-            }
-            case 3: {
-                int7 = struct_getparam(int4, 1300);
-                int8 = struct_getparam(int4, 1301);
-                int9 = 88146061;
-                int10 = 88146067;
-                int11 = 88146068;
-                int13 = 88146065;
-                int12 = 88146066;
-                break;
-            }
-            case 4: {
-                int7 = struct_getparam(int4, 1302);
-                int8 = struct_getparam(int4, 1303);
-                int9 = 88146069;
-                int10 = 88146075;
-                int11 = 88146076;
-                int13 = 88146073;
-                int12 = 88146074;
-                break;
-            }
-            case 5: {
-                int7 = struct_getparam(int4, 1304);
-                int8 = struct_getparam(int4, 1305);
-                int9 = 88146077;
-                int10 = 88146083;
-                int11 = 88146084;
-                int13 = 88146081;
-                int12 = 88146082;
-                break;
-            }
-            case 6: {
-                int7 = struct_getparam(int4, 1306);
-                int8 = struct_getparam(int4, 1307);
-                int9 = 88146085;
-                int10 = 88146091;
-                int11 = 88146092;
-                int13 = 88146089;
-                int12 = 88146090;
-                break;
-            }
-            case 7: {
-                int7 = struct_getparam(int4, 1308);
-                int8 = struct_getparam(int4, 1309);
-                int9 = 88146093;
-                int10 = 88146099;
-                int11 = 88146100;
-                int13 = 88146097;
-                int12 = 88146098;
-                break;
-            }
-            case 8: {
-                int7 = struct_getparam(int4, 1310);
-                int8 = struct_getparam(int4, 1311);
-                int9 = 88146101;
-                int10 = 88146107;
-                int11 = 88146108;
-                int13 = 88146105;
-                int12 = 88146106;
-                break;
-            }
-            case 9: {
-                int7 = struct_getparam(int4, 1312);
-                int8 = struct_getparam(int4, 1313);
-                int9 = 88146109;
-                int10 = 88146115;
-                int11 = 88146116;
-                int13 = 88146113;
-                int12 = 88146114;
-                break;
-            }
-            case 10: {
-                int7 = struct_getparam(int4, 2227);
-                int8 = struct_getparam(int4, 2228);
-                int9 = 88146117;
-                int10 = 88146123;
-                int11 = 88146124;
-                int13 = 88146121;
-                int12 = 88146122;
-                break;
-            }
-            case 11: {
-                int7 = struct_getparam(int4, 2229);
-                int8 = struct_getparam(int4, 2230);
-                int9 = 88146125;
-                int10 = 88146131;
-                int11 = 88146132;
-                int13 = 88146129;
-                int12 = 88146130;
-                break;
-            }
+    while ((int14 < 12)) {
+        if ((int15 == 0)) {
+            switch (int14) {
+                case 0: {
+                    int7 = struct_getparam(int4, 1294);
+                    int8 = struct_getparam(int4, 1295);
+                    int9 = 88146037;
+                    int10 = 88146043;
+                    int11 = 88146044;
+                    int13 = 88146041;
+                    int12 = 88146042;
+                    break;
+                }
+                case 1: {
+                    int7 = struct_getparam(int4, 1296);
+                    int8 = struct_getparam(int4, 1297);
+                    int9 = 88146045;
+                    int10 = 88146051;
+                    int11 = 88146052;
+                    int13 = 88146049;
+                    int12 = 88146050;
+                    break;
+                }
+                case 2: {
+                    int7 = struct_getparam(int4, 1298);
+                    int8 = struct_getparam(int4, 1299);
+                    int9 = 88146053;
+                    int10 = 88146059;
+                    int11 = 88146060;
+                    int13 = 88146057;
+                    int12 = 88146058;
+                    break;
+                }
+                case 3: {
+                    int7 = struct_getparam(int4, 1300);
+                    int8 = struct_getparam(int4, 1301);
+                    int9 = 88146061;
+                    int10 = 88146067;
+                    int11 = 88146068;
+                    int13 = 88146065;
+                    int12 = 88146066;
+                    break;
+                }
+                case 4: {
+                    int7 = struct_getparam(int4, 1302);
+                    int8 = struct_getparam(int4, 1303);
+                    int9 = 88146069;
+                    int10 = 88146075;
+                    int11 = 88146076;
+                    int13 = 88146073;
+                    int12 = 88146074;
+                    break;
+                }
+                case 5: {
+                    int7 = struct_getparam(int4, 1304);
+                    int8 = struct_getparam(int4, 1305);
+                    int9 = 88146077;
+                    int10 = 88146083;
+                    int11 = 88146084;
+                    int13 = 88146081;
+                    int12 = 88146082;
+                    break;
+                }
+                case 6: {
+                    int7 = struct_getparam(int4, 1306);
+                    int8 = struct_getparam(int4, 1307);
+                    int9 = 88146085;
+                    int10 = 88146091;
+                    int11 = 88146092;
+                    int13 = 88146089;
+                    int12 = 88146090;
+                    break;
+                }
+                case 7: {
+                    int7 = struct_getparam(int4, 1308);
+                    int8 = struct_getparam(int4, 1309);
+                    int9 = 88146093;
+                    int10 = 88146099;
+                    int11 = 88146100;
+                    int13 = 88146097;
+                    int12 = 88146098;
+                    break;
+                }
+                case 8: {
+                    int7 = struct_getparam(int4, 1310);
+                    int8 = struct_getparam(int4, 1311);
+                    int9 = 88146101;
+                    int10 = 88146107;
+                    int11 = 88146108;
+                    int13 = 88146105;
+                    int12 = 88146106;
+                    break;
+                }
+                case 9: {
+                    int7 = struct_getparam(int4, 1312);
+                    int8 = struct_getparam(int4, 1313);
+                    int9 = 88146109;
+                    int10 = 88146115;
+                    int11 = 88146116;
+                    int13 = 88146113;
+                    int12 = 88146114;
+                    break;
+                }
+                case 10: {
+                    int7 = struct_getparam(int4, 2227);
+                    int8 = struct_getparam(int4, 2228);
+                    int9 = 88146117;
+                    int10 = 88146123;
+                    int11 = 88146124;
+                    int13 = 88146121;
+                    int12 = 88146122;
+                    break;
+                }
+                case 11: {
+                    int7 = struct_getparam(int4, 2229);
+                    int8 = struct_getparam(int4, 2230);
+                    int9 = 88146125;
+                    int10 = 88146131;
+                    int11 = 88146132;
+                    int13 = 88146129;
+                    int12 = 88146130;
+                    break;
+                }
+            };
+            int14 = (1 + int14);
+            if ((int7 == 0)) {
+                int15 = 1;
+            } else {
+                script6758(int3, int14, int7, int8, int9, int10, int11, int13, int12);
+            };
         };
-        int14 = (1 + int14);
-        if ((int7 == 0)) {
-            int15 = 1;
-        } else {
-            script6758(int3, int14, int7, int8, int9, int10, int11, int13, int12);
-        };
+        IF_SETSIZE(400, (115 + (23 * int14)), 0, 0, comp(1345, 106));
+        return;
     };
     IF_SETSIZE(400, (115 + (23 * int14)), 0, 0, comp(1345, 106));
     return;

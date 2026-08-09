@@ -1,5 +1,5 @@
 //
-function script9775(int0: number): [number, string, number] {
+function script9775(int0: number): [number, number, string] {
     switch (int0) {
         case 0: {
             return [0, "None Selected", -1];

@@ -3,7 +3,7 @@ function script7625(int0: number, int1: number, string0: string, string1: string
     var int2 = 0;
     var string20 = "";
     var string21 = "";
-    var int3 = false;
+    var int3 = 0;
     if ((int0 == -1 as dbrow)) {
         switch (int1) {
             case 0: {
@@ -58,10 +58,7 @@ function script7625(int0: number, int1: number, string0: string, string1: string
             }
         };
         if ((strcmp(string20, "") == 0)) {
-            stack(0);
-            stack("");
-            stack("");
-            [int2, string20, string21] = stack();
+            [int2, string20, string21] = [0, "", ""];
         } else {
             int2 = 1;
         };
@@ -69,8 +66,7 @@ function script7625(int0: number, int1: number, string0: string, string1: string
         if ((DB_GETFIELDCOUNT(int0, 532496) < int1)) {
             return [0, "", ""];
         };
-        stack(dbrow_getfield(int0, 532496, int1));
-        [int2, int3, string20, string21] = stack();
+        [int2, int3, string20, string21] = dbrow_getfield(int0, 532496, int1);
         int2 = 1;
         string20 = script16336(int0, int1, string20);
         string21 = script7626(int0, int1, string21);

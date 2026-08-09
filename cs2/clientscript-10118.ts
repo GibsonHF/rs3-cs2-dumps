@@ -52,7 +52,7 @@ function script10118(): void {
     };
     if ((int0 != 2)) {
         IF_SETONTIMER(callback(script3106), comp(232, 36));
-        IF_SETHIDE(0, 15204416);
+        IF_SETHIDE(false, comp(232, 64));
         return;
     };
     IF_SETTEXT("Watch current broadcasts", comp(232, 23));
@@ -64,7 +64,7 @@ function script10118(): void {
         IF_SETHIDE(true, comp(232, 73));
         IF_SETHIDE(false, comp(232, 72));
         if ((STRING_LENGTH(varclient_4285) > 0)) {
-            IF_SETTEXT(varclient_4285, comp(232, 87));
+            IF_SETTEXT(varclient_4285, 15204439);
         };
         varclient_4287 = "";
         script10121(15204439, -1, -1, 15204438);

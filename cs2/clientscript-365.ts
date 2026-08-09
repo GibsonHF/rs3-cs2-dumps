@@ -24,9 +24,9 @@ function script365(int0: number, int1: number, int2: number): void {
     IF_SETHIDE(true, comp(1666, 1));
     IF_SETHIDE(true, comp(517, 20));
     IF_SETONTIMER(callback(), comp(1474, 13));
-    IF_SETONTIMER(callback(), 96534538);
-    IF_SETONTIMER(callback(), 125829133);
-    IF_SETONTIMER(callback(), 109182977);
-    IF_SETONTIMER(callback(), 33882132);
+    IF_SETONTIMER(callback(), comp(1473, 10));
+    IF_SETONTIMER(callback(), comp(1920, 13));
+    IF_SETONTIMER(callback(), comp(1666, 1));
+    IF_SETONTIMER(callback(), comp(517, 20));
     return;
 }

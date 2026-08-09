@@ -40,7 +40,7 @@ function script1101(int0: number, int1: number, int2: number, int3: number): voi
         CC_SETCOLOUR(int13);
         CC_SETONTIMER(callback());
         CC_SETTEXTFONT(int17);
-        CC_SETTEXTSHADOW(1);
+        CC_SETTEXTSHADOW(true);
         CC_SETTEXTALIGN(0, 0, 0);
         CC_SETLINKFRIEND(int1);
         if ((int10 != 0)) {
@@ -93,7 +93,7 @@ function script1101(int0: number, int1: number, int2: number, int3: number): voi
         CC_SETONMOUSEREPEAT(callback(script3876, string2, -2147483645, -2147483643));
         cc_setparam(7540, 2);
         CC_SETPARAM_STRING(4277, string2);
-        CC_SETHIDE(0);
+        CC_SETHIDE(false);
     };
     if ((CC_FIND(int5, int1) == 1)) {
         CC_SETHIDE(false);
@@ -122,8 +122,12 @@ function script1101(int0: number, int1: number, int2: number, int3: number): voi
         int14 = ((2 + 24) + 2);
         string2 = FRIEND_GETWORLDNAME(int1);
     } else {
-        if (((int10 >= 1100) && (int10 <= 5000))) {
-            string0 = "Lobby";
+        if ((int10 >= 1100)) {
+            if ((int10 <= 5000)) {
+                string0 = "Lobby";
+            } else {
+                string0 = FRIEND_GETWORLDNAME(int1);
+            };
         } else {
             string0 = FRIEND_GETWORLDNAME(int1);
         };
@@ -131,24 +135,43 @@ function script1101(int0: number, int1: number, int2: number, int3: number): voi
     };
     int15 = STRINGWIDTH(string0, int17);
     if ((CC_FIND(int7, int1) == 1)) {
-        if (((int14 > 0) && (int3 >= (int15 + int14)))) {
-            if (((int10 >= 300) && (int10 < 600))) {
-                CC_SETGRAPHIC(131 as graphic);
-            } else if ((int11 == -1)) {
-                if ((int12 >= 0)) {
-                    CC_SETGRAPHIC(enum_getvalue(0, 23, 1810 as cs2enum, int12));
+        if ((int14 > 0)) {
+            if ((int3 >= (int15 + int14))) {
+                if ((int10 >= 300)) {
+                    if ((int10 < 600)) {
+                        CC_SETGRAPHIC(131 as graphic);
+                    } else if ((int11 == -1)) {
+                        if ((int12 >= 0)) {
+                            CC_SETGRAPHIC(enum_getvalue(0, 23, 1810 as cs2enum, int12));
+                        } else {
+                            CC_SETGRAPHIC(23848 as graphic);
+                        };
+                    } else if ((TESTBIT(int11, 24) == 1)) {
+                        CC_SETGRAPHIC(35198 as graphic);
+                    } else if ((TESTBIT(int11, 16) == 1)) {
+                        CC_SETGRAPHIC(23849 as graphic);
+                    } else {
+                        CC_SETGRAPHIC(enum_getvalue(0, 23, 1810 as cs2enum, int12));
+                    };
+                } else if ((int11 == -1)) {
+                    if ((int12 >= 0)) {
+                        CC_SETGRAPHIC(enum_getvalue(0, 23, 1810 as cs2enum, int12));
+                    } else {
+                        CC_SETGRAPHIC(23848 as graphic);
+                    };
+                } else if ((TESTBIT(int11, 24) == 1)) {
+                    CC_SETGRAPHIC(35198 as graphic);
+                } else if ((TESTBIT(int11, 16) == 1)) {
+                    CC_SETGRAPHIC(23849 as graphic);
                 } else {
-                    CC_SETGRAPHIC(23848 as graphic);
+                    CC_SETGRAPHIC(enum_getvalue(0, 23, 1810 as cs2enum, int12));
                 };
-            } else if ((TESTBIT(int11, 24) == 1)) {
-                CC_SETGRAPHIC(35198 as graphic);
-            } else if ((TESTBIT(int11, 16) == 1)) {
-                CC_SETGRAPHIC(23849 as graphic);
+                CC_SETONMOUSEREPEAT(callback(script3126, string2, -2147483645, -2147483643, int0, int4));
+                CC_SETHIDE(false);
             } else {
-                CC_SETGRAPHIC(enum_getvalue(0, 23, 1810 as cs2enum, int12));
+                CC_SETHIDE(true);
+                int14 = 0;
             };
-            CC_SETONMOUSEREPEAT(callback(script3126, string2, -2147483645, -2147483643, int0, int4));
-            CC_SETHIDE(0);
         } else {
             CC_SETHIDE(true);
             int14 = 0;
@@ -168,7 +191,7 @@ function script1101(int0: number, int1: number, int2: number, int3: number): voi
             CC_SETCOLOUR(16777060);
         };
         CC_SETONMOUSEREPEAT(callback(script3126, string2, -2147483645, -2147483643, int0, int4));
-        CC_SETHIDE(0);
+        CC_SETHIDE(false);
     };
     return;
 }

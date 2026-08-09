@@ -6,7 +6,9 @@ function script13864(int0: number): void {
     if (((((script15536() == 7) && (script15532(0) == 1)) && (varbitplayer_49044 == 10)) && (int0 <= 8))) {
         return;
     };
-    if (((((CAM2_GETCONTROLMODE() != 1) || (varclient_3824 == 1)) || (varclient_173 == 1)) || ((varbitplayer_3028 == 1) && (varbitplayer_3031 != 1)))) {
+    if ((((CAM2_GETCONTROLMODE() != 1) || (varclient_3824 == 1)) || (varclient_173 == 1))) {
+        return;
+    } else if (((varbitplayer_3028 == 1) && (varbitplayer_3031 != 1))) {
         return;
     };
     var int1 = 0;

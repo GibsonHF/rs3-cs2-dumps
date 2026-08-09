@@ -16,8 +16,16 @@ function script19195(int0: number, int1: number, int2: number, int3: number): vo
     if ((script6431() == 1)) {
         CC_SETONOP(callback(script7774, string0, -2147483645, -2147483643, 0));
         CC_SETOP(1, "Info");
-    } else if ((((int0 == 0) && (item_getparam(int2, 4414) != -1 as struct)) && (item_getparam(int2, 2531) != 4))) {
-        script14994(-1, -1, -1, int2, 819, 1);
+    } else if ((int0 == 0)) {
+        if ((item_getparam(int2, 4414) != -1 as struct)) {
+            if ((item_getparam(int2, 2531) != 4)) {
+                script14994(-1, -1, -1, int2, 819, 1);
+            } else {
+                CC_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643));
+            };
+        } else {
+            CC_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643));
+        };
     } else {
         CC_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643));
     };

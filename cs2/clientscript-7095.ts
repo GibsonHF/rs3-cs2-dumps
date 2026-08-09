@@ -48,7 +48,7 @@ function script7095(): void {
             case 53298: {
                 IF_SETTEXT("-", comp(1251, 10));
                 IF_SETONTIMER(callback(), comp(1251, 11));
-                IF_SETONTIMER(callback(), 81985539);
+                IF_SETONTIMER(callback(), comp(1251, 3));
                 return;
             }
         };
@@ -66,8 +66,8 @@ function script7095(): void {
         return;
     };
     IF_SETTEXT(string0, comp(1251, 10));
-    IF_SETONTIMER(callback(script7099, 81985546, (int1 - 1), (CLIENTCLOCK() + int2)), 81985547);
+    IF_SETONTIMER(callback(script7099, 81985546, (int1 - 1), (CLIENTCLOCK() + int2)), comp(1251, 11));
     var int3 = (CLIENTCLOCK() + (((varclient_5831 + varclient_2227) * 30) * 2));
-    IF_SETONTIMER(callback(script7097, int3), 81985539);
+    IF_SETONTIMER(callback(script7097, int3), comp(1251, 3));
     return;
 }

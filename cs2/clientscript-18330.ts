@@ -9,7 +9,11 @@ function script18330(int0: number, int1: number, int2: number, int3: number, int
             int9 = INV_GETOBJ(int0, int8);
             int7 = INV_GETNUM(int0, int8);
             if ((int7 > 0)) {
-                CC_CREATE(int3, 5, int4++);
+                stack(int3);
+                stack(5);
+                stack(int4);
+                var int4 = (int4 + 1);
+                CC_CREATE();
                 CC_SETSIZE(36, 32, 0, 0);
                 CC_SETOBJECT_ALWAYSNUM(int9, int7);
             };
@@ -18,7 +22,10 @@ function script18330(int0: number, int1: number, int2: number, int3: number, int
         int8 = 0;
         int7 = (int4 - int5);
         while ((int5 < int4)) {
-            if ((CC_FIND(int3, int5++) == 1)) {
+            stack(int3);
+            stack(int5);
+            var int5 = (int5 + 1);
+            if ((CC_FIND() == 1)) {
                 switch (MODULO(MIN(int7, 4), 4)) {
                     case 1: {
                         CC_SETPOSITION(0, (int6 + (35 * (int8 / 4))), 1, 0);
@@ -77,7 +84,8 @@ function script18330(int0: number, int1: number, int2: number, int3: number, int
                     }
                 };
                 if ((MODULO(int8, 4) == 3)) {
-                    int7 = ABS(--int7);
+                    int7 = (int7 - 4);
+                    int7 = ABS(int7);
                 };
                 int8 = (int8 + 1);
             };

@@ -2,6 +2,7 @@
 function script3611(int0: number, int1: number): number {
     switch (int0) {
         case -1: {
+            break;
         }
         default: {
             switch (int1) {

@@ -16,7 +16,7 @@ function script1595(int0: number, string0: string, string1: string): void {
             CC_SETOP(6, "Add ignore");
         };
     };
-    if ((operator(">=", CLAN_GETCHATMINKICK(CLAN_GETCHATRANK())) && (CLAN_GETCHATRANK() > CLAN_GETCHATUSERRANK(int0)))) {
+    if ((BRANCH_GREATER_THAN_OR_EQUALS(CLAN_GETCHATMINKICK(CLAN_GETCHATRANK())) && (CLAN_GETCHATRANK() > CLAN_GETCHATUSERRANK(int0)))) {
         CC_SETOP(9, "Kick/ban user");
     };
     return;

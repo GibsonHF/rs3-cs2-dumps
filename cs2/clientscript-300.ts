@@ -142,5 +142,6 @@ function script300(int0: number, int1: number, int2: number, int3: number, int4:
         CC_SETTEXTFONT(32 as fontmetrics);
         CC_SETTEXT(string0);
     };
-    return ++int8;
+    int8 = (int8 + 1);
+    return int8;
 }

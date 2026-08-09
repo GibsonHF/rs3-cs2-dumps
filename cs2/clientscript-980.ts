@@ -16,7 +16,7 @@ function script980(int0: number, int1: number): void {
         varclient_6971 = "";
     };
     var string1 = struct_getparam(int3, 7435);
-    if ((struct_getparam(int3, 8365) != -1 as cs2enum)) {
+    if ((struct_getparam(int3, 8365) != -1)) {
         string1 = `${string1} (${string0}).`;
     };
     IF_SETTEXT(string1, comp(204, 39));

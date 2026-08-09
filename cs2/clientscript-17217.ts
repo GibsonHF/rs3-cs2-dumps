@@ -43,7 +43,7 @@ function script17217(int0: number): void {
     IF_SETOPCURSOR(1, 46, int0);
     IF_SETONOP(callback(script17218, int1), int0);
     IF_SETONMOUSEREPEAT(callback(script3876, string1, int0, -1), int0);
-    if ((int2 != -1)) {
+    if ((int2 != comp(-1, 65535))) {
         IF_SETGRAPHIC(int3, int2);
         IF_SETONMOUSELEAVE(callback(script44, int2, int3), int2);
         IF_SETONMOUSEREPEAT(callback(script44, int2, int4), int2);

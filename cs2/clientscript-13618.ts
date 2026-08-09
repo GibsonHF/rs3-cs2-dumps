@@ -4,7 +4,7 @@ function script13618(int0: number, int1: number, int2: number): void {
     var string1 = `Favourite ${string0}`;
     var string2 = "Favourite";
     var int3 = 3;
-    var int4 = 29061;
+    var int4 = 29061 as graphic;
     var int5 = 29062;
     var int6 = 29063;
     var int7 = 0;
@@ -12,7 +12,7 @@ function script13618(int0: number, int1: number, int2: number): void {
         string1 = `Unfavourite ${string0}`;
         string2 = "Unfavourite";
         int3 = 4;
-        int4 = 29064;
+        int4 = 29064 as graphic;
         int5 = 29065;
         int6 = 29066;
         int7 = 1;

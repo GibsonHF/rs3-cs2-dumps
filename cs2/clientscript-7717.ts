@@ -29,7 +29,7 @@ function script7717(int0: number, int1: number, int2: number, int3: number, int4
             case 99:
             case 102:
             case 103: {
-                if ((KEYHELD_SHIFT() == false)) {
+                if ((KEYHELD_SHIFT() == 0)) {
                     return;
                 };
                 varclient_1029 = script1553(int0, varclient_1029, varclient_2250);

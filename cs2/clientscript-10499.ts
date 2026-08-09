@@ -35,6 +35,7 @@ function script10499(int0: number): string {
             return "Mandrith";
         }
         case 8: {
+            break;
         }
         default: {
             return "";

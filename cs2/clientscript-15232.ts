@@ -191,7 +191,7 @@ function script15232(int0: number, int1: number): void {
             break;
         }
         case 2001: {
-            OPENURL("telemetry", `runemetrics/app/xp-gained${enum_getvalue(0, 36, 10702 as cs2enum, int1)}`, 1);
+            OPENURL("telemetry", `runemetrics/app/xp-gained${enum_getvalue(0, 36, 10702, int1)}`, 1);
             break;
         }
         case 2002: {

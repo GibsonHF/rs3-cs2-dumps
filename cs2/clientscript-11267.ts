@@ -19,7 +19,7 @@ function script11267(int0: number, int1: number, int2: number, int3: number, int
         CC_SETCOLOUR(script10495(3));
         CC_SETONMOUSEOVER(callback(script1356, -2147483645, -2147483643, 16777215));
         CC_SETONMOUSELEAVE(callback(script1356, -2147483645, -2147483643, script10495(3)));
-        CC_SETTEXTFONT(26);
+        CC_SETTEXTFONT(26 as fontmetrics);
         CC_SETOP(1, "Select");
         CC_SETOPBASE(string0);
         CC_SETTEXT(string0);

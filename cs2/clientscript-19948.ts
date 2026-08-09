@@ -11,20 +11,14 @@ function script19948(int0: number): void {
     stack(1306624);
     stack(int0);
     DB_FIND(0);
-    dbrow_findnext();
-    var int6 = stack();
+    var int6 = dbrow_findnext();
     var int7 = script19930(int6);
     var int8 = script19931(int6);
-    stack(0);
-    stack(9);
-    stack(8220);
-    stack(int8);
-    enum_getvalue();
-    var int9 = stack();
+    var int9 = enum_getvalue(0, 9, 8220, int8);
     switch (varbitplayer_57881) {
         case 0: {
             if ((int7 != 0)) {
-                int9 = comp(1336, 28);
+                int9 = 87556124;
                 string2 = "Speak to Nougat Bunny in the Blooming Burrow to unlock this clue.";
             } else {
                 string0 = `Gielinor Egg Hunt - Week 1<br>Clue ${inttostring((int8 + 1), 10)}`;
@@ -33,10 +27,10 @@ function script19948(int0: number): void {
         }
         case 1: {
             if ((script12477() < int3)) {
-                int9 = comp(1336, 28);
+                int9 = 87556124;
                 string2 = `The week 2 Gielinor Egg Hunt will be available from ${script19936(int3, 0)}.`;
             } else if ((int7 != 0)) {
-                int9 = comp(1336, 28);
+                int9 = 87556124;
                 string2 = "Speak to Nougat Bunny in the Blooming Burrow to unlock this clue.";
             } else {
                 string0 = `Gielinor Egg Hunt - Week 2<br>Clue ${inttostring((int8 + 1), 10)}`;
@@ -45,10 +39,10 @@ function script19948(int0: number): void {
         }
         case 2: {
             if ((script12477() < int2)) {
-                int9 = comp(1336, 28);
+                int9 = 87556124;
                 string2 = `The week 3 Gielinor Egg Hunt will be available from ${script19936(int2, 0)}.`;
             } else if ((int7 != 0)) {
-                int9 = comp(1336, 28);
+                int9 = 87556124;
                 string2 = "Speak to Nougat Bunny in the Blooming Burrow to unlock this clue.";
             } else {
                 string0 = `Gielinor Egg Hunt - Week 3<br>Clue ${inttostring((int8 + 1), 10)}`;
@@ -56,14 +50,27 @@ function script19948(int0: number): void {
             break;
         }
         case 3: {
-            if (((script12477() < int4) || ((script12477() == int4) && (MODULO(varplayer_11489, 1440) < int5)))) {
-                int9 = comp(1336, 28);
+            if ((script12477() < int4)) {
+                int9 = 87556124;
                 string2 = `The week 1 Community Egg Hunt will be available from ${script19936(int4, int5)}.`;
+            } else if ((script12477() == int4)) {
+                if ((MODULO(varplayer_11489, 1440) < int5)) {
+                    int9 = 87556124;
+                    string2 = `The week 1 Community Egg Hunt will be available from ${script19936(int4, int5)}.`;
+                } else if ((int7 == 3)) {
+                    int9 = 87556124;
+                    string2 = "Speak to Nougat Bunny in the Blooming Burrow to unlock this clue.";
+                } else if ((int7 == 4)) {
+                    int9 = 87556124;
+                    string2 = "Solve the previous community clue to unlock this clue.";
+                } else {
+                    string0 = `Community Egg Hunt - Week 1<br>Clue ${inttostring((int8 + 1), 10)}`;
+                };
             } else if ((int7 == 3)) {
-                int9 = comp(1336, 28);
+                int9 = 87556124;
                 string2 = "Speak to Nougat Bunny in the Blooming Burrow to unlock this clue.";
             } else if ((int7 == 4)) {
-                int9 = comp(1336, 28);
+                int9 = 87556124;
                 string2 = "Solve the previous community clue to unlock this clue.";
             } else {
                 string0 = `Community Egg Hunt - Week 1<br>Clue ${inttostring((int8 + 1), 10)}`;
@@ -73,14 +80,27 @@ function script19948(int0: number): void {
         case 4: {
             int4 = dbrow_getfield(15222 as dbrow, 1302544, 0);
             int5 = dbrow_getfield(15222 as dbrow, 1302560, 0);
-            if (((script12477() < int4) || ((script12477() == int4) && (MODULO(varplayer_11489, 1440) < int5)))) {
-                int9 = comp(1336, 28);
+            if ((script12477() < int4)) {
+                int9 = 87556124;
                 string2 = `The week 2 Community Egg Hunt will be available from ${script19936(int4, int5)}.`;
+            } else if ((script12477() == int4)) {
+                if ((MODULO(varplayer_11489, 1440) < int5)) {
+                    int9 = 87556124;
+                    string2 = `The week 2 Community Egg Hunt will be available from ${script19936(int4, int5)}.`;
+                } else if ((int7 == 3)) {
+                    int9 = 87556124;
+                    string2 = "Speak to Nougat Bunny in the Blooming Burrow to unlock this clue.";
+                } else if ((int7 == 4)) {
+                    int9 = 87556124;
+                    string2 = "Solve the previous community clue to unlock this clue.";
+                } else {
+                    string0 = `Community Egg Hunt - Week 2<br>Clue ${inttostring((int8 + 1), 10)}`;
+                };
             } else if ((int7 == 3)) {
-                int9 = comp(1336, 28);
+                int9 = 87556124;
                 string2 = "Speak to Nougat Bunny in the Blooming Burrow to unlock this clue.";
             } else if ((int7 == 4)) {
-                int9 = comp(1336, 28);
+                int9 = 87556124;
                 string2 = "Solve the previous community clue to unlock this clue.";
             } else {
                 string0 = `Community Egg Hunt - Week 2<br>Clue ${inttostring((int8 + 1), 10)}`;

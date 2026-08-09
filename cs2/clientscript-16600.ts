@@ -8,11 +8,10 @@ function script16600(): number {
     stack(749568);
     stack(int0);
     DB_FIND(0);
-    dbrow_findnext();
-    var int1 = stack();
+    var int1 = dbrow_findnext();
     if ((int1 == -1)) {
         script12478(`Unable to find droptable for modifier ${inttostring(int0, 10)}`);
-        return 6127 as dbrow;
+        return 6127;
     };
     return dbrow_getfield(int1, 749680, 0);
 }

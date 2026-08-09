@@ -11,9 +11,9 @@ function script20651(int0: number): string {
     var int3 = -1;
     var int4 = 0;
     var string0 = "";
-    while ((++int3 < int2)) {
-        stack(dbrow_getfield(17540 as dbrow, 1421312, int3));
-        [int4, string0] = stack();
+    int3 = (int3 + 1);
+    while ((int3 < int2)) {
+        [int4, string0] = dbrow_getfield(17540 as dbrow, 1421312, int3);
         if ((int0 == int4)) {
             return string0;
         };

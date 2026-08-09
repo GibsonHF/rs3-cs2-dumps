@@ -14,12 +14,12 @@ function script20791(int0: number): void {
     stack(-2147483647);
     stack("iisi");
     unk11186();
-    CC_SETENABLED(1);
+    CC_SETENABLED(true);
     if ((STRING_LENGTH(varclient_8426) > 0)) {
         varclient_8421 = int0;
         varclient_8422 = 0;
     };
-    script7852(int0, 1, 0, 0, 2, 0, 24, 24, 0, 0, 4476, "");
+    script7852(int0, 1, 0, 0, 2, 0, 24, 24, 0, 0, callback(script4476));
     CC_SETONBUTTONCLICK(callback(script20792, -2147483645, -2147483643));
     script2994(int0, 2, 0, 0, 2, 0, 24, 24, 0, 0, 24449);
     CC_SETOP(1, "Open");

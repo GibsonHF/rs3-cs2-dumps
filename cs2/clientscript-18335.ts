@@ -9,12 +9,12 @@ function script18335(int0: number, int1: number): void {
     var string3 = "";
     var int2 = 0;
     var int3 = 0;
-    var int4 = -1 as var_reference;
-    var int5 = -1 as var_reference;
+    var int4 = -1;
+    var int5 = -1;
     var int6 = 0;
-    var int7 = comp(1802, 325);
-    var int8 = comp(1802, 326);
-    if ((int0 == -1 as struct)) {
+    var int7 = 118096197;
+    var int8 = 118096198;
+    if ((int0 == -1)) {
         string0 = "Information";
         string1 = struct_getparam(varplayer_10850, 6136);
     } else {
@@ -27,15 +27,19 @@ function script18335(int0: number, int1: number): void {
         int5 = struct_getparam(int0, 9022);
         if ((STRING_LENGTH(string1) > 0)) {
             string1 = `${string1} <col=FF00>${inttostring(struct_getparam(int0, 8775), 10)} x ${OC_NAME(57550 as obj)}</col>`;
-            if ((int4 != -1 as var_reference)) {
+            if ((int4 != -1)) {
                 int3 = WORLDMAP_GETDISPLAYCOORD(int4);
                 string1 = `${string1}<br><br>This is a <col=00ffff>repeatable task</col>.<br>Task completed: ${TOSTRING_LOCALISED(int3, 1)} ${script985(int3, "times", "time", "times")}`;
             };
             if ((STRING_LENGTH(string2) > 0)) {
                 string1 = `${string1}<br><br>${string2}`;
             };
-            if (((script17259() == 0) && ((((int4 != -1 as var_reference) || (script17349(int0) == 0)) && (int5 != -1 as var_reference)) && (int2 != -1)))) {
-                string1 = `${string1}<br><br>${string3}: ${TOSTRING_LOCALISED(WORLDMAP_GETDISPLAYCOORD(int5), 1)}/${TOSTRING_LOCALISED(int2, 1)}`;
+            if ((script17259() == 0)) {
+                if (((int4 != -1) || (script17349(int0) == 0))) {
+                    if (((int5 != -1) && (int2 != -1))) {
+                        string1 = `${string1}<br><br>${string3}: ${TOSTRING_LOCALISED(WORLDMAP_GETDISPLAYCOORD(int5), 1)}/${TOSTRING_LOCALISED(int2, 1)}`;
+                    };
+                };
             };
         };
     };

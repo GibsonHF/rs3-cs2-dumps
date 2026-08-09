@@ -12,7 +12,7 @@ function script13241(): void {
     CC_DELETEALL(comp(1846, 6));
     var int8 = 0;
     var int9 = comp(1843, 216);
-    var int10 = comp(1843, 209);
+    var int10 = 120783057;
     var int11 = IF_GETX(int9);
     int5 = (((20 * 2) + (4 * 3)) + 10);
     while ((int8 < 5)) {
@@ -57,11 +57,11 @@ function script13241(): void {
         };
         int6 = 220;
         if ((script6431() == 1)) {
-            CC_SETTEXT(enum_getvalue(0, 36, 15261 as cs2enum, int12));
+            CC_SETTEXT(enum_getvalue(0, 36, 15261, int12));
         } else {
             CC_CREATE(comp(1846, 16), 4, IF_GETNEXTSUBID(comp(1846, 16)));
         };
-        CC_SETTEXT(enum_getvalue(0, 36, 12241 as cs2enum, int12));
+        CC_SETTEXT(enum_getvalue(0, 36, 12241, int12));
         CC_SETTEXTFONT(26 as fontmetrics);
         CC_SETTEXTSHADOW(true);
         CC_SETCOLOUR(script10495(3));

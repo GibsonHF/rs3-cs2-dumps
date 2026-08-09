@@ -11,7 +11,7 @@ function script18869(int0: number, int1: number): void {
         script18870(int0, 0);
         return;
     };
-    var int6 = -1 as dbrow;
+    var int6 = -1;
     var int7 = -1;
     var int8 = 0;
     var int9 = -1;
@@ -30,8 +30,7 @@ function script18869(int0: number, int1: number): void {
         };
         int2 = (varclient_7418 + int14);
         while ((int15 < int4)) {
-            dbrow_findnext();
-            int6 = stack();
+            int6 = dbrow_findnext();
             int7 = script18919(int6);
             if ((int7 == -1)) {
                 int10 = dbrow_getfield(int6, 1167392, 0);
@@ -42,18 +41,25 @@ function script18869(int0: number, int1: number): void {
             };
             int15 = (int15 + 1);
         };
-        while (((int5 > 0) && (int16 <= 19))) {
-            int6 = script18916(int16, int0);
-            int8 = script18920(int6, -1);
-            int9 = script18920(int6, 22);
-            if (((int8 == 0) && ((int9 == 100) || (int9 == MAP_LANG())))) {
-                int10 = script18920(int6, 0);
-                int11 = script18920(int6, 1);
-                if (((int10 <= int2) && (int11 >= int2))) {
-                    int12 = (int12 + 1);
+        while ((int5 > 0)) {
+            if ((int16 <= 19)) {
+                int6 = script18916(int16, int0);
+                int8 = script18920(int6, -1);
+                int9 = script18920(int6, 22);
+                if ((int8 == 0)) {
+                    if (((int9 == 100) || (int9 == MAP_LANG()))) {
+                        int10 = script18920(int6, 0);
+                        int11 = script18920(int6, 1);
+                        if (((int10 <= int2) && (int11 >= int2))) {
+                            int12 = (int12 + 1);
+                        };
+                    };
                 };
+                int16 = (int16 + 1);
             };
-            int16 = (int16 + 1);
+            int13 = MAX(int12, int13);
+            int12 = 0;
+            int14 = (int14 + 1);
         };
         int13 = MAX(int12, int13);
         int12 = 0;

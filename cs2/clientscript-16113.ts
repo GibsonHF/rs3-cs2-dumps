@@ -5,8 +5,7 @@ function script16113(): number {
         stack(348384);
         stack(varplayer_1784);
         DB_FIND(0);
-        dbrow_findnext();
-        int0 = stack();
+        int0 = dbrow_findnext();
     };
     return int0;
 }

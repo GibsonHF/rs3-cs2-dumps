@@ -2,12 +2,12 @@
 function script4920(): void {
     var int0 = comp(-1, 65535);
     var int1 = comp(-1, 65535);
-    var int2 = -1;
+    var int2 = comp(-1, 65535);
     switch (varbitplayer_6679) {
         case 0: {
             int0 = comp(1259, 186);
             int1 = comp(1259, 180);
-            int2 = 82509870;
+            int2 = comp(1259, 46);
             break;
         }
         case 1:
@@ -15,20 +15,20 @@ function script4920(): void {
         case 4: {
             int0 = comp(1261, 367);
             int1 = comp(1261, 360);
-            int2 = 82641259;
+            int2 = comp(1261, 363);
             break;
         }
         case 2:
         case 5: {
             int0 = comp(1258, 614);
             int1 = comp(1258, 607);
-            int2 = 82444898;
+            int2 = comp(1258, 610);
             break;
         }
         case 6: {
             int0 = comp(1260, 319);
             int1 = comp(1260, 313);
-            int2 = 82575462;
+            int2 = comp(1260, 102);
             break;
         }
     };

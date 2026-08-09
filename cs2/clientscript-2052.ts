@@ -12,7 +12,7 @@ function script2052(int0: number, int1: number, int2: number, int3: number, int4
         CC_SETOP(1, string2);
         CC_SETONOP(callback(script2053, -2147483644, -2147483645, int5));
     } else {
-        CC_SETOP(1, "");
+        CC_SETOP(callback(script1));
         CC_SETONOP(callback());
     };
     return;

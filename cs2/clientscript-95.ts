@@ -43,7 +43,8 @@ function script95(int0: number, int1: number, int2: number): void {
             CC_SETSIZE(0, 0, 1, 1);
         };
     };
-    while ((++int10 < int15)) {
+    int10 = (int10 + 1);
+    while ((int10 < int15)) {
         int13 = enum_getvalue(0, 33, int0, int10);
         int14 = script16349(int1, int13, int10);
         [int13, int14] = script19885(int13, int14);

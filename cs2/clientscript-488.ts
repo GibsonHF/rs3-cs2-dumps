@@ -26,6 +26,7 @@ function script488(int0: number): number {
             return 1046;
         }
         case 9: {
+            break;
         }
         default: {
             return -1;

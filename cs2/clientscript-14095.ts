@@ -15,7 +15,13 @@ function script14095(int0: number, int1: number, int2: number, int3: number, int
         };
         int9 = (int2 - int11);
         int10 = (int4 - int12);
-        if ((((int9 == 0) && (int10 == 0)) || ((int6 == 0) && (int7 == 0)))) {
+        if ((int9 == 0)) {
+            if ((int10 == 0)) {
+                return;
+            } else if (((int6 == 0) && (int7 == 0))) {
+                return;
+            };
+        } else if (((int6 == 0) && (int7 == 0))) {
             return;
         };
         if ((int7 > 0)) {

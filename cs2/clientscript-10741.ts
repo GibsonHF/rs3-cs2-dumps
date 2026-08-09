@@ -48,11 +48,11 @@ function script10741(): void {
             CC_SETONMOUSELEAVE(callback(script10738, -2147483645));
             CC_SETONMOUSEREPEAT(callback(script10740, -2147483645, -2147483643, string0));
             CC_SETONOP(callback(script7630, -2147483645, -2147483643));
-            CC_CREATE(101842964, 5, IF_GETNEXTSUBID(101842964));
+            CC_CREATE(comp(1554, 20), 5, IF_GETNEXTSUBID(comp(1554, 20)));
             CC_SETPOSITION(int2, int3, 0, 0);
             CC_SETSIZE(40, 36, 0, 0);
-            CC_SETGRAPHIC(18266);
-            CC_CREATE(101842964, 5, IF_GETNEXTSUBID(101842964));
+            CC_SETGRAPHIC(18266 as graphic);
+            CC_CREATE(comp(1554, 20), 5, IF_GETNEXTSUBID(comp(1554, 20)));
             CC_SETPOSITION((int2 + 2), (int3 + 2), 0, 0);
             CC_SETSIZE(36, 32, 0, 0);
             CC_SETOBJECT_NONUM(int6, 1);

@@ -1,14 +1,14 @@
 //[proc,stats_mouseover_create]
 function script547(int0: number, int1: number, int2: number, int3: number): void {
-    var int4 = comp(1477, 909);
+    var int4 = 96797581;
     var int5 = 2;
     var string0 = "";
     var string1 = "";
     if ((int3 == 0)) {
-        string0 = `${enum_getvalue(17, 36, 680 as cs2enum, int2)}: ${inttostring(script11861(int2), 10)}/${inttostring(script11860(int2), 10)}`;
+        string0 = `${enum_getvalue(17, 36, 680, int2)}: ${inttostring(script11861(int2), 10)}/${inttostring(script11860(int2), 10)}`;
         string1 = TOSTRING_LOCALISED(STAT_VISIBLE_XP_ACTUAL(int2), 1);
     } else {
-        string0 = `${enum_getvalue(17, 36, 680 as cs2enum, int2)}: ${inttostring(script11865(int2), 10)}/${inttostring(script11864(int2), 10)}`;
+        string0 = `${enum_getvalue(17, 36, 680, int2)}: ${inttostring(script11865(int2), 10)}/${inttostring(script11864(int2), 10)}`;
         string1 = TOSTRING_LOCALISED(script10783(int2), 1);
     };
     var string2 = "";
@@ -54,10 +54,10 @@ function script547(int0: number, int1: number, int2: number, int3: number): void
     };
     var string6 = "";
     var int16 = 0;
-    var int17 = 207 as fontmetrics;
+    var int17 = 207;
     if ((script6431() == 1)) {
-        int17 = struct_getparam(enum_getvalue(0, 73, 14118 as cs2enum, varplayer_7989), 7275);
-        int15 = (enum_getvalue(25, 0, 8549 as cs2enum, int17) + 3);
+        int17 = struct_getparam(enum_getvalue(0, 73, 14118, varplayer_7989), 7275);
+        int15 = (enum_getvalue(25, 0, 8549, int17) + 3);
     };
     if ((int3 == 0)) {
         switch (int2) {
@@ -186,39 +186,48 @@ function script547(int0: number, int1: number, int2: number, int3: number): void
     var int18 = 0;
     var string7 = "Member's skill.";
     var string8 = "";
-    var int19 = -1 as struct;
-    if (((int3 == 0) && (script12041(int2) == 0))) {
-        int18 = 1;
-        string7 = "Elite skill.";
-        int5 = (int5 + 1);
-        string8 = "Required stats:";
-        int5 = (int5 + 1);
-        int19 = script12039(int2);
-        if ((struct_getparam(int19, 5510) != -1 as stat)) {
-            string8 = `${string8}<br> - ${enum_getvalue(17, 36, 680 as cs2enum, struct_getparam(int19, 5510))}: `;
-            if ((STAT_BASE_ACTUAL(struct_getparam(int19, 5510)) < struct_getparam(int19, 5511))) {
-                string8 = `${string8}<col=ff0000>`;
-            };
-            string8 = `${string8}${inttostring(struct_getparam(int19, 5511), 10)}`;
+    var int19 = -1;
+    if ((int3 == 0)) {
+        if ((script12041(int2) == 0)) {
+            int18 = 1;
+            string7 = "Elite skill.";
             int5 = (int5 + 1);
-        };
-        if ((struct_getparam(int19, 5512) != -1 as stat)) {
-            string8 = `${string8}<br> - ${enum_getvalue(17, 36, 680 as cs2enum, struct_getparam(int19, 5512))}: `;
-            if ((STAT_BASE_ACTUAL(struct_getparam(int19, 5512)) < struct_getparam(int19, 5513))) {
-                string8 = `${string8}<col=ff0000>`;
-            };
-            string8 = `${string8}${inttostring(struct_getparam(int19, 5513), 10)}`;
+            string8 = "Required stats:";
             int5 = (int5 + 1);
-        };
-        if ((struct_getparam(int19, 5514) != -1 as stat)) {
-            string8 = `${string8}<br> - ${enum_getvalue(17, 36, 680 as cs2enum, struct_getparam(int19, 5514))}: `;
-            if ((STAT_BASE_ACTUAL(struct_getparam(int19, 5514)) < struct_getparam(int19, 5515))) {
-                string8 = `${string8}<col=ff0000>`;
+            int19 = script12039(int2);
+            if ((struct_getparam(int19, 5510) != -1 as stat)) {
+                string8 = `${string8}<br> - ${enum_getvalue(17, 36, 680 as cs2enum, struct_getparam(int19, 5510))}: `;
+                if ((STAT_BASE_ACTUAL(struct_getparam(int19, 5510)) < struct_getparam(int19, 5511))) {
+                    string8 = `${string8}<col=ff0000>`;
+                };
+                string8 = `${string8}${inttostring(struct_getparam(int19, 5511), 10)}`;
+                int5 = (int5 + 1);
             };
-            string8 = `${string8}${inttostring(struct_getparam(int19, 5515), 10)}`;
+            if ((struct_getparam(int19, 5512) != -1)) {
+                string8 = `${string8}<br> - ${enum_getvalue(17, 36, 680, struct_getparam(int19, 5512))}: `;
+                if ((STAT_BASE_ACTUAL(struct_getparam(int19, 5512)) < struct_getparam(int19, 5513))) {
+                    string8 = `${string8}<col=ff0000>`;
+                };
+                string8 = `${string8}${inttostring(struct_getparam(int19, 5513), 10)}`;
+                int5 = (int5 + 1);
+            };
+            if ((struct_getparam(int19, 5514) != -1)) {
+                string8 = `${string8}<br> - ${enum_getvalue(17, 36, 680, struct_getparam(int19, 5514))}: `;
+                if ((STAT_BASE_ACTUAL(struct_getparam(int19, 5514)) < struct_getparam(int19, 5515))) {
+                    string8 = `${string8}<col=ff0000>`;
+                };
+                string8 = `${string8}${inttostring(struct_getparam(int19, 5515), 10)}`;
+                int5 = (int5 + 1);
+            };
+        } else if (((enum_hasoutput(17, 5472 as cs2enum, int2) == 1) && (PLAYERMEMBER() == 0))) {
+            int18 = 1;
             int5 = (int5 + 1);
+            if (((int3 == 0) && (STAT(int2) >= script12038(int2)))) {
+                string8 = "Level cap reached!";
+                int5 = (int5 + 1);
+            };
         };
-    } else if (((enum_hasoutput(17, 5472 as cs2enum, int2) == 1) && (PLAYERMEMBER() == false))) {
+    } else if (((enum_hasoutput(17, 5472 as cs2enum, int2) == 1) && (PLAYERMEMBER() == 0))) {
         int18 = 1;
         int5 = (int5 + 1);
         if (((int3 == 0) && (STAT(int2) >= script12038(int2)))) {
@@ -242,15 +251,26 @@ function script547(int0: number, int1: number, int2: number, int3: number): void
         int24 = MAX(int24, (PARAWIDTH(string8, 190, int17) + 10));
         int20 = MAX(int20, int24);
     };
-    if (((int3 == 0) && ((STAT_BASE_ACTUAL(int2) < int7) || ((varbitplayer_19007 == 1) && (script11862(int2) < int8))))) {
-        int22 = PARAWIDTH("Next level:", 190, int17);
-        int23 = PARAWIDTH(string2, 190, int17);
-        int24 = ((int22 + 3) + int23);
-        int20 = MAX(int20, int24);
-        int22 = PARAWIDTH("Remainder:", 190, int17);
-        int23 = PARAWIDTH(string3, 190, int17);
-        int24 = ((int22 + 3) + int23);
-        int20 = MAX(int20, int24);
+    if ((int3 == 0)) {
+        if ((STAT_BASE_ACTUAL(int2) < int7)) {
+            int22 = PARAWIDTH("Next level:", 190, int17);
+            int23 = PARAWIDTH(string2, 190, int17);
+            int24 = ((int22 + 3) + int23);
+            int20 = MAX(int20, int24);
+            int22 = PARAWIDTH("Remainder:", 190, int17);
+            int23 = PARAWIDTH(string3, 190, int17);
+            int24 = ((int22 + 3) + int23);
+            int20 = MAX(int20, int24);
+        } else if (((varbitplayer_19007 == 1) && (script11862(int2) < int8))) {
+            int22 = PARAWIDTH("Next level:", 190, int17);
+            int23 = PARAWIDTH(string2, 190, int17);
+            int24 = ((int22 + 3) + int23);
+            int20 = MAX(int20, int24);
+            int22 = PARAWIDTH("Remainder:", 190, int17);
+            int23 = PARAWIDTH(string3, 190, int17);
+            int24 = ((int22 + 3) + int23);
+            int20 = MAX(int20, int24);
+        };
     };
     if ((int9 == 1)) {
         if ((int12 == 1)) {
@@ -403,42 +423,80 @@ function script547(int0: number, int1: number, int2: number, int3: number): void
     int27 = (int27 + int15);
     var int36 = 0;
     var int37 = 0;
-    if (((int3 == 0) && ((STAT_BASE_ACTUAL(int2) < int7) || ((varbitplayer_19007 == 1) && (script11862(int2) < int8))))) {
-        CC_CREATE(int4, 4, IF_GETNEXTSUBID(int4));
-        CC_SETPOSITION((int22 + int34), (int23 + int27), 0, 0);
-        CC_SETSIZE(int20, int15, 0, 0);
-        CC_SETTEXTFONT(int17);
-        CC_SETTEXTALIGN(0, 0, 0);
-        CC_SETTEXTSHADOW(false);
-        CC_SETTEXT("Next level:");
-        CC_SETCOLOUR(15458492);
-        CC_CREATE(int4, 4, IF_GETNEXTSUBID(int4));
-        CC_SETPOSITION((int22 + int34), (int23 + int27), 0, 0);
-        CC_SETSIZE((int20 - 2), int15, 0, 0);
-        CC_SETTEXTFONT(int17);
-        CC_SETTEXTALIGN(2, 0, 0);
-        CC_SETTEXTSHADOW(false);
-        CC_SETTEXT(string2);
-        CC_SETCOLOUR(15458492);
-        int27 = (int27 + int15);
-        CC_CREATE(int4, 4, IF_GETNEXTSUBID(int4));
-        CC_SETPOSITION((int22 + int34), (int23 + int27), 0, 0);
-        CC_SETSIZE(int20, 16, 0, 0);
-        CC_SETTEXTFONT(int17);
-        CC_SETTEXTALIGN(0, 0, 0);
-        CC_SETTEXTSHADOW(false);
-        CC_SETTEXT("Remainder:");
-        CC_SETCOLOUR(15458492);
-        CC_CREATE(int4, 4, IF_GETNEXTSUBID(int4));
-        int30 = (IF_GETNEXTSUBID(int4) - 1);
-        CC_SETPOSITION((int22 + int34), (int23 + int27), 0, 0);
-        CC_SETSIZE((int20 - 2), int15, 0, 0);
-        CC_SETTEXTFONT(int17);
-        CC_SETTEXTALIGN(2, 0, 0);
-        CC_SETTEXTSHADOW(false);
-        CC_SETTEXT(string3);
-        CC_SETCOLOUR(15458492);
-        int27 = (int27 + int15);
+    if ((int3 == 0)) {
+        if ((STAT_BASE_ACTUAL(int2) < int7)) {
+            CC_CREATE(int4, 4, IF_GETNEXTSUBID(int4));
+            CC_SETPOSITION((int22 + int34), (int23 + int27), 0, 0);
+            CC_SETSIZE(int20, int15, 0, 0);
+            CC_SETTEXTFONT(int17);
+            CC_SETTEXTALIGN(0, 0, 0);
+            CC_SETTEXTSHADOW(false);
+            CC_SETTEXT("Next level:");
+            CC_SETCOLOUR(15458492);
+            CC_CREATE(int4, 4, IF_GETNEXTSUBID(int4));
+            CC_SETPOSITION((int22 + int34), (int23 + int27), 0, 0);
+            CC_SETSIZE((int20 - 2), int15, 0, 0);
+            CC_SETTEXTFONT(int17);
+            CC_SETTEXTALIGN(2, 0, 0);
+            CC_SETTEXTSHADOW(false);
+            CC_SETTEXT(string2);
+            CC_SETCOLOUR(15458492);
+            int27 = (int27 + int15);
+            CC_CREATE(int4, 4, IF_GETNEXTSUBID(int4));
+            CC_SETPOSITION((int22 + int34), (int23 + int27), 0, 0);
+            CC_SETSIZE(int20, 16, 0, 0);
+            CC_SETTEXTFONT(int17);
+            CC_SETTEXTALIGN(0, 0, 0);
+            CC_SETTEXTSHADOW(false);
+            CC_SETTEXT("Remainder:");
+            CC_SETCOLOUR(15458492);
+            CC_CREATE(int4, 4, IF_GETNEXTSUBID(int4));
+            int30 = (IF_GETNEXTSUBID(int4) - 1);
+            CC_SETPOSITION((int22 + int34), (int23 + int27), 0, 0);
+            CC_SETSIZE((int20 - 2), int15, 0, 0);
+            CC_SETTEXTFONT(int17);
+            CC_SETTEXTALIGN(2, 0, 0);
+            CC_SETTEXTSHADOW(false);
+            CC_SETTEXT(string3);
+            CC_SETCOLOUR(15458492);
+            int27 = (int27 + int15);
+        } else if (((varbitplayer_19007 == 1) && (script11862(int2) < int8))) {
+            CC_CREATE(int4, 4, IF_GETNEXTSUBID(int4));
+            CC_SETPOSITION((int22 + int34), (int23 + int27), 0, 0);
+            CC_SETSIZE(int20, int15, 0, 0);
+            CC_SETTEXTFONT(int17);
+            CC_SETTEXTALIGN(0, 0, 0);
+            CC_SETTEXTSHADOW(false);
+            CC_SETTEXT("Next level:");
+            CC_SETCOLOUR(15458492);
+            CC_CREATE(int4, 4, IF_GETNEXTSUBID(int4));
+            CC_SETPOSITION((int22 + int34), (int23 + int27), 0, 0);
+            CC_SETSIZE((int20 - 2), int15, 0, 0);
+            CC_SETTEXTFONT(int17);
+            CC_SETTEXTALIGN(2, 0, 0);
+            CC_SETTEXTSHADOW(false);
+            CC_SETTEXT(string2);
+            CC_SETCOLOUR(15458492);
+            int27 = (int27 + int15);
+            CC_CREATE(int4, 4, IF_GETNEXTSUBID(int4));
+            CC_SETPOSITION((int22 + int34), (int23 + int27), 0, 0);
+            CC_SETSIZE(int20, 16, 0, 0);
+            CC_SETTEXTFONT(int17);
+            CC_SETTEXTALIGN(0, 0, 0);
+            CC_SETTEXTSHADOW(false);
+            CC_SETTEXT("Remainder:");
+            CC_SETCOLOUR(15458492);
+            CC_CREATE(int4, 4, IF_GETNEXTSUBID(int4));
+            int30 = (IF_GETNEXTSUBID(int4) - 1);
+            CC_SETPOSITION((int22 + int34), (int23 + int27), 0, 0);
+            CC_SETSIZE((int20 - 2), int15, 0, 0);
+            CC_SETTEXTFONT(int17);
+            CC_SETTEXTALIGN(2, 0, 0);
+            CC_SETTEXTSHADOW(false);
+            CC_SETTEXT(string3);
+            CC_SETCOLOUR(15458492);
+            int27 = (int27 + int15);
+        };
     };
     if ((int16 > 0)) {
         CC_CREATE(int4, 4, IF_GETNEXTSUBID(int4));

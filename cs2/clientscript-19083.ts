@@ -9,7 +9,8 @@ function script19083(): void {
     var int5 = -1 as dbrow;
     var string0 = "";
     var int6 = -1;
-    while ((++int3 < (int1 + 1))) {
+    int3 = (int3 + 1);
+    while ((int3 < (int1 + 1))) {
         int5 = enum_getvalue(0, 74, int0, int3);
         if ((script19068(int5) == 1)) {
             int6 = 34121;
@@ -24,7 +25,7 @@ function script19083(): void {
         CC_SETONMOUSELEAVE(callback(script19085, (int3 + 1), int4));
         int4 = (int4 + 1);
         script7920(int2, (int3 + 1), int4, 0, int3, 0, 0, 1, 1, 146, 122, 0, 0, 34127);
-        CC_SETHIDE(1);
+        CC_SETHIDE(true);
         int4 = (int4 + 1);
         string0 = dbrow_getfield(int5, 1187856, 0);
         script10507(int2, (int3 + 1), int4, 0, int3, 0, -5, 1, 1, (146 - 40), 122, 0, 0, 17467, `<col=FFFFFF>${string0}</col>`);

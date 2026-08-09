@@ -5,6 +5,7 @@ function script8986(): number {
             return DATE_RUNEDAY_FROMDATE(11, 7, 2013);
         }
         case 3: {
+            break;
         }
         default: {
             return DATE_RUNEDAY();

@@ -12,7 +12,13 @@ function script13088(int0: number): number {
     if ((script13089(int0) == 1)) {
         return 0;
     };
-    if ((((OC_WEARPOS(int0) == 3) && (enum_getvalue(73, 0, 7365 as cs2enum, script7608(int0)) == -1)) || ((OC_WEARPOS(int0) == 5) && (enum_getvalue(73, 0, 7366 as cs2enum, script7608(int0)) == -1)))) {
+    if ((OC_WEARPOS(int0) == 3)) {
+        if ((enum_getvalue(73, 0, 7365 as cs2enum, script7608(int0)) == -1)) {
+            return 0;
+        } else if (((OC_WEARPOS(int0) == 5) && (enum_getvalue(73, 0, 7366 as cs2enum, script7608(int0)) == -1))) {
+            return 0;
+        };
+    } else if (((OC_WEARPOS(int0) == 5) && (enum_getvalue(73, 0, 7366 as cs2enum, script7608(int0)) == -1))) {
         return 0;
     };
     if ((item_getparam(int0, 226) == 1)) {

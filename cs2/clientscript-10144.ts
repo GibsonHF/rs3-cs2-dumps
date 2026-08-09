@@ -1,7 +1,7 @@
 //
 function script10144(): void {
     TTV_WEBCAM_SUPPORTED();
-    var int0 = stack();
+    var int0 = [];
     var int1 = 0;
     var int2 = -1;
     var int3 = -1;
@@ -34,8 +34,7 @@ function script10144(): void {
         IF_SETHIDE(true, comp(232, 132));
         IF_SETHIDE(true, comp(232, 133));
     };
-    stack(TTV_WEBCAM_GETDEVICE_BYINDEX(0));
-    [int2, string0, string1] = stack();
+    [int2, string0, string1] = TTV_WEBCAM_GETDEVICE_BYINDEX(0);
     if ((int2 == -1)) {
         script10145();
     } else {

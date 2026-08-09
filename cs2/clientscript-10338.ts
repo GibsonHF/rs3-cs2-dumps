@@ -5,15 +5,9 @@ function script10338(): void {
     var int0 = 21231;
     if ((varplayergroup_16 != 999999)) {
         if ((varplayergroup_17 == 0)) {
-            stack(25863);
-            stack("Your group is not registered for matchmaking.");
-            stack("Toggle Matchmaking");
-            [int0, string0, string1] = stack();
+            [int0, string0, string1] = [25863, "Your group is not registered for matchmaking.", "Toggle Matchmaking"];
         } else {
-            stack(25862);
-            stack("Your group is registered for matchmaking.");
-            stack("Toggle Matchmaking");
-            [int0, string0, string1] = stack();
+            [int0, string0, string1] = [25862, "Your group is registered for matchmaking.", "Toggle Matchmaking"];
         };
     };
     script10339(int0, string0, string1);

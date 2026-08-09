@@ -6,7 +6,8 @@ function script18326(int0: number, int1: number, int2: number, int3: number, int
     var int10 = 0;
     var int11 = comp(1171, 0);
     while ((int10 != -1)) {
-        switch (++int8) {
+        int8 = (int8 + 1);
+        switch (int8) {
             case 1: {
                 int10 = int1;
                 int11 = script18321(int0, 76742656);
@@ -42,7 +43,7 @@ function script18326(int0: number, int1: number, int2: number, int3: number, int
             int9 = (SCALE(int7, int6, int10) - 7);
             IF_SETPOSITION(int9, 20, 0, 0, int11);
             IF_SETONMOUSEREPEAT(callback(script17561, int0, int11, int10, int6), int11);
-            IF_SETHIDE(0, int11);
+            IF_SETHIDE(false, int11);
         } else if ((int11 != comp(-1, 65535))) {
             IF_SETHIDE(true, int11);
         };

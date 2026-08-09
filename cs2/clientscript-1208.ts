@@ -5,6 +5,7 @@ function script1208(int0: number): number {
         case 2:
         case 3:
         case 4: {
+            break;
         }
         default: {
             return 0;

@@ -31,14 +31,15 @@ function script4866(int0: number, int1: number, int2: number, int3: number, int4
     IF_SETPOSITION(((int18 + int19) + 1), 0, 0, 0, int9);
     var int23 = comp(-1, 65535);
     var int24 = comp(-1, 65535);
-    var int25 = 7317 as graphic;
-    var int26 = 7314 as graphic;
+    var int25 = 7317;
+    var int26 = 7314;
     [int23, int24] = script5223(int0);
     if (((int23 != comp(-1, 65535)) && (int24 != comp(-1, 65535)))) {
-        int17 = (++int17 - (IF_GETWIDTH(int24) / 2));
+        int17 = (int17 + 82);
+        int17 = (int17 - (IF_GETWIDTH(int24) / 2));
         if ((varclan_2744 == int0)) {
-            int25 = 7316 as graphic;
-            int26 = 7315 as graphic;
+            int25 = 7316;
+            int26 = 7315;
         };
         IF_SETHIDE(true, int23);
         IF_SETHIDE(true, int24);

@@ -3,13 +3,13 @@ function script12946(): void {
     var int0 = varbitplayer_38874;
     var int1 = ((varbitplayer_38879 + varbitplayer_38880) + varbitplayer_38881);
     var int2 = script14441();
-    IF_SETTEXT(struct_getparam(int2, 6208), comp(1808, 16));
-    IF_SETTEXT(struct_getparam(int2, 6209), comp(1808, 24));
-    var int3 = -1 as dbrow;
+    IF_SETTEXT(struct_getparam(int2, 6208), 118489104);
+    IF_SETTEXT(struct_getparam(int2, 6209), 118489112);
+    var int3 = -1;
     var int4 = 5;
     var int5 = 0;
     var int6 = 4;
-    var int7 = -1 as struct;
+    var int7 = -1;
     var int8 = 0;
     var int9 = 0;
     int8 = (((int6 - 1) / 2) + 1);
@@ -22,16 +22,15 @@ function script12946(): void {
         stack(57344);
         stack(int5);
         DB_FIND(0);
-        dbrow_findnext();
-        int3 = stack();
+        int3 = dbrow_findnext();
         if ((int3 != -1)) {
-            int7 = enum_getvalue(0, 73, 11921 as cs2enum, int5);
+            int7 = enum_getvalue(0, 73, 11921, int5);
             IF_SETTEXT(dbrow_getfield(int3, 57424, 0), struct_getparam(int7, 6215));
             IF_SETTEXT(dbrow_getfield(int3, 57472, 0), struct_getparam(int7, 6216));
-            if ((dbrow_getfield(int3, 57376, 0) != -1 as graphic)) {
+            if ((dbrow_getfield(int3, 57376, 0) != -1)) {
                 IF_SETGRAPHIC(dbrow_getfield(int3, 57376, 0), struct_getparam(int7, 6221));
                 IF_SETHIDE(false, struct_getparam(int7, 6221));
-            } else if ((dbrow_getfield(int3, 57392, 0) != -1 as model)) {
+            } else if ((dbrow_getfield(int3, 57392, 0) != -1)) {
                 IF_SETMODEL(dbrow_getfield(int3, 57392, 0), struct_getparam(int7, 6220));
                 IF_SETHIDE(false, struct_getparam(int7, 6220));
             };

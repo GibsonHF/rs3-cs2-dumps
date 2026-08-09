@@ -14,7 +14,7 @@ function script8133(int0: number): void {
         CC_SETONMOUSEOVER(callback(script5336, -2147483645, -2147483643, int2));
         CC_SETOP(1, string0);
         CC_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643));
-        CC_SETNOCLICKTHROUGH(1);
+        CC_SETNOCLICKTHROUGH(true);
     };
     return;
 }

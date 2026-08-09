@@ -7,7 +7,8 @@ function script10267(int0: number): number {
     int1 = script2181(2, int0, 0);
     while ((int4 <= 26)) {
         if ((TESTBIT(varbitplayer_23327, int4) == 1)) {
-            if ((++int3 <= 10)) {
+            int3 = (int3 + 1);
+            if ((int3 <= 10)) {
                 int2 = (int2 + 8);
             } else if ((int3 <= 15)) {
                 int2 = (int2 + 6);

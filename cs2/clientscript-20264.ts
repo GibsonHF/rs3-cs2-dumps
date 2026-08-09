@@ -16,7 +16,7 @@ function script20264(int0: number, int1: number): void {
     CC_DELETEALL(comp(1443, 17));
     IF_SETSIZE(int8, 76, 0, 0, comp(1443, 17));
     script15938(94568465, 200, 0, 0, 0, 1, 1, 0, 0, 1, 1);
-    if (((int7 != -1 as dbrow) && (int7 != int6))) {
+    if (((int7 != -1) && (int7 != int6))) {
         script15937(int5, int3, 0, 0, 0, 0, 0, 0, 1, 1);
         CC_SENDTOFRONT();
         int9 = script20257(int0, int5, int3, int9, 0, 1, 0, 2);
@@ -26,7 +26,7 @@ function script20264(int0: number, int1: number): void {
     CC_SENDTOFRONT();
     int9 = script20257(int0, int5, varbitplayer_58408, int9, 0, 0, 1, 1);
     script15938(94568465, 200, 2, 0, 0, 1, 1, 0, 0, 1, 1);
-    if (((int6 != -1 as dbrow) && (int6 != int1))) {
+    if (((int6 != -1) && (int6 != int1))) {
         script15937(int5, int4, 0, 0, 0, 0, 0, 0, 1, 1);
         CC_SENDTOFRONT();
         int9 = script20257(int0, int5, int4, int9, 0, 1, 0, 3);

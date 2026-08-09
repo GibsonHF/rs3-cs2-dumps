@@ -30,8 +30,12 @@ function script17744(int0: number, int1: number, int2: number, int3: number, int
             CC_SETONMOUSEOVER(callback(script10011, CC_GETPARENTLAYER(), CC_GETID(), 10218495));
         } else {
             CC_SETCOLOUR(8421504);
-            if (((int9 == 1) && (int19 == 1))) {
-                CC_SETONMOUSEOVER(callback(script10011, CC_GETPARENTLAYER(), CC_GETID(), 5758463));
+            if ((int9 == 1)) {
+                if ((int19 == 1)) {
+                    CC_SETONMOUSEOVER(callback(script10011, CC_GETPARENTLAYER(), CC_GETID(), 5758463));
+                } else {
+                    CC_SETONMOUSEOVER(callback(script10011, CC_GETPARENTLAYER(), CC_GETID(), 11053224));
+                };
             } else {
                 CC_SETONMOUSEOVER(callback(script10011, CC_GETPARENTLAYER(), CC_GETID(), 11053224));
             };
@@ -41,10 +45,12 @@ function script17744(int0: number, int1: number, int2: number, int3: number, int
         if ((int23 != -1)) {
             script7919(int1, IF_GETNEXTCATEGORYSUBID(int1, int0), int10, int11, int12, int13, SCALE(int14, 100, 80), SCALE(int15, 100, 80), int16, int17, int23, 0, 0, 0, 0);
         };
-        if (((int21 == 0) && ((int9 == 0) || (int19 == 0)))) {
-            script7919(int1, IF_GETNEXTCATEGORYSUBID(int1, int0), int10, int11, int12, int13, (int14 - 4), (int15 - 4), int16, int17, 31307, 0, 0, 0, 0);
-            CC_SETCOLOUR(1974309);
-            CC_SETTRANS(96);
+        if ((int21 == 0)) {
+            if (((int9 == 0) || (int19 == 0))) {
+                script7919(int1, IF_GETNEXTCATEGORYSUBID(int1, int0), int10, int11, int12, int13, (int14 - 4), (int15 - 4), int16, int17, 31307, 0, 0, 0, 0);
+                CC_SETCOLOUR(1974309);
+                CC_SETTRANS(96);
+            };
         };
     };
     script10507(int3, int4, ((0 + 1) + int8), int4, int5, int10, int11, int12, int13, int14, int15, int16, int17, -1, "");

@@ -4,7 +4,7 @@ function script20900(int0: number, int1: number, int2: number, int3: number, int
     if ((int11 != 0)) {
         return [int2, int3, int11];
     };
-    script7852(int0, IF_GETNEXTSUBID(int0), int2, int3, 0, 0, int4, int5, 0, 0, 4476, "");
+    script7852(int0, IF_GETNEXTSUBID(int0), int2, int3, 0, 0, int4, int5, 0, 0, callback(script4476));
     CC_SETOP(1, "Select");
     CC_SETONOP(callback(script11703, int7, int10));
     CC_SETONMOUSEREPEAT(callback(script9564, int7, -2147483645, -2147483643));

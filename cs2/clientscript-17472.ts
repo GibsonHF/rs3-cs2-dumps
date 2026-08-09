@@ -7,7 +7,8 @@ function script17472(int0: number): number {
     var int2 = -1 as dbrow;
     var int3 = 0;
     var int4 = -1;
-    while ((++int4 < int1)) {
+    int4 = (int4 + 1);
+    while ((int4 < int1)) {
         int2 = dbrow_getfield(int0, 946272, int4);
         int3 = (int3 + DB_GETFIELDCOUNT(int2, 950288));
     };

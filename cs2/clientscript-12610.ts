@@ -11,7 +11,8 @@ function script12610(): void {
     var int2 = comp(-1, 65535);
     var int3 = ENUM_GETOUTPUTCOUNT(7717 as cs2enum);
     var int4 = -1;
-    while ((++int4 < int3)) {
+    int4 = (int4 + 1);
+    while ((int4 < int3)) {
         int0 = enum_getvalue(0, 0, 7717 as cs2enum, int4);
         int1 = script10405(int0);
         if ((int1 != -1)) {

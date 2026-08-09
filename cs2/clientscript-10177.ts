@@ -25,81 +25,99 @@ function script10177(int0: number, int1: number, int2: number, int3: number, int
     var int15 = 0;
     var int16 = 0;
     [string0, string1, int13, int14, int15] = script10178(int11);
-    while (((int11 < 30) && (strcmp(string0, "") != 0))) {
-        CC_CREATE(int2, 3, int11);
-        CC_SETSIZE(0, int12, 1, 0);
-        CC_SETPOSITION(0, (int12 * int11), 0, 0);
-        CC_SETFILL(1);
-        if ((MODULO(int11, 2) == 0)) {
-            CC_SETCOLOUR(1846324);
-        } else {
-            CC_SETCOLOUR(464928);
+    while ((int11 < 30)) {
+        if ((strcmp(string0, "") != 0)) {
+            CC_CREATE(int2, 3, int11);
+            CC_SETSIZE(0, int12, 1, 0);
+            CC_SETPOSITION(0, (int12 * int11), 0, 0);
+            CC_SETFILL(1);
+            if ((MODULO(int11, 2) == 0)) {
+                CC_SETCOLOUR(1846324);
+            } else {
+                CC_SETCOLOUR(464928);
+            };
+            CC_CREATE(int8, 4, int11);
+            CC_SETTEXT(string0);
+            CC_SETSIZE(0, int12, 1, 0);
+            CC_SETPOSITION(0, (int12 * int11), 0, 0);
+            CC_SETTEXTFONT(26 as fontmetrics);
+            CC_SETTEXTALIGN(0, 1, 0);
+            CC_SETCOLOUR(14931919);
+            CC_SETTEXTSHADOW(false);
+            CC_CREATE(int3, 4, int11);
+            CC_SETTEXT(string1);
+            CC_SETSIZE(0, int12, 1, 0);
+            CC_SETPOSITION(0, (int12 * int11), 0, 0);
+            CC_SETTEXTFONT(26 as fontmetrics);
+            CC_SETTEXTALIGN(0, 1, 0);
+            CC_SETCOLOUR(14931919);
+            CC_SETTEXTSHADOW(false);
+            CC_CREATE(int9, 4, int11);
+            CC_SETTEXT(inttostring(int13, 10));
+            CC_SETSIZE(0, int12, 1, 0);
+            CC_SETPOSITION(0, (int12 * int11), 0, 0);
+            CC_SETTEXTFONT(26 as fontmetrics);
+            CC_SETTEXTALIGN(0, 1, 0);
+            CC_SETCOLOUR(14931919);
+            CC_SETTEXTSHADOW(false);
+            CC_CREATE(int4, 5, int11);
+            CC_SETSIZE(15, 15, 0, 0);
+            CC_SETPOSITION(0, ((int12 * int11) + 5), 1, 0);
+            if ((int14 == 1)) {
+                CC_SETGRAPHIC(13165 as graphic);
+            } else {
+                CC_SETGRAPHIC(13166 as graphic);
+            };
+            CC_CREATE(int5, 4, int11);
+            CC_SETSIZE(15, 15, 0, 0);
+            CC_SETPOSITION(0, ((int12 * int11) + 5), 1, 0);
+            CC_SETHIDE(true);
+            if ((int14 == 1)) {
+                CC_SETTEXT("1");
+            } else {
+                CC_SETTEXT("0");
+            };
+            CC_CREATE(int6, 5, int11);
+            CC_SETSIZE(15, 15, 0, 0);
+            CC_SETPOSITION(0, ((int12 * int11) + 5), 1, 0);
+            if ((int15 == 1)) {
+                CC_SETGRAPHIC(13165 as graphic);
+            } else {
+                CC_SETGRAPHIC(13166 as graphic);
+            };
+            CC_CREATE(int7, 4, int11);
+            CC_SETSIZE(15, 15, 0, 0);
+            CC_SETPOSITION(0, ((int12 * int11) + 5), 1, 0);
+            CC_SETHIDE(true);
+            if ((int15 == 1)) {
+                CC_SETTEXT("1");
+            } else {
+                CC_SETTEXT("0");
+            };
+            CC_CREATE(int10, 5, int11);
+            CC_SETSIZE(24, 24, 0, 0);
+            CC_SETPOSITION(0, (int12 * int11), 0, 0);
+            CC_SETGRAPHIC(23769 as graphic);
+            CC_SETOP(1, "More Info");
+            int11 = (int11 + 1);
+            [string0, string1, int13, int14, int15] = script10178(int11);
+            int16 = (CC_GETHEIGHT() + CC_GETY());
         };
-        CC_CREATE(int8, 4, int11);
-        CC_SETTEXT(string0);
-        CC_SETSIZE(0, int12, 1, 0);
-        CC_SETPOSITION(0, (int12 * int11), 0, 0);
-        CC_SETTEXTFONT(26 as fontmetrics);
-        CC_SETTEXTALIGN(0, 1, 0);
-        CC_SETCOLOUR(14931919);
-        CC_SETTEXTSHADOW(false);
-        CC_CREATE(int3, 4, int11);
-        CC_SETTEXT(string1);
-        CC_SETSIZE(0, int12, 1, 0);
-        CC_SETPOSITION(0, (int12 * int11), 0, 0);
-        CC_SETTEXTFONT(26 as fontmetrics);
-        CC_SETTEXTALIGN(0, 1, 0);
-        CC_SETCOLOUR(14931919);
-        CC_SETTEXTSHADOW(false);
-        CC_CREATE(int9, 4, int11);
-        CC_SETTEXT(inttostring(int13, 10));
-        CC_SETSIZE(0, int12, 1, 0);
-        CC_SETPOSITION(0, (int12 * int11), 0, 0);
-        CC_SETTEXTFONT(26 as fontmetrics);
-        CC_SETTEXTALIGN(0, 1, 0);
-        CC_SETCOLOUR(14931919);
-        CC_SETTEXTSHADOW(false);
-        CC_CREATE(int4, 5, int11);
-        CC_SETSIZE(15, 15, 0, 0);
-        CC_SETPOSITION(0, ((int12 * int11) + 5), 1, 0);
-        if ((int14 == 1)) {
-            CC_SETGRAPHIC(13165 as graphic);
+        if ((int16 > IF_GETHEIGHT(int0))) {
+            IF_SETSCROLLSIZE(0, int16, int0);
+            IF_SETHIDE(false, int1);
+            script7791(int1, int0);
         } else {
-            CC_SETGRAPHIC(13166 as graphic);
+            IF_SETSCROLLSIZE(0, 0, int0);
+            IF_SETSCROLLPOS(0, 0, int0);
+            IF_SETHIDE(true, int1);
         };
-        CC_CREATE(int5, 4, int11);
-        CC_SETSIZE(15, 15, 0, 0);
-        CC_SETPOSITION(0, ((int12 * int11) + 5), 1, 0);
-        CC_SETHIDE(true);
-        if ((int14 == 1)) {
-            CC_SETTEXT("1");
-        } else {
-            CC_SETTEXT("0");
-        };
-        CC_CREATE(int6, 5, int11);
-        CC_SETSIZE(15, 15, 0, 0);
-        CC_SETPOSITION(0, ((int12 * int11) + 5), 1, 0);
-        if ((int15 == 1)) {
-            CC_SETGRAPHIC(13165 as graphic);
-        } else {
-            CC_SETGRAPHIC(13166 as graphic);
-        };
-        CC_CREATE(int7, 4, int11);
-        CC_SETSIZE(15, 15, 0, 0);
-        CC_SETPOSITION(0, ((int12 * int11) + 5), 1, 0);
-        CC_SETHIDE(true);
-        if ((int15 == 1)) {
-            CC_SETTEXT("1");
-        } else {
-            CC_SETTEXT("0");
-        };
-        CC_CREATE(int10, 5, int11);
-        CC_SETSIZE(24, 24, 0, 0);
-        CC_SETPOSITION(0, (int12 * int11), 0, 0);
-        CC_SETGRAPHIC(23769 as graphic);
-        CC_SETOP(1, "More Info");
-        [string0, string1, int13, int14, int15] = script10178(++int11);
-        int16 = (CC_GETHEIGHT() + CC_GETY());
+        IF_SETSIZE(0, int16, 0, 0, comp(735, 3));
+        IF_SETSIZE(0, int16, 0, 0, comp(735, 2));
+        IF_SETSIZE(0, int16, 0, 0, comp(735, 1));
+        IF_SETSIZE(0, int16, 0, 0, comp(735, 0));
+        IF_SETSIZE(0, int16, 0, 0, comp(735, 4));
+        return;
     };
     if ((int16 > IF_GETHEIGHT(int0))) {
         IF_SETSCROLLSIZE(0, int16, int0);

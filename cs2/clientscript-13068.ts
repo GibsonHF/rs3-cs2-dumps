@@ -24,8 +24,8 @@ function script13068(int0: number): void {
         IF_SETGRAPHIC(int9, int3);
         IF_SETONMOUSEOVER(callback(), int3);
         IF_SETONMOUSELEAVE(callback(), int3);
-        IF_SETHIDE(1, int12);
-        IF_SETHIDE(1, int13);
+        IF_SETHIDE(true, int12);
+        IF_SETHIDE(true, int13);
     } else {
         IF_SETTEXT("", int4);
         if ((int14 == 0)) {

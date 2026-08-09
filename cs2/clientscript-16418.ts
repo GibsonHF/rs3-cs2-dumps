@@ -7,247 +7,247 @@ function script16418(int0: number, int1: number, int2: number): void {
     if ((CC_FIND(int2, int0) == 1)) {
         switch (int1) {
             case 526: {
-                var int1 = 532 as obj;
+                var int1 = 532;
                 break;
             }
             case 532: {
-                int1 = 534 as obj;
+                int1 = 534;
                 break;
             }
             case 534: {
-                int1 = 536 as obj;
+                int1 = 536;
                 break;
             }
             case 536: {
-                int1 = 526 as obj;
+                int1 = 526;
                 break;
             }
             case 1436: {
-                int1 = 7936 as obj;
+                int1 = 7936;
                 break;
             }
             case 7936: {
-                int1 = 1436 as obj;
+                int1 = 1436;
                 break;
             }
             case 1438: {
-                int1 = 1444 as obj;
+                int1 = 1444;
                 break;
             }
             case 1444: {
-                int1 = 1442 as obj;
+                int1 = 1442;
                 break;
             }
             case 1442: {
-                int1 = 1440 as obj;
+                int1 = 1440;
                 break;
             }
             case 1440: {
-                int1 = 1448 as obj;
+                int1 = 1448;
                 break;
             }
             case 1448: {
-                int1 = 1438 as obj;
+                int1 = 1438;
                 break;
             }
             case 960: {
-                int1 = 4819 as obj;
+                int1 = 4819;
                 break;
             }
             case 4819: {
-                int1 = 960 as obj;
+                int1 = 960;
                 break;
             }
             case 249: {
-                int1 = 251 as obj;
+                int1 = 251;
                 break;
             }
             case 251: {
-                int1 = 253 as obj;
+                int1 = 253;
                 break;
             }
             case 253: {
-                int1 = 255 as obj;
+                int1 = 255;
                 break;
             }
             case 255: {
-                int1 = 257 as obj;
+                int1 = 257;
                 break;
             }
             case 257: {
-                int1 = 259 as obj;
+                int1 = 259;
                 break;
             }
             case 259: {
-                int1 = 261 as obj;
+                int1 = 261;
                 break;
             }
             case 261: {
-                int1 = 263 as obj;
+                int1 = 263;
                 break;
             }
             case 263: {
-                int1 = 265 as obj;
+                int1 = 265;
                 break;
             }
             case 265: {
-                int1 = 267 as obj;
+                int1 = 267;
                 break;
             }
             case 267: {
-                int1 = 269 as obj;
+                int1 = 269;
                 break;
             }
             case 269: {
-                int1 = 249 as obj;
+                int1 = 249;
                 break;
             }
             case 221: {
-                int1 = 1951 as obj;
+                int1 = 1951;
                 break;
             }
             case 1951: {
-                int1 = 1474 as obj;
+                int1 = 1474;
                 break;
             }
             case 1474: {
-                int1 = 948 as obj;
+                int1 = 948;
                 break;
             }
             case 948: {
-                int1 = 225 as obj;
+                int1 = 225;
                 break;
             }
             case 225: {
-                int1 = 235 as obj;
+                int1 = 235;
                 break;
             }
             case 235: {
-                int1 = 221 as obj;
+                int1 = 221;
                 break;
             }
             case 1739: {
-                int1 = 1741 as obj;
+                int1 = 1741;
                 break;
             }
             case 1741: {
-                int1 = 1743 as obj;
+                int1 = 1743;
                 break;
             }
             case 1743: {
-                int1 = 1739 as obj;
+                int1 = 1739;
                 break;
             }
             case 434: {
-                int1 = 1761 as obj;
+                int1 = 1761;
                 break;
             }
             case 1761: {
-                int1 = 434 as obj;
+                int1 = 434;
                 break;
             }
             case 1777: {
-                int1 = 39 as obj;
+                int1 = 39;
                 break;
             }
             case 39: {
-                int1 = 1777 as obj;
+                int1 = 1777;
                 break;
             }
             case 5318: {
-                int1 = 5319 as obj;
+                int1 = 5319;
                 break;
             }
             case 5319: {
-                int1 = 5324 as obj;
+                int1 = 5324;
                 break;
             }
             case 5324: {
-                int1 = 5322 as obj;
+                int1 = 5322;
                 break;
             }
             case 5322: {
-                int1 = 5320 as obj;
+                int1 = 5320;
                 break;
             }
             case 5320: {
-                int1 = 5323 as obj;
+                int1 = 5323;
                 break;
             }
             case 5323: {
-                int1 = 5321 as obj;
+                int1 = 5321;
                 break;
             }
             case 5321: {
-                int1 = 5318 as obj;
+                int1 = 5318;
                 break;
             }
             case 12158: {
-                int1 = 12160 as obj;
+                int1 = 12160;
                 break;
             }
             case 12160: {
-                int1 = 12159 as obj;
+                int1 = 12159;
                 break;
             }
             case 12159: {
-                int1 = 12163 as obj;
+                int1 = 12163;
                 break;
             }
             case 12163: {
-                int1 = 12158 as obj;
+                int1 = 12158;
                 break;
             }
             case 2859: {
-                int1 = 2138 as obj;
+                int1 = 2138;
                 break;
             }
             case 2138: {
-                int1 = 440 as obj;
+                int1 = 440;
                 break;
             }
             case 440: {
-                int1 = 1783 as obj;
+                int1 = 1783;
                 break;
             }
             case 1783: {
-                int1 = 3095 as obj;
+                int1 = 3095;
                 break;
             }
             case 3095: {
-                int1 = 2134 as obj;
+                int1 = 2134;
                 break;
             }
             case 2134: {
-                int1 = 2859 as obj;
+                int1 = 2859;
                 break;
             }
             case 12183: {
-                int1 = 12155 as obj;
+                int1 = 12155;
                 break;
             }
             case 12155: {
-                int1 = 12183 as obj;
+                int1 = 12183;
                 break;
             }
             case 12047: {
-                int1 = 12043 as obj;
+                int1 = 12043;
                 break;
             }
             case 12043: {
-                int1 = 12059 as obj;
+                int1 = 12059;
                 break;
             }
             case 12059: {
-                int1 = 12019 as obj;
+                int1 = 12019;
                 break;
             }
             case 12019: {
-                int1 = 12009 as obj;
+                int1 = 12009;
                 break;
             }
             case 12009: {
-                int1 = 12047 as obj;
+                int1 = 12047;
                 break;
             }
             default: {

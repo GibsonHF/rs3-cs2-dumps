@@ -17,8 +17,19 @@ function script6372(int0: number, int1: number): void {
         int7 = MAX(20, (int7 + 2));
         int8 = MAX(20, (int8 + 2));
         if ((IF_FIND(int4) == 1)) {
-            if (((int1 == 184) && (script8292(4, -1) == 0))) {
-                script13873(int3, int5, int6);
+            if ((int1 == 184)) {
+                if ((script8292(4, -1) == 0)) {
+                    script13873(int3, int5, int6);
+                } else {
+                    CC_SETHIDE(false);
+                    [int9, int10, int11] = script6373(int7, int8);
+                    CC_SETSIZE(int9, int10, 0, 0);
+                    CC_SETPOSITION((int5 - (CC_GETWIDTH() / 2)), (int6 - (CC_GETHEIGHT() / 2)), 0, 0);
+                    script6374(int11, int0);
+                    if ((CC_FIND[1](int3, 0) == 1)) {
+                        CC_DELETE[1]();
+                    };
+                };
             } else {
                 CC_SETHIDE(false);
                 [int9, int10, int11] = script6373(int7, int8);

@@ -3,33 +3,343 @@ function script18242(int0: number, int1: number, int2: number): void {
     var int3 = int0;
     var int4 = 0;
     if ((int3 != -1)) {
-        if (((script16319(1) == int0) && (int2 == 0))) {
-            if (((varbitplayer_16576 >= struct_getparam(int0, 2235)) && (script18262(1) == 1))) {
-                int4 = 2;
-            } else {
-                int4 = 1;
+        if ((script16319(1) == int0)) {
+            if ((int2 == 0)) {
+                if ((varbitplayer_16576 >= struct_getparam(int0, 2235))) {
+                    if ((script18262(1) == 1)) {
+                        int4 = 2;
+                    } else {
+                        int4 = 1;
+                    };
+                } else {
+                    int4 = 1;
+                };
+            } else if ((script16319(2) == int0)) {
+                if ((int2 == 1)) {
+                    if ((varbitplayer_16580 >= struct_getparam(int0, 2235))) {
+                        if ((script18262(2) == 1)) {
+                            int4 = 2;
+                        } else {
+                            int4 = 1;
+                        };
+                    } else {
+                        int4 = 1;
+                    };
+                } else if ((script16319(3) == int0)) {
+                    if ((int2 == 2)) {
+                        if ((varbitplayer_16584 >= struct_getparam(int0, 2235))) {
+                            if ((script18262(3) == 1)) {
+                                int4 = 2;
+                            } else {
+                                int4 = 1;
+                            };
+                        } else {
+                            int4 = 1;
+                        };
+                    } else if ((script16319(4) == int0)) {
+                        if ((int2 == 3)) {
+                            if ((varbitplayer_16588 >= struct_getparam(int0, 2235))) {
+                                if ((script18262(4) == 1)) {
+                                    int4 = 2;
+                                } else {
+                                    int4 = 1;
+                                };
+                            } else {
+                                int4 = 1;
+                            };
+                        } else if (((script16319(5) == int0) && (int2 == 4))) {
+                            if ((varbitplayer_16592 >= struct_getparam(int0, 2235))) {
+                                if ((script18262(5) == 1)) {
+                                    int4 = 2;
+                                } else {
+                                    int4 = 1;
+                                };
+                            } else {
+                                int4 = 1;
+                            };
+                        };
+                    } else if (((script16319(5) == int0) && (int2 == 4))) {
+                        if ((varbitplayer_16592 >= struct_getparam(int0, 2235))) {
+                            if ((script18262(5) == 1)) {
+                                int4 = 2;
+                            } else {
+                                int4 = 1;
+                            };
+                        } else {
+                            int4 = 1;
+                        };
+                    };
+                } else if ((script16319(4) == int0)) {
+                    if ((int2 == 3)) {
+                        if ((varbitplayer_16588 >= struct_getparam(int0, 2235))) {
+                            if ((script18262(4) == 1)) {
+                                int4 = 2;
+                            } else {
+                                int4 = 1;
+                            };
+                        } else {
+                            int4 = 1;
+                        };
+                    } else if (((script16319(5) == int0) && (int2 == 4))) {
+                        if ((varbitplayer_16592 >= struct_getparam(int0, 2235))) {
+                            if ((script18262(5) == 1)) {
+                                int4 = 2;
+                            } else {
+                                int4 = 1;
+                            };
+                        } else {
+                            int4 = 1;
+                        };
+                    };
+                } else if (((script16319(5) == int0) && (int2 == 4))) {
+                    if ((varbitplayer_16592 >= struct_getparam(int0, 2235))) {
+                        if ((script18262(5) == 1)) {
+                            int4 = 2;
+                        } else {
+                            int4 = 1;
+                        };
+                    } else {
+                        int4 = 1;
+                    };
+                };
+            } else if ((script16319(3) == int0)) {
+                if ((int2 == 2)) {
+                    if ((varbitplayer_16584 >= struct_getparam(int0, 2235))) {
+                        if ((script18262(3) == 1)) {
+                            int4 = 2;
+                        } else {
+                            int4 = 1;
+                        };
+                    } else {
+                        int4 = 1;
+                    };
+                } else if ((script16319(4) == int0)) {
+                    if ((int2 == 3)) {
+                        if ((varbitplayer_16588 >= struct_getparam(int0, 2235))) {
+                            if ((script18262(4) == 1)) {
+                                int4 = 2;
+                            } else {
+                                int4 = 1;
+                            };
+                        } else {
+                            int4 = 1;
+                        };
+                    } else if (((script16319(5) == int0) && (int2 == 4))) {
+                        if ((varbitplayer_16592 >= struct_getparam(int0, 2235))) {
+                            if ((script18262(5) == 1)) {
+                                int4 = 2;
+                            } else {
+                                int4 = 1;
+                            };
+                        } else {
+                            int4 = 1;
+                        };
+                    };
+                } else if (((script16319(5) == int0) && (int2 == 4))) {
+                    if ((varbitplayer_16592 >= struct_getparam(int0, 2235))) {
+                        if ((script18262(5) == 1)) {
+                            int4 = 2;
+                        } else {
+                            int4 = 1;
+                        };
+                    } else {
+                        int4 = 1;
+                    };
+                };
+            } else if ((script16319(4) == int0)) {
+                if ((int2 == 3)) {
+                    if ((varbitplayer_16588 >= struct_getparam(int0, 2235))) {
+                        if ((script18262(4) == 1)) {
+                            int4 = 2;
+                        } else {
+                            int4 = 1;
+                        };
+                    } else {
+                        int4 = 1;
+                    };
+                } else if (((script16319(5) == int0) && (int2 == 4))) {
+                    if ((varbitplayer_16592 >= struct_getparam(int0, 2235))) {
+                        if ((script18262(5) == 1)) {
+                            int4 = 2;
+                        } else {
+                            int4 = 1;
+                        };
+                    } else {
+                        int4 = 1;
+                    };
+                };
+            } else if (((script16319(5) == int0) && (int2 == 4))) {
+                if ((varbitplayer_16592 >= struct_getparam(int0, 2235))) {
+                    if ((script18262(5) == 1)) {
+                        int4 = 2;
+                    } else {
+                        int4 = 1;
+                    };
+                } else {
+                    int4 = 1;
+                };
             };
-        } else if (((script16319(2) == int0) && (int2 == 1))) {
-            if (((varbitplayer_16580 >= struct_getparam(int0, 2235)) && (script18262(2) == 1))) {
-                int4 = 2;
-            } else {
-                int4 = 1;
+        } else if ((script16319(2) == int0)) {
+            if ((int2 == 1)) {
+                if ((varbitplayer_16580 >= struct_getparam(int0, 2235))) {
+                    if ((script18262(2) == 1)) {
+                        int4 = 2;
+                    } else {
+                        int4 = 1;
+                    };
+                } else {
+                    int4 = 1;
+                };
+            } else if ((script16319(3) == int0)) {
+                if ((int2 == 2)) {
+                    if ((varbitplayer_16584 >= struct_getparam(int0, 2235))) {
+                        if ((script18262(3) == 1)) {
+                            int4 = 2;
+                        } else {
+                            int4 = 1;
+                        };
+                    } else {
+                        int4 = 1;
+                    };
+                } else if ((script16319(4) == int0)) {
+                    if ((int2 == 3)) {
+                        if ((varbitplayer_16588 >= struct_getparam(int0, 2235))) {
+                            if ((script18262(4) == 1)) {
+                                int4 = 2;
+                            } else {
+                                int4 = 1;
+                            };
+                        } else {
+                            int4 = 1;
+                        };
+                    } else if (((script16319(5) == int0) && (int2 == 4))) {
+                        if ((varbitplayer_16592 >= struct_getparam(int0, 2235))) {
+                            if ((script18262(5) == 1)) {
+                                int4 = 2;
+                            } else {
+                                int4 = 1;
+                            };
+                        } else {
+                            int4 = 1;
+                        };
+                    };
+                } else if (((script16319(5) == int0) && (int2 == 4))) {
+                    if ((varbitplayer_16592 >= struct_getparam(int0, 2235))) {
+                        if ((script18262(5) == 1)) {
+                            int4 = 2;
+                        } else {
+                            int4 = 1;
+                        };
+                    } else {
+                        int4 = 1;
+                    };
+                };
+            } else if ((script16319(4) == int0)) {
+                if ((int2 == 3)) {
+                    if ((varbitplayer_16588 >= struct_getparam(int0, 2235))) {
+                        if ((script18262(4) == 1)) {
+                            int4 = 2;
+                        } else {
+                            int4 = 1;
+                        };
+                    } else {
+                        int4 = 1;
+                    };
+                } else if (((script16319(5) == int0) && (int2 == 4))) {
+                    if ((varbitplayer_16592 >= struct_getparam(int0, 2235))) {
+                        if ((script18262(5) == 1)) {
+                            int4 = 2;
+                        } else {
+                            int4 = 1;
+                        };
+                    } else {
+                        int4 = 1;
+                    };
+                };
+            } else if (((script16319(5) == int0) && (int2 == 4))) {
+                if ((varbitplayer_16592 >= struct_getparam(int0, 2235))) {
+                    if ((script18262(5) == 1)) {
+                        int4 = 2;
+                    } else {
+                        int4 = 1;
+                    };
+                } else {
+                    int4 = 1;
+                };
             };
-        } else if (((script16319(3) == int0) && (int2 == 2))) {
-            if (((varbitplayer_16584 >= struct_getparam(int0, 2235)) && (script18262(3) == 1))) {
-                int4 = 2;
-            } else {
-                int4 = 1;
+        } else if ((script16319(3) == int0)) {
+            if ((int2 == 2)) {
+                if ((varbitplayer_16584 >= struct_getparam(int0, 2235))) {
+                    if ((script18262(3) == 1)) {
+                        int4 = 2;
+                    } else {
+                        int4 = 1;
+                    };
+                } else {
+                    int4 = 1;
+                };
+            } else if ((script16319(4) == int0)) {
+                if ((int2 == 3)) {
+                    if ((varbitplayer_16588 >= struct_getparam(int0, 2235))) {
+                        if ((script18262(4) == 1)) {
+                            int4 = 2;
+                        } else {
+                            int4 = 1;
+                        };
+                    } else {
+                        int4 = 1;
+                    };
+                } else if (((script16319(5) == int0) && (int2 == 4))) {
+                    if ((varbitplayer_16592 >= struct_getparam(int0, 2235))) {
+                        if ((script18262(5) == 1)) {
+                            int4 = 2;
+                        } else {
+                            int4 = 1;
+                        };
+                    } else {
+                        int4 = 1;
+                    };
+                };
+            } else if (((script16319(5) == int0) && (int2 == 4))) {
+                if ((varbitplayer_16592 >= struct_getparam(int0, 2235))) {
+                    if ((script18262(5) == 1)) {
+                        int4 = 2;
+                    } else {
+                        int4 = 1;
+                    };
+                } else {
+                    int4 = 1;
+                };
             };
-        } else if (((script16319(4) == int0) && (int2 == 3))) {
-            if (((varbitplayer_16588 >= struct_getparam(int0, 2235)) && (script18262(4) == 1))) {
-                int4 = 2;
-            } else {
-                int4 = 1;
+        } else if ((script16319(4) == int0)) {
+            if ((int2 == 3)) {
+                if ((varbitplayer_16588 >= struct_getparam(int0, 2235))) {
+                    if ((script18262(4) == 1)) {
+                        int4 = 2;
+                    } else {
+                        int4 = 1;
+                    };
+                } else {
+                    int4 = 1;
+                };
+            } else if (((script16319(5) == int0) && (int2 == 4))) {
+                if ((varbitplayer_16592 >= struct_getparam(int0, 2235))) {
+                    if ((script18262(5) == 1)) {
+                        int4 = 2;
+                    } else {
+                        int4 = 1;
+                    };
+                } else {
+                    int4 = 1;
+                };
             };
         } else if (((script16319(5) == int0) && (int2 == 4))) {
-            if (((varbitplayer_16592 >= struct_getparam(int0, 2235)) && (script18262(5) == 1))) {
-                int4 = 2;
+            if ((varbitplayer_16592 >= struct_getparam(int0, 2235))) {
+                if ((script18262(5) == 1)) {
+                    int4 = 2;
+                } else {
+                    int4 = 1;
+                };
             } else {
                 int4 = 1;
             };

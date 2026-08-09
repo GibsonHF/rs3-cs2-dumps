@@ -3,7 +3,7 @@ function script16417(int0: number, int1: number): void {
     if ((MODULO(CLIENTCLOCK(), 15) != 0)) {
         return;
     };
-    if ((dbrow_getfield(varplayer_8746, 295248, 0) == true)) {
+    if ((dbrow_getfield(varplayer_8746, 295248, 0) == 1)) {
         return;
     };
     if ((CC_FIND(int1, int0) == 1)) {

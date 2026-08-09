@@ -5,7 +5,8 @@ function script7577(): void {
         IF_SETTRANS(0, comp(163, 1));
         IF_SETONTIMER(callback(script7578), comp(163, 2));
     } else {
-        IF_SETTRANS(--int0, comp(163, 1));
+        int0 = (int0 - 20);
+        IF_SETTRANS(int0, comp(163, 1));
     };
     return;
 }

@@ -29,7 +29,7 @@ function script13739(int0: number, int1: number, int2: number): void {
     if ((int5 == 0)) {
         if ((int4 == 845 as struct)) {
             GETDEFAULTWINDOWMODE();
-            SETWINDOWMODE(stack());
+            SETWINDOWMODE();
             script2694(int3, 0, "RuneScape was unable to change to that resolution.<br><br>Please visit our website for more information.");
         } else {
             script2694(int3, 1, "RuneScape was unable to implement that setting.<br><br>Please visit our website for more information.");

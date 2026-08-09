@@ -25,13 +25,13 @@ function script17733(int0: number, int1: number, int2: number, int3: number, int
             break;
         }
     };
-    IF_SETTEXT(dbrow_getfield(int0, 946192, 0), comp(1222, 15));
+    IF_SETTEXT(dbrow_getfield(int0, 946192, 0), 80085007);
     IF_SETTEXT(string0, comp(1222, 16));
     IF_SETGRAPHIC(dbrow_getfield(int0, 946256, 0), comp(1222, 25));
     script17741(int0);
     script13310(80085090, 80085091, 59, (8 * 1000));
     IF_SETONVARCTRANSMIT(callback(script17735, 7220, 7221, 7222, 3), comp(1222, 26));
     script3536("Total number of Talent Points available.", 80085016, -1);
-    IF_SETONVARCTRANSMIT(callback(script17734, 7220, 7221, 7222, 3), 80085010);
+    IF_SETONVARCTRANSMIT(callback(script17734, 7220, 7221, 7222, 3), comp(1222, 18));
     return;
 }

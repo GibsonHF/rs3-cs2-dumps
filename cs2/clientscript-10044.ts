@@ -7,9 +7,9 @@ function script10044(int0: number, int1: number, int2: number, int3: number, int
     IF_SETONCLICK(callback(), int0);
     IF_SETONMOUSEREPEAT(callback(), int0);
     script13264(-1, 0, int4);
-    var int5 = ENUM_GETOUTPUTCOUNT(6177);
+    var int5 = ENUM_GETOUTPUTCOUNT(6177 as cs2enum);
     define_array[73](int5);
-    var int6 = -1;
+    var int6 = -1 as struct;
     var int7 = -1;
     var int8 = 0;
     var int9 = 0;
@@ -135,9 +135,9 @@ function script10044(int0: number, int1: number, int2: number, int3: number, int
             };
             script13264(11, 1, int4);
             if ((struct_getparam(int6, 1345) > 0)) {
-                int7 = enum_getvalue(0, 3, 2252 as cs2enum, struct_getparam(int6, 1345));
+                int7 = enum_getvalue(0, 3, 2252, struct_getparam(int6, 1345));
             };
-            if ((int7 != -1 as quest)) {
+            if ((int7 != -1)) {
                 string5 = quest_getparam(int7, 5968);
             } else {
                 string5 = struct_getparam(int6, 1273);
@@ -155,8 +155,13 @@ function script10044(int0: number, int1: number, int2: number, int3: number, int
             if ((STRING_LENGTH(string0) == 0)) {
                 string0 = "New Content";
             };
-            if (((PLATFORMTYPE() != 0) && (PLATFORMTYPE() != 5))) {
-                script13264(14, 1, int4);
+            if ((PLATFORMTYPE() != 0)) {
+                if ((PLATFORMTYPE() != 5)) {
+                    script13264(14, 1, int4);
+                } else {
+                    IF_SETOP(1, "Select", int0);
+                    IF_SETONOP(callback(script15228, 19), int0);
+                };
             } else {
                 IF_SETOP(1, "Select", int0);
                 IF_SETONOP(callback(script15228, 19), int0);
@@ -205,7 +210,10 @@ function script10044(int0: number, int1: number, int2: number, int3: number, int
         return;
     };
     var int10 = 0;
-    script10047(int2, int10++);
+    stack(int2);
+    stack(int10);
+    int10 = (int10 + 1);
+    script10047();
     CC_CREATE(int2, 4, int10);
     CC_SETTEXT(string4);
     CC_SETPOSITION(0, 0, 0, 2);

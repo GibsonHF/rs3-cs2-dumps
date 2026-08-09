@@ -2,12 +2,20 @@
 function script2778(int0: number, int1: number, int2: number, int3: number): void {
     var int4 = IF_GETHIDE(int1);
     var int5 = 0;
-    if (((varbitplayer_3613 == 1) && (varplayer_1295 < 1000))) {
-        if ((int4 == true)) {
-            int5 = 1;
+    if ((varbitplayer_3613 == 1)) {
+        if ((varplayer_1295 < 1000)) {
+            if ((int4 == true)) {
+                int5 = 1;
+            };
+            IF_SETHIDE(false, int1);
+            IF_SETSIZE(0, (IF_GETHEIGHT(int1) + 1), 1, 1, int0);
+        } else {
+            if ((int4 == false)) {
+                int5 = 1;
+            };
+            IF_SETHIDE(true, int1);
+            IF_SETSIZE(0, 0, 1, 1, int0);
         };
-        IF_SETHIDE(false, int1);
-        IF_SETSIZE(0, (IF_GETHEIGHT(int1) + 1), 1, 1, int0);
     } else {
         if ((int4 == false)) {
             int5 = 1;
@@ -19,11 +27,11 @@ function script2778(int0: number, int1: number, int2: number, int3: number): voi
     if (((STRING_LENGTH(varclient_2399) > 0) && (varplayer_455 == 1))) {
         string0 = varclient_2399;
     };
-    var int6 = -1 as obj;
+    var int6 = -1;
     if ((CC_FIND(int0, 0) == 1)) {
         int6 = CC_GETINVOBJECT();
     };
-    var int7 = -1 as graphic;
+    var int7 = -1;
     if ((CC_FIND(int0, 1) == 1)) {
         int7 = CC_GETGRAPHIC();
     };
@@ -39,7 +47,7 @@ function script2778(int0: number, int1: number, int2: number, int3: number): voi
     };
     var int9 = 0;
     var int10 = 0;
-    if ((varclient_1003 != -1 as obj)) {
+    if ((varclient_1003 != -1)) {
         CC_CREATE(int0, 6, 0);
         CC_SETSIZE(varclient_1005, varclient_1006, 0, 0);
         if ((varclient_1005 < 70)) {
@@ -53,7 +61,7 @@ function script2778(int0: number, int1: number, int2: number, int3: number): voi
         CC_SETSIZE(0, 0, 0, 0);
         CC_SETPOSITION(0, 0, 0, 1);
         CC_SETHIDE(true);
-    } else if ((varclient_1004 != -1 as graphic)) {
+    } else if ((varclient_1004 != -1)) {
         CC_CREATE(int0, 3, 0);
         CC_SETSIZE(0, 0, 0, 0);
         CC_SETPOSITION(0, 0, 0, 1);

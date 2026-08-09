@@ -17,13 +17,13 @@ function script7510(int0: number): void {
             IF_SETGRAPHIC(script7504(script7513(varclient_2705)), comp(1389, 15));
             IF_SETTEXT(script7505(script7513(varclient_2705)), comp(1389, 7));
             IF_SETTEXT(script7515(script7513(varclient_2705)), comp(1389, 26));
-            IF_SETONTIMER(callback(script7511, 100, 0, int2), 91029509);
+            IF_SETONTIMER(callback(script7511, 100, 0, int2), comp(1389, 5));
         } else {
             varclient_2705 = (varclient_2705 + 1);
             IF_SETGRAPHIC(script7504(script7513(varclient_2705)), comp(1389, 15));
             IF_SETTEXT(script7505(script7513(varclient_2705)), comp(1389, 7));
             IF_SETTEXT(script7515(script7513(varclient_2705)), comp(1389, 26));
-            IF_SETONTIMER(callback(script7511, -100, 1, int2), 91029509);
+            IF_SETONTIMER(callback(script7511, -100, 1, int2), comp(1389, 5));
         };
         varclient_2706 = true;
     };

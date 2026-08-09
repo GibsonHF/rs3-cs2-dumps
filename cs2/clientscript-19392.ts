@@ -1,5 +1,5 @@
 //
-function script19392(int0: number, int1: number, string0: string): [number, string, number, string, number] {
+function script19392(int0: number, int1: number, string0: string): [number, number, number, string, string] {
     var string1 = inttostring(int1, 10);
     if ((int1 >= 300)) {
         if ((int1 < 600)) {

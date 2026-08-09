@@ -13,7 +13,7 @@ function script7470(int0: number): void {
     var int5 = 0;
     var int6 = 8;
     var int7 = 5;
-    var int8 = -1 as obj;
+    var int8 = -1;
     var int9 = 1;
     var int10 = 0;
     var int11 = 36;

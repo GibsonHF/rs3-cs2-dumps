@@ -26,6 +26,6 @@ function script4554(int0: number, int1: number, int2: number, int3: number, int4
     varclient_1507 = STRING_LENGTH(varclient_2480);
     IF_SETONCLICK(callback(script4570, -2147483647, int15, int16), int15);
     script4571(int15, int16, varclient_2480);
-    IF_SETHIDE(1, int16);
+    IF_SETHIDE(true, int16);
     return;
 }

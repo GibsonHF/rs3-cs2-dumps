@@ -7,9 +7,9 @@ function script8451(int0: number): void {
         IF_SETSIZE(IF_GETWIDTH(comp(1559, 7)), IF_GETHEIGHT(comp(1559, 11)), 0, 0, comp(1559, 11));
         IF_SETONVARTRANSMIT(callback(script8453, int0, 4964, 4972, 4975, 3), int0);
         IF_SETONINVTRANSMIT(callback(script8453, int0, 742, 1), int0);
-        IF_SETPOSITION(IF_GETX(102170640), (IF_GETY(102170640) - 20), 0, 0, 102170640);
-        IF_SETPOSITION(IF_GETX(102170652), (IF_GETY(102170652) + 5), 0, 0, 102170652);
-        IF_SETSIZE(0, 10, 1, 1, 102170629);
+        IF_SETPOSITION(IF_GETX(comp(1559, 16)), (IF_GETY(comp(1559, 16)) - 20), 0, 0, comp(1559, 16));
+        IF_SETPOSITION(IF_GETX(comp(1559, 28)), (IF_GETY(comp(1559, 28)) + 5), 0, 0, comp(1559, 28));
+        IF_SETSIZE(0, 10, 1, 1, comp(1559, 5));
     } else {
         IF_SETSIZE(274, 404, 0, 0, comp(1463, 30));
         IF_SETHIDE(false, comp(1463, 21));

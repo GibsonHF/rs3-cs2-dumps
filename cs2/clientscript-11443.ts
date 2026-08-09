@@ -76,8 +76,26 @@ function script11443(): void {
         CC_SETTEXTFONT(26 as fontmetrics);
         CC_SETCOLOUR(script693(255, 255, 255));
         CC_SETTEXT(strconcat(inttostring(enum_getvalue(33, 0, 1680 as cs2enum, int12), 10), " tokens"));
-        if (((enum_getvalue(33, 0, 1680 as cs2enum, int12) > int18) || (((OC_MEMBERS(int12) == 1) && (MAP_MEMBERS() == 0)) || ((script4148() == 1) && (script10907(int12) == 0))))) {
+        if ((enum_getvalue(33, 0, 1680 as cs2enum, int12) > int18)) {
             int17 = 1;
+        } else if ((OC_MEMBERS(int12) == 1)) {
+            if ((MAP_MEMBERS() == 0)) {
+                int17 = 1;
+            } else if ((script4148() == 1)) {
+                if ((script10907(int12) == 0)) {
+                    int17 = 1;
+                } else {
+                    int17 = 0;
+                };
+            } else {
+                int17 = 0;
+            };
+        } else if ((script4148() == 1)) {
+            if ((script10907(int12) == 0)) {
+                int17 = 1;
+            } else {
+                int17 = 0;
+            };
         } else {
             int17 = 0;
         };
@@ -86,7 +104,8 @@ function script11443(): void {
             CC_SETOP(1, "Buy 1");
             CC_SETOP(2, "Buy X");
         };
-        if ((MODULO(++int13, 2) == 0)) {
+        int13 = (int13 + 1);
+        if ((MODULO(int13, 2) == 0)) {
             int9 = ((int9 + int11) + 5);
             int8 = 5;
         } else {

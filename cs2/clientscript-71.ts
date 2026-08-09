@@ -65,12 +65,12 @@ function script71(): void {
         }
     };
     IF_SETONVARTRANSMIT(callback(script12992, 6699, 1), comp(1820, 35));
-    IF_SETONVARTRANSMIT(callback(script12993, 6699, 1), 119275557);
-    IF_SETONVARTRANSMIT(callback(script12994, 6699, 1), 119275559);
-    IF_SETONVARTRANSMIT(callback(script12995, 6699, 1), 119275561);
-    IF_SETONVARTRANSMIT(callback(script12996, 6699, 1), 119275563);
-    IF_SETONVARTRANSMIT(callback(script12997, 6699, 1), 119275565);
-    IF_SETONVARTRANSMIT(callback(script12990, 6699, 1), 119275569);
-    IF_SETONVARTRANSMIT(callback(script12991, 6699, 1), 119275574);
+    IF_SETONVARTRANSMIT(callback(script12993, 6699, 1), comp(1820, 37));
+    IF_SETONVARTRANSMIT(callback(script12994, 6699, 1), comp(1820, 39));
+    IF_SETONVARTRANSMIT(callback(script12995, 6699, 1), comp(1820, 41));
+    IF_SETONVARTRANSMIT(callback(script12996, 6699, 1), comp(1820, 43));
+    IF_SETONVARTRANSMIT(callback(script12997, 6699, 1), comp(1820, 45));
+    IF_SETONVARTRANSMIT(callback(script12990, 6699, 1), comp(1820, 49));
+    IF_SETONVARTRANSMIT(callback(script12991, 6699, 1), comp(1820, 54));
     return;
 }

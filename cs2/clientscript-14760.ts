@@ -13,7 +13,8 @@ function script14760(int0: number, int1: number, int2: number, int3: number, int
     var int14 = -1;
     var string5 = "";
     var int15 = 0;
-    while ((++int15 <= int13)) {
+    int15 = (int15 + 1);
+    while ((int15 <= int13)) {
         switch (int15) {
             case 1: {
                 int14 = int5;
@@ -38,8 +39,12 @@ function script14760(int0: number, int1: number, int2: number, int3: number, int
         };
         if ((int14 != -1)) {
             script10410(int0, -1, 28575, int1, int2, (int11 + 2), (int11 + 2), 0, 0, "");
-            if (((int15 == 4) && (int4 > 4))) {
-                script7924(int0, IF_GETNEXTSUBID(int0), int11, int11, (int1 + 1), (int2 + 1), 18945, 0, 0, 0, 0);
+            if ((int15 == 4)) {
+                if ((int4 > 4)) {
+                    script7924(int0, IF_GETNEXTSUBID(int0), int11, int11, (int1 + 1), (int2 + 1), 18945, 0, 0, 0, 0);
+                } else {
+                    script6197(int0, int11, int11, (int1 + 2), (int2 + 2), int14, -1);
+                };
             } else {
                 script6197(int0, int11, int11, (int1 + 2), (int2 + 2), int14, -1);
             };

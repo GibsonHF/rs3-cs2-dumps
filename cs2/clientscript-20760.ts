@@ -7,7 +7,7 @@ function script20760(int0: number): void {
         return;
     };
     var int1 = script11651(varbitclient_61228);
-    if ((int1 == -1 as dbrow)) {
+    if ((int1 == -1)) {
         return;
     };
     if ((script12592(int1) == 0)) {

@@ -8,7 +8,8 @@ function script18998(): void {
     var int5 = 0;
     var int6 = 0;
     if ((CC_FIND[1](comp(1870, 18), 12) == 1)) {
-        while ((++int1 < int0)) {
+        int1 = (int1 + 1);
+        while ((int1 < int0)) {
             if (((int1 != 12) && (CC_FIND(comp(1870, 18), int1) == 1))) {
                 int2 = (ABS((CC_GETX() - (CC_GETX[1]() - (CC_GETWIDTH[1]() - CC_GETWIDTH())))) / CC_GETWIDTH());
                 int3 = (ABS((CC_GETY() - (CC_GETY[1]() + (CC_GETHEIGHT[1]() - CC_GETHEIGHT())))) / CC_GETHEIGHT());

@@ -1,19 +1,19 @@
 //
 function script12095(int0: number, int1: number): string {
     var string0 = "";
-    var int2 = -1 as struct;
-    if ((int0 != -1 as struct)) {
+    var int2 = -1;
+    if ((int0 != -1)) {
         string0 = struct_getparam(int0, 2210);
         if ((STRING_LENGTH(string0) > 0)) {
             return string0;
         };
-        if ((struct_getparam(int0, 2213) != -1 as obj)) {
+        if ((struct_getparam(int0, 2213) != -1)) {
             string0 = OC_NAME(struct_getparam(int0, 2213));
         };
         var int1 = struct_getparam(int0, 6569);
         int2 = struct_getparam(int0, 8877);
     };
-    if ((int1 != -1 as dbrow)) {
+    if ((int1 != -1)) {
         switch (DB_GETROWTABLE(int1)) {
             case 5: {
                 switch (dbrow_getfield(int1, 20592, 0)) {
@@ -70,7 +70,7 @@ function script12095(int0: number, int1: number): string {
                 break;
             }
         };
-    } else if ((int2 != -1 as struct)) {
+    } else if ((int2 != -1)) {
         if ((struct_getparam(int2, 2799) == 6)) {
             return `Passive: ${struct_getparam(int2, 2794)}`;
         };

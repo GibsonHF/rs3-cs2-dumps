@@ -31,10 +31,20 @@ function script8520(int0: number): number {
                     string1 = SUBSTRING(string0, 4, int2);
                 };
             };
-            if (((((int2 + int3) < int1) && (STRING_LENGTH(string1) > 0)) && (FRIEND_TEST(string1) == 1))) {
-                string0 = SUBSTRING(string0, (int2 + int3), int1);
-                int2 = 100;
-                varclient_2367 = string1;
+            if (((int2 + int3) < int1)) {
+                if ((STRING_LENGTH(string1) > 0)) {
+                    if ((FRIEND_TEST(string1) == 1)) {
+                        string0 = SUBSTRING(string0, (int2 + int3), int1);
+                        int2 = 100;
+                        varclient_2367 = string1;
+                    } else {
+                        printmessage("You need to enter the name of a player on your friends list and a message to send. If their name contains spaces enter as 'player name'.");
+                        int2 = 101;
+                    };
+                } else {
+                    printmessage("You need to enter the name of a player on your friends list and a message to send. If their name contains spaces enter as 'player name'.");
+                    int2 = 101;
+                };
             } else {
                 printmessage("You need to enter the name of a player on your friends list and a message to send. If their name contains spaces enter as 'player name'.");
                 int2 = 101;
@@ -47,25 +57,34 @@ function script8520(int0: number): number {
         script7839(string0, script8526(int0));
         string0 = "";
         int2 = 101;
-        varclient_6858 = false;
+        varclient_6858 = 0;
     } else if (((strcmp(LOWERCASE(SUBSTRING(string0, 0, MIN(5, int1))), "/wiki") == 0) || (strcmp(LOWERCASE(SUBSTRING(string0, 0, MIN(5, int1))), "\\wiki") == 0))) {
         if ((int1 == 5)) {
             script7839("", script8526(int0));
             string0 = "";
             int2 = 101;
-        } else if (((int1 > 6) && (strcmp(SUBSTRING(string0, 5, 6), " ") == 0))) {
-            string0 = SUBSTRING(string0, 6, int1);
-            script7839(string0, script8526(int0));
-            string0 = "";
-            int2 = 101;
+        } else if ((int1 > 6)) {
+            if ((strcmp(SUBSTRING(string0, 5, 6), " ") == 0)) {
+                string0 = SUBSTRING(string0, 6, int1);
+                script7839(string0, script8526(int0));
+                string0 = "";
+                int2 = 101;
+            } else {
+                MES_TYPED(script8526(int0), 0, "Unrecognised Command: type /? for a list.");
+            };
         } else {
             MES_TYPED(script8526(int0), 0, "Unrecognised Command: type /? for a list.");
         };
-        varclient_6858 = false;
+        varclient_6858 = 0;
     } else if ((script8550(int0) == 100)) {
-        while (((int1 > 0) && (strcmp(SUBSTRING(string0, 0, 1), "/") == 0))) {
-            string0 = SUBSTRING(string0, 1, int1);
-            int1 = STRING_LENGTH(string0);
+        while ((int1 > 0)) {
+            if ((strcmp(SUBSTRING(string0, 0, 1), "/") == 0)) {
+                string0 = SUBSTRING(string0, 1, int1);
+                int1 = STRING_LENGTH(string0);
+            };
+            int2 = 100;
+            script8522(int0, string0);
+            return int2;
         };
         int2 = 100;
     } else if ((strcmp(SUBSTRING(string0, 0, MIN(6, int1)), "//////") == 0)) {
@@ -84,14 +103,130 @@ function script8520(int0: number): number {
     } else if ((strcmp(SUBSTRING(string0, 0, MIN(2, int1)), "//") == 0)) {
         string0 = SUBSTRING(string0, 2, int1);
         int2 = 2;
-    } else if (((script19316() == 1) && (strcmp(SUBSTRING(string0, 0, MIN(2, int1)), "/#") == 0))) {
-        string0 = SUBSTRING(string0, 2, int1);
-        int2 = 102;
+    } else if ((script19316() == 1)) {
+        if ((strcmp(SUBSTRING(string0, 0, MIN(2, int1)), "/#") == 0)) {
+            string0 = SUBSTRING(string0, 2, int1);
+            int2 = 102;
+        } else if ((strcmp(SUBSTRING(string0, 0, MIN(1, int1)), "/") == 0)) {
+            string0 = SUBSTRING(string0, 1, int1);
+            int2 = 1;
+        } else if ((varbitplayer_27169 == 0)) {
+            if (((varbitplayer_38842 == 1) || (varbitplayer_60441 == 0))) {
+                int2 = script8550(int0);
+            } else {
+                switch (varbitplayer_22846) {
+                    case 4: {
+                        int2 = 1;
+                        break;
+                    }
+                    case 5: {
+                        int2 = 2;
+                        break;
+                    }
+                    case 6: {
+                        int2 = 3;
+                        break;
+                    }
+                    case 14: {
+                        int2 = 6;
+                        break;
+                    }
+                    case 10: {
+                        if ((varclient_4505 == 0)) {
+                            int2 = 4;
+                        } else {
+                            int2 = 5;
+                        };
+                        break;
+                    }
+                    case 11: {
+                        int2 = 102;
+                        break;
+                    }
+                    default: {
+                        int2 = 0;
+                        break;
+                    }
+                };
+            };
+        } else {
+            switch (varbitplayer_22846) {
+                case 4: {
+                    int2 = 1;
+                    break;
+                }
+                case 5: {
+                    int2 = 2;
+                    break;
+                }
+                case 6: {
+                    int2 = 3;
+                    break;
+                }
+                case 14: {
+                    int2 = 6;
+                    break;
+                }
+                case 10: {
+                    if ((varclient_4505 == 0)) {
+                        int2 = 4;
+                    } else {
+                        int2 = 5;
+                    };
+                    break;
+                }
+                case 11: {
+                    int2 = 102;
+                    break;
+                }
+                default: {
+                    int2 = 0;
+                    break;
+                }
+            };
+        };
     } else if ((strcmp(SUBSTRING(string0, 0, MIN(1, int1)), "/") == 0)) {
         string0 = SUBSTRING(string0, 1, int1);
         int2 = 1;
-    } else if (((varbitplayer_27169 == 0) && ((varbitplayer_38842 == 1) || (varbitplayer_60441 == 0)))) {
-        int2 = script8550(int0);
+    } else if ((varbitplayer_27169 == 0)) {
+        if (((varbitplayer_38842 == 1) || (varbitplayer_60441 == 0))) {
+            int2 = script8550(int0);
+        } else {
+            switch (varbitplayer_22846) {
+                case 4: {
+                    int2 = 1;
+                    break;
+                }
+                case 5: {
+                    int2 = 2;
+                    break;
+                }
+                case 6: {
+                    int2 = 3;
+                    break;
+                }
+                case 14: {
+                    int2 = 6;
+                    break;
+                }
+                case 10: {
+                    if ((varclient_4505 == 0)) {
+                        int2 = 4;
+                    } else {
+                        int2 = 5;
+                    };
+                    break;
+                }
+                case 11: {
+                    int2 = 102;
+                    break;
+                }
+                default: {
+                    int2 = 0;
+                    break;
+                }
+            };
+        };
     } else {
         switch (varbitplayer_22846) {
             case 4: {

@@ -13,7 +13,7 @@ function script8486(int0: number): void {
         if ((CC_FIND(comp(1477, 65), 1) == 1)) {
             script8844(1, script8825(20, 0), 96796737, 1);
         } else {
-            IF_SETONTIMER(callback(script8487, 96796737, 1, -2147483645), 96796733);
+            IF_SETONTIMER(callback(script8487, 96796737, 1, -2147483645), comp(1477, 61));
         };
     } else {
         IF_SETOPKEY(1, 0, 0, comp(1465, 10));

@@ -11,17 +11,17 @@ function script15123(int0: number): string {
     if ((DB_GETFIELDCOUNT(int0, 434224) > 0)) {
         string0 = dbrow_getfield(int0, 434224, 0);
     };
-    var int1 = -1 as graphic;
-    var int2 = -1 as obj;
+    var int1 = -1;
+    var int2 = -1;
     [int2, int1] = dbrow_getfield(int0, 434192, 0);
-    if ((int2 == -1 as obj)) {
+    if ((int2 == -1)) {
         script12478(`Mis-configured recipe, it doesn't have a display object OR a desc override. ITs ID is ${inttostring(dbrow_getfield(int0, 434176, 0), 10)}`);
         return "";
     };
     if ((STRING_LENGTH(string0) <= 0)) {
         string0 = OC_DESC(int2);
     };
-    if ((OC_CATEGORY(int2) == 4702 as category)) {
+    if ((OC_CATEGORY(int2) == 4702)) {
         string0 = `${string0} This item will expire at the end of this event, make sure to use it before then!`;
     };
     return string0;

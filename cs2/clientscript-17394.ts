@@ -1,5 +1,5 @@
 //
-function script17394(string0: string): BigInt {
+function script17394(string0: string): bigint {
     var string0 = script17398(string0);
     var int0 = STRING_LENGTH(string0);
     var int1 = 0;
@@ -10,7 +10,8 @@ function script17394(string0: string): BigInt {
         if ((int1 > 0)) {
             long0 = ADD_LONG(long0, MULTIPLY_LONG(long1, INT_TO_LONG(int1)));
         };
-        if ((--int0 > 0)) {
+        int0 = (int0 - 1);
+        if ((int0 > 0)) {
             long1 = MULTIPLY_LONG(long1, 10n);
         };
     };

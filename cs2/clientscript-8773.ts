@@ -13,7 +13,9 @@ function script8773(int0: number, int1: number, int2: number, int3: number, int4
     if ((script14245() == 1)) {
         return;
     };
-    if (((varclient_173 == 1) || ((varbitplayer_3028 == 1) && (varbitplayer_3031 != 1)))) {
+    if ((varclient_173 == 1)) {
+        return;
+    } else if (((varbitplayer_3028 == 1) && (varbitplayer_3031 != 1))) {
         return;
     };
     if ((script7942() == 1)) {
@@ -23,7 +25,7 @@ function script8773(int0: number, int1: number, int2: number, int3: number, int4
         return;
     };
     if (((CLIENTCLOCK() - int5) > 1)) {
-        var [int3, int4] = [int1, int2];
+        [int3, int4] = [int1, int2];
     };
     var int9 = MAX(MIN((varclient_2830 * (int2 - int4)), 3500), (0 - 3500));
     var int10 = MAX(MIN((varclient_2829 * (int1 - int3)), 16284), (0 - 16284));

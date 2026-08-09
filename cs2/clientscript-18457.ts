@@ -11,8 +11,8 @@ function script18457(int0: number): void {
         CC_SETTEXT(struct_getparam(int0, 6135));
     };
     var int1 = 0;
-    var int2 = comp(1280, 43);
-    var int3 = comp(1280, 42);
+    var int2 = 83886123;
+    var int3 = 83886122;
     if ((IF_FIND(comp(1280, 44)) == 1)) {
         string0 = struct_getparam(int0, 6136);
         if ((script18412() == 1)) {

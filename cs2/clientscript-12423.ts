@@ -1,7 +1,7 @@
 //
 function script12423(int0: number, int1: number): number {
     var int2 = script13415(int0);
-    if ((int2 == -1 as struct)) {
+    if ((int2 == -1)) {
         return false;
     };
     var int3 = -1 as struct;

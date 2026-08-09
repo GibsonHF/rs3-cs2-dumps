@@ -212,7 +212,7 @@ function script2845(): void {
     if (((((varbitplayer_4518 > 149) && (varbitplayer_4526 > 149)) && (varbitplayer_4524 > 149)) && (varbitplayer_4525 > 149))) {
         IF_SETCOLOUR(65280, comp(473, 504));
     };
-    if (branch_gteq_long[692](script17400(), 95000n)) {
+    if (LONG_BRANCH_GREATER_THAN_OR_EQUALS(script17400(), 95000n)) {
         IF_SETCOLOUR(65280, comp(473, 64));
     };
     if (((((varbitplayer_4518 > 19) || (varbitplayer_4526 > 19)) || (varbitplayer_4524 > 19)) || (varbitplayer_4525 > 19))) {
@@ -244,14 +244,18 @@ function script2845(): void {
     if (((((varbitplayer_4513 == 5) || (varbitplayer_4515 == 5)) || (varbitplayer_4516 == 5)) || (varbitplayer_4517 == 5))) {
         IF_SETCOLOUR(65280, comp(473, 47));
     };
-    if ((((((((((INV_TOTAL(93 as inv, 15440 as obj) < 1) && (INV_TOTAL(95 as inv, 15440 as obj) < 1)) && (INV_TOTAL(94 as inv, 15440 as obj) < 1)) && (INV_TOTAL(530 as inv, 15440 as obj) < 1)) && (INV_TOTAL(93 as inv, 29648 as obj) < 1)) && (INV_TOTAL(95 as inv, 29648 as obj) < 1)) && (INV_TOTAL(94 as inv, 29648 as obj) < 1)) && (INV_TOTAL(530 as inv, 29648 as obj) < 1)) && ((((((((INV_TOTAL(93 as inv, 15439 as obj) > 0) || (INV_TOTAL(95 as inv, 15439 as obj) > 0)) || (INV_TOTAL(94 as inv, 15439 as obj) > 0)) || (INV_TOTAL(530 as inv, 15439 as obj) > 0)) || (INV_TOTAL(93 as inv, 29647 as obj) > 0)) || (INV_TOTAL(95 as inv, 29647 as obj) > 0)) || (INV_TOTAL(94 as inv, 29647 as obj) > 0)) || (INV_TOTAL(530 as inv, 29647 as obj) > 0)))) {
-        IF_SETCOLOUR(65280, comp(473, 48));
+    if (((((((((INV_TOTAL(93 as inv, 15440 as obj) < 1) && (INV_TOTAL(95 as inv, 15440 as obj) < 1)) && (INV_TOTAL(94 as inv, 15440 as obj) < 1)) && (INV_TOTAL(530 as inv, 15440 as obj) < 1)) && (INV_TOTAL(93 as inv, 29648 as obj) < 1)) && (INV_TOTAL(95 as inv, 29648 as obj) < 1)) && (INV_TOTAL(94 as inv, 29648 as obj) < 1)) && (INV_TOTAL(530 as inv, 29648 as obj) < 1))) {
+        if (((((((((INV_TOTAL(93 as inv, 15439 as obj) > 0) || (INV_TOTAL(95 as inv, 15439 as obj) > 0)) || (INV_TOTAL(94 as inv, 15439 as obj) > 0)) || (INV_TOTAL(530 as inv, 15439 as obj) > 0)) || (INV_TOTAL(93 as inv, 29647 as obj) > 0)) || (INV_TOTAL(95 as inv, 29647 as obj) > 0)) || (INV_TOTAL(94 as inv, 29647 as obj) > 0)) || (INV_TOTAL(530 as inv, 29647 as obj) > 0))) {
+            IF_SETCOLOUR(65280, comp(473, 48));
+        };
     };
     if (((((varbitplayer_4518 > 169) && (varbitplayer_4526 > 169)) && (varbitplayer_4524 > 169)) && (varbitplayer_4525 > 169))) {
         IF_SETCOLOUR(65280, comp(473, 292));
     };
-    if (((((((INV_TOTAL(93 as inv, 15438 as obj) > 0) || (INV_TOTAL(94 as inv, 15438 as obj) > 0)) && (varbitplayer_4518 > 219)) && (varbitplayer_4526 > 219)) && (varbitplayer_4524 > 219)) && (varbitplayer_4525 > 219))) {
-        IF_SETCOLOUR(65280, comp(473, 310));
+    if (((INV_TOTAL(93 as inv, 15438 as obj) > 0) || (INV_TOTAL(94 as inv, 15438 as obj) > 0))) {
+        if (((((varbitplayer_4518 > 219) && (varbitplayer_4526 > 219)) && (varbitplayer_4524 > 219)) && (varbitplayer_4525 > 219))) {
+            IF_SETCOLOUR(65280, comp(473, 310));
+        };
     };
     var int0 = 0;
     if (((INV_TOTAL(93 as inv, 4151 as obj) > 0) || (INV_TOTAL(93 as inv, 11235 as obj) > 0))) {

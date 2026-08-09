@@ -8,6 +8,6 @@ function script13527(): void {
     } else {
         IF_SETTEXT(TOSTRING_LOCALISED(varplayer_10077, 1), comp(1639, 20));
     };
-    IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -1), 107413523);
+    IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -1), comp(1639, 19));
     return;
 }

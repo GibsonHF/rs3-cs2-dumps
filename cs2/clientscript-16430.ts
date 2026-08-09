@@ -7,13 +7,12 @@ function script16430(): void {
         int0 = (int0 + 1);
     };
     IF_SETONVARTRANSMIT(callback(script16435, 10387, 10387, 2), comp(669, 27));
-    IF_SETONVARTRANSMIT(callback(script16433, 10390, 10391, 2), 43843608);
+    IF_SETONVARTRANSMIT(callback(script16433, 10390, 10391, 2), comp(669, 24));
     DB_LISTALL(168);
-    dbrow_findnext();
-    var int1 = stack();
+    var int1 = dbrow_findnext();
     var int2 = -1;
     var int3 = -1;
-    while ((int1 != -1 as dbrow)) {
+    while ((int1 != -1)) {
         if ((DB_GETFIELDCOUNT(int1, 688288) > 0)) {
             [int2, int3] = dbrow_getfield(int1, 688288, 0);
             if ((IF_FIND(int2) == 1)) {
@@ -24,8 +23,7 @@ function script16430(): void {
                 script16432(int2);
             };
         };
-        dbrow_findnext();
-        int1 = stack();
+        int1 = dbrow_findnext();
     };
     script7852(43843594, 0, 0, 0, 0, 0, 0, 0, 1, 1, 4479, inttostring(500, 10));
     CC_SETOP(1, "Purchase with Heartments");

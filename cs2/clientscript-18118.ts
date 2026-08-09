@@ -5,15 +5,14 @@ function script18118(int0: number): void {
     var int3 = 0;
     var int4 = 0;
     var string0 = "0";
-    var int5 = -1 as struct;
+    var int5 = -1;
     var int6 = 0;
     var int7 = 0;
     while ((int7 < int2)) {
         if ((int7 < int1)) {
             [int3, string0, int5] = dbrow_getfield(int0, 1048576, int7);
         } else {
-            stack(dbrow_getfield(int0, 1048592, (int7 - int1)));
-            [int3, int4, string0, int5] = stack();
+            [int3, int4, string0, int5] = dbrow_getfield(int0, 1048592, (int7 - int1));
         };
         script15938(85918208, int7, 0, ((int7 / 8) * 26), (MODULO(int7, 8) * 26), 2, 0, 24, 24, 0, 0);
         script7858(int7, 1, 0, 0, 1, 1, 0, 0, 1, 1, 4479, "");

@@ -88,30 +88,444 @@ function script14205(int0: number, int1: number, int2: number): void {
         };
         int16 = (int15 - (int1 * int21));
     } else if ((int1 > 0)) {
-        if (((varclient_172 <= 200) && (varclient_172 > 100))) {
-            int16 = 100;
-        } else if (((varclient_172 <= 100) && (varclient_172 > 75))) {
-            int16 = 75;
-        } else if (((varclient_172 <= 75) && (varclient_172 > 50))) {
-            int16 = 50;
-        } else if (((varclient_172 <= 50) && (varclient_172 > 37))) {
-            int16 = 37;
-        } else if (((varclient_172 <= 37) && (varclient_172 > 25))) {
-            int16 = 25;
+        if ((varclient_172 <= 200)) {
+            if ((varclient_172 > 100)) {
+                int16 = 100;
+            } else if ((varclient_172 <= 100)) {
+                if ((varclient_172 > 75)) {
+                    int16 = 75;
+                } else if ((varclient_172 <= 75)) {
+                    if ((varclient_172 > 50)) {
+                        int16 = 50;
+                    } else if ((varclient_172 <= 50)) {
+                        if ((varclient_172 > 37)) {
+                            int16 = 37;
+                        } else if ((varclient_172 <= 37)) {
+                            if ((varclient_172 > 25)) {
+                                int16 = 25;
+                            } else {
+                                int16 = 25;
+                                int4 = 0;
+                            };
+                        } else {
+                            int16 = 25;
+                            int4 = 0;
+                        };
+                    } else if ((varclient_172 <= 37)) {
+                        if ((varclient_172 > 25)) {
+                            int16 = 25;
+                        } else {
+                            int16 = 25;
+                            int4 = 0;
+                        };
+                    } else {
+                        int16 = 25;
+                        int4 = 0;
+                    };
+                } else if ((varclient_172 <= 50)) {
+                    if ((varclient_172 > 37)) {
+                        int16 = 37;
+                    } else if ((varclient_172 <= 37)) {
+                        if ((varclient_172 > 25)) {
+                            int16 = 25;
+                        } else {
+                            int16 = 25;
+                            int4 = 0;
+                        };
+                    } else {
+                        int16 = 25;
+                        int4 = 0;
+                    };
+                } else if ((varclient_172 <= 37)) {
+                    if ((varclient_172 > 25)) {
+                        int16 = 25;
+                    } else {
+                        int16 = 25;
+                        int4 = 0;
+                    };
+                } else {
+                    int16 = 25;
+                    int4 = 0;
+                };
+            } else if ((varclient_172 <= 75)) {
+                if ((varclient_172 > 50)) {
+                    int16 = 50;
+                } else if ((varclient_172 <= 50)) {
+                    if ((varclient_172 > 37)) {
+                        int16 = 37;
+                    } else if ((varclient_172 <= 37)) {
+                        if ((varclient_172 > 25)) {
+                            int16 = 25;
+                        } else {
+                            int16 = 25;
+                            int4 = 0;
+                        };
+                    } else {
+                        int16 = 25;
+                        int4 = 0;
+                    };
+                } else if ((varclient_172 <= 37)) {
+                    if ((varclient_172 > 25)) {
+                        int16 = 25;
+                    } else {
+                        int16 = 25;
+                        int4 = 0;
+                    };
+                } else {
+                    int16 = 25;
+                    int4 = 0;
+                };
+            } else if ((varclient_172 <= 50)) {
+                if ((varclient_172 > 37)) {
+                    int16 = 37;
+                } else if ((varclient_172 <= 37)) {
+                    if ((varclient_172 > 25)) {
+                        int16 = 25;
+                    } else {
+                        int16 = 25;
+                        int4 = 0;
+                    };
+                } else {
+                    int16 = 25;
+                    int4 = 0;
+                };
+            } else if ((varclient_172 <= 37)) {
+                if ((varclient_172 > 25)) {
+                    int16 = 25;
+                } else {
+                    int16 = 25;
+                    int4 = 0;
+                };
+            } else {
+                int16 = 25;
+                int4 = 0;
+            };
+        } else if ((varclient_172 <= 100)) {
+            if ((varclient_172 > 75)) {
+                int16 = 75;
+            } else if ((varclient_172 <= 75)) {
+                if ((varclient_172 > 50)) {
+                    int16 = 50;
+                } else if ((varclient_172 <= 50)) {
+                    if ((varclient_172 > 37)) {
+                        int16 = 37;
+                    } else if ((varclient_172 <= 37)) {
+                        if ((varclient_172 > 25)) {
+                            int16 = 25;
+                        } else {
+                            int16 = 25;
+                            int4 = 0;
+                        };
+                    } else {
+                        int16 = 25;
+                        int4 = 0;
+                    };
+                } else if ((varclient_172 <= 37)) {
+                    if ((varclient_172 > 25)) {
+                        int16 = 25;
+                    } else {
+                        int16 = 25;
+                        int4 = 0;
+                    };
+                } else {
+                    int16 = 25;
+                    int4 = 0;
+                };
+            } else if ((varclient_172 <= 50)) {
+                if ((varclient_172 > 37)) {
+                    int16 = 37;
+                } else if ((varclient_172 <= 37)) {
+                    if ((varclient_172 > 25)) {
+                        int16 = 25;
+                    } else {
+                        int16 = 25;
+                        int4 = 0;
+                    };
+                } else {
+                    int16 = 25;
+                    int4 = 0;
+                };
+            } else if ((varclient_172 <= 37)) {
+                if ((varclient_172 > 25)) {
+                    int16 = 25;
+                } else {
+                    int16 = 25;
+                    int4 = 0;
+                };
+            } else {
+                int16 = 25;
+                int4 = 0;
+            };
+        } else if ((varclient_172 <= 75)) {
+            if ((varclient_172 > 50)) {
+                int16 = 50;
+            } else if ((varclient_172 <= 50)) {
+                if ((varclient_172 > 37)) {
+                    int16 = 37;
+                } else if ((varclient_172 <= 37)) {
+                    if ((varclient_172 > 25)) {
+                        int16 = 25;
+                    } else {
+                        int16 = 25;
+                        int4 = 0;
+                    };
+                } else {
+                    int16 = 25;
+                    int4 = 0;
+                };
+            } else if ((varclient_172 <= 37)) {
+                if ((varclient_172 > 25)) {
+                    int16 = 25;
+                } else {
+                    int16 = 25;
+                    int4 = 0;
+                };
+            } else {
+                int16 = 25;
+                int4 = 0;
+            };
+        } else if ((varclient_172 <= 50)) {
+            if ((varclient_172 > 37)) {
+                int16 = 37;
+            } else if ((varclient_172 <= 37)) {
+                if ((varclient_172 > 25)) {
+                    int16 = 25;
+                } else {
+                    int16 = 25;
+                    int4 = 0;
+                };
+            } else {
+                int16 = 25;
+                int4 = 0;
+            };
+        } else if ((varclient_172 <= 37)) {
+            if ((varclient_172 > 25)) {
+                int16 = 25;
+            } else {
+                int16 = 25;
+                int4 = 0;
+            };
         } else {
             int16 = 25;
             int4 = 0;
         };
-    } else if (((varclient_172 >= 25) && (varclient_172 < 37))) {
-        int16 = 37;
-    } else if (((varclient_172 >= 37) && (varclient_172 < 50))) {
-        int16 = 50;
-    } else if (((varclient_172 >= 50) && (varclient_172 < 75))) {
-        int16 = 75;
-    } else if (((varclient_172 >= 75) && (varclient_172 < 100))) {
-        int16 = 100;
-    } else if (((varclient_172 >= 100) && (varclient_172 < 200))) {
-        int16 = 200;
+    } else if ((varclient_172 >= 25)) {
+        if ((varclient_172 < 37)) {
+            int16 = 37;
+        } else if ((varclient_172 >= 37)) {
+            if ((varclient_172 < 50)) {
+                int16 = 50;
+            } else if ((varclient_172 >= 50)) {
+                if ((varclient_172 < 75)) {
+                    int16 = 75;
+                } else if ((varclient_172 >= 75)) {
+                    if ((varclient_172 < 100)) {
+                        int16 = 100;
+                    } else if ((varclient_172 >= 100)) {
+                        if ((varclient_172 < 200)) {
+                            int16 = 200;
+                        } else {
+                            int16 = 200;
+                            int4 = 0;
+                        };
+                    } else {
+                        int16 = 200;
+                        int4 = 0;
+                    };
+                } else if ((varclient_172 >= 100)) {
+                    if ((varclient_172 < 200)) {
+                        int16 = 200;
+                    } else {
+                        int16 = 200;
+                        int4 = 0;
+                    };
+                } else {
+                    int16 = 200;
+                    int4 = 0;
+                };
+            } else if ((varclient_172 >= 75)) {
+                if ((varclient_172 < 100)) {
+                    int16 = 100;
+                } else if ((varclient_172 >= 100)) {
+                    if ((varclient_172 < 200)) {
+                        int16 = 200;
+                    } else {
+                        int16 = 200;
+                        int4 = 0;
+                    };
+                } else {
+                    int16 = 200;
+                    int4 = 0;
+                };
+            } else if ((varclient_172 >= 100)) {
+                if ((varclient_172 < 200)) {
+                    int16 = 200;
+                } else {
+                    int16 = 200;
+                    int4 = 0;
+                };
+            } else {
+                int16 = 200;
+                int4 = 0;
+            };
+        } else if ((varclient_172 >= 50)) {
+            if ((varclient_172 < 75)) {
+                int16 = 75;
+            } else if ((varclient_172 >= 75)) {
+                if ((varclient_172 < 100)) {
+                    int16 = 100;
+                } else if ((varclient_172 >= 100)) {
+                    if ((varclient_172 < 200)) {
+                        int16 = 200;
+                    } else {
+                        int16 = 200;
+                        int4 = 0;
+                    };
+                } else {
+                    int16 = 200;
+                    int4 = 0;
+                };
+            } else if ((varclient_172 >= 100)) {
+                if ((varclient_172 < 200)) {
+                    int16 = 200;
+                } else {
+                    int16 = 200;
+                    int4 = 0;
+                };
+            } else {
+                int16 = 200;
+                int4 = 0;
+            };
+        } else if ((varclient_172 >= 75)) {
+            if ((varclient_172 < 100)) {
+                int16 = 100;
+            } else if ((varclient_172 >= 100)) {
+                if ((varclient_172 < 200)) {
+                    int16 = 200;
+                } else {
+                    int16 = 200;
+                    int4 = 0;
+                };
+            } else {
+                int16 = 200;
+                int4 = 0;
+            };
+        } else if ((varclient_172 >= 100)) {
+            if ((varclient_172 < 200)) {
+                int16 = 200;
+            } else {
+                int16 = 200;
+                int4 = 0;
+            };
+        } else {
+            int16 = 200;
+            int4 = 0;
+        };
+    } else if ((varclient_172 >= 37)) {
+        if ((varclient_172 < 50)) {
+            int16 = 50;
+        } else if ((varclient_172 >= 50)) {
+            if ((varclient_172 < 75)) {
+                int16 = 75;
+            } else if ((varclient_172 >= 75)) {
+                if ((varclient_172 < 100)) {
+                    int16 = 100;
+                } else if ((varclient_172 >= 100)) {
+                    if ((varclient_172 < 200)) {
+                        int16 = 200;
+                    } else {
+                        int16 = 200;
+                        int4 = 0;
+                    };
+                } else {
+                    int16 = 200;
+                    int4 = 0;
+                };
+            } else if ((varclient_172 >= 100)) {
+                if ((varclient_172 < 200)) {
+                    int16 = 200;
+                } else {
+                    int16 = 200;
+                    int4 = 0;
+                };
+            } else {
+                int16 = 200;
+                int4 = 0;
+            };
+        } else if ((varclient_172 >= 75)) {
+            if ((varclient_172 < 100)) {
+                int16 = 100;
+            } else if ((varclient_172 >= 100)) {
+                if ((varclient_172 < 200)) {
+                    int16 = 200;
+                } else {
+                    int16 = 200;
+                    int4 = 0;
+                };
+            } else {
+                int16 = 200;
+                int4 = 0;
+            };
+        } else if ((varclient_172 >= 100)) {
+            if ((varclient_172 < 200)) {
+                int16 = 200;
+            } else {
+                int16 = 200;
+                int4 = 0;
+            };
+        } else {
+            int16 = 200;
+            int4 = 0;
+        };
+    } else if ((varclient_172 >= 50)) {
+        if ((varclient_172 < 75)) {
+            int16 = 75;
+        } else if ((varclient_172 >= 75)) {
+            if ((varclient_172 < 100)) {
+                int16 = 100;
+            } else if ((varclient_172 >= 100)) {
+                if ((varclient_172 < 200)) {
+                    int16 = 200;
+                } else {
+                    int16 = 200;
+                    int4 = 0;
+                };
+            } else {
+                int16 = 200;
+                int4 = 0;
+            };
+        } else if ((varclient_172 >= 100)) {
+            if ((varclient_172 < 200)) {
+                int16 = 200;
+            } else {
+                int16 = 200;
+                int4 = 0;
+            };
+        } else {
+            int16 = 200;
+            int4 = 0;
+        };
+    } else if ((varclient_172 >= 75)) {
+        if ((varclient_172 < 100)) {
+            int16 = 100;
+        } else if ((varclient_172 >= 100)) {
+            if ((varclient_172 < 200)) {
+                int16 = 200;
+            } else {
+                int16 = 200;
+                int4 = 0;
+            };
+        } else {
+            int16 = 200;
+            int4 = 0;
+        };
+    } else if ((varclient_172 >= 100)) {
+        if ((varclient_172 < 200)) {
+            int16 = 200;
+        } else {
+            int16 = 200;
+            int4 = 0;
+        };
     } else {
         int16 = 200;
         int4 = 0;

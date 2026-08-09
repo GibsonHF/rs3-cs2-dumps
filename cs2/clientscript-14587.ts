@@ -4,7 +4,8 @@ function script14587(int0: number): number {
     var int2 = -1;
     var int3 = 0;
     var int4 = -1;
-    while ((++int4 < int1)) {
+    int4 = (int4 + 1);
+    while ((int4 < int1)) {
         if ((script13022(dbrow_getfield(int0, 376896, int4)) == 1)) {
             int3 = (int3 + 1);
         };

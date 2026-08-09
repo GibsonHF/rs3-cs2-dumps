@@ -19,7 +19,11 @@ function script583(int0: number, int1: number, int2: number, int3: number, int4:
     CC_SETPOSITION(int6, int7, 0, 0);
     script16898(int1, int13);
     var int14 = IF_GETNEXTSUBID(int2);
-    CC_CREATE(int2, 4, int14++);
+    stack(int2);
+    stack(4);
+    stack(int14);
+    int14 = (int14 + 1);
+    CC_CREATE();
     CC_SETSIZE((int8 - 6), 24, 0, 0);
     CC_SETPOSITION((int6 + 3), (int7 + 6), 0, 0);
     CC_SETTEXT(script13337(int1));
@@ -27,7 +31,11 @@ function script583(int0: number, int1: number, int2: number, int3: number, int4:
     CC_SETCOLOUR(script10495(3));
     CC_SETTEXTALIGN(1, 1, 11);
     int11 = script9095(int1, int12);
-    CC_CREATE(int2, 4, int14++);
+    stack(int2);
+    stack(4);
+    stack(int14);
+    int14 = (int14 + 1);
+    CC_CREATE();
     CC_SETSIZE(60, 50, 0, 0);
     CC_SETPOSITION(((int6 + int8) - 65), (int7 + 30), 0, 0);
     var int15 = struct_getparam(int1, 5878);
@@ -47,7 +55,11 @@ function script583(int0: number, int1: number, int2: number, int3: number, int4:
     CC_SETTEXTFONT(26 as fontmetrics);
     CC_SETCOLOUR(16777215);
     CC_SETTEXTALIGN(1, 1, 11);
-    CC_CREATE(int2, 5, int14++);
+    stack(int2);
+    stack(5);
+    stack(int14);
+    int14 = (int14 + 1);
+    CC_CREATE();
     if ((struct_getparam(int1, 4852) != -1 as graphic)) {
         CC_SETSIZE(MIN(struct_getparam(int1, 4860), 32), MIN(struct_getparam(int1, 4861), 32), 0, 0);
         CC_SETGRAPHIC(struct_getparam(int1, 4852));

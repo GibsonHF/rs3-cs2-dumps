@@ -5,7 +5,7 @@ function script18912(int0: number, int1: number, int2: number, int3: number, int
     define_array[65536]((int9 + 1));
     define_array[131072]((int3 + 1));
     var int10 = varclient_7418;
-    var int11 = -1 as dbrow;
+    var int11 = -1;
     var int12 = -1;
     var int13 = 0;
     var int14 = -1;
@@ -28,8 +28,7 @@ function script18912(int0: number, int1: number, int2: number, int3: number, int
         var int6 = int18;
         while ((int22 <= int9)) {
             if ((int22 < int1)) {
-                dbrow_findnext();
-                int11 = stack();
+                int11 = dbrow_findnext();
                 int12 = script18919(int11);
                 if ((int12 == -1)) {
                     int15 = dbrow_getfield(int11, 1167392, 0);
@@ -42,11 +41,13 @@ function script18912(int0: number, int1: number, int2: number, int3: number, int
                 int11 = script18916((int22 - int1), int7);
                 int13 = script18920(int11, -1);
                 int14 = script18920(int11, 22);
-                if (((int13 == 0) && ((int14 == 100) || (int14 == MAP_LANG())))) {
-                    int15 = script18920(int11, 0);
-                    int16 = script18920(int11, 1);
-                    if (((int15 <= int10) && (int16 >= int10))) {
-                        int17 = 1;
+                if ((int13 == 0)) {
+                    if (((int14 == 100) || (int14 == MAP_LANG()))) {
+                        int15 = script18920(int11, 0);
+                        int16 = script18920(int11, 1);
+                        if (((int15 <= int10) && (int16 >= int10))) {
+                            int17 = 1;
+                        };
                     };
                 };
             };
@@ -66,11 +67,15 @@ function script18912(int0: number, int1: number, int2: number, int3: number, int
                     int23 = 1;
                 };
             };
-            if (((int23 == 1) && (int22 < int9))) {
-                int23 = 0;
-                int22 = 0;
-                if ((int0 != -1)) {
-                    CC_SETPARAM_STRING(int0, 1167392, 1, -1, 0);
+            if ((int23 == 1)) {
+                if ((int22 < int9)) {
+                    int23 = 0;
+                    int22 = 0;
+                    if ((int0 != -1)) {
+                        CC_SETPARAM_STRING(int0, 1167392, 1, -1, 0);
+                    };
+                } else {
+                    int22 = (int22 + 1);
                 };
             } else {
                 int22 = (int22 + 1);

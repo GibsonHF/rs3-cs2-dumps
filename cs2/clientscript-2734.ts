@@ -2,8 +2,18 @@
 function script2734(int0: number, int1: number, int2: number, int3: number): [number, number, number] {
     switch (int0) {
         case 2351: {
-            if (((INV_GETOBJ(94 as inv, 12) == 2568 as obj) && ((int1 == 440) || (((int1 == 47066) && (int2 == 3)) || ((int1 == 47067) && (int2 == 3)))))) {
-                var int3 = (int3 - 1);
+            if ((INV_GETOBJ(94 as inv, 12) == 2568 as obj)) {
+                if ((int1 == 440)) {
+                    var int3 = (int3 - 1);
+                } else if ((int1 == 47066)) {
+                    if ((int2 == 3)) {
+                        int3 = (int3 - 1);
+                    } else if (((int1 == 47067) && (int2 == 3))) {
+                        int3 = (int3 - 1);
+                    };
+                } else if (((int1 == 47067) && (int2 == 3))) {
+                    int3 = (int3 - 1);
+                };
             };
             break;
         }

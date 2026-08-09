@@ -83,9 +83,11 @@ function script5679(int0: number): void {
         printmessage("You have already unlocked that reward.");
         return;
     };
-    if (((script4148() == 1) && ((((int1 == 0) || (int1 == 1)) || (int1 == 6)) || (int1 == 7)))) {
-        printmessage("Ironman players cannot unlock that reward as it has combat stats.");
-        return;
+    if ((script4148() == 1)) {
+        if (((((int1 == 0) || (int1 == 1)) || (int1 == 6)) || (int1 == 7))) {
+            printmessage("Ironman players cannot unlock that reward as it has combat stats.");
+            return;
+        };
     };
     var int3 = enum_getvalue(0, 33, 9661 as cs2enum, int1);
     if (((OC_MEMBERS(int3) == 1) && (PLAYERMEMBER() == false))) {

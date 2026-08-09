@@ -34,6 +34,6 @@ function script18768(int0: number): void {
         script18777();
     };
     varclient_7414 = (CLIENTCLOCK() + int1);
-    IF_SETONTIMER(callback(script18769, -2147483645, int0, MAX(1, int2)), 50069504);
+    IF_SETONTIMER(callback(script18769, -2147483645, int0, MAX(1, int2)), comp(764, 0));
     return;
 }

@@ -2,7 +2,7 @@
 function script17435(int0: number): number {
     var int1 = 0;
     var int2 = script11183(int0);
-    if ((int2 == -1 as dbrow)) {
+    if ((int2 == -1)) {
         script12478(`Could not find crack chance for modifier ID ${inttostring(int0, 10)}: setting to 100%`);
         int1 = 100;
     } else {

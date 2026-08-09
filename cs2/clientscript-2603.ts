@@ -64,8 +64,24 @@ function script2603(int0: number, int1: number, int2: number, int3: number): num
             };
             CC_CREATE(int2, 5, int1);
             CC_SETPOSITION(int7, int8, 0, 0);
-            if (((((int3 == 3) && (varplayer_8332 != -1 as dbrow)) && (enum_getvalue(33, 74, 2531 as cs2enum, int11) == varplayer_8332)) || ((int3 == 4) && ((int11 == varplayer_8333) || (item_getparam(int11, 7806) == varplayer_8333))))) {
-                int15 = 1;
+            if ((int3 == 3)) {
+                if ((varplayer_8332 != -1 as dbrow)) {
+                    if ((enum_getvalue(33, 74, 2531 as cs2enum, int11) == varplayer_8332)) {
+                        int15 = 1;
+                    } else if ((int3 == 4)) {
+                        if (((int11 == varplayer_8333) || (item_getparam(int11, 7806) == varplayer_8333))) {
+                            int15 = 1;
+                        };
+                    };
+                } else if ((int3 == 4)) {
+                    if (((int11 == varplayer_8333) || (item_getparam(int11, 7806) == varplayer_8333))) {
+                        int15 = 1;
+                    };
+                };
+            } else if ((int3 == 4)) {
+                if (((int11 == varplayer_8333) || (item_getparam(int11, 7806) == varplayer_8333))) {
+                    int15 = 1;
+                };
             };
             if ((int14 == 1)) {
                 if ((int15 == 1)) {
@@ -94,8 +110,12 @@ function script2603(int0: number, int1: number, int2: number, int3: number): num
             };
             if ((int17 == 1)) {
                 CC_SETOBJECT_ALWAYSNUM(int11, int16);
-            } else if (((int12 == 0) && (item_getparam(int11, 2653) > 1))) {
-                CC_SETOBJECT(int11, script18374(int11));
+            } else if ((int12 == 0)) {
+                if ((item_getparam(int11, 2653) > 1)) {
+                    CC_SETOBJECT(int11, script18374(int11));
+                } else {
+                    CC_SETOBJECT_NONUM(int11, 1);
+                };
             } else {
                 CC_SETOBJECT_NONUM(int11, 1);
             };

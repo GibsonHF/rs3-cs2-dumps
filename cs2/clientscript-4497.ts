@@ -7,7 +7,41 @@ function script4497(int0: number, int1: number, int2: number): number {
     } else {
         int3 = enum_getvalue(0, 0, 13930 as cs2enum, (varbitclient_40723 - 1));
     };
-    if ((((int0 != -1) && (int0 < varbitclient_40721)) || (int2 == 1))) {
+    if ((int0 != -1)) {
+        if (((int0 < varbitclient_40721) || (int2 == 1))) {
+            if ((int2 == 0)) {
+                varbitclient_40726 = ((int3 - varbitclient_40721) + int0);
+            } else {
+                varbitclient_40726 = 0;
+            };
+            int4 = script4499();
+            if ((int4 == 0)) {
+                varbitclient_40726 = 0;
+            };
+        } else if ((int0 != -1)) {
+            if (((int0 > ((varbitclient_40722 + varbitclient_40721) - 1)) || (int1 == 1))) {
+                if ((int1 == 0)) {
+                    varbitclient_40726 = ((int0 - varbitclient_40722) - varbitclient_40721);
+                } else {
+                    varbitclient_40726 = 0;
+                };
+                int4 = script4498();
+                if ((int4 == 0)) {
+                    varbitclient_40726 = (varbitclient_40722 - 1);
+                };
+            };
+        } else if ((int1 == 1)) {
+            if ((int1 == 0)) {
+                varbitclient_40726 = ((int0 - varbitclient_40722) - varbitclient_40721);
+            } else {
+                varbitclient_40726 = 0;
+            };
+            int4 = script4498();
+            if ((int4 == 0)) {
+                varbitclient_40726 = (varbitclient_40722 - 1);
+            };
+        };
+    } else if ((int2 == 1)) {
         if ((int2 == 0)) {
             varbitclient_40726 = ((int3 - varbitclient_40721) + int0);
         } else {
@@ -17,7 +51,19 @@ function script4497(int0: number, int1: number, int2: number): number {
         if ((int4 == 0)) {
             varbitclient_40726 = 0;
         };
-    } else if ((((int0 != -1) && (int0 > ((varbitclient_40722 + varbitclient_40721) - 1))) || (int1 == 1))) {
+    } else if ((int0 != -1)) {
+        if (((int0 > ((varbitclient_40722 + varbitclient_40721) - 1)) || (int1 == 1))) {
+            if ((int1 == 0)) {
+                varbitclient_40726 = ((int0 - varbitclient_40722) - varbitclient_40721);
+            } else {
+                varbitclient_40726 = 0;
+            };
+            int4 = script4498();
+            if ((int4 == 0)) {
+                varbitclient_40726 = (varbitclient_40722 - 1);
+            };
+        };
+    } else if ((int1 == 1)) {
         if ((int1 == 0)) {
             varbitclient_40726 = ((int0 - varbitclient_40722) - varbitclient_40721);
         } else {

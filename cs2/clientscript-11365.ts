@@ -22,8 +22,8 @@ function script11365(): void {
     script6465(5, varbitplayer_675, 1);
     script10993(varbitplayer_675);
     if (((varplayer_1831 != -1 as obj) && (int0 == 1))) {
-        IF_SETONDRAG(callback(script9319, -2147483645, 85918039, 0, 1), 85918058);
-        IF_SETMOUSEOVERCURSOR(188, 85918058);
+        IF_SETONDRAG(callback(script9319, -2147483645, 85918039, 0, 1), comp(1311, 362));
+        IF_SETMOUSEOVERCURSOR(188, comp(1311, 362));
     };
     return;
 }

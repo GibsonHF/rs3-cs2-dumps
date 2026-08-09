@@ -12,8 +12,7 @@ function script10319(int0: number): void {
             if ((strcmp(varclient_4626, "") == 0)) {
                 script10321(int0);
             };
-            stack(PLAYER_GROUP_GET_MAX_SIZE(inttostring(PLAYER_GROUP_MEMBER_COUNT(), 10), "/"));
-            string0 = `${stack()}${inttostring(10)}`;
+            string0 = `${inttostring(PLAYER_GROUP_GET_MAX_SIZE(inttostring(PLAYER_GROUP_MEMBER_COUNT(), 10), "/"), 10)}`;
             IF_SETSIZE(PARAWIDTH(string0, 48, IF_GETFONTMETRICS(int4)), IF_GETHEIGHT(int4), 0, 0, int4);
             IF_SETTEXT(string0, int4);
             IF_SETHIDE(false, int5);

@@ -2,10 +2,10 @@
 function script18106(int0: number, int1: number, int2: number, int3: number): string {
     var string0 = "";
     if ((int1 > 0)) {
-        if ((int2 == -1 as stat)) {
+        if ((int2 == -1)) {
             string0 = `You are earning <col=2EF8FF>+${TOSTRING_LOCALISED(int1, 1)}%</col> base XP in all ${enum_getvalue(0, 36, 17022 as cs2enum, int3)} skills.`;
         } else {
-            string0 = `You are earning <col=2EF8FF>+${TOSTRING_LOCALISED(int1, 1)}%</col> base XP in all ${enum_getvalue(0, 36, 17022 as cs2enum, int3)} skills (excluding ${enum_getvalue(17, 36, 680 as cs2enum, int2)}).`;
+            string0 = `You are earning <col=2EF8FF>+${TOSTRING_LOCALISED(int1, 1)}%</col> base XP in all ${enum_getvalue(0, 36, 17022, int3)} skills (excluding ${enum_getvalue(17, 36, 680, int2)}).`;
         };
     } else {
         string0 = "You do not currently have this buff.";

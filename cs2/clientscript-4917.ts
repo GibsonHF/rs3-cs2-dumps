@@ -1,12 +1,10 @@
 //
 function script4917(): void {
     if ((CLANPROFILE_FIND() == 1)) {
-        stack(4918);
-        stack("");
+        stack(callback(script4918));
         stack(82509873);
         IF_SETONVARCLANTRANSMIT();
-        stack(4918);
-        stack("");
+        stack(callback(script4918));
         stack(82640896);
         IF_SETONVARCLANTRANSMIT();
         varbitplayer_6675 = varbitclan_6661;

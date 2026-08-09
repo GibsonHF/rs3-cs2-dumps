@@ -27,13 +27,49 @@ function script5489(): void {
     if (((int10 + int5) > int9)) {
         int10 = (int2 - (int5 + int1));
     };
-    if (((int10 < int7) || (((int10 < int2) && ((int10 + int5) > int2)) || ((int10 >= int2) && ((int10 + int5) > int9))))) {
+    if ((int10 < int7)) {
         int11 = (int3 - (int4 + int0));
         if ((int11 < int6)) {
             int11 = (int3 + int0);
         };
         int10 = (int2 - (int5 / 2));
         int10 = MIN(MAX(int10, int7), (int9 - int5));
+    } else if ((int10 < int2)) {
+        if (((int10 + int5) > int2)) {
+            int11 = (int3 - (int4 + int0));
+            if ((int11 < int6)) {
+                int11 = (int3 + int0);
+            };
+            int10 = (int2 - (int5 / 2));
+            int10 = MIN(MAX(int10, int7), (int9 - int5));
+        } else if ((int10 >= int2)) {
+            if (((int10 + int5) > int9)) {
+                int11 = (int3 - (int4 + int0));
+                if ((int11 < int6)) {
+                    int11 = (int3 + int0);
+                };
+                int10 = (int2 - (int5 / 2));
+                int10 = MIN(MAX(int10, int7), (int9 - int5));
+            } else {
+                int11 = (int3 - (int4 / 2));
+                int11 = MIN(MAX(int11, int6), (int8 - int4));
+            };
+        } else {
+            int11 = (int3 - (int4 / 2));
+            int11 = MIN(MAX(int11, int6), (int8 - int4));
+        };
+    } else if ((int10 >= int2)) {
+        if (((int10 + int5) > int9)) {
+            int11 = (int3 - (int4 + int0));
+            if ((int11 < int6)) {
+                int11 = (int3 + int0);
+            };
+            int10 = (int2 - (int5 / 2));
+            int10 = MIN(MAX(int10, int7), (int9 - int5));
+        } else {
+            int11 = (int3 - (int4 / 2));
+            int11 = MIN(MAX(int11, int6), (int8 - int4));
+        };
     } else {
         int11 = (int3 - (int4 / 2));
         int11 = MIN(MAX(int11, int6), (int8 - int4));

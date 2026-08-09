@@ -3,7 +3,8 @@ function script5875(int0: number): number {
     if ((script16161() != 1515)) {
         return 0;
     };
-    if ((++int0 == varbitplayer_35856)) {
+    var int0 = (int0 + 64);
+    if ((int0 == varbitplayer_35856)) {
         return varbitplayer_35859;
     };
     if ((int0 == varbitplayer_35857)) {

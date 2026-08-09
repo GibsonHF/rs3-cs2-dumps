@@ -47,20 +47,20 @@ function script3290(int0: number, int1: number, int2: number, int3: number): [nu
     if ((script4034(int0) == 1)) {
         switch (int1) {
             case 6: {
-                if ((STRING_LENGTH(script474(20767 as obj, 1)) > 0)) {
-                    return [1, script474(20767 as obj, 1)];
+                if ((STRING_LENGTH(script474(20767, 1)) > 0)) {
+                    return [1, script474(20767, 1)];
                 };
                 break;
             }
             case 7: {
-                if ((STRING_LENGTH(script474(20767 as obj, 2)) > 0)) {
-                    return [1, script474(20767 as obj, 2)];
+                if ((STRING_LENGTH(script474(20767, 2)) > 0)) {
+                    return [1, script474(20767, 2)];
                 };
                 break;
             }
             case 8: {
-                if ((STRING_LENGTH(script474(20767 as obj, 3)) > 0)) {
-                    return [1, script474(20767 as obj, 3)];
+                if ((STRING_LENGTH(script474(20767, 3)) > 0)) {
+                    return [1, script474(20767, 3)];
                 };
                 break;
             }
@@ -101,11 +101,15 @@ function script3290(int0: number, int1: number, int2: number, int3: number): [nu
         switch (int0) {
             case 42682: {
                 if (((varbitplayer_40405 == 35) || (varbitplayer_40405 == 60))) {
-                    if ((((int1 == 1) || (int1 == -1)) && (STRING_LENGTH(string0) > 0))) {
-                        return [1, string0];
+                    if (((int1 == 1) || (int1 == -1))) {
+                        if ((STRING_LENGTH(string0) > 0)) {
+                            return [1, string0];
+                        };
                     };
-                    if ((((int1 == 2) || (int1 == -1)) && (STRING_LENGTH(string0) > 0))) {
-                        return [1, string0];
+                    if (((int1 == 2) || (int1 == -1))) {
+                        if ((STRING_LENGTH(string0) > 0)) {
+                            return [1, string0];
+                        };
                     };
                 };
                 break;
@@ -215,10 +219,10 @@ function script3290(int0: number, int1: number, int2: number, int3: number): [nu
                         return [1, ""];
                     }
                     case 1: {
-                        return [1, enum_getvalue(0, 36, 14610 as cs2enum, varbitplayer_25054)];
+                        return [1, enum_getvalue(0, 36, 14610, varbitplayer_25054)];
                     }
                     case 2: {
-                        return [1, enum_getvalue(0, 36, 14610 as cs2enum, varbitplayer_25055)];
+                        return [1, enum_getvalue(0, 36, 14610, varbitplayer_25055)];
                     }
                     case 3:
                     case 4:
@@ -241,7 +245,7 @@ function script3290(int0: number, int1: number, int2: number, int3: number): [nu
                     }
                     case 1: {
                         if ((varbitplayer_47562 == 1)) {
-                            return [1, enum_getvalue(33, 36, 15940 as cs2enum, varplayer_8103)];
+                            return [1, enum_getvalue(33, 36, 15940, varplayer_8103)];
                         };
                         if ((STRING_LENGTH(string0) > 0)) {
                             return [1, string0];
@@ -259,7 +263,7 @@ function script3290(int0: number, int1: number, int2: number, int3: number): [nu
                     }
                     case 5: {
                         if ((varbitplayer_47562 == 0)) {
-                            return [1, enum_getvalue(33, 36, 15940 as cs2enum, varplayer_8103)];
+                            return [1, enum_getvalue(33, 36, 15940, varplayer_8103)];
                         };
                         return [1, "Activate"];
                     }
@@ -275,7 +279,7 @@ function script3290(int0: number, int1: number, int2: number, int3: number): [nu
                     }
                     case 1: {
                         if ((varbitplayer_47562 == 1)) {
-                            return [1, enum_getvalue(33, 36, 15940 as cs2enum, varplayer_8103)];
+                            return [1, enum_getvalue(33, 36, 15940, varplayer_8103)];
                         };
                         if ((STRING_LENGTH(string0) > 0)) {
                             return [1, string0];
@@ -292,7 +296,7 @@ function script3290(int0: number, int1: number, int2: number, int3: number): [nu
                     }
                     case 4: {
                         if ((varbitplayer_47562 == 0)) {
-                            return [1, enum_getvalue(33, 36, 15940 as cs2enum, varplayer_8103)];
+                            return [1, enum_getvalue(33, 36, 15940, varplayer_8103)];
                         };
                         return [1, "Activate"];
                     }
@@ -306,7 +310,7 @@ function script3290(int0: number, int1: number, int2: number, int3: number): [nu
                     }
                     case 1: {
                         if ((varbitplayer_47562 == 1)) {
-                            return [1, enum_getvalue(33, 36, 15940 as cs2enum, varplayer_8103)];
+                            return [1, enum_getvalue(33, 36, 15940, varplayer_8103)];
                         };
                         if ((STRING_LENGTH(string0) > 0)) {
                             return [1, string0];
@@ -324,7 +328,7 @@ function script3290(int0: number, int1: number, int2: number, int3: number): [nu
                     }
                     case 6: {
                         if ((varbitplayer_47562 == 0)) {
-                            return [1, enum_getvalue(33, 36, 15940 as cs2enum, varplayer_8103)];
+                            return [1, enum_getvalue(33, 36, 15940, varplayer_8103)];
                         };
                         return [1, "Activate"];
                     }
@@ -340,13 +344,17 @@ function script3290(int0: number, int1: number, int2: number, int3: number): [nu
                         return [1, ""];
                     }
                     case 1: {
-                        if (((int3 == 1) || ((varbitplayer_54934 == 1) && (int3 == -1)))) {
+                        if ((int3 == 1)) {
+                            return [1, "Remove"];
+                        } else if (((varbitplayer_54934 == 1) && (int3 == -1))) {
                             return [1, "Remove"];
                         };
                         return [1, "Activate"];
                     }
                     case 2: {
-                        if (((int3 == 1) || ((varbitplayer_54934 == 1) && (int3 == -1)))) {
+                        if ((int3 == 1)) {
+                            return [1, "Activate"];
+                        } else if (((varbitplayer_54934 == 1) && (int3 == -1))) {
                             return [1, "Activate"];
                         };
                         return [1, "Remove"];

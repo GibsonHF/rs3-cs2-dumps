@@ -12,7 +12,8 @@ function script16049(int0: number): string {
     var int4 = ENUM_GETOUTPUTCOUNT(int1);
     var string0 = "";
     var string1 = "";
-    while ((++int3 < int4)) {
+    int3 = (int3 + 1);
+    while ((int3 < int4)) {
         string1 = script16050(int1, int2, int3);
         string0 = `${string0}${string1}`;
     };

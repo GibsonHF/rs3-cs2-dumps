@@ -1,6 +1,6 @@
 //
 function script4196(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number, int8: number, string0: string): number {
-    var int9 = 4220 as struct;
+    var int9 = 4220;
     var int10 = 0;
     var int11 = struct_getparam(int9, 4403);
     var int12 = script891(INV_GETVAR(int5, int6, 41806));
@@ -35,8 +35,12 @@ function script4196(int0: number, int1: number, int2: number, int3: number, int4
         CC_SETSIZE(35, 52, 0, 0);
         CC_SETNPCMODEL(int13);
         CC_SETMODELANIM(BAS_GETANIM_READY(npc_getparam(int13, 3857)));
-        if (((INV_GETVAR(int5, int6, 41805) == 1) && (dbrow_getfield(int7, 118784, 0) == 9))) {
-            CC_SETMODELANGLE(-1, 25, 0, 1600, 0, 800);
+        if ((INV_GETVAR(int5, int6, 41805) == 1)) {
+            if ((dbrow_getfield(int7, 118784, 0) == 9)) {
+                CC_SETMODELANGLE(-1, 25, 0, 1600, 0, 800);
+            } else {
+                CC_SETMODELANGLE(-1, 25, npc_getparam(int13, 3864), npc_getparam(int13, 3865), 0, 800);
+            };
         } else {
             CC_SETMODELANGLE(-1, 25, npc_getparam(int13, 3864), npc_getparam(int13, 3865), 0, 800);
         };

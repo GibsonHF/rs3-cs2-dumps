@@ -51,5 +51,6 @@ function script8893(int0: number, int1: number, int2: number, int3: number, int4
         CC_SETTEXTFONT(26 as fontmetrics);
         CC_SETTEXTALIGN(1, 0, 0);
     };
-    return [++int3, int4];
+    int3 = (int3 + 40);
+    return [int3, int4];
 }

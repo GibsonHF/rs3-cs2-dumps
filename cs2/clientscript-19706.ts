@@ -35,8 +35,14 @@ function script19706(): number {
                 string1 = `${string0} resolution (width x height) when preset was saved.`;
                 int6 = 32;
             };
-            if (((int3 == varplayer_12049) || ((int3 == 18) && (varplayer_12049 == 8)))) {
+            if ((int3 == varplayer_12049)) {
                 int8 = 1;
+            } else if ((int3 == 18)) {
+                if ((varplayer_12049 == 8)) {
+                    int8 = 1;
+                } else {
+                    int8 = 0;
+                };
             } else {
                 int8 = 0;
             };
@@ -47,7 +53,7 @@ function script19706(): number {
             int1 = (int1 + (int6 + 4));
         };
         int0 = (int0 + 1);
-        int3 = enum_getvalue(0, 0, 10781 as cs2enum, int0);
+        int3 = enum_getvalue(0, 0, 10781, int0);
     };
     IF_SETSIZE(0, MIN(150, (int1 + int7)), 1, 0, comp(1475, 24));
     script19620(96665627, 96665626, int1, -1, -1, 0, 0, int7);

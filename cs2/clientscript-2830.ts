@@ -16,7 +16,7 @@ function script2830(int0: number, int1: number, int2: number, int3: number, int4
             if ((struct_getparam(int3, 7524) == true)) {
                 var int10 = (1 - MIN(int10, 1));
             };
-            script7961(int1, int8, int9, int4, int5, 0, 0, int6, int7, 0, 0, 4486, "", script12585(int11), 1, script734(int10));
+            script7961(int1, int8, int9, int4, int5, 0, 0, int6, int7, 0, 0, callback(script4486), script12585(int11), 1, script734(int10));
             CC_SETOP(1, "Toggle");
             CC_SETONOP(callback(script5590, -2147483645, -2147483643, int10));
             break;

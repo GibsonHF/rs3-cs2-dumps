@@ -8,8 +8,10 @@ function script14387(int0: number, int1: number, int2: number, int3: number, int
         return;
     };
     var int8 = script3504(int2);
-    if (((int5 == 741 as inv) && ((script9257(741, int8, 1) == 1) || (script14291(int8, 1) == 1)))) {
-        return;
+    if ((int5 == 741 as inv)) {
+        if (((script9257(741, int8, 1) == 1) || (script14291(int8, 1) == 1))) {
+            return;
+        };
     };
     var int9 = -1;
     if (((OC_STACKABLE(int8) == 1) || (int8 != OC_UNCERT(int8)))) {

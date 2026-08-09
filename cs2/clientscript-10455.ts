@@ -22,14 +22,18 @@ function script10455(int0: number): void {
     switch (int6) {
         case 0: {
             IF_SETSIZE((83 * 2), (148 * 2), 0, 0, int4);
-            while ((CC_FIND(int4, ++int1) == 1)) {
+            stack(int4);
+            int1 = (int1 + 1);
+            while ((CC_FIND(int1) == 1)) {
                 CC_SETSIZE(83, 148, 0, 0);
             };
             IF_SETHIDE(false, int5);
             IF_SETSIZE((88 * 2), (25 * 2), 0, 0, int5);
             IF_SETPOSITION(0, 110, 1, 1, int5);
             int1 = -1;
-            while ((CC_FIND(int5, ++int1) == 1)) {
+            stack(int5);
+            int1 = (int1 + 1);
+            while ((CC_FIND(int1) == 1)) {
                 CC_SETSIZE(88, 25, 0, 0);
             };
             break;
@@ -38,7 +42,9 @@ function script10455(int0: number): void {
             int2 = SCALE(int7, 1000, 83);
             int3 = SCALE(int7, 1000, 148);
             IF_SETSIZE((int2 * 2), (int3 * 2), 0, 0, int4);
-            while ((CC_FIND(int4, ++int1) == 1)) {
+            stack(int4);
+            int1 = (int1 + 1);
+            while ((CC_FIND(int1) == 1)) {
                 CC_SETSIZE(int2, int3, 0, 0);
             };
             IF_SETHIDE(false, int5);
@@ -47,7 +53,9 @@ function script10455(int0: number): void {
             IF_SETSIZE((int2 * 2), (int3 * 2), 0, 0, int5);
             IF_SETPOSITION(0, SCALE(int7, 1000, 110), 1, 1, int5);
             int1 = -1;
-            while ((CC_FIND(int5, ++int1) == 1)) {
+            stack(int5);
+            int1 = (int1 + 1);
+            while ((CC_FIND(int1) == 1)) {
                 CC_SETSIZE(int2, int3, 0, 0);
             };
             break;
@@ -56,7 +64,9 @@ function script10455(int0: number): void {
             int2 = SCALE(int7, 1000, 83);
             int3 = SCALE(int7, 1000, 148);
             IF_SETSIZE((int2 * 2), (int3 * 2), 0, 0, int4);
-            while ((CC_FIND(int4, ++int1) == 1)) {
+            stack(int4);
+            int1 = (int1 + 1);
+            while ((CC_FIND(int1) == 1)) {
                 CC_SETSIZE(int2, int3, 0, 0);
             };
             IF_SETHIDE(true, int5);

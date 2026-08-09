@@ -1,7 +1,7 @@
 //
-function script8295(int0: number, int1: number, long0: BigInt, long1: BigInt): string {
+function script8295(int0: number, int1: number, long0: bigint, long1: bigint): string {
     var long2 = SUB_LONG(long1, long0);
-    if (branch_gt_long[8](long0, long1)) {
+    if (LONG_BRANCH_GREATER_THAN(long0, long1)) {
         long2 = SUB_LONG(long0, long1);
     };
     var int2 = script17138(MODULO_LONG(long2, 60n));

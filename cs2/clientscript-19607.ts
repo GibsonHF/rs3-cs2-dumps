@@ -4,7 +4,7 @@ function script19607(int0: number, int1: number, int2: number): void {
     switch (int0) {
         case 964: {
             if ((int2 <= 0)) {
-                script9240(script19567(int0), cc_getparam(3819), int0, -1 as obj, 0, 1, "", "", "", "", "", "", "", "", "", "");
+                script9240(script19567(int0), cc_getparam(3819), int0, -1, 0, 1, "", "", "", "", "", "", "", "", "", "");
             } else {
                 script9240(script19567(int0), cc_getparam(3819), int0, int1, int2, 1, script14419(int0, int1, int2, "Deposit"));
             };

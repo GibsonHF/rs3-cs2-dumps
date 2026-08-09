@@ -4,7 +4,7 @@ function script8890(int0: number, int1: number, int2: number, int3: number, int4
     var int6 = int3;
     var int7 = int4;
     if ((struct_getparam(int2, 6523) != -1 as stat)) {
-        var [int3, int4] = script8892(int0, struct_getparam(int2, 6523), struct_getparam(int2, 8023), int3, int4, int5);
+        [int3, int4] = script8892(int0, struct_getparam(int2, 6523), struct_getparam(int2, 8023), int3, int4, int5);
     };
     if ((struct_getparam(int2, 6524) != -1 as stat)) {
         [int3, int4] = script8892(int0, struct_getparam(int2, 6524), struct_getparam(int2, 8024), int3, int4, int5);
@@ -65,7 +65,7 @@ function script8890(int0: number, int1: number, int2: number, int3: number, int4
     };
     var int8 = struct_getparam(int2, 6522);
     if ((int8 > 0)) {
-        [int3, int4] = script8893(int0, 24154 as obj, int8, int3, int4, int5);
+        [int3, int4] = script8893(int0, 24154, int8, int3, int4, int5);
     };
     if (((int7 != int4) || (int6 != int3))) {
         int4 = (int4 + 50);
@@ -74,7 +74,7 @@ function script8890(int0: number, int1: number, int2: number, int3: number, int4
     int3 = int5;
     int7 = int4;
     var string0 = struct_getparam(int2, 8050);
-    if (((int0 != comp(1524, 92)) && (strcmp(string0, "") != 0))) {
+    if (((int0 != 99876956) && (strcmp(string0, "") != 0))) {
         int4 = script8891(int0, string0, int5, int4, 0);
     };
     if ((int1 != -1)) {

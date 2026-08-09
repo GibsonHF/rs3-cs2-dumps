@@ -4,8 +4,7 @@ function script11653(int0: number): number {
     stack(1515552);
     stack(int0);
     DB_FIND(0);
-    dbrow_findnext();
-    int1 = stack();
+    int1 = dbrow_findnext();
     if ((int1 != -1)) {
         return int1;
     };

@@ -22,31 +22,31 @@ function script13946(): void {
     var string0 = "";
     var string1 = "";
     var string2 = "Displays whether this preset will load: Backpack | Worn | Beast of Burden";
-    var int5 = -1;
+    var int5 = -1 as graphic;
     while ((int0 <= 19)) {
         switch (script6963(int0)) {
             case 1: {
                 string0 = "Locked";
                 string1 = "This preset is only available to members.";
-                int5 = 20647;
+                int5 = 20647 as graphic;
                 break;
             }
             case 2: {
                 string0 = "Locked";
                 string1 = "This preset will be unlocked on members worlds.";
-                int5 = 20647;
+                int5 = 20647 as graphic;
                 break;
             }
             case 3: {
                 string0 = "Locked";
                 string1 = "This preset is only available after purchase.";
-                int5 = 18690;
+                int5 = 18690 as graphic;
                 break;
             }
             default: {
                 string0 = script15897(int0);
                 string1 = "";
-                int5 = -1;
+                int5 = -1 as graphic;
                 break;
             }
         };
@@ -66,19 +66,19 @@ function script13946(): void {
             script4512(33882378, 24, 24, 3, (int1 + 3), script15934(18787, 15083));
         };
         script14402(33882379, int0, 0, 30, 0, int1);
-        if ((int5 == -1)) {
+        if ((int5 == -1 as graphic)) {
             CC_SETOP(2, "Load");
             CC_SETOP(3, "Reset");
         };
         CC_SETONOP(callback(script13938, -2147483643));
-        CC_CREATE(33882383, 5, int0);
+        CC_CREATE(comp(517, 271), 5, int0);
         CC_SETSIZE(30, 30, 0, 0);
         CC_SETPOSITION(0, int1, 2, 0);
         CC_SETGRAPHIC(int5);
-        script2995(33882378, IF_GETNEXTSUBID(33882378), 15, int1, 0, 0, 80, 30, 1, 0, 2100, string0);
+        script2995(33882378, IF_GETNEXTSUBID(comp(517, 266)), 15, int1, 0, 0, 80, 30, 1, 0, 2100, string0);
         CC_SETTEXTALIGN(1, 1, 0);
         script6888(2);
-        if ((int5 == -1)) {
+        if ((int5 == -1 as graphic)) {
             if ((int0 != 19)) {
                 script14397(33882380, 24, 24, 0, (int1 + 3), 0, 0, script14389(93, int2));
                 CC_SETOP(1, "Toggle");

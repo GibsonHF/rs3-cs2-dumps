@@ -20,6 +20,7 @@ function script483(int0: number): string {
             return "Knight";
         }
         case 7: {
+            break;
         }
         default: {
             return "No Troop";

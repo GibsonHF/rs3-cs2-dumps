@@ -1,7 +1,6 @@
 //
 function script8762(int0: number): void {
-    stack(10841);
-    stack("");
+    stack(callback(script10841));
     stack(int0);
     IF_SETONCAMERAUPDATETRANSMIT();
     return;

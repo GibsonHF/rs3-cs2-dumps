@@ -73,21 +73,21 @@ function script10121(int0: number, int1: number, int2: number, int3: number): vo
     var int7 = 0;
     var int8 = comp(-1, 65535);
     if ((int0 == comp(232, 87))) {
-        int8 = comp(232, 79);
+        int8 = 15204431;
         varclient_4286 = int4;
         varclient_4285 = string0;
         IF_SETPOSITION(script1551(varclient_4286, varclient_4285, 26, 6), IF_GETY(int3), 0, 0, int3);
         IF_SETTEXT(varclient_4285, int0);
         varbitclient_23065 = 1;
     } else if ((int0 == comp(232, 93))) {
-        int8 = comp(232, 81);
+        int8 = 15204433;
         varclient_4288 = int4;
         varclient_4287 = string0;
         IF_SETPOSITION(script1551(varclient_4288, script2949(varclient_4287), 26, 6), IF_GETY(int3), 0, 0, int3);
         IF_SETTEXT(script2949(varclient_4287), int0);
         varbitclient_23065 = 2;
     } else if ((int0 == comp(232, 116))) {
-        int8 = comp(232, 109);
+        int8 = 15204461;
         varclient_4290 = int4;
         varclient_4289 = string0;
         IF_SETPOSITION(script1551(varclient_4290, varclient_4289, 26, 6), IF_GETY(int3), 0, 0, int3);

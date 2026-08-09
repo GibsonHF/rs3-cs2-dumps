@@ -80,7 +80,8 @@ function script5856(): void {
         };
         int5 = (int5 + 1);
     };
-    if ((++int9 > IF_GETHEIGHT(int0))) {
+    int9 = (int9 + 40);
+    if ((int9 > IF_GETHEIGHT(int0))) {
         IF_SETSCROLLSIZE(0, int9, int0);
         IF_SETSCROLLSIZE(0, int9, int2);
         IF_SETSCROLLSIZE(0, int9, int1);

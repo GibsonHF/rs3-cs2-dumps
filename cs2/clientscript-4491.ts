@@ -48,7 +48,7 @@ function script4491(int0: number): void {
         string4 = inttostring(int10, 10);
     };
     if (((STRING_LENGTH(string3) == 0) && (int9 != -1))) {
-        string3 = enum_getvalue(0, 36, 11811 as cs2enum, int9);
+        string3 = enum_getvalue(0, 36, 11811, int9);
     };
     return;
 }

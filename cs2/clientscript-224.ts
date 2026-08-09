@@ -32,8 +32,7 @@ function script224(): void {
     IF_SETSCROLLPOS(0, 0, comp(594, 12));
     var int13 = -1;
     while ((int7 <= int1)) {
-        stack(unk11059(int7));
-        [int3, string2, int4, string3, string4, string5, string6, int5, string7, int6, int13] = stack();
+        [int3, string2, int4, string3, string4, string5, string6, int5, string7, int6, int13] = unk11059(int7);
         switch (int3) {
             case 0:
             case 4:
@@ -60,45 +59,61 @@ function script224(): void {
             default: {
                 if (((strcmp(string3, "") != 0) && (strcmp(string7, "") != 0))) {
                     string1 = REMOVETAGS(string4);
-                    if (((int3 != 6) && (int3 != 19))) {
-                        if ((((int3 == 41) || (int3 == 44)) || (int3 == 9))) {
-                            if ((((strcmp(string0, string1) != 0) && (int3 != 6)) && (int3 != 19))) {
-                                int10 = 0;
-                                stack(PUSH_CONSTANT_INT[16]("<col=", int10));
-                                stack(inttostring());
-                                stack(">[</col><col=0000FF>");
-                                stack(string6);
-                                stack(PUSH_CONSTANT_INT[16]("</col><col=", int10));
-                                string8 = `${stack()}${inttostring()}>]${string3}: ${string7}`;
+                    if ((int3 != 6)) {
+                        if ((int3 != 19)) {
+                            if ((((int3 == 41) || (int3 == 44)) || (int3 == 9))) {
+                                if ((strcmp(string0, string1) != 0)) {
+                                    if ((int3 != 6)) {
+                                        if ((int3 != 19)) {
+                                            int10 = 0;
+                                            string8 = `${inttostring(PUSH_CONSTANT_INT[16]("<col=", int10))}>[</col><col=0000FF>${string6}${inttostring(PUSH_CONSTANT_INT[16]("</col><col=", int10))}>]${string3}: ${string7}`;
+                                        } else {
+                                            int10 = 7829367;
+                                            string8 = `${inttostring(PUSH_CONSTANT_INT[16]("<col=", int10))}>[${string6}]${string3}: ${string7}`;
+                                        };
+                                    } else {
+                                        int10 = 7829367;
+                                        string8 = `${inttostring(PUSH_CONSTANT_INT[16]("<col=", int10))}>[${string6}]${string3}: ${string7}`;
+                                    };
+                                } else {
+                                    int10 = 7829367;
+                                    string8 = `${inttostring(PUSH_CONSTANT_INT[16]("<col=", int10))}>[${string6}]${string3}: ${string7}`;
+                                };
                             } else {
-                                int10 = 7829367;
-                                stack(PUSH_CONSTANT_INT[16]("<col=", int10));
-                                string8 = `${stack()}${inttostring()}>[${string6}]${string3}: ${string7}`;
+                                string8 = ` ${string3}: ${string7}`;
                             };
                         } else {
-                            string8 = ` ${string3}: ${string7}`;
+                            string8 = `To ${string3}: ${string7}`;
                         };
                     } else {
                         string8 = `To ${string3}: ${string7}`;
                     };
                     int9 = PARAHEIGHT(string8, (IF_GETWIDTH(comp(594, 12)) - 5), 26 as fontmetrics);
-                    if ((((strcmp(REMOVETAGS(string3), CHAT_PLAYERNAME()) != 0) && (int3 != 6)) && (int3 != 19))) {
-                        int12 = 1;
-                        CC_CREATE(comp(594, 11), 3, IF_GETNEXTSUBID(comp(594, 11)));
-                        CC_SETPOSITION(0, ((int8 * 15) + 2), 0, 0);
-                        CC_SETSIZE(456, (int9 * 15), 0, 0);
-                        CC_SETCOLOUR(6579300);
-                        CC_SETTRANS(255);
-                        CC_SETFILL(1);
-                        CC_SETONMOUSEOVER(callback(script237, -2147483643));
-                        CC_SETONMOUSELEAVE(callback(script238, -2147483643));
-                        int11 = IF_GETNEXTSUBID(38928394);
-                        CC_CREATE(38928394, 3, int11);
-                        CC_SETPOSITION(0, ((int8 * 15) + 2), 0, 0);
-                        CC_SETSIZE(456, (int9 * 15), 0, 0);
-                        CC_SETCOLOUR(0);
-                        CC_SETTRANS(255);
-                        CC_SETFILL(1);
+                    if ((strcmp(REMOVETAGS(string3), CHAT_PLAYERNAME()) != 0)) {
+                        if ((int3 != 6)) {
+                            if ((int3 != 19)) {
+                                int12 = 1;
+                                CC_CREATE(comp(594, 11), 3, IF_GETNEXTSUBID(comp(594, 11)));
+                                CC_SETPOSITION(0, ((int8 * 15) + 2), 0, 0);
+                                CC_SETSIZE(456, (int9 * 15), 0, 0);
+                                CC_SETCOLOUR(6579300);
+                                CC_SETTRANS(255);
+                                CC_SETFILL(1);
+                                CC_SETONMOUSEOVER(callback(script237, -2147483643));
+                                CC_SETONMOUSELEAVE(callback(script238, -2147483643));
+                                int11 = IF_GETNEXTSUBID(comp(594, 10));
+                                CC_CREATE(comp(594, 10), 3, int11);
+                                CC_SETPOSITION(0, ((int8 * 15) + 2), 0, 0);
+                                CC_SETSIZE(456, (int9 * 15), 0, 0);
+                                CC_SETCOLOUR(0);
+                                CC_SETTRANS(255);
+                                CC_SETFILL(1);
+                            } else {
+                                int11 = -1;
+                            };
+                        } else {
+                            int11 = -1;
+                        };
                     } else {
                         int11 = -1;
                     };

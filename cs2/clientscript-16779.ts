@@ -5,7 +5,7 @@ function script16779(int0: number): void {
     };
     varclient_7076 = true;
     var int1 = 0;
-    var int2 = -1 as dbrow;
+    var int2 = -1;
     var int3 = comp(-1, 65535);
     var int4 = -1;
     switch (int0) {

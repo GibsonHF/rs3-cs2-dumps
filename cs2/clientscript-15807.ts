@@ -8,6 +8,7 @@ function script15807(int0: number): string {
             return "Cancel";
         }
         case 55836694: {
+            break;
         }
         default: {
             return "";

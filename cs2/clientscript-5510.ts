@@ -1,6 +1,6 @@
 //
 function script5510(int0: number, int1: number, int2: number): void {
-    if (((int0 == comp(-1, 65535)) || (int1 == -1 as struct))) {
+    if (((int0 == comp(-1, 65535)) || (int1 == -1))) {
         return;
     };
     IF_SETONVARTRANSMIT(callback(script9971, int0, int2, 3814, 1), int0);
@@ -10,23 +10,23 @@ function script5510(int0: number, int1: number, int2: number): void {
     if ((varbitplayer_22875 == 1)) {
         switch (int1) {
             case 21364: {
-                var int1 = 40039 as struct;
+                var int1 = 40039;
                 break;
             }
             case 21365: {
-                int1 = 40040 as struct;
+                int1 = 40040;
                 break;
             }
             case 21366: {
-                int1 = 40041 as struct;
+                int1 = 40041;
                 break;
             }
             case 21367: {
-                int1 = 40042 as struct;
+                int1 = 40042;
                 break;
             }
             case 21368: {
-                int1 = 40043 as struct;
+                int1 = 40043;
                 break;
             }
         };

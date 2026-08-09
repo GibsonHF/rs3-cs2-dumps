@@ -1,16 +1,16 @@
 //
 function script20365(int0: number): [number, number] {
-    var int1 = -1 as obj;
+    var int1 = -1;
     var int2 = 0;
-    var int3 = -1 as dbrow;
-    var int4 = 17179 as dbrow;
-    var int5 = 17176 as dbrow;
-    var int6 = 17179 as dbrow;
-    var int7 = 17176 as dbrow;
-    var int8 = 17179 as dbrow;
-    var int9 = 17176 as dbrow;
-    var int10 = 17179 as dbrow;
-    var int11 = 17182 as dbrow;
+    var int3 = -1;
+    var int4 = 17179;
+    var int5 = 17176;
+    var int6 = 17179;
+    var int7 = 17176;
+    var int8 = 17179;
+    var int9 = 17176;
+    var int10 = 17179;
+    var int11 = 17182;
     switch (int0) {
         case 1: {
             int3 = int4;

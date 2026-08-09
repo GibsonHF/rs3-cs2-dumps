@@ -8,17 +8,41 @@ function script17493(int0: number, int1: number, int2: number, int3: number): st
     var string1 = item_getparam(int1, 8943);
     var string2 = "";
     if ((int6 > 0)) {
-        if (((((int7 > 0) && (int5 < int7)) || (int7 == 0)) || ((int6 > 0) && (int4 >= int6)))) {
+        if ((int7 > 0)) {
+            if (((int5 < int7) || (int7 == 0))) {
+                string2 = strconcat(string2, `${inttostring(int4, 10)} / ${inttostring(int6, 10)} ${string0} ${script4583(int6, "soul", "souls")}`);
+            } else if (((int6 > 0) && (int4 >= int6))) {
+                string2 = strconcat(string2, `${inttostring(int4, 10)} / ${inttostring(int6, 10)} ${string0} ${script4583(int6, "soul", "souls")}`);
+            };
+        } else if ((int7 == 0)) {
+            string2 = strconcat(string2, `${inttostring(int4, 10)} / ${inttostring(int6, 10)} ${string0} ${script4583(int6, "soul", "souls")}`);
+        } else if (((int6 > 0) && (int4 >= int6))) {
             string2 = strconcat(string2, `${inttostring(int4, 10)} / ${inttostring(int6, 10)} ${string0} ${script4583(int6, "soul", "souls")}`);
         };
     } else if (((int6 > 0) && (int4 >= int6))) {
         string2 = strconcat(string2, `${inttostring(int4, 10)} / ${inttostring(int6, 10)} ${string0} ${script4583(int6, "soul", "souls")}`);
     };
-    if ((((int6 > 0) && (int7 > 0)) && (((int4 < int6) && (int5 < int7)) || ((int4 >= int6) && (int5 >= int7))))) {
-        string2 = strconcat(string2, "<br>");
+    if (((int6 > 0) && (int7 > 0))) {
+        if ((int4 < int6)) {
+            if ((int5 < int7)) {
+                string2 = strconcat(string2, "<br>");
+            } else if (((int4 >= int6) && (int5 >= int7))) {
+                string2 = strconcat(string2, "<br>");
+            };
+        } else if (((int4 >= int6) && (int5 >= int7))) {
+            string2 = strconcat(string2, "<br>");
+        };
     };
     if ((int7 > 0)) {
-        if (((((int6 > 0) && (int4 < int6)) || (int6 == 0)) || ((int7 > 0) && (int5 >= int7)))) {
+        if ((int6 > 0)) {
+            if (((int4 < int6) || (int6 == 0))) {
+                string2 = strconcat(string2, `${inttostring(int5, 10)} / ${inttostring(int7, 10)} ${string1} ${script4583(int7, "soul", "souls")}`);
+            } else if (((int7 > 0) && (int5 >= int7))) {
+                string2 = strconcat(string2, `${inttostring(int5, 10)} / ${inttostring(int7, 10)} ${string1} ${script4583(int7, "soul", "souls")}`);
+            };
+        } else if ((int6 == 0)) {
+            string2 = strconcat(string2, `${inttostring(int5, 10)} / ${inttostring(int7, 10)} ${string1} ${script4583(int7, "soul", "souls")}`);
+        } else if (((int7 > 0) && (int5 >= int7))) {
             string2 = strconcat(string2, `${inttostring(int5, 10)} / ${inttostring(int7, 10)} ${string1} ${script4583(int7, "soul", "souls")}`);
         };
     } else if (((int7 > 0) && (int5 >= int7))) {
@@ -28,8 +52,16 @@ function script17493(int0: number, int1: number, int2: number, int3: number): st
         string2 = strconcat(string2, `${inttostring(int4, 10)} ${string0} ${script4583(int4, "soul", "souls")}`);
         string2 = strconcat(string2, `<br>${inttostring(int5, 10)} ${string1} ${script4583(int5, "soul", "souls")}`);
     };
-    if (((int3 == 1) && (((int6 > 0) && (int4 >= int6)) || ((int7 > 0) && (int5 >= int7))))) {
-        string2 = strconcat(string2, "<br><col=EB2F2F>This soul urn is full.");
+    if ((int3 == 1)) {
+        if ((int6 > 0)) {
+            if ((int4 >= int6)) {
+                string2 = strconcat(string2, "<br><col=EB2F2F>This soul urn is full.");
+            } else if (((int7 > 0) && (int5 >= int7))) {
+                string2 = strconcat(string2, "<br><col=EB2F2F>This soul urn is full.");
+            };
+        } else if (((int7 > 0) && (int5 >= int7))) {
+            string2 = strconcat(string2, "<br><col=EB2F2F>This soul urn is full.");
+        };
     };
     return string2;
 }

@@ -8,7 +8,8 @@ function script17798(int0: number, int1: number, int2: number): number {
     var int7 = 19716;
     var int8 = -1;
     if ((int3 > 0)) {
-        while ((++int8 < int3)) {
+        int8 = (int8 + 1);
+        while ((int8 < int3)) {
             int4 = script17508(int0, int8);
             string0 = strconcat(string0, script17496(int4));
             if ((int4 == varplayer_11130)) {

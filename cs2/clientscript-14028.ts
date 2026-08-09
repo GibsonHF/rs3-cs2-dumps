@@ -10,7 +10,8 @@ function script14028(): void {
     var string3 = "";
     var int3 = script3864();
     var int4 = 3;
-    while ((++int1 < 5)) {
+    int1 = (int1 + 1);
+    while ((int1 < 5)) {
         switch (int1) {
             case 0: {
                 string0 = "Easy Treasure Trails";

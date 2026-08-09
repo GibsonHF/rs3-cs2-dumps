@@ -26,7 +26,9 @@ function script9765(int0: number): number {
             return 2;
         }
         case 6: {
-            if (((varbitplayer_66 == 20) || ((varbitplayer_58466 == 1) && (varplayer_2262 == 10)))) {
+            if ((varbitplayer_66 == 20)) {
+                return 1;
+            } else if (((varbitplayer_58466 == 1) && (varplayer_2262 == 10))) {
                 return 1;
             };
             return 2;

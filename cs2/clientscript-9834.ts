@@ -13,12 +13,12 @@ function script9834(): void {
         script9842();
     } else {
         IF_SETONTIMER(callback(), comp(200, 69));
-        IF_SETHIDE(1, 88473609);
-        IF_SETHIDE(1, 88473610);
-        IF_SETHIDE(1, 88473634);
-        IF_SETHIDE(1, 88473642);
-        IF_SETHIDE(1, 88473650);
-        IF_SETHIDE(1, 88473658);
+        IF_SETHIDE(true, comp(1350, 9));
+        IF_SETHIDE(true, comp(1350, 10));
+        IF_SETHIDE(true, comp(1350, 34));
+        IF_SETHIDE(true, comp(1350, 42));
+        IF_SETHIDE(true, comp(1350, 50));
+        IF_SETHIDE(true, comp(1350, 58));
     };
     return;
 }

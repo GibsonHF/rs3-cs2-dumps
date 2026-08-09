@@ -28,7 +28,7 @@ function script10327(int0: number, int1: number): void {
     var int18 = IF_GETWIDTH(int3);
     var int19 = script10285(varplayergroup_16);
     if ((int16 != -1)) {
-        if (operator("==", PLAYER_GROUP_GET_OWNER_SLOT(int16))) {
+        if (BRANCH_EQUALS(PLAYER_GROUP_GET_OWNER_SLOT(int16))) {
             int15 = script10329(int15, int0, int7);
             int15 = script10329(int15, int0, int6);
             int15 = script10329(int15, int0, int13);
@@ -36,8 +36,16 @@ function script10327(int0: number, int1: number): void {
                 int15 = script10329(int15, int0, int12);
             };
             if ((int19 != -1)) {
-                if ((((struct_getparam(int19, 4655) == true) && (PLAYER_GROUP_MEMBER_GET_STATUS(int16) == 1)) && (PLAYER_GROUP_MEMBER_COUNT() >= struct_getparam(int19, 4500)))) {
-                    int15 = script10329(int15, int0, int9);
+                if ((struct_getparam(int19, 4655) == true)) {
+                    if ((PLAYER_GROUP_MEMBER_GET_STATUS(int16) == 1)) {
+                        if ((PLAYER_GROUP_MEMBER_COUNT() >= struct_getparam(int19, 4500))) {
+                            int15 = script10329(int15, int0, int9);
+                        } else if (((((PLAYER_GROUP_GET_OVERALL_STATUS() == 1) && (PLAYER_GROUP_MEMBER_COUNT() >= struct_getparam(int19, 4500))) && (struct_getparam(int19, 4506) != -1 as coordgrid)) && (varplayergroup_16 != 999999))) {
+                            int15 = script10329(int15, int0, int9);
+                        };
+                    } else if (((((PLAYER_GROUP_GET_OVERALL_STATUS() == 1) && (PLAYER_GROUP_MEMBER_COUNT() >= struct_getparam(int19, 4500))) && (struct_getparam(int19, 4506) != -1 as coordgrid)) && (varplayergroup_16 != 999999))) {
+                        int15 = script10329(int15, int0, int9);
+                    };
                 } else if (((((PLAYER_GROUP_GET_OVERALL_STATUS() == 1) && (PLAYER_GROUP_MEMBER_COUNT() >= struct_getparam(int19, 4500))) && (struct_getparam(int19, 4506) != -1 as coordgrid)) && (varplayergroup_16 != 999999))) {
                     int15 = script10329(int15, int0, int9);
                 };

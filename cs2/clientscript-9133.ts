@@ -86,6 +86,7 @@ function script9133(int0: number): string {
             return script17016();
         }
         case 3087: {
+            break;
         }
         default: {
             return "";

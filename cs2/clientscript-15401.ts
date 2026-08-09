@@ -1,8 +1,8 @@
 //
 function script15401(int0: number, int1: number): void {
     var int2 = -1;
-    var int3 = -1 as loc;
-    var int4 = -1 as obj;
+    var int3 = -1;
+    var int4 = -1;
     var int5 = comp(-1, 65535);
     int5 = enum_getvalue(0, 9, 16105 as cs2enum, int1);
     switch (int1) {

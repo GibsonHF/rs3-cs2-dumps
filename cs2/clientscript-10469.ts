@@ -4,7 +4,7 @@ function script10469(int0: number, int1: number, int2: number, int3: number, int
         return [int1, int3];
     };
     var string0 = "";
-    var int9 = -1;
+    var int9 = -1 as graphic;
     var int10 = MAX(0, ((int3 + int5) - 8));
     var int11 = MAX(0, MIN(100, SCALE(int6, int7, 100)));
     if ((int5 < 20)) {
@@ -12,42 +12,34 @@ function script10469(int0: number, int1: number, int2: number, int3: number, int
     };
     switch (int8) {
         case 16711680: {
-            stack(18375);
-            stack("Life Points");
-            [int9, string0] = stack();
+            [int9, string0] = [18375 as graphic, "Life Points"];
             break;
         }
         case 16776960: {
-            stack(18374);
-            stack("Adrenaline");
-            [int9, string0] = stack();
+            [int9, string0] = [18374 as graphic, "Adrenaline"];
             break;
         }
         case 65535: {
-            stack(18376);
-            stack("Summoning Points");
-            [int9, string0] = stack();
+            [int9, string0] = [18376 as graphic, "Summoning Points"];
             break;
         }
         case 65280: {
-            stack(14678);
-            stack("Familiar spell points");
-            [int9, string0] = stack();
+            [int9, string0] = [14678 as graphic, "Familiar spell points"];
             break;
         }
         case 255: {
-            stack(18377);
-            stack("Prayer Points");
-            [int9, string0] = stack();
+            [int9, string0] = [18377 as graphic, "Prayer Points"];
             break;
         }
         default: {
             return [int1, int3];
         }
     };
-    if (((varbitplayer_22875 == 1) && ((int8 == 16711680) || (int8 == 255)))) {
-        var int6 = (int6 / 10);
-        var int7 = (int7 / 10);
+    if ((varbitplayer_22875 == 1)) {
+        if (((int8 == 16711680) || (int8 == 255))) {
+            var int6 = (int6 / 10);
+            var int7 = (int7 / 10);
+        };
     };
     CC_CREATE(int0, 5, int1);
     CC_SETGRAPHIC(18368 as graphic);
@@ -62,7 +54,7 @@ function script10469(int0: number, int1: number, int2: number, int3: number, int
     CC_SETONMOUSELEAVE(callback(script8805));
     int1 = (int1 + 1);
     CC_CREATE(int0, 5, int1);
-    CC_SETGRAPHIC(18370);
+    CC_SETGRAPHIC(18370 as graphic);
     CC_SETPOSITION(((int2 + int4) - 16), int10, 0, 0);
     CC_SETSIZE(16, 8, 0, 0);
     int1 = (int1 + 1);
@@ -72,17 +64,17 @@ function script10469(int0: number, int1: number, int2: number, int3: number, int
     CC_SETSIZE(MAX(0, SCALE(int11, 100, (int4 - 4))), 4, 0, 0);
     int1 = (int1 + 1);
     CC_CREATE(int0, 5, int1);
-    CC_SETGRAPHIC(18371);
+    CC_SETGRAPHIC(18371 as graphic);
     CC_SETPOSITION(int2, int10, 0, 0);
     CC_SETSIZE(16, 8, 0, 0);
     int1 = (int1 + 1);
     CC_CREATE(int0, 5, int1);
-    CC_SETGRAPHIC(18372);
+    CC_SETGRAPHIC(18372 as graphic);
     CC_SETPOSITION((int2 + 16), int10, 0, 0);
     CC_SETSIZE((int4 - (2 * 16)), 8, 0, 0);
     int1 = (int1 + 1);
     CC_CREATE(int0, 5, int1);
-    CC_SETGRAPHIC(18373);
+    CC_SETGRAPHIC(18373 as graphic);
     CC_SETPOSITION(((int2 + int4) - 16), int10, 0, 0);
     CC_SETSIZE(16, 8, 0, 0);
     int1 = (int1 + 1);

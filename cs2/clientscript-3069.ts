@@ -61,7 +61,8 @@ function script3069(int0: number, int1: number, int2: number): void {
         CC_SETOP(1, "Select");
         CC_SETONOP(callback(script3082, int3, int0, int1, int13));
         int8 = (int8 + 1);
-        if (((++int10 + 35) > 186)) {
+        int10 = (int10 + 35);
+        if (((int10 + 35) > 186)) {
             int10 = 8;
             int11 = (int11 + 35);
         };

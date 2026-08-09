@@ -16,7 +16,7 @@ function script13706(): void {
                 IF_SETHIDE(true, enum_getvalue(0, 9, 13214 as cs2enum, int1));
                 IF_SETHIDE(false, enum_getvalue(0, 9, 13215 as cs2enum, int1));
             };
-            IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -1), enum_getvalue(0, 9, 13211, int1));
+            IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -1), enum_getvalue(0, 9, 13211 as cs2enum, int1));
         } else if ((varplayer_3079 < int0)) {
             string0 = "This element has not been unlocked yet. Come back later.";
             if ((varbitplayer_38438 == 1)) {
@@ -24,23 +24,23 @@ function script13706(): void {
                 IF_SETHIDE(true, enum_getvalue(0, 9, 13214 as cs2enum, int1));
                 IF_SETHIDE(true, enum_getvalue(0, 9, 13213 as cs2enum, int1));
                 IF_SETHIDE(true, enum_getvalue(0, 9, 13215 as cs2enum, int1));
-                IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -1), enum_getvalue(0, 9, 13212, int1));
+                IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -1), enum_getvalue(0, 9, 13212 as cs2enum, int1));
             } else {
                 IF_SETHIDE(false, enum_getvalue(0, 9, 13213 as cs2enum, int1));
                 IF_SETHIDE(true, enum_getvalue(0, 9, 13215 as cs2enum, int1));
                 IF_SETHIDE(true, enum_getvalue(0, 9, 13212 as cs2enum, int1));
                 IF_SETHIDE(true, enum_getvalue(0, 9, 13214 as cs2enum, int1));
-                IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -1), enum_getvalue(0, 9, 13213, int1));
+                IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -1), enum_getvalue(0, 9, 13213 as cs2enum, int1));
             };
         } else if ((varbitplayer_38438 == 1)) {
             string0 = enum_getvalue(0, 36, 13216 as cs2enum, int1);
-            IF_SETHIDE(false, enum_getvalue(0, 9, 13214 as cs2enum, int1));
-            IF_SETHIDE(true, enum_getvalue(0, 9, 13215 as cs2enum, int1));
+            IF_SETHIDE(false, enum_getvalue(0, 9, 13214, int1));
+            IF_SETHIDE(true, enum_getvalue(0, 9, 13215, int1));
             IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -1), enum_getvalue(0, 9, 13214, int1));
         } else {
-            string0 = enum_getvalue(0, 36, 13217 as cs2enum, int1);
-            IF_SETHIDE(false, enum_getvalue(0, 9, 13215 as cs2enum, int1));
-            IF_SETHIDE(true, enum_getvalue(0, 9, 13214 as cs2enum, int1));
+            string0 = enum_getvalue(0, 36, 13217, int1);
+            IF_SETHIDE(false, enum_getvalue(0, 9, 13215, int1));
+            IF_SETHIDE(true, enum_getvalue(0, 9, 13214, int1));
             IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -1), enum_getvalue(0, 9, 13215, int1));
         };
         string0 = "You have already completed this element of the bar crawl.";

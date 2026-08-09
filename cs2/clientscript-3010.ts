@@ -2,8 +2,8 @@
 function script3010(int0: number, int1: number): void {
     if ((int0 == 1)) {
         CAM2_GETPOSITIONPOINT_POINT();
-        MOVECOORD_FINE(stack(), 0, 0, 256, 0);
-        CAM2_SETPOSITIONPOINT_POINT(stack());
+        MOVECOORD_FINE(0, 0, 256, 0);
+        CAM2_SETPOSITIONPOINT_POINT();
         IF_SETONTIMER(callback(), int1);
     } else {
         IF_SETONTIMER(callback(script3010, (int0 + 1), int1), int1);

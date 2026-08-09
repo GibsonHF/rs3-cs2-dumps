@@ -29,8 +29,8 @@ function script8878(): [number, number, number] {
             script7794(97583121, 21361);
         };
         IF_SETONMOUSEREPEAT(callback(script8879), comp(1488, 3));
-        IF_SETHIDE(1, 97583107);
-        IF_SETONTIMER(callback(script9165), 97517571);
+        IF_SETHIDE(true, comp(1489, 3));
+        IF_SETONTIMER(callback(script9165), comp(1488, 3));
     };
     return [int6, int7, int5];
 }

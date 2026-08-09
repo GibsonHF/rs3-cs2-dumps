@@ -4,9 +4,13 @@ function script9270(int0: number, int1: number, int2: number, int3: number, int4
     var int7 = 0;
     var int8 = INV_GETOBJ(int6, int2);
     if ((int8 == -1 as obj)) {
-        if (((int2 == 1) && (INV_GETOBJ(int6, 2) != -1 as obj))) {
-            var int2 = 2;
-            int8 = INV_GETOBJ(int6, int2);
+        if ((int2 == 1)) {
+            if ((INV_GETOBJ(int6, 2) != -1 as obj)) {
+                var int2 = 2;
+                int8 = INV_GETOBJ(int6, int2);
+            } else {
+                return;
+            };
         } else {
             return;
         };

@@ -8,5 +8,6 @@ function script7801(int0: number, int1: number, int2: number, int3: number, int4
     CC_SETTEXTFONT(int11);
     CC_SETTEXTALIGN(int12, int13, int14);
     CC_SETTEXTSHADOW(int15);
-    return ++int1;
+    var int1 = (int1 + 1);
+    return int1;
 }

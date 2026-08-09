@@ -32,7 +32,8 @@ function script15306(): void {
     var int4 = -1 as npc;
     var int5 = -1 as struct;
     var int6 = -1 as obj;
-    while ((++int0 <= int1)) {
+    int0 = (int0 + 1);
+    while ((int0 <= int1)) {
         int2 = script15302(int0);
         int3 = script15303(int0);
         if ((int2 > 0)) {

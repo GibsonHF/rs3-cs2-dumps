@@ -2,16 +2,16 @@
 function script18265(int0: number, int1: number): void {
     var int2 = enum_getvalue(17, 0, 1482 as cs2enum, int1);
     var int3 = script15772(int1);
-    var int4 = 3495 as cs2enum;
+    var int4 = 3495;
     if ((int3 == 1)) {
-        int4 = 371 as cs2enum;
+        int4 = 371;
     };
     CC_DELETEALL(int0);
     CC_CREATE(int0, 5, 0);
     CC_SETSIZE(0, 0, 1, 1);
     CC_SETPOSITION(0, 0, 1, 1);
-    var int5 = 10203 as graphic;
-    var int6 = 10205 as graphic;
+    var int5 = 10203;
+    var int6 = 10205;
     var int7 = 1908;
     var int8 = 10204;
     var string0 = `You haven't reached the maximum level in ${enum_getvalue(17, 36, 680 as cs2enum, int1)}.`;
@@ -20,16 +20,16 @@ function script18265(int0: number, int1: number): void {
             if ((int2 == 1)) {
                 string0 = "You will currently not receive combat challenges.";
             } else {
-                string0 = `You will currently not receive ${enum_getvalue(17, 36, 680 as cs2enum, int1)} challenges.`;
+                string0 = `You will currently not receive ${enum_getvalue(17, 36, 680, int1)} challenges.`;
             };
         } else if ((int2 == 1)) {
             string0 = "You will currently receive combat challenges.";
         } else {
-            string0 = `You will currently receive ${enum_getvalue(17, 36, 680 as cs2enum, int1)} challenges.`;
+            string0 = `You will currently receive ${enum_getvalue(17, 36, 680, int1)} challenges.`;
         };
         CC_SETGRAPHIC(int5);
         CC_SETOP(1, "Choose");
-        CC_SETOPBASE(enum_getvalue(17, 36, 680 as cs2enum, int1));
+        CC_SETOPBASE(enum_getvalue(17, 36, 680, int1));
         CC_SETONOP(callback(script18266, int1, int0));
         CC_SETONMOUSEOVER(callback(script688, -2147483645, -2147483643, int8));
         CC_SETONMOUSELEAVE(callback(script688, -2147483645, -2147483643, int5));
@@ -37,7 +37,7 @@ function script18265(int0: number, int1: number): void {
         CC_SETGRAPHIC(int6);
         if ((script6431() == 1)) {
             CC_SETOP(1, "Choose");
-            CC_SETOPBASE(enum_getvalue(17, 36, 680 as cs2enum, int1));
+            CC_SETOPBASE(enum_getvalue(17, 36, 680, int1));
         };
         if ((int2 == 1)) {
             string0 = "You haven't reached the maximum level in all your combat skills.";

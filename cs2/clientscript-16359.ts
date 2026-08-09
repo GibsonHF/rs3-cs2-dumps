@@ -1,11 +1,12 @@
 //
 function script16359(): void {
-    var int0 = -1 as dbrow;
+    var int0 = -1;
     var int1 = comp(-1, 65535);
     var int2 = 0;
     var int3 = 0;
     var int4 = comp(-1, 65535);
-    while ((++int2 <= 3)) {
+    int2 = (int2 + 1);
+    while ((int2 <= 3)) {
         switch (int2) {
             case 1: {
                 int0 = script438(varbitplayer_29986);

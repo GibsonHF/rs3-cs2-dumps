@@ -4,14 +4,14 @@ function script1252(int0: number, int1: number, int2: number): void {
         return;
     };
     var int3 = 4194354;
-    var int4 = comp(64, 51);
+    var int4 = 4194355;
     var int5 = 4194356;
     switch (int0) {
         case 13: {
             return;
         }
         case 84: {
-            varclient_1412 = true;
+            varclient_1412 = 1;
             return;
         }
         case 96:

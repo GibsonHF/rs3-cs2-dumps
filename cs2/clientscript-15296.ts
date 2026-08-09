@@ -1,6 +1,6 @@
 //
 function script15296(int0: number, int1: number): void {
-    if (((int0 == -1 as dbrow) || (int1 == comp(-1, 65535)))) {
+    if (((int0 == -1) || (int1 == -1))) {
         return;
     };
     var int2 = -1;
@@ -10,12 +10,12 @@ function script15296(int0: number, int1: number): void {
     var string0 = "";
     var string1 = "";
     var int5 = 0;
-    var int6 = -1 as obj;
+    var int6 = -1;
     var int7 = 0;
     var int8 = 16777215;
-    while ((++int2 < 7)) {
-        stack(dbrow_getfield(int0, 471040, script13408(int2)));
-        [string0, string1, int5, int6, int7] = stack();
+    int2 = (int2 + 1);
+    while ((int2 < 7)) {
+        [string0, string1, int5, int6, int7] = dbrow_getfield(int0, 471040, script13408(int2));
         CC_CREATE(int1, 4, int4);
         CC_SETOP(1, "Select");
         CC_SETONOP(callback(script15297, -2147483643, 1));

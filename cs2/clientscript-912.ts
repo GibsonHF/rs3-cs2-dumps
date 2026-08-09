@@ -7,19 +7,19 @@ function script912(int0: number): string {
     switch (varclient_746) {
         case 0: {
             if ((item_getparam(int0, 1047) != 1)) {
-                return `<br>${enum_getvalue(0, 36, 1437 as cs2enum, item_getparam(int0, 23))}`;
+                return `<br>${enum_getvalue(0, 36, 1437, item_getparam(int0, 23))}`;
             };
             break;
         }
         case 1: {
-            return `<br>${enum_getvalue(0, 36, 1439 as cs2enum, item_getparam(int0, 23))}`;
+            return `<br>${enum_getvalue(0, 36, 1439, item_getparam(int0, 23))}`;
         }
         case 2:
         case 5: {
-            return `<br>${enum_getvalue(0, 36, 1436 as cs2enum, item_getparam(int0, 23))}`;
+            return `<br>${enum_getvalue(0, 36, 1436, item_getparam(int0, 23))}`;
         }
         case 3: {
-            return `<br>${enum_getvalue(0, 36, 1438 as cs2enum, item_getparam(int0, 23))}`;
+            return `<br>${enum_getvalue(0, 36, 1438, item_getparam(int0, 23))}`;
         }
         case 4: {
             return "<br>Requires an ogre composite bow.";

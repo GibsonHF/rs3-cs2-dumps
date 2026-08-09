@@ -5,7 +5,9 @@ function script19633(int0: number): number {
             return script19316();
         }
         case 46: {
-            if ((((script19316() == 0) || (varbitplayer_27169 == 1)) || ((varbitplayer_38842 == 0) && (varbitplayer_60441 == 1)))) {
+            if (((script19316() == 0) || (varbitplayer_27169 == 1))) {
+                return 0;
+            } else if (((varbitplayer_38842 == 0) && (varbitplayer_60441 == 1))) {
                 return 0;
             };
             return 1;
@@ -16,7 +18,9 @@ function script19633(int0: number): number {
         case 22:
         case 23:
         case 25: {
-            if (((varbitplayer_27169 == 1) || ((varbitplayer_38842 == 0) && (varbitplayer_60441 == 1)))) {
+            if ((varbitplayer_27169 == 1)) {
+                return 0;
+            } else if (((varbitplayer_38842 == 0) && (varbitplayer_60441 == 1))) {
                 return 0;
             };
             return 1;

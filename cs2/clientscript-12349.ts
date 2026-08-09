@@ -5,7 +5,7 @@ function script12349(): void {
     int0 = 1;
     while ((int0 <= 138)) {
         int1 = script7988(int0);
-        UNKNOWN_COMMAND_120(93716541, int1, 0);
+        IF_ADDGRAPHIC(93716541, int1, 0);
         int0 = (int0 + 1);
     };
     return;

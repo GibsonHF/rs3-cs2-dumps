@@ -6,8 +6,12 @@ function script3109(int0: number, int1: number, int2: number): string {
         string1 = "Gain access to the Fairy Ring network by completing the quest:<br>'Fairy Tale II - Cure a Queen'";
     } else if ((int0 == 500)) {
         string1 = "";
-    } else if (((int0 == 330) && (varbitplayer_52991 < 2))) {
-        string1 = `Requires tier ${inttostring(2, 10)} Grove Cabin.`;
+    } else if ((int0 == 330)) {
+        if ((varbitplayer_52991 < 2)) {
+            string1 = `Requires tier ${inttostring(2, 10)} Grove Cabin.`;
+        } else if (((script3104(int0) == 1) && (script3101(int0) == 1))) {
+            string1 = `Code: ${enum_getvalue(0, 36, 15117 as cs2enum, int0)}`;
+        };
     } else if (((script3104(int0) == 1) && (script3101(int0) == 1))) {
         string1 = `Code: ${enum_getvalue(0, 36, 15117 as cs2enum, int0)}`;
     };

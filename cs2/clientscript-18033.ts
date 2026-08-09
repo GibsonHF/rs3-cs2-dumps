@@ -21,9 +21,14 @@ function script18033(int0: number): void {
             }
             default: {
                 if ((int2 >= (int3 - 1))) {
-                    if (((script14335(varplayer_11339) == 1) && (script18019(1) == int1))) {
-                        int4 = script18018(1);
-                        int5 = 0;
+                    if ((script14335(varplayer_11339) == 1)) {
+                        if ((script18019(1) == int1)) {
+                            int4 = script18018(1);
+                            int5 = 0;
+                        } else {
+                            int4 = (int4 + 1);
+                            int5 = 0;
+                        };
                     } else {
                         int4 = (int4 + 1);
                         int5 = 0;

@@ -3,7 +3,7 @@ function script7113(int0: number): number {
     var int1 = item_getparam(int0, 2650);
     var int2 = item_getparam(int0, 2990);
     var int3 = 1;
-    while (((int1 != -1 as obj) || (int2 != -1 as struct))) {
+    while ((int1 != -1 as obj)) {
         if ((int2 != -1 as struct)) {
             if ((script7114(int2) == 0)) {
                 return 0;
@@ -11,7 +11,8 @@ function script7113(int0: number): number {
         } else if ((script7089(int1) == 0)) {
             return 0;
         };
-        switch (++int3) {
+        int3 = (int3 + 1);
+        switch (int3) {
             case 2: {
                 int1 = item_getparam(int0, 2651);
                 int2 = item_getparam(int0, 2991);

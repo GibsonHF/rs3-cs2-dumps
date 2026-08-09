@@ -14,8 +14,32 @@ function script19515(): void {
             };
             int2 = INV_GETNUM(963 as inv, int0);
             int3 = CC_GETINVCOUNT();
-            if (((int1 != CC_GETINVOBJECT()) || (((int3 == 0) && (int2 > 0)) || ((int2 == 0) && (int3 > 0))))) {
+            if ((int1 != CC_GETINVOBJECT())) {
                 script19540(string0, string1, int1, int2);
+            } else if ((int3 == 0)) {
+                if ((int2 > 0)) {
+                    script19540(string0, string1, int1, int2);
+                } else if ((int2 == 0)) {
+                    if ((int3 > 0)) {
+                        script19540(string0, string1, int1, int2);
+                    } else if ((int1 == 48447 as obj)) {
+                        CC_SETOBJECT_NONUM(48447 as obj, 0);
+                    } else {
+                        CC_SETOBJECT(int1, int2);
+                    };
+                } else if ((int1 == 48447 as obj)) {
+                    CC_SETOBJECT_NONUM(48447 as obj, 0);
+                } else {
+                    CC_SETOBJECT(int1, int2);
+                };
+            } else if ((int2 == 0)) {
+                if ((int3 > 0)) {
+                    script19540(string0, string1, int1, int2);
+                } else if ((int1 == 48447 as obj)) {
+                    CC_SETOBJECT_NONUM(48447 as obj, 0);
+                } else {
+                    CC_SETOBJECT(int1, int2);
+                };
             } else if ((int1 == 48447 as obj)) {
                 CC_SETOBJECT_NONUM(48447 as obj, 0);
             } else {

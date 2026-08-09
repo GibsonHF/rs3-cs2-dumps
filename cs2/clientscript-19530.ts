@@ -12,7 +12,7 @@ function script19530(int0: number): void {
     CC_CREATE(comp(1313, 78), 4, int0);
     CC_SETONMOUSEOVER(callback(script19549, -2147483645, -2147483643, 1));
     CC_SETONMOUSELEAVE(callback(script19549, -2147483645, -2147483643, 0));
-    CC_CREATE(86048847, 4, int0);
+    CC_CREATE(comp(1313, 79), 4, int0);
     CC_SETONMOUSEOVER(callback(script19549, -2147483645, -2147483643, 1));
     CC_SETONMOUSELEAVE(callback(script19549, -2147483645, -2147483643, 0));
     return;

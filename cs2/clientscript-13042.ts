@@ -66,9 +66,11 @@ function script13042(int0: number, int1: number): number {
             return 1;
         }
     };
-    if (((int2 > 0) && ((RANDOM(100) < int2) || (script13048() == 1)))) {
-        script471(int0, int1);
-        return 1;
+    if ((int2 > 0)) {
+        if (((RANDOM(100) < int2) || (script13048() == 1))) {
+            script471(int0, int1);
+            return 1;
+        };
     };
     return 0;
 }

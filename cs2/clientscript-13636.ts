@@ -9,10 +9,7 @@ function script13636(int0: number, int1: number, int2: number, int3: number, int
         IF_SETPARAM_INT(6312, 15, comp(1322, 14));
         if ((script13749() == 1)) {
             script14182(int4);
-            stack(3711);
-            stack(int4);
-            stack(-2147483645);
-            stack("ii");
+            stack(callback(script3711, int4, -2147483645));
             stack(script83());
             IF_SETONRELEASE();
         };

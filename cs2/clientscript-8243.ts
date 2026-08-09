@@ -10,8 +10,10 @@ function script8243(string0: string, string1: string, string2: string, string3: 
     var int5 = STRING_LENGTH(string5);
     var int6 = 0;
     var int7 = 0;
-    if ((((int1 != 0) || (int2 != 0)) && (((int3 != 0) || (int4 != 0)) || (int5 != 0)))) {
-        int6 = 1;
+    if (((int1 != 0) || (int2 != 0))) {
+        if ((((int3 != 0) || (int4 != 0)) || (int5 != 0))) {
+            int6 = 1;
+        };
     };
     if ((int1 != 0)) {
         int7 = 1;

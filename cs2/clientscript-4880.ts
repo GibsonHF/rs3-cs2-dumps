@@ -112,7 +112,7 @@ function script4880(int0: number): void {
     var int11 = script5216(int8);
     if ((int2 == 0)) {
         IF_SETHIDE(true, IF_GETPARENTLAYER(int0));
-        if ((int11 != -1)) {
+        if ((int11 != comp(-1, 65535))) {
             IF_SETONMOUSEREPEAT(callback(script4882, -2147483645, string0, int3), int11);
         };
     };

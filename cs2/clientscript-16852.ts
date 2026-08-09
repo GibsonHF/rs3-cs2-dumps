@@ -1,10 +1,9 @@
 //
 function script16852(): void {
-    var int0 = comp(1499, 26);
+    var int0 = 98238490;
     var int1 = script9740();
     unk11023(int1, 1540112, 1);
-    dbrow_findnext();
-    var int2 = stack();
+    var int2 = dbrow_findnext();
     var int3 = 0;
     var string0 = "";
     var int4 = -1;
@@ -20,7 +19,7 @@ function script16852(): void {
         int11 = 5;
     };
     CC_DELETEALL(int0);
-    while ((int2 != -1 as dbrow)) {
+    while ((int2 != -1)) {
         int3 = dbrow_getfield(int2, 1540096, 0);
         if ((script9741(int3) == 0)) {
             int4 = dbrow_getfield(int2, 1540128, 0);
@@ -48,8 +47,7 @@ function script16852(): void {
             int7 = (int7 + 1);
             int6 = (int6 + 34);
         };
-        dbrow_findnext();
-        int2 = stack();
+        int2 = dbrow_findnext();
     };
     script19620(98238491, int0, int6, -1, 0, 0, 0, 0);
     return;

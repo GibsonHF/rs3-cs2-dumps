@@ -10,6 +10,7 @@ function script11639(int0: number, int1: number, int2: number, int3: number, int
             return [((0 - int0) - int2), ((0 - int1) - int3)];
         }
         case 3: {
+            break;
         }
         default: {
             return [int0, int1];

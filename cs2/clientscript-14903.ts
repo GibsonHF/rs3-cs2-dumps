@@ -18,7 +18,7 @@ function script14903(int0: number, int1: number, int2: number, int3: number, int
         }
         case 3: {
             string0 = "Unknown";
-            int8 = -1 as graphic;
+            int8 = -1;
             break;
         }
     };
@@ -34,7 +34,7 @@ function script14903(int0: number, int1: number, int2: number, int3: number, int
     CC_SETMAXLINES(2);
     CC_SETTEXTALIGN(1, 1, 0);
     if ((int11 > 0)) {
-        script7924(int0, IF_GETNEXTSUBID(int0), 16, 16, (int4 + 2), (int5 + 2), 21747 as graphic, 0, 0, 0, 0);
+        script7924(int0, IF_GETNEXTSUBID(int0), 16, 16, (int4 + 2), (int5 + 2), 21747, 0, 0, 0, 0);
     };
     return;
 }

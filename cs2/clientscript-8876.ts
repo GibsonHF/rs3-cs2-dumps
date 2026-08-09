@@ -46,78 +46,78 @@ function script8876(int0: number, int1: number, string0: string): void {
     } else {
         IF_SETCOLOUR(script693(255, (255 + MAX(SCALE(int9, MAX(int7, 200), 255), -255)), 0), comp(1489, 1));
     };
-    var int10 = 9286;
+    var int10 = 9286 as graphic;
     var string2 = "Weakness : ";
     switch (int0) {
         case 1: {
-            int10 = 14364;
+            int10 = 14364 as graphic;
             string2 = strconcat(string2, "Air Spells");
             break;
         }
         case 2: {
-            int10 = 14365;
+            int10 = 14365 as graphic;
             string2 = strconcat(string2, "Water Spells");
             break;
         }
         case 3: {
-            int10 = 14366;
+            int10 = 14366 as graphic;
             string2 = strconcat(string2, "Earth Spells");
             break;
         }
         case 4: {
-            int10 = 14367;
+            int10 = 14367 as graphic;
             string2 = strconcat(string2, "Fire Spells");
             break;
         }
         case 5: {
-            int10 = 240;
+            int10 = 240 as graphic;
             string2 = strconcat(string2, "Stab");
             break;
         }
         case 6: {
-            int10 = 234;
+            int10 = 234 as graphic;
             string2 = strconcat(string2, "Slash");
             break;
         }
         case 7: {
-            int10 = 256;
+            int10 = 256 as graphic;
             string2 = strconcat(string2, "Crush");
             break;
         }
         case 8: {
-            int10 = 14405;
+            int10 = 14405 as graphic;
             string2 = strconcat(string2, "Arrows");
             break;
         }
         case 9: {
-            int10 = 14370;
+            int10 = 14370 as graphic;
             string2 = strconcat(string2, "Bolts");
             break;
         }
         case 10: {
-            int10 = 251;
+            int10 = 251 as graphic;
             string2 = strconcat(string2, "Thrown");
             break;
         }
         case 37: {
-            int10 = 30934;
+            int10 = 30934 as graphic;
             string2 = strconcat(string2, "Necromancy");
             break;
         }
         case 21: {
             switch (int1) {
                 case 3: {
-                    int10 = 200;
+                    int10 = 200 as graphic;
                     string2 = strconcat(string2, "Ranged");
                     break;
                 }
                 case 1: {
-                    int10 = 202;
+                    int10 = 202 as graphic;
                     string2 = strconcat(string2, "Magic");
                     break;
                 }
                 case 2: {
-                    int10 = 197;
+                    int10 = 197 as graphic;
                     string2 = strconcat(string2, "Melee");
                     break;
                 }
@@ -125,20 +125,20 @@ function script8876(int0: number, int1: number, string0: string): void {
             break;
         }
         default: {
-            int10 = 9286;
+            int10 = 9286 as graphic;
             string2 = strconcat(string2, "None");
             break;
         }
     };
-    IF_SETONMOUSEREPEAT(callback(script8799, string2, -2147483645, -2147483643), 97583122);
-    IF_SETGRAPHIC(int10, 97583122);
+    IF_SETONMOUSEREPEAT(callback(script8799, string2, -2147483645, -2147483643), comp(1489, 18));
+    IF_SETGRAPHIC(int10, comp(1489, 18));
     var int11 = 5;
-    var int12 = ((IF_GETX(97583117) + IF_GETWIDTH(97583117)) + int11);
-    IF_SETPOSITION(int12, IF_GETY(97583118), 0, 0, 97583118);
-    var int13 = ((IF_GETX(97583118) + IF_GETWIDTH(97583118)) + int11);
-    IF_SETPOSITION(int13, IF_GETY(97583119), 0, 0, 97583119);
-    var int14 = (IF_GETX(97583119) + IF_GETWIDTH(97583119));
-    var int15 = MAX(int14, IF_GETWIDTH(97583120));
+    var int12 = ((IF_GETX(comp(1489, 13)) + IF_GETWIDTH(comp(1489, 13))) + int11);
+    IF_SETPOSITION(int12, IF_GETY(comp(1489, 14)), 0, 0, comp(1489, 14));
+    var int13 = ((IF_GETX(comp(1489, 14)) + IF_GETWIDTH(comp(1489, 14))) + int11);
+    IF_SETPOSITION(int13, IF_GETY(comp(1489, 15)), 0, 0, comp(1489, 15));
+    var int14 = (IF_GETX(comp(1489, 15)) + IF_GETWIDTH(comp(1489, 15)));
+    var int15 = MAX(int14, IF_GETWIDTH(comp(1489, 16)));
     if ((int15 > int14)) {
         IF_SETPOSITION(0, IF_GETY(comp(1489, 15)), 2, 0, comp(1489, 15));
     };

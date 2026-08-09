@@ -57,16 +57,16 @@ function script12695(): void {
                 break;
             }
             case 2: {
-                IF_SETGRAPHIC(enum_getvalue(0, 23, 11546 as cs2enum, int2), int3);
-                IF_SETTEXT(enum_getvalue(0, 36, 11547 as cs2enum, int2), int4);
-                string0 = enum_getvalue(0, 36, 11548 as cs2enum, int2);
+                IF_SETGRAPHIC(enum_getvalue(0, 23, 11546, int2), int3);
+                IF_SETTEXT(enum_getvalue(0, 36, 11547, int2), int4);
+                string0 = enum_getvalue(0, 36, 11548, int2);
                 IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643), int3);
                 break;
             }
             case 3: {
-                IF_SETGRAPHIC(enum_getvalue(0, 23, 11560 as cs2enum, int2), int3);
-                IF_SETTEXT(enum_getvalue(0, 36, 11558 as cs2enum, int2), int4);
-                string0 = enum_getvalue(0, 36, 11559 as cs2enum, int2);
+                IF_SETGRAPHIC(enum_getvalue(0, 23, 11560, int2), int3);
+                IF_SETTEXT(enum_getvalue(0, 36, 11558, int2), int4);
+                string0 = enum_getvalue(0, 36, 11559, int2);
                 IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643), int3);
                 break;
             }
@@ -103,7 +103,7 @@ function script12695(): void {
     } else {
         string0 = `You have logged in ${inttostring(varbitplayer_33673, 10)} days in a row! Current chain bonus: ${inttostring((varbitplayer_33673 * 5), 10)}%`;
     };
-    IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643), 116981797);
+    IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643), comp(1785, 37));
     if ((varbitplayer_33675 == 1)) {
         IF_SETHIDE(false, comp(1785, 53));
         IF_SETHIDE(false, comp(1785, 129));

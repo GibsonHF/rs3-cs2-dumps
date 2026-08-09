@@ -1,7 +1,7 @@
 //
 function script3720(int0: number, int1: number, int2: number): void {
     var int3 = 0;
-    var int4 = -1 as struct;
+    var int4 = -1;
     var string0 = "";
     var int5 = 0;
     var int6 = 0;

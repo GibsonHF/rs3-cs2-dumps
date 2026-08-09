@@ -7,7 +7,7 @@ function script1253(string0: string): void {
         varclient_2563 = string0;
         varclient_1099 = STRING_LENGTH(varclient_2563);
         script3218(4194354, 4194355, 4194356, varclient_2563, 111);
-        IF_SETTEXT(varclient_2563, comp(64, 51));
+        IF_SETTEXT(varclient_2563, 4194355);
         IF_SETHIDE(true, comp(64, 31));
         IF_SETHIDE(true, comp(64, 7));
     };

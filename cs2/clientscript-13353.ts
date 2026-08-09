@@ -12,7 +12,7 @@ function script13353(): void {
     var int4 = 32;
     var int5 = 10;
     var int6 = 10;
-    var int7 = 18266;
+    var int7 = 18266 as graphic;
     var int8 = 0;
     if ((script6431() == 1)) {
         int1 = 44;
@@ -27,7 +27,7 @@ function script13353(): void {
         CC_SETSIZE(int3, int4, 0, 0);
         CC_SETOUTLINE(1);
         CC_SETONOP(callback(script14073, -2147483644, -2147483643, -2147483645));
-        CC_SETDRAGGABLE(33882112, -1);
+        CC_SETDRAGGABLE(comp(517, 0), -1);
         CC_SETDRAGDEADZONE(int5);
         CC_SETDRAGDEADTIME(int6);
         CC_SETONDRAG(callback(script13799, -2147483645, -2147483643, -2147483646));
@@ -35,8 +35,8 @@ function script13353(): void {
         CC_SETONMOUSEOVER(callback(script13870, -2147483645, -2147483643, 1));
         CC_SETONMOUSELEAVE(callback(script9300, -2147483645, -2147483643));
         CC_SETONMOUSEREPEAT(callback(script9301, -2147483645, -2147483643));
-        CC_SETHIDE(1);
-        CC_CREATE[1](33882329, 5, int0);
+        CC_SETHIDE(true);
+        CC_CREATE[1](comp(517, 217), 5, int0);
         CC_SETCOLOUR[1](65535);
         CC_SETONMOUSEOVER[1](callback(script13866, -2147483643, 1));
         CC_SETONMOUSELEAVE[1](callback(script13866, -2147483643, 0));
@@ -50,13 +50,13 @@ function script13353(): void {
         CC_CREATE(comp(517, 205), 4, int0);
         CC_SETONMOUSEOVER(callback(script13870, -2147483645, -2147483643, 1));
         CC_SETONMOUSELEAVE(callback(script13870, -2147483645, -2147483643, 0));
-        CC_CREATE(33882318, 4, int0);
+        CC_CREATE(comp(517, 206), 4, int0);
         CC_SETONMOUSEOVER(callback(script13870, -2147483645, -2147483643, 1));
         CC_SETONMOUSELEAVE(callback(script13870, -2147483645, -2147483643, 0));
-        CC_CREATE(33882283, 4, int0);
-        CC_CREATE(33882281, 4, int0);
-        CC_CREATE(33882282, 5, int0);
-        CC_CREATE(33882312, 5, int0);
+        CC_CREATE(comp(517, 171), 4, int0);
+        CC_CREATE(comp(517, 169), 4, int0);
+        CC_CREATE(comp(517, 170), 5, int0);
+        CC_CREATE(comp(517, 200), 5, int0);
         CC_SETSIZE(int1, int2, 0, 0);
         CC_SETGRAPHIC(int7);
         CC_SETTRANS(int8);

@@ -47,10 +47,15 @@ function script6089(int0: number, int1: number, int2: number, int3: number): voi
     CC_SETONMOUSEREPEAT(callback(script12093, int18, int0, -2147483643));
     CC_SETCOLOUR(script10495(9));
     CC_SETFILL(1);
-    if (((int0 == varplayer_299) && (int1 == varplayer_301))) {
-        CC_SETGRAPHIC(int17);
-        CC_SETONMOUSEOVER(callback(script6100, int3, 1, 1, -2147483645, -2147483643));
-        CC_SETONMOUSELEAVE(callback(script6100, int3, 1, 0, -2147483645, -2147483643));
+    if ((int0 == varplayer_299)) {
+        if ((int1 == varplayer_301)) {
+            CC_SETGRAPHIC(int17);
+            CC_SETONMOUSEOVER(callback(script6100, int3, 1, 1, -2147483645, -2147483643));
+            CC_SETONMOUSELEAVE(callback(script6100, int3, 1, 0, -2147483645, -2147483643));
+        } else {
+            CC_SETONMOUSEOVER(callback(script6100, int3, 0, 1, -2147483645, -2147483643));
+            CC_SETONMOUSELEAVE(callback(script6100, int3, 0, 0, -2147483645, -2147483643));
+        };
     } else {
         CC_SETONMOUSEOVER(callback(script6100, int3, 0, 1, -2147483645, -2147483643));
         CC_SETONMOUSELEAVE(callback(script6100, int3, 0, 0, -2147483645, -2147483643));
@@ -85,7 +90,7 @@ function script6089(int0: number, int1: number, int2: number, int3: number): voi
         CC_SETONOP(callback(script6105, 93, int1));
         CC_SETOP(2, "Sell 1");
         CC_SETOP(3, "Sell 5");
-        if ((int18 == 36)) {
+        if ((int18 == 36 as obj)) {
             CC_SETOP(3, "Sell 4");
         };
         CC_SETOP(4, "Sell 10");
@@ -175,8 +180,12 @@ function script6089(int0: number, int1: number, int2: number, int3: number): voi
         CC_CREATE(int7, 5, int1);
         CC_SETSIZE(12, 12, 0, 0);
         CC_SETPOSITION(((int13 + int15) - 12), (int14 + 39), 0, 0);
-        if (((int0 == 93 as inv) && (TESTBIT(varclient_1879, int1) == 0))) {
-            CC_SETGRAPHIC(2180 as graphic);
+        if ((int0 == 93 as inv)) {
+            if ((TESTBIT(varclient_1879, int1) == 0)) {
+                CC_SETGRAPHIC(2180 as graphic);
+            } else {
+                CC_SETGRAPHIC(enum_getvalue(0, 23, 200 as cs2enum, varplayer_306));
+            };
         } else {
             CC_SETGRAPHIC(enum_getvalue(0, 23, 200 as cs2enum, varplayer_306));
         };

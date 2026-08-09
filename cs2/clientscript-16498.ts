@@ -1,7 +1,7 @@
 //
 function script16498(int0: number, int1: number): void {
     var int2 = -1;
-    var int3 = -1 as obj;
+    var int3 = -1;
     var int4 = 0;
     var int5 = 0;
     var int6 = 0;
@@ -14,7 +14,8 @@ function script16498(int0: number, int1: number): void {
     CC_DELETEALL(int1);
     var int10 = 0;
     if ((IF_FIND(int1) == 1)) {
-        while ((++int2 < int8)) {
+        int2 = (int2 + 1);
+        while ((int2 < int8)) {
             [int3, int4, int5, int6, int6, int6, int6, int6] = dbrow_getfield(int0, 413696, int2);
             if ((script10613(int3) == 0)) {
                 script14391(int1, int2, 0, 0, 1, 1, 61, 75, 0, 0);

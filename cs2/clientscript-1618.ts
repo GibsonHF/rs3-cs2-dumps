@@ -18,7 +18,8 @@ function script1618(): void {
     };
     while ((int4 < int1)) {
         script1619(int2, int3, INV_GETOBJ(int0, int4));
-        if ((++int2 >= 5)) {
+        int2 = (int2 + 1);
+        if ((int2 >= 5)) {
             int2 = 0;
             int3 = (int3 + 1);
         };

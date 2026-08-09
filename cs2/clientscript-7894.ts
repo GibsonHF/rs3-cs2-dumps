@@ -102,7 +102,7 @@ function script7894(int0: number, int1: number): void {
     varclient_3482 = int0;
     if ((IF_GETHEIGHT(comp(1420, 127)) != 0)) {
         IF_SETONTIMER(callback(), comp(1420, 5));
-        IF_SETSIZE(0, 0, 1, 0, 93061247);
+        IF_SETSIZE(0, 0, 1, 0, comp(1420, 127));
     };
     script7867();
     return;

@@ -4,14 +4,15 @@ function script14789(int0: number): string {
     var string1 = "";
     var int1 = DB_GETFIELDCOUNT(int0, 360688);
     var int2 = DB_GETFIELDCOUNT(int0, 360720);
-    var int3 = -1 as obj;
-    var int4 = -1 as dbrow;
+    var int3 = -1;
+    var int4 = -1;
     var int5 = 0;
     var int6 = 0;
     var int7 = -1;
-    while ((++int7 < int1)) {
+    int7 = (int7 + 1);
+    while ((int7 < int1)) {
         [int3, int5] = dbrow_getfield(int0, 360688, int7);
-        if ((int3 != -1 as obj)) {
+        if ((int3 != -1)) {
             if ((int6 > 0)) {
                 string0 = `${string0}<br>`;
             };
@@ -21,20 +22,21 @@ function script14789(int0: number): string {
     };
     int6 = 0;
     int7 = -1;
-    while ((++int7 < int2)) {
+    int7 = (int7 + 1);
+    while ((int7 < int2)) {
         [int4, int5] = dbrow_getfield(int0, 360720, int7);
-        if ((int4 != -1 as dbrow)) {
+        if ((int4 != -1)) {
             switch (DB_GETROWTABLE(int4)) {
                 case 89: {
                     int3 = dbrow_getfield(int4, 364640, 0);
                     break;
                 }
                 default: {
-                    int3 = -1 as obj;
+                    int3 = -1;
                     break;
                 }
             };
-            if ((int3 != -1 as obj)) {
+            if ((int3 != -1)) {
                 if ((int6 > 0)) {
                     string1 = `${string1}<br>`;
                 };
@@ -47,10 +49,10 @@ function script14789(int0: number): string {
     int7 = -1;
     var string2 = "";
     var int8 = db_find_with_count(352528, int0, 0);
-    var int9 = -1 as dbrow;
-    while ((++int7 < int8)) {
-        dbrow_findnext();
-        int9 = stack();
+    var int9 = -1;
+    int7 = (int7 + 1);
+    while ((int7 < int8)) {
+        int9 = dbrow_findnext();
         if ((int9 != -1)) {
             if ((int6 > 0)) {
                 string2 = `${string2}<br>`;

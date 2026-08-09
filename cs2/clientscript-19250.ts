@@ -12,10 +12,8 @@ function script19250(): void {
     IF_SETHIDE(true, comp(1289, 15));
     IF_SETHIDE(true, comp(1289, 14));
     IF_SETHIDE(true, comp(1289, 12));
-    stack(PUSH_CONSTANT_INT[16]("<col=", int1));
-    IF_SETTEXT(`${stack()}${inttostring()}>Reaper Masks`, comp(1289, 10));
-    stack(PUSH_CONSTANT_INT[16]("<col=", int0));
-    IF_SETTEXT(`${stack()}${inttostring()}>These rewards can rarely be obtained from the Maize Maze.`, comp(1289, 17));
+    IF_SETTEXT(`${inttostring(PUSH_CONSTANT_INT[16]("<col=", int1))}>Reaper Masks`, comp(1289, 10));
+    IF_SETTEXT(`${inttostring(PUSH_CONSTANT_INT[16]("<col=", int0))}>These rewards can rarely be obtained from the Maize Maze.`, comp(1289, 17));
     var int2 = 34377 as graphic;
     switch (script19236(1)) {
         case 1: {

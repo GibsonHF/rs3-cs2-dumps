@@ -14,8 +14,7 @@ function script20614(int0: number): number {
     var int9 = 0;
     var int10 = 0;
     var string0 = struct_getparam(int0, 4592);
-    stack(unk11033(string0, 2));
-    [int1, int2, int3, long0, long1, int4, long2, int5, int6, int7, int8, int9, int10] = stack();
+    [int1, int2, int3, long0, long1, int4, long2, int5, int6, int7, int8, int9, int10] = unk11033(string0, 2);
     if (((int1 == 0) || (int2 == 0))) {
         return 0;
     };

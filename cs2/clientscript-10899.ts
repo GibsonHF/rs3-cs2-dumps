@@ -20,10 +20,10 @@ function script10899(int0: number, int1: number, int2: number, int3: number, int
         int18 = int14;
     } else if ((int8 == 1)) {
         int18 = script9984(int2, 5);
-    } else if (((int15 != -1 as struct) && (script12838(int0, (int19 + 10)) == 1))) {
+    } else if (((int15 != -1) && (script12838(int0, (int19 + 10)) == 1))) {
         int18 = int15;
     };
-    if ((int18 == -1 as struct)) {
+    if ((int18 == -1)) {
         return int7;
     };
     var int21 = struct_getparam(int18, 3808);
@@ -34,57 +34,97 @@ function script10899(int0: number, int1: number, int2: number, int3: number, int
     var int26 = (int6 - (int22 * 2));
     var int27 = int19;
     var int28 = 0;
-    CC_CREATE(int0, 5, int27++);
+    stack(int0);
+    stack(5);
+    stack(int27);
+    int27 = (int27 + 1);
+    CC_CREATE();
     CC_SETSIZE(int21, int22, 0, 0);
     CC_SETPOSITION(int3, int4, 0, 0);
     CC_SETGRAPHIC(struct_getparam(int18, 3799));
     CC_SETCOLOUR(int24);
-    CC_CREATE(int0, 5, int27++);
+    stack(int0);
+    stack(5);
+    stack(int27);
+    int27 = (int27 + 1);
+    CC_CREATE();
     CC_SETSIZE(int25, int22, 0, 0);
     CC_SETPOSITION((int3 + int21), int4, 0, 0);
     CC_SETGRAPHIC(struct_getparam(int18, 3798));
     CC_SETCOLOUR(int24);
     CC_SETTILING(int23);
-    CC_CREATE(int0, 5, int27++);
+    stack(int0);
+    stack(5);
+    stack(int27);
+    int27 = (int27 + 1);
+    CC_CREATE();
     CC_SETSIZE(int21, int22, 0, 0);
     CC_SETPOSITION(((int3 + int25) + int21), int4, 0, 0);
     CC_SETGRAPHIC(struct_getparam(int18, 3800));
     CC_SETCOLOUR(int24);
-    CC_CREATE(int0, 5, int27++);
+    stack(int0);
+    stack(5);
+    stack(int27);
+    int27 = (int27 + 1);
+    CC_CREATE();
     CC_SETSIZE(int21, int26, 0, 0);
     CC_SETPOSITION(int3, (int4 + int22), 0, 0);
     CC_SETGRAPHIC(struct_getparam(int18, 3801));
     CC_SETCOLOUR(int24);
     CC_SETTILING(int23);
-    CC_CREATE(int0, 5, int27++);
+    stack(int0);
+    stack(5);
+    stack(int27);
+    int27 = (int27 + 1);
+    CC_CREATE();
     CC_SETSIZE(int25, int26, 0, 0);
     CC_SETPOSITION((int3 + int21), (int4 + int22), 0, 0);
     CC_SETGRAPHIC(struct_getparam(int18, 3802));
     CC_SETCOLOUR(int24);
     CC_SETTILING(int23);
-    CC_CREATE(int0, 5, int27++);
+    stack(int0);
+    stack(5);
+    stack(int27);
+    int27 = (int27 + 1);
+    CC_CREATE();
     CC_SETSIZE(int21, int26, 0, 0);
     CC_SETPOSITION(((int3 + int25) + int21), (int4 + int22), 0, 0);
     CC_SETGRAPHIC(struct_getparam(int18, 3803));
     CC_SETCOLOUR(int24);
     CC_SETTILING(int23);
-    CC_CREATE(int0, 5, int27++);
+    stack(int0);
+    stack(5);
+    stack(int27);
+    int27 = (int27 + 1);
+    CC_CREATE();
     CC_SETSIZE(int21, int22, 0, 0);
     CC_SETPOSITION(int3, ((int4 + int26) + int22), 0, 0);
     CC_SETGRAPHIC(struct_getparam(int18, 3805));
     CC_SETCOLOUR(int24);
-    CC_CREATE(int0, 5, int27++);
+    stack(int0);
+    stack(5);
+    stack(int27);
+    int27 = (int27 + 1);
+    CC_CREATE();
     CC_SETSIZE(int25, int22, 0, 0);
     CC_SETPOSITION((int3 + int21), ((int4 + int26) + int22), 0, 0);
     CC_SETGRAPHIC(struct_getparam(int18, 3804));
     CC_SETCOLOUR(int24);
     CC_SETTILING(int23);
-    CC_CREATE(int0, 5, int27++);
+    stack(int0);
+    stack(5);
+    stack(int27);
+    int27 = (int27 + 1);
+    CC_CREATE();
     CC_SETSIZE(int21, int22, 0, 0);
     CC_SETPOSITION(((int3 + int25) + int21), ((int4 + int26) + int22), 0, 0);
     CC_SETGRAPHIC(struct_getparam(int18, 3806));
     CC_SETCOLOUR(int24);
-    CC_CREATE(int0, 4, int27++);
+    stack(int0);
+    stack(4);
+    stack(int27);
+    int27 = (int27 + 1);
+    CC_CREATE();
     if ((STRING_LENGTH(string0) > 0)) {
         if ((struct_getparam(int2, 8063) == true)) {
             CC_SETSIZE(int25, int26, 0, 0);
@@ -107,11 +147,15 @@ function script10899(int0: number, int1: number, int2: number, int3: number, int
         CC_SETTEXTSHADOW(true);
         script11024(19);
     };
-    CC_CREATE(int0, 4, int27++);
+    stack(int0);
+    stack(4);
+    stack(int27);
+    int27 = (int27 + 1);
+    CC_CREATE();
     CC_SETSIZE(int5, int6, 0, 0);
     CC_SETPOSITION(int3, int4, 0, 0);
     CC_SETONVARTRANSMIT(callback(script10412, -2147483645, -2147483643, int2, int8, int19, int10, 1, 3814, 1));
-    if ((((int8 == 0) && (int14 != -1 as struct)) && (int15 != -1 as struct))) {
+    if ((((int8 == 0) && (int14 != -1)) && (int15 != -1))) {
         CC_SETONMOUSEOVER(callback(script10413, -2147483645, int15, int19, 1));
         CC_SETONMOUSELEAVE(callback(script10413, -2147483645, int14, int19, 0));
         if ((int16 != -1)) {

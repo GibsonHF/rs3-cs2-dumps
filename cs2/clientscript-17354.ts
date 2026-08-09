@@ -5,8 +5,8 @@ function script17354(): void {
     };
     var string0 = "Information";
     var string1 = struct_getparam(varplayer_10850, 6136);
-    var int0 = comp(1802, 325);
-    var int1 = comp(1802, 326);
+    var int0 = 118096197;
+    var int1 = 118096198;
     var int2 = script17359(string1);
     if ((int2 > IF_GETHEIGHT(int1))) {
         IF_SETHIDE(false, int0);

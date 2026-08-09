@@ -6,7 +6,7 @@ function script15372(int0: number, int1: number, int2: number, int3: number): vo
         if ((int4 <= 0)) {
             CC_SETTRANS(255);
             CC_SETONTIMER(callback());
-            if ((int3 != -1)) {
+            if ((int3 != comp(-1, 65535))) {
                 IF_SETHIDE(false, int3);
             };
             return;

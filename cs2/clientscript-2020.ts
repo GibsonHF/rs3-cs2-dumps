@@ -1,8 +1,8 @@
 //
 function script2020(): void {
     var int0 = -1 as cs2enum;
-    var int1 = -1 as cs2enum;
-    var int2 = -1 as cs2enum;
+    var int1 = -1;
+    var int2 = -1;
     [int0, int1, int2] = script7386();
     var string0 = "";
     var string1 = "";

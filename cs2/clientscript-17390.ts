@@ -1,5 +1,5 @@
 //
-function script17390(long0: BigInt): void {
+function script17390(long0: bigint): void {
     if ((varplayer_135 == -1 as obj)) {
         SOUND_VORBIS_VOLUME(10046 as vorbis, 1, 0, 120);
         return;

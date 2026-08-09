@@ -13,6 +13,7 @@ function script8137(int0: number): number {
         case 1044:
         case 1048:
         case 1053: {
+            break;
         }
         default: {
             return 0;

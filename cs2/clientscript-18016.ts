@@ -1,7 +1,7 @@
 //
 function script18016(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number): [number, number, number, number, number] {
     var int6 = comp(1227, 40);
-    var int7 = comp(1227, 41);
+    var int7 = 80412713;
     var int8 = 1;
     var int9 = script17969(varplayer_11339, 0, 0, int0);
     var int10 = script18018(int0);
@@ -31,9 +31,9 @@ function script18016(int0: number, int1: number, int2: number, int3: number, int
     script18041(int6, int10, int9);
     script18041(int7, int10, int9);
     var int5 = (int5 + int9);
-    var [int1, int2] = script17978(int8, int7, int9, 1, -1, int11, int10, int12, int13, int1, int2, int0);
+    [int1, int2] = script17978(int8, int7, int9, 1, -1, int11, int10, int12, int13, int1, int2, int0);
     if ((CC_FINDBYCATEGORY(int6, 2, int10) == 1)) {
-        var [int3, int4] = script17970(int3, int4);
+        [int3, int4] = script17970(int3, int4);
         switch (int0) {
             case 1: {
                 [int3, int4] = script17970(int3, int4);

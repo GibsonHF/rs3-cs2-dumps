@@ -4,7 +4,8 @@ function script20789(int0: number, int1: number, int2: number): number {
     var int4 = 0;
     [int3, int4] = script11980("", 53299);
     int3 = (int3 + (4 * 4));
-    int3 = (++int3 + 3);
+    int3 = (int3 + 40);
+    int3 = (int3 + 3);
     int3 = (int3 + 16);
     if (((int2 == 1) && (varclient_8428 != -1))) {
         var int0 = (varclient_8428 + int3);

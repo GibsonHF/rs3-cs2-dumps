@@ -7,13 +7,13 @@ function script14821(): void {
     script14844(44892303, -1, -1, 44892306, 44892307, int1);
     script14844(44892314, -1, -1, 44892317, 44892318, int2);
     if ((MAP_MEMBERS() == 0)) {
-        if (((int0 != -1 as dbrow) && (dbrow_getfield(int0, 385072, 0) == true))) {
+        if (((int0 != -1) && (dbrow_getfield(int0, 385072, 0) == 1))) {
             IF_SETHIDE(false, comp(685, 250));
         };
-        if (((int1 != -1 as dbrow) && (dbrow_getfield(int1, 385072, 0) == true))) {
+        if (((int1 != -1) && (dbrow_getfield(int1, 385072, 0) == 1))) {
             IF_SETHIDE(false, comp(685, 252));
         };
-        if (((int2 != -1 as dbrow) && (dbrow_getfield(int2, 385072, 0) == true))) {
+        if (((int2 != -1) && (dbrow_getfield(int2, 385072, 0) == 1))) {
             IF_SETHIDE(false, comp(685, 254));
         };
     };

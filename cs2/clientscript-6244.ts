@@ -5,8 +5,8 @@ function script6244(): void {
     if ((varclient_1923 <= 0)) {
         varclient_1923 = 0;
         IF_SETONTIMER(callback(), comp(1285, 2));
-        IF_SETHIDE(0, 84213792);
-        IF_SETTEXT(TOSTRING_LOCALISED((25000 - varclient_1923), 1), 84213792);
+        IF_SETHIDE(false, comp(1285, 32));
+        IF_SETTEXT(TOSTRING_LOCALISED((25000 - varclient_1923), 1), comp(1285, 32));
     } else {
         script4542(int0, 84213764, -1);
         IF_SETHIDE(false, comp(1285, 32));

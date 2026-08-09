@@ -96,7 +96,7 @@ function script11539(int0: number, int1: number, int2: number, int3: number, int
         }
     };
     if ((int3 == 1)) {
-        IF_SETONVARTRANSMIT(callback(script15406, int0, int1, int2, 0, int4, 9883, 1), 58392578);
+        IF_SETONVARTRANSMIT(callback(script15406, int0, int1, int2, 0, int4, 9883, 1), comp(891, 2));
     };
     script19654(1, int4);
     return;

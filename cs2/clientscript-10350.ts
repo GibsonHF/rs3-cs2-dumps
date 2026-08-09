@@ -12,7 +12,7 @@ function script10350(): void {
     var int5 = script10495(3);
     var int6 = ENUM_GETOUTPUTCOUNT(887 as cs2enum);
     var int7 = 0;
-    var int8 = -1 as cs2enum;
+    var int8 = -1;
     var string0 = "";
     var int9 = 0;
     var int10 = 26;
@@ -24,7 +24,7 @@ function script10350(): void {
         CC_SETOP(1, "Select");
         CC_SETOP(2, "View");
         CC_SETONOP(callback(script10360, int3));
-        CC_SETHIDE(1);
+        CC_SETHIDE(true);
         int3 = (int3 + 1);
     };
     int6 = ENUM_GETOUTPUTCOUNT(889 as cs2enum);

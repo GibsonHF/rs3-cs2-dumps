@@ -56,8 +56,8 @@ function script15663(int0: number, int1: number, int2: number, string0: string, 
         };
     };
     IF_SETONTIMER(callback(script2951, int3), int3);
-    IF_SETTEXT(string1, 48758969);
-    if ((IF_FIND(48758969) == 1)) {
+    IF_SETTEXT(string1, comp(744, 185));
+    if ((IF_FIND(comp(744, 185)) == 1)) {
         if ((int2 == -1)) {
             CC_SETHIDE(false);
             CC_SETONBUTTONCLICK(callback(script15666, int0));

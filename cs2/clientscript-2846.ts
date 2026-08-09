@@ -15,7 +15,8 @@ function script2846(int0: number): void {
         CC_SETDRAGRENDERBEHAVIOUR(2);
         CC_SETDRAGDEADZONE(14);
         CC_SETOP(1, "Select");
-        if ((++int3 == 3)) {
+        int3 = (int3 + 1);
+        if ((int3 == 3)) {
             int1 = (308 + 48);
             int2 = 55;
         } else if ((int3 == 6)) {
@@ -36,7 +37,8 @@ function script2846(int0: number): void {
         CC_SETPOSITION(int1, int2, 0, 0);
         CC_SETTRANS(255);
         int3 = (int3 + 1);
-        if ((++int5 == 3)) {
+        int5 = (int5 + 1);
+        if ((int5 == 3)) {
             int1 = 113;
             int2 = (83 + 52);
         } else if ((int5 == 6)) {

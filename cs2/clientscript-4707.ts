@@ -5,8 +5,8 @@ function script4707(): void {
     IF_SETTEXT(inttostring(varclient_2733, 10), comp(985, 7));
     IF_SETTEXT(inttostring(varclient_2734, 10), comp(985, 17));
     IF_SETTEXT(inttostring(varclient_2735, 10), comp(985, 18));
-    IF_SETTEXT(varclient_2744, comp(985, 19));
-    IF_SETTEXT(varclient_2745, comp(985, 20));
+    IF_SETTEXT(varclient_2744, 64552979);
+    IF_SETTEXT(varclient_2745, 64552980);
     IF_SETTEXT(inttostring(varclient_2736, 10), comp(985, 31));
     IF_SETTEXT(inttostring(varclient_2737, 10), comp(985, 33));
     IF_SETTEXT(inttostring(varclient_2738, 10), comp(985, 35));

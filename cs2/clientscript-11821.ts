@@ -6,9 +6,9 @@ function script11821(int0: number, int1: number, int2: number, int3: number): vo
     var int7 = (int6 / 10);
     script9554(114163726, 114163741, 114163727, struct_getparam(int2, 5675), 21218);
     var int8 = MAX(1, (SCALE(int0, 1000, int6) + 1));
-    IF_SETONTIMER(callback(script11858, int0, int1, int8, int7, 114163764, 114163766), 114163766);
+    IF_SETONTIMER(callback(script11858, int0, int1, int8, int7, 114163764, 114163766), comp(1742, 54));
     var int9 = MAX(1, (SCALE(int1, 1000, int6) + 1));
-    IF_SETONTIMER(callback(script11858, int0, int1, int9, int7, 114163790, 114163789), 114163789);
+    IF_SETONTIMER(callback(script11858, int0, int1, int9, int7, 114163790, 114163789), comp(1742, 77));
     var string0 = "";
     var int10 = 0;
     CC_DELETEALL(int4);
@@ -38,8 +38,12 @@ function script11821(int0: number, int1: number, int2: number, int3: number): vo
         CC_SETPOSITION((int13 - 18), 133, 0, 0);
         [int14, int15, int16] = script13265(int14);
         int16 = 819;
-        if (((int15 != -1 as obj) && (int15 != int14))) {
-            script14994(int14, -1, -1, int15, int16, 1);
+        if ((int15 != -1 as obj)) {
+            if ((int15 != int14)) {
+                script14994(int14, -1, -1, int15, int16, 1);
+            } else {
+                script14994(int14, -1, -1, int15, int16, 0);
+            };
         } else {
             script14994(int14, -1, -1, int15, int16, 0);
         };

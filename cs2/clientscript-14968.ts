@@ -38,6 +38,5 @@ function script14968(int0: number): number {
     stack(270336);
     stack(int1);
     DB_FIND(0);
-    dbrow_findnext();
-    return stack();
+    return dbrow_findnext();
 }

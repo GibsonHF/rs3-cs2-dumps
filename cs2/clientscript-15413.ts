@@ -2,7 +2,7 @@
 function script15413(): void {
     var int0 = 1;
     var int1 = script12088(int0);
-    var int2 = -1 as graphic;
+    var int2 = -1;
     var int3 = 0;
     var int4 = 0;
     var int5 = 3;
@@ -11,11 +11,11 @@ function script15413(): void {
     var int8 = 0;
     var int9 = 0;
     var int10 = 0;
-    while ((int1 != -1 as dbrow)) {
+    while ((int1 != -1)) {
         [int2, int10, int9] = dbrow_getfield(int1, 987200, 0);
         int3 = dbrow_getfield(int1, 987152, 0);
         int4 = dbrow_getfield(int1, 987168, 0);
-        if ((int2 != -1 as graphic)) {
+        if ((int2 != -1)) {
             if ((int3 > 0)) {
                 if ((int3 <= int5)) {
                     IF_SETGRAPHIC(int2, comp(760, 16));
@@ -37,7 +37,8 @@ function script15413(): void {
         } else {
             script12478(`Missing bonus icon for bonus with ID: ${inttostring(int0, 10)}`);
         };
-        int1 = script12088(++int0);
+        int0 = (int0 + 1);
+        int1 = script12088(int0);
     };
     script11940();
     return;

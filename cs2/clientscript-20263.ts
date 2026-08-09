@@ -7,12 +7,12 @@ function script20263(): void {
     };
     var int1 = dbrow_getfield(int0, 1335424, 0);
     var int2 = dbrow_getfield(int1, 1339392, varbitplayer_58407);
-    if ((int2 == -1 as dbrow)) {
+    if ((int2 == -1)) {
         script20254();
         return;
     };
     var int3 = dbrow_getfield(int2, 1343504, varbitplayer_58408);
-    if ((int3 == -1 as dbrow)) {
+    if ((int3 == -1)) {
         script20254();
         return;
     };
@@ -30,8 +30,12 @@ function script20263(): void {
     var int4 = dbrow_getfield(int3, 1347632, 0);
     var int5 = script20144(int3);
     IF_SETTEXT(`Tier ${inttostring((varbitplayer_58407 + 1), 10)} Relics`, comp(1443, 12));
-    if (((int5 == 0) && (script20142(varbitplayer_58407) == 1))) {
-        IF_SETENABLED(true, comp(1443, 34));
+    if ((int5 == 0)) {
+        if ((script20142(varbitplayer_58407) == 1)) {
+            IF_SETENABLED(true, comp(1443, 34));
+        } else {
+            IF_SETENABLED(false, comp(1443, 34));
+        };
     } else {
         IF_SETENABLED(false, comp(1443, 34));
     };

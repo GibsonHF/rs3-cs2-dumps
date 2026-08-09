@@ -20,17 +20,17 @@ function script20414(): void {
     IF_SETOBJECT(60074 as obj, 1, comp(191, 23));
     var string4 = "Snowman Slippers - Cold Front seasonal quest";
     if ((script6431() == 1)) {
-        IF_SETONCLICK(callback(script7774, string0, 12517395, -1, 0), 12517395);
-        IF_SETONCLICK(callback(script7774, string1, 12517396, -1, 0), 12517396);
-        IF_SETONCLICK(callback(script7774, string2, 12517397, -1, 0), 12517397);
-        IF_SETONCLICK(callback(script7774, string3, 12517398, -1, 0), 12517398);
-        IF_SETONCLICK(callback(script7774, string4, 12517399, -1, 0), 12517399);
+        IF_SETONCLICK(callback(script7774, string0, 12517395, -1, 0), comp(191, 19));
+        IF_SETONCLICK(callback(script7774, string1, 12517396, -1, 0), comp(191, 20));
+        IF_SETONCLICK(callback(script7774, string2, 12517397, -1, 0), comp(191, 21));
+        IF_SETONCLICK(callback(script7774, string3, 12517398, -1, 0), comp(191, 22));
+        IF_SETONCLICK(callback(script7774, string4, 12517399, -1, 0), comp(191, 23));
     } else {
-        IF_SETONMOUSEREPEAT(callback(script3876, string0, 12517395, -1), 12517395);
-        IF_SETONMOUSEREPEAT(callback(script3876, string1, 12517396, -1), 12517396);
-        IF_SETONMOUSEREPEAT(callback(script3876, string2, 12517397, -1), 12517397);
-        IF_SETONMOUSEREPEAT(callback(script3876, string3, 12517398, -1), 12517398);
-        IF_SETONMOUSEREPEAT(callback(script3876, string4, 12517399, -1), 12517399);
+        IF_SETONMOUSEREPEAT(callback(script3876, string0, 12517395, -1), comp(191, 19));
+        IF_SETONMOUSEREPEAT(callback(script3876, string1, 12517396, -1), comp(191, 20));
+        IF_SETONMOUSEREPEAT(callback(script3876, string2, 12517397, -1), comp(191, 21));
+        IF_SETONMOUSEREPEAT(callback(script3876, string3, 12517398, -1), comp(191, 22));
+        IF_SETONMOUSEREPEAT(callback(script3876, string4, 12517399, -1), comp(191, 23));
     };
     return;
 }

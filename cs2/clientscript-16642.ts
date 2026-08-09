@@ -14,7 +14,8 @@ function script16642(): void {
     var int6 = 0;
     var int7 = 0;
     var int8 = 0;
-    while ((++int5 <= int4)) {
+    int5 = (int5 + 1);
+    while ((int5 <= int4)) {
         if ((int8 == 0)) {
             int7 = (int7 + 1);
             script2994(int0, IF_GETNEXTSUBID(int0), 0, 0, 1, 1, 0, 16384, 4, 2, enum_getvalue(0, 23, 11337 as cs2enum, int7));

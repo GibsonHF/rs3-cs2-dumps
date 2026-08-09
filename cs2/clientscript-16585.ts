@@ -54,6 +54,7 @@ function script16585(int0: number): number {
             return MAX(0, ((varbitplayer_60071 - varbitplayer_60072) - script259(int0)));
         }
         case 59871: {
+            break;
         }
         default: {
             return 1;

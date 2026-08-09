@@ -3,8 +3,16 @@ function script4677(): void {
     switch (varbitplayer_4766) {
         case 1: {
             if ((varbitplayer_4758 == 10)) {
-                if ((((STAT_BASE(6 as stat) >= 30) && (STAT_BASE(4 as stat) >= 30)) && (STAT_BASE(0 as stat) >= 30))) {
-                    IF_SETTEXT("Carn is no more, his behemoth has been dealt with, and Linza has her ore. The tales of Great Ozan can continue!", comp(102, 30));
+                if ((STAT_BASE(6 as stat) >= 30)) {
+                    if ((STAT_BASE(4 as stat) >= 30)) {
+                        if ((STAT_BASE(0 as stat) >= 30)) {
+                            IF_SETTEXT("Carn is no more, his behemoth has been dealt with, and Linza has her ore. The tales of Great Ozan can continue!", comp(102, 30));
+                        } else {
+                            IF_SETTEXT("Carn has been defeated and Linza appreciates her new ore. The story still feels incomplete, somehow.", comp(102, 30));
+                        };
+                    } else {
+                        IF_SETTEXT("Carn has been defeated and Linza appreciates her new ore. The story still feels incomplete, somehow.", comp(102, 30));
+                    };
                 } else {
                     IF_SETTEXT("Carn has been defeated and Linza appreciates her new ore. The story still feels incomplete, somehow.", comp(102, 30));
                 };
@@ -15,8 +23,12 @@ function script4677(): void {
         }
         case 2: {
             if ((varbitplayer_4758 == 10)) {
-                if (((STAT_BASE(16 as stat) >= 55) && (STAT_BASE(17 as stat) >= 55))) {
-                    IF_SETTEXT("I have become Vengeance: death to those who callously disregard life. They, and everyone like them, will pay for what they have done.", comp(102, 30));
+                if ((STAT_BASE(16 as stat) >= 55)) {
+                    if ((STAT_BASE(17 as stat) >= 55)) {
+                        IF_SETTEXT("I have become Vengeance: death to those who callously disregard life. They, and everyone like them, will pay for what they have done.", comp(102, 30));
+                    } else {
+                        IF_SETTEXT("Am I done now? No, there's more that must be done. Vengeance has not yet been satisfied.", comp(102, 30));
+                    };
                 } else {
                     IF_SETTEXT("Am I done now? No, there's more that must be done. Vengeance has not yet been satisfied.", comp(102, 30));
                 };
@@ -38,11 +50,19 @@ function script4677(): void {
             break;
         }
         case 3: {
-            if ((((STAT_BASE(0 as stat) >= 60) && (STAT_BASE(17 as stat) >= 45)) && (STAT_BASE(24 as stat) >= 55))) {
-                if ((varbitplayer_4758 == 10)) {
-                    IF_SETTEXT("I finally completed my task; the perfect spy, the perfect assassin.", comp(102, 30));
+            if ((STAT_BASE(0 as stat) >= 60)) {
+                if ((STAT_BASE(17 as stat) >= 45)) {
+                    if ((STAT_BASE(24 as stat) >= 55)) {
+                        if ((varbitplayer_4758 == 10)) {
+                            IF_SETTEXT("I finally completed my task; the perfect spy, the perfect assassin.", comp(102, 30));
+                        } else {
+                            IF_SETTEXT("I completed my task, but...I made mistakes, left things undone...", comp(102, 30));
+                        };
+                    } else {
+                        IF_SETTEXT("My task is incomplete, this story still unfinished. I remember there was...more...", comp(102, 30));
+                    };
                 } else {
-                    IF_SETTEXT("I completed my task, but...I made mistakes, left things undone...", comp(102, 30));
+                    IF_SETTEXT("My task is incomplete, this story still unfinished. I remember there was...more...", comp(102, 30));
                 };
             } else {
                 IF_SETTEXT("My task is incomplete, this story still unfinished. I remember there was...more...", comp(102, 30));

@@ -12,9 +12,9 @@ function script2596(int0: number, int1: number, int2: number, int3: number): voi
     var int9 = 0;
     var int10 = 0;
     var int11 = -1;
-    var int12 = comp(1513, 123);
+    var int12 = 99156091;
     var int13 = 99156092;
-    var int14 = comp(1513, 42);
+    var int14 = 99156010;
     var int15 = 99156018;
     var int16 = 99156019;
     var int17 = 99156014;
@@ -23,8 +23,8 @@ function script2596(int0: number, int1: number, int2: number, int3: number): voi
     var int20 = ((5 + int2) + 24);
     var int21 = 0;
     var int22 = 0;
-    var int23 = -1 as struct;
-    var int24 = -1 as cs2enum;
+    var int23 = -1;
+    var int24 = -1;
     var int25 = 0;
     var int26 = 0;
     var int27 = -1;
@@ -34,7 +34,7 @@ function script2596(int0: number, int1: number, int2: number, int3: number): voi
     CC_DELETEALL(int14);
     script10084("Brightness", int4, int7, int12, 28);
     CC_SETSIZE(CC_GETWIDTH(), 28, 0, 0);
-    CC_SETONMOUSEREPEAT(callback(script3876, struct_getparam(41493 as struct, 7528), -2147483645, -2147483643));
+    CC_SETONMOUSEREPEAT(callback(script3876, struct_getparam(41493, 7528), -2147483645, -2147483643));
     IF_SETPOSITION((CC_GETX() - 4), CC_GETY(), 0, 0, int18);
     IF_SETSIZE((CC_GETWIDTH() + 4), CC_GETHEIGHT(), 0, 0, int18);
     IF_SETSIZE(126, 19, 0, 0, int17);
@@ -74,11 +74,13 @@ function script2596(int0: number, int1: number, int2: number, int3: number): voi
                     int7 = int9;
                 };
                 int11 = script10084(struct_getparam(int23, 1344), int4, int7, int12, 28);
-                if ((((int3 == 1) || (int3 == 0)) && (CC_FIND(int12, int11) == 1))) {
-                    if ((STRING_LENGTH(struct_getparam(int23, 5727)) == 0)) {
-                        CC_SETONMOUSEREPEAT(callback(script3876, struct_getparam(int23, 7528), -2147483645, -2147483643));
-                    } else {
-                        CC_SETONMOUSEREPEAT(callback(script3876, struct_getparam(int23, 5727), -2147483645, -2147483643));
+                if (((int3 == 1) || (int3 == 0))) {
+                    if ((CC_FIND(int12, int11) == 1)) {
+                        if ((STRING_LENGTH(struct_getparam(int23, 5727)) == 0)) {
+                            CC_SETONMOUSEREPEAT(callback(script3876, struct_getparam(int23, 7528), -2147483645, -2147483643));
+                        } else {
+                            CC_SETONMOUSEREPEAT(callback(script3876, struct_getparam(int23, 5727), -2147483645, -2147483643));
+                        };
                     };
                 };
                 int5 = (CC_GETX() - 4);

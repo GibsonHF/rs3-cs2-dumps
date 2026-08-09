@@ -62,8 +62,10 @@ function script9286(): void {
                             break;
                         }
                         default: {
-                            if (((struct_getparam(int5, 4652) == 1) && ((script690(int5) == 0) || (script690(int5) == 3)))) {
-                                script6995(int2, int1, 0, 0, 1, -1);
+                            if ((struct_getparam(int5, 4652) == 1)) {
+                                if (((script690(int5) == 0) || (script690(int5) == 3))) {
+                                    script6995(int2, int1, 0, 0, 1, -1);
+                                };
                             };
                             break;
                         }

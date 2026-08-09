@@ -8,20 +8,21 @@ function script16503(int0: number, int1: number, int2: number, int3: number, int
     };
     script10026(int0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 5);
     var int7 = 0;
-    var int8 = -1 as dbrow;
+    var int8 = -1;
     var int9 = 0;
     var int10 = -1;
     var int11 = 0;
     var int12 = 0;
     var int13 = -1;
     var int14 = 0;
-    while ((++int10 < DB_GETFIELDCOUNT(int3, 602112))) {
+    int10 = (int10 + 1);
+    while ((int10 < DB_GETFIELDCOUNT(int3, 602112))) {
         [int7, int8, int9] = dbrow_getfield(int3, 602112, int10);
         if ((script16584(int7, int5) == 1)) {
             int11 = script16169(int8, int6);
             if ((int11 > 0)) {
                 int14 = (3 + (2 * int10));
-                int12 = (int12 + script16187(int10, int11, int14, enum_getvalue(0, 36, 16539 as cs2enum, int7), enum_getvalue(0, 36, 9715 as cs2enum, int7), int0, int1, int2));
+                int12 = (int12 + script16187(int10, int11, int14, enum_getvalue(0, 36, 16539, int7), enum_getvalue(0, 36, 9715, int7), int0, int1, int2));
                 script16188(int10, int11, int14, int3, int0, int6);
             };
         };

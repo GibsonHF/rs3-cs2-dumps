@@ -93,11 +93,7 @@ function script8678(int0: number): void {
             CC_CREATE(int4, 5, int10);
             CC_SETSIZE(int13, int14, 0, 0);
             CC_SETONTARGETENTER(callback(script1615, 1, -2147483645, -2147483643));
-            stack(1615);
-            stack(0);
-            stack(-2147483645);
-            stack(-2147483643);
-            stack("iii");
+            stack(callback(script1615, 0, -2147483645, -2147483643));
             CC_SETONTARGETLEAVE();
         };
         int10 = (int10 + 1);

@@ -1,7 +1,7 @@
 //
 function script16457(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number, int8: number, int9: number, string0: string): number {
     var int10 = -1;
-    var [int10, int2] = script14749(int0, int1, int2, CC_GETID(), 0);
+    [int10, int2] = script14749(int0, int1, int2, CC_GETID(), 0);
     var int11 = int2;
     var int12 = ((((4 + 4) + (35 + 2)) + (2 * 4)) + int1);
     var int13 = ((((int3 - (2 * 4)) - 4) - (35 + 2)) - (2 * 4));

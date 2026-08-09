@@ -1,6 +1,6 @@
 //
 function script5890(int0: number, int1: number): void {
-    if (((int0 == -1) || (varbitplayer_21682 == 0))) {
+    if (((int0 == comp(-1, 65535)) || (varbitplayer_21682 == 0))) {
         script5892(93716733);
         return;
     };

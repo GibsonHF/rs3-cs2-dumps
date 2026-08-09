@@ -8,7 +8,7 @@ function script2632(): void {
     var int5 = 0;
     var int6 = 0;
     var int7 = 0;
-    var int8 = -1 as struct;
+    var int8 = -1;
     var string0 = "";
     var string1 = "";
     var string2 = "<str>";
@@ -73,7 +73,7 @@ function script2632(): void {
                     break;
                 }
             };
-        } else if ((struct_getparam(int8, 1335) == true)) {
+        } else if ((struct_getparam(int8, 1335) == 1)) {
             switch (struct_getparam(int8, 1336)) {
                 case 1: {
                     string1 = `${string1}<br>This will be applied automatically.`;
@@ -95,14 +95,14 @@ function script2632(): void {
             script6203(75759621, (int3 - 130), int5, 5, ((int2 + 4) + int4), 26, string1, 5);
         } else {
             script2682(75759621, int3, int6, 0, int2, 1, int0);
-            if ((struct_getparam(int8, 1335) == true)) {
+            if ((struct_getparam(int8, 1335) == 1)) {
                 script13980(75759621, 75759622, 28554, (int3 - 125), ((int2 + (int6 / 2)) - 14), 120, int0, 0, "Unlocked");
             } else {
                 script13980(75759621, 75759622, 28553, (int3 - 125), ((int2 + (int6 / 2)) - 14), 120, int0, 0, "Claim");
             };
             script6203(75759621, (int3 - 130), int4, 5, (int2 + 2), 26, string0, 2);
             script6203(75759621, (int3 - 130), int5, 5, ((int2 + 4) + int4), 26, string1, 3);
-            if (((int8 == 4157 as struct) && (CC_FIND(comp(1156, 6), int0) == 1))) {
+            if (((int8 == 4157) && (CC_FIND(comp(1156, 6), int0) == 1))) {
                 CC_SETOP(1, "Buy 10");
                 CC_SETOP(2, "Buy 50");
                 CC_SETOP(3, "Buy 500");

@@ -18,7 +18,8 @@ function script14782(int0: number): void {
     var int6 = 0;
     var int7 = 0;
     var int8 = -1;
-    while ((++int8 < int1)) {
+    int8 = (int8 + 1);
+    while ((int8 < int1)) {
         int2 = enum_getvalue(0, 74, varplayer_9215, int8);
         if ((script14575(int2) == 1)) {
             string0 = dbrow_getfield(int2, 335888, 0);

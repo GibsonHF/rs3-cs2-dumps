@@ -44,6 +44,7 @@ function script9674(int0: number): string {
             return varclient_3960;
         }
         case 14: {
+            break;
         }
         default: {
             return "";

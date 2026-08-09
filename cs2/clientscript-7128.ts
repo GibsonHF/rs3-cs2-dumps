@@ -13,7 +13,7 @@ function script7128(int0: number, int1: number, int2: number): string {
     };
     switch (int1) {
         case 61: {
-            return `Complete Quest: '${script2103(enum_getvalue(0, 3, 2252 as cs2enum, int2))}'`;
+            return `Complete Quest: '${script2103(enum_getvalue(0, 3, 2252, int2))}'`;
         }
         case 62: {
             return script7164(int2);

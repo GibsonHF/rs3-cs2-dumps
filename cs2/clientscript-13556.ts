@@ -109,6 +109,7 @@ function script13556(): number {
         case 118:
         case 119:
         case 120: {
+            break;
         }
         default: {
             return 1620;

@@ -3,8 +3,14 @@ function script16336(int0: number, int1: number, string0: string): string {
     switch (int0) {
         case 5162: {
             if ((int1 > 0)) {
-                if (((MAP_MEMBERS() == 0) && (enum_getvalue(0, 74, 8430 as cs2enum, int1) == -1 as dbrow))) {
-                    var string0 = `<col=777777>Week ${inttostring(int1, 10)}:</col><br><col=777777>${string0}</col>`;
+                if ((MAP_MEMBERS() == 0)) {
+                    if ((enum_getvalue(0, 74, 8430 as cs2enum, int1) == -1 as dbrow)) {
+                        var string0 = `<col=777777>Week ${inttostring(int1, 10)}:</col><br><col=777777>${string0}</col>`;
+                    } else if ((script8245() == int1)) {
+                        string0 = `<col=2DBA14>Week ${inttostring(int1, 10)}:</col><br><col=2DBA14>${string0}</col>`;
+                    } else {
+                        string0 = `Week ${inttostring(int1, 10)}:<br>${string0}`;
+                    };
                 } else if ((script8245() == int1)) {
                     string0 = `<col=2DBA14>Week ${inttostring(int1, 10)}:</col><br><col=2DBA14>${string0}</col>`;
                 } else {

@@ -11,6 +11,7 @@ function script8988(): [string, string, string] {
             return ["Increase divine tears gained from the battlefield by 5%.", "Increase divine tears gained from outside the battlefield by 5%.", "Vote to choose which buff your faction will receive towards earning divine tears."];
         }
         case 7: {
+            break;
         }
         default: {
             return ["There is no vote currently available.", "There is no vote currently available.", "There is no vote currently available. Come back soon."];

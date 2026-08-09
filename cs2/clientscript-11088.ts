@@ -20,7 +20,7 @@ function script11088(int0: number): string {
             break;
         }
         case 1304: {
-            string0 = `<col=FFFFFF>Cloud of destiny</col> - complete your fortune to get a reward from fate. <col=5A5AFF>${enum_getvalue(0, 36, 12413 as cs2enum, varbitplayer_35528)}</col>`;
+            string0 = `<col=FFFFFF>Cloud of destiny</col> - complete your fortune to get a reward from fate. <col=5A5AFF>${enum_getvalue(0, 36, 12413, varbitplayer_35528)}</col>`;
             break;
         }
         case 44226: {
@@ -346,19 +346,19 @@ function script11088(int0: number): string {
             break;
         }
         case 48341: {
-            string0 = `${struct_getparam(int0, 2794)}<br>${script3111(48329 as struct, struct_getparam(48329 as struct, 2795), 1, 0)}`;
+            string0 = `${struct_getparam(int0, 2794)}<br>${script3111(48329, struct_getparam(48329, 2795), 1, 0)}`;
             break;
         }
         case 48342: {
-            string0 = `${struct_getparam(int0, 2794)}<br>${script3111(48330 as struct, struct_getparam(48330 as struct, 2795), 1, 0)}`;
+            string0 = `${struct_getparam(int0, 2794)}<br>${script3111(48330, struct_getparam(48330, 2795), 1, 0)}`;
             break;
         }
         case 48347: {
-            string0 = `${struct_getparam(int0, 2794)}<br>${script3111(48332 as struct, struct_getparam(48332 as struct, 2795), 1, 0)}`;
+            string0 = `${struct_getparam(int0, 2794)}<br>${script3111(48332, struct_getparam(48332, 2795), 1, 0)}`;
             break;
         }
         case 49073: {
-            string0 = `${struct_getparam(int0, 2794)}<br>${script3111(49072 as struct, struct_getparam(49072 as struct, 2795), 1, 0)}`;
+            string0 = `${struct_getparam(int0, 2794)}<br>${script3111(49072, struct_getparam(49072, 2795), 1, 0)}`;
             break;
         }
         case 48878: {

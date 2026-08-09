@@ -6,7 +6,7 @@ function script478(int0: number, int1: number, int2: number): void {
     var int6 = 5;
     var int7 = 5;
     var string0 = "null";
-    var int8 = -1 as struct;
+    var int8 = -1;
     while ((int4 < int3)) {
         int8 = enum_getvalue(0, 73, int0, (int4 + 1));
         string0 = enum_getvalue(0, 36, 1563 as cs2enum, struct_getparam(int8, 460));

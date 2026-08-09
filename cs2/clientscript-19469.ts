@@ -1,7 +1,7 @@
 //
 function script19469(int0: number, int1: number): [number, number] {
     var int2 = 0;
-    var [int0, int2] = script19613(0, int0, int2, int1, "Ironman Modes");
+    [int0, int2] = script19613(0, int0, int2, int1, "Ironman Modes");
     [int0, int2] = script19617(0, int0, int2, int1, 0, `Ironman Mode <img=11> (IM): Self-sufficient game mode, where most interactions with other players are blocked.`);
     [int0, int2] = script19617(0, int0, int2, int1, 0, `Hardcore Ironman Mode <img=13> (HCIM, HC): Ironman variant with limited lives. Losing all lives converts to Ironman mode.`);
     [int0, int2] = script19617(0, int0, int2, int1, 0, `Group Ironman Mode <img=16> (GIM): Allows up to 5 players to group together under Ironman restrictions.`);

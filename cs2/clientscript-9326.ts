@@ -19,32 +19,40 @@ function script9326(int0: number, int1: number): void {
             } else {
                 int5 = INV_GETOBJ(95 as inv, int3);
             };
-            if (((int5 != -1 as obj) && (int5 != 48447 as obj))) {
-                switch (int0) {
-                    case 2: {
-                        int10 = script734(OC_MEMBERS(int5));
-                        break;
-                    }
-                    case 3: {
-                        int10 = script734((1 - OC_MEMBERS(int5)));
-                        break;
-                    }
-                    case 5: {
-                        if (((OC_TRADEABLE(int5) == 1) && (item_getparam(int5, 5771) == 0))) {
-                            int10 = 1;
-                        } else {
-                            int10 = 0;
-                        };
-                        break;
-                    }
-                    case 6: {
-                        if (((OC_TRADEABLE(int5) == 0) || (item_getparam(int5, 5771) == 1))) {
-                            int10 = 1;
-                        } else {
-                            int10 = 0;
-                        };
-                        break;
-                    }
+            if ((int5 != -1 as obj)) {
+                if ((int5 != 48447 as obj)) {
+                    switch (int0) {
+                        case 2: {
+                            int10 = script734(OC_MEMBERS(int5));
+                            break;
+                        }
+                        case 3: {
+                            int10 = script734((1 - OC_MEMBERS(int5)));
+                            break;
+                        }
+                        case 5: {
+                            if ((OC_TRADEABLE(int5) == 1)) {
+                                if ((item_getparam(int5, 5771) == 0)) {
+                                    int10 = 1;
+                                } else {
+                                    int10 = 0;
+                                };
+                            } else {
+                                int10 = 0;
+                            };
+                            break;
+                        }
+                        case 6: {
+                            if (((OC_TRADEABLE(int5) == 0) || (item_getparam(int5, 5771) == 1))) {
+                                int10 = 1;
+                            } else {
+                                int10 = 0;
+                            };
+                            break;
+                        }
+                    };
+                } else {
+                    int10 = 0;
                 };
             } else {
                 int10 = 0;
@@ -64,8 +72,12 @@ function script9326(int0: number, int1: number): void {
         };
         int3 = (int3 + 1);
     };
-    if (((int6 == 8) && (int7 == 5))) {
-        IF_SETHIDE(false, comp(517, 197));
+    if ((int6 == 8)) {
+        if ((int7 == 5)) {
+            IF_SETHIDE(false, comp(517, 197));
+        } else {
+            IF_SETHIDE(true, comp(517, 197));
+        };
     } else {
         IF_SETHIDE(true, comp(517, 197));
     };

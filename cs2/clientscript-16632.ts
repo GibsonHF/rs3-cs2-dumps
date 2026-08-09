@@ -13,8 +13,11 @@ function script16632(int0: number): number {
         int5 = script16603(int6);
         if ((int5 > 0)) {
             int3 = dbrow_getfield(enum_getvalue(0, 74, 13175 as cs2enum, int5), 90272, 0);
-            if (((int3 == int4) && (++int2 >= int1))) {
-                return 1;
+            if ((int3 == int4)) {
+                int2 = (int2 + 1);
+                if ((int2 >= int1)) {
+                    return 1;
+                };
             };
         };
         int6 = (int6 + 1);

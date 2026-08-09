@@ -16,8 +16,24 @@ function script4160(int0: number, int1: number, int2: number): void {
         int4 = MAX(int4, 0);
         int4 = MIN(int4, 255);
     };
-    if ((((int4 == 0) && (int1 == 0)) || ((int4 == 255) && (int1 == 1)))) {
-        IF_SETONTIMER(callback(), int0);
+    if ((int4 == 0)) {
+        if ((int1 == 0)) {
+            IF_SETONTIMER(callback(), int0);
+        } else if ((int4 == 255)) {
+            if ((int1 == 1)) {
+                IF_SETONTIMER(callback(), int0);
+            } else {
+                IF_SETONTIMER(callback(script4159, -2147483645, int1, 0), int0);
+            };
+        } else {
+            IF_SETONTIMER(callback(script4159, -2147483645, int1, 0), int0);
+        };
+    } else if ((int4 == 255)) {
+        if ((int1 == 1)) {
+            IF_SETONTIMER(callback(), int0);
+        } else {
+            IF_SETONTIMER(callback(script4159, -2147483645, int1, 0), int0);
+        };
     } else {
         IF_SETONTIMER(callback(script4159, -2147483645, int1, 0), int0);
     };

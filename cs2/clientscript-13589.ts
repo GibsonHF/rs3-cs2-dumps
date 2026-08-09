@@ -14,10 +14,22 @@ function script13589(int0: number): number {
     } else if ((script13290(int0) == 0)) {
         return 1;
     };
-    if (((varbitplayer_48342 == 1) && (varbitplayer_48343 == 1))) {
-        [int2, int3, int4] = script8218(int1);
-        if ((int2 >= int3)) {
-            return 1;
+    if ((varbitplayer_48342 == 1)) {
+        if ((varbitplayer_48343 == 1)) {
+            [int2, int3, int4] = script8218(int1);
+            if ((int2 >= int3)) {
+                return 1;
+            };
+        } else if ((varbitplayer_48343 == 1)) {
+            [int2, int3, int4] = script8219(int1);
+            if ((int2 >= int3)) {
+                return 1;
+            };
+        } else if ((varbitplayer_48342 == 1)) {
+            [int2, int3, int4] = script13289(int1);
+            if ((int2 >= int3)) {
+                return 1;
+            };
         };
     } else if ((varbitplayer_48343 == 1)) {
         [int2, int3, int4] = script8219(int1);

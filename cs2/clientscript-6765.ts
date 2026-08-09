@@ -7,14 +7,13 @@ function script6765(): void {
         int0 = (int0 + 1);
     };
     IF_SETONVARTRANSMIT(callback(script6775, 11462, 11462, 2), comp(631, 28));
-    IF_SETONVARTRANSMIT(callback(script6773, 11464, 11465, 2), 41353241);
-    IF_SETONVARTRANSMIT(callback(script6769, 11466, 1), 41353224);
+    IF_SETONVARTRANSMIT(callback(script6773, 11464, 11465, 2), comp(631, 25));
+    IF_SETONVARTRANSMIT(callback(script6769, 11466, 1), comp(631, 8));
     DB_LISTALL(162);
-    dbrow_findnext();
-    var int1 = stack();
+    var int1 = dbrow_findnext();
     var int2 = -1;
     var int3 = -1;
-    while ((int1 != -1 as dbrow)) {
+    while ((int1 != -1)) {
         if ((DB_GETFIELDCOUNT(int1, 663712) > 0)) {
             [int2, int3] = dbrow_getfield(int1, 663712, 0);
             if ((IF_FIND(int2) == 1)) {
@@ -25,8 +24,7 @@ function script6765(): void {
                 script6772(int2);
             };
         };
-        dbrow_findnext();
-        int1 = stack();
+        int1 = dbrow_findnext();
     };
     script7852(41353227, 0, 0, 0, 0, 0, 0, 0, 1, 1, 4479, inttostring(600, 10));
     CC_SETOP(1, "Purchase with Fallen Leaves");
@@ -38,6 +36,6 @@ function script6765(): void {
     CC_SETMOUSEOVERCURSOR(46);
     script13310(41353235, 41353236, 61, (8 * 1000));
     script6783();
-    IF_SETONTIMER(callback(script6784, 0, 0), 41353216);
+    IF_SETONTIMER(callback(script6784, 0, 0), comp(631, 0));
     return;
 }

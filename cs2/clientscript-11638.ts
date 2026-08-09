@@ -6,6 +6,5 @@ function script11638(int0: number): number {
     stack(1511424);
     stack(int0);
     DB_FIND(0);
-    dbrow_findnext();
-    return stack();
+    return dbrow_findnext();
 }

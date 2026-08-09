@@ -15,7 +15,8 @@ function script12760(int0: number): void {
             IF_SETHIDE(false, comp(1787, 18));
         };
     };
-    if ((--int0 <= 0)) {
+    var int0 = (int0 - 1);
+    if ((int0 <= 0)) {
         IF_SETONTIMER(callback(), comp(1787, 29));
     } else {
         IF_SETONTIMER(callback(script12760, int0), comp(1787, 29));

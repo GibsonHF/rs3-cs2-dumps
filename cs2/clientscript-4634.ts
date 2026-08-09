@@ -67,28 +67,34 @@ function script4634(int0: number): void {
     varclient_200 = 0;
     varclient_201 = 0;
     IF_SETONCLICK(callback(), comp(744, 139));
-    if (((int3 == 1) && (script13749() == 1))) {
-        switch (varclient_6908) {
-            case -1:
-            case 0: {
-                script15662("Checking SSO details...", int2, 1);
-                varclient_6908 = 0;
-                break;
-            }
-            case 1: {
-                script15662("Creating account...", int2, 1);
-                break;
-            }
-            case 2: {
-                script15662("Sending link request...", int2, 1);
-                break;
-            }
-            default: {
-                script15662("Signing in...", int2, 1);
-                break;
-            }
+    if ((int3 == 1)) {
+        if ((script13749() == 1)) {
+            switch (varclient_6908) {
+                case -1:
+                case 0: {
+                    script15662("Checking SSO details...", int2, 1);
+                    varclient_6908 = 0;
+                    break;
+                }
+                case 1: {
+                    script15662("Creating account...", int2, 1);
+                    break;
+                }
+                case 2: {
+                    script15662("Sending link request...", int2, 1);
+                    break;
+                }
+                default: {
+                    script15662("Signing in...", int2, 1);
+                    break;
+                }
+            };
+            varclient_1100 = -3;
+        } else {
+            script15662("Signing in...", int2, 1);
+            varclient_1100 = -3;
+            varclient_6908 = -1;
         };
-        varclient_1100 = -3;
     } else {
         script15662("Signing in...", int2, 1);
         varclient_1100 = -3;
@@ -96,6 +102,6 @@ function script4634(int0: number): void {
     };
     unk11088(int1, varclient_4192, varclient_4193, varclient_6908);
     varclient_4192 = "";
-    IF_SETONTIMER(callback(script2946, int0), 48758957);
+    IF_SETONTIMER(callback(script2946, int0), comp(744, 173));
     return;
 }

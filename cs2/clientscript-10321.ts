@@ -54,39 +54,27 @@ function script10321(int0: number): void {
     while ((int21 < int17)) {
         string4 = PLAYER_GROUP_MEMBER_GET_DISPLAYNAME(int21);
         if ((PLAYER_GROUP_MEMBER_IS_OWNER(int21) == 1)) {
-            stack(25847);
-            stack("Group Leader");
-            [int13, string1] = stack();
+            [int13, string1] = [25847, "Group Leader"];
         } else {
             switch (PLAYER_GROUP_MEMBER_GET_RANK(int21)) {
                 case 10: {
-                    stack(25850);
-                    stack("Recruiter");
-                    [int13, string1] = stack();
+                    [int13, string1] = [25850, "Recruiter"];
                     break;
                 }
                 case 20: {
-                    stack(25849);
-                    stack("Organiser");
-                    [int13, string1] = stack();
+                    [int13, string1] = [25849, "Organiser"];
                     break;
                 }
                 case 50: {
-                    stack(25848);
-                    stack("Admin");
-                    [int13, string1] = stack();
+                    [int13, string1] = [25848, "Admin"];
                     break;
                 }
                 case 100: {
-                    stack(25847);
-                    stack("Group Leader");
-                    [int13, string1] = stack();
+                    [int13, string1] = [25847, "Group Leader"];
                     break;
                 }
                 default: {
-                    stack(-1);
-                    stack("");
-                    [int13, string1] = stack();
+                    [int13, string1] = [-1, ""];
                     break;
                 }
             };
@@ -94,33 +82,23 @@ function script10321(int0: number): void {
         int16 = PLAYER_GROUP_MEMBER_GET_STATUS(int21);
         switch (int16) {
             case 0: {
-                stack(25853);
-                stack("Not Ready");
-                [int12, string0] = stack();
+                [int12, string0] = [25853, "Not Ready"];
                 break;
             }
             case 1: {
-                stack(25852);
-                stack("Ready");
-                [int12, string0] = stack();
+                [int12, string0] = [25852, "Ready"];
                 break;
             }
             case 2: {
-                stack(25854);
-                stack("Waiting for Start");
-                [int12, string0] = stack();
+                [int12, string0] = [25854, "Waiting for Start"];
                 break;
             }
             case 3: {
-                stack(25855);
-                stack("Teleported");
-                [int12, string0] = stack();
+                [int12, string0] = [25855, "Teleported"];
                 break;
             }
             default: {
-                stack(-1);
-                stack("");
-                [int12, string0] = stack();
+                [int12, string0] = [-1, ""];
                 break;
             }
         };
@@ -128,15 +106,26 @@ function script10321(int0: number): void {
             script10335(int16);
             script10338();
             script5894();
-            if (((int16 == 0) && (IF_GETHEIGHT(int0) >= 120))) {
-                IF_SETHIDE(false, int8);
-                if ((int11 == 1)) {
-                    IF_SETSIZE(0, 63, 1, 1, int6);
+            if ((int16 == 0)) {
+                if ((IF_GETHEIGHT(int0) >= 120)) {
+                    IF_SETHIDE(false, int8);
+                    if ((int11 == 1)) {
+                        IF_SETSIZE(0, 63, 1, 1, int6);
+                    } else {
+                        IF_SETSIZE(20, 63, 1, 1, int6);
+                    };
+                    IF_SETSIZE(IF_GETWIDTH(int7), 63, 0, 1, int7);
+                    int19 = IF_GETHEIGHT(int6);
                 } else {
-                    IF_SETSIZE(20, 63, 1, 1, int6);
+                    IF_SETHIDE(true, int8);
+                    if ((int11 == 1)) {
+                        IF_SETSIZE(0, 33, 1, 1, int6);
+                    } else {
+                        IF_SETSIZE(20, 33, 1, 1, int6);
+                    };
+                    IF_SETSIZE(IF_GETWIDTH(int7), 33, 0, 1, int7);
+                    int19 = IF_GETHEIGHT(int6);
                 };
-                IF_SETSIZE(IF_GETWIDTH(int7), 63, 0, 1, int7);
-                int19 = IF_GETHEIGHT(int6);
             } else {
                 IF_SETHIDE(true, int8);
                 if ((int11 == 1)) {
@@ -148,18 +137,14 @@ function script10321(int0: number): void {
                 int19 = IF_GETHEIGHT(int6);
             };
         };
-        stack(25867);
-        stack(`${string4} is offline`);
-        [int14, string2] = stack();
+        [int14, string2] = [25867, `${string4} is offline`];
         if ((PLAYER_GROUP_MEMBER_IS_ONLINE(int21) == 1)) {
             [int23, int14] = [PLAYER_GROUP_MEMBER_GET_LAST_SEEN_NODE_ID(int21), 25866];
             string2 = `${string4} is on world: ${inttostring(int23, 10)}`;
             if ((int23 == MAP_WORLD())) {
                 int26 = PLAYER_GROUP_MEMBER_GET_SAME_WORLD_VAR(int21, 0, 1668);
                 int25 = MAX(1, PLAYER_GROUP_MEMBER_GET_SAME_WORLD_VAR(int21, 0, 24595));
-                stack(25865);
-                stack(`${string4} is on your world.`);
-                [int14, string2] = stack();
+                [int14, string2] = [25865, `${string4} is on your world.`];
                 if ((int18 == int21)) {
                     string2 = `You are on world ${inttostring(int23, 10)}.`;
                 };

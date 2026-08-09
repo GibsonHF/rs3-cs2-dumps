@@ -4,7 +4,7 @@ function script12228(int0: number, int1: number, int2: number): void {
         return;
     };
     IF_SETONTIMER(callback(), comp(906, 16));
-    IF_SETONVARTRANSMIT(callback(script5951, 1751, 1), 59375632);
+    IF_SETONVARTRANSMIT(callback(script5951, 1751, 1), comp(906, 16));
     script3097();
     if ((int2 == 1)) {
         if ((int0 == 1)) {

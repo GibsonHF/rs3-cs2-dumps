@@ -11,7 +11,7 @@ function script14920(int0: number): void {
     };
     var int5 = 0;
     var int6 = 0;
-    var int7 = -1 as dbrow;
+    var int7 = -1;
     var int8 = 16777215;
     var int9 = 0;
     var int10 = -1;
@@ -19,9 +19,9 @@ function script14920(int0: number): void {
         script152(int1, (IF_GETWIDTH(int1) - (2 * 4)), (IF_GETHEIGHT(int1) - (2 * 4)), 4, 4, 26, "There are no collectors currently interested in this artefact.", 16777215);
         CC_SETTEXTALIGN(1, 1, 0);
     } else {
-        while ((++int10 < int4)) {
-            dbrow_findnext();
-            int7 = stack();
+        int10 = (int10 + 1);
+        while ((int10 < int4)) {
+            int7 = dbrow_findnext();
             if ((int7 != -1)) {
                 if ((script14499(int7, int3) > 0)) {
                     int8 = 16777215;
@@ -29,7 +29,7 @@ function script14920(int0: number): void {
                     int8 = script10495(5);
                 };
                 int5 = (((IF_GETWIDTH(int1) - (4 * 4)) - 50) - 26);
-                int6 = MAX(36, ((2 * 4) + script7593(dbrow_getfield(int7, 344128, 0), int5, 26, enum_getvalue(25, 0, 8584 as cs2enum, 26 as fontmetrics))));
+                int6 = MAX(36, ((2 * 4) + script7593(dbrow_getfield(int7, 344128, 0), int5, 26, enum_getvalue(25, 0, 8584, 26))));
                 script10066(int1, IF_GETNEXTSUBID(int1), IF_GETWIDTH(int1), int6, 0, int9, 0, 1, 0);
                 script10010(28680);
                 script152(int1, int5, (int6 - (2 * 4)), 4, (int9 + 4), 26, dbrow_getfield(int7, 344128, 0), int8);

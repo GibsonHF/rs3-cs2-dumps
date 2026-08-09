@@ -5,7 +5,8 @@ function script5659(): void {
     var int2 = comp(-1, 65535);
     if ((script6431() == 1)) {
         int0 = ENUM_GETOUTPUTCOUNT(9458 as cs2enum);
-        while ((++int1 < int0)) {
+        int1 = (int1 + 1);
+        while ((int1 < int0)) {
             int2 = enum_getvalue(0, 9, 9568 as cs2enum, int1);
             IF_SETOP(1, "", int2);
         };

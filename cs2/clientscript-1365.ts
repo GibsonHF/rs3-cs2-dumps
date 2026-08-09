@@ -1,7 +1,7 @@
 //
 function script1365(int0: number): void {
     var int1 = comp(1594, 95);
-    var int2 = comp(1594, 96);
+    var int2 = 104464480;
     var string0 = script17844(varplayer_5148, 3);
     var string1 = script17844(varplayer_5148, 4);
     IF_SETHIDE(false, comp(1594, 33));
@@ -12,27 +12,27 @@ function script1365(int0: number): void {
     var int4 = 0;
     [int3, int4] = script19888(int0, int0);
     script19890(varplayer_5148, -1, int0, -1, -1, int3, int4, 0, 0, 1);
-    var int5 = comp(1594, 72);
+    var int5 = 104464456;
     var int6 = 104464474;
     var int7 = 104464473;
-    var int8 = comp(1594, 81);
-    var int9 = comp(1594, 88);
-    var int10 = comp(1594, 87);
-    var int11 = comp(1594, 86);
-    var int12 = comp(1594, 94);
-    var int13 = comp(1594, 93);
-    var int14 = comp(1594, 92);
-    var int15 = comp(1594, 91);
-    var int16 = comp(1594, 80);
-    var int17 = comp(1594, 97);
+    var int8 = 104464465;
+    var int9 = 104464472;
+    var int10 = 104464471;
+    var int11 = 104464470;
+    var int12 = 104464478;
+    var int13 = 104464477;
+    var int14 = 104464476;
+    var int15 = 104464475;
+    var int16 = 104464464;
+    var int17 = 104464481;
     var int18 = -1;
     var int19 = -1;
     var int20 = -1;
     var int21 = struct_getparam(int0, 4851);
     var int22 = 0;
     [int18, int19, int22] = script326(int0);
-    var int23 = -1 as dbrow;
-    if ((int21 != -1 as obj)) {
+    var int23 = -1;
+    if ((int21 != -1)) {
         int23 = item_getparam(int21, 9254);
     };
     if ((int18 != -1)) {
@@ -57,7 +57,7 @@ function script1365(int0: number): void {
     CC_DELETEALL(int11);
     var int24 = IF_GETHEIGHT(int8);
     var int25 = struct_getparam(int0, 9252);
-    if ((struct_getparam(int0, 9346) == true)) {
+    if ((struct_getparam(int0, 9346) == 1)) {
         int25 = enum_getvalue(0, 26, int25, GENDER());
     };
     script9525(int6, 3, -1);
@@ -84,7 +84,7 @@ function script1365(int0: number): void {
                 IF_SETHIDE(false, int12);
                 IF_SETSIZE(32, 40, 1, 0, int15);
                 IF_SETTEXT(script4693(struct_getparam(int18, 2543), GENDER()), int12);
-            } else if ((struct_getparam(int0, 4852) != -1 as graphic)) {
+            } else if ((struct_getparam(int0, 4852) != -1)) {
                 IF_SETHIDE(false, int13);
                 IF_SETSIZE(40, 40, 0, 0, int15);
                 IF_SETGRAPHIC(struct_getparam(int0, 4852), int13);

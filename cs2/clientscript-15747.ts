@@ -6,10 +6,10 @@ function script15747(int0: number, int1: number): number {
     if (((PLATFORMTYPE() == 3) && (script16252(int1) == 0))) {
         return 0;
     };
-    if (((dbrow_getfield(int1, 500000, 0) == false) && (script4148() == 1))) {
+    if (((dbrow_getfield(int1, 500000, 0) == 0) && (script4148() == 1))) {
         return 0;
     };
-    if ((dbrow_getfield(int1, 500016, 0) == true)) {
+    if ((dbrow_getfield(int1, 500016, 0) == 1)) {
         switch (int1) {
             case 7081:
             case 7082:

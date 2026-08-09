@@ -2,15 +2,14 @@
 function script7840(): void {
     var int0 = 0;
     var string0 = "";
-    stack(CREATE_SUGGEST_NAME_REPLY());
-    [int0, string0] = stack();
+    [int0, string0] = CREATE_SUGGEST_NAME_REPLY();
     switch (int0) {
         case -3: {
             return;
         }
         case 2: {
             varclient_2563 = string0;
-            IF_SETTEXT(varclient_2563, comp(786, 15));
+            IF_SETTEXT(varclient_2563, 51511311);
             script2714(111, 1);
             script7855(0, 1);
             break;

@@ -1,7 +1,7 @@
 //
 function script20869(): void {
     unk11188();
-    if (((stack() == 1) && (CC_GETLAYER() == comp(707, 5)))) {
+    if ((BRANCH_EQUALS(1) && (CC_GETLAYER() == 46333957))) {
         unk11176();
         script15016();
     };

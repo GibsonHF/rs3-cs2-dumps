@@ -12,7 +12,7 @@ function script20067(): void {
         int1 = (IF_GETHEIGHT(comp(1477, 60)) / 2);
         IF_SETSIZE(22, 22, 1, 1, comp(1357, 7));
         IF_SETONDRAG(callback(), comp(1357, 1));
-        IF_SETDRAGGABLE(-1, -1, 88932353);
+        IF_SETDRAGGABLE(comp(-1, 65535), -1, comp(1357, 1));
     } else {
         IF_SETDRAGGABLE(comp(1357, 0), -1, comp(1357, 1));
     };

@@ -21,8 +21,8 @@ function script256(): void {
     CC_SETTEXTALIGN(1, 1, 0);
     string0 = `${CC_GETTEXT()}: The type of fish`;
     CC_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643));
-    IF_SETSIZE(IF_GETWIDTH(60227620), int1, 0, 0, 60227620);
-    CC_CREATE(60227620, 4, IF_GETNEXTSUBID(60227620));
+    IF_SETSIZE(IF_GETWIDTH(comp(919, 36)), int1, 0, 0, comp(919, 36));
+    CC_CREATE(comp(919, 36), 4, IF_GETNEXTSUBID(comp(919, 36)));
     if ((varclient_1927 >= 1)) {
         CC_SETCOLOUR(15849648);
     } else {
@@ -35,8 +35,8 @@ function script256(): void {
     CC_SETTEXTALIGN(1, 1, 0);
     string0 = `${CC_GETTEXT()}: The habitat in which you caught the fish`;
     CC_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643));
-    IF_SETSIZE(IF_GETWIDTH(60227621), int1, 0, 0, 60227621);
-    CC_CREATE(60227621, 4, IF_GETNEXTSUBID(60227621));
+    IF_SETSIZE(IF_GETWIDTH(comp(919, 37)), int1, 0, 0, comp(919, 37));
+    CC_CREATE(comp(919, 37), 4, IF_GETNEXTSUBID(comp(919, 37)));
     if ((varclient_1927 >= 1)) {
         CC_SETCOLOUR(15849648);
     } else {
@@ -49,11 +49,11 @@ function script256(): void {
     CC_SETTEXTALIGN(1, 1, 0);
     string0 = `${CC_GETTEXT()}: The weight of the fish`;
     CC_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643));
-    IF_SETSIZE(IF_GETWIDTH(60227622), int1, 0, 0, 60227622);
-    CC_CREATE(60227622, 5, IF_GETNEXTSUBID(60227622));
+    IF_SETSIZE(IF_GETWIDTH(comp(919, 38)), int1, 0, 0, comp(919, 38));
+    CC_CREATE(comp(919, 38), 5, IF_GETNEXTSUBID(comp(919, 38)));
     CC_SETSIZE(20, 20, 0, 0);
     CC_SETPOSITION(0, int0, 1, 2);
-    var int2 = -1;
+    var int2 = -1 as obj;
     switch (varclient_1114) {
         case 1: {
             int2 = 15658 as obj;
@@ -103,8 +103,8 @@ function script256(): void {
         string0 = "You do not know which bait was used to catch this big fish";
     };
     CC_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643));
-    IF_SETSIZE(IF_GETWIDTH(60227623), int1, 0, 0, 60227623);
-    CC_CREATE(60227623, 4, IF_GETNEXTSUBID(60227623));
+    IF_SETSIZE(IF_GETWIDTH(comp(919, 39)), int1, 0, 0, comp(919, 39));
+    CC_CREATE(comp(919, 39), 4, IF_GETNEXTSUBID(comp(919, 39)));
     if ((varclient_1927 >= 1)) {
         CC_SETCOLOUR(15849648);
     } else {
@@ -121,8 +121,8 @@ function script256(): void {
     };
     CC_SETTEXTALIGN(1, 1, 0);
     CC_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643));
-    IF_SETSIZE(IF_GETWIDTH(60227624), int1, 0, 0, 60227624);
-    CC_CREATE(60227624, 4, IF_GETNEXTSUBID(60227624));
+    IF_SETSIZE(IF_GETWIDTH(comp(919, 40)), int1, 0, 0, comp(919, 40));
+    CC_CREATE(comp(919, 40), 4, IF_GETNEXTSUBID(comp(919, 40)));
     if ((varclient_1927 >= 1)) {
         CC_SETCOLOUR(15849648);
     } else {
@@ -139,8 +139,8 @@ function script256(): void {
     };
     CC_SETTEXTALIGN(1, 1, 0);
     CC_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643));
-    IF_SETSIZE(IF_GETWIDTH(60227625), int1, 0, 0, 60227625);
-    CC_CREATE(60227625, 4, IF_GETNEXTSUBID(60227625));
+    IF_SETSIZE(IF_GETWIDTH(comp(919, 41)), int1, 0, 0, comp(919, 41));
+    CC_CREATE(comp(919, 41), 4, IF_GETNEXTSUBID(comp(919, 41)));
     if ((varclient_1927 >= 1)) {
         CC_SETCOLOUR(15849648);
     } else {
@@ -162,7 +162,7 @@ function script256(): void {
         string0 = "You helped a contestant to catch this big fish";
     };
     CC_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643));
-    if ((IF_GETHEIGHT(60227614) == 215)) {
+    if ((IF_GETHEIGHT(comp(919, 30)) == 215)) {
         script7791(60227619, 60227618);
     };
     varclient_1111 = -1;

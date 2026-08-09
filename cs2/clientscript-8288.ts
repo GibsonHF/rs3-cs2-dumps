@@ -52,7 +52,9 @@ function script8288(int0: number): void {
             break;
         }
         case 4: {
-            if (((int19 == 6) || ((varbitplayer_52957 > 0) && (script14441() == -1)))) {
+            if ((int19 == 6)) {
+                IF_TRIGGEROP(comp(1477, 25), -1, 1);
+            } else if (((varbitplayer_52957 > 0) && (script14441() == -1))) {
                 IF_TRIGGEROP(comp(1477, 25), -1, 1);
             };
             break;
@@ -144,10 +146,16 @@ function script8288(int0: number): void {
         script8311(1001);
         script6739(9);
     };
-    if (((varclient_4241 == -1) || ((script8292(varclient_4241, varclient_4242) == 0) && ((varclient_4241 != int0) || (varclient_4242 != int19))))) {
+    if ((varclient_4241 == -1)) {
         script189(varclient_4241, varclient_4242);
         varclient_4241 = varbitplayer_18994;
         varclient_4242 = int19;
+    } else if ((script8292(varclient_4241, varclient_4242) == 0)) {
+        if (((varclient_4241 != int0) || (varclient_4242 != int19))) {
+            script189(varclient_4241, varclient_4242);
+            varclient_4241 = varbitplayer_18994;
+            varclient_4242 = int19;
+        };
     };
     return;
 }

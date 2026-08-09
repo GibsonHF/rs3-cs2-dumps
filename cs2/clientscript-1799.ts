@@ -2,7 +2,7 @@
 function script1799(int0: number, int1: number): void {
     var int2 = 0;
     var int3 = 0;
-    var int4 = -1 as struct;
+    var int4 = -1;
     var int5 = 1;
     while ((int2 <= 4)) {
         int4 = enum_getvalue(0, 73, 1604 as cs2enum, int2);

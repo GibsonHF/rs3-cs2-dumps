@@ -26,20 +26,21 @@ function script13151(): void {
         };
     };
     var string0 = "Recolour Outfit<br><br>SHIFT+Click to recolour individual slots";
-    IF_SETONMOUSEREPEAT(callback(script3876, string0, -2147483645, -2147483643), 120783119);
+    IF_SETONMOUSEREPEAT(callback(script3876, string0, -2147483645, -2147483643), comp(1843, 271));
     string0 = "This outfit is not recolourable";
-    IF_SETONMOUSEREPEAT(callback(script3876, string0, -2147483645, -2147483643), 120783120);
+    IF_SETONMOUSEREPEAT(callback(script3876, string0, -2147483645, -2147483643), comp(1843, 272));
     string0 = "Undo All Changes<br><br>CTRL+Click to undo individual slots";
-    IF_SETONMOUSEREPEAT(callback(script3876, string0, -2147483645, -2147483643), 120783127);
+    IF_SETONMOUSEREPEAT(callback(script3876, string0, -2147483645, -2147483643), comp(1843, 279));
     string0 = "Clear All Customisations<br><br>Right click to clear individual slots";
-    IF_SETONMOUSEREPEAT(callback(script3876, string0, -2147483645, -2147483643), 120783171);
+    IF_SETONMOUSEREPEAT(callback(script3876, string0, -2147483645, -2147483643), comp(1843, 323));
     string0 = "Hide All Equipment<br><br>This will show your base clothing.<br>Right click to hide individual slots.";
-    IF_SETONMOUSEREPEAT(callback(script3876, string0, -2147483645, -2147483643), 120783134);
+    IF_SETONMOUSEREPEAT(callback(script3876, string0, -2147483645, -2147483643), comp(1843, 286));
     string0 = "Save as preset";
-    IF_SETONMOUSEREPEAT(callback(script3876, string0, -2147483645, -2147483643), 120783150);
+    IF_SETONMOUSEREPEAT(callback(script3876, string0, -2147483645, -2147483643), comp(1843, 302));
     var int0 = -1;
-    CC_DELETEALL(120783032);
-    while ((++int0 < 19)) {
+    CC_DELETEALL(comp(1843, 184));
+    int0 = (int0 + 1);
+    while ((int0 < 19)) {
         CC_CREATE(comp(1843, 184), 5, int0);
     };
     varclient_1968 = 0;
@@ -58,8 +59,8 @@ function script13151(): void {
     varclient_5939 = (INV_SIZE(675 as inv) - INV_FREESPACE(675 as inv));
     if ((varclient_5938 == 2)) {
         IF_SETONINVTRANSMIT(callback(script13158, 28519, 675, 1), comp(1843, 1));
-        IF_SETONVARCSTRTRANSMIT(callback(script13158, 35654, 5940, 5941, 5942, 5943, 8417, 8418, 8419, 8420, 8), 120782849);
-        IF_SETONVARTRANSMIT(callback(script13158, -1, 6808, 1), 120782849);
+        IF_SETONVARCSTRTRANSMIT(callback(script13158, 35654, 5940, 5941, 5942, 5943, 8417, 8418, 8419, 8420, 8), comp(1843, 1));
+        IF_SETONVARTRANSMIT(callback(script13158, -1, 6808, 1), comp(1843, 1));
     };
     IF_SETONTIMER(callback(script13157, -2147483645), comp(1843, 1));
     script13166(-1);

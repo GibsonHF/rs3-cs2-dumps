@@ -8,15 +8,9 @@ function script15739(int0: number, int1: number, int2: number, string0: string, 
     if ((DB_GETROWTABLE(int0) == 122)) {
         string2 = script20546(int0);
         unk11082(string3, script20660(int0), script20661(int0), int1);
-        string3 = script14145(stack(), script11623(stack()));
+        string3 = script14145(script11623());
         string3 = script14145(string3, script20662(int0), script20663(int0));
-        stack(string3);
-        stack("You currently own:");
-        stack(int0);
-        stack(499936);
-        stack(0);
-        dbrow_getfield();
-        string3 = script14145(stack(), script14241(stack()));
+        string3 = script14145(string3, "You currently own:", script14241(dbrow_getfield(int0, 499936, 0)));
     };
     switch (RANDOM(6)) {
         case 0: {
@@ -47,8 +41,8 @@ function script15739(int0: number, int1: number, int2: number, string0: string, 
     script18696(dbrow_getfield(int0, 499712, 0));
     script20547(string2, string0, 1, string3, dbrow_getfield(int0, 499792, 0), int2, dbrow_getfield(int0, 500048, 0));
     IF_SETONOP(callback(script20548), comp(1495, 22));
-    IF_SETONOP(callback(script20548), 97976322);
-    IF_SETONOP(callback(script15743, string1), 97976372);
-    IF_SETHIDE(0, 54263816);
+    IF_SETONOP(callback(script20548), comp(1495, 2));
+    IF_SETONOP(callback(script15743, string1), comp(1495, 52));
+    IF_SETHIDE(false, comp(828, 8));
     return;
 }

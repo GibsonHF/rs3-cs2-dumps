@@ -1,37 +1,37 @@
 //
 function script12206(int0: number): void {
-    var int1 = -1 as obj;
+    var int1 = -1;
     switch (int0) {
         case 112394298: {
-            int1 = 36739 as obj;
+            int1 = 36739;
             break;
         }
         case 112394320: {
-            int1 = 36740 as obj;
+            int1 = 36740;
             break;
         }
         case 112394309: {
-            int1 = 36741 as obj;
+            int1 = 36741;
             break;
         }
         case 112394278: {
-            int1 = 36742 as obj;
+            int1 = 36742;
             break;
         }
         case 112394288: {
-            int1 = 36743 as obj;
+            int1 = 36743;
             break;
         }
         case 112394351: {
-            int1 = 36744 as obj;
+            int1 = 36744;
             break;
         }
         case 112394331: {
-            int1 = 36745 as obj;
+            int1 = 36745;
             break;
         }
         case 112394341: {
-            int1 = 36735 as obj;
+            int1 = 36735;
             break;
         }
         case 112394279:

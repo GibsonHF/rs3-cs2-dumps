@@ -13,7 +13,8 @@ function script9716(int0: number, int1: number, int2: number, int3: number, int4
     var int8 = 0;
     var int9 = item_getparam(int0, 8605);
     var int10 = -1;
-    while ((++int10 < int9)) {
+    int10 = (int10 + 1);
+    while ((int10 < int9)) {
         if ((script9693(int1, int2, int10) > 0)) {
             int8 = (int8 + 1);
         };
@@ -35,10 +36,15 @@ function script9716(int0: number, int1: number, int2: number, int3: number, int4
     var int17 = 0;
     var int18 = INV_GETVAR(int1, int2, 50377);
     int10 = -1;
-    while ((++int10 < int9)) {
+    int10 = (int10 + 1);
+    while ((int10 < int9)) {
         [int16, int17] = script9689(int1, int2, int10);
         if ((int16 != -1 as obj)) {
-            CC_CREATE(int4, 5, int5++);
+            stack(int4);
+            stack(5);
+            stack(int5);
+            var int5 = (int5 + 1);
+            CC_CREATE();
             CC_SETSIZE(36, 32, 0, 0);
             CC_SETPOSITION(int15, int7, 1, 0);
             CC_SETOBJECT_ALWAYSNUM(int16, int17);

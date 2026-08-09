@@ -4,7 +4,8 @@ function script13111(): number {
     var int1 = -1;
     var int2 = -1;
     var int3 = -1;
-    while ((++int3 < varplayer_6809)) {
+    int3 = (int3 + 1);
+    while ((int3 < varplayer_6809)) {
         [int0, int1, int2] = script13113(int3);
         if ((script13112(int2) == 1)) {
             return 1;

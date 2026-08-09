@@ -5,7 +5,7 @@ function script5041(int0: number, int1: number, int2: number, int3: number): voi
     CC_SETPARAM_INT(1475, int2);
     var string0 = struct_getparam(int0, 1463);
     CC_SETOPBASE(`<col=ff9040>${string0}`);
-    var int4 = -1 as cs2enum;
+    var int4 = -1;
     switch (struct_getparam(int0, 1466)) {
         case 1: {
             CC_SETPARAM_INT(1476, script5020(int3));

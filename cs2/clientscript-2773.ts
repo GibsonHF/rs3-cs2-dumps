@@ -4,32 +4,32 @@ function script2773(int0: number, int1: number, int2: number, int3: number, int4
         return;
     };
     var int9 = comp(-1, 65535);
-    var int10 = -1;
+    var int10 = comp(-1, 65535);
     var int11 = -1;
-    var int12 = -1;
+    var int12 = -1 as graphic;
     switch (int0) {
         case 1: {
             CAM_DEC_Y();
             [int9, int10] = [int1, int5];
-            [int11, int12] = [2273, 2278];
+            [int11, int12] = [2273, 2278 as graphic];
             break;
         }
         case 2: {
             CAM_INC_Y();
             [int9, int10] = [int2, int6];
-            [int11, int12] = [2272, 2277];
+            [int11, int12] = [2272, 2277 as graphic];
             break;
         }
         case 3: {
             CAM_INC_X();
             [int9, int10] = [int3, int7];
-            [int11, int12] = [2274, 2279];
+            [int11, int12] = [2274, 2279 as graphic];
             break;
         }
         case 4: {
             CAM_DEC_X();
             [int9, int10] = [int4, int8];
-            [int11, int12] = [2275, 2280];
+            [int11, int12] = [2275, 2280 as graphic];
             break;
         }
         default: {

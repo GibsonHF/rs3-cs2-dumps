@@ -93,7 +93,7 @@ function script484(int0: number): void {
         IF_SETHIDE(true, comp(1015, 38));
         IF_SETHIDE(false, comp(1015, 78));
         IF_SETGRAPHIC(npc_getparam(int2, 1148), comp(1015, 59));
-        IF_SETTEXT(npc_getparam(int2, 1139), comp(1015, 57));
+        IF_SETTEXT(npc_getparam(int2, 1139), 66519097);
         IF_SETTEXT(`Movement: <col=ffffff>${inttostring(npc_getparam(int2, 1134), 10)}`, comp(1015, 83));
         IF_SETTEXT(`Damage: <col=ffffff>${inttostring((npc_getparam(int2, 1135) * 100), 10)}`, comp(1015, 84));
         IF_SETTEXT(`Health: <col=ffffff>${inttostring((npc_getparam(int2, 1136) * 100), 10)}`, comp(1015, 85));

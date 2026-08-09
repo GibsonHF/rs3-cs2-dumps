@@ -1,6 +1,11 @@
 //
 function script1058(): void {
-    if ((((((varbitplayer_19928 == 1) && (script1186() == 1)) || (varbitplayer_27169 == 1)) || (varbitplayer_60446 == 1)) || (varbitplayer_38842 == 1))) {
+    if ((varbitplayer_19928 == 1)) {
+        if (((((script1186() == 1) || (varbitplayer_27169 == 1)) || (varbitplayer_60446 == 1)) || (varbitplayer_38842 == 1))) {
+            IF_SETHIDE(true, comp(1477, 99));
+            return;
+        };
+    } else if ((((varbitplayer_27169 == 1) || (varbitplayer_60446 == 1)) || (varbitplayer_38842 == 1))) {
         IF_SETHIDE(true, comp(1477, 99));
         return;
     };

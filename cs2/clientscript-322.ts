@@ -8,7 +8,7 @@ function script322(int0: number, int1: number, int2: number, int3: number, int4:
     var int9 = 0;
     var int10 = 0;
     var int11 = -1;
-    var int12 = -1;
+    var int12 = -1 as obj;
     var int13 = -1 as obj;
     var string6 = "hello";
     var int14 = 0;
@@ -30,18 +30,26 @@ function script322(int0: number, int1: number, int2: number, int3: number, int4:
             int16 = (int16 + 1);
             CC_SETSIZE(48, 52, 0, 0);
             CC_SETPOSITION(int5, int6, 0, 0);
-            CC_SETGRAPHIC(2206);
-            CC_SETHIDE(1);
+            CC_SETGRAPHIC(2206 as graphic);
+            CC_SETHIDE(true);
             CC_CREATE(int0, 5, int16);
             CC_SETSIZE(36, 32, 0, 0);
             CC_SETPOSITION((int5 + 6), (int6 + 4), 0, 0);
-            int12 = enum_getvalue(0, 33, 1277, int8);
-            int13 = enum_getvalue(0, 33, 10053, int8);
-            int15 = enum_getvalue(33, 0, 1185, OC_UNCERT(int12));
-            if ((int13 == 12421)) {
+            int12 = enum_getvalue(0, 33, 1277 as cs2enum, int8);
+            int13 = enum_getvalue(0, 33, 10053 as cs2enum, int8);
+            int15 = enum_getvalue(33, 0, 1185 as cs2enum, OC_UNCERT(int12));
+            if ((int13 == 12421 as obj)) {
                 script1670(int13, int13, int0, int16, string0, string1, string2, string3, string4, string5);
-            } else if ((((INV_TOTAL(93 as inv, OC_UNCERT(int13)) > 0) && (INV_TOTAL(93 as inv, OC_UNCERT(int13)) >= item_getparam(OC_UNCERT(int13), 599))) && (STAT_BASE(23 as stat) >= enum_getvalue(0, 0, 1472 as cs2enum, int15)))) {
-                script1670(int13, int13, int0, int16, string0, string1, string2, string3, string4, string5);
+            } else if ((INV_TOTAL(93 as inv, OC_UNCERT(int13)) > 0)) {
+                if ((INV_TOTAL(93 as inv, OC_UNCERT(int13)) >= item_getparam(OC_UNCERT(int13), 599))) {
+                    if ((STAT_BASE(23 as stat) >= enum_getvalue(0, 0, 1472 as cs2enum, int15))) {
+                        script1670(int13, int13, int0, int16, string0, string1, string2, string3, string4, string5);
+                    } else {
+                        script1670(enum_getvalue(0, 33, 1184 as cs2enum, int8), int13, int0, int16, string0, string1, string2, string3, string4, string5);
+                    };
+                } else {
+                    script1670(enum_getvalue(0, 33, 1184 as cs2enum, int8), int13, int0, int16, string0, string1, string2, string3, string4, string5);
+                };
             } else {
                 script1670(enum_getvalue(0, 33, 1184 as cs2enum, int8), int13, int0, int16, string0, string1, string2, string3, string4, string5);
             };

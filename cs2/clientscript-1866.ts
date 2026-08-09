@@ -31,11 +31,11 @@ function script1866(int0: number, int1: number, int2: number): void {
     varclient_2545 = LOWERCASE(string0);
     var int3 = STRING_LENGTH(varclient_2545);
     var int4 = -1;
-    var int5 = -1 as coordgrid;
+    var int5 = -1;
     var int6 = -1;
     var int7 = 0;
     var string1 = "";
-    var int8 = -1 as coordgrid;
+    var int8 = -1;
     var int9 = 2147483647;
     var int10 = 2147483647;
     [int4, int5] = WORLDMAP_LISTELEMENT_START();
@@ -45,17 +45,15 @@ function script1866(int0: number, int1: number, int2: number): void {
         if (((int6 != -1) && (int6 <= int9))) {
             int7 = STRING_LENGTH(string0);
             if ((int7 < int10)) {
-                stack(string0);
-                stack(int5);
-                [string1, int8] = stack();
+                [string1, int8] = [string0, int5];
                 [int9, int10] = [int6, int7];
             };
         };
         [int4, int5] = WORLDMAP_LISTELEMENT_NEXT();
     };
-    if ((int8 == -1 as coordgrid)) {
-        varclient_3703 = -1 as coordgrid;
-        if ((PARAWIDTH(varclient_2545, IF_GETWIDTH(int2), 66 as fontmetrics) > IF_GETWIDTH(int2))) {
+    if ((int8 == -1)) {
+        varclient_3703 = -1;
+        if ((PARAWIDTH(varclient_2545, IF_GETWIDTH(int2), 66) > IF_GETWIDTH(int2))) {
             IF_SETTEXTALIGN(2, 1, 0, int2);
         } else {
             IF_SETTEXTALIGN(0, 1, 0, int2);

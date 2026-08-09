@@ -4,7 +4,8 @@ function script6289(): void {
     if (((MODULO(CLIENTCLOCK(), 4) == 0) && (CC_FIND(comp(1296, 2), 0) == 1))) {
         if ((varclient_1932 == 0)) {
             int0 = CC_GETY();
-            if ((++int0 > 30)) {
+            int0 = (int0 + 1);
+            if ((int0 > 30)) {
                 varclient_1932 = 1;
             } else {
                 CC_SETPOSITION(0, int0, 0, 0);

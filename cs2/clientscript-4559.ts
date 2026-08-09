@@ -88,7 +88,7 @@ function script4559(int0: number, int1: number, int2: number, int3: number, int4
                     };
                     CC_SETONOP(callback(script4564, string2, -2147483644, int12));
                 };
-                if ((operator(">=", CLAN_GETCHATMINKICK(CLAN_GETCHATRANK())) && (CLAN_GETCHATRANK() > int20))) {
+                if ((BRANCH_GREATER_THAN_OR_EQUALS(CLAN_GETCHATMINKICK(CLAN_GETCHATRANK())) && (CLAN_GETCHATRANK() > int20))) {
                     CC_SETOP(10, "Kick/ban");
                 };
             };

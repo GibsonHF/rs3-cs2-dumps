@@ -76,8 +76,16 @@ function script13531(int0: number, int1: number, int2: number, int3: number): vo
     };
     IF_SETSIZE(int8, 0, 0, 1, int4);
     IF_SETPOSITION(int9, 0, 0, 2, int4);
-    if (((int0 == 1) && (varbitplayer_36983 == 1))) {
-        script9917(int0, 3);
+    if ((int0 == 1)) {
+        if ((varbitplayer_36983 == 1)) {
+            script9917(int0, 3);
+        } else if ((int1 == 0)) {
+            script9917(int0, 0);
+        } else if ((int2 == 1)) {
+            script9917(int0, 1);
+        } else {
+            script9917(int0, 2);
+        };
     } else if ((int1 == 0)) {
         script9917(int0, 0);
     } else if ((int2 == 1)) {
@@ -85,8 +93,17 @@ function script13531(int0: number, int1: number, int2: number, int3: number): vo
     } else {
         script9917(int0, 2);
     };
-    if (((varclient_41 != -1) && (script9913(int0) == 1))) {
-        IF_SETGRAPHIC(35463 as graphic, int5);
+    if ((varclient_41 != -1)) {
+        if ((script9913(int0) == 1)) {
+            IF_SETGRAPHIC(35463 as graphic, int5);
+        } else {
+            int6 = script9921(int0);
+            if (((int6 == 0) || (MODULO((int6 / 25), 2) == 1))) {
+                IF_SETGRAPHIC(35463 as graphic, int5);
+            } else {
+                IF_SETGRAPHIC(34645 as graphic, int5);
+            };
+        };
     } else {
         int6 = script9921(int0);
         if (((int6 == 0) || (MODULO((int6 / 25), 2) == 1))) {

@@ -4,9 +4,9 @@ function script20570(int0: number, int1: number, int2: number): void {
     var string0 = enum_getvalue(17, 36, 680 as cs2enum, int0);
     var string1 = "";
     var int4 = script20568(int0);
-    var int5 = 3495 as cs2enum;
+    var int5 = 3495;
     if ((int4 == 1)) {
-        int5 = 371 as cs2enum;
+        int5 = 371;
     };
     CC_DELETEALL(int1);
     var int6 = 21363;

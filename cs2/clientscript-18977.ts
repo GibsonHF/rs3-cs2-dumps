@@ -17,9 +17,9 @@ function script18977(int0: number): string {
     var string0 = "Found within excavations:<br>";
     var int4 = 0;
     var int5 = -1;
-    while ((++int5 < int2)) {
-        dbrow_findnext();
-        int3 = stack();
+    int5 = (int5 + 1);
+    while ((int5 < int2)) {
+        int3 = dbrow_findnext();
         if ((int4 > 0)) {
             string0 = `${string0}<br>`;
         };

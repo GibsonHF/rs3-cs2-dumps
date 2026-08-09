@@ -1,5 +1,5 @@
 //
-function script1212(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number, int8: number, int9: number, long0: BigInt, string0: string): void {
+function script1212(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number, int8: number, int9: number, string0: string, long0: bigint): void {
     var int10 = 29 as fontmetrics;
     if ((script6431() == 1)) {
         int10 = 31 as fontmetrics;
@@ -61,21 +61,21 @@ function script1212(int0: number, int1: number, int2: number, int3: number, int4
     int12 = (int12 + 1);
     if ((varclient_1700 == 2)) {
         var int5 = (int5 - 18);
-        if (branch_gt_long[232](long0, 0n)) {
+        if (LONG_BRANCH_GREATER_THAN(long0, 0n)) {
             CC_CREATE(int0, 5, int12);
             string1 = "GE guide price";
             CC_SETONMOUSEREPEAT(callback(script8799, string1, -2147483645, -2147483643));
             CC_SETSIZE(23, 23, 0, 0);
             CC_SETPOSITION(8, int5, 0, 2);
-            CC_SETGRAPHIC(23047);
+            CC_SETGRAPHIC(23047 as graphic);
             int12 = (int12 + 1);
             CC_CREATE(int0, 4, int12);
             CC_SETSIZE(22, 20, 1, 1);
             CC_SETPOSITION(33, int5, 0, 2);
-            CC_SETTEXTFONT(29);
+            CC_SETTEXTFONT(29 as fontmetrics);
             CC_SETCOLOUR(16768768);
             CC_SETTEXTALIGN(0, 2, 15);
-            CC_SETTEXTSHADOW(0);
+            CC_SETTEXTSHADOW(false);
             CC_SETTEXT(`~${TOSTRING_LOCALISED_LONG(long0, 1)} coins`);
             int5 = (int5 - 25);
             int12 = (int12 + 1);
@@ -95,10 +95,10 @@ function script1212(int0: number, int1: number, int2: number, int3: number, int4
             CC_CREATE(int0, 4, int12);
             CC_SETSIZE(22, 20, 1, 1);
             CC_SETPOSITION(33, int5, 0, 2);
-            CC_SETTEXTFONT(29);
+            CC_SETTEXTFONT(29 as fontmetrics);
             CC_SETCOLOUR(15458492);
             CC_SETTEXTALIGN(0, 2, 15);
-            CC_SETTEXTSHADOW(0);
+            CC_SETTEXTSHADOW(false);
             CC_SETTEXT(`= ${TOSTRING_LOCALISED(int9, 1)}`);
             int5 = (int5 - 25);
             int12 = (int12 + 1);
@@ -109,15 +109,15 @@ function script1212(int0: number, int1: number, int2: number, int3: number, int4
             CC_SETONMOUSEREPEAT(callback(script8799, string1, -2147483645, -2147483643));
             CC_SETSIZE(23, 23, 0, 0);
             CC_SETPOSITION(8, int5, 0, 2);
-            CC_SETGRAPHIC(14379);
+            CC_SETGRAPHIC(14379 as graphic);
             int12 = (int12 + 1);
             CC_CREATE(int0, 4, int12);
             CC_SETSIZE(22, 20, 1, 1);
             CC_SETPOSITION(33, int5, 0, 2);
-            CC_SETTEXTFONT(29);
+            CC_SETTEXTFONT(29 as fontmetrics);
             CC_SETCOLOUR(16768768);
             CC_SETTEXTALIGN(0, 2, 15);
-            CC_SETTEXTSHADOW(0);
+            CC_SETTEXTSHADOW(false);
             CC_SETTEXT(`= ${TOSTRING_LOCALISED(int7, 1)} coins`);
             int5 = (int5 - 25);
             int12 = (int12 + 1);
@@ -128,15 +128,15 @@ function script1212(int0: number, int1: number, int2: number, int3: number, int4
             CC_SETONMOUSEREPEAT(callback(script8799, string1, -2147483645, -2147483643));
             CC_SETSIZE(23, 23, 0, 0);
             CC_SETPOSITION(8, int5, 0, 2);
-            CC_SETGRAPHIC(22458);
+            CC_SETGRAPHIC(22458 as graphic);
             int12 = (int12 + 1);
             CC_CREATE(int0, 4, int12);
             CC_SETSIZE(22, 20, 1, 1);
             CC_SETPOSITION(33, int5, 0, 2);
-            CC_SETTEXTFONT(29);
+            CC_SETTEXTFONT(29 as fontmetrics);
             CC_SETCOLOUR(15458492);
             CC_SETTEXTALIGN(0, 2, 15);
-            CC_SETTEXTSHADOW(0);
+            CC_SETTEXTSHADOW(false);
             CC_SETTEXT(`x ${TOSTRING_LOCALISED(int6, 1)}`);
             int5 = (int5 - 25);
             int12 = (int12 + 1);

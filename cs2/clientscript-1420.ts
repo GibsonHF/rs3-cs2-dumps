@@ -8,8 +8,10 @@ function script1420(): number {
             if (((CAM2_ISENABLED() == 1) || (CAM2_GETCONTROLMODE() == 1))) {
                 return 1;
             };
-        } else if ((((varbitplayer_3028 == 1) && (varbitplayer_3031 == 1)) && ((CAM2_ISENABLED() == 1) || (CAM2_GETCONTROLMODE() == 1)))) {
-            return 1;
+        } else if (((varbitplayer_3028 == 1) && (varbitplayer_3031 == 1))) {
+            if (((CAM2_ISENABLED() == 1) || (CAM2_GETCONTROLMODE() == 1))) {
+                return 1;
+            };
         };
     };
     return 0;

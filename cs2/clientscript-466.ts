@@ -7,7 +7,49 @@ function script466(): number {
         int2 = INV_GETVAR(94 as inv, 2, 47702);
         if ((int2 > 0)) {
             int1 = enum_getvalue(0, 33, 15970 as cs2enum, int2);
-            if ((((item_getparam(int0, 2825) == 1) && (item_getparam(int1, 2825) == 1)) || (((item_getparam(int0, 2827) == 1) && (item_getparam(int1, 2827) == 1)) || (((item_getparam(int0, 2826) == 1) && (item_getparam(int1, 2826) == 1)) || ((item_getparam(int0, 8898) == 1) && (item_getparam(int1, 8898) == 1)))))) {
+            if ((item_getparam(int0, 2825) == 1)) {
+                if ((item_getparam(int1, 2825) == 1)) {
+                    return 1;
+                } else if ((item_getparam(int0, 2827) == 1)) {
+                    if ((item_getparam(int1, 2827) == 1)) {
+                        return 1;
+                    } else if ((item_getparam(int0, 2826) == 1)) {
+                        if ((item_getparam(int1, 2826) == 1)) {
+                            return 1;
+                        } else if (((item_getparam(int0, 8898) == 1) && (item_getparam(int1, 8898) == 1))) {
+                            return 1;
+                        };
+                    } else if (((item_getparam(int0, 8898) == 1) && (item_getparam(int1, 8898) == 1))) {
+                        return 1;
+                    };
+                } else if ((item_getparam(int0, 2826) == 1)) {
+                    if ((item_getparam(int1, 2826) == 1)) {
+                        return 1;
+                    } else if (((item_getparam(int0, 8898) == 1) && (item_getparam(int1, 8898) == 1))) {
+                        return 1;
+                    };
+                } else if (((item_getparam(int0, 8898) == 1) && (item_getparam(int1, 8898) == 1))) {
+                    return 1;
+                };
+            } else if ((item_getparam(int0, 2827) == 1)) {
+                if ((item_getparam(int1, 2827) == 1)) {
+                    return 1;
+                } else if ((item_getparam(int0, 2826) == 1)) {
+                    if ((item_getparam(int1, 2826) == 1)) {
+                        return 1;
+                    } else if (((item_getparam(int0, 8898) == 1) && (item_getparam(int1, 8898) == 1))) {
+                        return 1;
+                    };
+                } else if (((item_getparam(int0, 8898) == 1) && (item_getparam(int1, 8898) == 1))) {
+                    return 1;
+                };
+            } else if ((item_getparam(int0, 2826) == 1)) {
+                if ((item_getparam(int1, 2826) == 1)) {
+                    return 1;
+                } else if (((item_getparam(int0, 8898) == 1) && (item_getparam(int1, 8898) == 1))) {
+                    return 1;
+                };
+            } else if (((item_getparam(int0, 8898) == 1) && (item_getparam(int1, 8898) == 1))) {
                 return 1;
             };
         };

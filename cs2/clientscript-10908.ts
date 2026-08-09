@@ -33,16 +33,16 @@ function script10908(): void {
         switch (struct_getparam(varplayer_5062, 4754)) {
             case 2: {
                 IF_SETSIZE(500, 120, 0, 0, comp(1579, 4));
-                IF_SETTEXT(struct_getparam(varplayer_5062, 4756), comp(1579, 23));
-                IF_SETTEXT(struct_getparam(varplayer_5062, 4757), comp(1579, 42));
+                IF_SETTEXT(struct_getparam(varplayer_5062, 4756), 103481367);
+                IF_SETTEXT(struct_getparam(varplayer_5062, 4757), 103481386);
                 break;
             }
             case 3: {
                 IF_SETSIZE(500, 120, 0, 0, comp(1579, 4));
                 IF_SETHIDE(false, comp(1579, 30));
-                IF_SETTEXT(struct_getparam(varplayer_5062, 4756), comp(1579, 23));
-                IF_SETTEXT(struct_getparam(varplayer_5062, 4757), comp(1579, 42));
-                IF_SETTEXT(struct_getparam(varplayer_5062, 4758), comp(1579, 50));
+                IF_SETTEXT(struct_getparam(varplayer_5062, 4756), 103481367);
+                IF_SETTEXT(struct_getparam(varplayer_5062, 4757), 103481386);
+                IF_SETTEXT(struct_getparam(varplayer_5062, 4758), 103481394);
                 IF_SETPOSITION(0, 86, 1, 0, comp(1579, 30));
                 break;
             }
@@ -50,10 +50,10 @@ function script10908(): void {
                 IF_SETSIZE(500, 160, 0, 0, comp(1579, 4));
                 IF_SETHIDE(false, comp(1579, 30));
                 IF_SETHIDE(false, comp(1579, 31));
-                IF_SETTEXT(struct_getparam(varplayer_5062, 4756), comp(1579, 23));
-                IF_SETTEXT(struct_getparam(varplayer_5062, 4757), comp(1579, 42));
-                IF_SETTEXT(struct_getparam(varplayer_5062, 4758), comp(1579, 50));
-                IF_SETTEXT(struct_getparam(varplayer_5062, 4759), comp(1579, 58));
+                IF_SETTEXT(struct_getparam(varplayer_5062, 4756), 103481367);
+                IF_SETTEXT(struct_getparam(varplayer_5062, 4757), 103481386);
+                IF_SETTEXT(struct_getparam(varplayer_5062, 4758), 103481394);
+                IF_SETTEXT(struct_getparam(varplayer_5062, 4759), 103481402);
                 break;
             }
             case 5: {
@@ -61,31 +61,31 @@ function script10908(): void {
                 IF_SETHIDE(false, comp(1579, 30));
                 IF_SETHIDE(false, comp(1579, 31));
                 IF_SETHIDE(false, comp(1579, 32));
-                IF_SETTEXT(struct_getparam(varplayer_5062, 4756), comp(1579, 23));
-                IF_SETTEXT(struct_getparam(varplayer_5062, 4757), comp(1579, 42));
-                IF_SETTEXT(struct_getparam(varplayer_5062, 4758), comp(1579, 50));
-                IF_SETTEXT(struct_getparam(varplayer_5062, 4759), comp(1579, 58));
-                IF_SETTEXT(struct_getparam(varplayer_5062, 4760), comp(1579, 66));
+                IF_SETTEXT(struct_getparam(varplayer_5062, 4756), 103481367);
+                IF_SETTEXT(struct_getparam(varplayer_5062, 4757), 103481386);
+                IF_SETTEXT(struct_getparam(varplayer_5062, 4758), 103481394);
+                IF_SETTEXT(struct_getparam(varplayer_5062, 4759), 103481402);
+                IF_SETTEXT(struct_getparam(varplayer_5062, 4760), 103481410);
                 break;
             }
         };
         IF_SETONTIMER(callback(script10909, CLIENTCLOCK(), (CLIENTCLOCK() + 775)), comp(1579, 12));
     } else if ((varplayer_5063 > 0)) {
         IF_SETSIZE(1, 5, 0, 0, comp(1579, 26));
-        IF_SETTEXT(varclient_4697, comp(1579, 7));
+        IF_SETTEXT(varclient_4697, 103481351);
         switch (varplayer_5063) {
             case 2: {
                 IF_SETSIZE(500, 120, 0, 0, comp(1579, 4));
-                IF_SETTEXT(varclient_4698, comp(1579, 23));
-                IF_SETTEXT(varclient_4699, comp(1579, 42));
+                IF_SETTEXT(varclient_4698, 103481367);
+                IF_SETTEXT(varclient_4699, 103481386);
                 break;
             }
             case 3: {
                 IF_SETSIZE(500, 120, 0, 0, comp(1579, 4));
                 IF_SETHIDE(false, comp(1579, 30));
-                IF_SETTEXT(varclient_4698, comp(1579, 23));
-                IF_SETTEXT(varclient_4699, comp(1579, 42));
-                IF_SETTEXT(varclient_4700, comp(1579, 50));
+                IF_SETTEXT(varclient_4698, 103481367);
+                IF_SETTEXT(varclient_4699, 103481386);
+                IF_SETTEXT(varclient_4700, 103481394);
                 IF_SETPOSITION(0, 86, 1, 0, comp(1579, 30));
                 break;
             }
@@ -93,10 +93,10 @@ function script10908(): void {
                 IF_SETSIZE(500, 160, 0, 0, comp(1579, 4));
                 IF_SETHIDE(false, comp(1579, 30));
                 IF_SETHIDE(false, comp(1579, 31));
-                IF_SETTEXT(varclient_4698, comp(1579, 23));
-                IF_SETTEXT(varclient_4699, comp(1579, 42));
-                IF_SETTEXT(varclient_4700, comp(1579, 50));
-                IF_SETTEXT(varclient_4701, comp(1579, 58));
+                IF_SETTEXT(varclient_4698, 103481367);
+                IF_SETTEXT(varclient_4699, 103481386);
+                IF_SETTEXT(varclient_4700, 103481394);
+                IF_SETTEXT(varclient_4701, 103481402);
                 break;
             }
             case 5: {
@@ -104,11 +104,11 @@ function script10908(): void {
                 IF_SETHIDE(false, comp(1579, 30));
                 IF_SETHIDE(false, comp(1579, 31));
                 IF_SETHIDE(false, comp(1579, 32));
-                IF_SETTEXT(varclient_4698, comp(1579, 23));
-                IF_SETTEXT(varclient_4699, comp(1579, 42));
-                IF_SETTEXT(varclient_4700, comp(1579, 50));
-                IF_SETTEXT(varclient_4701, comp(1579, 58));
-                IF_SETTEXT(varclient_4702, comp(1579, 66));
+                IF_SETTEXT(varclient_4698, 103481367);
+                IF_SETTEXT(varclient_4699, 103481386);
+                IF_SETTEXT(varclient_4700, 103481394);
+                IF_SETTEXT(varclient_4701, 103481402);
+                IF_SETTEXT(varclient_4702, 103481410);
                 break;
             }
         };

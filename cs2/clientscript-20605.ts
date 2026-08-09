@@ -17,7 +17,8 @@ function script20605(int0: number): void {
     IF_SETSIZE(int3, 13, 0, 0, comp(1495, 36));
     var int4 = -1;
     var int5 = -1;
-    while ((++int4 < int2)) {
+    int4 = (int4 + 1);
+    while ((int4 < int2)) {
         if ((int4 == 0)) {
             int5 = 17038;
         } else {

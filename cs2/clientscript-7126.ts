@@ -38,13 +38,13 @@ function script7126(int0: number, int1: number): void {
             string0 = strconcat(string0, "xp");
         };
         if ((int9 > 0)) {
-            string1 = `${TOSTRING_LOCALISED(int8, 1)}${script8002()}${inttostring(int9, 10)} ${enum_getvalue(0, 36, 108 as cs2enum, int3)} Experience`;
+            string1 = `${TOSTRING_LOCALISED(int8, 1)}${script8002()}${inttostring(int9, 10)} ${enum_getvalue(0, 36, 108, int3)} Experience`;
         } else {
-            string1 = `${TOSTRING_LOCALISED(int8, 1)} ${enum_getvalue(0, 36, 108 as cs2enum, int3)} Experience`;
+            string1 = `${TOSTRING_LOCALISED(int8, 1)} ${enum_getvalue(0, 36, 108, int3)} Experience`;
         };
     } else {
         int5 = 1;
-        int6 = -1 as graphic;
+        int6 = -1;
         string0 = "-";
         string1 = "No xp Gain";
     };
@@ -76,13 +76,13 @@ function script7126(int0: number, int1: number): void {
             string0 = strconcat(string0, "xp");
         };
         if ((int9 > 0)) {
-            string1 = `${TOSTRING_LOCALISED(int8, 1)}${script8002()}${inttostring(int9, 10)} ${enum_getvalue(0, 36, 108 as cs2enum, int3)} Experience`;
+            string1 = `${TOSTRING_LOCALISED(int8, 1)}${script8002()}${inttostring(int9, 10)} ${enum_getvalue(0, 36, 108, int3)} Experience`;
         } else {
-            string1 = `${TOSTRING_LOCALISED(int8, 1)} ${enum_getvalue(0, 36, 108 as cs2enum, int3)} Experience`;
+            string1 = `${TOSTRING_LOCALISED(int8, 1)} ${enum_getvalue(0, 36, 108, int3)} Experience`;
         };
     } else {
         int5 = 1;
-        int6 = -1 as graphic;
+        int6 = -1;
         string0 = "-";
         string1 = "No Secondary xp gain";
     };
@@ -118,7 +118,7 @@ function script7126(int0: number, int1: number): void {
             int11 = (int4 * MAX(1, SCALE(script17369(int1), 100, 30)));
             string5 = script940(int11);
             string2 = `${string2}: ${TOSTRING_LOCALISED(int11, 1)}`;
-            if (branch_not_long[393](varclient_2224, -1n)) {
+            if (LONG_BRANCH_NOT(varclient_2224, -1n)) {
                 int14 = 0;
                 long0 = MULTIPLY_LONG(INT_TO_LONG(int4), varclient_2224);
                 string6 = script17370(long0);
@@ -156,8 +156,8 @@ function script7126(int0: number, int1: number): void {
         string6 = "-";
         string7 = "-";
     };
-    script2554(int0, 1, 8955 as graphic, string5, string2, int12, 1);
-    script2554(int0, 2, 1158 as graphic, string6, string3, int14, int15);
-    script2554(int0, 3, 13660 as graphic, string7, string4, int13, 1);
+    script2554(int0, 1, 8955, string5, string2, int12, 1);
+    script2554(int0, 2, 1158, string6, string3, int14, int15);
+    script2554(int0, 3, 13660, string7, string4, int13, 1);
     return;
 }

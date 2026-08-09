@@ -12,5 +12,5 @@ function script6762(int0: number, int1: number): [number, number] {
         }
     };
     script12478("Unexpected promo in trh_get_reward_per_key_item - returning null,0");
-    return [-1 as obj, 0];
+    return [-1, 0];
 }

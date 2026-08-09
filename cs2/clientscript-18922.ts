@@ -4,7 +4,7 @@ function script18922(int0: number, int1: number): number {
     var int3 = -1 as graphic;
     var int4 = 0;
     var int5 = script18919(int0);
-    if (((int5 == -1) && (int0 != -1 as dbrow))) {
+    if (((int5 == -1) && (int0 != -1))) {
         switch (int1) {
             case 7: {
                 int2 = dbrow_getfield(int0, 1167520, 0);

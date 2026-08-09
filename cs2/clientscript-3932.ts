@@ -10,7 +10,7 @@ function script3932(int0: number, int1: number): void {
         return;
     };
     IF_SETONTIMER(callback(), int0);
-    varclient_5187 = 1;
+    varclient_5187 = true;
     varclient_6503 = 1;
     script2593();
     if ((script6431() == 1)) {

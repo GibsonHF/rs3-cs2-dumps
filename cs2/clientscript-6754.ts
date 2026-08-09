@@ -1,6 +1,6 @@
 //
 function script6754(int0: number): void {
-    var int1 = comp(1253, 320);
+    var int1 = 82116928;
     CC_DELETEALL(int1);
     script10026(int1, 0, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0);
     var int2 = 0;
@@ -21,8 +21,7 @@ function script6754(int0: number): void {
         }
     };
     DB_LISTALL(int4);
-    dbrow_findnext();
-    var int5 = stack();
+    var int5 = dbrow_findnext();
     var int6 = -1;
     var int7 = 0;
     var string0 = "";
@@ -62,8 +61,7 @@ function script6754(int0: number): void {
                 CC_SETONMOUSEREPEAT(callback(script3876, string0, -2147483645, -2147483643));
             };
         };
-        dbrow_findnext();
-        int5 = stack();
+        int5 = dbrow_findnext();
     };
     IF_SETTEXT(`Bonus Prizes  <col=FFFFFF>(${inttostring(int2, 10)})</col>`, comp(1253, 317));
     if ((CC_FIND(int1, 0) == 1)) {

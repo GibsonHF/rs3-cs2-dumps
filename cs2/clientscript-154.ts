@@ -2,8 +2,12 @@
 function script154(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, string0: string, string1: string, string2: string, string3: string, string4: string, string5: string, string6: string, string7: string, string8: string): void {
     if ((CC_FIND(int2, int3) == 1)) {
         if ((INV_GETOBJ(int0, int1) != -1 as obj)) {
-            if (((int0 == 90 as inv) && (INV_GETOBJ(int0, int1) == 995 as obj))) {
-                CC_SETOBJECT_LONG(995 as obj, script17402(626, 90));
+            if ((int0 == 90 as inv)) {
+                if ((INV_GETOBJ(int0, int1) == 995 as obj)) {
+                    CC_SETOBJECT_LONG(995 as obj, script17402(626, 90));
+                } else {
+                    CC_SETOBJECT(INV_GETOBJ(int0, int1), INV_GETNUM(int0, int1));
+                };
             } else {
                 CC_SETOBJECT(INV_GETOBJ(int0, int1), INV_GETNUM(int0, int1));
             };

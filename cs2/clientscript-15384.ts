@@ -26,7 +26,11 @@ function script15384(int0: number): void {
     script15786(37945381, 37945379, int7, 37945386, 37945384, int8, 37945391, 37945389, int9);
     var int10 = 1;
     while ((int10 <= varclient_6857)) {
-        if ((((int10 == 1) && (varclient_6857 > 1)) || (int10 > 1))) {
+        if ((int10 == 1)) {
+            if (((varclient_6857 > 1) || (int10 > 1))) {
+                script15386(0, int10);
+            };
+        } else if ((int10 > 1)) {
             script15386(0, int10);
         };
         int10 = (int10 + 1);

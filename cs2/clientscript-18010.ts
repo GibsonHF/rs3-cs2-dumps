@@ -39,6 +39,6 @@ function script18010(): void {
     IF_SETSCROLLPOS(0, 0, int9);
     IF_SETSCROLLSIZE(int10, IF_GETHEIGHT(int9), int9);
     script11147(80412707, int9);
-    IF_SETONTIMER(callback(script18012, 15, 1, int0, 0, 3, 0, 3, 0), 80412705);
+    IF_SETONTIMER(callback(script18012, 15, 1, int0, 0, 3, 0, 3, 0), comp(1227, 33));
     return;
 }

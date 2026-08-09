@@ -1,7 +1,15 @@
 //
 function script16227(int0: number, int1: number, int2: number, int3: number, int4: number, string0: string): number {
-    CC_CREATE(int0, 5, int1++);
-    CC_CREATE[1](int0, 4, int1++);
+    stack(int0);
+    stack(5);
+    stack(int1);
+    var int1 = (int1 + 1);
+    CC_CREATE();
+    stack(int0);
+    stack(4);
+    stack(int1);
+    int1 = (int1 + 1);
+    CC_CREATE[1]();
     var int5 = (10 + (83 * int2));
     if ((int4 == 1)) {
         CC_SETGRAPHIC(15968 as graphic);

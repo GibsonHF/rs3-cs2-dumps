@@ -37,13 +37,17 @@ function script174(int0: number, int1: number, int2: number, string0: string): n
         MES_TYPED(46, 0, "You need to be a guest in a Clan Channel to use Guest Clan Quick Chat.");
         return 0;
     };
-    if ((((int0 == 13) || (int0 == 15)) && (PLAYER_GROUP_FIND() == 0))) {
-        MES_TYPED(128, 0, "You need to be in a group to use Group Quick Chat.");
-        return 0;
+    if (((int0 == 13) || (int0 == 15))) {
+        if ((PLAYER_GROUP_FIND() == 0)) {
+            MES_TYPED(128, 0, "You need to be in a group to use Group Quick Chat.");
+            return 0;
+        };
     };
-    if (((int0 == 17) && ((script19316() == 0) || (unk10993(1) == 0)))) {
-        MES_TYPED(144, 0, "Group Ironman chat is currently unavailable.");
-        return 0;
+    if ((int0 == 17)) {
+        if (((script19316() == 0) || (unk10993(1) == 0))) {
+            MES_TYPED(144, 0, "Group Ironman chat is currently unavailable.");
+            return 0;
+        };
     };
     IF_SETHIDE(true, script8585(int2));
     IF_SETHIDE(false, script8586(int2));

@@ -98,6 +98,7 @@ function script3723(int0: number, int1: number): [number, number] {
             return script17017();
         }
         case 3087: {
+            break;
         }
         default: {
             return [0, 0];

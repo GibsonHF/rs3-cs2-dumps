@@ -9,7 +9,9 @@ function script11816(int0: number): void {
     if (((int1 == -1) && (int2 == -1))) {
         return;
     };
-    if (((((script8314(int1) != -1) || (script8314(int2) != -1)) || (script6431() == 1)) || ((varbitplayer_27170 == 2) && (script8314(5) != -1)))) {
+    if ((((script8314(int1) != -1) || (script8314(int2) != -1)) || (script6431() == 1))) {
+        script11817(int0);
+    } else if (((varbitplayer_27170 == 2) && (script8314(5) != -1))) {
         script11817(int0);
     };
     if ((script8314(1003) != -1)) {

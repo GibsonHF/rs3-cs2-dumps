@@ -7,9 +7,10 @@ function script950(int0: number): string {
     var int2 = 0;
     var int3 = 0;
     var int4 = 0;
-    var int5 = -1 as stat;
+    var int5 = -1;
     var int6 = ENUM_GETOUTPUTCOUNT(681 as cs2enum);
-    while ((++int1 <= int6)) {
+    int1 = (int1 + 1);
+    while ((int1 <= int6)) {
         int5 = enum_getvalue(0, 17, 681 as cs2enum, int1);
         if ((script951(int0, int5) == 1)) {
             int4 = script952(int0, int5);
@@ -21,7 +22,7 @@ function script950(int0: number): string {
                 string0 = strconcat(string0, `<col=00ff00>${string2} +${inttostring(int4, 10)}`);
                 int2 = (int2 + 1);
             } else if ((int4 < 0)) {
-                string2 = enum_getvalue(0, 36, 108 as cs2enum, int1);
+                string2 = enum_getvalue(0, 36, 108, int1);
                 if ((int3 > 0)) {
                     string1 = strconcat(string1, "<br>");
                 };
@@ -30,7 +31,7 @@ function script950(int0: number): string {
             };
         };
         int4 = 0;
-        int5 = -1 as stat;
+        int5 = -1;
     };
     if ((int2 > 1)) {
         string0 = strconcat("Temporarily increases:<br>", string0);

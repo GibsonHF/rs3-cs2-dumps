@@ -23,7 +23,7 @@ function script11810(int0: number): void {
         };
         if (((int5 != comp(-1, 65535)) && (IF_FIND(int5) == 1))) {
             CC_SETONTIMER(callback());
-            CC_SETHIDE(1);
+            CC_SETHIDE(true);
         };
         if (((int2 != comp(-1, 65535)) && (IF_FIND(int2) == 1))) {
             cc_setparam(5314, 0);

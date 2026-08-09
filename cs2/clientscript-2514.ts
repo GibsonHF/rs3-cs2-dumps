@@ -3,7 +3,7 @@ function script2514(int0: number): void {
     var int1 = 1023;
     var int2 = script20385();
     var int3 = enum_getvalue(0, 74, 14569 as cs2enum, int0);
-    var int4 = -1 as dbrow;
+    var int4 = -1;
     var int5 = DB_GETFIELDCOUNT(int3, 127024);
     var int6 = 0;
     if ((int5 > 0)) {

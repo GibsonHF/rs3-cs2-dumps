@@ -2,13 +2,13 @@
 function script15355(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number): void {
     var int7 = comp(1851, 12);
     IF_SETONVARTRANSMIT(callback(script15354, int0, int1, int2, int3, int4, 7120, 1), int7);
-    var int8 = 121307149;
-    var int9 = 121307157;
+    var int8 = comp(1851, 13);
+    var int9 = comp(1851, 21);
     CC_DELETEALL(int8);
     CC_DELETEALL(int9);
-    IF_SETHIDE(1, 121307158);
+    IF_SETHIDE(true, comp(1851, 22));
     var int10 = ENUM_GETOUTPUTCOUNT(int2);
-    var int11 = enum_getreverseindex(41, 0, 16072, int3, 0);
+    var int11 = enum_getreverseindex(41, 0, 16072 as cs2enum, int3, 0);
     if ((int11 == -1)) {
         int11 = ENUM_GETOUTPUTCOUNT(16072 as cs2enum);
     };
@@ -28,7 +28,7 @@ function script15355(int0: number, int1: number, int2: number, int3: number, int
     var int20 = -1 as category;
     int12 = 0;
     var string1 = "";
-    var int21 = -1 as category;
+    var int21 = -1;
     if ((varplayer_9607 != -1 as achievement)) {
         int21 = ACHIEVEMENT_SUBCAT(varplayer_9607);
     };
@@ -51,7 +51,7 @@ function script15355(int0: number, int1: number, int2: number, int3: number, int
         CC_CREATE(int8, 3, IF_GETNEXTSUBID(int8));
         CC_CREATE(int8, 4, IF_GETNEXTSUBID(int8));
         CC_CREATE(int8, 4, IF_GETNEXTSUBID(int8));
-        if (((varbitplayer_48340 == 0) || ((varbitplayer_48340 == 1) && (int16 < int15)))) {
+        if ((varbitplayer_48340 == 0)) {
             int12 = (int14 * ((32 + 2) + 2));
             int14 = (int14 + 1);
             string1 = enum_getvalue(41, 36, 16086 as cs2enum, int20);
@@ -84,7 +84,7 @@ function script15355(int0: number, int1: number, int2: number, int3: number, int
                     CC_SETONMOUSEOVER(callback(script1356, -2147483645, CC_GETID(), script10495(10)));
                     CC_SETONMOUSELEAVE(callback(script1356, -2147483645, CC_GETID(), script10495(9)));
                 };
-                string0 = enum_getvalue(41, 36, 16087 as cs2enum, int20);
+                string0 = enum_getvalue(41, 36, 16087, int20);
                 if ((strcmp(string0, "") != 0)) {
                     CC_SETONMOUSEREPEAT(callback(script8799, string0, int8, CC_GETID()));
                 };
@@ -107,6 +107,67 @@ function script15355(int0: number, int1: number, int2: number, int3: number, int
                 CC_SETTEXTFONT(26 as fontmetrics);
                 CC_SETMAXLINES(2);
                 CC_SETTEXT(string1);
+            };
+        } else if ((varbitplayer_48340 == 1)) {
+            if ((int16 < int15)) {
+                int12 = (int14 * ((32 + 2) + 2));
+                int14 = (int14 + 1);
+                string1 = enum_getvalue(41, 36, 16086 as cs2enum, int20);
+                if ((CC_FIND(int9, int13) == 1)) {
+                    CC_SETPOSITION(0, int12, 0, 0);
+                    CC_SETSIZE(0, 32, 1, 0);
+                    CC_SETONOP(callback(script15358, int3, int20, CC_GETY()));
+                    CC_SETOP(1, "Select");
+                    CC_SETOPBASE(string1);
+                    if (((int20 == int21) || ((varclient_6830 - 1) == enum_getreverseindex(41, 0, int2, int20, 0)))) {
+                        script15360(CC_GETY());
+                        if ((int6 == 1)) {
+                            int5 = (int5 + CC_GETY());
+                        };
+                        if ((int20 == int21)) {
+                            script15351(int4, int13);
+                        };
+                    };
+                };
+                if ((CC_FIND(int8, (IF_GETNEXTSUBID(int8) - 3)) == 1)) {
+                    CC_SETPOSITION(1, int12, 0, 0);
+                    CC_SETSIZE(0, 32, 1, 0);
+                    CC_SETFILL(1);
+                    if ((MODULO(int14, 2) == 0)) {
+                        CC_SETCOLOUR(script10495(12));
+                        CC_SETONMOUSEOVER(callback(script1356, -2147483645, CC_GETID(), script10495(13)));
+                        CC_SETONMOUSELEAVE(callback(script1356, -2147483645, CC_GETID(), script10495(12)));
+                    } else {
+                        CC_SETCOLOUR(script10495(9));
+                        CC_SETONMOUSEOVER(callback(script1356, -2147483645, CC_GETID(), script10495(10)));
+                        CC_SETONMOUSELEAVE(callback(script1356, -2147483645, CC_GETID(), script10495(9)));
+                    };
+                    string0 = enum_getvalue(41, 36, 16087, int20);
+                    if ((strcmp(string0, "") != 0)) {
+                        CC_SETONMOUSEREPEAT(callback(script8799, string0, int8, CC_GETID()));
+                    };
+                };
+                if ((CC_FIND(int8, (IF_GETNEXTSUBID(int8) - 2)) == 1)) {
+                    CC_SETPOSITION(5, int12, 2, 0);
+                    CC_SETTEXT(`${TOSTRING_LOCALISED(int16, 1)}/${TOSTRING_LOCALISED(int15, 1)}`);
+                    CC_SETTEXTSHADOW(true);
+                    CC_SETTEXTALIGN(2, 1, 0);
+                    CC_SETTEXTFONT(26 as fontmetrics);
+                    CC_SETCOLOUR(script10495(3));
+                    CC_SETSIZE(50, 32, 0, 0);
+                };
+                if ((CC_FIND(int8, (IF_GETNEXTSUBID(int8) - 1)) == 1)) {
+                    CC_SETPOSITION(5, int12, 0, 0);
+                    CC_SETSIZE(85, 32, 0, 0);
+                    CC_SETCOLOUR(script10495(3));
+                    CC_SETTEXTSHADOW(true);
+                    CC_SETTEXTALIGN(0, 1, 0);
+                    CC_SETTEXTFONT(26 as fontmetrics);
+                    CC_SETMAXLINES(2);
+                    CC_SETTEXT(string1);
+                };
+            } else if (((varclient_6830 - 1) == enum_getreverseindex(41, 0, int2, int20, 0))) {
+                IF_SETHIDE(true, comp(1851, 22));
             };
         } else if (((varclient_6830 - 1) == enum_getreverseindex(41, 0, int2, int20, 0))) {
             IF_SETHIDE(true, comp(1851, 22));

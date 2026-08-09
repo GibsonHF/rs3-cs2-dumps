@@ -41,11 +41,11 @@ function script2405(): void {
     CC_CREATE(int8, 4, 1);
     CC_SETSIZE(40, 0, 0, 1);
     CC_SETPOSITION(30, 0, 0, 1);
-    CC_SETTEXTFONT(26);
+    CC_SETTEXTFONT(26 as fontmetrics);
     CC_SETTEXTALIGN(0, 1, 0);
     CC_SETCOLOUR(16777215);
-    IF_SETHIDE(1, int9);
-    if ((IF_GETWIDTH(61341704) >= 120)) {
+    IF_SETHIDE(true, int9);
+    if ((IF_GETWIDTH(comp(936, 8)) >= 120)) {
         IF_SETSIZE((16384 / 2), 0, 2, 1, int8);
         IF_SETSIZE((16384 / 2), 0, 2, 1, int9);
         IF_SETPOSITION(0, 0, 2, 0, int9);
@@ -60,7 +60,7 @@ function script2405(): void {
         CC_CREATE(int9, 4, 1);
         CC_SETSIZE(40, 0, 0, 1);
         CC_SETPOSITION(30, 0, 0, 1);
-        CC_SETTEXTFONT(26);
+        CC_SETTEXTFONT(26 as fontmetrics);
         CC_SETTEXTALIGN(0, 1, 0);
         CC_SETCOLOUR(16777215);
     };

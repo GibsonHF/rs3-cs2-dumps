@@ -5,6 +5,7 @@ function script19567(int0: number): number {
             return 86048782;
         }
         case 963: {
+            break;
         }
         default: {
             return 86048770;

@@ -1,62 +1,62 @@
 //
 function script13237(int0: number, int1: number, int2: number, int3: number): void {
     var int4 = comp(-1, 65535);
-    var int5 = -1;
+    var int5 = comp(-1, 65535);
     var string0 = "null";
     switch (int0) {
         case 0: {
             int4 = comp(1845, 15);
-            int5 = 120914065;
+            int5 = comp(1845, 145);
             break;
         }
         case 1: {
             int4 = comp(1845, 14);
-            int5 = 120914071;
+            int5 = comp(1845, 151);
             break;
         }
         case 2: {
             int4 = comp(1845, 13);
-            int5 = 120914077;
+            int5 = comp(1845, 157);
             break;
         }
         case 3: {
             int4 = comp(1845, 12);
-            int5 = 120914083;
+            int5 = comp(1845, 163);
             break;
         }
         case 4: {
             int4 = comp(1845, 11);
-            int5 = 120914089;
+            int5 = comp(1845, 169);
             break;
         }
         case 5: {
             int4 = comp(1845, 10);
-            int5 = 120914095;
+            int5 = comp(1845, 175);
             break;
         }
         case 6: {
             int4 = comp(1845, 9);
-            int5 = 120914101;
+            int5 = comp(1845, 181);
             break;
         }
         case 7: {
             int4 = comp(1845, 8);
-            int5 = 120914107;
+            int5 = comp(1845, 187);
             break;
         }
         case 8: {
             int4 = comp(1845, 7);
-            int5 = 120914113;
+            int5 = comp(1845, 193);
             break;
         }
         case 9: {
             int4 = comp(1845, 6);
-            int5 = 120914119;
+            int5 = comp(1845, 199);
             break;
         }
         case 10: {
             int4 = comp(1845, 5);
-            int5 = 120914125;
+            int5 = comp(1845, 205);
             break;
         }
         default: {

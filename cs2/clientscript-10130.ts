@@ -13,7 +13,7 @@ function script10130(): void {
     if ((STRING_LENGTH(varclient_4289) < 1)) {
         varclient_4289 = "Broadcast Title";
     };
-    IF_SETTEXT(varclient_4289, comp(232, 116));
+    IF_SETTEXT(varclient_4289, 15204468);
     varclient_4290 = STRING_LENGTH(varclient_4289);
     script10121(15204468, -1, -1, 15204467);
     script10132();
@@ -54,8 +54,7 @@ function script10130(): void {
     };
     if ((STRING_LENGTH(varclient_4291) > 0)) {
         IF_SETHIDE(false, comp(232, 137));
-        stack(TTV_WEBCAM_GETDEVICE_BYUNIQUENAME(varclient_4291));
-        [int0, string0, string1] = stack();
+        [int0, string0, string1] = TTV_WEBCAM_GETDEVICE_BYUNIQUENAME(varclient_4291);
         if ((int0 != -1)) {
             [int3, int4, int5, int6, int7] = TTV_WEBCAM_GETCAP_BYUNIQUEID(int0, varclient_4292);
             IF_SETTEXT(string1, comp(232, 131));

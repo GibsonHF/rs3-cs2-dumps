@@ -11,7 +11,8 @@ function script12842(int0: number): number {
         return 0;
     };
     var int2 = ENUM_GETOUTPUTCOUNT(int1);
-    while ((--int2 >= 0)) {
+    int2 = (int2 - 1);
+    while ((int2 >= 0)) {
         if ((strcmp("Dungeoneering", enum_getvalue(0, 36, int1, int2)) == 0)) {
             return int2;
         };

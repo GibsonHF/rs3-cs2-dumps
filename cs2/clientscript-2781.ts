@@ -8,7 +8,7 @@ function script2781(): string {
     [int1, int2, int3] = USERDETAIL_LOBBY_MEMBERSHIP();
     int1 = ((int1 / 1440) - 11745);
     USERDETAIL_LOBBY_CCEXPIRY();
-    var int4 = stack();
+    var int4 = [];
     var int5 = USERDETAIL_LOBBY_GRACEEXPIRY();
     var int6 = (int5 - int0);
     if (((int5 <= int4) || (int6 < 0))) {

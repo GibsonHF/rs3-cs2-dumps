@@ -30,7 +30,8 @@ function script16395(int0: number, int1: number): void {
         };
         int2 = (int2 + 1);
     };
-    IF_SETSIZE((--int4 + 80), 35, 0, 0, comp(955, 16));
+    int4 = (int4 - 5);
+    IF_SETSIZE((int4 + 80), 35, 0, 0, comp(955, 16));
     script16398();
     return;
 }

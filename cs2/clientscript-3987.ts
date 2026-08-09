@@ -13,7 +13,7 @@ function script3987(): void {
         if ((script3986(int1) == 0)) {
             CC_SETGRAPHIC(enum_getvalue(0, 23, 5494 as cs2enum, int1));
             CC_SETONMOUSEREPEAT(callback(script688, 81199118, int0, enum_getvalue(0, 23, 5495 as cs2enum, int1)));
-            CC_SETONMOUSELEAVE(callback(script688, 81199118, int0, enum_getvalue(0, 23, 5494, int1)));
+            CC_SETONMOUSELEAVE(callback(script688, 81199118, int0, enum_getvalue(0, 23, 5494 as cs2enum, int1)));
         } else {
             CC_SETGRAPHIC(30259 as graphic);
         };

@@ -21,7 +21,8 @@ function script13308(int0: number, int1: number, int2: number, int3: number, int
     var int15 = 0;
     var int16 = 0;
     var int17 = 0;
-    while ((++int11 < 4)) {
+    int11 = (int11 + 1);
+    while ((int11 < 4)) {
         switch (int11) {
             case 0: {
                 int12 = int1;

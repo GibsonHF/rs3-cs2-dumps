@@ -2,14 +2,15 @@
 function script16490(int0: number, int1: number, int2: number, int3: number): void {
     var int4 = DB_GETFIELDCOUNT(int0, 712704);
     var int5 = -1;
-    var int6 = -1 as graphic;
+    var int6 = -1;
     var int7 = 0;
     var int8 = 0;
-    var int9 = -1 as graphic;
+    var int9 = -1;
     var int10 = 0;
     var int11 = 0;
     var int12 = 0;
-    while ((++int5 < int4)) {
+    int5 = (int5 + 1);
+    while ((int5 < int4)) {
         [int9, int10, int11, int12] = dbrow_getfield(int0, 712704, int5);
         if ((int1 >= int10)) {
             int6 = int9;

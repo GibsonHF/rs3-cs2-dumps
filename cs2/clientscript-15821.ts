@@ -1,10 +1,10 @@
 //
 function script15821(int0: number, int1: number, int2: number, int3: number): [number, number, number] {
-    var int4 = -1 as struct;
-    var int5 = -1 as struct;
-    var int6 = -1 as graphic;
-    var int7 = -1 as graphic;
-    var int8 = -1 as dbrow;
+    var int4 = -1;
+    var int5 = -1;
+    var int6 = -1;
+    var int7 = -1;
+    var int8 = -1;
     [int4, int5, int6, int7, int8] = dbrow_getfield(4168 as dbrow, 552960, int0);
     if ((script3911(int4, int0) == 0)) {
         return [0, int2, int3];
@@ -30,10 +30,18 @@ function script15821(int0: number, int1: number, int2: number, int3: number): [n
     var int21 = script12660(int8, int14);
     var string3 = struct_getparam(int4, 2533);
     var int22 = struct_getparam(int4, 8976);
-    if ((((STRING_LENGTH(string2) == 0) || (int18 == true)) && ((int19 + 30) >= DATE_RUNEDAY()))) {
-        string2 = "New!";
-    } else if ((((STRING_LENGTH(string2) == 0) || (int18 == true)) && ((int20 - 14) < DATE_RUNEDAY()))) {
-        string2 = "Ending Soon!";
+    if (((STRING_LENGTH(string2) == 0) || (int18 == 1))) {
+        if (((int19 + 30) >= DATE_RUNEDAY())) {
+            string2 = "New!";
+        } else if (((STRING_LENGTH(string2) == 0) || (int18 == 1))) {
+            if (((int20 - 14) < DATE_RUNEDAY())) {
+                string2 = "Ending Soon!";
+            };
+        };
+    } else if (((STRING_LENGTH(string2) == 0) || (int18 == 1))) {
+        if (((int20 - 14) < DATE_RUNEDAY())) {
+            string2 = "Ending Soon!";
+        };
     };
     if ((int14 != int21)) {
         if ((STRING_LENGTH(string2) == 0)) {
@@ -46,11 +54,15 @@ function script15821(int0: number, int1: number, int2: number, int3: number): [n
         int17 = int7;
     };
     int17 = script17339(int5, int17);
-    if (((int11 == true) && (int2 == true))) {
-        int12 = (14 + 225);
-        int11 = false;
+    if ((int11 == 1)) {
+        if ((int2 == 1)) {
+            int12 = (14 + 225);
+            int11 = 0;
+        } else if ((int9 > 0)) {
+            var int3 = ((int3 + 255) + 30);
+        };
     } else if ((int9 > 0)) {
-        var int3 = ((int3 + 255) + 30);
+        int3 = ((int3 + 255) + 30);
     };
     script15083(int13, int3, int12, 255, 430, string0, int15, int0, int17, string3, "", string2, int22, int4, int10, int14, int21, 0);
     return [1, int11, int3];

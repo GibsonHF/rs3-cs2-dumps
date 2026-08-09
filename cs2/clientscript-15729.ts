@@ -6,13 +6,17 @@ function script15729(int0: number): void {
     IF_SETSIZE(IF_GETWIDTH(comp(828, 7)), -8, 1, 1, comp(828, 6));
     var int1 = 0;
     SHOP_GETINDEXFORCATEGORYID(int0);
-    var int2 = stack();
+    var int2 = [];
     stack(int2);
     var int3 = SHOP_GETPRODUCTCOUNT();
     var int4 = 0;
     if ((script15728(int0) == 0)) {
         while ((int1 < int3)) {
-            int4 = (int4 + script15731(int2, int1++));
+            stack(int4);
+            stack(int2);
+            stack(int1);
+            int1 = (int1 + 1);
+            int4 = ADD(script15731());
         };
     };
     if ((int4 == 0)) {

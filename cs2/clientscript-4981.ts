@@ -234,12 +234,12 @@ function script4981(int0: number, int1: number, int2: number, int3: number, int4
             IF_SETHIDE(false, comp(1261, 184));
             IF_SETHIDE(false, comp(1261, 192));
         };
-        IF_SETONMOUSEREPEAT(callback(script8799, string2, -2147483645, -2147483643), 82641055);
-        IF_SETONMOUSEREPEAT(callback(script8799, string4, -2147483645, -2147483643), 82641063);
-        IF_SETONMOUSEREPEAT(callback(script8799, string3, -2147483645, -2147483643), 82641080);
-        IF_SETONMOUSEREPEAT(callback(script8799, string5, -2147483645, -2147483643), 82641088);
-        IF_SETONMOUSEREPEAT(callback(script8799, string6, -2147483645, -2147483643), 82641106);
-        IF_SETONMOUSEREPEAT(callback(script8799, string7, -2147483645, -2147483643), 82641114);
+        IF_SETONMOUSEREPEAT(callback(script8799, string2, -2147483645, -2147483643), comp(1261, 159));
+        IF_SETONMOUSEREPEAT(callback(script8799, string4, -2147483645, -2147483643), comp(1261, 167));
+        IF_SETONMOUSEREPEAT(callback(script8799, string3, -2147483645, -2147483643), comp(1261, 184));
+        IF_SETONMOUSEREPEAT(callback(script8799, string5, -2147483645, -2147483643), comp(1261, 192));
+        IF_SETONMOUSEREPEAT(callback(script8799, string6, -2147483645, -2147483643), comp(1261, 210));
+        IF_SETONMOUSEREPEAT(callback(script8799, string7, -2147483645, -2147483643), comp(1261, 218));
     };
     return;
 }

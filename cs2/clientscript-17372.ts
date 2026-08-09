@@ -1,8 +1,8 @@
 //
-function script17372(int0: number, int1: number, long0: BigInt): string {
+function script17372(int0: number, int1: number, long0: bigint): string {
     var int2 = 0;
     var long1 = long0;
-    if (branch_lt_long[8](long0, 0n)) {
+    if (LONG_BRANCH_LESS_THAN(long0, 0n)) {
         var long0 = MULTIPLY_LONG(long0, -1n);
         long1 = long0;
         int2 = 1;
@@ -62,6 +62,5 @@ function script17372(int0: number, int1: number, long0: BigInt): string {
     if ((int1 == 0)) {
         return string0;
     };
-    stack(PUSH_CONSTANT_INT[16]("<col=", script17373(long1)));
-    return `${stack()}${inttostring()}>${string0}</col>`;
+    return `${inttostring(PUSH_CONSTANT_INT[16]("<col=", script17373(long1)))}>${string0}</col>`;
 }

@@ -22,7 +22,8 @@ function script20534(int0: number, int1: number, int2: number, int3: number, int
                 CC_SETPOSITION[1]((int9 + (MIN(CC_GETWIDTH(), CC_GETHEIGHT()) / 2)), (int10 + (CC_GETHEIGHT() / 2)), 0, 0);
             };
         };
-        if ((++int7 >= int2)) {
+        int7 = (int7 + 1);
+        if ((int7 >= int2)) {
             int7 = 0;
             int8 = (int8 + 1);
         };

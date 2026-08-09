@@ -21,25 +21,25 @@ function script15892(int0: number, int1: number, int2: number, int3: number, int
             switch (int2) {
                 case 1: {
                     CHAT_GETFILTER_PUBLIC();
-                    CHAT_GETFILTER_TRADE(stack(), MODULO((CHAT_GETFILTER_PRIVATE() + 1), 3));
+                    CHAT_GETFILTER_TRADE(MODULO((CHAT_GETFILTER_PRIVATE() + 1), 3));
                     CHAT_SETFILTER();
                     break;
                 }
                 case 2: {
                     CHAT_GETFILTER_PUBLIC();
-                    CHAT_GETFILTER_TRADE(stack(), 0);
+                    CHAT_GETFILTER_TRADE(0);
                     CHAT_SETFILTER();
                     break;
                 }
                 case 3: {
                     CHAT_GETFILTER_PUBLIC();
-                    CHAT_GETFILTER_TRADE(stack(), 1);
+                    CHAT_GETFILTER_TRADE(1);
                     CHAT_SETFILTER();
                     break;
                 }
                 case 4: {
                     CHAT_GETFILTER_PUBLIC();
-                    CHAT_GETFILTER_TRADE(stack(), 2);
+                    CHAT_GETFILTER_TRADE(2);
                     CHAT_SETFILTER();
                     break;
                 }

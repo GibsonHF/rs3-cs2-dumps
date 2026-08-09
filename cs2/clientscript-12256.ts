@@ -6,6 +6,6 @@ function script12256(int0: number): void {
         return;
     };
     IF_SETONTIMER(callback(script12257, 112984071), comp(1724, 7));
-    IF_SETHIDE(1, int0);
+    IF_SETHIDE(true, int0);
     return;
 }

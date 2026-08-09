@@ -25,7 +25,8 @@ function script9329(int0: number): void {
         };
         int2 = (int2 + 1);
     };
-    while ((--int6 >= 0)) {
+    int6 = (int6 - 1);
+    while ((int6 >= 0)) {
         if ((CC_FIND(comp(517, 201), int6) == 1)) {
             CC_SETHIDE(true);
         };

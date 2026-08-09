@@ -19,7 +19,8 @@ function script6620(int0: number): void {
         if ((int0 == comp(1323, 45))) {
             CC_SETOP(1, "Select");
         };
-        if ((MODULO(++int5, 10) == 0)) {
+        int5 = (int5 + 1);
+        if ((MODULO(int5, 10) == 0)) {
             int1 = int3;
             int2 = (int2 + (1 + int8));
         } else {

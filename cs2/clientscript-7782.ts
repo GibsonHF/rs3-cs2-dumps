@@ -125,21 +125,31 @@ function script7782(int0: number, int1: number, int2: number, int3: number, int4
         };
         if ((int0 == 0)) {
             script7787(9704, 1, 0, 50, 256);
-            if (((int14 == 1) || ((int14 == 0) && (int9 < int4)))) {
+            if ((int14 == 1)) {
+                script7787(10046, 1, 0, 100, 256);
+                script7786("You do not have enough room to store any more items. Please make more room.");
+                int0 = 1;
+            } else if (((int14 == 0) && (int9 < int4))) {
                 script7787(10046, 1, 0, 100, 256);
                 script7786("You do not have enough room to store any more items. Please make more room.");
                 int0 = 1;
             };
         };
     };
-    if (((int0 == 0) && (int14 == 2))) {
-        script7787(10046, 1, 0, 100, 256);
-        script7786("You do not have enough room in your invention pouch to hold all the components you were due to be refunded. Please make more room.");
-        var int2 = 1;
+    if ((int0 == 0)) {
+        if ((int14 == 2)) {
+            script7787(10046, 1, 0, 100, 256);
+            script7786("You do not have enough room in your invention pouch to hold all the components you were due to be refunded. Please make more room.");
+            var int2 = 1;
+        } else if (((int1 == 0) && (int14 == 3))) {
+            script7787(10046, 1, 0, 100, 256);
+            script7786("You do not have enough room in your currency pouch or inventory to hold the coins you were due to be refunded. Please make more room.");
+            var int1 = 1;
+        };
     } else if (((int1 == 0) && (int14 == 3))) {
         script7787(10046, 1, 0, 100, 256);
         script7786("You do not have enough room in your currency pouch or inventory to hold the coins you were due to be refunded. Please make more room.");
-        var int1 = 1;
+        int1 = 1;
     };
     return [int0, int1, int2];
 }

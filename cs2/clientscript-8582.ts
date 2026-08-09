@@ -1,5 +1,5 @@
 //
-function script8582(int0: number, int1: number, int2: number): [string, number] {
+function script8582(int0: number, int1: number, int2: number): [number, string] {
     var string0 = "null";
     var int3 = 1;
     if ((script2152(int2) == 0)) {

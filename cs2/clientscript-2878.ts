@@ -27,8 +27,12 @@ function script2878(int0: number, int1: number, int2: number, int3: number, int4
         };
         int8 = (int8 + 1);
     };
-    if (((varbitplayer_190 == 32767) && (varclient_1077 == true))) {
-        IF_SETHIDE(false, int1);
+    if ((varbitplayer_190 == 32767)) {
+        if ((varclient_1077 == true)) {
+            IF_SETHIDE(false, int1);
+        } else {
+            IF_SETHIDE(true, int1);
+        };
     } else {
         IF_SETHIDE(true, int1);
     };

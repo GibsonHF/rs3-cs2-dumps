@@ -1,5 +1,5 @@
 //
-function script3361(): [number, string, number] {
+function script3361(): [number, number, string] {
     switch (varplayer_1831) {
         case 17975: {
             return [7, "Second Wind (Tier 1)", 18067];
@@ -29,6 +29,7 @@ function script3361(): [number, string, number] {
             return [87, "Second Wind (Tier 9)", 18075];
         }
         case 17984: {
+            break;
         }
         default: {
             return [7, "Second Wind (Tier 1)", 18067];

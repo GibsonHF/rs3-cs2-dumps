@@ -32,7 +32,7 @@ function script11060(): void {
             CC_SETPOSITION(0, 0, 0, 0);
             CC_SETMODELANGLE(0, IF_GETMODELYOF(49348648), IF_GETMODELANGLE_X(comp(753, 40)), IF_GETMODELANGLE_Y(comp(753, 40)), IF_GETMODELANGLE_Z(comp(753, 40)), IF_GETMODELZOOM(comp(753, 40)));
             CC_SETONMOUSEOVER(callback(script1165, -2147483645, -2147483643));
-            CC_SETHIDE(1);
+            CC_SETHIDE(true);
             while ((int2 < ENUM_GETOUTPUTCOUNT(int0))) {
                 int1 = enum_getvalue(0, 73, int0, int2);
                 if ((int1 != -1 as struct)) {
@@ -47,7 +47,7 @@ function script11060(): void {
                     CC_SETSIZE(5, 20, 1, 0);
                     int3 = (int3 + 20);
                     string0 = struct_getparam(int1, 4833);
-                    if ((struct_getparam(int1, 4835) != -1 as seq)) {
+                    if ((struct_getparam(int1, 4835) != -1)) {
                         int5 = 50;
                     } else {
                         int5 = 25;
@@ -62,7 +62,7 @@ function script11060(): void {
                     CC_SETTEXTALIGN(0, 0, 0);
                     CC_SETSIZE(int5, int4, 1, 0);
                     int3 = ((int3 + int4) + 5);
-                    if ((struct_getparam(int1, 4835) != -1 as seq)) {
+                    if ((struct_getparam(int1, 4835) != -1)) {
                         CC_CREATE(comp(753, 27), 5, IF_GETNEXTSUBID(comp(753, 27)));
                         CC_SETGRAPHIC(8321 as graphic);
                         CC_SETSIZE(45, 30, 0, 0);

@@ -7,8 +7,7 @@ function script5861(int0: number): void {
     var int3 = 0;
     var int4 = 0;
     var string2 = "";
-    stack(WORLDLIST_SPECIFIC(int0));
-    [int1, string0, int2, string1, int3, int4, string2] = stack();
+    [int1, string0, int2, string1, int3, int4, string2] = WORLDLIST_SPECIFIC(int0);
     var int5 = unk11027(int0, string2);
     if ((int5 == 1)) {
         script16919();

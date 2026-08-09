@@ -18,30 +18,30 @@ function script13590(int0: number, int1: number): void {
     var int14 = 124125195;
     var int15 = 124125196;
     var int16 = comp(1894, 21);
-    var int17 = comp(1894, 32);
-    var int18 = comp(1894, 37);
-    var int19 = comp(1894, 41);
-    var int20 = comp(1894, 40);
+    var int17 = 124125216;
+    var int18 = 124125221;
+    var int19 = 124125225;
+    var int20 = 124125224;
     if ((int1 == 1)) {
-        int2 = comp(1895, 17);
-        int3 = comp(1895, 18);
-        int4 = comp(1895, 19);
-        int5 = comp(1895, 20);
-        int6 = comp(1895, 21);
+        int2 = 124190737;
+        int3 = 124190738;
+        int4 = 124190739;
+        int5 = 124190740;
+        int6 = 124190741;
         int7 = 124190745;
         int8 = 124190746;
-        int9 = comp(1895, 5);
-        int10 = comp(1895, 6);
+        int9 = 124190725;
+        int10 = 124190726;
         int11 = 124190750;
         int12 = 124190751;
-        int13 = comp(1895, 8);
+        int13 = 124190728;
         int14 = 124190732;
         int15 = 124190733;
-        int16 = comp(1895, 22);
-        int17 = comp(1895, 33);
-        int18 = comp(1895, 38);
-        int19 = comp(1895, 42);
-        int20 = comp(1895, 41);
+        int16 = 124190742;
+        int17 = 124190753;
+        int18 = 124190758;
+        int19 = 124190762;
+        int20 = 124190761;
     };
     var string0 = "";
     if ((int0 == 1)) {
@@ -51,10 +51,10 @@ function script13590(int0: number, int1: number): void {
             IF_SETTEXT("Skip Tutorial", int19);
             string0 = "Reset/skip introduction path in Burthorpe.";
         } else {
-            IF_SETTEXT(enum_getvalue(0, 36, 15493 as cs2enum, varplayer_8729), int19);
+            IF_SETTEXT(enum_getvalue(0, 36, 15493, varplayer_8729), int19);
             string0 = "Next Book of Paths";
         };
-        IF_SETGRAPHIC(enum_getvalue(0, 23, 15494 as cs2enum, varplayer_8729), int20);
+        IF_SETGRAPHIC(enum_getvalue(0, 23, 15494, varplayer_8729), int20);
         IF_SETONMOUSEREPEAT(callback(script3876, string0, -2147483645, -2147483643), int18);
     };
     var int21 = IF_GETPARENTLAYER(int2);
@@ -72,7 +72,7 @@ function script13590(int0: number, int1: number): void {
     IF_SETHIDE(false, int13);
     IF_SETHIDE(false, int16);
     [varclient_6261, varclient_6262] = script13588(script8221());
-    script10428(int9, int10, script8221(), -1, struct_getparam(44034 as struct, 8073), varplayer_7123, 0);
+    script10428(int9, int10, script8221(), -1, struct_getparam(44034, 8073), varplayer_7123, 0);
     var int24 = 0;
     if ((varplayer_7123 == 0)) {
         IF_SETHIDE(true, int17);
@@ -124,7 +124,8 @@ function script13590(int0: number, int1: number): void {
             CC_SETTEXT("Recommended Paths");
             int24 = script8953(int2, int3, 10, int24);
         };
-        if ((++int24 > IF_GETHEIGHT(int21))) {
+        int24 = (int24 + 2);
+        if ((int24 > IF_GETHEIGHT(int21))) {
             IF_SETSCROLLSIZE(0, int24, int21);
             IF_SETHIDE(false, int6);
             script7791(int6, int21);
@@ -167,7 +168,7 @@ function script13590(int0: number, int1: number): void {
         };
         int25 = (int25 + 1);
     };
-    int26 = -1 as struct;
+    int26 = -1;
     int25 = 0;
     if ((int29 == 0)) {
         return;
@@ -226,30 +227,40 @@ function script13590(int0: number, int1: number): void {
         if ((int32 != -1)) {
             CC_SETSIZE(19, 19, 0, 0);
             CC_SETPOSITION(4, (int38 + 2), 2, 0);
-            if (((varplayer_7124 > 0) && (varplayer_7124 == struct_getparam(int26, 6413)))) {
-                if ((struct_getparam(int26, 1345) > 0)) {
-                    CC_SETGRAPHIC(struct_getparam(34085 as struct, 3496));
+            if ((varplayer_7124 > 0)) {
+                if ((varplayer_7124 == struct_getparam(int26, 6413))) {
+                    if ((struct_getparam(int26, 1345) > 0)) {
+                        CC_SETGRAPHIC(struct_getparam(34085, 3496));
+                    } else if ((struct_getparam(int26, 1346) > 0)) {
+                        CC_SETGRAPHIC(struct_getparam(21287, 3496));
+                    } else if ((int40 == 1)) {
+                        CC_SETGRAPHIC(struct_getparam(37398, 3496));
+                    } else if ((struct_getparam(int26, 1282) != -1)) {
+                        CC_SETGRAPHIC(struct_getparam(38581, 3496));
+                    };
+                } else if ((struct_getparam(int26, 1345) > 0)) {
+                    CC_SETGRAPHIC(struct_getparam(34085, 3497));
                 } else if ((struct_getparam(int26, 1346) > 0)) {
-                    CC_SETGRAPHIC(struct_getparam(21287 as struct, 3496));
+                    CC_SETGRAPHIC(struct_getparam(21287, 3497));
                 } else if ((int40 == 1)) {
-                    CC_SETGRAPHIC(struct_getparam(37398 as struct, 3496));
-                } else if ((struct_getparam(int26, 1282) != -1 as coordgrid)) {
-                    CC_SETGRAPHIC(struct_getparam(38581 as struct, 3496));
+                    CC_SETGRAPHIC(struct_getparam(37398, 3497));
+                } else if ((struct_getparam(int26, 1282) != -1)) {
+                    CC_SETGRAPHIC(struct_getparam(38581, 3497));
                 };
             } else if ((struct_getparam(int26, 1345) > 0)) {
-                CC_SETGRAPHIC(struct_getparam(34085 as struct, 3497));
+                CC_SETGRAPHIC(struct_getparam(34085, 3497));
             } else if ((struct_getparam(int26, 1346) > 0)) {
-                CC_SETGRAPHIC(struct_getparam(21287 as struct, 3497));
+                CC_SETGRAPHIC(struct_getparam(21287, 3497));
             } else if ((int40 == 1)) {
-                CC_SETGRAPHIC(struct_getparam(37398 as struct, 3497));
-            } else if ((struct_getparam(int26, 1282) != -1 as coordgrid)) {
-                CC_SETGRAPHIC(struct_getparam(38581 as struct, 3497));
+                CC_SETGRAPHIC(struct_getparam(37398, 3497));
+            } else if ((struct_getparam(int26, 1282) != -1)) {
+                CC_SETGRAPHIC(struct_getparam(38581, 3497));
             };
             CC_SETOP(1, string3);
             CC_SETOPCURSOR(1, int32);
             CC_SETONMOUSEREPEAT(callback(script3876, string4, -2147483645, -2147483643));
-            CC_SETNOCLICKTHROUGH(1);
-            CC_SETHIDE(0);
+            CC_SETNOCLICKTHROUGH(true);
+            CC_SETHIDE(false);
         };
         CC_CREATE(int2, 5, IF_GETNEXTSUBID(int2));
         CC_SETSIZE(40, 40, 0, 0);
@@ -298,7 +309,7 @@ function script13590(int0: number, int1: number): void {
     };
     if ((int38 > IF_GETHEIGHT(int21))) {
         IF_SETSCROLLSIZE(0, int38, int21);
-        if ((int2 == comp(1895, 17))) {
+        if ((int2 == 124190737)) {
             if ((varplayer_7129 == 0)) {
                 IF_SETSCROLLPOS(0, 0, int21);
                 varplayer_7129 = 1;

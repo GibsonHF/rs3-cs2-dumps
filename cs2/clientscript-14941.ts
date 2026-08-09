@@ -19,13 +19,16 @@ function script14941(int0: number, int1: number, int2: number): [number, number]
     } else {
         int2 = CHAT_GETNEXTUID(int2);
     };
-    stack(unk11059(int2));
-    [int7, string0, int5, string1, string5, string2, string3, int6, string4, int8, int10] = stack();
+    [int7, string0, int5, string1, string5, string2, string3, int6, string4, int8, int10] = unk11059(int2);
     while ((int2 != -1)) {
         int9 = script5763(int1, int7, int5, string5, int8, int10);
         if ((script14942(int0, int7) == 1)) {
             if ((script5763(int0, int7, int5, string5, int8, int10) == 1)) {
-                if (((int9 == 1) && ((script5762(int1) >= int2) || (script8314(int1) == int1)))) {
+                if ((int9 == 1)) {
+                    if (((script5762(int1) >= int2) || (script8314(int1) == int1))) {
+                    } else {
+                        int3 = (int3 + 1);
+                    };
                 } else {
                     int3 = (int3 + 1);
                 };
@@ -35,8 +38,7 @@ function script14941(int0: number, int1: number, int2: number): [number, number]
             };
         };
         int2 = CHAT_GETNEXTUID(int2);
-        stack(unk11059(int2));
-        [int7, string0, int5, string1, string5, string2, string3, int6, string4, int8, int10] = stack();
+        [int7, string0, int5, string1, string5, string2, string3, int6, string4, int8, int10] = unk11059(int2);
     };
     return [int3, int4];
 }

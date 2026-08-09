@@ -5,7 +5,7 @@ function script13599(int0: number, int1: number, int2: number): void {
     if ((int4 == -1 as struct)) {
         return;
     };
-    var int5 = 35561 as struct;
+    var int5 = 35561;
     var string0 = "{PH}";
     switch (int4) {
         default: {

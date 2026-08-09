@@ -19,8 +19,10 @@ function script8818(int0: number, int1: number): void {
                 break;
             }
             case -1: {
-                if ((((CHAR_ISPRINTABLE(int1) == 1) || (int1 == -1)) && (int1 != 96))) {
-                    script8210("Key not currently supported. Please enter a new one.", -1, -1);
+                if (((CHAR_ISPRINTABLE(int1) == 1) || (int1 == -1))) {
+                    if ((int1 != 96)) {
+                        script8210("Key not currently supported. Please enter a new one.", -1, -1);
+                    };
                 };
                 break;
             }

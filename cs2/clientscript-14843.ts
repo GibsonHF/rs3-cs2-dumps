@@ -22,17 +22,17 @@ function script14843(int0: number, int1: number, int2: number, int3: number, int
     if ((script14630(int2) == 1)) {
         string1 = `Report: ${dbrow_getfield(int2, 368752, 0)}`;
     };
-    if ((int14 != -1 as graphic)) {
+    if ((int14 != -1)) {
         script7924(int0, IF_GETNEXTSUBID(int0), 20, 20, int9, int10, int14, 0, 0, 0, 0);
-        script7801(int0, IF_GETNEXTSUBID(int0), ((int11 - 20) - 2), 20, 0, 0, ((int9 + 20) + 2), int10, 0, 0, dbrow_getfield(int2, 368688, 0), 0, 29, 0, 1, enum_getvalue(25, 0, 8584 as cs2enum, 29 as fontmetrics), 0);
+        script7801(int0, IF_GETNEXTSUBID(int0), ((int11 - 20) - 2), 20, 0, 0, ((int9 + 20) + 2), int10, 0, 0, dbrow_getfield(int2, 368688, 0), 0, 29, 0, 1, enum_getvalue(25, 0, 8584, 29), 0);
     } else {
-        script7801(int0, IF_GETNEXTSUBID(int0), int11, 20, 0, 0, int9, int10, 0, 0, dbrow_getfield(int2, 368688, 0), 0, 29, 0, 1, enum_getvalue(25, 0, 8584 as cs2enum, 29 as fontmetrics), 0);
+        script7801(int0, IF_GETNEXTSUBID(int0), int11, 20, 0, 0, int9, int10, 0, 0, dbrow_getfield(int2, 368688, 0), 0, 29, 0, 1, enum_getvalue(25, 0, 8584, 29), 0);
     };
     if ((STRING_LENGTH(string0) > 0)) {
-        script7801(int0, IF_GETNEXTSUBID(int0), int11, 60, 0, 0, int9, (int10 + 20), 0, 0, string0, 0, 26, 0, 0, enum_getvalue(25, 0, 8584 as cs2enum, 26 as fontmetrics), 0);
+        script7801(int0, IF_GETNEXTSUBID(int0), int11, 60, 0, 0, int9, (int10 + 20), 0, 0, string0, 0, 26, 0, 0, enum_getvalue(25, 0, 8584, 26), 0);
     };
     if ((STRING_LENGTH(string1) > 0)) {
-        script7801(int0, IF_GETNEXTSUBID(int0), int11, 100, 0, 0, int9, ((int10 + 20) + 60), 0, 0, string1, 0, 26, 0, 0, enum_getvalue(25, 0, 8584 as cs2enum, 26 as fontmetrics), 0);
+        script7801(int0, IF_GETNEXTSUBID(int0), int11, 100, 0, 0, int9, ((int10 + 20) + 60), 0, 0, string1, 0, 26, 0, 0, enum_getvalue(25, 0, 8584, 26), 0);
     };
     return 0;
 }

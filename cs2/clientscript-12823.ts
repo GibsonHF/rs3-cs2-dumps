@@ -24,7 +24,47 @@ function script12823(int0: number, int1: number): number {
     };
     var int7 = enum_getvalue(0, 26, int6, int2);
     while ((int7 != -1 as cs2enum)) {
-        if (((int0 != 2) || ((((int0 == 2) && (int1 == 1)) && (int2 != 5)) || ((int1 == 0) && (int2 == 5))))) {
+        if ((int0 != 2)) {
+            int5 = enum_getvalue(0, 73, int7, int3);
+            while ((int5 != -1 as struct)) {
+                if ((script12821(int0, int2, int3) == 1)) {
+                    int4 = (int4 + 1);
+                };
+                int3 = (int3 + 1);
+                int5 = enum_getvalue(0, 73, int7, int3);
+            };
+        } else if ((int0 == 2)) {
+            if ((int1 == 1)) {
+                if ((int2 != 5)) {
+                    int5 = enum_getvalue(0, 73, int7, int3);
+                    while ((int5 != -1 as struct)) {
+                        if ((script12821(int0, int2, int3) == 1)) {
+                            int4 = (int4 + 1);
+                        };
+                        int3 = (int3 + 1);
+                        int5 = enum_getvalue(0, 73, int7, int3);
+                    };
+                } else if (((int1 == 0) && (int2 == 5))) {
+                    int5 = enum_getvalue(0, 73, int7, int3);
+                    while ((int5 != -1 as struct)) {
+                        if ((script12821(int0, int2, int3) == 1)) {
+                            int4 = (int4 + 1);
+                        };
+                        int3 = (int3 + 1);
+                        int5 = enum_getvalue(0, 73, int7, int3);
+                    };
+                };
+            } else if (((int1 == 0) && (int2 == 5))) {
+                int5 = enum_getvalue(0, 73, int7, int3);
+                while ((int5 != -1 as struct)) {
+                    if ((script12821(int0, int2, int3) == 1)) {
+                        int4 = (int4 + 1);
+                    };
+                    int3 = (int3 + 1);
+                    int5 = enum_getvalue(0, 73, int7, int3);
+                };
+            };
+        } else if (((int1 == 0) && (int2 == 5))) {
             int5 = enum_getvalue(0, 73, int7, int3);
             while ((int5 != -1 as struct)) {
                 if ((script12821(int0, int2, int3) == 1)) {

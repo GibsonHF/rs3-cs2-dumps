@@ -9,7 +9,7 @@ function script8142(int0: number, int1: number, int2: number): number {
     var int6 = 1;
     int4 = IF_GETX(int3);
     int5 = IF_GETY(int3);
-    var [int4, int5, int1, int2, int6] = script8382(int4, int5, int1, int2, int0, 0, 1);
+    [int4, int5, int1, int2, int6] = script8382(int4, int5, int1, int2, int0, 0, 1);
     if ((int6 == 1)) {
         script8387(int4, int5, int1, int2, int0);
     };

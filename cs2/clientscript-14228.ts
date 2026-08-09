@@ -16,8 +16,7 @@ function script14228(): void {
     IF_SETHIDE(true, comp(1322, 16));
     IF_SETHIDE(true, comp(1322, 15));
     if ((script6431() == 1)) {
-        stack(-1);
-        stack("");
+        stack(callback());
         stack(script83());
         IF_SETONRELEASE();
         ACTIVECLANCHANNEL_FIND_AFFINED(0);

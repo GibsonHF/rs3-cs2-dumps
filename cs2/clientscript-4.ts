@@ -82,7 +82,7 @@ function script4(int0: number, int1: number, int2: number, int3: number, int4: n
         int16 = (int13 / 2);
         int17 = (int12 / 2);
         int18 = (int12 / 2);
-        script2048(int0, 1, struct_getparam(int2, 131), int12, int13, 0, 0, 0, 0, 0, 0, 1, "", "", -1 as coordgrid);
+        script2048(int0, 1, struct_getparam(int2, 131), int12, int13, 0, 0, 0, 0, 0, 0, 1, "", "", -1);
     } else if (((int0 != comp(1422, 13)) && (int0 != comp(1422, 16)))) {
         int12 = struct_getparam(int2, 136);
         int13 = struct_getparam(int2, 645);
@@ -166,41 +166,77 @@ function script4(int0: number, int1: number, int2: number, int3: number, int4: n
     var int28 = -1 as graphic;
     var int29 = -1 as graphic;
     var int30 = 0;
-    if (((STRING_LENGTH(string0) > 0) && (int0 != comp(1422, 16)))) {
-        int23 = struct_getparam(int2, 650);
-        int24 = struct_getparam(int2, 651);
-        int27 = struct_getparam(int2, 647);
-        int28 = struct_getparam(int2, 648);
-        int29 = struct_getparam(int2, 649);
-        int19 = ((PARAWIDTH(string0, int10, 32 as fontmetrics) + int23) + int23);
-        int20 = ((((PARAHEIGHT(string0, int19, 32 as fontmetrics) * 17) + 2) + int24) + int24);
-        if (((int15 + int20) < (int9 + (int11 / 2)))) {
-            int22 = (0 - (int15 + (int20 / 2)));
+    if ((STRING_LENGTH(string0) > 0)) {
+        if ((int0 != comp(1422, 16))) {
+            int23 = struct_getparam(int2, 650);
+            int24 = struct_getparam(int2, 651);
+            int27 = struct_getparam(int2, 647);
+            int28 = struct_getparam(int2, 648);
+            int29 = struct_getparam(int2, 649);
+            int19 = ((PARAWIDTH(string0, int10, 32 as fontmetrics) + int23) + int23);
+            int20 = ((((PARAHEIGHT(string0, int19, 32 as fontmetrics) * 17) + 2) + int24) + int24);
+            if (((int15 + int20) < (int9 + (int11 / 2)))) {
+                int22 = (0 - (int15 + (int20 / 2)));
+            } else {
+                int22 = (int16 + (int20 / 2));
+            };
+            int30 = ((int8 + (int10 / 2)) - (int19 / 2));
+            if ((int30 <= 0)) {
+                int21 = (0 - int30);
+            } else {
+                int30 = ((int8 + (int10 / 2)) + (int19 / 2));
+                if ((int30 >= int10)) {
+                    int21 = (int10 - int30);
+                };
+            };
+            int25 = ((int19 - int23) / 2);
+            int26 = ((int20 - int24) / 2);
+            script2048(int0, 2, struct_getparam(int2, 646), (int19 - (int23 * 2)), (int20 - (int24 * 2)), int21, int22, 0, 1, 0, 0, 0, "", "", -1);
+            script2048(int0, 3, int28, (int19 - (int23 * 2)), int24, int21, (int22 - int26), 0, 1, 0, 0, 0, "", "", -1);
+            script2048(int0, 4, int28, (int19 - (int23 * 2)), int24, int21, (int22 + int26), 0, 1, 0, 1, 0, "", "", -1);
+            script2048(int0, 5, int29, int23, (int20 - (int24 * 2)), (int21 - int25), int22, 0, 1, 0, 0, 0, "", "", -1);
+            script2048(int0, 6, int29, int23, (int20 - (int24 * 2)), (int21 + int25), int22, 0, 1, 1, 0, 0, "", "", -1);
+            script2048(int0, 7, int27, int23, int24, (int21 - int25), (int22 - int26), 0, 0, 0, 0, 0, "", "", -1);
+            script2048(int0, 8, int27, int23, int24, (int21 + int25), (int22 - int26), 0, 0, 1, 0, 0, "", "", -1);
+            script2048(int0, 9, int27, int23, int24, (int21 - int25), (int22 + int26), 0, 0, 0, 1, 0, "", "", -1);
+            script2048(int0, 10, int27, int23, int24, (int21 + int25), (int22 + int26), 0, 0, 1, 1, 0, "", "", -1);
+            script2051(int0, 11, string0, int19, int20, (int21 + 1), (int22 + 1), struct_getparam(int2, 653), "", "", -1);
+            script2051(int0, 12, string0, int19, int20, int21, int22, struct_getparam(int2, 652), string2, string1, int1);
         } else {
-            int22 = (int16 + (int20 / 2));
-        };
-        int30 = ((int8 + (int10 / 2)) - (int19 / 2));
-        if ((int30 <= 0)) {
-            int21 = (0 - int30);
-        } else {
-            int30 = ((int8 + (int10 / 2)) + (int19 / 2));
-            if ((int30 >= int10)) {
-                int21 = (int10 - int30);
+            if ((CC_FIND(int0, 2) == 1)) {
+                CC_DELETE();
+            };
+            if ((CC_FIND(int0, 3) == 1)) {
+                CC_DELETE();
+            };
+            if ((CC_FIND(int0, 4) == 1)) {
+                CC_DELETE();
+            };
+            if ((CC_FIND(int0, 5) == 1)) {
+                CC_DELETE();
+            };
+            if ((CC_FIND(int0, 6) == 1)) {
+                CC_DELETE();
+            };
+            if ((CC_FIND(int0, 7) == 1)) {
+                CC_DELETE();
+            };
+            if ((CC_FIND(int0, 8) == 1)) {
+                CC_DELETE();
+            };
+            if ((CC_FIND(int0, 9) == 1)) {
+                CC_DELETE();
+            };
+            if ((CC_FIND(int0, 10) == 1)) {
+                CC_DELETE();
+            };
+            if ((CC_FIND(int0, 11) == 1)) {
+                CC_DELETE();
+            };
+            if ((CC_FIND(int0, 12) == 1)) {
+                CC_DELETE();
             };
         };
-        int25 = ((int19 - int23) / 2);
-        int26 = ((int20 - int24) / 2);
-        script2048(int0, 2, struct_getparam(int2, 646), (int19 - (int23 * 2)), (int20 - (int24 * 2)), int21, int22, 0, 1, 0, 0, 0, "", "", -1 as coordgrid);
-        script2048(int0, 3, int28, (int19 - (int23 * 2)), int24, int21, (int22 - int26), 0, 1, 0, 0, 0, "", "", -1 as coordgrid);
-        script2048(int0, 4, int28, (int19 - (int23 * 2)), int24, int21, (int22 + int26), 0, 1, 0, 1, 0, "", "", -1 as coordgrid);
-        script2048(int0, 5, int29, int23, (int20 - (int24 * 2)), (int21 - int25), int22, 0, 1, 0, 0, 0, "", "", -1 as coordgrid);
-        script2048(int0, 6, int29, int23, (int20 - (int24 * 2)), (int21 + int25), int22, 0, 1, 1, 0, 0, "", "", -1 as coordgrid);
-        script2048(int0, 7, int27, int23, int24, (int21 - int25), (int22 - int26), 0, 0, 0, 0, 0, "", "", -1 as coordgrid);
-        script2048(int0, 8, int27, int23, int24, (int21 + int25), (int22 - int26), 0, 0, 1, 0, 0, "", "", -1 as coordgrid);
-        script2048(int0, 9, int27, int23, int24, (int21 - int25), (int22 + int26), 0, 0, 0, 1, 0, "", "", -1 as coordgrid);
-        script2048(int0, 10, int27, int23, int24, (int21 + int25), (int22 + int26), 0, 0, 1, 1, 0, "", "", -1 as coordgrid);
-        script2051(int0, 11, string0, int19, int20, (int21 + 1), (int22 + 1), struct_getparam(int2, 653), "", "", -1 as coordgrid);
-        script2051(int0, 12, string0, int19, int20, int21, int22, struct_getparam(int2, 652), string2, string1, int1);
     } else {
         if ((CC_FIND(int0, 2) == 1)) {
             CC_DELETE();

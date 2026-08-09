@@ -1,6 +1,6 @@
 //
 function script16531(): void {
-    var int0 = -1 as dbrow;
+    var int0 = -1;
     var string0 = "None";
     var int1 = -1 as graphic;
     if ((varbitplayer_51239 > 0)) {
@@ -11,7 +11,7 @@ function script16531(): void {
     };
     IF_SETTEXT(string0, comp(970, 39));
     IF_SETGRAPHIC(int1, comp(970, 23));
-    var int2 = comp(970, 15);
+    var int2 = 63569935;
     if ((varbitplayer_51240 > 0)) {
         int0 = script16519(varbitplayer_51240);
         string0 = dbrow_getfield(int0, 725008, 0);

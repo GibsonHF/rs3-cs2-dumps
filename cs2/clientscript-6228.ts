@@ -15,8 +15,12 @@ function script6228(int0: number): void {
         int7 = enum_getvalue(0, 73, 8677 as cs2enum, int0);
         if ((script5858(int7) == 1)) {
             IF_SETHIDE(false, int4);
-            if (((int7 != -1 as struct) && (varbitplayer_22200 < struct_getparam(int7, 4210)))) {
-                IF_SETHIDE(false, int5);
+            if ((int7 != -1 as struct)) {
+                if ((varbitplayer_22200 < struct_getparam(int7, 4210))) {
+                    IF_SETHIDE(false, int5);
+                } else {
+                    IF_SETHIDE(true, int5);
+                };
             } else {
                 IF_SETHIDE(true, int5);
             };
@@ -48,7 +52,7 @@ function script6228(int0: number): void {
     };
     script7924(int1, 0, 32, 32, 5, 5, struct_getparam(int9, 4208), 0, 0, 0, 0);
     script10629(int1, 1, (int10 - 40), 32, 40, 5, struct_getparam(int9, 4206), 7705248, 34, 0, 1, 20, 0);
-    int12 = (PARAHEIGHT(struct_getparam(int9, 4207), (int10 - 20), 206 as fontmetrics) * 13);
+    int12 = (PARAHEIGHT(struct_getparam(int9, 4207), (int10 - 20), 206) * 13);
     script10629(int1, 2, (int10 - 5), int12, 5, 40, struct_getparam(int9, 4207), 7705248, 206, 0, 0, 13, 0);
     switch (struct_getparam(int9, 4219)) {
         case 1: {

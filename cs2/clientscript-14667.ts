@@ -14,9 +14,18 @@ function script14667(int0: number): number {
         int7 = 20;
     };
     var int8 = -1;
-    while ((++int8 < int6)) {
-        if ((((int8 == 0) && ((int5 / 6000) >= 2)) && (script14668(int0, 3) == 1))) {
-            int4 = (int4 + 1);
+    int8 = (int8 + 1);
+    while ((int8 < int6)) {
+        if ((int8 == 0)) {
+            if (((int5 / 6000) >= 2)) {
+                if ((script14668(int0, 3) == 1)) {
+                    int4 = (int4 + 1);
+                } else if ((RANDOMINC(100) < int7)) {
+                    int4 = (int4 + 1);
+                };
+            } else if ((RANDOMINC(100) < int7)) {
+                int4 = (int4 + 1);
+            };
         } else if ((RANDOMINC(100) < int7)) {
             int4 = (int4 + 1);
         };

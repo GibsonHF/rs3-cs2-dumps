@@ -224,6 +224,6 @@ function script6978(): void {
     } else {
         string0 = "You have no Bonds available.";
     };
-    IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -1), 82116713);
+    IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -1), comp(1253, 105));
     return;
 }

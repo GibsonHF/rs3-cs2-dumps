@@ -8,7 +8,8 @@ function script14952(): void {
     };
     var int2 = ENUM_GETOUTPUTCOUNT(14058 as cs2enum);
     var int3 = -1;
-    while ((++int3 < int2)) {
+    int3 = (int3 + 1);
+    while ((int3 < int2)) {
         if ((CC_FIND(int1, int3) == 1)) {
             script14955(enum_getvalue(0, 33, 14058 as cs2enum, int3));
         };

@@ -26,20 +26,45 @@ function script13234(int0: number): void {
     var int13 = -1;
     var int14 = 0;
     int1 = 0;
-    while (((int1 < 11) && (int7 == 0))) {
-        [int10, int3, int4] = script13113(int1);
-        if ((int10 == -1)) {
-            int7 = 1;
-        };
+    while ((int1 < 11)) {
         if ((int7 == 0)) {
-            script13237(int1, 0, 0, int8);
-            script13238(int1, 0);
-            [int8, int9] = script13239(int1, int10, int0, int12, int8, int3, int9, 0, 0);
+            [int10, int3, int4] = script13113(int1);
+            if ((int10 == -1)) {
+                int7 = 1;
+            };
+            if ((int7 == 0)) {
+                script13237(int1, 0, 0, int8);
+                script13238(int1, 0);
+                [int8, int9] = script13239(int1, int10, int0, int12, int8, int3, int9, 0, 0);
+                int2 = (int2 + 1);
+            };
+            int1 = (int1 + 1);
+        };
+        var int15 = -1;
+        if ((int8 < IF_GETHEIGHT(comp(1845, 17)))) {
+            IF_SETSCROLLSIZE(0, 0, comp(1845, 17));
+            IF_SETSCROLLPOS(0, 0, comp(1845, 17));
+            IF_SETPOSITION(0, IF_GETY(comp(1845, 18)), 2, 0, comp(1845, 18));
+            int15 = 0;
+        } else {
+            IF_SETSCROLLSIZE(0, int8, comp(1845, 17));
+            IF_SETSCROLLPOS(0, int11, comp(1845, 17));
+            script7791(120913920, 120913937);
+            IF_SETPOSITION(18, IF_GETY(comp(1845, 18)), 2, 0, comp(1845, 18));
+            int15 = 1;
+        };
+        while ((int2 < 11)) {
+            [int8, int9] = script13239(int1, int10, int0, int12, int8, int3, int9, 1, int4);
             int2 = (int2 + 1);
         };
-        int1 = (int1 + 1);
+        int1 = 0;
+        while ((int1 < 11)) {
+            script13236(int1, int15);
+            int1 = (int1 + 1);
+        };
+        return;
     };
-    var int15 = -1;
+    int15 = -1;
     if ((int8 < IF_GETHEIGHT(comp(1845, 17)))) {
         IF_SETSCROLLSIZE(0, 0, comp(1845, 17));
         IF_SETSCROLLPOS(0, 0, comp(1845, 17));

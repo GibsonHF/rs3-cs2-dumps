@@ -146,8 +146,7 @@ function script20332(): void {
     var int42 = -1;
     var int43 = -1;
     var int44 = -1;
-    stack(unk11102());
-    [int31, int32, string0, int33, string1, int34, int35, string2] = stack();
+    [int31, int32, string0, int33, string1, int34, int35, string2] = unk11102();
     if ((int31 == -1)) {
         IF_SETTEXT("The world list could not be loaded.<br><br>Please accept our apologies for the<br>inconvenience, and try again later.", comp(910, 10));
         return;
@@ -157,24 +156,6673 @@ function script20332(): void {
     var string7 = "";
     var int47 = script16823();
     while ((int31 >= 0)) {
-        if ((((varbitplayer_58378 == 1) && (int12 != -1)) && (TESTBIT(int32, 24) == 0))) {
-            stack(unk11101());
-            [int31, int32, string0, int33, string1, int34, int35, string2] = stack();
-        } else if ((((varbitplayer_58378 == 0) || (int12 == -1)) && (TESTBIT(int32, 24) == 1))) {
-            stack(unk11101());
-            [int31, int32, string0, int33, string1, int34, int35, string2] = stack();
-        } else if (((int31 >= 170) && (int34 < 0))) {
-            stack(unk11101());
-            [int31, int32, string0, int33, string1, int34, int35, string2] = stack();
+        if ((varbitplayer_58378 == 1)) {
+            if ((int12 != -1)) {
+                if ((TESTBIT(int32, 24) == 0)) {
+                    [int31, int32, string0, int33, string1, int34, int35, string2] = unk11101();
+                } else if (((varbitplayer_58378 == 0) || (int12 == -1))) {
+                    if ((TESTBIT(int32, 24) == 1)) {
+                        [int31, int32, string0, int33, string1, int34, int35, string2] = unk11101();
+                    } else if ((int31 >= 170)) {
+                        if ((int34 < 0)) {
+                            [int31, int32, string0, int33, string1, int34, int35, string2] = unk11101();
+                        } else if ((TESTBIT(int32, 12) == 1)) {
+                            [int31, int32, string0, int33, string1, int34, int35, string2] = unk11101();
+                        } else if ((TESTBIT(int32, 30) == 1)) {
+                            if ((int47 == 0)) {
+                                if ((STAFFMODLEVEL() < 2)) {
+                                    [int31, int32, string0, int33, string1, int34, int35, string2] = unk11101();
+                                } else if ((TESTBIT(int32, 30) == 0)) {
+                                    if ((int47 == 1)) {
+                                        if ((STAFFMODLEVEL() < 2)) {
+                                            [int31, int32, string0, int33, string1, int34, int35, string2] = unk11101();
+                                        } else {
+                                            [int40, string3, string4, int38, int41, int37, int36, string5, string6] = script3117(int31, int32, int45, string0, string1, int34, int33);
+                                            if ((script13749() == 1)) {
+                                                if ((int38 == 16777215)) {
+                                                    int39 = 7705248;
+                                                } else {
+                                                    int39 = int38;
+                                                };
+                                                int38 = 7705248;
+                                            } else {
+                                                int39 = int38;
+                                            };
+                                            script20333(int16, int45, int1, int46, int45);
+                                            script7924(int17, int45, int9, int9, 0, int46, int36, 0, 0, 0, 0);
+                                            CC_SETPOSITION(0, (int46 + int5), 1, 0);
+                                            script10629(int18, int45, (IF_GETWIDTH(int18) - 6), int1, 3, int46, inttostring(int31, 10), int38, int15, 0, 1, 0, 1);
+                                            script10629(int20, int45, (IF_GETWIDTH(int20) - 6), int1, 3, int46, string6, int38, int15, 0, 1, 0, 1);
+                                            script10629(int21, int45, (IF_GETWIDTH(int21) - 6), int1, 3, int46, string4, int38, int15, 0, 1, 0, 1);
+                                            script7924(int23, int45, 24, 12, 4, (int46 + int3), int40, 0, 0, 0, 0);
+                                            script10629(int22, int45, 30, int1, 30, int46, string3, int38, int15, 0, 1, 0, 1);
+                                            CC_SETSIZE(30, int1, 1, 0);
+                                            script10629(int24, int45, (IF_GETWIDTH(int24) - 10), int1, 5, int46, string5, int39, int15, 0, 1, 0, 1);
+                                            script7924(int25, int45, int10, int10, 0, (int46 + int4), int41, 0, 0, 0, 0);
+                                            CC_SETPOSITION(0, (int46 + int4), 1, 0);
+                                            if ((int35 == -1)) {
+                                                string7 = "-";
+                                            } else if ((int35 >= 1000)) {
+                                                string7 = "N/A";
+                                            } else {
+                                                string7 = inttostring(int35, 10);
+                                            };
+                                            script10629(int26, int45, (IF_GETWIDTH(int26) - 10), int1, 5, int46, string7, int38, int15, 0, 1, 0, 1);
+                                            script10629(int27, int45, IF_GETWIDTH(int27), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                                            CC_SETOP(1, "Select");
+                                            CC_SETOPBASE(`World ${inttostring(int31, 10)}`);
+                                            CC_SETONOP(callback(script3129, -2147483644, int45, int31, string2));
+                                            script10629(int28, int45, IF_GETWIDTH(int28), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                                            CC_SETONMOUSEOVER(callback(script3130, int17, int28, int45, int31));
+                                            CC_SETONMOUSELEAVE(callback(script3132, int17, int45, int31));
+                                            CC_SETOP(1, "Alter");
+                                            CC_SETOPBASE("Favourite");
+                                            CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
+                                            CC_SETONCLICK(callback(script10036));
+                                            if ((int31 == MAP_WORLD())) {
+                                                IF_SETHIDE(false, comp(910, 65));
+                                                IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                                            };
+                                            if ((int31 == script20335(1))) {
+                                                int42 = int45;
+                                            };
+                                            if ((int31 == script20335(2))) {
+                                                int43 = int45;
+                                            };
+                                            if ((int31 == script20335(3))) {
+                                                int44 = int45;
+                                            };
+                                            [int31, int32, string0, int33, string1, int34, int35, string2] = unk11101();
+                                            int46 = (int46 + (int1 + int2));
+                                            int45 = (int45 + 1);
+                                        };
+                                    } else {
+                                        [int40, string3, string4, int38, int41, int37, int36, string5, string6] = script3117(int31, int32, int45, string0, string1, int34, int33);
+                                        if ((script13749() == 1)) {
+                                            if ((int38 == 16777215)) {
+                                                int39 = 7705248;
+                                            } else {
+                                                int39 = int38;
+                                            };
+                                            int38 = 7705248;
+                                        } else {
+                                            int39 = int38;
+                                        };
+                                        script20333(int16, int45, int1, int46, int45);
+                                        script7924(int17, int45, int9, int9, 0, int46, int36, 0, 0, 0, 0);
+                                        CC_SETPOSITION(0, (int46 + int5), 1, 0);
+                                        script10629(int18, int45, (IF_GETWIDTH(int18) - 6), int1, 3, int46, inttostring(int31, 10), int38, int15, 0, 1, 0, 1);
+                                        script10629(int20, int45, (IF_GETWIDTH(int20) - 6), int1, 3, int46, string6, int38, int15, 0, 1, 0, 1);
+                                        script10629(int21, int45, (IF_GETWIDTH(int21) - 6), int1, 3, int46, string4, int38, int15, 0, 1, 0, 1);
+                                        script7924(int23, int45, 24, 12, 4, (int46 + int3), int40, 0, 0, 0, 0);
+                                        script10629(int22, int45, 30, int1, 30, int46, string3, int38, int15, 0, 1, 0, 1);
+                                        CC_SETSIZE(30, int1, 1, 0);
+                                        script10629(int24, int45, (IF_GETWIDTH(int24) - 10), int1, 5, int46, string5, int39, int15, 0, 1, 0, 1);
+                                        script7924(int25, int45, int10, int10, 0, (int46 + int4), int41, 0, 0, 0, 0);
+                                        CC_SETPOSITION(0, (int46 + int4), 1, 0);
+                                        if ((int35 == -1)) {
+                                            string7 = "-";
+                                        } else if ((int35 >= 1000)) {
+                                            string7 = "N/A";
+                                        } else {
+                                            string7 = inttostring(int35, 10);
+                                        };
+                                        script10629(int26, int45, (IF_GETWIDTH(int26) - 10), int1, 5, int46, string7, int38, int15, 0, 1, 0, 1);
+                                        script10629(int27, int45, IF_GETWIDTH(int27), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                                        CC_SETOP(1, "Select");
+                                        CC_SETOPBASE(`World ${inttostring(int31, 10)}`);
+                                        CC_SETONOP(callback(script3129, -2147483644, int45, int31, string2));
+                                        script10629(int28, int45, IF_GETWIDTH(int28), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                                        CC_SETONMOUSEOVER(callback(script3130, int17, int28, int45, int31));
+                                        CC_SETONMOUSELEAVE(callback(script3132, int17, int45, int31));
+                                        CC_SETOP(1, "Alter");
+                                        CC_SETOPBASE("Favourite");
+                                        CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
+                                        CC_SETONCLICK(callback(script10036));
+                                        if ((int31 == MAP_WORLD())) {
+                                            IF_SETHIDE(false, comp(910, 65));
+                                            IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                                        };
+                                        if ((int31 == script20335(1))) {
+                                            int42 = int45;
+                                        };
+                                        if ((int31 == script20335(2))) {
+                                            int43 = int45;
+                                        };
+                                        if ((int31 == script20335(3))) {
+                                            int44 = int45;
+                                        };
+                                        [int31, int32, string0, int33, string1, int34, int35, string2] = unk11101();
+                                        int46 = (int46 + (int1 + int2));
+                                        int45 = (int45 + 1);
+                                    };
+                                } else {
+                                    [int40, string3, string4, int38, int41, int37, int36, string5, string6] = script3117(int31, int32, int45, string0, string1, int34, int33);
+                                    if ((script13749() == 1)) {
+                                        if ((int38 == 16777215)) {
+                                            int39 = 7705248;
+                                        } else {
+                                            int39 = int38;
+                                        };
+                                        int38 = 7705248;
+                                    } else {
+                                        int39 = int38;
+                                    };
+                                    script20333(int16, int45, int1, int46, int45);
+                                    script7924(int17, int45, int9, int9, 0, int46, int36, 0, 0, 0, 0);
+                                    CC_SETPOSITION(0, (int46 + int5), 1, 0);
+                                    script10629(int18, int45, (IF_GETWIDTH(int18) - 6), int1, 3, int46, inttostring(int31, 10), int38, int15, 0, 1, 0, 1);
+                                    script10629(int20, int45, (IF_GETWIDTH(int20) - 6), int1, 3, int46, string6, int38, int15, 0, 1, 0, 1);
+                                    script10629(int21, int45, (IF_GETWIDTH(int21) - 6), int1, 3, int46, string4, int38, int15, 0, 1, 0, 1);
+                                    script7924(int23, int45, 24, 12, 4, (int46 + int3), int40, 0, 0, 0, 0);
+                                    script10629(int22, int45, 30, int1, 30, int46, string3, int38, int15, 0, 1, 0, 1);
+                                    CC_SETSIZE(30, int1, 1, 0);
+                                    script10629(int24, int45, (IF_GETWIDTH(int24) - 10), int1, 5, int46, string5, int39, int15, 0, 1, 0, 1);
+                                    script7924(int25, int45, int10, int10, 0, (int46 + int4), int41, 0, 0, 0, 0);
+                                    CC_SETPOSITION(0, (int46 + int4), 1, 0);
+                                    if ((int35 == -1)) {
+                                        string7 = "-";
+                                    } else if ((int35 >= 1000)) {
+                                        string7 = "N/A";
+                                    } else {
+                                        string7 = inttostring(int35, 10);
+                                    };
+                                    script10629(int26, int45, (IF_GETWIDTH(int26) - 10), int1, 5, int46, string7, int38, int15, 0, 1, 0, 1);
+                                    script10629(int27, int45, IF_GETWIDTH(int27), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                                    CC_SETOP(1, "Select");
+                                    CC_SETOPBASE(`World ${inttostring(int31, 10)}`);
+                                    CC_SETONOP(callback(script3129, -2147483644, int45, int31, string2));
+                                    script10629(int28, int45, IF_GETWIDTH(int28), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                                    CC_SETONMOUSEOVER(callback(script3130, int17, int28, int45, int31));
+                                    CC_SETONMOUSELEAVE(callback(script3132, int17, int45, int31));
+                                    CC_SETOP(1, "Alter");
+                                    CC_SETOPBASE("Favourite");
+                                    CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
+                                    CC_SETONCLICK(callback(script10036));
+                                    if ((int31 == MAP_WORLD())) {
+                                        IF_SETHIDE(false, comp(910, 65));
+                                        IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                                    };
+                                    if ((int31 == script20335(1))) {
+                                        int42 = int45;
+                                    };
+                                    if ((int31 == script20335(2))) {
+                                        int43 = int45;
+                                    };
+                                    if ((int31 == script20335(3))) {
+                                        int44 = int45;
+                                    };
+                                    [int31, int32, string0, int33, string1, int34, int35, string2] = unk11101();
+                                    int46 = (int46 + (int1 + int2));
+                                    int45 = (int45 + 1);
+                                };
+                            } else if ((TESTBIT(int32, 30) == 0)) {
+                                if ((int47 == 1)) {
+                                    if ((STAFFMODLEVEL() < 2)) {
+                                        [int31, int32, string0, int33, string1, int34, int35, string2] = unk11101();
+                                    } else {
+                                        [int40, string3, string4, int38, int41, int37, int36, string5, string6] = script3117(int31, int32, int45, string0, string1, int34, int33);
+                                        if ((script13749() == 1)) {
+                                            if ((int38 == 16777215)) {
+                                                int39 = 7705248;
+                                            } else {
+                                                int39 = int38;
+                                            };
+                                            int38 = 7705248;
+                                        } else {
+                                            int39 = int38;
+                                        };
+                                        script20333(int16, int45, int1, int46, int45);
+                                        script7924(int17, int45, int9, int9, 0, int46, int36, 0, 0, 0, 0);
+                                        CC_SETPOSITION(0, (int46 + int5), 1, 0);
+                                        script10629(int18, int45, (IF_GETWIDTH(int18) - 6), int1, 3, int46, inttostring(int31, 10), int38, int15, 0, 1, 0, 1);
+                                        script10629(int20, int45, (IF_GETWIDTH(int20) - 6), int1, 3, int46, string6, int38, int15, 0, 1, 0, 1);
+                                        script10629(int21, int45, (IF_GETWIDTH(int21) - 6), int1, 3, int46, string4, int38, int15, 0, 1, 0, 1);
+                                        script7924(int23, int45, 24, 12, 4, (int46 + int3), int40, 0, 0, 0, 0);
+                                        script10629(int22, int45, 30, int1, 30, int46, string3, int38, int15, 0, 1, 0, 1);
+                                        CC_SETSIZE(30, int1, 1, 0);
+                                        script10629(int24, int45, (IF_GETWIDTH(int24) - 10), int1, 5, int46, string5, int39, int15, 0, 1, 0, 1);
+                                        script7924(int25, int45, int10, int10, 0, (int46 + int4), int41, 0, 0, 0, 0);
+                                        CC_SETPOSITION(0, (int46 + int4), 1, 0);
+                                        if ((int35 == -1)) {
+                                            string7 = "-";
+                                        } else if ((int35 >= 1000)) {
+                                            string7 = "N/A";
+                                        } else {
+                                            string7 = inttostring(int35, 10);
+                                        };
+                                        script10629(int26, int45, (IF_GETWIDTH(int26) - 10), int1, 5, int46, string7, int38, int15, 0, 1, 0, 1);
+                                        script10629(int27, int45, IF_GETWIDTH(int27), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                                        CC_SETOP(1, "Select");
+                                        CC_SETOPBASE(`World ${inttostring(int31, 10)}`);
+                                        CC_SETONOP(callback(script3129, -2147483644, int45, int31, string2));
+                                        script10629(int28, int45, IF_GETWIDTH(int28), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                                        CC_SETONMOUSEOVER(callback(script3130, int17, int28, int45, int31));
+                                        CC_SETONMOUSELEAVE(callback(script3132, int17, int45, int31));
+                                        CC_SETOP(1, "Alter");
+                                        CC_SETOPBASE("Favourite");
+                                        CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
+                                        CC_SETONCLICK(callback(script10036));
+                                        if ((int31 == MAP_WORLD())) {
+                                            IF_SETHIDE(false, comp(910, 65));
+                                            IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                                        };
+                                        if ((int31 == script20335(1))) {
+                                            int42 = int45;
+                                        };
+                                        if ((int31 == script20335(2))) {
+                                            int43 = int45;
+                                        };
+                                        if ((int31 == script20335(3))) {
+                                            int44 = int45;
+                                        };
+                                        [int31, int32, string0, int33, string1, int34, int35, string2] = unk11101();
+                                        int46 = (int46 + (int1 + int2));
+                                        int45 = (int45 + 1);
+                                    };
+                                } else {
+                                    [int40, string3, string4, int38, int41, int37, int36, string5, string6] = script3117(int31, int32, int45, string0, string1, int34, int33);
+                                    if ((script13749() == 1)) {
+                                        if ((int38 == 16777215)) {
+                                            int39 = 7705248;
+                                        } else {
+                                            int39 = int38;
+                                        };
+                                        int38 = 7705248;
+                                    } else {
+                                        int39 = int38;
+                                    };
+                                    script20333(int16, int45, int1, int46, int45);
+                                    script7924(int17, int45, int9, int9, 0, int46, int36, 0, 0, 0, 0);
+                                    CC_SETPOSITION(0, (int46 + int5), 1, 0);
+                                    script10629(int18, int45, (IF_GETWIDTH(int18) - 6), int1, 3, int46, inttostring(int31, 10), int38, int15, 0, 1, 0, 1);
+                                    script10629(int20, int45, (IF_GETWIDTH(int20) - 6), int1, 3, int46, string6, int38, int15, 0, 1, 0, 1);
+                                    script10629(int21, int45, (IF_GETWIDTH(int21) - 6), int1, 3, int46, string4, int38, int15, 0, 1, 0, 1);
+                                    script7924(int23, int45, 24, 12, 4, (int46 + int3), int40, 0, 0, 0, 0);
+                                    script10629(int22, int45, 30, int1, 30, int46, string3, int38, int15, 0, 1, 0, 1);
+                                    CC_SETSIZE(30, int1, 1, 0);
+                                    script10629(int24, int45, (IF_GETWIDTH(int24) - 10), int1, 5, int46, string5, int39, int15, 0, 1, 0, 1);
+                                    script7924(int25, int45, int10, int10, 0, (int46 + int4), int41, 0, 0, 0, 0);
+                                    CC_SETPOSITION(0, (int46 + int4), 1, 0);
+                                    if ((int35 == -1)) {
+                                        string7 = "-";
+                                    } else if ((int35 >= 1000)) {
+                                        string7 = "N/A";
+                                    } else {
+                                        string7 = inttostring(int35, 10);
+                                    };
+                                    script10629(int26, int45, (IF_GETWIDTH(int26) - 10), int1, 5, int46, string7, int38, int15, 0, 1, 0, 1);
+                                    script10629(int27, int45, IF_GETWIDTH(int27), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                                    CC_SETOP(1, "Select");
+                                    CC_SETOPBASE(`World ${inttostring(int31, 10)}`);
+                                    CC_SETONOP(callback(script3129, -2147483644, int45, int31, string2));
+                                    script10629(int28, int45, IF_GETWIDTH(int28), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                                    CC_SETONMOUSEOVER(callback(script3130, int17, int28, int45, int31));
+                                    CC_SETONMOUSELEAVE(callback(script3132, int17, int45, int31));
+                                    CC_SETOP(1, "Alter");
+                                    CC_SETOPBASE("Favourite");
+                                    CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
+                                    CC_SETONCLICK(callback(script10036));
+                                    if ((int31 == MAP_WORLD())) {
+                                        IF_SETHIDE(false, comp(910, 65));
+                                        IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                                    };
+                                    if ((int31 == script20335(1))) {
+                                        int42 = int45;
+                                    };
+                                    if ((int31 == script20335(2))) {
+                                        int43 = int45;
+                                    };
+                                    if ((int31 == script20335(3))) {
+                                        int44 = int45;
+                                    };
+                                    [int31, int32, string0, int33, string1, int34, int35, string2] = unk11101();
+                                    int46 = (int46 + (int1 + int2));
+                                    int45 = (int45 + 1);
+                                };
+                            } else {
+                                [int40, string3, string4, int38, int41, int37, int36, string5, string6] = script3117(int31, int32, int45, string0, string1, int34, int33);
+                                if ((script13749() == 1)) {
+                                    if ((int38 == 16777215)) {
+                                        int39 = 7705248;
+                                    } else {
+                                        int39 = int38;
+                                    };
+                                    int38 = 7705248;
+                                } else {
+                                    int39 = int38;
+                                };
+                                script20333(int16, int45, int1, int46, int45);
+                                script7924(int17, int45, int9, int9, 0, int46, int36, 0, 0, 0, 0);
+                                CC_SETPOSITION(0, (int46 + int5), 1, 0);
+                                script10629(int18, int45, (IF_GETWIDTH(int18) - 6), int1, 3, int46, inttostring(int31, 10), int38, int15, 0, 1, 0, 1);
+                                script10629(int20, int45, (IF_GETWIDTH(int20) - 6), int1, 3, int46, string6, int38, int15, 0, 1, 0, 1);
+                                script10629(int21, int45, (IF_GETWIDTH(int21) - 6), int1, 3, int46, string4, int38, int15, 0, 1, 0, 1);
+                                script7924(int23, int45, 24, 12, 4, (int46 + int3), int40, 0, 0, 0, 0);
+                                script10629(int22, int45, 30, int1, 30, int46, string3, int38, int15, 0, 1, 0, 1);
+                                CC_SETSIZE(30, int1, 1, 0);
+                                script10629(int24, int45, (IF_GETWIDTH(int24) - 10), int1, 5, int46, string5, int39, int15, 0, 1, 0, 1);
+                                script7924(int25, int45, int10, int10, 0, (int46 + int4), int41, 0, 0, 0, 0);
+                                CC_SETPOSITION(0, (int46 + int4), 1, 0);
+                                if ((int35 == -1)) {
+                                    string7 = "-";
+                                } else if ((int35 >= 1000)) {
+                                    string7 = "N/A";
+                                } else {
+                                    string7 = inttostring(int35, 10);
+                                };
+                                script10629(int26, int45, (IF_GETWIDTH(int26) - 10), int1, 5, int46, string7, int38, int15, 0, 1, 0, 1);
+                                script10629(int27, int45, IF_GETWIDTH(int27), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                                CC_SETOP(1, "Select");
+                                CC_SETOPBASE(`World ${inttostring(int31, 10)}`);
+                                CC_SETONOP(callback(script3129, -2147483644, int45, int31, string2));
+                                script10629(int28, int45, IF_GETWIDTH(int28), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                                CC_SETONMOUSEOVER(callback(script3130, int17, int28, int45, int31));
+                                CC_SETONMOUSELEAVE(callback(script3132, int17, int45, int31));
+                                CC_SETOP(1, "Alter");
+                                CC_SETOPBASE("Favourite");
+                                CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
+                                CC_SETONCLICK(callback(script10036));
+                                if ((int31 == MAP_WORLD())) {
+                                    IF_SETHIDE(false, comp(910, 65));
+                                    IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                                };
+                                if ((int31 == script20335(1))) {
+                                    int42 = int45;
+                                };
+                                if ((int31 == script20335(2))) {
+                                    int43 = int45;
+                                };
+                                if ((int31 == script20335(3))) {
+                                    int44 = int45;
+                                };
+                                [int31, int32, string0, int33, string1, int34, int35, string2] = unk11101();
+                                int46 = (int46 + (int1 + int2));
+                                int45 = (int45 + 1);
+                            };
+                        } else if ((TESTBIT(int32, 30) == 0)) {
+                            if ((int47 == 1)) {
+                                if ((STAFFMODLEVEL() < 2)) {
+                                    [int31, int32, string0, int33, string1, int34, int35, string2] = unk11101();
+                                } else {
+                                    [int40, string3, string4, int38, int41, int37, int36, string5, string6] = script3117(int31, int32, int45, string0, string1, int34, int33);
+                                    if ((script13749() == 1)) {
+                                        if ((int38 == 16777215)) {
+                                            int39 = 7705248;
+                                        } else {
+                                            int39 = int38;
+                                        };
+                                        int38 = 7705248;
+                                    } else {
+                                        int39 = int38;
+                                    };
+                                    script20333(int16, int45, int1, int46, int45);
+                                    script7924(int17, int45, int9, int9, 0, int46, int36, 0, 0, 0, 0);
+                                    CC_SETPOSITION(0, (int46 + int5), 1, 0);
+                                    script10629(int18, int45, (IF_GETWIDTH(int18) - 6), int1, 3, int46, inttostring(int31, 10), int38, int15, 0, 1, 0, 1);
+                                    script10629(int20, int45, (IF_GETWIDTH(int20) - 6), int1, 3, int46, string6, int38, int15, 0, 1, 0, 1);
+                                    script10629(int21, int45, (IF_GETWIDTH(int21) - 6), int1, 3, int46, string4, int38, int15, 0, 1, 0, 1);
+                                    script7924(int23, int45, 24, 12, 4, (int46 + int3), int40, 0, 0, 0, 0);
+                                    script10629(int22, int45, 30, int1, 30, int46, string3, int38, int15, 0, 1, 0, 1);
+                                    CC_SETSIZE(30, int1, 1, 0);
+                                    script10629(int24, int45, (IF_GETWIDTH(int24) - 10), int1, 5, int46, string5, int39, int15, 0, 1, 0, 1);
+                                    script7924(int25, int45, int10, int10, 0, (int46 + int4), int41, 0, 0, 0, 0);
+                                    CC_SETPOSITION(0, (int46 + int4), 1, 0);
+                                    if ((int35 == -1)) {
+                                        string7 = "-";
+                                    } else if ((int35 >= 1000)) {
+                                        string7 = "N/A";
+                                    } else {
+                                        string7 = inttostring(int35, 10);
+                                    };
+                                    script10629(int26, int45, (IF_GETWIDTH(int26) - 10), int1, 5, int46, string7, int38, int15, 0, 1, 0, 1);
+                                    script10629(int27, int45, IF_GETWIDTH(int27), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                                    CC_SETOP(1, "Select");
+                                    CC_SETOPBASE(`World ${inttostring(int31, 10)}`);
+                                    CC_SETONOP(callback(script3129, -2147483644, int45, int31, string2));
+                                    script10629(int28, int45, IF_GETWIDTH(int28), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                                    CC_SETONMOUSEOVER(callback(script3130, int17, int28, int45, int31));
+                                    CC_SETONMOUSELEAVE(callback(script3132, int17, int45, int31));
+                                    CC_SETOP(1, "Alter");
+                                    CC_SETOPBASE("Favourite");
+                                    CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
+                                    CC_SETONCLICK(callback(script10036));
+                                    if ((int31 == MAP_WORLD())) {
+                                        IF_SETHIDE(false, comp(910, 65));
+                                        IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                                    };
+                                    if ((int31 == script20335(1))) {
+                                        int42 = int45;
+                                    };
+                                    if ((int31 == script20335(2))) {
+                                        int43 = int45;
+                                    };
+                                    if ((int31 == script20335(3))) {
+                                        int44 = int45;
+                                    };
+                                    [int31, int32, string0, int33, string1, int34, int35, string2] = unk11101();
+                                    int46 = (int46 + (int1 + int2));
+                                    int45 = (int45 + 1);
+                                };
+                            } else {
+                                [int40, string3, string4, int38, int41, int37, int36, string5, string6] = script3117(int31, int32, int45, string0, string1, int34, int33);
+                                if ((script13749() == 1)) {
+                                    if ((int38 == 16777215)) {
+                                        int39 = 7705248;
+                                    } else {
+                                        int39 = int38;
+                                    };
+                                    int38 = 7705248;
+                                } else {
+                                    int39 = int38;
+                                };
+                                script20333(int16, int45, int1, int46, int45);
+                                script7924(int17, int45, int9, int9, 0, int46, int36, 0, 0, 0, 0);
+                                CC_SETPOSITION(0, (int46 + int5), 1, 0);
+                                script10629(int18, int45, (IF_GETWIDTH(int18) - 6), int1, 3, int46, inttostring(int31, 10), int38, int15, 0, 1, 0, 1);
+                                script10629(int20, int45, (IF_GETWIDTH(int20) - 6), int1, 3, int46, string6, int38, int15, 0, 1, 0, 1);
+                                script10629(int21, int45, (IF_GETWIDTH(int21) - 6), int1, 3, int46, string4, int38, int15, 0, 1, 0, 1);
+                                script7924(int23, int45, 24, 12, 4, (int46 + int3), int40, 0, 0, 0, 0);
+                                script10629(int22, int45, 30, int1, 30, int46, string3, int38, int15, 0, 1, 0, 1);
+                                CC_SETSIZE(30, int1, 1, 0);
+                                script10629(int24, int45, (IF_GETWIDTH(int24) - 10), int1, 5, int46, string5, int39, int15, 0, 1, 0, 1);
+                                script7924(int25, int45, int10, int10, 0, (int46 + int4), int41, 0, 0, 0, 0);
+                                CC_SETPOSITION(0, (int46 + int4), 1, 0);
+                                if ((int35 == -1)) {
+                                    string7 = "-";
+                                } else if ((int35 >= 1000)) {
+                                    string7 = "N/A";
+                                } else {
+                                    string7 = inttostring(int35, 10);
+                                };
+                                script10629(int26, int45, (IF_GETWIDTH(int26) - 10), int1, 5, int46, string7, int38, int15, 0, 1, 0, 1);
+                                script10629(int27, int45, IF_GETWIDTH(int27), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                                CC_SETOP(1, "Select");
+                                CC_SETOPBASE(`World ${inttostring(int31, 10)}`);
+                                CC_SETONOP(callback(script3129, -2147483644, int45, int31, string2));
+                                script10629(int28, int45, IF_GETWIDTH(int28), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                                CC_SETONMOUSEOVER(callback(script3130, int17, int28, int45, int31));
+                                CC_SETONMOUSELEAVE(callback(script3132, int17, int45, int31));
+                                CC_SETOP(1, "Alter");
+                                CC_SETOPBASE("Favourite");
+                                CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
+                                CC_SETONCLICK(callback(script10036));
+                                if ((int31 == MAP_WORLD())) {
+                                    IF_SETHIDE(false, comp(910, 65));
+                                    IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                                };
+                                if ((int31 == script20335(1))) {
+                                    int42 = int45;
+                                };
+                                if ((int31 == script20335(2))) {
+                                    int43 = int45;
+                                };
+                                if ((int31 == script20335(3))) {
+                                    int44 = int45;
+                                };
+                                [int31, int32, string0, int33, string1, int34, int35, string2] = unk11101();
+                                int46 = (int46 + (int1 + int2));
+                                int45 = (int45 + 1);
+                            };
+                        } else {
+                            [int40, string3, string4, int38, int41, int37, int36, string5, string6] = script3117(int31, int32, int45, string0, string1, int34, int33);
+                            if ((script13749() == 1)) {
+                                if ((int38 == 16777215)) {
+                                    int39 = 7705248;
+                                } else {
+                                    int39 = int38;
+                                };
+                                int38 = 7705248;
+                            } else {
+                                int39 = int38;
+                            };
+                            script20333(int16, int45, int1, int46, int45);
+                            script7924(int17, int45, int9, int9, 0, int46, int36, 0, 0, 0, 0);
+                            CC_SETPOSITION(0, (int46 + int5), 1, 0);
+                            script10629(int18, int45, (IF_GETWIDTH(int18) - 6), int1, 3, int46, inttostring(int31, 10), int38, int15, 0, 1, 0, 1);
+                            script10629(int20, int45, (IF_GETWIDTH(int20) - 6), int1, 3, int46, string6, int38, int15, 0, 1, 0, 1);
+                            script10629(int21, int45, (IF_GETWIDTH(int21) - 6), int1, 3, int46, string4, int38, int15, 0, 1, 0, 1);
+                            script7924(int23, int45, 24, 12, 4, (int46 + int3), int40, 0, 0, 0, 0);
+                            script10629(int22, int45, 30, int1, 30, int46, string3, int38, int15, 0, 1, 0, 1);
+                            CC_SETSIZE(30, int1, 1, 0);
+                            script10629(int24, int45, (IF_GETWIDTH(int24) - 10), int1, 5, int46, string5, int39, int15, 0, 1, 0, 1);
+                            script7924(int25, int45, int10, int10, 0, (int46 + int4), int41, 0, 0, 0, 0);
+                            CC_SETPOSITION(0, (int46 + int4), 1, 0);
+                            if ((int35 == -1)) {
+                                string7 = "-";
+                            } else if ((int35 >= 1000)) {
+                                string7 = "N/A";
+                            } else {
+                                string7 = inttostring(int35, 10);
+                            };
+                            script10629(int26, int45, (IF_GETWIDTH(int26) - 10), int1, 5, int46, string7, int38, int15, 0, 1, 0, 1);
+                            script10629(int27, int45, IF_GETWIDTH(int27), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                            CC_SETOP(1, "Select");
+                            CC_SETOPBASE(`World ${inttostring(int31, 10)}`);
+                            CC_SETONOP(callback(script3129, -2147483644, int45, int31, string2));
+                            script10629(int28, int45, IF_GETWIDTH(int28), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                            CC_SETONMOUSEOVER(callback(script3130, int17, int28, int45, int31));
+                            CC_SETONMOUSELEAVE(callback(script3132, int17, int45, int31));
+                            CC_SETOP(1, "Alter");
+                            CC_SETOPBASE("Favourite");
+                            CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
+                            CC_SETONCLICK(callback(script10036));
+                            if ((int31 == MAP_WORLD())) {
+                                IF_SETHIDE(false, comp(910, 65));
+                                IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                            };
+                            if ((int31 == script20335(1))) {
+                                int42 = int45;
+                            };
+                            if ((int31 == script20335(2))) {
+                                int43 = int45;
+                            };
+                            if ((int31 == script20335(3))) {
+                                int44 = int45;
+                            };
+                            [int31, int32, string0, int33, string1, int34, int35, string2] = unk11101();
+                            int46 = (int46 + (int1 + int2));
+                            int45 = (int45 + 1);
+                        };
+                    } else if ((TESTBIT(int32, 12) == 1)) {
+                        [int31, int32, string0, int33, string1, int34, int35, string2] = unk11101();
+                    } else if ((TESTBIT(int32, 30) == 1)) {
+                        if ((int47 == 0)) {
+                            if ((STAFFMODLEVEL() < 2)) {
+                                [int31, int32, string0, int33, string1, int34, int35, string2] = unk11101();
+                            } else if ((TESTBIT(int32, 30) == 0)) {
+                                if ((int47 == 1)) {
+                                    if ((STAFFMODLEVEL() < 2)) {
+                                        [int31, int32, string0, int33, string1, int34, int35, string2] = unk11101();
+                                    } else {
+                                        [int40, string3, string4, int38, int41, int37, int36, string5, string6] = script3117(int31, int32, int45, string0, string1, int34, int33);
+                                        if ((script13749() == 1)) {
+                                            if ((int38 == 16777215)) {
+                                                int39 = 7705248;
+                                            } else {
+                                                int39 = int38;
+                                            };
+                                            int38 = 7705248;
+                                        } else {
+                                            int39 = int38;
+                                        };
+                                        script20333(int16, int45, int1, int46, int45);
+                                        script7924(int17, int45, int9, int9, 0, int46, int36, 0, 0, 0, 0);
+                                        CC_SETPOSITION(0, (int46 + int5), 1, 0);
+                                        script10629(int18, int45, (IF_GETWIDTH(int18) - 6), int1, 3, int46, inttostring(int31, 10), int38, int15, 0, 1, 0, 1);
+                                        script10629(int20, int45, (IF_GETWIDTH(int20) - 6), int1, 3, int46, string6, int38, int15, 0, 1, 0, 1);
+                                        script10629(int21, int45, (IF_GETWIDTH(int21) - 6), int1, 3, int46, string4, int38, int15, 0, 1, 0, 1);
+                                        script7924(int23, int45, 24, 12, 4, (int46 + int3), int40, 0, 0, 0, 0);
+                                        script10629(int22, int45, 30, int1, 30, int46, string3, int38, int15, 0, 1, 0, 1);
+                                        CC_SETSIZE(30, int1, 1, 0);
+                                        script10629(int24, int45, (IF_GETWIDTH(int24) - 10), int1, 5, int46, string5, int39, int15, 0, 1, 0, 1);
+                                        script7924(int25, int45, int10, int10, 0, (int46 + int4), int41, 0, 0, 0, 0);
+                                        CC_SETPOSITION(0, (int46 + int4), 1, 0);
+                                        if ((int35 == -1)) {
+                                            string7 = "-";
+                                        } else if ((int35 >= 1000)) {
+                                            string7 = "N/A";
+                                        } else {
+                                            string7 = inttostring(int35, 10);
+                                        };
+                                        script10629(int26, int45, (IF_GETWIDTH(int26) - 10), int1, 5, int46, string7, int38, int15, 0, 1, 0, 1);
+                                        script10629(int27, int45, IF_GETWIDTH(int27), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                                        CC_SETOP(1, "Select");
+                                        CC_SETOPBASE(`World ${inttostring(int31, 10)}`);
+                                        CC_SETONOP(callback(script3129, -2147483644, int45, int31, string2));
+                                        script10629(int28, int45, IF_GETWIDTH(int28), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                                        CC_SETONMOUSEOVER(callback(script3130, int17, int28, int45, int31));
+                                        CC_SETONMOUSELEAVE(callback(script3132, int17, int45, int31));
+                                        CC_SETOP(1, "Alter");
+                                        CC_SETOPBASE("Favourite");
+                                        CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
+                                        CC_SETONCLICK(callback(script10036));
+                                        if ((int31 == MAP_WORLD())) {
+                                            IF_SETHIDE(false, comp(910, 65));
+                                            IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                                        };
+                                        if ((int31 == script20335(1))) {
+                                            int42 = int45;
+                                        };
+                                        if ((int31 == script20335(2))) {
+                                            int43 = int45;
+                                        };
+                                        if ((int31 == script20335(3))) {
+                                            int44 = int45;
+                                        };
+                                        [int31, int32, string0, int33, string1, int34, int35, string2] = unk11101();
+                                        int46 = (int46 + (int1 + int2));
+                                        int45 = (int45 + 1);
+                                    };
+                                } else {
+                                    [int40, string3, string4, int38, int41, int37, int36, string5, string6] = script3117(int31, int32, int45, string0, string1, int34, int33);
+                                    if ((script13749() == 1)) {
+                                        if ((int38 == 16777215)) {
+                                            int39 = 7705248;
+                                        } else {
+                                            int39 = int38;
+                                        };
+                                        int38 = 7705248;
+                                    } else {
+                                        int39 = int38;
+                                    };
+                                    script20333(int16, int45, int1, int46, int45);
+                                    script7924(int17, int45, int9, int9, 0, int46, int36, 0, 0, 0, 0);
+                                    CC_SETPOSITION(0, (int46 + int5), 1, 0);
+                                    script10629(int18, int45, (IF_GETWIDTH(int18) - 6), int1, 3, int46, inttostring(int31, 10), int38, int15, 0, 1, 0, 1);
+                                    script10629(int20, int45, (IF_GETWIDTH(int20) - 6), int1, 3, int46, string6, int38, int15, 0, 1, 0, 1);
+                                    script10629(int21, int45, (IF_GETWIDTH(int21) - 6), int1, 3, int46, string4, int38, int15, 0, 1, 0, 1);
+                                    script7924(int23, int45, 24, 12, 4, (int46 + int3), int40, 0, 0, 0, 0);
+                                    script10629(int22, int45, 30, int1, 30, int46, string3, int38, int15, 0, 1, 0, 1);
+                                    CC_SETSIZE(30, int1, 1, 0);
+                                    script10629(int24, int45, (IF_GETWIDTH(int24) - 10), int1, 5, int46, string5, int39, int15, 0, 1, 0, 1);
+                                    script7924(int25, int45, int10, int10, 0, (int46 + int4), int41, 0, 0, 0, 0);
+                                    CC_SETPOSITION(0, (int46 + int4), 1, 0);
+                                    if ((int35 == -1)) {
+                                        string7 = "-";
+                                    } else if ((int35 >= 1000)) {
+                                        string7 = "N/A";
+                                    } else {
+                                        string7 = inttostring(int35, 10);
+                                    };
+                                    script10629(int26, int45, (IF_GETWIDTH(int26) - 10), int1, 5, int46, string7, int38, int15, 0, 1, 0, 1);
+                                    script10629(int27, int45, IF_GETWIDTH(int27), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                                    CC_SETOP(1, "Select");
+                                    CC_SETOPBASE(`World ${inttostring(int31, 10)}`);
+                                    CC_SETONOP(callback(script3129, -2147483644, int45, int31, string2));
+                                    script10629(int28, int45, IF_GETWIDTH(int28), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                                    CC_SETONMOUSEOVER(callback(script3130, int17, int28, int45, int31));
+                                    CC_SETONMOUSELEAVE(callback(script3132, int17, int45, int31));
+                                    CC_SETOP(1, "Alter");
+                                    CC_SETOPBASE("Favourite");
+                                    CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
+                                    CC_SETONCLICK(callback(script10036));
+                                    if ((int31 == MAP_WORLD())) {
+                                        IF_SETHIDE(false, comp(910, 65));
+                                        IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                                    };
+                                    if ((int31 == script20335(1))) {
+                                        int42 = int45;
+                                    };
+                                    if ((int31 == script20335(2))) {
+                                        int43 = int45;
+                                    };
+                                    if ((int31 == script20335(3))) {
+                                        int44 = int45;
+                                    };
+                                    [int31, int32, string0, int33, string1, int34, int35, string2] = unk11101();
+                                    int46 = (int46 + (int1 + int2));
+                                    int45 = (int45 + 1);
+                                };
+                            } else {
+                                [int40, string3, string4, int38, int41, int37, int36, string5, string6] = script3117(int31, int32, int45, string0, string1, int34, int33);
+                                if ((script13749() == 1)) {
+                                    if ((int38 == 16777215)) {
+                                        int39 = 7705248;
+                                    } else {
+                                        int39 = int38;
+                                    };
+                                    int38 = 7705248;
+                                } else {
+                                    int39 = int38;
+                                };
+                                script20333(int16, int45, int1, int46, int45);
+                                script7924(int17, int45, int9, int9, 0, int46, int36, 0, 0, 0, 0);
+                                CC_SETPOSITION(0, (int46 + int5), 1, 0);
+                                script10629(int18, int45, (IF_GETWIDTH(int18) - 6), int1, 3, int46, inttostring(int31, 10), int38, int15, 0, 1, 0, 1);
+                                script10629(int20, int45, (IF_GETWIDTH(int20) - 6), int1, 3, int46, string6, int38, int15, 0, 1, 0, 1);
+                                script10629(int21, int45, (IF_GETWIDTH(int21) - 6), int1, 3, int46, string4, int38, int15, 0, 1, 0, 1);
+                                script7924(int23, int45, 24, 12, 4, (int46 + int3), int40, 0, 0, 0, 0);
+                                script10629(int22, int45, 30, int1, 30, int46, string3, int38, int15, 0, 1, 0, 1);
+                                CC_SETSIZE(30, int1, 1, 0);
+                                script10629(int24, int45, (IF_GETWIDTH(int24) - 10), int1, 5, int46, string5, int39, int15, 0, 1, 0, 1);
+                                script7924(int25, int45, int10, int10, 0, (int46 + int4), int41, 0, 0, 0, 0);
+                                CC_SETPOSITION(0, (int46 + int4), 1, 0);
+                                if ((int35 == -1)) {
+                                    string7 = "-";
+                                } else if ((int35 >= 1000)) {
+                                    string7 = "N/A";
+                                } else {
+                                    string7 = inttostring(int35, 10);
+                                };
+                                script10629(int26, int45, (IF_GETWIDTH(int26) - 10), int1, 5, int46, string7, int38, int15, 0, 1, 0, 1);
+                                script10629(int27, int45, IF_GETWIDTH(int27), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                                CC_SETOP(1, "Select");
+                                CC_SETOPBASE(`World ${inttostring(int31, 10)}`);
+                                CC_SETONOP(callback(script3129, -2147483644, int45, int31, string2));
+                                script10629(int28, int45, IF_GETWIDTH(int28), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                                CC_SETONMOUSEOVER(callback(script3130, int17, int28, int45, int31));
+                                CC_SETONMOUSELEAVE(callback(script3132, int17, int45, int31));
+                                CC_SETOP(1, "Alter");
+                                CC_SETOPBASE("Favourite");
+                                CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
+                                CC_SETONCLICK(callback(script10036));
+                                if ((int31 == MAP_WORLD())) {
+                                    IF_SETHIDE(false, comp(910, 65));
+                                    IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                                };
+                                if ((int31 == script20335(1))) {
+                                    int42 = int45;
+                                };
+                                if ((int31 == script20335(2))) {
+                                    int43 = int45;
+                                };
+                                if ((int31 == script20335(3))) {
+                                    int44 = int45;
+                                };
+                                [int31, int32, string0, int33, string1, int34, int35, string2] = unk11101();
+                                int46 = (int46 + (int1 + int2));
+                                int45 = (int45 + 1);
+                            };
+                        } else if ((TESTBIT(int32, 30) == 0)) {
+                            if ((int47 == 1)) {
+                                if ((STAFFMODLEVEL() < 2)) {
+                                    [int31, int32, string0, int33, string1, int34, int35, string2] = unk11101();
+                                } else {
+                                    [int40, string3, string4, int38, int41, int37, int36, string5, string6] = script3117(int31, int32, int45, string0, string1, int34, int33);
+                                    if ((script13749() == 1)) {
+                                        if ((int38 == 16777215)) {
+                                            int39 = 7705248;
+                                        } else {
+                                            int39 = int38;
+                                        };
+                                        int38 = 7705248;
+                                    } else {
+                                        int39 = int38;
+                                    };
+                                    script20333(int16, int45, int1, int46, int45);
+                                    script7924(int17, int45, int9, int9, 0, int46, int36, 0, 0, 0, 0);
+                                    CC_SETPOSITION(0, (int46 + int5), 1, 0);
+                                    script10629(int18, int45, (IF_GETWIDTH(int18) - 6), int1, 3, int46, inttostring(int31, 10), int38, int15, 0, 1, 0, 1);
+                                    script10629(int20, int45, (IF_GETWIDTH(int20) - 6), int1, 3, int46, string6, int38, int15, 0, 1, 0, 1);
+                                    script10629(int21, int45, (IF_GETWIDTH(int21) - 6), int1, 3, int46, string4, int38, int15, 0, 1, 0, 1);
+                                    script7924(int23, int45, 24, 12, 4, (int46 + int3), int40, 0, 0, 0, 0);
+                                    script10629(int22, int45, 30, int1, 30, int46, string3, int38, int15, 0, 1, 0, 1);
+                                    CC_SETSIZE(30, int1, 1, 0);
+                                    script10629(int24, int45, (IF_GETWIDTH(int24) - 10), int1, 5, int46, string5, int39, int15, 0, 1, 0, 1);
+                                    script7924(int25, int45, int10, int10, 0, (int46 + int4), int41, 0, 0, 0, 0);
+                                    CC_SETPOSITION(0, (int46 + int4), 1, 0);
+                                    if ((int35 == -1)) {
+                                        string7 = "-";
+                                    } else if ((int35 >= 1000)) {
+                                        string7 = "N/A";
+                                    } else {
+                                        string7 = inttostring(int35, 10);
+                                    };
+                                    script10629(int26, int45, (IF_GETWIDTH(int26) - 10), int1, 5, int46, string7, int38, int15, 0, 1, 0, 1);
+                                    script10629(int27, int45, IF_GETWIDTH(int27), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                                    CC_SETOP(1, "Select");
+                                    CC_SETOPBASE(`World ${inttostring(int31, 10)}`);
+                                    CC_SETONOP(callback(script3129, -2147483644, int45, int31, string2));
+                                    script10629(int28, int45, IF_GETWIDTH(int28), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                                    CC_SETONMOUSEOVER(callback(script3130, int17, int28, int45, int31));
+                                    CC_SETONMOUSELEAVE(callback(script3132, int17, int45, int31));
+                                    CC_SETOP(1, "Alter");
+                                    CC_SETOPBASE("Favourite");
+                                    CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
+                                    CC_SETONCLICK(callback(script10036));
+                                    if ((int31 == MAP_WORLD())) {
+                                        IF_SETHIDE(false, comp(910, 65));
+                                        IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                                    };
+                                    if ((int31 == script20335(1))) {
+                                        int42 = int45;
+                                    };
+                                    if ((int31 == script20335(2))) {
+                                        int43 = int45;
+                                    };
+                                    if ((int31 == script20335(3))) {
+                                        int44 = int45;
+                                    };
+                                    [int31, int32, string0, int33, string1, int34, int35, string2] = unk11101();
+                                    int46 = (int46 + (int1 + int2));
+                                    int45 = (int45 + 1);
+                                };
+                            } else {
+                                [int40, string3, string4, int38, int41, int37, int36, string5, string6] = script3117(int31, int32, int45, string0, string1, int34, int33);
+                                if ((script13749() == 1)) {
+                                    if ((int38 == 16777215)) {
+                                        int39 = 7705248;
+                                    } else {
+                                        int39 = int38;
+                                    };
+                                    int38 = 7705248;
+                                } else {
+                                    int39 = int38;
+                                };
+                                script20333(int16, int45, int1, int46, int45);
+                                script7924(int17, int45, int9, int9, 0, int46, int36, 0, 0, 0, 0);
+                                CC_SETPOSITION(0, (int46 + int5), 1, 0);
+                                script10629(int18, int45, (IF_GETWIDTH(int18) - 6), int1, 3, int46, inttostring(int31, 10), int38, int15, 0, 1, 0, 1);
+                                script10629(int20, int45, (IF_GETWIDTH(int20) - 6), int1, 3, int46, string6, int38, int15, 0, 1, 0, 1);
+                                script10629(int21, int45, (IF_GETWIDTH(int21) - 6), int1, 3, int46, string4, int38, int15, 0, 1, 0, 1);
+                                script7924(int23, int45, 24, 12, 4, (int46 + int3), int40, 0, 0, 0, 0);
+                                script10629(int22, int45, 30, int1, 30, int46, string3, int38, int15, 0, 1, 0, 1);
+                                CC_SETSIZE(30, int1, 1, 0);
+                                script10629(int24, int45, (IF_GETWIDTH(int24) - 10), int1, 5, int46, string5, int39, int15, 0, 1, 0, 1);
+                                script7924(int25, int45, int10, int10, 0, (int46 + int4), int41, 0, 0, 0, 0);
+                                CC_SETPOSITION(0, (int46 + int4), 1, 0);
+                                if ((int35 == -1)) {
+                                    string7 = "-";
+                                } else if ((int35 >= 1000)) {
+                                    string7 = "N/A";
+                                } else {
+                                    string7 = inttostring(int35, 10);
+                                };
+                                script10629(int26, int45, (IF_GETWIDTH(int26) - 10), int1, 5, int46, string7, int38, int15, 0, 1, 0, 1);
+                                script10629(int27, int45, IF_GETWIDTH(int27), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                                CC_SETOP(1, "Select");
+                                CC_SETOPBASE(`World ${inttostring(int31, 10)}`);
+                                CC_SETONOP(callback(script3129, -2147483644, int45, int31, string2));
+                                script10629(int28, int45, IF_GETWIDTH(int28), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                                CC_SETONMOUSEOVER(callback(script3130, int17, int28, int45, int31));
+                                CC_SETONMOUSELEAVE(callback(script3132, int17, int45, int31));
+                                CC_SETOP(1, "Alter");
+                                CC_SETOPBASE("Favourite");
+                                CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
+                                CC_SETONCLICK(callback(script10036));
+                                if ((int31 == MAP_WORLD())) {
+                                    IF_SETHIDE(false, comp(910, 65));
+                                    IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                                };
+                                if ((int31 == script20335(1))) {
+                                    int42 = int45;
+                                };
+                                if ((int31 == script20335(2))) {
+                                    int43 = int45;
+                                };
+                                if ((int31 == script20335(3))) {
+                                    int44 = int45;
+                                };
+                                [int31, int32, string0, int33, string1, int34, int35, string2] = unk11101();
+                                int46 = (int46 + (int1 + int2));
+                                int45 = (int45 + 1);
+                            };
+                        } else {
+                            [int40, string3, string4, int38, int41, int37, int36, string5, string6] = script3117(int31, int32, int45, string0, string1, int34, int33);
+                            if ((script13749() == 1)) {
+                                if ((int38 == 16777215)) {
+                                    int39 = 7705248;
+                                } else {
+                                    int39 = int38;
+                                };
+                                int38 = 7705248;
+                            } else {
+                                int39 = int38;
+                            };
+                            script20333(int16, int45, int1, int46, int45);
+                            script7924(int17, int45, int9, int9, 0, int46, int36, 0, 0, 0, 0);
+                            CC_SETPOSITION(0, (int46 + int5), 1, 0);
+                            script10629(int18, int45, (IF_GETWIDTH(int18) - 6), int1, 3, int46, inttostring(int31, 10), int38, int15, 0, 1, 0, 1);
+                            script10629(int20, int45, (IF_GETWIDTH(int20) - 6), int1, 3, int46, string6, int38, int15, 0, 1, 0, 1);
+                            script10629(int21, int45, (IF_GETWIDTH(int21) - 6), int1, 3, int46, string4, int38, int15, 0, 1, 0, 1);
+                            script7924(int23, int45, 24, 12, 4, (int46 + int3), int40, 0, 0, 0, 0);
+                            script10629(int22, int45, 30, int1, 30, int46, string3, int38, int15, 0, 1, 0, 1);
+                            CC_SETSIZE(30, int1, 1, 0);
+                            script10629(int24, int45, (IF_GETWIDTH(int24) - 10), int1, 5, int46, string5, int39, int15, 0, 1, 0, 1);
+                            script7924(int25, int45, int10, int10, 0, (int46 + int4), int41, 0, 0, 0, 0);
+                            CC_SETPOSITION(0, (int46 + int4), 1, 0);
+                            if ((int35 == -1)) {
+                                string7 = "-";
+                            } else if ((int35 >= 1000)) {
+                                string7 = "N/A";
+                            } else {
+                                string7 = inttostring(int35, 10);
+                            };
+                            script10629(int26, int45, (IF_GETWIDTH(int26) - 10), int1, 5, int46, string7, int38, int15, 0, 1, 0, 1);
+                            script10629(int27, int45, IF_GETWIDTH(int27), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                            CC_SETOP(1, "Select");
+                            CC_SETOPBASE(`World ${inttostring(int31, 10)}`);
+                            CC_SETONOP(callback(script3129, -2147483644, int45, int31, string2));
+                            script10629(int28, int45, IF_GETWIDTH(int28), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                            CC_SETONMOUSEOVER(callback(script3130, int17, int28, int45, int31));
+                            CC_SETONMOUSELEAVE(callback(script3132, int17, int45, int31));
+                            CC_SETOP(1, "Alter");
+                            CC_SETOPBASE("Favourite");
+                            CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
+                            CC_SETONCLICK(callback(script10036));
+                            if ((int31 == MAP_WORLD())) {
+                                IF_SETHIDE(false, comp(910, 65));
+                                IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                            };
+                            if ((int31 == script20335(1))) {
+                                int42 = int45;
+                            };
+                            if ((int31 == script20335(2))) {
+                                int43 = int45;
+                            };
+                            if ((int31 == script20335(3))) {
+                                int44 = int45;
+                            };
+                            [int31, int32, string0, int33, string1, int34, int35, string2] = unk11101();
+                            int46 = (int46 + (int1 + int2));
+                            int45 = (int45 + 1);
+                        };
+                    } else if ((TESTBIT(int32, 30) == 0)) {
+                        if ((int47 == 1)) {
+                            if ((STAFFMODLEVEL() < 2)) {
+                                [int31, int32, string0, int33, string1, int34, int35, string2] = unk11101();
+                            } else {
+                                [int40, string3, string4, int38, int41, int37, int36, string5, string6] = script3117(int31, int32, int45, string0, string1, int34, int33);
+                                if ((script13749() == 1)) {
+                                    if ((int38 == 16777215)) {
+                                        int39 = 7705248;
+                                    } else {
+                                        int39 = int38;
+                                    };
+                                    int38 = 7705248;
+                                } else {
+                                    int39 = int38;
+                                };
+                                script20333(int16, int45, int1, int46, int45);
+                                script7924(int17, int45, int9, int9, 0, int46, int36, 0, 0, 0, 0);
+                                CC_SETPOSITION(0, (int46 + int5), 1, 0);
+                                script10629(int18, int45, (IF_GETWIDTH(int18) - 6), int1, 3, int46, inttostring(int31, 10), int38, int15, 0, 1, 0, 1);
+                                script10629(int20, int45, (IF_GETWIDTH(int20) - 6), int1, 3, int46, string6, int38, int15, 0, 1, 0, 1);
+                                script10629(int21, int45, (IF_GETWIDTH(int21) - 6), int1, 3, int46, string4, int38, int15, 0, 1, 0, 1);
+                                script7924(int23, int45, 24, 12, 4, (int46 + int3), int40, 0, 0, 0, 0);
+                                script10629(int22, int45, 30, int1, 30, int46, string3, int38, int15, 0, 1, 0, 1);
+                                CC_SETSIZE(30, int1, 1, 0);
+                                script10629(int24, int45, (IF_GETWIDTH(int24) - 10), int1, 5, int46, string5, int39, int15, 0, 1, 0, 1);
+                                script7924(int25, int45, int10, int10, 0, (int46 + int4), int41, 0, 0, 0, 0);
+                                CC_SETPOSITION(0, (int46 + int4), 1, 0);
+                                if ((int35 == -1)) {
+                                    string7 = "-";
+                                } else if ((int35 >= 1000)) {
+                                    string7 = "N/A";
+                                } else {
+                                    string7 = inttostring(int35, 10);
+                                };
+                                script10629(int26, int45, (IF_GETWIDTH(int26) - 10), int1, 5, int46, string7, int38, int15, 0, 1, 0, 1);
+                                script10629(int27, int45, IF_GETWIDTH(int27), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                                CC_SETOP(1, "Select");
+                                CC_SETOPBASE(`World ${inttostring(int31, 10)}`);
+                                CC_SETONOP(callback(script3129, -2147483644, int45, int31, string2));
+                                script10629(int28, int45, IF_GETWIDTH(int28), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                                CC_SETONMOUSEOVER(callback(script3130, int17, int28, int45, int31));
+                                CC_SETONMOUSELEAVE(callback(script3132, int17, int45, int31));
+                                CC_SETOP(1, "Alter");
+                                CC_SETOPBASE("Favourite");
+                                CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
+                                CC_SETONCLICK(callback(script10036));
+                                if ((int31 == MAP_WORLD())) {
+                                    IF_SETHIDE(false, comp(910, 65));
+                                    IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                                };
+                                if ((int31 == script20335(1))) {
+                                    int42 = int45;
+                                };
+                                if ((int31 == script20335(2))) {
+                                    int43 = int45;
+                                };
+                                if ((int31 == script20335(3))) {
+                                    int44 = int45;
+                                };
+                                [int31, int32, string0, int33, string1, int34, int35, string2] = unk11101();
+                                int46 = (int46 + (int1 + int2));
+                                int45 = (int45 + 1);
+                            };
+                        } else {
+                            [int40, string3, string4, int38, int41, int37, int36, string5, string6] = script3117(int31, int32, int45, string0, string1, int34, int33);
+                            if ((script13749() == 1)) {
+                                if ((int38 == 16777215)) {
+                                    int39 = 7705248;
+                                } else {
+                                    int39 = int38;
+                                };
+                                int38 = 7705248;
+                            } else {
+                                int39 = int38;
+                            };
+                            script20333(int16, int45, int1, int46, int45);
+                            script7924(int17, int45, int9, int9, 0, int46, int36, 0, 0, 0, 0);
+                            CC_SETPOSITION(0, (int46 + int5), 1, 0);
+                            script10629(int18, int45, (IF_GETWIDTH(int18) - 6), int1, 3, int46, inttostring(int31, 10), int38, int15, 0, 1, 0, 1);
+                            script10629(int20, int45, (IF_GETWIDTH(int20) - 6), int1, 3, int46, string6, int38, int15, 0, 1, 0, 1);
+                            script10629(int21, int45, (IF_GETWIDTH(int21) - 6), int1, 3, int46, string4, int38, int15, 0, 1, 0, 1);
+                            script7924(int23, int45, 24, 12, 4, (int46 + int3), int40, 0, 0, 0, 0);
+                            script10629(int22, int45, 30, int1, 30, int46, string3, int38, int15, 0, 1, 0, 1);
+                            CC_SETSIZE(30, int1, 1, 0);
+                            script10629(int24, int45, (IF_GETWIDTH(int24) - 10), int1, 5, int46, string5, int39, int15, 0, 1, 0, 1);
+                            script7924(int25, int45, int10, int10, 0, (int46 + int4), int41, 0, 0, 0, 0);
+                            CC_SETPOSITION(0, (int46 + int4), 1, 0);
+                            if ((int35 == -1)) {
+                                string7 = "-";
+                            } else if ((int35 >= 1000)) {
+                                string7 = "N/A";
+                            } else {
+                                string7 = inttostring(int35, 10);
+                            };
+                            script10629(int26, int45, (IF_GETWIDTH(int26) - 10), int1, 5, int46, string7, int38, int15, 0, 1, 0, 1);
+                            script10629(int27, int45, IF_GETWIDTH(int27), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                            CC_SETOP(1, "Select");
+                            CC_SETOPBASE(`World ${inttostring(int31, 10)}`);
+                            CC_SETONOP(callback(script3129, -2147483644, int45, int31, string2));
+                            script10629(int28, int45, IF_GETWIDTH(int28), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                            CC_SETONMOUSEOVER(callback(script3130, int17, int28, int45, int31));
+                            CC_SETONMOUSELEAVE(callback(script3132, int17, int45, int31));
+                            CC_SETOP(1, "Alter");
+                            CC_SETOPBASE("Favourite");
+                            CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
+                            CC_SETONCLICK(callback(script10036));
+                            if ((int31 == MAP_WORLD())) {
+                                IF_SETHIDE(false, comp(910, 65));
+                                IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                            };
+                            if ((int31 == script20335(1))) {
+                                int42 = int45;
+                            };
+                            if ((int31 == script20335(2))) {
+                                int43 = int45;
+                            };
+                            if ((int31 == script20335(3))) {
+                                int44 = int45;
+                            };
+                            [int31, int32, string0, int33, string1, int34, int35, string2] = unk11101();
+                            int46 = (int46 + (int1 + int2));
+                            int45 = (int45 + 1);
+                        };
+                    } else {
+                        [int40, string3, string4, int38, int41, int37, int36, string5, string6] = script3117(int31, int32, int45, string0, string1, int34, int33);
+                        if ((script13749() == 1)) {
+                            if ((int38 == 16777215)) {
+                                int39 = 7705248;
+                            } else {
+                                int39 = int38;
+                            };
+                            int38 = 7705248;
+                        } else {
+                            int39 = int38;
+                        };
+                        script20333(int16, int45, int1, int46, int45);
+                        script7924(int17, int45, int9, int9, 0, int46, int36, 0, 0, 0, 0);
+                        CC_SETPOSITION(0, (int46 + int5), 1, 0);
+                        script10629(int18, int45, (IF_GETWIDTH(int18) - 6), int1, 3, int46, inttostring(int31, 10), int38, int15, 0, 1, 0, 1);
+                        script10629(int20, int45, (IF_GETWIDTH(int20) - 6), int1, 3, int46, string6, int38, int15, 0, 1, 0, 1);
+                        script10629(int21, int45, (IF_GETWIDTH(int21) - 6), int1, 3, int46, string4, int38, int15, 0, 1, 0, 1);
+                        script7924(int23, int45, 24, 12, 4, (int46 + int3), int40, 0, 0, 0, 0);
+                        script10629(int22, int45, 30, int1, 30, int46, string3, int38, int15, 0, 1, 0, 1);
+                        CC_SETSIZE(30, int1, 1, 0);
+                        script10629(int24, int45, (IF_GETWIDTH(int24) - 10), int1, 5, int46, string5, int39, int15, 0, 1, 0, 1);
+                        script7924(int25, int45, int10, int10, 0, (int46 + int4), int41, 0, 0, 0, 0);
+                        CC_SETPOSITION(0, (int46 + int4), 1, 0);
+                        if ((int35 == -1)) {
+                            string7 = "-";
+                        } else if ((int35 >= 1000)) {
+                            string7 = "N/A";
+                        } else {
+                            string7 = inttostring(int35, 10);
+                        };
+                        script10629(int26, int45, (IF_GETWIDTH(int26) - 10), int1, 5, int46, string7, int38, int15, 0, 1, 0, 1);
+                        script10629(int27, int45, IF_GETWIDTH(int27), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                        CC_SETOP(1, "Select");
+                        CC_SETOPBASE(`World ${inttostring(int31, 10)}`);
+                        CC_SETONOP(callback(script3129, -2147483644, int45, int31, string2));
+                        script10629(int28, int45, IF_GETWIDTH(int28), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                        CC_SETONMOUSEOVER(callback(script3130, int17, int28, int45, int31));
+                        CC_SETONMOUSELEAVE(callback(script3132, int17, int45, int31));
+                        CC_SETOP(1, "Alter");
+                        CC_SETOPBASE("Favourite");
+                        CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
+                        CC_SETONCLICK(callback(script10036));
+                        if ((int31 == MAP_WORLD())) {
+                            IF_SETHIDE(false, comp(910, 65));
+                            IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                        };
+                        if ((int31 == script20335(1))) {
+                            int42 = int45;
+                        };
+                        if ((int31 == script20335(2))) {
+                            int43 = int45;
+                        };
+                        if ((int31 == script20335(3))) {
+                            int44 = int45;
+                        };
+                        [int31, int32, string0, int33, string1, int34, int35, string2] = unk11101();
+                        int46 = (int46 + (int1 + int2));
+                        int45 = (int45 + 1);
+                    };
+                } else if ((int31 >= 170)) {
+                    if ((int34 < 0)) {
+                        [int31, int32, string0, int33, string1, int34, int35, string2] = unk11101();
+                    } else if ((TESTBIT(int32, 12) == 1)) {
+                        [int31, int32, string0, int33, string1, int34, int35, string2] = unk11101();
+                    } else if ((TESTBIT(int32, 30) == 1)) {
+                        if ((int47 == 0)) {
+                            if ((STAFFMODLEVEL() < 2)) {
+                                [int31, int32, string0, int33, string1, int34, int35, string2] = unk11101();
+                            } else if ((TESTBIT(int32, 30) == 0)) {
+                                if ((int47 == 1)) {
+                                    if ((STAFFMODLEVEL() < 2)) {
+                                        [int31, int32, string0, int33, string1, int34, int35, string2] = unk11101();
+                                    } else {
+                                        [int40, string3, string4, int38, int41, int37, int36, string5, string6] = script3117(int31, int32, int45, string0, string1, int34, int33);
+                                        if ((script13749() == 1)) {
+                                            if ((int38 == 16777215)) {
+                                                int39 = 7705248;
+                                            } else {
+                                                int39 = int38;
+                                            };
+                                            int38 = 7705248;
+                                        } else {
+                                            int39 = int38;
+                                        };
+                                        script20333(int16, int45, int1, int46, int45);
+                                        script7924(int17, int45, int9, int9, 0, int46, int36, 0, 0, 0, 0);
+                                        CC_SETPOSITION(0, (int46 + int5), 1, 0);
+                                        script10629(int18, int45, (IF_GETWIDTH(int18) - 6), int1, 3, int46, inttostring(int31, 10), int38, int15, 0, 1, 0, 1);
+                                        script10629(int20, int45, (IF_GETWIDTH(int20) - 6), int1, 3, int46, string6, int38, int15, 0, 1, 0, 1);
+                                        script10629(int21, int45, (IF_GETWIDTH(int21) - 6), int1, 3, int46, string4, int38, int15, 0, 1, 0, 1);
+                                        script7924(int23, int45, 24, 12, 4, (int46 + int3), int40, 0, 0, 0, 0);
+                                        script10629(int22, int45, 30, int1, 30, int46, string3, int38, int15, 0, 1, 0, 1);
+                                        CC_SETSIZE(30, int1, 1, 0);
+                                        script10629(int24, int45, (IF_GETWIDTH(int24) - 10), int1, 5, int46, string5, int39, int15, 0, 1, 0, 1);
+                                        script7924(int25, int45, int10, int10, 0, (int46 + int4), int41, 0, 0, 0, 0);
+                                        CC_SETPOSITION(0, (int46 + int4), 1, 0);
+                                        if ((int35 == -1)) {
+                                            string7 = "-";
+                                        } else if ((int35 >= 1000)) {
+                                            string7 = "N/A";
+                                        } else {
+                                            string7 = inttostring(int35, 10);
+                                        };
+                                        script10629(int26, int45, (IF_GETWIDTH(int26) - 10), int1, 5, int46, string7, int38, int15, 0, 1, 0, 1);
+                                        script10629(int27, int45, IF_GETWIDTH(int27), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                                        CC_SETOP(1, "Select");
+                                        CC_SETOPBASE(`World ${inttostring(int31, 10)}`);
+                                        CC_SETONOP(callback(script3129, -2147483644, int45, int31, string2));
+                                        script10629(int28, int45, IF_GETWIDTH(int28), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                                        CC_SETONMOUSEOVER(callback(script3130, int17, int28, int45, int31));
+                                        CC_SETONMOUSELEAVE(callback(script3132, int17, int45, int31));
+                                        CC_SETOP(1, "Alter");
+                                        CC_SETOPBASE("Favourite");
+                                        CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
+                                        CC_SETONCLICK(callback(script10036));
+                                        if ((int31 == MAP_WORLD())) {
+                                            IF_SETHIDE(false, comp(910, 65));
+                                            IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                                        };
+                                        if ((int31 == script20335(1))) {
+                                            int42 = int45;
+                                        };
+                                        if ((int31 == script20335(2))) {
+                                            int43 = int45;
+                                        };
+                                        if ((int31 == script20335(3))) {
+                                            int44 = int45;
+                                        };
+                                        [int31, int32, string0, int33, string1, int34, int35, string2] = unk11101();
+                                        int46 = (int46 + (int1 + int2));
+                                        int45 = (int45 + 1);
+                                    };
+                                } else {
+                                    [int40, string3, string4, int38, int41, int37, int36, string5, string6] = script3117(int31, int32, int45, string0, string1, int34, int33);
+                                    if ((script13749() == 1)) {
+                                        if ((int38 == 16777215)) {
+                                            int39 = 7705248;
+                                        } else {
+                                            int39 = int38;
+                                        };
+                                        int38 = 7705248;
+                                    } else {
+                                        int39 = int38;
+                                    };
+                                    script20333(int16, int45, int1, int46, int45);
+                                    script7924(int17, int45, int9, int9, 0, int46, int36, 0, 0, 0, 0);
+                                    CC_SETPOSITION(0, (int46 + int5), 1, 0);
+                                    script10629(int18, int45, (IF_GETWIDTH(int18) - 6), int1, 3, int46, inttostring(int31, 10), int38, int15, 0, 1, 0, 1);
+                                    script10629(int20, int45, (IF_GETWIDTH(int20) - 6), int1, 3, int46, string6, int38, int15, 0, 1, 0, 1);
+                                    script10629(int21, int45, (IF_GETWIDTH(int21) - 6), int1, 3, int46, string4, int38, int15, 0, 1, 0, 1);
+                                    script7924(int23, int45, 24, 12, 4, (int46 + int3), int40, 0, 0, 0, 0);
+                                    script10629(int22, int45, 30, int1, 30, int46, string3, int38, int15, 0, 1, 0, 1);
+                                    CC_SETSIZE(30, int1, 1, 0);
+                                    script10629(int24, int45, (IF_GETWIDTH(int24) - 10), int1, 5, int46, string5, int39, int15, 0, 1, 0, 1);
+                                    script7924(int25, int45, int10, int10, 0, (int46 + int4), int41, 0, 0, 0, 0);
+                                    CC_SETPOSITION(0, (int46 + int4), 1, 0);
+                                    if ((int35 == -1)) {
+                                        string7 = "-";
+                                    } else if ((int35 >= 1000)) {
+                                        string7 = "N/A";
+                                    } else {
+                                        string7 = inttostring(int35, 10);
+                                    };
+                                    script10629(int26, int45, (IF_GETWIDTH(int26) - 10), int1, 5, int46, string7, int38, int15, 0, 1, 0, 1);
+                                    script10629(int27, int45, IF_GETWIDTH(int27), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                                    CC_SETOP(1, "Select");
+                                    CC_SETOPBASE(`World ${inttostring(int31, 10)}`);
+                                    CC_SETONOP(callback(script3129, -2147483644, int45, int31, string2));
+                                    script10629(int28, int45, IF_GETWIDTH(int28), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                                    CC_SETONMOUSEOVER(callback(script3130, int17, int28, int45, int31));
+                                    CC_SETONMOUSELEAVE(callback(script3132, int17, int45, int31));
+                                    CC_SETOP(1, "Alter");
+                                    CC_SETOPBASE("Favourite");
+                                    CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
+                                    CC_SETONCLICK(callback(script10036));
+                                    if ((int31 == MAP_WORLD())) {
+                                        IF_SETHIDE(false, comp(910, 65));
+                                        IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                                    };
+                                    if ((int31 == script20335(1))) {
+                                        int42 = int45;
+                                    };
+                                    if ((int31 == script20335(2))) {
+                                        int43 = int45;
+                                    };
+                                    if ((int31 == script20335(3))) {
+                                        int44 = int45;
+                                    };
+                                    [int31, int32, string0, int33, string1, int34, int35, string2] = unk11101();
+                                    int46 = (int46 + (int1 + int2));
+                                    int45 = (int45 + 1);
+                                };
+                            } else {
+                                [int40, string3, string4, int38, int41, int37, int36, string5, string6] = script3117(int31, int32, int45, string0, string1, int34, int33);
+                                if ((script13749() == 1)) {
+                                    if ((int38 == 16777215)) {
+                                        int39 = 7705248;
+                                    } else {
+                                        int39 = int38;
+                                    };
+                                    int38 = 7705248;
+                                } else {
+                                    int39 = int38;
+                                };
+                                script20333(int16, int45, int1, int46, int45);
+                                script7924(int17, int45, int9, int9, 0, int46, int36, 0, 0, 0, 0);
+                                CC_SETPOSITION(0, (int46 + int5), 1, 0);
+                                script10629(int18, int45, (IF_GETWIDTH(int18) - 6), int1, 3, int46, inttostring(int31, 10), int38, int15, 0, 1, 0, 1);
+                                script10629(int20, int45, (IF_GETWIDTH(int20) - 6), int1, 3, int46, string6, int38, int15, 0, 1, 0, 1);
+                                script10629(int21, int45, (IF_GETWIDTH(int21) - 6), int1, 3, int46, string4, int38, int15, 0, 1, 0, 1);
+                                script7924(int23, int45, 24, 12, 4, (int46 + int3), int40, 0, 0, 0, 0);
+                                script10629(int22, int45, 30, int1, 30, int46, string3, int38, int15, 0, 1, 0, 1);
+                                CC_SETSIZE(30, int1, 1, 0);
+                                script10629(int24, int45, (IF_GETWIDTH(int24) - 10), int1, 5, int46, string5, int39, int15, 0, 1, 0, 1);
+                                script7924(int25, int45, int10, int10, 0, (int46 + int4), int41, 0, 0, 0, 0);
+                                CC_SETPOSITION(0, (int46 + int4), 1, 0);
+                                if ((int35 == -1)) {
+                                    string7 = "-";
+                                } else if ((int35 >= 1000)) {
+                                    string7 = "N/A";
+                                } else {
+                                    string7 = inttostring(int35, 10);
+                                };
+                                script10629(int26, int45, (IF_GETWIDTH(int26) - 10), int1, 5, int46, string7, int38, int15, 0, 1, 0, 1);
+                                script10629(int27, int45, IF_GETWIDTH(int27), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                                CC_SETOP(1, "Select");
+                                CC_SETOPBASE(`World ${inttostring(int31, 10)}`);
+                                CC_SETONOP(callback(script3129, -2147483644, int45, int31, string2));
+                                script10629(int28, int45, IF_GETWIDTH(int28), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                                CC_SETONMOUSEOVER(callback(script3130, int17, int28, int45, int31));
+                                CC_SETONMOUSELEAVE(callback(script3132, int17, int45, int31));
+                                CC_SETOP(1, "Alter");
+                                CC_SETOPBASE("Favourite");
+                                CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
+                                CC_SETONCLICK(callback(script10036));
+                                if ((int31 == MAP_WORLD())) {
+                                    IF_SETHIDE(false, comp(910, 65));
+                                    IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                                };
+                                if ((int31 == script20335(1))) {
+                                    int42 = int45;
+                                };
+                                if ((int31 == script20335(2))) {
+                                    int43 = int45;
+                                };
+                                if ((int31 == script20335(3))) {
+                                    int44 = int45;
+                                };
+                                [int31, int32, string0, int33, string1, int34, int35, string2] = unk11101();
+                                int46 = (int46 + (int1 + int2));
+                                int45 = (int45 + 1);
+                            };
+                        } else if ((TESTBIT(int32, 30) == 0)) {
+                            if ((int47 == 1)) {
+                                if ((STAFFMODLEVEL() < 2)) {
+                                    [int31, int32, string0, int33, string1, int34, int35, string2] = unk11101();
+                                } else {
+                                    [int40, string3, string4, int38, int41, int37, int36, string5, string6] = script3117(int31, int32, int45, string0, string1, int34, int33);
+                                    if ((script13749() == 1)) {
+                                        if ((int38 == 16777215)) {
+                                            int39 = 7705248;
+                                        } else {
+                                            int39 = int38;
+                                        };
+                                        int38 = 7705248;
+                                    } else {
+                                        int39 = int38;
+                                    };
+                                    script20333(int16, int45, int1, int46, int45);
+                                    script7924(int17, int45, int9, int9, 0, int46, int36, 0, 0, 0, 0);
+                                    CC_SETPOSITION(0, (int46 + int5), 1, 0);
+                                    script10629(int18, int45, (IF_GETWIDTH(int18) - 6), int1, 3, int46, inttostring(int31, 10), int38, int15, 0, 1, 0, 1);
+                                    script10629(int20, int45, (IF_GETWIDTH(int20) - 6), int1, 3, int46, string6, int38, int15, 0, 1, 0, 1);
+                                    script10629(int21, int45, (IF_GETWIDTH(int21) - 6), int1, 3, int46, string4, int38, int15, 0, 1, 0, 1);
+                                    script7924(int23, int45, 24, 12, 4, (int46 + int3), int40, 0, 0, 0, 0);
+                                    script10629(int22, int45, 30, int1, 30, int46, string3, int38, int15, 0, 1, 0, 1);
+                                    CC_SETSIZE(30, int1, 1, 0);
+                                    script10629(int24, int45, (IF_GETWIDTH(int24) - 10), int1, 5, int46, string5, int39, int15, 0, 1, 0, 1);
+                                    script7924(int25, int45, int10, int10, 0, (int46 + int4), int41, 0, 0, 0, 0);
+                                    CC_SETPOSITION(0, (int46 + int4), 1, 0);
+                                    if ((int35 == -1)) {
+                                        string7 = "-";
+                                    } else if ((int35 >= 1000)) {
+                                        string7 = "N/A";
+                                    } else {
+                                        string7 = inttostring(int35, 10);
+                                    };
+                                    script10629(int26, int45, (IF_GETWIDTH(int26) - 10), int1, 5, int46, string7, int38, int15, 0, 1, 0, 1);
+                                    script10629(int27, int45, IF_GETWIDTH(int27), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                                    CC_SETOP(1, "Select");
+                                    CC_SETOPBASE(`World ${inttostring(int31, 10)}`);
+                                    CC_SETONOP(callback(script3129, -2147483644, int45, int31, string2));
+                                    script10629(int28, int45, IF_GETWIDTH(int28), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                                    CC_SETONMOUSEOVER(callback(script3130, int17, int28, int45, int31));
+                                    CC_SETONMOUSELEAVE(callback(script3132, int17, int45, int31));
+                                    CC_SETOP(1, "Alter");
+                                    CC_SETOPBASE("Favourite");
+                                    CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
+                                    CC_SETONCLICK(callback(script10036));
+                                    if ((int31 == MAP_WORLD())) {
+                                        IF_SETHIDE(false, comp(910, 65));
+                                        IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                                    };
+                                    if ((int31 == script20335(1))) {
+                                        int42 = int45;
+                                    };
+                                    if ((int31 == script20335(2))) {
+                                        int43 = int45;
+                                    };
+                                    if ((int31 == script20335(3))) {
+                                        int44 = int45;
+                                    };
+                                    [int31, int32, string0, int33, string1, int34, int35, string2] = unk11101();
+                                    int46 = (int46 + (int1 + int2));
+                                    int45 = (int45 + 1);
+                                };
+                            } else {
+                                [int40, string3, string4, int38, int41, int37, int36, string5, string6] = script3117(int31, int32, int45, string0, string1, int34, int33);
+                                if ((script13749() == 1)) {
+                                    if ((int38 == 16777215)) {
+                                        int39 = 7705248;
+                                    } else {
+                                        int39 = int38;
+                                    };
+                                    int38 = 7705248;
+                                } else {
+                                    int39 = int38;
+                                };
+                                script20333(int16, int45, int1, int46, int45);
+                                script7924(int17, int45, int9, int9, 0, int46, int36, 0, 0, 0, 0);
+                                CC_SETPOSITION(0, (int46 + int5), 1, 0);
+                                script10629(int18, int45, (IF_GETWIDTH(int18) - 6), int1, 3, int46, inttostring(int31, 10), int38, int15, 0, 1, 0, 1);
+                                script10629(int20, int45, (IF_GETWIDTH(int20) - 6), int1, 3, int46, string6, int38, int15, 0, 1, 0, 1);
+                                script10629(int21, int45, (IF_GETWIDTH(int21) - 6), int1, 3, int46, string4, int38, int15, 0, 1, 0, 1);
+                                script7924(int23, int45, 24, 12, 4, (int46 + int3), int40, 0, 0, 0, 0);
+                                script10629(int22, int45, 30, int1, 30, int46, string3, int38, int15, 0, 1, 0, 1);
+                                CC_SETSIZE(30, int1, 1, 0);
+                                script10629(int24, int45, (IF_GETWIDTH(int24) - 10), int1, 5, int46, string5, int39, int15, 0, 1, 0, 1);
+                                script7924(int25, int45, int10, int10, 0, (int46 + int4), int41, 0, 0, 0, 0);
+                                CC_SETPOSITION(0, (int46 + int4), 1, 0);
+                                if ((int35 == -1)) {
+                                    string7 = "-";
+                                } else if ((int35 >= 1000)) {
+                                    string7 = "N/A";
+                                } else {
+                                    string7 = inttostring(int35, 10);
+                                };
+                                script10629(int26, int45, (IF_GETWIDTH(int26) - 10), int1, 5, int46, string7, int38, int15, 0, 1, 0, 1);
+                                script10629(int27, int45, IF_GETWIDTH(int27), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                                CC_SETOP(1, "Select");
+                                CC_SETOPBASE(`World ${inttostring(int31, 10)}`);
+                                CC_SETONOP(callback(script3129, -2147483644, int45, int31, string2));
+                                script10629(int28, int45, IF_GETWIDTH(int28), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                                CC_SETONMOUSEOVER(callback(script3130, int17, int28, int45, int31));
+                                CC_SETONMOUSELEAVE(callback(script3132, int17, int45, int31));
+                                CC_SETOP(1, "Alter");
+                                CC_SETOPBASE("Favourite");
+                                CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
+                                CC_SETONCLICK(callback(script10036));
+                                if ((int31 == MAP_WORLD())) {
+                                    IF_SETHIDE(false, comp(910, 65));
+                                    IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                                };
+                                if ((int31 == script20335(1))) {
+                                    int42 = int45;
+                                };
+                                if ((int31 == script20335(2))) {
+                                    int43 = int45;
+                                };
+                                if ((int31 == script20335(3))) {
+                                    int44 = int45;
+                                };
+                                [int31, int32, string0, int33, string1, int34, int35, string2] = unk11101();
+                                int46 = (int46 + (int1 + int2));
+                                int45 = (int45 + 1);
+                            };
+                        } else {
+                            [int40, string3, string4, int38, int41, int37, int36, string5, string6] = script3117(int31, int32, int45, string0, string1, int34, int33);
+                            if ((script13749() == 1)) {
+                                if ((int38 == 16777215)) {
+                                    int39 = 7705248;
+                                } else {
+                                    int39 = int38;
+                                };
+                                int38 = 7705248;
+                            } else {
+                                int39 = int38;
+                            };
+                            script20333(int16, int45, int1, int46, int45);
+                            script7924(int17, int45, int9, int9, 0, int46, int36, 0, 0, 0, 0);
+                            CC_SETPOSITION(0, (int46 + int5), 1, 0);
+                            script10629(int18, int45, (IF_GETWIDTH(int18) - 6), int1, 3, int46, inttostring(int31, 10), int38, int15, 0, 1, 0, 1);
+                            script10629(int20, int45, (IF_GETWIDTH(int20) - 6), int1, 3, int46, string6, int38, int15, 0, 1, 0, 1);
+                            script10629(int21, int45, (IF_GETWIDTH(int21) - 6), int1, 3, int46, string4, int38, int15, 0, 1, 0, 1);
+                            script7924(int23, int45, 24, 12, 4, (int46 + int3), int40, 0, 0, 0, 0);
+                            script10629(int22, int45, 30, int1, 30, int46, string3, int38, int15, 0, 1, 0, 1);
+                            CC_SETSIZE(30, int1, 1, 0);
+                            script10629(int24, int45, (IF_GETWIDTH(int24) - 10), int1, 5, int46, string5, int39, int15, 0, 1, 0, 1);
+                            script7924(int25, int45, int10, int10, 0, (int46 + int4), int41, 0, 0, 0, 0);
+                            CC_SETPOSITION(0, (int46 + int4), 1, 0);
+                            if ((int35 == -1)) {
+                                string7 = "-";
+                            } else if ((int35 >= 1000)) {
+                                string7 = "N/A";
+                            } else {
+                                string7 = inttostring(int35, 10);
+                            };
+                            script10629(int26, int45, (IF_GETWIDTH(int26) - 10), int1, 5, int46, string7, int38, int15, 0, 1, 0, 1);
+                            script10629(int27, int45, IF_GETWIDTH(int27), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                            CC_SETOP(1, "Select");
+                            CC_SETOPBASE(`World ${inttostring(int31, 10)}`);
+                            CC_SETONOP(callback(script3129, -2147483644, int45, int31, string2));
+                            script10629(int28, int45, IF_GETWIDTH(int28), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                            CC_SETONMOUSEOVER(callback(script3130, int17, int28, int45, int31));
+                            CC_SETONMOUSELEAVE(callback(script3132, int17, int45, int31));
+                            CC_SETOP(1, "Alter");
+                            CC_SETOPBASE("Favourite");
+                            CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
+                            CC_SETONCLICK(callback(script10036));
+                            if ((int31 == MAP_WORLD())) {
+                                IF_SETHIDE(false, comp(910, 65));
+                                IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                            };
+                            if ((int31 == script20335(1))) {
+                                int42 = int45;
+                            };
+                            if ((int31 == script20335(2))) {
+                                int43 = int45;
+                            };
+                            if ((int31 == script20335(3))) {
+                                int44 = int45;
+                            };
+                            [int31, int32, string0, int33, string1, int34, int35, string2] = unk11101();
+                            int46 = (int46 + (int1 + int2));
+                            int45 = (int45 + 1);
+                        };
+                    } else if ((TESTBIT(int32, 30) == 0)) {
+                        if ((int47 == 1)) {
+                            if ((STAFFMODLEVEL() < 2)) {
+                                [int31, int32, string0, int33, string1, int34, int35, string2] = unk11101();
+                            } else {
+                                [int40, string3, string4, int38, int41, int37, int36, string5, string6] = script3117(int31, int32, int45, string0, string1, int34, int33);
+                                if ((script13749() == 1)) {
+                                    if ((int38 == 16777215)) {
+                                        int39 = 7705248;
+                                    } else {
+                                        int39 = int38;
+                                    };
+                                    int38 = 7705248;
+                                } else {
+                                    int39 = int38;
+                                };
+                                script20333(int16, int45, int1, int46, int45);
+                                script7924(int17, int45, int9, int9, 0, int46, int36, 0, 0, 0, 0);
+                                CC_SETPOSITION(0, (int46 + int5), 1, 0);
+                                script10629(int18, int45, (IF_GETWIDTH(int18) - 6), int1, 3, int46, inttostring(int31, 10), int38, int15, 0, 1, 0, 1);
+                                script10629(int20, int45, (IF_GETWIDTH(int20) - 6), int1, 3, int46, string6, int38, int15, 0, 1, 0, 1);
+                                script10629(int21, int45, (IF_GETWIDTH(int21) - 6), int1, 3, int46, string4, int38, int15, 0, 1, 0, 1);
+                                script7924(int23, int45, 24, 12, 4, (int46 + int3), int40, 0, 0, 0, 0);
+                                script10629(int22, int45, 30, int1, 30, int46, string3, int38, int15, 0, 1, 0, 1);
+                                CC_SETSIZE(30, int1, 1, 0);
+                                script10629(int24, int45, (IF_GETWIDTH(int24) - 10), int1, 5, int46, string5, int39, int15, 0, 1, 0, 1);
+                                script7924(int25, int45, int10, int10, 0, (int46 + int4), int41, 0, 0, 0, 0);
+                                CC_SETPOSITION(0, (int46 + int4), 1, 0);
+                                if ((int35 == -1)) {
+                                    string7 = "-";
+                                } else if ((int35 >= 1000)) {
+                                    string7 = "N/A";
+                                } else {
+                                    string7 = inttostring(int35, 10);
+                                };
+                                script10629(int26, int45, (IF_GETWIDTH(int26) - 10), int1, 5, int46, string7, int38, int15, 0, 1, 0, 1);
+                                script10629(int27, int45, IF_GETWIDTH(int27), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                                CC_SETOP(1, "Select");
+                                CC_SETOPBASE(`World ${inttostring(int31, 10)}`);
+                                CC_SETONOP(callback(script3129, -2147483644, int45, int31, string2));
+                                script10629(int28, int45, IF_GETWIDTH(int28), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                                CC_SETONMOUSEOVER(callback(script3130, int17, int28, int45, int31));
+                                CC_SETONMOUSELEAVE(callback(script3132, int17, int45, int31));
+                                CC_SETOP(1, "Alter");
+                                CC_SETOPBASE("Favourite");
+                                CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
+                                CC_SETONCLICK(callback(script10036));
+                                if ((int31 == MAP_WORLD())) {
+                                    IF_SETHIDE(false, comp(910, 65));
+                                    IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                                };
+                                if ((int31 == script20335(1))) {
+                                    int42 = int45;
+                                };
+                                if ((int31 == script20335(2))) {
+                                    int43 = int45;
+                                };
+                                if ((int31 == script20335(3))) {
+                                    int44 = int45;
+                                };
+                                [int31, int32, string0, int33, string1, int34, int35, string2] = unk11101();
+                                int46 = (int46 + (int1 + int2));
+                                int45 = (int45 + 1);
+                            };
+                        } else {
+                            [int40, string3, string4, int38, int41, int37, int36, string5, string6] = script3117(int31, int32, int45, string0, string1, int34, int33);
+                            if ((script13749() == 1)) {
+                                if ((int38 == 16777215)) {
+                                    int39 = 7705248;
+                                } else {
+                                    int39 = int38;
+                                };
+                                int38 = 7705248;
+                            } else {
+                                int39 = int38;
+                            };
+                            script20333(int16, int45, int1, int46, int45);
+                            script7924(int17, int45, int9, int9, 0, int46, int36, 0, 0, 0, 0);
+                            CC_SETPOSITION(0, (int46 + int5), 1, 0);
+                            script10629(int18, int45, (IF_GETWIDTH(int18) - 6), int1, 3, int46, inttostring(int31, 10), int38, int15, 0, 1, 0, 1);
+                            script10629(int20, int45, (IF_GETWIDTH(int20) - 6), int1, 3, int46, string6, int38, int15, 0, 1, 0, 1);
+                            script10629(int21, int45, (IF_GETWIDTH(int21) - 6), int1, 3, int46, string4, int38, int15, 0, 1, 0, 1);
+                            script7924(int23, int45, 24, 12, 4, (int46 + int3), int40, 0, 0, 0, 0);
+                            script10629(int22, int45, 30, int1, 30, int46, string3, int38, int15, 0, 1, 0, 1);
+                            CC_SETSIZE(30, int1, 1, 0);
+                            script10629(int24, int45, (IF_GETWIDTH(int24) - 10), int1, 5, int46, string5, int39, int15, 0, 1, 0, 1);
+                            script7924(int25, int45, int10, int10, 0, (int46 + int4), int41, 0, 0, 0, 0);
+                            CC_SETPOSITION(0, (int46 + int4), 1, 0);
+                            if ((int35 == -1)) {
+                                string7 = "-";
+                            } else if ((int35 >= 1000)) {
+                                string7 = "N/A";
+                            } else {
+                                string7 = inttostring(int35, 10);
+                            };
+                            script10629(int26, int45, (IF_GETWIDTH(int26) - 10), int1, 5, int46, string7, int38, int15, 0, 1, 0, 1);
+                            script10629(int27, int45, IF_GETWIDTH(int27), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                            CC_SETOP(1, "Select");
+                            CC_SETOPBASE(`World ${inttostring(int31, 10)}`);
+                            CC_SETONOP(callback(script3129, -2147483644, int45, int31, string2));
+                            script10629(int28, int45, IF_GETWIDTH(int28), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                            CC_SETONMOUSEOVER(callback(script3130, int17, int28, int45, int31));
+                            CC_SETONMOUSELEAVE(callback(script3132, int17, int45, int31));
+                            CC_SETOP(1, "Alter");
+                            CC_SETOPBASE("Favourite");
+                            CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
+                            CC_SETONCLICK(callback(script10036));
+                            if ((int31 == MAP_WORLD())) {
+                                IF_SETHIDE(false, comp(910, 65));
+                                IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                            };
+                            if ((int31 == script20335(1))) {
+                                int42 = int45;
+                            };
+                            if ((int31 == script20335(2))) {
+                                int43 = int45;
+                            };
+                            if ((int31 == script20335(3))) {
+                                int44 = int45;
+                            };
+                            [int31, int32, string0, int33, string1, int34, int35, string2] = unk11101();
+                            int46 = (int46 + (int1 + int2));
+                            int45 = (int45 + 1);
+                        };
+                    } else {
+                        [int40, string3, string4, int38, int41, int37, int36, string5, string6] = script3117(int31, int32, int45, string0, string1, int34, int33);
+                        if ((script13749() == 1)) {
+                            if ((int38 == 16777215)) {
+                                int39 = 7705248;
+                            } else {
+                                int39 = int38;
+                            };
+                            int38 = 7705248;
+                        } else {
+                            int39 = int38;
+                        };
+                        script20333(int16, int45, int1, int46, int45);
+                        script7924(int17, int45, int9, int9, 0, int46, int36, 0, 0, 0, 0);
+                        CC_SETPOSITION(0, (int46 + int5), 1, 0);
+                        script10629(int18, int45, (IF_GETWIDTH(int18) - 6), int1, 3, int46, inttostring(int31, 10), int38, int15, 0, 1, 0, 1);
+                        script10629(int20, int45, (IF_GETWIDTH(int20) - 6), int1, 3, int46, string6, int38, int15, 0, 1, 0, 1);
+                        script10629(int21, int45, (IF_GETWIDTH(int21) - 6), int1, 3, int46, string4, int38, int15, 0, 1, 0, 1);
+                        script7924(int23, int45, 24, 12, 4, (int46 + int3), int40, 0, 0, 0, 0);
+                        script10629(int22, int45, 30, int1, 30, int46, string3, int38, int15, 0, 1, 0, 1);
+                        CC_SETSIZE(30, int1, 1, 0);
+                        script10629(int24, int45, (IF_GETWIDTH(int24) - 10), int1, 5, int46, string5, int39, int15, 0, 1, 0, 1);
+                        script7924(int25, int45, int10, int10, 0, (int46 + int4), int41, 0, 0, 0, 0);
+                        CC_SETPOSITION(0, (int46 + int4), 1, 0);
+                        if ((int35 == -1)) {
+                            string7 = "-";
+                        } else if ((int35 >= 1000)) {
+                            string7 = "N/A";
+                        } else {
+                            string7 = inttostring(int35, 10);
+                        };
+                        script10629(int26, int45, (IF_GETWIDTH(int26) - 10), int1, 5, int46, string7, int38, int15, 0, 1, 0, 1);
+                        script10629(int27, int45, IF_GETWIDTH(int27), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                        CC_SETOP(1, "Select");
+                        CC_SETOPBASE(`World ${inttostring(int31, 10)}`);
+                        CC_SETONOP(callback(script3129, -2147483644, int45, int31, string2));
+                        script10629(int28, int45, IF_GETWIDTH(int28), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                        CC_SETONMOUSEOVER(callback(script3130, int17, int28, int45, int31));
+                        CC_SETONMOUSELEAVE(callback(script3132, int17, int45, int31));
+                        CC_SETOP(1, "Alter");
+                        CC_SETOPBASE("Favourite");
+                        CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
+                        CC_SETONCLICK(callback(script10036));
+                        if ((int31 == MAP_WORLD())) {
+                            IF_SETHIDE(false, comp(910, 65));
+                            IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                        };
+                        if ((int31 == script20335(1))) {
+                            int42 = int45;
+                        };
+                        if ((int31 == script20335(2))) {
+                            int43 = int45;
+                        };
+                        if ((int31 == script20335(3))) {
+                            int44 = int45;
+                        };
+                        [int31, int32, string0, int33, string1, int34, int35, string2] = unk11101();
+                        int46 = (int46 + (int1 + int2));
+                        int45 = (int45 + 1);
+                    };
+                } else if ((TESTBIT(int32, 12) == 1)) {
+                    [int31, int32, string0, int33, string1, int34, int35, string2] = unk11101();
+                } else if ((TESTBIT(int32, 30) == 1)) {
+                    if ((int47 == 0)) {
+                        if ((STAFFMODLEVEL() < 2)) {
+                            [int31, int32, string0, int33, string1, int34, int35, string2] = unk11101();
+                        } else if ((TESTBIT(int32, 30) == 0)) {
+                            if ((int47 == 1)) {
+                                if ((STAFFMODLEVEL() < 2)) {
+                                    [int31, int32, string0, int33, string1, int34, int35, string2] = unk11101();
+                                } else {
+                                    [int40, string3, string4, int38, int41, int37, int36, string5, string6] = script3117(int31, int32, int45, string0, string1, int34, int33);
+                                    if ((script13749() == 1)) {
+                                        if ((int38 == 16777215)) {
+                                            int39 = 7705248;
+                                        } else {
+                                            int39 = int38;
+                                        };
+                                        int38 = 7705248;
+                                    } else {
+                                        int39 = int38;
+                                    };
+                                    script20333(int16, int45, int1, int46, int45);
+                                    script7924(int17, int45, int9, int9, 0, int46, int36, 0, 0, 0, 0);
+                                    CC_SETPOSITION(0, (int46 + int5), 1, 0);
+                                    script10629(int18, int45, (IF_GETWIDTH(int18) - 6), int1, 3, int46, inttostring(int31, 10), int38, int15, 0, 1, 0, 1);
+                                    script10629(int20, int45, (IF_GETWIDTH(int20) - 6), int1, 3, int46, string6, int38, int15, 0, 1, 0, 1);
+                                    script10629(int21, int45, (IF_GETWIDTH(int21) - 6), int1, 3, int46, string4, int38, int15, 0, 1, 0, 1);
+                                    script7924(int23, int45, 24, 12, 4, (int46 + int3), int40, 0, 0, 0, 0);
+                                    script10629(int22, int45, 30, int1, 30, int46, string3, int38, int15, 0, 1, 0, 1);
+                                    CC_SETSIZE(30, int1, 1, 0);
+                                    script10629(int24, int45, (IF_GETWIDTH(int24) - 10), int1, 5, int46, string5, int39, int15, 0, 1, 0, 1);
+                                    script7924(int25, int45, int10, int10, 0, (int46 + int4), int41, 0, 0, 0, 0);
+                                    CC_SETPOSITION(0, (int46 + int4), 1, 0);
+                                    if ((int35 == -1)) {
+                                        string7 = "-";
+                                    } else if ((int35 >= 1000)) {
+                                        string7 = "N/A";
+                                    } else {
+                                        string7 = inttostring(int35, 10);
+                                    };
+                                    script10629(int26, int45, (IF_GETWIDTH(int26) - 10), int1, 5, int46, string7, int38, int15, 0, 1, 0, 1);
+                                    script10629(int27, int45, IF_GETWIDTH(int27), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                                    CC_SETOP(1, "Select");
+                                    CC_SETOPBASE(`World ${inttostring(int31, 10)}`);
+                                    CC_SETONOP(callback(script3129, -2147483644, int45, int31, string2));
+                                    script10629(int28, int45, IF_GETWIDTH(int28), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                                    CC_SETONMOUSEOVER(callback(script3130, int17, int28, int45, int31));
+                                    CC_SETONMOUSELEAVE(callback(script3132, int17, int45, int31));
+                                    CC_SETOP(1, "Alter");
+                                    CC_SETOPBASE("Favourite");
+                                    CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
+                                    CC_SETONCLICK(callback(script10036));
+                                    if ((int31 == MAP_WORLD())) {
+                                        IF_SETHIDE(false, comp(910, 65));
+                                        IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                                    };
+                                    if ((int31 == script20335(1))) {
+                                        int42 = int45;
+                                    };
+                                    if ((int31 == script20335(2))) {
+                                        int43 = int45;
+                                    };
+                                    if ((int31 == script20335(3))) {
+                                        int44 = int45;
+                                    };
+                                    [int31, int32, string0, int33, string1, int34, int35, string2] = unk11101();
+                                    int46 = (int46 + (int1 + int2));
+                                    int45 = (int45 + 1);
+                                };
+                            } else {
+                                [int40, string3, string4, int38, int41, int37, int36, string5, string6] = script3117(int31, int32, int45, string0, string1, int34, int33);
+                                if ((script13749() == 1)) {
+                                    if ((int38 == 16777215)) {
+                                        int39 = 7705248;
+                                    } else {
+                                        int39 = int38;
+                                    };
+                                    int38 = 7705248;
+                                } else {
+                                    int39 = int38;
+                                };
+                                script20333(int16, int45, int1, int46, int45);
+                                script7924(int17, int45, int9, int9, 0, int46, int36, 0, 0, 0, 0);
+                                CC_SETPOSITION(0, (int46 + int5), 1, 0);
+                                script10629(int18, int45, (IF_GETWIDTH(int18) - 6), int1, 3, int46, inttostring(int31, 10), int38, int15, 0, 1, 0, 1);
+                                script10629(int20, int45, (IF_GETWIDTH(int20) - 6), int1, 3, int46, string6, int38, int15, 0, 1, 0, 1);
+                                script10629(int21, int45, (IF_GETWIDTH(int21) - 6), int1, 3, int46, string4, int38, int15, 0, 1, 0, 1);
+                                script7924(int23, int45, 24, 12, 4, (int46 + int3), int40, 0, 0, 0, 0);
+                                script10629(int22, int45, 30, int1, 30, int46, string3, int38, int15, 0, 1, 0, 1);
+                                CC_SETSIZE(30, int1, 1, 0);
+                                script10629(int24, int45, (IF_GETWIDTH(int24) - 10), int1, 5, int46, string5, int39, int15, 0, 1, 0, 1);
+                                script7924(int25, int45, int10, int10, 0, (int46 + int4), int41, 0, 0, 0, 0);
+                                CC_SETPOSITION(0, (int46 + int4), 1, 0);
+                                if ((int35 == -1)) {
+                                    string7 = "-";
+                                } else if ((int35 >= 1000)) {
+                                    string7 = "N/A";
+                                } else {
+                                    string7 = inttostring(int35, 10);
+                                };
+                                script10629(int26, int45, (IF_GETWIDTH(int26) - 10), int1, 5, int46, string7, int38, int15, 0, 1, 0, 1);
+                                script10629(int27, int45, IF_GETWIDTH(int27), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                                CC_SETOP(1, "Select");
+                                CC_SETOPBASE(`World ${inttostring(int31, 10)}`);
+                                CC_SETONOP(callback(script3129, -2147483644, int45, int31, string2));
+                                script10629(int28, int45, IF_GETWIDTH(int28), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                                CC_SETONMOUSEOVER(callback(script3130, int17, int28, int45, int31));
+                                CC_SETONMOUSELEAVE(callback(script3132, int17, int45, int31));
+                                CC_SETOP(1, "Alter");
+                                CC_SETOPBASE("Favourite");
+                                CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
+                                CC_SETONCLICK(callback(script10036));
+                                if ((int31 == MAP_WORLD())) {
+                                    IF_SETHIDE(false, comp(910, 65));
+                                    IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                                };
+                                if ((int31 == script20335(1))) {
+                                    int42 = int45;
+                                };
+                                if ((int31 == script20335(2))) {
+                                    int43 = int45;
+                                };
+                                if ((int31 == script20335(3))) {
+                                    int44 = int45;
+                                };
+                                [int31, int32, string0, int33, string1, int34, int35, string2] = unk11101();
+                                int46 = (int46 + (int1 + int2));
+                                int45 = (int45 + 1);
+                            };
+                        } else {
+                            [int40, string3, string4, int38, int41, int37, int36, string5, string6] = script3117(int31, int32, int45, string0, string1, int34, int33);
+                            if ((script13749() == 1)) {
+                                if ((int38 == 16777215)) {
+                                    int39 = 7705248;
+                                } else {
+                                    int39 = int38;
+                                };
+                                int38 = 7705248;
+                            } else {
+                                int39 = int38;
+                            };
+                            script20333(int16, int45, int1, int46, int45);
+                            script7924(int17, int45, int9, int9, 0, int46, int36, 0, 0, 0, 0);
+                            CC_SETPOSITION(0, (int46 + int5), 1, 0);
+                            script10629(int18, int45, (IF_GETWIDTH(int18) - 6), int1, 3, int46, inttostring(int31, 10), int38, int15, 0, 1, 0, 1);
+                            script10629(int20, int45, (IF_GETWIDTH(int20) - 6), int1, 3, int46, string6, int38, int15, 0, 1, 0, 1);
+                            script10629(int21, int45, (IF_GETWIDTH(int21) - 6), int1, 3, int46, string4, int38, int15, 0, 1, 0, 1);
+                            script7924(int23, int45, 24, 12, 4, (int46 + int3), int40, 0, 0, 0, 0);
+                            script10629(int22, int45, 30, int1, 30, int46, string3, int38, int15, 0, 1, 0, 1);
+                            CC_SETSIZE(30, int1, 1, 0);
+                            script10629(int24, int45, (IF_GETWIDTH(int24) - 10), int1, 5, int46, string5, int39, int15, 0, 1, 0, 1);
+                            script7924(int25, int45, int10, int10, 0, (int46 + int4), int41, 0, 0, 0, 0);
+                            CC_SETPOSITION(0, (int46 + int4), 1, 0);
+                            if ((int35 == -1)) {
+                                string7 = "-";
+                            } else if ((int35 >= 1000)) {
+                                string7 = "N/A";
+                            } else {
+                                string7 = inttostring(int35, 10);
+                            };
+                            script10629(int26, int45, (IF_GETWIDTH(int26) - 10), int1, 5, int46, string7, int38, int15, 0, 1, 0, 1);
+                            script10629(int27, int45, IF_GETWIDTH(int27), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                            CC_SETOP(1, "Select");
+                            CC_SETOPBASE(`World ${inttostring(int31, 10)}`);
+                            CC_SETONOP(callback(script3129, -2147483644, int45, int31, string2));
+                            script10629(int28, int45, IF_GETWIDTH(int28), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                            CC_SETONMOUSEOVER(callback(script3130, int17, int28, int45, int31));
+                            CC_SETONMOUSELEAVE(callback(script3132, int17, int45, int31));
+                            CC_SETOP(1, "Alter");
+                            CC_SETOPBASE("Favourite");
+                            CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
+                            CC_SETONCLICK(callback(script10036));
+                            if ((int31 == MAP_WORLD())) {
+                                IF_SETHIDE(false, comp(910, 65));
+                                IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                            };
+                            if ((int31 == script20335(1))) {
+                                int42 = int45;
+                            };
+                            if ((int31 == script20335(2))) {
+                                int43 = int45;
+                            };
+                            if ((int31 == script20335(3))) {
+                                int44 = int45;
+                            };
+                            [int31, int32, string0, int33, string1, int34, int35, string2] = unk11101();
+                            int46 = (int46 + (int1 + int2));
+                            int45 = (int45 + 1);
+                        };
+                    } else if ((TESTBIT(int32, 30) == 0)) {
+                        if ((int47 == 1)) {
+                            if ((STAFFMODLEVEL() < 2)) {
+                                [int31, int32, string0, int33, string1, int34, int35, string2] = unk11101();
+                            } else {
+                                [int40, string3, string4, int38, int41, int37, int36, string5, string6] = script3117(int31, int32, int45, string0, string1, int34, int33);
+                                if ((script13749() == 1)) {
+                                    if ((int38 == 16777215)) {
+                                        int39 = 7705248;
+                                    } else {
+                                        int39 = int38;
+                                    };
+                                    int38 = 7705248;
+                                } else {
+                                    int39 = int38;
+                                };
+                                script20333(int16, int45, int1, int46, int45);
+                                script7924(int17, int45, int9, int9, 0, int46, int36, 0, 0, 0, 0);
+                                CC_SETPOSITION(0, (int46 + int5), 1, 0);
+                                script10629(int18, int45, (IF_GETWIDTH(int18) - 6), int1, 3, int46, inttostring(int31, 10), int38, int15, 0, 1, 0, 1);
+                                script10629(int20, int45, (IF_GETWIDTH(int20) - 6), int1, 3, int46, string6, int38, int15, 0, 1, 0, 1);
+                                script10629(int21, int45, (IF_GETWIDTH(int21) - 6), int1, 3, int46, string4, int38, int15, 0, 1, 0, 1);
+                                script7924(int23, int45, 24, 12, 4, (int46 + int3), int40, 0, 0, 0, 0);
+                                script10629(int22, int45, 30, int1, 30, int46, string3, int38, int15, 0, 1, 0, 1);
+                                CC_SETSIZE(30, int1, 1, 0);
+                                script10629(int24, int45, (IF_GETWIDTH(int24) - 10), int1, 5, int46, string5, int39, int15, 0, 1, 0, 1);
+                                script7924(int25, int45, int10, int10, 0, (int46 + int4), int41, 0, 0, 0, 0);
+                                CC_SETPOSITION(0, (int46 + int4), 1, 0);
+                                if ((int35 == -1)) {
+                                    string7 = "-";
+                                } else if ((int35 >= 1000)) {
+                                    string7 = "N/A";
+                                } else {
+                                    string7 = inttostring(int35, 10);
+                                };
+                                script10629(int26, int45, (IF_GETWIDTH(int26) - 10), int1, 5, int46, string7, int38, int15, 0, 1, 0, 1);
+                                script10629(int27, int45, IF_GETWIDTH(int27), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                                CC_SETOP(1, "Select");
+                                CC_SETOPBASE(`World ${inttostring(int31, 10)}`);
+                                CC_SETONOP(callback(script3129, -2147483644, int45, int31, string2));
+                                script10629(int28, int45, IF_GETWIDTH(int28), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                                CC_SETONMOUSEOVER(callback(script3130, int17, int28, int45, int31));
+                                CC_SETONMOUSELEAVE(callback(script3132, int17, int45, int31));
+                                CC_SETOP(1, "Alter");
+                                CC_SETOPBASE("Favourite");
+                                CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
+                                CC_SETONCLICK(callback(script10036));
+                                if ((int31 == MAP_WORLD())) {
+                                    IF_SETHIDE(false, comp(910, 65));
+                                    IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                                };
+                                if ((int31 == script20335(1))) {
+                                    int42 = int45;
+                                };
+                                if ((int31 == script20335(2))) {
+                                    int43 = int45;
+                                };
+                                if ((int31 == script20335(3))) {
+                                    int44 = int45;
+                                };
+                                [int31, int32, string0, int33, string1, int34, int35, string2] = unk11101();
+                                int46 = (int46 + (int1 + int2));
+                                int45 = (int45 + 1);
+                            };
+                        } else {
+                            [int40, string3, string4, int38, int41, int37, int36, string5, string6] = script3117(int31, int32, int45, string0, string1, int34, int33);
+                            if ((script13749() == 1)) {
+                                if ((int38 == 16777215)) {
+                                    int39 = 7705248;
+                                } else {
+                                    int39 = int38;
+                                };
+                                int38 = 7705248;
+                            } else {
+                                int39 = int38;
+                            };
+                            script20333(int16, int45, int1, int46, int45);
+                            script7924(int17, int45, int9, int9, 0, int46, int36, 0, 0, 0, 0);
+                            CC_SETPOSITION(0, (int46 + int5), 1, 0);
+                            script10629(int18, int45, (IF_GETWIDTH(int18) - 6), int1, 3, int46, inttostring(int31, 10), int38, int15, 0, 1, 0, 1);
+                            script10629(int20, int45, (IF_GETWIDTH(int20) - 6), int1, 3, int46, string6, int38, int15, 0, 1, 0, 1);
+                            script10629(int21, int45, (IF_GETWIDTH(int21) - 6), int1, 3, int46, string4, int38, int15, 0, 1, 0, 1);
+                            script7924(int23, int45, 24, 12, 4, (int46 + int3), int40, 0, 0, 0, 0);
+                            script10629(int22, int45, 30, int1, 30, int46, string3, int38, int15, 0, 1, 0, 1);
+                            CC_SETSIZE(30, int1, 1, 0);
+                            script10629(int24, int45, (IF_GETWIDTH(int24) - 10), int1, 5, int46, string5, int39, int15, 0, 1, 0, 1);
+                            script7924(int25, int45, int10, int10, 0, (int46 + int4), int41, 0, 0, 0, 0);
+                            CC_SETPOSITION(0, (int46 + int4), 1, 0);
+                            if ((int35 == -1)) {
+                                string7 = "-";
+                            } else if ((int35 >= 1000)) {
+                                string7 = "N/A";
+                            } else {
+                                string7 = inttostring(int35, 10);
+                            };
+                            script10629(int26, int45, (IF_GETWIDTH(int26) - 10), int1, 5, int46, string7, int38, int15, 0, 1, 0, 1);
+                            script10629(int27, int45, IF_GETWIDTH(int27), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                            CC_SETOP(1, "Select");
+                            CC_SETOPBASE(`World ${inttostring(int31, 10)}`);
+                            CC_SETONOP(callback(script3129, -2147483644, int45, int31, string2));
+                            script10629(int28, int45, IF_GETWIDTH(int28), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                            CC_SETONMOUSEOVER(callback(script3130, int17, int28, int45, int31));
+                            CC_SETONMOUSELEAVE(callback(script3132, int17, int45, int31));
+                            CC_SETOP(1, "Alter");
+                            CC_SETOPBASE("Favourite");
+                            CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
+                            CC_SETONCLICK(callback(script10036));
+                            if ((int31 == MAP_WORLD())) {
+                                IF_SETHIDE(false, comp(910, 65));
+                                IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                            };
+                            if ((int31 == script20335(1))) {
+                                int42 = int45;
+                            };
+                            if ((int31 == script20335(2))) {
+                                int43 = int45;
+                            };
+                            if ((int31 == script20335(3))) {
+                                int44 = int45;
+                            };
+                            [int31, int32, string0, int33, string1, int34, int35, string2] = unk11101();
+                            int46 = (int46 + (int1 + int2));
+                            int45 = (int45 + 1);
+                        };
+                    } else {
+                        [int40, string3, string4, int38, int41, int37, int36, string5, string6] = script3117(int31, int32, int45, string0, string1, int34, int33);
+                        if ((script13749() == 1)) {
+                            if ((int38 == 16777215)) {
+                                int39 = 7705248;
+                            } else {
+                                int39 = int38;
+                            };
+                            int38 = 7705248;
+                        } else {
+                            int39 = int38;
+                        };
+                        script20333(int16, int45, int1, int46, int45);
+                        script7924(int17, int45, int9, int9, 0, int46, int36, 0, 0, 0, 0);
+                        CC_SETPOSITION(0, (int46 + int5), 1, 0);
+                        script10629(int18, int45, (IF_GETWIDTH(int18) - 6), int1, 3, int46, inttostring(int31, 10), int38, int15, 0, 1, 0, 1);
+                        script10629(int20, int45, (IF_GETWIDTH(int20) - 6), int1, 3, int46, string6, int38, int15, 0, 1, 0, 1);
+                        script10629(int21, int45, (IF_GETWIDTH(int21) - 6), int1, 3, int46, string4, int38, int15, 0, 1, 0, 1);
+                        script7924(int23, int45, 24, 12, 4, (int46 + int3), int40, 0, 0, 0, 0);
+                        script10629(int22, int45, 30, int1, 30, int46, string3, int38, int15, 0, 1, 0, 1);
+                        CC_SETSIZE(30, int1, 1, 0);
+                        script10629(int24, int45, (IF_GETWIDTH(int24) - 10), int1, 5, int46, string5, int39, int15, 0, 1, 0, 1);
+                        script7924(int25, int45, int10, int10, 0, (int46 + int4), int41, 0, 0, 0, 0);
+                        CC_SETPOSITION(0, (int46 + int4), 1, 0);
+                        if ((int35 == -1)) {
+                            string7 = "-";
+                        } else if ((int35 >= 1000)) {
+                            string7 = "N/A";
+                        } else {
+                            string7 = inttostring(int35, 10);
+                        };
+                        script10629(int26, int45, (IF_GETWIDTH(int26) - 10), int1, 5, int46, string7, int38, int15, 0, 1, 0, 1);
+                        script10629(int27, int45, IF_GETWIDTH(int27), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                        CC_SETOP(1, "Select");
+                        CC_SETOPBASE(`World ${inttostring(int31, 10)}`);
+                        CC_SETONOP(callback(script3129, -2147483644, int45, int31, string2));
+                        script10629(int28, int45, IF_GETWIDTH(int28), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                        CC_SETONMOUSEOVER(callback(script3130, int17, int28, int45, int31));
+                        CC_SETONMOUSELEAVE(callback(script3132, int17, int45, int31));
+                        CC_SETOP(1, "Alter");
+                        CC_SETOPBASE("Favourite");
+                        CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
+                        CC_SETONCLICK(callback(script10036));
+                        if ((int31 == MAP_WORLD())) {
+                            IF_SETHIDE(false, comp(910, 65));
+                            IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                        };
+                        if ((int31 == script20335(1))) {
+                            int42 = int45;
+                        };
+                        if ((int31 == script20335(2))) {
+                            int43 = int45;
+                        };
+                        if ((int31 == script20335(3))) {
+                            int44 = int45;
+                        };
+                        [int31, int32, string0, int33, string1, int34, int35, string2] = unk11101();
+                        int46 = (int46 + (int1 + int2));
+                        int45 = (int45 + 1);
+                    };
+                } else if ((TESTBIT(int32, 30) == 0)) {
+                    if ((int47 == 1)) {
+                        if ((STAFFMODLEVEL() < 2)) {
+                            [int31, int32, string0, int33, string1, int34, int35, string2] = unk11101();
+                        } else {
+                            [int40, string3, string4, int38, int41, int37, int36, string5, string6] = script3117(int31, int32, int45, string0, string1, int34, int33);
+                            if ((script13749() == 1)) {
+                                if ((int38 == 16777215)) {
+                                    int39 = 7705248;
+                                } else {
+                                    int39 = int38;
+                                };
+                                int38 = 7705248;
+                            } else {
+                                int39 = int38;
+                            };
+                            script20333(int16, int45, int1, int46, int45);
+                            script7924(int17, int45, int9, int9, 0, int46, int36, 0, 0, 0, 0);
+                            CC_SETPOSITION(0, (int46 + int5), 1, 0);
+                            script10629(int18, int45, (IF_GETWIDTH(int18) - 6), int1, 3, int46, inttostring(int31, 10), int38, int15, 0, 1, 0, 1);
+                            script10629(int20, int45, (IF_GETWIDTH(int20) - 6), int1, 3, int46, string6, int38, int15, 0, 1, 0, 1);
+                            script10629(int21, int45, (IF_GETWIDTH(int21) - 6), int1, 3, int46, string4, int38, int15, 0, 1, 0, 1);
+                            script7924(int23, int45, 24, 12, 4, (int46 + int3), int40, 0, 0, 0, 0);
+                            script10629(int22, int45, 30, int1, 30, int46, string3, int38, int15, 0, 1, 0, 1);
+                            CC_SETSIZE(30, int1, 1, 0);
+                            script10629(int24, int45, (IF_GETWIDTH(int24) - 10), int1, 5, int46, string5, int39, int15, 0, 1, 0, 1);
+                            script7924(int25, int45, int10, int10, 0, (int46 + int4), int41, 0, 0, 0, 0);
+                            CC_SETPOSITION(0, (int46 + int4), 1, 0);
+                            if ((int35 == -1)) {
+                                string7 = "-";
+                            } else if ((int35 >= 1000)) {
+                                string7 = "N/A";
+                            } else {
+                                string7 = inttostring(int35, 10);
+                            };
+                            script10629(int26, int45, (IF_GETWIDTH(int26) - 10), int1, 5, int46, string7, int38, int15, 0, 1, 0, 1);
+                            script10629(int27, int45, IF_GETWIDTH(int27), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                            CC_SETOP(1, "Select");
+                            CC_SETOPBASE(`World ${inttostring(int31, 10)}`);
+                            CC_SETONOP(callback(script3129, -2147483644, int45, int31, string2));
+                            script10629(int28, int45, IF_GETWIDTH(int28), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                            CC_SETONMOUSEOVER(callback(script3130, int17, int28, int45, int31));
+                            CC_SETONMOUSELEAVE(callback(script3132, int17, int45, int31));
+                            CC_SETOP(1, "Alter");
+                            CC_SETOPBASE("Favourite");
+                            CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
+                            CC_SETONCLICK(callback(script10036));
+                            if ((int31 == MAP_WORLD())) {
+                                IF_SETHIDE(false, comp(910, 65));
+                                IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                            };
+                            if ((int31 == script20335(1))) {
+                                int42 = int45;
+                            };
+                            if ((int31 == script20335(2))) {
+                                int43 = int45;
+                            };
+                            if ((int31 == script20335(3))) {
+                                int44 = int45;
+                            };
+                            [int31, int32, string0, int33, string1, int34, int35, string2] = unk11101();
+                            int46 = (int46 + (int1 + int2));
+                            int45 = (int45 + 1);
+                        };
+                    } else {
+                        [int40, string3, string4, int38, int41, int37, int36, string5, string6] = script3117(int31, int32, int45, string0, string1, int34, int33);
+                        if ((script13749() == 1)) {
+                            if ((int38 == 16777215)) {
+                                int39 = 7705248;
+                            } else {
+                                int39 = int38;
+                            };
+                            int38 = 7705248;
+                        } else {
+                            int39 = int38;
+                        };
+                        script20333(int16, int45, int1, int46, int45);
+                        script7924(int17, int45, int9, int9, 0, int46, int36, 0, 0, 0, 0);
+                        CC_SETPOSITION(0, (int46 + int5), 1, 0);
+                        script10629(int18, int45, (IF_GETWIDTH(int18) - 6), int1, 3, int46, inttostring(int31, 10), int38, int15, 0, 1, 0, 1);
+                        script10629(int20, int45, (IF_GETWIDTH(int20) - 6), int1, 3, int46, string6, int38, int15, 0, 1, 0, 1);
+                        script10629(int21, int45, (IF_GETWIDTH(int21) - 6), int1, 3, int46, string4, int38, int15, 0, 1, 0, 1);
+                        script7924(int23, int45, 24, 12, 4, (int46 + int3), int40, 0, 0, 0, 0);
+                        script10629(int22, int45, 30, int1, 30, int46, string3, int38, int15, 0, 1, 0, 1);
+                        CC_SETSIZE(30, int1, 1, 0);
+                        script10629(int24, int45, (IF_GETWIDTH(int24) - 10), int1, 5, int46, string5, int39, int15, 0, 1, 0, 1);
+                        script7924(int25, int45, int10, int10, 0, (int46 + int4), int41, 0, 0, 0, 0);
+                        CC_SETPOSITION(0, (int46 + int4), 1, 0);
+                        if ((int35 == -1)) {
+                            string7 = "-";
+                        } else if ((int35 >= 1000)) {
+                            string7 = "N/A";
+                        } else {
+                            string7 = inttostring(int35, 10);
+                        };
+                        script10629(int26, int45, (IF_GETWIDTH(int26) - 10), int1, 5, int46, string7, int38, int15, 0, 1, 0, 1);
+                        script10629(int27, int45, IF_GETWIDTH(int27), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                        CC_SETOP(1, "Select");
+                        CC_SETOPBASE(`World ${inttostring(int31, 10)}`);
+                        CC_SETONOP(callback(script3129, -2147483644, int45, int31, string2));
+                        script10629(int28, int45, IF_GETWIDTH(int28), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                        CC_SETONMOUSEOVER(callback(script3130, int17, int28, int45, int31));
+                        CC_SETONMOUSELEAVE(callback(script3132, int17, int45, int31));
+                        CC_SETOP(1, "Alter");
+                        CC_SETOPBASE("Favourite");
+                        CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
+                        CC_SETONCLICK(callback(script10036));
+                        if ((int31 == MAP_WORLD())) {
+                            IF_SETHIDE(false, comp(910, 65));
+                            IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                        };
+                        if ((int31 == script20335(1))) {
+                            int42 = int45;
+                        };
+                        if ((int31 == script20335(2))) {
+                            int43 = int45;
+                        };
+                        if ((int31 == script20335(3))) {
+                            int44 = int45;
+                        };
+                        [int31, int32, string0, int33, string1, int34, int35, string2] = unk11101();
+                        int46 = (int46 + (int1 + int2));
+                        int45 = (int45 + 1);
+                    };
+                } else {
+                    [int40, string3, string4, int38, int41, int37, int36, string5, string6] = script3117(int31, int32, int45, string0, string1, int34, int33);
+                    if ((script13749() == 1)) {
+                        if ((int38 == 16777215)) {
+                            int39 = 7705248;
+                        } else {
+                            int39 = int38;
+                        };
+                        int38 = 7705248;
+                    } else {
+                        int39 = int38;
+                    };
+                    script20333(int16, int45, int1, int46, int45);
+                    script7924(int17, int45, int9, int9, 0, int46, int36, 0, 0, 0, 0);
+                    CC_SETPOSITION(0, (int46 + int5), 1, 0);
+                    script10629(int18, int45, (IF_GETWIDTH(int18) - 6), int1, 3, int46, inttostring(int31, 10), int38, int15, 0, 1, 0, 1);
+                    script10629(int20, int45, (IF_GETWIDTH(int20) - 6), int1, 3, int46, string6, int38, int15, 0, 1, 0, 1);
+                    script10629(int21, int45, (IF_GETWIDTH(int21) - 6), int1, 3, int46, string4, int38, int15, 0, 1, 0, 1);
+                    script7924(int23, int45, 24, 12, 4, (int46 + int3), int40, 0, 0, 0, 0);
+                    script10629(int22, int45, 30, int1, 30, int46, string3, int38, int15, 0, 1, 0, 1);
+                    CC_SETSIZE(30, int1, 1, 0);
+                    script10629(int24, int45, (IF_GETWIDTH(int24) - 10), int1, 5, int46, string5, int39, int15, 0, 1, 0, 1);
+                    script7924(int25, int45, int10, int10, 0, (int46 + int4), int41, 0, 0, 0, 0);
+                    CC_SETPOSITION(0, (int46 + int4), 1, 0);
+                    if ((int35 == -1)) {
+                        string7 = "-";
+                    } else if ((int35 >= 1000)) {
+                        string7 = "N/A";
+                    } else {
+                        string7 = inttostring(int35, 10);
+                    };
+                    script10629(int26, int45, (IF_GETWIDTH(int26) - 10), int1, 5, int46, string7, int38, int15, 0, 1, 0, 1);
+                    script10629(int27, int45, IF_GETWIDTH(int27), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                    CC_SETOP(1, "Select");
+                    CC_SETOPBASE(`World ${inttostring(int31, 10)}`);
+                    CC_SETONOP(callback(script3129, -2147483644, int45, int31, string2));
+                    script10629(int28, int45, IF_GETWIDTH(int28), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                    CC_SETONMOUSEOVER(callback(script3130, int17, int28, int45, int31));
+                    CC_SETONMOUSELEAVE(callback(script3132, int17, int45, int31));
+                    CC_SETOP(1, "Alter");
+                    CC_SETOPBASE("Favourite");
+                    CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
+                    CC_SETONCLICK(callback(script10036));
+                    if ((int31 == MAP_WORLD())) {
+                        IF_SETHIDE(false, comp(910, 65));
+                        IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                    };
+                    if ((int31 == script20335(1))) {
+                        int42 = int45;
+                    };
+                    if ((int31 == script20335(2))) {
+                        int43 = int45;
+                    };
+                    if ((int31 == script20335(3))) {
+                        int44 = int45;
+                    };
+                    [int31, int32, string0, int33, string1, int34, int35, string2] = unk11101();
+                    int46 = (int46 + (int1 + int2));
+                    int45 = (int45 + 1);
+                };
+            } else if (((varbitplayer_58378 == 0) || (int12 == -1))) {
+                if ((TESTBIT(int32, 24) == 1)) {
+                    [int31, int32, string0, int33, string1, int34, int35, string2] = unk11101();
+                } else if ((int31 >= 170)) {
+                    if ((int34 < 0)) {
+                        [int31, int32, string0, int33, string1, int34, int35, string2] = unk11101();
+                    } else if ((TESTBIT(int32, 12) == 1)) {
+                        [int31, int32, string0, int33, string1, int34, int35, string2] = unk11101();
+                    } else if ((TESTBIT(int32, 30) == 1)) {
+                        if ((int47 == 0)) {
+                            if ((STAFFMODLEVEL() < 2)) {
+                                [int31, int32, string0, int33, string1, int34, int35, string2] = unk11101();
+                            } else if ((TESTBIT(int32, 30) == 0)) {
+                                if ((int47 == 1)) {
+                                    if ((STAFFMODLEVEL() < 2)) {
+                                        [int31, int32, string0, int33, string1, int34, int35, string2] = unk11101();
+                                    } else {
+                                        [int40, string3, string4, int38, int41, int37, int36, string5, string6] = script3117(int31, int32, int45, string0, string1, int34, int33);
+                                        if ((script13749() == 1)) {
+                                            if ((int38 == 16777215)) {
+                                                int39 = 7705248;
+                                            } else {
+                                                int39 = int38;
+                                            };
+                                            int38 = 7705248;
+                                        } else {
+                                            int39 = int38;
+                                        };
+                                        script20333(int16, int45, int1, int46, int45);
+                                        script7924(int17, int45, int9, int9, 0, int46, int36, 0, 0, 0, 0);
+                                        CC_SETPOSITION(0, (int46 + int5), 1, 0);
+                                        script10629(int18, int45, (IF_GETWIDTH(int18) - 6), int1, 3, int46, inttostring(int31, 10), int38, int15, 0, 1, 0, 1);
+                                        script10629(int20, int45, (IF_GETWIDTH(int20) - 6), int1, 3, int46, string6, int38, int15, 0, 1, 0, 1);
+                                        script10629(int21, int45, (IF_GETWIDTH(int21) - 6), int1, 3, int46, string4, int38, int15, 0, 1, 0, 1);
+                                        script7924(int23, int45, 24, 12, 4, (int46 + int3), int40, 0, 0, 0, 0);
+                                        script10629(int22, int45, 30, int1, 30, int46, string3, int38, int15, 0, 1, 0, 1);
+                                        CC_SETSIZE(30, int1, 1, 0);
+                                        script10629(int24, int45, (IF_GETWIDTH(int24) - 10), int1, 5, int46, string5, int39, int15, 0, 1, 0, 1);
+                                        script7924(int25, int45, int10, int10, 0, (int46 + int4), int41, 0, 0, 0, 0);
+                                        CC_SETPOSITION(0, (int46 + int4), 1, 0);
+                                        if ((int35 == -1)) {
+                                            string7 = "-";
+                                        } else if ((int35 >= 1000)) {
+                                            string7 = "N/A";
+                                        } else {
+                                            string7 = inttostring(int35, 10);
+                                        };
+                                        script10629(int26, int45, (IF_GETWIDTH(int26) - 10), int1, 5, int46, string7, int38, int15, 0, 1, 0, 1);
+                                        script10629(int27, int45, IF_GETWIDTH(int27), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                                        CC_SETOP(1, "Select");
+                                        CC_SETOPBASE(`World ${inttostring(int31, 10)}`);
+                                        CC_SETONOP(callback(script3129, -2147483644, int45, int31, string2));
+                                        script10629(int28, int45, IF_GETWIDTH(int28), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                                        CC_SETONMOUSEOVER(callback(script3130, int17, int28, int45, int31));
+                                        CC_SETONMOUSELEAVE(callback(script3132, int17, int45, int31));
+                                        CC_SETOP(1, "Alter");
+                                        CC_SETOPBASE("Favourite");
+                                        CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
+                                        CC_SETONCLICK(callback(script10036));
+                                        if ((int31 == MAP_WORLD())) {
+                                            IF_SETHIDE(false, comp(910, 65));
+                                            IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                                        };
+                                        if ((int31 == script20335(1))) {
+                                            int42 = int45;
+                                        };
+                                        if ((int31 == script20335(2))) {
+                                            int43 = int45;
+                                        };
+                                        if ((int31 == script20335(3))) {
+                                            int44 = int45;
+                                        };
+                                        [int31, int32, string0, int33, string1, int34, int35, string2] = unk11101();
+                                        int46 = (int46 + (int1 + int2));
+                                        int45 = (int45 + 1);
+                                    };
+                                } else {
+                                    [int40, string3, string4, int38, int41, int37, int36, string5, string6] = script3117(int31, int32, int45, string0, string1, int34, int33);
+                                    if ((script13749() == 1)) {
+                                        if ((int38 == 16777215)) {
+                                            int39 = 7705248;
+                                        } else {
+                                            int39 = int38;
+                                        };
+                                        int38 = 7705248;
+                                    } else {
+                                        int39 = int38;
+                                    };
+                                    script20333(int16, int45, int1, int46, int45);
+                                    script7924(int17, int45, int9, int9, 0, int46, int36, 0, 0, 0, 0);
+                                    CC_SETPOSITION(0, (int46 + int5), 1, 0);
+                                    script10629(int18, int45, (IF_GETWIDTH(int18) - 6), int1, 3, int46, inttostring(int31, 10), int38, int15, 0, 1, 0, 1);
+                                    script10629(int20, int45, (IF_GETWIDTH(int20) - 6), int1, 3, int46, string6, int38, int15, 0, 1, 0, 1);
+                                    script10629(int21, int45, (IF_GETWIDTH(int21) - 6), int1, 3, int46, string4, int38, int15, 0, 1, 0, 1);
+                                    script7924(int23, int45, 24, 12, 4, (int46 + int3), int40, 0, 0, 0, 0);
+                                    script10629(int22, int45, 30, int1, 30, int46, string3, int38, int15, 0, 1, 0, 1);
+                                    CC_SETSIZE(30, int1, 1, 0);
+                                    script10629(int24, int45, (IF_GETWIDTH(int24) - 10), int1, 5, int46, string5, int39, int15, 0, 1, 0, 1);
+                                    script7924(int25, int45, int10, int10, 0, (int46 + int4), int41, 0, 0, 0, 0);
+                                    CC_SETPOSITION(0, (int46 + int4), 1, 0);
+                                    if ((int35 == -1)) {
+                                        string7 = "-";
+                                    } else if ((int35 >= 1000)) {
+                                        string7 = "N/A";
+                                    } else {
+                                        string7 = inttostring(int35, 10);
+                                    };
+                                    script10629(int26, int45, (IF_GETWIDTH(int26) - 10), int1, 5, int46, string7, int38, int15, 0, 1, 0, 1);
+                                    script10629(int27, int45, IF_GETWIDTH(int27), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                                    CC_SETOP(1, "Select");
+                                    CC_SETOPBASE(`World ${inttostring(int31, 10)}`);
+                                    CC_SETONOP(callback(script3129, -2147483644, int45, int31, string2));
+                                    script10629(int28, int45, IF_GETWIDTH(int28), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                                    CC_SETONMOUSEOVER(callback(script3130, int17, int28, int45, int31));
+                                    CC_SETONMOUSELEAVE(callback(script3132, int17, int45, int31));
+                                    CC_SETOP(1, "Alter");
+                                    CC_SETOPBASE("Favourite");
+                                    CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
+                                    CC_SETONCLICK(callback(script10036));
+                                    if ((int31 == MAP_WORLD())) {
+                                        IF_SETHIDE(false, comp(910, 65));
+                                        IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                                    };
+                                    if ((int31 == script20335(1))) {
+                                        int42 = int45;
+                                    };
+                                    if ((int31 == script20335(2))) {
+                                        int43 = int45;
+                                    };
+                                    if ((int31 == script20335(3))) {
+                                        int44 = int45;
+                                    };
+                                    [int31, int32, string0, int33, string1, int34, int35, string2] = unk11101();
+                                    int46 = (int46 + (int1 + int2));
+                                    int45 = (int45 + 1);
+                                };
+                            } else {
+                                [int40, string3, string4, int38, int41, int37, int36, string5, string6] = script3117(int31, int32, int45, string0, string1, int34, int33);
+                                if ((script13749() == 1)) {
+                                    if ((int38 == 16777215)) {
+                                        int39 = 7705248;
+                                    } else {
+                                        int39 = int38;
+                                    };
+                                    int38 = 7705248;
+                                } else {
+                                    int39 = int38;
+                                };
+                                script20333(int16, int45, int1, int46, int45);
+                                script7924(int17, int45, int9, int9, 0, int46, int36, 0, 0, 0, 0);
+                                CC_SETPOSITION(0, (int46 + int5), 1, 0);
+                                script10629(int18, int45, (IF_GETWIDTH(int18) - 6), int1, 3, int46, inttostring(int31, 10), int38, int15, 0, 1, 0, 1);
+                                script10629(int20, int45, (IF_GETWIDTH(int20) - 6), int1, 3, int46, string6, int38, int15, 0, 1, 0, 1);
+                                script10629(int21, int45, (IF_GETWIDTH(int21) - 6), int1, 3, int46, string4, int38, int15, 0, 1, 0, 1);
+                                script7924(int23, int45, 24, 12, 4, (int46 + int3), int40, 0, 0, 0, 0);
+                                script10629(int22, int45, 30, int1, 30, int46, string3, int38, int15, 0, 1, 0, 1);
+                                CC_SETSIZE(30, int1, 1, 0);
+                                script10629(int24, int45, (IF_GETWIDTH(int24) - 10), int1, 5, int46, string5, int39, int15, 0, 1, 0, 1);
+                                script7924(int25, int45, int10, int10, 0, (int46 + int4), int41, 0, 0, 0, 0);
+                                CC_SETPOSITION(0, (int46 + int4), 1, 0);
+                                if ((int35 == -1)) {
+                                    string7 = "-";
+                                } else if ((int35 >= 1000)) {
+                                    string7 = "N/A";
+                                } else {
+                                    string7 = inttostring(int35, 10);
+                                };
+                                script10629(int26, int45, (IF_GETWIDTH(int26) - 10), int1, 5, int46, string7, int38, int15, 0, 1, 0, 1);
+                                script10629(int27, int45, IF_GETWIDTH(int27), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                                CC_SETOP(1, "Select");
+                                CC_SETOPBASE(`World ${inttostring(int31, 10)}`);
+                                CC_SETONOP(callback(script3129, -2147483644, int45, int31, string2));
+                                script10629(int28, int45, IF_GETWIDTH(int28), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                                CC_SETONMOUSEOVER(callback(script3130, int17, int28, int45, int31));
+                                CC_SETONMOUSELEAVE(callback(script3132, int17, int45, int31));
+                                CC_SETOP(1, "Alter");
+                                CC_SETOPBASE("Favourite");
+                                CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
+                                CC_SETONCLICK(callback(script10036));
+                                if ((int31 == MAP_WORLD())) {
+                                    IF_SETHIDE(false, comp(910, 65));
+                                    IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                                };
+                                if ((int31 == script20335(1))) {
+                                    int42 = int45;
+                                };
+                                if ((int31 == script20335(2))) {
+                                    int43 = int45;
+                                };
+                                if ((int31 == script20335(3))) {
+                                    int44 = int45;
+                                };
+                                [int31, int32, string0, int33, string1, int34, int35, string2] = unk11101();
+                                int46 = (int46 + (int1 + int2));
+                                int45 = (int45 + 1);
+                            };
+                        } else if ((TESTBIT(int32, 30) == 0)) {
+                            if ((int47 == 1)) {
+                                if ((STAFFMODLEVEL() < 2)) {
+                                    [int31, int32, string0, int33, string1, int34, int35, string2] = unk11101();
+                                } else {
+                                    [int40, string3, string4, int38, int41, int37, int36, string5, string6] = script3117(int31, int32, int45, string0, string1, int34, int33);
+                                    if ((script13749() == 1)) {
+                                        if ((int38 == 16777215)) {
+                                            int39 = 7705248;
+                                        } else {
+                                            int39 = int38;
+                                        };
+                                        int38 = 7705248;
+                                    } else {
+                                        int39 = int38;
+                                    };
+                                    script20333(int16, int45, int1, int46, int45);
+                                    script7924(int17, int45, int9, int9, 0, int46, int36, 0, 0, 0, 0);
+                                    CC_SETPOSITION(0, (int46 + int5), 1, 0);
+                                    script10629(int18, int45, (IF_GETWIDTH(int18) - 6), int1, 3, int46, inttostring(int31, 10), int38, int15, 0, 1, 0, 1);
+                                    script10629(int20, int45, (IF_GETWIDTH(int20) - 6), int1, 3, int46, string6, int38, int15, 0, 1, 0, 1);
+                                    script10629(int21, int45, (IF_GETWIDTH(int21) - 6), int1, 3, int46, string4, int38, int15, 0, 1, 0, 1);
+                                    script7924(int23, int45, 24, 12, 4, (int46 + int3), int40, 0, 0, 0, 0);
+                                    script10629(int22, int45, 30, int1, 30, int46, string3, int38, int15, 0, 1, 0, 1);
+                                    CC_SETSIZE(30, int1, 1, 0);
+                                    script10629(int24, int45, (IF_GETWIDTH(int24) - 10), int1, 5, int46, string5, int39, int15, 0, 1, 0, 1);
+                                    script7924(int25, int45, int10, int10, 0, (int46 + int4), int41, 0, 0, 0, 0);
+                                    CC_SETPOSITION(0, (int46 + int4), 1, 0);
+                                    if ((int35 == -1)) {
+                                        string7 = "-";
+                                    } else if ((int35 >= 1000)) {
+                                        string7 = "N/A";
+                                    } else {
+                                        string7 = inttostring(int35, 10);
+                                    };
+                                    script10629(int26, int45, (IF_GETWIDTH(int26) - 10), int1, 5, int46, string7, int38, int15, 0, 1, 0, 1);
+                                    script10629(int27, int45, IF_GETWIDTH(int27), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                                    CC_SETOP(1, "Select");
+                                    CC_SETOPBASE(`World ${inttostring(int31, 10)}`);
+                                    CC_SETONOP(callback(script3129, -2147483644, int45, int31, string2));
+                                    script10629(int28, int45, IF_GETWIDTH(int28), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                                    CC_SETONMOUSEOVER(callback(script3130, int17, int28, int45, int31));
+                                    CC_SETONMOUSELEAVE(callback(script3132, int17, int45, int31));
+                                    CC_SETOP(1, "Alter");
+                                    CC_SETOPBASE("Favourite");
+                                    CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
+                                    CC_SETONCLICK(callback(script10036));
+                                    if ((int31 == MAP_WORLD())) {
+                                        IF_SETHIDE(false, comp(910, 65));
+                                        IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                                    };
+                                    if ((int31 == script20335(1))) {
+                                        int42 = int45;
+                                    };
+                                    if ((int31 == script20335(2))) {
+                                        int43 = int45;
+                                    };
+                                    if ((int31 == script20335(3))) {
+                                        int44 = int45;
+                                    };
+                                    [int31, int32, string0, int33, string1, int34, int35, string2] = unk11101();
+                                    int46 = (int46 + (int1 + int2));
+                                    int45 = (int45 + 1);
+                                };
+                            } else {
+                                [int40, string3, string4, int38, int41, int37, int36, string5, string6] = script3117(int31, int32, int45, string0, string1, int34, int33);
+                                if ((script13749() == 1)) {
+                                    if ((int38 == 16777215)) {
+                                        int39 = 7705248;
+                                    } else {
+                                        int39 = int38;
+                                    };
+                                    int38 = 7705248;
+                                } else {
+                                    int39 = int38;
+                                };
+                                script20333(int16, int45, int1, int46, int45);
+                                script7924(int17, int45, int9, int9, 0, int46, int36, 0, 0, 0, 0);
+                                CC_SETPOSITION(0, (int46 + int5), 1, 0);
+                                script10629(int18, int45, (IF_GETWIDTH(int18) - 6), int1, 3, int46, inttostring(int31, 10), int38, int15, 0, 1, 0, 1);
+                                script10629(int20, int45, (IF_GETWIDTH(int20) - 6), int1, 3, int46, string6, int38, int15, 0, 1, 0, 1);
+                                script10629(int21, int45, (IF_GETWIDTH(int21) - 6), int1, 3, int46, string4, int38, int15, 0, 1, 0, 1);
+                                script7924(int23, int45, 24, 12, 4, (int46 + int3), int40, 0, 0, 0, 0);
+                                script10629(int22, int45, 30, int1, 30, int46, string3, int38, int15, 0, 1, 0, 1);
+                                CC_SETSIZE(30, int1, 1, 0);
+                                script10629(int24, int45, (IF_GETWIDTH(int24) - 10), int1, 5, int46, string5, int39, int15, 0, 1, 0, 1);
+                                script7924(int25, int45, int10, int10, 0, (int46 + int4), int41, 0, 0, 0, 0);
+                                CC_SETPOSITION(0, (int46 + int4), 1, 0);
+                                if ((int35 == -1)) {
+                                    string7 = "-";
+                                } else if ((int35 >= 1000)) {
+                                    string7 = "N/A";
+                                } else {
+                                    string7 = inttostring(int35, 10);
+                                };
+                                script10629(int26, int45, (IF_GETWIDTH(int26) - 10), int1, 5, int46, string7, int38, int15, 0, 1, 0, 1);
+                                script10629(int27, int45, IF_GETWIDTH(int27), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                                CC_SETOP(1, "Select");
+                                CC_SETOPBASE(`World ${inttostring(int31, 10)}`);
+                                CC_SETONOP(callback(script3129, -2147483644, int45, int31, string2));
+                                script10629(int28, int45, IF_GETWIDTH(int28), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                                CC_SETONMOUSEOVER(callback(script3130, int17, int28, int45, int31));
+                                CC_SETONMOUSELEAVE(callback(script3132, int17, int45, int31));
+                                CC_SETOP(1, "Alter");
+                                CC_SETOPBASE("Favourite");
+                                CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
+                                CC_SETONCLICK(callback(script10036));
+                                if ((int31 == MAP_WORLD())) {
+                                    IF_SETHIDE(false, comp(910, 65));
+                                    IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                                };
+                                if ((int31 == script20335(1))) {
+                                    int42 = int45;
+                                };
+                                if ((int31 == script20335(2))) {
+                                    int43 = int45;
+                                };
+                                if ((int31 == script20335(3))) {
+                                    int44 = int45;
+                                };
+                                [int31, int32, string0, int33, string1, int34, int35, string2] = unk11101();
+                                int46 = (int46 + (int1 + int2));
+                                int45 = (int45 + 1);
+                            };
+                        } else {
+                            [int40, string3, string4, int38, int41, int37, int36, string5, string6] = script3117(int31, int32, int45, string0, string1, int34, int33);
+                            if ((script13749() == 1)) {
+                                if ((int38 == 16777215)) {
+                                    int39 = 7705248;
+                                } else {
+                                    int39 = int38;
+                                };
+                                int38 = 7705248;
+                            } else {
+                                int39 = int38;
+                            };
+                            script20333(int16, int45, int1, int46, int45);
+                            script7924(int17, int45, int9, int9, 0, int46, int36, 0, 0, 0, 0);
+                            CC_SETPOSITION(0, (int46 + int5), 1, 0);
+                            script10629(int18, int45, (IF_GETWIDTH(int18) - 6), int1, 3, int46, inttostring(int31, 10), int38, int15, 0, 1, 0, 1);
+                            script10629(int20, int45, (IF_GETWIDTH(int20) - 6), int1, 3, int46, string6, int38, int15, 0, 1, 0, 1);
+                            script10629(int21, int45, (IF_GETWIDTH(int21) - 6), int1, 3, int46, string4, int38, int15, 0, 1, 0, 1);
+                            script7924(int23, int45, 24, 12, 4, (int46 + int3), int40, 0, 0, 0, 0);
+                            script10629(int22, int45, 30, int1, 30, int46, string3, int38, int15, 0, 1, 0, 1);
+                            CC_SETSIZE(30, int1, 1, 0);
+                            script10629(int24, int45, (IF_GETWIDTH(int24) - 10), int1, 5, int46, string5, int39, int15, 0, 1, 0, 1);
+                            script7924(int25, int45, int10, int10, 0, (int46 + int4), int41, 0, 0, 0, 0);
+                            CC_SETPOSITION(0, (int46 + int4), 1, 0);
+                            if ((int35 == -1)) {
+                                string7 = "-";
+                            } else if ((int35 >= 1000)) {
+                                string7 = "N/A";
+                            } else {
+                                string7 = inttostring(int35, 10);
+                            };
+                            script10629(int26, int45, (IF_GETWIDTH(int26) - 10), int1, 5, int46, string7, int38, int15, 0, 1, 0, 1);
+                            script10629(int27, int45, IF_GETWIDTH(int27), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                            CC_SETOP(1, "Select");
+                            CC_SETOPBASE(`World ${inttostring(int31, 10)}`);
+                            CC_SETONOP(callback(script3129, -2147483644, int45, int31, string2));
+                            script10629(int28, int45, IF_GETWIDTH(int28), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                            CC_SETONMOUSEOVER(callback(script3130, int17, int28, int45, int31));
+                            CC_SETONMOUSELEAVE(callback(script3132, int17, int45, int31));
+                            CC_SETOP(1, "Alter");
+                            CC_SETOPBASE("Favourite");
+                            CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
+                            CC_SETONCLICK(callback(script10036));
+                            if ((int31 == MAP_WORLD())) {
+                                IF_SETHIDE(false, comp(910, 65));
+                                IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                            };
+                            if ((int31 == script20335(1))) {
+                                int42 = int45;
+                            };
+                            if ((int31 == script20335(2))) {
+                                int43 = int45;
+                            };
+                            if ((int31 == script20335(3))) {
+                                int44 = int45;
+                            };
+                            [int31, int32, string0, int33, string1, int34, int35, string2] = unk11101();
+                            int46 = (int46 + (int1 + int2));
+                            int45 = (int45 + 1);
+                        };
+                    } else if ((TESTBIT(int32, 30) == 0)) {
+                        if ((int47 == 1)) {
+                            if ((STAFFMODLEVEL() < 2)) {
+                                [int31, int32, string0, int33, string1, int34, int35, string2] = unk11101();
+                            } else {
+                                [int40, string3, string4, int38, int41, int37, int36, string5, string6] = script3117(int31, int32, int45, string0, string1, int34, int33);
+                                if ((script13749() == 1)) {
+                                    if ((int38 == 16777215)) {
+                                        int39 = 7705248;
+                                    } else {
+                                        int39 = int38;
+                                    };
+                                    int38 = 7705248;
+                                } else {
+                                    int39 = int38;
+                                };
+                                script20333(int16, int45, int1, int46, int45);
+                                script7924(int17, int45, int9, int9, 0, int46, int36, 0, 0, 0, 0);
+                                CC_SETPOSITION(0, (int46 + int5), 1, 0);
+                                script10629(int18, int45, (IF_GETWIDTH(int18) - 6), int1, 3, int46, inttostring(int31, 10), int38, int15, 0, 1, 0, 1);
+                                script10629(int20, int45, (IF_GETWIDTH(int20) - 6), int1, 3, int46, string6, int38, int15, 0, 1, 0, 1);
+                                script10629(int21, int45, (IF_GETWIDTH(int21) - 6), int1, 3, int46, string4, int38, int15, 0, 1, 0, 1);
+                                script7924(int23, int45, 24, 12, 4, (int46 + int3), int40, 0, 0, 0, 0);
+                                script10629(int22, int45, 30, int1, 30, int46, string3, int38, int15, 0, 1, 0, 1);
+                                CC_SETSIZE(30, int1, 1, 0);
+                                script10629(int24, int45, (IF_GETWIDTH(int24) - 10), int1, 5, int46, string5, int39, int15, 0, 1, 0, 1);
+                                script7924(int25, int45, int10, int10, 0, (int46 + int4), int41, 0, 0, 0, 0);
+                                CC_SETPOSITION(0, (int46 + int4), 1, 0);
+                                if ((int35 == -1)) {
+                                    string7 = "-";
+                                } else if ((int35 >= 1000)) {
+                                    string7 = "N/A";
+                                } else {
+                                    string7 = inttostring(int35, 10);
+                                };
+                                script10629(int26, int45, (IF_GETWIDTH(int26) - 10), int1, 5, int46, string7, int38, int15, 0, 1, 0, 1);
+                                script10629(int27, int45, IF_GETWIDTH(int27), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                                CC_SETOP(1, "Select");
+                                CC_SETOPBASE(`World ${inttostring(int31, 10)}`);
+                                CC_SETONOP(callback(script3129, -2147483644, int45, int31, string2));
+                                script10629(int28, int45, IF_GETWIDTH(int28), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                                CC_SETONMOUSEOVER(callback(script3130, int17, int28, int45, int31));
+                                CC_SETONMOUSELEAVE(callback(script3132, int17, int45, int31));
+                                CC_SETOP(1, "Alter");
+                                CC_SETOPBASE("Favourite");
+                                CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
+                                CC_SETONCLICK(callback(script10036));
+                                if ((int31 == MAP_WORLD())) {
+                                    IF_SETHIDE(false, comp(910, 65));
+                                    IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                                };
+                                if ((int31 == script20335(1))) {
+                                    int42 = int45;
+                                };
+                                if ((int31 == script20335(2))) {
+                                    int43 = int45;
+                                };
+                                if ((int31 == script20335(3))) {
+                                    int44 = int45;
+                                };
+                                [int31, int32, string0, int33, string1, int34, int35, string2] = unk11101();
+                                int46 = (int46 + (int1 + int2));
+                                int45 = (int45 + 1);
+                            };
+                        } else {
+                            [int40, string3, string4, int38, int41, int37, int36, string5, string6] = script3117(int31, int32, int45, string0, string1, int34, int33);
+                            if ((script13749() == 1)) {
+                                if ((int38 == 16777215)) {
+                                    int39 = 7705248;
+                                } else {
+                                    int39 = int38;
+                                };
+                                int38 = 7705248;
+                            } else {
+                                int39 = int38;
+                            };
+                            script20333(int16, int45, int1, int46, int45);
+                            script7924(int17, int45, int9, int9, 0, int46, int36, 0, 0, 0, 0);
+                            CC_SETPOSITION(0, (int46 + int5), 1, 0);
+                            script10629(int18, int45, (IF_GETWIDTH(int18) - 6), int1, 3, int46, inttostring(int31, 10), int38, int15, 0, 1, 0, 1);
+                            script10629(int20, int45, (IF_GETWIDTH(int20) - 6), int1, 3, int46, string6, int38, int15, 0, 1, 0, 1);
+                            script10629(int21, int45, (IF_GETWIDTH(int21) - 6), int1, 3, int46, string4, int38, int15, 0, 1, 0, 1);
+                            script7924(int23, int45, 24, 12, 4, (int46 + int3), int40, 0, 0, 0, 0);
+                            script10629(int22, int45, 30, int1, 30, int46, string3, int38, int15, 0, 1, 0, 1);
+                            CC_SETSIZE(30, int1, 1, 0);
+                            script10629(int24, int45, (IF_GETWIDTH(int24) - 10), int1, 5, int46, string5, int39, int15, 0, 1, 0, 1);
+                            script7924(int25, int45, int10, int10, 0, (int46 + int4), int41, 0, 0, 0, 0);
+                            CC_SETPOSITION(0, (int46 + int4), 1, 0);
+                            if ((int35 == -1)) {
+                                string7 = "-";
+                            } else if ((int35 >= 1000)) {
+                                string7 = "N/A";
+                            } else {
+                                string7 = inttostring(int35, 10);
+                            };
+                            script10629(int26, int45, (IF_GETWIDTH(int26) - 10), int1, 5, int46, string7, int38, int15, 0, 1, 0, 1);
+                            script10629(int27, int45, IF_GETWIDTH(int27), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                            CC_SETOP(1, "Select");
+                            CC_SETOPBASE(`World ${inttostring(int31, 10)}`);
+                            CC_SETONOP(callback(script3129, -2147483644, int45, int31, string2));
+                            script10629(int28, int45, IF_GETWIDTH(int28), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                            CC_SETONMOUSEOVER(callback(script3130, int17, int28, int45, int31));
+                            CC_SETONMOUSELEAVE(callback(script3132, int17, int45, int31));
+                            CC_SETOP(1, "Alter");
+                            CC_SETOPBASE("Favourite");
+                            CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
+                            CC_SETONCLICK(callback(script10036));
+                            if ((int31 == MAP_WORLD())) {
+                                IF_SETHIDE(false, comp(910, 65));
+                                IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                            };
+                            if ((int31 == script20335(1))) {
+                                int42 = int45;
+                            };
+                            if ((int31 == script20335(2))) {
+                                int43 = int45;
+                            };
+                            if ((int31 == script20335(3))) {
+                                int44 = int45;
+                            };
+                            [int31, int32, string0, int33, string1, int34, int35, string2] = unk11101();
+                            int46 = (int46 + (int1 + int2));
+                            int45 = (int45 + 1);
+                        };
+                    } else {
+                        [int40, string3, string4, int38, int41, int37, int36, string5, string6] = script3117(int31, int32, int45, string0, string1, int34, int33);
+                        if ((script13749() == 1)) {
+                            if ((int38 == 16777215)) {
+                                int39 = 7705248;
+                            } else {
+                                int39 = int38;
+                            };
+                            int38 = 7705248;
+                        } else {
+                            int39 = int38;
+                        };
+                        script20333(int16, int45, int1, int46, int45);
+                        script7924(int17, int45, int9, int9, 0, int46, int36, 0, 0, 0, 0);
+                        CC_SETPOSITION(0, (int46 + int5), 1, 0);
+                        script10629(int18, int45, (IF_GETWIDTH(int18) - 6), int1, 3, int46, inttostring(int31, 10), int38, int15, 0, 1, 0, 1);
+                        script10629(int20, int45, (IF_GETWIDTH(int20) - 6), int1, 3, int46, string6, int38, int15, 0, 1, 0, 1);
+                        script10629(int21, int45, (IF_GETWIDTH(int21) - 6), int1, 3, int46, string4, int38, int15, 0, 1, 0, 1);
+                        script7924(int23, int45, 24, 12, 4, (int46 + int3), int40, 0, 0, 0, 0);
+                        script10629(int22, int45, 30, int1, 30, int46, string3, int38, int15, 0, 1, 0, 1);
+                        CC_SETSIZE(30, int1, 1, 0);
+                        script10629(int24, int45, (IF_GETWIDTH(int24) - 10), int1, 5, int46, string5, int39, int15, 0, 1, 0, 1);
+                        script7924(int25, int45, int10, int10, 0, (int46 + int4), int41, 0, 0, 0, 0);
+                        CC_SETPOSITION(0, (int46 + int4), 1, 0);
+                        if ((int35 == -1)) {
+                            string7 = "-";
+                        } else if ((int35 >= 1000)) {
+                            string7 = "N/A";
+                        } else {
+                            string7 = inttostring(int35, 10);
+                        };
+                        script10629(int26, int45, (IF_GETWIDTH(int26) - 10), int1, 5, int46, string7, int38, int15, 0, 1, 0, 1);
+                        script10629(int27, int45, IF_GETWIDTH(int27), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                        CC_SETOP(1, "Select");
+                        CC_SETOPBASE(`World ${inttostring(int31, 10)}`);
+                        CC_SETONOP(callback(script3129, -2147483644, int45, int31, string2));
+                        script10629(int28, int45, IF_GETWIDTH(int28), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                        CC_SETONMOUSEOVER(callback(script3130, int17, int28, int45, int31));
+                        CC_SETONMOUSELEAVE(callback(script3132, int17, int45, int31));
+                        CC_SETOP(1, "Alter");
+                        CC_SETOPBASE("Favourite");
+                        CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
+                        CC_SETONCLICK(callback(script10036));
+                        if ((int31 == MAP_WORLD())) {
+                            IF_SETHIDE(false, comp(910, 65));
+                            IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                        };
+                        if ((int31 == script20335(1))) {
+                            int42 = int45;
+                        };
+                        if ((int31 == script20335(2))) {
+                            int43 = int45;
+                        };
+                        if ((int31 == script20335(3))) {
+                            int44 = int45;
+                        };
+                        [int31, int32, string0, int33, string1, int34, int35, string2] = unk11101();
+                        int46 = (int46 + (int1 + int2));
+                        int45 = (int45 + 1);
+                    };
+                } else if ((TESTBIT(int32, 12) == 1)) {
+                    [int31, int32, string0, int33, string1, int34, int35, string2] = unk11101();
+                } else if ((TESTBIT(int32, 30) == 1)) {
+                    if ((int47 == 0)) {
+                        if ((STAFFMODLEVEL() < 2)) {
+                            [int31, int32, string0, int33, string1, int34, int35, string2] = unk11101();
+                        } else if ((TESTBIT(int32, 30) == 0)) {
+                            if ((int47 == 1)) {
+                                if ((STAFFMODLEVEL() < 2)) {
+                                    [int31, int32, string0, int33, string1, int34, int35, string2] = unk11101();
+                                } else {
+                                    [int40, string3, string4, int38, int41, int37, int36, string5, string6] = script3117(int31, int32, int45, string0, string1, int34, int33);
+                                    if ((script13749() == 1)) {
+                                        if ((int38 == 16777215)) {
+                                            int39 = 7705248;
+                                        } else {
+                                            int39 = int38;
+                                        };
+                                        int38 = 7705248;
+                                    } else {
+                                        int39 = int38;
+                                    };
+                                    script20333(int16, int45, int1, int46, int45);
+                                    script7924(int17, int45, int9, int9, 0, int46, int36, 0, 0, 0, 0);
+                                    CC_SETPOSITION(0, (int46 + int5), 1, 0);
+                                    script10629(int18, int45, (IF_GETWIDTH(int18) - 6), int1, 3, int46, inttostring(int31, 10), int38, int15, 0, 1, 0, 1);
+                                    script10629(int20, int45, (IF_GETWIDTH(int20) - 6), int1, 3, int46, string6, int38, int15, 0, 1, 0, 1);
+                                    script10629(int21, int45, (IF_GETWIDTH(int21) - 6), int1, 3, int46, string4, int38, int15, 0, 1, 0, 1);
+                                    script7924(int23, int45, 24, 12, 4, (int46 + int3), int40, 0, 0, 0, 0);
+                                    script10629(int22, int45, 30, int1, 30, int46, string3, int38, int15, 0, 1, 0, 1);
+                                    CC_SETSIZE(30, int1, 1, 0);
+                                    script10629(int24, int45, (IF_GETWIDTH(int24) - 10), int1, 5, int46, string5, int39, int15, 0, 1, 0, 1);
+                                    script7924(int25, int45, int10, int10, 0, (int46 + int4), int41, 0, 0, 0, 0);
+                                    CC_SETPOSITION(0, (int46 + int4), 1, 0);
+                                    if ((int35 == -1)) {
+                                        string7 = "-";
+                                    } else if ((int35 >= 1000)) {
+                                        string7 = "N/A";
+                                    } else {
+                                        string7 = inttostring(int35, 10);
+                                    };
+                                    script10629(int26, int45, (IF_GETWIDTH(int26) - 10), int1, 5, int46, string7, int38, int15, 0, 1, 0, 1);
+                                    script10629(int27, int45, IF_GETWIDTH(int27), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                                    CC_SETOP(1, "Select");
+                                    CC_SETOPBASE(`World ${inttostring(int31, 10)}`);
+                                    CC_SETONOP(callback(script3129, -2147483644, int45, int31, string2));
+                                    script10629(int28, int45, IF_GETWIDTH(int28), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                                    CC_SETONMOUSEOVER(callback(script3130, int17, int28, int45, int31));
+                                    CC_SETONMOUSELEAVE(callback(script3132, int17, int45, int31));
+                                    CC_SETOP(1, "Alter");
+                                    CC_SETOPBASE("Favourite");
+                                    CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
+                                    CC_SETONCLICK(callback(script10036));
+                                    if ((int31 == MAP_WORLD())) {
+                                        IF_SETHIDE(false, comp(910, 65));
+                                        IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                                    };
+                                    if ((int31 == script20335(1))) {
+                                        int42 = int45;
+                                    };
+                                    if ((int31 == script20335(2))) {
+                                        int43 = int45;
+                                    };
+                                    if ((int31 == script20335(3))) {
+                                        int44 = int45;
+                                    };
+                                    [int31, int32, string0, int33, string1, int34, int35, string2] = unk11101();
+                                    int46 = (int46 + (int1 + int2));
+                                    int45 = (int45 + 1);
+                                };
+                            } else {
+                                [int40, string3, string4, int38, int41, int37, int36, string5, string6] = script3117(int31, int32, int45, string0, string1, int34, int33);
+                                if ((script13749() == 1)) {
+                                    if ((int38 == 16777215)) {
+                                        int39 = 7705248;
+                                    } else {
+                                        int39 = int38;
+                                    };
+                                    int38 = 7705248;
+                                } else {
+                                    int39 = int38;
+                                };
+                                script20333(int16, int45, int1, int46, int45);
+                                script7924(int17, int45, int9, int9, 0, int46, int36, 0, 0, 0, 0);
+                                CC_SETPOSITION(0, (int46 + int5), 1, 0);
+                                script10629(int18, int45, (IF_GETWIDTH(int18) - 6), int1, 3, int46, inttostring(int31, 10), int38, int15, 0, 1, 0, 1);
+                                script10629(int20, int45, (IF_GETWIDTH(int20) - 6), int1, 3, int46, string6, int38, int15, 0, 1, 0, 1);
+                                script10629(int21, int45, (IF_GETWIDTH(int21) - 6), int1, 3, int46, string4, int38, int15, 0, 1, 0, 1);
+                                script7924(int23, int45, 24, 12, 4, (int46 + int3), int40, 0, 0, 0, 0);
+                                script10629(int22, int45, 30, int1, 30, int46, string3, int38, int15, 0, 1, 0, 1);
+                                CC_SETSIZE(30, int1, 1, 0);
+                                script10629(int24, int45, (IF_GETWIDTH(int24) - 10), int1, 5, int46, string5, int39, int15, 0, 1, 0, 1);
+                                script7924(int25, int45, int10, int10, 0, (int46 + int4), int41, 0, 0, 0, 0);
+                                CC_SETPOSITION(0, (int46 + int4), 1, 0);
+                                if ((int35 == -1)) {
+                                    string7 = "-";
+                                } else if ((int35 >= 1000)) {
+                                    string7 = "N/A";
+                                } else {
+                                    string7 = inttostring(int35, 10);
+                                };
+                                script10629(int26, int45, (IF_GETWIDTH(int26) - 10), int1, 5, int46, string7, int38, int15, 0, 1, 0, 1);
+                                script10629(int27, int45, IF_GETWIDTH(int27), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                                CC_SETOP(1, "Select");
+                                CC_SETOPBASE(`World ${inttostring(int31, 10)}`);
+                                CC_SETONOP(callback(script3129, -2147483644, int45, int31, string2));
+                                script10629(int28, int45, IF_GETWIDTH(int28), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                                CC_SETONMOUSEOVER(callback(script3130, int17, int28, int45, int31));
+                                CC_SETONMOUSELEAVE(callback(script3132, int17, int45, int31));
+                                CC_SETOP(1, "Alter");
+                                CC_SETOPBASE("Favourite");
+                                CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
+                                CC_SETONCLICK(callback(script10036));
+                                if ((int31 == MAP_WORLD())) {
+                                    IF_SETHIDE(false, comp(910, 65));
+                                    IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                                };
+                                if ((int31 == script20335(1))) {
+                                    int42 = int45;
+                                };
+                                if ((int31 == script20335(2))) {
+                                    int43 = int45;
+                                };
+                                if ((int31 == script20335(3))) {
+                                    int44 = int45;
+                                };
+                                [int31, int32, string0, int33, string1, int34, int35, string2] = unk11101();
+                                int46 = (int46 + (int1 + int2));
+                                int45 = (int45 + 1);
+                            };
+                        } else {
+                            [int40, string3, string4, int38, int41, int37, int36, string5, string6] = script3117(int31, int32, int45, string0, string1, int34, int33);
+                            if ((script13749() == 1)) {
+                                if ((int38 == 16777215)) {
+                                    int39 = 7705248;
+                                } else {
+                                    int39 = int38;
+                                };
+                                int38 = 7705248;
+                            } else {
+                                int39 = int38;
+                            };
+                            script20333(int16, int45, int1, int46, int45);
+                            script7924(int17, int45, int9, int9, 0, int46, int36, 0, 0, 0, 0);
+                            CC_SETPOSITION(0, (int46 + int5), 1, 0);
+                            script10629(int18, int45, (IF_GETWIDTH(int18) - 6), int1, 3, int46, inttostring(int31, 10), int38, int15, 0, 1, 0, 1);
+                            script10629(int20, int45, (IF_GETWIDTH(int20) - 6), int1, 3, int46, string6, int38, int15, 0, 1, 0, 1);
+                            script10629(int21, int45, (IF_GETWIDTH(int21) - 6), int1, 3, int46, string4, int38, int15, 0, 1, 0, 1);
+                            script7924(int23, int45, 24, 12, 4, (int46 + int3), int40, 0, 0, 0, 0);
+                            script10629(int22, int45, 30, int1, 30, int46, string3, int38, int15, 0, 1, 0, 1);
+                            CC_SETSIZE(30, int1, 1, 0);
+                            script10629(int24, int45, (IF_GETWIDTH(int24) - 10), int1, 5, int46, string5, int39, int15, 0, 1, 0, 1);
+                            script7924(int25, int45, int10, int10, 0, (int46 + int4), int41, 0, 0, 0, 0);
+                            CC_SETPOSITION(0, (int46 + int4), 1, 0);
+                            if ((int35 == -1)) {
+                                string7 = "-";
+                            } else if ((int35 >= 1000)) {
+                                string7 = "N/A";
+                            } else {
+                                string7 = inttostring(int35, 10);
+                            };
+                            script10629(int26, int45, (IF_GETWIDTH(int26) - 10), int1, 5, int46, string7, int38, int15, 0, 1, 0, 1);
+                            script10629(int27, int45, IF_GETWIDTH(int27), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                            CC_SETOP(1, "Select");
+                            CC_SETOPBASE(`World ${inttostring(int31, 10)}`);
+                            CC_SETONOP(callback(script3129, -2147483644, int45, int31, string2));
+                            script10629(int28, int45, IF_GETWIDTH(int28), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                            CC_SETONMOUSEOVER(callback(script3130, int17, int28, int45, int31));
+                            CC_SETONMOUSELEAVE(callback(script3132, int17, int45, int31));
+                            CC_SETOP(1, "Alter");
+                            CC_SETOPBASE("Favourite");
+                            CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
+                            CC_SETONCLICK(callback(script10036));
+                            if ((int31 == MAP_WORLD())) {
+                                IF_SETHIDE(false, comp(910, 65));
+                                IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                            };
+                            if ((int31 == script20335(1))) {
+                                int42 = int45;
+                            };
+                            if ((int31 == script20335(2))) {
+                                int43 = int45;
+                            };
+                            if ((int31 == script20335(3))) {
+                                int44 = int45;
+                            };
+                            [int31, int32, string0, int33, string1, int34, int35, string2] = unk11101();
+                            int46 = (int46 + (int1 + int2));
+                            int45 = (int45 + 1);
+                        };
+                    } else if ((TESTBIT(int32, 30) == 0)) {
+                        if ((int47 == 1)) {
+                            if ((STAFFMODLEVEL() < 2)) {
+                                [int31, int32, string0, int33, string1, int34, int35, string2] = unk11101();
+                            } else {
+                                [int40, string3, string4, int38, int41, int37, int36, string5, string6] = script3117(int31, int32, int45, string0, string1, int34, int33);
+                                if ((script13749() == 1)) {
+                                    if ((int38 == 16777215)) {
+                                        int39 = 7705248;
+                                    } else {
+                                        int39 = int38;
+                                    };
+                                    int38 = 7705248;
+                                } else {
+                                    int39 = int38;
+                                };
+                                script20333(int16, int45, int1, int46, int45);
+                                script7924(int17, int45, int9, int9, 0, int46, int36, 0, 0, 0, 0);
+                                CC_SETPOSITION(0, (int46 + int5), 1, 0);
+                                script10629(int18, int45, (IF_GETWIDTH(int18) - 6), int1, 3, int46, inttostring(int31, 10), int38, int15, 0, 1, 0, 1);
+                                script10629(int20, int45, (IF_GETWIDTH(int20) - 6), int1, 3, int46, string6, int38, int15, 0, 1, 0, 1);
+                                script10629(int21, int45, (IF_GETWIDTH(int21) - 6), int1, 3, int46, string4, int38, int15, 0, 1, 0, 1);
+                                script7924(int23, int45, 24, 12, 4, (int46 + int3), int40, 0, 0, 0, 0);
+                                script10629(int22, int45, 30, int1, 30, int46, string3, int38, int15, 0, 1, 0, 1);
+                                CC_SETSIZE(30, int1, 1, 0);
+                                script10629(int24, int45, (IF_GETWIDTH(int24) - 10), int1, 5, int46, string5, int39, int15, 0, 1, 0, 1);
+                                script7924(int25, int45, int10, int10, 0, (int46 + int4), int41, 0, 0, 0, 0);
+                                CC_SETPOSITION(0, (int46 + int4), 1, 0);
+                                if ((int35 == -1)) {
+                                    string7 = "-";
+                                } else if ((int35 >= 1000)) {
+                                    string7 = "N/A";
+                                } else {
+                                    string7 = inttostring(int35, 10);
+                                };
+                                script10629(int26, int45, (IF_GETWIDTH(int26) - 10), int1, 5, int46, string7, int38, int15, 0, 1, 0, 1);
+                                script10629(int27, int45, IF_GETWIDTH(int27), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                                CC_SETOP(1, "Select");
+                                CC_SETOPBASE(`World ${inttostring(int31, 10)}`);
+                                CC_SETONOP(callback(script3129, -2147483644, int45, int31, string2));
+                                script10629(int28, int45, IF_GETWIDTH(int28), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                                CC_SETONMOUSEOVER(callback(script3130, int17, int28, int45, int31));
+                                CC_SETONMOUSELEAVE(callback(script3132, int17, int45, int31));
+                                CC_SETOP(1, "Alter");
+                                CC_SETOPBASE("Favourite");
+                                CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
+                                CC_SETONCLICK(callback(script10036));
+                                if ((int31 == MAP_WORLD())) {
+                                    IF_SETHIDE(false, comp(910, 65));
+                                    IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                                };
+                                if ((int31 == script20335(1))) {
+                                    int42 = int45;
+                                };
+                                if ((int31 == script20335(2))) {
+                                    int43 = int45;
+                                };
+                                if ((int31 == script20335(3))) {
+                                    int44 = int45;
+                                };
+                                [int31, int32, string0, int33, string1, int34, int35, string2] = unk11101();
+                                int46 = (int46 + (int1 + int2));
+                                int45 = (int45 + 1);
+                            };
+                        } else {
+                            [int40, string3, string4, int38, int41, int37, int36, string5, string6] = script3117(int31, int32, int45, string0, string1, int34, int33);
+                            if ((script13749() == 1)) {
+                                if ((int38 == 16777215)) {
+                                    int39 = 7705248;
+                                } else {
+                                    int39 = int38;
+                                };
+                                int38 = 7705248;
+                            } else {
+                                int39 = int38;
+                            };
+                            script20333(int16, int45, int1, int46, int45);
+                            script7924(int17, int45, int9, int9, 0, int46, int36, 0, 0, 0, 0);
+                            CC_SETPOSITION(0, (int46 + int5), 1, 0);
+                            script10629(int18, int45, (IF_GETWIDTH(int18) - 6), int1, 3, int46, inttostring(int31, 10), int38, int15, 0, 1, 0, 1);
+                            script10629(int20, int45, (IF_GETWIDTH(int20) - 6), int1, 3, int46, string6, int38, int15, 0, 1, 0, 1);
+                            script10629(int21, int45, (IF_GETWIDTH(int21) - 6), int1, 3, int46, string4, int38, int15, 0, 1, 0, 1);
+                            script7924(int23, int45, 24, 12, 4, (int46 + int3), int40, 0, 0, 0, 0);
+                            script10629(int22, int45, 30, int1, 30, int46, string3, int38, int15, 0, 1, 0, 1);
+                            CC_SETSIZE(30, int1, 1, 0);
+                            script10629(int24, int45, (IF_GETWIDTH(int24) - 10), int1, 5, int46, string5, int39, int15, 0, 1, 0, 1);
+                            script7924(int25, int45, int10, int10, 0, (int46 + int4), int41, 0, 0, 0, 0);
+                            CC_SETPOSITION(0, (int46 + int4), 1, 0);
+                            if ((int35 == -1)) {
+                                string7 = "-";
+                            } else if ((int35 >= 1000)) {
+                                string7 = "N/A";
+                            } else {
+                                string7 = inttostring(int35, 10);
+                            };
+                            script10629(int26, int45, (IF_GETWIDTH(int26) - 10), int1, 5, int46, string7, int38, int15, 0, 1, 0, 1);
+                            script10629(int27, int45, IF_GETWIDTH(int27), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                            CC_SETOP(1, "Select");
+                            CC_SETOPBASE(`World ${inttostring(int31, 10)}`);
+                            CC_SETONOP(callback(script3129, -2147483644, int45, int31, string2));
+                            script10629(int28, int45, IF_GETWIDTH(int28), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                            CC_SETONMOUSEOVER(callback(script3130, int17, int28, int45, int31));
+                            CC_SETONMOUSELEAVE(callback(script3132, int17, int45, int31));
+                            CC_SETOP(1, "Alter");
+                            CC_SETOPBASE("Favourite");
+                            CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
+                            CC_SETONCLICK(callback(script10036));
+                            if ((int31 == MAP_WORLD())) {
+                                IF_SETHIDE(false, comp(910, 65));
+                                IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                            };
+                            if ((int31 == script20335(1))) {
+                                int42 = int45;
+                            };
+                            if ((int31 == script20335(2))) {
+                                int43 = int45;
+                            };
+                            if ((int31 == script20335(3))) {
+                                int44 = int45;
+                            };
+                            [int31, int32, string0, int33, string1, int34, int35, string2] = unk11101();
+                            int46 = (int46 + (int1 + int2));
+                            int45 = (int45 + 1);
+                        };
+                    } else {
+                        [int40, string3, string4, int38, int41, int37, int36, string5, string6] = script3117(int31, int32, int45, string0, string1, int34, int33);
+                        if ((script13749() == 1)) {
+                            if ((int38 == 16777215)) {
+                                int39 = 7705248;
+                            } else {
+                                int39 = int38;
+                            };
+                            int38 = 7705248;
+                        } else {
+                            int39 = int38;
+                        };
+                        script20333(int16, int45, int1, int46, int45);
+                        script7924(int17, int45, int9, int9, 0, int46, int36, 0, 0, 0, 0);
+                        CC_SETPOSITION(0, (int46 + int5), 1, 0);
+                        script10629(int18, int45, (IF_GETWIDTH(int18) - 6), int1, 3, int46, inttostring(int31, 10), int38, int15, 0, 1, 0, 1);
+                        script10629(int20, int45, (IF_GETWIDTH(int20) - 6), int1, 3, int46, string6, int38, int15, 0, 1, 0, 1);
+                        script10629(int21, int45, (IF_GETWIDTH(int21) - 6), int1, 3, int46, string4, int38, int15, 0, 1, 0, 1);
+                        script7924(int23, int45, 24, 12, 4, (int46 + int3), int40, 0, 0, 0, 0);
+                        script10629(int22, int45, 30, int1, 30, int46, string3, int38, int15, 0, 1, 0, 1);
+                        CC_SETSIZE(30, int1, 1, 0);
+                        script10629(int24, int45, (IF_GETWIDTH(int24) - 10), int1, 5, int46, string5, int39, int15, 0, 1, 0, 1);
+                        script7924(int25, int45, int10, int10, 0, (int46 + int4), int41, 0, 0, 0, 0);
+                        CC_SETPOSITION(0, (int46 + int4), 1, 0);
+                        if ((int35 == -1)) {
+                            string7 = "-";
+                        } else if ((int35 >= 1000)) {
+                            string7 = "N/A";
+                        } else {
+                            string7 = inttostring(int35, 10);
+                        };
+                        script10629(int26, int45, (IF_GETWIDTH(int26) - 10), int1, 5, int46, string7, int38, int15, 0, 1, 0, 1);
+                        script10629(int27, int45, IF_GETWIDTH(int27), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                        CC_SETOP(1, "Select");
+                        CC_SETOPBASE(`World ${inttostring(int31, 10)}`);
+                        CC_SETONOP(callback(script3129, -2147483644, int45, int31, string2));
+                        script10629(int28, int45, IF_GETWIDTH(int28), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                        CC_SETONMOUSEOVER(callback(script3130, int17, int28, int45, int31));
+                        CC_SETONMOUSELEAVE(callback(script3132, int17, int45, int31));
+                        CC_SETOP(1, "Alter");
+                        CC_SETOPBASE("Favourite");
+                        CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
+                        CC_SETONCLICK(callback(script10036));
+                        if ((int31 == MAP_WORLD())) {
+                            IF_SETHIDE(false, comp(910, 65));
+                            IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                        };
+                        if ((int31 == script20335(1))) {
+                            int42 = int45;
+                        };
+                        if ((int31 == script20335(2))) {
+                            int43 = int45;
+                        };
+                        if ((int31 == script20335(3))) {
+                            int44 = int45;
+                        };
+                        [int31, int32, string0, int33, string1, int34, int35, string2] = unk11101();
+                        int46 = (int46 + (int1 + int2));
+                        int45 = (int45 + 1);
+                    };
+                } else if ((TESTBIT(int32, 30) == 0)) {
+                    if ((int47 == 1)) {
+                        if ((STAFFMODLEVEL() < 2)) {
+                            [int31, int32, string0, int33, string1, int34, int35, string2] = unk11101();
+                        } else {
+                            [int40, string3, string4, int38, int41, int37, int36, string5, string6] = script3117(int31, int32, int45, string0, string1, int34, int33);
+                            if ((script13749() == 1)) {
+                                if ((int38 == 16777215)) {
+                                    int39 = 7705248;
+                                } else {
+                                    int39 = int38;
+                                };
+                                int38 = 7705248;
+                            } else {
+                                int39 = int38;
+                            };
+                            script20333(int16, int45, int1, int46, int45);
+                            script7924(int17, int45, int9, int9, 0, int46, int36, 0, 0, 0, 0);
+                            CC_SETPOSITION(0, (int46 + int5), 1, 0);
+                            script10629(int18, int45, (IF_GETWIDTH(int18) - 6), int1, 3, int46, inttostring(int31, 10), int38, int15, 0, 1, 0, 1);
+                            script10629(int20, int45, (IF_GETWIDTH(int20) - 6), int1, 3, int46, string6, int38, int15, 0, 1, 0, 1);
+                            script10629(int21, int45, (IF_GETWIDTH(int21) - 6), int1, 3, int46, string4, int38, int15, 0, 1, 0, 1);
+                            script7924(int23, int45, 24, 12, 4, (int46 + int3), int40, 0, 0, 0, 0);
+                            script10629(int22, int45, 30, int1, 30, int46, string3, int38, int15, 0, 1, 0, 1);
+                            CC_SETSIZE(30, int1, 1, 0);
+                            script10629(int24, int45, (IF_GETWIDTH(int24) - 10), int1, 5, int46, string5, int39, int15, 0, 1, 0, 1);
+                            script7924(int25, int45, int10, int10, 0, (int46 + int4), int41, 0, 0, 0, 0);
+                            CC_SETPOSITION(0, (int46 + int4), 1, 0);
+                            if ((int35 == -1)) {
+                                string7 = "-";
+                            } else if ((int35 >= 1000)) {
+                                string7 = "N/A";
+                            } else {
+                                string7 = inttostring(int35, 10);
+                            };
+                            script10629(int26, int45, (IF_GETWIDTH(int26) - 10), int1, 5, int46, string7, int38, int15, 0, 1, 0, 1);
+                            script10629(int27, int45, IF_GETWIDTH(int27), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                            CC_SETOP(1, "Select");
+                            CC_SETOPBASE(`World ${inttostring(int31, 10)}`);
+                            CC_SETONOP(callback(script3129, -2147483644, int45, int31, string2));
+                            script10629(int28, int45, IF_GETWIDTH(int28), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                            CC_SETONMOUSEOVER(callback(script3130, int17, int28, int45, int31));
+                            CC_SETONMOUSELEAVE(callback(script3132, int17, int45, int31));
+                            CC_SETOP(1, "Alter");
+                            CC_SETOPBASE("Favourite");
+                            CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
+                            CC_SETONCLICK(callback(script10036));
+                            if ((int31 == MAP_WORLD())) {
+                                IF_SETHIDE(false, comp(910, 65));
+                                IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                            };
+                            if ((int31 == script20335(1))) {
+                                int42 = int45;
+                            };
+                            if ((int31 == script20335(2))) {
+                                int43 = int45;
+                            };
+                            if ((int31 == script20335(3))) {
+                                int44 = int45;
+                            };
+                            [int31, int32, string0, int33, string1, int34, int35, string2] = unk11101();
+                            int46 = (int46 + (int1 + int2));
+                            int45 = (int45 + 1);
+                        };
+                    } else {
+                        [int40, string3, string4, int38, int41, int37, int36, string5, string6] = script3117(int31, int32, int45, string0, string1, int34, int33);
+                        if ((script13749() == 1)) {
+                            if ((int38 == 16777215)) {
+                                int39 = 7705248;
+                            } else {
+                                int39 = int38;
+                            };
+                            int38 = 7705248;
+                        } else {
+                            int39 = int38;
+                        };
+                        script20333(int16, int45, int1, int46, int45);
+                        script7924(int17, int45, int9, int9, 0, int46, int36, 0, 0, 0, 0);
+                        CC_SETPOSITION(0, (int46 + int5), 1, 0);
+                        script10629(int18, int45, (IF_GETWIDTH(int18) - 6), int1, 3, int46, inttostring(int31, 10), int38, int15, 0, 1, 0, 1);
+                        script10629(int20, int45, (IF_GETWIDTH(int20) - 6), int1, 3, int46, string6, int38, int15, 0, 1, 0, 1);
+                        script10629(int21, int45, (IF_GETWIDTH(int21) - 6), int1, 3, int46, string4, int38, int15, 0, 1, 0, 1);
+                        script7924(int23, int45, 24, 12, 4, (int46 + int3), int40, 0, 0, 0, 0);
+                        script10629(int22, int45, 30, int1, 30, int46, string3, int38, int15, 0, 1, 0, 1);
+                        CC_SETSIZE(30, int1, 1, 0);
+                        script10629(int24, int45, (IF_GETWIDTH(int24) - 10), int1, 5, int46, string5, int39, int15, 0, 1, 0, 1);
+                        script7924(int25, int45, int10, int10, 0, (int46 + int4), int41, 0, 0, 0, 0);
+                        CC_SETPOSITION(0, (int46 + int4), 1, 0);
+                        if ((int35 == -1)) {
+                            string7 = "-";
+                        } else if ((int35 >= 1000)) {
+                            string7 = "N/A";
+                        } else {
+                            string7 = inttostring(int35, 10);
+                        };
+                        script10629(int26, int45, (IF_GETWIDTH(int26) - 10), int1, 5, int46, string7, int38, int15, 0, 1, 0, 1);
+                        script10629(int27, int45, IF_GETWIDTH(int27), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                        CC_SETOP(1, "Select");
+                        CC_SETOPBASE(`World ${inttostring(int31, 10)}`);
+                        CC_SETONOP(callback(script3129, -2147483644, int45, int31, string2));
+                        script10629(int28, int45, IF_GETWIDTH(int28), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                        CC_SETONMOUSEOVER(callback(script3130, int17, int28, int45, int31));
+                        CC_SETONMOUSELEAVE(callback(script3132, int17, int45, int31));
+                        CC_SETOP(1, "Alter");
+                        CC_SETOPBASE("Favourite");
+                        CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
+                        CC_SETONCLICK(callback(script10036));
+                        if ((int31 == MAP_WORLD())) {
+                            IF_SETHIDE(false, comp(910, 65));
+                            IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                        };
+                        if ((int31 == script20335(1))) {
+                            int42 = int45;
+                        };
+                        if ((int31 == script20335(2))) {
+                            int43 = int45;
+                        };
+                        if ((int31 == script20335(3))) {
+                            int44 = int45;
+                        };
+                        [int31, int32, string0, int33, string1, int34, int35, string2] = unk11101();
+                        int46 = (int46 + (int1 + int2));
+                        int45 = (int45 + 1);
+                    };
+                } else {
+                    [int40, string3, string4, int38, int41, int37, int36, string5, string6] = script3117(int31, int32, int45, string0, string1, int34, int33);
+                    if ((script13749() == 1)) {
+                        if ((int38 == 16777215)) {
+                            int39 = 7705248;
+                        } else {
+                            int39 = int38;
+                        };
+                        int38 = 7705248;
+                    } else {
+                        int39 = int38;
+                    };
+                    script20333(int16, int45, int1, int46, int45);
+                    script7924(int17, int45, int9, int9, 0, int46, int36, 0, 0, 0, 0);
+                    CC_SETPOSITION(0, (int46 + int5), 1, 0);
+                    script10629(int18, int45, (IF_GETWIDTH(int18) - 6), int1, 3, int46, inttostring(int31, 10), int38, int15, 0, 1, 0, 1);
+                    script10629(int20, int45, (IF_GETWIDTH(int20) - 6), int1, 3, int46, string6, int38, int15, 0, 1, 0, 1);
+                    script10629(int21, int45, (IF_GETWIDTH(int21) - 6), int1, 3, int46, string4, int38, int15, 0, 1, 0, 1);
+                    script7924(int23, int45, 24, 12, 4, (int46 + int3), int40, 0, 0, 0, 0);
+                    script10629(int22, int45, 30, int1, 30, int46, string3, int38, int15, 0, 1, 0, 1);
+                    CC_SETSIZE(30, int1, 1, 0);
+                    script10629(int24, int45, (IF_GETWIDTH(int24) - 10), int1, 5, int46, string5, int39, int15, 0, 1, 0, 1);
+                    script7924(int25, int45, int10, int10, 0, (int46 + int4), int41, 0, 0, 0, 0);
+                    CC_SETPOSITION(0, (int46 + int4), 1, 0);
+                    if ((int35 == -1)) {
+                        string7 = "-";
+                    } else if ((int35 >= 1000)) {
+                        string7 = "N/A";
+                    } else {
+                        string7 = inttostring(int35, 10);
+                    };
+                    script10629(int26, int45, (IF_GETWIDTH(int26) - 10), int1, 5, int46, string7, int38, int15, 0, 1, 0, 1);
+                    script10629(int27, int45, IF_GETWIDTH(int27), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                    CC_SETOP(1, "Select");
+                    CC_SETOPBASE(`World ${inttostring(int31, 10)}`);
+                    CC_SETONOP(callback(script3129, -2147483644, int45, int31, string2));
+                    script10629(int28, int45, IF_GETWIDTH(int28), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                    CC_SETONMOUSEOVER(callback(script3130, int17, int28, int45, int31));
+                    CC_SETONMOUSELEAVE(callback(script3132, int17, int45, int31));
+                    CC_SETOP(1, "Alter");
+                    CC_SETOPBASE("Favourite");
+                    CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
+                    CC_SETONCLICK(callback(script10036));
+                    if ((int31 == MAP_WORLD())) {
+                        IF_SETHIDE(false, comp(910, 65));
+                        IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                    };
+                    if ((int31 == script20335(1))) {
+                        int42 = int45;
+                    };
+                    if ((int31 == script20335(2))) {
+                        int43 = int45;
+                    };
+                    if ((int31 == script20335(3))) {
+                        int44 = int45;
+                    };
+                    [int31, int32, string0, int33, string1, int34, int35, string2] = unk11101();
+                    int46 = (int46 + (int1 + int2));
+                    int45 = (int45 + 1);
+                };
+            } else if ((int31 >= 170)) {
+                if ((int34 < 0)) {
+                    [int31, int32, string0, int33, string1, int34, int35, string2] = unk11101();
+                } else if ((TESTBIT(int32, 12) == 1)) {
+                    [int31, int32, string0, int33, string1, int34, int35, string2] = unk11101();
+                } else if ((TESTBIT(int32, 30) == 1)) {
+                    if ((int47 == 0)) {
+                        if ((STAFFMODLEVEL() < 2)) {
+                            [int31, int32, string0, int33, string1, int34, int35, string2] = unk11101();
+                        } else if ((TESTBIT(int32, 30) == 0)) {
+                            if ((int47 == 1)) {
+                                if ((STAFFMODLEVEL() < 2)) {
+                                    [int31, int32, string0, int33, string1, int34, int35, string2] = unk11101();
+                                } else {
+                                    [int40, string3, string4, int38, int41, int37, int36, string5, string6] = script3117(int31, int32, int45, string0, string1, int34, int33);
+                                    if ((script13749() == 1)) {
+                                        if ((int38 == 16777215)) {
+                                            int39 = 7705248;
+                                        } else {
+                                            int39 = int38;
+                                        };
+                                        int38 = 7705248;
+                                    } else {
+                                        int39 = int38;
+                                    };
+                                    script20333(int16, int45, int1, int46, int45);
+                                    script7924(int17, int45, int9, int9, 0, int46, int36, 0, 0, 0, 0);
+                                    CC_SETPOSITION(0, (int46 + int5), 1, 0);
+                                    script10629(int18, int45, (IF_GETWIDTH(int18) - 6), int1, 3, int46, inttostring(int31, 10), int38, int15, 0, 1, 0, 1);
+                                    script10629(int20, int45, (IF_GETWIDTH(int20) - 6), int1, 3, int46, string6, int38, int15, 0, 1, 0, 1);
+                                    script10629(int21, int45, (IF_GETWIDTH(int21) - 6), int1, 3, int46, string4, int38, int15, 0, 1, 0, 1);
+                                    script7924(int23, int45, 24, 12, 4, (int46 + int3), int40, 0, 0, 0, 0);
+                                    script10629(int22, int45, 30, int1, 30, int46, string3, int38, int15, 0, 1, 0, 1);
+                                    CC_SETSIZE(30, int1, 1, 0);
+                                    script10629(int24, int45, (IF_GETWIDTH(int24) - 10), int1, 5, int46, string5, int39, int15, 0, 1, 0, 1);
+                                    script7924(int25, int45, int10, int10, 0, (int46 + int4), int41, 0, 0, 0, 0);
+                                    CC_SETPOSITION(0, (int46 + int4), 1, 0);
+                                    if ((int35 == -1)) {
+                                        string7 = "-";
+                                    } else if ((int35 >= 1000)) {
+                                        string7 = "N/A";
+                                    } else {
+                                        string7 = inttostring(int35, 10);
+                                    };
+                                    script10629(int26, int45, (IF_GETWIDTH(int26) - 10), int1, 5, int46, string7, int38, int15, 0, 1, 0, 1);
+                                    script10629(int27, int45, IF_GETWIDTH(int27), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                                    CC_SETOP(1, "Select");
+                                    CC_SETOPBASE(`World ${inttostring(int31, 10)}`);
+                                    CC_SETONOP(callback(script3129, -2147483644, int45, int31, string2));
+                                    script10629(int28, int45, IF_GETWIDTH(int28), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                                    CC_SETONMOUSEOVER(callback(script3130, int17, int28, int45, int31));
+                                    CC_SETONMOUSELEAVE(callback(script3132, int17, int45, int31));
+                                    CC_SETOP(1, "Alter");
+                                    CC_SETOPBASE("Favourite");
+                                    CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
+                                    CC_SETONCLICK(callback(script10036));
+                                    if ((int31 == MAP_WORLD())) {
+                                        IF_SETHIDE(false, comp(910, 65));
+                                        IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                                    };
+                                    if ((int31 == script20335(1))) {
+                                        int42 = int45;
+                                    };
+                                    if ((int31 == script20335(2))) {
+                                        int43 = int45;
+                                    };
+                                    if ((int31 == script20335(3))) {
+                                        int44 = int45;
+                                    };
+                                    [int31, int32, string0, int33, string1, int34, int35, string2] = unk11101();
+                                    int46 = (int46 + (int1 + int2));
+                                    int45 = (int45 + 1);
+                                };
+                            } else {
+                                [int40, string3, string4, int38, int41, int37, int36, string5, string6] = script3117(int31, int32, int45, string0, string1, int34, int33);
+                                if ((script13749() == 1)) {
+                                    if ((int38 == 16777215)) {
+                                        int39 = 7705248;
+                                    } else {
+                                        int39 = int38;
+                                    };
+                                    int38 = 7705248;
+                                } else {
+                                    int39 = int38;
+                                };
+                                script20333(int16, int45, int1, int46, int45);
+                                script7924(int17, int45, int9, int9, 0, int46, int36, 0, 0, 0, 0);
+                                CC_SETPOSITION(0, (int46 + int5), 1, 0);
+                                script10629(int18, int45, (IF_GETWIDTH(int18) - 6), int1, 3, int46, inttostring(int31, 10), int38, int15, 0, 1, 0, 1);
+                                script10629(int20, int45, (IF_GETWIDTH(int20) - 6), int1, 3, int46, string6, int38, int15, 0, 1, 0, 1);
+                                script10629(int21, int45, (IF_GETWIDTH(int21) - 6), int1, 3, int46, string4, int38, int15, 0, 1, 0, 1);
+                                script7924(int23, int45, 24, 12, 4, (int46 + int3), int40, 0, 0, 0, 0);
+                                script10629(int22, int45, 30, int1, 30, int46, string3, int38, int15, 0, 1, 0, 1);
+                                CC_SETSIZE(30, int1, 1, 0);
+                                script10629(int24, int45, (IF_GETWIDTH(int24) - 10), int1, 5, int46, string5, int39, int15, 0, 1, 0, 1);
+                                script7924(int25, int45, int10, int10, 0, (int46 + int4), int41, 0, 0, 0, 0);
+                                CC_SETPOSITION(0, (int46 + int4), 1, 0);
+                                if ((int35 == -1)) {
+                                    string7 = "-";
+                                } else if ((int35 >= 1000)) {
+                                    string7 = "N/A";
+                                } else {
+                                    string7 = inttostring(int35, 10);
+                                };
+                                script10629(int26, int45, (IF_GETWIDTH(int26) - 10), int1, 5, int46, string7, int38, int15, 0, 1, 0, 1);
+                                script10629(int27, int45, IF_GETWIDTH(int27), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                                CC_SETOP(1, "Select");
+                                CC_SETOPBASE(`World ${inttostring(int31, 10)}`);
+                                CC_SETONOP(callback(script3129, -2147483644, int45, int31, string2));
+                                script10629(int28, int45, IF_GETWIDTH(int28), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                                CC_SETONMOUSEOVER(callback(script3130, int17, int28, int45, int31));
+                                CC_SETONMOUSELEAVE(callback(script3132, int17, int45, int31));
+                                CC_SETOP(1, "Alter");
+                                CC_SETOPBASE("Favourite");
+                                CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
+                                CC_SETONCLICK(callback(script10036));
+                                if ((int31 == MAP_WORLD())) {
+                                    IF_SETHIDE(false, comp(910, 65));
+                                    IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                                };
+                                if ((int31 == script20335(1))) {
+                                    int42 = int45;
+                                };
+                                if ((int31 == script20335(2))) {
+                                    int43 = int45;
+                                };
+                                if ((int31 == script20335(3))) {
+                                    int44 = int45;
+                                };
+                                [int31, int32, string0, int33, string1, int34, int35, string2] = unk11101();
+                                int46 = (int46 + (int1 + int2));
+                                int45 = (int45 + 1);
+                            };
+                        } else {
+                            [int40, string3, string4, int38, int41, int37, int36, string5, string6] = script3117(int31, int32, int45, string0, string1, int34, int33);
+                            if ((script13749() == 1)) {
+                                if ((int38 == 16777215)) {
+                                    int39 = 7705248;
+                                } else {
+                                    int39 = int38;
+                                };
+                                int38 = 7705248;
+                            } else {
+                                int39 = int38;
+                            };
+                            script20333(int16, int45, int1, int46, int45);
+                            script7924(int17, int45, int9, int9, 0, int46, int36, 0, 0, 0, 0);
+                            CC_SETPOSITION(0, (int46 + int5), 1, 0);
+                            script10629(int18, int45, (IF_GETWIDTH(int18) - 6), int1, 3, int46, inttostring(int31, 10), int38, int15, 0, 1, 0, 1);
+                            script10629(int20, int45, (IF_GETWIDTH(int20) - 6), int1, 3, int46, string6, int38, int15, 0, 1, 0, 1);
+                            script10629(int21, int45, (IF_GETWIDTH(int21) - 6), int1, 3, int46, string4, int38, int15, 0, 1, 0, 1);
+                            script7924(int23, int45, 24, 12, 4, (int46 + int3), int40, 0, 0, 0, 0);
+                            script10629(int22, int45, 30, int1, 30, int46, string3, int38, int15, 0, 1, 0, 1);
+                            CC_SETSIZE(30, int1, 1, 0);
+                            script10629(int24, int45, (IF_GETWIDTH(int24) - 10), int1, 5, int46, string5, int39, int15, 0, 1, 0, 1);
+                            script7924(int25, int45, int10, int10, 0, (int46 + int4), int41, 0, 0, 0, 0);
+                            CC_SETPOSITION(0, (int46 + int4), 1, 0);
+                            if ((int35 == -1)) {
+                                string7 = "-";
+                            } else if ((int35 >= 1000)) {
+                                string7 = "N/A";
+                            } else {
+                                string7 = inttostring(int35, 10);
+                            };
+                            script10629(int26, int45, (IF_GETWIDTH(int26) - 10), int1, 5, int46, string7, int38, int15, 0, 1, 0, 1);
+                            script10629(int27, int45, IF_GETWIDTH(int27), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                            CC_SETOP(1, "Select");
+                            CC_SETOPBASE(`World ${inttostring(int31, 10)}`);
+                            CC_SETONOP(callback(script3129, -2147483644, int45, int31, string2));
+                            script10629(int28, int45, IF_GETWIDTH(int28), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                            CC_SETONMOUSEOVER(callback(script3130, int17, int28, int45, int31));
+                            CC_SETONMOUSELEAVE(callback(script3132, int17, int45, int31));
+                            CC_SETOP(1, "Alter");
+                            CC_SETOPBASE("Favourite");
+                            CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
+                            CC_SETONCLICK(callback(script10036));
+                            if ((int31 == MAP_WORLD())) {
+                                IF_SETHIDE(false, comp(910, 65));
+                                IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                            };
+                            if ((int31 == script20335(1))) {
+                                int42 = int45;
+                            };
+                            if ((int31 == script20335(2))) {
+                                int43 = int45;
+                            };
+                            if ((int31 == script20335(3))) {
+                                int44 = int45;
+                            };
+                            [int31, int32, string0, int33, string1, int34, int35, string2] = unk11101();
+                            int46 = (int46 + (int1 + int2));
+                            int45 = (int45 + 1);
+                        };
+                    } else if ((TESTBIT(int32, 30) == 0)) {
+                        if ((int47 == 1)) {
+                            if ((STAFFMODLEVEL() < 2)) {
+                                [int31, int32, string0, int33, string1, int34, int35, string2] = unk11101();
+                            } else {
+                                [int40, string3, string4, int38, int41, int37, int36, string5, string6] = script3117(int31, int32, int45, string0, string1, int34, int33);
+                                if ((script13749() == 1)) {
+                                    if ((int38 == 16777215)) {
+                                        int39 = 7705248;
+                                    } else {
+                                        int39 = int38;
+                                    };
+                                    int38 = 7705248;
+                                } else {
+                                    int39 = int38;
+                                };
+                                script20333(int16, int45, int1, int46, int45);
+                                script7924(int17, int45, int9, int9, 0, int46, int36, 0, 0, 0, 0);
+                                CC_SETPOSITION(0, (int46 + int5), 1, 0);
+                                script10629(int18, int45, (IF_GETWIDTH(int18) - 6), int1, 3, int46, inttostring(int31, 10), int38, int15, 0, 1, 0, 1);
+                                script10629(int20, int45, (IF_GETWIDTH(int20) - 6), int1, 3, int46, string6, int38, int15, 0, 1, 0, 1);
+                                script10629(int21, int45, (IF_GETWIDTH(int21) - 6), int1, 3, int46, string4, int38, int15, 0, 1, 0, 1);
+                                script7924(int23, int45, 24, 12, 4, (int46 + int3), int40, 0, 0, 0, 0);
+                                script10629(int22, int45, 30, int1, 30, int46, string3, int38, int15, 0, 1, 0, 1);
+                                CC_SETSIZE(30, int1, 1, 0);
+                                script10629(int24, int45, (IF_GETWIDTH(int24) - 10), int1, 5, int46, string5, int39, int15, 0, 1, 0, 1);
+                                script7924(int25, int45, int10, int10, 0, (int46 + int4), int41, 0, 0, 0, 0);
+                                CC_SETPOSITION(0, (int46 + int4), 1, 0);
+                                if ((int35 == -1)) {
+                                    string7 = "-";
+                                } else if ((int35 >= 1000)) {
+                                    string7 = "N/A";
+                                } else {
+                                    string7 = inttostring(int35, 10);
+                                };
+                                script10629(int26, int45, (IF_GETWIDTH(int26) - 10), int1, 5, int46, string7, int38, int15, 0, 1, 0, 1);
+                                script10629(int27, int45, IF_GETWIDTH(int27), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                                CC_SETOP(1, "Select");
+                                CC_SETOPBASE(`World ${inttostring(int31, 10)}`);
+                                CC_SETONOP(callback(script3129, -2147483644, int45, int31, string2));
+                                script10629(int28, int45, IF_GETWIDTH(int28), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                                CC_SETONMOUSEOVER(callback(script3130, int17, int28, int45, int31));
+                                CC_SETONMOUSELEAVE(callback(script3132, int17, int45, int31));
+                                CC_SETOP(1, "Alter");
+                                CC_SETOPBASE("Favourite");
+                                CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
+                                CC_SETONCLICK(callback(script10036));
+                                if ((int31 == MAP_WORLD())) {
+                                    IF_SETHIDE(false, comp(910, 65));
+                                    IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                                };
+                                if ((int31 == script20335(1))) {
+                                    int42 = int45;
+                                };
+                                if ((int31 == script20335(2))) {
+                                    int43 = int45;
+                                };
+                                if ((int31 == script20335(3))) {
+                                    int44 = int45;
+                                };
+                                [int31, int32, string0, int33, string1, int34, int35, string2] = unk11101();
+                                int46 = (int46 + (int1 + int2));
+                                int45 = (int45 + 1);
+                            };
+                        } else {
+                            [int40, string3, string4, int38, int41, int37, int36, string5, string6] = script3117(int31, int32, int45, string0, string1, int34, int33);
+                            if ((script13749() == 1)) {
+                                if ((int38 == 16777215)) {
+                                    int39 = 7705248;
+                                } else {
+                                    int39 = int38;
+                                };
+                                int38 = 7705248;
+                            } else {
+                                int39 = int38;
+                            };
+                            script20333(int16, int45, int1, int46, int45);
+                            script7924(int17, int45, int9, int9, 0, int46, int36, 0, 0, 0, 0);
+                            CC_SETPOSITION(0, (int46 + int5), 1, 0);
+                            script10629(int18, int45, (IF_GETWIDTH(int18) - 6), int1, 3, int46, inttostring(int31, 10), int38, int15, 0, 1, 0, 1);
+                            script10629(int20, int45, (IF_GETWIDTH(int20) - 6), int1, 3, int46, string6, int38, int15, 0, 1, 0, 1);
+                            script10629(int21, int45, (IF_GETWIDTH(int21) - 6), int1, 3, int46, string4, int38, int15, 0, 1, 0, 1);
+                            script7924(int23, int45, 24, 12, 4, (int46 + int3), int40, 0, 0, 0, 0);
+                            script10629(int22, int45, 30, int1, 30, int46, string3, int38, int15, 0, 1, 0, 1);
+                            CC_SETSIZE(30, int1, 1, 0);
+                            script10629(int24, int45, (IF_GETWIDTH(int24) - 10), int1, 5, int46, string5, int39, int15, 0, 1, 0, 1);
+                            script7924(int25, int45, int10, int10, 0, (int46 + int4), int41, 0, 0, 0, 0);
+                            CC_SETPOSITION(0, (int46 + int4), 1, 0);
+                            if ((int35 == -1)) {
+                                string7 = "-";
+                            } else if ((int35 >= 1000)) {
+                                string7 = "N/A";
+                            } else {
+                                string7 = inttostring(int35, 10);
+                            };
+                            script10629(int26, int45, (IF_GETWIDTH(int26) - 10), int1, 5, int46, string7, int38, int15, 0, 1, 0, 1);
+                            script10629(int27, int45, IF_GETWIDTH(int27), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                            CC_SETOP(1, "Select");
+                            CC_SETOPBASE(`World ${inttostring(int31, 10)}`);
+                            CC_SETONOP(callback(script3129, -2147483644, int45, int31, string2));
+                            script10629(int28, int45, IF_GETWIDTH(int28), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                            CC_SETONMOUSEOVER(callback(script3130, int17, int28, int45, int31));
+                            CC_SETONMOUSELEAVE(callback(script3132, int17, int45, int31));
+                            CC_SETOP(1, "Alter");
+                            CC_SETOPBASE("Favourite");
+                            CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
+                            CC_SETONCLICK(callback(script10036));
+                            if ((int31 == MAP_WORLD())) {
+                                IF_SETHIDE(false, comp(910, 65));
+                                IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                            };
+                            if ((int31 == script20335(1))) {
+                                int42 = int45;
+                            };
+                            if ((int31 == script20335(2))) {
+                                int43 = int45;
+                            };
+                            if ((int31 == script20335(3))) {
+                                int44 = int45;
+                            };
+                            [int31, int32, string0, int33, string1, int34, int35, string2] = unk11101();
+                            int46 = (int46 + (int1 + int2));
+                            int45 = (int45 + 1);
+                        };
+                    } else {
+                        [int40, string3, string4, int38, int41, int37, int36, string5, string6] = script3117(int31, int32, int45, string0, string1, int34, int33);
+                        if ((script13749() == 1)) {
+                            if ((int38 == 16777215)) {
+                                int39 = 7705248;
+                            } else {
+                                int39 = int38;
+                            };
+                            int38 = 7705248;
+                        } else {
+                            int39 = int38;
+                        };
+                        script20333(int16, int45, int1, int46, int45);
+                        script7924(int17, int45, int9, int9, 0, int46, int36, 0, 0, 0, 0);
+                        CC_SETPOSITION(0, (int46 + int5), 1, 0);
+                        script10629(int18, int45, (IF_GETWIDTH(int18) - 6), int1, 3, int46, inttostring(int31, 10), int38, int15, 0, 1, 0, 1);
+                        script10629(int20, int45, (IF_GETWIDTH(int20) - 6), int1, 3, int46, string6, int38, int15, 0, 1, 0, 1);
+                        script10629(int21, int45, (IF_GETWIDTH(int21) - 6), int1, 3, int46, string4, int38, int15, 0, 1, 0, 1);
+                        script7924(int23, int45, 24, 12, 4, (int46 + int3), int40, 0, 0, 0, 0);
+                        script10629(int22, int45, 30, int1, 30, int46, string3, int38, int15, 0, 1, 0, 1);
+                        CC_SETSIZE(30, int1, 1, 0);
+                        script10629(int24, int45, (IF_GETWIDTH(int24) - 10), int1, 5, int46, string5, int39, int15, 0, 1, 0, 1);
+                        script7924(int25, int45, int10, int10, 0, (int46 + int4), int41, 0, 0, 0, 0);
+                        CC_SETPOSITION(0, (int46 + int4), 1, 0);
+                        if ((int35 == -1)) {
+                            string7 = "-";
+                        } else if ((int35 >= 1000)) {
+                            string7 = "N/A";
+                        } else {
+                            string7 = inttostring(int35, 10);
+                        };
+                        script10629(int26, int45, (IF_GETWIDTH(int26) - 10), int1, 5, int46, string7, int38, int15, 0, 1, 0, 1);
+                        script10629(int27, int45, IF_GETWIDTH(int27), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                        CC_SETOP(1, "Select");
+                        CC_SETOPBASE(`World ${inttostring(int31, 10)}`);
+                        CC_SETONOP(callback(script3129, -2147483644, int45, int31, string2));
+                        script10629(int28, int45, IF_GETWIDTH(int28), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                        CC_SETONMOUSEOVER(callback(script3130, int17, int28, int45, int31));
+                        CC_SETONMOUSELEAVE(callback(script3132, int17, int45, int31));
+                        CC_SETOP(1, "Alter");
+                        CC_SETOPBASE("Favourite");
+                        CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
+                        CC_SETONCLICK(callback(script10036));
+                        if ((int31 == MAP_WORLD())) {
+                            IF_SETHIDE(false, comp(910, 65));
+                            IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                        };
+                        if ((int31 == script20335(1))) {
+                            int42 = int45;
+                        };
+                        if ((int31 == script20335(2))) {
+                            int43 = int45;
+                        };
+                        if ((int31 == script20335(3))) {
+                            int44 = int45;
+                        };
+                        [int31, int32, string0, int33, string1, int34, int35, string2] = unk11101();
+                        int46 = (int46 + (int1 + int2));
+                        int45 = (int45 + 1);
+                    };
+                } else if ((TESTBIT(int32, 30) == 0)) {
+                    if ((int47 == 1)) {
+                        if ((STAFFMODLEVEL() < 2)) {
+                            [int31, int32, string0, int33, string1, int34, int35, string2] = unk11101();
+                        } else {
+                            [int40, string3, string4, int38, int41, int37, int36, string5, string6] = script3117(int31, int32, int45, string0, string1, int34, int33);
+                            if ((script13749() == 1)) {
+                                if ((int38 == 16777215)) {
+                                    int39 = 7705248;
+                                } else {
+                                    int39 = int38;
+                                };
+                                int38 = 7705248;
+                            } else {
+                                int39 = int38;
+                            };
+                            script20333(int16, int45, int1, int46, int45);
+                            script7924(int17, int45, int9, int9, 0, int46, int36, 0, 0, 0, 0);
+                            CC_SETPOSITION(0, (int46 + int5), 1, 0);
+                            script10629(int18, int45, (IF_GETWIDTH(int18) - 6), int1, 3, int46, inttostring(int31, 10), int38, int15, 0, 1, 0, 1);
+                            script10629(int20, int45, (IF_GETWIDTH(int20) - 6), int1, 3, int46, string6, int38, int15, 0, 1, 0, 1);
+                            script10629(int21, int45, (IF_GETWIDTH(int21) - 6), int1, 3, int46, string4, int38, int15, 0, 1, 0, 1);
+                            script7924(int23, int45, 24, 12, 4, (int46 + int3), int40, 0, 0, 0, 0);
+                            script10629(int22, int45, 30, int1, 30, int46, string3, int38, int15, 0, 1, 0, 1);
+                            CC_SETSIZE(30, int1, 1, 0);
+                            script10629(int24, int45, (IF_GETWIDTH(int24) - 10), int1, 5, int46, string5, int39, int15, 0, 1, 0, 1);
+                            script7924(int25, int45, int10, int10, 0, (int46 + int4), int41, 0, 0, 0, 0);
+                            CC_SETPOSITION(0, (int46 + int4), 1, 0);
+                            if ((int35 == -1)) {
+                                string7 = "-";
+                            } else if ((int35 >= 1000)) {
+                                string7 = "N/A";
+                            } else {
+                                string7 = inttostring(int35, 10);
+                            };
+                            script10629(int26, int45, (IF_GETWIDTH(int26) - 10), int1, 5, int46, string7, int38, int15, 0, 1, 0, 1);
+                            script10629(int27, int45, IF_GETWIDTH(int27), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                            CC_SETOP(1, "Select");
+                            CC_SETOPBASE(`World ${inttostring(int31, 10)}`);
+                            CC_SETONOP(callback(script3129, -2147483644, int45, int31, string2));
+                            script10629(int28, int45, IF_GETWIDTH(int28), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                            CC_SETONMOUSEOVER(callback(script3130, int17, int28, int45, int31));
+                            CC_SETONMOUSELEAVE(callback(script3132, int17, int45, int31));
+                            CC_SETOP(1, "Alter");
+                            CC_SETOPBASE("Favourite");
+                            CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
+                            CC_SETONCLICK(callback(script10036));
+                            if ((int31 == MAP_WORLD())) {
+                                IF_SETHIDE(false, comp(910, 65));
+                                IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                            };
+                            if ((int31 == script20335(1))) {
+                                int42 = int45;
+                            };
+                            if ((int31 == script20335(2))) {
+                                int43 = int45;
+                            };
+                            if ((int31 == script20335(3))) {
+                                int44 = int45;
+                            };
+                            [int31, int32, string0, int33, string1, int34, int35, string2] = unk11101();
+                            int46 = (int46 + (int1 + int2));
+                            int45 = (int45 + 1);
+                        };
+                    } else {
+                        [int40, string3, string4, int38, int41, int37, int36, string5, string6] = script3117(int31, int32, int45, string0, string1, int34, int33);
+                        if ((script13749() == 1)) {
+                            if ((int38 == 16777215)) {
+                                int39 = 7705248;
+                            } else {
+                                int39 = int38;
+                            };
+                            int38 = 7705248;
+                        } else {
+                            int39 = int38;
+                        };
+                        script20333(int16, int45, int1, int46, int45);
+                        script7924(int17, int45, int9, int9, 0, int46, int36, 0, 0, 0, 0);
+                        CC_SETPOSITION(0, (int46 + int5), 1, 0);
+                        script10629(int18, int45, (IF_GETWIDTH(int18) - 6), int1, 3, int46, inttostring(int31, 10), int38, int15, 0, 1, 0, 1);
+                        script10629(int20, int45, (IF_GETWIDTH(int20) - 6), int1, 3, int46, string6, int38, int15, 0, 1, 0, 1);
+                        script10629(int21, int45, (IF_GETWIDTH(int21) - 6), int1, 3, int46, string4, int38, int15, 0, 1, 0, 1);
+                        script7924(int23, int45, 24, 12, 4, (int46 + int3), int40, 0, 0, 0, 0);
+                        script10629(int22, int45, 30, int1, 30, int46, string3, int38, int15, 0, 1, 0, 1);
+                        CC_SETSIZE(30, int1, 1, 0);
+                        script10629(int24, int45, (IF_GETWIDTH(int24) - 10), int1, 5, int46, string5, int39, int15, 0, 1, 0, 1);
+                        script7924(int25, int45, int10, int10, 0, (int46 + int4), int41, 0, 0, 0, 0);
+                        CC_SETPOSITION(0, (int46 + int4), 1, 0);
+                        if ((int35 == -1)) {
+                            string7 = "-";
+                        } else if ((int35 >= 1000)) {
+                            string7 = "N/A";
+                        } else {
+                            string7 = inttostring(int35, 10);
+                        };
+                        script10629(int26, int45, (IF_GETWIDTH(int26) - 10), int1, 5, int46, string7, int38, int15, 0, 1, 0, 1);
+                        script10629(int27, int45, IF_GETWIDTH(int27), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                        CC_SETOP(1, "Select");
+                        CC_SETOPBASE(`World ${inttostring(int31, 10)}`);
+                        CC_SETONOP(callback(script3129, -2147483644, int45, int31, string2));
+                        script10629(int28, int45, IF_GETWIDTH(int28), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                        CC_SETONMOUSEOVER(callback(script3130, int17, int28, int45, int31));
+                        CC_SETONMOUSELEAVE(callback(script3132, int17, int45, int31));
+                        CC_SETOP(1, "Alter");
+                        CC_SETOPBASE("Favourite");
+                        CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
+                        CC_SETONCLICK(callback(script10036));
+                        if ((int31 == MAP_WORLD())) {
+                            IF_SETHIDE(false, comp(910, 65));
+                            IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                        };
+                        if ((int31 == script20335(1))) {
+                            int42 = int45;
+                        };
+                        if ((int31 == script20335(2))) {
+                            int43 = int45;
+                        };
+                        if ((int31 == script20335(3))) {
+                            int44 = int45;
+                        };
+                        [int31, int32, string0, int33, string1, int34, int35, string2] = unk11101();
+                        int46 = (int46 + (int1 + int2));
+                        int45 = (int45 + 1);
+                    };
+                } else {
+                    [int40, string3, string4, int38, int41, int37, int36, string5, string6] = script3117(int31, int32, int45, string0, string1, int34, int33);
+                    if ((script13749() == 1)) {
+                        if ((int38 == 16777215)) {
+                            int39 = 7705248;
+                        } else {
+                            int39 = int38;
+                        };
+                        int38 = 7705248;
+                    } else {
+                        int39 = int38;
+                    };
+                    script20333(int16, int45, int1, int46, int45);
+                    script7924(int17, int45, int9, int9, 0, int46, int36, 0, 0, 0, 0);
+                    CC_SETPOSITION(0, (int46 + int5), 1, 0);
+                    script10629(int18, int45, (IF_GETWIDTH(int18) - 6), int1, 3, int46, inttostring(int31, 10), int38, int15, 0, 1, 0, 1);
+                    script10629(int20, int45, (IF_GETWIDTH(int20) - 6), int1, 3, int46, string6, int38, int15, 0, 1, 0, 1);
+                    script10629(int21, int45, (IF_GETWIDTH(int21) - 6), int1, 3, int46, string4, int38, int15, 0, 1, 0, 1);
+                    script7924(int23, int45, 24, 12, 4, (int46 + int3), int40, 0, 0, 0, 0);
+                    script10629(int22, int45, 30, int1, 30, int46, string3, int38, int15, 0, 1, 0, 1);
+                    CC_SETSIZE(30, int1, 1, 0);
+                    script10629(int24, int45, (IF_GETWIDTH(int24) - 10), int1, 5, int46, string5, int39, int15, 0, 1, 0, 1);
+                    script7924(int25, int45, int10, int10, 0, (int46 + int4), int41, 0, 0, 0, 0);
+                    CC_SETPOSITION(0, (int46 + int4), 1, 0);
+                    if ((int35 == -1)) {
+                        string7 = "-";
+                    } else if ((int35 >= 1000)) {
+                        string7 = "N/A";
+                    } else {
+                        string7 = inttostring(int35, 10);
+                    };
+                    script10629(int26, int45, (IF_GETWIDTH(int26) - 10), int1, 5, int46, string7, int38, int15, 0, 1, 0, 1);
+                    script10629(int27, int45, IF_GETWIDTH(int27), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                    CC_SETOP(1, "Select");
+                    CC_SETOPBASE(`World ${inttostring(int31, 10)}`);
+                    CC_SETONOP(callback(script3129, -2147483644, int45, int31, string2));
+                    script10629(int28, int45, IF_GETWIDTH(int28), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                    CC_SETONMOUSEOVER(callback(script3130, int17, int28, int45, int31));
+                    CC_SETONMOUSELEAVE(callback(script3132, int17, int45, int31));
+                    CC_SETOP(1, "Alter");
+                    CC_SETOPBASE("Favourite");
+                    CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
+                    CC_SETONCLICK(callback(script10036));
+                    if ((int31 == MAP_WORLD())) {
+                        IF_SETHIDE(false, comp(910, 65));
+                        IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                    };
+                    if ((int31 == script20335(1))) {
+                        int42 = int45;
+                    };
+                    if ((int31 == script20335(2))) {
+                        int43 = int45;
+                    };
+                    if ((int31 == script20335(3))) {
+                        int44 = int45;
+                    };
+                    [int31, int32, string0, int33, string1, int34, int35, string2] = unk11101();
+                    int46 = (int46 + (int1 + int2));
+                    int45 = (int45 + 1);
+                };
+            } else if ((TESTBIT(int32, 12) == 1)) {
+                [int31, int32, string0, int33, string1, int34, int35, string2] = unk11101();
+            } else if ((TESTBIT(int32, 30) == 1)) {
+                if ((int47 == 0)) {
+                    if ((STAFFMODLEVEL() < 2)) {
+                        [int31, int32, string0, int33, string1, int34, int35, string2] = unk11101();
+                    } else if ((TESTBIT(int32, 30) == 0)) {
+                        if ((int47 == 1)) {
+                            if ((STAFFMODLEVEL() < 2)) {
+                                [int31, int32, string0, int33, string1, int34, int35, string2] = unk11101();
+                            } else {
+                                [int40, string3, string4, int38, int41, int37, int36, string5, string6] = script3117(int31, int32, int45, string0, string1, int34, int33);
+                                if ((script13749() == 1)) {
+                                    if ((int38 == 16777215)) {
+                                        int39 = 7705248;
+                                    } else {
+                                        int39 = int38;
+                                    };
+                                    int38 = 7705248;
+                                } else {
+                                    int39 = int38;
+                                };
+                                script20333(int16, int45, int1, int46, int45);
+                                script7924(int17, int45, int9, int9, 0, int46, int36, 0, 0, 0, 0);
+                                CC_SETPOSITION(0, (int46 + int5), 1, 0);
+                                script10629(int18, int45, (IF_GETWIDTH(int18) - 6), int1, 3, int46, inttostring(int31, 10), int38, int15, 0, 1, 0, 1);
+                                script10629(int20, int45, (IF_GETWIDTH(int20) - 6), int1, 3, int46, string6, int38, int15, 0, 1, 0, 1);
+                                script10629(int21, int45, (IF_GETWIDTH(int21) - 6), int1, 3, int46, string4, int38, int15, 0, 1, 0, 1);
+                                script7924(int23, int45, 24, 12, 4, (int46 + int3), int40, 0, 0, 0, 0);
+                                script10629(int22, int45, 30, int1, 30, int46, string3, int38, int15, 0, 1, 0, 1);
+                                CC_SETSIZE(30, int1, 1, 0);
+                                script10629(int24, int45, (IF_GETWIDTH(int24) - 10), int1, 5, int46, string5, int39, int15, 0, 1, 0, 1);
+                                script7924(int25, int45, int10, int10, 0, (int46 + int4), int41, 0, 0, 0, 0);
+                                CC_SETPOSITION(0, (int46 + int4), 1, 0);
+                                if ((int35 == -1)) {
+                                    string7 = "-";
+                                } else if ((int35 >= 1000)) {
+                                    string7 = "N/A";
+                                } else {
+                                    string7 = inttostring(int35, 10);
+                                };
+                                script10629(int26, int45, (IF_GETWIDTH(int26) - 10), int1, 5, int46, string7, int38, int15, 0, 1, 0, 1);
+                                script10629(int27, int45, IF_GETWIDTH(int27), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                                CC_SETOP(1, "Select");
+                                CC_SETOPBASE(`World ${inttostring(int31, 10)}`);
+                                CC_SETONOP(callback(script3129, -2147483644, int45, int31, string2));
+                                script10629(int28, int45, IF_GETWIDTH(int28), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                                CC_SETONMOUSEOVER(callback(script3130, int17, int28, int45, int31));
+                                CC_SETONMOUSELEAVE(callback(script3132, int17, int45, int31));
+                                CC_SETOP(1, "Alter");
+                                CC_SETOPBASE("Favourite");
+                                CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
+                                CC_SETONCLICK(callback(script10036));
+                                if ((int31 == MAP_WORLD())) {
+                                    IF_SETHIDE(false, comp(910, 65));
+                                    IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                                };
+                                if ((int31 == script20335(1))) {
+                                    int42 = int45;
+                                };
+                                if ((int31 == script20335(2))) {
+                                    int43 = int45;
+                                };
+                                if ((int31 == script20335(3))) {
+                                    int44 = int45;
+                                };
+                                [int31, int32, string0, int33, string1, int34, int35, string2] = unk11101();
+                                int46 = (int46 + (int1 + int2));
+                                int45 = (int45 + 1);
+                            };
+                        } else {
+                            [int40, string3, string4, int38, int41, int37, int36, string5, string6] = script3117(int31, int32, int45, string0, string1, int34, int33);
+                            if ((script13749() == 1)) {
+                                if ((int38 == 16777215)) {
+                                    int39 = 7705248;
+                                } else {
+                                    int39 = int38;
+                                };
+                                int38 = 7705248;
+                            } else {
+                                int39 = int38;
+                            };
+                            script20333(int16, int45, int1, int46, int45);
+                            script7924(int17, int45, int9, int9, 0, int46, int36, 0, 0, 0, 0);
+                            CC_SETPOSITION(0, (int46 + int5), 1, 0);
+                            script10629(int18, int45, (IF_GETWIDTH(int18) - 6), int1, 3, int46, inttostring(int31, 10), int38, int15, 0, 1, 0, 1);
+                            script10629(int20, int45, (IF_GETWIDTH(int20) - 6), int1, 3, int46, string6, int38, int15, 0, 1, 0, 1);
+                            script10629(int21, int45, (IF_GETWIDTH(int21) - 6), int1, 3, int46, string4, int38, int15, 0, 1, 0, 1);
+                            script7924(int23, int45, 24, 12, 4, (int46 + int3), int40, 0, 0, 0, 0);
+                            script10629(int22, int45, 30, int1, 30, int46, string3, int38, int15, 0, 1, 0, 1);
+                            CC_SETSIZE(30, int1, 1, 0);
+                            script10629(int24, int45, (IF_GETWIDTH(int24) - 10), int1, 5, int46, string5, int39, int15, 0, 1, 0, 1);
+                            script7924(int25, int45, int10, int10, 0, (int46 + int4), int41, 0, 0, 0, 0);
+                            CC_SETPOSITION(0, (int46 + int4), 1, 0);
+                            if ((int35 == -1)) {
+                                string7 = "-";
+                            } else if ((int35 >= 1000)) {
+                                string7 = "N/A";
+                            } else {
+                                string7 = inttostring(int35, 10);
+                            };
+                            script10629(int26, int45, (IF_GETWIDTH(int26) - 10), int1, 5, int46, string7, int38, int15, 0, 1, 0, 1);
+                            script10629(int27, int45, IF_GETWIDTH(int27), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                            CC_SETOP(1, "Select");
+                            CC_SETOPBASE(`World ${inttostring(int31, 10)}`);
+                            CC_SETONOP(callback(script3129, -2147483644, int45, int31, string2));
+                            script10629(int28, int45, IF_GETWIDTH(int28), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                            CC_SETONMOUSEOVER(callback(script3130, int17, int28, int45, int31));
+                            CC_SETONMOUSELEAVE(callback(script3132, int17, int45, int31));
+                            CC_SETOP(1, "Alter");
+                            CC_SETOPBASE("Favourite");
+                            CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
+                            CC_SETONCLICK(callback(script10036));
+                            if ((int31 == MAP_WORLD())) {
+                                IF_SETHIDE(false, comp(910, 65));
+                                IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                            };
+                            if ((int31 == script20335(1))) {
+                                int42 = int45;
+                            };
+                            if ((int31 == script20335(2))) {
+                                int43 = int45;
+                            };
+                            if ((int31 == script20335(3))) {
+                                int44 = int45;
+                            };
+                            [int31, int32, string0, int33, string1, int34, int35, string2] = unk11101();
+                            int46 = (int46 + (int1 + int2));
+                            int45 = (int45 + 1);
+                        };
+                    } else {
+                        [int40, string3, string4, int38, int41, int37, int36, string5, string6] = script3117(int31, int32, int45, string0, string1, int34, int33);
+                        if ((script13749() == 1)) {
+                            if ((int38 == 16777215)) {
+                                int39 = 7705248;
+                            } else {
+                                int39 = int38;
+                            };
+                            int38 = 7705248;
+                        } else {
+                            int39 = int38;
+                        };
+                        script20333(int16, int45, int1, int46, int45);
+                        script7924(int17, int45, int9, int9, 0, int46, int36, 0, 0, 0, 0);
+                        CC_SETPOSITION(0, (int46 + int5), 1, 0);
+                        script10629(int18, int45, (IF_GETWIDTH(int18) - 6), int1, 3, int46, inttostring(int31, 10), int38, int15, 0, 1, 0, 1);
+                        script10629(int20, int45, (IF_GETWIDTH(int20) - 6), int1, 3, int46, string6, int38, int15, 0, 1, 0, 1);
+                        script10629(int21, int45, (IF_GETWIDTH(int21) - 6), int1, 3, int46, string4, int38, int15, 0, 1, 0, 1);
+                        script7924(int23, int45, 24, 12, 4, (int46 + int3), int40, 0, 0, 0, 0);
+                        script10629(int22, int45, 30, int1, 30, int46, string3, int38, int15, 0, 1, 0, 1);
+                        CC_SETSIZE(30, int1, 1, 0);
+                        script10629(int24, int45, (IF_GETWIDTH(int24) - 10), int1, 5, int46, string5, int39, int15, 0, 1, 0, 1);
+                        script7924(int25, int45, int10, int10, 0, (int46 + int4), int41, 0, 0, 0, 0);
+                        CC_SETPOSITION(0, (int46 + int4), 1, 0);
+                        if ((int35 == -1)) {
+                            string7 = "-";
+                        } else if ((int35 >= 1000)) {
+                            string7 = "N/A";
+                        } else {
+                            string7 = inttostring(int35, 10);
+                        };
+                        script10629(int26, int45, (IF_GETWIDTH(int26) - 10), int1, 5, int46, string7, int38, int15, 0, 1, 0, 1);
+                        script10629(int27, int45, IF_GETWIDTH(int27), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                        CC_SETOP(1, "Select");
+                        CC_SETOPBASE(`World ${inttostring(int31, 10)}`);
+                        CC_SETONOP(callback(script3129, -2147483644, int45, int31, string2));
+                        script10629(int28, int45, IF_GETWIDTH(int28), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                        CC_SETONMOUSEOVER(callback(script3130, int17, int28, int45, int31));
+                        CC_SETONMOUSELEAVE(callback(script3132, int17, int45, int31));
+                        CC_SETOP(1, "Alter");
+                        CC_SETOPBASE("Favourite");
+                        CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
+                        CC_SETONCLICK(callback(script10036));
+                        if ((int31 == MAP_WORLD())) {
+                            IF_SETHIDE(false, comp(910, 65));
+                            IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                        };
+                        if ((int31 == script20335(1))) {
+                            int42 = int45;
+                        };
+                        if ((int31 == script20335(2))) {
+                            int43 = int45;
+                        };
+                        if ((int31 == script20335(3))) {
+                            int44 = int45;
+                        };
+                        [int31, int32, string0, int33, string1, int34, int35, string2] = unk11101();
+                        int46 = (int46 + (int1 + int2));
+                        int45 = (int45 + 1);
+                    };
+                } else if ((TESTBIT(int32, 30) == 0)) {
+                    if ((int47 == 1)) {
+                        if ((STAFFMODLEVEL() < 2)) {
+                            [int31, int32, string0, int33, string1, int34, int35, string2] = unk11101();
+                        } else {
+                            [int40, string3, string4, int38, int41, int37, int36, string5, string6] = script3117(int31, int32, int45, string0, string1, int34, int33);
+                            if ((script13749() == 1)) {
+                                if ((int38 == 16777215)) {
+                                    int39 = 7705248;
+                                } else {
+                                    int39 = int38;
+                                };
+                                int38 = 7705248;
+                            } else {
+                                int39 = int38;
+                            };
+                            script20333(int16, int45, int1, int46, int45);
+                            script7924(int17, int45, int9, int9, 0, int46, int36, 0, 0, 0, 0);
+                            CC_SETPOSITION(0, (int46 + int5), 1, 0);
+                            script10629(int18, int45, (IF_GETWIDTH(int18) - 6), int1, 3, int46, inttostring(int31, 10), int38, int15, 0, 1, 0, 1);
+                            script10629(int20, int45, (IF_GETWIDTH(int20) - 6), int1, 3, int46, string6, int38, int15, 0, 1, 0, 1);
+                            script10629(int21, int45, (IF_GETWIDTH(int21) - 6), int1, 3, int46, string4, int38, int15, 0, 1, 0, 1);
+                            script7924(int23, int45, 24, 12, 4, (int46 + int3), int40, 0, 0, 0, 0);
+                            script10629(int22, int45, 30, int1, 30, int46, string3, int38, int15, 0, 1, 0, 1);
+                            CC_SETSIZE(30, int1, 1, 0);
+                            script10629(int24, int45, (IF_GETWIDTH(int24) - 10), int1, 5, int46, string5, int39, int15, 0, 1, 0, 1);
+                            script7924(int25, int45, int10, int10, 0, (int46 + int4), int41, 0, 0, 0, 0);
+                            CC_SETPOSITION(0, (int46 + int4), 1, 0);
+                            if ((int35 == -1)) {
+                                string7 = "-";
+                            } else if ((int35 >= 1000)) {
+                                string7 = "N/A";
+                            } else {
+                                string7 = inttostring(int35, 10);
+                            };
+                            script10629(int26, int45, (IF_GETWIDTH(int26) - 10), int1, 5, int46, string7, int38, int15, 0, 1, 0, 1);
+                            script10629(int27, int45, IF_GETWIDTH(int27), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                            CC_SETOP(1, "Select");
+                            CC_SETOPBASE(`World ${inttostring(int31, 10)}`);
+                            CC_SETONOP(callback(script3129, -2147483644, int45, int31, string2));
+                            script10629(int28, int45, IF_GETWIDTH(int28), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                            CC_SETONMOUSEOVER(callback(script3130, int17, int28, int45, int31));
+                            CC_SETONMOUSELEAVE(callback(script3132, int17, int45, int31));
+                            CC_SETOP(1, "Alter");
+                            CC_SETOPBASE("Favourite");
+                            CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
+                            CC_SETONCLICK(callback(script10036));
+                            if ((int31 == MAP_WORLD())) {
+                                IF_SETHIDE(false, comp(910, 65));
+                                IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                            };
+                            if ((int31 == script20335(1))) {
+                                int42 = int45;
+                            };
+                            if ((int31 == script20335(2))) {
+                                int43 = int45;
+                            };
+                            if ((int31 == script20335(3))) {
+                                int44 = int45;
+                            };
+                            [int31, int32, string0, int33, string1, int34, int35, string2] = unk11101();
+                            int46 = (int46 + (int1 + int2));
+                            int45 = (int45 + 1);
+                        };
+                    } else {
+                        [int40, string3, string4, int38, int41, int37, int36, string5, string6] = script3117(int31, int32, int45, string0, string1, int34, int33);
+                        if ((script13749() == 1)) {
+                            if ((int38 == 16777215)) {
+                                int39 = 7705248;
+                            } else {
+                                int39 = int38;
+                            };
+                            int38 = 7705248;
+                        } else {
+                            int39 = int38;
+                        };
+                        script20333(int16, int45, int1, int46, int45);
+                        script7924(int17, int45, int9, int9, 0, int46, int36, 0, 0, 0, 0);
+                        CC_SETPOSITION(0, (int46 + int5), 1, 0);
+                        script10629(int18, int45, (IF_GETWIDTH(int18) - 6), int1, 3, int46, inttostring(int31, 10), int38, int15, 0, 1, 0, 1);
+                        script10629(int20, int45, (IF_GETWIDTH(int20) - 6), int1, 3, int46, string6, int38, int15, 0, 1, 0, 1);
+                        script10629(int21, int45, (IF_GETWIDTH(int21) - 6), int1, 3, int46, string4, int38, int15, 0, 1, 0, 1);
+                        script7924(int23, int45, 24, 12, 4, (int46 + int3), int40, 0, 0, 0, 0);
+                        script10629(int22, int45, 30, int1, 30, int46, string3, int38, int15, 0, 1, 0, 1);
+                        CC_SETSIZE(30, int1, 1, 0);
+                        script10629(int24, int45, (IF_GETWIDTH(int24) - 10), int1, 5, int46, string5, int39, int15, 0, 1, 0, 1);
+                        script7924(int25, int45, int10, int10, 0, (int46 + int4), int41, 0, 0, 0, 0);
+                        CC_SETPOSITION(0, (int46 + int4), 1, 0);
+                        if ((int35 == -1)) {
+                            string7 = "-";
+                        } else if ((int35 >= 1000)) {
+                            string7 = "N/A";
+                        } else {
+                            string7 = inttostring(int35, 10);
+                        };
+                        script10629(int26, int45, (IF_GETWIDTH(int26) - 10), int1, 5, int46, string7, int38, int15, 0, 1, 0, 1);
+                        script10629(int27, int45, IF_GETWIDTH(int27), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                        CC_SETOP(1, "Select");
+                        CC_SETOPBASE(`World ${inttostring(int31, 10)}`);
+                        CC_SETONOP(callback(script3129, -2147483644, int45, int31, string2));
+                        script10629(int28, int45, IF_GETWIDTH(int28), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                        CC_SETONMOUSEOVER(callback(script3130, int17, int28, int45, int31));
+                        CC_SETONMOUSELEAVE(callback(script3132, int17, int45, int31));
+                        CC_SETOP(1, "Alter");
+                        CC_SETOPBASE("Favourite");
+                        CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
+                        CC_SETONCLICK(callback(script10036));
+                        if ((int31 == MAP_WORLD())) {
+                            IF_SETHIDE(false, comp(910, 65));
+                            IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                        };
+                        if ((int31 == script20335(1))) {
+                            int42 = int45;
+                        };
+                        if ((int31 == script20335(2))) {
+                            int43 = int45;
+                        };
+                        if ((int31 == script20335(3))) {
+                            int44 = int45;
+                        };
+                        [int31, int32, string0, int33, string1, int34, int35, string2] = unk11101();
+                        int46 = (int46 + (int1 + int2));
+                        int45 = (int45 + 1);
+                    };
+                } else {
+                    [int40, string3, string4, int38, int41, int37, int36, string5, string6] = script3117(int31, int32, int45, string0, string1, int34, int33);
+                    if ((script13749() == 1)) {
+                        if ((int38 == 16777215)) {
+                            int39 = 7705248;
+                        } else {
+                            int39 = int38;
+                        };
+                        int38 = 7705248;
+                    } else {
+                        int39 = int38;
+                    };
+                    script20333(int16, int45, int1, int46, int45);
+                    script7924(int17, int45, int9, int9, 0, int46, int36, 0, 0, 0, 0);
+                    CC_SETPOSITION(0, (int46 + int5), 1, 0);
+                    script10629(int18, int45, (IF_GETWIDTH(int18) - 6), int1, 3, int46, inttostring(int31, 10), int38, int15, 0, 1, 0, 1);
+                    script10629(int20, int45, (IF_GETWIDTH(int20) - 6), int1, 3, int46, string6, int38, int15, 0, 1, 0, 1);
+                    script10629(int21, int45, (IF_GETWIDTH(int21) - 6), int1, 3, int46, string4, int38, int15, 0, 1, 0, 1);
+                    script7924(int23, int45, 24, 12, 4, (int46 + int3), int40, 0, 0, 0, 0);
+                    script10629(int22, int45, 30, int1, 30, int46, string3, int38, int15, 0, 1, 0, 1);
+                    CC_SETSIZE(30, int1, 1, 0);
+                    script10629(int24, int45, (IF_GETWIDTH(int24) - 10), int1, 5, int46, string5, int39, int15, 0, 1, 0, 1);
+                    script7924(int25, int45, int10, int10, 0, (int46 + int4), int41, 0, 0, 0, 0);
+                    CC_SETPOSITION(0, (int46 + int4), 1, 0);
+                    if ((int35 == -1)) {
+                        string7 = "-";
+                    } else if ((int35 >= 1000)) {
+                        string7 = "N/A";
+                    } else {
+                        string7 = inttostring(int35, 10);
+                    };
+                    script10629(int26, int45, (IF_GETWIDTH(int26) - 10), int1, 5, int46, string7, int38, int15, 0, 1, 0, 1);
+                    script10629(int27, int45, IF_GETWIDTH(int27), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                    CC_SETOP(1, "Select");
+                    CC_SETOPBASE(`World ${inttostring(int31, 10)}`);
+                    CC_SETONOP(callback(script3129, -2147483644, int45, int31, string2));
+                    script10629(int28, int45, IF_GETWIDTH(int28), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                    CC_SETONMOUSEOVER(callback(script3130, int17, int28, int45, int31));
+                    CC_SETONMOUSELEAVE(callback(script3132, int17, int45, int31));
+                    CC_SETOP(1, "Alter");
+                    CC_SETOPBASE("Favourite");
+                    CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
+                    CC_SETONCLICK(callback(script10036));
+                    if ((int31 == MAP_WORLD())) {
+                        IF_SETHIDE(false, comp(910, 65));
+                        IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                    };
+                    if ((int31 == script20335(1))) {
+                        int42 = int45;
+                    };
+                    if ((int31 == script20335(2))) {
+                        int43 = int45;
+                    };
+                    if ((int31 == script20335(3))) {
+                        int44 = int45;
+                    };
+                    [int31, int32, string0, int33, string1, int34, int35, string2] = unk11101();
+                    int46 = (int46 + (int1 + int2));
+                    int45 = (int45 + 1);
+                };
+            } else if ((TESTBIT(int32, 30) == 0)) {
+                if ((int47 == 1)) {
+                    if ((STAFFMODLEVEL() < 2)) {
+                        [int31, int32, string0, int33, string1, int34, int35, string2] = unk11101();
+                    } else {
+                        [int40, string3, string4, int38, int41, int37, int36, string5, string6] = script3117(int31, int32, int45, string0, string1, int34, int33);
+                        if ((script13749() == 1)) {
+                            if ((int38 == 16777215)) {
+                                int39 = 7705248;
+                            } else {
+                                int39 = int38;
+                            };
+                            int38 = 7705248;
+                        } else {
+                            int39 = int38;
+                        };
+                        script20333(int16, int45, int1, int46, int45);
+                        script7924(int17, int45, int9, int9, 0, int46, int36, 0, 0, 0, 0);
+                        CC_SETPOSITION(0, (int46 + int5), 1, 0);
+                        script10629(int18, int45, (IF_GETWIDTH(int18) - 6), int1, 3, int46, inttostring(int31, 10), int38, int15, 0, 1, 0, 1);
+                        script10629(int20, int45, (IF_GETWIDTH(int20) - 6), int1, 3, int46, string6, int38, int15, 0, 1, 0, 1);
+                        script10629(int21, int45, (IF_GETWIDTH(int21) - 6), int1, 3, int46, string4, int38, int15, 0, 1, 0, 1);
+                        script7924(int23, int45, 24, 12, 4, (int46 + int3), int40, 0, 0, 0, 0);
+                        script10629(int22, int45, 30, int1, 30, int46, string3, int38, int15, 0, 1, 0, 1);
+                        CC_SETSIZE(30, int1, 1, 0);
+                        script10629(int24, int45, (IF_GETWIDTH(int24) - 10), int1, 5, int46, string5, int39, int15, 0, 1, 0, 1);
+                        script7924(int25, int45, int10, int10, 0, (int46 + int4), int41, 0, 0, 0, 0);
+                        CC_SETPOSITION(0, (int46 + int4), 1, 0);
+                        if ((int35 == -1)) {
+                            string7 = "-";
+                        } else if ((int35 >= 1000)) {
+                            string7 = "N/A";
+                        } else {
+                            string7 = inttostring(int35, 10);
+                        };
+                        script10629(int26, int45, (IF_GETWIDTH(int26) - 10), int1, 5, int46, string7, int38, int15, 0, 1, 0, 1);
+                        script10629(int27, int45, IF_GETWIDTH(int27), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                        CC_SETOP(1, "Select");
+                        CC_SETOPBASE(`World ${inttostring(int31, 10)}`);
+                        CC_SETONOP(callback(script3129, -2147483644, int45, int31, string2));
+                        script10629(int28, int45, IF_GETWIDTH(int28), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                        CC_SETONMOUSEOVER(callback(script3130, int17, int28, int45, int31));
+                        CC_SETONMOUSELEAVE(callback(script3132, int17, int45, int31));
+                        CC_SETOP(1, "Alter");
+                        CC_SETOPBASE("Favourite");
+                        CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
+                        CC_SETONCLICK(callback(script10036));
+                        if ((int31 == MAP_WORLD())) {
+                            IF_SETHIDE(false, comp(910, 65));
+                            IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                        };
+                        if ((int31 == script20335(1))) {
+                            int42 = int45;
+                        };
+                        if ((int31 == script20335(2))) {
+                            int43 = int45;
+                        };
+                        if ((int31 == script20335(3))) {
+                            int44 = int45;
+                        };
+                        [int31, int32, string0, int33, string1, int34, int35, string2] = unk11101();
+                        int46 = (int46 + (int1 + int2));
+                        int45 = (int45 + 1);
+                    };
+                } else {
+                    [int40, string3, string4, int38, int41, int37, int36, string5, string6] = script3117(int31, int32, int45, string0, string1, int34, int33);
+                    if ((script13749() == 1)) {
+                        if ((int38 == 16777215)) {
+                            int39 = 7705248;
+                        } else {
+                            int39 = int38;
+                        };
+                        int38 = 7705248;
+                    } else {
+                        int39 = int38;
+                    };
+                    script20333(int16, int45, int1, int46, int45);
+                    script7924(int17, int45, int9, int9, 0, int46, int36, 0, 0, 0, 0);
+                    CC_SETPOSITION(0, (int46 + int5), 1, 0);
+                    script10629(int18, int45, (IF_GETWIDTH(int18) - 6), int1, 3, int46, inttostring(int31, 10), int38, int15, 0, 1, 0, 1);
+                    script10629(int20, int45, (IF_GETWIDTH(int20) - 6), int1, 3, int46, string6, int38, int15, 0, 1, 0, 1);
+                    script10629(int21, int45, (IF_GETWIDTH(int21) - 6), int1, 3, int46, string4, int38, int15, 0, 1, 0, 1);
+                    script7924(int23, int45, 24, 12, 4, (int46 + int3), int40, 0, 0, 0, 0);
+                    script10629(int22, int45, 30, int1, 30, int46, string3, int38, int15, 0, 1, 0, 1);
+                    CC_SETSIZE(30, int1, 1, 0);
+                    script10629(int24, int45, (IF_GETWIDTH(int24) - 10), int1, 5, int46, string5, int39, int15, 0, 1, 0, 1);
+                    script7924(int25, int45, int10, int10, 0, (int46 + int4), int41, 0, 0, 0, 0);
+                    CC_SETPOSITION(0, (int46 + int4), 1, 0);
+                    if ((int35 == -1)) {
+                        string7 = "-";
+                    } else if ((int35 >= 1000)) {
+                        string7 = "N/A";
+                    } else {
+                        string7 = inttostring(int35, 10);
+                    };
+                    script10629(int26, int45, (IF_GETWIDTH(int26) - 10), int1, 5, int46, string7, int38, int15, 0, 1, 0, 1);
+                    script10629(int27, int45, IF_GETWIDTH(int27), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                    CC_SETOP(1, "Select");
+                    CC_SETOPBASE(`World ${inttostring(int31, 10)}`);
+                    CC_SETONOP(callback(script3129, -2147483644, int45, int31, string2));
+                    script10629(int28, int45, IF_GETWIDTH(int28), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                    CC_SETONMOUSEOVER(callback(script3130, int17, int28, int45, int31));
+                    CC_SETONMOUSELEAVE(callback(script3132, int17, int45, int31));
+                    CC_SETOP(1, "Alter");
+                    CC_SETOPBASE("Favourite");
+                    CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
+                    CC_SETONCLICK(callback(script10036));
+                    if ((int31 == MAP_WORLD())) {
+                        IF_SETHIDE(false, comp(910, 65));
+                        IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                    };
+                    if ((int31 == script20335(1))) {
+                        int42 = int45;
+                    };
+                    if ((int31 == script20335(2))) {
+                        int43 = int45;
+                    };
+                    if ((int31 == script20335(3))) {
+                        int44 = int45;
+                    };
+                    [int31, int32, string0, int33, string1, int34, int35, string2] = unk11101();
+                    int46 = (int46 + (int1 + int2));
+                    int45 = (int45 + 1);
+                };
+            } else {
+                [int40, string3, string4, int38, int41, int37, int36, string5, string6] = script3117(int31, int32, int45, string0, string1, int34, int33);
+                if ((script13749() == 1)) {
+                    if ((int38 == 16777215)) {
+                        int39 = 7705248;
+                    } else {
+                        int39 = int38;
+                    };
+                    int38 = 7705248;
+                } else {
+                    int39 = int38;
+                };
+                script20333(int16, int45, int1, int46, int45);
+                script7924(int17, int45, int9, int9, 0, int46, int36, 0, 0, 0, 0);
+                CC_SETPOSITION(0, (int46 + int5), 1, 0);
+                script10629(int18, int45, (IF_GETWIDTH(int18) - 6), int1, 3, int46, inttostring(int31, 10), int38, int15, 0, 1, 0, 1);
+                script10629(int20, int45, (IF_GETWIDTH(int20) - 6), int1, 3, int46, string6, int38, int15, 0, 1, 0, 1);
+                script10629(int21, int45, (IF_GETWIDTH(int21) - 6), int1, 3, int46, string4, int38, int15, 0, 1, 0, 1);
+                script7924(int23, int45, 24, 12, 4, (int46 + int3), int40, 0, 0, 0, 0);
+                script10629(int22, int45, 30, int1, 30, int46, string3, int38, int15, 0, 1, 0, 1);
+                CC_SETSIZE(30, int1, 1, 0);
+                script10629(int24, int45, (IF_GETWIDTH(int24) - 10), int1, 5, int46, string5, int39, int15, 0, 1, 0, 1);
+                script7924(int25, int45, int10, int10, 0, (int46 + int4), int41, 0, 0, 0, 0);
+                CC_SETPOSITION(0, (int46 + int4), 1, 0);
+                if ((int35 == -1)) {
+                    string7 = "-";
+                } else if ((int35 >= 1000)) {
+                    string7 = "N/A";
+                } else {
+                    string7 = inttostring(int35, 10);
+                };
+                script10629(int26, int45, (IF_GETWIDTH(int26) - 10), int1, 5, int46, string7, int38, int15, 0, 1, 0, 1);
+                script10629(int27, int45, IF_GETWIDTH(int27), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                CC_SETOP(1, "Select");
+                CC_SETOPBASE(`World ${inttostring(int31, 10)}`);
+                CC_SETONOP(callback(script3129, -2147483644, int45, int31, string2));
+                script10629(int28, int45, IF_GETWIDTH(int28), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                CC_SETONMOUSEOVER(callback(script3130, int17, int28, int45, int31));
+                CC_SETONMOUSELEAVE(callback(script3132, int17, int45, int31));
+                CC_SETOP(1, "Alter");
+                CC_SETOPBASE("Favourite");
+                CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
+                CC_SETONCLICK(callback(script10036));
+                if ((int31 == MAP_WORLD())) {
+                    IF_SETHIDE(false, comp(910, 65));
+                    IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                };
+                if ((int31 == script20335(1))) {
+                    int42 = int45;
+                };
+                if ((int31 == script20335(2))) {
+                    int43 = int45;
+                };
+                if ((int31 == script20335(3))) {
+                    int44 = int45;
+                };
+                [int31, int32, string0, int33, string1, int34, int35, string2] = unk11101();
+                int46 = (int46 + (int1 + int2));
+                int45 = (int45 + 1);
+            };
+        } else if (((varbitplayer_58378 == 0) || (int12 == -1))) {
+            if ((TESTBIT(int32, 24) == 1)) {
+                [int31, int32, string0, int33, string1, int34, int35, string2] = unk11101();
+            } else if ((int31 >= 170)) {
+                if ((int34 < 0)) {
+                    [int31, int32, string0, int33, string1, int34, int35, string2] = unk11101();
+                } else if ((TESTBIT(int32, 12) == 1)) {
+                    [int31, int32, string0, int33, string1, int34, int35, string2] = unk11101();
+                } else if ((TESTBIT(int32, 30) == 1)) {
+                    if ((int47 == 0)) {
+                        if ((STAFFMODLEVEL() < 2)) {
+                            [int31, int32, string0, int33, string1, int34, int35, string2] = unk11101();
+                        } else if ((TESTBIT(int32, 30) == 0)) {
+                            if ((int47 == 1)) {
+                                if ((STAFFMODLEVEL() < 2)) {
+                                    [int31, int32, string0, int33, string1, int34, int35, string2] = unk11101();
+                                } else {
+                                    [int40, string3, string4, int38, int41, int37, int36, string5, string6] = script3117(int31, int32, int45, string0, string1, int34, int33);
+                                    if ((script13749() == 1)) {
+                                        if ((int38 == 16777215)) {
+                                            int39 = 7705248;
+                                        } else {
+                                            int39 = int38;
+                                        };
+                                        int38 = 7705248;
+                                    } else {
+                                        int39 = int38;
+                                    };
+                                    script20333(int16, int45, int1, int46, int45);
+                                    script7924(int17, int45, int9, int9, 0, int46, int36, 0, 0, 0, 0);
+                                    CC_SETPOSITION(0, (int46 + int5), 1, 0);
+                                    script10629(int18, int45, (IF_GETWIDTH(int18) - 6), int1, 3, int46, inttostring(int31, 10), int38, int15, 0, 1, 0, 1);
+                                    script10629(int20, int45, (IF_GETWIDTH(int20) - 6), int1, 3, int46, string6, int38, int15, 0, 1, 0, 1);
+                                    script10629(int21, int45, (IF_GETWIDTH(int21) - 6), int1, 3, int46, string4, int38, int15, 0, 1, 0, 1);
+                                    script7924(int23, int45, 24, 12, 4, (int46 + int3), int40, 0, 0, 0, 0);
+                                    script10629(int22, int45, 30, int1, 30, int46, string3, int38, int15, 0, 1, 0, 1);
+                                    CC_SETSIZE(30, int1, 1, 0);
+                                    script10629(int24, int45, (IF_GETWIDTH(int24) - 10), int1, 5, int46, string5, int39, int15, 0, 1, 0, 1);
+                                    script7924(int25, int45, int10, int10, 0, (int46 + int4), int41, 0, 0, 0, 0);
+                                    CC_SETPOSITION(0, (int46 + int4), 1, 0);
+                                    if ((int35 == -1)) {
+                                        string7 = "-";
+                                    } else if ((int35 >= 1000)) {
+                                        string7 = "N/A";
+                                    } else {
+                                        string7 = inttostring(int35, 10);
+                                    };
+                                    script10629(int26, int45, (IF_GETWIDTH(int26) - 10), int1, 5, int46, string7, int38, int15, 0, 1, 0, 1);
+                                    script10629(int27, int45, IF_GETWIDTH(int27), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                                    CC_SETOP(1, "Select");
+                                    CC_SETOPBASE(`World ${inttostring(int31, 10)}`);
+                                    CC_SETONOP(callback(script3129, -2147483644, int45, int31, string2));
+                                    script10629(int28, int45, IF_GETWIDTH(int28), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                                    CC_SETONMOUSEOVER(callback(script3130, int17, int28, int45, int31));
+                                    CC_SETONMOUSELEAVE(callback(script3132, int17, int45, int31));
+                                    CC_SETOP(1, "Alter");
+                                    CC_SETOPBASE("Favourite");
+                                    CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
+                                    CC_SETONCLICK(callback(script10036));
+                                    if ((int31 == MAP_WORLD())) {
+                                        IF_SETHIDE(false, comp(910, 65));
+                                        IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                                    };
+                                    if ((int31 == script20335(1))) {
+                                        int42 = int45;
+                                    };
+                                    if ((int31 == script20335(2))) {
+                                        int43 = int45;
+                                    };
+                                    if ((int31 == script20335(3))) {
+                                        int44 = int45;
+                                    };
+                                    [int31, int32, string0, int33, string1, int34, int35, string2] = unk11101();
+                                    int46 = (int46 + (int1 + int2));
+                                    int45 = (int45 + 1);
+                                };
+                            } else {
+                                [int40, string3, string4, int38, int41, int37, int36, string5, string6] = script3117(int31, int32, int45, string0, string1, int34, int33);
+                                if ((script13749() == 1)) {
+                                    if ((int38 == 16777215)) {
+                                        int39 = 7705248;
+                                    } else {
+                                        int39 = int38;
+                                    };
+                                    int38 = 7705248;
+                                } else {
+                                    int39 = int38;
+                                };
+                                script20333(int16, int45, int1, int46, int45);
+                                script7924(int17, int45, int9, int9, 0, int46, int36, 0, 0, 0, 0);
+                                CC_SETPOSITION(0, (int46 + int5), 1, 0);
+                                script10629(int18, int45, (IF_GETWIDTH(int18) - 6), int1, 3, int46, inttostring(int31, 10), int38, int15, 0, 1, 0, 1);
+                                script10629(int20, int45, (IF_GETWIDTH(int20) - 6), int1, 3, int46, string6, int38, int15, 0, 1, 0, 1);
+                                script10629(int21, int45, (IF_GETWIDTH(int21) - 6), int1, 3, int46, string4, int38, int15, 0, 1, 0, 1);
+                                script7924(int23, int45, 24, 12, 4, (int46 + int3), int40, 0, 0, 0, 0);
+                                script10629(int22, int45, 30, int1, 30, int46, string3, int38, int15, 0, 1, 0, 1);
+                                CC_SETSIZE(30, int1, 1, 0);
+                                script10629(int24, int45, (IF_GETWIDTH(int24) - 10), int1, 5, int46, string5, int39, int15, 0, 1, 0, 1);
+                                script7924(int25, int45, int10, int10, 0, (int46 + int4), int41, 0, 0, 0, 0);
+                                CC_SETPOSITION(0, (int46 + int4), 1, 0);
+                                if ((int35 == -1)) {
+                                    string7 = "-";
+                                } else if ((int35 >= 1000)) {
+                                    string7 = "N/A";
+                                } else {
+                                    string7 = inttostring(int35, 10);
+                                };
+                                script10629(int26, int45, (IF_GETWIDTH(int26) - 10), int1, 5, int46, string7, int38, int15, 0, 1, 0, 1);
+                                script10629(int27, int45, IF_GETWIDTH(int27), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                                CC_SETOP(1, "Select");
+                                CC_SETOPBASE(`World ${inttostring(int31, 10)}`);
+                                CC_SETONOP(callback(script3129, -2147483644, int45, int31, string2));
+                                script10629(int28, int45, IF_GETWIDTH(int28), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                                CC_SETONMOUSEOVER(callback(script3130, int17, int28, int45, int31));
+                                CC_SETONMOUSELEAVE(callback(script3132, int17, int45, int31));
+                                CC_SETOP(1, "Alter");
+                                CC_SETOPBASE("Favourite");
+                                CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
+                                CC_SETONCLICK(callback(script10036));
+                                if ((int31 == MAP_WORLD())) {
+                                    IF_SETHIDE(false, comp(910, 65));
+                                    IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                                };
+                                if ((int31 == script20335(1))) {
+                                    int42 = int45;
+                                };
+                                if ((int31 == script20335(2))) {
+                                    int43 = int45;
+                                };
+                                if ((int31 == script20335(3))) {
+                                    int44 = int45;
+                                };
+                                [int31, int32, string0, int33, string1, int34, int35, string2] = unk11101();
+                                int46 = (int46 + (int1 + int2));
+                                int45 = (int45 + 1);
+                            };
+                        } else {
+                            [int40, string3, string4, int38, int41, int37, int36, string5, string6] = script3117(int31, int32, int45, string0, string1, int34, int33);
+                            if ((script13749() == 1)) {
+                                if ((int38 == 16777215)) {
+                                    int39 = 7705248;
+                                } else {
+                                    int39 = int38;
+                                };
+                                int38 = 7705248;
+                            } else {
+                                int39 = int38;
+                            };
+                            script20333(int16, int45, int1, int46, int45);
+                            script7924(int17, int45, int9, int9, 0, int46, int36, 0, 0, 0, 0);
+                            CC_SETPOSITION(0, (int46 + int5), 1, 0);
+                            script10629(int18, int45, (IF_GETWIDTH(int18) - 6), int1, 3, int46, inttostring(int31, 10), int38, int15, 0, 1, 0, 1);
+                            script10629(int20, int45, (IF_GETWIDTH(int20) - 6), int1, 3, int46, string6, int38, int15, 0, 1, 0, 1);
+                            script10629(int21, int45, (IF_GETWIDTH(int21) - 6), int1, 3, int46, string4, int38, int15, 0, 1, 0, 1);
+                            script7924(int23, int45, 24, 12, 4, (int46 + int3), int40, 0, 0, 0, 0);
+                            script10629(int22, int45, 30, int1, 30, int46, string3, int38, int15, 0, 1, 0, 1);
+                            CC_SETSIZE(30, int1, 1, 0);
+                            script10629(int24, int45, (IF_GETWIDTH(int24) - 10), int1, 5, int46, string5, int39, int15, 0, 1, 0, 1);
+                            script7924(int25, int45, int10, int10, 0, (int46 + int4), int41, 0, 0, 0, 0);
+                            CC_SETPOSITION(0, (int46 + int4), 1, 0);
+                            if ((int35 == -1)) {
+                                string7 = "-";
+                            } else if ((int35 >= 1000)) {
+                                string7 = "N/A";
+                            } else {
+                                string7 = inttostring(int35, 10);
+                            };
+                            script10629(int26, int45, (IF_GETWIDTH(int26) - 10), int1, 5, int46, string7, int38, int15, 0, 1, 0, 1);
+                            script10629(int27, int45, IF_GETWIDTH(int27), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                            CC_SETOP(1, "Select");
+                            CC_SETOPBASE(`World ${inttostring(int31, 10)}`);
+                            CC_SETONOP(callback(script3129, -2147483644, int45, int31, string2));
+                            script10629(int28, int45, IF_GETWIDTH(int28), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                            CC_SETONMOUSEOVER(callback(script3130, int17, int28, int45, int31));
+                            CC_SETONMOUSELEAVE(callback(script3132, int17, int45, int31));
+                            CC_SETOP(1, "Alter");
+                            CC_SETOPBASE("Favourite");
+                            CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
+                            CC_SETONCLICK(callback(script10036));
+                            if ((int31 == MAP_WORLD())) {
+                                IF_SETHIDE(false, comp(910, 65));
+                                IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                            };
+                            if ((int31 == script20335(1))) {
+                                int42 = int45;
+                            };
+                            if ((int31 == script20335(2))) {
+                                int43 = int45;
+                            };
+                            if ((int31 == script20335(3))) {
+                                int44 = int45;
+                            };
+                            [int31, int32, string0, int33, string1, int34, int35, string2] = unk11101();
+                            int46 = (int46 + (int1 + int2));
+                            int45 = (int45 + 1);
+                        };
+                    } else if ((TESTBIT(int32, 30) == 0)) {
+                        if ((int47 == 1)) {
+                            if ((STAFFMODLEVEL() < 2)) {
+                                [int31, int32, string0, int33, string1, int34, int35, string2] = unk11101();
+                            } else {
+                                [int40, string3, string4, int38, int41, int37, int36, string5, string6] = script3117(int31, int32, int45, string0, string1, int34, int33);
+                                if ((script13749() == 1)) {
+                                    if ((int38 == 16777215)) {
+                                        int39 = 7705248;
+                                    } else {
+                                        int39 = int38;
+                                    };
+                                    int38 = 7705248;
+                                } else {
+                                    int39 = int38;
+                                };
+                                script20333(int16, int45, int1, int46, int45);
+                                script7924(int17, int45, int9, int9, 0, int46, int36, 0, 0, 0, 0);
+                                CC_SETPOSITION(0, (int46 + int5), 1, 0);
+                                script10629(int18, int45, (IF_GETWIDTH(int18) - 6), int1, 3, int46, inttostring(int31, 10), int38, int15, 0, 1, 0, 1);
+                                script10629(int20, int45, (IF_GETWIDTH(int20) - 6), int1, 3, int46, string6, int38, int15, 0, 1, 0, 1);
+                                script10629(int21, int45, (IF_GETWIDTH(int21) - 6), int1, 3, int46, string4, int38, int15, 0, 1, 0, 1);
+                                script7924(int23, int45, 24, 12, 4, (int46 + int3), int40, 0, 0, 0, 0);
+                                script10629(int22, int45, 30, int1, 30, int46, string3, int38, int15, 0, 1, 0, 1);
+                                CC_SETSIZE(30, int1, 1, 0);
+                                script10629(int24, int45, (IF_GETWIDTH(int24) - 10), int1, 5, int46, string5, int39, int15, 0, 1, 0, 1);
+                                script7924(int25, int45, int10, int10, 0, (int46 + int4), int41, 0, 0, 0, 0);
+                                CC_SETPOSITION(0, (int46 + int4), 1, 0);
+                                if ((int35 == -1)) {
+                                    string7 = "-";
+                                } else if ((int35 >= 1000)) {
+                                    string7 = "N/A";
+                                } else {
+                                    string7 = inttostring(int35, 10);
+                                };
+                                script10629(int26, int45, (IF_GETWIDTH(int26) - 10), int1, 5, int46, string7, int38, int15, 0, 1, 0, 1);
+                                script10629(int27, int45, IF_GETWIDTH(int27), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                                CC_SETOP(1, "Select");
+                                CC_SETOPBASE(`World ${inttostring(int31, 10)}`);
+                                CC_SETONOP(callback(script3129, -2147483644, int45, int31, string2));
+                                script10629(int28, int45, IF_GETWIDTH(int28), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                                CC_SETONMOUSEOVER(callback(script3130, int17, int28, int45, int31));
+                                CC_SETONMOUSELEAVE(callback(script3132, int17, int45, int31));
+                                CC_SETOP(1, "Alter");
+                                CC_SETOPBASE("Favourite");
+                                CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
+                                CC_SETONCLICK(callback(script10036));
+                                if ((int31 == MAP_WORLD())) {
+                                    IF_SETHIDE(false, comp(910, 65));
+                                    IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                                };
+                                if ((int31 == script20335(1))) {
+                                    int42 = int45;
+                                };
+                                if ((int31 == script20335(2))) {
+                                    int43 = int45;
+                                };
+                                if ((int31 == script20335(3))) {
+                                    int44 = int45;
+                                };
+                                [int31, int32, string0, int33, string1, int34, int35, string2] = unk11101();
+                                int46 = (int46 + (int1 + int2));
+                                int45 = (int45 + 1);
+                            };
+                        } else {
+                            [int40, string3, string4, int38, int41, int37, int36, string5, string6] = script3117(int31, int32, int45, string0, string1, int34, int33);
+                            if ((script13749() == 1)) {
+                                if ((int38 == 16777215)) {
+                                    int39 = 7705248;
+                                } else {
+                                    int39 = int38;
+                                };
+                                int38 = 7705248;
+                            } else {
+                                int39 = int38;
+                            };
+                            script20333(int16, int45, int1, int46, int45);
+                            script7924(int17, int45, int9, int9, 0, int46, int36, 0, 0, 0, 0);
+                            CC_SETPOSITION(0, (int46 + int5), 1, 0);
+                            script10629(int18, int45, (IF_GETWIDTH(int18) - 6), int1, 3, int46, inttostring(int31, 10), int38, int15, 0, 1, 0, 1);
+                            script10629(int20, int45, (IF_GETWIDTH(int20) - 6), int1, 3, int46, string6, int38, int15, 0, 1, 0, 1);
+                            script10629(int21, int45, (IF_GETWIDTH(int21) - 6), int1, 3, int46, string4, int38, int15, 0, 1, 0, 1);
+                            script7924(int23, int45, 24, 12, 4, (int46 + int3), int40, 0, 0, 0, 0);
+                            script10629(int22, int45, 30, int1, 30, int46, string3, int38, int15, 0, 1, 0, 1);
+                            CC_SETSIZE(30, int1, 1, 0);
+                            script10629(int24, int45, (IF_GETWIDTH(int24) - 10), int1, 5, int46, string5, int39, int15, 0, 1, 0, 1);
+                            script7924(int25, int45, int10, int10, 0, (int46 + int4), int41, 0, 0, 0, 0);
+                            CC_SETPOSITION(0, (int46 + int4), 1, 0);
+                            if ((int35 == -1)) {
+                                string7 = "-";
+                            } else if ((int35 >= 1000)) {
+                                string7 = "N/A";
+                            } else {
+                                string7 = inttostring(int35, 10);
+                            };
+                            script10629(int26, int45, (IF_GETWIDTH(int26) - 10), int1, 5, int46, string7, int38, int15, 0, 1, 0, 1);
+                            script10629(int27, int45, IF_GETWIDTH(int27), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                            CC_SETOP(1, "Select");
+                            CC_SETOPBASE(`World ${inttostring(int31, 10)}`);
+                            CC_SETONOP(callback(script3129, -2147483644, int45, int31, string2));
+                            script10629(int28, int45, IF_GETWIDTH(int28), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                            CC_SETONMOUSEOVER(callback(script3130, int17, int28, int45, int31));
+                            CC_SETONMOUSELEAVE(callback(script3132, int17, int45, int31));
+                            CC_SETOP(1, "Alter");
+                            CC_SETOPBASE("Favourite");
+                            CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
+                            CC_SETONCLICK(callback(script10036));
+                            if ((int31 == MAP_WORLD())) {
+                                IF_SETHIDE(false, comp(910, 65));
+                                IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                            };
+                            if ((int31 == script20335(1))) {
+                                int42 = int45;
+                            };
+                            if ((int31 == script20335(2))) {
+                                int43 = int45;
+                            };
+                            if ((int31 == script20335(3))) {
+                                int44 = int45;
+                            };
+                            [int31, int32, string0, int33, string1, int34, int35, string2] = unk11101();
+                            int46 = (int46 + (int1 + int2));
+                            int45 = (int45 + 1);
+                        };
+                    } else {
+                        [int40, string3, string4, int38, int41, int37, int36, string5, string6] = script3117(int31, int32, int45, string0, string1, int34, int33);
+                        if ((script13749() == 1)) {
+                            if ((int38 == 16777215)) {
+                                int39 = 7705248;
+                            } else {
+                                int39 = int38;
+                            };
+                            int38 = 7705248;
+                        } else {
+                            int39 = int38;
+                        };
+                        script20333(int16, int45, int1, int46, int45);
+                        script7924(int17, int45, int9, int9, 0, int46, int36, 0, 0, 0, 0);
+                        CC_SETPOSITION(0, (int46 + int5), 1, 0);
+                        script10629(int18, int45, (IF_GETWIDTH(int18) - 6), int1, 3, int46, inttostring(int31, 10), int38, int15, 0, 1, 0, 1);
+                        script10629(int20, int45, (IF_GETWIDTH(int20) - 6), int1, 3, int46, string6, int38, int15, 0, 1, 0, 1);
+                        script10629(int21, int45, (IF_GETWIDTH(int21) - 6), int1, 3, int46, string4, int38, int15, 0, 1, 0, 1);
+                        script7924(int23, int45, 24, 12, 4, (int46 + int3), int40, 0, 0, 0, 0);
+                        script10629(int22, int45, 30, int1, 30, int46, string3, int38, int15, 0, 1, 0, 1);
+                        CC_SETSIZE(30, int1, 1, 0);
+                        script10629(int24, int45, (IF_GETWIDTH(int24) - 10), int1, 5, int46, string5, int39, int15, 0, 1, 0, 1);
+                        script7924(int25, int45, int10, int10, 0, (int46 + int4), int41, 0, 0, 0, 0);
+                        CC_SETPOSITION(0, (int46 + int4), 1, 0);
+                        if ((int35 == -1)) {
+                            string7 = "-";
+                        } else if ((int35 >= 1000)) {
+                            string7 = "N/A";
+                        } else {
+                            string7 = inttostring(int35, 10);
+                        };
+                        script10629(int26, int45, (IF_GETWIDTH(int26) - 10), int1, 5, int46, string7, int38, int15, 0, 1, 0, 1);
+                        script10629(int27, int45, IF_GETWIDTH(int27), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                        CC_SETOP(1, "Select");
+                        CC_SETOPBASE(`World ${inttostring(int31, 10)}`);
+                        CC_SETONOP(callback(script3129, -2147483644, int45, int31, string2));
+                        script10629(int28, int45, IF_GETWIDTH(int28), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                        CC_SETONMOUSEOVER(callback(script3130, int17, int28, int45, int31));
+                        CC_SETONMOUSELEAVE(callback(script3132, int17, int45, int31));
+                        CC_SETOP(1, "Alter");
+                        CC_SETOPBASE("Favourite");
+                        CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
+                        CC_SETONCLICK(callback(script10036));
+                        if ((int31 == MAP_WORLD())) {
+                            IF_SETHIDE(false, comp(910, 65));
+                            IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                        };
+                        if ((int31 == script20335(1))) {
+                            int42 = int45;
+                        };
+                        if ((int31 == script20335(2))) {
+                            int43 = int45;
+                        };
+                        if ((int31 == script20335(3))) {
+                            int44 = int45;
+                        };
+                        [int31, int32, string0, int33, string1, int34, int35, string2] = unk11101();
+                        int46 = (int46 + (int1 + int2));
+                        int45 = (int45 + 1);
+                    };
+                } else if ((TESTBIT(int32, 30) == 0)) {
+                    if ((int47 == 1)) {
+                        if ((STAFFMODLEVEL() < 2)) {
+                            [int31, int32, string0, int33, string1, int34, int35, string2] = unk11101();
+                        } else {
+                            [int40, string3, string4, int38, int41, int37, int36, string5, string6] = script3117(int31, int32, int45, string0, string1, int34, int33);
+                            if ((script13749() == 1)) {
+                                if ((int38 == 16777215)) {
+                                    int39 = 7705248;
+                                } else {
+                                    int39 = int38;
+                                };
+                                int38 = 7705248;
+                            } else {
+                                int39 = int38;
+                            };
+                            script20333(int16, int45, int1, int46, int45);
+                            script7924(int17, int45, int9, int9, 0, int46, int36, 0, 0, 0, 0);
+                            CC_SETPOSITION(0, (int46 + int5), 1, 0);
+                            script10629(int18, int45, (IF_GETWIDTH(int18) - 6), int1, 3, int46, inttostring(int31, 10), int38, int15, 0, 1, 0, 1);
+                            script10629(int20, int45, (IF_GETWIDTH(int20) - 6), int1, 3, int46, string6, int38, int15, 0, 1, 0, 1);
+                            script10629(int21, int45, (IF_GETWIDTH(int21) - 6), int1, 3, int46, string4, int38, int15, 0, 1, 0, 1);
+                            script7924(int23, int45, 24, 12, 4, (int46 + int3), int40, 0, 0, 0, 0);
+                            script10629(int22, int45, 30, int1, 30, int46, string3, int38, int15, 0, 1, 0, 1);
+                            CC_SETSIZE(30, int1, 1, 0);
+                            script10629(int24, int45, (IF_GETWIDTH(int24) - 10), int1, 5, int46, string5, int39, int15, 0, 1, 0, 1);
+                            script7924(int25, int45, int10, int10, 0, (int46 + int4), int41, 0, 0, 0, 0);
+                            CC_SETPOSITION(0, (int46 + int4), 1, 0);
+                            if ((int35 == -1)) {
+                                string7 = "-";
+                            } else if ((int35 >= 1000)) {
+                                string7 = "N/A";
+                            } else {
+                                string7 = inttostring(int35, 10);
+                            };
+                            script10629(int26, int45, (IF_GETWIDTH(int26) - 10), int1, 5, int46, string7, int38, int15, 0, 1, 0, 1);
+                            script10629(int27, int45, IF_GETWIDTH(int27), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                            CC_SETOP(1, "Select");
+                            CC_SETOPBASE(`World ${inttostring(int31, 10)}`);
+                            CC_SETONOP(callback(script3129, -2147483644, int45, int31, string2));
+                            script10629(int28, int45, IF_GETWIDTH(int28), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                            CC_SETONMOUSEOVER(callback(script3130, int17, int28, int45, int31));
+                            CC_SETONMOUSELEAVE(callback(script3132, int17, int45, int31));
+                            CC_SETOP(1, "Alter");
+                            CC_SETOPBASE("Favourite");
+                            CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
+                            CC_SETONCLICK(callback(script10036));
+                            if ((int31 == MAP_WORLD())) {
+                                IF_SETHIDE(false, comp(910, 65));
+                                IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                            };
+                            if ((int31 == script20335(1))) {
+                                int42 = int45;
+                            };
+                            if ((int31 == script20335(2))) {
+                                int43 = int45;
+                            };
+                            if ((int31 == script20335(3))) {
+                                int44 = int45;
+                            };
+                            [int31, int32, string0, int33, string1, int34, int35, string2] = unk11101();
+                            int46 = (int46 + (int1 + int2));
+                            int45 = (int45 + 1);
+                        };
+                    } else {
+                        [int40, string3, string4, int38, int41, int37, int36, string5, string6] = script3117(int31, int32, int45, string0, string1, int34, int33);
+                        if ((script13749() == 1)) {
+                            if ((int38 == 16777215)) {
+                                int39 = 7705248;
+                            } else {
+                                int39 = int38;
+                            };
+                            int38 = 7705248;
+                        } else {
+                            int39 = int38;
+                        };
+                        script20333(int16, int45, int1, int46, int45);
+                        script7924(int17, int45, int9, int9, 0, int46, int36, 0, 0, 0, 0);
+                        CC_SETPOSITION(0, (int46 + int5), 1, 0);
+                        script10629(int18, int45, (IF_GETWIDTH(int18) - 6), int1, 3, int46, inttostring(int31, 10), int38, int15, 0, 1, 0, 1);
+                        script10629(int20, int45, (IF_GETWIDTH(int20) - 6), int1, 3, int46, string6, int38, int15, 0, 1, 0, 1);
+                        script10629(int21, int45, (IF_GETWIDTH(int21) - 6), int1, 3, int46, string4, int38, int15, 0, 1, 0, 1);
+                        script7924(int23, int45, 24, 12, 4, (int46 + int3), int40, 0, 0, 0, 0);
+                        script10629(int22, int45, 30, int1, 30, int46, string3, int38, int15, 0, 1, 0, 1);
+                        CC_SETSIZE(30, int1, 1, 0);
+                        script10629(int24, int45, (IF_GETWIDTH(int24) - 10), int1, 5, int46, string5, int39, int15, 0, 1, 0, 1);
+                        script7924(int25, int45, int10, int10, 0, (int46 + int4), int41, 0, 0, 0, 0);
+                        CC_SETPOSITION(0, (int46 + int4), 1, 0);
+                        if ((int35 == -1)) {
+                            string7 = "-";
+                        } else if ((int35 >= 1000)) {
+                            string7 = "N/A";
+                        } else {
+                            string7 = inttostring(int35, 10);
+                        };
+                        script10629(int26, int45, (IF_GETWIDTH(int26) - 10), int1, 5, int46, string7, int38, int15, 0, 1, 0, 1);
+                        script10629(int27, int45, IF_GETWIDTH(int27), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                        CC_SETOP(1, "Select");
+                        CC_SETOPBASE(`World ${inttostring(int31, 10)}`);
+                        CC_SETONOP(callback(script3129, -2147483644, int45, int31, string2));
+                        script10629(int28, int45, IF_GETWIDTH(int28), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                        CC_SETONMOUSEOVER(callback(script3130, int17, int28, int45, int31));
+                        CC_SETONMOUSELEAVE(callback(script3132, int17, int45, int31));
+                        CC_SETOP(1, "Alter");
+                        CC_SETOPBASE("Favourite");
+                        CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
+                        CC_SETONCLICK(callback(script10036));
+                        if ((int31 == MAP_WORLD())) {
+                            IF_SETHIDE(false, comp(910, 65));
+                            IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                        };
+                        if ((int31 == script20335(1))) {
+                            int42 = int45;
+                        };
+                        if ((int31 == script20335(2))) {
+                            int43 = int45;
+                        };
+                        if ((int31 == script20335(3))) {
+                            int44 = int45;
+                        };
+                        [int31, int32, string0, int33, string1, int34, int35, string2] = unk11101();
+                        int46 = (int46 + (int1 + int2));
+                        int45 = (int45 + 1);
+                    };
+                } else {
+                    [int40, string3, string4, int38, int41, int37, int36, string5, string6] = script3117(int31, int32, int45, string0, string1, int34, int33);
+                    if ((script13749() == 1)) {
+                        if ((int38 == 16777215)) {
+                            int39 = 7705248;
+                        } else {
+                            int39 = int38;
+                        };
+                        int38 = 7705248;
+                    } else {
+                        int39 = int38;
+                    };
+                    script20333(int16, int45, int1, int46, int45);
+                    script7924(int17, int45, int9, int9, 0, int46, int36, 0, 0, 0, 0);
+                    CC_SETPOSITION(0, (int46 + int5), 1, 0);
+                    script10629(int18, int45, (IF_GETWIDTH(int18) - 6), int1, 3, int46, inttostring(int31, 10), int38, int15, 0, 1, 0, 1);
+                    script10629(int20, int45, (IF_GETWIDTH(int20) - 6), int1, 3, int46, string6, int38, int15, 0, 1, 0, 1);
+                    script10629(int21, int45, (IF_GETWIDTH(int21) - 6), int1, 3, int46, string4, int38, int15, 0, 1, 0, 1);
+                    script7924(int23, int45, 24, 12, 4, (int46 + int3), int40, 0, 0, 0, 0);
+                    script10629(int22, int45, 30, int1, 30, int46, string3, int38, int15, 0, 1, 0, 1);
+                    CC_SETSIZE(30, int1, 1, 0);
+                    script10629(int24, int45, (IF_GETWIDTH(int24) - 10), int1, 5, int46, string5, int39, int15, 0, 1, 0, 1);
+                    script7924(int25, int45, int10, int10, 0, (int46 + int4), int41, 0, 0, 0, 0);
+                    CC_SETPOSITION(0, (int46 + int4), 1, 0);
+                    if ((int35 == -1)) {
+                        string7 = "-";
+                    } else if ((int35 >= 1000)) {
+                        string7 = "N/A";
+                    } else {
+                        string7 = inttostring(int35, 10);
+                    };
+                    script10629(int26, int45, (IF_GETWIDTH(int26) - 10), int1, 5, int46, string7, int38, int15, 0, 1, 0, 1);
+                    script10629(int27, int45, IF_GETWIDTH(int27), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                    CC_SETOP(1, "Select");
+                    CC_SETOPBASE(`World ${inttostring(int31, 10)}`);
+                    CC_SETONOP(callback(script3129, -2147483644, int45, int31, string2));
+                    script10629(int28, int45, IF_GETWIDTH(int28), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                    CC_SETONMOUSEOVER(callback(script3130, int17, int28, int45, int31));
+                    CC_SETONMOUSELEAVE(callback(script3132, int17, int45, int31));
+                    CC_SETOP(1, "Alter");
+                    CC_SETOPBASE("Favourite");
+                    CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
+                    CC_SETONCLICK(callback(script10036));
+                    if ((int31 == MAP_WORLD())) {
+                        IF_SETHIDE(false, comp(910, 65));
+                        IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                    };
+                    if ((int31 == script20335(1))) {
+                        int42 = int45;
+                    };
+                    if ((int31 == script20335(2))) {
+                        int43 = int45;
+                    };
+                    if ((int31 == script20335(3))) {
+                        int44 = int45;
+                    };
+                    [int31, int32, string0, int33, string1, int34, int35, string2] = unk11101();
+                    int46 = (int46 + (int1 + int2));
+                    int45 = (int45 + 1);
+                };
+            } else if ((TESTBIT(int32, 12) == 1)) {
+                [int31, int32, string0, int33, string1, int34, int35, string2] = unk11101();
+            } else if ((TESTBIT(int32, 30) == 1)) {
+                if ((int47 == 0)) {
+                    if ((STAFFMODLEVEL() < 2)) {
+                        [int31, int32, string0, int33, string1, int34, int35, string2] = unk11101();
+                    } else if ((TESTBIT(int32, 30) == 0)) {
+                        if ((int47 == 1)) {
+                            if ((STAFFMODLEVEL() < 2)) {
+                                [int31, int32, string0, int33, string1, int34, int35, string2] = unk11101();
+                            } else {
+                                [int40, string3, string4, int38, int41, int37, int36, string5, string6] = script3117(int31, int32, int45, string0, string1, int34, int33);
+                                if ((script13749() == 1)) {
+                                    if ((int38 == 16777215)) {
+                                        int39 = 7705248;
+                                    } else {
+                                        int39 = int38;
+                                    };
+                                    int38 = 7705248;
+                                } else {
+                                    int39 = int38;
+                                };
+                                script20333(int16, int45, int1, int46, int45);
+                                script7924(int17, int45, int9, int9, 0, int46, int36, 0, 0, 0, 0);
+                                CC_SETPOSITION(0, (int46 + int5), 1, 0);
+                                script10629(int18, int45, (IF_GETWIDTH(int18) - 6), int1, 3, int46, inttostring(int31, 10), int38, int15, 0, 1, 0, 1);
+                                script10629(int20, int45, (IF_GETWIDTH(int20) - 6), int1, 3, int46, string6, int38, int15, 0, 1, 0, 1);
+                                script10629(int21, int45, (IF_GETWIDTH(int21) - 6), int1, 3, int46, string4, int38, int15, 0, 1, 0, 1);
+                                script7924(int23, int45, 24, 12, 4, (int46 + int3), int40, 0, 0, 0, 0);
+                                script10629(int22, int45, 30, int1, 30, int46, string3, int38, int15, 0, 1, 0, 1);
+                                CC_SETSIZE(30, int1, 1, 0);
+                                script10629(int24, int45, (IF_GETWIDTH(int24) - 10), int1, 5, int46, string5, int39, int15, 0, 1, 0, 1);
+                                script7924(int25, int45, int10, int10, 0, (int46 + int4), int41, 0, 0, 0, 0);
+                                CC_SETPOSITION(0, (int46 + int4), 1, 0);
+                                if ((int35 == -1)) {
+                                    string7 = "-";
+                                } else if ((int35 >= 1000)) {
+                                    string7 = "N/A";
+                                } else {
+                                    string7 = inttostring(int35, 10);
+                                };
+                                script10629(int26, int45, (IF_GETWIDTH(int26) - 10), int1, 5, int46, string7, int38, int15, 0, 1, 0, 1);
+                                script10629(int27, int45, IF_GETWIDTH(int27), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                                CC_SETOP(1, "Select");
+                                CC_SETOPBASE(`World ${inttostring(int31, 10)}`);
+                                CC_SETONOP(callback(script3129, -2147483644, int45, int31, string2));
+                                script10629(int28, int45, IF_GETWIDTH(int28), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                                CC_SETONMOUSEOVER(callback(script3130, int17, int28, int45, int31));
+                                CC_SETONMOUSELEAVE(callback(script3132, int17, int45, int31));
+                                CC_SETOP(1, "Alter");
+                                CC_SETOPBASE("Favourite");
+                                CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
+                                CC_SETONCLICK(callback(script10036));
+                                if ((int31 == MAP_WORLD())) {
+                                    IF_SETHIDE(false, comp(910, 65));
+                                    IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                                };
+                                if ((int31 == script20335(1))) {
+                                    int42 = int45;
+                                };
+                                if ((int31 == script20335(2))) {
+                                    int43 = int45;
+                                };
+                                if ((int31 == script20335(3))) {
+                                    int44 = int45;
+                                };
+                                [int31, int32, string0, int33, string1, int34, int35, string2] = unk11101();
+                                int46 = (int46 + (int1 + int2));
+                                int45 = (int45 + 1);
+                            };
+                        } else {
+                            [int40, string3, string4, int38, int41, int37, int36, string5, string6] = script3117(int31, int32, int45, string0, string1, int34, int33);
+                            if ((script13749() == 1)) {
+                                if ((int38 == 16777215)) {
+                                    int39 = 7705248;
+                                } else {
+                                    int39 = int38;
+                                };
+                                int38 = 7705248;
+                            } else {
+                                int39 = int38;
+                            };
+                            script20333(int16, int45, int1, int46, int45);
+                            script7924(int17, int45, int9, int9, 0, int46, int36, 0, 0, 0, 0);
+                            CC_SETPOSITION(0, (int46 + int5), 1, 0);
+                            script10629(int18, int45, (IF_GETWIDTH(int18) - 6), int1, 3, int46, inttostring(int31, 10), int38, int15, 0, 1, 0, 1);
+                            script10629(int20, int45, (IF_GETWIDTH(int20) - 6), int1, 3, int46, string6, int38, int15, 0, 1, 0, 1);
+                            script10629(int21, int45, (IF_GETWIDTH(int21) - 6), int1, 3, int46, string4, int38, int15, 0, 1, 0, 1);
+                            script7924(int23, int45, 24, 12, 4, (int46 + int3), int40, 0, 0, 0, 0);
+                            script10629(int22, int45, 30, int1, 30, int46, string3, int38, int15, 0, 1, 0, 1);
+                            CC_SETSIZE(30, int1, 1, 0);
+                            script10629(int24, int45, (IF_GETWIDTH(int24) - 10), int1, 5, int46, string5, int39, int15, 0, 1, 0, 1);
+                            script7924(int25, int45, int10, int10, 0, (int46 + int4), int41, 0, 0, 0, 0);
+                            CC_SETPOSITION(0, (int46 + int4), 1, 0);
+                            if ((int35 == -1)) {
+                                string7 = "-";
+                            } else if ((int35 >= 1000)) {
+                                string7 = "N/A";
+                            } else {
+                                string7 = inttostring(int35, 10);
+                            };
+                            script10629(int26, int45, (IF_GETWIDTH(int26) - 10), int1, 5, int46, string7, int38, int15, 0, 1, 0, 1);
+                            script10629(int27, int45, IF_GETWIDTH(int27), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                            CC_SETOP(1, "Select");
+                            CC_SETOPBASE(`World ${inttostring(int31, 10)}`);
+                            CC_SETONOP(callback(script3129, -2147483644, int45, int31, string2));
+                            script10629(int28, int45, IF_GETWIDTH(int28), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                            CC_SETONMOUSEOVER(callback(script3130, int17, int28, int45, int31));
+                            CC_SETONMOUSELEAVE(callback(script3132, int17, int45, int31));
+                            CC_SETOP(1, "Alter");
+                            CC_SETOPBASE("Favourite");
+                            CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
+                            CC_SETONCLICK(callback(script10036));
+                            if ((int31 == MAP_WORLD())) {
+                                IF_SETHIDE(false, comp(910, 65));
+                                IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                            };
+                            if ((int31 == script20335(1))) {
+                                int42 = int45;
+                            };
+                            if ((int31 == script20335(2))) {
+                                int43 = int45;
+                            };
+                            if ((int31 == script20335(3))) {
+                                int44 = int45;
+                            };
+                            [int31, int32, string0, int33, string1, int34, int35, string2] = unk11101();
+                            int46 = (int46 + (int1 + int2));
+                            int45 = (int45 + 1);
+                        };
+                    } else {
+                        [int40, string3, string4, int38, int41, int37, int36, string5, string6] = script3117(int31, int32, int45, string0, string1, int34, int33);
+                        if ((script13749() == 1)) {
+                            if ((int38 == 16777215)) {
+                                int39 = 7705248;
+                            } else {
+                                int39 = int38;
+                            };
+                            int38 = 7705248;
+                        } else {
+                            int39 = int38;
+                        };
+                        script20333(int16, int45, int1, int46, int45);
+                        script7924(int17, int45, int9, int9, 0, int46, int36, 0, 0, 0, 0);
+                        CC_SETPOSITION(0, (int46 + int5), 1, 0);
+                        script10629(int18, int45, (IF_GETWIDTH(int18) - 6), int1, 3, int46, inttostring(int31, 10), int38, int15, 0, 1, 0, 1);
+                        script10629(int20, int45, (IF_GETWIDTH(int20) - 6), int1, 3, int46, string6, int38, int15, 0, 1, 0, 1);
+                        script10629(int21, int45, (IF_GETWIDTH(int21) - 6), int1, 3, int46, string4, int38, int15, 0, 1, 0, 1);
+                        script7924(int23, int45, 24, 12, 4, (int46 + int3), int40, 0, 0, 0, 0);
+                        script10629(int22, int45, 30, int1, 30, int46, string3, int38, int15, 0, 1, 0, 1);
+                        CC_SETSIZE(30, int1, 1, 0);
+                        script10629(int24, int45, (IF_GETWIDTH(int24) - 10), int1, 5, int46, string5, int39, int15, 0, 1, 0, 1);
+                        script7924(int25, int45, int10, int10, 0, (int46 + int4), int41, 0, 0, 0, 0);
+                        CC_SETPOSITION(0, (int46 + int4), 1, 0);
+                        if ((int35 == -1)) {
+                            string7 = "-";
+                        } else if ((int35 >= 1000)) {
+                            string7 = "N/A";
+                        } else {
+                            string7 = inttostring(int35, 10);
+                        };
+                        script10629(int26, int45, (IF_GETWIDTH(int26) - 10), int1, 5, int46, string7, int38, int15, 0, 1, 0, 1);
+                        script10629(int27, int45, IF_GETWIDTH(int27), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                        CC_SETOP(1, "Select");
+                        CC_SETOPBASE(`World ${inttostring(int31, 10)}`);
+                        CC_SETONOP(callback(script3129, -2147483644, int45, int31, string2));
+                        script10629(int28, int45, IF_GETWIDTH(int28), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                        CC_SETONMOUSEOVER(callback(script3130, int17, int28, int45, int31));
+                        CC_SETONMOUSELEAVE(callback(script3132, int17, int45, int31));
+                        CC_SETOP(1, "Alter");
+                        CC_SETOPBASE("Favourite");
+                        CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
+                        CC_SETONCLICK(callback(script10036));
+                        if ((int31 == MAP_WORLD())) {
+                            IF_SETHIDE(false, comp(910, 65));
+                            IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                        };
+                        if ((int31 == script20335(1))) {
+                            int42 = int45;
+                        };
+                        if ((int31 == script20335(2))) {
+                            int43 = int45;
+                        };
+                        if ((int31 == script20335(3))) {
+                            int44 = int45;
+                        };
+                        [int31, int32, string0, int33, string1, int34, int35, string2] = unk11101();
+                        int46 = (int46 + (int1 + int2));
+                        int45 = (int45 + 1);
+                    };
+                } else if ((TESTBIT(int32, 30) == 0)) {
+                    if ((int47 == 1)) {
+                        if ((STAFFMODLEVEL() < 2)) {
+                            [int31, int32, string0, int33, string1, int34, int35, string2] = unk11101();
+                        } else {
+                            [int40, string3, string4, int38, int41, int37, int36, string5, string6] = script3117(int31, int32, int45, string0, string1, int34, int33);
+                            if ((script13749() == 1)) {
+                                if ((int38 == 16777215)) {
+                                    int39 = 7705248;
+                                } else {
+                                    int39 = int38;
+                                };
+                                int38 = 7705248;
+                            } else {
+                                int39 = int38;
+                            };
+                            script20333(int16, int45, int1, int46, int45);
+                            script7924(int17, int45, int9, int9, 0, int46, int36, 0, 0, 0, 0);
+                            CC_SETPOSITION(0, (int46 + int5), 1, 0);
+                            script10629(int18, int45, (IF_GETWIDTH(int18) - 6), int1, 3, int46, inttostring(int31, 10), int38, int15, 0, 1, 0, 1);
+                            script10629(int20, int45, (IF_GETWIDTH(int20) - 6), int1, 3, int46, string6, int38, int15, 0, 1, 0, 1);
+                            script10629(int21, int45, (IF_GETWIDTH(int21) - 6), int1, 3, int46, string4, int38, int15, 0, 1, 0, 1);
+                            script7924(int23, int45, 24, 12, 4, (int46 + int3), int40, 0, 0, 0, 0);
+                            script10629(int22, int45, 30, int1, 30, int46, string3, int38, int15, 0, 1, 0, 1);
+                            CC_SETSIZE(30, int1, 1, 0);
+                            script10629(int24, int45, (IF_GETWIDTH(int24) - 10), int1, 5, int46, string5, int39, int15, 0, 1, 0, 1);
+                            script7924(int25, int45, int10, int10, 0, (int46 + int4), int41, 0, 0, 0, 0);
+                            CC_SETPOSITION(0, (int46 + int4), 1, 0);
+                            if ((int35 == -1)) {
+                                string7 = "-";
+                            } else if ((int35 >= 1000)) {
+                                string7 = "N/A";
+                            } else {
+                                string7 = inttostring(int35, 10);
+                            };
+                            script10629(int26, int45, (IF_GETWIDTH(int26) - 10), int1, 5, int46, string7, int38, int15, 0, 1, 0, 1);
+                            script10629(int27, int45, IF_GETWIDTH(int27), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                            CC_SETOP(1, "Select");
+                            CC_SETOPBASE(`World ${inttostring(int31, 10)}`);
+                            CC_SETONOP(callback(script3129, -2147483644, int45, int31, string2));
+                            script10629(int28, int45, IF_GETWIDTH(int28), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                            CC_SETONMOUSEOVER(callback(script3130, int17, int28, int45, int31));
+                            CC_SETONMOUSELEAVE(callback(script3132, int17, int45, int31));
+                            CC_SETOP(1, "Alter");
+                            CC_SETOPBASE("Favourite");
+                            CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
+                            CC_SETONCLICK(callback(script10036));
+                            if ((int31 == MAP_WORLD())) {
+                                IF_SETHIDE(false, comp(910, 65));
+                                IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                            };
+                            if ((int31 == script20335(1))) {
+                                int42 = int45;
+                            };
+                            if ((int31 == script20335(2))) {
+                                int43 = int45;
+                            };
+                            if ((int31 == script20335(3))) {
+                                int44 = int45;
+                            };
+                            [int31, int32, string0, int33, string1, int34, int35, string2] = unk11101();
+                            int46 = (int46 + (int1 + int2));
+                            int45 = (int45 + 1);
+                        };
+                    } else {
+                        [int40, string3, string4, int38, int41, int37, int36, string5, string6] = script3117(int31, int32, int45, string0, string1, int34, int33);
+                        if ((script13749() == 1)) {
+                            if ((int38 == 16777215)) {
+                                int39 = 7705248;
+                            } else {
+                                int39 = int38;
+                            };
+                            int38 = 7705248;
+                        } else {
+                            int39 = int38;
+                        };
+                        script20333(int16, int45, int1, int46, int45);
+                        script7924(int17, int45, int9, int9, 0, int46, int36, 0, 0, 0, 0);
+                        CC_SETPOSITION(0, (int46 + int5), 1, 0);
+                        script10629(int18, int45, (IF_GETWIDTH(int18) - 6), int1, 3, int46, inttostring(int31, 10), int38, int15, 0, 1, 0, 1);
+                        script10629(int20, int45, (IF_GETWIDTH(int20) - 6), int1, 3, int46, string6, int38, int15, 0, 1, 0, 1);
+                        script10629(int21, int45, (IF_GETWIDTH(int21) - 6), int1, 3, int46, string4, int38, int15, 0, 1, 0, 1);
+                        script7924(int23, int45, 24, 12, 4, (int46 + int3), int40, 0, 0, 0, 0);
+                        script10629(int22, int45, 30, int1, 30, int46, string3, int38, int15, 0, 1, 0, 1);
+                        CC_SETSIZE(30, int1, 1, 0);
+                        script10629(int24, int45, (IF_GETWIDTH(int24) - 10), int1, 5, int46, string5, int39, int15, 0, 1, 0, 1);
+                        script7924(int25, int45, int10, int10, 0, (int46 + int4), int41, 0, 0, 0, 0);
+                        CC_SETPOSITION(0, (int46 + int4), 1, 0);
+                        if ((int35 == -1)) {
+                            string7 = "-";
+                        } else if ((int35 >= 1000)) {
+                            string7 = "N/A";
+                        } else {
+                            string7 = inttostring(int35, 10);
+                        };
+                        script10629(int26, int45, (IF_GETWIDTH(int26) - 10), int1, 5, int46, string7, int38, int15, 0, 1, 0, 1);
+                        script10629(int27, int45, IF_GETWIDTH(int27), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                        CC_SETOP(1, "Select");
+                        CC_SETOPBASE(`World ${inttostring(int31, 10)}`);
+                        CC_SETONOP(callback(script3129, -2147483644, int45, int31, string2));
+                        script10629(int28, int45, IF_GETWIDTH(int28), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                        CC_SETONMOUSEOVER(callback(script3130, int17, int28, int45, int31));
+                        CC_SETONMOUSELEAVE(callback(script3132, int17, int45, int31));
+                        CC_SETOP(1, "Alter");
+                        CC_SETOPBASE("Favourite");
+                        CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
+                        CC_SETONCLICK(callback(script10036));
+                        if ((int31 == MAP_WORLD())) {
+                            IF_SETHIDE(false, comp(910, 65));
+                            IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                        };
+                        if ((int31 == script20335(1))) {
+                            int42 = int45;
+                        };
+                        if ((int31 == script20335(2))) {
+                            int43 = int45;
+                        };
+                        if ((int31 == script20335(3))) {
+                            int44 = int45;
+                        };
+                        [int31, int32, string0, int33, string1, int34, int35, string2] = unk11101();
+                        int46 = (int46 + (int1 + int2));
+                        int45 = (int45 + 1);
+                    };
+                } else {
+                    [int40, string3, string4, int38, int41, int37, int36, string5, string6] = script3117(int31, int32, int45, string0, string1, int34, int33);
+                    if ((script13749() == 1)) {
+                        if ((int38 == 16777215)) {
+                            int39 = 7705248;
+                        } else {
+                            int39 = int38;
+                        };
+                        int38 = 7705248;
+                    } else {
+                        int39 = int38;
+                    };
+                    script20333(int16, int45, int1, int46, int45);
+                    script7924(int17, int45, int9, int9, 0, int46, int36, 0, 0, 0, 0);
+                    CC_SETPOSITION(0, (int46 + int5), 1, 0);
+                    script10629(int18, int45, (IF_GETWIDTH(int18) - 6), int1, 3, int46, inttostring(int31, 10), int38, int15, 0, 1, 0, 1);
+                    script10629(int20, int45, (IF_GETWIDTH(int20) - 6), int1, 3, int46, string6, int38, int15, 0, 1, 0, 1);
+                    script10629(int21, int45, (IF_GETWIDTH(int21) - 6), int1, 3, int46, string4, int38, int15, 0, 1, 0, 1);
+                    script7924(int23, int45, 24, 12, 4, (int46 + int3), int40, 0, 0, 0, 0);
+                    script10629(int22, int45, 30, int1, 30, int46, string3, int38, int15, 0, 1, 0, 1);
+                    CC_SETSIZE(30, int1, 1, 0);
+                    script10629(int24, int45, (IF_GETWIDTH(int24) - 10), int1, 5, int46, string5, int39, int15, 0, 1, 0, 1);
+                    script7924(int25, int45, int10, int10, 0, (int46 + int4), int41, 0, 0, 0, 0);
+                    CC_SETPOSITION(0, (int46 + int4), 1, 0);
+                    if ((int35 == -1)) {
+                        string7 = "-";
+                    } else if ((int35 >= 1000)) {
+                        string7 = "N/A";
+                    } else {
+                        string7 = inttostring(int35, 10);
+                    };
+                    script10629(int26, int45, (IF_GETWIDTH(int26) - 10), int1, 5, int46, string7, int38, int15, 0, 1, 0, 1);
+                    script10629(int27, int45, IF_GETWIDTH(int27), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                    CC_SETOP(1, "Select");
+                    CC_SETOPBASE(`World ${inttostring(int31, 10)}`);
+                    CC_SETONOP(callback(script3129, -2147483644, int45, int31, string2));
+                    script10629(int28, int45, IF_GETWIDTH(int28), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                    CC_SETONMOUSEOVER(callback(script3130, int17, int28, int45, int31));
+                    CC_SETONMOUSELEAVE(callback(script3132, int17, int45, int31));
+                    CC_SETOP(1, "Alter");
+                    CC_SETOPBASE("Favourite");
+                    CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
+                    CC_SETONCLICK(callback(script10036));
+                    if ((int31 == MAP_WORLD())) {
+                        IF_SETHIDE(false, comp(910, 65));
+                        IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                    };
+                    if ((int31 == script20335(1))) {
+                        int42 = int45;
+                    };
+                    if ((int31 == script20335(2))) {
+                        int43 = int45;
+                    };
+                    if ((int31 == script20335(3))) {
+                        int44 = int45;
+                    };
+                    [int31, int32, string0, int33, string1, int34, int35, string2] = unk11101();
+                    int46 = (int46 + (int1 + int2));
+                    int45 = (int45 + 1);
+                };
+            } else if ((TESTBIT(int32, 30) == 0)) {
+                if ((int47 == 1)) {
+                    if ((STAFFMODLEVEL() < 2)) {
+                        [int31, int32, string0, int33, string1, int34, int35, string2] = unk11101();
+                    } else {
+                        [int40, string3, string4, int38, int41, int37, int36, string5, string6] = script3117(int31, int32, int45, string0, string1, int34, int33);
+                        if ((script13749() == 1)) {
+                            if ((int38 == 16777215)) {
+                                int39 = 7705248;
+                            } else {
+                                int39 = int38;
+                            };
+                            int38 = 7705248;
+                        } else {
+                            int39 = int38;
+                        };
+                        script20333(int16, int45, int1, int46, int45);
+                        script7924(int17, int45, int9, int9, 0, int46, int36, 0, 0, 0, 0);
+                        CC_SETPOSITION(0, (int46 + int5), 1, 0);
+                        script10629(int18, int45, (IF_GETWIDTH(int18) - 6), int1, 3, int46, inttostring(int31, 10), int38, int15, 0, 1, 0, 1);
+                        script10629(int20, int45, (IF_GETWIDTH(int20) - 6), int1, 3, int46, string6, int38, int15, 0, 1, 0, 1);
+                        script10629(int21, int45, (IF_GETWIDTH(int21) - 6), int1, 3, int46, string4, int38, int15, 0, 1, 0, 1);
+                        script7924(int23, int45, 24, 12, 4, (int46 + int3), int40, 0, 0, 0, 0);
+                        script10629(int22, int45, 30, int1, 30, int46, string3, int38, int15, 0, 1, 0, 1);
+                        CC_SETSIZE(30, int1, 1, 0);
+                        script10629(int24, int45, (IF_GETWIDTH(int24) - 10), int1, 5, int46, string5, int39, int15, 0, 1, 0, 1);
+                        script7924(int25, int45, int10, int10, 0, (int46 + int4), int41, 0, 0, 0, 0);
+                        CC_SETPOSITION(0, (int46 + int4), 1, 0);
+                        if ((int35 == -1)) {
+                            string7 = "-";
+                        } else if ((int35 >= 1000)) {
+                            string7 = "N/A";
+                        } else {
+                            string7 = inttostring(int35, 10);
+                        };
+                        script10629(int26, int45, (IF_GETWIDTH(int26) - 10), int1, 5, int46, string7, int38, int15, 0, 1, 0, 1);
+                        script10629(int27, int45, IF_GETWIDTH(int27), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                        CC_SETOP(1, "Select");
+                        CC_SETOPBASE(`World ${inttostring(int31, 10)}`);
+                        CC_SETONOP(callback(script3129, -2147483644, int45, int31, string2));
+                        script10629(int28, int45, IF_GETWIDTH(int28), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                        CC_SETONMOUSEOVER(callback(script3130, int17, int28, int45, int31));
+                        CC_SETONMOUSELEAVE(callback(script3132, int17, int45, int31));
+                        CC_SETOP(1, "Alter");
+                        CC_SETOPBASE("Favourite");
+                        CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
+                        CC_SETONCLICK(callback(script10036));
+                        if ((int31 == MAP_WORLD())) {
+                            IF_SETHIDE(false, comp(910, 65));
+                            IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                        };
+                        if ((int31 == script20335(1))) {
+                            int42 = int45;
+                        };
+                        if ((int31 == script20335(2))) {
+                            int43 = int45;
+                        };
+                        if ((int31 == script20335(3))) {
+                            int44 = int45;
+                        };
+                        [int31, int32, string0, int33, string1, int34, int35, string2] = unk11101();
+                        int46 = (int46 + (int1 + int2));
+                        int45 = (int45 + 1);
+                    };
+                } else {
+                    [int40, string3, string4, int38, int41, int37, int36, string5, string6] = script3117(int31, int32, int45, string0, string1, int34, int33);
+                    if ((script13749() == 1)) {
+                        if ((int38 == 16777215)) {
+                            int39 = 7705248;
+                        } else {
+                            int39 = int38;
+                        };
+                        int38 = 7705248;
+                    } else {
+                        int39 = int38;
+                    };
+                    script20333(int16, int45, int1, int46, int45);
+                    script7924(int17, int45, int9, int9, 0, int46, int36, 0, 0, 0, 0);
+                    CC_SETPOSITION(0, (int46 + int5), 1, 0);
+                    script10629(int18, int45, (IF_GETWIDTH(int18) - 6), int1, 3, int46, inttostring(int31, 10), int38, int15, 0, 1, 0, 1);
+                    script10629(int20, int45, (IF_GETWIDTH(int20) - 6), int1, 3, int46, string6, int38, int15, 0, 1, 0, 1);
+                    script10629(int21, int45, (IF_GETWIDTH(int21) - 6), int1, 3, int46, string4, int38, int15, 0, 1, 0, 1);
+                    script7924(int23, int45, 24, 12, 4, (int46 + int3), int40, 0, 0, 0, 0);
+                    script10629(int22, int45, 30, int1, 30, int46, string3, int38, int15, 0, 1, 0, 1);
+                    CC_SETSIZE(30, int1, 1, 0);
+                    script10629(int24, int45, (IF_GETWIDTH(int24) - 10), int1, 5, int46, string5, int39, int15, 0, 1, 0, 1);
+                    script7924(int25, int45, int10, int10, 0, (int46 + int4), int41, 0, 0, 0, 0);
+                    CC_SETPOSITION(0, (int46 + int4), 1, 0);
+                    if ((int35 == -1)) {
+                        string7 = "-";
+                    } else if ((int35 >= 1000)) {
+                        string7 = "N/A";
+                    } else {
+                        string7 = inttostring(int35, 10);
+                    };
+                    script10629(int26, int45, (IF_GETWIDTH(int26) - 10), int1, 5, int46, string7, int38, int15, 0, 1, 0, 1);
+                    script10629(int27, int45, IF_GETWIDTH(int27), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                    CC_SETOP(1, "Select");
+                    CC_SETOPBASE(`World ${inttostring(int31, 10)}`);
+                    CC_SETONOP(callback(script3129, -2147483644, int45, int31, string2));
+                    script10629(int28, int45, IF_GETWIDTH(int28), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                    CC_SETONMOUSEOVER(callback(script3130, int17, int28, int45, int31));
+                    CC_SETONMOUSELEAVE(callback(script3132, int17, int45, int31));
+                    CC_SETOP(1, "Alter");
+                    CC_SETOPBASE("Favourite");
+                    CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
+                    CC_SETONCLICK(callback(script10036));
+                    if ((int31 == MAP_WORLD())) {
+                        IF_SETHIDE(false, comp(910, 65));
+                        IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                    };
+                    if ((int31 == script20335(1))) {
+                        int42 = int45;
+                    };
+                    if ((int31 == script20335(2))) {
+                        int43 = int45;
+                    };
+                    if ((int31 == script20335(3))) {
+                        int44 = int45;
+                    };
+                    [int31, int32, string0, int33, string1, int34, int35, string2] = unk11101();
+                    int46 = (int46 + (int1 + int2));
+                    int45 = (int45 + 1);
+                };
+            } else {
+                [int40, string3, string4, int38, int41, int37, int36, string5, string6] = script3117(int31, int32, int45, string0, string1, int34, int33);
+                if ((script13749() == 1)) {
+                    if ((int38 == 16777215)) {
+                        int39 = 7705248;
+                    } else {
+                        int39 = int38;
+                    };
+                    int38 = 7705248;
+                } else {
+                    int39 = int38;
+                };
+                script20333(int16, int45, int1, int46, int45);
+                script7924(int17, int45, int9, int9, 0, int46, int36, 0, 0, 0, 0);
+                CC_SETPOSITION(0, (int46 + int5), 1, 0);
+                script10629(int18, int45, (IF_GETWIDTH(int18) - 6), int1, 3, int46, inttostring(int31, 10), int38, int15, 0, 1, 0, 1);
+                script10629(int20, int45, (IF_GETWIDTH(int20) - 6), int1, 3, int46, string6, int38, int15, 0, 1, 0, 1);
+                script10629(int21, int45, (IF_GETWIDTH(int21) - 6), int1, 3, int46, string4, int38, int15, 0, 1, 0, 1);
+                script7924(int23, int45, 24, 12, 4, (int46 + int3), int40, 0, 0, 0, 0);
+                script10629(int22, int45, 30, int1, 30, int46, string3, int38, int15, 0, 1, 0, 1);
+                CC_SETSIZE(30, int1, 1, 0);
+                script10629(int24, int45, (IF_GETWIDTH(int24) - 10), int1, 5, int46, string5, int39, int15, 0, 1, 0, 1);
+                script7924(int25, int45, int10, int10, 0, (int46 + int4), int41, 0, 0, 0, 0);
+                CC_SETPOSITION(0, (int46 + int4), 1, 0);
+                if ((int35 == -1)) {
+                    string7 = "-";
+                } else if ((int35 >= 1000)) {
+                    string7 = "N/A";
+                } else {
+                    string7 = inttostring(int35, 10);
+                };
+                script10629(int26, int45, (IF_GETWIDTH(int26) - 10), int1, 5, int46, string7, int38, int15, 0, 1, 0, 1);
+                script10629(int27, int45, IF_GETWIDTH(int27), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                CC_SETOP(1, "Select");
+                CC_SETOPBASE(`World ${inttostring(int31, 10)}`);
+                CC_SETONOP(callback(script3129, -2147483644, int45, int31, string2));
+                script10629(int28, int45, IF_GETWIDTH(int28), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                CC_SETONMOUSEOVER(callback(script3130, int17, int28, int45, int31));
+                CC_SETONMOUSELEAVE(callback(script3132, int17, int45, int31));
+                CC_SETOP(1, "Alter");
+                CC_SETOPBASE("Favourite");
+                CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
+                CC_SETONCLICK(callback(script10036));
+                if ((int31 == MAP_WORLD())) {
+                    IF_SETHIDE(false, comp(910, 65));
+                    IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                };
+                if ((int31 == script20335(1))) {
+                    int42 = int45;
+                };
+                if ((int31 == script20335(2))) {
+                    int43 = int45;
+                };
+                if ((int31 == script20335(3))) {
+                    int44 = int45;
+                };
+                [int31, int32, string0, int33, string1, int34, int35, string2] = unk11101();
+                int46 = (int46 + (int1 + int2));
+                int45 = (int45 + 1);
+            };
+        } else if ((int31 >= 170)) {
+            if ((int34 < 0)) {
+                [int31, int32, string0, int33, string1, int34, int35, string2] = unk11101();
+            } else if ((TESTBIT(int32, 12) == 1)) {
+                [int31, int32, string0, int33, string1, int34, int35, string2] = unk11101();
+            } else if ((TESTBIT(int32, 30) == 1)) {
+                if ((int47 == 0)) {
+                    if ((STAFFMODLEVEL() < 2)) {
+                        [int31, int32, string0, int33, string1, int34, int35, string2] = unk11101();
+                    } else if ((TESTBIT(int32, 30) == 0)) {
+                        if ((int47 == 1)) {
+                            if ((STAFFMODLEVEL() < 2)) {
+                                [int31, int32, string0, int33, string1, int34, int35, string2] = unk11101();
+                            } else {
+                                [int40, string3, string4, int38, int41, int37, int36, string5, string6] = script3117(int31, int32, int45, string0, string1, int34, int33);
+                                if ((script13749() == 1)) {
+                                    if ((int38 == 16777215)) {
+                                        int39 = 7705248;
+                                    } else {
+                                        int39 = int38;
+                                    };
+                                    int38 = 7705248;
+                                } else {
+                                    int39 = int38;
+                                };
+                                script20333(int16, int45, int1, int46, int45);
+                                script7924(int17, int45, int9, int9, 0, int46, int36, 0, 0, 0, 0);
+                                CC_SETPOSITION(0, (int46 + int5), 1, 0);
+                                script10629(int18, int45, (IF_GETWIDTH(int18) - 6), int1, 3, int46, inttostring(int31, 10), int38, int15, 0, 1, 0, 1);
+                                script10629(int20, int45, (IF_GETWIDTH(int20) - 6), int1, 3, int46, string6, int38, int15, 0, 1, 0, 1);
+                                script10629(int21, int45, (IF_GETWIDTH(int21) - 6), int1, 3, int46, string4, int38, int15, 0, 1, 0, 1);
+                                script7924(int23, int45, 24, 12, 4, (int46 + int3), int40, 0, 0, 0, 0);
+                                script10629(int22, int45, 30, int1, 30, int46, string3, int38, int15, 0, 1, 0, 1);
+                                CC_SETSIZE(30, int1, 1, 0);
+                                script10629(int24, int45, (IF_GETWIDTH(int24) - 10), int1, 5, int46, string5, int39, int15, 0, 1, 0, 1);
+                                script7924(int25, int45, int10, int10, 0, (int46 + int4), int41, 0, 0, 0, 0);
+                                CC_SETPOSITION(0, (int46 + int4), 1, 0);
+                                if ((int35 == -1)) {
+                                    string7 = "-";
+                                } else if ((int35 >= 1000)) {
+                                    string7 = "N/A";
+                                } else {
+                                    string7 = inttostring(int35, 10);
+                                };
+                                script10629(int26, int45, (IF_GETWIDTH(int26) - 10), int1, 5, int46, string7, int38, int15, 0, 1, 0, 1);
+                                script10629(int27, int45, IF_GETWIDTH(int27), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                                CC_SETOP(1, "Select");
+                                CC_SETOPBASE(`World ${inttostring(int31, 10)}`);
+                                CC_SETONOP(callback(script3129, -2147483644, int45, int31, string2));
+                                script10629(int28, int45, IF_GETWIDTH(int28), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                                CC_SETONMOUSEOVER(callback(script3130, int17, int28, int45, int31));
+                                CC_SETONMOUSELEAVE(callback(script3132, int17, int45, int31));
+                                CC_SETOP(1, "Alter");
+                                CC_SETOPBASE("Favourite");
+                                CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
+                                CC_SETONCLICK(callback(script10036));
+                                if ((int31 == MAP_WORLD())) {
+                                    IF_SETHIDE(false, comp(910, 65));
+                                    IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                                };
+                                if ((int31 == script20335(1))) {
+                                    int42 = int45;
+                                };
+                                if ((int31 == script20335(2))) {
+                                    int43 = int45;
+                                };
+                                if ((int31 == script20335(3))) {
+                                    int44 = int45;
+                                };
+                                [int31, int32, string0, int33, string1, int34, int35, string2] = unk11101();
+                                int46 = (int46 + (int1 + int2));
+                                int45 = (int45 + 1);
+                            };
+                        } else {
+                            [int40, string3, string4, int38, int41, int37, int36, string5, string6] = script3117(int31, int32, int45, string0, string1, int34, int33);
+                            if ((script13749() == 1)) {
+                                if ((int38 == 16777215)) {
+                                    int39 = 7705248;
+                                } else {
+                                    int39 = int38;
+                                };
+                                int38 = 7705248;
+                            } else {
+                                int39 = int38;
+                            };
+                            script20333(int16, int45, int1, int46, int45);
+                            script7924(int17, int45, int9, int9, 0, int46, int36, 0, 0, 0, 0);
+                            CC_SETPOSITION(0, (int46 + int5), 1, 0);
+                            script10629(int18, int45, (IF_GETWIDTH(int18) - 6), int1, 3, int46, inttostring(int31, 10), int38, int15, 0, 1, 0, 1);
+                            script10629(int20, int45, (IF_GETWIDTH(int20) - 6), int1, 3, int46, string6, int38, int15, 0, 1, 0, 1);
+                            script10629(int21, int45, (IF_GETWIDTH(int21) - 6), int1, 3, int46, string4, int38, int15, 0, 1, 0, 1);
+                            script7924(int23, int45, 24, 12, 4, (int46 + int3), int40, 0, 0, 0, 0);
+                            script10629(int22, int45, 30, int1, 30, int46, string3, int38, int15, 0, 1, 0, 1);
+                            CC_SETSIZE(30, int1, 1, 0);
+                            script10629(int24, int45, (IF_GETWIDTH(int24) - 10), int1, 5, int46, string5, int39, int15, 0, 1, 0, 1);
+                            script7924(int25, int45, int10, int10, 0, (int46 + int4), int41, 0, 0, 0, 0);
+                            CC_SETPOSITION(0, (int46 + int4), 1, 0);
+                            if ((int35 == -1)) {
+                                string7 = "-";
+                            } else if ((int35 >= 1000)) {
+                                string7 = "N/A";
+                            } else {
+                                string7 = inttostring(int35, 10);
+                            };
+                            script10629(int26, int45, (IF_GETWIDTH(int26) - 10), int1, 5, int46, string7, int38, int15, 0, 1, 0, 1);
+                            script10629(int27, int45, IF_GETWIDTH(int27), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                            CC_SETOP(1, "Select");
+                            CC_SETOPBASE(`World ${inttostring(int31, 10)}`);
+                            CC_SETONOP(callback(script3129, -2147483644, int45, int31, string2));
+                            script10629(int28, int45, IF_GETWIDTH(int28), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                            CC_SETONMOUSEOVER(callback(script3130, int17, int28, int45, int31));
+                            CC_SETONMOUSELEAVE(callback(script3132, int17, int45, int31));
+                            CC_SETOP(1, "Alter");
+                            CC_SETOPBASE("Favourite");
+                            CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
+                            CC_SETONCLICK(callback(script10036));
+                            if ((int31 == MAP_WORLD())) {
+                                IF_SETHIDE(false, comp(910, 65));
+                                IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                            };
+                            if ((int31 == script20335(1))) {
+                                int42 = int45;
+                            };
+                            if ((int31 == script20335(2))) {
+                                int43 = int45;
+                            };
+                            if ((int31 == script20335(3))) {
+                                int44 = int45;
+                            };
+                            [int31, int32, string0, int33, string1, int34, int35, string2] = unk11101();
+                            int46 = (int46 + (int1 + int2));
+                            int45 = (int45 + 1);
+                        };
+                    } else {
+                        [int40, string3, string4, int38, int41, int37, int36, string5, string6] = script3117(int31, int32, int45, string0, string1, int34, int33);
+                        if ((script13749() == 1)) {
+                            if ((int38 == 16777215)) {
+                                int39 = 7705248;
+                            } else {
+                                int39 = int38;
+                            };
+                            int38 = 7705248;
+                        } else {
+                            int39 = int38;
+                        };
+                        script20333(int16, int45, int1, int46, int45);
+                        script7924(int17, int45, int9, int9, 0, int46, int36, 0, 0, 0, 0);
+                        CC_SETPOSITION(0, (int46 + int5), 1, 0);
+                        script10629(int18, int45, (IF_GETWIDTH(int18) - 6), int1, 3, int46, inttostring(int31, 10), int38, int15, 0, 1, 0, 1);
+                        script10629(int20, int45, (IF_GETWIDTH(int20) - 6), int1, 3, int46, string6, int38, int15, 0, 1, 0, 1);
+                        script10629(int21, int45, (IF_GETWIDTH(int21) - 6), int1, 3, int46, string4, int38, int15, 0, 1, 0, 1);
+                        script7924(int23, int45, 24, 12, 4, (int46 + int3), int40, 0, 0, 0, 0);
+                        script10629(int22, int45, 30, int1, 30, int46, string3, int38, int15, 0, 1, 0, 1);
+                        CC_SETSIZE(30, int1, 1, 0);
+                        script10629(int24, int45, (IF_GETWIDTH(int24) - 10), int1, 5, int46, string5, int39, int15, 0, 1, 0, 1);
+                        script7924(int25, int45, int10, int10, 0, (int46 + int4), int41, 0, 0, 0, 0);
+                        CC_SETPOSITION(0, (int46 + int4), 1, 0);
+                        if ((int35 == -1)) {
+                            string7 = "-";
+                        } else if ((int35 >= 1000)) {
+                            string7 = "N/A";
+                        } else {
+                            string7 = inttostring(int35, 10);
+                        };
+                        script10629(int26, int45, (IF_GETWIDTH(int26) - 10), int1, 5, int46, string7, int38, int15, 0, 1, 0, 1);
+                        script10629(int27, int45, IF_GETWIDTH(int27), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                        CC_SETOP(1, "Select");
+                        CC_SETOPBASE(`World ${inttostring(int31, 10)}`);
+                        CC_SETONOP(callback(script3129, -2147483644, int45, int31, string2));
+                        script10629(int28, int45, IF_GETWIDTH(int28), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                        CC_SETONMOUSEOVER(callback(script3130, int17, int28, int45, int31));
+                        CC_SETONMOUSELEAVE(callback(script3132, int17, int45, int31));
+                        CC_SETOP(1, "Alter");
+                        CC_SETOPBASE("Favourite");
+                        CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
+                        CC_SETONCLICK(callback(script10036));
+                        if ((int31 == MAP_WORLD())) {
+                            IF_SETHIDE(false, comp(910, 65));
+                            IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                        };
+                        if ((int31 == script20335(1))) {
+                            int42 = int45;
+                        };
+                        if ((int31 == script20335(2))) {
+                            int43 = int45;
+                        };
+                        if ((int31 == script20335(3))) {
+                            int44 = int45;
+                        };
+                        [int31, int32, string0, int33, string1, int34, int35, string2] = unk11101();
+                        int46 = (int46 + (int1 + int2));
+                        int45 = (int45 + 1);
+                    };
+                } else if ((TESTBIT(int32, 30) == 0)) {
+                    if ((int47 == 1)) {
+                        if ((STAFFMODLEVEL() < 2)) {
+                            [int31, int32, string0, int33, string1, int34, int35, string2] = unk11101();
+                        } else {
+                            [int40, string3, string4, int38, int41, int37, int36, string5, string6] = script3117(int31, int32, int45, string0, string1, int34, int33);
+                            if ((script13749() == 1)) {
+                                if ((int38 == 16777215)) {
+                                    int39 = 7705248;
+                                } else {
+                                    int39 = int38;
+                                };
+                                int38 = 7705248;
+                            } else {
+                                int39 = int38;
+                            };
+                            script20333(int16, int45, int1, int46, int45);
+                            script7924(int17, int45, int9, int9, 0, int46, int36, 0, 0, 0, 0);
+                            CC_SETPOSITION(0, (int46 + int5), 1, 0);
+                            script10629(int18, int45, (IF_GETWIDTH(int18) - 6), int1, 3, int46, inttostring(int31, 10), int38, int15, 0, 1, 0, 1);
+                            script10629(int20, int45, (IF_GETWIDTH(int20) - 6), int1, 3, int46, string6, int38, int15, 0, 1, 0, 1);
+                            script10629(int21, int45, (IF_GETWIDTH(int21) - 6), int1, 3, int46, string4, int38, int15, 0, 1, 0, 1);
+                            script7924(int23, int45, 24, 12, 4, (int46 + int3), int40, 0, 0, 0, 0);
+                            script10629(int22, int45, 30, int1, 30, int46, string3, int38, int15, 0, 1, 0, 1);
+                            CC_SETSIZE(30, int1, 1, 0);
+                            script10629(int24, int45, (IF_GETWIDTH(int24) - 10), int1, 5, int46, string5, int39, int15, 0, 1, 0, 1);
+                            script7924(int25, int45, int10, int10, 0, (int46 + int4), int41, 0, 0, 0, 0);
+                            CC_SETPOSITION(0, (int46 + int4), 1, 0);
+                            if ((int35 == -1)) {
+                                string7 = "-";
+                            } else if ((int35 >= 1000)) {
+                                string7 = "N/A";
+                            } else {
+                                string7 = inttostring(int35, 10);
+                            };
+                            script10629(int26, int45, (IF_GETWIDTH(int26) - 10), int1, 5, int46, string7, int38, int15, 0, 1, 0, 1);
+                            script10629(int27, int45, IF_GETWIDTH(int27), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                            CC_SETOP(1, "Select");
+                            CC_SETOPBASE(`World ${inttostring(int31, 10)}`);
+                            CC_SETONOP(callback(script3129, -2147483644, int45, int31, string2));
+                            script10629(int28, int45, IF_GETWIDTH(int28), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                            CC_SETONMOUSEOVER(callback(script3130, int17, int28, int45, int31));
+                            CC_SETONMOUSELEAVE(callback(script3132, int17, int45, int31));
+                            CC_SETOP(1, "Alter");
+                            CC_SETOPBASE("Favourite");
+                            CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
+                            CC_SETONCLICK(callback(script10036));
+                            if ((int31 == MAP_WORLD())) {
+                                IF_SETHIDE(false, comp(910, 65));
+                                IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                            };
+                            if ((int31 == script20335(1))) {
+                                int42 = int45;
+                            };
+                            if ((int31 == script20335(2))) {
+                                int43 = int45;
+                            };
+                            if ((int31 == script20335(3))) {
+                                int44 = int45;
+                            };
+                            [int31, int32, string0, int33, string1, int34, int35, string2] = unk11101();
+                            int46 = (int46 + (int1 + int2));
+                            int45 = (int45 + 1);
+                        };
+                    } else {
+                        [int40, string3, string4, int38, int41, int37, int36, string5, string6] = script3117(int31, int32, int45, string0, string1, int34, int33);
+                        if ((script13749() == 1)) {
+                            if ((int38 == 16777215)) {
+                                int39 = 7705248;
+                            } else {
+                                int39 = int38;
+                            };
+                            int38 = 7705248;
+                        } else {
+                            int39 = int38;
+                        };
+                        script20333(int16, int45, int1, int46, int45);
+                        script7924(int17, int45, int9, int9, 0, int46, int36, 0, 0, 0, 0);
+                        CC_SETPOSITION(0, (int46 + int5), 1, 0);
+                        script10629(int18, int45, (IF_GETWIDTH(int18) - 6), int1, 3, int46, inttostring(int31, 10), int38, int15, 0, 1, 0, 1);
+                        script10629(int20, int45, (IF_GETWIDTH(int20) - 6), int1, 3, int46, string6, int38, int15, 0, 1, 0, 1);
+                        script10629(int21, int45, (IF_GETWIDTH(int21) - 6), int1, 3, int46, string4, int38, int15, 0, 1, 0, 1);
+                        script7924(int23, int45, 24, 12, 4, (int46 + int3), int40, 0, 0, 0, 0);
+                        script10629(int22, int45, 30, int1, 30, int46, string3, int38, int15, 0, 1, 0, 1);
+                        CC_SETSIZE(30, int1, 1, 0);
+                        script10629(int24, int45, (IF_GETWIDTH(int24) - 10), int1, 5, int46, string5, int39, int15, 0, 1, 0, 1);
+                        script7924(int25, int45, int10, int10, 0, (int46 + int4), int41, 0, 0, 0, 0);
+                        CC_SETPOSITION(0, (int46 + int4), 1, 0);
+                        if ((int35 == -1)) {
+                            string7 = "-";
+                        } else if ((int35 >= 1000)) {
+                            string7 = "N/A";
+                        } else {
+                            string7 = inttostring(int35, 10);
+                        };
+                        script10629(int26, int45, (IF_GETWIDTH(int26) - 10), int1, 5, int46, string7, int38, int15, 0, 1, 0, 1);
+                        script10629(int27, int45, IF_GETWIDTH(int27), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                        CC_SETOP(1, "Select");
+                        CC_SETOPBASE(`World ${inttostring(int31, 10)}`);
+                        CC_SETONOP(callback(script3129, -2147483644, int45, int31, string2));
+                        script10629(int28, int45, IF_GETWIDTH(int28), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                        CC_SETONMOUSEOVER(callback(script3130, int17, int28, int45, int31));
+                        CC_SETONMOUSELEAVE(callback(script3132, int17, int45, int31));
+                        CC_SETOP(1, "Alter");
+                        CC_SETOPBASE("Favourite");
+                        CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
+                        CC_SETONCLICK(callback(script10036));
+                        if ((int31 == MAP_WORLD())) {
+                            IF_SETHIDE(false, comp(910, 65));
+                            IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                        };
+                        if ((int31 == script20335(1))) {
+                            int42 = int45;
+                        };
+                        if ((int31 == script20335(2))) {
+                            int43 = int45;
+                        };
+                        if ((int31 == script20335(3))) {
+                            int44 = int45;
+                        };
+                        [int31, int32, string0, int33, string1, int34, int35, string2] = unk11101();
+                        int46 = (int46 + (int1 + int2));
+                        int45 = (int45 + 1);
+                    };
+                } else {
+                    [int40, string3, string4, int38, int41, int37, int36, string5, string6] = script3117(int31, int32, int45, string0, string1, int34, int33);
+                    if ((script13749() == 1)) {
+                        if ((int38 == 16777215)) {
+                            int39 = 7705248;
+                        } else {
+                            int39 = int38;
+                        };
+                        int38 = 7705248;
+                    } else {
+                        int39 = int38;
+                    };
+                    script20333(int16, int45, int1, int46, int45);
+                    script7924(int17, int45, int9, int9, 0, int46, int36, 0, 0, 0, 0);
+                    CC_SETPOSITION(0, (int46 + int5), 1, 0);
+                    script10629(int18, int45, (IF_GETWIDTH(int18) - 6), int1, 3, int46, inttostring(int31, 10), int38, int15, 0, 1, 0, 1);
+                    script10629(int20, int45, (IF_GETWIDTH(int20) - 6), int1, 3, int46, string6, int38, int15, 0, 1, 0, 1);
+                    script10629(int21, int45, (IF_GETWIDTH(int21) - 6), int1, 3, int46, string4, int38, int15, 0, 1, 0, 1);
+                    script7924(int23, int45, 24, 12, 4, (int46 + int3), int40, 0, 0, 0, 0);
+                    script10629(int22, int45, 30, int1, 30, int46, string3, int38, int15, 0, 1, 0, 1);
+                    CC_SETSIZE(30, int1, 1, 0);
+                    script10629(int24, int45, (IF_GETWIDTH(int24) - 10), int1, 5, int46, string5, int39, int15, 0, 1, 0, 1);
+                    script7924(int25, int45, int10, int10, 0, (int46 + int4), int41, 0, 0, 0, 0);
+                    CC_SETPOSITION(0, (int46 + int4), 1, 0);
+                    if ((int35 == -1)) {
+                        string7 = "-";
+                    } else if ((int35 >= 1000)) {
+                        string7 = "N/A";
+                    } else {
+                        string7 = inttostring(int35, 10);
+                    };
+                    script10629(int26, int45, (IF_GETWIDTH(int26) - 10), int1, 5, int46, string7, int38, int15, 0, 1, 0, 1);
+                    script10629(int27, int45, IF_GETWIDTH(int27), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                    CC_SETOP(1, "Select");
+                    CC_SETOPBASE(`World ${inttostring(int31, 10)}`);
+                    CC_SETONOP(callback(script3129, -2147483644, int45, int31, string2));
+                    script10629(int28, int45, IF_GETWIDTH(int28), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                    CC_SETONMOUSEOVER(callback(script3130, int17, int28, int45, int31));
+                    CC_SETONMOUSELEAVE(callback(script3132, int17, int45, int31));
+                    CC_SETOP(1, "Alter");
+                    CC_SETOPBASE("Favourite");
+                    CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
+                    CC_SETONCLICK(callback(script10036));
+                    if ((int31 == MAP_WORLD())) {
+                        IF_SETHIDE(false, comp(910, 65));
+                        IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                    };
+                    if ((int31 == script20335(1))) {
+                        int42 = int45;
+                    };
+                    if ((int31 == script20335(2))) {
+                        int43 = int45;
+                    };
+                    if ((int31 == script20335(3))) {
+                        int44 = int45;
+                    };
+                    [int31, int32, string0, int33, string1, int34, int35, string2] = unk11101();
+                    int46 = (int46 + (int1 + int2));
+                    int45 = (int45 + 1);
+                };
+            } else if ((TESTBIT(int32, 30) == 0)) {
+                if ((int47 == 1)) {
+                    if ((STAFFMODLEVEL() < 2)) {
+                        [int31, int32, string0, int33, string1, int34, int35, string2] = unk11101();
+                    } else {
+                        [int40, string3, string4, int38, int41, int37, int36, string5, string6] = script3117(int31, int32, int45, string0, string1, int34, int33);
+                        if ((script13749() == 1)) {
+                            if ((int38 == 16777215)) {
+                                int39 = 7705248;
+                            } else {
+                                int39 = int38;
+                            };
+                            int38 = 7705248;
+                        } else {
+                            int39 = int38;
+                        };
+                        script20333(int16, int45, int1, int46, int45);
+                        script7924(int17, int45, int9, int9, 0, int46, int36, 0, 0, 0, 0);
+                        CC_SETPOSITION(0, (int46 + int5), 1, 0);
+                        script10629(int18, int45, (IF_GETWIDTH(int18) - 6), int1, 3, int46, inttostring(int31, 10), int38, int15, 0, 1, 0, 1);
+                        script10629(int20, int45, (IF_GETWIDTH(int20) - 6), int1, 3, int46, string6, int38, int15, 0, 1, 0, 1);
+                        script10629(int21, int45, (IF_GETWIDTH(int21) - 6), int1, 3, int46, string4, int38, int15, 0, 1, 0, 1);
+                        script7924(int23, int45, 24, 12, 4, (int46 + int3), int40, 0, 0, 0, 0);
+                        script10629(int22, int45, 30, int1, 30, int46, string3, int38, int15, 0, 1, 0, 1);
+                        CC_SETSIZE(30, int1, 1, 0);
+                        script10629(int24, int45, (IF_GETWIDTH(int24) - 10), int1, 5, int46, string5, int39, int15, 0, 1, 0, 1);
+                        script7924(int25, int45, int10, int10, 0, (int46 + int4), int41, 0, 0, 0, 0);
+                        CC_SETPOSITION(0, (int46 + int4), 1, 0);
+                        if ((int35 == -1)) {
+                            string7 = "-";
+                        } else if ((int35 >= 1000)) {
+                            string7 = "N/A";
+                        } else {
+                            string7 = inttostring(int35, 10);
+                        };
+                        script10629(int26, int45, (IF_GETWIDTH(int26) - 10), int1, 5, int46, string7, int38, int15, 0, 1, 0, 1);
+                        script10629(int27, int45, IF_GETWIDTH(int27), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                        CC_SETOP(1, "Select");
+                        CC_SETOPBASE(`World ${inttostring(int31, 10)}`);
+                        CC_SETONOP(callback(script3129, -2147483644, int45, int31, string2));
+                        script10629(int28, int45, IF_GETWIDTH(int28), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                        CC_SETONMOUSEOVER(callback(script3130, int17, int28, int45, int31));
+                        CC_SETONMOUSELEAVE(callback(script3132, int17, int45, int31));
+                        CC_SETOP(1, "Alter");
+                        CC_SETOPBASE("Favourite");
+                        CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
+                        CC_SETONCLICK(callback(script10036));
+                        if ((int31 == MAP_WORLD())) {
+                            IF_SETHIDE(false, comp(910, 65));
+                            IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                        };
+                        if ((int31 == script20335(1))) {
+                            int42 = int45;
+                        };
+                        if ((int31 == script20335(2))) {
+                            int43 = int45;
+                        };
+                        if ((int31 == script20335(3))) {
+                            int44 = int45;
+                        };
+                        [int31, int32, string0, int33, string1, int34, int35, string2] = unk11101();
+                        int46 = (int46 + (int1 + int2));
+                        int45 = (int45 + 1);
+                    };
+                } else {
+                    [int40, string3, string4, int38, int41, int37, int36, string5, string6] = script3117(int31, int32, int45, string0, string1, int34, int33);
+                    if ((script13749() == 1)) {
+                        if ((int38 == 16777215)) {
+                            int39 = 7705248;
+                        } else {
+                            int39 = int38;
+                        };
+                        int38 = 7705248;
+                    } else {
+                        int39 = int38;
+                    };
+                    script20333(int16, int45, int1, int46, int45);
+                    script7924(int17, int45, int9, int9, 0, int46, int36, 0, 0, 0, 0);
+                    CC_SETPOSITION(0, (int46 + int5), 1, 0);
+                    script10629(int18, int45, (IF_GETWIDTH(int18) - 6), int1, 3, int46, inttostring(int31, 10), int38, int15, 0, 1, 0, 1);
+                    script10629(int20, int45, (IF_GETWIDTH(int20) - 6), int1, 3, int46, string6, int38, int15, 0, 1, 0, 1);
+                    script10629(int21, int45, (IF_GETWIDTH(int21) - 6), int1, 3, int46, string4, int38, int15, 0, 1, 0, 1);
+                    script7924(int23, int45, 24, 12, 4, (int46 + int3), int40, 0, 0, 0, 0);
+                    script10629(int22, int45, 30, int1, 30, int46, string3, int38, int15, 0, 1, 0, 1);
+                    CC_SETSIZE(30, int1, 1, 0);
+                    script10629(int24, int45, (IF_GETWIDTH(int24) - 10), int1, 5, int46, string5, int39, int15, 0, 1, 0, 1);
+                    script7924(int25, int45, int10, int10, 0, (int46 + int4), int41, 0, 0, 0, 0);
+                    CC_SETPOSITION(0, (int46 + int4), 1, 0);
+                    if ((int35 == -1)) {
+                        string7 = "-";
+                    } else if ((int35 >= 1000)) {
+                        string7 = "N/A";
+                    } else {
+                        string7 = inttostring(int35, 10);
+                    };
+                    script10629(int26, int45, (IF_GETWIDTH(int26) - 10), int1, 5, int46, string7, int38, int15, 0, 1, 0, 1);
+                    script10629(int27, int45, IF_GETWIDTH(int27), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                    CC_SETOP(1, "Select");
+                    CC_SETOPBASE(`World ${inttostring(int31, 10)}`);
+                    CC_SETONOP(callback(script3129, -2147483644, int45, int31, string2));
+                    script10629(int28, int45, IF_GETWIDTH(int28), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                    CC_SETONMOUSEOVER(callback(script3130, int17, int28, int45, int31));
+                    CC_SETONMOUSELEAVE(callback(script3132, int17, int45, int31));
+                    CC_SETOP(1, "Alter");
+                    CC_SETOPBASE("Favourite");
+                    CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
+                    CC_SETONCLICK(callback(script10036));
+                    if ((int31 == MAP_WORLD())) {
+                        IF_SETHIDE(false, comp(910, 65));
+                        IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                    };
+                    if ((int31 == script20335(1))) {
+                        int42 = int45;
+                    };
+                    if ((int31 == script20335(2))) {
+                        int43 = int45;
+                    };
+                    if ((int31 == script20335(3))) {
+                        int44 = int45;
+                    };
+                    [int31, int32, string0, int33, string1, int34, int35, string2] = unk11101();
+                    int46 = (int46 + (int1 + int2));
+                    int45 = (int45 + 1);
+                };
+            } else {
+                [int40, string3, string4, int38, int41, int37, int36, string5, string6] = script3117(int31, int32, int45, string0, string1, int34, int33);
+                if ((script13749() == 1)) {
+                    if ((int38 == 16777215)) {
+                        int39 = 7705248;
+                    } else {
+                        int39 = int38;
+                    };
+                    int38 = 7705248;
+                } else {
+                    int39 = int38;
+                };
+                script20333(int16, int45, int1, int46, int45);
+                script7924(int17, int45, int9, int9, 0, int46, int36, 0, 0, 0, 0);
+                CC_SETPOSITION(0, (int46 + int5), 1, 0);
+                script10629(int18, int45, (IF_GETWIDTH(int18) - 6), int1, 3, int46, inttostring(int31, 10), int38, int15, 0, 1, 0, 1);
+                script10629(int20, int45, (IF_GETWIDTH(int20) - 6), int1, 3, int46, string6, int38, int15, 0, 1, 0, 1);
+                script10629(int21, int45, (IF_GETWIDTH(int21) - 6), int1, 3, int46, string4, int38, int15, 0, 1, 0, 1);
+                script7924(int23, int45, 24, 12, 4, (int46 + int3), int40, 0, 0, 0, 0);
+                script10629(int22, int45, 30, int1, 30, int46, string3, int38, int15, 0, 1, 0, 1);
+                CC_SETSIZE(30, int1, 1, 0);
+                script10629(int24, int45, (IF_GETWIDTH(int24) - 10), int1, 5, int46, string5, int39, int15, 0, 1, 0, 1);
+                script7924(int25, int45, int10, int10, 0, (int46 + int4), int41, 0, 0, 0, 0);
+                CC_SETPOSITION(0, (int46 + int4), 1, 0);
+                if ((int35 == -1)) {
+                    string7 = "-";
+                } else if ((int35 >= 1000)) {
+                    string7 = "N/A";
+                } else {
+                    string7 = inttostring(int35, 10);
+                };
+                script10629(int26, int45, (IF_GETWIDTH(int26) - 10), int1, 5, int46, string7, int38, int15, 0, 1, 0, 1);
+                script10629(int27, int45, IF_GETWIDTH(int27), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                CC_SETOP(1, "Select");
+                CC_SETOPBASE(`World ${inttostring(int31, 10)}`);
+                CC_SETONOP(callback(script3129, -2147483644, int45, int31, string2));
+                script10629(int28, int45, IF_GETWIDTH(int28), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                CC_SETONMOUSEOVER(callback(script3130, int17, int28, int45, int31));
+                CC_SETONMOUSELEAVE(callback(script3132, int17, int45, int31));
+                CC_SETOP(1, "Alter");
+                CC_SETOPBASE("Favourite");
+                CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
+                CC_SETONCLICK(callback(script10036));
+                if ((int31 == MAP_WORLD())) {
+                    IF_SETHIDE(false, comp(910, 65));
+                    IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                };
+                if ((int31 == script20335(1))) {
+                    int42 = int45;
+                };
+                if ((int31 == script20335(2))) {
+                    int43 = int45;
+                };
+                if ((int31 == script20335(3))) {
+                    int44 = int45;
+                };
+                [int31, int32, string0, int33, string1, int34, int35, string2] = unk11101();
+                int46 = (int46 + (int1 + int2));
+                int45 = (int45 + 1);
+            };
         } else if ((TESTBIT(int32, 12) == 1)) {
-            stack(unk11101());
-            [int31, int32, string0, int33, string1, int34, int35, string2] = stack();
-        } else if ((((TESTBIT(int32, 30) == 1) && (int47 == 0)) && (STAFFMODLEVEL() < 2))) {
-            stack(unk11101());
-            [int31, int32, string0, int33, string1, int34, int35, string2] = stack();
-        } else if ((((TESTBIT(int32, 30) == 0) && (int47 == 1)) && (STAFFMODLEVEL() < 2))) {
-            stack(unk11101());
-            [int31, int32, string0, int33, string1, int34, int35, string2] = stack();
+            [int31, int32, string0, int33, string1, int34, int35, string2] = unk11101();
+        } else if ((TESTBIT(int32, 30) == 1)) {
+            if ((int47 == 0)) {
+                if ((STAFFMODLEVEL() < 2)) {
+                    [int31, int32, string0, int33, string1, int34, int35, string2] = unk11101();
+                } else if ((TESTBIT(int32, 30) == 0)) {
+                    if ((int47 == 1)) {
+                        if ((STAFFMODLEVEL() < 2)) {
+                            [int31, int32, string0, int33, string1, int34, int35, string2] = unk11101();
+                        } else {
+                            [int40, string3, string4, int38, int41, int37, int36, string5, string6] = script3117(int31, int32, int45, string0, string1, int34, int33);
+                            if ((script13749() == 1)) {
+                                if ((int38 == 16777215)) {
+                                    int39 = 7705248;
+                                } else {
+                                    int39 = int38;
+                                };
+                                int38 = 7705248;
+                            } else {
+                                int39 = int38;
+                            };
+                            script20333(int16, int45, int1, int46, int45);
+                            script7924(int17, int45, int9, int9, 0, int46, int36, 0, 0, 0, 0);
+                            CC_SETPOSITION(0, (int46 + int5), 1, 0);
+                            script10629(int18, int45, (IF_GETWIDTH(int18) - 6), int1, 3, int46, inttostring(int31, 10), int38, int15, 0, 1, 0, 1);
+                            script10629(int20, int45, (IF_GETWIDTH(int20) - 6), int1, 3, int46, string6, int38, int15, 0, 1, 0, 1);
+                            script10629(int21, int45, (IF_GETWIDTH(int21) - 6), int1, 3, int46, string4, int38, int15, 0, 1, 0, 1);
+                            script7924(int23, int45, 24, 12, 4, (int46 + int3), int40, 0, 0, 0, 0);
+                            script10629(int22, int45, 30, int1, 30, int46, string3, int38, int15, 0, 1, 0, 1);
+                            CC_SETSIZE(30, int1, 1, 0);
+                            script10629(int24, int45, (IF_GETWIDTH(int24) - 10), int1, 5, int46, string5, int39, int15, 0, 1, 0, 1);
+                            script7924(int25, int45, int10, int10, 0, (int46 + int4), int41, 0, 0, 0, 0);
+                            CC_SETPOSITION(0, (int46 + int4), 1, 0);
+                            if ((int35 == -1)) {
+                                string7 = "-";
+                            } else if ((int35 >= 1000)) {
+                                string7 = "N/A";
+                            } else {
+                                string7 = inttostring(int35, 10);
+                            };
+                            script10629(int26, int45, (IF_GETWIDTH(int26) - 10), int1, 5, int46, string7, int38, int15, 0, 1, 0, 1);
+                            script10629(int27, int45, IF_GETWIDTH(int27), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                            CC_SETOP(1, "Select");
+                            CC_SETOPBASE(`World ${inttostring(int31, 10)}`);
+                            CC_SETONOP(callback(script3129, -2147483644, int45, int31, string2));
+                            script10629(int28, int45, IF_GETWIDTH(int28), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                            CC_SETONMOUSEOVER(callback(script3130, int17, int28, int45, int31));
+                            CC_SETONMOUSELEAVE(callback(script3132, int17, int45, int31));
+                            CC_SETOP(1, "Alter");
+                            CC_SETOPBASE("Favourite");
+                            CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
+                            CC_SETONCLICK(callback(script10036));
+                            if ((int31 == MAP_WORLD())) {
+                                IF_SETHIDE(false, comp(910, 65));
+                                IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                            };
+                            if ((int31 == script20335(1))) {
+                                int42 = int45;
+                            };
+                            if ((int31 == script20335(2))) {
+                                int43 = int45;
+                            };
+                            if ((int31 == script20335(3))) {
+                                int44 = int45;
+                            };
+                            [int31, int32, string0, int33, string1, int34, int35, string2] = unk11101();
+                            int46 = (int46 + (int1 + int2));
+                            int45 = (int45 + 1);
+                        };
+                    } else {
+                        [int40, string3, string4, int38, int41, int37, int36, string5, string6] = script3117(int31, int32, int45, string0, string1, int34, int33);
+                        if ((script13749() == 1)) {
+                            if ((int38 == 16777215)) {
+                                int39 = 7705248;
+                            } else {
+                                int39 = int38;
+                            };
+                            int38 = 7705248;
+                        } else {
+                            int39 = int38;
+                        };
+                        script20333(int16, int45, int1, int46, int45);
+                        script7924(int17, int45, int9, int9, 0, int46, int36, 0, 0, 0, 0);
+                        CC_SETPOSITION(0, (int46 + int5), 1, 0);
+                        script10629(int18, int45, (IF_GETWIDTH(int18) - 6), int1, 3, int46, inttostring(int31, 10), int38, int15, 0, 1, 0, 1);
+                        script10629(int20, int45, (IF_GETWIDTH(int20) - 6), int1, 3, int46, string6, int38, int15, 0, 1, 0, 1);
+                        script10629(int21, int45, (IF_GETWIDTH(int21) - 6), int1, 3, int46, string4, int38, int15, 0, 1, 0, 1);
+                        script7924(int23, int45, 24, 12, 4, (int46 + int3), int40, 0, 0, 0, 0);
+                        script10629(int22, int45, 30, int1, 30, int46, string3, int38, int15, 0, 1, 0, 1);
+                        CC_SETSIZE(30, int1, 1, 0);
+                        script10629(int24, int45, (IF_GETWIDTH(int24) - 10), int1, 5, int46, string5, int39, int15, 0, 1, 0, 1);
+                        script7924(int25, int45, int10, int10, 0, (int46 + int4), int41, 0, 0, 0, 0);
+                        CC_SETPOSITION(0, (int46 + int4), 1, 0);
+                        if ((int35 == -1)) {
+                            string7 = "-";
+                        } else if ((int35 >= 1000)) {
+                            string7 = "N/A";
+                        } else {
+                            string7 = inttostring(int35, 10);
+                        };
+                        script10629(int26, int45, (IF_GETWIDTH(int26) - 10), int1, 5, int46, string7, int38, int15, 0, 1, 0, 1);
+                        script10629(int27, int45, IF_GETWIDTH(int27), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                        CC_SETOP(1, "Select");
+                        CC_SETOPBASE(`World ${inttostring(int31, 10)}`);
+                        CC_SETONOP(callback(script3129, -2147483644, int45, int31, string2));
+                        script10629(int28, int45, IF_GETWIDTH(int28), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                        CC_SETONMOUSEOVER(callback(script3130, int17, int28, int45, int31));
+                        CC_SETONMOUSELEAVE(callback(script3132, int17, int45, int31));
+                        CC_SETOP(1, "Alter");
+                        CC_SETOPBASE("Favourite");
+                        CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
+                        CC_SETONCLICK(callback(script10036));
+                        if ((int31 == MAP_WORLD())) {
+                            IF_SETHIDE(false, comp(910, 65));
+                            IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                        };
+                        if ((int31 == script20335(1))) {
+                            int42 = int45;
+                        };
+                        if ((int31 == script20335(2))) {
+                            int43 = int45;
+                        };
+                        if ((int31 == script20335(3))) {
+                            int44 = int45;
+                        };
+                        [int31, int32, string0, int33, string1, int34, int35, string2] = unk11101();
+                        int46 = (int46 + (int1 + int2));
+                        int45 = (int45 + 1);
+                    };
+                } else {
+                    [int40, string3, string4, int38, int41, int37, int36, string5, string6] = script3117(int31, int32, int45, string0, string1, int34, int33);
+                    if ((script13749() == 1)) {
+                        if ((int38 == 16777215)) {
+                            int39 = 7705248;
+                        } else {
+                            int39 = int38;
+                        };
+                        int38 = 7705248;
+                    } else {
+                        int39 = int38;
+                    };
+                    script20333(int16, int45, int1, int46, int45);
+                    script7924(int17, int45, int9, int9, 0, int46, int36, 0, 0, 0, 0);
+                    CC_SETPOSITION(0, (int46 + int5), 1, 0);
+                    script10629(int18, int45, (IF_GETWIDTH(int18) - 6), int1, 3, int46, inttostring(int31, 10), int38, int15, 0, 1, 0, 1);
+                    script10629(int20, int45, (IF_GETWIDTH(int20) - 6), int1, 3, int46, string6, int38, int15, 0, 1, 0, 1);
+                    script10629(int21, int45, (IF_GETWIDTH(int21) - 6), int1, 3, int46, string4, int38, int15, 0, 1, 0, 1);
+                    script7924(int23, int45, 24, 12, 4, (int46 + int3), int40, 0, 0, 0, 0);
+                    script10629(int22, int45, 30, int1, 30, int46, string3, int38, int15, 0, 1, 0, 1);
+                    CC_SETSIZE(30, int1, 1, 0);
+                    script10629(int24, int45, (IF_GETWIDTH(int24) - 10), int1, 5, int46, string5, int39, int15, 0, 1, 0, 1);
+                    script7924(int25, int45, int10, int10, 0, (int46 + int4), int41, 0, 0, 0, 0);
+                    CC_SETPOSITION(0, (int46 + int4), 1, 0);
+                    if ((int35 == -1)) {
+                        string7 = "-";
+                    } else if ((int35 >= 1000)) {
+                        string7 = "N/A";
+                    } else {
+                        string7 = inttostring(int35, 10);
+                    };
+                    script10629(int26, int45, (IF_GETWIDTH(int26) - 10), int1, 5, int46, string7, int38, int15, 0, 1, 0, 1);
+                    script10629(int27, int45, IF_GETWIDTH(int27), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                    CC_SETOP(1, "Select");
+                    CC_SETOPBASE(`World ${inttostring(int31, 10)}`);
+                    CC_SETONOP(callback(script3129, -2147483644, int45, int31, string2));
+                    script10629(int28, int45, IF_GETWIDTH(int28), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                    CC_SETONMOUSEOVER(callback(script3130, int17, int28, int45, int31));
+                    CC_SETONMOUSELEAVE(callback(script3132, int17, int45, int31));
+                    CC_SETOP(1, "Alter");
+                    CC_SETOPBASE("Favourite");
+                    CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
+                    CC_SETONCLICK(callback(script10036));
+                    if ((int31 == MAP_WORLD())) {
+                        IF_SETHIDE(false, comp(910, 65));
+                        IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                    };
+                    if ((int31 == script20335(1))) {
+                        int42 = int45;
+                    };
+                    if ((int31 == script20335(2))) {
+                        int43 = int45;
+                    };
+                    if ((int31 == script20335(3))) {
+                        int44 = int45;
+                    };
+                    [int31, int32, string0, int33, string1, int34, int35, string2] = unk11101();
+                    int46 = (int46 + (int1 + int2));
+                    int45 = (int45 + 1);
+                };
+            } else if ((TESTBIT(int32, 30) == 0)) {
+                if ((int47 == 1)) {
+                    if ((STAFFMODLEVEL() < 2)) {
+                        [int31, int32, string0, int33, string1, int34, int35, string2] = unk11101();
+                    } else {
+                        [int40, string3, string4, int38, int41, int37, int36, string5, string6] = script3117(int31, int32, int45, string0, string1, int34, int33);
+                        if ((script13749() == 1)) {
+                            if ((int38 == 16777215)) {
+                                int39 = 7705248;
+                            } else {
+                                int39 = int38;
+                            };
+                            int38 = 7705248;
+                        } else {
+                            int39 = int38;
+                        };
+                        script20333(int16, int45, int1, int46, int45);
+                        script7924(int17, int45, int9, int9, 0, int46, int36, 0, 0, 0, 0);
+                        CC_SETPOSITION(0, (int46 + int5), 1, 0);
+                        script10629(int18, int45, (IF_GETWIDTH(int18) - 6), int1, 3, int46, inttostring(int31, 10), int38, int15, 0, 1, 0, 1);
+                        script10629(int20, int45, (IF_GETWIDTH(int20) - 6), int1, 3, int46, string6, int38, int15, 0, 1, 0, 1);
+                        script10629(int21, int45, (IF_GETWIDTH(int21) - 6), int1, 3, int46, string4, int38, int15, 0, 1, 0, 1);
+                        script7924(int23, int45, 24, 12, 4, (int46 + int3), int40, 0, 0, 0, 0);
+                        script10629(int22, int45, 30, int1, 30, int46, string3, int38, int15, 0, 1, 0, 1);
+                        CC_SETSIZE(30, int1, 1, 0);
+                        script10629(int24, int45, (IF_GETWIDTH(int24) - 10), int1, 5, int46, string5, int39, int15, 0, 1, 0, 1);
+                        script7924(int25, int45, int10, int10, 0, (int46 + int4), int41, 0, 0, 0, 0);
+                        CC_SETPOSITION(0, (int46 + int4), 1, 0);
+                        if ((int35 == -1)) {
+                            string7 = "-";
+                        } else if ((int35 >= 1000)) {
+                            string7 = "N/A";
+                        } else {
+                            string7 = inttostring(int35, 10);
+                        };
+                        script10629(int26, int45, (IF_GETWIDTH(int26) - 10), int1, 5, int46, string7, int38, int15, 0, 1, 0, 1);
+                        script10629(int27, int45, IF_GETWIDTH(int27), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                        CC_SETOP(1, "Select");
+                        CC_SETOPBASE(`World ${inttostring(int31, 10)}`);
+                        CC_SETONOP(callback(script3129, -2147483644, int45, int31, string2));
+                        script10629(int28, int45, IF_GETWIDTH(int28), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                        CC_SETONMOUSEOVER(callback(script3130, int17, int28, int45, int31));
+                        CC_SETONMOUSELEAVE(callback(script3132, int17, int45, int31));
+                        CC_SETOP(1, "Alter");
+                        CC_SETOPBASE("Favourite");
+                        CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
+                        CC_SETONCLICK(callback(script10036));
+                        if ((int31 == MAP_WORLD())) {
+                            IF_SETHIDE(false, comp(910, 65));
+                            IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                        };
+                        if ((int31 == script20335(1))) {
+                            int42 = int45;
+                        };
+                        if ((int31 == script20335(2))) {
+                            int43 = int45;
+                        };
+                        if ((int31 == script20335(3))) {
+                            int44 = int45;
+                        };
+                        [int31, int32, string0, int33, string1, int34, int35, string2] = unk11101();
+                        int46 = (int46 + (int1 + int2));
+                        int45 = (int45 + 1);
+                    };
+                } else {
+                    [int40, string3, string4, int38, int41, int37, int36, string5, string6] = script3117(int31, int32, int45, string0, string1, int34, int33);
+                    if ((script13749() == 1)) {
+                        if ((int38 == 16777215)) {
+                            int39 = 7705248;
+                        } else {
+                            int39 = int38;
+                        };
+                        int38 = 7705248;
+                    } else {
+                        int39 = int38;
+                    };
+                    script20333(int16, int45, int1, int46, int45);
+                    script7924(int17, int45, int9, int9, 0, int46, int36, 0, 0, 0, 0);
+                    CC_SETPOSITION(0, (int46 + int5), 1, 0);
+                    script10629(int18, int45, (IF_GETWIDTH(int18) - 6), int1, 3, int46, inttostring(int31, 10), int38, int15, 0, 1, 0, 1);
+                    script10629(int20, int45, (IF_GETWIDTH(int20) - 6), int1, 3, int46, string6, int38, int15, 0, 1, 0, 1);
+                    script10629(int21, int45, (IF_GETWIDTH(int21) - 6), int1, 3, int46, string4, int38, int15, 0, 1, 0, 1);
+                    script7924(int23, int45, 24, 12, 4, (int46 + int3), int40, 0, 0, 0, 0);
+                    script10629(int22, int45, 30, int1, 30, int46, string3, int38, int15, 0, 1, 0, 1);
+                    CC_SETSIZE(30, int1, 1, 0);
+                    script10629(int24, int45, (IF_GETWIDTH(int24) - 10), int1, 5, int46, string5, int39, int15, 0, 1, 0, 1);
+                    script7924(int25, int45, int10, int10, 0, (int46 + int4), int41, 0, 0, 0, 0);
+                    CC_SETPOSITION(0, (int46 + int4), 1, 0);
+                    if ((int35 == -1)) {
+                        string7 = "-";
+                    } else if ((int35 >= 1000)) {
+                        string7 = "N/A";
+                    } else {
+                        string7 = inttostring(int35, 10);
+                    };
+                    script10629(int26, int45, (IF_GETWIDTH(int26) - 10), int1, 5, int46, string7, int38, int15, 0, 1, 0, 1);
+                    script10629(int27, int45, IF_GETWIDTH(int27), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                    CC_SETOP(1, "Select");
+                    CC_SETOPBASE(`World ${inttostring(int31, 10)}`);
+                    CC_SETONOP(callback(script3129, -2147483644, int45, int31, string2));
+                    script10629(int28, int45, IF_GETWIDTH(int28), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                    CC_SETONMOUSEOVER(callback(script3130, int17, int28, int45, int31));
+                    CC_SETONMOUSELEAVE(callback(script3132, int17, int45, int31));
+                    CC_SETOP(1, "Alter");
+                    CC_SETOPBASE("Favourite");
+                    CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
+                    CC_SETONCLICK(callback(script10036));
+                    if ((int31 == MAP_WORLD())) {
+                        IF_SETHIDE(false, comp(910, 65));
+                        IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                    };
+                    if ((int31 == script20335(1))) {
+                        int42 = int45;
+                    };
+                    if ((int31 == script20335(2))) {
+                        int43 = int45;
+                    };
+                    if ((int31 == script20335(3))) {
+                        int44 = int45;
+                    };
+                    [int31, int32, string0, int33, string1, int34, int35, string2] = unk11101();
+                    int46 = (int46 + (int1 + int2));
+                    int45 = (int45 + 1);
+                };
+            } else {
+                [int40, string3, string4, int38, int41, int37, int36, string5, string6] = script3117(int31, int32, int45, string0, string1, int34, int33);
+                if ((script13749() == 1)) {
+                    if ((int38 == 16777215)) {
+                        int39 = 7705248;
+                    } else {
+                        int39 = int38;
+                    };
+                    int38 = 7705248;
+                } else {
+                    int39 = int38;
+                };
+                script20333(int16, int45, int1, int46, int45);
+                script7924(int17, int45, int9, int9, 0, int46, int36, 0, 0, 0, 0);
+                CC_SETPOSITION(0, (int46 + int5), 1, 0);
+                script10629(int18, int45, (IF_GETWIDTH(int18) - 6), int1, 3, int46, inttostring(int31, 10), int38, int15, 0, 1, 0, 1);
+                script10629(int20, int45, (IF_GETWIDTH(int20) - 6), int1, 3, int46, string6, int38, int15, 0, 1, 0, 1);
+                script10629(int21, int45, (IF_GETWIDTH(int21) - 6), int1, 3, int46, string4, int38, int15, 0, 1, 0, 1);
+                script7924(int23, int45, 24, 12, 4, (int46 + int3), int40, 0, 0, 0, 0);
+                script10629(int22, int45, 30, int1, 30, int46, string3, int38, int15, 0, 1, 0, 1);
+                CC_SETSIZE(30, int1, 1, 0);
+                script10629(int24, int45, (IF_GETWIDTH(int24) - 10), int1, 5, int46, string5, int39, int15, 0, 1, 0, 1);
+                script7924(int25, int45, int10, int10, 0, (int46 + int4), int41, 0, 0, 0, 0);
+                CC_SETPOSITION(0, (int46 + int4), 1, 0);
+                if ((int35 == -1)) {
+                    string7 = "-";
+                } else if ((int35 >= 1000)) {
+                    string7 = "N/A";
+                } else {
+                    string7 = inttostring(int35, 10);
+                };
+                script10629(int26, int45, (IF_GETWIDTH(int26) - 10), int1, 5, int46, string7, int38, int15, 0, 1, 0, 1);
+                script10629(int27, int45, IF_GETWIDTH(int27), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                CC_SETOP(1, "Select");
+                CC_SETOPBASE(`World ${inttostring(int31, 10)}`);
+                CC_SETONOP(callback(script3129, -2147483644, int45, int31, string2));
+                script10629(int28, int45, IF_GETWIDTH(int28), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                CC_SETONMOUSEOVER(callback(script3130, int17, int28, int45, int31));
+                CC_SETONMOUSELEAVE(callback(script3132, int17, int45, int31));
+                CC_SETOP(1, "Alter");
+                CC_SETOPBASE("Favourite");
+                CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
+                CC_SETONCLICK(callback(script10036));
+                if ((int31 == MAP_WORLD())) {
+                    IF_SETHIDE(false, comp(910, 65));
+                    IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                };
+                if ((int31 == script20335(1))) {
+                    int42 = int45;
+                };
+                if ((int31 == script20335(2))) {
+                    int43 = int45;
+                };
+                if ((int31 == script20335(3))) {
+                    int44 = int45;
+                };
+                [int31, int32, string0, int33, string1, int34, int35, string2] = unk11101();
+                int46 = (int46 + (int1 + int2));
+                int45 = (int45 + 1);
+            };
+        } else if ((TESTBIT(int32, 30) == 0)) {
+            if ((int47 == 1)) {
+                if ((STAFFMODLEVEL() < 2)) {
+                    [int31, int32, string0, int33, string1, int34, int35, string2] = unk11101();
+                } else {
+                    [int40, string3, string4, int38, int41, int37, int36, string5, string6] = script3117(int31, int32, int45, string0, string1, int34, int33);
+                    if ((script13749() == 1)) {
+                        if ((int38 == 16777215)) {
+                            int39 = 7705248;
+                        } else {
+                            int39 = int38;
+                        };
+                        int38 = 7705248;
+                    } else {
+                        int39 = int38;
+                    };
+                    script20333(int16, int45, int1, int46, int45);
+                    script7924(int17, int45, int9, int9, 0, int46, int36, 0, 0, 0, 0);
+                    CC_SETPOSITION(0, (int46 + int5), 1, 0);
+                    script10629(int18, int45, (IF_GETWIDTH(int18) - 6), int1, 3, int46, inttostring(int31, 10), int38, int15, 0, 1, 0, 1);
+                    script10629(int20, int45, (IF_GETWIDTH(int20) - 6), int1, 3, int46, string6, int38, int15, 0, 1, 0, 1);
+                    script10629(int21, int45, (IF_GETWIDTH(int21) - 6), int1, 3, int46, string4, int38, int15, 0, 1, 0, 1);
+                    script7924(int23, int45, 24, 12, 4, (int46 + int3), int40, 0, 0, 0, 0);
+                    script10629(int22, int45, 30, int1, 30, int46, string3, int38, int15, 0, 1, 0, 1);
+                    CC_SETSIZE(30, int1, 1, 0);
+                    script10629(int24, int45, (IF_GETWIDTH(int24) - 10), int1, 5, int46, string5, int39, int15, 0, 1, 0, 1);
+                    script7924(int25, int45, int10, int10, 0, (int46 + int4), int41, 0, 0, 0, 0);
+                    CC_SETPOSITION(0, (int46 + int4), 1, 0);
+                    if ((int35 == -1)) {
+                        string7 = "-";
+                    } else if ((int35 >= 1000)) {
+                        string7 = "N/A";
+                    } else {
+                        string7 = inttostring(int35, 10);
+                    };
+                    script10629(int26, int45, (IF_GETWIDTH(int26) - 10), int1, 5, int46, string7, int38, int15, 0, 1, 0, 1);
+                    script10629(int27, int45, IF_GETWIDTH(int27), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                    CC_SETOP(1, "Select");
+                    CC_SETOPBASE(`World ${inttostring(int31, 10)}`);
+                    CC_SETONOP(callback(script3129, -2147483644, int45, int31, string2));
+                    script10629(int28, int45, IF_GETWIDTH(int28), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                    CC_SETONMOUSEOVER(callback(script3130, int17, int28, int45, int31));
+                    CC_SETONMOUSELEAVE(callback(script3132, int17, int45, int31));
+                    CC_SETOP(1, "Alter");
+                    CC_SETOPBASE("Favourite");
+                    CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
+                    CC_SETONCLICK(callback(script10036));
+                    if ((int31 == MAP_WORLD())) {
+                        IF_SETHIDE(false, comp(910, 65));
+                        IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                    };
+                    if ((int31 == script20335(1))) {
+                        int42 = int45;
+                    };
+                    if ((int31 == script20335(2))) {
+                        int43 = int45;
+                    };
+                    if ((int31 == script20335(3))) {
+                        int44 = int45;
+                    };
+                    [int31, int32, string0, int33, string1, int34, int35, string2] = unk11101();
+                    int46 = (int46 + (int1 + int2));
+                    int45 = (int45 + 1);
+                };
+            } else {
+                [int40, string3, string4, int38, int41, int37, int36, string5, string6] = script3117(int31, int32, int45, string0, string1, int34, int33);
+                if ((script13749() == 1)) {
+                    if ((int38 == 16777215)) {
+                        int39 = 7705248;
+                    } else {
+                        int39 = int38;
+                    };
+                    int38 = 7705248;
+                } else {
+                    int39 = int38;
+                };
+                script20333(int16, int45, int1, int46, int45);
+                script7924(int17, int45, int9, int9, 0, int46, int36, 0, 0, 0, 0);
+                CC_SETPOSITION(0, (int46 + int5), 1, 0);
+                script10629(int18, int45, (IF_GETWIDTH(int18) - 6), int1, 3, int46, inttostring(int31, 10), int38, int15, 0, 1, 0, 1);
+                script10629(int20, int45, (IF_GETWIDTH(int20) - 6), int1, 3, int46, string6, int38, int15, 0, 1, 0, 1);
+                script10629(int21, int45, (IF_GETWIDTH(int21) - 6), int1, 3, int46, string4, int38, int15, 0, 1, 0, 1);
+                script7924(int23, int45, 24, 12, 4, (int46 + int3), int40, 0, 0, 0, 0);
+                script10629(int22, int45, 30, int1, 30, int46, string3, int38, int15, 0, 1, 0, 1);
+                CC_SETSIZE(30, int1, 1, 0);
+                script10629(int24, int45, (IF_GETWIDTH(int24) - 10), int1, 5, int46, string5, int39, int15, 0, 1, 0, 1);
+                script7924(int25, int45, int10, int10, 0, (int46 + int4), int41, 0, 0, 0, 0);
+                CC_SETPOSITION(0, (int46 + int4), 1, 0);
+                if ((int35 == -1)) {
+                    string7 = "-";
+                } else if ((int35 >= 1000)) {
+                    string7 = "N/A";
+                } else {
+                    string7 = inttostring(int35, 10);
+                };
+                script10629(int26, int45, (IF_GETWIDTH(int26) - 10), int1, 5, int46, string7, int38, int15, 0, 1, 0, 1);
+                script10629(int27, int45, IF_GETWIDTH(int27), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                CC_SETOP(1, "Select");
+                CC_SETOPBASE(`World ${inttostring(int31, 10)}`);
+                CC_SETONOP(callback(script3129, -2147483644, int45, int31, string2));
+                script10629(int28, int45, IF_GETWIDTH(int28), int1, 0, int46, "", 0, int15, 0, 1, 0, 1);
+                CC_SETONMOUSEOVER(callback(script3130, int17, int28, int45, int31));
+                CC_SETONMOUSELEAVE(callback(script3132, int17, int45, int31));
+                CC_SETOP(1, "Alter");
+                CC_SETOPBASE("Favourite");
+                CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
+                CC_SETONCLICK(callback(script10036));
+                if ((int31 == MAP_WORLD())) {
+                    IF_SETHIDE(false, comp(910, 65));
+                    IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                };
+                if ((int31 == script20335(1))) {
+                    int42 = int45;
+                };
+                if ((int31 == script20335(2))) {
+                    int43 = int45;
+                };
+                if ((int31 == script20335(3))) {
+                    int44 = int45;
+                };
+                [int31, int32, string0, int33, string1, int34, int35, string2] = unk11101();
+                int46 = (int46 + (int1 + int2));
+                int45 = (int45 + 1);
+            };
         } else {
             [int40, string3, string4, int38, int41, int37, int36, string5, string6] = script3117(int31, int32, int45, string0, string1, int34, int33);
             if ((script13749() == 1)) {
@@ -231,8 +6879,7 @@ function script20332(): void {
             if ((int31 == script20335(3))) {
                 int44 = int45;
             };
-            stack(unk11101());
-            [int31, int32, string0, int33, string1, int34, int35, string2] = stack();
+            [int31, int32, string0, int33, string1, int34, int35, string2] = unk11101();
             int46 = (int46 + (int1 + int2));
             int45 = (int45 + 1);
         };

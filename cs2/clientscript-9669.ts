@@ -179,6 +179,7 @@ function script9669(int0: number): number {
             return varbitplayer_20476;
         }
         case 60: {
+            break;
         }
         default: {
             return 0;

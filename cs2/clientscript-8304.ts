@@ -23,8 +23,12 @@ function script8304(int0: number, int1: number): void {
     var int15 = -1;
     var int16 = 0;
     var int17 = script8309(int0);
-    if (((varclient_4105 != -1) && ((int17 != 1) || ((int17 == 1) && (varclient_4105 != varclient_3466))))) {
-        script2015(int0);
+    if ((varclient_4105 != -1)) {
+        if ((int17 != 1)) {
+            script2015(int0);
+        } else if (((int17 == 1) && (varclient_4105 != varclient_3466))) {
+            script2015(int0);
+        };
     };
     var int18 = 1;
     switch (int17) {

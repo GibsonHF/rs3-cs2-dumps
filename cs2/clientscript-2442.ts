@@ -39,6 +39,6 @@ function script2442(int0: number): void {
     CC_DELETEALL(int2);
     IF_SETSCROLLPOS(0, 0, int2);
     IF_SETSCROLLSIZE(0, 0, int2);
-    IF_SETHIDE(1, int2);
+    IF_SETHIDE(true, int2);
     return;
 }

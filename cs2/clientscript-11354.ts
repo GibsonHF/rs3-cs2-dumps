@@ -26,7 +26,7 @@ function script11354(): void {
             };
             CC_SETONMOUSEREPEAT(callback(script11363, int1, -2147483645, -2147483643));
             CC_SETONMOUSELEAVE(callback(script8805));
-            CC_SETDRAGGABLE(85918282, -1);
+            CC_SETDRAGGABLE(comp(1311, 586), -1);
             CC_SETDRAGRENDERBEHAVIOUR(2);
             if ((int9 == 0)) {
                 CC_SETDRAGDEADTIME(5);
@@ -40,7 +40,8 @@ function script11354(): void {
             cc_setparam(7544, int1);
             CC_SETONOP(callback(script11361, (int8 - 1), int0, -1, 0, 1));
             CC_SETONDRAGCOMPLETE(callback(script11361, (int8 - 1), int0, -2147483642, -2147483641, 1));
-            if ((++int3 == 3)) {
+            int3 = (int3 + 1);
+            if ((int3 == 3)) {
                 int3 = 0;
                 int2 = (int2 + 1);
             };
@@ -71,10 +72,10 @@ function script11354(): void {
             CC_SETONOP(callback(script11361, (int8 - 1), int0, -1, 0, 0));
         } else if ((int10 > varclient_4787)) {
             CC_SETONMOUSEREPEAT(callback(script11362, int6, (int8 - 1)));
-            CC_SETGRAPHIC(24901);
+            CC_SETGRAPHIC(24901 as graphic);
         } else {
             CC_SETONMOUSEREPEAT(callback(script11363, -1, -2147483645, -2147483643));
-            CC_SETGRAPHIC(18269);
+            CC_SETGRAPHIC(18269 as graphic);
         };
         int3 = (int3 + 1);
         int10 = (int10 + 1);

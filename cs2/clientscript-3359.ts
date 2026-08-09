@@ -1,5 +1,5 @@
 //
-function script3359(): [number, string, number] {
+function script3359(): [number, number, string] {
     switch (varplayer_1831) {
         case 17945: {
             return [3, "Snaring Wave (Tier 1)", 18047];
@@ -29,6 +29,7 @@ function script3359(): [number, string, number] {
             return [83, "Snaring Wave (Tier 9)", 18055];
         }
         case 17954: {
+            break;
         }
         default: {
             return [3, "Snaring Wave (Tier 1)", 18047];

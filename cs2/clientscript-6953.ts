@@ -13,8 +13,7 @@ function script6953(): number {
     stack(1179648);
     stack(int0);
     DB_FIND(0);
-    dbrow_findnext();
-    var int1 = stack();
+    var int1 = dbrow_findnext();
     if ((int1 == -1)) {
         script12478("Promotion skin is null when getting fighter. Using default.");
         int1 = 13839;

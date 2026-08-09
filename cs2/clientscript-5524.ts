@@ -1,18 +1,18 @@
 //
 function script5524(int0: number, int1: number): void {
-    var int2 = -1 as cs2enum;
-    var int3 = -1 as cs2enum;
-    var int4 = -1 as cs2enum;
+    var int2 = -1;
+    var int3 = -1;
+    var int4 = -1;
     [int2, int3, int4] = script7386();
-    var int5 = -1 as cs2enum;
+    var int5 = -1;
     var int6 = -1;
-    var int7 = -1 as cs2enum;
+    var int7 = -1;
     var int8 = -1;
     [int5, int6, int7, int8] = script7387();
     CC_DELETEALL(comp(1072, 18));
     IF_SETHIDE(true, comp(1072, 19));
-    var int9 = -1 as cs2enum;
-    var int10 = -1 as cs2enum;
+    var int9 = -1;
+    var int10 = -1;
     var int11 = -1;
     var int12 = 0;
     script13992(70254597, -1, 28556, 0);
@@ -54,7 +54,7 @@ function script5524(int0: number, int1: number): void {
     var int16 = ENUM_GETOUTPUTCOUNT(int9);
     while ((int13 < int16)) {
         CC_CREATE(comp(1072, 18), 4, int13);
-        if ((int10 != -1 as cs2enum)) {
+        if ((int10 != -1)) {
             int15 = enum_getvalue(0, 0, int10, int13);
         } else {
             int15 = varplayer_3376;
@@ -76,8 +76,8 @@ function script5524(int0: number, int1: number): void {
                 CC_SETCOLOUR(16239152);
                 CC_SETONMOUSEOVER(callback(script5645, int13, 1, 1));
                 CC_SETONMOUSELEAVE(callback(script5645, int13, 0, 1));
-                IF_SETHIDE(0, 70254611);
-                IF_SETPOSITION(CC_GETX(), (CC_GETY() - 2), 0, 0, 70254611);
+                IF_SETHIDE(false, comp(1072, 19));
+                IF_SETPOSITION(CC_GETX(), (CC_GETY() - 2), 0, 0, comp(1072, 19));
             } else {
                 CC_SETONMOUSEOVER(callback(script5645, int13, 1, 0));
                 CC_SETONMOUSELEAVE(callback(script5645, int13, 0, 0));

@@ -1,8 +1,8 @@
 //
 function script89(int0: number): void {
-    var int1 = comp(645, 11);
-    var int2 = comp(645, 12);
-    var int3 = comp(645, 14);
+    var int1 = 42270731;
+    var int2 = 42270732;
+    var int3 = 42270734;
     var int4 = 42270735;
     CC_DELETEALL(int1);
     CC_DELETEALL(int2);
@@ -15,9 +15,8 @@ function script89(int0: number): void {
     var int11 = 0;
     var int12 = 0;
     var string0 = "";
-    dbrow_findnext();
-    var int13 = stack();
-    while ((int13 != -1 as dbrow)) {
+    var int13 = dbrow_findnext();
+    while ((int13 != -1)) {
         int5 = dbrow_getfield(int13, 1470464, 0);
         [int12, string0] = script236(int0, int5, int13);
         if ((int12 == 1)) {
@@ -39,8 +38,7 @@ function script89(int0: number): void {
             CC_SETOPCURSOR(1, 46);
         };
         int9 = ((int7 / 2) + 2);
-        dbrow_findnext();
-        int13 = stack();
+        int13 = dbrow_findnext();
         int11 = (int11 + 1);
     };
     IF_SETSCROLLSIZE(0, MAX(IF_GETHEIGHT(int3), int8), int3);

@@ -60,7 +60,7 @@ function script13461(int0: number): void {
     script19620(122880061, 122880060, int3, -1, -1, 0, 0, 0);
     var int4 = script13432(int0);
     var string1 = enum_getvalue(0, 36, struct_getparam(int1, 6584), int4);
-    int2 = comp(1875, 55);
+    int2 = 122880055;
     CC_CREATE[1](int2, 3, IF_GETNEXTSUBID(int2));
     CC_SETPOSITION[1](26, 213, 0, 0);
     CC_SETSIZE[1](140, 52, 0, 0);
@@ -80,7 +80,7 @@ function script13461(int0: number): void {
     CC_SETSIZE[1](160, 40, 0, 0);
     CC_SETCOLOUR[1](script10495(0));
     CC_SETTEXT[1](string1);
-    int2 = comp(1875, 54);
+    int2 = 122880054;
     CC_CREATE(int2, 3, IF_GETNEXTSUBID(int2));
     CC_SETPOSITION(26, 280, 0, 0);
     CC_SETSIZE(140, 52, 0, 0);
@@ -93,7 +93,7 @@ function script13461(int0: number): void {
     CC_SETSIZE[1](CC_GETWIDTH(), CC_GETHEIGHT(), 0, 0);
     CC_SETCOLOUR[1](script10495(3));
     CC_SETTEXT[1]("Rewards can be unlocked by reaching the ranks listed below.");
-    int2 = comp(1875, 56);
+    int2 = 122880056;
     CC_CREATE(int2, 3, IF_GETNEXTSUBID(int2));
     CC_SETPOSITION(16, 48, 2, 0);
     CC_SETSIZE(543, 284, 0, 0);
@@ -125,7 +125,7 @@ function script13461(int0: number): void {
             break;
         }
     };
-    int2 = comp(1875, 58);
+    int2 = 122880058;
     switch (int0) {
         case 1: {
             string0 = "Batal";
@@ -175,7 +175,7 @@ function script13461(int0: number): void {
     };
     CC_SETONVARTRANSMIT[1](callback(script13470, int0, 6991, 1));
     CC_CREATE(int2, 4, IF_GETNEXTSUBID(int2));
-    CC_SETTEXTFONT(26);
+    CC_SETTEXTFONT(26 as fontmetrics);
     CC_SETTEXTALIGN(0, 1, 13);
     CC_SETPOSITION(40, 0, 0, 0);
     CC_SETSIZE(272, 40, 0, 0);

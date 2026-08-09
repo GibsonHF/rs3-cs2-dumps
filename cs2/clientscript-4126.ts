@@ -16,8 +16,14 @@ function script4126(int0: number): string {
     };
     if ((int3 < 97)) {
         string0 = "Dark ";
-    } else if (((int3 == 127) && (int2 >= 240))) {
-        string0 = "Vivid ";
+    } else if ((int3 == 127)) {
+        if ((int2 >= 240)) {
+            string0 = "Vivid ";
+        } else if ((int3 > 157)) {
+            string0 = "Light ";
+        } else {
+            int4 = 0;
+        };
     } else if ((int3 > 157)) {
         string0 = "Light ";
     } else {

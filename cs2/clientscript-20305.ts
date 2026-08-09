@@ -1,7 +1,7 @@
 //
 function script20305(int0: number): string {
     var int1 = script20119(varplayer_12314);
-    if ((int1 == -1 as dbrow)) {
+    if ((int1 == -1)) {
         return "";
     };
     var int2 = dbrow_getfield(int1, 1372163, 0);

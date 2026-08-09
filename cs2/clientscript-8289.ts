@@ -38,8 +38,12 @@ function script8289(int0: number, int1: number): void {
         CC_SETTEXTALIGN(0, 1, 0);
     };
     if ((CC_FIND(int5, 15) == 1)) {
-        if (((int1 != -1) && (struct_getparam(int1, 3495) != -1 as graphic))) {
-            CC_SETGRAPHIC(struct_getparam(int1, 3495));
+        if ((int1 != -1)) {
+            if ((struct_getparam(int1, 3495) != -1)) {
+                CC_SETGRAPHIC(struct_getparam(int1, 3495));
+            } else {
+                CC_SETGRAPHIC(struct_getparam(int4, 3495));
+            };
         } else {
             CC_SETGRAPHIC(struct_getparam(int4, 3495));
         };

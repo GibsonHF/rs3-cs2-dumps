@@ -5,7 +5,7 @@ function script20200(int0: number): void {
         return;
     };
     IF_SETONTIMER(callback(), comp(1409, 1));
-    IF_SETPARAM_INT(9341, -1, 92340225);
+    IF_SETPARAM_INT(9341, -1, comp(1409, 1));
     script20201(-1);
     return;
 }

@@ -78,11 +78,11 @@ function script3009(int0: number): void {
             };
             int1 = MOVECOORD(COORD(), int8, 0, int9);
             COORDX_FINE(COORD_GRIDTOFINE(int0, 1));
-            int2 = stack();
+            int2 = [];
             stack(COORD_GRIDTOFINE(int0, 1));
             int4 = COORDZ_FINE();
             COORDX_FINE(COORD_GRIDTOFINE(int1, 1));
-            int5 = stack();
+            int5 = [];
             stack(COORD_GRIDTOFINE(int1, 1));
             int7 = COORDZ_FINE();
             int8 = (int2 - int5);
@@ -91,9 +91,9 @@ function script3009(int0: number): void {
                 int8 = ((int8 / 4) * -1);
                 int9 = ((int9 / 4) * -1);
                 unk11111(COORD_GRIDTOFINE(int0, 1), COORD_GRIDTOFINE(int0, 1));
-                MOVECOORD_FINE(stack(), int8, -100000, int9);
-                CAM2_SETPOSITIONPOINT_POINT(stack());
-                IF_SETONTIMER(callback(script3010, 0, -2147483645), 31129606);
+                MOVECOORD_FINE(int8, -100000, int9);
+                CAM2_SETPOSITIONPOINT_POINT();
+                IF_SETONTIMER(callback(script3010, 0, -2147483645), comp(475, 6));
                 stack(COORD_GRIDTOFINE(int1, 1));
                 stack(int10);
                 stack(int11);

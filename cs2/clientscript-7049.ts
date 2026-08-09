@@ -61,8 +61,12 @@ function script7049(int0: number, int1: number): void {
     if ((CC_FIND(int0, int1) == 1)) {
         CC_SETOUTLINE(2);
     };
-    if (((struct_getparam(int3, 2876) == 1) || ((int3 == 14874 as struct) && (((varplayer_3170 == 14770 as struct) || (varplayer_3170 == 32942 as struct)) || (varplayer_3170 == 32943 as struct))))) {
+    if ((struct_getparam(int3, 2876) == 1)) {
         script8311(2);
+    } else if ((int3 == 14874 as struct)) {
+        if ((((varplayer_3170 == 14770 as struct) || (varplayer_3170 == 32942 as struct)) || (varplayer_3170 == 32943 as struct))) {
+            script8311(2);
+        };
     };
     script8808();
     return;

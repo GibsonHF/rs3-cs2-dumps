@@ -17,7 +17,8 @@ function script1153(): [number, number, number, number, number, number, number, 
     var int14 = 0;
     var int15 = 0;
     var int16 = -1;
-    while ((++int16 < 8)) {
+    int16 = (int16 + 1);
+    while ((int16 < 8)) {
         switch (int16) {
             case 0: {
                 int0 = varbitplayer_41936;

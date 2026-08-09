@@ -3,7 +3,7 @@ function script7624(int0: number): void {
     var string0 = "";
     var string1 = "";
     var int1 = -1;
-    var int2 = false;
+    var int2 = 0;
     var int3 = 0;
     if ((CC_FIND(comp(850, 2), int0) == 1)) {
         string0 = cc_getparam(4618);
@@ -19,11 +19,15 @@ function script7624(int0: number): void {
     } else {
         IF_SETHIDE(true, comp(709, 16));
     };
-    stack(dbrow_getfield(varplayer_9864, 532496, int0));
-    [int1, int2, string0, string1] = stack();
-    if (((varplayer_9864 != -1 as dbrow) && (int2 == true))) {
-        IF_SETSIZE(8, 50, 1, 1, comp(709, 10));
-        IF_SETHIDE(true, comp(709, 15));
+    [int1, int2, string0, string1] = dbrow_getfield(varplayer_9864, 532496, int0);
+    if ((varplayer_9864 != -1)) {
+        if ((int2 == 1)) {
+            IF_SETSIZE(8, 50, 1, 1, comp(709, 10));
+            IF_SETHIDE(true, comp(709, 15));
+        } else {
+            IF_SETSIZE(8, 60, 1, 1, comp(709, 10));
+            IF_SETHIDE(false, comp(709, 15));
+        };
     } else {
         IF_SETSIZE(8, 60, 1, 1, comp(709, 10));
         IF_SETHIDE(false, comp(709, 15));

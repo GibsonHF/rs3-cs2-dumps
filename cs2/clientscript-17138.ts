@@ -1,9 +1,9 @@
 //
-function script17138(long0: BigInt): number {
-    if (branch_gt_long[4](long0, 2147483647n)) {
+function script17138(long0: bigint): number {
+    if (LONG_BRANCH_GREATER_THAN(long0, 2147483647n)) {
         return 2147483647;
     };
-    if (branch_lt_long[10](long0, -2147483648n)) {
+    if (LONG_BRANCH_LESS_THAN(long0, -2147483648n)) {
         return -2147483648;
     };
     var int0 = 0;

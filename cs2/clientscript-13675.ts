@@ -10,13 +10,8 @@ function script13675(int0: number): void {
     stack(90112);
     stack(varbitplayer_37614);
     DB_FIND(0);
-    dbrow_findnext();
-    var int3 = stack();
-    stack(int3);
-    stack(90288);
-    stack(0);
-    dbrow_getfield();
-    var int4 = stack();
+    var int3 = dbrow_findnext();
+    var int4 = dbrow_getfield(int3, 90288, 0);
     var int5 = -1;
     var int6 = -1;
     var int7 = 0;
@@ -53,6 +48,6 @@ function script13675(int0: number): void {
             string0 = `The amount of charge in your generator.<br>${TOSTRING_LOCALISED(varbitplayer_37590, 1)}/${TOSTRING_LOCALISED(int9, 1)}`;
         };
     };
-    script13651(string0, int0, -1, 1, 0, (enum_getvalue(25, 0, 8549 as cs2enum, 27 as fontmetrics) + 2));
+    script13651(string0, int0, -1, 1, 0, (enum_getvalue(25, 0, 8549, 27) + 2));
     return;
 }

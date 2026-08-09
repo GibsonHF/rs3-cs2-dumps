@@ -9,7 +9,7 @@ function script12189(int0: number, int1: number, int2: number, int3: number, int
     if ((int7 > 1)) {
         string0 = strconcat(string0, " (Two slots)");
     };
-    var [int1, int3] = script176(int0, int1, int2, int3, int4, 21341, 16, 16, string0, 29166);
+    [int1, int3] = script176(int0, int1, int2, int3, int4, 21341, 16, 16, string0, 29166);
     var string1 = dbrow_getfield(int6, 32832, 0);
     if ((int7 > 1)) {
         string1 = strconcat(string1, " This perk will take up two slots in a gizmo.");

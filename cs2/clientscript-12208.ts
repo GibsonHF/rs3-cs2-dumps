@@ -1,10 +1,10 @@
 //
 function script12208(int0: number): void {
     var string0 = enum_getvalue(9, 36, 10768 as cs2enum, int0);
-    var string1 = enum_getvalue(9, 36, 10769 as cs2enum, int0);
-    var int1 = enum_getvalue(9, 0, 10770 as cs2enum, int0);
+    var string1 = enum_getvalue(9, 36, 10769, int0);
+    var int1 = enum_getvalue(9, 0, 10770, int0);
     var string2 = `Combine ${inttostring(int1, 10)} grotesque souls to create ${string0}. You will receive ${inttostring((3 * int1), 10)} Slayer XP.`;
-    if ((int0 == comp(1715, 10))) {
+    if ((int0 == 112394250)) {
         string2 = `Combine ${inttostring(500, 10)} grotesque souls to create a soul gem. This can be used to upgrade your grotesque armour.`;
     };
     switch (int0) {

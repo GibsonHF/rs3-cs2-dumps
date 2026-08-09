@@ -57,8 +57,12 @@ function script18044(int0: number, int1: number): void {
     string0 = "After completing all 120 levels in the pass, you'll gain access to a repeatable level which awards 125 Underworld Emblems on each completion.";
     [int2, int3] = script18046(int0, int2, int4, int3, string0, int5);
     var int6 = 0;
-    if ((((varplayer_11331 > 0) || (varplayer_11332 > 0)) && (varplayer_11333 == script17857(script17853())))) {
-        int6 = 1;
+    if (((varplayer_11331 > 0) || (varplayer_11332 > 0))) {
+        if ((varplayer_11333 == script17857(script17853()))) {
+            int6 = 1;
+        } else if ((script17894() == 1)) {
+            int6 = 1;
+        };
     } else if ((script17894() == 1)) {
         int6 = 1;
     };

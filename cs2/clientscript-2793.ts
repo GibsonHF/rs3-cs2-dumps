@@ -40,7 +40,8 @@ function script2793(int0: number, int1: number): number {
                         return -1;
                     }
                 };
-                int6 = script384(++int5, int4, int2);
+                int5 = (int5 + 1);
+                int6 = script384(int5, int4, int2);
             };
         };
         int3 = (int3 - 1);

@@ -29,32 +29,42 @@ function script2012(int0: number, int1: number): void {
         script20536(int8, int6, int12, int10, int17, int18);
         return;
     };
-    while (((CC_FIND(int8, int16) == 1) && (CC_FIND[1](int8, (int16 + 1)) == 1))) {
-        int18 = int17;
-        if (((int16 >= (int10 * 4)) && (int16 < ((int10 + int12) * 4)))) {
-            CC_SETPARAM_INT(5926, (int11 * MAX(0, ((int16 / 4) - int10))));
-        } else if ((int16 < (int10 * 4))) {
-            CC_SETPARAM_INT(5926, (int13 + (int11 * (int16 / 4))));
-            int18 = 1;
-        } else {
-            CC_SETPARAM_INT(5926, (struct_getparam(int6, 3578) * (int16 / 4)));
+    while ((CC_FIND(int8, int16) == 1)) {
+        if ((CC_FIND[1](int8, (int16 + 1)) == 1)) {
+            int18 = int17;
+            if ((int16 >= (int10 * 4))) {
+                if ((int16 < ((int10 + int12) * 4))) {
+                    CC_SETPARAM_INT(5926, (int11 * MAX(0, ((int16 / 4) - int10))));
+                } else if ((int16 < (int10 * 4))) {
+                    CC_SETPARAM_INT(5926, (int13 + (int11 * (int16 / 4))));
+                    int18 = 1;
+                } else {
+                    CC_SETPARAM_INT(5926, (struct_getparam(int6, 3578) * (int16 / 4)));
+                };
+            } else if ((int16 < (int10 * 4))) {
+                CC_SETPARAM_INT(5926, (int13 + (int11 * (int16 / 4))));
+                int18 = 1;
+            } else {
+                CC_SETPARAM_INT(5926, (struct_getparam(int6, 3578) * (int16 / 4)));
+            };
+            CC_SETPARAM_INT(5927, 0);
+            CC_SETPARAM_INT(5928, 0);
+            CC_SETPARAM_INT(5929, 0);
+            if ((int18 == 0)) {
+                CC_SETPOSITION((cc_getparam(5926) - ((cc_getparam(5926) - CC_GETX()) / 2)), (cc_getparam(5927) - ((cc_getparam(5927) - CC_GETY()) / 2)), cc_getparam(5928), cc_getparam(5929));
+            } else {
+                CC_SETPOSITION(cc_getparam(5926), cc_getparam(5927), cc_getparam(5928), cc_getparam(5929));
+            };
+            CC_SETPOSITION[1](((CC_GETX() + (CC_GETWIDTH() / 2)) - (CC_GETWIDTH[1]() / 2)), 0, 0, 1);
+            if ((cc_getparam(3536) == int0)) {
+                script1848(int0, CC_GETX());
+            };
+            if (((CC_FIND(int8, (int16 + 1)) == 1) && (CC_FIND[1](int8, (int16 + 2)) == 1))) {
+                CC_SETPOSITION[1](CC_GETX(), (CC_GETY() + (CC_GETHEIGHT() / 2)), 0, 0);
+            };
+            int16 = (int16 + 4);
         };
-        CC_SETPARAM_INT(5927, 0);
-        CC_SETPARAM_INT(5928, 0);
-        CC_SETPARAM_INT(5929, 0);
-        if ((int18 == 0)) {
-            CC_SETPOSITION((cc_getparam(5926) - ((cc_getparam(5926) - CC_GETX()) / 2)), (cc_getparam(5927) - ((cc_getparam(5927) - CC_GETY()) / 2)), cc_getparam(5928), cc_getparam(5929));
-        } else {
-            CC_SETPOSITION(cc_getparam(5926), cc_getparam(5927), cc_getparam(5928), cc_getparam(5929));
-        };
-        CC_SETPOSITION[1](((CC_GETX() + (CC_GETWIDTH() / 2)) - (CC_GETWIDTH[1]() / 2)), 0, 0, 1);
-        if ((cc_getparam(3536) == int0)) {
-            script1848(int0, CC_GETX());
-        };
-        if (((CC_FIND(int8, (int16 + 1)) == 1) && (CC_FIND[1](int8, (int16 + 2)) == 1))) {
-            CC_SETPOSITION[1](CC_GETX(), (CC_GETY() + (CC_GETHEIGHT() / 2)), 0, 0);
-        };
-        int16 = (int16 + 4);
+        return;
     };
     return;
 }

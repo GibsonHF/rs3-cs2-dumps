@@ -6,7 +6,7 @@ function script20323(int0: number, int1: number): void {
             case 8: {
                 varplayer_12329 = (varplayer_12329 + 1);
                 IF_SETONRESIZE(callback(script20285), comp(1361, 5));
-                IF_CALLONRESIZE(89194501);
+                IF_CALLONRESIZE(comp(1361, 5));
                 return;
             }
         };

@@ -11,8 +11,14 @@ function script5(int0: number, int1: number): void {
         };
     };
     int2 = (int2 + 2);
-    if (((varbitplayer_22332 == 0) || ((varbitplayer_22332 == 1) && (varbitplayer_27170 >= 2)))) {
+    if ((varbitplayer_22332 == 0)) {
         IF_SETSIZE(200, int2, 0, 0, comp(1490, 13));
+    } else if ((varbitplayer_22332 == 1)) {
+        if ((varbitplayer_27170 >= 2)) {
+            IF_SETSIZE(200, int2, 0, 0, comp(1490, 13));
+        } else {
+            IF_SETSIZE(0, int2, 1, 0, comp(1490, 13));
+        };
     } else {
         IF_SETSIZE(0, int2, 1, 0, comp(1490, 13));
     };

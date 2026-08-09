@@ -5,9 +5,8 @@ function script2700(int0: number): string {
     };
     var int1 = -1;
     var string0 = "";
-    var int2 = false;
-    stack(dbrow_getfield(4075 as dbrow, 532496, int0));
-    [int1, int2, string0, string0] = stack();
+    var int2 = 0;
+    [int1, int2, string0, string0] = dbrow_getfield(4075 as dbrow, 532496, int0);
     switch (int1) {
         case 2: {
             return inttostring(20, 10);

@@ -2,7 +2,8 @@
 function script6396(): number {
     var int0 = 0;
     var int1 = 4;
-    while ((++int0 <= int1)) {
+    int0 = (int0 + 1);
+    while ((int0 <= int1)) {
         if ((script16960(int0) == 1)) {
             return int0;
         };

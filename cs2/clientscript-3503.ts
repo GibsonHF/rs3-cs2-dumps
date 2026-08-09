@@ -85,9 +85,14 @@ function script3503(int0: number, int1: number, int2: number, int3: number, int4
     };
     var int11 = 85918039;
     var int12 = comp(1311, 362);
-    if (((varclient_1963 == 5) && (varclient_2692 == -1 as npc))) {
-        IF_SETONDRAG(callback(), int12);
-        IF_SETMOUSEOVERCURSOR(-1, int12);
+    if ((varclient_1963 == 5)) {
+        if ((varclient_2692 == -1 as npc)) {
+            IF_SETONDRAG(callback(), int12);
+            IF_SETMOUSEOVERCURSOR(-1, int12);
+        } else {
+            IF_SETONDRAG(callback(script9319, -2147483645, int11, 0, 1), int12);
+            IF_SETMOUSEOVERCURSOR(188, int12);
+        };
     } else {
         IF_SETONDRAG(callback(script9319, -2147483645, int11, 0, 1), int12);
         IF_SETMOUSEOVERCURSOR(188, int12);

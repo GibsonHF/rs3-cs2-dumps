@@ -6,8 +6,7 @@ function script10150(int0: number): void {
     var string1 = "";
     if (((varclient_4292 != -1) && (STRING_LENGTH(varclient_4291) > 0))) {
         IF_SETHIDE(true, comp(231, 3));
-        stack(TTV_WEBCAM_GETDEVICE_BYUNIQUENAME(varclient_4291));
-        [int2, string0, string1] = stack();
+        [int2, string0, string1] = TTV_WEBCAM_GETDEVICE_BYUNIQUENAME(varclient_4291);
         int1 = TTV_WEBCAM_STOP(int2);
         if ((int0 == 1)) {
             script10158(0);

@@ -8,7 +8,7 @@ function script14856(int0: number): void {
     var int2 = enum_getvalue(0, 74, 14090 as cs2enum, int0);
     if ((int2 != -1 as dbrow)) {
         int1 = script14606(varplayer_12086, dbrow_getfield(int2, 385024, 0));
-        if (((MAP_MEMBERS() == 0) && (dbrow_getfield(int2, 385072, 0) == true))) {
+        if (((MAP_MEMBERS() == 0) && (dbrow_getfield(int2, 385072, 0) == 1))) {
             IF_SETHIDE(false, comp(691, 96));
         };
     };

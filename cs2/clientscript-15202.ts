@@ -34,7 +34,7 @@ function script15202(int0: number): void {
         CC_SETCOLOUR(script10495(3));
         CC_SETTEXTALIGN(0, 1, 13);
         CC_SETSIZE(int7, int8, 0, 0);
-        CC_SETTEXT(enum_getvalue(0, 36, 3682 as cs2enum, int2));
+        CC_SETTEXT(enum_getvalue(0, 36, 3682, int2));
         CC_CREATE(comp(622, 17), 4, int1);
         CC_SETPOSITION(int9, (int3 + int4), 0, 0);
         CC_SETTEXTFONT(26 as fontmetrics);

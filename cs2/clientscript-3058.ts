@@ -42,8 +42,20 @@ function script3058(int0: number, int1: number, int2: number, int3: number, int4
         };
     };
     if ((CC_FINDBYCATEGORY(int0, int1, int2) == 1)) {
-        if (((((int11 == 0) && (int12 == 0)) && (int13 == 0)) && (int14 == 0))) {
-            CC_SETONTIMER(callback(script3058, int0, int1, int2, int3, int4, int5, int6, int7, int8, int9, int10, 1, 0, 1, 0));
+        if ((int11 == 0)) {
+            if ((int12 == 0)) {
+                if ((int13 == 0)) {
+                    if ((int14 == 0)) {
+                        CC_SETONTIMER(callback(script3058, int0, int1, int2, int3, int4, int5, int6, int7, int8, int9, int10, 1, 0, 1, 0));
+                    } else {
+                        CC_SETONTIMER(callback(script3058, int0, int1, int2, int3, int4, int5, int6, int7, int8, int9, int10, int11, int12, int13, int14));
+                    };
+                } else {
+                    CC_SETONTIMER(callback(script3058, int0, int1, int2, int3, int4, int5, int6, int7, int8, int9, int10, int11, int12, int13, int14));
+                };
+            } else {
+                CC_SETONTIMER(callback(script3058, int0, int1, int2, int3, int4, int5, int6, int7, int8, int9, int10, int11, int12, int13, int14));
+            };
         } else {
             CC_SETONTIMER(callback(script3058, int0, int1, int2, int3, int4, int5, int6, int7, int8, int9, int10, int11, int12, int13, int14));
         };

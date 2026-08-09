@@ -39,16 +39,28 @@ function script18002(int0: number, int1: number, int2: number, int3: number, int
     };
     script17975(int5, int1, int15, int16, int4, int3);
     if ((CC_FINDBYCATEGORY(comp(1227, 30), 0, 0) == 1)) {
-        if (((int2 == 1) && (int3 >= 0))) {
-            script7872(0, 1, 0, 0);
+        if ((int2 == 1)) {
+            if ((int3 >= 0)) {
+                script7872(0, 1, 0, 0);
+            } else {
+                script7872(1, 1, 0, 0);
+            };
         } else {
             script7872(1, 1, 0, 0);
         };
     };
     if ((CC_FINDBYCATEGORY(comp(1227, 31), 0, 0) == 1)) {
         script17927();
-        if (((((int2 > int17) || (int6 == 2)) && ((int3 + 1) >= int4)) && (int6 != 1))) {
-            script7872(0, 1, 0, 0);
+        if (((int2 > int17) || (int6 == 2))) {
+            if (((int3 + 1) >= int4)) {
+                if ((int6 != 1)) {
+                    script7872(0, 1, 0, 0);
+                } else {
+                    script7872(1, 1, 0, 0);
+                };
+            } else {
+                script7872(1, 1, 0, 0);
+            };
         } else {
             script7872(1, 1, 0, 0);
         };

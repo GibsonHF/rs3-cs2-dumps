@@ -26,7 +26,25 @@ function script4296(): void {
         IF_SETONTIMER(callback(script4297, int2, int1), comp(1185, 6));
     };
     var int3 = varbitplayer_40594;
-    if ((((varbitplayer_27168 == 1) && (varbitplayer_40595 == 0)) || (((varbitplayer_27168 == 1) && (varbitplayer_40595 == 2)) || ((varbitplayer_27168 == 1) && (varbitplayer_40595 == 3))))) {
+    if ((varbitplayer_27168 == 1)) {
+        if ((varbitplayer_40595 == 0)) {
+            int3 = (varbitplayer_40594 / 10);
+        } else if ((varbitplayer_27168 == 1)) {
+            if ((varbitplayer_40595 == 2)) {
+                int3 = (varbitplayer_40594 / 10);
+            } else if (((varbitplayer_27168 == 1) && (varbitplayer_40595 == 3))) {
+                int3 = (varbitplayer_40594 / 10);
+            };
+        } else if (((varbitplayer_27168 == 1) && (varbitplayer_40595 == 3))) {
+            int3 = (varbitplayer_40594 / 10);
+        };
+    } else if ((varbitplayer_27168 == 1)) {
+        if ((varbitplayer_40595 == 2)) {
+            int3 = (varbitplayer_40594 / 10);
+        } else if (((varbitplayer_27168 == 1) && (varbitplayer_40595 == 3))) {
+            int3 = (varbitplayer_40594 / 10);
+        };
+    } else if (((varbitplayer_27168 == 1) && (varbitplayer_40595 == 3))) {
         int3 = (varbitplayer_40594 / 10);
     };
     var string0 = script46(int3, ",");

@@ -1,13 +1,29 @@
 //
-function script247(int0: number, int1: number, int2: number, int3: number, string0: string, string1: string): [string, number, number, number] {
+function script247(int0: number, int1: number, int2: number, int3: number, string0: string, string1: string): [number, number, number, string] {
     var int4 = 0;
     switch (int1) {
         case 32568: {
-            if ((((int0 == 2) && (varbitplayer_18179 == 0)) && (INV_GETOBJ(94 as inv, 1) != 27588 as obj))) {
-                int4 = 1;
-            } else if (((((item_getparam(INV_GETOBJ(94 as inv, 1), 6295) == 1) || (item_getparam(INV_GETOBJ(94 as inv, 1), 4552) == 1)) || (INV_GETOBJ(94 as inv, 1) == 32053 as obj)) && (script13040(7, 0) == 1))) {
-                var int3 = 1;
-                return [string0, int2, int3, int4];
+            if ((int0 == 2)) {
+                if ((varbitplayer_18179 == 0)) {
+                    if ((INV_GETOBJ(94 as inv, 1) != 27588 as obj)) {
+                        int4 = 1;
+                    } else if ((((item_getparam(INV_GETOBJ(94 as inv, 1), 6295) == 1) || (item_getparam(INV_GETOBJ(94 as inv, 1), 4552) == 1)) || (INV_GETOBJ(94 as inv, 1) == 32053 as obj))) {
+                        if ((script13040(7, 0) == 1)) {
+                            var int3 = 1;
+                            return [string0, int2, int3, int4];
+                        };
+                    };
+                } else if ((((item_getparam(INV_GETOBJ(94 as inv, 1), 6295) == 1) || (item_getparam(INV_GETOBJ(94 as inv, 1), 4552) == 1)) || (INV_GETOBJ(94 as inv, 1) == 32053 as obj))) {
+                    if ((script13040(7, 0) == 1)) {
+                        int3 = 1;
+                        return [string0, int2, int3, int4];
+                    };
+                };
+            } else if ((((item_getparam(INV_GETOBJ(94 as inv, 1), 6295) == 1) || (item_getparam(INV_GETOBJ(94 as inv, 1), 4552) == 1)) || (INV_GETOBJ(94 as inv, 1) == 32053 as obj))) {
+                if ((script13040(7, 0) == 1)) {
+                    int3 = 1;
+                    return [string0, int2, int3, int4];
+                };
             };
             break;
         }

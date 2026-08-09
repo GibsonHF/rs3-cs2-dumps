@@ -13,7 +13,9 @@ function script16706(int0: number, int1: number, int2: number, int3: number, int
         int7 = script8948(int4);
     };
     CC_DELETEALL(int0);
-    while ((int6++ < int3)) {
+    stack(int6);
+    int6 = (int6 + 1);
+    while (BRANCH_LESS_THAN(int3)) {
         int10 = ((int3 - int6) - 1);
         int8 = enum_getvalue(0, 0, 13144 as cs2enum, (int10 * 2));
         int9 = enum_getvalue(0, 0, 13144 as cs2enum, ((int10 * 2) + 1));

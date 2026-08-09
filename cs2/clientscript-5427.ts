@@ -9,7 +9,7 @@ function script5427(): void {
     script5433(1, 90);
     script5433(2, 180);
     IF_SETONTIMER(callback(script5430), comp(1167, 1));
-    IF_SETTEXT(inttostring(varbitplayer_3684, 10), 76480545);
+    IF_SETTEXT(inttostring(varbitplayer_3684, 10), comp(1167, 33));
     script5434();
     return;
 }

@@ -4,21 +4,9 @@ function script7411(int0: number): void {
     if ((CC_FIND(comp(1311, 343), 0) == 1)) {
         int1 = script19710(int0);
         unk11019(1, struct_getparam(int1, 2503));
-        stack(2);
-        stack(int1);
-        stack(2504);
-        struct_getparam();
-        unk11019(stack());
-        stack(3);
-        stack(int1);
-        stack(2505);
-        struct_getparam();
-        unk11019(stack());
-        stack(4);
-        stack(int1);
-        stack(2506);
-        struct_getparam();
-        unk11019(stack());
+        unk11019(2, struct_getparam(int1, 2504));
+        unk11019(3, struct_getparam(int1, 2505));
+        unk11019(4, struct_getparam(int1, 2506));
     };
     return;
 }

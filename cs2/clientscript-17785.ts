@@ -28,7 +28,8 @@ function script17785(int0: number): void {
         }
     };
     int7 = ENUM_GETOUTPUTCOUNT(int6);
-    while ((++int10 < int7)) {
+    int10 = (int10 + 1);
+    while ((int10 < int7)) {
         int8 = enum_getvalue(0, 74, int6, int10);
         if ((script17523(int8) == 1)) {
             string0 = script17500(int8);
@@ -48,7 +49,8 @@ function script17785(int0: number): void {
         IF_SETHIDE(false, int3);
         IF_SETSCROLLSIZE(0, int1, int2);
         script7791(int3, int2);
-        while ((++int10 < int7)) {
+        int10 = (int10 + 1);
+        while ((int10 < int7)) {
             if ((CC_FIND(int2, script17503(enum_getvalue(0, 74, int6, int10), 0)) == 1)) {
                 CC_SETSIZE((int5 - (16 - 6)), (24 * PARAHEIGHT(CC_GETTEXT(), ((int5 - (16 - 6)) - 16), 207 as fontmetrics)), 0, 0);
             };

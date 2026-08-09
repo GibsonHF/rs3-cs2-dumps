@@ -13,8 +13,16 @@ function script2347(int0: number, int1: number, int2: number, int3: number, int4
     var int14 = script14350(int10, int3, int13);
     if ((int14 >= int3)) {
         if ((int8 == 1)) {
-            if ((((int2 != -1) && (OC_STACKABLE(int1) == 1)) && (script14345(int2) > 0))) {
-                script14190(int13, 1, int1);
+            if ((int2 != -1)) {
+                if ((OC_STACKABLE(int1) == 1)) {
+                    if ((script14345(int2) > 0)) {
+                        script14190(int13, 1, int1);
+                    } else {
+                        script14190(int13, 0, int1);
+                    };
+                } else {
+                    script14190(int13, 0, int1);
+                };
             } else {
                 script14190(int13, 0, int1);
             };

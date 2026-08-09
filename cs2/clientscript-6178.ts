@@ -29,5 +29,6 @@ function script6178(int0: number, int1: number): number {
     CC_SETGRAPHIC(10716 as graphic);
     CC_SETPOSITION(0, 250, 2, 0);
     CC_SETSIZE(278, 125, 0, 0);
-    return ++int0;
+    int0 = (int0 + 1);
+    return int0;
 }

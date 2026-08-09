@@ -14,7 +14,7 @@ function script14244(): [number, number, number, number] {
     var int5 = IF_GETWIDTH(comp(1477, 26));
     var int6 = IF_GETHEIGHT(comp(1477, 26));
     if ((varclient_6403 != 0)) {
-        [int1, int2, int3, int4] = UNKNOWN_COMMAND_126();
+        [int1, int2, int3, int4] = VIEWPORT_GETBOUNDS();
         return [int1, int2, (int1 + int3), (int2 + int4)];
     };
     [int1, int2, int3, int4] = script2956();

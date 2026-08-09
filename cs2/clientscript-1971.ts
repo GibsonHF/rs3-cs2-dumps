@@ -12,21 +12,21 @@ function script1971(int0: number, int1: number): void {
             if (((varclient_619 < 0) || (varclient_619 > 25))) {
                 varclient_619 = 0;
             };
-            IF_SETTEXT(enum_getvalue(0, 36, 2121 as cs2enum, varclient_619), int1);
+            IF_SETTEXT(enum_getvalue(0, 36, 2121, varclient_619), int1);
             break;
         }
         case 2: {
             if (((varclient_620 < 0) || (varclient_620 > 25))) {
                 varclient_620 = 0;
             };
-            IF_SETTEXT(enum_getvalue(0, 36, 2121 as cs2enum, varclient_620), int1);
+            IF_SETTEXT(enum_getvalue(0, 36, 2121, varclient_620), int1);
             break;
         }
         case 3: {
             if (((varclient_621 < 0) || (varclient_621 > 25))) {
                 varclient_621 = 0;
             };
-            IF_SETTEXT(enum_getvalue(0, 36, 2121 as cs2enum, varclient_621), int1);
+            IF_SETTEXT(enum_getvalue(0, 36, 2121, varclient_621), int1);
             break;
         }
     };

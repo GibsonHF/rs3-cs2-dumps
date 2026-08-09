@@ -137,19 +137,19 @@ function script2059(): void {
     };
     switch (varbitplayer_17132) {
         case 1: {
-            IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -1), 62259364);
+            IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -1), comp(950, 164));
             break;
         }
         case 2: {
-            IF_SETONMOUSEREPEAT(callback(script8799, string1, -2147483645, -1), 62259364);
+            IF_SETONMOUSEREPEAT(callback(script8799, string1, -2147483645, -1), comp(950, 164));
             break;
         }
         case 3: {
-            IF_SETONMOUSEREPEAT(callback(script8799, string2, -2147483645, -1), 62259364);
+            IF_SETONMOUSEREPEAT(callback(script8799, string2, -2147483645, -1), comp(950, 164));
             break;
         }
         case 4: {
-            IF_SETONMOUSEREPEAT(callback(script8799, string3, -2147483645, -1), 62259364);
+            IF_SETONMOUSEREPEAT(callback(script8799, string3, -2147483645, -1), comp(950, 164));
             break;
         }
     };

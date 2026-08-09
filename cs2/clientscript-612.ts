@@ -1,5 +1,5 @@
 //
-function script612(int0: number, string0: string, string1: string, string2: string): [string, number] {
+function script612(int0: number, string0: string, string1: string, string2: string): [number, string] {
     var int1 = STRING_LENGTH(string1);
     if ((STRING_LENGTH(string0) < int1)) {
         return [string0, 0];

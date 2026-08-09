@@ -8,7 +8,7 @@ function script14772(int0: number): void {
     CC_DELETEALL(comp(656, 31));
     CC_DELETEALL(comp(656, 29));
     var int1 = DB_GETFIELDCOUNT(varplayer_9212, 340080);
-    var int2 = -1 as dbrow;
+    var int2 = -1;
     var string0 = "";
     var int3 = 25;
     if ((script6431() == 1)) {
@@ -17,7 +17,8 @@ function script14772(int0: number): void {
     var int4 = 0;
     var int5 = 0;
     var int6 = -1;
-    while ((++int6 < int1)) {
+    int6 = (int6 + 1);
+    while ((int6 < int1)) {
         int2 = dbrow_getfield(varplayer_9212, 340080, int6);
         if ((script14505(int2) == 1)) {
             string0 = dbrow_getfield(int2, 344128, 0);

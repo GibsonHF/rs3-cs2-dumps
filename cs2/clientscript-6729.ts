@@ -1,12 +1,12 @@
 //
 function script6729(int0: number, int1: number, int2: number): void {
     var int3 = -1 as struct;
-    var int4 = -1 as struct;
+    var int4 = -1;
     var int5 = -1 as struct;
     if ((CC_FIND(int0, int2) == 1)) {
         int3 = cc_getparam(4545);
         int4 = script9952(int3);
-        if ((int4 != -1 as struct)) {
+        if ((int4 != -1)) {
             CC_SETGRAPHIC(struct_getparam(int4, 3911));
         };
     };

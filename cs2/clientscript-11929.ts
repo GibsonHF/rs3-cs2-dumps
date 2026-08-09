@@ -10,11 +10,7 @@ function script11929(int0: number): [number, number] {
     } else if ((DB_GETROWTABLE(int0) == 113)) {
         [int1, int2] = dbrow_getfield(int0, 462848, 0);
     } else if ((DB_GETROWTABLE(int0) == 119)) {
-        stack(int0);
-        stack(487424);
-        stack(0);
-        dbrow_getfield();
-        [int1, int2] = stack();
+        [int1, int2] = dbrow_getfield(int0, 487424, 0);
     } else if ((DB_GETROWTABLE(int0) == 117)) {
         [int1, int2] = dbrow_getfield(int0, 479248, 0);
     };

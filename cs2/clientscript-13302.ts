@@ -164,7 +164,11 @@ function script13302(int0: number): [number, string] {
             break;
         }
         case 107: {
-            if ((((varplayer_2268 >= 2) && (varbitplayer_10420 == 0)) || (varplayer_2268 >= 10))) {
+            if ((varplayer_2268 >= 2)) {
+                if (((varbitplayer_10420 == 0) || (varplayer_2268 >= 10))) {
+                    int6 = 1;
+                };
+            } else if ((varplayer_2268 >= 10)) {
                 int6 = 1;
             };
             [int5, string0] = script13291(int5, string0, int6, script13299(4));

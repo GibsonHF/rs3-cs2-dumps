@@ -5,7 +5,7 @@ function script1943(): void {
         return;
     };
     IF_SETHIDE(false, comp(802, 6));
-    IF_SETTEXT(varclient_2455, comp(802, 5));
+    IF_SETTEXT(varclient_2455, 52559877);
     varclient_581 = 1;
     return;
 }

@@ -18,8 +18,7 @@ function script86(int0: number, int1: number, int2: number): void {
     var string5 = "";
     var int8 = -1;
     var int9 = -1;
-    stack(unk11059(int3));
-    [int5, string0, int6, string1, string2, string3, string4, int7, string5, int8, int9] = stack();
+    [int5, string0, int6, string1, string2, string3, string4, int7, string5, int8, int9] = unk11059(int3);
     if ((int5 == -1)) {
         return;
     };

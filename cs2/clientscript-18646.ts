@@ -39,9 +39,8 @@ function script18646(): void {
             int6 = script10405(int5);
             if ((struct_getparam(int6, 3521) == true)) {
                 [int7, int8, int15, int15, int9, int10, int11, int12, int13, int14, int15] = script8701(int2, int5);
-                if ((int12 == 37)) {
-                } else if ((int12 == 38)) {
-                    while (((int12 == 37) || (int12 == 38))) {
+                if (((int12 == 37) || (int12 == 38))) {
+                    while ((int12 == 37)) {
                         [int22, int23, int24] = script18679(int2, int12);
                         if (((int13 == 0) && (int24 == 1))) {
                             int13 = int24;
@@ -54,9 +53,8 @@ function script18646(): void {
                             script8709(int2, int12, int16, int17, int20, int21, int22, int23, int24, int25);
                         };
                     };
-                } else if ((int11 == 37)) {
-                } else if ((int11 == 38)) {
-                    while (((int11 == 37) || (int11 == 38))) {
+                } else if (((int11 == 37) || (int11 == 38))) {
+                    while ((int11 == 37)) {
                         [int22, int23, int24] = script18679(int2, int11);
                         if (((int13 == 0) && (int24 == 1))) {
                             int13 = int24;

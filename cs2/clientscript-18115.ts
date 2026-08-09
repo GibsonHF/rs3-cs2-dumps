@@ -56,7 +56,7 @@ function script18115(): void {
     script2994(int6, 2, int3, int4, 1, 1, int5, int5, 0, 0, 4312);
     CC_SETONTIMER(callback(script17942, int6, 2, -1500));
     CC_SET2DANGLE(49152);
-    int6 = 80543751;
+    int6 = comp(1229, 7);
     CC_DELETEALL(int6);
     script2994(int6, 1, int3, int4, 1, 1, int5, int5, 0, 0, 4312);
     CC_SETONTIMER(callback(script17942, int6, 1, -1500));
@@ -77,12 +77,14 @@ function script18115(): void {
     var int11 = 0;
     [int9, int10, int11] = script18040(script17853());
     var string0 = `You're currently level <col=2EF8FF>${TOSTRING_LOCALISED(int9, 1)}</col> with <col=2EF8FF>${TOSTRING_LOCALISED(int10, 1)}</col> / <col=2EF8FF>${TOSTRING_LOCALISED(int11, 1)}</col> Hero points.<br>`;
-    if ((((varplayer_11331 > 0) || (varplayer_11332 > 0)) && (varplayer_11333 == script17857(script17853())))) {
-        if ((varplayer_11331 > 0)) {
-            string0 = strconcat(string0, `<br> - Your Yak Track skips have converted to <col=2EF8FF>${TOSTRING_LOCALISED(varplayer_11331, 1)}</col> levels.`);
-        };
-        if ((varplayer_11332 > 0)) {
-            string0 = strconcat(string0, `<br> - Your Challenge skip tokens have converted to <col=2EF8FF>${TOSTRING_LOCALISED(varplayer_11332, 1)}</col> Hero points.`);
+    if (((varplayer_11331 > 0) || (varplayer_11332 > 0))) {
+        if ((varplayer_11333 == script17857(script17853()))) {
+            if ((varplayer_11331 > 0)) {
+                string0 = strconcat(string0, `<br> - Your Yak Track skips have converted to <col=2EF8FF>${TOSTRING_LOCALISED(varplayer_11331, 1)}</col> levels.`);
+            };
+            if ((varplayer_11332 > 0)) {
+                string0 = strconcat(string0, `<br> - Your Challenge skip tokens have converted to <col=2EF8FF>${TOSTRING_LOCALISED(varplayer_11332, 1)}</col> Hero points.`);
+            };
         };
     };
     if ((script17894() == 1)) {

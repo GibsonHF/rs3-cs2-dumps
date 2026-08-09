@@ -43,7 +43,7 @@ function script5743(int0: number, int1: number): void {
             script2996(int0, int3, 0, int7, 0, 0, IF_GETWIDTH(int0), int8, 0, 0, 4127);
             CC_SETFILL(0);
             CC_SETCOLOUR(16764170);
-            CC_SETHIDE(1);
+            CC_SETHIDE(true);
             int3 = IF_GETNEXTSUBID(int0);
             script15929(int0, int3, 1, (int7 + 1), 0, 0, (IF_GETWIDTH(int0) - 2), (int8 - 2), 0, 0, int4);
             if ((int10 <= int1)) {

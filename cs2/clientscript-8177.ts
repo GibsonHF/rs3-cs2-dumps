@@ -14,7 +14,6 @@ function script8177(): void {
         return;
     };
     if ((WORLDLIST_FETCH() == 0)) {
-    } else {
     };
     IF_SETHIDE(false, comp(1477, 805));
     IF_SETHIDE(true, comp(1433, 62));

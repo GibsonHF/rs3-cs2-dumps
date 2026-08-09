@@ -78,13 +78,13 @@ function script15645(int0: number, int1: number, int2: number, int3: number): vo
     var int18 = MIN(int6, ((int8 * int14) + (int9 * (int14 - 1))));
     var int19 = ((int5 - int17) / 2);
     var int20 = -1;
-    var int21 = -1 as struct;
+    var int21 = -1;
     var int22 = 0;
     var int23 = 0;
     var int24 = 0;
     var int25 = 0;
     var int26 = 0;
-    var int27 = -1 as graphic;
+    var int27 = -1;
     while ((int24 < int4)) {
         int20 = push_array(int24);
         int21 = enum_getvalue(0, 73, 1467 as cs2enum, int20);
@@ -129,19 +129,19 @@ function script15645(int0: number, int1: number, int2: number, int3: number): vo
                     int27 = struct_getparam(int21, 8299);
                     switch (MAP_LANG()) {
                         case 1: {
-                            if ((struct_getparam(int21, 8300) != -1 as graphic)) {
+                            if ((struct_getparam(int21, 8300) != -1)) {
                                 int27 = struct_getparam(int21, 8300);
                             };
                             break;
                         }
                         case 2: {
-                            if ((struct_getparam(int21, 8301) != -1 as graphic)) {
+                            if ((struct_getparam(int21, 8301) != -1)) {
                                 int27 = struct_getparam(int21, 8301);
                             };
                             break;
                         }
                         case 3: {
-                            if ((struct_getparam(int21, 8302) != -1 as graphic)) {
+                            if ((struct_getparam(int21, 8302) != -1)) {
                                 int27 = struct_getparam(int21, 8302);
                             };
                             break;
@@ -158,11 +158,11 @@ function script15645(int0: number, int1: number, int2: number, int3: number): vo
         };
     };
     IF_SETSIZE(IF_GETWIDTH(comp(744, 69)), int8, 0, 0, comp(744, 69));
-    script10410(comp(744, 70), -1, 28557, 0, 0, int7, int8, -1, 0, "");
-    script4512(comp(744, 70), struct_getparam(631 as struct, 3915), MIN(int8, struct_getparam(631 as struct, 3916)), (0 + 3), (0 + 3), struct_getparam(631 as struct, 3910));
-    script6200(comp(744, 70), (((int7 - 40) - 10) - 10), int8, ((0 + 40) + 10), 0, 28, struct_getparam(631 as struct, 8263), 0);
+    script10410(48758854, -1, 28557, 0, 0, int7, int8, -1, callback(script0));
+    script4512(48758854, struct_getparam(631, 3915), MIN(int8, struct_getparam(631, 3916)), (0 + 3), (0 + 3), struct_getparam(631, 3910));
+    script6200(48758854, (((int7 - 40) - 10) - 10), int8, ((0 + 40) + 10), 0, 28, struct_getparam(631, 8263), 0);
     CC_SETTEXTALIGN(1, 1, 14);
-    script152(comp(744, 71), int7, int8, 0, 0, 26, "", 0);
+    script152(48758855, int7, int8, 0, 0, callback(script26), 0);
     IF_SETONCLICK(callback(script9061, 7), comp(744, 71));
     return;
 }

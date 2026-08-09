@@ -24,9 +24,9 @@ function script4692(int0: number): void {
         }
     };
     var string0 = enum_getvalue(0, 36, 3855 as cs2enum, int2);
-    string0 = `${string0}<br>${enum_getvalue(0, 36, 14134 as cs2enum, int2)}`;
-    string0 = `${string0}<br>Cost: ${inttostring(enum_getvalue(0, 0, 3856 as cs2enum, int2), 10)}`;
-    int1 = enum_getvalue(0, 0, 3857 as cs2enum, int2);
+    string0 = `${string0}<br>${enum_getvalue(0, 36, 14134, int2)}`;
+    string0 = `${string0}<br>Cost: ${inttostring(enum_getvalue(0, 0, 3856, int2), 10)}`;
+    int1 = enum_getvalue(0, 0, 3857, int2);
     if ((int1 == 50)) {
         string0 = `${string0}<br>Cooldown: 30 sec`;
     } else {

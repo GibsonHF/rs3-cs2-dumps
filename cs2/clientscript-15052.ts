@@ -8,8 +8,12 @@ function script15052(int0: number, int1: number): void {
     };
     script15054();
     if ((int1 <= 0)) {
-        if (((int2 == 0) && (STRING_LENGTH(varclient_6788) > 0))) {
-            script15060(varclient_6788, int0, 0);
+        if ((int2 == 0)) {
+            if ((STRING_LENGTH(varclient_6788) > 0)) {
+                script15060(varclient_6788, int0, 0);
+            } else if ((IF_FIND(comp(105, 225)) == 1)) {
+                script15060(CC_GETTEXT(), int0, 0);
+            };
         } else if ((IF_FIND(comp(105, 225)) == 1)) {
             script15060(CC_GETTEXT(), int0, 0);
         };

@@ -5,7 +5,8 @@ function script3801(): void {
     var int2 = 0;
     var int3 = 0;
     CC_DELETEALL(comp(1253, 556));
-    while ((++int0 < 10)) {
+    int0 = (int0 + 1);
+    while ((int0 < 10)) {
         [int1, int2, int3] = script3614(int0);
         IF_SETOBJECT(int1, int2, enum_getvalue(0, 9, 15864 as cs2enum, int0));
         IF_SETGRAPHIC(enum_getvalue(0, 23, 15866 as cs2enum, int3), enum_getvalue(0, 9, 15865 as cs2enum, int0));
@@ -15,7 +16,7 @@ function script3801(): void {
         script4119(int1, int2, enum_getvalue(0, 9, 6179 as cs2enum, int0));
     };
     IF_SETONOP(callback(script3803, -1, 1), comp(639, 27));
-    IF_SETONOP(callback(script3803, -1, 2), 41877568);
+    IF_SETONOP(callback(script3803, -1, 2), comp(639, 64));
     var int4 = 750;
     if ((varbitplayer_45647 == varplayer_3079)) {
         int4 = (int4 - (75 * (10 - script3613())));
@@ -28,8 +29,12 @@ function script3801(): void {
         int4 = (int4 - (75 * (10 - script3613())));
     };
     int4 = MAX(0, int4);
-    if (((varbitplayer_45647 == varplayer_3079) && (int4 > 0))) {
-        IF_SETTEXT(inttostring(int4, 10), comp(639, 35));
+    if ((varbitplayer_45647 == varplayer_3079)) {
+        if ((int4 > 0)) {
+            IF_SETTEXT(inttostring(int4, 10), comp(639, 35));
+        } else {
+            IF_SETTEXT("FREE", comp(639, 35));
+        };
     } else {
         IF_SETTEXT("FREE", comp(639, 35));
     };

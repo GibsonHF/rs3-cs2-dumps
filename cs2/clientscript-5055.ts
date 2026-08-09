@@ -26,7 +26,7 @@ function script5055(int0: number, int1: number, int2: number, int3: number, int4
     CC_DELETEALL(int3);
     CC_DELETEALL(int4);
     var int5 = 0;
-    var int6 = ENUM_GETOUTPUTCOUNT(3943);
+    var int6 = ENUM_GETOUTPUTCOUNT(3943 as cs2enum);
     while ((int5 < int6)) {
         CC_CREATE(int3, 3, IF_GETNEXTSUBID(int3));
         CC_SETHIDE(true);
@@ -68,7 +68,7 @@ function script5055(int0: number, int1: number, int2: number, int3: number, int4
                 CC_SETTRANS(255);
                 CC_SETOP(1, "Select");
                 CC_SETONOP(callback(script5070, -2147483644, int7, 0));
-                CC_SETHIDE(0);
+                CC_SETHIDE(false);
             };
             if ((CC_FIND(int3, ((int7 * 12) + 1)) == 1)) {
                 CC_SETSIZE(24, 26, 0, 0);
@@ -76,7 +76,7 @@ function script5055(int0: number, int1: number, int2: number, int3: number, int4
                 CC_SETTRANS(255);
                 CC_SETOP(1, "Select & open settings");
                 CC_SETONOP(callback(script5070, -2147483644, int7, 1));
-                CC_SETHIDE(0);
+                CC_SETHIDE(false);
             };
             if ((CC_FIND(int3, ((int7 * 12) + 2)) == 1)) {
                 CC_SETSIZE(40, 26, 1, 0);

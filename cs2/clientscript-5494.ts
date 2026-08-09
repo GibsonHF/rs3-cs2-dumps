@@ -1,12 +1,12 @@
 //
 function script5494(int0: number): void {
     var int1 = -1 as cs2enum;
-    var int2 = -1 as cs2enum;
-    var int3 = -1 as cs2enum;
+    var int2 = -1;
+    var int3 = -1;
     [int1, int2, int3] = script7386();
-    var int4 = -1 as cs2enum;
+    var int4 = -1;
     var int5 = -1;
-    var int6 = -1 as cs2enum;
+    var int6 = -1;
     var int7 = -1;
     [int4, int5, int6, int7] = script7387();
     var int8 = 0;
@@ -46,12 +46,12 @@ function script5494(int0: number): void {
             break;
         }
     };
-    if ((((int12 == varplayer_3376) && (CC_FIND(comp(1072, 18), int11) == 1)) && (CC_GETHIDE() == false))) {
+    if ((((int12 == varplayer_3376) && (CC_FIND(comp(1072, 18), int11) == 1)) && (CC_GETHIDE() == 0))) {
         CC_SETCOLOUR(16239152);
         CC_SETONMOUSEOVER(callback(script5645, int11, 1, 1));
         CC_SETONMOUSELEAVE(callback(script5645, int11, 0, 1));
-        IF_SETHIDE(0, 70254611);
-        IF_SETPOSITION(CC_GETX(), (CC_GETY() - 2), 0, 0, 70254611);
+        IF_SETHIDE(false, comp(1072, 19));
+        IF_SETPOSITION(CC_GETX(), (CC_GETY() - 2), 0, 0, comp(1072, 19));
     };
     script13971(70254621, -1, 28553, "Save", 1);
     script13971(70254622, -1, 28554, "Revert", 1);

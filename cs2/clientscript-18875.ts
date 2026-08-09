@@ -1,7 +1,7 @@
 //
 function script18875(int0: number, int1: number, int2: number): number {
-    var int3 = -1 as graphic;
-    var int4 = -1 as graphic;
+    var int3 = -1;
+    var int4 = -1;
     if ((int0 != -1)) {
         int3 = script18922(int0, 7);
         switch (MAP_LANG()) {
@@ -35,17 +35,16 @@ function script18875(int0: number, int1: number, int2: number): number {
             }
         };
     };
-    if ((int4 != -1 as graphic)) {
+    if ((int4 != -1)) {
         return int4;
     };
-    if ((int3 != -1 as graphic)) {
+    if ((int3 != -1)) {
         return int3;
     };
     stack(1163264);
     stack(int2);
     DB_FIND(0);
-    dbrow_findnext();
-    var int5 = stack();
+    var int5 = dbrow_findnext();
     if ((int5 != -1)) {
         int3 = dbrow_getfield(int5, 1163296, 0);
     };

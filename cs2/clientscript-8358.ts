@@ -16,8 +16,12 @@ function script8358(int0: number, int1: number): void {
             if ((varbitplayer_27169 == 0)) {
                 string0 = struct_getparam(script10405(cc_getparam(3536)), 3493);
             } else if ((strcmp(struct_getparam(script10405(cc_getparam(3536)), 4471), "") == 0)) {
-                if (((script6431() == 1) && (strcmp(struct_getparam(script10405(cc_getparam(3536)), 8095), "") != 0))) {
-                    string0 = struct_getparam(script10405(cc_getparam(3536)), 8095);
+                if ((script6431() == 1)) {
+                    if ((strcmp(struct_getparam(script10405(cc_getparam(3536)), 8095), "") != 0)) {
+                        string0 = struct_getparam(script10405(cc_getparam(3536)), 8095);
+                    } else {
+                        string0 = struct_getparam(script10405(cc_getparam(3536)), 3493);
+                    };
                 } else {
                     string0 = struct_getparam(script10405(cc_getparam(3536)), 3493);
                 };

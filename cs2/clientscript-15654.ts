@@ -4,7 +4,7 @@ function script15654(int0: number, int1: number, int2: number, int3: number, int
     var int6 = dbrow_getfield(int4, 794656, 0);
     IF_SETNPCMODEL(int6, int0);
     IF_SETTEXT(dbrow_getfield(int4, 794640, 0), int1);
-    if ((varclient_7075 == false)) {
+    if ((varclient_7075 == 0)) {
         IF_SETMODELANIM(dbrow_getfield(int4, 794672, 0), int0);
         IF_SETMODELANGLE(dbrow_getfield(int4, 794704, 0), int0);
     };
@@ -17,7 +17,7 @@ function script15654(int0: number, int1: number, int2: number, int3: number, int
         script3537(string0);
     };
     var int9 = script16788(int3);
-    if ((int5 == 6482 as dbrow)) {
+    if ((int5 == 6482)) {
         IF_SETGRAPHIC(-1 as graphic, int3);
         IF_SETGRAPHIC(-1 as graphic, int9);
     } else {

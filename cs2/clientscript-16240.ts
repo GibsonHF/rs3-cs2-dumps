@@ -27,7 +27,8 @@ function script16240(): void {
     };
     script16204();
     script16205();
-    while ((++int0 < 7)) {
+    int0 = (int0 + 1);
+    while ((int0 < 7)) {
         [int1, int2] = script11184(int0);
         int3 = script11185(int0);
         int4 = script11187(int0);

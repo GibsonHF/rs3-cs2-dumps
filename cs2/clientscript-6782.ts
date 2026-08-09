@@ -1,17 +1,16 @@
 //
 function script6782(): void {
-    var int0 = comp(1253, 320);
+    var int0 = 82116928;
     CC_DELETEALL(int0);
     script10026(int0, 0, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0);
     var int1 = 0;
     var int2 = -1;
     DB_LISTALL(162);
-    dbrow_findnext();
-    var int3 = stack();
+    var int3 = dbrow_findnext();
     var int4 = -1;
     var int5 = 0;
     var string0 = "";
-    while ((int3 != -1 as dbrow)) {
+    while ((int3 != -1)) {
         if (((DB_GETFIELDCOUNT(int3, 663648) > 0) && (script6734(int3) == 1))) {
             int1 = (int1 + 1);
             [int4, int5] = dbrow_getfield(int3, 663648, 0);
@@ -45,8 +44,7 @@ function script6782(): void {
                 CC_SETONMOUSEREPEAT(callback(script3876, string0, -2147483645, -2147483643));
             };
         };
-        dbrow_findnext();
-        int3 = stack();
+        int3 = dbrow_findnext();
     };
     IF_SETTEXT(`Bonus Prizes  <col=FFFFFF>(${inttostring(int1, 10)})</col>`, comp(1253, 317));
     if ((CC_FIND(int0, 0) == 1)) {

@@ -108,7 +108,7 @@ function script16742(int0: number): void {
     if ((int1 == 1)) {
         IF_SETONCLICK(callback(), int2);
         int5 = ((500 - varclient_201) / 50);
-        if ((varclient_202 == 0)) {
+        if ((varclient_202 == false)) {
             if ((int5 == 1)) {
                 string1 = "Could not display video advertisement. Login will continue in 1 second.";
             } else {
@@ -131,7 +131,7 @@ function script16742(int0: number): void {
     };
     script2954(0);
     IF_SETONCLICK(callback(script2944), int2);
-    IF_SETONTIMER(callback(), 48759131);
+    IF_SETONTIMER(callback(), comp(744, 347));
     var string2 = "";
     var int6 = 1;
     var int7 = 0;
@@ -487,10 +487,10 @@ function script16742(int0: number): void {
         }
         case 53: {
             unk11163();
-            varclient_200 = stack();
+            varclient_200 = [];
             [int13, int14, int15] = script6716(varclient_200);
             string2 = `Your ban will be lifted in<br>${inttostring(int13, 10)} hours, ${inttostring(int14, 10)} minutes, ${inttostring(int15, 10)} seconds`;
-            IF_SETONTIMER(callback(script6715), 48759131);
+            IF_SETONTIMER(callback(script6715), comp(744, 347));
             string3 = "More info";
             break;
         }

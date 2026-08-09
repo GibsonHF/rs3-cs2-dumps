@@ -17,7 +17,7 @@ function script7130(int0: number, int1: number, int2: number, int3: number): [nu
                 int10 = 1;
             };
             var int2 = (int2 + int4);
-            var [int1, int2] = script7131(int0, 3, int2, 1, 2, struct_getparam(int7, 2655), -1, 0, 1, int10, int9, int3, int1);
+            [int1, int2] = script7131(int0, 3, int2, 1, 2, struct_getparam(int7, 2655), -1, 0, 1, int10, int9, int3, int1);
             int2 = (int2 + int4);
         } else if (((int6 != -1 as obj) && (script7090(int6) == 0))) {
             int9 = script7089(int6);
@@ -30,7 +30,8 @@ function script7130(int0: number, int1: number, int2: number, int3: number): [nu
             [int1, int2] = script7131(int0, 3, int2, 1, 2, int6, -1, 0, 1, int10, int9, int3, int1);
             int2 = (int2 + int4);
         };
-        switch (++int8) {
+        int8 = (int8 + 1);
+        switch (int8) {
             case 2: {
                 int6 = item_getparam(int0, 2651);
                 int7 = item_getparam(int0, 2991);

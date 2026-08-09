@@ -7,7 +7,8 @@ function script4476(): void {
     var string0 = "";
     var string1 = "";
     var int4 = -1;
-    while ((++int4 < 5)) {
+    int4 = (int4 + 1);
+    while ((int4 < 5)) {
         [int0, int1, int2, int3] = script4477(int4);
         IF_SETOBJECT_NONUM(enum_getvalue(0, 33, 13914 as cs2enum, (8 + int4)), 1, int2);
         IF_SETONMOUSEREPEAT(callback(script3876, OC_NAME(enum_getvalue(0, 33, 13914 as cs2enum, (8 + int4))), int2, -1), int2);

@@ -27,13 +27,13 @@ function script10135(int0: number, int1: number): void {
                 printmessage("No webcam detected. If you connect a webcam you must log out and back in to Twitch to detect it.");
                 IF_SETHIDE(false, comp(232, 138));
             };
-        } else if ((int0 == comp(232, 181))) {
+        } else if ((int0 == 15204533)) {
             varbitclient_23249 = 1;
             if ((varbitclient_23250 > 0)) {
                 int3 = 1;
             };
             TTV_WEBCAM_FLIP(int3, 1);
-        } else if ((int0 == comp(232, 185))) {
+        } else if ((int0 == 15204537)) {
             varbitclient_23250 = 1;
             if ((varbitclient_23249 > 0)) {
                 int2 = 1;
@@ -46,17 +46,17 @@ function script10135(int0: number, int1: number): void {
         IF_SETHIDE(false, int1);
         if ((int0 == comp(232, 123))) {
             varbitclient_23068 = 0;
-        } else if ((int0 == comp(232, 137))) {
+        } else if ((int0 == 15204489)) {
             varbitclient_23069 = 0;
             IF_SETHIDE(true, comp(232, 129));
             script10150(0);
-        } else if ((int0 == comp(232, 181))) {
+        } else if ((int0 == 15204533)) {
             varbitclient_23249 = 0;
             if ((varbitclient_23250 > 0)) {
                 int3 = 1;
             };
             TTV_WEBCAM_FLIP(int3, 0);
-        } else if ((int0 == comp(232, 185))) {
+        } else if ((int0 == 15204537)) {
             varbitclient_23250 = 0;
             if ((varbitclient_23249 > 0)) {
                 int2 = 1;

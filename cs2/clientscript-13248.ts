@@ -14,8 +14,16 @@ function script13248(int0: number, int1: number, string0: string): void {
         } else if ((AND(1328831, cc_getparam(6365)) == 0)) {
             string1 = "There are no results. Try changing the advanced filter.";
         } else if ((strcmp(string0, "") == 0)) {
-            if ((((TESTBIT(cc_getparam(6371), 4) == 1) && (TESTBIT(cc_getparam(6371), 1) == 0)) && (TESTBIT(cc_getparam(6371), 3) == 0))) {
-                string1 = "There are no new items that match your selection. Try changing the filters.";
+            if ((TESTBIT(cc_getparam(6371), 4) == 1)) {
+                if ((TESTBIT(cc_getparam(6371), 1) == 0)) {
+                    if ((TESTBIT(cc_getparam(6371), 3) == 0)) {
+                        string1 = "There are no new items that match your selection. Try changing the filters.";
+                    } else if ((((TESTBIT(cc_getparam(6371), 4) == 0) && (TESTBIT(cc_getparam(6371), 1) == 1)) && (TESTBIT(cc_getparam(6371), 3) == 0))) {
+                        string1 = "There are no owned items that match your selection. Try changing the filters.";
+                    };
+                } else if ((((TESTBIT(cc_getparam(6371), 4) == 0) && (TESTBIT(cc_getparam(6371), 1) == 1)) && (TESTBIT(cc_getparam(6371), 3) == 0))) {
+                    string1 = "There are no owned items that match your selection. Try changing the filters.";
+                };
             } else if ((((TESTBIT(cc_getparam(6371), 4) == 0) && (TESTBIT(cc_getparam(6371), 1) == 1)) && (TESTBIT(cc_getparam(6371), 3) == 0))) {
                 string1 = "There are no owned items that match your selection. Try changing the filters.";
             };

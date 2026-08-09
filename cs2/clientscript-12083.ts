@@ -6,11 +6,11 @@ function script12083(int0: number): void {
     var int4 = 0;
     var int5 = 0;
     var int6 = comp(-1, 65535);
-    var int7 = -1;
+    var int7 = comp(-1, 65535);
     var int8 = comp(-1, 65535);
     var int9 = comp(-1, 65535);
-    var int10 = -1;
-    var int11 = -1;
+    var int10 = comp(-1, 65535);
+    var int11 = comp(-1, 65535);
     var int12 = 0;
     var int13 = 0;
     var int14 = 0;
@@ -141,62 +141,62 @@ function script12083(int0: number): void {
     };
     if ((IF_GETHIDE(int6) == false)) {
         if ((IF_GETX(int6) == (IF_GETX(comp(1213, 7)) + 18))) {
-            int7 = 79495175;
+            int7 = comp(1213, 7);
         } else if ((IF_GETX(int6) == (IF_GETX(comp(1213, 6)) + 18))) {
-            int7 = 79495174;
+            int7 = comp(1213, 6);
         } else if ((IF_GETX(int6) == (IF_GETX(comp(1213, 5)) + 18))) {
-            int7 = 79495173;
+            int7 = comp(1213, 5);
         } else if ((IF_GETX(int6) == (IF_GETX(comp(1213, 4)) + 18))) {
-            int7 = 79495172;
+            int7 = comp(1213, 4);
         } else if ((IF_GETX(int6) == (IF_GETX(comp(1213, 3)) + 18))) {
-            int7 = 79495171;
+            int7 = comp(1213, 3);
         } else if ((IF_GETX(int6) == (IF_GETX(comp(1213, 2)) + 18))) {
-            int7 = 79495170;
+            int7 = comp(1213, 2);
         } else {
-            int7 = 79495176;
+            int7 = comp(1213, 8);
         };
     } else if ((IF_GETHIDE(comp(1213, 8)) == true)) {
-        int7 = 79495176;
+        int7 = comp(1213, 8);
     } else if ((IF_GETHIDE(comp(1213, 7)) == true)) {
-        int7 = 79495175;
+        int7 = comp(1213, 7);
     } else if ((IF_GETHIDE(comp(1213, 6)) == true)) {
-        int7 = 79495174;
+        int7 = comp(1213, 6);
     } else if ((IF_GETHIDE(comp(1213, 5)) == true)) {
-        int7 = 79495173;
+        int7 = comp(1213, 5);
     } else if ((IF_GETHIDE(comp(1213, 4)) == true)) {
-        int7 = 79495172;
+        int7 = comp(1213, 4);
     } else if ((IF_GETHIDE(comp(1213, 3)) == true)) {
-        int7 = 79495171;
+        int7 = comp(1213, 3);
     } else if ((IF_GETHIDE(comp(1213, 2)) == true)) {
-        int7 = 79495170;
+        int7 = comp(1213, 2);
     } else {
         switch (varclient_1763) {
             case 2: {
-                int7 = 79495175;
+                int7 = comp(1213, 7);
                 break;
             }
             case 3: {
-                int7 = 79495174;
+                int7 = comp(1213, 6);
                 break;
             }
             case 4: {
-                int7 = 79495173;
+                int7 = comp(1213, 5);
                 break;
             }
             case 5: {
-                int7 = 79495172;
+                int7 = comp(1213, 4);
                 break;
             }
             case 6: {
-                int7 = 79495171;
+                int7 = comp(1213, 3);
                 break;
             }
             case 7: {
-                int7 = 79495170;
+                int7 = comp(1213, 2);
                 break;
             }
             default: {
-                int7 = 79495176;
+                int7 = comp(1213, 8);
                 break;
             }
         };
@@ -220,8 +220,8 @@ function script12083(int0: number): void {
             varclient_1757 = 2;
             int8 = comp(1213, 13);
             int9 = comp(1213, 15);
-            int10 = 79495182;
-            int11 = 79495184;
+            int10 = comp(1213, 14);
+            int11 = comp(1213, 16);
             int16 = varclient_1775;
             break;
         }
@@ -229,8 +229,8 @@ function script12083(int0: number): void {
             varclient_1757 = 3;
             int8 = comp(1213, 17);
             int9 = comp(1213, 19);
-            int10 = 79495186;
-            int11 = 79495188;
+            int10 = comp(1213, 18);
+            int11 = comp(1213, 20);
             int16 = varclient_1776;
             break;
         }
@@ -238,8 +238,8 @@ function script12083(int0: number): void {
             varclient_1757 = 4;
             int8 = comp(1213, 21);
             int9 = comp(1213, 23);
-            int10 = 79495190;
-            int11 = 79495192;
+            int10 = comp(1213, 22);
+            int11 = comp(1213, 24);
             int16 = varclient_1777;
             break;
         }
@@ -247,8 +247,8 @@ function script12083(int0: number): void {
             varclient_1757 = 5;
             int8 = comp(1213, 25);
             int9 = comp(1213, 27);
-            int10 = 79495194;
-            int11 = 79495196;
+            int10 = comp(1213, 26);
+            int11 = comp(1213, 28);
             int16 = varclient_1778;
             break;
         }
@@ -256,8 +256,8 @@ function script12083(int0: number): void {
             varclient_1757 = 6;
             int8 = comp(1213, 29);
             int9 = comp(1213, 31);
-            int10 = 79495198;
-            int11 = 79495200;
+            int10 = comp(1213, 30);
+            int11 = comp(1213, 32);
             int16 = varclient_1779;
             break;
         }
@@ -265,8 +265,8 @@ function script12083(int0: number): void {
             varclient_1757 = 7;
             int8 = comp(1213, 33);
             int9 = comp(1213, 35);
-            int10 = 79495202;
-            int11 = 79495204;
+            int10 = comp(1213, 34);
+            int11 = comp(1213, 36);
             int16 = varclient_1780;
             break;
         }
@@ -274,8 +274,8 @@ function script12083(int0: number): void {
             varclient_1757 = 1;
             int8 = comp(1213, 9);
             int9 = comp(1213, 11);
-            int10 = 79495178;
-            int11 = 79495180;
+            int10 = comp(1213, 10);
+            int11 = comp(1213, 12);
             int16 = varclient_1774;
             break;
         }
@@ -357,17 +357,17 @@ function script12083(int0: number): void {
             }
         };
         IF_SETONTIMER(callback(script5655, int8, int9, int4, 0), int8);
-        IF_SETHIDE(0, int6);
+        IF_SETHIDE(false, int6);
         IF_SETTRANS(0, int6);
         IF_SETONTIMER(callback(script2673, 1, -2147483645, 0), int6);
         IF_SETPOSITION((IF_GETX(int7) + 18), 17, 0, 0, int6);
-        IF_SETHIDE(0, int7);
+        IF_SETHIDE(false, int7);
         IF_SETTRANS(0, int7);
         IF_SETONTIMER(callback(script2673, 1, -2147483645, 0), int7);
-        IF_SETHIDE(0, int10);
+        IF_SETHIDE(false, int10);
         IF_SETTRANS(0, int10);
         IF_SETONTIMER(callback(script2673, 1, -2147483645, 0), int10);
-        IF_SETHIDE(0, int11);
+        IF_SETHIDE(false, int11);
         IF_SETTRANS(0, int11);
         IF_SETONTIMER(callback(script2673, 1, -2147483645, 0), int11);
     };

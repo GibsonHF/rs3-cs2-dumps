@@ -11,7 +11,7 @@ function script7535(int0: number, string0: string, string1: string): void {
         if ((STAT_BASE(int2) < int3)) {
             string2 = `${string2}<br><col=ff0000>Level ${inttostring(int3, 10)} ${enum_getvalue(17, 36, 680 as cs2enum, int2)}</col>`;
         } else {
-            string2 = `${string2}<br>Level ${inttostring(int3, 10)} ${enum_getvalue(17, 36, 680 as cs2enum, int2)}`;
+            string2 = `${string2}<br>Level ${inttostring(int3, 10)} ${enum_getvalue(17, 36, 680, int2)}`;
         };
     };
     string2 = strconcat(string2, "<br>");

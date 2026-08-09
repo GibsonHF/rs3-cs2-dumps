@@ -6,8 +6,7 @@ function script15118(int0: number): number {
     stack(438272);
     stack(int0);
     DB_FIND(0);
-    dbrow_findnext();
-    var int1 = stack();
+    var int1 = dbrow_findnext();
     if ((int1 == -1)) {
         script12478(`Unable to find an event at ID ${inttostring(int0, 10)}!`);
         return -1;

@@ -12,7 +12,8 @@ function script19252(int0: number, int1: number, int2: number): void {
         if ((MODULO(((int0 + int3) - CLIENTCLOCK()), 5) == 0)) {
             CC_SETPOSITION(CC_GETX(), (CC_GETY() - 1), 0, 0);
         };
-        while ((++int5 < 5)) {
+        int5 = (int5 + 1);
+        while ((int5 < 5)) {
             if (((CC_FINDBYCATEGORY[1](int1, int4, int5) == 1) && (CLIENTCLOCK() >= ((int0 + int3) - 10)))) {
                 CC_SETTRANS[1]((255 - (25 * ((int0 + int3) - CLIENTCLOCK()))));
             };

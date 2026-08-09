@@ -11,6 +11,7 @@ function script13687(string0: string): string {
             return `${string0}-${inttostring(varplayer_111, 10)}`;
         }
         case 7: {
+            break;
         }
         default: {
             return `${string0}-1`;

@@ -56,13 +56,13 @@ function script1142(int0: number, int1: number, int2: number): void {
     CC_SETSIZE(5, 16, 0, 0);
     CC_SETGRAPHIC(int5);
     script12591(4, int16);
-    CC_SETTILING(0);
+    CC_SETTILING(false);
     CC_CREATE(int0, 5, 3);
     CC_SETPOSITION((((16 + int15) + int12) - 5), 0, 0, 0);
     CC_SETSIZE(5, 16, 0, 0);
     CC_SETGRAPHIC(int7);
     script12591(4, int16);
-    CC_SETTILING(0);
+    CC_SETTILING(false);
     CC_CREATE(int0, 5, 4);
     CC_SENDTOBACK();
     CC_SETPOSITION(0, 0, 0, 0);
@@ -91,7 +91,7 @@ function script1142(int0: number, int1: number, int2: number): void {
     CC_SETSIZE(32, 16, 1, 0);
     CC_SETGRAPHIC(int8);
     script12591(4, int16);
-    CC_SETTILING(1);
+    CC_SETTILING(true);
     CC_SETONCLICK(callback(script1698, int0, int1, -2147483647));
     IF_SETONSCROLLWHEEL(callback(script1701, int0, int1, -2147483646), int0);
     IF_SETONSCROLLWHEEL(callback(script1701, int0, int1, -2147483646), int1);

@@ -7,14 +7,14 @@ function script1374(int0: number): void {
         IF_SETOP(1, "Hide overview", comp(1422, 91));
         IF_SETSIZE(IF_GETWIDTH(comp(1422, 39)), IF_GETHEIGHT(comp(1422, 34)), 0, 1, comp(1422, 39));
         string0 = "Hide overview";
-        IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -1), 93192283);
+        IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -1), comp(1422, 91));
     } else {
         IF_SETHIDE(true, comp(1422, 34));
         varbitclient_21368 = 1;
         IF_SETOP(1, "Show overview", comp(1422, 91));
         IF_SETSIZE(IF_GETWIDTH(comp(1422, 39)), 0, 0, 1, comp(1422, 39));
         string0 = "Show overview";
-        IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -1), 93192283);
+        IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -1), comp(1422, 91));
     };
     IF_SETONOP(callback(script1373), comp(1422, 91));
     script9581(93192234);

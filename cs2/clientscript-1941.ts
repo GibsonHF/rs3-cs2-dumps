@@ -12,8 +12,14 @@ function script1941(): void {
         IF_SETTEXT("Game ending", comp(809, 3));
         IF_SETTEXTSHADOW(1, comp(809, 3));
         script1942();
-    } else if (((int2 == 0) && (int3 == 0))) {
-        IF_SETTEXT("Game ending", comp(809, 3));
+    } else if ((int2 == 0)) {
+        if ((int3 == 0)) {
+            IF_SETTEXT("Game ending", comp(809, 3));
+        } else if ((int3 < 10)) {
+            IF_SETTEXT(`${inttostring(int2, 10)}:0${inttostring(int3, 10)}`, comp(809, 3));
+        } else {
+            IF_SETTEXT(`${inttostring(int2, 10)}:${inttostring(int3, 10)}`, comp(809, 3));
+        };
     } else if ((int3 < 10)) {
         IF_SETTEXT(`${inttostring(int2, 10)}:0${inttostring(int3, 10)}`, comp(809, 3));
     } else {

@@ -30,34 +30,37 @@ function script5067(): void {
     var int3 = 0;
     var int4 = enum_getvalue(0, 73, 3943 as cs2enum, varbitplayer_7055);
     var string0 = "";
-    var int5 = -1 as cs2enum;
+    var int5 = -1;
     if ((int4 != -1 as struct)) {
         IF_SETTEXT(struct_getparam(int4, 1463), comp(1111, 26));
         IF_SETGRAPHIC(struct_getparam(int4, 1465), comp(1111, 24));
         string0 = struct_getparam(int4, 1464);
-        if (((struct_getparam(int4, 1466) == 1) && (int4 != 1918 as struct))) {
+        if (((struct_getparam(int4, 1466) == 1) && (int4 != 1918))) {
             string0 = strconcat(string0, "<br><br>Drag your mouse over the grid to fill an area with this element.");
         };
         int3 = (int3 + script5068(string0, int3));
         int5 = struct_getparam(int4, 1470);
-        if ((int5 != -1 as cs2enum)) {
-            int3 = (++int3 + script5068(enum_getvalue(0, 36, int5, -1), int3));
+        if ((int5 != -1)) {
+            int3 = (int3 + 5);
+            int3 = (int3 + script5068(enum_getvalue(0, 36, int5, -1), int3));
             IF_SETPOSITION(0, int3, 1, 0, comp(1111, 28));
             int3 = (int3 + script5069(int5, 72810524, 1, varbitplayer_7056));
         } else {
             IF_SETSIZE(0, 0, 1, 0, comp(1111, 28));
         };
         int5 = struct_getparam(int4, 1471);
-        if ((int5 != -1 as cs2enum)) {
-            int3 = (++int3 + script5068(enum_getvalue(0, 36, int5, -1), int3));
+        if ((int5 != -1)) {
+            int3 = (int3 + 5);
+            int3 = (int3 + script5068(enum_getvalue(0, 36, int5, -1), int3));
             IF_SETPOSITION(0, int3, 1, 0, comp(1111, 29));
             int3 = (int3 + script5069(int5, 72810525, 2, varbitplayer_7057));
         } else {
             IF_SETSIZE(0, 0, 1, 0, comp(1111, 29));
         };
         int5 = struct_getparam(int4, 1472);
-        if ((int5 != -1 as cs2enum)) {
-            int3 = (++int3 + script5068(enum_getvalue(0, 36, int5, -1), int3));
+        if ((int5 != -1)) {
+            int3 = (int3 + 5);
+            int3 = (int3 + script5068(enum_getvalue(0, 36, int5, -1), int3));
             IF_SETPOSITION(0, int3, 1, 0, comp(1111, 30));
             int3 = (int3 + script5069(int5, 72810526, 3, varbitplayer_7058));
         } else {

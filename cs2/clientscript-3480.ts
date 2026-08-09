@@ -9,8 +9,8 @@ function script3480(int0: number, int1: number, int2: number, int3: number, int4
         if ((int5 <= 0)) {
             IF_SETSCROLLPOS(0, 0, int0);
             IF_SETONTIMER(callback(), int0);
-            IF_SETHIDE(0, int1);
-            IF_SETHIDE(0, int2);
+            IF_SETHIDE(false, int1);
+            IF_SETHIDE(false, int2);
             return;
         };
     } else {
@@ -21,8 +21,8 @@ function script3480(int0: number, int1: number, int2: number, int3: number, int4
         if ((int5 >= 300)) {
             IF_SETSCROLLPOS(0, 300, int0);
             IF_SETONTIMER(callback(), int0);
-            IF_SETHIDE(0, int1);
-            IF_SETHIDE(0, int2);
+            IF_SETHIDE(false, int1);
+            IF_SETHIDE(false, int2);
             return;
         };
     };

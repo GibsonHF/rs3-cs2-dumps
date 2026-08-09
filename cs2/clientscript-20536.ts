@@ -18,9 +18,18 @@ function script20536(int0: number, int1: number, int2: number, int3: number, int
     var int21 = (int2 + int3);
     while ((int13 < int10)) {
         var int5 = int4;
-        if (((int13 >= int3) && (int13 < (int3 + int2)))) {
-            [int15, int14] = script20535(int10, int11, int12, int19);
-            int19 = (int19 + 1);
+        if ((int13 >= int3)) {
+            if ((int13 < (int3 + int2))) {
+                [int15, int14] = script20535(int10, int11, int12, int19);
+                int19 = (int19 + 1);
+            } else if ((int13 < int3)) {
+                [int15, int14] = script20535(int10, int11, int12, int20);
+                int20 = (int20 + 1);
+                int5 = 1;
+            } else {
+                [int15, int14] = script20535(int10, int11, int12, int21);
+                int21 = (int21 + 1);
+            };
         } else if ((int13 < int3)) {
             [int15, int14] = script20535(int10, int11, int12, int20);
             int20 = (int20 + 1);

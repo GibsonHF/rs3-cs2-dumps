@@ -4,7 +4,7 @@ function script18921(int0: number, int1: number): string {
     var string1 = "";
     var int2 = 0;
     var int3 = script18919(int0);
-    if ((int0 != -1 as dbrow)) {
+    if ((int0 != -1)) {
         switch (int1) {
             case 5: {
                 string0 = dbrow_getfield(int0, 1167472, 0);
@@ -15,11 +15,7 @@ function script18921(int0: number, int1: number): string {
                 break;
             }
             case 12: {
-                stack(int0);
-                stack(1167600);
-                stack(0);
-                dbrow_getfield();
-                string0 = stack();
+                string0 = dbrow_getfield(int0, 1167600, 0);
                 break;
             }
             case 18: {

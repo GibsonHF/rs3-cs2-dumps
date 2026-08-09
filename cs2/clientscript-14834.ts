@@ -2,7 +2,7 @@
 function script14834(): void {
     script14839();
     varclient_2250 = "";
-    varclient_2235 = comp(685, 97);
+    varclient_2235 = 44892257;
     varclient_2236 = 8;
     varclient_2237 = 20;
     varclient_1029 = script1553(103, varclient_1029, varclient_2250);

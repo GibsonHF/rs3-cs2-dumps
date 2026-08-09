@@ -84,7 +84,15 @@ function script1057(int0: number, string0: string, string1: string, string2: str
         CC_SETGRAPHIC(13992 as graphic);
         CC_SETCOLOUR(int4);
         CC_SETHFLIP(true);
-        unk11040(callback(script1057, string0, int0, string1, string2, string3, string4, string5));
+        stack(1057);
+        stack(string0);
+        stack(int0);
+        stack(string1);
+        stack(string2);
+        stack(string3);
+        stack(string4);
+        stack(string5);
+        unk11040("sisssss");
         if ((varbitplayer_38842 == 0)) {
             CC_CREATE(comp(387, 22), 4, IF_GETNEXTSUBID(comp(387, 22)));
             CC_SETSIZE(15, int2, 0, 0);

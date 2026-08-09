@@ -1,7 +1,9 @@
 //
 function script3911(int0: number, int1: number): number {
     if ((int0 != -1)) {
-        if (((varplayer_3079 < struct_getparam(int0, 8977)) || ((struct_getparam(int0, 8978) != -1) && (varplayer_3079 > struct_getparam(int0, 8978))))) {
+        if ((varplayer_3079 < struct_getparam(int0, 8977))) {
+            return 0;
+        } else if (((struct_getparam(int0, 8978) != -1) && (varplayer_3079 > struct_getparam(int0, 8978)))) {
             return 0;
         };
         switch (struct_getparam(int0, 2531)) {
@@ -27,7 +29,13 @@ function script3911(int0: number, int1: number): number {
                 return 0;
             }
             case 45312: {
-                if ((((PLATFORMTYPE() != 0) && (PLATFORMTYPE() != 5)) || ((varplayer_3079 >= struct_getparam(34493, 8977)) && (varplayer_3079 <= struct_getparam(34493, 8978))))) {
+                if ((PLATFORMTYPE() != 0)) {
+                    if ((PLATFORMTYPE() != 5)) {
+                        return 0;
+                    } else if (((varplayer_3079 >= struct_getparam(34493, 8977)) && (varplayer_3079 <= struct_getparam(34493, 8978)))) {
+                        return 0;
+                    };
+                } else if (((varplayer_3079 >= struct_getparam(34493, 8977)) && (varplayer_3079 <= struct_getparam(34493, 8978)))) {
                     return 0;
                 };
                 break;
@@ -102,7 +110,11 @@ function script3911(int0: number, int1: number): number {
                 break;
             }
             case 47197: {
-                if ((((PLATFORMTYPE() != 0) && (PLATFORMTYPE() != 5)) || (script18319() == 0))) {
+                if ((PLATFORMTYPE() != 0)) {
+                    if (((PLATFORMTYPE() != 5) || (script18319() == 0))) {
+                        return 0;
+                    };
+                } else if ((script18319() == 0)) {
                     return 0;
                 };
                 break;

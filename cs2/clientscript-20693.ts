@@ -4,10 +4,6 @@ function script20693(int0: number): string {
         return "";
     };
     var string0 = "";
-    stack(int0);
-    stack(1445952);
-    stack(0);
-    dbrow_getfield();
-    string0 = stack();
+    string0 = dbrow_getfield(int0, 1445952, 0);
     return string0;
 }

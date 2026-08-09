@@ -24,17 +24,17 @@ function script13581(int0: number, int1: number): void {
     CC_CREATE(int0, 5, IF_GETNEXTSUBID(int0));
     CC_SETPOSITION(int3, int5, 2, 0);
     CC_SETSIZE(int2, int2, 0, 0);
-    CC_SETGRAPHIC(29067);
+    CC_SETGRAPHIC(29067 as graphic);
     CC_SETONMOUSEREPEAT(callback(script3876, string1, -2147483645, -2147483643));
     int3 = (int3 + (CC_GETWIDTH() + (4 * 2)));
     CC_CREATE(int1, 5, IF_GETNEXTSUBID(int1));
-    CC_SETGRAPHIC(29828);
+    CC_SETGRAPHIC(29828 as graphic);
     CC_SETSIZE(60, 60, 0, 0);
     CC_SETPOSITION((int3 - (60 - 15)), int4, 2, 0);
     CC_CREATE(int1, 5, IF_GETNEXTSUBID(int1));
-    CC_SETGRAPHIC(29829);
+    CC_SETGRAPHIC(29829 as graphic);
     CC_SETPOSITION(0, int4, 2, 0);
     CC_SETSIZE((int3 - (60 - 15)), 60, 0, 0);
-    CC_SETTILING(1);
+    CC_SETTILING(true);
     return;
 }

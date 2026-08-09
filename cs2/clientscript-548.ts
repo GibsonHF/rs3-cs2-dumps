@@ -1,6 +1,6 @@
 //[clientscript,stats_update]
 function script548(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number, int8: number, int9: number, int10: number, int11: number): void {
-    var int10 = comp(1477, 909);
+    var int10 = 96797581;
     if ((varclient_80 == 0)) {
         return;
     };
@@ -18,7 +18,7 @@ function script548(int0: number, int1: number, int2: number, int3: number, int4:
     var int22 = enum_getvalue(17, 0, 10865 as cs2enum, int8);
     var string1 = `${enum_getvalue(17, 36, 680 as cs2enum, int8)}: ${inttostring(STAT(int8), 10)}/${inttostring(STAT_BASE_ACTUAL(int8), 10)}`;
     if ((script11868(int8) == 1)) {
-        string1 = `${enum_getvalue(17, 36, 680 as cs2enum, int8)}: ${inttostring(script11863(int8), 10)}/${inttostring(script11862(int8), 10)}`;
+        string1 = `${enum_getvalue(17, 36, 680, int8)}: ${inttostring(script11863(int8), 10)}/${inttostring(script11862(int8), 10)}`;
     };
     var int23 = 0;
     switch (int8) {
@@ -150,8 +150,8 @@ function script548(int0: number, int1: number, int2: number, int3: number, int4:
         if (((int23 > 0) && (CC_FIND(int10, int3) == 1))) {
             CC_SETTEXT(TOSTRING_LOCALISED((int23 / 10), 1));
         };
-        if ((script4036(enum_getvalue(17, 0, 1482 as cs2enum, int8)) == 1)) {
-            [int14, int12, int13] = script4037(enum_getvalue(17, 0, 1482 as cs2enum, int8));
+        if ((script4036(enum_getvalue(17, 0, 1482, int8)) == 1)) {
+            [int14, int12, int13] = script4037(enum_getvalue(17, 0, 1482, int8));
             int19 = int12;
             if ((int14 == 1)) {
                 int19 = enum_getvalue(0, 0, int21, int12);

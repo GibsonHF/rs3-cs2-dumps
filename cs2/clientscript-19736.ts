@@ -13,7 +13,9 @@ function script19736(): void {
             }
         };
         IF_SETHIDE(true, comp(1278, 14));
-        unk11010(55, callback(script2330, 83755022), 83755021);
+        stack(55);
+        stack(2330);
+        unk11010(83755022, "i", 83755021);
         unk11009();
     } else {
         IF_SETHIDE(false, comp(1278, 14));

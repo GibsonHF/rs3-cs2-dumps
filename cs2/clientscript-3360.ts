@@ -1,5 +1,5 @@
 //
-function script3360(): [number, string, number] {
+function script3360(): [number, number, string] {
     switch (varplayer_1831) {
         case 17955: {
             return [5, "Aptitude (Tier 1)", 18057];
@@ -29,6 +29,7 @@ function script3360(): [number, string, number] {
             return [85, "Aptitude (Tier 9)", 18065];
         }
         case 17964: {
+            break;
         }
         default: {
             return [5, "Aptitude (Tier 1)", 18057];

@@ -1,6 +1,6 @@
 //
 function script11205(int0: number): number {
-    if ((int0 == -1 as dbrow)) {
+    if ((int0 == -1)) {
         return 0;
     };
     if ((script4447(int0) == 0)) {

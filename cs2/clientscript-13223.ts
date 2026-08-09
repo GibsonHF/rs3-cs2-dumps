@@ -3,7 +3,7 @@ function script13223(int0: number, string0: string): void {
     if ((int0 <= CLIENTCLOCK())) {
         if ((strcmp(varclient_2250, string0) != 0)) {
             IF_SETONTIMER(callback(), comp(1843, 238));
-            if ((IF_FIND(120783031) == 1)) {
+            if ((IF_FIND(comp(1843, 183)) == 1)) {
                 if ((varclient_5938 != script441(1))) {
                     script13230();
                     return;

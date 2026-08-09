@@ -27,10 +27,10 @@ function script13520(int0: number, int1: number): void {
     if ((int5 <= 60)) {
         int4 = 1;
         IF_SETOP(1, "Shrink", int0);
-        IF_SETONTIMER(callback(script13521, int6, int9, int10, 1, int2, int4, int3), 107413507);
+        IF_SETONTIMER(callback(script13521, int6, int9, int10, 1, int2, int4, int3), comp(1639, 3));
     } else if ((int5 >= int6)) {
         IF_SETOP(1, "Expand", int0);
-        IF_SETONTIMER(callback(script13521, 60, int9, int10, -1, int2, int4, int3), 107413507);
+        IF_SETONTIMER(callback(script13521, 60, int9, int10, -1, int2, int4, int3), comp(1639, 3));
     };
     return;
 }

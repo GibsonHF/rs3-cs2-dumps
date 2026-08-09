@@ -1,46 +1,46 @@
 //
 function script10435(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number, int8: number, int9: number): void {
-    var int10 = comp(1477, 891);
-    var int11 = comp(1477, 896);
-    var int12 = comp(1477, 897);
-    var int13 = comp(1477, 895);
+    var int10 = 96797563;
+    var int11 = 96797568;
+    var int12 = 96797569;
+    var int13 = 96797567;
     var int14 = 96797565;
     var int15 = 96797564;
-    var int16 = comp(1477, 902);
-    var int17 = comp(1477, 894);
+    var int16 = 96797574;
+    var int17 = 96797566;
     SOUND_VORBIS_VOLUME(36961 as vorbis, 1, 0, 120);
     switch (IF_GETTOP()) {
         case 906: {
-            int10 = comp(906, 159);
-            int11 = comp(906, 164);
-            int12 = comp(906, 165);
-            int13 = comp(906, 163);
+            int10 = 59375775;
+            int11 = 59375780;
+            int12 = 59375781;
+            int13 = 59375779;
             int14 = 59375777;
             int15 = 59375776;
-            int16 = comp(906, 166);
-            int17 = comp(906, 162);
+            int16 = 59375782;
+            int17 = 59375778;
             break;
         }
         case 744: {
-            int10 = comp(744, 361);
-            int11 = comp(744, 366);
-            int12 = comp(744, 367);
-            int13 = comp(744, 365);
+            int10 = 48759145;
+            int11 = 48759150;
+            int12 = 48759151;
+            int13 = 48759149;
             int14 = 48759147;
             int15 = 48759146;
-            int16 = comp(744, 368);
-            int17 = comp(744, 364);
+            int16 = 48759152;
+            int17 = 48759148;
             break;
         }
         default: {
-            int10 = comp(1477, 891);
-            int11 = comp(1477, 896);
-            int12 = comp(1477, 897);
-            int13 = comp(1477, 895);
+            int10 = 96797563;
+            int11 = 96797568;
+            int12 = 96797569;
+            int13 = 96797567;
             int14 = 96797565;
             int15 = 96797564;
-            int16 = comp(1477, 902);
-            int17 = comp(1477, 894);
+            int16 = 96797574;
+            int17 = 96797566;
             break;
         }
     };
@@ -61,8 +61,8 @@ function script10435(int0: number, int1: number, int2: number, int3: number, int
     var int22 = 1;
     var int23 = 0;
     var int24 = 0;
-    var int25 = 26 as fontmetrics;
-    var int26 = 26 as fontmetrics;
+    var int25 = 26;
+    var int26 = 26;
     var int27 = 300;
     var string0 = "";
     var string1 = "";
@@ -74,7 +74,7 @@ function script10435(int0: number, int1: number, int2: number, int3: number, int
     var int31 = -1;
     var int32 = -1;
     var int33 = script10082();
-    var int34 = -1 as graphic;
+    var int34 = -1;
     [int25, int23] = script10433(0);
     [int26, int24] = script10433(1);
     while ((int19 <= int6)) {
@@ -163,7 +163,7 @@ function script10435(int0: number, int1: number, int2: number, int3: number, int
                 CC_SETSIZE[1](14, 14, 0, 0);
                 int32 = (int32 + (14 + 2));
             };
-            if ((int34 != -1 as graphic)) {
+            if ((int34 != -1)) {
                 CC_CREATE[1](int12, 5, IF_GETNEXTSUBID(int12));
                 cc_setparam[1](6308, CC_GETID());
                 CC_SETGRAPHIC[1](int34);
@@ -213,7 +213,7 @@ function script10435(int0: number, int1: number, int2: number, int3: number, int
     int18 = script10440(int0, int1, int27, int28, int8, int4, 0);
     if ((int18 == -1)) {
         CC_DELETEALL(int11);
-        [varplayer_4734, varplayer_4735, varplayer_4736] = [-1 as cs2enum, comp(-1, 65535), -1];
+        [varplayer_4734, varplayer_4735, varplayer_4736] = [-1, -1, -1];
         return;
     };
     script4762(int14, 21336);

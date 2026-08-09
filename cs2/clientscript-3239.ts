@@ -1,8 +1,10 @@
 //[proc,loginscreen_setactivemenu_full]
 function script3239(int0: number, int1: number): void {
     var int2 = script2948();
-    if (((int1 == 0) && (((int2 == -3) || (int2 == 21)) || (int2 == 1)))) {
-        return;
+    if ((int1 == 0)) {
+        if ((((int2 == -3) || (int2 == 21)) || (int2 == 1))) {
+            return;
+        };
     };
     SOUND_VORBIS_VOLUME(36961 as vorbis, 1, 0, 100);
     varclient_175 = CLIENTCLOCK();
@@ -20,9 +22,9 @@ function script3239(int0: number, int1: number): void {
     IF_SETHIDE(true, comp(744, 208));
     IF_SETHIDE(true, comp(744, 196));
     IF_SETONRESIZE(callback(), comp(744, 196));
-    IF_SETONRESIZE(callback(), 57802753);
-    IF_SETHIDE(1, 48758982);
-    if ((IF_FIND(48758989) == 1)) {
+    IF_SETONRESIZE(callback(), comp(882, 1));
+    IF_SETHIDE(true, comp(744, 198));
+    if ((IF_FIND(comp(744, 205)) == 1)) {
         CC_SETONBUTTONCLICK(callback());
     };
     if ((IF_FIND(comp(744, 206)) == 1)) {
@@ -132,7 +134,7 @@ function script3239(int0: number, int1: number): void {
             varclient_2555 = "";
             varclient_2559 = "";
             varclient_4192 = "";
-            varclient_4193 = false;
+            varclient_4193 = 0;
             script2945();
             break;
         }

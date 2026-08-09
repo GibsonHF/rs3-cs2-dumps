@@ -12,10 +12,10 @@ function script3103(): void {
             IF_SETHIDE(true, comp(232, 37));
             printmessage("You have successfully logged out from Twitch.");
             IF_SETONTIMER(callback(), comp(231, 4));
-            IF_SETHIDE(1, 15138816);
-            IF_SETHIDE(1, 15138817);
-            IF_SETHIDE(1, 15138822);
-            SOUND_VORBIS_VOLUME(36961, 1, 0, 100);
+            IF_SETHIDE(true, comp(231, 0));
+            IF_SETHIDE(true, comp(231, 1));
+            IF_SETHIDE(true, comp(231, 6));
+            SOUND_VORBIS_VOLUME(36961 as vorbis, 1, 0, 100);
         };
     } else {
         printmessage("You are not logged in to Twitch.");

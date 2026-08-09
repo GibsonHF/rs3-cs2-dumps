@@ -1,6 +1,6 @@
 //
 function script11910(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number): void {
-    if ((int0 == -1 as struct)) {
+    if ((int0 == -1)) {
         return;
     };
     if (((script6431() == 0) && (script4761(25) == 0))) {
@@ -13,7 +13,7 @@ function script11910(int0: number, int1: number, int2: number, int3: number, int
     var int6 = 0;
     var int7 = 0;
     var int8 = 0;
-    var int9 = 541 as struct;
+    var int9 = 541;
     var int10 = 0;
     var int11 = 0;
     var int12 = 0;
@@ -71,7 +71,7 @@ function script11910(int0: number, int1: number, int2: number, int3: number, int
         int15 = (int15 + 9);
         if ((int5 == 0)) {
             if ((int2 == -1)) {
-                var [int3, int4] = script8405(int1);
+                [int3, int4] = script8405(int1);
             } else {
                 [int3, int4] = script8406(int1, int2);
             };

@@ -30,9 +30,9 @@ function script6672(int0: number, int1: number): void {
     IF_SETOP(1, `Convert to : ${OC_NAME(int3)}`, comp(1253, 282));
     IF_SETENABLED(int4, comp(1253, 282));
     if ((int4 == true)) {
-        IF_SETONMOUSEREPEAT(callback(script3876, string0, -2147483645, -1), 82116890);
+        IF_SETONMOUSEREPEAT(callback(script3876, string0, -2147483645, -1), comp(1253, 282));
     } else {
-        IF_SETONMOUSEREPEAT(callback(script3876, string1, -2147483645, -1), 82116890);
+        IF_SETONMOUSEREPEAT(callback(script3876, string1, -2147483645, -1), comp(1253, 282));
     };
     return;
 }

@@ -13,9 +13,11 @@ function script19347(int0: number, int1: number, int2: number): number {
                     return int0;
                 };
                 if ((script19579() >= int1)) {
-                    if (((int3 != -1) && ((int3 >= int1) || (script19586(int3) != -1)))) {
-                        int0 = (int0 - script19577(0, int0));
-                        script19596();
+                    if ((int3 != -1)) {
+                        if (((int3 >= int1) || (script19586(int3) != -1))) {
+                            int0 = (int0 - script19577(0, int0));
+                            script19596();
+                        };
                     };
                 } else if (((int0 > 0) && (script19586((int0 - 1)) == -1))) {
                     return (int0 - 1);

@@ -7,14 +7,14 @@ function script3651(int0: number): void {
     };
     IF_SETTEXT(inttostring(int1, 10), comp(634, 39));
     IF_SETONOP(callback(script3642, (int1 - 1)), comp(634, 37));
-    IF_SETTEXT(inttostring((dbrow_getfield(int0, 299344, 0) / 2), 10), 41549866);
-    IF_SETONOP(callback(script3642, ((int1 / 2) - 1)), 41549864);
-    CC_DELETEALL(41549847);
-    CC_DELETEALL(41549848);
-    CC_DELETEALL(41549843);
-    CC_DELETEALL(41549844);
-    CC_DELETEALL(41549845);
-    CC_DELETEALL(41549846);
+    IF_SETTEXT(inttostring((dbrow_getfield(int0, 299344, 0) / 2), 10), comp(634, 42));
+    IF_SETONOP(callback(script3642, ((int1 / 2) - 1)), comp(634, 40));
+    CC_DELETEALL(comp(634, 23));
+    CC_DELETEALL(comp(634, 24));
+    CC_DELETEALL(comp(634, 19));
+    CC_DELETEALL(comp(634, 20));
+    CC_DELETEALL(comp(634, 21));
+    CC_DELETEALL(comp(634, 22));
     var int2 = varplayer_9062;
     if ((AND(int2, 170) == 0)) {
         int2 = (int2 * 3);

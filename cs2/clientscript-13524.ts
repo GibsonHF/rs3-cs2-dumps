@@ -1,7 +1,15 @@
 //
 function script13524(int0: number, int1: number, int2: number): void {
     var int3 = IF_GETHEIGHT(int2);
-    if ((((int1 > 0) && (int3 >= int0)) || ((int1 < 0) && (int3 <= int0)))) {
+    if ((int1 > 0)) {
+        if ((int3 >= int0)) {
+            IF_SETONTIMER(callback(), int2);
+            return;
+        } else if (((int1 < 0) && (int3 <= int0))) {
+            IF_SETONTIMER(callback(), int2);
+            return;
+        };
+    } else if (((int1 < 0) && (int3 <= int0))) {
         IF_SETONTIMER(callback(), int2);
         return;
     };

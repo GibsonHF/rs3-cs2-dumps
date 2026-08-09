@@ -20,13 +20,17 @@ function script12698(): void {
                     break;
                 }
                 case 2: {
-                    int6 = enum_getvalue(0, 26, 11545 as cs2enum, int1);
+                    int6 = enum_getvalue(0, 26, 11545, int1);
                     while ((int7 <= ENUM_GETOUTPUTCOUNT(int6))) {
                         int5 = script2179(enum_getvalue(0, 0, int6, int7));
-                        if (((int5 == 26 as stat) && (varbitplayer_30233 == 0))) {
-                            string0 = strconcat(string0, "<br><col=ff0000>You are not eligible to gain Invention XP.</col>");
+                        if ((int5 == 26 as stat)) {
+                            if ((varbitplayer_30233 == 0)) {
+                                string0 = strconcat(string0, "<br><col=ff0000>You are not eligible to gain Invention XP.</col>");
+                            } else {
+                                string0 = strconcat(string0, `<br><col=ffcb05>${TOSTRING_LOCALISED((script12692(int5, int2) / 10), 1)} ${enum_getvalue(17, 36, 680, int5)} XP</col>`);
+                            };
                         } else {
-                            string0 = strconcat(string0, `<br><col=ffcb05>${TOSTRING_LOCALISED((script12692(int5, int2) / 10), 1)} ${enum_getvalue(17, 36, 680 as cs2enum, int5)} XP</col>`);
+                            string0 = strconcat(string0, `<br><col=ffcb05>${TOSTRING_LOCALISED((script12692(int5, int2) / 10), 1)} ${enum_getvalue(17, 36, 680, int5)} XP</col>`);
                         };
                         int7 = (int7 + 1);
                         int3 = (int3 + 12);

@@ -39,8 +39,100 @@ function script9223(int0: number, int1: number, int2: number, int3: number): voi
                 script9218(int4, 0, int6, int1, int3);
             } else if ((OC_WEARPOS(int6) == OC_WEARPOS(int5))) {
                 script9214(int5, int4, int3, 1);
-            } else if (((OC_WEARPOS(int5) != -1) && (((OC_WEARPOS(int6) == 5) && (OC_WEARPOS2(int5) == 5)) || (((OC_WEARPOS(int6) == 3) && (OC_WEARPOS2(int5) == 3)) || (((OC_WEARPOS2(int6) == 5) && (OC_WEARPOS(int5) == 5)) || ((OC_WEARPOS2(int6) == 3) && (OC_WEARPOS(int5) == 3))))))) {
-                script9214(int5, int4, int3, 1);
+            } else if ((OC_WEARPOS(int5) != -1)) {
+                if ((OC_WEARPOS(int6) == 5)) {
+                    if ((OC_WEARPOS2(int5) == 5)) {
+                        script9214(int5, int4, int3, 1);
+                    } else if ((OC_WEARPOS(int6) == 3)) {
+                        if ((OC_WEARPOS2(int5) == 3)) {
+                            script9214(int5, int4, int3, 1);
+                        } else if ((OC_WEARPOS2(int6) == 5)) {
+                            if ((OC_WEARPOS(int5) == 5)) {
+                                script9214(int5, int4, int3, 1);
+                            } else if ((OC_WEARPOS2(int6) == 3)) {
+                                if ((OC_WEARPOS(int5) == 3)) {
+                                    script9214(int5, int4, int3, 1);
+                                } else {
+                                    script9217(int4, 0, CC_GETINVOBJECT(), int1);
+                                };
+                            } else {
+                                script9217(int4, 0, CC_GETINVOBJECT(), int1);
+                            };
+                        } else if ((OC_WEARPOS2(int6) == 3)) {
+                            if ((OC_WEARPOS(int5) == 3)) {
+                                script9214(int5, int4, int3, 1);
+                            } else {
+                                script9217(int4, 0, CC_GETINVOBJECT(), int1);
+                            };
+                        } else {
+                            script9217(int4, 0, CC_GETINVOBJECT(), int1);
+                        };
+                    } else if ((OC_WEARPOS2(int6) == 5)) {
+                        if ((OC_WEARPOS(int5) == 5)) {
+                            script9214(int5, int4, int3, 1);
+                        } else if ((OC_WEARPOS2(int6) == 3)) {
+                            if ((OC_WEARPOS(int5) == 3)) {
+                                script9214(int5, int4, int3, 1);
+                            } else {
+                                script9217(int4, 0, CC_GETINVOBJECT(), int1);
+                            };
+                        } else {
+                            script9217(int4, 0, CC_GETINVOBJECT(), int1);
+                        };
+                    } else if ((OC_WEARPOS2(int6) == 3)) {
+                        if ((OC_WEARPOS(int5) == 3)) {
+                            script9214(int5, int4, int3, 1);
+                        } else {
+                            script9217(int4, 0, CC_GETINVOBJECT(), int1);
+                        };
+                    } else {
+                        script9217(int4, 0, CC_GETINVOBJECT(), int1);
+                    };
+                } else if ((OC_WEARPOS(int6) == 3)) {
+                    if ((OC_WEARPOS2(int5) == 3)) {
+                        script9214(int5, int4, int3, 1);
+                    } else if ((OC_WEARPOS2(int6) == 5)) {
+                        if ((OC_WEARPOS(int5) == 5)) {
+                            script9214(int5, int4, int3, 1);
+                        } else if ((OC_WEARPOS2(int6) == 3)) {
+                            if ((OC_WEARPOS(int5) == 3)) {
+                                script9214(int5, int4, int3, 1);
+                            } else {
+                                script9217(int4, 0, CC_GETINVOBJECT(), int1);
+                            };
+                        } else {
+                            script9217(int4, 0, CC_GETINVOBJECT(), int1);
+                        };
+                    } else if ((OC_WEARPOS2(int6) == 3)) {
+                        if ((OC_WEARPOS(int5) == 3)) {
+                            script9214(int5, int4, int3, 1);
+                        } else {
+                            script9217(int4, 0, CC_GETINVOBJECT(), int1);
+                        };
+                    } else {
+                        script9217(int4, 0, CC_GETINVOBJECT(), int1);
+                    };
+                } else if ((OC_WEARPOS2(int6) == 5)) {
+                    if ((OC_WEARPOS(int5) == 5)) {
+                        script9214(int5, int4, int3, 1);
+                    } else if ((OC_WEARPOS2(int6) == 3)) {
+                        if ((OC_WEARPOS(int5) == 3)) {
+                            script9214(int5, int4, int3, 1);
+                        } else {
+                            script9217(int4, 0, CC_GETINVOBJECT(), int1);
+                        };
+                    } else {
+                        script9217(int4, 0, CC_GETINVOBJECT(), int1);
+                    };
+                } else if ((OC_WEARPOS2(int6) == 3)) {
+                    if ((OC_WEARPOS(int5) == 3)) {
+                        script9214(int5, int4, int3, 1);
+                    } else {
+                        script9217(int4, 0, CC_GETINVOBJECT(), int1);
+                    };
+                } else {
+                    script9217(int4, 0, CC_GETINVOBJECT(), int1);
+                };
             } else {
                 script9217(int4, 0, CC_GETINVOBJECT(), int1);
             };

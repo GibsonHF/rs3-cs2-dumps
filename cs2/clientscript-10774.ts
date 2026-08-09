@@ -19,7 +19,7 @@ function script10774(): void {
         IF_SETHIDE(true, comp(1560, 8));
         varclient_4665 = 0;
         string0 = "Expand";
-        IF_SETONMOUSEREPEAT(callback(script3876, string0, -2147483645, -2147483643), 102236254);
+        IF_SETONMOUSEREPEAT(callback(script3876, string0, -2147483645, -2147483643), comp(1560, 94));
     } else {
         IF_SETSIZE(224, 28, 0, 1, comp(1560, 17));
         IF_SETSIZE(224, 28, 1, 1, comp(1560, 18));
@@ -38,7 +38,7 @@ function script10774(): void {
         IF_SETHIDE(false, comp(1560, 8));
         varclient_4665 = 1;
         string0 = "Collapse";
-        IF_SETONMOUSEREPEAT(callback(script3876, string0, -2147483645, -2147483643), 102236254);
+        IF_SETONMOUSEREPEAT(callback(script3876, string0, -2147483645, -2147483643), comp(1560, 94));
     };
     script10776(varclient_4666);
     return;

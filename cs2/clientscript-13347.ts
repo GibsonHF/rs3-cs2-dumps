@@ -33,13 +33,17 @@ function script13347(int0: number, int1: number, string0: string): number {
         MES_TYPED(46, 0, "You need to be a guest in a Clan Channel to use Guest Clan Quick Chat.");
         return 0;
     };
-    if ((((int0 == 13) || (int0 == 15)) && (PLAYER_GROUP_FIND() == 0))) {
-        MES_TYPED(128, 0, "You need to be in a group to use Group Quick Chat.");
-        return 0;
+    if (((int0 == 13) || (int0 == 15))) {
+        if ((PLAYER_GROUP_FIND() == 0)) {
+            MES_TYPED(128, 0, "You need to be in a group to use Group Quick Chat.");
+            return 0;
+        };
     };
-    if (((int0 == 17) && ((script19316() == 0) || (unk10993(1) == 0)))) {
-        MES_TYPED(144, 0, "Group Ironman chat is currently unavailable.");
-        return 0;
+    if ((int0 == 17)) {
+        if (((script19316() == 0) || (unk10993(1) == 0))) {
+            MES_TYPED(144, 0, "Group Ironman chat is currently unavailable.");
+            return 0;
+        };
     };
     script8614(int1, int0);
     script8606(int1, string0);

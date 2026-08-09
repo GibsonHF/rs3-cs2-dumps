@@ -18,7 +18,11 @@ function script13179(int0: number, int1: number): void {
     var int10 = (IF_GETHEIGHT(int0) - (int8 * 2));
     var int11 = INV_SIZE(675 as inv);
     var int12 = IF_GETNEXTSUBID(int0);
-    CC_CREATE(int0, 4, int12++);
+    stack(int0);
+    stack(4);
+    stack(int12);
+    int12 = (int12 + 1);
+    CC_CREATE();
     CC_SETTEXTFONT(int6);
     CC_SETTEXTSHADOW(true);
     CC_SETPOSITION(int8, int8, 0, 0);
@@ -34,7 +38,11 @@ function script13179(int0: number, int1: number): void {
     var int13 = 34;
     var int14 = 35;
     var int15 = 0;
-    CC_CREATE[1](int0, 5, int12++);
+    stack(int0);
+    stack(5);
+    stack(int12);
+    int12 = (int12 + 1);
+    CC_CREATE[1]();
     if ((varplayer_6808 == 0)) {
         string0 = `${string0}<br><br>To add an item you'll need a Keepsake Key.`;
         CC_SETGRAPHIC[1](29331 as graphic);
@@ -58,7 +66,11 @@ function script13179(int0: number, int1: number): void {
     CC_SETPOSITION(CC_GETX(), (int8 + ((int10 - int15) / 2)), 0, 0);
     CC_SETPOSITION[1](0, CC_GETY(), 1, 2);
     if ((varplayer_6808 == 0)) {
-        CC_CREATE(int0, 5, int12++);
+        stack(int0);
+        stack(5);
+        stack(int12);
+        int12 = (int12 + 1);
+        CC_CREATE();
         CC_SETGRAPHIC(29655 as graphic);
         CC_SETSIZE(11, 11, 0, 0);
         CC_SETPOSITION(((CC_GETX[1]() + CC_GETWIDTH[1]()) - CC_GETWIDTH()), ((CC_GETY[1]() + CC_GETHEIGHT[1]()) - CC_GETHEIGHT()), 0, 0);

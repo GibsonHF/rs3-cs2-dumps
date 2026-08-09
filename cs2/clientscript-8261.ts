@@ -1,18 +1,366 @@
-//
-function script8261(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number, int8: number, int9: number, int10: number, int11: number, int12: number, int13: number, int14: number, int15: number, int16: number, int17: number, int18: number, int19: number, int20: number, int21: number, int22: number, int23: number, int24: number, int25: number, int26: number, int27: number, string0: string, string1: string): [number, string, number] {
-    if ((script18327(int1) == 1)) {
-        return [(int0 + 1), string0, 1];
-    };
-    var string2 = "";
-    var int28 = 0;
-    if ((((int1 != -1 as obj) && (INV_TOTAL(94 as inv, int1) > 0)) || (((int2 != -1 as obj) && (INV_TOTAL(94 as inv, int2) > 0)) || (((int3 != -1 as obj) && (INV_TOTAL(94 as inv, int3) > 0)) || (((int4 != -1 as obj) && (INV_TOTAL(94 as inv, int4) > 0)) || (((int5 != -1 as obj) && (INV_TOTAL(94 as inv, int5) > 0)) || (((int6 != -1 as obj) && (INV_TOTAL(94 as inv, int6) > 0)) || (((int7 != -1 as obj) && (INV_TOTAL(94 as inv, int7) > 0)) || (((int8 != -1 as obj) && (INV_TOTAL(94 as inv, int8) > 0)) || (((int9 != -1 as obj) && (INV_TOTAL(94 as inv, int9) > 0)) || (((int10 != -1 as obj) && (INV_TOTAL(94 as inv, int10) > 0)) || (((int11 != -1 as obj) && (INV_TOTAL(94 as inv, int11) > 0)) || (((int12 != -1 as obj) && (INV_TOTAL(94 as inv, int12) > 0)) || (((int13 != -1 as obj) && (INV_TOTAL(94 as inv, int13) > 0)) || (((int14 != -1 as obj) && (INV_TOTAL(94 as inv, int14) > 0)) || (((int15 != -1 as obj) && (INV_TOTAL(94 as inv, int15) > 0)) || (((int16 != -1 as obj) && (INV_TOTAL(94 as inv, int16) > 0)) || (((int17 != -1 as obj) && (INV_TOTAL(94 as inv, int17) > 0)) || (((int18 != -1 as obj) && (INV_TOTAL(94 as inv, int18) > 0)) || (((int19 != -1 as obj) && (INV_TOTAL(94 as inv, int19) > 0)) || (((int20 != -1 as obj) && (INV_TOTAL(94 as inv, int20) > 0)) || (((int21 != -1 as obj) && (INV_TOTAL(94 as inv, int21) > 0)) || (((int22 != -1 as obj) && (INV_TOTAL(94 as inv, int22) > 0)) || (((int23 != -1 as obj) && (INV_TOTAL(94 as inv, int23) > 0)) || (((int24 != -1 as obj) && (INV_TOTAL(94 as inv, int24) > 0)) || (((int25 != -1 as obj) && (INV_TOTAL(94 as inv, int25) > 0)) || (((int26 != -1 as obj) && (INV_TOTAL(94 as inv, int26) > 0)) || ((int27 != -1 as obj) && (INV_TOTAL(94 as inv, int27) > 0))))))))))))))))))))))))))))) {
-        string2 = string0;
-        var int0 = (int0 + 1);
-    } else {
-        string2 = string1;
-    };
-    if ((((((((((((((((((((((((((((int1 != -1 as obj) || (int2 != -1 as obj)) || (int3 != -1 as obj)) || (int4 != -1 as obj)) || (int5 != -1 as obj)) || (int6 != -1 as obj)) || (int7 != -1 as obj)) || (int8 != -1 as obj)) || (int9 != -1 as obj)) || (int10 != -1 as obj)) || (int11 != -1 as obj)) || (int12 != -1 as obj)) || (int13 != -1 as obj)) || (int14 != -1 as obj)) || (int15 != -1 as obj)) || (int16 != -1 as obj)) || (int17 != -1 as obj)) || (int18 != -1 as obj)) || (int19 != -1 as obj)) || (int20 != -1 as obj)) || (int21 != -1 as obj)) || (int22 != -1 as obj)) || (int23 != -1 as obj)) || (int24 != -1 as obj)) || (int25 != -1 as obj)) || (int26 != -1 as obj)) || (int27 != -1 as obj))) {
-        int28 = 1;
-    };
-    return [int0, string2, int28];
-}
+// structured decompile unavailable (OutOfMemoryError: Required array length 2147483639 + 29 is too large); raw disassembly:
+
+// clientscript-8261
+// intArgs=28 stringArgs=2 longArgs=0 localInt=29 localString=3 localLong=0
+// instructions=360 switchTables=0
+
+0: PUSH_INT_LOCAL(1)
+1: GOSUB_WITH_PARAMS(18327)
+2: pushint 1
+3: BRANCH_EQUALS(1)
+4: BRANCH(6)
+5: PUSH_INT_LOCAL(0)
+6: pushint 1
+7: ADD(0)
+8: PUSH_STRING_LOCAL(0)
+9: pushint 1
+10: RETURN(0)
+11: pushstring ""
+12: POP_STRING_LOCAL(2)
+13: pushint 0
+14: POP_INT_LOCAL(28)
+15: PUSH_INT_LOCAL(1)
+16: pushint -1
+17: BRANCH_NOT(1)
+18: BRANCH(5)
+19: pushint 94
+20: PUSH_INT_LOCAL(1)
+21: INV_TOTAL(0)
+22: pushint 0
+23: BRANCH_GREATER_THAN(235)
+24: PUSH_INT_LOCAL(2)
+25: pushint -1
+26: BRANCH_NOT(1)
+27: BRANCH(5)
+28: pushint 94
+29: PUSH_INT_LOCAL(2)
+30: INV_TOTAL(0)
+31: pushint 0
+32: BRANCH_GREATER_THAN(226)
+33: PUSH_INT_LOCAL(3)
+34: pushint -1
+35: BRANCH_NOT(1)
+36: BRANCH(5)
+37: pushint 94
+38: PUSH_INT_LOCAL(3)
+39: INV_TOTAL(0)
+40: pushint 0
+41: BRANCH_GREATER_THAN(217)
+42: PUSH_INT_LOCAL(4)
+43: pushint -1
+44: BRANCH_NOT(1)
+45: BRANCH(5)
+46: pushint 94
+47: PUSH_INT_LOCAL(4)
+48: INV_TOTAL(0)
+49: pushint 0
+50: BRANCH_GREATER_THAN(208)
+51: PUSH_INT_LOCAL(5)
+52: pushint -1
+53: BRANCH_NOT(1)
+54: BRANCH(5)
+55: pushint 94
+56: PUSH_INT_LOCAL(5)
+57: INV_TOTAL(0)
+58: pushint 0
+59: BRANCH_GREATER_THAN(199)
+60: PUSH_INT_LOCAL(6)
+61: pushint -1
+62: BRANCH_NOT(1)
+63: BRANCH(5)
+64: pushint 94
+65: PUSH_INT_LOCAL(6)
+66: INV_TOTAL(0)
+67: pushint 0
+68: BRANCH_GREATER_THAN(190)
+69: PUSH_INT_LOCAL(7)
+70: pushint -1
+71: BRANCH_NOT(1)
+72: BRANCH(5)
+73: pushint 94
+74: PUSH_INT_LOCAL(7)
+75: INV_TOTAL(0)
+76: pushint 0
+77: BRANCH_GREATER_THAN(181)
+78: PUSH_INT_LOCAL(8)
+79: pushint -1
+80: BRANCH_NOT(1)
+81: BRANCH(5)
+82: pushint 94
+83: PUSH_INT_LOCAL(8)
+84: INV_TOTAL(0)
+85: pushint 0
+86: BRANCH_GREATER_THAN(172)
+87: PUSH_INT_LOCAL(9)
+88: pushint -1
+89: BRANCH_NOT(1)
+90: BRANCH(5)
+91: pushint 94
+92: PUSH_INT_LOCAL(9)
+93: INV_TOTAL(0)
+94: pushint 0
+95: BRANCH_GREATER_THAN(163)
+96: PUSH_INT_LOCAL(10)
+97: pushint -1
+98: BRANCH_NOT(1)
+99: BRANCH(5)
+100: pushint 94
+101: PUSH_INT_LOCAL(10)
+102: INV_TOTAL(0)
+103: pushint 0
+104: BRANCH_GREATER_THAN(154)
+105: PUSH_INT_LOCAL(11)
+106: pushint -1
+107: BRANCH_NOT(1)
+108: BRANCH(5)
+109: pushint 94
+110: PUSH_INT_LOCAL(11)
+111: INV_TOTAL(0)
+112: pushint 0
+113: BRANCH_GREATER_THAN(145)
+114: PUSH_INT_LOCAL(12)
+115: pushint -1
+116: BRANCH_NOT(1)
+117: BRANCH(5)
+118: pushint 94
+119: PUSH_INT_LOCAL(12)
+120: INV_TOTAL(0)
+121: pushint 0
+122: BRANCH_GREATER_THAN(136)
+123: PUSH_INT_LOCAL(13)
+124: pushint -1
+125: BRANCH_NOT(1)
+126: BRANCH(5)
+127: pushint 94
+128: PUSH_INT_LOCAL(13)
+129: INV_TOTAL(0)
+130: pushint 0
+131: BRANCH_GREATER_THAN(127)
+132: PUSH_INT_LOCAL(14)
+133: pushint -1
+134: BRANCH_NOT(1)
+135: BRANCH(5)
+136: pushint 94
+137: PUSH_INT_LOCAL(14)
+138: INV_TOTAL(0)
+139: pushint 0
+140: BRANCH_GREATER_THAN(118)
+141: PUSH_INT_LOCAL(15)
+142: pushint -1
+143: BRANCH_NOT(1)
+144: BRANCH(5)
+145: pushint 94
+146: PUSH_INT_LOCAL(15)
+147: INV_TOTAL(0)
+148: pushint 0
+149: BRANCH_GREATER_THAN(109)
+150: PUSH_INT_LOCAL(16)
+151: pushint -1
+152: BRANCH_NOT(1)
+153: BRANCH(5)
+154: pushint 94
+155: PUSH_INT_LOCAL(16)
+156: INV_TOTAL(0)
+157: pushint 0
+158: BRANCH_GREATER_THAN(100)
+159: PUSH_INT_LOCAL(17)
+160: pushint -1
+161: BRANCH_NOT(1)
+162: BRANCH(5)
+163: pushint 94
+164: PUSH_INT_LOCAL(17)
+165: INV_TOTAL(0)
+166: pushint 0
+167: BRANCH_GREATER_THAN(91)
+168: PUSH_INT_LOCAL(18)
+169: pushint -1
+170: BRANCH_NOT(1)
+171: BRANCH(5)
+172: pushint 94
+173: PUSH_INT_LOCAL(18)
+174: INV_TOTAL(0)
+175: pushint 0
+176: BRANCH_GREATER_THAN(82)
+177: PUSH_INT_LOCAL(19)
+178: pushint -1
+179: BRANCH_NOT(1)
+180: BRANCH(5)
+181: pushint 94
+182: PUSH_INT_LOCAL(19)
+183: INV_TOTAL(0)
+184: pushint 0
+185: BRANCH_GREATER_THAN(73)
+186: PUSH_INT_LOCAL(20)
+187: pushint -1
+188: BRANCH_NOT(1)
+189: BRANCH(5)
+190: pushint 94
+191: PUSH_INT_LOCAL(20)
+192: INV_TOTAL(0)
+193: pushint 0
+194: BRANCH_GREATER_THAN(64)
+195: PUSH_INT_LOCAL(21)
+196: pushint -1
+197: BRANCH_NOT(1)
+198: BRANCH(5)
+199: pushint 94
+200: PUSH_INT_LOCAL(21)
+201: INV_TOTAL(0)
+202: pushint 0
+203: BRANCH_GREATER_THAN(55)
+204: PUSH_INT_LOCAL(22)
+205: pushint -1
+206: BRANCH_NOT(1)
+207: BRANCH(5)
+208: pushint 94
+209: PUSH_INT_LOCAL(22)
+210: INV_TOTAL(0)
+211: pushint 0
+212: BRANCH_GREATER_THAN(46)
+213: PUSH_INT_LOCAL(23)
+214: pushint -1
+215: BRANCH_NOT(1)
+216: BRANCH(5)
+217: pushint 94
+218: PUSH_INT_LOCAL(23)
+219: INV_TOTAL(0)
+220: pushint 0
+221: BRANCH_GREATER_THAN(37)
+222: PUSH_INT_LOCAL(24)
+223: pushint -1
+224: BRANCH_NOT(1)
+225: BRANCH(5)
+226: pushint 94
+227: PUSH_INT_LOCAL(24)
+228: INV_TOTAL(0)
+229: pushint 0
+230: BRANCH_GREATER_THAN(28)
+231: PUSH_INT_LOCAL(25)
+232: pushint -1
+233: BRANCH_NOT(1)
+234: BRANCH(5)
+235: pushint 94
+236: PUSH_INT_LOCAL(25)
+237: INV_TOTAL(0)
+238: pushint 0
+239: BRANCH_GREATER_THAN(19)
+240: PUSH_INT_LOCAL(26)
+241: pushint -1
+242: BRANCH_NOT(1)
+243: BRANCH(5)
+244: pushint 94
+245: PUSH_INT_LOCAL(26)
+246: INV_TOTAL(0)
+247: pushint 0
+248: BRANCH_GREATER_THAN(10)
+249: PUSH_INT_LOCAL(27)
+250: pushint -1
+251: BRANCH_NOT(1)
+252: BRANCH(13)
+253: pushint 94
+254: PUSH_INT_LOCAL(27)
+255: INV_TOTAL(0)
+256: pushint 0
+257: BRANCH_GREATER_THAN(1)
+258: BRANCH(7)
+259: PUSH_STRING_LOCAL(0)
+260: POP_STRING_LOCAL(2)
+261: PUSH_INT_LOCAL(0)
+262: pushint 1
+263: ADD(0)
+264: POP_INT_LOCAL(0)
+265: BRANCH(2)
+266: PUSH_STRING_LOCAL(1)
+267: POP_STRING_LOCAL(2)
+268: PUSH_INT_LOCAL(1)
+269: pushint -1
+270: BRANCH_NOT(79)
+271: PUSH_INT_LOCAL(2)
+272: pushint -1
+273: BRANCH_NOT(76)
+274: PUSH_INT_LOCAL(3)
+275: pushint -1
+276: BRANCH_NOT(73)
+277: PUSH_INT_LOCAL(4)
+278: pushint -1
+279: BRANCH_NOT(70)
+280: PUSH_INT_LOCAL(5)
+281: pushint -1
+282: BRANCH_NOT(67)
+283: PUSH_INT_LOCAL(6)
+284: pushint -1
+285: BRANCH_NOT(64)
+286: PUSH_INT_LOCAL(7)
+287: pushint -1
+288: BRANCH_NOT(61)
+289: PUSH_INT_LOCAL(8)
+290: pushint -1
+291: BRANCH_NOT(58)
+292: PUSH_INT_LOCAL(9)
+293: pushint -1
+294: BRANCH_NOT(55)
+295: PUSH_INT_LOCAL(10)
+296: pushint -1
+297: BRANCH_NOT(52)
+298: PUSH_INT_LOCAL(11)
+299: pushint -1
+300: BRANCH_NOT(49)
+301: PUSH_INT_LOCAL(12)
+302: pushint -1
+303: BRANCH_NOT(46)
+304: PUSH_INT_LOCAL(13)
+305: pushint -1
+306: BRANCH_NOT(43)
+307: PUSH_INT_LOCAL(14)
+308: pushint -1
+309: BRANCH_NOT(40)
+310: PUSH_INT_LOCAL(15)
+311: pushint -1
+312: BRANCH_NOT(37)
+313: PUSH_INT_LOCAL(16)
+314: pushint -1
+315: BRANCH_NOT(34)
+316: PUSH_INT_LOCAL(17)
+317: pushint -1
+318: BRANCH_NOT(31)
+319: PUSH_INT_LOCAL(18)
+320: pushint -1
+321: BRANCH_NOT(28)
+322: PUSH_INT_LOCAL(19)
+323: pushint -1
+324: BRANCH_NOT(25)
+325: PUSH_INT_LOCAL(20)
+326: pushint -1
+327: BRANCH_NOT(22)
+328: PUSH_INT_LOCAL(21)
+329: pushint -1
+330: BRANCH_NOT(19)
+331: PUSH_INT_LOCAL(22)
+332: pushint -1
+333: BRANCH_NOT(16)
+334: PUSH_INT_LOCAL(23)
+335: pushint -1
+336: BRANCH_NOT(13)
+337: PUSH_INT_LOCAL(24)
+338: pushint -1
+339: BRANCH_NOT(10)
+340: PUSH_INT_LOCAL(25)
+341: pushint -1
+342: BRANCH_NOT(7)
+343: PUSH_INT_LOCAL(26)
+344: pushint -1
+345: BRANCH_NOT(4)
+346: PUSH_INT_LOCAL(27)
+347: pushint -1
+348: BRANCH_NOT(1)
+349: BRANCH(2)
+350: pushint 1
+351: POP_INT_LOCAL(28)
+352: PUSH_INT_LOCAL(0)
+353: PUSH_STRING_LOCAL(2)
+354: PUSH_INT_LOCAL(28)
+355: RETURN(0)
+356: pushint 0
+357: pushstring ""
+358: pushint 0
+359: RETURN(0)

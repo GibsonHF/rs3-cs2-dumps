@@ -29,7 +29,7 @@ function script5477(): void {
         };
         varclient_1679 = (varclient_1679 - 1);
         if ((varclient_1679 < 1)) {
-            int0 = enum_getvalue(0, 73, 5213 as cs2enum, varclient_1677);
+            int0 = enum_getvalue(0, 73, 5213, varclient_1677);
             string0 = struct_getparam(int0, 2095);
             string1 = struct_getparam(int0, 2184);
             int1 = struct_getparam(int0, 2101);
@@ -51,9 +51,9 @@ function script5477(): void {
             int2 = MIN(1000000, script5459(1));
             IF_SETTEXT(inttostring(int2, 10), comp(1163, 35));
             IF_SETONTIMER(callback(script5478), comp(1163, 44));
-            IF_SETHIDE(0, 76218456);
+            IF_SETHIDE(false, comp(1163, 88));
             varclient_1683 = -60;
-            IF_SETPOSITION(0, varclient_1683, 1, 2, 76218456);
+            IF_SETPOSITION(0, varclient_1683, 1, 2, comp(1163, 88));
         };
     };
     return;

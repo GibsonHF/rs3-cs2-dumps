@@ -3,8 +3,7 @@ function script12488(): void {
     stack(36864);
     stack(varbitplayer_31220);
     DB_FIND(0);
-    dbrow_findnext();
-    var int0 = stack();
+    var int0 = dbrow_findnext();
     var string0 = "None.";
     var string1 = "";
     if ((int0 != -1)) {

@@ -31,18 +31,32 @@ function script3093(int0: number, int1: number, int2: number, string0: string, s
     };
     var int18 = int6;
     var int19 = (int13 + int8);
-    if (((int14 > 0) && (int15 > 0))) {
-        if ((((int14 + int15) + int8) > (int5 - int9))) {
-            int14 = (((int5 - int9) - int8) / 2);
-            int15 = int14;
-            int18 = int5;
+    if ((int14 > 0)) {
+        if ((int15 > 0)) {
+            if ((((int14 + int15) + int8) > (int5 - int9))) {
+                int14 = (((int5 - int9) - int8) / 2);
+                int15 = int14;
+                int18 = int5;
+            } else {
+                int18 = MAX(int18, (((int14 + int15) + int8) + int9));
+            };
+            IF_SETPOSITION(0, 0, 0, 2, comp(820, 12));
+            IF_SETPOSITION(0, 0, 2, 2, comp(820, 13));
+            IF_SETHIDE(false, comp(820, 12));
+            IF_SETHIDE(false, comp(820, 13));
+        } else if ((int14 > 0)) {
+            IF_SETPOSITION(0, 0, 1, 2, comp(820, 12));
+            IF_SETHIDE(false, comp(820, 12));
+            IF_SETHIDE(true, comp(820, 13));
+        } else if ((int15 > 0)) {
+            IF_SETPOSITION(0, 0, 1, 2, comp(820, 13));
+            IF_SETHIDE(true, comp(820, 12));
+            IF_SETHIDE(false, comp(820, 13));
         } else {
-            int18 = MAX(int18, (((int14 + int15) + int8) + int9));
+            IF_SETHIDE(true, comp(820, 13));
+            IF_SETHIDE(true, comp(820, 12));
+            int19 = 0;
         };
-        IF_SETPOSITION(0, 0, 0, 2, comp(820, 12));
-        IF_SETPOSITION(0, 0, 2, 2, comp(820, 13));
-        IF_SETHIDE(false, comp(820, 12));
-        IF_SETHIDE(false, comp(820, 13));
     } else if ((int14 > 0)) {
         IF_SETPOSITION(0, 0, 1, 2, comp(820, 12));
         IF_SETHIDE(false, comp(820, 12));
@@ -89,6 +103,6 @@ function script3093(int0: number, int1: number, int2: number, string0: string, s
     IF_SETTEXT(string0, comp(820, 28));
     IF_SETTEXT(string1, comp(820, 10));
     IF_SETONKEY(callback(script3100, -2147483640), comp(906, 151));
-    IF_SETHIDE(0, 59375767);
+    IF_SETHIDE(false, comp(906, 151));
     return;
 }

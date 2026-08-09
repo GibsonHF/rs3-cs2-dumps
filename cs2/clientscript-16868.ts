@@ -6,7 +6,13 @@ function script16868(int0: number): string {
     };
     var string0 = "";
     var int2 = 0;
-    if (((int1 > 7) || ((int1 == 7) && (script16847(script12477()) == 1)))) {
+    if ((int1 > 7)) {
+        if (((int1 / 7) > 0)) {
+            string0 = strconcat(string0, script4583((int1 / 7), "1 week, ", `${inttostring((int1 / 7), 10)} weeks, `));
+        };
+        string0 = strconcat(string0, script985(MODULO(int1, 7), "0 days", "1 day", `${inttostring(MODULO(int1, 7), 10)} days`));
+        return string0;
+    } else if (((int1 == 7) && (script16847(script12477()) == 1))) {
         if (((int1 / 7) > 0)) {
             string0 = strconcat(string0, script4583((int1 / 7), "1 week, ", `${inttostring((int1 / 7), 10)} weeks, `));
         };

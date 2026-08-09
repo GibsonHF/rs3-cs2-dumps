@@ -10,7 +10,11 @@ function script7002(int0: number, int1: number, int2: number): void {
     var int6 = script11786(int0);
     var int7 = script11799(int5);
     var int8 = script11799(int6);
-    if (((((int0 == int2) && (int4 != -1)) || (int0 == comp(-1, 65535))) || (int2 == comp(-1, 65535)))) {
+    if ((int0 == int2)) {
+        if ((((int4 != -1) || (int0 == comp(-1, 65535))) || (int2 == comp(-1, 65535)))) {
+            return;
+        };
+    } else if (((int0 == comp(-1, 65535)) || (int2 == comp(-1, 65535)))) {
         return;
     };
     switch (int2) {
@@ -49,15 +53,21 @@ function script7002(int0: number, int1: number, int2: number): void {
     } else {
         script7971(int0, int1, int2, int7, int3);
     };
-    if ((((int5 == 1003) || (int6 == 1003)) && (script6354(94109696) == 1))) {
-        if ((int5 == 1003)) {
-            int2 = script7974(1436, int3);
-            script6995(1436, int3, 0, 0, 0, -1);
-        };
-        if (((int4 != -1) && (int6 == 1003))) {
-            script6995(1436, int4, 0, 0, 0, -1);
-        } else {
-            script7971(int0, int1, int2, 1436, int3);
+    if (((int5 == 1003) || (int6 == 1003))) {
+        if ((script6354(94109696) == 1)) {
+            if ((int5 == 1003)) {
+                int2 = script7974(1436, int3);
+                script6995(1436, int3, 0, 0, 0, -1);
+            };
+            if ((int4 != -1)) {
+                if ((int6 == 1003)) {
+                    script6995(1436, int4, 0, 0, 0, -1);
+                } else {
+                    script7971(int0, int1, int2, 1436, int3);
+                };
+            } else {
+                script7971(int0, int1, int2, 1436, int3);
+            };
         };
     };
     script8808();

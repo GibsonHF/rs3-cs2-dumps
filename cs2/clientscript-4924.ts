@@ -8,9 +8,10 @@ function script4924(int0: number, int1: number): string {
     var int4 = 0;
     var int5 = 0;
     var string3 = "";
-    var int6 = -1 as stat;
+    var int6 = -1;
     var int7 = ENUM_GETOUTPUTCOUNT(681 as cs2enum);
-    while ((++int2 <= int7)) {
+    int2 = (int2 + 1);
+    while ((int2 <= int7)) {
         int6 = enum_getvalue(0, 17, 681 as cs2enum, int2);
         if ((script951(int0, int6) == 0)) {
             if ((int1 == 1)) {
@@ -23,7 +24,7 @@ function script4924(int0: number, int1: number): string {
                     string0 = strconcat(string0, `<col=00ff00>${string2} +${inttostring(int5, 10)}`);
                     int3 = (int3 + 1);
                 } else if ((int5 < 0)) {
-                    string2 = enum_getvalue(0, 36, 108 as cs2enum, int2);
+                    string2 = enum_getvalue(0, 36, 108, int2);
                     if ((int4 > 0)) {
                         string1 = strconcat(string1, "<br>");
                     };
@@ -33,14 +34,14 @@ function script4924(int0: number, int1: number): string {
             } else {
                 [int5, string3] = script17272(int0, int6);
                 if ((int5 > 0)) {
-                    string2 = enum_getvalue(17, 36, 680 as cs2enum, int6);
+                    string2 = enum_getvalue(17, 36, 680, int6);
                     if ((int3 > 0)) {
                         string0 = strconcat(string0, "<br>");
                     };
                     string0 = strconcat(string0, `<col=00ff00>${string2} by ${string3}`);
                     int3 = (int3 + 1);
                 } else if ((int5 < 0)) {
-                    string2 = enum_getvalue(0, 36, 108 as cs2enum, int2);
+                    string2 = enum_getvalue(0, 36, 108, int2);
                     if ((int4 > 0)) {
                         string1 = strconcat(string1, "<br>");
                     };
@@ -51,7 +52,7 @@ function script4924(int0: number, int1: number): string {
         };
         int5 = 0;
         string3 = "";
-        int6 = -1 as stat;
+        int6 = -1;
     };
     if ((int3 > 1)) {
         string0 = strconcat("Temporarily increases:<br>", string0);

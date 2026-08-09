@@ -4,9 +4,14 @@ function script6374(int0: number, int1: number): void {
     var int3 = enum_getvalue(0, 9, 13328 as cs2enum, int1);
     var int4 = enum_getvalue(0, 9, 13329 as cs2enum, int1);
     var int5 = -1;
-    if (((int2 > 18) && (enum_getvalue(0, 0, 5924 as cs2enum, int2) < 8))) {
-        IF_SETHIDE(true, int3);
-        IF_SETHIDE(false, int4);
+    if ((int2 > 18)) {
+        if ((enum_getvalue(0, 0, 5924 as cs2enum, int2) < 8)) {
+            IF_SETHIDE(true, int3);
+            IF_SETHIDE(false, int4);
+        } else {
+            IF_SETHIDE(false, int3);
+            IF_SETHIDE(true, int4);
+        };
     } else {
         IF_SETHIDE(false, int3);
         IF_SETHIDE(true, int4);

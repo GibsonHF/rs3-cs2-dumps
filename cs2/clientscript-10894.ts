@@ -44,8 +44,10 @@ function script10894(int0: number, int1: number): void {
         if ((IF_GETHIDE(comp(720, 12)) == false)) {
             script12778(9, int2);
         };
-    } else if ((((int0 == 25) || (int1 == 48)) && (IF_GETHIDE(comp(720, 13)) == false))) {
-        script12778(10, int2);
+    } else if (((int0 == 25) || (int1 == 48))) {
+        if ((IF_GETHIDE(comp(720, 13)) == false)) {
+            script12778(10, int2);
+        };
     };
     return;
 }

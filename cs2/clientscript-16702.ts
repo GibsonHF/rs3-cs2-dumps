@@ -20,8 +20,12 @@ function script16702(int0: number, int1: number): void {
             IF_SETHIDE(int1, int5);
         };
     };
-    if (((int0 != varclient_7071) && (int1 == false))) {
-        varclient_7071 = int0;
+    if ((int0 != varclient_7071)) {
+        if ((int1 == false)) {
+            varclient_7071 = int0;
+        } else if ((int1 == true)) {
+            varclient_7071 = comp(-1, 65535);
+        };
     } else if ((int1 == true)) {
         varclient_7071 = comp(-1, 65535);
     };

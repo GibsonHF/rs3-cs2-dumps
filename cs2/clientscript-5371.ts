@@ -77,8 +77,8 @@ function script5371(int0: number, int1: number, int2: number): void {
     var int3 = ((63 * int0) - 189);
     var int4 = (int3 + 63);
     IF_SETONTIMER(callback(script5372, 62324772, int3), comp(951, 36));
-    IF_SETONTIMER(callback(script5372, 62324770, int4), 62324770);
-    var int5 = ((IF_GETX(62324772) + (IF_GETWIDTH(62324772) / 2)) - (IF_GETWIDTH(62324750) / 2));
+    IF_SETONTIMER(callback(script5372, 62324770, int4), comp(951, 34));
+    var int5 = ((IF_GETX(comp(951, 36)) + (IF_GETWIDTH(comp(951, 36)) / 2)) - (IF_GETWIDTH(comp(951, 14)) / 2));
     if ((int5 < int3)) {
         SOUND_VORBIS_VOLUME(7717 as vorbis, 1, 0, 180);
     };

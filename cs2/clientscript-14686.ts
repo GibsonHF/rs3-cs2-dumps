@@ -11,17 +11,15 @@ function script14686(int0: number): number {
             stack(364624);
             stack(int0);
             DB_FIND(0);
-            dbrow_findnext();
-            return stack();
+            return dbrow_findnext();
         }
         case 4609: {
             stack(364640);
             stack(int0);
             DB_FIND(0);
-            dbrow_findnext();
-            return stack();
+            return dbrow_findnext();
         }
     };
     script12478(`Invalid restoration category for obj: ${script6686(int0)}`);
-    return -1 as dbrow;
+    return -1;
 }

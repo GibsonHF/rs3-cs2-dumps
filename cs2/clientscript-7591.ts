@@ -8,20 +8,20 @@ function script7591(): void {
     var int2 = quest_getparam(int1, 1345);
     var string0 = script2103(int1);
     var int3 = script2107(int1);
-    var int4 = -1 as graphic;
+    var int4 = -1;
     switch (quest_getparam(int1, 7831)) {
         case 1: {
-            int4 = 32052 as graphic;
+            int4 = 32052;
             break;
         }
         case 3:
         case 4: {
-            int4 = 32053 as graphic;
+            int4 = 32053;
             break;
         }
     };
     if ((int3 == 2270 as graphic)) {
-        int3 = -1 as graphic;
+        int3 = -1;
     };
     var string1 = quest_getparam(int1, 5968);
     var int5 = script2193(int1);
@@ -30,17 +30,18 @@ function script7591(): void {
     define_array[65536](4);
     var int7 = 0;
     var int8 = 0;
-    var int9 = -1 as stat;
+    var int9 = -1;
     var int10 = -1;
     var string2 = "null";
     while ((int8 < 12)) {
         [int9, int10] = script2112(int1, (int8 + 1));
         if ((((int9 != -1 as stat) && (int10 != 0)) && (STAT_BASE(int9) < int10))) {
-            if ((++int7 < 5)) {
+            int7 = (int7 + 1);
+            if ((int7 < 5)) {
                 if (((int7 == 1) && (int5 == 0))) {
                     int5 = -1;
                 };
-                pop_array((int7 - 1), enum_getvalue(17, 0, 1482 as cs2enum, int9));
+                pop_array((int7 - 1), enum_getvalue(17, 0, 1482, int9));
                 pop_array[1]((int7 - 1), int10);
             } else {
                 pop_array[1](3, (int7 - 3));
@@ -55,7 +56,7 @@ function script7591(): void {
     var int11 = 0;
     int8 = 0;
     var int12 = -1;
-    var int13 = -1 as quest;
+    var int13 = -1;
     while ((int8 < 12)) {
         int12 = script2111(int1, (int8 + 1));
         if ((int12 != -1)) {
@@ -64,7 +65,8 @@ function script7591(): void {
                 if ((int5 == 0)) {
                     int5 = -1;
                 };
-                switch (++int11) {
+                int11 = (int11 + 1);
+                switch (int11) {
                     case 1: {
                         string3 = script2103(int13);
                         break;
@@ -116,17 +118,17 @@ function script7591(): void {
     var int22 = 1;
     var int23 = 26 as fontmetrics;
     if ((script6431() == 1)) {
-        int23 = 28 as fontmetrics;
+        int23 = 28;
         int16 = 300;
     };
     if (((strcmp(string0, "null") != 0) && (strcmp(string0, "") != 0))) {
         CC_CREATE(int0, 4, int15);
         CC_SETPOSITION(4, int19, 0, 0);
-        CC_SETSIZE((2 * 4), script7593(string0, (int16 - (2 * 4)), 58 as fontmetrics, enum_getvalue(25, 0, 8549 as cs2enum, 58 as fontmetrics)), 1, 0);
+        CC_SETSIZE((2 * 4), script7593(string0, (int16 - (2 * 4)), 58, enum_getvalue(25, 0, 8549, 58)), 1, 0);
         CC_SETTEXT(string0);
         CC_SETTEXTFONT(58 as fontmetrics);
         CC_SETCOLOUR(script10495(0));
-        CC_SETTEXTALIGN(0, 1, enum_getvalue(25, 0, 8549 as cs2enum, 58 as fontmetrics));
+        CC_SETTEXTALIGN(0, 1, enum_getvalue(25, 0, 8549, 58));
         int15 = (int15 + 1);
         int19 = ((int19 + CC_GETHEIGHT()) + (2 * 2));
         CC_CREATE(int0, 9, int15);
@@ -149,7 +151,7 @@ function script7591(): void {
         CC_SETGRAPHIC(int3);
         int20 = ((CC_GETX() + CC_GETWIDTH()) + 4);
         int15 = (int15 + 1);
-        if ((int4 != -1 as graphic)) {
+        if ((int4 != -1)) {
             CC_CREATE(int0, 5, int15);
             CC_SETSIZE(int17, int18, 0, 0);
             CC_SETPOSITION(4, int19, 0, 0);
@@ -177,10 +179,75 @@ function script7591(): void {
     int15 = (int15 + 1);
     CC_CREATE[1](int0, 4, int15);
     CC_SETPOSITION[1](4, (int19 + 8), 2, 0);
-    if (((QUEST_GETMEMBERS(int1) == true) && (MAP_MEMBERS() == 0))) {
-        CC_SETTEXT[1]("Members-only");
-    } else if (((int14 == 1) && (int5 < 1))) {
-        CC_SETTEXT[1]("See Quest Log");
+    if ((QUEST_GETMEMBERS(int1) == true)) {
+        if ((MAP_MEMBERS() == 0)) {
+            CC_SETTEXT[1]("Members-only");
+        } else if ((int14 == 1)) {
+            if ((int5 < 1)) {
+                CC_SETTEXT[1]("See Quest Log");
+            } else {
+                switch (int5) {
+                    case 2: {
+                        CC_SETTEXT[1]("Completed");
+                        break;
+                    }
+                    case 1: {
+                        CC_SETTEXT[1]("In Progress");
+                        break;
+                    }
+                    case 0: {
+                        CC_SETTEXT[1]("Ready to Start");
+                        break;
+                    }
+                    default: {
+                        CC_SETTEXT[1]("Locked");
+                        break;
+                    }
+                };
+            };
+        } else {
+            switch (int5) {
+                case 2: {
+                    CC_SETTEXT[1]("Completed");
+                    break;
+                }
+                case 1: {
+                    CC_SETTEXT[1]("In Progress");
+                    break;
+                }
+                case 0: {
+                    CC_SETTEXT[1]("Ready to Start");
+                    break;
+                }
+                default: {
+                    CC_SETTEXT[1]("Locked");
+                    break;
+                }
+            };
+        };
+    } else if ((int14 == 1)) {
+        if ((int5 < 1)) {
+            CC_SETTEXT[1]("See Quest Log");
+        } else {
+            switch (int5) {
+                case 2: {
+                    CC_SETTEXT[1]("Completed");
+                    break;
+                }
+                case 1: {
+                    CC_SETTEXT[1]("In Progress");
+                    break;
+                }
+                case 0: {
+                    CC_SETTEXT[1]("Ready to Start");
+                    break;
+                }
+                default: {
+                    CC_SETTEXT[1]("Locked");
+                    break;
+                }
+            };
+        };
     } else {
         switch (int5) {
             case 2: {
@@ -286,37 +353,133 @@ function script7591(): void {
         int18 = 35;
         int24 = (((int16 - (2 * 4)) - (4 * (int17 + 1))) / 3);
         int20 = 4;
-        while (((int8 < int7) && (int8 < 4))) {
-            if (((int8 < 3) || (int7 == 4))) {
+        while ((int8 < int7)) {
+            if ((int8 < 4)) {
+                if (((int8 < 3) || (int7 == 4))) {
+                    CC_CREATE(int0, 5, int15);
+                    CC_SETPOSITION(int20, (int19 - 1), 0, 0);
+                    CC_SETSIZE((int17 + 1), (int18 + 1), 0, 0);
+                    CC_SETGRAPHIC(18269 as graphic);
+                    int15 = (int15 + 1);
+                };
                 CC_CREATE(int0, 5, int15);
-                CC_SETPOSITION(int20, (int19 - 1), 0, 0);
-                CC_SETSIZE((int17 + 1), (int18 + 1), 0, 0);
-                CC_SETGRAPHIC(18269 as graphic);
+                CC_SETPOSITION(int20, int19, 0, 0);
+                CC_SETSIZE(int17, int18, 0, 0);
+                if ((int8 == 3)) {
+                    if ((int7 > 4)) {
+                        CC_SETGRAPHIC(18945 as graphic);
+                    } else {
+                        CC_SETGRAPHIC(enum_getvalue(0, 23, 8548, push_array(int8)));
+                    };
+                } else {
+                    CC_SETGRAPHIC(enum_getvalue(0, 23, 8548, push_array(int8)));
+                };
                 int15 = (int15 + 1);
+                CC_CREATE(int0, 4, int15);
+                CC_SETPOSITION(int20, ((int19 + int18) + 2), 0, 0);
+                if ((int8 == 3)) {
+                    if ((int7 > 4)) {
+                        CC_SETTEXT(`${inttostring(push_array[1](int8), 10)} More`);
+                    } else {
+                        CC_SETTEXT(`Lvl ${inttostring(push_array[1](int8), 10)}`);
+                    };
+                } else {
+                    CC_SETTEXT(`Lvl ${inttostring(push_array[1](int8), 10)}`);
+                };
+                CC_SETTEXTALIGN(1, 1, 0);
+                CC_SETSIZE((int17 + 1), enum_getvalue(25, 0, 8549, int23), 0, 0);
+                CC_SETTEXTFONT(int23);
+                CC_SETCOLOUR(script10495(3));
+                int15 = (int15 + 1);
+                int20 = (((int20 + int17) + 1) + int24);
+                int8 = (int8 + 1);
             };
-            CC_CREATE(int0, 5, int15);
-            CC_SETPOSITION(int20, int19, 0, 0);
-            CC_SETSIZE(int17, int18, 0, 0);
-            if (((int8 == 3) && (int7 > 4))) {
-                CC_SETGRAPHIC(18945 as graphic);
-            } else {
-                CC_SETGRAPHIC(enum_getvalue(0, 23, 8548 as cs2enum, push_array(int8)));
+            int19 = (((((int19 + int18) + 2) + CC_GETHEIGHT()) + 8) + 2);
+            CC_SETSIZE[1](0, ((int19 - 2) - CC_GETY[1]()), 1, 0);
+            if ((int11 > 0)) {
+                int8 = 0;
+                CC_CREATE[1](int0, 3, int15);
+                CC_SETPOSITION[1](0, int19, 0, 0);
+                CC_SETFILL[1](1);
+                if ((int22 == 1)) {
+                    CC_SETCOLOUR[1](script10495(9));
+                } else {
+                    CC_SETCOLOUR[1](script10495(12));
+                };
+                int22 = MODULO((int22 + 1), 2);
+                int15 = (int15 + 1);
+                int19 = (int19 + 8);
+                CC_CREATE(int0, 4, int15);
+                CC_SETPOSITION(4, int19, 0, 0);
+                CC_SETTEXT("Prerequisites:");
+                CC_SETSIZE((2 * 4), script7593(CC_GETTEXT(), (int16 - (2 * 4)), int23, 0), 1, 0);
+                CC_SETTEXTFONT(int23);
+                CC_SETCOLOUR(16777215);
+                CC_SETTEXTALIGN(0, 1, 0);
+                int15 = (int15 + 1);
+                int19 = ((int19 + CC_GETHEIGHT()) + 8);
+                int17 = 16;
+                int18 = 16;
+                int20 = ((4 + int17) + 4);
+                while ((int8 < int11)) {
+                    if ((int8 < 4)) {
+                        CC_CREATE(int0, 5, int15);
+                        CC_SETPOSITION(4, int19, 0, 0);
+                        CC_SETSIZE(int17, int18, 0, 0);
+                        if ((int8 == 3)) {
+                            if ((int11 > 4)) {
+                                CC_SETGRAPHIC(18944 as graphic);
+                            } else {
+                                CC_SETGRAPHIC(21342 as graphic);
+                            };
+                        } else {
+                            CC_SETGRAPHIC(21342 as graphic);
+                        };
+                        int15 = (int15 + 1);
+                        CC_CREATE(int0, 4, int15);
+                        CC_SETPOSITION(int20, int19, 0, 0);
+                        switch (int8) {
+                            case 0: {
+                                CC_SETTEXT(string3);
+                                break;
+                            }
+                            case 1: {
+                                CC_SETTEXT(string4);
+                                break;
+                            }
+                            case 2: {
+                                CC_SETTEXT(string5);
+                                break;
+                            }
+                            case 3: {
+                                CC_SETTEXT(string6);
+                                break;
+                            }
+                        };
+                        int21 = script7593(CC_GETTEXT(), ((int16 - int20) - 4), int23, 0);
+                        if ((int21 < int18)) {
+                            int21 = int18;
+                            CC_SETTEXTALIGN(0, 1, 0);
+                        } else {
+                            CC_SETTEXTALIGN(0, 0, 0);
+                        };
+                        CC_SETSIZE((int20 + 4), int21, 1, 0);
+                        CC_SETTEXTFONT(int23);
+                        CC_SETCOLOUR(script10495(3));
+                        int15 = (int15 + 1);
+                        int19 = ((int19 + CC_GETHEIGHT()) + 2);
+                        int8 = (int8 + 1);
+                    };
+                    int19 = (int19 + 8);
+                    CC_SETSIZE[1](0, ((int19 - 2) - CC_GETY[1]()), 1, 0);
+                    IF_SETSIZE(int16, (int19 - 2), 0, 0, int0);
+                    return;
+                };
+                int19 = (int19 + 8);
+                CC_SETSIZE[1](0, ((int19 - 2) - CC_GETY[1]()), 1, 0);
             };
-            int15 = (int15 + 1);
-            CC_CREATE(int0, 4, int15);
-            CC_SETPOSITION(int20, ((int19 + int18) + 2), 0, 0);
-            if (((int8 == 3) && (int7 > 4))) {
-                CC_SETTEXT(`${inttostring(push_array[1](int8), 10)} More`);
-            } else {
-                CC_SETTEXT(`Lvl ${inttostring(push_array[1](int8), 10)}`);
-            };
-            CC_SETTEXTALIGN(1, 1, 0);
-            CC_SETSIZE((int17 + 1), enum_getvalue(25, 0, 8549 as cs2enum, int23), 0, 0);
-            CC_SETTEXTFONT(int23);
-            CC_SETCOLOUR(script10495(3));
-            int15 = (int15 + 1);
-            int20 = (((int20 + int17) + 1) + int24);
-            int8 = (int8 + 1);
+            IF_SETSIZE(int16, (int19 - 2), 0, 0, int0);
+            return;
         };
         int19 = (((((int19 + int18) + 2) + CC_GETHEIGHT()) + 8) + 2);
         CC_SETSIZE[1](0, ((int19 - 2) - CC_GETY[1]()), 1, 0);
@@ -346,49 +509,59 @@ function script7591(): void {
         int17 = 16;
         int18 = 16;
         int20 = ((4 + int17) + 4);
-        while (((int8 < int11) && (int8 < 4))) {
-            CC_CREATE(int0, 5, int15);
-            CC_SETPOSITION(4, int19, 0, 0);
-            CC_SETSIZE(int17, int18, 0, 0);
-            if (((int8 == 3) && (int11 > 4))) {
-                CC_SETGRAPHIC(18944 as graphic);
-            } else {
-                CC_SETGRAPHIC(21342 as graphic);
+        while ((int8 < int11)) {
+            if ((int8 < 4)) {
+                CC_CREATE(int0, 5, int15);
+                CC_SETPOSITION(4, int19, 0, 0);
+                CC_SETSIZE(int17, int18, 0, 0);
+                if ((int8 == 3)) {
+                    if ((int11 > 4)) {
+                        CC_SETGRAPHIC(18944 as graphic);
+                    } else {
+                        CC_SETGRAPHIC(21342 as graphic);
+                    };
+                } else {
+                    CC_SETGRAPHIC(21342 as graphic);
+                };
+                int15 = (int15 + 1);
+                CC_CREATE(int0, 4, int15);
+                CC_SETPOSITION(int20, int19, 0, 0);
+                switch (int8) {
+                    case 0: {
+                        CC_SETTEXT(string3);
+                        break;
+                    }
+                    case 1: {
+                        CC_SETTEXT(string4);
+                        break;
+                    }
+                    case 2: {
+                        CC_SETTEXT(string5);
+                        break;
+                    }
+                    case 3: {
+                        CC_SETTEXT(string6);
+                        break;
+                    }
+                };
+                int21 = script7593(CC_GETTEXT(), ((int16 - int20) - 4), int23, 0);
+                if ((int21 < int18)) {
+                    int21 = int18;
+                    CC_SETTEXTALIGN(0, 1, 0);
+                } else {
+                    CC_SETTEXTALIGN(0, 0, 0);
+                };
+                CC_SETSIZE((int20 + 4), int21, 1, 0);
+                CC_SETTEXTFONT(int23);
+                CC_SETCOLOUR(script10495(3));
+                int15 = (int15 + 1);
+                int19 = ((int19 + CC_GETHEIGHT()) + 2);
+                int8 = (int8 + 1);
             };
-            int15 = (int15 + 1);
-            CC_CREATE(int0, 4, int15);
-            CC_SETPOSITION(int20, int19, 0, 0);
-            switch (int8) {
-                case 0: {
-                    CC_SETTEXT(string3);
-                    break;
-                }
-                case 1: {
-                    CC_SETTEXT(string4);
-                    break;
-                }
-                case 2: {
-                    CC_SETTEXT(string5);
-                    break;
-                }
-                case 3: {
-                    CC_SETTEXT(string6);
-                    break;
-                }
-            };
-            int21 = script7593(CC_GETTEXT(), ((int16 - int20) - 4), int23, 0);
-            if ((int21 < int18)) {
-                int21 = int18;
-                CC_SETTEXTALIGN(0, 1, 0);
-            } else {
-                CC_SETTEXTALIGN(0, 0, 0);
-            };
-            CC_SETSIZE((int20 + 4), int21, 1, 0);
-            CC_SETTEXTFONT(int23);
-            CC_SETCOLOUR(script10495(3));
-            int15 = (int15 + 1);
-            int19 = ((int19 + CC_GETHEIGHT()) + 2);
-            int8 = (int8 + 1);
+            int19 = (int19 + 8);
+            CC_SETSIZE[1](0, ((int19 - 2) - CC_GETY[1]()), 1, 0);
+            IF_SETSIZE(int16, (int19 - 2), 0, 0, int0);
+            return;
         };
         int19 = (int19 + 8);
         CC_SETSIZE[1](0, ((int19 - 2) - CC_GETY[1]()), 1, 0);

@@ -1,18 +1,19 @@
 //
 function script17196(int0: number): void {
     CC_DELETEALL(comp(1138, 22));
-    var int1 = enum_getvalue(0, 74, 16852 as cs2enum, int0);
+    var int1 = enum_getvalue(0, 74, 16852, int0);
     var int2 = dbrow_getfield(int1, 884752, 0);
     var int3 = 0;
     var int4 = -1;
-    var int5 = -1 as obj;
+    var int5 = -1;
     var int6 = 0;
     var int7 = 0;
     var int8 = script17206(int2);
     var int9 = 113;
     var int10 = IF_GETNEXTSUBID(comp(1138, 22));
     var string0 = "";
-    while ((++int3 <= int2)) {
+    int3 = (int3 + 1);
+    while ((int3 <= int2)) {
         int4 = script6395(int0, int3);
         [int5, int6, int7] = dbrow_getfield(int1, 884800, int4);
         int5 = script2(int5);

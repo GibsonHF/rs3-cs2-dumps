@@ -191,13 +191,11 @@ function script5690(): void {
             switch (varclient_1753) {
                 case 22: {
                     unk11023(int7, 1515520, 1);
-                    dbrow_findnext();
-                    int9 = stack();
+                    int9 = dbrow_findnext();
                     while ((int9 != -1)) {
-                        [int3, int21] = script16268(int11, int10, int3, int21, -1 as struct, int9, int12, int13, 0);
+                        [int3, int21] = script16268(int11, int10, int3, int21, -1, int9, int12, int13, 0);
                         int11 = (int11 + 1);
-                        dbrow_findnext();
-                        int9 = stack();
+                        int9 = dbrow_findnext();
                     };
                     break;
                 }
@@ -234,14 +232,12 @@ function script5690(): void {
         switch (varclient_1753) {
             case 22: {
                 unk11023(int7, 1515520, 1);
-                dbrow_findnext();
-                int9 = stack();
+                int9 = dbrow_findnext();
                 while ((int9 != -1)) {
-                    [int3, int21] = script16268(int11, int10, int3, int21, -1 as struct, int9, 0, 120, varbitplayer_41394);
+                    [int3, int21] = script16268(int11, int10, int3, int21, -1, int9, 0, 120, varbitplayer_41394);
                     pop_array(int11, int11);
                     int11 = (int11 + 1);
-                    dbrow_findnext();
-                    int9 = stack();
+                    int9 = dbrow_findnext();
                 };
                 break;
             }

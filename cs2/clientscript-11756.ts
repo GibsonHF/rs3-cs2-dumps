@@ -1,12 +1,11 @@
 //
 function script11756(int0: number, int1: number): void {
-    if ((int0 == -1 as dbrow)) {
+    if ((int0 == -1)) {
         return;
     };
     var int2 = dbrow_getfield(int0, 274528, 0);
     switch ((int2 / 32)) {
         default: {
-            break;
         }
     };
     if ((int1 == 1)) {

@@ -5,11 +5,11 @@ function script15298(): void {
     var string1 = "";
     var string2 = "";
     var int1 = 0;
-    var int2 = -1 as obj;
+    var int2 = -1;
     var int3 = 0;
     var int4 = script13408(varbitplayer_48224);
     script16706(17760267, int0, varplayer_9595, script14580(), script15290(), 0);
-    if ((int0 != -1 as obj)) {
+    if ((int0 != -1)) {
         string0 = OC_NAME(int0);
     };
     IF_SETTEXT(string0, comp(271, 5));
@@ -21,8 +21,7 @@ function script15298(): void {
     IF_SETGRAPHIC(10348 as graphic, comp(271, 2));
     IF_SETOBJECT(-1 as obj, -1, comp(271, 3));
     IF_SETPOSITION(0, 0, 1, 1, comp(271, 4));
-    stack(dbrow_getfield(3792 as dbrow, 471040, int4));
-    [string1, string2, int1, int2, int3] = stack();
+    [string1, string2, int1, int2, int3] = dbrow_getfield(3792 as dbrow, 471040, int4);
     if ((int3 == 1)) {
         int3 = -1;
     };

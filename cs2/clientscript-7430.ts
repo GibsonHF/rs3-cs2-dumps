@@ -13,8 +13,12 @@ function script7430(int0: number, int1: number): number {
     var int3 = -1 as npc;
     if ((int1 < 9000)) {
         int3 = struct_getparam(int2, 3148);
-    } else if (((int1 >= 9000) && (int1 < 24000))) {
-        int3 = struct_getparam(int2, 3150);
+    } else if ((int1 >= 9000)) {
+        if ((int1 < 24000)) {
+            int3 = struct_getparam(int2, 3150);
+        } else {
+            int3 = struct_getparam(int2, 3152);
+        };
     } else {
         int3 = struct_getparam(int2, 3152);
     };

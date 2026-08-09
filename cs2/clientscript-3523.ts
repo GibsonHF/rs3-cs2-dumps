@@ -3,11 +3,11 @@ function script3523(): void {
     CC_DELETEALL(comp(1790, 9));
     CC_DELETEALL(comp(1790, 63));
     CC_DELETEALL(comp(1790, 64));
-    var int0 = -1 as dbrow;
+    var int0 = -1;
     var int1 = 0;
     var int2 = (MODULO(int1, 2) * 55);
     var int3 = ((int1 / 2) * 63);
-    var int4 = -1 as obj;
+    var int4 = -1;
     var string0 = "";
     var string1 = "";
     while ((int1 < 8)) {
@@ -18,7 +18,7 @@ function script3523(): void {
         CC_SETSIZE(40, 40, 0, 0);
         CC_SETPOSITION((int2 + 7), int3, 0, 0);
         CC_SETGRAPHIC(26557 as graphic);
-        if ((int0 != -1 as dbrow)) {
+        if ((int0 != -1)) {
             CC_CREATE(comp(1790, 63), 5, int1);
             CC_SETSIZE(38, 38, 0, 0);
             CC_SETPOSITION((int2 + 8), (int3 + 1), 0, 0);
@@ -41,12 +41,12 @@ function script3523(): void {
             };
             int4 = dbrow_getfield(int0, 270400, 0);
             string1 = script14963(int0);
-            if ((int4 != -1 as obj)) {
+            if ((int4 != -1)) {
                 CC_SETOBJECT_NONUM(int4, 1000);
                 CC_SETOPBASE(`${script4033(int4)}${string1}`);
-            } else if ((dbrow_getfield(int0, 270384, 0) != -1 as graphic)) {
+            } else if ((dbrow_getfield(int0, 270384, 0) != -1)) {
                 CC_SETGRAPHIC(dbrow_getfield(int0, 270384, 0));
-                CC_SETOPBASE(`${script4033(41028 as obj)}${string1}`);
+                CC_SETOPBASE(`${script4033(41028)}${string1}`);
             };
             CC_CREATE(comp(1790, 64), 4, int1);
             CC_SETSIZE(55, 11, 0, 0);
@@ -59,7 +59,7 @@ function script3523(): void {
             CC_SETTEXTALIGN(1, 2, 0);
             CC_SETCOLOUR(script10495(3));
             CC_SETTEXTSHADOW(true);
-            if ((int0 == 2274 as dbrow)) {
+            if ((int0 == 2274)) {
                 CC_SETTEXT(script11601((script14965(int0) * 10), 1));
             } else {
                 CC_SETTEXT(script11601(script14965(int0), 1));

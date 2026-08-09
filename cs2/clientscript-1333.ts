@@ -9,12 +9,12 @@ function script1333(): void {
         case 2: {
             script1218(55050263, 12748, 55050264, 12749, 55050265, 12750);
             IF_SETONCLICK(callback(script1312), comp(840, 21));
-            IF_SETONTIMER(callback(), 55050246);
+            IF_SETONTIMER(callback(), comp(840, 6));
             break;
         }
         case 1: {
             IF_SETONTIMER(callback(), comp(840, 6));
-            IF_TRIGGEROP(55050284, -1, 1);
+            IF_TRIGGEROP(comp(840, 44), -1, 1);
             break;
         }
     };

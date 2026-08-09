@@ -3,12 +3,11 @@ function script19236(int0: number): number {
     stack(1208320);
     stack(int0);
     DB_FIND(0);
-    dbrow_findnext();
-    var int1 = stack();
+    var int1 = dbrow_findnext();
     var int2 = -1;
     if ((int1 != -1)) {
         int2 = dbrow_getfield(int1, 1208352, 0);
-        if ((int2 != -1 as cs2enum)) {
+        if ((int2 != -1)) {
             return enum_getvalue(0, 0, int2, script15113());
         };
     };

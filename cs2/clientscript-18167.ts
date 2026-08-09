@@ -8,13 +8,23 @@ function script18167(int0: number): void {
     if (((varclient_6728 > 0) || (varclient_6727 > 0))) {
         int1 = 1;
     };
-    if ((((varclient_7340 > 0) || (varclient_7339 > 0)) && (script15206() == 0))) {
-        int2 = 1;
+    if (((varclient_7340 > 0) || (varclient_7339 > 0))) {
+        if ((script15206() == 0)) {
+            int2 = 1;
+        };
     };
-    if (((((varbitplayer_54479 == 1) && (int2 == 1)) || (varbitplayer_47683 == 1)) || (int0 == 1))) {
+    if ((varbitplayer_54479 == 1)) {
+        if ((((int2 == 1) || (varbitplayer_47683 == 1)) || (int0 == 1))) {
+            string1 = "(Paused)";
+        };
+    } else if (((varbitplayer_47683 == 1) || (int0 == 1))) {
         string1 = "(Paused)";
     };
-    if (((((varbitplayer_54479 == 0) && (int1 == 1)) || (varbitplayer_47683 == 1)) || (int0 == 1))) {
+    if ((varbitplayer_54479 == 0)) {
+        if ((((int1 == 1) || (varbitplayer_47683 == 1)) || (int0 == 1))) {
+            string2 = "(Paused)";
+        };
+    } else if (((varbitplayer_47683 == 1) || (int0 == 1))) {
         string2 = "(Paused)";
     };
     if ((int1 == 1)) {

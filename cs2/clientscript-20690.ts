@@ -1,6 +1,6 @@
 //
 function script20690(int0: number): number {
-    if ((int0 == -1 as dbrow)) {
+    if ((int0 == -1)) {
         return -1;
     };
     var int1 = -1 as var_reference;

@@ -1,7 +1,7 @@
 //
 function script16277(): void {
     unk11177();
-    if ((stack() > 0)) {
+    if (BRANCH_GREATER_THAN(0)) {
         stack(varplayer_12919);
         unk11178();
         script20782();

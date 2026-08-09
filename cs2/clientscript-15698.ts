@@ -6,7 +6,7 @@ function script15698(int0: number): void {
         IF_SETTEXT(string0, comp(744, 111));
         script3237(48758894, 48758895, 48758896, string0, 100, 212);
     } else if ((int0 == 113)) {
-        IF_SETTEXT(varclient_6896, comp(744, 339));
+        IF_SETTEXT(varclient_6896, 48759123);
         script3237(48759122, 48759123, 48759124, varclient_6896, 113, 212);
     };
     return;

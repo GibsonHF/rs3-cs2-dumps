@@ -4333,7 +4333,7 @@ function script6488(int0: number): number {
             return varbitplayer_27649;
         }
         case 31346: {
-            if (((script10881(31340 as struct) == 1) || (script10881(31341 as struct) == 1))) {
+            if (((script10881(31340) == 1) || (script10881(31341) == 1))) {
                 return 1;
             };
             return 0;
@@ -4784,31 +4784,31 @@ function script6488(int0: number): number {
             return varbitplayer_33906;
         }
         case 35573: {
-            if ((((((script10881(34494 as struct) == 1) && (script10881(34496 as struct) == 1)) && (script10881(34498 as struct) == 1)) && (script10881(34500 as struct) == 1)) && (script10881(34502 as struct) == 1))) {
+            if ((((((script10881(34494) == 1) && (script10881(34496) == 1)) && (script10881(34498) == 1)) && (script10881(34500) == 1)) && (script10881(34502) == 1))) {
                 return 1;
             };
             return 0;
         }
         case 35574: {
-            if ((((((script10881(34504 as struct) == 1) && (script10881(34506 as struct) == 1)) && (script10881(34508 as struct) == 1)) && (script10881(34510 as struct) == 1)) && (script10881(34512 as struct) == 1))) {
+            if ((((((script10881(34504) == 1) && (script10881(34506) == 1)) && (script10881(34508) == 1)) && (script10881(34510) == 1)) && (script10881(34512) == 1))) {
                 return 1;
             };
             return 0;
         }
         case 35575: {
-            if ((((((script10881(34514 as struct) == 1) && (script10881(34516 as struct) == 1)) && (script10881(34518 as struct) == 1)) && (script10881(34520 as struct) == 1)) && (script10881(34522 as struct) == 1))) {
+            if ((((((script10881(34514) == 1) && (script10881(34516) == 1)) && (script10881(34518) == 1)) && (script10881(34520) == 1)) && (script10881(34522) == 1))) {
                 return 1;
             };
             return 0;
         }
         case 35576: {
-            if ((((((script10881(34524 as struct) == 1) && (script10881(34526 as struct) == 1)) && (script10881(34528 as struct) == 1)) && (script10881(34530 as struct) == 1)) && (script10881(34532 as struct) == 1))) {
+            if ((((((script10881(34524) == 1) && (script10881(34526) == 1)) && (script10881(34528) == 1)) && (script10881(34530) == 1)) && (script10881(34532) == 1))) {
                 return 1;
             };
             return 0;
         }
         case 35577: {
-            if ((((((script10881(34534 as struct) == 1) && (script10881(34536 as struct) == 1)) && (script10881(34538 as struct) == 1)) && (script10881(34540 as struct) == 1)) && (script10881(34542 as struct) == 1))) {
+            if ((((((script10881(34534) == 1) && (script10881(34536) == 1)) && (script10881(34538) == 1)) && (script10881(34540) == 1)) && (script10881(34542) == 1))) {
                 return 1;
             };
             return 0;
@@ -5060,7 +5060,7 @@ function script6488(int0: number): number {
             return 0;
         }
         case 35284: {
-            if (((script10881(35092 as struct) == 1) || (script10881(35101 as struct) == 1))) {
+            if (((script10881(35092) == 1) || (script10881(35101) == 1))) {
                 return 1;
             };
             return 0;
@@ -5291,7 +5291,7 @@ function script6488(int0: number): number {
         case 1481:
         case 1484:
         case 1485: {
-            return script10881(1479 as struct);
+            return script10881(1479);
         }
         case 1348: {
             if ((((((((varbitplayer_35849 == 1) && (varbitplayer_35850 == 1)) && (varbitplayer_35851 == 1)) && (varbitplayer_35852 == 1)) && (varbitplayer_35853 == 1)) && (varbitplayer_35854 == 1)) && (varbitplayer_27438 == 1))) {
@@ -6880,26 +6880,34 @@ function script6488(int0: number): number {
             return varbitplayer_61093;
         }
         case 3032: {
-            if (((varbitplayer_30318 == 1) && ((script611(52501) == 1) || (script611(52504) == 1)))) {
-                return 1;
+            if ((varbitplayer_30318 == 1)) {
+                if (((script611(52501) == 1) || (script611(52504) == 1))) {
+                    return 1;
+                };
             };
             break;
         }
         case 3036: {
-            if (((varbitplayer_30318 == 1) && ((script611(52503) == 1) || (script611(52504) == 1)))) {
-                return 1;
+            if ((varbitplayer_30318 == 1)) {
+                if (((script611(52503) == 1) || (script611(52504) == 1))) {
+                    return 1;
+                };
             };
             break;
         }
         case 3045: {
-            if (((varbitplayer_30318 == 1) && ((script611(52502) == 1) || (script611(52504) == 1)))) {
-                return 1;
+            if ((varbitplayer_30318 == 1)) {
+                if (((script611(52502) == 1) || (script611(52504) == 1))) {
+                    return 1;
+                };
             };
             break;
         }
         case 3046: {
-            if (((varbitplayer_30318 == 1) && ((script611(55189) == 1) || (script611(52504) == 1)))) {
-                return 1;
+            if ((varbitplayer_30318 == 1)) {
+                if (((script611(55189) == 1) || (script611(52504) == 1))) {
+                    return 1;
+                };
             };
             break;
         }

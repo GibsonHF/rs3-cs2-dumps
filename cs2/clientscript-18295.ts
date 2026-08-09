@@ -14,7 +14,8 @@ function script18295(int0: number, string0: string): string {
     };
     var int6 = -1;
     var int7 = 0;
-    while ((++int7 <= int1)) {
+    int7 = (int7 + 1);
+    while ((int7 <= int1)) {
         switch (int7) {
             case 1: {
                 int6 = int2;

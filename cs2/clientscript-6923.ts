@@ -14,15 +14,15 @@ function script6923(int0: number, int1: number, string0: string): void {
     CC_CREATE[1](int0, 5, 2);
     CC_SETSIZE[1](0, 0, 1, 1);
     CC_SETPOSITION[1](0, 0, 1, 1);
-    CC_SETGRAPHIC[1](1132);
+    CC_SETGRAPHIC[1](1132 as graphic);
     script6927(int1);
     CC_SETONVARTRANSMIT(callback(script6926, -2147483645, CC_GETID[1](), int1, 1587, 1));
     IF_SETONOP(callback(script6928, -2147483645, CC_GETID[1](), int1, -2147483644), int0);
     CC_CREATE[1](int0, 5, 3);
     CC_SETSIZE[1](10, 32, 0, 0);
     CC_SETPOSITION[1](0, 0, 1, 1);
-    CC_SETGRAPHIC[1](937);
-    CC_SETHIDE[1](1);
+    CC_SETGRAPHIC[1](937 as graphic);
+    CC_SETHIDE[1](true);
     CC_SETONTIMER(callback(script6931, -2147483645, CC_GETID[1]()));
     return;
 }

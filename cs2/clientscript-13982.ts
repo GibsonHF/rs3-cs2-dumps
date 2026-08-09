@@ -12,7 +12,7 @@ function script13982(int0: number, int1: number, int2: number, int3: number, int
     var int9 = script9984(int2, 3);
     var int10 = script9984(int2, 4);
     var int11 = script9984(int2, 6);
-    if (((int3 == true) && (script9984(int2, 8) != -1 as struct))) {
+    if (((int3 == true) && (script9984(int2, 8) != -1))) {
         int11 = script9984(int2, 8);
     };
     var int12 = int7;
@@ -22,10 +22,10 @@ function script13982(int0: number, int1: number, int2: number, int3: number, int
         int12 = int7;
     } else if ((int3 == true)) {
         int12 = script9984(int2, 5);
-    } else if (((int8 != -1 as struct) && (script11903(int0) == 1))) {
+    } else if (((int8 != -1) && (script11903(int0) == 1))) {
         int12 = int8;
     };
-    if ((int12 == -1 as struct)) {
+    if ((int12 == -1)) {
         return;
     };
     var int13 = struct_getparam(int12, 3808);
@@ -33,18 +33,30 @@ function script13982(int0: number, int1: number, int2: number, int3: number, int
     var int15 = struct_getparam(int12, 7447);
     var int16 = struct_getparam(int12, 7448);
     var int17 = 0;
-    CC_CREATE(int0, 5, int17++);
+    stack(int0);
+    stack(5);
+    stack(int17);
+    int17 = (int17 + 1);
+    CC_CREATE();
     CC_SETSIZE(int13, int14, 0, 0);
     CC_SETPOSITION(0, 0, 0, 0);
     CC_SETGRAPHIC(struct_getparam(int12, 3801));
     CC_SETCOLOUR(int16);
-    CC_CREATE(int0, 5, int17++);
+    stack(int0);
+    stack(5);
+    stack(int17);
+    int17 = (int17 + 1);
+    CC_CREATE();
     CC_SETSIZE((int13 * 2), int14, 1, 0);
     CC_SETPOSITION(int13, 0, 0, 0);
     CC_SETGRAPHIC(struct_getparam(int12, 3802));
     CC_SETCOLOUR(int16);
     CC_SETTILING(int15);
-    CC_CREATE(int0, 5, int17++);
+    stack(int0);
+    stack(5);
+    stack(int17);
+    int17 = (int17 + 1);
+    CC_CREATE();
     CC_SETSIZE(int13, int14, 0, 0);
     CC_SETPOSITION(0, 0, 2, 0);
     CC_SETGRAPHIC(struct_getparam(int12, 3803));
@@ -52,7 +64,11 @@ function script13982(int0: number, int1: number, int2: number, int3: number, int
     if ((struct_getparam(int12, 8062) == true)) {
         CC_SETHFLIP(true);
     };
-    CC_CREATE(int0, 4, int17++);
+    stack(int0);
+    stack(4);
+    stack(int17);
+    int17 = (int17 + 1);
+    CC_CREATE();
     if ((STRING_LENGTH(string0) > 0)) {
         if ((struct_getparam(int11, 8063) == true)) {
             CC_SETSIZE(struct_getparam(int11, 8066), struct_getparam(int11, 9395), 1, 1);
@@ -68,13 +84,17 @@ function script13982(int0: number, int1: number, int2: number, int3: number, int
         CC_SETTEXTSHADOW(struct_getparam(int11, 7405));
         CC_SETMAXLINES(struct_getparam(int11, 9222));
     };
-    CC_CREATE(int0, 4, int17++);
+    stack(int0);
+    stack(4);
+    stack(int17);
+    int17 = (int17 + 1);
+    CC_CREATE();
     CC_SETSIZE(0, 0, 1, 1);
     CC_SETPOSITION(0, 0, 0, 0);
     if ((int5 == 0)) {
         CC_SETONVARTRANSMIT(callback(script13984, -2147483645, -2147483643, int2, int3, 0, int4, 3814, 1));
     };
-    if ((((int3 == false) && (int7 != -1 as struct)) && (int8 != -1 as struct))) {
+    if ((((int3 == false) && (int7 != -1)) && (int8 != -1))) {
         CC_SETONMOUSEOVER(callback(script13985, -2147483645, int8, 0, 1));
         CC_SETONMOUSELEAVE(callback(script13985, -2147483645, int7, 0, 0));
         if ((int9 != -1)) {

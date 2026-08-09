@@ -29,6 +29,7 @@ function script11402(int0: number): number {
             return 10008;
         }
         case 8: {
+            break;
         }
         default: {
             return -1;

@@ -1,5 +1,5 @@
 //
-function script11603(int0: number): [number, number, number, BigInt] {
+function script11603(int0: number): [number, number, number, bigint] {
     switch (int0) {
         case 0: {
             return [varplayer_145, varbitplayer_439, varplayer_155, varplayer_10854];
@@ -122,5 +122,5 @@ function script11603(int0: number): [number, number, number, BigInt] {
             return [varplayer_8482, varbitplayer_43920, varplayer_8522, varplayer_10893];
         }
     };
-    return [-1 as obj, -1, -1, -1n];
+    return [-1, -1, -1, -1n];
 }

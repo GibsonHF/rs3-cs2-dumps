@@ -38,6 +38,7 @@ function script10272(int0: number): number {
             return varplayer_4732;
         }
         case 12: {
+            break;
         }
         default: {
             return -1;

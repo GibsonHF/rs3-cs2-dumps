@@ -167,22 +167,43 @@ function script3337(int0: number, int1: number): void {
             };
             int9 = (int9 + 1);
         };
-        while (((int8 < int6) && (int9 < 5))) {
-            int10 = enum_getvalue(0, 73, int5, int8);
-            int9 = script16267(int10, -1, int9, int2, int4, int1);
-            int8 = (int8 + 1);
+        while ((int8 < int6)) {
+            if ((int9 < 5)) {
+                int10 = enum_getvalue(0, 73, int5, int8);
+                int9 = script16267(int10, -1, int9, int2, int4, int1);
+                int8 = (int8 + 1);
+            };
+            if ((int9 < 5)) {
+                switch (int3) {
+                    case 22: {
+                        int11 = script20817(int2, int4);
+                        unk11023(int11, 1515664, 1);
+                        int12 = dbrow_findnext();
+                        while ((int12 != -1)) {
+                            if ((int9 < 5)) {
+                                int9 = script16267(-1, int12, int9, int2, int4, int1);
+                                int12 = dbrow_findnext();
+                            };
+                            return;
+                        };
+                        break;
+                    }
+                };
+            };
+            return;
         };
         if ((int9 < 5)) {
             switch (int3) {
                 case 22: {
                     int11 = script20817(int2, int4);
                     unk11023(int11, 1515664, 1);
-                    dbrow_findnext();
-                    int12 = stack();
-                    while (((int12 != -1) && (int9 < 5))) {
-                        int9 = script16267(-1 as struct, int12, int9, int2, int4, int1);
-                        dbrow_findnext();
-                        int12 = stack();
+                    int12 = dbrow_findnext();
+                    while ((int12 != -1)) {
+                        if ((int9 < 5)) {
+                            int9 = script16267(-1, int12, int9, int2, int4, int1);
+                            int12 = dbrow_findnext();
+                        };
+                        return;
                     };
                     break;
                 }

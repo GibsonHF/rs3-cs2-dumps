@@ -30,7 +30,8 @@ function script14098(int0: number): void {
             if ((int11 == 1)) {
                 int12 = (int12 + 1);
             };
-            if ((++int3 > (45 * 10))) {
+            int3 = (int3 + 45);
+            if ((int3 > (45 * 10))) {
                 int3 = 5;
                 if ((int2 < (int18 - 1))) {
                     int4 = (int4 + 45);

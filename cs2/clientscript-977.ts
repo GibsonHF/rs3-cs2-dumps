@@ -6,8 +6,8 @@ function script977(int0: number, int1: number, int2: number, int3: number, int4:
     script16040(int0, int1);
     IF_SETPOSITION(0, (int1 * (40 + 1)), 0, 0, comp(204, 21));
     IF_SETONVARTRANSMIT(callback(script979, int0, 8046, 1), comp(204, 2));
-    IF_SETONVARTRANSMIT(callback(script987, int0, 8048, 1), 13369439);
-    IF_SETONVARTRANSMIT(callback(script981, int0, 8043, 8043, 8725, 10165, 8046, 5), 13369389);
-    IF_SETONOP(callback(script986, int0), 13369464);
+    IF_SETONVARTRANSMIT(callback(script987, int0, 8048, 1), comp(204, 95));
+    IF_SETONVARTRANSMIT(callback(script981, int0, 8043, 8043, 8725, 10165, 8046, 5), comp(204, 45));
+    IF_SETONOP(callback(script986, int0), comp(204, 120));
     return;
 }

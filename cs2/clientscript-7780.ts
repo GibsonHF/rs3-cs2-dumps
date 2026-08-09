@@ -6,7 +6,7 @@ function script7780(): void {
         varclient_1928 = int1;
     };
     var int2 = struct_getparam(int0, 7983);
-    if ((int0 != -1 as struct)) {
+    if ((int0 != -1)) {
         switch (int0) {
             case 12006: {
                 if ((varbitplayer_28986 == 1)) {
@@ -65,17 +65,17 @@ function script7780(): void {
         int14 = struct_getparam(int2, 8015);
     };
     var int15 = comp(-1, 65535);
-    var int16 = comp(-1, 65535);
-    var int17 = comp(-1, 65535);
-    var int18 = comp(-1, 65535);
+    var int16 = -1;
+    var int17 = -1;
+    var int18 = -1;
     var string0 = "";
-    var int19 = -1 as model;
+    var int19 = -1;
     var int20 = -1;
     var int21 = -1;
     var int22 = -1;
     var int23 = -1;
-    var int24 = -1 as material;
-    var int25 = -1 as material;
+    var int24 = -1;
+    var int25 = -1;
     var int26 = -1;
     var int27 = -1;
     var int28 = 0;
@@ -83,13 +83,14 @@ function script7780(): void {
     var int30 = 0;
     var int31 = 0;
     var int32 = 0;
-    while ((++int28 <= int3)) {
+    int28 = (int28 + 1);
+    while ((int28 <= int3)) {
         switch (int28) {
             case 1: {
                 int15 = comp(1253, 30);
-                int16 = comp(1253, 31);
-                int17 = comp(1253, 33);
-                int18 = comp(1253, 32);
+                int16 = 82116639;
+                int17 = 82116641;
+                int18 = 82116640;
                 string0 = struct_getparam(int2, 8575);
                 int19 = struct_getparam(int2, 7985);
                 int20 = struct_getparam(int2, 8607);
@@ -107,10 +108,10 @@ function script7780(): void {
                 break;
             }
             case 2: {
-                int15 = comp(1253, 20);
-                int16 = comp(1253, 21);
-                int17 = comp(1253, 23);
-                int18 = comp(1253, 22);
+                int15 = 82116628;
+                int16 = 82116629;
+                int17 = 82116631;
+                int18 = 82116630;
                 string0 = struct_getparam(int2, 8578);
                 int19 = struct_getparam(int2, 7989);
                 int20 = struct_getparam(int2, 8611);
@@ -128,10 +129,10 @@ function script7780(): void {
                 break;
             }
             case 3: {
-                int15 = comp(1253, 25);
-                int16 = comp(1253, 26);
-                int17 = comp(1253, 28);
-                int18 = comp(1253, 27);
+                int15 = 82116633;
+                int16 = 82116634;
+                int17 = 82116636;
+                int18 = 82116635;
                 string0 = struct_getparam(int2, 8581);
                 int19 = struct_getparam(int2, 7993);
                 int20 = struct_getparam(int2, 8615);
@@ -149,10 +150,10 @@ function script7780(): void {
                 break;
             }
             case 4: {
-                int15 = comp(1253, 15);
-                int16 = comp(1253, 16);
-                int17 = comp(1253, 18);
-                int18 = comp(1253, 17);
+                int15 = 82116623;
+                int16 = 82116624;
+                int17 = 82116626;
+                int18 = 82116625;
                 string0 = struct_getparam(int2, 8584);
                 int19 = struct_getparam(int2, 7997);
                 int20 = struct_getparam(int2, 8619);
@@ -170,10 +171,10 @@ function script7780(): void {
                 break;
             }
             case 5: {
-                int15 = comp(1253, 10);
-                int16 = comp(1253, 11);
-                int17 = comp(1253, 13);
-                int18 = comp(1253, 12);
+                int15 = 82116618;
+                int16 = 82116619;
+                int17 = 82116621;
+                int18 = 82116620;
                 string0 = struct_getparam(int2, 8587);
                 int19 = struct_getparam(int2, 8001);
                 int20 = struct_getparam(int2, 8623);
@@ -192,15 +193,27 @@ function script7780(): void {
             }
         };
         IF_SETHIDE(false, int15);
-        if ((int19 != -1 as model)) {
+        if ((int19 != -1)) {
             IF_SETMODEL(int19, int16);
         };
-        if (((((int20 != -1) && (int21 != -1)) && (int22 != -1)) && (int23 != -1))) {
-            IF_SETMODELANGLE(0, 0, int21, int22, int23, int20, int16);
+        if ((int20 != -1)) {
+            if ((int21 != -1)) {
+                if ((int22 != -1)) {
+                    if ((int23 != -1)) {
+                        IF_SETMODELANGLE(0, 0, int21, int22, int23, int20, int16);
+                    } else if ((int20 != -1)) {
+                        IF_SETMODELZOOM(int20, int16);
+                    };
+                } else if ((int20 != -1)) {
+                    IF_SETMODELZOOM(int20, int16);
+                };
+            } else if ((int20 != -1)) {
+                IF_SETMODELZOOM(int20, int16);
+            };
         } else if ((int20 != -1)) {
             IF_SETMODELZOOM(int20, int16);
         };
-        if (((int24 != -1 as material) && (int25 != -1 as material))) {
+        if (((int24 != -1) && (int25 != -1))) {
             IF_SETRETEX(0, int24, int25, int16);
         };
         if (((int26 != -1) && (int27 != -1))) {

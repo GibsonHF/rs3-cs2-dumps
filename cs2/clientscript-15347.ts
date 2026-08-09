@@ -7,7 +7,7 @@ function script15347(int0: number, int1: number, int2: number, int3: number, int
     var int6 = 0;
     var int7 = 0;
     var int8 = ACHIEVEMENT_FINDNEXT();
-    while ((int8 != -1 as achievement)) {
+    while ((int8 != -1)) {
         int6 = ACHIEVEMENT_REQSTATE(int8);
         if ((int6 == -2)) {
             int5 = (int5 + 1);
@@ -17,7 +17,7 @@ function script15347(int0: number, int1: number, int2: number, int3: number, int
         int8 = ACHIEVEMENT_FINDNEXT();
     };
     var string0 = enum_getvalue(41, 36, 16073 as cs2enum, int2);
-    var int9 = enum_getvalue(41, 23, 16074 as cs2enum, int2);
+    var int9 = enum_getvalue(41, 23, 16074, int2);
     var int10 = IF_GETWIDTH(int0);
     CC_CREATE(int0, 5, IF_GETNEXTSUBID(int0));
     CC_SETSIZE(int10, 45, 0, 0);
@@ -25,7 +25,7 @@ function script15347(int0: number, int1: number, int2: number, int3: number, int
     cc_setparam(7162, int3);
     CC_SETGRAPHIC(-1 as graphic);
     var int11 = ENUM_GETOUTPUTCOUNT(16072 as cs2enum);
-    if ((int2 != -1 as category)) {
+    if ((int2 != -1)) {
         int11 = enum_getreverseindex(41, 0, 16072 as cs2enum, int2, 0);
     };
     var int12 = 28556;

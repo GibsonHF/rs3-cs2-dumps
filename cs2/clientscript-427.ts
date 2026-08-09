@@ -15,26 +15,26 @@ function script427(): void {
     };
     var int7 = 0;
     var int8 = comp(-1, 65535);
-    var int9 = comp(-1, 65535);
-    var int10 = comp(-1, 65535);
-    var int11 = comp(-1, 65535);
+    var int9 = -1;
+    var int10 = -1;
+    var int11 = -1;
     var int12 = 0;
     while ((int12 < 4)) {
         switch (int12) {
             case 1: {
-                [int7, int8, int9, int10, int11] = [int4, comp(1024, 10), comp(1024, 32), comp(1024, 34), comp(1024, 33)];
+                [int7, int8, int9, int10, int11] = [int4, comp(1024, 10), 67108896, 67108898, 67108897];
                 break;
             }
             case 2: {
-                [int7, int8, int9, int10, int11] = [int5, comp(1024, 12), comp(1024, 25), comp(1024, 27), comp(1024, 26)];
+                [int7, int8, int9, int10, int11] = [int5, comp(1024, 12), 67108889, 67108891, 67108890];
                 break;
             }
             case 3: {
-                [int7, int8, int9, int10, int11] = [int6, comp(1024, 14), comp(1024, 18), comp(1024, 20), comp(1024, 19)];
+                [int7, int8, int9, int10, int11] = [int6, comp(1024, 14), 67108882, 67108884, 67108883];
                 break;
             }
             default: {
-                [int7, int8, int9, int10, int11] = [int3, comp(1024, 8), comp(1024, 39), comp(1024, 41), comp(1024, 40)];
+                [int7, int8, int9, int10, int11] = [int3, comp(1024, 8), 67108903, 67108905, 67108904];
                 break;
             }
         };
@@ -124,12 +124,12 @@ function script427(): void {
         IF_SETHIDE(true, comp(1024, 4));
         IF_SETPOSITION(0, 0, 1, 0, comp(1024, 8));
         IF_SETONMOUSEREPEAT(callback(script432, -2147483645), comp(1024, 8));
-        IF_SETPOSITION(0, 45, 1, 0, 67108874);
-        IF_SETONMOUSEREPEAT(callback(script432, -2147483645), 67108874);
-        IF_SETPOSITION(0, 90, 1, 0, 67108876);
-        IF_SETONMOUSEREPEAT(callback(script432, -2147483645), 67108876);
-        IF_SETPOSITION(0, 135, 1, 0, 67108878);
-        IF_SETONMOUSEREPEAT(callback(script432, -2147483645), 67108878);
+        IF_SETPOSITION(0, 45, 1, 0, comp(1024, 10));
+        IF_SETONMOUSEREPEAT(callback(script432, -2147483645), comp(1024, 10));
+        IF_SETPOSITION(0, 90, 1, 0, comp(1024, 12));
+        IF_SETONMOUSEREPEAT(callback(script432, -2147483645), comp(1024, 12));
+        IF_SETPOSITION(0, 135, 1, 0, comp(1024, 14));
+        IF_SETONMOUSEREPEAT(callback(script432, -2147483645), comp(1024, 14));
     };
     return;
 }

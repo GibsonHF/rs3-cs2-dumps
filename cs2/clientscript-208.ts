@@ -9,8 +9,7 @@ function script208(): number {
     var int4 = 0;
     var string2 = "";
     if ((int1 != -1)) {
-        stack(WORLDLIST_SPECIFIC(int1));
-        [int0, string0, int2, string1, int3, int4, string2] = stack();
+        [int0, string0, int2, string1, int3, int4, string2] = WORLDLIST_SPECIFIC(int1);
         if ((TESTBIT(int0, 5) == 1)) {
             return 1;
         };

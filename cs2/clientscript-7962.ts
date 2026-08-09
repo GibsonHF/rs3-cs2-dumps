@@ -1,8 +1,8 @@
 //
 function script7962(): void {
-    var int0 = comp(-1, 65535);
-    var int1 = comp(-1, 65535);
-    var int2 = comp(-1, 65535);
+    var int0 = -1;
+    var int1 = -1;
+    var int2 = -1;
     IF_SETHIDE(true, comp(1490, 38));
     IF_SETHIDE(true, comp(1490, 41));
     IF_SETHIDE(true, comp(1490, 44));
@@ -47,8 +47,8 @@ function script7962(): void {
     var string0 = "";
     var string1 = "";
     var int8 = 0;
-    var int9 = -1 as obj;
-    var int10 = -1 as graphic;
+    var int9 = -1;
+    var int10 = -1;
     var int11 = 0;
     var int12 = 0;
     while ((int11 == 0)) {
@@ -1219,11 +1219,7 @@ function script7962(): void {
                 break;
             }
             case 146: {
-                stack(0);
-                stack(varbitplayer_49448);
-                stack(44912);
-                stack("Increases the target's damage received from critical strikes by <col=ffffff>15%</col>.<br>- The damage cap against the target when landing a critical strike is increased by <col=ffffff>12%</col>.<br>- <col=ffffff>120s</col> duration.");
-                [int7, int4, int5, string1] = stack();
+                [int7, int4, int5, string1] = [0, varbitplayer_49448, 44912, "Increases the target's damage received from critical strikes by <col=ffffff>15%</col>.<br>- The damage cap against the target when landing a critical strike is increased by <col=ffffff>12%</col>.<br>- <col=ffffff>120s</col> duration."];
                 break;
             }
             case 147: {
@@ -1405,11 +1401,7 @@ function script7962(): void {
                 break;
             }
             case 178: {
-                stack(0);
-                stack(varbitplayer_53248);
-                stack(48346);
-                stack("Increases the target's damage received by 15%.");
-                [int7, int4, int5, string1] = stack();
+                [int7, int4, int5, string1] = [0, varbitplayer_53248, 48346, "Increases the target's damage received by 15%."];
                 break;
             }
             case 179: {
@@ -1551,8 +1543,12 @@ function script7962(): void {
             string0 = struct_getparam(int5, 2794);
             if ((strcmp(string1, "") != 0)) {
                 string0 = strconcat(string0, `<br>${string1}`);
-            } else if (((varbitplayer_27168 == 1) && (strcmp(struct_getparam(int5, 7998), "") != 0))) {
-                string0 = strconcat(string0, `<br>${struct_getparam(int5, 7998)}`);
+            } else if ((varbitplayer_27168 == 1)) {
+                if ((strcmp(struct_getparam(int5, 7998), "") != 0)) {
+                    string0 = strconcat(string0, `<br>${struct_getparam(int5, 7998)}`);
+                } else if ((strcmp(struct_getparam(int5, 2795), "") != 0)) {
+                    string0 = strconcat(string0, `<br>${struct_getparam(int5, 2795)}`);
+                };
             } else if ((strcmp(struct_getparam(int5, 2795), "") != 0)) {
                 string0 = strconcat(string0, `<br>${struct_getparam(int5, 2795)}`);
             };
@@ -1640,7 +1636,8 @@ function script7962(): void {
             } else {
                 IF_SETCOLOUR(13369344, int2);
             };
-            if ((++int6 >= 12)) {
+            int6 = (int6 + 1);
+            if ((int6 >= 12)) {
                 int11 = 1;
             };
         };

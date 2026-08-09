@@ -13,12 +13,12 @@ function script687(int0: number, int1: number, int2: number, int3: number, int4:
         CC_SETTRANS(150);
     };
     IF_SETTEXT(enum_getvalue(0, 36, 1099 as cs2enum, int0), int7);
-    var int10 = enum_getvalue(0, 32, 1098 as cs2enum, int0);
+    var int10 = enum_getvalue(0, 32, 1098, int0);
     var int11 = 0;
     var int12 = 0;
-    var string0 = enum_getvalue(0, 36, 1100 as cs2enum, int0);
+    var string0 = enum_getvalue(0, 36, 1100, int0);
     var string1 = "";
-    if ((int10 != -1 as npc)) {
+    if ((int10 != -1)) {
         int9 = npc_getparam(int10, 356);
         int11 = (int9 / 100);
         int12 = SCALE(MODULO(int9, 100), 100, 60);
@@ -63,7 +63,7 @@ function script687(int0: number, int1: number, int2: number, int3: number, int4:
     };
     IF_SETTEXT(string0, int8);
     var int13 = script17401();
-    int9 = enum_getvalue(0, 0, 1101 as cs2enum, int0);
+    int9 = enum_getvalue(0, 0, 1101, int0);
     if ((int9 < 0)) {
         IF_SETTEXT("<col=ff0000>Unavailable</col>", int5);
         return;
@@ -103,7 +103,7 @@ function script687(int0: number, int1: number, int2: number, int3: number, int4:
         CC_SETSIZE(IF_GETWIDTH(int3), IF_GETHEIGHT(int3), 0, 0);
         if ((int9 == int0)) {
             CC_SETOP(1, "Confirm:");
-            CC_SETOPBASE(`<col=ff9040>${enum_getvalue(0, 36, 1099 as cs2enum, int0)}</col>`);
+            CC_SETOPBASE(`<col=ff9040>${enum_getvalue(0, 36, 1099, int0)}</col>`);
         } else {
             CC_SETHIDE(true);
         };
@@ -112,7 +112,7 @@ function script687(int0: number, int1: number, int2: number, int3: number, int4:
         CC_SETSIZE(IF_GETWIDTH(int3), IF_GETHEIGHT(int3), 0, 0);
         if ((int9 == int0)) {
             CC_SETOP(1, "Confirm:");
-            CC_SETOPBASE(`<col=ff9040>${enum_getvalue(0, 36, 1099 as cs2enum, int0)}</col>`);
+            CC_SETOPBASE(`<col=ff9040>${enum_getvalue(0, 36, 1099, int0)}</col>`);
         } else {
             CC_SETHIDE(true);
         };

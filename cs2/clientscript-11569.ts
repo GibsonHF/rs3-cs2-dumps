@@ -16,6 +16,7 @@ function script11569(int0: number, int1: number): number {
                     return varbitplayer_50449;
                 }
                 case 11: {
+                    break;
                 }
                 default: {
                     script12478(`Invalid month ${inttostring(int1, 10)} for year ${inttostring(int0, 10)} selected.`);
@@ -60,6 +61,7 @@ function script11569(int0: number, int1: number): number {
                     return varbitplayer_50461;
                 }
                 case 11: {
+                    break;
                 }
                 default: {
                     script12478(`Invalid month ${inttostring(int1, 10)} for year ${inttostring(int0, 10)} selected.`);
@@ -104,6 +106,7 @@ function script11569(int0: number, int1: number): number {
                     return varbitplayer_50473;
                 }
                 case 11: {
+                    break;
                 }
                 default: {
                     script12478(`Invalid month ${inttostring(int1, 10)} for year ${inttostring(int0, 10)} selected.`);
@@ -148,6 +151,7 @@ function script11569(int0: number, int1: number): number {
                     return varbitplayer_50485;
                 }
                 case 11: {
+                    break;
                 }
                 default: {
                     script12478(`Invalid month ${inttostring(int1, 10)} for year ${inttostring(int0, 10)} selected.`);
@@ -192,6 +196,7 @@ function script11569(int0: number, int1: number): number {
                     return varbitplayer_50497;
                 }
                 case 11: {
+                    break;
                 }
                 default: {
                     script12478(`Invalid month ${inttostring(int1, 10)} for year ${inttostring(int0, 10)} selected.`);
@@ -236,6 +241,7 @@ function script11569(int0: number, int1: number): number {
                     return varbitplayer_50509;
                 }
                 case 11: {
+                    break;
                 }
                 default: {
                     script12478(`Invalid month ${inttostring(int1, 10)} for year ${inttostring(int0, 10)} selected.`);
@@ -280,6 +286,7 @@ function script11569(int0: number, int1: number): number {
                     return varbitplayer_50521;
                 }
                 case 11: {
+                    break;
                 }
                 default: {
                     script12478(`Invalid month ${inttostring(int1, 10)} for year ${inttostring(int0, 10)} selected.`);
@@ -324,6 +331,7 @@ function script11569(int0: number, int1: number): number {
                     return varbitplayer_55342;
                 }
                 case 11: {
+                    break;
                 }
                 default: {
                     script12478(`Invalid month ${inttostring(int1, 10)} for year ${inttostring(int0, 10)} selected.`);
@@ -368,6 +376,7 @@ function script11569(int0: number, int1: number): number {
                     return varbitplayer_56769;
                 }
                 case 11: {
+                    break;
                 }
                 default: {
                     script12478(`Invalid month ${inttostring(int1, 10)} for year ${inttostring(int0, 10)} selected.`);

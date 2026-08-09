@@ -12,14 +12,14 @@ function script1376(int0: number, int1: number, int2: number): void {
         IF_SETOP(1, "Hide key", comp(1422, 84));
         IF_SETSIZE((int3 + IF_GETWIDTH(comp(1422, 39))), IF_GETHEIGHT(comp(1422, 78)), 1, 1, int1);
         string0 = "Hide key";
-        IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -1), 93192276);
+        IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -1), comp(1422, 84));
     } else {
         IF_SETHIDE(true, comp(1422, 39));
         varbitclient_21369 = 1;
         IF_SETOP(1, "Show key", comp(1422, 84));
         IF_SETSIZE(0, IF_GETHEIGHT(comp(1422, 78)), 1, 1, int1);
         string0 = "Show key";
-        IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -1), 93192276);
+        IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -1), comp(1422, 84));
     };
     script2046(int1);
     IF_SETONOP(callback(script1375, int1, int2), comp(1422, 84));

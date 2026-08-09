@@ -25,6 +25,6 @@ function script8916(int0: number, int1: number, int2: number, int3: number): voi
         script9318(1);
         return;
     };
-    IF_SETONTIMER(callback(script8916, int0, int2, MIN((int2 + 5), int3), int3), 33882149);
+    IF_SETONTIMER(callback(script8916, int0, int2, MIN((int2 + 5), int3), int3), comp(517, 37));
     return;
 }

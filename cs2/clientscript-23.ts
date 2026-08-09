@@ -6,8 +6,12 @@ function script23(int0: number, int1: number, int2: number): [number, number] {
         var int2 = script24(int1, int0);
     } else {
         while ((int0 > (int1 * int2))) {
-            if (((int1 < int3) && ((int2 + 1) == int1))) {
-                int1 = (int1 + 1);
+            if ((int1 < int3)) {
+                if (((int2 + 1) == int1)) {
+                    int1 = (int1 + 1);
+                } else {
+                    int2 = (int2 + 1);
+                };
             } else {
                 int2 = (int2 + 1);
             };

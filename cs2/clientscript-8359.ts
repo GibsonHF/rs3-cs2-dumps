@@ -21,18 +21,26 @@ function script8359(int0: number, int1: number, int2: number): void {
     var int9 = (int2 * struct_getparam(int7, 3578));
     var int10 = (int9 + struct_getparam(int7, 3578));
     var int11 = IF_GETSCROLLX(int5);
-    if (((int8 > (IF_GETWIDTH(int6) - (2 * struct_getparam(int7, 3583)))) && (varbitplayer_38842 == 0))) {
-        IF_SETHIDE(false, int4);
-        IF_SETPOSITION((IF_GETX(int4) + struct_getparam(int7, 3581)), IF_GETY(int5), 0, 0, int5);
-        IF_SETSIZE(((2 * struct_getparam(int7, 3581)) + (2 * IF_GETX(int4))), IF_GETHEIGHT(int5), 1, 0, int5);
-        if ((int9 < int11)) {
-            int11 = int9;
-        } else if ((int10 > (int11 + IF_GETWIDTH(int5)))) {
-            int11 = (int10 - IF_GETWIDTH(int5));
+    if ((int8 > (IF_GETWIDTH(int6) - (2 * struct_getparam(int7, 3583))))) {
+        if ((varbitplayer_38842 == 0)) {
+            IF_SETHIDE(false, int4);
+            IF_SETPOSITION((IF_GETX(int4) + struct_getparam(int7, 3581)), IF_GETY(int5), 0, 0, int5);
+            IF_SETSIZE(((2 * struct_getparam(int7, 3581)) + (2 * IF_GETX(int4))), IF_GETHEIGHT(int5), 1, 0, int5);
+            if ((int9 < int11)) {
+                int11 = int9;
+            } else if ((int10 > (int11 + IF_GETWIDTH(int5)))) {
+                int11 = (int10 - IF_GETWIDTH(int5));
+            };
+            IF_SETSCROLLSIZE(int8, IF_GETHEIGHT(int5), int5);
+            IF_SETSCROLLPOS(int11, 0, int5);
+            script1846(int0);
+        } else {
+            IF_SETHIDE(true, int4);
+            IF_SETPOSITION(struct_getparam(int7, 3583), IF_GETY(int5), 0, 0, int5);
+            IF_SETSIZE((2 * struct_getparam(int7, 3583)), IF_GETHEIGHT(int5), 1, 0, int5);
+            IF_SETSCROLLSIZE(0, 0, int5);
+            IF_SETSCROLLPOS(0, 0, int5);
         };
-        IF_SETSCROLLSIZE(int8, IF_GETHEIGHT(int5), int5);
-        IF_SETSCROLLPOS(int11, 0, int5);
-        script1846(int0);
     } else {
         IF_SETHIDE(true, int4);
         IF_SETPOSITION(struct_getparam(int7, 3583), IF_GETY(int5), 0, 0, int5);

@@ -42,9 +42,9 @@ function script8938(int0: number, int1: number, int2: number): void {
     CC_SETONDRAG(callback(script35, int0, int1, -2147483646, 0));
     CC_SETONDRAGCOMPLETE(callback(script35, int0, int1, -2147483646, 1));
     CC_CREATE(int0, 5, 2);
-    CC_SETHIDE(1);
+    CC_SETHIDE(true);
     CC_CREATE(int0, 5, 3);
-    CC_SETHIDE(1);
+    CC_SETHIDE(true);
     CC_CREATE(int0, 3, 4);
     CC_SETCOLOUR(4962777);
     CC_SETFILL(1);

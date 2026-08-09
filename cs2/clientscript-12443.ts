@@ -60,8 +60,8 @@ function script12443(int0: number): void {
             };
             if ((int3 != 0)) {
                 CAM2_GETPOSITIONPOINT_POINT();
-                MOVECOORD_FINE(stack(), 0, 0, int3, 0);
-                CAM2_SETPOSITIONPOINT_POINT(stack());
+                MOVECOORD_FINE(0, 0, int3, 0);
+                CAM2_SETPOSITIONPOINT_POINT();
             };
         };
         if ((int4 != 0)) {

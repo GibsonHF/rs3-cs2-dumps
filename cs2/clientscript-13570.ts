@@ -19,7 +19,8 @@ function script13570(int0: number): number {
         if ((script14717(int0, int1, int2) == 0)) {
             return 0;
         };
-        switch (++int3) {
+        int3 = (int3 + 1);
+        switch (int3) {
             case 2: {
                 int1 = item_getparam(int0, 6571);
                 int2 = item_getparam(int0, 6574);

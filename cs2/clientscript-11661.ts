@@ -144,7 +144,7 @@ function script11661(int0: number, int1: number): void {
                 CC_SETPOSITION(0, 0, 0, 0);
                 CC_SETOP(1, "Select");
                 CC_SETONOP(callback(script11660, 1, 2));
-                IF_SETHIDE(0, 102367245);
+                IF_SETHIDE(false, comp(1562, 13));
             };
             break;
         }

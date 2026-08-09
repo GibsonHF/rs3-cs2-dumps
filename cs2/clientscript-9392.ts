@@ -10,7 +10,7 @@ function script9392(int0: number, int1: number, string0: string): number {
     } else {
         while ((STRING_LENGTH(string0) > 0)) {
             string1 = SUBSTRING(string0, 0, int3);
-            var [int2, int1] = script9393(int0, int2, int1, string1);
+            [int2, int1] = script9393(int0, int2, int1, string1);
             if ((int3 == STRING_LENGTH(string0))) {
                 var string0 = "";
             } else {

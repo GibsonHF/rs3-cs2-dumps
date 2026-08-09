@@ -10,9 +10,13 @@ function script14329(int0: number, int1: number, int2: number): void {
         }
         case 92274706: {
             int3 = varbitplayer_18340;
-            if (((int3 > 1) && (varbitplayer_18338 >= 1000))) {
-                int4 = 28084;
-                int3 = 1;
+            if ((int3 > 1)) {
+                if ((varbitplayer_18338 >= 1000)) {
+                    int4 = 28084;
+                    int3 = 1;
+                } else {
+                    int4 = 19808;
+                };
             } else {
                 int4 = 19808;
             };

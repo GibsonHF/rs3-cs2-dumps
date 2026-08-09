@@ -32,11 +32,15 @@ function script12536(int0: number, int1: number, int2: number): void {
             break;
         }
     };
-    if (((STAT(26 as stat) >= int9) && (int6 > 0))) {
-        if ((script5929(int4, int5) == 0)) {
-            int7 = 1;
+    if ((STAT(26 as stat) >= int9)) {
+        if ((int6 > 0)) {
+            if ((script5929(int4, int5) == 0)) {
+                int7 = 1;
+            } else {
+                int7 = 2;
+            };
         } else {
-            int7 = 2;
+            int7 = 0;
         };
     } else {
         int7 = 0;

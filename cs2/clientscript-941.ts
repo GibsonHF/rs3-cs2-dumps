@@ -20,21 +20,33 @@ function script941(int0: number): void {
     varclient_2598 = 0;
     varclient_2599 = 0;
     varclient_2600 = 0;
-    if (((((varbitplayer_16863 >= 70) && (varbitplayer_16863 < 100)) && (INV_TOTAL(93 as inv, 26114 as obj) > 0)) && (INV_TOTAL(93 as inv, 26114 as obj) > 0))) {
-        IF_SETHIDE(false, comp(193, 154));
-        switch (MAP_LANG()) {
-            case 1: {
-                IF_SETGRAPHIC(15348 as graphic, comp(193, 157));
-                break;
-            }
-            case 2: {
-                IF_SETGRAPHIC(15349 as graphic, comp(193, 157));
-                break;
-            }
-            default: {
-                IF_SETGRAPHIC(15345 as graphic, comp(193, 157));
-                break;
-            }
+    if ((varbitplayer_16863 >= 70)) {
+        if ((varbitplayer_16863 < 100)) {
+            if ((INV_TOTAL(93 as inv, 26114 as obj) > 0)) {
+                if ((INV_TOTAL(93 as inv, 26114 as obj) > 0)) {
+                    IF_SETHIDE(false, comp(193, 154));
+                    switch (MAP_LANG()) {
+                        case 1: {
+                            IF_SETGRAPHIC(15348 as graphic, comp(193, 157));
+                            break;
+                        }
+                        case 2: {
+                            IF_SETGRAPHIC(15349 as graphic, comp(193, 157));
+                            break;
+                        }
+                        default: {
+                            IF_SETGRAPHIC(15345 as graphic, comp(193, 157));
+                            break;
+                        }
+                    };
+                } else {
+                    IF_SETHIDE(true, comp(193, 154));
+                };
+            } else {
+                IF_SETHIDE(true, comp(193, 154));
+            };
+        } else {
+            IF_SETHIDE(true, comp(193, 154));
         };
     } else {
         IF_SETHIDE(true, comp(193, 154));

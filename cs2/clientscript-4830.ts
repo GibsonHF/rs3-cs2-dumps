@@ -61,17 +61,25 @@ function script4830(int0: number): number {
                 if (((int9 > 0) && (int9 <= ENUM_GETOUTPUTCOUNT(int3)))) {
                     if ((varbitclan_6507 >= struct_getparam(enum_getvalue(0, 73, int3, int9), 1567))) {
                         if ((int4 == -1 as cs2enum)) {
-                        } else if (((int10 > 0) && (int10 <= ENUM_GETOUTPUTCOUNT(int4)))) {
-                            if ((varbitclan_6507 < struct_getparam(enum_getvalue(0, 73, int4, int10), 1567))) {
-                                return 2;
+                        } else if ((int10 > 0)) {
+                            if ((int10 <= ENUM_GETOUTPUTCOUNT(int4))) {
+                                if ((varbitclan_6507 < struct_getparam(enum_getvalue(0, 73, int4, int10), 1567))) {
+                                    return 2;
+                                };
+                            } else {
+                                return 3;
                             };
                         } else {
                             return 3;
                         };
                         if ((int5 == -1 as cs2enum)) {
-                        } else if (((int11 > 0) && (int11 <= ENUM_GETOUTPUTCOUNT(int5)))) {
-                            if ((varbitclan_6507 < struct_getparam(enum_getvalue(0, 73, int5, int11), 1567))) {
-                                return 2;
+                        } else if ((int11 > 0)) {
+                            if ((int11 <= ENUM_GETOUTPUTCOUNT(int5))) {
+                                if ((varbitclan_6507 < struct_getparam(enum_getvalue(0, 73, int5, int11), 1567))) {
+                                    return 2;
+                                };
+                            } else {
+                                return 3;
                             };
                         } else {
                             return 3;

@@ -9,7 +9,8 @@ function script17538(int0: number): [number, string] {
     };
     var int3 = -1;
     var int4 = -1;
-    while ((++int3 < int2)) {
+    int3 = (int3 + 1);
+    while ((int3 < int2)) {
         int4 = script17509(int0, int3);
         if ((script2193(int4) != 2)) {
             string1 = script2103(int4);

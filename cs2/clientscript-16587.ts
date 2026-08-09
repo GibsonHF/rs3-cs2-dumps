@@ -9,6 +9,6 @@ function script16587(): void {
         script14093(33882248, -1, 1, 0, 0, 1, 20, 2);
         string0 = "More Storage";
     };
-    IF_SETONMOUSEREPEAT(callback(script8799, string0, 33882261, -1), 33882261);
+    IF_SETONMOUSEREPEAT(callback(script8799, string0, 33882261, -1), comp(517, 149));
     return;
 }

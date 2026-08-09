@@ -17,7 +17,14 @@ function script4499(): number {
     } else {
         varbitclient_40723 = (varbitclient_40723 - 1);
     };
-    if ((((varbitclient_40723 < int4) && (varbitclient_40724 == int5)) || (varbitclient_40724 < int5))) {
+    if ((varbitclient_40723 < int4)) {
+        if (((varbitclient_40724 == int5) || (varbitclient_40724 < int5))) {
+            printmessage("You cannot go back any further than this.");
+            varbitclient_40723 = int4;
+            varbitclient_40724 = int5;
+            int0 = 0;
+        };
+    } else if ((varbitclient_40724 < int5)) {
         printmessage("You cannot go back any further than this.");
         varbitclient_40723 = int4;
         varbitclient_40724 = int5;

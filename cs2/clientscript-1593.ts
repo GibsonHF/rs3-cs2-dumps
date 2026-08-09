@@ -79,16 +79,42 @@ function script1593(int0: number, int1: number): void {
                 } else {
                     int21 = enum_getvalue(0, 23, 1810 as cs2enum, int23);
                 };
-            } else if (((int20 >= 300) && (int20 < 600))) {
-                string3 = inttostring(int20, 10);
-                string4 = `Old School ${inttostring(int20, 10)}`;
-                int19 = ((2 + 24) + 2);
-                int21 = 131 as graphic;
-            } else if (((int20 >= 1100) && (int20 <= 1200))) {
-                string3 = "Lobby";
-                int19 = 0;
-                string4 = "Lobby";
-                int21 = -1 as graphic;
+            } else if ((int20 >= 300)) {
+                if ((int20 < 600)) {
+                    string3 = inttostring(int20, 10);
+                    string4 = `Old School ${inttostring(int20, 10)}`;
+                    int19 = ((2 + 24) + 2);
+                    int21 = 131 as graphic;
+                } else if ((int20 >= 1100)) {
+                    if ((int20 <= 1200)) {
+                        string3 = "Lobby";
+                        int19 = 0;
+                        string4 = "Lobby";
+                        int21 = -1 as graphic;
+                    } else {
+                        string3 = inttostring(int20, 10);
+                        int19 = 0;
+                        string4 = `World ${inttostring(int20, 10)}`;
+                        int21 = -1 as graphic;
+                    };
+                } else {
+                    string3 = inttostring(int20, 10);
+                    int19 = 0;
+                    string4 = `World ${inttostring(int20, 10)}`;
+                    int21 = -1 as graphic;
+                };
+            } else if ((int20 >= 1100)) {
+                if ((int20 <= 1200)) {
+                    string3 = "Lobby";
+                    int19 = 0;
+                    string4 = "Lobby";
+                    int21 = -1 as graphic;
+                } else {
+                    string3 = inttostring(int20, 10);
+                    int19 = 0;
+                    string4 = `World ${inttostring(int20, 10)}`;
+                    int21 = -1 as graphic;
+                };
             } else {
                 string3 = inttostring(int20, 10);
                 int19 = 0;
@@ -110,7 +136,7 @@ function script1593(int0: number, int1: number): void {
                 CC_SETLINKFRIENDCHAT(int13);
                 CC_SETTEXT(string1);
                 script1595(int13, string1, string2);
-                CC_SETHIDE(0);
+                CC_SETHIDE(false);
             };
             IF_SETSIZE(int16, 0, 0, 1, int6);
             IF_SETSIZE(int16, 0, 0, 1, int7);
@@ -125,7 +151,7 @@ function script1593(int0: number, int1: number): void {
                 } else {
                     CC_SETGRAPHIC(int21);
                     CC_SETONMOUSEREPEAT(callback(script3127, string4, -2147483645, -2147483643, int1, int6));
-                    CC_SETHIDE(0);
+                    CC_SETHIDE(false);
                 };
             };
             if ((CC_FIND(int7, int13) == 1)) {
@@ -145,7 +171,7 @@ function script1593(int0: number, int1: number): void {
                 string3 = `Rank: ${enum_getvalue(0, 36, 5853 as cs2enum, int26)}`;
                 CC_SETGRAPHIC(script1599(int26));
                 CC_SETONMOUSEREPEAT(callback(script8799, string3, -2147483645, -2147483643));
-                CC_SETHIDE(0);
+                CC_SETHIDE(false);
             };
             int13 = (int13 + 1);
         };
@@ -172,10 +198,10 @@ function script1593(int0: number, int1: number): void {
         IF_SETONRESIZE(callback(script2397, CLAN_GETCHATDISPLAYNAME(), CLAN_GETCHATOWNERNAME(), int1, -2147483645), int11);
         IF_CALLONRESIZE(int11);
         IF_SETOP(1, "Leave chat", script8049(int1, 72679437));
-        IF_SETGRAPHIC(6255, script8049(int1, 72679464));
+        IF_SETGRAPHIC(6255 as graphic, script8049(int1, 72679464));
         string4 = "Leave the Friends chat channel";
         IF_SETONMOUSEREPEAT(callback(script8799, string4, -2147483645, -2147483643), script8049(int1, 72679437));
-        IF_SETHIDE(0, int2);
+        IF_SETHIDE(false, int2);
         if ((int25 > IF_GETHEIGHT(int9))) {
             IF_SETHIDE(false, script8049(int1, 72679446));
             IF_SETSCROLLSIZE(IF_GETWIDTH(int9), int25, int9);
@@ -215,9 +241,9 @@ function script1593(int0: number, int1: number): void {
         IF_SETONRESIZE(callback(script2397, string0, string1, int1, -2147483645), int11);
         IF_CALLONRESIZE(int11);
         IF_SETOP(1, "Join chat", script8049(int1, 72679437));
-        IF_SETGRAPHIC(6256, script8049(int1, 72679464));
+        IF_SETGRAPHIC(6256 as graphic, script8049(int1, 72679464));
         IF_SETONMOUSEREPEAT(callback(script8799, string4, -2147483645, -2147483643), script8049(int1, 72679437));
-        IF_SETHIDE(1, int2);
+        IF_SETHIDE(true, int2);
         IF_CLEAROPS(int2);
         IF_SETONMOUSEREPEAT(callback(), script8049(int1, 72679443));
     };

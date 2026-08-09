@@ -16,14 +16,14 @@ function script6995(int0: number, int1: number, int2: number, int3: number, int4
     var int13 = 0;
     var int14 = 0;
     var int15 = 0;
-    var int16 = -1 as obj;
-    var int17 = -1 as cs2enum;
-    var int18 = -1 as graphic;
+    var int16 = -1;
+    var int17 = -1;
+    var int18 = -1;
     var string0 = "";
     var string1 = "Activate";
     var string2 = "";
-    var int19 = -1 as struct;
-    var int20 = -1 as struct;
+    var int19 = -1;
+    var int20 = -1;
     var int21 = 0;
     var int22 = 0;
     var int23 = 1;
@@ -39,7 +39,7 @@ function script6995(int0: number, int1: number, int2: number, int3: number, int4
     var int33 = script7979(int0, int1);
     var int34 = script7976(int0, int1);
     IF_SETHIDE(true, int30);
-    var int35 = -1 as obj;
+    var int35 = -1;
     var int36 = -1;
     var int37 = -1;
     var int38 = -1;
@@ -94,7 +94,7 @@ function script6995(int0: number, int1: number, int2: number, int3: number, int4
         if ((int7 != 0)) {
             int23 = 0;
         };
-        if ((int16 != -1 as obj)) {
+        if ((int16 != -1)) {
             int23 = 0;
         };
     };
@@ -155,7 +155,7 @@ function script6995(int0: number, int1: number, int2: number, int3: number, int4
             cc_setparam(5313, 0);
             cc_setparam(5314, 0);
             script7968(int32, 0);
-        } else if ((int16 != -1 as obj)) {
+        } else if ((int16 != -1)) {
             CC_CLEARSCRIPTHOOKS();
             CC_CLEAROPS();
             CC_SETTARGETVERB("");
@@ -184,499 +184,492 @@ function script6995(int0: number, int1: number, int2: number, int3: number, int4
             IF_SETONVARTRANSMIT(callback(), int31);
             IF_SETTRANS(255, int31);
             IF_SETONTIMER(callback(), int31);
-        } else if (((int7 > 0) && ((((int8 > 0) || (int7 == 9)) || (int7 == 14)) || (int7 == 18)))) {
-            if (((int4 == 0) && (int7 != 14))) {
-                CC_CLEARSCRIPTHOOKS();
-            };
-            CC_CLEAROPS();
-            CC_SETOPBASE("");
-            CC_SETTARGETVERB("");
-            CC_SETCOLOUR(16777215);
-            switch (int7) {
-                case 1: {
-                    int17 = 10147 as cs2enum;
-                    int41 = 1;
-                    break;
-                }
-                case 5: {
-                    int17 = 6738 as cs2enum;
-                    int41 = 1;
-                    break;
-                }
-                case 17: {
-                    int17 = 16973 as cs2enum;
-                    int41 = 1;
-                    break;
-                }
-                case 3: {
-                    int17 = 6736 as cs2enum;
-                    int41 = 1;
-                    break;
-                }
-                case 4: {
-                    int17 = 6737 as cs2enum;
-                    int41 = 1;
-                    break;
-                }
-                case 7: {
-                    int20 = enum_getvalue(0, 73, 6739 as cs2enum, int8);
-                    int20 = script8247(int20);
-                    int18 = script11778(int20, 1);
-                    string0 = struct_getparam(int20, 2794);
-                    int9 = 30;
-                    int10 = 30;
-                    IF_SETONVARTRANSMIT(callback(script7028, int29, int34, int20, 0, 1028, 3272, 3273, 3275, 5859, 12219, 6), int34);
-                    script7029(int29, int34, int20, 1);
-                    break;
-                }
-                case 6: {
-                    int20 = enum_getvalue(0, 73, 6740 as cs2enum, int8);
-                    int20 = script8247(int20);
-                    int18 = script11778(int20, 1);
-                    string0 = struct_getparam(int20, 2794);
-                    int9 = 30;
-                    int10 = 30;
-                    if ((((int20 == 32942 as struct) || (int20 == 32943 as struct)) || (int20 == 43909 as struct))) {
-                        string1 = "Activate";
-                    } else {
-                        string1 = "Cast";
-                    };
-                    int41 = 1;
-                    break;
-                }
-                case 11: {
-                    int20 = enum_getvalue(0, 73, 13200 as cs2enum, int8);
-                    int20 = script8247(int20);
-                    int18 = script11778(int20, 1);
-                    string0 = struct_getparam(int20, 2794);
-                    if ((int20 == 14875 as struct)) {
-                        int9 = 30;
-                        int10 = 30;
-                    } else {
-                        int9 = 34;
-                        int10 = 34;
-                    };
-                    string1 = "Cast";
-                    break;
-                }
-                case 8: {
-                    int20 = 14722 as struct;
-                    int20 = script8247(int20);
-                    if ((varplayer_463 == 0)) {
-                        int18 = 18819 as graphic;
-                    } else {
-                        int18 = 18818 as graphic;
-                    };
-                    string0 = struct_getparam(int20, 2794);
-                    int9 = 22;
-                    int10 = 28;
-                    break;
-                }
-                case 9: {
-                    int20 = enum_getvalue(0, 73, 3874 as cs2enum, int8);
-                    int20 = script8247(int20);
-                    int18 = struct_getparam(int20, 1420);
-                    string0 = struct_getparam(int20, 1419);
-                    int9 = 30;
-                    int10 = 30;
-                    string1 = "Perform";
-                    break;
-                }
-                case 18: {
-                    int20 = 33966 as struct;
-                    int18 = script18781(int8);
-                    string0 = script18782(int8);
-                    int9 = 30;
-                    int10 = 30;
-                    string1 = "Perform";
-                    break;
-                }
-                case 12: {
-                    int20 = 14723 as struct;
-                    int20 = script8247(int20);
-                    int18 = struct_getparam(int20, 2802);
-                    string0 = struct_getparam(int20, 2794);
-                    int9 = 30;
-                    int10 = 30;
-                    break;
-                }
-                case 13: {
-                    int20 = enum_getvalue(0, 73, 5178 as cs2enum, int8);
-                    int20 = script8247(int20);
-                    int18 = struct_getparam(int20, 2802);
-                    string0 = struct_getparam(int20, 2794);
-                    int9 = 30;
-                    int10 = 30;
-                    break;
-                }
-                case 14: {
-                    int20 = 4106 as struct;
-                    int18 = script8478(94, int8, 0);
-                    string0 = enum_getvalue(0, 36, 974 as cs2enum, int8);
-                    int9 = 36;
-                    int10 = 32;
-                    break;
-                }
-                case 16: {
-                    int20 = 24325 as struct;
-                    if ((varplayer_462 == 1)) {
-                        int18 = 18854 as graphic;
-                    } else {
-                        int18 = 20254 as graphic;
-                    };
-                    string0 = struct_getparam(int20, 2794);
-                    int9 = 30;
-                    int10 = 30;
-                    break;
-                }
-                default: {
-                    return;
-                }
-            };
-            if ((int17 != -1 as cs2enum)) {
-                int20 = enum_getvalue(0, 73, int17, int8);
-                int20 = script8247(int20);
-                if ((int20 == -1 as struct)) {
-                    return;
-                };
-                int21 = script17453(int20);
-                if ((int21 == 1)) {
-                    int18 = script17689(int20, 1);
-                    string1 = "Deactivate";
-                } else {
-                    int18 = script11778(int20, 1);
-                };
-                string0 = struct_getparam(int20, 2794);
-                int9 = 30;
-                int10 = 30;
-            };
-            CC_SETOBJECT(-1 as obj, -1);
-            CC_SETGRAPHIC(int18);
-            cc_setparam(7540, 1);
-            cc_setparam(7544, int20);
-            cc_setparam(3438, int20);
-            if ((int26 == 1)) {
-                CC_SETSIZE(52, 52, 0, 0);
-                CC_SETPOSITION(0, 0, 1, 1);
-                if ((int7 == 12)) {
-                    CC_SETPOSITION(2, 1, 1, 1);
-                };
-            } else if ((int40 == 1)) {
-                CC_SETSIZE(26, 26, 0, 0);
-                CC_SETPOSITION(0, 0, 1, 1);
-            } else {
-                CC_SETSIZE(int9, int10, 0, 0);
-                CC_SETPOSITION(0, 0, 1, 1);
-            };
-            if ((int27 == 1)) {
-                CC_SETSIZE(36, 36, 0, 0);
-                CC_SETPOSITION(0, 0, 1, 1);
-            };
-            if ((struct_getparam(int20, 2875) == 1)) {
-                CC_CLEAROPS();
-                CC_SETTARGETVERB(string1);
-                if ((int24 == 1)) {
-                    CC_SETOP(10, "Customise keybind");
-                    CC_SETONOP(callback(script7023, int0, int1, -2147483645, -2147483644));
-                    script7033();
-                    if (((int3 == 0) && (script792() == 0))) {
-                        script3898(int11, int12, int29, -1);
-                    };
-                };
-                CC_SETONTARGETENTER(callback(script7006, -2147483645));
-                stack(7007);
-                stack(-2147483645);
-                stack("i");
-                CC_SETONTARGETLEAVE();
-                stack(int20);
-                stack(2803);
-                struct_getparam();
-                CC_SETTARGETCURSORS(stack(), 158);
-            } else {
-                if ((int20 == 14724 as struct)) {
-                    CC_CLEAROPS();
+        } else if ((int7 > 0)) {
+            if (((((int8 > 0) || (int7 == 9)) || (int7 == 14)) || (int7 == 18))) {
+                if (((int4 == 0) && (int7 != 14))) {
                     CC_CLEARSCRIPTHOOKS();
-                    script7033();
-                    CC_SETOPTKEY(-1, 0);
-                    if ((int5 != -1)) {
-                        varbitplayer_6068 = int5;
-                        int14 = int5;
-                    } else {
-                        int14 = varbitplayer_6068;
-                    };
-                    if ((varclient_6250 == true)) {
-                        if ((int14 == 2)) {
-                            CC_SETOP(1, enum_getvalue(0, 36, 10304 as cs2enum, 2));
-                        } else if ((int14 >= 3)) {
-                            CC_SETOP(3, enum_getvalue(0, 36, 10304 as cs2enum, 2));
-                        } else {
-                            CC_SETOP(2, enum_getvalue(0, 36, 10304 as cs2enum, 2));
-                        };
-                    };
-                    if ((varclient_6252 == true)) {
-                        if ((int14 == 3)) {
-                            CC_SETOP(1, enum_getvalue(0, 36, 10304 as cs2enum, 3));
-                        } else if ((int14 >= 4)) {
-                            CC_SETOP(4, enum_getvalue(0, 36, 10304 as cs2enum, 3));
-                        } else {
-                            CC_SETOP(3, enum_getvalue(0, 36, 10304 as cs2enum, 3));
-                        };
-                    };
-                    if ((varclient_6251 == true)) {
-                        if ((int14 == 4)) {
-                            CC_SETOP(1, enum_getvalue(0, 36, 10304 as cs2enum, 4));
-                        } else if ((int14 >= 5)) {
-                            CC_SETOP(5, enum_getvalue(0, 36, 10304 as cs2enum, 4));
-                        } else {
-                            CC_SETOP(4, enum_getvalue(0, 36, 10304 as cs2enum, 4));
-                        };
-                    };
-                    if ((varclient_6248 == true)) {
-                        if ((int14 == 5)) {
-                            CC_SETOP(1, enum_getvalue(0, 36, 10304 as cs2enum, 5));
-                        } else if ((int14 >= 6)) {
-                            CC_SETOP(6, enum_getvalue(0, 36, 10304 as cs2enum, 5));
-                        } else {
-                            CC_SETOP(5, enum_getvalue(0, 36, 10304 as cs2enum, 5));
-                        };
-                    };
-                    if ((varclient_6255 == true)) {
-                        if ((int14 == 6)) {
-                            CC_SETOP(1, enum_getvalue(0, 36, 10304 as cs2enum, 6));
-                        } else if ((int14 >= 7)) {
-                            CC_SETOP(7, enum_getvalue(0, 36, 10304 as cs2enum, 6));
-                        } else {
-                            CC_SETOP(6, enum_getvalue(0, 36, 10304 as cs2enum, 6));
-                        };
-                    };
-                    if ((varclient_6254 == true)) {
-                        if ((int14 == 7)) {
-                            CC_SETOP(1, enum_getvalue(0, 36, 10304 as cs2enum, 7));
-                        } else if ((int14 >= 8)) {
-                            CC_SETOP(8, enum_getvalue(0, 36, 10304 as cs2enum, 7));
-                        } else {
-                            CC_SETOP(7, enum_getvalue(0, 36, 10304 as cs2enum, 7));
-                        };
-                    };
-                    if ((varclient_6253 == true)) {
-                        if ((int14 == 8)) {
-                            CC_SETOP(1, enum_getvalue(0, 36, 10304 as cs2enum, 8));
-                        } else if ((int14 >= 9)) {
-                            CC_SETOP(9, enum_getvalue(0, 36, 10304 as cs2enum, 8));
-                        } else {
-                            CC_SETOP(8, enum_getvalue(0, 36, 10304 as cs2enum, 8));
-                        };
-                        if ((int14 == 9)) {
-                            CC_SETOP(1, enum_getvalue(0, 36, 10304 as cs2enum, 9));
-                        } else if ((int14 >= 10)) {
-                            CC_SETOP(10, enum_getvalue(0, 36, 10304 as cs2enum, 9));
-                        } else {
-                            CC_SETOP(9, enum_getvalue(0, 36, 10304 as cs2enum, 9));
-                        };
-                    };
-                    if ((varclient_6249 == true)) {
-                        if ((script340() == 0)) {
-                            if ((strcmp(varclient_2516, "") != 0)) {
-                                if ((int14 == 1)) {
-                                    CC_SETOP(1, `Cast <col=00ff00>${varclient_2516}`);
-                                } else if ((int14 >= 2)) {
-                                    CC_SETOP(2, `Cast <col=00ff00>${varclient_2516}`);
-                                };
-                            };
-                        } else {
-                            int22 = 1;
-                            CC_SETOP(10, "Customise keybind");
-                            CC_SETONOP(callback(script7023, int0, int1, -2147483645, -2147483644));
-                            if ((int14 == 1)) {
-                                IF_SETHIDE(false, int30);
-                                if ((((int24 == 1) && (int3 == 0)) && (varbitplayer_38842 == 0))) {
-                                    script3898(int11, int12, int30, -1);
-                                };
-                                stack(7006);
-                                stack(-2147483645);
-                                stack("i");
-                                stack(int30);
-                                IF_SETONTARGETENTER();
-                                IF_SETONTARGETLEAVE(callback(script7007, -2147483645), int30);
-                                IF_SETTARGETVERB(`Cast <col=00ff00>${varclient_2516}`, int30);
-                            } else {
-                                if ((((int24 == 1) && (int3 == 0)) && (script792() == 0))) {
-                                    script3875(1, int11, int12, int29, -1);
-                                };
-                                CC_SETONTARGETENTER(callback(script7006, -2147483645));
-                                stack(7007);
-                                stack(-2147483645);
-                                stack("i");
-                                CC_SETONTARGETLEAVE();
-                                CC_SETTARGETVERB(`Cast <col=00ff00>${varclient_2516}`);
-                            };
-                        };
-                    };
-                    if (((((((((varclient_6250 == false) && (varclient_6252 == false)) && (varclient_6251 == false)) && (varclient_6248 == false)) && (varclient_6255 == false)) && (varclient_6254 == false)) && (varclient_6253 == false)) && (varclient_6249 == false))) {
-                        CC_SETOP(1, "Summon Pet");
-                        CC_SETOP(2, "Open Pet Interface");
-                        CC_SETOP(3, "Settings");
-                    };
-                } else if ((int20 == 27699 as struct)) {
-                    if ((script8085() != 1)) {
-                        CC_SETOP(1, "Cast Familiar Special Ability");
-                    } else if ((script7034() == 5)) {
-                        CC_SETOP(1, `Cast <col=00ff00>${varclient_2516}</col>`);
-                    };
-                    CC_SETOP(10, "Customise keybind");
-                    CC_SETONOP(callback(script7023, int0, int1, -2147483645, -2147483644));
-                    if ((script340() == 1)) {
-                        int22 = 1;
-                        IF_SETHIDE(false, int30);
-                        if ((((int24 == 1) && (int3 == 0)) && (varbitplayer_38842 == 0))) {
-                            script3898(int11, int12, int30, -1);
-                        };
-                        stack(7006);
-                        stack(-2147483645);
-                        stack("i");
-                        stack(int30);
-                        IF_SETONTARGETENTER();
-                        IF_SETONTARGETLEAVE(callback(script7007, -2147483645), int30);
-                        IF_SETTARGETVERB(`Cast <col=00ff00>${varclient_2516}</col>`, int30);
-                    };
-                } else if ((int20 == 27702 as struct)) {
-                    int22 = 1;
-                    CC_SETOP(10, "Customise keybind <col=00ff00>Familiar attack</col>");
-                    CC_SETONOP(callback(script7023, int0, int1, -2147483645, -2147483644));
-                    IF_SETHIDE(0, int30);
-                    if ((((int24 == 1) && (int3 == 0)) && (script792() == 0))) {
-                        script3898(int11, int12, int30, -1);
-                    };
-                    stack(7006);
-                    stack(-2147483645);
-                    stack("i");
-                    stack(int30);
-                    IF_SETONTARGETENTER();
-                    IF_SETONTARGETLEAVE(callback(script7007, -2147483645), int30);
-                    IF_SETTARGETVERB("Attack Target", int30);
-                } else {
-                    CC_SETOP(1, string1);
-                    switch (int20) {
-                        case 14875: {
-                            CC_SETOP(2, "Previous destination");
-                            break;
-                        }
-                        case 14873: {
-                            CC_SETOP(2, "Cast Normal");
-                            CC_SETOP(3, "Cast Ancient");
-                            break;
-                        }
-                        case 32261: {
-                            CC_SETOP(2, "Cast Normal");
-                            CC_SETOP(3, "Cast Lunar");
-                            break;
-                        }
-                        case 33965: {
-                            CC_SETOP(2, "Customise");
-                            break;
-                        }
-                        case 53006: {
-                            CC_SETOP(2, "Marigold Farm");
-                            break;
-                        }
-                    };
-                    if ((struct_getparam(int20, 8929) != 0)) {
-                        CC_SETOP(2, "Multi-cast");
-                    };
-                    script12513(int20);
                 };
-                if (((((int24 == 1) && (int20 != 27699 as struct)) && (int20 != 27702 as struct)) && (int20 != 14724 as struct))) {
-                    CC_SETOP(10, "Customise keybind");
-                    CC_SETONOP(callback(script7023, int0, int1, -2147483645, -2147483644));
-                };
-                if ((int22 == 0)) {
-                    script7033();
-                    if (((int3 == 0) && (script792() == 0))) {
-                        script3875(1, int11, int12, int29, -1);
-                    };
-                    CC_SETONTARGETENTER(callback());
-                    stack(-1);
-                    stack("");
-                    CC_SETONTARGETLEAVE();
-                };
-            };
-            if ((struct_getparam(int20, 2874) == 1)) {
-                CC_SETOP(9, "Auto-cast");
-                IF_SETTRANS(255, int31);
-                IF_SETONTIMER(callback(), int31);
-                switch (int0) {
-                    case 1430:
-                    case 1670:
-                    case 1671:
-                    case 1672:
-                    case 1673: {
-                        IF_SETONVARTRANSMIT(callback(script7052, int0, int1, int20, 0, 1), int31);
+                CC_CLEAROPS();
+                CC_SETOPBASE("");
+                CC_SETTARGETVERB("");
+                CC_SETCOLOUR(16777215);
+                switch (int7) {
+                    case 1: {
+                        int17 = 10147;
+                        int41 = 1;
                         break;
                     }
-                };
-            } else {
-                IF_SETONVARTRANSMIT(callback(), int31);
-                IF_SETTRANS(255, int31);
-                IF_SETONTIMER(callback(), int31);
-            };
-            if ((((int20 != 14724 as struct) && (int20 != 27699 as struct)) && (int20 != 27702 as struct))) {
-                CC_SETOPBASE(`<col=00ff00>${string0}</col>`);
-            };
-            CC_SETHIDE(false);
-            switch (int7) {
-                case 8: {
-                    CC_SETONVARTRANSMIT(callback(script7017, -2147483645, 463, 1));
-                    CC_SETONINVTRANSMIT(callback());
-                    script7968(int32, 1);
-                    break;
-                }
-                case 9:
-                case 18:
-                case 12:
-                case 13:
-                case 11: {
-                    script7968(int32, 1);
-                    break;
-                }
-                case 14: {
-                    CC_SETONINVTRANSMIT(callback(script6994, int0, int1, 94, 1));
-                    break;
-                }
-                default: {
-                    CC_SETONVARTRANSMIT(callback(script7003, int29, -1, struct_getparam(int20, 2799), int20, int32, 1, 679, 1180, 1185, 4, 12219, 3274, 11315, 7));
-                    script7004(int29, -1, struct_getparam(int20, 2799), int20, int32, 1);
-                    CC_SETONINVTRANSMIT(callback(script7003, int29, -1, struct_getparam(int20, 2799), int20, int32, 1, 94, 93, 2));
-                    CC_SETONSTATTRANSMIT(callback(script7003, int29, -1, struct_getparam(int20, 2799), int20, int32, 1, 0, 2, 1, 4, 6, 28, 3, 16, 8));
-                    break;
-                }
-            };
-            if (((varbitplayer_1892 == 0) && (varbitplayer_38842 == 0))) {
-                switch (int7) {
-                    case 9:
-                    case 18:
+                    case 5: {
+                        int17 = 6738;
+                        int41 = 1;
+                        break;
+                    }
+                    case 17: {
+                        int17 = 16973;
+                        int41 = 1;
+                        break;
+                    }
+                    case 3: {
+                        int17 = 6736;
+                        int41 = 1;
+                        break;
+                    }
+                    case 4: {
+                        int17 = 6737;
+                        int41 = 1;
+                        break;
+                    }
+                    case 7: {
+                        int20 = enum_getvalue(0, 73, 6739, int8);
+                        int20 = script8247(int20);
+                        int18 = script11778(int20, 1);
+                        string0 = struct_getparam(int20, 2794);
+                        int9 = 30;
+                        int10 = 30;
+                        IF_SETONVARTRANSMIT(callback(script7028, int29, int34, int20, 0, 1028, 3272, 3273, 3275, 5859, 12219, 6), int34);
+                        script7029(int29, int34, int20, 1);
+                        break;
+                    }
+                    case 6: {
+                        int20 = enum_getvalue(0, 73, 6740, int8);
+                        int20 = script8247(int20);
+                        int18 = script11778(int20, 1);
+                        string0 = struct_getparam(int20, 2794);
+                        int9 = 30;
+                        int10 = 30;
+                        if ((((int20 == 32942) || (int20 == 32943)) || (int20 == 43909))) {
+                            string1 = "Activate";
+                        } else {
+                            string1 = "Cast";
+                        };
+                        int41 = 1;
+                        break;
+                    }
+                    case 11: {
+                        int20 = enum_getvalue(0, 73, 13200, int8);
+                        int20 = script8247(int20);
+                        int18 = script11778(int20, 1);
+                        string0 = struct_getparam(int20, 2794);
+                        if ((int20 == 14875)) {
+                            int9 = 30;
+                            int10 = 30;
+                        } else {
+                            int9 = 34;
+                            int10 = 34;
+                        };
+                        string1 = "Cast";
+                        break;
+                    }
                     case 8: {
-                        CC_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643));
+                        int20 = 14722;
+                        int20 = script8247(int20);
+                        if ((varplayer_463 == 0)) {
+                            int18 = 18819;
+                        } else {
+                            int18 = 18818;
+                        };
+                        string0 = struct_getparam(int20, 2794);
+                        int9 = 22;
+                        int10 = 28;
+                        break;
+                    }
+                    case 9: {
+                        int20 = enum_getvalue(0, 73, 3874, int8);
+                        int20 = script8247(int20);
+                        int18 = struct_getparam(int20, 1420);
+                        string0 = struct_getparam(int20, 1419);
+                        int9 = 30;
+                        int10 = 30;
+                        string1 = "Perform";
+                        break;
+                    }
+                    case 18: {
+                        int20 = 33966;
+                        int18 = script18781(int8);
+                        string0 = script18782(int8);
+                        int9 = 30;
+                        int10 = 30;
+                        string1 = "Perform";
+                        break;
+                    }
+                    case 12: {
+                        int20 = 14723;
+                        int20 = script8247(int20);
+                        int18 = struct_getparam(int20, 2802);
+                        string0 = struct_getparam(int20, 2794);
+                        int9 = 30;
+                        int10 = 30;
+                        break;
+                    }
+                    case 13: {
+                        int20 = enum_getvalue(0, 73, 5178, int8);
+                        int20 = script8247(int20);
+                        int18 = struct_getparam(int20, 2802);
+                        string0 = struct_getparam(int20, 2794);
+                        int9 = 30;
+                        int10 = 30;
                         break;
                     }
                     case 14: {
-                        string2 = `${string0}<br><br>Equip an item in this worn slot and it will automatically take this place.<br>Unequip the item and this slot will revert to this state.`;
-                        CC_SETONMOUSEREPEAT(callback(script8799, string2, -2147483645, -2147483643));
+                        int20 = 4106;
+                        int18 = script8478(94, int8, 0);
+                        string0 = enum_getvalue(0, 36, 974, int8);
+                        int9 = 36;
+                        int10 = 32;
+                        break;
+                    }
+                    case 16: {
+                        int20 = 24325;
+                        if ((varplayer_462 == 1)) {
+                            int18 = 18854;
+                        } else {
+                            int18 = 20254;
+                        };
+                        string0 = struct_getparam(int20, 2794);
+                        int9 = 30;
+                        int10 = 30;
                         break;
                     }
                     default: {
-                        CC_SETONMOUSEREPEAT(callback(script8448, int20, -2147483645, -2147483643));
-                        cc_setparam(7540, 1);
-                        cc_setparam(7544, int20);
+                        return;
+                    }
+                };
+                if ((int17 != -1)) {
+                    int20 = enum_getvalue(0, 73, int17, int8);
+                    int20 = script8247(int20);
+                    if ((int20 == -1)) {
+                        return;
+                    };
+                    int21 = script17453(int20);
+                    if ((int21 == 1)) {
+                        int18 = script17689(int20, 1);
+                        string1 = "Deactivate";
+                    } else {
+                        int18 = script11778(int20, 1);
+                    };
+                    string0 = struct_getparam(int20, 2794);
+                    int9 = 30;
+                    int10 = 30;
+                };
+                CC_SETOBJECT(-1 as obj, -1);
+                CC_SETGRAPHIC(int18);
+                cc_setparam(7540, 1);
+                cc_setparam(7544, int20);
+                cc_setparam(3438, int20);
+                if ((int26 == 1)) {
+                    CC_SETSIZE(52, 52, 0, 0);
+                    CC_SETPOSITION(0, 0, 1, 1);
+                    if ((int7 == 12)) {
+                        CC_SETPOSITION(2, 1, 1, 1);
+                    };
+                } else if ((int40 == 1)) {
+                    CC_SETSIZE(26, 26, 0, 0);
+                    CC_SETPOSITION(0, 0, 1, 1);
+                } else {
+                    CC_SETSIZE(int9, int10, 0, 0);
+                    CC_SETPOSITION(0, 0, 1, 1);
+                };
+                if ((int27 == 1)) {
+                    CC_SETSIZE(36, 36, 0, 0);
+                    CC_SETPOSITION(0, 0, 1, 1);
+                };
+                if ((struct_getparam(int20, 2875) == 1)) {
+                    CC_CLEAROPS();
+                    CC_SETTARGETVERB(string1);
+                    if ((int24 == 1)) {
+                        CC_SETOP(10, "Customise keybind");
+                        CC_SETONOP(callback(script7023, int0, int1, -2147483645, -2147483644));
+                        script7033();
+                        if (((int3 == 0) && (script792() == 0))) {
+                            script3898(int11, int12, int29, -1);
+                        };
+                    };
+                    CC_SETONTARGETENTER(callback(script7006, -2147483645));
+                    stack(callback(script7007, -2147483645));
+                    CC_SETONTARGETLEAVE();
+                    CC_SETTARGETCURSORS(struct_getparam(int20, 2803), 158 as cursor);
+                } else {
+                    if ((int20 == 14724)) {
+                        CC_CLEAROPS();
+                        CC_CLEARSCRIPTHOOKS();
+                        script7033();
+                        CC_SETOPTKEY(-1, 0);
+                        if ((int5 != -1)) {
+                            varbitplayer_6068 = int5;
+                            int14 = int5;
+                        } else {
+                            int14 = varbitplayer_6068;
+                        };
+                        if ((varclient_6250 == 1)) {
+                            if ((int14 == 2)) {
+                                CC_SETOP(1, enum_getvalue(0, 36, 10304, 2));
+                            } else if ((int14 >= 3)) {
+                                CC_SETOP(3, enum_getvalue(0, 36, 10304, 2));
+                            } else {
+                                CC_SETOP(2, enum_getvalue(0, 36, 10304, 2));
+                            };
+                        };
+                        if ((varclient_6252 == 1)) {
+                            if ((int14 == 3)) {
+                                CC_SETOP(1, enum_getvalue(0, 36, 10304, 3));
+                            } else if ((int14 >= 4)) {
+                                CC_SETOP(4, enum_getvalue(0, 36, 10304, 3));
+                            } else {
+                                CC_SETOP(3, enum_getvalue(0, 36, 10304, 3));
+                            };
+                        };
+                        if ((varclient_6251 == 1)) {
+                            if ((int14 == 4)) {
+                                CC_SETOP(1, enum_getvalue(0, 36, 10304, 4));
+                            } else if ((int14 >= 5)) {
+                                CC_SETOP(5, enum_getvalue(0, 36, 10304, 4));
+                            } else {
+                                CC_SETOP(4, enum_getvalue(0, 36, 10304, 4));
+                            };
+                        };
+                        if ((varclient_6248 == 1)) {
+                            if ((int14 == 5)) {
+                                CC_SETOP(1, enum_getvalue(0, 36, 10304, 5));
+                            } else if ((int14 >= 6)) {
+                                CC_SETOP(6, enum_getvalue(0, 36, 10304, 5));
+                            } else {
+                                CC_SETOP(5, enum_getvalue(0, 36, 10304, 5));
+                            };
+                        };
+                        if ((varclient_6255 == 1)) {
+                            if ((int14 == 6)) {
+                                CC_SETOP(1, enum_getvalue(0, 36, 10304, 6));
+                            } else if ((int14 >= 7)) {
+                                CC_SETOP(7, enum_getvalue(0, 36, 10304, 6));
+                            } else {
+                                CC_SETOP(6, enum_getvalue(0, 36, 10304, 6));
+                            };
+                        };
+                        if ((varclient_6254 == 1)) {
+                            if ((int14 == 7)) {
+                                CC_SETOP(1, enum_getvalue(0, 36, 10304, 7));
+                            } else if ((int14 >= 8)) {
+                                CC_SETOP(8, enum_getvalue(0, 36, 10304, 7));
+                            } else {
+                                CC_SETOP(7, enum_getvalue(0, 36, 10304, 7));
+                            };
+                        };
+                        if ((varclient_6253 == 1)) {
+                            if ((int14 == 8)) {
+                                CC_SETOP(1, enum_getvalue(0, 36, 10304, 8));
+                            } else if ((int14 >= 9)) {
+                                CC_SETOP(9, enum_getvalue(0, 36, 10304, 8));
+                            } else {
+                                CC_SETOP(8, enum_getvalue(0, 36, 10304, 8));
+                            };
+                            if ((int14 == 9)) {
+                                CC_SETOP(1, enum_getvalue(0, 36, 10304, 9));
+                            } else if ((int14 >= 10)) {
+                                CC_SETOP(10, enum_getvalue(0, 36, 10304, 9));
+                            } else {
+                                CC_SETOP(9, enum_getvalue(0, 36, 10304, 9));
+                            };
+                        };
+                        if ((varclient_6249 == 1)) {
+                            if ((script340() == 0)) {
+                                if ((strcmp(varclient_2516, "") != 0)) {
+                                    if ((int14 == 1)) {
+                                        CC_SETOP(1, `Cast <col=00ff00>${varclient_2516}`);
+                                    } else if ((int14 >= 2)) {
+                                        CC_SETOP(2, `Cast <col=00ff00>${varclient_2516}`);
+                                    };
+                                };
+                            } else {
+                                int22 = 1;
+                                CC_SETOP(10, "Customise keybind");
+                                CC_SETONOP(callback(script7023, int0, int1, -2147483645, -2147483644));
+                                if ((int14 == 1)) {
+                                    IF_SETHIDE(false, int30);
+                                    if ((((int24 == 1) && (int3 == 0)) && (varbitplayer_38842 == 0))) {
+                                        script3898(int11, int12, int30, -1);
+                                    };
+                                    stack(callback(script7006, -2147483645));
+                                    stack(int30);
+                                    IF_SETONTARGETENTER();
+                                    IF_SETONTARGETLEAVE(callback(script7007, -2147483645), int30);
+                                    IF_SETTARGETVERB(`Cast <col=00ff00>${varclient_2516}`, int30);
+                                } else {
+                                    if ((((int24 == 1) && (int3 == 0)) && (script792() == 0))) {
+                                        script3875(1, int11, int12, int29, -1);
+                                    };
+                                    CC_SETONTARGETENTER(callback(script7006, -2147483645));
+                                    stack(callback(script7007, -2147483645));
+                                    CC_SETONTARGETLEAVE();
+                                    CC_SETTARGETVERB(`Cast <col=00ff00>${varclient_2516}`);
+                                };
+                            };
+                        };
+                        if (((((((((varclient_6250 == 0) && (varclient_6252 == 0)) && (varclient_6251 == 0)) && (varclient_6248 == 0)) && (varclient_6255 == 0)) && (varclient_6254 == 0)) && (varclient_6253 == 0)) && (varclient_6249 == 0))) {
+                            CC_SETOP(1, "Summon Pet");
+                            CC_SETOP(2, "Open Pet Interface");
+                            CC_SETOP(3, "Settings");
+                        };
+                    } else if ((int20 == 27699)) {
+                        if ((script8085() != 1)) {
+                            CC_SETOP(1, "Cast Familiar Special Ability");
+                        } else if ((script7034() == 5)) {
+                            CC_SETOP(1, `Cast <col=00ff00>${varclient_2516}</col>`);
+                        };
+                        CC_SETOP(10, "Customise keybind");
+                        CC_SETONOP(callback(script7023, int0, int1, -2147483645, -2147483644));
+                        if ((script340() == 1)) {
+                            int22 = 1;
+                            IF_SETHIDE(false, int30);
+                            if ((((int24 == 1) && (int3 == 0)) && (varbitplayer_38842 == 0))) {
+                                script3898(int11, int12, int30, -1);
+                            };
+                            stack(callback(script7006, -2147483645));
+                            stack(int30);
+                            IF_SETONTARGETENTER();
+                            IF_SETONTARGETLEAVE(callback(script7007, -2147483645), int30);
+                            IF_SETTARGETVERB(`Cast <col=00ff00>${varclient_2516}</col>`, int30);
+                        };
+                    } else if ((int20 == 27702)) {
+                        int22 = 1;
+                        CC_SETOP(10, "Customise keybind <col=00ff00>Familiar attack</col>");
+                        CC_SETONOP(callback(script7023, int0, int1, -2147483645, -2147483644));
+                        IF_SETHIDE(false, int30);
+                        if ((((int24 == 1) && (int3 == 0)) && (script792() == 0))) {
+                            script3898(int11, int12, int30, -1);
+                        };
+                        stack(callback(script7006, -2147483645));
+                        stack(int30);
+                        IF_SETONTARGETENTER();
+                        IF_SETONTARGETLEAVE(callback(script7007, -2147483645), int30);
+                        IF_SETTARGETVERB("Attack Target", int30);
+                    } else {
+                        CC_SETOP(1, string1);
+                        switch (int20) {
+                            case 14875: {
+                                CC_SETOP(2, "Previous destination");
+                                break;
+                            }
+                            case 14873: {
+                                CC_SETOP(2, "Cast Normal");
+                                CC_SETOP(3, "Cast Ancient");
+                                break;
+                            }
+                            case 32261: {
+                                CC_SETOP(2, "Cast Normal");
+                                CC_SETOP(3, "Cast Lunar");
+                                break;
+                            }
+                            case 33965: {
+                                CC_SETOP(2, "Customise");
+                                break;
+                            }
+                            case 53006: {
+                                CC_SETOP(2, "Marigold Farm");
+                                break;
+                            }
+                        };
+                        if ((struct_getparam(int20, 8929) != 0)) {
+                            CC_SETOP(2, "Multi-cast");
+                        };
+                        script12513(int20);
+                    };
+                    if (((((int24 == 1) && (int20 != 27699)) && (int20 != 27702)) && (int20 != 14724))) {
+                        CC_SETOP(10, "Customise keybind");
+                        CC_SETONOP(callback(script7023, int0, int1, -2147483645, -2147483644));
+                    };
+                    if ((int22 == 0)) {
+                        script7033();
+                        if (((int3 == 0) && (script792() == 0))) {
+                            script3875(1, int11, int12, int29, -1);
+                        };
+                        CC_SETONTARGETENTER(callback());
+                        stack(callback());
+                        CC_SETONTARGETLEAVE();
+                    };
+                };
+                if ((struct_getparam(int20, 2874) == 1)) {
+                    CC_SETOP(9, "Auto-cast");
+                    IF_SETTRANS(255, int31);
+                    IF_SETONTIMER(callback(), int31);
+                    switch (int0) {
+                        case 1430:
+                        case 1670:
+                        case 1671:
+                        case 1672:
+                        case 1673: {
+                            IF_SETONVARTRANSMIT(callback(script7052, int0, int1, int20, 0, 1), int31);
+                            break;
+                        }
+                    };
+                } else {
+                    IF_SETONVARTRANSMIT(callback(), int31);
+                    IF_SETTRANS(255, int31);
+                    IF_SETONTIMER(callback(), int31);
+                };
+                if ((((int20 != 14724) && (int20 != 27699)) && (int20 != 27702))) {
+                    CC_SETOPBASE(`<col=00ff00>${string0}</col>`);
+                };
+                CC_SETHIDE(false);
+                switch (int7) {
+                    case 8: {
+                        CC_SETONVARTRANSMIT(callback(script7017, -2147483645, 463, 1));
+                        CC_SETONINVTRANSMIT(callback());
+                        script7968(int32, 1);
+                        break;
+                    }
+                    case 9:
+                    case 18:
+                    case 12:
+                    case 13:
+                    case 11: {
+                        script7968(int32, 1);
+                        break;
+                    }
+                    case 14: {
+                        CC_SETONINVTRANSMIT(callback(script6994, int0, int1, 94, 1));
+                        break;
+                    }
+                    default: {
+                        CC_SETONVARTRANSMIT(callback(script7003, int29, -1, struct_getparam(int20, 2799), int20, int32, 1, 679, 1180, 1185, 4, 12219, 3274, 11315, 7));
+                        script7004(int29, -1, struct_getparam(int20, 2799), int20, int32, 1);
+                        CC_SETONINVTRANSMIT(callback(script7003, int29, -1, struct_getparam(int20, 2799), int20, int32, 1, 94, 93, 2));
+                        CC_SETONSTATTRANSMIT(callback(script7003, int29, -1, struct_getparam(int20, 2799), int20, int32, 1, 0, 2, 1, 4, 6, 28, 3, 16, 8));
                         break;
                     }
                 };
-                CC_SETONMOUSELEAVE(callback(script8805));
-            } else {
-                CC_SETONMOUSEREPEAT(callback());
-                CC_SETONMOUSELEAVE(callback());
+                if ((varbitplayer_1892 == 0)) {
+                    if ((varbitplayer_38842 == 0)) {
+                        switch (int7) {
+                            case 9:
+                            case 18:
+                            case 8: {
+                                CC_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643));
+                                break;
+                            }
+                            case 14: {
+                                string2 = `${string0}<br><br>Equip an item in this worn slot and it will automatically take this place.<br>Unequip the item and this slot will revert to this state.`;
+                                CC_SETONMOUSEREPEAT(callback(script8799, string2, -2147483645, -2147483643));
+                                break;
+                            }
+                            default: {
+                                CC_SETONMOUSEREPEAT(callback(script8448, int20, -2147483645, -2147483643));
+                                cc_setparam(7540, 1);
+                                cc_setparam(7544, int20);
+                                break;
+                            }
+                        };
+                        CC_SETONMOUSELEAVE(callback(script8805));
+                    } else {
+                        CC_SETONMOUSEREPEAT(callback());
+                        CC_SETONMOUSELEAVE(callback());
+                    };
+                } else {
+                    CC_SETONMOUSEREPEAT(callback());
+                    CC_SETONMOUSELEAVE(callback());
+                };
+                CC_SETONDRAG(callback(script7969, -2147483645, -2147483643));
+                CC_SETONDRAGCOMPLETE(callback(script7001, -2147483645, -2147483643, -2147483642));
             };
-            CC_SETONDRAG(callback(script7969, -2147483645, -2147483643));
-            CC_SETONDRAGCOMPLETE(callback(script7001, -2147483645, -2147483643, -2147483642));
         };
         if (((int2 == 0) && (int24 == 1))) {
             IF_SETTEXT(script8213(int11, int12, 1, 1), int32);
@@ -688,7 +681,7 @@ function script6995(int0: number, int1: number, int2: number, int3: number, int4
             script11816(int20);
         };
     };
-    if (((int28 != comp(-1, 65535)) && (IF_FIND(int28) == 1))) {
+    if (((int28 != -1) && (IF_FIND(int28) == 1))) {
         if ((varbitplayer_38842 == 1)) {
             CC_SETNOCLICKTHROUGH(false);
         } else {

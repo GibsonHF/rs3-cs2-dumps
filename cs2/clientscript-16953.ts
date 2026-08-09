@@ -3,7 +3,7 @@ function script16953(int0: number): string {
     var int1 = script16947(int0);
     var string0 = "";
     var int2 = 0;
-    var int3 = -1 as obj;
+    var int3 = -1;
     var int4 = 0;
     var int5 = 0;
     switch (dbrow_getfield(int1, 843792, 0)) {
@@ -13,8 +13,7 @@ function script16953(int0: number): string {
         }
         case 1: {
             int2 = dbrow_getfield(int1, 843888, 0);
-            stack(PUSH_CONSTANT_INT[16]("Minimum Rarity - <col=", script10925(int2)));
-            string0 = `${stack()}${inttostring()}>${script10876(int2)}</col>`;
+            string0 = `${inttostring(PUSH_CONSTANT_INT[16]("Minimum Rarity - <col=", script10925(int2)))}>${script10876(int2)}</col>`;
             break;
         }
         case 2: {

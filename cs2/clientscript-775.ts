@@ -1,5 +1,5 @@
 //
-function script775(): [number, string, number] {
+function script775(): [number, number, string] {
     switch (varplayer_1831) {
         case 12073: {
             return [36, "Bronze Bull Rush", 12461];
@@ -17,6 +17,7 @@ function script775(): [number, string, number] {
             return [76, "Adamant Bull Rush", 12465];
         }
         case 12083: {
+            break;
         }
         default: {
             return [36, "Bronze Bull Rush", 12461];

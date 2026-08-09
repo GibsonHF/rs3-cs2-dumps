@@ -17,14 +17,28 @@ function script7172(int0: number): void {
     };
     int2 = script8559(int0);
     int3 = script8587(int0);
-    if ((((script8854() == 8) && (int2 != comp(-1, 65535))) && (varclient_2231 == int0))) {
-        IF_SETHIDE(false, int2);
-        IF_SETCOLOUR(16777215, int2);
-        IF_SETSIZE(0, 4, 1, 1, int2);
-        if ((script6431() == 1)) {
-            IF_SETPOSITION(0, 0, 0, 0, int2);
-        } else {
-            IF_SETPOSITION(0, 0, 0, 2, int2);
+    if ((script8854() == 8)) {
+        if ((int2 != comp(-1, 65535))) {
+            if ((varclient_2231 == int0)) {
+                IF_SETHIDE(false, int2);
+                IF_SETCOLOUR(16777215, int2);
+                IF_SETSIZE(0, 4, 1, 1, int2);
+                if ((script6431() == 1)) {
+                    IF_SETPOSITION(0, 0, 0, 0, int2);
+                } else {
+                    IF_SETPOSITION(0, 0, 0, 2, int2);
+                };
+            } else if ((((script8854() == 9) && (int3 != comp(-1, 65535))) && (varclient_2231 == int0))) {
+                IF_SETHIDE(false, int3);
+                IF_SETCOLOUR(16777215, int3);
+                IF_SETSIZE(0, 0, 1, 1, int3);
+                IF_SETPOSITION(0, 0, 0, 0, int3);
+            };
+        } else if ((((script8854() == 9) && (int3 != comp(-1, 65535))) && (varclient_2231 == int0))) {
+            IF_SETHIDE(false, int3);
+            IF_SETCOLOUR(16777215, int3);
+            IF_SETSIZE(0, 0, 1, 1, int3);
+            IF_SETPOSITION(0, 0, 0, 0, int3);
         };
     } else if ((((script8854() == 9) && (int3 != comp(-1, 65535))) && (varclient_2231 == int0))) {
         IF_SETHIDE(false, int3);

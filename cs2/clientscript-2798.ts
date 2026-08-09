@@ -15,7 +15,7 @@ function script2798(int0: number, int1: number, int2: number, int3: number): voi
     if ((int1 == 1)) {
         int8 = script9984(int4, 5);
     };
-    if ((int8 == -1 as struct)) {
+    if ((int8 == -1)) {
         return;
     };
     CC_SETGRAPHIC(struct_getparam(int8, 3909));

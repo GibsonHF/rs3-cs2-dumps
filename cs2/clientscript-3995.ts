@@ -4,10 +4,10 @@ function script3995(): void {
         return;
     };
     var int0 = -1 as obj;
-    var int1 = -1 as struct;
+    var int1 = -1;
     var int2 = 0;
     var string0 = "";
-    var int3 = -1 as cs2enum;
+    var int3 = -1;
     switch (varbitplayer_35680) {
         case 1: {
             int0 = enum_getvalue(0, 33, 3494 as cs2enum, varbitplayer_35529);
@@ -16,27 +16,27 @@ function script3995(): void {
             break;
         }
         case 2: {
-            int0 = enum_getvalue(0, 33, 5487 as cs2enum, varbitplayer_35529);
-            int2 = enum_getvalue(0, 0, 5488 as cs2enum, varbitplayer_35529);
-            string0 = enum_getvalue(0, 36, 5489 as cs2enum, varbitplayer_35529);
+            int0 = enum_getvalue(0, 33, 5487, varbitplayer_35529);
+            int2 = enum_getvalue(0, 0, 5488, varbitplayer_35529);
+            string0 = enum_getvalue(0, 36, 5489, varbitplayer_35529);
             break;
         }
         case 3: {
             switch (varbitplayer_35551) {
                 case 1: {
-                    int3 = 5490 as cs2enum;
+                    int3 = 5490;
                     break;
                 }
                 case 2: {
-                    int3 = 5491 as cs2enum;
+                    int3 = 5491;
                     break;
                 }
                 case 3: {
-                    int3 = 5492 as cs2enum;
+                    int3 = 5492;
                     break;
                 }
                 case 4: {
-                    int3 = 5493 as cs2enum;
+                    int3 = 5493;
                     break;
                 }
                 default: {
@@ -52,11 +52,11 @@ function script3995(): void {
         }
     };
     if ((varbitplayer_35680 == 3)) {
-        if ((int1 == -1 as struct)) {
+        if ((int1 == -1)) {
             return;
         };
-        IF_SETTEXT(struct_getparam(int1, 2533), comp(1239, 3));
-        IF_SETTEXT(struct_getparam(int1, 4858), comp(1239, 4));
+        IF_SETTEXT(struct_getparam(int1, 2533), 81199107);
+        IF_SETTEXT(struct_getparam(int1, 4858), 81199108);
     } else {
         if ((int0 == -1 as obj)) {
             return;

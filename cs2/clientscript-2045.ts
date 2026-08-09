@@ -33,7 +33,7 @@ function script2045(int0: number, int1: number, int2: number, int3: number, int4
         script295(int0, int10, int11, int12, int13);
     };
     if ((varbitplayer_14109 == 0)) {
-        script4(93192197, varclient_674, "You are here", 280 as struct, int0, int10, int11, int12, int13);
+        script4(93192197, varclient_674, "You are here", 280, int0, int10, int11, int12, int13);
     } else {
         CC_DELETEALL(comp(1422, 5));
     };
@@ -43,16 +43,16 @@ function script2045(int0: number, int1: number, int2: number, int3: number, int4
     script4(93192201, varclient_629, varclient_2549, varclient_630, int0, int10, int11, int12, int13);
     script4(93192202, varclient_940, varclient_2550, varclient_941, int0, int10, int11, int12, int13);
     script4(93192203, varclient_5920, varclient_5922, varclient_5921, int0, int10, int11, int12, int13);
-    script4(93192204, varplayer_2807, "Your marker", 972 as struct, int0, int10, int11, int12, int13);
-    script4(93192205, varclient_2701, "", 19146 as struct, int0, int10, int11, int12, int13);
-    script4(93192206, varclient_7088, "", 46325 as struct, int0, int10, int11, int12, int13);
-    script4(93192208, varclient_4757, "J-Mod", 30968 as struct, int0, int10, int11, int12, int13);
-    script4(93192209, varclient_4197, "", 28371 as struct, int0, int10, int11, int12, int13);
-    if ((varplayer_9063 != -1 as dbrow)) {
-        script4(93192209, pos(0,45,55,0,0), "", 46106 as struct, int0, int10, int11, int12, int13);
+    script4(93192204, varplayer_2807, "Your marker", 972, int0, int10, int11, int12, int13);
+    script4(93192205, varclient_2701, "", 19146, int0, int10, int11, int12, int13);
+    script4(93192206, varclient_7088, "", 46325, int0, int10, int11, int12, int13);
+    script4(93192208, varclient_4757, "J-Mod", 30968, int0, int10, int11, int12, int13);
+    script4(93192209, varclient_4197, "", 28371, int0, int10, int11, int12, int13);
+    if ((varplayer_9063 != -1)) {
+        script4(93192209, 47189440, "", 46106, int0, int10, int11, int12, int13);
     };
-    if ((PLAYERMEMBER() == false)) {
-        if ((WORLDMAP_GETCURRENTMAP() == 28 as maparea)) {
+    if ((PLAYERMEMBER() == 0)) {
+        if ((WORLDMAP_GETCURRENTMAP() == 28)) {
             script9331(93192212, 24961, int0, int10, int11, int12, int13);
             script9331(93192213, 24962, int0, int10, int11, int12, int13);
             script9331(93192214, 24963, int0, int10, int11, int12, int13);
@@ -78,7 +78,7 @@ function script2045(int0: number, int1: number, int2: number, int3: number, int4
             CC_DELETEALL(comp(1422, 30));
         };
     };
-    if ((WORLDMAP_GETCURRENTMAP() == 28 as maparea)) {
+    if ((WORLDMAP_GETCURRENTMAP() == 28)) {
         script9331(93192223, script13350(), int0, int10, int11, int12, int13);
     } else {
         CC_DELETEALL(comp(1422, 31));

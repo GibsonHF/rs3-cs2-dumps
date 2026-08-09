@@ -9,7 +9,7 @@ function script11124(): void {
         CC_SETOP(1, "Remove Distraction");
         CC_SETONOP(callback(script11149, 1, -2147483645, int1));
         CC_SETSIZE(64, 64, 0, 0);
-        CC_SETHIDE(1);
+        CC_SETHIDE(true);
         int1 = (int1 + 1);
     };
     return;

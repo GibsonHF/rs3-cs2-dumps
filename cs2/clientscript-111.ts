@@ -12,13 +12,19 @@ function script111(): void {
     script1564("");
     IF_SETONCLICK(callback(), comp(1469, 1));
     script2026();
-    CC_CREATE(96272385, 4, 0);
+    CC_CREATE(comp(1469, 1), 4, 0);
     script2752();
-    if (((varclient_1027 == 1) && (STRING_LENGTH(varclient_2508) > 0))) {
-        CC_SETTEXT(`Last name entered: ${varclient_2508} ${script9465(10)}`);
+    if ((varclient_1027 == true)) {
+        if ((STRING_LENGTH(varclient_2508) > 0)) {
+            CC_SETTEXT(`Last name entered: ${varclient_2508} ${script9465(10)}`);
+        } else {
+            varclient_2508 = REMOVETAGS(CHAT_PLAYERNAME());
+            varclient_1027 = 1;
+            CC_SETTEXT(`Your name: ${varclient_2508}`);
+        };
     } else {
         varclient_2508 = REMOVETAGS(CHAT_PLAYERNAME());
-        varclient_1027 = true;
+        varclient_1027 = 1;
         CC_SETTEXT(`Your name: ${varclient_2508}`);
     };
     CC_SETOP(1, "Use:");

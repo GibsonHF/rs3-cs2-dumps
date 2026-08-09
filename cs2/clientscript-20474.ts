@@ -1,7 +1,7 @@
 //
 function script20474(int0: number): number {
-    if ((int0 == -1 as dbrow)) {
-        return -1 as graphic;
+    if ((int0 == -1)) {
+        return -1;
     };
     if ((GENDER() == 0)) {
         return dbrow_getfield(int0, 1425472, 0);

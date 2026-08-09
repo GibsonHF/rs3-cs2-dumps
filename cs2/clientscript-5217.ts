@@ -6,6 +6,6 @@ function script5217(int0: number, int1: number, int2: number, int3: number): voi
     IF_SETONMOUSEOVER(callback(), int3);
     IF_SETONMOUSEOVER(callback(script5218, int0, int3, 0, 0, int2), int2);
     IF_SETONMOUSELEAVE(callback(script5218, int0, int3, 1, 0, int2), int0);
-    IF_SETHIDE(1, IF_GETPARENTLAYER(int3));
+    IF_SETHIDE(true, IF_GETPARENTLAYER(int3));
     return;
 }

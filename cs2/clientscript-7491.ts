@@ -22,7 +22,7 @@ function script7491(int0: number, int1: number, int2: number, string0: string): 
     var int9 = 0;
     var int10 = 0;
     var string1 = "";
-    var int11 = -1 as cs2enum;
+    var int11 = -1;
     var int12 = 0;
     var int13 = 0;
     if ((int0 == 22)) {
@@ -39,19 +39,221 @@ function script7491(int0: number, int1: number, int2: number, string0: string): 
         if ((varbitplayer_673 == 1)) {
             if (((int12 == 1) || (int12 == 2))) {
                 if ((GENDER() == 1)) {
-                    int11 = 2341 as cs2enum;
+                    int11 = 2341;
                 } else {
-                    int11 = 2338 as cs2enum;
+                    int11 = 2338;
                 };
                 string1 = struct_getparam(enum_getvalue(0, 73, int11, struct_getparam(int6, 2772)), 792);
             } else if (((int12 == 3) || (int12 == 4))) {
-                string1 = enum_getvalue(0, 36, 2340 as cs2enum, struct_getparam(int6, 2772));
+                string1 = enum_getvalue(0, 36, 2340, struct_getparam(int6, 2772));
             };
         } else {
             string1 = struct_getparam(int6, 2533);
         };
         if ((struct_getparam(int6, 2532) == int12)) {
-            if (((((int1 == 1) && (script13100(int6, 0) == 1)) || (script6488(int6) == 1)) || ((varbitplayer_673 == 3) && (script19681(int6) != -1)))) {
+            if ((int1 == 1)) {
+                if (((script13100(int6, 0) == 1) || (script6488(int6) == 1))) {
+                    if ((STRING_INDEXOF_STRING(LOWERCASE(string1), LOWERCASE(string0), 0) != -1)) {
+                        if ((varbitplayer_673 == 1)) {
+                            if ((GENDER() == 0)) {
+                                if ((struct_getparam(int6, 1947) == 1)) {
+                                    int10 = 0;
+                                } else {
+                                    int10 = 1;
+                                };
+                            } else if ((GENDER() == 1)) {
+                                if ((((int12 == 3) || (int12 == 4)) || (struct_getparam(int6, 1947) == 0))) {
+                                    int10 = 0;
+                                } else {
+                                    int10 = 1;
+                                };
+                            };
+                            if ((struct_getparam(int6, 9275) != -1 as struct)) {
+                                int10 = 0;
+                            };
+                        } else if ((varbitplayer_673 == 3)) {
+                            if ((struct_getparam(int6, 5766) != -1 as struct)) {
+                                int10 = 0;
+                            } else {
+                                int10 = 1;
+                            };
+                        } else {
+                            int10 = 1;
+                        };
+                    };
+                } else if ((varbitplayer_673 == 3)) {
+                    if ((script19681(int6) != -1)) {
+                        if ((STRING_INDEXOF_STRING(LOWERCASE(string1), LOWERCASE(string0), 0) != -1)) {
+                            if ((varbitplayer_673 == 1)) {
+                                if ((GENDER() == 0)) {
+                                    if ((struct_getparam(int6, 1947) == 1)) {
+                                        int10 = 0;
+                                    } else {
+                                        int10 = 1;
+                                    };
+                                } else if ((GENDER() == 1)) {
+                                    if ((((int12 == 3) || (int12 == 4)) || (struct_getparam(int6, 1947) == 0))) {
+                                        int10 = 0;
+                                    } else {
+                                        int10 = 1;
+                                    };
+                                };
+                                if ((struct_getparam(int6, 9275) != -1 as struct)) {
+                                    int10 = 0;
+                                };
+                            } else if ((varbitplayer_673 == 3)) {
+                                if ((struct_getparam(int6, 5766) != -1 as struct)) {
+                                    int10 = 0;
+                                } else {
+                                    int10 = 1;
+                                };
+                            } else {
+                                int10 = 1;
+                            };
+                        };
+                    } else if (((((MAP_MEMBERS() == 0) && (struct_getparam(int6, 2546) == 2)) && (script6214(int6) == 1)) && (STRING_INDEXOF_STRING(LOWERCASE(string1), LOWERCASE(string0), 0) != -1))) {
+                        if ((varbitplayer_673 == 1)) {
+                            if ((GENDER() == 0)) {
+                                if ((struct_getparam(int6, 1947) == 1)) {
+                                    int10 = 0;
+                                } else {
+                                    int10 = 1;
+                                };
+                            } else if ((GENDER() == 1)) {
+                                if ((((int12 == 3) || (int12 == 4)) || (struct_getparam(int6, 1947) == 0))) {
+                                    int10 = 0;
+                                } else {
+                                    int10 = 1;
+                                };
+                            };
+                            if ((struct_getparam(int6, 9275) != -1 as struct)) {
+                                int10 = 0;
+                            };
+                        } else if ((varbitplayer_673 == 3)) {
+                            if ((struct_getparam(int6, 5766) != -1 as struct)) {
+                                int10 = 0;
+                            } else {
+                                int10 = 1;
+                            };
+                        } else {
+                            int10 = 1;
+                        };
+                    };
+                } else if (((((MAP_MEMBERS() == 0) && (struct_getparam(int6, 2546) == 2)) && (script6214(int6) == 1)) && (STRING_INDEXOF_STRING(LOWERCASE(string1), LOWERCASE(string0), 0) != -1))) {
+                    if ((varbitplayer_673 == 1)) {
+                        if ((GENDER() == 0)) {
+                            if ((struct_getparam(int6, 1947) == 1)) {
+                                int10 = 0;
+                            } else {
+                                int10 = 1;
+                            };
+                        } else if ((GENDER() == 1)) {
+                            if ((((int12 == 3) || (int12 == 4)) || (struct_getparam(int6, 1947) == 0))) {
+                                int10 = 0;
+                            } else {
+                                int10 = 1;
+                            };
+                        };
+                        if ((struct_getparam(int6, 9275) != -1 as struct)) {
+                            int10 = 0;
+                        };
+                    } else if ((varbitplayer_673 == 3)) {
+                        if ((struct_getparam(int6, 5766) != -1 as struct)) {
+                            int10 = 0;
+                        } else {
+                            int10 = 1;
+                        };
+                    } else {
+                        int10 = 1;
+                    };
+                };
+            } else if ((script6488(int6) == 1)) {
+                if ((STRING_INDEXOF_STRING(LOWERCASE(string1), LOWERCASE(string0), 0) != -1)) {
+                    if ((varbitplayer_673 == 1)) {
+                        if ((GENDER() == 0)) {
+                            if ((struct_getparam(int6, 1947) == 1)) {
+                                int10 = 0;
+                            } else {
+                                int10 = 1;
+                            };
+                        } else if ((GENDER() == 1)) {
+                            if ((((int12 == 3) || (int12 == 4)) || (struct_getparam(int6, 1947) == 0))) {
+                                int10 = 0;
+                            } else {
+                                int10 = 1;
+                            };
+                        };
+                        if ((struct_getparam(int6, 9275) != -1 as struct)) {
+                            int10 = 0;
+                        };
+                    } else if ((varbitplayer_673 == 3)) {
+                        if ((struct_getparam(int6, 5766) != -1 as struct)) {
+                            int10 = 0;
+                        } else {
+                            int10 = 1;
+                        };
+                    } else {
+                        int10 = 1;
+                    };
+                };
+            } else if ((varbitplayer_673 == 3)) {
+                if ((script19681(int6) != -1)) {
+                    if ((STRING_INDEXOF_STRING(LOWERCASE(string1), LOWERCASE(string0), 0) != -1)) {
+                        if ((varbitplayer_673 == 1)) {
+                            if ((GENDER() == 0)) {
+                                if ((struct_getparam(int6, 1947) == 1)) {
+                                    int10 = 0;
+                                } else {
+                                    int10 = 1;
+                                };
+                            } else if ((GENDER() == 1)) {
+                                if ((((int12 == 3) || (int12 == 4)) || (struct_getparam(int6, 1947) == 0))) {
+                                    int10 = 0;
+                                } else {
+                                    int10 = 1;
+                                };
+                            };
+                            if ((struct_getparam(int6, 9275) != -1 as struct)) {
+                                int10 = 0;
+                            };
+                        } else if ((varbitplayer_673 == 3)) {
+                            if ((struct_getparam(int6, 5766) != -1 as struct)) {
+                                int10 = 0;
+                            } else {
+                                int10 = 1;
+                            };
+                        } else {
+                            int10 = 1;
+                        };
+                    };
+                } else if (((((MAP_MEMBERS() == 0) && (struct_getparam(int6, 2546) == 2)) && (script6214(int6) == 1)) && (STRING_INDEXOF_STRING(LOWERCASE(string1), LOWERCASE(string0), 0) != -1))) {
+                    if ((varbitplayer_673 == 1)) {
+                        if ((GENDER() == 0)) {
+                            if ((struct_getparam(int6, 1947) == 1)) {
+                                int10 = 0;
+                            } else {
+                                int10 = 1;
+                            };
+                        } else if ((GENDER() == 1)) {
+                            if ((((int12 == 3) || (int12 == 4)) || (struct_getparam(int6, 1947) == 0))) {
+                                int10 = 0;
+                            } else {
+                                int10 = 1;
+                            };
+                        };
+                        if ((struct_getparam(int6, 9275) != -1 as struct)) {
+                            int10 = 0;
+                        };
+                    } else if ((varbitplayer_673 == 3)) {
+                        if ((struct_getparam(int6, 5766) != -1 as struct)) {
+                            int10 = 0;
+                        } else {
+                            int10 = 1;
+                        };
+                    } else {
+                        int10 = 1;
+                    };
+                };
             } else if (((((MAP_MEMBERS() == 0) && (struct_getparam(int6, 2546) == 2)) && (script6214(int6) == 1)) && (STRING_INDEXOF_STRING(LOWERCASE(string1), LOWERCASE(string0), 0) != -1))) {
                 if ((varbitplayer_673 == 1)) {
                     if ((GENDER() == 0)) {

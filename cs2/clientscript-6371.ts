@@ -3,9 +3,9 @@ function script6371(int0: number, int1: number): void {
     var int2 = enum_getvalue(0, 9, 13327 as cs2enum, int0);
     IF_SETONTIMER(callback(), int1);
     IF_SETSIZE(0, 0, 0, 0, int2);
-    IF_SETHIDE(1, int2);
-    CC_DELETEALL(enum_getvalue(0, 9, 13328, int0));
-    CC_DELETEALL(enum_getvalue(0, 9, 13329, int0));
+    IF_SETHIDE(true, int2);
+    CC_DELETEALL(enum_getvalue(0, 9, 13328 as cs2enum, int0));
+    CC_DELETEALL(enum_getvalue(0, 9, 13329 as cs2enum, int0));
     switch (int0) {
         case 0: {
             varclient_1947 = comp(-1, 65535);

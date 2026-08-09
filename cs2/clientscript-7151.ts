@@ -15,12 +15,20 @@ function script7151(): void {
         int5 = (37 * (int2 / 5));
         int7 = enum_getvalue(0, 33, 15289 as cs2enum, int2);
         int3 = script6645(int7);
-        CC_CREATE(int0, 5, int6++);
+        stack(int0);
+        stack(5);
+        stack(int6);
+        int6 = (int6 + 1);
+        CC_CREATE();
         CC_SETSIZE(40, 36, 0, 0);
         CC_SETPOSITION(int4, int5, 0, 0);
         CC_SETGRAPHIC(18266 as graphic);
         CC_SETOUTLINE(1);
-        CC_CREATE(int0, 5, int6++);
+        stack(int0);
+        stack(5);
+        stack(int6);
+        int6 = (int6 + 1);
+        CC_CREATE();
         CC_SETPOSITION((int4 + 3), (int5 + 3), 0, 0);
         CC_SETSIZE(36, 32, 0, 0);
         if ((int3 > 0)) {
@@ -41,6 +49,6 @@ function script7151(): void {
     };
     IF_SETONINVTRANSMIT(callback(script7151, 866, 1), int0);
     IF_SETONVARTRANSMIT(callback(script7151, 8639, 8640, 8641, 8642, 8643, 5), int0);
-    IF_SETONVARTRANSMIT(callback(script7152, 8649, 1), 12124166);
+    IF_SETONVARTRANSMIT(callback(script7152, 8649, 1), comp(185, 6));
     return;
 }

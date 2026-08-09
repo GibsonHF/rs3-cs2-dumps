@@ -3,13 +3,8 @@ function script17154(int0: number, int1: number): void {
     stack(761856);
     stack(int0);
     DB_FIND(0);
-    dbrow_findnext();
-    var int2 = stack();
-    stack(int2);
-    stack(761968);
-    stack(0);
-    dbrow_getfield();
-    var int3 = stack();
+    var int2 = dbrow_findnext();
+    var int3 = dbrow_getfield(int2, 761968, 0);
     var int4 = -1;
     var int5 = 0;
     var int6 = 0;

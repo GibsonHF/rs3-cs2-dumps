@@ -19,9 +19,10 @@ function script11270(int0: number, int1: number): void {
             CC_SETSIZE(int4, int4, 0, 0);
             CC_SETPOSITION(((20 + (MODULO(int7, int2) * int4)) + (MODULO(int7, int2) * 20)), (int6 * (20 + int4)), 0, 0);
             CC_SETONOP(callback(script11276, int1, -2147483643));
-            CC_SETOP(1, `Select ${enum_getvalue(0, 36, 108, int5)}`);
+            CC_SETOP(1, `Select ${enum_getvalue(0, 36, 108 as cs2enum, int5)}`);
             script11271(int1, (int4 + 4), CC_GETX(), CC_GETY(), 0);
-            if ((MODULO(++int7, int2) == 0)) {
+            int7 = (int7 + 1);
+            if ((MODULO(int7, int2) == 0)) {
                 int6 = (int6 + 1);
             };
         } else {
@@ -33,8 +34,12 @@ function script11270(int0: number, int1: number): void {
     IF_SETSIZE(IF_GETWIDTH(int0), ((int6 + 1) * (20 + int4)), 0, 0, int1);
     IF_SETPOSITION(4, 4, 1, 1, int0);
     IF_SETPOSITION(0, 0, 1, 1, int1);
-    if (((varclient_4777 > 0) && (varclient_4777 <= ENUM_GETOUTPUTCOUNT(9458 as cs2enum)))) {
-        IF_SETHIDE(true, comp(1611, 16));
+    if ((varclient_4777 > 0)) {
+        if ((varclient_4777 <= ENUM_GETOUTPUTCOUNT(9458 as cs2enum))) {
+            IF_SETHIDE(true, comp(1611, 16));
+        } else {
+            IF_SETHIDE(false, comp(1611, 16));
+        };
     } else {
         IF_SETHIDE(false, comp(1611, 16));
     };

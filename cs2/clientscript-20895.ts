@@ -1,14 +1,16 @@
 //
-function script20895(string0: string): [string, number] {
+function script20895(string0: string): [number, string] {
     if ((STRING_LENGTH(string0) <= 0)) {
         return [string0, 0];
     };
     var int0 = 0;
     var int1 = 0;
     while ((int0 == 0)) {
-        switch (int1++) {
+        stack(int1);
+        int1 = (int1 + 1);
+        switch () {
             case 0: {
-                var [string0, int0] = script612(string0, "2a", "second-age", 1);
+                [string0, int0] = script612(string0, "2a", "second-age", 1);
                 break;
             }
             case 1: {

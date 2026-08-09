@@ -2,7 +2,8 @@
 function script370(): void {
     var int0 = -1;
     var int1 = 0;
-    while ((++int0 < 17)) {
+    int0 = (int0 + 1);
+    while ((int0 < 17)) {
         switch (int0) {
             case 16: {
                 if ((GETBIT_RANGE(varplayer_7050, 1, 15) == 0)) {

@@ -71,14 +71,14 @@ function script20501(int0: number): void {
         int29 = 23636;
         IF_SETONMOUSEOVER(callback(script44, 8978689, int29), comp(137, 254));
         int29 = 23635;
-        IF_SETONMOUSELEAVE(callback(script44, 8978689, int29), 8978686);
+        IF_SETONMOUSELEAVE(callback(script44, 8978689, int29), comp(137, 254));
     } else {
         IF_SETGRAPHIC(-1 as graphic, comp(137, 257));
         IF_SETHIDE(false, comp(137, 258));
         IF_SETSIZE((55 + int27), 0, 0, 1, comp(137, 254));
         IF_SETPOSITION((475 + int28), 0, 0, 0, comp(137, 254));
         IF_SETONMOUSEOVER(callback(), comp(137, 254));
-        IF_SETONMOUSELEAVE(callback(), 8978686);
+        IF_SETONMOUSELEAVE(callback(), comp(137, 254));
     };
     return;
 }

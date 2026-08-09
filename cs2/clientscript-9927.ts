@@ -29,6 +29,5 @@ function script9927(int0: number): number {
     stack(1540096);
     stack(int2);
     DB_FIND(0);
-    dbrow_findnext();
-    return stack();
+    return dbrow_findnext();
 }

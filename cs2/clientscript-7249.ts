@@ -251,10 +251,20 @@ function script7249(int0: number): void {
             }
         };
         string0 = ` ${inttostring(int6, 10)}`;
-        if ((((int5 > 0) && (int5 < 8)) && (int6 > 0))) {
-            IF_SETTEXT(string0, comp(916, 141));
-            IF_SETGRAPHIC(enum_getvalue(0, 23, 7153 as cs2enum, int5), comp(916, 140));
-            IF_SETSIZE(17, 17, 0, 0, comp(916, 140));
+        if ((int5 > 0)) {
+            if ((int5 < 8)) {
+                if ((int6 > 0)) {
+                    IF_SETTEXT(string0, comp(916, 141));
+                    IF_SETGRAPHIC(enum_getvalue(0, 23, 7153 as cs2enum, int5), comp(916, 140));
+                    IF_SETSIZE(17, 17, 0, 0, comp(916, 140));
+                } else {
+                    IF_SETTEXT("", comp(916, 141));
+                    IF_SETGRAPHIC(-1 as graphic, comp(916, 140));
+                };
+            } else {
+                IF_SETTEXT("", comp(916, 141));
+                IF_SETGRAPHIC(-1 as graphic, comp(916, 140));
+            };
         } else {
             IF_SETTEXT("", comp(916, 141));
             IF_SETGRAPHIC(-1 as graphic, comp(916, 140));
@@ -325,10 +335,20 @@ function script7249(int0: number): void {
             }
         };
         string1 = ` ${inttostring(int8, 10)}`;
-        if ((((int7 > 0) && (int7 < 10)) && (int8 > 0))) {
-            IF_SETTEXT(string1, comp(916, 143));
-            IF_SETGRAPHIC(enum_getvalue(0, 23, 7153 as cs2enum, int7), comp(916, 142));
-            IF_SETSIZE(17, 17, 0, 0, comp(916, 142));
+        if ((int7 > 0)) {
+            if ((int7 < 10)) {
+                if ((int8 > 0)) {
+                    IF_SETTEXT(string1, comp(916, 143));
+                    IF_SETGRAPHIC(enum_getvalue(0, 23, 7153 as cs2enum, int7), comp(916, 142));
+                    IF_SETSIZE(17, 17, 0, 0, comp(916, 142));
+                } else {
+                    IF_SETTEXT("", comp(916, 143));
+                    IF_SETGRAPHIC(-1 as graphic, comp(916, 142));
+                };
+            } else {
+                IF_SETTEXT("", comp(916, 143));
+                IF_SETGRAPHIC(-1 as graphic, comp(916, 142));
+            };
         } else {
             IF_SETTEXT("", comp(916, 143));
             IF_SETGRAPHIC(-1 as graphic, comp(916, 142));

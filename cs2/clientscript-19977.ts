@@ -20,14 +20,13 @@ function script19977(int0: number, int1: number, int2: number): void {
     var int7 = 0;
     var int8 = 0;
     var string0 = "0";
-    var int9 = -1 as struct;
+    var int9 = -1;
     var int10 = 0;
     while ((int10 < int6)) {
         if ((int10 < int5)) {
             [int7, string0, int9] = dbrow_getfield(int3, 1142784, int10);
         } else {
-            stack(dbrow_getfield(int3, 1142800, (int10 - int5)));
-            [int7, int8, string0, int9] = stack();
+            [int7, int8, string0, int9] = dbrow_getfield(int3, 1142800, (int10 - int5));
         };
         script15938(85918393, int10, 0, ((int10 / 8) * 26), (MODULO(int10, 8) * 26), 2, 0, 24, 24, 0, 0);
         script7858(int10, 1, 0, 0, 1, 1, 0, 0, 1, 1, 4479, "");

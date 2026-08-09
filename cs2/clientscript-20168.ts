@@ -54,8 +54,7 @@ function script20168(int0: number): number {
         };
         if ((int1 != -1)) {
             unk11023(int1, 1368160, 1);
-            dbrow_findnext();
-            if ((stack() != -1)) {
+            if ((dbrow_findnext() != -1)) {
                 return int1;
             };
         };

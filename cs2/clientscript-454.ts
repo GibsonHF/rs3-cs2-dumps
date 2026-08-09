@@ -34,8 +34,18 @@ function script454(int0: number, int1: number, int2: number, int3: number, strin
     };
     string2 = `   ${string0}`;
     if ((STRINGWIDTH(string2, 26 as fontmetrics) > int0)) {
-        while (((STRINGWIDTH(`${string2}...`, 26 as fontmetrics) > int0) && (STRING_LENGTH(string2) > 0))) {
-            string2 = SUBSTRING(string2, 0, (STRING_LENGTH(string2) - 1));
+        while ((STRINGWIDTH(`${string2}...`, 26 as fontmetrics) > int0)) {
+            if ((STRING_LENGTH(string2) > 0)) {
+                string2 = SUBSTRING(string2, 0, (STRING_LENGTH(string2) - 1));
+            };
+            string2 = `${string2}...`;
+            CC_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643));
+            CC_SETONMOUSELEAVE(callback(script8805));
+            CC_SETTEXT(string2);
+            CC_SETTEXTSHADOW(true);
+            CC_SETLINKACTIVECLANCHANNEL(CC_GETID());
+            CC_SETHIDE(false);
+            return;
         };
         string2 = `${string2}...`;
         CC_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643));

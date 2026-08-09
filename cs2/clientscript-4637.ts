@@ -43,8 +43,12 @@ function script4637(int0: number): void {
         case 6: {
             string0 = "<col=FFFFFF><u=FFFFFF>Thok Your Block Off</u></col><br><br>";
             [int1, int2] = script4644(4);
-            if (((int1 == 0) && (int2 == 0))) {
-                string0 = strconcat(string0, "<col=FFFFFF>You must complete <u=FFFFFF>Thok It To 'Em</u> to play this saga.<br><br>");
+            if ((int1 == 0)) {
+                if ((int2 == 0)) {
+                    string0 = strconcat(string0, "<col=FFFFFF>You must complete <u=FFFFFF>Thok It To 'Em</u> to play this saga.<br><br>");
+                } else if ((script4643(6) == 0)) {
+                    string0 = strconcat(string0, "<col=FFFFFF>Strength 75 required to play the unabridged version.<br><br>");
+                };
             } else if ((script4643(6) == 0)) {
                 string0 = strconcat(string0, "<col=FFFFFF>Strength 75 required to play the unabridged version.<br><br>");
             };

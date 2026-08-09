@@ -5,7 +5,7 @@ function script8203(int0: number, int1: number, int2: number, int3: number): voi
         if (((int2 == -1) || (int3 == -1))) {
             return;
         };
-        var [int0, int4, int1] = script8215(int2, int3);
+        [int0, int4, int1] = script8215(int2, int3);
     };
     var string0 = IF_GETTEXT(int1);
     var string1 = "";

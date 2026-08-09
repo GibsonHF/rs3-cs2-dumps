@@ -14,7 +14,7 @@ function script309(int0: number, int1: number, int2: number): void {
         int3 = script292(varclient_630, int1, int2, int3);
     };
     if (((varplayer_2807 != -1 as coordgrid) && (WORLDMAP_GETMAP(varplayer_2807) == int0))) {
-        int3 = script292(972 as struct, int1, int2, int3);
+        int3 = script292(972, int1, int2, int3);
     };
     if (((varclient_940 != -1 as coordgrid) && (WORLDMAP_GETMAP(varclient_940) == int0))) {
         int3 = script292(varclient_941, int1, int2, int3);
@@ -23,7 +23,7 @@ function script309(int0: number, int1: number, int2: number): void {
         int3 = script292(varclient_5921, int1, int2, int3);
     };
     if (((varclient_674 != -1 as coordgrid) && (WORLDMAP_GETMAP(varclient_674) == int0))) {
-        int3 = script292(280 as struct, int1, int2, int3);
+        int3 = script292(280, int1, int2, int3);
     };
     return;
 }

@@ -78,7 +78,8 @@ function script9399(int0: number, int1: number, int2: number): void {
             CC_SETGRAPHIC(enum_getvalue(0, 23, int11, int7));
             CC_SETSIZE((int12 - 8), (int12 - 8), 0, 0);
             CC_SETPOSITION((int13 + 4), (int14 + 4), 0, 0);
-            if ((MODULO(++int16, int10) == 0)) {
+            int16 = (int16 + 1);
+            if ((MODULO(int16, int10) == 0)) {
                 int15 = (int15 + 1);
             };
             if ((CC_FIND(int1, int3) == 1)) {

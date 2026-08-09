@@ -15,7 +15,7 @@ function script8211(int0: number, int1: number, int2: number, int3: number, stri
                 script4161(int1, MIN(180, (CC_GETTRANS() + 15)));
             } else {
                 IF_SETONTIMER(callback(), int0);
-                IF_SETHIDE(1, int0);
+                IF_SETHIDE(true, int0);
             };
         };
     };

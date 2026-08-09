@@ -4,8 +4,12 @@ function script9642(int0: number, int1: number, int2: number): [number, number] 
     var int4 = (int3 + int1);
     var int5 = -1 as obj;
     while ((int3 < int4)) {
-        if (((int2 == 1) && (CC_FIND(comp(517, 201), int3) == 1))) {
-            int5 = CC_GETINVOBJECT();
+        if ((int2 == 1)) {
+            if ((CC_FIND(comp(517, 201), int3) == 1)) {
+                int5 = CC_GETINVOBJECT();
+            } else {
+                int5 = INV_GETOBJ(95 as inv, int3);
+            };
         } else {
             int5 = INV_GETOBJ(95 as inv, int3);
         };

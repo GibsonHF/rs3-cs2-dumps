@@ -9,6 +9,29 @@ function script11925(): void {
     if ((varplayer_6679 > 0)) {
         [int0, int1, int2] = USERDETAIL_LOBBY_MEMBERSHIP();
         if ((PLAYERMEMBER() == false)) {
+            if (((RANDOM(2) == 0) && (script13491(varplayer_6601) == 0))) {
+                switch (MAP_LANG()) {
+                    case 0: {
+                        IF_SETGRAPHIC(29009 as graphic, comp(907, 38));
+                        break;
+                    }
+                    case 1: {
+                        IF_SETGRAPHIC(29011 as graphic, comp(907, 38));
+                        break;
+                    }
+                    case 2: {
+                        IF_SETGRAPHIC(29010 as graphic, comp(907, 38));
+                        break;
+                    }
+                    case 3: {
+                        IF_SETGRAPHIC(29012 as graphic, comp(907, 38));
+                        break;
+                    }
+                };
+                IF_SETONCLICK(callback(script13252), comp(907, 38));
+                script10592(59441187, 1);
+                script10593(1);
+            };
         } else if (((((int2 == 0) && (int1 < 2880)) && (RANDOM(2) == 0)) && (script13491(varplayer_6601) == 0))) {
             switch (MAP_LANG()) {
                 case 0: {

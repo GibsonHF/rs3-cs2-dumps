@@ -3,31 +3,39 @@ function script8433(int0: number, int1: number, int2: number, int3: number, int4
     var int8 = 0;
     var int9 = 0;
     if ((int0 == 105971712)) {
-        if ((((int7 != -1) && (int7 < ((5 * 4) * 2))) && (MODULO(int7, 2) == 0))) {
-            int9 = (int7 / 2);
-            switch ((int9 / 4)) {
-                case 0: {
-                    var int0 = 95682565;
-                    break;
-                }
-                case 1: {
-                    int0 = 95158279;
-                    break;
-                }
-                case 2: {
-                    int0 = 95748103;
-                    break;
-                }
-                case 3: {
-                    int0 = 79888391;
-                    break;
-                }
-                case 4: {
-                    int0 = 123404295;
-                    break;
-                }
+        if ((int7 != -1)) {
+            if ((int7 < ((5 * 4) * 2))) {
+                if ((MODULO(int7, 2) == 0)) {
+                    int9 = (int7 / 2);
+                    switch ((int9 / 4)) {
+                        case 0: {
+                            var int0 = 95682565;
+                            break;
+                        }
+                        case 1: {
+                            int0 = 95158279;
+                            break;
+                        }
+                        case 2: {
+                            int0 = 95748103;
+                            break;
+                        }
+                        case 3: {
+                            int0 = 79888391;
+                            break;
+                        }
+                        case 4: {
+                            int0 = 123404295;
+                            break;
+                        }
+                    };
+                    int9 = MODULO(int9, 4);
+                } else {
+                    return;
+                };
+            } else {
+                return;
             };
-            int9 = MODULO(int9, 4);
         } else {
             return;
         };

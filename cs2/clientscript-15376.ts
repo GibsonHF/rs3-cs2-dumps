@@ -12,27 +12,27 @@ function script15376(int0: number, int1: number, int2: number, int3: number, int
         int8 = 2;
     };
     var int9 = dbrow_getfield(int3, 548896, 0);
-    var int10 = -1 as graphic;
-    var int11 = -1 as graphic;
-    var int12 = -1 as graphic;
+    var int10 = -1;
+    var int11 = -1;
+    var int12 = -1;
     var int13 = dbrow_getfield(int3, 549344, 0);
     if ((DB_GETFIELDCOUNT(int3, 548912) > 0)) {
         [int10, int11, int12] = dbrow_getfield(int3, 548912, 0);
         switch (MAP_LANG()) {
             case 1: {
-                if ((int10 != -1 as graphic)) {
+                if ((int10 != -1)) {
                     int9 = int10;
                 };
                 break;
             }
             case 2: {
-                if ((int11 != -1 as graphic)) {
+                if ((int11 != -1)) {
                     int9 = int11;
                 };
                 break;
             }
             case 3: {
-                if ((int12 != -1 as graphic)) {
+                if ((int12 != -1)) {
                     int9 = int12;
                 };
                 break;

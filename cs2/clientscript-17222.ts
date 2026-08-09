@@ -13,8 +13,16 @@ function script17222(int0: number, int1: number, int2: number, int3: number, int
     } else {
         IF_SETHIDE(false, comp(1030, 20));
     };
-    if ((((int5 > 0) && (int1 > 0)) && (int1 == (IF_GETSCROLLHEIGHT(int0) - IF_GETSCROLLY(int0))))) {
-        IF_SETHIDE(true, comp(1030, 21));
+    if ((int5 > 0)) {
+        if ((int1 > 0)) {
+            if ((int1 == (IF_GETSCROLLHEIGHT(int0) - IF_GETSCROLLY(int0)))) {
+                IF_SETHIDE(true, comp(1030, 21));
+            } else {
+                IF_SETHIDE(false, comp(1030, 21));
+            };
+        } else {
+            IF_SETHIDE(false, comp(1030, 21));
+        };
     } else {
         IF_SETHIDE(false, comp(1030, 21));
     };

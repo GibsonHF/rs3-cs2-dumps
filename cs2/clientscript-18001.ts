@@ -10,8 +10,12 @@ function script18001(int0: number, int1: number, int2: number, int3: number, int
             script17976(int8, varclient_7296, varclient_7297);
             script18022(varclient_7296, script17874(varplayer_11339, varclient_7296), script17868(varplayer_11339, varclient_7296), -1, varclient_7297);
             int9 = script17874(varplayer_11339, varclient_7296);
-            if (((int9 == 1) && (int1 == 0))) {
-                script17984();
+            if ((int9 == 1)) {
+                if ((int1 == 0)) {
+                    script17984();
+                } else if (((int9 == 0) && (int1 == 1))) {
+                    script17983();
+                };
             } else if (((int9 == 0) && (int1 == 1))) {
                 script17983();
             };
@@ -39,7 +43,7 @@ function script18001(int0: number, int1: number, int2: number, int3: number, int
         if ((int7 != 1)) {
             script7872(1, 1, 1, 1);
         };
-        IF_SETPOSITION(CC_UNKNOWN1(), CC_UNKNOWN2(), 0, 0, comp(1227, 18));
+        IF_SETPOSITION(CC_GETABSOLUTEX(), CC_GETABSOLUTEY(), 0, 0, comp(1227, 18));
         int14 = 80412707;
         int15 = comp(1227, 36);
         int10 = IF_GETSCROLLX(int15);

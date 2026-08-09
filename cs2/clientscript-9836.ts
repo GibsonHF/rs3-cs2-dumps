@@ -4,10 +4,10 @@ function script9836(): void {
         return;
     };
     IF_SETTEXT(struct_getparam(varclient_4200, 1266), comp(1350, 3));
-    IF_SETTEXT(struct_getparam(varclient_4200, 4319), comp(1350, 4));
-    IF_SETTEXT(struct_getparam(varclient_4200, 4322), comp(1350, 36));
-    IF_SETTEXT(struct_getparam(varclient_4200, 4323), comp(1350, 44));
-    IF_SETTEXT(struct_getparam(varclient_4200, 4324), comp(1350, 52));
-    IF_SETTEXT(struct_getparam(varclient_4200, 4325), comp(1350, 60));
+    IF_SETTEXT(struct_getparam(varclient_4200, 4319), 88473604);
+    IF_SETTEXT(struct_getparam(varclient_4200, 4322), 88473636);
+    IF_SETTEXT(struct_getparam(varclient_4200, 4323), 88473644);
+    IF_SETTEXT(struct_getparam(varclient_4200, 4324), 88473652);
+    IF_SETTEXT(struct_getparam(varclient_4200, 4325), 88473660);
     return;
 }

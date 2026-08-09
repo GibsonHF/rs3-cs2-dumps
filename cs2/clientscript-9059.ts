@@ -14,7 +14,8 @@ function script9059(int0: number, int1: number, int2: number, int3: number): num
     var int8 = script9534(int1);
     if ((int8 > 0)) {
         if ((TESTBIT(int8, 0) == 1)) {
-            int7 = (++int7 + 5);
+            int7 = (int7 + 5);
+            int7 = (int7 + 5);
         };
         if ((TESTBIT(int8, 1) == 1)) {
             string1 = script9536(int1, int2, int3);

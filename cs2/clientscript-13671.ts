@@ -4,8 +4,8 @@ function script13671(int0: number): void {
         return;
     };
     var int1 = 1;
-    var int2 = -1 as obj;
-    var int3 = -1 as obj;
+    var int2 = -1;
+    var int3 = -1;
     var int4 = 0;
     var int5 = 0;
     var int6 = 36390;
@@ -18,8 +18,7 @@ function script13671(int0: number): void {
     stack(90112);
     stack(varbitplayer_37614);
     DB_FIND(0);
-    dbrow_findnext();
-    var int13 = stack();
+    var int13 = dbrow_findnext();
     var int14 = DB_GETFIELDCOUNT(int13, 90416);
     if ((int14 > 0)) {
         [int2, int4] = dbrow_getfield(int13, 90416, 0);
@@ -27,10 +26,10 @@ function script13671(int0: number): void {
             [int3, int5] = dbrow_getfield(int13, 90416, 1);
         };
         [int4, int5] = script13641(varbitplayer_37615);
-        if ((int2 != -1 as obj)) {
+        if ((int2 != -1)) {
             int1 = 2;
         };
-        if ((int3 != -1 as obj)) {
+        if ((int3 != -1)) {
             int1 = 3;
         };
     };
@@ -43,7 +42,7 @@ function script13671(int0: number): void {
         if ((int1 == 1)) {
             int12 = 0;
             int9 = (int9 + 1);
-            script13674(int0, int9, -1 as obj, 24224, -1, int11, int12, 0);
+            script13674(int0, int9, -1, 24224, -1, int11, int12, 0);
             script13310(124649484, 124649506, 31, 8000);
             if ((IF_FIND[1](comp(1902, 33)) == 1)) {
                 CC_SETPOSITION[1](CC_GETX[1](), int12, 0, 1);
@@ -63,7 +62,7 @@ function script13671(int0: number): void {
             } else {
                 int12 = (IF_GETHEIGHT(int0) / 4);
                 int9 = (int9 + 1);
-                script13674(int0, int9, -1 as obj, int7, -1, int11, int12, 0);
+                script13674(int0, int9, -1, int7, -1, int11, int12, 0);
                 script13310(124649484, 124649506, 31, 8000);
                 if ((IF_FIND[1](comp(1902, 33)) == 1)) {
                     CC_SETPOSITION[1](CC_GETX[1](), int12, 0, 1);
@@ -90,7 +89,7 @@ function script13671(int0: number): void {
             } else {
                 int12 = (IF_GETHEIGHT(int0) / 3);
                 int9 = (int9 + 1);
-                script13674(int0, int9, -1 as obj, int7, -1, int11, int12, 0);
+                script13674(int0, int9, -1, int7, -1, int11, int12, 0);
                 script13310(124649484, 124649506, 31, 8000);
                 if ((IF_FIND[1](comp(1902, 33)) == 1)) {
                     CC_SETPOSITION[1](CC_GETX[1](), int12, 0, 1);

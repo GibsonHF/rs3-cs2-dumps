@@ -1,8 +1,13 @@
 //
 function script1309(): void {
-    if (((varbitplayer_3292 != 6) && (script6950() > 1))) {
-        IF_SETOPKEY(1, 83, 0, comp(696, 13));
-        IF_SETOPKEYIGNOREHELD(1, comp(696, 13));
+    if ((varbitplayer_3292 != 6)) {
+        if ((script6950() > 1)) {
+            IF_SETOPKEY(1, 83, 0, comp(696, 13));
+            IF_SETOPKEYIGNOREHELD(1, comp(696, 13));
+        } else {
+            IF_SETOPKEY(1, 83, 0, comp(696, 7));
+            IF_SETOPKEYIGNOREHELD(1, comp(696, 7));
+        };
     } else {
         IF_SETOPKEY(1, 83, 0, comp(696, 7));
         IF_SETOPKEYIGNOREHELD(1, comp(696, 7));

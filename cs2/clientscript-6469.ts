@@ -1,6 +1,14 @@
 //
 function script6469(int0: number, int1: number, int2: number, int3: number): void {
-    if ((((int1 == -1) && (IF_FIND(int0) == 1)) || (CC_FIND(int0, int1) == 1))) {
+    if ((int1 == -1)) {
+        if (((IF_FIND(int0) == 1) || (CC_FIND(int0, int1) == 1))) {
+            if ((CC_GETINVOBJECT() != int2)) {
+                return;
+            };
+            CC_CLEAROPS();
+            script2833(int2, int3, int1, -1);
+        };
+    } else if ((CC_FIND(int0, int1) == 1)) {
         if ((CC_GETINVOBJECT() != int2)) {
             return;
         };

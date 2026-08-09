@@ -19,7 +19,7 @@ function script18111(int0: number): void {
     var int9 = 0;
     var int10 = 0;
     var int11 = 1;
-    var int12 = -1 as dbrow;
+    var int12 = -1;
     var int13 = 0;
     var int14 = -1;
     var string0 = "";
@@ -35,18 +35,33 @@ function script18111(int0: number): void {
             int9 = (int9 + 1);
         };
         if ((CC_FINDBYCATEGORY(comp(403, 24), int3, int9) == 1)) {
-            script15937(int11, int8++, 0, 0, 0, 0, 200, 200, 0, 0);
+            stack(int11);
+            stack(int8);
+            int8 = (int8 + 1);
+            script15937(0, 0, 0, 0, 200, 200, 0, 0);
             int12 = dbrow_getfield(int0, 991536, (int11 - 1));
             int13 = script17924(int11);
             if ((int13 <= 0)) {
                 int17 = 23;
             };
-            script17947(int11, int8++, 0, 0, 0, 0, 0, 0, 1, 1, 7929);
+            stack(int11);
+            stack(int8);
+            int8 = (int8 + 1);
+            script17947(0, 0, 0, 0, 0, 0, 1, 1, 7929);
             CC_GETDYNAMICLAYER();
-            script7918(int11, int8++, 0, 50, 1, 0, 6, 0, 1, 1, 3860);
-            script10485(int11, int8++, 0, 3, 1, 0, 10, 47, 1, 0, 7986, script17915(int12));
+            stack(int11);
+            stack(int8);
+            int8 = (int8 + 1);
+            script7918(0, 50, 1, 0, 6, 0, 1, 1, 3860);
+            stack(int11);
+            stack(int8);
+            int8 = (int8 + 1);
+            script10485(0, 3, 1, 0, 10, 47, 1, 0, 7986, script17915(int12));
             CC_SETTEXTALIGN(1, 1, 20);
-            script10485(int11, int8++, 0, 52, 1, 0, 10, 55, 1, 0, 7996, script17916(int12));
+            stack(int11);
+            stack(int8);
+            int8 = (int8 + 1);
+            script10485(0, 52, 1, 0, 10, 55, 1, 0, 7996, script17916(int12));
             int15 = script17919(int12);
             int16 = script17925(int11);
             if ((int16 <= 0)) {
@@ -65,10 +80,16 @@ function script18111(int0: number): void {
                 };
                 string0 = "Deactivate";
             };
-            script10485(int11, int8++, 40, 107, 0, 0, 80, 29, 0, 0, 7995, string1);
+            stack(int11);
+            stack(int8);
+            int8 = (int8 + 1);
+            script10485(40, 107, 0, 0, 80, 29, 0, 0, 7995, string1);
             CC_SETTEXTALIGN(0, 1, 0);
             string0 = "Disabled";
-            script10485(int11, int8++, 0, 140, 1, 0, 10, 15, 1, 0, 7995, `<col=2EF8FF>${TOSTRING_LOCALISED(int13, 1)}</col> ${script4583(int13, "charge", "charges")} remaining`);
+            stack(int11);
+            stack(int8);
+            int8 = (int8 + 1);
+            script10485(0, 140, 1, 0, 10, 15, 1, 0, 7995, `<col=2EF8FF>${TOSTRING_LOCALISED(int13, 1)}</col> ${script4583(int13, "charge", "charges")} remaining`);
             script7858(0, int11, 0, 160, 1, 0, 130, 30, 0, 0, script17989(int17), `<col=E0D471>${string0}</col>`);
             script7872(0, 1, 0, 0);
             CC_SETTEXTFONT(57 as fontmetrics);

@@ -1,5 +1,5 @@
 //
-function script18235(): [number, string, string, number] {
+function script18235(): [number, number, string, string] {
     var int0 = -1 as struct;
     var int1 = -1;
     switch (RANDOM(3)) {
@@ -22,19 +22,19 @@ function script18235(): [number, string, string, number] {
             return [0, script17039(int0), struct_getparam(int0, 1273), int1];
         }
         case 2: {
-            int0 = enum_getvalue(0, 73, 6817 as cs2enum, varbitplayer_16579);
+            int0 = enum_getvalue(0, 73, 6817, varbitplayer_16579);
             return [0, script17039(int0), struct_getparam(int0, 1273), int1];
         }
         case 3: {
-            int0 = enum_getvalue(0, 73, 6817 as cs2enum, varbitplayer_16583);
+            int0 = enum_getvalue(0, 73, 6817, varbitplayer_16583);
             return [0, script17039(int0), struct_getparam(int0, 1273), int1];
         }
         case 4: {
-            int0 = enum_getvalue(0, 73, 6817 as cs2enum, varbitplayer_16587);
+            int0 = enum_getvalue(0, 73, 6817, varbitplayer_16587);
             return [0, script17039(int0), struct_getparam(int0, 1273), int1];
         }
         case 5: {
-            int0 = enum_getvalue(0, 73, 6817 as cs2enum, varbitplayer_16591);
+            int0 = enum_getvalue(0, 73, 6817, varbitplayer_16591);
             return [0, script17039(int0), struct_getparam(int0, 1273), int1];
         }
     };

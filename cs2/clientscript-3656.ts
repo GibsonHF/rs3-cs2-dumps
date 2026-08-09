@@ -5,7 +5,7 @@ function script3656(int0: number, int1: number): [number, number, number, number
     var int4 = DB_GETFIELDCOUNT(int2, 299312);
     var int5 = 0;
     var int6 = 0;
-    var int7 = -1 as dbrow;
+    var int7 = -1;
     var int8 = 0;
     var int9 = 0;
     if ((int0 == varplayer_9078)) {
@@ -29,7 +29,7 @@ function script3656(int0: number, int1: number): [number, number, number, number
     };
     while ((int3 < int4)) {
         [int5, int6, int7, int8, int9] = dbrow_getfield(int2, 299312, int3);
-        if ((((int5 == int0) && (int7 != -1 as dbrow)) && (AND(int6, varplayer_9062) != 0))) {
+        if ((((int5 == int0) && (int7 != -1)) && (AND(int6, varplayer_9062) != 0))) {
             if ((int1 == 0)) {
                 return [int5, int6, int7, int8, int9];
             };
@@ -37,5 +37,5 @@ function script3656(int0: number, int1: number): [number, number, number, number
         };
         int3 = (int3 + 1);
     };
-    return [-1, -1, -1 as dbrow, -1, -1];
+    return [-1, -1, -1, -1, -1];
 }

@@ -12,7 +12,7 @@ function script1062(int0: number, int1: number, int2: number, int3: number, int4
     CC_SETTEXTFONT(26 as fontmetrics);
     CC_SETTEXTALIGN(1, 1, 0);
     unk11165(int2);
-    var string0 = stack();
+    var string0 = [];
     CC_SETOPBASE(string0);
     CC_SETONOP(callback(script1067, int0, int1, int5));
     CC_SETOP(1, "Return to: ");
@@ -54,10 +54,10 @@ function script1062(int0: number, int1: number, int2: number, int3: number, int4
     CC_SETSIZE[1](CC_GETWIDTH(), CC_GETHEIGHT(), 0, 0);
     CC_SETCOLOUR[1](5733957);
     CC_SETFILL[1](1);
-    CC_SETHIDE[1](1);
-    IF_SETHIDE(0, int6);
+    CC_SETHIDE[1](true);
+    IF_SETHIDE(false, int6);
     CHATCAT_GETSUBCATCOUNT(int2);
-    var int8 = stack();
+    var int8 = [];
     stack(int2);
     var int9 = CHATCAT_GETPHRASECOUNT();
     var int10 = 0;
@@ -75,7 +75,7 @@ function script1062(int0: number, int1: number, int2: number, int3: number, int4
         CC_SETTEXTALIGN(0, 1, 0);
         int14 = CHATCAT_GETSUBCAT(int2, int10);
         unk11165(int14);
-        string0 = stack();
+        string0 = [];
         CC_SETONOP(callback(script1060, int6, int7, int11, int0, (int1 + 1), int14, int5));
         CC_SETOPBASE(string0);
         CC_SETOP(1, "Select: ");
@@ -127,7 +127,7 @@ function script1062(int0: number, int1: number, int2: number, int3: number, int4
         CC_SETTEXTFONT(26 as fontmetrics);
         CC_SETTEXTALIGN(0, 1, 0);
         unk11165(int3);
-        string0 = stack();
+        string0 = [];
         CC_SETONOP(callback(script1060, int6, int7, int11, int0, (int1 + 1), int3, int5));
         CC_SETOPBASE(string0);
         CC_SETOP(1, "Select: ");
@@ -135,8 +135,8 @@ function script1062(int0: number, int1: number, int2: number, int3: number, int4
         CC_SETONMOUSELEAVE(callback(script1083, int1, int7, int11, int5));
         string0 = `<col=F01010>X. <col=FFFFFF>${string0} <img=2>`;
         CC_SETTEXT(string0);
-        CC_SETTEXTSHADOW(1);
-        int12 = PARAWIDTH(string0, IF_GETWIDTH(int0), 26);
+        CC_SETTEXTSHADOW(true);
+        int12 = PARAWIDTH(string0, IF_GETWIDTH(int0), 26 as fontmetrics);
         if ((int12 > int13)) {
             int13 = int12;
         };
@@ -153,8 +153,8 @@ function script1062(int0: number, int1: number, int2: number, int3: number, int4
         CC_SETONMOUSEOVER(callback(script1082, int1, int7, int11, int5));
         CC_SETONMOUSELEAVE(callback(script1083, int1, int7, int11, int5));
         CC_SETTEXT(`<col=F01010>Enter. <col=FFFFFF>Search <img=2>`);
-        CC_SETTEXTSHADOW(1);
-        int12 = PARAWIDTH(string0, IF_GETWIDTH(int0), 26);
+        CC_SETTEXTSHADOW(true);
+        int12 = PARAWIDTH(string0, IF_GETWIDTH(int0), 26 as fontmetrics);
         if ((int12 > int13)) {
             int13 = int12;
         };

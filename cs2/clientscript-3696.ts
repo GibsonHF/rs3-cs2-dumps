@@ -12,7 +12,7 @@ function script3696(int0: number): void {
     script13972(5898304, 5898305, 28595, "Add/Remove Animals", 1);
     script13969(5898389, 5898390, 28595, "Farmhands");
     varclient_6489 = 0;
-    if ((int0 == -1 as dbrow)) {
+    if ((int0 == -1)) {
         return;
     };
     var int6 = INV_SIZE(93 as inv);
@@ -45,7 +45,7 @@ function script3696(int0: number): void {
     };
     var int13 = dbrow_getfield(int0, 159776, 0);
     int5 = script4185(int7, int2, int13, int10, int11, "Remove", 0);
-    int5 = script4185(93 as inv, int2, int13, int8, int9, "Add", 1);
+    int5 = script4185(93, int2, int13, int8, int9, "Add", 1);
     int5 = MAX(int5, (IF_GETHEIGHT(comp(90, 15)) - 78));
     IF_SETSCROLLSIZE(0, (int5 + 78), comp(90, 15));
     script31(5898254, 5898255, -1, -1, -1, -1, -1, -1);

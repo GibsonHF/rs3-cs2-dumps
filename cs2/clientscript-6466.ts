@@ -5,8 +5,12 @@ function script6466(int0: number, int1: number, int2: number, int3: number, int4
     if (((int5 != 2) && (int3 == 0))) {
         return [int1, int2];
     };
-    if ((((GENDER() == 0) && (int5 == 1)) && ((((int6 == 1) || (int6 == 2)) && (struct_getparam(int0, 2772) != 0)) && (enum_getvalue(0, 73, 2338 as cs2enum, struct_getparam(int0, 2772)) == 741 as struct)))) {
-        return [int1, int2];
+    if (((GENDER() == 0) && (int5 == 1))) {
+        if (((int6 == 1) || (int6 == 2))) {
+            if (((struct_getparam(int0, 2772) != 0) && (enum_getvalue(0, 73, 2338 as cs2enum, struct_getparam(int0, 2772)) == 741 as struct))) {
+                return [int1, int2];
+            };
+        };
     };
     var int7 = enum_getvalue(0, 9, 5961 as cs2enum, int6);
     if ((int7 == comp(-1, 65535))) {
@@ -89,12 +93,160 @@ function script6466(int0: number, int1: number, int2: number, int3: number, int4
     };
     CC_SETPOSITION(((int2 * int22) + ((int22 - CC_GETWIDTH()) / 2)), (int1 + ((26 - CC_GETHEIGHT()) / 2)), 0, 0);
     CC_SETOP(1, "Preview");
-    if ((((int11 == 24170 as graphic) && (int5 != 1)) && (int5 != 5))) {
-        CC_SETOP(2, "Deactivate");
-    } else if ((((int19 == 0) && (int20 == 0)) && ((((int11 == 24168 as graphic) || (int11 == 24173 as graphic)) && (int5 != 5)) && ((int5 != 3) || (script18366(int0) == 0))))) {
-        CC_SETOP(2, "Activate");
-    } else if (((int5 == 5) && (struct_getparam(int0, 6973) == 1))) {
-        CC_SETOP(2, "Recolour");
+    if ((int11 == 24170 as graphic)) {
+        if ((int5 != 1)) {
+            if ((int5 != 5)) {
+                CC_SETOP(2, "Deactivate");
+            } else if ((int19 == 0)) {
+                if ((int20 == 0)) {
+                    if (((int11 == 24168 as graphic) || (int11 == 24173 as graphic))) {
+                        if ((int5 != 5)) {
+                            if (((int5 != 3) || (script18366(int0) == 0))) {
+                                CC_SETOP(2, "Activate");
+                            } else if ((int5 == 5)) {
+                                if ((struct_getparam(int0, 6973) == 1)) {
+                                    CC_SETOP(2, "Recolour");
+                                } else {
+                                    CC_SETOP(2, "");
+                                };
+                            } else {
+                                CC_SETOP(2, "");
+                            };
+                        } else if ((int5 == 5)) {
+                            if ((struct_getparam(int0, 6973) == 1)) {
+                                CC_SETOP(2, "Recolour");
+                            } else {
+                                CC_SETOP(2, "");
+                            };
+                        } else {
+                            CC_SETOP(2, "");
+                        };
+                    } else if ((int5 == 5)) {
+                        if ((struct_getparam(int0, 6973) == 1)) {
+                            CC_SETOP(2, "Recolour");
+                        } else {
+                            CC_SETOP(2, "");
+                        };
+                    } else {
+                        CC_SETOP(2, "");
+                    };
+                } else if ((int5 == 5)) {
+                    if ((struct_getparam(int0, 6973) == 1)) {
+                        CC_SETOP(2, "Recolour");
+                    } else {
+                        CC_SETOP(2, "");
+                    };
+                } else {
+                    CC_SETOP(2, "");
+                };
+            } else if ((int5 == 5)) {
+                if ((struct_getparam(int0, 6973) == 1)) {
+                    CC_SETOP(2, "Recolour");
+                } else {
+                    CC_SETOP(2, "");
+                };
+            } else {
+                CC_SETOP(2, "");
+            };
+        } else if ((int19 == 0)) {
+            if ((int20 == 0)) {
+                if (((int11 == 24168 as graphic) || (int11 == 24173 as graphic))) {
+                    if ((int5 != 5)) {
+                        if (((int5 != 3) || (script18366(int0) == 0))) {
+                            CC_SETOP(2, "Activate");
+                        } else if ((int5 == 5)) {
+                            if ((struct_getparam(int0, 6973) == 1)) {
+                                CC_SETOP(2, "Recolour");
+                            } else {
+                                CC_SETOP(2, "");
+                            };
+                        } else {
+                            CC_SETOP(2, "");
+                        };
+                    } else if ((int5 == 5)) {
+                        if ((struct_getparam(int0, 6973) == 1)) {
+                            CC_SETOP(2, "Recolour");
+                        } else {
+                            CC_SETOP(2, "");
+                        };
+                    } else {
+                        CC_SETOP(2, "");
+                    };
+                } else if ((int5 == 5)) {
+                    if ((struct_getparam(int0, 6973) == 1)) {
+                        CC_SETOP(2, "Recolour");
+                    } else {
+                        CC_SETOP(2, "");
+                    };
+                } else {
+                    CC_SETOP(2, "");
+                };
+            } else if ((int5 == 5)) {
+                if ((struct_getparam(int0, 6973) == 1)) {
+                    CC_SETOP(2, "Recolour");
+                } else {
+                    CC_SETOP(2, "");
+                };
+            } else {
+                CC_SETOP(2, "");
+            };
+        } else if ((int5 == 5)) {
+            if ((struct_getparam(int0, 6973) == 1)) {
+                CC_SETOP(2, "Recolour");
+            } else {
+                CC_SETOP(2, "");
+            };
+        } else {
+            CC_SETOP(2, "");
+        };
+    } else if ((int19 == 0)) {
+        if ((int20 == 0)) {
+            if (((int11 == 24168 as graphic) || (int11 == 24173 as graphic))) {
+                if ((int5 != 5)) {
+                    if (((int5 != 3) || (script18366(int0) == 0))) {
+                        CC_SETOP(2, "Activate");
+                    } else if ((int5 == 5)) {
+                        if ((struct_getparam(int0, 6973) == 1)) {
+                            CC_SETOP(2, "Recolour");
+                        } else {
+                            CC_SETOP(2, "");
+                        };
+                    } else {
+                        CC_SETOP(2, "");
+                    };
+                } else if ((int5 == 5)) {
+                    if ((struct_getparam(int0, 6973) == 1)) {
+                        CC_SETOP(2, "Recolour");
+                    } else {
+                        CC_SETOP(2, "");
+                    };
+                } else {
+                    CC_SETOP(2, "");
+                };
+            } else if ((int5 == 5)) {
+                if ((struct_getparam(int0, 6973) == 1)) {
+                    CC_SETOP(2, "Recolour");
+                } else {
+                    CC_SETOP(2, "");
+                };
+            } else {
+                CC_SETOP(2, "");
+            };
+        } else if ((int5 == 5)) {
+            if ((struct_getparam(int0, 6973) == 1)) {
+                CC_SETOP(2, "Recolour");
+            } else {
+                CC_SETOP(2, "");
+            };
+        } else {
+            CC_SETOP(2, "");
+        };
+    } else if ((int5 == 5)) {
+        if ((struct_getparam(int0, 6973) == 1)) {
+            CC_SETOP(2, "Recolour");
+        } else {
+            CC_SETOP(2, "");
+        };
     } else {
         CC_SETOP(2, "");
     };
@@ -103,7 +255,7 @@ function script6466(int0: number, int1: number, int2: number, int3: number, int4
     CC_SETONMOUSELEAVE(callback(script688, -2147483645, CC_GETID(), int11));
     var string0 = "";
     var string1 = "";
-    var int23 = -1;
+    var int23 = -1 as cs2enum;
     if ((int5 == 1)) {
         if (((int6 == 1) || (int6 == 2))) {
             if ((GENDER() == 1)) {
@@ -113,10 +265,10 @@ function script6466(int0: number, int1: number, int2: number, int3: number, int4
             };
             string0 = struct_getparam(enum_getvalue(0, 73, int23, struct_getparam(int0, 2772)), 792);
         } else if (((int6 == 3) || (int6 == 4))) {
-            string0 = enum_getvalue(0, 36, 2340 as cs2enum, struct_getparam(int0, 2772));
+            string0 = enum_getvalue(0, 36, 2340, struct_getparam(int0, 2772));
         };
     } else if ((int6 == 19)) {
-        if ((script9964(int0) == -1 as obj)) {
+        if ((script9964(int0) == -1)) {
             string0 = struct_getparam(int0, 2533);
         } else {
             string0 = `Cosmetic ${LOWERCASE(OC_NAME(script9964(int0)))}`;

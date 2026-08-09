@@ -79,5 +79,6 @@ function script9060(int0: number, int1: number, int2: number, int3: number, int4
     CC_SETPOSITION(10, (int3 + 4), 2, 0);
     CC_SETSIZE(40, 40, 0, 0);
     script3562(int7, int8, int9, int5);
-    return [++int3, int6];
+    int3 = (int3 + 48);
+    return [int3, int6];
 }

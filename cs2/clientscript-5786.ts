@@ -53,7 +53,7 @@ function script5786(int0: number, int1: number, int2: number, int3: number, int4
         if ((varplayer_1831 != -1 as obj)) {
             int10 = (int7 - script3970(95, int6, int7, int8, script734(int12)));
             if ((int10 == 0)) {
-                script2347(int8, int11, script14339(int1, int11), int9, int0, -1, 530 as inv, int3, 1, 1);
+                script2347(int8, int11, script14339(int1, int11), int9, int0, -1, 530, int3, 1, 1);
                 script14187();
                 return 0;
             };
@@ -123,7 +123,7 @@ function script5786(int0: number, int1: number, int2: number, int3: number, int4
             if ((int24 == 0)) {
                 return 0;
             };
-            if ((script14346(int1, int3) != -1 as obj)) {
+            if ((script14346(int1, int3) != -1)) {
                 return 0;
             };
             int7 = script14345(int0);
@@ -159,12 +159,16 @@ function script5786(int0: number, int1: number, int2: number, int3: number, int4
         };
         int10 = MIN(int10, int21);
         var int2 = int20;
-    } else if ((script14346(int1, int3) != -1 as obj)) {
+    } else if ((script14346(int1, int3) != -1)) {
         return 0;
     };
     int7 = script14345(int0);
-    if (((OC_STACKABLE(int6) == 0) && (int12 == 0))) {
-        script14362(int0, int7, int6, 1, int1, int2, script734(int12), int4);
+    if ((OC_STACKABLE(int6) == 0)) {
+        if ((int12 == 0)) {
+            script14362(int0, int7, int6, 1, int1, int2, script734(int12), int4);
+        } else {
+            script14362(int0, int7, int6, int10, int1, int2, script734(int12), int4);
+        };
     } else {
         script14362(int0, int7, int6, int10, int1, int2, script734(int12), int4);
     };

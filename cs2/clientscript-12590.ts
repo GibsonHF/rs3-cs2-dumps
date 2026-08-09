@@ -20,8 +20,16 @@ function script12590(int0: number, int1: number, int2: number, int3: number): nu
             break;
         }
         case 5: {
-            if ((((varbitplayer_19928 == 1) && (int2 > 226)) && (script1186() == 1))) {
-                int4 = (255 - (5 * (255 - int2)));
+            if ((varbitplayer_19928 == 1)) {
+                if ((int2 > 226)) {
+                    if ((script1186() == 1)) {
+                        int4 = (255 - (5 * (255 - int2)));
+                    } else {
+                        int4 = (int2 / 2);
+                    };
+                } else {
+                    int4 = (int2 / 2);
+                };
             } else {
                 int4 = (int2 / 2);
             };

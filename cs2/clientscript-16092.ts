@@ -19,7 +19,7 @@ function script16092(int0: number, int1: number, int2: number, int3: number, int
         if ((MODULO(varbitplayer_51593, script16725()) == 0)) {
             int10 = 0;
         };
-        IF_SETONTIMER(callback(script16013, int10, int4, int1, int3, int2), 31784973);
+        IF_SETONTIMER(callback(script16013, int10, int4, int1, int3, int2), comp(485, 13));
     };
     return;
 }

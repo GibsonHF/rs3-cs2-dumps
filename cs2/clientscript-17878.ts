@@ -1,8 +1,8 @@
 //
 function script17878(int0: number, int1: number): [number, number, number, number, number, number] {
-    if ((int0 == -1 as dbrow)) {
+    if ((int0 == -1)) {
         script12478("Invalid pass.");
-        return [0, -1 as dbrow, -1 as dbrow, -1 as dbrow, -1 as dbrow, -1 as dbrow];
+        return [0, -1, -1, -1, -1, -1];
     };
     if ((int1 == script17892(int0))) {
         return script17879(int0);
@@ -10,15 +10,15 @@ function script17878(int0: number, int1: number): [number, number, number, numbe
     var int1 = MAX(0, int1);
     script17927();
     var int2 = 0;
-    var int3 = -1 as dbrow;
-    var int4 = -1 as dbrow;
-    var int5 = -1 as dbrow;
-    var int6 = -1 as dbrow;
-    var int7 = -1 as dbrow;
+    var int3 = -1;
+    var int4 = -1;
+    var int5 = -1;
+    var int6 = -1;
+    var int7 = -1;
     var int8 = (int1 - 1);
     var int9 = DB_GETFIELDCOUNT(int0, 991360);
     var int10 = 0;
-    var int11 = -1 as dbrow;
+    var int11 = -1;
     while ((int8 < int9)) {
         [int10, int11] = dbrow_getfield(int0, 991360, int8);
         if ((int10 == int1)) {

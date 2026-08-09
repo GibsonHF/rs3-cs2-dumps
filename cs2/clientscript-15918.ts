@@ -32,7 +32,7 @@ function script15918(): void {
         CC_SETONMOUSELEAVE(callback(script15920, 0, -2147483645, -2147483643, 122355772));
         script14402(122355743, int0, 0, 24, 0, int1);
         CC_SETONOP(callback(script15921, -2147483645, -2147483643));
-        script2995(122355742, IF_GETNEXTSUBID(122355742), 0, int1, 1, 0, 0, 24, 1, 0, 2100, string0);
+        script2995(122355742, IF_GETNEXTSUBID(comp(1867, 30)), 0, int1, 1, 0, 0, 24, 1, 0, 2100, string0);
         CC_SETTEXTALIGN(1, 1, 0);
         script6888(2);
         if ((int2 == 1)) {

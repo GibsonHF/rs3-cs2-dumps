@@ -1,7 +1,9 @@
 //
 function script9818(): void {
-    if ((((varplayer_1784 == -1 as npc) || (varplayer_1784 == 0 as npc)) && (enum_getvalue(33, 32, 1320 as cs2enum, varplayer_1831) != 6988 as npc))) {
-        varplayer_1784 = enum_getvalue(33, 32, 1320 as cs2enum, varplayer_1831);
+    if (((varplayer_1784 == -1 as npc) || (varplayer_1784 == 0 as npc))) {
+        if ((enum_getvalue(33, 32, 1320 as cs2enum, varplayer_1831) != 6988 as npc)) {
+            varplayer_1784 = enum_getvalue(33, 32, 1320 as cs2enum, varplayer_1831);
+        };
     };
     IF_SETNPCHEAD(varplayer_1784, comp(662, 52));
     IF_SETMODELZOOM(2168, comp(662, 52));

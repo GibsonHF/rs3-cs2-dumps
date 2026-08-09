@@ -95,7 +95,7 @@ function script493(int0: number, int1: number): void {
             IF_SETHIDE(false, comp(1015, 75));
             IF_SETTEXT(struct_getparam(int4, 1150), comp(1015, 72));
             IF_SETGRAPHIC(struct_getparam(int4, 1153), comp(1015, 70));
-            IF_SETTEXT(struct_getparam(int4, 1151), comp(1015, 73));
+            IF_SETTEXT(struct_getparam(int4, 1151), 66519113);
             IF_SETTEXT(strconcat("Cooldown: ", inttostring(struct_getparam(int4, 1155), 10)), comp(1015, 74));
             IF_SETTEXT(strconcat("Cost: ", inttostring(struct_getparam(int4, 1154), 10)), comp(1015, 75));
         };

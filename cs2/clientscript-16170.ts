@@ -4,7 +4,7 @@ function script16170(int0: number, int1: number, int2: number): [number, number,
     var int4 = 0;
     var int5 = -1;
     var int6 = 0;
-    var int7 = -1 as obj;
+    var int7 = -1;
     var int8 = 0;
     var int9 = 0;
     var int10 = 0;
@@ -14,7 +14,7 @@ function script16170(int0: number, int1: number, int2: number): [number, number,
     var int14 = 0;
     var int15 = dbrow_getfield(int0, 413728, 0);
     var int16 = dbrow_getfield(int0, 413744, 0);
-    if ((int15 == false)) {
+    if ((int15 == 0)) {
         int14 = script16174(int2);
     };
     switch (int0) {
@@ -26,11 +26,12 @@ function script16170(int0: number, int1: number, int2: number): [number, number,
             return script4733(int0, int1);
         }
     };
-    while ((++int1 < int3)) {
+    var int1 = (int1 + 1);
+    while ((int1 < int3)) {
         [int7, int8, int9, int10, int12, int13, int11, int6] = dbrow_getfield(int0, 413696, int1);
         if ((script16175(int7, int11, int12, int13, int9, int14, int16) == 1)) {
             return [int7, int8, int9, int10, int1];
         };
     };
-    return [-1 as obj, -1, -1, -1, int1];
+    return [-1, -1, -1, -1, int1];
 }

@@ -8,5 +8,6 @@ function script12086(int0: number, int1: number, int2: number, int3: number, int
     CC_SETTEXT(string0);
     CC_SETSIZE(int4, int7, 0, 0);
     CC_SETPOSITION(int2, int3, 0, 0);
-    return [++int1, (int3 + int7)];
+    var int1 = (int1 + 1);
+    return [int1, (int3 + int7)];
 }

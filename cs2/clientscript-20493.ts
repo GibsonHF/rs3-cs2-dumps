@@ -31,6 +31,9 @@ function script20493(int0: number, int1: number, int2: number, int3: number): [n
         }
     };
     var int4 = script20478(string0, IF_GETWIDTH(int0), 2100, 0);
-    script2995(int0, int1++, 0, 0, 0, 0, 0, int4, 1, 0, 2100, string0);
+    stack(int0);
+    stack(int1);
+    var int1 = (int1 + 1);
+    script2995(0, 0, 0, 0, 0, int4, 1, 0, 2100, string0);
     return [int1, ((int2 + int4) + 10)];
 }

@@ -6,23 +6,23 @@ function script7131(int0: number, int1: number, int2: number, int3: number, int4
     var int16 = int12;
     var int12 = script7132(int11, int12);
     var string0 = "null";
-    var int17 = -1 as graphic;
-    var int18 = -1 as obj;
+    var int17 = -1;
+    var int18 = -1;
     [string0, int17, int18] = script12103(int5, int7);
     if ((int6 != -1)) {
         if ((STRING_LENGTH(struct_getparam(int6, 7762)) > 1)) {
             string0 = struct_getparam(int6, 7762);
         };
-        if ((struct_getparam(int6, 7763) != -1 as obj)) {
+        if ((struct_getparam(int6, 7763) != -1)) {
             int18 = struct_getparam(int6, 7763);
-            if ((int18 != -1 as obj)) {
-                int17 = -1 as graphic;
+            if ((int18 != -1)) {
+                int17 = -1;
             };
         };
-        if ((int5 == -1 as obj)) {
+        if ((int5 == -1)) {
             string0 = OC_NAME(struct_getparam(int6, 2655));
         };
-        if (((int17 == -1 as graphic) && (int18 == -1 as obj))) {
+        if (((int17 == -1) && (int18 == -1))) {
             int18 = struct_getparam(int6, 2655);
         };
     };
@@ -41,14 +41,14 @@ function script7131(int0: number, int1: number, int2: number, int3: number, int4
     CC_CREATE[1](int11, 5, int12);
     CC_SETSIZE[1](int15, int14, 0, 0);
     CC_SETPOSITION[1](int1, MAX(int2, ((CC_GETY() + (CC_GETHEIGHT() / 2)) - (CC_GETHEIGHT[1]() / 2))), 0, 0);
-    if ((int17 != -1 as graphic)) {
+    if ((int17 != -1)) {
         CC_SETGRAPHIC[1](int17);
-        if ((int5 == 37411 as obj)) {
+        if ((int5 == 37411)) {
             CC_SETCOLOUR[1](13107200);
         };
-    } else if ((int18 != -1 as obj)) {
+    } else if ((int18 != -1)) {
         CC_SETOBJECT_NONUM[1](int18, 0);
-        if (((int6 != -1) && (struct_getparam(int6, 7763) == -1 as obj))) {
+        if (((int6 != -1) && (struct_getparam(int6, 7763) == -1))) {
             CC_SETONTIMER[1](callback(script2577, -2147483645, -2147483643, int6, 1));
         };
     };
@@ -98,7 +98,7 @@ function script7131(int0: number, int1: number, int2: number, int3: number, int4
         string1 = `${string1}<br><br>${string2}`;
     };
     var string3 = "";
-    if ((int5 == 36365 as obj)) {
+    if ((int5 == 36365)) {
         string3 = script12161(int7);
         if ((STRING_LENGTH(string3) > 0)) {
             string1 = strconcat(string1, "<br><br>To collect this material, disassemble:<br>");

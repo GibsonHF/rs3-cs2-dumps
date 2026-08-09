@@ -11,45 +11,86 @@ function script8284(int0: number, int1: number): number {
     var int6 = -1;
     var int7 = script14441();
     switch (int0) {
-        case 0:         if ((++int3 <= int4)) {
-            switch (int3) {
-                case 1: {
-                    int2 = varbitplayer_19005;
-                    break;
-                }
-                case 2: {
-                    int2 = varbitplayer_19006;
-                    break;
-                }
-                case 3: {
-                    int2 = varbitplayer_29609;
-                    break;
-                }
-                case 4: {
-                    int2 = varbitplayer_19008;
-                    break;
-                }
-                case 5: {
-                    int2 = script19332();
-                    break;
-                }
-                default: {
-                    int2 = 1;
-                    break;
-                }
-            };
-            if ((int2 == 0)) {
-                if ((int1 == -1)) {
-                    return int3;
+        case 0: {
+            int3 = (int3 + 1);
+            while ((int3 <= int4)) {
+                switch (int3) {
+                    case 1: {
+                        int2 = varbitplayer_19005;
+                        break;
+                    }
+                    case 2: {
+                        int2 = varbitplayer_19006;
+                        break;
+                    }
+                    case 3: {
+                        int2 = varbitplayer_29609;
+                        break;
+                    }
+                    case 4: {
+                        int2 = varbitplayer_19008;
+                        break;
+                    }
+                    case 5: {
+                        int2 = script19332();
+                        break;
+                    }
+                    default: {
+                        int2 = 1;
+                        break;
+                    }
                 };
-                return 1;
+                if ((int2 == 0)) {
+                    if ((int1 == -1)) {
+                        return int3;
+                    };
+                    return 1;
+                };
             };
-        };
-
-        case 1:         if ((++int3 <= int4)) {
-            if ((script3910() == 1)) {
-                if ((varplayer_12314 > 0)) {
+            break;
+        }
+        case 1: {
+            int3 = (int3 + 1);
+            while ((int3 <= int4)) {
+                if ((script3910() == 1)) {
+                    if ((varplayer_12314 > 0)) {
+                        switch (int3) {
+                            case 5: {
+                                int2 = varbitplayer_29611;
+                                break;
+                            }
+                            case 6: {
+                                int2 = varbitplayer_29608;
+                                break;
+                            }
+                            default: {
+                                int2 = 1;
+                                break;
+                            }
+                        };
+                    } else if ((int3 != 5)) {
+                        int2 = 1;
+                    } else {
+                        int2 = varbitplayer_29611;
+                    };
+                } else {
                     switch (int3) {
+                        case 1: {
+                            int2 = varbitplayer_29610;
+                            break;
+                        }
+                        case 2: {
+                            int2 = varbitplayer_29616;
+                            break;
+                        }
+                        case 3: {
+                            int2 = varbitplayer_29612;
+                            break;
+                        }
+                        case 4: {
+                            int2 = varbitplayer_29613;
+                            break;
+                        }
                         case 5: {
                             int2 = varbitplayer_29611;
                             break;
@@ -63,35 +104,42 @@ function script8284(int0: number, int1: number): number {
                             break;
                         }
                     };
-                } else if ((int3 != 5)) {
-                    int2 = 1;
-                } else {
-                    int2 = varbitplayer_29611;
                 };
-            } else {
+                if ((int2 == 0)) {
+                    if ((int1 == -1)) {
+                        return int3;
+                    };
+                    return 1;
+                };
+            };
+            break;
+        }
+        case 2: {
+            int3 = (int3 + 1);
+            while ((int3 <= int4)) {
                 switch (int3) {
                     case 1: {
-                        int2 = varbitplayer_29610;
+                        int2 = varbitplayer_19014;
                         break;
                     }
                     case 2: {
-                        int2 = varbitplayer_29616;
+                        int2 = varbitplayer_19015;
                         break;
                     }
                     case 3: {
-                        int2 = varbitplayer_29612;
+                        int2 = varbitplayer_19016;
                         break;
                     }
                     case 4: {
-                        int2 = varbitplayer_29613;
+                        int2 = varbitplayer_53112;
                         break;
                     }
                     case 5: {
-                        int2 = varbitplayer_29611;
+                        int2 = varbitplayer_19017;
                         break;
                     }
                     case 6: {
-                        int2 = varbitplayer_29608;
+                        int2 = varbitplayer_19018;
                         break;
                     }
                     default: {
@@ -99,292 +147,284 @@ function script8284(int0: number, int1: number): number {
                         break;
                     }
                 };
-            };
-            if ((int2 == 0)) {
-                if ((int1 == -1)) {
-                    return int3;
-                };
-                return 1;
-            };
-        };
-
-        case 2:         if ((++int3 <= int4)) {
-            switch (int3) {
-                case 1: {
-                    int2 = varbitplayer_19014;
-                    break;
-                }
-                case 2: {
-                    int2 = varbitplayer_19015;
-                    break;
-                }
-                case 3: {
-                    int2 = varbitplayer_19016;
-                    break;
-                }
-                case 4: {
-                    int2 = varbitplayer_53112;
-                    break;
-                }
-                case 5: {
-                    int2 = varbitplayer_19017;
-                    break;
-                }
-                case 6: {
-                    int2 = varbitplayer_19018;
-                    break;
-                }
-                default: {
-                    int2 = 1;
-                    break;
-                }
-            };
-            if ((int2 == 0)) {
-                if ((int1 == -1)) {
-                    return int3;
-                };
-                return 1;
-            };
-        };
-
-        case 3:         if ((++int3 <= int4)) {
-            switch (int3) {
-                case 1: {
-                    int2 = varbitplayer_16903;
-                    break;
-                }
-                case 2: {
-                    int2 = varbitplayer_19020;
-                    break;
-                }
-                case 3: {
-                    if ((varplayer_12314 > 0)) {
-                        int2 = 1;
-                    } else {
-                        int2 = varbitplayer_19021;
+                if ((int2 == 0)) {
+                    if ((int1 == -1)) {
+                        return int3;
                     };
-                    break;
-                }
-                case 4: {
-                    int2 = varbitplayer_19022;
-                    break;
-                }
-                case 6: {
-                    int2 = varbitplayer_44636;
-                    break;
-                }
-                case 5: {
-                    int2 = varbitplayer_34337;
-                    break;
-                }
-                default: {
-                    int2 = 1;
-                    break;
-                }
-            };
-            if ((int2 == 0)) {
-                if ((int1 == -1)) {
-                    return int3;
+                    return 1;
                 };
-                return 1;
             };
-        };
-
+            break;
+        }
+        case 3: {
+            int3 = (int3 + 1);
+            while ((int3 <= int4)) {
+                switch (int3) {
+                    case 1: {
+                        int2 = varbitplayer_16903;
+                        break;
+                    }
+                    case 2: {
+                        int2 = varbitplayer_19020;
+                        break;
+                    }
+                    case 3: {
+                        if ((varplayer_12314 > 0)) {
+                            int2 = 1;
+                        } else {
+                            int2 = varbitplayer_19021;
+                        };
+                        break;
+                    }
+                    case 4: {
+                        int2 = varbitplayer_19022;
+                        break;
+                    }
+                    case 6: {
+                        int2 = varbitplayer_44636;
+                        break;
+                    }
+                    case 5: {
+                        int2 = varbitplayer_34337;
+                        break;
+                    }
+                    default: {
+                        int2 = 1;
+                        break;
+                    }
+                };
+                if ((int2 == 0)) {
+                    if ((int1 == -1)) {
+                        return int3;
+                    };
+                    return 1;
+                };
+            };
+            break;
+        }
         case 4:
-        case 6:         if ((++int3 <= int4)) {
-            switch (int3) {
-                case 1: {
-                    int2 = 0;
-                    break;
-                }
-                case 2: {
-                    if (((script3825() == 1) || (script16861(MAP_WORLD()) == 1))) {
-                        int2 = 1;
-                    } else {
-                        int2 = varbitplayer_19027;
-                    };
-                    break;
-                }
-                case 3: {
-                    int2 = varbitplayer_19028;
-                    break;
-                }
-                case 4: {
-                    int2 = varbitplayer_24594;
-                    break;
-                }
-                case 5: {
-                    int2 = 1;
-                    break;
-                }
-                case 6: {
-                    if (((((varbitplayer_39917 >= 98) && (int7 != -1)) && (struct_getparam(int7, 9167) == 0)) && (varbitplayer_33661 == 1))) {
+        case 6: {
+            int3 = (int3 + 1);
+            while ((int3 <= int4)) {
+                switch (int3) {
+                    case 1: {
                         int2 = 0;
-                    } else {
+                        break;
+                    }
+                    case 2: {
+                        if (((script3825() == 1) || (script16861(MAP_WORLD()) == 1))) {
+                            int2 = 1;
+                        } else {
+                            int2 = varbitplayer_19027;
+                        };
+                        break;
+                    }
+                    case 3: {
+                        int2 = varbitplayer_19028;
+                        break;
+                    }
+                    case 4: {
+                        int2 = varbitplayer_24594;
+                        break;
+                    }
+                    case 5: {
                         int2 = 1;
-                    };
-                    break;
-                }
-                default: {
-                    int2 = 1;
-                    break;
-                }
-            };
-            if ((int2 == 0)) {
-                if ((int1 == -1)) {
-                    return int3;
-                };
-                return 1;
-            };
-        };
-
-        case 5:         if ((++int3 <= int4)) {
-            switch (int3) {
-                case 1: {
-                    int2 = OR(varbitplayer_34817, OR(varbitplayer_14173, varbitplayer_29044));
-                    if ((script12240() == 0)) {
+                        break;
+                    }
+                    case 6: {
+                        if ((varbitplayer_39917 >= 98)) {
+                            if ((int7 != -1)) {
+                                if ((struct_getparam(int7, 9167) == 0)) {
+                                    if ((varbitplayer_33661 == 1)) {
+                                        int2 = 0;
+                                    } else {
+                                        int2 = 1;
+                                    };
+                                } else {
+                                    int2 = 1;
+                                };
+                            } else {
+                                int2 = 1;
+                            };
+                        } else {
+                            int2 = 1;
+                        };
+                        break;
+                    }
+                    default: {
                         int2 = 1;
+                        break;
+                    }
+                };
+                if ((int2 == 0)) {
+                    if ((int1 == -1)) {
+                        return int3;
                     };
-                    if (((varbitplayer_433 < 2) && (varbitplayer_32445 == 1))) {
-                        int2 = 0;
-                    };
-                    break;
-                }
-                case 2: {
-                    int2 = varbitplayer_29045;
-                    break;
-                }
-                case 3: {
-                    int2 = varbitplayer_30493;
-                    break;
-                }
-                case 4: {
-                    int2 = varbitplayer_46360;
-                    if ((script12240() == 0)) {
+                    return 1;
+                };
+            };
+            break;
+        }
+        case 5: {
+            int3 = (int3 + 1);
+            while ((int3 <= int4)) {
+                switch (int3) {
+                    case 1: {
+                        int2 = OR(varbitplayer_34817, OR(varbitplayer_14173, varbitplayer_29044));
+                        if ((script12240() == 0)) {
+                            int2 = 1;
+                        };
+                        if (((varbitplayer_433 < 2) && (varbitplayer_32445 == 1))) {
+                            int2 = 0;
+                        };
+                        break;
+                    }
+                    case 2: {
+                        int2 = varbitplayer_29045;
+                        break;
+                    }
+                    case 3: {
+                        int2 = varbitplayer_30493;
+                        break;
+                    }
+                    case 4: {
+                        int2 = varbitplayer_46360;
+                        if ((script12240() == 0)) {
+                            int2 = 1;
+                        };
+                        break;
+                    }
+                    default: {
                         int2 = 1;
-                    };
-                    break;
-                }
-                default: {
-                    int2 = 1;
-                    break;
-                }
-            };
-            if ((int2 == 0)) {
-                if ((int1 == -1)) {
-                    return int3;
+                        break;
+                    }
                 };
-                return 1;
+                if ((int2 == 0)) {
+                    if ((int1 == -1)) {
+                        return int3;
+                    };
+                    return 1;
+                };
             };
-        };
-
-        case 7:         if ((++int3 <= int4)) {
-            switch (int3) {
-                case 1: {
-                    int2 = varbitplayer_60431;
-                    break;
-                }
-                case 2: {
-                    int2 = varbitplayer_60432;
-                    break;
-                }
-                case 3: {
-                    int2 = varbitplayer_60433;
-                    break;
-                }
-                case 4: {
-                    if ((script13749() == 0)) {
+            break;
+        }
+        case 7: {
+            int3 = (int3 + 1);
+            while ((int3 <= int4)) {
+                switch (int3) {
+                    case 1: {
+                        int2 = varbitplayer_60431;
+                        break;
+                    }
+                    case 2: {
+                        int2 = varbitplayer_60432;
+                        break;
+                    }
+                    case 3: {
+                        int2 = varbitplayer_60433;
+                        break;
+                    }
+                    case 4: {
+                        if ((script13749() == 0)) {
+                            int2 = 1;
+                        } else {
+                            int2 = varbitplayer_60434;
+                        };
+                        break;
+                    }
+                    default: {
                         int2 = 1;
-                    } else {
-                        int2 = varbitplayer_60434;
+                        break;
+                    }
+                };
+                if ((int2 == 0)) {
+                    if ((int1 == -1)) {
+                        return int3;
                     };
-                    break;
-                }
-                default: {
-                    int2 = 1;
-                    break;
-                }
-            };
-            if ((int2 == 0)) {
-                if ((int1 == -1)) {
-                    return int3;
+                    return 1;
                 };
-                return 1;
             };
-        };
-
-        case 8:         if ((++int3 <= int4)) {
-            switch (int3) {
-                case 1: {
-                    int2 = varbitplayer_30612;
-                    break;
-                }
-                case 2: {
-                    int2 = varbitplayer_30613;
-                    break;
-                }
-                case 3: {
-                    int2 = varbitplayer_30614;
-                    break;
-                }
-                default: {
-                    int2 = 1;
-                    break;
-                }
-            };
-            if ((int2 == 0)) {
-                if ((int1 == -1)) {
-                    return int3;
+            break;
+        }
+        case 8: {
+            int3 = (int3 + 1);
+            while ((int3 <= int4)) {
+                switch (int3) {
+                    case 1: {
+                        int2 = varbitplayer_30612;
+                        break;
+                    }
+                    case 2: {
+                        int2 = varbitplayer_30613;
+                        break;
+                    }
+                    case 3: {
+                        int2 = varbitplayer_30614;
+                        break;
+                    }
+                    default: {
+                        int2 = 1;
+                        break;
+                    }
                 };
-                return 1;
-            };
-        };
-
-        case 9:         if ((++int3 <= int4)) {
-            switch (int3) {
-                case 1: {
-                    int2 = varbitplayer_19029;
-                    break;
-                }
-                case 3: {
-                    int2 = varbitplayer_19031;
-                    break;
-                }
-                case 2: {
-                    int2 = varbitplayer_19032;
-                    break;
-                }
-                case 4: {
-                    int2 = varbitplayer_19033;
-                    break;
-                }
-                case 5: {
-                    int2 = varbitplayer_47565;
-                    break;
-                }
-                case 6: {
-                    int2 = varbitplayer_60056;
-                    break;
-                }
-                default: {
-                    int2 = 1;
-                    break;
-                }
-            };
-            if ((int2 == 0)) {
-                if ((int1 == -1)) {
-                    return int3;
+                if ((int2 == 0)) {
+                    if ((int1 == -1)) {
+                        return int3;
+                    };
+                    return 1;
                 };
-                return 1;
             };
-        };
-
+            break;
+        }
+        case 9: {
+            int3 = (int3 + 1);
+            while ((int3 <= int4)) {
+                switch (int3) {
+                    case 1: {
+                        int2 = varbitplayer_19029;
+                        break;
+                    }
+                    case 3: {
+                        int2 = varbitplayer_19031;
+                        break;
+                    }
+                    case 2: {
+                        int2 = varbitplayer_19032;
+                        break;
+                    }
+                    case 4: {
+                        int2 = varbitplayer_19033;
+                        break;
+                    }
+                    case 5: {
+                        int2 = varbitplayer_47565;
+                        break;
+                    }
+                    case 6: {
+                        int2 = varbitplayer_60056;
+                        break;
+                    }
+                    default: {
+                        int2 = 1;
+                        break;
+                    }
+                };
+                if ((int2 == 0)) {
+                    if ((int1 == -1)) {
+                        return int3;
+                    };
+                    return 1;
+                };
+            };
+            break;
+        }
         case 10: {
             int5 = script13415(int0);
             if ((int5 == -1)) {
                 return 0;
             };
-            while ((++int3 <= int4)) {
+            int3 = (int3 + 1);
+            while ((int3 <= int4)) {
                 int6 = script13416(int5, int3);
                 if (((int6 == -1) || (int6 == 19073))) {
                     int2 = 1;
@@ -434,7 +474,8 @@ function script8284(int0: number, int1: number): number {
             if ((int5 == -1)) {
                 return 0;
             };
-            while ((++int3 <= int4)) {
+            int3 = (int3 + 1);
+            while ((int3 <= int4)) {
                 int6 = script13416(int5, int3);
                 if (((int6 == -1) || (int6 == 19073))) {
                     int2 = 1;
@@ -482,41 +523,44 @@ function script8284(int0: number, int1: number): number {
         case 100: {
             return 1;
         }
-        case 12:         if ((++int3 <= int4)) {
-            switch (int3) {
-                case 1: {
-                    int2 = script20139();
-                    break;
-                }
-                case 2: {
-                    int2 = varbitplayer_58369;
-                    break;
-                }
-                case 3: {
-                    int2 = script20137();
-                    break;
-                }
-                case 4: {
-                    int2 = varbitplayer_58371;
-                    break;
-                }
-                case 5: {
-                    int2 = script20138();
-                    break;
-                }
-                default: {
-                    int2 = 1;
-                    break;
-                }
-            };
-            if ((int2 == 0)) {
-                if ((int1 == -1)) {
-                    return int3;
+        case 12: {
+            int3 = (int3 + 1);
+            while ((int3 <= int4)) {
+                switch (int3) {
+                    case 1: {
+                        int2 = script20139();
+                        break;
+                    }
+                    case 2: {
+                        int2 = varbitplayer_58369;
+                        break;
+                    }
+                    case 3: {
+                        int2 = script20137();
+                        break;
+                    }
+                    case 4: {
+                        int2 = varbitplayer_58371;
+                        break;
+                    }
+                    case 5: {
+                        int2 = script20138();
+                        break;
+                    }
+                    default: {
+                        int2 = 1;
+                        break;
+                    }
                 };
-                return 1;
+                if ((int2 == 0)) {
+                    if ((int1 == -1)) {
+                        return int3;
+                    };
+                    return 1;
+                };
             };
-        };
-
+            break;
+        }
     };
     return 0;
 }

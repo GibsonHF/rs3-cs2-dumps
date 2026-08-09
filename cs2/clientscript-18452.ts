@@ -6,7 +6,8 @@ function script18452(): void {
     var int3 = 7;
     var int4 = comp(1280, 23);
     CC_DELETEALL(int4);
-    while ((++int0 < int1)) {
+    int0 = (int0 + 1);
+    while ((int0 < int1)) {
         int2 = (12 + (int0 * 50));
         CC_CREATE(int4, 5, IF_GETNEXTSUBID(int4));
         CC_SETGRAPHIC(18266 as graphic);

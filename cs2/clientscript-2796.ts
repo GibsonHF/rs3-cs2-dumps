@@ -21,29 +21,48 @@ function script2796(int0: number, int1: number): void {
     };
     if ((IF_FIND(int0) == 1)) {
         int10 = cc_getparam(8100);
-        while (((int10 != comp(-1, 65535)) && (int13 > 0))) {
-            if ((IF_FIND[1](int10) == 1)) {
-                int8 = (MODULO(int7, int5) * int4);
-                int9 = ((int7 / int5) * int4);
-                int12 = cc_getparam[1](8106);
-                if (((((int8 + int4) <= int2) && ((int9 + int4) <= int3)) && ((int0 == comp(1204, 2)) || ((int0 != comp(1204, 2)) && (script11295(int12) == 0))))) {
-                    CC_SETPOSITION[1](int8, int9, int14, 0);
-                    cc_setparam[1](8107, 1);
-                    int7 = (int7 + 1);
+        while ((int10 != comp(-1, 65535))) {
+            if ((int13 > 0)) {
+                if ((IF_FIND[1](int10) == 1)) {
+                    int8 = (MODULO(int7, int5) * int4);
+                    int9 = ((int7 / int5) * int4);
+                    int12 = cc_getparam[1](8106);
+                    if (((int8 + int4) <= int2)) {
+                        if (((int9 + int4) <= int3)) {
+                            if ((int0 == comp(1204, 2))) {
+                                CC_SETPOSITION[1](int8, int9, int14, 0);
+                                cc_setparam[1](8107, 1);
+                                int7 = (int7 + 1);
+                            } else if ((int0 != comp(1204, 2))) {
+                                if ((script11295(int12) == 0)) {
+                                    CC_SETPOSITION[1](int8, int9, int14, 0);
+                                    cc_setparam[1](8107, 1);
+                                    int7 = (int7 + 1);
+                                } else {
+                                    cc_setparam[1](8107, 0);
+                                };
+                            } else {
+                                cc_setparam[1](8107, 0);
+                            };
+                        } else {
+                            cc_setparam[1](8107, 0);
+                        };
+                    } else {
+                        cc_setparam[1](8107, 0);
+                    };
+                    int11 = cc_getparam[1](8105);
+                    if ((int1 == 1)) {
+                        CC_DELETEALL(int10);
+                        script2921(int10, int12);
+                    };
+                    script10883(int10);
+                    int10 = int11;
                 } else {
-                    cc_setparam[1](8107, 0);
+                    int10 = comp(-1, 65535);
                 };
-                int11 = cc_getparam[1](8105);
-                if ((int1 == 1)) {
-                    CC_DELETEALL(int10);
-                    script2921(int10, int12);
-                };
-                script10883(int10);
-                int10 = int11;
-            } else {
-                int10 = comp(-1, 65535);
+                int13 = (int13 - 1);
             };
-            int13 = (int13 - 1);
+            return;
         };
     };
     return;

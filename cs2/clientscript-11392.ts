@@ -19,80 +19,133 @@ function script11392(int0: number, int1: number, int2: number, int3: number): vo
     var string0 = "";
     var int16 = 1;
     if ((CC_FIND(int0, int1) == 1)) {
-        while (((int4 < 9) && (int16 == 1))) {
-            switch (int4) {
-                case 0: {
-                    int15 = int6;
-                    break;
-                }
-                case 1: {
-                    int15 = int7;
-                    break;
-                }
-                case 2: {
-                    int15 = int8;
-                    break;
-                }
-                case 3: {
-                    int15 = int9;
-                    break;
-                }
-                case 4: {
-                    int15 = int10;
-                    break;
-                }
-                case 5: {
-                    int15 = int11;
-                    break;
-                }
-                case 6: {
-                    int15 = int12;
-                    break;
-                }
-                case 7: {
-                    int15 = int13;
-                    break;
-                }
-                case 8: {
-                    int15 = int14;
-                    break;
-                }
-            };
-            if ((int15 != -1 as obj)) {
-                int5 = script11404(int15);
-                if ((int5 != -1 as obj)) {
-                    int15 = int5;
+        while ((int4 < 9)) {
+            if ((int16 == 1)) {
+                switch (int4) {
+                    case 0: {
+                        int15 = int6;
+                        break;
+                    }
+                    case 1: {
+                        int15 = int7;
+                        break;
+                    }
+                    case 2: {
+                        int15 = int8;
+                        break;
+                    }
+                    case 3: {
+                        int15 = int9;
+                        break;
+                    }
+                    case 4: {
+                        int15 = int10;
+                        break;
+                    }
+                    case 5: {
+                        int15 = int11;
+                        break;
+                    }
+                    case 6: {
+                        int15 = int12;
+                        break;
+                    }
+                    case 7: {
+                        int15 = int13;
+                        break;
+                    }
+                    case 8: {
+                        int15 = int14;
+                        break;
+                    }
                 };
-                if ((INV_TOTAL(93 as inv, int15) == 0)) {
-                    int16 = 0;
+                if ((int15 != -1 as obj)) {
+                    int5 = script11404(int15);
+                    if ((int5 != -1 as obj)) {
+                        int15 = int5;
+                    };
+                    if ((INV_TOTAL(93 as inv, int15) == 0)) {
+                        int16 = 0;
+                    };
+                };
+                int4 = (int4 + 1);
+            };
+            if ((int16 == 1)) {
+                if ((varbitplayer_27926 == 1)) {
+                    CC_SETTRANS(varclient_4797);
+                    CC_SETONTIMER(callback(script11395, -2147483645, -2147483643));
+                    script11394(int2, int3, 2);
+                } else {
+                    CC_SETONTIMER(callback());
+                    CC_SETTRANS(210);
+                    script11394(int2, int3, 0);
+                };
+            } else {
+                CC_SETONTIMER(callback());
+                CC_SETTRANS(210);
+                script11394(int2, int3, 0);
+            };
+            var int17 = -1 as graphic;
+            var int18 = -1 as graphic;
+            var int19 = 0;
+            var int20 = 0;
+            var int21 = 0;
+            if ((varbitplayer_22875 != 1)) {
+                int17 = 18266 as graphic;
+                int18 = 24427 as graphic;
+            };
+            if ((CC_FIND(comp(1621, 20), int1) == 1)) {
+                if ((int16 == 1)) {
+                    if ((varbitplayer_27926 == 1)) {
+                        CC_SETGRAPHIC(int18);
+                        CC_SETTRANS(int20);
+                        CC_SETCOLOUR(int21);
+                    } else {
+                        CC_SETGRAPHIC(int17);
+                        CC_SETTRANS(int19);
+                    };
+                } else {
+                    CC_SETGRAPHIC(int17);
+                    CC_SETTRANS(int19);
                 };
             };
-            int4 = (int4 + 1);
+            return;
         };
-        if (((int16 == 1) && (varbitplayer_27926 == 1))) {
-            CC_SETTRANS(varclient_4797);
-            CC_SETONTIMER(callback(script11395, -2147483645, -2147483643));
-            script11394(int2, int3, 2);
+        if ((int16 == 1)) {
+            if ((varbitplayer_27926 == 1)) {
+                CC_SETTRANS(varclient_4797);
+                CC_SETONTIMER(callback(script11395, -2147483645, -2147483643));
+                script11394(int2, int3, 2);
+            } else {
+                CC_SETONTIMER(callback());
+                CC_SETTRANS(210);
+                script11394(int2, int3, 0);
+            };
         } else {
             CC_SETONTIMER(callback());
             CC_SETTRANS(210);
             script11394(int2, int3, 0);
         };
     };
-    var int17 = -1 as graphic;
-    var int18 = -1 as graphic;
-    var int19 = 0;
-    var int20 = 0;
-    var int21 = 0;
+    int17 = -1 as graphic;
+    int18 = -1 as graphic;
+    int19 = 0;
+    int20 = 0;
+    int21 = 0;
     if ((varbitplayer_22875 != 1)) {
         int17 = 18266 as graphic;
         int18 = 24427 as graphic;
     };
     if ((CC_FIND(comp(1621, 20), int1) == 1)) {
-        if (((int16 == 1) && (varbitplayer_27926 == 1))) {
-            CC_SETGRAPHIC(int18);
-            CC_SETTRANS(int20);
-            CC_SETCOLOUR(int21);
+        if ((int16 == 1)) {
+            if ((varbitplayer_27926 == 1)) {
+                CC_SETGRAPHIC(int18);
+                CC_SETTRANS(int20);
+                CC_SETCOLOUR(int21);
+            } else {
+                CC_SETGRAPHIC(int17);
+                CC_SETTRANS(int19);
+            };
         } else {
             CC_SETGRAPHIC(int17);
             CC_SETTRANS(int19);

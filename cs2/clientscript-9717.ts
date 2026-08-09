@@ -9,7 +9,7 @@ function script9717(int0: number): void {
     var int7 = 0;
     var int8 = item_getparam(varclient_1799, 5741);
     var string0 = "";
-    var int9 = -1 as obj;
+    var int9 = -1;
     IF_SETHIDE(false, struct_getparam(int0, 8525));
     IF_SETHIDE(false, struct_getparam(int0, 8526));
     IF_SETHIDE(false, struct_getparam(int0, 8527));
@@ -32,36 +32,36 @@ function script9717(int0: number): void {
             IF_SETTEXT(`Use all giant ${string0}`, struct_getparam(int0, 8534));
         };
         int9 = struct_getparam(int8, 5743);
-        if ((int9 == -1 as obj)) {
+        if ((int9 == -1)) {
             IF_SETHIDE(true, struct_getparam(int0, 8525));
         } else if (((OC_MEMBERS(int9) == 0) || (MAP_MEMBERS() == 1))) {
             int2 = INV_TOTAL(93 as inv, int9);
         };
         int9 = struct_getparam(int8, 5744);
-        if ((int9 == -1 as obj)) {
+        if ((int9 == -1)) {
             IF_SETHIDE(true, struct_getparam(int0, 8526));
         } else if (((OC_MEMBERS(int9) == 0) || (MAP_MEMBERS() == 1))) {
             int3 = INV_TOTAL(93 as inv, int9);
         };
         int9 = struct_getparam(int8, 5745);
-        if ((int9 == -1 as obj)) {
+        if ((int9 == -1)) {
             IF_SETHIDE(true, struct_getparam(int0, 8527));
         } else if (((OC_MEMBERS(int9) == 0) || (MAP_MEMBERS() == 1))) {
             int4 = INV_TOTAL(93 as inv, int9);
         };
         int9 = struct_getparam(int8, 5746);
-        if ((int9 == -1 as obj)) {
+        if ((int9 == -1)) {
             IF_SETHIDE(true, struct_getparam(int0, 8528));
         } else if (((OC_MEMBERS(int9) == 0) || (MAP_MEMBERS() == 1))) {
             int5 = INV_TOTAL(93 as inv, int9);
         };
         int9 = struct_getparam(int8, 8523);
-        if ((int9 == -1 as obj)) {
+        if ((int9 == -1)) {
             IF_SETHIDE(true, struct_getparam(int0, 8529));
         } else if (((OC_MEMBERS(int9) == 0) || (MAP_MEMBERS() == 1))) {
             int6 = INV_TOTAL(93 as inv, int9);
         };
-    } else if ((OC_CATEGORY(varclient_1799) == 3470 as category)) {
+    } else if ((OC_CATEGORY(varclient_1799) == 3470)) {
         int1 = 6;
         IF_SETTEXT("Use all tiny packs", struct_getparam(int0, 8530));
         IF_SETTEXT("Use all small packs", struct_getparam(int0, 8531));
@@ -74,7 +74,7 @@ function script9717(int0: number): void {
         int5 = INV_TOTAL(93 as inv, 34025 as obj);
         int6 = INV_TOTAL(93 as inv, 52194 as obj);
         IF_SETHIDE(false, struct_getparam(int0, 8529));
-    } else if ((OC_CATEGORY(varclient_1799) == 4698 as category)) {
+    } else if ((OC_CATEGORY(varclient_1799) == 4698)) {
         int1 = 7;
         IF_SETTEXT("Use all tiny packs", struct_getparam(int0, 8530));
         IF_SETTEXT("Use all small packs", struct_getparam(int0, 8531));
@@ -87,7 +87,7 @@ function script9717(int0: number): void {
         int4 = INV_TOTAL(93 as inv, 34026 as obj);
         int5 = INV_TOTAL(93 as inv, 52196 as obj);
         int6 = INV_TOTAL(93 as inv, 52197 as obj);
-    } else if ((OC_CATEGORY(varclient_1799) == 3729 as category)) {
+    } else if ((OC_CATEGORY(varclient_1799) == 3729)) {
         int1 = 8;
         IF_SETTEXT("Use all medium crates", struct_getparam(int0, 8533));
         IF_SETTEXT("Use all large crates", struct_getparam(int0, 8534));

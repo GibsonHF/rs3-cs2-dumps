@@ -27,7 +27,7 @@ function script4733(int0: number, int1: number): [number, number, number, number
             break;
         }
     };
-    if ((script16159((int1 + int2)) != -1 as obj)) {
+    if ((script16159((int1 + int2)) != -1)) {
         return [script16159((int1 + int2)), script16160((int1 + int2)), script14444((int1 + int2)), 1, (int1 + 1)];
     };
     return [dbrow_getfield(int0, 413697, (int1 + 1)), dbrow_getfield(int0, 413698, (int1 + 1)), dbrow_getfield(int0, 413699, (int1 + 1)), 1, (int1 + 1)];

@@ -1,7 +1,7 @@
 //
 function script14763(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number): number {
     var int7 = DB_GETFIELDCOUNT(int2, 344272);
-    var int8 = -1 as obj;
+    var int8 = -1;
     var int9 = 0;
     var int10 = 11952;
     var int11 = 40;
@@ -22,9 +22,10 @@ function script14763(int0: number, int1: number, int2: number, int3: number, int
     var int18 = 0;
     var int19 = 0;
     var int20 = -1;
-    while ((++int20 < int7)) {
+    int20 = (int20 + 1);
+    while ((int20 < int7)) {
         int8 = dbrow_getfield(int2, 344272, int20);
-        if ((int8 != -1 as obj)) {
+        if ((int8 != -1)) {
             int18 = ((int3 + int17) + (MODULO(int20, int15) * int16));
             int19 = (int4 + ((int20 / int15) * (int12 + 2)));
             script14764(int0, int1, int8, script14496(int2, int20), int18, int19, int10, int11, int12, int13, int14, (int6 + int20));

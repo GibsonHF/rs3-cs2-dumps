@@ -14,7 +14,7 @@ function script18081(int0: number, int1: number, int2: number): number {
             int2 = (int2 + script17952(1, int6, 10, int2, 0, 0, (IF_GETWIDTH(int1) - 30), 0, 8002, dbrow_getfield(int3, 1024016, 0), (IF_GETWIDTH(int1) - 30), 209));
             int6 = (int6 + 1);
         };
-        if ((int4 != -1 as dbrow)) {
+        if ((int4 != -1)) {
             int2 = (int2 + script17952(1, int6, 10, int2, 0, 0, (IF_GETWIDTH(int1) - 30), 0, 8002, `Gain +${inttostring(dbrow_getfield(int0, 1019970, 0), 10)}% mission progress whilst training <col=2EF8FF>${dbrow_getfield(int4, 1024000, 0)}</col>`, (IF_GETWIDTH(int1) - 30), 209));
             int6 = (int6 + 1);
         };

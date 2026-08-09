@@ -6,10 +6,13 @@ function script17534(int0: number): [number, string] {
     var int3 = 0;
     var int4 = script17505(int0);
     var int5 = -1;
-    while ((++int5 < int4)) {
+    int5 = (int5 + 1);
+    while ((int5 < int4)) {
         [int2, int3] = script17504(int0, -1, int5);
-        if ((((INV_TOTAL(942 as inv, int2) >= int3) || (script2515(93, int2) >= int3)) && ((MAP_MEMBERS() == 1) || (OC_MEMBERS(int2) == 0)))) {
-            int1 = 1;
+        if (((INV_TOTAL(942 as inv, int2) >= int3) || (script2515(93, int2) >= int3))) {
+            if (((MAP_MEMBERS() == 1) || (OC_MEMBERS(int2) == 0))) {
+                int1 = 1;
+            };
         };
     };
     return [int1, string0];

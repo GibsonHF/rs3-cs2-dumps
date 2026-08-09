@@ -1,13 +1,13 @@
 //
 function script13487(int0: number, int1: number, int2: number): void {
-    var int3 = comp(1879, 13);
+    var int3 = 123142157;
     var int4 = script13488(int0);
     var string0 = struct_getparam(int2, 6600);
     var int5 = struct_getparam(int2, 6602);
     var int6 = struct_getparam(int2, 6604);
     var int7 = struct_getparam(int2, 6605);
     var int8 = struct_getparam(int2, 6606);
-    if ((struct_getparam(int2, 6603) == -1 as model)) {
+    if ((struct_getparam(int2, 6603) == -1)) {
         IF_SETNPCMODEL(int5, int3);
     } else {
         IF_SETMODEL(struct_getparam(int2, 6603), int3);
@@ -19,7 +19,7 @@ function script13487(int0: number, int1: number, int2: number): void {
         IF_RESETMODELLIGHTING(int3);
         IF_SETTEXT(string0, comp(1879, 15));
     } else {
-        IF_SETMODELLIGHTING(script16107(), -1 as material, int3);
+        IF_SETMODELLIGHTING(script16107(), -1, int3);
         IF_SETTEXT("???", comp(1879, 15));
     };
     IF_SETTEXT("", comp(1879, 16));

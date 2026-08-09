@@ -2,7 +2,25 @@
 function script11844(int0: number): number {
     var int1 = 27485 as seq;
     var int2 = INV_GETOBJ(671 as inv, 3);
-    if ((((varbitplayer_26893 != 7) && (int0 == 0)) || ((varbitplayer_26893 == 7) && (int0 == 1)))) {
+    if ((varbitplayer_26893 != 7)) {
+        if ((int0 == 0)) {
+            if ((int0 == 1)) {
+                if ((int2 != -1 as obj)) {
+                    return BAS_GETANIM_READY(struct_getparam(item_getparam(int2, 686), 2954));
+                };
+                return BAS_GETANIM_READY(1426 as bas);
+            };
+            return -1 as seq;
+        } else if (((varbitplayer_26893 == 7) && (int0 == 1))) {
+            if ((int0 == 1)) {
+                if ((int2 != -1 as obj)) {
+                    return BAS_GETANIM_READY(struct_getparam(item_getparam(int2, 686), 2954));
+                };
+                return BAS_GETANIM_READY(1426 as bas);
+            };
+            return -1 as seq;
+        };
+    } else if (((varbitplayer_26893 == 7) && (int0 == 1))) {
         if ((int0 == 1)) {
             if ((int2 != -1 as obj)) {
                 return BAS_GETANIM_READY(struct_getparam(item_getparam(int2, 686), 2954));

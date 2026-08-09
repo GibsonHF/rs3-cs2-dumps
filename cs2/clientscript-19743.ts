@@ -4,7 +4,16 @@ function script19743(int0: number, int1: number, int2: number, int3: number, int
     var int7 = (int3 - 100);
     var int8 = (int6 / int4);
     var int9 = (int7 / int4);
-    unk11010(int5, callback(script19744, int0, int1, int2, int3, int8, int9, 0, int4), int0);
+    stack(int5);
+    stack(19744);
+    stack(int0);
+    stack(int1);
+    stack(int2);
+    stack(int3);
+    stack(int8);
+    stack(int9);
+    stack(0);
+    unk11010(int4, "iiiiiiii", int0);
     unk11009();
     return;
 }

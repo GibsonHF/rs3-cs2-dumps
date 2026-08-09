@@ -8,32 +8,33 @@ function script18298(): void {
     [int1, int2, int3, int4] = script18289();
     var int5 = -1;
     var int6 = comp(-1, 65535);
-    var int7 = comp(-1, 65535);
+    var int7 = -1;
     var int8 = 0;
-    while ((++int8 <= 4)) {
+    int8 = (int8 + 1);
+    while ((int8 <= 4)) {
         switch (int8) {
             case 1: {
                 int5 = int1;
                 int6 = comp(635, 20);
-                int7 = comp(635, 31);
+                int7 = 41615391;
                 break;
             }
             case 2: {
                 int5 = int2;
                 int6 = comp(635, 23);
-                int7 = comp(635, 32);
+                int7 = 41615392;
                 break;
             }
             case 3: {
                 int5 = int3;
                 int6 = comp(635, 26);
-                int7 = comp(635, 33);
+                int7 = 41615393;
                 break;
             }
             case 4: {
                 int5 = int4;
                 int6 = comp(635, 29);
-                int7 = comp(635, 34);
+                int7 = 41615394;
                 break;
             }
         };

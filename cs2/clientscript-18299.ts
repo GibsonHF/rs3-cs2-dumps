@@ -10,18 +10,19 @@ function script18299(): void {
     var int6 = MAX(1, ((int4 / int5) + script12377(MODULO(int4, int5), 0, 1)));
     var int7 = -1 as struct;
     var int8 = -1 as graphic;
-    var int9 = -1 as graphic;
+    var int9 = -1;
     var int10 = 0;
-    while ((++int10 <= int4)) {
+    int10 = (int10 + 1);
+    while ((int10 <= int4)) {
         int7 = enum_getvalue(0, 73, 17157 as cs2enum, int10);
         script15938(41615373, int10, 0, 0, 0, 0, 0, 0, 0, 1, 1);
         script7858(int10, 1, 0, 0, 1, 1, 0, 0, 1, 1, 4479, "");
         if ((script18291(int7) == 0)) {
             int9 = script11657(14045);
         } else {
-            int9 = -1 as graphic;
+            int9 = -1;
         };
-        if ((((((int9 != -1 as graphic) || (int7 == int0)) || (int7 == int1)) || (int7 == int2)) || (int7 == int3))) {
+        if ((((((int9 != -1) || (int7 == int0)) || (int7 == int1)) || (int7 == int2)) || (int7 == int3))) {
             CC_SETENABLED(false);
             CC_SETOPCURSOR(1, -1);
             int8 = struct_getparam(int7, 4030);

@@ -7,13 +7,13 @@ function script18103(int0: number): [number, number] {
     var int5 = 0;
     var int6 = -1;
     var int7 = script17853();
-    if ((int7 == -1 as dbrow)) {
+    if ((int7 == -1)) {
         return [0, 0];
     };
     var int8 = DB_GETFIELDCOUNT(int7, 991360);
     var int9 = 0;
     var int10 = 0;
-    var int11 = -1 as dbrow;
+    var int11 = -1;
     var int12 = 0;
     var int13 = 0;
     while ((int9 < int8)) {

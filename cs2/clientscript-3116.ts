@@ -34,7 +34,7 @@ function script3116(): void {
     var string0 = `World ${inttostring(MAP_WORLD(), 10)}`;
     IF_SETTEXT(string0, comp(906, 63));
     IF_SETTEXTALIGN(1, 1, 0, comp(906, 63));
-    IF_SETONMOUSEREPEAT(callback(script10072, MAP_WORLD(), -2147483645, -1), 59375679);
+    IF_SETONMOUSEREPEAT(callback(script10072, MAP_WORLD(), -2147483645, -1), comp(906, 63));
     script3064(1);
     return;
 }

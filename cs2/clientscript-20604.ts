@@ -2,22 +2,22 @@
 function script20604(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number): void {
     var int6 = comp(1495, 20);
     var int7 = 97976339;
-    var int8 = 97976335;
+    var int8 = comp(1495, 15);
     var int9 = comp(1495, 13);
-    var int10 = 97976336;
-    var int11 = 97976337;
-    var int12 = 97976338;
+    var int10 = comp(1495, 16);
+    var int11 = comp(1495, 17);
+    var int12 = comp(1495, 18);
     var int13 = comp(1495, 14);
     var int14 = comp(1495, 26);
     var int15 = comp(1495, 29);
     var int16 = comp(1495, 25);
     IF_SETONTIMER(callback(), int9);
-    IF_SETHIDE(0, int6);
-    IF_SETHIDE(1, int8);
-    IF_SETHIDE(1, int10);
-    IF_SETHIDE(1, int11);
-    IF_SETHIDE(1, int12);
-    IF_SETHIDE(1, int13);
+    IF_SETHIDE(false, int6);
+    IF_SETHIDE(true, int8);
+    IF_SETHIDE(true, int10);
+    IF_SETHIDE(true, int11);
+    IF_SETHIDE(true, int12);
+    IF_SETHIDE(true, int13);
     if ((int5 == 1)) {
         IF_SETHIDE(true, int14);
         IF_SETHIDE(true, int15);
@@ -25,7 +25,7 @@ function script20604(int0: number, int1: number, int2: number, int3: number, int
     IF_SETHIDE(true, int16);
     IF_SETONTIMER(callback(), comp(1495, 15));
     var int17 = -1;
-    var int18 = -1;
+    var int18 = -1 as dbrow;
     if ((int0 != -1)) {
         int18 = struct_getparam(int0, 9254);
         if (((struct_getparam(int0, 1331) == true) && (int5 == 1))) {
@@ -73,9 +73,13 @@ function script20604(int0: number, int1: number, int2: number, int3: number, int
     if ((int0 != -1)) {
         string0 = struct_getparam(int0, 2533);
     };
-    if (((int3 == 1) && (STRING_LENGTH(string0) > 0))) {
-        IF_SETTEXT(string0, comp(1495, 33));
-        IF_SETHIDE(false, comp(1495, 33));
+    if ((int3 == 1)) {
+        if ((STRING_LENGTH(string0) > 0)) {
+            IF_SETTEXT(string0, comp(1495, 33));
+            IF_SETHIDE(false, comp(1495, 33));
+        } else {
+            IF_SETHIDE(true, comp(1495, 33));
+        };
     } else {
         IF_SETHIDE(true, comp(1495, 33));
     };

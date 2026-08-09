@@ -6,18 +6,12 @@ function script15855(int0: number): void {
     stack(557056);
     stack(int0);
     DB_FIND(0);
-    dbrow_findnext();
-    var int1 = stack();
+    var int1 = dbrow_findnext();
     var int2 = script10405(int0);
-    stack(0);
-    stack(9);
-    stack(10344);
-    stack(int0);
-    enum_getvalue();
-    var int3 = stack();
+    var int3 = enum_getvalue(0, 9, 10344, int0);
     if ((int1 != -1)) {
         IF_SETGRAPHIC(struct_getparam(int2, 8097), int3);
-        IF_SETTEXT(dbrow_getfield(int1, 557072, 0), comp(857, 18));
+        IF_SETTEXT(dbrow_getfield(int1, 557072, 0), 56164370);
         if ((DB_GETFIELDCOUNT(int1, 557088) > 0)) {
             if ((IF_FIND(comp(857, 20)) == 1)) {
                 cc_setparam(424, int1);

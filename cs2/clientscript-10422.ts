@@ -17,7 +17,12 @@ function script10422(int0: number, int1: number, int2: number, int3: number, int
         if ((int1 == -1)) {
             IF_SETONMOUSEOVER(callback(script6265, int2, int3, int9), int0);
             IF_SETONMOUSELEAVE(callback(script6265, int2, int3, int8), int0);
-        } else if ((((int0 != comp(-1, 65535)) && (CC_FIND[1](int0, int1) == 1)) || (CC_FIND[1](int2, int3) == 1))) {
+        } else if ((int0 != comp(-1, 65535))) {
+            if (((CC_FIND[1](int0, int1) == 1) || (CC_FIND[1](int2, int3) == 1))) {
+                CC_SETONMOUSEOVER[1](callback(script6265, int2, int3, int9));
+                CC_SETONMOUSELEAVE[1](callback(script6265, int2, int3, int8));
+            };
+        } else if ((CC_FIND[1](int2, int3) == 1)) {
             CC_SETONMOUSEOVER[1](callback(script6265, int2, int3, int9));
             CC_SETONMOUSELEAVE[1](callback(script6265, int2, int3, int8));
         };
@@ -28,7 +33,11 @@ function script10422(int0: number, int1: number, int2: number, int3: number, int
         } else if ((STRING_LENGTH(string0) > 0)) {
             CC_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643));
         };
-        if ((((int1 == -1) && (IF_FIND(int0) == 1)) || (CC_FIND(int0, int1) == 1))) {
+        if ((int1 == -1)) {
+            if (((IF_FIND(int0) == 1) || (CC_FIND(int0, int1) == 1))) {
+                CC_SETONOP(callback(script10422, -2147483645, -2147483643, int2, int3, string0, string1, int4, int5));
+            };
+        } else if ((CC_FIND(int0, int1) == 1)) {
             CC_SETONOP(callback(script10422, -2147483645, -2147483643, int2, int3, string0, string1, int4, int5));
         };
         switch (int0) {

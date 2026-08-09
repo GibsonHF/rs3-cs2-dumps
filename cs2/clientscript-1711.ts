@@ -7,26 +7,30 @@ function script1711(int0: number, int1: number): void {
     var int6 = -1;
     var int7 = -1;
     var int8 = comp(-1, 65535);
-    var int9 = -1;
+    var int9 = comp(-1, 65535);
     var int10 = comp(-1, 65535);
     var int11 = comp(-1, 65535);
     var int12 = comp(-1, 65535);
     var int13 = comp(-1, 65535);
     var int14 = comp(-1, 65535);
     var int15 = comp(-1, 65535);
-    var int16 = -1 as graphic;
+    var int16 = -1;
     var int17 = comp(-1, 65535);
-    var int18 = -1 as graphic;
+    var int18 = -1;
     var int19 = comp(-1, 65535);
-    var int20 = -1 as graphic;
+    var int20 = -1;
     var int21 = comp(-1, 65535);
-    var int22 = comp(-1, 65535);
+    var int22 = -1;
     var int23 = comp(-1, 65535);
     if ((int0 == 1)) {
         IF_SETHIDE(true, comp(950, 10));
         IF_SETHIDE(false, comp(950, 7));
-        if (((varplayer_3416 == 0) && (varbitplayer_17131 == 0))) {
-            IF_SETHIDE(false, comp(950, 275));
+        if ((varplayer_3416 == 0)) {
+            if ((varbitplayer_17131 == 0)) {
+                IF_SETHIDE(false, comp(950, 275));
+            } else {
+                IF_SETHIDE(true, comp(950, 275));
+            };
         } else {
             IF_SETHIDE(true, comp(950, 275));
         };
@@ -70,54 +74,54 @@ function script1711(int0: number, int1: number): void {
     };
     switch (int1) {
         case 1: {
-            int3 = comp(950, 34);
-            int8 = comp(950, 19);
+            int3 = 62259234;
+            int8 = 62259219;
             int9 = 62259220;
-            int10 = comp(950, 26);
-            int11 = comp(950, 28);
-            int12 = comp(950, 30);
-            int13 = comp(950, 27);
-            int14 = comp(950, 29);
-            int15 = comp(950, 31);
-            int17 = comp(950, 21);
-            int19 = comp(950, 22);
-            int21 = comp(950, 23);
-            int22 = comp(950, 32);
-            int23 = comp(950, 25);
+            int10 = 62259226;
+            int11 = 62259228;
+            int12 = 62259230;
+            int13 = 62259227;
+            int14 = 62259229;
+            int15 = 62259231;
+            int17 = 62259221;
+            int19 = 62259222;
+            int21 = 62259223;
+            int22 = 62259232;
+            int23 = 62259225;
             break;
         }
         case 2: {
-            int3 = comp(950, 54);
-            int8 = comp(950, 39);
+            int3 = 62259254;
+            int8 = 62259239;
             int9 = 62259240;
-            int10 = comp(950, 46);
-            int11 = comp(950, 48);
-            int12 = comp(950, 50);
-            int13 = comp(950, 47);
-            int14 = comp(950, 49);
-            int15 = comp(950, 51);
-            int17 = comp(950, 41);
-            int19 = comp(950, 42);
-            int21 = comp(950, 43);
-            int22 = comp(950, 52);
-            int23 = comp(950, 45);
+            int10 = 62259246;
+            int11 = 62259248;
+            int12 = 62259250;
+            int13 = 62259247;
+            int14 = 62259249;
+            int15 = 62259251;
+            int17 = 62259241;
+            int19 = 62259242;
+            int21 = 62259243;
+            int22 = 62259252;
+            int23 = 62259245;
             break;
         }
         case 3: {
-            int3 = comp(950, 74);
-            int8 = comp(950, 59);
+            int3 = 62259274;
+            int8 = 62259259;
             int9 = 62259260;
-            int10 = comp(950, 66);
-            int11 = comp(950, 68);
-            int12 = comp(950, 70);
-            int13 = comp(950, 67);
-            int14 = comp(950, 69);
-            int15 = comp(950, 71);
-            int17 = comp(950, 61);
-            int19 = comp(950, 62);
-            int21 = comp(950, 63);
-            int22 = comp(950, 72);
-            int23 = comp(950, 65);
+            int10 = 62259266;
+            int11 = 62259268;
+            int12 = 62259270;
+            int13 = 62259267;
+            int14 = 62259269;
+            int15 = 62259271;
+            int17 = 62259261;
+            int19 = 62259262;
+            int21 = 62259263;
+            int22 = 62259272;
+            int23 = 62259265;
             break;
         }
     };
@@ -130,9 +134,9 @@ function script1711(int0: number, int1: number): void {
     IF_SETONMOUSEREPEAT(callback(), int10);
     IF_SETONMOUSEREPEAT(callback(), int11);
     IF_SETONMOUSEREPEAT(callback(), int12);
-    IF_SETGRAPHIC(-1, int17);
-    IF_SETGRAPHIC(-1, int19);
-    IF_SETGRAPHIC(-1, int21);
+    IF_SETGRAPHIC(-1 as graphic, int17);
+    IF_SETGRAPHIC(-1 as graphic, int19);
+    IF_SETGRAPHIC(-1 as graphic, int21);
     IF_SETONMOUSEREPEAT(callback(), int17);
     IF_SETONMOUSEREPEAT(callback(), int19);
     IF_SETONMOUSEREPEAT(callback(), int21);
@@ -166,186 +170,186 @@ function script1711(int0: number, int1: number): void {
     int27 = struct_getparam(int24, 3068);
     switch (int25) {
         case 1: {
-            int16 = 15778 as graphic;
+            int16 = 15778;
             string1 = "The Whaler";
             break;
         }
         case 2: {
-            int16 = 15769 as graphic;
+            int16 = 15769;
             string1 = "The Biologist";
             break;
         }
         case 3: {
-            int16 = 15760 as graphic;
+            int16 = 15760;
             string1 = "The Occultist";
             break;
         }
         case 4: {
-            int16 = 15749 as graphic;
+            int16 = 15749;
             string1 = "The Assassin";
             break;
         }
         case 5: {
-            int16 = 15750 as graphic;
+            int16 = 15750;
             string1 = "The Convict";
             break;
         }
         case 6: {
-            int16 = 15751 as graphic;
+            int16 = 15751;
             string1 = "The Missionary";
             break;
         }
         case 7: {
-            int16 = 22046 as graphic;
+            int16 = 22046;
             string1 = "The Trapper";
             break;
         }
         case 8: {
-            int16 = 22045 as graphic;
+            int16 = 22045;
             string1 = "The Chef";
             break;
         }
         case 9: {
-            int16 = 22047 as graphic;
+            int16 = 22047;
             string1 = "The Architect";
             break;
         }
         case 10: {
-            int16 = 22055 as graphic;
+            int16 = 22055;
             string1 = "The Exile";
             break;
         }
         case 11: {
-            int16 = 22053 as graphic;
+            int16 = 22053;
             string1 = "The Memory";
             break;
         }
         case 12: {
-            int16 = 22054 as graphic;
+            int16 = 22054;
             string1 = "The Tengu";
             break;
         }
     };
     switch (int26) {
         case 1: {
-            int18 = 15778 as graphic;
+            int18 = 15778;
             string2 = "The Whaler";
             break;
         }
         case 2: {
-            int18 = 15769 as graphic;
+            int18 = 15769;
             string2 = "The Biologist";
             break;
         }
         case 3: {
-            int18 = 15760 as graphic;
+            int18 = 15760;
             string2 = "The Occultist";
             break;
         }
         case 4: {
-            int18 = 15749 as graphic;
+            int18 = 15749;
             string2 = "The Assassin";
             break;
         }
         case 5: {
-            int18 = 15750 as graphic;
+            int18 = 15750;
             string2 = "The Convict";
             break;
         }
         case 6: {
-            int18 = 15751 as graphic;
+            int18 = 15751;
             string2 = "The Missionary";
             break;
         }
         case 7: {
-            int18 = 22046 as graphic;
+            int18 = 22046;
             string2 = "The Trapper";
             break;
         }
         case 8: {
-            int18 = 22045 as graphic;
+            int18 = 22045;
             string2 = "The Chef";
             break;
         }
         case 9: {
-            int18 = 22047 as graphic;
+            int18 = 22047;
             string2 = "The Architect";
             break;
         }
         case 10: {
-            int18 = 22055 as graphic;
+            int18 = 22055;
             string2 = "The Exile";
             break;
         }
         case 11: {
-            int18 = 22053 as graphic;
+            int18 = 22053;
             string2 = "The Memory";
             break;
         }
         case 12: {
-            int18 = 22054 as graphic;
+            int18 = 22054;
             string2 = "The Tengu";
             break;
         }
     };
     switch (int27) {
         case 1: {
-            int20 = 15778 as graphic;
+            int20 = 15778;
             string3 = "The Whaler";
             break;
         }
         case 2: {
-            int20 = 15769 as graphic;
+            int20 = 15769;
             string3 = "The Biologist";
             break;
         }
         case 3: {
-            int20 = 15760 as graphic;
+            int20 = 15760;
             string3 = "The Occultist";
             break;
         }
         case 4: {
-            int20 = 15749 as graphic;
+            int20 = 15749;
             string3 = "The Assassin";
             break;
         }
         case 5: {
-            int20 = 15750 as graphic;
+            int20 = 15750;
             string3 = "The Convict";
             break;
         }
         case 6: {
-            int20 = 15751 as graphic;
+            int20 = 15751;
             string3 = "The Missionary";
             break;
         }
         case 7: {
-            int20 = 22046 as graphic;
+            int20 = 22046;
             string3 = "The Trapper";
             break;
         }
         case 8: {
-            int20 = 22045 as graphic;
+            int20 = 22045;
             string3 = "The Chef";
             break;
         }
         case 9: {
-            int20 = 22047 as graphic;
+            int20 = 22047;
             string3 = "The Architect";
             break;
         }
         case 10: {
-            int20 = 22055 as graphic;
+            int20 = 22055;
             string3 = "The Exile";
             break;
         }
         case 11: {
-            int20 = 22053 as graphic;
+            int20 = 22053;
             string3 = "The Memory";
             break;
         }
         case 12: {
-            int20 = 22054 as graphic;
+            int20 = 22054;
             string3 = "The Tengu";
             break;
         }
@@ -363,28 +367,40 @@ function script1711(int0: number, int1: number): void {
             IF_SETSIZE(35, 35, 0, 0, int19);
             IF_SETPOSITION(145, 39, 0, 0, int17);
             IF_SETPOSITION(145, 76, 0, 0, int19);
-            int20 = -1 as graphic;
+            int20 = -1;
         } else if ((int25 > 0)) {
             IF_SETSIZE(35, 35, 0, 0, int17);
             IF_SETPOSITION(145, 59, 0, 0, int17);
-            int18 = -1 as graphic;
-            int20 = -1 as graphic;
+            int18 = -1;
+            int20 = -1;
         };
         IF_SETGRAPHIC(int16, int17);
-        if (((strcmp(string1, "") != 0) && (int16 != -1 as graphic))) {
-            IF_SETONMOUSEREPEAT(callback(script8799, string1, -2147483645, -1), int17);
+        if ((strcmp(string1, "") != 0)) {
+            if ((int16 != -1)) {
+                IF_SETONMOUSEREPEAT(callback(script8799, string1, -2147483645, -1), int17);
+            } else {
+                IF_SETONMOUSEREPEAT(callback(), int17);
+            };
         } else {
             IF_SETONMOUSEREPEAT(callback(), int17);
         };
         IF_SETGRAPHIC(int18, int19);
-        if (((strcmp(string2, "") != 0) && (int18 != -1 as graphic))) {
-            IF_SETONMOUSEREPEAT(callback(script8799, string2, -2147483645, -1), int19);
+        if ((strcmp(string2, "") != 0)) {
+            if ((int18 != -1)) {
+                IF_SETONMOUSEREPEAT(callback(script8799, string2, -2147483645, -1), int19);
+            } else {
+                IF_SETONMOUSEREPEAT(callback(), int19);
+            };
         } else {
             IF_SETONMOUSEREPEAT(callback(), int19);
         };
         IF_SETGRAPHIC(int20, int21);
-        if (((strcmp(string3, "") != 0) && (int20 != -1 as graphic))) {
-            IF_SETONMOUSEREPEAT(callback(script8799, string3, -2147483645, -1), int21);
+        if ((strcmp(string3, "") != 0)) {
+            if ((int20 != -1)) {
+                IF_SETONMOUSEREPEAT(callback(script8799, string3, -2147483645, -1), int21);
+            } else {
+                IF_SETONMOUSEREPEAT(callback(), int21);
+            };
         } else {
             IF_SETONMOUSEREPEAT(callback(), int21);
         };
@@ -407,59 +423,59 @@ function script1711(int0: number, int1: number): void {
     var int39 = struct_getparam(int24, 3062);
     var int40 = struct_getparam(int24, 3064);
     if ((int38 == 20)) {
-        IF_SETGRAPHIC(enum_getvalue(0, 23, 7213 as cs2enum, varbitplayer_17497), int10);
+        IF_SETGRAPHIC(enum_getvalue(0, 23, 7213, varbitplayer_17497), int10);
     } else {
-        IF_SETGRAPHIC(enum_getvalue(0, 23, 1024 as cs2enum, int38), int10);
+        IF_SETGRAPHIC(enum_getvalue(0, 23, 1024, int38), int10);
     };
     if ((int39 == 20)) {
-        IF_SETGRAPHIC(enum_getvalue(0, 23, 7213 as cs2enum, varbitplayer_17497), int11);
+        IF_SETGRAPHIC(enum_getvalue(0, 23, 7213, varbitplayer_17497), int11);
     } else {
-        IF_SETGRAPHIC(enum_getvalue(0, 23, 1024 as cs2enum, int39), int11);
+        IF_SETGRAPHIC(enum_getvalue(0, 23, 1024, int39), int11);
     };
     if ((int40 == 20)) {
-        IF_SETGRAPHIC(enum_getvalue(0, 23, 7213 as cs2enum, varbitplayer_17497), int11);
+        IF_SETGRAPHIC(enum_getvalue(0, 23, 7213, varbitplayer_17497), int11);
     } else {
-        IF_SETGRAPHIC(enum_getvalue(0, 23, 1024 as cs2enum, int40), int12);
+        IF_SETGRAPHIC(enum_getvalue(0, 23, 1024, int40), int12);
     };
     var string5 = "";
     var string6 = "";
     var int41 = struct_getparam(int24, 3061);
-    var int42 = -1 as obj;
+    var int42 = -1;
     var int43 = struct_getparam(int24, 2366);
     string5 = inttostring(int41, 10);
     if ((int43 == 2)) {
-        string5 = enum_getvalue(0, 36, 7164 as cs2enum, int41);
+        string5 = enum_getvalue(0, 36, 7164, int41);
         switch (int41) {
             case 0: {
-                int42 = 26209 as obj;
+                int42 = 26209;
                 break;
             }
             case 2: {
-                int42 = 26217 as obj;
+                int42 = 26217;
                 break;
             }
             case 3: {
-                int42 = 26225 as obj;
+                int42 = 26225;
                 break;
             }
             case 4: {
-                int42 = 26233 as obj;
+                int42 = 26233;
                 break;
             }
             case 5: {
-                int42 = 26241 as obj;
+                int42 = 26241;
                 break;
             }
             case 6: {
-                int42 = 26245 as obj;
+                int42 = 26245;
                 break;
             }
             case 13: {
-                int42 = 30555 as obj;
+                int42 = 30555;
                 break;
             }
             case 14: {
-                int42 = 30561 as obj;
+                int42 = 30561;
                 break;
             }
         };
@@ -522,7 +538,7 @@ function script1711(int0: number, int1: number): void {
             }
         };
     } else if ((int43 == 7)) {
-        string5 = `New trait: ${struct_getparam(enum_getvalue(0, 73, 2175 as cs2enum, int41), 3090)}`;
+        string5 = `New trait: ${struct_getparam(enum_getvalue(0, 73, 2175, int41), 3090)}`;
     } else if ((int43 == 4)) {
         if ((int41 <= 12)) {
             switch (script4223()) {
@@ -620,11 +636,11 @@ function script1711(int0: number, int1: number): void {
     };
     if (((strcmp(string5, "") != 0) && (strcmp(string5, "0") != 0))) {
         IF_SETTEXT(string5, int13);
-        string6 = enum_getvalue(0, 36, 1025 as cs2enum, int38);
+        string6 = enum_getvalue(0, 36, 1025, int38);
         if ((int43 == 2)) {
-            string6 = `Unlock island: ${enum_getvalue(0, 36, 7164 as cs2enum, int41)}`;
+            string6 = `Unlock island: ${enum_getvalue(0, 36, 7164, int41)}`;
         } else if ((int43 == 7)) {
-            string6 = `Captain gains a trait:<br>${struct_getparam(enum_getvalue(0, 73, 2175 as cs2enum, int41), 3091)}`;
+            string6 = `Captain gains a trait:<br>${struct_getparam(enum_getvalue(0, 73, 2175, int41), 3091)}`;
         } else if ((int43 == 4)) {
             string6 = `Experience: ${string5}`;
         };
@@ -632,7 +648,7 @@ function script1711(int0: number, int1: number): void {
     };
     int41 = struct_getparam(int24, 3063);
     string5 = inttostring(int41, 10);
-    if (((int43 == 2) && (int42 != -1 as obj))) {
+    if (((int43 == 2) && (int42 != -1))) {
         IF_SETGRAPHIC(item_getparam(int42, 3080), int11);
         string6 = `Unlock crewman: ${OC_NAME(int42)}`;
         IF_SETONMOUSEREPEAT(callback(script8799, string6, -2147483645, -1), int11);
@@ -640,14 +656,14 @@ function script1711(int0: number, int1: number): void {
     };
     if (((strcmp(string5, "") != 0) && (strcmp(string5, "0") != 0))) {
         IF_SETTEXT(string5, int14);
-        string6 = enum_getvalue(0, 36, 1025 as cs2enum, int39);
+        string6 = enum_getvalue(0, 36, 1025, int39);
         IF_SETONMOUSEREPEAT(callback(script8799, string6, -2147483645, -1), int11);
     };
     int41 = struct_getparam(int24, 3065);
     string5 = inttostring(int41, 10);
     if (((strcmp(string5, "") != 0) && (strcmp(string5, "0") != 0))) {
         IF_SETTEXT(string5, int15);
-        string6 = enum_getvalue(0, 36, 1025 as cs2enum, int40);
+        string6 = enum_getvalue(0, 36, 1025, int40);
         IF_SETONMOUSEREPEAT(callback(script8799, string6, -2147483645, -1), int12);
     };
     script1885();

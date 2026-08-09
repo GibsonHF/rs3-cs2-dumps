@@ -72,7 +72,7 @@ function script14677(int0: number): string {
             return `You can unlock this researcher by completing the '${string0}' achievement.`;
         }
     };
-    if ((int1 != -1 as dbrow)) {
+    if ((int1 != -1)) {
         return `You can unlock this researcher by achieving the '${dbrow_getfield(int1, 380944, 0)}' qualification.`;
     };
     return "You can unlock this researcher by playing the game.";

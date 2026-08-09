@@ -4,13 +4,14 @@ function script14501(int0: number): number {
         return 0;
     };
     var int1 = DB_GETFIELDCOUNT(int0, 344272);
-    var int2 = -1 as obj;
+    var int2 = -1;
     var int3 = 1;
     var int4 = -1;
     switch (int0) {
         case 2737: {
             int3 = 0;
-            while ((++int4 < int1)) {
+            int4 = (int4 + 1);
+            while ((int4 < int1)) {
                 int2 = dbrow_getfield(int0, 344272, int4);
                 switch (int2) {
                     case 39590:
@@ -34,7 +35,8 @@ function script14501(int0: number): number {
         }
         case 2752: {
             int3 = 0;
-            while ((++int4 < int1)) {
+            int4 = (int4 + 1);
+            while ((int4 < int1)) {
                 int2 = dbrow_getfield(int0, 344272, int4);
                 switch (int2) {
                     case 33516:
@@ -86,7 +88,8 @@ function script14501(int0: number): number {
         }
         case 2753: {
             int3 = 0;
-            while ((++int4 < int1)) {
+            int4 = (int4 + 1);
+            while ((int4 < int1)) {
                 int2 = dbrow_getfield(int0, 344272, int4);
                 switch (int2) {
                     case 33520:
@@ -133,7 +136,8 @@ function script14501(int0: number): number {
         }
         case 2754: {
             int3 = 0;
-            while ((++int4 < int1)) {
+            int4 = (int4 + 1);
+            while ((int4 < int1)) {
                 int2 = dbrow_getfield(int0, 344272, int4);
                 switch (int2) {
                     case 33520:
@@ -180,7 +184,8 @@ function script14501(int0: number): number {
         }
         case 3689: {
             int3 = 0;
-            while ((++int4 < int1)) {
+            int4 = (int4 + 1);
+            while ((int4 < int1)) {
                 int2 = dbrow_getfield(int0, 344272, int4);
                 switch (int2) {
                     case 41861:
@@ -225,12 +230,15 @@ function script14501(int0: number): number {
             };
             break;
         }
-        default:         if ((++int4 < int1)) {
-            if ((script14496(int0, int4) == 0)) {
-                return 0;
+        default: {
+            int4 = (int4 + 1);
+            while ((int4 < int1)) {
+                if ((script14496(int0, int4) == 0)) {
+                    return 0;
+                };
             };
-        };
-
+            break;
+        }
     };
     return int3;
 }

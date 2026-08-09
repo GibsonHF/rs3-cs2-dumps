@@ -115,11 +115,11 @@ function script3488(): void {
     script13995(65077288, -1, 28556, "", script9670(varbitplayer_43374, 5));
     var int0 = enum_getvalue(0, 26, 3088 as cs2enum, varbitplayer_43374);
     IF_SETTEXT(struct_getparam(enum_getvalue(0, 73, int0, 1), 1089), comp(993, 98));
-    IF_SETTEXT(struct_getparam(enum_getvalue(0, 73, int0, 1), 1090), comp(993, 99));
-    IF_SETTEXT(struct_getparam(enum_getvalue(0, 73, int0, 2), 1089), comp(993, 44));
-    IF_SETTEXT(struct_getparam(enum_getvalue(0, 73, int0, 2), 1090), comp(993, 45));
-    IF_SETTEXT(struct_getparam(enum_getvalue(0, 73, int0, 3), 1089), comp(993, 71));
-    IF_SETTEXT(struct_getparam(enum_getvalue(0, 73, int0, 3), 1090), comp(993, 72));
+    IF_SETTEXT(struct_getparam(enum_getvalue(0, 73, int0, 1), 1090), 65077347);
+    IF_SETTEXT(struct_getparam(enum_getvalue(0, 73, int0, 2), 1089), 65077292);
+    IF_SETTEXT(struct_getparam(enum_getvalue(0, 73, int0, 2), 1090), 65077293);
+    IF_SETTEXT(struct_getparam(enum_getvalue(0, 73, int0, 3), 1089), 65077319);
+    IF_SETTEXT(struct_getparam(enum_getvalue(0, 73, int0, 3), 1090), 65077320);
     script7227();
     return;
 }

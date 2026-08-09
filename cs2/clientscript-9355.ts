@@ -27,7 +27,7 @@ function script9355(int0: number, int1: number, int2: number): void {
     };
     IF_SETONVARTRANSMIT(callback(script9991, int0, int1, 28690, 3814, 1), int0);
     var int4 = MIN(IF_GETWIDTH(int0), IF_GETHEIGHT(int0));
-    if (((struct_getparam(int2, 4405) == -1) && (int4 >= 32))) {
+    if (((struct_getparam(int2, 4405) == -1 as struct) && (int4 >= 32))) {
         switch (int3) {
             case 1: {
                 int1 = 28756 as struct;
@@ -74,24 +74,18 @@ function script9355(int0: number, int1: number, int2: number): void {
         case 2: {
             IF_SETONMOUSEOVER(callback(script8087, 0, -2147483645), int0);
             IF_SETONMOUSELEAVE(callback(script8087, 1, -2147483645), int0);
-            int12 = 1;
+            int12 = true;
             int9 = struct_getparam(int2, 3911);
             break;
         }
         case 3: {
             IF_SETONCLICK(callback(script10016, -2147483645), int0);
-            stack(8087);
-            stack(1);
-            stack(-2147483645);
-            stack("ii");
+            stack(callback(script8087, 1, -2147483645));
             stack(int0);
             IF_SETONRELEASE();
             IF_SETONMOUSELEAVE(callback(script8087, 1, -2147483645), int0);
-            int12 = 1;
-            stack(int2);
-            stack(3912);
-            struct_getparam();
-            int9 = stack();
+            int12 = true;
+            int9 = struct_getparam(int2, 3912);
             break;
         }
         case 4: {

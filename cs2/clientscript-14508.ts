@@ -5,7 +5,7 @@ function script14508(int0: number): string {
         return string0;
     };
     var int1 = 0;
-    var int2 = -1 as struct;
+    var int2 = -1;
     switch (int0) {
         case 2659: {
             string0 = `${OC_NAME(dbrow_getfield(2891 as dbrow, 385168, 0))} ('${dbrow_getfield(2891 as dbrow, 385040, 0)}' relic power)`;
@@ -98,7 +98,7 @@ function script14508(int0: number): string {
         }
         default: {
             int2 = dbrow_getfield(int0, 344240, 0);
-            if ((int2 != -1 as struct)) {
+            if ((int2 != -1)) {
                 string0 = struct_getparam(int2, 6414);
             };
             break;

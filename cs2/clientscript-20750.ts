@@ -3,11 +3,10 @@ function script20750(int0: number, int1: number, int2: number): void {
     if (((varbitclient_61226 == 62) && (int1 == comp(1512, 16)))) {
         return;
     };
-    dbrow_findnext();
-    var int3 = stack();
+    var int3 = dbrow_findnext();
     var int4 = 0;
     var int5 = 0;
-    while ((int3 != -1 as dbrow)) {
+    while ((int3 != -1)) {
         int4 = dbrow_getfield(int3, 1515520, 0);
         if (((CC_FIND(int0, int4) == 1) && (CC_FIND[1](int1, int4) == 1))) {
             int5 = INV_TOTAL(1004 as inv, dbrow_getfield(int3, 1515584, 0));
@@ -34,8 +33,7 @@ function script20750(int0: number, int1: number, int2: number): void {
                 };
             };
         };
-        dbrow_findnext();
-        int3 = stack();
+        int3 = dbrow_findnext();
     };
     return;
 }

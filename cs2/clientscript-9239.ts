@@ -43,9 +43,29 @@ function script9239(int0: number, int1: number, int2: number, int3: number, int4
                     }
                     case 65404953:
                     case 65404937: {
-                        if ((((varplayer_10581 == 1008 as inv) && (int1 == comp(998, 9))) && (int6 >= script1020()))) {
-                            if ((CC_FIND[1](int0, int6) == 1)) {
-                                script14710(int1, int7, int6, CC_GETX[1](), CC_GETY[1](), 14045, "", "Requires a higher workbench storage upgrade from Ezreal's shop in the Archaeology Guild.");
+                        if ((varplayer_10581 == 1008 as inv)) {
+                            if ((int1 == comp(998, 9))) {
+                                if ((int6 >= script1020())) {
+                                    if ((CC_FIND[1](int0, int6) == 1)) {
+                                        script14710(int1, int7, int6, CC_GETX[1](), CC_GETY[1](), 14045, "", "Requires a higher workbench storage upgrade from Ezreal's shop in the Archaeology Guild.");
+                                    };
+                                } else if ((int11 > 10)) {
+                                    script12092(int1, int7, int2, int6, int9, int10, int5, `${string0}-All`, `${string0}-1`, `${string0}-5`, `${string0}-10`, `${string0}-50`, `${string0}-X`, "", "", "", "Examine");
+                                } else if ((int11 > 5)) {
+                                    script12092(int1, int7, int2, int6, int9, int10, int5, `${string0}-All`, `${string0}-1`, `${string0}-5`, `${string0}-10`, "", `${string0}-X`, "", "", "", "Examine");
+                                } else if ((int11 > 1)) {
+                                    script12092(int1, int7, int2, int6, int9, int10, int5, `${string0}-All`, `${string0}-1`, `${string0}-5`, "", "", `${string0}-X`, "", "", "", "Examine");
+                                } else {
+                                    script12092(int1, int7, int2, int6, int9, int10, int5, string0, "", "", "", "", "", "", "", "", "Examine");
+                                };
+                            } else if ((int11 > 10)) {
+                                script12092(int1, int7, int2, int6, int9, int10, int5, `${string0}-All`, `${string0}-1`, `${string0}-5`, `${string0}-10`, `${string0}-50`, `${string0}-X`, "", "", "", "Examine");
+                            } else if ((int11 > 5)) {
+                                script12092(int1, int7, int2, int6, int9, int10, int5, `${string0}-All`, `${string0}-1`, `${string0}-5`, `${string0}-10`, "", `${string0}-X`, "", "", "", "Examine");
+                            } else if ((int11 > 1)) {
+                                script12092(int1, int7, int2, int6, int9, int10, int5, `${string0}-All`, `${string0}-1`, `${string0}-5`, "", "", `${string0}-X`, "", "", "", "Examine");
+                            } else {
+                                script12092(int1, int7, int2, int6, int9, int10, int5, string0, "", "", "", "", "", "", "", "", "Examine");
                             };
                         } else if ((int11 > 10)) {
                             script12092(int1, int7, int2, int6, int9, int10, int5, `${string0}-All`, `${string0}-1`, `${string0}-5`, `${string0}-10`, `${string0}-50`, `${string0}-X`, "", "", "", "Examine");
@@ -70,9 +90,17 @@ function script9239(int0: number, int1: number, int2: number, int3: number, int4
                     }
                     case 43253786:
                     case 43253779: {
-                        if (((int1 == comp(660, 26)) && (int6 >= script14683()))) {
-                            if ((CC_FIND[1](int0, int6) == 1)) {
-                                script14710(int1, int7, int6, CC_GETX[1](), CC_GETY[1](), 14045, "", "Requires a higher material storage upgrade from Ezreal's shop in the Archaeology Guild.");
+                        if ((int1 == comp(660, 26))) {
+                            if ((int6 >= script14683())) {
+                                if ((CC_FIND[1](int0, int6) == 1)) {
+                                    script14710(int1, int7, int6, CC_GETX[1](), CC_GETY[1](), 14045, "", "Requires a higher material storage upgrade from Ezreal's shop in the Archaeology Guild.");
+                                };
+                            } else if ((int11 > 5)) {
+                                script12092(int1, int7, int2, int6, int9, int10, int5, `${string0}-1`, `${string0}-5`, `${string0}-10`, `${string0}-All`, `${string0}-X`, "", "", "", "", "Examine");
+                            } else if ((int11 > 1)) {
+                                script12092(int1, int7, int2, int6, int9, int10, int5, `${string0}-1`, `${string0}-5`, "", `${string0}-All`, `${string0}-X`, "", "", "", "", "Examine");
+                            } else {
+                                script12092(int1, int7, int2, int6, int9, int10, int5, string0, "", "", "", "", "", "", "", "", "Examine");
                             };
                         } else if ((int11 > 5)) {
                             script12092(int1, int7, int2, int6, int9, int10, int5, `${string0}-1`, `${string0}-5`, `${string0}-10`, `${string0}-All`, `${string0}-X`, "", "", "", "", "Examine");
@@ -85,10 +113,20 @@ function script9239(int0: number, int1: number, int2: number, int3: number, int4
                     }
                     case 31850505:
                     case 31850526: {
-                        if (((int1 == comp(486, 9)) && (int6 >= script5354()))) {
-                            if ((CC_FIND[1](int0, int6) == 1)) {
-                                script14710(int1, int7, int6, CC_GETX[1](), CC_GETY[1](), 14045, "", script5355(int6));
-                                CC_CLEAROPS();
+                        if ((int1 == comp(486, 9))) {
+                            if ((int6 >= script5354())) {
+                                if ((CC_FIND[1](int0, int6) == 1)) {
+                                    script14710(int1, int7, int6, CC_GETX[1](), CC_GETY[1](), 14045, "", script5355(int6));
+                                    CC_CLEAROPS();
+                                };
+                            } else if ((int11 > 10)) {
+                                script12092(int1, int7, int2, int6, int9, int10, int5, `${string0}-All`, `${string0}-1`, `${string0}-5`, `${string0}-10`, `${string0}-50`, `${string0}-X`, "", "", "", "Examine");
+                            } else if ((int11 > 5)) {
+                                script12092(int1, int7, int2, int6, int9, int10, int5, `${string0}-All`, `${string0}-1`, `${string0}-5`, `${string0}-10`, "", `${string0}-X`, "", "", "", "Examine");
+                            } else if ((int11 > 1)) {
+                                script12092(int1, int7, int2, int6, int9, int10, int5, `${string0}-All`, `${string0}-1`, `${string0}-5`, "", "", `${string0}-X`, "", "", "", "Examine");
+                            } else {
+                                script12092(int1, int7, int2, int6, int9, int10, int5, string0, "", "", "", "", "", "", "", "", "Examine");
                             };
                         } else if ((int11 > 10)) {
                             script12092(int1, int7, int2, int6, int9, int10, int5, `${string0}-All`, `${string0}-1`, `${string0}-5`, `${string0}-10`, `${string0}-50`, `${string0}-X`, "", "", "", "Examine");

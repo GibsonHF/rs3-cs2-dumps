@@ -22,40 +22,56 @@ function script19520(int0: number, int1: number): void {
                 int5 = INV_GETOBJ(963 as inv, int3);
                 int6 = INV_GETNUM(963 as inv, int3);
             };
-            if (((int5 != -1 as obj) && (int5 != 48447 as obj))) {
-                switch (int0) {
-                    case 2: {
-                        int11 = script734(OC_MEMBERS(int5));
-                        break;
-                    }
-                    case 3: {
-                        int11 = script734((1 - OC_MEMBERS(int5)));
-                        break;
-                    }
-                    case 5: {
-                        if (((OC_TRADEABLE(int5) == 1) && (item_getparam(int5, 5771) == 0))) {
-                            int11 = 1;
-                        } else {
-                            int11 = 0;
-                        };
-                        break;
-                    }
-                    case 6: {
-                        if (((OC_TRADEABLE(int5) == 0) || (item_getparam(int5, 5771) == 1))) {
-                            int11 = 1;
-                        } else {
-                            int11 = 0;
-                        };
-                        break;
-                    }
-                    case 7: {
-                        if ((((int5 != -1 as obj) && (int5 != 48447 as obj)) && (int6 == 0))) {
-                            int11 = 1;
-                        } else {
-                            int11 = 0;
-                        };
-                        break;
-                    }
+            if ((int5 != -1 as obj)) {
+                if ((int5 != 48447 as obj)) {
+                    switch (int0) {
+                        case 2: {
+                            int11 = script734(OC_MEMBERS(int5));
+                            break;
+                        }
+                        case 3: {
+                            int11 = script734((1 - OC_MEMBERS(int5)));
+                            break;
+                        }
+                        case 5: {
+                            if ((OC_TRADEABLE(int5) == 1)) {
+                                if ((item_getparam(int5, 5771) == 0)) {
+                                    int11 = 1;
+                                } else {
+                                    int11 = 0;
+                                };
+                            } else {
+                                int11 = 0;
+                            };
+                            break;
+                        }
+                        case 6: {
+                            if (((OC_TRADEABLE(int5) == 0) || (item_getparam(int5, 5771) == 1))) {
+                                int11 = 1;
+                            } else {
+                                int11 = 0;
+                            };
+                            break;
+                        }
+                        case 7: {
+                            if ((int5 != -1 as obj)) {
+                                if ((int5 != 48447 as obj)) {
+                                    if ((int6 == 0)) {
+                                        int11 = 1;
+                                    } else {
+                                        int11 = 0;
+                                    };
+                                } else {
+                                    int11 = 0;
+                                };
+                            } else {
+                                int11 = 0;
+                            };
+                            break;
+                        }
+                    };
+                } else {
+                    int11 = 0;
                 };
             } else {
                 int11 = 0;
@@ -75,8 +91,12 @@ function script19520(int0: number, int1: number): void {
         };
         int3 = (int3 + 1);
     };
-    if (((int7 == 8) && (int8 == 5))) {
-        IF_SETHIDE(false, comp(1313, 72));
+    if ((int7 == 8)) {
+        if ((int8 == 5)) {
+            IF_SETHIDE(false, comp(1313, 72));
+        } else {
+            IF_SETHIDE(true, comp(1313, 72));
+        };
     } else {
         IF_SETHIDE(true, comp(1313, 72));
     };

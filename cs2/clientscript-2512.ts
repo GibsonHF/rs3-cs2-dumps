@@ -5,7 +5,7 @@ function script2512(int0: number, int1: number, int2: number): number {
     };
     var int3 = 0;
     var int4 = DB_GETFIELDCOUNT(int0, 127024);
-    var int5 = -1 as dbrow;
+    var int5 = -1;
     while ((int3 < int4)) {
         int5 = dbrow_getfield(int0, 127024, int3);
         if ((int5 == int1)) {

@@ -22,7 +22,7 @@ function script6447(int0: number, int1: number, int2: number, int3: number): voi
         stack(CC_GETMODELXOF());
         stack(CC_GETMODELYOF());
         CC_GETMODELANGLE_X();
-        CC_SETMODELANGLE(stack(), int5, CC_GETMODELANGLE_Z(), CC_GETMODELZOOM());
+        CC_SETMODELANGLE(int5, CC_GETMODELANGLE_Z(), CC_GETMODELZOOM());
     };
     return;
 }

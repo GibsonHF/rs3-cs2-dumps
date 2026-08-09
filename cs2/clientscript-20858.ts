@@ -2,9 +2,9 @@
 function script20858(): void {
     unk10992("Search...", -1701144064, 255, 98172934);
     if ((STRING_LENGTH(varclient_8377) > 0)) {
-        IF_SETTEXT(varclient_8377, comp(1498, 6));
+        IF_SETTEXT(varclient_8377, 98172934);
     };
-    varclient_8472 = false;
+    varclient_8472 = 0;
     varclient_8473 = script20847();
     varclient_8376 = MAX(0, varclient_8376);
     if ((script20473(varclient_8376) == 0)) {

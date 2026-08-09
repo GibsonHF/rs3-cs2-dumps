@@ -1,8 +1,8 @@
 //
 function script20307(int0: number, int1: number): number {
     var int2 = script20119(varplayer_12314);
-    if ((int2 == -1 as dbrow)) {
-        return -1 as graphic;
+    if ((int2 == -1)) {
+        return -1;
     };
     var int3 = -1 as dbrow;
     var int4 = 0;

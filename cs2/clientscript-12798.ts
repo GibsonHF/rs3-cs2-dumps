@@ -1,5 +1,5 @@
 //
-function script12798(): BigInt {
+function script12798(): bigint {
     switch (varbitplayer_1669) {
         case 1:
         case 2: {

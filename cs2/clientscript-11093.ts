@@ -9,8 +9,19 @@ function script11093(int0: number): void {
         int3 = 2;
         int4 = MAX(script14(int0), (2 * 4));
     };
-    if (((script6431() == 1) && (int4 <= (4 * 2)))) {
-        IF_SETHIDE(true, comp(1594, 35));
+    if ((script6431() == 1)) {
+        if ((int4 <= (4 * 2))) {
+            IF_SETHIDE(true, comp(1594, 35));
+        } else {
+            [int1, int2] = script23(int4, int1, int2);
+            int5 = enum_getvalue(0, 9, 1481 as cs2enum, MAX(1, int0));
+            if (((int2 > int3) || (IF_GETHEIGHT(int5) < (int2 * (113 + 6))))) {
+                IF_SETHIDE(false, comp(1594, 35));
+                script582(104464419, int5, script24(int1, script14(int0)));
+            } else {
+                script15544(104464419, int5);
+            };
+        };
     } else {
         [int1, int2] = script23(int4, int1, int2);
         int5 = enum_getvalue(0, 9, 1481 as cs2enum, MAX(1, int0));

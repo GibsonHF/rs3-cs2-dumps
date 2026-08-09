@@ -2,12 +2,11 @@
 function script16563(int0: number): void {
     var int1 = DB_GETFIELDCOUNT(int0, 114752);
     var int2 = 0;
-    var int3 = false;
+    var int3 = 0;
     var string0 = "";
     while ((int2 < int1)) {
-        stack(dbrow_getfield(int0, 114752, int2));
-        [int3, string0] = stack();
-        if (((int3 == true) || (varbitplayer_38842 == 0))) {
+        [int3, string0] = dbrow_getfield(int0, 114752, int2);
+        if (((int3 == 1) || (varbitplayer_38842 == 0))) {
             switch (int0) {
                 case 1013: {
                     CC_SETONOP(callback(script5154, -2147483644, 1));

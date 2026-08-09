@@ -12,8 +12,7 @@ function script20492(int0: number, int1: number, int2: number, int3: number, int
     var int10 = varbitplayer_22875;
     [int5, int7] = script20493(int0, int5, int7, int1);
     while ((int6 < int4)) {
-        dbrow_findnext();
-        int9 = stack();
+        int9 = dbrow_findnext();
         varbitplayer_22875 = 0;
         [int5, int8] = script15966(int0, int5, int7, int9, 0, int1, int2);
         varbitplayer_22875 = int3;

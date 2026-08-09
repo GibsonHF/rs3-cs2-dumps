@@ -13,11 +13,11 @@ function script5744(int0: number): void {
     var int11 = IF_GETWIDTH(int0);
     var int12 = 0;
     var int13 = 0;
-    var int14 = -1 as struct;
+    var int14 = -1;
     var string0 = "null";
     var string1 = "null";
     var int15 = IF_GETNEXTSUBID(int0);
-    var int16 = -1 as cs2enum;
+    var int16 = -1;
     var int17 = 0;
     var int18 = 0;
     var int19 = 0;
@@ -25,7 +25,9 @@ function script5744(int0: number): void {
     var int21 = 28;
     var int22 = 0;
     var int23 = -2;
-    while ((int10++ < 3)) {
+    stack(int10);
+    int10 = (int10 + 1);
+    while (BRANCH_LESS_THAN(3)) {
         int14 = script5750(int10);
         [int12, int13] = script5752(int10);
         int8 = int7;
@@ -77,7 +79,7 @@ function script5744(int0: number): void {
         CC_SETTEXTFONT[1](27 as fontmetrics);
         int8 = (int8 + (script7593(CC_GETTEXT[1](), (int11 - 10), 27, 0) + int7));
         int16 = struct_getparam(int14, 6464);
-        if ((int16 != -1 as cs2enum)) {
+        if ((int16 != -1)) {
             int18 = ENUM_GETOUTPUTCOUNT(struct_getparam(int14, 6464));
         };
         if ((int18 > 0)) {
@@ -94,7 +96,7 @@ function script5744(int0: number): void {
                     CC_SETGRAPHIC[1](29423 as graphic);
                     script14928("<col=1bb3f9>Random</col><br>A random mutator will be selected for this challenge.");
                 } else {
-                    CC_SETGRAPHIC[1](struct_getparam(enum_getvalue(0, 73, 12533 as cs2enum, int23), 6504));
+                    CC_SETGRAPHIC[1](struct_getparam(enum_getvalue(0, 73, 12533, int23), 6504));
                     script14928(script13633(int23));
                 };
                 switch (MODULO(int17, 4)) {

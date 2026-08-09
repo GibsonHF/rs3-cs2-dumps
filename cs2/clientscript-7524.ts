@@ -13,8 +13,8 @@ function script7524(int0: number): void {
         IF_SETGRAPHIC(script7504(script7529(varclient_2705)), comp(1393, 11));
         IF_SETTEXT(script7505(script7529(varclient_2705)), comp(1393, 4));
         IF_SETTEXT(script7515(script7529(varclient_2705)), comp(1393, 15));
-        IF_SETONTIMER(callback(script7528, -100, 1, int0), 91291650);
-        varclient_2706 = 1;
+        IF_SETONTIMER(callback(script7528, -100, 1, int0), comp(1393, 2));
+        varclient_2706 = true;
     };
     return;
 }

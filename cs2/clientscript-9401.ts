@@ -9,7 +9,7 @@ function script9401(int0: number): void {
         if ((int4 == -1)) {
             CC_SETOP(1, `Select ${enum_getvalue(0, 36, 108 as cs2enum, int3)}`);
         } else {
-            CC_SETOP(1, `Remove ${enum_getvalue(0, 36, 108 as cs2enum, int3)}`);
+            CC_SETOP(1, `Remove ${enum_getvalue(0, 36, 108, int3)}`);
         };
     };
     if ((CC_FIND(int2, int0) == 1)) {

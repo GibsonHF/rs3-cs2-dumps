@@ -20,6 +20,7 @@ function script15447(): number {
             return script8074();
         }
         case 6: {
+            break;
         }
         default: {
             return -1;

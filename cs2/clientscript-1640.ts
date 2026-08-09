@@ -12,7 +12,8 @@ function script1640(int0: number, int1: number, int2: number): void {
         CC_SETTEXT(struct_getparam(varplayer_8157, 7493));
         CC_SETTEXTALIGN(1, 1, 0);
     } else {
-        while ((++int3 < varclient_6500)) {
+        int3 = (int3 + 1);
+        while ((int3 < varclient_6500)) {
             CC_CREATE(int0, 3, IF_GETNEXTSUBID(int0));
             CC_SETSIZE(0, 24, 1, 0);
             CC_SETPOSITION(0, int4, 0, 0);

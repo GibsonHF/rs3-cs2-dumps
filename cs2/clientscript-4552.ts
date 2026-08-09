@@ -3,9 +3,7 @@ function script4552(int0: number): void {
     var int1 = script3099(int0);
     IF_SETTEXT(`Friends List<br>RuneScape ${inttostring(MAP_WORLD(), 10)}`, script10587(int0));
     IF_SETONFRIENDTRANSMIT(callback(script124, int0), int1);
-    stack(124);
-    stack(int0);
-    stack("i");
+    stack(callback(script124, int0));
     stack(int1);
     IF_SETONPLAYERGROUPTRANSMIT();
     if ((WORLDLIST_FETCH() == 0)) {

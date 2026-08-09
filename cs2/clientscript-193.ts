@@ -1,24 +1,32 @@
 //
 function script193(int0: number): void {
     varclient_3474 = 1;
-    if ((((script8699(8) != 1) && (varbitplayer_27169 == 0)) && (varbitplayer_38842 == 0))) {
-        if ((((int0 == 0) && (varplayer_3812 <= 0)) && (varbitplayer_19923 <= 0))) {
-            IF_SETONVARTRANSMIT(callback(script192, 3812, 1), comp(1477, 26));
-            return;
-        };
-        IF_SETONVARTRANSMIT(callback(), comp(1477, 26));
-        if ((varclient_6300 == 1)) {
-            if ((script15532(0) == 1)) {
-                script8702(11, 8);
+    if ((script8699(8) != 1)) {
+        if ((varbitplayer_27169 == 0)) {
+            if ((varbitplayer_38842 == 0)) {
+                if ((((int0 == 0) && (varplayer_3812 <= 0)) && (varbitplayer_19923 <= 0))) {
+                    IF_SETONVARTRANSMIT(callback(script192, 3812, 1), comp(1477, 26));
+                    return;
+                };
+                IF_SETONVARTRANSMIT(callback(), comp(1477, 26));
+                if ((varclient_6300 == 1)) {
+                    if ((script15532(0) == 1)) {
+                        script8702(11, 8);
+                    } else {
+                        script8702(14, 8);
+                    };
+                } else if ((varplayer_3812 != 2)) {
+                    script8702(15, 8);
+                } else if ((script15532(0) == 1)) {
+                    script8702(11, 8);
+                } else {
+                    script8702(1, 8);
+                };
             } else {
-                script8702(14, 8);
+                IF_SETONVARTRANSMIT(callback(), comp(1477, 26));
             };
-        } else if ((varplayer_3812 != 2)) {
-            script8702(15, 8);
-        } else if ((script15532(0) == 1)) {
-            script8702(11, 8);
         } else {
-            script8702(1, 8);
+            IF_SETONVARTRANSMIT(callback(), comp(1477, 26));
         };
     } else {
         IF_SETONVARTRANSMIT(callback(), comp(1477, 26));

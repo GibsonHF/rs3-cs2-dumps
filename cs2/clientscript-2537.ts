@@ -1,8 +1,8 @@
 //
 function script2537(int0: number): void {
-    var int1 = comp(1264, 8);
+    var int1 = 82837512;
     IF_SETTEXT(dbrow_getfield(int0, 1085440, 0), comp(1264, 10));
-    IF_SETTEXT(dbrow_getfield(int0, 1085456, 0), comp(1264, 11));
+    IF_SETTEXT(dbrow_getfield(int0, 1085456, 0), 82837515);
     IF_SETTEXT(dbrow_getfield(int0, 1085472, 0), int1);
     var int2 = script15891(IF_GETTEXT(int1), IF_GETWIDTH(int1), IF_GETFONTMETRICS(int1), 0);
     CC_DELETEALL(comp(1264, 6));

@@ -9,7 +9,8 @@ function script20048(): void {
     var int6 = 1;
     var int7 = 1;
     var int8 = 0;
-    while ((++int8 <= 2)) {
+    int8 = (int8 + 1);
+    while ((int8 <= 2)) {
         switch (int8) {
             case 1: {
                 int0 = comp(1342, 11);

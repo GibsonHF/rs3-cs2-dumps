@@ -1,12 +1,12 @@
 //
 function script7676(int0: number, int1: number): void {
-    if (((int0 == comp(-1, 65535)) || (int1 == -1))) {
+    if (((int0 == comp(-1, 65535)) || (int1 == -1 as struct))) {
         return;
     };
     IF_SETONVARTRANSMIT(callback(script9985, int0, int1, 3814, 1), int0);
     var int2 = struct_getparam(int1, 3797);
     var int3 = struct_getparam(int1, 4405);
-    if ((int3 != -1)) {
+    if ((int3 != -1 as struct)) {
         var int1 = int3;
     };
     int1 = script9984(int1, int2);
@@ -21,19 +21,16 @@ function script7676(int0: number, int1: number): void {
         case 2: {
             IF_SETONMOUSEOVER(callback(script8087, 0, -2147483645), int0);
             IF_SETONMOUSELEAVE(callback(script8087, 1, -2147483645), int0);
-            int9 = 1;
+            int9 = true;
             break;
         }
         case 3: {
             IF_SETONCLICK(callback(script10016, -2147483645), int0);
-            stack(8087);
-            stack(1);
-            stack(-2147483645);
-            stack("ii");
+            stack(callback(script8087, 1, -2147483645));
             stack(int0);
             IF_SETONRELEASE();
             IF_SETONMOUSELEAVE(callback(script8087, 1, -2147483645), int0);
-            int9 = 1;
+            int9 = true;
             break;
         }
         case 4: {

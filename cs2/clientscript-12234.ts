@@ -12,13 +12,51 @@ function script12234(int0: number): void {
         IF_SETPOSITION(0, 0, 1, 1, struct_getparam(int0, 8153));
         IF_SETSIZE(0, 0, 1, 1, struct_getparam(int0, 8153));
         script11993(struct_getparam(int0, 8154), 0);
-    } else if (((int1 >= 108) && (int5 == 0))) {
-        IF_SETHIDE(true, struct_getparam(int0, 8141));
-        IF_SETHIDE(false, struct_getparam(int0, 8142));
-        IF_SETHIDE(false, struct_getparam(int0, 8153));
-        IF_SETPOSITION(4, 0, 2, 1, struct_getparam(int0, 8153));
-        IF_SETSIZE(65, 0, 0, 1, struct_getparam(int0, 8153));
-        script11993(struct_getparam(int0, 8154), 0);
+    } else if ((int1 >= 108)) {
+        if ((int5 == 0)) {
+            IF_SETHIDE(true, struct_getparam(int0, 8141));
+            IF_SETHIDE(false, struct_getparam(int0, 8142));
+            IF_SETHIDE(false, struct_getparam(int0, 8153));
+            IF_SETPOSITION(4, 0, 2, 1, struct_getparam(int0, 8153));
+            IF_SETSIZE(65, 0, 0, 1, struct_getparam(int0, 8153));
+            script11993(struct_getparam(int0, 8154), 0);
+        } else if ((int5 == 1)) {
+            IF_SETHIDE(false, struct_getparam(int0, 8141));
+            IF_SETPOSITION(-14, 0, 1, 1, struct_getparam(int0, 8141));
+            IF_SETSIZE(int4, 0, 0, 1, struct_getparam(int0, 8141));
+            if ((varbitplayer_45116 == 1)) {
+                switch (varbitplayer_16789) {
+                    case 0: {
+                        IF_SETTEXT("Active Prayers", struct_getparam(int0, 8141));
+                        break;
+                    }
+                    case 1: {
+                        IF_SETTEXT("Active Curses", struct_getparam(int0, 8141));
+                        break;
+                    }
+                };
+            } else {
+                switch (varbitplayer_16789) {
+                    case 0: {
+                        IF_SETTEXT("Prayers", struct_getparam(int0, 8141));
+                        break;
+                    }
+                    case 1: {
+                        IF_SETTEXT("Curses", struct_getparam(int0, 8141));
+                        break;
+                    }
+                };
+            };
+            IF_SETHIDE(false, struct_getparam(int0, 8142));
+            IF_SETHIDE(false, struct_getparam(int0, 8153));
+            IF_SETPOSITION(4, 0, 2, 1, struct_getparam(int0, 8153));
+            IF_SETSIZE(65, 0, 0, 1, struct_getparam(int0, 8153));
+            script11993(struct_getparam(int0, 8154), 0);
+        } else {
+            IF_SETHIDE(true, struct_getparam(int0, 8141));
+            IF_SETHIDE(true, struct_getparam(int0, 8142));
+            IF_SETHIDE(true, struct_getparam(int0, 8153));
+        };
     } else if ((int5 == 1)) {
         IF_SETHIDE(false, struct_getparam(int0, 8141));
         IF_SETPOSITION(-14, 0, 1, 1, struct_getparam(int0, 8141));

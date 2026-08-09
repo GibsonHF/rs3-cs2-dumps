@@ -15,11 +15,15 @@ function script1273(int0: number): void {
         int1 = script11657(cc_getparam(6378));
     };
     var int4 = -1;
-    while ((CC_FIND(int2, ++int4) == 1)) {
+    stack(int2);
+    int4 = (int4 + 1);
+    while ((CC_FIND(int4) == 1)) {
         CC_SETGRAPHIC(int1);
     };
     int4 = -1;
-    while ((CC_FIND(int3, ++int4) == 1)) {
+    stack(int3);
+    int4 = (int4 + 1);
+    while ((CC_FIND(int4) == 1)) {
         CC_SETGRAPHIC(int1);
     };
     return;

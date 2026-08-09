@@ -5,7 +5,7 @@ function script2104(int0: number): string {
         return "";
     };
     QUEST_GETSORTNAME(int0);
-    var string0 = stack();
+    var string0 = [];
     var string1 = "";
     if ((STRING_LENGTH(string0) == 0)) {
         string1 = script2103(int0);

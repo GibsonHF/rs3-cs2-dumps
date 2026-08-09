@@ -4,8 +4,7 @@ function script10223(int0: number, int1: number, string0: string): void {
     var string1 = "";
     var string2 = "";
     if ((((varbitclient_23069 == 1) && (varclient_4292 != -1)) && (STRING_LENGTH(varclient_4291) > 0))) {
-        stack(TTV_WEBCAM_GETDEVICE_BYUNIQUENAME(varclient_4291));
-        [int2, string1, string2] = stack();
+        [int2, string1, string2] = TTV_WEBCAM_GETDEVICE_BYUNIQUENAME(varclient_4291);
         if ((int2 != -1)) {
             return;
         };

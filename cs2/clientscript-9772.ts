@@ -1,20 +1,20 @@
 //
 function script9772(int0: number, int1: number, int2: number, int3: number, string0: string, string1: string): void {
-    var int4 = comp(1146, 23);
+    var int4 = 75104279;
     var int5 = 75104265;
     var int6 = 75104277;
     var int7 = 75104266;
     var int8 = 75104278;
-    var int9 = comp(1146, 11);
-    var int10 = comp(1146, 13);
-    var int11 = comp(1146, 14);
+    var int9 = 75104267;
+    var int10 = 75104269;
+    var int11 = 75104270;
     script9774();
     var int12 = ENUM_GETOUTPUTCOUNT(int0);
     var int13 = 0;
     var int14 = 0;
     var int15 = 0;
-    var int16 = comp(-1, 65535);
-    var int17 = -1 as obj;
+    var int16 = -1;
+    var int17 = -1;
     var int18 = 0;
     var string2 = "";
     while ((int13 < int12)) {
@@ -44,7 +44,8 @@ function script9772(int0: number, int1: number, int2: number, int3: number, stri
             IF_SETONMOUSEREPEAT(callback(), int16);
         };
         int13 = (int13 + 1);
-        if ((++int15 >= int2)) {
+        int15 = (int15 + 1);
+        if ((int15 >= int2)) {
             int15 = 0;
             int14 = (int14 + 1);
         };

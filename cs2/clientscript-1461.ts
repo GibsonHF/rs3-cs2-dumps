@@ -8,8 +8,12 @@ function script1461(int0: number): void {
     } else {
         IF_SETOP(1, "Unloop", int0);
     };
-    if (((IF_GETGRAPHIC(int0) != 32099 as graphic) && (IF_GETGRAPHIC(int0) != 32101 as graphic))) {
-        script1453(int0);
+    if ((IF_GETGRAPHIC(int0) != 32099 as graphic)) {
+        if ((IF_GETGRAPHIC(int0) != 32101 as graphic)) {
+            script1453(int0);
+        } else {
+            script1450(int0);
+        };
     } else {
         script1450(int0);
     };

@@ -1,7 +1,7 @@
 //
 function script2649(): void {
     USERDETAIL_LOBBY_UNREADMESSAGES();
-    var int0 = stack();
+    var int0 = [];
     var string0 = "Messages";
     var int1 = 0;
     var string1 = `${inttostring(int0, 10)} Unread`;

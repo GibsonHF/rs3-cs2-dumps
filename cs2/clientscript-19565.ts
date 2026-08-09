@@ -20,7 +20,7 @@ function script19565(int0: number): void {
         return;
     };
     if ((CC_FIND(comp(1313, 118), 14) == 1)) {
-        CC_SETTEXT(`${varclient_8166} Storage (${enum_getvalue(0, 36, 15582 as cs2enum, varbitplayer_45140)})`);
+        CC_SETTEXT(`${varclient_8166} Storage (${enum_getvalue(0, 36, 15582, varbitplayer_45140)})`);
     } else {
         IF_SETONTIMER(callback(script19566), comp(1313, 4));
     };

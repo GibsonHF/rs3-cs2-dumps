@@ -40,11 +40,12 @@ function script6514(): void {
     if ((int2 == -1 as cs2enum)) {
         return;
     };
-    while ((++int0 < int1)) {
+    int0 = (int0 + 1);
+    while ((int0 < int1)) {
         IF_SETGRAPHIC(enum_getvalue(0, 23, int2, int0), enum_getvalue(0, 9, 12587 as cs2enum, int0));
     };
     IF_SETONTIMER(callback(script6515, 1), comp(49, 1));
     script6517();
-    IF_SETONVARTRANSMIT(callback(script6516, 8283, 1), 3211266);
+    IF_SETONVARTRANSMIT(callback(script6516, 8283, 1), comp(49, 2));
     return;
 }

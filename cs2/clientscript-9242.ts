@@ -14,8 +14,12 @@ function script9242(int0: number, int1: number, int2: number): void {
     };
     var int3 = script8404(int0);
     var int4 = IF_GETSCROLLY(int0);
-    if (((int3 >= 0) && (int3 <= 15))) {
-        int4 = (int4 - 4);
+    if ((int3 >= 0)) {
+        if ((int3 <= 15)) {
+            int4 = (int4 - 4);
+        } else if (((int3 >= (IF_GETHEIGHT(int0) - 10)) && (int3 <= IF_GETHEIGHT(int0)))) {
+            int4 = (int4 + 4);
+        };
     } else if (((int3 >= (IF_GETHEIGHT(int0) - 10)) && (int3 <= IF_GETHEIGHT(int0)))) {
         int4 = (int4 + 4);
     };

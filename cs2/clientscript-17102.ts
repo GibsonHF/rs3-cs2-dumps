@@ -1,19 +1,16 @@
 //
-function script17102(int0: number, int1: number, int2: number, int3: number): [string, number] {
+function script17102(int0: number, int1: number, int2: number, int3: number): [number, string] {
     var string0 = "";
     if ((script12795() == 2)) {
         if ((TESTBIT(varplayer_10744, int0) == 1)) {
             if ((int1 < 5)) {
                 var int1 = (int1 + 1);
-                stack(PUSH_CONSTANT_INT[16]("<col=", int2));
-                return [`${stack()}${inttostring()}> [ACTIVE]</col>`, int1];
+                return [`${inttostring(PUSH_CONSTANT_INT[16]("<col=", int2))}> [ACTIVE]</col>`, int1];
             };
-            stack(PUSH_CONSTANT_INT[16]("<col=", int3));
-            return [`${stack()}${inttostring()}> [BACKUP]</col>`, int1];
+            return [`${inttostring(PUSH_CONSTANT_INT[16]("<col=", int3))}> [BACKUP]</col>`, int1];
         };
         if (((int0 == 1) && (varbitplayer_1675 == 1))) {
-            stack(PUSH_CONSTANT_INT[16]("<col=", int2));
-            return [`${stack()}${inttostring()}> [PREVIEW ACTIVE]</col>`, int1];
+            return [`${inttostring(PUSH_CONSTANT_INT[16]("<col=", int2))}> [PREVIEW ACTIVE]</col>`, int1];
         };
         return ["", int1];
     };
@@ -62,8 +59,10 @@ function script17102(int0: number, int1: number, int2: number, int3: number): [s
             break;
         }
         case 15: {
-            if (((varbitplayer_28103 > 0) && ((varbitplayer_28103 > 1) || (INV_GETOBJ(94 as inv, 17) != 29287 as obj)))) {
-                int4 = 1;
+            if ((varbitplayer_28103 > 0)) {
+                if (((varbitplayer_28103 > 1) || (INV_GETOBJ(94 as inv, 17) != 29287 as obj))) {
+                    int4 = 1;
+                };
             };
             break;
         }
@@ -79,8 +78,7 @@ function script17102(int0: number, int1: number, int2: number, int3: number): [s
     };
     if ((int4 == 1)) {
         int1 = (int1 + 1);
-        stack(PUSH_CONSTANT_INT[16]("<col=", int2));
-        return [`${stack()}${inttostring()}> [ACTIVE]</col>`, int1];
+        return [`${inttostring(PUSH_CONSTANT_INT[16]("<col=", int2))}> [ACTIVE]</col>`, int1];
     };
     return ["", int1];
 }

@@ -8,7 +8,8 @@ function script7622(int0: number, int1: number, int2: number, int3: number, int4
     var string20 = "null";
     var string21 = "null";
     var int8 = 0;
-    while ((++int5 < int0)) {
+    int5 = (int5 + 1);
+    while ((int5 < int0)) {
         [int7, string20, string21] = script7625(int3, string0, string1, string2, string3, string4, string5, string6, string7, string8, string9, string10, string11, string12, string13, string14, string15, string16, string17, string18, string19, int5);
         if ((int7 == 1)) {
             [int6, int8] = script7623(int6, int8, string20, string21, script9670(int5, int4), TESTBIT(int1, (int5 + 1)), TESTBIT(int2, (int5 + 1)));

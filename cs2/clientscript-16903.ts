@@ -2,8 +2,12 @@
 function script16903(): void {
     script16904();
     var int0 = 1;
-    if (((script16823() == 1) && (script16906(2) == 1))) {
-        int0 = 2;
+    if ((script16823() == 1)) {
+        if ((script16906(2) == 1)) {
+            int0 = 2;
+        } else if ((RANDOM(100) < 50)) {
+            int0 = 0;
+        };
     } else if ((RANDOM(100) < 50)) {
         int0 = 0;
     };

@@ -3,16 +3,16 @@ function script1506(): void {
     var int0 = -1 as cs2enum;
     var int1 = -1 as cs2enum;
     if ((GENDER() == 1)) {
-        int0 = 1137 as cs2enum;
-        int1 = 3294 as cs2enum;
+        int0 = 1137;
+        int1 = 3294;
     } else {
-        int0 = 1136 as cs2enum;
-        int1 = 3291 as cs2enum;
+        int0 = 1136;
+        int1 = 3291;
     };
     CC_DELETEALL(comp(728, 11));
     var int2 = 0;
     var int3 = ENUM_GETOUTPUTCOUNT(int0);
-    var int4 = -1 as idkit;
+    var int4 = -1;
     var string0 = "";
     var int5 = 0;
     var int6 = 0;
@@ -73,25 +73,25 @@ function script1506(): void {
     int2 = 0;
     int5 = 0;
     var int9 = 0;
-    var int10 = -1 as graphic;
+    var int10 = -1;
     var int11 = 0;
     while ((int2 < int3)) {
-        string0 = enum_getvalue(0, 36, 3296 as cs2enum, int2);
-        int11 = enum_getvalue(0, 0, 3297 as cs2enum, int2);
+        string0 = enum_getvalue(0, 36, 3296, int2);
+        int11 = enum_getvalue(0, 0, 3297, int2);
         CC_CREATE(comp(728, 14), 3, IF_GETNEXTSUBID(comp(728, 14)));
         CC_SETSIZE(20, 20, 0, 0);
         CC_SETFILL(1);
         CC_SETPOSITION((int9 * CC_GETWIDTH()), int5, 0, 0);
-        CC_SETCOLOUR(enum_getvalue(0, 0, 753 as cs2enum, int2));
+        CC_SETCOLOUR(enum_getvalue(0, 0, 753, int2));
         CC_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643));
-        CC_CREATE[1](47710222, 5, IF_GETNEXTSUBID(47710222));
+        CC_CREATE[1](comp(728, 14), 5, IF_GETNEXTSUBID(comp(728, 14)));
         CC_SETSIZE[1](CC_GETWIDTH(), CC_GETHEIGHT(), 0, 0);
         CC_SETPOSITION[1](CC_GETX(), CC_GETY(), 0, 0);
         if ((int11 == varclient_1018)) {
             CC_SETGRAPHIC[1](2289 as graphic);
             int6 = int5;
         } else {
-            int10 = 2288 as graphic;
+            int10 = 2288;
             CC_SETGRAPHIC[1](int10);
             CC_SETONMOUSELEAVE[1](callback(script688, -2147483645, CC_GETID[1](), int10));
             int10 = 2289;

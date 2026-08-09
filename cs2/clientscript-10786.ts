@@ -34,15 +34,19 @@ function script10786(): void {
     CC_SETPOSITION(0, int4, 1, 0);
     CC_SETSIZE((IF_GETWIDTH(comp(1560, 20)) - 20), 16, 0, 0);
     CC_SETTEXTALIGN(1, 1, 0);
-    if (((varplayer_4985 == 0) && (STRING_LENGTH(varclient_4672) > 0))) {
-        CC_SETTEXT(varclient_4672);
-        CC_SETMOUSEOVERCURSOR(210);
-        CC_SETOP(1, "View Clan Information");
-        CC_SETONOP(callback(script15228, 28));
-        CC_CREATE(102236180, 5, IF_GETNEXTSUBID(102236180));
-        CC_SETGRAPHIC(26767);
-        CC_SETSIZE(24, 24, 0, 0);
-        CC_SETPOSITION(5, (int4 - 4), 2, 0);
+    if ((varplayer_4985 == 0)) {
+        if ((STRING_LENGTH(varclient_4672) > 0)) {
+            CC_SETTEXT(varclient_4672);
+            CC_SETMOUSEOVERCURSOR(210);
+            CC_SETOP(1, "View Clan Information");
+            CC_SETONOP(callback(script15228, 28));
+            CC_CREATE(comp(1560, 20), 5, IF_GETNEXTSUBID(comp(1560, 20)));
+            CC_SETGRAPHIC(26767 as graphic);
+            CC_SETSIZE(24, 24, 0, 0);
+            CC_SETPOSITION(5, (int4 - 4), 2, 0);
+        } else {
+            CC_SETTEXT("N/A");
+        };
     } else {
         CC_SETTEXT("N/A");
     };
@@ -67,16 +71,20 @@ function script10786(): void {
         CC_SETPOSITION(0, int4, 1, 0);
         CC_SETSIZE((IF_GETWIDTH(comp(1560, 20)) - 20), 16, 0, 0);
         CC_SETTEXTALIGN(1, 1, 0);
-        if (((varplayer_4985 == 0) && (STRING_LENGTH(varclient_8255) > 0))) {
-            CC_SETTEXT(varclient_8255);
-            if ((varclient_8257 == 0)) {
-                CC_SETMOUSEOVERCURSOR(210);
-                CC_SETOP(1, "View Group Information");
-                CC_SETONOP(callback(script15228, 27));
-                CC_CREATE(102236180, 5, IF_GETNEXTSUBID(102236180));
-                CC_SETGRAPHIC(26767);
-                CC_SETSIZE(24, 24, 0, 0);
-                CC_SETPOSITION(5, (int4 - 4), 2, 0);
+        if ((varplayer_4985 == 0)) {
+            if ((STRING_LENGTH(varclient_8255) > 0)) {
+                CC_SETTEXT(varclient_8255);
+                if ((varclient_8257 == 0)) {
+                    CC_SETMOUSEOVERCURSOR(210);
+                    CC_SETOP(1, "View Group Information");
+                    CC_SETONOP(callback(script15228, 27));
+                    CC_CREATE(comp(1560, 20), 5, IF_GETNEXTSUBID(comp(1560, 20)));
+                    CC_SETGRAPHIC(26767 as graphic);
+                    CC_SETSIZE(24, 24, 0, 0);
+                    CC_SETPOSITION(5, (int4 - 4), 2, 0);
+                };
+            } else {
+                CC_SETTEXT("N/A");
             };
         } else {
             CC_SETTEXT("N/A");
@@ -102,7 +110,7 @@ function script10786(): void {
     CC_SETPOSITION(0, int4, 1, 0);
     CC_SETSIZE((IF_GETWIDTH(comp(1560, 20)) - 20), 28, 0, 0);
     CC_SETTEXTALIGN(1, 0, 0);
-    var string1 = enum_getvalue(0, 36, 5586 as cs2enum, varbitplayer_26172);
+    var string1 = enum_getvalue(0, 36, 5586, varbitplayer_26172);
     CC_SETTEXT(string1);
     int4 = (int4 + (28 + 5));
     CC_CREATE(comp(1560, 20), 9, IF_GETNEXTSUBID(comp(1560, 20)));

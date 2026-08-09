@@ -103,38 +103,48 @@ function script10801(): void {
         if ((struct_getparam(int16, 2531) == 2)) {
             int27 = script15769(int16);
         };
-        if (((int27 != -1 as dbrow) && ((DB_GETFIELDCOUNT(int27, 667856) == 1) || (DB_GETFIELDCOUNT(int27, 667712) == 1)))) {
-            stack(667648);
-            stack(dbrow_getfield(int27, 667648, 0));
-            DB_FIND(0);
-            if ((DB_GETFIELDCOUNT(int27, 667856) == 1)) {
-                unk11023(IF_SETPLAYERHEAD_SELF(IF_SETPLAYERHEAD_SELF(WORLDMAP_LISTELEMENT_START(667856, dbrow_getfield(int27, 667856, 0), 3, 0), WORLDMAP_LISTELEMENT_START(668000, 0, 3, 0)), WORLDMAP_LISTELEMENT_START(667984, 0, 3, 0)), 667744, 1);
-                dbrow_findnext();
-                int27 = stack();
+        if ((int27 != -1 as dbrow)) {
+            if (((DB_GETFIELDCOUNT(int27, 667856) == 1) || (DB_GETFIELDCOUNT(int27, 667712) == 1))) {
+                stack(667648);
+                stack(dbrow_getfield(int27, 667648, 0));
+                DB_FIND(0);
+                if ((DB_GETFIELDCOUNT(int27, 667856) == 1)) {
+                    unk11023(IF_SETPLAYERHEAD_SELF(IF_SETPLAYERHEAD_SELF(WORLDMAP_LISTELEMENT_START(667856, dbrow_getfield(int27, 667856, 0), 3, 0), WORLDMAP_LISTELEMENT_START(668000, 0, 3, 0)), WORLDMAP_LISTELEMENT_START(667984, 0, 3, 0)), 667744, 1);
+                    int27 = dbrow_findnext();
+                } else {
+                    int27 = dbrow_findnext();
+                };
+                int25 = 1;
+                while ((int27 != -1 as dbrow)) {
+                    [int5, int7] = script11369(script15770(int27), int1, int5, int7, enum_getvalue(0, 23, 9995, int13), script19118(int27, 1));
+                    int27 = dbrow_findnext();
+                };
             } else {
-                dbrow_findnext();
-                int27 = stack();
-            };
-            int25 = 1;
-            while ((int27 != -1 as dbrow)) {
-                [int5, int7] = script11369(script15770(int27), int1, int5, int7, enum_getvalue(0, 23, 9995 as cs2enum, int13), script19118(int27, 1));
-                dbrow_findnext();
-                int27 = stack();
+                int26 = struct_getparam(int16, 5153);
+                if ((int26 != -1 as struct)) {
+                    if (((struct_getparam(int26, 2531) != 2) || (struct_getparam(int26, 2532) >= 19))) {
+                        [int5, int7] = script11369(int16, int1, int5, int7, enum_getvalue(0, 23, 9996, struct_getparam(int26, 2531)), "");
+                    } else {
+                        [int5, int7] = script11369(int16, int1, int5, int7, enum_getvalue(0, 23, 9995, struct_getparam(int26, 2532)), "");
+                    };
+                } else {
+                    [int5, int7] = script11369(int16, int1, int5, int7, enum_getvalue(0, 23, 9996, struct_getparam(int16, 2531)), string0);
+                };
             };
         } else {
             int26 = struct_getparam(int16, 5153);
             if ((int26 != -1 as struct)) {
                 if (((struct_getparam(int26, 2531) != 2) || (struct_getparam(int26, 2532) >= 19))) {
-                    [int5, int7] = script11369(int16, int1, int5, int7, enum_getvalue(0, 23, 9996 as cs2enum, struct_getparam(int26, 2531)), "");
+                    [int5, int7] = script11369(int16, int1, int5, int7, enum_getvalue(0, 23, 9996, struct_getparam(int26, 2531)), "");
                 } else {
-                    [int5, int7] = script11369(int16, int1, int5, int7, enum_getvalue(0, 23, 9995 as cs2enum, struct_getparam(int26, 2532)), "");
+                    [int5, int7] = script11369(int16, int1, int5, int7, enum_getvalue(0, 23, 9995, struct_getparam(int26, 2532)), "");
                 };
             } else {
-                [int5, int7] = script11369(int16, int1, int5, int7, enum_getvalue(0, 23, 9996 as cs2enum, struct_getparam(int16, 2531)), string0);
+                [int5, int7] = script11369(int16, int1, int5, int7, enum_getvalue(0, 23, 9996, struct_getparam(int16, 2531)), string0);
             };
         };
         if ((int14 == -1 as cs2enum)) {
-            int16 = -1 as struct;
+            int16 = -1;
         } else {
             int15 = (int15 + 1);
             int16 = enum_getvalue(0, 73, int14, int15);

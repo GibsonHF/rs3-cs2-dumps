@@ -8,8 +8,7 @@ function script13824(): void {
     var string0 = "";
     var string1 = "";
     var string2 = "";
-    stack(unk11106());
-    [int0, string1, string0, string2] = stack();
+    [int0, string1, string0, string2] = unk11106();
     varclient_6363 = 0;
     switch (int0) {
         case 4:
@@ -45,8 +44,7 @@ function script13824(): void {
     var int3 = 0;
     var string3 = "";
     var string4 = "";
-    stack(unk11105());
-    [int3, string4, string3] = stack();
+    [int3, string4, string3] = unk11105();
     if (((int3 == 1) && (int1 < 2))) {
         string0 = string4;
         string1 = `-> ${string3}`;
@@ -77,12 +75,22 @@ function script13824(): void {
     switch (int0) {
         case 4: {
             if ((unk11104() == 1)) {
-                if ((((varclient_173 <= 0) && (varbitplayer_3028 == 0)) && ((strcmp(string1, "Attack") == 0) || (npc_getparam(unk11077(), 9321) == 1)))) {
-                    if ((unk11103() == 0)) {
-                        script8876(REMOVETAGS(string0), npc_getparam(unk11077(), 2848), npc_getparam(unk11077(), 26));
-                        script7234(string5);
+                if ((varclient_173 <= 0)) {
+                    if ((varbitplayer_3028 == 0)) {
+                        if (((strcmp(string1, "Attack") == 0) || (npc_getparam(unk11077(), 9321) == 1))) {
+                            if ((unk11103() == 0)) {
+                                script8876(REMOVETAGS(string0), npc_getparam(unk11077(), 2848), npc_getparam(unk11077(), 26));
+                                script7234(string5);
+                            } else {
+                                script8880();
+                            };
+                        } else {
+                            script8880();
+                            script7234(string5);
+                        };
                     } else {
                         script8880();
+                        script7234(string5);
                     };
                 } else {
                     script8880();
@@ -104,7 +112,7 @@ function script13824(): void {
             break;
         }
         case 1: {
-            if ((varclient_1691 != -1 as obj)) {
+            if ((varclient_1691 != -1)) {
                 script7234(string5);
             } else {
                 script5487(1);
@@ -112,7 +120,7 @@ function script13824(): void {
             break;
         }
         default: {
-            if ((varclient_1688 == true)) {
+            if ((varclient_1688 == 1)) {
                 script5487(1);
             };
             break;

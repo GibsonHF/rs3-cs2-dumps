@@ -2,7 +2,7 @@
 function script20250(): void {
     CC_DELETEALL(comp(1442, 11));
     var int0 = script20117(-1);
-    if ((int0 == -1 as dbrow)) {
+    if ((int0 == -1)) {
         return;
     };
     var int1 = dbrow_getfield(int0, 1335456, 0);
@@ -15,14 +15,13 @@ function script20250(): void {
     var int8 = 0;
     var int9 = 4128;
     var int10 = 2100;
-    var int11 = -1 as obj;
+    var int11 = -1;
     var int12 = -1;
     var string0 = "";
     var int13 = -1;
     var string1 = "";
     while ((int2 < int3)) {
-        stack(dbrow_getfield(int1, 1363968, int2));
-        [int8, int11, string1] = stack();
+        [int8, int11, string1] = dbrow_getfield(int1, 1363968, int2);
         if ((int7 >= int8)) {
             int9 = 4368;
             int10 = 2196;
@@ -40,8 +39,7 @@ function script20250(): void {
         CC_SETTEXTALIGN(1, 1, 0);
         int2 = (int2 + 1);
     };
-    stack(dbrow_getfield(int1, 1363968, script12377((int12 + 1), 0, (int3 - 1))));
-    [int8, int11, string1] = stack();
+    [int8, int11, string1] = dbrow_getfield(int1, 1363968, script12377((int12 + 1), 0, (int3 - 1)));
     if ((int12 == (int3 - 1))) {
         string0 = "You have unlocked all trophies!";
     } else {

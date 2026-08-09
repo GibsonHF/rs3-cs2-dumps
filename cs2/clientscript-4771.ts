@@ -2,7 +2,7 @@
 function script4771(int0: number, int1: number): number {
     var int2 = 38;
     var int3 = (int1 / 8);
-    var int4 = 5470;
+    var int4 = 5470 as graphic;
     CC_CREATE(int0, 3, int1);
     CC_SETPOSITION(2, (int2 * int3), 0, 0);
     CC_SETSIZE(4, 10, 1, 0);
@@ -20,6 +20,7 @@ function script4771(int0: number, int1: number): number {
     CC_SETGRAPHIC(int4);
     CC_SETSIZE(4, 10, 1, 0);
     CC_SETPOSITION(2, (int2 * int3), 0, 0);
-    CC_SETHIDE(1);
-    return ++int1;
+    CC_SETHIDE(true);
+    int1 = (int1 + 1);
+    return int1;
 }

@@ -148,7 +148,13 @@ function script690(int0: number): number {
             break;
         }
     };
-    if ((((varbitplayer_50989 == 1) && (int1 == 2)) || ((varbitplayer_50990 == 1) && (struct_getparam(int0, 4652) == 1)))) {
+    if ((varbitplayer_50989 == 1)) {
+        if ((int1 == 2)) {
+            int1 = 1;
+        } else if (((varbitplayer_50990 == 1) && (struct_getparam(int0, 4652) == 1))) {
+            int1 = 1;
+        };
+    } else if (((varbitplayer_50990 == 1) && (struct_getparam(int0, 4652) == 1))) {
         int1 = 1;
     };
     return int1;

@@ -7,7 +7,7 @@ function script5853(int0: number, int1: number): void {
         IF_SETONTIMER(callback(script5853, int0, int1), int0);
     } else {
         IF_SETONTIMER(callback(), int0);
-        IF_SETHIDE(1, int0);
+        IF_SETHIDE(true, int0);
     };
     return;
 }

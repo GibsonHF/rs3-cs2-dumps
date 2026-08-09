@@ -11,10 +11,11 @@ function script17702(int0: number, int1: number, int2: number): number {
     };
     if ((((struct_getparam(int1, 2806) == 4) || (struct_getparam(int1, 2806) == 27)) || (struct_getparam(int1, 2806) == 28))) {
         if (((int1 == varplayer_3170) && (varbitplayer_0 == 2))) {
-            var int1 = 14874 as struct;
+            var int1 = 14874;
         };
         int6 = -1;
-        while ((++int3 < 16)) {
+        int3 = (int3 + 1);
+        while ((int3 < 16)) {
             switch (int3) {
                 case 0: {
                     int4 = script18436(int1, 556);
@@ -114,8 +115,16 @@ function script17702(int0: number, int1: number, int2: number): number {
                 }
             };
             if ((int4 > 0)) {
-                if ((((script339(int1, struct_getparam(int1, 2871)) <= 0) && (script19(int5) < int4)) && (script6572(int1) == 0))) {
-                    string0 = "<col=ff0000>";
+                if ((script339(int1, struct_getparam(int1, 2871)) <= 0)) {
+                    if ((script19(int5) < int4)) {
+                        if ((script6572(int1) == 0)) {
+                            string0 = "<col=ff0000>";
+                        } else {
+                            string0 = "<col=00ff00>";
+                        };
+                    } else {
+                        string0 = "<col=00ff00>";
+                    };
                 } else {
                     string0 = "<col=00ff00>";
                 };

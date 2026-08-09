@@ -20,10 +20,17 @@ function script12235(int0: number, int1: number, int2: number): [number, number,
             IF_SETSIZE(16, int9, 1, 1, struct_getparam(int1, 8122));
             IF_SETHIDE(false, struct_getparam(int1, 8123));
             IF_SETSIZE(0, IF_GETHEIGHT(struct_getparam(int1, 8122)), 1, 0, struct_getparam(int1, 8123));
-        } else if (((varbitplayer_27169 == 1) && (int8 == 0))) {
-            IF_SETPOSITION(0, int10, 0, 0, struct_getparam(int1, 8122));
-            IF_SETSIZE(16, int9, 1, 1, struct_getparam(int1, 8122));
-            IF_SETHIDE(true, struct_getparam(int1, 8123));
+        } else if ((varbitplayer_27169 == 1)) {
+            if ((int8 == 0)) {
+                IF_SETPOSITION(0, int10, 0, 0, struct_getparam(int1, 8122));
+                IF_SETSIZE(16, int9, 1, 1, struct_getparam(int1, 8122));
+                IF_SETHIDE(true, struct_getparam(int1, 8123));
+            } else {
+                IF_SETPOSITION((16 / 2), int10, 0, 0, struct_getparam(int1, 8122));
+                IF_SETSIZE(16, int9, 1, 1, struct_getparam(int1, 8122));
+                IF_SETHIDE(false, struct_getparam(int1, 8123));
+                IF_SETSIZE(0, IF_GETHEIGHT(struct_getparam(int1, 8122)), 1, 0, struct_getparam(int1, 8123));
+            };
         } else {
             IF_SETPOSITION((16 / 2), int10, 0, 0, struct_getparam(int1, 8122));
             IF_SETSIZE(16, int9, 1, 1, struct_getparam(int1, 8122));

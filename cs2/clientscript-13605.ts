@@ -51,13 +51,13 @@ function script13605(int0: number): void {
             };
             CC_SETOP(1, "Select");
             CC_SETONOP(callback(script13607, -2147483643));
-            CC_CREATE(124256312, 4, ((int5 * 2) + 1));
+            CC_CREATE(comp(1896, 56), 4, ((int5 * 2) + 1));
             CC_SETPOSITION(5, ((int5 * (32 + 2)) + 2), 0, 0);
             CC_SETSIZE((5 * 2), 32, 1, 0);
             CC_SETCOLOUR(16711422);
-            CC_SETTEXTSHADOW(1);
+            CC_SETTEXTSHADOW(true);
             CC_SETTEXTALIGN(0, 1, 0);
-            CC_SETTEXTFONT(26);
+            CC_SETTEXTFONT(26 as fontmetrics);
             string0 = struct_getparam(int8, 6421);
             if ((PARAHEIGHT(string0, CC_GETWIDTH(), CC_GETFONTMETRICS()) > 1)) {
                 CC_SETONMOUSEREPEAT(callback(script8799, string0, 124256312, CC_GETID()));

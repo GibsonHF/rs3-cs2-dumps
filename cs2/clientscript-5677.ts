@@ -1,125 +1,125 @@
 //
 function script5677(int0: number): void {
-    var int1 = -1 as stat;
+    var int1 = -1;
     switch (int0) {
         case 79495205: {
-            int1 = 0 as stat;
+            int1 = 0;
             break;
         }
         case 79495206: {
-            int1 = 2 as stat;
+            int1 = 2;
             break;
         }
         case 79495207: {
-            int1 = 1 as stat;
+            int1 = 1;
             break;
         }
         case 79495208: {
-            int1 = 4 as stat;
+            int1 = 4;
             break;
         }
         case 79495209: {
-            int1 = 5 as stat;
+            int1 = 5;
             break;
         }
         case 79495210: {
-            int1 = 6 as stat;
+            int1 = 6;
             break;
         }
         case 79495211: {
-            int1 = 3 as stat;
+            int1 = 3;
             break;
         }
         case 79495212: {
-            int1 = 16 as stat;
+            int1 = 16;
             break;
         }
         case 79495213: {
-            int1 = 15 as stat;
+            int1 = 15;
             break;
         }
         case 79495214: {
-            int1 = 17 as stat;
+            int1 = 17;
             break;
         }
         case 79495215: {
-            int1 = 12 as stat;
+            int1 = 12;
             break;
         }
         case 79495216: {
-            int1 = 9 as stat;
+            int1 = 9;
             break;
         }
         case 79495217: {
-            int1 = 14 as stat;
+            int1 = 14;
             break;
         }
         case 79495218: {
-            int1 = 13 as stat;
+            int1 = 13;
             break;
         }
         case 79495219: {
-            int1 = 10 as stat;
+            int1 = 10;
             break;
         }
         case 79495220: {
-            int1 = 7 as stat;
+            int1 = 7;
             break;
         }
         case 79495221: {
-            int1 = 11 as stat;
+            int1 = 11;
             break;
         }
         case 79495222: {
-            int1 = 8 as stat;
+            int1 = 8;
             break;
         }
         case 79495223: {
-            int1 = 20 as stat;
+            int1 = 20;
             break;
         }
         case 79495224: {
-            int1 = 18 as stat;
+            int1 = 18;
             break;
         }
         case 79495225: {
-            int1 = 19 as stat;
+            int1 = 19;
             break;
         }
         case 79495226: {
-            int1 = 21 as stat;
+            int1 = 21;
             break;
         }
         case 79495227: {
-            int1 = 22 as stat;
+            int1 = 22;
             break;
         }
         case 79495228: {
-            int1 = 23 as stat;
+            int1 = 23;
             break;
         }
         case 79495229: {
-            int1 = 24 as stat;
+            int1 = 24;
             break;
         }
         case 79495230: {
-            int1 = 25 as stat;
+            int1 = 25;
             break;
         }
         case 79495231: {
-            int1 = 26 as stat;
+            int1 = 26;
             break;
         }
         case 79495232: {
-            int1 = 27 as stat;
+            int1 = 27;
             break;
         }
         case 79495233: {
-            int1 = 28 as stat;
+            int1 = 28;
             break;
         }
         case 79495234: {
-            int1 = -1 as stat;
+            int1 = -1;
             break;
         }
         default: {

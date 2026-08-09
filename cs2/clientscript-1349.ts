@@ -15,11 +15,11 @@ function script1349(): void {
         script1353();
         IF_SETONTIMER(callback(script1355, 0), comp(458, 27));
         varbitclient_40355 = (varbitclient_40355 + 1);
-        IF_SETTEXT(`${inttostring(varbitclient_40355, 10)}/${inttostring(varbitplayer_40353, 10)}`, 30015498);
+        IF_SETTEXT(`${inttostring(varbitclient_40355, 10)}/${inttostring(varbitplayer_40353, 10)}`, comp(458, 10));
         if ((varbitclient_40355 == varbitplayer_40353)) {
             IF_SETONOP(callback(), comp(458, 0));
-            IF_SETOP(2, " ", 30015488);
-            IF_TRIGGEROP(30015488, -1, 2);
+            IF_SETOP(2, " ", comp(458, 0));
+            IF_TRIGGEROP(comp(458, 0), -1, 2);
         };
     } else {
         varbitclient_40359 = (varbitclient_40359 + 1);
@@ -31,9 +31,9 @@ function script1349(): void {
         };
         if (((varbitclient_40359 >= int0) && (int0 > 0))) {
             IF_SETONOP(callback(), comp(458, 0));
-            IF_SETOP(1, " ", 30015488);
-            SOUND_VORBIS_VOLUME(21328, 1, 0, 255);
-            IF_TRIGGEROP(30015488, -1, 1);
+            IF_SETOP(1, " ", comp(458, 0));
+            SOUND_VORBIS_VOLUME(21328 as vorbis, 1, 0, 255);
+            IF_TRIGGEROP(comp(458, 0), -1, 1);
         };
     };
     return;

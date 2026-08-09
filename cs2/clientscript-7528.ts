@@ -5,7 +5,7 @@ function script7528(int0: number, int1: number, int2: number): void {
     if ((int0 == 0)) {
         var int2 = (int2 - 1);
         IF_SETONTIMER(callback(), comp(1393, 2));
-        varclient_2706 = 0;
+        varclient_2706 = false;
         if ((int2 > 0)) {
             if ((int1 == 1)) {
                 script7524(int2);
@@ -32,7 +32,7 @@ function script7528(int0: number, int1: number, int2: number): void {
         } else {
             int0 = 0;
         };
-        IF_SETONTIMER(callback(script7528, int0, int1, int2), 91291650);
+        IF_SETONTIMER(callback(script7528, int0, int1, int2), comp(1393, 2));
     };
     return;
 }

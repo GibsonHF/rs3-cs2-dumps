@@ -16,8 +16,8 @@ function script593(int0: number): void {
     var long1 = script12802(int0, STOCKMARKET_GETOFFERITEM(int0, 0), int6, long0, int4);
     var string0 = TOSTRING_LOCALISED(int6, 1);
     var string1 = TOSTRING_LOCALISED_LONG(SUB_LONG(long0, long1), 1);
-    CC_DELETEALL(6881481);
-    if ((IF_FIND(6881481) == 1)) {
+    CC_DELETEALL(comp(105, 201));
+    if ((IF_FIND(comp(105, 201)) == 1)) {
         if ((STOCKMARKET_ISOFFERADDING(int0, 0) == 1)) {
             CC_CREATE[1](comp(105, 201), 4, 0);
             CC_SETPOSITION[1](0, 0, 0, 0);

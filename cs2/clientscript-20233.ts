@@ -1,20 +1,20 @@
 //
 function script20233(): void {
     var string0 = "";
-    var int0 = -1 as graphic;
+    var int0 = -1;
     var int1 = (IF_GETWIDTH(comp(1401, 30)) - 24);
     var int2 = 0;
     var int3 = 0;
     var int4 = 4;
     var int5 = 0;
     var int6 = 1;
-    var int7 = true;
+    var int7 = 1;
     IF_SETHIDE(false, comp(1401, 30));
     if (((varbitplayer_58385 == 2) || (varbitplayer_58385 == 4))) {
         switch (varbitplayer_58380) {
             case 0: {
                 string0 = "Load success.";
-                int0 = 21747 as graphic;
+                int0 = 21747;
                 int6 = 0;
                 if (((IF_FIND[1](comp(1401, 2)) == 1) && (cc_getparam[1](8058) != 1))) {
                     cc_setparam[1](8058, 1);
@@ -24,12 +24,12 @@ function script20233(): void {
             }
             case 1: {
                 string0 = `'${varclient_8331}' could not be found. Please try another name.`;
-                int0 = 18695 as graphic;
+                int0 = 18695;
                 break;
             }
             case 2: {
                 string0 = "Name look up timed out. Please try another name or try again later.";
-                int0 = 18695 as graphic;
+                int0 = 18695;
                 break;
             }
             case 3: {
@@ -41,15 +41,15 @@ function script20233(): void {
             }
             case 4: {
                 string0 = "Loading...";
-                int7 = false;
+                int7 = 0;
                 break;
             }
         };
         if ((int6 == 1)) {
             IF_SETPARAM_INT(8058, 0, comp(1401, 2));
             IF_SETONTIMER(callback(), comp(1401, 2));
-            IF_SETENABLED(0, 91815973);
-            IF_SETHIDE(1, 91815974);
+            IF_SETENABLED(false, comp(1401, 37));
+            IF_SETHIDE(true, comp(1401, 38));
         };
         int2 = script15891(string0, IF_GETWIDTH(comp(1401, 50)), IF_GETFONTMETRICS(comp(1401, 50)), 0);
         IF_SETHIDE(false, comp(1401, 37));

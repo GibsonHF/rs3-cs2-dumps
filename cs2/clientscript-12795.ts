@@ -5,6 +5,7 @@ function script12795(): number {
             return 1;
         }
         case 2: {
+            break;
         }
         default: {
             return -1;

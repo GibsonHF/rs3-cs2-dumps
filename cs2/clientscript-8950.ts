@@ -1,5 +1,5 @@
 //
-function script8950(int0: number, int1: number): [string, string, number, number] {
+function script8950(int0: number, int1: number): [number, number, string, string] {
     var string0 = "";
     var string1 = "";
     var int2 = -1;

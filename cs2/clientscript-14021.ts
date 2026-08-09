@@ -3,8 +3,10 @@ function script14021(int0: number): void {
     var int1 = comp(1934, 5);
     var int2 = -1;
     var int3 = -1;
-    while ((++int2 < 4)) {
-        while ((++int3 < int0)) {
+    int2 = (int2 + 1);
+    while ((int2 < 4)) {
+        int3 = (int3 + 1);
+        while ((int3 < int0)) {
             if ((CC_FIND(int1, int3) == 1)) {
                 CC_SETTEXT(inttostring(script3859(int3, int2), 10));
             };

@@ -10,8 +10,12 @@ function script7626(int0: number, int1: number, string0: string): string {
             break;
         }
         case 5162: {
-            if (((int1 == 0) && (script8245() > 0))) {
-                string0 = strconcat(`<col=ffffff>Active Week:</col> ${inttostring(script8245(), 10)}<br><br>`, string0);
+            if ((int1 == 0)) {
+                if ((script8245() > 0)) {
+                    string0 = strconcat(`<col=ffffff>Active Week:</col> ${inttostring(script8245(), 10)}<br><br>`, string0);
+                } else if ((enum_getvalue(0, 74, 8429 as cs2enum, int1) != -1 as dbrow)) {
+                    string0 = strconcat(`<col=ffffff>Active:</col> ${script7025(script16024(enum_getvalue(0, 0, 8431 as cs2enum, int1)))} - ${script7025(script16025(enum_getvalue(0, 0, 8431 as cs2enum, int1)))}<br><br>`, string0);
+                };
             } else if ((enum_getvalue(0, 74, 8429 as cs2enum, int1) != -1 as dbrow)) {
                 string0 = strconcat(`<col=ffffff>Active:</col> ${script7025(script16024(enum_getvalue(0, 0, 8431 as cs2enum, int1)))} - ${script7025(script16025(enum_getvalue(0, 0, 8431 as cs2enum, int1)))}<br><br>`, string0);
             };

@@ -4,15 +4,16 @@ function script17822(int0: number, int1: number, int2: number, int3: number): vo
         script1296("Please claim your prize before continuing.");
         return;
     };
-    if ((int2 == -1 as dbrow)) {
+    if ((int2 == -1)) {
         return;
     };
     var int4 = -1;
     script17823(0);
     var int5 = DB_GETFIELDCOUNT(int2, 413696);
     var int6 = 0;
-    var int7 = -1 as obj;
-    while ((++int4 < int5)) {
+    var int7 = -1;
+    int4 = (int4 + 1);
+    while ((int4 < int5)) {
         [int7, int6, int6, int6, int6, int6, int6, int6] = dbrow_getfield(int2, 413696, int4);
         if ((int0 == int7)) {
             script17024(int3, int4, 6530, 6489);

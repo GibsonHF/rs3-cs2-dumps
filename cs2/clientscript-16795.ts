@@ -1,7 +1,5 @@
 //
-function script16795(): number {
-    if (((INV_GETOBJ(94 as inv, 17) == 35268 as obj) || (INV_TOTAL(93 as inv, 35268 as obj) > 0))) {
-        return 1;
-    };
-    return 0;
+function script16795(long0: bigint, long1: bigint): bigint {
+    var long2 = MIN_LONG(2147483649147483647n, long0);
+    return MAX_LONG(1n, MIN_LONG(2147483649147483647n, MAX_LONG(ADD_LONG(long2, 1n), SCALE_LONG(long1, 100n, long2))));
 }

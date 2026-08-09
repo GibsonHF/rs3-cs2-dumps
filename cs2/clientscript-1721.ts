@@ -40,7 +40,8 @@ function script1721(): void {
         CC_SETTEXT(string0);
         CC_SETTEXTALIGN(1, 0, 0);
         CC_SETPOSITION((int3 * int2), ((int4 * int5) + int6), 0, 0);
-        if ((++int3 >= int1)) {
+        int3 = (int3 + 1);
+        if ((int3 >= int1)) {
             int3 = 0;
             int4 = (int4 + 1);
         };

@@ -113,14 +113,14 @@ function script3744(int0: number): void {
     };
     script7794(48889984, 21363);
     IF_SETONMOUSEOVER(callback(), comp(746, 128));
-    IF_SETONMOUSELEAVE(callback(), 48889984);
+    IF_SETONMOUSELEAVE(callback(), comp(746, 128));
     var int1 = 0;
-    CC_CREATE(48889863, 5, int1);
+    CC_CREATE(comp(746, 7), 5, int1);
     CC_SETSIZE(25, 25, 0, 0);
     CC_SETPOSITION(0, 0, 1, 1);
-    CC_SETGRAPHIC(enum_getvalue(0, 23, 371, int0));
+    CC_SETGRAPHIC(enum_getvalue(0, 23, 371 as cs2enum, int0));
     var string0 = "Boosted Skill";
-    IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643), 48889863);
+    IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643), comp(746, 7));
     script3975();
     return;
 }

@@ -5,7 +5,7 @@ function script13458(int0: number, int1: number): void {
     var int4 = comp(-1, 65535);
     var int5 = -1 as graphic;
     var int6 = -1 as graphic;
-    var int7 = -1;
+    var int7 = comp(-1, 65535);
     var int8 = -1;
     var string0 = "null";
     var int9 = script13432(int0);
@@ -101,22 +101,22 @@ function script13458(int0: number, int1: number): void {
         switch (int0) {
             case 1: {
                 int3 = comp(1875, 7);
-                int7 = 122880017;
+                int7 = comp(1875, 17);
                 break;
             }
             case 2: {
                 int3 = comp(1875, 6);
-                int7 = 122880012;
+                int7 = comp(1875, 12);
                 break;
             }
             case 3: {
                 int3 = comp(1875, 9);
-                int7 = 122880019;
+                int7 = comp(1875, 19);
                 break;
             }
             case 4: {
                 int3 = comp(1875, 10);
-                int7 = 122880014;
+                int7 = comp(1875, 14);
                 break;
             }
         };

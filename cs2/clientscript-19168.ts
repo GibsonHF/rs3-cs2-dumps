@@ -18,8 +18,8 @@ function script19168(int0: number): void {
     var string0 = script19154(int3);
     IF_SETTEXT(string0, int2);
     var int6 = script19206(int3);
-    IF_SETTEXT(`Level<br>${inttostring(int6, 10)}`, 84410480);
-    var int7 = -1;
+    IF_SETTEXT(`Level<br>${inttostring(int6, 10)}`, comp(1288, 112));
+    var int7 = -1 as fontmetrics;
     var int8 = 0;
     switch (int0) {
         case 32986: {
@@ -45,25 +45,25 @@ function script19168(int0: number): void {
             break;
         }
     };
-    var int9 = -1;
-    var int10 = -1;
-    var int11 = -1;
-    var int12 = -1;
+    var int9 = -1 as graphic;
+    var int10 = -1 as graphic;
+    var int11 = -1 as graphic;
+    var int12 = -1 as graphic;
     [int9, int10, int11, int12] = script19170(int3);
     script19169(int0);
     IF_SETHIDE(true, comp(1288, 46));
     IF_SETOP(5, "Examine", comp(1288, 44));
     IF_SETONOP(callback(script19188), comp(1288, 44));
-    IF_SETOPBASE(`<col=FFFF00>${script16737(string0)}</col>`, 84410412);
-    IF_SETGRAPHIC(int9, 82116613);
-    IF_SETGRAPHIC(int9, 84410372);
-    IF_SETGRAPHIC(int10, 84410371);
-    IF_SETGRAPHIC(int11, 84410447);
-    IF_SETGRAPHIC(int11, 84410444);
-    IF_SETGRAPHIC(int11, 84410441);
-    IF_SETGRAPHIC(int12, 84410401);
-    IF_SETGRAPHIC(int12, 84410397);
-    IF_SETGRAPHIC(int12, 84410393);
+    IF_SETOPBASE(`<col=FFFF00>${script16737(string0)}</col>`, comp(1288, 44));
+    IF_SETGRAPHIC(int9, comp(1253, 5));
+    IF_SETGRAPHIC(int9, comp(1288, 4));
+    IF_SETGRAPHIC(int10, comp(1288, 3));
+    IF_SETGRAPHIC(int11, comp(1288, 79));
+    IF_SETGRAPHIC(int11, comp(1288, 76));
+    IF_SETGRAPHIC(int11, comp(1288, 73));
+    IF_SETGRAPHIC(int12, comp(1288, 33));
+    IF_SETGRAPHIC(int12, comp(1288, 29));
+    IF_SETGRAPHIC(int12, comp(1288, 25));
     var int13 = script19207(int3);
     if ((int13 != -1)) {
         unk11087(int13, 1000, 200);

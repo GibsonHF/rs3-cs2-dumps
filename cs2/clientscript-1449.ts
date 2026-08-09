@@ -1,20 +1,11 @@
 //
 function script1449(int0: number): void {
     var int1 = script10495(0);
-    stack("Copyright © 1999-");
-    stack(inttostring(DATE_YEAR(), 10));
-    stack(PUSH_CONSTANT_INT[16](", Jagex Ltd.<br>Use subject to <col=", int1));
-    stack(inttostring());
-    stack(PUSH_CONSTANT_INT[16](">Terms and Conditions</col>, <col=", int1));
-    var string0 = `${stack()}${inttostring()}>Privacy Policy</col>`;
+    var string0 = `Copyright © 1999-${inttostring(DATE_YEAR(), 10)}${inttostring(PUSH_CONSTANT_INT[16](", Jagex Ltd.<br>Use subject to <col=", int1))}${inttostring(PUSH_CONSTANT_INT[16](">Terms and Conditions</col>, <col=", int1))}>Privacy Policy</col>`;
     if ((CLIENTTYPE() == 7)) {
-        stack(string0);
-        stack(PUSH_CONSTANT_INT[16](" and <col=", int1));
-        string0 = strconcat(stack(), `${stack()}${inttostring()}>Software Licence</col>`);
+        string0 = strconcat(`${string0}${inttostring(PUSH_CONSTANT_INT[16](" and <col=", int1))}>Software Licence</col>`);
     };
-    stack(string0);
-    stack(PUSH_CONSTANT_INT[16](".<br><col=", int1));
-    string0 = strconcat(stack(), `${stack()}${inttostring()}>Do not sell or share my personal information</col>.`);
+    string0 = strconcat(`${string0}${inttostring(PUSH_CONSTANT_INT[16](".<br><col=", int1))}>Do not sell or share my personal information</col>.`);
     int1 = script10495(3);
     IF_SETCOLOUR(int1, int0);
     IF_SETTEXT(string0, int0);

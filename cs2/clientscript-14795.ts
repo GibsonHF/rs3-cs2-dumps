@@ -8,13 +8,17 @@ function script14795(int0: number, int1: number): void {
     var string0 = `${dbrow_getfield(int0, 352304, 0)}<br><br>Requires level ${inttostring(dbrow_getfield(int0, 352352, 0), 10)} Archaeology.`;
     var string1 = "Fast travel";
     var int2 = 0;
-    if (((MAP_MEMBERS() == 0) && (dbrow_getfield(int0, 352320, 0) == true))) {
-        if ((PLAYERMEMBER() == false)) {
-            string0 = `${string0}<br>Members' only dig site.`;
-            string1 = "Subscribe";
-        } else {
-            string0 = `${string0}<br>This dig site is unavailable on free worlds.`;
-            int2 = 1;
+    if ((MAP_MEMBERS() == 0)) {
+        if ((dbrow_getfield(int0, 352320, 0) == 1)) {
+            if ((PLAYERMEMBER() == 0)) {
+                string0 = `${string0}<br>Members' only dig site.`;
+                string1 = "Subscribe";
+            } else {
+                string0 = `${string0}<br>This dig site is unavailable on free worlds.`;
+                int2 = 1;
+            };
+        } else if ((script6431() == 0)) {
+            string0 = `${string0}<br>Keyboard Shortcut : ${script14802(int0)}`;
         };
     } else if ((script6431() == 0)) {
         string0 = `${string0}<br>Keyboard Shortcut : ${script14802(int0)}`;

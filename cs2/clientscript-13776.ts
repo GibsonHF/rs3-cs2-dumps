@@ -26,19 +26,35 @@ function script13776(int0: number, int1: number, int2: number, int3: number): nu
     if ((item_getparam(int0, 6835) == 1)) {
         int12 = (((script10021(INV_GETVAR(varclient_5121, varclient_5122, 33777)) + script10021(INV_GETVAR(varclient_5121, varclient_5122, 33778))) + script10021(INV_GETVAR(varclient_5121, varclient_5122, 33779))) + script10021(INV_GETVAR(varclient_5121, varclient_5122, 21605)));
         if ((int12 > 0)) {
-            CC_CREATE(int2, 5, int3++);
+            stack(int2);
+            stack(5);
+            stack(int3);
+            var int3 = (int3 + 1);
+            CC_CREATE();
             CC_SETSIZE(36, 32, 0, 0);
             CC_SETPOSITION((0 - ((int12 - 1) * 20)), int6, int5, 0);
             CC_SETOBJECT_ALWAYSNUM(enum_getvalue(0, 33, 11885 as cs2enum, INV_GETVAR(varclient_5121, varclient_5122, 33774)), INV_GETVAR(varclient_5121, varclient_5122, 33777));
-            CC_CREATE(int2, 5, int3++);
+            stack(int2);
+            stack(5);
+            stack(int3);
+            int3 = (int3 + 1);
+            CC_CREATE();
             CC_SETSIZE(36, 32, 0, 0);
             CC_SETPOSITION((40 - ((int12 - 1) * 20)), int6, int5, 0);
             CC_SETOBJECT_ALWAYSNUM(enum_getvalue(0, 33, 11885 as cs2enum, INV_GETVAR(varclient_5121, varclient_5122, 33775)), INV_GETVAR(varclient_5121, varclient_5122, 33778));
-            CC_CREATE(int2, 5, int3++);
+            stack(int2);
+            stack(5);
+            stack(int3);
+            int3 = (int3 + 1);
+            CC_CREATE();
             CC_SETSIZE(36, 32, 0, 0);
             CC_SETPOSITION((80 - ((int12 - 1) * 20)), int6, int5, 0);
             CC_SETOBJECT_ALWAYSNUM(enum_getvalue(0, 33, 11885 as cs2enum, INV_GETVAR(varclient_5121, varclient_5122, 33776)), INV_GETVAR(varclient_5121, varclient_5122, 33779));
-            CC_CREATE(int2, 5, int3++);
+            stack(int2);
+            stack(5);
+            stack(int3);
+            int3 = (int3 + 1);
+            CC_CREATE();
             CC_SETSIZE(36, 32, 0, 0);
             CC_SETPOSITION((120 - ((int12 - 1) * 20)), int6, int5, 0);
             CC_SETOBJECT_ALWAYSNUM(enum_getvalue(0, 33, 11885 as cs2enum, INV_GETVAR(varclient_5121, varclient_5122, 21604)), INV_GETVAR(varclient_5121, varclient_5122, 21605));
@@ -64,7 +80,11 @@ function script13776(int0: number, int1: number, int2: number, int3: number): nu
         };
         int12 = ((script10021(int14) + script10021(int15)) + script10021(int16));
         if ((int14 != 0)) {
-            CC_CREATE(int2, 5, int3++);
+            stack(int2);
+            stack(5);
+            stack(int3);
+            int3 = (int3 + 1);
+            CC_CREATE();
             CC_SETSIZE(25, 25, 0, 0);
             CC_SETPOSITION((0 - ((int12 - 1) * 20)), int6, 1, 0);
             if ((int14 != 31)) {
@@ -75,7 +95,11 @@ function script13776(int0: number, int1: number, int2: number, int3: number): nu
             int8 = 25;
         };
         if ((int15 != 0)) {
-            CC_CREATE(int2, 5, int3++);
+            stack(int2);
+            stack(5);
+            stack(int3);
+            int3 = (int3 + 1);
+            CC_CREATE();
             CC_SETSIZE(25, 25, 0, 0);
             CC_SETPOSITION((40 - ((int12 - 1) * 20)), int6, 1, 0);
             if ((int15 != 31)) {
@@ -85,7 +109,11 @@ function script13776(int0: number, int1: number, int2: number, int3: number): nu
             };
         };
         if ((int16 != 0)) {
-            CC_CREATE(int2, 5, int3++);
+            stack(int2);
+            stack(5);
+            stack(int3);
+            int3 = (int3 + 1);
+            CC_CREATE();
             CC_SETSIZE(25, 25, 0, 0);
             CC_SETPOSITION((80 - ((int12 - 1) * 20)), int6, 1, 0);
             if ((int16 != 31)) {
@@ -101,19 +129,35 @@ function script13776(int0: number, int1: number, int2: number, int3: number): nu
                 int4 = -55;
                 int9 = MAX(190, int9);
                 [int12, int17, int18, int19] = script4743(INV_GETVAR(varclient_5121, varclient_5122, 2154));
-                CC_CREATE(int2, 5, int3++);
+                stack(int2);
+                stack(5);
+                stack(int3);
+                int3 = (int3 + 1);
+                CC_CREATE();
                 CC_SETSIZE(36, 32, 0, 0);
                 CC_SETPOSITION(int4, int6, int5, 0);
                 CC_SETOBJECT_ALWAYSNUM(1623 as obj, int12);
-                CC_CREATE(int2, 5, int3++);
+                stack(int2);
+                stack(5);
+                stack(int3);
+                int3 = (int3 + 1);
+                CC_CREATE();
                 CC_SETSIZE(36, 32, 0, 0);
                 CC_SETPOSITION((int4 + 40), int6, int5, 0);
                 CC_SETOBJECT_ALWAYSNUM(1621 as obj, int17);
-                CC_CREATE(int2, 5, int3++);
+                stack(int2);
+                stack(5);
+                stack(int3);
+                int3 = (int3 + 1);
+                CC_CREATE();
                 CC_SETSIZE(36, 32, 0, 0);
                 CC_SETPOSITION((int4 + 80), int6, int5, 0);
                 CC_SETOBJECT_ALWAYSNUM(1619 as obj, int18);
-                CC_CREATE(int2, 5, int3++);
+                stack(int2);
+                stack(5);
+                stack(int3);
+                int3 = (int3 + 1);
+                CC_CREATE();
                 CC_SETSIZE(36, 32, 0, 0);
                 CC_SETPOSITION((int4 + 120), int6, int5, 0);
                 CC_SETOBJECT_ALWAYSNUM(1617 as obj, int19);
@@ -123,35 +167,67 @@ function script13776(int0: number, int1: number, int2: number, int3: number): nu
             case 31455: {
                 int4 = -135;
                 int9 = MAX(340, int9);
-                CC_CREATE(int2, 5, int3++);
+                stack(int2);
+                stack(5);
+                stack(int3);
+                int3 = (int3 + 1);
+                CC_CREATE();
                 CC_SETSIZE(36, 32, 0, 0);
                 CC_SETPOSITION(int4, int6, int5, 0);
                 CC_SETOBJECT_ALWAYSNUM(1623 as obj, varbitplayer_61469);
-                CC_CREATE(int2, 5, int3++);
+                stack(int2);
+                stack(5);
+                stack(int3);
+                int3 = (int3 + 1);
+                CC_CREATE();
                 CC_SETSIZE(36, 32, 0, 0);
                 CC_SETPOSITION((int4 + 40), int6, int5, 0);
                 CC_SETOBJECT_ALWAYSNUM(1621 as obj, varbitplayer_61470);
-                CC_CREATE(int2, 5, int3++);
+                stack(int2);
+                stack(5);
+                stack(int3);
+                int3 = (int3 + 1);
+                CC_CREATE();
                 CC_SETSIZE(36, 32, 0, 0);
                 CC_SETPOSITION((int4 + 80), int6, int5, 0);
                 CC_SETOBJECT_ALWAYSNUM(1619 as obj, varbitplayer_61471);
-                CC_CREATE(int2, 5, int3++);
+                stack(int2);
+                stack(5);
+                stack(int3);
+                int3 = (int3 + 1);
+                CC_CREATE();
                 CC_SETSIZE(36, 32, 0, 0);
                 CC_SETPOSITION((int4 + 120), int6, int5, 0);
                 CC_SETOBJECT_ALWAYSNUM(1617 as obj, varbitplayer_61472);
-                CC_CREATE(int2, 5, int3++);
+                stack(int2);
+                stack(5);
+                stack(int3);
+                int3 = (int3 + 1);
+                CC_CREATE();
                 CC_SETSIZE(36, 32, 0, 0);
                 CC_SETPOSITION((int4 + 160), int6, int5, 0);
                 CC_SETOBJECT_ALWAYSNUM(1631 as obj, varbitplayer_61473);
-                CC_CREATE(int2, 5, int3++);
+                stack(int2);
+                stack(5);
+                stack(int3);
+                int3 = (int3 + 1);
+                CC_CREATE();
                 CC_SETSIZE(36, 32, 0, 0);
                 CC_SETPOSITION((int4 + 200), int6, int5, 0);
                 CC_SETOBJECT_ALWAYSNUM(1625 as obj, varbitplayer_61475);
-                CC_CREATE(int2, 5, int3++);
+                stack(int2);
+                stack(5);
+                stack(int3);
+                int3 = (int3 + 1);
+                CC_CREATE();
                 CC_SETSIZE(36, 32, 0, 0);
                 CC_SETPOSITION((int4 + 240), int6, int5, 0);
                 CC_SETOBJECT_ALWAYSNUM(1627 as obj, varbitplayer_61474);
-                CC_CREATE(int2, 5, int3++);
+                stack(int2);
+                stack(5);
+                stack(int3);
+                int3 = (int3 + 1);
+                CC_CREATE();
                 CC_SETSIZE(36, 32, 0, 0);
                 CC_SETPOSITION((int4 + 280), int6, int5, 0);
                 CC_SETOBJECT_ALWAYSNUM(1629 as obj, varbitplayer_61476);
@@ -161,35 +237,67 @@ function script13776(int0: number, int1: number, int2: number, int3: number): nu
             case 50805: {
                 int4 = -135;
                 int9 = MAX(340, int9);
-                CC_CREATE(int2, 5, int3++);
+                stack(int2);
+                stack(5);
+                stack(int3);
+                int3 = (int3 + 1);
+                CC_CREATE();
                 CC_SETSIZE(36, 32, 0, 0);
                 CC_SETPOSITION(int4, int6, int5, 0);
                 CC_SETOBJECT_ALWAYSNUM(1623 as obj, varbitplayer_48172);
-                CC_CREATE(int2, 5, int3++);
+                stack(int2);
+                stack(5);
+                stack(int3);
+                int3 = (int3 + 1);
+                CC_CREATE();
                 CC_SETSIZE(36, 32, 0, 0);
                 CC_SETPOSITION((int4 + 40), int6, int5, 0);
                 CC_SETOBJECT_ALWAYSNUM(1621 as obj, varbitplayer_48173);
-                CC_CREATE(int2, 5, int3++);
+                stack(int2);
+                stack(5);
+                stack(int3);
+                int3 = (int3 + 1);
+                CC_CREATE();
                 CC_SETSIZE(36, 32, 0, 0);
                 CC_SETPOSITION((int4 + 80), int6, int5, 0);
                 CC_SETOBJECT_ALWAYSNUM(1619 as obj, varbitplayer_48174);
-                CC_CREATE(int2, 5, int3++);
+                stack(int2);
+                stack(5);
+                stack(int3);
+                int3 = (int3 + 1);
+                CC_CREATE();
                 CC_SETSIZE(36, 32, 0, 0);
                 CC_SETPOSITION((int4 + 120), int6, int5, 0);
                 CC_SETOBJECT_ALWAYSNUM(1617 as obj, varbitplayer_48175);
-                CC_CREATE(int2, 5, int3++);
+                stack(int2);
+                stack(5);
+                stack(int3);
+                int3 = (int3 + 1);
+                CC_CREATE();
                 CC_SETSIZE(36, 32, 0, 0);
                 CC_SETPOSITION((int4 + 160), int6, int5, 0);
                 CC_SETOBJECT_ALWAYSNUM(1631 as obj, varbitplayer_48176);
-                CC_CREATE(int2, 5, int3++);
+                stack(int2);
+                stack(5);
+                stack(int3);
+                int3 = (int3 + 1);
+                CC_CREATE();
                 CC_SETSIZE(36, 32, 0, 0);
                 CC_SETPOSITION((int4 + 200), int6, int5, 0);
                 CC_SETOBJECT_ALWAYSNUM(1625 as obj, varbitplayer_61477);
-                CC_CREATE(int2, 5, int3++);
+                stack(int2);
+                stack(5);
+                stack(int3);
+                int3 = (int3 + 1);
+                CC_CREATE();
                 CC_SETSIZE(36, 32, 0, 0);
                 CC_SETPOSITION((int4 + 240), int6, int5, 0);
                 CC_SETOBJECT_ALWAYSNUM(1627 as obj, varbitplayer_61478);
-                CC_CREATE(int2, 5, int3++);
+                stack(int2);
+                stack(5);
+                stack(int3);
+                int3 = (int3 + 1);
+                CC_CREATE();
                 CC_SETSIZE(36, 32, 0, 0);
                 CC_SETPOSITION((int4 + 280), int6, int5, 0);
                 CC_SETOBJECT_ALWAYSNUM(1629 as obj, varbitplayer_61479);
@@ -199,27 +307,51 @@ function script13776(int0: number, int1: number, int2: number, int3: number): nu
             case 38934: {
                 int9 = MAX(260, int9);
                 int4 = -95;
-                CC_CREATE(int2, 5, int3++);
+                stack(int2);
+                stack(5);
+                stack(int3);
+                int3 = (int3 + 1);
+                CC_CREATE();
                 CC_SETSIZE(36, 32, 0, 0);
                 CC_SETPOSITION(int4, int6, int5, 0);
                 CC_SETOBJECT_ALWAYSNUM(30139 as obj, varbitplayer_44598);
-                CC_CREATE(int2, 5, int3++);
+                stack(int2);
+                stack(5);
+                stack(int3);
+                int3 = (int3 + 1);
+                CC_CREATE();
                 CC_SETSIZE(36, 32, 0, 0);
                 CC_SETPOSITION((int4 + 40), int6, int5, 0);
                 CC_SETOBJECT_ALWAYSNUM(30140 as obj, varbitplayer_44599);
-                CC_CREATE(int2, 5, int3++);
+                stack(int2);
+                stack(5);
+                stack(int3);
+                int3 = (int3 + 1);
+                CC_CREATE();
                 CC_SETSIZE(36, 32, 0, 0);
                 CC_SETPOSITION((int4 + 80), int6, int5, 0);
                 CC_SETOBJECT_ALWAYSNUM(30141 as obj, varbitplayer_44600);
-                CC_CREATE(int2, 5, int3++);
+                stack(int2);
+                stack(5);
+                stack(int3);
+                int3 = (int3 + 1);
+                CC_CREATE();
                 CC_SETSIZE(36, 32, 0, 0);
                 CC_SETPOSITION((int4 + 120), int6, int5, 0);
                 CC_SETOBJECT_ALWAYSNUM(30142 as obj, varbitplayer_44601);
-                CC_CREATE(int2, 5, int3++);
+                stack(int2);
+                stack(5);
+                stack(int3);
+                int3 = (int3 + 1);
+                CC_CREATE();
                 CC_SETSIZE(36, 32, 0, 0);
                 CC_SETPOSITION((int4 + 160), int6, int5, 0);
                 CC_SETOBJECT_ALWAYSNUM(30143 as obj, varbitplayer_44602);
-                CC_CREATE(int2, 5, int3++);
+                stack(int2);
+                stack(5);
+                stack(int3);
+                int3 = (int3 + 1);
+                CC_CREATE();
                 CC_SETSIZE(36, 32, 0, 0);
                 CC_SETPOSITION((int4 + 200), int6, int5, 0);
                 CC_SETOBJECT_ALWAYSNUM(30144 as obj, varbitplayer_44603);
@@ -231,7 +363,11 @@ function script13776(int0: number, int1: number, int2: number, int3: number): nu
                 while ((int20 < int21)) {
                     int10 = enum_getvalue(0, 33, 15320 as cs2enum, int20);
                     int12 = script7361(int10);
-                    CC_CREATE(int2, 5, int3++);
+                    stack(int2);
+                    stack(5);
+                    stack(int3);
+                    int3 = (int3 + 1);
+                    CC_CREATE();
                     CC_SETSIZE(36, 32, 0, 0);
                     CC_SETOBJECT_ALWAYSNUM(int10, int12);
                     int20 = (int20 + 1);
@@ -239,10 +375,14 @@ function script13776(int0: number, int1: number, int2: number, int3: number): nu
                 int20 = 0;
                 int12 = (int3 - int23);
                 while ((int23 < int3)) {
-                    if ((CC_FIND(int2, int23++) == 1)) {
+                    stack(int2);
+                    stack(int23);
+                    int23 = (int23 + 1);
+                    if ((CC_FIND() == 1)) {
                         script7229(5, int12, int6, int20);
                         if ((MODULO(int20, 5) == 4)) {
-                            int12 = ABS(--int12);
+                            int12 = (int12 - 5);
+                            int12 = ABS(int12);
                         };
                         int20 = (int20 + 1);
                     };
@@ -261,7 +401,11 @@ function script13776(int0: number, int1: number, int2: number, int3: number): nu
                         int10 = enum_getvalue(0, 33, 15289 as cs2enum, int20);
                         int12 = script6646(int10);
                         if ((int12 > 0)) {
-                            CC_CREATE(int2, 5, int3++);
+                            stack(int2);
+                            stack(5);
+                            stack(int3);
+                            int3 = (int3 + 1);
+                            CC_CREATE();
                             CC_SETSIZE(36, 32, 0, 0);
                             CC_SETOBJECT_ALWAYSNUM(int10, int12);
                         };
@@ -270,10 +414,14 @@ function script13776(int0: number, int1: number, int2: number, int3: number): nu
                     int20 = 0;
                     int12 = (int3 - int23);
                     while ((int23 < int3)) {
-                        if ((CC_FIND(int2, int23++) == 1)) {
+                        stack(int2);
+                        stack(int23);
+                        int23 = (int23 + 1);
+                        if ((CC_FIND() == 1)) {
                             script7229(5, int12, int6, int20);
                             if ((MODULO(int20, 5) == 4)) {
-                                int12 = ABS(--int12);
+                                int12 = (int12 - 5);
+                                int12 = ABS(int12);
                             };
                             int20 = (int20 + 1);
                         };
@@ -290,11 +438,16 @@ function script13776(int0: number, int1: number, int2: number, int3: number): nu
                 int21 = ENUM_GETOUTPUTCOUNT(14069 as cs2enum);
                 int22 = 0;
                 int20 = -1;
-                while ((++int20 < int21)) {
+                int20 = (int20 + 1);
+                while ((int20 < int21)) {
                     int10 = enum_getvalue(0, 33, 14069 as cs2enum, int20);
                     int12 = script14695(int10);
                     if ((int12 > 0)) {
-                        CC_CREATE(int2, 5, int3++);
+                        stack(int2);
+                        stack(5);
+                        stack(int3);
+                        int3 = (int3 + 1);
+                        CC_CREATE();
                         CC_SETSIZE(36, 32, 0, 0);
                         CC_SETOBJECT_ALWAYSNUM(int10, int12);
                         int22 = (int22 + 1);
@@ -305,7 +458,10 @@ function script13776(int0: number, int1: number, int2: number, int3: number): nu
                     int9 = MAX(int9, (MIN(4, int22) * 36));
                     int8 = (32 * (1 + ((int22 - 1) / 4)));
                     while ((int23 < int3)) {
-                        if ((CC_FIND(int2, int23++) == 1)) {
+                        stack(int2);
+                        stack(int23);
+                        int23 = (int23 + 1);
+                        if ((CC_FIND() == 1)) {
                             script7229(4, (int22 - (4 * (int20 / int22))), int6, int20);
                             int20 = (int20 + 1);
                         };
@@ -318,11 +474,16 @@ function script13776(int0: number, int1: number, int2: number, int3: number): nu
                 int21 = ENUM_GETOUTPUTCOUNT(16107 as cs2enum);
                 int22 = 0;
                 int20 = -1;
-                while ((++int20 < int21)) {
+                int20 = (int20 + 1);
+                while ((int20 < int21)) {
                     int10 = enum_getvalue(0, 33, 16107 as cs2enum, int20);
                     int12 = INV_TOTAL(895 as inv, int10);
                     if ((int12 > 0)) {
-                        CC_CREATE(int2, 5, int3++);
+                        stack(int2);
+                        stack(5);
+                        stack(int3);
+                        int3 = (int3 + 1);
+                        CC_CREATE();
                         CC_SETSIZE(36, 32, 0, 0);
                         CC_SETOBJECT_ALWAYSNUM(int10, int12);
                         int22 = (int22 + 1);
@@ -333,7 +494,10 @@ function script13776(int0: number, int1: number, int2: number, int3: number): nu
                     int9 = MAX(int9, ((MIN(6, int22) * 36) + 16));
                     int8 = (32 * (1 + ((int22 - 1) / 6)));
                     while ((int23 < int3)) {
-                        if ((CC_FIND(int2, int23++) == 1)) {
+                        stack(int2);
+                        stack(int23);
+                        int23 = (int23 + 1);
+                        if ((CC_FIND() == 1)) {
                             script7229(6, (int22 - (6 * (int20 / int22))), int6, int20);
                             int20 = (int20 + 1);
                         };
@@ -347,10 +511,15 @@ function script13776(int0: number, int1: number, int2: number, int3: number): nu
                 int22 = 0;
                 int20 = -1;
                 int12 = 1;
-                while ((++int20 < int21)) {
+                int20 = (int20 + 1);
+                while ((int20 < int21)) {
                     int10 = enum_getvalue(0, 33, 8487 as cs2enum, int20);
                     if ((script16377(int10) == 1)) {
-                        CC_CREATE(int2, 5, int3++);
+                        stack(int2);
+                        stack(5);
+                        stack(int3);
+                        int3 = (int3 + 1);
+                        CC_CREATE();
                         CC_SETSIZE(36, 32, 0, 0);
                         CC_SETOBJECT(int10, -1);
                         int22 = (int22 + 1);
@@ -361,7 +530,10 @@ function script13776(int0: number, int1: number, int2: number, int3: number): nu
                     int9 = MAX(int9, ((MIN(6, int22) * 36) + 16));
                     int8 = (32 * (1 + ((int22 - 1) / 6)));
                     while ((int23 < int3)) {
-                        if ((CC_FIND(int2, int23++) == 1)) {
+                        stack(int2);
+                        stack(int23);
+                        int23 = (int23 + 1);
+                        if ((CC_FIND() == 1)) {
                             script7229(6, (int22 - (6 * (int20 / int22))), int6, int20);
                             int20 = (int20 + 1);
                         };
@@ -424,7 +596,11 @@ function script13776(int0: number, int1: number, int2: number, int3: number): nu
                                     break;
                                 }
                             };
-                            CC_CREATE(int2, 5, int3++);
+                            stack(int2);
+                            stack(5);
+                            stack(int3);
+                            int3 = (int3 + 1);
+                            CC_CREATE();
                             CC_SETSIZE(36, 32, 0, 0);
                             CC_SETPOSITION(0, int6, 1, 0);
                             CC_SETOBJECT_ALWAYSNUM(int10, int12);
@@ -434,7 +610,7 @@ function script13776(int0: number, int1: number, int2: number, int3: number): nu
                     case 3542: {
                         int12 = varbitplayer_27718;
                         if ((int12 > 0)) {
-                            var int3 = script13777(int2, int3, int4, int6, 31613, int12);
+                            int3 = script13777(int2, int3, int4, int6, 31613, int12);
                         };
                         break;
                     }
@@ -459,7 +635,11 @@ function script13776(int0: number, int1: number, int2: number, int3: number): nu
                                 int10 = enum_getvalue(0, 33, 17159 as cs2enum, int20);
                                 int12 = script18309(int10);
                                 if (((int12 > 0) && (script2535(int0, int10) == 1))) {
-                                    CC_CREATE(int2, 5, int3++);
+                                    stack(int2);
+                                    stack(5);
+                                    stack(int3);
+                                    int3 = (int3 + 1);
+                                    CC_CREATE();
                                     CC_SETSIZE(36, 32, 0, 0);
                                     CC_SETOBJECT_ALWAYSNUM(int10, int12);
                                 };
@@ -468,7 +648,10 @@ function script13776(int0: number, int1: number, int2: number, int3: number): nu
                             int20 = 0;
                             int12 = (int3 - int23);
                             while ((int23 < int3)) {
-                                if ((CC_FIND(int2, int23++) == 1)) {
+                                stack(int2);
+                                stack(int23);
+                                int23 = (int23 + 1);
+                                if ((CC_FIND() == 1)) {
                                     switch (MODULO(MIN(int12, 4), 4)) {
                                         case 1: {
                                             CC_SETPOSITION(0, (int6 + (35 * (int20 / 4))), 1, 0);
@@ -527,7 +710,8 @@ function script13776(int0: number, int1: number, int2: number, int3: number): nu
                                         }
                                     };
                                     if ((MODULO(int20, 4) == 3)) {
-                                        int12 = ABS(--int12);
+                                        int12 = (int12 - 4);
+                                        int12 = ABS(int12);
                                     };
                                     int20 = (int20 + 1);
                                 };
@@ -551,11 +735,16 @@ function script13776(int0: number, int1: number, int2: number, int3: number): nu
                         int21 = ENUM_GETOUTPUTCOUNT(15971 as cs2enum);
                         int22 = 0;
                         int20 = -1;
-                        while ((++int20 < int21)) {
+                        int20 = (int20 + 1);
+                        while ((int20 < int21)) {
                             int10 = enum_getvalue(0, 33, 15971 as cs2enum, int20);
                             if ((int0 == 59637 as obj)) {
-                                if (((OC_CATEGORY(int10) != 4707 as category) && (item_getparam(int10, 9304) == true))) {
-                                    int12 = 2147483647;
+                                if ((OC_CATEGORY(int10) != 4707 as category)) {
+                                    if ((item_getparam(int10, 9304) == true)) {
+                                        int12 = 2147483647;
+                                    } else {
+                                        int12 = 0;
+                                    };
                                 } else {
                                     int12 = 0;
                                 };
@@ -563,7 +752,11 @@ function script13776(int0: number, int1: number, int2: number, int3: number): nu
                                 int12 = INV_TOTAL(891 as inv, int10);
                             };
                             if ((int12 > 0)) {
-                                CC_CREATE(int2, 5, int3++);
+                                stack(int2);
+                                stack(5);
+                                stack(int3);
+                                int3 = (int3 + 1);
+                                CC_CREATE();
                                 CC_SETSIZE(36, 32, 0, 0);
                                 CC_SETOBJECT_ALWAYSNUM(int10, int12);
                                 int22 = (int22 + 1);
@@ -574,7 +767,10 @@ function script13776(int0: number, int1: number, int2: number, int3: number): nu
                             int9 = MAX(int9, (MIN(5, int22) * 36));
                             int8 = (32 * (1 + ((int22 - 1) / 5)));
                             while ((int23 < int3)) {
-                                if ((CC_FIND(int2, int23++) == 1)) {
+                                stack(int2);
+                                stack(int23);
+                                int23 = (int23 + 1);
+                                if ((CC_FIND() == 1)) {
                                     script7229(5, (int22 - (5 * (int20 / int22))), int6, int20);
                                     int20 = (int20 + 1);
                                 };
@@ -587,7 +783,11 @@ function script13776(int0: number, int1: number, int2: number, int3: number): nu
                         if ((INV_GETVAR(varclient_5121, varclient_5122, 48837) == 1)) {
                             int6 = (int6 - (16 / 4));
                             int8 = 16;
-                            CC_CREATE(int2, 5, int3++);
+                            stack(int2);
+                            stack(5);
+                            stack(int3);
+                            int3 = (int3 + 1);
+                            CC_CREATE();
                             CC_SETSIZE(16, int8, 0, 0);
                             CC_SETPOSITION(0, int6, 1, 0);
                             CC_SETGRAPHIC(15217 as graphic);
@@ -603,11 +803,16 @@ function script13776(int0: number, int1: number, int2: number, int3: number): nu
                         int21 = ENUM_GETOUTPUTCOUNT(17223 as cs2enum);
                         int22 = 0;
                         int20 = -1;
-                        while ((++int20 < int21)) {
+                        int20 = (int20 + 1);
+                        while ((int20 < int21)) {
                             int10 = enum_getvalue(0, 33, 17223 as cs2enum, int20);
                             int12 = INV_TOTAL(953 as inv, int10);
                             if ((int12 > 0)) {
-                                CC_CREATE(int2, 5, int3++);
+                                stack(int2);
+                                stack(5);
+                                stack(int3);
+                                int3 = (int3 + 1);
+                                CC_CREATE();
                                 CC_SETSIZE(36, 32, 0, 0);
                                 CC_SETOBJECT_ALWAYSNUM(int10, int12);
                                 int22 = (int22 + 1);
@@ -618,7 +823,10 @@ function script13776(int0: number, int1: number, int2: number, int3: number): nu
                             int9 = MAX(int9, (MIN(5, int22) * 36));
                             int8 = 32;
                             while ((int23 < int3)) {
-                                if ((CC_FIND(int2, int23++) == 1)) {
+                                stack(int2);
+                                stack(int23);
+                                int23 = (int23 + 1);
+                                if ((CC_FIND() == 1)) {
                                     script7229(5, (int22 - (5 * (int20 / int22))), int6, int20);
                                     int20 = (int20 + 1);
                                 };

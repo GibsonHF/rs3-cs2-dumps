@@ -1,5 +1,5 @@
 //
-function script17403(int0: number, int1: number): BigInt {
+function script17403(int0: number, int1: number): bigint {
     if ((int0 == -1)) {
         return -1n;
     };

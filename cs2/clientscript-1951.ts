@@ -3,13 +3,13 @@ function script1951(int0: number): void {
     var string0 = "You have no voyage selected.";
     if (((int0 == -1) || (int0 == 17069))) {
         IF_SETHIDE(false, comp(950, 164));
-        IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -1), 62259364);
-        IF_SETTEXT("You have no voyage selected.", 62259278);
-        IF_SETTEXT("No Voyage Selected", 62259279);
-        IF_SETHIDE(1, 62259319);
-        IF_SETHIDE(1, 62259333);
-        IF_SETHIDE(1, 62259347);
-        IF_SETTEXT("-", 62259362);
+        IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -1), comp(950, 164));
+        IF_SETTEXT("You have no voyage selected.", comp(950, 78));
+        IF_SETTEXT("No Voyage Selected", comp(950, 79));
+        IF_SETHIDE(true, comp(950, 119));
+        IF_SETHIDE(true, comp(950, 133));
+        IF_SETHIDE(true, comp(950, 147));
+        IF_SETTEXT("-", comp(950, 162));
         return;
     };
     script2020();

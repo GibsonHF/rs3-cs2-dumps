@@ -5,20 +5,20 @@ function script19193(): void {
     IF_SETHIDE(false, comp(1288, 57));
     IF_SETTEXT(`Level - ${inttostring(script19145(int0), 10)}`, comp(1288, 65));
     var int1 = script19148(int0);
-    var int2 = -1 as obj;
+    var int2 = -1;
     var int3 = 0;
     var int4 = 0;
     var int5 = 0;
     var int6 = 0;
     var int7 = DB_GETFIELDCOUNT(int1, 401424);
     var int8 = 50;
-    var int9 = comp(1288, 68);
+    var int9 = 84410436;
     CC_DELETEALL(int9);
     var string0 = "";
     var int10 = 1;
     var int11 = script19146(int0);
     var string1 = "";
-    var int12 = -1 as struct;
+    var int12 = -1;
     var int13 = -1;
     var int14 = -1;
     var int15 = -1;
@@ -42,7 +42,7 @@ function script19193(): void {
         CC_SETTEXTSHADOW(true);
         int10 = (int10 + 1);
         int12 = item_getparam(int2, 4414);
-        if ((int12 != -1 as struct)) {
+        if ((int12 != -1)) {
             string1 = script19200(int12);
         } else {
             string1 = `${inttostring(int3, 10)} x ${OC_NAME(int2)}`;

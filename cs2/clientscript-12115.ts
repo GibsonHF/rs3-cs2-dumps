@@ -1,21 +1,21 @@
 //
 function script12115(int0: number): number {
-    if ((int0 == -1 as dbrow)) {
+    if ((int0 == -1)) {
         return 0;
     };
-    if (((dbrow_getfield(int0, 549216, 0) == false) && (script4148() == 1))) {
+    if (((dbrow_getfield(int0, 549216, 0) == 0) && (script4148() == 1))) {
         return 0;
     };
-    if (((dbrow_getfield(int0, 549264, 0) == false) && (script248() == 1))) {
+    if (((dbrow_getfield(int0, 549264, 0) == 0) && (script248() == 1))) {
         return 0;
     };
-    if (((dbrow_getfield(int0, 549232, 0) == false) && (PLAYERMEMBER() == false))) {
+    if (((dbrow_getfield(int0, 549232, 0) == 0) && (PLAYERMEMBER() == false))) {
         return 0;
     };
-    if (((dbrow_getfield(int0, 549248, 0) == false) && (PLAYERMEMBER() == true))) {
+    if (((dbrow_getfield(int0, 549248, 0) == 0) && (PLAYERMEMBER() == true))) {
         return 0;
     };
-    if (((dbrow_getfield(int0, 549280, 0) == true) && (script12961(int0) == 1))) {
+    if (((dbrow_getfield(int0, 549280, 0) == 1) && (script12961(int0) == 1))) {
         return 0;
     };
     var int1 = dbrow_getfield(int0, 549296, 0);
@@ -25,7 +25,7 @@ function script12115(int0: number): number {
     };
     var int3 = 0;
     var int4 = 0;
-    if (((dbrow_getfield(int0, 549152, 0) > 0) && (int0 != 6677 as dbrow))) {
+    if (((dbrow_getfield(int0, 549152, 0) > 0) && (int0 != 6677))) {
         int4 = (dbrow_getfield(int0, 549152, 0) * 1440);
         int3 = script11174();
         if ((((int3 + int4) + varplayer_10435) > 1314000)) {
@@ -42,7 +42,7 @@ function script12115(int0: number): number {
             return 0;
         }
         case 7896: {
-            if (((script17912() == 1) && (script17911(7904 as dbrow) == 1))) {
+            if (((script17912() == 1) && (script17911(7904) == 1))) {
                 return 1;
             };
             return 0;
@@ -70,7 +70,7 @@ function script12115(int0: number): number {
             if ((script246(script3608()) != 1)) {
                 return 0;
             };
-            if (((int0 == 4132 as dbrow) && (script3616() == 1))) {
+            if (((int0 == 4132) && (script3616() == 1))) {
                 return 0;
             };
             return 1;

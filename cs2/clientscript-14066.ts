@@ -15,7 +15,7 @@ function script14066(int0: number, int1: number): void {
             if ((int3 == (ENUM_GETOUTPUTCOUNT(int2) - 1))) {
                 string0 = strconcat(string0, `${enum_getvalue(17, 36, 680 as cs2enum, int5)}.`);
             } else {
-                string0 = strconcat(string0, `${enum_getvalue(17, 36, 680 as cs2enum, int5)}, `);
+                string0 = strconcat(string0, `${enum_getvalue(17, 36, 680, int5)}, `);
             };
             int3 = (int3 + 1);
         };

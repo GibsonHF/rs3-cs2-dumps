@@ -19,7 +19,7 @@ function script20794(int0: number): number {
     int2 = script20795(int1, 5, int2, int0, "Stored", varbitclient_61239, int3);
     script7896(int1, 6, 0, int2, 0, 0, 28, 24, 1, 0, 4487, 1, 12627, -1, varbitclient_61233);
     CC_SETONDROPDOWNSELECT(callback(script20796, -2147483643, -2147483647, -2147483646));
-    script7852(int1, 7, 0, int2, 2, 0, 24, 24, 0, 0, 4476, "");
+    script7852(int1, 7, 0, int2, 2, 0, 24, 24, 0, 0, callback(script4476));
     CC_SETOP(1, "Toggle");
     CC_SETONOP(callback(script20797, -2147483643));
     var int4 = 23788;

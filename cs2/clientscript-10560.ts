@@ -9,7 +9,7 @@ function script10560(int0: number, int1: number): void {
     CC_SETOBJECT(enum_getvalue(0, 33, 9199 as cs2enum, int0), -1);
     CC_SETOP(1, "Remove");
     CC_SETONOP(callback());
-    if (((int1 != 100401169) && (varbitplayer_24912 == int0))) {
+    if (((int1 != comp(1532, 17)) && (varbitplayer_24912 == int0))) {
         IF_SETTEXT("Base rune cost: <col=ffffff>???</col>.<br>+<col=ffffff>???</col> Total: <col=ffffff>???</col>.", comp(1532, 3));
         script10558(100401169);
     };

@@ -69,7 +69,7 @@ function script19731(int0: number): void {
         IF_SETGRAPHIC(34692 as graphic, int5);
     } else {
         IF_SETGRAPHIC(34909 as graphic, int5);
-        script19726(int8, -1 as obj, -1, -1, int14, 100, 80, 35, -50, 1);
+        script19726(int8, -1, -1, -1, int14, 100, 80, 35, -50, 1);
         IF_SETHIDE(false, int8);
         IF_SETGRAPHIC(int17, int9);
         IF_SETHIDE(false, int9);

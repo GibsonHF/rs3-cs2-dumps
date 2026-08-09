@@ -119,8 +119,40 @@ function script4674(): void {
                 };
             };
             if ((varclient_1528 >= 40)) {
-                if ((((((((((varbitplayer_4804 == 2) && (varbitplayer_4805 == 2)) && (varbitplayer_4806 == 2)) && (varbitplayer_4807 == 2)) && (varbitplayer_4808 == 2)) && (varbitplayer_4809 == 2)) && (varbitplayer_4810 == 2)) && (varbitplayer_4811 == 2)) && (varbitplayer_4812 == 2))) {
-                    IF_SETGRAPHIC(5917 as graphic, comp(102, 69));
+                if ((varbitplayer_4804 == 2)) {
+                    if ((varbitplayer_4805 == 2)) {
+                        if ((varbitplayer_4806 == 2)) {
+                            if ((varbitplayer_4807 == 2)) {
+                                if ((varbitplayer_4808 == 2)) {
+                                    if ((varbitplayer_4809 == 2)) {
+                                        if ((varbitplayer_4810 == 2)) {
+                                            if ((varbitplayer_4811 == 2)) {
+                                                if ((varbitplayer_4812 == 2)) {
+                                                    IF_SETGRAPHIC(5917 as graphic, comp(102, 69));
+                                                } else {
+                                                    IF_SETGRAPHIC(5921 as graphic, comp(102, 69));
+                                                };
+                                            } else {
+                                                IF_SETGRAPHIC(5921 as graphic, comp(102, 69));
+                                            };
+                                        } else {
+                                            IF_SETGRAPHIC(5921 as graphic, comp(102, 69));
+                                        };
+                                    } else {
+                                        IF_SETGRAPHIC(5921 as graphic, comp(102, 69));
+                                    };
+                                } else {
+                                    IF_SETGRAPHIC(5921 as graphic, comp(102, 69));
+                                };
+                            } else {
+                                IF_SETGRAPHIC(5921 as graphic, comp(102, 69));
+                            };
+                        } else {
+                            IF_SETGRAPHIC(5921 as graphic, comp(102, 69));
+                        };
+                    } else {
+                        IF_SETGRAPHIC(5921 as graphic, comp(102, 69));
+                    };
                 } else {
                     IF_SETGRAPHIC(5921 as graphic, comp(102, 69));
                 };

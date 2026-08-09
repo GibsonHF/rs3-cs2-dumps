@@ -11,7 +11,7 @@ function script19474(int0: number, int1: number): [number, number] {
             string0 = "<col=FFFFFF>";
         };
     };
-    var [int0, int2] = script19615(0, int0, int2, int1, "You can downgrade your account to modes with fewer restrictions.");
+    [int0, int2] = script19615(0, int0, int2, int1, "You can downgrade your account to modes with fewer restrictions.");
     [int0, int2] = script19615(0, int0, int2, int1, "<col=EB2F2F>Warning:</col> Any downgrade is permanent.");
     [int0, int2] = script19613(0, int0, int2, int1, "Hardcore Ironman");
     [int0, int2] = script19617(0, int0, int2, int1, 0, "May downgrade to Ironman mode.");

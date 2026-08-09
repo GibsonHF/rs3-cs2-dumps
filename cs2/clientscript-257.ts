@@ -26,6 +26,7 @@ function script257(int0: number): number {
             return 5;
         }
         case 46: {
+            break;
         }
         default: {
             return 0;

@@ -6,7 +6,9 @@ function script5746(int0: number, int1: number, int2: number, int3: number): voi
     };
     var int5 = -1;
     var int6 = -1;
-    while ((int5++ < int2)) {
+    stack(int5);
+    int5 = (int5 + 1);
+    while (BRANCH_LESS_THAN(int2)) {
         if ((CC_FIND(int0, int5) == 1)) {
             int6 = cc_getparam(6805);
             if (((int6 != -1) && (CC_FIND(int0, int6) == 1))) {

@@ -1,7 +1,11 @@
 //
 function script819(): void {
-    if (((varplayer_1784 != -1 as npc) && (varplayer_1784 != 0 as npc))) {
-        IF_SETNPCHEAD(varplayer_1784, comp(663, 0));
+    if ((varplayer_1784 != -1 as npc)) {
+        if ((varplayer_1784 != 0 as npc)) {
+            IF_SETNPCHEAD(varplayer_1784, comp(663, 0));
+        } else {
+            IF_SETMODEL(-1 as model, comp(663, 0));
+        };
     } else {
         IF_SETMODEL(-1 as model, comp(663, 0));
     };

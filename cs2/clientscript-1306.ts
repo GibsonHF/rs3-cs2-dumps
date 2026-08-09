@@ -26,23 +26,28 @@ function script1306(int0: number, int1: number): void {
     if ((IF_FIND(comp(1477, 39)) == 1)) {
         CC_SETNOCLICKTHROUGH(int0);
     };
-    if (((int0 == true) && (int1 == 1))) {
-        IF_SETHIDE(false, comp(1477, 47));
-        if ((varclient_4614 == 1)) {
-            IF_SETHIDE(true, comp(1477, 48));
-            IF_SETHIDE(true, comp(1477, 49));
-        } else if ((script6431() == 1)) {
-            IF_SETHIDE(true, comp(1477, 48));
-            IF_SETHIDE(false, comp(1477, 49));
-            IF_SETTEXT("Tap here to skip cutscene", comp(1477, 49));
-            [int2, int2, int3, int4] = script2956();
-            IF_SETPOSITION(int3, int4, 2, 2, comp(1477, 47));
+    if ((int0 == true)) {
+        if ((int1 == 1)) {
+            IF_SETHIDE(false, comp(1477, 47));
+            if ((varclient_4614 == 1)) {
+                IF_SETHIDE(true, comp(1477, 48));
+                IF_SETHIDE(true, comp(1477, 49));
+            } else if ((script6431() == 1)) {
+                IF_SETHIDE(true, comp(1477, 48));
+                IF_SETHIDE(false, comp(1477, 49));
+                IF_SETTEXT("Tap here to skip cutscene", comp(1477, 49));
+                [int2, int2, int3, int4] = script2956();
+                IF_SETPOSITION(int3, int4, 2, 2, comp(1477, 47));
+            } else {
+                IF_SETHIDE(false, comp(1477, 48));
+                IF_SETHIDE(false, comp(1477, 49));
+                IF_SETTEXT("Skip Cutscene", comp(1477, 49));
+            };
+            script8841(33, 1);
         } else {
-            IF_SETHIDE(false, comp(1477, 48));
-            IF_SETHIDE(false, comp(1477, 49));
-            IF_SETTEXT("Skip Cutscene", comp(1477, 49));
+            IF_SETHIDE(true, comp(1477, 47));
+            script8841(33, 0);
         };
-        script8841(33, 1);
     } else {
         IF_SETHIDE(true, comp(1477, 47));
         script8841(33, 0);

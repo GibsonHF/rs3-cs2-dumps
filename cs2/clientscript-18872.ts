@@ -3,7 +3,7 @@ function script18872(int0: number, int1: number): string {
     var int2 = DB_GETROWTABLE(int0);
     var string0 = "";
     var int3 = 1;
-    var int4 = -1 as dbrow;
+    var int4 = -1;
     var int5 = -1;
     var int6 = -1;
     if ((int0 != -1 as dbrow)) {
@@ -43,7 +43,7 @@ function script18872(int0: number, int1: number): string {
                     return string0;
                 };
                 int4 = script18923(int0, 14);
-                if ((int4 != -1 as dbrow)) {
+                if ((int4 != -1)) {
                     return script18872(int4, int1);
                 };
                 int5 = script18924(int0, 15);

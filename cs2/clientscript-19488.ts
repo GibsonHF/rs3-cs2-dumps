@@ -9,8 +9,8 @@ function script19488(string0: string, string1: string, string2: string, string3:
     IF_SETHIDE(false, comp(1313, 143));
     IF_SETHIDE(false, comp(1313, 144));
     IF_SETONCLICK(callback(script19489), comp(1313, 136));
-    IF_SETTEXT(string0, 86048907);
-    IF_SETTEXT(string1, 86048910);
+    IF_SETTEXT(string0, comp(1313, 139));
+    IF_SETTEXT(string1, comp(1313, 142));
     script13979(86048911, -1, 28553, 0, string2, string2);
     script13979(86048912, -1, 28555, 0, string3, string3);
     return;

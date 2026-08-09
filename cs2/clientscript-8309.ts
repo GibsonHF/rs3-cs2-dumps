@@ -2,7 +2,7 @@
 function script8309(int0: number): number {
     var int1 = script10405(int0);
     var int2 = script8418(int1, 0);
-    var int3 = -1 as struct;
+    var int3 = -1;
     var int4 = comp(-1, 65535);
     var int5 = 0;
     var int6 = 0;
@@ -50,19 +50,35 @@ function script8309(int0: number): number {
                         break;
                     }
                 };
-                if ((((script12612(int3) == 1) && (script12612(int1) == 1)) && ((script20475() == 1) || ((varclient_3477 == true) && (script20518() == 0))))) {
-                    int12 = struct_getparam(int2, 3577);
-                    int14 = 0;
-                    int16 = IF_GETWIDTH(int4);
-                    if ((struct_getparam(int2, 8296) == 2)) {
-                        int15 = 0;
-                        int17 = IF_GETHEIGHT(int4);
-                    } else {
-                        int15 = 0;
-                        int17 = ((struct_getparam(int2, 3547) + int12) + struct_getparam(int2, 3586));
-                    };
-                    if (((((int5 >= int14) && (int5 <= int16)) && (int6 >= int15)) && (int6 <= int17))) {
-                        return 1;
+                if (((script12612(int3) == 1) && (script12612(int1) == 1))) {
+                    if ((script20475() == 1)) {
+                        int12 = struct_getparam(int2, 3577);
+                        int14 = 0;
+                        int16 = IF_GETWIDTH(int4);
+                        if ((struct_getparam(int2, 8296) == 2)) {
+                            int15 = 0;
+                            int17 = IF_GETHEIGHT(int4);
+                        } else {
+                            int15 = 0;
+                            int17 = ((struct_getparam(int2, 3547) + int12) + struct_getparam(int2, 3586));
+                        };
+                        if (((((int5 >= int14) && (int5 <= int16)) && (int6 >= int15)) && (int6 <= int17))) {
+                            return 1;
+                        };
+                    } else if (((varclient_3477 == true) && (script20518() == 0))) {
+                        int12 = struct_getparam(int2, 3577);
+                        int14 = 0;
+                        int16 = IF_GETWIDTH(int4);
+                        if ((struct_getparam(int2, 8296) == 2)) {
+                            int15 = 0;
+                            int17 = IF_GETHEIGHT(int4);
+                        } else {
+                            int15 = 0;
+                            int17 = ((struct_getparam(int2, 3547) + int12) + struct_getparam(int2, 3586));
+                        };
+                        if (((((int5 >= int14) && (int5 <= int16)) && (int6 >= int15)) && (int6 <= int17))) {
+                            return 1;
+                        };
                     };
                 };
                 if (((struct_getparam(int3, 3530) == true) && (struct_getparam(int1, 3530) == true))) {
@@ -70,20 +86,25 @@ function script8309(int0: number): number {
                     int19 = struct_getparam(int3, 3494);
                     int20 = struct_getparam(int1, 3494);
                     if ((int9 == 1)) {
-                        if (((script12612(int1) == 1) && ((int7 != -1) || (int8 != -1)))) {
-                            if ((int7 != -1)) {
-                                [int7, int8] = script8718(int7);
-                            } else if ((int8 != -1)) {
-                                [int7, int8] = script8718(int8);
-                            };
-                            if (((int7 != int0) && (int8 != int0))) {
-                                return -1;
+                        if ((script12612(int1) == 1)) {
+                            if (((int7 != -1) || (int8 != -1))) {
+                                if ((int7 != -1)) {
+                                    [int7, int8] = script8718(int7);
+                                } else if ((int8 != -1)) {
+                                    [int7, int8] = script8718(int8);
+                                };
+                                if (((int7 != int0) && (int8 != int0))) {
+                                    return -1;
+                                };
                             };
                         };
                         if (((((script20540(int19) <= int16) && (script20541(int19) <= int17)) && (script20540(int20) <= IF_GETWIDTH(int4))) && (script20541(int20) <= IF_GETHEIGHT(int4)))) {
                             [int23, int24, int25, int26] = script8717(int0);
                             [int27, int28, int29, int30] = script8717(varclient_3466);
                             if ((int21 == -1 as struct)) {
+                                if (((((int25 >= script20540(int19)) && (int26 >= script20541(int19))) && ((int29 * int30) >= struct_getparam(int21, 3543))) && ((int25 * int26) >= struct_getparam(int19, 3543)))) {
+                                    return 2;
+                                };
                             } else if (((((((int29 >= script20540(int21)) && (int30 >= script20541(int21))) && (int25 >= script20540(int19))) && (int26 >= script20541(int19))) && ((int29 * int30) >= struct_getparam(int21, 3543))) && ((int25 * int26) >= struct_getparam(int19, 3543)))) {
                                 return 2;
                             };

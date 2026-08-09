@@ -2,12 +2,15 @@
 function script7452(int0: number, int1: number): number {
     var int2 = int1;
     var int3 = 0;
-    while (((int2 < 32) && (int3 == 0))) {
-        int3 = TESTBIT(int0, int2);
-        if ((int3 == 1)) {
-            return int2;
+    while ((int2 < 32)) {
+        if ((int3 == 0)) {
+            int3 = TESTBIT(int0, int2);
+            if ((int3 == 1)) {
+                return int2;
+            };
+            int2 = (int2 + 1);
         };
-        int2 = (int2 + 1);
+        return -1;
     };
     return -1;
 }

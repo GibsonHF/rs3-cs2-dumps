@@ -22,8 +22,12 @@ function script13567(int0: number): number {
         int7 = struct_getparam(enum_getvalue(0, 73, int2, int3), 7895);
         switch (int1) {
             case -1: {
-                if (((int7 > 0) && (int7 > DATE_RUNEDAY()))) {
-                    int8 = (int8 + 1);
+                if ((int7 > 0)) {
+                    if ((int7 > DATE_RUNEDAY())) {
+                        int8 = (int8 + 1);
+                    } else {
+                        return -1;
+                    };
                 } else {
                     return -1;
                 };

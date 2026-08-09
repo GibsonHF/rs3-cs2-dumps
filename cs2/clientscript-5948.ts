@@ -1,7 +1,7 @@
 //
 function script5948(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number, int8: number, int9: number): void {
     var int10 = 0;
-    var int11 = -1;
+    var int11 = comp(-1, 65535);
     var int12 = -1;
     var int13 = comp(-1, 65535);
     while ((int10 < 3)) {
@@ -25,7 +25,7 @@ function script5948(int0: number, int1: number, int2: number, int3: number, int4
                 break;
             }
         };
-        if ((int11 != -1)) {
+        if ((int11 != comp(-1, 65535))) {
             IF_SETONOP(callback(script6317, int1, int2, int4, int5, int7, int8, int9, int10), int11);
             IF_SETONVARTRANSMIT(callback(script6048, int12, int13, int9, int10, 627, 1), int11);
         };

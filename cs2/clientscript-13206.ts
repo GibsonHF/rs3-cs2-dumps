@@ -1,8 +1,10 @@
 //
 function script13206(int0: number, int1: number, int2: number, int3: number): void {
     if ((int1 != 99)) {
-        if (((int0 == 2) && ((int1 == 3) || (int1 == 3)))) {
-            return;
+        if ((int0 == 2)) {
+            if (((int1 == 3) || (int1 == 3))) {
+                return;
+            };
         };
         if ((int2 == 1)) {
             script13209(int0, int1);

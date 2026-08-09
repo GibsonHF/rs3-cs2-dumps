@@ -15,7 +15,7 @@ function script10361(int0: number): void {
     if (((strcmp(string0, "") == 0) || (PARAHEIGHT(string0, IF_GETWIDTH(comp(1524, 83)), IF_GETFONTMETRICS(comp(1524, 83))) > 2))) {
         string0 = struct_getparam(int2, 1273);
     };
-    IF_SETTEXT(struct_getparam(int2, 1266), comp(1524, 82));
+    IF_SETTEXT(struct_getparam(int2, 1266), 99876946);
     IF_SETTEXT(string0, comp(1524, 83));
     IF_SETTEXT(`${inttostring(struct_getparam(int2, 4500), 10)} - ${inttostring(struct_getparam(int2, 4501), 10)} Players`, comp(1524, 79));
     IF_SETTEXT(`${inttostring(struct_getparam(int2, 4502), 10)} Players`, comp(1524, 81));
@@ -27,7 +27,17 @@ function script10361(int0: number): void {
     var int7 = MIN(69, int4);
     var int8 = MIN(69, int5);
     var int9 = (((207 - int6) - int7) - int8);
-    if (((int9 == 0) || (((int6 < 69) && (int7 < 69)) && (int8 < 69)))) {
+    if ((int9 == 0)) {
+        IF_SETSIZE(10, 90, 1, 0, comp(1524, 84));
+        IF_SETSIZE(10, 90, 1, 0, comp(1524, 89));
+        IF_SETPOSITION(5, 195, 0, 0, comp(1524, 89));
+        IF_SETSIZE(10, 90, 1, 0, comp(1524, 94));
+        IF_SETPOSITION(5, 290, 0, 0, comp(1524, 94));
+        script11729(int3, 99876951, 99876952);
+        script11729(int4, 99876956, 99876957);
+        script11729(int5, 99876961, 99876968);
+        return;
+    } else if ((((int6 < 69) && (int7 < 69)) && (int8 < 69))) {
         IF_SETSIZE(10, 90, 1, 0, comp(1524, 84));
         IF_SETSIZE(10, 90, 1, 0, comp(1524, 89));
         IF_SETPOSITION(5, 195, 0, 0, comp(1524, 89));

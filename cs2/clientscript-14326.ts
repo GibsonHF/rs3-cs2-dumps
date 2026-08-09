@@ -24,7 +24,8 @@ function script14326(int0: number, int1: number, int2: number, int3: number, int
         CC_SETTEXTALIGN(2, 1, 0);
         int8 = (int8 + 1);
         var int4 = (int4 + 1);
-        if (((++int9 + 48) > int5)) {
+        int9 = (int9 + 52);
+        if (((int9 + 48) > int5)) {
             int9 = 0;
             var int3 = (int3 + 56);
         };

@@ -15,7 +15,7 @@ function script6230(int0: number, int1: number): void {
     if ((int1 == 1)) {
         int6 = script9984(int2, 5);
     };
-    if ((int6 == -1 as struct)) {
+    if ((int6 == -1)) {
         return;
     };
     CC_SETGRAPHIC(struct_getparam(int6, 3909));

@@ -24,31 +24,34 @@ function script4797(): [number, number, number, number, number, number] {
     var int21 = -1;
     var string0 = "";
     if ((CLANPROFILE_FIND() == 1)) {
-        while (((int1 <= 31) && (int8 == 0))) {
-            int0 = script4790(int1);
-            if ((int0 > 600)) {
-                int8 = 1;
-            } else if ((int0 < 300)) {
-            } else {
-                [int21, string0, int5, int6, int7, int2, int3, int4] = script4791(int0);
-                int5 = (int5 - int6);
-                [int9, int10, int11, int12, int13, int14] = script4792(int0, int5);
-                if ((int7 == 2)) {
-                    int9 = (int9 * 2);
-                    int10 = (int10 * 2);
-                    int11 = (int11 * 2);
-                    int12 = (int12 * 2);
-                    int13 = (int13 * 2);
-                    int14 = (int14 * 2);
+        while ((int1 <= 31)) {
+            if ((int8 == 0)) {
+                int0 = script4790(int1);
+                if ((int0 > 600)) {
+                    int8 = 1;
+                } else if ((int0 < 300)) {
+                } else {
+                    [int21, string0, int5, int6, int7, int2, int3, int4] = script4791(int0);
+                    int5 = (int5 - int6);
+                    [int9, int10, int11, int12, int13, int14] = script4792(int0, int5);
+                    if ((int7 == 2)) {
+                        int9 = (int9 * 2);
+                        int10 = (int10 * 2);
+                        int11 = (int11 * 2);
+                        int12 = (int12 * 2);
+                        int13 = (int13 * 2);
+                        int14 = (int14 * 2);
+                    };
+                    int15 = (int15 + int9);
+                    int16 = (int16 + int10);
+                    int17 = (int17 + int11);
+                    int18 = (int18 + int12);
+                    int19 = (int19 + int13);
+                    int20 = (int20 + int14);
                 };
-                int15 = (int15 + int9);
-                int16 = (int16 + int10);
-                int17 = (int17 + int11);
-                int18 = (int18 + int12);
-                int19 = (int19 + int13);
-                int20 = (int20 + int14);
+                int1 = (int1 + 1);
             };
-            int1 = (int1 + 1);
+            return [int15, int16, int17, int18, int19, int20];
         };
     };
     return [int15, int16, int17, int18, int19, int20];

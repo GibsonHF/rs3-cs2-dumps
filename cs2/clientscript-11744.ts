@@ -11,8 +11,8 @@ function script11744(): void {
         IF_SETOBJECT(-1 as obj, -1, comp(105, 127));
         IF_SETTEXT("", comp(105, 128));
         IF_SETOPBASE("", comp(105, 127));
-        IF_SETOP(1, "", comp(105, 127));
-        IF_SETOP(10, "", comp(105, 127));
+        IF_SETOP(callback(script1), comp(105, 127));
+        IF_SETOP(callback(script10), comp(105, 127));
         IF_SETONMOUSEREPEAT(callback(), comp(105, 127));
         return;
     };
@@ -23,9 +23,9 @@ function script11744(): void {
     var int3 = 1140;
     IF_SETONMOUSEOVER(callback(script44, 6881406, int3), comp(105, 126));
     int3 = 18266;
-    IF_SETONMOUSELEAVE(callback(script44, 6881406, int3), 6881406);
+    IF_SETONMOUSELEAVE(callback(script44, 6881406, int3), comp(105, 126));
     var string2 = "";
-    if (((varplayer_429 != -1) || (varplayer_431 > 0))) {
+    if (((varplayer_429 != -1 as player_uid) || (varplayer_431 > 0))) {
         IF_SETTRANS(200, comp(105, 127));
         IF_SETCOLOUR(16711680, comp(105, 128));
         string2 = "Demand";
@@ -37,8 +37,8 @@ function script11744(): void {
     };
     IF_SETOP(1, string2, comp(105, 127));
     IF_SETOP(10, "Examine", comp(105, 127));
-    IF_SETONMOUSEREPEAT(callback(script8799, string2, 6881407, -1), 6881407);
-    IF_SETONMOUSELEAVE(callback(script8805), 6881407);
-    IF_SETTEXT(string1, 6881408);
+    IF_SETONMOUSEREPEAT(callback(script8799, string2, 6881407, -1), comp(105, 127));
+    IF_SETONMOUSELEAVE(callback(script8805), comp(105, 127));
+    IF_SETTEXT(string1, comp(105, 128));
     return;
 }

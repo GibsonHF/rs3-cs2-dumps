@@ -4,7 +4,8 @@ function script15669(int0: number, int1: number, int2: number): void {
         return;
     };
     varclient_6890 = SETBIT(varclient_6890, int1);
-    if ((++int1 < int2)) {
+    var int1 = (int1 + 1);
+    if ((int1 < int2)) {
         MAP_PRELOAD(enum_getvalue(0, 22, 8809 as cs2enum, int1));
         IF_SETONTIMER(callback(script15669, int0, int1, int2), int0);
         return;

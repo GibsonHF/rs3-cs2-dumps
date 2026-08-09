@@ -2,7 +2,7 @@
 function script12098(int0: number, int1: number): number {
     var int2 = 0;
     var int3 = -1 as struct;
-    if ((int0 != -1 as struct)) {
+    if ((int0 != -1)) {
         if ((struct_getparam(int0, 2212) > 0)) {
             int2 = struct_getparam(int0, 2212);
         } else if (((struct_getparam(int0, 2213) != -1 as obj) && (script12097(int0, int1) > 0))) {

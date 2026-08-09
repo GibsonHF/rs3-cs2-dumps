@@ -131,13 +131,13 @@ function script4506(int0: number, int1: number, int2: number, int3: number, int4
     };
     var string13 = `<col=ffcb05>${string0}</col><br><br><col=ffffff>${string2}</col>`;
     if (((STRING_LENGTH(string1) == 0) && (int6 != -1))) {
-        string1 = enum_getvalue(0, 36, 11809 as cs2enum, int6);
+        string1 = enum_getvalue(0, 36, 11809, int6);
     };
     if (((STRING_LENGTH(string4) == 0) && (int8 != -1))) {
         string4 = inttostring(int8, 10);
     };
     if (((STRING_LENGTH(string3) == 0) && (int7 != -1))) {
-        string3 = enum_getvalue(0, 36, 11811 as cs2enum, int7);
+        string3 = enum_getvalue(0, 36, 11811, int7);
     };
     return;
 }

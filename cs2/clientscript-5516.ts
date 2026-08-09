@@ -8,6 +8,7 @@ function script5516(int0: number): string {
             return "Grants <col=00ffff>immunity</col> from <col=00ffff>Dragonfire</col>.";
         }
         case 3: {
+            break;
         }
         default: {
             return "";

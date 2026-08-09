@@ -1,7 +1,7 @@
 //
 function script20254(): void {
     var int0 = script20117(varplayer_12314);
-    if ((int0 == -1 as dbrow)) {
+    if ((int0 == -1)) {
         script20273();
         return;
     };
@@ -52,7 +52,8 @@ function script20254(): void {
     var int12 = -1;
     var int13 = 0;
     [int13, int12] = script20260(int9, int4);
-    IF_SETSCROLLSIZE(--int13, 0, comp(1443, 6));
+    int13 = (int13 - 15);
+    IF_SETSCROLLSIZE(int13, 0, comp(1443, 6));
     if (((int12 != -1) && (CC_FINDBYCATEGORY(comp(1443, 8), 200, int12) == 1))) {
         IF_SETSCROLLPOS(((CC_GETX() + (CC_GETWIDTH() / 2)) - (IF_GETWIDTH(comp(1443, 8)) / 2)), 0, comp(1443, 8));
     };

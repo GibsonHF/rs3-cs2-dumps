@@ -1,20 +1,19 @@
 //
 function script14031(int0: number): void {
-    var int1 = comp(1936, 8);
+    var int1 = 126877704;
     var int2 = 126877706;
     var int3 = 0;
     var int4 = 1;
     var int5 = 0;
     var int6 = 0;
-    var int7 = -1 as dbrow;
+    var int7 = -1;
     CC_DELETEALL(int1);
     IF_SETCOLOUR(script10495(9), comp(1936, 0));
     while ((int4 <= 62)) {
         stack(28672);
         stack(int4);
         DB_FIND(0);
-        dbrow_findnext();
-        int7 = stack();
+        int7 = dbrow_findnext();
         if ((((int7 != -1) && (dbrow_getfield(int7, 28688, 0) == int0)) && (dbrow_getfield(int7, 28848, 0) == 0))) {
             CC_CREATE(int1, 3, IF_GETNEXTSUBID(int1));
             CC_SETPOSITION(2, int3, 0, 0);

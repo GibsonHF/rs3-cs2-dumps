@@ -19,7 +19,7 @@ function script15036(int0: number, int1: number, int2: number, int3: number, int
     };
     if ((int5 == 1)) {
         IF_SETONTIMER(callback(), comp(105, 141));
-        if ((varplayer_135 == -1)) {
+        if ((varplayer_135 == -1 as obj)) {
             IF_SETTEXT("", comp(105, 141));
         } else {
             IF_SETTEXT("Loading...", comp(105, 141));

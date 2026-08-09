@@ -5,7 +5,7 @@ function script13786(): void {
     };
     var int0 = npc_getparam(item_getparam(varplayer_1831, 74), 5051);
     var int1 = enum_getvalue(73, 73, 7225 as cs2enum, int0);
-    var int2 = struct_getparam(11063 as struct, 2483);
+    var int2 = struct_getparam(11063, 2483);
     var int3 = script3204(int0);
     var int4 = -1 as npc;
     var int5 = 0;
@@ -39,21 +39,9 @@ function script13786(): void {
     IF_SETPOSITION(0, script13787(int7), 1, 4, comp(662, 52));
     if (((int2 != -1 as struct) && (int4 != -1 as npc))) {
         IF_NPC_SETCUSTOMRECOL(1, struct_getparam(int2, 2503), 43384884);
-        stack(2);
-        stack(int2);
-        stack(2504);
-        struct_getparam();
-        IF_NPC_SETCUSTOMRECOL(stack(), 43384884);
-        stack(3);
-        stack(int2);
-        stack(2505);
-        struct_getparam();
-        IF_NPC_SETCUSTOMRECOL(stack(), 43384884);
-        stack(4);
-        stack(int2);
-        stack(2506);
-        struct_getparam();
-        IF_NPC_SETCUSTOMRECOL(stack(), 43384884);
+        IF_NPC_SETCUSTOMRECOL(2, struct_getparam(int2, 2504), 43384884);
+        IF_NPC_SETCUSTOMRECOL(3, struct_getparam(int2, 2505), 43384884);
+        IF_NPC_SETCUSTOMRECOL(4, struct_getparam(int2, 2506), 43384884);
     };
     IF_SETHIDE(false, comp(662, 87));
     IF_SETHIDE(true, comp(662, 88));

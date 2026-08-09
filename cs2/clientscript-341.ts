@@ -4,7 +4,17 @@ function script341(int0: number, int1: number): void {
     if ((int1 == 1)) {
         int2 = true;
     };
-    if ((((IF_GETHIDE(int0) == true) && (int2 == false)) || ((IF_GETHIDE(int0) == false) && (int2 == true)))) {
+    if ((IF_GETHIDE(int0) == true)) {
+        if ((int2 == false)) {
+            IF_SETHIDE(int2, int0);
+            script9579(int0);
+            script9581(IF_GETPARENTLAYER(IF_GETPARENTLAYER(IF_GETPARENTLAYER(int0))));
+        } else if (((IF_GETHIDE(int0) == false) && (int2 == true))) {
+            IF_SETHIDE(int2, int0);
+            script9579(int0);
+            script9581(IF_GETPARENTLAYER(IF_GETPARENTLAYER(IF_GETPARENTLAYER(int0))));
+        };
+    } else if (((IF_GETHIDE(int0) == false) && (int2 == true))) {
         IF_SETHIDE(int2, int0);
         script9579(int0);
         script9581(IF_GETPARENTLAYER(IF_GETPARENTLAYER(IF_GETPARENTLAYER(int0))));

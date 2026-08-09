@@ -13,8 +13,14 @@ function script15348(int0: number, int1: number, int2: number): void {
         int5 = ACHIEVEMENT_FINDNEXT();
     };
     if ((CC_FIND(int0, int1) == 1)) {
-        if (((varbitplayer_48340 == 0) || ((varbitplayer_48340 == 1) && (int4 < int3)))) {
+        if ((varbitplayer_48340 == 0)) {
             CC_SETGRAPHIC(30205 as graphic);
+        } else if ((varbitplayer_48340 == 1)) {
+            if ((int4 < int3)) {
+                CC_SETGRAPHIC(30205 as graphic);
+            } else {
+                CC_SETGRAPHIC(-1 as graphic);
+            };
         } else {
             CC_SETGRAPHIC(-1 as graphic);
         };

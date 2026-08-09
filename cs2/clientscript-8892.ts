@@ -6,7 +6,7 @@ function script8892(int0: number, int1: number, int2: number, int3: number, int4
     var string1 = `${enum_getvalue(17, 36, 680 as cs2enum, int1)} XP`;
     if ((int2 != -1)) {
         string0 = `${inttostring(int2, 10)} XP`;
-        string1 = `${inttostring(int2, 10)} ${enum_getvalue(17, 36, 680 as cs2enum, int1)} XP`;
+        string1 = `${inttostring(int2, 10)} ${enum_getvalue(17, 36, 680, int1)} XP`;
     };
     if (((int3 + 45) > int6)) {
         var int3 = int5;
@@ -27,5 +27,6 @@ function script8892(int0: number, int1: number, int2: number, int3: number, int4
         CC_SETTEXTFONT(26 as fontmetrics);
         CC_SETTEXTALIGN(1, 0, 0);
     };
-    return [++int3, int4];
+    int3 = (int3 + 44);
+    return [int3, int4];
 }

@@ -46,25 +46,104 @@ function script10886(int0: number, int1: number): void {
         };
     };
     if ((CC_FIND[1](int0, 1) == 1)) {
-        if (((((struct_getparam(int1, 8112) == true) && (int3 > 0)) && (struct_getparam(int1, 8110) == true)) && (int4 > 0))) {
-            string1 = `${string2} ${string3}`;
-            if ((script11319() != 29)) {
-                string1 = `${string2}<br>${string3}`;
-                CC_SETTEXTFONT[1](script12028(274, 65, 41, string1, CC_GETWIDTH[1](), CC_GETHEIGHT[1]()));
-                CC_SETTEXTALIGN[1](1, 1, 15);
-            } else {
-                CC_SETTEXTFONT[1](270 as fontmetrics);
-                CC_SETTEXTALIGN[1](0, 2, 12);
-                if ((CC_GETHEIGHT[1]() < script15891(string1, CC_GETWIDTH[1](), CC_GETFONTMETRICS[1](), 12))) {
-                    string1 = inttostring(int4, 10);
-                    if ((struct_getparam(int1, 8111) == true)) {
-                        string1 = `${inttostring(int4, 10)}%`;
+        if ((struct_getparam(int1, 8112) == true)) {
+            if ((int3 > 0)) {
+                if ((struct_getparam(int1, 8110) == true)) {
+                    if ((int4 > 0)) {
+                        string1 = `${string2} ${string3}`;
+                        if ((script11319() != 29)) {
+                            string1 = `${string2}<br>${string3}`;
+                            CC_SETTEXTFONT[1](script12028(274, 65, 41, string1, CC_GETWIDTH[1](), CC_GETHEIGHT[1]()));
+                            CC_SETTEXTALIGN[1](1, 1, 15);
+                        } else {
+                            CC_SETTEXTFONT[1](270 as fontmetrics);
+                            CC_SETTEXTALIGN[1](0, 2, 12);
+                            if ((CC_GETHEIGHT[1]() < script15891(string1, CC_GETWIDTH[1](), CC_GETFONTMETRICS[1](), 12))) {
+                                string1 = inttostring(int4, 10);
+                                if ((struct_getparam(int1, 8111) == true)) {
+                                    string1 = `${inttostring(int4, 10)}%`;
+                                };
+                            };
+                        };
+                    } else {
+                        if ((struct_getparam(int1, 8112) == true)) {
+                            if ((int3 > 0)) {
+                                string1 = string2;
+                            } else if (((struct_getparam(int1, 8110) == true) && (int4 > 0))) {
+                                string1 = string3;
+                            };
+                        } else if (((struct_getparam(int1, 8110) == true) && (int4 > 0))) {
+                            string1 = string3;
+                        };
+                        switch (script11319()) {
+                            case 34: {
+                                int5 = 3;
+                                break;
+                            }
+                            case 38: {
+                                int5 = 9;
+                                break;
+                            }
+                        };
+                        if (((int5 != 0) && (STRING_LENGTH(string1) > int5))) {
+                            CC_SETTEXTFONT[1](script12028(31, 31, 26, string1, CC_GETWIDTH[1](), CC_GETHEIGHT[1]()));
+                        };
                     };
+                } else {
+                    if ((struct_getparam(int1, 8112) == true)) {
+                        if ((int3 > 0)) {
+                            string1 = string2;
+                        } else if (((struct_getparam(int1, 8110) == true) && (int4 > 0))) {
+                            string1 = string3;
+                        };
+                    } else if (((struct_getparam(int1, 8110) == true) && (int4 > 0))) {
+                        string1 = string3;
+                    };
+                    switch (script11319()) {
+                        case 34: {
+                            int5 = 3;
+                            break;
+                        }
+                        case 38: {
+                            int5 = 9;
+                            break;
+                        }
+                    };
+                    if (((int5 != 0) && (STRING_LENGTH(string1) > int5))) {
+                        CC_SETTEXTFONT[1](script12028(31, 31, 26, string1, CC_GETWIDTH[1](), CC_GETHEIGHT[1]()));
+                    };
+                };
+            } else {
+                if ((struct_getparam(int1, 8112) == true)) {
+                    if ((int3 > 0)) {
+                        string1 = string2;
+                    } else if (((struct_getparam(int1, 8110) == true) && (int4 > 0))) {
+                        string1 = string3;
+                    };
+                } else if (((struct_getparam(int1, 8110) == true) && (int4 > 0))) {
+                    string1 = string3;
+                };
+                switch (script11319()) {
+                    case 34: {
+                        int5 = 3;
+                        break;
+                    }
+                    case 38: {
+                        int5 = 9;
+                        break;
+                    }
+                };
+                if (((int5 != 0) && (STRING_LENGTH(string1) > int5))) {
+                    CC_SETTEXTFONT[1](script12028(31, 31, 26, string1, CC_GETWIDTH[1](), CC_GETHEIGHT[1]()));
                 };
             };
         } else {
-            if (((struct_getparam(int1, 8112) == true) && (int3 > 0))) {
-                string1 = string2;
+            if ((struct_getparam(int1, 8112) == true)) {
+                if ((int3 > 0)) {
+                    string1 = string2;
+                } else if (((struct_getparam(int1, 8110) == true) && (int4 > 0))) {
+                    string1 = string3;
+                };
             } else if (((struct_getparam(int1, 8110) == true) && (int4 > 0))) {
                 string1 = string3;
             };

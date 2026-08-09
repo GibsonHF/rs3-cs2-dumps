@@ -1,6 +1,7 @@
 //
 function script3627(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number, int8: number): void {
-    if ((++int7 == int8)) {
+    var int7 = (int7 + 1);
+    if ((int7 == int8)) {
         IF_SETOBJECT(int5, -1, int0);
         IF_SETPOSITION(int1, int2, 0, 0, int0);
         IF_SETONTIMER(callback(), int0);

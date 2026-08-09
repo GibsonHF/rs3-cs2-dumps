@@ -191,8 +191,12 @@ function script8332(int0: number): void {
         int44 = SCALE(int41, int40, int42);
     };
     IF_SETSCROLLPOS(int43, int44, int6);
-    if (((int35 == true) && (int36 == true))) {
-        script14182(int2);
+    if ((int35 == true)) {
+        if ((int36 == true)) {
+            script14182(int2);
+        } else {
+            script14181(int0, int2);
+        };
     } else {
         script14181(int0, int2);
     };

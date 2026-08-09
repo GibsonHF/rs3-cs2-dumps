@@ -3,7 +3,7 @@ function script2592(int0: number, int1: number, int2: number, int3: number): [nu
     var int4 = int1;
     var int5 = int0;
     if ((int5 == -1)) {
-        var [int0, int1] = script3222(int1);
+        [int0, int1] = script3222(int1);
     } else if ((int1 == -1)) {
         if ((int0 == int2)) {
             int1 = script5798((int0 - 1));
@@ -13,21 +13,54 @@ function script2592(int0: number, int1: number, int2: number, int3: number): [nu
     };
     if ((varplayer_8970 != -1)) {
         if ((int3 == 1)) {
-            if (((int5 == -1) && (int4 == -1))) {
-                int0 = varplayer_8970;
+            if ((int5 == -1)) {
+                if ((int4 == -1)) {
+                    int0 = varplayer_8970;
+                } else {
+                    if (((((int0 == int5) && (int0 != script14337())) && (int0 < int2)) && (script14344(int0) == -1))) {
+                        return [int0, int1];
+                    };
+                    if ((script14337() >= int2)) {
+                        if ((int5 != -1)) {
+                            if (((int5 >= int2) || (script14344(int5) != -1))) {
+                                int0 = (int0 - script14293(0, int0));
+                                int1 = script14356(int1);
+                            } else if ((int4 != -1)) {
+                                if (((int0 >= int2) || (script14344(int0) != -1))) {
+                                    int0 = (int0 - script14293(0, int0));
+                                    int1 = script14356(int1);
+                                };
+                            };
+                        } else if ((int4 != -1)) {
+                            if (((int0 >= int2) || (script14344(int0) != -1))) {
+                                int0 = (int0 - script14293(0, int0));
+                                int1 = script14356(int1);
+                            };
+                        };
+                    } else if (((int0 > 0) && (script14344((int0 - 1)) == -1))) {
+                        return [(int0 - 1), int1];
+                    };
+                };
             } else {
                 if (((((int0 == int5) && (int0 != script14337())) && (int0 < int2)) && (script14344(int0) == -1))) {
                     return [int0, int1];
                 };
                 if ((script14337() >= int2)) {
                     if ((int5 != -1)) {
-                        if ((((int5 >= int2) || (script14344(int5) != -1)) || ((int4 != -1) && ((int0 >= int2) || (script14344(int0) != -1))))) {
+                        if (((int5 >= int2) || (script14344(int5) != -1))) {
+                            int0 = (int0 - script14293(0, int0));
+                            int1 = script14356(int1);
+                        } else if ((int4 != -1)) {
+                            if (((int0 >= int2) || (script14344(int0) != -1))) {
+                                int0 = (int0 - script14293(0, int0));
+                                int1 = script14356(int1);
+                            };
+                        };
+                    } else if ((int4 != -1)) {
+                        if (((int0 >= int2) || (script14344(int0) != -1))) {
                             int0 = (int0 - script14293(0, int0));
                             int1 = script14356(int1);
                         };
-                    } else if (((int4 != -1) && ((int0 >= int2) || (script14344(int0) != -1)))) {
-                        int0 = (int0 - script14293(0, int0));
-                        int1 = script14356(int1);
                     };
                 } else if (((int0 > 0) && (script14344((int0 - 1)) == -1))) {
                     return [(int0 - 1), int1];

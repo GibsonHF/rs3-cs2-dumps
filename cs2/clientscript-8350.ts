@@ -20,7 +20,7 @@ function script8350(int0: number, int1: number, int2: number): void {
     };
     define_array(128);
     while ((int9 != -1)) {
-        if (((int2 == 0) || (((int9 == int1) || (script8730(int0, int9) == 0)) && (push_array(int9) != 1)))) {
+        if ((int2 == 0)) {
             if ((script19633(int9) == 0)) {
                 int9 = script8727(int0, int9);
             } else {
@@ -28,13 +28,25 @@ function script8350(int0: number, int1: number, int2: number): void {
                 int10 = int9;
                 int9 = script8727(int0, int9);
             };
+        } else if (((int9 == int1) || (script8730(int0, int9) == 0))) {
+            if ((push_array(int9) != 1)) {
+                if ((script19633(int9) == 0)) {
+                    int9 = script8727(int0, int9);
+                } else {
+                    pop_array(int9, 1);
+                    int10 = int9;
+                    int9 = script8727(int0, int9);
+                };
+            } else {
+                int9 = -1;
+            };
         } else {
             int9 = -1;
         };
     };
     CC_DELETEALL(int4);
     while ((int10 != -1)) {
-        if (((int2 == 0) || (((int10 == int1) || (script8730(int0, int10) == 0)) && (script8351(int10) == 0)))) {
+        if ((int2 == 0)) {
             if ((script19633(int10) == 0)) {
                 int10 = script8728(int0, int10);
             } else {
@@ -44,6 +56,21 @@ function script8350(int0: number, int1: number, int2: number): void {
                 script8362(int1, int10, int6);
                 int10 = script8728(int0, int10);
                 int6 = (int6 + 1);
+            };
+        } else if (((int10 == int1) || (script8730(int0, int10) == 0))) {
+            if ((script8351(int10) == 0)) {
+                if ((script19633(int10) == 0)) {
+                    int10 = script8728(int0, int10);
+                } else {
+                    if ((int10 == int1)) {
+                        int7 = int6;
+                    };
+                    script8362(int1, int10, int6);
+                    int10 = script8728(int0, int10);
+                    int6 = (int6 + 1);
+                };
+            } else {
+                int10 = -1;
             };
         } else {
             int10 = -1;

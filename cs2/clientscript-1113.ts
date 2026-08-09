@@ -1,6 +1,7 @@
 //
 function script1113(int0: number): number {
-    if ((++int0 == varbitplayer_41937)) {
+    var int0 = (int0 + 1);
+    if ((int0 == varbitplayer_41937)) {
         return varbitplayer_41936;
     };
     if ((int0 == varbitplayer_41939)) {

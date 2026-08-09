@@ -49,12 +49,12 @@ function script8461(int0: number): [number, number] {
     var int24 = script7436(int14);
     var string0 = enum_getvalue(0, 36, 6744 as cs2enum, int10);
     var string1 = "Weapon";
-    var string2 = enum_getvalue(0, 36, 6741 as cs2enum, int24);
-    var int25 = enum_getvalue(0, 73, 6740 as cs2enum, int11);
+    var string2 = enum_getvalue(0, 36, 6741, int24);
+    var int25 = enum_getvalue(0, 73, 6740, int11);
     var string3 = `${script7653(script18545(varplayer_717, int14), 1, 1, 0, 1)}%`;
     var string4 = `${script7653(script17469(varplayer_717, int14), 1, 1, 0, 1)}%`;
     var int26 = SCALE(int13, 100, 50);
-    var int27 = SCALE(enum_getvalue(0, 0, 7339 as cs2enum, int26), 100, (100 + (40 / 2)));
+    var int27 = SCALE(enum_getvalue(0, 0, 7339, int26), 100, (100 + (40 / 2)));
     var int28 = 0;
     var int29 = 0;
     var int30 = 0;
@@ -64,7 +64,7 @@ function script8461(int0: number): [number, number] {
     var int34 = 0;
     var int35 = 0;
     var int36 = 0;
-    var int37 = -1 as cs2enum;
+    var int37 = -1;
     switch (script7241(int14)) {
         case 1: {
             int28 = MAX(0, MIN(10000, SCALE((SCALE(int22, int27, 100) * 60), 100, int6)));
@@ -72,15 +72,23 @@ function script8461(int0: number): [number, number] {
             int30 = MAX(0, MIN(10000, SCALE((SCALE(int22, int27, 100) * 50), 100, int6)));
             int32 = SCALE((100 + ((int24 - 4) * 25)), 100, SCALE(STAT(2 as stat), 100, 250));
             int34 = enum_getvalue(0, 0, 7338 as cs2enum, item_getparam(int14, 3267));
-            if (((OC_WEARPOS(int14) > 0) && (OC_WEARPOS2(int14) > 0))) {
-                int31 = (SCALE(item_getparam(int14, 641), 100, ((100 - 25) + SCALE(MIN(STAT(2 as stat), int34), int34, 25))) / 10);
-                int32 = SCALE(int32, 100, 150);
+            if ((OC_WEARPOS(int14) > 0)) {
+                if ((OC_WEARPOS2(int14) > 0)) {
+                    int31 = (SCALE(item_getparam(int14, 641), 100, ((100 - 25) + SCALE(MIN(STAT(2 as stat), int34), int34, 25))) / 10);
+                    int32 = SCALE(int32, 100, 150);
+                } else {
+                    int31 = (SCALE(item_getparam(int14, 641), 100, ((100 - 25) + SCALE(MIN(STAT(2 as stat), int34), int34, 25))) / 10);
+                };
             } else {
                 int31 = (SCALE(item_getparam(int14, 641), 100, ((100 - 25) + SCALE(MIN(STAT(2 as stat), int34), int34, 25))) / 10);
             };
             int33 = ((int3 - int31) - int32);
-            if (((item_getparam(INV_GETOBJ(94 as inv, 3), 2825) == 1) && (item_getparam(INV_GETOBJ(94 as inv, 5), 2825) == 1))) {
-                int20 = (int4 + SCALE(int12, 100, 50));
+            if ((item_getparam(INV_GETOBJ(94 as inv, 3), 2825) == 1)) {
+                if ((item_getparam(INV_GETOBJ(94 as inv, 5), 2825) == 1)) {
+                    int20 = (int4 + SCALE(int12, 100, 50));
+                } else {
+                    int20 = int4;
+                };
             } else {
                 int20 = int4;
             };
@@ -98,22 +106,34 @@ function script8461(int0: number): [number, number] {
             int34 = enum_getvalue(0, 0, 7338 as cs2enum, item_getparam(int14, 4));
             int35 = item_getparam(int18, 643);
             if ((item_getparam(int14, 1047) != 1)) {
-                int35 = MIN(enum_getvalue(0, 0, 7443 as cs2enum, item_getparam(int14, 23)), int35);
+                int35 = MIN(enum_getvalue(0, 0, 7443, item_getparam(int14, 23)), int35);
             } else {
-                int35 = MIN(enum_getvalue(0, 0, 7443 as cs2enum, item_getparam(int14, 750)), int35);
+                int35 = MIN(enum_getvalue(0, 0, 7443, item_getparam(int14, 750)), int35);
             };
             if (((int10 == 10) || (item_getparam(int14, 21) != OC_CATEGORY(int18)))) {
                 int35 = 0;
             };
-            if ((((item_getparam(int14, 686) == 14940 as struct) && (int18 != -1 as obj)) && (item_getparam(int18, 23) <= item_getparam(int14, 23)))) {
-                int37 = enum_getvalue(0, 26, 12907 as cs2enum, int24);
-                int31 = ((enum_getvalue(0, 0, int37, item_getparam(int14, 23)) + int35) / 10);
+            if ((item_getparam(int14, 686) == 14940 as struct)) {
+                if ((int18 != -1 as obj)) {
+                    if ((item_getparam(int18, 23) <= item_getparam(int14, 23))) {
+                        int37 = enum_getvalue(0, 26, 12907, int24);
+                        int31 = ((enum_getvalue(0, 0, int37, item_getparam(int14, 23)) + int35) / 10);
+                    } else {
+                        int31 = ((item_getparam(int14, 643) + int35) / 10);
+                    };
+                } else {
+                    int31 = ((item_getparam(int14, 643) + int35) / 10);
+                };
             } else {
                 int31 = ((item_getparam(int14, 643) + int35) / 10);
             };
             int33 = ((int3 - int31) - int32);
-            if (((item_getparam(INV_GETOBJ(94 as inv, 3), 2826) == 1) && (item_getparam(INV_GETOBJ(94 as inv, 5), 2826) == 1))) {
-                int20 = (int4 + SCALE(int12, 100, 50));
+            if ((item_getparam(INV_GETOBJ(94 as inv, 3), 2826) == 1)) {
+                if ((item_getparam(INV_GETOBJ(94 as inv, 5), 2826) == 1)) {
+                    int20 = (int4 + SCALE(int12, 100, 50));
+                } else {
+                    int20 = int4;
+                };
             } else {
                 int20 = int4;
             };
@@ -122,8 +142,8 @@ function script8461(int0: number): [number, number] {
         }
         case 3: {
             string1 = "Spell";
-            if ((int25 != -1 as struct)) {
-                string0 = enum_getvalue(0, 36, 6744 as cs2enum, struct_getparam(int25, 2873));
+            if ((int25 != -1)) {
+                string0 = enum_getvalue(0, 36, 6744, struct_getparam(int25, 2873));
             } else {
                 string0 = "-";
                 int22 = 0;
@@ -133,19 +153,27 @@ function script8461(int0: number): [number, number] {
             int30 = MAX(0, MIN(10000, SCALE((SCALE(int22, int27, 100) * 60), 100, int5)));
             int32 = SCALE(STAT(6 as stat), 100, 250);
             int34 = enum_getvalue(0, 0, 7338 as cs2enum, item_getparam(int14, 3));
-            if ((int25 != -1 as struct)) {
+            if ((int25 != -1)) {
                 int32 = SCALE((100 + ((int24 - 4) * 25)), 100, SCALE(STAT(6 as stat), 100, 250));
                 int36 = MAX(0, ((MIN(int34, struct_getparam(int25, 2879)) - struct_getparam(int25, 2807)) * struct_getparam(int25, 2878)));
-                if (((OC_WEARPOS(int14) > 0) && (OC_WEARPOS2(int14) > 0))) {
-                    int31 = (((SCALE(MIN(enum_getvalue(0, 0, 7443 as cs2enum, int34), struct_getparam(int25, 2877)), 100, 150) + SCALE((2 * (3975 * int34)), 100, 1)) + int36) / 10);
-                    int32 = SCALE(int32, 100, 150);
+                if ((OC_WEARPOS(int14) > 0)) {
+                    if ((OC_WEARPOS2(int14) > 0)) {
+                        int31 = (((SCALE(MIN(enum_getvalue(0, 0, 7443, int34), struct_getparam(int25, 2877)), 100, 150) + SCALE((2 * (3975 * int34)), 100, 1)) + int36) / 10);
+                        int32 = SCALE(int32, 100, 150);
+                    } else {
+                        int31 = ((MIN(enum_getvalue(0, 0, 7443, int34), struct_getparam(int25, 2877)) + int36) / 10);
+                    };
                 } else {
-                    int31 = ((MIN(enum_getvalue(0, 0, 7443 as cs2enum, int34), struct_getparam(int25, 2877)) + int36) / 10);
+                    int31 = ((MIN(enum_getvalue(0, 0, 7443, int34), struct_getparam(int25, 2877)) + int36) / 10);
                 };
             };
             int33 = ((int3 - int31) - int32);
-            if (((item_getparam(INV_GETOBJ(94 as inv, 3), 2827) == 1) && (item_getparam(INV_GETOBJ(94 as inv, 5), 2827) == 1))) {
-                int20 = (int4 + SCALE(int12, 100, 50));
+            if ((item_getparam(INV_GETOBJ(94 as inv, 3), 2827) == 1)) {
+                if ((item_getparam(INV_GETOBJ(94 as inv, 5), 2827) == 1)) {
+                    int20 = (int4 + SCALE(int12, 100, 50));
+                } else {
+                    int20 = int4;
+                };
             } else {
                 int20 = int4;
             };
@@ -163,8 +191,12 @@ function script8461(int0: number): [number, number] {
             };
             int31 = (item_getparam(int14, 8881) / 10);
             int33 = ((int3 - int31) - int32);
-            if (((item_getparam(INV_GETOBJ(94 as inv, 3), 8898) == 1) && (item_getparam(INV_GETOBJ(94 as inv, 5), 8898) == 1))) {
-                int20 = (int4 + SCALE(int12, 100, 50));
+            if ((item_getparam(INV_GETOBJ(94 as inv, 3), 8898) == 1)) {
+                if ((item_getparam(INV_GETOBJ(94 as inv, 5), 8898) == 1)) {
+                    int20 = (int4 + SCALE(int12, 100, 50));
+                } else {
+                    int20 = int4;
+                };
             } else {
                 int20 = int4;
             };
@@ -212,17 +244,17 @@ function script8461(int0: number): [number, number] {
         if ((int21 > 0)) {
             string5 = `Weapon : <col=00FF00>${inttostring(script7244(int14), 10)}</col><br>Skill Bonus : <col=00FF00>${inttostring(int9, 10)}</col><br>Hybrid Nerf : <col=00FF00>-${inttostring(int21, 10)}</col>`;
         };
-        IF_SETONMOUSEREPEAT(callback(script3876, string5, -2147483645, -2147483643), 102170668);
-        IF_SETONMOUSELEAVE(callback(script8805), 102170668);
+        IF_SETONMOUSEREPEAT(callback(script3876, string5, -2147483645, -2147483643), comp(1559, 44));
+        IF_SETONMOUSELEAVE(callback(script8805), comp(1559, 44));
         string5 = `Weapon : <col=00FF00>${inttostring(script7244(int14), 10)}</col><br>Skill Bonus : <col=00FF00>${inttostring(int9, 10)}</col>`;
         if ((int21 > 0)) {
             string5 = `Weapon : <col=00FF00>${inttostring(script7244(int14), 10)}</col><br>Skill Bonus : <col=00FF00>${inttostring(int9, 10)}</col><br>Hybrid Nerf : <col=00FF00>-${inttostring(int21, 10)}</col>`;
         };
-        IF_SETONMOUSEREPEAT(callback(script3876, string5, -2147483645, -2147483643), 102170766);
-        IF_SETONMOUSELEAVE(callback(script8805), 102170766);
+        IF_SETONMOUSEREPEAT(callback(script3876, string5, -2147483645, -2147483643), comp(1559, 142));
+        IF_SETONMOUSELEAVE(callback(script8805), comp(1559, 142));
         string5 = `${string1} : <col=00FF00>${inttostring(int31, 10)}</col><br>Skill Bonus : <col=00FF00>${inttostring(int32, 10)}</col><br>Damage Bonus : <col=00FF00>${inttostring(int33, 10)}</col>`;
-        IF_SETONMOUSEREPEAT(callback(script3876, string5, -2147483645, -2147483643), 102170663);
-        IF_SETONMOUSELEAVE(callback(script8805), 102170663);
+        IF_SETONMOUSEREPEAT(callback(script3876, string5, -2147483645, -2147483643), comp(1559, 39));
+        IF_SETONMOUSELEAVE(callback(script8805), comp(1559, 39));
     } else {
         IF_SETTEXT(inttostring(int19, 10), comp(1463, 46));
         IF_SETTEXT(inttostring((int22 + int23), 10), comp(1463, 51));
@@ -235,29 +267,29 @@ function script8461(int0: number): [number, number] {
         IF_SETTEXT(string3, comp(1463, 239));
         IF_SETTEXT(string4, comp(1463, 245));
         string5 = `Skill Bonus : <col=00FF00>${script7653(script18545(varplayer_717, int14), 1, 1, 0, 1)}%</col>`;
-        IF_SETONMOUSEREPEAT(callback(script3876, string5, -2147483645, -2147483643), 95879405);
-        IF_SETONMOUSELEAVE(callback(script8805), 95879405);
+        IF_SETONMOUSEREPEAT(callback(script3876, string5, -2147483645, -2147483643), comp(1463, 237));
+        IF_SETONMOUSELEAVE(callback(script8805), comp(1463, 237));
         string5 = `Skill Bonus : <col=00FF00>${script7653(script17469(varplayer_717, int14), 1, 1, 0, 1)}%</col>`;
-        IF_SETONMOUSEREPEAT(callback(script3876, string5, -2147483645, -2147483643), 95879412);
-        IF_SETONMOUSELEAVE(callback(script8805), 95879412);
-        IF_SETTEXT(`${inttostring(SCALE(int28, 1000, 10), 10)}%`, 95879271);
-        IF_SETTEXT(`${inttostring(SCALE(int29, 1000, 10), 10)}%`, 95879275);
-        IF_SETTEXT(`${inttostring(SCALE(int30, 1000, 10), 10)}%`, 95879279);
+        IF_SETONMOUSEREPEAT(callback(script3876, string5, -2147483645, -2147483643), comp(1463, 244));
+        IF_SETONMOUSELEAVE(callback(script8805), comp(1463, 244));
+        IF_SETTEXT(`${inttostring(SCALE(int28, 1000, 10), 10)}%`, comp(1463, 103));
+        IF_SETTEXT(`${inttostring(SCALE(int29, 1000, 10), 10)}%`, comp(1463, 107));
+        IF_SETTEXT(`${inttostring(SCALE(int30, 1000, 10), 10)}%`, comp(1463, 111));
         string5 = `Weapon : <col=00FF00>${inttostring((script7244(int14) + int23), 10)}</col><br>Skill Bonus : <col=00FF00>${inttostring(int9, 10)}</col>`;
         if ((int21 > 0)) {
             string5 = `Weapon : <col=00FF00>${inttostring((script7244(int14) + int23), 10)}</col><br>Skill Bonus : <col=00FF00>${inttostring(int9, 10)}</col><br>Hybrid Nerf : <col=00FF00>-${inttostring(int21, 10)}</col>`;
         };
-        IF_SETONMOUSEREPEAT(callback(script3876, string5, -2147483645, -2147483643), 95879217);
-        IF_SETONMOUSELEAVE(callback(script8805), 95879217);
+        IF_SETONMOUSEREPEAT(callback(script3876, string5, -2147483645, -2147483643), comp(1463, 49));
+        IF_SETONMOUSELEAVE(callback(script8805), comp(1463, 49));
         string5 = `Weapon : <col=00FF00>${inttostring(script7244(int14), 10)}</col><br>Skill Bonus : <col=00FF00>${inttostring(int9, 10)}</col>`;
         if ((int21 > 0)) {
             string5 = `Weapon : <col=00FF00>${inttostring(script7244(int14), 10)}</col><br>Skill Bonus : <col=00FF00>${inttostring(int9, 10)}</col><br>Hybrid Nerf : <col=00FF00>-${inttostring(int21, 10)}</col>`;
         };
-        IF_SETONMOUSEREPEAT(callback(script3876, string5, -2147483645, -2147483643), 95879385);
-        IF_SETONMOUSELEAVE(callback(script8805), 95879385);
+        IF_SETONMOUSEREPEAT(callback(script3876, string5, -2147483645, -2147483643), comp(1463, 217));
+        IF_SETONMOUSELEAVE(callback(script8805), comp(1463, 217));
         string5 = `${string1} : <col=00FF00>${inttostring(int31, 10)}</col><br>Skill Bonus : <col=00FF00>${inttostring(int32, 10)}</col><br>Damage Bonus : <col=00FF00>${inttostring(int33, 10)}</col>`;
-        IF_SETONMOUSEREPEAT(callback(script3876, string5, -2147483645, -2147483643), 95879212);
-        IF_SETONMOUSELEAVE(callback(script8805), 95879212);
+        IF_SETONMOUSEREPEAT(callback(script3876, string5, -2147483645, -2147483643), comp(1463, 44));
+        IF_SETONMOUSELEAVE(callback(script8805), comp(1463, 44));
     };
     return [int20, int31];
 }

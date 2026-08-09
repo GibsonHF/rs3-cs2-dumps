@@ -15,19 +15,19 @@ function script10390(int0: number, int1: number): number {
     var int10 = struct_getparam(int0, 4503);
     var int11 = struct_getparam(int0, 4504);
     var int12 = -1;
-    var int13 = -1 as graphic;
+    var int13 = -1;
     var int14 = -1;
     var string0 = "";
     var int15 = 1;
     var int16 = -1;
     varclient_4502 = true;
     if (((MAP_MEMBERS() == 0) && (struct_getparam(int0, 1290) == 2))) {
-        varclient_4502 = false;
-        [int2, int3] = script10391(0, -1, 21354 as graphic, "This content is only available on members' worlds.", int2, int3, int4, int5);
+        varclient_4502 = 0;
+        [int2, int3] = script10391(0, -1, 21354, "This content is only available on members' worlds.", int2, int3, int4, int5);
         [int2, int3] = [0, (int3 + int5)];
     };
     while ((int6 < 12)) {
-        [int15, int13, int14, int12] = [1, -1 as graphic, -1, -1];
+        [int15, int13, int14, int12] = [1, -1, -1, -1];
         switch (int6) {
             case 0: {
                 [int7, int8] = [struct_getparam(int0, 1294), struct_getparam(int0, 1295)];
@@ -78,12 +78,98 @@ function script10390(int0: number, int1: number): number {
                 break;
             }
         };
-        if (((int7 > 0) && (int7 < 60))) {
-            stack(enum_getvalue(0, 23, 8548 as cs2enum, int7));
-            stack(`You need level ${inttostring(int8, 10)} in: ${enum_getvalue(0, 36, 108 as cs2enum, int7)}`);
-            [int13, string0] = stack();
-            if ((STAT_BASE(enum_getvalue(0, 17, 681 as cs2enum, int7)) < int8)) {
-                int15 = 0;
+        if ((int7 > 0)) {
+            if ((int7 < 60)) {
+                [int13, string0] = [enum_getvalue(0, 23, 8548 as cs2enum, int7), `You need level ${inttostring(int8, 10)} in: ${enum_getvalue(0, 36, 108 as cs2enum, int7)}`];
+                if ((STAT_BASE(enum_getvalue(0, 17, 681, int7)) < int8)) {
+                    int15 = 0;
+                };
+            } else {
+                switch (int7) {
+                    case 60: {
+                        int12 = script5795(int8);
+                        if ((int12 != -1)) {
+                            if ((struct_getparam(int12, 1345) > 0)) {
+                                int13 = script2107(enum_getvalue(0, 3, 2252, struct_getparam(int12, 1345)));
+                            } else {
+                                int13 = struct_getparam(int12, 1271);
+                            };
+                            string0 = `You must have completed the task: '${struct_getparam(int12, 1266)}'`;
+                            if ((script3227(struct_getparam(int12, 1268)) != 2)) {
+                                int15 = 0;
+                            };
+                            int12 = -1;
+                        };
+                        break;
+                    }
+                    case 61: {
+                        int13 = script2107(enum_getvalue(0, 3, 2252, int8));
+                        string0 = `You must have completed the quest: '${script1525(int8)}'`;
+                        if ((script1524(int8) == 0)) {
+                            int15 = 0;
+                        };
+                        break;
+                    }
+                    case 62: {
+                        if ((int0 == 7212)) {
+                            int13 = script2107(enum_getvalue(0, 3, 2252, int8));
+                            string0 = "You must have received a warning about the contents of the tombs.";
+                            if ((varbitplayer_36034 == 0)) {
+                                int15 = 0;
+                            };
+                        } else if ((int0 == 683)) {
+                            int13 = 10371;
+                            string0 = "You must first travel to Anachronia, via the boat at the dig site east of Varrock.";
+                            if ((varbitplayer_44469 != 50)) {
+                                int15 = 0;
+                            };
+                        };
+                        break;
+                    }
+                    case 66: {
+                        switch (int0) {
+                            case 40485: {
+                                if ((script680() == 0)) {
+                                    int15 = 0;
+                                };
+                                break;
+                            }
+                            case 40367: {
+                                if ((script735() == 0)) {
+                                    int15 = 0;
+                                };
+                                break;
+                            }
+                            case 4505: {
+                                if ((script3494() == 0)) {
+                                    int15 = 0;
+                                };
+                                break;
+                            }
+                            case 46269: {
+                                if ((script16489() == 0)) {
+                                    int15 = 0;
+                                };
+                                break;
+                            }
+                        };
+                        int13 = struct_getparam(int0, 1271);
+                        if ((strcmp(struct_getparam(int0, 8082), "") != 0)) {
+                            if ((script6431() == 1)) {
+                                string0 = struct_getparam(int0, 8082);
+                            } else {
+                                string0 = struct_getparam(int0, 1274);
+                            };
+                        } else {
+                            string0 = struct_getparam(int0, 1274);
+                        };
+                        break;
+                    }
+                    case 0: {
+                        int6 = 12;
+                        break;
+                    }
+                };
             };
         } else {
             switch (int7) {
@@ -91,7 +177,7 @@ function script10390(int0: number, int1: number): number {
                     int12 = script5795(int8);
                     if ((int12 != -1)) {
                         if ((struct_getparam(int12, 1345) > 0)) {
-                            int13 = script2107(enum_getvalue(0, 3, 2252 as cs2enum, struct_getparam(int12, 1345)));
+                            int13 = script2107(enum_getvalue(0, 3, 2252, struct_getparam(int12, 1345)));
                         } else {
                             int13 = struct_getparam(int12, 1271);
                         };
@@ -104,7 +190,7 @@ function script10390(int0: number, int1: number): number {
                     break;
                 }
                 case 61: {
-                    int13 = script2107(enum_getvalue(0, 3, 2252 as cs2enum, int8));
+                    int13 = script2107(enum_getvalue(0, 3, 2252, int8));
                     string0 = `You must have completed the quest: '${script1525(int8)}'`;
                     if ((script1524(int8) == 0)) {
                         int15 = 0;
@@ -113,13 +199,13 @@ function script10390(int0: number, int1: number): number {
                 }
                 case 62: {
                     if ((int0 == 7212)) {
-                        int13 = script2107(enum_getvalue(0, 3, 2252 as cs2enum, int8));
+                        int13 = script2107(enum_getvalue(0, 3, 2252, int8));
                         string0 = "You must have received a warning about the contents of the tombs.";
                         if ((varbitplayer_36034 == 0)) {
                             int15 = 0;
                         };
                     } else if ((int0 == 683)) {
-                        int13 = 10371 as graphic;
+                        int13 = 10371;
                         string0 = "You must first travel to Anachronia, via the boat at the dig site east of Varrock.";
                         if ((varbitplayer_44469 != 50)) {
                             int15 = 0;
@@ -155,8 +241,12 @@ function script10390(int0: number, int1: number): number {
                         }
                     };
                     int13 = struct_getparam(int0, 1271);
-                    if (((strcmp(struct_getparam(int0, 8082), "") != 0) && (script6431() == 1))) {
-                        string0 = struct_getparam(int0, 8082);
+                    if ((strcmp(struct_getparam(int0, 8082), "") != 0)) {
+                        if ((script6431() == 1)) {
+                            string0 = struct_getparam(int0, 8082);
+                        } else {
+                            string0 = struct_getparam(int0, 1274);
+                        };
                     } else {
                         string0 = struct_getparam(int0, 1274);
                     };
@@ -169,14 +259,12 @@ function script10390(int0: number, int1: number): number {
             };
         };
         int6 = (int6 + 1);
-        if ((int13 != -1 as graphic)) {
+        if ((int13 != -1)) {
             [int2, int3] = script10391(int15, int14, int13, string0, int2, int3, int4, int5);
         };
     };
     if ((int1 == 8)) {
-        stack(30004);
-        stack("One member of your group must own a barrows totem.");
-        [int14, string0] = stack();
+        [int14, string0] = [30004, "One member of your group must own a barrows totem."];
     };
     if ((int14 != -1)) {
         if ((int14 == 30004)) {
@@ -186,7 +274,7 @@ function script10390(int0: number, int1: number): number {
         } else {
             int15 = 0;
         };
-        [int2, int3] = script10391(int15, int14, -1 as graphic, string0, int2, int3, int4, int5);
+        [int2, int3] = script10391(int15, int14, -1, string0, int2, int3, int4, int5);
     };
     if (((int10 != -1) || (int11 != -1))) {
         if ((int10 != -1)) {
@@ -197,7 +285,7 @@ function script10390(int0: number, int1: number): number {
                 int15 = 0;
             };
         } else if ((int11 != -1)) {
-            if ((varclient_4502 == true)) {
+            if ((varclient_4502 == 1)) {
                 int16 = 0;
             };
             string0 = `It is recommended to have a combat level of ${inttostring(int11, 10)}`;
@@ -207,9 +295,9 @@ function script10390(int0: number, int1: number): number {
                 int15 = 0;
             };
         };
-        [int2, int3] = script10391(int15, -1, 237 as graphic, string0, int2, int3, int4, int5);
+        [int2, int3] = script10391(int15, -1, 237, string0, int2, int3, int4, int5);
         if ((int16 == 0)) {
-            varclient_4502 = true;
+            varclient_4502 = 1;
         };
     };
     if ((int2 > 0)) {
@@ -255,7 +343,7 @@ function script10390(int0: number, int1: number): number {
                 if (((((STAT_BASE(11 as stat) < 30) && (STAT_BASE(2 as stat) < 30)) && (STAT_BASE(16 as stat) < 30)) && (STAT_BASE(12 as stat) < 30))) {
                     int15 = 0;
                 };
-                if (((STAT_BASE(13 as stat) < 60) && branch_lt_long[629](script17400(), 2500n))) {
+                if (((STAT_BASE(13 as stat) < 60) && LONG_BRANCH_LESS_THAN(script17400(), 2500n))) {
                     int15 = 0;
                 };
                 break;
@@ -276,12 +364,12 @@ function script10390(int0: number, int1: number): number {
             }
         };
         if ((int15 == 0)) {
-            varclient_4502 = false;
+            varclient_4502 = 0;
             int3 = script8891(99876951, "<br>You do not meet this requirement.", 0, int3, 1);
         };
     };
-    if (((struct_getparam(int0, 4511) == true) && (MAP_LANG() != 0))) {
-        varclient_4502 = false;
+    if (((struct_getparam(int0, 4511) == 1) && (MAP_LANG() != 0))) {
+        varclient_4502 = 0;
         int3 = script8891(99876951, "This content is only available on English worlds.", 0, int3, 1);
     };
     if ((int3 == 0)) {

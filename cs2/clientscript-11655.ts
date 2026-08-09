@@ -1,6 +1,10 @@
 //
 function script11655(int0: number, int1: number): void {
-    if ((((int1 == -1) && (IF_FIND(int0) == 1)) || (CC_FIND(int0, int1) == 1))) {
+    if ((int1 == -1)) {
+        if (((IF_FIND(int0) == 1) || (CC_FIND(int0, int1) == 1))) {
+            script11656();
+        };
+    } else if ((CC_FIND(int0, int1) == 1)) {
         script11656();
     };
     return;

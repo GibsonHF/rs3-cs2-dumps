@@ -5,7 +5,13 @@ function script19649(int0: number, int1: number): number {
     if ((int1 == 1)) {
         if ((varbitplayer_45588 >= 15)) {
             int2 = 13332 as graphic;
-            if ((((int0 == 1) && (varbitplayer_56778 == 1)) || ((int0 == 0) && (varbitplayer_56777 == 1)))) {
+            if ((int0 == 1)) {
+                if ((varbitplayer_56778 == 1)) {
+                    int3 = false;
+                } else if (((int0 == 0) && (varbitplayer_56777 == 1))) {
+                    int3 = false;
+                };
+            } else if (((int0 == 0) && (varbitplayer_56777 == 1))) {
                 int3 = false;
             };
         } else {
@@ -13,7 +19,13 @@ function script19649(int0: number, int1: number): number {
         };
     } else if ((varbitplayer_45588 >= 15)) {
         int2 = 13331 as graphic;
-        if ((((int0 == 1) && (varbitplayer_56778 == 1)) || ((int0 == 0) && (varbitplayer_56777 == 1)))) {
+        if ((int0 == 1)) {
+            if ((varbitplayer_56778 == 1)) {
+                int3 = false;
+            } else if (((int0 == 0) && (varbitplayer_56777 == 1))) {
+                int3 = false;
+            };
+        } else if (((int0 == 0) && (varbitplayer_56777 == 1))) {
             int3 = false;
         };
     } else {

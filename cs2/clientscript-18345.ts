@@ -1,66 +1,67 @@
 //
 function script18345(): void {
-    var int0 = -1 as dbrow;
+    var int0 = -1;
     var int1 = -1;
-    var int2 = comp(-1, 65535);
-    var int3 = comp(-1, 65535);
+    var int2 = -1;
+    var int3 = -1;
     var int4 = -1;
-    var int5 = comp(-1, 65535);
+    var int5 = -1;
     var int6 = -1;
-    var int7 = -1 as graphic;
-    var int8 = -1 as graphic;
-    var int9 = -1 as graphic;
+    var int7 = -1;
+    var int8 = -1;
+    var int9 = -1;
     var string0 = "";
     var string1 = "";
     var int10 = 0;
     var int11 = 0;
-    while ((++int11 <= 3)) {
+    int11 = (int11 + 1);
+    while ((int11 <= 3)) {
         switch (int11) {
             case 1: {
                 int0 = script17355(varbitplayer_54757);
-                int2 = comp(1271, 24);
+                int2 = 83296280;
                 int1 = 83296274;
-                int3 = comp(1271, 22);
+                int3 = 83296278;
                 int4 = 83296279;
-                int5 = comp(1271, 21);
+                int5 = 83296277;
                 int6 = 83296274;
                 break;
             }
             case 2: {
                 int0 = script17355(varbitplayer_54758);
-                int2 = comp(1271, 33);
+                int2 = 83296289;
                 int1 = 83296283;
-                int3 = comp(1271, 31);
+                int3 = 83296287;
                 int4 = 83296288;
-                int5 = comp(1271, 30);
+                int5 = 83296286;
                 int6 = 83296283;
                 break;
             }
             case 3: {
                 int0 = script17355(varbitplayer_54759);
-                int2 = comp(1271, 42);
+                int2 = 83296298;
                 int1 = 83296292;
-                int3 = comp(1271, 40);
+                int3 = 83296296;
                 int4 = 83296297;
-                int5 = comp(1271, 39);
+                int5 = 83296295;
                 int6 = 83296292;
                 break;
             }
             default: {
                 script12478(`Attempting to generate potion in incorrect position: tsotring. Setting up default potion.`);
                 int0 = script17355(1);
-                int2 = comp(1271, 33);
+                int2 = 83296289;
                 int1 = 83296283;
-                int3 = comp(1271, 31);
+                int3 = 83296287;
                 int4 = 83296288;
-                int5 = comp(1271, 30);
+                int5 = 83296286;
                 int6 = 83296283;
                 break;
             }
         };
-        if ((int0 == -1 as dbrow)) {
+        if ((int0 == -1)) {
             script12478(`Null potion option with potions: ${inttostring(varbitplayer_54757, 10)},${inttostring(varbitplayer_54758, 10)},${inttostring(varbitplayer_54759, 10)}, using default potion.`);
-            int0 = 12870 as dbrow;
+            int0 = 12870;
         };
         int10 = dbrow_getfield(int0, 1089616, 0);
         int7 = dbrow_getfield(int0, 1089584, 0);

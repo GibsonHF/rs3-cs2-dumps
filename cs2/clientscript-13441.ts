@@ -2,7 +2,7 @@
 function script13441(int0: number): void {
     var int1 = 122880075;
     var int2 = comp(1875, 110);
-    var int3 = 122880109;
+    var int3 = comp(1875, 109);
     var int4 = 122880097;
     var int5 = comp(1875, 96);
     var int6 = script13433(5);
@@ -42,7 +42,7 @@ function script13441(int0: number): void {
         CC_SETONVARTRANSMIT(callback(script13436, 5, 7002, 6991, 2));
     };
     IF_SETONTIMER(callback(script13442, int2, int3, int4, int15), int2);
-    IF_SETHIDE(0, 122880001);
+    IF_SETHIDE(false, comp(1875, 1));
     while ((int18 < int20)) {
         int21 = enum_getvalue(0, 33, int7, int18);
         int14 = item_getparam(int21, 6276);
@@ -61,8 +61,16 @@ function script13441(int0: number): void {
             int9 = (IF_GETWIDTH(int5) - (36 + 4));
         };
         if ((int21 != -1 as obj)) {
-            if ((((int19 / 10) >= (int17 - int12)) && (int11 == 0))) {
-                int23 = 28303;
+            if (((int19 / 10) >= (int17 - int12))) {
+                if ((int11 == 0)) {
+                    int23 = 28303;
+                } else {
+                    int23 = 28303;
+                    if (((int19 / 10) < (int17 - int12))) {
+                        int23 = 21363;
+                        int11 = 2;
+                    };
+                };
             } else {
                 int23 = 28303;
                 if (((int19 / 10) < (int17 - int12))) {

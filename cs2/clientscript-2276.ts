@@ -1,8 +1,8 @@
 //
 function script2276(int0: number, int1: number, int2: number): void {
     var string0 = enum_getvalue(0, 36, 2857 as cs2enum, int1);
-    var int3 = enum_getvalue(0, 0, 2858 as cs2enum, int1);
-    var string1 = enum_getvalue(0, 36, 2859 as cs2enum, int1);
+    var int3 = enum_getvalue(0, 0, 2858, int1);
+    var string1 = enum_getvalue(0, 36, 2859, int1);
     if ((int0 == 1)) {
         IF_SETTEXT(string0, int2);
         if ((int3 == 2)) {

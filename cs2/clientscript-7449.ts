@@ -1,7 +1,7 @@
 //
 function script7449(): void {
-    var int0 = 90832946;
+    var int0 = comp(1386, 50);
     IF_SETONTIMER(callback(script7458, 90832946, 90832901, 0, 0), int0);
-    IF_SETHIDE(0, 90832901);
+    IF_SETHIDE(false, comp(1386, 5));
     return;
 }

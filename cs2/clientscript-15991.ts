@@ -2,8 +2,10 @@
 function script15991(int0: number, int1: number): number {
     var int2 = 1;
     var int3 = script11803();
-    if (((((script15992(int0, int1) == 1) || (script15993(int0) == 1)) && (int0 <= int3)) && (int0 >= 0))) {
-        return int0;
+    if (((script15992(int0, int1) == 1) || (script15993(int0) == 1))) {
+        if (((int0 <= int3) && (int0 >= 0))) {
+            return int0;
+        };
     };
     while ((int2 <= int3)) {
         if ((script15993(int2) == 1)) {

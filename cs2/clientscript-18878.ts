@@ -19,8 +19,10 @@ function script18878(int0: number, int1: number, int2: number, int3: number): st
             break;
         }
     };
-    if ((((int1 == 0) || (int2 == 2)) && (int3 == 0))) {
-        string0 = strconcat(string0, "&utm_source=rs3-cal&utm_medium=in-game-link&utm_term=newspost");
+    if (((int1 == 0) || (int2 == 2))) {
+        if ((int3 == 0)) {
+            string0 = strconcat(string0, "&utm_source=rs3-cal&utm_medium=in-game-link&utm_term=newspost");
+        };
     };
     return string0;
 }

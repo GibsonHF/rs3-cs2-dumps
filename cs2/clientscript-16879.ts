@@ -1,7 +1,8 @@
 //
 function script16879(int0: number, int1: number, int2: number, int3: number): void {
     var int4 = (375 / 2);
-    if ((++int3 < int4)) {
+    var int3 = (int3 + 1);
+    if ((int3 < int4)) {
         IF_SETONTIMER(callback(script16879, int0, int1, int2, int3), int0);
         return;
     };

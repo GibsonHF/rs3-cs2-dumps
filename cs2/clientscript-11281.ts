@@ -9,7 +9,7 @@ function script11281(int0: number, int1: number): void {
     IF_SETONOP(callback(script10090), comp(1612, 19));
     CC_DELETEALL(int2);
     CC_DELETEALL(int3);
-    IF_SETOP(1, "", int3);
+    IF_SETOP(callback(script1), int3);
     var int4 = 0;
     while ((int4 < int0)) {
         CC_CREATE(int3, 5, int4);

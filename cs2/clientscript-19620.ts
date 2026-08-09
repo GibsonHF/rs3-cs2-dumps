@@ -19,7 +19,11 @@ function script19620(int0: number, int1: number, int2: number, int3: number, int
         if ((int3 == comp(-1, 65535))) {
             var int3 = int1;
         };
-        if ((((int4 == -1) && (IF_FIND(int3) == 1)) || (CC_FIND(int3, int4) == 1))) {
+        if ((int4 == -1)) {
+            if (((IF_FIND(int3) == 1) || (CC_FIND(int3, int4) == 1))) {
+                IF_SETSCROLLPOS(0, ((CC_GETY() + (CC_GETHEIGHT() / 2)) - (IF_GETHEIGHT(int1) / 2)), int1);
+            };
+        } else if ((CC_FIND(int3, int4) == 1)) {
             IF_SETSCROLLPOS(0, ((CC_GETY() + (CC_GETHEIGHT() / 2)) - (IF_GETHEIGHT(int1) / 2)), int1);
         };
     };

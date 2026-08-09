@@ -8,11 +8,10 @@ function script3281(): string {
         return string0;
     };
     var int2 = 1;
-    var int3 = -1 as dbrow;
+    var int3 = -1;
     while ((int2 <= int1)) {
         CC_SETPARAM_STRING(unk11050(1490960, int2, 3, 0), 1490944, 1, -1, 0);
-        dbrow_findnext();
-        int3 = stack();
+        int3 = dbrow_findnext();
         if ((int3 == -1)) {
             unk11016(`No clue has order index: ${inttostring(int2, 10)}. $total_clues_found was ${inttostring(int1, 10)}.`);
         } else {

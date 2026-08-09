@@ -11,8 +11,8 @@ function script18130(): void {
         IF_SETTEXT("Hero Pass Missions", comp(1345, 26));
         IF_SETTEXT(string0, comp(1345, 25));
         IF_SETGRAPHIC(int0, comp(1345, 24));
-        IF_SETONMOUSEREPEAT(callback(script8799, string1, -2147483645, -2147483643), 88145943);
-        IF_SETONMOUSELEAVE(callback(script8805), 88145943);
+        IF_SETONMOUSEREPEAT(callback(script8799, string1, -2147483645, -2147483643), comp(1345, 23));
+        IF_SETONMOUSELEAVE(callback(script8805), comp(1345, 23));
     } else {
         [int1, string0, string1, int0] = script18237();
         if ((int0 == -1 as graphic)) {
@@ -26,8 +26,8 @@ function script18130(): void {
             IF_SETTEXT("Skill", comp(1345, 25));
         };
         IF_SETGRAPHIC(int0, comp(1345, 24));
-        IF_SETONMOUSEREPEAT(callback(script8799, string1, -2147483645, -2147483643), 88145943);
-        IF_SETONMOUSELEAVE(callback(script8805), 88145943);
+        IF_SETONMOUSEREPEAT(callback(script8799, string1, -2147483645, -2147483643), comp(1345, 23));
+        IF_SETONMOUSELEAVE(callback(script8805), comp(1345, 23));
     };
     return;
 }

@@ -95,26 +95,72 @@ function script3267(): void {
                 varclient_1189 = -7;
             };
             IF_SETTRANS((IF_GETTRANS(comp(933, 19)) + varclient_1189), comp(933, 19));
-        } else if (((varclient_1186 >= 350) && (varclient_1186 < 400))) {
-            if ((varclient_1186 == 350)) {
-                IF_SETTRANS(255, comp(933, 19));
+        } else if ((varclient_1186 >= 350)) {
+            if ((varclient_1186 < 400)) {
+                if ((varclient_1186 == 350)) {
+                    IF_SETTRANS(255, comp(933, 19));
+                };
+                if ((IF_GETTRANS(comp(933, 306)) <= 31)) {
+                    varclient_1189 = 7;
+                } else if ((IF_GETTRANS(comp(933, 306)) > 220)) {
+                    varclient_1189 = -7;
+                };
+                IF_SETTRANS((IF_GETTRANS(comp(933, 306)) + varclient_1189), comp(933, 306));
+            } else if ((varclient_1186 >= 400)) {
+                if ((varclient_1186 < 1350)) {
+                    if ((varclient_1186 == 400)) {
+                        IF_SETTRANS(255, comp(933, 306));
+                    };
+                    if ((IF_GETTRANS(comp(933, 42)) <= 31)) {
+                        varclient_1189 = 7;
+                    } else if ((IF_GETTRANS(comp(933, 42)) > 220)) {
+                        varclient_1189 = -7;
+                    };
+                    IF_SETTRANS((IF_GETTRANS(comp(933, 42)) + varclient_1189), comp(933, 42));
+                } else if (((varclient_1186 >= 1350) && (varclient_1186 < 1600))) {
+                    if ((varclient_1186 == 1350)) {
+                        IF_SETTRANS(255, comp(933, 42));
+                    };
+                    if ((IF_GETTRANS(comp(933, 306)) <= 31)) {
+                        varclient_1189 = 7;
+                    } else if ((IF_GETTRANS(comp(933, 306)) > 220)) {
+                        varclient_1189 = -7;
+                    };
+                    IF_SETTRANS((IF_GETTRANS(comp(933, 306)) + varclient_1189), comp(933, 306));
+                };
+            } else if (((varclient_1186 >= 1350) && (varclient_1186 < 1600))) {
+                if ((varclient_1186 == 1350)) {
+                    IF_SETTRANS(255, comp(933, 42));
+                };
+                if ((IF_GETTRANS(comp(933, 306)) <= 31)) {
+                    varclient_1189 = 7;
+                } else if ((IF_GETTRANS(comp(933, 306)) > 220)) {
+                    varclient_1189 = -7;
+                };
+                IF_SETTRANS((IF_GETTRANS(comp(933, 306)) + varclient_1189), comp(933, 306));
             };
-            if ((IF_GETTRANS(comp(933, 306)) <= 31)) {
-                varclient_1189 = 7;
-            } else if ((IF_GETTRANS(comp(933, 306)) > 220)) {
-                varclient_1189 = -7;
+        } else if ((varclient_1186 >= 400)) {
+            if ((varclient_1186 < 1350)) {
+                if ((varclient_1186 == 400)) {
+                    IF_SETTRANS(255, comp(933, 306));
+                };
+                if ((IF_GETTRANS(comp(933, 42)) <= 31)) {
+                    varclient_1189 = 7;
+                } else if ((IF_GETTRANS(comp(933, 42)) > 220)) {
+                    varclient_1189 = -7;
+                };
+                IF_SETTRANS((IF_GETTRANS(comp(933, 42)) + varclient_1189), comp(933, 42));
+            } else if (((varclient_1186 >= 1350) && (varclient_1186 < 1600))) {
+                if ((varclient_1186 == 1350)) {
+                    IF_SETTRANS(255, comp(933, 42));
+                };
+                if ((IF_GETTRANS(comp(933, 306)) <= 31)) {
+                    varclient_1189 = 7;
+                } else if ((IF_GETTRANS(comp(933, 306)) > 220)) {
+                    varclient_1189 = -7;
+                };
+                IF_SETTRANS((IF_GETTRANS(comp(933, 306)) + varclient_1189), comp(933, 306));
             };
-            IF_SETTRANS((IF_GETTRANS(comp(933, 306)) + varclient_1189), comp(933, 306));
-        } else if (((varclient_1186 >= 400) && (varclient_1186 < 1350))) {
-            if ((varclient_1186 == 400)) {
-                IF_SETTRANS(255, comp(933, 306));
-            };
-            if ((IF_GETTRANS(comp(933, 42)) <= 31)) {
-                varclient_1189 = 7;
-            } else if ((IF_GETTRANS(comp(933, 42)) > 220)) {
-                varclient_1189 = -7;
-            };
-            IF_SETTRANS((IF_GETTRANS(comp(933, 42)) + varclient_1189), comp(933, 42));
         } else if (((varclient_1186 >= 1350) && (varclient_1186 < 1600))) {
             if ((varclient_1186 == 1350)) {
                 IF_SETTRANS(255, comp(933, 42));
@@ -267,29 +313,52 @@ function script3267(): void {
                 if ((varclient_1186 == 475)) {
                     SOUND_SYNTH(32430, 1, 0);
                 };
-            } else if (((varclient_1186 < ((((((((((((int9 + int10) + int11) + int12) + int13) + int14) + int15) + int16) + int17) + int18) + int19) + int20) + ((int21 / 3) * 2))) && (varclient_1188 > 1))) {
-                if (((varclient_1186 == ((((((((((((int9 + int10) + int11) + int12) + int13) + int14) + int15) + int16) + int17) + int18) + int19) + int20) + ((int21 / 3) * 2))) && (varclient_1188 > 1))) {
-                    SOUND_SYNTH(27367, 1, 0);
-                };
-                int0 = (10000 + 0);
-                int1 = (10000 + 25000);
-                if ((int8 == 33)) {
-                    varclient_1270 = int0;
-                    SOUND_SYNTH(32430, 1, 0);
-                };
-                IF_SETTRANS(MIN(200, (((int8 / 2) * 255) / 100)), comp(933, 44));
-                IF_SETTRANS(MIN(200, (255 - ((int8 * 255) / 100))), comp(933, 45));
-                IF_SETTEXT(`+${inttostring((((SCALE(int8, 100, (int1 - 10000)) / 2) + 50) / 100), 10)}%`, comp(933, 51));
-                if (((((SCALE(int8, 100, (int1 - 10000)) / 2) + 50) / 100) != varclient_1270)) {
-                    SOUND_SYNTH(32188, 1, 0);
-                    varclient_1270 = (((SCALE(int8, 100, (int1 - 10000)) / 2) + 50) / 100);
-                };
-                IF_SETTEXT(`${inttostring((((int0 + (SCALE(int8, 100, (int1 - int0)) / 2)) + 50) / 100), 10)}%`, comp(933, 95));
-                int46 = (8192 + (((int1 - 10000) * 8192) / 60000));
-                int46 = (8192 - (((int46 - 8192) * (83 - int8)) / 83));
-                IF_SETSIZE(int46, 16384, 2, 2, comp(933, 276));
-                if ((varclient_1186 == 525)) {
-                    SOUND_SYNTH(32430, 1, 0);
+            } else if ((varclient_1186 < ((((((((((((int9 + int10) + int11) + int12) + int13) + int14) + int15) + int16) + int17) + int18) + int19) + int20) + ((int21 / 3) * 2)))) {
+                if ((varclient_1188 > 1)) {
+                    if (((varclient_1186 == ((((((((((((int9 + int10) + int11) + int12) + int13) + int14) + int15) + int16) + int17) + int18) + int19) + int20) + ((int21 / 3) * 2))) && (varclient_1188 > 1))) {
+                        SOUND_SYNTH(27367, 1, 0);
+                    };
+                    int0 = (10000 + 0);
+                    int1 = (10000 + 25000);
+                    if ((int8 == 33)) {
+                        varclient_1270 = int0;
+                        SOUND_SYNTH(32430, 1, 0);
+                    };
+                    IF_SETTRANS(MIN(200, (((int8 / 2) * 255) / 100)), comp(933, 44));
+                    IF_SETTRANS(MIN(200, (255 - ((int8 * 255) / 100))), comp(933, 45));
+                    IF_SETTEXT(`+${inttostring((((SCALE(int8, 100, (int1 - 10000)) / 2) + 50) / 100), 10)}%`, comp(933, 51));
+                    if (((((SCALE(int8, 100, (int1 - 10000)) / 2) + 50) / 100) != varclient_1270)) {
+                        SOUND_SYNTH(32188, 1, 0);
+                        varclient_1270 = (((SCALE(int8, 100, (int1 - 10000)) / 2) + 50) / 100);
+                    };
+                    IF_SETTEXT(`${inttostring((((int0 + (SCALE(int8, 100, (int1 - int0)) / 2)) + 50) / 100), 10)}%`, comp(933, 95));
+                    int46 = (8192 + (((int1 - 10000) * 8192) / 60000));
+                    int46 = (8192 - (((int46 - 8192) * (83 - int8)) / 83));
+                    IF_SETSIZE(int46, 16384, 2, 2, comp(933, 276));
+                    if ((varclient_1186 == 525)) {
+                        SOUND_SYNTH(32430, 1, 0);
+                    };
+                } else if ((varclient_1188 > 2)) {
+                    int0 = (10000 + 25000);
+                    int1 = (10000 + 50000);
+                    if ((int8 == 66)) {
+                        varclient_1270 = int0;
+                        SOUND_SYNTH(32430, 1, 0);
+                    };
+                    IF_SETTRANS(MIN(200, (((int8 / 3) * 255) / 100)), comp(933, 45));
+                    IF_SETTRANS(MIN(200, (255 - ((int8 * 255) / 100))), comp(933, 46));
+                    IF_SETTEXT(`+${inttostring((((SCALE(int8, 100, (int1 - 10000)) / 3) + 50) / 100), 10)}%`, comp(933, 51));
+                    if (((((SCALE(int8, 100, (int1 - 10000)) / 3) + 50) / 100) != varclient_1270)) {
+                        SOUND_SYNTH(32188, 1, 0);
+                        varclient_1270 = (((SCALE(int8, 100, (int1 - 10000)) / 3) + 50) / 100);
+                    };
+                    IF_SETTEXT(`${inttostring((((int0 + (SCALE(int8, 100, (int1 - int0)) / 3)) + 50) / 100), 10)}%`, comp(933, 95));
+                    int46 = (8192 + (((int1 - 10000) * 8192) / 60000));
+                    int46 = (8192 - (((int46 - 8192) * (83 - int8)) / 83));
+                    IF_SETSIZE(int46, 16384, 2, 2, comp(933, 276));
+                    if ((varclient_1186 == 575)) {
+                        SOUND_SYNTH(32430, 1, 0);
+                    };
                 };
             } else if ((varclient_1188 > 2)) {
                 int0 = (10000 + 25000);

@@ -22,6 +22,6 @@ function script10031(int0: number): void {
     CC_SETCOLOUR(16777215);
     CC_SETPOSITION(0, 2, 2, 2);
     CC_SETTEXTALIGN(1, 1, 0);
-    CC_SETTEXTFONT(56);
+    CC_SETTEXTFONT(56 as fontmetrics);
     return;
 }

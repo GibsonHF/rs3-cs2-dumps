@@ -6,8 +6,8 @@ function script11964(int0: number): void {
     };
     if ((IF_GETTRANS(int0) == 255)) {
         IF_SETONTIMER(callback(), int0);
-        IF_SETHIDE(1, int0);
-        IF_SETHIDE(1, 111673353);
+        IF_SETHIDE(true, int0);
+        IF_SETHIDE(true, comp(1704, 9));
         return;
     };
     if ((MODULO(varclient_5111, 2) == 0)) {

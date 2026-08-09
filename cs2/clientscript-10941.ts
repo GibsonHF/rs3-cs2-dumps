@@ -26,8 +26,12 @@ function script10941(): void {
         };
         int0 = (int0 + 1);
     };
-    if (((int1 == 0) && (IF_GETHIDE(comp(907, 186)) == true))) {
-        IF_SETHIDE(false, comp(907, 187));
+    if ((int1 == 0)) {
+        if ((IF_GETHIDE(comp(907, 186)) == true)) {
+            IF_SETHIDE(false, comp(907, 187));
+        } else {
+            IF_SETHIDE(true, comp(907, 187));
+        };
     } else {
         IF_SETHIDE(true, comp(907, 187));
     };

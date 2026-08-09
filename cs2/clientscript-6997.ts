@@ -46,17 +46,27 @@ function script6997(int0: number, int1: number, int2: number, int3: number, int4
         script7033();
         if (((int6 == 0) && (script792() == 0))) {
             int14 = script7000(int2, int3, int10);
-            if (((item_getparam(int2, 3921) == 1) && ((int14 > 3) || (script16476() == 1)))) {
-                CC_SETOPTKEY(int7, int8);
-                CC_SETOPTKEYRATE(6, 50);
+            if ((item_getparam(int2, 3921) == 1)) {
+                if (((int14 > 3) || (script16476() == 1))) {
+                    CC_SETOPTKEY(int7, int8);
+                    CC_SETOPTKEYRATE(6, 50);
+                } else {
+                    CC_SETOPKEY(int14, int7, int8, -1, 0, -1, 0, -1, 0, -1, 0);
+                    CC_SETOPKEYRATE(int14, 6, 50);
+                };
             } else {
                 CC_SETOPKEY(int14, int7, int8, -1, 0, -1, 0, -1, 0, -1, 0);
                 CC_SETOPKEYRATE(int14, 6, 50);
             };
         };
-        if (((varbitplayer_1892 == 0) && (varbitplayer_38842 == 0))) {
-            CC_SETONMOUSEREPEAT(callback(script5495, int2));
-            CC_SETONMOUSELEAVE(callback(script5495, -1));
+        if ((varbitplayer_1892 == 0)) {
+            if ((varbitplayer_38842 == 0)) {
+                CC_SETONMOUSEREPEAT(callback(script5495, int2));
+                CC_SETONMOUSELEAVE(callback(script5495, -1));
+            } else {
+                CC_SETONMOUSEREPEAT(callback());
+                CC_SETONMOUSELEAVE(callback());
+            };
         } else {
             CC_SETONMOUSEREPEAT(callback());
             CC_SETONMOUSELEAVE(callback());

@@ -5,6 +5,6 @@ function script5404(int0: number, string0: string): void {
     IF_SETHIDE(false, comp(1172, 2));
     IF_SETHIDE(true, comp(1172, 5));
     IF_SETHIDE(true, comp(1172, 7));
-    IF_SETONTIMER(callback(script5405, 1, 76808194, int0), 76808194);
+    IF_SETONTIMER(callback(script5405, 1, 76808194, int0), comp(1172, 2));
     return;
 }

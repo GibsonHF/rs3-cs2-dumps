@@ -97,12 +97,12 @@ function script13005(int0: number): void {
             CC_DELETEALL(comp(1098, 132));
             IF_CLEAROPS(comp(1098, 133));
             IF_SETONOP(callback(), comp(1098, 133));
-            if ((int4 == -1)) {
+            if ((int4 == -1 as cs2enum)) {
                 script13971(71958660, -1, 28619, "No subcategories.", 1);
             } else if ((script13007(varplayer_2047) == 0)) {
-                script3376(71958660, comp(1098, 133), 0, 0, IF_GETWIDTH(comp(1098, 133)), -1, int4, -1, ENUM_GETOUTPUTCOUNT(int4), "Select the sub type of event.", script13007(varplayer_2047), 0, 0, "Select", 0);
+                script3376(71958660, 71958661, 0, 0, IF_GETWIDTH(comp(1098, 133)), -1, int4, -1, ENUM_GETOUTPUTCOUNT(int4), "Select the sub type of event.", script13007(varplayer_2047), 0, 0, "Select", 0);
             } else {
-                script10428(71958660, comp(1098, 133), int4, ENUM_GETOUTPUTCOUNT(int4), "Select the sub type of event.", script13007(varplayer_2047), int5);
+                script10428(71958660, 71958661, int4, ENUM_GETOUTPUTCOUNT(int4), "Select the sub type of event.", script13007(varplayer_2047), int5);
             };
             break;
         }

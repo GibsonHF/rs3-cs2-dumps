@@ -41,6 +41,7 @@ function script16373(int0: number): number {
             return varbitplayer_50866;
         }
         case 13: {
+            break;
         }
         default: {
             script12478(`Invalid task, id ${inttostring(int0, 10)}.`);

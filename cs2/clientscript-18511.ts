@@ -20,8 +20,12 @@ function script18511(int0: number, int1: number): void {
         int5 = script18493();
         int6 = script15487((int1 + 1));
         if ((int6 != int5)) {
-            if (((int6 != -1) && (struct_getparam(int6, 9075) != -1 as dbrow))) {
-                string0 = "Relog to refresh!";
+            if ((int6 != -1)) {
+                if ((struct_getparam(int6, 9075) != -1 as dbrow)) {
+                    string0 = "Relog to refresh!";
+                } else {
+                    string0 = "Reward Track finished!";
+                };
             } else {
                 string0 = "Reward Track finished!";
             };

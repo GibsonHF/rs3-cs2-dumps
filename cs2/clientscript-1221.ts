@@ -54,7 +54,15 @@ function script1221(int0: number, int1: number): void {
                     return;
                 }
             };
-            if (((((STRING_LENGTH(varclient_2576) >= 320) && (int0 != 85)) && (int0 != 101)) || (STRING_LENGTH(REMOVETAGS(APPEND_CHAR("", int1))) == 0))) {
+            if ((STRING_LENGTH(varclient_2576) >= 320)) {
+                if ((int0 != 85)) {
+                    if (((int0 != 101) || (STRING_LENGTH(REMOVETAGS(APPEND_CHAR("", int1))) == 0))) {
+                        return;
+                    };
+                } else if ((STRING_LENGTH(REMOVETAGS(APPEND_CHAR("", int1))) == 0)) {
+                    return;
+                };
+            } else if ((STRING_LENGTH(REMOVETAGS(APPEND_CHAR("", int1))) == 0)) {
                 return;
             };
             [varclient_2576, varclient_1099] = script802(varclient_1099, varclient_2576, 0, int0, int1);
@@ -150,7 +158,7 @@ function script1221(int0: number, int1: number): void {
                 return;
             };
             [varclient_4192, varclient_1099] = script802(varclient_1099, varclient_4192, 1, int0, int1);
-            IF_SETTEXT(varclient_4192, comp(744, 165));
+            IF_SETTEXT(varclient_4192, 48758949);
             script3237(48758948, 48758949, 48758950, varclient_4192, 114, 212);
             script15700();
             return;
@@ -193,7 +201,15 @@ function script1221(int0: number, int1: number): void {
                     return;
                 }
             };
-            if (((((STRING_LENGTH(varclient_2576) >= 320) && (int0 != 85)) && (int0 != 101)) || (STRING_LENGTH(REMOVETAGS(APPEND_CHAR("", int1))) == 0))) {
+            if ((STRING_LENGTH(varclient_2576) >= 320)) {
+                if ((int0 != 85)) {
+                    if (((int0 != 101) || (STRING_LENGTH(REMOVETAGS(APPEND_CHAR("", int1))) == 0))) {
+                        return;
+                    };
+                } else if ((STRING_LENGTH(REMOVETAGS(APPEND_CHAR("", int1))) == 0)) {
+                    return;
+                };
+            } else if ((STRING_LENGTH(REMOVETAGS(APPEND_CHAR("", int1))) == 0)) {
                 return;
             };
             [varclient_6896, varclient_1099] = script802(varclient_1099, varclient_6896, 0, int0, int1);
@@ -226,9 +242,9 @@ function script1221(int0: number, int1: number): void {
         }
         case 18: {
             if ((int0 == 13)) {
-                if ((IF_GETHIDE(comp(744, 301)) == true)) {
+                if ((IF_GETHIDE(comp(744, 301)) == 1)) {
                     script3131();
-                } else if ((IF_GETHIDE(comp(744, 301)) == false)) {
+                } else if ((IF_GETHIDE(comp(744, 301)) == 0)) {
                     script2465();
                 } else {
                     script3133(0);

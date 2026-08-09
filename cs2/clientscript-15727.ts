@@ -11,9 +11,9 @@ function script15727(int0: number): void {
     var int7 = 0;
     if ((IF_GETTOP() == 906)) {
         if ((script248() == 1)) {
-            int3 = 14601 as cs2enum;
+            int3 = 14601;
         } else {
-            int3 = 14600 as cs2enum;
+            int3 = 14600;
         };
         int5 = ENUM_GETOUTPUTCOUNT(int3);
     };
@@ -32,13 +32,23 @@ function script15727(int0: number): void {
         string0 = enum_getvalue(0, 36, 15465 as cs2enum, int8);
         int9 = script17963(int8);
         SHOP_GETINDEXFORCATEGORYID(int9);
-        int10 = stack();
+        int10 = [];
         stack(int10);
         if ((SHOP_GETPRODUCTCOUNT() > 0)) {
-            if (((int0 != int8) && ((script15728(int9) == 1) || (script16140(int9) == 1)))) {
-                script20619(54263812, int4, string0);
-                CC_SETONOP(callback(script15874, int8));
-                CC_BUTTON_SETTOGGLED(0);
+            if ((int0 != int8)) {
+                if (((script15728(int9) == 1) || (script16140(int9) == 1))) {
+                    script20619(54263812, int4, string0);
+                    CC_SETONOP(callback(script15874, int8));
+                    CC_BUTTON_SETTOGGLED(false);
+                } else {
+                    script20618(54263812, int4, string0);
+                    CC_SETONOP(callback(script15874, int8));
+                    if ((int0 == int8)) {
+                        CC_BUTTON_SETTOGGLED(true);
+                    } else {
+                        CC_BUTTON_SETTOGGLED(false);
+                    };
+                };
             } else {
                 script20618(54263812, int4, string0);
                 CC_SETONOP(callback(script15874, int8));

@@ -3,8 +3,10 @@ function script6465(int0: number, int1: number, int2: number): void {
     if ((varbitplayer_40127 == 1)) {
         return;
     };
-    if ((((GENDER() == 1) && (int0 == 1)) && ((int1 == 3) || (int1 == 4)))) {
-        return;
+    if (((GENDER() == 1) && (int0 == 1))) {
+        if (((int1 == 3) || (int1 == 4))) {
+            return;
+        };
     };
     var int3 = enum_getvalue(0, 9, 5960 as cs2enum, int1);
     var int4 = enum_getvalue(0, 9, 5961 as cs2enum, int1);
@@ -68,6 +70,6 @@ function script6465(int0: number, int1: number, int2: number): void {
     CC_CREATE(int3, 5, IF_GETNEXTSUBID(int3));
     CC_SETSIZE(12, 19, 0, 0);
     CC_SETPOSITION(10, 0, 2, 1);
-    IF_SETHIDE(0, int3);
+    IF_SETHIDE(false, int3);
     return;
 }

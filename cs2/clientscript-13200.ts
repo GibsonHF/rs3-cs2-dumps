@@ -1,12 +1,12 @@
 //
-function script13200(int0: number, int1: number): [number, string, number, number, number, number] {
+function script13200(int0: number, int1: number): [number, number, number, number, number, string] {
     var int2 = enum_getvalue(0, 0, int0, int1);
     if ((int2 < 0)) {
-        return [0, "", -1 as graphic, -1, -1, -1];
+        return [0, "", -1, -1, -1, -1];
     };
     var int3 = 0;
     var string0 = "";
-    var int4 = -1 as graphic;
+    var int4 = -1;
     var int5 = -1;
     var int6 = -1;
     var int7 = -1;
@@ -19,7 +19,7 @@ function script13200(int0: number, int1: number): [number, string, number, numbe
     switch (int8) {
         case 0: {
             if ((script8292(1, -1) == 0)) {
-                return [0, "", -1 as graphic, -1, -1, -1];
+                return [0, "", -1, -1, -1, -1];
             };
             switch (varclient_5938) {
                 case 1: {
@@ -29,60 +29,60 @@ function script13200(int0: number, int1: number): [number, string, number, numbe
                 }
                 case 2: {
                     if ((int9 != 2)) {
-                        return [0, "", -1 as graphic, -1, -1, -1];
+                        return [0, "", -1, -1, -1, -1];
                     };
                     int6 = -1;
                     break;
                 }
                 case 3: {
                     if ((int9 != 4)) {
-                        return [0, "", -1 as graphic, -1, -1, -1];
+                        return [0, "", -1, -1, -1, -1];
                     };
                     int6 = -1;
                     break;
                 }
                 case 4: {
                     if ((int9 != 1)) {
-                        return [0, "", -1 as graphic, -1, -1, -1];
+                        return [0, "", -1, -1, -1, -1];
                     };
                     int6 = -1;
                     break;
                 }
                 case 5: {
                     if ((int9 != 3)) {
-                        return [0, "", -1 as graphic, -1, -1, -1];
+                        return [0, "", -1, -1, -1, -1];
                     };
                     int6 = -1;
                     break;
                 }
                 case 6: {
                     if ((int9 != 5)) {
-                        return [0, "", -1 as graphic, -1, -1, -1];
+                        return [0, "", -1, -1, -1, -1];
                     };
                     int6 = -1;
                     break;
                 }
                 default: {
-                    return [0, "", -1 as graphic, -1, -1, -1];
+                    return [0, "", -1, -1, -1, -1];
                 }
             };
             if ((int11 != 0)) {
                 if ((int6 == 0)) {
-                    return [0, "", -1 as graphic, -1, -1, -1];
+                    return [0, "", -1, -1, -1, -1];
                 };
                 int6 = script13214(int8, int9, int10, 0);
                 if ((int6 == 0)) {
-                    return [0, "", -1 as graphic, -1, -1, -1];
+                    return [0, "", -1, -1, -1, -1];
                 };
                 int6 = script13214(int8, int9, int10, int11);
                 int3 = 1;
                 string0 = enum_getvalue(0, 36, 12194 as cs2enum, int11);
                 int5 = (int5 + 2);
                 int7 = script13201(int8, int9, int10, int11);
-                int4 = enum_getvalue(0, 23, 12195 as cs2enum, int11);
+                int4 = enum_getvalue(0, 23, 12195, int11);
             } else if ((int10 != 99)) {
                 if ((int6 == 0)) {
-                    return [0, "", -1 as graphic, -1, -1, -1];
+                    return [0, "", -1, -1, -1, -1];
                 };
                 int6 = script13214(int8, int9, int10, int11);
                 int3 = 1;
@@ -96,29 +96,29 @@ function script13200(int0: number, int1: number): [number, string, number, numbe
                 int7 = script13201(int8, int9, int10, int11);
                 if ((int9 == 2)) {
                     if ((int10 == 20)) {
-                        int4 = 24473 as graphic;
+                        int4 = 24473;
                     } else {
-                        int4 = enum_getvalue(0, 23, 9995 as cs2enum, int10);
+                        int4 = enum_getvalue(0, 23, 9995, int10);
                     };
                 };
             } else {
                 int3 = 1;
-                string0 = enum_getvalue(0, 36, 12190 as cs2enum, int9);
+                string0 = enum_getvalue(0, 36, 12190, int9);
                 int7 = script13201(int8, int9, int10, int11);
-                int4 = enum_getvalue(0, 23, 9996 as cs2enum, int9);
+                int4 = enum_getvalue(0, 23, 9996, int9);
             };
             break;
         }
         case 1:
         case 2: {
             if ((((int8 == 1) && (int9 != 0)) && (TESTBIT(script13250(), int9) == 0))) {
-                return [0, "", -1 as graphic, -1, -1, -1];
+                return [0, "", -1, -1, -1, -1];
             };
             int6 = script13214(int8, 0, 99, 0);
             int5 = 0;
             if ((int9 != 0)) {
                 if ((int6 == 0)) {
-                    return [0, "", -1 as graphic, -1, -1, -1];
+                    return [0, "", -1, -1, -1, -1];
                 };
                 int6 = script13214(int8, int9, int10, int11);
                 int3 = 1;
@@ -133,7 +133,7 @@ function script13200(int0: number, int1: number): [number, string, number, numbe
                 int7 = script13201(int8, int9, int10, int11);
             } else {
                 int3 = 1;
-                string0 = enum_getvalue(0, 36, 12185 as cs2enum, int8);
+                string0 = enum_getvalue(0, 36, 12185, int8);
                 int7 = script13201(int8, int9, int10, int11);
             };
             break;
@@ -149,9 +149,9 @@ function script13200(int0: number, int1: number): [number, string, number, numbe
                     int3 = 1;
                     string0 = "Alphabetical";
                     if ((varbitclient_35141 == 0)) {
-                        int4 = 29466 as graphic;
+                        int4 = 29466;
                     } else {
-                        int4 = 29467 as graphic;
+                        int4 = 29467;
                     };
                     break;
                 }
@@ -159,9 +159,9 @@ function script13200(int0: number, int1: number): [number, string, number, numbe
                     int3 = 1;
                     string0 = "Newest First";
                     if ((varbitclient_35141 == 2)) {
-                        int4 = 29466 as graphic;
+                        int4 = 29466;
                     } else {
-                        int4 = 29467 as graphic;
+                        int4 = 29467;
                     };
                     break;
                 }

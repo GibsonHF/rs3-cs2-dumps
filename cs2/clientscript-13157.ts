@@ -7,7 +7,9 @@ function script13157(int0: number): void {
             return;
         };
         if ((int1 > 0)) {
-            cc_setparam(5946, --int1);
+            stack(5946);
+            int1 = (int1 - 1);
+            cc_setparam(int1);
             return;
         };
         if ((varbitclient_35134 == 0)) {

@@ -9,6 +9,6 @@ function script19157(int0: number): void {
     IF_SETTRANS(0, comp(1288, 22));
     IF_SETHIDE(false, int1);
     IF_SETONTIMER(callback(script16735, 1, 0, -2147483645), int1);
-    IF_SETONTIMER(callback(script16773), 84410390);
+    IF_SETONTIMER(callback(script16773), comp(1288, 22));
     return;
 }

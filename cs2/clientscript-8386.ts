@@ -23,16 +23,41 @@ function script8386(int0: number, int1: number, int2: number, int3: number, int4
     if (((int10 < 16) && (int10 >= 0))) {
         int9 = 0;
         if ((int5 != -1)) {
-            if (((int5 == 1) || ((int8 >= 0) && (int8 < int10)))) {
+            if ((int5 == 1)) {
                 int8 = 0;
                 if (((int1 - int10) >= int2)) {
                     int9 = int10;
                 } else {
                     int10 = 0;
                 };
-            } else if (((int8 >= 0) && ((int1 - int10) >= int2))) {
-                int8 = 0;
-                int9 = int10;
+            } else if ((int8 >= 0)) {
+                if ((int8 < int10)) {
+                    int8 = 0;
+                    if (((int1 - int10) >= int2)) {
+                        int9 = int10;
+                    } else {
+                        int10 = 0;
+                    };
+                } else if ((int8 >= 0)) {
+                    if (((int1 - int10) >= int2)) {
+                        int8 = 0;
+                        int9 = int10;
+                    } else {
+                        int9 = 0;
+                        int8 = int10;
+                    };
+                } else {
+                    int9 = 0;
+                    int8 = int10;
+                };
+            } else if ((int8 >= 0)) {
+                if (((int1 - int10) >= int2)) {
+                    int8 = 0;
+                    int9 = int10;
+                } else {
+                    int9 = 0;
+                    int8 = int10;
+                };
             } else {
                 int9 = 0;
                 int8 = int10;

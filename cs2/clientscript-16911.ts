@@ -18,12 +18,12 @@ function script16911(int0: number, int1: number, int2: number, int3: number): vo
             script16905(int2);
         };
         if ((int3 == 0)) {
-            IF_SETONTIMER(callback(script16910, (int0 + 1), int1, int2), 59441156);
+            IF_SETONTIMER(callback(script16910, (int0 + 1), int1, int2), comp(907, 4));
             return;
         };
     };
     script16908(1);
     IF_SETONTIMER(callback(), comp(907, 4));
-    IF_SETONTIMER(callback(script16909, int2, 0), 59441154);
+    IF_SETONTIMER(callback(script16909, int2, 0), comp(907, 2));
     return;
 }

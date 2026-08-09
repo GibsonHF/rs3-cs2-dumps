@@ -1,5 +1,5 @@
 //
-function script18134(int0: number, int1: number): [number, string, number, string] {
+function script18134(int0: number, int1: number): [number, number, string, string] {
     var string0 = "1 token";
     var string1 = "2 tokens";
     var string2 = " When you Claim Rewards, you will get this challenge's rewards, including XP in this challenge's skill.";

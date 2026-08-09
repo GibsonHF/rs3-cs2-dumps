@@ -16,22 +16,15 @@ function script11701(int0: number, int1: number, int2: number, int3: number, int
     var int8 = 0;
     var int9 = 0;
     var int10 = -1;
-    var int11 = -1 as dbrow;
+    var int11 = -1;
     if ((STRING_LENGTH(string0) >= 2)) {
-        stack(1556480);
-        stack(string0);
-        stack(WORLDMAP_LISTELEMENT_START(stack(), 3, 2));
-        stack(1556496);
-        stack(string0);
-        int10 = unk11018(stack(), WORLDMAP_LISTELEMENT_START(stack(), 3, 2));
+        int10 = unk11018(WORLDMAP_LISTELEMENT_START(1556480, string0, 3, 2), WORLDMAP_LISTELEMENT_START(1556496, string0, 3, 2));
         unk11023(int10, 1556480, 1);
-        dbrow_findnext();
-        int11 = stack();
+        int11 = dbrow_findnext();
         if ((int11 != -1)) {
-            while ((int11 != -1 as dbrow)) {
+            while ((int11 != -1)) {
                 [int6, int7, int8] = script20905(dbrow_getfield(int11, 1556512, 0), int0, int1, int2, int5, int3, int4, 1, int7, int6, int8);
-                dbrow_findnext();
-                int11 = stack();
+                int11 = dbrow_findnext();
                 int9 = 1;
             };
         };

@@ -1,6 +1,6 @@
 //
 function script14844(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number): void {
-    if ((int5 != -1 as dbrow)) {
+    if ((int5 != -1)) {
         if ((int0 != comp(-1, 65535))) {
             IF_SETGRAPHIC(dbrow_getfield(int5, 385152, 0), int0);
         };
@@ -12,7 +12,7 @@ function script14844(int0: number, int1: number, int2: number, int3: number, int
         if ((int3 != comp(-1, 65535))) {
             IF_SETTEXT(dbrow_getfield(int5, 385040, 0), int3);
         };
-        if ((int4 != comp(-1, 65535))) {
+        if ((int4 != -1)) {
             IF_SETTEXT(script14610(int5), int4);
         };
     } else {
@@ -28,7 +28,7 @@ function script14844(int0: number, int1: number, int2: number, int3: number, int
         if ((int3 != comp(-1, 65535))) {
             IF_SETTEXT("No Relic Power", int3);
         };
-        if ((int4 != comp(-1, 65535))) {
+        if ((int4 != -1)) {
             IF_SETTEXT("", int4);
         };
     };

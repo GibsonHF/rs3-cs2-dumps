@@ -61,8 +61,8 @@ function script7304(): void {
         [int5, int6, int7] = script3005(677, varbitplayer_17147);
         string0 = `${inttostring(int6, 10)}/${inttostring(int7, 10)}`;
         script4542(int5, 83624052, 83624057);
-        IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -1), 83624046);
-        IF_SETHIDE(1, 83624058);
+        IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -1), comp(1276, 110));
+        IF_SETHIDE(true, comp(1276, 122));
     } else {
         IF_SETMODEL(-1 as model, comp(1276, 139));
         IF_SETGRAPHIC(item_getparam(varclient_2626, 3080), comp(1276, 124));
@@ -70,8 +70,8 @@ function script7304(): void {
         [int5, int6, int7] = script3005(677, varbitplayer_17147);
         string0 = `${inttostring(int6, 10)}/${inttostring(int7, 10)}`;
         script4542(int5, 83624052, 83624057);
-        IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -1), 83624046);
-        IF_SETHIDE(1, 83624058);
+        IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -1), comp(1276, 110));
+        IF_SETHIDE(true, comp(1276, 122));
     };
     IF_SETMODELZOOM(2900, comp(1276, 139));
     var string1 = varclient_2627;
@@ -97,45 +97,53 @@ function script7304(): void {
     var int18 = (((varclient_2632 - int16) - int17) - int9);
     var string2 = `<col=C5BCAC>Base:</col> ${inttostring(int16, 10)}<br><col=C5BCAC>Level Boost:</col> ${inttostring(int17, 10)}<br><col=C5BCAC>Personal Bonus:</col> ${inttostring(int9, 10)}<br><col=C5BCAC>Traits:</col> ${inttostring(int18, 10)}`;
     IF_SETTEXT(inttostring(varclient_2632, 10), comp(1276, 134));
-    IF_SETONMOUSEREPEAT(callback(script8799, string2, -2147483645, -1), 83624068);
+    IF_SETONMOUSEREPEAT(callback(script8799, string2, -2147483645, -1), comp(1276, 132));
     var int19 = item_getparam(varclient_2626, 3082);
     var int20 = SCALE(int15, 100, int19);
     var int21 = (((varclient_2638 - int19) - int20) - int10);
     var string3 = `<col=C5BCAC>Base:</col> ${inttostring(int19, 10)}<br><col=C5BCAC>Level Boost:</col> ${inttostring(int20, 10)}<br><col=C5BCAC>Personal Bonus:</col> ${inttostring(int10, 10)}<br><col=C5BCAC>Traits:</col> ${inttostring(int21, 10)}`;
-    IF_SETTEXT(inttostring(varclient_2638, 10), 83624066);
-    IF_SETONMOUSEREPEAT(callback(script8799, string3, -2147483645, -1), 83624064);
+    IF_SETTEXT(inttostring(varclient_2638, 10), comp(1276, 130));
+    IF_SETONMOUSEREPEAT(callback(script8799, string3, -2147483645, -1), comp(1276, 128));
     var int22 = item_getparam(varclient_2626, 3083);
     var int23 = SCALE(int15, 100, int22);
     var int24 = (((varclient_2634 - int22) - int23) - int11);
     var string4 = `<col=C5BCAC>Base:</col> ${inttostring(int22, 10)}<br><col=C5BCAC>Level Boost:</col> ${inttostring(int23, 10)}<br><col=C5BCAC>Personal Bonus:</col> ${inttostring(int11, 10)}<br><col=C5BCAC>Traits:</col> ${inttostring(int24, 10)}`;
-    IF_SETTEXT(inttostring(varclient_2634, 10), 83624065);
-    IF_SETONMOUSEREPEAT(callback(script8799, string4, -2147483645, -1), 83624063);
+    IF_SETTEXT(inttostring(varclient_2634, 10), comp(1276, 129));
+    IF_SETONMOUSEREPEAT(callback(script8799, string4, -2147483645, -1), comp(1276, 127));
     var int25 = item_getparam(varclient_2626, 3084);
     var int26 = SCALE(int15, 100, int25);
     var int27 = (((varclient_2640 - int25) - int26) - int12);
     var string5 = `<col=C5BCAC>Base:</col> ${inttostring(int25, 10)}<br><col=C5BCAC>Level Boost:</col> ${inttostring(int26, 10)}<br><col=C5BCAC>Personal Bonus:</col> ${inttostring(int12, 10)}<br><col=C5BCAC>Traits:</col> ${inttostring(int27, 10)}`;
-    IF_SETTEXT(inttostring(varclient_2640, 10), 83624069);
-    IF_SETONMOUSEREPEAT(callback(script8799, string5, -2147483645, -1), 83624067);
+    IF_SETTEXT(inttostring(varclient_2640, 10), comp(1276, 133));
+    IF_SETONMOUSEREPEAT(callback(script8799, string5, -2147483645, -1), comp(1276, 131));
     var string6 = varclient_2629;
     if ((strcmp(string6, "") == 0)) {
         string6 = "No Traits";
     };
     IF_SETTEXT(string6, comp(1276, 135));
     if ((strcmp(varclient_2630, "") != 0)) {
-        IF_SETONMOUSEREPEAT(callback(script8799, varclient_2630, -2147483645, -1), 83624071);
-        IF_SETONMOUSEOVER(callback(script45, -2147483645, 16686339), 83624071);
+        IF_SETONMOUSEREPEAT(callback(script8799, varclient_2630, -2147483645, -1), comp(1276, 135));
+        IF_SETONMOUSEOVER(callback(script45, -2147483645, 16686339), comp(1276, 135));
     } else {
         IF_SETONMOUSEREPEAT(callback(), comp(1276, 135));
-        IF_SETONMOUSEOVER(callback(), 83624071);
+        IF_SETONMOUSEOVER(callback(), comp(1276, 135));
     };
     IF_SETONMOUSELEAVE(callback(script7305), comp(1276, 135));
-    if ((((enum_hasoutput(33, 2174, varclient_2626) == 1) && (varclient_2626 != 26265 as obj)) && (varclient_2626 != 26266 as obj))) {
-        IF_SETTEXT("Useful supplies for a journey.", comp(1276, 125));
-        IF_SETTEXT("Ship Supplies", comp(1276, 109));
-        script4542(0, 83624052, 83624057);
-        IF_SETHIDE(false, comp(1276, 122));
+    if ((enum_hasoutput(33, 2174 as cs2enum, varclient_2626) == 1)) {
+        if ((varclient_2626 != 26265)) {
+            if ((varclient_2626 != 26266)) {
+                IF_SETTEXT("Useful supplies for a journey.", comp(1276, 125));
+                IF_SETTEXT("Ship Supplies", comp(1276, 109));
+                script4542(0, 83624052, 83624057);
+                IF_SETHIDE(false, comp(1276, 122));
+            } else {
+                IF_SETTEXT(varclient_2628, 83624061);
+            };
+        } else {
+            IF_SETTEXT(varclient_2628, 83624061);
+        };
     } else {
-        IF_SETTEXT(varclient_2628, comp(1276, 125));
+        IF_SETTEXT(varclient_2628, 83624061);
     };
     if ((varbitplayer_17147 < INV_SIZE(677 as inv))) {
         if ((script7310(varbitplayer_17147) == 1)) {
@@ -143,13 +151,21 @@ function script7304(): void {
         } else {
             IF_SETHIDE(false, comp(1276, 142));
         };
-        if ((((varclient_2643 > 0) && (varclient_2643 < 5)) && (TESTBIT(varplayer_3404, varbitplayer_17147) == 1))) {
-            IF_SETTEXT(inttostring(varclient_2643, 10), comp(1276, 140));
+        if ((varclient_2643 > 0)) {
+            if ((varclient_2643 < 5)) {
+                if ((TESTBIT(varplayer_3404, varbitplayer_17147) == 1)) {
+                    IF_SETTEXT(inttostring(varclient_2643, 10), comp(1276, 140));
+                } else {
+                    IF_SETTEXT("-", comp(1276, 140));
+                };
+            } else {
+                IF_SETTEXT("-", comp(1276, 140));
+            };
         } else {
             IF_SETTEXT("-", comp(1276, 140));
         };
     };
-    if (((varclient_2626 == -1 as obj) || (strcmp("No crewman", varclient_2627) == 0))) {
+    if (((varclient_2626 == -1) || (strcmp("No crewman", varclient_2627) == 0))) {
         IF_SETHIDE(false, comp(1276, 142));
     };
     return;

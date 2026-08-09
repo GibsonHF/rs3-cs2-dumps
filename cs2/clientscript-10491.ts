@@ -13,6 +13,7 @@ function script10491(int0: number): void {
             break;
         }
         case 3: {
+            break;
         }
     };
     IF_SETSIZE(int1, int2, 0, 0, comp(942, 3));

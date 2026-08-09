@@ -2,19 +2,19 @@
 function script15495(): void {
     CC_DELETEALL(comp(1253, 556));
     IF_SETONVARTRANSMIT(callback(script15504, -2147483645, 9091, 1), comp(770, 181));
-    IF_SETONVARTRANSMIT(callback(script15504, -2147483645, 9092, 1), 50462860);
-    IF_SETONVARTRANSMIT(callback(script15504, -2147483645, 9093, 1), 50462855);
-    IF_SETONVARTRANSMIT(callback(script15504, -2147483645, 9094, 1), 50462850);
-    IF_SETONVARTRANSMIT(callback(script15504, -2147483645, 9095, 1), 50462845);
-    IF_SETONVARTRANSMIT(callback(script15504, -2147483645, 9096, 1), 50462840);
-    IF_SETONVARTRANSMIT(callback(script15504, -2147483645, 9097, 1), 50462835);
-    IF_SETONVARTRANSMIT(callback(script15504, -2147483645, 9098, 1), 50462830);
-    IF_SETONVARTRANSMIT(callback(script15504, -2147483645, 9099, 1), 50462825);
-    IF_SETONVARTRANSMIT(callback(script15504, -2147483645, 9100, 1), 50462820);
-    IF_SETONOP(callback(script15508), 50462973);
-    IF_SETONOP(callback(script15509), 50462916);
-    IF_SETONOP(callback(script15509), 50462931);
-    IF_SETONOP(callback(script15509), 50462934);
+    IF_SETONVARTRANSMIT(callback(script15504, -2147483645, 9092, 1), comp(770, 140));
+    IF_SETONVARTRANSMIT(callback(script15504, -2147483645, 9093, 1), comp(770, 135));
+    IF_SETONVARTRANSMIT(callback(script15504, -2147483645, 9094, 1), comp(770, 130));
+    IF_SETONVARTRANSMIT(callback(script15504, -2147483645, 9095, 1), comp(770, 125));
+    IF_SETONVARTRANSMIT(callback(script15504, -2147483645, 9096, 1), comp(770, 120));
+    IF_SETONVARTRANSMIT(callback(script15504, -2147483645, 9097, 1), comp(770, 115));
+    IF_SETONVARTRANSMIT(callback(script15504, -2147483645, 9098, 1), comp(770, 110));
+    IF_SETONVARTRANSMIT(callback(script15504, -2147483645, 9099, 1), comp(770, 105));
+    IF_SETONVARTRANSMIT(callback(script15504, -2147483645, 9100, 1), comp(770, 100));
+    IF_SETONOP(callback(script15508), comp(770, 253));
+    IF_SETONOP(callback(script15509), comp(770, 196));
+    IF_SETONOP(callback(script15509), comp(770, 211));
+    IF_SETONOP(callback(script15509), comp(770, 214));
     script15497(1);
     return;
 }

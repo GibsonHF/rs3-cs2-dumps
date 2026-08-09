@@ -4,7 +4,7 @@ function script10368(): void {
     var int1 = -1;
     if ((PLAYER_GROUP_FIND() == 1)) {
         int1 = script10275();
-        if (((int1 == -1) || operator("!=", PLAYER_GROUP_GET_OWNER_SLOT(int1)))) {
+        if (((int1 == -1) || BRANCH_NOT(PLAYER_GROUP_GET_OWNER_SLOT(int1)))) {
             IF_SETHIDE(false, comp(1524, 116));
         } else {
             IF_SETHIDE(true, comp(1524, 116));

@@ -3,7 +3,7 @@ function script1807(int0: number, int1: number, int2: number): void {
     if ((script42(varclient_266) == 0)) {
         varclient_2409 = "";
         varclient_2410 = "";
-        varclient_266 = true;
+        varclient_266 = 1;
     };
     script1809(int0, int1, int2);
     IF_SETONVARCSTRTRANSMIT(callback(script1808, int0, int1, int2, 2409, 1), int0);

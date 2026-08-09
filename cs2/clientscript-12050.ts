@@ -12,9 +12,13 @@ function script12050(int0: number): void {
         return;
     };
     while ((CC_FIND(int0, int1) == 1)) {
-        if (((cc_getparam(5763) == int3) && (cc_getparam(5764) == int4))) {
-            CC_SETCOLOUR(16711680);
-            int2 = 1;
+        if ((cc_getparam(5763) == int3)) {
+            if ((cc_getparam(5764) == int4)) {
+                CC_SETCOLOUR(16711680);
+                int2 = 1;
+            } else {
+                CC_SETCOLOUR(16777215);
+            };
         } else {
             CC_SETCOLOUR(16777215);
         };

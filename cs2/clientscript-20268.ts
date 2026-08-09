@@ -19,9 +19,25 @@ function script20268(int0: number): void {
         while ((int1 < int2)) {
             int3 = dbrow_getfield(int0, 1339392, int1);
             int4 = DB_GETFIELDCOUNT(int3, 1343504);
-            if ((((varbitplayer_58404 != 63) && (varbitplayer_58404 >= int1)) && (script20143(int3, int4) == 1))) {
-                string0 = `Tier ${inttostring((int1 + 1), 10)} - Active!`;
-                int10 = 12761;
+            if ((varbitplayer_58404 != 63)) {
+                if ((varbitplayer_58404 >= int1)) {
+                    if ((script20143(int3, int4) == 1)) {
+                        string0 = `Tier ${inttostring((int1 + 1), 10)} - Active!`;
+                        int10 = 12761;
+                    } else {
+                        if ((int11 == -1)) {
+                            int11 = int5;
+                        };
+                        string0 = `Tier ${inttostring((int1 + 1), 10)}`;
+                        int10 = 21652;
+                    };
+                } else {
+                    if ((int11 == -1)) {
+                        int11 = int5;
+                    };
+                    string0 = `Tier ${inttostring((int1 + 1), 10)}`;
+                    int10 = 21652;
+                };
             } else {
                 if ((int11 == -1)) {
                     int11 = int5;

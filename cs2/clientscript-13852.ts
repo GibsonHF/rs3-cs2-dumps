@@ -20,8 +20,12 @@ function script13852(int0: number, int1: number): void {
     var int3 = 17;
     var int4 = -1;
     if ((varbitclient_42113 == 1)) {
-        if (((int2 == 0) && (script2384(0, 1) < 0))) {
-            IF_SETTEXT("Click on the cog icon to add buttons to this panel.", comp(1431, 7));
+        if ((int2 == 0)) {
+            if ((script2384(0, 1) < 0)) {
+                IF_SETTEXT("Click on the cog icon to add buttons to this panel.", comp(1431, 7));
+            } else {
+                IF_SETTEXT("", comp(1431, 7));
+            };
         } else {
             IF_SETTEXT("", comp(1431, 7));
         };
@@ -64,7 +68,7 @@ function script13852(int0: number, int1: number): void {
             IF_SETSIZE(0, (int3 + int4), 1, 1, comp(1431, 8));
             IF_SETPOSITION(0, int4, 1, 0, comp(1431, 8));
         };
-        IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643), 93782026);
+        IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643), comp(1431, 10));
         return;
     };
     if ((int2 == 0)) {
@@ -82,9 +86,9 @@ function script13852(int0: number, int1: number): void {
         IF_SETHIDE(true, comp(1431, 11));
     };
     string0 = "Switch layout: Default Mode";
-    IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643), 93782026);
-    IF_SETHIDE(1, 93782025);
-    IF_SETTEXT("", 93782023);
+    IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643), comp(1431, 10));
+    IF_SETHIDE(true, comp(1431, 9));
+    IF_SETTEXT("", comp(1431, 7));
     if ((varbitplayer_38842 == 1)) {
         varbitclient_42113 = 1;
         script13852(int0, int1);

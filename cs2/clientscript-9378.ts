@@ -50,7 +50,7 @@ function script9378(): void {
     script2731(int0, CC_GETID(), 19);
     script9389(int0, int5, int6, int7);
     string0 = script9533(int5, int6, 1, int7);
-    int4 = script7593(string0, int2, 26 as fontmetrics, 0);
+    int4 = script7593(string0, int2, 26, 0);
     CC_SETSIZE(0, int4, 1, 0);
     CC_SETTEXT(string0);
     int3 = (int3 + (CC_GETHEIGHT() + 5));
@@ -138,10 +138,10 @@ function script9378(): void {
     if ((strcmp(string1, "") != 0)) {
         int10 = (int2 / 2);
         int11 = (int10 - (150 / 2));
-        int12 = (script7593(string1, 150, 26 as fontmetrics, 0) + 12);
+        int12 = (script7593(string1, 150, 26, 0) + 12);
         int15 = int12;
         if ((strcmp(string2, "") != 0)) {
-            int14 = (script7593(string2, 150, 26 as fontmetrics, 0) + 12);
+            int14 = (script7593(string2, 150, 26, 0) + 12);
             int15 = MAX(int12, int14);
             int11 = (int10 - (((150 * 2) + 12) / 2));
             int13 = ((int11 + 150) + 12);

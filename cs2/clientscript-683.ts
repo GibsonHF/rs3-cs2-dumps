@@ -11,7 +11,7 @@ function script683(int0: number): void {
         script684(-31, 58);
         CC_SETMODELANGLE(0, 0, 0, 0, 0, 400);
         CC_SETONTIMER(callback(script685, -2147483645, -2147483643, 0, 0, 256, 3));
-        CC_SETMODELANIM(7375);
+        CC_SETMODELANIM(7375 as seq);
         return;
     };
     if ((int0 == 2)) {

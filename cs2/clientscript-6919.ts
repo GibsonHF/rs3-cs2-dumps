@@ -15,9 +15,9 @@ function script6919(int0: number, int1: number, int2: number, string0: string, s
     CC_CREATE[1](int0, 4, 2);
     CC_SETSIZE[1](20, 0, 1, 1);
     CC_SETPOSITION[1](0, 0, 2, 1);
-    CC_SETTEXTFONT[1](27);
+    CC_SETTEXTFONT[1](27 as fontmetrics);
     CC_SETTEXTALIGN[1](0, 1, 0);
-    CC_SETTEXTSHADOW[1](1);
+    CC_SETTEXTSHADOW[1](true);
     CC_SETTEXT[1](string0);
     if (((MAP_MEMBERS() == 0) && (int2 == 1))) {
         CC_SETGRAPHIC(5930 as graphic);

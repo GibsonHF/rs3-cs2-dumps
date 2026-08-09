@@ -1,6 +1,6 @@
 //
 function script6740(int0: number, int1: number, int2: number): number {
-    if ((dbrow_getfield(int2, 663776, 0) == true)) {
+    if ((dbrow_getfield(int2, 663776, 0) == 1)) {
         if ((int0 == 1)) {
             return -1;
         };

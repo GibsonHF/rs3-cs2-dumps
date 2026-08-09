@@ -3,7 +3,7 @@ function script2023(int0: number, int1: number, int2: number): void {
     var string0 = "";
     var int3 = 0;
     var string1 = "";
-    var int4 = -1 as struct;
+    var int4 = -1;
     var int5 = 0;
     switch (int1) {
         case 1: {
@@ -14,63 +14,63 @@ function script2023(int0: number, int1: number, int2: number): void {
         }
         case 2: {
             int5 = struct_getparam(int0, 3051);
-            string0 = enum_getvalue(0, 36, 2163 as cs2enum, int5);
+            string0 = enum_getvalue(0, 36, 2163, int5);
             int3 = struct_getparam(int0, 3052);
             break;
         }
         case 3: {
             int5 = struct_getparam(int0, 3053);
-            string0 = enum_getvalue(0, 36, 2163 as cs2enum, int5);
+            string0 = enum_getvalue(0, 36, 2163, int5);
             int3 = struct_getparam(int0, 3054);
             break;
         }
     };
     switch (int5) {
         case 1: {
-            string1 = ` ${OC_NAME(enum_getvalue(0, 33, 2171 as cs2enum, int3))}`;
+            string1 = ` ${OC_NAME(enum_getvalue(0, 33, 2171, int3))}`;
             break;
         }
         case 2: {
-            string1 = ` ${OC_NAME(enum_getvalue(0, 33, 2174 as cs2enum, int3))}`;
+            string1 = ` ${OC_NAME(enum_getvalue(0, 33, 2174, int3))}`;
             break;
         }
         case 3: {
-            string1 = ` ${OC_NAME(enum_getvalue(0, 33, 2173 as cs2enum, int3))}`;
+            string1 = ` ${OC_NAME(enum_getvalue(0, 33, 2173, int3))}`;
             break;
         }
         case 4: {
-            string1 = ` ${OC_NAME(enum_getvalue(0, 33, 2171 as cs2enum, int3))}`;
+            string1 = ` ${OC_NAME(enum_getvalue(0, 33, 2171, int3))}`;
             break;
         }
         case 5: {
-            string1 = ` ${enum_getvalue(0, 36, 1626 as cs2enum, int3)}`;
+            string1 = ` ${enum_getvalue(0, 36, 1626, int3)}`;
             break;
         }
         case 6: {
             break;
         }
         case 7: {
-            string1 = ` ${enum_getvalue(0, 36, 1626 as cs2enum, int3)}`;
+            string1 = ` ${enum_getvalue(0, 36, 1626, int3)}`;
             break;
         }
         case 8: {
-            int4 = enum_getvalue(0, 73, 1022 as cs2enum, int3);
+            int4 = enum_getvalue(0, 73, 1022, int3);
             string1 = ` ${struct_getparam(int4, 2365)}`;
             break;
         }
         case 9: {
-            string1 = ` ${enum_getvalue(0, 36, 1626 as cs2enum, int3)}`;
+            string1 = ` ${enum_getvalue(0, 36, 1626, int3)}`;
             break;
         }
         case 10:
         case 11: {
-            int4 = enum_getvalue(0, 73, 2175 as cs2enum, int3);
+            int4 = enum_getvalue(0, 73, 2175, int3);
             string1 = ` ${struct_getparam(int4, 3090)}`;
             break;
         }
         case 12:
         case 13: {
-            string1 = ` ${enum_getvalue(0, 36, 1626 as cs2enum, int3)}`;
+            string1 = ` ${enum_getvalue(0, 36, 1626, int3)}`;
             break;
         }
         default: {

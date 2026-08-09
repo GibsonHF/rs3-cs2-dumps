@@ -3,7 +3,7 @@ function script9760(): void {
     if ((varplayer_2662 == -1 as coordgrid)) {
         return;
     };
-    script8844(1, 13, 8, comp(1145, 31), -1);
+    script8844(1, 13, 8, 75038751, -1);
     var int0 = 0;
     var int1 = 16;
     var int2 = 0;

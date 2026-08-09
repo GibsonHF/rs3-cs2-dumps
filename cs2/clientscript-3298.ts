@@ -3,9 +3,9 @@ function script3298(int0: number, int1: number, int2: number, int3: number): voi
     var int4 = enum_getvalue(17, 0, 1482 as cs2enum, int0);
     var string0 = enum_getvalue(17, 36, 680 as cs2enum, int0);
     var int5 = script6035(int0, varclient_1798, varclient_1799, 0);
-    var int6 = 3495 as cs2enum;
+    var int6 = 3495;
     if ((int5 == 1)) {
-        int6 = 371 as cs2enum;
+        int6 = 371;
     };
     CC_DELETEALL(int1);
     var int7 = 21363;

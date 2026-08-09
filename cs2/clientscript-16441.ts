@@ -1,32 +1,32 @@
 //
 function script16441(int0: number): void {
     var int1 = -1;
-    var int2 = comp(-1, 65535);
-    var int3 = comp(-1, 65535);
-    var int4 = comp(-1, 65535);
+    var int2 = -1;
+    var int3 = -1;
+    var int4 = -1;
     var string0 = "";
     var string1 = "";
-    var int5 = -1 as dbrow;
+    var int5 = -1;
     switch (int0) {
         case 1: {
             int1 = varbitplayer_51025;
-            int2 = comp(669, 50);
-            int3 = comp(669, 51);
-            int4 = comp(669, 49);
+            int2 = 43843634;
+            int3 = 43843635;
+            int4 = 43843633;
             break;
         }
         case 2: {
             int1 = varbitplayer_51026;
-            int2 = comp(669, 57);
-            int3 = comp(669, 58);
-            int4 = comp(669, 56);
+            int2 = 43843641;
+            int3 = 43843642;
+            int4 = 43843640;
             break;
         }
         case 3: {
             int1 = varbitplayer_51027;
-            int2 = comp(669, 63);
-            int3 = comp(669, 64);
-            int4 = comp(669, 62);
+            int2 = 43843647;
+            int3 = 43843648;
+            int4 = 43843646;
             break;
         }
         default: {
@@ -37,13 +37,13 @@ function script16441(int0: number): void {
     var int6 = dbrow_getfield(int5, 688176, 0);
     CC_DELETEALL(int4);
     var int7 = 0;
-    var int8 = comp(-1, 65535);
-    var int9 = -1 as material;
+    var int8 = -1;
+    var int9 = -1;
     var int10 = 0;
     var int11 = 0;
-    var int12 = -1 as obj;
+    var int12 = -1;
     var int13 = 0;
-    var int14 = -1 as model;
+    var int14 = -1;
     var int15 = 0;
     var int16 = 0;
     var int17 = 0;
@@ -139,7 +139,7 @@ function script16441(int0: number): void {
                 CC_SETRECOL(int21, dbrow_getfield(int5, 688320, (int21 - 1)));
                 int21 = (int21 - 1);
             };
-        } else if ((int12 != -1 as obj)) {
+        } else if ((int12 != -1)) {
             CC_CREATE(int4, 5, int7);
             int7 = (int7 + 1);
             CC_SETOBJECT(int12, int13);

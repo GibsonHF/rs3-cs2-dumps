@@ -100,7 +100,7 @@ function script4804(): void {
                     } else {
                         script4805(int6, int7);
                     };
-                    int3 = -1 as cs2enum;
+                    int3 = -1;
                     int7 = (int7 + 1);
                 };
             } else {

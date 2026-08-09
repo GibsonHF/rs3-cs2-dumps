@@ -15,7 +15,7 @@ function script2585(int0: number, int1: number, int2: number, int3: number): voi
         if ((int6 != -1 as obj)) {
             int7 = enum_getvalue(33, 74, int4, int6);
             if ((int7 == -1 as dbrow)) {
-                script2591(-1 as dbrow, int6, -1);
+                script2591(-1, int6, -1);
             } else if ((int3 != 4)) {
                 script2584(int7, 2424925, 2424934, 2424935, 2424936, 2424945, 2424946, 2424947, 2424956, 2424957, 2424958, 2424967, 2424968, 2424969, 2424978, 2424979, 4, 1);
                 script2591(int7, script2543(int6, varplayer_8333), -1);

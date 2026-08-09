@@ -86,8 +86,13 @@ function script16710(int0: number, int1: number, int2: number, int3: number, int
                     CC_SETTRANS(0);
                 };
             };
-        } else if (((--int4 <= 0) && ((CC_GETGRAPHIC() == 20497 as graphic) || (CC_GETGRAPHIC() == 33760 as graphic)))) {
-            CC_SETTRANS(0);
+        } else {
+            int4 = (int4 - 1);
+            if ((int4 <= 0)) {
+                if (((CC_GETGRAPHIC() == 20497 as graphic) || (CC_GETGRAPHIC() == 33760 as graphic))) {
+                    CC_SETTRANS(0);
+                };
+            };
         };
         CC_SETONTIMER(callback(script16710, int0, int1, int2, int3, int4));
     };

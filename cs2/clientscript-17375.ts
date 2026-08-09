@@ -1,16 +1,16 @@
 //
-function script17375(long0: BigInt, long1: BigInt): BigInt {
+function script17375(long0: bigint, long1: bigint): bigint {
     var long2 = 0n;
-    if (branch_gt_long[6](long1, 0n)) {
+    if (LONG_BRANCH_GREATER_THAN(long1, 0n)) {
         long2 = SUB_LONG(SUB_LONG(9223372036854775807n, long1), long0);
-        if (branch_lt_long[16](long2, 0n)) {
+        if (LONG_BRANCH_LESS_THAN(long2, 0n)) {
             return 9223372036854775807n;
         };
         return ADD_LONG(long0, long1);
     };
-    if (branch_lt_long[27](long1, 0n)) {
+    if (LONG_BRANCH_LESS_THAN(long1, 0n)) {
         long2 = SUB_LONG(-9223372036854775808n, long1);
-        if (branch_gteq_long[35](long0, long2)) {
+        if (LONG_BRANCH_GREATER_THAN_OR_EQUALS(long0, long2)) {
             return ADD_LONG(long0, long1);
         };
         return -9223372036854775808n;

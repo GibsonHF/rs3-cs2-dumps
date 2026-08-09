@@ -17,7 +17,8 @@ function script7105(int0: number): number {
         if ((script7106(int0, int1, int2, int4, item_getparam(int0, 3649), int3) == 0)) {
             return 0;
         };
-        switch (++int3) {
+        int3 = (int3 + 1);
+        switch (int3) {
             case 2: {
                 int1 = item_getparam(int0, 2641);
                 int2 = item_getparam(int0, 2646);

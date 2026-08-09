@@ -4,6 +4,6 @@ function script8827(): void {
         printmessage("Cancelled keybind reset.");
         return;
     };
-    IF_SETONTIMER(callback(script9899, 4, 0, 5, 0, -2147483645), 94633984);
+    IF_SETONTIMER(callback(script9899, 4, 0, 5, 0, -2147483645), comp(1444, 0));
     return;
 }

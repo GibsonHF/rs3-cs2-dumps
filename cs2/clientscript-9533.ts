@@ -1,22 +1,22 @@
 //
 function script9533(int0: number, int1: number, int2: number, int3: number): string {
-    var int4 = -1 as struct;
-    var int5 = -1 as quest;
+    var int4 = -1;
+    var int5 = -1;
     var string0 = "";
     var int6 = 0;
     var int7 = 0;
     var int8 = 0;
     var int9 = 0;
-    var int10 = -1 as stat;
+    var int10 = -1;
     var int11 = 0;
-    var int12 = -1 as dbrow;
+    var int12 = -1;
     var string1 = "";
     switch (int0) {
         case 2: {
             return script15321(int3);
         }
         case 3: {
-            return script13285(enum_getvalue(0, 73, 12251 as cs2enum, int1), 1);
+            return script13285(enum_getvalue(0, 73, 12251, int1), 1);
         }
         case 1: {
             int5 = enum_getvalue(0, 3, 2252 as cs2enum, int1);

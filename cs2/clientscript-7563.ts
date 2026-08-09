@@ -2,7 +2,8 @@
 function script7563(int0: number): void {
     var int1 = IF_GETTRANS(int0);
     if ((int1 > 5)) {
-        IF_SETTRANS(--int1, int0);
+        int1 = (int1 - 5);
+        IF_SETTRANS(int1, int0);
     } else {
         int1 = 0;
         IF_SETTRANS(int1, int0);

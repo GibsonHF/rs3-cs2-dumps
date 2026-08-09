@@ -5,9 +5,9 @@ function script12526(int0: number): void {
     var int3 = 0;
     [int1, int2, int3] = script3419(int0, varplayer_6269);
     var int4 = comp(-1, 65535);
-    var int5 = comp(-1, 65535);
+    var int5 = -1;
     [int4, int5] = script12527(int0);
-    if (((int4 == comp(-1, 65535)) || (int5 == comp(-1, 65535)))) {
+    if (((int4 == comp(-1, 65535)) || (int5 == -1))) {
         return;
     };
     if ((int1 == 0)) {
@@ -19,7 +19,7 @@ function script12526(int0: number): void {
     var string1 = "";
     var string2 = "";
     var string3 = "";
-    var int7 = -1 as dbrow;
+    var int7 = -1;
     var int8 = 0;
     var int9 = 0;
     var int10 = 0;
@@ -57,12 +57,10 @@ function script12526(int0: number): void {
                     stack(16384);
                     stack(int8);
                     DB_FIND(0);
-                    dbrow_findnext();
-                    int7 = stack();
-                    while ((int7 != -1 as dbrow)) {
+                    int7 = dbrow_findnext();
+                    while ((int7 != -1)) {
                         string0 = strconcat(string0, dbrow_getfield(int7, 16400, 0));
-                        dbrow_findnext();
-                        int7 = stack();
+                        int7 = dbrow_findnext();
                     };
                     break;
                 }
@@ -71,12 +69,10 @@ function script12526(int0: number): void {
                     stack(16384);
                     stack(int8);
                     DB_FIND(0);
-                    dbrow_findnext();
-                    int7 = stack();
-                    while ((int7 != -1 as dbrow)) {
+                    int7 = dbrow_findnext();
+                    while ((int7 != -1)) {
                         string0 = strconcat(string0, dbrow_getfield(int7, 16400, 0));
-                        dbrow_findnext();
-                        int7 = stack();
+                        int7 = dbrow_findnext();
                     };
                     break;
                 }
@@ -88,17 +84,19 @@ function script12526(int0: number): void {
                     stack(20480);
                     stack(int8);
                     DB_FIND(0);
-                    dbrow_findnext();
-                    int7 = stack();
-                    while ((int7 != -1 as dbrow)) {
+                    int7 = dbrow_findnext();
+                    while ((int7 != -1)) {
                         string1 = dbrow_getfield(int7, 20512, 0);
-                        if (((int9 > 1) && (STRING_LENGTH(string1) > 0))) {
-                            string0 = strconcat(string0, string1);
+                        if ((int9 > 1)) {
+                            if ((STRING_LENGTH(string1) > 0)) {
+                                string0 = strconcat(string0, string1);
+                            } else {
+                                string0 = strconcat(string0, dbrow_getfield(int7, 20496, 0));
+                            };
                         } else {
                             string0 = strconcat(string0, dbrow_getfield(int7, 20496, 0));
                         };
-                        dbrow_findnext();
-                        int7 = stack();
+                        int7 = dbrow_findnext();
                     };
                     break;
                 }

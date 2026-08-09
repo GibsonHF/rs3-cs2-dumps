@@ -12,8 +12,7 @@ function script14223(int0: number, int1: number, int2: number, int3: number): vo
     var int8 = 0;
     var string1 = "0";
     var int9 = 0;
-    stack(IF_SETONSTORETRANSMIT(int2));
-    [int7, string0] = stack();
+    [int7, string0] = IF_SETONSTORETRANSMIT(int2);
     [int4, int5] = script14226(int2, int6, int7, string0);
     var int10 = (int4 + 31);
     var int11 = (int5 + (2 * 31));

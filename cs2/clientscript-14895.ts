@@ -9,7 +9,7 @@ function script14895(int0: number, int1: number): void {
     var string4 = "";
     var string5 = "Research";
     var int4 = 0;
-    if ((int0 != -1 as dbrow)) {
+    if ((int0 != -1)) {
         IF_SETHIDE(true, comp(693, 46));
         IF_SETHIDE(false, comp(693, 48));
         int3 = script14638(int0);
@@ -24,7 +24,7 @@ function script14895(int0: number, int1: number): void {
             IF_SETTEXT("Lvl 1", comp(693, 53));
             int3 = STAT_BASE(27 as stat);
         };
-        IF_SETTEXT(dbrow_getfield(int0, 368736, 0), comp(693, 62));
+        IF_SETTEXT(dbrow_getfield(int0, 368736, 0), 45416510);
         if ((int2 > 0)) {
             script14896();
             string4 = script14665(int2);

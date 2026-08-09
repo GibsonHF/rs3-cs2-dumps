@@ -20,10 +20,24 @@ function script9277(int0: number, int1: number, int2: number, int3: number): voi
     if ((int2 > 0)) {
         int7 = (int5 + (16284 - int2));
         int8 = ((16284 - int5) + int2);
-        if (((int5 < int2) && (int7 < (16284 / 2)))) {
-            int5 = (int5 - (int7 / int0));
-        } else if (((int5 > int2) && (int8 < (16284 / 2)))) {
-            int5 = (int5 + (int8 / int0));
+        if ((int5 < int2)) {
+            if ((int7 < (16284 / 2))) {
+                int5 = (int5 - (int7 / int0));
+            } else if ((int5 > int2)) {
+                if ((int8 < (16284 / 2))) {
+                    int5 = (int5 + (int8 / int0));
+                } else {
+                    int5 = (int5 - ((int5 - int2) / int0));
+                };
+            } else {
+                int5 = (int5 - ((int5 - int2) / int0));
+            };
+        } else if ((int5 > int2)) {
+            if ((int8 < (16284 / 2))) {
+                int5 = (int5 + (int8 / int0));
+            } else {
+                int5 = (int5 - ((int5 - int2) / int0));
+            };
         } else {
             int5 = (int5 - ((int5 - int2) / int0));
         };
@@ -39,6 +53,6 @@ function script9277(int0: number, int1: number, int2: number, int3: number): voi
     varclient_5114 = int4;
     varclient_5115 = int5;
     CAM2_SETPOSITIONENTITY_PLAYER(0, 0, script8769(int1), int4, int5, 0, 0, 100);
-    IF_SETONTIMER(callback(script648, (int0 - 1), int1, int2, int3), 96796712);
+    IF_SETONTIMER(callback(script648, (int0 - 1), int1, int2, int3), comp(1477, 40));
     return;
 }

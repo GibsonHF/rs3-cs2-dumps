@@ -3,8 +3,8 @@ function script13620(int0: number, int1: number): void {
     IF_CLEAROPS(int0);
     IF_SETONMOUSEREPEAT(callback(), int1);
     IF_SETOPCURSOR(1, -1, int0);
-    IF_SETGRAPHIC(-1, int1);
-    var int2 = -1;
+    IF_SETGRAPHIC(-1 as graphic, int1);
+    var int2 = -1 as achievement;
     switch (int0) {
         case 121700391: {
             int2 = varplayer_9616;

@@ -14,8 +14,7 @@ function script10149(): void {
     if ((varbitclient_23069 == 1)) {
         IF_SETHIDE(false, comp(231, 3));
         if (((varclient_4292 != -1) && (STRING_LENGTH(varclient_4291) > 0))) {
-            stack(TTV_WEBCAM_GETDEVICE_BYUNIQUENAME(varclient_4291));
-            [int0, string0, string1] = stack();
+            [int0, string0, string1] = TTV_WEBCAM_GETDEVICE_BYUNIQUENAME(varclient_4291);
             int8 = TTV_WEBCAM_START(int0, varclient_4292);
             script10158(0);
         };

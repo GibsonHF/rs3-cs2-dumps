@@ -25,7 +25,7 @@ function script19003(int0: number, int1: number, int2: number): void {
             CC_SETONTIMER(callback());
             if ((CC_FIND[1](int0, (int1 + 1)) == 1)) {
                 CC_SETONTIMER[1](callback(script19004, int0, (int1 + 1), int2));
-                CC_SETHIDE[1](0);
+                CC_SETHIDE[1](false);
             };
         };
     };

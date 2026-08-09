@@ -10,14 +10,14 @@ function script14715(int0: number, int1: number): number {
     };
     var int3 = -1 as dbrow;
     var int4 = 0;
-    if ((int1 != -1 as dbrow)) {
+    if ((int1 != -1)) {
         switch (DB_GETROWTABLE(int1)) {
             case 86: {
                 if ((dbrow_getfield(int1, 352272, 0) == 2)) {
                     int3 = dbrow_getfield(int1, 352528, 0);
                     if (((int3 != -1 as dbrow) && (DB_GETFIELDCOUNT(int3, 360720) > 0))) {
                         [int3, int4] = dbrow_getfield(int3, 360720, MAX(0, (DB_GETFIELDCOUNT(int3, 360720) - 1)));
-                        if (((int3 != -1 as dbrow) && (DB_GETROWTABLE(int3) == 89))) {
+                        if (((int3 != -1) && (DB_GETROWTABLE(int3) == 89))) {
                             int2 = dbrow_getfield(int3, 364640, 0);
                         };
                     };
@@ -29,7 +29,7 @@ function script14715(int0: number, int1: number): number {
                     case 1: {
                         if ((DB_GETFIELDCOUNT(int1, 360720) > 0)) {
                             [int3, int4] = dbrow_getfield(int1, 360720, 0);
-                            if (((int3 != -1 as dbrow) && (DB_GETROWTABLE(int3) == 89))) {
+                            if (((int3 != -1) && (DB_GETROWTABLE(int3) == 89))) {
                                 int2 = dbrow_getfield(int3, 364640, 0);
                             };
                         };

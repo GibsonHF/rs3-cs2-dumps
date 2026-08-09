@@ -13,6 +13,7 @@ function script19410(int0: number, string0: string): void {
         case 6:
         case 7:
         case 10: {
+            break;
         }
     };
     return;

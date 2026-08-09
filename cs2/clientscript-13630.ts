@@ -29,7 +29,7 @@ function script13630(int0: number, int1: number, int2: number, int3: number): vo
             if ((int6 == -1 as cs2enum)) {
                 return;
             };
-            if (((int11 == 1) || ((enum_getvalue(0, 31, int6, int1) != -1 as model) && (enum_getvalue(0, 31, int6, int1) != 88196 as model)))) {
+            if ((int11 == 1)) {
                 if (((GETBIT_RANGE(int2, ((int1 - 1) * 4), (((int1 - 1) * 4) + (4 - 1))) + 1) == int11)) {
                     int10 = 4;
                 } else {
@@ -41,7 +41,22 @@ function script13630(int0: number, int1: number, int2: number, int3: number): vo
                 };
                 script4512(85918248, (30 - (1 * 2)), (30 - (1 * 2)), 5, ((4 + ((30 + 4) * int12)) + (1 * 2)), enum_getvalue(0, 23, int7, (int11 - 1)));
                 if ((script1528(int0, (int11 - 1), int1) == 0)) {
-                    script4512(85918248, 14, 18, 22, ((5 + ((30 + 4) * int12)) + 15), 10983 as graphic);
+                    script4512(85918248, 14, 18, 22, ((5 + ((30 + 4) * int12)) + 15), 10983);
+                };
+                int12 = (int12 + 1);
+            } else if (((enum_getvalue(0, 31, int6, int1) != -1 as model) && (enum_getvalue(0, 31, int6, int1) != 88196 as model))) {
+                if (((GETBIT_RANGE(int2, ((int1 - 1) * 4), (((int1 - 1) * 4) + (4 - 1))) + 1) == int11)) {
+                    int10 = 4;
+                } else {
+                    int10 = 1;
+                };
+                int9 = script11606(85918248, 85918249, 28222, 4, (5 + ((30 + 4) * int12)), int9, int10, "Select", "Unselect", enum_getvalue(0, 36, int8, (int11 - 1)));
+                if ((CC_FIND(comp(1311, 553), int12) == 1)) {
+                    CC_SETOPCURSOR(1, 46);
+                };
+                script4512(85918248, (30 - (1 * 2)), (30 - (1 * 2)), 5, ((4 + ((30 + 4) * int12)) + (1 * 2)), enum_getvalue(0, 23, int7, (int11 - 1)));
+                if ((script1528(int0, (int11 - 1), int1) == 0)) {
+                    script4512(85918248, 14, 18, 22, ((5 + ((30 + 4) * int12)) + 15), 10983);
                 };
                 int12 = (int12 + 1);
             };

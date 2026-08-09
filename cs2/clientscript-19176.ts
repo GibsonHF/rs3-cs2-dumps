@@ -62,8 +62,12 @@ function script19176(int0: number, int1: number, int2: number, int3: number, int
             [int13, int14, int15, int16] = script19179(1);
             switch (int10) {
                 case 32986: {
-                    if (((int9 == 1) && (varbitplayer_51594 >= 138))) {
-                        script17136(int16);
+                    if ((int9 == 1)) {
+                        if ((varbitplayer_51594 >= 138)) {
+                            script17136(int16);
+                        } else {
+                            IF_SETPOSITION(0, int12, 1, 1, int16);
+                        };
                     } else {
                         IF_SETPOSITION(0, int12, 1, 1, int16);
                     };

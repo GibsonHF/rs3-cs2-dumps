@@ -30,17 +30,21 @@ function script319(int0: number, int1: number, int2: number, int3: number, int4:
             int15 = (int15 + 1);
             CC_SETSIZE(48, 52, 0, 0);
             CC_SETPOSITION(int5, int6, 0, 0);
-            CC_SETGRAPHIC(2206);
-            CC_SETHIDE(1);
+            CC_SETGRAPHIC(2206 as graphic);
+            CC_SETHIDE(true);
             CC_CREATE(int0, 5, int15);
             CC_SETSIZE(36, 32, 0, 0);
             CC_SETPOSITION((int5 + 6), (int6 + 4), 0, 0);
-            int13 = enum_getvalue(0, 33, 1182, int8);
-            int14 = enum_getvalue(33, 0, 1185, OC_UNCERT(int13));
-            if ((int13 == 12292)) {
+            int13 = enum_getvalue(0, 33, 1182 as cs2enum, int8);
+            int14 = enum_getvalue(33, 0, 1185 as cs2enum, OC_UNCERT(int13));
+            if ((int13 == 12292 as obj)) {
                 script760(int13, int13, int0, int15, string0, string1, string2, string3, string4, string5);
-            } else if ((((INV_TOTAL(93 as inv, int13) > 0) || (INV_TOTAL(93 as inv, OC_CERT(int13)) > 0)) && (STAT_BASE(23 as stat) >= enum_getvalue(0, 0, 1472 as cs2enum, int14)))) {
-                script760(int13, int13, int0, int15, string0, string1, string2, string3, string4, string5);
+            } else if (((INV_TOTAL(93 as inv, int13) > 0) || (INV_TOTAL(93 as inv, OC_CERT(int13)) > 0))) {
+                if ((STAT_BASE(23 as stat) >= enum_getvalue(0, 0, 1472 as cs2enum, int14))) {
+                    script760(int13, int13, int0, int15, string0, string1, string2, string3, string4, string5);
+                } else {
+                    script760(enum_getvalue(0, 33, 1183 as cs2enum, int8), int13, int0, int15, string0, string1, string2, string3, string4, string5);
+                };
             } else {
                 script760(enum_getvalue(0, 33, 1183 as cs2enum, int8), int13, int0, int15, string0, string1, string2, string3, string4, string5);
             };

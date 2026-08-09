@@ -75,6 +75,6 @@ function script856(): void {
             break;
         }
     };
-    IF_SETONTIMER(callback(script857, int6, int5, int2), 13238274);
+    IF_SETONTIMER(callback(script857, int6, int5, int2), comp(202, 2));
     return;
 }

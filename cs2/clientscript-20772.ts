@@ -3,7 +3,8 @@ function script20772(int0: number, int1: number, int2: number, int3: number, int
     var int5 = dbrow_getfield(int3, 1515584, 0);
     var int6 = 0;
     if (((CC_FIND(int0, int4) == 1) && (CC_FIND[1](int1, int4) == 1))) {
-        unk11040(callback());
+        stack(-1);
+        unk11040("");
         if (((script12592(int3) == 1) && (script7105(int5) == 1))) {
             int6 = script7108(int5);
             if ((int6 > 0)) {

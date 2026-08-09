@@ -20,16 +20,29 @@ function script6889(int0: number, int1: number, int2: number, int3: number): voi
     };
     var int5 = 0;
     var int6 = INV_GETOBJ(94 as inv, 3);
-    if (((MAP_MEMBERS() == 1) && ((((((((INV_TOTAL(93 as inv, 10148 as obj) > 0) || (int6 == 10148 as obj)) || (INV_TOTAL(93 as inv, 10147 as obj) > 0)) || (int6 == 10147 as obj)) || (INV_TOTAL(93 as inv, 10146 as obj) > 0)) || (int6 == 10146 as obj)) || (INV_TOTAL(93 as inv, 10149 as obj) > 0)) || (int6 == 10149 as obj)))) {
-        int5 = 1;
+    if ((MAP_MEMBERS() == 1)) {
+        if (((((((((INV_TOTAL(93 as inv, 10148 as obj) > 0) || (int6 == 10148 as obj)) || (INV_TOTAL(93 as inv, 10147 as obj) > 0)) || (int6 == 10147 as obj)) || (INV_TOTAL(93 as inv, 10146 as obj) > 0)) || (int6 == 10146 as obj)) || (INV_TOTAL(93 as inv, 10149 as obj) > 0)) || (int6 == 10149 as obj))) {
+            int5 = 1;
+        };
     };
     var int7 = 0;
     if (((int6 == 19830 as obj) || (INV_TOTAL(93 as inv, 19830 as obj) > 0))) {
         int7 = 1;
     };
     var int8 = 0;
-    if (((int6 != -1 as obj) && (OC_WEARPOS2(int6) == 5))) {
-        int8 = 1;
+    if ((int6 != -1 as obj)) {
+        if ((OC_WEARPOS2(int6) == 5)) {
+            int8 = 1;
+        } else {
+            int4 = (INV_SIZE(93 as inv) - 1);
+            while ((int4 >= 0)) {
+                int6 = INV_GETOBJ(93 as inv, int4);
+                if ((((int6 != -1 as obj) && (OC_WEARPOS(int6) == 3)) && (OC_WEARPOS2(int6) == 5))) {
+                    [int8, int4] = [1, 0];
+                };
+                int4 = (int4 - 1);
+            };
+        };
     } else {
         int4 = (INV_SIZE(93 as inv) - 1);
         while ((int4 >= 0)) {

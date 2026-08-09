@@ -71,14 +71,14 @@ function script15251(int0: number): void {
             script10704(47448077, "Launch web page", 17061);
             script10704(47448078, "Cancel", 17063);
             IF_SETONCLICK(callback(script15260), comp(724, 12));
-            if ((CC_FIND(47448078, 0) == 1)) {
+            if ((CC_FIND(comp(724, 14), 0) == 1)) {
                 CC_SETONBUTTONCLICK(callback(script15252));
             };
             if ((CC_FIND(comp(724, 13), 0) == 1)) {
                 CC_SETONBUTTONCLICK(callback(script15266));
             };
             string0 = "If the browser page didn't launch or it closed without your account being linked use this button to re-launch the web page.";
-            IF_SETONMOUSEREPEAT(callback(script8802, string0, 1000, 0, -2147483645, -2147483643, 27, 16777215), 47448077);
+            IF_SETONMOUSEREPEAT(callback(script8802, string0, 1000, 0, -2147483645, -2147483643, 27, 16777215), comp(724, 13));
             script15272();
             break;
         }

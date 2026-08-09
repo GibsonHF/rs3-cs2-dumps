@@ -25,7 +25,7 @@ function script4910(int0: number): void {
     CC_CREATE(int0, 5, IF_GETNEXTSUBID(int0));
     CC_SETPOSITION(0, 0, 1, 1);
     CC_SETSIZE(int2, int3, 0, 0);
-    CC_SETGRAPHIC(7601);
+    CC_SETGRAPHIC(7601 as graphic);
     CC_SETONCLICK(callback(script4207, -2147483645, 0));
     CC_SETONRELEASE(callback(script4207, -2147483645, 1));
     CC_SETTRANS(255);

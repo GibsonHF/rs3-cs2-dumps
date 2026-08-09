@@ -11,11 +11,18 @@ function script18154(int0: number): number {
             return int3;
         };
         while ((int2 < 2)) {
-            if (((script18141(int2, int1) != 1) && ((PLAYERMEMBER() == true) || ((PLAYERMEMBER() == false) && (script18149(int2) != 2))))) {
-                if ((int0 == 0)) {
-                    return 1;
+            if ((script18141(int2, int1) != 1)) {
+                if ((PLAYERMEMBER() == true)) {
+                    if ((int0 == 0)) {
+                        return 1;
+                    };
+                    int4 = (int4 + 1);
+                } else if (((PLAYERMEMBER() == false) && (script18149(int2) != 2))) {
+                    if ((int0 == 0)) {
+                        return 1;
+                    };
+                    int4 = (int4 + 1);
                 };
-                int4 = (int4 + 1);
             };
             int2 = (int2 + 1);
         };

@@ -5,13 +5,14 @@ function script11497(int0: number): void {
     var int2 = -1;
     var int3 = -1;
     if ((int0 == 1)) {
-        int1 = comp(1588, 9);
+        int1 = 104071177;
     } else if ((int0 == 2)) {
-        int1 = comp(1681, 12);
+        int1 = 110166028;
     };
     if (((int1 != comp(-1, 65535)) && (IF_GETNEXTSUBID(int1) == 0))) {
         int3 = ENUM_GETOUTPUTCOUNT(7674 as cs2enum);
-        while ((++int2 < int3)) {
+        int2 = (int2 + 1);
+        while ((int2 < int3)) {
             CC_CREATE(int1, 5, int2);
         };
     };
@@ -40,7 +41,7 @@ function script11497(int0: number): void {
     var int20 = comp(-1, 65535);
     var int21 = comp(-1, 65535);
     var int22 = comp(-1, 65535);
-    var int23 = comp(-1, 65535);
+    var int23 = -1;
     var int24 = comp(-1, 65535);
     var int25 = 0;
     var int26 = 0;
@@ -77,13 +78,13 @@ function script11497(int0: number): void {
     int26 = (MAX(int26, PARAWIDTH("8W 88W", 1000, 26 as fontmetrics)) + 4);
     var int27 = 0;
     var int28 = 0;
-    var int29 = -1 as cs2enum;
+    var int29 = -1;
     var int30 = 0;
     var int31 = 0;
     var int32 = 0;
     var int33 = 1;
     var int34 = 1;
-    var int35 = -1 as stat;
+    var int35 = -1;
     var int36 = script10075();
     while ((int5 < int4)) {
         int6 = TELEMETRY_GET_GROUP_ID(int5);
@@ -106,295 +107,306 @@ function script11497(int0: number): void {
                 int8 = 0;
                 int17 = 0;
                 int16 = 33;
-                if (((int11 > 0) && (int7 > 0))) {
-                    int15 = (int15 + 1);
-                    CC_CREATE(int1, 3, 0);
-                    CC_SETFILL(1);
-                    CC_SETPOSITION(0, 0, 1, 0);
-                    CC_SETSIZE(0, 18, 1, 0);
-                    script10010(28680);
-                    if ((int0 == 1)) {
-                        script12591(6, 30507);
-                    };
-                    CC_SENDTOBACK();
-                    int27 = ((int11 * 27) + 18);
-                    IF_SETSIZE(0, int27, 1, 0, int1);
-                    IF_SETPOSITION(0, int28, 0, 0, int1);
-                    IF_SETSIZE(0, int27, 1, 0, int20);
-                    IF_SETPOSITION(0, int28, 0, 0, int20);
-                    IF_SETSIZE(0, int27, 1, 0, int21);
-                    IF_SETPOSITION(0, int28, 0, 0, int21);
-                    IF_SETSIZE(0, int27, 1, 0, int22);
-                    IF_SETPOSITION(0, int28, 0, 0, int22);
-                    IF_SETSIZE(0, int27, 1, 0, int24);
-                    IF_SETPOSITION(0, int28, 0, 0, int24);
-                    int28 = (int28 + (((int11 * 27) + 18) + 4));
-                    CC_CREATE(int1, 3, 1);
-                    CC_SETFILL(1);
-                    CC_SETPOSITION(0, 18, 1, 0);
-                    CC_SETSIZE(0, (int11 * 27), 1, 0);
-                    script10010(28679);
-                    if ((int0 == 1)) {
-                        script12591(6, 30507);
-                    };
-                    int2 = (2 - 1);
-                    int3 = (2 + ((int10 + 1) * (int7 + 3)));
-                    while ((++int2 < int3)) {
-                        if ((MODULO((int2 - 2), (int7 + 3)) < 3)) {
-                            CC_CREATE(int1, 5, int2);
-                        } else {
-                            CC_CREATE(int1, 4, int2);
+                if ((int11 > 0)) {
+                    if ((int7 > 0)) {
+                        int15 = (int15 + 1);
+                        CC_CREATE(int1, 3, 0);
+                        CC_SETFILL(1);
+                        CC_SETPOSITION(0, 0, 1, 0);
+                        CC_SETSIZE(0, 18, 1, 0);
+                        script10010(28680);
+                        if ((int0 == 1)) {
+                            script12591(6, 30507);
                         };
-                    };
-                    if (((int6 != 1) && (CC_FIND(int1, (2 + 0)) == 1))) {
-                        CC_SETSIZE(25, 25, 0, 0);
-                        CC_SETPOSITION(4, (18 + 1), 0, 0);
-                        CC_SETGRAPHIC(script12288(int6, 1));
-                        string0 = script12292(script12287(int6, 1));
-                        CC_SETONMOUSEREPEAT(callback(script3876, string0, -2147483645, -2147483643));
-                        CC_SETNOCLICKTHROUGH(1);
-                    };
-                    while ((int8 < int7)) {
-                        int9 = TELEMETRY_GET_COLUMN_ID(int5, int8);
-                        int33 = script12281(int9, 0);
-                        int17 = 18;
-                        while ((int12 < int10)) {
-                            int13 = TELEMETRY_GET_ROW_ID(int5, int12);
-                            int34 = script12280(int6, int13, 0);
-                            if ((int33 == 1)) {
-                                if ((int12 == 0)) {
-                                    string0 = enum_getvalue(0, 36, 10039 as cs2enum, int9);
-                                    if (((PARAWIDTH(string0, 1000, 26 as fontmetrics) + 4) < int26)) {
-                                        string1 = string0;
-                                    } else {
-                                        string1 = enum_getvalue(0, 36, 11344 as cs2enum, int9);
-                                    };
-                                    CC_CREATE(int21, 4, IF_GETNEXTSUBID(int21));
-                                    CC_SETSIZE((int26 - 4), 18, 0, 0);
-                                    CC_SETPOSITION(int16, 0, 0, 0);
-                                    CC_SETOP(1, string0);
-                                    CC_SETOP(2, `Remove ${string0} column`);
-                                    CC_SETNOCLICKTHROUGH(true);
-                                    if ((CC_FIND[1](int1, ((2 + 3) + int8)) == 1)) {
-                                        CC_SETSIZE[1](int26, 18, 0, 0);
-                                        CC_SETPOSITION[1](int16, 0, 0, 0);
-                                        CC_SETTEXTFONT[1](26 as fontmetrics);
-                                        CC_SETTEXT[1](script3930(string1, (CC_GETWIDTH[1]() - 4), 1, CC_GETFONTMETRICS[1]()));
-                                        CC_SETTEXTALIGN[1](0, 1, 0);
-                                        CC_SETCOLOUR[1](script10495(3));
-                                        CC_SETTEXTSHADOW[1](true);
-                                        CC_SETPARAM_INT[1](5326, int8);
-                                        if ((strcmp(string0, string1) == 0)) {
-                                            string0 = "";
+                        CC_SENDTOBACK();
+                        int27 = ((int11 * 27) + 18);
+                        IF_SETSIZE(0, int27, 1, 0, int1);
+                        IF_SETPOSITION(0, int28, 0, 0, int1);
+                        IF_SETSIZE(0, int27, 1, 0, int20);
+                        IF_SETPOSITION(0, int28, 0, 0, int20);
+                        IF_SETSIZE(0, int27, 1, 0, int21);
+                        IF_SETPOSITION(0, int28, 0, 0, int21);
+                        IF_SETSIZE(0, int27, 1, 0, int22);
+                        IF_SETPOSITION(0, int28, 0, 0, int22);
+                        IF_SETSIZE(0, int27, 1, 0, int24);
+                        IF_SETPOSITION(0, int28, 0, 0, int24);
+                        int28 = (int28 + (((int11 * 27) + 18) + 4));
+                        CC_CREATE(int1, 3, 1);
+                        CC_SETFILL(1);
+                        CC_SETPOSITION(0, 18, 1, 0);
+                        CC_SETSIZE(0, (int11 * 27), 1, 0);
+                        script10010(28679);
+                        if ((int0 == 1)) {
+                            script12591(6, 30507);
+                        };
+                        int2 = (2 - 1);
+                        int3 = (2 + ((int10 + 1) * (int7 + 3)));
+                        int2 = (int2 + 1);
+                        while ((int2 < int3)) {
+                            if ((MODULO((int2 - 2), (int7 + 3)) < 3)) {
+                                CC_CREATE(int1, 5, int2);
+                            } else {
+                                CC_CREATE(int1, 4, int2);
+                            };
+                        };
+                        if (((int6 != 1) && (CC_FIND(int1, (2 + 0)) == 1))) {
+                            CC_SETSIZE(25, 25, 0, 0);
+                            CC_SETPOSITION(4, (18 + 1), 0, 0);
+                            CC_SETGRAPHIC(script12288(int6, 1));
+                            string0 = script12292(script12287(int6, 1));
+                            CC_SETONMOUSEREPEAT(callback(script3876, string0, -2147483645, -2147483643));
+                            CC_SETNOCLICKTHROUGH(true);
+                        };
+                        while ((int8 < int7)) {
+                            int9 = TELEMETRY_GET_COLUMN_ID(int5, int8);
+                            int33 = script12281(int9, 0);
+                            int17 = 18;
+                            while ((int12 < int10)) {
+                                int13 = TELEMETRY_GET_ROW_ID(int5, int12);
+                                int34 = script12280(int6, int13, 0);
+                                if ((int33 == 1)) {
+                                    if ((int12 == 0)) {
+                                        string0 = enum_getvalue(0, 36, 10039 as cs2enum, int9);
+                                        if (((PARAWIDTH(string0, 1000, 26 as fontmetrics) + 4) < int26)) {
+                                            string1 = string0;
                                         } else {
-                                            string0 = `${string0}<br>`;
+                                            string1 = enum_getvalue(0, 36, 11344, int9);
                                         };
-                                        string0 = `${string0}Select to hide this column.`;
-                                        CC_SETONMOUSEREPEAT(callback(script3876, string0, -2147483645, -2147483643));
+                                        CC_CREATE(int21, 4, IF_GETNEXTSUBID(int21));
+                                        CC_SETSIZE((int26 - 4), 18, 0, 0);
+                                        CC_SETPOSITION(int16, 0, 0, 0);
+                                        CC_SETOP(1, string0);
+                                        CC_SETOP(2, `Remove ${string0} column`);
+                                        CC_SETNOCLICKTHROUGH(true);
+                                        if ((CC_FIND[1](int1, ((2 + 3) + int8)) == 1)) {
+                                            CC_SETSIZE[1](int26, 18, 0, 0);
+                                            CC_SETPOSITION[1](int16, 0, 0, 0);
+                                            CC_SETTEXTFONT[1](26 as fontmetrics);
+                                            CC_SETTEXT[1](script3930(string1, (CC_GETWIDTH[1]() - 4), 1, CC_GETFONTMETRICS[1]()));
+                                            CC_SETTEXTALIGN[1](0, 1, 0);
+                                            CC_SETCOLOUR[1](script10495(3));
+                                            CC_SETTEXTSHADOW[1](true);
+                                            CC_SETPARAM_INT[1](5326, int8);
+                                            if ((strcmp(string0, string1) == 0)) {
+                                                string0 = "";
+                                            } else {
+                                                string0 = `${string0}<br>`;
+                                            };
+                                            string0 = `${string0}Select to hide this column.`;
+                                            CC_SETONMOUSEREPEAT(callback(script3876, string0, -2147483645, -2147483643));
+                                        };
                                     };
-                                };
-                                if (((int34 == 1) && (CC_FIND(int1, (((2 + ((int12 + 1) * (3 + int7))) + 3) + int8)) == 1))) {
-                                    CC_SETPOSITION(int16, int17, 0, 0);
-                                    CC_SETSIZE(int26, 27, 0, 0);
-                                    CC_SETTEXTFONT(26 as fontmetrics);
-                                    CC_SETTEXTALIGN(0, 1, 0);
-                                    int18 = TELEMETRY_GET_GRID_VALUE(int5, int12, int8);
-                                    int2 = script12285(int6, int13);
-                                    if (((((int0 == 1) && (int9 == 1)) && (varbitclient_2053 == 1)) && (CC_FIND[1](comp(1477, 688), int2) == 1))) {
-                                        cc_setparam[1](5945, CLIENTCLOCK());
-                                        CC_SETHIDE[1](false);
-                                        cc_setparam[1](5848, int1);
-                                        cc_setparam[1](4423, CC_GETID());
-                                        if ((cc_getparam[1](5946) == enum_getvalue(126, 0, 11379 as cs2enum, varplayer_5884))) {
-                                            int19 = script11853((int18 - cc_getparam[1](5947)), int9);
-                                            if ((int19 > 0)) {
-                                                string0 = `+${script11498(int19, int13, int9, -1)}`;
-                                                CC_SETTRANS[1](0);
-                                                cc_setparam[1](5839, 500);
-                                            } else if ((int19 == 0)) {
-                                                string0 = CC_GETTEXT[1]();
-                                                if (((CC_GETX[1]() + CC_GETWIDTH[1]()) <= 0)) {
+                                    if (((int34 == 1) && (CC_FIND(int1, (((2 + ((int12 + 1) * (3 + int7))) + 3) + int8)) == 1))) {
+                                        CC_SETPOSITION(int16, int17, 0, 0);
+                                        CC_SETSIZE(int26, 27, 0, 0);
+                                        CC_SETTEXTFONT(26 as fontmetrics);
+                                        CC_SETTEXTALIGN(0, 1, 0);
+                                        int18 = TELEMETRY_GET_GRID_VALUE(int5, int12, int8);
+                                        int2 = script12285(int6, int13);
+                                        if (((((int0 == 1) && (int9 == 1)) && (varbitclient_2053 == 1)) && (CC_FIND[1](comp(1477, 688), int2) == 1))) {
+                                            cc_setparam[1](5945, CLIENTCLOCK());
+                                            CC_SETHIDE[1](false);
+                                            cc_setparam[1](5848, int1);
+                                            cc_setparam[1](4423, CC_GETID());
+                                            if ((cc_getparam[1](5946) == enum_getvalue(126, 0, 11379, varplayer_5884))) {
+                                                int19 = script11853((int18 - cc_getparam[1](5947)), int9);
+                                                if ((int19 > 0)) {
+                                                    string0 = `+${script11498(int19, int13, int9, -1)}`;
+                                                    CC_SETTRANS[1](0);
+                                                    cc_setparam[1](5839, 500);
+                                                } else if ((int19 == 0)) {
+                                                    string0 = CC_GETTEXT[1]();
+                                                    if (((CC_GETX[1]() + CC_GETWIDTH[1]()) <= 0)) {
+                                                        CC_SETTRANS[1](255);
+                                                    };
+                                                } else {
+                                                    string0 = "";
                                                     CC_SETTRANS[1](255);
                                                 };
                                             } else {
                                                 string0 = "";
+                                                cc_setparam[1](5946, enum_getvalue(126, 0, 11379, varplayer_5884));
                                                 CC_SETTRANS[1](255);
                                             };
-                                        } else {
-                                            string0 = "";
-                                            cc_setparam[1](5946, enum_getvalue(126, 0, 11379 as cs2enum, varplayer_5884));
-                                            CC_SETTRANS[1](255);
+                                            CC_SETTEXT[1](string0);
+                                            cc_setparam[1](5947, int18);
                                         };
-                                        CC_SETTEXT[1](string0);
-                                        cc_setparam[1](5947, int18);
-                                    };
-                                    if (((int9 == 1) && (int18 == 2147483647))) {
-                                        string0 = "Lots!";
-                                        CC_SETTEXT(script3930(string0, (CC_GETWIDTH() - 4), 1, CC_GETFONTMETRICS()));
-                                    } else {
-                                        int18 = script11853(int18, int9);
-                                        string0 = script11498(int18, int13, int9, -1);
-                                        CC_SETTEXT(string0);
-                                    };
-                                    CC_SETCOLOUR(16777215);
-                                    CC_SETTEXTSHADOW(true);
-                                    CC_SETPARAM_INT(5325, int12);
-                                    CC_SETPARAM_INT(5326, int8);
-                                    cc_setparam(5946, int9);
-                                    CC_SETONMOUSEREPEAT(callback(script12599, -2147483645, -2147483643, int2, int10, int7));
-                                };
-                            } else if ((int12 == 0)) {
-                                CC_CREATE(int21, 4, IF_GETNEXTSUBID(int21));
-                                CC_SETPOSITION(int16, 0, 0, 0);
-                            };
-                            if ((int8 == 0)) {
-                                if ((int34 == 1)) {
-                                    if ((((int6 == 1) && (int13 != -1)) && (CC_FIND(int1, ((2 + ((int12 + 1) * (3 + int7))) + 0)) == 1))) {
-                                        CC_SETSIZE(25, 25, 0, 0);
-                                        CC_SETPOSITION(4, (int17 + 1), 0, 0);
-                                        CC_SETGRAPHIC(script12288(int6, int13));
+                                        if ((int9 == 1)) {
+                                            if ((int18 == 2147483647)) {
+                                                string0 = "Lots!";
+                                                CC_SETTEXT(script3930(string0, (CC_GETWIDTH() - 4), 1, CC_GETFONTMETRICS()));
+                                            } else {
+                                                int18 = script11853(int18, int9);
+                                                string0 = script11498(int18, int13, int9, -1);
+                                                CC_SETTEXT(string0);
+                                            };
+                                        } else {
+                                            int18 = script11853(int18, int9);
+                                            string0 = script11498(int18, int13, int9, -1);
+                                            CC_SETTEXT(string0);
+                                        };
+                                        CC_SETCOLOUR(16777215);
+                                        CC_SETTEXTSHADOW(true);
                                         CC_SETPARAM_INT(5325, int12);
-                                        int35 = enum_getvalue(0, 17, 681 as cs2enum, int13);
-                                        int36 = script10075();
-                                        int2 = CC_GETID();
-                                        if ((int35 != -1 as stat)) {
-                                            CC_SETONMOUSEREPEAT(callback(script545, int1, int2, int35, int36, 0));
-                                            CC_SETONMOUSELEAVE(callback(script546, int36));
-                                        } else {
-                                            string0 = script12292(script12287(int6, int13));
-                                            if ((int13 == 0)) {
-                                                if ((varbitplayer_19007 == 1)) {
-                                                    string0 = `${string0}<br>Total level: ${inttostring(script11866(), 10)}`;
-                                                } else {
-                                                    string0 = `${string0}<br>Total level: ${inttostring(script2761(), 10)}`;
-                                                };
-                                                if ((script9201() == 1)) {
-                                                    string0 = `${string0}<br>Total XP: ${script8019(0)}<br>Bonus XP: <col=00FF00>${script9202()}`;
-                                                } else {
-                                                    string0 = `${string0}<br>Total XP: ${script8019(0)}`;
-                                                };
-                                            } else if ((int13 == 30)) {
-                                                string0 = `${string0}<br>Combat level: ${inttostring(script1432(), 10)}`;
-                                            };
-                                            CC_SETONMOUSEREPEAT(callback(script3876, string0, -2147483645, -2147483643));
-                                        };
-                                        CC_SETNOCLICKTHROUGH(true);
+                                        CC_SETPARAM_INT(5326, int8);
+                                        cc_setparam(5946, int9);
+                                        CC_SETONMOUSEREPEAT(callback(script12599, -2147483645, -2147483643, int2, int10, int7));
                                     };
-                                    if ((CC_FIND[1](int1, ((2 + ((int12 + 1) * (3 + int7))) + 1)) == 1)) {
-                                        CC_CREATE(int20, 4, IF_GETNEXTSUBID(int20));
-                                        CC_SETSIZE(25, 25, 0, 0);
-                                        CC_SETPOSITION(4, (int17 + 1), 0, 0);
-                                        CC_SETSIZE[1](8, 8, 0, 0);
-                                        CC_SETPOSITION[1](0, ((int17 + (27 / 2)) - (8 / 2)), 0, 0);
-                                        CC_SETGRAPHIC[1](26778 as graphic);
-                                        CC_SETPARAM_INT[1](5325, int12);
-                                        CC_SETPARAM_INT[1](5638, 1);
-                                        if ((TELEMETRY_IS_ROW_PINNED(int5, int12) == 1)) {
-                                            CC_SETOP(1, "Unpin row");
-                                        } else {
-                                            CC_SETOP(1, "Pin row");
-                                            CC_SETHIDE[1](true);
-                                        };
-                                        if ((int6 == 1)) {
-                                            int35 = enum_getvalue(0, 17, 681 as cs2enum, int13);
-                                            if ((int35 != -1 as stat)) {
-                                                CC_SETOP(2, "Set level target");
-                                                CC_SETOP(3, "Set XP target");
-                                                CC_SETOP(4, "Clear target");
-                                            };
-                                        };
-                                        CC_SETOP(5, "Send to Graph");
-                                        CC_SETOP(6, "Hide row");
-                                        CC_SETOP(7, "Remove row");
-                                        if ((varplayer_5884 == 0 as telemetry_interval)) {
-                                            CC_SETOP(8, "---");
-                                            CC_SETOP(9, "Reset row");
-                                            CC_SETOP(10, "Reset all rows");
-                                        };
-                                        CC_SETONOP(callback(script12598, -2147483644, int6, int13, int1, CC_GETID[1]()));
-                                    };
-                                    if ((CC_FIND(int1, ((2 + ((int12 + 1) * (3 + int7))) + 2)) == 1)) {
-                                        CC_SETPOSITION(33, int17, 0, 0);
-                                        CC_SETSIZE(33, 27, 1, 0);
-                                    };
-                                } else {
-                                    CC_CREATE(int20, 4, IF_GETNEXTSUBID(int20));
+                                } else if ((int12 == 0)) {
+                                    CC_CREATE(int21, 4, IF_GETNEXTSUBID(int21));
+                                    CC_SETPOSITION(int16, 0, 0, 0);
                                 };
-                                if ((int11 > 1)) {
+                                if ((int8 == 0)) {
                                     if ((int34 == 1)) {
-                                        CC_CREATE(int22, 4, IF_GETNEXTSUBID(int22));
-                                        CC_SETSIZE(25, 25, 0, 0);
-                                        CC_SETPOSITION(4, (int17 + 1), 0, 0);
-                                        CC_SENDTOFRONT();
-                                        CC_SETPARAM_INT(5325, int12);
-                                        script11832(int22, int1, 2, int5, int12, int8, int0);
-                                        CC_CREATE(int22, 4, IF_GETNEXTSUBID(int22));
-                                        CC_SETSIZE(25, 25, 0, 0);
-                                        CC_SETPOSITION(4, (int17 + 1), 0, 0);
-                                        CC_SETPARAM_INT(5325, int12);
-                                        CC_SETONMOUSEOVER(callback(script11830, CC_GETID(), int22, int1, int0, int26));
-                                        CC_SETONMOUSELEAVE(callback(script11831, int0));
+                                        if ((((int6 == 1) && (int13 != -1)) && (CC_FIND(int1, ((2 + ((int12 + 1) * (3 + int7))) + 0)) == 1))) {
+                                            CC_SETSIZE(25, 25, 0, 0);
+                                            CC_SETPOSITION(4, (int17 + 1), 0, 0);
+                                            CC_SETGRAPHIC(script12288(int6, int13));
+                                            CC_SETPARAM_INT(5325, int12);
+                                            int35 = enum_getvalue(0, 17, 681, int13);
+                                            int36 = script10075();
+                                            int2 = CC_GETID();
+                                            if ((int35 != -1)) {
+                                                CC_SETONMOUSEREPEAT(callback(script545, int1, int2, int35, int36, 0));
+                                                CC_SETONMOUSELEAVE(callback(script546, int36));
+                                            } else {
+                                                string0 = script12292(script12287(int6, int13));
+                                                if ((int13 == 0)) {
+                                                    if ((varbitplayer_19007 == 1)) {
+                                                        string0 = `${string0}<br>Total level: ${inttostring(script11866(), 10)}`;
+                                                    } else {
+                                                        string0 = `${string0}<br>Total level: ${inttostring(script2761(), 10)}`;
+                                                    };
+                                                    if ((script9201() == 1)) {
+                                                        string0 = `${string0}<br>Total XP: ${script8019(0)}<br>Bonus XP: <col=00FF00>${script9202()}`;
+                                                    } else {
+                                                        string0 = `${string0}<br>Total XP: ${script8019(0)}`;
+                                                    };
+                                                } else if ((int13 == 30)) {
+                                                    string0 = `${string0}<br>Combat level: ${inttostring(script1432(), 10)}`;
+                                                };
+                                                CC_SETONMOUSEREPEAT(callback(script3876, string0, -2147483645, -2147483643));
+                                            };
+                                            CC_SETNOCLICKTHROUGH(true);
+                                        };
+                                        if ((CC_FIND[1](int1, ((2 + ((int12 + 1) * (3 + int7))) + 1)) == 1)) {
+                                            CC_CREATE(int20, 4, IF_GETNEXTSUBID(int20));
+                                            CC_SETSIZE(25, 25, 0, 0);
+                                            CC_SETPOSITION(4, (int17 + 1), 0, 0);
+                                            CC_SETSIZE[1](8, 8, 0, 0);
+                                            CC_SETPOSITION[1](0, ((int17 + (27 / 2)) - (8 / 2)), 0, 0);
+                                            CC_SETGRAPHIC[1](26778 as graphic);
+                                            CC_SETPARAM_INT[1](5325, int12);
+                                            CC_SETPARAM_INT[1](5638, 1);
+                                            if ((TELEMETRY_IS_ROW_PINNED(int5, int12) == 1)) {
+                                                CC_SETOP(1, "Unpin row");
+                                            } else {
+                                                CC_SETOP(1, "Pin row");
+                                                CC_SETHIDE[1](true);
+                                            };
+                                            if ((int6 == 1)) {
+                                                int35 = enum_getvalue(0, 17, 681, int13);
+                                                if ((int35 != -1)) {
+                                                    CC_SETOP(2, "Set level target");
+                                                    CC_SETOP(3, "Set XP target");
+                                                    CC_SETOP(4, "Clear target");
+                                                };
+                                            };
+                                            CC_SETOP(5, "Send to Graph");
+                                            CC_SETOP(6, "Hide row");
+                                            CC_SETOP(7, "Remove row");
+                                            if ((varplayer_5884 == 0)) {
+                                                CC_SETOP(8, "---");
+                                                CC_SETOP(9, "Reset row");
+                                                CC_SETOP(10, "Reset all rows");
+                                            };
+                                            CC_SETONOP(callback(script12598, -2147483644, int6, int13, int1, CC_GETID[1]()));
+                                        };
+                                        if ((CC_FIND(int1, ((2 + ((int12 + 1) * (3 + int7))) + 2)) == 1)) {
+                                            CC_SETPOSITION(33, int17, 0, 0);
+                                            CC_SETSIZE(33, 27, 1, 0);
+                                        };
+                                    } else {
+                                        CC_CREATE(int20, 4, IF_GETNEXTSUBID(int20));
+                                    };
+                                    if ((int11 > 1)) {
+                                        if ((int34 == 1)) {
+                                            CC_CREATE(int22, 4, IF_GETNEXTSUBID(int22));
+                                            CC_SETSIZE(25, 25, 0, 0);
+                                            CC_SETPOSITION(4, (int17 + 1), 0, 0);
+                                            CC_SENDTOFRONT();
+                                            CC_SETPARAM_INT(5325, int12);
+                                            script11832(int22, int1, 2, int5, int12, int8, int0);
+                                            CC_CREATE(int22, 4, IF_GETNEXTSUBID(int22));
+                                            CC_SETSIZE(25, 25, 0, 0);
+                                            CC_SETPOSITION(4, (int17 + 1), 0, 0);
+                                            CC_SETPARAM_INT(5325, int12);
+                                            CC_SETONMOUSEOVER(callback(script11830, CC_GETID(), int22, int1, int0, int26));
+                                            CC_SETONMOUSELEAVE(callback(script11831, int0));
+                                        } else {
+                                            CC_CREATE(int22, 4, IF_GETNEXTSUBID(int22));
+                                            CC_CREATE(int22, 4, IF_GETNEXTSUBID(int22));
+                                        };
                                     } else {
                                         CC_CREATE(int22, 4, IF_GETNEXTSUBID(int22));
                                         CC_CREATE(int22, 4, IF_GETNEXTSUBID(int22));
                                     };
-                                } else {
-                                    CC_CREATE(int22, 4, IF_GETNEXTSUBID(int22));
-                                    CC_CREATE(int22, 4, IF_GETNEXTSUBID(int22));
+                                };
+                                int12 = (int12 + 1);
+                                if ((int34 == 1)) {
+                                    int17 = (int17 + 27);
                                 };
                             };
-                            int12 = (int12 + 1);
-                            if ((int34 == 1)) {
-                                int17 = (int17 + 27);
+                            if ((int33 == 1)) {
+                                CC_CREATE(int22, 4, IF_GETNEXTSUBID(int22));
+                                CC_SETSIZE((int26 - 4), 18, 0, 0);
+                                CC_SETPOSITION(int16, 0, 0, 0);
+                                CC_SETPARAM_INT(5326, int8);
+                                script11832(int22, int1, 1, int5, int12, int8, int0);
+                                CC_CREATE(int22, 4, IF_GETNEXTSUBID(int22));
+                                CC_SETSIZE((int26 - 4), 18, 0, 0);
+                                CC_SETPOSITION(int16, 0, 0, 0);
+                                CC_SETPARAM_INT(5326, int8);
+                                CC_SETONMOUSEOVER(callback(script11830, CC_GETID(), int22, int1, int0, int26));
+                                CC_SETONMOUSELEAVE(callback(script11831, int0));
+                                int16 = (int16 + int26);
+                            } else {
+                                CC_CREATE(int22, 4, IF_GETNEXTSUBID(int22));
+                                CC_CREATE(int22, 4, IF_GETNEXTSUBID(int22));
                             };
+                            int8 = (int8 + 1);
+                            int12 = 0;
                         };
-                        if ((int33 == 1)) {
-                            CC_CREATE(int22, 4, IF_GETNEXTSUBID(int22));
-                            CC_SETSIZE((int26 - 4), 18, 0, 0);
-                            CC_SETPOSITION(int16, 0, 0, 0);
-                            CC_SETPARAM_INT(5326, int8);
-                            script11832(int22, int1, 1, int5, int12, int8, int0);
-                            CC_CREATE(int22, 4, IF_GETNEXTSUBID(int22));
-                            CC_SETSIZE((int26 - 4), 18, 0, 0);
-                            CC_SETPOSITION(int16, 0, 0, 0);
-                            CC_SETPARAM_INT(5326, int8);
-                            CC_SETONMOUSEOVER(callback(script11830, CC_GETID(), int22, int1, int0, int26));
-                            CC_SETONMOUSELEAVE(callback(script11831, int0));
-                            int16 = (int16 + int26);
-                        } else {
-                            CC_CREATE(int22, 4, IF_GETNEXTSUBID(int22));
-                            CC_CREATE(int22, 4, IF_GETNEXTSUBID(int22));
-                        };
-                        int8 = (int8 + 1);
-                        int12 = 0;
-                    };
-                    script11824(int23);
-                    int31 = script11835(int6);
-                    if (((TELEMETRY_GET_COLUMN_COUNT(int5) < int31) && (script12278() == 1))) {
-                        IF_SETHIDE(false, int23);
-                        IF_SETPOSITION(int16, 0, 0, 0, int23);
-                        IF_SETOP(1, "Show all columns", int23);
-                        if ((script6431() == 1)) {
-                            string0 = "Tap to show all columns, or press and hold to add individual columns.";
-                        } else {
-                            string0 = "Left-click to show all columns, or right-click to add individual columns.";
-                        };
-                        IF_SETONMOUSEREPEAT(callback(script3876, string0, -2147483645, -2147483643), int23);
-                        int29 = enum_getvalue(0, 26, 10367, int6);
-                        if ((int29 != -1)) {
-                            int30 = 0;
-                            while ((int30 < int31)) {
-                                int32 = enum_getvalue(0, 0, int29, int30);
-                                if ((TELEMETRY_GET_COLUMN_INDEX(int5, int32) == -1)) {
-                                    IF_SETOP((int30 + 1), `Show ${enum_getvalue(0, 36, 10039 as cs2enum, int32)}`, int23);
+                        script11824(int23);
+                        int31 = script11835(int6);
+                        if (((TELEMETRY_GET_COLUMN_COUNT(int5) < int31) && (script12278() == 1))) {
+                            IF_SETHIDE(false, int23);
+                            IF_SETPOSITION(int16, 0, 0, 0, int23);
+                            IF_SETOP(1, "Show all columns", int23);
+                            if ((script6431() == 1)) {
+                                string0 = "Tap to show all columns, or press and hold to add individual columns.";
+                            } else {
+                                string0 = "Left-click to show all columns, or right-click to add individual columns.";
+                            };
+                            IF_SETONMOUSEREPEAT(callback(script3876, string0, -2147483645, -2147483643), int23);
+                            int29 = enum_getvalue(0, 26, 10367, int6);
+                            if ((int29 != -1)) {
+                                int30 = 0;
+                                while ((int30 < int31)) {
+                                    int32 = enum_getvalue(0, 0, int29, int30);
+                                    if ((TELEMETRY_GET_COLUMN_INDEX(int5, int32) == -1)) {
+                                        IF_SETOP((int30 + 1), `Show ${enum_getvalue(0, 36, 10039, int32)}`, int23);
+                                    };
+                                    int30 = (int30 + 1);
                                 };
-                                int30 = (int30 + 1);
                             };
+                            int16 = (int16 + 20);
                         };
-                        int16 = (int16 + 20);
-                    };
-                    if ((CC_FIND(int1, 1) == 1)) {
-                        CC_SENDTOBACK();
+                        if ((CC_FIND(int1, 1) == 1)) {
+                            CC_SENDTOBACK();
+                        };
+                    } else {
+                        script11824(int23);
                     };
                 } else {
                     script11824(int23);
@@ -448,26 +460,30 @@ function script11497(int0: number): void {
         int25 = MAX(int25, int16);
         int5 = (int5 + 1);
     };
-    if (((script12278() == 0) && (varbitplayer_30731 == 0))) {
-        int4 = ENUM_GETOUTPUTCOUNT(10365 as cs2enum);
+    if ((script12278() == 0)) {
+        if ((varbitplayer_30731 == 0)) {
+            int4 = ENUM_GETOUTPUTCOUNT(10365 as cs2enum);
+        } else {
+            int4 = -1;
+        };
     } else {
         int4 = -1;
     };
     int5 = 0;
     while ((int5 < int4)) {
-        int6 = enum_getvalue(0, 0, 10365 as cs2enum, int5);
+        int6 = enum_getvalue(0, 0, 10365, int5);
         if ((script12282(int6, 1) == 1)) {
             [int1, int20, int21, int22, int23, int24] = script11495(int6, int0);
-            if ((((((int1 != comp(-1, 65535)) && (int20 != comp(-1, 65535))) && (int21 != comp(-1, 65535))) && (int22 != comp(-1, 65535))) && (CC_FIND[1](int21, (IF_GETNEXTSUBID(int21) - 1)) == 1))) {
+            if ((((((int1 != -1) && (int20 != -1)) && (int21 != -1)) && (int22 != -1)) && (CC_FIND[1](int21, (IF_GETNEXTSUBID(int21) - 1)) == 1))) {
                 int16 = MAX(33, (CC_GETX[1]() + CC_GETWIDTH[1]()));
-                int29 = enum_getvalue(0, 26, 10367 as cs2enum, int6);
-                if ((int29 != -1 as cs2enum)) {
+                int29 = enum_getvalue(0, 26, 10367, int6);
+                if ((int29 != -1)) {
                     int8 = 0;
                     int31 = script11835(int6);
                     while ((int8 < int31)) {
                         int9 = enum_getvalue(0, 0, int29, int8);
                         if (((script12281(int9, 1) == 1) && (script12281(int9, 0) == 0))) {
-                            string0 = enum_getvalue(0, 36, 10039 as cs2enum, int9);
+                            string0 = enum_getvalue(0, 36, 10039, int9);
                             CC_CREATE(int1, 5, IF_GETNEXTSUBID(int1));
                             CC_SETGRAPHIC(26163 as graphic);
                             CC_SETCOLOUR(script10495(3));
@@ -480,7 +496,7 @@ function script11497(int0: number): void {
                             if (((PARAWIDTH(string0, 1000, CC_GETFONTMETRICS()) + 2) < CC_GETWIDTH())) {
                                 string1 = string0;
                             } else {
-                                string1 = enum_getvalue(0, 36, 11344 as cs2enum, int9);
+                                string1 = enum_getvalue(0, 36, 11344, int9);
                             };
                             CC_SETTEXT(script3930(string1, (CC_GETWIDTH() - 2), 1, CC_GETFONTMETRICS()));
                             CC_SETTEXTALIGN(0, 1, 0);
@@ -524,7 +540,7 @@ function script11497(int0: number): void {
                         CC_SETONTIMER(callback(script12347, -2147483645, -2147483643, script10495(3)));
                         CC_SETONCLICK(callback(script2140, -2147483645, -2147483643, 180));
                         CC_SETONRELEASE(callback(script2140, -2147483645, -2147483643, 205));
-                        CC_SETNOCLICKTHROUGH(1);
+                        CC_SETNOCLICKTHROUGH(true);
                         string0 = "Click here to upgrade";
                         CC_SETONMOUSEREPEAT(callback(script3876, string0, -2147483645, -2147483643));
                         CC_SETOP(1, "Upgrade");
@@ -537,9 +553,9 @@ function script11497(int0: number): void {
         };
         int5 = (int5 + 1);
     };
-    var int37 = comp(1588, 5);
+    var int37 = 104071173;
     if ((int0 == 2)) {
-        int37 = comp(1681, 8);
+        int37 = 110166024;
     };
     if ((int14 == 0)) {
         IF_SETHIDE(false, int37);
@@ -549,7 +565,9 @@ function script11497(int0: number): void {
     } else {
         IF_SETHIDE(true, int37);
         varclient_5495 = (33 + int26);
-        if ((((script12278() == 1) || (varbitplayer_30731 == 1)) || (((varbitplayer_30615 == 0) && (varbitplayer_30731 == 0)) && (varbitplayer_28120 == 1)))) {
+        if (((script12278() == 1) || (varbitplayer_30731 == 1))) {
+            varclient_5495 = (varclient_5495 - 4);
+        } else if ((((varbitplayer_30615 == 0) && (varbitplayer_30731 == 0)) && (varbitplayer_28120 == 1))) {
             varclient_5495 = (varclient_5495 - 4);
         };
         if (((int25 > ((33 + int26) + 20)) && (varbitplayer_28120 == 0))) {
@@ -564,22 +582,22 @@ function script11497(int0: number): void {
     if (((int0 == 1) && (script12616(script10405(28)) == 1))) {
         int38 = 1;
     };
-    var int39 = comp(-1, 65535);
-    var int40 = comp(-1, 65535);
-    var int41 = comp(-1, 65535);
+    var int39 = -1;
+    var int40 = -1;
+    var int41 = -1;
     var int42 = -1;
     if ((int0 == 2)) {
-        int39 = comp(1681, 13);
-        int40 = comp(1681, 14);
-        int41 = comp(1681, 5);
+        int39 = 110166029;
+        int40 = 110166030;
+        int41 = 110166021;
         int42 = 110166022;
         script11825(int0, int25, int14, int15, int39, int40, int41, 110166020, 110166050, varclient_5074, varclient_5075);
         IF_SETONSCROLLWHEEL(callback(), int41);
         script12597(int42, int39, int40, int41);
     } else if (((int0 == 1) && (IF_HASSUBOVERLAY(comp(1477, 343), 1588 as overlayinterface) == 1))) {
-        int39 = comp(1588, 10);
-        int40 = comp(1588, 11);
-        int41 = comp(1588, 2);
+        int39 = 104071178;
+        int40 = 104071179;
+        int41 = 104071170;
         int42 = 104071171;
         if ((varbitplayer_27169 == 1)) {
             script12603();
@@ -595,7 +613,7 @@ function script11497(int0: number): void {
             script12597(int42, int39, int40, int41);
         };
     };
-    if ((varplayer_5884 == 1 as telemetry_interval)) {
+    if ((varplayer_5884 == 1)) {
         IF_SETHIDE(false, comp(1588, 33));
         IF_SETHIDE(false, comp(1681, 43));
         script11823();

@@ -14,7 +14,8 @@ function script739(int0: number): number {
         while ((int2 <= 3)) {
             int4 = MODULO(int3, 36);
             while ((push_array(int4) != 0)) {
-                if ((++int4 == 36)) {
+                int4 = (int4 + 1);
+                if ((int4 == 36)) {
                     int4 = 0;
                 };
             };

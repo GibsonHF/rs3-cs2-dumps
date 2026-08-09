@@ -6,9 +6,13 @@ function script9226(int0: number, int1: number, int2: number): void {
     };
     script13826(int0, int1, int2, script8404(33882313));
     if ((script6431() == 1)) {
-        if (((int0 == 93 as inv) && (IF_GETHIDE(comp(276, 18)) == true))) {
-            IF_SETHIDE(false, comp(276, 18));
-            script16539();
+        if ((int0 == 93 as inv)) {
+            if ((IF_GETHIDE(comp(276, 18)) == true)) {
+                IF_SETHIDE(false, comp(276, 18));
+                script16539();
+            } else {
+                script16540();
+            };
         } else {
             script16540();
         };

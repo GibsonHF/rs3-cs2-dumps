@@ -17,11 +17,11 @@ function script7937(): void {
     IF_SETPLAYERMODEL_SELF(93061166);
     stack(93061167);
     unk11064();
-    IF_SETMODELZOOM(950, 93061167);
-    IF_SETMODELANGLE(0, 130, 0, 0, 0, 160, 93061166);
-    IF_SETMODELANGLE(-70, 0, 0, 0, 0, 950, 93061167);
+    IF_SETMODELZOOM(950, comp(1420, 47));
+    IF_SETMODELANGLE(0, 130, 0, 0, 0, 160, comp(1420, 46));
+    IF_SETMODELANGLE(-70, 0, 0, 0, 0, 950, comp(1420, 47));
     script8154();
-    IF_SETONKEY(callback(script7833, -2147483640, -2147483639), 93061129);
+    IF_SETONKEY(callback(script7833, -2147483640, -2147483639), comp(1420, 9));
     if ((script13749() == 1)) {
         IF_SETHIDE(true, comp(1420, 16));
         IF_SETHIDE(false, comp(1420, 17));

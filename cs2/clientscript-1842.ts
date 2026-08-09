@@ -7,8 +7,8 @@ function script1842(int0: number, int1: number, int2: number): void {
     var int5 = int1;
     var int6 = int1;
     var int7 = 0;
-    var int8 = -1 as struct;
-    var int9 = -1 as struct;
+    var int8 = -1;
+    var int9 = -1;
     while ((int6 < int2)) {
         int8 = enum_getvalue(0, 73, 1805 as cs2enum, push_array(int6));
         int9 = enum_getvalue(0, 73, 1805 as cs2enum, int4);

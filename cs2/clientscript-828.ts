@@ -9,7 +9,7 @@ function script828(int0: number, int1: number, int2: number, int3: number, int4:
     var int17 = 0;
     if (((varclient_89 == false) || (varclient_89 == false))) {
         varclient_2249 = "";
-        varclient_89 = true;
+        varclient_89 = 1;
     };
     while ((int17 <= int16)) {
         pop_array(int17, int17);

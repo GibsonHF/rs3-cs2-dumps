@@ -1,11 +1,10 @@
 //
 function script3711(int0: number, int1: number): void {
-    stack(-1);
-    stack("");
+    stack(callback());
     stack(int1);
     IF_SETONRELEASE();
     script5576(86638606, int0);
-    IF_SETHIDE(1, 86638608);
-    IF_SETHIDE(1, 86638607);
+    IF_SETHIDE(true, comp(1322, 16));
+    IF_SETHIDE(true, comp(1322, 15));
     return;
 }

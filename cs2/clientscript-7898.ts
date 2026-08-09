@@ -16,7 +16,7 @@ function script7898(): void {
         int0 = (int0 * -1);
         int1 = 1;
     };
-    IF_SETONTIMER(callback(script7899, (CLIENTCLOCK() + 10), int0, int1, 50), 93061131);
+    IF_SETONTIMER(callback(script7899, (CLIENTCLOCK() + 10), int0, int1, 50), comp(1420, 11));
     varclient_3483 = GET_MOUSEX();
     return;
 }

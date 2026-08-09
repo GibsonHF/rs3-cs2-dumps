@@ -14,8 +14,7 @@ function script16876(int0: number, int1: number, int2: number): void {
     stack(315504);
     stack(int4);
     DB_FIND(0);
-    dbrow_findnext();
-    var int5 = stack();
+    var int5 = dbrow_findnext();
     if ((int5 == -1)) {
         script2995(int1, 0, 0, 0, 1, 1, 20, 20, 1, 1, -1, "Fresh Start Worlds is over!");
         CC_SETTEXTALIGN(1, 1, 0);
@@ -32,7 +31,8 @@ function script16876(int0: number, int1: number, int2: number): void {
         int10 = 21652;
     };
     if ((CC_FIND[1](int1, 0) == 1)) {
-        while ((++int7 < int6)) {
+        int7 = (int7 + 1);
+        while ((int7 < int6)) {
             int8 = dbrow_getfield(int5, 315552, int7);
             if ((enum_hasoutput(0, 14156 as cs2enum, int8) == 0)) {
                 string0 = script16830(int3, int8, int0);

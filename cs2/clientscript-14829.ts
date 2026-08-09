@@ -3,8 +3,8 @@ function script14829(string0: string): void {
     CC_DELETEALL(comp(685, 81));
     CC_DELETEALL(comp(685, 82));
     var int0 = db_find_with_count(364688, 1, 0);
-    var int1 = -1 as dbrow;
-    var int2 = -1 as obj;
+    var int1 = -1;
+    var int2 = -1;
     var int3 = 11952;
     var int4 = 40;
     var int5 = 36;
@@ -25,9 +25,9 @@ function script14829(string0: string): void {
     var int12 = 0;
     var int13 = -1;
     var int14 = 0;
-    while ((++int13 < int0)) {
-        dbrow_findnext();
-        int1 = stack();
+    int13 = (int13 + 1);
+    while ((int13 < int0)) {
+        int1 = dbrow_findnext();
         if ((int1 != -1)) {
             int2 = dbrow_getfield(int1, 364640, 0);
             if ((STRING_INDEXOF_STRING(LOWERCASE(OC_NAME(int2)), LOWERCASE(string0), 0) != -1)) {

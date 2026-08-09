@@ -2,7 +2,7 @@
 function script7260(): void {
     var int0 = 0;
     var string0 = "";
-    var int1 = -1 as struct;
+    var int1 = -1;
     var int2 = -1;
     var int3 = ENUM_GETOUTPUTCOUNT(7120 as cs2enum);
     IF_SETSCROLLSIZE(IF_GETWIDTH(comp(1378, 15)), (int3 * 50), comp(1378, 15));
@@ -20,11 +20,11 @@ function script7260(): void {
             CC_SETGRAPHIC(14945 as graphic);
             string0 = `${struct_getparam(int1, 3044)}<br><br>${struct_getparam(int1, 3045)}`;
             CC_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643));
-            CC_CREATE(90308628, 4, int0);
+            CC_CREATE(comp(1378, 20), 4, int0);
             CC_SETPOSITION(5, (int0 * 50), 0, 0);
             CC_SETSIZE(0, 50, 1, 0);
             CC_SETTEXTALIGN(0, 1, 0);
-            CC_SETTEXTFONT(27);
+            CC_SETTEXTFONT(27 as fontmetrics);
             if ((int0 == varclient_2244)) {
                 CC_SETCOLOUR(script10495(4));
             } else {
@@ -67,7 +67,7 @@ function script7260(): void {
                 CC_SETGRAPHIC(14939 as graphic);
             };
             CC_SETONMOUSEREPEAT(callback(script7271, -2147483645, -2147483643, -1, string0, 0, 150));
-            CC_CREATE(90308625, 5, ((3 * int0) + 1));
+            CC_CREATE(comp(1378, 17), 5, ((3 * int0) + 1));
             CC_SETSIZE(38, 38, 0, 0);
             CC_SETPOSITION(0, (6 + (int0 * 50)), 1, 0);
             if ((script7265(1, int0) == 1)) {
@@ -91,7 +91,7 @@ function script7260(): void {
                 if ((script7266(1, int0) == 1)) {
                     CC_SETOP(1, "Claim-Reward");
                     CC_SETONOP(callback(script7263, ((3 * int0) + 1)));
-                    CC_SETGRAPHIC(14934);
+                    CC_SETGRAPHIC(14934 as graphic);
                     string0 = `${string0}<br><br>Reward: available`;
                 } else {
                     CC_SETGRAPHIC(14937 as graphic);
@@ -101,7 +101,7 @@ function script7260(): void {
                 CC_SETGRAPHIC(14940 as graphic);
             };
             CC_SETONMOUSEREPEAT(callback(script7271, -2147483645, -2147483643, -1, string0, 0, 150));
-            CC_CREATE(90308625, 5, ((3 * int0) + 2));
+            CC_CREATE(comp(1378, 17), 5, ((3 * int0) + 2));
             CC_SETSIZE(38, 38, 0, 0);
             CC_SETPOSITION(5, (6 + (int0 * 50)), 0, 0);
             if ((script7265(0, int0) == 1)) {
@@ -135,7 +135,7 @@ function script7260(): void {
                 CC_SETGRAPHIC(14941 as graphic);
             };
             CC_SETONMOUSEREPEAT(callback(script7271, -2147483645, -2147483643, -1, string0, 0, 150));
-            CC_CREATE(90308624, 5, (3 * int0));
+            CC_CREATE(comp(1378, 16), 5, (3 * int0));
             CC_SETPOSITION(5, ((int0 * 50) + 2), 0, 0);
             CC_SETSIZE(14, 46, 0, 0);
             if ((int0 == varclient_2244)) {
@@ -147,7 +147,7 @@ function script7260(): void {
             CC_SETONMOUSELEAVE(callback(script7262, int0));
             CC_SETOP(2, "Select");
             CC_SETONOP(callback(script7259, int0));
-            CC_CREATE(90308624, 5, ((3 * int0) + 1));
+            CC_CREATE(comp(1378, 16), 5, ((3 * int0) + 1));
             CC_SETPOSITION(0, ((int0 * 50) + 2), 2, 0);
             CC_SETSIZE(14, 46, 0, 0);
             if ((int0 == varclient_2244)) {
@@ -159,7 +159,7 @@ function script7260(): void {
             CC_SETONMOUSELEAVE(callback(script7262, int0));
             CC_SETOP(2, "Select");
             CC_SETONOP(callback(script7259, int0));
-            CC_CREATE(90308624, 5, ((3 * int0) + 2));
+            CC_CREATE(comp(1378, 16), 5, ((3 * int0) + 2));
             CC_SETPOSITION(19, ((int0 * 50) + 2), 0, 0);
             CC_SETSIZE(33, 46, 1, 0);
             if ((int0 == varclient_2244)) {

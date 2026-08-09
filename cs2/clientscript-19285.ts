@@ -4,14 +4,14 @@ function script19285(int0: number): void {
     var int2 = comp(-1, 65535);
     var int3 = comp(-1, 65535);
     var int4 = comp(-1, 65535);
-    var int5 = comp(-1, 65535);
+    var int5 = -1;
     switch (int0) {
         case 1: {
             int1 = varbitplayer_56173;
             int2 = comp(1290, 43);
             int3 = comp(1290, 39);
             int4 = comp(1290, 218);
-            int5 = comp(1290, 219);
+            int5 = 84541659;
             break;
         }
         case 2: {
@@ -19,7 +19,7 @@ function script19285(int0: number): void {
             int2 = comp(1290, 182);
             int3 = comp(1290, 42);
             int4 = comp(1290, 180);
-            int5 = comp(1290, 181);
+            int5 = 84541621;
             break;
         }
     };
@@ -60,8 +60,10 @@ function script19285(int0: number): void {
     var int13 = dbrow_getfield(int6, 1232960, 0);
     var string0 = "";
     var int14 = IF_GETWIDTH(IF_GETPARENTLAYER(int4));
-    if ((((int11 > 1) || (int12 != 0)) && (int13 > 1))) {
-        int14 = (int14 / 2);
+    if (((int11 > 1) || (int12 != 0))) {
+        if ((int13 > 1)) {
+            int14 = (int14 / 2);
+        };
     };
     var int15 = 0;
     int15 = 1;

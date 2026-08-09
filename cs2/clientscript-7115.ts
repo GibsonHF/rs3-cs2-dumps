@@ -145,10 +145,30 @@ function script7115(int0: number, int1: number, int2: number, int3: number, int4
                     break;
                 }
                 case 2169: {
-                    if (((MAP_MEMBERS() == 0) && (OC_MEMBERS(int2) == 1))) {
-                        int7 = 0;
-                    } else if (((int0 != -1) && (INV_TOTAL(93 as inv, 2169 as obj) > 0))) {
-                        int7 = -1;
+                    if ((MAP_MEMBERS() == 0)) {
+                        if ((OC_MEMBERS(int2) == 1)) {
+                            int7 = 0;
+                        } else if ((int0 != -1)) {
+                            if ((INV_TOTAL(93 as inv, 2169 as obj) > 0)) {
+                                int7 = -1;
+                            } else if ((int4 == 1)) {
+                                int7 = (INV_TOTAL(93 as inv, int2) + INV_TOTAL(530 as inv, int2));
+                            } else {
+                                int7 = INV_TOTAL(93 as inv, int2);
+                            };
+                        } else if ((int4 == 1)) {
+                            int7 = (INV_TOTAL(93 as inv, int2) + INV_TOTAL(530 as inv, int2));
+                        } else {
+                            int7 = INV_TOTAL(93 as inv, int2);
+                        };
+                    } else if ((int0 != -1)) {
+                        if ((INV_TOTAL(93 as inv, 2169 as obj) > 0)) {
+                            int7 = -1;
+                        } else if ((int4 == 1)) {
+                            int7 = (INV_TOTAL(93 as inv, int2) + INV_TOTAL(530 as inv, int2));
+                        } else {
+                            int7 = INV_TOTAL(93 as inv, int2);
+                        };
                     } else if ((int4 == 1)) {
                         int7 = (INV_TOTAL(93 as inv, int2) + INV_TOTAL(530 as inv, int2));
                     } else {
@@ -249,8 +269,27 @@ function script7115(int0: number, int1: number, int2: number, int3: number, int4
                     break;
                 }
                 default: {
-                    if (((MAP_MEMBERS() == 0) && (OC_MEMBERS(int2) == 1))) {
-                        int7 = 0;
+                    if ((MAP_MEMBERS() == 0)) {
+                        if ((OC_MEMBERS(int2) == 1)) {
+                            int7 = 0;
+                        } else if ((item_getparam(int2, 5774) == 1)) {
+                            if ((item_getparam(int2, 5772) == 1)) {
+                                int7 = 0;
+                            } else {
+                                int5 = script12517(93, int2, 0);
+                                if ((int5 == -1)) {
+                                    int7 = 0;
+                                } else if ((INV_GETVAR(93 as inv, int5, 18550) != 0)) {
+                                    int7 = 0;
+                                } else {
+                                    int7 = 1;
+                                };
+                            };
+                        } else if ((int4 == 1)) {
+                            int7 = (INV_TOTAL(93 as inv, int2) + INV_TOTAL(530 as inv, int2));
+                        } else {
+                            int7 = INV_TOTAL(93 as inv, int2);
+                        };
                     } else if ((item_getparam(int2, 5774) == 1)) {
                         if ((item_getparam(int2, 5772) == 1)) {
                             int7 = 0;

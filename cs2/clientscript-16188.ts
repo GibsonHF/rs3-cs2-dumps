@@ -1,7 +1,8 @@
 //
 function script16188(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number): void {
     var int6 = -1;
-    while ((++int6 < int1)) {
+    int6 = (int6 + 1);
+    while ((int6 < int1)) {
         if ((IF_CREATENESTED(3, int2, (int6 + 4), 1, int0, int4) == 1)) {
             CC_SETPOSITION(0, ((37 + (55 * int6)) + (5 / 2)), 0, 0);
             CC_SETSIZE(0, 50, 1, 0);

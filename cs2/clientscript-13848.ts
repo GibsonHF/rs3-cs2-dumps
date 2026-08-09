@@ -22,19 +22,24 @@ function script13848(): void {
             int6 = 4;
             int7 = 4;
         };
-        if (((enum_hasoutput(0, 13319 as cs2enum, int0) == 1) && (script19633(int0) == 1))) {
-            int0 = enum_getreverseindex(0, 0, 13319 as cs2enum, int0, 0);
-            if (((CC_FIND(comp(567, 14), int0) == 1) && (CC_FIND[1](comp(567, 15), int0) == 1))) {
-                CC_SETHIDE(false);
-                CC_SETPOSITION(int2, int3, 0, 0);
-                CC_SETHIDE[1](false);
-                CC_SETPOSITION[1]((int2 + int6), (int3 + int7), 0, 0);
-                if (((++int2 + 35) >= int4)) {
-                    int2 = 0;
-                    int3 = (int3 + 44);
+        if ((enum_hasoutput(0, 13319 as cs2enum, int0) == 1)) {
+            if ((script19633(int0) == 1)) {
+                int0 = enum_getreverseindex(0, 0, 13319 as cs2enum, int0, 0);
+                if (((CC_FIND(comp(567, 14), int0) == 1) && (CC_FIND[1](comp(567, 15), int0) == 1))) {
+                    CC_SETHIDE(false);
+                    CC_SETPOSITION(int2, int3, 0, 0);
+                    CC_SETHIDE[1](false);
+                    CC_SETPOSITION[1]((int2 + int6), (int3 + int7), 0, 0);
+                    int2 = (int2 + 44);
+                    if (((int2 + 35) >= int4)) {
+                        int2 = 0;
+                        int3 = (int3 + 44);
+                    };
                 };
+                int1 = (int1 + 1);
+            } else {
+                script2393(int0, -1);
             };
-            int1 = (int1 + 1);
         } else {
             script2393(int0, -1);
         };

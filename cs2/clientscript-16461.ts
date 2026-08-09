@@ -1,5 +1,5 @@
 //
-function script16461(int0: number, int1: number): [number, string, number] {
+function script16461(int0: number, int1: number): [number, number, string] {
     var string0 = "";
     var int2 = 1;
     if (((STRING_LENGTH(string0) == 0) && (int1 == 1))) {

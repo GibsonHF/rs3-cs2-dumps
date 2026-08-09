@@ -8,7 +8,7 @@ function script5879(): void {
     if (((PLATFORMTYPE() != 0) && (PLATFORMTYPE() != 5))) {
         IF_SETSIZE(48, 48, 0, 0, comp(1253, 557));
         IF_SETPOSITION(1, 1, 2, 0, comp(1253, 557));
-        IF_SETONCLICK(callback(script7774, string0, 82116665, -1, 0), 82116665);
+        IF_SETONCLICK(callback(script7774, string0, 82116665, -1, 0), comp(1253, 57));
     };
     switch (int2) {
         case 33217: {
@@ -49,7 +49,7 @@ function script5879(): void {
     script3904();
     varclient_1781 = -1;
     IF_SETONVARCTRANSMIT(callback(script5880, 1800, 1), comp(1253, 45));
-    IF_SETONVARTRANSMIT(callback(script5880, 1448, 1451, 2), 82116653);
+    IF_SETONVARTRANSMIT(callback(script5880, 1448, 1451, 2), comp(1253, 45));
     varclient_1784 = 0;
     script5881();
     return;

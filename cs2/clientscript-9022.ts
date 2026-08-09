@@ -46,7 +46,7 @@ function script9022(int0: number): void {
     script9026(varplayer_9118, varplayer_9750, varplayer_9754, 88146176);
     script9026(varplayer_9119, varplayer_9751, varplayer_9755, 88146185);
     script9026(varplayer_9120, varplayer_9752, varplayer_9756, 88146194);
-    var int3 = -1 as struct;
+    var int3 = -1;
     var int4 = -1;
     var int5 = -1;
     [int3, int4, int5] = script8819();
@@ -68,7 +68,7 @@ function script9022(int0: number): void {
     var int17 = 0;
     var int18 = 0;
     var int19 = 0;
-    var int20 = -1 as struct;
+    var int20 = -1;
     var int21 = 0;
     var string4 = "";
     var string5 = "";
@@ -76,7 +76,7 @@ function script9022(int0: number): void {
     var int23 = 0;
     var int24 = 0;
     var int25 = int3;
-    if (((int3 != -1 as struct) && (struct_getparam(int3, 4253) != -1 as struct))) {
+    if (((int3 != -1) && (struct_getparam(int3, 4253) != -1 as struct))) {
         int25 = struct_getparam(int3, 4253);
     };
     var int26 = int4;
@@ -90,7 +90,7 @@ function script9022(int0: number): void {
     var int32 = 0;
     var string8 = "";
     var int33 = 1;
-    if ((((int3 != -1 as struct) || (int4 != -1)) || (int5 != -1))) {
+    if ((((int3 != -1) || (int4 != -1)) || (int5 != -1))) {
         [int11, string0] = script9030(int3, int4, int5);
         if ((strcmp(string0, "None.") == 0)) {
             string0 = "";
@@ -171,8 +171,9 @@ function script9022(int0: number): void {
                     if ((int31 > 0)) {
                         string7 = strconcat(string7, ` (${inttostring(int30, 10)}/${inttostring(int31, 10)})`);
                     };
-                } else if ((int20 != -1 as struct)) {
-                    int9 = (++int9 + 5);
+                } else if ((int20 != -1)) {
+                    int9 = (int9 + 5);
+                    int9 = (int9 + 5);
                     int29 = script9031();
                     if ((int29 > 0)) {
                         string1 = `${inttostring(int29, 10)}x `;
@@ -188,7 +189,7 @@ function script9022(int0: number): void {
                         if ((int21 == 21)) {
                             string1 = `${enum_getvalue(0, 36, 6746 as cs2enum, int21)}.`;
                         } else {
-                            string1 = `${enum_getvalue(0, 36, 6744 as cs2enum, int21)}.`;
+                            string1 = `${enum_getvalue(0, 36, 6744, int21)}.`;
                         };
                         [int7, int32] = script12086(int6, int7, int8, int9, int10, "Weakness:", 11573);
                         [int7, int9] = script12086(int6, int7, (int8 + 160), int9, (int10 - 160), string1, 11574);
@@ -230,7 +231,7 @@ function script9022(int0: number): void {
                 [int7, int9] = script12086(int6, int7, int8, int9, int10, string2, 11574);
             };
         };
-        if (((int12 == 3) && (int20 != -1 as struct))) {
+        if (((int12 == 3) && (int20 != -1))) {
             string4 = script13284(int20);
             string5 = script13285(int20, 0);
             string2 = `'${string4}' - ${string5}`;
@@ -249,7 +250,7 @@ function script9022(int0: number): void {
         } else {
             IF_SETHIDE(true, comp(1345, 227));
         };
-        if (((int3 != -1 as struct) && (struct_getparam(int3, 4253) != -1 as struct))) {
+        if (((int3 != -1) && (struct_getparam(int3, 4253) != -1 as struct))) {
             int3 = struct_getparam(int3, 4253);
         };
         switch (int12) {
@@ -261,11 +262,11 @@ function script9022(int0: number): void {
                 break;
             }
             case 6: {
-                int13 = 6452 as cs2enum;
+                int13 = 6452;
                 break;
             }
             case 3: {
-                if ((int20 != -1 as struct)) {
+                if ((int20 != -1)) {
                     int14 = struct_getparam(int20, 6413);
                     int25 = int20;
                 };
@@ -308,8 +309,12 @@ function script9022(int0: number): void {
                     if ((script15325(int27) > -1)) {
                         int33 = 0;
                     };
-                } else if (((int13 != -1 as cs2enum) && (script8229(int12, enum_getreverseindex(73, 0, int13, int25, 0)) > -1))) {
-                    int33 = 0;
+                } else if ((int13 != -1 as cs2enum)) {
+                    if ((script8229(int12, enum_getreverseindex(73, 0, int13, int25, 0)) > -1)) {
+                        int33 = 0;
+                    } else if (((int14 > 0) && (script8229(int12, int14) > -1))) {
+                        int33 = 0;
+                    };
                 } else if (((int14 > 0) && (script8229(int12, int14) > -1))) {
                     int33 = 0;
                 };
@@ -336,15 +341,20 @@ function script9022(int0: number): void {
                 if ((int28 == 1)) {
                     script3536("Additional information is not available for this special challenge.", 88146163, -1);
                     int17 = 1;
-                } else if (((script16091() == -1 as struct) || (varplayer_183 == 0))) {
+                } else if (((script16091() == -1) || (varplayer_183 == 0))) {
                     script3536("You do not currently have a Slayer task.", 88146163, -1);
                     int17 = 1;
-                } else if (((int20 != -1 as struct) && (struct_getparam(int20, 659) != -1 as npc))) {
-                    if ((enum_hasoutput(32, 10555 as cs2enum, struct_getparam(int20, 659)) == 1)) {
-                        script3536("Jump to this content's parent tab to learn more.", 88146163, -1);
-                        int17 = 0;
+                } else if ((int20 != -1)) {
+                    if ((struct_getparam(int20, 659) != -1 as npc)) {
+                        if ((enum_hasoutput(32, 10555 as cs2enum, struct_getparam(int20, 659)) == 1)) {
+                            script3536("Jump to this content's parent tab to learn more.", 88146163, -1);
+                            int17 = 0;
+                        } else {
+                            script3536("Additional information is not available for this monster.", 88146163, -1);
+                            int17 = 1;
+                        };
                     } else {
-                        script3536("Additional information is not available for this monster.", 88146163, -1);
+                        script3536("Additional information is not available for this Slayer content.", 88146163, -1);
                         int17 = 1;
                     };
                 } else {

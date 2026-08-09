@@ -14,28 +14,26 @@ function script20320(int0: number, int1: number): number {
         int3 = script20168(dbrow_getfield(int2, 1335616, 0));
     };
     unk11023(int3, 1368144, 1);
-    dbrow_findnext();
-    var int4 = stack();
+    var int4 = dbrow_findnext();
     var int5 = 0;
     var int6 = 0;
     if ((IF_FIND(int0) == 1)) {
         int6 = cc_getparam(9338);
     };
-    while ((int4 != -1 as dbrow)) {
+    while ((int4 != -1)) {
         if ((ACHIEVEMENT_REQSTATE(dbrow_getfield(int4, 1368096, 0)) != -1)) {
             int5 = (int5 + 1);
         };
-        dbrow_findnext();
-        int4 = stack();
+        int4 = dbrow_findnext();
     };
     if ((int5 != int6)) {
         IF_SETPARAM_INT(9340, IF_GETSCROLLY(int1), int0);
-        if ((int0 == comp(1479, 19))) {
+        if ((int0 == 96927763)) {
             IF_SETONRESIZE(callback(script20286), comp(1479, 5));
-            IF_CALLONRESIZE(96927749);
+            IF_CALLONRESIZE(comp(1479, 5));
         } else {
             IF_SETONRESIZE(callback(script20287), comp(1361, 5));
-            IF_CALLONRESIZE(89194501);
+            IF_CALLONRESIZE(comp(1361, 5));
         };
         return 1;
     };

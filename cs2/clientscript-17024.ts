@@ -12,8 +12,12 @@ function script17024(int0: number, int1: number, int2: number, int3: number): vo
         script12478("Received null prize when displaying reward previews.");
         return;
     };
-    if (((item_getparam(int4, 5405) != -1 as struct) && (int6 != -1))) {
-        script16368(int6, int1);
+    if ((item_getparam(int4, 5405) != -1 as struct)) {
+        if ((int6 != -1)) {
+            script16368(int6, int1);
+        } else {
+            script16663(int3, int4, int5);
+        };
     } else {
         script16663(int3, int4, int5);
     };

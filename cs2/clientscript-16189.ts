@@ -1,16 +1,16 @@
 //
 function script16189(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number, int8: number): void {
     var int9 = 0;
-    var int10 = -1 as dbrow;
+    var int10 = -1;
     var int11 = 0;
-    var int12 = -1 as obj;
+    var int12 = -1;
     var int13 = 0;
     var int14 = 0;
     var int15 = 0;
     var string0 = "";
     var int16 = 0;
     var int17 = -1;
-    var int18 = -1 as graphic;
+    var int18 = -1;
     var int19 = 0;
     var int20 = -1;
     var int21 = -1;
@@ -21,7 +21,8 @@ function script16189(int0: number, int1: number, int2: number, int3: number, int
     var int24 = (script16169(int10, int7) * 4);
     var int25 = 0;
     var int26 = 0;
-    while ((++int21 < int24)) {
+    int21 = (int21 + 1);
+    while ((int21 < int24)) {
         int25 = (int3 + int21);
         switch (MODULO(int21, 4)) {
             case 0: {

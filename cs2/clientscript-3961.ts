@@ -48,7 +48,7 @@ function script3961(int0: number, int1: number, int2: number, int3: number, int4
             IF_SETPOSITION(IF_GETX(int22), 0, 1, int5, int22);
         };
         if (((int3 == 0) && (int4 == 0))) {
-            var [int3, int4] = IF_GETGRAPHICDIMENSIONS(int21);
+            [int3, int4] = IF_GETGRAPHICDIMENSIONS(int21);
         };
         IF_SETSIZE(((IF_GETWIDTH(int10) - int3) - 30), IF_GETHEIGHT(int12), 0, 0, int12);
         IF_SETSIZE(int3, int4, 0, 0, int23);
@@ -63,7 +63,8 @@ function script3961(int0: number, int1: number, int2: number, int3: number, int4
     var int27 = MIN(200, (PARAHEIGHT(string1, int26, 27 as fontmetrics) * 13));
     IF_SETSIZE(IF_GETWIDTH(int14), int27, 0, 0, int14);
     IF_SETTEXT(string1, int11);
-    if ((++int27 < int4)) {
+    int27 = (int27 + 10);
+    if ((int27 < int4)) {
         int27 = int4;
     };
     IF_SETSIZE(IF_GETWIDTH(int12), int27, 0, 0, int12);

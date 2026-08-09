@@ -5,11 +5,17 @@ function script7106(int0: number, int1: number, int2: number, int3: number, int4
             var int2 = script12588(int2);
         };
         if ((int4 == 1)) {
-            if (((STAT(enum_getvalue(0, 17, 681 as cs2enum, int1)) >= int2) || (((script14961(int1) == 1) && (int3 == 0)) && (script7107(int5) >= int2)))) {
+            if ((STAT(enum_getvalue(0, 17, 681 as cs2enum, int1)) >= int2)) {
+                return 1;
+            } else if ((((script14961(int1) == 1) && (int3 == 0)) && (script7107(int5) >= int2))) {
                 return 1;
             };
-        } else if (((int4 == 0) && ((STAT_BASE(enum_getvalue(0, 17, 681 as cs2enum, int1)) >= int2) || (((script14961(int1) == 1) && (int3 == 0)) && (script7107(int5) >= int2))))) {
-            return 1;
+        } else if ((int4 == 0)) {
+            if ((STAT_BASE(enum_getvalue(0, 17, 681 as cs2enum, int1)) >= int2)) {
+                return 1;
+            } else if ((((script14961(int1) == 1) && (int3 == 0)) && (script7107(int5) >= int2))) {
+                return 1;
+            };
         };
         return 0;
     };

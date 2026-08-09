@@ -9,7 +9,7 @@ function script9291(int0: number, int1: number): void {
     if (((int3 > -1) && (CC_FIND(int2, (int3 + 7)) == 1))) {
         CC_SETVFLIP(false);
         varclient_6918 = -1;
-        varclient_6919 = -1 as achievement;
+        varclient_6919 = -1;
     };
     IF_SETHIDE(true, comp(1851, 41));
     script15343(int3, 0);
@@ -61,7 +61,7 @@ function script9291(int0: number, int1: number): void {
     var int16 = unk11096(int1);
     while ((int15 < int16)) {
         unk11157(int1, int15);
-        string0 = stack();
+        string0 = [];
         if ((strcmp(string0, "") != 0)) {
             int14 = (script42(unk11095(int1, int15)) * -2);
             if (((varbitplayer_48340 == 0) || (int14 != -2))) {
@@ -80,7 +80,7 @@ function script9291(int0: number, int1: number): void {
     int16 = unk11066(int1);
     while ((int15 < int16)) {
         unk11156(int1, int15);
-        string0 = stack();
+        string0 = [];
         if ((strcmp(string0, "") != 0)) {
             int14 = (script42(unk11094(int1, int15)) * -2);
             if (((varbitplayer_48340 == 0) || (int14 != -2))) {
@@ -99,10 +99,10 @@ function script9291(int0: number, int1: number): void {
     int16 = unk11067(int1);
     while ((int15 < int16)) {
         unk11155(int1, int15);
-        string0 = stack();
+        string0 = [];
         string0 = script19624(int1, int15, string0);
         if ((strcmp(string0, "") != 0)) {
-            if ((ACHIEVEMENT_CATEGORY(int1) == 5483 as category)) {
+            if ((ACHIEVEMENT_CATEGORY(int1) == 5483)) {
                 string0 = script19394(string0);
             };
             int14 = (script42(unk11093(int1, int15)) * -2);
@@ -122,7 +122,7 @@ function script9291(int0: number, int1: number): void {
     int16 = unk11068(int1);
     while ((int15 < int16)) {
         unk11154(int1, int15);
-        string0 = stack();
+        string0 = [];
         if ((strcmp(string0, "") != 0)) {
             int14 = (script42(unk11092(int1, int15)) * -2);
             if (((varbitplayer_48340 == 0) || (int14 != -2))) {
@@ -141,7 +141,7 @@ function script9291(int0: number, int1: number): void {
     int16 = unk11069(int1);
     while ((int15 < int16)) {
         unk11153(int1, int15);
-        string0 = stack();
+        string0 = [];
         if ((strcmp(string0, "") != 0)) {
             int14 = (script42(unk11091(int1, int15)) * -2);
             if (((varbitplayer_48340 == 0) || (int14 != -2))) {
@@ -158,10 +158,10 @@ function script9291(int0: number, int1: number): void {
     };
     int15 = 0;
     int16 = unk11074(int1);
-    var int17 = -1 as quest;
+    var int17 = -1;
     while ((int15 < int16)) {
         int17 = unk10999(int1, int15);
-        if ((int17 != -1 as quest)) {
+        if ((int17 != -1)) {
             int14 = (script42(unk11090(int1, int15)) * -2);
             if (((varbitplayer_48340 == 0) || (int14 != -2))) {
                 script15335(int13, QUEST_GETNAME(int17), quest_getparam(int17, 5968), int14, 0, 0);
@@ -175,11 +175,11 @@ function script9291(int0: number, int1: number): void {
     };
     int15 = 0;
     int16 = ACHIEVEMENT_ACHIEVEMENT_REQ_COUNT(int1);
-    var int18 = -1 as achievement;
+    var int18 = -1;
     var int19 = 0;
     while ((int15 < int16)) {
         int18 = unk11032(int1, int15);
-        if ((int18 != -1 as achievement)) {
+        if ((int18 != -1)) {
             int14 = ACHIEVEMENT_REQSTATE(int18);
             if ((((enum_hasoutput(131, 7256 as cs2enum, int1) == 1) || (varbitplayer_48340 == 0)) || (int14 != -2))) {
                 int19 = 0;

@@ -5,9 +5,9 @@ function script1029(int0: number, int1: number): void {
     IF_SETTEXT("Quick Chat - Shortcut Reference", comp(157, 0));
     IF_SETHIDE(true, comp(157, 1));
     if ((script6431() == 1)) {
-        IF_SETONCLICK(callback(script784, 12906, 0, 7), 10289158);
+        IF_SETONCLICK(callback(script784, 12906, 0, 7), comp(157, 6));
     } else {
-        IF_SETONCLICK(callback(script784, 1486, 0, 7), 10289158);
+        IF_SETONCLICK(callback(script784, 1486, 0, 7), comp(157, 6));
     };
     script13993(10289158, -1, 28556, "User Guide");
     var int2 = 0;

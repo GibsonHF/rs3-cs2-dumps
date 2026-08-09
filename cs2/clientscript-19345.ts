@@ -1,8 +1,23 @@
 //
 function script19345(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number, int8: number): number {
     if ((script19362(int1) == 1)) {
-        if (((OC_MEMBERS(int1) == 1) && (script4356() == 0))) {
-            script14152("You need to be on a members' world to store that item.");
+        if ((OC_MEMBERS(int1) == 1)) {
+            if ((script4356() == 0)) {
+                script14152("You need to be on a members' world to store that item.");
+            } else {
+                switch (int1) {
+                    case 50805: {
+                        if (((((((((varbitplayer_48172 + varbitplayer_48173) + varbitplayer_48174) + varbitplayer_48175) + varbitplayer_48176) + varbitplayer_61477) + varbitplayer_61478) + varbitplayer_61479) != 0)) {
+                            script14152(`${OC_NAME(int0)} can not be stored in group storage whilst it has gems stored in it.`);
+                        };
+                        break;
+                    }
+                    default: {
+                        script14152(`${OC_NAME(int0)} can not be stored in group storage.`);
+                        break;
+                    }
+                };
+            };
         } else {
             switch (int1) {
                 case 50805: {
@@ -27,8 +42,16 @@ function script19345(int0: number, int1: number, int2: number, int3: number, int
     var int11 = script19592(int1, int3, int10);
     if ((int11 >= int3)) {
         if ((int7 == 1)) {
-            if ((((int2 != -1) && (OC_STACKABLE(int1) == 1)) && (script19587(int2) > 0))) {
-                script19570(int10, 1, int1);
+            if ((int2 != -1)) {
+                if ((OC_STACKABLE(int1) == 1)) {
+                    if ((script19587(int2) > 0)) {
+                        script19570(int10, 1, int1);
+                    } else {
+                        script19570(int10, 0, int1);
+                    };
+                } else {
+                    script19570(int10, 0, int1);
+                };
             } else {
                 script19570(int10, 0, int1);
             };

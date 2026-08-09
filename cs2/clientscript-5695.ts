@@ -4,7 +4,7 @@ function script5695(): void {
     var int1 = 0;
     var int2 = 0;
     var int3 = 0;
-    [int0, int1, int2, int3] = UNKNOWN_COMMAND_126();
+    [int0, int1, int2, int3] = VIEWPORT_GETBOUNDS();
     if ((varclient_6403 == 0)) {
         IF_SETSIZE(0, 0, 1, 1, comp(387, 0));
         IF_SETSIZE(0, 0, 1, 1, comp(327, 0));

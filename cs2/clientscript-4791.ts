@@ -1,12 +1,12 @@
 //
-function script4791(int0: number): [number, string, number, number, number, number, number, number] {
-    var int1 = -1 as graphic;
+function script4791(int0: number): [number, number, number, number, number, number, number, string] {
+    var int1 = -1;
     var string0 = "";
     var int2 = 0;
     var int3 = enum_getvalue(0, 73, 4008 as cs2enum, int0);
     if ((int3 == -1 as struct)) {
         printmessage(`Clan Build Tick : Job ID ${inttostring(int0, 10)} has no associated struct. Please report this as a bug, quoting this line.`);
-        return [-1 as graphic, "", 0, 0, 0, 0, 0, 0];
+        return [-1, "", 0, 0, 0, 0, 0, 0];
     };
     var int4 = struct_getparam(int3, 1481);
     var int5 = struct_getparam(int3, 1482);
@@ -15,14 +15,14 @@ function script4791(int0: number): [number, string, number, number, number, numb
     var int8 = 0;
     var int9 = -1;
     var int10 = 0;
-    var int11 = -1 as cs2enum;
-    var int12 = -1 as cs2enum;
+    var int11 = -1;
+    var int12 = -1;
     var int13 = 0;
     if ((CLANPROFILE_FIND() == 1)) {
         switch (int4) {
             case 1: {
                 string0 = "Stronghold";
-                int1 = 7418 as graphic;
+                int1 = 7418;
                 int6 = varbitclan_6507;
                 int7 = MIN(varbitclan_6556, (int6 - 1));
                 int2 = (varbitclan_6526 + varbitclan_6541);
@@ -30,7 +30,7 @@ function script4791(int0: number): [number, string, number, number, number, numb
             }
             case 2: {
                 string0 = "Storehouse";
-                int1 = 7419 as graphic;
+                int1 = 7419;
                 int6 = varbitclan_6508;
                 int7 = MIN(varbitclan_6554, (int6 - 1));
                 int2 = (varbitclan_6522 + varbitclan_6539);
@@ -38,7 +38,7 @@ function script4791(int0: number): [number, string, number, number, number, numb
             }
             case 3: {
                 string0 = "Battlefield";
-                int1 = 7417 as graphic;
+                int1 = 7417;
                 int6 = varbitclan_6509;
                 int7 = MIN(varbitclan_6555, (int6 - 1));
                 int2 = (varbitclan_6523 + varbitclan_6540);
@@ -172,7 +172,7 @@ function script4791(int0: number): [number, string, number, number, number, numb
                     }
                 };
                 string0 = enum_getvalue(0, 36, 4287 as cs2enum, int8);
-                int1 = enum_getvalue(0, 23, 4288 as cs2enum, int8);
+                int1 = enum_getvalue(0, 23, 4288, int8);
                 break;
             }
             case 5: {
@@ -202,7 +202,7 @@ function script4791(int0: number): [number, string, number, number, number, numb
                 int12 = script4826(int5);
                 if ((((int0 == 16) || (int0 == 17)) || (int0 == 18))) {
                     string0 = `Reset hotspot (slot ${inttostring(int5, 10)}).`;
-                    int1 = 6496 as graphic;
+                    int1 = 6496;
                 } else {
                     string0 = enum_getvalue(0, 36, int11, int8);
                     int1 = enum_getvalue(0, 23, int12, int8);
@@ -211,12 +211,12 @@ function script4791(int0: number): [number, string, number, number, number, numb
             }
             default: {
                 printmessage(`Clan Build Tick : Unexpected job building class ${inttostring(int4, 10)}. Please report this as a bug, quoting this line.`);
-                return [-1 as graphic, "", 0, 0, 0, 0, 0, 0];
+                return [-1, "", 0, 0, 0, 0, 0, 0];
             }
         };
     } else {
         printmessage("Clan Build Tick : Could not access clan profile.");
-        return [-1 as graphic, "", 0, 0, 0, 0, 0, 0];
+        return [-1, "", 0, 0, 0, 0, 0, 0];
     };
     if (((int0 > 600) && (int4 != 5))) {
         int6 = (int6 + 1);

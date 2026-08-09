@@ -5,8 +5,8 @@ function script14766(int0: number, int1: number, int2: number, int3: number, int
     var int10 = 8;
     var int11 = script14502(int2);
     script6203(int1, int8, 30, ((int3 + 8) + int6), ((int9 + int10) - 2), 55, dbrow_getfield(int2, 344128, 0), 0);
-    CC_SETTEXTALIGN(0, 0, enum_getvalue(25, 0, 8584 as cs2enum, CC_GETFONTMETRICS()));
-    var int12 = MAX(30, ((2 * int10) + script7593(CC_GETTEXT(), int8, CC_GETFONTMETRICS(), enum_getvalue(25, 0, 8584 as cs2enum, CC_GETFONTMETRICS()))));
+    CC_SETTEXTALIGN(0, 0, enum_getvalue(25, 0, 8584, CC_GETFONTMETRICS()));
+    var int12 = MAX(30, ((2 * int10) + script7593(CC_GETTEXT(), int8, CC_GETFONTMETRICS(), enum_getvalue(25, 0, 8584, CC_GETFONTMETRICS()))));
     CC_SETSIZE(int8, (int12 + 2), 0, 0);
     if ((int11 == 2)) {
         script7924(int1, IF_GETNEXTSUBID(int1), 26, 26, ((((int3 + int5) - 26) - 8) - int7), (int9 + 2), 28293, 0, 0, 0, 0);

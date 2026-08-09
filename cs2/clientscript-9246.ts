@@ -12,19 +12,39 @@ function script9246(int0: number, int1: number, int2: number, int3: number): voi
     if ((IF_FIND(int2) == 1)) {
         int9 = cc_getparam(3819);
     };
-    if (((int1 != -1) && (int3 != -1))) {
-        if ((IF_FIND(int0) == 1)) {
-            int4 = cc_getparam(3818);
-            int6 = cc_getparam(3820);
-        };
-        if ((IF_FIND(int2) == 1)) {
-            int5 = cc_getparam(3818);
-            int7 = cc_getparam(3820);
-        };
-        if ((((((int4 == int5) && (int4 != -1 as inv)) && (int6 == false)) && (int5 != -1 as inv)) && (int7 == false))) {
-            if (((CC_FIND(int0, int1) == 1) && (CC_FIND[1](int2, int3) == 1))) {
-                script9247(int0, int1, int8, int4, int2, int3, int9, int5);
-                script5824(int0, int1, int4, int2, int3, int5);
+    if ((int1 != -1)) {
+        if ((int3 != -1)) {
+            if ((IF_FIND(int0) == 1)) {
+                int4 = cc_getparam(3818);
+                int6 = cc_getparam(3820);
+            };
+            if ((IF_FIND(int2) == 1)) {
+                int5 = cc_getparam(3818);
+                int7 = cc_getparam(3820);
+            };
+            if ((int4 == int5)) {
+                if ((int4 != -1 as inv)) {
+                    if ((int6 == false)) {
+                        if ((int5 != -1 as inv)) {
+                            if ((int7 == false)) {
+                                if (((CC_FIND(int0, int1) == 1) && (CC_FIND[1](int2, int3) == 1))) {
+                                    script9247(int0, int1, int8, int4, int2, int3, int9, int5);
+                                    script5824(int0, int1, int4, int2, int3, int5);
+                                };
+                            } else {
+                                script9248(int0, int1, int4, int2, int3, int5);
+                            };
+                        } else {
+                            script9248(int0, int1, int4, int2, int3, int5);
+                        };
+                    } else {
+                        script9248(int0, int1, int4, int2, int3, int5);
+                    };
+                } else {
+                    script9248(int0, int1, int4, int2, int3, int5);
+                };
+            } else {
+                script9248(int0, int1, int4, int2, int3, int5);
             };
         } else {
             script9248(int0, int1, int4, int2, int3, int5);

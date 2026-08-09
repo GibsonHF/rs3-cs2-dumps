@@ -1,22 +1,22 @@
 //
 function script10038(int0: number, int1: number, int2: number): void {
-    var int3 = -1;
+    var int3 = comp(-1, 65535);
     var int4 = -1;
     var int5 = comp(-1, 65535);
     var int6 = comp(-1, 65535);
     var int7 = -1;
-    var int8 = -1 as dbrow;
+    var int8 = -1;
     switch (int0) {
         case 0: {
-            int8 = 13088 as dbrow;
+            int8 = 13088;
             break;
         }
         case 1: {
-            int8 = 13087 as dbrow;
+            int8 = 13087;
             break;
         }
         case 2: {
-            int8 = 13089 as dbrow;
+            int8 = 13089;
             break;
         }
         default: {
@@ -27,15 +27,15 @@ function script10038(int0: number, int1: number, int2: number): void {
     if ((int2 == -1)) {
         switch (int0) {
             case 0: {
-                int8 = 13088 as dbrow;
+                int8 = 13088;
                 break;
             }
             case 1: {
-                int8 = 13087 as dbrow;
+                int8 = 13087;
                 break;
             }
             case 2: {
-                int8 = 13089 as dbrow;
+                int8 = 13089;
                 break;
             }
             default: {
@@ -56,28 +56,28 @@ function script10038(int0: number, int1: number, int2: number): void {
     };
     switch (int0) {
         case 0: {
-            IF_SETONVARCTRANSMIT(callback(script10037, 0, varclient_4263, 4263, 1), 59441223);
-            int3 = 59441230;
+            IF_SETONVARCTRANSMIT(callback(script10037, 0, varclient_4263, 4263, 1), comp(907, 71));
+            int3 = comp(907, 78);
             int4 = 59441224;
-            int5 = 59441247;
-            int6 = 59441248;
+            int5 = comp(907, 95);
+            int6 = comp(907, 96);
             int7 = 2;
             break;
         }
         case 1: {
-            IF_SETONVARCTRANSMIT(callback(script10037, 1, varclient_4264, 4264, 1), 59441196);
-            int3 = 59441202;
+            IF_SETONVARCTRANSMIT(callback(script10037, 1, varclient_4264, 4264, 1), comp(907, 44));
+            int3 = comp(907, 50);
             int4 = 59441197;
-            int5 = 59441219;
-            int6 = 59441220;
+            int5 = comp(907, 67);
+            int6 = comp(907, 68);
             break;
         }
         case 2: {
-            IF_SETONVARCTRANSMIT(callback(script10037, 2, varclient_4265, 4265, 1), 59441249);
-            int3 = 59441256;
+            IF_SETONVARCTRANSMIT(callback(script10037, 2, varclient_4265, 4265, 1), comp(907, 97));
+            int3 = comp(907, 104);
             int4 = 59441250;
-            int5 = 59441273;
-            int6 = 59441274;
+            int5 = comp(907, 121);
+            int6 = comp(907, 122);
             int7 = 2;
             break;
         }
@@ -87,8 +87,8 @@ function script10038(int0: number, int1: number, int2: number): void {
     };
     script4161(int6, 255);
     IF_SETONTIMER(callback(), int6);
-    IF_SETHIDE(1, int6);
-    IF_SETOP(1, "", int3);
+    IF_SETHIDE(true, int6);
+    IF_SETOP(callback(script1), int3);
     IF_SETONOP(callback(), int3);
     IF_SETONMOUSEREPEAT(callback(), int3);
     IF_SETONCLICK(callback(), int3);

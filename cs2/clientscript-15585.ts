@@ -39,7 +39,8 @@ function script15585(): void {
         }
     };
     var int1 = IF_GETX(int0);
-    IF_SETPOSITION(--int1, 0, 0, 0, comp(798, 34));
+    int1 = (int1 - 2);
+    IF_SETPOSITION(int1, 0, 0, 0, comp(798, 34));
     if ((varbitplayer_56619 == 0)) {
         IF_SETTEXT("Choose Game Mode", comp(798, 50));
     } else {

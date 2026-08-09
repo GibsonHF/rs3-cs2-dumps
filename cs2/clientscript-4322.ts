@@ -27,11 +27,12 @@ function script4322(int0: number, int1: number, int2: number, int3: number): voi
         CC_CREATE(int3, 5, int4);
         CC_SETSIZE((int8 - 8), (int9 - 8), 0, 0);
         CC_SETPOSITION((int10 + 4), (int11 + 4), 0, 0);
-        CC_SETGRAPHIC(enum_getvalue(0, 23, 3721, int4));
+        CC_SETGRAPHIC(enum_getvalue(0, 23, 3721 as cs2enum, int4));
         CC_SETOP(1, "Select");
         CC_SETONOP(callback(script4323, int4, int2, int15));
-        CC_SETONMOUSEREPEAT(callback(script8799, enum_getvalue(0, 36, 3722, int4), -2147483645, -2147483643));
-        if ((MODULO(++int4, int12) == 0)) {
+        CC_SETONMOUSEREPEAT(callback(script8799, enum_getvalue(0, 36, 3722 as cs2enum, int4), -2147483645, -2147483643));
+        int4 = (int4 + 1);
+        if ((MODULO(int4, int12) == 0)) {
             int5 = (int5 + 1);
         };
     };

@@ -7,14 +7,14 @@ function script13145(int0: number, int1: number): void {
     var int3 = -1;
     var int4 = -1;
     var int5 = -1;
-    var int6 = -1 as bas;
+    var int6 = -1;
     if ((IF_FIND(int1) == 1)) {
         CC_SETSIZE(0, 0, 1, 1);
         CC_SETPOSITION(0, 0, 1, 1);
         switch (IF_GETPARENTLAYER(int2)) {
             case 102105090: {
                 IF_SETONVARTRANSMIT(callback(script10769, int0, int1, 5005, 1), int0);
-                if ((varplayer_5005 != -1)) {
+                if ((varplayer_5005 != -1 as bas)) {
                     CC_SETMODELANIM(BAS_GETANIM_READY(varplayer_5005));
                 } else {
                     CC_SETMODELANIM(BAS_GETANIM_READY(1426 as bas));

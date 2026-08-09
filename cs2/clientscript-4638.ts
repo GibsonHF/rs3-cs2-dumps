@@ -6,7 +6,8 @@ function script4638(int0: number, int1: number): void {
     var int5 = 0;
     CC_DELETEALL(int0);
     CC_DELETEALL(int1);
-    while ((++int2 < int3)) {
+    int2 = (int2 + 1);
+    while ((int2 < int3)) {
         int5 = script13998(int0, int1, 28556, 0, (int2 * 26), int4, 24, int5, 0, enum_getvalue(0, 36, 14627 as cs2enum, int2), script9670(int2, varclient_3709));
         if ((CC_FIND(int1, (int5 - 1)) == 1)) {
             CC_SETONOP(callback(script4639, (int5 - 1)));

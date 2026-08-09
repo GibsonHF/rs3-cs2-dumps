@@ -10,16 +10,21 @@ function script14466(int0: number, int1: number, int2: number): void {
     var int6 = 0;
     var int7 = ENUM_GETOUTPUTCOUNT(int0);
     var int8 = 0;
-    while ((++int3 < int7)) {
+    int3 = (int3 + 1);
+    while ((int3 < int7)) {
         int4 = enum_getvalue(0, 33, int0, int3);
         int5 = enum_getvalue(33, 0, int1, int4);
-        CC_CREATE(int2, 4, int8++);
+        stack(int2);
+        stack(4);
+        stack(int8);
+        int8 = (int8 + 1);
+        CC_CREATE();
         CC_SETOP(1, "Select");
         CC_SETONOP(callback(script14462, int3, 1));
         CC_SETOPCURSOR(1, 46);
         CC_SETPOSITION(50, ((40 * int3) + 7), 0, 0);
         CC_SETTEXT(OC_NAME(int4));
-        CC_SETTEXTFONT(208);
+        CC_SETTEXTFONT(208 as fontmetrics);
         if ((script14468(int4) == 1)) {
             CC_SETCOLOUR(7829367);
         } else {
@@ -28,20 +33,32 @@ function script14466(int0: number, int1: number, int2: number): void {
         CC_SETSIZE(IF_GETWIDTH(int2), 32, 0, 0);
         CC_SETTEXTALIGN(0, 1, 0);
         int6 = (int6 + 40);
-        CC_CREATE(int2, 5, int8++);
+        stack(int2);
+        stack(5);
+        stack(int8);
+        int8 = (int8 + 1);
+        CC_CREATE();
         CC_SETOBJECT(int4, int5);
         CC_SETPOSITION(10, ((40 * int3) + 10), 0, 0);
         CC_SETSIZE(36, 32, 0, 0);
         CC_SETOP(1, "Select");
         CC_SETOPCURSOR(1, 46);
         CC_SETONOP(callback(script14462, int3, 1));
-        CC_CREATE(int2, 5, int8++);
+        stack(int2);
+        stack(5);
+        stack(int8);
+        int8 = (int8 + 1);
+        CC_CREATE();
         if ((script14468(int4) == 1)) {
             CC_SETGRAPHIC(9964 as graphic);
         };
         CC_SETPOSITION(12, ((40 * int3) + 10), 0, 0);
         CC_SETSIZE(32, 32, 0, 0);
-        CC_CREATE(int2, 5, int8++);
+        stack(int2);
+        stack(5);
+        stack(int8);
+        int8 = (int8 + 1);
+        CC_CREATE();
         if ((enum_hasoutput(33, 15937 as cs2enum, int4) == 1)) {
             CC_SETGRAPHIC(11464 as graphic);
             script3537("New!");

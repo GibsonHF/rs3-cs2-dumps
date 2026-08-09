@@ -15,7 +15,8 @@ function script7597(int0: number, int1: number): void {
             IF_SETONTIMER(callback(script7982, int3, int1), int1);
         };
     } else {
-        int2 = SCALE(--int0, 140, 100);
+        var int0 = (int0 - 60);
+        int2 = SCALE(int0, 140, 100);
         int3 = (int4 + SCALE(int5, 100, int2));
         IF_SETONTIMER(callback(script7982, int3, int1), int1);
     };

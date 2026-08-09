@@ -35,7 +35,8 @@ function script20296(int0: number, int1: number, int2: number, int3: number): vo
             if ((dbrow_getfield(int1, 1368144, 0) == 0)) {
                 cc_setparam[1](9337, (cc_getparam[1](9337) + 1));
             };
-            unk11040(callback());
+            stack(-1);
+            unk11040("");
             CC_SENDTOFRONT();
             script10033(script20173((int5 + int4)), 0, 0, 0, 0, 0, 0, 1, 1, 4128);
             if ((int9 == -2)) {
@@ -72,9 +73,9 @@ function script20296(int0: number, int1: number, int2: number, int3: number): vo
         };
     };
     if ((int0 == comp(1479, 19))) {
-        IF_SETONTIMER(callback(script20308, int0, 96927762, 96927764, -2147483645), 96927750);
+        IF_SETONTIMER(callback(script20308, int0, 96927762, 96927764, -2147483645), comp(1479, 6));
     } else {
-        IF_SETONTIMER(callback(script20308, int0, 89194516, 89194518, -2147483645), 89194502);
+        IF_SETONTIMER(callback(script20308, int0, 89194516, 89194518, -2147483645), comp(1361, 6));
     };
     return;
 }

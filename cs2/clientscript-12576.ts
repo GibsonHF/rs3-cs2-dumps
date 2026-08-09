@@ -17,21 +17,34 @@ function script12576(int0: number, int1: number, int2: number): void {
         };
         varbitclient_32658 = (varbitclient_32658 + 1);
     };
-    while ((CC_FIND(int0, int5++) == 1)) {
+    stack(int0);
+    stack(int5);
+    int5 = (int5 + 1);
+    while ((CC_FIND() == 1)) {
         int4 = (CC_GETX() + int6);
         if ((int4 > int3)) {
             int4 = ((-150 + int4) - int3);
-            if ((((varplayer_6370 != -1 as obj) && (varbitclient_32657 == 0)) && (int5 != 1))) {
-                if ((varplayer_6370 == 11237 as obj)) {
-                    CC_SETOBJECT(13222 as obj, -1);
-                } else if ((varplayer_6370 == 995 as obj)) {
-                    CC_SETOBJECT(1004 as obj, -1);
+            if ((varplayer_6370 != -1 as obj)) {
+                if ((varbitclient_32657 == 0)) {
+                    if ((int5 != 1)) {
+                        if ((varplayer_6370 == 11237 as obj)) {
+                            CC_SETOBJECT(13222 as obj, -1);
+                        } else if ((varplayer_6370 == 995 as obj)) {
+                            CC_SETOBJECT(1004 as obj, -1);
+                        } else {
+                            CC_SETOBJECT(varplayer_6370, -1);
+                        };
+                        CC_SETMODELZOOM(SCALE(CC_GETMODELZOOM(), 100, 125));
+                        varbitclient_32657 = (int5 - 1);
+                        varbitclient_32658 = 1;
+                    } else {
+                        CC_SETOBJECT(enum_getvalue(0, 33, 8363 as cs2enum, RANDOM(ENUM_GETOUTPUTCOUNT(8363 as cs2enum))), -1);
+                        CC_SETMODELZOOM(SCALE(CC_GETMODELZOOM(), 100, 125));
+                    };
                 } else {
-                    CC_SETOBJECT(varplayer_6370, -1);
+                    CC_SETOBJECT(enum_getvalue(0, 33, 8363 as cs2enum, RANDOM(ENUM_GETOUTPUTCOUNT(8363 as cs2enum))), -1);
+                    CC_SETMODELZOOM(SCALE(CC_GETMODELZOOM(), 100, 125));
                 };
-                CC_SETMODELZOOM(SCALE(CC_GETMODELZOOM(), 100, 125));
-                varbitclient_32657 = (int5 - 1);
-                varbitclient_32658 = 1;
             } else {
                 CC_SETOBJECT(enum_getvalue(0, 33, 8363 as cs2enum, RANDOM(ENUM_GETOUTPUTCOUNT(8363 as cs2enum))), -1);
                 CC_SETMODELZOOM(SCALE(CC_GETMODELZOOM(), 100, 125));

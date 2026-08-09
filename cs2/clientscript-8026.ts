@@ -1,7 +1,9 @@
 //
 function script8026(int0: number): number {
-    if (((((item_getparam(int0, 3793) == 1) || (enum_getvalue(33, 1, 15589 as cs2enum, int0) == true)) || (item_getparam(int0, 3845) == true)) && (int0 != 32705 as obj))) {
-        return -1 as obj;
+    if ((((item_getparam(int0, 3793) == 1) || (enum_getvalue(33, 1, 15589 as cs2enum, int0) == true)) || (item_getparam(int0, 3845) == true))) {
+        if ((int0 != 32705 as obj)) {
+            return -1 as obj;
+        };
     };
     var int1 = script8156(int0);
     if ((item_getparam(int0, 3384) == 1)) {

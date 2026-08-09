@@ -10,7 +10,7 @@ function script12253(): void {
         IF_SETHIDE(false, comp(1724, 6));
         IF_SETHIDE(false, comp(1724, 2));
         IF_SETONTIMER(callback(script12255, 112984071), comp(1724, 7));
-        IF_SETONTIMER(callback(script12254, 112984070), 112984070);
+        IF_SETONTIMER(callback(script12254, 112984070), comp(1724, 6));
     };
     return;
 }

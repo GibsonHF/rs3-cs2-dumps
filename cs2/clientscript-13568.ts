@@ -10,8 +10,12 @@ function script13568(): number {
             if ((STAT_BASE_ACTUAL(int2) >= enum_getvalue(17, 0, 10865 as cs2enum, int2))) {
                 int3 = SETBIT(int3, int0);
             };
-            if (((DATE_RUNEDAY() <= 6725) && (((int2 == 19 as stat) || (int2 == 15 as stat)) && (STAT_BASE_ACTUAL(int2) >= 99)))) {
-                int3 = SETBIT(int3, int0);
+            if ((DATE_RUNEDAY() <= 6725)) {
+                if (((int2 == 19 as stat) || (int2 == 15 as stat))) {
+                    if ((STAT_BASE_ACTUAL(int2) >= 99)) {
+                        int3 = SETBIT(int3, int0);
+                    };
+                };
             };
             if ((((DATE_RUNEDAY() <= 6790) && (int2 == 27 as stat)) && (STAT_BASE_ACTUAL(int2) >= 99))) {
                 int3 = SETBIT(int3, int0);

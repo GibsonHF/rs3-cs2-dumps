@@ -30,7 +30,7 @@ function script5313(int0: number, int1: number, int2: number, int3: number, int4
         int9 = 7712;
         CC_SETONMOUSELEAVE(callback(script5336, -2147483645, -2147483643, int9));
         CC_CREATE(int4, 5, int5);
-        CC_SETGRAPHIC(7715);
+        CC_SETGRAPHIC(7715 as graphic);
         CC_SETOP(1, "Bookmark");
         CC_SETSIZE(12, 13, 0, 0);
         CC_SETPOSITION(1, (int5 * int6), 2, 0);
@@ -39,13 +39,13 @@ function script5313(int0: number, int1: number, int2: number, int3: number, int4
         int9 = 7715;
         CC_SETONMOUSELEAVE(callback(script5336, -2147483645, -2147483643, int9));
         CC_CREATE(int2, 4, int5);
-        CC_SETTEXT(enum_getvalue(0, 36, 5177, int5));
-        CC_SETTEXTFONT(66);
+        CC_SETTEXT(enum_getvalue(0, 36, 5177 as cs2enum, int5));
+        CC_SETTEXTFONT(66 as fontmetrics);
         CC_SETPOSITION(2, (int5 * int6), 0, 0);
         CC_SETSIZE(0, 15, 1, 0);
         CC_SETCOLOUR(14540253);
         CC_SETTEXTALIGN(0, 1, 0);
-        CC_SETTEXTSHADOW(0);
+        CC_SETTEXTSHADOW(false);
         int5 = (int5 + 1);
     };
     IF_SETSCROLLPOS(0, 0, int0);

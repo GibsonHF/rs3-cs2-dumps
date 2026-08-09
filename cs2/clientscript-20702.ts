@@ -17,12 +17,20 @@ function script20702(): void {
             int5 = (37 * (int2 / 5));
             int7 = enum_getvalue(0, 33, varplayer_12695, int2);
             int3 = INV_TOTAL(varplayer_12696, OC_CERT(int7));
-            CC_CREATE(int0, 5, int6++);
+            stack(int0);
+            stack(5);
+            stack(int6);
+            int6 = (int6 + 1);
+            CC_CREATE();
             CC_SETSIZE(40, 36, 0, 0);
             CC_SETPOSITION(int4, int5, 0, 0);
             CC_SETGRAPHIC(18266 as graphic);
             CC_SETOUTLINE(1);
-            CC_CREATE(int0, 5, int6++);
+            stack(int0);
+            stack(5);
+            stack(int6);
+            int6 = (int6 + 1);
+            CC_CREATE();
             CC_SETPOSITION((int4 + 3), (int5 + 3), 0, 0);
             CC_SETSIZE(36, 32, 0, 0);
             if ((int3 > 0)) {

@@ -10,8 +10,7 @@ function script10146(int0: number): void {
     var int6 = -1;
     var int7 = -1;
     var int8 = -1;
-    stack(TTV_WEBCAM_GETDEVICE_BYUNIQUENAME(varclient_4291));
-    [int1, string0, string1] = stack();
+    [int1, string0, string1] = TTV_WEBCAM_GETDEVICE_BYUNIQUENAME(varclient_4291);
     if ((int1 == -1)) {
         script10145();
         SOUND_VORBIS_VOLUME(10046 as vorbis, 1, 0, 150);
@@ -31,8 +30,7 @@ function script10146(int0: number): void {
         SOUND_VORBIS_VOLUME(10046 as vorbis, 1, 0, 150);
         return;
     };
-    stack(TTV_WEBCAM_GETDEVICE_BYINDEX(int1));
-    [int1, string0, string1] = stack();
+    [int1, string0, string1] = TTV_WEBCAM_GETDEVICE_BYINDEX(int1);
     if ((int1 != -1)) {
         IF_SETHIDE(true, comp(232, 138));
         IF_SETHIDE(false, comp(232, 129));

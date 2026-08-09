@@ -22,9 +22,18 @@ function script15215(int0: number, int1: number, int2: number, int3: number, int
     var int11 = 0;
     var int12 = 0;
     if ((int6 != 10)) {
-        int11 = script16708(82117059, int6, int10, 0, (int2++ + int12), (int3 + int7), (int4 - 1), 0, 0, 74, 90, 0, 0);
+        stack(82117059);
+        stack(int6);
+        stack(int10);
+        stack(0);
+        stack(int2);
+        var int2 = (int2 + 1);
+        int11 = script16708(ADD(int12), (int3 + int7), (int4 - 1), 0, 0, 74, 90, 0, 0);
         if ((int11 <= 0)) {
-            script7918(0, (int2++ + int12), (int3 + int7), (int4 - 1), 0, 0, 74, 90, 0, 0, int10);
+            stack(0);
+            stack(int2);
+            int2 = (int2 + 1);
+            script7918(ADD(int12), (int3 + int7), (int4 - 1), 0, 0, 74, 90, 0, 0, int10);
         } else {
             int12 = (int12 + int11);
             int11 = 0;
@@ -41,7 +50,10 @@ function script15215(int0: number, int1: number, int2: number, int3: number, int
     if ((int13 > 0)) {
         int13 = (int13 / 2);
     };
-    script9861(0, (int2++ + int12), (int3 + int7), ((int4 + int13) - 5), 0, 0, 36, 32, 0, 0, int0, int1, 0, 1);
+    stack(0);
+    stack(int2);
+    int2 = (int2 + 1);
+    script9861(ADD(int12), (int3 + int7), ((int4 + int13) - 5), 0, 0, 36, 32, 0, 0, int0, int1, 0, 1);
     if (((int8 == 0) && (int9 == 1))) {
         script15374(int0, -1, 15371, string0, int6, string1, 36, 32, 0);
     };

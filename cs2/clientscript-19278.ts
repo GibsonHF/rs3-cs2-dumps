@@ -1,39 +1,39 @@
 //
 function script19278(): void {
     IF_SETTEXT(dbrow_getfield(varplayer_11901, 1216544, 0), comp(1290, 15));
-    var int0 = -1 as graphic;
+    var int0 = -1;
     switch (varbitplayer_56167) {
         case 0: {
-            int0 = 34430 as graphic;
+            int0 = 34430;
             break;
         }
         case 1: {
-            int0 = 34431 as graphic;
+            int0 = 34431;
             break;
         }
         case 2: {
-            int0 = 34432 as graphic;
+            int0 = 34432;
             break;
         }
         case 3: {
-            int0 = 34433 as graphic;
+            int0 = 34433;
             break;
         }
         case 4: {
-            int0 = 34434 as graphic;
+            int0 = 34434;
             break;
         }
         case 5: {
-            int0 = 34435 as graphic;
+            int0 = 34435;
             break;
         }
         case 6: {
-            int0 = 34436 as graphic;
+            int0 = 34436;
             break;
         }
     };
     IF_SETGRAPHIC(int0, comp(1290, 18));
-    var int1 = 34439 as graphic;
+    var int1 = 34439;
     var int2 = 46;
     var int3 = 46;
     var int4 = 0;
@@ -41,9 +41,10 @@ function script19278(): void {
     var int6 = 28;
     var int7 = 28;
     var int8 = DB_GETFIELDCOUNT(varplayer_11901, 1216560);
-    var int9 = -1 as dbrow;
+    var int9 = -1;
     var int10 = -1;
-    while ((++int10 < int8)) {
+    int10 = (int10 + 1);
+    while ((int10 < int8)) {
         switch (int10) {
             case 0: {
                 [int4, int5] = [0, 0];
@@ -70,7 +71,7 @@ function script19278(): void {
                 break;
             }
             case 6: {
-                int1 = 34442 as graphic;
+                int1 = 34442;
                 [int2, int3] = [58, 58];
                 [int4, int5] = [46, 150];
                 [int6, int7] = [42, 42];
@@ -134,7 +135,8 @@ function script19278(): void {
     var int12 = 0;
     var int13 = 1;
     var int14 = 0;
-    while ((++int14 <= 8)) {
+    int14 = (int14 + 1);
+    while ((int14 <= 8)) {
         [int11, int12, int13] = script19217(int14);
         script15938(84541460, int14, 0, 0, 0, 1, 1, 35, 43, 0, 0);
         script7918(int14, 2, 0, 0, 1, 1, 0, 0, 1, 1, script227(int13));

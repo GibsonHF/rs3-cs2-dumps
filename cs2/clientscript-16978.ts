@@ -6,7 +6,7 @@ function script16978(int0: number): void {
         case 0: {
             IF_SETGRAPHIC(22106 as graphic, script16991(int0));
             IF_SETHIDE(true, script16992(int0));
-            if ((script16998(int0) != comp(-1, 65535))) {
+            if ((script16998(int0) != -1)) {
                 IF_SETHIDE(false, script16998(int0));
             };
             script16979(int2, int0);
@@ -43,7 +43,7 @@ function script16978(int0: number): void {
             IF_SETGRAPHIC(22106 as graphic, script16991(int0));
             IF_SETHIDE(false, script16992(int0));
             IF_SETHIDE(true, script16997(int0));
-            if ((script16998(int0) != comp(-1, 65535))) {
+            if ((script16998(int0) != -1)) {
                 IF_SETHIDE(true, script16998(int0));
             };
             if ((int0 == 3)) {

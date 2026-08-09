@@ -89,6 +89,7 @@ function script17905(int0: number): number {
             return varplayer_11435;
         }
         case 30: {
+            break;
         }
         default: {
             script12478(`Invalid slot requested expected 1 - ${inttostring(script17901(), 10)} got : ${inttostring(int0, 10)}`);

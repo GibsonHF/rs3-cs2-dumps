@@ -5,11 +5,11 @@ function script5725(int0: number): number {
     };
     var int1 = DB_GETFIELDCOUNT(int0, 548928);
     var int2 = 0;
-    var int3 = -1 as dbrow;
+    var int3 = -1;
     if ((int1 > 0)) {
         while ((int2 < int1)) {
             int3 = dbrow_getfield(int0, 548928, int2);
-            if (((int3 != -1 as dbrow) && (script12115(int3) == 1))) {
+            if (((int3 != -1) && (script12115(int3) == 1))) {
                 return 1;
             };
             int2 = (int2 + 1);

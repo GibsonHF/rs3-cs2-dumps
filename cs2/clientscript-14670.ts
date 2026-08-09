@@ -1,11 +1,11 @@
 //
 function script14670(int0: number): number {
-    if ((int0 == -1 as dbrow)) {
+    if ((int0 == -1)) {
         return -1;
     };
     var int1 = script14673(int0);
     if ((int1 == 0)) {
-        if ((dbrow_getfield(int0, 372880, 0) == true)) {
+        if ((dbrow_getfield(int0, 372880, 0) == 1)) {
             return 3;
         };
         return 2;

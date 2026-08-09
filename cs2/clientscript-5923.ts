@@ -3,29 +3,30 @@ function script5923(int0: number, int1: number, int2: number): void {
     varbitplayer_43348 = 0;
     var int3 = -1 as struct;
     var int4 = comp(-1, 65535);
-    var int5 = -1;
+    var int5 = comp(-1, 65535);
     var int6 = -1;
     var int7 = -1;
     var int8 = -1;
     var int9 = -1;
-    while ((++int9 < 3)) {
+    int9 = (int9 + 1);
+    while ((int9 < 3)) {
         switch (int9) {
             case 0: {
                 int3 = enum_getvalue(0, 73, 812 as cs2enum, int0);
                 int4 = comp(19, 2);
-                int5 = 1245187;
+                int5 = comp(19, 3);
                 break;
             }
             case 1: {
                 int3 = enum_getvalue(0, 73, 812 as cs2enum, int1);
                 int4 = comp(19, 7);
-                int5 = 1245192;
+                int5 = comp(19, 8);
                 break;
             }
             case 2: {
                 int3 = enum_getvalue(0, 73, 812 as cs2enum, int2);
                 int4 = comp(19, 9);
-                int5 = 1245194;
+                int5 = comp(19, 10);
                 break;
             }
         };

@@ -7,8 +7,8 @@ function script15623(): void {
     IF_SETTRANS(int2, comp(906, 153));
     if ((int1 <= int0)) {
         IF_SETONTIMER(callback(), comp(906, 5));
-        IF_SETHIDE(1, 59375768);
-        IF_SETTRANS(255, 59375769);
+        IF_SETHIDE(true, comp(906, 152));
+        IF_SETTRANS(255, comp(906, 153));
     };
     return;
 }

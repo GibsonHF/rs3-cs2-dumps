@@ -48,7 +48,8 @@ function script20906(int0: number, int1: number, int2: number, int3: number, int
         script20899(int2, 5, int21, int15, `Results for: ${string0}`);
     };
     var int8 = (int8 + int20);
-    while ((--int20 >= 0)) {
+    int20 = (int20 - 1);
+    while ((int20 >= 0)) {
         if ((CC_FIND(int3, (int22 + int20)) == 1)) {
             CC_SETOBJECT_NONUM(cc_getparam(4677), 1);
         };

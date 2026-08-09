@@ -5,7 +5,7 @@ function script15783(): void {
     var int2 = 0;
     var int3 = 0;
     var int4 = 0;
-    var int5 = -1 as cs2enum;
+    var int5 = -1;
     var int6 = -1;
     var int7 = comp(-1, 65535);
     var int8 = 0;
@@ -100,7 +100,7 @@ function script15783(): void {
                 IF_SETHIDE(true, comp(1465, 33));
             };
         };
-        if (((int5 != -1 as cs2enum) && (varplayer_9773 != int0))) {
+        if (((int5 != -1) && (varplayer_9773 != int0))) {
             varplayer_9773 = int0;
             script15373(int5);
         };

@@ -7,6 +7,6 @@ function script19027(): void {
     IF_SETMODELANIM(int2, comp(1082, 83));
     IF_SETMODELANIM(int3, comp(1082, 63));
     IF_SETONTIMER(callback(), comp(1082, 83));
-    IF_SETONTIMER(callback(), 70910015);
+    IF_SETONTIMER(callback(), comp(1082, 63));
     return;
 }

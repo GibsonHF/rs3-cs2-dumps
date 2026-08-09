@@ -6,7 +6,7 @@ function script20898(int0: number): number {
     if ((varbitplayer_19000 != 1)) {
         return 0;
     };
-    if (((varplayer_13480 == -1 as obj) && (INV_SIZE(890 as inv) == INV_FREESPACE(890 as inv)))) {
+    if (((varplayer_13480 == -1) && (INV_SIZE(890 as inv) == INV_FREESPACE(890 as inv)))) {
         return 0;
     };
     IF_SETHIDE(true, comp(105, 224));
@@ -14,8 +14,8 @@ function script20898(int0: number): number {
     CC_DELETEALL(comp(105, 230));
     IF_SETTEXT("", comp(105, 225));
     var int1 = 6881509;
-    var int2 = comp(105, 230);
-    var int3 = comp(105, 222);
+    var int2 = 6881510;
+    var int3 = 6881502;
     var int4 = 0;
     var int5 = 5;
     var int6 = 0;
@@ -24,7 +24,7 @@ function script20898(int0: number): number {
     var int9 = 50;
     var int10 = ((50 / 2) - (32 / 2));
     var int11 = ((int8 - 36) - (5 * 2));
-    if ((varplayer_13480 != -1 as obj)) {
+    if ((varplayer_13480 != -1)) {
         [int5, int6] = script20899(int1, int5, int6, int9, "Recent searches:");
         [int5, int6, int4] = script20900(int1, int2, int5, int6, int8, int9, varplayer_135, varplayer_13480, int10, int11, 1);
         [int5, int6, int4] = script20900(int1, int2, int5, int6, int8, int9, varplayer_135, varplayer_13481, int10, int11, 1);
@@ -40,7 +40,10 @@ function script20898(int0: number): number {
         };
     };
     var int14 = 0;
-    while ((CC_FIND(int2, int14++) == 1)) {
+    stack(int2);
+    stack(int14);
+    int14 = (int14 + 1);
+    while ((CC_FIND() == 1)) {
         CC_SETOBJECT_NONUM(cc_getparam(4677), 1);
     };
     if ((int5 > 5)) {

@@ -15,7 +15,7 @@ function script19892(int0: number, int1: number, int2: number, int3: number, int
     if ((int2 == 0)) {
         IF_CLEAROPS(comp(1594, 118));
         IF_SETONOP(callback(), comp(1594, 118));
-        IF_SETOP(1, script12793(int1, struct_getparam(int1, 4854), int5), 104464502);
+        IF_SETOP(1, script12793(int1, struct_getparam(int1, 4854), int5), comp(1594, 118));
         if ((((struct_getparam(int1, 4855) != -1) || (struct_getparam(int1, 4856) != -1)) || (struct_getparam(int1, 4857) != -1))) {
             if ((script6431() == 1)) {
                 var string1 = "There are more buy options if you tap and hold.";
@@ -41,15 +41,19 @@ function script19892(int0: number, int1: number, int2: number, int3: number, int
     } else {
         IF_SETHIDE(false, comp(1594, 119));
         IF_CLEAROPS(comp(1594, 118));
-        IF_SETONMOUSEREPEAT(callback(script8799, string1, 104464482, -1), 104464503);
+        IF_SETONMOUSEREPEAT(callback(script8799, string1, 104464482, -1), comp(1594, 119));
     };
     if ((script6431() == 1)) {
-        if (((int2 == 1) && (STRING_LENGTH(string1) > 0))) {
-            IF_SETONCLICK(callback(script7774, string1, 104464482, -1, int4), 104464482);
+        if ((int2 == 1)) {
+            if ((STRING_LENGTH(string1) > 0)) {
+                IF_SETONCLICK(callback(script7774, string1, 104464482, -1, int4), comp(1594, 98));
+            } else {
+                IF_SETONCLICK(callback(), comp(1594, 98));
+            };
         } else {
             IF_SETONCLICK(callback(), comp(1594, 98));
         };
     };
-    IF_SETONMOUSEREPEAT(callback(script8799, string1, 104464482, -1), 104464482);
+    IF_SETONMOUSEREPEAT(callback(script8799, string1, 104464482, -1), comp(1594, 98));
     return;
 }

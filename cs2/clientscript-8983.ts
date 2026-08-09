@@ -23,6 +23,7 @@ function script8983(): number {
             return 7;
         }
         case 10: {
+            break;
         }
         default: {
             return 0;

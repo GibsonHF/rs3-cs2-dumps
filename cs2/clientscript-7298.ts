@@ -3,7 +3,7 @@ function script7298(): void {
     CC_DELETEALL(comp(1276, 7));
     CC_DELETEALL(comp(1276, 6));
     var int0 = 0;
-    var int1 = -1 as obj;
+    var int1 = -1;
     var int2 = 0;
     var string0 = "";
     var int3 = -1;
@@ -40,12 +40,16 @@ function script7298(): void {
                 break;
             }
         };
-        if (((int2 > 0) && (TESTBIT(varplayer_3404, int0) == 1))) {
-            string0 = `<col=F7EDB7>${inttostring(int2, 10)}`;
+        if ((int2 > 0)) {
+            if ((TESTBIT(varplayer_3404, int0) == 1)) {
+                string0 = `<col=F7EDB7>${inttostring(int2, 10)}`;
+            } else {
+                string0 = "<col=F7EDB7>-";
+            };
         } else {
             string0 = "<col=F7EDB7>-";
         };
-        if ((int1 != -1 as obj)) {
+        if ((int1 != -1)) {
             int10 = script7317(677, int0);
             if ((enum_hasoutput(33, 2173 as cs2enum, int1) == 1)) {
                 CC_CREATE(comp(1276, 7), 5, int0);
@@ -55,7 +59,7 @@ function script7298(): void {
                 CC_SETOP(1, "Info");
                 CC_SETOP(2, "Dismiss");
                 CC_SETONOP(callback(script7301));
-                CC_CREATE(83623941, 5, int0);
+                CC_CREATE(comp(1276, 5), 5, int0);
                 if ((varbitplayer_17147 == int0)) {
                     CC_SETGRAPHIC(15581 as graphic);
                 } else {
@@ -96,7 +100,7 @@ function script7298(): void {
                 CC_SETOP(1, "Info");
                 CC_SETOP(2, "Dismiss");
                 CC_SETONOP(callback(script7301));
-                CC_CREATE(83623941, 5, int0);
+                CC_CREATE(comp(1276, 5), 5, int0);
                 if ((varbitplayer_17147 == int0)) {
                     CC_SETGRAPHIC(15584 as graphic);
                     CC_SETONMOUSEOVER(callback());

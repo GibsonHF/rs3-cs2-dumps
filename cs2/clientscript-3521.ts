@@ -24,7 +24,7 @@ function script3521(): void {
             script12410(int1);
             CC_SETONOP(callback(script1620, -2147483645, -2147483643, 100, 0, 8));
             script14992(int1, 795, int0);
-            CC_CREATE(117309496, 4, int0);
+            CC_CREATE(comp(1790, 56), 4, int0);
             CC_SETSIZE(55, 11, 0, 0);
             if ((int2 == 0)) {
                 CC_SETPOSITION(0, (int3 + 44), 0, 0);

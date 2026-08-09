@@ -5,9 +5,7 @@ function script11021(int0: number): void {
     var int2 = 28692;
     var string0 = "Sort descending";
     if (((script1851() == int1) || (script1852() == int1))) {
-        stack(28691);
-        stack("Sort ascending");
-        [int2, string0] = stack();
+        [int2, string0] = [28691, "Sort ascending"];
     };
     CC_CREATE(int0, 5, 0);
     var int3 = struct_getparam(int2, 3910);

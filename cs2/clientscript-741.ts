@@ -15,7 +15,6 @@ function script741(): void {
     IF_SETMODEL(int2, enum_getvalue(0, 9, 1153 as cs2enum, int0));
     script737(int0);
     if ((varclient_102 == 12)) {
-    } else {
     };
     if ((varclient_105 == 0)) {
         printmessage("The mechanism issues forth a whine and shuts down.");

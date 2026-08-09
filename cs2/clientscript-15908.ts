@@ -11,155 +11,229 @@ function script15908(int0: number, int1: number, int2: number, int3: number, int
     switch (int7) {
         case 6: {
             string0 = " ";
-            if (((int0 != -1) && ((int0 > 0) || (int9 == 0)))) {
-                string4 = `${inttostring(int0, 10)} ${script4583(int0, "day", "days")}`;
+            if ((int0 != -1)) {
+                if (((int0 > 0) || (int9 == 0))) {
+                    string4 = `${inttostring(int0, 10)} ${script4583(int0, "day", "days")}`;
+                };
             };
-            if (((int3 != -1) && ((int3 > 0) || (int12 == 0)))) {
-                string5 = `${inttostring(int3, 10)} ${script4583(int3, "hour", "hours")}`;
+            if ((int3 != -1)) {
+                if (((int3 > 0) || (int12 == 0))) {
+                    string5 = `${inttostring(int3, 10)} ${script4583(int3, "hour", "hours")}`;
+                };
             };
-            if (((int4 != -1) && ((int4 > 0) || (int13 == 0)))) {
-                string6 = `${inttostring(int4, 10)} ${script4583(int4, "minute", "minutes")}`;
+            if ((int4 != -1)) {
+                if (((int4 > 0) || (int13 == 0))) {
+                    string6 = `${inttostring(int4, 10)} ${script4583(int4, "minute", "minutes")}`;
+                };
             };
-            if (((int5 != -1) && ((int5 > 0) || (int14 == 0)))) {
-                string7 = inttostring(int5, 10);
-                if ((int6 > 0)) {
-                    string7 = `${string7}.${inttostring(int6, 10)} seconds`;
-                } else {
-                    string7 = `${string7} ${script4583(int5, "second", "seconds")}`;
+            if ((int5 != -1)) {
+                if (((int5 > 0) || (int14 == 0))) {
+                    string7 = inttostring(int5, 10);
+                    if ((int6 > 0)) {
+                        string7 = `${string7}.${inttostring(int6, 10)} seconds`;
+                    } else {
+                        string7 = `${string7} ${script4583(int5, "second", "seconds")}`;
+                    };
                 };
             };
             break;
         }
         case 0: {
             string0 = " ";
-            if (((int0 != -1) && ((int0 > 0) || (int9 == 0)))) {
-                string4 = `${inttostring(int0, 10)} ${script4583(int0, "Day", "Days")}`;
+            if ((int0 != -1)) {
+                if (((int0 > 0) || (int9 == 0))) {
+                    string4 = `${inttostring(int0, 10)} ${script4583(int0, "Day", "Days")}`;
+                };
             };
-            if (((int3 != -1) && ((int3 > 0) || (int12 == 0)))) {
-                string5 = `${inttostring(int3, 10)} ${script4583(int3, "Hour", "Hours")}`;
+            if ((int3 != -1)) {
+                if (((int3 > 0) || (int12 == 0))) {
+                    string5 = `${inttostring(int3, 10)} ${script4583(int3, "Hour", "Hours")}`;
+                };
             };
-            if (((int4 != -1) && ((int4 > 0) || (int13 == 0)))) {
-                string6 = `${inttostring(int4, 10)} ${script4583(int4, "Minute", "Minutes")}`;
+            if ((int4 != -1)) {
+                if (((int4 > 0) || (int13 == 0))) {
+                    string6 = `${inttostring(int4, 10)} ${script4583(int4, "Minute", "Minutes")}`;
+                };
             };
-            if (((int5 != -1) && ((int5 > 0) || (int14 == 0)))) {
-                string7 = inttostring(int5, 10);
-                if ((int6 > 0)) {
-                    string7 = `${string7}.${inttostring(int6, 10)} Seconds`;
-                } else {
-                    string7 = `${string7} ${script4583(int5, "Second", "Seconds")}`;
+            if ((int5 != -1)) {
+                if (((int5 > 0) || (int14 == 0))) {
+                    string7 = inttostring(int5, 10);
+                    if ((int6 > 0)) {
+                        string7 = `${string7}.${inttostring(int6, 10)} Seconds`;
+                    } else {
+                        string7 = `${string7} ${script4583(int5, "Second", "Seconds")}`;
+                    };
                 };
             };
             break;
         }
         case 1: {
             string0 = " ";
-            if (((int0 != -1) && ((int0 > 0) || (int9 == 0)))) {
-                string4 = `${inttostring(int0, 10)}d`;
-            };
-            if (((int3 != -1) && ((int3 > 0) || (int12 == 0)))) {
-                string5 = `${inttostring(int3, 10)}h`;
-            };
-            if (((int4 != -1) && ((int4 > 0) || (int13 == 0)))) {
-                string6 = `${inttostring(int4, 10)}m`;
-            };
-            if (((int5 != -1) && ((int5 > 0) || (int14 == 0)))) {
-                string7 = inttostring(int5, 10);
-                if ((int6 > 0)) {
-                    string7 = `${string7}.${inttostring(int6, 10)}`;
+            if ((int0 != -1)) {
+                if (((int0 > 0) || (int9 == 0))) {
+                    string4 = `${inttostring(int0, 10)}d`;
                 };
-                string7 = `${string7}s`;
+            };
+            if ((int3 != -1)) {
+                if (((int3 > 0) || (int12 == 0))) {
+                    string5 = `${inttostring(int3, 10)}h`;
+                };
+            };
+            if ((int4 != -1)) {
+                if (((int4 > 0) || (int13 == 0))) {
+                    string6 = `${inttostring(int4, 10)}m`;
+                };
+            };
+            if ((int5 != -1)) {
+                if (((int5 > 0) || (int14 == 0))) {
+                    string7 = inttostring(int5, 10);
+                    if ((int6 > 0)) {
+                        string7 = `${string7}.${inttostring(int6, 10)}`;
+                    };
+                    string7 = `${string7}s`;
+                };
             };
             break;
         }
         case 2: {
             string0 = " ";
-            if (((int0 != -1) && ((int0 > 0) || (int9 == 0)))) {
-                string4 = `${inttostring(int0, 10)}D`;
-            };
-            if (((int3 != -1) && ((int3 > 0) || (int12 == 0)))) {
-                string5 = `${inttostring(int3, 10)}H`;
-            };
-            if (((int4 != -1) && ((int4 > 0) || (int13 == 0)))) {
-                string6 = `${inttostring(int4, 10)}M`;
-            };
-            if (((int5 != -1) && ((int5 > 0) || (int14 == 0)))) {
-                string7 = inttostring(int5, 10);
-                if ((int6 > 0)) {
-                    string7 = `${string7}.${inttostring(int6, 10)}`;
+            if ((int0 != -1)) {
+                if (((int0 > 0) || (int9 == 0))) {
+                    string4 = `${inttostring(int0, 10)}D`;
                 };
-                string7 = `${string7}S`;
+            };
+            if ((int3 != -1)) {
+                if (((int3 > 0) || (int12 == 0))) {
+                    string5 = `${inttostring(int3, 10)}H`;
+                };
+            };
+            if ((int4 != -1)) {
+                if (((int4 > 0) || (int13 == 0))) {
+                    string6 = `${inttostring(int4, 10)}M`;
+                };
+            };
+            if ((int5 != -1)) {
+                if (((int5 > 0) || (int14 == 0))) {
+                    string7 = inttostring(int5, 10);
+                    if ((int6 > 0)) {
+                        string7 = `${string7}.${inttostring(int6, 10)}`;
+                    };
+                    string7 = `${string7}S`;
+                };
             };
             break;
         }
         case 3: {
             string0 = " ";
-            if (((int0 != -1) && ((int0 > 0) || (int9 == 0)))) {
-                string4 = `${inttostring(int0, 10)} ${script4583(int0, "Day", "Days")}`;
+            if ((int0 != -1)) {
+                if (((int0 > 0) || (int9 == 0))) {
+                    string4 = `${inttostring(int0, 10)} ${script4583(int0, "Day", "Days")}`;
+                };
             };
-            if (((int3 != -1) && ((int3 > 0) || (int12 == 0)))) {
-                string5 = `${inttostring(int3, 10)} ${script4583(int3, "Hour", "Hours")}`;
+            if ((int3 != -1)) {
+                if (((int3 > 0) || (int12 == 0))) {
+                    string5 = `${inttostring(int3, 10)} ${script4583(int3, "Hour", "Hours")}`;
+                };
             };
-            if (((int4 != -1) && ((int4 > 0) || (int13 == 0)))) {
-                string6 = `${inttostring(int4, 10)} ${script4583(int4, "Min", "Mins")}`;
+            if ((int4 != -1)) {
+                if (((int4 > 0) || (int13 == 0))) {
+                    string6 = `${inttostring(int4, 10)} ${script4583(int4, "Min", "Mins")}`;
+                };
             };
-            if (((int5 != -1) && ((int5 > 0) || (int14 == 0)))) {
-                string7 = inttostring(int5, 10);
-                if ((int6 > 0)) {
-                    string7 = `${string7}.${inttostring(int6, 10)} Secs`;
-                } else {
-                    string7 = `${string7} ${script4583(int5, "Sec", "Secs")}`;
+            if ((int5 != -1)) {
+                if (((int5 > 0) || (int14 == 0))) {
+                    string7 = inttostring(int5, 10);
+                    if ((int6 > 0)) {
+                        string7 = `${string7}.${inttostring(int6, 10)} Secs`;
+                    } else {
+                        string7 = `${string7} ${script4583(int5, "Sec", "Secs")}`;
+                    };
                 };
             };
             break;
         }
         case 4: {
             string0 = " ";
-            if (((int0 != -1) && ((int0 > 0) || (int9 == 0)))) {
-                string4 = `${inttostring(int0, 10)} ${script4583(int0, "day", "days")}`;
+            if ((int0 != -1)) {
+                if (((int0 > 0) || (int9 == 0))) {
+                    string4 = `${inttostring(int0, 10)} ${script4583(int0, "day", "days")}`;
+                };
             };
-            if (((int3 != -1) && ((int3 > 0) || (int12 == 0)))) {
-                string5 = `${inttostring(int3, 10)} ${script4583(int3, "hour", "hours")}`;
+            if ((int3 != -1)) {
+                if (((int3 > 0) || (int12 == 0))) {
+                    string5 = `${inttostring(int3, 10)} ${script4583(int3, "hour", "hours")}`;
+                };
             };
-            if (((int4 != -1) && ((int4 > 0) || (int13 == 0)))) {
-                string6 = `${inttostring(int4, 10)} ${script4583(int4, "min", "mins")}`;
+            if ((int4 != -1)) {
+                if (((int4 > 0) || (int13 == 0))) {
+                    string6 = `${inttostring(int4, 10)} ${script4583(int4, "min", "mins")}`;
+                };
             };
-            if (((int5 != -1) && ((int5 > 0) || (int14 == 0)))) {
-                string7 = inttostring(int5, 10);
-                if ((int6 > 0)) {
-                    string7 = `${string7}.${inttostring(int6, 10)} secs`;
-                } else {
-                    string7 = `${string7} ${script4583(int5, "sec", "secs")}`;
+            if ((int5 != -1)) {
+                if (((int5 > 0) || (int14 == 0))) {
+                    string7 = inttostring(int5, 10);
+                    if ((int6 > 0)) {
+                        string7 = `${string7}.${inttostring(int6, 10)} secs`;
+                    } else {
+                        string7 = `${string7} ${script4583(int5, "sec", "secs")}`;
+                    };
                 };
             };
             break;
         }
         case 5: {
             string0 = ":";
-            if (((int0 != -1) && ((int0 > 0) || (int9 == 0)))) {
-                if ((int0 < 10)) {
-                    string4 = "0";
+            if ((int0 != -1)) {
+                if (((int0 > 0) || (int9 == 0))) {
+                    if ((int0 < 10)) {
+                        string4 = "0";
+                    };
+                    string4 = `${string4}${inttostring(int0, 10)}`;
                 };
-                string4 = `${string4}${inttostring(int0, 10)}`;
             };
-            if (((int3 != -1) && (((int3 > 0) || (int12 == 0)) || ((int12 == 1) && (STRING_LENGTH(string4) != 0))))) {
-                if ((int3 < 10)) {
-                    string5 = "0";
+            if ((int3 != -1)) {
+                if (((int3 > 0) || (int12 == 0))) {
+                    if ((int3 < 10)) {
+                        string5 = "0";
+                    };
+                    string5 = `${string5}${inttostring(int3, 10)}`;
+                } else if (((int12 == 1) && (STRING_LENGTH(string4) != 0))) {
+                    if ((int3 < 10)) {
+                        string5 = "0";
+                    };
+                    string5 = `${string5}${inttostring(int3, 10)}`;
                 };
-                string5 = `${string5}${inttostring(int3, 10)}`;
             };
-            if (((int4 != -1) && (((int4 > 0) || (int13 == 0)) || ((int13 == 1) && (STRING_LENGTH(string5) != 0))))) {
-                if ((int4 < 10)) {
-                    string6 = "0";
+            if ((int4 != -1)) {
+                if (((int4 > 0) || (int13 == 0))) {
+                    if ((int4 < 10)) {
+                        string6 = "0";
+                    };
+                    string6 = `${string6}${inttostring(int4, 10)}`;
+                } else if (((int13 == 1) && (STRING_LENGTH(string5) != 0))) {
+                    if ((int4 < 10)) {
+                        string6 = "0";
+                    };
+                    string6 = `${string6}${inttostring(int4, 10)}`;
                 };
-                string6 = `${string6}${inttostring(int4, 10)}`;
             };
-            if (((int5 != -1) && (((int5 > 0) || (int14 == 0)) || ((int14 == 1) && (STRING_LENGTH(string6) != 0))))) {
-                if ((int5 < 10)) {
-                    string7 = "0";
-                };
-                string7 = `${string7}${inttostring(int5, 10)}`;
-                if ((int6 > 0)) {
-                    string7 = `${string7}.${inttostring(int6, 10)}`;
+            if ((int5 != -1)) {
+                if (((int5 > 0) || (int14 == 0))) {
+                    if ((int5 < 10)) {
+                        string7 = "0";
+                    };
+                    string7 = `${string7}${inttostring(int5, 10)}`;
+                    if ((int6 > 0)) {
+                        string7 = `${string7}.${inttostring(int6, 10)}`;
+                    };
+                } else if (((int14 == 1) && (STRING_LENGTH(string6) != 0))) {
+                    if ((int5 < 10)) {
+                        string7 = "0";
+                    };
+                    string7 = `${string7}${inttostring(int5, 10)}`;
+                    if ((int6 > 0)) {
+                        string7 = `${string7}.${inttostring(int6, 10)}`;
+                    };
                 };
             };
             break;
@@ -182,11 +256,15 @@ function script15908(int0: number, int1: number, int2: number, int3: number, int
         }
     };
     if ((int8 != -1)) {
-        if (((int0 != -1) && ((int0 > 0) || (int9 == 0)))) {
-            string4 = inttostring(int0, 10);
+        if ((int0 != -1)) {
+            if (((int0 > 0) || (int9 == 0))) {
+                string4 = inttostring(int0, 10);
+            };
         };
-        if (((int2 != -1) && ((int2 > 0) || (int11 == 0)))) {
-            string2 = inttostring(int2, 10);
+        if ((int2 != -1)) {
+            if (((int2 > 0) || (int11 == 0))) {
+                string2 = inttostring(int2, 10);
+            };
         };
         switch (int8) {
             case 0:
@@ -211,7 +289,7 @@ function script15908(int0: number, int1: number, int2: number, int3: number, int
             case 2:
             case 3: {
                 if ((((int1 >= 0) && (int1 <= 11)) && (int10 == 0))) {
-                    string3 = enum_getvalue(0, 36, 10037 as cs2enum, int1);
+                    string3 = enum_getvalue(0, 36, 10037, int1);
                 };
                 break;
             }

@@ -33,7 +33,8 @@ function script13243(int0: number, int1: number): void {
     var string0 = "";
     var string1 = "";
     var string2 = "";
-    while ((++int5 < 19)) {
+    int5 = (int5 + 1);
+    while ((int5 < 19)) {
         if ((CC_FIND(int0, int5) == 1)) {
             int9 = script15770(cc_getparam(8968));
             if (((int9 != -1) && (int8 == 0))) {
@@ -69,10 +70,18 @@ function script13243(int0: number, int1: number): void {
             if ((int5 != 0)) {
                 int24 = int22;
             };
-            CC_CREATE[1](int2, 5, int5++);
+            stack(int2);
+            stack(5);
+            stack(int5);
+            int5 = (int5 + 1);
+            CC_CREATE[1]();
             CC_SETGRAPHIC[1](23851 as graphic);
             CC_SETSIZE[1](int25, int26, 0, 0);
-            CC_CREATE(int2, 4, int5++);
+            stack(int2);
+            stack(4);
+            stack(int5);
+            int5 = (int5 + 1);
+            CC_CREATE();
             if ((STRING_LENGTH(string1) > 0)) {
                 script14990(2, string1);
             };
@@ -92,10 +101,18 @@ function script13243(int0: number, int1: number): void {
             if ((int5 != 0)) {
                 int24 = int22;
             };
-            CC_CREATE[1](int2, 5, int5++);
+            stack(int2);
+            stack(5);
+            stack(int5);
+            int5 = (int5 + 1);
+            CC_CREATE[1]();
             CC_SETGRAPHIC[1](23852 as graphic);
             CC_SETSIZE[1](int25, int26, 0, 0);
-            CC_CREATE(int2, 4, int5++);
+            stack(int2);
+            stack(4);
+            stack(int5);
+            int5 = (int5 + 1);
+            CC_CREATE();
             if ((STRING_LENGTH(string2) > 0)) {
                 script14990(2, string2);
             };
@@ -130,13 +147,16 @@ function script13243(int0: number, int1: number): void {
     if ((STRING_LENGTH(string0) > 0)) {
         int4 = false;
         int29 = MAX(0, (int18 - int28));
-        CC_CREATE(int2, 4, int5++);
+        stack(int2);
+        stack(4);
+        stack(int5);
+        int5 = (int5 + 1);
+        CC_CREATE();
         CC_SETTEXTFONT(26 as fontmetrics);
         CC_SETTEXTSHADOW(true);
         CC_SETCOLOUR(script10495(int16));
         int30 = 0;
-        if ((varbitclient_35134 != 0)) {
-        } else if ((int15 == 0)) {
+        if (((varbitclient_35134 != 0) || (int15 == 0))) {
             while ((script7593(string3, 1000, CC_GETFONTMETRICS(), 0) < int29)) {
                 int30 = (int30 + 1);
                 string3 = `${string3}<br>A`;
@@ -146,7 +166,11 @@ function script13243(int0: number, int1: number): void {
             if ((int5 != 0)) {
                 int24 = int22;
             };
-            CC_CREATE[1](int2, 5, int5++);
+            stack(int2);
+            stack(5);
+            stack(int5);
+            int5 = (int5 + 1);
+            CC_CREATE[1]();
             CC_SETGRAPHIC[1](23824 as graphic);
             script14991(2, string0);
             CC_SETSIZE[1](20, 20, 0, 0);

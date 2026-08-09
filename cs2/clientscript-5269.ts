@@ -4,12 +4,12 @@ function script5269(int0: number, int1: number, int2: number, int3: number, int4
     var int29 = 0;
     var int30 = 0;
     IF_SETTEXT(string0, comp(1137, 49));
-    IF_SETONMOUSEREPEAT(callback(script8799, string1, -2147483645, -2147483643), 74514470);
-    IF_SETTEXT(inttostring(int25, 10), 74514486);
-    IF_SETTEXT(inttostring((int26 + int27), 10), 74514477);
-    CC_DELETEALL(74514468);
-    CC_DELETEALL(74514518);
-    CC_DELETEALL(74514529);
+    IF_SETONMOUSEREPEAT(callback(script8799, string1, -2147483645, -2147483643), comp(1137, 38));
+    IF_SETTEXT(inttostring(int25, 10), comp(1137, 54));
+    IF_SETTEXT(inttostring((int26 + int27), 10), comp(1137, 45));
+    CC_DELETEALL(comp(1137, 36));
+    CC_DELETEALL(comp(1137, 86));
+    CC_DELETEALL(comp(1137, 97));
     if ((int0 == 1)) {
         IF_SETHIDE(true, comp(1137, 23));
         IF_SETHIDE(false, comp(1137, 24));

@@ -6,11 +6,12 @@ function script20274(int0: number): void {
     CC_DELETEALL(int2);
     var int3 = DB_GETFIELDCOUNT(int0, 1380352);
     var int4 = -1;
-    var int5 = -1 as dbrow;
+    var int5 = -1;
     var int6 = 5;
-    while ((++int4 < int3)) {
+    int4 = (int4 + 1);
+    while ((int4 < int3)) {
         int5 = dbrow_getfield(int0, 1380352, int4);
-        if ((int5 != -1 as dbrow)) {
+        if ((int5 != -1)) {
             if ((int3 > 1)) {
                 if ((int4 > 0)) {
                     int6 = (int6 + 30);

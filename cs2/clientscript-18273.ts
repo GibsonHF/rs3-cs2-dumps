@@ -5,8 +5,7 @@ function script18273(int0: number): void {
     if ((varbitplayer_54610 > 1)) {
         int1 = DB_FIND_REFINE(1077280, varbitplayer_54610, 0);
     };
-    dbrow_findnext();
-    var int2 = stack();
+    var int2 = dbrow_findnext();
     var int3 = 0;
     var int4 = 0;
     var int5 = 0;
@@ -17,7 +16,7 @@ function script18273(int0: number): void {
     if ((script6431() == 1)) {
         string3 = "This emote has other appearances available. Long press to customise.";
     };
-    while ((int2 != -1 as dbrow)) {
+    while ((int2 != -1)) {
         if ((DB_GETFIELDCOUNT(int2, 1077376) <= 0)) {
             int5 = script17716(int2);
             if ((int5 > 0)) {
@@ -59,8 +58,7 @@ function script18273(int0: number): void {
         } else {
             int1 = (int1 - 1);
         };
-        dbrow_findnext();
-        int2 = stack();
+        int2 = dbrow_findnext();
     };
     IF_SETPARAM_INT(8348, int1, int0);
     IF_SETPOSITION(0, 0, 0, 0, int0);

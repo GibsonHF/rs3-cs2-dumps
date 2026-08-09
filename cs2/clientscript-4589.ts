@@ -48,10 +48,10 @@ function script4589(int0: number): void {
     IF_SETTEXT(script9465(4), int14);
     IF_SETTEXT("About Clans", int21);
     IF_SETONCLICK(callback(script10183), int21);
-    IF_SETHIDE(0, int21);
-    IF_SETHIDE(1, int15);
-    IF_SETHIDE(0, int3);
-    IF_SETHIDE(0, int5);
+    IF_SETHIDE(false, int21);
+    IF_SETHIDE(true, int15);
+    IF_SETHIDE(false, int3);
+    IF_SETHIDE(false, int5);
     if ((unk10993(0) == 1)) {
         script4470(int3, int4);
         script5395(int5, int6);

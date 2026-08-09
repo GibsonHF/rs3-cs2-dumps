@@ -1,7 +1,7 @@
 //[proc,autosetup]
 function script3384(int0: number): void {
     var int1 = comp(-1, 65535);
-    UNKNOWN_COMMAND_455();
+    AUTOSETUP_BEGIN();
     switch (int0) {
         case 0: {
             int1 = comp(882, 1);

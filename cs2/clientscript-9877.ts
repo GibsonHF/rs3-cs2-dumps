@@ -13,8 +13,8 @@ function script9877(): void {
     IF_SETTEXT(string1, comp(1503, 52));
     IF_SETGRAPHIC(int0, comp(1503, 51));
     IF_SETONMOUSEOVER(callback(script44, -2147483645, int1), comp(1503, 51));
-    IF_SETONMOUSELEAVE(callback(script44, -2147483645, int0), 98500659);
-    IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643), 98500658);
+    IF_SETONMOUSELEAVE(callback(script44, -2147483645, int0), comp(1503, 51));
+    IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643), comp(1503, 50));
     script8808();
     return;
 }

@@ -10,14 +10,10 @@ function script14184(int0: number): void {
     stack(3);
     stack(int0);
     IF_SETPINCHFLAGS();
-    stack(14147);
-    stack(-2147483646);
-    stack("i");
+    stack(callback(script14147, -2147483646));
     stack(int0);
     IF_SETONVERTICALPINCH();
-    stack(14147);
-    stack(-2147483647);
-    stack("i");
+    stack(callback(script14147, -2147483647));
     stack(int0);
     IF_SETONHORIZONTALPINCH();
     return;

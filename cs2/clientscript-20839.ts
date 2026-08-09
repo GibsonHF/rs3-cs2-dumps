@@ -1,6 +1,6 @@
 //
 function script20839(int0: number): number {
-    if ((int0 == -1 as obj)) {
+    if ((int0 == -1)) {
         return 0;
     };
     if ((enum_hasoutput(33, 5728 as cs2enum, int0) == 1)) {

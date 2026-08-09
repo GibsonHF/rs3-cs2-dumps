@@ -8,7 +8,9 @@ function script15518(): void {
     var int2 = IF_GETNEXTSUBID(comp(784, 43));
     var int3 = 0;
     while ((int3 == 0)) {
-        if ((CC_FIND(comp(784, 43), ++int0) == 1)) {
+        stack(comp(784, 43));
+        int0 = (int0 + 1);
+        if ((CC_FIND(int0) == 1)) {
             int1 = cc_getparam(885);
             if ((int1 > 0)) {
                 CC_CREATE[1](comp(784, 43), 4, int2);

@@ -96,7 +96,7 @@ function script13235(int0: number, int1: number, int2: number, int3: number, int
     CC_SENDTOFRONT();
     CC_SETHIDE(int3);
     IF_SETHIDE(int1, int5);
-    if ((int1 == 1)) {
+    if ((int1 == true)) {
         return;
     };
     if ((int2 == 1)) {

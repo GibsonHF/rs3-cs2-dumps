@@ -6,7 +6,7 @@ function script6167(int0: number, int1: number): void {
         IF_SETONTIMER(callback(script6167, int0, int1), comp(1273, 14));
     } else {
         IF_SETONTIMER(callback(), comp(1273, 14));
-        int2 = (ENUM_GETOUTPUTCOUNT(5838) / 2);
+        int2 = (ENUM_GETOUTPUTCOUNT(5838 as cs2enum) / 2);
         while ((int2 < ENUM_GETOUTPUTCOUNT(5838 as cs2enum))) {
             if ((CC_FIND(comp(1273, 14), int2) == 1)) {
                 CC_SENDTOFRONT();

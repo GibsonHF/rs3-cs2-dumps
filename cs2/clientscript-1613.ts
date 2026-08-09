@@ -14,11 +14,7 @@ function script1613(int0: number, int1: number): void {
             CC_SETSIZE(36, 32, 0, 0);
             if ((int4 < int2)) {
                 CC_SETONTARGETENTER(callback(script1615, 1, -2147483645, -2147483643));
-                stack(1615);
-                stack(0);
-                stack(-2147483645);
-                stack(-2147483643);
-                stack("iii");
+                stack(callback(script1615, 0, -2147483645, -2147483643));
                 CC_SETONTARGETLEAVE();
                 CC_SETDRAGRENDERBEHAVIOUR(2);
                 if ((int5 == 0)) {
@@ -64,7 +60,7 @@ function script1613(int0: number, int1: number): void {
             } else {
                 CC_SETHIDE(true);
                 CC_SETONVARTRANSMIT(callback());
-                CC_SETOBJECT(-1, 0);
+                CC_SETOBJECT(-1 as obj, 0);
                 CC_SETOUTLINE(1);
                 if ((int4 == int3)) {
                     varclient_1031 = 0;

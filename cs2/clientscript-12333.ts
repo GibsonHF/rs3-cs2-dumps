@@ -10,7 +10,11 @@ function script12333(int0: number): void {
     var int4 = 0;
     var int5 = 0;
     [int3, int4, int4, int5, int4] = script12343(33122, script12293(1738));
-    CC_CREATE(int0, 4, int2++);
+    stack(int0);
+    stack(4);
+    stack(int2);
+    int2 = (int2 + 1);
+    CC_CREATE();
     CC_SETTEXTFONT(58 as fontmetrics);
     CC_SETTEXT("Tips");
     CC_SETPOSITION(0, int1, 0, 0);
@@ -19,7 +23,11 @@ function script12333(int0: number): void {
     CC_SETCOLOUR(script10495(0));
     int1 = (int1 + (CC_GETHEIGHT() + 6));
     var string0 = "- ";
-    CC_CREATE(int0, 4, int2++);
+    stack(int0);
+    stack(4);
+    stack(int2);
+    int2 = (int2 + 1);
+    CC_CREATE();
     CC_SETTEXTFONT(26 as fontmetrics);
     CC_SETTEXT(`${string0}The xp/h displayed in the metrics window is based on the five minute rolling average.`);
     CC_SETSIZE(0, script7593(CC_GETTEXT(), int5, CC_GETFONTMETRICS(), 0), 1, 0);
@@ -27,7 +35,11 @@ function script12333(int0: number): void {
     CC_SETTEXTALIGN(0, 1, 0);
     CC_SETCOLOUR(script10495(3));
     int1 = (int1 + (CC_GETHEIGHT() + 4));
-    CC_CREATE(int0, 4, int2++);
+    stack(int0);
+    stack(4);
+    stack(int2);
+    int2 = (int2 + 1);
+    CC_CREATE();
     CC_SETTEXTFONT(26 as fontmetrics);
     CC_SETTEXT(`${string0}${script9465(12)}`);
     CC_SETSIZE(0, script7593(CC_GETTEXT(), int5, CC_GETFONTMETRICS(), 0), 1, 0);

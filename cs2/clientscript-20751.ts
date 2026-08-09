@@ -8,8 +8,7 @@ function script20751(int0: number, int1: number, int2: number, int3: number, int
     CC_DELETEALL(int3);
     CC_DELETEALL(int4);
     DB_LISTALL(369);
-    dbrow_findnext();
-    var int8 = stack();
+    var int8 = dbrow_findnext();
     var int9 = 0;
     var int10 = 0;
     var int11 = IF_GETWIDTH(int0);
@@ -28,14 +27,14 @@ function script20751(int0: number, int1: number, int2: number, int3: number, int
     var int20 = ((72 - 8) + 2);
     var int21 = (72 + 15);
     var int22 = script16260();
-    while ((int8 != -1 as dbrow)) {
+    while ((int8 != -1)) {
         int13 = dbrow_getfield(int8, 1511424, 0);
         string0 = dbrow_getfield(int8, 1511440, 0);
         int14 = dbrow_getfield(int8, 1511472, 0);
         int15 = dbrow_getfield(int8, 1511456, 0);
         int12 = dbrow_getfield(int8, 1511488, 0);
         if ((int22 == 0)) {
-            if ((int8 == 19127 as dbrow)) {
+            if ((int8 == 19127)) {
                 int16 = 18459;
                 int14 = 0;
                 string1 = `<col=777777><sprite=14154>${script12971(INT_TO_LONG(int14))}`;
@@ -76,8 +75,7 @@ function script20751(int0: number, int1: number, int2: number, int3: number, int
             int9 = 0;
             int10 = ((int10 + int21) + 4);
         };
-        dbrow_findnext();
-        int8 = stack();
+        int8 = dbrow_findnext();
     };
     if ((int9 != 0)) {
         int10 = ((int10 + int21) + 4);

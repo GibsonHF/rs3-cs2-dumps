@@ -22,7 +22,11 @@ function script13258(int0: number, int1: number, int2: number, int3: number, int
         };
     };
     IF_SETSIZE(int6, ((int5 + int1) + int8), 0, 0, int2);
-    CC_CREATE(int3, 4, int4++);
+    stack(int3);
+    stack(4);
+    stack(int4);
+    var int4 = (int4 + 1);
+    CC_CREATE();
     CC_SETSIZE(int0, int1, 0, 0);
     CC_SETPOSITION(0, int5, 1, 0);
     return int4;

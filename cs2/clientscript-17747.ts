@@ -1,6 +1,6 @@
 //
 function script17747(int0: number, int1: number): void {
-    var int2 = -1 as struct;
+    var int2 = -1;
     var int3 = script17489(int1, 0, 1);
     var string0 = "";
     var string1 = "";
@@ -9,7 +9,7 @@ function script17747(int0: number, int1: number): void {
     var int5 = 0;
     var int6 = 0;
     var int7 = 0;
-    if ((int1 != -1 as dbrow)) {
+    if ((int1 != -1)) {
         int2 = dbrow_getfield(int1, 954496, 0);
         int5 = dbrow_getfield(int1, 954432, 0);
         IF_SETHIDE(true, comp(1222, 33));
@@ -66,9 +66,9 @@ function script17747(int0: number, int1: number): void {
     IF_SETSCROLLPOS(0, 0, comp(1222, 45));
     script7791(80085038, 80085037);
     IF_SETONOP(callback(), comp(1222, 54));
-    IF_SETTEXT(`<col=ffffff>Cost: ${TOSTRING_LOCALISED(int5, 1)} ${script17481(varplayer_11091, dbrow_getfield(int1, 954432, 0))}`, 80085028);
-    IF_SETHIDE(0, 80085029);
-    IF_SETTEXTALIGN(1, 0, 14, 80085028);
+    IF_SETTEXT(`<col=ffffff>Cost: ${TOSTRING_LOCALISED(int5, 1)} ${script17481(varplayer_11091, dbrow_getfield(int1, 954432, 0))}`, comp(1222, 36));
+    IF_SETHIDE(false, comp(1222, 37));
+    IF_SETTEXTALIGN(1, 0, 14, comp(1222, 36));
     var int8 = script17485(int0, int1);
     switch (int8) {
         case 0: {

@@ -27,7 +27,8 @@ function script14778(int0: number, int1: number, int2: number, int3: number, int
     var int11 = -1;
     var int12 = DB_GETFIELDCOUNT(int2, 335968);
     var int13 = -1;
-    while ((++int11 < int12)) {
+    int11 = (int11 + 1);
+    while ((int11 < int12)) {
         int13 = dbrow_getfield(int2, 335968, int11);
         script7924(int0, IF_GETNEXTSUBID(int0), 20, 20, (int9 + (int11 * 22)), (int10 + (3 * 5)), script14573(int13), 0, 0, 0, 0);
         CC_SETONMOUSEREPEAT(callback(script3876, script14572(int13), -2147483645, -2147483643));

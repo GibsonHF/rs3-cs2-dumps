@@ -6,18 +6,19 @@ function script20275(int0: number, int1: number, int2: number): number {
     var int6 = 0;
     var int7 = 0;
     var int8 = IF_GETNEXTSUBID(int1);
-    var int9 = -1 as dbrow;
+    var int9 = -1;
     var string0 = "";
     var string1 = "";
     var int10 = 1;
-    while ((++int5 < int3)) {
+    int5 = (int5 + 1);
+    while ((int5 < int3)) {
         int9 = dbrow_getfield(int0, 1384464, int5);
-        if ((int9 != -1 as dbrow)) {
+        if ((int9 != -1)) {
             int10 = 1;
             string1 = "To teleport, you must meet the following requirements:";
             string0 = dbrow_getfield(int9, 1388544, 0);
             if ((int8 < int4)) {
-                string0 = strconcat(enum_getvalue(0, 36, 8819 as cs2enum, int8), string0);
+                string0 = strconcat(enum_getvalue(0, 36, 8819, int8), string0);
             };
             [int10, string1] = script20154(int9, string1);
             if ((MODULO(int5, 2) == 0)) {

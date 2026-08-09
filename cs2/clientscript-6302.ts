@@ -63,17 +63,58 @@ function script6302(int0: number, int1: number, int2: number, int3: number, int4
             break;
         }
     };
-    if ((((int3 == -1) && (IF_FIND(int9) == 1)) || (CC_FIND(int9, int3) == 1))) {
-        if (((cc_getparam(3438) != int1) && ((cc_getparam(3438) == -1 as struct) || (struct_getparam(cc_getparam(3438), 2793) != struct_getparam(int1, 2793))))) {
-            if ((((int3 == -1) && (IF_FIND(int2) == 1)) || (CC_FIND(int2, int3) == 1))) {
-                CC_SETONTIMER(callback());
+    if ((int3 == -1)) {
+        if (((IF_FIND(int9) == 1) || (CC_FIND(int9, int3) == 1))) {
+            if ((cc_getparam(3438) != int1)) {
+                if (((cc_getparam(3438) == -1 as struct) || (struct_getparam(cc_getparam(3438), 2793) != struct_getparam(int1, 2793)))) {
+                    if ((int3 == -1)) {
+                        if (((IF_FIND(int2) == 1) || (CC_FIND(int2, int3) == 1))) {
+                            CC_SETONTIMER(callback());
+                        };
+                    } else if ((CC_FIND(int2, int3) == 1)) {
+                        CC_SETONTIMER(callback());
+                    };
+                    script11819(int2, int11, int10, int3, 4, "", -1);
+                    return;
+                };
             };
-            script11819(int2, int11, int10, int3, 4, "", -1);
-            return;
+            if ((int5 >= int6)) {
+                if ((int4 == 0)) {
+                    var int4 = 2;
+                };
+                if ((cc_getparam(5314) == true)) {
+                    cc_setparam(5313, 0);
+                    cc_setparam(5314, 0);
+                    CC_SETONTIMER(callback());
+                    return;
+                };
+                cc_setparam(5313, 0);
+                cc_setparam(5314, 0);
+            };
+            if (((int6 == 0) || ((int5 - int6) >= (30 / 10)))) {
+                int4 = 4;
+                string0 = "";
+                int7 = -1;
+            };
+            script11819(int2, int11, int10, int3, int4, string0, int7);
+        };
+    } else if ((CC_FIND(int9, int3) == 1)) {
+        if ((cc_getparam(3438) != int1)) {
+            if (((cc_getparam(3438) == -1 as struct) || (struct_getparam(cc_getparam(3438), 2793) != struct_getparam(int1, 2793)))) {
+                if ((int3 == -1)) {
+                    if (((IF_FIND(int2) == 1) || (CC_FIND(int2, int3) == 1))) {
+                        CC_SETONTIMER(callback());
+                    };
+                } else if ((CC_FIND(int2, int3) == 1)) {
+                    CC_SETONTIMER(callback());
+                };
+                script11819(int2, int11, int10, int3, 4, "", -1);
+                return;
+            };
         };
         if ((int5 >= int6)) {
             if ((int4 == 0)) {
-                var int4 = 2;
+                int4 = 2;
             };
             if ((cc_getparam(5314) == true)) {
                 cc_setparam(5313, 0);
@@ -91,7 +132,15 @@ function script6302(int0: number, int1: number, int2: number, int3: number, int4
         };
         script11819(int2, int11, int10, int3, int4, string0, int7);
     };
-    if ((((int3 == -1) && (IF_FIND(int2) == 1)) || (CC_FIND(int2, int3) == 1))) {
+    if ((int3 == -1)) {
+        if (((IF_FIND(int2) == 1) || (CC_FIND(int2, int3) == 1))) {
+            if ((int5 >= int6)) {
+                CC_SETONTIMER(callback());
+            } else {
+                CC_SETONTIMER(callback(script6302, int0, int1, int2, int3, 0));
+            };
+        };
+    } else if ((CC_FIND(int2, int3) == 1)) {
         if ((int5 >= int6)) {
             CC_SETONTIMER(callback());
         } else {

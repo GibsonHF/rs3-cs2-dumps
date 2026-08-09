@@ -20,8 +20,26 @@ function script20659(int0: number, int1: number, int2: number, int3: number, int
     var int25 = 0;
     CC_DELETEALL(int2);
     IF_SETHIDE(false, int2);
-    if (((int23 != -1 as cs2enum) && (int24 != -1 as seq))) {
-        int25 = script18121(int23, int24, int25, int2, int7);
+    if ((int23 != -1 as cs2enum)) {
+        if ((int24 != -1 as seq)) {
+            int25 = script18121(int23, int24, int25, int2, int7);
+        } else {
+            if (((int20 == 0) && (int22 == 0))) {
+                int25 = script11616(int0, int25, int2);
+            };
+            if (((int8 != -1 as seq) && (int9 != -1 as model))) {
+                int25 = script11617(int8, int9, int25, int2, int10, int11, int12, int13, int14, int15);
+            };
+            if (((int16 != -1 as seq) && (int17 != -1 as model))) {
+                int25 = script11617(int16, int17, int25, int2, -1, -1, -1, -1, -1, -1);
+            };
+            if (((int18 != -1 as seq) && (int19 != -1 as model))) {
+                int25 = script11617(int18, int19, int25, int2, -1, -1, -1, -1, -1, -1);
+            };
+            if (((int20 == 1) && (int22 == 0))) {
+                int25 = script11616(int0, int25, int2);
+            };
+        };
     } else {
         if (((int20 == 0) && (int22 == 0))) {
             int25 = script11616(int0, int25, int2);
@@ -30,10 +48,10 @@ function script20659(int0: number, int1: number, int2: number, int3: number, int
             int25 = script11617(int8, int9, int25, int2, int10, int11, int12, int13, int14, int15);
         };
         if (((int16 != -1 as seq) && (int17 != -1 as model))) {
-            int25 = script11617(int16, int17, int25, int2, -1 as material, -1 as material, -1, -1, -1, -1);
+            int25 = script11617(int16, int17, int25, int2, -1, -1, -1, -1, -1, -1);
         };
         if (((int18 != -1 as seq) && (int19 != -1 as model))) {
-            int25 = script11617(int18, int19, int25, int2, -1 as material, -1 as material, -1, -1, -1, -1);
+            int25 = script11617(int18, int19, int25, int2, -1, -1, -1, -1, -1, -1);
         };
         if (((int20 == 1) && (int22 == 0))) {
             int25 = script11616(int0, int25, int2);

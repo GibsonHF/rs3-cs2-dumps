@@ -161,6 +161,7 @@ function script7034(): number {
         case 17972:
         case 17973:
         case 17974: {
+            break;
         }
         default: {
             return -1;

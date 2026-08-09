@@ -42,7 +42,7 @@ function script11753(): void {
             CC_CREATE(int1, 4, IF_GETNEXTSUBID(int1));
             CC_SETPOSITION((int13 + 5), (int14 + 5), 0, 0);
             CC_SETSIZE(((int15 - int18) - 5), 20, 0, 0);
-            CC_SETTEXTFONT(28);
+            CC_SETTEXTFONT(28 as fontmetrics);
             script11024(1);
             if ((strcmp(struct_getparam(int9, 5244), "") != 0)) {
                 CC_SETTEXT(struct_getparam(int9, 5244));
@@ -56,7 +56,7 @@ function script11753(): void {
             CC_SETONMOUSEREPEAT[1](callback(script9564, struct_getparam(int9, 5243), -2147483645, -2147483643));
             CC_CREATE(int1, 4, IF_GETNEXTSUBID(int1));
             CC_SETPOSITION(((CC_GETX[1]() + CC_GETWIDTH[1]()) + 5), CC_GETY[1](), 0, 0);
-            CC_SETTEXTFONT(26);
+            CC_SETTEXTFONT(26 as fontmetrics);
             script11024(3);
             CC_SETTEXT(`Cost: ${inttostring(struct_getparam(int9, 5245), 10)}`);
             if ((struct_getparam(int9, 5246) == 0)) {
@@ -76,8 +76,14 @@ function script11753(): void {
                     CC_SETTEXT(`Recharge: ${inttostring(struct_getparam(int9, 5245), 10)}`);
                 };
             };
-            if (((varplayer_5835 < struct_getparam(int9, 5245)) || ((OC_MEMBERS(struct_getparam(int9, 5243)) == 1) && (MAP_MEMBERS() == 0)))) {
+            if ((varplayer_5835 < struct_getparam(int9, 5245))) {
                 int11 = 1;
+            } else if ((OC_MEMBERS(struct_getparam(int9, 5243)) == 1)) {
+                if ((MAP_MEMBERS() == 0)) {
+                    int11 = 1;
+                } else {
+                    int11 = 0;
+                };
             } else {
                 int11 = 0;
             };

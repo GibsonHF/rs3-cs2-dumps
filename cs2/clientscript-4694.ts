@@ -5,7 +5,7 @@ function script4694(int0: number, int1: number, string0: string, string1: string
     };
     var int2 = 14725 as cs2enum;
     if ((int1 == 1)) {
-        int2 = 14724 as cs2enum;
+        int2 = 14724;
     };
     var string2 = enum_getvalue(0, 36, int2, int0);
     var int3 = STRING_INDEXOF_STRING(string2, "name", 0);

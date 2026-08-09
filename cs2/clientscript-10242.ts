@@ -7,7 +7,11 @@ function script10242(): number {
         int1 = INV_GETOBJ(93 as inv, int0);
         if ((int1 != -1 as obj)) {
             int2 = OC_CATEGORY(int1);
-            if (((((int2 == 6 as category) && (item_getparam(int1, 238) <= item_getparam(17674 as obj, 238))) || (int2 == 13 as category)) || (int1 == 60460 as obj))) {
+            if ((int2 == 6 as category)) {
+                if ((((item_getparam(int1, 238) <= item_getparam(17674, 238)) || (int2 == 13 as category)) || (int1 == 60460 as obj))) {
+                    return 1;
+                };
+            } else if (((int2 == 13 as category) || (int1 == 60460 as obj))) {
                 return 1;
             };
         };

@@ -106,8 +106,12 @@ function script2301(int0: number, int1: number, int2: number): void {
             break;
         }
         default: {
-            if (((CHAR_ISPRINTABLE(int1) == 1) && (int8 < 80))) {
-                script8612(int2, REMOVETAGS(APPEND_CHAR(script8611(int2), int1)));
+            if ((CHAR_ISPRINTABLE(int1) == 1)) {
+                if ((int8 < 80)) {
+                    script8612(int2, REMOVETAGS(APPEND_CHAR(script8611(int2), int1)));
+                } else {
+                    return;
+                };
             } else {
                 return;
             };

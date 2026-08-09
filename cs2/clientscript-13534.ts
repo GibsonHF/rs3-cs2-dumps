@@ -1,6 +1,6 @@
 //
 function script13534(int0: number, int1: number, int2: number, int3: number, int4: number): [number, number] {
-    if ((((int1 == -1 as cs2enum) || (int3 == comp(-1, 65535))) || (int4 == comp(-1, 65535)))) {
+    if ((((int1 == -1 as cs2enum) || (int3 == -1)) || (int4 == comp(-1, 65535)))) {
         return [-1, -1];
     };
     var int5 = script383(int0);
@@ -15,9 +15,9 @@ function script13534(int0: number, int1: number, int2: number, int3: number, int
     var int14 = 0;
     var int15 = 0;
     var int16 = 0;
-    var int17 = -1 as struct;
-    var int18 = -1 as graphic;
-    var int19 = -1 as graphic;
+    var int17 = -1;
+    var int18 = -1;
+    var int19 = -1;
     var string0 = "";
     var string1 = "";
     var string2 = "";
@@ -77,14 +77,99 @@ function script13534(int0: number, int1: number, int2: number, int3: number, int
             int13 = struct_getparam(int17, 6653);
             string5 = `${string2}: `;
             int19 = struct_getparam(int17, 6726);
-            if (((int17 == 37632 as struct) && (varbitplayer_36983 == 1))) {
-                string0 = "<col=00FFFF>Hide";
-                string1 = "Turn ON";
-                int18 = struct_getparam(int17, 6656);
+            if ((int17 == 37632)) {
+                if ((varbitplayer_36983 == 1)) {
+                    string0 = "<col=00FFFF>Hide";
+                    string1 = "Turn ON";
+                    int18 = struct_getparam(int17, 6656);
+                } else if ((int11 == 0)) {
+                    string0 = "<col=7592A0>Off";
+                    if ((int17 == 37632)) {
+                        if ((varbitplayer_36983 == 0)) {
+                            string1 = "Hide";
+                        } else {
+                            string1 = "Turn ON";
+                        };
+                    } else {
+                        string1 = "Turn ON";
+                    };
+                    int18 = struct_getparam(int17, 6657);
+                } else if ((int12 == 1)) {
+                    string0 = `<col=AED0E0>${struct_getparam(int17, 6648)}`;
+                    string1 = "Turn OFF";
+                    int18 = struct_getparam(int17, 6656);
+                } else if ((int12 == -1)) {
+                    string5 = string2;
+                    string1 = string2;
+                    string2 = "";
+                    string0 = "";
+                    int18 = struct_getparam(int17, 6655);
+                    switch (int17) {
+                        case 37653: {
+                            if ((varclient_4505 == 1)) {
+                                int18 = 21715;
+                                int19 = 21716;
+                            } else {
+                                int18 = 21713;
+                                int19 = 21714;
+                            };
+                            break;
+                        }
+                        case 37645: {
+                            if ((CLAN_GETCHATCOUNT() > 0)) {
+                                string1 = "Leave Chat";
+                                string5 = string1;
+                                int18 = 6243;
+                            } else {
+                                string1 = "Join Chat";
+                                string5 = string1;
+                                int18 = 6242;
+                            };
+                            break;
+                        }
+                        case 37647: {
+                            if ((unk10993(0) == 1)) {
+                                string1 = "Leave Clan Chat";
+                                string5 = string1;
+                                int18 = 6255;
+                            } else {
+                                string1 = "Join Clan Chat";
+                                string5 = string1;
+                                int18 = 6256;
+                            };
+                            break;
+                        }
+                        case 37648: {
+                            if ((ACTIVECLANCHANNEL_FIND_LISTENED() == 1)) {
+                                string1 = "Leave Guest Chat";
+                                string5 = string1;
+                                int18 = 6255;
+                            } else {
+                                string1 = "Join Guest Chat";
+                                string5 = string1;
+                                int18 = 6256;
+                            };
+                            break;
+                        }
+                    };
+                } else {
+                    string5 = `${struct_getparam(int17, 6647)}: `;
+                    string0 = "<col=FFCB05>On";
+                    if ((strcmp("", struct_getparam(int17, 6648)) == 0)) {
+                        string1 = "Turn OFF";
+                    } else {
+                        string1 = "Filter";
+                    };
+                    int18 = struct_getparam(int17, 6655);
+                };
             } else if ((int11 == 0)) {
                 string0 = "<col=7592A0>Off";
-                if (((int17 == 37632 as struct) && (varbitplayer_36983 == 0))) {
-                    string1 = "Hide";
+                if ((int17 == 37632)) {
+                    if ((varbitplayer_36983 == 0)) {
+                        string1 = "Hide";
+                    } else {
+                        string1 = "Turn ON";
+                    };
                 } else {
                     string1 = "Turn ON";
                 };
@@ -102,11 +187,11 @@ function script13534(int0: number, int1: number, int2: number, int3: number, int
                 switch (int17) {
                     case 37653: {
                         if ((varclient_4505 == 1)) {
-                            int18 = 21715 as graphic;
-                            int19 = 21716 as graphic;
+                            int18 = 21715;
+                            int19 = 21716;
                         } else {
-                            int18 = 21713 as graphic;
-                            int19 = 21714 as graphic;
+                            int18 = 21713;
+                            int19 = 21714;
                         };
                         break;
                     }
@@ -114,11 +199,11 @@ function script13534(int0: number, int1: number, int2: number, int3: number, int
                         if ((CLAN_GETCHATCOUNT() > 0)) {
                             string1 = "Leave Chat";
                             string5 = string1;
-                            int18 = 6243 as graphic;
+                            int18 = 6243;
                         } else {
                             string1 = "Join Chat";
                             string5 = string1;
-                            int18 = 6242 as graphic;
+                            int18 = 6242;
                         };
                         break;
                     }
@@ -126,11 +211,11 @@ function script13534(int0: number, int1: number, int2: number, int3: number, int
                         if ((unk10993(0) == 1)) {
                             string1 = "Leave Clan Chat";
                             string5 = string1;
-                            int18 = 6255 as graphic;
+                            int18 = 6255;
                         } else {
                             string1 = "Join Clan Chat";
                             string5 = string1;
-                            int18 = 6256 as graphic;
+                            int18 = 6256;
                         };
                         break;
                     }
@@ -138,11 +223,11 @@ function script13534(int0: number, int1: number, int2: number, int3: number, int
                         if ((ACTIVECLANCHANNEL_FIND_LISTENED() == 1)) {
                             string1 = "Leave Guest Chat";
                             string5 = string1;
-                            int18 = 6255 as graphic;
+                            int18 = 6255;
                         } else {
                             string1 = "Join Guest Chat";
                             string5 = string1;
-                            int18 = 6256 as graphic;
+                            int18 = 6256;
                         };
                         break;
                     }
@@ -157,15 +242,15 @@ function script13534(int0: number, int1: number, int2: number, int3: number, int
                 };
                 int18 = struct_getparam(int17, 6655);
             };
-            if ((int17 == 37649 as struct)) {
+            if ((int17 == 37649)) {
                 CC_SETOP[1](2, "Report Player");
                 CC_SETOP[1](3, "Report Bug");
             };
-            if ((int17 == 41813 as struct)) {
+            if ((int17 == 41813)) {
                 string5 = `${string5}: `;
-                string0 = `<col=FFCB05>${enum_getvalue(0, 36, 1443 as cs2enum, script3873())}pt</col>`;
+                string0 = `<col=FFCB05>${enum_getvalue(0, 36, 1443, script3873())}pt</col>`;
             };
-            if ((int17 == 37912 as struct)) {
+            if ((int17 == 37912)) {
                 if ((int2 == 1)) {
                     int15 = 0;
                     int16 = 0;
@@ -185,7 +270,7 @@ function script13534(int0: number, int1: number, int2: number, int3: number, int
             CC_CREATE(int3, 5, IF_GETNEXTSUBID(int3));
             CC_SETGRAPHIC(int18);
             CC_SETSIZE(int15, 16, 0, 0);
-            if ((int19 != -1 as graphic)) {
+            if ((int19 != -1)) {
                 CC_SETONMOUSEOVER(callback(script5336, -2147483645, -2147483643, int19));
                 CC_SETONMOUSELEAVE(callback(script5336, -2147483645, -2147483643, int18));
             };
@@ -203,9 +288,9 @@ function script13534(int0: number, int1: number, int2: number, int3: number, int
                 CC_SETTEXT(string3);
                 CC_SETONMOUSEOVER(callback(script7777, -2147483645, -2147483643, string4));
                 CC_SETONMOUSELEAVE(callback(script7777, -2147483645, -2147483643, string3));
-                int8 = MAX(int8, (25 + STRINGWIDTH(REMOVETAGS(string3), 26)));
+                int8 = MAX(int8, (25 + STRINGWIDTH(REMOVETAGS(string3), 26 as fontmetrics)));
             } else {
-                if ((int17 != 37912 as struct)) {
+                if ((int17 != 37912)) {
                     string6 = string5;
                     if ((strcmp(string0, "") != 0)) {
                         string6 = `${string6}<br>Current setting: ${string0}`;
@@ -218,7 +303,7 @@ function script13534(int0: number, int1: number, int2: number, int3: number, int
                 CC_SETPOSITION[1](int6, 0, 0, 1);
                 int8 = (int6 + int16);
             };
-            if ((int17 != 37912 as struct)) {
+            if ((int17 != 37912)) {
                 CC_SETONOP[1](callback(script8494, int0, int17, -2147483644, int1, int2));
                 CC_SETOP[1](1, string1);
                 if ((TESTBIT(struct_getparam(int17, 6652), script383(int0)) == 0)) {

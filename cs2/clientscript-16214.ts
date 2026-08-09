@@ -20,13 +20,19 @@ function script16214(int0: number, int1: number, int2: number, int3: number, int
                 CC_SETONTIMER(callback(script16215, -2147483645, int10, -2147483643, int3, int4));
                 cc_setparam(6408, int7);
             };
-        } else if (((int9 == 0) && (CC_FIND[1](int0, int3) == 1))) {
-            cc_setparam(6408, int8);
-            cc_setparam(6409, int8);
-            cc_setparam(5945, 0);
-            CC_SETONTIMER(callback());
-            CC_DELETEALLNESTED();
-            CC_SETTEXT[1](script361(int8, 0));
+        } else if ((int9 == 0)) {
+            if ((CC_FIND[1](int0, int3) == 1)) {
+                cc_setparam(6408, int8);
+                cc_setparam(6409, int8);
+                cc_setparam(5945, 0);
+                CC_SETONTIMER(callback());
+                CC_DELETEALLNESTED();
+                CC_SETTEXT[1](script361(int8, 0));
+            } else if ((int5 < 5)) {
+                CC_SETONTIMER(callback(script16214, -2147483645, -2147483643, int2, int3, int4, (int5 + 1), int6));
+            } else {
+                cc_setparam(5945, 0);
+            };
         } else if ((int5 < 5)) {
             CC_SETONTIMER(callback(script16214, -2147483645, -2147483643, int2, int3, int4, (int5 + 1), int6));
         } else {

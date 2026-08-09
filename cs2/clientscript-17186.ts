@@ -7,8 +7,7 @@ function script17186(int0: number): void {
     stack(540672);
     stack(int1);
     DB_FIND(0);
-    dbrow_findnext();
-    var int2 = stack();
+    var int2 = dbrow_findnext();
     if (((int2 != -1) && (IF_FIND(int0) == 1))) {
         script10643(int2);
         if ((dbrow_getfield(int2, 540688, 0) == 16)) {

@@ -36,7 +36,7 @@ function script5114(int0: number, int1: number, int2: number, int3: number, int4
             break;
         }
     };
-    IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643), 73138766);
+    IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643), comp(1116, 590));
     script5106();
     if ((int6 == 1)) {
         if ((IF_GETHIDE(comp(1116, 3)) == true)) {

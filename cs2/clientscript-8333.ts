@@ -75,7 +75,15 @@ function script8333(int0: number): [number, number] {
         };
     } else if ((int0 == 12)) {
         if ((IF_HASSUBOVERLAY(int2, 662 as overlayinterface) == 1)) {
-            if (((varbitplayer_28629 == 1) && (((item_getparam(varplayer_1831, 394) != 0) || (item_getparam(varplayer_1831, 5048) == 1)) && (script11682(item_getparam(varplayer_1831, 74)) > 0)))) {
+            if ((varbitplayer_28629 == 1)) {
+                if (((item_getparam(varplayer_1831, 394) != 0) || (item_getparam(varplayer_1831, 5048) == 1))) {
+                    if ((script11682(item_getparam(varplayer_1831, 74)) > 0)) {
+                    } else {
+                        [int3, int4] = [190, 256];
+                    };
+                } else {
+                    [int3, int4] = [190, 256];
+                };
             } else {
                 [int3, int4] = [190, 256];
             };

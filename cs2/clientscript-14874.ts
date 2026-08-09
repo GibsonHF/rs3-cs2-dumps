@@ -19,7 +19,8 @@ function script14874(int0: number, int1: number, int2: number, int3: number, int
         CC_SETTEXTALIGN(0, 1, 0);
         CC_SETTEXTSHADOW(int5);
         int1 = (int1 + int7);
-        if ((--int6 > 0)) {
+        int6 = (int6 - 1);
+        if ((int6 > 0)) {
             int1 = (int1 + 10);
         };
     };
@@ -29,7 +30,8 @@ function script14874(int0: number, int1: number, int2: number, int3: number, int
         CC_SETTEXTALIGN(0, 1, 0);
         CC_SETTEXTSHADOW(int5);
         int1 = (int1 + int7);
-        if ((--int6 > 0)) {
+        int6 = (int6 - 1);
+        if ((int6 > 0)) {
             int1 = (int1 + 10);
         };
     };

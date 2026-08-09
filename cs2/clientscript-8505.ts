@@ -36,11 +36,11 @@ function script8505(int0: number, int1: number, int2: number, int3: number, stri
         }
         case 1:
         case 2: {
-            CC_SETTEXT(`${string3}<col=ffffff>${string1}:</col> ${enum_getvalue(0, 36, 10293 as cs2enum, varbitplayer_30165)}${string0}</col>`);
+            CC_SETTEXT(`${string3}<col=ffffff>${string1}:</col> ${enum_getvalue(0, 36, 10293, varbitplayer_30165)}${string0}</col>`);
             break;
         }
         case 3: {
-            CC_SETCOLOUR(enum_getvalue(0, 0, 3056 as cs2enum, varplayer_457));
+            CC_SETCOLOUR(enum_getvalue(0, 0, 3056, varplayer_457));
             CC_SETTEXT(`${string3}<col=ffffff>From ${string1}:</col> ${string0}`);
             break;
         }
@@ -53,12 +53,12 @@ function script8505(int0: number, int1: number, int2: number, int3: number, stri
             break;
         }
         case 6: {
-            CC_SETCOLOUR(enum_getvalue(0, 0, 3056 as cs2enum, varplayer_457));
+            CC_SETCOLOUR(enum_getvalue(0, 0, 3056, varplayer_457));
             CC_SETTEXT(`${string3}<col=ffffff>To ${string1}:</col> ${string0}`);
             break;
         }
         case 7: {
-            CC_SETCOLOUR(enum_getvalue(0, 0, 3056 as cs2enum, varplayer_457));
+            CC_SETCOLOUR(enum_getvalue(0, 0, 3056, varplayer_457));
             CC_SETTEXT(`${string3}<col=ffffff>From ${string1}:</col> ${string0}`);
             break;
         }
@@ -85,7 +85,7 @@ function script8505(int0: number, int1: number, int2: number, int3: number, stri
         case 41: {
             switch (int2) {
                 case 0: {
-                    CC_SETCOLOUR(enum_getvalue(0, 0, 3724 as cs2enum, varbitplayer_1188));
+                    CC_SETCOLOUR(enum_getvalue(0, 0, 3724, varbitplayer_1188));
                     switch (varbitplayer_30172) {
                         case 1: {
                             CC_SETTEXT(`${string3}<col=ffffff>[</col><col=7fa9ff>CC</col><col=ffffff>] ${string1}: </col>${string0}`);
@@ -103,10 +103,14 @@ function script8505(int0: number, int1: number, int2: number, int3: number, stri
                     break;
                 }
                 case 1: {
-                    if (((varbitplayer_22875 == 1) && (varbitplayer_56249 == 0))) {
-                        CC_SETCOLOUR(16777060);
+                    if ((varbitplayer_22875 == 1)) {
+                        if ((varbitplayer_56249 == 0)) {
+                            CC_SETCOLOUR(16777060);
+                        } else {
+                            CC_SETCOLOUR(enum_getvalue(0, 0, 6054, varbitplayer_56249));
+                        };
                     } else {
-                        CC_SETCOLOUR(enum_getvalue(0, 0, 6054 as cs2enum, varbitplayer_56249));
+                        CC_SETCOLOUR(enum_getvalue(0, 0, 6054, varbitplayer_56249));
                     };
                     switch (varbitplayer_30172) {
                         case 1: {
@@ -132,7 +136,7 @@ function script8505(int0: number, int1: number, int2: number, int3: number, stri
             break;
         }
         case 9: {
-            CC_SETCOLOUR(enum_getvalue(0, 0, 3723 as cs2enum, varbitplayer_1190));
+            CC_SETCOLOUR(enum_getvalue(0, 0, 3723, varbitplayer_1190));
             switch (varbitplayer_30172) {
                 case 1: {
                     CC_SETTEXT(`${string3}<col=ffffff>[</col><col=7fa9ff>FC</col><col=ffffff>] ${string1}: </col>${string0}`);
@@ -150,7 +154,7 @@ function script8505(int0: number, int1: number, int2: number, int3: number, stri
             break;
         }
         case 44: {
-            CC_SETCOLOUR(enum_getvalue(0, 0, 3726 as cs2enum, varbitplayer_1191));
+            CC_SETCOLOUR(enum_getvalue(0, 0, 3726, varbitplayer_1191));
             switch (varbitplayer_30172) {
                 case 1: {
                     CC_SETTEXT(`${string3}<col=ffffff>[</col><col=7fa9ff>GC</col><col=ffffff>] ${string1}: </col>${string0}`);
@@ -168,12 +172,12 @@ function script8505(int0: number, int1: number, int2: number, int3: number, stri
             break;
         }
         case 24: {
-            CC_SETCOLOUR(enum_getvalue(0, 0, 9177 as cs2enum, varbitplayer_24560));
+            CC_SETCOLOUR(enum_getvalue(0, 0, 9177, varbitplayer_24560));
             CC_SETTEXT(`${string3}<col=ffffff>[</col><col=7fa9ff>Group</col><col=ffffff>] ${string1}: </col>${string0}`);
             break;
         }
         case 22: {
-            CC_SETCOLOUR(enum_getvalue(0, 0, 9178 as cs2enum, varbitplayer_24561));
+            CC_SETCOLOUR(enum_getvalue(0, 0, 9178, varbitplayer_24561));
             CC_SETTEXT(`${string3}<col=ffffff>[</col><col=7fa9ff>Group (Team)</col><col=ffffff>] ${string1}: </col>${string0}`);
             break;
         }
@@ -183,45 +187,70 @@ function script8505(int0: number, int1: number, int2: number, int3: number, stri
             break;
         }
         case 17: {
-            if (((strcmp(REMOVETAGS(CHAT_PLAYERNAME()), REMOVETAGS(string1)) != 0) && (CHATPHRASE_GETAUTORESPONSECOUNT(int3) > 0))) {
-                CC_SETTEXT(`${string3}<col=ffffff>${string1}<img=3>:</col> ${enum_getvalue(0, 36, 10293 as cs2enum, varbitplayer_30165)}${string0}</col>`);
+            if ((strcmp(REMOVETAGS(CHAT_PLAYERNAME()), REMOVETAGS(string1)) != 0)) {
+                if ((CHATPHRASE_GETAUTORESPONSECOUNT(int3) > 0)) {
+                    CC_SETTEXT(`${string3}<col=ffffff>${string1}<img=3>:</col> ${enum_getvalue(0, 36, 10293, varbitplayer_30165)}${string0}</col>`);
+                } else {
+                    CC_SETTEXT(`${string3}<col=ffffff>${string1}:</col> ${enum_getvalue(0, 36, 10293, varbitplayer_30165)}${string0}</col>`);
+                };
             } else {
-                CC_SETTEXT(`${string3}<col=ffffff>${string1}:</col> ${enum_getvalue(0, 36, 10293 as cs2enum, varbitplayer_30165)}${string0}</col>`);
+                CC_SETTEXT(`${string3}<col=ffffff>${string1}:</col> ${enum_getvalue(0, 36, 10293, varbitplayer_30165)}${string0}</col>`);
             };
             break;
         }
         case 18: {
             CC_SETCOLOUR(enum_getvalue(0, 0, 3056 as cs2enum, varplayer_457));
-            if (((strcmp(REMOVETAGS(CHAT_PLAYERNAME()), REMOVETAGS(string1)) != 0) && (CHATPHRASE_GETAUTORESPONSECOUNT(int3) > 0))) {
-                CC_SETTEXT(`${string3}<col=ffffff>From ${string1}<img=3>:</col> ${string0}`);
+            if ((strcmp(REMOVETAGS(CHAT_PLAYERNAME()), REMOVETAGS(string1)) != 0)) {
+                if ((CHATPHRASE_GETAUTORESPONSECOUNT(int3) > 0)) {
+                    CC_SETTEXT(`${string3}<col=ffffff>From ${string1}<img=3>:</col> ${string0}`);
+                } else {
+                    CC_SETTEXT(`${string3}<col=ffffff>From ${string1}:</col> ${string0}`);
+                };
             } else {
                 CC_SETTEXT(`${string3}<col=ffffff>From ${string1}:</col> ${string0}`);
             };
             break;
         }
         case 19: {
-            CC_SETCOLOUR(enum_getvalue(0, 0, 3056 as cs2enum, varplayer_457));
+            CC_SETCOLOUR(enum_getvalue(0, 0, 3056, varplayer_457));
             CC_SETTEXT(`${string3}<col=ffffff>To ${string1}:</col> ${string0}`);
             break;
         }
         case 42: {
             switch (int2) {
                 case 0: {
-                    CC_SETCOLOUR(enum_getvalue(0, 0, 3724 as cs2enum, varbitplayer_1188));
-                    if (((strcmp(REMOVETAGS(CHAT_PLAYERNAME()), REMOVETAGS(string1)) != 0) && (CHATPHRASE_GETAUTORESPONSECOUNT(int3) > 0))) {
-                        switch (varbitplayer_30172) {
-                            case 1: {
-                                CC_SETTEXT(`${string3}<col=ffffff>[</col><col=7fa9ff>CC</col><col=ffffff>] ${string1}<img=3>: </col>${string0}`);
-                                break;
-                            }
-                            case 2: {
-                                CC_SETTEXT(`${string3}<col=ffffff>${string1}<img=3>: </col>${string0}`);
-                                break;
-                            }
-                            default: {
-                                CC_SETTEXT(`${string3}<col=ffffff>[</col><col=7fa9ff>${string2}</col><col=ffffff>] ${string1}<img=3>: </col>${string0}`);
-                                break;
-                            }
+                    CC_SETCOLOUR(enum_getvalue(0, 0, 3724, varbitplayer_1188));
+                    if ((strcmp(REMOVETAGS(CHAT_PLAYERNAME()), REMOVETAGS(string1)) != 0)) {
+                        if ((CHATPHRASE_GETAUTORESPONSECOUNT(int3) > 0)) {
+                            switch (varbitplayer_30172) {
+                                case 1: {
+                                    CC_SETTEXT(`${string3}<col=ffffff>[</col><col=7fa9ff>CC</col><col=ffffff>] ${string1}<img=3>: </col>${string0}`);
+                                    break;
+                                }
+                                case 2: {
+                                    CC_SETTEXT(`${string3}<col=ffffff>${string1}<img=3>: </col>${string0}`);
+                                    break;
+                                }
+                                default: {
+                                    CC_SETTEXT(`${string3}<col=ffffff>[</col><col=7fa9ff>${string2}</col><col=ffffff>] ${string1}<img=3>: </col>${string0}`);
+                                    break;
+                                }
+                            };
+                        } else {
+                            switch (varbitplayer_30172) {
+                                case 1: {
+                                    CC_SETTEXT(`${string3}<col=ffffff>[</col><col=7fa9ff>CC</col><col=ffffff>] ${string1}: </col>${string0}`);
+                                    break;
+                                }
+                                case 2: {
+                                    CC_SETTEXT(`${string3}<col=ffffff>${string1}: </col>${string0}`);
+                                    break;
+                                }
+                                default: {
+                                    CC_SETTEXT(`${string3}<col=ffffff>[</col><col=7fa9ff>${string2}</col><col=ffffff>] ${string1}: </col>${string0}`);
+                                    break;
+                                }
+                            };
                         };
                     } else {
                         switch (varbitplayer_30172) {
@@ -242,25 +271,46 @@ function script8505(int0: number, int1: number, int2: number, int3: number, stri
                     break;
                 }
                 case 1: {
-                    if (((varbitplayer_22875 == 1) && (varbitplayer_56249 == 0))) {
-                        CC_SETCOLOUR(16777060);
+                    if ((varbitplayer_22875 == 1)) {
+                        if ((varbitplayer_56249 == 0)) {
+                            CC_SETCOLOUR(16777060);
+                        } else {
+                            CC_SETCOLOUR(enum_getvalue(0, 0, 6054, varbitplayer_56249));
+                        };
                     } else {
-                        CC_SETCOLOUR(enum_getvalue(0, 0, 6054 as cs2enum, varbitplayer_56249));
+                        CC_SETCOLOUR(enum_getvalue(0, 0, 6054, varbitplayer_56249));
                     };
-                    if (((strcmp(REMOVETAGS(CHAT_PLAYERNAME()), REMOVETAGS(string1)) != 0) && (CHATPHRASE_GETAUTORESPONSECOUNT(int3) > 0))) {
-                        switch (varbitplayer_30172) {
-                            case 1: {
-                                CC_SETTEXT(`${string3}<col=ffffff>[</col><col=7fa9ff>GIM</col><col=ffffff>] ${string1}<img=3>: </col>${string0}`);
-                                break;
-                            }
-                            case 2: {
-                                CC_SETTEXT(`${string3}<col=ffffff>${string1}<img=3>: </col>${string0}`);
-                                break;
-                            }
-                            default: {
-                                CC_SETTEXT(`${string3}<col=ffffff>[</col><col=7fa9ff>${string2}</col><col=ffffff>] ${string1}<img=3>: </col>${string0}`);
-                                break;
-                            }
+                    if ((strcmp(REMOVETAGS(CHAT_PLAYERNAME()), REMOVETAGS(string1)) != 0)) {
+                        if ((CHATPHRASE_GETAUTORESPONSECOUNT(int3) > 0)) {
+                            switch (varbitplayer_30172) {
+                                case 1: {
+                                    CC_SETTEXT(`${string3}<col=ffffff>[</col><col=7fa9ff>GIM</col><col=ffffff>] ${string1}<img=3>: </col>${string0}`);
+                                    break;
+                                }
+                                case 2: {
+                                    CC_SETTEXT(`${string3}<col=ffffff>${string1}<img=3>: </col>${string0}`);
+                                    break;
+                                }
+                                default: {
+                                    CC_SETTEXT(`${string3}<col=ffffff>[</col><col=7fa9ff>${string2}</col><col=ffffff>] ${string1}<img=3>: </col>${string0}`);
+                                    break;
+                                }
+                            };
+                        } else {
+                            switch (varbitplayer_30172) {
+                                case 1: {
+                                    CC_SETTEXT(`${string3}<col=ffffff>[</col><col=7fa9ff>GIM</col><col=ffffff>] ${string1}: </col>${string0}`);
+                                    break;
+                                }
+                                case 2: {
+                                    CC_SETTEXT(`${string3}<col=ffffff>${string1}: </col>${string0}`);
+                                    break;
+                                }
+                                default: {
+                                    CC_SETTEXT(`${string3}<col=ffffff>[</col><col=7fa9ff>${string2}</col><col=ffffff>] ${string1}: </col>${string0}`);
+                                    break;
+                                }
+                            };
                         };
                     } else {
                         switch (varbitplayer_30172) {
@@ -289,20 +339,37 @@ function script8505(int0: number, int1: number, int2: number, int3: number, stri
         }
         case 45: {
             CC_SETCOLOUR(enum_getvalue(0, 0, 3726 as cs2enum, varbitplayer_1191));
-            if (((strcmp(REMOVETAGS(CHAT_PLAYERNAME()), REMOVETAGS(string1)) != 0) && (CHATPHRASE_GETAUTORESPONSECOUNT(int3) > 0))) {
-                switch (varbitplayer_30172) {
-                    case 1: {
-                        CC_SETTEXT(`${string3}<col=ffffff>[</col><col=7fa9ff>GC</col><col=ffffff>] ${string1}<img=3>: </col>${string0}`);
-                        break;
-                    }
-                    case 2: {
-                        CC_SETTEXT(`${string3}<col=ffffff>${string1}<img=3>: </col>${string0}`);
-                        break;
-                    }
-                    default: {
-                        CC_SETTEXT(`${string3}<col=ffffff>[</col><col=7fa9ff>${string2}</col><col=ffffff>] ${string1}<img=3>: </col>${string0}`);
-                        break;
-                    }
+            if ((strcmp(REMOVETAGS(CHAT_PLAYERNAME()), REMOVETAGS(string1)) != 0)) {
+                if ((CHATPHRASE_GETAUTORESPONSECOUNT(int3) > 0)) {
+                    switch (varbitplayer_30172) {
+                        case 1: {
+                            CC_SETTEXT(`${string3}<col=ffffff>[</col><col=7fa9ff>GC</col><col=ffffff>] ${string1}<img=3>: </col>${string0}`);
+                            break;
+                        }
+                        case 2: {
+                            CC_SETTEXT(`${string3}<col=ffffff>${string1}<img=3>: </col>${string0}`);
+                            break;
+                        }
+                        default: {
+                            CC_SETTEXT(`${string3}<col=ffffff>[</col><col=7fa9ff>${string2}</col><col=ffffff>] ${string1}<img=3>: </col>${string0}`);
+                            break;
+                        }
+                    };
+                } else {
+                    switch (varbitplayer_30172) {
+                        case 1: {
+                            CC_SETTEXT(`${string3}<col=ffffff>[</col><col=7fa9ff>GC</col><col=ffffff>] ${string1}: </col>${string0}`);
+                            break;
+                        }
+                        case 2: {
+                            CC_SETTEXT(`${string3}<col=ffffff>${string1}: </col>${string0}`);
+                            break;
+                        }
+                        default: {
+                            CC_SETTEXT(`${string3}<col=ffffff>[</col><col=7fa9ff>${string2}</col><col=ffffff>] ${string1}: </col>${string0}`);
+                            break;
+                        }
+                    };
                 };
             } else {
                 switch (varbitplayer_30172) {
@@ -324,20 +391,37 @@ function script8505(int0: number, int1: number, int2: number, int3: number, stri
         }
         case 20: {
             CC_SETCOLOUR(enum_getvalue(0, 0, 3723 as cs2enum, varbitplayer_1190));
-            if (((strcmp(REMOVETAGS(CHAT_PLAYERNAME()), REMOVETAGS(string1)) != 0) && (CHATPHRASE_GETAUTORESPONSECOUNT(int3) > 0))) {
-                switch (varbitplayer_30172) {
-                    case 1: {
-                        CC_SETTEXT(`${string3}<col=ffffff>[</col><col=7fa9ff>FC</col><col=ffffff>] ${string1}<img=3>: </col>${string0}`);
-                        break;
-                    }
-                    case 2: {
-                        CC_SETTEXT(`${string3}<col=ffffff>${string1}<img=3>: </col>${string0}`);
-                        break;
-                    }
-                    default: {
-                        CC_SETTEXT(`${string3}<col=ffffff>[</col><col=7fa9ff>${string2}</col><col=ffffff>] ${string1}<img=3>: </col>${string0}`);
-                        break;
-                    }
+            if ((strcmp(REMOVETAGS(CHAT_PLAYERNAME()), REMOVETAGS(string1)) != 0)) {
+                if ((CHATPHRASE_GETAUTORESPONSECOUNT(int3) > 0)) {
+                    switch (varbitplayer_30172) {
+                        case 1: {
+                            CC_SETTEXT(`${string3}<col=ffffff>[</col><col=7fa9ff>FC</col><col=ffffff>] ${string1}<img=3>: </col>${string0}`);
+                            break;
+                        }
+                        case 2: {
+                            CC_SETTEXT(`${string3}<col=ffffff>${string1}<img=3>: </col>${string0}`);
+                            break;
+                        }
+                        default: {
+                            CC_SETTEXT(`${string3}<col=ffffff>[</col><col=7fa9ff>${string2}</col><col=ffffff>] ${string1}<img=3>: </col>${string0}`);
+                            break;
+                        }
+                    };
+                } else {
+                    switch (varbitplayer_30172) {
+                        case 1: {
+                            CC_SETTEXT(`${string3}<col=ffffff>[</col><col=7fa9ff>FC</col><col=ffffff>] ${string1}: </col>${string0}`);
+                            break;
+                        }
+                        case 2: {
+                            CC_SETTEXT(`${string3}<col=ffffff>${string1}: </col>${string0}`);
+                            break;
+                        }
+                        default: {
+                            CC_SETTEXT(`${string3}<col=ffffff>[</col><col=7fa9ff>${string2}</col><col=ffffff>] ${string1}: </col>${string0}`);
+                            break;
+                        }
+                    };
                 };
             } else {
                 switch (varbitplayer_30172) {
@@ -358,12 +442,12 @@ function script8505(int0: number, int1: number, int2: number, int3: number, stri
             break;
         }
         case 25: {
-            CC_SETCOLOUR(enum_getvalue(0, 0, 9177 as cs2enum, varbitplayer_24560));
+            CC_SETCOLOUR(enum_getvalue(0, 0, 9177, varbitplayer_24560));
             CC_SETTEXT(`${string3}<col=ffffff>[</col><col=7fa9ff>Group</col><col=ffffff>] ${string1}<img=3>: </col>${string0}`);
             break;
         }
         case 23: {
-            CC_SETCOLOUR(enum_getvalue(0, 0, 9178 as cs2enum, varbitplayer_24561));
+            CC_SETCOLOUR(enum_getvalue(0, 0, 9178, varbitplayer_24561));
             CC_SETTEXT(`${string3}<col=ffffff>[</col><col=7fa9ff>Group (Team)</col><col=ffffff>] ${string1}<img=3>: </col>${string0}`);
             break;
         }
@@ -381,7 +465,7 @@ function script8505(int0: number, int1: number, int2: number, int3: number, stri
         case 146: {
             if ((STAFFMODLEVEL() >= 2)) {
                 CC_SETCOLOUR(16711680);
-                if ((STRING_LENGTH(enum_getvalue(0, 36, 15193 as cs2enum, int1)) > 0)) {
+                if ((STRING_LENGTH(enum_getvalue(0, 36, 15193, int1)) > 0)) {
                     CC_SETTEXT(`${string3}<img=14>${string0}`);
                 } else {
                     CC_SETTEXT(`${string3}${string0}`);
@@ -398,24 +482,24 @@ function script8505(int0: number, int1: number, int2: number, int3: number, stri
             break;
         }
         case 137: {
-            CC_SETCOLOUR(enum_getvalue(0, 0, 14607 as cs2enum, varbitplayer_42241));
+            CC_SETCOLOUR(enum_getvalue(0, 0, 14607, varbitplayer_42241));
             CC_SETTEXT(`${string3}${string0}`);
             break;
         }
         case 138: {
-            CC_SETCOLOUR(enum_getvalue(0, 0, 14608 as cs2enum, varbitplayer_42242));
+            CC_SETCOLOUR(enum_getvalue(0, 0, 14608, varbitplayer_42242));
             CC_SETTEXT(`${string3}${string0}`);
             break;
         }
         case 139: {
-            CC_SETCOLOUR(enum_getvalue(0, 0, 14609 as cs2enum, varbitplayer_42243));
+            CC_SETCOLOUR(enum_getvalue(0, 0, 14609, varbitplayer_42243));
             CC_SETTEXT(`${string3}${string0}`);
             break;
         }
         case 127:
         case 145: {
             CC_SETCOLOUR(65280);
-            if ((STRING_LENGTH(enum_getvalue(0, 36, 15193 as cs2enum, int1)) > 0)) {
+            if ((STRING_LENGTH(enum_getvalue(0, 36, 15193, int1)) > 0)) {
                 CC_SETTEXT(`${string3}<img=14>${string0}`);
             } else {
                 CC_SETTEXT(`${string3}${string0}`);
@@ -427,7 +511,7 @@ function script8505(int0: number, int1: number, int2: number, int3: number, stri
             break;
         }
         case 32: {
-            CC_SETCOLOUR(enum_getvalue(0, 0, 3056 as cs2enum, varbitplayer_21371));
+            CC_SETCOLOUR(enum_getvalue(0, 0, 3056, varbitplayer_21371));
             CC_SETTEXT(`${string3}${REMOVETAGS(string0)}`);
             break;
         }

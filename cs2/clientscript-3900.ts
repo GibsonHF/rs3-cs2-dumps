@@ -25,13 +25,27 @@ function script3900(int0: number, int1: number, int2: number, int3: number, int4
         if ((int0 == 94)) {
             if ((varclient_3823 != 94 as inv)) {
                 int6 = CC_GETINVOBJECT();
-                if (((OC_WEARPOS(varclient_3822) == -1) || (((int5 == 1) && (script9221(varclient_3822) != 0)) || ((int5 == 0) && (script3848(varclient_3822, -1) != 0))))) {
+                if ((OC_WEARPOS(varclient_3822) == -1)) {
+                    int7 = 16711680;
+                } else if ((int5 == 1)) {
+                    if ((script9221(varclient_3822) != 0)) {
+                        int7 = 16711680;
+                    } else if (((int5 == 0) && (script3848(varclient_3822, -1) != 0))) {
+                        int7 = 16711680;
+                    };
+                } else if (((int5 == 0) && (script3848(varclient_3822, -1) != 0))) {
                     int7 = 16711680;
                 };
             };
         } else if ((varclient_3823 != 93 as inv)) {
             int6 = CC_GETINVOBJECT();
-            if ((((int5 == 1) && (script9224(varclient_3822, int6) == 1)) || ((int5 == 0) && (script3851(varclient_3822, int6) == 1)))) {
+            if ((int5 == 1)) {
+                if ((script9224(varclient_3822, int6) == 1)) {
+                    int7 = 16711680;
+                } else if (((int5 == 0) && (script3851(varclient_3822, int6) == 1))) {
+                    int7 = 16711680;
+                };
+            } else if (((int5 == 0) && (script3851(varclient_3822, int6) == 1))) {
                 int7 = 16711680;
             };
         };

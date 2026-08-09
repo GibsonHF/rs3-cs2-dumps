@@ -4,7 +4,7 @@ function script1712(): void {
         return;
     };
     IF_SETONTIMER(callback(), comp(1458, 40));
-    IF_SETONTIMER(callback(), 95485968);
+    IF_SETONTIMER(callback(), comp(1457, 16));
     script4903();
     return;
 }

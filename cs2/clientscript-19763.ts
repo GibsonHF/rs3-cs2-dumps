@@ -13,7 +13,7 @@ function script19763(): number {
     var int3 = 0;
     var int4 = 0;
     var int5 = -1 as dbrow;
-    var int6 = -1 as dbrow;
+    var int6 = -1;
     var int7 = 0;
     if ((int0 == 1)) {
         int5 = dbrow_getfield(14845 as dbrow, 1106000, 0);
@@ -28,7 +28,7 @@ function script19763(): number {
         int6 = dbrow_getfield(int5, 1269760, int2);
         int4 = dbrow_getfield(int6, 1273856, 0);
     };
-    if ((int6 != -1 as dbrow)) {
+    if ((int6 != -1)) {
         if ((int1 >= int4)) {
             return 1;
         };

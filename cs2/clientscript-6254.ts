@@ -13,7 +13,8 @@ function script6254(int0: number, int1: number, int2: number): void {
         int9 = 4;
     };
     var int11 = 26;
-    while ((++int3 < int8)) {
+    int3 = (int3 + 1);
+    while ((int3 < int8)) {
         int4 = enum_getvalue(0, 33, 15103 as cs2enum, int3);
         CC_CREATE(int0, int9, int3);
         CC_SETHIDE(true);

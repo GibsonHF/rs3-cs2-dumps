@@ -51,5 +51,6 @@ function script6491(int0: number, int1: number): number {
     CC_SETPOSITION(0, 35, 0, 0);
     CC_SETSIZE(7, 73, 0, 1);
     CC_SETHFLIP(true);
-    return ++int0;
+    int0 = (int0 + 1);
+    return int0;
 }

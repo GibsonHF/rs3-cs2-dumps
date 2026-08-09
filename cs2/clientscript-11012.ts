@@ -19,9 +19,38 @@ function script11012(int0: number, int1: number, int2: number): number {
     var int8 = -1 as struct;
     while ((int3 < int7)) {
         int8 = enum_getvalue(0, 73, int6, int3);
-        if (((((varbitplayer_678 == 1) && (script13100(int8, 0) == 1)) || (script6488(int8) == 1)) || (((MAP_MEMBERS() == 0) && (struct_getparam(int8, 2546) == 2)) && (script6214(int8) == 1)))) {
+        if ((varbitplayer_678 == 1)) {
+            if (((script13100(int8, 0) == 1) || (script6488(int8) == 1))) {
+                pop_array(int4, int3);
+                int4 = (int4 + 1);
+            } else if ((MAP_MEMBERS() == 0)) {
+                if ((struct_getparam(int8, 2546) == 2)) {
+                    if ((script6214(int8) == 1)) {
+                        pop_array(int4, int3);
+                        int4 = (int4 + 1);
+                    } else {
+                        int5 = (int5 + 1);
+                    };
+                } else {
+                    int5 = (int5 + 1);
+                };
+            } else {
+                int5 = (int5 + 1);
+            };
+        } else if ((script6488(int8) == 1)) {
             pop_array(int4, int3);
             int4 = (int4 + 1);
+        } else if ((MAP_MEMBERS() == 0)) {
+            if ((struct_getparam(int8, 2546) == 2)) {
+                if ((script6214(int8) == 1)) {
+                    pop_array(int4, int3);
+                    int4 = (int4 + 1);
+                } else {
+                    int5 = (int5 + 1);
+                };
+            } else {
+                int5 = (int5 + 1);
+            };
         } else {
             int5 = (int5 + 1);
         };

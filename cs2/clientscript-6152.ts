@@ -9,7 +9,7 @@ function script6152(int0: number): void {
                 IF_SETONTIMER(callback(script6152, 2), comp(1268, 0));
             } else {
                 IF_SETONTIMER(callback(script6152, 1), comp(1268, 0));
-                IF_SETTRANS(SCALE(varclient_1888, 50, 255), 83099650);
+                IF_SETTRANS(SCALE(varclient_1888, 50, 255), comp(1268, 2));
             };
             break;
         }
@@ -27,11 +27,11 @@ function script6152(int0: number): void {
                 varclient_1888 = 0;
                 IF_SETTRANS(0, comp(1268, 2));
                 IF_SETONTIMER(callback(script6152, 4), comp(1268, 0));
-                IF_SETHIDE(1, 83099650);
-                IF_SETHIDE(1, 83099649);
+                IF_SETHIDE(true, comp(1268, 2));
+                IF_SETHIDE(true, comp(1268, 1));
             } else {
                 IF_SETONTIMER(callback(script6152, 3), comp(1268, 0));
-                IF_SETTRANS((255 - SCALE(varclient_1888, 50, 255)), 83099650);
+                IF_SETTRANS((255 - SCALE(varclient_1888, 50, 255)), comp(1268, 2));
             };
             break;
         }
@@ -42,7 +42,7 @@ function script6152(int0: number): void {
                 IF_SETONTIMER(callback(), comp(1268, 0));
             } else {
                 IF_SETONTIMER(callback(script6152, 4), comp(1268, 0));
-                IF_SETTRANS(SCALE(varclient_1888, 150, 255), 83099648);
+                IF_SETTRANS(SCALE(varclient_1888, 150, 255), comp(1268, 0));
             };
             break;
         }

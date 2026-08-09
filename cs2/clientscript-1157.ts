@@ -7,7 +7,7 @@ function script1157(int0: number): void {
     if ((script42(varclient_266) == 0)) {
         varclient_2409 = "";
         varclient_2410 = "";
-        varclient_266 = true;
+        varclient_266 = 1;
     };
     if ((STRING_LENGTH(varclient_2409) > 0)) {
         IF_SETTEXT("Edit the name of your caller:<br>(Delete it to disable this feature.)", comp(1469, 3));

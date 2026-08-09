@@ -16,7 +16,7 @@ function script3974(int0: number, int1: number, int2: number, int3: number, stri
     [int8, int9] = script8405(int0);
     var int10 = 0;
     var int11 = 0;
-    [int10, int11] = script8405(comp(438, 34));
+    [int10, int11] = script8405(28704802);
     int8 = (int8 - int10);
     int9 = (int9 - int11);
     var int12 = IF_GETWIDTH(comp(438, 34));

@@ -1,6 +1,6 @@
 //[proc,clanwars_ffa]
 function script2784(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number): void {
-    if (((int0 == 0) || ((((COORDX(COORD()) >= COORDX(pos(0,43,86,1,0))) && (COORDX(COORD()) <= COORDX(pos(3,44,87,61,63)))) && (COORDZ(COORD()) >= COORDZ(pos(0,43,86,1,0)))) && (COORDZ(COORD()) <= COORDZ(pos(3,44,87,61,63)))))) {
+    if ((int0 == 0)) {
         if ((int6 != comp(-1, 65535))) {
             if ((COORDZ(COORD()) < (COORDZ(pos(0,43,86,1,0)) + 8))) {
                 IF_SETHIDE(false, int6);
@@ -17,7 +17,270 @@ function script2784(int0: number, int1: number, int2: number, int3: number, int4
         IF_SETCOLOUR(16750623, int5);
         IF_SETGRAPHIC(444 as graphic, int2);
         IF_SETTEXT("ITEMS ARE<br>SAFE", int5);
-    } else if (((int0 == 1) || ((((COORDX(COORD()) >= COORDX(pos(0,46,86,1,0))) && (COORDX(COORD()) <= COORDX(pos(3,47,87,61,63)))) && (COORDZ(COORD()) >= COORDZ(pos(0,46,86,1,0)))) && (COORDZ(COORD()) <= COORDZ(pos(3,47,87,61,63)))))) {
+    } else if ((COORDX(COORD()) >= COORDX(pos(0,43,86,1,0)))) {
+        if ((COORDX(COORD()) <= COORDX(pos(3,44,87,61,63)))) {
+            if ((COORDZ(COORD()) >= COORDZ(pos(0,43,86,1,0)))) {
+                if ((COORDZ(COORD()) <= COORDZ(pos(3,44,87,61,63)))) {
+                    if ((int6 != comp(-1, 65535))) {
+                        if ((COORDZ(COORD()) < (COORDZ(pos(0,43,86,1,0)) + 8))) {
+                            IF_SETHIDE(false, int6);
+                            CC_DELETEALL(int6);
+                            script1086(int6, 0, 0, 0);
+                        } else {
+                            IF_SETHIDE(true, int6);
+                        };
+                    };
+                    if (((int7 == 0) && (MODULO(CLIENTCLOCK(), 50) != 0))) {
+                        return;
+                    };
+                    IF_SETCOLOUR(16750623, int4);
+                    IF_SETCOLOUR(16750623, int5);
+                    IF_SETGRAPHIC(444 as graphic, int2);
+                    IF_SETTEXT("ITEMS ARE<br>SAFE", int5);
+                } else if ((int0 == 1)) {
+                    if ((int6 != comp(-1, 65535))) {
+                        if ((COORDZ(COORD()) < (COORDZ(pos(0,46,86,1,0)) + 8))) {
+                            IF_SETHIDE(false, int6);
+                            CC_DELETEALL(int6);
+                            script1086(int6, 0, 0, 0);
+                        } else {
+                            IF_SETHIDE(true, int6);
+                        };
+                    };
+                    if (((int7 == 0) && (MODULO(CLIENTCLOCK(), 50) != 0))) {
+                        return;
+                    };
+                    IF_SETCOLOUR(16776960, int4);
+                    IF_SETCOLOUR(16776960, int5);
+                    IF_SETGRAPHIC(445 as graphic, int2);
+                    IF_SETTEXT("ITEMS ARE<br>DROPPED", int5);
+                } else if ((COORDX(COORD()) >= COORDX(pos(0,46,86,1,0)))) {
+                    if ((COORDX(COORD()) <= COORDX(pos(3,47,87,61,63)))) {
+                        if ((COORDZ(COORD()) >= COORDZ(pos(0,46,86,1,0)))) {
+                            if ((COORDZ(COORD()) <= COORDZ(pos(3,47,87,61,63)))) {
+                                if ((int6 != comp(-1, 65535))) {
+                                    if ((COORDZ(COORD()) < (COORDZ(pos(0,46,86,1,0)) + 8))) {
+                                        IF_SETHIDE(false, int6);
+                                        CC_DELETEALL(int6);
+                                        script1086(int6, 0, 0, 0);
+                                    } else {
+                                        IF_SETHIDE(true, int6);
+                                    };
+                                };
+                                if (((int7 == 0) && (MODULO(CLIENTCLOCK(), 50) != 0))) {
+                                    return;
+                                };
+                                IF_SETCOLOUR(16776960, int4);
+                                IF_SETCOLOUR(16776960, int5);
+                                IF_SETGRAPHIC(445 as graphic, int2);
+                                IF_SETTEXT("ITEMS ARE<br>DROPPED", int5);
+                            } else {
+                                IF_SETHIDE(true, int4);
+                                IF_SETHIDE(true, int5);
+                                IF_SETHIDE(true, int2);
+                                IF_SETHIDE(true, int3);
+                                if ((int6 != comp(-1, 65535))) {
+                                    IF_SETHIDE(true, int6);
+                                };
+                                CC_DELETEALL(int1);
+                                return;
+                            };
+                        } else {
+                            IF_SETHIDE(true, int4);
+                            IF_SETHIDE(true, int5);
+                            IF_SETHIDE(true, int2);
+                            IF_SETHIDE(true, int3);
+                            if ((int6 != comp(-1, 65535))) {
+                                IF_SETHIDE(true, int6);
+                            };
+                            CC_DELETEALL(int1);
+                            return;
+                        };
+                    } else {
+                        IF_SETHIDE(true, int4);
+                        IF_SETHIDE(true, int5);
+                        IF_SETHIDE(true, int2);
+                        IF_SETHIDE(true, int3);
+                        if ((int6 != comp(-1, 65535))) {
+                            IF_SETHIDE(true, int6);
+                        };
+                        CC_DELETEALL(int1);
+                        return;
+                    };
+                } else {
+                    IF_SETHIDE(true, int4);
+                    IF_SETHIDE(true, int5);
+                    IF_SETHIDE(true, int2);
+                    IF_SETHIDE(true, int3);
+                    if ((int6 != comp(-1, 65535))) {
+                        IF_SETHIDE(true, int6);
+                    };
+                    CC_DELETEALL(int1);
+                    return;
+                };
+            } else if ((int0 == 1)) {
+                if ((int6 != comp(-1, 65535))) {
+                    if ((COORDZ(COORD()) < (COORDZ(pos(0,46,86,1,0)) + 8))) {
+                        IF_SETHIDE(false, int6);
+                        CC_DELETEALL(int6);
+                        script1086(int6, 0, 0, 0);
+                    } else {
+                        IF_SETHIDE(true, int6);
+                    };
+                };
+                if (((int7 == 0) && (MODULO(CLIENTCLOCK(), 50) != 0))) {
+                    return;
+                };
+                IF_SETCOLOUR(16776960, int4);
+                IF_SETCOLOUR(16776960, int5);
+                IF_SETGRAPHIC(445 as graphic, int2);
+                IF_SETTEXT("ITEMS ARE<br>DROPPED", int5);
+            } else if ((COORDX(COORD()) >= COORDX(pos(0,46,86,1,0)))) {
+                if ((COORDX(COORD()) <= COORDX(pos(3,47,87,61,63)))) {
+                    if ((COORDZ(COORD()) >= COORDZ(pos(0,46,86,1,0)))) {
+                        if ((COORDZ(COORD()) <= COORDZ(pos(3,47,87,61,63)))) {
+                            if ((int6 != comp(-1, 65535))) {
+                                if ((COORDZ(COORD()) < (COORDZ(pos(0,46,86,1,0)) + 8))) {
+                                    IF_SETHIDE(false, int6);
+                                    CC_DELETEALL(int6);
+                                    script1086(int6, 0, 0, 0);
+                                } else {
+                                    IF_SETHIDE(true, int6);
+                                };
+                            };
+                            if (((int7 == 0) && (MODULO(CLIENTCLOCK(), 50) != 0))) {
+                                return;
+                            };
+                            IF_SETCOLOUR(16776960, int4);
+                            IF_SETCOLOUR(16776960, int5);
+                            IF_SETGRAPHIC(445 as graphic, int2);
+                            IF_SETTEXT("ITEMS ARE<br>DROPPED", int5);
+                        } else {
+                            IF_SETHIDE(true, int4);
+                            IF_SETHIDE(true, int5);
+                            IF_SETHIDE(true, int2);
+                            IF_SETHIDE(true, int3);
+                            if ((int6 != comp(-1, 65535))) {
+                                IF_SETHIDE(true, int6);
+                            };
+                            CC_DELETEALL(int1);
+                            return;
+                        };
+                    } else {
+                        IF_SETHIDE(true, int4);
+                        IF_SETHIDE(true, int5);
+                        IF_SETHIDE(true, int2);
+                        IF_SETHIDE(true, int3);
+                        if ((int6 != comp(-1, 65535))) {
+                            IF_SETHIDE(true, int6);
+                        };
+                        CC_DELETEALL(int1);
+                        return;
+                    };
+                } else {
+                    IF_SETHIDE(true, int4);
+                    IF_SETHIDE(true, int5);
+                    IF_SETHIDE(true, int2);
+                    IF_SETHIDE(true, int3);
+                    if ((int6 != comp(-1, 65535))) {
+                        IF_SETHIDE(true, int6);
+                    };
+                    CC_DELETEALL(int1);
+                    return;
+                };
+            } else {
+                IF_SETHIDE(true, int4);
+                IF_SETHIDE(true, int5);
+                IF_SETHIDE(true, int2);
+                IF_SETHIDE(true, int3);
+                if ((int6 != comp(-1, 65535))) {
+                    IF_SETHIDE(true, int6);
+                };
+                CC_DELETEALL(int1);
+                return;
+            };
+        } else if ((int0 == 1)) {
+            if ((int6 != comp(-1, 65535))) {
+                if ((COORDZ(COORD()) < (COORDZ(pos(0,46,86,1,0)) + 8))) {
+                    IF_SETHIDE(false, int6);
+                    CC_DELETEALL(int6);
+                    script1086(int6, 0, 0, 0);
+                } else {
+                    IF_SETHIDE(true, int6);
+                };
+            };
+            if (((int7 == 0) && (MODULO(CLIENTCLOCK(), 50) != 0))) {
+                return;
+            };
+            IF_SETCOLOUR(16776960, int4);
+            IF_SETCOLOUR(16776960, int5);
+            IF_SETGRAPHIC(445 as graphic, int2);
+            IF_SETTEXT("ITEMS ARE<br>DROPPED", int5);
+        } else if ((COORDX(COORD()) >= COORDX(pos(0,46,86,1,0)))) {
+            if ((COORDX(COORD()) <= COORDX(pos(3,47,87,61,63)))) {
+                if ((COORDZ(COORD()) >= COORDZ(pos(0,46,86,1,0)))) {
+                    if ((COORDZ(COORD()) <= COORDZ(pos(3,47,87,61,63)))) {
+                        if ((int6 != comp(-1, 65535))) {
+                            if ((COORDZ(COORD()) < (COORDZ(pos(0,46,86,1,0)) + 8))) {
+                                IF_SETHIDE(false, int6);
+                                CC_DELETEALL(int6);
+                                script1086(int6, 0, 0, 0);
+                            } else {
+                                IF_SETHIDE(true, int6);
+                            };
+                        };
+                        if (((int7 == 0) && (MODULO(CLIENTCLOCK(), 50) != 0))) {
+                            return;
+                        };
+                        IF_SETCOLOUR(16776960, int4);
+                        IF_SETCOLOUR(16776960, int5);
+                        IF_SETGRAPHIC(445 as graphic, int2);
+                        IF_SETTEXT("ITEMS ARE<br>DROPPED", int5);
+                    } else {
+                        IF_SETHIDE(true, int4);
+                        IF_SETHIDE(true, int5);
+                        IF_SETHIDE(true, int2);
+                        IF_SETHIDE(true, int3);
+                        if ((int6 != comp(-1, 65535))) {
+                            IF_SETHIDE(true, int6);
+                        };
+                        CC_DELETEALL(int1);
+                        return;
+                    };
+                } else {
+                    IF_SETHIDE(true, int4);
+                    IF_SETHIDE(true, int5);
+                    IF_SETHIDE(true, int2);
+                    IF_SETHIDE(true, int3);
+                    if ((int6 != comp(-1, 65535))) {
+                        IF_SETHIDE(true, int6);
+                    };
+                    CC_DELETEALL(int1);
+                    return;
+                };
+            } else {
+                IF_SETHIDE(true, int4);
+                IF_SETHIDE(true, int5);
+                IF_SETHIDE(true, int2);
+                IF_SETHIDE(true, int3);
+                if ((int6 != comp(-1, 65535))) {
+                    IF_SETHIDE(true, int6);
+                };
+                CC_DELETEALL(int1);
+                return;
+            };
+        } else {
+            IF_SETHIDE(true, int4);
+            IF_SETHIDE(true, int5);
+            IF_SETHIDE(true, int2);
+            IF_SETHIDE(true, int3);
+            if ((int6 != comp(-1, 65535))) {
+                IF_SETHIDE(true, int6);
+            };
+            CC_DELETEALL(int1);
+            return;
+        };
+    } else if ((int0 == 1)) {
         if ((int6 != comp(-1, 65535))) {
             if ((COORDZ(COORD()) < (COORDZ(pos(0,46,86,1,0)) + 8))) {
                 IF_SETHIDE(false, int6);
@@ -34,6 +297,59 @@ function script2784(int0: number, int1: number, int2: number, int3: number, int4
         IF_SETCOLOUR(16776960, int5);
         IF_SETGRAPHIC(445 as graphic, int2);
         IF_SETTEXT("ITEMS ARE<br>DROPPED", int5);
+    } else if ((COORDX(COORD()) >= COORDX(pos(0,46,86,1,0)))) {
+        if ((COORDX(COORD()) <= COORDX(pos(3,47,87,61,63)))) {
+            if ((COORDZ(COORD()) >= COORDZ(pos(0,46,86,1,0)))) {
+                if ((COORDZ(COORD()) <= COORDZ(pos(3,47,87,61,63)))) {
+                    if ((int6 != comp(-1, 65535))) {
+                        if ((COORDZ(COORD()) < (COORDZ(pos(0,46,86,1,0)) + 8))) {
+                            IF_SETHIDE(false, int6);
+                            CC_DELETEALL(int6);
+                            script1086(int6, 0, 0, 0);
+                        } else {
+                            IF_SETHIDE(true, int6);
+                        };
+                    };
+                    if (((int7 == 0) && (MODULO(CLIENTCLOCK(), 50) != 0))) {
+                        return;
+                    };
+                    IF_SETCOLOUR(16776960, int4);
+                    IF_SETCOLOUR(16776960, int5);
+                    IF_SETGRAPHIC(445 as graphic, int2);
+                    IF_SETTEXT("ITEMS ARE<br>DROPPED", int5);
+                } else {
+                    IF_SETHIDE(true, int4);
+                    IF_SETHIDE(true, int5);
+                    IF_SETHIDE(true, int2);
+                    IF_SETHIDE(true, int3);
+                    if ((int6 != comp(-1, 65535))) {
+                        IF_SETHIDE(true, int6);
+                    };
+                    CC_DELETEALL(int1);
+                    return;
+                };
+            } else {
+                IF_SETHIDE(true, int4);
+                IF_SETHIDE(true, int5);
+                IF_SETHIDE(true, int2);
+                IF_SETHIDE(true, int3);
+                if ((int6 != comp(-1, 65535))) {
+                    IF_SETHIDE(true, int6);
+                };
+                CC_DELETEALL(int1);
+                return;
+            };
+        } else {
+            IF_SETHIDE(true, int4);
+            IF_SETHIDE(true, int5);
+            IF_SETHIDE(true, int2);
+            IF_SETHIDE(true, int3);
+            if ((int6 != comp(-1, 65535))) {
+                IF_SETHIDE(true, int6);
+            };
+            CC_DELETEALL(int1);
+            return;
+        };
     } else {
         IF_SETHIDE(true, int4);
         IF_SETHIDE(true, int5);

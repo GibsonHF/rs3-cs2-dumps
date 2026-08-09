@@ -1,19 +1,19 @@
 //
 function script15140(int0: number): number {
-    if ((int0 == -1 as dbrow)) {
+    if ((int0 == -1)) {
         return 1;
     };
-    var int1 = -1 as graphic;
-    var int2 = -1 as obj;
+    var int1 = -1;
+    var int2 = -1;
     [int2, int1] = dbrow_getfield(int0, 434192, 0);
-    var int3 = -1 as struct;
-    if ((int2 != -1 as obj)) {
+    var int3 = -1;
+    if ((int2 != -1)) {
         int3 = item_getparam(int2, 4414);
     };
-    if ((int3 == -1 as struct)) {
+    if ((int3 == -1)) {
         int3 = item_getparam(int2, 5051);
     };
-    if (((int3 != -1 as struct) && (struct_getparam(int3, 4744) > 0))) {
+    if (((int3 != -1) && (struct_getparam(int3, 4744) > 0))) {
         switch (int3) {
             case 1572: {
                 if (((((((((varbitplayer_30305 == 1) && (varbitplayer_30306 == 1)) && (varbitplayer_30307 == 1)) && (varbitplayer_30308 == 1)) && (varbitplayer_30309 == 1)) && (varbitplayer_30310 == 1)) && (varbitplayer_30312 == 1)) && (varbitplayer_30311 == 1))) {
@@ -35,7 +35,7 @@ function script15140(int0: number): number {
             return script734(varbitplayer_280);
         }
     };
-    if ((dbrow_getfield(int0, 434256, 0) == false)) {
+    if ((dbrow_getfield(int0, 434256, 0) == 0)) {
         script12478(`Missing a plugin for recipe ID - ${inttostring(dbrow_getfield(int0, 434176, 0), 10)}`);
         return 1;
     };

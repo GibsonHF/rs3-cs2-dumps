@@ -7,14 +7,14 @@ function script1320(int0: number, int1: number): void {
     var int6 = IF_GETWIDTH(comp(1924, 189));
     var int7 = 0;
     var int8 = (int2 + 10);
-    var int9 = 40;
+    var int9 = 40 as fontmetrics;
     var int10 = 100;
     if ((int6 > IF_GETWIDTH(comp(276, 0)))) {
         int10 = ((IF_GETWIDTH(comp(276, 0)) * 100) / int6);
         int2 = ((int2 * int10) / 100);
         int3 = ((int3 * int10) / 100);
         int8 = (int2 + 10);
-        int9 = 38;
+        int9 = 38 as fontmetrics;
     };
     var int11 = (int6 / int5);
     var int12 = ((int11 - int2) / 2);
@@ -37,7 +37,7 @@ function script1320(int0: number, int1: number): void {
         CC_SETTEXT(inttostring((int7 + 1), 10));
         CC_SETTEXTFONT(int9);
         CC_SETTEXTALIGN(1, 1, 0);
-        CC_SETTEXTSHADOW(1);
+        CC_SETTEXTSHADOW(true);
         script6888(2);
         int7 = (int7 + 1);
         int12 = ((int11 * int7) + ((int11 - int2) / 2));

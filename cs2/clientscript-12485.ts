@@ -1,6 +1,6 @@
 //
 function script12485(int0: number, int1: number): void {
-    if ((int0 == -1 as dbrow)) {
+    if ((int0 == -1)) {
         return;
     };
     if ((script12477() < dbrow_getfield(int0, 37008, 0))) {

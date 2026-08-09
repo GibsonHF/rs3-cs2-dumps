@@ -27,177 +27,177 @@ function script8454(int0: number): void {
     script8463(int0);
     script8465(int0);
     var string0 = "";
-    var int2 = -1;
+    var int2 = comp(-1, 65535);
     if (((IF_GETHEIGHT(comp(1559, 90)) >= IF_GETHEIGHT(comp(1559, 89))) && (int1 == 1))) {
         IF_SETTEXT("MH", comp(1559, 90));
         string0 = "Main Hand";
-        int2 = 102170713;
+        int2 = comp(1559, 89);
         IF_SETONMOUSEREPEAT(callback(script3876, string0, -2147483645, -2147483643), int2);
         IF_SETONMOUSELEAVE(callback(script8805), int2);
-        IF_SETTEXT("OH", 102170722);
+        IF_SETTEXT("OH", comp(1559, 98));
         string0 = "Off Hand";
-        int2 = 102170721;
+        int2 = comp(1559, 97);
         IF_SETONMOUSEREPEAT(callback(script3876, string0, -2147483645, -2147483643), int2);
         IF_SETONMOUSELEAVE(callback(script8805), int2);
-        IF_SETTEXT("A", 102170755);
+        IF_SETTEXT("A", comp(1559, 131));
         string0 = "Abilities";
-        int2 = 102170754;
+        int2 = comp(1559, 130);
         IF_SETONMOUSEREPEAT(callback(script3876, string0, -2147483645, -2147483643), int2);
         IF_SETONMOUSELEAVE(callback(script8805), int2);
     };
     string0 = "<col=F3B13F>Attack type</col> determines the style of weapon or spell you're using. Some enemies are weak to specific attack styles. Exploit your enemies' weaknesses to hit more often.";
     if ((int1 == 1)) {
-        int2 = 102170671;
+        int2 = comp(1559, 47);
     } else {
-        int2 = 95879220;
+        int2 = comp(1463, 52);
     };
     IF_SETONMOUSEREPEAT(callback(script3876, string0, -2147483645, -2147483643), int2);
     IF_SETONMOUSELEAVE(callback(script8805), int2);
     if ((int1 == 1)) {
-        int2 = 102170693;
+        int2 = comp(1559, 69);
     } else {
-        int2 = 95879242;
+        int2 = comp(1463, 74);
     };
     IF_SETONMOUSEREPEAT(callback(script3876, string0, -2147483645, -2147483643), int2);
     IF_SETONMOUSELEAVE(callback(script8805), int2);
     if ((int1 == 1)) {
-        int2 = 102170769;
+        int2 = comp(1559, 145);
     } else {
-        int2 = 95879388;
+        int2 = comp(1463, 220);
     };
     IF_SETONMOUSEREPEAT(callback(script3876, string0, -2147483645, -2147483643), int2);
     IF_SETONMOUSELEAVE(callback(script8805), int2);
     string0 = "<col=F3B13F>Attack speed</col> determines how quickly you strike with your main-hand/off-hand weapon or spell.";
     if ((int1 == 1)) {
-        int2 = 102170676;
+        int2 = comp(1559, 52);
     } else {
-        int2 = 95879225;
+        int2 = comp(1463, 57);
     };
     IF_SETONMOUSEREPEAT(callback(script3876, string0, -2147483645, -2147483643), int2);
     IF_SETONMOUSELEAVE(callback(script8805), int2);
     if ((int1 == 1)) {
-        int2 = 102170698;
+        int2 = comp(1559, 74);
     } else {
-        int2 = 95879247;
+        int2 = comp(1463, 79);
     };
     IF_SETONMOUSEREPEAT(callback(script3876, string0, -2147483645, -2147483643), int2);
     IF_SETONMOUSELEAVE(callback(script8805), int2);
     string0 = "<col=F3B13F>Damage</col> determines the maximum amount of life points you can remove from an enemy in a single strike with your main-hand/off-hand weapon or spell. Using abilities can modify your damage.";
     if ((int1 == 1)) {
-        int2 = 102170661;
+        int2 = comp(1559, 37);
     } else {
-        int2 = 95879210;
+        int2 = comp(1463, 42);
     };
     IF_SETONMOUSEREPEAT(callback(script3876, string0, -2147483645, -2147483643), int2);
     IF_SETONMOUSELEAVE(callback(script8805), int2);
     if ((int1 == 1)) {
-        int2 = 102170683;
+        int2 = comp(1559, 59);
     } else {
-        int2 = 95879232;
+        int2 = comp(1463, 64);
     };
     IF_SETONMOUSEREPEAT(callback(script3876, string0, -2147483645, -2147483643), int2);
     IF_SETONMOUSELEAVE(callback(script8805), int2);
     string0 = "<col=F3B13F>Damage</col> determines the maximum amount of life points you can remove from an enemy with a single ability. This is a modification of your normal damage.";
     if ((int1 == 1)) {
-        int2 = 102170759;
+        int2 = comp(1559, 135);
     } else {
-        int2 = 95879378;
+        int2 = comp(1463, 210);
     };
     IF_SETONMOUSEREPEAT(callback(script3876, string0, -2147483645, -2147483643), int2);
     IF_SETONMOUSELEAVE(callback(script8805), int2);
     string0 = "<col=F3B13F>Accuracy</col> affects how likely you are to damage your opponent with your main-hand/off-hand weapon or spell. The higher the accuracy, the more likely you are to damage an enemy.";
     if ((int1 == 1)) {
-        int2 = 102170666;
+        int2 = comp(1559, 42);
     } else {
-        int2 = 95879215;
+        int2 = comp(1463, 47);
     };
     IF_SETONMOUSEREPEAT(callback(script3876, string0, -2147483645, -2147483643), int2);
     IF_SETONMOUSELEAVE(callback(script8805), int2);
     if ((int1 == 1)) {
-        int2 = 102170688;
+        int2 = comp(1559, 64);
     } else {
-        int2 = 95879237;
+        int2 = comp(1463, 69);
     };
     IF_SETONMOUSEREPEAT(callback(script3876, string0, -2147483645, -2147483643), int2);
     IF_SETONMOUSELEAVE(callback(script8805), int2);
     string0 = "<col=F3B13F>Accuracy</col> affects how likely you are to damage your opponent with your abilities. The higher the accuracy, the more likely you are to damage an enemy.";
     if ((int1 == 1)) {
-        int2 = 102170764;
+        int2 = comp(1559, 140);
     } else {
-        int2 = 95879383;
+        int2 = comp(1463, 215);
     };
     IF_SETONMOUSEREPEAT(callback(script3876, string0, -2147483645, -2147483643), int2);
     IF_SETONMOUSELEAVE(callback(script8805), int2);
     string0 = "<col=F3B13F>Lifepoints</col> determine how many points of damage you can take before you die.";
     if ((int1 == 1)) {
-        int2 = 102170646;
+        int2 = comp(1559, 22);
     } else {
-        int2 = 95879191;
+        int2 = comp(1463, 23);
     };
     IF_SETONMOUSEREPEAT(callback(script3876, string0, -2147483645, -2147483643), int2);
     IF_SETONMOUSELEAVE(callback(script8805), int2);
     string0 = "<col=F3B13F>Prayer Points</col> determine how long prayers can run for.";
     if ((int1 == 1)) {
-        int2 = 102170648;
+        int2 = comp(1559, 24);
     } else {
-        int2 = 95879195;
+        int2 = comp(1463, 27);
     };
     IF_SETONMOUSEREPEAT(callback(script3876, string0, -2147483645, -2147483643), int2);
     IF_SETONMOUSELEAVE(callback(script8805), int2);
     string0 = "<col=F3B13F>Prayer Bonus</col> affects how quickly your prayers drain your prayer points. Having a higher prayer modifier means your prayer points will drain slower.";
     if ((int1 == 1)) {
-        int2 = 102170654;
+        int2 = comp(1559, 30);
     } else {
-        int2 = 95879203;
+        int2 = comp(1463, 35);
     };
     IF_SETONMOUSEREPEAT(callback(script3876, string0, -2147483645, -2147483643), int2);
     IF_SETONMOUSELEAVE(callback(script8805), int2);
     string0 = "<col=F3B13F>Armour</col> affects how likely an enemy is to hit you. The higher your armour rating, the more likely you are to block an enemy hit. The class of your armour also affects how likely you are to block.";
     if ((int1 == 1)) {
-        int2 = 102170727;
+        int2 = comp(1559, 103);
     } else {
-        int2 = 95879351;
+        int2 = comp(1463, 183);
     };
     IF_SETONMOUSEREPEAT(callback(script3876, string0, -2147483645, -2147483643), int2);
     IF_SETONMOUSELEAVE(callback(script8805), int2);
     string0 = "<col=F3B13F>Style Bonus</col> is your ability to damage certain enemy types. This is affected by your equipped armour and weapons. The higher the number, the more damage you do.";
     if ((int1 == 1)) {
-        int2 = 102170731;
+        int2 = comp(1559, 107);
     } else {
-        int2 = 95879355;
+        int2 = comp(1463, 187);
     };
     IF_SETONMOUSEREPEAT(callback(script3876, string0, -2147483645, -2147483643), int2);
     IF_SETONMOUSELEAVE(callback(script8805), int2);
     string0 = "<col=F3B13F>Damage Reduction (PvE)</col> is the amount by which incoming damage from enemy NPC attacks is reduced.";
     if ((int1 == 1)) {
-        int2 = 102170737;
+        int2 = comp(1559, 113);
     } else {
-        int2 = 95879362;
+        int2 = comp(1463, 194);
     };
     IF_SETONMOUSEREPEAT(callback(script3876, string0, -2147483645, -2147483643), int2);
     IF_SETONMOUSELEAVE(callback(script8805), int2);
     string0 = "<col=F3B13F>Damage Reduction (PvP)</col> is the amount by which incoming damage from enemy player attacks is reduced.";
     if ((int1 == 1)) {
-        int2 = 102170739;
+        int2 = comp(1559, 115);
     } else {
-        int2 = 95879364;
+        int2 = comp(1463, 196);
     };
     IF_SETONMOUSEREPEAT(callback(script3876, string0, -2147483645, -2147483643), int2);
     IF_SETONMOUSELEAVE(callback(script8805), int2);
     if ((int1 == 0)) {
         string0 = "<col=F3B13F>Critical Strike Chance</col> is the likelihood of an attack critically striking.";
-        int2 = 95879406;
+        int2 = comp(1463, 238);
         IF_SETONMOUSEREPEAT(callback(script3876, string0, -2147483645, -2147483643), int2);
         IF_SETONMOUSELEAVE(callback(script8805), int2);
         string0 = "<col=F3B13F>Critical Strike Damage</col> is the amount by which damage will be increased when an attack critically strikes.";
-        int2 = 95879411;
+        int2 = comp(1463, 243);
         IF_SETONMOUSEREPEAT(callback(script3876, string0, -2147483645, -2147483643), int2);
         IF_SETONMOUSELEAVE(callback(script8805), int2);
         string0 = "The hit and block chances shown are as a guide. Values will not be accurate for all opponents.";
-        int2 = 95879252;
+        int2 = comp(1463, 84);
         IF_SETONMOUSEREPEAT(callback(script3876, string0, -2147483645, -2147483643), int2);
         IF_SETONMOUSELEAVE(callback(script8805), int2);
-        IF_SETTEXT(inttostring(varclient_2760, 10), 95879259);
+        IF_SETTEXT(inttostring(varclient_2760, 10), comp(1463, 91));
     };
     var string1 = "";
     var int3 = 0;

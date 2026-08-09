@@ -13,8 +13,10 @@ function script4034(int0: number): number {
     if (((int1 != 1) && (item_getparam(int0, 258) == 1))) {
         return 0;
     };
-    if (((((varbitplayer_15176 == 1) || (varbitplayer_15177 == 1)) || (varbitplayer_15178 == 1)) && (script7167(99, 1) == 1))) {
-        return 1;
+    if ((((varbitplayer_15176 == 1) || (varbitplayer_15177 == 1)) || (varbitplayer_15178 == 1))) {
+        if ((script7167(99, 1) == 1)) {
+            return 1;
+        };
     };
     return 0;
 }

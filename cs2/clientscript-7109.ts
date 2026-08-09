@@ -32,7 +32,8 @@ function script7109(int0: number, int1: number, int2: number, int3: number, int4
                 int9 = script11882(int9, (int10 / int6));
             };
         };
-        switch (++int11) {
+        int11 = (int11 + 1);
+        switch (int11) {
             case 2: {
                 int5 = struct_getparam(int1, 2656);
                 int6 = struct_getparam(int1, 2666);

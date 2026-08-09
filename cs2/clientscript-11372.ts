@@ -5,7 +5,7 @@ function script11372(int0: number, int1: number, int2: number): void {
         if (((CLIENTCLOCK() > int2) || (CC_GETHIDE() == true))) {
             CC_SETONTIMER(callback());
             CC_SETTEXT("");
-            IF_SETHIDE(1, int1);
+            IF_SETHIDE(true, int1);
         } else {
             int3 = (1 + ((int2 - CLIENTCLOCK()) / 50));
             if ((int3 > 60)) {

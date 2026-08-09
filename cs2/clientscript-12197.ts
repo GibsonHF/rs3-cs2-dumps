@@ -72,12 +72,20 @@ function script12197(int0: number, int1: number, int2: number, int3: number, int
     };
     var int24 = 0;
     while ((int24 < int10)) {
-        CC_CREATE(int5, 5, int6++);
+        stack(int5);
+        stack(5);
+        stack(int6);
+        var int6 = (int6 + 1);
+        CC_CREATE();
         CC_SETSIZE(32, 32, 0, 0);
         CC_SETPOSITION(int22, int7, int23, 0);
         CC_SETGRAPHIC(push_array(int24));
         if ((push_array[1](int24) != -1)) {
-            CC_CREATE(int5, 5, int6++);
+            stack(int5);
+            stack(5);
+            stack(int6);
+            int6 = (int6 + 1);
+            CC_CREATE();
             CC_SETSIZE(32, 32, 0, 0);
             CC_SETPOSITION(int22, int7, int23, 0);
             CC_SETGRAPHIC(push_array[1](int24));
@@ -85,7 +93,11 @@ function script12197(int0: number, int1: number, int2: number, int3: number, int
         int22 = ((int22 + 32) + int17);
         int24 = (int24 + 1);
         if ((int11 == int24)) {
-            CC_CREATE(int5, 9, int6++);
+            stack(int5);
+            stack(9);
+            stack(int6);
+            int6 = (int6 + 1);
+            CC_CREATE();
             if ((int23 == 1)) {
                 CC_SETPOSITION((int22 - (32 / 2)), (int7 + 6), int23, 0);
             } else {
@@ -98,15 +110,21 @@ function script12197(int0: number, int1: number, int2: number, int3: number, int
     };
     var int25 = INV_GETVAR(int1, int2, 30212);
     var int26 = script12071(int25);
-    if ((((int26 >= 20) || (script20157() == 1)) && ((((script20178(script12076(int12)) == 1) || (script20178(script12076(int13)) == 1)) || (script20178(script12076(int14)) == 1)) || (script20178(script12076(int15)) == 1)))) {
-        IF_SETSIZE(int18, (int21 + 16), 0, 0, int4);
-        CC_CREATE(int5, 5, int6++);
-        CC_SETGRAPHIC(31744 as graphic);
-        CC_SETSIZE(16, 16, 0, 0);
-        if (((int14 <= 0) || (int15 <= 0))) {
-            CC_SETPOSITION(1, (int7 + 32), 1, 0);
-        } else {
-            CC_SETPOSITION(-2, (int7 + 32), 1, 0);
+    if (((int26 >= 20) || (script20157() == 1))) {
+        if (((((script20178(script12076(int12)) == 1) || (script20178(script12076(int13)) == 1)) || (script20178(script12076(int14)) == 1)) || (script20178(script12076(int15)) == 1))) {
+            IF_SETSIZE(int18, (int21 + 16), 0, 0, int4);
+            stack(int5);
+            stack(5);
+            stack(int6);
+            int6 = (int6 + 1);
+            CC_CREATE();
+            CC_SETGRAPHIC(31744 as graphic);
+            CC_SETSIZE(16, 16, 0, 0);
+            if (((int14 <= 0) || (int15 <= 0))) {
+                CC_SETPOSITION(1, (int7 + 32), 1, 0);
+            } else {
+                CC_SETPOSITION(-2, (int7 + 32), 1, 0);
+            };
         };
     };
     return int6;

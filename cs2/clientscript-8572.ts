@@ -38,14 +38,14 @@ function script8572(int0: number): void {
     CC_SETOP(1, "Remove preset");
     CC_SETONMOUSEOVER(callback(script5336, -2147483645, -2147483643, int1));
     CC_SETONMOUSELEAVE(callback(script5336, -2147483645, -2147483643, int2));
-    CC_CREATE(123863047, 5, int0);
-    CC_SETGRAPHIC(18865);
+    CC_CREATE(comp(1890, 7), 5, int0);
+    CC_SETGRAPHIC(18865 as graphic);
     CC_SETSIZE(16, 16, 0, 0);
     CC_SETPOSITION(209, ((29 * int0) + 8), 0, 0);
     CC_SETOP(1, "Edit preset");
     CC_SETONOP(callback(script395, int0));
     CC_SETONMOUSEOVER(callback(script5336, -2147483645, -2147483643, int3));
     CC_SETONMOUSELEAVE(callback(script5336, -2147483645, -2147483643, int4));
-    script10428(123863138, 123863139, 8657, ENUM_GETOUTPUTCOUNT(8657), "Edit preset name", script2222(varbitplayer_36830), 0);
+    script10428(123863138, 123863139, 8657, ENUM_GETOUTPUTCOUNT(8657 as cs2enum), "Edit preset name", script2222(varbitplayer_36830), 0);
     return;
 }

@@ -45,30 +45,34 @@ function script10465(int0: number, int1: number, int2: number, int3: number, int
     CC_SETSIZE(((IF_GETWIDTH(int2) + int11) + 20), 0, 1, 1);
     CC_SETPOSITION((int11 + 5), 0, 0, 1);
     int10 = (int10 + 1);
-    if (((int9 == 1) && (MODULO(int4, 2) == 1))) {
-        switch (int4) {
-            case 1: {
-                IF_SETHIDE(true, comp(751, 14));
-                IF_SETHIDE(true, comp(1148, 14));
-                break;
-            }
-            case 3: {
-                IF_SETHIDE(true, comp(751, 12));
-                IF_SETHIDE(true, comp(1148, 12));
-                break;
-            }
-            case 5: {
-                IF_SETHIDE(true, comp(1148, 10));
-                break;
-            }
-            case 7: {
-                IF_SETHIDE(true, comp(1148, 8));
-                break;
-            }
+    if ((int9 == 1)) {
+        if ((MODULO(int4, 2) == 1)) {
+            switch (int4) {
+                case 1: {
+                    IF_SETHIDE(true, comp(751, 14));
+                    IF_SETHIDE(true, comp(1148, 14));
+                    break;
+                }
+                case 3: {
+                    IF_SETHIDE(true, comp(751, 12));
+                    IF_SETHIDE(true, comp(1148, 12));
+                    break;
+                }
+                case 5: {
+                    IF_SETHIDE(true, comp(1148, 10));
+                    break;
+                }
+                case 7: {
+                    IF_SETHIDE(true, comp(1148, 8));
+                    break;
+                }
+            };
+            CC_SETSIZE(5, 3, 1, 1);
+            CC_SETPOSITION(5, 0, 0, 1);
+            CC_SETTEXTALIGN(0, 1, 13);
+        } else {
+            IF_SETTEXT(string1, int2);
         };
-        CC_SETSIZE(5, 3, 1, 1);
-        CC_SETPOSITION(5, 0, 0, 1);
-        CC_SETTEXTALIGN(0, 1, 13);
     } else {
         IF_SETTEXT(string1, int2);
     };

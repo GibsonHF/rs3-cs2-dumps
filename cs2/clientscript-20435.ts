@@ -1,13 +1,13 @@
 //
 function script20435(): void {
-    var int0 = comp(1802, 256);
+    var int0 = 118096128;
     var int1 = 0;
     var string0 = "";
-    var int2 = -1 as graphic;
+    var int2 = -1;
     var int3 = 0;
     var int4 = 1;
     var string1 = "";
-    var int5 = -1 as stat;
+    var int5 = -1;
     var int6 = 0;
     var int7 = 17064;
     var int8 = 16777215;
@@ -15,16 +15,15 @@ function script20435(): void {
     var int10 = DB_LISTALL(343);
     var int11 = ((int10 / 3) + MIN(1, MODULO(int10, 3)));
     var int12 = ((36 * int11) + (8 * (int11 - 2)));
-    dbrow_findnext();
-    var int13 = stack();
+    var int13 = dbrow_findnext();
     IF_SETSIZE(492, int12, 0, 0, int0);
     script7925(int0, 0, 0, 0, 0, 0, 0, int12, 1, 0, 0, 3, int11, 8);
-    while ((int13 != -1 as dbrow)) {
+    while ((int13 != -1)) {
         int1 = 1;
         int5 = dbrow_getfield(int13, 1404944, 0);
         int6 = dbrow_getfield(int13, 1404960, 0);
         string0 = dbrow_getfield(int13, 1404928, 0);
-        int2 = enum_getvalue(0, 23, 745 as cs2enum, int6);
+        int2 = enum_getvalue(0, 23, 745, int6);
         [int4, int3, string1] = script20436(int13, string0);
         if ((int9 == 1)) {
             int7 = 17065;
@@ -47,18 +46,26 @@ function script20435(): void {
         };
         IF_CREATENESTED(0, int6, 0, 0, 0, int0);
         CC_SETSIZE(0, 0, 1, 1);
-        script7862(int6, int1++, 0, 0, 0, 0, 0, 0, 1, 1, int7, "", int4, 1, int4, int3);
+        stack(int6);
+        stack(int1);
+        int1 = (int1 + 1);
+        script7862(0, 0, 0, 0, 0, 0, 1, 1, int7, "", int4, 1, int4, int3);
         if ((STRING_LENGTH(string1) > 0)) {
             CC_SETONMOUSEREPEAT(callback(script8799, string1, -2147483645, -2147483643));
         };
         CC_SETONBUTTONCLICK(callback(script20437, int13, int6));
         CC_SETOP(1, `Select ${string0}`);
-        script7918(int6, int1++, 2, 0, 0, 1, 32, 32, 0, 0, int2);
-        script10485(int6, int1++, 4, 0, 2, 1, 40, 0, 1, 1, 2141, string0);
+        stack(int6);
+        stack(int1);
+        int1 = (int1 + 1);
+        script7918(2, 0, 0, 1, 32, 32, 0, 0, int2);
+        stack(int6);
+        stack(int1);
+        int1 = (int1 + 1);
+        script10485(4, 0, 2, 1, 40, 0, 1, 1, 2141, string0);
         CC_SETCOLOUR(int8);
         CC_SETTEXTALIGN(0, 1, 0);
-        dbrow_findnext();
-        int13 = stack();
+        int13 = dbrow_findnext();
     };
     IF_SETSCROLLSIZE(0, (int12 + 4), comp(1802, 255));
     script7791(118096131, 118096127);

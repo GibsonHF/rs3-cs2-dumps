@@ -6,7 +6,7 @@ function script18348(int0: number, int1: number): void {
         return;
     };
     IF_SETONTIMER(callback(), int1);
-    IF_SETMODELANIM(-1, int1);
-    IF_SETHIDE(1, int1);
+    IF_SETMODELANIM(-1 as seq, int1);
+    IF_SETHIDE(true, int1);
     return;
 }

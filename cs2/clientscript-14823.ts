@@ -13,12 +13,12 @@ function script14823(): void {
         return;
     };
     var int1 = 1;
-    var int2 = -1 as dbrow;
+    var int2 = -1;
     string0 = "No Active Research";
     var string1 = "";
     if ((varbitplayer_46466 > 0)) {
         int2 = script14650(int1);
-        if ((int2 != -1 as dbrow)) {
+        if ((int2 != -1)) {
             string0 = dbrow_getfield(int2, 368688, 0);
         };
         switch (script14649(int1)) {

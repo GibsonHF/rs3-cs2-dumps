@@ -7,7 +7,7 @@ function script16863(int0: number, int1: number, int2: number): void {
         CC_SETTEXT(string0);
         if ((script16848(int1) == 0)) {
             CC_SETONTIMER(callback());
-            if ((int2 != -1)) {
+            if ((int2 != comp(-1, 65535))) {
                 CC_DELETEALL(int2);
                 script7794(int2, 21362);
             };

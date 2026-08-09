@@ -18,17 +18,42 @@ function script7899(int0: number, int1: number, int2: number, int3: number): voi
         varclient_3493 = 1;
     };
     if ((CLIENTCLOCK() < int0)) {
-        if (((varclient_3482 != 1) && (varclient_3482 != 5))) {
-            varclient_3487 = (varclient_3487 + (int1 * int2));
-            if ((varclient_3487 > 2047)) {
-                varclient_3487 = (varclient_3487 - 2047);
-            } else if ((varclient_3487 < 0)) {
-                varclient_3487 = (2047 - (0 - varclient_3487));
+        if ((varclient_3482 != 1)) {
+            if ((varclient_3482 != 5)) {
+                varclient_3487 = (varclient_3487 + (int1 * int2));
+                if ((varclient_3487 > 2047)) {
+                    varclient_3487 = (varclient_3487 - 2047);
+                } else if ((varclient_3487 < 0)) {
+                    varclient_3487 = (2047 - (0 - varclient_3487));
+                };
+            } else {
+                varclient_6880 = MODULO(((2047 + varclient_6880) + (int1 * int2)), 2047);
+                if ((int2 == 1)) {
+                    if ((varclient_6880 > 512)) {
+                        if ((varclient_6880 < 1572)) {
+                            varclient_6880 = 512;
+                        } else if ((((int2 == -1) && (varclient_6880 > 512)) && (varclient_6880 < 1572))) {
+                            varclient_6880 = 1572;
+                        };
+                    } else if ((((int2 == -1) && (varclient_6880 > 512)) && (varclient_6880 < 1572))) {
+                        varclient_6880 = 1572;
+                    };
+                } else if ((((int2 == -1) && (varclient_6880 > 512)) && (varclient_6880 < 1572))) {
+                    varclient_6880 = 1572;
+                };
             };
         } else {
             varclient_6880 = MODULO(((2047 + varclient_6880) + (int1 * int2)), 2047);
-            if ((((int2 == 1) && (varclient_6880 > 512)) && (varclient_6880 < 1572))) {
-                varclient_6880 = 512;
+            if ((int2 == 1)) {
+                if ((varclient_6880 > 512)) {
+                    if ((varclient_6880 < 1572)) {
+                        varclient_6880 = 512;
+                    } else if ((((int2 == -1) && (varclient_6880 > 512)) && (varclient_6880 < 1572))) {
+                        varclient_6880 = 1572;
+                    };
+                } else if ((((int2 == -1) && (varclient_6880 > 512)) && (varclient_6880 < 1572))) {
+                    varclient_6880 = 1572;
+                };
             } else if ((((int2 == -1) && (varclient_6880 > 512)) && (varclient_6880 < 1572))) {
                 varclient_6880 = 1572;
             };
@@ -39,7 +64,7 @@ function script7899(int0: number, int1: number, int2: number, int3: number): voi
         if ((IF_GETHIDE(comp(1420, 47)) == false)) {
             IF_SETMODELANGLE(-70, 0, 0, varclient_6880, 0, 950, comp(1420, 47));
         };
-        IF_SETONTIMER(callback(script7899, int0, (int1 - int3), int2, int3), 93061131);
+        IF_SETONTIMER(callback(script7899, int0, (int1 - int3), int2, int3), comp(1420, 11));
     } else {
         switch (int3) {
             case 50: {
@@ -55,7 +80,7 @@ function script7899(int0: number, int1: number, int2: number, int3: number): voi
                 break;
             }
         };
-        IF_SETONTIMER(callback(script7899, (CLIENTCLOCK() + 10), (int1 - int3), int2, int3), 93061131);
+        IF_SETONTIMER(callback(script7899, (CLIENTCLOCK() + 10), (int1 - int3), int2, int3), comp(1420, 11));
     };
     return;
 }

@@ -37,10 +37,10 @@ function script18088(int0: number, int1: number, int2: number): void {
     script7852(80347204, 0, 0, 0, 0, 0, 0, 0, 1, 1, 7954, "Confirm");
     CC_SETOP(1, "Confirm");
     CC_SETONOP(callback(script18089));
-    CC_DELETEALL(80347205);
+    CC_DELETEALL(comp(1226, 69));
     script7852(80347205, int8, 0, 0, 0, 0, 0, 0, 1, 1, 7953, "Back");
     CC_SETOP(1, "Back");
     CC_SETONOP(callback(script18090));
-    IF_SETHIDE(0, 80347151);
+    IF_SETHIDE(false, comp(1226, 15));
     return;
 }

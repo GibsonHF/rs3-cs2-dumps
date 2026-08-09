@@ -1,9 +1,9 @@
 //
 function script19196(int0: number): void {
-    var int1 = -1 as dbrow;
-    var int2 = -1 as stat;
+    var int1 = -1;
+    var int2 = -1;
     var string0 = "";
-    var int3 = -1 as cursor;
+    var int3 = -1;
     var int4 = 84410381;
     var int5 = 84410380;
     switch (int0) {
@@ -30,7 +30,7 @@ function script19196(int0: number): void {
         IF_SETTEXT(string0, int5);
         IF_SETOP(1, string0, int4);
     };
-    if ((int3 != -1 as cursor)) {
+    if ((int3 != -1)) {
         IF_SETOPCURSOR(1, int3, int4);
     };
     return;

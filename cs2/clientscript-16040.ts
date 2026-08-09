@@ -8,7 +8,8 @@ function script16040(int0: number, int1: number): void {
     };
     script16045();
     var int5 = -1;
-    while ((++int5 < int3)) {
+    int5 = (int5 + 1);
+    while ((int5 < int3)) {
         script16046(int0, int2, int5, int1);
     };
     if ((script16041(int4) == 1)) {

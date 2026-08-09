@@ -41,7 +41,7 @@ function script9587(int0: number, int1: number, int2: number, int3: number, int4
     };
     var int8 = script5869(int1);
     var int9 = enum_getvalue(0, 23, 15585 as cs2enum, int8);
-    var int10 = -1 as obj;
+    var int10 = -1;
     var int11 = 0;
     if (((int5 != 2) && (int9 == -1 as graphic))) {
         [int10, int11] = script9642(int1, int2, int3);

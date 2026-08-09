@@ -29,6 +29,7 @@ function script755(int0: number): number {
             return 11930;
         }
         case 50652: {
+            break;
         }
         default: {
             return -1;

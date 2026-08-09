@@ -18,7 +18,10 @@ function script8507(int0: number, int1: number, int2: number, int3: number): num
         } else {
             [int4, int5, int6, int7, int8, int9, int10, int11, int12, int13, int14, int15] = script9910();
         };
+    } else if (((int2 == 1) || (int0 == 1019))) {
+        [int4, int5, int6, int7, int8, int9, int10, int11, int12, int13, int14, int15] = script8546(int0);
     } else {
+        [int4, int5, int6, int7, int8, int9, int10, int11, int12, int13, int14, int15] = script9910();
     };
     switch (int1) {
         case 120: {
@@ -73,14 +76,18 @@ function script8507(int0: number, int1: number, int2: number, int3: number): num
             return int4;
         }
         case 1: {
-            if (((varbitplayer_27169 == 0) && ((varbitplayer_38842 == 1) || (varbitplayer_60441 == 0)))) {
-                if ((int0 == 18)) {
+            if ((varbitplayer_27169 == 0)) {
+                if (((varbitplayer_38842 == 1) || (varbitplayer_60441 == 0))) {
+                    if ((int0 == 18)) {
+                        return 1;
+                    };
+                    return 0;
+                };
+            };
+            if ((int0 != 1019)) {
+                if (((varbitplayer_22846 == 2) || (varbitplayer_22846 == 0))) {
                     return 1;
                 };
-                return 0;
-            };
-            if (((int0 != 1019) && ((varbitplayer_22846 == 2) || (varbitplayer_22846 == 0)))) {
-                return 1;
             };
             return 0;
         }
@@ -108,10 +115,17 @@ function script8507(int0: number, int1: number, int2: number, int3: number): num
             return int8;
         }
         case 32: {
-            if (((varbitplayer_27169 == 0) && (((varbitplayer_38842 == 1) || (varbitplayer_60441 == 0)) && (int0 == 24)))) {
-                return int13;
+            if ((varbitplayer_27169 == 0)) {
+                if (((varbitplayer_38842 == 1) || (varbitplayer_60441 == 0))) {
+                    if ((int0 == 24)) {
+                        return int13;
+                    };
+                };
             };
             if ((varbitplayer_27169 == 1)) {
+                if (((varbitplayer_22846 == 14) && (int0 != 1019))) {
+                    return int13;
+                };
             } else if (((((varbitplayer_38842 == 0) && (varbitplayer_60441 == 1)) && (varbitplayer_22846 == 14)) && (int0 != 1019))) {
                 return int13;
             };
@@ -124,8 +138,12 @@ function script8507(int0: number, int1: number, int2: number, int3: number): num
         case 19:
         case 30:
         case 31: {
-            if (((varbitplayer_27169 == 0) && (((((varbitplayer_38842 == 1) || (varbitplayer_60441 == 0)) && (int0 == 18)) && (varbitplayer_22846 == 0)) && (varbitplayer_20187 == 1)))) {
-                return 0;
+            if ((varbitplayer_27169 == 0)) {
+                if (((varbitplayer_38842 == 1) || (varbitplayer_60441 == 0))) {
+                    if ((((int0 == 18) && (varbitplayer_22846 == 0)) && (varbitplayer_20187 == 1))) {
+                        return 0;
+                    };
+                };
             };
             return int8;
         }

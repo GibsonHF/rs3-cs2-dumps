@@ -15,8 +15,10 @@ function script10041(int0: number, int1: number, int2: number, int3: number, int
     if ((script20055() == 1)) {
         int5 = 51828;
     } else {
-        if (((script16823() == 1) && ((script10946() == 1) || (RANDOM(100) < 50)))) {
-            int5 = 25707;
+        if ((script16823() == 1)) {
+            if (((script10946() == 1) || (RANDOM(100) < 50))) {
+                int5 = 25707;
+            };
         };
         if ((script5751() == 1)) {
             int5 = 47068;
@@ -140,8 +142,13 @@ function script10041(int0: number, int1: number, int2: number, int3: number, int
                 string0 = "Treasure Hunter";
             };
             int6 = 1;
-            if (((PLATFORMTYPE() != 0) && (PLATFORMTYPE() != 5))) {
-                script13264(14, 1, int4);
+            if ((PLATFORMTYPE() != 0)) {
+                if ((PLATFORMTYPE() != 5)) {
+                    script13264(14, 1, int4);
+                } else {
+                    IF_SETOP(1, "Select", int0);
+                    IF_SETONOP(callback(script15228, 19), int0);
+                };
             } else {
                 IF_SETOP(1, "Select", int0);
                 IF_SETONOP(callback(script15228, 19), int0);

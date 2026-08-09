@@ -1,7 +1,7 @@
 //
 function script16448(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number): number {
     var int6 = -1;
-    var [int6, int1] = script14749(int0, 0, int1, int2, 0);
+    [int6, int1] = script14749(int0, 0, int1, int2, 0);
     var int7 = int1;
     var int8 = (((4 + 4) + (35 + 2)) + (2 * 4));
     var int9 = ((((int3 - (2 * 4)) - 4) - (35 + 2)) - (2 * 4));
@@ -26,9 +26,9 @@ function script16448(int0: number, int1: number, int2: number, int3: number, int
     };
     var int12 = (int1 - int7);
     int8 = (4 + 4);
-    var int13 = (((35 + 2) + 2) + enum_getvalue(25, 0, 8549 as cs2enum, 26 as fontmetrics));
+    var int13 = (((35 + 2) + 2) + enum_getvalue(25, 0, 8549, 26));
     int12 = MAX(int12, int13);
-    int1 = (int7 + ((((int12 - (35 + 2)) - enum_getvalue(25, 0, 8549 as cs2enum, 26 as fontmetrics)) - (2 * 2)) / 2));
+    int1 = (int7 + ((((int12 - (35 + 2)) - enum_getvalue(25, 0, 8549, 26)) - (2 * 2)) / 2));
     script14761(int0, int8, int1, 35, 26, struct_getparam(int4, 2212), int10);
     int1 = script14750(int0, int6, (int7 + int12), 0);
     return int1;

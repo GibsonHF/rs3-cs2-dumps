@@ -34,14 +34,20 @@ function script6034(): number {
                 break;
             }
         };
-        while (((int3 != 100) && (int6 == 0))) {
-            int5 = enum_getvalue(0, 0, 5034 as cs2enum, int3);
-            if ((int1 >= int5)) {
-                int4 = int3;
-            } else {
-                int6 = 1;
+        while ((int3 != 100)) {
+            if ((int6 == 0)) {
+                int5 = enum_getvalue(0, 0, 5034 as cs2enum, int3);
+                if ((int1 >= int5)) {
+                    int4 = int3;
+                } else {
+                    int6 = 1;
+                };
+                int3 = (int3 + 1);
             };
-            int3 = (int3 + 1);
+            int2 = (int2 + 1);
+            int0 = (int0 + int4);
+            [int4, int3] = [0, 1];
+            int6 = 0;
         };
         int2 = (int2 + 1);
         int0 = (int0 + int4);

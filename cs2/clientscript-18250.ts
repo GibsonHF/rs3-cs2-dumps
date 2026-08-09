@@ -75,14 +75,96 @@ function script18250(): void {
         };
         int6 = enum_getvalue(0, 73, int7, int1);
     };
-    if (((int1 == 1) && (int6 == script16319(1)))) {
-        int8 = 1;
-    } else if (((int1 == 2) && (int6 == script16319(2)))) {
-        int8 = 2;
-    } else if (((int1 == 3) && (int6 == script16319(3)))) {
-        int8 = 3;
-    } else if (((int1 == 4) && (int6 == script16319(4)))) {
-        int8 = 4;
+    if ((int1 == 1)) {
+        if ((int6 == script16319(1))) {
+            int8 = 1;
+        } else if ((int1 == 2)) {
+            if ((int6 == script16319(2))) {
+                int8 = 2;
+            } else if ((int1 == 3)) {
+                if ((int6 == script16319(3))) {
+                    int8 = 3;
+                } else if ((int1 == 4)) {
+                    if ((int6 == script16319(4))) {
+                        int8 = 4;
+                    } else if (((int1 == 5) && (int6 == script16319(5)))) {
+                        int8 = 5;
+                    };
+                } else if (((int1 == 5) && (int6 == script16319(5)))) {
+                    int8 = 5;
+                };
+            } else if ((int1 == 4)) {
+                if ((int6 == script16319(4))) {
+                    int8 = 4;
+                } else if (((int1 == 5) && (int6 == script16319(5)))) {
+                    int8 = 5;
+                };
+            } else if (((int1 == 5) && (int6 == script16319(5)))) {
+                int8 = 5;
+            };
+        } else if ((int1 == 3)) {
+            if ((int6 == script16319(3))) {
+                int8 = 3;
+            } else if ((int1 == 4)) {
+                if ((int6 == script16319(4))) {
+                    int8 = 4;
+                } else if (((int1 == 5) && (int6 == script16319(5)))) {
+                    int8 = 5;
+                };
+            } else if (((int1 == 5) && (int6 == script16319(5)))) {
+                int8 = 5;
+            };
+        } else if ((int1 == 4)) {
+            if ((int6 == script16319(4))) {
+                int8 = 4;
+            } else if (((int1 == 5) && (int6 == script16319(5)))) {
+                int8 = 5;
+            };
+        } else if (((int1 == 5) && (int6 == script16319(5)))) {
+            int8 = 5;
+        };
+    } else if ((int1 == 2)) {
+        if ((int6 == script16319(2))) {
+            int8 = 2;
+        } else if ((int1 == 3)) {
+            if ((int6 == script16319(3))) {
+                int8 = 3;
+            } else if ((int1 == 4)) {
+                if ((int6 == script16319(4))) {
+                    int8 = 4;
+                } else if (((int1 == 5) && (int6 == script16319(5)))) {
+                    int8 = 5;
+                };
+            } else if (((int1 == 5) && (int6 == script16319(5)))) {
+                int8 = 5;
+            };
+        } else if ((int1 == 4)) {
+            if ((int6 == script16319(4))) {
+                int8 = 4;
+            } else if (((int1 == 5) && (int6 == script16319(5)))) {
+                int8 = 5;
+            };
+        } else if (((int1 == 5) && (int6 == script16319(5)))) {
+            int8 = 5;
+        };
+    } else if ((int1 == 3)) {
+        if ((int6 == script16319(3))) {
+            int8 = 3;
+        } else if ((int1 == 4)) {
+            if ((int6 == script16319(4))) {
+                int8 = 4;
+            } else if (((int1 == 5) && (int6 == script16319(5)))) {
+                int8 = 5;
+            };
+        } else if (((int1 == 5) && (int6 == script16319(5)))) {
+            int8 = 5;
+        };
+    } else if ((int1 == 4)) {
+        if ((int6 == script16319(4))) {
+            int8 = 4;
+        } else if (((int1 == 5) && (int6 == script16319(5)))) {
+            int8 = 5;
+        };
     } else if (((int1 == 5) && (int6 == script16319(5)))) {
         int8 = 5;
     };

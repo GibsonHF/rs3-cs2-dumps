@@ -5,7 +5,7 @@ function script1765(int0: number): void {
         script8844(1, script8825(20, 1), 93192303, -1);
     } else {
         IF_SETONKEY(callback(), comp(1422, 0));
-        IF_SETOPKEY(1, 0, 0, 93192303);
+        IF_SETOPKEY(1, 0, 0, comp(1422, 111));
     };
     return;
 }

@@ -19,9 +19,17 @@ function script20169(int0: number, int1: number, int2: number, int3: number, int
         }
         case 11: {
             var int2 = varplayer_12351;
-            if ((((int2 >= 0) && (int2 < 60)) && (int2 != 10))) {
-                int7 = unk11018(WORLDMAP_LISTELEMENT_START(1368144, int2, 3, 0), WORLDMAP_LISTELEMENT_START(1368144, 0, 3, 0));
-                int6 = IF_SETPLAYERHEAD_SELF(int6, int7);
+            if ((int2 >= 0)) {
+                if ((int2 < 60)) {
+                    if ((int2 != 10)) {
+                        int7 = unk11018(WORLDMAP_LISTELEMENT_START(1368144, int2, 3, 0), WORLDMAP_LISTELEMENT_START(1368144, 0, 3, 0));
+                        int6 = IF_SETPLAYERHEAD_SELF(int6, int7);
+                    } else {
+                        int6 = IF_SETPLAYERHEAD_SELF(int6, WORLDMAP_LISTELEMENT_START(1368144, 0, 3, 0));
+                    };
+                } else {
+                    int6 = IF_SETPLAYERHEAD_SELF(int6, WORLDMAP_LISTELEMENT_START(1368144, 0, 3, 0));
+                };
             } else {
                 int6 = IF_SETPLAYERHEAD_SELF(int6, WORLDMAP_LISTELEMENT_START(1368144, 0, 3, 0));
             };

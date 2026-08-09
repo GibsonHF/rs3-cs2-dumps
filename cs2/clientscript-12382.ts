@@ -25,8 +25,8 @@ function script12382(int0: number, int1: number): void {
             };
         } else {
             IF_SETSIZE(int3, int4, 0, 0, comp(1746, 71));
-            IF_SETONTIMER(callback(script12383, 0, 30, int3, int4, 16), 114425927);
-            IF_SETHIDE(0, 114425925);
+            IF_SETONTIMER(callback(script12383, 0, 30, int3, int4, 16), comp(1746, 71));
+            IF_SETHIDE(false, comp(1746, 69));
             if ((int1 == 1)) {
                 varclient_5916 = (CLIENTCLOCK() + (30 * 30));
                 IF_SETONTIMER(callback(script12384, CLIENTCLOCK(), varclient_5916), comp(1746, 0));

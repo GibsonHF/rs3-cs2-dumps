@@ -12,7 +12,8 @@ function script7116(int0: number): number {
         if (((int1 != -1 as obj) && (OC_MEMBERS(int1) == 1))) {
             return 1;
         };
-        switch (++int2) {
+        int2 = (int2 + 1);
+        switch (int2) {
             case 2: {
                 int1 = item_getparam(int0, 2651);
                 break;
@@ -32,7 +33,8 @@ function script7116(int0: number): number {
         if (((int1 != -1 as obj) && (OC_MEMBERS(int1) == 1))) {
             return 1;
         };
-        switch (++int2) {
+        int2 = (int2 + 1);
+        switch (int2) {
             case 2: {
                 int1 = item_getparam(int0, 2656);
                 break;

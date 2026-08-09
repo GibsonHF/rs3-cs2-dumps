@@ -1,9 +1,9 @@
 //
 function script19117(int0: number): number {
-    var int1 = -1 as obj;
-    var int2 = -1 as obj;
+    var int1 = -1;
+    var int2 = -1;
     var int3 = -1;
-    var int4 = -1 as dbrow;
+    var int4 = -1;
     if ((int0 != -1 as dbrow)) {
         switch (dbrow_getfield(int0, 667744, 0)) {
             case 5: {
@@ -18,14 +18,12 @@ function script19117(int0: number): number {
                 if ((DB_GETFIELDCOUNT(int0, 667856) > 0)) {
                     int3 = dbrow_getfield(int0, 667856, 0);
                     unk11023(IF_SETPLAYERHEAD_SELF(WORLDMAP_LISTELEMENT_START(667856, int3, 3, 0), WORLDMAP_LISTELEMENT_START(667744, 5, 3, 0)), 667648, 1);
-                    dbrow_findnext();
-                    int4 = stack();
+                    int4 = dbrow_findnext();
                     if ((int4 != -1)) {
                         int1 = dbrow_getfield(int4, 667712, 0);
                     };
                     unk11023(IF_SETPLAYERHEAD_SELF(WORLDMAP_LISTELEMENT_START(667856, int3, 3, 0), WORLDMAP_LISTELEMENT_START(667744, 3, 3, 0)), 667648, 1);
-                    dbrow_findnext();
-                    int4 = stack();
+                    int4 = dbrow_findnext();
                     if ((int4 != -1)) {
                         int2 = dbrow_getfield(int4, 667712, 0);
                     };

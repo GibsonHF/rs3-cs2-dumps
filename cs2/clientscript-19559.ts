@@ -5,13 +5,13 @@ function script19559(): void {
     script19504();
     script19526();
     varclient_6711 = "";
-    varclient_6684 = false;
+    varclient_6684 = 0;
     if ((CC_FIND(comp(1313, 118), 14) == 1)) {
         CC_SETTEXT(`${varclient_8166} Storage`);
     };
     IF_SETONTIMER(callback(), comp(1313, 93));
-    IF_SETONTIMER(callback(), 86048863);
-    if (((varclient_2236 == 8) && (varclient_2235 == comp(1313, 96)))) {
+    IF_SETONTIMER(callback(), comp(1313, 95));
+    if (((varclient_2236 == 8) && (varclient_2235 == 86048864))) {
         script9(86048865, 86048866, 86048867, 86048869, "Search...");
         script8841(11, 0);
     };

@@ -7,8 +7,8 @@ function script7120(int0: number): number {
     var int5 = 0;
     var int6 = 0;
     var int7 = 0;
-    var int8 = -1 as obj;
-    var int9 = -1 as obj;
+    var int8 = -1;
+    var int9 = -1;
     var int10 = 0;
     var int11 = 0;
     var int12 = 0;
@@ -80,8 +80,16 @@ function script7120(int0: number): number {
                 if ((int10 == 0)) {
                     string0 = strconcat(string0, "<br>Requirements not met");
                 };
-                if ((((int11 == 0) && (item_getparam(int8, 5450) > 0)) && (INV_FREESPACE(93 as inv) == 0))) {
-                    string0 = strconcat(string0, "<br>No free space");
+                if ((int11 == 0)) {
+                    if ((item_getparam(int8, 5450) > 0)) {
+                        if ((INV_FREESPACE(93 as inv) == 0)) {
+                            string0 = strconcat(string0, "<br>No free space");
+                        } else {
+                            string0 = strconcat(string0, "<br>Ingredients missing");
+                        };
+                    } else {
+                        string0 = strconcat(string0, "<br>Ingredients missing");
+                    };
                 } else {
                     string0 = strconcat(string0, "<br>Ingredients missing");
                 };
@@ -91,8 +99,12 @@ function script7120(int0: number): number {
                     CC_SETGRAPHIC(push_array[1](2));
                 };
             };
-            if (((STRING_LENGTH(item_getparam(int8, 3859)) > 0) && (item_getparam(int8, 2989) != -1 as obj))) {
-                CC_SETONMOUSEREPEAT(callback(script3584, item_getparam(int8, 2989), item_getparam(int8, 2989), -1, -2147483645, -2147483643, 0, 1, string0));
+            if ((STRING_LENGTH(item_getparam(int8, 3859)) > 0)) {
+                if ((item_getparam(int8, 2989) != -1)) {
+                    CC_SETONMOUSEREPEAT(callback(script3584, item_getparam(int8, 2989), item_getparam(int8, 2989), -1, -2147483645, -2147483643, 0, 1, string0));
+                } else {
+                    CC_SETONMOUSEREPEAT(callback(script14193, string0, int8, -2147483645, -2147483643));
+                };
             } else {
                 CC_SETONMOUSEREPEAT(callback(script14193, string0, int8, -2147483645, -2147483643));
             };
@@ -105,7 +117,7 @@ function script7120(int0: number): number {
         } else {
             CC_SETPOSITION(((int7 + ((46 - 36) / 2)) + 2), (int6 + ((46 - 32) / 2)), 0, 0);
             CC_SETSIZE(36, 32, 0, 0);
-            if ((item_getparam(int8, 5491) != -1 as graphic)) {
+            if ((item_getparam(int8, 5491) != -1)) {
                 CC_SETSIZE(32, 32, 0, 0);
                 CC_SETGRAPHIC(item_getparam(int8, 5491));
             } else if ((item_getparam(int8, 2653) > 1)) {
@@ -115,7 +127,11 @@ function script7120(int0: number): number {
             } else {
                 CC_SETOBJECT_NONUM(int9, -1);
             };
-            if (((((MAP_MEMBERS() == 0) && (script7116(int8) == 1)) || (int10 == 0)) || (int11 == 0))) {
+            if ((MAP_MEMBERS() == 0)) {
+                if ((((script7116(int8) == 1) || (int10 == 0)) || (int11 == 0))) {
+                    CC_SETTRANS(175);
+                };
+            } else if (((int10 == 0) || (int11 == 0))) {
                 CC_SETTRANS(175);
             };
         };
@@ -126,8 +142,12 @@ function script7120(int0: number): number {
         } else {
             CC_SETPOSITION(((int7 + 46) - 18), ((int6 + 46) - 18), 0, 0);
             CC_SETSIZE(18, 18, 0, 0);
-            if (((MAP_MEMBERS() == 0) && (script7116(int8) == 1))) {
-                CC_SETGRAPHIC(13164 as graphic);
+            if ((MAP_MEMBERS() == 0)) {
+                if ((script7116(int8) == 1)) {
+                    CC_SETGRAPHIC(13164 as graphic);
+                } else if ((int10 == 0)) {
+                    CC_SETGRAPHIC(13163 as graphic);
+                };
             } else if ((int10 == 0)) {
                 CC_SETGRAPHIC(13163 as graphic);
             };

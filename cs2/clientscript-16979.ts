@@ -1,6 +1,6 @@
 //
 function script16979(int0: number, int1: number): void {
-    var int2 = -1 as obj;
+    var int2 = -1;
     var int3 = 0;
     var int4 = 0;
     if ((dbrow_getfield(int0, 843792, 0) == 2)) {

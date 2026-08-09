@@ -1,25 +1,25 @@
 //
 function script1167(): void {
-    var int0 = -1 as cs2enum;
+    var int0 = -1;
     switch (varclient_1001) {
         case 1: {
-            int0 = 738 as cs2enum;
+            int0 = 738;
             break;
         }
         case 2: {
-            int0 = 739 as cs2enum;
+            int0 = 739;
             break;
         }
         case 3: {
-            int0 = 740 as cs2enum;
+            int0 = 740;
             break;
         }
         case 4: {
-            int0 = 741 as cs2enum;
+            int0 = 741;
             break;
         }
         case 5: {
-            int0 = 742 as cs2enum;
+            int0 = 742;
             break;
         }
         default: {
@@ -35,9 +35,9 @@ function script1167(): void {
     var int6 = 5;
     var int7 = ENUM_GETOUTPUTCOUNT(int0);
     var int8 = 5;
-    var int9 = -1 as obj;
+    var int9 = -1;
     var int10 = 85;
-    var int11 = comp(-1, 65535);
+    var int11 = -1;
     var int12 = 0;
     if ((varclient_1001 == 5)) {
         int8 = 4;
@@ -48,8 +48,8 @@ function script1167(): void {
     CC_DELETEALL(comp(885, 0));
     while ((int1 < int7)) {
         int9 = enum_getvalue(0, 33, int0, int1);
-        int11 = enum_getvalue(0, 9, 737 as cs2enum, int1);
-        if (((int9 != -1 as obj) && (int11 != comp(-1, 65535)))) {
+        int11 = enum_getvalue(0, 9, 737, int1);
+        if (((int9 != -1) && (int11 != -1))) {
             IF_SETHIDE(false, int11);
             IF_SETSIZE(int10, int10, 0, 0, int11);
             IF_SETPOSITION((int3 + ((int10 + int3) * MODULO(int1, int8))), (int4 + ((int1 / int8) * (int10 + int4))), 0, 0, int11);
@@ -59,11 +59,11 @@ function script1167(): void {
             CC_SETPOSITION((int5 + IF_GETX(int11)), (int6 + IF_GETY(int11)), 0, 0);
             CC_SETOP(1, "Examine");
             CC_SETOPBASE(`<col=ff9040>${script18300(int9)}`);
-            CC_CREATE(57999360, 4, (int2 + 1));
+            CC_CREATE(comp(885, 0), 4, (int2 + 1));
             CC_SETSIZE(IF_GETWIDTH(int11), (IF_GETWIDTH(int11) - 5), 0, 0);
-            CC_SETTEXTFONT(26);
+            CC_SETTEXTFONT(26 as fontmetrics);
             CC_SETCOLOUR(13408512);
-            CC_SETTEXTSHADOW(1);
+            CC_SETTEXTSHADOW(true);
             CC_SETTEXTALIGN(1, 2, 0);
             if ((strcmp(CC_GETTEXT(), "") == 0)) {
                 CC_SETTEXT("Getting data...");
@@ -75,7 +75,7 @@ function script1167(): void {
         int1 = (int1 + 1);
     };
     while ((int1 < ENUM_GETOUTPUTCOUNT(737 as cs2enum))) {
-        IF_SETHIDE(true, enum_getvalue(0, 9, 737 as cs2enum, int1));
+        IF_SETHIDE(true, enum_getvalue(0, 9, 737, int1));
         int1 = (int1 + 1);
     };
     if ((int12 < IF_GETHEIGHT(comp(885, 0)))) {

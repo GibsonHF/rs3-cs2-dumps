@@ -1,6 +1,6 @@
 //
 function script19299(int0: number): void {
-    var int1 = -1;
+    var int1 = -1 as obj;
     var int2 = 0;
     var int3 = 1;
     [int1, int2, int3] = script19216(int0);
@@ -14,6 +14,6 @@ function script19299(int0: number): void {
     script10485(int0, 5, 0, 24, 1, 2, 34, 40, 1, 0, 2100, `${inttostring(int2, 10)} x ${OC_NAME(int1)}`);
     CC_SETTEXTALIGN(1, 0, 0);
     CC_SETCOLOUR(16777215);
-    CC_SETTEXTSHADOW(1);
+    CC_SETTEXTSHADOW(true);
     return;
 }

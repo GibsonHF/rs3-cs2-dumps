@@ -1,5 +1,5 @@
 //
-function script9784(int0: number): [string, string, number] {
+function script9784(int0: number): [number, string, string] {
     var int0 = script15861(int0);
     if ((int0 == -1)) {
         return ["", "", 1];

@@ -1,7 +1,7 @@
 //
 function script20491(int0: number): number {
     if (((int0 == -1 as dbrow) || (DB_GETROWTABLE(int0) != 344))) {
-        return 206 as fontmetrics;
+        return 206;
     };
     var int1 = varbitplayer_22875;
     if ((DB_GETFIELDCOUNT(int0, 1409024) <= int1)) {

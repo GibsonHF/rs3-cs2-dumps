@@ -10,8 +10,8 @@ function script16808(int0: number, int1: number): void {
     var int3 = dbrow_getfield(int0, 806944, 0);
     var string0 = "";
     var string1 = "null";
-    var int4 = -1 as graphic;
-    var int5 = comp(-1, 65535);
+    var int4 = -1;
+    var int5 = -1;
     if (((int1 == 1) && (int3 == 1))) {
         string0 = dbrow_getfield(int0, 807040, 0);
     };

@@ -1,12 +1,11 @@
 //[clientscript,stockmarket_onload]
 function script585(): void {
     IF_SETONVARTRANSMIT(callback(script588, 135, 1), comp(105, 130));
-    stack(586);
-    stack("");
+    stack(callback(script586));
     stack(6881281);
     IF_SETONSTOCKTRANSMIT();
-    IF_SETONVARTRANSMIT(callback(script11743, 429, 431, 2), 6881404);
-    IF_SETONINVTRANSMIT(callback(script11743, 540, 1), 6881404);
+    IF_SETONVARTRANSMIT(callback(script11743, 429, 431, 2), comp(105, 124));
+    IF_SETONINVTRANSMIT(callback(script11743, 540, 1), comp(105, 124));
     script8841(82, 1);
     if ((MAP_LANG() == 1)) {
         script15026();

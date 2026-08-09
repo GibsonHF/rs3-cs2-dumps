@@ -8,7 +8,7 @@ function script15976(int0: number, int1: number, int2: number): void {
     if ((int4 >= int3)) {
         int7 = 14659 as graphic;
         IF_SETONTIMER(callback(), int0);
-        IF_SETHIDE(1, int0);
+        IF_SETHIDE(true, int0);
         IF_SETFILL(1, int6);
         IF_SETONTIMER(callback(script6299, int6, -1, 1, CLIENTCLOCK()), int6);
     } else {

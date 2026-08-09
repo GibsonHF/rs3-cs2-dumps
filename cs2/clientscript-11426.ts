@@ -1,6 +1,6 @@
 //
 function script11426(int0: number, int1: number, int2: number): void {
-    var int3 = comp(-1, 65535);
+    var int3 = -1;
     if ((int1 == comp(-1, 65535))) {
         return;
     };
@@ -29,7 +29,7 @@ function script11426(int0: number, int1: number, int2: number): void {
             };
             cc_setparam[1](8103, int1);
             cc_setparam[1](8105, int3);
-            if ((int3 == comp(-1, 65535))) {
+            if ((int3 == -1)) {
                 return;
             };
             if ((IF_FIND(int3) == 1)) {

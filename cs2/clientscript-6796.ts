@@ -47,8 +47,10 @@ function script6796(int0: number, int1: number, int2: number, int3: number, int4
         };
     } else if ((int5 == 5)) {
         int8 = script14346(94, 3);
-        if (((int8 != -1 as obj) && ((int7 == 3) || (OC_WEARPOS2(int8) == 5)))) {
-            int9 = 3;
+        if ((int8 != -1 as obj)) {
+            if (((int7 == 3) || (OC_WEARPOS2(int8) == 5))) {
+                int9 = 3;
+            };
         };
     } else if (((int5 == 4) && (int0 == 284 as obj))) {
         int8 = script14346(94, 9);
@@ -68,10 +70,15 @@ function script6796(int0: number, int1: number, int2: number, int3: number, int4
         int12 = script6797(int8, int10);
     };
     var int14 = (int11 + int12);
-    if ((((int14 > 0) && (int4 == 0)) && (((int3 - int1) == 0) || (script3802(int0) == 1)))) {
-        int14 = (int14 - 1);
+    if (((int14 > 0) && (int4 == 0))) {
+        if ((((int3 - int1) == 0) || (script3802(int0) == 1))) {
+            int14 = (int14 - 1);
+        };
     };
-    if ((((int11 == -1) || (int12 == -1)) || ((int14 > 0) && (script5774() < int14)))) {
+    if (((int11 == -1) || (int12 == -1))) {
+        script14152("You do not have enough bank space to store the items which would be unequipped.");
+        return [3, int1];
+    } else if (((int14 > 0) && (script5774() < int14))) {
         script14152("You do not have enough bank space to store the items which would be unequipped.");
         return [3, int1];
     };
@@ -84,18 +91,30 @@ function script6796(int0: number, int1: number, int2: number, int3: number, int4
             return [6, int1];
         };
         varbitplayer_45912 = 1;
-        if ((((int6 != -1 as obj) && (int11 == 0)) && (int12 == 1))) {
-            int15 = script2294(94, int6, int13, int5);
-            if ((script14344(int2) != int0)) {
-                return [6, int1];
-            };
-            if ((int15 != 0)) {
-                if ((script5786(int2, 94, int5, int9, int4) == 1)) {
-                    varbitplayer_45912 = 0;
-                    return [5, int1];
+        if ((int6 != -1 as obj)) {
+            if ((int11 == 0)) {
+                if ((int12 == 1)) {
+                    int15 = script2294(94, int6, int13, int5);
+                    if ((script14344(int2) != int0)) {
+                        return [6, int1];
+                    };
+                    if ((int15 != 0)) {
+                        if ((script5786(int2, 94, int5, int9, int4) == 1)) {
+                            varbitplayer_45912 = 0;
+                            return [5, int1];
+                        };
+                        varbitplayer_45912 = 0;
+                        return [6, int1];
+                    };
+                } else if ((script3802(int8) == 1)) {
+                    int15 = script2347(int8, OC_UNCERT(int8), script14340(int8, 0, script14337()), script14347(94, int9), (int2 + 1), script5798(int2), 94, int9, 1, 1);
+                } else {
+                    int15 = script2347(int8, OC_UNCERT(int8), script14342(int8, 0, 1), script14347(94, int9), (int2 + 1), script5798(int2), 94, int9, 1, 1);
                 };
-                varbitplayer_45912 = 0;
-                return [6, int1];
+            } else if ((script3802(int8) == 1)) {
+                int15 = script2347(int8, OC_UNCERT(int8), script14340(int8, 0, script14337()), script14347(94, int9), (int2 + 1), script5798(int2), 94, int9, 1, 1);
+            } else {
+                int15 = script2347(int8, OC_UNCERT(int8), script14342(int8, 0, 1), script14347(94, int9), (int2 + 1), script5798(int2), 94, int9, 1, 1);
             };
         } else if ((script3802(int8) == 1)) {
             int15 = script2347(int8, OC_UNCERT(int8), script14340(int8, 0, script14337()), script14347(94, int9), (int2 + 1), script5798(int2), 94, int9, 1, 1);
@@ -107,23 +126,25 @@ function script6796(int0: number, int1: number, int2: number, int3: number, int4
             return [4, int1];
         };
     };
-    if (((int6 != -1 as obj) && ((int6 != int0) || (script3802(int6) == 1)))) {
-        if ((((int3 - int1) > 0) && (int14 == 0))) {
-            varbitplayer_45912 = 1;
-            int15 = script2294(94, int6, int13, int5);
-            varbitplayer_45912 = 0;
-            if ((int15 == 0)) {
-                return [4, int1];
+    if ((int6 != -1 as obj)) {
+        if (((int6 != int0) || (script3802(int6) == 1))) {
+            if ((((int3 - int1) > 0) && (int14 == 0))) {
+                varbitplayer_45912 = 1;
+                int15 = script2294(94, int6, int13, int5);
+                varbitplayer_45912 = 0;
+                if ((int15 == 0)) {
+                    return [4, int1];
+                };
+                return [0, int1];
             };
-            return [0, int1];
-        };
-        if ((script14344(int2) != int0)) {
+            if ((script14344(int2) != int0)) {
+                return [6, int1];
+            };
+            if ((script5786(int2, 94, int5, int5, int4) == 1)) {
+                return [5, int1];
+            };
             return [6, int1];
         };
-        if ((script5786(int2, 94, int5, int5, int4) == 1)) {
-            return [5, int1];
-        };
-        return [6, int1];
     };
     return [0, int1];
 }

@@ -25,13 +25,13 @@ function script3064(int0: number): void {
     if ((int0 == true)) {
         IF_SETOP(1, "Play Now", comp(906, 81));
         IF_SETONOP(callback(script3061, -2147483645), comp(906, 81));
-        IF_SETCOLOUR(16777215, 59375693);
-        IF_SETCOLOUR(16777215, 59375692);
+        IF_SETCOLOUR(16777215, comp(906, 77));
+        IF_SETCOLOUR(16777215, comp(906, 76));
     } else {
         IF_CLEAROPS(comp(906, 81));
         IF_SETONOP(callback(), comp(906, 81));
-        IF_SETCOLOUR(8224125, 59375693);
-        IF_SETCOLOUR(8224125, 59375692);
+        IF_SETCOLOUR(8224125, comp(906, 77));
+        IF_SETCOLOUR(8224125, comp(906, 76));
     };
     script3065(int0);
     return;

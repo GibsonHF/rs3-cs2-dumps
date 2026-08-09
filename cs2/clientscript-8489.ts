@@ -139,7 +139,25 @@ function script8489(int0: number, int1: number, int2: number, int3: number, int4
                     int37 = 14835 as graphic;
                     int38 = 14836;
                 };
-            } else if ((((int11 == 1) && (script10782(int36) >= 99)) || ((int11 == 0) && (STAT_BASE_ACTUAL(int36) >= 99)))) {
+            } else if ((int11 == 1)) {
+                if ((script10782(int36) >= 99)) {
+                    if ((enum_hasoutput(17, 10327 as cs2enum, int36) == 1)) {
+                        int37 = 26550 as graphic;
+                        int38 = 26551;
+                    } else {
+                        int37 = 14833 as graphic;
+                        int38 = 14834;
+                    };
+                } else if (((int11 == 0) && (STAT_BASE_ACTUAL(int36) >= 99))) {
+                    if ((enum_hasoutput(17, 10327 as cs2enum, int36) == 1)) {
+                        int37 = 26550 as graphic;
+                        int38 = 26551;
+                    } else {
+                        int37 = 14833 as graphic;
+                        int38 = 14834;
+                    };
+                };
+            } else if (((int11 == 0) && (STAT_BASE_ACTUAL(int36) >= 99))) {
                 if ((enum_hasoutput(17, 10327 as cs2enum, int36) == 1)) {
                     int37 = 26550 as graphic;
                     int38 = 26551;

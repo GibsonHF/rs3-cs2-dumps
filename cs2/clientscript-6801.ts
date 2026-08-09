@@ -21,7 +21,7 @@ function script6801(int0: number, int1: number, int2: number, int3: number): voi
         string0 = "The amount of resources you will generate per hour";
         CC_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643));
         CC_CREATE(int0, 5, IF_GETNEXTSUBID(int0));
-        CC_SETGRAPHIC(967);
+        CC_SETGRAPHIC(967 as graphic);
         CC_SETSIZE(54, 54, 0, 0);
         CC_SETPOSITION((int6 + 23), 34, 0, 0);
         int4 = IF_GETNEXTSUBID(int3);
@@ -32,7 +32,7 @@ function script6801(int0: number, int1: number, int2: number, int3: number): voi
         CC_CREATE(int3, 4, int4);
         CC_SETSIZE(100, 24, 0, 0);
         CC_SETPOSITION(int6, 67, 0, 0);
-        CC_SETTEXTFONT(31);
+        CC_SETTEXTFONT(31 as fontmetrics);
         CC_SETTEXTALIGN(1, 1, 0);
         CC_SETTEXT(inttostring(script5844(int5), 10));
         CC_SETCOLOUR(16777215);

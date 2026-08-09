@@ -2,10 +2,7 @@
 function script4454(int0: number, int1: number, int2: number, int3: number, int4: number): void {
     if ((ACTIVECLANCHANNEL_FIND_LISTENED() == 1)) {
         IF_SETONTIMER(callback(), int1);
-        stack(4443);
-        stack(-1);
-        stack(int3);
-        stack("ii");
+        stack(callback(script4443, -1, int3));
         stack(int1);
         IF_SETONPLAYERGROUPTRANSMIT();
         IF_SETONCLANCHANNELTRANSMIT(callback(script4443, -1, int3), int1);

@@ -4,11 +4,12 @@ function script19068(int0: number): number {
         return 0;
     };
     var int1 = DB_GETFIELDCOUNT(int0, 1187904);
-    var int2 = -1 as obj;
+    var int2 = -1;
     var int3 = -1 as struct;
     var int4 = -1;
     if ((int1 > 0)) {
-        while ((++int4 < int1)) {
+        int4 = (int4 + 1);
+        while ((int4 < int1)) {
             int2 = dbrow_getfield(int0, 1187904, int4);
             int3 = item_getparam(int2, 4414);
             if ((script6488(int3) == 0)) {

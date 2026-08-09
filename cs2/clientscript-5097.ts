@@ -44,7 +44,7 @@ function script5097(): void {
         case 4: {
             IF_SETTEXT("And the winner is:", comp(1113, 4));
             if ((STRING_LENGTH(varclient_2537) > 0)) {
-                IF_SETTEXT(varclient_2537, comp(1113, 6));
+                IF_SETTEXT(varclient_2537, 72941574);
             } else {
                 IF_SETTEXT("... missing!", comp(1113, 6));
             };

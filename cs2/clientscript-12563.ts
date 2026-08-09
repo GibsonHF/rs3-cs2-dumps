@@ -73,11 +73,11 @@ function script12563(int0: number): void {
     IF_SETHIDE(true, comp(1216, 15));
     IF_SETHIDE(false, comp(1216, 3));
     IF_SETMODEL(32143 as model, comp(1216, 2));
-    IF_SETONTIMER(callback(script3336, (CLIENTCLOCK() + 100), (CLIENTCLOCK() + 200), (CLIENTCLOCK() + 500), varclient_1756), 79691776);
-    IF_SETHIDE(0, 79691781);
-    IF_SETHIDE(1, 79495169);
+    IF_SETONTIMER(callback(script3336, (CLIENTCLOCK() + 100), (CLIENTCLOCK() + 200), (CLIENTCLOCK() + 500), varclient_1756), comp(1216, 0));
+    IF_SETHIDE(false, comp(1216, 5));
+    IF_SETHIDE(true, comp(1213, 1));
     var int4 = RANDOM(150);
     var int5 = RANDOM(50);
-    IF_SETONTIMER(callback(script337, int1, (CLIENTCLOCK() + 25)), 79691783);
+    IF_SETONTIMER(callback(script337, int1, (CLIENTCLOCK() + 25)), comp(1216, 7));
     return;
 }

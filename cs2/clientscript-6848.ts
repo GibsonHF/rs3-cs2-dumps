@@ -12,15 +12,76 @@ function script6848(int0: number): void {
     if ((int2 == int1)) {
         return;
     };
-    if ((((varbitplayer_9429 == 35) && (int1 == 4)) || (((varbitplayer_9429 == 57) && (int1 == 7)) || (((varbitplayer_9429 == 67) && (int1 == 10)) || ((varbitplayer_9429 == 92) && (int1 == 13)))))) {
+    if ((varbitplayer_9429 == 35)) {
+        if ((int1 == 4)) {
+            printmessage("The sundial's gnomon feels like it's locked in place.");
+            return;
+        } else if ((varbitplayer_9429 == 57)) {
+            if ((int1 == 7)) {
+                printmessage("The sundial's gnomon feels like it's locked in place.");
+                return;
+            } else if ((varbitplayer_9429 == 67)) {
+                if ((int1 == 10)) {
+                    printmessage("The sundial's gnomon feels like it's locked in place.");
+                    return;
+                } else if (((varbitplayer_9429 == 92) && (int1 == 13))) {
+                    printmessage("The sundial's gnomon feels like it's locked in place.");
+                    return;
+                };
+            } else if (((varbitplayer_9429 == 92) && (int1 == 13))) {
+                printmessage("The sundial's gnomon feels like it's locked in place.");
+                return;
+            };
+        } else if ((varbitplayer_9429 == 67)) {
+            if ((int1 == 10)) {
+                printmessage("The sundial's gnomon feels like it's locked in place.");
+                return;
+            } else if (((varbitplayer_9429 == 92) && (int1 == 13))) {
+                printmessage("The sundial's gnomon feels like it's locked in place.");
+                return;
+            };
+        } else if (((varbitplayer_9429 == 92) && (int1 == 13))) {
+            printmessage("The sundial's gnomon feels like it's locked in place.");
+            return;
+        };
+    } else if ((varbitplayer_9429 == 57)) {
+        if ((int1 == 7)) {
+            printmessage("The sundial's gnomon feels like it's locked in place.");
+            return;
+        } else if ((varbitplayer_9429 == 67)) {
+            if ((int1 == 10)) {
+                printmessage("The sundial's gnomon feels like it's locked in place.");
+                return;
+            } else if (((varbitplayer_9429 == 92) && (int1 == 13))) {
+                printmessage("The sundial's gnomon feels like it's locked in place.");
+                return;
+            };
+        } else if (((varbitplayer_9429 == 92) && (int1 == 13))) {
+            printmessage("The sundial's gnomon feels like it's locked in place.");
+            return;
+        };
+    } else if ((varbitplayer_9429 == 67)) {
+        if ((int1 == 10)) {
+            printmessage("The sundial's gnomon feels like it's locked in place.");
+            return;
+        } else if (((varbitplayer_9429 == 92) && (int1 == 13))) {
+            printmessage("The sundial's gnomon feels like it's locked in place.");
+            return;
+        };
+    } else if (((varbitplayer_9429 == 92) && (int1 == 13))) {
         printmessage("The sundial's gnomon feels like it's locked in place.");
         return;
     };
     script6843();
     if ((int1 == 0)) {
-        if (((int2 >= 1) && (int2 <= 8))) {
-            IF_SET2DANGLE(30583, comp(1354, 35));
-            int1 = 8;
+        if ((int2 >= 1)) {
+            if ((int2 <= 8)) {
+                IF_SET2DANGLE(30583, comp(1354, 35));
+                int1 = 8;
+            } else {
+                IF_SET2DANGLE(34588, comp(1354, 35));
+                int1 = 9;
+            };
         } else {
             IF_SET2DANGLE(34588, comp(1354, 35));
             int1 = 9;
@@ -42,6 +103,6 @@ function script6848(int0: number): void {
         script6853(int2);
         return;
     };
-    IF_SETONTIMER(callback(script6851, CLIENTCLOCK(), int1, int2, int3), 88735779);
+    IF_SETONTIMER(callback(script6851, CLIENTCLOCK(), int1, int2, int3), comp(1354, 35));
     return;
 }

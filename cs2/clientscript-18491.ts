@@ -1,5 +1,5 @@
 //
-function script18491(int0: number, int1: number, int2: number): BigInt {
+function script18491(int0: number, int1: number, int2: number): bigint {
     var long0 = 0n;
     if ((int2 == 1)) {
         long0 = INT_TO_LONG(INV_TOTAL(93 as inv, int0));

@@ -60,10 +60,22 @@ function script7123(): void {
         };
         IF_SETSIZE(36, 32, 0, 0, comp(1370, 12));
     };
-    if (((STRING_LENGTH(item_getparam(int0, 3859)) > 0) && (item_getparam(int0, 2989) != -1 as obj))) {
-        IF_SETONMOUSEREPEAT(callback(script3584, item_getparam(int0, 2989), item_getparam(int0, 2989), -1, -2147483645, -2147483643, 0, 1, ""), 89784325);
+    if ((STRING_LENGTH(item_getparam(int0, 3859)) > 0)) {
+        if ((item_getparam(int0, 2989) != -1)) {
+            stack(3584);
+            stack(item_getparam(int0, 2989));
+            stack(item_getparam(int0, 2989));
+            stack(-1);
+            stack(-2147483645);
+            stack(-2147483643);
+            stack(0);
+            stack(callback(script1));
+            IF_SETONMOUSEREPEAT("iiiiiiis", 89784325);
+        } else {
+            IF_SETONMOUSEREPEAT(callback(script14194, int0, -2147483645, -2147483643), comp(1370, 5));
+        };
     } else {
-        IF_SETONMOUSEREPEAT(callback(script14194, int0, -2147483645, -2147483643), 89784325);
+        IF_SETONMOUSEREPEAT(callback(script14194, int0, -2147483645, -2147483643), comp(1370, 5));
     };
     var int3 = script7124(89784333, int0, script18374(int0));
     script7126(89784336, int0);

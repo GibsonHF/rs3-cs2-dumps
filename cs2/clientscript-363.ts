@@ -25,19 +25,67 @@ function script363(int0: number, int1: number): void {
         script13993(5898385, -1, 28556, "");
     };
     var int2 = 0;
-    if (((int1 == 1) && (varclient_6489 == 0))) {
-        int2 = 1;
-        varclient_6489 = 1;
+    if ((int1 == 1)) {
+        if ((varclient_6489 == 0)) {
+            int2 = 1;
+            varclient_6489 = 1;
+        } else if ((int1 == 1)) {
+            varclient_6489 = 0;
+        } else if ((int1 == 2)) {
+            if ((varclient_6490 == 0)) {
+                int2 = 1;
+                varclient_6490 = 1;
+            } else if ((int1 == 2)) {
+                varclient_6490 = 0;
+            } else if ((int1 == 3)) {
+                if ((varclient_6491 == 0)) {
+                    int2 = 1;
+                    varclient_6491 = 1;
+                } else {
+                    varclient_6491 = 0;
+                };
+            } else {
+                varclient_6491 = 0;
+            };
+        } else if ((int1 == 2)) {
+            varclient_6490 = 0;
+        } else if ((int1 == 3)) {
+            if ((varclient_6491 == 0)) {
+                int2 = 1;
+                varclient_6491 = 1;
+            } else {
+                varclient_6491 = 0;
+            };
+        } else {
+            varclient_6491 = 0;
+        };
     } else if ((int1 == 1)) {
         varclient_6489 = 0;
-    } else if (((int1 == 2) && (varclient_6490 == 0))) {
-        int2 = 1;
-        varclient_6490 = 1;
+    } else if ((int1 == 2)) {
+        if ((varclient_6490 == 0)) {
+            int2 = 1;
+            varclient_6490 = 1;
+        } else if ((int1 == 2)) {
+            varclient_6490 = 0;
+        } else if ((int1 == 3)) {
+            if ((varclient_6491 == 0)) {
+                int2 = 1;
+                varclient_6491 = 1;
+            } else {
+                varclient_6491 = 0;
+            };
+        } else {
+            varclient_6491 = 0;
+        };
     } else if ((int1 == 2)) {
         varclient_6490 = 0;
-    } else if (((int1 == 3) && (varclient_6491 == 0))) {
-        int2 = 1;
-        varclient_6491 = 1;
+    } else if ((int1 == 3)) {
+        if ((varclient_6491 == 0)) {
+            int2 = 1;
+            varclient_6491 = 1;
+        } else {
+            varclient_6491 = 0;
+        };
     } else {
         varclient_6491 = 0;
     };

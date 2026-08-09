@@ -11,7 +11,7 @@ function script16898(int0: number, int1: number): void {
             break;
         }
         case 2: {
-            var [int1, int2, int3] = script13265(int1);
+            [int1, int2, int3] = script13265(int1);
             if ((int2 != -1)) {
                 script14994(-1, -1, -1, int2, int3, 0);
             } else {
@@ -22,8 +22,15 @@ function script16898(int0: number, int1: number): void {
         }
         case 3: {
             [int1, int2, int3] = script13265(int1);
-            if (((int2 != -1) && (int2 != int1))) {
-                script14994(-1, -1, -1, int2, int3, 1);
+            if ((int2 != -1)) {
+                if ((int2 != int1)) {
+                    script14994(-1, -1, -1, int2, int3, 1);
+                } else if (((int2 != -1) || (int1 != -1))) {
+                    script14994(-1, -1, -1, int2, int3, 0);
+                } else {
+                    script14994(-1, -1, -1, -1, -1, 0);
+                    CC_SETONMOUSEREPEAT(callback());
+                };
             } else if (((int2 != -1) || (int1 != -1))) {
                 script14994(-1, -1, -1, int2, int3, 0);
             } else {
@@ -33,7 +40,7 @@ function script16898(int0: number, int1: number): void {
             break;
         }
         default: {
-            script14990(0, "");
+            script14990(callback(script0));
             CC_SETONMOUSEREPEAT(callback());
             break;
         }

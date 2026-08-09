@@ -27,7 +27,7 @@ function script13342(int0: number, int1: number): void {
     var int9 = 0;
     var int10 = 0;
     var int11 = 0;
-    var int12 = -1 as struct;
+    var int12 = -1;
     switch (int3) {
         case 0: {
             int10 = ENUM_GETOUTPUTCOUNT(int2);
@@ -89,12 +89,16 @@ function script13342(int0: number, int1: number): void {
                         } else {
                             string0 = enum_getvalue(0, 36, int2, int9);
                         };
-                    } else if (((struct_getparam(int1, 3646) == 1) && (TESTBIT(int7, int9) == 0))) {
-                        string0 = "???";
+                    } else if ((struct_getparam(int1, 3646) == 1)) {
+                        if ((TESTBIT(int7, int9) == 0)) {
+                            string0 = "???";
+                        } else {
+                            string0 = enum_getvalue(0, 36, int2, int9);
+                        };
                     } else {
                         string0 = enum_getvalue(0, 36, int2, int9);
                     };
-                    int11 = script13343(int9, int11, int4, string0, -1 as struct);
+                    int11 = script13343(int9, int11, int4, string0, -1);
                     int9 = (int9 + 1);
                 };
             } else if ((struct_getparam(int1, 6424) == 2)) {
@@ -108,7 +112,7 @@ function script13342(int0: number, int1: number): void {
                     } else {
                         int4 = 7829367;
                     };
-                    int11 = script13343(int9, int11, int4, string0, -1 as struct);
+                    int11 = script13343(int9, int11, int4, string0, -1);
                     int9 = (int9 + 1);
                 };
             };

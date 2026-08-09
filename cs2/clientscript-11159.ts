@@ -11,11 +11,12 @@ function script11159(): void {
     CC_DELETEALL(comp(1082, 77));
     CC_DELETEALL(comp(1082, 78));
     CC_DELETEALL(comp(1082, 76));
-    var int5 = -1 as graphic;
-    while ((++int2 < int1)) {
+    var int5 = -1;
+    int2 = (int2 + 1);
+    while ((int2 < int1)) {
         [int3, int4] = dbrow_getfield(int0, 143360, int2);
         int5 = script11161(int3);
-        if ((int5 != -1 as graphic)) {
+        if ((int5 != -1)) {
             CC_CREATE(comp(1082, 77), 5, int2);
             CC_SETGRAPHIC(int5);
             CC_SETPOSITION(0, 0, 1, 1);

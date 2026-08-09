@@ -3,8 +3,7 @@ function script19226(int0: number): void {
     stack(1208320);
     stack(varbitplayer_56126);
     DB_FIND(0);
-    dbrow_findnext();
-    var int1 = stack();
+    var int1 = dbrow_findnext();
     var string0 = "";
     if ((int1 != -1)) {
         string0 = dbrow_getfield(int1, 1208336, 0);

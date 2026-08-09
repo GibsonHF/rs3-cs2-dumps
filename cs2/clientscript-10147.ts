@@ -14,8 +14,7 @@ function script10147(int0: number): void {
         printmessage("Please wait a moment.");
         return;
     };
-    stack(TTV_WEBCAM_GETDEVICE_BYUNIQUENAME(varclient_4291));
-    [int6, string0, string1] = stack();
+    [int6, string0, string1] = TTV_WEBCAM_GETDEVICE_BYUNIQUENAME(varclient_4291);
     if ((int6 == -1)) {
         script10145();
         SOUND_VORBIS_VOLUME(10046 as vorbis, 1, 0, 150);

@@ -6,12 +6,12 @@ function script1299(): void {
     };
     IF_SENDTOBACK(comp(906, 23));
     IF_SETONVARTRANSMIT(callback(script2354, 3184, 1), comp(906, 0));
-    IF_SETONVARTRANSMIT(callback(script5950, 1745, 1), 59375632);
-    IF_SETONVARTRANSMIT(callback(script6270, 1305, 1), 59375635);
-    IF_SETONVARCTRANSMIT(callback(script7732, 2771, 1), 59375631);
-    IF_SETONVARTRANSMIT(callback(script11090, 3184, 1), 59375625);
-    IF_SETONVARTRANSMIT(callback(script11925, 6679, 1), 59375633);
-    IF_SETONVARTRANSMIT(callback(script11926, 6681, 1), 59375634);
+    IF_SETONVARTRANSMIT(callback(script5950, 1745, 1), comp(906, 16));
+    IF_SETONVARTRANSMIT(callback(script6270, 1305, 1), comp(906, 19));
+    IF_SETONVARCTRANSMIT(callback(script7732, 2771, 1), comp(906, 15));
+    IF_SETONVARTRANSMIT(callback(script11090, 3184, 1), comp(906, 9));
+    IF_SETONVARTRANSMIT(callback(script11925, 6679, 1), comp(906, 17));
+    IF_SETONVARTRANSMIT(callback(script11926, 6681, 1), comp(906, 18));
     if ((((varbitplayer_16467 < 1) && (USERDETAIL_QUICKCHAT() == 0)) && (varclient_3708 == 0))) {
         IF_SETONVARTRANSMIT(callback(script5937, 3185, 1), comp(906, 14));
     };
@@ -54,14 +54,12 @@ function script1299(): void {
     };
     script51();
     IF_SETONKEY(callback(script1328, -2147483640), comp(906, 0));
-    IF_SETONTIMER(callback(script15614, 59375623), 59375623);
-    stack(1868);
-    stack(59375672);
-    stack("i");
+    IF_SETONTIMER(callback(script15614, 59375623), comp(906, 7));
+    stack(callback(script1868, 59375672));
     stack(59375638);
     IF_SETONMISCTRANSMIT();
     script4041();
-    IF_SETONTIMER(callback(script5954, 59375789), 59375637);
+    IF_SETONTIMER(callback(script5954, 59375789), comp(906, 21));
     if ((((LOGIN_REPLY() != 0) && (LOGIN_REPLY() != 2)) && (LOGIN_REPLY() != 15))) {
         script10210(59375697, MAP_WORLD(), CLIENTOPTION_GET(22), CLIENTOPTION_GET(23), CLIENTOPTION_GET(24), CLIENTOPTION_GET(25), CLIENTOPTION_GET(26), LOGIN_REPLY(), 2);
     };

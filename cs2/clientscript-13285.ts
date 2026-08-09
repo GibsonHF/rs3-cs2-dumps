@@ -4,10 +4,14 @@ function script13285(int0: number, int1: number): string {
         return "";
     };
     var string0 = struct_getparam(int0, 6411);
-    if (((script6431() == 1) && (STRING_LENGTH(struct_getparam(int0, 8069)) > 0))) {
-        string0 = struct_getparam(int0, 8069);
-        if (((STRING_LENGTH(struct_getparam(int0, 8068)) > 0) && (varbitplayer_11754 > 0))) {
-            string0 = struct_getparam(int0, 8068);
+    if ((script6431() == 1)) {
+        if ((STRING_LENGTH(struct_getparam(int0, 8069)) > 0)) {
+            string0 = struct_getparam(int0, 8069);
+            if (((STRING_LENGTH(struct_getparam(int0, 8068)) > 0) && (varbitplayer_11754 > 0))) {
+                string0 = struct_getparam(int0, 8068);
+            };
+        } else if (((STRING_LENGTH(struct_getparam(int0, 8067)) > 0) && (varbitplayer_11754 > 0))) {
+            string0 = struct_getparam(int0, 8067);
         };
     } else if (((STRING_LENGTH(struct_getparam(int0, 8067)) > 0) && (varbitplayer_11754 > 0))) {
         string0 = struct_getparam(int0, 8067);
@@ -15,7 +19,7 @@ function script13285(int0: number, int1: number): string {
     if (((STRING_LENGTH(struct_getparam(int0, 4586)) > 0) && (script4148() == 1))) {
         string0 = struct_getparam(int0, 4586);
     };
-    if ((struct_getparam(int0, 8072) != -1 as cs2enum)) {
+    if ((struct_getparam(int0, 8072) != -1)) {
         string0 = struct_getparam(int0, 6969);
     };
     switch (int0) {
@@ -38,13 +42,13 @@ function script13285(int0: number, int1: number): string {
     };
     var string1 = "";
     var int2 = 0;
-    var int3 = -1 as quest;
+    var int3 = -1;
     if ((struct_getparam(int0, 1345) > 0)) {
         if ((STRING_LENGTH(string0) > 0)) {
             return string0;
         };
         int3 = struct_getparam(int0, 1403);
-        if ((int3 == -1 as quest)) {
+        if ((int3 == -1)) {
             script12478(`quest_struct_quest param not specified on quest #${inttostring(struct_getparam(int0, 1345), 10)}.`);
             return string0;
         };
@@ -56,13 +60,24 @@ function script13285(int0: number, int1: number): string {
     if (((STRING_LENGTH(struct_getparam(int0, 4586)) > 0) && (script4148() == 1))) {
         return string0;
     };
-    if (((int1 == 1) && (((struct_getparam(int0, 6423) == -1337) && (struct_getparam(int0, 6426) == -1 as cs2enum)) || (struct_getparam(int0, 6419) == true)))) {
-        int2 = script13569(int0);
-        string1 = `${TOSTRING_LOCALISED(MAX(0, script13281(int0)), 1)}/${TOSTRING_LOCALISED(int2, 1)}`;
-        if ((struct_getparam(int0, 6413) == 1701)) {
-            return `${string0} (${string1} Quest Points)`;
+    if ((int1 == 1)) {
+        if ((struct_getparam(int0, 6423) == -1337)) {
+            if (((struct_getparam(int0, 6426) == -1) || (struct_getparam(int0, 6419) == 1))) {
+                int2 = script13569(int0);
+                string1 = `${TOSTRING_LOCALISED(MAX(0, script13281(int0)), 1)}/${TOSTRING_LOCALISED(int2, 1)}`;
+                if ((struct_getparam(int0, 6413) == 1701)) {
+                    return `${string0} (${string1} Quest Points)`;
+                };
+                return `${string0} (${string1})`;
+            };
+        } else if ((struct_getparam(int0, 6419) == 1)) {
+            int2 = script13569(int0);
+            string1 = `${TOSTRING_LOCALISED(MAX(0, script13281(int0)), 1)}/${TOSTRING_LOCALISED(int2, 1)}`;
+            if ((struct_getparam(int0, 6413) == 1701)) {
+                return `${string0} (${string1} Quest Points)`;
+            };
+            return `${string0} (${string1})`;
         };
-        return `${string0} (${string1})`;
     };
     return string0;
 }

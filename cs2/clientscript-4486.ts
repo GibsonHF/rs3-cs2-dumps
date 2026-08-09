@@ -22,17 +22,37 @@ function script4486(int0: number, int1: number, int2: number, int3: number, int4
     if (((int16 == 1) && (DATE_ISLEAPYEAR(int2) == 1))) {
         int18 = 29;
     };
-    while ((++int9 < 6)) {
-        while ((++int8 < 7)) {
+    int9 = (int9 + 1);
+    while ((int9 < 6)) {
+        int8 = (int8 + 1);
+        while ((int8 < 7)) {
             int12 = (int12 + 1);
-            if (((int9 == 0) && (int8 < int0))) {
-                int10 = (((int18 - int0) + int8) + 1);
-                if (((varbitplayer_27169 == 1) || (varbitplayer_22875 == 1))) {
-                    int11 = 5323566;
+            if ((int9 == 0)) {
+                if ((int8 < int0)) {
+                    int10 = (((int18 - int0) + int8) + 1);
+                    if (((varbitplayer_27169 == 1) || (varbitplayer_22875 == 1))) {
+                        int11 = 5323566;
+                    } else {
+                        int11 = 2632751;
+                    };
+                    int15 = 1;
+                } else if ((int12 > (int0 + int3))) {
+                    int10 = ((int12 - int0) - int3);
+                    if (((varbitplayer_27169 == 1) || (varbitplayer_22875 == 1))) {
+                        int11 = 5323566;
+                    } else {
+                        int11 = 2632751;
+                    };
+                    int15 = 3;
                 } else {
-                    int11 = 2632751;
+                    int10 = (int12 - int0);
+                    if (((varbitplayer_27169 == 1) || (varbitplayer_22875 == 1))) {
+                        int11 = 3351837;
+                    } else {
+                        int11 = 1846324;
+                    };
+                    int15 = 2;
                 };
-                int15 = 1;
             } else if ((int12 > (int0 + int3))) {
                 int10 = ((int12 - int0) - int3);
                 if (((varbitplayer_27169 == 1) || (varbitplayer_22875 == 1))) {

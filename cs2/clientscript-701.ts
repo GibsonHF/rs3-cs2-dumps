@@ -23,7 +23,8 @@ function script701(): void {
             };
         };
         int0 = (int0 + 1);
-        if ((++int1 == 8)) {
+        int1 = (int1 + 1);
+        if ((int1 == 8)) {
             int1 = 0;
             int2 = (int2 + 1);
         };

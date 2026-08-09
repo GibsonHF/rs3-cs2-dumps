@@ -6,7 +6,8 @@ function script13831(int0: number): void {
         IF_SETSIZE(0, 0, 1, 1, comp(274, 0));
         IF_SETOP(1, "", comp(1477, 809));
         if ((IF_FIND(comp(274, 0)) == 1)) {
-            unk11040(callback(script9537));
+            stack(9537);
+            unk11040("");
             CC_CALLONRESIZE();
         };
         if ((script248() == 1)) {

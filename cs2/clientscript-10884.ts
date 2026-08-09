@@ -23,15 +23,27 @@ function script10884(int0: number, int1: number): void {
     };
     var int8 = 0;
     if ((CC_FIND[1](int0, 0) == 1)) {
-        if (((int2 != -1 as graphic) && (CC_GETGRAPHIC[1]() != int2))) {
-            CC_SETGRAPHIC[1](int2);
+        if ((int2 != -1 as graphic)) {
+            if ((CC_GETGRAPHIC[1]() != int2)) {
+                CC_SETGRAPHIC[1](int2);
+            } else if (((int4 != -1 as obj) && (CC_GETINVOBJECT[1]() != int4))) {
+                CC_SETOBJECT_NONUM[1](int4, int5);
+            };
         } else if (((int4 != -1 as obj) && (CC_GETINVOBJECT[1]() != int4))) {
             CC_SETOBJECT_NONUM[1](int4, int5);
         };
-        if (((struct_getparam(int1, 8112) == true) && (struct_getparam(int1, 7216) == true))) {
-            int8 = (script11073(int1) - CLIENTCLOCK());
-            if (((int8 > 0) && (int8 <= 500))) {
-                CC_SETTRANS[1](script11318(int1));
+        if ((struct_getparam(int1, 8112) == true)) {
+            if ((struct_getparam(int1, 7216) == true)) {
+                int8 = (script11073(int1) - CLIENTCLOCK());
+                if ((int8 > 0)) {
+                    if ((int8 <= 500)) {
+                        CC_SETTRANS[1](script11318(int1));
+                    } else {
+                        CC_SETTRANS[1](0);
+                    };
+                } else {
+                    CC_SETTRANS[1](0);
+                };
             } else {
                 CC_SETTRANS[1](0);
             };

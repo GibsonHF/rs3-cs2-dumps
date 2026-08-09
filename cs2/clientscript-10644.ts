@@ -4,11 +4,11 @@ function script10644(int0: number, int1: number, int2: number): void {
         return;
     };
     var int3 = varbitplayer_22875;
-    var int4 = 206 as fontmetrics;
+    var int4 = 206;
     var int5 = 14931919;
     var int6 = 0;
     var int7 = 1;
-    var int8 = true;
+    var int8 = 1;
     if ((DB_GETFIELDCOUNT(int0, 1409024) <= int3)) {
         int3 = 0;
     };

@@ -4,9 +4,9 @@ function script7308(int0: number): void {
     var int2 = -1;
     var int3 = comp(-1, 65535);
     var string0 = "";
-    var int4 = 2195 as cs2enum;
+    var int4 = 2195;
     if ((varbitplayer_17220 == 1)) {
-        int4 = 5767 as cs2enum;
+        int4 = 5767;
     };
     var int5 = varbitplayer_17220;
     var int6 = varbitplayer_17224;
@@ -27,7 +27,7 @@ function script7308(int0: number): void {
     var int19 = comp(-1, 65535);
     var int20 = comp(-1, 65535);
     var int21 = comp(-1, 65535);
-    var int22 = comp(-1, 65535);
+    var int22 = -1;
     var int23 = INV_GETOBJ(678 as inv, int0);
     switch (int0) {
         case 0: {
@@ -48,73 +48,73 @@ function script7308(int0: number): void {
             int21 = comp(1276, 56);
             int16 = comp(1276, 57);
             string2 = varclient_2652;
-            int17 = comp(1276, 40);
-            int22 = comp(1276, 38);
+            int17 = 83623976;
+            int22 = 83623974;
             break;
         }
         case 1: {
-            int1 = comp(1276, 61);
+            int1 = 83623997;
             int2 = 83624001;
-            int3 = comp(1276, 63);
+            int3 = 83623999;
             string0 = OC_NAME(int23);
             int9 = 83623994;
             int11 = 83623995;
-            int12 = comp(1276, 74);
-            int13 = comp(1276, 71);
-            int14 = comp(1276, 72);
-            int15 = comp(1276, 73);
-            int10 = comp(1276, 66);
-            int18 = comp(1276, 75);
-            int19 = comp(1276, 76);
-            int20 = comp(1276, 77);
-            int21 = comp(1276, 78);
-            int16 = comp(1276, 79);
+            int12 = 83624010;
+            int13 = 83624007;
+            int14 = 83624008;
+            int15 = 83624009;
+            int10 = 83624002;
+            int18 = 83624011;
+            int19 = 83624012;
+            int20 = 83624013;
+            int21 = 83624014;
+            int16 = 83624015;
             string2 = varclient_2653;
-            int17 = comp(1276, 62);
-            int22 = comp(1276, 60);
+            int17 = 83623998;
+            int22 = 83623996;
             break;
         }
         case 2: {
-            int1 = comp(1276, 83);
+            int1 = 83624019;
             int2 = 83624023;
-            int3 = comp(1276, 85);
+            int3 = 83624021;
             string0 = OC_NAME(int23);
             int9 = 83624016;
             int11 = 83624017;
-            int12 = comp(1276, 96);
-            int13 = comp(1276, 93);
-            int14 = comp(1276, 94);
-            int15 = comp(1276, 95);
-            int10 = comp(1276, 88);
-            int18 = comp(1276, 97);
-            int19 = comp(1276, 98);
-            int20 = comp(1276, 99);
-            int21 = comp(1276, 100);
-            int16 = comp(1276, 101);
+            int12 = 83624032;
+            int13 = 83624029;
+            int14 = 83624030;
+            int15 = 83624031;
+            int10 = 83624024;
+            int18 = 83624033;
+            int19 = 83624034;
+            int20 = 83624035;
+            int21 = 83624036;
+            int16 = 83624037;
             string2 = varclient_2654;
-            int17 = comp(1276, 84);
-            int22 = comp(1276, 82);
+            int17 = 83624020;
+            int22 = 83624018;
             break;
         }
         case 3: {
-            int1 = comp(1276, 18);
+            int1 = 83623954;
             int2 = -1;
-            int3 = comp(1276, 19);
-            string0 = strconcat(enum_getvalue(0, 36, int4, varbitplayer_17224), strconcat(" ", enum_getvalue(0, 36, 5768 as cs2enum, varbitplayer_17225)));
+            int3 = 83623955;
+            string0 = strconcat(enum_getvalue(0, 36, int4, varbitplayer_17224), strconcat(" ", enum_getvalue(0, 36, 5768, varbitplayer_17225)));
             int9 = 83623951;
             int11 = 83623952;
-            int12 = comp(1276, 28);
-            int13 = comp(1276, 25);
-            int14 = comp(1276, 26);
-            int15 = comp(1276, 27);
-            int10 = comp(1276, 20);
-            int18 = comp(1276, 29);
-            int19 = comp(1276, 30);
-            int20 = comp(1276, 31);
-            int21 = comp(1276, 32);
-            int16 = comp(1276, 33);
+            int12 = 83623964;
+            int13 = 83623961;
+            int14 = 83623962;
+            int15 = 83623963;
+            int10 = 83623956;
+            int18 = 83623965;
+            int19 = 83623966;
+            int20 = 83623967;
+            int21 = 83623968;
+            int16 = 83623969;
             string2 = varclient_2651;
-            int22 = comp(1276, 17);
+            int22 = 83623953;
             break;
         }
     };
@@ -132,7 +132,7 @@ function script7308(int0: number): void {
     var string6 = "";
     var int25 = 0;
     var int26 = 0;
-    if ((int23 != -1 as obj)) {
+    if ((int23 != -1)) {
         IF_SETGRAPHIC(item_getparam(int23, 3080), int1);
         IF_SETTEXT(string0, int3);
         IF_SETTEXT(inttostring(item_getparam(int23, 3081), 10), int12);
@@ -193,7 +193,7 @@ function script7308(int0: number): void {
         if ((item_getparam(int23, 3094) > 0)) {
             IF_SETTEXT(inttostring(item_getparam(int23, 3094), 10), int19);
             IF_SETCOLOUR(16446166, int19);
-            IF_SETGRAPHIC(enum_getvalue(0, 23, 7153 as cs2enum, item_getparam(int23, 3093)), int18);
+            IF_SETGRAPHIC(enum_getvalue(0, 23, 7153, item_getparam(int23, 3093)), int18);
             IF_SETSIZE(17, 17, 0, 0, int18);
             switch (item_getparam(int23, 3093)) {
                 case 1: {
@@ -280,7 +280,7 @@ function script7308(int0: number): void {
             IF_SETTEXT(inttostring(item_getparam(int23, 3096), 10), int21);
             IF_SETCOLOUR(16446166, int21);
             IF_SETSIZE(17, 17, 0, 0, int21);
-            IF_SETGRAPHIC(enum_getvalue(0, 23, 7153 as cs2enum, item_getparam(int23, 3095)), int20);
+            IF_SETGRAPHIC(enum_getvalue(0, 23, 7153, item_getparam(int23, 3095)), int20);
             switch (item_getparam(int23, 3095)) {
                 case 1: {
                     int26 = varplayer_3441;
@@ -362,8 +362,16 @@ function script7308(int0: number): void {
             IF_SETTEXT("", int21);
             IF_SETGRAPHIC(-1 as graphic, int20);
         };
-        if ((((enum_hasoutput(33, 2174 as cs2enum, int23) == 1) && (int23 != 26265 as obj)) && (int23 != 26266 as obj))) {
-            IF_SETTEXT("Useful supplies for a journey.", int16);
+        if ((enum_hasoutput(33, 2174 as cs2enum, int23) == 1)) {
+            if ((int23 != 26265)) {
+                if ((int23 != 26266)) {
+                    IF_SETTEXT("Useful supplies for a journey.", int16);
+                } else {
+                    IF_SETTEXT(string2, int16);
+                };
+            } else {
+                IF_SETTEXT(string2, int16);
+            };
         } else {
             IF_SETTEXT(string2, int16);
         };
@@ -389,7 +397,7 @@ function script7308(int0: number): void {
             IF_SETNPCHEAD(int8, comp(1276, 18));
             IF_SETMODELANIM(9806 as seq, comp(1276, 18));
             IF_SETMODELZOOM(2900, comp(1276, 18));
-            string1 = strconcat(enum_getvalue(0, 36, int4, int6), ` ${enum_getvalue(0, 36, 5768 as cs2enum, int7)}`);
+            string1 = strconcat(enum_getvalue(0, 36, int4, int6), ` ${enum_getvalue(0, 36, 5768, int7)}`);
             IF_SETTEXT(`Captain: ${string1}`, comp(1276, 19));
         };
     } else {

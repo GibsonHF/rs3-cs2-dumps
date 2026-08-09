@@ -7,7 +7,7 @@ function script12192(int0: number, int1: number, int2: number, int3: number, int
     var int9 = 0;
     var int10 = 0;
     var int11 = (IF_GETWIDTH(comp(1712, 29)) - 24);
-    var int12 = -1 as dbrow;
+    var int12 = -1;
     var string0 = "null";
     if ((int0 == 0)) {
         [int8, int9] = script12086(int7, int8, int10, int9, int11, "No effect", 32855);
@@ -53,7 +53,7 @@ function script12192(int0: number, int1: number, int2: number, int3: number, int
         IF_SETHIDE(false, comp(1712, 43));
         IF_SETHIDE(false, comp(1712, 60));
     };
-    int7 = comp(1712, 36);
+    int7 = 112197668;
     CC_DELETEALL(int7);
     int8 = 0;
     int9 = 5;
@@ -70,7 +70,7 @@ function script12192(int0: number, int1: number, int2: number, int3: number, int
         [int8, int9] = script12086(int7, int8, int10, int9, int11, "You do not have enough materials to repeat this.", 29166);
         int9 = (int9 + 10);
     };
-    int7 = comp(1712, 64);
+    int7 = 112197696;
     CC_DELETEALL(int7);
     int8 = 0;
     int9 = 5;

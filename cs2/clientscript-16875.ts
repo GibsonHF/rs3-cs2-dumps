@@ -12,7 +12,8 @@ function script16875(int0: number): void {
     int3 = MAX(2, int3);
     script7925(int0, 0, 0, 0, 1, 1, 0, 0, 1, 1, 0, int3, int4, 5);
     var int5 = -1;
-    while ((++int5 < int1)) {
+    int5 = (int5 + 1);
+    while ((int5 < int1)) {
         script15939(int0, 1, int5, 0, 0, 0, 0, 1, 1, 0, 0, 1, 1);
         CC_SETSIZE(MIN(CC_GETWIDTH(), CC_GETHEIGHT()), MIN(CC_GETWIDTH(), CC_GETHEIGHT()), 0, 0);
         script7920(int0, (int5 + 2), 0, 1, int5, 0, 0, 1, 1, 0, 0, 1, 1, 10864);

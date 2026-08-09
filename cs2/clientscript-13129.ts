@@ -1,6 +1,6 @@
 //
-function script13129(int0: number, int1: number, int2: number, int3: number): [number, string, string, string, number, number, number, number] {
-    var int4 = -1 as struct;
+function script13129(int0: number, int1: number, int2: number, int3: number): [number, number, number, number, number, string, string, string] {
+    var int4 = -1;
     switch (int0) {
         case 104071216:
         case 110166094: {
@@ -105,7 +105,7 @@ function script13129(int0: number, int1: number, int2: number, int3: number): [n
     var int9 = -1;
     var int10 = 26;
     var int11 = script10495(3);
-    var int12 = -1 as struct;
+    var int12 = -1;
     switch (int1) {
         case 12197:
         case 12199: {
@@ -130,7 +130,7 @@ function script13129(int0: number, int1: number, int2: number, int3: number): [n
         }
         case 9665: {
             string0 = enum_getvalue(0, 36, int1, int2);
-            string2 = enum_getvalue(0, 36, 12193 as cs2enum, int2);
+            string2 = enum_getvalue(0, 36, 12193, int2);
             if ((strcmp(string2, "") == 0)) {
                 string2 = string0;
             };
@@ -152,7 +152,7 @@ function script13129(int0: number, int1: number, int2: number, int3: number): [n
         }
         case 10375: {
             string0 = enum_getvalue(0, 36, int1, int2);
-            string2 = enum_getvalue(0, 36, 12165 as cs2enum, int2);
+            string2 = enum_getvalue(0, 36, 12165, int2);
             if ((strcmp(string2, "") == 0)) {
                 string2 = string0;
             };
@@ -168,8 +168,13 @@ function script13129(int0: number, int1: number, int2: number, int3: number): [n
             break;
         }
         case 8657: {
-            if (((int2 == 0) && (int0 == comp(517, 222)))) {
-                string0 = "- Remove Name -";
+            if ((int2 == 0)) {
+                if ((int0 == 33882334)) {
+                    string0 = "- Remove Name -";
+                } else {
+                    string0 = enum_getvalue(0, 36, int1, int2);
+                    string2 = string0;
+                };
             } else {
                 string0 = enum_getvalue(0, 36, int1, int2);
                 string2 = string0;
@@ -177,12 +182,12 @@ function script13129(int0: number, int1: number, int2: number, int3: number): [n
             break;
         }
         case 7711: {
-            string0 = script453(enum_getvalue(0, 0, 7710 as cs2enum, int2), 1, 1, 0);
+            string0 = script453(enum_getvalue(0, 0, 7710, int2), 1, 1, 0);
             string2 = string0;
             break;
         }
         case 10780: {
-            string0 = script453(enum_getvalue(0, 0, 10781 as cs2enum, int2), 1, 1, 0);
+            string0 = script453(enum_getvalue(0, 0, 10781, int2), 1, 1, 0);
             string2 = string0;
             break;
         }
@@ -196,7 +201,7 @@ function script13129(int0: number, int1: number, int2: number, int3: number): [n
         case 16965:
         case 16966: {
             if ((enum_getvalue(0, 0, int1, int2) != -1)) {
-                string0 = enum_getvalue(0, 36, 9286 as cs2enum, int2);
+                string0 = enum_getvalue(0, 36, 9286, int2);
                 int9 = (1 - script9284(int0, int2));
             };
             string2 = string0;
@@ -207,7 +212,7 @@ function script13129(int0: number, int1: number, int2: number, int3: number): [n
                 [int10, int11] = script10433(0);
                 string0 = script13575(struct_getparam(enum_getvalue(0, 73, int1, int2), 8073), IF_GETWIDTH(int0), int10, 1);
                 int12 = enum_getvalue(0, 73, script8221(), int2);
-                if ((int12 != -1 as struct)) {
+                if ((int12 != -1)) {
                     string2 = struct_getparam(int12, 6969);
                 };
             } else {

@@ -14,5 +14,5 @@ function script15319(int0: number, int1: number): number {
             return dbrow_getfield(int0, 495744, 0);
         }
     };
-    return -1 as dbrow;
+    return -1;
 }

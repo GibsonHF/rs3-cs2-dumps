@@ -6,7 +6,7 @@ function script16097(int0: number): string {
         if ((int1 == 21)) {
             return enum_getvalue(0, 36, 16502 as cs2enum, npc_getparam(int0, 26));
         };
-        return enum_getvalue(0, 36, 7733 as cs2enum, int1);
+        return enum_getvalue(0, 36, 7733, int1);
     };
     return "";
 }

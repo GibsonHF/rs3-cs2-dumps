@@ -1,9 +1,9 @@
 //
 function script11774(): void {
-    var int0 = 16625 as cs2enum;
+    var int0 = 16625;
     var int1 = 0;
     var int2 = ENUM_GETOUTPUTCOUNT(int0);
-    var int3 = -1 as dbrow;
+    var int3 = -1;
     var int4 = -1;
     var int5 = -1;
     var string0 = "";

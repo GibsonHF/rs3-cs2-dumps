@@ -1,11 +1,10 @@
 //
 function script20294(int0: number, int1: number, int2: number): number {
-    dbrow_findnext();
-    var int3 = stack();
+    var int3 = dbrow_findnext();
     var int4 = -1;
     var int5 = 0;
     var int6 = 0;
-    while ((int3 != -1 as dbrow)) {
+    while ((int3 != -1)) {
         int4 = dbrow_getfield(int3, 1368144, 0);
         if ((int4 >= DB_GETFIELDCOUNT(int1, 1376272))) {
             int5 = 200;
@@ -14,12 +13,16 @@ function script20294(int0: number, int1: number, int2: number): number {
         };
         if ((CC_FINDBYCATEGORY(int0, int5, 0) == 1)) {
             script15937(0, dbrow_getfield(int3, 1368064, 0), 0, 0, 2, 0, 6, 40, 1, 0);
-            unk11040(callback(script20296, int0, int3, int5, int2));
+            stack(20296);
+            stack(int0);
+            stack(int3);
+            stack(int5);
+            stack(int2);
+            unk11040("iiii");
             CC_CALLONRESIZE();
             int6 = (int6 + 1);
         };
-        dbrow_findnext();
-        int3 = stack();
+        int3 = dbrow_findnext();
     };
     return int6;
 }

@@ -10,7 +10,7 @@ function script20440(int0: number): void {
         script20441(-1, "You have earned all the capes you can this year.", 0, "null", -1, 53699);
         return;
     };
-    if (((int1 == -1 as dbrow) || (script20427(int0) == 0))) {
+    if (((int1 == -1) || (script20427(int0) == 0))) {
         script20426();
         script20441(-1, "Choose a skill to focus on!", 0, "null", -1, 53699);
     } else {

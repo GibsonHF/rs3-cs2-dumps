@@ -4,9 +4,9 @@ function script5308(): void {
     var int1 = 1;
     var int2 = 1;
     var string0 = "";
-    var int3 = -1 as struct;
+    var int3 = -1;
     var int4 = 0;
-    var int5 = 7287 as graphic;
+    var int5 = 7287;
     var int6 = 7706;
     var int7 = 7289;
     var int8 = 2;
@@ -33,10 +33,7 @@ function script5308(): void {
             CC_SETOP(1, struct_getparam(int3, 1974));
         } else {
             CC_SETONTARGETENTER(callback(script5309, -2147483643));
-            stack(44);
-            stack(-2147483645);
-            stack(int5);
-            stack("ii");
+            stack(callback(script44, -2147483645, int5));
             CC_SETONTARGETLEAVE();
             if ((int4 == 1)) {
                 CC_SETTARGETVERB(struct_getparam(int3, 1974));
@@ -52,7 +49,7 @@ function script5308(): void {
         CC_SETONMOUSELEAVE(callback(script8806, -2147483645, -2147483643, int5));
         int11 = (int11 + 2);
         int12 = (int12 + 2);
-        CC_CREATE(53936137, 5, int0);
+        CC_CREATE(comp(823, 9), 5, int0);
         CC_SETGRAPHIC(struct_getparam(int3, 1983));
         CC_SETSIZE(50, 50, 0, 0);
         CC_SETPOSITION(int11, int12, 0, 0);

@@ -7,7 +7,13 @@ function script1783(int0: number, int1: number, int2: number, int3: number): voi
         return;
     };
     var int4 = 0;
-    if (((CC_FIND(int2, int3) == 1) || ((int3 == -1) && (IF_FIND(int2) == 1)))) {
+    if ((CC_FIND(int2, int3) == 1)) {
+        int4 = (CC_GETY() + (CC_GETHEIGHT() / 2));
+        int4 = (int4 - (IF_GETHEIGHT(int0) / 2));
+        if ((CC_FIND(int1, 1) == 1)) {
+            script157(int1, int0, int4, 1);
+        };
+    } else if (((int3 == -1) && (IF_FIND(int2) == 1))) {
         int4 = (CC_GETY() + (CC_GETHEIGHT() / 2));
         int4 = (int4 - (IF_GETHEIGHT(int0) / 2));
         if ((CC_FIND(int1, 1) == 1)) {

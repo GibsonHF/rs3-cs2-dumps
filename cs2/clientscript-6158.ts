@@ -27,11 +27,11 @@ function script6158(): void {
             break;
         }
         case 2: {
-            string0 = `Runesphere Active on the Middle Floor! (${enum_getvalue(0, 36, 11936 as cs2enum, varclient_5910)})`;
+            string0 = `Runesphere Active on the Middle Floor! (${enum_getvalue(0, 36, 11936, varclient_5910)})`;
             break;
         }
         case 3: {
-            string0 = `Runesphere Active on the Top Floor! (${enum_getvalue(0, 36, 11936 as cs2enum, varclient_5910)})`;
+            string0 = `Runesphere Active on the Top Floor! (${enum_getvalue(0, 36, 11936, varclient_5910)})`;
             break;
         }
     };
@@ -41,9 +41,9 @@ function script6158(): void {
         if ((varclient_5910 == 0)) {
             IF_SETGRAPHIC(29007 as graphic, comp(1274, 13));
         };
-        IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643), 83492877);
-        IF_SETONCLICK(callback(script7774, string0, -2147483645, -2147483643, 0), 83492877);
-        IF_SETPOSITION(100, 158, 2, 0, 83492875);
+        IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643), comp(1274, 13));
+        IF_SETONCLICK(callback(script7774, string0, -2147483645, -2147483643, 0), comp(1274, 13));
+        IF_SETPOSITION(100, 158, 2, 0, comp(1274, 11));
     } else {
         IF_SETHIDE(true, comp(1274, 10));
         IF_SETGRAPHIC(-1 as graphic, comp(1274, 14));

@@ -1,6 +1,6 @@
 //
 function script8085(): number {
-    var int0 = -1 as dbrow;
+    var int0 = -1;
     if ((varplayer_1831 == -1 as obj)) {
         return 0;
     };
@@ -22,8 +22,7 @@ function script8085(): number {
             stack(348240);
             stack(varplayer_1831);
             DB_FIND(0);
-            dbrow_findnext();
-            int0 = stack();
+            int0 = dbrow_findnext();
             if (((int0 != -1) && (dbrow_getfield(int0, 348192, 0) > 0))) {
                 return 1;
             };

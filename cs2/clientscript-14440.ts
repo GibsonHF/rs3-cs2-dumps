@@ -11,6 +11,7 @@ function script14440(int0: number): number {
         case 162:
         case 195:
         case 191: {
+            break;
         }
         default: {
             return 0;

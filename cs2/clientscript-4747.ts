@@ -12,7 +12,7 @@ function script4747(int0: number): string {
     if ((STRING_LENGTH(item_getparam(int0, 8844)) > 0)) {
         return item_getparam(int0, 8844);
     };
-    if ((item_getparam(int0, 8843) != -1 as quest)) {
+    if ((item_getparam(int0, 8843) != -1)) {
         return `You've completed the '${script2103(item_getparam(int0, 8843))}' quest. You no longer need this item.`;
     };
     switch (int0) {

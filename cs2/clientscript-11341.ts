@@ -86,7 +86,8 @@ function script11341(int0: number, int1: number, int2: number, int3: number, int
                 CC_SETHIDE(true);
             };
             int19 = (int19 + 1);
-            if ((MODULO(++int17, 9) == 0)) {
+            int17 = (int17 + 1);
+            if ((MODULO(int17, 9) == 0)) {
                 int14 = 3;
                 int15 = (int15 + (int13 + 3));
             } else {

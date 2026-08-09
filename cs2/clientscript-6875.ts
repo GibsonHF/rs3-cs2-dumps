@@ -5,9 +5,9 @@ function script6875(): void {
         return;
     };
     var int0 = 13777;
-    var int1 = 13780 as graphic;
-    var int2 = 13779 as graphic;
-    var int3 = 13778 as graphic;
+    var int1 = 13780;
+    var int2 = 13779;
+    var int3 = 13778;
     var int4 = -1;
     var int5 = -1;
     var int6 = (ENUM_GETOUTPUTCOUNT(2345 as cs2enum) - 1);
@@ -18,9 +18,51 @@ function script6875(): void {
         if ((CC_FIND(comp(1311, 504), ((int6 * 2) + 1)) == 1)) {
             int7 = enum_getvalue(0, 0, 2345 as cs2enum, int6);
             string1 = enum_getvalue(0, 36, 2344 as cs2enum, int6);
-            if ((((varclient_2017 == int7) && (varclient_2018 == int7)) && (varbitplayer_688 == 1))) {
-                CC_SETGRAPHIC(int1);
-                string0 = `Set colour to ${string1}.`;
+            if ((varclient_2017 == int7)) {
+                if ((varclient_2018 == int7)) {
+                    if ((varbitplayer_688 == 1)) {
+                        CC_SETGRAPHIC(int1);
+                        string0 = `Set colour to ${string1}.`;
+                    } else if ((varclient_2017 == int7)) {
+                        if ((varbitplayer_688 == 1)) {
+                            CC_SETGRAPHIC(int2);
+                            string0 = "Click again to set secondary colour.";
+                        } else {
+                            CC_SETGRAPHIC(int1);
+                            string0 = `Set colour to ${string1}.`;
+                        };
+                    } else if ((varbitplayer_688 == 1)) {
+                        if ((varclient_2018 == int7)) {
+                            CC_SETGRAPHIC(int3);
+                            string0 = "Click again to set primary colour.";
+                        } else {
+                            CC_SETGRAPHIC(13777 as graphic);
+                            string0 = `Set colour to ${string1}.`;
+                        };
+                    } else {
+                        CC_SETGRAPHIC(13777 as graphic);
+                        string0 = `Set colour to ${string1}.`;
+                    };
+                } else if ((varclient_2017 == int7)) {
+                    if ((varbitplayer_688 == 1)) {
+                        CC_SETGRAPHIC(int2);
+                        string0 = "Click again to set secondary colour.";
+                    } else {
+                        CC_SETGRAPHIC(int1);
+                        string0 = `Set colour to ${string1}.`;
+                    };
+                } else if ((varbitplayer_688 == 1)) {
+                    if ((varclient_2018 == int7)) {
+                        CC_SETGRAPHIC(int3);
+                        string0 = "Click again to set primary colour.";
+                    } else {
+                        CC_SETGRAPHIC(13777 as graphic);
+                        string0 = `Set colour to ${string1}.`;
+                    };
+                } else {
+                    CC_SETGRAPHIC(13777 as graphic);
+                    string0 = `Set colour to ${string1}.`;
+                };
             } else if ((varclient_2017 == int7)) {
                 if ((varbitplayer_688 == 1)) {
                     CC_SETGRAPHIC(int2);
@@ -29,9 +71,14 @@ function script6875(): void {
                     CC_SETGRAPHIC(int1);
                     string0 = `Set colour to ${string1}.`;
                 };
-            } else if (((varbitplayer_688 == 1) && (varclient_2018 == int7))) {
-                CC_SETGRAPHIC(int3);
-                string0 = "Click again to set primary colour.";
+            } else if ((varbitplayer_688 == 1)) {
+                if ((varclient_2018 == int7)) {
+                    CC_SETGRAPHIC(int3);
+                    string0 = "Click again to set primary colour.";
+                } else {
+                    CC_SETGRAPHIC(13777 as graphic);
+                    string0 = `Set colour to ${string1}.`;
+                };
             } else {
                 CC_SETGRAPHIC(13777 as graphic);
                 string0 = `Set colour to ${string1}.`;

@@ -10,8 +10,7 @@ function script7421(int0: number, int1: number): number {
     var int4 = 0;
     var int5 = 0;
     var string2 = "";
-    stack(WORLDLIST_SPECIFIC(int1));
-    [int2, string0, int3, string1, int4, int5, string2] = stack();
+    [int2, string0, int3, string1, int4, int5, string2] = WORLDLIST_SPECIFIC(int1);
     if ((TESTBIT(int2, 12) == 1)) {
         return 0;
     };
@@ -24,8 +23,10 @@ function script7421(int0: number, int1: number): number {
     if ((((varbitplayer_58378 == 1) && (int0 != -1)) && (TESTBIT(int2, 24) == 0))) {
         return 0;
     };
-    if ((((varbitplayer_58378 == 0) || (int0 == -1)) && (TESTBIT(int2, 24) == 1))) {
-        return 0;
+    if (((varbitplayer_58378 == 0) || (int0 == -1))) {
+        if ((TESTBIT(int2, 24) == 1)) {
+            return 0;
+        };
     };
     switch (varbitplayer_26925) {
         case 1: {

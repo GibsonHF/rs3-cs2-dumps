@@ -20,8 +20,10 @@ function script3104(int0: number): number {
             break;
         }
         case 100: {
-            if (((varbitplayer_9928 < 105) && ((varbitplayer_9928 != 95) || (varbitplayer_9939 < 3)))) {
-                return 0;
+            if ((varbitplayer_9928 < 105)) {
+                if (((varbitplayer_9928 != 95) || (varbitplayer_9939 < 3))) {
+                    return 0;
+                };
             };
             break;
         }
@@ -50,8 +52,10 @@ function script3104(int0: number): number {
             break;
         }
         case 212: {
-            if (((varbitplayer_9928 < 105) && ((varbitplayer_9928 != 95) || (varbitplayer_9937 < 2)))) {
-                return 0;
+            if ((varbitplayer_9928 < 105)) {
+                if (((varbitplayer_9928 != 95) || (varbitplayer_9937 < 2))) {
+                    return 0;
+                };
             };
             break;
         }

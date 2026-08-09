@@ -28,7 +28,7 @@ function script9914(int0: number, int1: number, int2: number): void {
             varbitplayer_18801 = int1;
             varbitplayer_18809 = int2;
             CHAT_GETFILTER_PUBLIC();
-            CHAT_GETFILTER_TRADE(stack(), int2);
+            CHAT_GETFILTER_TRADE(int2);
             CHAT_SETFILTER();
             break;
         }

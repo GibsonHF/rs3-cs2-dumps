@@ -59,6 +59,7 @@ function script9408(int0: number, int1: number, int2: number): number {
             return 11944 as graphic;
         }
         case 10: {
+            break;
         }
         default: {
             return -1 as graphic;

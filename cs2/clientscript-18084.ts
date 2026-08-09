@@ -2,7 +2,7 @@
 function script18084(int0: number, int1: number, int2: number): number {
     var int3 = dbrow_getfield(int0, 1020178, 0);
     var int4 = script17905(varplayer_11357);
-    if (((int3 == -1 as dbrow) || (int0 != int4))) {
+    if (((int3 == -1) || (int0 != int4))) {
         if ((CC_FINDBYCATEGORY(int1, 0, 6) == 1)) {
             CC_DELETE();
         };

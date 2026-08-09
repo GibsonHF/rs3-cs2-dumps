@@ -19,8 +19,13 @@ function script18230(int0: number): void {
             int6 = enum_getvalue(0, 33, int8, int3);
             [int5, int4] = script18229(int3, 1);
             int7 = item_getparam(int6, 6276);
-            if (((int1 >= int4) && (int5 == 0))) {
-                int7 = item_getparam(int6, 4909);
+            if ((int1 >= int4)) {
+                if ((int5 == 0)) {
+                    int7 = item_getparam(int6, 4909);
+                } else if ((int1 < int4)) {
+                    int5 = 2;
+                    int7 = item_getparam(int6, 4912);
+                };
             } else if ((int1 < int4)) {
                 int5 = 2;
                 int7 = item_getparam(int6, 4912);
@@ -30,6 +35,6 @@ function script18230(int0: number): void {
         };
         int3 = (int3 + 1);
     };
-    IF_SETONTIMER(callback(script12886, 88014988, 88014974, 88014975, int2), 88014988);
+    IF_SETONTIMER(callback(script12886, 88014988, 88014974, 88014975, int2), comp(1343, 140));
     return;
 }

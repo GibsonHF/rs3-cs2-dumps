@@ -18,7 +18,8 @@ function script11998(int0: number, int1: number): void {
         int5 = struct_getparam(int0, 8139);
         int6 = IF_GETWIDTH(int5);
         int7 = SCALE(50, 100, 110);
-        if ((++int6 >= (int7 * 2))) {
+        int6 = (int6 + 1);
+        if ((int6 >= (int7 * 2))) {
             IF_SETTEXT("Quick Prayers Setup", int5);
         } else if ((int6 >= int7)) {
             IF_SETTEXT("QP Setup", int5);

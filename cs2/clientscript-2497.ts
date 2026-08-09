@@ -5,18 +5,19 @@ function script2497(): void {
     var int1 = comp(-1, 65535);
     var int2 = comp(-1, 65535);
     var int3 = comp(-1, 65535);
-    var int4 = comp(-1, 65535);
+    var int4 = -1;
     var int5 = -1;
     var string0 = "";
     var int6 = -1;
-    while ((++int5 < 4)) {
+    int5 = (int5 + 1);
+    while ((int5 < 4)) {
         switch (int5) {
             case 0: {
                 int0 = enum_getvalue(0, 73, 1932 as cs2enum, varbitplayer_42981);
                 int1 = comp(35, 27);
                 int2 = comp(35, 23);
                 int3 = comp(35, 22);
-                int4 = comp(35, 21);
+                int4 = 2293781;
                 break;
             }
             case 1: {
@@ -24,7 +25,7 @@ function script2497(): void {
                 int1 = comp(35, 12);
                 int2 = comp(35, 26);
                 int3 = comp(35, 25);
-                int4 = comp(35, 24);
+                int4 = 2293784;
                 break;
             }
             case 2: {
@@ -32,7 +33,7 @@ function script2497(): void {
                 int1 = comp(35, 29);
                 int2 = comp(35, 20);
                 int3 = comp(35, 19);
-                int4 = comp(35, 18);
+                int4 = 2293778;
                 break;
             }
             case 3: {
@@ -40,7 +41,7 @@ function script2497(): void {
                 int1 = comp(35, 10);
                 int2 = comp(35, 4);
                 int3 = comp(35, 3);
-                int4 = comp(35, 2);
+                int4 = 2293762;
                 break;
             }
         };

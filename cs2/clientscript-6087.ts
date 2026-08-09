@@ -31,8 +31,15 @@ function script6087(int0: number, int1: number, int2: number, int3: number): voi
         int8 = 0;
         while ((int6 < int7)) {
             int14 = INV_GETOBJ(int1, int6);
-            if (((MAP_MEMBERS() == 0) && (OC_MEMBERS(int14) == 1))) {
-                script6088(int6, 1);
+            if ((MAP_MEMBERS() == 0)) {
+                if ((OC_MEMBERS(int14) == 1)) {
+                    script6088(int6, 1);
+                } else if ((int14 == -1 as obj)) {
+                    script6088(int6, 1);
+                } else {
+                    script6089(int1, int6, int8, int3);
+                    int8 = (int8 + 1);
+                };
             } else if ((int14 == -1 as obj)) {
                 script6088(int6, 1);
             } else {
@@ -55,16 +62,191 @@ function script6087(int0: number, int1: number, int2: number, int3: number): voi
         int7 = INV_SIZE(int0);
         while ((int6 < int7)) {
             int14 = INV_GETOBJ(int0, int6);
-            if (((MAP_MEMBERS() == 0) && (OC_MEMBERS(int14) == 1))) {
-                script6088(int6, 0);
+            if ((MAP_MEMBERS() == 0)) {
+                if ((OC_MEMBERS(int14) == 1)) {
+                    script6088(int6, 0);
+                } else if ((int14 == -1 as obj)) {
+                    script6088(int6, 0);
+                } else if ((script16928(int14) == 1)) {
+                    script6088(int6, 0);
+                } else if ((script12649(varplayer_306) == 1)) {
+                    if ((varplayer_303 == 0)) {
+                        if ((item_getparam(OC_UNCERT(int14), 5850) == 0)) {
+                            if ((item_getparam(OC_UNCERT(int14), 5783) == 0)) {
+                                script6088(int6, 0);
+                            } else if ((script12649(varplayer_306) == 1)) {
+                                if ((varplayer_303 == 1)) {
+                                    if ((item_getparam(OC_UNCERT(int14), 5850) == 0)) {
+                                        if ((item_getparam(OC_UNCERT(int14), 5783) == 0)) {
+                                            script6088(int6, 0);
+                                        } else {
+                                            script6089(int0, int6, int8, int3);
+                                            int8 = (int8 + 1);
+                                        };
+                                    } else {
+                                        script6089(int0, int6, int8, int3);
+                                        int8 = (int8 + 1);
+                                    };
+                                } else {
+                                    script6089(int0, int6, int8, int3);
+                                    int8 = (int8 + 1);
+                                };
+                            } else {
+                                script6089(int0, int6, int8, int3);
+                                int8 = (int8 + 1);
+                            };
+                        } else if ((script12649(varplayer_306) == 1)) {
+                            if ((varplayer_303 == 1)) {
+                                if ((item_getparam(OC_UNCERT(int14), 5850) == 0)) {
+                                    if ((item_getparam(OC_UNCERT(int14), 5783) == 0)) {
+                                        script6088(int6, 0);
+                                    } else {
+                                        script6089(int0, int6, int8, int3);
+                                        int8 = (int8 + 1);
+                                    };
+                                } else {
+                                    script6089(int0, int6, int8, int3);
+                                    int8 = (int8 + 1);
+                                };
+                            } else {
+                                script6089(int0, int6, int8, int3);
+                                int8 = (int8 + 1);
+                            };
+                        } else {
+                            script6089(int0, int6, int8, int3);
+                            int8 = (int8 + 1);
+                        };
+                    } else if ((script12649(varplayer_306) == 1)) {
+                        if ((varplayer_303 == 1)) {
+                            if ((item_getparam(OC_UNCERT(int14), 5850) == 0)) {
+                                if ((item_getparam(OC_UNCERT(int14), 5783) == 0)) {
+                                    script6088(int6, 0);
+                                } else {
+                                    script6089(int0, int6, int8, int3);
+                                    int8 = (int8 + 1);
+                                };
+                            } else {
+                                script6089(int0, int6, int8, int3);
+                                int8 = (int8 + 1);
+                            };
+                        } else {
+                            script6089(int0, int6, int8, int3);
+                            int8 = (int8 + 1);
+                        };
+                    } else {
+                        script6089(int0, int6, int8, int3);
+                        int8 = (int8 + 1);
+                    };
+                } else if ((script12649(varplayer_306) == 1)) {
+                    if ((varplayer_303 == 1)) {
+                        if ((item_getparam(OC_UNCERT(int14), 5850) == 0)) {
+                            if ((item_getparam(OC_UNCERT(int14), 5783) == 0)) {
+                                script6088(int6, 0);
+                            } else {
+                                script6089(int0, int6, int8, int3);
+                                int8 = (int8 + 1);
+                            };
+                        } else {
+                            script6089(int0, int6, int8, int3);
+                            int8 = (int8 + 1);
+                        };
+                    } else {
+                        script6089(int0, int6, int8, int3);
+                        int8 = (int8 + 1);
+                    };
+                } else {
+                    script6089(int0, int6, int8, int3);
+                    int8 = (int8 + 1);
+                };
             } else if ((int14 == -1 as obj)) {
                 script6088(int6, 0);
             } else if ((script16928(int14) == 1)) {
                 script6088(int6, 0);
-            } else if (((((script12649(varplayer_306) == 1) && (varplayer_303 == 0)) && (item_getparam(OC_UNCERT(int14), 5850) == 0)) && (item_getparam(OC_UNCERT(int14), 5783) == 0))) {
-                script6088(int6, 0);
-            } else if (((((script12649(varplayer_306) == 1) && (varplayer_303 == 1)) && (item_getparam(OC_UNCERT(int14), 5850) == 0)) && (item_getparam(OC_UNCERT(int14), 5783) == 0))) {
-                script6088(int6, 0);
+            } else if ((script12649(varplayer_306) == 1)) {
+                if ((varplayer_303 == 0)) {
+                    if ((item_getparam(OC_UNCERT(int14), 5850) == 0)) {
+                        if ((item_getparam(OC_UNCERT(int14), 5783) == 0)) {
+                            script6088(int6, 0);
+                        } else if ((script12649(varplayer_306) == 1)) {
+                            if ((varplayer_303 == 1)) {
+                                if ((item_getparam(OC_UNCERT(int14), 5850) == 0)) {
+                                    if ((item_getparam(OC_UNCERT(int14), 5783) == 0)) {
+                                        script6088(int6, 0);
+                                    } else {
+                                        script6089(int0, int6, int8, int3);
+                                        int8 = (int8 + 1);
+                                    };
+                                } else {
+                                    script6089(int0, int6, int8, int3);
+                                    int8 = (int8 + 1);
+                                };
+                            } else {
+                                script6089(int0, int6, int8, int3);
+                                int8 = (int8 + 1);
+                            };
+                        } else {
+                            script6089(int0, int6, int8, int3);
+                            int8 = (int8 + 1);
+                        };
+                    } else if ((script12649(varplayer_306) == 1)) {
+                        if ((varplayer_303 == 1)) {
+                            if ((item_getparam(OC_UNCERT(int14), 5850) == 0)) {
+                                if ((item_getparam(OC_UNCERT(int14), 5783) == 0)) {
+                                    script6088(int6, 0);
+                                } else {
+                                    script6089(int0, int6, int8, int3);
+                                    int8 = (int8 + 1);
+                                };
+                            } else {
+                                script6089(int0, int6, int8, int3);
+                                int8 = (int8 + 1);
+                            };
+                        } else {
+                            script6089(int0, int6, int8, int3);
+                            int8 = (int8 + 1);
+                        };
+                    } else {
+                        script6089(int0, int6, int8, int3);
+                        int8 = (int8 + 1);
+                    };
+                } else if ((script12649(varplayer_306) == 1)) {
+                    if ((varplayer_303 == 1)) {
+                        if ((item_getparam(OC_UNCERT(int14), 5850) == 0)) {
+                            if ((item_getparam(OC_UNCERT(int14), 5783) == 0)) {
+                                script6088(int6, 0);
+                            } else {
+                                script6089(int0, int6, int8, int3);
+                                int8 = (int8 + 1);
+                            };
+                        } else {
+                            script6089(int0, int6, int8, int3);
+                            int8 = (int8 + 1);
+                        };
+                    } else {
+                        script6089(int0, int6, int8, int3);
+                        int8 = (int8 + 1);
+                    };
+                } else {
+                    script6089(int0, int6, int8, int3);
+                    int8 = (int8 + 1);
+                };
+            } else if ((script12649(varplayer_306) == 1)) {
+                if ((varplayer_303 == 1)) {
+                    if ((item_getparam(OC_UNCERT(int14), 5850) == 0)) {
+                        if ((item_getparam(OC_UNCERT(int14), 5783) == 0)) {
+                            script6088(int6, 0);
+                        } else {
+                            script6089(int0, int6, int8, int3);
+                            int8 = (int8 + 1);
+                        };
+                    } else {
+                        script6089(int0, int6, int8, int3);
+                        int8 = (int8 + 1);
+                    };
+                } else {
+                    script6089(int0, int6, int8, int3);
+                    int8 = (int8 + 1);
+                };
             } else {
                 script6089(int0, int6, int8, int3);
                 int8 = (int8 + 1);

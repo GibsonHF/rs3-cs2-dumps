@@ -18,13 +18,13 @@ function script1784(): void {
         [int0, int2] = script1785("...to the team that defeats all its enemies, excluding the last five.", int0, int2, int1, 0);
     };
     if (((varclient_246 > 0) && (varclient_246 < 15))) {
-        [int0, int2] = script1785(`OR<br>...to the team that first achieves ${inttostring(enum_getvalue(0, 0, 1605 as cs2enum, varclient_246), 10)} kills.`, int0, int2, int1, 0);
+        [int0, int2] = script1785(`OR<br>...to the team that first achieves ${inttostring(enum_getvalue(0, 0, 1605, varclient_246), 10)} kills.`, int0, int2, int1, 0);
     };
     if ((varclient_247 > 0)) {
         if ((varclient_246 > 0)) {
-            [int0, int2] = script1785(`OR<br>...to the team that scores the most kills ${script1751(enum_getvalue(0, 0, 1800 as cs2enum, varclient_247))}.`, int0, int2, int1, 0);
+            [int0, int2] = script1785(`OR<br>...to the team that scores the most kills ${script1751(enum_getvalue(0, 0, 1800, varclient_247))}.`, int0, int2, int1, 0);
         } else {
-            [int0, int2] = script1785(`OR<br>...to the team with the most survivors ${script1751(enum_getvalue(0, 0, 1800 as cs2enum, varclient_247))}.`, int0, int2, int1, 0);
+            [int0, int2] = script1785(`OR<br>...to the team with the most survivors ${script1751(enum_getvalue(0, 0, 1800, varclient_247))}.`, int0, int2, int1, 0);
         };
     };
     int0 = (int0 + 7);

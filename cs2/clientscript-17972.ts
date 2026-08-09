@@ -1,7 +1,7 @@
 //
 function script17972(): string {
     var int0 = script17853();
-    if ((int0 == -1 as dbrow)) {
+    if ((int0 == -1)) {
         return "The Hero Pass has now ended.";
     };
     var int1 = dbrow_getfield(int0, 991250, 0);

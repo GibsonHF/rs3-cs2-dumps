@@ -1,5 +1,5 @@
 //
-function script15096(int0: number, int1: number): [string, string, number] {
+function script15096(int0: number, int1: number): [number, string, string] {
     var int2 = 0;
     var int3 = -1 as obj;
     if (((OC_CATEGORY(INV_GETOBJ(int0, int1)) == 4700 as category) && (OC_HASVAROBJ(INV_GETOBJ(int0, int1)) == 1))) {

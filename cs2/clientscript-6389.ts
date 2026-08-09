@@ -4,7 +4,7 @@ function script6389(int0: number, string0: string): string {
     switch (OC_CATEGORY(int0)) {
         case 87: {
             if ((item_getparam(int0, 4763) == 1)) {
-                var [int1, string0] = script6393(int1, string0, 0);
+                [int1, string0] = script6393(int1, string0, 0);
             };
             if ((item_getparam(int0, 4764) == 1)) {
                 [int1, string0] = script6393(int1, string0, 2);

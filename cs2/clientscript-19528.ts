@@ -27,7 +27,7 @@ function script19528(): void {
         CC_SETSIZE(int3, int4, 0, 0);
         CC_SETOUTLINE(1);
         CC_SETONOP(callback(script19529, -2147483644, -2147483643, -2147483645));
-        CC_SETDRAGGABLE(86048770, -1);
+        CC_SETDRAGGABLE(comp(1313, 2), -1);
         CC_SETDRAGDEADZONE(int5);
         CC_SETDRAGDEADTIME(int6);
         CC_SETONDRAG(callback(script19541, -2147483645, -2147483643, -2147483646));
@@ -35,8 +35,8 @@ function script19528(): void {
         CC_SETONMOUSEOVER(callback(script19549, -2147483645, -2147483643, 1));
         CC_SETONMOUSELEAVE(callback(script19498, -2147483645, -2147483643));
         CC_SETONMOUSEREPEAT(callback(script19499, -2147483645, -2147483643));
-        CC_SETHIDE(1);
-        CC_CREATE[1](86048858, 5, int0);
+        CC_SETHIDE(true);
+        CC_CREATE[1](comp(1313, 90), 5, int0);
         CC_SETCOLOUR[1](65535);
         CC_SETONMOUSEOVER[1](callback(script19548, -2147483643, 1));
         CC_SETONMOUSELEAVE[1](callback(script19548, -2147483643, 0));

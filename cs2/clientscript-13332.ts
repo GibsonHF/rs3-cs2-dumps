@@ -9,7 +9,7 @@ function script13332(int0: number): void {
         int1 = enum_getvalue(0, 9, 13762 as cs2enum, (varplayer_9620 - 1));
         script14001(int1, 28556, 0, 0, 0, 0);
         IF_SETONOP(callback(script13331, -2147483645), enum_getvalue(0, 9, 13034 as cs2enum, (varplayer_9620 - 1)));
-        if ((CC_FIND(enum_getvalue(0, 9, 13035, (varplayer_9620 - 1)), 0) == 1)) {
+        if ((CC_FIND(enum_getvalue(0, 9, 13035 as cs2enum, (varplayer_9620 - 1)), 0) == 1)) {
             CC_SETVFLIP(false);
         };
     };
@@ -33,7 +33,7 @@ function script13332(int0: number): void {
     var int9 = 0;
     var int10 = 0;
     var int11 = 0;
-    var int12 = -1 as cs2enum;
+    var int12 = -1;
     var int0 = (int0 + 1);
     var string1 = "";
     if ((int3 != -1 as cs2enum)) {
@@ -61,22 +61,22 @@ function script13332(int0: number): void {
             };
             CC_SETONOP(callback(script13333, struct_getparam(int8, 6422), int6, 1));
             CC_SETOP(1, "Select");
-            CC_CREATE(121307148, 4, ((int6 * 3) + 1));
+            CC_CREATE(comp(1851, 12), 4, ((int6 * 3) + 1));
             CC_SETPOSITION((5 + (2 * 2)), ((int6 * (32 + 2)) + 2), 2, 0);
             [int9, int10, int11] = script13289(struct_getparam(int8, 6757));
             CC_SETTEXT(`${TOSTRING_LOCALISED(int9, 1)}/${TOSTRING_LOCALISED(int10, 1)}`);
-            CC_SETTEXTSHADOW(1);
+            CC_SETTEXTSHADOW(true);
             CC_SETTEXTALIGN(2, 1, 0);
-            CC_SETTEXTFONT(26);
+            CC_SETTEXTFONT(26 as fontmetrics);
             CC_SETCOLOUR(script10495(3));
             CC_SETSIZE(50, (32 - 2), 0, 0);
-            CC_CREATE(121307148, 4, ((int6 * 3) + 2));
+            CC_CREATE(comp(1851, 12), 4, ((int6 * 3) + 2));
             CC_SETPOSITION(5, ((int6 * (32 + 2)) + 2), 0, 0);
             CC_SETSIZE(85, 32, 0, 0);
             CC_SETCOLOUR(script10495(3));
-            CC_SETTEXTSHADOW(1);
+            CC_SETTEXTSHADOW(true);
             CC_SETTEXTALIGN(0, 1, 0);
-            CC_SETTEXTFONT(26);
+            CC_SETTEXTFONT(26 as fontmetrics);
             string0 = struct_getparam(int8, 6421);
             string1 = "";
             if ((PARAHEIGHT(string0, CC_GETWIDTH(), CC_GETFONTMETRICS()) > 1)) {
@@ -110,17 +110,24 @@ function script13332(int0: number): void {
     var int13 = ENUM_GETOUTPUTCOUNT(11065 as cs2enum);
     while ((int6 < int13)) {
         int7 = (2 + ((45 + 2) * int6));
-        if (((int3 != -1 as cs2enum) && ((int6 + 1) > int0))) {
+        if (((int3 != -1) && ((int6 + 1) > int0))) {
             int7 = (int7 + (2 + (int5 * (32 + 2))));
         };
-        IF_SETPOSITION(0, int7, 1, 0, enum_getvalue(0, 9, 11065 as cs2enum, int6));
+        IF_SETPOSITION(0, int7, 1, 0, enum_getvalue(0, 9, 11065, int6));
         int6 = (int6 + 1);
     };
     script13329(int0);
     varplayer_6891 = struct_getparam(int2, 6422);
-    if (((int12 == -1 as cs2enum) && (varplayer_6891 != -1 as cs2enum))) {
-        script13334(varplayer_6891, 1);
-    } else if ((int12 != -1 as cs2enum)) {
+    if ((int12 == -1)) {
+        if ((varplayer_6891 != -1)) {
+            script13334(varplayer_6891, 1);
+        } else if ((int12 != -1)) {
+            varplayer_6891 = int12;
+            script13614(int12, varclient_5990, 2);
+        } else {
+            CC_DELETEALL(comp(1851, 40));
+        };
+    } else if ((int12 != -1)) {
         varplayer_6891 = int12;
         script13614(int12, varclient_5990, 2);
     } else {

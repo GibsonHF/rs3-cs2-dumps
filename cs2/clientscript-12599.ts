@@ -17,23 +17,100 @@ function script12599(int0: number, int1: number, int2: number, int3: number, int
     var int7 = IF_GETWIDTH(int6);
     var int8 = int4;
     var int9 = ((2 + ((int5 + 1) * (3 + int4))) + 3);
-    while (((--int8 >= 0) && (CC_FIND(int0, (int9 + int8)) == 1))) {
-        if (((CC_GETWIDTH() > 0) && ((CC_GETX() + CC_GETWIDTH()) > int7))) {
-            int8 = -1;
+    int8 = (int8 - 1);
+    while ((int8 >= 0)) {
+        if ((CC_FIND(int0, (int9 + int8)) == 1)) {
+            if (((CC_GETWIDTH() > 0) && ((CC_GETX() + CC_GETWIDTH()) > int7))) {
+                int8 = -1;
+            };
         };
+        if ((int8 < -1)) {
+            string0 = script12292(script12286(int2));
+            int8 = -1;
+            int8 = (int8 + 1);
+            while ((int8 < int4)) {
+                if ((CC_FIND(int0, (int9 + int8)) == 1)) {
+                    if ((CC_GETWIDTH() > 0)) {
+                        string0 = `${string0}<br>${enum_getvalue(0, 36, 10039 as cs2enum, cc_getparam(5946))}: ${CC_GETTEXT()}`;
+                    };
+                };
+                int8 = -1;
+                int8 = (int8 + 1);
+                while ((int8 < int4)) {
+                    if ((CC_FIND(int0, (int9 + int8)) == 1)) {
+                        CC_SETONMOUSEREPEAT(callback());
+                    };
+                    if (((STRING_LENGTH(string0) != 0) && (CC_FIND(int0, ((int9 - 3) + 2)) == 1))) {
+                        CC_SETONMOUSEREPEAT(callback(script3876, string0, -2147483645, -2147483643));
+                        script3877(string0, int0, CC_GETID());
+                    };
+                    return;
+                };
+                if (((STRING_LENGTH(string0) != 0) && (CC_FIND(int0, ((int9 - 3) + 2)) == 1))) {
+                    CC_SETONMOUSEREPEAT(callback(script3876, string0, -2147483645, -2147483643));
+                    script3877(string0, int0, CC_GETID());
+                };
+                return;
+            };
+        };
+        int8 = -1;
+        int8 = (int8 + 1);
+        while ((int8 < int4)) {
+            if ((CC_FIND(int0, (int9 + int8)) == 1)) {
+                CC_SETONMOUSEREPEAT(callback());
+            };
+            if (((STRING_LENGTH(string0) != 0) && (CC_FIND(int0, ((int9 - 3) + 2)) == 1))) {
+                CC_SETONMOUSEREPEAT(callback(script3876, string0, -2147483645, -2147483643));
+                script3877(string0, int0, CC_GETID());
+            };
+            return;
+        };
+        if (((STRING_LENGTH(string0) != 0) && (CC_FIND(int0, ((int9 - 3) + 2)) == 1))) {
+            CC_SETONMOUSEREPEAT(callback(script3876, string0, -2147483645, -2147483643));
+            script3877(string0, int0, CC_GETID());
+        };
+        return;
     };
     if ((int8 < -1)) {
         string0 = script12292(script12286(int2));
         int8 = -1;
-        while (((++int8 < int4) && (CC_FIND(int0, (int9 + int8)) == 1))) {
-            if ((CC_GETWIDTH() > 0)) {
-                string0 = `${string0}<br>${enum_getvalue(0, 36, 10039 as cs2enum, cc_getparam(5946))}: ${CC_GETTEXT()}`;
+        int8 = (int8 + 1);
+        while ((int8 < int4)) {
+            if ((CC_FIND(int0, (int9 + int8)) == 1)) {
+                if ((CC_GETWIDTH() > 0)) {
+                    string0 = `${string0}<br>${enum_getvalue(0, 36, 10039 as cs2enum, cc_getparam(5946))}: ${CC_GETTEXT()}`;
+                };
             };
+            int8 = -1;
+            int8 = (int8 + 1);
+            while ((int8 < int4)) {
+                if ((CC_FIND(int0, (int9 + int8)) == 1)) {
+                    CC_SETONMOUSEREPEAT(callback());
+                };
+                if (((STRING_LENGTH(string0) != 0) && (CC_FIND(int0, ((int9 - 3) + 2)) == 1))) {
+                    CC_SETONMOUSEREPEAT(callback(script3876, string0, -2147483645, -2147483643));
+                    script3877(string0, int0, CC_GETID());
+                };
+                return;
+            };
+            if (((STRING_LENGTH(string0) != 0) && (CC_FIND(int0, ((int9 - 3) + 2)) == 1))) {
+                CC_SETONMOUSEREPEAT(callback(script3876, string0, -2147483645, -2147483643));
+                script3877(string0, int0, CC_GETID());
+            };
+            return;
         };
     };
     int8 = -1;
-    while (((++int8 < int4) && (CC_FIND(int0, (int9 + int8)) == 1))) {
-        CC_SETONMOUSEREPEAT(callback());
+    int8 = (int8 + 1);
+    while ((int8 < int4)) {
+        if ((CC_FIND(int0, (int9 + int8)) == 1)) {
+            CC_SETONMOUSEREPEAT(callback());
+        };
+        if (((STRING_LENGTH(string0) != 0) && (CC_FIND(int0, ((int9 - 3) + 2)) == 1))) {
+            CC_SETONMOUSEREPEAT(callback(script3876, string0, -2147483645, -2147483643));
+            script3877(string0, int0, CC_GETID());
+        };
+        return;
     };
     if (((STRING_LENGTH(string0) != 0) && (CC_FIND(int0, ((int9 - 3) + 2)) == 1))) {
         CC_SETONMOUSEREPEAT(callback(script3876, string0, -2147483645, -2147483643));

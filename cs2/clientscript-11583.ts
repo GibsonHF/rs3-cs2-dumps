@@ -17,8 +17,8 @@ function script11583(): void {
     var string0 = "The skill you need to gain XP in for this competition.";
     var string1 = "Enter the minimum player skill level that can enter this competition.";
     var string2 = "Enter the maximum player skill level that can enter this competition.";
-    IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -1), 107151364);
-    IF_SETONMOUSEREPEAT(callback(script8799, string1, -2147483645, -1), 107151443);
-    IF_SETONMOUSEREPEAT(callback(script8799, string2, -2147483645, -1), 107151449);
+    IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -1), comp(1635, 4));
+    IF_SETONMOUSEREPEAT(callback(script8799, string1, -2147483645, -1), comp(1635, 83));
+    IF_SETONMOUSEREPEAT(callback(script8799, string2, -2147483645, -1), comp(1635, 89));
     return;
 }

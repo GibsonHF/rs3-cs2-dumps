@@ -35,12 +35,12 @@ function script943(int0: number): void {
                     break;
                 }
             };
-            IF_SETONMOUSEOVER(callback(script1881, 1, 1, 3932204, 3932205, 3932206), 3932203);
-            IF_SETONMOUSELEAVE(callback(script1881, 1, 0, 3932204, 3932205, 3932206), 3932203);
-            IF_SETONMOUSEOVER(callback(script1881, 0, 1, 3932210, 3932211, 3932212), 3932209);
-            IF_SETONMOUSELEAVE(callback(script1881, 0, 0, 3932210, 3932211, 3932212), 3932209);
-            IF_SETONMOUSEOVER(callback(script1881, 0, 1, 3932216, 3932217, 3932218), 3932215);
-            IF_SETONMOUSELEAVE(callback(script1881, 0, 0, 3932216, 3932217, 3932218), 3932215);
+            IF_SETONMOUSEOVER(callback(script1881, 1, 1, 3932204, 3932205, 3932206), comp(60, 43));
+            IF_SETONMOUSELEAVE(callback(script1881, 1, 0, 3932204, 3932205, 3932206), comp(60, 43));
+            IF_SETONMOUSEOVER(callback(script1881, 0, 1, 3932210, 3932211, 3932212), comp(60, 49));
+            IF_SETONMOUSELEAVE(callback(script1881, 0, 0, 3932210, 3932211, 3932212), comp(60, 49));
+            IF_SETONMOUSEOVER(callback(script1881, 0, 1, 3932216, 3932217, 3932218), comp(60, 55));
+            IF_SETONMOUSELEAVE(callback(script1881, 0, 0, 3932216, 3932217, 3932218), comp(60, 55));
             break;
         }
         case 2: {
@@ -73,12 +73,12 @@ function script943(int0: number): void {
                     break;
                 }
             };
-            IF_SETONMOUSEOVER(callback(script1881, 0, 1, 3932204, 3932205, 3932206), 3932203);
-            IF_SETONMOUSELEAVE(callback(script1881, 0, 0, 3932204, 3932205, 3932206), 3932203);
-            IF_SETONMOUSEOVER(callback(script1881, 1, 1, 3932210, 3932211, 3932212), 3932209);
-            IF_SETONMOUSELEAVE(callback(script1881, 1, 0, 3932210, 3932211, 3932212), 3932209);
-            IF_SETONMOUSEOVER(callback(script1881, 0, 1, 3932216, 3932217, 3932218), 3932215);
-            IF_SETONMOUSELEAVE(callback(script1881, 0, 0, 3932216, 3932217, 3932218), 3932215);
+            IF_SETONMOUSEOVER(callback(script1881, 0, 1, 3932204, 3932205, 3932206), comp(60, 43));
+            IF_SETONMOUSELEAVE(callback(script1881, 0, 0, 3932204, 3932205, 3932206), comp(60, 43));
+            IF_SETONMOUSEOVER(callback(script1881, 1, 1, 3932210, 3932211, 3932212), comp(60, 49));
+            IF_SETONMOUSELEAVE(callback(script1881, 1, 0, 3932210, 3932211, 3932212), comp(60, 49));
+            IF_SETONMOUSEOVER(callback(script1881, 0, 1, 3932216, 3932217, 3932218), comp(60, 55));
+            IF_SETONMOUSELEAVE(callback(script1881, 0, 0, 3932216, 3932217, 3932218), comp(60, 55));
             break;
         }
         case 3: {
@@ -111,12 +111,12 @@ function script943(int0: number): void {
                     break;
                 }
             };
-            IF_SETONMOUSEOVER(callback(script1881, 0, 1, 3932204, 3932205, 3932206), 3932203);
-            IF_SETONMOUSELEAVE(callback(script1881, 0, 0, 3932204, 3932205, 3932206), 3932203);
-            IF_SETONMOUSEOVER(callback(script1881, 0, 1, 3932210, 3932211, 3932212), 3932209);
-            IF_SETONMOUSELEAVE(callback(script1881, 0, 0, 3932210, 3932211, 3932212), 3932209);
-            IF_SETONMOUSEOVER(callback(script1881, 1, 1, 3932216, 3932217, 3932218), 3932215);
-            IF_SETONMOUSELEAVE(callback(script1881, 1, 0, 3932216, 3932217, 3932218), 3932215);
+            IF_SETONMOUSEOVER(callback(script1881, 0, 1, 3932204, 3932205, 3932206), comp(60, 43));
+            IF_SETONMOUSELEAVE(callback(script1881, 0, 0, 3932204, 3932205, 3932206), comp(60, 43));
+            IF_SETONMOUSEOVER(callback(script1881, 0, 1, 3932210, 3932211, 3932212), comp(60, 49));
+            IF_SETONMOUSELEAVE(callback(script1881, 0, 0, 3932210, 3932211, 3932212), comp(60, 49));
+            IF_SETONMOUSEOVER(callback(script1881, 1, 1, 3932216, 3932217, 3932218), comp(60, 55));
+            IF_SETONMOUSELEAVE(callback(script1881, 1, 0, 3932216, 3932217, 3932218), comp(60, 55));
             break;
         }
     };

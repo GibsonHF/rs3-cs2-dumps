@@ -53,7 +53,7 @@ function script9915(int0: number, int1: number, int2: number): void {
                 case 2: {
                     varbitplayer_18801 = 0;
                     CHAT_GETFILTER_PUBLIC();
-                    CHAT_GETFILTER_TRADE(stack(), 2);
+                    CHAT_GETFILTER_TRADE(2);
                     CHAT_SETFILTER();
                     break;
                 }

@@ -12,16 +12,17 @@ function script4717(int0: number, int1: number, int2: number): void {
     var int10 = ENUM_GETOUTPUTCOUNT(int2);
     var int11 = 5;
     var int12 = 13;
-    var int13 = 26 as fontmetrics;
+    var int13 = 26;
     var int14 = script13749();
     if ((varbitplayer_34815 == 1)) {
         if ((int14 == 1)) {
-            int13 = 32 as fontmetrics;
+            int13 = 32;
             int12 = 30;
         };
         int11 = 4;
     };
-    while ((++int3 < int10)) {
+    int3 = (int3 + 1);
+    while ((int3 < int10)) {
         int4 = enum_getvalue(0, 73, int2, int3);
         int5 = struct_getparam(int4, 1420);
         int7 = script4718(int4);
@@ -31,9 +32,9 @@ function script4717(int0: number, int1: number, int2: number): void {
         if ((int7 == 0)) {
             int5 = struct_getparam(int4, 1421);
         };
-        if ((int4 == 1783 as struct)) {
+        if ((int4 == 1783)) {
             if ((GENDER() > 0)) {
-                int4 = 1789 as struct;
+                int4 = 1789;
                 int5 = struct_getparam(int4, 1420);
                 string0 = struct_getparam(int4, 1419);
                 CC_SETOP(1, "Curtsy");
@@ -42,13 +43,17 @@ function script4717(int0: number, int1: number, int2: number): void {
                 CC_SETOP(1, "Bow");
                 CC_SETOP(2, "Curtsy");
             };
-        } else if ((int4 == 19557 as struct)) {
+        } else if ((int4 == 19557)) {
             CC_SETOP(1, "Talk (A)");
             CC_SETOP(2, "Talk (B)");
         };
-        if (((int7 == 1) && (struct_getparam(int4, 5430) == 1))) {
-            CC_SETOP(1, string0);
-            CC_SETOP(2, struct_getparam(int4, 9006));
+        if ((int7 == 1)) {
+            if ((struct_getparam(int4, 5430) == 1)) {
+                CC_SETOP(1, string0);
+                CC_SETOP(2, struct_getparam(int4, 9006));
+            } else {
+                CC_SETOP(1, string0);
+            };
         } else {
             CC_SETOP(1, string0);
         };

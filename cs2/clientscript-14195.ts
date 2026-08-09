@@ -5,6 +5,6 @@ function script14195(int0: number): number {
     };
     var int1 = 0;
     var int2 = 0;
-    [int1, int1, int2, int1] = UNKNOWN_COMMAND_126();
+    [int1, int1, int2, int1] = VIEWPORT_GETBOUNDS();
     return int2;
 }

@@ -150,7 +150,7 @@ function script15386(int0: number, int1: number): void {
                     case 0: {
                         CC_SETTRANS(255);
                         CC_SETONTIMER(callback());
-                        if ((int5 != -1)) {
+                        if ((int5 != comp(-1, 65535))) {
                             IF_SETHIDE(true, int5);
                         };
                         break;

@@ -20,7 +20,8 @@ function script8575(int0: number): void {
             script8572(int2);
             script8574(int2);
         };
-        if ((++int2 > 9)) {
+        int2 = (int2 + 1);
+        if ((int2 > 9)) {
             int1 = 1;
             return;
         };

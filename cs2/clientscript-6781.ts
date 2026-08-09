@@ -1,32 +1,32 @@
 //
 function script6781(int0: number): void {
     var int1 = -1;
-    var int2 = comp(-1, 65535);
-    var int3 = comp(-1, 65535);
-    var int4 = comp(-1, 65535);
+    var int2 = -1;
+    var int3 = -1;
+    var int4 = -1;
     var string0 = "";
     var string1 = "";
-    var int5 = -1 as dbrow;
+    var int5 = -1;
     switch (int0) {
         case 1: {
             int1 = varbitplayer_54405;
-            int2 = comp(631, 51);
-            int3 = comp(631, 52);
-            int4 = comp(631, 50);
+            int2 = 41353267;
+            int3 = 41353268;
+            int4 = 41353266;
             break;
         }
         case 2: {
             int1 = varbitplayer_54406;
-            int2 = comp(631, 58);
-            int3 = comp(631, 59);
-            int4 = comp(631, 57);
+            int2 = 41353274;
+            int3 = 41353275;
+            int4 = 41353273;
             break;
         }
         case 3: {
             int1 = varbitplayer_54407;
-            int2 = comp(631, 64);
-            int3 = comp(631, 65);
-            int4 = comp(631, 63);
+            int2 = 41353280;
+            int3 = 41353281;
+            int4 = 41353279;
             break;
         }
         default: {
@@ -37,13 +37,13 @@ function script6781(int0: number): void {
     var int6 = dbrow_getfield(int5, 663600, 0);
     CC_DELETEALL(int4);
     var int7 = 0;
-    var int8 = comp(-1, 65535);
-    var int9 = -1 as material;
+    var int8 = -1;
+    var int9 = -1;
     var int10 = 0;
     var int11 = 0;
-    var int12 = -1 as obj;
+    var int12 = -1;
     var int13 = 0;
-    var int14 = -1 as model;
+    var int14 = -1;
     var int15 = 0;
     var int16 = 0;
     var int17 = 0;
@@ -107,7 +107,6 @@ function script6781(int0: number): void {
         [int12, int13] = dbrow_getfield(int5, 663664, 0);
         switch (int12) {
             default: {
-                break;
             }
         };
         string0 = "Instant reward";
@@ -129,7 +128,7 @@ function script6781(int0: number): void {
                 CC_SETRECOL(int21, dbrow_getfield(int5, 663744, (int21 - 1)));
                 int21 = (int21 - 1);
             };
-        } else if ((int12 != -1 as obj)) {
+        } else if ((int12 != -1)) {
             CC_CREATE(int4, 5, int7);
             int7 = (int7 + 1);
             CC_SETOBJECT(int12, int13);

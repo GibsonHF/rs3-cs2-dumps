@@ -292,12 +292,12 @@ function script2573(int0: number, int1: number): void {
     };
     IF_SETTEXT(struct_getparam(int2, 5034), comp(1615, 311));
     IF_SETOBJECT_NONUM(struct_getparam(int2, 5035), 0, comp(1615, 309));
-    var int3 = -1 as obj;
-    var int4 = -1 as obj;
-    var int5 = -1 as obj;
-    var int6 = -1 as obj;
-    var int7 = -1 as obj;
-    if ((struct_getparam(int2, 5036) != -1 as obj)) {
+    var int3 = -1;
+    var int4 = -1;
+    var int5 = -1;
+    var int6 = -1;
+    var int7 = -1;
+    if ((struct_getparam(int2, 5036) != -1)) {
         int3 = struct_getparam(int2, 5036);
         int4 = struct_getparam(int2, 5037);
         int5 = struct_getparam(int2, 5038);
@@ -315,8 +315,8 @@ function script2573(int0: number, int1: number): void {
         IF_SETOBJECT_NONUM(-1 as obj, 0, comp(1615, 290));
         IF_SETOBJECT_NONUM(-1 as obj, 0, comp(1615, 291));
     };
-    if ((struct_getparam(int2, 5041) != -1 as stat)) {
-        IF_SETTEXT(`Bonus ${enum_getvalue(17, 36, 680 as cs2enum, struct_getparam(int2, 5041))} XP`, comp(1615, 294));
+    if ((struct_getparam(int2, 5041) != -1)) {
+        IF_SETTEXT(`Bonus ${enum_getvalue(17, 36, 680, struct_getparam(int2, 5041))} XP`, comp(1615, 294));
     } else {
         IF_SETTEXT("", comp(1615, 294));
     };
@@ -325,7 +325,7 @@ function script2573(int0: number, int1: number): void {
     } else {
         IF_SETTEXT(`Alch value ${struct_getparam(int2, 7783)}`, comp(1615, 298));
     };
-    if ((struct_getparam(int2, 7784) != -1 as graphic)) {
+    if ((struct_getparam(int2, 7784) != -1)) {
         IF_SETGRAPHIC(struct_getparam(int2, 7784), comp(1615, 303));
         IF_SETGRAPHIC(struct_getparam(int2, 7785), comp(1615, 304));
         IF_SETGRAPHIC(struct_getparam(int2, 7786), comp(1615, 305));

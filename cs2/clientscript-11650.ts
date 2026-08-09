@@ -8,6 +8,7 @@ function script11650(int0: number): number {
             return 1;
         }
         case 3: {
+            break;
         }
         default: {
             return 3;

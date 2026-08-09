@@ -8,6 +8,7 @@ function script17701(int0: number): string {
             return "Power";
         }
         case 3: {
+            break;
         }
         default: {
             return "None";

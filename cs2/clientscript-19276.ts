@@ -1,33 +1,33 @@
 //
 function script19276(int0: number): void {
     var int1 = 0;
-    var int2 = comp(-1, 65535);
-    var int3 = comp(-1, 65535);
-    var int4 = comp(-1, 65535);
-    var int5 = comp(-1, 65535);
-    var int6 = comp(-1, 65535);
-    var int7 = comp(-1, 65535);
+    var int2 = -1;
+    var int3 = -1;
+    var int4 = -1;
+    var int5 = -1;
+    var int6 = -1;
+    var int7 = -1;
     var int8 = -1;
     switch (int0) {
         case 1: {
             int1 = varbitplayer_56171;
-            int2 = comp(1290, 61);
-            int3 = comp(1290, 183);
-            int4 = comp(1290, 66);
-            int5 = comp(1290, 69);
-            int6 = comp(1290, 70);
-            int7 = comp(1290, 192);
+            int2 = 84541501;
+            int3 = 84541623;
+            int4 = 84541506;
+            int5 = 84541509;
+            int6 = 84541510;
+            int7 = 84541632;
             int8 = 84541512;
             break;
         }
         case 2: {
             int1 = varbitplayer_56172;
-            int2 = comp(1290, 62);
-            int3 = comp(1290, 190);
-            int4 = comp(1290, 74);
-            int5 = comp(1290, 186);
-            int6 = comp(1290, 187);
-            int7 = comp(1290, 193);
+            int2 = 84541502;
+            int3 = 84541630;
+            int4 = 84541514;
+            int5 = 84541626;
+            int6 = 84541627;
+            int7 = 84541633;
             int8 = 84541629;
             break;
         }
@@ -66,10 +66,11 @@ function script19276(int0: number): void {
     };
     IF_SETTEXT(string0, int5);
     var int15 = DB_GETFIELDCOUNT(int9, 1216560);
-    var int16 = -1 as dbrow;
+    var int16 = -1;
     var int17 = 0;
     var int18 = -1;
-    while ((++int18 < int15)) {
+    int18 = (int18 + 1);
+    while ((int18 < int15)) {
         int16 = dbrow_getfield(int9, 1216560, int18);
         if ((DB_GETROWTABLE(int16) == 298)) {
             int17 = (int17 + (DB_GETFIELDCOUNT(int16, 1220688) - 1));
@@ -81,13 +82,14 @@ function script19276(int0: number): void {
         stack(CC_GETMODELXOF());
         stack(CC_GETMODELYOF());
         CC_GETMODELANGLE_X();
-        CC_SETMODELANGLE(stack(), CC_GETMODELANGLE_Y(), CC_GETMODELANGLE_Z(), SCALE(250, 100, CC_GETMODELZOOM()));
+        CC_SETMODELANGLE(CC_GETMODELANGLE_Y(), CC_GETMODELANGLE_Z(), SCALE(250, 100, CC_GETMODELZOOM()));
         CC_SETPOSITION(0, -10, 1, 1);
     };
     var int19 = DB_GETFIELDCOUNT(int9, 1216576);
     var int20 = 1;
     var int21 = 0;
-    while ((++int21 <= 8)) {
+    int21 = (int21 + 1);
+    while ((int21 <= 8)) {
         int20 = dbrow_getfield(int9, 1216576, (int21 - 1));
         script15938(int8, int21, 0, 0, 0, 1, 1, 35, 43, 0, 0);
         script7918(int21, 2, 0, 0, 1, 1, 0, 0, 1, 1, script227(int20));

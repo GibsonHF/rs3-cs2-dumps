@@ -4,8 +4,12 @@ function script2667(): void {
     if ((int0 == comp(-1, 65535))) {
         return;
     };
-    if (((IF_GETX(int0) >= 17) && (IF_GETX(int0) <= 57))) {
-        script11106(37, IF_GETY(int0), int0);
+    if ((IF_GETX(int0) >= 17)) {
+        if ((IF_GETX(int0) <= 57)) {
+            script11106(37, IF_GETY(int0), int0);
+        } else {
+            IF_SETPOSITION(IF_GETX(int0), IF_GETY(int0), 0, 0, int0);
+        };
     } else {
         IF_SETPOSITION(IF_GETX(int0), IF_GETY(int0), 0, 0, int0);
     };

@@ -14,7 +14,7 @@ function script18915(int0: number, int1: number, int2: number, int3: number, int
     CC_SETCOLOUR(int11);
     script7920(84148253, 3, varbitclient_55448, 0, varbitclient_55448, 0, 0, 2, 1, 16, 0, 0, 1, 33780);
     CC_SETCOLOUR(int11);
-    CC_SETHFLIP(1);
+    CC_SETHFLIP(true);
     if ((int6 > int8)) {
         if ((int5 != int8)) {
             int14 = (91 + int13);

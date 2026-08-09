@@ -43,9 +43,35 @@ function script19542(int0: number, int1: number, int2: number, int3: number): vo
             int6 = script19584(int8, 0, 1);
             int7 = int6;
         };
-        if (((int6 == -1) && (int7 == -1))) {
-            varclient_6707 = (200 + 1);
-            varclient_6708 = 0;
+        if ((int6 == -1)) {
+            if ((int7 == -1)) {
+                varclient_6707 = (200 + 1);
+                varclient_6708 = 0;
+            } else {
+                if ((int14 == 1)) {
+                    if (((IF_GETHIDE(comp(1313, 82)) == true) && (IF_GETHIDE(comp(1313, 80)) == true))) {
+                        if (((int6 != -1) && (CC_FIND[1](comp(1313, 75), int6) == 1))) {
+                            varclient_6707 = -1;
+                            varclient_6708 = 1;
+                            script19543(86048850);
+                        };
+                        if (((int7 != -1) && (CC_FIND[1](comp(1313, 75), int7) == 1))) {
+                            if ((int6 == -1)) {
+                                varclient_6707 = (200 + 1);
+                                varclient_6708 = 0;
+                                script19543(86048848);
+                            };
+                            int13 = MAX(0, MAX((((CC_GETY[1]() + CC_GETHEIGHT[1]()) + 2) - (int11 / 2)), MIN(((CC_GETY[1]() - 2) - (int11 / 2)), int13)));
+                            script157(86048838, 86048842, int13, 1);
+                        };
+                    };
+                } else {
+                    varclient_6708 = 0;
+                    IF_SETHIDE(true, comp(1313, 82));
+                    IF_SETHIDE(true, comp(1313, 80));
+                };
+                return;
+            };
         } else {
             if ((int14 == 1)) {
                 if (((IF_GETHIDE(comp(1313, 82)) == true) && (IF_GETHIDE(comp(1313, 80)) == true))) {

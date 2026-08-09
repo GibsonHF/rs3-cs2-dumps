@@ -10,7 +10,7 @@ function script13845(int0: number, int1: number, int2: number, int3: number, int
     var int13 = 0;
     var int14 = -1;
     var int15 = -1;
-    var int16 = -1 as struct;
+    var int16 = -1;
     var int17 = script14441();
     var string0 = "";
     var int18 = script6431();
@@ -32,19 +32,23 @@ function script13845(int0: number, int1: number, int2: number, int3: number, int
         };
         if ((int13 == 0)) {
             int14 = script10405(int6);
-            if (((int3 != 3) && (varbitplayer_22875 == 0))) {
-                int12 = script8314(int6);
-                if (((int12 == -1) || (int12 != int6))) {
-                    int11 = 1;
+            if ((int3 != 3)) {
+                if ((varbitplayer_22875 == 0)) {
+                    int12 = script8314(int6);
+                    if (((int12 == -1) || (int12 != int6))) {
+                        int11 = 1;
+                    } else {
+                        int11 = 0;
+                    };
                 } else {
-                    int11 = 0;
+                    int11 = 1;
                 };
             } else {
                 int11 = 1;
             };
         } else {
             int14 = int15;
-            if ((((int7 == 4) && (int17 != -1)) && (struct_getparam(int17, 6285) != -1 as struct))) {
+            if ((((int7 == 4) && (int17 != -1)) && (struct_getparam(int17, 6285) != -1))) {
                 int16 = struct_getparam(int17, 6285);
             };
             int11 = script8285(int7);
@@ -85,8 +89,14 @@ function script13845(int0: number, int1: number, int2: number, int3: number, int
                     CC_SETNOCLICKTHROUGH(true);
                     if ((int13 == 0)) {
                         CC_SETONOP(callback(script8146, int6));
-                        if ((((int6 == 17) || (int8 == 1)) || ((varbitplayer_36885 == 1) && (int18 == 0)))) {
+                        if (((int6 == 17) || (int8 == 1))) {
                             CC_SETOP(1, "Open");
+                        } else if ((varbitplayer_36885 == 1)) {
+                            if ((int18 == 0)) {
+                                CC_SETOP(1, "Open");
+                            } else {
+                                CC_SETOP(1, "Close");
+                            };
                         } else {
                             CC_SETOP(1, "Close");
                         };
@@ -113,7 +123,7 @@ function script13845(int0: number, int1: number, int2: number, int3: number, int
                     if ((CC_FIND[1](int1, int4) == 1)) {
                         CC_SETONDRAGCOMPLETE[1](callback(script2395, int6, -2147483645, -2147483643, -2147483642));
                         CC_SETMOUSEOVERCURSOR[1](194);
-                        CC_SETDRAGGABLE[1](37158919, -1);
+                        CC_SETDRAGGABLE[1](comp(567, 7), -1);
                         if ((script13749() == 0)) {
                             CC_SETDRAGDEADZONE[1](5);
                             CC_SETDRAGDEADTIME[1](5);

@@ -7,7 +7,7 @@ function script17749(int0: number, int1: number): void {
     var string0 = "";
     if ((int1 != -1)) {
         [int2, string0] = script17490(int1);
-        if ((int0 != -1 as dbrow)) {
+        if ((int0 != -1)) {
             IF_SETTEXT(`Requires:<br>- Access to tier <col=ffffff>${dbrow_getfield(int0, 950272, 0)}</col> talents`, comp(1222, 139));
         } else {
             IF_SETTEXT("Requires:", comp(1222, 139));
@@ -15,13 +15,13 @@ function script17749(int0: number, int1: number): void {
         IF_SETTEXT(script17486(int1), comp(1222, 134));
         IF_SETGRAPHIC(script17489(int1, 0, 1), comp(1222, 137));
         IF_SETTEXT(`${IF_GETTEXT(comp(1222, 139))}${string0}`, comp(1222, 139));
-    } else if ((int0 != -1 as dbrow)) {
+    } else if ((int0 != -1)) {
         [int2, string0] = script17482(int0);
         IF_SETTEXT(`Tier <col=ffffff>${dbrow_getfield(int0, 950272, 0)}</col>`, comp(1222, 134));
         IF_SETGRAPHIC(25128 as graphic, comp(1222, 137));
         IF_SETTEXT(`Requires:${string0}`, comp(1222, 139));
     } else if ((varplayer_11091 != -1 as dbrow)) {
-        IF_SETTEXT(dbrow_getfield(varplayer_11091, 946192, 0), comp(1222, 134));
+        IF_SETTEXT(dbrow_getfield(varplayer_11091, 946192, 0), 80085126);
         IF_SETGRAPHIC(25128 as graphic, comp(1222, 137));
         switch (varplayer_11091) {
             case 7599: {

@@ -5,7 +5,7 @@ function script15163(int0: number, int1: number, int2: number, int3: number): vo
     };
     var int4 = 0;
     var int5 = MIN(10, DB_GETFIELDCOUNT(int0, 458752));
-    var int6 = comp(-1, 65535);
+    var int6 = -1;
     while ((int4 < 10)) {
         int6 = script15130(int4);
         IF_SETHIDE(true, int6);
@@ -14,13 +14,13 @@ function script15163(int0: number, int1: number, int2: number, int3: number): vo
         IF_SETPARAM_INT(4052, 0, int6);
         int4 = (int4 + 1);
     };
-    int6 = comp(-1, 65535);
+    int6 = -1;
     int4 = 0;
     var string0 = "";
-    var int7 = -1 as cs2enum;
-    var int8 = comp(-1, 65535);
-    var int9 = comp(-1, 65535);
-    var int10 = comp(-1, 65535);
+    var int7 = -1;
+    var int8 = -1;
+    var int9 = -1;
+    var int10 = -1;
     var int11 = 0;
     var int12 = 1;
     var int13 = 0;
@@ -28,8 +28,7 @@ function script15163(int0: number, int1: number, int2: number, int3: number): vo
         int12 = 0;
     };
     while ((int4 < int5)) {
-        stack(dbrow_getfield(int0, 458752, int4));
-        [string0, int7] = stack();
+        [string0, int7] = dbrow_getfield(int0, 458752, int4);
         [int6, int8, int9, int10] = script15136(int4);
         CC_DELETEALL(int8);
         CC_DELETEALL(int10);

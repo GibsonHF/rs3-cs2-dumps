@@ -4,7 +4,7 @@ function script3464(int0: number, int1: number): void {
         stack(CC_GETMODELXOF());
         stack(CC_GETMODELYOF());
         CC_GETMODELANGLE_X();
-        CC_SETMODELANGLE(stack(), MODULO((CC_GETMODELANGLE_Y() + 2), 2028), CC_GETMODELANGLE_Z(), CC_GETMODELZOOM());
+        CC_SETMODELANGLE(MODULO((CC_GETMODELANGLE_Y() + 2), 2028), CC_GETMODELANGLE_Z(), CC_GETMODELZOOM());
     };
     return;
 }

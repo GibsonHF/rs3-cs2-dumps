@@ -1,7 +1,7 @@
 //
 function script19151(int0: number): [number, number] {
-    var int1 = -1 as npc;
-    var int2 = -1 as seq;
+    var int1 = -1;
+    var int2 = -1;
     switch (DB_GETROWTABLE(int0)) {
         case 193: {
             [int1, int2] = dbrow_getfield(int0, 790544, 0);

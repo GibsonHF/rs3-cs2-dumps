@@ -22,26 +22,31 @@ function script662(int0: number): void {
     };
     script6199(int1, 18266, (int5 - 2), (int6 - 2), 40, 36);
     var int12 = 1140;
-    if ((((int10 == comp(-1, 65535)) || (IF_GETHIDE(int10) == true)) && (CC_FIND(int1, int11) == 1))) {
-        CC_SETONMOUSEOVER(callback(script688, -2147483645, -2147483643, int12));
-        int12 = 18266;
-        CC_SETONMOUSELEAVE(callback(script688, -2147483645, -2147483643, int12));
-        if ((int7 != -1)) {
-            if ((OC_CERT(int7) != int7)) {
-                if ((INV_GETNUM(int2, 0) > 1)) {
-                    CC_SETOP(1, "Collect-notes");
-                    CC_SETOP(2, "Collect-items");
+    if (((int10 == comp(-1, 65535)) || (IF_GETHIDE(int10) == true))) {
+        if ((CC_FIND(int1, int11) == 1)) {
+            CC_SETONMOUSEOVER(callback(script688, -2147483645, -2147483643, int12));
+            int12 = 18266;
+            CC_SETONMOUSELEAVE(callback(script688, -2147483645, -2147483643, int12));
+            if ((int7 != -1 as obj)) {
+                if ((OC_CERT(int7) != int7)) {
+                    if ((INV_GETNUM(int2, 0) > 1)) {
+                        CC_SETOP(1, "Collect-notes");
+                        CC_SETOP(2, "Collect-items");
+                    } else {
+                        CC_SETOP(1, "Collect-items");
+                        CC_SETOP(2, "Collect-notes");
+                    };
                 } else {
-                    CC_SETOP(1, "Collect-items");
-                    CC_SETOP(2, "Collect-notes");
+                    CC_SETOP(1, "Collect");
                 };
-            } else {
-                CC_SETOP(1, "Collect");
+                CC_SETOPBASE(OC_NAME(int7));
             };
-            CC_SETOPBASE(OC_NAME(int7));
         };
     };
-    CC_CREATE(int1, 5, ++int11);
+    stack(int1);
+    stack(5);
+    int11 = (int11 + 1);
+    CC_CREATE(int11);
     CC_SETPOSITION(int5, int6, 0, 0);
     CC_SETSIZE(36, 32, 0, 0);
     if ((script17378(int7) == 1)) {
@@ -51,27 +56,34 @@ function script662(int0: number): void {
     };
     int5 = ((int3 / 2) + 4);
     script6199(int1, 18266, (int5 - 2), (int6 - 2), 40, 36);
-    if ((((int10 == comp(-1, 65535)) || (IF_GETHIDE(int10) == true)) && (CC_FIND(int1, ++int11) == 1))) {
-        int12 = 1140;
-        CC_SETONMOUSEOVER(callback(script688, -2147483645, -2147483643, int12));
-        int12 = 18266;
-        CC_SETONMOUSELEAVE(callback(script688, -2147483645, -2147483643, int12));
-        if ((int8 != -1)) {
-            if ((OC_CERT(int8) != int8)) {
-                if ((INV_GETNUM(int2, 1) > 1)) {
-                    CC_SETOP(1, "Collect-notes");
-                    CC_SETOP(2, "Collect-items");
+    if (((int10 == comp(-1, 65535)) || (IF_GETHIDE(int10) == true))) {
+        stack(int1);
+        int11 = (int11 + 1);
+        if ((CC_FIND(int11) == 1)) {
+            int12 = 1140;
+            CC_SETONMOUSEOVER(callback(script688, -2147483645, -2147483643, int12));
+            int12 = 18266;
+            CC_SETONMOUSELEAVE(callback(script688, -2147483645, -2147483643, int12));
+            if ((int8 != -1 as obj)) {
+                if ((OC_CERT(int8) != int8)) {
+                    if ((INV_GETNUM(int2, 1) > 1)) {
+                        CC_SETOP(1, "Collect-notes");
+                        CC_SETOP(2, "Collect-items");
+                    } else {
+                        CC_SETOP(1, "Collect-items");
+                        CC_SETOP(2, "Collect-notes");
+                    };
                 } else {
-                    CC_SETOP(1, "Collect-items");
-                    CC_SETOP(2, "Collect-notes");
+                    CC_SETOP(1, "Collect");
                 };
-            } else {
-                CC_SETOP(1, "Collect");
+                CC_SETOPBASE(OC_NAME(int8));
             };
-            CC_SETOPBASE(OC_NAME(int8));
         };
     };
-    CC_CREATE(int1, 5, ++int11);
+    stack(int1);
+    stack(5);
+    int11 = (int11 + 1);
+    CC_CREATE(int11);
     CC_SETPOSITION(int5, int6, 0, 0);
     CC_SETSIZE(36, 32, 0, 0);
     if ((script17378(int8) == 1)) {
@@ -79,7 +91,14 @@ function script662(int0: number): void {
     } else {
         CC_SETOBJECT(int8, INV_GETNUM(int2, 1));
     };
-    int11 = script652(11, 11, (int3 - 65), 16, int0, int1, ++int11, 1, 0, 0);
+    stack(11);
+    stack(11);
+    stack((int3 - 65));
+    stack(16);
+    stack(int0);
+    stack(int1);
+    int11 = (int11 + 1);
+    int11 = script652(int11, 1, 0, 0);
     CC_CREATE(int1, 3, int11);
     int5 = (int3 - 30);
     CC_SETPOSITION(int5, 11, 0, 0);
@@ -87,7 +106,10 @@ function script662(int0: number): void {
     CC_SETCOLOUR(0);
     CC_SETTRANS(160);
     CC_SETFILL(1);
-    CC_CREATE(int1, 5, ++int11);
+    stack(int1);
+    stack(5);
+    int11 = (int11 + 1);
+    CC_CREATE(int11);
     var int13 = STOCKMARKET_GETOFFERITEM(int0, 0);
     if ((STOCKMARKET_ISOFFEREMPTY(int0, 0) == 0)) {
         CC_SETPOSITION(int5, 11, 0, 0);
@@ -95,14 +117,20 @@ function script662(int0: number): void {
         CC_SETOBJECT(int13, -1);
         script3537(script18300(int13));
     };
-    CC_CREATE(int1, 3, ++int11);
+    stack(int1);
+    stack(3);
+    int11 = (int11 + 1);
+    CC_CREATE(int11);
     int5 = (int3 - 50);
     CC_SETPOSITION(int5, 11, 0, 0);
     CC_SETSIZE(18, 16, 0, 0);
     CC_SETCOLOUR(0);
     CC_SETTRANS(160);
     CC_SETFILL(1);
-    CC_CREATE(int1, 5, ++int11);
+    stack(int1);
+    stack(5);
+    int11 = (int11 + 1);
+    CC_CREATE(int11);
     var string0 = "null";
     if ((STOCKMARKET_ISOFFEREMPTY(int0, 0) == 0)) {
         CC_SETPOSITION(int5, 12, 0, 0);

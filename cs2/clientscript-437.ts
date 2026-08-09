@@ -19,7 +19,8 @@ function script437(int0: number, int1: number, int2: number, int3: number, int4:
     var int9 = 0;
     var int10 = -1;
     var int11 = -1;
-    while ((++int11 < int7)) {
+    int11 = (int11 + 1);
+    while ((int11 < int7)) {
         [int9, int10] = dbrow_getfield(int0, 143360, int11);
         if (((((((int9 != int1) && (int9 != int2)) && (int9 != int3)) && (int9 != int4)) && (int9 != int5)) && (int9 != int6))) {
             int8 = (int8 + int10);
@@ -33,7 +34,8 @@ function script437(int0: number, int1: number, int2: number, int3: number, int4:
     };
     var int12 = RANDOM(int8);
     int11 = -1;
-    while ((++int11 < int7)) {
+    int11 = (int11 + 1);
+    while ((int11 < int7)) {
         if ((int12 < push_array(int11))) {
             return push_array[1](int11);
         };

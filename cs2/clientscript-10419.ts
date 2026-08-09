@@ -6,9 +6,7 @@ function script10419(int0: number, int1: number, int2: number, int3: number, int
     var int12 = 0;
     var int13 = -1;
     if ((int6 < 1)) {
-        stack(string2);
-        stack(0);
-        [string4, int10] = stack();
+        [string4, int10] = [string2, 0];
     };
     var int14 = struct_getparam(int9, 7526);
     if ((int6 >= 1)) {
@@ -24,7 +22,7 @@ function script10419(int0: number, int1: number, int2: number, int3: number, int
     if ((int7 == 1)) {
         int18 = script9984(int14, 5);
     };
-    if ((int18 == -1 as struct)) {
+    if ((int18 == -1)) {
         return [int3, int5];
     };
     if (((int7 == 1) && (STRING_LENGTH(string3) > 0))) {
@@ -40,32 +38,36 @@ function script10419(int0: number, int1: number, int2: number, int3: number, int
     };
     if ((STRING_LENGTH(string0) > 0)) {
         int11 = script7593(string0, (int4 - 20), 26, -1);
-        if (((int4 >= 50) && (int11 > 0))) {
-            if ((int11 > IF_GETHEIGHT(int0))) {
-                int11 = IF_GETHEIGHT(int0);
-                int12 = MAX(1, (int11 / 12));
-            };
-            CC_CREATE(int0, 4, IF_GETNEXTSUBID(int0));
-            CC_SETSIZE((int4 - 20), int11, 0, 0);
-            if ((int11 < 18)) {
-                CC_SETPOSITION((int2 + 20), (int3 + ((18 - int11) / 2)), 0, 0);
-            } else {
-                CC_SETPOSITION((int2 + 20), int3, 0, 0);
-            };
-            CC_SETTEXT(string0);
-            CC_SETTEXTFONT(26 as fontmetrics);
-            CC_SETTEXTALIGN(0, 1, 12);
-            CC_SETTEXTSHADOW(true);
-            if ((int7 == 1)) {
-                CC_SETCOLOUR(script10495(5));
-                if ((strcmp(string3, "") != 0)) {
+        if ((int4 >= 50)) {
+            if ((int11 > 0)) {
+                if ((int11 > IF_GETHEIGHT(int0))) {
+                    int11 = IF_GETHEIGHT(int0);
+                    int12 = MAX(1, (int11 / 12));
+                };
+                CC_CREATE(int0, 4, IF_GETNEXTSUBID(int0));
+                CC_SETSIZE((int4 - 20), int11, 0, 0);
+                if ((int11 < 18)) {
+                    CC_SETPOSITION((int2 + 20), (int3 + ((18 - int11) / 2)), 0, 0);
+                } else {
+                    CC_SETPOSITION((int2 + 20), int3, 0, 0);
+                };
+                CC_SETTEXT(string0);
+                CC_SETTEXTFONT(26 as fontmetrics);
+                CC_SETTEXTALIGN(0, 1, 12);
+                CC_SETTEXTSHADOW(true);
+                if ((int7 == 1)) {
+                    CC_SETCOLOUR(script10495(5));
+                    if ((strcmp(string3, "") != 0)) {
+                        CC_SETONMOUSEREPEAT(callback(script3876, string4, -2147483645, -2147483643));
+                    };
+                } else {
+                    CC_SETCOLOUR(script10495(3));
                     CC_SETONMOUSEREPEAT(callback(script3876, string4, -2147483645, -2147483643));
                 };
+                CC_SETMAXLINES(int12);
             } else {
-                CC_SETCOLOUR(script10495(3));
-                CC_SETONMOUSEREPEAT(callback(script3876, string4, -2147483645, -2147483643));
+                int11 = 0;
             };
-            CC_SETMAXLINES(int12);
         } else {
             int11 = 0;
         };

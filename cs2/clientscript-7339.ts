@@ -79,42 +79,42 @@ function script7339(int0: number, int1: number, int2: number, int3: number, int4
     CC_CREATE(int8, 5, int2);
     CC_SETPOSITION(int9, (int3 + int12), 0, 0);
     CC_SETSIZE(34, 34, 0, 0);
-    var int14 = -1 as graphic;
+    var int14 = -1;
     switch (struct_getparam(int5, 3132)) {
         case 0: {
             CC_DELETE();
             return [int2, int3];
         }
         case 2: {
-            int14 = 15674 as graphic;
+            int14 = 15674;
             break;
         }
         case 3: {
-            int14 = 15677 as graphic;
+            int14 = 15677;
             break;
         }
         case 4: {
-            int14 = 15675 as graphic;
+            int14 = 15675;
             break;
         }
         case 5: {
-            int14 = 15678 as graphic;
+            int14 = 15678;
             break;
         }
         case 7: {
-            int14 = 15676 as graphic;
+            int14 = 15676;
             break;
         }
         case 6: {
-            int14 = 15679 as graphic;
+            int14 = 15679;
             break;
         }
         case 8: {
-            int14 = 21916 as graphic;
+            int14 = 21916;
             break;
         }
         case 9: {
-            int14 = 21917 as graphic;
+            int14 = 21917;
             break;
         }
     };
@@ -134,35 +134,35 @@ function script7339(int0: number, int1: number, int2: number, int3: number, int4
     int2 = (int2 + 1);
     switch (struct_getparam(int5, 3134)) {
         case 2: {
-            int14 = 15674 as graphic;
+            int14 = 15674;
             break;
         }
         case 3: {
-            int14 = 15677 as graphic;
+            int14 = 15677;
             break;
         }
         case 4: {
-            int14 = 15675 as graphic;
+            int14 = 15675;
             break;
         }
         case 5: {
-            int14 = 15678 as graphic;
+            int14 = 15678;
             break;
         }
         case 7: {
-            int14 = 15676 as graphic;
+            int14 = 15676;
             break;
         }
         case 6: {
-            int14 = 15679 as graphic;
+            int14 = 15679;
             break;
         }
         case 8: {
-            int14 = 21916 as graphic;
+            int14 = 21916;
             break;
         }
         case 9: {
-            int14 = 21917 as graphic;
+            int14 = 21917;
             break;
         }
     };

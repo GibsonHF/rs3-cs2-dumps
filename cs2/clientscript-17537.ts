@@ -8,7 +8,8 @@ function script17537(int0: number): [number, string] {
     };
     var int3 = -1;
     var int4 = -1 as dbrow;
-    while ((++int3 < int2)) {
+    int3 = (int3 + 1);
+    while ((int3 < int2)) {
         int4 = script17508(int0, int3);
         if ((varplayer_11130 == int4)) {
             int1 = 1;

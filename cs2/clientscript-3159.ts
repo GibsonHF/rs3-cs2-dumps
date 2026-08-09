@@ -17,8 +17,14 @@ function script3159(int0: number, int1: number, int2: number, int3: number, int4
     IF_SETONFRIENDTRANSMIT(callback(script11461, int2, int3, int4, int7, int5, int6, int8, int9), int5);
     if ((unk10993(0) == 1)) {
         script3165(int2, int3, int4, int7, int5, int6, int8, int9);
-        if (((IF_GETHIDE(comp(906, 48)) == false) || ((int17 == 1) && (unk11097(68419591) == 1)))) {
+        if ((IF_GETHIDE(comp(906, 48)) == false)) {
             script3161(1);
+        } else if ((int17 == 1)) {
+            if ((unk11097(68419591) == 1)) {
+                script3161(1);
+            } else {
+                script3161(0);
+            };
         } else {
             script3161(0);
         };
@@ -30,6 +36,6 @@ function script3159(int0: number, int1: number, int2: number, int3: number, int4
     varclient_1098 = STRING_LENGTH(varclient_2479);
     IF_SETONCLICK(callback(script1335, -2147483647, int15, int16), int15);
     script1390(int15, int16, varclient_2479);
-    IF_SETHIDE(1, int16);
+    IF_SETHIDE(true, int16);
     return;
 }

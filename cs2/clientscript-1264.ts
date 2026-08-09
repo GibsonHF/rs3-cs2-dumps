@@ -33,8 +33,8 @@ function script1264(int0: number, string0: string, string1: string, string2: str
     IF_SETHIDE(false, comp(1234, 4));
     IF_SETHIDE(false, comp(1465, 29));
     IF_SETONTIMER(callback(), comp(1234, 4));
-    IF_SETONTIMER(callback(), 96010269);
-    IF_SETONTIMER(callback(script1269, 0, int0, -2147483645), 80871428);
-    IF_SETONTIMER(callback(script1269, 0, int0, -2147483645), 96010269);
+    IF_SETONTIMER(callback(), comp(1465, 29));
+    IF_SETONTIMER(callback(script1269, 0, int0, -2147483645), comp(1234, 4));
+    IF_SETONTIMER(callback(script1269, 0, int0, -2147483645), comp(1465, 29));
     return;
 }

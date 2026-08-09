@@ -1,12 +1,12 @@
 //
 function script17879(int0: number): [number, number, number, number, number, number] {
     var int1 = DB_GETFIELDCOUNT(int0, 991376);
-    var int2 = -1 as dbrow;
-    var int3 = -1 as dbrow;
-    var int4 = -1 as dbrow;
-    var int5 = -1 as dbrow;
-    var int6 = -1 as dbrow;
-    var int7 = -1 as dbrow;
+    var int2 = -1;
+    var int3 = -1;
+    var int4 = -1;
+    var int5 = -1;
+    var int6 = -1;
+    var int7 = -1;
     var int8 = 0;
     while ((int8 < int1)) {
         int2 = dbrow_getfield(int0, 991376, int8);

@@ -17,12 +17,18 @@ function script15966(int0: number, int1: number, int2: number, int3: number, int
         case 4: {
             int11 = script20497(int3);
             if ((int11 == 0)) {
-                script2996(int0, int1++, 0, int2, int4, 0, 7373, int9, 2, 0, 4128);
+                stack(int0);
+                stack(int1);
+                var int1 = (int1 + 1);
+                script2996(0, int2, int4, 0, 7373, int9, 2, 0, 4128);
                 CC_SETONVARTRANSMIT(callback());
                 CC_SETCOLOUR(16777215);
                 CC_SETTRANS(128);
             };
-            script2995(int0, int1++, 0, int2, int4, 0, 7373, int9, 2, 0, int3, string0);
+            stack(int0);
+            stack(int1);
+            int1 = (int1 + 1);
+            script2995(0, int2, int4, 0, 7373, int9, 2, 0, int3, string0);
             CC_SETONVARTRANSMIT(callback());
             int11 = script11432(CC_GETFONTMETRICS());
             if ((int11 > int9)) {
@@ -32,21 +38,36 @@ function script15966(int0: number, int1: number, int2: number, int3: number, int
             break;
         }
         case 3: {
-            script2996(int0, int1++, 0, int2, int4, 0, 7373, int9, 2, 0, int3);
+            stack(int0);
+            stack(int1);
+            int1 = (int1 + 1);
+            script2996(0, int2, int4, 0, 7373, int9, 2, 0, int3);
             CC_SETONVARTRANSMIT(callback());
-            script2995(int0, int1++, 0, int2, int4, 0, 7373, int9, 2, 0, 2100, string0);
+            stack(int0);
+            stack(int1);
+            int1 = (int1 + 1);
+            script2995(0, int2, int4, 0, 7373, int9, 2, 0, 2100, string0);
             break;
         }
         case 10:
         case 1000: {
             if ((int8 > 0)) {
-                script7852(int0, int1++, 0, int2, int4, 0, int8, int9, 0, 0, int3, "");
+                stack(int0);
+                stack(int1);
+                int1 = (int1 + 1);
+                script7852(0, int2, int4, 0, int8, int9, 0, 0, int3, "");
                 CC_SETONVARTRANSMIT(callback());
                 CC_SETENABLED(int6);
-                script2995(int0, int1++, int8, int2, int4, 0, (SCALE(IF_GETWIDTH(int0), 16384, 7373) - int8), int9, 0, 0, 2100, string0);
+                stack(int0);
+                stack(int1);
+                int1 = (int1 + 1);
+                script2995(int8, int2, int4, 0, (SCALE(IF_GETWIDTH(int0), 16384, 7373) - int8), int9, 0, 0, 2100, string0);
                 CC_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643));
             } else {
-                script7852(int0, int1++, 0, int2, int4, 0, 7373, int9, 2, 0, int3, string0);
+                stack(int0);
+                stack(int1);
+                int1 = (int1 + 1);
+                script7852(0, int2, int4, 0, 7373, int9, 2, 0, int3, string0);
                 CC_SETONVARTRANSMIT(callback());
                 CC_SETENABLED(int6);
                 CC_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643));
@@ -54,24 +75,36 @@ function script15966(int0: number, int1: number, int2: number, int3: number, int
             break;
         }
         case 12: {
-            script7874(int0, int1++, 0, int2, int4, 0, 7373, int9, 2, 0, int3, string0);
+            stack(int0);
+            stack(int1);
+            int1 = (int1 + 1);
+            script7874(0, int2, int4, 0, 7373, int9, 2, 0, int3, string0);
             CC_SETENABLED(int6);
             CC_SETONVARTRANSMIT(callback());
             break;
         }
         case 13: {
-            script2995(int0, int1++, 0, int2, int4, 0, 7373, int9, 2, 0, 2100, string0);
+            stack(int0);
+            stack(int1);
+            int1 = (int1 + 1);
+            script2995(0, int2, int4, 0, 7373, int9, 2, 0, 2100, string0);
             int11 = (5 + script11432(CC_GETFONTMETRICS()));
             CC_SETSIZE(7373, int11, 2, 0);
             var int2 = (int2 + int11);
-            script7939(int0, int1++, 0, int2, int4, 0, 7373, int9, 2, 0, int3);
+            stack(int0);
+            stack(int1);
+            int1 = (int1 + 1);
+            script7939(0, int2, int4, 0, 7373, int9, 2, 0, int3);
             CC_SETENABLED(int6);
             CC_SETONVARTRANSMIT(callback());
             int9 = (int9 + int11);
             break;
         }
         case 16: {
-            script7895(int0, int1++, 0, int2, int4, 0, 7373, int9, 2, 0, int3);
+            stack(int0);
+            stack(int1);
+            int1 = (int1 + 1);
+            script7895(0, int2, int4, 0, 7373, int9, 2, 0, int3);
             CC_SETENABLED(int6);
             CC_SETONVARTRANSMIT(callback());
             CC_LIST_ADDENTRY(0, `${string0} (Entry 1)`, -1);
@@ -81,17 +114,26 @@ function script15966(int0: number, int1: number, int2: number, int3: number, int
             break;
         }
         case 14: {
-            script2995(int0, int1++, 0, int2, int4, 0, 7373, int9, 2, 0, 2100, string0);
+            stack(int0);
+            stack(int1);
+            int1 = (int1 + 1);
+            script2995(0, int2, int4, 0, 7373, int9, 2, 0, 2100, string0);
             int11 = (5 + script11432(CC_GETFONTMETRICS()));
             CC_SETSIZE(7373, int11, 2, 0);
             int2 = (int2 + int11);
-            script17652(int0, int1++, 0, int2, int4, 0, 7373, int9, 2, 0, int3, int6, 1, 10, 5);
+            stack(int0);
+            stack(int1);
+            int1 = (int1 + 1);
+            script17652(0, int2, int4, 0, 7373, int9, 2, 0, int3, int6, 1, 10, 5);
             CC_SETONVARTRANSMIT(callback());
             int9 = (int9 + int11);
             break;
         }
         case 17: {
-            script17590(int0, int1++, 0, int2, int4, 0, 7373, int9, 2, 0, int3);
+            stack(int0);
+            stack(int1);
+            int1 = (int1 + 1);
+            script17590(0, int2, int4, 0, 7373, int9, 2, 0, int3);
             CC_SETENABLED(int6);
             CC_SETONVARTRANSMIT(callback());
             CC_COMBO_ADDENTRY(0, `${string0} (Entry 1)`);
@@ -102,7 +144,10 @@ function script15966(int0: number, int1: number, int2: number, int3: number, int
             break;
         }
         case 18: {
-            script17605(int0, int1++, 0, (int2 + 40), int4, 0, 7373, (int9 - 40), 2, 0, int3, 3, 7989);
+            stack(int0);
+            stack(int1);
+            int1 = (int1 + 1);
+            script17605(0, (int2 + 40), int4, 0, 7373, (int9 - 40), 2, 0, int3, 3, 7989);
             CC_SETENABLED(int6);
             CC_SETONVARTRANSMIT(callback());
             stack((int1 + 1));
@@ -118,7 +163,10 @@ function script15966(int0: number, int1: number, int2: number, int3: number, int
             break;
         }
         case 20: {
-            script17570(int0, int1++, 0, int2, int4, 0, 7373, int9, 2, 0, int3);
+            stack(int0);
+            stack(int1);
+            int1 = (int1 + 1);
+            script17570(0, int2, int4, 0, 7373, int9, 2, 0, int3);
             CC_SETENABLED(int6);
             CC_SETONVARTRANSMIT(callback());
             stack(0);
@@ -136,7 +184,10 @@ function script15966(int0: number, int1: number, int2: number, int3: number, int
             break;
         }
         case 21: {
-            script17584(int0, int1++, 0, int2, int4, 0, 7373, int9, 2, 0, int3, 5);
+            stack(int0);
+            stack(int1);
+            int1 = (int1 + 1);
+            script17584(0, int2, int4, 0, 7373, int9, 2, 0, int3, 5);
             CC_SETENABLED(int6);
             CC_SETONVARTRANSMIT(callback());
             script17666(int0, string0, 0, (int1 - 1), (int1 + 1));
@@ -148,7 +199,10 @@ function script15966(int0: number, int1: number, int2: number, int3: number, int
             break;
         }
         case 22: {
-            script17634(int0, int1++, 0, int2, int4, 0, 7373, int9, 2, 0, int3);
+            stack(int0);
+            stack(int1);
+            int1 = (int1 + 1);
+            script17634(0, int2, int4, 0, 7373, int9, 2, 0, int3);
             CC_SETENABLED(int6);
             CC_SETONVARTRANSMIT(callback());
             stack(0);
@@ -170,31 +224,52 @@ function script15966(int0: number, int1: number, int2: number, int3: number, int
         case 1002:
         case 1003:
         case 1004: {
-            script17600(int0, int1++, 0, int2, int4, 0, 7373, int9, 2, 0, int3, "Title");
+            stack(int0);
+            stack(int1);
+            int1 = (int1 + 1);
+            script17600(0, int2, int4, 0, 7373, int9, 2, 0, int3, "Title");
             CC_SETENABLED(int6);
             CC_SETONVARTRANSMIT(callback());
-            script10033(0, int1++, 0, 0, 0, 0, 0, 0, 1, 1, 4128);
+            stack(0);
+            stack(int1);
+            int1 = (int1 + 1);
+            script10033(0, 0, 0, 0, 0, 0, 1, 1, 4128);
             CC_SETCOLOUR(65280);
             CC_SETFILL(0);
             CC_SETONVARTRANSMIT(callback());
             if ((int5 != 23)) {
                 string0 = `${string0}<br>Child content area (green box) offset automatically for child components.`;
             };
-            script10485(0, int1++, 0, 0, 0, 0, 0, 0, 1, 1, 2100, string0);
+            stack(0);
+            stack(int1);
+            int1 = (int1 + 1);
+            script10485(0, 0, 0, 0, 0, 0, 1, 1, 2100, string0);
             break;
         }
         case 24: {
-            script2996(int0, int1++, 0, int2, int4, 0, int9, int9, 0, 0, 4128);
+            stack(int0);
+            stack(int1);
+            int1 = (int1 + 1);
+            script2996(0, int2, int4, 0, int9, int9, 0, 0, 4128);
             CC_SETONVARTRANSMIT(callback());
             CC_SETCOLOUR(65535);
-            if ((int6 == 0)) {
-                script17619(int0, int1++, 0, int2, int4, 0, int9, int9, 0, 0, int3, 10000, 3);
+            if ((int6 == false)) {
+                stack(int0);
+                stack(int1);
+                int1 = (int1 + 1);
+                script17619(0, int2, int4, 0, int9, int9, 0, 0, int3, 10000, 3);
             } else {
-                script17619(int0, int1++, 0, int2, int4, 0, int9, int9, 0, 0, int3, 10000, 1);
+                stack(int0);
+                stack(int1);
+                int1 = (int1 + 1);
+                script17619(0, int2, int4, 0, int9, int9, 0, 0, int3, 10000, 1);
             };
             CC_SETONVARTRANSMIT(callback());
             CC_SETONTIMER(callback(script17668, -2147483645, -2147483643, string0, int6));
-            script2995(int0, int1++, (int9 + 5), int2, int4, 0, (int10 - int9), int9, 0, 0, 2100, string0);
+            stack(int0);
+            stack(int1);
+            int1 = (int1 + 1);
+            script2995((int9 + 5), int2, int4, 0, (int10 - int9), int9, 0, 0, 2100, string0);
             break;
         }
     };

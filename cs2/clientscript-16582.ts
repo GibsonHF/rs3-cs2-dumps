@@ -6,7 +6,7 @@ function script16582(int0: number): void {
         return;
     };
     IF_SETONTIMER(callback(), comp(485, 11));
-    IF_SETONTIMER(callback(), 82116613);
-    IF_SETHIDE(0, 31784969);
+    IF_SETONTIMER(callback(), comp(1253, 5));
+    IF_SETHIDE(false, comp(485, 9));
     return;
 }

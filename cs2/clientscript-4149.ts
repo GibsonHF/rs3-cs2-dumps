@@ -8,7 +8,13 @@ function script4149(int0: number, int1: number, int2: number, int3: number): voi
     var int5 = -1;
     var int6 = -1;
     [int5, int6] = script11773(script11786(int2), script7980(int2));
-    if (((int5 == -1) || ((int6 != 10) && (int6 != 14)))) {
+    if ((int5 == -1)) {
+        if ((IF_FIND(int2) == 1)) {
+            CC_SETOPKEYIGNOREHELD(int3);
+            CC_SETOPKEYRATE(int3, 0, 0);
+        };
+        return;
+    } else if (((int6 != 10) && (int6 != 14))) {
         if ((IF_FIND(int2) == 1)) {
             CC_SETOPKEYIGNOREHELD(int3);
             CC_SETOPKEYRATE(int3, 0, 0);

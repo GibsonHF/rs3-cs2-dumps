@@ -7,18 +7,17 @@ function script7951(int0: number, int1: number): void {
         return;
     };
     WORLDMAP_3DVIEW_GETCOORDFINE(varclient_3526, varclient_3527, 0);
-    var string0 = stack();
+    var string0 = [];
     WORLDMAP_3DVIEW_GETCOORDFINE(int0, int1, 0);
-    var string1 = stack();
+    var string1 = [];
     varclient_3526 = int0;
     varclient_3527 = int1;
     COORDX_FINE(string0);
     COORDX_FINE(string1);
-    var int2 = operator("-", stack());
+    var int2 = SUB();
     stack(string0);
     stack(COORDZ_FINE());
-    stack(string1);
-    var int3 = (stack() - COORDZ_FINE());
+    var int3 = (string1 - COORDZ_FINE());
     var int4 = 0;
     var int5 = 0;
     var int6 = 0;
@@ -30,25 +29,57 @@ function script7951(int0: number, int1: number): void {
         int5 = (int5 * 512);
         int6 = (int6 * 512);
         int7 = (int7 * 512);
-        if (((int2 < 0) && (int4 < varclient_3524))) {
-            int2 = MAX((int4 - varclient_3524), int2);
-            varclient_3524 = (varclient_3524 + int2);
-            int8 = 0;
-        } else if (((int2 > 0) && (int6 > varclient_3524))) {
-            int2 = MIN((int6 - varclient_3524), int2);
-            varclient_3524 = (varclient_3524 + int2);
-            int8 = 0;
+        if ((int2 < 0)) {
+            if ((int4 < varclient_3524)) {
+                int2 = MAX((int4 - varclient_3524), int2);
+                varclient_3524 = (varclient_3524 + int2);
+                int8 = 0;
+            } else if ((int2 > 0)) {
+                if ((int6 > varclient_3524)) {
+                    int2 = MIN((int6 - varclient_3524), int2);
+                    varclient_3524 = (varclient_3524 + int2);
+                    int8 = 0;
+                } else {
+                    int2 = 0;
+                };
+            } else {
+                int2 = 0;
+            };
+        } else if ((int2 > 0)) {
+            if ((int6 > varclient_3524)) {
+                int2 = MIN((int6 - varclient_3524), int2);
+                varclient_3524 = (varclient_3524 + int2);
+                int8 = 0;
+            } else {
+                int2 = 0;
+            };
         } else {
             int2 = 0;
         };
-        if (((int3 < 0) && (int5 < varclient_3525))) {
-            int3 = MAX((int5 - varclient_3525), int3);
-            varclient_3525 = (varclient_3525 + int3);
-            int8 = 0;
-        } else if (((int3 > 0) && (int7 > varclient_3525))) {
-            int3 = MIN((int7 - varclient_3525), int3);
-            varclient_3525 = (varclient_3525 + int3);
-            int8 = 0;
+        if ((int3 < 0)) {
+            if ((int5 < varclient_3525)) {
+                int3 = MAX((int5 - varclient_3525), int3);
+                varclient_3525 = (varclient_3525 + int3);
+                int8 = 0;
+            } else if ((int3 > 0)) {
+                if ((int7 > varclient_3525)) {
+                    int3 = MIN((int7 - varclient_3525), int3);
+                    varclient_3525 = (varclient_3525 + int3);
+                    int8 = 0;
+                } else {
+                    int3 = 0;
+                };
+            } else {
+                int3 = 0;
+            };
+        } else if ((int3 > 0)) {
+            if ((int7 > varclient_3525)) {
+                int3 = MIN((int7 - varclient_3525), int3);
+                varclient_3525 = (varclient_3525 + int3);
+                int8 = 0;
+            } else {
+                int3 = 0;
+            };
         } else {
             int3 = 0;
         };

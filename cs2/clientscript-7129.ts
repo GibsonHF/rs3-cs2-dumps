@@ -24,7 +24,7 @@ function script7129(int0: number, int1: number, int2: number): number {
     var int18 = 0;
     var int19 = script7112(int0);
     var int20 = 1;
-    while (((int9 != -1 as obj) || (int13 != -1 as struct))) {
+    while ((int9 != -1 as obj)) {
         if ((int13 != -1 as struct)) {
             int9 = struct_getparam(int13, 2655);
             int10 = struct_getparam(int13, 2665);
@@ -69,10 +69,11 @@ function script7129(int0: number, int1: number, int2: number): number {
             if ((int12 == false)) {
                 int10 = (int10 * script18374(int0));
             };
-            [int3, int5] = script7131(int0, 3, int5, 1, 2, int9, -1 as struct, int15, int10, int18, int14, int2, int3);
+            [int3, int5] = script7131(int0, 3, int5, 1, 2, int9, -1, int15, int10, int18, int14, int2, int3);
             int5 = (int5 + int4);
         };
-        switch (++int17) {
+        int17 = (int17 + 1);
+        switch (int17) {
             case 2: {
                 int9 = item_getparam(int0, 2656);
                 int10 = MAX(0, script14490(int0, 2));

@@ -19,8 +19,24 @@ function script4411(int0: number, int1: number, int2: number, int3: number): voi
             int5 = MAX(int5, 0);
             int5 = MIN(int5, 255);
             CC_SETTRANS(int5);
-            if ((((int2 == 1) && (int5 == 255)) || ((int2 == 0) && (int5 == 0)))) {
-                CC_SETONTIMER(callback());
+            if ((int2 == 1)) {
+                if ((int5 == 255)) {
+                    CC_SETONTIMER(callback());
+                } else if ((int2 == 0)) {
+                    if ((int5 == 0)) {
+                        CC_SETONTIMER(callback());
+                    } else {
+                        CC_SETONTIMER(callback(script4411, int0, int1, int2, 0));
+                    };
+                } else {
+                    CC_SETONTIMER(callback(script4411, int0, int1, int2, 0));
+                };
+            } else if ((int2 == 0)) {
+                if ((int5 == 0)) {
+                    CC_SETONTIMER(callback());
+                } else {
+                    CC_SETONTIMER(callback(script4411, int0, int1, int2, 0));
+                };
             } else {
                 CC_SETONTIMER(callback(script4411, int0, int1, int2, 0));
             };

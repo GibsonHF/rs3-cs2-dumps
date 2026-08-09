@@ -23,7 +23,7 @@ function script18902(): void {
             [int3, int4, int5] = DATE_RUNEDAY_TODATE(int2);
             string0 = `${enum_getvalue(0, 36, 13931 as cs2enum, MODULO(int6, 7))}<br>${inttostring(int3, 10)}`;
             if ((STRINGWIDTH(string0, script20491(17514)) > CC_GETWIDTH())) {
-                string0 = `${enum_getvalue(0, 36, 6250 as cs2enum, MODULO(int6, 7))}<br>${inttostring(int3, 10)}`;
+                string0 = `${enum_getvalue(0, 36, 6250, MODULO(int6, 7))}<br>${inttostring(int3, 10)}`;
             };
             CC_SETTEXT(string0);
             script10644(17514, 1, 0);

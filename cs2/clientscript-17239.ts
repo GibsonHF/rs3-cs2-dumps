@@ -11,7 +11,7 @@ function script17239(int0: number): [number, string] {
     var string1 = "";
     var int1 = 0;
     var int2 = 0;
-    if ((dbrow_getfield(int0, 905216, 0) == true)) {
+    if ((dbrow_getfield(int0, 905216, 0) == 1)) {
         if ((MAP_MEMBERS() == 0)) {
             int2 = (int2 + 1);
             string1 = "Membership is required.";

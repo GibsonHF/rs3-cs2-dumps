@@ -12,8 +12,13 @@ function script10770(int0: number, int1: number, int2: number, int3: number): vo
     } else {
         IF_SETTEXT(`Reroll Progress - ${string0}`, comp(364, 15));
     };
-    if (((int0 == 0) && (int3 == 1))) {
-        IF_SETHIDE(false, comp(364, 10));
+    if ((int0 == 0)) {
+        if ((int3 == 1)) {
+            IF_SETHIDE(false, comp(364, 10));
+        } else {
+            IF_SETHIDE(true, comp(364, 10));
+            IF_SETTEXT(`Reroll Reward (${inttostring(int0, 10)})`, comp(364, 9));
+        };
     } else {
         IF_SETHIDE(true, comp(364, 10));
         IF_SETTEXT(`Reroll Reward (${inttostring(int0, 10)})`, comp(364, 9));

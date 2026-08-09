@@ -1,5 +1,5 @@
 //
-function script3878(int0: number, int1: number, long0: BigInt): void {
+function script3878(int0: number, int1: number, long0: bigint): void {
     var string0 = "";
     var int2 = -1;
     [string0, int2] = script17399(long0);

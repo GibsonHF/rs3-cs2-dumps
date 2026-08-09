@@ -3,7 +3,7 @@ function script3660(int0: number): void {
     IF_SETPOSITION(0, (int0 / 2), 0, 0, comp(634, 13));
     IF_SETPOSITION(0, (int0 * 2), 0, 0, comp(634, 17));
     var int1 = script3608();
-    if ((int1 == -1 as dbrow)) {
+    if ((int1 == -1)) {
         return;
     };
     var int2 = 0;

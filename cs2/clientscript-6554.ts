@@ -45,7 +45,7 @@ function script6554(int0: number, int1: number, int2: number, int3: number, int4
     var int34 = struct_getparam(int4, 8390);
     var int35 = struct_getparam(int4, 8391);
     var int36 = struct_getparam(int4, 8392);
-    var [string0, int8, int5, int9] = script247(1, int4, string0, string2, int8, int5);
+    [string0, int8, int5, int9] = script247(1, int4, string0, string2, int8, int5);
     if ((int9 == 0)) {
         [int7, string0, int8] = script8261(int7, string1, string2, int10, int11, int12, int13, int14, int15, int16, int17, int18, int19, int20, int21, int22, int23, int24, int25, int26, int27, int28, int29, int30, int31, int32, int33, int34, int35, int36);
     };
@@ -324,13 +324,17 @@ function script6554(int0: number, int1: number, int2: number, int3: number, int4
     };
     if ((struct_getparam(int4, 7382) > 0)) {
         string3 = script15973(struct_getparam(int4, 7382), 1);
-        if (((struct_getparam(int4, 9003) != -1 as var_reference) && (WORLDMAP_GETDISPLAYCOORD(struct_getparam(int4, 9003)) == 2))) {
-            int0 = script7235(`<col=00ff00>Charged (${string3})</col> - Set bonuses active.`, string0, int1, int2, int3, int0);
+        if ((struct_getparam(int4, 9003) != -1)) {
+            if ((WORLDMAP_GETDISPLAYCOORD(struct_getparam(int4, 9003)) == 2)) {
+                int0 = script7235(`<col=00ff00>Charged (${string3})</col> - Set bonuses active.`, string0, int1, int2, int3, int0);
+            } else {
+                int0 = script7235(`<col=ffffff>Charging (${string3})</col> - Set bonuses will be active after equipped for <col=ffffff>${string3}</col>.`, string0, int1, int2, int3, int0);
+            };
         } else {
             int0 = script7235(`<col=ffffff>Charging (${string3})</col> - Set bonuses will be active after equipped for <col=ffffff>${string3}</col>.`, string0, int1, int2, int3, int0);
         };
     };
-    if (((item_getparam(int6, 3793) == 1) && (item_getparam(int6, 6186) == -1 as struct))) {
+    if (((item_getparam(int6, 3793) == 1) && (item_getparam(int6, 6186) == -1))) {
         int0 = script7235("When repaired:", string1, int1, int2, int3, int0);
     };
     int0 = script6553(int4, int7, int0, 1, string1, string2, int1, int2, int3);

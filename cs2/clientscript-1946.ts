@@ -8,7 +8,7 @@ function script1946(): void {
         IF_SETTEXT("", comp(810, 37));
         IF_SETTEXT("", comp(810, 35));
         string0 = "The awards tab is not available when you leave a game early.";
-        IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643), 53084276);
+        IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643), comp(810, 116));
         script14307(1, 1);
     } else {
         if ((varclient_588 == 1)) {

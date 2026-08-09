@@ -24,7 +24,8 @@ function script18930(int0: number, int1: number): number {
             return int6;
         };
         int5 = int3;
-        while ((--int5 >= 0)) {
+        int5 = (int5 - 1);
+        while ((int5 >= 0)) {
             int6 = enum_getvalue(0, 0, int2, int5);
             if ((int1 < int6)) {
                 int7 = enum_getvalue(0, 0, int2, (int5 - 1));

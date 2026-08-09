@@ -18,17 +18,35 @@ function script13677(int0: number, int1: number): void {
     var int10 = -1 as dbrow;
     CC_DELETEALL(int0);
     CC_DELETEALL(int1);
-    while ((++int9 < int4)) {
+    int9 = (int9 + 1);
+    while ((int9 < int4)) {
         int5 = dbrow_getfield(int2, 94288, int9);
         int10 = enum_getvalue(0, 74, 13175 as cs2enum, int5);
         int6 = dbrow_getfield(int10, 90272, 0);
         pop_array(int9, int5);
         pop_array[2](int9, int9);
         CC_CREATE(int0, 3, int9);
-        if (((int5 == varbitplayer_37614) || ((int6 == 1) && (dbrow_getfield(int10, 90208, 0) < dbrow_getfield(enum_getvalue(0, 74, 13175 as cs2enum, varbitplayer_37614), 90208, 0))))) {
+        if ((int5 == varbitplayer_37614)) {
             pop_array[1](int9, (int9 + 1000));
             pop_array[3](int9, (int9 + 1000));
             int7 = (int7 + 1);
+        } else if ((int6 == 1)) {
+            if ((dbrow_getfield(int10, 90208, 0) < dbrow_getfield(enum_getvalue(0, 74, 13175 as cs2enum, varbitplayer_37614), 90208, 0))) {
+                pop_array[1](int9, (int9 + 1000));
+                pop_array[3](int9, (int9 + 1000));
+                int7 = (int7 + 1);
+            } else if ((int6 == int3)) {
+                pop_array[1](int9, int9);
+                pop_array[3](int9, int9);
+                int8 = (int8 + 1);
+            } else if ((script16632(int10) == 1)) {
+                pop_array[1](int9, (int9 + 1000));
+                pop_array[3](int9, (int9 + 1000));
+                int7 = (int7 + 1);
+            } else {
+                pop_array[1](int9, (int9 + 500));
+                pop_array[3](int9, (int9 + 500));
+            };
         } else if ((int6 == int3)) {
             pop_array[1](int9, int9);
             pop_array[3](int9, int9);
@@ -46,7 +64,8 @@ function script13677(int0: number, int1: number): void {
     ARRAY_SORT(int4, 3, 2);
     int9 = -1;
     int4 = (int4 - int7);
-    while ((++int9 < int4)) {
+    int9 = (int9 + 1);
+    while ((int9 < int4)) {
         script13678(int0, int1, int9, push_array(int9), push_array[2](int9), int4, int8);
     };
     var int11 = ((20 + (int4 * 55)) + (MAX(0, int4) * 5));

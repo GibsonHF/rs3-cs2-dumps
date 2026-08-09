@@ -12,8 +12,17 @@ function script6074(int0: number): void {
         } else {
             int4 = script2720(int3);
         };
-        if (((varplayer_304 == 600 as inv) && (int3 == 1391 as obj))) {
-            int2 = script2002();
+        if ((varplayer_304 == 600 as inv)) {
+            if ((int3 == 1391 as obj)) {
+                int2 = script2002();
+            } else if ((int3 != -1 as obj)) {
+                int2 = MIN(int2, INV_TOTAL(varplayer_299, int3));
+                if (((OC_STACKABLE(int3) == 0) && (varplayer_299 != 93 as inv))) {
+                    int2 = MIN(int2, INV_FREESPACE(93 as inv));
+                };
+            } else {
+                int2 = 1;
+            };
         } else if ((int3 != -1 as obj)) {
             int2 = MIN(int2, INV_TOTAL(varplayer_299, int3));
             if (((OC_STACKABLE(int3) == 0) && (varplayer_299 != 93 as inv))) {

@@ -19,14 +19,14 @@ function script12655(): void {
     };
     IF_SETTEXT(`${inttostring(script12651(), 10)} supplies`, comp(1776, 28));
     var string0 = "Nearby islands with 0-1 rare resources (5 supplies)";
-    IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643), 116391978);
+    IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643), comp(1776, 42));
     string0 = "Distant islands with 2-3 rare resources (12 supplies)";
-    IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643), 116391977);
+    IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643), comp(1776, 41));
     string0 = "Remote islands with 3-5 rare resources (20 supplies)";
-    IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643), 116391976);
+    IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643), comp(1776, 40));
     string0 = "Return to your claimed island (3 supplies)";
-    IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643), 116391979);
+    IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643), comp(1776, 43));
     string0 = "Show named islands.";
-    IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643), 116391980);
+    IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643), comp(1776, 44));
     return;
 }

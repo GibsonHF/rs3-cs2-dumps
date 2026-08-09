@@ -26,17 +26,28 @@ function script11348(): void {
     var int20 = INV_GETOBJ(94 as inv, 3);
     var int21 = 2;
     var int22 = varclient_5833;
-    if (((((int20 != -1 as obj) && (int22 != 1)) && (varbitplayer_27169 == 0)) && ((item_getparam(int20, 2826) == 1) || (item_getparam(int20, 2827) == 1)))) {
-        int21 = 1;
+    if ((((int20 != -1 as obj) && (int22 != 1)) && (varbitplayer_27169 == 0))) {
+        if (((item_getparam(int20, 2826) == 1) || (item_getparam(int20, 2827) == 1))) {
+            int21 = 1;
+        };
     };
     var int23 = ((int4 + (int16 * 2)) + int19);
     var int24 = ((int4 + (int16 * int21)) + int19);
     if ((int22 == 1)) {
         IF_SETHIDE(false, comp(1503, 27));
         IF_SETHIDE(true, comp(1503, 8));
-        if (((int24 <= int3) && ((int15 * 2) <= int2))) {
-            IF_SETHIDE(false, comp(1503, 0));
-            IF_SETHIDE(true, comp(1503, 4));
+        if ((int24 <= int3)) {
+            if (((int15 * 2) <= int2)) {
+                IF_SETHIDE(false, comp(1503, 0));
+                IF_SETHIDE(true, comp(1503, 4));
+            } else {
+                IF_SETHIDE(true, comp(1503, 0));
+                IF_SETHIDE(false, comp(1503, 4));
+                int16 = IF_GETHEIGHT(int14);
+                int15 = IF_GETWIDTH(int14);
+                int4 = 36;
+                int24 = ((int4 + (int16 * int21)) + int19);
+            };
         } else {
             IF_SETHIDE(true, comp(1503, 0));
             IF_SETHIDE(false, comp(1503, 4));

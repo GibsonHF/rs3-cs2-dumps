@@ -132,6 +132,6 @@ function script12366(int0: number): void {
         }
     };
     IF_SETONTIMER(callback(script12367, (CLIENTCLOCK() + 36), int1), int1);
-    IF_SETHIDE(0, int1);
+    IF_SETHIDE(false, int1);
     return;
 }

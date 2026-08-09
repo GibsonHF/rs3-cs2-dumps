@@ -25,7 +25,7 @@ function script11697(): void {
     };
     IF_SETTEXT(`You can only reset the Mazcab raid once every ${TEXT_SWITCH(script12950(), string0, string1)} hours.<br>Ensure you wish to reset your progress before you continue!`, comp(1653, 15));
     var string2 = `Boss progress can only be reset once every ${TEXT_SWITCH(script12950(), string0, string1)} hours.`;
-    IF_SETONMOUSEREPEAT(callback(script8799, string2, -2147483645, -2147483643), 108331019);
+    IF_SETONMOUSEREPEAT(callback(script8799, string2, -2147483645, -2147483643), comp(1653, 11));
     if ((varbitplayer_28678 == 1)) {
         IF_SETHIDE(false, comp(1653, 11));
     } else {

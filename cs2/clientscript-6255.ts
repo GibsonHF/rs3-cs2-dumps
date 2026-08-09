@@ -28,7 +28,8 @@ function script6255(int0: number, int1: number, int2: number): void {
         [int14, int13, int17] = script8107(int13, 43);
     };
     var int19 = 26 as fontmetrics;
-    while ((++int5 < int12)) {
+    int5 = (int5 + 1);
+    while ((int5 < int12)) {
         int7 = enum_getvalue(0, 33, 15103 as cs2enum, int5);
         int8 = script5860(int7);
         int9 = 1;
@@ -62,15 +63,22 @@ function script6255(int0: number, int1: number, int2: number): void {
             } else {
                 CC_SETOBJECT(int7, 1);
             };
-            if (((int9 == 1) && ((int2 == 1) || (item_getparam(int7, 3326) != 0)))) {
-                int9 = int8;
-            };
-            if (((int9 == 1) && (int8 == 1))) {
-                if ((item_getparam(int7, 5430) == 1)) {
-                    CC_SETOP(2, enum_getvalue(33, 36, 15104 as cs2enum, int7));
+            if ((int9 == 1)) {
+                if (((int2 == 1) || (item_getparam(int7, 3326) != 0))) {
+                    int9 = int8;
                 };
-                if ((item_getparam(int7, 863) == 1)) {
-                    CC_SETOP(3, "Reclaim");
+            };
+            if ((int9 == 1)) {
+                if ((int8 == 1)) {
+                    if ((item_getparam(int7, 5430) == 1)) {
+                        CC_SETOP(2, enum_getvalue(33, 36, 15104 as cs2enum, int7));
+                    };
+                    if ((item_getparam(int7, 863) == 1)) {
+                        CC_SETOP(3, "Reclaim");
+                    };
+                } else {
+                    CC_SETOP(2, "");
+                    CC_SETOP(3, "");
                 };
             } else {
                 CC_SETOP(2, "");

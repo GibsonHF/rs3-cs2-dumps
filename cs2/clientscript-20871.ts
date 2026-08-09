@@ -1,7 +1,7 @@
 //
 function script20871(int0: number, string0: string): void {
     var int1 = 0;
-    var [string0, int1] = script20895(string0);
+    [string0, int1] = script20895(string0);
     if ((int1 == 1)) {
         IF_SETTEXT(string0, comp(707, 15));
     };

@@ -9,8 +9,7 @@ function script1182(int0: number, int1: number): void {
     var string0 = "";
     var int3 = 0;
     var string1 = "";
-    stack(WORLDLIST_SPECIFIC(int1));
-    [int3, string0, int2, string0, int2, int2, string1] = stack();
+    [int3, string0, int2, string0, int2, int2, string1] = WORLDLIST_SPECIFIC(int1);
     if ((int3 == -1)) {
         printmessage("Sorry, you can't join that person.");
     } else {

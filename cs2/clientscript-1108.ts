@@ -7,7 +7,8 @@ function script1108(): void {
         IF_SETTEXT("The Marketplace is currently initialising. Please wait.", comp(1494, 36));
         IF_SETHIDE(false, comp(1494, 35));
         unk10997(97910784);
-        unk11010(50, callback(script1114), 97910784);
+        stack(50);
+        unk11010(1114, "", 97910784);
         unk11009();
     };
     return;

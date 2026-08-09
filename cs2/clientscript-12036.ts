@@ -35,13 +35,13 @@ function script12036(int0: number, int1: number, string0: string): void {
     };
     var int3 = 5;
     var int4 = IGNORE_COUNT();
-    var int5 = false;
+    var int5 = 0;
     var int6 = script12023(int0);
     var int7 = script12024(int0);
     var int8 = script6431();
-    var int9 = enum_getvalue(25, 0, 8549 as cs2enum, 26 as fontmetrics);
+    var int9 = enum_getvalue(25, 0, 8549, 26);
     if ((int8 == 1)) {
-        int9 = enum_getvalue(25, 0, 8549 as cs2enum, 32 as fontmetrics);
+        int9 = enum_getvalue(25, 0, 8549, 32);
     };
     int9 = (int9 + 4);
     while ((int2 != -1)) {
@@ -52,7 +52,8 @@ function script12036(int0: number, int1: number, string0: string): void {
             CC_SETPOSITION(0, int3, 0, 0);
             switch (int1) {
                 case 0: {
-                    if ((++int2 >= int4)) {
+                    int2 = (int2 + 1);
+                    if ((int2 >= int4)) {
                         int2 = -1;
                     };
                     break;
@@ -73,7 +74,7 @@ function script12036(int0: number, int1: number, string0: string): void {
         } else {
             return;
         };
-        if ((int5 == false)) {
+        if ((int5 == 0)) {
             int3 = (int3 + int9);
         };
     };

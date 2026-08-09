@@ -6,7 +6,8 @@ function script4504(int0: number): void {
     var int4 = IF_GETHEIGHT(int0);
     var int5 = -1;
     var string0 = "";
-    while ((++int2 < 7)) {
+    int2 = (int2 + 1);
+    while ((int2 < 7)) {
         int5 = ((int2 * 84) + (int2 * 4));
         CC_CREATE(int0, 3, int1);
         CC_SETSIZE(int3, int4, 0, 0);

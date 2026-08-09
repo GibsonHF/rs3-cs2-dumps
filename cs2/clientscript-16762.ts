@@ -1,7 +1,7 @@
 //
 function script16762(): void {
     var int0 = script19150(32986);
-    if ((int0 == -1 as dbrow)) {
+    if ((int0 == -1)) {
         return;
     };
     var int1 = 0;

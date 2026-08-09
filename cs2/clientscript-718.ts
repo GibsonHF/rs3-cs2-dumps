@@ -20,6 +20,7 @@ function script718(int0: number): number {
             return 4194559;
         }
         case 7: {
+            break;
         }
         default: {
             return 16777215;

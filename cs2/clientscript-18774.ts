@@ -8,13 +8,15 @@ function script18774(int0: number): void {
     IF_SETTRANS(int0, comp(764, 20));
     IF_SETTRANS(int0, comp(764, 18));
     int1 = -1;
-    while ((++int1 < IF_GETNEXTSUBID(comp(764, 13)))) {
+    int1 = (int1 + 1);
+    while ((int1 < IF_GETNEXTSUBID(comp(764, 13)))) {
         if ((CC_FIND(comp(764, 13), int1) == 1)) {
             CC_SETTRANS(int0);
         };
     };
     int1 = -1;
-    while ((++int1 < IF_GETNEXTSUBID(comp(764, 1)))) {
+    int1 = (int1 + 1);
+    while ((int1 < IF_GETNEXTSUBID(comp(764, 1)))) {
         if ((CC_FIND(comp(764, 1), int1) == 1)) {
             CC_SETTRANS(MIN((int0 + 224), 255));
         };

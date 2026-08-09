@@ -35,8 +35,7 @@ function script18877(int0: number, int1: number): string {
     stack(1163264);
     stack(int0);
     DB_FIND(0);
-    dbrow_findnext();
-    var int4 = stack();
+    var int4 = dbrow_findnext();
     if ((int4 != -1)) {
         return dbrow_getfield(int4, 1163360, 0);
     };

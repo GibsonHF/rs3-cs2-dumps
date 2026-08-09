@@ -15,13 +15,23 @@ function script20656(int0: number, int1: number): void {
     var int6 = (int4 - 34);
     var int7 = (int4 + 34);
     var int8 = 0;
-    if (((int2 >= 0) && (int2 <= IF_GETWIDTH(comp(1499, 7))))) {
-        if (((int3 >= (0 - 34)) && (int3 <= 34))) {
-            int8 = -4;
-        } else if (((int3 >= (int4 - 34)) && (int3 <= (int4 + 34)))) {
-            int8 = 4;
-        };
-        if (((varclient_8442 != -1) && ((int3 < 0) || (int3 > int4)))) {
+    if ((int2 >= 0)) {
+        if ((int2 <= IF_GETWIDTH(comp(1499, 7)))) {
+            if ((int3 >= (0 - 34))) {
+                if ((int3 <= 34)) {
+                    int8 = -4;
+                } else if (((int3 >= (int4 - 34)) && (int3 <= (int4 + 34)))) {
+                    int8 = 4;
+                };
+            } else if (((int3 >= (int4 - 34)) && (int3 <= (int4 + 34)))) {
+                int8 = 4;
+            };
+            if ((varclient_8442 != -1)) {
+                if (((int3 < 0) || (int3 > int4))) {
+                    script20709();
+                };
+            };
+        } else if ((varclient_8442 != -1)) {
             script20709();
         };
     } else if ((varclient_8442 != -1)) {

@@ -22,7 +22,7 @@ function script20729(): void {
     script20791(99090442);
     script20801(99090443, varbitclient_61226, varbitclient_61227, 99090446, 99090450, 99090447, 99090448, 99090449, -1);
     script20806(99090446, 99090450, 99090447, 99090448, 99090449, varbitclient_61228, -1, 1);
-    if ((CC_FIND(99090451, 7) == 1)) {
+    if ((CC_FIND(comp(1512, 19), 7) == 1)) {
         CC_SETMOUSEOVERCURSOR(191);
         CC_SETDRAGRENDERBEHAVIOUR(3);
         CC_SETDRAGGABLE(comp(1477, 27), -1);

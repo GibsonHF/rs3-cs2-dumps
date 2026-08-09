@@ -8,6 +8,6 @@ function script20738(): void {
     };
     IF_SETGRAPHIC(int0, comp(1512, 27));
     IF_SETONMOUSEOVER(callback(script44, 99090459, int1), comp(1512, 26));
-    IF_SETONMOUSELEAVE(callback(script44, 99090459, int0), 99090458);
+    IF_SETONMOUSELEAVE(callback(script44, 99090459, int0), comp(1512, 26));
     return;
 }

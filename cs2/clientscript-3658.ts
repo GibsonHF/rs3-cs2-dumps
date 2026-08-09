@@ -44,13 +44,13 @@ function script3658(int0: number, int1: number, int2: number, int3: number, int4
     CC_CREATE(int7, 5, (int0 * 11));
     CC_SETSIZE(304, 108, 0, 0);
     CC_SETPOSITION((int1 + -121), (int2 + -75), 0, 0);
-    CC_SETGRAPHIC(11428);
+    CC_SETGRAPHIC(11428 as graphic);
     CC_SETHIDE(int11);
     var int14 = 0;
     var int15 = 0;
     var int16 = 0;
     if (((int0 >= varplayer_9078) || (int13 == 1))) {
-        var [int12, int14, int15, int16] = script9863(int0, int7, int12);
+        [int12, int14, int15, int16] = script9863(int0, int7, int12);
         CC_CREATE(int7, 5, ((int0 * 11) + 1));
         CC_SETSIZE(145, 144, 0, 0);
         CC_SETPOSITION((int1 + -122), (int2 + -125), 0, 0);

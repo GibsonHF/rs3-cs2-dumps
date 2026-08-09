@@ -41,14 +41,10 @@ function script11407(int0: number): void {
         CC_SETONMOUSEOVER(callback(script9227, 773, -2147483645, -2147483643, 106299404, 1));
         CC_SETONMOUSELEAVE(callback(script9227, 773, -2147483645, -2147483643, 106299404, 0));
         script9229(106299404, int3, int4, int5);
-        CC_CREATE(106299403, 5, int3);
+        CC_CREATE(comp(1622, 11), 5, int3);
         CC_SETSIZE((int4 - 4), (int5 - 4), 0, 0);
         CC_SETONTARGETENTER(callback(script1615, 1, -2147483645, -2147483643));
-        stack(1615);
-        stack(0);
-        stack(-2147483645);
-        stack(-2147483643);
-        stack("iii");
+        stack(callback(script1615, 0, -2147483645, -2147483643));
         CC_SETONTARGETLEAVE();
         int3 = (int3 + 1);
     };
@@ -57,14 +53,56 @@ function script11407(int0: number): void {
     } else {
         IF_SETHIDE(true, comp(1622, 10));
     };
-    if (((PLAYERMEMBER() == false) || (((((((((((varbitplayer_27945 == 0) && (varbitplayer_27947 == 0)) && (varbitplayer_27948 == 0)) && (varbitplayer_27949 == 0)) && (varbitplayer_27950 == 0)) && (varbitplayer_27951 == 0)) && (varbitplayer_27952 == 0)) && (varbitplayer_27953 == 0)) && (varbitplayer_27954 == 0)) && (varbitplayer_27955 == 0)) && (varbitplayer_27956 == 0)))) {
+    if ((PLAYERMEMBER() == false)) {
         IF_SETHIDE(true, comp(1622, 14));
+    } else if ((varbitplayer_27945 == 0)) {
+        if ((varbitplayer_27947 == 0)) {
+            if ((varbitplayer_27948 == 0)) {
+                if ((varbitplayer_27949 == 0)) {
+                    if ((varbitplayer_27950 == 0)) {
+                        if ((varbitplayer_27951 == 0)) {
+                            if ((varbitplayer_27952 == 0)) {
+                                if ((varbitplayer_27953 == 0)) {
+                                    if ((varbitplayer_27954 == 0)) {
+                                        if ((varbitplayer_27955 == 0)) {
+                                            if ((varbitplayer_27956 == 0)) {
+                                                IF_SETHIDE(true, comp(1622, 14));
+                                            } else {
+                                                IF_SETHIDE(false, comp(1622, 14));
+                                            };
+                                        } else {
+                                            IF_SETHIDE(false, comp(1622, 14));
+                                        };
+                                    } else {
+                                        IF_SETHIDE(false, comp(1622, 14));
+                                    };
+                                } else {
+                                    IF_SETHIDE(false, comp(1622, 14));
+                                };
+                            } else {
+                                IF_SETHIDE(false, comp(1622, 14));
+                            };
+                        } else {
+                            IF_SETHIDE(false, comp(1622, 14));
+                        };
+                    } else {
+                        IF_SETHIDE(false, comp(1622, 14));
+                    };
+                } else {
+                    IF_SETHIDE(false, comp(1622, 14));
+                };
+            } else {
+                IF_SETHIDE(false, comp(1622, 14));
+            };
+        } else {
+            IF_SETHIDE(false, comp(1622, 14));
+        };
     } else {
         IF_SETHIDE(false, comp(1622, 14));
     };
     IF_SETONRESIZE(callback(script11408, -2147483645), int0);
     IF_SETONINVTRANSMIT(callback(script11408, -2147483645, 773, 1), int0);
-    IF_SETPOSITION(int6, int7, 0, 0, 106299401);
+    IF_SETPOSITION(int6, int7, 0, 0, comp(1622, 9));
     script11409(int0);
     return;
 }

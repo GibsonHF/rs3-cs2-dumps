@@ -6,7 +6,7 @@ function script3513(): void {
     var int3 = 0;
     var int4 = 0;
     var int5 = 0;
-    [int2, int3, int4, int5] = UNKNOWN_COMMAND_126();
+    [int2, int3, int4, int5] = VIEWPORT_GETBOUNDS();
     if ((varclient_6403 == 0)) {
         int1 = 0;
     } else {

@@ -1,7 +1,7 @@
 //
 function script19030(): number {
-    var int0 = -1 as dbrow;
-    var int1 = -1 as var_reference;
+    var int0 = -1;
+    var int1 = -1;
     var int2 = -1;
     var int3 = CC_SETPARAM_STRING(IF_SETPLAYERHEAD_SELF(WORLDMAP_LISTELEMENT_START(1200224, STAT_BASE(20 as stat), 2, 0), WORLDMAP_LISTELEMENT_START(1200192, 0, 3, 0)), 1200224, 1, -1, 0);
     var int4 = 0;
@@ -23,31 +23,18 @@ function script19030(): number {
         int4 = (int4 - 1);
     };
     unk11086(int5);
-    stack();
-    dbrow_findnext();
-    int0 = stack();
-    while ((int0 != -1 as dbrow)) {
-        stack(int0);
-        stack(1200240);
-        stack(0);
-        dbrow_getfield();
-        [int1, int2] = stack();
+    int0 = dbrow_findnext();
+    while ((int0 != -1)) {
+        [int1, int2] = dbrow_getfield(int0, 1200240, 0);
         if ((int1 == -1)) {
             return dbrow_getfield(int0, 1200128, 0);
         };
         if ((WORLDMAP_GETDISPLAYCOORD(int1) >= int2)) {
             return dbrow_getfield(int0, 1200128, 0);
         };
-        stack(1200224);
-        stack(int0);
-        stack(1200224);
-        stack(0);
-        dbrow_getfield();
-        int3 = CC_SETPARAM_STRING(IF_SETPLAYERHEAD_SELF(WORLDMAP_LISTELEMENT_START(stack(), (stack() - 1), 2, 0), WORLDMAP_LISTELEMENT_START(1200192, 0, 3, 0)), 1200128, 1, -1, 0);
+        int3 = CC_SETPARAM_STRING(IF_SETPLAYERHEAD_SELF(WORLDMAP_LISTELEMENT_START(1200224, (dbrow_getfield(int0, 1200224, 0) - 1), 2, 0), WORLDMAP_LISTELEMENT_START(1200192, 0, 3, 0)), 1200128, 1, -1, 0);
         unk11086(RANDOM(int3));
-        stack();
-        dbrow_findnext();
-        int0 = stack();
+        int0 = dbrow_findnext();
     };
     script12478("No valid altars found. This should be impossible!");
     return 0;

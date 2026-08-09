@@ -1,7 +1,7 @@
 //
 function script13221(): void {
     IF_SETONTIMER(callback(), comp(1843, 238));
-    if ((IF_FIND(120783031) == 1)) {
+    if ((IF_FIND(comp(1843, 183)) == 1)) {
         if ((strcmp(varclient_2250, "") == 0)) {
             IF_SETTEXT("Search...", comp(1843, 244));
             IF_SETCOLOUR(script10495(3), comp(1843, 244));

@@ -19,16 +19,16 @@ function script14918(int0: number, int1: number): void {
                 int4 = script10873(int2, item_getparam(int2, 2697), 1, 1);
                 [int5, int6] = script362(int4, 1);
                 if ((int6 > 0)) {
-                    string0 = `${inttostring(int5, 10)}${script8002()}${inttostring(int6, 10)} ${enum_getvalue(0, 36, 108 as cs2enum, int3)} Experience`;
+                    string0 = `${inttostring(int5, 10)}${script8002()}${inttostring(int6, 10)} ${enum_getvalue(0, 36, 108, int3)} Experience`;
                 } else {
-                    string0 = `${inttostring(int5, 10)} ${enum_getvalue(0, 36, 108 as cs2enum, int3)} Experience`;
+                    string0 = `${inttostring(int5, 10)} ${enum_getvalue(0, 36, 108, int3)} Experience`;
                 };
-                script14919(45482012, -1, enum_getvalue(0, 23, 371 as cs2enum, int3), strconcat(script361(int4, 1), "xp"), string0, 0, int8, 0, -1);
+                script14919(45482012, -1, enum_getvalue(0, 23, 371, int3), strconcat(script361(int4, 1), "xp"), string0, 0, int8, 0, -1);
             } else {
-                script14919(45482012, -1, -1 as graphic, "-", "No xp gain", 1, int8, 0, -1);
+                script14919(45482012, -1, -1, "-", "No xp gain", 1, int8, 0, -1);
             };
             int8 = (int8 + (24 + 20));
-            script14919(45482012, -1, 10317 as graphic, TOSTRING_LOCALISED(script14688(int0), 1), "Chronote Value", 0, int8, 0, -1);
+            script14919(45482012, -1, 10317, TOSTRING_LOCALISED(script14688(int0), 1), "Chronote Value", 0, int8, 0, -1);
             IF_SETHIDE(false, comp(694, 25));
             IF_SETHIDE(false, comp(694, 26));
             int9 = script7127(int2, IF_GETHEIGHT(comp(694, 29)), 45482032);
@@ -45,7 +45,7 @@ function script14918(int0: number, int1: number): void {
         case 2: {
             int7 = 1;
             int8 = ((IF_GETWIDTH(comp(694, 28)) - ((int7 * 24) + ((int7 - 1) * 20))) / 2);
-            script14919(45482012, -1, 10317 as graphic, TOSTRING_LOCALISED(script14688(int0), 1), "Chronote Value", 0, int8, 0, -1);
+            script14919(45482012, -1, 10317, TOSTRING_LOCALISED(script14688(int0), 1), "Chronote Value", 0, int8, 0, -1);
             script152(45482007, IF_GETWIDTH(comp(694, 23)), (IF_GETHEIGHT(comp(694, 23)) - IF_GETHEIGHT(comp(694, 24))), 0, IF_GETHEIGHT(comp(694, 24)), 26, dbrow_getfield(int0, 364592, 0), 16777215);
             CC_SETTEXTALIGN(1, 0, 0);
             IF_SETHIDE(true, comp(694, 25));

@@ -3,13 +3,8 @@ function script19734(int0: number): void {
     stack(1101824);
     stack(int0);
     DB_FIND(0);
-    dbrow_findnext();
-    var int1 = stack();
-    stack(int1);
-    stack(1101888);
-    stack(0);
-    dbrow_getfield();
-    var int2 = stack();
+    var int1 = dbrow_findnext();
+    var int2 = dbrow_getfield(int1, 1101888, 0);
     if ((script19694(int0) == 1)) {
         IF_SETHIDE(true, int2);
     };

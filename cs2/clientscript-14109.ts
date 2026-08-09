@@ -20,11 +20,11 @@ function script14109(int0: number, int1: number, int2: number, int3: number): [n
     CC_SETOP(1, `Show ${struct_getparam(int3, 6974)}`);
     CC_SETONOP(callback(script14108, int2));
     var int2 = (int2 + 14);
-    CC_CREATE(127401990, 4, IF_GETNEXTSUBID(127401990));
+    CC_CREATE(comp(1944, 6), 4, IF_GETNEXTSUBID(comp(1944, 6)));
     CC_SETPOSITION(5, int2, 0, 0);
     CC_SETSIZE(500, 30, 0, 0);
-    CC_SETTEXTFONT(28);
-    CC_SETTEXTSHADOW(1);
+    CC_SETTEXTFONT(28 as fontmetrics);
+    CC_SETTEXTSHADOW(true);
     script11024(1);
     return [int2, CC_GETID()];
 }

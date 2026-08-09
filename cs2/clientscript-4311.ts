@@ -10,7 +10,7 @@ function script4311(): void {
     var int7 = varclient_1501;
     var int8 = 3720 as cs2enum;
     var string0 = "";
-    var int9 = true;
+    var int9 = 1;
     var int10 = 1;
     if ((int0 == 1)) {
         int2 = varclient_1500;
@@ -18,19 +18,19 @@ function script4311(): void {
     IF_SETTEXT(`Settings for: ${varclient_2521}`, comp(1096, 38));
     switch (MAP_LANG()) {
         case 1: {
-            int8 = 3727 as cs2enum;
+            int8 = 3727;
             break;
         }
         case 2: {
-            int8 = 3728 as cs2enum;
+            int8 = 3728;
             break;
         }
         case 3: {
-            int8 = 3729 as cs2enum;
+            int8 = 3729;
             break;
         }
         case 6: {
-            int8 = 7498 as cs2enum;
+            int8 = 7498;
             break;
         }
     };
@@ -38,18 +38,27 @@ function script4311(): void {
         int7 = (int7 - 1);
     };
     if ((int0 == 0)) {
-        int9 = true;
+        int9 = 1;
     } else if ((((script6518() == 0) || (int1 < int2)) || (int1 < 100))) {
-        int9 = true;
-    } else if (((script6518() == 1) && (int1 >= int2))) {
-        int9 = false;
-        int10 = 0;
-        int3 = varclient_1566;
-        int5 = varclient_1565;
-        int4 = varclient_1567;
-        int6 = varclient_1564;
+        int9 = 1;
+    } else if ((script6518() == 1)) {
+        if ((int1 >= int2)) {
+            int9 = 0;
+            int10 = 0;
+            int3 = varclient_1566;
+            int5 = varclient_1565;
+            int4 = varclient_1567;
+            int6 = varclient_1564;
+        } else if ((int1 >= 126)) {
+            int9 = 0;
+            int10 = 0;
+            int3 = varclient_1566;
+            int5 = varclient_1565;
+            int4 = varclient_1567;
+            int6 = varclient_1564;
+        };
     } else if ((int1 >= 126)) {
-        int9 = false;
+        int9 = 0;
         int10 = 0;
         int3 = varclient_1566;
         int5 = varclient_1565;
@@ -58,7 +67,7 @@ function script4311(): void {
     };
     script13971(71827510, 71827511, 28553, "Save", int9);
     script13971(71827513, 71827514, 28555, "Kick", int9);
-    script14140(71827516, 71827517, 3714 as cs2enum, 126, "", varclient_1500, 0, int10);
+    script14140(71827516, 71827517, 3714, 126, "", varclient_1500, 0, int10);
     script14140(71827519, 71827520, int8, ENUM_GETOUTPUTCOUNT(int8), "", int7, 1, int10);
     string0 = TEXT_SWITCH(int9, "You may not currently change this setting.", "Ban this member from the Clan Citadel.");
     script14139(71827498, 71827499, "Ban from Citadel", string0, string0, int3, int9);

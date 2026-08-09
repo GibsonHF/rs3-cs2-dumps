@@ -6,18 +6,18 @@ function script291(int0: number, int1: number, int2: number, int3: number, int4:
     if ((int0 == 0)) {
         IF_SETHIDE(true, int1);
         IF_SETGRAPHIC(773 as graphic, comp(1422, 95));
-        IF_SETONCLICK(callback(script290, 1, int1, int2, int3, int4, int5), 93192285);
+        IF_SETONCLICK(callback(script290, 1, int1, int2, int3, int4, int5), comp(1422, 93));
         return;
     };
     IF_SETHIDE(false, int1);
     IF_SETGRAPHIC(788 as graphic, comp(1422, 95));
-    IF_SETONCLICK(callback(script290, 0, int1, int2, int3, int4, int5), 93192285);
-    var int6 = ENUM_GETOUTPUTCOUNT(708);
+    IF_SETONCLICK(callback(script290, 0, int1, int2, int3, int4, int5), comp(1422, 93));
+    var int6 = ENUM_GETOUTPUTCOUNT(708 as cs2enum);
     define_array((int6 + 1));
     pop_array(0, 0);
     var int7 = 1;
     var int8 = 1;
-    var int9 = -1;
+    var int9 = -1 as maparea;
     var int10 = MAX(20, script10082());
     while ((int7 <= int6)) {
         int9 = enum_getvalue(0, 21, 708 as cs2enum, int7);
@@ -36,7 +36,7 @@ function script291(int0: number, int1: number, int2: number, int3: number, int4:
     CC_SETCOLOUR(script10495(3));
     CC_SETONMOUSEOVER(callback(script1356, -2147483645, -2147483643, script10495(4)));
     CC_SETONMOUSELEAVE(callback(script1356, -2147483645, -2147483643, script10495(3)));
-    int9 = enum_getvalue(0, 21, 708, push_array(0));
+    int9 = enum_getvalue(0, 21, 708 as cs2enum, push_array(0));
     CC_SETTEXT(WORLDMAP_GETMAPNAME(int9));
     CC_SETOP(1, "Select");
     CC_SETONOP(callback(script294, int9, int1, int2, int3, int4, int5));
@@ -53,7 +53,7 @@ function script291(int0: number, int1: number, int2: number, int3: number, int4:
         CC_SETCOLOUR(script10495(3));
         CC_SETONMOUSEOVER(callback(script1356, -2147483645, -2147483643, script10495(4)));
         CC_SETONMOUSELEAVE(callback(script1356, -2147483645, -2147483643, script10495(3)));
-        int9 = enum_getvalue(0, 21, 708, push_array(int7));
+        int9 = enum_getvalue(0, 21, 708 as cs2enum, push_array(int7));
         CC_SETTEXT(WORLDMAP_GETMAPNAME(int9));
         CC_SETOP(1, "Select");
         CC_SETONOP(callback(script294, int9, int1, int2, int3, int4, int5));
@@ -66,7 +66,8 @@ function script291(int0: number, int1: number, int2: number, int3: number, int4:
     };
     IF_SETSCROLLSIZE(0, int11, int2);
     int11 = MAX(int11, int10);
-    int11 = MIN(++int11, 150);
+    int11 = (int11 + 3);
+    int11 = MIN(int11, 150);
     IF_SETSIZE(IF_GETWIDTH(int1), int11, 0, 0, int1);
     script7791(int3, int2);
     script157(int3, int2, int12, 1);

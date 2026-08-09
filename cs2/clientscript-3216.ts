@@ -27,8 +27,16 @@ function script3216(int0: number, int1: number): void {
         switch (int0) {
             case 13:
             case 84: {
-                if (((STRING_LENGTH(varclient_2563) > 0) && (int0 == 13))) {
-                    varclient_2563 = "";
+                if ((STRING_LENGTH(varclient_2563) > 0)) {
+                    if ((int0 == 13)) {
+                        varclient_2563 = "";
+                    } else {
+                        IF_SETHIDE(true, comp(786, 16));
+                        IF_SETHIDE(true, comp(786, 13));
+                        varclient_174 = -1;
+                        script1594();
+                        return;
+                    };
                 } else {
                     IF_SETHIDE(true, comp(786, 16));
                     IF_SETHIDE(true, comp(786, 13));
@@ -57,7 +65,7 @@ function script3216(int0: number, int1: number): void {
         };
         if (((((STRING_INDEXOF_CHAR("abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789  _-", int1, 0) != -1) || (int0 == 85)) || (int0 == 101)) || (int0 == 13))) {
             [varclient_2563, varclient_1099] = script802(varclient_1099, varclient_2563, 3, int0, int1);
-            IF_SETTEXT(varclient_2563, comp(786, 15));
+            IF_SETTEXT(varclient_2563, 51511311);
             script3218(51511310, 51511311, 51511312, varclient_2563, 111);
             script7855(0, 1);
         };

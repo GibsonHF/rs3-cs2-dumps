@@ -10,11 +10,11 @@ function script19483(int0: number, int1: number, string0: string, string1: strin
     IF_SETHIDE(false, comp(1313, 133));
     IF_SETHIDE(false, comp(1313, 131));
     IF_SETONCLICK(callback(script19484), comp(1313, 123));
-    if ((int0 != -1)) {
+    if ((int0 != -1 as obj)) {
         IF_SETONCLICK(callback(script19484), comp(1313, 132));
-        IF_SETOBJECT_NONUM(int0, 100, 86048899);
-        IF_SETHIDE(0, 86048898);
-        IF_SETPOSITION((5 + IF_GETWIDTH(86048898)), IF_GETY(86048897), 0, 0, 86048897);
+        IF_SETOBJECT_NONUM(int0, 100, comp(1313, 131));
+        IF_SETHIDE(false, comp(1313, 130));
+        IF_SETPOSITION((5 + IF_GETWIDTH(comp(1313, 130))), IF_GETY(comp(1313, 129)), 0, 0, comp(1313, 129));
     } else {
         IF_SETOBJECT(-1 as obj, 0, comp(1313, 131));
         IF_SETHIDE(true, comp(1313, 130));

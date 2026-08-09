@@ -19,7 +19,7 @@ function script6899(): void {
     var int3 = 89456658;
     script9554(int0, int1, int2, varclient_6522, 21218);
     if ((STRING_LENGTH(varclient_2440) > 0)) {
-        IF_SETTEXT(varclient_2440, comp(1365, 7));
+        IF_SETTEXT(varclient_2440, 89456647);
         IF_SETPAUSETEXT(`Offer rematch to ${REMOVETAGS(varclient_2440)}`, comp(1365, 14));
         IF_SETONTIMER(callback(script6900, -2147483645, (CLIENTCLOCK() + 50)), comp(1365, 0));
     } else {

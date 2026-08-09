@@ -9,7 +9,8 @@ function script10163(int0: number, int1: number): void {
         return;
     };
     var int3 = int2;
-    while ((--int3 > int1)) {
+    int3 = (int3 - 1);
+    while ((int3 > int1)) {
         script11635(int3, script11076((int3 - 1)));
     };
     script11635(int1, int0);

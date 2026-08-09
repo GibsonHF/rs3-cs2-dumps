@@ -4,6 +4,6 @@ function script20740(): void {
         return;
     };
     IF_SETONRESIZE(callback(script20741, -1), comp(1512, 9));
-    IF_CALLONRESIZE(99090441);
+    IF_CALLONRESIZE(comp(1512, 9));
     return;
 }

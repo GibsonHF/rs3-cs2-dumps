@@ -5,7 +5,9 @@ function script4511(int0: number, int1: number, int2: number, int3: number, int4
     var int10 = 0;
     var int11 = -1;
     var int12 = -1;
-    while ((CC_FIND(int0, ++int9) == 1)) {
+    stack(int0);
+    int9 = (int9 + 1);
+    while ((CC_FIND(int9) == 1)) {
         if ((cc_getparam(7188) == int3)) {
             if ((cc_getparam(7193) != -1)) {
                 int8 = cc_getparam(7193);

@@ -9,8 +9,8 @@ function script16878(): void {
     var int2 = ((DATE_MINUTES_FROMRUNEDAY(int1) + 720) - 1);
     IF_SETTEXT(`Fresh Start Worlds: Week ${inttostring(int0, 10)} Boosts (ACTIVE)`, comp(907, 12));
     IF_SETTEXT("Fresh Start Worlds: Next Week's Boosts", comp(907, 6));
-    IF_SETONTIMER(callback(script12275, 59441161, 59375629, int2, varplayer_10647, -1, 1, 1, 1), 59375629);
-    IF_SETONTIMER(callback(script12275, 59441167, 59375628, int2, varplayer_10647, -1, 1, 1, 1), 59375628);
+    IF_SETONTIMER(callback(script12275, 59441161, 59375629, int2, varplayer_10647, -1, 1, 1, 1), comp(906, 13));
+    IF_SETONTIMER(callback(script12275, 59441167, 59375628, int2, varplayer_10647, -1, 1, 1, 1), comp(906, 12));
     var int3 = struct_getparam(11795, 6381);
     var int4 = struct_getparam(25706, 6381);
     switch (MAP_LANG()) {
@@ -35,7 +35,7 @@ function script16878(): void {
     script16904();
     script16880(59441168, int0, 1);
     script16880(59441162, (int0 + 1), 0);
-    IF_SETONTIMER(callback(script16879, -2147483645, int0, 1, 0), 59441168);
-    IF_SETONTIMER(callback(script16879, -2147483645, (int0 + 1), 0, 0), 59441162);
+    IF_SETONTIMER(callback(script16879, -2147483645, int0, 1, 0), comp(907, 16));
+    IF_SETONTIMER(callback(script16879, -2147483645, (int0 + 1), 0, 0), comp(907, 10));
     return;
 }

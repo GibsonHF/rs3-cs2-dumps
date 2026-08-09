@@ -8,7 +8,7 @@ function script9266(int0: number, int1: number, int2: number): void {
         if ((CC_FIND(int0, int1) == 1)) {
             script9264(int3, CC_GETINVOBJECT(), CC_GETINVCOUNT());
         } else {
-            script9264(-1, -1 as obj, -1);
+            script9264(-1, -1, -1);
         };
         return;
     };
@@ -17,7 +17,7 @@ function script9266(int0: number, int1: number, int2: number): void {
         if ((CC_FIND(int0, int1) == 1)) {
             script9262(int3, CC_GETINVOBJECT(), -1);
         } else {
-            script9262(-1, -1 as obj, -1);
+            script9262(-1, -1, -1);
         };
         return;
     };

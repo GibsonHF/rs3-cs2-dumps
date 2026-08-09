@@ -245,6 +245,7 @@ function script7083(int0: number): number {
             return varbitplayer_53280;
         }
         case 48372: {
+            break;
         }
         default: {
             script12478("Case default reached for prayer struct. This is probably as a new prayer has been added to the enum, but not the prayer state proc.");

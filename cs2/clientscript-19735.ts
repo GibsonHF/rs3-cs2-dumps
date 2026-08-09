@@ -4,25 +4,25 @@ function script19735(): void {
     CC_DELETEALL(comp(1278, 30));
     var int0 = -1;
     var int1 = 8;
-    var int2 = -1 as dbrow;
-    var int3 = comp(-1, 65535);
-    var int4 = comp(-1, 65535);
-    var int5 = comp(-1, 65535);
-    var int6 = comp(-1, 65535);
-    var int7 = comp(-1, 65535);
+    var int2 = -1;
+    var int3 = -1;
+    var int4 = -1;
+    var int5 = -1;
+    var int6 = -1;
+    var int7 = -1;
     var int8 = 0;
     var int9 = 0;
     var int10 = 0;
-    var int11 = -1 as obj;
+    var int11 = -1;
     var int12 = 0;
     var int13 = 0;
     var int14 = 1;
-    while ((++int0 < int1)) {
+    int0 = (int0 + 1);
+    while ((int0 < int1)) {
         stack(1101824);
         stack(int0);
         DB_FIND(0);
-        dbrow_findnext();
-        int2 = stack();
+        int2 = dbrow_findnext();
         if ((int2 == -1)) {
             return;
         };
@@ -33,7 +33,7 @@ function script19735(): void {
         int7 = dbrow_getfield(int2, 1101952, 0);
         int8 = dbrow_getfield(int2, 1101968, 0);
         int9 = dbrow_getfield(int2, 1101984, 0);
-        IF_SETGRAPHIC(enum_getvalue(0, 23, 6651 as cs2enum, script19693(int0)), int4);
+        IF_SETGRAPHIC(enum_getvalue(0, 23, 6651, script19693(int0)), int4);
         [int11, int12, int13, int14] = script19695(int0);
         if ((int14 > 1)) {
             IF_SETTEXT(`${inttostring(int14, 10)}x ${OC_NAME(int11)}`, int6);
@@ -43,7 +43,7 @@ function script19735(): void {
         script19726(int5, int11, int12, int14, int13, 85, 55, 25, -25, 1);
         unk10997(int3);
         IF_SETONTIMER(callback(), int3);
-        IF_SETHIDE(0, int3);
+        IF_SETHIDE(false, int3);
         if ((varbitplayer_57133 >= 4)) {
             IF_CLEAROPS(int7);
             IF_SETPOSITION(320, 100, 0, 0, int3);

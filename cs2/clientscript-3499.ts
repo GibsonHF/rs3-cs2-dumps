@@ -5,8 +5,8 @@ function script3499(int0: number, int1: number, int2: number): void {
     };
     int0 = (int0 + 1);
     IF_SETONTIMER(callback(script3499, int0, int1, int2), int1);
-    IF_SETHIDE(1, int2);
-    if ((varclient_1323 == 0)) {
+    IF_SETHIDE(true, int2);
+    if ((varclient_1323 == pos(0,0,0,0,0))) {
         IF_SETMODELANGLE(0, 0, 512, MODULO((IF_GETMODELANGLE_Y(int1) + 30), 2047), 40, 275, int1);
         return;
     };

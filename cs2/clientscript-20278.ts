@@ -2,7 +2,7 @@
 function script20278(): void {
     varclient_8332 = varplayer_12323;
     if ((STRING_LENGTH(varclient_8333) > 0)) {
-        IF_SETTEXT(varclient_8333, comp(1479, 22));
+        IF_SETTEXT(varclient_8333, 96927766);
     };
     IF_SETPARAM_INT(9340, 0, comp(1479, 19));
     CC_DELETEALL(comp(1361, 17));

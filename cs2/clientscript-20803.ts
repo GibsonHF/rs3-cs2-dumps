@@ -8,11 +8,9 @@ function script20803(int0: number, int1: number, int2: number): void {
     };
     if ((CC_FINDBYCATEGORY(int0, 2, 0) == 1)) {
         if ((int1 == 0)) {
-            stack(CC_GETSCROLLY(0));
-            CC_SETSCROLLPOS((operator("+", 20) + 4));
+            CC_SETSCROLLPOS(((CC_GETSCROLLY(0) + 20) + 4));
         } else {
-            stack(CC_GETSCROLLY(0));
-            CC_SETSCROLLPOS((operator("-", 20) - 4));
+            CC_SETSCROLLPOS(((CC_GETSCROLLY(0) - 20) - 4));
         };
     };
     return;

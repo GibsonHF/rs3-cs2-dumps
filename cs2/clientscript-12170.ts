@@ -8,7 +8,7 @@ function script12170(int0: number, int1: number, int2: number, int3: number, int
     var int7 = 10;
     var int8 = 10;
     var int9 = (IF_GETWIDTH(int5) - 20);
-    var int10 = -1 as dbrow;
+    var int10 = -1;
     CC_DELETEALL(int5);
     if ((int1 == 0)) {
         script12086(int5, int6, int8, int7, int9, "This gizmo has no perks.", 29166);

@@ -4,61 +4,61 @@ function script3477(): void {
     if ((int0 > 0)) {
         IF_SETOBJECT_ALWAYSNUM(enum_getvalue(0, 33, 3082 as cs2enum, 1), int0, comp(991, 6));
         IF_SETONOP(callback(script3481, -2147483644), comp(991, 6));
-        IF_SETOP(1, "Select", 64946182);
+        IF_SETOP(1, "Select", comp(991, 6));
     } else {
         IF_SETOBJECT_NONUM(-1 as obj, 0, comp(991, 6));
         IF_SETONOP(callback(), comp(991, 6));
-        IF_CLEAROPS(64946182);
+        IF_CLEAROPS(comp(991, 6));
     };
     int0 = (2 - script3484(2));
     if ((int0 > 0)) {
         IF_SETOBJECT_ALWAYSNUM(enum_getvalue(0, 33, 3082 as cs2enum, 2), int0, comp(991, 7));
         IF_SETONOP(callback(script3481, -2147483644), comp(991, 7));
-        IF_SETOP(1, "Select", 64946183);
+        IF_SETOP(1, "Select", comp(991, 7));
     } else {
         IF_SETOBJECT_NONUM(-1 as obj, 0, comp(991, 7));
         IF_SETONOP(callback(), comp(991, 7));
-        IF_CLEAROPS(64946183);
+        IF_CLEAROPS(comp(991, 7));
     };
     int0 = (2 - script3484(3));
     if ((int0 > 0)) {
         IF_SETOBJECT_ALWAYSNUM(enum_getvalue(0, 33, 3082 as cs2enum, 3), int0, comp(991, 8));
         IF_SETONOP(callback(script3481, -2147483644), comp(991, 8));
-        IF_SETOP(1, "Select", 64946184);
+        IF_SETOP(1, "Select", comp(991, 8));
     } else {
         IF_SETOBJECT_NONUM(-1 as obj, 0, comp(991, 8));
         IF_SETONOP(callback(), comp(991, 8));
-        IF_CLEAROPS(64946184);
+        IF_CLEAROPS(comp(991, 8));
     };
     int0 = (2 - script3485(1));
     if ((int0 > 0)) {
         IF_SETOBJECT_ALWAYSNUM(enum_getvalue(0, 33, 3083 as cs2enum, 1), int0, comp(991, 14));
         IF_SETONOP(callback(script3481, -2147483644), comp(991, 14));
-        IF_SETOP(1, "Select", 64946190);
+        IF_SETOP(1, "Select", comp(991, 14));
     } else {
         IF_SETOBJECT_NONUM(-1 as obj, 0, comp(991, 14));
         IF_SETONOP(callback(), comp(991, 14));
-        IF_CLEAROPS(64946190);
+        IF_CLEAROPS(comp(991, 14));
     };
     int0 = (4 - script3485(2));
     if ((int0 > 0)) {
         IF_SETOBJECT_ALWAYSNUM(enum_getvalue(0, 33, 3083 as cs2enum, 2), int0, comp(991, 15));
         IF_SETONOP(callback(script3481, -2147483644), comp(991, 15));
-        IF_SETOP(1, "Select", 64946191);
+        IF_SETOP(1, "Select", comp(991, 15));
     } else {
         IF_SETOBJECT_NONUM(-1 as obj, 0, comp(991, 15));
         IF_SETONOP(callback(), comp(991, 15));
-        IF_CLEAROPS(64946191);
+        IF_CLEAROPS(comp(991, 15));
     };
     int0 = (2 - script3485(3));
     if ((int0 > 0)) {
         IF_SETOBJECT_ALWAYSNUM(enum_getvalue(0, 33, 3083 as cs2enum, 3), int0, comp(991, 16));
         IF_SETONOP(callback(script3481, -2147483644), comp(991, 16));
-        IF_SETOP(1, "Select", 64946192);
+        IF_SETOP(1, "Select", comp(991, 16));
     } else {
         IF_SETOBJECT_NONUM(-1 as obj, 0, comp(991, 16));
         IF_SETONOP(callback(), comp(991, 16));
-        IF_CLEAROPS(64946192);
+        IF_CLEAROPS(comp(991, 16));
     };
     CC_DELETEALL(comp(991, 10));
     var int1 = 0;

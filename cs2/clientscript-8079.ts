@@ -8,7 +8,7 @@ function script8079(int0: number): void {
         script8080(2, 0, 0);
         script6247(0, 0);
     } else {
-        IF_SETONTIMER(callback(script8078, IF_GETWIDTH(script8875(0)), IF_GETHEIGHT(script8875(0)), script8875(0)), 96796717);
+        IF_SETONTIMER(callback(script8078, IF_GETWIDTH(script8875(0)), IF_GETHEIGHT(script8875(0)), script8875(0)), comp(1477, 45));
     };
     return;
 }

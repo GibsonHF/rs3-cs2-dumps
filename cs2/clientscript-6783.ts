@@ -3,12 +3,13 @@ function script6783(): void {
     var int0 = -1;
     var int1 = DB_GETFIELDCOUNT(8346 as dbrow, 413696);
     var int2 = 0;
-    var int3 = -1 as obj;
+    var int3 = -1;
     var int4 = 0;
     var int5 = 0;
-    while ((++int0 < int1)) {
+    int0 = (int0 + 1);
+    while ((int0 < int1)) {
         [int3, int2, int2, int2, int2, int2, int2, int2] = dbrow_getfield(8346 as dbrow, 413696, int0);
-        if ((int3 != -1 as obj)) {
+        if ((int3 != -1)) {
             CC_CREATE(comp(631, 24), 5, int4);
             int4 = (int4 + 1);
             CC_SETSIZE(36, 34, 0, 0);

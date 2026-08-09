@@ -6,12 +6,28 @@ function script17129(int0: number): [number, string] {
         string0 = "Offline";
         int1 = 16711680;
     } else {
-        if (((int0 >= 1149) && (int0 < 1200))) {
-            string0 = "Beta lobby";
+        if ((int0 >= 1149)) {
+            if ((int0 < 1200)) {
+                string0 = "Beta lobby";
+            } else if ((int0 >= 1100)) {
+                string0 = `Lobby ${inttostring((int0 - 1099), 10)}`;
+            } else if ((int0 >= 200)) {
+                if ((int0 < 210)) {
+                    string0 = `Beta ${inttostring(int0, 10)}`;
+                } else {
+                    string0 = `World ${inttostring(int0, 10)}`;
+                };
+            } else {
+                string0 = `World ${inttostring(int0, 10)}`;
+            };
         } else if ((int0 >= 1100)) {
             string0 = `Lobby ${inttostring((int0 - 1099), 10)}`;
-        } else if (((int0 >= 200) && (int0 < 210))) {
-            string0 = `Beta ${inttostring(int0, 10)}`;
+        } else if ((int0 >= 200)) {
+            if ((int0 < 210)) {
+                string0 = `Beta ${inttostring(int0, 10)}`;
+            } else {
+                string0 = `World ${inttostring(int0, 10)}`;
+            };
         } else {
             string0 = `World ${inttostring(int0, 10)}`;
         };

@@ -12,10 +12,10 @@ function script13050(int0: number, int1: number): string {
         if ((int1 != -1 as stat)) {
             return `${enum_getvalue(17, 36, 680 as cs2enum, int0)} XP + ${enum_getvalue(17, 36, 680 as cs2enum, int1)} XP`;
         };
-        return `${enum_getvalue(17, 36, 680 as cs2enum, int0)} XP`;
+        return `${enum_getvalue(17, 36, 680, int0)} XP`;
     };
     if ((int1 != -1 as stat)) {
-        return `${enum_getvalue(17, 36, 680 as cs2enum, int1)} XP`;
+        return `${enum_getvalue(17, 36, 680, int1)} XP`;
     };
     return "N/A";
 }

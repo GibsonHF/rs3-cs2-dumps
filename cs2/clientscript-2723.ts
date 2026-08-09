@@ -56,8 +56,12 @@ function script2723(int0: number, int1: number, int2: number): void {
     };
     if ((int3 < int4)) {
         string0 = `This colony requires level ${TOSTRING_LOCALISED(int4, 1)} Divination.`;
-    } else if (((int5 > 0) && (int3 >= int5))) {
-        string0 = "You can use this colony, but a higher-level colony would be more beneficial.";
+    } else if ((int5 > 0)) {
+        if ((int3 >= int5)) {
+            string0 = "You can use this colony, but a higher-level colony would be more beneficial.";
+        } else {
+            string0 = "This is the ideal colony for your Divination level.";
+        };
     } else {
         string0 = "This is the ideal colony for your Divination level.";
     };

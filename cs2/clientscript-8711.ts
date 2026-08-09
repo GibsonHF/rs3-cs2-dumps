@@ -9,6 +9,7 @@ function script8711(int0: number, int1: number, int2: number, int3: number): num
             return (((int3 / 2) - (int2 / 2)) + int0);
         }
         case 2: {
+            break;
         }
         default: {
             switch (int0) {

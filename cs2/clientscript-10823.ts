@@ -31,7 +31,17 @@ function script10823(int0: number): void {
         };
         if ((struct_getparam(int1, 8109) == 2)) {
             int4 = script11095(int1);
-            if ((((int4 == 1) && (int2 == 0)) || ((int4 == 0) && (int2 == 1)))) {
+            if ((int4 == 1)) {
+                if ((int2 == 0)) {
+                    script15427(int1, script11294(int2));
+                    script15425(int1, int3);
+                    return;
+                } else if (((int4 == 0) && (int2 == 1))) {
+                    script15427(int1, script11294(int2));
+                    script15425(int1, int3);
+                    return;
+                };
+            } else if (((int4 == 0) && (int2 == 1))) {
                 script15427(int1, script11294(int2));
                 script15425(int1, int3);
                 return;
@@ -40,8 +50,12 @@ function script10823(int0: number): void {
         if ((MODULO(CLIENTCLOCK(), enum_getvalue(0, 0, 15518 as cs2enum, int6)) != 0)) {
             return;
         };
-        if (((cc_getparam(8107) == true) && ((int3 == comp(1204, 2)) || ((int3 != comp(1204, 2)) && (script11295(int1) == 0))))) {
-            script2921(int0, int1);
+        if ((cc_getparam(8107) == true)) {
+            if ((int3 == comp(1204, 2))) {
+                script2921(int0, int1);
+            } else if (((int3 != comp(1204, 2)) && (script11295(int1) == 0))) {
+                script2921(int0, int1);
+            };
         };
     };
     return;

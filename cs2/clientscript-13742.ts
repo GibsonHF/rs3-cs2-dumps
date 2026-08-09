@@ -91,21 +91,25 @@ function script13742(int0: number, int1: number, int2: number, int3: number, int
         };
         if ((int15 == 1)) {
             int18 = STRING_INDEXOF_STRING(string0, "<br>", int17);
-            if (((int17 < int19) && (int18 != -1))) {
-                string1 = SUBSTRING(string0, int17, MIN(int18, int19));
-                CC_CREATE(int0, 4, int16);
-                CC_SETPOSITION(0, (15 * int16), 0, 0);
-                CC_SETSIZE(0, 15, 1, 0);
-                CC_SETTEXTFONT(int14);
-                CC_SETCOLOUR(16777215);
-                CC_SETTEXT(string1);
-                CC_SETTEXTALIGN(0, 0, 0);
-                CC_SETOP(1, "Go To");
-                CC_SETOPCURSOR(1, 210);
-                CC_SETONMOUSEOVER(callback(script13743, int20, -2147483645, CC_GETID()));
-                CC_SETONMOUSELEAVE(callback(script13743, 16777215, -2147483645, CC_GETID()));
-                int17 = (int18 + 4);
-                int15 = 0;
+            if ((int17 < int19)) {
+                if ((int18 != -1)) {
+                    string1 = SUBSTRING(string0, int17, MIN(int18, int19));
+                    CC_CREATE(int0, 4, int16);
+                    CC_SETPOSITION(0, (15 * int16), 0, 0);
+                    CC_SETSIZE(0, 15, 1, 0);
+                    CC_SETTEXTFONT(int14);
+                    CC_SETCOLOUR(16777215);
+                    CC_SETTEXT(string1);
+                    CC_SETTEXTALIGN(0, 0, 0);
+                    CC_SETOP(1, "Go To");
+                    CC_SETOPCURSOR(1, 210);
+                    CC_SETONMOUSEOVER(callback(script13743, int20, -2147483645, CC_GETID()));
+                    CC_SETONMOUSELEAVE(callback(script13743, 16777215, -2147483645, CC_GETID()));
+                    int17 = (int18 + 4);
+                    int15 = 0;
+                } else {
+                    return;
+                };
             } else {
                 return;
             };

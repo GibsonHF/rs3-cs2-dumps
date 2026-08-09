@@ -19,13 +19,21 @@ function script8538(int0: number, int1: number, int2: number, int3: number, int4
         };
     } else if (((script8507(18, int1, 1, int4) == 1) || (int1 == 1))) {
         if ((int1 == 1)) {
-            if (((varbitplayer_22846 != 2) && (varbitplayer_22846 != 0))) {
+            if ((varbitplayer_22846 != 2)) {
+                if ((varbitplayer_22846 != 0)) {
+                    int5 = 18;
+                } else {
+                    return;
+                };
+            } else {
+                return;
+            };
+        } else if ((varbitplayer_22846 != 0)) {
+            if ((script9918(int1) == 1)) {
                 int5 = 18;
             } else {
                 return;
             };
-        } else if (((varbitplayer_22846 != 0) && (script9918(int1) == 1))) {
-            int5 = 18;
         } else {
             return;
         };

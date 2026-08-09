@@ -19,7 +19,8 @@ function script12356(int0: number, int1: number, int2: number): void {
         } else {
             CC_SETHIDE(true);
         };
-        int4 = MODULO(++int3, 5);
+        int3 = (int3 + 1);
+        int4 = MODULO(int3, 5);
         int5 = (int3 / 5);
     };
     return;

@@ -13,7 +13,7 @@ function script13830(int0: number): void {
     [int2, int1, int3, int4] = script5779();
     int2 = (int2 - int1);
     var int5 = 0;
-    var int6 = -1;
+    var int6 = -1 as obj;
     var int7 = 0;
     var int8 = 0;
     while ((int5 < 1820)) {
@@ -57,7 +57,7 @@ function script13830(int0: number): void {
         IF_SETTEXT(`${TOSTRING_LOCALISED(int8, 1)}       ${string2}${TOSTRING_LOCALISED(int9, 1)}`, comp(517, 248));
         IF_SETTEXT(`${TOSTRING_LOCALISED(script5778(), 1)}       ${TOSTRING_LOCALISED(540, 1)}`, comp(517, 249));
     };
-    IF_SETONMOUSEREPEAT(callback(script8799, string1, -2147483645, -2147483643), 33882357);
+    IF_SETONMOUSEREPEAT(callback(script8799, string1, -2147483645, -2147483643), comp(517, 245));
     if ((script15532(0) == 1)) {
         int10 = 1;
         string0 = "";
@@ -76,6 +76,6 @@ function script13830(int0: number): void {
         IF_CLEAROPS(comp(517, 250));
     };
     IF_SETHIDE(int11, comp(517, 253));
-    IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643), 33882362);
+    IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643), comp(517, 250));
     return;
 }

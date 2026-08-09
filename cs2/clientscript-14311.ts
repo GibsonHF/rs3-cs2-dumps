@@ -46,8 +46,8 @@ function script14311(int0: number): void {
         };
         int3 = (int3 + 1);
     };
-    var int6 = enum_getvalue(0, 0, 5034 as cs2enum, (int4 + 1));
-    var int7 = (int6 - enum_getvalue(0, 0, 5034 as cs2enum, int4));
+    var int6 = enum_getvalue(0, 0, 5034, (int4 + 1));
+    var int7 = (int6 - enum_getvalue(0, 0, 5034, int4));
     var int8 = (int6 - int2);
     var int9 = SCALE(int8, int7, 100);
     var int10 = (IF_GETWIDTH(comp(1126, 30)) - 12);
@@ -71,10 +71,10 @@ function script14311(int0: number): void {
     IF_SETTEXT(inttostring(struct_getparam(int1, 1901), 10), comp(1126, 88));
     IF_SETTEXT(inttostring(struct_getparam(int1, 1904), 10), comp(1126, 91));
     IF_SETTEXT(inttostring(struct_getparam(int1, 1907), 10), comp(1126, 94));
-    IF_SETTEXT(struct_getparam(int1, 1899), comp(1126, 5));
-    IF_SETTEXT(struct_getparam(int1, 1902), comp(1126, 89));
-    IF_SETTEXT(struct_getparam(int1, 1905), comp(1126, 92));
-    IF_SETTEXT(struct_getparam(int1, 1908), comp(1126, 95));
+    IF_SETTEXT(struct_getparam(int1, 1899), 73793541);
+    IF_SETTEXT(struct_getparam(int1, 1902), 73793625);
+    IF_SETTEXT(struct_getparam(int1, 1905), 73793628);
+    IF_SETTEXT(struct_getparam(int1, 1908), 73793631);
     var int11 = script9054(int4, struct_getparam(int1, 1898), 6610020, 14443620);
     IF_SETCOLOUR(int11, comp(1126, 4));
     IF_SETCOLOUR(int11, comp(1126, 5));

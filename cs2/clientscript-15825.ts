@@ -39,32 +39,36 @@ function script15825(int0: number, int1: number, int2: number): void {
         CC_SETTRANS(255);
         cc_setparam(5836, -1);
         cc_setparam(5837, -1);
-        while (((++int3 < int2) && (CC_FIND[1](int0, ((int1 + int3) + 1)) == 1))) {
-            CC_SETPOSITION[1](int4, int5, 1, 1);
-            CC_SET2DANGLE[1](int7);
-            CC_SETTRANS[1](int6);
-            CC_SETHIDE[1](false);
-            CC_SENDTOFRONT[1]();
-            cc_setparam[1](5935, int8);
-            cc_setparam[1](4421, -2147483648);
-            cc_setparam[1](4422, -2147483648);
-            cc_setparam[1](5926, -1);
-            cc_setparam[1](5927, -1);
-            cc_setparam[1](5833, 0);
-            cc_setparam[1](5834, 0);
-            script12707(script12641(int12, (360 - SCALE(MODULO((cc_getparam[1](5936) + int7), 65536), 65536, 360))));
-            if ((ABS(cc_getparam[1](5935)) < int9)) {
-                if ((cc_getparam[1](5829) < 0)) {
-                    cc_setparam[1](5935, int9);
-                } else if ((cc_getparam[1](5829) > 0)) {
-                    cc_setparam[1](5935, (0 - int9));
-                } else if ((cc_getparam[1](5936) < int9)) {
-                    cc_setparam[1](5935, int9);
-                } else {
-                    cc_setparam[1](5935, (0 - int9));
+        int3 = (int3 + 1);
+        while ((int3 < int2)) {
+            if ((CC_FIND[1](int0, ((int1 + int3) + 1)) == 1)) {
+                CC_SETPOSITION[1](int4, int5, 1, 1);
+                CC_SET2DANGLE[1](int7);
+                CC_SETTRANS[1](int6);
+                CC_SETHIDE[1](false);
+                CC_SENDTOFRONT[1]();
+                cc_setparam[1](5935, int8);
+                cc_setparam[1](4421, -2147483648);
+                cc_setparam[1](4422, -2147483648);
+                cc_setparam[1](5926, -1);
+                cc_setparam[1](5927, -1);
+                cc_setparam[1](5833, 0);
+                cc_setparam[1](5834, 0);
+                script12707(script12641(int12, (360 - SCALE(MODULO((cc_getparam[1](5936) + int7), 65536), 65536, 360))));
+                if ((ABS(cc_getparam[1](5935)) < int9)) {
+                    if ((cc_getparam[1](5829) < 0)) {
+                        cc_setparam[1](5935, int9);
+                    } else if ((cc_getparam[1](5829) > 0)) {
+                        cc_setparam[1](5935, (0 - int9));
+                    } else if ((cc_getparam[1](5936) < int9)) {
+                        cc_setparam[1](5935, int9);
+                    } else {
+                        cc_setparam[1](5935, (0 - int9));
+                    };
                 };
+                script12632(int0, CC_GETID[1]());
             };
-            script12632(int0, CC_GETID[1]());
+            return;
         };
     };
     return;

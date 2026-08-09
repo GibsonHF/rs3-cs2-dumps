@@ -6,22 +6,22 @@ function script685(int0: number, int1: number, int2: number, int3: number, int4:
             stack(0);
             stack(0);
             CC_GETMODELANGLE_X();
-            CC_SETMODELANGLE(stack(), MODULO((int2 + int3), 2048), CC_GETMODELANGLE_Z(), CC_GETMODELZOOM());
+            CC_SETMODELANGLE(MODULO((int2 + int3), 2048), CC_GETMODELANGLE_Z(), CC_GETMODELZOOM());
         } else if ((int3 <= (int4 * 2))) {
             stack(0);
             stack(0);
             CC_GETMODELANGLE_X();
-            CC_SETMODELANGLE(stack(), MODULO(((int2 + int4) - (int3 - int4)), 2048), CC_GETMODELANGLE_Z(), CC_GETMODELZOOM());
+            CC_SETMODELANGLE(MODULO(((int2 + int4) - (int3 - int4)), 2048), CC_GETMODELANGLE_Z(), CC_GETMODELZOOM());
         } else if ((int3 <= (int4 * 3))) {
             stack(0);
             stack(0);
             CC_GETMODELANGLE_X();
-            CC_SETMODELANGLE(stack(), script686((int2 - (int3 - (int4 * 2))), 2048), CC_GETMODELANGLE_Z(), CC_GETMODELZOOM());
+            CC_SETMODELANGLE(script686((int2 - (int3 - (int4 * 2))), 2048), CC_GETMODELANGLE_Z(), CC_GETMODELZOOM());
         } else {
             stack(0);
             stack(0);
             CC_GETMODELANGLE_X();
-            CC_SETMODELANGLE(stack(), script686(((int2 - int4) + (int3 - (int4 * 3))), 2048), CC_GETMODELANGLE_Z(), CC_GETMODELZOOM());
+            CC_SETMODELANGLE(script686(((int2 - int4) + (int3 - (int4 * 3))), 2048), CC_GETMODELANGLE_Z(), CC_GETMODELZOOM());
         };
         CC_SETONTIMER(callback(script685, -2147483645, -2147483643, int2, int3, int4, int5));
     };

@@ -5,12 +5,11 @@ function script20445(int0: number, int1: number): void {
     DB_FIND(0);
     var int2 = -1;
     var int3 = -1;
-    dbrow_findnext();
-    int2 = stack();
+    int2 = dbrow_findnext();
     if ((int2 == -1)) {
         return;
     };
-    int3 = enum_getvalue(0, 23, 745 as cs2enum, dbrow_getfield(int2, 1404960, 0));
+    int3 = enum_getvalue(0, 23, 745, dbrow_getfield(int2, 1404960, 0));
     IF_SETGRAPHIC(int3, int1);
     IF_SETONMOUSEREPEAT(callback(script8799, dbrow_getfield(int2, 1404928, 0), -2147483645, -1), int1);
     IF_SETONMOUSELEAVE(callback(script8805), int1);

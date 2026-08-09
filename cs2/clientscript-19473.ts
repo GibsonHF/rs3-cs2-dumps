@@ -1,7 +1,7 @@
 //
 function script19473(int0: number, int1: number): [number, number] {
     var int2 = 0;
-    var [int0, int2] = script19615(0, int0, int2, int1, "All Ironman mode and Group Ironman mode rules apply to Competitive Group Ironman mode. Rules within the Competitive Group Ironman ruleset override any conflicting rules from the Ironman and Group Ironman mode rulesets.");
+    [int0, int2] = script19615(0, int0, int2, int1, "All Ironman mode and Group Ironman mode rules apply to Competitive Group Ironman mode. Rules within the Competitive Group Ironman ruleset override any conflicting rules from the Ironman and Group Ironman mode rulesets.");
     [int0, int2] = script19613(0, int0, int2, int1, "Group Creation");
     [int0, int2] = script19617(0, int0, int2, int1, 0, "Only valid accounts can create a CGIM group.");
     [int0, int2] = script19617(0, int0, int2, int1, 1, "Accounts which complete or skip the initial game tutorial following the Group Ironman game update; hereby known as 'fresh accounts'.");

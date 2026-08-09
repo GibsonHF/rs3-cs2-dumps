@@ -1,5 +1,5 @@
 //
-function script3357(): [number, string, number] {
+function script3357(): [number, number, string] {
     switch (varplayer_1831) {
         case 17935: {
             return [1, "Sundering Strike (Tier 1)", 18027];
@@ -29,6 +29,7 @@ function script3357(): [number, string, number] {
             return [81, "Sundering Strike (Tier 9)", 18035];
         }
         case 17944: {
+            break;
         }
         default: {
             return [1, "Sundering Strike (Tier 1)", 18027];

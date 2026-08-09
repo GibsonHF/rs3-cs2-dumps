@@ -5,10 +5,6 @@ function script11547(int0: number): [number, number] {
     };
     var int1 = -1;
     var int2 = -1;
-    stack(int0);
-    stack(1437728);
-    stack(0);
-    dbrow_getfield();
-    [int1, int2] = stack();
+    [int1, int2] = dbrow_getfield(int0, 1437728, 0);
     return [int1, int2];
 }

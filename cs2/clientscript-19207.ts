@@ -11,5 +11,5 @@ function script19207(int0: number): number {
             return dbrow_getfield(int0, 1290464, 0);
         }
     };
-    return -1 as jingle;
+    return -1;
 }

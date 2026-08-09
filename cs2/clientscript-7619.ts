@@ -10,7 +10,7 @@ function script7619(int0: number, int1: number, int2: number): void {
         IF_SETCOLOUR(script693(255, int4, int4), int1);
     } else {
         IF_SETONTIMER(callback(), int0);
-        IF_SETHIDE(1, int0);
+        IF_SETHIDE(true, int0);
     };
     return;
 }

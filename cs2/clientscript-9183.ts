@@ -7,7 +7,7 @@ function script9183(int0: number, int1: number, int2: number, int3: number): num
     var int8 = -1 as stat;
     var int9 = 0;
     var string0 = "";
-    var int10 = -1 as quest;
+    var int10 = -1;
     switch (int2) {
         case 0: {
             int6 = struct_getparam(int4, 1294);
@@ -79,7 +79,7 @@ function script9183(int0: number, int1: number, int2: number, int3: number): num
             string0 = `Level <col=ffffff>${inttostring(int7, 10)} ${enum_getvalue(0, 36, 108 as cs2enum, int6)}</col> required.`;
         };
     } else if ((int6 == 61)) {
-        int10 = enum_getvalue(0, 3, 2252 as cs2enum, int7);
+        int10 = enum_getvalue(0, 3, 2252, int7);
         string0 = `You must complete the quest <col=ffffff>'${script2103(int10)}'</col>.`;
     } else if ((int6 == 60)) {
         int5 = script5795(int7);

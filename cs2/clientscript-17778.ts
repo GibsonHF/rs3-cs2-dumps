@@ -8,7 +8,8 @@ function script17778(int0: number, int1: number, int2: number, int3: number): nu
     var int9 = 0;
     var int10 = 0;
     var int11 = -1;
-    while ((++int11 < int8)) {
+    int11 = (int11 + 1);
+    while ((int11 < int8)) {
         [int5, int6, int7] = script17516(varplayer_11131, int11);
         int7 = script17832(int6, int7);
         if ((int5 == int4)) {

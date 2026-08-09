@@ -7,13 +7,15 @@ function script2138(int0: number, int1: number, int2: number): void {
     var int7 = 0;
     if ((CC_FIND(int0, int1) == 1)) {
         if ((int2 < 150)) {
-            CC_SETTRANS(++int2);
+            var int2 = (int2 + 10);
+            CC_SETTRANS(int2);
             CC_SETONTIMER(callback(script2138, -2147483645, -2147483643, int2));
         } else if ((int2 <= 225)) {
-            CC_SETTRANS(++int2);
+            int2 = (int2 + 2);
+            CC_SETTRANS(int2);
             CC_SETONTIMER(callback(script2138, -2147483645, -2147483643, int2));
         } else if ((int2 < 300)) {
-            var int2 = (int2 + 2);
+            int2 = (int2 + 2);
             CC_SETTRANS((450 - int2));
             CC_SETONTIMER(callback(script2138, -2147483645, -2147483643, int2));
         } else {

@@ -113,8 +113,20 @@ function script7761(int0: number): number {
                 break;
             }
         };
-        if (((int2 > 0) && (int2 < 60))) {
-            if ((STAT_BASE(enum_getvalue(0, 17, 681 as cs2enum, int2)) < int3)) {
+        if ((int2 > 0)) {
+            if ((int2 < 60)) {
+                if ((STAT_BASE(enum_getvalue(0, 17, 681 as cs2enum, int2)) < int3)) {
+                    return 0;
+                };
+            } else if ((int2 == 60)) {
+                int1 = script5795(int3);
+                if ((int1 == -1)) {
+                    return 0;
+                };
+                if ((script3227(int3) != 2)) {
+                    return 0;
+                };
+            } else if (((int2 == 61) && (script7073(int3) != 2))) {
                 return 0;
             };
         } else if ((int2 == 60)) {

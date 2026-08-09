@@ -4,6 +4,13 @@ function script15792(int0: number): void {
         return;
     };
     var int1 = comp(845, 5);
-    IF_SETONTIMER(callback(script15796, IF_GETX(int1), IF_GETY(int1), script15793(int0), int0, 0, int1), int1);
+    stack(15796);
+    stack(IF_GETX(int1));
+    stack(IF_GETY(int1));
+    stack(script15793(int0));
+    stack(int0);
+    stack(0);
+    stack(int1);
+    IF_SETONTIMER("iiiiiii", int1);
     return;
 }

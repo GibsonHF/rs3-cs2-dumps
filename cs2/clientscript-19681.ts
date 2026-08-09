@@ -1,7 +1,7 @@
 //
 function script19681(int0: number): number {
     var int1 = struct_getparam(int0, 5418);
-    var int2 = -1 as struct;
+    var int2 = -1;
     var int3 = 0;
     var int4 = 0;
     if ((int1 != -1 as dbrow)) {
@@ -14,5 +14,5 @@ function script19681(int0: number): number {
             int4 = (int4 + 1);
         };
     };
-    return -1 as struct;
+    return -1;
 }

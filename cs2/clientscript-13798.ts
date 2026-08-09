@@ -74,8 +74,16 @@ function script13798(int0: number, int1: number, string0: string, string1: strin
         CC_SETOP(7, `${string0}-All`);
         CC_SETOP(8, `${string0}-Placeholder`);
         CC_SETOP(varbitplayer_45189, "");
-        if ((((OC_WEARPOS(int0) != -1) && (item_getparam(int0, 3845) == false)) && (enum_getvalue(33, 1, 15589 as cs2enum, int0) == false))) {
-            CC_SETOP(9, "Wear");
+        if ((OC_WEARPOS(int0) != -1)) {
+            if ((item_getparam(int0, 3845) == false)) {
+                if ((enum_getvalue(33, 1, 15589 as cs2enum, int0) == false)) {
+                    CC_SETOP(9, "Wear");
+                } else {
+                    CC_SETOP(9, "");
+                };
+            } else {
+                CC_SETOP(9, "");
+            };
         } else {
             CC_SETOP(9, "");
         };

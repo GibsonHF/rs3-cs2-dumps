@@ -19,8 +19,12 @@ function script18229(int0: number, int1: number): [number, number] {
             break;
         }
     };
-    if (((int3 >= int4) && (int6 == 1))) {
-        int5 = 1;
+    if ((int3 >= int4)) {
+        if ((int6 == 1)) {
+            int5 = 1;
+        } else if ((int3 < int4)) {
+            int5 = 2;
+        };
     } else if ((int3 < int4)) {
         int5 = 2;
     };

@@ -40,7 +40,7 @@ function script17982(int0: number): void {
     if ((int0 != 0)) {
         return;
     };
-    var int4 = comp(1227, 5);
+    var int4 = 80412677;
     var int5 = 15;
     var int6 = 0;
     var int7 = 1;

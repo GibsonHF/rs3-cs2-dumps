@@ -7,7 +7,7 @@ function script12963(int0: number, int1: number, int2: number): void {
     var int7 = 0;
     var int8 = 0;
     var int9 = -1;
-    var int10 = -1 as struct;
+    var int10 = -1;
     var int11 = 0;
     var int12 = 0;
     var int13 = 0;
@@ -54,7 +54,7 @@ function script12963(int0: number, int1: number, int2: number): void {
                 int4 = (int5 * 2);
             };
         };
-        if ((PARAHEIGHT(struct_getparam(enum_getvalue(0, 73, int0, int9), 6228), (174 - 5), 26 as fontmetrics) > 1)) {
+        if ((PARAHEIGHT(struct_getparam(enum_getvalue(0, 73, int0, int9), 6228), (174 - 5), 26) > 1)) {
             int4 = MAX(int4, (int5 * 2));
         };
         int7 = 0;

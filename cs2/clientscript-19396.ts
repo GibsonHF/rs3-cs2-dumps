@@ -24,8 +24,7 @@ function script19396(int0: number, int1: number, int2: number): void {
     var int11 = DB_GETFIELDCOUNT(int0, 1245184);
     while ((int7 < int11)) {
         int5 = 0;
-        stack(dbrow_getfield(int0, 1245184, int7));
-        [string0, string1, int9, string2, int10] = stack();
+        [string0, string1, int9, string2, int10] = dbrow_getfield(int0, 1245184, int7);
         script16109(0, IF_GETNEXTSUBID(int1), int5, int4, 0, 0, 0, (int3 * 2), 1, 0, int7, 0);
         int5 = int6;
         script2995(int1, IF_GETNEXTSUBID(int1), int5, int4, 0, 0, 174, (int3 * 2), 0, 0, 2100, string0);

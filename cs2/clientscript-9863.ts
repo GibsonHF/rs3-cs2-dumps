@@ -11,25 +11,32 @@ function script9863(int0: number, int1: number, int2: number): [number, number, 
     var int8 = 0;
     var int9 = 0;
     var int10 = 0;
-    var int11 = -1 as obj;
-    var int12 = -1 as struct;
+    var int11 = -1;
+    var int12 = -1;
     var int13 = varplayer_9062;
     if ((AND(int13, 170) == 0)) {
         int13 = (int13 * 3);
     };
-    while (((int2 < int5) && (int8 <= int0))) {
-        [int8, int9, int11, int12, int10] = dbrow_getfield(int3, 299328, int2);
-        if ((int8 == int0)) {
-            if (((int4 == 0) && (int0 != 0))) {
-                int4 = int2;
+    while ((int2 < int5)) {
+        if ((int8 <= int0)) {
+            [int8, int9, int11, int12, int10] = dbrow_getfield(int3, 299328, int2);
+            if ((int8 == int0)) {
+                if (((int4 == 0) && (int0 != 0))) {
+                    int4 = int2;
+                };
+                if ((AND(int9, 85) != 0)) {
+                    if ((AND(int9, varplayer_9062) != 0)) {
+                        int6 = (int6 + 1);
+                    } else if ((AND(int9, int13) != 0)) {
+                        int7 = (int7 + 1);
+                    };
+                } else if ((AND(int9, int13) != 0)) {
+                    int7 = (int7 + 1);
+                };
             };
-            if (((AND(int9, 85) != 0) && (AND(int9, varplayer_9062) != 0))) {
-                int6 = (int6 + 1);
-            } else if ((AND(int9, int13) != 0)) {
-                int7 = (int7 + 1);
-            };
+            var int2 = (int2 + 1);
         };
-        var int2 = (int2 + 1);
+        return [(int2 - 1), int4, int6, int7];
     };
     return [(int2 - 1), int4, int6, int7];
 }

@@ -7,7 +7,11 @@ function script18142(): number {
         return 0;
     };
     var int0 = script17038(1);
-    if ((((int0 == 0) && (varbitplayer_16600 == 0)) || (int0 > 0))) {
+    if ((int0 == 0)) {
+        if (((varbitplayer_16600 == 0) || (int0 > 0))) {
+            return 1;
+        };
+    } else if ((int0 > 0)) {
         return 1;
     };
     if ((script18145() == 9)) {

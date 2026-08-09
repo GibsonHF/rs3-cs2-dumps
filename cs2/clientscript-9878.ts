@@ -1,17 +1,17 @@
 //
 function script9878(): void {
     IF_SETONVARTRANSMIT(callback(), comp(1503, 8));
-    var int0 = INV_GETOBJ(94, 3);
+    var int0 = INV_GETOBJ(94 as inv, 3);
     var int1 = 0;
     var string0 = "Attack";
     var string1 = "";
     var string2 = "";
     var string3 = "Sheathe/unsheathe weapon";
-    var int2 = 239;
-    var int3 = 238;
-    var int4 = 240;
-    var int5 = 237;
-    if ((int0 == -1)) {
+    var int2 = 239 as graphic;
+    var int3 = 238 as graphic;
+    var int4 = 240 as graphic;
+    var int5 = 237 as graphic;
+    if ((int0 == -1 as obj)) {
         int1 = 1;
     } else if ((item_getparam(int0, 2825) == 1)) {
         int1 = 1;
@@ -73,8 +73,8 @@ function script9878(): void {
     IF_SETGRAPHIC(int5, comp(1503, 35));
     IF_SETGRAPHIC(int5, comp(1503, 58));
     IF_SETTEXT(string0, comp(1503, 40));
-    IF_SETONMOUSEREPEAT(callback(script8799, string1, -2147483645, -2147483643), 98500645);
-    IF_SETONMOUSEREPEAT(callback(script8799, string3, -2147483645, -2147483643), 98500619);
+    IF_SETONMOUSEREPEAT(callback(script8799, string1, -2147483645, -2147483643), comp(1503, 37));
+    IF_SETONMOUSEREPEAT(callback(script8799, string3, -2147483645, -2147483643), comp(1503, 11));
     script9877();
     return;
 }

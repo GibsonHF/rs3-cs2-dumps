@@ -28,7 +28,8 @@ function script9668(int0: number, int1: number, int2: number, int3: number): voi
             CC_SETONMOUSEREPEAT[1](callback(script8799, string0, int1, int4));
         };
         int5 = ((int5 + CC_GETHEIGHT()) + 5);
-        if ((MODULO(++int4, 15) == 0)) {
+        int4 = (int4 + 1);
+        if ((MODULO(int4, 15) == 0)) {
             int6 = ((CC_GETWIDTH() + CC_GETX()) + 10);
             int5 = 5;
         };

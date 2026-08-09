@@ -1,5 +1,5 @@
 //
-function script13228(int0: number, int1: number): [string, string, string, number] {
+function script13228(int0: number, int1: number): [number, string, string, string] {
     var string0 = "Rename Preset";
     var string1 = "Enter new name here.";
     var string2 = "Clear name";
@@ -10,7 +10,8 @@ function script13228(int0: number, int1: number): [string, string, string, numbe
     var int3 = -1 as struct;
     var int4 = -1;
     var int5 = ENUM_GETOUTPUTCOUNT(12237 as cs2enum);
-    while ((++int4 < int5)) {
+    int4 = (int4 + 1);
+    while ((int4 < int5)) {
         int3 = enum_getvalue(0, 73, 12237 as cs2enum, int4);
         if ((int3 != -1 as struct)) {
             if ((struct_getparam(int3, 6353) == int1)) {
@@ -29,8 +30,12 @@ function script13228(int0: number, int1: number): [string, string, string, numbe
     var int7 = 4;
     int2 = 4;
     var int8 = (496 - (2 * int7));
-    var int9 = 29 as fontmetrics;
-    CC_CREATE(int0, 4, int6++);
+    var int9 = 29;
+    stack(int0);
+    stack(4);
+    stack(int6);
+    int6 = (int6 + 1);
+    CC_CREATE();
     CC_SETTEXTFONT(int9);
     CC_SETTEXTALIGN(0, 1, 0);
     CC_SETPOSITION(int7, int2, 0, 0);
@@ -38,15 +43,20 @@ function script13228(int0: number, int1: number): [string, string, string, numbe
     CC_SETTEXT("Current Name:");
     CC_SETSIZE((int7 * 2), script7593(CC_GETTEXT(), int8, CC_GETFONTMETRICS(), 0), 1, 0);
     int2 = (int2 + (CC_GETHEIGHT() + int7));
-    var int10 = 26 as fontmetrics;
-    CC_CREATE(int0, 4, int6++);
+    var int10 = 26;
+    stack(int0);
+    stack(4);
+    stack(int6);
+    int6 = (int6 + 1);
+    CC_CREATE();
     CC_SETTEXTFONT(int10);
     CC_SETTEXTALIGN(0, 0, 0);
     CC_SETPOSITION(int7, int2, 0, 0);
     CC_SETCOLOUR(16777215);
     var string3 = "A";
     var int11 = 0;
-    while ((++int11 < 2)) {
+    int11 = (int11 + 1);
+    while ((int11 < 2)) {
         string3 = `${string3}<br>A`;
     };
     CC_SETSIZE((int7 * 2), script7593(string3, int8, CC_GETFONTMETRICS(), 0), 1, 0);

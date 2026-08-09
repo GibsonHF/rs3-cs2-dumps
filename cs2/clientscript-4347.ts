@@ -1,7 +1,7 @@
 //
 function script4347(): void {
     if ((varplayer_2072 == 0)) {
-        script14141(71893021, 71893022, 3702 as cs2enum, 9, "Select the keyword category", 0, 0, 0, "Select a category");
+        script14141(71893021, 71893022, 3702, 9, "Select the keyword category", 0, 0, 0, "Select a category");
         IF_SETHIDE(true, comp(1097, 32));
         script13971(71893021, -1, 28619, "No Category Selected", 1);
         return;
@@ -10,7 +10,7 @@ function script4347(): void {
     if ((int0 == -1 as cs2enum)) {
         return;
     };
-    script10428(71893021, 71893022, 3702 as cs2enum, 9, "Select the keyword category", varplayer_2072, 0);
+    script10428(71893021, 71893022, 3702, 9, "Select the keyword category", varplayer_2072, 0);
     IF_SETHIDE(false, comp(1097, 32));
     if ((varplayer_2073 > 0)) {
         script10428(71893023, 71893024, int0, ENUM_GETOUTPUTCOUNT(int0), "Select the keyword", varplayer_2073, 0);

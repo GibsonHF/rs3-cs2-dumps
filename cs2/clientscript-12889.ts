@@ -55,7 +55,7 @@ function script12889(int0: number): [string, string, string, string, string] {
             IF_SETHIDE(false, int7);
         };
         IF_SETONTIMER(callback(), int8);
-        IF_SETHIDE(1, 118095939);
+        IF_SETHIDE(true, comp(1802, 67));
     };
     IF_SETTEXT(`${string5}${string0}`, int9);
     IF_SETTEXT(`${string5}${string1}`, int10);

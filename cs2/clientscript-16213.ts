@@ -37,7 +37,7 @@ function script16213(int0: number, int1: number, int2: number, int3: number, int
             }
             case 45923: {
                 int9 = 1;
-                long0 = script18491(40932 as obj, 1, 1);
+                long0 = script18491(40932, 1, 1);
                 CC_SETONINVTRANSMIT(callback(script16212, int0, int1, int2, int3, 0, 93, 795, 2));
                 break;
             }
@@ -82,7 +82,7 @@ function script16213(int0: number, int1: number, int2: number, int3: number, int
     };
     var int10 = 1;
     var int11 = 0;
-    if (((CC_FINDBYCATEGORY(int1, int2, 0) == 1) && branch_eq_long[256](long0, 0n))) {
+    if (((CC_FINDBYCATEGORY(int1, int2, 0) == 1) && LONG_BRANCH_EQUALS(long0, 0n))) {
         int11 = cc_getparam(6408);
         if (((int4 == 1) || (int6 < int11))) {
             cc_setparam(6408, int6);
@@ -99,7 +99,7 @@ function script16213(int0: number, int1: number, int2: number, int3: number, int
         };
     };
     if ((CC_FIND(int1, (int3 + 1)) == 1)) {
-        if (branch_gt_long[324](long0, 0n)) {
+        if (LONG_BRANCH_GREATER_THAN(long0, 0n)) {
             if ((int9 == 1)) {
                 CC_SETTEXT(script12971(long0));
             } else {

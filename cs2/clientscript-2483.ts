@@ -22,7 +22,8 @@ function script2483(int0: number, int1: number, int2: number, int3: number): num
             };
             while ((int4 != -1)) {
                 script14363(int0, -1, int2, int2, 1, int4);
-                if ((--int3 <= 0)) {
+                var int3 = (int3 - 1);
+                if ((int3 <= 0)) {
                     return 0;
                 };
                 int4 = script14340(int2, int4, int7);
@@ -31,7 +32,8 @@ function script2483(int0: number, int1: number, int2: number, int3: number): num
                 };
             };
         };
-        if ((++int9 > 15)) {
+        int9 = (int9 + 1);
+        if ((int9 > 15)) {
             int9 = 0;
         } else if ((int9 == 1)) {
             int9 = 2;

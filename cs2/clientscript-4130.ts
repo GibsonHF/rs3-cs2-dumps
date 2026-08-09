@@ -32,24 +32,30 @@ function script4130(int0: number): void {
             script665(0, 50, int0, int1);
             break;
         }
-        case 2:         if ((int1 < 4)) {
-            if ((CC_FIND(int0, int1) == 1)) {
-                CC_SETHIDE(false);
+        case 2: {
+            while ((int1 < 4)) {
+                if ((CC_FIND(int0, int1) == 1)) {
+                    CC_SETHIDE(false);
+                };
+                int1 = (int1 + 1);
             };
-            int1 = (int1 + 1);
-        };
-
+            script667(50, int0, int1);
+            break;
+        }
         case 3: {
             script665(0, 50, int0, 4);
             break;
         }
-        case 4:         if ((int1 < 4)) {
-            if ((CC_FIND(int0, int1) == 1)) {
-                CC_SETHIDE(true);
+        case 4: {
+            while ((int1 < 4)) {
+                if ((CC_FIND(int0, int1) == 1)) {
+                    CC_SETHIDE(true);
+                };
+                int1 = (int1 + 1);
             };
-            int1 = (int1 + 1);
-        };
-
+            script667(50, int0, int1);
+            break;
+        }
         case 5: {
             CC_DELETEALL(int0);
             break;

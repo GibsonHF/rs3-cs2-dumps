@@ -5,8 +5,12 @@ function script1366(int0: number, int1: number): void {
         IF_SETHIDE(true, int1);
     } else if ((varplayer_1417 > 0)) {
         IF_SETTEXT(`Time until next game starts: ${inttostring(varplayer_1417, 10)}`, int0);
-        if (((varplayer_1417 <= 13) && (varplayer_1417 >= 4))) {
-            IF_SETHIDE(false, int1);
+        if ((varplayer_1417 <= 13)) {
+            if ((varplayer_1417 >= 4)) {
+                IF_SETHIDE(false, int1);
+            } else {
+                IF_SETHIDE(true, int1);
+            };
         } else {
             IF_SETHIDE(true, int1);
         };

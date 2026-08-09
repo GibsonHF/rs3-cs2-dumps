@@ -1,6 +1,6 @@
 //
 function script10693(int0: number): void {
-    var int1 = -1;
+    var int1 = comp(-1, 65535);
     var int2 = comp(-1, 65535);
     var int3 = comp(-1, 65535);
     var int4 = 12;
@@ -9,7 +9,7 @@ function script10693(int0: number): void {
             if (((varbitplayer_25557 == 0) || (IF_GETHIDE(comp(1545, 28)) == false))) {
                 return;
             };
-            int1 = 46268421;
+            int1 = comp(706, 5);
             int2 = comp(1545, 28);
             int3 = comp(1545, 30);
             int4 = 24;
@@ -19,7 +19,7 @@ function script10693(int0: number): void {
             if (((varbitplayer_25558 == 0) || (IF_GETHIDE(comp(1545, 35)) == false))) {
                 return;
             };
-            int1 = 46268420;
+            int1 = comp(706, 4);
             int2 = comp(1545, 35);
             int3 = comp(1545, 44);
             break;
@@ -28,7 +28,7 @@ function script10693(int0: number): void {
             if (((varbitplayer_25559 == 0) || (IF_GETHIDE(comp(1545, 39)) == false))) {
                 return;
             };
-            int1 = 46268419;
+            int1 = comp(706, 3);
             int2 = comp(1545, 39);
             int3 = comp(1545, 46);
             break;

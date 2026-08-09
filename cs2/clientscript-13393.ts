@@ -17,27 +17,48 @@ function script13393(int0: number, int1: number, int2: number, int3: number, int
     var int17 = script3085(int2);
     var int18 = 0;
     var int19 = 0;
-    if (((int3 > MAX(3, varplayer_7990)) && (int17 == 0))) {
-        while ((int12 < int3)) {
-            stack(IF_SETONSTORETRANSMIT(int12));
-            [int11, string0] = stack();
-            if ((int11 > 1)) {
-                int6 = MAX(int6, STRINGWIDTH(`${string0}<col=FFFFFF> <gt>`, struct_getparam(int4, 7275)));
-                int10 = MAX(int10, int11);
-                int9 = script13394(int9, int12, int11, int4);
-            } else {
-                [int15, string1, int16] = NOTIFICATIONS_SENDGROUPEDLOCAL(int12, 0);
-                int6 = MAX(int6, STRINGWIDTH(string1, struct_getparam(int4, 7275)));
+    if ((int3 > MAX(3, varplayer_7990))) {
+        if ((int17 == 0)) {
+            while ((int12 < int3)) {
+                [int11, string0] = IF_SETONSTORETRANSMIT(int12);
+                if ((int11 > 1)) {
+                    int6 = MAX(int6, STRINGWIDTH(`${string0}<col=FFFFFF> <gt>`, struct_getparam(int4, 7275)));
+                    int10 = MAX(int10, int11);
+                    int9 = script13394(int9, int12, int11, int4);
+                } else {
+                    [int15, string1, int16] = NOTIFICATIONS_SENDGROUPEDLOCAL(int12, 0);
+                    int6 = MAX(int6, STRINGWIDTH(string1, struct_getparam(int4, 7275)));
+                };
+                int12 = (int12 + 1);
             };
-            int12 = (int12 + 1);
+            int7 = (((struct_getparam(int4, 7276) * int3) + 6) + struct_getparam(int4, 7265));
+            int10 = (((struct_getparam(int4, 7276) * int10) + 6) + struct_getparam(int4, 7265));
+        } else {
+            int6 = script13394(int6, -1, int2, int4);
+            if (((varclient_6403 != 0) && (int6 > 200))) {
+                int6 = 200;
+                var int4 = 668;
+            };
+            if ((varbitplayer_41265 == 1)) {
+                while ((int14 < int2)) {
+                    [int15, string1, int16] = NOTIFICATIONS_SENDGROUPEDLOCAL(-1, int14);
+                    if ((TESTBIT(varplayer_7991, int15) == 1)) {
+                        int13 = (int13 - 1);
+                    };
+                    int14 = (int14 + 1);
+                    int18 = script7593(string1, int6, struct_getparam(int4, 7275), 0);
+                    if ((int18 > struct_getparam(int4, 7276))) {
+                        int19 = (int19 + (int18 - struct_getparam(int4, 7276)));
+                    };
+                };
+            };
+            int7 = (((struct_getparam(int4, 7276) * int13) + struct_getparam(int4, 7265)) + int19);
         };
-        int7 = (((struct_getparam(int4, 7276) * int3) + 6) + struct_getparam(int4, 7265));
-        int10 = (((struct_getparam(int4, 7276) * int10) + 6) + struct_getparam(int4, 7265));
     } else {
         int6 = script13394(int6, -1, int2, int4);
         if (((varclient_6403 != 0) && (int6 > 200))) {
             int6 = 200;
-            var int4 = 668;
+            int4 = 668;
         };
         if ((varbitplayer_41265 == 1)) {
             while ((int14 < int2)) {
@@ -68,7 +89,7 @@ function script13393(int0: number, int1: number, int2: number, int3: number, int
     var int25 = IF_GETWIDTH(int22);
     var int26 = IF_GETHEIGHT(int22);
     if ((varclient_6403 != 0)) {
-        [int20, int21, int23, int24] = UNKNOWN_COMMAND_126();
+        [int20, int21, int23, int24] = VIEWPORT_GETBOUNDS();
     };
     if ((script6431() == 1)) {
         var int1 = (MAX(int21, (int1 - (int7 / 2))) + 10);

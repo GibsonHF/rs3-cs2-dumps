@@ -3,8 +3,8 @@ function script4765(): void {
     var int0 = script15513();
     var string0 = struct_getparam(int0, 8742);
     var string1 = struct_getparam(int0, 8743);
-    var int1 = false;
-    var int2 = false;
+    var int1 = 0;
+    var int2 = 0;
     var int3 = 0;
     var int4 = 0;
     var int5 = 0;
@@ -28,13 +28,13 @@ function script4765(): void {
             break;
         }
         case 45877: {
-            int2 = true;
+            int2 = 1;
             int3 = varbitplayer_50389;
             [int4, int5] = [varbitplayer_50390, varbitplayer_50391];
             break;
         }
         case 38119: {
-            int2 = true;
+            int2 = 1;
             int3 = varbitplayer_29983;
             [int4, int5] = [varbitplayer_29989, varbitplayer_29990];
             break;

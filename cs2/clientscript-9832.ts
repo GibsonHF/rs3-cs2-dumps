@@ -33,14 +33,19 @@ function script9832(int0: number, string0: string): void {
                 int9 = 1;
                 int1 = enum_getvalue(0, 33, 8842 as cs2enum, (int6 - int3));
             };
-            if (((script14437(int1, int9) == 1) && (STRING_INDEXOF_STRING(LOWERCASE(OC_NAME(script13794(int1))), string1, 0) > -1))) {
-                int11 = (int11 + 1);
-                CC_SETPOSITION(int7, int8, 0, 0);
-                CC_SETHIDE(false);
-                int7 = (int7 + int10);
-                if (((int7 + int12) >= int2)) {
-                    int7 = 8;
-                    int8 = (int8 + int10);
+            if ((script14437(int1, int9) == 1)) {
+                if ((STRING_INDEXOF_STRING(LOWERCASE(OC_NAME(script13794(int1))), string1, 0) > -1)) {
+                    int11 = (int11 + 1);
+                    CC_SETPOSITION(int7, int8, 0, 0);
+                    CC_SETHIDE(false);
+                    int7 = (int7 + int10);
+                    if (((int7 + int12) >= int2)) {
+                        int7 = 8;
+                        int8 = (int8 + int10);
+                    };
+                } else {
+                    CC_SETPOSITION(0, 0, 0, 0);
+                    CC_SETHIDE(true);
                 };
             } else {
                 CC_SETPOSITION(0, 0, 0, 0);

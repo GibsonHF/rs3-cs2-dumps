@@ -3,8 +3,10 @@ function script10158(int0: number): void {
     var int1 = 0;
     var int2 = 0;
     [int1, int2] = script8726(8, 26);
-    if (((varbitplayer_27169 == 0) && (((int1 != -1) || (int2 != -1)) || (varbitplayer_19925 == 1)))) {
-        return;
+    if ((varbitplayer_27169 == 0)) {
+        if ((((int1 != -1) || (int2 != -1)) || (varbitplayer_19925 == 1))) {
+            return;
+        };
     };
     var int3 = 0;
     var int4 = 0;

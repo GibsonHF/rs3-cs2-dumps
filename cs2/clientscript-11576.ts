@@ -1,17 +1,17 @@
 //
 function script11576(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number, int8: number, int9: number, int10: number, int11: number, int12: number, int13: number, int14: number): void {
-    var int15 = 18543 as graphic;
-    var int16 = 18541 as graphic;
+    var int15 = 18543;
+    var int16 = 18541;
     var string0 = enum_getvalue(0, 36, 10114 as cs2enum, int1);
     var string1 = "";
     if ((MAP_LANG() == 0)) {
-        string1 = enum_getvalue(0, 36, 10117 as cs2enum, int2);
+        string1 = enum_getvalue(0, 36, 10117, int2);
     } else if ((MAP_LANG() == 2)) {
-        string1 = enum_getvalue(0, 36, 9897 as cs2enum, int2);
+        string1 = enum_getvalue(0, 36, 9897, int2);
     } else {
-        string1 = enum_getvalue(0, 36, 9898 as cs2enum, int2);
+        string1 = enum_getvalue(0, 36, 9898, int2);
     };
-    var string2 = enum_getvalue(0, 36, 10118 as cs2enum, int3);
+    var string2 = enum_getvalue(0, 36, 10118, int3);
     IF_SETTEXT(string0, comp(1637, 23));
     IF_SETTEXT(string1, comp(1637, 39));
     IF_SETTEXT(string2, comp(1637, 41));

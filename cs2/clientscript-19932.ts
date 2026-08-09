@@ -2,7 +2,7 @@
 function script19932(int0: number): number {
     var int1 = dbrow_getfield(int0, 1302544, 0);
     var int2 = dbrow_getfield(int0, 1302576, 0);
-    var int3 = -1 as var_reference;
+    var int3 = -1;
     var int4 = -1;
     [int3, int4] = dbrow_getfield(int0, 1302528, 0);
     if ((script12477() < int1)) {
@@ -17,7 +17,7 @@ function script19932(int0: number): number {
     if (((script12477() == int2) && (script19938() >= dbrow_getfield(int0, 1302592, 0)))) {
         return 2;
     };
-    if (((int3 != -1 as var_reference) && (WORLDMAP_GETDISPLAYCOORD(int3) < int4))) {
+    if (((int3 != -1) && (WORLDMAP_GETDISPLAYCOORD(int3) < int4))) {
         return 3;
     };
     return 0;

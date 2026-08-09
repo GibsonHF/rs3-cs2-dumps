@@ -8,7 +8,7 @@ function script1471(int0: number, int1: number, int2: number, int3: number): voi
     var int9 = 0;
     var int10 = 0;
     var int11 = script1479(int1, int2);
-    if ((int11 == -1 as dbrow)) {
+    if ((int11 == -1)) {
         return;
     };
     if ((varbitplayer_4945 == 0)) {
@@ -28,7 +28,7 @@ function script1471(int0: number, int1: number, int2: number, int3: number): voi
     };
     var int15 = ENUM_GETOUTPUTCOUNT(int12);
     var int16 = script1468(int2);
-    if ((int11 == -1 as dbrow)) {
+    if ((int11 == -1)) {
         return;
     };
     if ((IF_FIND(int0) == 1)) {

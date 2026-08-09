@@ -3,10 +3,12 @@ function script4342(int0: number, int1: number, int2: number, int3: number, int4
     var string0 = "";
     var string1 = "";
     if ((MODULO(CLIENTCLOCK(), 3000) == 0)) {
-        if ((++int1 >= 60)) {
-            var int1 = 0;
-            if ((++int0 >= 24)) {
-                var int0 = 0;
+        var int1 = (int1 + 1);
+        if ((int1 >= 60)) {
+            int1 = 0;
+            var int0 = (int0 + 1);
+            if ((int0 >= 24)) {
+                int0 = 0;
             };
         };
         if ((int0 < 10)) {

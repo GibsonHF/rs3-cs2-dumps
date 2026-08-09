@@ -1,16 +1,15 @@
 //
 function script6773(): void {
     DB_LISTALL(162);
-    dbrow_findnext();
-    var int0 = stack();
+    var int0 = dbrow_findnext();
     var string0 = "";
     var int1 = 0;
     var int2 = 0;
     var int3 = -1;
-    CC_DELETEALL(41353241);
+    CC_DELETEALL(comp(631, 25));
     var int4 = 0;
     var int5 = 0;
-    while ((int0 != -1 as dbrow)) {
+    while ((int0 != -1)) {
         if ((script6734(int0) == 1)) {
             int3 = dbrow_getfield(int0, 663696, 0);
             if (((int3 == 5386 as graphic) || (int3 == 5387 as graphic))) {
@@ -43,7 +42,7 @@ function script6773(): void {
             CC_SETTEXTALIGN(0, 1, 0);
             CC_SETTEXTFONT(207 as fontmetrics);
             int5 = script6738(int0);
-            if ((dbrow_getfield(int0, 663776, 0) == true)) {
+            if ((dbrow_getfield(int0, 663776, 0) == 1)) {
                 CC_SETTEXT(dbrow_getfield(int0, 663568, 0));
             } else {
                 CC_SETTEXT(`${dbrow_getfield(int0, 663568, 0)} x ${inttostring(script6738(int0), 10)}`);
@@ -51,8 +50,7 @@ function script6773(): void {
             CC_SETHIDE(false);
             int1 = (int1 + 22);
         };
-        dbrow_findnext();
-        int0 = stack();
+        int0 = dbrow_findnext();
     };
     if ((int1 > 0)) {
         CC_CREATE(comp(631, 25), 5, int2);

@@ -17,7 +17,7 @@ function script7711(int0: number, int1: number, int2: number, int3: number, int4
         IF_SETONCLICK(callback(script7212, -2147483647, int1, int2), int1);
         script7213(int1, int2);
         IF_SETONDIALOGABORT(callback(script7714, int0, int1, int2, int3, int4), int1);
-        IF_SETHIDE(0, int4);
+        IF_SETHIDE(false, int4);
         IF_SETONCLICK(callback(script7714, int0, int1, int2, int3, int4), int4);
     };
     return;

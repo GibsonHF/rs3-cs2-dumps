@@ -14,7 +14,7 @@ function script2694(int0: number, int1: number, string0: string): void {
     };
     if ((int0 == 2)) {
         IF_SETTEXT(script400(string0, "<br>", " "), comp(978, 7));
-        script2190("", string0, 0, -1, "", "", 0);
+        script2190("", string0, 0, callback(), 0);
         IF_SETONCLICK(callback(), comp(808, 5));
         return;
     };

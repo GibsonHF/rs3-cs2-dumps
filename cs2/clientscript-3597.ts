@@ -18,7 +18,7 @@ function script3597(int0: number, int1: number, int2: number): void {
     var int3 = 0;
     var int4 = -1;
     var int5 = comp(-1, 65535);
-    var int6 = -1;
+    var int6 = comp(-1, 65535);
     var string0 = "";
     var string1 = "";
     while ((int3 < 3)) {
@@ -26,19 +26,19 @@ function script3597(int0: number, int1: number, int2: number): void {
             case 0: {
                 int4 = 2360;
                 int5 = comp(632, 12);
-                int6 = 41418762;
+                int6 = comp(632, 10);
                 break;
             }
             case 1: {
                 int4 = 2361;
                 int5 = comp(632, 39);
-                int6 = 41418788;
+                int6 = comp(632, 36);
                 break;
             }
             case 2: {
                 int4 = 2362;
                 int5 = comp(632, 63);
-                int6 = 41418812;
+                int6 = comp(632, 60);
                 break;
             }
         };

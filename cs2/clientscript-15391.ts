@@ -593,6 +593,7 @@ function script15391(int0: number): number {
             return varbitplayer_48590;
         }
         case 118487: {
+            break;
         }
         default: {
             return 0;

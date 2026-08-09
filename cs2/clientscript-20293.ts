@@ -25,14 +25,13 @@ function script20293(int0: number, int1: number, int2: number, int3: number, int
     };
     var string0 = "";
     var string1 = "";
-    var int13 = -1 as graphic;
+    var int13 = -1;
     var int14 = 0;
     var int15 = 30208;
     while ((int10 < int11)) {
         if ((DB_GETROWTABLE(int8) == 133)) {
             int12 = (200 + int10);
-            stack(dbrow_getfield(int8, 544768, (int10 + 1)));
-            [string0, int13] = stack();
+            [string0, int13] = dbrow_getfield(int8, 544768, (int10 + 1));
             string1 = inttostring(enum_getvalue(0, 0, int9, (int10 + 1)), 10);
         } else {
             int12 = (200 + dbrow_getfield(int8, 1376273, int10));

@@ -17,14 +17,25 @@ function script1691(int0: number, int1: number): void {
     var int3 = 0;
     define_array(288);
     var int4 = 0;
-    var int5 = -1 as struct;
+    var int5 = -1;
     while ((int3 < 288)) {
-        int5 = enum_getvalue(0, 73, 845 as cs2enum, int3);
+        int5 = enum_getvalue(0, 73, 845, int3);
         CC_CREATE(int0, 3, int3);
-        if (((script1694(int3) == 1) && (int5 != -1 as struct))) {
-            if (((int2 == 0) || ((int2 == 1) && (STRING_INDEXOF_STRING(LOWERCASE(struct_getparam(int5, 924)), LOWERCASE(varclient_5877), 0) != -1)))) {
-                pop_array(int4, int3);
-                int4 = (int4 + 1);
+        if ((script1694(int3) == 1)) {
+            if ((int5 != -1)) {
+                if ((int2 == 0)) {
+                    pop_array(int4, int3);
+                    int4 = (int4 + 1);
+                } else if ((int2 == 1)) {
+                    if ((STRING_INDEXOF_STRING(LOWERCASE(struct_getparam(int5, 924)), LOWERCASE(varclient_5877), 0) != -1)) {
+                        pop_array(int4, int3);
+                        int4 = (int4 + 1);
+                    } else {
+                        CC_SETHIDE(true);
+                    };
+                } else {
+                    CC_SETHIDE(true);
+                };
             } else {
                 CC_SETHIDE(true);
             };

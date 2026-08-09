@@ -27,21 +27,36 @@ function script20257(int0: number, int1: number, int2: number, int3: number, int
     script7862((int1 + 100), int2, 0, 0, 1, 0, int16, 0, 1, 1, int15, "", 1, 1, 1, int11);
     script20258(string0, int1, int2, int7);
     CC_GETDYNAMICLAYER();
-    script7918(0, int3++, 0, 4, 1, 0, 44, 40, 0, 0, int13);
+    stack(0);
+    stack(int3);
+    var int3 = (int3 + 1);
+    script7918(0, 4, 1, 0, 44, 40, 0, 0, int13);
     CC_SETONMOUSEOVER(callback(script688, -2147483645, -2147483643, int14));
     CC_SETONMOUSELEAVE(callback(script688, -2147483645, -2147483643, int13));
-    script7918(0, int3++, 0, (4 + 4), 1, 0, 32, 32, 0, 0, int12);
+    stack(0);
+    stack(int3);
+    int3 = (int3 + 1);
+    script7918(0, (4 + 4), 1, 0, 32, 32, 0, 0, int12);
     switch (int7) {
         case 2: {
-            script7918(0, int3++, 4, -10, 2, 1, 24, 24, 0, 0, 9408);
+            stack(0);
+            stack(int3);
+            int3 = (int3 + 1);
+            script7918(4, -10, 2, 1, 24, 24, 0, 0, 9408);
             break;
         }
         case 3: {
-            script7918(0, int3++, 4, -10, 0, 1, 24, 24, 0, 0, 9403);
+            stack(0);
+            stack(int3);
+            int3 = (int3 + 1);
+            script7918(4, -10, 0, 1, 24, 24, 0, 0, 9403);
             break;
         }
     };
-    script10485(0, int3++, 0, 2, 1, 2, (int16 + 4), 32, 1, 0, 2141, string0);
+    stack(0);
+    stack(int3);
+    int3 = (int3 + 1);
+    script10485(0, 2, 1, 2, (int16 + 4), 32, 1, 0, 2141, string0);
     CC_SETTEXTALIGN(1, 1, 16);
     CC_SETMAXLINES(2);
     script20259(int9, int10);

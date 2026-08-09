@@ -13,8 +13,8 @@ function script10243(): void {
         IF_SETSCROLLPOS(0, 0, comp(517, 168));
         IF_SETSCROLLPOS(0, 0, comp(517, 171));
         IF_SETONSCROLLWHEEL(callback(), comp(517, 158));
-        IF_SETONVERTICALSWIPE(callback(), 33882270);
-        IF_SETONHORIZONTALSWIPE(callback(), 33882270);
+        IF_SETONVERTICALSWIPE(callback(), comp(517, 158));
+        IF_SETONHORIZONTALSWIPE(callback(), comp(517, 158));
     } else {
         IF_SETHIDE(false, comp(517, 159));
         IF_SETHIDE(false, comp(517, 162));
@@ -24,8 +24,8 @@ function script10243(): void {
         IF_SETPOSITION(0, ((48 + 24) - 4), 0, 0, comp(517, 171));
         IF_SETSIZE(38, ((48 + 24) + 12), 0, 1, comp(517, 171));
         IF_SETONSCROLLWHEEL(callback(script10471, -2147483646), comp(517, 158));
-        IF_SETONVERTICALSWIPE(callback(script10471, -2147483646), 33882270);
-        IF_SETONHORIZONTALSWIPE(callback(), 33882270);
+        IF_SETONVERTICALSWIPE(callback(script10471, -2147483646), comp(517, 158));
+        IF_SETONHORIZONTALSWIPE(callback(), comp(517, 158));
     };
     IF_SETSIZE(36, 0, 1, 1, comp(517, 157));
     IF_SETSIZE(38, 8, 0, 1, comp(517, 158));

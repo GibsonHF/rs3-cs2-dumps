@@ -50,10 +50,10 @@ function script12258(): void {
     IF_SETOP(1, string0, comp(1725, 5));
     IF_SETOP(1, string1, comp(1725, 9));
     IF_SETOP(1, string2, comp(1725, 19));
-    IF_SETONMOUSEREPEAT(callback(script8799, string3, -2147483645, -1), 113049603);
-    IF_SETONMOUSEREPEAT(callback(script8799, string4, -2147483645, -1), 113049607);
-    IF_SETONMOUSEREPEAT(callback(script8799, string5, -2147483645, -1), 113049611);
-    if ((int0 != -1)) {
+    IF_SETONMOUSEREPEAT(callback(script8799, string3, -2147483645, -1), comp(1725, 3));
+    IF_SETONMOUSEREPEAT(callback(script8799, string4, -2147483645, -1), comp(1725, 7));
+    IF_SETONMOUSEREPEAT(callback(script8799, string5, -2147483645, -1), comp(1725, 11));
+    if ((int0 != -1 as graphic)) {
         IF_SETGRAPHIC(int0, comp(1725, 5));
     } else {
         IF_SETOBJECT_NONUM(int3, 0, comp(1725, 5));

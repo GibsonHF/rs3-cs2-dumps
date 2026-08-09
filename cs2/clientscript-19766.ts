@@ -9,15 +9,16 @@ function script19766(int0: number): [number, number, number, number, number] {
     };
     var int3 = -1;
     var int4 = 0;
-    var int5 = -1 as obj;
+    var int5 = -1;
     var int6 = 0;
-    var int7 = -1 as struct;
-    var int8 = -1 as graphic;
+    var int7 = -1;
+    var int8 = -1;
     var int9 = DB_GETFIELDCOUNT(14848 as dbrow, 1277952);
     if ((int9 <= 0)) {
-        return [0, -1 as obj, 0, -1 as struct, -1 as graphic];
+        return [0, -1, 0, -1, -1];
     };
-    while ((++int3 < int9)) {
+    int3 = (int3 + 1);
+    while ((int3 < int9)) {
         if ((TESTBIT(varbitplayer_57157, int3) == 0)) {
             int4 = dbrow_getfield(14848 as dbrow, 1277953, int3);
             if (((int1 >= int4) && (int2 >= int4))) {
@@ -26,5 +27,5 @@ function script19766(int0: number): [number, number, number, number, number] {
             };
         };
     };
-    return [0, -1 as obj, 0, -1 as struct, -1 as graphic];
+    return [0, -1, 0, -1, -1];
 }

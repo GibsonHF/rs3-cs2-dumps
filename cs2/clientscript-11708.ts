@@ -1,5 +1,5 @@
 //
-function script11708(int0: number, int1: number, int2: number): [string, number, number, number, number] {
+function script11708(int0: number, int1: number, int2: number): [number, number, number, number, string] {
     var int3 = ACHIEVEMENT_FINDSUBCAT(4766 as category, int0);
     var int4 = 0;
     var int5 = ACHIEVEMENT_FINDNEXT();

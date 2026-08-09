@@ -77,52 +77,52 @@ function script10890(int0: number, int1: number, string0: string, string1: strin
     script10891(TESTBIT(int1, 9), 47185960, 47185961, 47185962);
     script10891(TESTBIT(int1, 10), 47185963, 47185964, 47185965);
     if ((STRING_LENGTH(string2) > 0)) {
-        IF_SETONMOUSEREPEAT(callback(script3876, string2, -2147483645, -1), 47185924);
+        IF_SETONMOUSEREPEAT(callback(script3876, string2, -2147483645, -1), comp(720, 4));
     } else {
         IF_SETONMOUSEREPEAT(callback(), comp(720, 4));
     };
     if ((STRING_LENGTH(string4) > 0)) {
-        IF_SETONMOUSEREPEAT(callback(script3876, string4, -2147483645, -1), 47185925);
+        IF_SETONMOUSEREPEAT(callback(script3876, string4, -2147483645, -1), comp(720, 5));
     } else {
         IF_SETONMOUSEREPEAT(callback(), comp(720, 5));
     };
     if ((STRING_LENGTH(string6) > 0)) {
-        IF_SETONMOUSEREPEAT(callback(script3876, string6, -2147483645, -1), 47185926);
+        IF_SETONMOUSEREPEAT(callback(script3876, string6, -2147483645, -1), comp(720, 6));
     } else {
         IF_SETONMOUSEREPEAT(callback(), comp(720, 6));
     };
     if ((STRING_LENGTH(string8) > 0)) {
-        IF_SETONMOUSEREPEAT(callback(script3876, string8, -2147483645, -1), 47185927);
+        IF_SETONMOUSEREPEAT(callback(script3876, string8, -2147483645, -1), comp(720, 7));
     } else {
         IF_SETONMOUSEREPEAT(callback(), comp(720, 7));
     };
     if ((STRING_LENGTH(string10) > 0)) {
-        IF_SETONMOUSEREPEAT(callback(script3876, string10, -2147483645, -1), 47185928);
+        IF_SETONMOUSEREPEAT(callback(script3876, string10, -2147483645, -1), comp(720, 8));
     } else {
         IF_SETONMOUSEREPEAT(callback(), comp(720, 8));
     };
     if ((STRING_LENGTH(string12) > 0)) {
-        IF_SETONMOUSEREPEAT(callback(script3876, string12, -2147483645, -1), 47185929);
+        IF_SETONMOUSEREPEAT(callback(script3876, string12, -2147483645, -1), comp(720, 9));
     } else {
         IF_SETONMOUSEREPEAT(callback(), comp(720, 9));
     };
     if ((STRING_LENGTH(string14) > 0)) {
-        IF_SETONMOUSEREPEAT(callback(script3876, string14, -2147483645, -1), 47185930);
+        IF_SETONMOUSEREPEAT(callback(script3876, string14, -2147483645, -1), comp(720, 10));
     } else {
         IF_SETONMOUSEREPEAT(callback(), comp(720, 10));
     };
     if ((STRING_LENGTH(string16) > 0)) {
-        IF_SETONMOUSEREPEAT(callback(script3876, string16, -2147483645, -1), 47185931);
+        IF_SETONMOUSEREPEAT(callback(script3876, string16, -2147483645, -1), comp(720, 11));
     } else {
         IF_SETONMOUSEREPEAT(callback(), comp(720, 11));
     };
     if ((STRING_LENGTH(string18) > 0)) {
-        IF_SETONMOUSEREPEAT(callback(script3876, string18, -2147483645, -1), 47185932);
+        IF_SETONMOUSEREPEAT(callback(script3876, string18, -2147483645, -1), comp(720, 12));
     } else {
         IF_SETONMOUSEREPEAT(callback(), comp(720, 12));
     };
     if ((STRING_LENGTH(string20) > 0)) {
-        IF_SETONMOUSEREPEAT(callback(script3876, string20, -2147483645, -1), 47185933);
+        IF_SETONMOUSEREPEAT(callback(script3876, string20, -2147483645, -1), comp(720, 13));
     } else {
         IF_SETONMOUSEREPEAT(callback(), comp(720, 13));
     };

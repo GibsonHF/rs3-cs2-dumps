@@ -3,7 +3,7 @@ function script4010(int0: number): string {
     var string0 = "";
     string0 = strconcat(string0, dbrow_getfield(int0, 348208, 0));
     var int1 = dbrow_getfield(int0, 348256, 0);
-    if ((int1 != -1 as obj)) {
+    if ((int1 != -1)) {
         string0 = strconcat(string0, `<br><br>${OC_NAME(int1)}`);
         string0 = strconcat(string0, "<br>");
         string0 = strconcat(string0, "Familiar spell points");
@@ -13,7 +13,7 @@ function script4010(int0: number): string {
     };
     var string1 = "";
     if ((varbitplayer_23196 != 0)) {
-        string1 = enum_getvalue(0, 36, 1663 as cs2enum, varbitplayer_23196);
+        string1 = enum_getvalue(0, 36, 1663, varbitplayer_23196);
     } else {
         switch (dbrow_getfield(int0, 348448, 0)) {
             case 1: {
@@ -31,8 +31,8 @@ function script4010(int0: number): string {
         };
     };
     string0 = strconcat(string0, `<br><br>Current combat mode: ${string1}`);
-    if ((dbrow_getfield(int0, 348352, 0) == true)) {
-        if ((dbrow_getfield(int0, 348304, 0) == true)) {
+    if ((dbrow_getfield(int0, 348352, 0) == 1)) {
+        if ((dbrow_getfield(int0, 348304, 0) == 1)) {
             if ((varbitplayer_25413 > 0)) {
                 string0 = strconcat(string0, `<br>Autofire rate: ${inttostring(varbitplayer_25413, 10)}`);
             } else {

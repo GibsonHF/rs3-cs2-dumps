@@ -119,9 +119,25 @@ function script3799(int0: number, int1: number, int2: number, int3: number, int4
         }
     };
     var int7 = 0;
-    if (((int4 != comp(-1, 65535)) && (IF_FIND(int4) == 1))) {
-        int7 = ((IF_GETHEIGHT(int0) - CC_GETHEIGHT()) - 10);
-        CC_SETPOSITION(CC_GETX(), (5 + SCALE(int2, int5, int7)), 0, 0);
+    if ((int4 != comp(-1, 65535))) {
+        if ((IF_FIND(int4) == 1)) {
+            int7 = ((IF_GETHEIGHT(int0) - CC_GETHEIGHT()) - 10);
+            CC_SETPOSITION(CC_GETX(), (5 + SCALE(int2, int5, int7)), 0, 0);
+        } else if ((CC_FIND(int0, 1) == 1)) {
+            if ((varbitplayer_22875 == 2)) {
+                int7 = (IF_GETHEIGHT(int0) - CC_GETHEIGHT());
+                CC_SETPOSITION(4, SCALE(int2, int5, int7), 0, 0);
+            } else {
+                int7 = (((IF_GETHEIGHT(int0) - 32) - CC_GETHEIGHT()) - 10);
+                CC_SETPOSITION(0, (21 + SCALE(int2, int5, int7)), 0, 0);
+            };
+            if ((CC_FIND[1](int0, 2) == 1)) {
+                CC_SETPOSITION[1](0, (CC_GETY() - 5), 0, 0);
+            };
+            if ((CC_FIND[1](int0, 3) == 1)) {
+                CC_SETPOSITION[1](0, (CC_GETY() + CC_GETHEIGHT()), 0, 0);
+            };
+        };
     } else if ((CC_FIND(int0, 1) == 1)) {
         if ((varbitplayer_22875 == 2)) {
             int7 = (IF_GETHEIGHT(int0) - CC_GETHEIGHT());

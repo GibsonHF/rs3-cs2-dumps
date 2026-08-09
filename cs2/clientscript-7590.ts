@@ -1,17 +1,17 @@
 //
 function script7590(int0: number): void {
     var int1 = unk11127(int0);
-    var int2 = -1 as struct;
+    var int2 = -1;
     var string0 = "null";
     var string1 = "null";
     var int3 = -1;
-    var int4 = -1 as quest;
-    var int5 = -1 as coordgrid;
+    var int4 = -1;
+    var int5 = -1;
     var int6 = -1;
-    if (((int1 != -1 as category) || (strcmp(string1, "null") != 0))) {
+    if (((int1 != -1) || (strcmp(string1, "null") != 0))) {
         string1 = mec_getparam(int0, 4149);
-        int2 = enum_getvalue(41, 73, 8586 as cs2enum, int1);
-        if ((int2 != -1 as struct)) {
+        int2 = enum_getvalue(41, 73, 8586, int1);
+        if ((int2 != -1)) {
             string0 = struct_getparam(int2, 596);
         };
         switch (int1) {
@@ -26,14 +26,14 @@ function script7590(int0: number): void {
             case 948: {
                 string0 = "Map link";
                 int5 = mec_getparam(int0, 4148);
-                if ((int5 != -1 as coordgrid)) {
+                if ((int5 != -1)) {
                     string0 = `Map link<br>To ${WORLDMAP_GETMAPNAME(WORLDMAP_GETMAP(int5))}`;
                 };
                 break;
             }
             case 949: {
                 int5 = mec_getparam(int0, 4148);
-                if ((int5 != -1 as coordgrid)) {
+                if ((int5 != -1)) {
                     string0 = `Dungeon link<br>To ${WORLDMAP_GETMAPNAME(WORLDMAP_GETMAP(int5))}`;
                 };
                 break;
@@ -41,8 +41,8 @@ function script7590(int0: number): void {
             case 1157: {
                 int3 = mec_getparam(int0, 4147);
                 if ((int3 != -1)) {
-                    int4 = enum_getvalue(0, 3, 2252 as cs2enum, int3);
-                    if ((int4 != -1 as quest)) {
+                    int4 = enum_getvalue(0, 3, 2252, int3);
+                    if ((int4 != -1)) {
                         script7080(int4, 93192196, 0);
                         return;
                     };
@@ -130,8 +130,8 @@ function script7590(int0: number): void {
                 break;
             }
             case 2613: {
-                int5 = enum_getvalue(0, 22, 9962 as cs2enum, mec_getparam(int0, 4147));
-                if ((int5 != -1 as coordgrid)) {
+                int5 = enum_getvalue(0, 22, 9962, mec_getparam(int0, 4147));
+                if ((int5 != -1)) {
                     int6 = mec_getparam(int0, 4150);
                     if ((int6 == 1)) {
                         if ((script6431() == 1)) {
@@ -141,7 +141,7 @@ function script7590(int0: number): void {
                     } else {
                         string0 = "This lodestone is not yet active.";
                     };
-                    string0 = `${enum_getvalue(22, 36, 5726 as cs2enum, int5)}<br>${string0}`;
+                    string0 = `${enum_getvalue(22, 36, 5726, int5)}<br>${string0}`;
                 };
                 break;
             }

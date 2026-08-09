@@ -3,14 +3,13 @@ function script5554(int0: number): string {
     stack(348240);
     stack(int0);
     DB_FIND(0);
-    dbrow_findnext();
-    var int1 = stack();
+    var int1 = dbrow_findnext();
     var string0 = "This familiar has no special ability.";
     if ((int1 == -1)) {
         return string0;
     };
     var int2 = dbrow_getfield(int1, 348256, 0);
-    if ((int2 != -1 as obj)) {
+    if ((int2 != -1)) {
         string0 = OC_NAME(int2);
         string0 = strconcat(string0, "<br>");
         string0 = strconcat(string0, "Familiar spell points");

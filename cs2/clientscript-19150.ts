@@ -9,8 +9,7 @@ function script19150(int0: number): number {
             stack(790528);
             stack(varbitplayer_51600);
             DB_FIND(0);
-            dbrow_findnext();
-            int1 = stack();
+            int1 = dbrow_findnext();
             break;
         }
         case 50263: {
@@ -20,8 +19,7 @@ function script19150(int0: number): number {
             stack(1204224);
             stack(varbitplayer_56041);
             DB_FIND(0);
-            dbrow_findnext();
-            int1 = stack();
+            int1 = dbrow_findnext();
             break;
         }
         case 2951: {
@@ -31,8 +29,7 @@ function script19150(int0: number): number {
             stack(1290240);
             stack(varbitplayer_57719);
             DB_FIND(0);
-            dbrow_findnext();
-            int1 = stack();
+            int1 = dbrow_findnext();
             break;
         }
         default: {

@@ -18,12 +18,12 @@ function script2757(int0: number, int1: number, int2: number, int3: number, int4
     };
     if ((IF_FIND(comp(1177, 0)) == 1)) {
         if ((strcmp(varclient_2251, "") != 0)) {
-            CC_SETSIZE(MIN(200, (20 + PARAWIDTH(varclient_2251, 180, 29 as fontmetrics))), (22 + (15 * PARAHEIGHT(varclient_2251, 180, 29 as fontmetrics))), 0, 0);
+            CC_SETSIZE(MIN(200, (20 + PARAWIDTH(varclient_2251, 180 as fontmetrics, 29))), (22 + (15 * PARAHEIGHT(varclient_2251, 180 as fontmetrics, 29))), 0, 0);
         };
         switch (varclient_7118) {
             case 1:
             case 2: {
-                var [int0, int1] = script17185(int0, int1, int8, int9, int10, int11, CC_GETWIDTH(), CC_GETHEIGHT());
+                [int0, int1] = script17185(int0, int1, int8, int9, int10, int11, CC_GETWIDTH(), CC_GETHEIGHT());
                 break;
             }
             default: {
@@ -32,8 +32,8 @@ function script2757(int0: number, int1: number, int2: number, int3: number, int4
             }
         };
         CC_SETPOSITION(int0, int1, 0, 0);
-        if ((varclient_1695 == true)) {
-            varclient_1695 = false;
+        if ((varclient_1695 == 1)) {
+            varclient_1695 = 0;
             CC_SETONTIMER(callback(script5497, script9356(varclient_2251)));
         };
     };

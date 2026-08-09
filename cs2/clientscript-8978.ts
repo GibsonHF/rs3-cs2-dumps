@@ -39,12 +39,15 @@ function script8978(int0: number): number {
         int2 = 0;
         int3 = 0;
         if ((TESTBIT(varplayer_3643, int4) == 1)) {
-            while (((int2 < 7) && (int3 == 0))) {
-                if ((push_array(int2) == 0)) {
-                    pop_array(int2, int4);
-                    int3 = 1;
+            while ((int2 < 7)) {
+                if ((int3 == 0)) {
+                    if ((push_array(int2) == 0)) {
+                        pop_array(int2, int4);
+                        int3 = 1;
+                    };
+                    int2 = (int2 + 1);
                 };
-                int2 = (int2 + 1);
+                int1 = (int1 + 1);
             };
         };
         int1 = (int1 + 1);

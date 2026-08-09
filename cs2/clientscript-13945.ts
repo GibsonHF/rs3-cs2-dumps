@@ -43,7 +43,8 @@ function script13945(): void {
         CC_CREATE(comp(517, 279), 5, int6);
         CC_SETSIZE(36, 32, 0, 0);
         CC_SETPOSITION((int9 + 4), (int10 + 2), 0, 0);
-        if (((++int9 + 37) > int8)) {
+        int9 = (int9 + 46);
+        if (((int9 + 37) > int8)) {
             int9 = 8;
             int10 = (int10 + 37);
         };

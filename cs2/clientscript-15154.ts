@@ -4,7 +4,7 @@ function script15154(int0: number): void {
         script8179();
     };
     IF_SETTEXT(dbrow_getfield(int0, 438448, 0), comp(653, 60));
-    if ((int0 == 3667 as dbrow)) {
+    if ((int0 == 3667)) {
         IF_SETTRANS(25, comp(653, 41));
         IF_SETHIDE(false, comp(653, 43));
     };

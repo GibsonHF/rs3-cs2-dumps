@@ -11,6 +11,7 @@ function script9473(): [string, string, string] {
             return ["Improved player healing rate: A 10% increase in the amount a player can heal their faction's bodyguard and caravan units.", "Improved player gather rate: A 10% increase in the amount of divine resources a player can contribute to their faction's convoy.", "Vote to choose which buff player members of your faction will receive."];
         }
         case 7: {
+            break;
         }
         default: {
             return ["There is no vote currently available.", "There is no vote currently available.", "There is no vote currently available. Come back soon."];

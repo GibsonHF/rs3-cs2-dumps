@@ -17,15 +17,62 @@ function script846(int0: number, int1: number): void {
     var int13 = 0;
     var int14 = 0;
     if ((int0 != 10)) {
-        if (((int1 == 0) && (int6 > 65))) {
-            int13 = (int13 - 18);
-            SOUND_SYNTH(30189, 1, 0);
-        } else if (((int1 == 1) && (int6 < (int11 - 1)))) {
-            int13 = (int13 + 18);
-            SOUND_SYNTH(30189, 1, 0);
-        } else if (((int1 == 2) && (int7 > -2))) {
-            int14 = (int14 - 18);
-            SOUND_SYNTH(30189, 1, 0);
+        if ((int1 == 0)) {
+            if ((int6 > 65)) {
+                int13 = (int13 - 18);
+                SOUND_SYNTH(30189, 1, 0);
+            } else if ((int1 == 1)) {
+                if ((int6 < (int11 - 1))) {
+                    int13 = (int13 + 18);
+                    SOUND_SYNTH(30189, 1, 0);
+                } else if ((int1 == 2)) {
+                    if ((int7 > -2)) {
+                        int14 = (int14 - 18);
+                        SOUND_SYNTH(30189, 1, 0);
+                    } else if (((int1 == 3) && (int7 < int12))) {
+                        int14 = (int14 + 18);
+                        SOUND_SYNTH(30189, 1, 0);
+                    };
+                } else if (((int1 == 3) && (int7 < int12))) {
+                    int14 = (int14 + 18);
+                    SOUND_SYNTH(30189, 1, 0);
+                };
+            } else if ((int1 == 2)) {
+                if ((int7 > -2)) {
+                    int14 = (int14 - 18);
+                    SOUND_SYNTH(30189, 1, 0);
+                } else if (((int1 == 3) && (int7 < int12))) {
+                    int14 = (int14 + 18);
+                    SOUND_SYNTH(30189, 1, 0);
+                };
+            } else if (((int1 == 3) && (int7 < int12))) {
+                int14 = (int14 + 18);
+                SOUND_SYNTH(30189, 1, 0);
+            };
+        } else if ((int1 == 1)) {
+            if ((int6 < (int11 - 1))) {
+                int13 = (int13 + 18);
+                SOUND_SYNTH(30189, 1, 0);
+            } else if ((int1 == 2)) {
+                if ((int7 > -2)) {
+                    int14 = (int14 - 18);
+                    SOUND_SYNTH(30189, 1, 0);
+                } else if (((int1 == 3) && (int7 < int12))) {
+                    int14 = (int14 + 18);
+                    SOUND_SYNTH(30189, 1, 0);
+                };
+            } else if (((int1 == 3) && (int7 < int12))) {
+                int14 = (int14 + 18);
+                SOUND_SYNTH(30189, 1, 0);
+            };
+        } else if ((int1 == 2)) {
+            if ((int7 > -2)) {
+                int14 = (int14 - 18);
+                SOUND_SYNTH(30189, 1, 0);
+            } else if (((int1 == 3) && (int7 < int12))) {
+                int14 = (int14 + 18);
+                SOUND_SYNTH(30189, 1, 0);
+            };
         } else if (((int1 == 3) && (int7 < int12))) {
             int14 = (int14 + 18);
             SOUND_SYNTH(30189, 1, 0);

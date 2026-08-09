@@ -42,7 +42,7 @@ function script10601(int0: number, int1: number, int2: number, int3: number): vo
             CC_CREATE[1](int3, 5, int11);
             CC_SETSIZE[1](25, 25, 0, 0);
             CC_SETPOSITION[1](((int12 + (2 * CC_GETWIDTH())) + int5), (int10 + 5), 0, 0);
-            if ((script10605(item_getparam(enum_getvalue(0, 33, 9243 as cs2enum, int4), 25)) == 1)) {
+            if ((script10605(item_getparam(enum_getvalue(0, 33, 9243, int4), 25)) == 1)) {
                 string0 = "You have added this skill's pieces to the statue.";
                 CC_SETGRAPHIC[1](19713 as graphic);
                 CC_SETONMOUSEREPEAT[1](callback(script8799, string0, int3, int11));
@@ -54,7 +54,8 @@ function script10601(int0: number, int1: number, int2: number, int3: number): vo
             int11 = (int11 + 1);
         } else {
             CC_SETPOSITION((int12 + int7), int10, 0, 0);
-            if ((++int9 == 8)) {
+            int9 = (int9 + 1);
+            if ((int9 == 8)) {
                 int9 = 0;
             };
         };
@@ -66,7 +67,7 @@ function script10601(int0: number, int1: number, int2: number, int3: number): vo
             CC_SETTRANS(100);
         };
         CC_SETOP(5, "Examine<col=ff9040>");
-        CC_SETOPBASE(`<col=FF981F>${enum_getvalue(0, 36, 9245 as cs2enum, int4)} piece`);
+        CC_SETOPBASE(`<col=FF981F>${enum_getvalue(0, 36, 9245, int4)} piece`);
         CC_SETONOP(callback(script10604, -2147483645, int4));
         int4 = (int4 + 1);
     };

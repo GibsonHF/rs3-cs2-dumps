@@ -114,7 +114,93 @@ function script12323(int0: number): void {
         };
         script12325(int0, int21, 0);
     } else {
-        if ((((varbitclient_30621 == 0) && (CC_FIND(int1, int3) == 1)) || ((varbitclient_30621 == 1) && (CC_FIND(int1, MODULO(((int8 + int3) - 1), int8)) == 1)))) {
+        if ((varbitclient_30621 == 0)) {
+            if ((CC_FIND(int1, int3) == 1)) {
+                int17 = script12311(int17, int18);
+                if ((int20 > int11)) {
+                    int4 = int17;
+                    int21 = 1;
+                    [int10, int11, int12] = script12324(int4, int5);
+                    int20 = SCALE(int9, 100, int11);
+                } else if ((int20 < int12)) {
+                    int5 = int17;
+                    int21 = 1;
+                    [int10, int11, int12] = script12324(int4, int5);
+                    int20 = SCALE(int9, 100, int12);
+                } else {
+                    int20 = SCALE(int9, 100, int20);
+                };
+                cc_setparam(5932, int20);
+                cc_setparam(5946, int17);
+                if ((int21 == 1)) {
+                    IF_SETPARAM_INT(5644, int4, int1);
+                    IF_SETPARAM_INT(5645, int5, int1);
+                };
+                if ((varbitclient_30621 == 0)) {
+                    int24 = SCALE(int9, -100, int12);
+                    int25 = (int9 - int24);
+                    if ((int20 < 0)) {
+                        int20 = (int20 * -1);
+                        cc_setparam(5929, 0);
+                        int23 = int25;
+                        CC_SETCOLOUR(varclient_5176);
+                    } else {
+                        cc_setparam(5929, 2);
+                        int23 = int24;
+                        CC_SETCOLOUR(varclient_5173);
+                    };
+                    CC_SETSIZE(CC_GETWIDTH(), int20, 0, 0);
+                    CC_SETPOSITION(CC_GETX(), int23, 0, cc_getparam(5929));
+                } else if ((CC_FIND(int1, int3) == 1)) {
+                    cc_setparam(5929, 2);
+                    CC_SETSIZE(CC_GETWIDTH(), 0, 0, 0);
+                    cc_setparam(5932, 0);
+                    CC_SETPOSITION((int8 * int7), 0, 0, cc_getparam(5929));
+                };
+            } else if (((varbitclient_30621 == 1) && (CC_FIND(int1, MODULO(((int8 + int3) - 1), int8)) == 1))) {
+                int17 = script12311(int17, int18);
+                if ((int20 > int11)) {
+                    int4 = int17;
+                    int21 = 1;
+                    [int10, int11, int12] = script12324(int4, int5);
+                    int20 = SCALE(int9, 100, int11);
+                } else if ((int20 < int12)) {
+                    int5 = int17;
+                    int21 = 1;
+                    [int10, int11, int12] = script12324(int4, int5);
+                    int20 = SCALE(int9, 100, int12);
+                } else {
+                    int20 = SCALE(int9, 100, int20);
+                };
+                cc_setparam(5932, int20);
+                cc_setparam(5946, int17);
+                if ((int21 == 1)) {
+                    IF_SETPARAM_INT(5644, int4, int1);
+                    IF_SETPARAM_INT(5645, int5, int1);
+                };
+                if ((varbitclient_30621 == 0)) {
+                    int24 = SCALE(int9, -100, int12);
+                    int25 = (int9 - int24);
+                    if ((int20 < 0)) {
+                        int20 = (int20 * -1);
+                        cc_setparam(5929, 0);
+                        int23 = int25;
+                        CC_SETCOLOUR(varclient_5176);
+                    } else {
+                        cc_setparam(5929, 2);
+                        int23 = int24;
+                        CC_SETCOLOUR(varclient_5173);
+                    };
+                    CC_SETSIZE(CC_GETWIDTH(), int20, 0, 0);
+                    CC_SETPOSITION(CC_GETX(), int23, 0, cc_getparam(5929));
+                } else if ((CC_FIND(int1, int3) == 1)) {
+                    cc_setparam(5929, 2);
+                    CC_SETSIZE(CC_GETWIDTH(), 0, 0, 0);
+                    cc_setparam(5932, 0);
+                    CC_SETPOSITION((int8 * int7), 0, 0, cc_getparam(5929));
+                };
+            };
+        } else if (((varbitclient_30621 == 1) && (CC_FIND(int1, MODULO(((int8 + int3) - 1), int8)) == 1))) {
             int17 = script12311(int17, int18);
             if ((int20 > int11)) {
                 int4 = int17;

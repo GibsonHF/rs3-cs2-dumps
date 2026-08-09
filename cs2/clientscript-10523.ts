@@ -10,8 +10,12 @@ function script10523(int0: number, int1: number): number {
                 break;
             }
             case 97452039: {
-                if (((STRING_LENGTH(varclient_2250) == 0) && (STRING_INDEXOF_CHAR("- _", int1, 0) != -1))) {
-                    int1 = -1;
+                if ((STRING_LENGTH(varclient_2250) == 0)) {
+                    if ((STRING_INDEXOF_CHAR("- _", int1, 0) != -1)) {
+                        int1 = -1;
+                    } else if ((STRING_INDEXOF_CHAR("abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789  _-", int1, 0) == -1)) {
+                        int1 = -1;
+                    };
                 } else if ((STRING_INDEXOF_CHAR("abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789  _-", int1, 0) == -1)) {
                     int1 = -1;
                 };

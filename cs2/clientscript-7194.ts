@@ -6,7 +6,7 @@ function script7194(int0: number, int1: number, int2: number, int3: number, int4
     var int9 = MAX(MIN(varclient_1272, 50), 1);
     switch (int0) {
         case 1: {
-            var [int1, int2, int3] = script7193(int9, int1, int2, int3, (int4 - (16284 / 4)), 0);
+            [int1, int2, int3] = script7193(int9, int1, int2, int3, (int4 - (16284 / 4)), 0);
             break;
         }
         case 2: {

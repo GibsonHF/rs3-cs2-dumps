@@ -22,6 +22,6 @@ function script19478(int0: number, int1: number, int2: number, int3: number): vo
         script19513(1);
         return;
     };
-    IF_SETONTIMER(callback(script19478, int0, int2, MIN((int2 + 5), int3), int3), 86048784);
+    IF_SETONTIMER(callback(script19478, int0, int2, MIN((int2 + 5), int3), int3), comp(1313, 16));
     return;
 }

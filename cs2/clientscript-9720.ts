@@ -45,8 +45,12 @@ function script9720(int0: number, int1: number): void {
         };
         switch (varclient_4080) {
             case 1: {
-                if (((OC_MEMBERS(int0) == 1) && (MAP_MEMBERS() == 0))) {
-                    string1 = "Claim your prize. This is a members-only prize, so you will need to subscribe to use it.";
+                if ((OC_MEMBERS(int0) == 1)) {
+                    if ((MAP_MEMBERS() == 0)) {
+                        string1 = "Claim your prize. This is a members-only prize, so you will need to subscribe to use it.";
+                    } else {
+                        string1 = "Claim your prize to your backpack.";
+                    };
                 } else {
                     string1 = "Claim your prize to your backpack.";
                 };
@@ -86,9 +90,9 @@ function script9720(int0: number, int1: number): void {
     IF_SETOP(1, string0, comp(1253, 277));
     IF_SETENABLED(int2, comp(1253, 277));
     if ((int2 == true)) {
-        IF_SETONMOUSEREPEAT(callback(script3876, string1, -2147483645, -1), 82116885);
+        IF_SETONMOUSEREPEAT(callback(script3876, string1, -2147483645, -1), comp(1253, 277));
     } else {
-        IF_SETONMOUSEREPEAT(callback(script3876, string2, -2147483645, -1), 82116885);
+        IF_SETONMOUSEREPEAT(callback(script3876, string2, -2147483645, -1), comp(1253, 277));
     };
     IF_SETTEXT(string3, comp(1253, 277));
     return;

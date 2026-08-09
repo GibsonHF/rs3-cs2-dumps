@@ -144,13 +144,49 @@ function script9566(int0: number, int1: number, int2: number, int3: number, int4
     if (((int24 < int21) || (int9 == 1))) {
         int24 = ((int11 + int15) + 2);
     };
-    if (((int24 < int21) || (((int24 < int11) && ((int24 + int13) > int11)) || ((int24 >= int11) && ((int24 + int13) > int23))))) {
+    if ((int24 < int21)) {
         int25 = (int10 - (int12 + 2));
         if ((int25 < int20)) {
             int25 = ((int10 + int14) + 2);
         };
         int24 = ((int11 + (int15 / 2)) - (int13 / 2));
         int24 = MIN(MAX(int24, int21), (int23 - int13));
+    } else if ((int24 < int11)) {
+        if (((int24 + int13) > int11)) {
+            int25 = (int10 - (int12 + 2));
+            if ((int25 < int20)) {
+                int25 = ((int10 + int14) + 2);
+            };
+            int24 = ((int11 + (int15 / 2)) - (int13 / 2));
+            int24 = MIN(MAX(int24, int21), (int23 - int13));
+        } else if ((int24 >= int11)) {
+            if (((int24 + int13) > int23)) {
+                int25 = (int10 - (int12 + 2));
+                if ((int25 < int20)) {
+                    int25 = ((int10 + int14) + 2);
+                };
+                int24 = ((int11 + (int15 / 2)) - (int13 / 2));
+                int24 = MIN(MAX(int24, int21), (int23 - int13));
+            } else {
+                int25 = ((int10 + (int14 / 2)) - (int12 / 2));
+                int25 = MIN(MAX(int25, int20), (int22 - int12));
+            };
+        } else {
+            int25 = ((int10 + (int14 / 2)) - (int12 / 2));
+            int25 = MIN(MAX(int25, int20), (int22 - int12));
+        };
+    } else if ((int24 >= int11)) {
+        if (((int24 + int13) > int23)) {
+            int25 = (int10 - (int12 + 2));
+            if ((int25 < int20)) {
+                int25 = ((int10 + int14) + 2);
+            };
+            int24 = ((int11 + (int15 / 2)) - (int13 / 2));
+            int24 = MIN(MAX(int24, int21), (int23 - int13));
+        } else {
+            int25 = ((int10 + (int14 / 2)) - (int12 / 2));
+            int25 = MIN(MAX(int25, int20), (int22 - int12));
+        };
     } else {
         int25 = ((int10 + (int14 / 2)) - (int12 / 2));
         int25 = MIN(MAX(int25, int20), (int22 - int12));

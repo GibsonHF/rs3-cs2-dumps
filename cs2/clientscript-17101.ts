@@ -4,7 +4,7 @@ function script17101(int0: number, int1: number, int2: number, int3: number, int
     var int9 = 0;
     var int10 = 0;
     var int11 = 0;
-    var int12 = -1 as obj;
+    var int12 = -1;
     var int13 = 0;
     if ((int5 != -1 as cs2enum)) {
         int10 = ENUM_GETOUTPUTCOUNT(int5);
@@ -22,7 +22,7 @@ function script17101(int0: number, int1: number, int2: number, int3: number, int
             int9 = (int9 + 1);
         };
     };
-    if ((int7 != -1 as cs2enum)) {
+    if ((int7 != -1)) {
         int9 = 0;
         int10 = ENUM_GETOUTPUTCOUNT(int7);
         int13 = SCALE(int4, 36, 32);

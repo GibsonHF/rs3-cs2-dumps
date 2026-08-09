@@ -1,5 +1,5 @@
 //
-function script6305(int0: number, string0: string): [string, number, number] {
+function script6305(int0: number, string0: string): [number, number, string] {
     if ((int0 >= 300)) {
         return [string0, -1, -1];
     };
@@ -10,8 +10,7 @@ function script6305(int0: number, string0: string): [string, number, number] {
     var int3 = -1;
     var int4 = -1;
     var string3 = "";
-    stack(WORLDLIST_SPECIFIC(int0));
-    [int1, string1, int2, string2, int3, int4, string3] = stack();
+    [int1, string1, int2, string2, int3, int4, string3] = WORLDLIST_SPECIFIC(int0);
     if ((int1 == -1)) {
         switch (int0) {
             case 102:

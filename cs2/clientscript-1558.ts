@@ -4,6 +4,9 @@ function script1558(int0: number, int1: number): void {
         return;
     };
     if ((varbitplayer_27169 == 1)) {
+        if ((int0 != 18)) {
+            return;
+        };
     } else if ((((varbitplayer_38842 == 0) && (varbitplayer_60441 == 1)) && (int0 != 18))) {
         return;
     };
@@ -25,8 +28,8 @@ function script1558(int0: number, int1: number): void {
         IF_SETTEXT("", int4);
         IF_SETONCLICK(callback(), int4);
         IF_SETONTIMER(callback(), int4);
-        IF_SETHIDE(1, int2);
-        IF_SETHIDE(1, int8);
+        IF_SETHIDE(true, int2);
+        IF_SETHIDE(true, int8);
         if ((int9 != -1)) {
             IF_SETHIDE(true, int9);
         };
@@ -46,16 +49,26 @@ function script1558(int0: number, int1: number): void {
     };
     IF_SETHIDE(false, int4);
     IF_SETHIDE(false, int3);
-    if (((varbitplayer_27169 == 1) || ((varbitplayer_38842 == 0) && (varbitplayer_60441 == 1)))) {
+    if ((varbitplayer_27169 == 1)) {
         IF_SETHIDE(true, script13539(int0));
         IF_SETHIDE(true, script13540(int0));
         IF_SETPOSITION(0, 29, 0, 2, IF_GETPARENTLAYER(int5));
         IF_SETSIZE(0, 31, 1, 1, IF_GETPARENTLAYER(int5));
+    } else if ((varbitplayer_38842 == 0)) {
+        if ((varbitplayer_60441 == 1)) {
+            IF_SETHIDE(true, script13539(int0));
+            IF_SETHIDE(true, script13540(int0));
+            IF_SETPOSITION(0, 29, 0, 2, IF_GETPARENTLAYER(int5));
+            IF_SETSIZE(0, 31, 1, 1, IF_GETPARENTLAYER(int5));
+        } else {
+            IF_SETSIZE(16, 0, 0, 1, int6);
+            IF_SETPOSITION(0, 0, 2, 2, int6);
+        };
     } else {
         IF_SETSIZE(16, 0, 0, 1, int6);
         IF_SETPOSITION(0, 0, 2, 2, int6);
     };
-    if ((int7 != comp(-1, 65535))) {
+    if ((int7 != -1)) {
         IF_SETHIDE(true, int7);
     };
     var string0 = `${CHAT_PLAYERNAME()}<img=3>:`;
@@ -78,51 +91,91 @@ function script1558(int0: number, int1: number): void {
         }
     };
     var string1 = "";
-    if (((varbitplayer_27169 == 0) && ((varbitplayer_38842 == 1) || (varbitplayer_60441 == 0)))) {
-        switch (int10) {
-            case 100: {
-                if ((STRING_LENGTH(varclient_2367) > 0)) {
-                    string0 = `To ${varclient_2367}:`;
-                };
-                string1 = "Private Chat";
-                break;
-            }
-            case 1: {
-                string1 = "Friends Chat";
-                break;
-            }
-            case 2: {
-                string1 = "Clan Chat";
-                break;
-            }
-            case 3: {
-                string1 = "Guest Clan Chat";
-                break;
-            }
-            case 6: {
-                string1 = "Twitch Chat";
-                break;
-            }
-            case 4: {
-                string1 = "Group Chat";
-                break;
-            }
-            case 5: {
-                string1 = "Group Chat (Team)";
-                break;
-            }
-            case 102: {
-                string1 = "Group Ironman";
-                break;
-            }
-            default: {
-                if ((varclient_6858 == true)) {
-                    string0 = `Search Wiki<img=3>:`;
-                } else {
-                    string1 = "Public Chat";
-                };
-                break;
-            }
+    if ((varbitplayer_27169 == 0)) {
+        if (((varbitplayer_38842 == 1) || (varbitplayer_60441 == 0))) {
+            switch (int10) {
+                case 100: {
+                    if ((STRING_LENGTH(varclient_2367) > 0)) {
+                        string0 = `To ${varclient_2367}:`;
+                    };
+                    string1 = "Private Chat";
+                    break;
+                }
+                case 1: {
+                    string1 = "Friends Chat";
+                    break;
+                }
+                case 2: {
+                    string1 = "Clan Chat";
+                    break;
+                }
+                case 3: {
+                    string1 = "Guest Clan Chat";
+                    break;
+                }
+                case 6: {
+                    string1 = "Twitch Chat";
+                    break;
+                }
+                case 4: {
+                    string1 = "Group Chat";
+                    break;
+                }
+                case 5: {
+                    string1 = "Group Chat (Team)";
+                    break;
+                }
+                case 102: {
+                    string1 = "Group Ironman";
+                    break;
+                }
+                default: {
+                    if ((varclient_6858 == 1)) {
+                        string0 = `Search Wiki<img=3>:`;
+                    } else {
+                        string1 = "Public Chat";
+                    };
+                    break;
+                }
+            };
+        } else {
+            switch (varbitplayer_22846) {
+                case 3: {
+                    string1 = "Private Chat";
+                    break;
+                }
+                case 4: {
+                    string1 = "Friends Chat";
+                    break;
+                }
+                case 5: {
+                    string1 = "Clan Chat";
+                    break;
+                }
+                case 6: {
+                    string1 = "Guest Clan Chat";
+                    break;
+                }
+                case 10: {
+                    string1 = "Group Chat";
+                    break;
+                }
+                case 11: {
+                    string1 = "Group Ironman";
+                    break;
+                }
+                default: {
+                    if ((varclient_6858 == 1)) {
+                        string0 = `Search Wiki<img=3>:`;
+                    } else {
+                        string1 = "Public Chat";
+                    };
+                    break;
+                }
+            };
+            if (((STRING_LENGTH(varclient_2367) > 0) && (int10 == 100))) {
+                string0 = `To ${varclient_2367}:`;
+            };
         };
     } else {
         switch (varbitplayer_22846) {
@@ -151,7 +204,7 @@ function script1558(int0: number, int1: number): void {
                 break;
             }
             default: {
-                if ((varclient_6858 == true)) {
+                if ((varclient_6858 == 1)) {
                     string0 = `Search Wiki<img=3>:`;
                 } else {
                     string1 = "Public Chat";
@@ -177,8 +230,27 @@ function script1558(int0: number, int1: number): void {
     IF_SETCOLOUR(16777215, int8);
     IF_SETTEXTSHADOW(1, int8);
     IF_SETCOLOUR(16777215, int2);
-    if (((STRING_LENGTH(script8521(int0)) > 0) || ((varclient_2873 == 8) && (varclient_2231 == int0)))) {
+    if ((STRING_LENGTH(script8521(int0)) > 0)) {
         IF_SETTEXT(ESCAPE(script8521(int0)), int4);
+    } else if ((varclient_2873 == 8)) {
+        if ((varclient_2231 == int0)) {
+            IF_SETTEXT(ESCAPE(script8521(int0)), int4);
+        } else {
+            if ((varclient_2231 == int0)) {
+                if ((int11 == 1)) {
+                    IF_SETTEXT(`${string1}Enter Message`, int4);
+                } else {
+                    IF_SETTEXT(`[${string1}Press Enter to Chat]`, int4);
+                };
+            } else {
+                IF_SETTEXT(`[${string1}Press Enter to Chat]`, int4);
+            };
+            if ((int11 == 0)) {
+                IF_SETCOLOUR(9868950, int4);
+            } else {
+                IF_SETCOLOUR(script693(240, 240, 240), int4);
+            };
+        };
     } else {
         if ((varclient_2231 == int0)) {
             if ((int11 == 1)) {
@@ -203,7 +275,7 @@ function script1558(int0: number, int1: number): void {
     };
     IF_SETPOSITION(5, 0, 0, int12, int8);
     IF_SETSIZE(int13, 2, 0, 1, int8);
-    if ((int9 != comp(-1, 65535))) {
+    if ((int9 != -1)) {
         IF_SETHIDE(script12585(script19316()), int9);
         IF_SETPOSITION(5, 0, 0, int12, int9);
         IF_SETSIZE(int13, 2, 0, 1, int9);

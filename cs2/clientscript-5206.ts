@@ -25,9 +25,55 @@ function script5206(): void {
         int10 = struct_getparam(int12, 1885);
         int13 = enum_getvalue(0, 73, 4849 as cs2enum, int10);
         int8 = script5200(int10);
-        if ((((int13 != -1 as struct) && (struct_getparam(int13, 2196) == 1)) && (int8 == 0))) {
-            CC_CREATE(comp(1122, 3), 3, int11);
-            CC_SETHIDE(true);
+        if ((int13 != -1 as struct)) {
+            if ((struct_getparam(int13, 2196) == 1)) {
+                if ((int8 == 0)) {
+                    CC_CREATE(comp(1122, 3), 3, int11);
+                    CC_SETHIDE(true);
+                } else {
+                    if ((varbitplayer_1038 == int11)) {
+                        int7 = 1;
+                    } else {
+                        int7 = 0;
+                    };
+                    if (((int10 == 0) || (int8 == 1))) {
+                        int14 = 0;
+                    } else {
+                        int14 = 1;
+                    };
+                    int5 = (int2 + (MODULO(int11, 4) * int9));
+                    int6 = (int1 + ((int11 / 4) * int9));
+                    script13998(73531394, 73531395, 28556, int5, int6, 60, 60, int11, int14, "", int7);
+                    CC_CREATE(comp(1122, 2), 5, IF_GETNEXTSUBID(comp(1122, 2)));
+                    CC_SETPOSITION(int5, int6, 0, 0);
+                    CC_SETSIZE(60, 60, 0, 0);
+                    CC_SETGRAPHIC(struct_getparam(int12, 1883));
+                    if (((int8 == 1) && (CC_FIND(comp(1122, 3), int11) == 1))) {
+                        CC_SETONOP(callback(script5207, -2147483645, -2147483643));
+                    };
+                };
+            } else {
+                if ((varbitplayer_1038 == int11)) {
+                    int7 = 1;
+                } else {
+                    int7 = 0;
+                };
+                if (((int10 == 0) || (int8 == 1))) {
+                    int14 = 0;
+                } else {
+                    int14 = 1;
+                };
+                int5 = (int2 + (MODULO(int11, 4) * int9));
+                int6 = (int1 + ((int11 / 4) * int9));
+                script13998(73531394, 73531395, 28556, int5, int6, 60, 60, int11, int14, "", int7);
+                CC_CREATE(comp(1122, 2), 5, IF_GETNEXTSUBID(comp(1122, 2)));
+                CC_SETPOSITION(int5, int6, 0, 0);
+                CC_SETSIZE(60, 60, 0, 0);
+                CC_SETGRAPHIC(struct_getparam(int12, 1883));
+                if (((int8 == 1) && (CC_FIND(comp(1122, 3), int11) == 1))) {
+                    CC_SETONOP(callback(script5207, -2147483645, -2147483643));
+                };
+            };
         } else {
             if ((varbitplayer_1038 == int11)) {
                 int7 = 1;

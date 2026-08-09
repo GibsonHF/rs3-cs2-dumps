@@ -5,6 +5,7 @@ function script16583(int0: number, int1: number): string {
     };
     switch (int0) {
         case 50082: {
+            break;
         }
         default: {
             script12478("Item set effect has param: [combatv2_ability_info_has_scripted_text] but no scripted text.");

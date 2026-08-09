@@ -1,5 +1,5 @@
 //
-function script13468(int0: number): [string, string, number] {
+function script13468(int0: number): [number, string, string] {
     switch (int0) {
         case 0: {
             return ["Medium Reputation", "All methods of skilling within the walls of Menaphos will earn you reputation (after completing Jack of Spades). For methods existing prior to the update, this will only be a token amount of reputation.", 30974];

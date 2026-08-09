@@ -16,15 +16,14 @@ function script19777(): void {
     };
     CC_CREATE(comp(1320, 172), 5, (int3 + 1));
     IF_SETONVARTRANSMIT(callback(script19782, 12080, 12080, 2), comp(1320, 22));
-    IF_SETONVARTRANSMIT(callback(script19780, 12084, 1), 86507559);
-    IF_SETONVARTRANSMIT(callback(script19807, 12081, 12082, 12082, 3), 86507571);
-    IF_SETONVARTRANSMIT(callback(script19782, 12080, 1), 86507543);
+    IF_SETONVARTRANSMIT(callback(script19780, 12084, 1), comp(1320, 39));
+    IF_SETONVARTRANSMIT(callback(script19807, 12081, 12082, 12082, 3), comp(1320, 51));
+    IF_SETONVARTRANSMIT(callback(script19782, 12080, 1), comp(1320, 23));
     DB_LISTALL(313);
-    dbrow_findnext();
-    var int4 = stack();
+    var int4 = dbrow_findnext();
     var int5 = -1;
     var int6 = -1;
-    while ((int4 != -1 as dbrow)) {
+    while ((int4 != -1)) {
         if ((DB_GETFIELDCOUNT(int4, 1282208) > 0)) {
             [int5, int6] = dbrow_getfield(int4, 1282208, 0);
             if ((IF_FIND(int5) == 1)) {
@@ -35,8 +34,7 @@ function script19777(): void {
                 script19779(int5);
             };
         };
-        dbrow_findnext();
-        int4 = stack();
+        int4 = dbrow_findnext();
     };
     script13310(86507557, 86507558, 63, (8 * 1000));
     script13310(86507682, 86507683, 64, (8 * 1000));

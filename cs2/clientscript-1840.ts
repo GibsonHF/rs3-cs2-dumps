@@ -1,8 +1,8 @@
 //[proc,worldmap_createline]
 function script1840(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number): [number, number] {
-    var int6 = true;
+    var int6 = 1;
     if ((int5 == 1)) {
-        int6 = false;
+        int6 = 0;
     };
     var int7 = enum_getvalue(0, 73, 1805 as cs2enum, int1);
     if ((int7 == -1 as struct)) {
@@ -37,9 +37,9 @@ function script1840(int0: number, int1: number, int2: number, int3: number, int4
     CC_SETSIZE(23, 23, 0, 0);
     CC_SETPOSITION[1](((CC_GETX() + CC_GETWIDTH()) + 3), int2, 0, 0);
     CC_SETSIZE[1]((CC_GETX[1]() + (3 / 2)), 18, 1, 0);
-    var int12 = -1 as graphic;
+    var int12 = -1;
     var int13 = struct_getparam(int7, 4393);
-    if ((int13 != -1 as cs2enum)) {
+    if ((int13 != -1)) {
         int12 = enum_getvalue(0, 23, int13, varbitplayer_22874);
     };
     CC_SETGRAPHIC(int12);
@@ -70,7 +70,7 @@ function script1840(int0: number, int1: number, int2: number, int3: number, int4
         CC_SETONMOUSEOVER(callback(script9623, int0, CC_GETID[1](), script10495(4)));
     };
     CC_CREATE[1](int0, 3, IF_GETNEXTSUBID(int0));
-    if ((int6 == true)) {
+    if ((int6 == 1)) {
         return [int2, int9];
     };
     return [((int2 + 18) + 5), int9];

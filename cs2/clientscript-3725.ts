@@ -4,14 +4,8 @@ function script3725(int0: number): number {
         if ((varplayer_8745 == 5606 as dbrow)) {
             return 0;
         };
-        if ((varplayer_8745 != -1 as dbrow)) {
-            stack(varplayer_8745);
-            stack(291008);
-            stack(0);
-            dbrow_getfield();
-            if ((stack() != -1)) {
-                return 0;
-            };
+        if (((varplayer_8745 != -1 as dbrow) && (dbrow_getfield(varplayer_8745, 291008, 0) != -1))) {
+            return 0;
         };
     };
     var int1 = -1;
@@ -23,8 +17,7 @@ function script3725(int0: number): number {
             stack(1474576);
             stack(int1);
             DB_FIND(0);
-            dbrow_findnext();
-            int2 = stack();
+            int2 = dbrow_findnext();
             if ((int2 == -1)) {
                 return 1;
             };

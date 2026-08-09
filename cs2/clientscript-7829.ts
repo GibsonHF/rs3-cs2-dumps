@@ -30,14 +30,14 @@ function script7829(int0: number, int1: number, int2: number, int3: number, int4
         CC_SETONMOUSELEAVE(callback(script8805));
         CC_CREATE(int7, 4, IF_GETNEXTSUBID(int7));
         CC_SETTEXT(string0);
-        CC_SETTEXTFONT(28);
+        CC_SETTEXTFONT(28 as fontmetrics);
         CC_SETCOLOUR(script10495(0));
         CC_SETTEXTALIGN(0, 1, 0);
         CC_SETSIZE(190, 20, 0, 0);
         CC_SETPOSITION(45, (varclient_2820 + 4), 0, 0);
         CC_CREATE(int7, 4, IF_GETNEXTSUBID(int7));
         CC_SETTEXT("Rank:");
-        CC_SETTEXTFONT(26);
+        CC_SETTEXTFONT(26 as fontmetrics);
         CC_SETCOLOUR(script10495(3));
         CC_SETTEXTALIGN(0, 1, 0);
         CC_SETSIZE(45, 20, 0, 0);

@@ -15,7 +15,7 @@ function script206(): void {
     CC_SETSIZE(25, 25, 0, 0);
     CC_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643));
     int0 = (int0 + 1);
-    CC_CREATE(41156637, 5, int0);
+    CC_CREATE(comp(628, 29), 5, int0);
     if ((varbitplayer_10000 == 1)) {
         string0 = "Varrock West Mine - Complete";
         CC_SETGRAPHIC(13616 as graphic);
@@ -27,7 +27,7 @@ function script206(): void {
     CC_SETSIZE(25, 25, 0, 0);
     CC_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643));
     int0 = (int0 + 1);
-    CC_CREATE(41156637, 5, int0);
+    CC_CREATE(comp(628, 29), 5, int0);
     if ((varbitplayer_10001 == 1)) {
         string0 = "Varrock East Mine - Complete";
         CC_SETGRAPHIC(13616 as graphic);
@@ -39,7 +39,7 @@ function script206(): void {
     CC_SETSIZE(25, 25, 0, 0);
     CC_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643));
     int0 = (int0 + 1);
-    CC_CREATE(41156637, 5, int0);
+    CC_CREATE(comp(628, 29), 5, int0);
     if ((varbitplayer_10002 == 1)) {
         string0 = "Rimmington Mine - Complete";
         CC_SETGRAPHIC(13616 as graphic);
@@ -52,29 +52,29 @@ function script206(): void {
     CC_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643));
     int0 = (int0 + 1);
     string0 = "Falador Lodestone";
-    CC_CREATE(41156637, 5, int0);
-    CC_SETGRAPHIC(22460);
+    CC_CREATE(comp(628, 29), 5, int0);
+    CC_SETGRAPHIC(22460 as graphic);
     CC_SETPOSITION(118, 80, 0, 0);
     CC_SETSIZE(15, 15, 0, 0);
     CC_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643));
     int0 = (int0 + 1);
     string0 = "Varrock Lodestone";
-    CC_CREATE(41156637, 5, int0);
-    CC_SETGRAPHIC(22460);
+    CC_CREATE(comp(628, 29), 5, int0);
+    CC_SETGRAPHIC(22460 as graphic);
     CC_SETPOSITION(300, 105, 0, 0);
     CC_SETSIZE(15, 15, 0, 0);
     CC_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643));
     int0 = (int0 + 1);
     string0 = "Port Sarim Lodestone";
-    CC_CREATE(41156637, 5, int0);
-    CC_SETGRAPHIC(22460);
+    CC_CREATE(comp(628, 29), 5, int0);
+    CC_SETGRAPHIC(22460 as graphic);
     CC_SETPOSITION(151, 230, 0, 0);
     CC_SETSIZE(15, 15, 0, 0);
     CC_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643));
     int0 = (int0 + 1);
     string0 = "Artisans' Workshop";
-    CC_CREATE(41156637, 5, int0);
-    CC_SETGRAPHIC(22548);
+    CC_CREATE(comp(628, 29), 5, int0);
+    CC_SETGRAPHIC(22548 as graphic);
     CC_SETPOSITION(177, 130, 0, 0);
     CC_SETSIZE(15, 15, 0, 0);
     CC_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643));
@@ -91,14 +91,14 @@ function script206(): void {
     CC_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643));
     int0 = (int0 + 1);
     string0 = "Falador Castle";
-    CC_CREATE(41156637, 5, int0);
-    CC_SETGRAPHIC(22235);
+    CC_CREATE(comp(628, 29), 5, int0);
+    CC_SETGRAPHIC(22235 as graphic);
     CC_SETPOSITION(112, 122, 0, 0);
     CC_SETSIZE(30, 30, 0, 0);
     CC_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643));
     int0 = (int0 + 1);
-    CC_CREATE(41156637, 5, int0);
-    CC_SETGRAPHIC(13620);
+    CC_CREATE(comp(628, 29), 5, int0);
+    CC_SETGRAPHIC(13620 as graphic);
     CC_SETPOSITION((((COORDX(COORD()) - 2815) * 75) / 100), (((3520 - COORDZ(COORD())) * 77) / 100), 0, 0);
     CC_SETSIZE(25, 25, 0, 0);
     string0 = "You are here";

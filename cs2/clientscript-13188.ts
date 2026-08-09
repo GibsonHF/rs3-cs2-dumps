@@ -17,13 +17,17 @@ function script13188(int0: number, int1: number): void {
     var int12 = -1;
     var int13 = -1;
     var int14 = 0;
-    var int15 = -1 as dbrow;
+    var int15 = -1;
     if ((int0 == 1)) {
         CC_DELETEALL(int6);
         if ((IF_FIND[1](comp(1843, 273)) == 1)) {
             int14 = CC_GETWIDTH[1]();
             int8 = (int8 - ((int14 + 2) * 2));
-            CC_CREATE(int6, 4, int9++);
+            stack(int6);
+            stack(4);
+            stack(int9);
+            int9 = (int9 + 1);
+            CC_CREATE();
             CC_SETTEXTFONT(58 as fontmetrics);
             CC_SETTEXTSHADOW(true);
             CC_SETPOSITION((int14 + 2), int7, 0, 0);
@@ -47,7 +51,11 @@ function script13188(int0: number, int1: number): void {
                 CC_SETHIDE[1](false);
             };
         };
-        CC_CREATE(int6, 4, int9++);
+        stack(int6);
+        stack(4);
+        stack(int9);
+        int9 = (int9 + 1);
+        CC_CREATE();
         CC_SETTEXTFONT(29 as fontmetrics);
         CC_SETTEXTSHADOW(true);
         switch (int1) {
@@ -79,7 +87,7 @@ function script13188(int0: number, int1: number): void {
             }
             default: {
                 int15 = script15768(int1);
-                if ((int15 != -1 as dbrow)) {
+                if ((int15 != -1)) {
                     if ((dbrow_getfield(int15, 667728, 0) == 2)) {
                         if ((dbrow_getfield(int15, 667744, 0) == 20)) {
                             string0 = script18200(int15);

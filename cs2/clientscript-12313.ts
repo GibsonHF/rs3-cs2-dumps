@@ -7,6 +7,6 @@ function script12313(int0: number, int1: number, int2: number, int3: number): [n
         return [-2147483648, -2147483648];
     };
     var int1 = (int1 + int3);
-    var [int0, int1] = script12312(int0, int1, int2);
+    [int0, int1] = script12312(int0, int1, int2);
     return [int0, int1];
 }

@@ -74,11 +74,42 @@ function script2022(): void {
         };
     };
     var int6 = enum_getvalue(0, 73, 1022 as cs2enum, int5);
-    if (((int6 != -1 as struct) && (struct_getparam(int6, 2366) == 7))) {
-        if ((script1121(varbitplayer_17132) == 1)) {
-            IF_SETHIDE(false, comp(950, 195));
-            IF_SETTEXT("Your captain already has four traits and cannot gain any more.", comp(950, 195));
-            IF_SETHIDE(true, comp(950, 196));
+    if ((int6 != -1 as struct)) {
+        if ((struct_getparam(int6, 2366) == 7)) {
+            if ((script1121(varbitplayer_17132) == 1)) {
+                IF_SETHIDE(false, comp(950, 195));
+                IF_SETTEXT("Your captain already has four traits and cannot gain any more.", comp(950, 195));
+                IF_SETHIDE(true, comp(950, 196));
+            } else if ((int0 < 35)) {
+                IF_SETHIDE(false, comp(950, 195));
+                IF_SETTEXT("Warning: Your chances of success are low. You risk harsher penalties if the voyage fails.", comp(950, 195));
+                IF_SETHIDE(true, comp(950, 196));
+            } else {
+                IF_SETHIDE(true, comp(950, 195));
+                IF_SETHIDE(false, comp(950, 196));
+            };
+        } else if ((int6 != -1 as struct)) {
+            if ((struct_getparam(int6, 2366) == 5)) {
+                if ((script3730() == 0)) {
+                    IF_SETHIDE(false, comp(950, 195));
+                    IF_SETTEXT("Warning: The Scroll you have focused on is complete. Please view your Port Management page to change the scroll.", comp(950, 195));
+                    IF_SETHIDE(true, comp(950, 196));
+                } else if ((int0 < 35)) {
+                    IF_SETHIDE(false, comp(950, 195));
+                    IF_SETTEXT("Warning: Your chances of success are low. You risk harsher penalties if the voyage fails.", comp(950, 195));
+                    IF_SETHIDE(true, comp(950, 196));
+                } else {
+                    IF_SETHIDE(true, comp(950, 195));
+                    IF_SETHIDE(false, comp(950, 196));
+                };
+            } else if ((int0 < 35)) {
+                IF_SETHIDE(false, comp(950, 195));
+                IF_SETTEXT("Warning: Your chances of success are low. You risk harsher penalties if the voyage fails.", comp(950, 195));
+                IF_SETHIDE(true, comp(950, 196));
+            } else {
+                IF_SETHIDE(true, comp(950, 195));
+                IF_SETHIDE(false, comp(950, 196));
+            };
         } else if ((int0 < 35)) {
             IF_SETHIDE(false, comp(950, 195));
             IF_SETTEXT("Warning: Your chances of success are low. You risk harsher penalties if the voyage fails.", comp(950, 195));
@@ -87,11 +118,20 @@ function script2022(): void {
             IF_SETHIDE(true, comp(950, 195));
             IF_SETHIDE(false, comp(950, 196));
         };
-    } else if (((int6 != -1 as struct) && (struct_getparam(int6, 2366) == 5))) {
-        if ((script3730() == 0)) {
-            IF_SETHIDE(false, comp(950, 195));
-            IF_SETTEXT("Warning: The Scroll you have focused on is complete. Please view your Port Management page to change the scroll.", comp(950, 195));
-            IF_SETHIDE(true, comp(950, 196));
+    } else if ((int6 != -1 as struct)) {
+        if ((struct_getparam(int6, 2366) == 5)) {
+            if ((script3730() == 0)) {
+                IF_SETHIDE(false, comp(950, 195));
+                IF_SETTEXT("Warning: The Scroll you have focused on is complete. Please view your Port Management page to change the scroll.", comp(950, 195));
+                IF_SETHIDE(true, comp(950, 196));
+            } else if ((int0 < 35)) {
+                IF_SETHIDE(false, comp(950, 195));
+                IF_SETTEXT("Warning: Your chances of success are low. You risk harsher penalties if the voyage fails.", comp(950, 195));
+                IF_SETHIDE(true, comp(950, 196));
+            } else {
+                IF_SETHIDE(true, comp(950, 195));
+                IF_SETHIDE(false, comp(950, 196));
+            };
         } else if ((int0 < 35)) {
             IF_SETHIDE(false, comp(950, 195));
             IF_SETTEXT("Warning: Your chances of success are low. You risk harsher penalties if the voyage fails.", comp(950, 195));

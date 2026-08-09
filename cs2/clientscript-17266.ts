@@ -1,7 +1,9 @@
 //
 function script17266(int0: number): number {
     var int1 = script3112();
-    if (((varplayer_6601 < struct_getparam(int0, 6388)) || ((varplayer_6601 > struct_getparam(int0, 6389)) && (struct_getparam(int0, 6389) != 0)))) {
+    if ((varplayer_6601 < struct_getparam(int0, 6388))) {
+        return 0;
+    } else if (((varplayer_6601 > struct_getparam(int0, 6389)) && (struct_getparam(int0, 6389) != 0))) {
         return 0;
     };
     if ((((struct_getparam(int0, 7491) == true) && (PLATFORMTYPE() != 0)) && (PLATFORMTYPE() != 5))) {
@@ -27,8 +29,10 @@ function script17266(int0: number): number {
     };
     switch (int0) {
         case 44087: {
-            if (((struct_getparam(int0, 4737) != -1 as dbrow) && ((script12115(struct_getparam(int0, 4737)) == 0) || (RANDOM(2) == 0)))) {
-                return 0;
+            if ((struct_getparam(int0, 4737) != -1 as dbrow)) {
+                if (((script12115(struct_getparam(int0, 4737)) == 0) || (RANDOM(2) == 0))) {
+                    return 0;
+                };
             };
             break;
         }

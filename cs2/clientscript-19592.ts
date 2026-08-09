@@ -8,8 +8,15 @@ function script19592(int0: number, int1: number, int2: number): number {
         while ((int3 < int2)) {
             if ((CC_FIND[1](comp(1313, 75), int3) == 1)) {
                 if ((CC_GETINVOBJECT[1]() == 48447 as obj)) {
-                } else if ((((CC_GETINVOBJECT[1]() == int0) && (CC_GETINVCOUNT[1]() == 0)) && (--int1 == 0))) {
-                    return 0;
+                    var int1 = (int1 - 1);
+                    if ((int1 == 0)) {
+                        return 0;
+                    };
+                } else if (((CC_GETINVOBJECT[1]() == int0) && (CC_GETINVCOUNT[1]() == 0))) {
+                    int1 = (int1 - 1);
+                    if ((int1 == 0)) {
+                        return 0;
+                    };
                 };
             };
             int3 = (int3 + 1);

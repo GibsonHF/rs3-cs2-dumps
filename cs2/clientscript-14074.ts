@@ -11,6 +11,7 @@ function script14074(int0: number): number {
             return 33882147;
         }
         case 95: {
+            break;
         }
         default: {
             return 33882112;

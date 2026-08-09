@@ -6,8 +6,7 @@ function script15936(int0: number, int1: number): string {
     stack(32768);
     stack(int0);
     DB_FIND(0);
-    dbrow_findnext();
-    var int2 = stack();
+    var int2 = dbrow_findnext();
     if ((int2 == -1)) {
         return "";
     };

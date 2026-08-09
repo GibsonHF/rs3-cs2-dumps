@@ -1,12 +1,12 @@
 //[proc,player_kit_body_redraw]
 function script1513(): void {
-    var int0 = -1 as cs2enum;
-    var int1 = -1 as cs2enum;
+    var int0 = -1;
+    var int1 = -1;
     var int2 = -1;
-    var int3 = -1 as idkit;
-    var int4 = -1 as cs2enum;
-    var int5 = -1 as cs2enum;
-    var int6 = -1 as cs2enum;
+    var int3 = -1;
+    var int4 = -1;
+    var int5 = -1;
+    var int6 = -1;
     var int7 = -1;
     var int8 = -1;
     switch (varclient_778) {
@@ -17,16 +17,16 @@ function script1513(): void {
             IF_SETGRAPHIC(1054 as graphic, comp(729, 14));
             int2 = script15531(3);
             if ((GENDER() == 1)) {
-                int0 = 693 as cs2enum;
-                int1 = 1593 as cs2enum;
+                int0 = 693;
+                int1 = 1593;
             } else {
-                int0 = 711 as cs2enum;
-                int1 = 702 as cs2enum;
+                int0 = 711;
+                int1 = 702;
             };
             int3 = varclient_1011;
-            int4 = 3282 as cs2enum;
-            int5 = 2347 as cs2enum;
-            int6 = 2348 as cs2enum;
+            int4 = 3282;
+            int5 = 2347;
+            int6 = 2348;
             int7 = 1;
             int8 = varclient_1016;
             break;
@@ -38,11 +38,11 @@ function script1513(): void {
             IF_SETGRAPHIC(1054 as graphic, comp(729, 14));
             int2 = script15531(4);
             if ((GENDER() == 1)) {
-                int0 = 751 as cs2enum;
+                int0 = 751;
             } else {
-                int0 = 749 as cs2enum;
+                int0 = 749;
             };
-            int1 = 750 as cs2enum;
+            int1 = 750;
             int3 = varclient_1012;
             break;
         }
@@ -53,16 +53,16 @@ function script1513(): void {
             IF_SETGRAPHIC(1046 as graphic, comp(729, 14));
             int2 = script15531(5);
             if ((GENDER() == 1)) {
-                int0 = 1607 as cs2enum;
-                int1 = 1606 as cs2enum;
+                int0 = 1607;
+                int1 = 1606;
             } else {
-                int0 = 1586 as cs2enum;
-                int1 = 1585 as cs2enum;
+                int0 = 1586;
+                int1 = 1585;
             };
             int3 = varclient_1013;
-            int4 = 3284 as cs2enum;
-            int5 = 2347 as cs2enum;
-            int6 = 2348 as cs2enum;
+            int4 = 3284;
+            int5 = 2347;
+            int6 = 2348;
             int7 = 2;
             int8 = varclient_1017;
             break;
@@ -75,16 +75,16 @@ function script1513(): void {
             IF_SETGRAPHIC(1054 as graphic, comp(729, 14));
             int2 = script15531(2);
             if ((GENDER() == 1)) {
-                int0 = 1591 as cs2enum;
-                int1 = 1590 as cs2enum;
+                int0 = 1591;
+                int1 = 1590;
             } else {
-                int0 = 690 as cs2enum;
-                int1 = 689 as cs2enum;
+                int0 = 690;
+                int1 = 689;
             };
             int3 = varclient_1010;
-            int4 = 3282 as cs2enum;
-            int5 = 2347 as cs2enum;
-            int6 = 2348 as cs2enum;
+            int4 = 3282;
+            int5 = 2347;
+            int6 = 2348;
             int7 = 1;
             int8 = varclient_1016;
             break;
@@ -93,7 +93,7 @@ function script1513(): void {
     CC_DELETEALL(comp(729, 16));
     var int9 = 0;
     var int10 = ENUM_GETOUTPUTCOUNT(int0);
-    var int11 = -1 as idkit;
+    var int11 = -1;
     var string0 = "";
     var int12 = 0;
     var int13 = 0;
@@ -141,7 +141,7 @@ function script1513(): void {
         IF_SETHIDE(true, comp(729, 17));
     };
     CC_DELETEALL(comp(729, 19));
-    if ((int5 == -1 as cs2enum)) {
+    if ((int5 == -1)) {
         IF_SETSIZE(4, 4, 1, 1, comp(729, 19));
         IF_SETSCROLLSIZE(0, 0, comp(729, 19));
         IF_SETSCROLLPOS(0, 0, comp(729, 19));
@@ -155,7 +155,7 @@ function script1513(): void {
     int9 = 0;
     int12 = 0;
     var int16 = 0;
-    var int17 = -1 as graphic;
+    var int17 = -1;
     var int18 = 0;
     while ((int9 < int10)) {
         int18 = enum_getvalue(0, 0, int4, int9);
@@ -166,14 +166,14 @@ function script1513(): void {
         CC_SETPOSITION(((int16 * CC_GETWIDTH()) + int15), int12, 0, 0);
         CC_SETCOLOUR(enum_getvalue(0, 0, int5, int9));
         CC_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643));
-        CC_CREATE[1](47775763, 5, IF_GETNEXTSUBID(47775763));
+        CC_CREATE[1](comp(729, 19), 5, IF_GETNEXTSUBID(comp(729, 19)));
         CC_SETSIZE[1](CC_GETWIDTH(), CC_GETHEIGHT(), 0, 0);
         CC_SETPOSITION[1](CC_GETX(), CC_GETY(), 0, 0);
         if ((int18 == int8)) {
             CC_SETGRAPHIC[1](2289 as graphic);
             int13 = int12;
         } else {
-            int17 = 2288 as graphic;
+            int17 = 2288;
             CC_SETGRAPHIC[1](int17);
             CC_SETONMOUSELEAVE[1](callback(script688, -2147483645, CC_GETID[1](), int17));
             int17 = 2289;

@@ -17,7 +17,8 @@ function script14953(): void {
     var int10 = -1 as dbrow;
     var int11 = -1;
     var int12 = -1;
-    while ((++int11 < int5)) {
+    int11 = (int11 + 1);
+    while ((int11 < int5)) {
         int7 = enum_getvalue(0, 33, 14058 as cs2enum, int11);
         if (((int7 != 49444 as obj) && (int7 != 49445 as obj))) {
             int10 = item_getparam(int7, 6659);
@@ -34,10 +35,17 @@ function script14953(): void {
     };
     ARRAY_SORT(int6, 1, 0);
     int11 = -1;
-    while ((++int11 < int6)) {
+    int11 = (int11 + 1);
+    while ((int11 < int6)) {
         int12 = 1;
-        while (((int12 < (int6 - int11)) && (push_array[1](int11) == push_array[1]((int11 + int12))))) {
-            int12 = (int12 + 1);
+        while ((int12 < (int6 - int11))) {
+            if ((push_array[1](int11) == push_array[1]((int11 + int12)))) {
+                int12 = (int12 + 1);
+            };
+            if ((int12 > 1)) {
+                script17567(0, int1, int11, ((int11 + int12) - 1));
+                int11 = (int11 + (int12 - 1));
+            };
         };
         if ((int12 > 1)) {
             script17567(0, int1, int11, ((int11 + int12) - 1));
@@ -62,7 +70,8 @@ function script14953(): void {
     var int26 = 0;
     var int27 = -1;
     int11 = -1;
-    while ((++int11 < int22)) {
+    int11 = (int11 + 1);
+    while ((int11 < int22)) {
         int23 = enum_getvalue(0, 0, 13152 as cs2enum, int11);
         switch (int23) {
             case 0: {
@@ -107,7 +116,8 @@ function script14953(): void {
             int24 = (int4 + 30);
             int12 = -1;
             int27 = -1;
-            while ((++int12 < int6)) {
+            int12 = (int12 + 1);
+            while ((int12 < int6)) {
                 int7 = enum_getvalue(0, 33, 14058 as cs2enum, push_array(int12));
                 if ((item_getparam(int7, 7212) == int23)) {
                     int27 = (int27 + 1);

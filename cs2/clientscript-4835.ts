@@ -1,8 +1,8 @@
 //
 function script4835(): void {
     var int0 = comp(-1, 65535);
-    var int1 = comp(-1, 65535);
-    var int2 = comp(-1, 65535);
+    var int1 = -1;
+    var int2 = -1;
     switch (varbitplayer_6981) {
         case 1: {
             int0 = script4817(varbitplayer_6986, 1);

@@ -4,7 +4,7 @@ function script11449(int0: number, int1: number, int2: number, int3: number): vo
     IF_SETPOSITION(8, IF_GETY(comp(1624, 63)), 2, 0, comp(1624, 63));
     IF_SETOBJECT_NONUM(struct_getparam(int0, 5067), 5, comp(1624, 60));
     if ((strcmp("", struct_getparam(int0, 5066)) != 0)) {
-        IF_SETTEXT(struct_getparam(int0, 5066), comp(1624, 61));
+        IF_SETTEXT(struct_getparam(int0, 5066), 106430525);
     } else {
         IF_SETTEXT(OC_NAME(struct_getparam(int0, 5067)), comp(1624, 61));
     };
@@ -59,16 +59,36 @@ function script11449(int0: number, int1: number, int2: number, int3: number): vo
         IF_SETTEXT("OK", comp(1624, 73));
         IF_SETHIDE(true, comp(1624, 62));
         IF_SETPOSITION(0, IF_GETY(comp(1624, 63)), 1, 0, comp(1624, 63));
-    } else if (((int2 == 1) && (int3 == 0))) {
-        IF_SETTEXT("You already have the maximum amount of clue scrolls.", comp(1624, 59));
-        IF_SETTEXT("OK", comp(1624, 73));
-        IF_SETHIDE(true, comp(1624, 62));
-        IF_SETPOSITION(0, IF_GETY(comp(1624, 63)), 1, 0, comp(1624, 63));
-    } else if (((PLAYERMEMBER() == false) && (OC_MEMBERS(int7) == 1))) {
-        IF_SETTEXT("This item is for members only:", comp(1624, 59));
-        IF_SETTEXT("OK", comp(1624, 73));
-        IF_SETHIDE(true, comp(1624, 62));
-        IF_SETPOSITION(0, IF_GETY(comp(1624, 63)), 1, 0, comp(1624, 63));
+    } else if ((int2 == 1)) {
+        if ((int3 == 0)) {
+            IF_SETTEXT("You already have the maximum amount of clue scrolls.", comp(1624, 59));
+            IF_SETTEXT("OK", comp(1624, 73));
+            IF_SETHIDE(true, comp(1624, 62));
+            IF_SETPOSITION(0, IF_GETY(comp(1624, 63)), 1, 0, comp(1624, 63));
+        } else if ((PLAYERMEMBER() == 0)) {
+            if ((OC_MEMBERS(int7) == 1)) {
+                IF_SETTEXT("This item is for members only:", comp(1624, 59));
+                IF_SETTEXT("OK", comp(1624, 73));
+                IF_SETHIDE(true, comp(1624, 62));
+                IF_SETPOSITION(0, IF_GETY(comp(1624, 63)), 1, 0, comp(1624, 63));
+            } else {
+                IF_SETTEXT(`Spend ${TOSTRING_LOCALISED((int4 * int5), 1)} on purchasing ${TOSTRING_LOCALISED(int5, 1)}:`, comp(1624, 59));
+                IF_SETTEXT(string0, comp(1624, 73));
+            };
+        } else {
+            IF_SETTEXT(`Spend ${TOSTRING_LOCALISED((int4 * int5), 1)} on purchasing ${TOSTRING_LOCALISED(int5, 1)}:`, comp(1624, 59));
+            IF_SETTEXT(string0, comp(1624, 73));
+        };
+    } else if ((PLAYERMEMBER() == 0)) {
+        if ((OC_MEMBERS(int7) == 1)) {
+            IF_SETTEXT("This item is for members only:", comp(1624, 59));
+            IF_SETTEXT("OK", comp(1624, 73));
+            IF_SETHIDE(true, comp(1624, 62));
+            IF_SETPOSITION(0, IF_GETY(comp(1624, 63)), 1, 0, comp(1624, 63));
+        } else {
+            IF_SETTEXT(`Spend ${TOSTRING_LOCALISED((int4 * int5), 1)} on purchasing ${TOSTRING_LOCALISED(int5, 1)}:`, comp(1624, 59));
+            IF_SETTEXT(string0, comp(1624, 73));
+        };
     } else {
         IF_SETTEXT(`Spend ${TOSTRING_LOCALISED((int4 * int5), 1)} on purchasing ${TOSTRING_LOCALISED(int5, 1)}:`, comp(1624, 59));
         IF_SETTEXT(string0, comp(1624, 73));

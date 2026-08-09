@@ -11,7 +11,7 @@ function script11262(int0: number, int1: number): void {
     IF_SETSIZE(int2, int3, 0, 0, int0);
     if (((int2 == 30) && (int3 == 30))) {
         IF_SETONTIMER(callback(), int0);
-        IF_SETHIDE(1, int1);
+        IF_SETHIDE(true, int1);
     };
     return;
 }

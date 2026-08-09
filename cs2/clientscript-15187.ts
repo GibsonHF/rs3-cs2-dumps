@@ -3,8 +3,7 @@ function script15187(int0: number, int1: number, int2: number): void {
     stack(442368);
     stack(int0);
     DB_FIND(0);
-    dbrow_findnext();
-    var int3 = stack();
+    var int3 = dbrow_findnext();
     if ((int3 != -1)) {
         IF_SETGRAPHIC(dbrow_getfield(int3, 442384, 0), int1);
         IF_SETTEXT(dbrow_getfield(int3, 442400, 0), int2);

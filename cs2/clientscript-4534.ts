@@ -2,23 +2,23 @@
 function script4534(int0: number, int1: number): void {
     switch (int0) {
         case 0: {
-            IF_SETONVARTRANSMIT(callback(script14124, 41886, int0, int1, 8170, 1), enum_getvalue(0, 9, 5355, int0));
+            IF_SETONVARTRANSMIT(callback(script14124, 41886, int0, int1, 8170, 1), enum_getvalue(0, 9, 5355 as cs2enum, int0));
             break;
         }
         case 1: {
-            IF_SETONVARTRANSMIT(callback(script14124, 41886, int0, int1, 8170, 1), enum_getvalue(0, 9, 5355, int0));
+            IF_SETONVARTRANSMIT(callback(script14124, 41886, int0, int1, 8170, 1), enum_getvalue(0, 9, 5355 as cs2enum, int0));
             break;
         }
         case 2: {
-            IF_SETONVARTRANSMIT(callback(script14124, 41886, int0, int1, 8170, 1), enum_getvalue(0, 9, 5355, int0));
+            IF_SETONVARTRANSMIT(callback(script14124, 41886, int0, int1, 8170, 1), enum_getvalue(0, 9, 5355 as cs2enum, int0));
             break;
         }
         case 3: {
-            IF_SETONVARTRANSMIT(callback(script14124, 41886, int0, int1, 8170, 1), enum_getvalue(0, 9, 5355, int0));
+            IF_SETONVARTRANSMIT(callback(script14124, 41886, int0, int1, 8170, 1), enum_getvalue(0, 9, 5355 as cs2enum, int0));
             break;
         }
         case 4: {
-            IF_SETONVARTRANSMIT(callback(script14124, 41886, int0, int1, 8170, 8203, 2), enum_getvalue(0, 9, 5355, int0));
+            IF_SETONVARTRANSMIT(callback(script14124, 41886, int0, int1, 8170, 8203, 2), enum_getvalue(0, 9, 5355 as cs2enum, int0));
             break;
         }
     };

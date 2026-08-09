@@ -12,12 +12,20 @@ function script19505(int0: number, int1: number): number {
             } else {
                 int4 = CC_GETINVOBJECT();
             };
-            if ((((int4 != -1 as obj) && (int4 != 48447 as obj)) && (enum_getvalue(33, 1, 15589 as cs2enum, int4) == false))) {
-                int5 = OC_WEARPOS(int4);
-                cc_setparam(3844, int5);
-                if ((int5 != -1)) {
-                    pop_array(int5, (push_array(int5) + 1));
-                    int6 = (int6 + 1);
+            if ((int4 != -1 as obj)) {
+                if ((int4 != 48447 as obj)) {
+                    if ((enum_getvalue(33, 1, 15589 as cs2enum, int4) == false)) {
+                        int5 = OC_WEARPOS(int4);
+                        cc_setparam(3844, int5);
+                        if ((int5 != -1)) {
+                            pop_array(int5, (push_array(int5) + 1));
+                            int6 = (int6 + 1);
+                        };
+                    } else {
+                        cc_setparam(3844, -1);
+                    };
+                } else {
+                    cc_setparam(3844, -1);
                 };
             } else {
                 cc_setparam(3844, -1);

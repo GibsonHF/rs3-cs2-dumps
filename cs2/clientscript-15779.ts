@@ -1,7 +1,7 @@
 //
 function script15779(): void {
     IF_SETONRESIZE(callback(script15779), comp(685, 15));
-    var int0 = IF_GETHEIGHT(44892160);
+    var int0 = IF_GETHEIGHT(comp(685, 0));
     var int1 = 25;
     var int2 = 110;
     var int3 = 292;

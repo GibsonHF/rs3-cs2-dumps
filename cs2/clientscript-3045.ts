@@ -8,7 +8,7 @@ function script3045(): void {
         if ((CC_FIND(int0, (int2 * int3)) == 1)) {
             if ((int1 == int2)) {
                 CC_SETGRAPHIC(18525 as graphic);
-                CC_SETOP(1, "");
+                CC_SETOP(callback(script1));
                 CC_SETONOP(callback());
                 CC_SETONCLICK(callback());
             } else {

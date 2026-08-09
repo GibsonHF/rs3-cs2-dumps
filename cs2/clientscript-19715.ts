@@ -5,9 +5,9 @@ function script19715(int0: number, int1: number): void {
     var string1 = "";
     if ((enum_hasoutput(0, 10781 as cs2enum, int0) == 1)) {
         var int0 = enum_getreverseindex(0, 0, 10781 as cs2enum, int0, 0);
-        string0 = enum_getvalue(0, 36, 10780 as cs2enum, int0);
+        string0 = enum_getvalue(0, 36, 10780, int0);
     } else {
-        string1 = enum_getvalue(0, 36, 6629 as cs2enum, int1);
+        string1 = enum_getvalue(0, 36, 6629, int1);
     };
     var int3 = 1;
     if ((IF_FIND(comp(1475, 43)) == 1)) {

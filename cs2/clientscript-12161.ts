@@ -4,11 +4,6 @@ function script12161(int0: number): string {
     if ((int1 == 0)) {
         return "";
     };
-    dbrow_findnext();
-    var int2 = stack();
-    stack(int2);
-    stack(16432);
-    stack(0);
-    dbrow_getfield();
-    return stack();
+    var int2 = dbrow_findnext();
+    return dbrow_getfield(int2, 16432, 0);
 }

@@ -6,7 +6,8 @@ function script17796(int0: number, int1: number, int2: number): number {
     var int6 = 0;
     var int7 = 19716;
     var int8 = -1;
-    while ((++int8 < int5)) {
+    int8 = (int8 + 1);
+    while ((int8 < int5)) {
         [int4, int3] = script17506(int0, int8);
         int7 = 19716;
         if ((STAT(int4) < int3)) {

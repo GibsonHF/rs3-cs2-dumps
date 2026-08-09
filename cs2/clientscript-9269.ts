@@ -19,13 +19,15 @@ function script9269(int0: number, int1: number, int2: number, int3: number): voi
     };
     var int5 = varplayer_138;
     script9270(int0, varplayer_138, int4, int1, int2, int3);
-    if ((((IF_GETINVOBJECT(comp(105, 205)) == -1 as obj) && (IF_GETINVOBJECT(comp(105, 207)) == -1 as obj)) && ((STOCKMARKET_ISOFFEREMPTY(varplayer_138, 0) == 1) || (STOCKMARKET_ISOFFERFINISHED(varplayer_138, 0) == 1)))) {
-        script9261();
-        if ((enum_getvalue(0, 9, 1073 as cs2enum, int5) != comp(-1, 65535))) {
-            CC_DELETEALL(enum_getvalue(0, 9, 1073 as cs2enum, int5));
-        };
-        if ((enum_getvalue(0, 9, 1076 as cs2enum, int5) != comp(-1, 65535))) {
-            IF_SETHIDE(false, enum_getvalue(0, 9, 1076 as cs2enum, int5));
+    if (((IF_GETINVOBJECT(comp(105, 205)) == -1 as obj) && (IF_GETINVOBJECT(comp(105, 207)) == -1 as obj))) {
+        if (((STOCKMARKET_ISOFFEREMPTY(varplayer_138, 0) == 1) || (STOCKMARKET_ISOFFERFINISHED(varplayer_138, 0) == 1))) {
+            script9261();
+            if ((enum_getvalue(0, 9, 1073 as cs2enum, int5) != comp(-1, 65535))) {
+                CC_DELETEALL(enum_getvalue(0, 9, 1073 as cs2enum, int5));
+            };
+            if ((enum_getvalue(0, 9, 1076 as cs2enum, int5) != comp(-1, 65535))) {
+                IF_SETHIDE(false, enum_getvalue(0, 9, 1076 as cs2enum, int5));
+            };
         };
     };
     return;

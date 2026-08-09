@@ -9,7 +9,7 @@ function script10141(int0: number): void {
     if (((int0 == 1) || (STRING_LENGTH(varclient_4289) < 1))) {
         varclient_4289 = "Broadcast Title";
         varclient_4290 = STRING_LENGTH(varclient_4289);
-        IF_SETTEXT(varclient_4289, comp(232, 116));
+        IF_SETTEXT(varclient_4289, 15204468);
     };
     varbitclient_23068 = 0;
     varbitclient_23073 = 30;
@@ -19,7 +19,7 @@ function script10141(int0: number): void {
     };
     script10118();
     script10144();
-    IF_SETTEXT(varclient_4289, comp(232, 116));
+    IF_SETTEXT(varclient_4289, 15204468);
     script10132();
     script9528(15204419, 100);
     return;

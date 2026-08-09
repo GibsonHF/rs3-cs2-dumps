@@ -1,7 +1,7 @@
 //
 function script16165(int0: number, int1: number, int2: number): number {
     var int3 = 0;
-    var int4 = -1 as dbrow;
+    var int4 = -1;
     var int5 = 0;
     var int6 = -1;
     if (((script13048() == 1) && (varplayer_10404 != 0))) {
@@ -11,7 +11,8 @@ function script16165(int0: number, int1: number, int2: number): number {
         return 0;
     };
     if ((int1 != -1 as dbrow)) {
-        while ((++int6 < DB_GETFIELDCOUNT(int1, 602112))) {
+        int6 = (int6 + 1);
+        while ((int6 < DB_GETFIELDCOUNT(int1, 602112))) {
             [int3, int4, int5] = dbrow_getfield(int1, 602112, int6);
             if ((int3 == int0)) {
                 int5 = script4577(int1, int0, int5);

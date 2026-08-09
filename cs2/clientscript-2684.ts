@@ -15,7 +15,8 @@ function script2684(): void {
     int1 = comp(324, 27);
     var int2 = STRINGWIDTH(IF_GETTEXT(int1), IF_GETFONTMETRICS(int1));
     IF_SETSIZE(int2, IF_GETHEIGHT(int1), 0, 0, int1);
-    int2 = (++int2 + 5);
+    int2 = (int2 + 18);
+    int2 = (int2 + 5);
     int0 = (int0 / 2);
     int2 = (int2 / 2);
     int0 = (int0 - int2);

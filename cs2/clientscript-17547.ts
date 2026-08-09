@@ -12,7 +12,7 @@ function script17547(int0: number): void {
         int5 = (int5 / 10);
     };
     var string0 = "";
-    if ((script18321(int0, 76742684) != comp(1171, 28))) {
+    if ((script18321(int0, 76742684) != 76742684)) {
         string0 = TOSTRING_LOCALISED(int5, 1);
         IF_SETTEXT(string0, int1);
         return;
@@ -37,8 +37,14 @@ function script17547(int0: number): void {
             }
         };
     };
-    if (((varbitplayer_53295 > 0) || ((varbitplayer_53292 > 0) && (varbitplayer_53293 == 0)))) {
+    if ((varbitplayer_53295 > 0)) {
         IF_SETTEXT(string0, int1);
+    } else if ((varbitplayer_53292 > 0)) {
+        if ((varbitplayer_53293 == 0)) {
+            IF_SETTEXT(string0, int1);
+        } else {
+            IF_SETTEXT("", int1);
+        };
     } else {
         IF_SETTEXT("", int1);
     };

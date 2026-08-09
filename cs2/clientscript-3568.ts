@@ -140,9 +140,12 @@ function script3568(int0: number, int1: number, int2: number, int3: number, int4
                 break;
             }
         };
-    } else if (((int4 > 0) && ((int5 != 1) || (int8 < int23)))) {
-        int21 = (--int4 / 1000);
-        int22 = (MODULO(int4, 1000) / 100);
+    } else if ((int4 > 0)) {
+        if (((int5 != 1) || (int8 < int23))) {
+            int4 = (int4 - 2);
+            int21 = (int4 / 1000);
+            int22 = (MODULO(int4, 1000) / 100);
+        };
     };
     CC_CREATE(int0, 5, 0);
     CC_SETSIZE(int14, int13, 2, 2);

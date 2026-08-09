@@ -19,9 +19,12 @@ function script18157(int0: number): number {
     } else {
         int1 = enum_getvalue(0, 73, int2, 1);
         int3 = struct_getparam(int1, 1269);
-        while (((script15771(int0, int3) == 1) && (int3 != 0))) {
-            int1 = enum_getvalue(0, 73, int2, int3);
-            int3 = struct_getparam(int1, 1269);
+        while ((script15771(int0, int3) == 1)) {
+            if ((int3 != 0)) {
+                int1 = enum_getvalue(0, 73, int2, int3);
+                int3 = struct_getparam(int1, 1269);
+            };
+            return int1;
         };
     };
     return int1;

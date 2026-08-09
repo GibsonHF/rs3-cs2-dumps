@@ -8,7 +8,7 @@ function script9468(): void {
     var int5 = 0;
     var int6 = 0;
     var int7 = 0;
-    var int8 = -1 as obj;
+    var int8 = -1;
     while ((int1 < int0)) {
         int2 = enum_getvalue(0, 26, 14100 as cs2enum, int1);
         script6200(27459588, int3, 13, 0, int5, 29, enum_getvalue(26, 36, 14101 as cs2enum, int2), 0);

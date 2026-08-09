@@ -34,8 +34,12 @@ function script14132(int0: number, int1: number): void {
             break;
         }
         case 4: {
-            if (((varbitplayer_40198 == 1) && (varbitplayer_40139 == 5))) {
-                IF_SETHIDE(false, int1);
+            if ((varbitplayer_40198 == 1)) {
+                if ((varbitplayer_40139 == 5)) {
+                    IF_SETHIDE(false, int1);
+                } else {
+                    IF_SETHIDE(true, int1);
+                };
             } else {
                 IF_SETHIDE(true, int1);
             };

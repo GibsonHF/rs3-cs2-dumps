@@ -9,7 +9,10 @@ function script19011(int0: number, int1: number, int2: number, int3: number, int
     [int5, int6, int7, int8, int9, int10] = script19013(int0);
     switch (int0) {
         case 49941: {
-            script2994(122552324, int1++, (int2 + int5), int6, 0, 0, int7, int8, 0, 0, -1);
+            stack(122552324);
+            stack(int1);
+            var int1 = (int1 + 1);
+            script2994((int2 + int5), int6, 0, 0, int7, int8, 0, 0, -1);
             if ((int4 == 1)) {
                 CC_SETGRAPHIC(int9);
             } else {

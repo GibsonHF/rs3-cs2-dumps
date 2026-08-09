@@ -13,7 +13,14 @@ function script3847(int0: number, int1: number, int2: number, int3: number): num
         if (((2147483647 - int6) < INV_TOTAL(94 as inv, int0))) {
             return 0;
         };
-        if (((int3 == 95 as inv) && (script3802(int0) == 0))) {
+        if ((int3 == 95 as inv)) {
+            if ((script3802(int0) == 0)) {
+                if ((int6 > 0)) {
+                    int4 = (int4 - 1);
+                };
+            } else if ((((int3 != 95 as inv) && (OC_STACKABLE(int0) == 1)) && (int6 > 0))) {
+                int4 = (int4 - 1);
+            };
         } else if ((((int3 != 95 as inv) && (OC_STACKABLE(int0) == 1)) && (int6 > 0))) {
             int4 = (int4 - 1);
         };
@@ -25,7 +32,14 @@ function script3847(int0: number, int1: number, int2: number, int3: number): num
         if (((2147483647 - int6) < INV_TOTAL(94 as inv, int1))) {
             return 0;
         };
-        if (((int3 == 95 as inv) && (script3802(int1) == 0))) {
+        if ((int3 == 95 as inv)) {
+            if ((script3802(int1) == 0)) {
+                if ((int6 > 0)) {
+                    int4 = (int4 - 1);
+                };
+            } else if ((((int3 != 95 as inv) && (OC_STACKABLE(int1) == 1)) && (int6 > 0))) {
+                int4 = (int4 - 1);
+            };
         } else if ((((int3 != 95 as inv) && (OC_STACKABLE(int1) == 1)) && (int6 > 0))) {
             int4 = (int4 - 1);
         };

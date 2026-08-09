@@ -25,7 +25,8 @@ function script18234(int0: number): void {
     var int5 = 0;
     var int6 = script16317();
     var string1 = script17177(script17176());
-    while ((++int5 <= int6)) {
+    int5 = (int5 + 1);
+    while ((int5 <= int6)) {
         if (((script16319(int5) == -1) && (CC_FINDBYCATEGORY(comp(1343, 19), (int5 - 1), 0) == 1))) {
             CC_SETTEXT(string1);
         };

@@ -7,7 +7,7 @@ function script197(int0: number, int1: number): void {
     stack(string0);
     stack(int2);
     FRIEND_SETRANK();
-    if ((CC_FIND(72613895, int0) == 1)) {
+    if ((CC_FIND(comp(1108, 7), int0) == 1)) {
         CC_SETTEXT(enum_getvalue(0, 36, 5853 as cs2enum, int2));
     };
     return;

@@ -10,7 +10,11 @@ function script12337(int0: number, int1: number, int2: number, int3: number, int
     var int8 = 0;
     var int9 = 0;
     [int7, int8, int8, int9, int8] = script12343(33124, script12293(1734));
-    CC_CREATE(int0, 4, int6++);
+    stack(int0);
+    stack(4);
+    stack(int6);
+    int6 = (int6 + 1);
+    CC_CREATE();
     CC_SETTEXTFONT(58 as fontmetrics);
     CC_SETTEXT("Tips");
     CC_SETPOSITION(0, int5, 0, 0);
@@ -19,7 +23,11 @@ function script12337(int0: number, int1: number, int2: number, int3: number, int
     CC_SETCOLOUR(script10495(0));
     int5 = (int5 + (CC_GETHEIGHT() + 8));
     var string0 = "- ";
-    CC_CREATE(int0, 4, int6++);
+    stack(int0);
+    stack(4);
+    stack(int6);
+    int6 = (int6 + 1);
+    CC_CREATE();
     CC_SETTEXTFONT(26 as fontmetrics);
     CC_SETTEXT(`${string0}You can switch between loot mode and drops mode. Drops are anything dropped by a monster. Loot only counts drops you picked up from the ground.`);
     CC_SETSIZE(0, script7593(CC_GETTEXT(), int9, CC_GETFONTMETRICS(), 0), 1, 0);
@@ -27,7 +35,11 @@ function script12337(int0: number, int1: number, int2: number, int3: number, int
     CC_SETTEXTALIGN(0, 1, 0);
     CC_SETCOLOUR(script10495(3));
     int5 = (int5 + (CC_GETHEIGHT() + 8));
-    CC_CREATE(int0, 4, int6++);
+    stack(int0);
+    stack(4);
+    stack(int6);
+    int6 = (int6 + 1);
+    CC_CREATE();
     CC_SETTEXTFONT(26 as fontmetrics);
     CC_SETTEXT(`${string0}${script9465(15)}`);
     CC_SETSIZE(0, script7593(CC_GETTEXT(), int9, CC_GETFONTMETRICS(), 0), 1, 0);

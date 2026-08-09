@@ -3,7 +3,7 @@ function script5078(int0: number): void {
     CC_DELETEALL(comp(1114, 5));
     var int1 = 0;
     var int2 = ENUM_GETOUTPUTCOUNT(3921 as cs2enum);
-    var int3 = -1 as cs2enum;
+    var int3 = -1;
     var int4 = 0;
     var int5 = 0;
     var int6 = 0;
@@ -14,7 +14,7 @@ function script5078(int0: number): void {
         if ((int3 != -1 as cs2enum)) {
             [int4, int5] = [0, ENUM_GETOUTPUTCOUNT(int3)];
             while ((int4 < int5)) {
-                int6 = MAX(int6, STRINGWIDTH(enum_getvalue(0, 36, int3, int4), 66 as fontmetrics));
+                int6 = MAX(int6, STRINGWIDTH(enum_getvalue(0, 36, int3, int4), 66));
                 int4 = (int4 + 1);
             };
             pop_array(int7, (push_array((int7 - 1)) + int5));
@@ -53,7 +53,7 @@ function script5078(int0: number): void {
             CC_CREATE[1](comp(1114, 5), 5, IF_GETNEXTSUBID(comp(1114, 5)));
             CC_SETSIZE[1]((CC_GETWIDTH() - 40), CC_GETHEIGHT(), 0, 0);
             CC_SETPOSITION[1](26, CC_GETY(), 2, 0);
-            if ((varclient_1095 == true)) {
+            if ((varclient_1095 == 1)) {
                 CC_SETGRAPHIC[1](6132 as graphic);
             } else {
                 CC_SETGRAPHIC[1](6141 as graphic);
@@ -61,7 +61,7 @@ function script5078(int0: number): void {
             CC_CREATE[1](comp(1114, 5), 5, IF_GETNEXTSUBID(comp(1114, 5)));
             CC_SETSIZE[1]((CC_GETWIDTH() - 40), CC_GETHEIGHT(), 0, 0);
             CC_SETPOSITION[1](26, CC_GETY(), 2, 0);
-            if ((varclient_1095 == true)) {
+            if ((varclient_1095 == 1)) {
                 CC_SETGRAPHIC[1](6135 as graphic);
                 CC_SETTRANS[1](255);
             } else {
@@ -70,7 +70,7 @@ function script5078(int0: number): void {
             CC_CREATE[1](comp(1114, 5), 5, IF_GETNEXTSUBID(comp(1114, 5)));
             CC_SETSIZE[1](20, CC_GETHEIGHT(), 0, 0);
             CC_SETPOSITION[1](CC_GETX(), CC_GETY(), 0, 0);
-            if ((varclient_1095 == true)) {
+            if ((varclient_1095 == 1)) {
                 CC_SETGRAPHIC[1](6131 as graphic);
             } else {
                 CC_SETGRAPHIC[1](6140 as graphic);
@@ -78,7 +78,7 @@ function script5078(int0: number): void {
             CC_CREATE[1](comp(1114, 5), 5, IF_GETNEXTSUBID(comp(1114, 5)));
             CC_SETSIZE[1](20, CC_GETHEIGHT(), 0, 0);
             CC_SETPOSITION[1](CC_GETX(), CC_GETY(), 0, 0);
-            if ((varclient_1095 == true)) {
+            if ((varclient_1095 == 1)) {
                 CC_SETGRAPHIC[1](6134 as graphic);
                 CC_SETTRANS[1](255);
             } else {
@@ -87,7 +87,7 @@ function script5078(int0: number): void {
             CC_CREATE[1](comp(1114, 5), 5, IF_GETNEXTSUBID(comp(1114, 5)));
             CC_SETSIZE[1](20, CC_GETHEIGHT(), 0, 0);
             CC_SETPOSITION[1](6, CC_GETY(), 2, 0);
-            if ((varclient_1095 == true)) {
+            if ((varclient_1095 == 1)) {
                 CC_SETGRAPHIC[1](6133 as graphic);
             } else {
                 CC_SETGRAPHIC[1](6142 as graphic);
@@ -95,7 +95,7 @@ function script5078(int0: number): void {
             CC_CREATE[1](comp(1114, 5), 5, IF_GETNEXTSUBID(comp(1114, 5)));
             CC_SETSIZE[1](20, CC_GETHEIGHT(), 0, 0);
             CC_SETPOSITION[1](6, CC_GETY(), 2, 0);
-            if ((varclient_1095 == true)) {
+            if ((varclient_1095 == 1)) {
                 CC_SETGRAPHIC[1](6136 as graphic);
                 CC_SETTRANS[1](255);
             } else {
@@ -110,7 +110,7 @@ function script5078(int0: number): void {
             CC_SETTEXTSHADOW[1](false);
             CC_SETTEXT[1]("");
             int9 = (int9 + 33);
-            if ((varclient_1095 == true)) {
+            if ((varclient_1095 == 1)) {
                 CC_SETONMOUSEOVER(callback(script5086, -2147483645, int1, 0));
                 CC_SETONMOUSELEAVE(callback(script5086, -2147483645, int1, 1));
                 CC_SETONRELEASE(callback(script5086, -2147483645, int1, 255));
@@ -135,7 +135,7 @@ function script5078(int0: number): void {
     IF_SETONCLICK(callback(script5084, 73007109), comp(1114, 22));
     IF_SETONVARCTRANSMIT(callback(script5078, -2147483645, 1095, 1), int0);
     IF_SETONVARTRANSMIT(callback(script5078, -2147483645, 1995, 1), int0);
-    IF_SETONVARTRANSMIT(callback(script5079, -2147483645, 1992, 1), 73007109);
-    IF_SETONVARCSTRTRANSMIT(callback(script5079, -2147483645, 2537, 1), 73007109);
+    IF_SETONVARTRANSMIT(callback(script5079, -2147483645, 1992, 1), comp(1114, 5));
+    IF_SETONVARCSTRTRANSMIT(callback(script5079, -2147483645, 2537, 1), comp(1114, 5));
     return;
 }

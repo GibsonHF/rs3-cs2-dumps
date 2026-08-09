@@ -8,7 +8,7 @@ function script462(int0: number, int1: number): void {
     var int4 = script9984(int1, 2);
     var int5 = script9984(int1, 3);
     var int6 = int3;
-    if ((int6 == -1 as struct)) {
+    if ((int6 == -1)) {
         return;
     };
     CC_CREATE(int0, 5, 0);
@@ -16,7 +16,7 @@ function script462(int0: number, int1: number): void {
     CC_SETPOSITION(0, 0, 0, 0);
     CC_SETGRAPHIC(struct_getparam(int6, 3909));
     CC_SETONVARTRANSMIT(callback(script462, -2147483645, int1, 3814, 1));
-    if (((int3 != -1) && (int4 != -1 as struct))) {
+    if (((int3 != -1) && (int4 != -1))) {
         CC_SETONMOUSEOVER(callback(script13918, -2147483645, int4, -2147483643));
         CC_SETONMOUSELEAVE(callback(script13918, -2147483645, int3, -2147483643));
         if ((int5 != -1)) {

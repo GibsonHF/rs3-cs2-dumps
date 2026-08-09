@@ -6,7 +6,8 @@ function script7114(int0: number): number {
         if (((script7115(-1, -1, int1, 0, 0) != 0) || (script7089(int1) == 1))) {
             return 1;
         };
-        switch (++int2) {
+        int2 = (int2 + 1);
+        switch (int2) {
             case 2: {
                 int1 = struct_getparam(int0, 2656);
                 break;

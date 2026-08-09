@@ -1,12 +1,12 @@
 //
 function script17010(int0: number): void {
-    if ((int0 == -1 as dbrow)) {
+    if ((int0 == -1)) {
         return;
     };
-    var int1 = -1 as graphic;
-    var int2 = -1 as graphic;
-    var int3 = -1 as graphic;
-    var int4 = -1 as graphic;
+    var int1 = -1;
+    var int2 = -1;
+    var int3 = -1;
+    var int4 = -1;
     [int1, int2, int3, int4] = dbrow_getfield(int0, 851968, 0);
     switch (MAP_LANG()) {
         case 0: {

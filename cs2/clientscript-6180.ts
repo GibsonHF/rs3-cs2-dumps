@@ -75,5 +75,6 @@ function script6180(int0: number, int1: number): number {
     CC_SETTEXTFONT(26 as fontmetrics);
     CC_SETCOLOUR(16776960);
     CC_SETTEXT("please select a colour below:");
-    return ++int0;
+    int0 = (int0 + 1);
+    return int0;
 }

@@ -12,10 +12,8 @@ function script19248(): void {
     IF_SETHIDE(true, comp(1289, 15));
     IF_SETHIDE(true, comp(1289, 14));
     IF_SETHIDE(true, comp(1289, 12));
-    stack(PUSH_CONSTANT_INT[16]("<col=", int1));
-    IF_SETTEXT(`${stack()}${inttostring()}>The Spirit of Harvest`, comp(1289, 10));
-    stack(PUSH_CONSTANT_INT[16]("<col=", int0));
-    IF_SETTEXT(`${stack()}${inttostring()}>A rare reward from clan ceremonies on members' worlds. Hand in confections (up to 100) to improve your odds!`, comp(1289, 17));
+    IF_SETTEXT(`${inttostring(PUSH_CONSTANT_INT[16]("<col=", int1))}>The Spirit of Harvest`, comp(1289, 10));
+    IF_SETTEXT(`${inttostring(PUSH_CONSTANT_INT[16]("<col=", int0))}>A rare reward from clan ceremonies on members' worlds. Hand in confections (up to 100) to improve your odds!`, comp(1289, 17));
     IF_SETGRAPHIC(34383 as graphic, comp(1289, 11));
     return;
 }

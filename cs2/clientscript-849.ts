@@ -20,11 +20,15 @@ function script849(int0: number, int1: number): void {
     if ((int0 != 10)) {
         SOUND_SYNTH(30189, 1, 0);
         if ((int1 == 0)) {
-            if ((++int15 >= 2047)) {
+            int15 = (int15 + 512);
+            if ((int15 >= 2047)) {
                 int15 = 0;
             };
-        } else if ((--int15 < 0)) {
-            int15 = 2047;
+        } else {
+            int15 = (int15 - 512);
+            if ((int15 < 0)) {
+                int15 = 2047;
+            };
         };
         IF_SETMODELANGLE(0, 0, 512, int15, 0, 3500, int2);
         IF_SETMODELANGLE(0, 0, 512, int15, 0, 3500, int3);

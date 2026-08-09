@@ -12,13 +12,10 @@ function script19247(): void {
     IF_SETHIDE(false, comp(1289, 15));
     IF_SETHIDE(false, comp(1289, 14));
     IF_SETHIDE(false, comp(1289, 12));
-    stack(PUSH_CONSTANT_INT[16]("<col=", int1));
-    IF_SETTEXT(`${stack()}${inttostring()}>Wendle, the wicker boy pet`, comp(1289, 10));
-    stack(PUSH_CONSTANT_INT[16]("<col=", int0));
-    var string0 = `${stack()}${inttostring()}>Other new rewards - the sparkler and reaping scythe - are awarded from the clan ceremonies.`;
+    IF_SETTEXT(`${inttostring(PUSH_CONSTANT_INT[16]("<col=", int1))}>Wendle, the wicker boy pet`, comp(1289, 10));
+    var string0 = `${inttostring(PUSH_CONSTANT_INT[16]("<col=", int0))}>Other new rewards - the sparkler and reaping scythe - are awarded from the clan ceremonies.`;
     if ((script18522(523) == 0)) {
-        stack(PUSH_CONSTANT_INT[16]("<col=", int0));
-        string0 = `${stack()}${inttostring()}>Complete 'Guys and Dolls' to unlock Wendle then hand in 75 clan confections for its burning skin.`;
+        string0 = `${inttostring(PUSH_CONSTANT_INT[16]("<col=", int0))}>Complete 'Guys and Dolls' to unlock Wendle then hand in 75 clan confections for its burning skin.`;
     };
     IF_SETTEXT(string0, comp(1289, 17));
     return;

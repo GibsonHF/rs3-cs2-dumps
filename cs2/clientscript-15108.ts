@@ -1,6 +1,7 @@
 //
 function script15108(int0: number): number {
-    switch (++int0) {
+    var int0 = (int0 + 1);
+    switch (int0) {
         case 1: {
             return varbitplayer_41936;
         }

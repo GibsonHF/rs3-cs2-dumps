@@ -41,7 +41,7 @@ function script359(int0: number, int1: number, int2: number, int3: number, int4:
                 IF_SETPOSITION(0, 0, 0, 0, comp(90, 69));
                 int26 = (int26 - 23);
             };
-            if ((int25 != -1 as dbrow)) {
+            if ((int25 != -1)) {
                 script3692(5898312, 5898313, "Cure Disease", script915(int4));
                 script3692(5898318, 5898319, "Gather Produce", script915(int7));
             } else if ((int1 == 93 as inv)) {
@@ -92,12 +92,12 @@ function script359(int0: number, int1: number, int2: number, int3: number, int4:
                 IF_SETHIDE(false, comp(90, 141));
                 IF_SETTEXT(struct_getparam(int8, 7456), comp(90, 143));
                 if ((int9 != -1)) {
-                    IF_SETTEXT(struct_getparam(int9, 7456), comp(90, 139));
+                    IF_SETTEXT(struct_getparam(int9, 7456), 5898379);
                 } else {
                     IF_SETTEXT("No Trait", comp(90, 139));
                 };
                 if ((int10 != -1)) {
-                    IF_SETTEXT(struct_getparam(int10, 7456), comp(90, 146));
+                    IF_SETTEXT(struct_getparam(int10, 7456), 5898386);
                 } else {
                     IF_SETTEXT("No Trait", comp(90, 146));
                 };
@@ -105,7 +105,7 @@ function script359(int0: number, int1: number, int2: number, int3: number, int4:
             IF_SETNPCMODEL(int11, comp(90, 94));
             IF_SETMODELANIM(BAS_GETANIM_READY(int13), comp(90, 94));
             IF_SETMODELANGLE(0, 0, npc_getparam(int11, 3864), npc_getparam(int11, 3865), 0, int12, comp(90, 94));
-            if ((int11 == 14886 as npc)) {
+            if ((int11 == 14886)) {
                 IF_SETPOSITION(39, 18, 0, 0, comp(90, 94));
             };
             if ((int12 > 200)) {
@@ -114,13 +114,13 @@ function script359(int0: number, int1: number, int2: number, int3: number, int4:
             break;
         }
         case 1: {
-            if ((int25 != -1 as dbrow)) {
+            if ((int25 != -1)) {
                 script3696(int25);
             };
             break;
         }
         case 2: {
-            if ((int25 != -1 as dbrow)) {
+            if ((int25 != -1)) {
                 IF_SETHIDE(true, comp(90, 4));
                 IF_SETHIDE(true, comp(90, 69));
                 IF_SETHIDE(false, comp(90, 3));

@@ -11,8 +11,100 @@ function script7251(): void {
     var int0 = script7311(varplayer_3393);
     var int1 = INV_GETOBJ(677 as inv, varplayer_3393);
     var int2 = 0;
-    if (((script7294(varplayer_3390) == -1) && (((varplayer_3390 == 1) && (varplayer_3393 == 0)) || (((varplayer_3390 == 2) && (varplayer_3393 == 6)) || (((varplayer_3390 == 3) && (varplayer_3393 == 12)) || ((varplayer_3390 == 4) && (varplayer_3393 == 18))))))) {
-        int2 = 1;
+    if ((script7294(varplayer_3390) == -1)) {
+        if ((varplayer_3390 == 1)) {
+            if ((varplayer_3393 == 0)) {
+                int2 = 1;
+            } else if ((varplayer_3390 == 2)) {
+                if ((varplayer_3393 == 6)) {
+                    int2 = 1;
+                } else if ((varplayer_3390 == 3)) {
+                    if ((varplayer_3393 == 12)) {
+                        int2 = 1;
+                    } else if ((varplayer_3390 == 4)) {
+                        if ((varplayer_3393 == 18)) {
+                            int2 = 1;
+                        } else if ((int1 != -1 as obj)) {
+                            int2 = enum_hasoutput(33, 2173 as cs2enum, int1);
+                        };
+                    } else if ((int1 != -1 as obj)) {
+                        int2 = enum_hasoutput(33, 2173 as cs2enum, int1);
+                    };
+                } else if ((varplayer_3390 == 4)) {
+                    if ((varplayer_3393 == 18)) {
+                        int2 = 1;
+                    } else if ((int1 != -1 as obj)) {
+                        int2 = enum_hasoutput(33, 2173 as cs2enum, int1);
+                    };
+                } else if ((int1 != -1 as obj)) {
+                    int2 = enum_hasoutput(33, 2173 as cs2enum, int1);
+                };
+            } else if ((varplayer_3390 == 3)) {
+                if ((varplayer_3393 == 12)) {
+                    int2 = 1;
+                } else if ((varplayer_3390 == 4)) {
+                    if ((varplayer_3393 == 18)) {
+                        int2 = 1;
+                    } else if ((int1 != -1 as obj)) {
+                        int2 = enum_hasoutput(33, 2173 as cs2enum, int1);
+                    };
+                } else if ((int1 != -1 as obj)) {
+                    int2 = enum_hasoutput(33, 2173 as cs2enum, int1);
+                };
+            } else if ((varplayer_3390 == 4)) {
+                if ((varplayer_3393 == 18)) {
+                    int2 = 1;
+                } else if ((int1 != -1 as obj)) {
+                    int2 = enum_hasoutput(33, 2173 as cs2enum, int1);
+                };
+            } else if ((int1 != -1 as obj)) {
+                int2 = enum_hasoutput(33, 2173 as cs2enum, int1);
+            };
+        } else if ((varplayer_3390 == 2)) {
+            if ((varplayer_3393 == 6)) {
+                int2 = 1;
+            } else if ((varplayer_3390 == 3)) {
+                if ((varplayer_3393 == 12)) {
+                    int2 = 1;
+                } else if ((varplayer_3390 == 4)) {
+                    if ((varplayer_3393 == 18)) {
+                        int2 = 1;
+                    } else if ((int1 != -1 as obj)) {
+                        int2 = enum_hasoutput(33, 2173 as cs2enum, int1);
+                    };
+                } else if ((int1 != -1 as obj)) {
+                    int2 = enum_hasoutput(33, 2173 as cs2enum, int1);
+                };
+            } else if ((varplayer_3390 == 4)) {
+                if ((varplayer_3393 == 18)) {
+                    int2 = 1;
+                } else if ((int1 != -1 as obj)) {
+                    int2 = enum_hasoutput(33, 2173 as cs2enum, int1);
+                };
+            } else if ((int1 != -1 as obj)) {
+                int2 = enum_hasoutput(33, 2173 as cs2enum, int1);
+            };
+        } else if ((varplayer_3390 == 3)) {
+            if ((varplayer_3393 == 12)) {
+                int2 = 1;
+            } else if ((varplayer_3390 == 4)) {
+                if ((varplayer_3393 == 18)) {
+                    int2 = 1;
+                } else if ((int1 != -1 as obj)) {
+                    int2 = enum_hasoutput(33, 2173 as cs2enum, int1);
+                };
+            } else if ((int1 != -1 as obj)) {
+                int2 = enum_hasoutput(33, 2173 as cs2enum, int1);
+            };
+        } else if ((varplayer_3390 == 4)) {
+            if ((varplayer_3393 == 18)) {
+                int2 = 1;
+            } else if ((int1 != -1 as obj)) {
+                int2 = enum_hasoutput(33, 2173 as cs2enum, int1);
+            };
+        } else if ((int1 != -1 as obj)) {
+            int2 = enum_hasoutput(33, 2173 as cs2enum, int1);
+        };
     } else if ((int1 != -1 as obj)) {
         int2 = enum_hasoutput(33, 2173 as cs2enum, int1);
     };

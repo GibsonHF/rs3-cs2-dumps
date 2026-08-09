@@ -3,10 +3,15 @@ function script5708(int0: number, int1: number): void {
     if ((CLIENTCLOCK() < int1)) {
         return;
     };
-    if (((varclient_6791 == false) || ((varbitplayer_1899 == 0) && (varbitplayer_27003 == 0)))) {
+    if ((varclient_6791 == false)) {
         varclient_6515 = 0;
         IF_SETONTIMER(callback(), int0);
-        IF_SETHIDE(1, 96797576);
+        IF_SETHIDE(true, comp(1477, 904));
+        return;
+    } else if (((varbitplayer_1899 == 0) && (varbitplayer_27003 == 0))) {
+        varclient_6515 = 0;
+        IF_SETONTIMER(callback(), int0);
+        IF_SETHIDE(true, comp(1477, 904));
         return;
     };
     var int2 = 126;

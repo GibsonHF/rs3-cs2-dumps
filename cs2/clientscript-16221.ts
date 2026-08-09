@@ -20,6 +20,13 @@ function script16221(int0: number, int1: number, int2: number, int3: number, int
     };
     IF_SETSCROLLPOS(int8, 0, int0);
     script1706(int1, int0, int8);
-    IF_SETONTIMER(callback(script16221, int0, int1, int2, int3, --int4), int0);
+    stack(16221);
+    stack(int0);
+    stack(int1);
+    stack(int2);
+    stack(int3);
+    var int4 = (int4 - 1);
+    stack(int4);
+    IF_SETONTIMER("iiiii", int0);
     return;
 }

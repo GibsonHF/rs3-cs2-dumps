@@ -11,7 +11,7 @@ function script7195(int0: number, int1: number, int2: number, int3: number, int4
         return;
     };
     if (((CLIENTCLOCK() - int9) > 5)) {
-        var [int7, int8] = [int0, int1];
+        [int7, int8] = [int0, int1];
     };
     var int13 = MAX(MIN(varclient_171, 20), -20);
     var int5 = (int5 + ((int0 - int7) * int13));

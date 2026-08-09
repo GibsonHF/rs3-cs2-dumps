@@ -5,7 +5,7 @@ function script10227(int0: number, int1: number): [number, string] {
     if (((MAP_MEMBERS() == 0) && (script10755(int0) == 0))) {
         return [0, "You need to be a member to teleport here."];
     };
-    if ((int1 == -1 as dbrow)) {
+    if ((int1 == -1)) {
         script12478(`DBROW is null for ID ${inttostring(int0, 10)}.`);
         return [0, "You can't teleport to that destination."];
     };
@@ -17,7 +17,9 @@ function script10227(int0: number, int1: number): [number, string] {
             break;
         }
         case 16: {
-            if (((((varplayer_2347 < 20) || (varbitplayer_15158 == 0)) || (STAT(3 as stat) < 70)) || ((STAT(16 as stat) < 60) && (STAT(2 as stat) < 60)))) {
+            if ((((varplayer_2347 < 20) || (varbitplayer_15158 == 0)) || (STAT(3 as stat) < 70))) {
+                int2 = 0;
+            } else if (((STAT(16 as stat) < 60) && (STAT(2 as stat) < 60))) {
                 int2 = 0;
             };
             break;
@@ -35,7 +37,9 @@ function script10227(int0: number, int1: number): [number, string] {
             break;
         }
         case 15: {
-            if (((((varplayer_2347 < 20) || (varbitplayer_15158 == 0)) || (STAT(4 as stat) < 70)) || ((STAT(16 as stat) < 60) && (STAT(2 as stat) < 60)))) {
+            if ((((varplayer_2347 < 20) || (varbitplayer_15158 == 0)) || (STAT(4 as stat) < 70))) {
+                int2 = 0;
+            } else if (((STAT(16 as stat) < 60) && (STAT(2 as stat) < 60))) {
                 int2 = 0;
             };
             break;

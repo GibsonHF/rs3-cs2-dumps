@@ -3,10 +3,6 @@ function script20669(int0: number): string {
     if ((int0 == -1)) {
         return "";
     };
-    stack(int0);
-    stack(1441824);
-    stack(0);
-    dbrow_getfield();
-    var string0 = stack();
+    var string0 = dbrow_getfield(int0, 1441824, 0);
     return string0;
 }

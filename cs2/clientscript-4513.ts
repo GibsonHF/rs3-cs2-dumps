@@ -9,9 +9,7 @@ function script4513(int0: number, int1: number): void {
         IF_SETONMOUSELEAVE(callback(script4159, -2147483645, 1, 0), int0);
     } else if ((int2 == 3)) {
         IF_SETONCLICK(callback(script4162, -2147483645), int0);
-        stack(4163);
-        stack(-2147483645);
-        stack("i");
+        stack(callback(script4163, -2147483645));
         stack(int0);
         IF_SETONRELEASE();
         IF_SETONMOUSELEAVE(callback(script4163, -2147483645), int0);

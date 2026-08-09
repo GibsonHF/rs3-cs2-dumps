@@ -22,7 +22,7 @@ function script18251(int0: number, int1: number, int2: number): void {
     script18255();
     IF_SETONVARTRANSMIT(callback(script18254, 10298, 3232, 3233, 4767, 4767, 4767, 4767, 4767, 4767, 4767, 4767, 4767, 4767, 3240, 3241, 3242, 3243, 3244, 18), comp(1343, 59));
     script18253(int1, int2);
-    IF_SETONVARTRANSMIT(callback(script18252, int1, int2, 6901, 6902, 1269, 8738, 8739, 5), 88014917);
+    IF_SETONVARTRANSMIT(callback(script18252, int1, int2, 6901, 6902, 1269, 8738, 8739, 5), comp(1343, 69));
     var string1 = "";
     if ((((PLAYERMEMBER() == 1) && (script4148() == 0)) && (script16840(script12477(), 5) == 0))) {
         if ((STRING_LENGTH(string1) > 0)) {
@@ -41,10 +41,10 @@ function script18251(int0: number, int1: number, int2: number): void {
             if ((STRING_LENGTH(string1) > 0)) {
                 string1 = strconcat(string1, ", ");
             };
-            string1 = strconcat(string1, `${enum_getvalue(0, 36, 108 as cs2enum, int0)} XP`);
+            string1 = strconcat(string1, `${enum_getvalue(0, 36, 108, int0)} XP`);
         };
     };
-    if ((struct_getparam(int1, 2705) != -1 as struct)) {
+    if ((struct_getparam(int1, 2705) != -1)) {
         string1 = strconcat(string1, ", a Challenge Mystery Bag");
     };
     var int5 = script16500(int2);
@@ -80,7 +80,7 @@ function script18251(int0: number, int1: number, int2: number): void {
     if ((int5 == 1)) {
         int7 = (int7 * 2);
     };
-    var int9 = -1 as graphic;
+    var int9 = -1;
     var string3 = "";
     var string4 = "You can get up to 100 vis wax per day from Wizard Goldberg in the Runecrafting Guild.";
     switch (int2) {
@@ -105,7 +105,7 @@ function script18251(int0: number, int1: number, int2: number): void {
             if ((script16319(6) == int1)) {
                 int8 = varbitplayer_16596;
             };
-            int9 = -1 as graphic;
+            int9 = -1;
             string1 = "You will earn XP as you complete the Challenge, but only Daily Challenges give additional rewards.";
             break;
         }
@@ -115,7 +115,7 @@ function script18251(int0: number, int1: number, int2: number): void {
     };
     IF_SETTEXT(string1, comp(1343, 68));
     string3 = "When you've completed a challenge, press the Claim Rewards button or hand in your challenge to a Challenge Mistress for your reward.";
-    if ((int9 != -1 as graphic)) {
+    if ((int9 != -1)) {
         IF_SETHIDE(false, comp(1343, 53));
         IF_SETGRAPHIC(int9, comp(1343, 53));
         if ((int9 == script3561(-2))) {

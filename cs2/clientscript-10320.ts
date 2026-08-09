@@ -8,7 +8,7 @@ function script10320(int0: number): void {
     var int6 = script4244(int0);
     var int7 = script10309(int0);
     PLAYER_GROUP_BANNED_COUNT();
-    var int8 = stack();
+    var int8 = [];
     var int9 = IF_GETHEIGHT(int1);
     var int10 = IF_GETWIDTH(int1);
     var int11 = 17;
@@ -17,10 +17,10 @@ function script10320(int0: number): void {
     CC_DELETEALL(int1);
     CC_DELETEALL(int3);
     CC_DELETEALL(int7);
-    IF_SETHIDE(1, int2);
-    IF_SETHIDE(1, int6);
-    IF_SETHIDE(0, int3);
-    IF_SETHIDE(1, int5);
+    IF_SETHIDE(true, int2);
+    IF_SETHIDE(true, int6);
+    IF_SETHIDE(false, int3);
+    IF_SETHIDE(true, int5);
     IF_SETSIZE(20, 33, 1, 1, int4);
     IF_SETSIZE(IF_GETWIDTH(int7), 33, 0, 1, int7);
     script10629(int1, 0, int10, 15, 0, 0, "Banned List", 15777401, 28, 1, 1, 13, 1);

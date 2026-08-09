@@ -11,8 +11,12 @@ function script8508(int0: number, int1: number, int2: number, int3: number, int4
     var int13 = 0;
     var int14 = 0;
     var int15 = 0;
-    if (((varbitplayer_27169 == 0) && ((varbitplayer_38842 == 1) || (varbitplayer_60441 == 0)))) {
-        [int5, int6, int7, int8, int9, int10, int11, int12, int13, int14, int15] = script8547(int0);
+    if ((varbitplayer_27169 == 0)) {
+        if (((varbitplayer_38842 == 1) || (varbitplayer_60441 == 0))) {
+            [int5, int6, int7, int8, int9, int10, int11, int12, int13, int14, int15] = script8547(int0);
+        } else {
+            [int5, int6, int7, int8, int9, int10, int11, int12, int13, int14, int15] = script9911();
+        };
     } else {
         [int5, int6, int7, int8, int9, int10, int11, int12, int13, int14, int15] = script9911();
     };
@@ -205,8 +209,12 @@ function script8508(int0: number, int1: number, int2: number, int3: number, int4
                 switch (int3) {
                     case 1:
                     case 5: {
-                        if (((varbitplayer_27169 == 0) && ((varbitplayer_38842 == 1) || (varbitplayer_60441 == 0)))) {
-                            [int16, int17, int18, int19, int20, int21, int22, int23, int24, int25, int26, int27] = script8546(int0);
+                        if ((varbitplayer_27169 == 0)) {
+                            if (((varbitplayer_38842 == 1) || (varbitplayer_60441 == 0))) {
+                                [int16, int17, int18, int19, int20, int21, int22, int23, int24, int25, int26, int27] = script8546(int0);
+                            } else {
+                                [int16, int17, int18, int19, int20, int21, int22, int23, int24, int25, int26, int27] = script9910();
+                            };
                         } else {
                             [int16, int17, int18, int19, int20, int21, int22, int23, int24, int25, int26, int27] = script9910();
                         };
@@ -227,8 +235,15 @@ function script8508(int0: number, int1: number, int2: number, int3: number, int4
                 switch (int3) {
                     case 1:
                     case 5: {
-                        if (((varbitplayer_27169 == 0) && ((varbitplayer_38842 == 1) || (varbitplayer_60441 == 0)))) {
-                            [int16, int17, int18, int19, int20, int21, int22, int23, int24, int25, int26, int27] = script8546(int0);
+                        if ((varbitplayer_27169 == 0)) {
+                            if (((varbitplayer_38842 == 1) || (varbitplayer_60441 == 0))) {
+                                [int16, int17, int18, int19, int20, int21, int22, int23, int24, int25, int26, int27] = script8546(int0);
+                            } else {
+                                [int16, int17, int18, int19, int20, int21, int22, int23, int24, int25, int26, int27] = script9910();
+                                if (((int0 == 18) && (varbitplayer_20187 == 1))) {
+                                    return 0;
+                                };
+                            };
                         } else {
                             [int16, int17, int18, int19, int20, int21, int22, int23, int24, int25, int26, int27] = script9910();
                             if (((int0 == 18) && (varbitplayer_20187 == 1))) {

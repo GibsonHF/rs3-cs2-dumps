@@ -38,7 +38,7 @@ function script15165(int0: number, int1: number, int2: number, int3: number, int
     CC_CREATE(int1, 5, IF_GETNEXTSUBID(int1));
     var string1 = "This can be crafted multiple times.";
     var int13 = 32;
-    if (((int9 == 1) || (int7 == true))) {
+    if (((int9 == 1) || (int7 == 1))) {
         CC_SETSIZE(int13, int13, 0, 0);
         CC_SETPOSITION((250 - int13), (int5 + int12), 0, 0);
         if ((int9 == 1)) {
@@ -59,7 +59,7 @@ function script15165(int0: number, int1: number, int2: number, int3: number, int
                     CC_SETONOP(callback(script15194, string0, -2147483645));
                 };
             };
-        } else if ((int7 == true)) {
+        } else if ((int7 == 1)) {
             CC_SETGRAPHIC(11557 as graphic);
             CC_SETONMOUSEREPEAT(callback(script8799, string1, int1, (IF_GETNEXTSUBID(int1) - 1)));
             if ((script13749() == 1)) {

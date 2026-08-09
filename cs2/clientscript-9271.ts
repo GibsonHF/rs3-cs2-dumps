@@ -31,7 +31,7 @@ function script9271(int0: number, int1: number, int2: number, int3: number, int4
         int5 = 0;
         long1 = script17402(int1, -1);
         long0 = SUB_LONG(long1, script14426(long1));
-        if (branch_eq_long[90](long1, long0)) {
+        if (LONG_BRANCH_EQUALS(long1, long0)) {
             return 0;
         };
     } else {
@@ -52,7 +52,7 @@ function script9271(int0: number, int1: number, int2: number, int3: number, int4
     var int13 = 0;
     if ((IF_FIND(int0) == 1)) {
         if ((script17378(int6) == 1)) {
-            if (branch_lteq_long[156](long0, 0n)) {
+            if (LONG_BRANCH_LESS_THAN_OR_EQUALS(long0, 0n)) {
                 CC_SETOBJECT(-1 as obj, 0);
             } else {
                 CC_SETOBJECT_LONG(CC_GETINVOBJECT(), long0);
@@ -66,8 +66,12 @@ function script9271(int0: number, int1: number, int2: number, int3: number, int4
     if ((int5 == 1)) {
         if ((CC_FIND[1](int3, script9250(93, int9)) == 1)) {
             CC_SETOBJECT[1](CC_GETINVOBJECT[1](), (CC_GETINVCOUNT[1]() + int7));
-        } else if (((int4 == -1) && (CC_FIND[1](int3, script9249(93)) == 1))) {
-            CC_SETOBJECT[1](int9, int7);
+        } else if ((int4 == -1)) {
+            if ((CC_FIND[1](int3, script9249(93)) == 1)) {
+                CC_SETOBJECT[1](int9, int7);
+            } else if ((CC_FIND[1](int3, int4) == 1)) {
+                CC_SETOBJECT[1](int9, int7);
+            };
         } else if ((CC_FIND[1](int3, int4) == 1)) {
             CC_SETOBJECT[1](int9, int7);
         };
@@ -82,25 +86,36 @@ function script9271(int0: number, int1: number, int2: number, int3: number, int4
                 if ((OC_STACKABLE(int6) == 1)) {
                     if ((CC_FIND[1](int3, script9250(93, int9)) == 1)) {
                         CC_SETOBJECT[1](CC_GETINVOBJECT[1](), (CC_GETINVCOUNT[1]() + int7));
-                    } else if (((int4 == -1) && (CC_FIND[1](int3, script9249(93)) == 1))) {
-                        CC_SETOBJECT[1](int9, int7);
+                    } else if ((int4 == -1)) {
+                        if ((CC_FIND[1](int3, script9249(93)) == 1)) {
+                            CC_SETOBJECT[1](int9, int7);
+                        } else if ((CC_FIND[1](int3, int4) == 1)) {
+                            CC_SETOBJECT[1](int9, int7);
+                        };
                     } else if ((CC_FIND[1](int3, int4) == 1)) {
                         CC_SETOBJECT[1](int9, int7);
                     };
                 } else if ((int7 == 1)) {
-                    if (((int4 == -1) && (CC_FIND[1](int3, script9249(93)) == 1))) {
-                        CC_SETOBJECT[1](int9, int7);
+                    if ((int4 == -1)) {
+                        if ((CC_FIND[1](int3, script9249(93)) == 1)) {
+                            CC_SETOBJECT[1](int9, int7);
+                        } else if ((CC_FIND[1](int3, int4) == 1)) {
+                            CC_SETOBJECT[1](int9, int7);
+                        };
                     } else if ((CC_FIND[1](int3, int4) == 1)) {
                         CC_SETOBJECT[1](int9, int7);
                     };
                 } else {
                     int13 = script9249(93);
-                    while (((int13 != -1) && (int7 > 0))) {
-                        if ((CC_FIND[1](int3, int13) == 1)) {
-                            CC_SETOBJECT[1](int9, 1);
+                    while ((int13 != -1)) {
+                        if ((int7 > 0)) {
+                            if ((CC_FIND[1](int3, int13) == 1)) {
+                                CC_SETOBJECT[1](int9, 1);
+                            };
+                            int7 = (int7 - 1);
+                            int13 = script9251(93, -1, (int13 + 1));
                         };
-                        int7 = (int7 - 1);
-                        int13 = script9251(93, -1, (int13 + 1));
+                        return 1;
                     };
                 };
                 break;

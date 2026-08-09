@@ -1,13 +1,13 @@
 //
 function script4806(int0: number, int1: number, int2: number, int3: number, int4: number): void {
-    var int5 = comp(-1, 65535);
+    var int5 = -1;
     var int6 = comp(-1, 65535);
-    var int7 = -1;
-    var int8 = comp(-1, 65535);
-    var int9 = comp(-1, 65535);
-    var int10 = -1;
-    var int11 = comp(-1, 65535);
-    var int12 = comp(-1, 65535);
+    var int7 = comp(-1, 65535);
+    var int8 = -1;
+    var int9 = -1;
+    var int10 = comp(-1, 65535);
+    var int11 = -1;
+    var int12 = -1;
     var int13 = comp(-1, 65535);
     var int14 = comp(-1, 65535);
     var int15 = comp(-1, 65535);
@@ -18,18 +18,18 @@ function script4806(int0: number, int1: number, int2: number, int3: number, int4
             break;
         }
         case 2: {
-            IF_SETTEXT(enum_getvalue(0, 36, 4045 as cs2enum, int4), int15);
+            IF_SETTEXT(enum_getvalue(0, 36, 4045, int4), int15);
             break;
         }
         case 3: {
-            IF_SETTEXT(enum_getvalue(0, 36, 4046 as cs2enum, int4), int15);
+            IF_SETTEXT(enum_getvalue(0, 36, 4046, int4), int15);
             break;
         }
     };
     IF_SETHIDE(false, int5);
     var int16 = 0;
     var int17 = 1;
-    var int18 = -1 as struct;
+    var int18 = -1;
     var int19 = 0;
     switch (varbitplayer_6981) {
         case 1: {
@@ -107,8 +107,8 @@ function script4806(int0: number, int1: number, int2: number, int3: number, int4
             CC_SETTEXT(inttostring(struct_getparam(int18, 1573), 10));
             CC_SETSIZE(0, 26, 1, 0);
             CC_SETPOSITION(0, (int16 * 27), 0, 0);
-            CC_SETTEXTSHADOW(0);
-            CC_SETTEXTFONT(66);
+            CC_SETTEXTSHADOW(false);
+            CC_SETTEXTFONT(66 as fontmetrics);
             CC_SETTEXTALIGN(1, 1, 0);
             CC_SETCOLOUR(16777215);
             if ((int8 != -1)) {
@@ -118,7 +118,7 @@ function script4806(int0: number, int1: number, int2: number, int3: number, int4
                 CC_SETPOSITION(1, (2 + (int16 * 27)), 0, 0);
                 CC_SETONMOUSEREPEAT(callback(script8799, struct_getparam(int18, 1574), -2147483645, -2147483643));
             };
-            if ((int11 != comp(-1, 65535))) {
+            if ((int11 != -1)) {
                 CC_CREATE(int11, 4, int16);
                 CC_SETTEXT(inttostring(struct_getparam(int18, 1577), 10));
                 CC_SETSIZE(0, 26, 1, 0);
@@ -128,14 +128,14 @@ function script4806(int0: number, int1: number, int2: number, int3: number, int4
                 CC_SETTEXTALIGN(1, 1, 0);
                 CC_SETCOLOUR(16777215);
             };
-            if ((int9 != comp(-1, 65535))) {
+            if ((int9 != -1)) {
                 CC_CREATE(int9, 5, int16);
                 CC_SETGRAPHIC(struct_getparam(int18, 1580));
                 CC_SETSIZE(20, 20, 0, 0);
                 CC_SETPOSITION(0, (2 + (int16 * 27)), 0, 0);
                 CC_SETONMOUSEREPEAT(callback(script8799, struct_getparam(int18, 1578), -2147483645, -2147483643));
             };
-            if ((int12 != comp(-1, 65535))) {
+            if ((int12 != -1)) {
                 CC_CREATE(int12, 4, int16);
                 CC_SETTEXT(inttostring(struct_getparam(int18, 1581), 10));
                 CC_SETSIZE(0, 26, 1, 0);
@@ -160,7 +160,7 @@ function script4806(int0: number, int1: number, int2: number, int3: number, int4
             int16 = (int16 + 1);
         };
         int17 = (int17 + 1);
-        int18 = -1 as struct;
+        int18 = -1;
     };
     IF_SETPARAM_INT(1564, (int16 * 27), int5);
     return;

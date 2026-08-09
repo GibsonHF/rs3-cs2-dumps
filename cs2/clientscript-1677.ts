@@ -9,6 +9,6 @@ function script1677(): void {
     varclient_1044 = 0;
     script1678();
     CAM_MOVEALONG(0, 0, 200, 200, 1, 0);
-    IF_SETONCAMFINISHED(callback(script1679), 5570560);
+    IF_SETONCAMFINISHED(callback(script1679), comp(85, 0));
     return;
 }

@@ -7,7 +7,9 @@ function script18189(int0: number, int1: number, int2: number, int3: number, str
         return -1 as dbrow;
     };
     CC_SETPARAM_STRING(IF_SETPLAYERHEAD_SELF(WORLDMAP_LISTELEMENT_START(667776, 13, 3, 0), WORLDMAP_LISTELEMENT_START(667920, 0, 4, 0)), 667920, 1, -1, 0);
-    var int4 = DB_FIND_GET(int0++);
+    stack(int0);
+    var int0 = (int0 + 1);
+    var int4 = DB_FIND_GET();
     var int5 = -1 as obj;
     var int6 = 1;
     var int7 = 0;
@@ -38,7 +40,9 @@ function script18189(int0: number, int1: number, int2: number, int3: number, str
         if ((int6 == 1)) {
             return int4;
         };
-        int4 = DB_FIND_GET(int0++);
+        stack(int0);
+        int0 = (int0 + 1);
+        int4 = DB_FIND_GET();
     };
     return -1 as dbrow;
 }

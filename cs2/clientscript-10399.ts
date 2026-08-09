@@ -8,9 +8,17 @@ function script10399(int0: number): void {
     var int6 = 0;
     var int7 = 0;
     var int8 = 0;
-    if (((IF_HASSUB(script8072()) == 1) && (IF_HASSUB(script8073()) == 1))) {
-        int1 = script14197();
-        int2 = script12922();
+    if ((IF_HASSUB(script8072()) == 1)) {
+        if ((IF_HASSUB(script8073()) == 1)) {
+            int1 = script14197();
+            int2 = script12922();
+        } else if (((IF_HASSUB(script8074()) == 1) && (IF_HASSUB(script8073()) == 1))) {
+            int1 = script12923();
+            int2 = script12922();
+            if ((IF_HASSUBMODAL(script8074(), 1148) == 1)) {
+                int3 = comp(1148, 37);
+            };
+        };
     } else if (((IF_HASSUB(script8074()) == 1) && (IF_HASSUB(script8073()) == 1))) {
         int1 = script12923();
         int2 = script12922();

@@ -23,33 +23,63 @@ function script9257(int0: number, int1: number, int2: number): number {
                 break;
             }
         };
-        if (((npc_getparam(varplayer_1784, 1323) == 0) && ((npc_getparam(varplayer_1784, 5048) == 0) || ((npc_getparam(varplayer_1784, 5048) == 1) && (varbitplayer_27747 == 0))))) {
-            switch (varplayer_1784) {
-                case 11186:
-                case 11188:
-                case 11190:
-                case 11192:
-                case 11194:
-                case 11196:
-                case 11198:
-                case 11200:
-                case 11202:
-                case 11204:
-                case 11187:
-                case 11189:
-                case 11191:
-                case 11193:
-                case 11195:
-                case 11197:
-                case 11199:
-                case 11201:
-                case 11203:
-                case 11205: {
-                    break;
-                }
-                default: {
-                    return 1;
-                }
+        if ((npc_getparam(varplayer_1784, 1323) == 0)) {
+            if ((npc_getparam(varplayer_1784, 5048) == 0)) {
+                switch (varplayer_1784) {
+                    case 11186:
+                    case 11188:
+                    case 11190:
+                    case 11192:
+                    case 11194:
+                    case 11196:
+                    case 11198:
+                    case 11200:
+                    case 11202:
+                    case 11204:
+                    case 11187:
+                    case 11189:
+                    case 11191:
+                    case 11193:
+                    case 11195:
+                    case 11197:
+                    case 11199:
+                    case 11201:
+                    case 11203:
+                    case 11205: {
+                        break;
+                    }
+                    default: {
+                        return 1;
+                    }
+                };
+            } else if (((npc_getparam(varplayer_1784, 5048) == 1) && (varbitplayer_27747 == 0))) {
+                switch (varplayer_1784) {
+                    case 11186:
+                    case 11188:
+                    case 11190:
+                    case 11192:
+                    case 11194:
+                    case 11196:
+                    case 11198:
+                    case 11200:
+                    case 11202:
+                    case 11204:
+                    case 11187:
+                    case 11189:
+                    case 11191:
+                    case 11193:
+                    case 11195:
+                    case 11197:
+                    case 11199:
+                    case 11201:
+                    case 11203:
+                    case 11205: {
+                        break;
+                    }
+                    default: {
+                        return 1;
+                    }
+                };
             };
         };
     } else if ((int0 != 741)) {

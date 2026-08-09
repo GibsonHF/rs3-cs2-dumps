@@ -13,8 +13,7 @@ function script18908(): void {
             stack(1163264);
             stack(int4);
             DB_FIND(0);
-            dbrow_findnext();
-            int5 = stack();
+            int5 = dbrow_findnext();
             if ((script18856(int4) == 0)) {
                 int3 = script18909(int4, int5, int0, int1, int3);
             };

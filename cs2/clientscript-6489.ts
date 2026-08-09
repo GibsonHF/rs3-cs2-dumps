@@ -1716,6 +1716,7 @@ function script6489(int0: number): number {
             return varbitplayer_39240;
         }
         case 53145: {
+            break;
         }
         default: {
             if ((int0 != -1)) {

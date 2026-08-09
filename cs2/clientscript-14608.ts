@@ -1,9 +1,9 @@
 //
 function script14608(int0: number): number {
-    if ((int0 == -1 as dbrow)) {
+    if ((int0 == -1)) {
         return 0;
     };
-    if (((MAP_MEMBERS() == 0) && (dbrow_getfield(int0, 385072, 0) == true))) {
+    if (((MAP_MEMBERS() == 0) && (dbrow_getfield(int0, 385072, 0) == 1))) {
         return 0;
     };
     if ((script14845(int0) == 1)) {

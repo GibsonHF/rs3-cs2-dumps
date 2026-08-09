@@ -1,6 +1,6 @@
 //
 function script12660(int0: number, int1: number): number {
-    if ((((int0 == -1 as dbrow) || (int0 == 4369 as dbrow)) || (dbrow_getfield(int0, 569376, 0) == 0))) {
+    if ((((int0 == -1) || (int0 == 4369)) || (dbrow_getfield(int0, 569376, 0) == 0))) {
         return int1;
     };
     if (((varplayer_3079 < dbrow_getfield(int0, 569392, 0)) || (varplayer_3079 > dbrow_getfield(int0, 569408, 0)))) {

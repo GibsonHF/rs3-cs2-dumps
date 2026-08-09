@@ -140,11 +140,15 @@ function script8382(int0: number, int1: number, int2: number, int3: number, int4
                     int42 = (int41 - 1);
                 };
             };
-            if (((int12 == int42) && (int40 != -1))) {
-                int12 = 0;
-                int41 = int40;
-                int42 = (int41 - 1);
-                int40 = -1;
+            if ((int12 == int42)) {
+                if ((int40 != -1)) {
+                    int12 = 0;
+                    int41 = int40;
+                    int42 = (int41 - 1);
+                    int40 = -1;
+                } else {
+                    int12 = (int12 + 1);
+                };
             } else {
                 int12 = (int12 + 1);
             };

@@ -30,13 +30,13 @@ function script7286(): void {
     IF_SETTEXT(inttostring(varclient_2640, 10), comp(916, 159));
     IF_SETTEXT(`Level ${inttostring(varclient_2642, 10)}`, comp(916, 152));
     IF_SETGRAPHIC(item_getparam(varclient_2626, 3080), comp(916, 151));
-    IF_SETTEXT(varclient_2629, comp(916, 161));
+    IF_SETTEXT(varclient_2629, 60031137);
     if ((strcmp(varclient_2630, "") != 0)) {
-        IF_SETONMOUSEREPEAT(callback(script8799, varclient_2630, -2147483645, -1), 60031137);
-        IF_SETONMOUSEOVER(callback(script45, -2147483645, 16686339), 60031137);
+        IF_SETONMOUSEREPEAT(callback(script8799, varclient_2630, -2147483645, -1), comp(916, 161));
+        IF_SETONMOUSEOVER(callback(script45, -2147483645, 16686339), comp(916, 161));
     } else {
         IF_SETONMOUSEREPEAT(callback(), comp(916, 161));
-        IF_SETONMOUSEOVER(callback(), 60031137);
+        IF_SETONMOUSEOVER(callback(), comp(916, 161));
     };
     IF_SETONMOUSELEAVE(callback(script7287), comp(916, 161));
     return;

@@ -18,10 +18,14 @@ function script1689(): void {
             if ((varclient_1049 >= 255)) {
                 varclient_1048 = 1;
             };
-        } else if (((varclient_1048 == 1) && (varclient_1051 == 1))) {
-            varclient_1049 = MAX((varclient_1049 - 3), 192);
-            if ((varclient_1049 <= 192)) {
-                varclient_1048 = 0;
+        } else if ((varclient_1048 == 1)) {
+            if ((varclient_1051 == 1)) {
+                varclient_1049 = MAX((varclient_1049 - 3), 192);
+                if ((varclient_1049 <= 192)) {
+                    varclient_1048 = 0;
+                };
+            } else {
+                varclient_1049 = 255;
             };
         } else {
             varclient_1049 = 255;

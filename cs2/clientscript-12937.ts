@@ -1,18 +1,18 @@
 //
 function script12937(): void {
     var int0 = script14441();
-    int0 = 36979 as struct;
+    int0 = 36979;
     IF_SETTEXT(struct_getparam(int0, 6206), comp(1810, 0));
-    IF_SETTEXT(struct_getparam(int0, 6207), comp(1810, 6));
+    IF_SETTEXT(struct_getparam(int0, 6207), 118620166);
     var int1 = 0;
-    var int2 = enum_getvalue(0, 74, 706 as cs2enum, int1);
+    var int2 = enum_getvalue(0, 74, 706, int1);
     var int3 = ENUM_GETOUTPUTCOUNT(706 as cs2enum);
     var int4 = 356;
     var int5 = MAX(40, MIN(60, (int4 / int3)));
     var int6 = MAX(0, MIN(8, ((int4 - (int5 * int3)) / (int3 + 1))));
     int4 = (int6 + 2);
-    var int7 = -1 as struct;
-    var int8 = comp(-1, 65535);
+    var int7 = -1;
+    var int8 = -1;
     while ((int1 < int3)) {
         int2 = enum_getvalue(0, 74, 706 as cs2enum, int1);
         if ((int2 != -1 as dbrow)) {

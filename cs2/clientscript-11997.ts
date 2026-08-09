@@ -23,11 +23,15 @@ function script11997(int0: number, int1: number, int2: number, int3: number): vo
     int5 = IF_GETHEIGHT(int0);
     var int7 = -1;
     if ((int3 != 37672)) {
-        if (((int6 == 0) && (varbitplayer_27169 == 1))) {
-            if (((int0 == struct_getparam(int3, 8136)) || (int0 == struct_getparam(int3, 8131)))) {
-                script11624(int1, int2, 28749, 0, 0, 0, 1);
+        if ((int6 == 0)) {
+            if ((varbitplayer_27169 == 1)) {
+                if (((int0 == struct_getparam(int3, 8136)) || (int0 == struct_getparam(int3, 8131)))) {
+                    script11624(int1, int2, 28749, 0, 0, 0, 1);
+                } else {
+                    script13980(int1, int2, 28554, 0, 0, int4, 0, 0, "");
+                };
             } else {
-                script13980(int1, int2, 28554, 0, 0, int4, 0, 0, "");
+                script10410(int1, int2, 28557, 0, 0, int4, int5, 0, 0, "");
             };
         } else {
             script10410(int1, int2, 28557, 0, 0, int4, int5, 0, 0, "");

@@ -27,7 +27,8 @@ function script4716(int0: number, int1: number, int2: number, int3: number): voi
         [int14, int13, int17] = script8107(int13, 43);
     };
     var int19 = 1;
-    while ((++int4 < int12)) {
+    int4 = (int4 + 1);
+    while ((int4 < int12)) {
         int19 = 0;
         int6 = enum_getvalue(0, 73, int2, int4);
         if ((CC_FIND(int0, int4) == 1)) {
@@ -39,8 +40,10 @@ function script4716(int0: number, int1: number, int2: number, int3: number): voi
             };
             if ((int3 == 0)) {
                 int19 = 1;
-                if ((((struct_getparam(int6, 1422) == 13) || (struct_getparam(int6, 1422) == 14)) && (varbitplayer_11297 != 2))) {
-                    int19 = 0;
+                if (((struct_getparam(int6, 1422) == 13) || (struct_getparam(int6, 1422) == 14))) {
+                    if ((varbitplayer_11297 != 2)) {
+                        int19 = 0;
+                    };
                 };
                 if (((struct_getparam(int6, 3326) != 0) && (int9 == false))) {
                     int19 = 0;
@@ -49,8 +52,10 @@ function script4716(int0: number, int1: number, int2: number, int3: number): voi
                 if ((int9 == true)) {
                     int19 = 1;
                 };
-                if ((((struct_getparam(int6, 1422) == 13) || (struct_getparam(int6, 1422) == 14)) && (varbitplayer_11297 != 2))) {
-                    int19 = 0;
+                if (((struct_getparam(int6, 1422) == 13) || (struct_getparam(int6, 1422) == 14))) {
+                    if ((varbitplayer_11297 != 2)) {
+                        int19 = 0;
+                    };
                 };
             } else if ((int3 == struct_getparam(int6, 1422))) {
                 int19 = 1;
@@ -63,8 +68,10 @@ function script4716(int0: number, int1: number, int2: number, int3: number): voi
             } else if ((int3 == struct_getparam(int6, 1426))) {
                 int19 = 1;
             };
-            if (((((struct_getparam(int6, 3326) == 2) || (varplayer_3079 < struct_getparam(int6, 4742))) || (varplayer_3079 > struct_getparam(int6, 4743))) && (int9 == false))) {
-                int19 = 0;
+            if ((((struct_getparam(int6, 3326) == 2) || (varplayer_3079 < struct_getparam(int6, 4742))) || (varplayer_3079 > struct_getparam(int6, 4743)))) {
+                if ((int9 == false)) {
+                    int19 = 0;
+                };
             };
             if (((struct_getparam(int6, 9207) == true) && (script19316() == 0))) {
                 int19 = 0;

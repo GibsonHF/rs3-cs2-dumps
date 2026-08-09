@@ -48,8 +48,12 @@ function script8784(): void {
             int0 = enum_getvalue(0, 0, 7718 as cs2enum, int3);
             if ((script8137(int0) == 0)) {
                 [int5, int6] = script8718(int0);
-                if (((int0 != 17) && (((int5 != -1) || (int6 != -1)) && (script8314(int0) == -1)))) {
-                    script3379(int0, 0, 1);
+                if ((int0 != 17)) {
+                    if (((int5 != -1) || (int6 != -1))) {
+                        if ((script8314(int0) == -1)) {
+                            script3379(int0, 0, 1);
+                        };
+                    };
                 };
             };
             int3 = (int3 + 1);

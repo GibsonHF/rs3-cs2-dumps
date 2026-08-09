@@ -29,6 +29,7 @@ function script489(int0: number): number {
             return 66519173;
         }
         case 0: {
+            break;
         }
         default: {
             return -1;

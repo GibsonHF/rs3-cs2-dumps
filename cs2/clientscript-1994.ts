@@ -44,6 +44,6 @@ function script1994(int0: number, int1: number, int2: number, int3: number): voi
         CC_SETPOSITION(0, 0, 1, 1);
         CC_SETGRAPHIC(script1995(MODULO(int6, 10), 1));
     };
-    IF_SETONTIMER(callback(script1994, int0, int1, int6, int3), 68157442);
+    IF_SETONTIMER(callback(script1994, int0, int1, int6, int3), comp(1040, 2));
     return;
 }

@@ -47,6 +47,39 @@ function script11817(int0: number): void {
             };
             int4 = (int4 + 1);
         };
+        int4 = 0;
+        while ((int4 < int6)) {
+            if (((int7 == -1) || (int8 == -1))) {
+                if ((((int3 != comp(-1, 65535)) && (CC_FIND[1](int3, int4) == 1)) && (cc_getparam[1](3438) == int0))) {
+                    if ((CC_GETHIDE[1]() == true)) {
+                        return;
+                    };
+                    if (((cc_getparam[1](5313) == true) || (cc_getparam[1](5314) == true))) {
+                        int14 = 0;
+                    };
+                    cc_setparam[1](5313, 1);
+                    cc_setparam[1](5314, 1);
+                    int8 = int4;
+                    int11 = CC_GETX[1]();
+                    int12 = CC_GETY[1]();
+                };
+                int4 = (int4 + 1);
+            };
+            if ((int15 != -1)) {
+                script942(int0, int15, int7, (int9 - 2), (int10 - 2), int17, int18, int13);
+            };
+            if ((int16 != -1)) {
+                script942(int0, int16, int8, (int11 - 2), (int12 - 2), int17, int18, int14);
+            };
+            return;
+        };
+        if ((int15 != -1)) {
+            script942(int0, int15, int7, (int9 - 2), (int10 - 2), int17, int18, int13);
+        };
+        if ((int16 != -1)) {
+            script942(int0, int16, int8, (int11 - 2), (int12 - 2), int17, int18, int14);
+        };
+        return;
     };
     int4 = 0;
     while ((int4 < int6)) {
@@ -66,6 +99,13 @@ function script11817(int0: number): void {
             };
             int4 = (int4 + 1);
         };
+        if ((int15 != -1)) {
+            script942(int0, int15, int7, (int9 - 2), (int10 - 2), int17, int18, int13);
+        };
+        if ((int16 != -1)) {
+            script942(int0, int16, int8, (int11 - 2), (int12 - 2), int17, int18, int14);
+        };
+        return;
     };
     if ((int15 != -1)) {
         script942(int0, int15, int7, (int9 - 2), (int10 - 2), int17, int18, int13);

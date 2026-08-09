@@ -4,12 +4,12 @@ function script12712(): void {
     var int1 = 0;
     [int0, int1] = script12711();
     IF_SETONVARTRANSMIT(callback(script12713, -2147483645, 6507, 1), comp(1620, 26));
-    IF_SETONTIMER(callback(script12631, -2147483645, -1), 106168347);
-    IF_SETPARAM_INT(5835, 3, 106168347);
-    IF_SETPARAM_INT(5930, 2, 106168347);
-    IF_SETTEXT(`${inttostring(int0, 10)}%`, 106168349);
-    IF_SETPARAM_INT(5932, int1, 106168347);
-    IF_SETSIZE(IF_GETWIDTH(106168347), int1, 0, 0, 106168347);
+    IF_SETONTIMER(callback(script12631, -2147483645, -1), comp(1620, 27));
+    IF_SETPARAM_INT(5835, 3, comp(1620, 27));
+    IF_SETPARAM_INT(5930, 2, comp(1620, 27));
+    IF_SETTEXT(`${inttostring(int0, 10)}%`, comp(1620, 29));
+    IF_SETPARAM_INT(5932, int1, comp(1620, 27));
+    IF_SETSIZE(IF_GETWIDTH(comp(1620, 27)), int1, 0, 0, comp(1620, 27));
     if ((varbitplayer_33689 == 500)) {
         IF_SETTRANS(0, comp(1620, 0));
     } else {

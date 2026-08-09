@@ -8,7 +8,11 @@ function script20487(int0: number, int1: number, int2: number): number {
     CC_SETSIZE(0, 2, 1, 0);
     CC_SETPOSITION(0, (int3 + 5), 1, 0);
     CC_SETGRAPHIC(35516 as graphic);
-    CC_CREATE(int1, 4, int2++);
+    stack(int1);
+    stack(4);
+    stack(int2);
+    var int2 = (int2 + 1);
+    CC_CREATE();
     CC_SETSIZE(0, 8, 1, 0);
     CC_SETPOSITION(0, int3, 1, 0);
     return int2;

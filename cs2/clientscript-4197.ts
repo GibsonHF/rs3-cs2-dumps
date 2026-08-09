@@ -1,12 +1,12 @@
 //
 function script4197(int0: number): void {
-    if ((int0 == -1 as dbrow)) {
+    if ((int0 == -1)) {
         return;
     };
     var int1 = 1;
     var int2 = ENUM_GETOUTPUTCOUNT(1667 as cs2enum);
     var int3 = -1 as dbrow;
-    var int4 = -1 as dbrow;
+    var int4 = -1;
     var int5 = -1;
     var int6 = -1;
     var int7 = 0;
@@ -39,8 +39,12 @@ function script4197(int0: number): void {
                         int7 = script4198(int15, int7);
                     } else {
                         [int10, int11] = script4200(int8, int14);
-                        if (((int4 != -1 as dbrow) && (int4 != int0))) {
-                            int7 = script4199(int10, int11, int14, int15, int7, int3, 0, string0, 1);
+                        if ((int4 != -1)) {
+                            if ((int4 != int0)) {
+                                int7 = script4199(int10, int11, int14, int15, int7, int3, 0, string0, 1);
+                            } else {
+                                int7 = script4199(int10, int11, int14, int15, int7, int3, 1, string0, 1);
+                            };
                         } else {
                             int7 = script4199(int10, int11, int14, int15, int7, int3, 1, string0, 1);
                         };

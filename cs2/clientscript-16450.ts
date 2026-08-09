@@ -24,8 +24,12 @@ function script16450(int0: number, int1: number, int2: number, int3: number, int
         int1 = script16464(int0, int13, int1, int16, struct_getparam(int4, 2212), int18, struct_getparam(int4, 2210), int17);
     };
     var int19 = (int1 - int12);
-    if (((int9 > 0) && (int7 < int19))) {
-        script14750(int0, int9, int1, int6);
+    if ((int9 > 0)) {
+        if ((int7 < int19)) {
+            script14750(int0, int9, int1, int6);
+        } else if ((int7 > int19)) {
+            int19 = int7;
+        };
     } else if ((int7 > int19)) {
         int19 = int7;
     };

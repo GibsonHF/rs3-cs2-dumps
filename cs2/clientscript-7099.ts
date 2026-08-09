@@ -12,7 +12,7 @@ function script7099(int0: number, int1: number, int2: number): void {
         };
         IF_SETTEXT(string0, int0);
         if ((int1 > 0)) {
-            IF_SETONTIMER(callback(script7099, 81985546, (int1 - 1), (CLIENTCLOCK() + 50)), 81985547);
+            IF_SETONTIMER(callback(script7099, 81985546, (int1 - 1), (CLIENTCLOCK() + 50)), comp(1251, 11));
         } else {
             IF_SETONTIMER(callback(), comp(1251, 11));
         };

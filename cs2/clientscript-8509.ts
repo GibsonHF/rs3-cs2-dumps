@@ -12,10 +12,12 @@ function script8509(int0: number, int1: number): void {
     var int3 = 0;
     var int4 = 0;
     [int3, int4] = script8825(7, 0);
-    if (((int2 == -1) && ((script16474(int4) == 0) || (int0 != int3)))) {
-        return;
+    if ((int2 == -1)) {
+        if (((script16474(int4) == 0) || (int0 != int3))) {
+            return;
+        };
     };
-    if (((script8585(int2) == comp(-1, 65535)) || (IF_GETHIDE(script8585(int2)) == true))) {
+    if (((script8585(int2) == -1) || (IF_GETHIDE(script8585(int2)) == true))) {
         return;
     };
     if ((script11370() == 0)) {
@@ -24,8 +26,10 @@ function script8509(int0: number, int1: number): void {
         };
         return;
     };
-    if ((((varclient_2873 != 8) && (int0 != 84)) && ((script16474(int4) == 0) || (int0 != int3)))) {
-        return;
+    if (((varclient_2873 != 8) && (int0 != 84))) {
+        if (((script16474(int4) == 0) || (int0 != int3))) {
+            return;
+        };
     };
     var int5 = 0;
     var int6 = 0;
@@ -80,7 +84,7 @@ function script8509(int0: number, int1: number): void {
         }
         case 13: {
             if ((varclient_1652 == true)) {
-                varclient_1652 = false;
+                varclient_1652 = 0;
                 script9666();
                 script8517(int2);
                 return;
@@ -122,11 +126,25 @@ function script8509(int0: number, int1: number): void {
             break;
         }
         default: {
-            if (((script16474(int4) == 1) && (int0 == int3))) {
-                script8511(int2);
+            if ((script16474(int4) == 1)) {
+                if ((int0 == int3)) {
+                    script8511(int2);
+                } else {
+                    if (((script6431() == 0) && (varclient_1652 == true))) {
+                        varclient_1652 = 0;
+                        return;
+                    };
+                    if ((int2 == 18)) {
+                        int8 = STRING_LENGTH(varclient_2483);
+                    };
+                    script8510(int2, int0, int1);
+                    if ((((int2 == 18) && (int8 == 0)) && (STRING_LENGTH(varclient_2483) > 0))) {
+                        IF_SETHIDE(true, comp(137, 78));
+                    };
+                };
             } else {
                 if (((script6431() == 0) && (varclient_1652 == true))) {
-                    varclient_1652 = false;
+                    varclient_1652 = 0;
                     return;
                 };
                 if ((int2 == 18)) {

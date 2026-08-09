@@ -56,7 +56,7 @@ function script11602(int0: number, int1: number): void {
         CC_SETSIZE(125, 39, 0, 0);
         CC_SETPOSITION(int6, (int7 + 2), 0, 0);
         CC_SETMAXLINES(2);
-        CC_SETTEXTFONT(26);
+        CC_SETTEXTFONT(26 as fontmetrics);
         CC_SETTEXTALIGN(1, 1, 0);
         string0 = script17372(long0, 9, 1);
         if ((int5 > 1)) {
@@ -66,7 +66,8 @@ function script11602(int0: number, int1: number): void {
         script2731(int0, CC_GETID(), 3);
         int6 = 5;
         int7 = (int7 + (39 + 5));
-        [int3, int4, int5, long0] = script11603(++int2);
+        int2 = (int2 + 1);
+        [int3, int4, int5, long0] = script11603(int2);
     };
     IF_SETSCROLLSIZE(int8, MAX(IF_GETHEIGHT(comp(1638, 9)), int7), comp(1638, 9));
     script7791(107347973, 107347977);

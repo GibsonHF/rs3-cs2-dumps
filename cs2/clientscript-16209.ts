@@ -1,6 +1,6 @@
 //
 function script16209(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number, int8: number, int9: number, string0: string): void {
-    var int10 = comp(-1, 65535);
+    var int10 = -1;
     var int11 = 0;
     var int12 = 0;
     var int13 = 0;
@@ -24,7 +24,7 @@ function script16209(int0: number, int1: number, int2: number, int3: number, int
     int11 = script16211(int3, int2, string1, int11);
     if ((int3 != -1 as dbrow)) {
         int13 = DB_GETFIELDCOUNT(int3, 634896);
-        if ((dbrow_getfield(int3, 634912, 0) == true)) {
+        if ((dbrow_getfield(int3, 634912, 0) == 1)) {
             IF_SETSIZE(IF_GETWIDTH(int2), 56, 0, 0, int2);
             IF_SETPOSITION(0, 56, 0, 0, int1);
             [int19, int20] = script3529(int3, 0);
@@ -33,7 +33,7 @@ function script16209(int0: number, int1: number, int2: number, int3: number, int
             int21 = script17937(int3);
             while ((int12 < int21)) {
                 if ((int12 < int13)) {
-                    var [string0, int10, int4, int5, int6, int7, int8] = script11776(int3, int12);
+                    [string0, int10, int4, int5, int6, int7, int8] = script11776(int3, int12);
                     int14 = MAX((PARAWIDTH(string0, 512, 58 as fontmetrics) - (25 * 2)), 0);
                     int16 = false;
                     switch (int3) {
@@ -56,8 +56,10 @@ function script16209(int0: number, int1: number, int2: number, int3: number, int
                             break;
                         }
                         case 8256: {
-                            if (((int12 == 3) && ((script17852() == 0) || (script4148() == 1)))) {
-                                int16 = true;
+                            if ((int12 == 3)) {
+                                if (((script17852() == 0) || (script4148() == 1))) {
+                                    int16 = true;
+                                };
                             };
                             if (((int12 == 1) && (script17852() == 0))) {
                                 int16 = true;
@@ -107,8 +109,12 @@ function script16209(int0: number, int1: number, int2: number, int3: number, int
                     CC_SETSIZE(6, 27, 0, 0);
                     CC_SETPOSITION((int15 + 42), (8 + 12), 0, 2);
                 };
-                if ((((int12 + 1) == int13) && (int12 != int9))) {
-                    CC_SETHIDE(true);
+                if (((int12 + 1) == int13)) {
+                    if ((int12 != int9)) {
+                        CC_SETHIDE(true);
+                    } else {
+                        CC_SETHIDE(int16);
+                    };
                 } else {
                     CC_SETHIDE(int16);
                 };
@@ -172,7 +178,7 @@ function script16209(int0: number, int1: number, int2: number, int3: number, int
                 unk11151();
             };
         };
-        var [string0, int2, int4, int5, int6, int7, int8] = script11776(int3, int9);
+        [string0, int2, int4, int5, int6, int7, int8] = script11776(int3, int9);
     };
     var int27 = 110;
     var int28 = 170;

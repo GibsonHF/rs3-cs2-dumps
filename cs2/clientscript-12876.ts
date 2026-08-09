@@ -19,22 +19,22 @@ function script12876(int0: number): void {
         if ((struct_getparam(int0, 825) == 1)) {
             IF_SETTEXT(`<col=FFF8C1>${struct_getparam(int0, 6135)}`, comp(1802, 6));
         };
-        IF_SETTEXT(struct_getparam(int0, 6137), comp(1802, 5));
+        IF_SETTEXT(struct_getparam(int0, 6137), 118095877);
         IF_SETHIDE(true, comp(1802, 157));
         IF_SETHIDE(true, comp(1802, 9));
         IF_SETHIDE(false, comp(1802, 6));
         IF_SETHIDE(false, comp(1802, 5));
     } else {
         if ((struct_getparam(int0, 825) == 1)) {
-            IF_SETTEXT(struct_getparam(int0, 6135), comp(1802, 157));
+            IF_SETTEXT(struct_getparam(int0, 6135), 118096029);
         };
         IF_SETHIDE(true, comp(1802, 6));
         IF_SETHIDE(true, comp(1802, 5));
         IF_SETHIDE(false, comp(1802, 157));
         IF_SETHIDE(false, comp(1802, 9));
         IF_SETGRAPHIC(int10, comp(1802, 7));
-        IF_SETTEXT(struct_getparam(int0, 6136), comp(1802, 11));
-        IF_SETTEXT(struct_getparam(int0, 6137), comp(1802, 12));
+        IF_SETTEXT(struct_getparam(int0, 6136), 118095883);
+        IF_SETTEXT(struct_getparam(int0, 6137), 118095884);
         IF_SETSIZE(65, script7593(IF_GETTEXT(comp(1802, 12)), IF_GETWIDTH(comp(1802, 12)), IF_GETFONTMETRICS(comp(1802, 12)), 0), 1, 0, comp(1802, 12));
         IF_SETSIZE(IF_GETWIDTH(comp(1802, 9)), (53 + IF_GETHEIGHT(comp(1802, 12))), 0, 0, comp(1802, 9));
     };
@@ -50,8 +50,8 @@ function script12876(int0: number): void {
         case 11660: {
             IF_SETSIZE(688, 402, 0, 0, comp(1802, 2));
             while ((int11 < 6)) {
-                IF_SETGRAPHIC(enum_getvalue(0, 23, 6226 as cs2enum, int11), enum_getvalue(0, 9, 6215 as cs2enum, int11));
-                IF_SETTEXT(enum_getvalue(0, 36, 6225 as cs2enum, int11), enum_getvalue(0, 9, 6216 as cs2enum, int11));
+                IF_SETGRAPHIC(enum_getvalue(0, 23, 6226, int11), enum_getvalue(0, 9, 6215, int11));
+                IF_SETTEXT(enum_getvalue(0, 36, 6225, int11), enum_getvalue(0, 9, 6216, int11));
                 int11 = (int11 + 1);
             };
             break;
@@ -100,30 +100,30 @@ function script12876(int0: number): void {
         if ((IF_GETNEXTSUBID(int3) == 0)) {
             IF_SETONVARTRANSMIT(callback(script12877, int0, 6625, 6625, 2), int3);
             CC_CREATE(int3, 4, IF_GETNEXTSUBID(int3));
-            CC_SETTEXTFONT(28);
+            CC_SETTEXTFONT(28 as fontmetrics);
             CC_SETTEXTALIGN(0, 1, 0);
             CC_SETPOSITION(5, -15, 0, 1);
             CC_SETSIZE(0, 0, 1, 1);
             CC_SETCOLOUR(script10495(1));
             CC_CREATE(int3, 4, IF_GETNEXTSUBID(int3));
-            CC_SETTEXTFONT(28);
+            CC_SETTEXTFONT(28 as fontmetrics);
             CC_SETTEXTALIGN(0, 1, 0);
             CC_SETPOSITION(120, -15, 0, 1);
             CC_SETSIZE(0, 0, 1, 1);
             CC_SETCOLOUR(script10495(3));
             CC_CREATE(int3, 4, IF_GETNEXTSUBID(int3));
-            CC_SETTEXTFONT(28);
+            CC_SETTEXTFONT(28 as fontmetrics);
             CC_SETTEXTALIGN(0, 1, 0);
             CC_SETPOSITION(5, 15, 0, 1);
             CC_SETSIZE(0, 0, 1, 1);
             CC_SETCOLOUR(script10495(1));
             CC_CREATE(int3, 4, IF_GETNEXTSUBID(int3));
-            CC_SETTEXTFONT(28);
+            CC_SETTEXTFONT(28 as fontmetrics);
             CC_SETTEXTALIGN(0, 1, 0);
             CC_SETPOSITION(120, 15, 0, 1);
             CC_SETSIZE(0, 0, 1, 1);
             CC_SETCOLOUR(script10495(3));
-            if ((struct_getparam(int0, 6140) != -1)) {
+            if ((struct_getparam(int0, 6140) != -1 as obj)) {
                 IF_SETTEXT("The event has now ended and all currency<br>can be redeemed or converted for consumable rewards.", comp(1802, 102));
             };
         };

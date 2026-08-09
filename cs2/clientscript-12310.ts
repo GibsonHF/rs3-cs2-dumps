@@ -13,7 +13,8 @@ function script12310(int0: number, int1: number, int2: number): [number, number,
     int6 = MODULO(((int6 + int5) - int1), int5);
     var int7 = -1;
     var int8 = 0;
-    while ((++int7 < int2)) {
+    int7 = (int7 + 1);
+    while ((int7 < int2)) {
         if ((CC_FIND(int0, MODULO(((int6 + int5) - int7), int5)) == 1)) {
             int8 = cc_getparam(5946);
             [int3, int4] = script12312(int3, int4, int8);

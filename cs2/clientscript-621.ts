@@ -1,7 +1,14 @@
 //
 function script621(): void {
     script622();
-    if (((varplayer_138 == -1) || ((STOCKMARKET_ISOFFEREMPTY(varplayer_138, 0) == 1) && (varplayer_139 == -1)))) {
+    if ((varplayer_138 == -1)) {
+        IF_SETHIDE(false, comp(105, 11));
+        script628();
+        IF_SETONINVTRANSMIT(callback(), comp(105, 197));
+        varclient_83 = 0;
+        varclient_82 = 0;
+        return;
+    } else if (((STOCKMARKET_ISOFFEREMPTY(varplayer_138, 0) == 1) && (varplayer_139 == -1))) {
         IF_SETHIDE(false, comp(105, 11));
         script628();
         IF_SETONINVTRANSMIT(callback(), comp(105, 197));

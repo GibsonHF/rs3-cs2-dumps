@@ -1,5 +1,5 @@
 //
-function script12003(int0: number, int1: number): [number, number, string, number, number, number, number] {
+function script12003(int0: number, int1: number): [number, number, number, number, number, number, string] {
     var int2 = script9101(enum_getvalue(0, 73, int0, int1));
     var int3 = script7083(int2);
     var string0 = "Deactivate";

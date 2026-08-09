@@ -4,7 +4,7 @@ function script14367(int0: number, int1: number, int2: number): void {
         case 93:
         case 530: {
             if ((int2 <= 0)) {
-                script9240(script14074(int0), cc_getparam(3819), int0, -1 as obj, 0, 1, "", "", "", "", "", "", "", "", "", "");
+                script9240(script14074(int0), cc_getparam(3819), int0, -1, 0, 1, "", "", "", "", "", "", "", "", "", "");
             } else {
                 script9240(script14074(int0), cc_getparam(3819), int0, int1, int2, 1, script14419(int0, int1, int2, "Deposit"));
             };
@@ -15,7 +15,7 @@ function script14367(int0: number, int1: number, int2: number): void {
         }
         case 94: {
             if ((int2 <= 0)) {
-                script9222(-1 as obj, 0);
+                script9222(-1, 0);
             } else {
                 script9222(int1, int2);
             };

@@ -5,46 +5,39 @@ function script12774(): void {
     var int1 = db_find_with_count(270432, 1, 0);
     define_array(int1);
     define_array[65536](int1);
-    dbrow_findnext();
-    var int2 = stack();
-    while ((int2 != -1 as dbrow)) {
+    var int2 = dbrow_findnext();
+    while ((int2 != -1)) {
         pop_array(int0, dbrow_getfield(int2, 270336, 0));
         int0 = (int0 + 1);
-        dbrow_findnext();
-        int2 = stack();
+        int2 = dbrow_findnext();
     };
     ARRAY_SORT(int1, 0, 1);
     int0 = 0;
     var int3 = -1;
-    var int4 = -1 as dbrow;
-    var int5 = comp(-1, 65535);
+    var int4 = -1;
+    var int5 = -1;
     var int6 = 0;
     while ((int0 < int1)) {
         int3 = push_array(int0);
         stack(270336);
         stack(int3);
         DB_FIND(0);
-        dbrow_findnext();
-        int4 = stack();
-        stack(int4);
-        stack(270448);
-        stack(0);
-        dbrow_getfield();
-        switch (stack()) {
+        int4 = dbrow_findnext();
+        switch (dbrow_getfield(int4, 270448, 0)) {
             case 1: {
-                int5 = comp(1790, 38);
+                int5 = 117309478;
                 break;
             }
             case 2: {
-                int5 = comp(1790, 48);
+                int5 = 117309488;
                 break;
             }
             case 3: {
-                int5 = comp(1790, 74);
+                int5 = 117309514;
                 break;
             }
             default: {
-                int5 = comp(1790, 28);
+                int5 = 117309468;
                 break;
             }
         };
@@ -86,19 +79,19 @@ function script12774(): void {
     while ((int18 > 0)) {
         switch (int18) {
             case 4: {
-                int5 = comp(1790, 28);
+                int5 = 117309468;
                 break;
             }
             case 3: {
-                int5 = comp(1790, 38);
+                int5 = 117309478;
                 break;
             }
             case 2: {
-                int5 = comp(1790, 48);
+                int5 = 117309488;
                 break;
             }
             case 1: {
-                int5 = comp(1790, 74);
+                int5 = 117309514;
                 break;
             }
         };
@@ -108,9 +101,9 @@ function script12774(): void {
             if ((CC_FIND(int5, int0) == 1)) {
                 int4 = cc_getparam(3855);
                 int3 = dbrow_getfield(int4, 270336, 0);
-                if ((int4 != -1 as dbrow)) {
+                if ((int4 != -1)) {
                     int16 = script14965(int4);
-                    if ((int4 == 2274 as dbrow)) {
+                    if ((int4 == 2274)) {
                         int16 = (int16 * 10);
                     };
                     string0 = script11601(int16, 1);
@@ -125,12 +118,12 @@ function script12774(): void {
                     script14990(2, string1);
                     CC_SETSIZE(32, 32, 0, 0);
                     CC_SETPOSITION((int13 + 4), (int14 + 4), 0, 0);
-                    if ((dbrow_getfield(int4, 270400, 0) != -1 as obj)) {
+                    if ((dbrow_getfield(int4, 270400, 0) != -1)) {
                         CC_SETOBJECT_NONUM(dbrow_getfield(int4, 270400, 0), 1000);
                         CC_SETOPBASE(`${script4033(dbrow_getfield(int4, 270400, 0))}${script14963(int4)}`);
-                    } else if ((dbrow_getfield(int4, 270384, 0) != -1 as graphic)) {
+                    } else if ((dbrow_getfield(int4, 270384, 0) != -1)) {
                         CC_SETGRAPHIC(dbrow_getfield(int4, 270384, 0));
-                        CC_SETOPBASE(`${script4033(41028 as obj)}${script14963(int4)}`);
+                        CC_SETOPBASE(`${script4033(41028)}${script14963(int4)}`);
                     };
                     CC_SENDTOFRONT();
                     CC_CREATE[1](int5, 4, IF_GETNEXTSUBID(int5));
@@ -140,8 +133,8 @@ function script12774(): void {
                     CC_SETPOSITION[1](int13, ((int14 + int10) - 15), 0, 0);
                     CC_SETTEXTALIGN[1](1, 1, 0);
                     CC_SETTEXT[1](string0);
-                    CC_SETTEXTFONT[1](27);
-                    CC_SETTEXTSHADOW[1](1);
+                    CC_SETTEXTFONT[1](27 as fontmetrics);
+                    CC_SETTEXTSHADOW[1](true);
                 };
             };
             int0 = (int0 + 1);

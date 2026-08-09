@@ -169,26 +169,106 @@ function script1077(int0: number, int1: number): void {
     var int13 = -1;
     var int14 = -1;
     var int15 = -1;
-    while (((int6 < int7) && (int6 < 10))) {
-        switch (CHATPHRASE_GETDYNAMICCOMMAND(int0, int6)) {
-            case 0: {
-                script1078(int6, int1);
+    while ((int6 < int7)) {
+        if ((int6 < 10)) {
+            switch (CHATPHRASE_GETDYNAMICCOMMAND(int0, int6)) {
+                case 0: {
+                    script1078(int6, int1);
+                    break;
+                }
+                case 1: {
+                    script1079(int6, int1);
+                    break;
+                }
+                case 10: {
+                    script1079(int6, int1);
+                    break;
+                }
+                case 2: {
+                    script1078(int6, int1);
+                    break;
+                }
+            };
+            int6 = (int6 + 1);
+        };
+        switch (script8613(int1)) {
+            case 0:
+            case 4: {
+                CHAT_SETMODE(0);
+                unk11055();
                 break;
             }
             case 1: {
-                script1079(int6, int1);
+                string0 = script8605(int1);
+                int8 = script1090(string0);
+                if ((int8 == 1)) {
+                    unk11128(REMOVETAGS(string0));
+                    script1089();
+                } else if ((int8 == -1)) {
+                    printmessage("Sorry, this user is not on your Friends List.");
+                } else {
+                    printmessage("Sorry, your friend is no longer playing RuneScape.");
+                };
                 break;
             }
-            case 10: {
-                script1079(int6, int1);
+            case 5: {
+                unk11128(REMOVETAGS(script8605(int1)));
+                script1089();
                 break;
             }
-            case 2: {
-                script1078(int6, int1);
+            case 2:
+            case 6: {
+                CHAT_SETMODE(1);
+                unk11055();
+                break;
+            }
+            case 8:
+            case 9: {
+                [int9, int10, int11, int12, int13, int14, int15] = script4590();
+                if (((((int9 >= 0) && (int10 >= int11)) && (int12 != 1)) && (unk10993(0) == 1))) {
+                    CHAT_SETMODE(0);
+                    unk11055();
+                };
+                break;
+            }
+            case 10:
+            case 11: {
+                if ((ACTIVECLANCHANNEL_FIND_LISTENED() == 1)) {
+                    CHAT_SETMODE(3);
+                    unk11055();
+                };
+                break;
+            }
+            case 13:
+            case 14: {
+                if ((PLAYER_GROUP_FIND() == 1)) {
+                    CHAT_SETMODE(4);
+                    unk11055();
+                };
+                break;
+            }
+            case 15:
+            case 16: {
+                if ((PLAYER_GROUP_FIND() == 1)) {
+                    CHAT_SETMODE(5);
+                    unk11055();
+                };
+                break;
+            }
+            case 17:
+            case 18: {
+                if ((unk10993(1) == 1)) {
+                    CHAT_SETMODE(1);
+                    unk11055();
+                };
                 break;
             }
         };
-        int6 = (int6 + 1);
+        script8624(int1, int2);
+        script8626(int1, script8613(int1));
+        script8608(int1, script8605(int1));
+        script1054(int1);
+        return;
     };
     switch (script8613(int1)) {
         case 0:

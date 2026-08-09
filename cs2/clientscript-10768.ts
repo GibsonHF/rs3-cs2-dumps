@@ -1,6 +1,6 @@
 //
 function script10768(int0: number): void {
-    if ((int0 == 89587713)) {
+    if ((int0 == comp(1367, 1))) {
         IF_SETONINVTRANSMIT(callback(script8470, -2147483645, 742, 742, 1), int0);
         IF_SETPOSITION(0, 0, 1, 1, int0);
     } else {

@@ -22,7 +22,7 @@ function script10058(): void {
         script2676();
         IF_SETONVARTRANSMIT(callback(script2691, 4053, 1), comp(906, 127));
         script2695();
-        IF_SETPOSITION(((IF_GETX(59375736) - 5) - IF_GETWIDTH(59375755)), IF_GETY(59375755), 0, 0, 59375755);
+        IF_SETPOSITION(((IF_GETX(comp(906, 120)) - 5) - IF_GETWIDTH(comp(906, 139))), IF_GETY(comp(906, 139)), 0, 0, comp(906, 139));
     } else {
         IF_SETPOSITION(20, IF_GETY(comp(906, 139)), 2, 0, comp(906, 139));
     };

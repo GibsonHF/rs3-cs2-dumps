@@ -13,8 +13,10 @@ function script11928(int0: number, int1: number): number {
     if ((int1 < int2)) {
         return 0;
     };
-    if (((int1 >= int2) && ((int1 <= int3) || (int3 == -1)))) {
-        return 2;
+    if ((int1 >= int2)) {
+        if (((int1 <= int3) || (int3 == -1))) {
+            return 2;
+        };
     };
     if ((int1 > int3)) {
         return 3;

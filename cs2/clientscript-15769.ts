@@ -6,7 +6,6 @@ function script15769(int0: number): number {
     stack(668144);
     stack(int0);
     DB_FIND(0);
-    dbrow_findnext();
-    var int1 = stack();
+    var int1 = dbrow_findnext();
     return int1;
 }

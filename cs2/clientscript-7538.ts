@@ -18,7 +18,7 @@ function script7538(int0: number, int1: number, string0: string, string1: string
             string2 = `${string2}<br><col=ff0000>Level ${inttostring(int6, 10)} ${enum_getvalue(17, 36, 680 as cs2enum, int5)}</col>`;
             int4 = 0;
         } else {
-            string2 = `${string2}<br>Level ${inttostring(int6, 10)} ${enum_getvalue(17, 36, 680 as cs2enum, int5)}`;
+            string2 = `${string2}<br>Level ${inttostring(int6, 10)} ${enum_getvalue(17, 36, 680, int5)}`;
         };
     };
     if ((int4 == 1)) {
@@ -34,8 +34,8 @@ function script7538(int0: number, int1: number, string0: string, string1: string
         CC_SETTRANS(255);
         CC_SETOP(1, "Confirm");
         CC_SETONOP(callback(script7540, -2147483644));
-        IF_SETHIDE(1, 91357207);
-        IF_SETONCLICK(callback(), 91357206);
+        IF_SETHIDE(true, comp(1394, 23));
+        IF_SETONCLICK(callback(), comp(1394, 22));
     };
     IF_SETTEXT(strconcat(string0, strconcat(string2, string1)), comp(1394, 12));
     var int7 = ((PARAHEIGHT(IF_GETTEXT(comp(1394, 12)), IF_GETWIDTH(comp(1394, 12)), 26 as fontmetrics) * 13) + 2);

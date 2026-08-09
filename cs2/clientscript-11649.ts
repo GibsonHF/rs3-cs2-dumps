@@ -10,7 +10,8 @@ function script11649(): void {
         IF_SETTEXT("Bone collector", comp(1641, 77));
         IF_SETHIDE(false, comp(1641, 135));
     };
-    while ((++int0 < int2)) {
+    int0 = (int0 + 1);
+    while ((int0 < int2)) {
         switch (int0) {
             case 0: {
                 int1 = varbitplayer_28419;
@@ -93,8 +94,12 @@ function script11649(): void {
                 break;
             }
             case 19: {
-                if (((varbitplayer_28430 == 15) && (varbitplayer_44564 == 1))) {
-                    int1 = 1;
+                if ((varbitplayer_28430 == 15)) {
+                    if ((varbitplayer_44564 == 1)) {
+                        int1 = 1;
+                    } else {
+                        int1 = 0;
+                    };
                 } else {
                     int1 = 0;
                 };

@@ -1,6 +1,6 @@
 //
 function script4329(int0: number): void {
-    if (branch_not_long[4](varclansettings_2, -1n as clanforumqfc)) {
+    if (LONG_BRANCH_NOT(varclansettings_2, -1n)) {
         IF_SETTEXT(strconcat(CLANFORUMQFC_TOSTRING("<u=A0B6C0>", varclansettings_2)), int0);
         IF_SETCOLOUR(10532544, int0);
         IF_SETONMOUSEOVER(callback(script12224, int0), int0);

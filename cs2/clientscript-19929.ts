@@ -20,8 +20,10 @@ function script19929(int0: number): string {
     int5 = (int5 + int1);
     int1 = (int1 / 4);
     int5 = (int5 + int1);
-    if ((((int3 == 1) || (int3 == 2)) && (int2 == 1))) {
-        int3 = (int3 + 12);
+    if (((int3 == 1) || (int3 == 2))) {
+        if ((int2 == 1)) {
+            int3 = (int3 + 12);
+        };
     };
     int5 = (int5 + enum_getvalue(0, 0, 4846 as cs2enum, int3));
     int5 = (int5 + int4);

@@ -12,7 +12,7 @@ function script14935(int0: number, int1: number, int2: number, int3: number): vo
             int7 = (((CC_GETX[1]() + CC_GETWIDTH[1]()) - (int6 / 2)) - 5);
             int8 = ((CC_GETY[1]() - (int6 / 2)) + 5);
             script14933(int1, IF_GETNEXTSUBID(int1), int7, int8, int6, int6, int5);
-            if ((dbrow_getfield(int3, 409760, 0) == true)) {
+            if ((dbrow_getfield(int3, 409760, 0) == 1)) {
                 script14934(int1, IF_GETNEXTSUBID(int1), int4, int7, int8, int6, int6);
             };
         };

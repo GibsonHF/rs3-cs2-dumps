@@ -6,7 +6,7 @@ function script11239(): void {
     };
     var int1 = struct_getparam(int0, 4973);
     if ((int1 == -1 as cs2enum)) {
-        int1 = 9910 as cs2enum;
+        int1 = 9910;
     };
     var int2 = ENUM_GETOUTPUTCOUNT(int1);
     if ((int2 == 0)) {

@@ -32,20 +32,25 @@ function script9058(int0: number): void {
     if ((script8237() == 1)) {
         if ((script8223() == 1)) {
             int9 = (int9 + script7593(string0, int7, 31, 14));
-            int9 = (++int9 + script8952(int7));
+            int9 = (int9 + 5);
+            int9 = (int9 + script8952(int7));
             if ((int0 == 0)) {
                 if ((script4708() > 60)) {
-                    int9 = (++int9 + 30);
+                    int9 = (int9 + 16);
+                    int9 = (int9 + 30);
                     if ((script6431() == 1)) {
-                        int9 = (++int9 + 30);
+                        int9 = (int9 + 5);
+                        int9 = (int9 + 30);
                     };
                 } else if ((script6431() == 1)) {
-                    int9 = (++int9 + 30);
+                    int9 = (int9 + 5);
+                    int9 = (int9 + 30);
                 };
                 int9 = (int9 + 5);
             };
         } else if ((int0 == 0)) {
-            int9 = (++int9 + 5);
+            int9 = (int9 + 30);
+            int9 = (int9 + 5);
         };
         if ((int9 > IF_GETHEIGHT(int1))) {
             IF_SETSIZE(16, 0, 1, 1, int1);
@@ -56,7 +61,8 @@ function script9058(int0: number): void {
         if ((script8223() == 0)) {
             if ((int0 == 0)) {
                 script10410(int2, int3, 28556, 10, int9, (int7 - (10 * 2)), 30, 0, 0, "Find More");
-                int9 = (++int9 + 5);
+                int9 = (int9 + 30);
+                int9 = (int9 + 5);
             };
         } else {
             int8 = script7593(string0, int7, 31, 14);

@@ -14,7 +14,10 @@ function script18550(int0: number, int1: number, int2: number, int3: number, int
     };
     if ((struct_getparam(int3, 9077) == 1)) {
         while ((int5 < ((int1 + 1) * 11))) {
-            if ((CC_FIND(int0, int5++) == 1)) {
+            stack(int0);
+            stack(int5);
+            int5 = (int5 + 1);
+            if ((CC_FIND() == 1)) {
                 CC_DELETE();
             };
         };
@@ -27,7 +30,11 @@ function script18550(int0: number, int1: number, int2: number, int3: number, int
     [int12, int13, int14] = script326(int3);
     var int15 = -1 as npc;
     var int16 = script13501(int3);
-    CC_CREATE(int0, 5, int5++);
+    stack(int0);
+    stack(5);
+    stack(int5);
+    int5 = (int5 + 1);
+    CC_CREATE();
     CC_SETGRAPHIC(33561 as graphic);
     CC_SETASPECT(CC_GETGRAPHICDIMENSIONS());
     CC_SETSIZE(255, 1, 0, 4);
@@ -43,14 +50,18 @@ function script18550(int0: number, int1: number, int2: number, int3: number, int
     CC_SETONCLICK(callback(script688, int0, int5, 11712));
     CC_SETONRELEASE(callback(script688, int0, int5, 11713));
     int5 = (int5 + 1);
-    CC_CREATE(int0, 5, int5++);
-    CC_SETGRAPHIC(11703);
+    stack(int0);
+    stack(5);
+    stack(int5);
+    int5 = (int5 + 1);
+    CC_CREATE();
+    CC_SETGRAPHIC(11703 as graphic);
     CC_SETASPECT(CC_GETGRAPHICDIMENSIONS());
     CC_SETSIZE(251, 1, 0, 4);
     CC_SETPOSITION(int9, (((int10 + int17) - CC_GETHEIGHT()) - SCALE(1, 205, int17)), 0, 0);
     var int18 = ((int9 + (255 / 2)) - (120 / 2));
     var int19 = (int10 + 10);
-    if ((struct_getparam(int3, 4852) != -1)) {
+    if ((struct_getparam(int3, 4852) != -1 as graphic)) {
         CC_CREATE(int0, 5, int5);
         CC_SETGRAPHIC(struct_getparam(int3, 4852));
         CC_SETPOSITION(int18, int19, 0, 0);

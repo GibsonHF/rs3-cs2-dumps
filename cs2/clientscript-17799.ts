@@ -6,7 +6,8 @@ function script17799(int0: number, int1: number, int2: number): number {
     var int6 = 19716;
     var int7 = -1;
     if ((int3 > 0)) {
-        while ((++int7 < int3)) {
+        int7 = (int7 + 1);
+        while ((int7 < int3)) {
             int4 = script17509(int0, int7);
             int6 = 19716;
             if ((script2193(int4) != 2)) {

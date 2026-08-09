@@ -7,9 +7,9 @@ function script9394(int0: number, int1: number, int2: number): void {
     var int6 = 0;
     var int7 = -1;
     var int8 = 0;
-    var int9 = -1 as dbrow;
-    var int10 = -1 as dbrow;
-    var int11 = -1 as struct;
+    var int9 = -1;
+    var int10 = -1;
+    var int11 = -1;
     var string1 = "";
     var string2 = "";
     var string3 = "";
@@ -23,13 +23,15 @@ function script9394(int0: number, int1: number, int2: number): void {
     var int16 = 0;
     var int17 = 20;
     var int18 = 0;
-    while ((++int3 < int4)) {
+    int3 = (int3 + 1);
+    while ((int3 < int4)) {
         int9 = enum_getvalue(0, 74, int2, int3);
         int5 = -1;
         int6 = DB_GETFIELDCOUNT(int9, 127024);
         string3 = dbrow_getfield(int9, 126976, 0);
         if ((script18934(int9) == 1)) {
-            while ((++int5 < int6)) {
+            int5 = (int5 + 1);
+            while ((int5 < int6)) {
                 int10 = dbrow_getfield(int9, 127024, int5);
                 if ((script18934(int10) == 1)) {
                     int7 = -1;
@@ -37,7 +39,8 @@ function script9394(int0: number, int1: number, int2: number): void {
                     string4 = dbrow_getfield(int10, 126976, 0);
                     int12 = 0;
                     int14 = enum_getreverseindex(74, 0, 14569 as cs2enum, int10, 0);
-                    while ((++int7 < int8)) {
+                    int7 = (int7 + 1);
+                    while ((int7 < int8)) {
                         int11 = dbrow_getfield(int10, 127008, int7);
                         string1 = LOWERCASE(struct_getparam(int11, 7527));
                         string5 = LOWERCASE(`${string3} ${string4}`);

@@ -1,6 +1,6 @@
 //
 function script2890(): void {
-    var int0 = -1 as npc;
+    var int0 = -1;
     var int1 = 0;
     var int2 = -1;
     var int3 = -1;
@@ -10,7 +10,7 @@ function script2890(): void {
     var int7 = -1;
     var int8 = 1;
     var int9 = 0;
-    var int10 = comp(476, 0);
+    var int10 = 31195136;
     while ((int8 <= ENUM_GETOUTPUTCOUNT(929 as cs2enum))) {
         if ((((((((int8 != varclient_1080) && (int8 != varclient_1081)) && (int8 != varclient_1082)) && (int8 != varclient_1083)) && (int8 != varclient_1084)) && (int8 != varclient_1085)) && (TESTBIT(varplayer_1709, int8) == 1))) {
             int0 = enum_getvalue(0, 32, 929 as cs2enum, int8);
@@ -29,7 +29,7 @@ function script2890(): void {
                 } else if ((varclient_1085 == -1)) {
                     varclient_1085 = int8;
                 };
-                int0 = -1 as npc;
+                int0 = -1;
             };
         };
         int8 = (int8 + 1);
@@ -41,35 +41,35 @@ function script2890(): void {
         if (((int10 != comp(476, 0)) && (IF_GETGRAPHIC(int10) == -1 as graphic))) {
             switch (int8) {
                 case 1: {
-                    int0 = enum_getvalue(0, 32, 929 as cs2enum, varclient_1080);
+                    int0 = enum_getvalue(0, 32, 929, varclient_1080);
                     break;
                 }
                 case 2: {
-                    int0 = enum_getvalue(0, 32, 929 as cs2enum, varclient_1081);
+                    int0 = enum_getvalue(0, 32, 929, varclient_1081);
                     break;
                 }
                 case 3: {
-                    int0 = enum_getvalue(0, 32, 929 as cs2enum, varclient_1082);
+                    int0 = enum_getvalue(0, 32, 929, varclient_1082);
                     break;
                 }
                 case 4: {
-                    int0 = enum_getvalue(0, 32, 929 as cs2enum, varclient_1083);
+                    int0 = enum_getvalue(0, 32, 929, varclient_1083);
                     break;
                 }
                 case 5: {
-                    int0 = enum_getvalue(0, 32, 929 as cs2enum, varclient_1084);
+                    int0 = enum_getvalue(0, 32, 929, varclient_1084);
                     break;
                 }
                 case 6: {
-                    int0 = enum_getvalue(0, 32, 929 as cs2enum, varclient_1085);
+                    int0 = enum_getvalue(0, 32, 929, varclient_1085);
                     break;
                 }
             };
             if ((int0 != -1 as npc)) {
                 IF_SETGRAPHIC(enum_getvalue(32, 23, 932 as cs2enum, int0), int10);
                 IF_SETTEXT(enum_getvalue(32, 36, 930 as cs2enum, int0), enum_getvalue(9, 9, 926 as cs2enum, int10));
-                IF_SETONMOUSEREPEAT(callback(script8799, enum_getvalue(32, 36, 930 as cs2enum, int0), -2147483645, -2147483643), int10);
-                if (((int10 != 31195149) && (int10 != comp(476, 14)))) {
+                IF_SETONMOUSEREPEAT(callback(script8799, enum_getvalue(32, 36, 930, int0), -2147483645, -2147483643), int10);
+                if (((int10 != 31195149) && (int10 != 31195150))) {
                     IF_SETHIDE(false, comp(476, 17));
                     IF_SETPOSITION(IF_GETX(int10), IF_GETY(int10), 0, 0, comp(476, 17));
                     script1725(31195153);

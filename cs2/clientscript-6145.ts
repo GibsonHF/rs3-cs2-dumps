@@ -1,6 +1,7 @@
 //
 function script6145(int0: number, int1: number, int2: number, int3: number, int4: number): void {
-    if ((++int3 < 100)) {
+    var int3 = (int3 + 1);
+    if ((int3 < 100)) {
         IF_SETONTIMER(callback(script6145, -2147483645, int1, int2, int3, int4), int0);
     };
     if ((int3 < 0)) {

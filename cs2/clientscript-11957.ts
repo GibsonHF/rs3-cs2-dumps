@@ -40,7 +40,7 @@ function script11957(int0: number, string0: string): void {
     };
     var int2 = 0;
     var int3 = FRIEND_COUNT();
-    var int4 = false;
+    var int4 = 0;
     if ((int3 > 1)) {
         while ((int1 != -1)) {
             if ((CC_FIND(comp(1108, 7), int1) == 1)) {
@@ -53,7 +53,8 @@ function script11957(int0: number, string0: string): void {
                 CC_SETPOSITION(0, int2, 0, 0);
                 switch (int0) {
                     case 0: {
-                        if ((++int1 >= int3)) {
+                        int1 = (int1 + 1);
+                        if ((int1 >= int3)) {
                             int1 = -1;
                         };
                         break;
@@ -82,7 +83,7 @@ function script11957(int0: number, string0: string): void {
             } else {
                 return;
             };
-            if ((int4 == false)) {
+            if ((int4 == 0)) {
                 int2 = (int2 + 16);
             };
         };

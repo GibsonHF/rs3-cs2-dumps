@@ -15,12 +15,15 @@ function script11173(int0: number): number {
     var int5 = int1;
     var int6 = int2;
     var int7 = 0;
-    while ((((int6 == int4) && (int5 <= int3)) || (int6 < int4))) {
-        int7 = script11569(int6, int5);
-        if (((int7 == 1) || (int7 == 2))) {
-            return 1;
+    while ((int6 == int4)) {
+        if (((int5 <= int3) || (int6 < int4))) {
+            int7 = script11569(int6, int5);
+            if (((int7 == 1) || (int7 == 2))) {
+                return 1;
+            };
+            [int6, int5] = script11170(int6, int5);
         };
-        [int6, int5] = script11170(int6, int5);
+        return 0;
     };
     return 0;
 }

@@ -1,10 +1,10 @@
 //
 function script11674(): void {
-    var int0 = comp(-1, 65535);
+    var int0 = -1;
     var string0 = "";
     var string1 = "";
     var int1 = 0;
-    var int2 = 13483 as cs2enum;
+    var int2 = 13483;
     var string2 = "";
     while ((int1 < ENUM_GETOUTPUTCOUNT(int2))) {
         int0 = enum_getvalue(0, 9, int2, int1);

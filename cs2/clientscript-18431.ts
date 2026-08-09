@@ -3,8 +3,7 @@ function script18431(int0: number): string {
     stack(1122304);
     stack(int0);
     DB_FIND(0);
-    dbrow_findnext();
-    var int1 = stack();
+    var int1 = dbrow_findnext();
     var string0 = "";
     if ((int1 == -1)) {
         return "";

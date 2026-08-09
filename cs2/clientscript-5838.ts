@@ -1,6 +1,6 @@
 //
 function script5838(): void {
-    var int0 = comp(1486, 14);
+    var int0 = 97386510;
     var int1 = cc_getparam(4261);
     var string0 = cc_getparam(4262);
     var string1 = cc_getparam(4263);

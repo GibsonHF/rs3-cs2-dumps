@@ -12,8 +12,12 @@ function script14366(int0: number, int1: number): void {
     if ((CC_FIND(comp(517, 201), int1) == 1)) {
         script13796(int2, int3);
     };
-    if (((int2 == 48447 as obj) && ((int0 < varplayer_8970) || (varplayer_8970 == -1)))) {
-        varplayer_8970 = int0;
+    if ((int2 == 48447 as obj)) {
+        if (((int0 < varplayer_8970) || (varplayer_8970 == -1))) {
+            varplayer_8970 = int0;
+        } else if ((int1 == varplayer_8970)) {
+            varplayer_8970 = script14353(int1, varplayer_8971);
+        };
     } else if ((int1 == varplayer_8970)) {
         varplayer_8970 = script14353(int1, varplayer_8971);
     };

@@ -18,7 +18,7 @@ function script14940(): void {
     };
     if ((int4 > 0)) {
         script14933(int0, IF_GETNEXTSUBID(int0), 0, 0, IF_GETWIDTH(int0), IF_GETHEIGHT(int0), int1);
-        if ((int2 == true)) {
+        if ((int2 == 1)) {
             script14934(int0, IF_GETNEXTSUBID(int0), int4, 0, 0, IF_GETWIDTH(int0), IF_GETHEIGHT(int0));
         };
     };

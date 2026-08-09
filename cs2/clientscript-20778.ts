@@ -8,12 +8,12 @@ function script20778(int0: number): void {
     if ((int0 == 1)) {
         if ((varbitplayer_61207 == 0)) {
             IF_SETONCLICK(callback(script20780, -2147483645), comp(1477, 30));
-            int1 = 0;
-            int2 = 0;
+            int1 = false;
+            int2 = false;
         } else {
             IF_SETONCLICK(callback(), comp(1477, 30));
-            int2 = 1;
-            int1 = 0;
+            int2 = true;
+            int1 = false;
         };
     } else {
         IF_SETONCLICK(callback(), comp(1477, 30));

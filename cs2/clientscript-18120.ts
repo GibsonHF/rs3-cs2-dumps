@@ -22,7 +22,7 @@ function script18120(int0: number, int1: number, int2: number, int3: number, int
         int14 = 1;
     };
     IF_SETONTIMER(callback(script11621, int0, 2, 50, -1, int5, int4, int6, int7), int5);
-    if ((int7 == -1)) {
+    if ((int7 == -1 as dbrow)) {
         int8 = 1000;
         int9 = 115;
         int10 = 0;

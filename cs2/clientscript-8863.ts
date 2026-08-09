@@ -12,9 +12,11 @@ function script8863(int0: number, int1: number, string0: string): void {
     CC_SETCOLOUR(1);
     CC_SETFILL(1);
     CC_SETTRANS(75);
-    if ((((int1 == 1) && (script19633(int0) == 1)) && ((struct_getparam(int2, 3505) == comp(-1, 65535)) || (IF_HASSUB(struct_getparam(int2, 3505)) == 1)))) {
-        IF_SETHIDE(true, int3);
-        return;
+    if (((int1 == 1) && (script19633(int0) == 1))) {
+        if (((struct_getparam(int2, 3505) == comp(-1, 65535)) || (IF_HASSUB(struct_getparam(int2, 3505)) == 1))) {
+            IF_SETHIDE(true, int3);
+            return;
+        };
     };
     IF_SETHIDE(false, int3);
     if ((strcmp(string0, "") == 0)) {

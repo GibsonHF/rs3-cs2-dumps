@@ -16,7 +16,8 @@ function script14575(int0: number): number {
     };
     var int3 = DB_GETFIELDCOUNT(int0, 335968);
     var int4 = -1;
-    while ((++int4 < int3)) {
+    int4 = (int4 + 1);
+    while ((int4 < int3)) {
         if ((dbrow_getfield(int0, 335968, int4) == int2)) {
             return 1;
         };

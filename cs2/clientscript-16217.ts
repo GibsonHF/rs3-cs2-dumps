@@ -34,11 +34,11 @@ function script16217(int0: number, int1: number, int2: number, int3: number, int
     CC_SETONCLICK(callback(script16218, int0, int1, int2, -1, int6, 1, 25));
     CC_SETMOUSEOVERCURSOR(7);
     CC_CREATE(int1, 5, 1);
-    CC_SETGRAPHIC(12878);
-    CC_SETHFLIP(1);
+    CC_SETGRAPHIC(12878 as graphic);
+    CC_SETHFLIP(true);
     CC_SETSIZE(100, 0, 0, 1);
     CC_SETPOSITION(0, 0, 2, 0);
-    CC_SETNOCLICKTHROUGH(1);
+    CC_SETNOCLICKTHROUGH(true);
     CC_SETONCLICK(callback(script16218, int0, int1, int2, 1, int6, 1, 25));
     CC_SETMOUSEOVERCURSOR(6);
     return;

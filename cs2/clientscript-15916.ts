@@ -20,6 +20,6 @@ function script15916(): void {
         }
     };
     IF_SETONVARCTRANSMIT(callback(script801, 4258, 5129, 5130, 3), comp(1508, 2));
-    IF_SETONVARCTRANSMIT(callback(script15917, 4260, 1), 98828292);
+    IF_SETONVARCTRANSMIT(callback(script15917, 4260, 1), comp(1508, 4));
     return;
 }

@@ -9,20 +9,11 @@ function script13673(int0: number, int1: number, int2: number, int3: number, int
     stack(90112);
     stack(varbitplayer_37614);
     DB_FIND(0);
-    dbrow_findnext();
-    var int7 = stack();
-    stack(int7);
-    stack(90288);
-    stack(0);
-    dbrow_getfield();
-    var int8 = stack();
+    var int7 = dbrow_findnext();
+    var int8 = dbrow_getfield(int7, 90288, 0);
     var int9 = -1;
     var int10 = 0;
-    stack(int7);
-    stack(90416);
-    stack((int2 - 1));
-    dbrow_getfield();
-    [int9, int10] = stack();
+    [int9, int10] = dbrow_getfield(int7, 90416, (int2 - 1));
     switch (int1) {
         case 29: {
             script13313(int0, int3, script12422(int5, (int8 * int10), 65536));

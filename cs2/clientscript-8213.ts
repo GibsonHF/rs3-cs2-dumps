@@ -6,24 +6,24 @@ function script8213(int0: number, int1: number, int2: number, int3: number): str
         var int1 = script8214(int1);
         if ((int1 == 0)) {
             if ((int2 == 1)) {
-                string0 = enum_getvalue(0, 36, 7559 as cs2enum, int0);
+                string0 = enum_getvalue(0, 36, 7559, int0);
             };
             if ((strcmp(string0, "") == 0)) {
-                string0 = enum_getvalue(0, 36, 6747 as cs2enum, int0);
+                string0 = enum_getvalue(0, 36, 6747, int0);
             };
         } else {
             if ((int2 == 1)) {
                 string0 = enum_getvalue(0, 36, 17346 as cs2enum, int0);
                 if ((strcmp(string0, "") == 0)) {
-                    string0 = enum_getvalue(0, 36, 7559 as cs2enum, int0);
+                    string0 = enum_getvalue(0, 36, 7559, int0);
                 };
-                string1 = enum_getvalue(0, 36, 7559 as cs2enum, int1);
+                string1 = enum_getvalue(0, 36, 7559, int1);
             };
             if ((strcmp(string0, "") == 0)) {
-                string0 = enum_getvalue(0, 36, 6747 as cs2enum, int0);
+                string0 = enum_getvalue(0, 36, 6747, int0);
             };
             if ((strcmp(string1, "") == 0)) {
-                string1 = enum_getvalue(0, 36, 6747 as cs2enum, int1);
+                string1 = enum_getvalue(0, 36, 6747, int1);
             };
             if ((int3 == 1)) {
                 string0 = `${string1}-${string0}`;

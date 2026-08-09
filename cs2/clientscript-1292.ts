@@ -8,6 +8,6 @@ function script1292(int0: number): void {
         IF_SETTEXT("generating...", comp(64, 71));
     };
     IF_SETONKEY(callback(), comp(64, 35));
-    IF_SETONCLICK(callback(), 4194355);
+    IF_SETONCLICK(callback(), comp(64, 51));
     return;
 }

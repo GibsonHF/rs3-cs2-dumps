@@ -1,10 +1,10 @@
 //
 function script8252(int0: number): number {
-    if ((varbitplayer_45522[1] == 1)) {
+    if ((varbitplayer_45522 == 1)) {
         return 0;
     };
     var int1 = item_getparam(int0, 396);
-    if ((varbitplayer_44137[1] == 1)) {
+    if ((varbitplayer_44137 == 1)) {
         int1 = SCALE(int1, 100, (100 - 20));
     };
     return int1;

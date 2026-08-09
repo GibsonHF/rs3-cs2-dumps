@@ -71,6 +71,7 @@ function script17522(int0: number): string {
             return "Attraction II";
         }
         case 30480: {
+            break;
         }
         default: {
             script12478("necro_ritual_component_npc_to_name_get - no NPC name specified!");

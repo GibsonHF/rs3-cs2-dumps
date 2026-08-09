@@ -1,13 +1,13 @@
 //
 function script7869(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number, int8: number, int9: number): void {
-    var int10 = -1 as cs2enum;
-    var int11 = -1 as cs2enum;
-    var int12 = -1 as cs2enum;
+    var int10 = -1;
+    var int11 = -1;
+    var int12 = -1;
     var int13 = -1;
-    var int14 = -1 as idkit;
-    var int15 = -1 as cs2enum;
-    var int16 = -1 as cs2enum;
-    var int17 = -1 as cs2enum;
+    var int14 = -1;
+    var int15 = -1;
+    var int16 = -1;
+    var int17 = -1;
     var int18 = -1;
     var int19 = -1;
     var int20 = -1;
@@ -28,15 +28,15 @@ function script7869(int0: number, int1: number, int2: number, int3: number, int4
         }
         case 1: {
             if ((GENDER() == 1)) {
-                int10 = 3302 as cs2enum;
-                int11 = 3303 as cs2enum;
+                int10 = 3302;
+                int11 = 3303;
                 int13 = 7;
             } else {
-                int10 = 3304 as cs2enum;
-                int11 = 3305 as cs2enum;
+                int10 = 3304;
+                int11 = 3305;
                 int13 = 0;
             };
-            if ((int0 == -1 as idkit)) {
+            if ((int0 == -1)) {
                 int14 = varclient_1008;
             } else {
                 int14 = int0;
@@ -65,9 +65,9 @@ function script7869(int0: number, int1: number, int2: number, int3: number, int4
             if ((varclient_3687 != 1)) {
                 int10 = 3307 as cs2enum;
                 int11 = 3306 as cs2enum;
-                int12 = 15477 as cs2enum;
+                int12 = 15477;
                 int13 = 1;
-                if ((int4 == -1 as idkit)) {
+                if ((int4 == -1)) {
                     int14 = varclient_1009;
                 } else {
                     int14 = int4;
@@ -87,17 +87,17 @@ function script7869(int0: number, int1: number, int2: number, int3: number, int4
         }
         case 2: {
             if ((GENDER() == 1)) {
-                int10 = 3299 as cs2enum;
-                int11 = 8741 as cs2enum;
-                int12 = 8740 as cs2enum;
+                int10 = 3299;
+                int11 = 8741;
+                int12 = 8740;
                 int13 = 9;
             } else {
-                int10 = 3287 as cs2enum;
-                int11 = 8737 as cs2enum;
-                int12 = 8736 as cs2enum;
+                int10 = 3287;
+                int11 = 8737;
+                int12 = 8736;
                 int13 = 2;
             };
-            if ((int1 == -1 as idkit)) {
+            if ((int1 == -1)) {
                 int14 = varclient_1010;
             } else {
                 int14 = int1;
@@ -116,17 +116,17 @@ function script7869(int0: number, int1: number, int2: number, int3: number, int4
         }
         case 3: {
             if ((GENDER() == 1)) {
-                int10 = 3301 as cs2enum;
-                int11 = 8743 as cs2enum;
-                int12 = 8742 as cs2enum;
+                int10 = 3301;
+                int11 = 8743;
+                int12 = 8742;
                 int13 = 12;
             } else {
-                int10 = 3289 as cs2enum;
-                int11 = 8739 as cs2enum;
-                int12 = 8738 as cs2enum;
+                int10 = 3289;
+                int11 = 8739;
+                int12 = 8738;
                 int13 = 5;
             };
-            if ((int2 == -1 as idkit)) {
+            if ((int2 == -1)) {
                 int14 = varclient_1013;
             } else {
                 int14 = int2;
@@ -145,17 +145,17 @@ function script7869(int0: number, int1: number, int2: number, int3: number, int4
         }
         case 4: {
             if ((GENDER() == 1)) {
-                int10 = 3293 as cs2enum;
-                int11 = 8735 as cs2enum;
-                int12 = 8734 as cs2enum;
+                int10 = 3293;
+                int11 = 8735;
+                int12 = 8734;
                 int13 = 13;
             } else {
-                int10 = 3290 as cs2enum;
-                int11 = 8733 as cs2enum;
-                int12 = 8732 as cs2enum;
+                int10 = 3290;
+                int11 = 8733;
+                int12 = 8732;
                 int13 = 6;
             };
-            if ((int3 == -1 as idkit)) {
+            if ((int3 == -1)) {
                 int14 = varclient_1014;
             } else {
                 int14 = int3;
@@ -187,7 +187,7 @@ function script7869(int0: number, int1: number, int2: number, int3: number, int4
     var int24 = 0;
     var int25 = 0;
     var int26 = -1 as struct;
-    var int27 = -1 as idkit;
+    var int27 = -1;
     var int28 = -1;
     var int29 = 0;
     var int30 = 0;
@@ -209,9 +209,7 @@ function script7869(int0: number, int1: number, int2: number, int3: number, int4
                     string1 = struct_getparam(int26, 792);
                     int27 = struct_getparam(int26, 788);
                 } else {
-                    stack(-1 as idkit);
-                    stack("");
-                    [int27, string1] = stack();
+                    [int27, string1] = [-1, ""];
                 };
             } else {
                 string1 = enum_getvalue(0, 36, int12, int21);
@@ -266,60 +264,68 @@ function script7869(int0: number, int1: number, int2: number, int3: number, int4
     var int39 = 0;
     var int40 = 19;
     var int41 = 0;
-    if ((((int15 != -1 as cs2enum) && (int16 != -1 as cs2enum)) && (int18 != -1))) {
-        int23 = ENUM_GETOUTPUTCOUNT(int15);
-        if ((int23 > 24)) {
-            int23 = 24;
-        };
-        while ((int21 < int23)) {
-            if (((int21 != 0) && (MODULO(int21, 5) == 0))) {
-                int40 = (int40 + int35);
-                if (((int40 / int35) == int38)) {
-                    int40 = (int40 + 50);
+    if ((int15 != -1 as cs2enum)) {
+        if ((int16 != -1 as cs2enum)) {
+            if ((int18 != -1)) {
+                int23 = ENUM_GETOUTPUTCOUNT(int15);
+                if ((int23 > 24)) {
+                    int23 = 24;
                 };
-            };
-            CC_CREATE(comp(1420, 130), 3, (int21 * 2));
-            CC_SETSIZE(45, 45, 0, 0);
-            CC_SETPOSITION((int37 + (MODULO(int21, 5) * int35)), (int40 + 5), 0, 0);
-            CC_SETFILL(1);
-            CC_CREATE[1](comp(1420, 130), 5, ((int21 * 2) + 1));
-            CC_SETSIZE[1]((CC_GETWIDTH() + 7), (CC_GETHEIGHT() + 7), 0, 0);
-            CC_SETPOSITION[1]((CC_GETX() - (7 / 2)), (CC_GETY() - (7 / 2)), 0, 0);
-            CC_SETGRAPHIC[1](19663 as graphic);
-            switch (varclient_3482) {
-                case 2:
-                case 3: {
-                    int39 = enum_getvalue(0, 0, 7721 as cs2enum, int21);
-                    break;
-                }
-                case 4: {
-                    int39 = enum_getvalue(0, 0, 7722 as cs2enum, int21);
-                    break;
-                }
-                case 1:
-                case 5: {
-                    int39 = enum_getvalue(0, 0, 7723 as cs2enum, int21);
-                    break;
-                }
-                default: {
-                    int39 = enum_getvalue(0, 0, 7724 as cs2enum, int21);
-                    break;
-                }
-            };
-            CC_SETCOLOUR(enum_getvalue(0, 0, int16, int39));
-            string1 = enum_getvalue(0, 36, int17, int39);
-            int34 = enum_getvalue(0, 0, int15, int39);
-            CC_SETOP(1, string1);
-            CC_SETONMOUSEOVER(callback(script7870, -2147483645, -2147483643, ((int23 * 2) + 1), string1, 2, 1, int18, int34));
-            CC_SETONMOUSELEAVE(callback(script7870, -2147483645, -2147483643, ((int23 * 2) + 1), string1, 2, 0, int18, int34));
-            if ((int19 == int34)) {
-                int28 = (int21 * 2);
+                while ((int21 < int23)) {
+                    if (((int21 != 0) && (MODULO(int21, 5) == 0))) {
+                        int40 = (int40 + int35);
+                        if (((int40 / int35) == int38)) {
+                            int40 = (int40 + 50);
+                        };
+                    };
+                    CC_CREATE(comp(1420, 130), 3, (int21 * 2));
+                    CC_SETSIZE(45, 45, 0, 0);
+                    CC_SETPOSITION((int37 + (MODULO(int21, 5) * int35)), (int40 + 5), 0, 0);
+                    CC_SETFILL(1);
+                    CC_CREATE[1](comp(1420, 130), 5, ((int21 * 2) + 1));
+                    CC_SETSIZE[1]((CC_GETWIDTH() + 7), (CC_GETHEIGHT() + 7), 0, 0);
+                    CC_SETPOSITION[1]((CC_GETX() - (7 / 2)), (CC_GETY() - (7 / 2)), 0, 0);
+                    CC_SETGRAPHIC[1](19663 as graphic);
+                    switch (varclient_3482) {
+                        case 2:
+                        case 3: {
+                            int39 = enum_getvalue(0, 0, 7721, int21);
+                            break;
+                        }
+                        case 4: {
+                            int39 = enum_getvalue(0, 0, 7722, int21);
+                            break;
+                        }
+                        case 1:
+                        case 5: {
+                            int39 = enum_getvalue(0, 0, 7723, int21);
+                            break;
+                        }
+                        default: {
+                            int39 = enum_getvalue(0, 0, 7724, int21);
+                            break;
+                        }
+                    };
+                    CC_SETCOLOUR(enum_getvalue(0, 0, int16, int39));
+                    string1 = enum_getvalue(0, 36, int17, int39);
+                    int34 = enum_getvalue(0, 0, int15, int39);
+                    CC_SETOP(1, string1);
+                    CC_SETONMOUSEOVER(callback(script7870, -2147483645, -2147483643, ((int23 * 2) + 1), string1, 2, 1, int18, int34));
+                    CC_SETONMOUSELEAVE(callback(script7870, -2147483645, -2147483643, ((int23 * 2) + 1), string1, 2, 0, int18, int34));
+                    if ((int19 == int34)) {
+                        int28 = (int21 * 2);
+                    } else {
+                        CC_SETONOP(callback(script7861, -2147483644, int34, int18));
+                    };
+                    int21 = (int21 + 1);
+                };
+                int41 = (((19 + int40) + int35) + 18);
             } else {
-                CC_SETONOP(callback(script7861, -2147483644, int34, int18));
+                int23 = 0;
             };
-            int21 = (int21 + 1);
+        } else {
+            int23 = 0;
         };
-        int41 = (((19 + int40) + int35) + 18);
     } else {
         int23 = 0;
     };
@@ -327,11 +333,19 @@ function script7869(int0: number, int1: number, int2: number, int3: number, int4
     script15575(int28);
     script15576();
     int23 = (int23 * 2);
-    CC_CREATE[1](comp(1420, 130), 5, int23++);
-    if (((int28 != -1) && (CC_FIND(comp(1420, 130), int28) == 1))) {
-        CC_SETSIZE[1]((CC_GETWIDTH() + 0), (CC_GETHEIGHT() + 0), 0, 0);
-        CC_SETPOSITION[1]((CC_GETX() - (0 / 2)), (CC_GETY() - (0 / 2)), 0, 0);
-        CC_SETGRAPHIC[1](19634 as graphic);
+    stack(93061250);
+    stack(5);
+    stack(int23);
+    int23 = (int23 + 1);
+    CC_CREATE[1]();
+    if ((int28 != -1)) {
+        if ((CC_FIND(comp(1420, 130), int28) == 1)) {
+            CC_SETSIZE[1]((CC_GETWIDTH() + 0), (CC_GETHEIGHT() + 0), 0, 0);
+            CC_SETPOSITION[1]((CC_GETX() - (0 / 2)), (CC_GETY() - (0 / 2)), 0, 0);
+            CC_SETGRAPHIC[1](19634 as graphic);
+        } else {
+            CC_SETHIDE[1](true);
+        };
     } else {
         CC_SETHIDE[1](true);
     };

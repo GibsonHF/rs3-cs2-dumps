@@ -11,6 +11,6 @@ function script6521(): void {
         string0 = "Toggle to allow automatic tab switching";
     };
     IF_SETOP(1, string0, comp(517, 51));
-    IF_SETONMOUSEREPEAT(callback(script10009, string0, -2147483645, -2147483643), 33882163);
+    IF_SETONMOUSEREPEAT(callback(script10009, string0, -2147483645, -2147483643), comp(517, 51));
     return;
 }

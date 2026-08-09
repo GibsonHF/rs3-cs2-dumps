@@ -728,8 +728,12 @@ function script796(int0: number): void {
     } else {
         IF_SETGRAPHIC(int1, int0);
     };
-    if (((varclient_6519 == 1) && (script6431() == 1))) {
-        script2613(int2);
+    if ((varclient_6519 == 1)) {
+        if ((script6431() == 1)) {
+            script2613(int2);
+        } else {
+            script800(int2);
+        };
     } else {
         script800(int2);
     };

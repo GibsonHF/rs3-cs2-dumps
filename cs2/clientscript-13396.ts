@@ -24,8 +24,7 @@ function script13396(int0: number, int1: number, int2: number, int3: number, int
     var string1 = "0";
     var int14 = 0;
     while ((int11 < int5)) {
-        stack(IF_SETONSTORETRANSMIT(int11));
-        [int12, string0] = stack();
+        [int12, string0] = IF_SETONSTORETRANSMIT(int11);
         if ((int12 > 1)) {
             script13637(`${string0}<col=FFFFFF> <gt>`, 0, -1, int11, int11, int2, int6, 86638602);
         } else {

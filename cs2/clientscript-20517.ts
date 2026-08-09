@@ -17,19 +17,29 @@ function script20517(int0: number): void {
     var int9 = 0;
     var int10 = 0;
     [int5, int6, int7, int8, int9] = script8382(int5, int6, int7, int8, int0, 0, 1);
-    while (((int9 == 0) && (++int10 <= 8))) {
-        if ((int8 < int7)) {
-            if ((int6 < (int4 / 2))) {
-                int6 = (int6 + (int8 * int10));
+    while ((int9 == 0)) {
+        int10 = (int10 + 1);
+        if ((int10 <= 8)) {
+            if ((int8 < int7)) {
+                if ((int6 < (int4 / 2))) {
+                    int6 = (int6 + (int8 * int10));
+                } else {
+                    int6 = (int6 - (int8 * int10));
+                };
+            } else if ((int5 < (int3 / 2))) {
+                int5 = (int5 + (int7 * int10));
             } else {
-                int6 = (int6 - (int8 * int10));
+                int5 = (int5 - (int7 * int10));
             };
-        } else if ((int5 < (int3 / 2))) {
-            int5 = (int5 + (int7 * int10));
-        } else {
-            int5 = (int5 - (int7 * int10));
+            [int5, int6, int7, int8, int9] = script8382(int5, int6, int7, int8, int0, 0, 1);
         };
-        [int5, int6, int7, int8, int9] = script8382(int5, int6, int7, int8, int0, 0, 1);
+        if ((int9 == 0)) {
+            int5 = MAX(0, ((int3 / 2) - (int7 / 2)));
+            int6 = MAX(0, ((int4 / 2) - (int8 / 2)));
+            [int5, int6, int7, int8, int9] = script8382(int5, int6, int7, int8, int0, 0, 1);
+        };
+        script8387(int5, int6, int7, int8, int0);
+        return;
     };
     if ((int9 == 0)) {
         int5 = MAX(0, ((int3 / 2) - (int7 / 2)));

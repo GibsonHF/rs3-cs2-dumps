@@ -3,8 +3,12 @@ function script3623(int0: number, int1: number, int2: number, int3: number, stri
     script3648(int0);
     script3645(int0, 0, 41549964, 41549965, 41549969, 41549971, 41549967, 41549968, 1, 41549970, 1);
     IF_SETTEXT(`Task ${inttostring((int0 + 1), 10)}`, comp(634, 153));
-    if (((dbrow_getfield(script3609(), 299472, 0) == 1) && ((int0 + 1) == 71))) {
-        IF_SETTEXT("¶", comp(634, 164));
+    if ((dbrow_getfield(script3609(), 299472, 0) == 1)) {
+        if (((int0 + 1) == 71)) {
+            IF_SETTEXT("¶", comp(634, 164));
+        } else {
+            IF_SETTEXT(inttostring((int0 + 1), 10), comp(634, 164));
+        };
     } else {
         IF_SETTEXT(inttostring((int0 + 1), 10), comp(634, 164));
     };

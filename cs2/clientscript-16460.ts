@@ -15,8 +15,10 @@ function script16460(int0: number, int1: number, int2: number, int3: number, int
     };
     int9 = (int9 + int1);
     var int11 = script7593(string0, int10, 29, enum_getvalue(25, 0, 8549 as cs2enum, 29 as fontmetrics));
-    if ((((int4 != -1) || (int5 != -1)) && (int11 < int7))) {
-        int11 = int7;
+    if (((int4 != -1) || (int5 != -1))) {
+        if ((int11 < int7)) {
+            int11 = int7;
+        };
     };
     CC_CREATE(int0, 4, IF_GETNEXTSUBID(int0));
     CC_SETPOSITION(int9, int2, 0, 0);
@@ -24,8 +26,12 @@ function script16460(int0: number, int1: number, int2: number, int3: number, int
     CC_SETTEXT(string0);
     CC_SETTEXTFONT(29 as fontmetrics);
     CC_SETCOLOUR(int6);
-    if (((int4 != -1) && (int5 != -1))) {
-        CC_SETTEXTALIGN(1, 1, enum_getvalue(25, 0, 8549 as cs2enum, 29 as fontmetrics));
+    if ((int4 != -1)) {
+        if ((int5 != -1)) {
+            CC_SETTEXTALIGN(1, 1, enum_getvalue(25, 0, 8549 as cs2enum, 29 as fontmetrics));
+        } else {
+            CC_SETTEXTALIGN(0, 1, enum_getvalue(25, 0, 8549 as cs2enum, 29 as fontmetrics));
+        };
     } else {
         CC_SETTEXTALIGN(0, 1, enum_getvalue(25, 0, 8549 as cs2enum, 29 as fontmetrics));
     };

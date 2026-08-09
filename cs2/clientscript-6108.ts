@@ -20,7 +20,7 @@ function script6108(int0: number, int1: number): void {
     IF_SETOBJECT(int2, -1, comp(1265, 60));
     IF_SETTEXT(varclient_2361, comp(1265, 59));
     var int3 = script6075(int2, varplayer_302);
-    if ((int0 == 93 as inv)) {
+    if ((int0 == 93)) {
         IF_SETTEXT("Value:", comp(1265, 133));
         IF_SETTEXT("Sell", comp(1265, 147));
         int3 = script6076(int2, varplayer_302, varplayer_304);
@@ -43,7 +43,7 @@ function script6108(int0: number, int1: number): void {
         IF_SETGRAPHIC(-1 as graphic, comp(1265, 136));
     } else {
         IF_SETTEXT(script940(int3), comp(1265, 137));
-        IF_SETGRAPHIC(enum_getvalue(0, 23, 200 as cs2enum, varplayer_306), comp(1265, 136));
+        IF_SETGRAPHIC(enum_getvalue(0, 23, 200, varplayer_306), comp(1265, 136));
     };
     var int4 = PARAWIDTH(IF_GETTEXT(comp(1265, 137)), IF_GETWIDTH(comp(1265, 134)), 26 as fontmetrics);
     if ((int0 != varplayer_305)) {
@@ -54,11 +54,11 @@ function script6108(int0: number, int1: number): void {
         IF_SETHIDE(true, comp(1265, 148));
         IF_SETHIDE(true, comp(1265, 145));
     };
-    var int5 = comp(1265, 20);
-    if (((varclient_1881 != -1 as inv) && (varclient_1880 != -1))) {
+    var int5 = 82903060;
+    if (((varclient_1881 != -1) && (varclient_1880 != -1))) {
         IF_SETHIDE(true, comp(1266, 3));
         if ((varclient_1881 == varplayer_305)) {
-            int5 = comp(1265, 14);
+            int5 = 82903054;
         };
         if ((CC_FIND(int5, varclient_1880) == 1)) {
             CC_SETONMOUSEOVER(callback(script6100, varbitplayer_987, 0, 1, -2147483645, -2147483643));
@@ -70,22 +70,24 @@ function script6108(int0: number, int1: number): void {
             };
         };
     };
-    int5 = comp(1265, 20);
+    int5 = 82903060;
     if ((varplayer_299 == varplayer_305)) {
-        int5 = comp(1265, 14);
+        int5 = 82903054;
     };
     if ((int0 == varplayer_299)) {
-        if (((int0 == 93 as inv) && (CC_FIND(comp(1266, 0), int1) == 1))) {
+        if (((int0 == 93) && (CC_FIND(comp(1266, 0), int1) == 1))) {
             IF_SETPOSITION(((CC_GETX() + 2) - 2), ((CC_GETY() + 2) - 2), 0, 0, comp(1266, 3));
             IF_SETHIDE(false, comp(1266, 3));
         };
-        if (((CC_FIND(int5, int1) == 1) && ((int0 != 93 as inv) || (varplayer_303 == 1)))) {
-            CC_SETONMOUSEOVER(callback(script6100, varbitplayer_987, 1, 1, -2147483645, -2147483643));
-            CC_SETONMOUSELEAVE(callback(script6100, varbitplayer_987, 1, 0, -2147483645, -2147483643));
-            if ((varbitplayer_987 == 0)) {
-                CC_SETGRAPHIC(24164 as graphic);
-            } else {
-                CC_SETGRAPHIC(24164 as graphic);
+        if ((CC_FIND(int5, int1) == 1)) {
+            if (((int0 != 93) || (varplayer_303 == 1))) {
+                CC_SETONMOUSEOVER(callback(script6100, varbitplayer_987, 1, 1, -2147483645, -2147483643));
+                CC_SETONMOUSELEAVE(callback(script6100, varbitplayer_987, 1, 0, -2147483645, -2147483643));
+                if ((varbitplayer_987 == 0)) {
+                    CC_SETGRAPHIC(24164 as graphic);
+                } else {
+                    CC_SETGRAPHIC(24164 as graphic);
+                };
             };
         };
         varclient_1881 = int0;
@@ -100,12 +102,12 @@ function script6108(int0: number, int1: number): void {
             string0 = strconcat(string0, `<br>${varclient_2356}`);
         };
         IF_SETGRAPHIC(2180 as graphic, comp(1265, 61));
-        IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643), 82903098);
+        IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643), comp(1265, 58));
     } else {
         IF_SETGRAPHIC(-1 as graphic, comp(1265, 61));
         IF_SETONMOUSEREPEAT(callback(), comp(1265, 61));
-        IF_SETONMOUSEREPEAT(callback(), 82903100);
-        IF_SETONMOUSEREPEAT(callback(), 82903098);
+        IF_SETONMOUSEREPEAT(callback(), comp(1265, 60));
+        IF_SETONMOUSEREPEAT(callback(), comp(1265, 58));
     };
     return;
 }

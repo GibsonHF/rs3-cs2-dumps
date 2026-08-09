@@ -19,9 +19,18 @@ function script11834(int0: number, int1: number, int2: number, int3: number, int
             };
             while ((int6 < int5)) {
                 if ((CC_FIND[1](int3, int6) == 1)) {
-                    if (((int1 == 1) && (cc_getparam[1](5326) == cc_getparam(5326)))) {
-                        CC_SETPOSITION[1](CC_GETX(), CC_GETY[1](), 0, 0);
-                        CC_SETTRANS[1](0);
+                    if ((int1 == 1)) {
+                        if ((cc_getparam[1](5326) == cc_getparam(5326))) {
+                            CC_SETPOSITION[1](CC_GETX(), CC_GETY[1](), 0, 0);
+                            CC_SETTRANS[1](0);
+                        } else if (((int1 == 2) && (cc_getparam[1](5325) == cc_getparam(5325)))) {
+                            if ((cc_getparam[1](5638) == 1)) {
+                                CC_SETPOSITION[1](CC_GETX[1](), ((CC_GETY() + (27 / 2)) - (8 / 2)), 0, 0);
+                            } else {
+                                CC_SETPOSITION[1](CC_GETX[1](), CC_GETY(), 0, 0);
+                            };
+                            CC_SETTRANS[1](0);
+                        };
                     } else if (((int1 == 2) && (cc_getparam[1](5325) == cc_getparam(5325)))) {
                         if ((cc_getparam[1](5638) == 1)) {
                             CC_SETPOSITION[1](CC_GETX[1](), ((CC_GETY() + (27 / 2)) - (8 / 2)), 0, 0);

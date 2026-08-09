@@ -1,32 +1,32 @@
 //
 function script7032(int0: number, int1: number): void {
-    var int2 = -1 as cs2enum;
+    var int2 = -1;
     var int3 = 0;
     var string0 = "";
     var string1 = "";
     switch (int1) {
         case 1: {
-            int2 = 1010 as cs2enum;
+            int2 = 1010;
             string1 = "Hulls";
             break;
         }
         case 2: {
-            int2 = 1011 as cs2enum;
+            int2 = 1011;
             string1 = "Deck Items 1";
             break;
         }
         case 3: {
-            int2 = 1011 as cs2enum;
+            int2 = 1011;
             string1 = "Deck Items 2";
             break;
         }
         case 4: {
-            int2 = 1012 as cs2enum;
+            int2 = 1012;
             string1 = "Rudders";
             break;
         }
         case 5: {
-            int2 = 1013 as cs2enum;
+            int2 = 1013;
             string1 = "Rams/Figureheads";
             break;
         }
@@ -54,7 +54,7 @@ function script7032(int0: number, int1: number): void {
     var int6 = 0;
     var int7 = 0;
     var int8 = 0;
-    var int9 = -1 as struct;
+    var int9 = -1;
     var int10 = 0;
     var int11 = 0;
     while ((int4 < ENUM_GETOUTPUTCOUNT(int2))) {
@@ -68,11 +68,18 @@ function script7032(int0: number, int1: number): void {
             case 1: {
                 int7 = TESTBIT(varplayer_3378, int4);
                 while ((int11 > 0)) {
-                    if (((TESTBIT(varplayer_3378, int11) == 1) || ((int4 == 0) && (varplayer_3378 != 0)))) {
+                    if ((TESTBIT(varplayer_3378, int11) == 1)) {
                         int8 = 1;
                         int11 = -2;
+                    } else if ((int4 == 0)) {
+                        if ((varplayer_3378 != 0)) {
+                            int8 = 1;
+                            int11 = -2;
+                        } else {
+                            int11 = struct_getparam(enum_getvalue(0, 73, 1010, int11), 4485);
+                        };
                     } else {
-                        int11 = struct_getparam(enum_getvalue(0, 73, 1010 as cs2enum, int11), 4485);
+                        int11 = struct_getparam(enum_getvalue(0, 73, 1010, int11), 4485);
                     };
                 };
                 break;
@@ -85,7 +92,7 @@ function script7032(int0: number, int1: number): void {
                         int8 = 1;
                         int11 = -2;
                     } else {
-                        int11 = struct_getparam(enum_getvalue(0, 73, 1011 as cs2enum, int11), 4485);
+                        int11 = struct_getparam(enum_getvalue(0, 73, 1011, int11), 4485);
                     };
                 };
                 break;
@@ -97,7 +104,7 @@ function script7032(int0: number, int1: number): void {
                         int8 = 1;
                         int11 = -2;
                     } else {
-                        int11 = struct_getparam(enum_getvalue(0, 73, 1012 as cs2enum, int11), 4485);
+                        int11 = struct_getparam(enum_getvalue(0, 73, 1012, int11), 4485);
                     };
                 };
                 break;
@@ -109,7 +116,7 @@ function script7032(int0: number, int1: number): void {
                         int8 = 1;
                         int11 = -2;
                     } else {
-                        int11 = struct_getparam(enum_getvalue(0, 73, 1013 as cs2enum, int11), 4485);
+                        int11 = struct_getparam(enum_getvalue(0, 73, 1013, int11), 4485);
                     };
                 };
                 break;
@@ -138,144 +145,156 @@ function script7032(int0: number, int1: number): void {
         IF_SETCOLOUR(16446166, comp(916, 141));
         IF_SETCOLOUR(16446166, comp(916, 143));
         CC_CREATE(comp(916, 115), 5, int4);
-        if (((int7 == 0) && (int8 == 0))) {
-            int10 = 1;
-            CC_SETSIZE(12, 15, 0, 0);
-            CC_SETPOSITION(6, (int6 + ((32 - 15) / 2)), 2, 0);
-            switch (struct_getparam(int9, 701)) {
-                case 1: {
-                    if ((struct_getparam(int9, 702) > varplayer_3441)) {
-                        IF_SETCOLOUR(16711680, comp(916, 141));
-                        int10 = 0;
-                    };
-                    break;
-                }
-                case 2: {
-                    if ((struct_getparam(int9, 702) > varplayer_3442)) {
-                        IF_SETCOLOUR(16711680, comp(916, 141));
-                        int10 = 0;
-                    };
-                    break;
-                }
-                case 3: {
-                    if ((struct_getparam(int9, 702) > varplayer_3443)) {
-                        IF_SETCOLOUR(16711680, comp(916, 141));
-                        int10 = 0;
-                    };
-                    break;
-                }
-                case 4: {
-                    if ((struct_getparam(int9, 702) > varplayer_3444)) {
-                        IF_SETCOLOUR(16711680, comp(916, 141));
-                        int10 = 0;
-                    };
-                    break;
-                }
-                case 5: {
-                    if ((struct_getparam(int9, 702) > varplayer_3445)) {
-                        IF_SETCOLOUR(16711680, comp(916, 141));
-                        int10 = 0;
-                    };
-                    break;
-                }
-                case 6: {
-                    if ((struct_getparam(int9, 702) > varplayer_3446)) {
-                        IF_SETCOLOUR(16711680, comp(916, 141));
-                        int10 = 0;
-                    };
-                    break;
-                }
-                case 7: {
-                    if ((struct_getparam(int9, 702) > varplayer_3447)) {
-                        IF_SETCOLOUR(16711680, comp(916, 141));
-                        int10 = 0;
-                    };
-                    break;
-                }
-                case 8: {
-                    if ((struct_getparam(int9, 702) > varplayer_4038)) {
-                        IF_SETCOLOUR(16711680, comp(916, 141));
-                        int10 = 0;
-                    };
-                    break;
-                }
-                case 9: {
-                    if ((struct_getparam(int9, 702) > varplayer_4039)) {
-                        IF_SETCOLOUR(16711680, comp(916, 141));
-                        int10 = 0;
-                    };
-                    break;
-                }
-            };
-            switch (struct_getparam(int9, 703)) {
-                case 1: {
-                    if ((struct_getparam(int9, 704) > varplayer_3441)) {
-                        IF_SETCOLOUR(16711680, comp(916, 143));
-                        int10 = 0;
-                    };
-                    break;
-                }
-                case 2: {
-                    if ((struct_getparam(int9, 704) > varplayer_3442)) {
-                        IF_SETCOLOUR(16711680, comp(916, 143));
-                        int10 = 0;
-                    };
-                    break;
-                }
-                case 3: {
-                    if ((struct_getparam(int9, 704) > varplayer_3443)) {
-                        IF_SETCOLOUR(16711680, comp(916, 143));
-                        int10 = 0;
-                    };
-                    break;
-                }
-                case 4: {
-                    if ((struct_getparam(int9, 704) > varplayer_3444)) {
-                        IF_SETCOLOUR(16711680, comp(916, 143));
-                        int10 = 0;
-                    };
-                    break;
-                }
-                case 5: {
-                    if ((struct_getparam(int9, 704) > varplayer_3445)) {
-                        IF_SETCOLOUR(16711680, comp(916, 143));
-                        int10 = 0;
-                    };
-                    break;
-                }
-                case 6: {
-                    if ((struct_getparam(int9, 704) > varplayer_3446)) {
-                        IF_SETCOLOUR(16711680, comp(916, 143));
-                        int10 = 0;
-                    };
-                    break;
-                }
-                case 7: {
-                    if ((struct_getparam(int9, 704) > varplayer_3447)) {
-                        IF_SETCOLOUR(16711680, comp(916, 143));
-                        int10 = 0;
-                    };
-                    break;
-                }
-                case 8: {
-                    if ((struct_getparam(int9, 704) > varplayer_4038)) {
-                        IF_SETCOLOUR(16711680, comp(916, 143));
-                        int10 = 0;
-                    };
-                    break;
-                }
-                case 9: {
-                    if ((struct_getparam(int9, 704) > varplayer_4039)) {
-                        IF_SETCOLOUR(16711680, comp(916, 143));
-                        int10 = 0;
-                    };
-                    break;
-                }
-            };
-            if ((int10 == 0)) {
-                CC_SETGRAPHIC(9998 as graphic);
+        if ((int7 == 0)) {
+            if ((int8 == 0)) {
+                int10 = 1;
+                CC_SETSIZE(12, 15, 0, 0);
+                CC_SETPOSITION(6, (int6 + ((32 - 15) / 2)), 2, 0);
+                switch (struct_getparam(int9, 701)) {
+                    case 1: {
+                        if ((struct_getparam(int9, 702) > varplayer_3441)) {
+                            IF_SETCOLOUR(16711680, comp(916, 141));
+                            int10 = 0;
+                        };
+                        break;
+                    }
+                    case 2: {
+                        if ((struct_getparam(int9, 702) > varplayer_3442)) {
+                            IF_SETCOLOUR(16711680, comp(916, 141));
+                            int10 = 0;
+                        };
+                        break;
+                    }
+                    case 3: {
+                        if ((struct_getparam(int9, 702) > varplayer_3443)) {
+                            IF_SETCOLOUR(16711680, comp(916, 141));
+                            int10 = 0;
+                        };
+                        break;
+                    }
+                    case 4: {
+                        if ((struct_getparam(int9, 702) > varplayer_3444)) {
+                            IF_SETCOLOUR(16711680, comp(916, 141));
+                            int10 = 0;
+                        };
+                        break;
+                    }
+                    case 5: {
+                        if ((struct_getparam(int9, 702) > varplayer_3445)) {
+                            IF_SETCOLOUR(16711680, comp(916, 141));
+                            int10 = 0;
+                        };
+                        break;
+                    }
+                    case 6: {
+                        if ((struct_getparam(int9, 702) > varplayer_3446)) {
+                            IF_SETCOLOUR(16711680, comp(916, 141));
+                            int10 = 0;
+                        };
+                        break;
+                    }
+                    case 7: {
+                        if ((struct_getparam(int9, 702) > varplayer_3447)) {
+                            IF_SETCOLOUR(16711680, comp(916, 141));
+                            int10 = 0;
+                        };
+                        break;
+                    }
+                    case 8: {
+                        if ((struct_getparam(int9, 702) > varplayer_4038)) {
+                            IF_SETCOLOUR(16711680, comp(916, 141));
+                            int10 = 0;
+                        };
+                        break;
+                    }
+                    case 9: {
+                        if ((struct_getparam(int9, 702) > varplayer_4039)) {
+                            IF_SETCOLOUR(16711680, comp(916, 141));
+                            int10 = 0;
+                        };
+                        break;
+                    }
+                };
+                switch (struct_getparam(int9, 703)) {
+                    case 1: {
+                        if ((struct_getparam(int9, 704) > varplayer_3441)) {
+                            IF_SETCOLOUR(16711680, comp(916, 143));
+                            int10 = 0;
+                        };
+                        break;
+                    }
+                    case 2: {
+                        if ((struct_getparam(int9, 704) > varplayer_3442)) {
+                            IF_SETCOLOUR(16711680, comp(916, 143));
+                            int10 = 0;
+                        };
+                        break;
+                    }
+                    case 3: {
+                        if ((struct_getparam(int9, 704) > varplayer_3443)) {
+                            IF_SETCOLOUR(16711680, comp(916, 143));
+                            int10 = 0;
+                        };
+                        break;
+                    }
+                    case 4: {
+                        if ((struct_getparam(int9, 704) > varplayer_3444)) {
+                            IF_SETCOLOUR(16711680, comp(916, 143));
+                            int10 = 0;
+                        };
+                        break;
+                    }
+                    case 5: {
+                        if ((struct_getparam(int9, 704) > varplayer_3445)) {
+                            IF_SETCOLOUR(16711680, comp(916, 143));
+                            int10 = 0;
+                        };
+                        break;
+                    }
+                    case 6: {
+                        if ((struct_getparam(int9, 704) > varplayer_3446)) {
+                            IF_SETCOLOUR(16711680, comp(916, 143));
+                            int10 = 0;
+                        };
+                        break;
+                    }
+                    case 7: {
+                        if ((struct_getparam(int9, 704) > varplayer_3447)) {
+                            IF_SETCOLOUR(16711680, comp(916, 143));
+                            int10 = 0;
+                        };
+                        break;
+                    }
+                    case 8: {
+                        if ((struct_getparam(int9, 704) > varplayer_4038)) {
+                            IF_SETCOLOUR(16711680, comp(916, 143));
+                            int10 = 0;
+                        };
+                        break;
+                    }
+                    case 9: {
+                        if ((struct_getparam(int9, 704) > varplayer_4039)) {
+                            IF_SETCOLOUR(16711680, comp(916, 143));
+                            int10 = 0;
+                        };
+                        break;
+                    }
+                };
+                if ((int10 == 0)) {
+                    CC_SETGRAPHIC(9998 as graphic);
+                } else {
+                    CC_SETGRAPHIC(9996 as graphic);
+                };
             } else {
-                CC_SETGRAPHIC(9996 as graphic);
+                if ((int4 == int3)) {
+                    CC_SETGRAPHIC(13165 as graphic);
+                };
+                if ((int8 == 0)) {
+                    CC_SETSIZE(15, 15, 0, 0);
+                } else {
+                    CC_SETSIZE(0, 0, 0, 0);
+                };
+                CC_SETPOSITION(7, (int6 + ((32 - 15) / 2)), 2, 0);
             };
         } else {
             if ((int4 == int3)) {

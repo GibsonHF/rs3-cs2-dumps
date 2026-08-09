@@ -255,7 +255,7 @@ function script4184(): void {
     while ((int5 < ENUM_GETOUTPUTCOUNT(7161 as cs2enum))) {
         if ((script6431() == 0)) {
             IF_SETONMOUSEREPEAT(callback(script3905, int5), enum_getvalue(0, 9, 7161 as cs2enum, int5));
-            IF_SETONMOUSELEAVE(callback(script4182, int5), enum_getvalue(0, 9, 7161, int5));
+            IF_SETONMOUSELEAVE(callback(script4182, int5), enum_getvalue(0, 9, 7161 as cs2enum, int5));
         } else {
             IF_SETOP(1, "View island information", enum_getvalue(0, 9, 7161 as cs2enum, int5));
             IF_SETONOP(callback(script3905, int5), enum_getvalue(0, 9, 7161 as cs2enum, int5));
@@ -265,6 +265,6 @@ function script4184(): void {
     IF_SETSCROLLSIZE(IF_GETWIDTH(comp(1377, 9)), 0, comp(1377, 8));
     script11147(90243183, 90243080);
     IF_SETONSCROLLWHEEL(callback(), comp(1377, 8));
-    IF_SETONSCROLLWHEEL(callback(script1701, 90243183, 90243080, -2147483646), 90243184);
+    IF_SETONSCROLLWHEEL(callback(script1701, 90243183, 90243080, -2147483646), comp(1377, 112));
     return;
 }

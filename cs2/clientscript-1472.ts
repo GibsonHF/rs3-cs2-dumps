@@ -33,14 +33,12 @@ function script1472(int0: number, int1: number): void {
     };
     if ((script13749() == 1)) {
         IF_SETONCLICK(callback(script1474, int0, int5, int3), int0);
-        stack(-1);
-        stack("");
+        stack(callback());
         stack(int0);
         IF_SETONRELEASE();
     } else {
         IF_SETONCLICK(callback(script44, int0, int5), int0);
-        stack(1473);
-        stack("iii");
+        stack(callback(script1473, int0, int3, int4));
         stack(int0);
         IF_SETONRELEASE();
     };

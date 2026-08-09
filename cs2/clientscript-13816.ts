@@ -1,6 +1,8 @@
 //
 function script13816(): void {
-    if (((script5633(-1) == 1) || (((script13749() == 1) && (varbitplayer_49340 == 0)) && (AUTOSETUP_DOSETUP() == 0)))) {
+    if ((script5633(-1) == 1)) {
+        return;
+    } else if ((((script13749() == 1) && (varbitplayer_49340 == 0)) && (AUTOSETUP_DOSETUP() == 0))) {
         return;
     };
     script15087(23, script5633(0), varbitclient_38833);

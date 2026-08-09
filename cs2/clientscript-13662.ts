@@ -7,14 +7,9 @@ function script13662(): void {
     stack(90112);
     stack(varbitplayer_37614);
     DB_FIND(0);
-    dbrow_findnext();
-    var int0 = stack();
-    stack(int0);
-    stack(90288);
-    stack(0);
-    dbrow_getfield();
-    var int1 = stack();
-    if ((IF_FIND(124649509) == 1)) {
+    var int0 = dbrow_findnext();
+    var int1 = dbrow_getfield(int0, 90288, 0);
+    if ((IF_FIND(comp(1902, 37)) == 1)) {
         string0 = `Capacity: ${TOSTRING_LOCALISED(varplayer_7270, 1)}`;
         if ((int1 != -1)) {
             string0 = `${string0}/${TOSTRING_LOCALISED(int1, 1)}`;

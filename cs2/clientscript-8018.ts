@@ -9,8 +9,7 @@ function script8018(int0: number, int1: number, int2: number, int3: number, stri
         IF_SETTEXT(string0, int0);
     };
     if ((int3 == 1)) {
-        stack(PUSH_CONSTANT_INT[16]("<u=", int2));
-        var string0 = `${stack()}${inttostring()}>${IF_GETTEXT(int0)}</u>`;
+        var string0 = `${inttostring(PUSH_CONSTANT_INT[16]("<u=", int2))}>${IF_GETTEXT(int0)}</u>`;
         IF_SETTEXT(string0, int0);
     };
     if ((int1 != -1 as fontmetrics)) {

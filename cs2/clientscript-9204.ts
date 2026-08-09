@@ -1,7 +1,7 @@
 //
 function script9204(int0: number): void {
     if ((int0 == 1)) {
-        IF_SETONKEY(callback(script9205, -2147483640, -2147483639, 29556742, 29556741), 29556742);
+        IF_SETONKEY(callback(script9205, -2147483640, -2147483639, 29556742, 29556741), comp(451, 6));
         script8844(1, 13, 0, 29556751, -1);
         script8844(1, 84, 0, 29556757, -1);
         varclient_173 = 1;

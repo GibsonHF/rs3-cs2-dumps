@@ -9,8 +9,7 @@ function script3533(int0: number, int1: number): number {
     stack(278528);
     stack(int3);
     DB_FIND(0);
-    dbrow_findnext();
-    var int4 = stack();
+    var int4 = dbrow_findnext();
     var string2 = "";
     if ((int4 == -1)) {
         string2 = "Runescape";

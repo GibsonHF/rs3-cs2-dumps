@@ -1,8 +1,12 @@
 //[proc,fade2_generic]
 function script2801(int0: number, int1: number, int2: number): void {
     IF_SETCOLOUR(int2, int0);
-    if (((varclient_3696 == 1) && (int1 > 0))) {
-        varclient_3696 = 0;
+    if ((varclient_3696 == 1)) {
+        if ((int1 > 0)) {
+            varclient_3696 = 0;
+        } else if (((varclient_3696 == 2) && (int1 < 0))) {
+            varclient_3696 = 0;
+        };
     } else if (((varclient_3696 == 2) && (int1 < 0))) {
         varclient_3696 = 0;
     };

@@ -17,8 +17,24 @@ function script4214(int0: number, int1: number, int2: number): void {
         int4 = MAX(int4, 0);
         int4 = MIN(int4, 255);
         IF_SETTRANS(int4, int0);
-        if ((((int1 == 1) && (int4 == 255)) || ((int1 == 0) && (int4 == 0)))) {
-            IF_SETONTIMER(callback(), int0);
+        if ((int1 == 1)) {
+            if ((int4 == 255)) {
+                IF_SETONTIMER(callback(), int0);
+            } else if ((int1 == 0)) {
+                if ((int4 == 0)) {
+                    IF_SETONTIMER(callback(), int0);
+                } else {
+                    IF_SETONTIMER(callback(script4214, int0, int1, 0), int0);
+                };
+            } else {
+                IF_SETONTIMER(callback(script4214, int0, int1, 0), int0);
+            };
+        } else if ((int1 == 0)) {
+            if ((int4 == 0)) {
+                IF_SETONTIMER(callback(), int0);
+            } else {
+                IF_SETONTIMER(callback(script4214, int0, int1, 0), int0);
+            };
         } else {
             IF_SETONTIMER(callback(script4214, int0, int1, 0), int0);
         };

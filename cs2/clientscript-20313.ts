@@ -1,6 +1,8 @@
 //
 function script20313(int0: number, int1: number): void {
-    if (((int0 == -1 as dbrow) || ((int1 > 0) && (MODULO(CLIENTCLOCK(), 20) == 0)))) {
+    if ((int0 == -1)) {
+        return;
+    } else if (((int1 > 0) && (MODULO(CLIENTCLOCK(), 20) == 0))) {
         return;
     };
     var int2 = dbrow_getfield(int0, 1368064, 0);
@@ -25,7 +27,9 @@ function script20313(int0: number, int1: number): void {
             CC_SETONTIMER(callback(script20313, int0, (int1 + 1)));
         };
     };
-    if (((ACHIEVEMENT_REQSTATE(int3) < 0) || ((int1 > 0) && (int1 < 10)))) {
+    if ((ACHIEVEMENT_REQSTATE(int3) < 0)) {
+        return;
+    } else if (((int1 > 0) && (int1 < 10))) {
         return;
     };
     script20314(int0);

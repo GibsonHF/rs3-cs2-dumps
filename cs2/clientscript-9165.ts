@@ -6,7 +6,8 @@ function script9165(): void {
     };
     if ((IF_FIND(comp(1488, 3)) == 1)) {
         int0 = cc_getparam(3433);
-        if ((--int0 == 0)) {
+        int0 = (int0 - 1);
+        if ((int0 == 0)) {
             script8880();
         } else {
             CC_SETPARAM_INT(3433, int0);

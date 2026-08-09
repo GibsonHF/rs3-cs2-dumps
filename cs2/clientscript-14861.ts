@@ -8,9 +8,9 @@ function script14861(int0: number, int1: number, int2: number): void {
         case 1: {
             IF_SETHIDE(false, comp(691, 141));
             IF_SETSIZE(460, 330, 0, 0, comp(691, 75));
-            IF_SETONOP(callback(script14863, -2147483644, 1, int0), 45285541);
-            IF_SETONOP(callback(script14863, -2147483644, 2, int0), 45285521);
-            IF_SETONOP(callback(script14863, -2147483644, 3, int0), 45285559);
+            IF_SETONOP(callback(script14863, -2147483644, 1, int0), comp(691, 165));
+            IF_SETONOP(callback(script14863, -2147483644, 2, int0), comp(691, 145));
+            IF_SETONOP(callback(script14863, -2147483644, 3, int0), comp(691, 183));
             script14864(int1);
             break;
         }

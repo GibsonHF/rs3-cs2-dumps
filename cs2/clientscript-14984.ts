@@ -9,7 +9,13 @@ function script14984(int0: number, int1: number, int2: number, int3: number): vo
     } else {
         [int4, int5] = script8406(int0, int1);
     };
-    if ((((int1 == -1) && (IF_FIND(int0) == 1)) || (CC_FIND(int0, int1) == 1))) {
+    if ((int1 == -1)) {
+        if (((IF_FIND(int0) == 1) || (CC_FIND(int0, int1) == 1))) {
+            int4 = ((int4 - (int2 / 2)) + (CC_GETWIDTH() / 2));
+            int5 = (int5 - int3);
+            int6 = 1;
+        };
+    } else if ((CC_FIND(int0, int1) == 1)) {
         int4 = ((int4 - (int2 / 2)) + (CC_GETWIDTH() / 2));
         int5 = (int5 - int3);
         int6 = 1;

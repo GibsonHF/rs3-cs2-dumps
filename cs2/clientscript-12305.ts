@@ -1,7 +1,9 @@
 //
 function script12305(int0: number): void {
-    if (((int0 == 1) && ((IF_GETNEXTSUBID(comp(1477, 13)) != 0) || (IF_GETNEXTSUBID(comp(1477, 14)) != 0)))) {
-        return;
+    if ((int0 == 1)) {
+        if (((IF_GETNEXTSUBID(comp(1477, 13)) != 0) || (IF_GETNEXTSUBID(comp(1477, 14)) != 0))) {
+            return;
+        };
     };
     CC_DELETEALL(comp(1477, 13));
     CC_DELETEALL(comp(1477, 14));

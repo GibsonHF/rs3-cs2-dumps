@@ -1,6 +1,6 @@
 //
 function script12338(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number, int8: number, int9: number): void {
-    if (((((((int5 == -1) || (int0 == -1)) || (int1 == -1)) || (int2 == -1)) || (int3 == -1)) || (int4 == -1))) {
+    if (((((((int5 == -1) || (int0 == comp(-1, 65535))) || (int1 == -1)) || (int2 == -1)) || (int3 == -1)) || (int4 == -1))) {
         return;
     };
     var string0 = "";

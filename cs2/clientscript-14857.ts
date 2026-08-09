@@ -1,16 +1,16 @@
 //
 function script14857(int0: number): void {
-    var int1 = comp(691, 64);
-    var int2 = comp(691, 65);
-    var int3 = comp(691, 66);
-    var int4 = comp(691, 63);
+    var int1 = 45285440;
+    var int2 = 45285441;
+    var int3 = 45285442;
+    var int4 = 45285439;
     var int5 = 45285443;
     CC_DELETEALL(int1);
     CC_DELETEALL(int2);
     CC_DELETEALL(int3);
     var int6 = 0;
     var int7 = ENUM_GETOUTPUTCOUNT(14090 as cs2enum);
-    var int8 = -1 as dbrow;
+    var int8 = -1;
     var int9 = 0;
     var int10 = 0;
     var int11 = -1;
@@ -21,31 +21,41 @@ function script14857(int0: number): void {
     define_array(int7);
     define_array[65536](int7);
     var int16 = -1;
-    while ((++int16 < int7)) {
+    int16 = (int16 + 1);
+    while ((int16 < int7)) {
         CC_CREATE(int2, 4, int16);
         CC_CREATE(int3, 5, int16);
     };
     int16 = -1;
     switch (varplayer_9291) {
-        case 0:         if ((++int16 < int7)) {
-            int8 = enum_getvalue(0, 74, 14090 as cs2enum, int16);
-            pop_array(int16, int16);
-            if ((CC_FIND(int2, int16) == 1)) {
-                CC_SETPARAM_STRING(5441, LOWERCASE(dbrow_getfield(int8, 385040, 0)));
+        case 0: {
+            int16 = (int16 + 1);
+            while ((int16 < int7)) {
+                int8 = enum_getvalue(0, 74, 14090 as cs2enum, int16);
+                pop_array(int16, int16);
+                if ((CC_FIND(int2, int16) == 1)) {
+                    CC_SETPARAM_STRING(5441, LOWERCASE(dbrow_getfield(int8, 385040, 0)));
+                };
             };
-        };
-
-        case 1:         if ((++int16 < int7)) {
-            int8 = enum_getvalue(0, 74, 14090 as cs2enum, int16);
-            pop_array(int16, int16);
-            pop_array[1](int16, script14612(int8));
-        };
-
+            script17567(0, int2, 0, (int7 - 1));
+            break;
+        }
+        case 1: {
+            int16 = (int16 + 1);
+            while ((int16 < int7)) {
+                int8 = enum_getvalue(0, 74, 14090, int16);
+                pop_array(int16, int16);
+                pop_array[1](int16, script14612(int8));
+            };
+            ARRAY_SORT(int7, 1, 0);
+            break;
+        }
     };
     int16 = -1;
     if ((varbitplayer_46470 == 0)) {
-        while ((++int16 < int7)) {
-            int8 = enum_getvalue(0, 74, 14090 as cs2enum, push_array(int16));
+        int16 = (int16 + 1);
+        while ((int16 < int7)) {
+            int8 = enum_getvalue(0, 74, 14090, push_array(int16));
             int9 = dbrow_getfield(int8, 385024, 0);
             switch (script14606(varplayer_12086, int9)) {
                 case 0: {
@@ -75,13 +85,14 @@ function script14857(int0: number): void {
             script3539();
             CC_SETDRAGRENDERBEHAVIOUR(1);
             if ((script14606(varplayer_12086, int9) == 2)) {
-                script7924(int1, IF_GETNEXTSUBID(int1), 16, 16, (int14 + 2), (int15 + 2), 21747 as graphic, 0, 0, 0, 0);
+                script7924(int1, IF_GETNEXTSUBID(int1), 16, 16, (int14 + 2), (int15 + 2), 21747, 0, 0, 0, 0);
             };
             int14 = (int14 + (64 + 8));
         };
     } else if ((varbitplayer_46470 == 1)) {
-        while ((++int16 < int7)) {
-            int8 = enum_getvalue(0, 74, 14090 as cs2enum, push_array(int16));
+        int16 = (int16 + 1);
+        while ((int16 < int7)) {
+            int8 = enum_getvalue(0, 74, 14090, push_array(int16));
             int9 = dbrow_getfield(int8, 385024, 0);
             switch (script14606(varplayer_12086, int9)) {
                 case 0: {
@@ -114,7 +125,7 @@ function script14857(int0: number): void {
                 CC_SETONOP(callback(script14858, int8));
             };
             if ((script14606(varplayer_12086, int9) == 2)) {
-                script7924(int1, IF_GETNEXTSUBID(int1), 16, 16, (int14 + (((int12 / 2) - 5) - 20)), (int15 + 2), 21747 as graphic, 0, 0, 0, 0);
+                script7924(int1, IF_GETNEXTSUBID(int1), 16, 16, (int14 + (((int12 / 2) - 5) - 20)), (int15 + 2), 21747, 0, 0, 0, 0);
                 int6 = (int6 + 1);
             };
             int14 = ((int12 / 2) + 5);

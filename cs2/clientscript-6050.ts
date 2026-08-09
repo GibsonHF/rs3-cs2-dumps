@@ -19,19 +19,45 @@ function script6050(int0: number, int1: number, int2: number, int3: number): voi
         int14 = comp(1616, 5);
         int15 = comp(1616, 0);
     };
-    if (((varplayer_679 >= 500) && (int8 >= 50))) {
-        IF_SETHIDE(false, int11);
+    if ((varplayer_679 >= 500)) {
+        if ((int8 >= 50)) {
+            IF_SETHIDE(false, int11);
+        } else {
+            IF_SETHIDE(true, int11);
+        };
     } else {
         IF_SETHIDE(true, int11);
     };
-    if (((varplayer_679 >= 1000) && (int8 >= 100))) {
-        IF_SETHIDE(false, int12);
-        IF_SETHIDE(false, int13);
-        IF_SETGRAPHIC(14515 as graphic, int15);
-    } else if (((varplayer_679 >= 500) && (int8 >= 50))) {
-        IF_SETHIDE(true, int12);
-        IF_SETHIDE(true, int13);
-        IF_SETGRAPHIC(14514 as graphic, int15);
+    if ((varplayer_679 >= 1000)) {
+        if ((int8 >= 100)) {
+            IF_SETHIDE(false, int12);
+            IF_SETHIDE(false, int13);
+            IF_SETGRAPHIC(14515 as graphic, int15);
+        } else if ((varplayer_679 >= 500)) {
+            if ((int8 >= 50)) {
+                IF_SETHIDE(true, int12);
+                IF_SETHIDE(true, int13);
+                IF_SETGRAPHIC(14514 as graphic, int15);
+            } else {
+                IF_SETHIDE(true, int12);
+                IF_SETHIDE(true, int13);
+                IF_SETGRAPHIC(14513 as graphic, int15);
+            };
+        } else {
+            IF_SETHIDE(true, int12);
+            IF_SETHIDE(true, int13);
+            IF_SETGRAPHIC(14513 as graphic, int15);
+        };
+    } else if ((varplayer_679 >= 500)) {
+        if ((int8 >= 50)) {
+            IF_SETHIDE(true, int12);
+            IF_SETHIDE(true, int13);
+            IF_SETGRAPHIC(14514 as graphic, int15);
+        } else {
+            IF_SETHIDE(true, int12);
+            IF_SETHIDE(true, int13);
+            IF_SETGRAPHIC(14513 as graphic, int15);
+        };
     } else {
         IF_SETHIDE(true, int12);
         IF_SETHIDE(true, int13);
@@ -68,19 +94,45 @@ function script6050(int0: number, int1: number, int2: number, int3: number): voi
         int6 = SCALE(IF_GETWIDTH(int0), int4, 100);
         int7 = SCALE(IF_GETWIDTH(int1), int4, 100);
         int8 = (int6 + int7);
-        if (((varplayer_679 >= 500) && (int8 >= 50))) {
-            IF_SETHIDE(false, int11);
+        if ((varplayer_679 >= 500)) {
+            if ((int8 >= 50)) {
+                IF_SETHIDE(false, int11);
+            } else {
+                IF_SETHIDE(true, int11);
+            };
         } else {
             IF_SETHIDE(true, int11);
         };
-        if (((varplayer_679 >= 1000) && (int8 >= 100))) {
-            IF_SETHIDE(false, int12);
-            IF_SETHIDE(false, int13);
-            IF_SETGRAPHIC(14515 as graphic, int15);
-        } else if (((varplayer_679 >= 500) && (int8 >= 50))) {
-            IF_SETHIDE(true, int12);
-            IF_SETHIDE(true, int13);
-            IF_SETGRAPHIC(14514 as graphic, int15);
+        if ((varplayer_679 >= 1000)) {
+            if ((int8 >= 100)) {
+                IF_SETHIDE(false, int12);
+                IF_SETHIDE(false, int13);
+                IF_SETGRAPHIC(14515 as graphic, int15);
+            } else if ((varplayer_679 >= 500)) {
+                if ((int8 >= 50)) {
+                    IF_SETHIDE(true, int12);
+                    IF_SETHIDE(true, int13);
+                    IF_SETGRAPHIC(14514 as graphic, int15);
+                } else {
+                    IF_SETHIDE(true, int12);
+                    IF_SETHIDE(true, int13);
+                    IF_SETGRAPHIC(14513 as graphic, int15);
+                };
+            } else {
+                IF_SETHIDE(true, int12);
+                IF_SETHIDE(true, int13);
+                IF_SETGRAPHIC(14513 as graphic, int15);
+            };
+        } else if ((varplayer_679 >= 500)) {
+            if ((int8 >= 50)) {
+                IF_SETHIDE(true, int12);
+                IF_SETHIDE(true, int13);
+                IF_SETGRAPHIC(14514 as graphic, int15);
+            } else {
+                IF_SETHIDE(true, int12);
+                IF_SETHIDE(true, int13);
+                IF_SETGRAPHIC(14513 as graphic, int15);
+            };
         } else {
             IF_SETHIDE(true, int12);
             IF_SETHIDE(true, int13);

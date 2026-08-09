@@ -10,7 +10,7 @@ function script13389(int0: number, int1: number, int2: number): void {
     var int4 = 0;
     if ((int2 == 111)) {
         varclient_6042 = 1;
-        int3 = script13386(12591 as cs2enum);
+        int3 = script13386(12591);
     } else {
         varclient_6042 = 0;
     };

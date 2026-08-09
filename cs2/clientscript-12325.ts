@@ -38,7 +38,8 @@ function script12325(int0: number, int1: number, int2: number): void {
     var int20 = 0;
     var int21 = 0;
     var int22 = 0;
-    while ((++int11 < int12)) {
+    int11 = (int11 + 1);
+    while ((int11 < int12)) {
         if ((CC_FIND(int3, int11) == 1)) {
             CC_SETTRANS(127);
             [int21, int22] = script12312(int21, int22, cc_getparam(5946));

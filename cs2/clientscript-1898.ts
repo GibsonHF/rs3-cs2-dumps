@@ -7,14 +7,6 @@ function script1898(): void {
     script1306(0, 0);
     script7998();
     WORLDMAP_CLOSEMAP();
-    stack(1);
-    stack(0);
-    stack(73);
-    stack(7716);
-    stack(1000);
-    enum_getvalue();
-    stack(3503);
-    struct_getparam();
-    IF_SETNOCLICKTHROUGH(stack());
+    IF_SETNOCLICKTHROUGH(1, struct_getparam(enum_getvalue(0, 73, 7716 as cs2enum, 1000), 3503));
     return;
 }

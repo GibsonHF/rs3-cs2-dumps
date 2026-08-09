@@ -17,23 +17,23 @@ function script11470(int0: number): number {
                     break;
                 }
                 case 0: {
-                    int2 = item_getparam(26322 as obj, 3114);
+                    int2 = item_getparam(26322, 3114);
                     break;
                 }
                 case 4: {
-                    int2 = item_getparam(26323 as obj, 3114);
+                    int2 = item_getparam(26323, 3114);
                     break;
                 }
                 case 7: {
-                    int2 = item_getparam(26324 as obj, 3114);
+                    int2 = item_getparam(26324, 3114);
                     break;
                 }
                 case 9: {
-                    int2 = item_getparam(38812 as obj, 3114);
+                    int2 = item_getparam(38812, 3114);
                     break;
                 }
                 case 10: {
-                    int2 = item_getparam(38806 as obj, 3114);
+                    int2 = item_getparam(38806, 3114);
                     break;
                 }
             };
@@ -91,8 +91,23 @@ function script11470(int0: number): number {
                 int2 = 200000;
             } else {
                 int2 = item_getparam(int0, 3383);
-                if (((int2 == -2) || ((int2 == -1) && (item_getparam(int0, 4548) != -1 as obj)))) {
+                if ((int2 == -2)) {
                     int2 = 200000;
+                } else if ((int2 == -1)) {
+                    if ((item_getparam(int0, 4548) != -1 as obj)) {
+                        int2 = 200000;
+                    } else if ((int2 < 1)) {
+                        int1 = item_getparam(int0, 3382);
+                        if ((int1 != -1 as obj)) {
+                            int2 = item_getparam(int1, 3383);
+                            if ((int2 < 1)) {
+                                int1 = item_getparam(int0, 3382);
+                                if ((int1 != -1 as obj)) {
+                                    int2 = item_getparam(int1, 3383);
+                                };
+                            };
+                        };
+                    };
                 } else if ((int2 < 1)) {
                     int1 = item_getparam(int0, 3382);
                     if ((int1 != -1 as obj)) {

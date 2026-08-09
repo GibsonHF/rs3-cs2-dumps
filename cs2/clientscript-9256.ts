@@ -31,9 +31,16 @@ function script9256(int0: number, int1: number, int2: number, int3: number, int4
         int11 = CC_GETINVCOUNT();
     };
     if ((int10 != -1 as obj)) {
-        if (((OC_STACKABLE(int8) == 1) && ((int8 == int10) || (INV_TOTAL(int7, int8) > 0)))) {
-            int10 = -1 as obj;
-            int11 = 0;
+        if ((OC_STACKABLE(int8) == 1)) {
+            if (((int8 == int10) || (INV_TOTAL(int7, int8) > 0))) {
+                int10 = -1 as obj;
+                int11 = 0;
+            } else {
+                int11 = MIN(int11, INV_TOTAL(int7, int10));
+                if ((int11 <= 0)) {
+                    return 0;
+                };
+            };
         } else {
             int11 = MIN(int11, INV_TOTAL(int7, int10));
             if ((int11 <= 0)) {
@@ -45,8 +52,10 @@ function script9256(int0: number, int1: number, int2: number, int3: number, int4
         if (((script9257(int3, int8, 0) == 1) || (script14291(int8, 0) == 1))) {
             return 0;
         };
-    } else if (((int10 != -1 as obj) && ((script9257(int7, int10, 0) == 1) || (script14291(int10, 0) == 1)))) {
-        return 0;
+    } else if ((int10 != -1 as obj)) {
+        if (((script9257(int7, int10, 0) == 1) || (script14291(int10, 0) == 1))) {
+            return 0;
+        };
     };
     var int12 = script11682(varplayer_1784);
     var int13 = 0;

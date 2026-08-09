@@ -2,7 +2,10 @@
 function script19180(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number, int8: number, int9: number, int10: number): void {
     if ((int1 != -1 as seq)) {
         if ((int2 > 0)) {
-            unk11010(int2, callback(script16429, int1, 84410411), 84410411);
+            stack(int2);
+            stack(16429);
+            stack(int1);
+            unk11010(84410411, "ii", 84410411);
             unk11009();
         } else {
             IF_SETMODELANIM(int1, comp(1288, 43));
@@ -16,9 +19,15 @@ function script19180(int0: number, int1: number, int2: number, int3: number, int
     };
     if (((int3 != -1 as seq) && (int4 != -1 as model))) {
         if ((int2 > 0)) {
-            unk11010(int2, callback(script19253, int4, 84410424), 84410424);
+            stack(int2);
+            stack(19253);
+            stack(int4);
+            unk11010(84410424, "ii", 84410424);
             unk11009();
-            unk11010(int2, callback(script16429, int3, 84410424), 84410424);
+            stack(int2);
+            stack(16429);
+            stack(int3);
+            unk11010(84410424, "ii", 84410424);
             unk11009();
         } else {
             IF_SETMODEL(int4, comp(1288, 56));

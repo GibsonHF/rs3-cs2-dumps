@@ -1,6 +1,9 @@
 //
 function script10440(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number): number {
-    if ((((varplayer_4734 != int5) || (script13128(int0, varplayer_4735) == 1)) || ((int4 == 1) && (varplayer_4736 != int1)))) {
+    if (((varplayer_4734 != int5) || (script13128(int0, varplayer_4735) == 1))) {
+        script10444();
+        return -1;
+    } else if (((int4 == 1) && (varplayer_4736 != int1))) {
         script10444();
         return -1;
     };
@@ -41,7 +44,57 @@ function script10440(int0: number, int1: number, int2: number, int3: number, int
         int17 = CC_GETWIDTH();
         int18 = CC_GETHEIGHT();
     };
-    if ((((int4 == 0) && (IF_FIND(int0) == 1)) || (CC_FIND(int0, int1) == 1))) {
+    if ((int4 == 0)) {
+        if (((IF_FIND(int0) == 1) || (CC_FIND(int0, int1) == 1))) {
+            if ((script6351() == 0)) {
+                script10444();
+                return -1;
+            };
+            [int8, int9, int10, int11] = [script6355(), script6356(), CC_GETHEIGHT(), CC_GETWIDTH()];
+            [int19, int20, int22, int21] = [int8, int9, int10, int11];
+            if ((script6431() == 1)) {
+                int19 = (int19 - 20);
+                int21 = (int21 + (20 + 60));
+                int20 = (int20 - 150);
+                int22 = (int22 + (150 + 150));
+            };
+            if (((int4 == 0) && (int3 == -1))) {
+                switch (int0) {
+                    case 33882355:
+                    case 33882414:
+                    case 33882334:
+                    case 86048873: {
+                        int10 = 30;
+                        break;
+                    }
+                    default: {
+                        int10 = 24;
+                        break;
+                    }
+                };
+            };
+            if ((int3 != -1)) {
+                if (((((int12 < int19) || (int12 >= (int19 + int21))) || (int13 < int20)) || (int13 >= (int20 + int22)))) {
+                    if (((((int12 < int15) || (int12 >= (int15 + int17))) || (int13 < int16)) || (int13 >= (int16 + int18)))) {
+                        var int6 = (int6 + 1);
+                    };
+                };
+            } else if ((int14 == true)) {
+                if (((((int12 < int19) || (int12 >= (int19 + int21))) || (int13 < int20)) || (int13 >= ((int20 + int22) + int2)))) {
+                    int6 = (int6 + 1);
+                };
+            } else if (((((int12 < int19) || (int12 >= (int19 + int21))) || (int13 < (int20 - int2))) || (int13 >= (int20 + int22)))) {
+                int6 = (int6 + 1);
+            };
+            if ((int6 >= 50)) {
+                script10444();
+                return -1;
+            };
+        } else {
+            script10444();
+            return -1;
+        };
+    } else if ((CC_FIND(int0, int1) == 1)) {
         if ((script6351() == 0)) {
             script10444();
             return -1;
@@ -70,8 +123,10 @@ function script10440(int0: number, int1: number, int2: number, int3: number, int
             };
         };
         if ((int3 != -1)) {
-            if ((((((int12 < int19) || (int12 >= (int19 + int21))) || (int13 < int20)) || (int13 >= (int20 + int22))) && ((((int12 < int15) || (int12 >= (int15 + int17))) || (int13 < int16)) || (int13 >= (int16 + int18))))) {
-                var int6 = (int6 + 1);
+            if (((((int12 < int19) || (int12 >= (int19 + int21))) || (int13 < int20)) || (int13 >= (int20 + int22)))) {
+                if (((((int12 < int15) || (int12 >= (int15 + int17))) || (int13 < int16)) || (int13 >= (int16 + int18)))) {
+                    int6 = (int6 + 1);
+                };
             };
         } else if ((int14 == true)) {
             if (((((int12 < int19) || (int12 >= (int19 + int21))) || (int13 < int20)) || (int13 >= ((int20 + int22) + int2)))) {
@@ -96,7 +151,7 @@ function script10440(int0: number, int1: number, int2: number, int3: number, int
     [int24, int25, int26, int27] = script14244();
     var int28 = (((int27 - int9) - int10) - 5);
     if ((int28 >= MIN(((int23 * 4) + 8), int2))) {
-        var [int14, int2] = [true, MIN(int2, int28)];
+        [int14, int2] = [true, MIN(int2, int28)];
     } else if ((((int9 - int25) - 5) > int28)) {
         [int14, int2] = [false, MIN(int2, ((int9 - int25) + int10))];
     } else {
@@ -109,7 +164,7 @@ function script10440(int0: number, int1: number, int2: number, int3: number, int
         IF_SETSIZE(int11, int2, 0, 0, int7);
     };
     IF_SETONTIMER(callback(script10439, int0, int1, int2, int3, int4, int5, int6), int7);
-    if ((int14 == 1)) {
+    if ((int14 == true)) {
         IF_SETPOSITION(int8, (int9 + int10), 0, 0, int7);
     } else {
         IF_SETPOSITION(int8, (int9 - int2), 0, 0, int7);

@@ -28,7 +28,7 @@ function script2049(int0: number, int1: number, int2: number, int3: number, int4
             CC_SETOP(2, "Tele To");
         };
     } else {
-        CC_SETOP(1, "");
+        CC_SETOP(callback(script1));
         CC_SETONOP(callback());
     };
     return;

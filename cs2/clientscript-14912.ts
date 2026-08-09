@@ -1,6 +1,6 @@
 //
 function script14912(int0: number): string {
-    if ((int0 == -1 as dbrow)) {
+    if ((int0 == -1)) {
         return "";
     };
     var int1 = dbrow_getfield(int0, 364640, 0);
@@ -18,41 +18,45 @@ function script14912(int0: number): string {
     var int6 = -1;
     var int7 = -1;
     var int8 = -1;
-    while ((++int6 < int4)) {
-        stack(int6);
-        dbrow_findnext();
-        pop_array[2](stack());
+    int6 = (int6 + 1);
+    while ((int6 < int4)) {
+        pop_array[2](dbrow_findnext(int6));
     };
     int6 = -1;
-    while ((++int6 < int4)) {
+    int6 = (int6 + 1);
+    while ((int6 < int4)) {
         int3 = db_find_with_count(340080, push_array[2](int6), 0);
         int7 = -1;
-        while ((++int7 < int3)) {
-            stack(int7);
-            dbrow_findnext();
-            pop_array[1](stack());
+        int7 = (int7 + 1);
+        while ((int7 < int3)) {
+            pop_array[1](dbrow_findnext(int7));
         };
         int7 = -1;
-        while ((++int7 < int3)) {
+        int7 = (int7 + 1);
+        while ((int7 < int3)) {
             int2 = db_find_with_count(335984, push_array[1](int7), 0);
             int8 = -1;
-            while ((++int8 < int2)) {
-                stack(int5++);
-                dbrow_findnext();
-                pop_array(stack());
+            int8 = (int8 + 1);
+            while ((int8 < int2)) {
+                stack(int5);
+                int5 = (int5 + 1);
+                pop_array(dbrow_findnext());
             };
         };
     };
     var string0 = "";
-    var int9 = -1 as dbrow;
+    var int9 = -1;
     int6 = 0;
     while ((int6 < int5)) {
         int9 = push_array(int6);
-        if ((int9 != -1 as dbrow)) {
+        if ((int9 != -1)) {
             int7 = 0;
-            while ((++int6 < int5)) {
+            int6 = (int6 + 1);
+            while ((int6 < int5)) {
                 if ((push_array(int6) != int9)) {
-                    pop_array(int7++, push_array(int6));
+                    stack(int7);
+                    int7 = (int7 + 1);
+                    pop_array(push_array(int6));
                 };
             };
             int6 = 0;

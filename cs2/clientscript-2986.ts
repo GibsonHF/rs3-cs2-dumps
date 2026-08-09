@@ -4,7 +4,7 @@ function script2986(): void {
     var int1 = 20;
     var int2 = 10;
     var int3 = 0;
-    var int4 = -1 as obj;
+    var int4 = -1;
     var string0 = "";
     var string1 = "";
     var int5 = 0;
@@ -26,7 +26,8 @@ function script2986(): void {
             script6201(4718592, 165, 24, (int1 + 44), (int2 + 17), 26, string1);
         };
         int0 = (int0 + 1);
-        if ((++int1 > 300)) {
+        int1 = (int1 + 237);
+        if ((int1 > 300)) {
             int1 = 20;
             int2 = (int2 + 55);
         };

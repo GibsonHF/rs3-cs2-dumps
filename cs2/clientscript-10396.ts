@@ -17,10 +17,14 @@ function script10396(int0: number, int1: number): void {
     if ((CC_FIND(int5, 15) == 1)) {
         CC_SETSIZE(0, struct_getparam(int3, 3547), 1, 0);
         CC_SETTEXTFONT(57 as fontmetrics);
-        CC_SETTEXTALIGN(0, 1, enum_getvalue(25, 0, 8584 as cs2enum, 57 as fontmetrics));
+        CC_SETTEXTALIGN(0, 1, enum_getvalue(25, 0, 8584, 57));
         CC_SETTEXTSHADOW(true);
-        if (((int1 != -1) && (strcmp(struct_getparam(int1, 3493), "") != 0))) {
-            CC_SETTEXT(struct_getparam(int1, 3493));
+        if ((int1 != -1)) {
+            if ((strcmp(struct_getparam(int1, 3493), "") != 0)) {
+                CC_SETTEXT(struct_getparam(int1, 3493));
+            } else {
+                CC_SETTEXT(string0);
+            };
         } else {
             CC_SETTEXT(string0);
         };

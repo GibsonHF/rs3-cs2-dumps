@@ -5,7 +5,8 @@ function script12398(int0: number): string {
     var int3 = 0;
     var string0 = "";
     var string1 = "";
-    while ((++int3 <= int2)) {
+    int3 = (int3 + 1);
+    while ((int3 <= int2)) {
         switch (int3) {
             case 1: {
                 string1 = dbrow_getfield(dbrow_getfield(int0, 495696, 0), 495648, 0);

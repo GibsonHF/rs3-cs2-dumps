@@ -7,6 +7,6 @@ function script13775(): void {
     } else {
         IF_SETGRAPHIC(13166 as graphic, comp(1944, 87));
     };
-    IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643), 127402071);
+    IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643), comp(1944, 87));
     return;
 }

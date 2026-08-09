@@ -5,7 +5,8 @@ function script3558(int0: number): number {
     if (((IF_FIND(int0) == 1) && (cc_getparam(8102) == true))) {
         int2 = cc_getparam(8101);
         while ((IF_FIND[1](int2) == 1)) {
-            if ((++int1 > 50)) {
+            int1 = (int1 + 1);
+            if ((int1 > 50)) {
                 MES_TYPED(99, 0, "CIRCULAR LOOP FOUND IN IN-ACTIVE LIST!!");
                 script3560(int0);
                 return 1;
@@ -15,7 +16,8 @@ function script3558(int0: number): number {
         int1 = 0;
         int2 = cc_getparam(8100);
         while ((IF_FIND[1](int2) == 1)) {
-            if ((++int1 > 50)) {
+            int1 = (int1 + 1);
+            if ((int1 > 50)) {
                 MES_TYPED(99, 0, "CIRCULAR LOOP FOUND IN ACTIVE LIST!!");
                 script3560(int0);
                 return 1;

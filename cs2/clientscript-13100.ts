@@ -10,7 +10,7 @@ function script13100(int0: number, int1: number): number {
         return 0;
     };
     var int2 = 0;
-    var [int2, int1] = script13101(int0);
+    [int2, int1] = script13101(int0);
     if ((int2 == 0)) {
         return 0;
     };

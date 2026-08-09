@@ -1,5 +1,5 @@
 //
-function script17094(int0: number, long0: BigInt, long1: BigInt, long2: BigInt, long3: BigInt, long4: BigInt, long5: BigInt, long6: BigInt): void {
+function script17094(int0: number, long0: bigint, long1: bigint, long2: bigint, long3: bigint, long4: bigint, long5: bigint, long6: bigint): void {
     CC_DELETEALL(comp(1626, 52));
     var int1 = STRINGWIDTH(TOSTRING_LOCALISED(2147483647, 1), 168 as fontmetrics);
     var int2 = IF_GETWIDTH(comp(1626, 52));
@@ -20,10 +20,16 @@ function script17094(int0: number, long0: BigInt, long1: BigInt, long2: BigInt, 
     };
     int4 = MAX(60, (int4 + 5));
     var int6 = script15891(string0, int2, 28, 0);
-    script2995(106561588, int3++, 0, int4, 0, 0, 0, int6, 1, 0, 2100, string0);
+    stack(106561588);
+    stack(int3);
+    int3 = (int3 + 1);
+    script2995(0, int4, 0, 0, 0, int6, 1, 0, 2100, string0);
     int4 = ((int4 + int6) + 5);
     if ((varbitplayer_52406 != 2)) {
-        script2995(106561588, int3++, 0, int4, 0, 0, 0, int5, 1, 0, 17467, "Coins:");
+        stack(106561588);
+        stack(int3);
+        int3 = (int3 + 1);
+        script2995(0, int4, 0, 0, 0, int5, 1, 0, 17467, "Coins:");
         CC_SETTEXTALIGN(2, 1, 0);
         int4 = ((int4 + int5) + 5);
         [int3, int4] = script17095(int3, int4, int1, int5, "Carried wealth:", 1, long0);
@@ -40,6 +46,9 @@ function script17094(int0: number, long0: BigInt, long1: BigInt, long2: BigInt, 
     };
     int4 = (int4 + 5);
     int6 = script15891(string1, int2, 28, 0);
-    script2995(106561588, int3++, 0, int4, 0, 0, 0, int6, 1, 0, 2100, string1);
+    stack(106561588);
+    stack(int3);
+    int3 = (int3 + 1);
+    script2995(0, int4, 0, 0, 0, int6, 1, 0, 2100, string1);
     return;
 }

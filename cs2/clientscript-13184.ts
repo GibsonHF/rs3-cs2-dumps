@@ -8,16 +8,25 @@ function script13184(): void {
     var int2 = -1;
     var int3 = -1 as struct;
     var int4 = comp(-1, 65535);
-    while ((++int2 < 8)) {
+    int2 = (int2 + 1);
+    while ((int2 < 8)) {
         int3 = enum_getvalue(0, 73, 8601 as cs2enum, int2);
         if ((int3 != -1 as struct)) {
             int4 = struct_getparam(int3, 6397);
-            if (((int4 != comp(-1, 65535)) && (IF_FIND(int4) == 1))) {
-                int0 = cc_getparam(6361);
-                if (((int0 != cc_getparam(6360)) && ((cc_getparam(5945) + 250) <= CLIENTCLOCK()))) {
-                    int1 = 1;
-                    script18205(int0, (2 + int2));
-                } else if ((int0 == -1)) {
+            if ((int4 != comp(-1, 65535))) {
+                if ((IF_FIND(int4) == 1)) {
+                    int0 = cc_getparam(6361);
+                    if ((int0 != cc_getparam(6360))) {
+                        if (((cc_getparam(5945) + 250) <= CLIENTCLOCK())) {
+                            int1 = 1;
+                            script18205(int0, (2 + int2));
+                        } else if ((int0 == -1)) {
+                            int2 = 8;
+                        };
+                    } else if ((int0 == -1)) {
+                        int2 = 8;
+                    };
+                } else {
                     int2 = 8;
                 };
             } else {

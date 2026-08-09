@@ -17,7 +17,7 @@ function script14764(int0: number, int1: number, int2: number, int3: number, int
         CC_SETTRANS(40);
         CC_SETCOLOUR(1315860);
     };
-    if ((int1 != -1)) {
+    if ((int1 != comp(-1, 65535))) {
         CC_SETONMOUSEREPEAT(callback(script9564, int2, -2147483645, CC_GETID()));
         CC_CREATE(int1, 4, int11);
         CC_SETSIZE(int9, int10, 0, 0);

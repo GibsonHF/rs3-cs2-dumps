@@ -6,9 +6,9 @@ function script11074(): void {
     var int0 = 0;
     var int1 = 0;
     var int2 = 0;
-    var int3 = comp(753, 28);
-    var int4 = comp(753, 31);
-    var int5 = comp(753, 30);
+    var int3 = 49348636;
+    var int4 = 49348639;
+    var int5 = 49348638;
     CC_DELETEALL(int3);
     CC_DELETEALL(int4);
     CC_DELETEALL(int5);

@@ -6,13 +6,16 @@ function script20888(): number {
     var int3 = -1;
     var int4 = -1;
     if ((varbitplayer_30314 != 1)) {
-        while (((int0 < 8) && (int1 == 0))) {
-            int2 = enum_getvalue(0, 39, 1079 as cs2enum, int0);
-            [int3, int4] = script17386(INV_GETOBJ(int2, 0), INV_GETOBJ(int2, 1), INV_GETOBJ(int2, 2));
-            if (((int3 != -1) || (int4 != -1))) {
-                int1 = 1;
+        while ((int0 < 8)) {
+            if ((int1 == 0)) {
+                int2 = enum_getvalue(0, 39, 1079 as cs2enum, int0);
+                [int3, int4] = script17386(INV_GETOBJ(int2, 0), INV_GETOBJ(int2, 1), INV_GETOBJ(int2, 2));
+                if (((int3 != -1) || (int4 != -1))) {
+                    int1 = 1;
+                };
+                int0 = (int0 + 1);
             };
-            int0 = (int0 + 1);
+            return int1;
         };
     };
     return int1;

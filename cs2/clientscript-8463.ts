@@ -13,7 +13,7 @@ function script8463(int0: number): void {
     var int11 = varclient_2760;
     if ((int0 == 102170649)) {
         int1 = 1;
-        int2 = 742 as inv;
+        int2 = 742;
         int3 = varplayer_4972;
         int4 = varplayer_4968;
         int5 = varplayer_4966;
@@ -40,10 +40,10 @@ function script8463(int0: number): void {
     var int17 = script7436(int12);
     var string0 = enum_getvalue(0, 36, 6744 as cs2enum, int9);
     var string1 = "Weapon";
-    var string2 = enum_getvalue(0, 36, 6741 as cs2enum, int17);
-    var int18 = enum_getvalue(0, 73, 6740 as cs2enum, int10);
+    var string2 = enum_getvalue(0, 36, 6741, int17);
+    var int18 = enum_getvalue(0, 73, 6740, int10);
     var int19 = SCALE(int11, 100, 50);
-    var int20 = SCALE(enum_getvalue(0, 0, 7339 as cs2enum, int19), 100, (100 + (40 / 2)));
+    var int20 = SCALE(enum_getvalue(0, 0, 7339, int19), 100, (100 + (40 / 2)));
     var int21 = 0;
     var int22 = 0;
     var int23 = 0;
@@ -53,7 +53,7 @@ function script8463(int0: number): void {
     var int27 = 0;
     var int28 = 0;
     var int29 = 0;
-    if (((int12 == -1 as obj) || (item_getparam(int12, 2832) == 1))) {
+    if (((int12 == -1) || (item_getparam(int12, 2832) == 1))) {
         if ((int1 == 1)) {
             IF_SETHIDE(false, comp(1559, 96));
             if ((varclient_4664 == 1)) {
@@ -92,7 +92,7 @@ function script8463(int0: number): void {
             int22 = MAX(0, MIN(10000, SCALE((SCALE(int16, int20, 100) * 70), 100, int5)));
             int23 = MAX(0, MIN(10000, SCALE((SCALE(int16, int20, 100) * 50), 100, int5)));
             int25 = (SCALE((100 + ((int17 - 4) * 25)), 100, script6680(2)) / 2);
-            int27 = enum_getvalue(0, 0, 7338 as cs2enum, item_getparam(int12, 3267));
+            int27 = enum_getvalue(0, 0, 7338, item_getparam(int12, 3267));
             int24 = SCALE((SCALE(item_getparam(int12, 641), 100, ((100 - 25) + SCALE(MIN(STAT(2 as stat), int27), int27, 25))) / 10), 100, 50);
             int26 = ((int14 - int24) - int25);
             break;
@@ -102,12 +102,12 @@ function script8463(int0: number): void {
             int22 = MAX(0, MIN(10000, SCALE((SCALE(int16, int20, 100) * 60), 100, int6)));
             int23 = MAX(0, MIN(10000, SCALE((SCALE(int16, int20, 100) * 70), 100, int6)));
             int25 = (SCALE((100 + ((MIN(int17, 6) - 4) * 25)), 100, script6680(4)) / 2);
-            int27 = enum_getvalue(0, 0, 7338 as cs2enum, item_getparam(int12, 4));
+            int27 = enum_getvalue(0, 0, 7338, item_getparam(int12, 4));
             int28 = item_getparam(int13, 643);
             if ((item_getparam(int12, 1047) != 1)) {
-                int28 = MIN(enum_getvalue(0, 0, 7443 as cs2enum, item_getparam(int12, 23)), int28);
+                int28 = MIN(enum_getvalue(0, 0, 7443, item_getparam(int12, 23)), int28);
             } else {
-                int28 = MIN(enum_getvalue(0, 0, 7443 as cs2enum, item_getparam(int12, 750)), int28);
+                int28 = MIN(enum_getvalue(0, 0, 7443, item_getparam(int12, 750)), int28);
             };
             if (((int9 == 10) || (item_getparam(int12, 21) != OC_CATEGORY(int13)))) {
                 int28 = 0;
@@ -118,19 +118,19 @@ function script8463(int0: number): void {
         }
         case 3: {
             string1 = "Spell";
-            if ((int18 != -1 as struct)) {
-                string0 = enum_getvalue(0, 36, 6744 as cs2enum, struct_getparam(int18, 2873));
+            if ((int18 != -1)) {
+                string0 = enum_getvalue(0, 36, 6744, struct_getparam(int18, 2873));
             } else {
                 string0 = "-";
             };
             int21 = MAX(0, MIN(10000, SCALE((SCALE(int16, int20, 100) * 70), 100, int4)));
             int22 = MAX(0, MIN(10000, SCALE((SCALE(int16, int20, 100) * 50), 100, int4)));
             int23 = MAX(0, MIN(10000, SCALE((SCALE(int16, int20, 100) * 60), 100, int4)));
-            if ((int18 != -1 as struct)) {
+            if ((int18 != -1)) {
                 int25 = (SCALE((100 + ((int17 - 4) * 25)), 100, script6680(6)) / 2);
-                int27 = enum_getvalue(0, 0, 7338 as cs2enum, item_getparam(int12, 3));
+                int27 = enum_getvalue(0, 0, 7338, item_getparam(int12, 3));
                 int29 = MAX(0, ((MIN(int27, struct_getparam(int18, 2879)) - struct_getparam(int18, 2807)) * struct_getparam(int18, 2878)));
-                int24 = SCALE(((MIN(enum_getvalue(0, 0, 7443 as cs2enum, int27), struct_getparam(int18, 2877)) + int29) / 10), 100, 50);
+                int24 = SCALE(((MIN(enum_getvalue(0, 0, 7443, int27), struct_getparam(int18, 2877)) + int29) / 10), 100, 50);
             } else {
                 int14 = 0;
             };
@@ -142,7 +142,7 @@ function script8463(int0: number): void {
             int22 = MAX(0, MIN(10000, SCALE((SCALE(int16, int20, 100) * 60), 100, int7)));
             int23 = MAX(0, MIN(10000, SCALE((SCALE(int16, int20, 100) * 60), 100, int7)));
             int25 = (SCALE(script6680(28), 100, (100 + ((int17 - 4) * 25))) / 2);
-            int27 = enum_getvalue(0, 0, 7338 as cs2enum, item_getparam(int12, 8879));
+            int27 = enum_getvalue(0, 0, 7338, item_getparam(int12, 8879));
             int24 = (item_getparam(int12, 8881) / 10);
             int26 = ((int14 - int24) - int25);
             string2 = "N/A";
@@ -173,11 +173,11 @@ function script8463(int0: number): void {
         if ((int15 > 0)) {
             string3 = `Weapon : <col=00FF00>${inttostring(script7244(int12), 10)}</col><br>Skill Bonus : <col=00FF00>${inttostring(int8, 10)}</col><br>Hybrid Nerf : <col=00FF00>-${inttostring(int15, 10)}</col>`;
         };
-        IF_SETONMOUSEREPEAT(callback(script3876, string3, -2147483645, -2147483643), 102170690);
-        IF_SETONMOUSELEAVE(callback(script8805), 102170690);
+        IF_SETONMOUSEREPEAT(callback(script3876, string3, -2147483645, -2147483643), comp(1559, 66));
+        IF_SETONMOUSELEAVE(callback(script8805), comp(1559, 66));
         string3 = `${string1} : <col=00FF00>${inttostring(int24, 10)}</col><br>Skill Bonus : <col=00FF00>${inttostring(int25, 10)}</col><br>Damage Bonus : <col=00FF00>${inttostring(int26, 10)}</col>`;
-        IF_SETONMOUSEREPEAT(callback(script3876, string3, -2147483645, -2147483643), 102170685);
-        IF_SETONMOUSELEAVE(callback(script8805), 102170685);
+        IF_SETONMOUSEREPEAT(callback(script3876, string3, -2147483645, -2147483643), comp(1559, 61));
+        IF_SETONMOUSELEAVE(callback(script8805), comp(1559, 61));
     } else {
         IF_SETTEXT(inttostring(int14, 10), comp(1463, 68));
         IF_SETTEXT(inttostring(int16, 10), comp(1463, 73));
@@ -190,11 +190,11 @@ function script8463(int0: number): void {
         if ((int15 > 0)) {
             string3 = `Weapon : <col=00FF00>${inttostring(script7244(int12), 10)}</col><br>Skill Bonus : <col=00FF00>${inttostring(int8, 10)}</col><br>Hybrid Nerf : <col=00FF00>-${inttostring(int15, 10)}</col>`;
         };
-        IF_SETONMOUSEREPEAT(callback(script3876, string3, -2147483645, -2147483643), 95879239);
-        IF_SETONMOUSELEAVE(callback(script8805), 95879239);
+        IF_SETONMOUSEREPEAT(callback(script3876, string3, -2147483645, -2147483643), comp(1463, 71));
+        IF_SETONMOUSELEAVE(callback(script8805), comp(1463, 71));
         string3 = `${string1} : <col=00FF00>${inttostring(int24, 10)}</col><br>Skill Bonus : <col=00FF00>${inttostring(int25, 10)}</col><br>Damage Bonus : <col=00FF00>${inttostring(int26, 10)}</col>`;
-        IF_SETONMOUSEREPEAT(callback(script3876, string3, -2147483645, -2147483643), 95879234);
-        IF_SETONMOUSELEAVE(callback(script8805), 95879234);
+        IF_SETONMOUSEREPEAT(callback(script3876, string3, -2147483645, -2147483643), comp(1463, 66));
+        IF_SETONMOUSELEAVE(callback(script8805), comp(1463, 66));
     };
     return;
 }

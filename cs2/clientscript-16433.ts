@@ -1,15 +1,14 @@
 //
 function script16433(): void {
     DB_LISTALL(168);
-    dbrow_findnext();
-    var int0 = stack();
+    var int0 = dbrow_findnext();
     var string0 = "";
     var int1 = 0;
     var int2 = 0;
     var int3 = -1;
-    CC_DELETEALL(43843608);
+    CC_DELETEALL(comp(669, 24));
     var int4 = 0;
-    while ((int0 != -1 as dbrow)) {
+    while ((int0 != -1)) {
         if ((script16421(int0) == 1)) {
             int3 = dbrow_getfield(int0, 688272, 0);
             if (((int3 == 5386 as graphic) || (int3 == 5387 as graphic))) {
@@ -45,8 +44,7 @@ function script16433(): void {
             CC_SETHIDE(false);
             int1 = (int1 + 22);
         };
-        dbrow_findnext();
-        int0 = stack();
+        int0 = dbrow_findnext();
     };
     if ((int1 > 0)) {
         CC_CREATE(comp(669, 24), 5, int2);

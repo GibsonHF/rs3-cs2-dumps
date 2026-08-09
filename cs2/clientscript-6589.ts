@@ -14,19 +14,19 @@ function script6589(int0: number, int1: number, int2: number): number {
     };
     switch (int0) {
         case 569: {
-            int3 = script6678(14780 as struct, 0, int2);
+            int3 = script6678(14780, 0, int2);
             break;
         }
         case 571: {
-            int3 = script6678(14771 as struct, 0, int2);
+            int3 = script6678(14771, 0, int2);
             break;
         }
         case 573: {
-            int3 = script6678(14783 as struct, 0, int2);
+            int3 = script6678(14783, 0, int2);
             break;
         }
         case 575: {
-            int3 = script6678(14775 as struct, 0, int2);
+            int3 = script6678(14775, 0, int2);
             break;
         }
         case 21640:
@@ -37,7 +37,7 @@ function script6589(int0: number, int1: number, int2: number): number {
         case 21670:
         case 21655:
         case 21675: {
-            int3 = script6678(14861 as struct, 2, int2);
+            int3 = script6678(14861, 2, int2);
             break;
         }
         case 25613:
@@ -50,7 +50,7 @@ function script6589(int0: number, int1: number, int2: number): number {
         case 25620:
         case 25621:
         case 48442: {
-            int3 = script6678(14854 as struct, 2, int2);
+            int3 = script6678(14854, 2, int2);
             break;
         }
         default: {

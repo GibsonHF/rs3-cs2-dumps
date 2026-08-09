@@ -7,12 +7,13 @@ function script17703(int0: number, int1: number, int2: number): number {
     var int4 = 0;
     var string0 = "";
     var int5 = -1 as obj;
-    var int6 = -1 as obj;
-    var int7 = -1 as obj;
+    var int6 = -1;
+    var int7 = -1;
     var int8 = 0;
     var string1 = "<col=00ff00>";
     var int9 = -1;
-    while ((++int9 < int3)) {
+    int9 = (int9 + 1);
+    while ((int9 < int3)) {
         string0 = "";
         switch (int9) {
             case 0: {
@@ -21,36 +22,36 @@ function script17703(int0: number, int1: number, int2: number): number {
                     string0 = "-";
                 };
                 int5 = 55336 as obj;
-                int6 = 61367 as obj;
-                int7 = 61176 as obj;
+                int6 = 61367;
+                int7 = 61176;
                 break;
             }
             case 1: {
                 int4 = script18436(int1, 55337);
                 int5 = 55337 as obj;
-                int6 = 61418 as obj;
-                int7 = 61199 as obj;
+                int6 = 61418;
+                int7 = 61199;
                 break;
             }
             case 2: {
                 int4 = script18436(int1, 55338);
                 int5 = 55338 as obj;
-                int6 = 61419 as obj;
-                int7 = 61200 as obj;
+                int6 = 61419;
+                int7 = 61200;
                 break;
             }
             case 3: {
                 int4 = script18436(int1, 55339);
                 int5 = 55339 as obj;
-                int6 = 61420 as obj;
-                int7 = 61201 as obj;
+                int6 = 61420;
+                int7 = 61201;
                 break;
             }
             case 4: {
                 int4 = script18436(int1, 55340);
                 int5 = 55340 as obj;
-                int6 = 61421 as obj;
-                int7 = 61202 as obj;
+                int6 = 61421;
+                int7 = 61202;
                 break;
             }
         };

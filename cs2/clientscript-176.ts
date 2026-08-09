@@ -23,5 +23,6 @@ function script176(int0: number, int1: number, int2: number, int3: number, int4:
     CC_SETTEXT(string0);
     CC_SETSIZE(int13, int14, 0, 0);
     CC_SETPOSITION((int2 + int11), (int3 + int12), 0, 0);
-    return [++int1, (int3 + MAX(int7, int14))];
+    int1 = (int1 + 1);
+    return [int1, (int3 + MAX(int7, int14))];
 }

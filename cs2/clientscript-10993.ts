@@ -4,11 +4,11 @@ function script10993(int0: number): void {
         return;
     };
     var int1 = enum_getvalue(0, 9, 5960 as cs2enum, int0);
-    var int2 = comp(-1, 65535);
+    var int2 = -1;
     if ((varclient_2699 != -1)) {
-        int2 = enum_getvalue(0, 9, 5960 as cs2enum, varclient_2699);
+        int2 = enum_getvalue(0, 9, 5960, varclient_2699);
     };
-    var int3 = enum_getvalue(0, 9, 5961 as cs2enum, int0);
+    var int3 = enum_getvalue(0, 9, 5961, int0);
     var int4 = 0;
     while ((int4 < ENUM_GETOUTPUTCOUNT(5960 as cs2enum))) {
         if ((int4 == int0)) {
@@ -26,7 +26,7 @@ function script10993(int0: number): void {
         script7491(int0, varbitplayer_678, 0, varclient_6786);
         int5 = 0;
         IF_SETHIDE(false, int3);
-        if (((int2 != comp(-1, 65535)) && (CC_FIND(int2, 0) == 1))) {
+        if (((int2 != -1) && (CC_FIND(int2, 0) == 1))) {
             CC_SETGRAPHIC(19305 as graphic);
         };
         script6470(int3);

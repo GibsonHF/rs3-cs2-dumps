@@ -10,7 +10,7 @@ function script8406(int0: number, int1: number): [number, number] {
         while ((CC_GETDYNAMICLAYER() == 1)) {
             if ((CC_GETID() != -1)) {
                 int2 = (int2 + (CC_GETX() - CC_GETSCROLLX()));
-                int3 = (int3 + operator("-", CC_GETSCROLLY(CC_GETY())));
+                int3 = (int3 + SUB(CC_GETSCROLLY(CC_GETY())));
             };
         };
         while ((IF_GETPARENTLAYER(int4) != comp(-1, 65535))) {

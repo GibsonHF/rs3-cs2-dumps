@@ -15,7 +15,9 @@ function script16645(int0: number): void {
     var int7 = (10 + (int4 * (60 + 10)));
     IF_SETSCROLLSIZE(0, int7, int0);
     var int8 = 0;
-    while ((int8++ < int6)) {
+    stack(int8);
+    int8 = (int8 + 1);
+    while (BRANCH_LESS_THAN(int6)) {
         script16646(int0, int8, int5);
     };
     script7791(39124996, int0);

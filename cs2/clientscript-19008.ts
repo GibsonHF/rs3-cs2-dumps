@@ -54,7 +54,7 @@ function script19008(): void {
             IF_SETONVARTRANSMIT(callback(script18996, 11753, 1), comp(1870, 16));
             int1 = 7;
             int2 = 7;
-            int5 = 17514;
+            int5 = 17514 as cs2enum;
             int0 = 43;
             break;
         }

@@ -35,9 +35,9 @@ function script9750(): void {
                 IF_SETGRAPHIC(17535 as graphic, comp(1049, 75));
                 string0 = "Party sizes of 3 to 5 are restricted to large dungeons in Hard Mode.";
             };
-            IF_SETONMOUSEREPEAT(callback(script8799, string0, 68747316, -1), 68747316);
-            IF_SETONMOUSEREPEAT(callback(script8799, string0, 68747318, -1), 68747318);
-            IF_SETONMOUSEREPEAT(callback(script8799, string0, 68747320, -1), 68747320);
+            IF_SETONMOUSEREPEAT(callback(script8799, string0, 68747316, -1), comp(1049, 52));
+            IF_SETONMOUSEREPEAT(callback(script8799, string0, 68747318, -1), comp(1049, 54));
+            IF_SETONMOUSEREPEAT(callback(script8799, string0, 68747320, -1), comp(1049, 56));
         };
     } else {
         IF_SETHIDE(true, comp(1049, 52));

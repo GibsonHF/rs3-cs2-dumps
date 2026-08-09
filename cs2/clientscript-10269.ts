@@ -137,6 +137,7 @@ function script10269(int0: number): number {
             return varbitplayer_43427;
         }
         case 57: {
+            break;
         }
         default: {
             return 1;

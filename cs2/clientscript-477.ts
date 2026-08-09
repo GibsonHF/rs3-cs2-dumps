@@ -1,24 +1,18 @@
 //
-function script477(int0: number): [number, number, string, number] {
+function script477(int0: number): [number, number, number, string] {
     var int1 = 0;
     var int2 = 0;
-    var int3 = false;
+    var int3 = 0;
     var string0 = "";
     switch (varplayer_8004) {
         case 32052: {
             switch (int0) {
                 case 1: {
-                    stack(varbitplayer_41371);
-                    stack(enum_getvalue(0, 1, 12137 as cs2enum, varbitplayer_41371));
-                    stack(enum_getvalue(0, 36, 108 as cs2enum, varbitplayer_41371));
-                    [int1, int3, string0, int2] = [stack(), varbitplayer_41379];
+                    [int1, int3, string0, int2] = [varbitplayer_41371, enum_getvalue(0, 1, 12137 as cs2enum, varbitplayer_41371), enum_getvalue(0, 36, 108 as cs2enum, varbitplayer_41371), varbitplayer_41379];
                     break;
                 }
                 case 2: {
-                    stack(varbitplayer_41372);
-                    stack(enum_getvalue(0, 1, 12137 as cs2enum, varbitplayer_41372));
-                    stack(enum_getvalue(0, 36, 108 as cs2enum, varbitplayer_41372));
-                    [int1, int3, string0, int2] = [stack(), varbitplayer_41380];
+                    [int1, int3, string0, int2] = [varbitplayer_41372, enum_getvalue(0, 1, 12137, varbitplayer_41372), enum_getvalue(0, 36, 108, varbitplayer_41372), varbitplayer_41380];
                     break;
                 }
             };
@@ -27,17 +21,11 @@ function script477(int0: number): [number, number, string, number] {
         case 32053: {
             switch (int0) {
                 case 1: {
-                    stack(varbitplayer_41373);
-                    stack(enum_getvalue(0, 1, 12137 as cs2enum, varbitplayer_41373));
-                    stack(enum_getvalue(0, 36, 108 as cs2enum, varbitplayer_41373));
-                    [int1, int3, string0, int2] = [stack(), varbitplayer_41381];
+                    [int1, int3, string0, int2] = [varbitplayer_41373, enum_getvalue(0, 1, 12137, varbitplayer_41373), enum_getvalue(0, 36, 108, varbitplayer_41373), varbitplayer_41381];
                     break;
                 }
                 case 2: {
-                    stack(varbitplayer_41374);
-                    stack(enum_getvalue(0, 1, 12137 as cs2enum, varbitplayer_41374));
-                    stack(enum_getvalue(0, 36, 108 as cs2enum, varbitplayer_41374));
-                    [int1, int3, string0, int2] = [stack(), varbitplayer_41382];
+                    [int1, int3, string0, int2] = [varbitplayer_41374, enum_getvalue(0, 1, 12137, varbitplayer_41374), enum_getvalue(0, 36, 108, varbitplayer_41374), varbitplayer_41382];
                     break;
                 }
             };
@@ -46,17 +34,11 @@ function script477(int0: number): [number, number, string, number] {
         case 32054: {
             switch (int0) {
                 case 1: {
-                    stack(varbitplayer_41375);
-                    stack(enum_getvalue(0, 1, 12137 as cs2enum, varbitplayer_41375));
-                    stack(enum_getvalue(0, 36, 108 as cs2enum, varbitplayer_41375));
-                    [int1, int3, string0, int2] = [stack(), varbitplayer_41383];
+                    [int1, int3, string0, int2] = [varbitplayer_41375, enum_getvalue(0, 1, 12137, varbitplayer_41375), enum_getvalue(0, 36, 108, varbitplayer_41375), varbitplayer_41383];
                     break;
                 }
                 case 2: {
-                    stack(varbitplayer_41376);
-                    stack(enum_getvalue(0, 1, 12137 as cs2enum, varbitplayer_41376));
-                    stack(enum_getvalue(0, 36, 108 as cs2enum, varbitplayer_41376));
-                    [int1, int3, string0, int2] = [stack(), varbitplayer_41384];
+                    [int1, int3, string0, int2] = [varbitplayer_41376, enum_getvalue(0, 1, 12137, varbitplayer_41376), enum_getvalue(0, 36, 108, varbitplayer_41376), varbitplayer_41384];
                     break;
                 }
             };
@@ -65,17 +47,11 @@ function script477(int0: number): [number, number, string, number] {
         case 32055: {
             switch (int0) {
                 case 1: {
-                    stack(varbitplayer_41377);
-                    stack(enum_getvalue(0, 1, 12137 as cs2enum, varbitplayer_41377));
-                    stack(enum_getvalue(0, 36, 108 as cs2enum, varbitplayer_41377));
-                    [int1, int3, string0, int2] = [stack(), varbitplayer_41385];
+                    [int1, int3, string0, int2] = [varbitplayer_41377, enum_getvalue(0, 1, 12137, varbitplayer_41377), enum_getvalue(0, 36, 108, varbitplayer_41377), varbitplayer_41385];
                     break;
                 }
                 case 2: {
-                    stack(varbitplayer_41378);
-                    stack(enum_getvalue(0, 1, 12137 as cs2enum, varbitplayer_41378));
-                    stack(enum_getvalue(0, 36, 108 as cs2enum, varbitplayer_41378));
-                    [int1, int3, string0, int2] = [stack(), varbitplayer_41386];
+                    [int1, int3, string0, int2] = [varbitplayer_41378, enum_getvalue(0, 1, 12137, varbitplayer_41378), enum_getvalue(0, 36, 108, varbitplayer_41378), varbitplayer_41386];
                     break;
                 }
             };
@@ -84,29 +60,20 @@ function script477(int0: number): [number, number, string, number] {
         default: {
             switch (int0) {
                 case 1: {
-                    stack(varbitplayer_34961);
-                    stack(enum_getvalue(0, 1, 12137 as cs2enum, varbitplayer_34961));
-                    stack(enum_getvalue(0, 36, 108 as cs2enum, varbitplayer_34961));
-                    [int1, int3, string0, int2] = [stack(), varbitplayer_41367];
+                    [int1, int3, string0, int2] = [varbitplayer_34961, enum_getvalue(0, 1, 12137, varbitplayer_34961), enum_getvalue(0, 36, 108, varbitplayer_34961), varbitplayer_41367];
                     break;
                 }
                 case 2: {
-                    stack(varbitplayer_34962);
-                    stack(enum_getvalue(0, 1, 12137 as cs2enum, varbitplayer_34962));
-                    stack(enum_getvalue(0, 36, 108 as cs2enum, varbitplayer_34962));
-                    [int1, int3, string0, int2] = [stack(), varbitplayer_41368];
+                    [int1, int3, string0, int2] = [varbitplayer_34962, enum_getvalue(0, 1, 12137, varbitplayer_34962), enum_getvalue(0, 36, 108, varbitplayer_34962), varbitplayer_41368];
                     break;
                 }
                 case 3: {
-                    stack(varbitplayer_34963);
-                    stack(enum_getvalue(0, 1, 12137 as cs2enum, varbitplayer_34963));
-                    stack(enum_getvalue(0, 36, 108 as cs2enum, varbitplayer_34963));
-                    [int1, int3, string0, int2] = [stack(), varbitplayer_41369];
+                    [int1, int3, string0, int2] = [varbitplayer_34963, enum_getvalue(0, 1, 12137, varbitplayer_34963), enum_getvalue(0, 36, 108, varbitplayer_34963), varbitplayer_41369];
                     break;
                 }
             };
             if ((int1 == 31)) {
-                int3 = true;
+                int3 = 1;
             };
             break;
         }

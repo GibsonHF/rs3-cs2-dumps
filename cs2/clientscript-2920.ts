@@ -7,15 +7,15 @@ function script2920(int0: number, int1: number, string0: string): void {
         varclient_2478 = "";
     };
     IF_SETTEXT(varclient_2478, comp(914, 3));
-    if ((IF_GETHIDE(enum_getvalue(0, 9, script17126(), 4)) == false)) {
+    if ((IF_GETHIDE(enum_getvalue(0, 9, script17126(), 4)) == 0)) {
         script3161(0);
     };
-    IF_SETONKEY(callback(script3185, -2147483640, -2147483639, -2147483645), 59899907);
+    IF_SETONKEY(callback(script3185, -2147483640, -2147483639, -2147483645), comp(914, 3));
     varclient_1097 = STRING_LENGTH(varclient_2478);
     script1566(0, varclient_2478, 12);
-    IF_SETONCLICK(callback(script1878, -2147483647, 59899907, 59899908), 59899907);
+    IF_SETONCLICK(callback(script1878, -2147483647, 59899907, 59899908), comp(914, 3));
     script1879(59899907, 59899908, varclient_2478);
-    IF_SETHIDE(1, 59899908);
+    IF_SETHIDE(true, comp(914, 4));
     if ((int0 == 1)) {
         script7886(59899916, 1, 1, varclient_6);
         if (((int1 == 5) || (int1 == 6))) {

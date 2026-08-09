@@ -1,6 +1,6 @@
 //
 function script993(int0: number, int1: number, int2: number): void {
-    if ((int1 == -1 as struct)) {
+    if ((int1 == -1)) {
         return;
     };
     var int3 = comp(204, 85);
@@ -30,20 +30,29 @@ function script993(int0: number, int1: number, int2: number): void {
         };
     };
     CC_DELETEALL(int3);
-    while ((++int4 < 24)) {
+    int4 = (int4 + 1);
+    while ((int4 < 24)) {
         if ((int4 < int14)) {
             if ((int10 == -1 as cs2enum)) {
-                if (((int12 == 1) && (int11 != -1 as struct))) {
-                    int13 = struct_getparam(int11, 7439);
-                    int8 = struct_getparam(int11, 7437);
+                if ((int12 == 1)) {
+                    if ((int11 != -1 as struct)) {
+                        int13 = struct_getparam(int11, 7439);
+                        int8 = struct_getparam(int11, 7437);
+                    } else if ((int12 == 0)) {
+                        int13 = struct_getparam(int1, 7439);
+                    };
                 } else if ((int12 == 0)) {
                     int13 = struct_getparam(int1, 7439);
                 };
             } else {
                 [int8, int13] = [enum_getvalue(0, 33, int10, int4), 1];
             };
-        } else if (((int4 < (int14 + int15)) && ((int4 - int14) < int15))) {
-            [int8, int13] = [int7, 1];
+        } else if ((int4 < (int14 + int15))) {
+            if (((int4 - int14) < int15)) {
+                [int8, int13] = [int7, 1];
+            } else {
+                int8 = -1 as obj;
+            };
         } else {
             int8 = -1 as obj;
         };

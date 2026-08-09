@@ -8,15 +8,15 @@ function script6732(): void {
     var int5 = 0;
     var int6 = 0;
     var int7 = 0;
-    var int8 = comp(-1, 65535);
+    var int8 = -1;
     var int9 = 0;
     var int10 = 0;
     var string0 = "Prestige";
     var string1 = "";
     var string2 = "";
-    var int11 = -1 as struct;
+    var int11 = -1;
     while ((int0 < ENUM_GETOUTPUTCOUNT(9031 as cs2enum))) {
-        int11 = enum_getvalue(0, 73, 9031 as cs2enum, int0);
+        int11 = enum_getvalue(0, 73, 9031, int0);
         int3 = -1;
         int5 = -1;
         switch (int11) {
@@ -285,11 +285,11 @@ function script6732(): void {
         if ((int2 != -1)) {
             switch (MODULO(int1, 2)) {
                 case 0: {
-                    int8 = comp(753, 103);
+                    int8 = 49348711;
                     break;
                 }
                 case 1: {
-                    int8 = comp(753, 105);
+                    int8 = 49348713;
                     break;
                 }
             };
@@ -328,13 +328,14 @@ function script6732(): void {
             CC_SETTEXTALIGN(2, 1, 0);
             CC_SETCOLOUR(16777215);
             if ((int3 != -1)) {
-                switch (MODULO(++int1, 2)) {
+                int1 = (int1 + 1);
+                switch (MODULO(int1, 2)) {
                     case 0: {
-                        int8 = comp(753, 103);
+                        int8 = 49348711;
                         break;
                     }
                     case 1: {
-                        int8 = comp(753, 105);
+                        int8 = 49348713;
                         break;
                     }
                 };

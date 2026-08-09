@@ -4,9 +4,9 @@ function script19931(int0: number): number {
     var int2 = CC_SETPARAM_STRING(WORLDMAP_LISTELEMENT_START(1306640, int1, 3, 0), 1306624, 1, -1, 0);
     var int3 = -1;
     var int4 = -1;
-    while ((++int3 < int2)) {
-        dbrow_findnext();
-        int4 = stack();
+    int3 = (int3 + 1);
+    while ((int3 < int2)) {
+        int4 = dbrow_findnext();
         if ((int4 == int0)) {
             return int3;
         };

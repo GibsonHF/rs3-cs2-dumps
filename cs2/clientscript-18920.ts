@@ -4,7 +4,7 @@ function script18920(int0: number, int1: number): number {
     var int3 = -1;
     var int4 = 0;
     var int5 = script18919(int0);
-    if ((int0 != -1 as dbrow)) {
+    if ((int0 != -1)) {
         switch (int1) {
             case -1: {
                 int2 = 0;
@@ -31,11 +31,7 @@ function script18920(int0: number, int1: number): number {
                 break;
             }
             case 11: {
-                stack(int0);
-                stack(1167584);
-                stack(0);
-                dbrow_getfield();
-                int2 = stack();
+                int2 = dbrow_getfield(int0, 1167584, 0);
                 break;
             }
             case 13: {

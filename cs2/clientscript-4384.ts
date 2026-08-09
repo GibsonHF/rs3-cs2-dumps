@@ -2,9 +2,18 @@
 function script4384(int0: number, int1: number, int2: number): [number, number] {
     var int3 = enum_getvalue(0, 23, 3686 as cs2enum, int0);
     var int4 = enum_getvalue(0, 23, 3686 as cs2enum, int1);
-    if (((int2 == 1) && ((varbitclansettings_8809 == 1) || (ACTIVECLANSETTINGS_GETAFFINEDCOUNT() < 5)))) {
-        int3 = 5723 as graphic;
-        int4 = 5789 as graphic;
+    if ((int2 == 1)) {
+        if (((varbitclansettings_8809 == 1) || (ACTIVECLANSETTINGS_GETAFFINEDCOUNT() < 5))) {
+            int3 = 5723 as graphic;
+            int4 = 5789 as graphic;
+        } else {
+            if ((int3 == -1 as graphic)) {
+                int3 = 5723 as graphic;
+            };
+            if ((int4 == -1 as graphic)) {
+                int4 = 5789 as graphic;
+            };
+        };
     } else {
         if ((int3 == -1 as graphic)) {
             int3 = 5723 as graphic;

@@ -3,22 +3,21 @@ function script6575(): void {
     stack(974848);
     stack(varbitplayer_54002);
     DB_FIND(0);
-    dbrow_findnext();
-    var int0 = stack();
+    var int0 = dbrow_findnext();
     if ((int0 == -1)) {
         script12478("Null dbrow");
         return;
     };
-    var int1 = -1 as dbrow;
+    var int1 = -1;
     var int2 = -1;
-    var int3 = comp(-1, 65535);
-    var int4 = comp(-1, 65535);
-    var int5 = -1 as achievement;
-    var int6 = -1 as achievement;
-    var int7 = -1 as achievement;
+    var int3 = -1;
+    var int4 = -1;
+    var int5 = -1;
+    var int6 = -1;
+    var int7 = -1;
     var string0 = "";
-    var int8 = -1 as graphic;
-    var int9 = -1 as obj;
+    var int8 = -1;
+    var int9 = -1;
     var int10 = 0;
     var int11 = 0;
     var int12 = DB_GETFIELDCOUNT(int0, 974896);
@@ -26,11 +25,11 @@ function script6575(): void {
     var int14 = 0;
     while ((int14 < 4)) {
         int1 = script7480(int14);
-        if ((int1 == -1 as dbrow)) {
+        if ((int1 == -1)) {
             script12478(`Null progress bar data for ${inttostring(int14, 10)}`);
             return;
         };
-        IF_SETTEXT(enum_getvalue(0, 36, 17001 as cs2enum, (int13 + int14)), dbrow_getfield(int1, 978976, 0));
+        IF_SETTEXT(enum_getvalue(0, 36, 17001, (int13 + int14)), dbrow_getfield(int1, 978976, 0));
         int3 = dbrow_getfield(int1, 978960, 0);
         if ((int14 < int12)) {
             int2 = script11706(int0, int14);
@@ -54,11 +53,11 @@ function script6575(): void {
         int2 = -1;
         int14 = (int14 + 1);
     };
-    if (((int5 == -1 as achievement) && (int6 != -1 as achievement))) {
+    if (((int5 == -1) && (int6 != -1))) {
         int5 = int6;
     };
     CC_DELETEALL(comp(755, 6));
-    if ((int5 != -1 as achievement)) {
+    if ((int5 != -1)) {
         ACHIEVEMENT_FINDPARENTS(int5);
         int7 = ACHIEVEMENT_FINDNEXT();
         IF_SETTEXT(`Recommended Task: ${ACHIEVEMENT_GETNAME(int5)}`, comp(755, 4));
@@ -81,8 +80,9 @@ function script6575(): void {
     };
     var int15 = -1;
     int14 = int12;
-    int7 = -1 as achievement;
-    while ((--int14 >= 0)) {
+    int7 = -1;
+    int14 = (int14 - 1);
+    while ((int14 >= 0)) {
         int7 = script8438(int0, int14);
         if ((ACHIEVEMENT_REQSTATE(int7) != -2)) {
             int15 = int14;
@@ -91,7 +91,7 @@ function script6575(): void {
     if ((int15 == -1)) {
         int15 = (int12 - 1);
     };
-    IF_SETTEXT(enum_getvalue(0, 36, 17002 as cs2enum, (int15 + int13)), comp(755, 79));
+    IF_SETTEXT(enum_getvalue(0, 36, 17002, (int15 + int13)), 49479759);
     script1025(49479759, -1, 209, 208, 207);
     int7 = script8438(int0, int15);
     int9 = script11707(int0, int15);

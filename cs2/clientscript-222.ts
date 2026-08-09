@@ -6,6 +6,6 @@ function script222(): void {
         IGNORE_ADD_TEMP(varclient_2578);
         MES_TYPED(26, 0, `You are ignoring ${varclient_2578} until you log out.`);
     };
-    varclient_11 = false;
+    varclient_11 = 0;
     return;
 }

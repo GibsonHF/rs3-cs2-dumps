@@ -53,9 +53,17 @@ function script8381(int0: number, int1: number, int2: number, int3: number, int4
                         break;
                     }
                     case 0: {
-                        if (((int19 < int21) && ((int8 - int19) >= int13))) {
-                            int6 = (int6 + int19);
-                            int8 = (int8 - int19);
+                        if ((int19 < int21)) {
+                            if (((int8 - int19) >= int13)) {
+                                int6 = (int6 + int19);
+                                int8 = (int8 - int19);
+                            } else if (((int9 - int21) >= int14)) {
+                                int7 = (int7 + int21);
+                                int9 = (int9 - int21);
+                            } else {
+                                int6 = (int6 + int19);
+                                int8 = (int8 - int19);
+                            };
                         } else if (((int9 - int21) >= int14)) {
                             int7 = (int7 + int21);
                             int9 = (int9 - int21);
@@ -66,8 +74,15 @@ function script8381(int0: number, int1: number, int2: number, int3: number, int4
                         break;
                     }
                     case 2: {
-                        if (((int20 < int21) && ((int8 - int20) >= int13))) {
-                            int8 = (int8 - int20);
+                        if ((int20 < int21)) {
+                            if (((int8 - int20) >= int13)) {
+                                int8 = (int8 - int20);
+                            } else if (((int9 - int21) >= int14)) {
+                                int7 = (int7 + int21);
+                                int9 = (int9 - int21);
+                            } else {
+                                int8 = (int8 - int20);
+                            };
                         } else if (((int9 - int21) >= int14)) {
                             int7 = (int7 + int21);
                             int9 = (int9 - int21);
@@ -77,9 +92,16 @@ function script8381(int0: number, int1: number, int2: number, int3: number, int4
                         break;
                     }
                     case 5: {
-                        if (((int19 < int22) && ((int8 - int19) >= int13))) {
-                            int6 = (int6 + int19);
-                            int8 = (int8 - int19);
+                        if ((int19 < int22)) {
+                            if (((int8 - int19) >= int13)) {
+                                int6 = (int6 + int19);
+                                int8 = (int8 - int19);
+                            } else if (((int9 - int22) >= int14)) {
+                                int9 = (int9 - int22);
+                            } else {
+                                int6 = (int6 + int19);
+                                int8 = (int8 - int19);
+                            };
                         } else if (((int9 - int22) >= int14)) {
                             int9 = (int9 - int22);
                         } else {
@@ -89,8 +111,14 @@ function script8381(int0: number, int1: number, int2: number, int3: number, int4
                         break;
                     }
                     case 7: {
-                        if (((int20 < int22) && ((int8 - int20) >= int13))) {
-                            int8 = (int8 - int20);
+                        if ((int20 < int22)) {
+                            if (((int8 - int20) >= int13)) {
+                                int8 = (int8 - int20);
+                            } else if (((int9 - int22) >= int14)) {
+                                int9 = (int9 - int22);
+                            } else {
+                                int8 = (int8 - int20);
+                            };
                         } else if (((int9 - int22) >= int14)) {
                             int9 = (int9 - int22);
                         } else {
@@ -106,11 +134,15 @@ function script8381(int0: number, int1: number, int2: number, int3: number, int4
                 int26 = (int25 - 1);
             };
         };
-        if (((int27 == int26) && (int24 != -1))) {
-            int27 = 0;
-            int25 = int24;
-            int26 = (int25 - 1);
-            int24 = -1;
+        if ((int27 == int26)) {
+            if ((int24 != -1)) {
+                int27 = 0;
+                int25 = int24;
+                int26 = (int25 - 1);
+                int24 = -1;
+            } else {
+                int27 = (int27 + 1);
+            };
         } else {
             int27 = (int27 + 1);
         };

@@ -30,10 +30,24 @@ function script4319(int0: number, int1: number): void {
         int3 = MAX(int3, 115);
         IF_SETSIZE(IF_GETWIDTH(int4), int3, 0, 0, int4);
         IF_SETSIZE(IF_GETWIDTH(int5), (int3 - 62), 0, 1, int5);
-        if (((int1 == 0) && (int3 >= 224))) {
-            IF_SETONTIMER(callback(), int4);
-        } else if (((int1 == 1) && (int3 <= 115))) {
-            IF_SETONTIMER(callback(), int4);
+        if ((int1 == 0)) {
+            if ((int3 >= 224)) {
+                IF_SETONTIMER(callback(), int4);
+            } else if ((int1 == 1)) {
+                if ((int3 <= 115)) {
+                    IF_SETONTIMER(callback(), int4);
+                } else {
+                    IF_SETONTIMER(callback(script4319, int2, int1), int4);
+                };
+            } else {
+                IF_SETONTIMER(callback(script4319, int2, int1), int4);
+            };
+        } else if ((int1 == 1)) {
+            if ((int3 <= 115)) {
+                IF_SETONTIMER(callback(), int4);
+            } else {
+                IF_SETONTIMER(callback(script4319, int2, int1), int4);
+            };
         } else {
             IF_SETONTIMER(callback(script4319, int2, int1), int4);
         };

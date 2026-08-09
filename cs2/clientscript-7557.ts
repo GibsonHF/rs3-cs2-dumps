@@ -1,26 +1,26 @@
 //
 function script7557(int0: number): void {
     var int1 = 0;
-    var int2 = 91619394;
+    var int2 = comp(1398, 66);
     switch (int0) {
         case 91619329: {
             int1 = (varbitplayer_18117 * 11);
-            int2 = 91619375;
+            int2 = comp(1398, 47);
             break;
         }
         case 91619328: {
             int1 = (varbitplayer_18116 * 11);
-            int2 = 91619377;
+            int2 = comp(1398, 49);
             break;
         }
         case 91619330: {
             int1 = (varbitplayer_18119 * 11);
-            int2 = 91619373;
+            int2 = comp(1398, 45);
             break;
         }
         case 91619331: {
             int1 = (varbitplayer_18118 * 11);
-            int2 = 91619372;
+            int2 = comp(1398, 44);
             break;
         }
     };

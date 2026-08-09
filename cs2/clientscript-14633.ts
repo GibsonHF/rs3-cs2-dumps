@@ -2,18 +2,20 @@
 function script14633(int0: number, int1: number, int2: number): string {
     var int3 = script14634(int0, int1, int2);
     var string0 = `<img=7> ${TOSTRING_LOCALISED((int3 / 10), 1)} Archaeology XP`;
-    var int4 = -1 as obj;
-    var int5 = -1 as dbrow;
+    var int4 = -1;
+    var int5 = -1;
     var int6 = 0;
     var int7 = 0;
     var int8 = -1;
     var int9 = DB_GETFIELDCOUNT(int0, 368864);
-    while ((++int8 < int9)) {
+    int8 = (int8 + 1);
+    while ((int8 < int9)) {
         string0 = `${string0}<br><img=7> ${dbrow_getfield(int0, 368864, int8)}`;
     };
     int8 = -1;
     var int10 = DB_GETFIELDCOUNT(int0, 368880);
-    while ((++int8 < int10)) {
+    int8 = (int8 + 1);
+    while ((int8 < int10)) {
         [int4, int7] = dbrow_getfield(int0, 368880, int8);
         switch (int4) {
             default: {
@@ -23,8 +25,9 @@ function script14633(int0: number, int1: number, int2: number): string {
     };
     int8 = -1;
     var int11 = DB_GETFIELDCOUNT(int0, 368896);
-    var int12 = -1 as obj;
-    while ((++int8 < int11)) {
+    var int12 = -1;
+    int8 = (int8 + 1);
+    while ((int8 < int11)) {
         [int5, int7] = dbrow_getfield(int0, 368896, int8);
         switch (DB_GETROWTABLE(int5)) {
             case 86: {
@@ -56,7 +59,8 @@ function script14633(int0: number, int1: number, int2: number): string {
     };
     int8 = -1;
     var int13 = DB_GETFIELDCOUNT(int0, 368912);
-    while ((++int8 < int13)) {
+    int8 = (int8 + 1);
+    while ((int8 < int13)) {
         int6 = dbrow_getfield(int0, 368912, int8);
         switch (int6) {
             case 1: {

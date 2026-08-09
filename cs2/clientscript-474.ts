@@ -8,7 +8,9 @@ function script474(int0: number, int1: number): string {
     if ((int3 == 0)) {
         return "";
     };
-    if (((enum_getvalue(0, 1, 12137 as cs2enum, int3) == true) || ((int4 == 1) && (enum_getvalue(0, 1, 15778 as cs2enum, int3) == true)))) {
+    if ((enum_getvalue(0, 1, 12137 as cs2enum, int3) == true)) {
+        return string0;
+    } else if (((int4 == 1) && (enum_getvalue(0, 1, 15778 as cs2enum, int3) == true))) {
         return string0;
     };
     if ((((int3 == 31) && (item_getparam(int0, 6295) == 1)) && (item_getparam(int0, 6717) != -1 as obj))) {

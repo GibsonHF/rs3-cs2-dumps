@@ -1,11 +1,11 @@
 //
 function script5444(int0: number): void {
-    var int1 = -1 as struct;
-    var int2 = -1 as struct;
-    var int3 = -1 as struct;
-    var int4 = -1 as struct;
-    var int5 = -1 as struct;
-    var int6 = -1 as struct;
+    var int1 = -1;
+    var int2 = -1;
+    var int3 = -1;
+    var int4 = -1;
+    var int5 = -1;
+    var int6 = -1;
     var string0 = "";
     var string1 = "";
     var string2 = "";
@@ -18,12 +18,12 @@ function script5444(int0: number): void {
     var int10 = 0;
     var int11 = 0;
     var int12 = 0;
-    var int13 = -1 as graphic;
-    var int14 = -1 as graphic;
-    var int15 = -1 as graphic;
-    var int16 = -1 as graphic;
-    var int17 = -1 as graphic;
-    var int18 = -1 as graphic;
+    var int13 = -1;
+    var int14 = -1;
+    var int15 = -1;
+    var int16 = -1;
+    var int17 = -1;
+    var int18 = -1;
     varclient_1681 = 0;
     IF_SETGRAPHIC(8430 as graphic, comp(1168, 28));
     IF_SETGRAPHIC(8430 as graphic, comp(1168, 27));
