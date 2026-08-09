@@ -19,6 +19,7 @@ This repo is auto-updated whenever a new extraction is run, so cloning (or pulli
 ├── quests.json             # quest definitions
 ├── latest_varbits.json     # all varbits from the latest cache
 ├── latest_varps.json       # all varps from the latest cache
+├── gamevals/               # gameval name tables (obj, loc, npc, component, varbits, etc.)
 ├── cs2_diff.json           # diff of cs2 scripts vs. the previous dump
 └── zips/                   # historical archives, one zip per extraction
     ├── 2-23-26.cs2.zip
@@ -31,8 +32,8 @@ This repo is auto-updated whenever a new extraction is run, so cloning (or pulli
 Everything here is produced by an automated extraction pipeline that:
 
 1. Reads the local RS3 NXT cache and decompiles every clientscript
-2. Extracts varbits and varps from the cache
-3. Pulls the latest game data JSONs from the Chisel API
+2. Extracts varbits, varps and gamevals from the cache
+3. Builds the game data JSONs from the same cache
 4. Diffs the new CS2 scripts against the previous dump to show what changed
 5. Packages the run into a dated zip in `zips/`
 6. Commits and pushes the update here
@@ -59,8 +60,7 @@ Every run has its own zip in `zips/` named `M-D-YY.cs2.zip`. The filename matche
 
 ## Data sources
 
-- **CS2, varbits, varps**: local RS3 NXT cache (`.jcache` SQLite files)
-- **Game data JSONs**: [Chisel](https://chisel.weirdgloop.org/gazproj/cache)
+- **CS2, varbits, varps, gamevals, game data JSONs**: local RS3 NXT cache (`.jcache` SQLite files)
 
 ## Notes
 
