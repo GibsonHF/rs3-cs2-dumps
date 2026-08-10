@@ -6,7 +6,9 @@ function script19629(): void {
         CC_SETTEXT(struct_getparam(int0, 3493));
     };
     if ((CC_FIND(int1, 15) == 1)) {
-        CC_SETGRAPHIC(struct_getparam(int0, 3495));
+        stack(int0);
+        script21109();
+        CC_SETGRAPHIC();
     };
     script8411(17, 0);
     script13842(17);

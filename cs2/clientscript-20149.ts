@@ -4,7 +4,9 @@ function script20149(): number {
     if ((script20132(int0) == 0)) {
         return -1;
     };
-    var int1 = dbrow_getfield(int0, 1335424, 0);
+    stack(int0);
+    script20938();
+    var int1 = [];
     var int2 = dbrow_getfield(int1, 1339392, varbitplayer_58407);
     if ((int2 == -1)) {
         return -1;

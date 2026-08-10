@@ -696421,6 +696421,31 @@
 		}
 	},
 	{
+		"actions": [
+			"Collect reward",
+			null,
+			null,
+			null,
+			null
+		],
+		"ambience": 25,
+		"animation_group": 2300,
+		"boundSize": 1,
+		"combat": 0,
+		"id": 20473,
+		"modelContract": 15,
+		"models": [
+			31511
+		],
+		"movementCapabilities": 1,
+		"name": "Blessed Fire Spirits",
+		"unknown_63": true,
+		"unknown_A4": {
+			"unknown_1": 240,
+			"unknown_2": 260
+		}
+	},
+	{
 		"boundSize": 2,
 		"combat": 0,
 		"id": 20474,
@@ -782031,6 +782056,147 @@
 		"name": "Mod Elfborne"
 	},
 	{
+		"action_cursors": [
+			null,
+			null,
+			5,
+			null,
+			null,
+			null
+		],
+		"actions": [
+			"Interact",
+			null,
+			"Bank",
+			null,
+			null
+		],
+		"animation_group": 4290,
+		"boundSize": 2,
+		"color_replacements": {
+			"16311": 16311,
+			"16323": 16323,
+			"16335": 16335,
+			"16347": 16347
+		},
+		"combat": 0,
+		"drawMapDot": false,
+		"extra": {
+			"pet_item_id": 63593, // 75
+			"beast_of_burden_slots": 32, // 379
+			"summoning_level_required": 1, // 394
+			"is_bob": 1 // 1323
+		},
+		"headModels": [
+			66186
+		],
+		"id": 22922,
+		"models": [
+			63298
+		],
+		"movementCapabilities": 1,
+		"name": "Devout Yak",
+		"texture_replacements": {
+			"11493": 11493
+		}
+	},
+	{
+		"actions": [
+			null,
+			null,
+			"Send home",
+			null,
+			null
+		],
+		"animation_group": 4507,
+		"boundSize": 1,
+		"color_replacements": {
+			"32201": 3742,
+			"3241": 3743,
+			"33225": 7092,
+			"33361": 7092,
+			"336": 335,
+			"35776": 30657,
+			"45233": 22039,
+			"47335": 5714,
+			"52656": 3743,
+			"54612": 4793,
+			"61763": 61856
+		},
+		"combat": 0,
+		"drawMapDot": false,
+		"extra": {
+			"pet_item_id": 63606, // 75
+			"pet_category": 1, // 477
+			"pet_varbit_reference": 3622 // 5051
+		},
+		"headModels": [
+			137466
+		],
+		"id": 22923,
+		"models": [
+			121064,
+			121065,
+			121067,
+			121068,
+			121069,
+			121048
+		],
+		"movementCapabilities": 1,
+		"name": "Bria",
+		"texture_replacements": {
+			"13231": 24743,
+			"13232": 24742,
+			"13233": 24744,
+			"13234": 24747,
+			"13236": 24746
+		}
+	},
+	{
+		"animation_group": 4507,
+		"boundSize": 1,
+		"color_replacements": {
+			"32201": 3742,
+			"3241": 3743,
+			"33225": 7092,
+			"33361": 7092,
+			"336": 335,
+			"35776": 30657,
+			"45233": 22039,
+			"47335": 5714,
+			"52656": 3743,
+			"54612": 4793,
+			"61763": 61856
+		},
+		"combat": 0,
+		"drawMapDot": false,
+		"extra": {
+			"pet_category": 1, // 477
+			"pet_varbit_reference": 3622 // 5051
+		},
+		"headModels": [
+			137466
+		],
+		"id": 22924,
+		"models": [
+			121064,
+			121065,
+			121067,
+			121068,
+			121069,
+			121048
+		],
+		"movementCapabilities": 3,
+		"name": "Bria",
+		"texture_replacements": {
+			"13231": 24743,
+			"13232": 24742,
+			"13233": 24744,
+			"13234": 24747,
+			"13236": 24746
+		}
+	},
+	{
 		"actions": [
 			"Interact",
 			null,
@@ -787286,6 +787452,30 @@
 			113788
 		],
 		"movementCapabilities": 1
+	},
+	{
+		"actions": [
+			"Trade",
+			null,
+			null,
+			null,
+			null
+		],
+		"ambience": 25,
+		"animation_group": 2312,
+		"boundSize": 1,
+		"combat": 0,
+		"headModels": [
+			48525
+		],
+		"id": 23125,
+		"modelContract": 15,
+		"models": [
+			49229
+		],
+		"movementCapabilities": 1,
+		"name": "Bryll Thoksdottir",
+		"unknown_63": true
 	},
 	{
 		"actions": [
@@ -1089435,7 +1089625,7 @@
 		"id": 32248,
 		"morphs_1": {
 			"ids": [
-				-1,
+				32250,
 				32249,
 				32250,
 				0
@@ -1089465,6 +1089655,16 @@
 		],
 		"animation_group": 4823,
 		"boundSize": 1,
+		"color_replacements": {
+			"11364": 10338,
+			"3484": 3244,
+			"45612": 37172,
+			"47639": 43295,
+			"63017": 21932,
+			"6596": 6342,
+			"6688": 6321,
+			"943": 22055
+		},
 		"combat": 0,
 		"headModels": [
 			137145
@@ -1089476,6 +1089676,10 @@
 		],
 		"movementCapabilities": 1,
 		"name": "The Sage",
+		"texture_replacements": {
+			"22238": 24754,
+			"22244": 24755
+		},
 		"unknown_63": true
 	},
 	{
@@ -1089496,6 +1089700,16 @@
 		],
 		"animation_group": 4823,
 		"boundSize": 1,
+		"color_replacements": {
+			"11364": 10338,
+			"3484": 3244,
+			"45612": 37172,
+			"47639": 43295,
+			"63017": 21932,
+			"6596": 6342,
+			"6688": 6321,
+			"943": 22055
+		},
 		"combat": 0,
 		"headModels": [
 			137145
@@ -1089507,6 +1089721,10 @@
 		],
 		"movementCapabilities": 1,
 		"name": "The Sage",
+		"texture_replacements": {
+			"22238": 24754,
+			"22244": 24755
+		},
 		"unknown_63": true
 	},
 	{

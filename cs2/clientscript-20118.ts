@@ -4,5 +4,7 @@ function script20118(int0: number): number {
     if ((int1 == -1)) {
         return -1;
     };
-    return dbrow_getfield(int1, 1335424, 0);
+    stack(int1);
+    script20938();
+    return;
 }

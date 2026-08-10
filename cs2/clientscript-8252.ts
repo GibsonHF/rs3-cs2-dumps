@@ -4,6 +4,9 @@ function script8252(int0: number): number {
         return 0;
     };
     var int1 = item_getparam(int0, 396);
+    stack(int1);
+    script20972();
+    int1 = [];
     if ((varbitplayer_44137 == 1)) {
         int1 = SCALE(int1, 100, (100 - 20));
     };

@@ -10,7 +10,9 @@ function script13673(int0: number, int1: number, int2: number, int3: number, int
     stack(varbitplayer_37614);
     DB_FIND(0);
     var int7 = dbrow_findnext();
-    var int8 = dbrow_getfield(int7, 90288, 0);
+    stack(int7);
+    script21030();
+    var int8 = [];
     var int9 = -1;
     var int10 = 0;
     [int9, int10] = dbrow_getfield(int7, 90416, (int2 - 1));

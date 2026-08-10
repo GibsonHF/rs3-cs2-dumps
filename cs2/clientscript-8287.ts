@@ -15,6 +15,12 @@ function script8287(int0: number, int1: number): void {
     };
     script8288(int0);
     script8193();
+    var int2 = script13415(int0);
+    var int3 = script13416(int2, script441(int0));
+    if ((((varbitplayer_38842 == 1) && (int3 != -1 as struct)) && (struct_getparam(int3, 7130) != -1 as struct))) {
+        int3 = struct_getparam(int3, 7130);
+    };
+    script8282(int3);
     IF_SETHIDE(false, comp(1448, 1));
     return;
 }

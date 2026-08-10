@@ -13,7 +13,9 @@ function script13663(): void {
     stack(varbitplayer_37614);
     DB_FIND(0);
     var int5 = dbrow_findnext();
-    var int6 = dbrow_getfield(int5, 90384, 0);
+    stack(int5);
+    script21123();
+    var int6 = [];
     var int7 = dbrow_getfield(int5, 90272, 0);
     var int8 = -1;
     var int9 = 0;

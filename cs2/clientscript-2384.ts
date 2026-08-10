@@ -2,75 +2,156 @@
 function script2384(int0: number, int1: number): number {
     var int2 = -1;
     if ((varbitplayer_27169 == 1)) {
-        switch (int0) {
-            case 0: {
-                int2 = 6;
-                break;
-            }
-            case 1: {
-                int2 = 0;
-                break;
-            }
-            case 2: {
-                int2 = 31;
-                break;
-            }
-            case 3: {
-                int2 = 2;
-                break;
-            }
-            case 4: {
-                int2 = 3;
-                break;
-            }
-            case 5: {
-                int2 = 4;
-                break;
-            }
-            case 6: {
-                int2 = 5;
-                break;
-            }
-            case 7: {
-                int2 = 12;
-                break;
-            }
-            case 8: {
-                int2 = 14;
-                break;
-            }
-            case 9: {
-                int2 = 15;
-                break;
-            }
-            case 10: {
-                int2 = 16;
-                break;
-            }
-            case 11: {
-                int2 = 27;
-                break;
-            }
-            case 12: {
-                int2 = 9;
-                break;
-            }
-            case 13: {
-                if ((script9908() == 1)) {
-                    int2 = 17;
-                } else {
-                    int2 = 10;
-                };
-                break;
-            }
-            case 14: {
-                int2 = script2390(7);
-                break;
-            }
-            case 15: {
-                int2 = script2390(9);
-                break;
-            }
+        if ((script3825() == 1)) {
+            switch (int0) {
+                case 0: {
+                    int2 = 6;
+                    break;
+                }
+                case 1: {
+                    int2 = 32;
+                    break;
+                }
+                case 2: {
+                    int2 = 0;
+                    break;
+                }
+                case 3: {
+                    int2 = 31;
+                    break;
+                }
+                case 4: {
+                    int2 = 2;
+                    break;
+                }
+                case 5: {
+                    int2 = 3;
+                    break;
+                }
+                case 6: {
+                    int2 = 4;
+                    break;
+                }
+                case 7: {
+                    int2 = 5;
+                    break;
+                }
+                case 8: {
+                    int2 = 12;
+                    break;
+                }
+                case 9: {
+                    int2 = 14;
+                    break;
+                }
+                case 10: {
+                    int2 = 15;
+                    break;
+                }
+                case 11: {
+                    int2 = 16;
+                    break;
+                }
+                case 12: {
+                    int2 = 27;
+                    break;
+                }
+                case 13: {
+                    int2 = 11;
+                    break;
+                }
+                case 14: {
+                    int2 = 9;
+                    break;
+                }
+                case 15: {
+                    if ((script9908() == 1)) {
+                        int2 = 17;
+                    } else {
+                        int2 = 10;
+                    };
+                    break;
+                }
+                case 16: {
+                    int2 = script2390(7);
+                    break;
+                }
+                case 17: {
+                    int2 = script2390(9);
+                    break;
+                }
+            };
+        } else {
+            switch (int0) {
+                case 0: {
+                    int2 = 6;
+                    break;
+                }
+                case 1: {
+                    int2 = 0;
+                    break;
+                }
+                case 2: {
+                    int2 = 31;
+                    break;
+                }
+                case 3: {
+                    int2 = 2;
+                    break;
+                }
+                case 4: {
+                    int2 = 3;
+                    break;
+                }
+                case 5: {
+                    int2 = 4;
+                    break;
+                }
+                case 6: {
+                    int2 = 5;
+                    break;
+                }
+                case 7: {
+                    int2 = 12;
+                    break;
+                }
+                case 8: {
+                    int2 = 14;
+                    break;
+                }
+                case 9: {
+                    int2 = 15;
+                    break;
+                }
+                case 10: {
+                    int2 = 16;
+                    break;
+                }
+                case 11: {
+                    int2 = 27;
+                    break;
+                }
+                case 12: {
+                    int2 = 9;
+                    break;
+                }
+                case 13: {
+                    if ((script9908() == 1)) {
+                        int2 = 17;
+                    } else {
+                        int2 = 10;
+                    };
+                    break;
+                }
+                case 14: {
+                    int2 = script2390(7);
+                    break;
+                }
+                case 15: {
+                    int2 = script2390(9);
+                    break;
+                }
+            };
         };
     } else if ((varbitplayer_38842 == 1)) {
         if (((script9908() == 1) && (script8292(9, 5) == 0))) {

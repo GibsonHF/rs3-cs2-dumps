@@ -1,6 +1,8 @@
 //
 function script19892(int0: number, int1: number, int2: number, int3: number, int4: number, string0: string, string1: string, string2: string): void {
-    if ((struct_getparam(int0, 9050) == 1)) {
+    stack(int0);
+    script21005();
+    if (BRANCH_EQUALS(1)) {
         IF_SETHIDE(true, comp(1594, 98));
         IF_SETPOSITION(0, 8, 1, 2, comp(1594, 99));
         return;
@@ -27,13 +29,13 @@ function script19892(int0: number, int1: number, int2: number, int3: number, int
             };
             if ((struct_getparam(int1, 4856) != -1)) {
                 IF_SETOP(3, script12793(int1, struct_getparam(int1, 4856), 0), comp(1594, 118));
-                if ((int5 == false)) {
+                if ((int5 == 0)) {
                     IF_SETOP(4, script12793(int1, -1, 1), comp(1594, 118));
                 };
             };
             if ((struct_getparam(int1, 4857) != -1)) {
                 IF_SETOP(4, script12793(int1, struct_getparam(int1, 4857), 0), comp(1594, 118));
-                if ((int5 == false)) {
+                if ((int5 == 0)) {
                     IF_SETOP(5, script12793(int1, -1, 1), comp(1594, 118));
                 };
             };

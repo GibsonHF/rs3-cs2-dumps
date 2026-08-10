@@ -2,7 +2,7 @@
 function script20130(): number {
     var int0 = script20117(varplayer_12314);
     if ((int0 != -1)) {
-        return dbrow_getfield(int0, 1335600, 0);
+        return dbrow_getfield(int0, 1335664, 0);
     };
     return -1;
 }

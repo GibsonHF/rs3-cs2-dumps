@@ -17,19 +17,19 @@ function script20317(int0: number): void {
     if ((CC_FINDBYCATEGORY(comp(1361, 21), script20173(int3)) == 1)) {
         CC_SETCOLOUR(8448308);
     };
-    if ((CC_FINDBYCATEGORY(comp(1479, 19), script20173(int2)) == 1)) {
+    if ((CC_FINDBYCATEGORY(comp(1479, 20), script20173(int2)) == 1)) {
         CC_SETCOLOUR(219907);
         script14391(96927748, int1, 0, 0, 0, 0, 0, 0, 1, 1);
         if ((varbitclient_58399 == 2)) {
-            CC_SETONTIMER(callback(script20318, 96927763, 96927762, 96927764, 96927748, 96927749, int0, int1, 0, varbitclient_58403));
-            if ((IF_FIND(comp(1479, 19)) == 1)) {
+            CC_SETONTIMER(callback(script20318, 96927764, 96927763, 96927765, 96927748, 96927749, int0, int1, 0, varbitclient_58403));
+            if ((IF_FIND(comp(1479, 20)) == 1)) {
                 cc_setparam(9339, (cc_getparam(9339) + 1));
             };
         } else {
-            CC_SETONTIMER(callback(script20318, 96927763, 96927762, 96927764, 96927748, 96927749, int0, int1, 350, varbitclient_58403));
+            CC_SETONTIMER(callback(script20318, 96927764, 96927763, 96927765, 96927748, 96927749, int0, int1, 350, varbitclient_58403));
         };
     };
-    if ((CC_FINDBYCATEGORY(comp(1479, 19), script20173(int3)) == 1)) {
+    if ((CC_FINDBYCATEGORY(comp(1479, 20), script20173(int3)) == 1)) {
         CC_SETCOLOUR(8448308);
     };
     return;

@@ -14,7 +14,9 @@ function script19891(int0: number, int1: number, int2: number, int3: number, int
     };
     if ((CC_FIND(int4, int1) == 1)) {
         if ((int7 == 0)) {
-            if ((struct_getparam(int0, 9050) == 1)) {
+            stack(int0);
+            script21005();
+            if (BRANCH_EQUALS(1)) {
                 CC_SETOP(1, struct_getparam(int0, 9051));
                 if ((int2 != -1)) {
                     CC_SETONOP(callback(script1365, int2));

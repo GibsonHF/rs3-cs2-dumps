@@ -1,5 +1,8 @@
 [
 	{
+		"extra": {
+			"extra_0024F6": 1 // 9462
+		},
 		"id": 0,
 		"name": "Cabin Fever",
 		"quest_list_name": ""
@@ -7,6 +10,7 @@
 	{
 		"extra": {
 			"quest_create_req61_id": 119, // 1345
+			"quest_description": "The mysterious tower is nearly finished, but the builders are on strike. Frustrated, the alchemists seek help. When magic and logic collide, danger follows, yet a true adventurer may relish it.", // 5968
 			"quest_achieve_id": 129, // 7158
 			"quest_sort_char": "T", // 7219
 			"quest_start_point": "Talk to Effigy outside the Tower of Life south of Ardougne.", // 7814
@@ -41,11 +45,17 @@
 		]
 	},
 	{
+		"extra": {
+			"extra_0024F6": 1 // 9462
+		},
 		"id": 2,
 		"name": "Scorpion Catcher",
 		"quest_list_name": ""
 	},
 	{
+		"extra": {
+			"extra_0024F6": 1 // 9462
+		},
 		"id": 3,
 		"name": "The Golem",
 		"quest_list_name": ""
@@ -54,6 +64,7 @@
 		"extra": {
 			"quest_combat": 9, // 857
 			"quest_create_req61_id": 139, // 1345
+			"quest_description": "What do zombies, pirates, monks and evil plots have in common? Well, if you want to find out, it's time to start digging! Rabid Jack is back...but who is he? It's time to prove your pirate credentials and win the trust of the motleyest crew. Dark and nautical secrets are yours to discover...if you dare!", // 5968
 			"quest_achieve_id": 149, // 7158
 			"quest_sort_char": "R", // 7219
 			"quest_start_point": "Talk to Bill Teach in Mos Le'Harmless or Port Phasmatys.", // 7814
@@ -98,41 +109,65 @@
 		]
 	},
 	{
+		"extra": {
+			"extra_0024F6": 1 // 9462
+		},
 		"id": 5,
 		"name": "The Path of Glouphrie",
 		"quest_list_name": ""
 	},
 	{
+		"extra": {
+			"extra_0024F6": 1 // 9462
+		},
 		"id": 6,
 		"name": "Cook's Assistant",
 		"quest_list_name": ""
 	},
 	{
+		"extra": {
+			"extra_0024F6": 1 // 9462
+		},
 		"id": 7,
 		"name": "Witch's House",
 		"quest_list_name": ""
 	},
 	{
+		"extra": {
+			"extra_0024F6": 1 // 9462
+		},
 		"id": 8,
 		"name": "Elemental Workshop I",
 		"quest_list_name": ""
 	},
 	{
+		"extra": {
+			"extra_0024F6": 1 // 9462
+		},
 		"id": 9,
 		"name": "Priest in Peril",
 		"quest_list_name": ""
 	},
 	{
+		"extra": {
+			"extra_0024F6": 1 // 9462
+		},
 		"id": 10,
 		"name": "Shades of Mort'ton",
 		"quest_list_name": ""
 	},
 	{
+		"extra": {
+			"extra_0024F6": 1 // 9462
+		},
 		"id": 11,
 		"name": "Love Story",
 		"quest_list_name": ""
 	},
 	{
+		"extra": {
+			"extra_0024F6": 1 // 9462
+		},
 		"id": 12,
 		"name": "The Slug Menace",
 		"quest_list_name": ""
@@ -141,9 +176,10 @@
 		"extra": {
 			"quest_combat": 10, // 857
 			"quest_create_req61_id": 28, // 1345
+			"quest_description": "Humans have visited the Dorgeshuun mines, but no cave goblin has surfaced since the signing of the Lumbridge-Dorgeshuun treaty. The council fears H.A.M. may plan another attack, and seeks an agent to investigate. But they do not want to send someone to the surface without a guide...", // 5968
 			"quest_achieve_id": 30, // 7158
 			"quest_sort_char": "D", // 7219
-			"quest_start_point": "Talk to Mistag in the Dorgeshuun Mines.", // 7814
+			"quest_start_point": "Talk to Mistag in the Dorgeshuun mines.", // 7814
 			"quest_req_items": "Two complete sets of H.A.M. robes, pickaxe, light source.", // 7815
 			"quest_combat_req": "Be able to defeat a level 42 foe.", // 7816
 			"quest_xp_lamp_1": "2,000 combat XP lamp<br>2,000 Thieving XP lamp", // 7818
@@ -183,6 +219,9 @@
 		]
 	},
 	{
+		"extra": {
+			"extra_0024F6": 1 // 9462
+		},
 		"id": 14,
 		"name": "Spirit of Summer",
 		"quest_list_name": ""
@@ -190,6 +229,7 @@
 	{
 		"extra": {
 			"quest_create_req61_id": 5, // 1345
+			"quest_description": "Veronica is very worried. Her fiancé went into the big spooky manor house to ask for directions. An hour later and he's still not out yet.", // 5968
 			"quest_achieve_id": 6, // 7158
 			"extra_001BF7": 1, // 7159
 			"extra_001BF8": 12, // 7160
@@ -225,6 +265,7 @@
 		"extra": {
 			"quest_combat": 11, // 857
 			"quest_create_req61_id": 116, // 1345
+			"quest_description": "The wizards of the Yanille watchtower have recently reported increased ogre sightings. Use a wide variety of your skills to help the wizards recover their stolen power crystals and stop the advance of the ogre hordes!", // 5968
 			"quest_achieve_id": 126, // 7158
 			"quest_sort_char": "W", // 7219
 			"quest_start_point": "Talk to the Watchtower Wizard, in the Watchtower north-west of Yanille.", // 7814
@@ -266,14 +307,14 @@
 	},
 	{
 		"extra": {
-			"quest_sort_char": "R", // 7219
 			"quest_release_year": 2001, // 7834
-			"quest_nth_in_release_year": 4 // 7835
+			"quest_nth_in_release_year": 4, // 7835
+			"extra_0024F6": 1 // 9462
 		},
 		"id": 17,
 		"name": "Romeo and Juliet",
 		"quest_difficulty": 0,
-		"quest_list_name": "Romeo and Juliet",
+		"quest_list_name": "",
 		"quest_points": 0,
 		"varps": [
 			{
@@ -325,6 +366,9 @@
 		]
 	},
 	{
+		"extra": {
+			"extra_0024F6": 1 // 9462
+		},
 		"id": 19,
 		"name": "In Search of the Myreque",
 		"quest_list_name": ""
@@ -332,6 +376,7 @@
 	{
 		"extra": {
 			"quest_create_req61_id": 153, // 1345
+			"quest_description": "Maggie the travelling witch is cooking up something spectacular in her cauldron, but she needs a little help finishing it off. If you can help her out - and solve a puzzle or two along the way - she just might share some of the final product with you.", // 5968
 			"quest_achieve_id": 165, // 7158
 			"quest_sort_char": "S", // 7219
 			"quest_start_point": "Talk to Maggie at her caravan north of Draynor Village.", // 7814
@@ -365,6 +410,7 @@
 		"extra": {
 			"quest_combat": 12, // 857
 			"quest_create_req61_id": 64, // 1345
+			"quest_description": "After Vanstrom Klause's attack on the Myreque and the deaths of Sani and Harold, Veliaf counts on your aid. Their base is compromised; they must relocate. An obscure village south of Mort'ton may be the perfect location to strike back against their vampyric overlords. What dark secrets of Morytania's past will you uncover?", // 5968
 			"quest_achieve_id": 65, // 7158
 			"quest_sort_char": "I", // 7219
 			"quest_start_point": "Talk to Veliaf in the Myreque hideout, beneath the pub in Canifis.", // 7814
@@ -411,6 +457,9 @@
 		]
 	},
 	{
+		"extra": {
+			"extra_0024F6": 1 // 9462
+		},
 		"id": 22,
 		"name": "My Arm's Big Adventure",
 		"quest_list_name": ""
@@ -418,6 +467,7 @@
 	{
 		"extra": {
 			"quest_create_req61_id": 133, // 1345
+			"quest_description": "The catapult guard at Tyras Camp is in trouble. His poor security and neglect have caused rot in the catapult. General Hining is furious. Replacement parts are delayed, and the engineer is missing. Fortunately, your Construction expertise makes you the ideal candidate to repair the catapult despite the complex, demanding task ahead.", // 5968
 			"quest_achieve_id": 143, // 7158
 			"quest_sort_char": "C", // 7219
 			"quest_start_point": "Talk to the Tyras Guard next to the catapult in the Isafdar Forest.", // 7814
@@ -459,6 +509,7 @@
 		"extra": {
 			"quest_combat": 14, // 857
 			"quest_create_req61_id": 70, // 1345
+			"quest_description": "Prepare for a diplomatic mission between the Fremennik and the enigmatic Moon Clan of Lunar Isle. Resolve their conflict and restore peace. Travel with pirates on a mighty galleon, explore a magical island and venture into your very dreams!", // 5968
 			"quest_achieve_id": 70, // 7158
 			"quest_sort_char": "L", // 7219
 			"quest_start_point": "Talk to Lokar Searunner on the west dock of Rellekka.", // 7814
@@ -506,11 +557,17 @@
 		]
 	},
 	{
+		"extra": {
+			"extra_0024F6": 1 // 9462
+		},
 		"id": 25,
 		"name": "Dealing With Scabaras",
 		"quest_list_name": ""
 	},
 	{
+		"extra": {
+			"extra_0024F6": 1 // 9462
+		},
 		"id": 26,
 		"name": "The Darkness of Hallowvale",
 		"quest_list_name": ""
@@ -519,6 +576,7 @@
 		"extra": {
 			"quest_combat": 5, // 857
 			"quest_create_req61_id": 11, // 1345
+			"quest_description": "A ghost haunts Lumbridge cemetery and the priest of Lumbridge church of Saradomin needs your help to lay the ghost to rest.", // 5968
 			"quest_achieve_id": 4, // 7158
 			"extra_001BF7": 1, // 7159
 			"extra_001BF8": 3, // 7160
@@ -554,6 +612,7 @@
 	{
 		"extra": {
 			"quest_create_req61_id": 78, // 1345
+			"quest_description": "Lord Sinclair, an esteemed Kandarin noble, has been murdered in his mansion. Local law enforcement are baffled. Can you apply your sharp analytical mind to uncover the evidence and discover the culprit?", // 5968
 			"quest_achieve_id": 78, // 7158
 			"quest_sort_char": "M", // 7219
 			"quest_start_point": "Talk to the guard at the Sinclair Mansion north of Seers' Village.", // 7814
@@ -585,11 +644,13 @@
 	},
 	{
 		"extra": {
+			"quest_req_item1": 1511, // 887
+			"quest_req_item1_qty": 45, // 949
 			"quest_create_req61_id": 142, // 1345
+			"quest_description": "King Roald has commissioned a beacon network to warn of threats from the Wilderness and Morytania. He seeks assistance to ensure its readiness in the event of emergency.", // 5968
 			"quest_achieve_id": 152, // 7158
 			"quest_sort_char": "A", // 7219
 			"quest_start_point": "Talk to King Roald in Varrock palace.", // 7814
-			"quest_req_items": "45 logs.", // 7815
 			"quest_xp_lamp_1": "5,500 Firemaking XP", // 7818
 			"quest_reward": "20,000 coins<br>Access to the All Fired Up beacon network minigame", // 7823
 			"quest_icon_small_sprite": 9523, // 7829
@@ -626,19 +687,19 @@
 		"extra": {
 			"quest_combat": 15, // 857
 			"quest_create_req61_id": 87, // 1345
+			"quest_description": "The cook in Lumbridge has surprisingly few ingredients to hand in his kitchen (possibly due to an endless stream of newcomers with light fingers). A cook's assistant kindly aided him in his culinary duties, but a problem has now arisen that could spell... a Recipe for Disaster!", // 5968
 			"quest_achieve_id": 87, // 7158
 			"extra_001BF7": 5, // 7159
 			"quest_sort_char": "R", // 7219
 			"quest_start_point": "Talk to the cook in Lumbridge Castle.", // 7814
 			"quest_req_items": "Eye of newt, greenman's ale, rotten tomato, ashes, fruit blast (or cocktail shaker, cocktail glass, 2 lemons, pineapple, orange).", // 7815
 			"quest_combat_req": "Some of the sub-quests have no combat. In the conclusion to Recipe for Disaster, you will need to defeat several enemies up to level-98, without prayers or familiars.", // 7816
-			"quest_reward": "Access to the Culinaromancer's chest and much, much more!<br>Unlocks the kitchen tile floor style for your player-owned house", // 7823
+			"quest_reward": "Access to the Culinaromancer's chest and much, much more!<br>Unlocks the kitchen tile floor style for your player-owned house\"", // 7823
 			"quest_icon_small_sprite": 9113, // 7829
 			"quest_age_period": 1, // 7831
 			"quest_release_year": 2006, // 7834
 			"quest_nth_in_release_year": 5, // 7835
 			"quest_length": 9, // 7855
-			"quest_has_th_keys_reward": 0, // 7887
 			"extra_0024B1": 4 // 9393
 		},
 		"id": 30,
@@ -665,11 +726,17 @@
 		]
 	},
 	{
+		"extra": {
+			"extra_0024F6": 1 // 9462
+		},
 		"id": 31,
 		"name": "Underground Pass",
 		"quest_list_name": ""
 	},
 	{
+		"extra": {
+			"extra_0024F6": 1 // 9462
+		},
 		"id": 32,
 		"name": "Grim Tales",
 		"quest_list_name": ""
@@ -678,6 +745,7 @@
 		"extra": {
 			"quest_combat": 13, // 857
 			"quest_create_req61_id": 154, // 1345
+			"quest_description": "Now he's got some body, the Odd Old Man wants you to give him some skin. The animals aren't so fluffy this time.", // 5968
 			"quest_achieve_id": 166, // 7158
 			"quest_sort_char": "F", // 7219
 			"quest_start_point": "Talk to the Odd Old Man at the quarry west of Paterdomus.", // 7814
@@ -720,6 +788,7 @@
 	{
 		"extra": {
 			"quest_create_req61_id": 34, // 1345
+			"quest_description": "For years, the dwarven black guard have advanced projectile warfare. Constantly attacked by goblin renegades, the dwarven troops who protect the mines must deploy their secret weapon. Only with your aid can they harness the true power of this cannon!", // 5968
 			"quest_achieve_id": 35, // 7158
 			"quest_sort_char": "D", // 7219
 			"quest_start_point": "Talk to Captain Lawgof, south of the coal truck mining site to the west of McGrubor's Wood.", // 7814
@@ -799,6 +868,7 @@
 		"extra": {
 			"quest_combat": 11, // 857
 			"quest_create_req61_id": 100, // 1345
+			"quest_description": "A rift has opened near the dig site, unleashing strange monsters. A sorrowful mother awaits her long-lost son at the top of the rift. Descend into the rift for an adventure teeming with twisted creatures born from the mind of a young boy driven to incarcerated madness.", // 5968
 			"quest_achieve_id": 110, // 7158
 			"quest_sort_char": "S", // 7219
 			"quest_start_point": "Talk to Launa by the rift east of Varrock, just south-east of the earth altar.", // 7814
@@ -806,7 +876,7 @@
 			"quest_combat_req": "You will need to defeat level 50-58 enemies. Ranged or Magic is recommended.", // 7816
 			"quest_xp_lamp_3": "500 Defence XP lamp", // 7819
 			"quest_xp_lamp_2": "500 Constitution XP lamp", // 7820
-			"quest_reward": "500 coins<br>Anger weapon cosmetic overrides<br>Access to Tolna's Rift for combat training", // 7823
+			"quest_reward": "500 coins<br>Anger weapon cosmetic overrides<br>Access to Tolna's rift for combat training", // 7823
 			"quest_icon_small_sprite": 9522, // 7829
 			"quest_age_period": 2, // 7831
 			"quest_release_year": 2006, // 7834
@@ -833,6 +903,7 @@
 	{
 		"extra": {
 			"quest_create_req61_id": 69, // 1345
+			"quest_description": "Sigmund advises the Duke of Lumbridge, though the Duke does not always take his advice. When the castle cellar wall collapses, the Duke claims an earthquake; Sigmund suspects a monster attack. Investigating reveals a perilous journey through treacherous caves to uncover something lost by the gods for millennia.", // 5968
 			"quest_achieve_id": 69, // 7158
 			"quest_sort_char": "L", // 7219
 			"quest_start_point": "Talk to Sigmund in Lumbridge Castle.", // 7814
@@ -872,17 +943,22 @@
 		]
 	},
 	{
+		"extra": {
+			"extra_0024F6": 1 // 9462
+		},
 		"id": 38,
 		"name": "Heroes' Quest",
 		"quest_list_name": ""
 	},
 	{
 		"extra": {
+			"quest_req_item1": 995, // 887
+			"quest_req_item1_qty": 100, // 949
 			"quest_create_req61_id": 98, // 1345
+			"quest_description": "Rumours are circulating of plague-infected sheep escaping into East Ardougne. They must be found and eradicated to prevent an outbreak.", // 5968
 			"quest_achieve_id": 108, // 7158
 			"quest_sort_char": "S", // 7219
 			"quest_start_point": "Talk to Councillor Halgrive outside of the East Ardougne church, north of the zoo.", // 7814
-			"quest_req_items": "100 coins.", // 7815
 			"quest_reward": "3,100 coins<br>Plague jacket and trousers<br>Cattle prod", // 7823
 			"quest_icon_small_sprite": 8961, // 7829
 			"quest_age_period": 1, // 7831
@@ -911,6 +987,7 @@
 	{
 		"extra": {
 			"quest_create_req61_id": 111, // 1345
+			"quest_description": "Lord Handelmort of Ardougne is a collector of exotic artefacts. A recent addition to his private collection is a strange looking totem from Karamja. The Rantuki Tribe are not happy about the recent disappearance of their totem.", // 5968
 			"quest_achieve_id": 121, // 7158
 			"quest_sort_char": "T", // 7219
 			"quest_start_point": "Talk to Kangai Mau in Brimhaven.", // 7814
@@ -944,11 +1021,17 @@
 		]
 	},
 	{
+		"extra": {
+			"extra_0024F6": 1 // 9462
+		},
 		"id": 41,
 		"name": "As a First Resort",
 		"quest_list_name": ""
 	},
 	{
+		"extra": {
+			"extra_0024F6": 1 // 9462
+		},
 		"id": 42,
 		"name": "Lost City",
 		"quest_list_name": ""
@@ -956,6 +1039,7 @@
 	{
 		"extra": {
 			"quest_create_req61_id": 18, // 1345
+			"quest_description": "Professor Oddenstein has finally found a reliable assistant. Ava has no interest in megalomaniacal plans and scoffs at persecuting hapless minions. Her living arrangements are free of unusual furniture and strange pets. All she desires is a good night's sleep.", // 5968
 			"quest_achieve_id": 20, // 7158
 			"quest_sort_char": "A", // 7219
 			"quest_start_point": "Talk to Ava in Draynor Manor.", // 7814
@@ -1001,6 +1085,7 @@
 	{
 		"extra": {
 			"quest_create_req61_id": 23, // 1345
+			"quest_description": "Help the confused Brother Kojo find the missing cogs and fix his clock tower. Search the dungeon using brawn and brains to correctly place the four cogs.", // 5968
 			"quest_achieve_id": 25, // 7158
 			"quest_sort_char": "C", // 7219
 			"quest_start_point": "Talk to Brother Kojo in the Clock Tower south of Ardougne.", // 7814
@@ -1033,6 +1118,7 @@
 	{
 		"extra": {
 			"quest_create_req61_id": 104, // 1345
+			"quest_description": "Missing: small black cat. Answers to the name of Bob. Last seen on the 19th of Bennath. Please contact Unferth in Burthorpe.", // 5968
 			"quest_achieve_id": 114, // 7158
 			"quest_sort_char": "T", // 7219
 			"quest_start_point": "Talk to Unferth in his house in Burthorpe.", // 7814
@@ -1069,6 +1155,7 @@
 		"extra": {
 			"quest_combat": 13, // 857
 			"quest_create_req61_id": 101, // 1345
+			"quest_description": "The villagers of Nardah have a problem. Their town well is dry and any water they take from the river mysteriously vanishes. They believe they are cursed. Can you unravel the truth and save Nardah?", // 5968
 			"quest_achieve_id": 111, // 7158
 			"quest_sort_char": "S", // 7219
 			"quest_start_point": "Talk to Awusah the Mayor in Nardah.", // 7814
@@ -1110,21 +1197,33 @@
 		]
 	},
 	{
+		"extra": {
+			"extra_0024F6": 1 // 9462
+		},
 		"id": 47,
 		"name": "Legacy of Seergaze",
 		"quest_list_name": ""
 	},
 	{
+		"extra": {
+			"extra_0024F6": 1 // 9462
+		},
 		"id": 48,
 		"name": "Swan Song",
 		"quest_list_name": ""
 	},
 	{
+		"extra": {
+			"extra_0024F6": 1 // 9462
+		},
 		"id": 49,
 		"name": "Back to my Roots",
 		"quest_list_name": ""
 	},
 	{
+		"extra": {
+			"extra_0024F6": 1 // 9462
+		},
 		"id": 50,
 		"name": "The Fremennik Trials",
 		"quest_list_name": ""
@@ -1134,14 +1233,17 @@
 			"quest_combat": 7, // 857
 			"quest_create_req61_id": 2, // 1345
 			"quest_description": "Prevent a Zamorakian wizard from completing a demonic ritual.", // 5968
+			"quest_reward_item1": 27156, // 6852
+			"quest_reward_item2": 31765, // 6853
+			"quest_reward_item3": 31764, // 6854
+			"quest_reward_item1_qty": 3, // 6864
 			"quest_achieve_id": 3, // 7158
 			"extra_001BF7": 1, // 7159
 			"extra_001BF8": 5, // 7160
 			"quest_sort_char": "D", // 7219
 			"quest_start_point": "Talk to Gideon Bede at the Saradominist church in north-east Varrock.", // 7814
 			"quest_combat_req": "You must defeat several cultists, and a powerful demon!", // 7816
-			"quest_xp_lamp_1": "3 combat XP lamps worth 100 XP each", // 7818
-			"quest_reward": "The holy sword, Silverlight<br>Avernic wand and book", // 7823
+			"quest_reward": "The holy sword, Silverlight", // 7823
 			"quest_icon_small_sprite": 25450, // 7829
 			"quest_age_period": 1, // 7831
 			"quest_release_year": 2001, // 7834
@@ -1170,20 +1272,23 @@
 		]
 	},
 	{
+		"extra": {
+			"extra_0024F6": 1 // 9462
+		},
 		"id": 52,
 		"name": "Wolf Whistle",
 		"quest_list_name": ""
 	},
 	{
 		"extra": {
-			"quest_sort_char": "B", // 7219
 			"quest_release_year": 2001, // 7834
-			"quest_nth_in_release_year": 15 // 7835
+			"quest_nth_in_release_year": 15, // 7835
+			"extra_0024F6": 1 // 9462
 		},
 		"id": 53,
 		"name": "Black Knights' Fortress",
 		"quest_difficulty": 0,
-		"quest_list_name": "Black Knights' Fortress",
+		"quest_list_name": "",
 		"quest_points": 0,
 		"varps": [
 			{
@@ -1194,22 +1299,25 @@
 		]
 	},
 	{
+		"extra": {
+			"extra_0024F6": 1 // 9462
+		},
 		"id": 54,
 		"name": "Observatory Quest",
 		"quest_list_name": ""
 	},
 	{
 		"extra": {
-			"quest_sort_char": "R", // 7219
 			"quest_release_year": 2003, // 7834
 			"quest_nth_in_release_year": 11, // 7835
-			"quest_replacement": "In 2012 this quest replaced 2003's 'Rune Mysteries'." // 7888
+			"quest_replacement": "In 2012 this quest replaced 2003's 'Rune Mysteries'.", // 7888
+			"extra_0024F6": 1 // 9462
 		},
 		"id": 55,
 		"name": "Rune Mysteries",
 		"quest_difficulty": 0,
 		"quest_item_sprite": 2408,
-		"quest_list_name": "Rune Mysteries",
+		"quest_list_name": "",
 		"quest_points": 0,
 		"varps": [
 			{
@@ -1223,6 +1331,7 @@
 		"extra": {
 			"quest_combat": 16, // 857
 			"quest_create_req61_id": 144, // 1345
+			"quest_description": "Troubling reports from scouts in the Wilderness: zombies are amassing and organising. Captain Rovin, suitably concerned, needs your help to go on a dangerous mission to verify the reports. Are the Varrock Guard merely paranoid, or is there a real threat to Varrock?", // 5968
 			"quest_achieve_id": 154, // 7158
 			"quest_sort_char": "D", // 7219
 			"quest_start_point": "Talk to Captain Rovin in the north-west tower of Varrock Palace.", // 7814
@@ -1271,6 +1380,9 @@
 		]
 	},
 	{
+		"extra": {
+			"extra_0024F6": 1 // 9462
+		},
 		"id": 57,
 		"name": "Between a Rock...",
 		"quest_list_name": ""
@@ -1278,6 +1390,7 @@
 	{
 		"extra": {
 			"quest_create_req61_id": 83, // 1345
+			"quest_description": "A shadow of disease looms over Ardougne. Edmond's daughter, Elena, went missing in West Ardougne whilst help the plague victims. Find out what's happening.", // 5968
 			"quest_achieve_id": 83, // 7158
 			"quest_sort_char": "P", // 7219
 			"quest_start_point": "Talk to Edmond in East Ardougne. (North of the castle, next to the wall surrounding West Ardougne.)", // 7814
@@ -1312,6 +1425,7 @@
 	{
 		"extra": {
 			"quest_create_req61_id": 66, // 1345
+			"quest_description": "Trufitus Shakaya of the Tai Bwo Wannai Village requires that you collect five special jungle herbs for a potion so he can commune with his gods.", // 5968
 			"quest_achieve_id": 67, // 7158
 			"quest_sort_char": "J", // 7219
 			"quest_start_point": "Talk to Trufitus in his hut north-east of Tai Bwo Wannai.", // 7814
@@ -1346,11 +1460,15 @@
 	{
 		"extra": {
 			"quest_combat": 4, // 857
+			"quest_req_item1": 1005, // 887
+			"quest_req_item2": 995, // 888
+			"quest_req_item2_qty": 60, // 950
 			"quest_create_req61_id": 9, // 1345
+			"extra_000FDD": "(or an activated ring of Charos and 30 coins)", // 4061
+			"quest_description": "Redbeard Frank knows where secret pirate treasure is hidden. It may require some work to persuade him to let you know where, though.", // 5968
 			"quest_achieve_id": 16, // 7158
 			"quest_sort_char": "P", // 7219
 			"quest_start_point": "Talk to Redbeard Frank just south of The Rusty Anchor pub in Port Sarim.", // 7814
-			"quest_req_items": "White apron, 60 coins (or an activated ring of Charos and 30 coins).", // 7815
 			"quest_combat_req": "Optionally defeat a level 4 gardener.", // 7816
 			"quest_reward": "One-Eyed Hector's treasure casket (containing 450 coins, an emerald and a gold ring)<br>Ability to work as a menial labourer on a banana plantation (30 coins for each export crate you fill with 10 bananas)", // 7823
 			"quest_icon_small_sprite": 4430, // 7829
@@ -1382,6 +1500,7 @@
 	{
 		"extra": {
 			"quest_create_req61_id": 126, // 1345
+			"quest_description": "Since, you discovered the murderer, life has been quiet at the Sinclair Mansion... too quiet. So quiet, in fact, the Sinclair family has vanished. Suspicion mounts that their departure is linked to the recent disappearance of King Arthur and his knights. Time is running out and clues are scarce. Can you crack the case in time?", // 5968
 			"quest_achieve_id": 136, // 7158
 			"quest_sort_char": "K", // 7219
 			"quest_start_point": "Talk to the gossip outside Sinclair Mansion.", // 7814
@@ -1423,6 +1542,7 @@
 		"extra": {
 			"quest_combat": 5, // 857
 			"quest_create_req61_id": 88, // 1345
+			"quest_description": "The Temple Knights, a secretive organisation founded by Saradomin centuries ago, seek to expand their ranks with some new blood. You will be offered an opportunity to apply for membership in this covert order. Are you up to the challenge?", // 5968
 			"quest_achieve_id": 98, // 7158
 			"quest_sort_char": "R", // 7219
 			"quest_start_point": "Talk to Sir Amik Varze on the second floor of the White Knights' Castle in Falador.", // 7814
@@ -1464,16 +1584,18 @@
 	{
 		"extra": {
 			"quest_combat": 2, // 857
+			"quest_req_item1": 995, // 887
+			"quest_req_item1_qty": 20, // 949
 			"quest_create_req61_id": 15, // 1345
 			"quest_description": "Varrockian literature tells of a valuable shield, stolen long ago from the Museum of Varrock, by a gang of professional thieves.", // 5968
+			"quest_reward_item1": 995, // 6852
+			"quest_reward_item1_qty": 1200, // 6864
 			"quest_achieve_id": 5, // 7158
 			"extra_001BF7": 1, // 7159
 			"extra_001BF8": 6, // 7160
 			"quest_sort_char": "S", // 7219
 			"quest_start_point": "Talk to Reldo in the Varrock palace library.", // 7814
-			"quest_req_items": "20 coins.", // 7815
 			"quest_combat_req": "You will need to defeat a level 1 enemy.", // 7816
-			"quest_reward": "1,200 coins", // 7823
 			"quest_icon_small_sprite": 29382, // 7829
 			"quest_age_period": 1, // 7831
 			"quest_release_year": 2001, // 7834
@@ -1502,11 +1624,17 @@
 		]
 	},
 	{
+		"extra": {
+			"extra_0024F6": 1 // 9462
+		},
 		"id": 64,
 		"name": "Prince Ali Rescue",
 		"quest_list_name": ""
 	},
 	{
+		"extra": {
+			"extra_0024F6": 1 // 9462
+		},
 		"id": 65,
 		"name": "The Grand Tree",
 		"quest_list_name": ""
@@ -1515,6 +1643,7 @@
 		"extra": {
 			"quest_combat": 12, // 857
 			"quest_create_req61_id": 4, // 1345
+			"quest_description": "Prove yourself a true hero. Kill the mighty dragon Elvarg of Crandor to join the Champions' Guild.", // 5968
 			"quest_achieve_id": 17, // 7158
 			"extra_001BF7": 3, // 7159
 			"extra_001BF8": 1, // 7160
@@ -1551,6 +1680,9 @@
 		]
 	},
 	{
+		"extra": {
+			"extra_0024F6": 1 // 9462
+		},
 		"id": 67,
 		"name": "Rat Catchers",
 		"quest_list_name": ""
@@ -1559,6 +1691,7 @@
 		"extra": {
 			"quest_combat": 11, // 857
 			"quest_create_req61_id": 85, // 1345
+			"quest_description": "Everybody needs some body, and the Odd Old Man knows exactly which bits of those bodies he needs. Can you help him finish his extensive and extremely creepy collection?", // 5968
 			"quest_achieve_id": 85, // 7158
 			"quest_sort_char": "R", // 7219
 			"quest_start_point": "Talk to the Odd Old Man at the quarry west of Paterdomus.", // 7814
@@ -1593,6 +1726,9 @@
 		]
 	},
 	{
+		"extra": {
+			"extra_0024F6": 1 // 9462
+		},
 		"id": 69,
 		"name": "The Dig Site",
 		"quest_list_name": ""
@@ -1601,6 +1737,7 @@
 		"extra": {
 			"quest_combat": 11, // 857
 			"quest_create_req61_id": 99, // 1345
+			"quest_description": "A mysterious village has been discovered deep in southern Karamja's jungle. Who knows what treasures or supernatural terrors lie in wait for daring explorers?", // 5968
 			"quest_achieve_id": 109, // 7158
 			"quest_sort_char": "S", // 7219
 			"quest_start_point": "Talk to Mosol Rei at the edge of Shilo Village.", // 7814
@@ -1643,6 +1780,7 @@
 		"extra": {
 			"quest_combat": 14, // 857
 			"quest_create_req61_id": 97, // 1345
+			"quest_description": "A sinister group of dark wizards aims to summon Agrith-Naar, a demon of exceptional mystical power. A Saradominist priest seeks help to summon the demon and then kill it once and for all. But all is not as it seems...", // 5968
 			"quest_achieve_id": 107, // 7158
 			"quest_sort_char": "S", // 7219
 			"quest_start_point": "Talk to Father Reen south of the bank in Al Kharid.", // 7814
@@ -1686,14 +1824,15 @@
 	{
 		"extra": {
 			"quest_combat": 4, // 857
+			"quest_req_item1": 4456, // 887
 			"quest_create_req61_id": 7, // 1345
+			"quest_req_item1_postfix": "(Fill an empty bowl from a water source, and heat it on a range or fire.)", // 3822
 			"quest_description": "Wizard Grayzag has summoned hundreds of little imps. They have stolen a lot of things belonging to Wizard Mizgog, including his magic beads.", // 5968
 			"quest_achieve_id": 8, // 7158
 			"extra_001BF7": 1, // 7159
 			"extra_001BF8": 9, // 7160
 			"quest_sort_char": "I", // 7219
 			"quest_start_point": "Talk to Wizard Mizgog on the first floor of the Wizards' Tower, south of Draynor.", // 7814
-			"quest_req_items": "Bowl of hot water. (Fill an empty bowl from a water source, and heat it on a range or fire.)", // 7815
 			"quest_combat_req": "Must be able to defeat one level 5 imp.", // 7816
 			"quest_xp_lamp_1": "875 Magic XP lamp", // 7818
 			"quest_reward": "An amulet of accuracy<br>Access to Mizgog's amulet shop", // 7823
@@ -1725,6 +1864,9 @@
 		]
 	},
 	{
+		"extra": {
+			"extra_0024F6": 1 // 9462
+		},
 		"id": 73,
 		"name": "A Fairy Tale I - Growing Pains",
 		"quest_list_name": ""
@@ -1732,6 +1874,7 @@
 	{
 		"extra": {
 			"quest_create_req61_id": 148, // 1345
+			"quest_description": "Explorer Jack may have taken a break from exploring, but his constant search for myths that could hold secrets to rare trinkets and other trophies has led him to a snow imp, who told him a tale of riches in the distant Land of Snow. He now wants you to verify whether the imp's story holds truth.", // 5968
 			"quest_achieve_id": 157, // 7158
 			"quest_sort_char": "M", // 7219
 			"quest_start_point": "Talk to Explorer Jack in his house by the Lumbridge General Store.", // 7814
@@ -1764,6 +1907,7 @@
 	{
 		"extra": {
 			"quest_create_req61_id": 35, // 1345
+			"quest_description": "Sanfew requires a rare herb for the next part of the purifying ritual. Return to the troll stronghold to find their favourite dish's key ingredient.", // 5968
 			"quest_achieve_id": 36, // 7158
 			"extra_001BF7": 4, // 7159
 			"extra_001BF8": 3, // 7160
@@ -1809,11 +1953,14 @@
 	},
 	{
 		"extra": {
+			"quest_req_item1": 995, // 887
+			"quest_req_item2": 1550, // 888
+			"quest_req_item1_qty": 5, // 949
 			"quest_create_req61_id": 47, // 1345
+			"quest_description": "The mountain dwarves' home offers a safe route across White Wolf Mountain. However, they aren't fond of strangers. Austri and Vestri will grant passage through their tunnel if you bring them the Hemenster fishing competition trophy.", // 5968
 			"quest_achieve_id": 48, // 7158
 			"quest_sort_char": "F", // 7219
 			"quest_start_point": "Talk to Vestri or Austri near White Wolf Mountain.", // 7814
-			"quest_req_items": "5 coins, garlic.", // 7815
 			"quest_xp_lamp_1": "2,437 Fishing XP", // 7818
 			"quest_reward": "Access to the White Wolf Mountain shortcut", // 7823
 			"quest_icon_small_sprite": 9527, // 7829
@@ -1847,6 +1994,7 @@
 		"extra": {
 			"quest_combat": 10, // 857
 			"quest_create_req61_id": 155, // 1345
+			"quest_description": "The desert sands rarely offer up their treasures, but when they do it is sure to be of interest to those with pure intentions and those with gold in their eyes. Leela, Osman's agent in Draynor, has heard that a new pyramid has been unearthed, and that secrets from the days before the God Wars may well be due some time in the open air...", // 5968
 			"quest_achieve_id": 160, // 7158
 			"quest_sort_char": "M", // 7219
 			"quest_start_point": "Talk to Leela in Draynor Village.", // 7814
@@ -1894,6 +2042,9 @@
 		]
 	},
 	{
+		"extra": {
+			"extra_0024F6": 1 // 9462
+		},
 		"id": 78,
 		"name": "Tree Gnome Village",
 		"quest_list_name": ""
@@ -1902,6 +2053,7 @@
 		"extra": {
 			"quest_combat": 15, // 857
 			"quest_create_req61_id": 124, // 1345
+			"quest_description": "Gielinor teems with perilous dragons, trolls, demons and other dangerous monsters. In this quest, you aid an adventurer that struggles against these surmountable threats. But can you defeat the monsters in your dreams and deepest fears? A challenging and strange quest awaits those with a strong will.", // 5968
 			"quest_achieve_id": 134, // 7158
 			"quest_sort_char": "D", // 7219
 			"quest_start_point": "Talk to the fallen man inside the small cave in the Lunar Isle Mine.", // 7814
@@ -1941,6 +2093,9 @@
 		]
 	},
 	{
+		"extra": {
+			"extra_0024F6": 1 // 9462
+		},
 		"id": 80,
 		"name": "Smoking Kills",
 		"quest_list_name": ""
@@ -1948,6 +2103,7 @@
 	{
 		"extra": {
 			"quest_create_req61_id": 105, // 1345
+			"quest_description": "Deep beneath the earth, Juna the serpent has guarded the tears of Guthix for three thousand years. If adventurers can relieve her boredom with an entertaining story, she will allow them into the cave to collect the tears. First, she requires completion of a short task.", // 5968
 			"quest_achieve_id": 115, // 7158
 			"quest_sort_char": "T", // 7219
 			"quest_start_point": "Talk to Juna, inside the cave under Lumbridge Swamp.", // 7814
@@ -1990,6 +2146,7 @@
 		"extra": {
 			"quest_combat": 10, // 857
 			"quest_create_req61_id": 53, // 1345
+			"quest_description": "The citizens of Port Phasmatys are doomed to eternal ghosthood. Necrovarus, lord of the temple of Phasmatys, holds the key to the next world. Will you persuade him to open the door and set them free?", // 5968
 			"quest_achieve_id": 54, // 7158
 			"quest_sort_char": "G", // 7219
 			"quest_start_point": "Talk to Velorina in Port Phasmatys.", // 7814
@@ -2081,6 +2238,9 @@
 		]
 	},
 	{
+		"extra": {
+			"extra_0024F6": 1 // 9462
+		},
 		"id": 84,
 		"name": "Recipe For Disaster: Another Cook's Quest",
 		"quest_list_name": ""
@@ -2089,6 +2249,7 @@
 		"extra": {
 			"quest_combat": 15, // 857
 			"quest_create_req61_id": 113, // 1345
+			"quest_description": "The imperial guard raid failed; Dunstan's son was captured by trolls. Traverse Trollheim and rescue him from the troll stronghold.", // 5968
 			"quest_achieve_id": 123, // 7158
 			"extra_001BF7": 4, // 7159
 			"extra_001BF8": 2, // 7160
@@ -2135,6 +2296,7 @@
 		"extra": {
 			"quest_combat": 17, // 857
 			"quest_create_req61_id": 145, // 1345
+			"quest_description": "A power grows in the north, its spies relaying all that transpires to its master. A long-dormant fear grows, and can no longer be dismissed. The power of the gods - where did it come from, and what would happen if a mortal could tap its power?", // 5968
 			"quest_achieve_id": 155, // 7158
 			"extra_001BF7": 6, // 7159
 			"extra_001BF8": 1, // 7160
@@ -2195,6 +2357,7 @@
 	{
 		"extra": {
 			"quest_create_req61_id": 146, // 1345
+			"quest_description": "An ancient avian of fiery disposition is in need of your help! By chance, a priest with a suspicious amount of knowledge about the phoenix has appeared near its roost, and seeks an adventurer with the skills and the mettle to venture forth and aid the phoenix in its hour of need.", // 5968
 			"quest_achieve_id": 156, // 7158
 			"quest_sort_char": "I", // 7219
 			"quest_start_point": "Talk to the priest of Guthix outside a cave south-west of the Piscatoris Fishing Colony.", // 7814
@@ -2230,11 +2393,17 @@
 		]
 	},
 	{
+		"extra": {
+			"extra_0024F6": 1 // 9462
+		},
 		"id": 88,
 		"name": "The Great Brain Roberry",
 		"quest_list_name": ""
 	},
 	{
+		"extra": {
+			"extra_0024F6": 1 // 9462
+		},
 		"id": 89,
 		"name": "Tai Bwo Wannai Trio",
 		"quest_list_name": ""
@@ -2243,6 +2412,7 @@
 		"extra": {
 			"quest_combat": 13, // 857
 			"quest_create_req61_id": 112, // 1345
+			"quest_description": "Ug loves Aga, but Aga is with Arrg, who is much stronger. Ug cannot follow the usual violent courtship. Can you discover what will impress the troll female more than a display of violence? Will you survive the journey to help a lonely troll find love?", // 5968
 			"quest_achieve_id": 122, // 7158
 			"quest_sort_char": "T", // 7219
 			"quest_start_point": "Talk to Ug in the troll stronghold.", // 7814
@@ -2285,6 +2455,9 @@
 		]
 	},
 	{
+		"extra": {
+			"extra_0024F6": 1 // 9462
+		},
 		"id": 91,
 		"name": "Land of the Goblins",
 		"quest_list_name": ""
@@ -2293,6 +2466,7 @@
 		"extra": {
 			"quest_combat": 9, // 857
 			"quest_create_req61_id": 26, // 1345
+			"quest_description": "Dr Fenkenstrain, master and sole occupant of the castle to the north-east of Canifis, needs a new servant to go on a dark errand for him. Do you have the stomach (and other organs) to help Fenkenstrain pursue his twisted purpose?", // 5968
 			"quest_achieve_id": 28, // 7158
 			"quest_sort_char": "C", // 7219
 			"quest_start_point": "Read the signpost in Canifis or talk to Dr Fenkenstrain to be hired as his butler.", // 7814
@@ -2336,6 +2510,7 @@
 		"extra": {
 			"quest_combat": 11, // 857
 			"quest_create_req61_id": 50, // 1345
+			"quest_description": "Investigate the death of elven leaders of old. Search for the elf King Baxtorian's tomb and discover the mysterious hidden treasure of the waterfall.", // 5968
 			"quest_achieve_id": 51, // 7158
 			"quest_sort_char": "W", // 7219
 			"quest_start_point": "Talk to Almera in her house north-east of the Baxtorian Falls.", // 7814
@@ -2367,6 +2542,9 @@
 		]
 	},
 	{
+		"extra": {
+			"extra_0024F6": 1 // 9462
+		},
 		"id": 94,
 		"name": "Elemental Workshop II",
 		"quest_list_name": ""
@@ -2374,6 +2552,7 @@
 	{
 		"extra": {
 			"quest_create_req61_id": 143, // 1345
+			"quest_description": "The spirit beast is threatening to tear its way into our world, so Summer and her family need your help to stop it once and for all. You must once more venture into the spirit beast's realm and, together with the elders, take on the beast to save them.", // 5968
 			"quest_achieve_id": 153, // 7158
 			"quest_sort_char": "S", // 7219
 			"quest_start_point": "Talk to Summer by the Wilderness wall north-east of Varrock.", // 7814
@@ -2420,6 +2599,9 @@
 		]
 	},
 	{
+		"extra": {
+			"extra_0024F6": 1 // 9462
+		},
 		"id": 96,
 		"name": "Kennith's Concerns",
 		"quest_list_name": ""
@@ -2427,6 +2609,7 @@
 	{
 		"extra": {
 			"quest_create_req61_id": 39, // 1345
+			"quest_description": "Lazim the sculptor has a sad tale to tell - his days of making art are over, and now all he can do is scold adventurers crafting his statue in the desert. Assist Lazim with his artistic endeavours, and uncover deeper Kharidian history than you'd imagine.", // 5968
 			"quest_achieve_id": 40, // 7158
 			"quest_sort_char": "E", // 7219
 			"quest_start_point": "Talk to Lazim in the desert south of the Bandit Camp.", // 7814
@@ -2465,16 +2648,25 @@
 		]
 	},
 	{
+		"extra": {
+			"extra_0024F6": 1 // 9462
+		},
 		"id": 98,
 		"name": "Forgettable Tale of a Drunken Dwarf",
 		"quest_list_name": ""
 	},
 	{
+		"extra": {
+			"extra_0024F6": 1 // 9462
+		},
 		"id": 99,
 		"name": "Doric's Quest",
 		"quest_list_name": ""
 	},
 	{
+		"extra": {
+			"extra_0024F6": 1 // 9462
+		},
 		"id": 100,
 		"name": "Regicide",
 		"quest_list_name": ""
@@ -2483,6 +2675,7 @@
 		"extra": {
 			"quest_combat": 13, // 857
 			"quest_create_req61_id": 92, // 1345
+			"quest_description": "Zombie pirates have seized Braindeath Island, and are anything but friendly. 'Rum' production has stopped, and pirate brewers are panicking. Can you overcome the horde of drunken, undead pirates? Can you even reach the island without a pounding headache?", // 5968
 			"quest_achieve_id": 102, // 7158
 			"quest_sort_char": "R", // 7219
 			"quest_start_point": "Talk to Pirate Pete at the docks north of Port Phasmatys.", // 7814
@@ -2529,6 +2722,7 @@
 		"extra": {
 			"quest_combat": 3, // 857
 			"quest_create_req61_id": 20, // 1345
+			"quest_description": "Rantz the ogre needs to feed his demanding children, Fycie and Bugs, so he wants to go big chompy bird hunting. Problem is, he's all fingers and thumbs when it comes to making ogre arrows. Give him a hand.", // 5968
 			"quest_achieve_id": 22, // 7158
 			"quest_sort_char": "B", // 7219
 			"quest_start_point": "Talk to Rantz east of the Feldip Hills.", // 7814
@@ -2568,6 +2762,9 @@
 		]
 	},
 	{
+		"extra": {
+			"extra_0024F6": 1 // 9462
+		},
 		"id": 103,
 		"name": "Wanted!",
 		"quest_list_name": ""
@@ -2576,6 +2773,7 @@
 		"extra": {
 			"quest_combat": 11, // 857
 			"quest_create_req61_id": 25, // 1345
+			"quest_description": "Run for your lives...the zombie ogres are here for your flesh! Their ancient ceremonial dance site is overrun with diseased undead ogres. How did this happen? And what rewards await an enterprising adventurer that explores these tombs?", // 5968
 			"quest_achieve_id": 27, // 7158
 			"quest_sort_char": "Z", // 7219
 			"quest_start_point": "Talk to Grish, located west of Gu'Tanoth and south of Castle Wars.", // 7814
@@ -2614,16 +2812,25 @@
 		]
 	},
 	{
+		"extra": {
+			"extra_0024F6": 1 // 9462
+		},
 		"id": 105,
 		"name": "Horror from the Deep",
 		"quest_list_name": ""
 	},
 	{
+		"extra": {
+			"extra_0024F6": 1 // 9462
+		},
 		"id": 106,
 		"name": "Fight Arena",
 		"quest_list_name": ""
 	},
 	{
+		"extra": {
+			"extra_0024F6": 1 // 9462
+		},
 		"id": 107,
 		"name": "Enlightened Journey",
 		"quest_list_name": ""
@@ -2632,6 +2839,7 @@
 		"extra": {
 			"quest_combat": 8, // 857
 			"quest_create_req61_id": 72, // 1345
+			"quest_description": "Merlin the wizard is imprisoned in a giant crystal. Take up King Arthur's quest to free Merlin and become a Knight of the Round Table.", // 5968
 			"quest_achieve_id": 72, // 7158
 			"quest_sort_char": "M", // 7219
 			"quest_start_point": "Talk to King Arthur in Camelot Castle.", // 7814
@@ -2664,6 +2872,9 @@
 		]
 	},
 	{
+		"extra": {
+			"extra_0024F6": 1 // 9462
+		},
 		"id": 109,
 		"name": "Perils of Ice Mountain",
 		"quest_list_name": ""
@@ -2672,6 +2883,7 @@
 		"extra": {
 			"quest_combat": 12, // 857
 			"quest_create_req61_id": 90, // 1345
+			"quest_description": "Deep in Isafdar's elven forests live a duo of roving elves: Islwyn (a grumpy, old elf who dislikes humans), and Eluned (a friendly, young elf with a kind heart). Overcome Islwyn's prejudice against humans and ease the burdens of the past.", // 5968
 			"quest_achieve_id": 100, // 7158
 			"quest_sort_char": "R", // 7219
 			"quest_start_point": "Talk to Islwyn, a roving elf somewhere in the elven forest of Isafdar in Tirannwn.", // 7814
@@ -2712,11 +2924,14 @@
 	},
 	{
 		"extra": {
+			"quest_req_item1": 995, // 887
+			"quest_req_item2": 229, // 888
 			"quest_create_req61_id": 33, // 1345
+			"extra_000FDD": "(given by Sanfew if none are in your backpack)", // 4061
+			"quest_description": "The druids have decided to join the defence of Taverley and Burthorpe, and they're looking to get their god on their side. By concocting a potion with the help of their herbal specialist, you'll gain Guthix's favour and send the trolls packing.", // 5968
 			"quest_achieve_id": 18, // 7158
 			"quest_sort_char": "D", // 7219
 			"quest_start_point": "Talk to Kaqemeex at the stone circle north of Taverley.", // 7814
-			"quest_req_items": "Fishing rod, chisel, coins.", // 7815
 			"quest_xp_lamp_1": "250 Herblore XP", // 7818
 			"quest_reward": "15 noted guam<br>15 noted eye of newt", // 7823
 			"quest_icon_small_sprite": 4432, // 7829
@@ -2748,11 +2963,12 @@
 	{
 		"extra": {
 			"quest_combat": 8, // 857
+			"quest_req_item1": 35, // 887
 			"quest_create_req61_id": 61, // 1345
+			"quest_description": "King Arthur sends his knights on a quest for the Holy Grail. If you are a Knight of the Round Table, go to King Arthur for instructions.", // 5968
 			"quest_achieve_id": 62, // 7158
 			"quest_sort_char": "H", // 7219
 			"quest_start_point": "Talk to King Arthur in Camelot Castle.", // 7814
-			"quest_req_items": "Excalibur.", // 7815
 			"quest_combat_req": "You will need to defeat a level 28 enemy.", // 7816
 			"quest_xp_lamp_3": "15,300 Defence XP", // 7819
 			"quest_xp_lamp_4": "11,000 Prayer XP", // 7821
@@ -2790,6 +3006,9 @@
 		]
 	},
 	{
+		"extra": {
+			"extra_0024F6": 1 // 9462
+		},
 		"id": 113,
 		"name": "The Tourist Trap",
 		"quest_list_name": ""
@@ -2895,6 +3114,7 @@
 		"extra": {
 			"quest_combat": 14, // 857
 			"quest_create_req61_id": 44, // 1345
+			"quest_description": "The Fitzharmon family crest is missing, and the family's honour is at stake. Return the crest to Dimintheis in Varrock, and claim one of three rewards.", // 5968
 			"quest_achieve_id": 45, // 7158
 			"quest_sort_char": "F", // 7219
 			"quest_start_point": "Talk to Dimintheis in south-east Varrock.", // 7814
@@ -2936,6 +3156,7 @@
 		"extra": {
 			"quest_combat": 15, // 857
 			"quest_create_req61_id": 156, // 1345
+			"quest_description": "In the mysterious icy waste to the north of troll country, uncover more of the mysteries of the Mahjarrat and learn about the dark magic that was used to enslave Arrav these last few millennia.", // 5968
 			"quest_achieve_id": 161, // 7158
 			"quest_sort_char": "C", // 7219
 			"quest_start_point": "Talk to Ali the Wise in his house in Nardah.", // 7814
@@ -2985,11 +3206,17 @@
 		]
 	},
 	{
+		"extra": {
+			"extra_0024F6": 1 // 9462
+		},
 		"id": 118,
 		"name": "Garden of Tranquillity",
 		"quest_list_name": ""
 	},
 	{
+		"extra": {
+			"extra_0024F6": 1 // 9462
+		},
 		"id": 119,
 		"name": "Legends' Quest",
 		"quest_list_name": ""
@@ -2998,6 +3225,7 @@
 		"extra": {
 			"quest_combat": 12, // 857
 			"quest_create_req61_id": 58, // 1345
+			"quest_description": "Recent forays into Morytania by some of Saradomin's more fanatical supporters have unearthed murky rumours concerning an abandoned mine in the south. Legend suggests an unusual substance deep within, linked to the desolation and dread that surrounds it. Do you possess the courage to enter the haunted mines of Morytania?", // 5968
 			"quest_achieve_id": 59, // 7158
 			"quest_sort_char": "H", // 7219
 			"quest_start_point": "Talk to the zealot at the entrance of the Abandoned Mine in south Morytania.", // 7814
@@ -3036,11 +3264,12 @@
 	},
 	{
 		"extra": {
+			"quest_req_item1": 1941, // 887
 			"quest_create_req61_id": 94, // 1345
+			"quest_description": "Unusual activity on the Fishing Platform: missing fishermen and dozens of strange sea creatures are cause for concern. Investigate the platform and discover the truth before it's too late.", // 5968
 			"quest_achieve_id": 104, // 7158
 			"quest_sort_char": "S", // 7219
 			"quest_start_point": "Talk to Caroline in Witchaven, east of Ardougne.", // 7814
-			"quest_req_items": "Swamp paste.", // 7815
 			"quest_xp_lamp_1": "7,175 Fishing XP", // 7818
 			"quest_reward": "Access to the fishing platform<br>Oyster pearls", // 7823
 			"quest_icon_small_sprite": 9561, // 7829
@@ -3073,6 +3302,9 @@
 		]
 	},
 	{
+		"extra": {
+			"extra_0024F6": 1 // 9462
+		},
 		"id": 122,
 		"name": "Hunt for Red Raktuber",
 		"quest_list_name": ""
@@ -3080,6 +3312,7 @@
 	{
 		"extra": {
 			"quest_create_req61_id": 31, // 1345
+			"quest_description": "No one likes to miss a good ceremony; least of all a poor lowly monk who needs your assistance! Will you aid him and make his dreams come true?", // 5968
 			"quest_achieve_id": 33, // 7158
 			"quest_sort_char": "D", // 7219
 			"quest_start_point": "Talk to the monk just outside Paterdomus (the temple on the Salve).", // 7814
@@ -3123,6 +3356,7 @@
 	{
 		"extra": {
 			"quest_create_req61_id": 71, // 1345
+			"quest_description": "A secluded outpost has served the City of Ardougne for generations, playing stage to many exceptional events. Its current occupant wants to employ your skills to construct its true history before time runs out and history itself is wiped away!", // 5968
 			"quest_achieve_id": 71, // 7158
 			"quest_sort_char": "M", // 7219
 			"quest_start_point": "Talk to Jorral in the outpost south of the Tree Gnome Stronghold, north-west of West Ardougne.", // 7814
@@ -3163,6 +3397,7 @@
 		"extra": {
 			"quest_combat": 5, // 857
 			"quest_create_req61_id": 59, // 1345
+			"quest_description": "Uncover the secrets of the Carnillean family fortune. Choose to aid the Carnilleans in retrieving stolen goods, or join the Hazeel cult in resurrecting the infamous Lord Hazeel.", // 5968
 			"quest_achieve_id": 60, // 7158
 			"quest_sort_char": "H", // 7219
 			"quest_start_point": "Talk to Sir Ceril Carnillean in his mansion in south-west Ardougne.", // 7814
@@ -3200,6 +3435,7 @@
 		"extra": {
 			"quest_combat": 13, // 857
 			"quest_create_req61_id": 106, // 1345
+			"quest_description": "A mysterious stranger named Lucien sends you on a mission deep under the Temple of Ikov in central Kandarin to retrieve an artefact. Will you entrust the Staff of Armadyl to Lucien?", // 5968
 			"quest_achieve_id": 116, // 7158
 			"quest_sort_char": "T", // 7219
 			"quest_start_point": "Talk to Lucien in the Flying Horse Inn, Ardougne.", // 7814
@@ -3241,6 +3477,7 @@
 		"extra": {
 			"quest_combat": 12, // 857
 			"quest_create_req61_id": 91, // 1345
+			"quest_description": "Being regent of a small island kingdom is tough, especially when the King declared war while you were away. Something's amiss in Miscellania and Etceteria. Better find out before both kingdoms end up in royal trouble!", // 5968
 			"quest_achieve_id": 101, // 7158
 			"quest_sort_char": "R", // 7219
 			"quest_start_point": "Talk to Advisor Ghrim in the castle of Miscellania.", // 7814
@@ -3286,6 +3523,7 @@
 		"extra": {
 			"quest_combat": 9, // 857
 			"quest_create_req61_id": 21, // 1345
+			"quest_description": "Assist Elena in uncovering the truth behind the Ardougne plague. Smuggle test samples across Kandarin to her former mentor.", // 5968
 			"quest_achieve_id": 23, // 7158
 			"quest_sort_char": "B", // 7219
 			"quest_start_point": "Talk to Elena in her house in East Ardougne.", // 7814
@@ -3322,6 +3560,9 @@
 		]
 	},
 	{
+		"extra": {
+			"extra_0024F6": 1 // 9462
+		},
 		"id": 129,
 		"name": "Mournings Ends Part II",
 		"quest_list_name": ""
@@ -3330,6 +3571,7 @@
 		"extra": {
 			"quest_combat": 13, // 857
 			"quest_create_req61_id": 73, // 1345
+			"quest_description": "Narnode Shareen, king of the gnome stronghold, once again needs your help. He sent an envoy of his royal guard, the 10th squad, to oversee the decommissioning of ship-building facilities on Karamja's eastern coast. They have been deemed missing in action. Can you unravel the mystery behind their disappearance and discern fact from fiction?", // 5968
 			"quest_achieve_id": 73, // 7158
 			"extra_001BF7": 5, // 7159
 			"extra_001BF8": 2, // 7160
@@ -3369,13 +3611,10 @@
 		]
 	},
 	{
-		"extra": {
-			"quest_sort_char": "U" // 7219
-		},
 		"id": 131,
 		"name": "Unstable Foundations",
 		"quest_difficulty": 0,
-		"quest_list_name": "Unstable Foundations",
+		"quest_list_name": "",
 		"quest_points": 1,
 		"varps": [
 			{
@@ -3386,6 +3625,9 @@
 		]
 	},
 	{
+		"extra": {
+			"extra_0024F6": 1 // 9462
+		},
 		"id": 132,
 		"name": "Vampyre Slayer",
 		"quest_list_name": ""
@@ -3394,6 +3636,7 @@
 		"extra": {
 			"quest_combat": 9, // 857
 			"quest_create_req61_id": 80, // 1345
+			"quest_description": "Having rescued Drezel, the holy man again seeks your aid. Brave the terrors of Mort Myre swamp in search of an implausibly named druid.", // 5968
 			"quest_achieve_id": 80, // 7158
 			"quest_sort_char": "N", // 7219
 			"quest_start_point": "Talk to Drezel in the catacombs beneath the temple on the River Salve.", // 7814
@@ -3435,6 +3678,9 @@
 		]
 	},
 	{
+		"extra": {
+			"extra_0024F6": 1 // 9462
+		},
 		"id": 134,
 		"name": "The Giant Dwarf",
 		"quest_list_name": ""
@@ -3443,11 +3689,12 @@
 		"extra": {
 			"quest_combat": 18, // 857
 			"quest_create_req61_id": 30, // 1345
+			"quest_description": "An archaeologist has discovered clues to a hoard of treasure hidden deep in the desert, south of Al-Kharid. Assisting him could yield a substantial, ancient reward.", // 5968
 			"quest_achieve_id": 32, // 7158
 			"extra_001BF7": 5, // 7159
 			"extra_001BF8": 3, // 7160
 			"quest_sort_char": "D", // 7219
-			"quest_start_point": "Talk to the Archaeologist who is exploring the Bedabin Camp South West of the Shantay Pass.", // 7814
+			"quest_start_point": "Talk to the Archaeologist who is exploring the Bedabin Camp south-west of the Shantay Pass.", // 7814
 			"quest_req_items": "Waterskins, knife, 12 magic logs, 6 steel bars, 6 molten glass, charcoal, 1 ashes, 1 blood rune, 1 bones (regular), cake, silver bar, garlic, pestle and mortar, spiked boots, spice (not gnome), lockpicks, antipoison potions, tinderbox, face mask, stat restore potions.", // 7815
 			"quest_combat_req": "Be able to defeat foes up to level 126.", // 7816
 			"quest_xp_lamp_1": "20,000 Magic XP", // 7818
@@ -3490,17 +3737,26 @@
 		]
 	},
 	{
+		"extra": {
+			"extra_0024F6": 1 // 9462
+		},
 		"id": 136,
 		"name": "The Feud",
 		"quest_list_name": ""
 	},
 	{
 		"extra": {
+			"quest_req_item1": 1767, // 887
+			"quest_req_item2": 1763, // 888
+			"quest_req_item3": 1765, // 889
 			"quest_create_req61_id": 6, // 1345
+			"quest_req_item1_postfix": "(or 2 woad leaves and 5 coins)", // 3822
+			"extra_000FDD": "(or 3 redberries and 5 coins)", // 4061
+			"extra_001178": "(or 2 onions and 5 coins)", // 4472
+			"quest_description": "There's a disturbance in the Goblin Village. Help the goblins solve their dispute so the world doesn't have to worry about rioting goblins.", // 5968
 			"quest_achieve_id": 15, // 7158
 			"quest_sort_char": "G", // 7219
 			"quest_start_point": "Talk to General Bentnoze or General Wartface in the Goblin Village, north of Falador.", // 7814
-			"quest_req_items": "Blue dye (or 2 woad leaves and 5 coins), red dye (or 3 redberries and 5 coins), and yellow dye (or 2 onions and 5 coins).", // 7815
 			"quest_xp_lamp_1": "200 Crafting XP lamp", // 7818
 			"quest_reward": "Gold bar", // 7823
 			"quest_icon_small_sprite": 4429, // 7829
@@ -3529,11 +3785,17 @@
 	},
 	{
 		"extra": {
+			"quest_req_item1": 1927, // 887
+			"quest_req_item2": 327, // 888
+			"quest_req_item3": 1573, // 889
+			"quest_req_item4": 995, // 890
+			"quest_req_item4_qty": 100, // 952
 			"quest_create_req61_id": 52, // 1345
+			"extra_001178": "(can be obtained from behind Gertrude's house)", // 4472
+			"quest_description": "Gertrude's cat is missing; she's very worried. Can you rescue her prized pet? Herding cats is challenging. They get hungry and need plenty of attention. If you're a pet lover, this is the quest for you!", // 5968
 			"quest_achieve_id": 53, // 7158
 			"quest_sort_char": "G", // 7219
 			"quest_start_point": "Talk to Gertrude in her house west of Varrock.", // 7814
-			"quest_req_items": "Bucket of milk, raw sardine, doogle leaves (can be obtained from behind Gertrude's house), 100 coins.", // 7815
 			"quest_xp_lamp_1": "1,525 Cooking XP lamp", // 7818
 			"quest_reward": "Chocolate cake<br>Bowl of stew<br>Kitten(!)<br>Ability to raise cats", // 7823
 			"quest_icon_small_sprite": 4167, // 7829
@@ -3560,6 +3822,9 @@
 		]
 	},
 	{
+		"extra": {
+			"extra_0024F6": 1 // 9462
+		},
 		"id": 139,
 		"name": "TokTz-Ket-Dill",
 		"quest_list_name": ""
@@ -3568,11 +3833,12 @@
 		"extra": {
 			"quest_combat": 5, // 857
 			"quest_create_req61_id": 29, // 1345
+			"quest_description": "Trolls have advanced from the north and are camped on Death Plateau, launching attacks against the principality of Burthorpe. The imperial guard suffer heavy losses. They need your help!", // 5968
 			"quest_achieve_id": 31, // 7158
 			"quest_sort_char": "D", // 7219
 			"quest_start_point": "Talk to Commander Denulth at the Burthorpe training camp.", // 7814
 			"quest_req_items": "None, but be sure to wield a weapon.", // 7815
-			"quest_combat_req": "The ability to defeat a level 9 Troll.", // 7816
+			"quest_combat_req": "The ability to defeat a level 9 troll.", // 7816
 			"quest_xp_lamp_1": "3 reward lamps (100 XP each)", // 7818
 			"quest_reward": "Talk to Denulth for a repeatable delivery task", // 7823
 			"quest_icon_small_sprite": 9570, // 7829
@@ -3604,6 +3870,9 @@
 		]
 	},
 	{
+		"extra": {
+			"extra_0024F6": 1 // 9462
+		},
 		"id": 141,
 		"name": "Icthlarin's Little Helper",
 		"quest_list_name": ""
@@ -3611,10 +3880,11 @@
 	{
 		"extra": {
 			"quest_create_req61_id": 141, // 1345
+			"quest_description": "Jorral has discovered more information about the weird yet wonderful enchanted key. Where this historical information will lead is a mystery, but one thing is certain: it'll be no ordinary search for clues from the past.", // 5968
 			"quest_achieve_id": 151, // 7158
 			"quest_sort_char": "M", // 7219
 			"quest_start_point": "Talk to Jorral in the outpost south of the Tree Gnome Stronghold, north-west of West Ardougne.", // 7814
-			"quest_req_items": "Enchanted key from Making History.", // 7815
+			"quest_req_items": "Enchanted key from 'Making History'.", // 7815
 			"quest_xp_lamp_1": "Tome containing 2,500 XP in 3 skills", // 7818
 			"quest_reward": "Even more treasure hunting with the enchanted key<br>5 kudos from the Varrock museum if you talk to Historian Minas", // 7823
 			"quest_age_period": 1, // 7831
@@ -3649,6 +3919,9 @@
 		]
 	},
 	{
+		"extra": {
+			"extra_0024F6": 1 // 9462
+		},
 		"id": 143,
 		"name": "The Eyes of Glouphrie",
 		"quest_list_name": ""
@@ -3657,6 +3930,7 @@
 		"extra": {
 			"quest_combat": 10, // 857
 			"quest_create_req61_id": 121, // 1345
+			"quest_description": "A travelling trader is stranded south of Varrock after his cart was ambushed by outlaws. He seeks a hero to recover his lost documents, and more. The Varrock Palace Secret Guard (VPSG) investigate illicit dealings with the Monks of Zamorak. Can you assist them in discovering what lies below?", // 5968
 			"quest_achieve_id": 131, // 7158
 			"quest_sort_char": "W", // 7219
 			"quest_start_point": "Talk to Rat Burgiss, south of Varrock.", // 7814
@@ -3696,10 +3970,11 @@
 		"extra": {
 			"quest_combat": 10, // 857
 			"quest_create_req61_id": 117, // 1345
+			"quest_description": "At Ardougne Zoo, a zookeeper obsessed - borderline paranoid - about penguins needs your help observing their behaviour on an iceberg in the Lunar Sea. What begins as a peaceful bird-watching expedition opens a new world of espionage and bad musicians.", // 5968
 			"quest_achieve_id": 127, // 7158
 			"quest_sort_char": "C", // 7219
 			"quest_start_point": "Talk to Larry at Ardougne Zoo.", // 7814
-			"quest_req_items": "10 oak planks, 10 steel nails, a plank, spade, mahogany plank, silk, a clockwork mechanism (or a steel bar to craft one), swamp tar, 5 (non-coloured) feathers, leather, raw cod (or a ring of Charos). You will need access to a player-owned house Crafting table 3 or 4", // 7815
+			"quest_req_items": "10 oak planks, 10 steel nails, a plank, spade, mahogany plank, silk, a clockwork mechanism (or a steel bar to craft one), swamp tar, 5 (non-coloured) feathers, leather, raw cod (or a ring of Charos). You will need access to a Player Owned House Crafting table 3 or 4", // 7815
 			"quest_combat_req": "You will need to defeat a few level 42 icelords.", // 7816
 			"quest_xp_lamp_1": "2,000 Crafting XP<br>5,000 Agility XP<br>1,500 Construction XP", // 7818
 			"quest_reward": "Ability to build a penguin suit<br>Access to the penguin agility course<br>Ability to contact Larry through the NPC Contact spell", // 7823
@@ -3739,6 +4014,7 @@
 		"extra": {
 			"quest_combat": 12, // 857
 			"quest_create_req61_id": 82, // 1345
+			"quest_description": "Yanni has a small favour to ask of you. Nothing particularly large or demanding, and it should hardly take you any time at all. Just something to do when you have a spare moment.", // 5968
 			"quest_achieve_id": 82, // 7158
 			"quest_sort_char": "O", // 7219
 			"quest_start_point": "Talk to Yanni Salika in Shilo Village.", // 7814
@@ -3780,6 +4056,9 @@
 		]
 	},
 	{
+		"extra": {
+			"extra_0024F6": 1 // 9462
+		},
 		"id": 147,
 		"name": "Monk's Friend",
 		"quest_list_name": ""
@@ -3788,6 +4067,7 @@
 		"extra": {
 			"quest_combat": 15, // 857
 			"quest_create_req61_id": 118, // 1345
+			"quest_description": "Sibling rivalry turns vicious when Fremennik princes clash. The islands of Jatizso and Neitiznot, founded by sworn enemies, remain at odds. Now, a threat from trolls in the north endangers both islands. Can you prove your loyalty, save the islanders and prove your skills as a warrior, builder and a jester?", // 5968
 			"quest_achieve_id": 128, // 7158
 			"quest_sort_char": "F", // 7219
 			"quest_start_point": "Talk to Mord Gunnars at the docks in Rellekka.", // 7814
@@ -3834,6 +4114,7 @@
 		"extra": {
 			"quest_combat": 7, // 857
 			"quest_create_req61_id": 36, // 1345
+			"quest_description": "The Ardougne Zoo seeks new specimens, but the northern ferret has proven elusive. An eccentric freelance specimen hunter went west for it, but nothing more has been heard from him. Can you track him down? What else will you discover in the mountains of Eagles' Peak?", // 5968
 			"quest_achieve_id": 37, // 7158
 			"quest_sort_char": "E", // 7219
 			"quest_start_point": "Talk to Charlie the Zookeeper in Ardougne Zoo.", // 7814
@@ -3869,6 +4150,9 @@
 		]
 	},
 	{
+		"extra": {
+			"extra_0024F6": 1 // 9462
+		},
 		"id": 150,
 		"name": "The Hand in the Sand",
 		"quest_list_name": ""
@@ -3877,6 +4161,7 @@
 		"extra": {
 			"quest_combat": 9, // 857
 			"quest_create_req61_id": 75, // 1345
+			"quest_description": "A small tribe split from the Fremennik in Rellekka now inhabits the mountains to the east. The chieftain of the nomads has lost his daughter and refuses to move camp until she is found. Whether she ran away, was eaten by trolls, or worse, is a mystery only you can solve.", // 5968
 			"quest_achieve_id": 75, // 7158
 			"quest_sort_char": "M", // 7219
 			"quest_start_point": "Talk to Hamal the chieftain in the mountain camp east of Rellekka.", // 7814
@@ -3915,16 +4200,25 @@
 		]
 	},
 	{
+		"extra": {
+			"extra_0024F6": 1 // 9462
+		},
 		"id": 152,
 		"name": "The Knight's Sword",
 		"quest_list_name": ""
 	},
 	{
+		"extra": {
+			"extra_0024F6": 1 // 9462
+		},
 		"id": 153,
 		"name": "Olaf's Quest",
 		"quest_list_name": ""
 	},
 	{
+		"extra": {
+			"extra_0024F6": 1 // 9462
+		},
 		"id": 154,
 		"name": "A Fairy Tale II - Cure a Queen",
 		"quest_list_name": ""
@@ -3933,6 +4227,7 @@
 		"extra": {
 			"quest_combat": 13, // 857
 			"quest_create_req61_id": 123, // 1345
+			"quest_description": "The dwarves are building a new underground rail link between their city of Keldagrim and the cave goblins' Dorgesh-Kaan, but work is being held up by the discovery of ancient goblin artefacts, and they need the help of a qualified archaeologist. Helping them out should be simple enough — unless you stumble upon another H.A.M. plot against the city.", // 5968
 			"quest_achieve_id": 133, // 7158
 			"quest_sort_char": "A", // 7219
 			"quest_start_point": "Talk to Ambassador Alvijar, who is in Ur-tag's house in Dorgesh-Kaan.", // 7814
@@ -3980,56 +4275,89 @@
 		]
 	},
 	{
+		"extra": {
+			"extra_0024F6": 1 // 9462
+		},
 		"id": 156,
 		"name": "Mournings Ends Part 1",
 		"quest_list_name": ""
 	},
 	{
+		"extra": {
+			"extra_0024F6": 1 // 9462
+		},
 		"id": 157,
 		"name": "Throne of Miscellania",
 		"quest_list_name": ""
 	},
 	{
+		"extra": {
+			"extra_0024F6": 1 // 9462
+		},
 		"id": 158,
 		"name": "Contact!",
 		"quest_list_name": ""
 	},
 	{
+		"extra": {
+			"extra_0024F6": 1 // 9462
+		},
 		"id": 159,
 		"name": "Recipe For Disaster: Freeing Skrach Uglogwee",
 		"quest_list_name": ""
 	},
 	{
+		"extra": {
+			"extra_0024F6": 1 // 9462
+		},
 		"id": 160,
 		"name": "Recipe For Disaster: Freeing Pirate Pete",
 		"quest_list_name": ""
 	},
 	{
+		"extra": {
+			"extra_0024F6": 1 // 9462
+		},
 		"id": 161,
 		"name": "Recipe For Disaster: Freeing the Goblin Generals",
 		"quest_list_name": ""
 	},
 	{
+		"extra": {
+			"extra_0024F6": 1 // 9462
+		},
 		"id": 162,
 		"name": "Recipe For Disaster: Freeing King Awowogei",
 		"quest_list_name": ""
 	},
 	{
+		"extra": {
+			"extra_0024F6": 1 // 9462
+		},
 		"id": 163,
 		"name": "Recipe For Disaster: Freeing Sir Amik Varze",
 		"quest_list_name": ""
 	},
 	{
+		"extra": {
+			"extra_0024F6": 1 // 9462
+		},
 		"id": 164,
 		"name": "Recipe For Disaster: Freeing Evil Dave",
 		"quest_list_name": ""
 	},
 	{
+		"extra": {
+			"extra_0024F6": 1 // 9462
+		},
 		"id": 165,
 		"name": "Recipe For Disaster: Freeing the Mountain Dwarf",
 		"quest_list_name": ""
 	},
 	{
+		"extra": {
+			"extra_0024F6": 1 // 9462
+		},
 		"id": 166,
 		"name": "Recipe For Disaster: Freeing the Lumbridge Sage",
 		"quest_list_name": ""
@@ -4080,11 +4408,17 @@
 		]
 	},
 	{
+		"extra": {
+			"extra_0024F6": 1 // 9462
+		},
 		"id": 168,
 		"name": "The Temple at Senntisten",
 		"quest_list_name": ""
 	},
 	{
+		"extra": {
+			"extra_0024F6": 1 // 9462
+		},
 		"id": 169,
 		"name": "Blood Runs Deep",
 		"quest_list_name": ""
@@ -4138,6 +4472,7 @@
 	{
 		"extra": {
 			"quest_create_req61_id": 165, // 1345
+			"quest_description": "Apprentice Clerval at the Mage Training Arena is just a bit useless, which really isn't helping him to achieve his dream of being the first wizard in centuries to build a rune guardian from scratch. He might need some help to do some research, gather supplies, fix broken machinery, and, er, do everything else.", // 5968
 			"quest_achieve_id": 172, // 7158
 			"quest_sort_char": "R", // 7219
 			"quest_start_point": "Talk to Apprentice Clerval in the basement of the Mage Training Arena.", // 7814
@@ -4175,13 +4510,19 @@
 		]
 	},
 	{
+		"extra": {
+			"extra_0024F6": 1 // 9462
+		},
 		"id": 172,
 		"name": "The Blood Pact",
 		"quest_list_name": ""
 	},
 	{
 		"extra": {
+			"quest_req_item1": 1759, // 887
+			"quest_req_item1_qty": 20, // 949
 			"quest_create_req61_id": 263, // 1345
+			"quest_req_item1_postfix": "(obtained during miniquest)", // 3822
 			"quest_description": "Fred the farmer seeks an adventurer to help with his sheep. Where there's wool, there's a way.", // 5968
 			"quest_reward_item1": 995, // 6852
 			"quest_reward_item1_qty": 60, // 6864
@@ -4197,7 +4538,6 @@
 			"quest_release_year": 2001, // 7834
 			"quest_nth_in_release_year": 5, // 7835
 			"quest_length": 1, // 7855
-			"quest_has_th_keys_reward": 0, // 7887
 			"quest_miniquest_type": 1, // 7889
 			"extra_0024B1": 4 // 9393
 		},
@@ -4219,21 +4559,33 @@
 		]
 	},
 	{
+		"extra": {
+			"extra_0024F6": 1 // 9462
+		},
 		"id": 174,
 		"name": "Buyers and Cellars",
 		"quest_list_name": ""
 	},
 	{
+		"extra": {
+			"extra_0024F6": 1 // 9462
+		},
 		"id": 175,
 		"name": "A Fairy Tale III - Battle at Ork's Rift",
 		"quest_list_name": ""
 	},
 	{
+		"extra": {
+			"extra_0024F6": 1 // 9462
+		},
 		"id": 176,
 		"name": "Elemental Workshop III",
 		"quest_list_name": ""
 	},
 	{
+		"extra": {
+			"extra_0024F6": 1 // 9462
+		},
 		"id": 177,
 		"name": "The Quiet Before the Swarm",
 		"quest_list_name": ""
@@ -4256,7 +4608,6 @@
 			"quest_release_year": 2001, // 7834
 			"quest_nth_in_release_year": 16, // 7835
 			"quest_length": 1, // 7855
-			"quest_has_th_keys_reward": 0, // 7887
 			"quest_miniquest_type": 1, // 7889
 			"extra_0024B1": 18 // 9393
 		},
@@ -4278,25 +4629,31 @@
 		]
 	},
 	{
+		"extra": {
+			"extra_0024F6": 1 // 9462
+		},
 		"id": 179,
 		"name": "Gunnar's Ground",
 		"quest_list_name": ""
 	},
 	{
+		"extra": {
+			"extra_0024F6": 1 // 9462
+		},
 		"id": 180,
 		"name": "The Void Stares Back",
 		"quest_list_name": ""
 	},
 	{
 		"extra": {
-			"quest_sort_char": "O", // 7219
 			"quest_release_year": 2010, // 7834
-			"quest_nth_in_release_year": 17 // 7835
+			"quest_nth_in_release_year": 17, // 7835
+			"extra_0024F6": 1 // 9462
 		},
 		"id": 181,
 		"name": "O Little Town of Daemonheim",
 		"quest_difficulty": 0,
-		"quest_list_name": "O Little Town of Daemonheim",
+		"quest_list_name": "",
 		"quest_points": 0,
 		"varbits": [
 			{
@@ -4313,21 +4670,24 @@
 		"quest_list_name": ""
 	},
 	{
+		"extra": {
+			"extra_0024F6": 1 // 9462
+		},
 		"id": 183,
 		"name": "Do No Evil",
 		"quest_list_name": ""
 	},
 	{
 		"extra": {
-			"quest_sort_char": "P", // 7219
 			"quest_age_period": 2, // 7831
 			"quest_release_year": 2010, // 7834
-			"quest_nth_in_release_year": 11 // 7835
+			"quest_nth_in_release_year": 11, // 7835
+			"extra_0024F6": 1 // 9462
 		},
 		"id": 184,
 		"name": "Partying is Such Sweet Sorrow",
 		"quest_difficulty": 0,
-		"quest_list_name": "Partying is Such Sweet Sorrow",
+		"quest_list_name": "",
 		"quest_points": 0,
 		"varbits": [
 			{
@@ -4389,6 +4749,7 @@
 	{
 		"extra": {
 			"quest_create_req61_id": 12, // 1345
+			"quest_description": "An old letter leads you to Lletya in the company of a gnome mother, along a path that no human - and only one gnome - has ever trodden. You'll encounter Yewnock's most ingenious calibration device to date, and gain rare insight into Arposandra as you investigate the fate of Glouphrie's prisoner.", // 5968
 			"quest_achieve_id": 184, // 7158
 			"quest_sort_char": "P", // 7219
 			"quest_start_point": "Talk to Golrie in his cave beneath the Tree Gnome Village.", // 7814
@@ -4433,6 +4794,9 @@
 		]
 	},
 	{
+		"extra": {
+			"extra_0024F6": 1 // 9462
+		},
 		"id": 187,
 		"name": "Elemental Workshop IV",
 		"quest_list_name": ""
@@ -4495,7 +4859,8 @@
 		"extra": {
 			"quest_sort_char": "H", // 7219
 			"quest_release_year": 2011, // 7834
-			"quest_nth_in_release_year": 5 // 7835
+			"quest_nth_in_release_year": 5, // 7835
+			"extra_0024F6": 1 // 9462
 		},
 		"id": 189,
 		"name": "Holly",
@@ -4514,7 +4879,8 @@
 		"extra": {
 			"quest_sort_char": "H", // 7219
 			"quest_release_year": 2011, // 7834
-			"quest_nth_in_release_year": 6 // 7835
+			"quest_nth_in_release_year": 6, // 7835
+			"extra_0024F6": 1 // 9462
 		},
 		"id": 190,
 		"members": true,
@@ -4531,16 +4897,25 @@
 		]
 	},
 	{
+		"extra": {
+			"extra_0024F6": 1 // 9462
+		},
 		"id": 191,
 		"name": "Deadliest Catch",
 		"quest_list_name": ""
 	},
 	{
+		"extra": {
+			"extra_0024F6": 1 // 9462
+		},
 		"id": 192,
 		"name": "Salt in the Wound",
 		"quest_list_name": ""
 	},
 	{
+		"extra": {
+			"extra_0024F6": 1 // 9462
+		},
 		"id": 193,
 		"name": "The Branches of Darkmeyer",
 		"quest_list_name": ""
@@ -4603,14 +4978,14 @@
 	},
 	{
 		"extra": {
-			"quest_sort_char": "D", // 7219
 			"quest_release_year": 2011, // 7834
-			"quest_nth_in_release_year": 14 // 7835
+			"quest_nth_in_release_year": 14, // 7835
+			"extra_0024F6": 1 // 9462
 		},
 		"id": 195,
 		"name": "Deathcon II",
 		"quest_difficulty": 0,
-		"quest_list_name": "Deathcon II",
+		"quest_list_name": "",
 		"quest_points": 0,
 		"varbits": [
 			{
@@ -4655,14 +5030,14 @@
 	},
 	{
 		"extra": {
-			"quest_sort_char": "T", // 7219
 			"quest_release_year": 2011, // 7834
-			"quest_nth_in_release_year": 16 // 7835
+			"quest_nth_in_release_year": 16, // 7835
+			"extra_0024F6": 1 // 9462
 		},
 		"id": 197,
 		"name": "Turkey Protest",
 		"quest_difficulty": 0,
-		"quest_list_name": "Turkey Protest",
+		"quest_list_name": "",
 		"quest_points": 0,
 		"varbits": [
 			{
@@ -4673,31 +5048,49 @@
 		]
 	},
 	{
+		"extra": {
+			"extra_0024F6": 1 // 9462
+		},
 		"id": 198,
 		"name": "A Towering Feast",
 		"quest_list_name": ""
 	},
 	{
+		"extra": {
+			"extra_0024F6": 1 // 9462
+		},
 		"id": 199,
 		"name": "The Firemaker's Curse",
 		"quest_list_name": ""
 	},
 	{
+		"extra": {
+			"extra_0024F6": 1 // 9462
+		},
 		"id": 200,
 		"name": "Let Them Eat Pie",
 		"quest_list_name": ""
 	},
 	{
+		"extra": {
+			"extra_0024F6": 1 // 9462
+		},
 		"id": 201,
 		"name": "The Elder Kiln",
 		"quest_list_name": ""
 	},
 	{
+		"extra": {
+			"extra_0024F6": 1 // 9462
+		},
 		"id": 202,
 		"name": "Song from the Depths",
 		"quest_list_name": ""
 	},
 	{
+		"extra": {
+			"extra_0024F6": 1 // 9462
+		},
 		"id": 203,
 		"name": "Carnillean Rising",
 		"quest_list_name": ""
@@ -4705,6 +5098,7 @@
 	{
 		"extra": {
 			"quest_create_req61_id": 193, // 1345
+			"quest_description": "Teddy - an agent of the PBJ - has gone missing while on the trail to find Larry. Chuck has received a ransom note from the Walrus and has asked you to investigate. Become a roadie for the famous Ping and Pong and break into a PoW camp to save Larry.", // 5968
 			"quest_achieve_id": 196, // 7158
 			"quest_sort_char": "S", // 7219
 			"quest_start_point": "Talk to Chuck at the Ardougne Zoo.", // 7814
@@ -4748,45 +5142,63 @@
 		]
 	},
 	{
+		"extra": {
+			"extra_0024F6": 1 // 9462
+		},
 		"id": 205,
 		"name": "Diamond in the Rough",
 		"quest_list_name": ""
 	},
 	{
+		"extra": {
+			"extra_0024F6": 1 // 9462
+		},
 		"id": 206,
 		"name": "Stolen Hearts",
 		"quest_list_name": ""
 	},
 	{
+		"extra": {
+			"extra_0024F6": 1 // 9462
+		},
 		"id": 207,
 		"name": "What's Mine is Yours",
 		"quest_list_name": ""
 	},
 	{
+		"extra": {
+			"extra_0024F6": 1 // 9462
+		},
 		"id": 208,
 		"name": "Rune Mysteries",
 		"quest_list_name": ""
 	},
 	{
+		"extra": {
+			"extra_0024F6": 1 // 9462
+		},
 		"id": 209,
 		"name": "Rune Memories",
 		"quest_list_name": ""
 	},
 	{
+		"extra": {
+			"extra_0024F6": 1 // 9462
+		},
 		"id": 210,
 		"name": "The Brink of Extinction",
 		"quest_list_name": ""
 	},
 	{
 		"extra": {
-			"quest_sort_char": "S", // 7219
 			"quest_release_year": 2012, // 7834
-			"quest_nth_in_release_year": 21 // 7835
+			"quest_nth_in_release_year": 21, // 7835
+			"extra_0024F6": 1 // 9462
 		},
 		"id": 211,
 		"name": "A Stray in a Manger",
 		"quest_difficulty": 0,
-		"quest_list_name": "Stray in a Manger, A",
+		"quest_list_name": "",
 		"quest_points": 0,
 		"varbits": [
 			{
@@ -4797,16 +5209,25 @@
 		]
 	},
 	{
+		"extra": {
+			"extra_0024F6": 1 // 9462
+		},
 		"id": 212,
 		"name": "The World Wakes",
 		"quest_list_name": ""
 	},
 	{
+		"extra": {
+			"extra_0024F6": 1 // 9462
+		},
 		"id": 213,
 		"name": "Bringing Home the Bacon",
 		"quest_list_name": ""
 	},
 	{
+		"extra": {
+			"extra_0024F6": 1 // 9462
+		},
 		"id": 214,
 		"name": "The Death of Chivalry",
 		"quest_list_name": ""
@@ -4861,31 +5282,49 @@
 		]
 	},
 	{
+		"extra": {
+			"extra_0024F6": 1 // 9462
+		},
 		"id": 216,
 		"name": "Missing, Presumed Death",
 		"quest_list_name": ""
 	},
 	{
+		"extra": {
+			"extra_0024F6": 1 // 9462
+		},
 		"id": 217,
 		"name": "Tutorial",
 		"quest_list_name": ""
 	},
 	{
+		"extra": {
+			"extra_0024F6": 1 // 9462
+		},
 		"id": 218,
 		"name": "One of a Kind",
 		"quest_list_name": ""
 	},
 	{
+		"extra": {
+			"extra_0024F6": 1 // 9462
+		},
 		"id": 219,
 		"name": "Fate of the Gods",
 		"quest_list_name": ""
 	},
 	{
+		"extra": {
+			"extra_0024F6": 1 // 9462
+		},
 		"id": 220,
 		"name": "A Shadow over Ashdale",
 		"quest_list_name": ""
 	},
 	{
+		"extra": {
+			"extra_0024F6": 1 // 9462
+		},
 		"id": 221,
 		"name": "The Mighty Fall",
 		"quest_list_name": ""
@@ -4947,6 +5386,9 @@
 		]
 	},
 	{
+		"extra": {
+			"extra_0024F6": 1 // 9462
+		},
 		"id": 223,
 		"name": "Broken Home",
 		"quest_list_name": ""
@@ -5002,193 +5444,286 @@
 		]
 	},
 	{
+		"extra": {
+			"extra_0024F6": 1 // 9462
+		},
 		"id": 225,
 		"name": "Dishonour among Thieves",
 		"quest_list_name": ""
 	},
 	{
+		"extra": {
+			"extra_0024F6": 1 // 9462
+		},
 		"id": 226,
 		"name": "Dimension of Disaster",
 		"quest_list_name": ""
 	},
 	{
+		"extra": {
+			"extra_0024F6": 1 // 9462
+		},
 		"id": 227,
 		"name": "Dimension of Disaster: Coin of the Realm",
 		"quest_list_name": ""
 	},
 	{
+		"extra": {
+			"extra_0024F6": 1 // 9462
+		},
 		"id": 228,
 		"name": "Dimension of Disaster: Shield of Arrav",
 		"quest_list_name": ""
 	},
 	{
+		"extra": {
+			"extra_0024F6": 1 // 9462
+		},
 		"id": 229,
 		"name": "Dimension of Disaster: Demon Slayer",
 		"quest_list_name": ""
 	},
 	{
+		"extra": {
+			"extra_0024F6": 1 // 9462
+		},
 		"id": 230,
 		"name": "Dimension of Disaster: Defender of Varrock",
 		"quest_list_name": ""
 	},
 	{
+		"extra": {
+			"extra_0024F6": 1 // 9462
+		},
 		"id": 231,
 		"name": "Dimension of Disaster: Curse of Arrav",
 		"quest_list_name": ""
 	},
 	{
+		"extra": {
+			"extra_0024F6": 1 // 9462
+		},
 		"id": 232,
 		"name": "Crocodile Tears",
 		"quest_list_name": ""
 	},
 	{
+		"extra": {
+			"extra_0024F6": 1 // 9462
+		},
 		"id": 233,
 		"name": "The Light Within",
 		"quest_list_name": ""
 	},
 	{
+		"extra": {
+			"extra_0024F6": 1 // 9462
+		},
 		"id": 234,
 		"name": "The Lord of Vampyrium",
 		"quest_list_name": ""
 	},
 	{
+		"extra": {
+			"extra_0024F6": 1 // 9462
+		},
 		"id": 235,
 		"name": "Call of the Ancestors",
 		"quest_list_name": ""
 	},
 	{
+		"extra": {
+			"extra_0024F6": 1 // 9462
+		},
 		"id": 236,
 		"name": "Tutorial",
 		"quest_list_name": ""
 	},
 	{
+		"extra": {
+			"extra_0024F6": 1 // 9462
+		},
 		"id": 237,
 		"name": "Nomad's Elegy",
 		"quest_list_name": ""
 	},
 	{
+		"extra": {
+			"extra_0024F6": 1 // 9462
+		},
 		"id": 238,
 		"name": "River of Blood",
 		"quest_list_name": ""
 	},
 	{
+		"extra": {
+			"extra_0024F6": 1 // 9462
+		},
 		"id": 239,
 		"name": "Kindred Spirits",
 		"quest_list_name": ""
 	},
 	{
+		"extra": {
+			"extra_0024F6": 1 // 9462
+		},
 		"id": 240,
 		"name": "Gower Quest",
 		"quest_list_name": ""
 	},
 	{
+		"extra": {
+			"extra_0024F6": 1 // 9462
+		},
 		"id": 241,
 		"name": "Children of Mah",
 		"quest_list_name": ""
 	},
 	{
+		"extra": {
+			"extra_0024F6": 1 // 9462
+		},
 		"id": 242,
 		"name": "Impressing the Locals",
 		"quest_list_name": ""
 	},
 	{
+		"extra": {
+			"extra_0024F6": 1 // 9462
+		},
 		"id": 243,
 		"name": "Sliske's Endgame",
 		"quest_list_name": ""
 	},
 	{
+		"extra": {
+			"extra_0024F6": 1 // 9462
+		},
 		"id": 244,
 		"name": "Back to the Freezer",
 		"quest_list_name": ""
 	},
 	{
+		"extra": {
+			"extra_0024F6": 1 // 9462
+		},
 		"id": 245,
 		"name": "Hero's Welcome",
 		"quest_list_name": ""
 	},
 	{
+		"extra": {
+			"extra_0024F6": 1 // 9462
+		},
 		"id": 246,
 		"name": "Our Man in the North",
 		"quest_list_name": ""
 	},
 	{
+		"extra": {
+			"extra_0024F6": 1 // 9462
+		},
 		"id": 247,
 		"name": "The Jack of Spades",
 		"quest_list_name": ""
 	},
 	{
+		"extra": {
+			"extra_0024F6": 1 // 9462
+		},
 		"id": 248,
 		"name": "'Phite Club",
 		"quest_list_name": ""
 	},
 	{
+		"extra": {
+			"extra_0024F6": 1 // 9462
+		},
 		"id": 249,
 		"name": "",
 		"quest_list_name": ""
 	},
 	{
+		"extra": {
+			"extra_0024F6": 1 // 9462
+		},
 		"id": 250,
 		"name": "Evil Dave's Big Day Out",
 		"quest_list_name": ""
 	},
 	{
+		"extra": {
+			"extra_0024F6": 1 // 9462
+		},
 		"id": 251,
 		"name": "Ghost Stories of Gielinor",
 		"quest_list_name": ""
 	},
 	{
+		"extra": {
+			"extra_0024F6": 1 // 9462
+		},
 		"id": 252,
 		"name": "Pieces of Hate",
 		"quest_list_name": ""
 	},
 	{
+		"extra": {
+			"extra_0024F6": 1 // 9462
+		},
 		"id": 253,
 		"name": "You Are It",
 		"quest_list_name": ""
 	},
 	{
+		"extra": {
+			"extra_0024F6": 1 // 9462
+		},
 		"id": 254,
 		"name": "The Needle Skips",
 		"quest_list_name": ""
 	},
 	{
+		"extra": {
+			"extra_0024F6": 1 // 9462
+		},
 		"id": 255,
 		"name": "Violet is Blue",
 		"quest_list_name": ""
 	},
 	{
 		"extra": {
-			"quest_sort_char": "T" // 7219
+			"extra_0024F6": 1 // 9462
 		},
 		"id": 256,
 		"name": "Tutorial",
-		"quest_difficulty": 0,
-		"quest_list_name": "Tutorial",
-		"quest_points": 0,
-		"varbits": [
-			{
-				"endvalue": 120,
-				"startvalue": 1,
-				"varbit": 20940
-			}
-		]
+		"quest_list_name": ""
 	},
 	{
 		"extra": {
+			"quest_req_item1": 1931, // 887
+			"quest_req_item2": 1925, // 888
 			"quest_create_req61_id": 1, // 1345
+			"quest_req_item1_postfix": "(can be found in flour mill)", // 3822
+			"extra_000FDD": "(can be found near dairy cow)", // 4061
+			"quest_description": "The Lumbridge Castle cook needs ingredients to bake Duke Horacio's birthday cake.", // 5968
+			"quest_reward_item1": 995, // 6852
+			"quest_reward_item2": 326, // 6853
+			"quest_reward_item1_qty": 500, // 6864
 			"quest_achieve_id": 2, // 7158
 			"extra_001BF7": 1, // 7159
 			"extra_001BF8": 1, // 7160
 			"quest_sort_char": "C", // 7219
+			"quest_reward_item2_qty": 3, // 7705
 			"quest_start_point": "Talk to the cook in the kitchen of Lumbridge Castle.", // 7814
-			"quest_req_items": "Empty pot (can be found in flour mill). Empty bucket (can be found near dairy cow).", // 7815
 			"quest_xp_lamp_1": "300 Cooking XP", // 7818
-			"quest_reward": "500 coins<br>20 sardines<br>Access to the cook's range", // 7823
+			"quest_reward": "Access to the cook's range", // 7823
 			"quest_icon_small_sprite": 2379, // 7829
 			"quest_age_period": 1, // 7831
 			"quest_release_year": 2001, // 7834
 			"quest_nth_in_release_year": 1, // 7835
 			"quest_length": 2, // 7855
+			"quest_reward_item2_postfix": "(noted)", // 7876
 			"extra_0024B1": 4 // 9393
 		},
 		"id": 257,
@@ -5211,13 +5746,15 @@
 	{
 		"extra": {
 			"quest_combat": 8, // 857
+			"quest_req_item1": 1917, // 887
 			"quest_create_req61_id": 16, // 1345
+			"quest_req_item1_postfix": "(or 2 coins to purchase a pint)", // 3822
+			"quest_description": "The people of Draynor village live in constant terror. Their numbers are dwindling, all due to a foul creature known as a vampyre, lurking in the manor to the north.", // 5968
 			"quest_achieve_id": 7, // 7158
 			"extra_001BF7": 1, // 7159
 			"extra_001BF8": 13, // 7160
 			"quest_sort_char": "V", // 7219
 			"quest_start_point": "Talk to Morgan in Draynor Village.", // 7814
-			"quest_req_items": "Beer (or 2 coins to purchase a pint).", // 7815
 			"quest_combat_req": "You will need to defeat a level 28 enemy.", // 7816
 			"quest_xp_lamp_1": "4,825 combat XP lamp", // 7818
 			"quest_icon_small_sprite": 8273, // 7829
@@ -5245,14 +5782,14 @@
 	},
 	{
 		"extra": {
-			"quest_sort_char": "P", // 7219
 			"quest_release_year": 2001, // 7834
-			"quest_nth_in_release_year": 10 // 7835
+			"quest_nth_in_release_year": 10, // 7835
+			"extra_0024F6": 1 // 9462
 		},
 		"id": 259,
 		"name": "Prince Ali Rescue",
 		"quest_difficulty": 0,
-		"quest_list_name": "Prince Ali Rescue",
+		"quest_list_name": "",
 		"quest_points": 0,
 		"varps": [
 			{
@@ -5264,14 +5801,14 @@
 	},
 	{
 		"extra": {
-			"quest_sort_char": "D", // 7219
 			"quest_release_year": 2001, // 7834
-			"quest_nth_in_release_year": 13 // 7835
+			"quest_nth_in_release_year": 13, // 7835
+			"extra_0024F6": 1 // 9462
 		},
 		"id": 260,
 		"name": "Doric's Quest",
 		"quest_difficulty": 0,
-		"quest_list_name": "Doric's Quest",
+		"quest_list_name": "",
 		"quest_points": 0,
 		"varps": [
 			{
@@ -5284,11 +5821,14 @@
 	{
 		"extra": {
 			"quest_combat": 11, // 857
+			"quest_req_item1": 2325, // 887
+			"quest_req_item2": 2351, // 888
+			"quest_req_item2_qty": 2, // 950
 			"quest_create_req61_id": 8, // 1345
+			"quest_description": "Sir Vyvin's squire has accidentally lost the knight's ceremonial sword. Help him discreetly find a replacement.", // 5968
 			"quest_achieve_id": 14, // 7158
 			"quest_sort_char": "K", // 7219
 			"quest_start_point": "Talk to Squire Asrol in the courtyard of the White Knights' Castle in Falador.", // 7814
-			"quest_req_items": "Redberry pie, 2 iron bars.", // 7815
 			"quest_combat_req": "You will need to defeat or evade level 54 enemies.", // 7816
 			"quest_xp_lamp_1": "12,725 Smithing XP lamp", // 7818
 			"quest_reward": "Ability to smith blurite items", // 7823
@@ -5322,6 +5862,7 @@
 		"extra": {
 			"quest_combat": 12, // 857
 			"quest_create_req61_id": 68, // 1345
+			"quest_description": "Legends tell of a magical lost city hidden in the swamps. Many adventurers have tried to find this city, but it is proving difficult. Can you unlock the secrets of the city of Zanaris?", // 5968
 			"quest_achieve_id": 19, // 7158
 			"extra_001BF7": 3, // 7159
 			"quest_sort_char": "L", // 7219
@@ -5363,6 +5904,7 @@
 		"extra": {
 			"quest_combat": 10, // 857
 			"quest_create_req61_id": 109, // 1345
+			"quest_description": "A little boy has lost his ball in the garden of an unpleasant local witch.", // 5968
 			"quest_achieve_id": 119, // 7158
 			"quest_sort_char": "W", // 7219
 			"quest_start_point": "Talk to Harvey, the crying boy west of Falador.", // 7814
@@ -5397,6 +5939,7 @@
 		"extra": {
 			"quest_combat": 13, // 857
 			"quest_create_req61_id": 60, // 1345
+			"quest_description": "You will first have to prove you are worthy to enter the Heroes' Guild. To prove your status as a hero, you will need to obtain a number of items. There are many challenges standing between you and these items.", // 5968
 			"quest_achieve_id": 61, // 7158
 			"extra_001BF7": 4, // 7159
 			"extra_001BF8": 1, // 7160
@@ -5446,6 +5989,7 @@
 		"extra": {
 			"quest_combat": 9, // 857
 			"quest_create_req61_id": 93, // 1345
+			"quest_description": "Thormac's rare lesser-kharid scorpions escaped when he left their cage door open, and they're hidden in hard-to-reach places. To catch his scorptions, you'll overcome various challenges - and drink a lot of beer. If you succeed, Thormac will improve your battlestaves.", // 5968
 			"quest_achieve_id": 103, // 7158
 			"quest_sort_char": "S", // 7219
 			"quest_start_point": "Talk to Thormac on the top floor of his tower south of the Seers' Village.", // 7814
@@ -5486,11 +6030,14 @@
 	},
 	{
 		"extra": {
+			"quest_req_item1": 1937, // 887
+			"quest_req_item2": 1511, // 888
 			"quest_create_req61_id": 74, // 1345
+			"extra_000FDD": "(or a hatchet)", // 4061
+			"quest_description": "A child's blanket has been stolen! Find the thieves' den, return the blanket, and help Brother Omad organise drinks for the child's birthday party.", // 5968
 			"quest_achieve_id": 74, // 7158
 			"quest_sort_char": "M", // 7219
 			"quest_start_point": "Talk to Brother Omad at the monastery south of Ardougne.", // 7814
-			"quest_req_items": "Jug of water, logs (or a hatchet).", // 7815
 			"quest_combat_req": "You can choose to defeat two level 21 thieves and a level 25 head thief.", // 7816
 			"quest_xp_lamp_1": "2,000 Woodcutting XP", // 7818
 			"quest_reward": "8 law runes", // 7823
@@ -5521,11 +6068,13 @@
 	{
 		"extra": {
 			"quest_combat": 11, // 857
+			"quest_req_item1": 1511, // 887
+			"quest_req_item1_qty": 6, // 949
 			"quest_create_req61_id": 110, // 1345
+			"quest_description": "The tree gnomes are under attack by General Khazard's forces. Navigate the hedge maze to their secret treetop village, then assist in fighting Khazard and retrieve the orbs of protection.", // 5968
 			"quest_achieve_id": 120, // 7158
 			"quest_sort_char": "T", // 7219
 			"quest_start_point": "Talk to King Bolren in the Tree Gnome Village.", // 7814
-			"quest_req_items": "6 normal logs.", // 7815
 			"quest_combat_req": "You will need to defeat a level 53 enemy and might need to defeat two level 49 enemies.", // 7816
 			"quest_xp_lamp_1": "11,450 Attack XP", // 7818
 			"quest_reward": "Access to spirit tree teleportation<br>Gnome amulet of protection", // 7823
@@ -5558,6 +6107,7 @@
 		"extra": {
 			"quest_combat": 13, // 857
 			"quest_create_req61_id": 46, // 1345
+			"quest_description": "The notorious General Khazard has abducted tThe prosperous Servil family. He intends to force them to battle for his entertainment in the Fight Arena. Can you rescue the Servils before the tyrant slays these innocent (not to mention wealthy) civilians?", // 5968
 			"quest_achieve_id": 47, // 7158
 			"quest_sort_char": "F", // 7219
 			"quest_start_point": "Talk to Lady Servil, just north-west of the fight arena.", // 7814
@@ -5595,6 +6145,7 @@
 		"extra": {
 			"quest_combat": 15, // 857
 			"quest_create_req61_id": 56, // 1345
+			"quest_description": "The Grand Tree, which shelters the tree gnomes, is dying. Is it human sabotage or an inside job? Help King Shareen uncover the truth and save the gnomes from an uncertain fate.", // 5968
 			"quest_achieve_id": 57, // 7158
 			"extra_001BF7": 4, // 7159
 			"extra_001BF8": 5, // 7160
@@ -5636,6 +6187,7 @@
 		"extra": {
 			"quest_combat": 14, // 857
 			"quest_create_req61_id": 114, // 1345
+			"quest_description": "The underground pass, sealed for thousands of years, has now been re-opened, revealing a complex labyrinth of tunnels and chasms. You must find a way through, and get one step closer to the evil King Tyras. But the road is long and it could be lonely. When fatigue starts to take its toll, mental strength is what you'll need...", // 5968
 			"quest_achieve_id": 124, // 7158
 			"quest_sort_char": "U", // 7219
 			"quest_start_point": "Talk to King Lathas in Ardougne Castle.", // 7814
@@ -5680,6 +6232,7 @@
 		"extra": {
 			"quest_combat": 8, // 857
 			"quest_create_req61_id": 81, // 1345
+			"quest_description": "The observatory in south-west Ardougne has been ransacked by local goblins. Can you help the professors to rebuild it?", // 5968
 			"quest_achieve_id": 81, // 7158
 			"quest_sort_char": "O", // 7219
 			"quest_start_point": "Talk to Professor Gronigen in the observatory north of Castle Wars.", // 7814
@@ -5715,6 +6268,7 @@
 		"extra": {
 			"quest_combat": 7, // 857
 			"quest_create_req61_id": 108, // 1345
+			"quest_description": "South of Al Kharid, a desert pass opens to the perilous Kharidian desert. Don your desert garb and fill your waterskins before venturing into the trackless dunes in search of adventure.", // 5968
 			"quest_achieve_id": 118, // 7158
 			"quest_sort_char": "T", // 7219
 			"quest_start_point": "Talk to Irena just south of Shantay Pass.", // 7814
@@ -5753,6 +6307,7 @@
 	{
 		"extra": {
 			"quest_create_req61_id": 32, // 1345
+			"quest_description": "Join students at the dig site and become qualified in making the earth move. Do you have what it takes to excavate a buried altar dedicated to one of Gielinor's lesser-known gods?", // 5968
 			"quest_achieve_id": 34, // 7158
 			"quest_sort_char": "D", // 7219
 			"quest_start_point": "Talk to an examiner in the Exam Centre.", // 7814
@@ -5795,6 +6350,7 @@
 		"extra": {
 			"quest_combat": 14, // 857
 			"quest_create_req61_id": 67, // 1345
+			"quest_description": "Accept the challenge of the Legends' Guild to map the southern part of Karamja, make friends with the natives and bring back a prize to display in the hall of legends.", // 5968
 			"quest_achieve_id": 68, // 7158
 			"extra_001BF7": 5, // 7159
 			"extra_001BF8": 1, // 7160
@@ -5848,11 +6404,14 @@
 	{
 		"extra": {
 			"quest_combat": 10, // 857
+			"quest_req_item1": 1734, // 887
+			"quest_req_item2": 453, // 888
+			"quest_req_item2_qty": 4, // 950
 			"quest_create_req61_id": 37, // 1345
+			"quest_description": "Centuries ago, a mineral was discovered that could absorb, transform, or focus magic. Fearing its impact, magicians sealed this workshop. Can you re-discover the lost knowledge of elemental ore and puzzle out its machinery?", // 5968
 			"quest_achieve_id": 38, // 7158
 			"quest_sort_char": "E", // 7219
 			"quest_start_point": "Search the shelves in a house in Seers' Village for an old book.", // 7814
-			"quest_req_items": "1 thread, 4 coal.", // 7815
 			"quest_combat_req": "You will need to defeat a level 44 earth elemental.", // 7816
 			"quest_xp_lamp_1": "5,000 Crafting XP<br>5,000 Smithing XP", // 7818
 			"quest_reward": "Access to the Elemental Workshop<br>Elemental shield and the ability to make them", // 7823
@@ -5891,6 +6450,7 @@
 		"extra": {
 			"quest_combat": 9, // 857
 			"quest_create_req61_id": 84, // 1345
+			"quest_description": "Contact with the Temple of Paterdomus on Misthalin's eastern border has been lost. King Roald urgently seeks an adventurer to investigate and report back to him.", // 5968
 			"quest_achieve_id": 84, // 7158
 			"quest_sort_char": "P", // 7219
 			"quest_start_point": "Talk to King Roald in Varrock Palace.", // 7814
@@ -5927,6 +6487,7 @@
 		"extra": {
 			"quest_combat": 7, // 857
 			"quest_create_req61_id": 103, // 1345
+			"quest_description": "In 'Jungle Potion', shaman Trufitus communed with the gods to determine his people's fate. Now, Tai Bwo Wannai's chief, Timfraku, seeks to restore his village and family. Help a depressed fisherman, encourage a raging hunter and satiate an eccentric priest in this extreme test of aptitude and patience!", // 5968
 			"quest_achieve_id": 113, // 7158
 			"quest_sort_char": "T", // 7219
 			"quest_start_point": "Talk to Timfraku in his house in Tai Bwo Wannai.", // 7814
@@ -5971,6 +6532,7 @@
 		"extra": {
 			"quest_combat": 11, // 857
 			"quest_create_req61_id": 89, // 1345
+			"quest_description": "Continuing the Plague City series, this quest takes you beyond the Well of Voyage to a new realm. King Lathas hires you for the grim task of deposing his brother. Travelling into Tirranwn, you'll encounter strange flora, fauna and even a new race. However, all is not as serene as it first appears.", // 5968
 			"quest_achieve_id": 99, // 7158
 			"quest_sort_char": "R", // 7219
 			"quest_start_point": "Receive a message from King Lathas after completing Underground Pass.", // 7814
@@ -6010,6 +6572,7 @@
 		"extra": {
 			"quest_combat": 11, // 857
 			"quest_create_req61_id": 96, // 1345
+			"quest_description": "Mort Myre's southern border has been breached, revealing a route to the strange town of Mort'ton. Strangers return with tales of the 'afflicted' and shadowy guardians of tomb treasure.", // 5968
 			"quest_achieve_id": 106, // 7158
 			"quest_sort_char": "S", // 7219
 			"quest_start_point": "Read a diary found in a house in Mort'ton.", // 7814
@@ -6050,6 +6613,7 @@
 		"extra": {
 			"quest_combat": 15, // 857
 			"quest_create_req61_id": 49, // 1345
+			"quest_description": "Council workmen have finally repaired the footbridge connecting Kandarin and Rellekka. Impress the barbarians and earn their respect an honorary member of their clan.", // 5968
 			"quest_achieve_id": 50, // 7158
 			"quest_sort_char": "F", // 7219
 			"quest_start_point": "Talk to Brundt the Chieftain in the longhall in Rellekka.", // 7814
@@ -6094,6 +6658,7 @@
 		"extra": {
 			"quest_combat": 14, // 857
 			"quest_create_req61_id": 62, // 1345
+			"quest_description": "The lighthouse protecting Kandarin's north-western coastline has mysteriously ceased operation, and communication with the lighthouse-keeper Jossik is lost. The council urgently seeks to know what happened to this most vital edifice.", // 5968
 			"quest_achieve_id": 63, // 7158
 			"quest_sort_char": "H", // 7219
 			"quest_start_point": "Talk to Larrissa south of the Lighthouse.", // 7814
@@ -6136,6 +6701,7 @@
 	{
 		"extra": {
 			"quest_create_req61_id": 107, // 1345
+			"quest_description": "Rumours abound that all is not well in Miscellania. It is said that the king has been turned into a monster! An exceptional hero is required to investigate. Experience in ruling kingdoms, wooing royalty and negotiating peace would be an advantage.", // 5968
 			"quest_achieve_id": 117, // 7158
 			"quest_sort_char": "T", // 7219
 			"quest_start_point": "Talk to King Vargas in the castle on the island of Miscellania, accessed from a longboat on the north coast of Rellekka.", // 7814
@@ -6174,6 +6740,7 @@
 		"extra": {
 			"quest_combat": 10, // 857
 			"quest_create_req61_id": 65, // 1345
+			"quest_description": "A stranger in Canifis seeks help. He aims to track down some local heroes known only as the Myreque. Search for and provide them with weapons in their desperate battle against the darkness of Morytania.", // 5968
 			"quest_achieve_id": 66, // 7158
 			"quest_sort_char": "I", // 7219
 			"quest_start_point": "Talk to Vanstrom Klause in the Hair of the Dog tavern in Canifis.", // 7814
@@ -6220,6 +6787,7 @@
 		"extra": {
 			"quest_combat": 11, // 857
 			"quest_create_req61_id": 19, // 1345
+			"quest_description": "Hidden from trolls and Fremennik, the dwarves delve deep in search of ore. One dwarf has for years tried to crack open a seemingly impervious rock, believing it holds great wealth. Assist him, but take care you don't end up in a tight spot!", // 5968
 			"quest_achieve_id": 21, // 7158
 			"quest_sort_char": "B", // 7219
 			"quest_start_point": "Talk to Dondakan in the Keldagrim south-west mine.", // 7814
@@ -6265,6 +6833,7 @@
 		"extra": {
 			"quest_combat": 11, // 857
 			"quest_create_req61_id": 45, // 1345
+			"quest_description": "Ali Morrisane, Al Kharid's self proclaimed 'greatest merchant', is seemingly suffering from success, struggling to keep his stall stocked due to strong sales. He's seeking someone to recruit help from his home town, Pollnivneach.", // 5968
 			"quest_achieve_id": 46, // 7158
 			"quest_sort_char": "F", // 7219
 			"quest_start_point": "Talk to Ali Morrisane in Al Kharid.", // 7814
@@ -6302,6 +6871,7 @@
 	{
 		"extra": {
 			"quest_create_req61_id": 55, // 1345
+			"quest_description": "In the desert ruins of the once great city of Uzer, a lone survivor - an ancient clay golem - paces forever. Badly damaged, its mind cannot rest until it has completed the task for which it was created. Uncover the Uzer's secret, and add the final chapter to a story begun in the violence of the Third Age.", // 5968
 			"quest_achieve_id": 56, // 7158
 			"quest_sort_char": "G", // 7219
 			"quest_start_point": "Talk to the clay golem in the ruins of Uzer.", // 7814
@@ -6340,6 +6910,7 @@
 		"extra": {
 			"quest_combat": 11, // 857
 			"quest_create_req61_id": 63, // 1345
+			"quest_description": "In the southern desert, unrest is brewing. The menaphites have barred their city's gates. An unsettling desert wanderer may hold the secret to entering Sophanem - the city of the dead. Enter into a titanic struggle for the soul of the High Priest of Icthlarin in a land where the cat is top dog.", // 5968
 			"quest_achieve_id": 64, // 7158
 			"quest_sort_char": "I", // 7219
 			"quest_start_point": "Talk to the wanderer, south-east of the southern bridge over the River Elid, in the desert far south of Al Kharid.", // 7814
@@ -6379,6 +6950,7 @@
 	{
 		"extra": {
 			"quest_create_req61_id": 54, // 1345
+			"quest_description": "Five hundred years ago, King Alvis, founder of the Consortium and saviour turned victim, ruled Keldagrim. Today, the monarchy is a distant memory. Only the statue of King Alvis reminds the people of the old days; the dark days. So begins the Rise of the Red Axe.", // 5968
 			"quest_achieve_id": 55, // 7158
 			"quest_sort_char": "G", // 7219
 			"quest_start_point": "Talk to Commander Veldaban in the Black Guard headquarters on the western side of Keldagrim. To enter Keldagrim, talk to the dwarf boatman in the dwarven mines east of Rellekka.", // 7814
@@ -6423,6 +6995,7 @@
 		"extra": {
 			"quest_combat": 14, // 857
 			"quest_create_req61_id": 76, // 1345
+			"quest_description": "It seems at last Arianwyn has need of your skills. He suspects there's more to the mourners than meets the eye, and he wants you to uncover their true intentions. Can you earn the trust of the mourners?", // 5968
 			"quest_achieve_id": 76, // 7158
 			"quest_sort_char": "M", // 7219
 			"quest_start_point": "Talk to Eluned, a roving elf somewhere in the elven forest of Isafdar in Tirannwn.", // 7814
@@ -6469,6 +7042,7 @@
 	{
 		"extra": {
 			"quest_create_req61_id": 48, // 1345
+			"quest_description": "The Red Axe Mining Company has departed Keldagrim and set up headquarters in a remote underground location. Veldaban, the commander of the Black Guard, asks you to investigate whether the Red Axe pose a nefarious threat. The sole lead in the case is an extremely drunken and kebab-obsessed dwarf.", // 5968
 			"quest_achieve_id": 49, // 7158
 			"quest_sort_char": "F", // 7219
 			"quest_start_point": "Talk to Commander Veldaban in the Black Guard HQ in Keldagrim.", // 7814
@@ -6513,6 +7087,7 @@
 	{
 		"extra": {
 			"quest_create_req61_id": 51, // 1345
+			"quest_description": "Queen of Varrock seeks experienced gardener to create serene garden as surprise for husband. Only serious farmers need apply. Peasants welcome (although not that welcome). Tools not supplied.", // 5968
 			"quest_achieve_id": 52, // 7158
 			"quest_sort_char": "G", // 7219
 			"quest_start_point": "Talk to Queen Ellamaria in the garden of Varrock Palace.", // 7814
@@ -6554,6 +7129,7 @@
 		"extra": {
 			"quest_combat": 9, // 857
 			"quest_create_req61_id": 115, // 1345
+			"quest_description": "A wanted man is on the loose. Can you track him down?", // 5968
 			"quest_achieve_id": 125, // 7158
 			"quest_sort_char": "W", // 7219
 			"quest_start_point": "Talk to Sir Tiffy Cashien in Falador Park.", // 7814
@@ -6596,6 +7172,7 @@
 		"extra": {
 			"quest_combat": 15, // 857
 			"quest_create_req61_id": 77, // 1345
+			"quest_description": "This chapter takes our hero deep under the mountains of Arandar to thwart the evil plans of the mourners. To succeed, they must solve one of the most complicated puzzles in all of Gielinor.", // 5968
 			"quest_achieve_id": 77, // 7158
 			"quest_sort_char": "M", // 7219
 			"quest_start_point": "Talk to the Head Mourner in the Mourner HQ beneath West Ardougne (after reporting your earlier findings back to Arianwyn in Lletya).", // 7814
@@ -6634,6 +7211,7 @@
 	{
 		"extra": {
 			"quest_create_req61_id": 86, // 1345
+			"quest_description": "Gertrude knows of some rat catchers in Varrock. Visit her to learn their whereabouts. They'll teach you and your cat a few pointers about catching rats. Explore the subterranean world of the rat catchers and unlock your cat's potential.", // 5968
 			"quest_achieve_id": 86, // 7158
 			"quest_sort_char": "R", // 7219
 			"quest_start_point": "Talk to Gertrude, in her house west of Varrock.", // 7814
@@ -6669,6 +7247,7 @@
 	{
 		"extra": {
 			"quest_create_req61_id": 57, // 1345
+			"quest_description": "Bert the sandman in Yanille is in a spot of bother. A mysterious severed hand has appeared in his sand box. Help find out whose hand it is and, more to the point, how it got in Bert's sand box.", // 5968
 			"quest_achieve_id": 58, // 7158
 			"quest_sort_char": "H", // 7219
 			"quest_start_point": "Talk to Bert in Yanille.", // 7814
@@ -6706,6 +7285,7 @@
 	{
 		"extra": {
 			"quest_create_req61_id": 22, // 1345
+			"quest_description": "It's war on the high seas as Bill Teach attempts to sail from Port Phasmatys to the pirate enclave of Mos Le'Harmless. His crew has fled, so he seeks recruits eager to become a pirate and sink his enemy. Do you have what it takes to join his crew?", // 5968
 			"quest_achieve_id": 24, // 7158
 			"quest_sort_char": "C", // 7219
 			"quest_start_point": "Talk to Bill Teach in Port Phasmatys.", // 7814
@@ -6753,6 +7333,7 @@
 		"extra": {
 			"quest_combat": 12, // 857
 			"quest_create_req61_id": 42, // 1345
+			"quest_description": "Why are all the crops failing? Can you help the Group of Advanced Gardeners to save their precious farming patches from growing pains? Do green fingers help when faced with a six-foot tall gorse bush with a nasty temper?", // 5968
 			"quest_achieve_id": 43, // 7158
 			"quest_sort_char": "F", // 7219
 			"quest_start_point": "Talk to Martin the Master Gardener in Draynor Village.", // 7814
@@ -6794,6 +7375,7 @@
 	{
 		"extra": {
 			"quest_create_req61_id": 236, // 1345
+			"quest_description": "The Lumbridge castle cook wants to recreate a legendary feast made by his ancestor...and, naturally, he needs you to source the ingredients.", // 5968
 			"quest_achieve_id": 88, // 7158
 			"extra_001BF7": 5, // 7159
 			"quest_sort_char": "R", // 7219
@@ -6835,6 +7417,7 @@
 	{
 		"extra": {
 			"quest_create_req61_id": 237, // 1345
+			"quest_description": "To free the mountain dwarf, you will need to figure out their favourite food, prepare it, and feed it to them to break the Culinaromancer's spell.", // 5968
 			"quest_achieve_id": 89, // 7158
 			"extra_001BF7": 5, // 7159
 			"quest_sort_char": "R", // 7219
@@ -6872,6 +7455,7 @@
 	{
 		"extra": {
 			"quest_create_req61_id": 238, // 1345
+			"quest_description": "To free the goblin generals, you will need to figure out their favourite food, prepare it, and feed it to them to break the Culinaromancer's spell.", // 5968
 			"quest_achieve_id": 90, // 7158
 			"extra_001BF7": 5, // 7159
 			"quest_sort_char": "R", // 7219
@@ -6910,6 +7494,7 @@
 		"extra": {
 			"quest_combat": 9, // 857
 			"quest_create_req61_id": 239, // 1345
+			"quest_description": "To free Pirate Pete, you will need to figure out their favourite food, prepare it, and feed it to them to break the Culinaromancer's spell.", // 5968
 			"quest_achieve_id": 91, // 7158
 			"extra_001BF7": 5, // 7159
 			"quest_sort_char": "R", // 7219
@@ -6950,10 +7535,11 @@
 	{
 		"extra": {
 			"quest_create_req61_id": 240, // 1345
+			"quest_description": "To free the Lumbridge sage, you will need to figure out their favourite food, prepare it, and feed it to them to break the Culinaromancer's spell.", // 5968
 			"quest_achieve_id": 92, // 7158
 			"extra_001BF7": 5, // 7159
 			"quest_sort_char": "R", // 7219
-			"quest_start_point": "Inspect the Lumbridge Sage in the banquet hall in Lumbridge castle.", // 7814
+			"quest_start_point": "Inspect the Lumbridge sage in the banquet hall in Lumbridge castle.", // 7814
 			"quest_req_items": "Bucket of milk, egg, pot of flour, cake tin.", // 7815
 			"quest_xp_lamp_1": "2,500 Cooking XP<br>2,500 Magic XP", // 7818
 			"quest_reward": "Increased access to the Culinaromancer's chest", // 7823
@@ -6989,6 +7575,7 @@
 	{
 		"extra": {
 			"quest_create_req61_id": 241, // 1345
+			"quest_description": "To free Evil Dave, you will need to figure out their favourite food, prepare it, and feed it to them to break the Culinaromancer's spell.", // 5968
 			"quest_achieve_id": 93, // 7158
 			"extra_001BF7": 5, // 7159
 			"quest_sort_char": "R", // 7219
@@ -7030,6 +7617,7 @@
 	{
 		"extra": {
 			"quest_create_req61_id": 242, // 1345
+			"quest_description": "To free Skrach Uglogwee, you will need to figure out their favourite food, prepare it, and feed it to them to break the Culinaromancer's spell.", // 5968
 			"quest_achieve_id": 94, // 7158
 			"extra_001BF7": 5, // 7159
 			"quest_sort_char": "R", // 7219
@@ -7072,10 +7660,11 @@
 		"extra": {
 			"quest_combat": 16, // 857
 			"quest_create_req61_id": 243, // 1345
+			"quest_description": "To free Sir Amik Varze, you will need to figure out their favourite food, prepare it, and feed it to them to break the Culinaromancer's spell.", // 5968
 			"quest_achieve_id": 95, // 7158
 			"extra_001BF7": 5, // 7159
 			"quest_sort_char": "R", // 7219
-			"quest_start_point": "Inspect Skrach Uglogwee in the banquet hall in Lumbridge castle.", // 7814
+			"quest_start_point": "Inspect Sir Amik Varze in the banquet hall in Lumbridge castle.", // 7814
 			"quest_req_items": "Bucket of milk, pot of cream, sweetcorn, empty pot, Radimus notes (if you haven't completed Legends' Quest), dramen staff or lunar staff or completed Fairytale III, anti-dragon shield or super antifire, 2 raw chicken, ice gloves (recommended), dramen branch (or cinnamon, made from a Dramen branch).", // 7815
 			"quest_combat_req": "Approximately level 70 Evil Chicken, level 100 black dragon.", // 7816
 			"quest_xp_lamp_1": "4,000 Cooking XP", // 7818
@@ -7112,6 +7701,7 @@
 		"extra": {
 			"quest_combat": 12, // 857
 			"quest_create_req61_id": 244, // 1345
+			"quest_description": "To free Awowogei, you will need to figure out their favourite food, prepare it, and feed it to them to break the Culinaromancer's spell.", // 5968
 			"quest_achieve_id": 96, // 7158
 			"extra_001BF7": 5, // 7159
 			"quest_sort_char": "R", // 7219
@@ -7155,6 +7745,7 @@
 		"extra": {
 			"quest_combat": 15, // 857
 			"quest_create_req61_id": 245, // 1345
+			"quest_description": "Defeat the Culinaromancer!", // 5968
 			"quest_achieve_id": 97, // 7158
 			"extra_001BF7": 5, // 7159
 			"quest_sort_char": "R", // 7219
@@ -7205,6 +7796,7 @@
 		"extra": {
 			"quest_combat": 15, // 857
 			"quest_create_req61_id": 102, // 1345
+			"quest_description": "The Piscatoris Fishing Colony is under attack by angry sea trolls, hindering monkfish harvests. The colony's director seeks an experienced adventurer to eliminate the trolls, and has his eye on the morally dubious Wise Old Man (who alleged involvement in the Draynor bank robbery remains unproven). Join the him on his his final adventure.", // 5968
 			"quest_achieve_id": 112, // 7158
 			"quest_sort_char": "S", // 7219
 			"quest_start_point": "Talk to Herman Caranos at the Piscatoris Fishing Colony.", // 7814
@@ -7252,6 +7844,7 @@
 		"extra": {
 			"quest_combat": 13, // 857
 			"quest_create_req61_id": 43, // 1345
+			"quest_description": "The Fairy Queen should be awake and back in charge of the lost city, but why has the Fairy Godfather not abdicated the throne? What's happening to the inhabitants of Zanaris, and where is Fairy Nuff? Can you use the fairy rings to explore the planes and cure a queen?", // 5968
 			"quest_achieve_id": 44, // 7158
 			"quest_sort_char": "F", // 7219
 			"quest_start_point": "Talk to Martin the Master Gardener in Draynor Village.", // 7814
@@ -7298,6 +7891,7 @@
 		"extra": {
 			"quest_combat": 2, // 857
 			"quest_create_req61_id": 41, // 1345
+			"quest_description": "After you thwarted a plan to destroy the Grand Tree, Brimstail discovered a confusing machine engineered by Oaknock during the gnomish golden age. What is its purpose? Why was it constructed? Help the gnome operate his device, learn a little about gnomish magic and history, and begin to uncover a hidden and sinister threat to gnome security.", // 5968
 			"quest_achieve_id": 42, // 7158
 			"extra_001BF7": 4, // 7159
 			"extra_001BF8": 6, // 7160
@@ -7343,6 +7937,7 @@
 	{
 		"extra": {
 			"quest_create_req61_id": 27, // 1345
+			"quest_description": "The Myreque have relocated to Burgh de Rott. Veliaf tasks you with infiltrating the Sanguinesti region. What grim discoveries lie beyond that dread wall? Will you be spared the blood tithe of a vyrewatch? Only a quick-witted and sharp-eyed agent can hope to navigate the slums of Meiyerditch.", // 5968
 			"quest_achieve_id": 29, // 7158
 			"quest_sort_char": "D", // 7219
 			"quest_start_point": "Talk to Veliaf in Burgh de Rott.", // 7814
@@ -7392,6 +7987,7 @@
 		"extra": {
 			"quest_combat": 11, // 857
 			"quest_create_req61_id": 95, // 1345
+			"quest_description": "Darkness stirs in Witchaven. A secret sleeps beneath this once prosperous fishing village. Why do the villagers act so oddly? What transformed Mayor Hobb? Will Ezekial Lovecraft ever find a friend? Before a lurking menace unleashes destruction on the world, these questions must be answered.", // 5968
 			"quest_achieve_id": 105, // 7158
 			"quest_sort_char": "S", // 7219
 			"quest_start_point": "Talk to Sir Tiffy Cashien in Falador Park.", // 7814
@@ -7484,6 +8080,7 @@
 		"extra": {
 			"quest_combat": 13, // 857
 			"quest_create_req61_id": 79, // 1345
+			"quest_description": "Trolls adore goutweed, but they've devoured it all. Burntmeat the cook has heard how to cultivate it. Can you teach his young assistant, My Arm, to farm this valuable plant? Will you overcome My Arm's stubbornness and ignorance? Get ready for a distinctly trollish expedition.", // 5968
 			"quest_achieve_id": 79, // 7158
 			"extra_001BF7": 4, // 7159
 			"extra_001BF8": 4, // 7160
@@ -7532,6 +8129,7 @@
 	{
 		"extra": {
 			"quest_create_req61_id": 40, // 1345
+			"quest_description": "On the tranquil island of Entrana, a solitary monk yearns for adventure. Auguste seeks to boldly write his name in the history books; to craftily defeat the laws of physics; to miraculously sail through the air...and preferably not horribly explode in a ball of flaming death.", // 5968
 			"quest_achieve_id": 41, // 7158
 			"quest_sort_char": "E", // 7219
 			"quest_start_point": "Talk to Auguste on Entrana (bring neither weapons nor armour with you).", // 7814
@@ -7572,6 +8170,7 @@
 		"extra": {
 			"quest_combat": 14, // 857
 			"quest_create_req61_id": 24, // 1345
+			"quest_description": "The High Priest of Icthlarin has problems again - this time with the inhabitants of Menaphos. Sophanem is recovering from the plague, yet most of its citizens are still trapped on the other side of the river. Diplomacy has failed and subterfuge beckons.", // 5968
 			"quest_achieve_id": 26, // 7158
 			"quest_sort_char": "C", // 7219
 			"quest_start_point": "Talk to the High Priest of Icthlarin in the south temple of Sophanem.", // 7814
@@ -7612,6 +8211,7 @@
 		"extra": {
 			"quest_combat": 15, // 857
 			"quest_create_req61_id": 120, // 1345
+			"quest_description": "he peaceful contemplation of the monks of Harmony Island has been disturbed by such rude interruptions as an invasion of zombie pirates and the theft of their brains! The evil zombie pirates have returned with a new scheme, and it's up to you to try to re-mind these poor priests before the sinister Mi-Gor completes his experiments...", // 5968
 			"quest_achieve_id": 130, // 7158
 			"extra_001BF7": 5, // 7159
 			"quest_sort_char": "G", // 7219
@@ -7661,11 +8261,12 @@
 	{
 		"extra": {
 			"quest_combat": 10, // 857
+			"quest_req_item1": 952, // 887
 			"quest_create_req61_id": 122, // 1345
+			"quest_description": "Poor Olaf Hradson has to live up to such expectations. His ancestors sailed all over the world; now he must prove himself their equal. If only he could read a map, sail, or avoid crashing. Can you help a dejected and soggy Fremennik restore his pride and recover his grandfather's lost treasure?", // 5968
 			"quest_achieve_id": 132, // 7158
 			"quest_sort_char": "O", // 7219
 			"quest_start_point": "Talk to Olaf in his 'camp' north-east of Rellekka.", // 7814
-			"quest_req_items": "Spade.", // 7815
 			"quest_combat_req": "You will need to defeat enemies up to level 49.", // 7816
 			"quest_xp_lamp_3": "12,000 Defence XP", // 7819
 			"quest_reward": "20,000 coins<br>4 cut rubies<br>Access to the brine rat cavern<br>Parchment telling you of other shipwrecks with more treasure<br>Shark and/or bread", // 7823
@@ -7704,6 +8305,7 @@
 		"extra": {
 			"quest_combat": 12, // 857
 			"quest_create_req61_id": 125, // 1345
+			"quest_description": "Sylas, a collector of wondrous and unusual items, seeks new additions to his trove, offering an unusual prize. Terrors and towers, fierce battles with giant beasts, and a daring rescue a dwarf in distress await. Not a quest for the meek or faint-hearted. Brace yourself for a feast of fairytale fun!", // 5968
 			"quest_achieve_id": 135, // 7158
 			"quest_sort_char": "G", // 7219
 			"quest_start_point": "Talk to Sylas, south of Taverley.", // 7814
@@ -7751,6 +8353,7 @@
 		"extra": {
 			"quest_combat": 14, // 857
 			"quest_create_req61_id": 127, // 1345
+			"quest_description": "King Bolren has a new pet. Unfortunately, it's another watcher. Has Glouphrie been watching the tree gnome village, too? If you investigate further, you'll find out more about Glouphrie, the history of the gnomes (and their unusual monarchy) and maybe you'll get within a hair's breadth of the lost city of Arposandra...", // 5968
 			"quest_achieve_id": 137, // 7158
 			"quest_sort_char": "P", // 7219
 			"quest_start_point": "Talk to King Bolren in the Tree Gnome Village.", // 7814
@@ -7800,6 +8403,7 @@
 		"extra": {
 			"quest_combat": 13, // 857
 			"quest_create_req61_id": 128, // 1345
+			"quest_description": "Use your Slayer skills to battle out of control vegetation with an attitude, cultivate your wits and stretch your Agility to solve a cunning maze - all to make a gardener's day. Do you have what it takes to cut this quest down to size?", // 5968
 			"quest_achieve_id": 138, // 7158
 			"quest_sort_char": "B", // 7219
 			"quest_start_point": "Talk to Horacio outside Lord Handelmort's mansion, in East Ardougne.", // 7814
@@ -7844,6 +8448,7 @@
 		"extra": {
 			"quest_combat": 9, // 857
 			"quest_create_req61_id": 129, // 1345
+			"quest_description": "The most ancient goblin legends speak of Yu'biusk, the far-off land that saw the origin of the goblin race. Now, one goblin has had a vision of this land and believes it is Zanik's destiny to lead all goblins to live there in peace and safety - but Zanik will not be able to realise her destiny without your help.", // 5968
 			"quest_achieve_id": 139, // 7158
 			"quest_sort_char": "L", // 7219
 			"quest_start_point": "Talk to Grubfoot, who is in the mines north of Dorgesh-Kaan.", // 7814
@@ -7894,6 +8499,7 @@
 		"extra": {
 			"quest_combat": 15, // 857
 			"quest_create_req61_id": 130, // 1345
+			"quest_description": "Once more there is intrigue afoot in Sophanem and the High Priest has been seeking out his bold adventurer contacts from the past. Mysterious corpses, ancient ruins and unscrupulous treasure-hunters all await if you accept his mission.", // 5968
 			"quest_achieve_id": 140, // 7158
 			"quest_sort_char": "D", // 7219
 			"quest_start_point": "Talk to the High Priest of Icthlarin in the south temple of Sophanem.", // 7814
@@ -7975,6 +8581,7 @@
 	{
 		"extra": {
 			"quest_create_req61_id": 132, // 1345
+			"quest_description": "After discovering health benefits in local springs, an enterprising human has convinced a primitive ogress tribe to transform their rustic camp into a spa. Before Oo'glog can open for business, you must ready the resort and remind the ogres that clubbing visitors is satisfying but not medicinal.", // 5968
 			"quest_achieve_id": 142, // 7158
 			"quest_sort_char": "A", // 7219
 			"quest_start_point": "Talk to Chief Tess in the centre of Oo'glog.", // 7814
@@ -8016,6 +8623,7 @@
 	{
 		"extra": {
 			"quest_create_req61_id": 134, // 1345
+			"quest_description": "Strange happenings stir in the slug-riddled village of Witchaven. Kennith, the child you rescued, is convinced the peaceful (though gastropod-possessed) locals are up to something sinister in the caverns beneath. Beware: appearances can deceive.", // 5968
 			"quest_achieve_id": 144, // 7158
 			"quest_sort_char": "K", // 7219
 			"quest_start_point": "Talk to Kennith in Witchaven, east of Ardougne.", // 7814
@@ -8056,6 +8664,7 @@
 		"extra": {
 			"quest_combat": 13, // 857
 			"quest_create_req61_id": 135, // 1345
+			"quest_description": "Drezel uncovers a dark secret beneath Paterdomus linked to Morytania's brutal past. What lies ahead for young Safalaan and the Myreque? Will they uncover new secrets, and can they resist the vyrewatch before House Drakan's hunger targets Misthalin?", // 5968
 			"quest_achieve_id": 145, // 7158
 			"quest_sort_char": "L", // 7219
 			"quest_start_point": "Talk to the mercenary adventurer east of Paterdomus in Morytania.", // 7814
@@ -8107,6 +8716,7 @@
 	{
 		"extra": {
 			"quest_create_req61_id": 136, // 1345
+			"quest_description": "The dwarven miners have built an engineering marvel: a machine that automatically manufactures pickaxes, powered by a new station on the slopes of Ice Mountain. Meanwhile, a hapless dwarf delivering resources to the power station has lost part of his delivery and any adventurer who helps him is bound to find more problems to solve.", // 5968
 			"quest_achieve_id": 146, // 7158
 			"quest_sort_char": "P", // 7219
 			"quest_start_point": "Talk to Lakki, on the road south of Ice Mountain.", // 7814
@@ -8146,6 +8756,7 @@
 		"extra": {
 			"quest_combat": 16, // 857
 			"quest_create_req61_id": 137, // 1345
+			"quest_description": "A creature inhabiting Karamja volcano has tunnelled beneath the TzHaar City, causing collapses and threatening their home. The proud TzHaar need your help. Can you navigate the quirks of TzHaar society and stabilise the tunnels to save their city?", // 5968
 			"quest_achieve_id": 147, // 7158
 			"quest_sort_char": "T", // 7219
 			"quest_start_point": "Talk to any of the three TzHaar at the collapsed tunnel in the south-east corridor of TzHaar City.", // 7814
@@ -8190,6 +8801,7 @@
 		"extra": {
 			"quest_combat": 15, // 857
 			"quest_create_req61_id": 138, // 1345
+			"quest_description": "Pollnivneach has a new resident. Who is this mysterious stranger, and how did her sister become trapped in a Slayer dungeon Do you dare to venture into the depths beneath Pollnivneach, where lurking dangers conceal themselves in smoke and screams?", // 5968
 			"quest_achieve_id": 148, // 7158
 			"quest_sort_char": "S", // 7219
 			"quest_start_point": "Talk to Sumona in her house in Pollnivneach.", // 7814
@@ -8234,6 +8846,7 @@
 	{
 		"extra": {
 			"quest_create_req61_id": 140, // 1345
+			"quest_description": "The ghost of a small girl has appeared at the farm ruins in the Wilderness. There seems to be something she wants, but she is too weak to communicate properly. Can you figure out what needs to be done?", // 5968
 			"quest_achieve_id": 150, // 7158
 			"quest_sort_char": "S", // 7219
 			"quest_start_point": "Talk to the little ghost by the Wilderness wall north-east of Varrock.", // 7814
@@ -8270,7 +8883,7 @@
 		],
 		"varbits": [
 			{
-				"endvalue": 75,
+				"endvalue": 80,
 				"startvalue": 5,
 				"varbit": 12013
 			}
@@ -8325,6 +8938,7 @@
 		"extra": {
 			"quest_combat": 21, // 857
 			"quest_create_req61_id": 157, // 1345
+			"quest_description": "Ali the Wise discussed your various dealings with the Mahjarrat with one of his 'old friends' - a certain Dr Nabanik. The good doctor thinks you would be the perfect candidate to aid him in his restoration of the temple beneath the dig site. But for what purpose? And who is this enigmatic Dr Nabanik?", // 5968
 			"quest_achieve_id": 162, // 7158
 			"quest_sort_char": "T", // 7219
 			"quest_start_point": "Talk to Ali the Wise at his house in Nardah.", // 7814
@@ -8433,7 +9047,8 @@
 			"quest_release_year": 2010, // 7834
 			"quest_nth_in_release_year": 3, // 7835
 			"quest_length": 2, // 7855
-			"extra_0024B1": 4 // 9393
+			"extra_0024B1": 4, // 9393
+			"extra_0024BC": 2001 // 9404
 		},
 		"id": 335,
 		"name": "The Blood Pact",
@@ -8497,6 +9112,7 @@
 		"extra": {
 			"quest_combat": 14, // 857
 			"quest_create_req61_id": 158, // 1345
+			"quest_description": "The Fairy Queen is back to full health and her resistance movement is gathering momentum, but the Godfather (and his ever-growing ork army) aren't going to give up the throne without a fight. Defeating all those orks is going to be like pulling teeth.", // 5968
 			"quest_achieve_id": 167, // 7158
 			"quest_sort_char": "F", // 7219
 			"quest_start_point": "Talk to the Fairy Queen at Fairy Resistance HQ, reached by using the main fairy ring in Zanaris.", // 7814
@@ -8543,6 +9159,7 @@
 		"extra": {
 			"quest_combat": 10, // 857
 			"quest_create_req61_id": 172, // 1345
+			"quest_description": "A restored text in the Seers' Village chapel stands apart. Within, Vitruvius' story continues, as he attempts to restore his assistant with the mysterious properties of the 'body'. Lessons await in this new book, as you again practice the theories of Vitruvius. Only those skilled in solving complex puzzles may unlock the workshop's latest secret.", // 5968
 			"quest_achieve_id": 179, // 7158
 			"quest_sort_char": "E", // 7219
 			"quest_start_point": "Search a bookcase in Seers' Village church.", // 7814
@@ -8922,6 +9539,7 @@
 		"extra": {
 			"quest_combat": 13, // 857
 			"quest_create_req61_id": 183, // 1345
+			"quest_description": "Time to rescue the residents of Witchaven from their mis-guided 'enlightenment'. A solution to the sea-slug infestation has finally been found. It's up to you to lead a crack team of slug-slaying soldiers into battle against this slimy foe.", // 5968
 			"quest_achieve_id": 188, // 7158
 			"quest_sort_char": "S", // 7219
 			"quest_start_point": "Talk to Kennith on the Daemonheim peninsula.", // 7814
@@ -9023,14 +9641,14 @@
 	},
 	{
 		"extra": {
-			"quest_sort_char": "T", // 7219
 			"quest_release_year": 2011, // 7834
-			"quest_nth_in_release_year": 17 // 7835
+			"quest_nth_in_release_year": 17, // 7835
+			"extra_0024F6": 1 // 9462
 		},
 		"id": 348,
 		"name": "A Towering Feast",
 		"quest_difficulty": 0,
-		"quest_list_name": "Towering Feast, A",
+		"quest_list_name": "",
 		"quest_points": 0,
 		"varbits": [
 			{
@@ -9086,6 +9704,7 @@
 	{
 		"extra": {
 			"quest_create_req61_id": 188, // 1345
+			"quest_description": "The poor people of Burthorpe face attacks from within and without, as they slowly starve due to food shortages. Yet, there are vegetables in the fields and stock on the shelves, so why aren't the poverty-struck getting their fair share? Investigate and make sure that bellies are filled in a quest that will sicken you to your stomach.", // 5968
 			"quest_achieve_id": 191, // 7158
 			"quest_sort_char": "L", // 7219
 			"quest_start_point": "Talk to Nails Newton outside the Pick and Lute tavern in Taverley.", // 7814
@@ -9202,6 +9821,7 @@
 		"extra": {
 			"quest_combat": 15, // 857
 			"quest_create_req61_id": 178, // 1345
+			"quest_description": "Philipe - son of Sir Ceril - is somewhat of a brat. And by somewhat, Sir Ceril means quite a lot. Xenia doesn't want the job, so you'll have to do it. Teach Philipe the ways of being an adventurer in this create-your-own-quest quest.", // 5968
 			"quest_achieve_id": 194, // 7158
 			"quest_sort_char": "C", // 7219
 			"quest_start_point": "Talk to Xenia outside the Carnillean mansion south-west of East Ardougne.", // 7814
@@ -9246,7 +9866,6 @@
 	},
 	{
 		"extra": {
-			"quest_sort_char": "P", // 7219
 			"quest_start_point": "An adventurer will come to your house and ask you to do a quest.", // 7814
 			"quest_req_items": "The adventurer will supply whatever you need.", // 7815
 			"quest_combat_req": "You will need to defeat two guardian dragons.", // 7816
@@ -9255,13 +9874,12 @@
 			"quest_release_year": 2012, // 7834
 			"quest_nth_in_release_year": 7, // 7835
 			"quest_length": 2, // 7855
-			"quest_has_th_keys_reward": 0, // 7887
 			"extra_0024B1": 44 // 9393
 		},
 		"id": 354,
 		"name": "Philipe's Big Adventure",
 		"quest_difficulty": 0,
-		"quest_list_name": "Philipe's Big Adventure",
+		"quest_list_name": "",
 		"quest_points": 0,
 		"start_location_path": [
 			42028233
@@ -9271,6 +9889,7 @@
 		"extra": {
 			"quest_combat": 3, // 857
 			"quest_create_req61_id": 175, // 1345
+			"quest_description": "Ozan's in Draynor Village, looking for an old friend who's fallen into bad company. You'll join Ozan as you infiltrate the Draynor underworld, meet an old flame, and become caught up in a kidnapping plot of princely proportions that leads back to Al Kharid - the home from which Ozan was banished years ago.", // 5968
 			"quest_achieve_id": 9, // 7158
 			"extra_001BF7": 1, // 7159
 			"extra_001BF8": 10, // 7160
@@ -9313,6 +9932,7 @@
 		"extra": {
 			"quest_combat": 4, // 857
 			"quest_create_req61_id": 177, // 1345
+			"quest_description": "Prince Ali has been kidnapped and it's up to you and Ozan to rescue him. Follow a trail through the desert led by a diamond with rather interesting properties to confront Prince Ali's kidnappers.", // 5968
 			"quest_achieve_id": 10, // 7158
 			"extra_001BF7": 1, // 7159
 			"extra_001BF8": 11, // 7160
@@ -9359,6 +9979,7 @@
 		"extra": {
 			"quest_combat": 3, // 857
 			"quest_create_req61_id": 3, // 1345
+			"quest_description": "Dwarven master smith Doric has fallen on hard times. He needs your help to rekindle his client list, avoid bankruptcy, and get to the bottom of an unscrupulous plot to undermine Doric's business.", // 5968
 			"quest_achieve_id": 11, // 7158
 			"quest_sort_char": "W", // 7219
 			"quest_start_point": "Talk to Doric who is just outside the gates of Taverley.", // 7814
@@ -9398,6 +10019,7 @@
 	{
 		"extra": {
 			"quest_create_req61_id": 194, // 1345
+			"quest_description": "Ariane knows that the Wizards' Tower is under threat but no one wants to believe her. Aid Ariane in her efforts to protect the Wizards' Tower and discover just what's going on.", // 5968
 			"quest_achieve_id": 12, // 7158
 			"extra_001BF7": 1, // 7159
 			"extra_001BF8": 7, // 7160
@@ -9436,6 +10058,7 @@
 	{
 		"extra": {
 			"quest_create_req61_id": 195, // 1345
+			"quest_description": "Ariane is in a bit of a bind, and needs your help once more. Explore the arcane ruins beneath the Wizards' Tower, experience the memories of its former inhabitants, and you'll learn the clashes of magical ideals that led to the old tower's downfall. Piece together the ancient puzzle to free Ariane and avert the disaster once and for all.", // 5968
 			"quest_achieve_id": 13, // 7158
 			"extra_001BF7": 1, // 7159
 			"extra_001BF8": 8, // 7160
@@ -9573,11 +10196,13 @@
 	},
 	{
 		"extra": {
+			"quest_req_item1": 1947, // 887
+			"quest_req_item1_qty": 5, // 949
 			"quest_create_req61_id": 198, // 1345
+			"quest_description": "Eli Bacon has discovered the secret of bacon following an accident involving his prized wrestling pig and a fire, and needs help ensuring there are enough pigs to sustain the expected popularity of his products.", // 5968
 			"quest_achieve_id": 199, // 7158
 			"quest_sort_char": "B", // 7219
 			"quest_start_point": "Talk to Eli Bacon in the pig farm north of Port Sarim.", // 7814
-			"quest_req_items": "5 wheat.", // 7815
 			"quest_xp_lamp_1": "350 Farming XP<br>350 Construction XP<br>350 Summoning XP", // 7818
 			"quest_reward": "Ability to cook and stack bacon<br>Ability to summon three types of pig familiar<br>Customisable pig pet<br>Access to pig pens<br>Weekly bacon or familiar reward from Eli Bacon<br>The song 'Glutton for Nourishment'", // 7823
 			"quest_icon_small_sprite": 22960, // 7829
@@ -9657,6 +10282,7 @@
 		"extra": {
 			"quest_combat": 6, // 857
 			"quest_create_req61_id": 200, // 1345
+			"quest_description": "When a group of Saradominist monks are slaughtered by an unknown assailant you are asked by the only survivor - a monk who is extremely traumatised - to find the killer and bring them to justice. But there's more to this puzzle than meets the eye, starting with the souls of the dead monks being trapped in their bodies...", // 5968
 			"quest_achieve_id": 202, // 7158
 			"quest_sort_char": "M", // 7219
 			"quest_start_point": "Talk to Brother Samwell on the road to the Paterdomus Temple, East of Varrock.", // 7814
@@ -9701,13 +10327,14 @@
 		"extra": {
 			"quest_combat": 19, // 857
 			"quest_create_req61_id": 201, // 1345
+			"quest_description": "Mr Mordaut, an avid draconic historian, has uncovered recent journal entries revealing the fate of Hannibus, the last dragon rider. Discovering Hannibus alive would be momentous, offering insight into their past, and hope that Hannibus' calming influence could help dragons put aside their rage and differences and potentially unify as a species.", // 5968
 			"quest_achieve_id": 203, // 7158
 			"quest_sort_char": "O", // 7219
 			"quest_start_point": "Talk to Mr Mordaut under the stairs in the Varrock museum.", // 7814
 			"quest_req_items": "Required: An emerald and an enchanted amulet of catspeak.<br>Recommended: At least 4 inventory spaces, something to allow you to survive dragonfire and combat equipment.", // 7815
 			"quest_combat_req": "Must defeat level 92-127 enemies and one level 133 opponent. Must be able to survive the wilderness.", // 7816
 			"quest_xp_lamp_1": "90,000 Magic XP<br>80,000 Summoning XP<br>45,000 Dungeoneering XP<br>5,000 Divination XP", // 7818
-			"quest_reward": "Dragon Rider amulet (enhances your Dragon Breath magic ability and increases XP when burying dragon bones)<br>Access to 25,000 bonus XP (requires Ritual of the Mahjarrat)<br>Access to celestial dragons in a new resource dungeon, who can drop Dragon Rider armour and upgrade kits", // 7823
+			"quest_reward": "Dragon Rider amulet (enhances your Dragon Breath magic ability and increases XP when burying dragon bones)<br>Access to 25,000 bonus XP (requires 'Ritual of the Mahjarrat')<br>Access to celestial dragons in a new resource dungeon, who can drop dragon rider armour and upgrade kits", // 7823
 			"quest_icon_small_sprite": 22963, // 7829
 			"quest_age_period": 3, // 7831
 			"quest_release_year": 2014, // 7834
@@ -10670,6 +11297,7 @@
 		"extra": {
 			"quest_combat": 17, // 857
 			"quest_create_req61_id": 223, // 1345
+			"quest_description": "Kharshai's in a sticky situation, but that's only the tip of the iceberg. The Mahjarrat are dying...and there's no way they're going quietly. Join the great and the mighty on an epic jaunt across worlds, relive one of the defining moments of Gielinor's history, and prepare to find out what will happen when Zaros and Zamorak finally meet again.", // 5968
 			"quest_achieve_id": 226, // 7158
 			"quest_sort_char": "C", // 7219
 			"quest_start_point": "Talk to Kharshai in the frozen region north of Rellekka or (if you've completed Koschei's Troubles) in his cave beneath Rellekka.", // 7814
@@ -10712,12 +11340,13 @@
 	},
 	{
 		"extra": {
+			"quest_req_item1": 995, // 887
+			"quest_req_item1_qty": 1000, // 949
 			"quest_create_req61_id": 224, // 1345
 			"quest_description": "Assemble a crew for Stan's new ship - Sarim's Revenge - and prepare to set sail for the Wushanko Isles!", // 5968
 			"quest_achieve_id": 227, // 7158
 			"quest_sort_char": "I", // 7219
 			"quest_start_point": "Talk to Trader Stan in Port Sarim about the Skulls pirate named Jed.", // 7814
-			"quest_req_items": "1,000 coins.", // 7815
 			"quest_reward": "Access to the Arc<br>A fledgling crew to sail you to the Wushanko Isles<br>Stan-ing Around Rest animation override", // 7823
 			"quest_icon_small_sprite": 29072, // 7829
 			"quest_age_period": 3, // 7831
@@ -10797,6 +11426,7 @@
 		"extra": {
 			"quest_combat": 12, // 857
 			"quest_create_req61_id": 226, // 1345
+			"quest_description": "The penguins are back for another slippery tale of subterfuge and ramshackle science that'll leave you questioning the very fabric of reality...as well as the good taste of its puns. Can you circumvent the latest flashpoint in Gielinor's coldest war? There's only one way to find out.", // 5968
 			"quest_achieve_id": 229, // 7158
 			"quest_sort_char": "B", // 7219
 			"quest_start_point": "Talk to Chuck at the Ardougne Zoo.", // 7814
@@ -11018,13 +11648,13 @@
 	},
 	{
 		"extra": {
-			"quest_sort_char": "G" // 7219
+			"extra_0024F6": 1 // 9462
 		},
 		"id": 394,
 		"name": "Ghost Stories of Gielinor",
 		"quest_difficulty": 0,
 		"quest_item_sprite": 31963,
-		"quest_list_name": "Ghost Stories of Gielinor",
+		"quest_list_name": "",
 		"quest_points": 0,
 		"varbits": [
 			{
@@ -11082,13 +11712,13 @@
 	},
 	{
 		"extra": {
-			"quest_sort_char": "G" // 7219
+			"extra_0024F6": 1 // 9462
 		},
 		"id": 396,
 		"name": "The G-Nome Project",
 		"quest_difficulty": 0,
 		"quest_item_sprite": 28980,
-		"quest_list_name": "G-Nome Project, The",
+		"quest_list_name": "",
 		"quest_points": 0,
 		"varbits": [
 			{
@@ -11351,6 +11981,7 @@
 			"quest_req_item1": 995, // 887
 			"quest_req_item1_qty": 208, // 949
 			"quest_create_req61_id": 279, // 1345
+			"quest_req_item1_postfix": " to buy all the required liquor", // 3822
 			"quest_description": "Complete this Fremennik 'rite of passage' to gain access to the Barbarian Outpost agility course.", // 5968
 			"quest_achieve_id": 244, // 7158
 			"quest_sort_char": "B", // 7219
@@ -11361,7 +11992,6 @@
 			"quest_release_year": 2002, // 7834
 			"quest_nth_in_release_year": 6, // 7835
 			"quest_length": 3, // 7855
-			"quest_has_th_keys_reward": 0, // 7887
 			"quest_miniquest_type": 1, // 7889
 			"extra_0024B1": 43 // 9393
 		},
@@ -11398,7 +12028,6 @@
 			"quest_release_year": 2005, // 7834
 			"quest_nth_in_release_year": 17, // 7835
 			"quest_length": 2, // 7855
-			"quest_has_th_keys_reward": 0, // 7887
 			"quest_miniquest_type": 1, // 7889
 			"extra_0024B1": 24 // 9393
 		},
@@ -11442,15 +12071,14 @@
 			"quest_nth_in_series": 10, // 7837
 			"quest_length": 5, // 7855
 			"quest_has_misc_req": 1, // 7862
-			"quest_has_th_keys_reward": 0, // 7887
 			"quest_miniquest_type": 1, // 7889
 			"extra_0024B1": 43 // 9393
 		},
 		"id": 405,
 		"members": true,
-		"name": "The Curse of Zaros (miniquest)",
+		"name": "Curse of the Empty Lord (miniquest)",
 		"quest_difficulty": 1,
-		"quest_list_name": "Curse of Zaros, The (miniquest)",
+		"quest_list_name": "Curse of the Empty Lord (miniquest)",
 		"quest_points": 0,
 		"required_quests": [
 			27,
@@ -11486,7 +12114,6 @@
 			"quest_nth_in_release_year": 2, // 7835
 			"quest_length": 4, // 7855
 			"quest_req_morytania_access": 1, // 7861
-			"quest_has_th_keys_reward": 0, // 7887
 			"quest_miniquest_type": 1, // 7889
 			"extra_0024B1": 31 // 9393
 		},
@@ -11538,7 +12165,6 @@
 			"quest_series": 34, // 7836
 			"quest_nth_in_series": 11, // 7837
 			"quest_length": 2, // 7855
-			"quest_has_th_keys_reward": 0, // 7887
 			"quest_miniquest_type": 1, // 7889
 			"extra_0024B1": 35 // 9393
 		},
@@ -11580,7 +12206,6 @@
 			"quest_release_year": 2008, // 7834
 			"quest_nth_in_release_year": 5, // 7835
 			"quest_length": 3, // 7855
-			"quest_has_th_keys_reward": 0, // 7887
 			"quest_miniquest_type": 1, // 7889
 			"extra_0024B1": 11 // 9393
 		},
@@ -11630,7 +12255,6 @@
 			"quest_nth_in_release_year": 15, // 7835
 			"quest_length": 3, // 7855
 			"quest_has_misc_req": 1, // 7862
-			"quest_has_th_keys_reward": 0, // 7887
 			"quest_miniquest_type": 1, // 7889
 			"extra_0024B1": 48 // 9393
 		},
@@ -11674,7 +12298,6 @@
 			"quest_nth_in_release_year": 17, // 7835
 			"quest_length": 2, // 7855
 			"quest_has_misc_req": 1, // 7862
-			"quest_has_th_keys_reward": 0, // 7887
 			"quest_miniquest_type": 1, // 7889
 			"extra_0024B1": 43 // 9393
 		},
@@ -11721,7 +12344,6 @@
 			"quest_release_year": 2008, // 7834
 			"quest_nth_in_release_year": 11, // 7835
 			"quest_length": 3, // 7855
-			"quest_has_th_keys_reward": 0, // 7887
 			"quest_miniquest_type": 1, // 7889
 			"extra_0024B1": 28 // 9393
 		},
@@ -11762,7 +12384,6 @@
 			"quest_release_year": 2008, // 7834
 			"quest_nth_in_release_year": 19, // 7835
 			"quest_length": 2, // 7855
-			"quest_has_th_keys_reward": 0, // 7887
 			"quest_miniquest_type": 1, // 7889
 			"extra_0024B1": 7 // 9393
 		},
@@ -11803,7 +12424,6 @@
 			"quest_series": 18, // 7836
 			"quest_nth_in_series": 2, // 7837
 			"quest_length": 2, // 7855
-			"quest_has_th_keys_reward": 1, // 7887
 			"quest_miniquest_type": 1, // 7889
 			"extra_0024B1": 4 // 9393
 		},
@@ -11848,7 +12468,6 @@
 			"quest_series": 18, // 7836
 			"quest_nth_in_series": 3, // 7837
 			"quest_length": 4, // 7855
-			"quest_has_th_keys_reward": 1, // 7887
 			"quest_miniquest_type": 1, // 7889
 			"extra_0024B1": 4 // 9393
 		},
@@ -11895,7 +12514,6 @@
 			"quest_nth_in_series": 4, // 7837
 			"quest_length": 3, // 7855
 			"quest_has_misc_req": 1, // 7862
-			"quest_has_th_keys_reward": 1, // 7887
 			"quest_miniquest_type": 1, // 7889
 			"extra_0024B1": 4 // 9393
 		},
@@ -11949,7 +12567,6 @@
 			"quest_suggested_void_quest_req": 1, // 7852
 			"quest_length": 4, // 7855
 			"quest_has_misc_req": 1, // 7862
-			"quest_has_th_keys_reward": 0, // 7887
 			"quest_miniquest_type": 2, // 7889
 			"extra_0024B1": 25 // 9393
 		},
@@ -11995,7 +12612,6 @@
 			"quest_suggested_void_quest_req": 1, // 7852
 			"quest_length": 4, // 7855
 			"quest_has_misc_req": 1, // 7862
-			"quest_has_th_keys_reward": 0, // 7887
 			"quest_miniquest_type": 2, // 7889
 			"extra_0024B1": 25 // 9393
 		},
@@ -12042,7 +12658,6 @@
 			"quest_suggested_void_quest_req": 1, // 7852
 			"quest_length": 4, // 7855
 			"quest_has_misc_req": 1, // 7862
-			"quest_has_th_keys_reward": 0, // 7887
 			"quest_miniquest_type": 2, // 7889
 			"extra_0024B1": 25 // 9393
 		},
@@ -12091,7 +12706,6 @@
 			"quest_suggested_void_quest_req": 1, // 7852
 			"quest_length": 4, // 7855
 			"quest_has_misc_req": 1, // 7862
-			"quest_has_th_keys_reward": 0, // 7887
 			"quest_miniquest_type": 2, // 7889
 			"extra_0024B1": 25 // 9393
 		},
@@ -12138,7 +12752,6 @@
 			"quest_suggested_void_quest_req": 1, // 7852
 			"quest_length": 4, // 7855
 			"quest_has_misc_req": 1, // 7862
-			"quest_has_th_keys_reward": 0, // 7887
 			"quest_miniquest_type": 2, // 7889
 			"extra_0024B1": 25 // 9393
 		},
@@ -12183,7 +12796,6 @@
 			"quest_series": 21, // 7836
 			"quest_nth_in_series": 1, // 7837
 			"quest_length": 1, // 7855
-			"quest_has_th_keys_reward": 0, // 7887
 			"quest_miniquest_type": 1, // 7889
 			"extra_0024B1": 14 // 9393
 		},
@@ -12230,7 +12842,6 @@
 			"quest_series": 21, // 7836
 			"quest_nth_in_series": 2, // 7837
 			"quest_length": 1, // 7855
-			"quest_has_th_keys_reward": 0, // 7887
 			"quest_miniquest_type": 1, // 7889
 			"extra_0024B1": 14 // 9393
 		},
@@ -12276,7 +12887,6 @@
 			"quest_series": 21, // 7836
 			"quest_nth_in_series": 3, // 7837
 			"quest_length": 2, // 7855
-			"quest_has_th_keys_reward": 0, // 7887
 			"quest_miniquest_type": 1, // 7889
 			"extra_0024B1": 14 // 9393
 		},
@@ -12321,7 +12931,6 @@
 			"quest_series": 21, // 7836
 			"quest_nth_in_series": 4, // 7837
 			"quest_length": 4, // 7855
-			"quest_has_th_keys_reward": 0, // 7887
 			"quest_miniquest_type": 1, // 7889
 			"extra_0024B1": 14 // 9393
 		},
@@ -12370,7 +12979,6 @@
 			"quest_series": 21, // 7836
 			"quest_nth_in_series": 5, // 7837
 			"quest_length": 2, // 7855
-			"quest_has_th_keys_reward": 0, // 7887
 			"quest_miniquest_type": 1, // 7889
 			"extra_0024B1": 14 // 9393
 		},
@@ -12416,7 +13024,6 @@
 			"quest_series": 21, // 7836
 			"quest_nth_in_series": 6, // 7837
 			"quest_length": 2, // 7855
-			"quest_has_th_keys_reward": 0, // 7887
 			"quest_miniquest_type": 1, // 7889
 			"extra_0024B1": 14 // 9393
 		},
@@ -12460,7 +13067,6 @@
 			"quest_series": 21, // 7836
 			"quest_nth_in_series": 7, // 7837
 			"quest_length": 2, // 7855
-			"quest_has_th_keys_reward": 0, // 7887
 			"quest_miniquest_type": 1, // 7889
 			"extra_0024B1": 14 // 9393
 		},
@@ -12506,7 +13112,6 @@
 			"quest_series": 21, // 7836
 			"quest_nth_in_series": 8, // 7837
 			"quest_length": 2, // 7855
-			"quest_has_th_keys_reward": 0, // 7887
 			"quest_miniquest_type": 1, // 7889
 			"extra_0024B1": 14 // 9393
 		},
@@ -12550,7 +13155,6 @@
 			"quest_series": 22, // 7836
 			"quest_nth_in_series": 1, // 7837
 			"quest_length": 1, // 7855
-			"quest_has_th_keys_reward": 0, // 7887
 			"quest_miniquest_type": 1, // 7889
 			"extra_0024B1": 14 // 9393
 		},
@@ -12597,7 +13201,6 @@
 			"quest_series": 22, // 7836
 			"quest_nth_in_series": 2, // 7837
 			"quest_length": 1, // 7855
-			"quest_has_th_keys_reward": 0, // 7887
 			"quest_miniquest_type": 1, // 7889
 			"extra_0024B1": 14 // 9393
 		},
@@ -12642,7 +13245,6 @@
 			"quest_series": 22, // 7836
 			"quest_nth_in_series": 3, // 7837
 			"quest_length": 2, // 7855
-			"quest_has_th_keys_reward": 0, // 7887
 			"quest_miniquest_type": 1, // 7889
 			"extra_0024B1": 14 // 9393
 		},
@@ -12688,14 +13290,13 @@
 			"quest_nth_in_release_year": 21, // 7835
 			"quest_length": 1, // 7855
 			"quest_has_misc_req": 1, // 7862
-			"quest_has_th_keys_reward": 0, // 7887
 			"quest_miniquest_type": 1, // 7889
 			"extra_0024B1": 52 // 9393
 		},
 		"id": 432,
 		"members": true,
 		"name": "Wandering Ga'al (miniquest)",
-		"quest_difficulty": 4,
+		"quest_difficulty": 0,
 		"quest_list_name": "Wandering Ga'al (miniquest)",
 		"quest_points": 0,
 		"required_quests": [
@@ -12724,7 +13325,6 @@
 			"quest_release_year": 2013, // 7834
 			"quest_nth_in_release_year": 1, // 7835
 			"quest_length": 2, // 7855
-			"quest_has_th_keys_reward": 0, // 7887
 			"quest_miniquest_type": 1, // 7889
 			"extra_0024B1": 36 // 9393
 		},
@@ -12772,7 +13372,6 @@
 			"quest_nth_in_release_year": 2, // 7835
 			"quest_length": 9, // 7855
 			"quest_reward_item2_postfix": "(pet)", // 7876
-			"quest_has_th_keys_reward": 0, // 7887
 			"quest_miniquest_type": 1, // 7889
 			"extra_0024B1": 36 // 9393
 		},
@@ -12822,7 +13421,6 @@
 			"quest_length": 4, // 7855
 			"quest_req_morytania_access": 1, // 7861
 			"quest_has_misc_req": 1, // 7862
-			"quest_has_th_keys_reward": 0, // 7887
 			"quest_miniquest_type": 1, // 7889
 			"extra_0024B1": 28 // 9393
 		},
@@ -12863,7 +13461,6 @@
 			"quest_release_year": 2016, // 7834
 			"quest_nth_in_release_year": 2, // 7835
 			"quest_length": 2, // 7855
-			"quest_has_th_keys_reward": 0, // 7887
 			"quest_miniquest_type": 1, // 7889
 			"extra_0024B1": 9 // 9393
 		},
@@ -12912,7 +13509,6 @@
 			"quest_nth_in_release_year": 3, // 7835
 			"quest_length": 6, // 7855
 			"quest_req_morytania_access": 1, // 7861
-			"quest_has_th_keys_reward": 0, // 7887
 			"quest_miniquest_type": 1, // 7889
 			"extra_0024B1": 32 // 9393
 		},
@@ -12953,7 +13549,6 @@
 			"quest_nth_in_release_year": 4, // 7835
 			"quest_length": 4, // 7855
 			"quest_req_morytania_access": 1, // 7861
-			"quest_has_th_keys_reward": 0, // 7887
 			"quest_miniquest_type": 1, // 7889
 			"extra_0024B1": 32 // 9393
 		},
@@ -12991,7 +13586,6 @@
 			"quest_release_year": 2016, // 7834
 			"quest_nth_in_release_year": 7, // 7835
 			"quest_length": 2, // 7855
-			"quest_has_th_keys_reward": 0, // 7887
 			"quest_miniquest_type": 1, // 7889
 			"extra_0024B1": 7 // 9393
 		},
@@ -13036,7 +13630,6 @@
 			"quest_series": 32, // 7836
 			"quest_nth_in_series": 2, // 7837
 			"quest_length": 3, // 7855
-			"quest_has_th_keys_reward": 0, // 7887
 			"quest_miniquest_type": 1, // 7889
 			"extra_0024B1": 56 // 9393
 		},
@@ -13091,7 +13684,6 @@
 			"quest_nth_in_series": 3, // 7837
 			"quest_length": 4, // 7855
 			"quest_reward_item4_qty": 4, // 7866
-			"quest_has_th_keys_reward": 0, // 7887
 			"quest_miniquest_type": 1, // 7889
 			"extra_0024B1": 56 // 9393
 		},
@@ -13144,7 +13736,6 @@
 			"quest_nth_in_series": 4, // 7837
 			"quest_length": 4, // 7855
 			"quest_has_misc_req": 1, // 7862
-			"quest_has_th_keys_reward": 0, // 7887
 			"quest_miniquest_type": 1, // 7889
 			"extra_0024B1": 56 // 9393
 		},
@@ -13202,7 +13793,6 @@
 			"quest_nth_in_series": 5, // 7837
 			"quest_suggested_req_1": 182, // 7840
 			"quest_length": 2, // 7855
-			"quest_has_th_keys_reward": 0, // 7887
 			"quest_miniquest_type": 1, // 7889
 			"extra_0024B1": 56 // 9393
 		},
@@ -13259,7 +13849,6 @@
 			"quest_nth_in_series": 6, // 7837
 			"quest_length": 2, // 7855
 			"quest_has_misc_req": 1, // 7862
-			"quest_has_th_keys_reward": 0, // 7887
 			"quest_miniquest_type": 1, // 7889
 			"extra_0024B1": 56 // 9393
 		},
@@ -13309,7 +13898,6 @@
 			"quest_series": 32, // 7836
 			"quest_nth_in_series": 7, // 7837
 			"quest_length": 2, // 7855
-			"quest_has_th_keys_reward": 0, // 7887
 			"quest_miniquest_type": 1, // 7889
 			"extra_0024B1": 56 // 9393
 		},
@@ -13363,7 +13951,6 @@
 			"quest_nth_in_series": 8, // 7837
 			"quest_length": 3, // 7855
 			"quest_reward_item4_qty": 50, // 7866
-			"quest_has_th_keys_reward": 0, // 7887
 			"quest_miniquest_type": 1, // 7889
 			"extra_0024B1": 56 // 9393
 		},
@@ -13414,7 +14001,6 @@
 			"quest_series": 32, // 7836
 			"quest_nth_in_series": 9, // 7837
 			"quest_length": 2, // 7855
-			"quest_has_th_keys_reward": 0, // 7887
 			"quest_miniquest_type": 1, // 7889
 			"extra_0024B1": 56 // 9393
 		},
@@ -13464,7 +14050,6 @@
 			"quest_series": 32, // 7836
 			"quest_nth_in_series": 10, // 7837
 			"quest_length": 2, // 7855
-			"quest_has_th_keys_reward": 0, // 7887
 			"quest_miniquest_type": 1, // 7889
 			"extra_0024B1": 56 // 9393
 		},
@@ -13512,7 +14097,6 @@
 			"quest_series": 32, // 7836
 			"quest_nth_in_series": 11, // 7837
 			"quest_length": 2, // 7855
-			"quest_has_th_keys_reward": 0, // 7887
 			"quest_miniquest_type": 1, // 7889
 			"extra_0024B1": 56 // 9393
 		},
@@ -13556,7 +14140,7 @@
 			"quest_req_item4_qty": 10, // 952
 			"quest_req_item7_qty": 100, // 1330
 			"quest_create_req61_id": 292, // 1345
-			"quest_description": "It's about 'kin time! Assist Vannaka in cleaning up Edgeville after it was attacked by the dragonkin during Ritual of the Mahjarrat.", // 5968
+			"quest_description": "It's about 'kin time! Assist Vannaka in cleaning up Edgeville after it was attacked by the dragonkin during 'Ritual of the Mahjarrat'.", // 5968
 			"quest_req_item9_postfix": "(tool belt works)", // 6830
 			"quest_reward_item1": 18782, // 6852
 			"quest_achieve_id": 262, // 7158
@@ -13570,7 +14154,6 @@
 			"quest_release_year": 2018, // 7834
 			"quest_nth_in_release_year": 2, // 7835
 			"quest_length": 2, // 7855
-			"quest_has_th_keys_reward": 0, // 7887
 			"quest_miniquest_type": 1, // 7889
 			"extra_0024B1": 23 // 9393
 		},
@@ -13596,27 +14179,15 @@
 	},
 	{
 		"extra": {
-			"quest_description": "Help several of the guilds' assistants finish their respective masterpieces in time for the inaugural Eastertime Fete.", // 5968
-			"quest_sort_char": "G", // 7219
 			"extra_001C4C": "Easter 2019", // 7244
-			"quest_start_point": "Talk to the Easter Bunny at the Eastertime Fete.", // 7814
-			"quest_req_items": "An empty pot, an empty bucket, an uncooked redberry pie, an uncooked apple pie, an uncooked meat pie, a cake tin, a pie shell, an egg, 1 copper ore, 1 gold ore, 10 coins and some free inventory space.", // 7815
-			"quest_reward": "A Mysterious Egg pet, as well as crystallised chocolate fragments when you've helped the guilds at the Fete", // 7823
-			"quest_age_period": 2, // 7831
 			"quest_release_year": 2019, // 7834
-			"quest_length": 3, // 7855
-			"quest_has_misc_req": 1, // 7862
-			"extra_0024B1": 4 // 9393
+			"extra_0024F6": 1 // 9462
 		},
 		"id": 451,
 		"name": "Guilded Eggstravaganza",
 		"quest_difficulty": 0,
-		"quest_item_sprite": 370,
-		"quest_list_name": "Guilded Eggstravaganza",
+		"quest_list_name": "",
 		"quest_points": 0,
-		"start_location_path": [
-			51907754
-		],
 		"varbits": [
 			{
 				"endvalue": 20,
@@ -13626,6 +14197,9 @@
 		]
 	},
 	{
+		"extra": {
+			"extra_0024F6": 1 // 9462
+		},
 		"id": 452,
 		"name": "Raksha, the Shadow Colossus",
 		"quest_list_name": ""
@@ -13638,7 +14212,7 @@
 			"quest_sort_char": "V", // 7219
 			"quest_start_point": "Talk to Postie Pete by the portal to the Land of Snow. (The base of White wolf mountain)", // 7814
 			"quest_xp_lamp_1": "Lamps of joy, wonder and laughter", // 7818
-			"quest_reward": "Fairylight necklace and Fairylight whip items and cosmetic overrides.", // 7823
+			"quest_reward": "Fairylight necklace and Fairylight whip items and cosmetic overrides", // 7823
 			"quest_icon_small_sprite": 12406, // 7829
 			"quest_age_period": 2, // 7831
 			"quest_voice_acted": 1, // 7833
@@ -13670,6 +14244,9 @@
 		]
 	},
 	{
+		"extra": {
+			"extra_0024F6": 1 // 9462
+		},
 		"id": 454,
 		"name": "The Vault of Shadows",
 		"quest_list_name": ""
@@ -13681,7 +14258,7 @@
 			"quest_achieve_id": 242, // 7158
 			"quest_sort_char": "O", // 7219
 			"quest_start_point": "Talk to Peter in Rimmington.", // 7814
-			"quest_xp_lamp_1": "2500 XP Cooking Lamp.", // 7818
+			"quest_xp_lamp_1": "2,500 Cooking XP lamp", // 7818
 			"quest_reward": "Lil Miss Gloop Pet", // 7823
 			"quest_icon_small_sprite": 9855, // 7829
 			"quest_age_period": 2, // 7831
@@ -13720,11 +14297,17 @@
 		"quest_list_name": ""
 	},
 	{
+		"extra": {
+			"extra_0024F6": 1 // 9462
+		},
 		"id": 458,
 		"name": "Desperate Measures",
 		"quest_list_name": ""
 	},
 	{
+		"extra": {
+			"extra_0024F6": 1 // 9462
+		},
 		"id": 459,
 		"name": "Sins of the Father",
 		"quest_list_name": ""
@@ -13793,7 +14376,6 @@
 			"quest_release_year": 2019, // 7834
 			"quest_nth_in_release_year": 4, // 7835
 			"quest_length": 4, // 7855
-			"quest_has_th_keys_reward": 0, // 7887
 			"quest_miniquest_type": 1, // 7889
 			"extra_0024B1": 55 // 9393
 		},
@@ -13804,7 +14386,6 @@
 		"quest_list_name": "Helping Laniakea (miniquest)",
 		"quest_points": 0,
 		"start_location_path": [
-			89475380,
 			89475380
 		],
 		"varbits": [
@@ -13822,13 +14403,12 @@
 			"quest_achieve_id": 250, // 7158
 			"quest_sort_char": "F", // 7219
 			"quest_start_point": "Talk to Irwinsson on Anachronia to find out more.", // 7814
-			"quest_xp_lamp_1": "A Medium Hunter XP lamp", // 7818
+			"quest_xp_lamp_1": "A medium Hunter XP lamp", // 7818
 			"quest_icon_small_sprite": 31962, // 7829
 			"quest_age_period": 3, // 7831
 			"quest_release_year": 2019, // 7834
 			"quest_nth_in_release_year": 5, // 7835
 			"quest_length": 2, // 7855
-			"quest_has_th_keys_reward": 0, // 7887
 			"quest_miniquest_type": 1, // 7889
 			"extra_0024B1": 55 // 9393
 		},
@@ -13839,7 +14419,6 @@
 		"quest_list_name": "Father and Son (miniquest)",
 		"quest_points": 0,
 		"start_location_path": [
-			88951066,
 			88951066
 		],
 		"varbits": [
@@ -13851,6 +14430,9 @@
 		]
 	},
 	{
+		"extra": {
+			"extra_0024F6": 1 // 9462
+		},
 		"id": 463,
 		"name": "Foreshadowing",
 		"quest_list_name": ""
@@ -13871,7 +14453,6 @@
 			"quest_nth_in_release_year": 2, // 7835
 			"quest_length": 4, // 7855
 			"quest_has_misc_req": 1, // 7862
-			"quest_has_th_keys_reward": 0, // 7887
 			"quest_miniquest_type": 1, // 7889
 			"extra_0024B1": 9 // 9393
 		},
@@ -13904,9 +14485,9 @@
 			"quest_achieve_id": 243, // 7158
 			"quest_sort_char": "D", // 7219
 			"quest_start_point": "Talk to Seren, up the stairs in Burthorpe castle.", // 7814
-			"quest_req_items": "100 orthenglass, the Measure (if you have completed Fate of the Gods).", // 7815
+			"quest_req_items": "100 orthenglass, the Measure (if you have completed 'Fate of the Gods').", // 7815
 			"quest_combat_req": "The ability to defeat a level 91 opponent.", // 7816
-			"quest_xp_lamp_1": "20,000 Archaeology XP lamp<br>20,000 Combat XP lamp", // 7818
+			"quest_xp_lamp_1": "20,000 Archaeology XP lamp<br>20,000 combat XP lamp", // 7818
 			"quest_reward": "Cosmic focus<br>Thok's Stick cosmetic override<br>Remototem piece", // 7823
 			"quest_icon_small_sprite": 1404, // 7829
 			"quest_age_period": 3, // 7831
@@ -13964,7 +14545,6 @@
 			"quest_nth_in_series": 13, // 7837
 			"quest_length": 2, // 7855
 			"quest_has_misc_req": 1, // 7862
-			"quest_has_th_keys_reward": 0, // 7887
 			"extra_0024B1": 55, // 9393
 			"extra_0024BC": 2022 // 9404
 		},
@@ -13978,7 +14558,6 @@
 			465
 		],
 		"start_location_path": [
-			89557282,
 			89557282
 		],
 		"varbits": [
@@ -14004,7 +14583,6 @@
 			"quest_series": 36, // 7836
 			"quest_nth_in_series": 6, // 7837
 			"quest_length": 2, // 7855
-			"quest_has_th_keys_reward": 0, // 7887
 			"extra_0024B1": 55 // 9393
 		},
 		"id": 467,
@@ -14014,7 +14592,6 @@
 		"quest_list_name": "Raksha, the Shadow Colossus",
 		"quest_points": 0,
 		"start_location_path": [
-			92866650,
 			92866650
 		],
 		"varbits": [
@@ -14064,7 +14641,7 @@
 			"quest_achieve_id": 2966, // 7158
 			"quest_sort_char": "A", // 7219
 			"quest_start_point": "Talk to Azzanadra in Burthorpe.", // 7814
-			"quest_req_items": "Slayer bell and a knife. If you have completed Heart of Stone, the Blank Observation will be useful. ", // 7815
+			"quest_req_items": "Slayer bell and a knife. If you have completed 'Heart of Stone', the blank observation will be useful.", // 7815
 			"quest_xp_lamp_1": "15,000 Archaeology XP lamp<br>25,000 Divination XP lamp<br>10,000 XP lamp", // 7818
 			"quest_reward": "Unlock the knowledge to restore the pontifex observation ring", // 7823
 			"quest_icon_small_sprite": 12709, // 7829
@@ -14115,13 +14692,11 @@
 			"quest_req_items": "Ancient timepiece, pontifex signet ring.", // 7815
 			"quest_icon_small_sprite": 31962, // 7829
 			"quest_age_period": 3, // 7831
-			"quest_voice_acted": 0, // 7833
 			"quest_release_year": 2021, // 7834
 			"quest_nth_in_release_year": 1, // 7835
 			"quest_series": 36, // 7836
 			"quest_nth_in_series": 7, // 7837
 			"quest_length": 4, // 7855
-			"quest_has_th_keys_reward": 0, // 7887
 			"extra_0024B1": 8 // 9393
 		},
 		"id": 470,
@@ -14135,7 +14710,6 @@
 			"27": 58
 		},
 		"start_location_path": [
-			54922363,
 			54922363
 		],
 		"varbits": [
@@ -14151,7 +14725,6 @@
 			"quest_create_req61_id": 307, // 1345
 			"quest_description": "Celebrate your life as an adventurer!", // 5968
 			"quest_reward_item1": 36074, // 6852
-			"quest_reward_item1_qty": 1, // 6864
 			"quest_achieve_id": 2958, // 7158
 			"quest_sort_char": "F", // 7219
 			"quest_start_point": "Talk to the Relomia in the Blue Moon Inn in Varrock.", // 7814
@@ -14165,7 +14738,6 @@
 			"quest_suggested_req_2": 4, // 7841
 			"quest_suggested_req_3": 16, // 7842
 			"quest_length": 2, // 7855
-			"quest_has_th_keys_reward": 0, // 7887
 			"extra_0024B1": 9 // 9393
 		},
 		"id": 471,
@@ -14205,7 +14777,6 @@
 			"quest_suggested_req_2": 18, // 7841
 			"quest_suggested_req_3": 177, // 7842
 			"quest_length": 2, // 7855
-			"quest_has_th_keys_reward": 0, // 7887
 			"extra_0024B1": 7 // 9393
 		},
 		"id": 472,
@@ -14249,7 +14820,6 @@
 			"quest_suggested_req_2": 196, // 7841
 			"quest_length": 4, // 7855
 			"quest_has_misc_req": 1, // 7862
-			"quest_has_th_keys_reward": 0, // 7887
 			"extra_0024B1": 11 // 9393
 		},
 		"id": 473,
@@ -14346,7 +14916,6 @@
 			"quest_suggested_req_2": 207, // 7841
 			"quest_suggested_req_3": 159, // 7842
 			"quest_length": 2, // 7855
-			"quest_has_th_keys_reward": 0, // 7887
 			"extra_0024B1": 7 // 9393
 		},
 		"id": 475,
@@ -14376,7 +14945,6 @@
 			"quest_create_req61_id": 315, // 1345
 			"quest_description": "Celebrate your life as an adventurer!", // 5968
 			"quest_reward_item1": 36074, // 6852
-			"quest_reward_item1_qty": 1, // 6864
 			"quest_achieve_id": 3090, // 7158
 			"quest_sort_char": "F", // 7219
 			"quest_start_point": "Talk to Closure in his office to find out more. It can be accessed via Death's realm.", // 7814
@@ -14390,7 +14958,6 @@
 			"quest_suggested_req_2": 178, // 7841
 			"quest_suggested_req_3": 224, // 7842
 			"quest_length": 2, // 7855
-			"quest_has_th_keys_reward": 0, // 7887
 			"extra_0024B1": 7 // 9393
 		},
 		"id": 476,
@@ -14428,13 +14995,12 @@
 			"quest_release_year": 2021, // 7834
 			"quest_nth_in_release_year": 7, // 7835
 			"quest_length": 5, // 7855
-			"quest_has_th_keys_reward": 1, // 7887
 			"extra_0024B1": 9 // 9393
 		},
 		"id": 477,
 		"members": true,
 		"name": "Once Upon a Time in Gielinor",
-		"quest_difficulty": 0,
+		"quest_difficulty": 250,
 		"quest_item_sprite": 31963,
 		"quest_list_name": "Once Upon a Time in Gielinor",
 		"quest_points": 4,
@@ -14464,7 +15030,6 @@
 			"quest_series": 36, // 7836
 			"quest_nth_in_series": 11, // 7837
 			"quest_length": 2, // 7855
-			"quest_has_th_keys_reward": 0, // 7887
 			"extra_0024B1": 8 // 9393
 		},
 		"id": 478,
@@ -14506,7 +15071,6 @@
 			"quest_series": 36, // 7836
 			"quest_nth_in_series": 12, // 7837
 			"quest_length": 2, // 7855
-			"quest_has_th_keys_reward": 0, // 7887
 			"extra_0024B1": 8 // 9393
 		},
 		"id": 479,
@@ -14542,7 +15106,7 @@
 			"quest_sort_char": "E", // 7219
 			"quest_start_point": "Speak to Moia at the surface entrance of Senntisten.", // 7814
 			"quest_req_items": "The Measure (if you have completed Fate of the Gods).", // 7815
-			"quest_combat_req": "You must defeat multiple high-level TzekHaar warriors, corrupted fungi, Glacytes, Nodon artillery, and more. Be prepared.<br>Recommended combat level - 105, with balanced stats.<br>Bring combat equipment, food, restore potions, and equipment for hunter, mining, fishing, and woodcutting.<br>The Shard of Erebus will not protect you in combat during this quest.", // 7816
+			"quest_combat_req": "You must defeat multiple high-level TzekHaar warriors, corrupted fungi, glacytes, Nodon artillery, and more. Be prepared.<br>Recommended combat level - 105, with balanced stats.<br>Bring combat equipment, food, restore potions, and equipment for Hunter, Mining, Fishing, and Woodcutting.<br>The Shard of Erebus will not protect you in combat during this quest.", // 7816
 			"quest_reward": "Access to the Dream of Iaia<br>A warped gem, recovered from Daemonheim by Vicendithas<br>The ability to further upgrade your Pontifex Shadow Ring<br>Access to Prehistoric Potterington's 'Accidental' Fletching & Firemaking Station (requires 82 Fletching or Firemaking) and Anachronia Dinosaur Farm teleport scrolls from the farmer's market", // 7823
 			"quest_icon_small_sprite": 18588, // 7829
 			"quest_age_period": 3, // 7831
@@ -14648,7 +15212,6 @@
 			"quest_series": 36, // 7836
 			"quest_nth_in_series": 16, // 7837
 			"quest_length": 5, // 7855
-			"quest_has_th_keys_reward": 0, // 7887
 			"extra_0024B1": 15 // 9393
 		},
 		"id": 482,
@@ -14727,7 +15290,6 @@
 			"quest_series": 37, // 7836
 			"quest_nth_in_series": 2, // 7837
 			"quest_length": 2, // 7855
-			"quest_has_th_keys_reward": 0, // 7887
 			"quest_miniquest_type": 1, // 7889
 			"extra_0024B1": 15 // 9393
 		},
@@ -14765,7 +15327,6 @@
 			"quest_series": 37, // 7836
 			"quest_nth_in_series": 3, // 7837
 			"quest_length": 2, // 7855
-			"quest_has_th_keys_reward": 0, // 7887
 			"quest_miniquest_type": 1, // 7889
 			"extra_0024B1": 24 // 9393
 		},
@@ -14803,7 +15364,6 @@
 			"quest_series": 37, // 7836
 			"quest_nth_in_series": 4, // 7837
 			"quest_length": 2, // 7855
-			"quest_has_th_keys_reward": 0, // 7887
 			"quest_miniquest_type": 1, // 7889
 			"extra_0024B1": 24 // 9393
 		},
@@ -14888,14 +15448,12 @@
 			"quest_start_point": "Speak to the Curator north of the Burthorpe lodestone.", // 7814
 			"quest_icon_small_sprite": 31962, // 7829
 			"quest_age_period": 3, // 7831
-			"quest_voice_acted": 0, // 7833
 			"quest_release_year": 2020, // 7834
 			"quest_nth_in_release_year": 4, // 7835
 			"quest_series": 36, // 7836
 			"quest_nth_in_series": 5, // 7837
 			"quest_length": 2, // 7855
-			"quest_has_th_keys_reward": 0, // 7887
-			"quest_replacement": "In 2022 this quest replaced 2020's 'Lore Hunter I' Yak Track tasks.", // 7888
+			"quest_replacement": "In 2022, this quest replaced 2020's 'Lore Hunter I' Yak Track tasks.", // 7888
 			"extra_0024B1": 22 // 9393
 		},
 		"id": 488,
@@ -14928,7 +15486,7 @@
 			"quest_start_point": "Outside the Varrock palace throne room.", // 7814
 			"quest_req_items": "20 planks, 88 stone wall segments (from 352 limestone bricks), 8 wooden frames (from 96 planks).", // 7815
 			"quest_combat_req": "A brief combat encounter.", // 7816
-			"quest_reward": "Access to Fort Forinthry and its facilities.<br>Unlocks the 'Duke', 'Duchess' and 'Dux' titles", // 7823
+			"quest_reward": "Access to Fort Forinthry and its facilities<br>Unlocks the 'Duke', 'Duchess' and 'Dux' titles", // 7823
 			"quest_icon_small_sprite": 26945, // 7829
 			"quest_release_year": 2023, // 7834
 			"quest_nth_in_release_year": 1, // 7835
@@ -15008,15 +15566,13 @@
 			"quest_start_point": "Talk to overseer Siv in Fort Forinthry.", // 7814
 			"quest_req_items": "6 stone wall segments (from 24 limestone bricks), 14 maple frames (from 168 maple planks) to build the first tier of the guardhouse.", // 7815
 			"quest_combat_req": "You will need to defeat a small group of level 66 melee enemies.", // 7816
-			"quest_reward": "Ability to build all three tiers of the Fort Forinthry guardhouse.<br>The Raptor will operate as a slayer master inside Fort Forinthry.<br>Access to the crypt north of Fort Forinthry", // 7823
+			"quest_reward": "Ability to build all three tiers of the Fort Forinthry guardhouse<br>The Raptor will operate as a slayer master inside Fort Forinthry<br>Access to the crypt north of Fort Forinthry", // 7823
 			"quest_icon_small_sprite": 26945, // 7829
-			"quest_voice_acted": 0, // 7833
 			"quest_release_year": 2023, // 7834
 			"quest_nth_in_release_year": 3, // 7835
 			"quest_series": 38, // 7836
 			"quest_nth_in_series": 3, // 7837
 			"quest_length": 4, // 7855
-			"quest_has_th_keys_reward": 1, // 7887
 			"extra_0024B1": 57 // 9393
 		},
 		"id": 491,
@@ -15095,9 +15651,8 @@
 			"quest_sort_char": "N", // 7219
 			"quest_start_point": "Investigate the white light portal north of Draynor's lodestone.", // 7814
 			"quest_combat_req": "You will need to defeat two level 3 trolls.", // 7816
-			"quest_reward": "200 Necromancy XP<br>Death guard and Skull lantern<br>25 ectoplasm<br>Access to Necromancy abilities", // 7823
+			"quest_reward": "200 Necromancy XP<br>Death guard and skull lantern<br>25 ectoplasm<br>Access to Necromancy abilities", // 7823
 			"quest_icon_small_sprite": 31487, // 7829
-			"quest_voice_acted": 0, // 7833
 			"quest_release_year": 2023, // 7834
 			"quest_nth_in_release_year": 5, // 7835
 			"quest_series": 39, // 7836
@@ -15131,7 +15686,6 @@
 			"quest_start_point": "Speak to Malignius Mortifer in the City of Um.", // 7814
 			"quest_reward": "1,500 Necromancy XP lamp<br>250 Runecrafting XP lamp<br>Access to lesser, regular and greater essence rituals<br>Access to necromancy runecrafting<br>Access to necromancy incantations<br>City of Um Teleport incantation<br>Lesser Bone Shield incantation", // 7823
 			"quest_icon_small_sprite": 31488, // 7829
-			"quest_voice_acted": 0, // 7833
 			"quest_release_year": 2023, // 7834
 			"quest_nth_in_release_year": 7, // 7835
 			"quest_series": 39, // 7836
@@ -15165,6 +15719,7 @@
 	},
 	{
 		"extra": {
+			"quest_combat": 11, // 857
 			"quest_create_req61_id": 334, // 1345
 			"quest_description": "Learn more about Rasial from a previous student of his in Port Phasmatys.", // 5968
 			"quest_achieve_id": 3289, // 7158
@@ -15174,7 +15729,6 @@
 			"quest_combat_req": "You will need to defeat some level 53 tortured souls.", // 7816
 			"quest_reward": "10,000 Necromancy XP lamp<br>5,000 Prayer XP lamp<br>25 souls added to the Well of Souls", // 7823
 			"quest_icon_small_sprite": 31489, // 7829
-			"quest_voice_acted": 0, // 7833
 			"quest_release_year": 2023, // 7834
 			"quest_nth_in_release_year": 8, // 7835
 			"quest_series": 39, // 7836
@@ -15210,7 +15764,7 @@
 	},
 	{
 		"extra": {
-			"quest_combat": 12, // 857
+			"quest_combat": 26, // 857
 			"quest_create_req61_id": 335, // 1345
 			"quest_description": "Convince the Boatman to ferry you to Rasial's citadel, then face off against Hermod, the Spirit of War.", // 5968
 			"quest_achieve_id": 3290, // 7158
@@ -15219,7 +15773,6 @@
 			"quest_combat_req": "You will need to defeat a level 732 phantom.", // 7816
 			"quest_reward": "45,000 Necromancy XP lamp<br>Hermodic plate<br>Access to 'Hermod, the Spirit of War' boss encounter<br>Access to Kharen's ferry system around Um<br>Ability to learn further Death Skull and Deathwarden equipment upgrades from Kili (available after completion of 'Kili Row')", // 7823
 			"quest_icon_small_sprite": 31490, // 7829
-			"quest_voice_acted": 0, // 7833
 			"quest_release_year": 2023, // 7834
 			"quest_nth_in_release_year": 9, // 7835
 			"quest_series": 39, // 7836
@@ -15259,10 +15812,9 @@
 			"quest_achieve_id": 3291, // 7158
 			"quest_sort_char": "T", // 7219
 			"quest_start_point": "Speak to Death in the City of Um.", // 7814
-			"quest_req_items": "A necromantic focus artefact (restored), 120 ancient vis, 104 Blood of Orcus, 80 imperial steel.", // 7815
+			"quest_req_items": "A necromantic focus artefact (restored), 120 ancient vis, 104 blood of Orcus, 80 imperial steel.", // 7815
 			"quest_reward": "60,000 Necromancy XP lamp<br>40,000 Archaeology XP lamp<br>Ability to learn four ancient Necromancy incantations from the Well of Souls", // 7823
 			"quest_icon_small_sprite": 31491, // 7829
-			"quest_voice_acted": 0, // 7833
 			"quest_release_year": 2023, // 7834
 			"quest_nth_in_release_year": 10, // 7835
 			"quest_series": 39, // 7836
@@ -15299,6 +15851,7 @@
 	},
 	{
 		"extra": {
+			"quest_combat": 19, // 857
 			"quest_create_req61_id": 337, // 1345
 			"quest_description": "Learn more about Rasial from a previous student of his in Daemonheim.", // 5968
 			"quest_achieve_id": 3292, // 7158
@@ -15308,7 +15861,6 @@
 			"quest_combat_req": "You will need to defeat a level 138 Skeletal trio.", // 7816
 			"quest_reward": "100,000 Necromancy XP lamp<br>50,000 Dungeoneering XP lamp<br>'Necrolord' title", // 7823
 			"quest_icon_small_sprite": 31492, // 7829
-			"quest_voice_acted": 0, // 7833
 			"quest_release_year": 2023, // 7834
 			"quest_nth_in_release_year": 11, // 7835
 			"quest_series": 39, // 7836
@@ -15345,14 +15897,14 @@
 	},
 	{
 		"extra": {
-			"quest_combat": 15, // 857
+			"quest_combat": 26, // 857
 			"quest_create_req61_id": 338, // 1345
 			"quest_description": "Take the fight to Rasial in his citadel and save the City of Um.", // 5968
 			"quest_achieve_id": 3293, // 7158
 			"quest_sort_char": "A", // 7219
 			"quest_start_point": "Speak to Rasial in the City of Um.", // 7814
 			"quest_req_items": "Necromancy combat equipment.", // 7815
-			"quest_combat_req": "You will need to defeat a level 8462 necromancer.", // 7816
+			"quest_combat_req": "You will need to defeat a level 8,462 necromancer.", // 7816
 			"quest_reward": "150,000 Necromancy XP lamp<br>Access to 'Rasial, the First Necromancer' boss encounter", // 7823
 			"quest_icon_small_sprite": 31493, // 7829
 			"quest_voice_acted": 1, // 7833
@@ -15397,7 +15949,6 @@
 			"quest_start_point": "Speak to Kili in the City of Um's smithy.", // 7814
 			"quest_reward": "Access to lesser, regular and greater ensoul material rituals<br>Ability to upgrade Death Skull and Deathwarden equipment to tier 20<br>Ability to learn further equipment upgrades from Kili", // 7823
 			"quest_icon_small_sprite": 31494, // 7829
-			"quest_voice_acted": 0, // 7833
 			"quest_release_year": 2023, // 7834
 			"quest_nth_in_release_year": 6, // 7835
 			"quest_series": 40, // 7836
@@ -15450,7 +16001,7 @@
 		"id": 501,
 		"members": true,
 		"name": "That Old Black Magic",
-		"quest_difficulty": 2,
+		"quest_difficulty": 250,
 		"quest_item_sprite": 33736,
 		"quest_list_name": "That Old Black Magic",
 		"quest_points": 1,
@@ -15531,7 +16082,6 @@
 			"quest_series": 40, // 7836
 			"quest_is_subquest": 1, // 7838
 			"quest_length": 2, // 7855
-			"quest_has_th_keys_reward": 0, // 7887
 			"extra_0024B1": 58 // 9393
 		},
 		"id": 503,
@@ -15566,7 +16116,7 @@
 			"quest_achieve_id": 3408, // 7158
 			"quest_sort_char": "S", // 7219
 			"quest_start_point": "Speak to 'No Gums' Murray in the City of Um's bandstand (or Lady Grey if he is not there yet).", // 7814
-			"quest_req_items": "An Everlight trumpet artefact (restored)", // 7815
+			"quest_req_items": "An Everlight trumpet artefact (restored).", // 7815
 			"quest_reward": "7,500 Necromancy XP lamp<br>25 vessel souls", // 7823
 			"quest_icon_small_sprite": 31525, // 7829
 			"quest_release_year": 2023, // 7834
@@ -15574,7 +16124,6 @@
 			"quest_series": 40, // 7836
 			"quest_is_subquest": 1, // 7838
 			"quest_length": 2, // 7855
-			"quest_has_th_keys_reward": 0, // 7887
 			"extra_0024B1": 58 // 9393
 		},
 		"id": 504,
@@ -15618,7 +16167,6 @@
 			"quest_series": 40, // 7836
 			"quest_is_subquest": 1, // 7838
 			"quest_length": 2, // 7855
-			"quest_has_th_keys_reward": 0, // 7887
 			"extra_0024B1": 58 // 9393
 		},
 		"id": 505,
@@ -15662,7 +16210,6 @@
 			"quest_series": 40, // 7836
 			"quest_is_subquest": 1, // 7838
 			"quest_length": 6, // 7855
-			"quest_has_th_keys_reward": 0, // 7887
 			"extra_0024B1": 58 // 9393
 		},
 		"id": 506,
@@ -15890,12 +16437,13 @@
 	},
 	{
 		"extra": {
+			"quest_req_item1": 49454, // 887
+			"quest_req_item1_qty": 20, // 949
 			"quest_create_req61_id": 351, // 1345
 			"quest_description": "Investigate the mystery of Osseous.", // 5968
 			"quest_achieve_id": 3437, // 7158
 			"quest_sort_char": "O", // 7219
 			"quest_start_point": "Talk to the 'calm' Archaeologist in Anachronia base camp.", // 7814
-			"quest_req_items": "20 orthenglass.", // 7815
 			"quest_reward": "Access to 'Rex Matriarch - Osseous' boss encounter", // 7823
 			"quest_icon_small_sprite": 31962, // 7829
 			"quest_release_year": 2024, // 7834
@@ -16138,7 +16686,7 @@
 			"quest_achieve_id": 4035, // 7158
 			"quest_sort_char": "P", // 7219
 			"quest_start_point": "Speak to Leela outside the gates of Menaphos.", // 7814
-			"quest_reward": "'The Rabble-Rouser' title<br>The following passive effects in Menaphos:<br>20% less damage from corrupted scarabs and soul obelisks.<br>5% boost to the number of runes created at the Soul Altar, plus a 5% XP boost.<br>2.5x reputation gain in Menaphos.<br>+4% chance to save a feather of Ma'at.<br>5% increase in Ushabati catch rate (regular and cursed).<br>10% increase in XP and movement ability cooldown halved in the shifting tombs.<br>Improved drop rates for objects needed for 'Jewels of the Elid' and 'Insects of the Desert'", // 7823
+			"quest_reward": "'The Rabble-Rouser' title<br>The following passive effects in Menaphos:<br>20% less damage from corrupted scarabs and soul obelisks<br>5% boost to the number of runes created at the Soul Altar, plus a 5% XP boost<br>2.5x reputation gain in Menaphos<br>+4% chance to save a feather of Ma'at<br>5% increase in Ushabati catch rate (regular and cursed)<br>10% increase in XP and movement ability cooldown halved in the shifting tombs<br>Improved drop rates for objects needed for 'Jewels of the Elid' and 'Insects of the Desert'", // 7823
 			"quest_icon_small_sprite": 34898, // 7829
 			"quest_release_year": 2025, // 7834
 			"quest_series": 25, // 7836
@@ -16176,7 +16724,7 @@
 			"quest_achieve_id": 4036, // 7158
 			"quest_sort_char": "D", // 7219
 			"quest_start_point": "Investigate a strange fishing spot on the riverbank south of Draynor Village.", // 7814
-			"quest_req_items": "Ingredients for a duckspeak potion, to be acquired during the quest.", // 7815
+			"quest_req_items": "Ingredients for a duckspeak potion (acquired during the quest).", // 7815
 			"quest_reward": "Duckling pet<br>Access to Paddlington via rubber duckie or Waddle Willow", // 7823
 			"quest_icon_small_sprite": 9122, // 7829
 			"quest_age_period": 2, // 7831
@@ -16213,7 +16761,7 @@
 			"quest_achieve_id": 4042, // 7158
 			"quest_sort_char": "E", // 7219
 			"quest_start_point": "Enter the Menaphos throne room.", // 7814
-			"quest_req_items": "A cat (or kitten).<br>A monkeyspeak amulet.<br>Food and combat equipment.<br>Ink and candles for two level 90 Necromancy rituals.", // 7815
+			"quest_req_items": "A cat (or kitten), a monkeyspeak amulet, food and combat equipment, ink and candles for two level 90 Necromancy rituals.", // 7815
 			"quest_combat_req": "Multiple combat encounters across the desert with Amascut's creations, and eventually, the goddess herself. Be prepared!", // 7816
 			"quest_reward": "Access to Amascut, the Devourer (level 9999).<br>Chosen of Tumeken title.<br>Amascut's Eye skybox.<br>Desert outfit for the Lorehound pet.<br>Improved XP from divine carpet dust.<br>Access to the 4th room in the Sunken Pyramid from any slayer master for 3000 slayer points.<br>Four demigod boons activated from the statues in Menaphos plaza:<br>- Boon of Het: Increase health by 5% base lifepoints<br>- Boon of Apmeken: Give any player a 1% XP boost for one hour via any emote<br>- Boon of Crondis: 2% chance of gathering an additional material while skilling<br>- Boon of Scabaras: Completing any clue scroll gives a 1% chance of finishing the trail", // 7823
 			"quest_icon_small_sprite": 9123, // 7829
@@ -16251,20 +16799,26 @@
 	},
 	{
 		"extra": {
+			"quest_req_item1": 564, // 887
+			"quest_req_item2": 9075, // 888
+			"quest_req_item3": 2054, // 889
+			"quest_req_item1_qty": 152, // 949
+			"quest_req_item2_qty": 52, // 950
 			"quest_create_req61_id": 360, // 1345
 			"quest_description": "Help a stranded star sprite get back to their home planet.", // 5968
 			"quest_reward_item1": 59762, // 6852
 			"quest_reward_item2": 59763, // 6853
 			"quest_reward_item3": 59764, // 6854
+			"quest_reward_item4": 13727, // 6855
 			"quest_achieve_id": 4848, // 7158
 			"quest_sort_char": "S", // 7219
 			"quest_start_point": "Investigate a mysterious crashed star in Piscatoris.", // 7814
-			"quest_req_items": "152 cosmic runes, 52 astral runes, a Wizard Blizzard.", // 7815
-			"quest_reward": "Access to Zolarea<br>5% increased XP when mining shooting stars<br>500 stardust", // 7823
+			"quest_reward": "Access to Zolarea<br>5% increased XP when mining shooting stars", // 7823
 			"quest_icon_small_sprite": 9124, // 7829
 			"quest_release_year": 2025, // 7834
 			"quest_length": 4, // 7855
 			"quest_has_misc_req": 1, // 7862
+			"quest_reward_item4_qty": 500, // 7866
 			"extra_0024B1": 41 // 9393
 		},
 		"id": 522,
@@ -16333,6 +16887,8 @@
 	},
 	{
 		"extra": {
+			"quest_req_item1": 453, // 887
+			"quest_req_item1_qty": 25, // 949
 			"quest_create_req61_id": 362, // 1345
 			"quest_description": "The Queen is snowed under. It's been years since she last presided over the great snow tournament, and after months of planning and anticipation, she can accept nothing less than perfection.", // 5968
 			"quest_reward_item1": 60082, // 6852
@@ -16341,7 +16897,6 @@
 			"extra_001BF7": 0, // 7159
 			"quest_sort_char": "C", // 7219
 			"quest_start_point": "Talk to the Queen of Snow at the Snowball Arena in the Land of Snow's Christmas Village.", // 7814
-			"quest_req_items": "25 coal.", // 7815
 			"quest_reward": "2,000 Christmas spirit<br>' the Snowman' title<br>Snowman slippers<br>Emotes from previous Christmas events (if not unlocked)<br>Access to the snowman combat activity in the Christmas Village", // 7823
 			"quest_icon_small_sprite": 19605, // 7829
 			"quest_age_period": 2, // 7831
@@ -16403,7 +16958,6 @@
 			"7": 25
 		},
 		"start_location_path": [
-			54300143,
 			54300143
 		],
 		"varbits": [
@@ -16420,14 +16974,11 @@
 			"quest_create_req61_id": 364, // 1345
 			"quest_description": "Discover the ancient and beautiful land of Havenhythe.", // 5968
 			"quest_achieve_id": 4888, // 7158
-			"extra_001BF7": 8, // 7159
 			"quest_sort_char": "V", // 7219
 			"quest_start_point": "Speak to the bartender at the Rusty Anchor Tavern in Port Sarim.", // 7814
-			"quest_req_items": "None", // 7815
 			"quest_combat_req": "You must defeat multiple level 1 juvenile boulder crabs.", // 7816
 			"quest_reward": "Access to the Wendlewick lodestone", // 7823
 			"quest_icon_small_sprite": 35671, // 7829
-			"quest_age_period": 4, // 7831
 			"quest_release_year": 2026, // 7834
 			"quest_series": 41, // 7836
 			"quest_nth_in_series": 1, // 7837
@@ -16461,14 +17012,12 @@
 			"quest_reward_item2": 60456, // 6853
 			"quest_reward_item3": 60457, // 6854
 			"quest_achieve_id": 4889, // 7158
-			"extra_001BF7": 8, // 7159
 			"quest_sort_char": "H", // 7219
 			"quest_start_point": "Speak to Adam at his house in Wendlewick.", // 7814
 			"quest_req_items": "10 copper ore, 10 tin ore, and a few coins. Melee armour is recommended.", // 7815
 			"quest_combat_req": "You will need to complete a story-based boss encounter, using tools provided during the quest.", // 7816
 			"quest_reward": "Access to Havensilver smithing<br>Ability to mix antisanguine potions (members)<br>Access to Silverquill, the Dreadhog (members)", // 7823
 			"quest_icon_small_sprite": 35672, // 7829
-			"quest_age_period": 4, // 7831
 			"quest_release_year": 2026, // 7834
 			"quest_series": 41, // 7836
 			"quest_nth_in_series": 2, // 7837
@@ -16509,7 +17058,6 @@
 			"quest_combat_req": "You will need to kill a number of low-level crabs.", // 7816
 			"quest_reward": "Snippers", // 7823
 			"quest_icon_small_sprite": 31962, // 7829
-			"quest_age_period": 4, // 7831
 			"quest_release_year": 2026, // 7834
 			"quest_length": 3, // 7855
 			"extra_0024B1": 59 // 9393
@@ -16553,7 +17101,6 @@
 			"quest_req_items": "8 air runes, 6 water runes, 4 earth runes, 2 nature runes, 4 law runes.", // 7815
 			"quest_reward": "Ability to cast Wendlewick Teleport to Marigold Farm", // 7823
 			"quest_icon_small_sprite": 31962, // 7829
-			"quest_age_period": 4, // 7831
 			"quest_release_year": 2026, // 7834
 			"quest_length": 3, // 7855
 			"extra_0024B1": 59 // 9393

@@ -10,12 +10,12 @@ function script11020(int0: number, int1: number, int2: number, int3: number, int
         script1856(int11);
         script1855(int9);
     };
-    script11021(104005656);
-    script11021(104005663);
-    script11021(104005671);
-    script11021(104005679);
-    script11021(104005687);
-    script11021(104005695);
+    script11021(104005659);
+    script11021(104005666);
+    script11021(104005674);
+    script11021(104005682);
+    script11021(104005690);
+    script11021(104005698);
     script7419(int0, int1, int2, int3, int4, int5, int7, int6);
     return;
 }

@@ -4,7 +4,7 @@ function script20120(int0: number, int1: number): number {
     if ((int2 == -1)) {
         return -1;
     };
-    var int3 = dbrow_getfield(int2, 1335472, 0);
+    var int3 = dbrow_getfield(int2, 1335504, 0);
     var int4 = 1;
     var int5 = dbrow_getfield(int3, 1372256, int4);
     var int6 = 0;

@@ -17,6 +17,12 @@ function script13099(int0: number): string {
         int4 = struct_getparam(int0, 4419);
         string0 = struct_getparam(int0, 4751);
         int1 = STRING_LENGTH(string0);
+        if (((int1 == 0) && (struct_getparam(int0, 2531) == 2))) {
+            stack(int0);
+            script21010();
+            string0 = [];
+            int1 = STRING_LENGTH(string0);
+        };
         int7 = struct_getparam(int0, 8684);
         int8 = struct_getparam(int0, 823);
         if ((script6214(int0) == 1)) {

@@ -39,11 +39,33 @@ function script19888(int0: number, int1: number): [number, number] {
         int5 = 1;
     } else if ((struct_getparam(int1, 6406) == 1)) {
         if ((MAP_MEMBERS() == 0)) {
-            int5 = 4;
+            stack(varplayer_5148);
+            script21005();
+            if (BRANCH_EQUALS(0)) {
+                int5 = 4;
+            } else if ((int3 == 0)) {
+                int5 = 2;
+            } else if ((LONG_BRANCH_LESS_THAN(varplayer_5149, long0) || LONG_BRANCH_LESS_THAN(varplayer_6437, long1))) {
+                stack(varplayer_5148);
+                script21005();
+                if (BRANCH_EQUALS(1)) {
+                    int5 = 0;
+                } else if ((struct_getparam(int1, 7140) == 1)) {
+                    int5 = 5;
+                } else if ((struct_getparam(int1, 4645) == 1)) {
+                    int5 = 7;
+                } else {
+                    int5 = 3;
+                };
+            };
         } else if ((int3 == 0)) {
             int5 = 2;
         } else if ((LONG_BRANCH_LESS_THAN(varplayer_5149, long0) || LONG_BRANCH_LESS_THAN(varplayer_6437, long1))) {
-            if ((struct_getparam(int1, 7140) == 1)) {
+            stack(varplayer_5148);
+            script21005();
+            if (BRANCH_EQUALS(1)) {
+                int5 = 0;
+            } else if ((struct_getparam(int1, 7140) == 1)) {
                 int5 = 5;
             } else if ((struct_getparam(int1, 4645) == 1)) {
                 int5 = 7;
@@ -54,7 +76,11 @@ function script19888(int0: number, int1: number): [number, number] {
     } else if ((int3 == 0)) {
         int5 = 2;
     } else if ((LONG_BRANCH_LESS_THAN(varplayer_5149, long0) || LONG_BRANCH_LESS_THAN(varplayer_6437, long1))) {
-        if ((struct_getparam(int1, 7140) == 1)) {
+        stack(varplayer_5148);
+        script21005();
+        if (BRANCH_EQUALS(1)) {
+            int5 = 0;
+        } else if ((struct_getparam(int1, 7140) == 1)) {
             int5 = 5;
         } else if ((struct_getparam(int1, 4645) == 1)) {
             int5 = 7;

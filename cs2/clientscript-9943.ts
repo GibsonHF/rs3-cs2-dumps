@@ -7,7 +7,7 @@ function script9943(): void {
     var int4 = false;
     var int5 = 0;
     var int6 = 0;
-    var int7 = script20117(-1);
+    var int7 = script20117(2);
     var int8 = 0;
     var int9 = 0;
     var int10 = 0;

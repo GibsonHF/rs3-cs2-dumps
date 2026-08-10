@@ -5,12 +5,12 @@ function script13859(int0: number, int1: number, int2: number, int3: number): nu
     };
     if ((varbitplayer_27169 == 1)) {
         if ((int1 == 1)) {
-            if ((((int0 == 32) && (script20117(-1) != -1)) && (IF_GETHIDE(struct_getparam(37398, 3503)) == false))) {
+            if ((((int0 == 32) && (script20117(2) != -1)) && (IF_GETHIDE(struct_getparam(37398, 3503)) == false))) {
                 return 4;
             };
             return 1;
         } else if ((((varbitclient_22877 - 1) != int0) && ((varbitclient_60444 - 1) != int0))) {
-            if ((((int0 == 32) && (script20117(-1) != -1)) && (IF_GETHIDE(struct_getparam(37398, 3503)) == false))) {
+            if ((((int0 == 32) && (script20117(2) != -1)) && (IF_GETHIDE(struct_getparam(37398, 3503)) == false))) {
                 return 4;
             };
             return 1;

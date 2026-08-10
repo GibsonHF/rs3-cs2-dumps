@@ -27,11 +27,9 @@ function script7004(int0: number, int1: number, int2: number, int3: number, int4
                     break;
                 }
                 case 3: {
-                    if ((varclient_6614 < CLIENTCLOCK())) {
-                        int7 = 500;
-                    } else {
-                        int7 = 150;
-                    };
+                    stack(int3);
+                    script21015();
+                    int7 = [];
                     break;
                 }
                 case 5: {
@@ -192,11 +190,9 @@ function script7004(int0: number, int1: number, int2: number, int3: number, int4
                 break;
             }
             case 3: {
-                if ((varclient_6614 < CLIENTCLOCK())) {
-                    int7 = 500;
-                } else {
-                    int7 = 150;
-                };
+                stack(int3);
+                script21015();
+                int7 = [];
                 break;
             }
             case 5: {

@@ -1,7 +1,7 @@
 //
 function script20306(int0: number, int1: number, string0: string): number {
     var int2 = varbitclient_58401;
-    if ((int0 != 96927763)) {
+    if ((int0 != 96927764)) {
         switch (varplayer_12329) {
             case 5:
             case 8: {

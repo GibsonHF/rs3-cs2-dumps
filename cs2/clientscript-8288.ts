@@ -63,7 +63,7 @@ function script8288(int0: number): void {
     var int21 = struct_getparam(int4, 6318);
     if (((varbitplayer_22875 == 2) || (varbitplayer_38842 == 1))) {
         script10396(int0, int20);
-        IF_SETSIZE(742, 404, 0, 0, int9);
+        IF_SETSIZE(742, 450, 0, 0, int9);
         IF_SETPOSITION(0, 70, 1, 0, int9);
         IF_SETPOSITION(struct_getparam(int3, 3583), 22, 0, 0, struct_getparam(int2, 3509));
         if ((IF_FIND(int7) == 1)) {

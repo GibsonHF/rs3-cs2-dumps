@@ -5,10 +5,10 @@ function script20147(): void {
         script12478(`Attempted lookup without an active league: ${inttostring(varplayer_12314, 10)}`);
         return;
     };
-    var int1 = dbrow_getfield(int0, 1335648, 0);
+    var int1 = dbrow_getfield(int0, 1335744, 0);
     var int2 = WORLDMAP_GETDISPLAYCOORD(int1);
-    script1854(dbrow_getfield(int0, 1335456, 0), int2);
-    var int3 = dbrow_getfield(int0, 1335424, 0);
+    script1854(dbrow_getfield(int0, 1335488, 0), int2);
+    var int3 = dbrow_getfield(int0, 1335440, 0);
     var int4 = -1;
     var int5 = 0;
     var int6 = DB_GETFIELDCOUNT(int3, 1339392);

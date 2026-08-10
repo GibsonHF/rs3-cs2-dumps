@@ -1,11 +1,13 @@
 //
 function script20185(): void {
+    IF_SETENABLED(true, comp(1396, 15));
+    IF_SETENABLED(true, comp(1396, 24));
     if ((((PLAYERMEMBER() == true) || (varplayer_1750 > varplayer_1752)) || (varplayer_1751 > varplayer_1752))) {
+        IF_SETHIDE(true, comp(1396, 23));
         IF_SETENABLED(false, comp(1396, 23));
-        IF_SETENABLED(true, comp(1396, 15));
     } else {
         IF_SETHIDE(false, comp(1396, 23));
-        IF_SETENABLED(false, comp(1396, 24));
+        IF_SETENABLED(true, comp(1396, 23));
     };
     if ((varbitplayer_58379 == 0)) {
         IF_SETHIDE(false, comp(1396, 11));

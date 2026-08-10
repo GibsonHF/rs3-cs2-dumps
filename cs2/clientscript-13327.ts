@@ -1,21 +1,7 @@
 //
 function script13327(int0: number): string {
     var string0 = "";
-    var int1 = -1 as quest;
-    if ((struct_getparam(int0, 1345) > 0)) {
-        int1 = struct_getparam(int0, 1403);
-        if ((int1 != -1 as quest)) {
-            if ((QUEST_GETMEMBERS(int1) == true)) {
-                if ((PLAYERMEMBER() == false)) {
-                    string0 = "Membership<br>";
-                } else if ((MAP_MEMBERS() == 0)) {
-                    string0 = "Log in to a Members' World<br>";
-                };
-            };
-            string0 = strconcat(string0, script2126(int1));
-        };
-        return string0;
-    };
+    var int1 = -1;
     if (((struct_getparam(int0, 6415) != 1) && (struct_getparam(int0, 1290) != 1))) {
         if ((PLAYERMEMBER() == false)) {
             string0 = "Membership<br>";

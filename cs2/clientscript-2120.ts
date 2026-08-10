@@ -1,5 +1,8 @@
 //
 function script2120(int0: number): number {
+    if ((script3825() == 1)) {
+        return 0;
+    };
     var int1 = ((int0 - 1) * 100);
     var int2 = MIN(((varplayer_1297 - int1) / 25), 4);
     switch (int0) {

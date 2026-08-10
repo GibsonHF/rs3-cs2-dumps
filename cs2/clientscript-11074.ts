@@ -18,7 +18,7 @@ function script11074(): void {
                 string0 = strconcat(string0, "<br><br><col=FFFFFF>This encounter has mechanics that may change based on what day it is.<br><br>");
                 string0 = strconcat(string0, `Current blocked tunnel: <col=FFFFFF>${script19824(0)}`);
                 string0 = strconcat(string0, `<br>Current enrage: <col=FFFFFF>${inttostring((varbitplayer_23045 * 20), 10)}%`);
-                if ((varplayer_12121 >= 3)) {
+                if (((varplayer_12121 >= 3) || (script1858(20) == 1))) {
                     int2 = 1;
                 };
                 break;
@@ -60,7 +60,7 @@ function script11074(): void {
                 };
                 string1 = strconcat(string1, string2);
                 string0 = strconcat(string0, string1);
-                if ((varplayer_12121 >= 3)) {
+                if (((varplayer_12121 >= 3) || (script1858(20) == 1))) {
                     int2 = 1;
                 };
                 break;
@@ -68,7 +68,7 @@ function script11074(): void {
             case 28659: {
                 string0 = strconcat(string0, "<br><br><col=FFFFFF>This boss has mechanics that may change based on what day it is.<br><br>");
                 string0 = strconcat(string0, `Current rotation: <col=FFFFFF>${script14604(0)}`);
-                if ((varplayer_12121 >= 4)) {
+                if (((varplayer_12121 >= 4) || (script1858(20) == 1))) {
                     int2 = 1;
                 };
                 break;

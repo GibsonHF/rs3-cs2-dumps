@@ -17,7 +17,7 @@ function script20260(int0: number, int1: number): [number, number] {
             };
             CC_SETSIZE(int6, 0, 0, 1);
             CC_SETPOSITION(int2, 0, 0, 0);
-            if ((CC_FINDBYCATEGORY(comp(1443, 7), int4, 0) == 1)) {
+            if ((CC_FINDBYCATEGORY(comp(1443, 7), int4, 3) == 1)) {
                 CC_SETSIZE(((int6 * int5) + (15 * (int5 - 1))), 0, 0, 1);
                 if ((int5 == 1)) {
                     CC_SETPOSITION(int2, 0, 0, 1);

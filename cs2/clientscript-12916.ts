@@ -3,6 +3,11 @@ function script12916(int0: number): number {
     if (((OC_MEMBERS(int0) == 1) && (MAP_MEMBERS() == 0))) {
         return 0;
     };
+    stack(int0);
+    script20964();
+    if (BRANCH_EQUALS(1)) {
+        return 99999999;
+    };
     var int1 = 0;
     var int2 = 0;
     switch (int0) {
@@ -122,7 +127,7 @@ function script12916(int0: number): number {
             if ((script5481() == 1)) {
                 int1 = script11882(int1, INV_TOTAL(93 as inv, 12851 as obj));
             };
-            if (((INV_GETOBJ(94 as inv, 3) == 18341 as obj) && (varclient_1234 > 0))) {
+            if (((INV_GETOBJ(94 as inv, 3) == 18341) && (varclient_1234 > 0))) {
                 int1 = (int1 + varclient_1234);
             };
             break;
@@ -145,7 +150,7 @@ function script12916(int0: number): number {
             if ((script5481() == 1)) {
                 int1 = script11882(int1, INV_TOTAL(93 as inv, 12851 as obj));
             };
-            if (((INV_GETOBJ(94 as inv, 3) == 18342 as obj) && (varclient_1235 > 0))) {
+            if (((INV_GETOBJ(94 as inv, 3) == 18342) && (varclient_1235 > 0))) {
                 int1 = (int1 + varclient_1235);
             };
             break;

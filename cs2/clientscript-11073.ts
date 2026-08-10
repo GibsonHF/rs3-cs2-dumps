@@ -22,9 +22,6 @@ function script11073(int0: number): number {
         case 12009: {
             return varclient_6675;
         }
-        case 14718: {
-            return varclient_5965;
-        }
         case 14719: {
             return varclient_3735;
         }
@@ -1144,6 +1141,9 @@ function script11073(int0: number): number {
         case 48283: {
             return varclient_7289;
         }
+        case 3636: {
+            return varclient_5965;
+        }
         case 48291: {
             return varplayer_11309;
         }
@@ -1303,15 +1303,6 @@ function script11073(int0: number): number {
         case 52080: {
             return varclient_8330;
         }
-        case 52238: {
-            return varclient_8341;
-        }
-        case 52239: {
-            return varclient_8342;
-        }
-        case 52240: {
-            return varclient_8343;
-        }
         case 52319: {
             return varclient_8344;
         }
@@ -1362,6 +1353,30 @@ function script11073(int0: number): number {
         }
         case 2907: {
             return varclient_8410;
+        }
+        case 52238: {
+            return varclient_8341;
+        }
+        case 52239: {
+            return varclient_8342;
+        }
+        case 52240: {
+            return varclient_8343;
+        }
+        case 3601: {
+            return varclient_8477;
+        }
+        case 3602: {
+            return varclient_8478;
+        }
+        case 3603: {
+            return varclient_8479;
+        }
+        case 3595: {
+            return varclient_8480;
+        }
+        case 3596: {
+            return varclient_8481;
         }
     };
     return CLIENTCLOCK();

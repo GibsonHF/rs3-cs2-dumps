@@ -1,4 +1,11 @@
 //
 function script2915(): number {
-    return script16860(MAX(((MAX(0, script5803(94)) + script16856()) + MAX(0, ((((((varbitplayer_16463 + varbitplayer_29064) + varplayer_6524) + varbitplayer_45364) + varbitplayer_46758) + script16843(0)) + varbitplayer_58266))), 1));
+    var int0 = script16856();
+    script21118();
+    var int1 = [];
+    stack((int0 + int1));
+    stack(1000);
+    script21120();
+    var int2 = SCALE();
+    return script16860(MAX(1, int2));
 }

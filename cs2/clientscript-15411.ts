@@ -4,14 +4,36 @@ function script15411(int0: number): number {
         return 0;
     };
     switch (int0) {
-        case 45048: {
-            return varbitplayer_48719;
+        case 19254:
+        case 19251: {
+            script20987();
+            if (BRANCH_EQUALS(0)) {
+                return script42(QUEST_FINISHED(361 as quest));
+            };
+            return 0;
         }
         case 46276: {
-            return varbitplayer_51566;
+            script20987();
+            if (BRANCH_EQUALS(0)) {
+                if ((varbitplayer_51566 == 1)) {
+                    return script42(QUEST_FINISHED(361 as quest));
+                };
+                return 0;
+            };
+            return 0;
         }
         case 46275: {
-            return varbitplayer_51567;
+            script20987();
+            if (BRANCH_EQUALS(0)) {
+                if ((varbitplayer_51567 == 1)) {
+                    return script42(QUEST_FINISHED(361 as quest));
+                };
+                return 0;
+            };
+            return 0;
+        }
+        case 45048: {
+            return varbitplayer_48719;
         }
         case 45046: {
             return varbitplayer_48720;
@@ -32,6 +54,13 @@ function script15411(int0: number): number {
         case 28927: {
             return varbitplayer_50371;
         }
+        case 14707: {
+            script20987();
+            if (BRANCH_EQUALS(0)) {
+                return 1;
+            };
+            return 0;
+        }
         case 46279: {
             return varbitplayer_51565;
         }
@@ -43,6 +72,15 @@ function script15411(int0: number): number {
         case 39532:
         case 39533: {
             return varbitplayer_39926;
+        }
+        case 19255: {
+            return script42(QUEST_FINISHED(361 as quest));
+        }
+        case 19252: {
+            return script42(QUEST_FINISHED(361 as quest));
+        }
+        case 19253: {
+            return script42(QUEST_FINISHED(361 as quest));
         }
         case 7120: {
             return varbitplayer_44136;
@@ -220,13 +258,6 @@ function script15411(int0: number): number {
             };
             break;
         }
-        case 19255:
-        case 19254:
-        case 19252:
-        case 19251:
-        case 19253: {
-            return script42(QUEST_FINISHED(361 as quest));
-        }
         case 4374: {
             return varbitplayer_30;
         }
@@ -376,13 +407,13 @@ function script15411(int0: number): number {
             break;
         }
         case 14867: {
-            if (((varbitplayer_16374 < 9) || (QUEST_FINISHED(314 as quest) == false))) {
+            if (((varbitplayer_16374 < 9) || (QUEST_FINISHED(314 as quest) == 0))) {
                 return 0;
             };
             break;
         }
         case 14868: {
-            if (((varbitplayer_16374 < 10) || (QUEST_FINISHED(314 as quest) == false))) {
+            if (((varbitplayer_16374 < 10) || (QUEST_FINISHED(314 as quest) == 0))) {
                 return 0;
             };
             break;
@@ -455,6 +486,13 @@ function script15411(int0: number): number {
         }
         case 33965: {
             return varbitplayer_54631;
+        }
+        case 48324: {
+            script20987();
+            if (BRANCH_EQUALS(0)) {
+                return 1;
+            };
+            return 0;
         }
         case 48326: {
             return varbitplayer_53580;

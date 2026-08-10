@@ -41,7 +41,7 @@ function script3833(int0: number, int1: number): number {
                     int13 = 0;
                     int14 = (int14 - 1);
                 };
-                if ((int15 != -1)) {
+                if (((int15 != -1) && (int4 > 0))) {
                     if ((int7 == false)) {
                         if ((((2147483647 - int15) - ((int4 * int12) - 1)) <= 0)) {
                             int8 = MIN(int8, ((int15 - int16) / ((int4 * int12) - 1)));

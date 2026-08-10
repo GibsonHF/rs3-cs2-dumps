@@ -127,6 +127,20 @@ function script8247(int0: number): number {
             }
             case 4: {
                 switch (int2) {
+                    case 26: {
+                        script20963();
+                        if (BRANCH_EQUALS(1)) {
+                            return 3593;
+                        };
+                        return 14751;
+                    }
+                    case 47: {
+                        script20963();
+                        if (BRANCH_EQUALS(1)) {
+                            return 3594;
+                        };
+                        return 14770;
+                    }
                     case 158: {
                         if ((int1 == 1)) {
                             return 37900;

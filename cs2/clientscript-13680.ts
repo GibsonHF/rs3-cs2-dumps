@@ -39,7 +39,9 @@ function script13680(int0: number): void {
     IF_SETTEXT(string0, comp(1901, 15));
     string0 = dbrow_getfield(int3, 90144, 0);
     IF_SETTEXT(string0, comp(1901, 4));
-    int9 = dbrow_getfield(int3, 90288, 0);
+    stack(int3);
+    script21030();
+    int9 = [];
     if ((int9 == -1)) {
         string0 = "Lots!";
     } else {
@@ -52,7 +54,9 @@ function script13680(int0: number): void {
     if ((varbitplayer_37615 == 1)) {
         IF_SETTEXT("N/A", comp(1901, 85));
     } else {
-        int9 = dbrow_getfield(int3, 90384, 0);
+        stack(int3);
+        script21123();
+        int9 = [];
         string0 = TOSTRING_LOCALISED(int9, 1);
         IF_SETTEXT(string0, comp(1901, 85));
     };
@@ -74,7 +78,9 @@ function script13680(int0: number): void {
         int20 = 0;
     };
     IF_SETGRAPHIC(30989 as graphic, comp(1901, 41));
-    int9 = dbrow_getfield(int3, 90160, 0);
+    stack(int3);
+    script21031();
+    int9 = [];
     string0 = TOSTRING_LOCALISED(int9, 1);
     IF_SETTEXT(string0, comp(1901, 59));
     if ((STAT(26 as stat) >= int9)) {

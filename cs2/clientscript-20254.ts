@@ -5,7 +5,9 @@ function script20254(): void {
         script20273();
         return;
     };
-    var int1 = dbrow_getfield(int0, 1335424, 0);
+    stack(int0);
+    script20938();
+    var int1 = [];
     CC_DELETEALL(comp(1443, 8));
     CC_DELETEALL(comp(1443, 7));
     IF_SETHIDE(true, comp(1443, 9));
@@ -16,7 +18,7 @@ function script20254(): void {
     var int3 = 0;
     var int4 = DB_GETFIELDCOUNT(int1, 1339392);
     var int5 = 0;
-    var int6 = -1 as dbrow;
+    var int6 = -1;
     var int7 = 0;
     var int8 = 0;
     var int9 = 0;

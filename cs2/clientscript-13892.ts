@@ -126,7 +126,7 @@ function script13892(): void {
                                 break;
                             }
                             case 1001: {
-                                CC_SETSIZE(800, 480, 0, 0);
+                                CC_SETSIZE(800, 526, 0, 0);
                                 CC_SETPOSITION(0, 0, 1, 1);
                                 break;
                             }

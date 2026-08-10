@@ -1,5 +1,9 @@
 //
 function script14971(): number {
+    script20967();
+    if (BRANCH_EQUALS(1)) {
+        return 3;
+    };
     var int0 = 0;
     if ((script2759() == 1)) {
         int0 = (int0 + (3 - varbitplayer_47447));

@@ -32,12 +32,6 @@ function script3111(int0: number, int1: number, int2: number, string0: string): 
             };
             break;
         }
-        case 14714: {
-            if ((varbitplayer_30362 > 0)) {
-                string0 = script12202(string0, 536, varbitplayer_30362);
-            };
-            break;
-        }
         case 14712: {
             if ((varbitplayer_30332 > 0)) {
                 string0 = script12202(string0, 511, -1);
@@ -597,6 +591,38 @@ function script3111(int0: number, int1: number, int2: number, string0: string): 
             string0 = script18605(int0, string0, int1);
             break;
         }
+        case 14715: {
+            stack(int0);
+            stack(string0);
+            stack(int1);
+            script21113();
+            string0 = [];
+            break;
+        }
+        case 14716: {
+            stack(int0);
+            stack(string0);
+            stack(int1);
+            script21114();
+            string0 = [];
+            break;
+        }
+        case 14714: {
+            stack(int0);
+            stack(string0);
+            stack(int1);
+            script21115();
+            string0 = [];
+            break;
+        }
+        case 14718: {
+            stack(int0);
+            stack(string0);
+            stack(int1);
+            script21116();
+            string0 = [];
+            break;
+        }
     };
     var int3 = 0;
     var int4 = 0;
@@ -681,6 +707,13 @@ function script3111(int0: number, int1: number, int2: number, string0: string): 
             }
             case 33650: {
                 string1 = `${string1}<br><col=969696>Damage dealt has diminishing returns in PvP.`;
+                break;
+            }
+            case 14718: {
+                stack(string1);
+                stack("<br><col=969696>Maximum stacks: ");
+                script21117();
+                string1 = `${inttostring(10)}.</col>`;
                 break;
             }
         };
@@ -808,7 +841,10 @@ function script3111(int0: number, int1: number, int2: number, string0: string): 
         }
         case 48330: {
             string0 = script17708(string0, 48345);
-            string0 = `${string0}<br><br><col=969696>Life points cap: ${TOSTRING_LOCALISED(30000, 1)}.</col>`;
+            script20977();
+            if (BRANCH_EQUALS(0)) {
+                string0 = `${string0}<br><br><col=969696>Life points cap: ${TOSTRING_LOCALISED(30000, 1)}.</col>`;
+            };
             break;
         }
         case 48331: {
@@ -818,6 +854,10 @@ function script3111(int0: number, int1: number, int2: number, string0: string): 
         case 49072: {
             string0 = script17708(string0, 49074);
             string0 = `${string0}<br><br><col=969696>Maximum stacks: ${TOSTRING_LOCALISED(200, 1)}.</col>`;
+            break;
+        }
+        case 14718: {
+            string0 = script17708(string0, 3636);
             break;
         }
     };
@@ -975,6 +1015,12 @@ function script3111(int0: number, int1: number, int2: number, string0: string): 
         case 19253: {
             if ((varbitplayer_30341 > 0)) {
                 string2 = `${string2}<br>${script18553(529, varbitplayer_30341)}`;
+            };
+            break;
+        }
+        case 14714: {
+            if ((varbitplayer_30362 > 0)) {
+                string2 = `${string2}<br>${script18553(536, varbitplayer_30362)}`;
             };
             break;
         }

@@ -8,7 +8,9 @@ function script13662(): void {
     stack(varbitplayer_37614);
     DB_FIND(0);
     var int0 = dbrow_findnext();
-    var int1 = dbrow_getfield(int0, 90288, 0);
+    stack(int0);
+    script21030();
+    var int1 = [];
     if ((IF_FIND(comp(1902, 37)) == 1)) {
         string0 = `Capacity: ${TOSTRING_LOCALISED(varplayer_7270, 1)}`;
         if ((int1 != -1)) {

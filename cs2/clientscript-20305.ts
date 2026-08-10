@@ -5,5 +5,5 @@ function script20305(int0: number): string {
         return "";
     };
     var int2 = dbrow_getfield(int1, 1372163, 0);
-    return inttostring(enum_getvalue(0, 0, int2, dbrow_getfield(int0, 1368160, 0)), 10);
+    return inttostring(enum_getvalue(0, 0, int2, dbrow_getfield(int0, 1368176, 0)), 10);
 }

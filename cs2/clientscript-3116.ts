@@ -21,7 +21,7 @@ function script3116(): void {
     };
     int0 = WORLDLIST_SPECIFIC_THISWORLD();
     if ((TESTBIT(int0, 24) == 1)) {
-        IF_SETGRAPHIC(35200 as graphic, comp(906, 64));
+        IF_SETGRAPHIC(script20124(), comp(906, 64));
         IF_SETCOLOUR(15777401, comp(906, 63));
     } else if ((TESTBIT(int0, 0) == 1)) {
         IF_SETGRAPHIC(23835 as graphic, comp(906, 64));

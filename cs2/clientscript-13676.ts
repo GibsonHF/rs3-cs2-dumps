@@ -7,7 +7,9 @@ function script13676(int0: number): void {
     stack(varbitplayer_37614);
     DB_FIND(0);
     var int1 = dbrow_findnext();
-    var int2 = dbrow_getfield(int1, 90384, 0);
+    stack(int1);
+    script21123();
+    var int2 = [];
     var int3 = dbrow_getfield(int1, 90272, 0);
     var string0 = `The amount of time until your machine has processed all of your items.<br>This machine processes ${TOSTRING_LOCALISED(int2, 1)} items per hour.`;
     if ((int3 == 2)) {
@@ -54,7 +56,20 @@ function script13676(int0: number): void {
         if ((int6 != -1)) {
             int13 = ((100 * varbitplayer_37617) / (int7 * varplayer_7270));
         };
-        int14 = SCALE(varbitplayer_37590, int16, 100);
+        if ((int16 == 0)) {
+            if ((varbitplayer_37590 == 0)) {
+                script20979();
+                if (BRANCH_EQUALS(0)) {
+                    int14 = 0;
+                } else {
+                    int14 = 100;
+                };
+            } else {
+                int14 = 100;
+            };
+        } else {
+            int14 = SCALE(varbitplayer_37590, int16, 100);
+        };
         if ((int12 < 100)) {
             int15 = 1;
             string0 = `${string0}<br><col=ff0000>Your machine will process more items if you add more of the following:<br></col><col=ff0000>${OC_NAME(int4)}</col>`;

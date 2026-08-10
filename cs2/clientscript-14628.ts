@@ -5,6 +5,14 @@ function script14628(int0: number): number {
     };
     var int1 = script14629(int0);
     var int2 = script14630(int0);
+    var int3 = 0;
+    script20925();
+    if (BRANCH_EQUALS(1)) {
+        int3 = dbrow_getfield(int0, 368928, 0);
+        if (((int3 != 0) && (script20136(int3) == 0))) {
+            return 0;
+        };
+    };
     switch (int0) {
         default: {
         }

@@ -1,6 +1,7 @@
 //
 function script19631(int0: number): [number, number] {
-    var int1 = 16;
+    script21108();
+    var int1 = [];
     if ((int0 == 0)) {
         return [(8 + (int1 * 32)), 40];
     };

@@ -12,6 +12,21 @@ function script13744(int0: number): void {
         int7 = 30;
     };
     while ((int2 <= int1)) {
+        int3 = 0;
+        if ((int0 == 14610 as cs2enum)) {
+            stack(int2);
+            script20935();
+            int3 = [];
+            if ((int3 == 0)) {
+                stack(int2);
+                script624();
+                if (BRANCH_EQUALS(1)) {
+                    int3 = 0;
+                } else {
+                    int3 = 1;
+                };
+            };
+        };
         string0 = enum_getvalue(0, 36, int0, int2);
         script12501(125435905, 125435904, 28556, (8 + ((int4 / 2) * MODULO((int2 - 1), 2))), int6, int5, int7, (int2 - 1), int3, string0);
         if ((MODULO(int2, 2) == 0)) {

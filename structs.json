@@ -38936,7 +38936,8 @@
 			"boost_outfit_item_5": 24977, // 3225
 			"boostOutfitAlternative_5": 25060, // 3226
 			"extra_000C9B": 24978, // 3227
-			"extra_0016BA": 5 // 5818
+			"extra_0016BA": 5, // 5818
+			"extra_002501": 1 // 9473
 		},
 		"id": 3015
 	},
@@ -38968,7 +38969,8 @@
 			"extra_000C9B": 24981, // 3227
 			"extra_000C9C": 48417, // 3228
 			"extra_000C9D": 48418, // 3229
-			"extra_0016BA": 5 // 5818
+			"extra_0016BA": 5, // 5818
+			"extra_002501": 1 // 9473
 		},
 		"id": 3016
 	},
@@ -38990,7 +38992,8 @@
 			"boost_outfit_item_5": 24974, // 3225
 			"boostOutfitAlternative_5": 25058, // 3226
 			"extra_000C9B": 24975, // 3227
-			"extra_0016BA": 5 // 5818
+			"extra_0016BA": 5, // 5818
+			"extra_002501": 1 // 9473
 		},
 		"id": 3017
 	},
@@ -40014,7 +40017,9 @@
 			"extra_0016BA": 4, // 5818
 			"extra_0019DD": 40531, // 6621
 			"extra_0019DE": 40534, // 6622
-			"extra_0019DF": 40537 // 6623
+			"extra_0019DF": 40537, // 6623
+			"extra_002501": 1, // 9473
+			"extra_002502": 4 // 9474
 		},
 		"id": 3111
 	},
@@ -45710,6 +45715,607 @@
 			"extra_0018F8": 14 // 6392
 		},
 		"id": 3592
+	},
+	{
+		"extra": {
+			"unknown_spell_nr": 26, // 2793
+			"spell_name": "Divine Convergence", // 2794
+			"spell_desc": "Downgrades up to 10 of a resource into a lower tier.", // 2795
+			"spell_prayer_ability_sprite": 14378, // 2802
+			"extra_000AF3": 109, // 2803
+			"spell_prayer_ability_req_type": 4, // 2806
+			"spell_prayer_ability_req_value": 1, // 2807
+			"extra_000AF9": 0, // 2809
+			"extra_000B37": 0, // 2871
+			"extra_000B38": 1, // 2872
+			"unk_bomb_potion_bool_1": 1, // 2875
+			"extra_000B3C": 1, // 2876
+			"extra_000B40": 2, // 2880
+			"extra_000B61": 1, // 2913
+			"attackAnimOverride": 712, // 2914
+			"spell_animation": 9625, // 2919
+			"extra_000B68": 1698, // 2920
+			"extra_000B75": 3633, // 2933
+			"extra_000B9F": 140, // 2975
+			"extra_000D42": 0, // 3394
+			"ability_tab_id": 2, // 5542
+			"extra_00197F": 1, // 6527
+			"spell_prayer_ability_mobile_sprite": 3466 // 8120
+		},
+		"id": 3593
+	},
+	{
+		"extra": {
+			"unknown_spell_nr": 47, // 2793
+			"spell_name": "Divine Divergence", // 2794
+			"spell_desc": "Upgrades up to 10 of a resource into a higher tier.", // 2795
+			"spell_prayer_ability_sprite": 14379, // 2802
+			"extra_000AF3": 110, // 2803
+			"spell_prayer_ability_req_type": 4, // 2806
+			"spell_prayer_ability_req_value": 1, // 2807
+			"extra_000AF9": 0, // 2809
+			"extra_000B37": 0, // 2871
+			"extra_000B38": 1, // 2872
+			"unk_bomb_potion_bool_1": 1, // 2875
+			"extra_000B3C": 1, // 2876
+			"extra_000B40": 2, // 2880
+			"extra_000B61": 1, // 2913
+			"attackAnimOverride": 713, // 2914
+			"spell_animation": 24891, // 2919
+			"extra_000B68": 1698, // 2920
+			"extra_000B9F": 350, // 2975
+			"extra_000D42": 0, // 3394
+			"ability_tab_id": 2, // 5542
+			"extra_00197F": 1, // 6527
+			"spell_prayer_ability_mobile_sprite": 3467 // 8120
+		},
+		"id": 3594
+	},
+	{
+		"extra": {
+			"spell_name": "Sliver of Edicts", // 2794
+			"spell_desc": "Heals 10,000 lifepoints 4 times, once per 4.2 seconds. Boosts your combat stats to 255. Revives you if you die.", // 2795
+			"buff_item_id": 63597, // 4677
+			"is_burn": 0, // 8109
+			"buff_uses_timer": 1, // 8112
+			"buff_category": 3, // 8114
+			"buff_priority": 100 // 8115
+		},
+		"id": 3595
+	},
+	{
+		"extra": {
+			"spell_name": "Sliver of Edicts - Currently on cooldown.", // 2794
+			"buff_item_id": 63597, // 4677
+			"is_burn": 1, // 8109
+			"buff_uses_timer": 1, // 8112
+			"buff_category": 3, // 8114
+			"buff_priority": 50 // 8115
+		},
+		"id": 3596
+	},
+	{
+		"extra": {
+			"spell_desc": "Increases your <col=ffffff>Critical Strike Chance</col> and <col=ffffff>base ability damage</col> by <col=0x00ffff>0.2%</col> per <col=0x00ffff>1</col> <col=ffffff>Prayer Bonus</col>." // 2795
+		},
+		"id": 3597
+	},
+	{
+		"extra": {
+			"spell_name": "Inferno of Zamorak", // 2794
+			"adrenaline_type": 6, // 2799
+			"ability_target": 1 // 8170
+		},
+		"id": 3598
+	},
+	{
+		"extra": {
+			"spell_name": "Grasp of Guthix", // 2794
+			"adrenaline_type": 6, // 2799
+			"ability_target": 4 // 8170
+		},
+		"id": 3599
+	},
+	{
+		"extra": {
+			"spell_name": "Light of Saradomin", // 2794
+			"adrenaline_type": 6, // 2799
+			"ability_target": 1 // 8170
+		},
+		"id": 3600
+	},
+	{
+		"extra": {
+			"spell_name": "Light Strike is on cooldown.", // 2794
+			"spell_prayer_ability_sprite": 36367, // 2802
+			"is_burn": 1, // 8109
+			"buff_uses_timer": 1, // 8112
+			"buff_priority": 50 // 8115
+		},
+		"id": 3601
+	},
+	{
+		"extra": {
+			"spell_name": "Lord of Light is on cooldown.", // 2794
+			"spell_prayer_ability_sprite": 36391, // 2802
+			"is_burn": 1, // 8109
+			"buff_uses_timer": 1, // 8112
+			"buff_priority": 50 // 8115
+		},
+		"id": 3602
+	},
+	{
+		"extra": {
+			"spell_name": "Avernic Rampage", // 2794
+			"adrenaline_type": 6, // 2799
+			"spell_prayer_ability_sprite": 36369, // 2802
+			"buff_uses_timer": 1, // 8112
+			"buff_priority": 50, // 8115
+			"ability_target": 3 // 8170
+		},
+		"id": 3603
+	},
+	{
+		"extra": {
+			"solomons_category": 2, // 2531
+			"SGS_sub_group": 20, // 2532
+			"SGS_name": "Equilibrium Relic Hunter (Tier 1)", // 2533
+			"extra_0009F2": 9, // 2546
+			"extra_001288": 2438, // 4744
+			"rewards_interface_item_name": "Equilibrium Relic Hunter (Tier 1)", // 4849
+			"rewards_interface_cost": 1000, // 4850
+			"rewards_interface_item": 63602, // 4851
+			"extra_0012F5": 1, // 4853
+			"extra_0012F6": 1, // 4854
+			"outfit_piece_4": 2 // 4862
+		},
+		"id": 3604
+	},
+	{
+		"extra": {
+			"solomons_category": 2, // 2531
+			"SGS_sub_group": 0, // 2532
+			"SGS_name": "Equilibrium Relic Hunter Hat (Tier 1)", // 2533
+			"extra_0009F2": 9, // 2546
+			"extra_001288": 2438 // 4744
+		},
+		"id": 3605
+	},
+	{
+		"extra": {
+			"solomons_category": 2, // 2531
+			"SGS_sub_group": 4, // 2532
+			"SGS_name": "Equilibrium Relic Hunter Top (Tier 1)", // 2533
+			"extra_0009F2": 9, // 2546
+			"extra_001288": 2438 // 4744
+		},
+		"id": 3606
+	},
+	{
+		"extra": {
+			"solomons_category": 2, // 2531
+			"SGS_sub_group": 7, // 2532
+			"SGS_name": "Equilibrium Relic Hunter Legs (Tier 1)", // 2533
+			"extra_0009F2": 9, // 2546
+			"extra_001288": 2438 // 4744
+		},
+		"id": 3607
+	},
+	{
+		"extra": {
+			"solomons_category": 2, // 2531
+			"SGS_sub_group": 9, // 2532
+			"SGS_name": "Equilibrium Relic Hunter Gloves (Tier 1)", // 2533
+			"extra_0009F2": 9, // 2546
+			"extra_001288": 2438 // 4744
+		},
+		"id": 3608
+	},
+	{
+		"extra": {
+			"solomons_category": 2, // 2531
+			"SGS_sub_group": 10, // 2532
+			"SGS_name": "Equilibrium Relic Hunter Boots (Tier 1)", // 2533
+			"extra_0009F2": 9, // 2546
+			"extra_001288": 2438 // 4744
+		},
+		"id": 3609
+	},
+	{
+		"extra": {
+			"solomons_category": 2, // 2531
+			"SGS_sub_group": 20, // 2532
+			"SGS_name": "Equilibrium Relic Hunter (Tier 2)", // 2533
+			"extra_0009F2": 9, // 2546
+			"extra_001288": 2439, // 4744
+			"rewards_interface_item_name": "Equilibrium Relic Hunter (Tier 2)", // 4849
+			"rewards_interface_cost": 1500, // 4850
+			"rewards_interface_item": 63603, // 4851
+			"extra_0012F5": 1, // 4853
+			"extra_0012F6": 1, // 4854
+			"outfit_piece_4": 2 // 4862
+		},
+		"id": 3610
+	},
+	{
+		"extra": {
+			"solomons_category": 2, // 2531
+			"SGS_sub_group": 0, // 2532
+			"SGS_name": "Equilibrium Relic Hunter Hat (Tier 2)", // 2533
+			"extra_0009F2": 9, // 2546
+			"extra_001288": 2439 // 4744
+		},
+		"id": 3611
+	},
+	{
+		"extra": {
+			"solomons_category": 2, // 2531
+			"SGS_sub_group": 4, // 2532
+			"SGS_name": "Equilibrium Relic Hunter Top (Tier 2)", // 2533
+			"extra_0009F2": 9, // 2546
+			"extra_001288": 2439 // 4744
+		},
+		"id": 3612
+	},
+	{
+		"extra": {
+			"solomons_category": 2, // 2531
+			"SGS_sub_group": 7, // 2532
+			"SGS_name": "Equilibrium Relic Hunter Legs (Tier 2)", // 2533
+			"extra_0009F2": 9, // 2546
+			"extra_001288": 2439 // 4744
+		},
+		"id": 3613
+	},
+	{
+		"extra": {
+			"solomons_category": 2, // 2531
+			"SGS_sub_group": 9, // 2532
+			"SGS_name": "Equilibrium Relic Hunter Gloves (Tier 2)", // 2533
+			"extra_0009F2": 9, // 2546
+			"extra_001288": 2439 // 4744
+		},
+		"id": 3614
+	},
+	{
+		"extra": {
+			"solomons_category": 2, // 2531
+			"SGS_sub_group": 10, // 2532
+			"SGS_name": "Equilibrium Relic Hunter Boots (Tier 2)", // 2533
+			"extra_0009F2": 9, // 2546
+			"extra_001288": 2439 // 4744
+		},
+		"id": 3615
+	},
+	{
+		"extra": {
+			"solomons_category": 2, // 2531
+			"SGS_sub_group": 20, // 2532
+			"SGS_name": "Equilibrium Relic Hunter (Tier 3)", // 2533
+			"extra_0009F2": 9, // 2546
+			"extra_001288": 2440, // 4744
+			"rewards_interface_item_name": "Equilibrium Relic Hunter (Tier 3)", // 4849
+			"rewards_interface_cost": 3500, // 4850
+			"rewards_interface_item": 63604, // 4851
+			"extra_0012F5": 1, // 4853
+			"extra_0012F6": 1, // 4854
+			"outfit_piece_4": 2, // 4862
+			"extra_001906": 1 // 6406
+		},
+		"id": 3616
+	},
+	{
+		"extra": {
+			"solomons_category": 2, // 2531
+			"SGS_sub_group": 0, // 2532
+			"SGS_name": "Equilibrium Relic Hunter Hat (Tier 3)", // 2533
+			"extra_0009F2": 9, // 2546
+			"extra_001288": 2440 // 4744
+		},
+		"id": 3617
+	},
+	{
+		"extra": {
+			"solomons_category": 2, // 2531
+			"SGS_sub_group": 4, // 2532
+			"SGS_name": "Equilibrium Relic Hunter Top (Tier 3)", // 2533
+			"extra_0009F2": 9, // 2546
+			"extra_001288": 2440 // 4744
+		},
+		"id": 3618
+	},
+	{
+		"extra": {
+			"solomons_category": 2, // 2531
+			"SGS_sub_group": 7, // 2532
+			"SGS_name": "Equilibrium Relic Hunter Legs (Tier 3)", // 2533
+			"extra_0009F2": 9, // 2546
+			"extra_001288": 2440 // 4744
+		},
+		"id": 3619
+	},
+	{
+		"extra": {
+			"solomons_category": 2, // 2531
+			"SGS_sub_group": 9, // 2532
+			"SGS_name": "Equilibrium Relic Hunter Gloves (Tier 3)", // 2533
+			"extra_0009F2": 9, // 2546
+			"extra_001288": 2440 // 4744
+		},
+		"id": 3620
+	},
+	{
+		"extra": {
+			"solomons_category": 2, // 2531
+			"SGS_sub_group": 10, // 2532
+			"SGS_name": "Equilibrium Relic Hunter Boots (Tier 3)", // 2533
+			"extra_0009F2": 9, // 2546
+			"extra_001288": 2440 // 4744
+		},
+		"id": 3621
+	},
+	{
+		"extra": {
+			"pet_category": 1, // 477
+			"solomons_category": 5, // 2531
+			"SGS_sub_group": 2, // 2532
+			"SGS_name": "Bria", // 2533
+			"extra_0009ED": 70, // 2541
+			"extra_0009F2": 9, // 2546
+			"potion_effect_unk1": 50, // 2997
+			"extra_001144": 0, // 4420
+			"th_available_date": 8972, // 4742
+			"extra_001288": 2441, // 4744
+			"cosmetic_unlock_hint": "This reward can be obtained from the Leagues reward shop.", // 4751
+			"rewards_interface_item_name": "Bria", // 4849
+			"rewards_interface_cost": 2000, // 4850
+			"rewards_interface_item": 63605, // 4851
+			"extra_0012F5": 1, // 4853
+			"extra_0012F6": 1, // 4854
+			"outfit_piece_4": 2, // 4862
+			"extra_001906": 1, // 6406
+			"extra_002022": 3623 // 8226
+		},
+		"id": 3622
+	},
+	{
+		"extra": {
+			"extra_000C50": 22923 // 3152
+		},
+		"id": 3623
+	},
+	{
+		"extra": {
+			"extra_001254": 22923, // 4692
+			"extra_001255": 121064, // 4693
+			"extra_001256": 4507, // 4694
+			"extra_001390": 121068, // 5008
+			"extra_001396": 121069, // 5014
+			"extra_001399": 121048, // 5017
+			"extra_0016B5": 121065, // 5813
+			"extra_001C49": 13232, // 7241
+			"extra_001C4A": 24742, // 7242
+			"extra_001C4B": 35776, // 7243
+			"extra_001C77": 30657, // 7287
+			"extra_001CE4": 54612, // 7396
+			"extra_001CE5": 4793, // 7397
+			"extra_001F13": 121067, // 7955
+			"extra_00205E": 13233, // 8286
+			"extra_00205F": 24744, // 8287
+			"extra_002060": 13236, // 8288
+			"extra_002061": 24746, // 8289
+			"extra_002062": 13234, // 8290
+			"extra_002063": 24747, // 8291
+			"extra_002080": 13231, // 8320
+			"extra_002081": 24743, // 8321
+			"extra_002082": 47335, // 8322
+			"extra_002083": 5714, // 8323
+			"extra_002084": 3241, // 8324
+			"extra_002085": 3743, // 8325
+			"extra_002086": 33225, // 8326
+			"extra_002087": 7092, // 8327
+			"extra_002088": 33361, // 8328
+			"extra_002089": 7092, // 8329
+			"extra_00208A": 336, // 8330
+			"extra_00208B": 335, // 8331
+			"extra_00208C": 61763, // 8332
+			"extra_00208D": 61856, // 8333
+			"extra_00208E": 32201, // 8334
+			"extra_00208F": 3742, // 8335
+			"extra_002090": 45233, // 8336
+			"extra_002091": 22039, // 8337
+			"extra_002092": 52656, // 8338
+			"extra_002093": 3743 // 8339
+		},
+		"id": 3624
+	},
+	{
+		"extra": {
+			"solomons_category": 4, // 2531
+			"SGS_sub_group": 1, // 2532
+			"SGS_name": "Equilibrium Teleport", // 2533
+			"extra_0009E7": 38061, // 2535
+			"extra_0009E8": 38083, // 2536
+			"extra_0009E9": 145589, // 2537
+			"extra_0009EC": 400, // 2540
+			"extra_0009ED": 100, // 2541
+			"extra_0009F2": 9, // 2546
+			"extra_000D23": 1, // 3363
+			"th_available_date": 8972, // 4742
+			"extra_001288": 2442, // 4744
+			"cosmetic_unlock_hint": "This reward can be obtained from the Leagues reward shop.", // 4751
+			"rewards_interface_item_name": "Equilibrium Teleport", // 4849
+			"rewards_interface_cost": 4000, // 4850
+			"rewards_interface_item": 63601, // 4851
+			"extra_0012F5": 1, // 4853
+			"extra_0012F6": 1, // 4854
+			"outfit_piece_4": 2, // 4862
+			"extra_0019E4": 8972 // 6628
+		},
+		"id": 3625
+	},
+	{
+		"extra": {
+			"th_available_date": 8972, // 4742
+			"rewards_interface_item_name": "Furniture plans: Guthixian house portal", // 4849
+			"rewards_interface_cost": 3000, // 4850
+			"rewards_interface_item": 63654, // 4851
+			"extra_0012F5": 1, // 4853
+			"extra_0012F6": 1, // 4854
+			"outfit_piece_4": 2, // 4862
+			"extra_001906": 1 // 6406
+		},
+		"id": 3626
+	},
+	{
+		"extra": {
+			"th_available_date": 8972, // 4742
+			"rewards_interface_item_name": "Furniture plans: Guthixian grandmaster portal nexus", // 4849
+			"rewards_interface_cost": 8500, // 4850
+			"rewards_interface_item": 63652, // 4851
+			"extra_0012F5": 1, // 4853
+			"extra_0012F6": 1, // 4854
+			"outfit_piece_4": 2, // 4862
+			"extra_001906": 1 // 6406
+		},
+		"id": 3627
+	},
+	{
+		"extra": {
+			"th_available_date": 8972, // 4742
+			"rewards_interface_item_name": "Furniture plans: Guthixian torch", // 4849
+			"rewards_interface_cost": 1500, // 4850
+			"rewards_interface_item": 63656, // 4851
+			"extra_0012F5": 1, // 4853
+			"extra_0012F6": 1, // 4854
+			"outfit_piece_4": 2, // 4862
+			"extra_001906": 1 // 6406
+		},
+		"id": 3628
+	},
+	{
+		"extra": {
+			"solomons_category": 2, // 2531
+			"SGS_sub_group": 14, // 2532
+			"SGS_name": "Equilibrium Aura", // 2533
+			"extra_0009F2": 9, // 2546
+			"th_available_date": 8972, // 4742
+			"extra_001288": 2443, // 4744
+			"cosmetic_unlock_hint": "This reward can be obtained from the Leagues reward shop.", // 4751
+			"rewards_interface_item_name": "Equilibrium Aura", // 4849
+			"rewards_interface_cost": 6500, // 4850
+			"rewards_interface_item": 63623, // 4851
+			"extra_0012F5": 1, // 4853
+			"extra_0012F6": 1, // 4854
+			"outfit_piece_4": 2, // 4862
+			"extra_001906": 1 // 6406
+		},
+		"id": 3629
+	},
+	{
+		"extra": {
+			"solomons_category": 3, // 2531
+			"SGS_sub_group": 3, // 2532
+			"SGS_name": "The Balanced", // 2533
+			"title_index_in_enum": 876, // 2543
+			"extra_0009F2": 9, // 2546
+			"th_available_date": 8972, // 4742
+			"cosmetic_unlock_hint": "This reward can be obtained from the Leagues reward shop.", // 4751
+			"rewards_interface_item_name": "'The Balanced' title", // 4849
+			"rewards_interface_cost": 500, // 4850
+			"rewards_interface_item": 63632, // 4851
+			"extra_0012F5": 1, // 4853
+			"extra_0012F6": 1, // 4854
+			"rewards_interface_item_desc": "Unlocks 'the Balanced' title.", // 4858
+			"outfit_piece_4": 2 // 4862
+		},
+		"id": 3630
+	},
+	{
+		"extra": {
+			"solomons_category": 2, // 2531
+			"SGS_sub_group": 3, // 2532
+			"SGS_name": "Guthix Greatsword", // 2533
+			"extra_0009F2": 9, // 2546
+			"th_available_date": 8972, // 4742
+			"extra_001288": 2444, // 4744
+			"rewards_interface_item_name": "Guthix Greatsword", // 4849
+			"rewards_interface_cost": 3000, // 4850
+			"rewards_interface_item": 63634, // 4851
+			"extra_0012F5": 1, // 4853
+			"extra_0012F6": 1, // 4854
+			"outfit_piece_4": 2 // 4862
+		},
+		"id": 3631
+	},
+	{
+		"extra": {
+			"th_available_date": 8972, // 4742
+			"rewards_interface_item_name": "Omni guard ornament kit", // 4849
+			"rewards_interface_cost": 7500, // 4850
+			"rewards_interface_item": 63636, // 4851
+			"extra_0012F5": 1, // 4853
+			"extra_0012F6": 1, // 4854
+			"outfit_piece_4": 2, // 4862
+			"extra_001906": 1 // 6406
+		},
+		"id": 3632
+	},
+	{
+		"extra": {
+			"th_available_date": 8972, // 4742
+			"rewards_interface_item_name": "Soulbound lantern ornament kit", // 4849
+			"rewards_interface_cost": 7500, // 4850
+			"rewards_interface_item": 63641, // 4851
+			"extra_0012F5": 1, // 4853
+			"extra_0012F6": 1, // 4854
+			"outfit_piece_4": 2, // 4862
+			"extra_001906": 1 // 6406
+		},
+		"id": 3633
+	},
+	{
+		"extra": {
+			"extra_000D7F": "Blessings", // 3455
+			"extra_000D80": 1443, // 3456
+			"extra_000D81": 0, // 3457
+			"extra_000D82": 0, // 3458
+			"extra_000D83": 742, // 3459
+			"extra_000D84": 450 // 3460
+		},
+		"id": 3634
+	},
+	{
+		"extra": {
+			"extra_000254": "Construction Workbench", // 596
+			"extra_000255": 4, // 597
+			"extra_001129": 13425 // 4393
+		},
+		"id": 3635
+	},
+	{
+		"extra": {
+			"spell_name": "Revenge", // 2794
+			"spell_prayer_ability_sprite": 14227, // 2802
+			"is_burn": 0, // 8109
+			"extra_001FAE": 1, // 8110
+			"buff_uses_timer": 1, // 8112
+			"buff_category": 1, // 8114
+			"buff_priority": 60, // 8115
+			"extra_001FB7": 1 // 8119
+		},
+		"id": 3636
+	},
+	{
+		"extra": {
+			"spell_name": "Scripture of Amascut", // 2794
+			"adrenaline_type": 6, // 2799
+			"extra_000B40": 5, // 2880
+			"buff_item_id": 57126, // 4677
+			"extra_0014D7": 1, // 5335
+			"extra_002175": 1 // 8565
+		},
+		"id": 3637
 	},
 	{
 		"extra": {
@@ -55931,7 +56537,8 @@
 			"extra_002023": 1566, // 8227
 			"extra_00204F": 4, // 8271
 			"extra_002050": 2, // 8272
-			"extra_00214A": 0 // 8522
+			"extra_00214A": 0, // 8522
+			"extra_0024F3": 12 // 9459
 		},
 		"id": 4555
 	},
@@ -55964,7 +56571,8 @@
 			"extra_002023": 1583, // 8227
 			"extra_00204F": 4, // 8271
 			"extra_002050": 2, // 8272
-			"extra_00214A": 0 // 8522
+			"extra_00214A": 0, // 8522
+			"extra_0024F3": 12 // 9459
 		},
 		"id": 4556
 	},
@@ -55996,7 +56604,8 @@
 			"extra_001C29": 2748, // 7209
 			"extra_002023": 1600, // 8227
 			"extra_00204F": 4, // 8271
-			"extra_002050": 2 // 8272
+			"extra_002050": 2, // 8272
+			"extra_0024F3": 12 // 9459
 		},
 		"id": 4557
 	},
@@ -95552,7 +96161,9 @@
 			"extra_0016BA": 4, // 5818
 			"extra_0019DD": 40543, // 6621
 			"extra_0019DE": 40546, // 6622
-			"extra_0019DF": 40549 // 6623
+			"extra_0019DF": 40549, // 6623
+			"extra_002501": 1, // 9473
+			"extra_002502": 4 // 9474
 		},
 		"id": 9893
 	},
@@ -95587,7 +96198,9 @@
 			"extra_0016BA": 4, // 5818
 			"extra_0019DD": 40555, // 6621
 			"extra_0019DE": 40558, // 6622
-			"extra_0019DF": 40561 // 6623
+			"extra_0019DF": 40561, // 6623
+			"extra_002501": 1, // 9473
+			"extra_002502": 4 // 9474
 		},
 		"id": 9894
 	},
@@ -95622,7 +96235,9 @@
 			"extra_0016BA": 4, // 5818
 			"extra_0019DD": 40567, // 6621
 			"extra_0019DE": 40570, // 6622
-			"extra_0019DF": 40573 // 6623
+			"extra_0019DF": 40573, // 6623
+			"extra_002501": 1, // 9473
+			"extra_002502": 4 // 9474
 		},
 		"id": 9895
 	},
@@ -124847,8 +125462,10 @@
 			"spell_prayer_ability_req_type": 1, // 2806
 			"spell_prayer_ability_req_value": 76, // 2807
 			"extra_000AF9": 1, // 2809
+			"potion_effect_unk5": 1, // 2819
 			"extra_000D42": 0, // 3394
 			"ability_active_ticks": 33, // 3740
+			"extra_000FBE": 36244, // 4030
 			"ability_tab_id": 9, // 5542
 			"is_burn": 0, // 8109
 			"buff_uses_timer": 1, // 8112
@@ -125017,7 +125634,7 @@
 		"extra": {
 			"unknown_spell_nr": 5, // 2793
 			"spell_name": "Preparation", // 2794
-			"spell_desc": "Ready yourself for the coming attacks.<br>- Remaining cooldown of <col=ffffff>Resonance</col> and <col=ffffff>Divert</col> are reduced by <col=ffffff>3s</col> for every attack received.<br>- <col=ffffff>9.6s</col> duration.", // 2795
+			"spell_desc": "Ready yourself for the coming attacks.", // 2795
 			"ability_cooldown_ticks": 34, // 2796
 			"adrenaline_type": 1, // 2799
 			"extra_000AF0": 90, // 2800
@@ -125042,7 +125659,7 @@
 		"extra": {
 			"unknown_spell_nr": 6, // 2793
 			"spell_name": "Bash", // 2794
-			"spell_desc": "Slam your shield into the target.<br>- <col=ffffff>20%-100%</col> ability damage.<br>- Deal additional damage equal to <col=ffffff>10%</col> of your shield's <col=ffffff>armour value</col> plus your <col=ffffff>defence level</col>.<br>- <col=ffffff>Offensive</col>.", // 2795
+			"spell_desc": "Slam your shield into the target.", // 2795
 			"ability_cooldown_ticks": 25, // 2796
 			"adrenaline_type": 1, // 2799
 			"extra_000AF0": 90, // 2800
@@ -125064,7 +125681,7 @@
 		"extra": {
 			"unknown_spell_nr": 7, // 2793
 			"spell_name": "Reflect", // 2794
-			"spell_desc": "Use your shield to return attacks back at the attacker.<br>- Reduce damage taken by <col=ffffff>50%</col> (<col=ffffff>25%</col> in <col=ffffff>PvP</col>).<br>- Reflect the reduced damage back at the attacker.<br>- <col=ffffff>9.6s</col> duration.", // 2795
+			"spell_desc": "Use your shield to return attacks back at the attacker.", // 2795
 			"ability_cooldown_ticks": 50, // 2796
 			"extra_000AEE": 150, // 2798
 			"adrenaline_type": 3, // 2799
@@ -125114,7 +125731,7 @@
 		"extra": {
 			"unknown_spell_nr": 9, // 2793
 			"spell_name": "Revenge", // 2794
-			"spell_desc": "The best defence is offence.<br>- Each attack dealt to you increases your damage dealt by <col=ffffff>5%</col>.<br>- Stacks up to <col=ffffff>10</col> times.<br>- 50% effective when using a defender. <br>- <col=ffffff>19.2s</col> duration.<br>- <col=ffffff>Offensive</col>.", // 2795
+			"spell_desc": "The best defence is offence.", // 2795
 			"ability_cooldown_ticks": 75, // 2796
 			"extra_000AEE": 150, // 2798
 			"adrenaline_type": 3, // 2799
@@ -125993,6 +126610,7 @@
 			"extra_000B9F": 140, // 2975
 			"extra_000D42": 0, // 3394
 			"ability_tab_id": 2, // 5542
+			"extra_00197F": 1, // 6527
 			"spell_prayer_ability_mobile_sprite": 3466 // 8120
 		},
 		"id": 14751
@@ -126507,6 +127125,7 @@
 			"extra_000B9F": 350, // 2975
 			"extra_000D42": 0, // 3394
 			"ability_tab_id": 2, // 5542
+			"extra_00197F": 1, // 6527
 			"spell_prayer_ability_mobile_sprite": 3467 // 8120
 		},
 		"id": 14770
@@ -137122,7 +137741,9 @@
 			"extra_0016BA": 4, // 5818
 			"extra_0019DD": 40579, // 6621
 			"extra_0019DE": 40582, // 6622
-			"extra_0019DF": 40585 // 6623
+			"extra_0019DF": 40585, // 6623
+			"extra_002501": 1, // 9473
+			"extra_002502": 4 // 9474
 		},
 		"id": 16530
 	},
@@ -137343,7 +137964,9 @@
 			"extra_0016BA": 4, // 5818
 			"extra_0019DD": 40591, // 6621
 			"extra_0019DE": 40594, // 6622
-			"extra_0019DF": 40597 // 6623
+			"extra_0019DF": 40597, // 6623
+			"extra_002501": 1, // 9473
+			"extra_002502": 4 // 9474
 		},
 		"id": 16547
 	},
@@ -148364,7 +148987,7 @@
 	{
 		"extra": {
 			"spell_name": "Akrisae's Doom", // 2794
-			"spell_desc": "8.3% chance (25% chance on auto-attacks) to restore prayer points equal to 5% of the damage you did.", // 2795
+			"spell_desc": "8.3% chance to restore prayer points equal to 5% of the damage you did.", // 2795
 			"boost_outfit_item_1": 21736, // 3205
 			"boostOutfitAlternative_1": 35576, // 3206
 			"extra_000C87": 35533, // 3207
@@ -148386,7 +149009,9 @@
 			"extra_000C98": 36419, // 3224
 			"extra_000EF1": 1, // 3825
 			"extra_000EF6": 1, // 3830
-			"extra_0016BA": 4 // 5818
+			"extra_0016BA": 4, // 5818
+			"extra_002501": 1, // 9473
+			"extra_002502": 4 // 9474
 		},
 		"id": 17209
 	},
@@ -155732,7 +156357,7 @@
 			"extra_000D81": 0, // 3457
 			"extra_000D82": 0, // 3458
 			"extra_000D83": 742, // 3459
-			"extra_000D84": 404 // 3460
+			"extra_000D84": 450 // 3460
 		},
 		"id": 19075
 	},
@@ -155743,7 +156368,7 @@
 			"extra_000D81": 0, // 3457
 			"extra_000D82": 0, // 3458
 			"extra_000D83": 742, // 3459
-			"extra_000D84": 404 // 3460
+			"extra_000D84": 450 // 3460
 		},
 		"id": 19076
 	},
@@ -155754,7 +156379,7 @@
 			"extra_000D81": 0, // 3457
 			"extra_000D82": 0, // 3458
 			"extra_000D83": 742, // 3459
-			"extra_000D84": 404 // 3460
+			"extra_000D84": 450 // 3460
 		},
 		"id": 19077
 	},
@@ -155765,7 +156390,7 @@
 			"extra_000D81": 0, // 3457
 			"extra_000D82": 0, // 3458
 			"extra_000D83": 742, // 3459
-			"extra_000D84": 404 // 3460
+			"extra_000D84": 450 // 3460
 		},
 		"id": 19078
 	},
@@ -155776,7 +156401,7 @@
 			"extra_000D81": 0, // 3457
 			"extra_000D82": 0, // 3458
 			"extra_000D83": 742, // 3459
-			"extra_000D84": 404 // 3460
+			"extra_000D84": 450 // 3460
 		},
 		"id": 19079
 	},
@@ -155787,7 +156412,7 @@
 			"extra_000D81": 0, // 3457
 			"extra_000D82": 0, // 3458
 			"extra_000D83": 742, // 3459
-			"extra_000D84": 404 // 3460
+			"extra_000D84": 450 // 3460
 		},
 		"id": 19080
 	},
@@ -167582,12 +168207,12 @@
 			"extra_000D81": 512, // 3457
 			"extra_000D82": 0, // 3458
 			"extra_000D83": 230, // 3459
-			"extra_000D84": 404, // 3460
+			"extra_000D84": 450, // 3460
 			"extra_000D85": 1446, // 3461
 			"extra_000D86": 0, // 3462
 			"extra_000D87": 0, // 3463
 			"extra_000D88": 512, // 3464
-			"extra_000D89": 404 // 3465
+			"extra_000D89": 450 // 3465
 		},
 		"id": 21143
 	},
@@ -167598,7 +168223,7 @@
 			"extra_000D81": 0, // 3457
 			"extra_000D82": 0, // 3458
 			"extra_000D83": 742, // 3459
-			"extra_000D84": 404 // 3460
+			"extra_000D84": 450 // 3460
 		},
 		"id": 21144
 	},
@@ -167609,7 +168234,7 @@
 			"extra_000D81": 0, // 3457
 			"extra_000D82": 0, // 3458
 			"extra_000D83": 742, // 3459
-			"extra_000D84": 404 // 3460
+			"extra_000D84": 450 // 3460
 		},
 		"id": 21145
 	},
@@ -167620,7 +168245,7 @@
 			"extra_000D81": 0, // 3457
 			"extra_000D82": 0, // 3458
 			"extra_000D83": 742, // 3459
-			"extra_000D84": 404, // 3460
+			"extra_000D84": 450, // 3460
 			"extra_000D85": 1855, // 3461
 			"extra_000D86": 401, // 3462
 			"extra_000D87": 5, // 3463
@@ -167678,7 +168303,7 @@
 			"extra_000D81": 0, // 3457
 			"extra_000D82": 0, // 3458
 			"extra_000D83": 742, // 3459
-			"extra_000D84": 404 // 3460
+			"extra_000D84": 450 // 3460
 		},
 		"id": 21150
 	},
@@ -167689,7 +168314,7 @@
 			"extra_000D81": 0, // 3457
 			"extra_000D82": 0, // 3458
 			"extra_000D83": 742, // 3459
-			"extra_000D84": 404 // 3460
+			"extra_000D84": 450 // 3460
 		},
 		"id": 21151
 	},
@@ -167700,7 +168325,7 @@
 			"extra_000D81": 0, // 3457
 			"extra_000D82": 0, // 3458
 			"extra_000D83": 742, // 3459
-			"extra_000D84": 404 // 3460
+			"extra_000D84": 450 // 3460
 		},
 		"id": 21152
 	},
@@ -167899,12 +168524,12 @@
 			"extra_000D81": 0, // 3457
 			"extra_000D82": 0, // 3458
 			"extra_000D83": 228, // 3459
-			"extra_000D84": 404, // 3460
+			"extra_000D84": 450, // 3460
 			"extra_000D85": 1500, // 3461
 			"extra_000D86": 232, // 3462
 			"extra_000D87": 0, // 3463
 			"extra_000D88": 510, // 3464
-			"extra_000D89": 404 // 3465
+			"extra_000D89": 450 // 3465
 		},
 		"id": 21161
 	},
@@ -167915,7 +168540,7 @@
 			"extra_000D81": 0, // 3457
 			"extra_000D82": 0, // 3458
 			"extra_000D83": 742, // 3459
-			"extra_000D84": 404 // 3460
+			"extra_000D84": 450 // 3460
 		},
 		"id": 21162
 	},
@@ -167926,7 +168551,7 @@
 			"extra_000D81": 0, // 3457
 			"extra_000D82": 0, // 3458
 			"extra_000D83": 742, // 3459
-			"extra_000D84": 404 // 3460
+			"extra_000D84": 450 // 3460
 		},
 		"id": 21163
 	},
@@ -167976,12 +168601,12 @@
 			"extra_000D81": 0, // 3457
 			"extra_000D82": 0, // 3458
 			"extra_000D83": 506, // 3459
-			"extra_000D84": 404, // 3460
+			"extra_000D84": 450, // 3460
 			"extra_000D85": 1441, // 3461
 			"extra_000D86": 518, // 3462
 			"extra_000D87": 0, // 3463
 			"extra_000D88": 224, // 3464
-			"extra_000D89": 404 // 3465
+			"extra_000D89": 450 // 3465
 		},
 		"id": 21167
 	},
@@ -168004,7 +168629,7 @@
 			"extra_000D81": 0, // 3457
 			"extra_000D82": 0, // 3458
 			"extra_000D83": 742, // 3459
-			"extra_000D84": 404, // 3460
+			"extra_000D84": 450, // 3460
 			"extra_0014CF": 1 // 5327
 		},
 		"id": 21170
@@ -168016,27 +168641,27 @@
 			"extra_000D81": 251, // 3457
 			"extra_000D82": 0, // 3458
 			"extra_000D83": 239, // 3459
-			"extra_000D84": 202, // 3460
+			"extra_000D84": 225, // 3460
 			"extra_000D85": 1109, // 3461
 			"extra_000D86": 0, // 3462
-			"extra_000D87": 202, // 3463
+			"extra_000D87": 225, // 3463
 			"extra_000D88": 240, // 3464
-			"extra_000D89": 202, // 3465
+			"extra_000D89": 225, // 3465
 			"extra_000D8A": 1438, // 3466
 			"extra_000D8B": 503, // 3467
 			"extra_000D8C": 0, // 3468
 			"extra_000D8D": 239, // 3469
-			"extra_000D8E": 404, // 3470
+			"extra_000D8E": 450, // 3470
 			"extra_000D8F": 1441, // 3471
 			"extra_000D90": 0, // 3472
 			"extra_000D91": 0, // 3473
 			"extra_000D92": 239, // 3474
-			"extra_000D93": 202, // 3475
+			"extra_000D93": 225, // 3475
 			"extra_000D94": 34, // 3476
 			"extra_000D95": 251, // 3477
-			"extra_000D96": 202, // 3478
+			"extra_000D96": 225, // 3478
 			"extra_000D97": 239, // 3479
-			"extra_000D98": 202, // 3480
+			"extra_000D98": 225, // 3480
 			"extra_001BDA": 36636 // 7130
 		},
 		"id": 21171
@@ -168167,7 +168792,7 @@
 			"extra_000D81": 0, // 3457
 			"extra_000D82": 0, // 3458
 			"extra_000D83": 742, // 3459
-			"extra_000D84": 404 // 3460
+			"extra_000D84": 450 // 3460
 		},
 		"id": 21179
 	},
@@ -168189,7 +168814,7 @@
 			"extra_000D81": 0, // 3457
 			"extra_000D82": 0, // 3458
 			"extra_000D83": 742, // 3459
-			"extra_000D84": 404, // 3460
+			"extra_000D84": 450, // 3460
 			"extra_002049": 1 // 8265
 		},
 		"id": 21181
@@ -168201,7 +168826,7 @@
 			"extra_000D81": 0, // 3457
 			"extra_000D82": 0, // 3458
 			"extra_000D83": 742, // 3459
-			"extra_000D84": 404, // 3460
+			"extra_000D84": 450, // 3460
 			"extra_001659": 0 // 5721
 		},
 		"id": 21182
@@ -168213,12 +168838,12 @@
 			"extra_000D81": 534, // 3457
 			"extra_000D82": 0, // 3458
 			"extra_000D83": 209, // 3459
-			"extra_000D84": 404, // 3460
+			"extra_000D84": 450, // 3460
 			"extra_000D85": 429, // 3461
 			"extra_000D86": 0, // 3462
 			"extra_000D87": 0, // 3463
 			"extra_000D88": 539, // 3464
-			"extra_000D89": 404 // 3465
+			"extra_000D89": 450 // 3465
 		},
 		"id": 21183
 	},
@@ -186659,7 +187284,7 @@
 			"extra_000D81": 0, // 3457
 			"extra_000D82": 0, // 3458
 			"extra_000D83": 742, // 3459
-			"extra_000D84": 404 // 3460
+			"extra_000D84": 450 // 3460
 		},
 		"id": 24271
 	},
@@ -187497,7 +188122,8 @@
 			"boost_outfit_item_3": 20129, // 3215
 			"boost_outfit_item_4": 20131, // 3220
 			"boost_outfit_item_5": 20133, // 3225
-			"extra_0016BA": 5 // 5818
+			"extra_0016BA": 5, // 5818
+			"extra_002501": 1 // 9473
 		},
 		"id": 24326
 	},
@@ -187537,7 +188163,9 @@
 			"extra_0020AF": "Any Void Knight top", // 8367
 			"extra_0020B0": "Any Void Knight robes", // 8368
 			"extra_0020B1": "Any Void Knight gloves", // 8369
-			"extra_0020B2": "Any Void Knight deflector" // 8370
+			"extra_0020B2": "Any Void Knight deflector", // 8370
+			"extra_002501": 1, // 9473
+			"extra_002502": 4 // 9474
 		},
 		"id": 24327
 	},
@@ -190609,7 +191237,8 @@
 			"extra_001911": 1735, // 6417
 			"extra_001C29": 2717, // 7209
 			"extra_002023": 1241, // 8227
-			"extra_00204E": 0 // 8270
+			"extra_00204E": 0, // 8270
+			"extra_0024F3": 9 // 9459
 		},
 		"id": 24975
 	},
@@ -202930,7 +203559,7 @@
 			"extra_000D81": 0, // 3457
 			"extra_000D82": 0, // 3458
 			"extra_000D83": 742, // 3459
-			"extra_000D84": 404 // 3460
+			"extra_000D84": 450 // 3460
 		},
 		"id": 26398
 	},
@@ -219391,7 +220020,8 @@
 			"extra_001911": 1735, // 6417
 			"extra_001C29": 2718, // 7209
 			"extra_002023": 1252, // 8227
-			"extra_00204E": 0 // 8270
+			"extra_00204E": 0, // 8270
+			"extra_0024F3": 9 // 9459
 		},
 		"id": 28641
 	},
@@ -219425,7 +220055,8 @@
 			"extra_001911": 1735, // 6417
 			"extra_001C29": 2719, // 7209
 			"extra_002023": 1385, // 8227
-			"extra_00204E": 0 // 8270
+			"extra_00204E": 0, // 8270
+			"extra_0024F3": 9 // 9459
 		},
 		"id": 28642
 	},
@@ -219454,7 +220085,8 @@
 			"extra_001911": 1735, // 6417
 			"extra_001C29": 2720, // 7209
 			"extra_002023": 1260, // 8227
-			"extra_00204E": 0 // 8270
+			"extra_00204E": 0, // 8270
+			"extra_0024F3": 14 // 9459
 		},
 		"id": 28643
 	},
@@ -219491,7 +220123,8 @@
 			"achieve_id": 2509, // 6413
 			"extra_001911": 1735, // 6417
 			"extra_001C29": 2721, // 7209
-			"extra_002023": 1664 // 8227
+			"extra_002023": 1664, // 8227
+			"extra_0024F3": 8 // 9459
 		},
 		"id": 28644
 	},
@@ -219522,7 +220155,8 @@
 			"extra_001911": 1735, // 6417
 			"extra_001C29": 2722, // 7209
 			"extra_002023": 1268, // 8227
-			"extra_00204E": 0 // 8270
+			"extra_00204E": 0, // 8270
+			"extra_0024F3": 14 // 9459
 		},
 		"id": 28645
 	},
@@ -219550,7 +220184,8 @@
 			"extra_001911": 1735, // 6417
 			"extra_001C29": 2723, // 7209
 			"extra_002023": 1277, // 8227
-			"extra_00204E": 0 // 8270
+			"extra_00204E": 0, // 8270
+			"extra_0024F3": 7 // 9459
 		},
 		"id": 28646
 	},
@@ -219587,7 +220222,8 @@
 			"achieve_id": 2506, // 6413
 			"extra_001911": 1735, // 6417
 			"extra_001C29": 2724, // 7209
-			"extra_002023": 1619 // 8227
+			"extra_002023": 1619, // 8227
+			"extra_0024F3": 8 // 9459
 		},
 		"id": 28647
 	},
@@ -219615,7 +220251,8 @@
 			"extra_00190F": 1, // 6415
 			"extra_001911": 1735, // 6417
 			"extra_001C29": 2725, // 7209
-			"extra_002023": 1287 // 8227
+			"extra_002023": 1287, // 8227
+			"extra_0024F3": 3 // 9459
 		},
 		"id": 28648
 	},
@@ -219645,7 +220282,8 @@
 			"extra_001911": 1735, // 6417
 			"extra_001C29": 2742, // 7209
 			"extra_002023": 1300, // 8227
-			"extra_00204E": 0 // 8270
+			"extra_00204E": 0, // 8270
+			"extra_0024F3": 6 // 9459
 		},
 		"id": 28649
 	},
@@ -219674,7 +220312,8 @@
 			"extra_001911": 1735, // 6417
 			"extra_001C29": 2728, // 7209
 			"extra_002023": 1315, // 8227
-			"extra_00204E": 0 // 8270
+			"extra_00204E": 0, // 8270
+			"extra_0024F3": 11 // 9459
 		},
 		"id": 28650
 	},
@@ -219702,7 +220341,8 @@
 			"extra_001911": 1735, // 6417
 			"extra_001C29": 2729, // 7209
 			"extra_002023": 1324, // 8227
-			"extra_00204E": 0 // 8270
+			"extra_00204E": 0, // 8270
+			"extra_0024F3": 11 // 9459
 		},
 		"id": 28651
 	},
@@ -219731,7 +220371,8 @@
 			"extra_001911": 1735, // 6417
 			"extra_001C29": 2730, // 7209
 			"extra_002023": 1332, // 8227
-			"extra_00204E": 0 // 8270
+			"extra_00204E": 0, // 8270
+			"extra_0024F3": 3 // 9459
 		},
 		"id": 28652
 	},
@@ -219768,7 +220409,8 @@
 			"achieve_id": 2508, // 6413
 			"extra_001911": 1735, // 6417
 			"extra_001C29": 2731, // 7209
-			"extra_002023": 1634 // 8227
+			"extra_002023": 1634, // 8227
+			"extra_0024F3": 8 // 9459
 		},
 		"id": 28653
 	},
@@ -219805,7 +220447,8 @@
 			"achieve_id": 2507, // 6413
 			"extra_001911": 1735, // 6417
 			"extra_001C29": 2732, // 7209
-			"extra_002023": 1649 // 8227
+			"extra_002023": 1649, // 8227
+			"extra_0024F3": 8 // 9459
 		},
 		"id": 28654
 	},
@@ -219835,7 +220478,8 @@
 			"extra_001911": 1735, // 6417
 			"extra_001C29": 2733, // 7209
 			"extra_002023": 1341, // 8227
-			"extra_00204E": 0 // 8270
+			"extra_00204E": 0, // 8270
+			"extra_0024F3": 29 // 9459
 		},
 		"id": 28655
 	},
@@ -219880,7 +220524,8 @@
 			"extra_001911": 1735, // 6417
 			"extra_001C29": 2736, // 7209
 			"extra_002023": 1357, // 8227
-			"extra_00204E": 0 // 8270
+			"extra_00204E": 0, // 8270
+			"extra_0024F3": 8 // 9459
 		},
 		"id": 28656
 	},
@@ -219911,7 +220556,8 @@
 			"extra_001911": 1735, // 6417
 			"extra_001C29": 2739, // 7209
 			"extra_002023": 1375, // 8227
-			"extra_00204E": 0 // 8270
+			"extra_00204E": 0, // 8270
+			"extra_0024F3": 22 // 9459
 		},
 		"id": 28657
 	},
@@ -219937,7 +220583,8 @@
 			"extra_001911": 1735, // 6417
 			"extra_001C29": 2742, // 7209
 			"extra_002023": 1307, // 8227
-			"extra_00204E": 0 // 8270
+			"extra_00204E": 0, // 8270
+			"extra_0024F3": 6 // 9459
 		},
 		"id": 28658
 	},
@@ -219967,7 +220614,8 @@
 			"achieve_id": 2523, // 6413
 			"extra_001911": 1735, // 6417
 			"extra_001C29": 2744, // 7209
-			"extra_002023": 1418 // 8227
+			"extra_002023": 1418, // 8227
+			"extra_0024F3": 3 // 9459
 		},
 		"id": 28659
 	},
@@ -221198,7 +221846,7 @@
 			"extra_000D81": 0, // 3457
 			"extra_000D82": 0, // 3458
 			"extra_000D83": 742, // 3459
-			"extra_000D84": 404 // 3460
+			"extra_000D84": 450 // 3460
 		},
 		"id": 28775
 	},
@@ -221208,7 +221856,7 @@
 			"extra_000D81": 0, // 3457
 			"extra_000D82": 0, // 3458
 			"extra_000D83": 742, // 3459
-			"extra_000D84": 404 // 3460
+			"extra_000D84": 450 // 3460
 		},
 		"id": 28776
 	},
@@ -221218,7 +221866,7 @@
 			"extra_000D81": 0, // 3457
 			"extra_000D82": 0, // 3458
 			"extra_000D83": 742, // 3459
-			"extra_000D84": 404 // 3460
+			"extra_000D84": 450 // 3460
 		},
 		"id": 28777
 	},
@@ -221228,7 +221876,7 @@
 			"extra_000D81": 0, // 3457
 			"extra_000D82": 0, // 3458
 			"extra_000D83": 742, // 3459
-			"extra_000D84": 404 // 3460
+			"extra_000D84": 450 // 3460
 		},
 		"id": 28778
 	},
@@ -221238,7 +221886,7 @@
 			"extra_000D81": 0, // 3457
 			"extra_000D82": 0, // 3458
 			"extra_000D83": 742, // 3459
-			"extra_000D84": 404 // 3460
+			"extra_000D84": 450 // 3460
 		},
 		"id": 28779
 	},
@@ -221248,7 +221896,7 @@
 			"extra_000D81": 0, // 3457
 			"extra_000D82": 0, // 3458
 			"extra_000D83": 742, // 3459
-			"extra_000D84": 404 // 3460
+			"extra_000D84": 450 // 3460
 		},
 		"id": 28780
 	},
@@ -221943,12 +222591,12 @@
 			"extra_000D81": 0, // 3457
 			"extra_000D82": 0, // 3458
 			"extra_000D83": 505, // 3459
-			"extra_000D84": 404, // 3460
+			"extra_000D84": 450, // 3460
 			"extra_000D85": 1528, // 3461
 			"extra_000D86": 505, // 3462
 			"extra_000D87": 0, // 3463
 			"extra_000D88": 237, // 3464
-			"extra_000D89": 404 // 3465
+			"extra_000D89": 450 // 3465
 		},
 		"id": 28840
 	},
@@ -245300,7 +245948,7 @@
 			"extra_000D81": 0, // 3457
 			"extra_000D82": 0, // 3458
 			"extra_000D83": 742, // 3459
-			"extra_000D84": 404 // 3460
+			"extra_000D84": 450 // 3460
 		},
 		"id": 30822
 	},
@@ -256075,7 +256723,8 @@
 			"extra_001C29": 2734, // 7209
 			"extra_002023": 1754, // 8227
 			"extra_00204E": 0, // 8270
-			"extra_00214A": 0 // 8522
+			"extra_00214A": 0, // 8522
+			"extra_0024F3": 40 // 9459
 		},
 		"id": 31987
 	},
@@ -256105,7 +256754,8 @@
 			"extra_001C29": 2734, // 7209
 			"extra_002023": 1766, // 8227
 			"extra_00204E": 0, // 8270
-			"extra_00214A": 0 // 8522
+			"extra_00214A": 0, // 8522
+			"extra_0024F3": 40 // 9459
 		},
 		"id": 31988
 	},
@@ -261583,7 +262233,7 @@
 			"extra_000D81": 0, // 3457
 			"extra_000D82": 0, // 3458
 			"extra_000D83": 742, // 3459
-			"extra_000D84": 404, // 3460
+			"extra_000D84": 450, // 3460
 			"extra_001659": 1 // 5721
 		},
 		"id": 32483
@@ -267498,7 +268148,9 @@
 			"extra_0016B7": "Your reset chance is increased to 8%.", // 5815
 			"extra_0016BA": 3, // 5818
 			"extra_0016BB": 4, // 5819
-			"extra_0016BC": 5 // 5820
+			"extra_0016BC": 5, // 5820
+			"extra_002501": 1, // 9473
+			"extra_002502": 5 // 9474
 		},
 		"id": 33050
 	},
@@ -267529,7 +268181,9 @@
 			"extra_0016B7": "Your reset chance is increased to 8%.", // 5815
 			"extra_0016BA": 3, // 5818
 			"extra_0016BB": 4, // 5819
-			"extra_0016BC": 5 // 5820
+			"extra_0016BC": 5, // 5820
+			"extra_002501": 1, // 9473
+			"extra_002502": 5 // 9474
 		},
 		"id": 33051
 	},
@@ -267560,7 +268214,9 @@
 			"extra_0016B7": "Your reset chance is increased to 8%.", // 5815
 			"extra_0016BA": 3, // 5818
 			"extra_0016BB": 4, // 5819
-			"extra_0016BC": 5 // 5820
+			"extra_0016BC": 5, // 5820
+			"extra_002501": 1, // 9473
+			"extra_002502": 5 // 9474
 		},
 		"id": 33052
 	},
@@ -267588,7 +268244,9 @@
 			"extra_0016BA": 1, // 5818
 			"extra_0016BB": 3, // 5819
 			"extra_0016BC": 4, // 5820
-			"extra_0016BD": 5 // 5821
+			"extra_0016BD": 5, // 5821
+			"extra_002501": 1, // 9473
+			"extra_002502": 5 // 9474
 		},
 		"id": 33053
 	},
@@ -267616,7 +268274,9 @@
 			"extra_0016BA": 1, // 5818
 			"extra_0016BB": 3, // 5819
 			"extra_0016BC": 4, // 5820
-			"extra_0016BD": 5 // 5821
+			"extra_0016BD": 5, // 5821
+			"extra_002501": 1, // 9473
+			"extra_002502": 5 // 9474
 		},
 		"id": 33054
 	},
@@ -267644,7 +268304,9 @@
 			"extra_0016BA": 1, // 5818
 			"extra_0016BB": 3, // 5819
 			"extra_0016BC": 4, // 5820
-			"extra_0016BD": 5 // 5821
+			"extra_0016BD": 5, // 5821
+			"extra_002501": 1, // 9473
+			"extra_002502": 5 // 9474
 		},
 		"id": 33055
 	},
@@ -267798,7 +268460,9 @@
 			"extra_0015B7": 34875, // 5559
 			"extra_0015B8": 34876, // 5560
 			"extra_0015B9": 34877, // 5561
-			"extra_0016BA": 3 // 5818
+			"extra_0016BA": 3, // 5818
+			"extra_002501": 1, // 9473
+			"extra_002502": 6 // 9474
 		},
 		"id": 33063
 	},
@@ -267832,7 +268496,9 @@
 			"extra_0015B8": 28789, // 5560
 			"extra_0015B9": 28790, // 5561
 			"extra_0015BA": 32033, // 5562
-			"extra_0016BA": 3 // 5818
+			"extra_0016BA": 3, // 5818
+			"extra_002501": 1, // 9473
+			"extra_002502": 6 // 9474
 		},
 		"id": 33064
 	},
@@ -267866,7 +268532,9 @@
 			"extra_0015B8": 28771, // 5560
 			"extra_0015B9": 28772, // 5561
 			"extra_0015BA": 32027, // 5562
-			"extra_0016BA": 3 // 5818
+			"extra_0016BA": 3, // 5818
+			"extra_002501": 1, // 9473
+			"extra_002502": 6 // 9474
 		},
 		"id": 33065
 	},
@@ -267902,7 +268570,9 @@
 			"extra_0016B7": "20% chance for -15% cooldown duration on abilities.", // 5815
 			"extra_0016BA": 3, // 5818
 			"extra_0016BB": 5, // 5819
-			"extra_0016BC": 6 // 5820
+			"extra_0016BC": 6, // 5820
+			"extra_002501": 1, // 9473
+			"extra_002502": 6 // 9474
 		},
 		"id": 33066
 	},
@@ -267938,7 +268608,9 @@
 			"extra_0016B7": "20% chance for -15% cooldown duration on abilities.", // 5815
 			"extra_0016BA": 3, // 5818
 			"extra_0016BB": 5, // 5819
-			"extra_0016BC": 6 // 5820
+			"extra_0016BC": 6, // 5820
+			"extra_002501": 1, // 9473
+			"extra_002502": 6 // 9474
 		},
 		"id": 33067
 	},
@@ -267953,7 +268625,9 @@
 			"boost_outfit_item_5": 27163, // 3225
 			"extra_0015B7": 27168, // 5559
 			"extra_0015BC": 27170, // 5564
-			"extra_0016BA": 1 // 5818
+			"extra_0016BA": 1, // 5818
+			"extra_002501": 1, // 9473
+			"extra_002502": 7 // 9474
 		},
 		"id": 33068
 	},
@@ -268539,7 +269213,7 @@
 			"extra_000D81": 0, // 3457
 			"extra_000D82": 0, // 3458
 			"extra_000D83": 742, // 3459
-			"extra_000D84": 404, // 3460
+			"extra_000D84": 450, // 3460
 			"extra_0014CF": 1 // 5327
 		},
 		"id": 33121
@@ -268587,7 +269261,7 @@
 			"extra_000D8B": 348, // 3467
 			"extra_000D8C": 0, // 3468
 			"extra_000D8D": 394, // 3469
-			"extra_000D8E": 404 // 3470
+			"extra_000D8E": 450 // 3470
 		},
 		"id": 33123
 	},
@@ -268608,7 +269282,7 @@
 			"extra_000D8B": 348, // 3467
 			"extra_000D8C": 0, // 3468
 			"extra_000D8D": 394, // 3469
-			"extra_000D8E": 404 // 3470
+			"extra_000D8E": 450 // 3470
 		},
 		"id": 33124
 	},
@@ -270490,7 +271164,9 @@
 			"boostOutfitAlternative_3": 37069, // 3216
 			"extra_000C91": 37160, // 3217
 			"extra_000C92": 37561, // 3218
-			"extra_0016BA": 3 // 5818
+			"extra_0016BA": 3, // 5818
+			"extra_002501": 1, // 9473
+			"extra_002502": 3 // 9474
 		},
 		"id": 33299
 	},
@@ -270641,7 +271317,8 @@
 			"achieve_id": 2517, // 6413
 			"extra_001911": 1735, // 6417
 			"extra_001C29": 2743, // 7209
-			"extra_002023": 1728 // 8227
+			"extra_002023": 1728, // 8227
+			"extra_0024F3": 11 // 9459
 		},
 		"id": 33312
 	},
@@ -270672,7 +271349,8 @@
 			"achieve_id": 2518, // 6413
 			"extra_001911": 1735, // 6417
 			"extra_001C29": 2727, // 7209
-			"extra_002023": 1698 // 8227
+			"extra_002023": 1698, // 8227
+			"extra_0024F3": 11 // 9459
 		},
 		"id": 33313
 	},
@@ -270703,7 +271381,8 @@
 			"achieve_id": 2516, // 6413
 			"extra_001911": 1735, // 6417
 			"extra_001C29": 2741, // 7209
-			"extra_002023": 1713 // 8227
+			"extra_002023": 1713, // 8227
+			"extra_0024F3": 11 // 9459
 		},
 		"id": 33314
 	},
@@ -270734,7 +271413,8 @@
 			"achieve_id": 2519, // 6413
 			"extra_001911": 1735, // 6417
 			"extra_001C29": 2726, // 7209
-			"extra_002023": 1684 // 8227
+			"extra_002023": 1684, // 8227
+			"extra_0024F3": 11 // 9459
 		},
 		"id": 33315
 	},
@@ -272675,7 +273355,9 @@
 			"extra_000C9D": 48364, // 3229
 			"extra_000EF1": 1, // 3825
 			"extra_000EF7": 1, // 3831
-			"extra_0016BA": 5 // 5818
+			"extra_0016BA": 5, // 5818
+			"extra_002501": 1, // 9473
+			"extra_002502": 5 // 9474
 		},
 		"id": 33506
 	},
@@ -274164,7 +274846,8 @@
 			"extra_001911": 1735, // 6417
 			"extra_001C29": 2740, // 7209
 			"extra_002023": 1401, // 8227
-			"extra_00204E": 0 // 8270
+			"extra_00204E": 0, // 8270
+			"extra_0024F3": 11 // 9459
 		},
 		"id": 33661
 	},
@@ -286950,7 +287633,9 @@
 			"boost_outfit_item_5": 38805, // 3225
 			"extra_000EF1": 1, // 3825
 			"extra_000EF8": 1, // 3832
-			"extra_0016BA": 4 // 5818
+			"extra_0016BA": 4, // 5818
+			"extra_002501": 1, // 9473
+			"extra_002502": 4 // 9474
 		},
 		"id": 34735
 	},
@@ -286967,7 +287652,9 @@
 			"boost_outfit_item_5": 38806, // 3225
 			"extra_000EF1": 1, // 3825
 			"extra_000EF8": 1, // 3832
-			"extra_0016BA": 4 // 5818
+			"extra_0016BA": 4, // 5818
+			"extra_002501": 1, // 9473
+			"extra_002502": 4 // 9474
 		},
 		"id": 34736
 	},
@@ -286984,7 +287671,9 @@
 			"boost_outfit_item_5": 38807, // 3225
 			"extra_000EF1": 1, // 3825
 			"extra_000EF8": 1, // 3832
-			"extra_0016BA": 4 // 5818
+			"extra_0016BA": 4, // 5818
+			"extra_002501": 1, // 9473
+			"extra_002502": 4 // 9474
 		},
 		"id": 34737
 	},
@@ -293893,7 +294582,8 @@
 			"extra_001911": 1735, // 6417
 			"extra_001C29": 2737, // 7209
 			"extra_002023": 1367, // 8227
-			"extra_00204E": 0 // 8270
+			"extra_00204E": 0, // 8270
+			"extra_0024F3": 8 // 9459
 		},
 		"id": 35367
 	},
@@ -309065,22 +309755,22 @@
 			"extra_000D81": 251, // 3457
 			"extra_000D82": 0, // 3458
 			"extra_000D83": 239, // 3459
-			"extra_000D84": 404, // 3460
+			"extra_000D84": 450, // 3460
 			"extra_000D85": 1109, // 3461
 			"extra_000D86": 503, // 3462
 			"extra_000D87": 0, // 3463
 			"extra_000D88": 240, // 3464
-			"extra_000D89": 202, // 3465
+			"extra_000D89": 225, // 3465
 			"extra_000D8F": 1441, // 3471
 			"extra_000D90": 0, // 3472
 			"extra_000D91": 0, // 3473
 			"extra_000D92": 239, // 3474
-			"extra_000D93": 404, // 3475
+			"extra_000D93": 450, // 3475
 			"extra_000D94": 34, // 3476
 			"extra_000D95": 503, // 3477
-			"extra_000D96": 202, // 3478
+			"extra_000D96": 225, // 3478
 			"extra_000D97": 239, // 3479
-			"extra_000D98": 202 // 3480
+			"extra_000D98": 225 // 3480
 		},
 		"id": 36636
 	},
@@ -310169,7 +310859,7 @@
 			"extra_000D81": 0, // 3457
 			"extra_000D82": 0, // 3458
 			"extra_000D83": 742, // 3459
-			"extra_000D84": 404 // 3460
+			"extra_000D84": 450 // 3460
 		},
 		"id": 36724
 	},
@@ -321494,7 +322184,8 @@
 			"extra_001911": 1735, // 6417
 			"extra_001C29": 2735, // 7209
 			"extra_002023": 1350, // 8227
-			"extra_00204E": 0 // 8270
+			"extra_00204E": 0, // 8270
+			"extra_0024F3": 11 // 9459
 		},
 		"id": 37612
 	},
@@ -341145,7 +341836,8 @@
 			"extra_0016B7": "Acts as the outfit for emote clues if the respective hidey-hole is filled. 1 less clue is required to earn an outfit ability charge. 1 more outfit ability charge can be stored per outfit piece.", // 5815
 			"extra_0016BA": 2, // 5818
 			"extra_0016BB": 4, // 5819
-			"extra_0016BC": 5 // 5820
+			"extra_0016BC": 5, // 5820
+			"extra_002502": 5 // 9474
 		},
 		"id": 39402
 	},
@@ -349749,7 +350441,8 @@
 			"extra_001911": 1735, // 6417
 			"extra_001C29": 2745, // 7209
 			"extra_002023": 1394, // 8227
-			"extra_00204E": 0 // 8270
+			"extra_00204E": 0, // 8270
+			"extra_0024F3": 13 // 9459
 		},
 		"id": 40150
 	},
@@ -354342,7 +355035,8 @@
 			"extra_002023": 1448, // 8227
 			"extra_00204F": 4, // 8271
 			"extra_002050": 2, // 8272
-			"extra_00214A": 0 // 8522
+			"extra_00214A": 0, // 8522
+			"extra_0024F3": 32 // 9459
 		},
 		"id": 40570
 	},
@@ -354377,7 +355071,8 @@
 			"extra_002023": 1464, // 8227
 			"extra_00204F": 4, // 8271
 			"extra_002050": 2, // 8272
-			"extra_00214A": 0 // 8522
+			"extra_00214A": 0, // 8522
+			"extra_0024F3": 32 // 9459
 		},
 		"id": 40571
 	},
@@ -354411,7 +355106,8 @@
 			"extra_001C29": 2746, // 7209
 			"extra_002023": 1481, // 8227
 			"extra_00204F": 4, // 8271
-			"extra_002050": 2 // 8272
+			"extra_002050": 2, // 8272
+			"extra_0024F3": 32 // 9459
 		},
 		"id": 40572
 	},
@@ -358391,7 +359087,8 @@
 			"extra_002023": 1507, // 8227
 			"extra_00204F": 4, // 8271
 			"extra_002050": 2, // 8272
-			"extra_00214A": 0 // 8522
+			"extra_00214A": 0, // 8522
+			"extra_0024F3": 14 // 9459
 		},
 		"id": 40945
 	},
@@ -358424,7 +359121,8 @@
 			"extra_002023": 1522, // 8227
 			"extra_00204F": 4, // 8271
 			"extra_002050": 2, // 8272
-			"extra_00214A": 0 // 8522
+			"extra_00214A": 0, // 8522
+			"extra_0024F3": 14 // 9459
 		},
 		"id": 40946
 	},
@@ -358456,7 +359154,8 @@
 			"extra_001C29": 2747, // 7209
 			"extra_002023": 1537, // 8227
 			"extra_00204F": 4, // 8271
-			"extra_002050": 2 // 8272
+			"extra_002050": 2, // 8272
+			"extra_0024F3": 14 // 9459
 		},
 		"id": 40947
 	},
@@ -363637,7 +364336,9 @@
 			"boost_outfit_item_5": 44173, // 3225
 			"boostOutfitAlternative_5": 44174, // 3226
 			"extra_000C9B": 44175, // 3227
-			"extra_0016BA": 1 // 5818
+			"extra_0016BA": 1, // 5818
+			"extra_002501": 1, // 9473
+			"extra_002502": 5 // 9474
 		},
 		"id": 41436
 	},
@@ -374992,12 +375693,14 @@
 	{
 		"extra": {
 			"shop_inventory": 9376, // 4842
-			"shop_name": "Leagues: CATALYST Reward Shop", // 4843
+			"shop_name": "Leagues Reward Shop", // 4843
 			"shop_currency": "League points", // 4844
-			"shop_tab1_name": "Rewards", // 4845
+			"shop_tab1_name": "II: Equilibrium", // 4845
+			"shop_tab2_name": "I: Catalyst", // 4846
 			"extra_001324": "League point", // 4900
 			"extra_0016EF": "league points", // 5871
-			"extra_0016F2": "league point" // 5874
+			"extra_0016F2": "league point", // 5874
+			"extra_00235B": "Preview" // 9051
 		},
 		"id": 42814
 	},
@@ -394097,22 +394800,22 @@
 			"extra_000D81": 0, // 3457
 			"extra_000D82": 0, // 3458
 			"extra_000D83": 371, // 3459
-			"extra_000D84": 404, // 3460
+			"extra_000D84": 450, // 3460
 			"extra_000D85": 263, // 3461
 			"extra_000D86": 0, // 3462
 			"extra_000D87": 0, // 3463
 			"extra_000D88": 371, // 3464
-			"extra_000D89": 404, // 3465
+			"extra_000D89": 450, // 3465
 			"extra_000D8A": 209, // 3466
 			"extra_000D8B": 371, // 3467
 			"extra_000D8C": 0, // 3468
 			"extra_000D8D": 371, // 3469
-			"extra_000D8E": 404, // 3470
+			"extra_000D8E": 450, // 3470
 			"extra_000D8F": 240, // 3471
 			"extra_000D90": 0, // 3472
 			"extra_000D91": 0, // 3473
 			"extra_000D92": 742, // 3474
-			"extra_000D93": 404 // 3475
+			"extra_000D93": 450 // 3475
 		},
 		"id": 44202
 	},
@@ -397939,7 +398642,7 @@
 			"extra_000D81": 0, // 3457
 			"extra_000D82": 0, // 3458
 			"extra_000D83": 742, // 3459
-			"extra_000D84": 404, // 3460
+			"extra_000D84": 450, // 3460
 			"extra_002049": 1, // 8265
 			"extra_00204A": 1 // 8266
 		},
@@ -404634,7 +405337,8 @@
 			"extra_001C29": 3819, // 7209
 			"extra_002023": 2944, // 8227
 			"extra_00204F": 2, // 8271
-			"extra_002050": 3 // 8272
+			"extra_002050": 3, // 8272
+			"extra_0024F3": 33 // 9459
 		},
 		"id": 45051
 	},
@@ -404778,7 +405482,8 @@
 			"extra_001911": 1735, // 6417
 			"extra_001C29": 3832, // 7209
 			"extra_002023": 2972, // 8227
-			"extra_00204E": 0 // 8270
+			"extra_00204E": 0, // 8270
+			"extra_0024F3": 33 // 9459
 		},
 		"id": 45061
 	},
@@ -409461,7 +410166,8 @@
 			"achieve_id": 2541, // 6413
 			"extra_001911": 1735, // 6417
 			"extra_001C29": 4392, // 7209
-			"extra_002023": 2985 // 8227
+			"extra_002023": 2985, // 8227
+			"extra_0024F3": 2 // 9459
 		},
 		"id": 45455
 	},
@@ -411379,7 +412085,8 @@
 			"achieve_id": 2542, // 6413
 			"extra_001911": 1735, // 6417
 			"extra_001C29": 4493, // 7209
-			"extra_002023": 3027 // 8227
+			"extra_002023": 3027, // 8227
+			"extra_0024F3": 2 // 9459
 		},
 		"id": 45611
 	},
@@ -412433,7 +413140,9 @@
 			"extra_0016BA": 2, // 5818
 			"extra_0016BB": 3, // 5819
 			"extra_0016BC": 4, // 5820
-			"extra_0016BD": 5 // 5821
+			"extra_0016BD": 5, // 5821
+			"extra_002501": 1, // 9473
+			"extra_002502": 5 // 9474
 		},
 		"id": 45694
 	},
@@ -412785,7 +413494,8 @@
 			"extra_001C29": 4580, // 7209
 			"extra_002023": 3050, // 8227
 			"extra_00204E": 0, // 8270
-			"extra_00217A": 1 // 8570
+			"extra_00217A": 1, // 8570
+			"extra_0024F3": 2 // 9459
 		},
 		"id": 45726
 	},
@@ -413758,7 +414468,8 @@
 			"achieve_id": 2544, // 6413
 			"extra_001911": 1735, // 6417
 			"extra_001C29": 4667, // 7209
-			"extra_002023": 3063 // 8227
+			"extra_002023": 3063, // 8227
+			"extra_0024F3": 2 // 9459
 		},
 		"id": 45810
 	},
@@ -419591,7 +420302,8 @@
 			"extra_001C29": 6367, // 7209
 			"extra_002023": 3128, // 8227
 			"extra_00204F": 4, // 8271
-			"extra_002050": 2 // 8272
+			"extra_002050": 2, // 8272
+			"extra_0024F3": 2 // 9459
 		},
 		"id": 46290
 	},
@@ -422717,7 +423429,9 @@
 			"extra_0016B7": "+10% damage against ghostly targets. Upon killing a target: +10% XP from ghostly targets.", // 5815
 			"extra_0016BA": 1, // 5818
 			"extra_0016BB": 2, // 5819
-			"extra_0016BC": 3 // 5820
+			"extra_0016BC": 3, // 5820
+			"extra_002501": 1, // 9473
+			"extra_002502": 4 // 9474
 		},
 		"id": 46572
 	},
@@ -442639,6 +443353,7 @@
 			"spell_prayer_ability_req_type": 29, // 2806
 			"spell_prayer_ability_req_value": 76, // 2807
 			"extra_000AF9": 1, // 2809
+			"potion_effect_unk5": 1, // 2819
 			"extra_000D42": 0, // 3394
 			"ability_active_ticks": 50, // 3740
 			"extra_000FBE": 30079, // 4030
@@ -442925,6 +443640,7 @@
 			"spell_name": "Bloated", // 2794
 			"spell_desc": "Swollen from the inside.", // 2795
 			"spell_prayer_ability_sprite": 30098, // 2802
+			"extra_0014D7": 1, // 5335
 			"is_burn": 1, // 8109
 			"extra_001FAE": 1, // 8110
 			"extra_001FB7": 1 // 8119
@@ -444478,7 +445194,8 @@
 			"achieve_id": 2546, // 6413
 			"extra_001911": 1735, // 6417
 			"extra_001C29": 7576, // 7209
-			"extra_002023": 3299 // 8227
+			"extra_002023": 3299, // 8227
+			"extra_0024F3": 35 // 9459
 		},
 		"id": 48463
 	},
@@ -444505,7 +445222,8 @@
 			"achieve_id": 2547, // 6413
 			"extra_001911": 1735, // 6417
 			"extra_001C29": 7577, // 7209
-			"extra_002023": 3306 // 8227
+			"extra_002023": 3306, // 8227
+			"extra_0024F3": 35 // 9459
 		},
 		"id": 48464
 	},
@@ -452262,7 +452980,9 @@
 			"extra_0016BD": 5, // 5821
 			"terrorbird_starting_loc": 15, // 7382
 			"extra_00232A": 16831941, // 9002
-			"extra_00232B": 16831945 // 9003
+			"extra_00232B": 16831945, // 9003
+			"extra_002501": 1, // 9473
+			"extra_002502": 5 // 9474
 		},
 		"id": 49085
 	},
@@ -452284,7 +453004,9 @@
 			"extra_0016BD": 5, // 5821
 			"terrorbird_starting_loc": 15, // 7382
 			"extra_00232A": 16831942, // 9002
-			"extra_00232B": 16831946 // 9003
+			"extra_00232B": 16831946, // 9003
+			"extra_002501": 1, // 9473
+			"extra_002502": 5 // 9474
 		},
 		"id": 49086
 	},
@@ -452300,7 +453022,9 @@
 			"extra_0016BB": 3, // 5819
 			"terrorbird_starting_loc": 15, // 7382
 			"extra_00232A": 16831939, // 9002
-			"extra_00232B": 16831943 // 9003
+			"extra_00232B": 16831943, // 9003
+			"extra_002501": 1, // 9473
+			"extra_002502": 3 // 9474
 		},
 		"id": 49087
 	},
@@ -452316,7 +453040,9 @@
 			"extra_0016BB": 3, // 5819
 			"terrorbird_starting_loc": 15, // 7382
 			"extra_00232A": 16831940, // 9002
-			"extra_00232B": 16831944 // 9003
+			"extra_00232B": 16831944, // 9003
+			"extra_002501": 1, // 9473
+			"extra_002502": 3 // 9474
 		},
 		"id": 49088
 	},
@@ -452351,7 +453077,8 @@
 			"achieve_id": 2548, // 6413
 			"extra_001911": 1735, // 6417
 			"extra_001C29": 12834, // 7209
-			"extra_002023": 3411 // 8227
+			"extra_002023": 3411, // 8227
+			"extra_0024F3": 34 // 9459
 		},
 		"id": 49090
 	},
@@ -461795,7 +462522,7 @@
 			"extra_000D81": 0, // 3457
 			"extra_000D82": 0, // 3458
 			"extra_000D83": 742, // 3459
-			"extra_000D84": 404 // 3460
+			"extra_000D84": 450 // 3460
 		},
 		"id": 49793
 	},
@@ -462945,7 +463672,8 @@
 			"extra_001911": 1735, // 6417
 			"extra_001C29": 13534, // 7209
 			"extra_002023": 2972, // 8227
-			"extra_00204E": 0 // 8270
+			"extra_00204E": 0, // 8270
+			"extra_0024F3": 33 // 9459
 		},
 		"id": 49885
 	},
@@ -465296,7 +466024,8 @@
 			"extra_001911": 1735, // 6417
 			"extra_001C29": 13651, // 7209
 			"extra_002023": 3498, // 8227
-			"extra_00214A": 0 // 8522
+			"extra_00214A": 0, // 8522
+			"extra_0024F3": 35 // 9459
 		},
 		"id": 50088
 	},
@@ -465327,7 +466056,8 @@
 			"extra_001911": 1735, // 6417
 			"extra_001C29": 13651, // 7209
 			"extra_002023": 3472, // 8227
-			"extra_00214A": 0 // 8522
+			"extra_00214A": 0, // 8522
+			"extra_0024F3": 35 // 9459
 		},
 		"id": 50089
 	},
@@ -465357,7 +466087,8 @@
 			"achieve_id": 2551, // 6413
 			"extra_001911": 1735, // 6417
 			"extra_001C29": 13651, // 7209
-			"extra_002023": 3485 // 8227
+			"extra_002023": 3485, // 8227
+			"extra_0024F3": 35 // 9459
 		},
 		"id": 50090
 	},
@@ -467086,7 +467817,8 @@
 			"extra_001C29": 13996, // 7209
 			"extra_002023": 3520, // 8227
 			"extra_00204E": 0, // 8270
-			"extra_00217A": 1 // 8570
+			"extra_00217A": 1, // 8570
+			"extra_0024F3": 35 // 9459
 		},
 		"id": 50235
 	},
@@ -472557,7 +473289,7 @@
 			"extra_000D81": 0, // 3457
 			"extra_000D82": 0, // 3458
 			"extra_000D83": 742, // 3459
-			"extra_000D84": 404, // 3460
+			"extra_000D84": 450, // 3460
 			"extra_0014CF": 1 // 5327
 		},
 		"id": 50663
@@ -484319,7 +485051,8 @@
 			"boost_outfit_item_1": 28608, // 3205
 			"boost_outfit_item_2": 28611, // 3210
 			"boost_outfit_item_3": 28614, // 3215
-			"extra_0016BA": 1 // 5818
+			"extra_0016BA": 1, // 5818
+			"extra_002501": 1 // 9473
 		},
 		"id": 51673
 	},
@@ -484330,7 +485063,8 @@
 			"boost_outfit_item_1": 43166, // 3205
 			"boost_outfit_item_2": 43169, // 3210
 			"boost_outfit_item_3": 43172, // 3215
-			"extra_0016BA": 1 // 5818
+			"extra_0016BA": 1, // 5818
+			"extra_002501": 1 // 9473
 		},
 		"id": 51674
 	},
@@ -487504,7 +488238,9 @@
 			"extra_0016BC": 5, // 5820
 			"terrorbird_starting_loc": 9, // 7382
 			"extra_00232A": 16835502, // 9002
-			"extra_00232B": 16835503 // 9003
+			"extra_00232B": 16835503, // 9003
+			"extra_002501": 1, // 9473
+			"extra_002502": 5 // 9474
 		},
 		"id": 52071
 	},
@@ -487607,7 +488343,8 @@
 			"extra_001C29": 14225, // 7209
 			"extra_002023": 4044, // 8227
 			"extra_00204E": 1, // 8270
-			"extra_002050": 5 // 8272
+			"extra_002050": 5, // 8272
+			"extra_0024F3": 25 // 9459
 		},
 		"id": 52079
 	},
@@ -489820,10 +490557,11 @@
 			"extra_000D79": 52249, // 3449
 			"extra_000D7A": 52250, // 3450
 			"extra_000D7B": 52251, // 3451
-			"extra_000D7C": 52252, // 3452
+			"extra_000D7C": 3634, // 3452
+			"extra_000D7D": 52252, // 3453
 			"extra_000D7E": 52249, // 3454
 			"extra_000D99": -1, // 3481
-			"interface_name": "Leagues", // 3493
+			"interface_name": "Leagues II: Equilibrium", // 3493
 			"extra_000DA7": 35202, // 3495
 			"extra_00141A": 31715, // 5146
 			"extra_001658": 1, // 5720
@@ -489838,7 +490576,7 @@
 			"extra_000D81": 0, // 3457
 			"extra_000D82": 0, // 3458
 			"extra_000D83": 742, // 3459
-			"extra_000D84": 404, // 3460
+			"extra_000D84": 450, // 3460
 			"extra_0014CF": 1 // 5327
 		},
 		"id": 52248
@@ -489850,18 +490588,18 @@
 			"extra_000D81": 0, // 3457
 			"extra_000D82": 0, // 3458
 			"extra_000D83": 742, // 3459
-			"extra_000D84": 404 // 3460
+			"extra_000D84": 450 // 3460
 		},
 		"id": 52249
 	},
 	{
 		"extra": {
-			"extra_000D7F": "Areas", // 3455
+			"extra_000D7F": "Regions", // 3455
 			"extra_000D80": 1409, // 3456
 			"extra_000D81": 0, // 3457
 			"extra_000D82": 0, // 3458
 			"extra_000D83": 742, // 3459
-			"extra_000D84": 404, // 3460
+			"extra_000D84": 450, // 3460
 			"extra_0014CF": 1 // 5327
 		},
 		"id": 52250
@@ -489873,18 +490611,18 @@
 			"extra_000D81": 0, // 3457
 			"extra_000D82": 0, // 3458
 			"extra_000D83": 742, // 3459
-			"extra_000D84": 404 // 3460
+			"extra_000D84": 450 // 3460
 		},
 		"id": 52251
 	},
 	{
 		"extra": {
-			"extra_000D7F": "Ranks", // 3455
+			"extra_000D7F": "Rewards", // 3455
 			"extra_000D80": 1442, // 3456
 			"extra_000D81": 0, // 3457
 			"extra_000D82": 0, // 3458
 			"extra_000D83": 742, // 3459
-			"extra_000D84": 404, // 3460
+			"extra_000D84": 450, // 3460
 			"extra_0014CF": 1 // 5327
 		},
 		"id": 52252
@@ -492083,7 +492821,7 @@
 			"extra_000D81": 0, // 3457
 			"extra_000D82": 0, // 3458
 			"extra_000D83": 742, // 3459
-			"extra_000D84": 404 // 3460
+			"extra_000D84": 450 // 3460
 		},
 		"id": 52418
 	},
@@ -495144,7 +495882,8 @@
 			"extra_001911": 1735, // 6417
 			"extra_001C29": 17384, // 7209
 			"extra_002023": 4870, // 8227
-			"extra_00204E": 0 // 8270
+			"extra_00204E": 0, // 8270
+			"extra_0024F3": 14 // 9459
 		},
 		"id": 52661
 	},
@@ -495598,7 +496337,7 @@
 			"extra_000D81": 0, // 3457
 			"extra_000D82": 0, // 3458
 			"extra_000D83": 742, // 3459
-			"extra_000D84": 404 // 3460
+			"extra_000D84": 450 // 3460
 		},
 		"id": 52710
 	},
@@ -495609,7 +496348,7 @@
 			"extra_000D81": 0, // 3457
 			"extra_000D82": 0, // 3458
 			"extra_000D83": 742, // 3459
-			"extra_000D84": 404 // 3460
+			"extra_000D84": 450 // 3460
 		},
 		"id": 52711
 	},
@@ -495620,7 +496359,7 @@
 			"extra_000D81": 0, // 3457
 			"extra_000D82": 0, // 3458
 			"extra_000D83": 742, // 3459
-			"extra_000D84": 404 // 3460
+			"extra_000D84": 450 // 3460
 		},
 		"id": 52712
 	},
@@ -495631,7 +496370,7 @@
 			"extra_000D81": 0, // 3457
 			"extra_000D82": 0, // 3458
 			"extra_000D83": 742, // 3459
-			"extra_000D84": 404, // 3460
+			"extra_000D84": 450, // 3460
 			"extra_0014CF": 1 // 5327
 		},
 		"id": 52713
@@ -499429,7 +500168,8 @@
 			"extra_00190F": 1, // 6415
 			"extra_001911": 1735, // 6417
 			"extra_001C29": 6887, // 7209
-			"extra_002023": 4894 // 8227
+			"extra_002023": 4894, // 8227
+			"extra_0024F3": 36 // 9459
 		},
 		"id": 53047
 	},
@@ -499456,7 +500196,8 @@
 			"achieve_id": 2556, // 6413
 			"extra_001911": 1735, // 6417
 			"extra_001C29": 6888, // 7209
-			"extra_002023": 4904 // 8227
+			"extra_002023": 4904, // 8227
+			"extra_0024F3": 36 // 9459
 		},
 		"id": 53048
 	},

@@ -65,7 +65,11 @@ function script18869(int0: number, int1: number): void {
         int12 = 0;
         int14 = (int14 + 1);
     };
-    int13 = MIN(8, int13);
+    if ((int0 == 4)) {
+        int13 = MIN(12, int13);
+    } else {
+        int13 = MIN(8, int13);
+    };
     int13 = MAX(0, (int13 - 1));
     script18870(int0, int13);
     return;

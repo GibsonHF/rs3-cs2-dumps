@@ -8,21 +8,27 @@ function script20296(int0: number, int1: number, int2: number, int3: number): vo
     var int7 = -1 as achievement;
     var int8 = 0;
     var int9 = -1;
-    var int10 = 0;
+    var int10 = 38;
     var int11 = -1;
+    var int12 = 0;
+    var int13 = 2;
+    var int14 = dbrow_getfield(int1, 1368144, 0);
     if (((CC_FINDBYCATEGORY[1](int0, int2, 0) == 1) && (CC_FIND(int0, int4) == 1))) {
-        int7 = dbrow_getfield(int1, 1368096, 0);
+        int7 = dbrow_getfield(int1, 1368112, 0);
         string0 = script20131(int1, int7);
         if ((script20306(int0, int7, string0) == 0)) {
             CC_DELETE();
         } else {
             int6 = script20307(int1, int3);
             int9 = ACHIEVEMENT_REQSTATE(int7);
+            if ((MAP_MEMBERS() == 0)) {
+                if (((ACHIEVEMENT_GETMEMBERS(int7) == true) || (dbrow_getfield(int1, 1368192, 0) == 0))) {
+                    int12 = 1;
+                };
+            };
             int11 = script20297(int7);
-            if ((int11 != -1)) {
-                int10 = (38 + 32);
-            } else {
-                int10 = 38;
+            if (((int11 != -1) || (int12 == 1))) {
+                int10 = (int10 + 32);
             };
             int8 = MAX(40, (script20478(string0, (CC_GETWIDTH() - int10), 2100, 0) + 4));
             CC_SETSIZE(6, int8, 1, 0);
@@ -32,7 +38,7 @@ function script20296(int0: number, int1: number, int2: number, int3: number): vo
             };
             cc_setparam[1](9334, int8);
             cc_setparam[1](9336, (cc_getparam[1](9336) + 1));
-            if ((dbrow_getfield(int1, 1368144, 0) == 0)) {
+            if ((dbrow_getfield(int1, 1368160, 0) == 0)) {
                 cc_setparam[1](9337, (cc_getparam[1](9337) + 1));
             };
             stack(-1);
@@ -46,14 +52,21 @@ function script20296(int0: number, int1: number, int2: number, int3: number): vo
                 script7918(script20173(((int5 * 2) + int4)), 2, 0, 0, 0, 30, 30, 0, 0, int6);
                 script10485(script20173(((int5 * 3) + int4)), 2, 0, 0, 2, 30, 30, 0, 0, 2141, script20305(int1));
                 CC_SETTEXTALIGN(1, 2, 0);
-                CC_SETTEXTFONT(83 as fontmetrics);
+                CC_SETTEXTFONT(207 as fontmetrics);
             } else {
                 script7918(script20173(((int5 * 2) + int4)), 2, 0, 0, 1, 30, 30, 0, 0, int6);
             };
-            if ((int11 != -1)) {
-                script7918(script20173(((int5 * 5) + int4)), 2, 0, 2, 1, 32, 32, 0, 0, 25125);
+            if ((int12 == 1)) {
+                script7918(script20173(((int5 * 5) + int4)), int13, 0, 2, 1, 30, 30, 0, 0, 23835);
+                CC_SETONMOUSEOVER(callback(script688, -2147483645, -2147483643, 23836));
+                CC_SETONMOUSELEAVE(callback(script688, -2147483645, -2147483643, 23835));
+                CC_SETONMOUSEREPEAT(callback(script8799, "Membership Required", -2147483645, -2147483643));
+                int13 = (int13 + (30 + 4));
+            } else if ((int11 != -1)) {
+                script7918(script20173(((int5 * 5) + int4)), int13, 0, 2, 1, 32, 32, 0, 0, 25125);
                 CC_SETONMOUSEOVER(callback(script688, -2147483645, -2147483643, 25126));
                 CC_SETONMOUSELEAVE(callback(script688, -2147483645, -2147483643, 25125));
+                int13 = (int13 + (32 + 4));
                 if ((int11 > 0)) {
                     CC_SETOP(2, "More Details");
                     CC_SETONOP(callback(script20303, -2147483645, int7, int11));
@@ -66,14 +79,19 @@ function script20296(int0: number, int1: number, int2: number, int3: number): vo
                     CC_SETONMOUSEREPEAT(callback(script20299, -2147483645, -2147483643, int7));
                 };
             };
+            if ((int14 == 1)) {
+                int10 = (((38 + 32) + 30) + (2 * 4));
+                script7918(script20173(((int5 * 6) + int4)), 36, 0, 2, 1, 32, 32, 0, 0, 36309);
+                script3537("Combat Blessing task");
+            };
             script10485(script20173(((int5 * 4) + int4)), 36, 0, 0, 1, int10, 4, 1, 1, 2100, string0);
             if ((int9 == -2)) {
                 CC_SETCOLOUR(8448308);
             };
         };
     };
-    if ((int0 == comp(1479, 19))) {
-        IF_SETONTIMER(callback(script20308, int0, 96927762, 96927764, -2147483645), comp(1479, 6));
+    if ((int0 == comp(1479, 20))) {
+        IF_SETONTIMER(callback(script20308, int0, 96927763, 96927765, -2147483645), comp(1479, 6));
     } else {
         IF_SETONTIMER(callback(script20308, int0, 89194516, 89194518, -2147483645), comp(1361, 6));
     };

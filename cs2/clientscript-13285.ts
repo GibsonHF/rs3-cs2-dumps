@@ -42,18 +42,6 @@ function script13285(int0: number, int1: number): string {
     };
     var string1 = "";
     var int2 = 0;
-    var int3 = -1;
-    if ((struct_getparam(int0, 1345) > 0)) {
-        if ((STRING_LENGTH(string0) > 0)) {
-            return string0;
-        };
-        int3 = struct_getparam(int0, 1403);
-        if ((int3 == -1)) {
-            script12478(`quest_struct_quest param not specified on quest #${inttostring(struct_getparam(int0, 1345), 10)}.`);
-            return string0;
-        };
-        return script8220(int3);
-    };
     if ((struct_getparam(int0, 1346) > 0)) {
         return "Defeat this boss at least once.";
     };

@@ -1,8 +1,9 @@
 //
 function script20124(): number {
-    var int0 = script20117(varplayer_12314);
+    script20924();
+    var int0 = [];
     if ((int0 != -1)) {
-        return dbrow_getfield(int0, 1335664, 0);
+        return dbrow_getfield(int0, 1335808, 0);
     };
-    return 35200;
+    return 36301;
 }

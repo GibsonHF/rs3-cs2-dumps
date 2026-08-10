@@ -2,6 +2,15 @@
 function script10227(int0: number, int1: number): [number, string] {
     var string0 = "";
     var int2 = 1;
+    var int3 = 0;
+    var string1 = "";
+    stack(int0);
+    stack(int1);
+    script20936();
+    [int3, string1] = [];
+    if ((int3 == 0)) {
+        return [0, string1];
+    };
     if (((MAP_MEMBERS() == 0) && (script10755(int0) == 0))) {
         return [0, "You need to be a member to teleport here."];
     };

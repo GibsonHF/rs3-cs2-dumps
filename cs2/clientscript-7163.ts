@@ -1059,6 +1059,9 @@ function script7163(int0: number): number {
             break;
         }
         case 193: {
+            if ((script1858(0) == 1)) {
+                return 1;
+            };
             if ((varplayer_8334 == -1 as loc)) {
                 return 0;
             };
@@ -1114,19 +1117,25 @@ function script7163(int0: number): number {
         }
         case 189: {
             switch (varplayer_8334) {
+                case 117262:
                 case 49036:
                 case 22725:
                 case 92717:
+                case 40200:
+                case 127313:
                 case 78041:
                 case 78040:
                 case 113269:
                 case 113268:
                 case 113262:
                 case 113258:
-                case 113271:
-                case 117262:
                 case 125135:
-                case 127313: {
+                case 112739:
+                case 113271:
+                case 88490:
+                case 88491:
+                case 88260:
+                case 130735: {
                     return 1;
                 }
                 case 125049: {

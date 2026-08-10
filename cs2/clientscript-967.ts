@@ -17,7 +17,9 @@ function script967(int0: number, int1: number, int2: number, int3: number): [num
         }
         case 3: {
             string2 = "Threshold Ability<br>";
-            int5 = 500;
+            stack(int0);
+            script21015();
+            int5 = [];
             break;
         }
         case 4: {

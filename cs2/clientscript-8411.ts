@@ -409,7 +409,9 @@ function script8411(int0: number, int1: number): void {
                     if ((struct_getparam(int2, 8097) != -1)) {
                         CC_SETGRAPHIC(struct_getparam(int2, 8097));
                     } else {
-                        CC_SETGRAPHIC(struct_getparam(int2, 3495));
+                        stack(int2);
+                        script21109();
+                        CC_SETGRAPHIC();
                     };
                 };
             };
@@ -681,7 +683,9 @@ function script8411(int0: number, int1: number): void {
             };
             CC_SETPOSITION(struct_getparam(int3, 3571), struct_getparam(int3, 3572), 0, 0);
             CC_SETSIZE(struct_getparam(int3, 3567), struct_getparam(int3, 3568), 0, 0);
-            CC_SETGRAPHIC(struct_getparam(int2, 3495));
+            stack(int2);
+            script21109();
+            CC_SETGRAPHIC();
             if ((int8 != -1)) {
                 CC_CREATE(int8, 5, 0);
                 CC_SETPOSITION(0, 0, 0, 0);

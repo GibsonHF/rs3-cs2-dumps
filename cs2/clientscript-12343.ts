@@ -50,17 +50,8 @@ function script12343(int0: number, int1: number): [number, number, number, numbe
             break;
         }
     };
-    if ((varbitplayer_38842 == 0)) {
-        if ((int5 == 404)) {
-            int5 = 450;
-        } else if ((int5 == 202)) {
-            int5 = 225;
-        } else if ((int5 == 394)) {
-            int5 = 440;
-        };
-        if ((int3 == 202)) {
-            int3 = 225;
-        };
+    if (((varbitplayer_38842 == 0) && (int5 == 394))) {
+        int5 = 440;
     };
     return [int6, int2, int3, int4, int5];
 }

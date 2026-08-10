@@ -25,7 +25,7 @@ function script7971(int0: number, int1: number, int2: number, int3: number, int4
                 IF_SETPOSITION(0, 0, 1, 1, int2);
                 break;
             }
-            case 96010258: {
+            case 96010259: {
                 if ((varplayer_463 == 0)) {
                     int5 = 18819 as graphic;
                 } else {

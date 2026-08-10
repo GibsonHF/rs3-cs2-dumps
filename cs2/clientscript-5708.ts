@@ -15,7 +15,7 @@ function script5708(int0: number, int1: number): void {
         return;
     };
     var int2 = 126;
-    var int3 = SCALE(varbitplayer_1668, script2915(), 100);
+    var int3 = SCALE(varplayer_13537, script2915(), 100);
     if ((int3 < 10)) {
         int2 = 51;
     } else if ((int3 < 25)) {

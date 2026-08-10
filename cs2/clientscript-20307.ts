@@ -9,12 +9,12 @@ function script20307(int0: number, int1: number): number {
     switch (int1) {
         case 1: {
             int3 = dbrow_getfield(int2, 1372256, 0);
-            int4 = dbrow_getfield(int0, 1368160, 0);
+            int4 = dbrow_getfield(int0, 1368176, 0);
             break;
         }
         default: {
             int3 = dbrow_getfield(int2, 1372256, 1);
-            int4 = dbrow_getfield(int0, 1368144, 0);
+            int4 = dbrow_getfield(int0, 1368160, 0);
             break;
         }
     };

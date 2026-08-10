@@ -1,6 +1,9 @@
 //
 function script17445(int0: number): number {
     var int1 = script17446(int0);
+    if (((varplayer_12314 == 2) && (varbitplayer_61685 == 1))) {
+        return 0;
+    };
     switch (int0) {
         case 48297: {
             int1 = MAX(0, (int1 - (100 * varplayer_10986)));

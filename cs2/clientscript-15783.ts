@@ -80,9 +80,9 @@ function script15783(): void {
             if ((varclient_2872 != 15457 as cs2enum)) {
                 script8836(15457);
             };
-            IF_SETHIDE(true, comp(1465, 10));
-            IF_SETHIDE(true, comp(1465, 27));
-            IF_SETHIDE(true, comp(1465, 25));
+            IF_SETHIDE(true, comp(1465, 11));
+            IF_SETHIDE(true, comp(1465, 28));
+            IF_SETHIDE(true, comp(1465, 26));
             IF_SETHIDE(true, comp(1319, 10));
             IF_SETHIDE(true, comp(1319, 9));
             if ((script9932(1003) == 1)) {
@@ -95,9 +95,9 @@ function script15783(): void {
                 };
             };
             if ((int4 == 1)) {
-                IF_SETHIDE(false, comp(1465, 33));
+                IF_SETHIDE(false, comp(1465, 34));
             } else {
-                IF_SETHIDE(true, comp(1465, 33));
+                IF_SETHIDE(true, comp(1465, 34));
             };
         };
         if (((int5 != -1) && (varplayer_9773 != int0))) {

@@ -116,6 +116,7 @@ function script7034(): number {
         case 28699:
         case 52825:
         case 60472:
+        case 63593:
         case 14422:
         case 14424:
         case 14426:

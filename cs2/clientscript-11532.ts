@@ -88,8 +88,13 @@ function script11532(int0: number, int1: number, int2: number, int3: number, int
         switch (int2) {
             case 0: {
                 string0 = struct_getparam(int1, 5091);
-                if ((struct_getparam(int0, 9050) == 1)) {
+                stack(int0);
+                script21005();
+                if (BRANCH_EQUALS(1)) {
                     string0 = struct_getparam(int0, 9051);
+                    if (((MAP_MEMBERS() == 0) && (struct_getparam(int1, 6406) == 1))) {
+                        string0 = "Members";
+                    };
                 };
                 break;
             }

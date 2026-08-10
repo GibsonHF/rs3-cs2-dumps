@@ -1,7 +1,8 @@
 //
 function script9929(): number {
     if ((varbitplayer_27169 == 1)) {
-        return 16;
+        script21108();
+        return;
     };
     if ((script6431() == 1)) {
         return 8;

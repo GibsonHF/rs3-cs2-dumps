@@ -1,23 +1,7 @@
 //
 function script20204(int0: number): void {
-    switch (int0) {
-        case 92340282: {
-            varbitplayer_58390 = 1;
-            break;
-        }
-        case 92340285: {
-            varbitplayer_58390 = 2;
-            break;
-        }
-        case 92340288: {
-            varbitplayer_58390 = 3;
-            break;
-        }
-        case 92340289: {
-            varbitplayer_58390 = 4;
-            break;
-        }
-    };
-    script20205();
+    varclient_8474 = int1;
+    script21055();
+    SOUND_VORBIS_VOLUME(36972 as vorbis, 1, 0, 100);
     return;
 }

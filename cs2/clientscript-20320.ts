@@ -8,12 +8,12 @@ function script20320(int0: number, int1: number): number {
         return 0;
     };
     var int3 = -1;
-    if ((int0 == comp(1479, 19))) {
+    if ((int0 == comp(1479, 20))) {
         int3 = script20169(varbitclient_58393, varbitclient_58395, varbitclient_58397, varbitclient_58399, 0);
     } else {
-        int3 = script20168(dbrow_getfield(int2, 1335616, 0));
+        int3 = script20168(dbrow_getfield(int2, 1335680, 0));
     };
-    unk11023(int3, 1368144, 1);
+    unk11023(int3, 1368160, 1);
     var int4 = dbrow_findnext();
     var int5 = 0;
     var int6 = 0;
@@ -21,14 +21,14 @@ function script20320(int0: number, int1: number): number {
         int6 = cc_getparam(9338);
     };
     while ((int4 != -1)) {
-        if ((ACHIEVEMENT_REQSTATE(dbrow_getfield(int4, 1368096, 0)) != -1)) {
+        if ((ACHIEVEMENT_REQSTATE(dbrow_getfield(int4, 1368112, 0)) != -1)) {
             int5 = (int5 + 1);
         };
         int4 = dbrow_findnext();
     };
     if ((int5 != int6)) {
         IF_SETPARAM_INT(9340, IF_GETSCROLLY(int1), int0);
-        if ((int0 == 96927763)) {
+        if ((int0 == 96927764)) {
             IF_SETONRESIZE(callback(script20286), comp(1479, 5));
             IF_CALLONRESIZE(comp(1479, 5));
         } else {

@@ -6,7 +6,7 @@ function script20313(int0: number, int1: number): void {
         return;
     };
     var int2 = dbrow_getfield(int0, 1368064, 0);
-    var int3 = dbrow_getfield(int0, 1368096, 0);
+    var int3 = dbrow_getfield(int0, 1368112, 0);
     if ((int3 == -1 as achievement)) {
         return;
     };
@@ -19,7 +19,7 @@ function script20313(int0: number, int1: number): void {
             CC_SETONTIMER(callback(script20313, int0, (int1 + 1)));
         };
     };
-    if ((CC_FINDBYCATEGORY(comp(1479, 19), script20173(((3000 * 4) + int2))) == 1)) {
+    if ((CC_FINDBYCATEGORY(comp(1479, 20), script20173(((3000 * 4) + int2))) == 1)) {
         CC_SETTEXT(string0);
         if ((int1 >= 10)) {
             CC_SETONTIMER(callback());

@@ -1,6 +1,6 @@
 //
 function script20331(): void {
-    var int0 = script20117(-1);
+    var int0 = script20117(2);
     if ((int0 == -1)) {
         varbitplayer_58378 = 0;
     } else {

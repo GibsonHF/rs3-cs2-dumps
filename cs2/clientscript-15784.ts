@@ -19,8 +19,8 @@ function script15784(): void {
         IF_SETHIDE(false, comp(1376, 10));
         IF_SETHIDE(false, comp(1923, 0));
     } else {
-        IF_SETHIDE(false, comp(1465, 10));
-        IF_SETHIDE(false, comp(1465, 33));
+        IF_SETHIDE(false, comp(1465, 11));
+        IF_SETHIDE(false, comp(1465, 34));
         script1998();
     };
     return;

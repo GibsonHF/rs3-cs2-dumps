@@ -7,7 +7,7 @@ function script20293(int0: number, int1: number, int2: number, int3: number, int
         script20323(int2, int1);
         return;
     };
-    var int6 = dbrow_getfield(int5, 1335472, 0);
+    var int6 = dbrow_getfield(int5, 1335504, 0);
     var int7 = 1;
     if ((int0 == 1)) {
         varbitclient_58403 = script12377(varbitclient_58403, 0, DB_GETFIELDCOUNT(int6, 1372256));
@@ -57,15 +57,15 @@ function script20293(int0: number, int1: number, int2: number, int3: number, int
             };
             CC_SETONBUTTONCLICK(callback(script20311, int1, int2, int3, int12, int7));
             CC_SETONSCROLLWHEEL(callback(script36, int3, int2, -2147483646));
-            script7918(int12, 3, 2, 0, 0, 1, 30, 30, 0, 0, int13);
+            script7918(int12, 3, 4, 0, 0, 1, 30, 30, 0, 0, int13);
             if ((int7 == 0)) {
                 script10485(int12, 4, 35, 2, 0, 0, 85, 7373, 1, 2, 2141, string0);
                 script10485(int12, 5, 35, 2, 0, 2, 85, 7373, 1, 2, 17514, `${string1} points per task completed.`);
             } else {
                 script10485(int12, 4, 35, 0, 0, 1, 85, 0, 1, 1, 2141, string0);
             };
-            script7918(int12, 6, 2, 0, 2, 1, 13, 13, 0, 0, int15);
-            script10485(int12, 7, 17, 0, 2, 1, 25, 0, 0, 1, 2101, "");
+            script7918(int12, 6, 6, 0, 2, 1, 13, 13, 0, 0, int15);
+            script10485(int12, 7, 21, 0, 2, 1, 60, 0, 0, 1, 2100, "");
             CC_SETTEXTALIGN(2, 1, 0);
         };
         int10 = (int10 + 1);
@@ -74,7 +74,7 @@ function script20293(int0: number, int1: number, int2: number, int3: number, int
     if ((int0 == 1)) {
         int16 = script20169(varbitclient_58393, varbitclient_58395, varbitclient_58397, varbitclient_58399, 0);
     } else {
-        int16 = script20168(dbrow_getfield(int5, 1335616, 0));
+        int16 = script20168(dbrow_getfield(int5, 1335680, 0));
         varclient_8334 = IF_GETWIDTH(comp(1361, 7));
         varclient_8335 = IF_GETHEIGHT(comp(1361, 7));
     };
@@ -82,12 +82,12 @@ function script20293(int0: number, int1: number, int2: number, int3: number, int
     var int18 = 0;
     switch (int7) {
         case 1: {
-            unk11023(int16, 1368144, 1);
+            unk11023(int16, 1368160, 1);
             int18 = script20294(int1, int8, int7);
             break;
         }
         default: {
-            unk11023(int16, 1368160, 1);
+            unk11023(int16, 1368176, 1);
             int18 = script20295(int1, int7);
             break;
         }

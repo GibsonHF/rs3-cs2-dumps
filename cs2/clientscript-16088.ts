@@ -3,6 +3,11 @@ function script16088(int0: number): number {
     if ((struct_getparam(int0, 8522) == false)) {
         return 0;
     };
+    stack(int0);
+    script20937();
+    if (BRANCH_EQUALS(0)) {
+        return 0;
+    };
     if ((struct_getparam(int0, 1294) == 0)) {
         return 1;
     };
@@ -65,7 +70,7 @@ function script16088(int0: number): number {
         };
         if ((int1 > 0)) {
             if ((int1 < 60)) {
-                if ((STAT_BASE(enum_getvalue(0, 17, 681 as cs2enum, int1)) < int2)) {
+                if ((STAT_BASE(enum_getvalue(0, 17, 681, int1)) < int2)) {
                     return 0;
                 };
             } else if ((int1 == 60)) {

@@ -7,10 +7,10 @@ function script20304(): void {
     if (((varclient_8334 == IF_GETWIDTH(comp(1361, 7))) && (varclient_8335 == IF_GETHEIGHT(comp(1361, 7))))) {
         return;
     };
-    var int1 = dbrow_getfield(int0, 1335472, 0);
+    var int1 = dbrow_getfield(int0, 1335504, 0);
     var int2 = dbrow_getfield(int1, 1372256, 1);
     var int3 = 0;
-    var int4 = script20168(dbrow_getfield(int0, 1335616, 0));
+    var int4 = script20168(dbrow_getfield(int0, 1335680, 0));
     var int5 = -1;
     var string0 = "";
     var int6 = 0;
@@ -18,14 +18,14 @@ function script20304(): void {
     var int8 = 0;
     var int9 = 0;
     var int10 = 0;
-    unk11023(int4, 1368160, 1);
+    unk11023(int4, 1368176, 1);
     var int11 = dbrow_findnext();
     var int12 = 0;
     var int13 = script20491(2100);
     while ((int11 != -1)) {
         int9 = dbrow_getfield(int11, 1368064, 0);
-        int5 = dbrow_getfield(int11, 1368096, 0);
-        int6 = dbrow_getfield(int11, 1368144, 0);
+        int5 = dbrow_getfield(int11, 1368112, 0);
+        int6 = dbrow_getfield(int11, 1368160, 0);
         string0 = script20131(int11, int5);
         int3 = (200 + dbrow_getfield(int2, 1376273, int6));
         if (((CC_FINDBYCATEGORY[1](comp(1361, 21), int3, 0) == 1) && (CC_FIND(comp(1361, 21), int9) == 1))) {

@@ -12,7 +12,7 @@ function script20332(): void {
     var int9 = 21;
     var int10 = 16;
     var int11 = 0;
-    var int12 = script20117(-1);
+    var int12 = script20117(2);
     var int13 = 4927014;
     var int14 = 0;
     var int15 = 26;

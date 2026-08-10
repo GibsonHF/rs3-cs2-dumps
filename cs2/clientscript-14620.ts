@@ -1,7 +1,10 @@
 //
 function script14620(): number {
     var int0 = 150;
-    if ((script1858(6) == 1)) {
+    script20965();
+    if (BRANCH_EQUALS(1)) {
+        int0 = 1000;
+    } else if ((script1858(6) == 1)) {
         int0 = 650;
     } else {
         if ((script14630(2922) == 1)) {

@@ -1,6 +1,6 @@
 //
 function script11855(int0: number): void {
-    var int1 = varbitplayer_1668;
+    var int1 = varplayer_13537;
     var int2 = script2915();
     if ((varbitplayer_27168 == 1)) {
         if ((int1 >= 10)) {

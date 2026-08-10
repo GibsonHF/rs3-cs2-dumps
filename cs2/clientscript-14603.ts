@@ -1,5 +1,9 @@
 //
 function script14603(int0: number): number {
+    script20966();
+    if (BRANCH_EQUALS(1)) {
+        return 1;
+    };
     if ((int0 <= 0)) {
         return 0;
     };

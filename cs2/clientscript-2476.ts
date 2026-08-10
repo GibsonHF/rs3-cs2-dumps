@@ -3560,6 +3560,9 @@ function script2476(int0: number, int1: number): number {
         case 874: {
             return varbitplayer_39102;
         }
+        case 876: {
+            return varbitplayer_61855;
+        }
     };
     return 1;
 }

@@ -5,8 +5,13 @@ function script583(int0: number, int1: number, int2: number, int3: number, int4:
     var int11 = 0;
     var int12 = script13501(int1);
     var string0 = script15488(int1);
-    if ((struct_getparam(int0, 9050) == 1)) {
+    stack(int0);
+    script21005();
+    if (BRANCH_EQUALS(1)) {
         string0 = struct_getparam(int0, 9051);
+        if (((MAP_MEMBERS() == 0) && (struct_getparam(int1, 6406) == 1))) {
+            string0 = "Members";
+        };
     };
     var int13 = struct_getparam(int1, 4851);
     if ((int12 == 0)) {
@@ -30,6 +35,7 @@ function script583(int0: number, int1: number, int2: number, int3: number, int4:
     CC_SETTEXTFONT(26 as fontmetrics);
     CC_SETCOLOUR(script10495(3));
     CC_SETTEXTALIGN(1, 1, 11);
+    CC_SETMAXLINES(3);
     int11 = script9095(int1, int12);
     stack(int2);
     stack(4);
@@ -39,10 +45,10 @@ function script583(int0: number, int1: number, int2: number, int3: number, int4:
     CC_SETSIZE(60, 50, 0, 0);
     CC_SETPOSITION(((int6 + int8) - 65), (int7 + 30), 0, 0);
     var int15 = struct_getparam(int1, 5878);
-    if (((PLAYERMEMBER() == false) && (struct_getparam(int1, 5147) > 0))) {
+    if (((PLAYERMEMBER() == 0) && (struct_getparam(int1, 5147) > 0))) {
         int11 = struct_getparam(int1, 5147);
     };
-    if (((PLAYERMEMBER() == false) && (struct_getparam(int1, 5879) > 0))) {
+    if (((PLAYERMEMBER() == 0) && (struct_getparam(int1, 5879) > 0))) {
         int15 = struct_getparam(int1, 5879);
     };
     if ((int11 > 0)) {
@@ -60,11 +66,11 @@ function script583(int0: number, int1: number, int2: number, int3: number, int4:
     stack(int14);
     int14 = (int14 + 1);
     CC_CREATE();
-    if ((struct_getparam(int1, 4852) != -1 as graphic)) {
+    if ((struct_getparam(int1, 4852) != -1)) {
         CC_SETSIZE(MIN(struct_getparam(int1, 4860), 32), MIN(struct_getparam(int1, 4861), 32), 0, 0);
         CC_SETGRAPHIC(struct_getparam(int1, 4852));
         CC_SETPOSITION(((int6 + 5) + ((40 - CC_GETWIDTH()) / 2)), ((int7 + 35) + ((40 - CC_GETHEIGHT()) / 2)), 0, 0);
-    } else if ((int13 != -1 as obj)) {
+    } else if ((int13 != -1)) {
         CC_SETSIZE(36, 32, 0, 0);
         int13 = script14453(int1, int13);
         if ((struct_getparam(int1, 4448) > 1)) {

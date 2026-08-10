@@ -187,11 +187,11 @@ function script7115(int0: number, int1: number, int2: number, int3: number, int4
                     break;
                 }
                 case 47067: {
-                    int7 = script18309(enum_getvalue(0, 33, 2503 as cs2enum, int3));
+                    int7 = script18309(enum_getvalue(0, 33, 2503, int3));
                     break;
                 }
                 case 58252: {
-                    int7 = INV_TOTAL(937 as inv, enum_getvalue(0, 33, 6544 as cs2enum, int3));
+                    int7 = INV_TOTAL(937 as inv, enum_getvalue(0, 33, 6544, int3));
                     break;
                 }
                 case 20007: {
@@ -268,48 +268,62 @@ function script7115(int0: number, int1: number, int2: number, int3: number, int4
                     int7 = script11567(int2, 1);
                     break;
                 }
-                default: {
-                    if ((MAP_MEMBERS() == 0)) {
-                        if ((OC_MEMBERS(int2) == 1)) {
-                            int7 = 0;
-                        } else if ((item_getparam(int2, 5774) == 1)) {
-                            if ((item_getparam(int2, 5772) == 1)) {
-                                int7 = 0;
-                            } else {
-                                int5 = script12517(93, int2, 0);
-                                if ((int5 == -1)) {
-                                    int7 = 0;
-                                } else if ((INV_GETVAR(93 as inv, int5, 18550) != 0)) {
-                                    int7 = 0;
-                                } else {
-                                    int7 = 1;
-                                };
-                            };
-                        } else if ((int4 == 1)) {
-                            int7 = (INV_TOTAL(93 as inv, int2) + INV_TOTAL(530 as inv, int2));
-                        } else {
-                            int7 = INV_TOTAL(93 as inv, int2);
-                        };
-                    } else if ((item_getparam(int2, 5774) == 1)) {
-                        if ((item_getparam(int2, 5772) == 1)) {
-                            int7 = 0;
-                        } else {
-                            int5 = script12517(93, int2, 0);
-                            if ((int5 == -1)) {
-                                int7 = 0;
-                            } else if ((INV_GETVAR(93 as inv, int5, 18550) != 0)) {
-                                int7 = 0;
-                            } else {
-                                int7 = 1;
-                            };
-                        };
-                    } else if ((int4 == 1)) {
-                        int7 = (INV_TOTAL(93 as inv, int2) + INV_TOTAL(530 as inv, int2));
+                case 12155:
+                case 12183: {
+                    if ((script12517(93, 63584, 0) != -1)) {
+                        int7 = -1;
                     } else {
-                        int7 = INV_TOTAL(93 as inv, int2);
+                        stack(int2);
+                        stack(int4);
+                        script21107();
+                        int7 = [];
                     };
                     break;
                 }
+                default: {
+                    stack(int2);
+                    stack(int4);
+                    script21107();
+                    int7 = [];
+                    break;
+                }
+            };
+            break;
+        }
+    };
+    switch (int0) {
+        case 55638:
+        case 55639:
+        case 55640:
+        case 55647:
+        case 55648:
+        case 55649:
+        case 55644:
+        case 55645:
+        case 55646:
+        case 55641:
+        case 55642:
+        case 55643:
+        case 55659:
+        case 55660:
+        case 55661:
+        case 55656:
+        case 55657:
+        case 55658:
+        case 55650:
+        case 55651:
+        case 55652:
+        case 55653:
+        case 55654:
+        case 55655:
+        case 55662:
+        case 55663:
+        case 55664:
+        case 55665:
+        case 55666: {
+            script20969();
+            if (BRANCH_EQUALS(1)) {
+                int7 = -1;
             };
             break;
         }

@@ -193,6 +193,10 @@ function script11087(int0: number): string {
             string0 = script13790(int0, string0);
             break;
         }
+        case 3636: {
+            string0 = `<br>- Deal an additional <col=ffffff>${inttostring(5, 10)}%</col> damage per stack.`;
+            break;
+        }
         case 49555: {
             string0 = `<br>- After <col=ffffff>${inttostring(15, 10)}</col> attacks launch an additional attack that deals <col=ffffff>${script7653(100, 1, 1, 0, 1)}%</col> of the total damage stored.`;
             break;

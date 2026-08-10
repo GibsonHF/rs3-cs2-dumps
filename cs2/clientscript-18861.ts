@@ -11,11 +11,9 @@ function script18861(int0: number, int1: number): number {
     var int7 = -1;
     var int8 = -1;
     var int9 = -1;
-    if ((int0 == 5)) {
-        int7 = WORLDMAP_LISTELEMENT_START(1167760, 100, 3, 0);
-        int8 = WORLDMAP_LISTELEMENT_START(1167760, MAP_LANG(), 3, 0);
-        int9 = IF_SETPLAYERHEAD_SELF(IF_SETPLAYERHEAD_SELF(int7), IF_SETPLAYERHEAD_SELF(int8));
-        int6 = IF_SETPLAYERHEAD_SELF(int6, IF_SETPLAYERHEAD_SELF(int9));
-    };
+    int7 = WORLDMAP_LISTELEMENT_START(1167760, 100, 3, 0);
+    int8 = WORLDMAP_LISTELEMENT_START(1167760, MAP_LANG(), 3, 0);
+    int9 = IF_SETPLAYERHEAD_SELF(IF_SETPLAYERHEAD_SELF(int7), IF_SETPLAYERHEAD_SELF(int8));
+    int6 = IF_SETPLAYERHEAD_SELF(int6, IF_SETPLAYERHEAD_SELF(int9));
     return int6;
 }

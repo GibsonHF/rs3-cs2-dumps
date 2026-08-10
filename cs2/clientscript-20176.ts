@@ -1,6 +1,7 @@
 //
 function script20176(): number {
-    if ((script20166() == 1)) {
+    script20956();
+    if (BRANCH_EQUALS(1)) {
         return 1;
     };
     if ((varbitplayer_29077 == 120)) {

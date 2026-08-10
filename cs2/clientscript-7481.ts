@@ -114,6 +114,18 @@ function script7481(int0: number, int1: number, int2: number): number {
                 string2 = "A quiver that can hold multiple types of ammo.";
                 break;
             }
+            case 3593:
+            case 3594: {
+                if (((script12517(93, 63589, 0) != -1) || (INV_GETOBJ(94 as inv, 17) == 63589 as obj))) {
+                    string0 = "<col=00ff00>";
+                } else {
+                    string0 = "<col=ff0000>";
+                };
+                string1 = `${string0}Relic</col>`;
+                int3 = 63589 as obj;
+                string2 = OC_NAME(int3);
+                break;
+            }
         };
         return script7482(string1, -1, int3, string2, script7484(int0, int2));
     };

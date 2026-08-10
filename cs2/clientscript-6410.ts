@@ -1,5 +1,10 @@
 //
 function script6410(): void {
+    var int0 = varbitplayer_9071;
+    script20962();
+    if (BRANCH_EQUALS(1)) {
+        int0 = 2147483647;
+    };
     if ((varbitplayer_9072 == 0)) {
         script6414(85721635, 0);
         script6414(85721647, 0);
@@ -14,7 +19,7 @@ function script6410(): void {
     } else {
         IF_SETCOLOUR(16512486, comp(1308, 584));
     };
-    if ((varbitplayer_9071 < 100)) {
+    if ((int0 < 100)) {
         script6414(85721647, 0);
         script6414(85721671, 0);
     };
@@ -27,7 +32,7 @@ function script6410(): void {
         script6414(85721647, 0);
         script6414(85721671, 0);
     };
-    if ((varbitplayer_9071 < 30)) {
+    if ((int0 < 30)) {
         if ((varbitplayer_24968 == 0)) {
             script6414(85721635, 0);
         };

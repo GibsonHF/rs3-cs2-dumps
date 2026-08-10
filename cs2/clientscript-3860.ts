@@ -1,5 +1,14 @@
 //
 function script3860(int0: number): number {
+    if ((int1 == 1)) {
+        script20973();
+        if (BRANCH_EQUALS(1)) {
+            script21009();
+            if (BRANCH_EQUALS(1)) {
+                return 2;
+            };
+        };
+    };
     switch (int0) {
         case 1: {
             return varbitplayer_39767;

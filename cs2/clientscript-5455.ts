@@ -6,5 +6,9 @@ function script5455(): number {
     if (((varbitplayer_33988 == 1) && (INV_GETOBJ(94 as inv, 9) == 25199 as obj))) {
         return 1;
     };
+    script20961();
+    if (BRANCH_EQUALS(1)) {
+        return 1;
+    };
     return 0;
 }

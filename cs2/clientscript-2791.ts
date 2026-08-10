@@ -23,5 +23,9 @@ function script2791(int0: number, int1: number): number {
             break;
         }
     };
+    script20959();
+    if (BRANCH_EQUALS(1)) {
+        return 0;
+    };
     return int0;
 }

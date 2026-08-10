@@ -10,12 +10,16 @@ function script13664(): void {
     var int1 = -1;
     var int2 = 0;
     var int3 = 0;
-    var int4 = dbrow_getfield(int0, 90288, 0);
+    stack(int0);
+    script21030();
+    var int4 = [];
     var int5 = DB_GETFIELDCOUNT(int0, 90416);
     var int6 = dbrow_getfield(int0, 90272, 0);
     var int7 = IF_GETWIDTH(comp(1902, 10));
     var int8 = IF_GETWIDTH(comp(1902, 11));
-    var int9 = dbrow_getfield(int0, 90384, 0);
+    stack(int0);
+    script21123();
+    var int9 = [];
     var int10 = 0;
     if ((int6 == 2)) {
         if ((varbitplayer_48814 > 0)) {

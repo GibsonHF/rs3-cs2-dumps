@@ -57,5 +57,10 @@ function script16298(): void {
         };
         int1 = (int1 + 1);
     };
+    script14391(int0, 12, 1, 1, 0, 0, 1, 1, 0, 0);
+    stack(21122);
+    stack(13524);
+    stack(1);
+    CC_SETONVARTRANSMIT("Y");
     return;
 }

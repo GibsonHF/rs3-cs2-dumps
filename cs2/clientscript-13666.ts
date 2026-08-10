@@ -17,7 +17,9 @@ function script13666(int0: number, int1: number, int2: number, int3: number): vo
     var int12 = IF_GETX(int2);
     var int13 = IF_GETWIDTH(int2);
     var int14 = -1;
-    var int15 = dbrow_getfield(int8, 90384, 0);
+    stack(int8);
+    script21123();
+    var int15 = [];
     var int16 = 0;
     if ((int9 == 2)) {
         if ((varbitplayer_48814 > 0)) {

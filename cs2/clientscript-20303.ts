@@ -16,7 +16,7 @@ function script20303(int0: number, int1: number, int2: number): void {
         return;
     };
     var int5 = comp(1361, 1);
-    if ((int0 == 96927763)) {
+    if ((int0 == 96927764)) {
         int5 = comp(1479, 1);
     };
     CC_CREATE(int5, 0, int4);

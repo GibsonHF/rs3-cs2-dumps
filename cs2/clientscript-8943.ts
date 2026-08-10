@@ -5,7 +5,7 @@ function script8943(): number {
     };
     var int0 = script8942();
     var int1 = 65;
-    if ((varbitplayer_1668 < SCALE(script2915(), 100, 60))) {
+    if ((varplayer_13537 < SCALE(script2915(), 100, 60))) {
         int1 = (int1 + 50);
     };
     int0 = SCALE(int0, 100, int1);

@@ -56,6 +56,10 @@ function script16394(): void {
         }
     };
     script16395(int7, int8);
+    if ((int2 == 35202)) {
+        script20920();
+        int2 = [];
+    };
     if (((varbitplayer_22874 == 1) && (script6431() == 0))) {
         int2 = script16413(int2);
         int3 = script16413(int3);

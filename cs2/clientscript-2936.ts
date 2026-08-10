@@ -1,6 +1,9 @@
 //
 function script2936(int0: number): number {
     var int1 = script7379(int0);
+    if (((varplayer_12314 == 2) && (varbitplayer_61685 == 1))) {
+        return 0;
+    };
     switch (int0) {
         case 14735: {
             if ((varplayer_9912 > 0)) {

@@ -1,6 +1,13 @@
 //
 function script20133(int0: number, int1: number): number {
-    var int2 = enum_getvalue(0, 26, int0, int1);
+    stack(int0);
+    script15044();
+    var int1 = [];
+    if ((int1 == -1)) {
+        unk11016(`Invalid locality ID : ${inttostring(int0, 10)}`);
+        return 0;
+    };
+    var int2 = dbrow_getfield(int1, 1564688, 0);
     var int3 = 0;
     var int4 = ENUM_GETOUTPUTCOUNT(int2);
     while ((int3 < int4)) {

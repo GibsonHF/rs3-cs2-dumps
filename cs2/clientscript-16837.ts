@@ -3,7 +3,7 @@ function script16837(int0: number): number {
     var int1 = 0;
     switch (int0) {
         case 1: {
-            int1 = (2898 / 500);
+            int1 = (3232 / 500);
             break;
         }
         case 2: {

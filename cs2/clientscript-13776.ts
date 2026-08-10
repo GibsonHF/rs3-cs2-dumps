@@ -6,7 +6,7 @@ function script13776(int0: number, int1: number, int2: number, int3: number): nu
     var int7 = IF_GETHEIGHT(int1);
     var int8 = 32;
     var int9 = IF_GETWIDTH(int1);
-    var int10 = -1 as obj;
+    var int10 = -1;
     var int11 = 0;
     var int12 = 0;
     var int13 = 0;
@@ -33,7 +33,7 @@ function script13776(int0: number, int1: number, int2: number, int3: number): nu
             CC_CREATE();
             CC_SETSIZE(36, 32, 0, 0);
             CC_SETPOSITION((0 - ((int12 - 1) * 20)), int6, int5, 0);
-            CC_SETOBJECT_ALWAYSNUM(enum_getvalue(0, 33, 11885 as cs2enum, INV_GETVAR(varclient_5121, varclient_5122, 33774)), INV_GETVAR(varclient_5121, varclient_5122, 33777));
+            CC_SETOBJECT_ALWAYSNUM(enum_getvalue(0, 33, 11885, INV_GETVAR(varclient_5121, varclient_5122, 33774)), INV_GETVAR(varclient_5121, varclient_5122, 33777));
             stack(int2);
             stack(5);
             stack(int3);
@@ -41,7 +41,7 @@ function script13776(int0: number, int1: number, int2: number, int3: number): nu
             CC_CREATE();
             CC_SETSIZE(36, 32, 0, 0);
             CC_SETPOSITION((40 - ((int12 - 1) * 20)), int6, int5, 0);
-            CC_SETOBJECT_ALWAYSNUM(enum_getvalue(0, 33, 11885 as cs2enum, INV_GETVAR(varclient_5121, varclient_5122, 33775)), INV_GETVAR(varclient_5121, varclient_5122, 33778));
+            CC_SETOBJECT_ALWAYSNUM(enum_getvalue(0, 33, 11885, INV_GETVAR(varclient_5121, varclient_5122, 33775)), INV_GETVAR(varclient_5121, varclient_5122, 33778));
             stack(int2);
             stack(5);
             stack(int3);
@@ -49,7 +49,7 @@ function script13776(int0: number, int1: number, int2: number, int3: number): nu
             CC_CREATE();
             CC_SETSIZE(36, 32, 0, 0);
             CC_SETPOSITION((80 - ((int12 - 1) * 20)), int6, int5, 0);
-            CC_SETOBJECT_ALWAYSNUM(enum_getvalue(0, 33, 11885 as cs2enum, INV_GETVAR(varclient_5121, varclient_5122, 33776)), INV_GETVAR(varclient_5121, varclient_5122, 33779));
+            CC_SETOBJECT_ALWAYSNUM(enum_getvalue(0, 33, 11885, INV_GETVAR(varclient_5121, varclient_5122, 33776)), INV_GETVAR(varclient_5121, varclient_5122, 33779));
             stack(int2);
             stack(5);
             stack(int3);
@@ -57,11 +57,11 @@ function script13776(int0: number, int1: number, int2: number, int3: number): nu
             CC_CREATE();
             CC_SETSIZE(36, 32, 0, 0);
             CC_SETPOSITION((120 - ((int12 - 1) * 20)), int6, int5, 0);
-            CC_SETOBJECT_ALWAYSNUM(enum_getvalue(0, 33, 11885 as cs2enum, INV_GETVAR(varclient_5121, varclient_5122, 21604)), INV_GETVAR(varclient_5121, varclient_5122, 21605));
+            CC_SETOBJECT_ALWAYSNUM(enum_getvalue(0, 33, 11885, INV_GETVAR(varclient_5121, varclient_5122, 21604)), INV_GETVAR(varclient_5121, varclient_5122, 21605));
         };
     };
     if ((script4034(int0) == 1)) {
-        var int0 = 20767 as obj;
+        var int0 = 20767;
     };
     if (((item_getparam(int0, 6295) == 1) || (item_getparam(int0, 7393) == 1))) {
         [int14, int13] = script470(int0, 1);
@@ -88,7 +88,7 @@ function script13776(int0: number, int1: number, int2: number, int3: number): nu
             CC_SETSIZE(25, 25, 0, 0);
             CC_SETPOSITION((0 - ((int12 - 1) * 20)), int6, 1, 0);
             if ((int14 != 31)) {
-                CC_SETGRAPHIC(enum_getvalue(0, 23, 371 as cs2enum, int14));
+                CC_SETGRAPHIC(enum_getvalue(0, 23, 371, int14));
             } else {
                 CC_SETGRAPHIC(32075 as graphic);
             };
@@ -103,7 +103,7 @@ function script13776(int0: number, int1: number, int2: number, int3: number): nu
             CC_SETSIZE(25, 25, 0, 0);
             CC_SETPOSITION((40 - ((int12 - 1) * 20)), int6, 1, 0);
             if ((int15 != 31)) {
-                CC_SETGRAPHIC(enum_getvalue(0, 23, 371 as cs2enum, int15));
+                CC_SETGRAPHIC(enum_getvalue(0, 23, 371, int15));
             } else {
                 CC_SETGRAPHIC(32075 as graphic);
             };
@@ -117,7 +117,7 @@ function script13776(int0: number, int1: number, int2: number, int3: number): nu
             CC_SETSIZE(25, 25, 0, 0);
             CC_SETPOSITION((80 - ((int12 - 1) * 20)), int6, 1, 0);
             if ((int16 != 31)) {
-                CC_SETGRAPHIC(enum_getvalue(0, 23, 371 as cs2enum, int16));
+                CC_SETGRAPHIC(enum_getvalue(0, 23, 371, int16));
             } else {
                 CC_SETGRAPHIC(32075 as graphic);
             };
@@ -358,10 +358,11 @@ function script13776(int0: number, int1: number, int2: number, int3: number): nu
                 int12 = 6;
                 break;
             }
-            case 47836: {
+            case 47836:
+            case 63592: {
                 int21 = ENUM_GETOUTPUTCOUNT(15320 as cs2enum);
                 while ((int20 < int21)) {
-                    int10 = enum_getvalue(0, 33, 15320 as cs2enum, int20);
+                    int10 = enum_getvalue(0, 33, 15320, int20);
                     int12 = script7361(int10);
                     stack(int2);
                     stack(5);
@@ -398,7 +399,7 @@ function script13776(int0: number, int1: number, int2: number, int3: number): nu
                 if ((script6666() == 1)) {
                     int21 = ENUM_GETOUTPUTCOUNT(15289 as cs2enum);
                     while ((int20 < int21)) {
-                        int10 = enum_getvalue(0, 33, 15289 as cs2enum, int20);
+                        int10 = enum_getvalue(0, 33, 15289, int20);
                         int12 = script6646(int10);
                         if ((int12 > 0)) {
                             stack(int2);
@@ -434,13 +435,97 @@ function script13776(int0: number, int1: number, int2: number, int3: number): nu
                 };
                 break;
             }
+            case 63584: {
+                script21003();
+                if (BRANCH_EQUALS(1)) {
+                    int21 = ENUM_GETOUTPUTCOUNT(13250 as cs2enum);
+                    while ((int20 < int21)) {
+                        int10 = enum_getvalue(0, 33, 13250, int20);
+                        stack(int10);
+                        script21002();
+                        int12 = [];
+                        if ((int12 > 0)) {
+                            stack(int2);
+                            stack(5);
+                            stack(int3);
+                            int3 = (int3 + 1);
+                            CC_CREATE();
+                            CC_SETSIZE(36, 32, 0, 0);
+                            CC_SETOBJECT_ALWAYSNUM(int10, int12);
+                        };
+                        int20 = (int20 + 1);
+                    };
+                    int20 = 0;
+                    int12 = (int3 - int23);
+                    while ((int23 < int3)) {
+                        stack(int2);
+                        stack(int23);
+                        int23 = (int23 + 1);
+                        if ((CC_FIND() == 1)) {
+                            script7229(5, int12, int6, int20);
+                            if ((MODULO(int20, 5) == 4)) {
+                                int12 = (int12 - 5);
+                                int12 = ABS(int12);
+                            };
+                            int20 = (int20 + 1);
+                        };
+                    };
+                    if ((int20 > 0)) {
+                        int8 = (35 + (35 * ((int20 - 1) / 5)));
+                        int9 = MAX(int9, ((36 * MIN(5, int20)) + 20));
+                    };
+                    int12 = (int12 + 1);
+                };
+                break;
+            }
+            case 63588: {
+                if ((INV_FREESPACE(1012 as inv) != INV_SIZE(1012 as inv))) {
+                    while ((int20 < 3)) {
+                        int10 = INV_GETOBJ(1012 as inv, int20);
+                        if ((int10 != -1)) {
+                            int12 = INV_GETNUM(1012 as inv, int20);
+                            if ((int12 > 0)) {
+                                stack(int2);
+                                stack(5);
+                                stack(int3);
+                                int3 = (int3 + 1);
+                                CC_CREATE();
+                                CC_SETSIZE(36, 32, 0, 0);
+                                CC_SETOBJECT_ALWAYSNUM(int10, int12);
+                            };
+                        };
+                        int20 = (int20 + 1);
+                    };
+                    int20 = 0;
+                    int12 = (int3 - int23);
+                    while ((int23 < int3)) {
+                        stack(int2);
+                        stack(int23);
+                        int23 = (int23 + 1);
+                        if ((CC_FIND() == 1)) {
+                            script7229(5, int12, int6, int20);
+                            if ((MODULO(int20, 5) == 4)) {
+                                int12 = (int12 - 5);
+                                int12 = ABS(int12);
+                            };
+                            int20 = (int20 + 1);
+                        };
+                    };
+                    if ((int20 > 0)) {
+                        int8 = (35 + (35 * ((int20 - 1) / 5)));
+                        int9 = MAX(int9, ((36 * MIN(5, int20)) + 20));
+                    };
+                    int12 = (int12 + 1);
+                };
+                break;
+            }
             case 49538: {
                 int21 = ENUM_GETOUTPUTCOUNT(14069 as cs2enum);
                 int22 = 0;
                 int20 = -1;
                 int20 = (int20 + 1);
                 while ((int20 < int21)) {
-                    int10 = enum_getvalue(0, 33, 14069 as cs2enum, int20);
+                    int10 = enum_getvalue(0, 33, 14069, int20);
                     int12 = script14695(int10);
                     if ((int12 > 0)) {
                         stack(int2);
@@ -476,7 +561,7 @@ function script13776(int0: number, int1: number, int2: number, int3: number): nu
                 int20 = -1;
                 int20 = (int20 + 1);
                 while ((int20 < int21)) {
-                    int10 = enum_getvalue(0, 33, 16107 as cs2enum, int20);
+                    int10 = enum_getvalue(0, 33, 16107, int20);
                     int12 = INV_TOTAL(895 as inv, int10);
                     if ((int12 > 0)) {
                         stack(int2);
@@ -513,7 +598,7 @@ function script13776(int0: number, int1: number, int2: number, int3: number): nu
                 int12 = 1;
                 int20 = (int20 + 1);
                 while ((int20 < int21)) {
-                    int10 = enum_getvalue(0, 33, 8487 as cs2enum, int20);
+                    int10 = enum_getvalue(0, 33, 8487, int20);
                     if ((script16377(int10) == 1)) {
                         stack(int2);
                         stack(5);
@@ -583,16 +668,16 @@ function script13776(int0: number, int1: number, int2: number, int3: number): nu
                         if ((int12 > 0)) {
                             switch (int11) {
                                 case 1: {
-                                    int10 = 1436 as obj;
+                                    int10 = 1436;
                                     break;
                                 }
                                 case 0:
                                 case 2: {
-                                    int10 = 7936 as obj;
+                                    int10 = 7936;
                                     break;
                                 }
                                 case 3: {
-                                    int10 = 55667 as obj;
+                                    int10 = 55667;
                                     break;
                                 }
                             };
@@ -632,7 +717,7 @@ function script13776(int0: number, int1: number, int2: number, int3: number): nu
                         if ((script2532() == 1)) {
                             int21 = ENUM_GETOUTPUTCOUNT(17159 as cs2enum);
                             while ((int20 < int21)) {
-                                int10 = enum_getvalue(0, 33, 17159 as cs2enum, int20);
+                                int10 = enum_getvalue(0, 33, 17159, int20);
                                 int12 = script18309(int10);
                                 if (((int12 > 0) && (script2535(int0, int10) == 1))) {
                                     stack(int2);
@@ -737,10 +822,10 @@ function script13776(int0: number, int1: number, int2: number, int3: number): nu
                         int20 = -1;
                         int20 = (int20 + 1);
                         while ((int20 < int21)) {
-                            int10 = enum_getvalue(0, 33, 15971 as cs2enum, int20);
-                            if ((int0 == 59637 as obj)) {
-                                if ((OC_CATEGORY(int10) != 4707 as category)) {
-                                    if ((item_getparam(int10, 9304) == true)) {
+                            int10 = enum_getvalue(0, 33, 15971, int20);
+                            if ((int0 == 59637)) {
+                                if ((OC_CATEGORY(int10) != 4707)) {
+                                    if ((item_getparam(int10, 9304) == 1)) {
                                         int12 = 2147483647;
                                     } else {
                                         int12 = 0;
@@ -805,7 +890,7 @@ function script13776(int0: number, int1: number, int2: number, int3: number): nu
                         int20 = -1;
                         int20 = (int20 + 1);
                         while ((int20 < int21)) {
-                            int10 = enum_getvalue(0, 33, 17223 as cs2enum, int20);
+                            int10 = enum_getvalue(0, 33, 17223, int20);
                             int12 = INV_TOTAL(953 as inv, int10);
                             if ((int12 > 0)) {
                                 stack(int2);

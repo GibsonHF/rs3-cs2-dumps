@@ -117,7 +117,7 @@ function script7962(): void {
             case 10: {
                 int7 = 1;
                 int4 = varbitplayer_1923;
-                int5 = 14718;
+                int5 = 3636;
                 break;
             }
             case 11: {
@@ -1554,7 +1554,7 @@ function script7962(): void {
             };
             IF_SETONMOUSEREPEAT(callback(script3876, string0, -2147483645, -2147483643), int0);
             switch (int5) {
-                case 14718: {
+                case 3636: {
                     int8 = varbitplayer_1901;
                     break;
                 }

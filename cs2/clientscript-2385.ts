@@ -1,64 +1,132 @@
 //
 function script2385(int0: number, int1: number): number {
     if ((varbitplayer_27169 == 1)) {
-        switch (int0) {
-            case 6: {
-                return 0;
-            }
-            case 0: {
-                return 1;
-            }
-            case 31: {
-                return 2;
-            }
-            case 2: {
-                return 3;
-            }
-            case 3: {
-                return 4;
-            }
-            case 4: {
-                return 5;
-            }
-            case 5: {
-                return 6;
-            }
-            case 12: {
-                return 7;
-            }
-            case 14: {
-                return 8;
-            }
-            case 15: {
-                return 9;
-            }
-            case 16: {
-                return 10;
-            }
-            case 27: {
-                return 11;
-            }
-            case 9: {
-                return 12;
-            }
-            case 10: {
-                return 13;
-            }
-            case 17: {
-                if ((script9908() == 1)) {
+        if ((script3825() == 1)) {
+            switch (int0) {
+                case 6: {
+                    return 0;
+                }
+                case 32: {
+                    return 1;
+                }
+                case 0: {
+                    return 2;
+                }
+                case 31: {
+                    return 3;
+                }
+                case 2: {
+                    return 4;
+                }
+                case 3: {
+                    return 5;
+                }
+                case 4: {
+                    return 6;
+                }
+                case 5: {
+                    return 7;
+                }
+                case 12: {
+                    return 8;
+                }
+                case 14: {
+                    return 9;
+                }
+                case 15: {
+                    return 10;
+                }
+                case 16: {
+                    return 11;
+                }
+                case 27: {
+                    return 12;
+                }
+                case 11: {
                     return 13;
-                };
-                break;
-            }
-            default: {
-                if ((int0 == script2390(7))) {
+                }
+                case 9: {
                     return 14;
-                };
-                if ((int0 == script2390(9))) {
+                }
+                case 10: {
                     return 15;
-                };
-                break;
-            }
+                }
+                case 17: {
+                    if ((script9908() == 1)) {
+                        return 15;
+                    };
+                    break;
+                }
+                default: {
+                    if ((int0 == script2390(7))) {
+                        return 16;
+                    };
+                    if ((int0 == script2390(9))) {
+                        return 17;
+                    };
+                    break;
+                }
+            };
+        } else {
+            switch (int0) {
+                case 6: {
+                    return 0;
+                }
+                case 0: {
+                    return 1;
+                }
+                case 31: {
+                    return 2;
+                }
+                case 2: {
+                    return 3;
+                }
+                case 3: {
+                    return 4;
+                }
+                case 4: {
+                    return 5;
+                }
+                case 5: {
+                    return 6;
+                }
+                case 12: {
+                    return 7;
+                }
+                case 14: {
+                    return 8;
+                }
+                case 15: {
+                    return 9;
+                }
+                case 16: {
+                    return 10;
+                }
+                case 27: {
+                    return 11;
+                }
+                case 9: {
+                    return 12;
+                }
+                case 10: {
+                    return 13;
+                }
+                case 17: {
+                    if ((script9908() == 1)) {
+                        return 13;
+                    };
+                    break;
+                }
+                default: {
+                    if ((int0 == script2390(7))) {
+                        return 14;
+                    };
+                    if ((int0 == script2390(9))) {
+                        return 15;
+                    };
+                    break;
+                }
+            };
         };
     } else if ((int1 == 0)) {
         switch (int0) {

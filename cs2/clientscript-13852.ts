@@ -19,6 +19,7 @@ function script13852(int0: number, int1: number): void {
     var string0 = "Switch layout: Edit Mode";
     var int3 = 17;
     var int4 = -1;
+    var int5 = -1;
     if ((varbitclient_42113 == 1)) {
         if ((int2 == 0)) {
             if ((script2384(0, 1) < 0)) {
@@ -35,6 +36,11 @@ function script13852(int0: number, int1: number): void {
             if ((varplayer_12314 > 0)) {
                 IF_SETGRAPHIC(script20124(), comp(1431, 11));
                 IF_SETHIDE(false, comp(1431, 11));
+                script20918();
+                int5 = [];
+                IF_SETONMOUSEOVER(callback(script44, -2147483645, int5), comp(1431, 11));
+                int5 = script20124();
+                IF_SETONMOUSELEAVE(callback(script44, -2147483645, int5), comp(1431, 11));
             } else {
                 IF_SETHIDE(true, comp(1431, 11));
             };

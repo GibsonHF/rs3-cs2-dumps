@@ -5,7 +5,9 @@ function script20263(): void {
         script20254();
         return;
     };
-    var int1 = dbrow_getfield(int0, 1335424, 0);
+    stack(int0);
+    script20938();
+    var int1 = [];
     var int2 = dbrow_getfield(int1, 1339392, varbitplayer_58407);
     if ((int2 == -1)) {
         script20254();
@@ -19,34 +21,64 @@ function script20263(): void {
     script20264(int2, int3);
     script20268(int1);
     IF_SETHIDE(false, comp(1443, 9));
-    IF_SETHIDE(false, comp(1443, 22));
+    IF_SETHIDE(false, comp(1443, 26));
     IF_SETHIDE(true, comp(1443, 2));
     IF_SETHIDE(true, comp(1443, 1));
     IF_SETHIDE(true, comp(1443, 3));
-    IF_SETHIDE(true, comp(1443, 23));
-    CC_DELETEALL(comp(1443, 19));
-    CC_DELETEALL(comp(1443, 20));
+    IF_SETHIDE(true, comp(1443, 27));
+    CC_DELETEALL(comp(1443, 23));
+    CC_DELETEALL(comp(1443, 24));
     var string0 = dbrow_getfield(int3, 1347584, 0);
-    var int4 = dbrow_getfield(int3, 1347632, 0);
+    var int4 = dbrow_getfield(int3, 1347696, 0);
     var int5 = script20144(int3);
-    IF_SETTEXT(`Tier ${inttostring((varbitplayer_58407 + 1), 10)} Relics`, comp(1443, 12));
-    if ((int5 == 0)) {
-        if ((script20142(varbitplayer_58407) == 1)) {
-            IF_SETENABLED(true, comp(1443, 34));
+    var int6 = dbrow_getfield(int3, 1347616, 0);
+    var int7 = dbrow_getfield(int2, 1343664, 0);
+    var string1 = "Relics";
+    if ((int6 == 1)) {
+        string1 = "Blessings";
+    };
+    stack(int2);
+    stack(varbitplayer_58407);
+    script21088();
+    IF_SETTEXT(` ${string1}`, comp(1443, 15));
+    if ((int7 == 1)) {
+        if ((int5 == 0)) {
+            stack(int2);
+            script20944();
+            if (BRANCH_EQUALS(1)) {
+                stack(int2);
+                script20947();
+                if (BRANCH_EQUALS(varbitplayer_58408)) {
+                    IF_SETENABLED(true, comp(1443, 38));
+                } else {
+                    IF_SETENABLED(false, comp(1443, 38));
+                };
+            } else {
+                IF_SETENABLED(false, comp(1443, 38));
+            };
         } else {
-            IF_SETENABLED(false, comp(1443, 34));
+            IF_SETENABLED(false, comp(1443, 38));
+        };
+    } else if ((int5 == 0)) {
+        if ((script20142(varbitplayer_58407) == 1)) {
+            IF_SETENABLED(true, comp(1443, 38));
+        } else {
+            IF_SETENABLED(false, comp(1443, 38));
         };
     } else {
-        IF_SETENABLED(false, comp(1443, 34));
+        IF_SETENABLED(false, comp(1443, 38));
     };
-    var int6 = 4;
-    var int7 = 0;
-    var int8 = IF_GETWIDTH(comp(1443, 18));
-    if ((IF_FIND(comp(1443, 19)) == 1)) {
-        [int7, int6] = script20266(int3, int7, int6, int8);
-        [int7, int6] = script20265(int3, int7, int6, int8, int5);
-        [int7, int6] = script20267(int3, int7, int6, int8);
+    var int8 = 4;
+    var int9 = 0;
+    var int10 = IF_GETWIDTH(comp(1443, 22));
+    if ((IF_FIND(comp(1443, 23)) == 1)) {
+        stack(int3);
+        [int9, int8] = script20266(int2, int9, int8, int10);
+        [int9, int8] = script20265(int3, int9, int8, int10, int5);
+        stack(int3);
+        [int9, int8] = script20267(int2, int9, int8, int10);
     };
-    script19620(94568469, 94568466, int6, -1, -1, 0, 8, 4);
+    script19620(94568473, 94568470, int8, -1, -1, 0, 8, 4);
+    IF_SETSIZE(24, IF_GETHEIGHT(comp(1443, 22)), 1, 0, comp(1443, 22));
     return;
 }

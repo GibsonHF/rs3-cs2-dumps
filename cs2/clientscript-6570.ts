@@ -395,7 +395,6 @@ function script6570(int0: number, int1: number, int2: number, int3: number, int4
                 };
                 if ((int4 == 1)) {
                     varclient_2158 = (((int2 - int1) * 30) + CLIENTCLOCK());
-                    varclient_5965 = (CLIENTCLOCK() + (struct_getparam(int0, 3740) * 30));
                 };
                 break;
             }

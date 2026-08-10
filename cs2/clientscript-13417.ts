@@ -45,7 +45,7 @@ function script13417(int0: number): number {
             break;
         }
         case 12: {
-            int1 = 5;
+            int1 = 6;
             break;
         }
     };

@@ -374,10 +374,6 @@ function script4252(int0: number, int1: number): void {
             varclient_6482 = int2;
             break;
         }
-        case 14718: {
-            varclient_2158 = int2;
-            break;
-        }
         case 14719: {
             varclient_2160 = int2;
             break;
@@ -1349,6 +1345,10 @@ function script4252(int0: number, int1: number): void {
             varclient_7289 = int2;
             break;
         }
+        case 3636: {
+            varclient_5965 = int2;
+            break;
+        }
         case 48291: {
             varplayer_11309 = int2;
             break;
@@ -1565,18 +1565,6 @@ function script4252(int0: number, int1: number): void {
             varclient_8330 = int2;
             break;
         }
-        case 52238: {
-            varclient_8341 = int2;
-            break;
-        }
-        case 52239: {
-            varclient_8342 = int2;
-            break;
-        }
-        case 52240: {
-            varclient_8343 = int2;
-            break;
-        }
         case 52319: {
             varclient_8344 = int2;
             break;
@@ -1651,6 +1639,38 @@ function script4252(int0: number, int1: number): void {
         }
         case 2907: {
             varclient_8410 = int2;
+            break;
+        }
+        case 52238: {
+            varclient_8341 = int2;
+            break;
+        }
+        case 52239: {
+            varclient_8342 = int2;
+            break;
+        }
+        case 52240: {
+            varclient_8343 = int2;
+            break;
+        }
+        case 3601: {
+            varclient_8477 = int2;
+            break;
+        }
+        case 3602: {
+            varclient_8478 = int2;
+            break;
+        }
+        case 3603: {
+            varclient_8479 = int2;
+            break;
+        }
+        case 3595: {
+            varclient_8480 = int2;
+            break;
+        }
+        case 3596: {
+            varclient_8481 = int2;
             break;
         }
     };

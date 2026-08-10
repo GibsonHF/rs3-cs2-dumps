@@ -456,9 +456,21 @@ function script5828(int0: number, int1: number, int2: number, int3: number, int4
             int44 = script7236(string12, int18, int7, string7, int2, int3, int4, int44);
         };
         if (((varclient_5121 != -1 as inv) && (varclient_5122 != -1))) {
-            int42 = script11942(int0);
-            if ((int42 > 0)) {
-                int44 = script7235(`<sprite=30343> Innate Mastery: +${inttostring((5 * int42), 10)} damage and accuracy tiers`, string3, int2, int3, int4, int44);
+            script20988();
+            if (BRANCH_EQUALS(1)) {
+                if ((script7239(int8) == 1)) {
+                    int44 = script7235(`<sprite=20806> Genesis Essence: Tier ${inttostring(120, 10)} damage and accuracy.`, string3, int2, int3, int4, int44);
+                } else {
+                    int42 = script11942(int0);
+                    if ((int42 > 0)) {
+                        int44 = script7235(`<sprite=30343> Innate Mastery: +${inttostring((5 * int42), 10)} damage and accuracy tiers`, string3, int2, int3, int4, int44);
+                    };
+                };
+            } else {
+                int42 = script11942(int0);
+                if ((int42 > 0)) {
+                    int44 = script7235(`<sprite=30343> Innate Mastery: +${inttostring((5 * int42), 10)} damage and accuracy tiers`, string3, int2, int3, int4, int44);
+                };
             };
         };
         if ((item_getparam(int0, 2832) == 1)) {
@@ -472,19 +484,19 @@ function script5828(int0: number, int1: number, int2: number, int3: number, int4
         } else if ((item_getparam(int0, 8571) == 1)) {
             int44 = script7235("Underworld Connection", string3, int2, int3, int4, int44);
         };
-        if ((item_getparam(int0, 8928) != -1 as struct)) {
+        if ((item_getparam(int0, 8928) != -1)) {
             int44 = script7235(`Passive: ${struct_getparam(item_getparam(int0, 8928), 2794)}<br>${script17663(int0)}`, string3, int2, int3, int4, int44);
         };
-        if ((item_getparam(int0, 4338) != -1 as obj)) {
+        if ((item_getparam(int0, 4338) != -1)) {
             if ((item_getparam(item_getparam(int0, 4338), 4329) == 1)) {
                 int44 = script7235(`Special Attack: ${script17461(item_getparam(int0, 4338))}`, string3, int2, int3, int4, int44);
             };
         } else if ((item_getparam(int0, 4329) == 1)) {
             int44 = script7235(`Special Attack: ${script17461(int0)}`, string3, int2, int3, int4, int44);
-        } else if ((((OC_CATEGORY(int0) == 4700 as category) && (varclient_5121 != -1 as inv)) && (varclient_5122 != -1))) {
+        } else if ((((OC_CATEGORY(int0) == 4700) && (varclient_5121 != -1)) && (varclient_5122 != -1))) {
             int44 = script7235(`Special Attack: ${script15097(varclient_5121, varclient_5122)}`, string3, int2, int3, int4, int44);
         };
-        if ((((varclient_5121 != -1 as inv) && (varclient_5122 >= 0)) && (script12070(int0) == 1))) {
+        if ((((varclient_5121 != -1) && (varclient_5122 >= 0)) && (script12070(int0) == 1))) {
             int16 = INV_GETVAR(varclient_5121, varclient_5122, 30212);
             int17 = script12071(int16);
             int44 = script7236("Item Level", int17, int7, "", int2, int3, int4, int44);
@@ -506,8 +518,8 @@ function script5828(int0: number, int1: number, int2: number, int3: number, int4
             int44 = script7235("Has a chance to double a drop.", string3, int2, int3, int4, int44);
         };
         int38 = item_getparam(int0, 6186);
-        if ((int38 != -1 as struct)) {
-            if (((item_getparam(int0, 3793) == 1) && (item_getparam(int0, 3203) != -1 as struct))) {
+        if ((int38 != -1)) {
+            if (((item_getparam(int0, 3793) == 1) && (item_getparam(int0, 3203) != -1))) {
                 int44 = script7235("When repaired:", string4, int2, int3, int4, int44);
                 string11 = "";
             };
@@ -537,7 +549,7 @@ function script5828(int0: number, int1: number, int2: number, int3: number, int4
             };
         };
         int38 = item_getparam(int0, 3203);
-        if ((int38 != -1 as struct)) {
+        if ((int38 != -1)) {
             if ((int44 > int45)) {
                 int44 = script13258(1, struct_getparam(int2, 4205), int3, int4, int44);
             };
@@ -609,7 +621,8 @@ function script5828(int0: number, int1: number, int2: number, int3: number, int4
                 int44 = script7236("Prayer points", int34, int7, string7, int2, int3, int4, int44);
             };
             if ((item_getparam(int0, 4342) == 0)) {
-                int44 = script7235(`${script18556(30)} while in combat.`, string3, int2, int3, int4, int44);
+                script21028();
+                int44 = script7235(`${script18556()} while in combat.`, string3, int2, int3, int4, int44);
             };
         };
     };
@@ -1075,6 +1088,31 @@ function script5828(int0: number, int1: number, int2: number, int3: number, int4
                         int44 = script7235(`Item being created: ${OC_NAME(int37)}`, string3, int2, int3, int4, int44);
                         int44 = script7235(`Current progress: ${inttostring(INV_GETVAR(varclient_5121, varclient_5122, 57698), 10)}/${inttostring(item_getparam(int37, 9241), 10)} (${inttostring(SCALE(INV_GETVAR(varclient_5121, varclient_5122, 57698), item_getparam(int37, 9241), 100), 10)}%) `, string3, int2, int3, int4, int44);
                         int44 = script7235(`Experience left in item: ${inttostring((((item_getparam(int37, 9241) - INV_GETVAR(varclient_5121, varclient_5122, 57698)) * item_getparam(int37, 9242)) / 10), 10)}`, string3, int2, int3, int4, int44);
+                    };
+                    break;
+                }
+                case 63595: {
+                    if (((varbitplayer_49710 == 0) || (varbitplayer_49710 == 1))) {
+                        int44 = script12197(int0, varclient_5121, varclient_5122, int2, int3, int4, int44);
+                    };
+                    if (((varbitplayer_49710 == 0) || (varbitplayer_49710 == 2))) {
+                        int44 = script15935(int0, varclient_5121, varclient_5122, int2, int3, int4, int44, string3);
+                    };
+                    int17 = INV_GETVAR(varclient_5121, varclient_5122, 47034);
+                    int44 = script7235(`Charges: ${TOSTRING_LOCALISED(int17, 1)}/${TOSTRING_LOCALISED(1000000, 1)}`, string3, int2, int3, int4, int44);
+                    switch (varbitplayer_61611) {
+                        case 0: {
+                            int44 = script7235("Capacitor mode: Disabled", string3, int2, int3, int4, int44);
+                            break;
+                        }
+                        case 1: {
+                            int44 = script7235("Capacitor mode: Charging", string3, int2, int3, int4, int44);
+                            break;
+                        }
+                        case 2: {
+                            int44 = script7235("Capacitor mode: Discharging", string3, int2, int3, int4, int44);
+                            break;
+                        }
                     };
                     break;
                 }
@@ -1779,6 +1817,27 @@ function script5828(int0: number, int1: number, int2: number, int3: number, int4
                 case 59952: {
                     string12 = `Loot Stored: ${TOSTRING_LOCALISED(varbitplayer_60144, 1)}`;
                     int44 = script7235(string12, string3, int2, int3, int4, int44);
+                    break;
+                }
+                case 63583: {
+                    stack(int0);
+                    stack(varclient_5121);
+                    stack(varclient_5122);
+                    stack(int2);
+                    stack(int3);
+                    stack(int4);
+                    stack(int44);
+                    stack(string3);
+                    script21105();
+                    int44 = [];
+                    break;
+                }
+                case 63589: {
+                    if ((varplayer_13505 != -1)) {
+                        int44 = script7235(`Transmuting: ${OC_NAME(varplayer_13505)}`, string3, int2, int3, int4, int44);
+                    } else {
+                        int44 = script7235("Transmuting: Nothing", string3, int2, int3, int4, int44);
+                    };
                     break;
                 }
                 default: {

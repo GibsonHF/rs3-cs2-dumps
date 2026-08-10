@@ -24,7 +24,8 @@ function script14031(int0: number): void {
             } else {
                 CC_SETCOLOUR(script10495(12));
             };
-            int6 = script3860(dbrow_getfield(int7, 28672, 0));
+            stack(dbrow_getfield(int7, 28672, 0));
+            int6 = script3860(1);
             if ((int6 >= 1)) {
                 CC_CREATE(int1, 5, IF_GETNEXTSUBID(int1));
                 CC_SETPOSITION(16, (int3 + 3), 0, 0);

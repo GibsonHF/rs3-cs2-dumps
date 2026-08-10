@@ -142,8 +142,8 @@ function script10321(int0: number): void {
             [int23, int14] = [PLAYER_GROUP_MEMBER_GET_LAST_SEEN_NODE_ID(int21), 25866];
             string2 = `${string4} is on world: ${inttostring(int23, 10)}`;
             if ((int23 == MAP_WORLD())) {
-                int26 = PLAYER_GROUP_MEMBER_GET_SAME_WORLD_VAR(int21, 0, 1668);
-                int25 = MAX(1, PLAYER_GROUP_MEMBER_GET_SAME_WORLD_VAR(int21, 0, 24595));
+                int26 = PLAYER_GROUP_MEMBER_GET_SAME_WORLD_VAR(int21, 1, 13537);
+                int25 = MAX(1, PLAYER_GROUP_MEMBER_GET_SAME_WORLD_VAR(int21, 1, 13538));
                 [int14, string2] = [25865, `${string4} is on your world.`];
                 if ((int18 == int21)) {
                     string2 = `You are on world ${inttostring(int23, 10)}.`;

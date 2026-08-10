@@ -22,7 +22,7 @@ function script8863(int0: number, int1: number, string0: string): void {
     if ((strcmp(string0, "") == 0)) {
         var string0 = struct_getparam(int2, 3493);
         if (((int0 == 32) && (varplayer_12314 > 0))) {
-            string0 = "Leagues: CATALYST";
+            string0 = script20128();
         };
     };
     string0 = strconcat(string0, " currently unavailable.");

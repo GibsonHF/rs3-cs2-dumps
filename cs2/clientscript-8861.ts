@@ -13,12 +13,16 @@ function script8861(int0: number, int1: number): void {
         }
         case 32: {
             if ((varplayer_12314 > 0)) {
-                string0 = "Leagues: CATALYST";
+                string0 = script20128();
             };
             break;
         }
     };
-    script7040(int0, string0, struct_getparam(int3, 3495));
+    stack(int0);
+    stack(string0);
+    stack(int3);
+    script21109();
+    script7040();
     script8863(int0, string0, 0);
     return;
 }

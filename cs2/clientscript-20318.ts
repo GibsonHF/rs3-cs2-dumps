@@ -17,6 +17,9 @@ function script20318(int0: number, int1: number, int2: number, int3: number, int
         if ((CC_FINDBYCATEGORY(int0, script20173(((3000 * 5) + int6))) == 1)) {
             CC_SETTRANS(int9);
         };
+        if ((CC_FINDBYCATEGORY(int0, script20173(((3000 * 6) + int6))) == 1)) {
+            CC_SETTRANS(int9);
+        };
         if ((CC_FIND(int3, int6) == 1)) {
             CC_SETONTIMER(callback(script20318, int0, int1, int2, int3, int4, int5, int6, (int7 + 1), int8));
         };
@@ -31,7 +34,7 @@ function script20318(int0: number, int1: number, int2: number, int3: number, int
             int11 = (cc_getparam(9336) - 1);
             cc_setparam(9334, int10);
             cc_setparam(9336, int11);
-            if ((dbrow_getfield(int5, 1368144, 0) == 0)) {
+            if ((dbrow_getfield(int5, 1368160, 0) == 0)) {
                 cc_setparam(9337, (cc_getparam(9337) - 1));
             };
             if ((script20171(int8, (200 - UI_GETCATEGORY(CC_GETID()))) == 0)) {
@@ -46,7 +49,7 @@ function script20318(int0: number, int1: number, int2: number, int3: number, int
                 CC_DELETE[1]();
             };
             if ((int11 <= 0)) {
-                if ((int0 != comp(1479, 19))) {
+                if ((int0 != comp(1479, 20))) {
                     IF_SETONRESIZE(callback(script20285), int4);
                     IF_CALLONRESIZE(int4);
                 } else if ((script20320(int0, int2) == 0)) {

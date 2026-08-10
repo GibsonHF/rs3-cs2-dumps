@@ -309,6 +309,9 @@ function script8284(int0: number, int1: number): number {
             break;
         }
         case 7: {
+            if ((script3825() == 1)) {
+                return 0;
+            };
             int3 = (int3 + 1);
             while ((int3 <= int4)) {
                 switch (int3) {
@@ -544,6 +547,10 @@ function script8284(int0: number, int1: number): number {
                         break;
                     }
                     case 5: {
+                        int2 = varbitplayer_61483;
+                        break;
+                    }
+                    case 6: {
                         int2 = script20138();
                         break;
                     }

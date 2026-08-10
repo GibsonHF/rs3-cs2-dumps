@@ -4497,7 +4497,7 @@
 		"category": 4746,
 		"description": "Complete this miniquest.",
 		"id": 268,
-		"name": "Curse of Zaros (miniquest)",
+		"name": "Curse of the Empty Lord (miniquest)",
 		"points": 15,
 		"reqs25": [
 			{
@@ -145324,7 +145324,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Give Snoop some clean Dwarf weed.",
+		"description": "Give Snoop some clean dwarf weed.",
 		"hidden": 1,
 		"id": 4067,
 		"op_17": [
@@ -145520,7 +145520,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Purchase the Quick Traps upgrade from Irwinsson's Hunter Mark shop.",
+		"description": "Purchase the 'Quick Traps' upgrade from Irwinsson's Hunter Mark shop.",
 		"hidden": 1,
 		"id": 4072,
 		"op_17": [
@@ -145552,7 +145552,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Clear an Overgrown idol on Anachronia.",
+		"description": "Clear an overgrown idol on Anachronia.",
 		"hidden": 1,
 		"id": 4073,
 		"op_17": [
@@ -145616,7 +145616,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Harvest an Arbuck herb.",
+		"description": "Harvest an arbuck herb.",
 		"hidden": 1,
 		"id": 4075,
 		"op_17": [
@@ -145687,7 +145687,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Equip a Dragon Mattock.",
+		"description": "Equip a dragon mattock.",
 		"hidden": 1,
 		"id": 4077,
 		"op_17": [
@@ -145719,7 +145719,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Unlock the double Surge or double Escape ability upgrade.",
+		"description": "Unlock the 'double Surge' or 'double Escape' ability upgrade.",
 		"hidden": 1,
 		"id": 4078,
 		"op_17": [
@@ -145751,7 +145751,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Harvest a Dragonfruit plant in the cactus patch in the north of Anachronia.",
+		"description": "Harvest a dragonfruit plant in the cactus patch in the north of Anachronia.",
 		"hidden": 1,
 		"id": 4079,
 		"op_13": [
@@ -145791,7 +145791,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Kill 50 Dinosaurs.",
+		"description": "Kill 50 dinosaurs.",
 		"hidden": 1,
 		"id": 4080,
 		"op_17": [
@@ -145828,7 +145828,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Kill 50 Vile Blooms.",
+		"description": "Kill 50 vile blooms.",
 		"hidden": 1,
 		"id": 4081,
 		"op_17": [
@@ -145865,7 +145865,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Equip a Terrasaur maul.",
+		"description": "Equip a terrasaur maul.",
 		"hidden": 1,
 		"id": 4082,
 		"op_17": [
@@ -145978,7 +145978,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Craft 500 Time Runes.",
+		"description": "Craft 500 time runes.",
 		"hidden": 1,
 		"id": 4084,
 		"op_13": [
@@ -146012,7 +146012,7 @@
 			{
 				"level": 100,
 				"skillID": 20,
-				"text": "Skill: Runecrafting 100",
+				"text": "Skill: Runecraft 100",
 				"unk_bytes": [
 					0,
 					0
@@ -146173,7 +146173,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Enter the Warriors Guild.",
+		"description": "Enter the Warriors' Guild.",
 		"hidden": 1,
 		"id": 4089,
 		"op_17": [
@@ -146255,7 +146255,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Charge an Amulet of Glory in the Heroes' Guild.",
+		"description": "Charge an amulet of glory in the Heroes' Guild.",
 		"hidden": 1,
 		"id": 4091,
 		"op_17": [
@@ -146347,7 +146347,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Use the Telekinetic Grab spell to steal some Wine of Zamorak from the Captured Temple, south of Goblin Village.",
+		"description": "Use the Telekinetic Grab spell to steal some wine of Zamorak from the captured temple south of Goblin Village.",
 		"hidden": 1,
 		"id": 4095,
 		"op_17": [
@@ -146379,7 +146379,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Set up a dwarf cannon.",
+		"description": "Set up a dwarf multicannon.",
 		"hidden": 1,
 		"id": 4096,
 		"op_17": [
@@ -146467,7 +146467,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Harvest a herb from the troll stronghold herb patch.",
+		"description": "Harvest a herb from the Troll Stronghold herb patch.",
 		"hidden": 1,
 		"id": 4099,
 		"op_17": [
@@ -147056,7 +147056,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Equip a full set of subjugation armour.",
+		"description": "Equip a full set of Subjugation armour.",
 		"hidden": 1,
 		"id": 4111,
 		"op_17": [
@@ -147067,48 +147067,6 @@
 			}
 		],
 		"points": 0,
-		"skill_req_count": [
-			1,
-			2
-		],
-		"skill_reqs_8": [
-			{
-				"level": 60,
-				"skillID": 2,
-				"text": "You need level 60 in Strength or Agility to enter the God Wars Dungeon.",
-				"unk_bytes": [
-					0,
-					0
-				]
-			},
-			{
-				"level": 60,
-				"skillID": 16,
-				"text": "",
-				"unk_bytes": [
-					0,
-					0
-				]
-			},
-			{
-				"level": 70,
-				"skillID": 3,
-				"text": "Skill: 70 Constitution",
-				"unk_bytes": [
-					1,
-					0
-				]
-			},
-			{
-				"level": 70,
-				"skillID": 1,
-				"text": "Skill: 70 Defence",
-				"unk_bytes": [
-					1,
-					0
-				]
-			}
-		],
 		"spriteID": 30108,
 		"subreq_count": [
 			1
@@ -147175,7 +147133,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Complete all of the Combat Achievements for God Wars Dungeon bosses, including Nex.",
+		"description": "Complete all of the Combat Mastery achievements for God Wars Dungeon bosses, including Nex.",
 		"hidden": 1,
 		"id": 4113,
 		"op_17": [
@@ -147483,14 +147441,6 @@
 		"description": "Clear the Fort debris at the Kharid-et Dig Site.",
 		"hidden": 1,
 		"id": 4123,
-		"op_13": [
-			{
-				"description": "Complete the Archaeology tutorial.",
-				"step_size": 1,
-				"value": 100,
-				"varbit": 46463
-			}
-		],
 		"op_17": [
 			{
 				"description": "",
@@ -147499,20 +147449,6 @@
 			}
 		],
 		"points": 0,
-		"skill_req_count": [
-			2
-		],
-		"skill_reqs_8": [
-			{
-				"level": 12,
-				"skillID": 27,
-				"text": "Skill: Archaeology 12",
-				"unk_bytes": [
-					0,
-					0
-				]
-			}
-		],
 		"spriteID": 30108,
 		"subreq_count": [
 			1
@@ -148244,7 +148180,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Find an Off-hand khopesh of the Kharidian in Shifting Tombs.",
+		"description": "Find an off-hand khopesh of the Kharidian in the Shifting Tombs.",
 		"hidden": 1,
 		"id": 4146,
 		"op_17": [
@@ -148386,7 +148322,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Craft some Soul runes.",
+		"description": "Craft some soul runes.",
 		"hidden": 1,
 		"id": 4149,
 		"op_17": [
@@ -148407,7 +148343,7 @@
 			{
 				"level": 90,
 				"skillID": 20,
-				"text": "Skill: Runecrafting 90",
+				"text": "Skill: Runecraft 90",
 				"unk_bytes": [
 					0,
 					0
@@ -148421,7 +148357,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Defeat a Camel Warrior.",
+		"description": "Defeat a camel warrior.",
 		"hidden": 1,
 		"id": 4150,
 		"op_17": [
@@ -148520,7 +148456,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Complete all of the Combat Achievements for the Heart of Gielinor bosses (excluding Telos).",
+		"description": "Complete all of the Combat Mastery achievements for the Heart of Gielinor bosses (excluding Telos).",
 		"hidden": 1,
 		"id": 4153,
 		"op_17": [
@@ -148615,7 +148551,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Defeat a Rock Crab in the Fremennik Province.",
+		"description": "Defeat a rock crab in the Fremennik Province.",
 		"hidden": 1,
 		"id": 4155,
 		"op_17": [
@@ -148633,7 +148569,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Defeat a Cockatrice in the Fremennik Province.",
+		"description": "Defeat a cockatrice in the Fremennik Province.",
 		"hidden": 1,
 		"id": 4156,
 		"op_17": [
@@ -148665,7 +148601,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Defeat a Troll in the Fremennik Province.",
+		"description": "Defeat a troll in the Fremennik Province.",
 		"hidden": 1,
 		"id": 4157,
 		"op_17": [
@@ -148707,7 +148643,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Use the Bank on Jatizso or Neitiznot.",
+		"description": "Use the bank on Jatizso or Neitiznot.",
 		"hidden": 1,
 		"id": 4159,
 		"op_13": [
@@ -148739,7 +148675,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Create a Guthix Rest Potion.",
+		"description": "Create a Guthix rest potion.",
 		"hidden": 1,
 		"id": 4160,
 		"op_17": [
@@ -148779,7 +148715,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Catch a Sapphire Glacialis.",
+		"description": "Catch a sapphire glacialis.",
 		"hidden": 1,
 		"id": 4161,
 		"op_17": [
@@ -148811,7 +148747,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Cast Moonclan Teleport.",
+		"description": "Cast the Moonclan Teleport spell.",
 		"hidden": 1,
 		"id": 4162,
 		"op_17": [
@@ -148846,7 +148782,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Move Your House to Rellekka.",
+		"description": "Enter your player-owned house from Rellekka.",
 		"hidden": 1,
 		"id": 4163,
 		"op_17": [
@@ -148878,7 +148814,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Craft 50 Astral Runes.",
+		"description": "Craft 50 astral runes.",
 		"hidden": 1,
 		"id": 4164,
 		"op_17": [
@@ -148904,7 +148840,7 @@
 			{
 				"level": 40,
 				"skillID": 20,
-				"text": "Skill: Runecrafting 40",
+				"text": "Skill: Runecraft 40",
 				"unk_bytes": [
 					0,
 					0
@@ -148958,7 +148894,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Catch a Snowy Knight.",
+		"description": "Catch a snowy knight.",
 		"hidden": 1,
 		"id": 4166,
 		"op_17": [
@@ -148990,7 +148926,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Defeat a Kurask in the Fremennik Province.",
+		"description": "Defeat a kurask in the Fremennik Province.",
 		"hidden": 1,
 		"id": 4167,
 		"op_17": [
@@ -149022,7 +148958,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Defeat a Dagannoth in the Fremennik Province.",
+		"description": "Defeat a dagannoth in the Fremennik Province.",
 		"hidden": 1,
 		"id": 4168,
 		"op_17": [
@@ -149040,7 +148976,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Equip a Helm of Neitiznot.",
+		"description": "Equip a helm of Neitiznot.",
 		"hidden": 1,
 		"id": 4169,
 		"op_17": [
@@ -149075,7 +149011,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Defeat a Jelly in the Fremennik Province.",
+		"description": "Defeat a jelly in the Fremennik Province.",
 		"hidden": 1,
 		"id": 4170,
 		"op_17": [
@@ -149107,7 +149043,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Equip a Granite Shield.",
+		"description": "Equip a granite shield.",
 		"hidden": 1,
 		"id": 4171,
 		"op_17": [
@@ -149148,7 +149084,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Equip a full set of Graahk, Larupia or Kyatt hunter gear.",
+		"description": "Equip a full set of graahk, larupia or kyatt hunter gear.",
 		"hidden": 1,
 		"id": 4172,
 		"op_17": [
@@ -149267,7 +149203,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Harvest 100 sparkling energy from Sparkling Wisps.",
+		"description": "Harvest 100 sparkling energy from sparkling wisps.",
 		"hidden": 1,
 		"id": 4176,
 		"op_17": [
@@ -149322,7 +149258,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Chop 10 Arctic Pine trees.",
+		"description": "Chop 10 arctic pine trees.",
 		"hidden": 1,
 		"id": 4178,
 		"op_17": [
@@ -149359,7 +149295,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Kill 25 Yaks.",
+		"description": "Kill 25 yaks.",
 		"hidden": 1,
 		"id": 4179,
 		"op_13": [
@@ -149393,7 +149329,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Cast Fertile Soil.",
+		"description": "Cast the Fertile Soil spell.",
 		"hidden": 1,
 		"id": 4180,
 		"op_17": [
@@ -149437,7 +149373,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Build a Gilded Altar.",
+		"description": "Build a gilded altar.",
 		"hidden": 1,
 		"id": 4181,
 		"op_17": [
@@ -149469,7 +149405,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Trap a Sabre-Toothed Kyatt.",
+		"description": "Trap a sabre-toothed kyatt.",
 		"hidden": 1,
 		"id": 4182,
 		"op_17": [
@@ -149519,7 +149455,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Equip a Berserker, Warrior, Seers, or Archers Ring.",
+		"description": "Equip a Berserker, Warrior, Seers', or Archers' Ring.",
 		"hidden": 1,
 		"id": 4184,
 		"op_17": [
@@ -149537,7 +149473,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Use the Special Attack of a Dragon Axe.",
+		"description": "Use the special attack of a dragon axe.",
 		"hidden": 1,
 		"id": 4185,
 		"op_17": [
@@ -149569,7 +149505,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Equip a full set of Skeletal, Spined, or Rockshell armour.",
+		"description": "Equip a full skeletal, spined, or rockshell armour set.",
 		"hidden": 1,
 		"id": 4186,
 		"op_17": [
@@ -149604,7 +149540,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Collect Miscellania Resources at Full Approval.",
+		"description": "Collect Miscellania resources at full approval.",
 		"hidden": 1,
 		"id": 4187,
 		"op_17": [
@@ -149657,7 +149593,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Catch 50 Azure Skillchompas.",
+		"description": "Catch 50 azure skillchompas.",
 		"hidden": 1,
 		"id": 4189,
 		"op_17": [
@@ -149694,7 +149630,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Mine 10 Banite Ore north of Rellekka.",
+		"description": "Mine 10 banite ore north of Rellekka.",
 		"hidden": 1,
 		"id": 4190,
 		"op_17": [
@@ -149731,7 +149667,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Smith a piece of Bane equipment to +4 in Rellekka.",
+		"description": "Smith a piece of bane equipment to +4 in Rellekka.",
 		"hidden": 1,
 		"id": 4191,
 		"op_17": [
@@ -149766,7 +149702,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Use a Crystal triskelion key to obtain some treasures.",
+		"description": "Use a crystal triskelion key to obtain some treasures.",
 		"hidden": 1,
 		"id": 4192,
 		"op_17": [
@@ -149819,7 +149755,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Create a Catherby Teleport Tablet.",
+		"description": "Create a Catherby teleport tablet.",
 		"hidden": 1,
 		"id": 4194,
 		"op_17": [
@@ -149863,7 +149799,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Equip Every Dagannoth King Ring.",
+		"description": "Equip every Dagannoth King ring.",
 		"hidden": 1,
 		"id": 4195,
 		"points": 0,
@@ -149900,7 +149836,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Equip a Completed God Book.",
+		"description": "Equip a completed God Book.",
 		"hidden": 1,
 		"id": 4196,
 		"op_17": [
@@ -149932,7 +149868,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Defeat 20 Acheron Mammoths.",
+		"description": "Defeat 20 Acheron mammoths.",
 		"hidden": 1,
 		"id": 4197,
 		"op_17": [
@@ -149969,7 +149905,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Gather a seed from an Aquanite using Seedicide.",
+		"description": "Gather a seed from an aquanite using seedicide.",
 		"hidden": 1,
 		"id": 4198,
 		"op_17": [
@@ -150036,7 +149972,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Build a Demonic Throne.",
+		"description": "Build a demonic throne.",
 		"hidden": 1,
 		"id": 4200,
 		"op_17": [
@@ -150166,7 +150102,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Defeat the Abomination once after Hero's Welcome.",
+		"description": "Defeat the Abomination once.",
 		"hidden": 1,
 		"id": 4203,
 		"op_17": [
@@ -150190,7 +150126,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Summon a Pack Mammoth.",
+		"description": "Summon a pack mammoth.",
 		"hidden": 1,
 		"id": 4204,
 		"op_17": [
@@ -150208,7 +150144,7 @@
 			{
 				"level": 99,
 				"skillID": 23,
-				"text": "Skill: Summoning 99",
+				"text": "Skill: Animallore 99",
 				"unk_bytes": [
 					0,
 					0
@@ -150222,7 +150158,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Use the Trap Telekinesis spell to catch Azure Skillchompas 25 times.",
+		"description": "Use the Trap Telekinesis spell to catch azure skillchompas 25 times.",
 		"hidden": 1,
 		"id": 4205,
 		"op_17": [
@@ -150373,7 +150309,7 @@
 		],
 		"points": 0,
 		"previous_achievements": [
-			4209
+			4563
 		],
 		"skill_req_count": [
 			1
@@ -150472,7 +150408,7 @@
 		"points": 0,
 		"previous_achievements": [
 			4210,
-			4213
+			4570
 		],
 		"skill_req_count": [
 			2
@@ -151595,7 +151531,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Activate the thick skin, rock skin, or steel skin Prayer.",
+		"description": "Activate the thick skin, rock skin, or steel skin prayer.",
 		"hidden": 1,
 		"id": 4260,
 		"op_17": [
@@ -151613,7 +151549,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Run out of Prayer points.",
+		"description": "Run out of prayer points.",
 		"hidden": 1,
 		"id": 4261,
 		"op_17": [
@@ -152393,7 +152329,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Drink a Strength Potion.",
+		"description": "Drink a strength potion.",
 		"hidden": 1,
 		"id": 4296,
 		"op_17": [
@@ -152411,7 +152347,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Make an Attack Potion.",
+		"description": "Make an attack potion.",
 		"hidden": 1,
 		"id": 4297,
 		"op_17": [
@@ -152429,7 +152365,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Make a Necromancy Potion.",
+		"description": "Make a necromancy potion.",
 		"hidden": 1,
 		"id": 4298,
 		"op_17": [
@@ -152461,7 +152397,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Clean 5 Grimy Guam.",
+		"description": "Clean 5 grimy guam.",
 		"hidden": 1,
 		"id": 4299,
 		"op_17": [
@@ -152484,7 +152420,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Clean 15 Grimy Tarromin.",
+		"description": "Clean 15 grimy tarromin.",
 		"hidden": 1,
 		"id": 4300,
 		"op_17": [
@@ -152631,7 +152567,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Fletch an Oak Shortbow (unstrung).",
+		"description": "Fletch an oak shortbow (unstrung).",
 		"hidden": 1,
 		"id": 4305,
 		"op_17": [
@@ -152710,7 +152646,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Fletch 50 Bronze bolts.",
+		"description": "Fletch 50 bronze bolts.",
 		"hidden": 1,
 		"id": 4308,
 		"op_17": [
@@ -152747,7 +152683,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Complete 10 laps of any Agility course.",
+		"description": "Complete 10 laps of any agility course.",
 		"hidden": 1,
 		"id": 4309,
 		"op_17": [
@@ -152770,7 +152706,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Complete 25 laps of any Agility course.",
+		"description": "Complete 25 laps of any agility course.",
 		"hidden": 1,
 		"id": 4310,
 		"op_17": [
@@ -152799,7 +152735,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Complete 50 laps of any Agility course.",
+		"description": "Complete 50 laps of any agility course.",
 		"hidden": 1,
 		"id": 4311,
 		"op_17": [
@@ -152828,7 +152764,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Complete 100 laps of any Agility course.",
+		"description": "Complete 100 laps of any agility course.",
 		"hidden": 1,
 		"id": 4312,
 		"op_17": [
@@ -152967,7 +152903,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Open 30 Sedimentary Geodes.",
+		"description": "Open 30 sedimentary geodes.",
 		"hidden": 1,
 		"id": 4317,
 		"op_17": [
@@ -152990,7 +152926,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Harvest a Grimy Marrentill.",
+		"description": "Harvest a grimy marrentill.",
 		"hidden": 1,
 		"id": 4318,
 		"op_17": [
@@ -153022,7 +152958,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Harvest 10 Grimy Tarromin.",
+		"description": "Harvest 10 grimy tarromin.",
 		"hidden": 1,
 		"id": 4319,
 		"op_17": [
@@ -153140,7 +153076,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Make some Bread.",
+		"description": "Make some bread.",
 		"hidden": 1,
 		"id": 4323,
 		"op_17": [
@@ -153257,7 +153193,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Scatter some Ashes.",
+		"description": "Scatter some ashes.",
 		"hidden": 1,
 		"id": 4328,
 		"op_17": [
@@ -153333,7 +153269,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Restore 50 Prayer Points at an Altar at once.",
+		"description": "Restore 50 prayer points at an altar at once.",
 		"hidden": 1,
 		"id": 4331,
 		"op_17": [
@@ -153365,7 +153301,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Restore 500 Prayer Points at an Altar at once.",
+		"description": "Restore 500 prayer points at an altar at once.",
 		"hidden": 1,
 		"id": 4332,
 		"op_17": [
@@ -153429,7 +153365,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Catch a Baby Impling.",
+		"description": "Catch a baby impling.",
 		"hidden": 1,
 		"id": 4334,
 		"op_17": [
@@ -153461,7 +153397,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Catch 10 Implings of any kind.",
+		"description": "Catch 10 implings of any kind.",
 		"hidden": 1,
 		"id": 4335,
 		"op_17": [
@@ -153498,7 +153434,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Catch 25 Implings of any kind.",
+		"description": "Catch 25 implings of any kind.",
 		"hidden": 1,
 		"id": 4336,
 		"op_17": [
@@ -153538,7 +153474,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Catch 35 Implings of any kind.",
+		"description": "Catch 35 implings of any kind.",
 		"hidden": 1,
 		"id": 4337,
 		"op_17": [
@@ -153769,7 +153705,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Pick 5 Flax.",
+		"description": "Pick 5 flax.",
 		"hidden": 1,
 		"id": 4345,
 		"op_17": [
@@ -153815,7 +153751,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Spin a Ball of Wool.",
+		"description": "Spin a ball of wool.",
 		"hidden": 1,
 		"id": 4347,
 		"op_17": [
@@ -153833,7 +153769,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Equip a full set of Iron armour without any upgrades.",
+		"description": "Equip a full set of iron armour without any upgrades.",
 		"hidden": 1,
 		"id": 4348,
 		"op_17": [
@@ -153874,7 +153810,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Equip a full set of Green Dragonhide armour.",
+		"description": "Equip a full set of green dragonhide armour.",
 		"hidden": 1,
 		"id": 4349,
 		"op_17": [
@@ -153915,7 +153851,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Equip a full set of Imphide robes.",
+		"description": "Equip a full set of imphide robes.",
 		"hidden": 1,
 		"id": 4350,
 		"op_17": [
@@ -153956,7 +153892,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Equip a full set of Spider silk robes.",
+		"description": "Equip a full set of spider silk robes.",
 		"hidden": 1,
 		"id": 4351,
 		"op_17": [
@@ -153997,7 +153933,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Complete an Easy clue scroll.",
+		"description": "Complete an easy clue scroll.",
 		"hidden": 1,
 		"id": 4352,
 		"op_17": [
@@ -154015,7 +153951,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Complete 25 Easy clue scrolls.",
+		"description": "Complete 25 easy clue scrolls.",
 		"hidden": 1,
 		"id": 4353,
 		"op_17": [
@@ -154055,7 +153991,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Complete 75 Easy clue scrolls.",
+		"description": "Complete 75 easy clue scrolls.",
 		"hidden": 1,
 		"id": 4354,
 		"op_17": [
@@ -154084,7 +154020,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Complete 150 Easy clue scrolls.",
+		"description": "Complete 150 easy clue scrolls.",
 		"hidden": 1,
 		"id": 4355,
 		"op_17": [
@@ -154113,7 +154049,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Collect 10 unique items for the General clue rewards collection log.",
+		"description": "Collect 10 unique items for the general clue rewards collection log.",
 		"hidden": 1,
 		"id": 4356,
 		"op_17": [
@@ -154131,7 +154067,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Collect 25 unique items for the General clue rewards collection log.",
+		"description": "Collect 25 unique items for the general clue rewards collection log.",
 		"hidden": 1,
 		"id": 4357,
 		"op_17": [
@@ -154149,7 +154085,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Collect 50 unique items for the General clue rewards collection log.",
+		"description": "Collect 50 unique items for the general clue rewards collection log.",
 		"hidden": 1,
 		"id": 4358,
 		"op_17": [
@@ -154167,7 +154103,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Make 30 Prayer Potions.",
+		"description": "Make 30 prayer potions.",
 		"hidden": 1,
 		"id": 4359,
 		"op_17": [
@@ -154204,7 +154140,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Make a 4-dose Potion.",
+		"description": "Make a 4-dose potion.",
 		"hidden": 1,
 		"id": 4360,
 		"op_17": [
@@ -154222,7 +154158,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Make 20 Super Attack Potions.",
+		"description": "Make 20 super attack potions.",
 		"hidden": 1,
 		"id": 4361,
 		"op_17": [
@@ -154259,7 +154195,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Clean 50 Grimy Ranarr.",
+		"description": "Clean 50 grimy ranarr.",
 		"hidden": 1,
 		"id": 4362,
 		"op_17": [
@@ -154296,7 +154232,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Clean 50 Grimy Avantoe.",
+		"description": "Clean 50 grimy avantoe.",
 		"hidden": 1,
 		"id": 4363,
 		"op_17": [
@@ -154333,7 +154269,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Harvest 5 Grimy Ranarr.",
+		"description": "Harvest 5 grimy ranarr.",
 		"hidden": 1,
 		"id": 4364,
 		"op_17": [
@@ -154370,7 +154306,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Equip an Iron Crossbow.",
+		"description": "Equip an iron crossbow.",
 		"hidden": 1,
 		"id": 4365,
 		"op_17": [
@@ -154402,7 +154338,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Equip a Maple shieldbow.",
+		"description": "Equip a maple shieldbow.",
 		"hidden": 1,
 		"id": 4366,
 		"op_17": [
@@ -154443,7 +154379,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Fletch 50 Maple shieldbow (unstrung).",
+		"description": "Fletch 50 maple shieldbow (unstrung).",
 		"hidden": 1,
 		"id": 4367,
 		"op_17": [
@@ -154480,7 +154416,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Fletch 400 Steel arrows.",
+		"description": "Fletch 400 steel arrows.",
 		"hidden": 1,
 		"id": 4368,
 		"op_17": [
@@ -154517,7 +154453,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Fletch 100 Iron bolts.",
+		"description": "Fletch 100 iron bolts.",
 		"hidden": 1,
 		"id": 4369,
 		"op_17": [
@@ -154554,7 +154490,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Mine some Ore With a Rune Pickaxe.",
+		"description": "Mine some ore with a rune pickaxe.",
 		"hidden": 1,
 		"id": 4370,
 		"op_17": [
@@ -154586,7 +154522,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Mine 20 Mithril Ore.",
+		"description": "Mine 20 mithril ore.",
 		"hidden": 1,
 		"id": 4371,
 		"op_17": [
@@ -154623,7 +154559,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Mine 30 Adamant Ore.",
+		"description": "Mine 30 adamant ore.",
 		"hidden": 1,
 		"id": 4372,
 		"op_17": [
@@ -154660,7 +154596,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Mine 40 Runite Ore.",
+		"description": "Mine 40 runite ore.",
 		"hidden": 1,
 		"id": 4373,
 		"op_17": [
@@ -154697,7 +154633,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Open 20 Igneous Geodes.",
+		"description": "Open 20 igneous geodes.",
 		"hidden": 1,
 		"id": 4374,
 		"op_17": [
@@ -154734,7 +154670,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Check a grown Fruit Tree.",
+		"description": "Check a grown fruit tree.",
 		"hidden": 1,
 		"id": 4375,
 		"op_17": [
@@ -154766,7 +154702,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Catch 100 Lobsters.",
+		"description": "Catch 100 lobsters.",
 		"hidden": 1,
 		"id": 4376,
 		"op_17": [
@@ -154803,7 +154739,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Catch 50 Swordfish.",
+		"description": "Catch 50 swordfish.",
 		"hidden": 1,
 		"id": 4377,
 		"op_17": [
@@ -154840,7 +154776,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Catch 50 Salmon.",
+		"description": "Catch 50 salmon.",
 		"hidden": 1,
 		"id": 4378,
 		"op_17": [
@@ -154877,7 +154813,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Catch 10 Pike.",
+		"description": "Catch 10 pike.",
 		"hidden": 1,
 		"id": 4379,
 		"op_17": [
@@ -154946,7 +154882,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Make a Stew.",
+		"description": "Make a stew.",
 		"hidden": 1,
 		"id": 4381,
 		"op_17": [
@@ -154978,7 +154914,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Make a Chocolate Cake.",
+		"description": "Make a chocolate cake.",
 		"hidden": 1,
 		"id": 4382,
 		"op_17": [
@@ -155010,7 +154946,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Bury some Baby Dragon bones.",
+		"description": "Bury some baby dragon bones.",
 		"hidden": 1,
 		"id": 4383,
 		"op_17": [
@@ -155028,7 +154964,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Bury 5 Dragon bones.",
+		"description": "Bury 5 dragon bones.",
 		"hidden": 1,
 		"id": 4384,
 		"op_17": [
@@ -155083,7 +155019,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Catch a Gourmet Impling.",
+		"description": "Catch a gourmet impling.",
 		"hidden": 1,
 		"id": 4386,
 		"op_17": [
@@ -155115,7 +155051,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Light a Bullseye Lantern.",
+		"description": "Light a bullseye lantern.",
 		"hidden": 1,
 		"id": 4387,
 		"op_17": [
@@ -155147,7 +155083,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Teleport using Law runes.",
+		"description": "Teleport using law runes.",
 		"hidden": 1,
 		"id": 4388,
 		"op_17": [
@@ -155179,7 +155115,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Craft some Combination runes.",
+		"description": "Craft some combination runes.",
 		"hidden": 1,
 		"id": 4389,
 		"op_17": [
@@ -155197,7 +155133,7 @@
 			{
 				"level": 6,
 				"skillID": 20,
-				"text": "Skill: Runecrafting 6",
+				"text": "Skill: Runecraft 6",
 				"unk_bytes": [
 					0,
 					0
@@ -155321,7 +155257,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Equip a full set of Steel armour.",
+		"description": "Equip a full set of steel armour.",
 		"hidden": 1,
 		"id": 4394,
 		"op_17": [
@@ -155353,7 +155289,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Equip a full set of Mithril armour.",
+		"description": "Equip a full set of mithril armour.",
 		"hidden": 1,
 		"id": 4395,
 		"op_17": [
@@ -155385,7 +155321,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Equip a full set of Adamant armour.",
+		"description": "Equip a full set of adamant armour.",
 		"hidden": 1,
 		"id": 4396,
 		"op_17": [
@@ -155417,7 +155353,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Equip a full set of Rune armour.",
+		"description": "Equip a full set of rune armour.",
 		"hidden": 1,
 		"id": 4397,
 		"op_17": [
@@ -155449,7 +155385,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Equip a full set of Blue Dragonhide armour.",
+		"description": "Equip a full set of blue dragonhide armour.",
 		"hidden": 1,
 		"id": 4398,
 		"op_17": [
@@ -155481,7 +155417,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Equip a full set of Red Dragonhide armour.",
+		"description": "Equip a full set of red dragonhide armour.",
 		"hidden": 1,
 		"id": 4399,
 		"op_17": [
@@ -155513,7 +155449,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Equip a full set of Batwing robes.",
+		"description": "Equip a full set of batwing robes.",
 		"hidden": 1,
 		"id": 4400,
 		"op_17": [
@@ -155545,7 +155481,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Equip a full set of Mystic robes.",
+		"description": "Equip a full set of mystic robes.",
 		"hidden": 1,
 		"id": 4401,
 		"op_17": [
@@ -155577,7 +155513,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Create a Mithril Grapple.",
+		"description": "Create a mithril grapple.",
 		"hidden": 1,
 		"id": 4402,
 		"op_17": [
@@ -155618,7 +155554,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Burn 25 Willow logs.",
+		"description": "Burn 25 willow logs.",
 		"hidden": 1,
 		"id": 4403,
 		"op_17": [
@@ -155655,7 +155591,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Burn 50 Maple logs.",
+		"description": "Burn 50 maple logs.",
 		"hidden": 1,
 		"id": 4404,
 		"op_17": [
@@ -155866,7 +155802,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Complete a Medium clue scroll.",
+		"description": "Complete a medium clue scroll.",
 		"hidden": 1,
 		"id": 4411,
 		"op_17": [
@@ -155884,7 +155820,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Complete 25 Medium clue scrolls.",
+		"description": "Complete 25 medium clue scrolls.",
 		"hidden": 1,
 		"id": 4412,
 		"op_17": [
@@ -155913,7 +155849,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Complete 75 Medium clue scrolls.",
+		"description": "Complete 75 medium clue scrolls.",
 		"hidden": 1,
 		"id": 4413,
 		"op_17": [
@@ -155942,7 +155878,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Complete 150 Medium clue scrolls.",
+		"description": "Complete 150 medium clue scrolls.",
 		"hidden": 1,
 		"id": 4414,
 		"op_17": [
@@ -155971,7 +155907,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Complete a Hard clue scroll.",
+		"description": "Complete a hard clue scroll.",
 		"hidden": 1,
 		"id": 4415,
 		"op_17": [
@@ -155989,7 +155925,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Complete 25 Hard clue scrolls.",
+		"description": "Complete 25 hard clue scrolls.",
 		"hidden": 1,
 		"id": 4416,
 		"op_17": [
@@ -156018,7 +155954,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Complete 75 Hard clue scrolls.",
+		"description": "Complete 75 hard clue scrolls.",
 		"hidden": 1,
 		"id": 4417,
 		"op_17": [
@@ -156047,7 +155983,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Complete 150 Hard clue scrolls.",
+		"description": "Complete 150 hard clue scrolls.",
 		"hidden": 1,
 		"id": 4418,
 		"op_17": [
@@ -156076,7 +156012,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Collect 5 unique items for the Easy clue rewards collection log.",
+		"description": "Collect 5 unique items for the easy clue rewards collection log.",
 		"hidden": 1,
 		"id": 4419,
 		"op_17": [
@@ -156094,7 +156030,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Collect 10 unique items for the Easy clue rewards collection log.",
+		"description": "Collect 10 unique items for the easy clue rewards collection log.",
 		"hidden": 1,
 		"id": 4420,
 		"op_17": [
@@ -156118,7 +156054,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Collect 25 unique items for the Easy clue rewards collection log.",
+		"description": "Collect 25 unique items for the easy clue rewards collection log.",
 		"hidden": 1,
 		"id": 4421,
 		"op_17": [
@@ -156142,7 +156078,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Collect 50 unique items for the Easy clue rewards collection log.",
+		"description": "Collect 50 unique items for the easy clue rewards collection log.",
 		"hidden": 1,
 		"id": 4422,
 		"op_17": [
@@ -156166,7 +156102,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Collect 5 unique items for the Medium clue rewards collection log.",
+		"description": "Collect 5 unique items for the medium clue rewards collection log.",
 		"hidden": 1,
 		"id": 4423,
 		"op_17": [
@@ -156184,7 +156120,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Collect 10 unique items for the Medium clue rewards collection log.",
+		"description": "Collect 10 unique items for the medium clue rewards collection log.",
 		"hidden": 1,
 		"id": 4424,
 		"op_17": [
@@ -156208,7 +156144,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Collect 25 unique items for the Medium clue rewards collection log.",
+		"description": "Collect 25 unique items for the medium clue rewards collection log.",
 		"hidden": 1,
 		"id": 4425,
 		"op_17": [
@@ -156232,7 +156168,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Collect 50 unique items for the Medium clue rewards collection log.",
+		"description": "Collect 50 unique items for the medium clue rewards collection log.",
 		"hidden": 1,
 		"id": 4426,
 		"op_17": [
@@ -156256,7 +156192,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Collect 5 unique items for the Hard clue rewards collection log.",
+		"description": "Collect 5 unique items for the hard clue rewards collection log.",
 		"hidden": 1,
 		"id": 4427,
 		"op_17": [
@@ -156274,7 +156210,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Collect 10 unique items for the Hard clue rewards collection log.",
+		"description": "Collect 10 unique items for the ard clue rewards collection log.",
 		"hidden": 1,
 		"id": 4428,
 		"op_17": [
@@ -156298,7 +156234,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Collect 25 unique items for the Hard clue rewards collection log.",
+		"description": "Collect 25 unique items for the ard clue rewards collection log.",
 		"hidden": 1,
 		"id": 4429,
 		"op_17": [
@@ -156322,7 +156258,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Collect 75 unique items for the Hard clue rewards collection log.",
+		"description": "Collect 75 unique items for the hard clue rewards collection log.",
 		"hidden": 1,
 		"id": 4430,
 		"op_17": [
@@ -156346,7 +156282,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Equip any 2 pieces of an Elegant outfit.",
+		"description": "Equip any 2 pieces of an elegant outfit.",
 		"hidden": 1,
 		"id": 4431,
 		"op_17": [
@@ -156364,7 +156300,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Equip a willow, yew or magic composite bow.",
+		"description": "Equip a composite bow of any kind.",
 		"hidden": 1,
 		"id": 4432,
 		"op_17": [
@@ -156396,7 +156332,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Equip any Dragon mask.",
+		"description": "Equip any dragon mask.",
 		"hidden": 1,
 		"id": 4433,
 		"op_17": [
@@ -156414,7 +156350,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Make any Perfect Juju Potion.",
+		"description": "Make any perfect juju potion.",
 		"hidden": 1,
 		"id": 4434,
 		"op_17": [
@@ -156458,7 +156394,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Make 15 Antifire Potions.",
+		"description": "Make 15 antifire potions.",
 		"hidden": 1,
 		"id": 4435,
 		"op_17": [
@@ -156495,7 +156431,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Clean 50 Grimy Cadantine.",
+		"description": "Clean 50 grimy cadantine.",
 		"hidden": 1,
 		"id": 4436,
 		"op_17": [
@@ -156532,7 +156468,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Clean 100 Grimy Lantadyme.",
+		"description": "Clean 100 grimy lantadyme.",
 		"hidden": 1,
 		"id": 4437,
 		"op_17": [
@@ -156569,7 +156505,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Clean 100 Dwarf Weed.",
+		"description": "Clean 100 dwarf weed.",
 		"hidden": 1,
 		"id": 4438,
 		"op_17": [
@@ -156606,7 +156542,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Clean 100 Arbuck.",
+		"description": "Clean 100 arbuck.",
 		"hidden": 1,
 		"id": 4439,
 		"op_17": [
@@ -156643,7 +156579,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Equip a Yew shortbow.",
+		"description": "Equip a yew shortbow.",
 		"hidden": 1,
 		"id": 4440,
 		"op_17": [
@@ -156684,7 +156620,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Equip a Magic shortbow.",
+		"description": "Equip a magic shortbow.",
 		"hidden": 1,
 		"id": 4441,
 		"op_17": [
@@ -156725,7 +156661,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Fletch some Broad Arrows or Bolts.",
+		"description": "Fletch some broad arrows or bolts.",
 		"hidden": 1,
 		"id": 4442,
 		"op_13": [
@@ -156765,7 +156701,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Fletch 100 Yew shortbows (unstrung).",
+		"description": "Fletch 100 yew shortbows (unstrung).",
 		"hidden": 1,
 		"id": 4443,
 		"op_17": [
@@ -156802,7 +156738,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Fletch 100 Yew stocks.",
+		"description": "Fletch 100 yew stocks.",
 		"hidden": 1,
 		"id": 4444,
 		"op_17": [
@@ -156839,7 +156775,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Fletch a Rune Crossbow.",
+		"description": "Fletch a rune crossbow.",
 		"hidden": 1,
 		"id": 4445,
 		"op_17": [
@@ -156912,7 +156848,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Fletch 500 Adamant arrows.",
+		"description": "Fletch 500 adamant arrows.",
 		"hidden": 1,
 		"id": 4447,
 		"op_17": [
@@ -156958,7 +156894,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Fletch 750 Rune arrows.",
+		"description": "Fletch 750 rune arrows.",
 		"hidden": 1,
 		"id": 4448,
 		"op_17": [
@@ -157004,7 +156940,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Fletch 75 Onyx bolts.",
+		"description": "Fletch 75 onyx bolts.",
 		"hidden": 1,
 		"id": 4449,
 		"op_17": [
@@ -157041,7 +156977,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Equip a Rune Ceremonial Sword.",
+		"description": "Equip a rune ceremonial sword.",
 		"hidden": 1,
 		"id": 4450,
 		"op_17": [
@@ -157091,7 +157027,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Power up the Artisan's Workshop with a Luminite Injector.",
+		"description": "Power up the Artisans' Workshop with a luminite injector.",
 		"hidden": 1,
 		"id": 4452,
 		"op_17": [
@@ -157109,7 +157045,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Mine 50 Orichalcite Ore.",
+		"description": "Mine 50 orichalcite ore.",
 		"hidden": 1,
 		"id": 4453,
 		"op_17": [
@@ -157146,7 +157082,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Mine 50 Drakolith.",
+		"description": "Mine 50 drakolith.",
 		"hidden": 1,
 		"id": 4454,
 		"op_17": [
@@ -157183,7 +157119,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Mine 60 Necrite Ore.",
+		"description": "Mine 60 necrite ore.",
 		"hidden": 1,
 		"id": 4455,
 		"op_17": [
@@ -157220,7 +157156,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Mine 60 Phasmatite.",
+		"description": "Mine 60 phasmatite.",
 		"hidden": 1,
 		"id": 4456,
 		"op_17": [
@@ -157257,7 +157193,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Harvest 20 Grimy Kwuarm.",
+		"description": "Harvest 20 grimy kwuarm.",
 		"hidden": 1,
 		"id": 4457,
 		"op_17": [
@@ -157294,7 +157230,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Catch 100 Shark.",
+		"description": "Catch 100 sharks.",
 		"hidden": 1,
 		"id": 4458,
 		"op_17": [
@@ -157331,7 +157267,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Catch 100 Green Blubber Jellyfish.",
+		"description": "Catch 100 green blubber jellyfish.",
 		"hidden": 1,
 		"id": 4459,
 		"op_17": [
@@ -157368,7 +157304,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Catch a Spirit Impling.",
+		"description": "Catch a spirit impling.",
 		"hidden": 1,
 		"id": 4460,
 		"op_17": [
@@ -157444,7 +157380,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Perform a Special Attack.",
+		"description": "Perform a special attack.",
 		"hidden": 1,
 		"id": 4462,
 		"op_17": [
@@ -157538,7 +157474,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Equip a full set of Orikalkum armour.",
+		"description": "Equip a full set of orikalkum armour.",
 		"hidden": 1,
 		"id": 4466,
 		"op_17": [
@@ -157579,7 +157515,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Equip a full set of Necronium armour.",
+		"description": "Equip a full set of necronium armour.",
 		"hidden": 1,
 		"id": 4467,
 		"op_17": [
@@ -157620,7 +157556,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Equip a full set of Black Dragonhide armour.",
+		"description": "Equip a full set of black dragonhide armour.",
 		"hidden": 1,
 		"id": 4468,
 		"op_17": [
@@ -157652,7 +157588,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Equip a full set of Royal Dragonhide armour.",
+		"description": "Equip a full set of royal dragonhide armour.",
 		"hidden": 1,
 		"id": 4469,
 		"op_17": [
@@ -157716,7 +157652,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Burn 75 Yew logs.",
+		"description": "Burn 75 yew logs.",
 		"hidden": 1,
 		"id": 4471,
 		"op_17": [
@@ -157782,7 +157718,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Complete an Elite clue scroll.",
+		"description": "Complete an elite clue scroll.",
 		"hidden": 1,
 		"id": 4473,
 		"op_17": [
@@ -157800,7 +157736,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Complete 25 Elite clue scrolls.",
+		"description": "Complete 25 elite clue scrolls.",
 		"hidden": 1,
 		"id": 4474,
 		"op_17": [
@@ -157829,7 +157765,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Complete 75 Elite clue scrolls.",
+		"description": "Complete 75 elite clue scrolls.",
 		"hidden": 1,
 		"id": 4475,
 		"op_17": [
@@ -157858,7 +157794,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Complete 150 Elite clue scrolls.",
+		"description": "Complete 150 elite clue scrolls.",
 		"hidden": 1,
 		"id": 4476,
 		"op_17": [
@@ -157887,7 +157823,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Complete a Master clue scroll.",
+		"description": "Complete a master clue scroll.",
 		"hidden": 1,
 		"id": 4477,
 		"op_17": [
@@ -157905,7 +157841,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Complete 25 Master clue scrolls.",
+		"description": "Complete 25 master clue scrolls.",
 		"hidden": 1,
 		"id": 4478,
 		"op_17": [
@@ -157934,7 +157870,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Complete 75 Master clue scrolls.",
+		"description": "Complete 75 aster clue scrolls.",
 		"hidden": 1,
 		"id": 4479,
 		"op_17": [
@@ -157963,7 +157899,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Complete 150 Master clue scrolls.",
+		"description": "Complete 150 master clue scrolls.",
 		"hidden": 1,
 		"id": 4480,
 		"op_17": [
@@ -157992,7 +157928,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Collect 5 unique items for the Elite clue rewards collection log.",
+		"description": "Collect 5 unique items for the elite clue rewards collection log.",
 		"hidden": 1,
 		"id": 4481,
 		"op_17": [
@@ -158010,7 +157946,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Collect 10 unique items for the Elite clue rewards collection log.",
+		"description": "Collect 10 unique items for the elite clue rewards collection log.",
 		"hidden": 1,
 		"id": 4482,
 		"op_17": [
@@ -158028,7 +157964,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Collect 20 unique items for the Elite clue rewards collection log.",
+		"description": "Collect 20 unique items for the elite clue rewards collection log.",
 		"hidden": 1,
 		"id": 4483,
 		"op_17": [
@@ -158046,7 +157982,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Collect 35 unique items for the Elite clue rewards collection log.",
+		"description": "Collect 35 unique items for the elite clue rewards collection log.",
 		"hidden": 1,
 		"id": 4484,
 		"op_17": [
@@ -158064,7 +158000,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Collect 5 unique items for the Master clue rewards collection log.",
+		"description": "Collect 5 unique items for the master clue rewards collection log.",
 		"hidden": 1,
 		"id": 4485,
 		"op_17": [
@@ -158082,7 +158018,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Collect 10 unique items for the Master clue rewards collection log.",
+		"description": "Collect 10 unique items for the master clue rewards collection log.",
 		"hidden": 1,
 		"id": 4486,
 		"op_17": [
@@ -158100,7 +158036,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Collect 15 unique items for the Master clue rewards collection log.",
+		"description": "Collect 15 unique items for the master clue rewards collection log.",
 		"hidden": 1,
 		"id": 4487,
 		"op_17": [
@@ -158118,7 +158054,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Collect 30 unique items for the Master clue rewards collection log.",
+		"description": "Collect 30 unique items for the master clue rewards collection log.",
 		"hidden": 1,
 		"id": 4488,
 		"op_17": [
@@ -158136,7 +158072,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Make 25 Powerburst Potions.",
+		"description": "Make 25 powerburst potions.",
 		"hidden": 1,
 		"id": 4489,
 		"op_17": [
@@ -158182,7 +158118,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Make 25 Bomb Potions.",
+		"description": "Make 25 bomb potions.",
 		"hidden": 1,
 		"id": 4490,
 		"op_17": [
@@ -158219,7 +158155,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Make 5 Perfect Plus Potions.",
+		"description": "Make 5 perfect plus potions.",
 		"hidden": 1,
 		"id": 4491,
 		"op_17": [
@@ -158259,7 +158195,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Make 15 Overload Potions.",
+		"description": "Make 15 overload potions.",
 		"hidden": 1,
 		"id": 4492,
 		"op_17": [
@@ -158296,7 +158232,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Make a Spiritual Prayer Potion.",
+		"description": "Make a spiritual prayer potion.",
 		"hidden": 1,
 		"id": 4493,
 		"op_17": [
@@ -158331,7 +158267,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Fletch 200 Magic stocks.",
+		"description": "Fletch 200 magic stocks.",
 		"hidden": 1,
 		"id": 4494,
 		"op_17": [
@@ -158368,7 +158304,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Fletch 750 Elder arrow shafts.",
+		"description": "Fletch 750 elder arrow shafts.",
 		"hidden": 1,
 		"id": 4495,
 		"op_17": [
@@ -158414,7 +158350,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Fletch 20 Elder shortbow (unstrung)",
+		"description": "Fletch 20 elder shortbows (unstrung).",
 		"hidden": 1,
 		"id": 4496,
 		"op_17": [
@@ -158460,7 +158396,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Fletch an Eternal magic shortbow (Martial) or Primal crossbow (martial).",
+		"description": "Fletch an eternal magic shortbow (martial) or primal crossbow (martial).",
 		"hidden": 1,
 		"id": 4497,
 		"op_17": [
@@ -158501,7 +158437,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Fletch 1,000 Eternal magic shafts.",
+		"description": "Fletch 1,000 eternal magic shafts.",
 		"hidden": 1,
 		"id": 4498,
 		"op_17": [
@@ -158547,7 +158483,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Fletch 1,500 Primal arrows.",
+		"description": "Fletch 1,500 primal arrows.",
 		"hidden": 1,
 		"id": 4499,
 		"op_17": [
@@ -158611,7 +158547,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Fletch an Eternal Magic Wood Box.",
+		"description": "Fletch an eternal magic wood box.",
 		"hidden": 1,
 		"id": 4500,
 		"op_17": [
@@ -158652,7 +158588,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Fletch 350 Rune darts.",
+		"description": "Fletch 350 rune darts.",
 		"hidden": 1,
 		"id": 4501,
 		"op_17": [
@@ -158689,7 +158625,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Smith a Primal Ore Box.",
+		"description": "Smith a primal ore box.",
 		"hidden": 1,
 		"id": 4502,
 		"op_17": [
@@ -158730,7 +158666,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Smith 10,000 Armour Spikes.",
+		"description": "Smith 10,000 armour spikes.",
 		"hidden": 1,
 		"id": 4503,
 		"op_17": [
@@ -158776,7 +158712,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Smith 10,000 Primal Armour Spikes.",
+		"description": "Smith 10,000 primal armour spikes.",
 		"hidden": 1,
 		"id": 4504,
 		"op_17": [
@@ -158822,7 +158758,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Mine 70 Banite Ore.",
+		"description": "Mine 70 banite ore.",
 		"hidden": 1,
 		"id": 4505,
 		"op_17": [
@@ -158859,7 +158795,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Mine 100 Dark or Light Animica.",
+		"description": "Mine 100 dark or light animica.",
 		"hidden": 1,
 		"id": 4506,
 		"op_17": [
@@ -158896,7 +158832,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Open 10 Metamorphic Geodes.",
+		"description": "Open 10 metamorphic geodes.",
 		"hidden": 1,
 		"id": 4507,
 		"op_17": [
@@ -158933,7 +158869,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Harvest 40 Grimy Lantadyme.",
+		"description": "Harvest 40 grimy lantadyme.",
 		"hidden": 1,
 		"id": 4508,
 		"op_17": [
@@ -158970,7 +158906,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Harvest 50 Grimy Fellstalk.",
+		"description": "Harvest 50 grimy fellstalk.",
 		"hidden": 1,
 		"id": 4509,
 		"op_17": [
@@ -159007,7 +158943,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Plant an Avocado seed in a bush patch.",
+		"description": "Plant an avocado seed in a bush patch.",
 		"hidden": 1,
 		"id": 4510,
 		"op_17": [
@@ -159039,7 +158975,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Harvest 20 Lychee.",
+		"description": "Harvest 20 lychees.",
 		"hidden": 1,
 		"id": 4511,
 		"op_17": [
@@ -159076,7 +159012,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Harvest 24 Starbloom Flowers.",
+		"description": "Harvest 24 starbloom flowers.",
 		"hidden": 1,
 		"id": 4512,
 		"op_17": [
@@ -159113,7 +159049,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Catch 150 Rocktail.",
+		"description": "Catch 150 rocktail.",
 		"hidden": 1,
 		"id": 4513,
 		"op_17": [
@@ -159150,7 +159086,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Catch 200 Sailfish.",
+		"description": "Catch 200 sailfish.",
 		"hidden": 1,
 		"id": 4514,
 		"op_17": [
@@ -159187,7 +159123,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Catch 150 Blue Blubber Jellyfish.",
+		"description": "Catch 150 blue blubber jellyfish.",
 		"hidden": 1,
 		"id": 4515,
 		"op_17": [
@@ -159224,7 +159160,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Catch a Cavefish.",
+		"description": "Catch a cavefish.",
 		"hidden": 1,
 		"id": 4516,
 		"op_17": [
@@ -159256,7 +159192,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Catch a Manta ray.",
+		"description": "Catch a manta ray.",
 		"hidden": 1,
 		"id": 4517,
 		"op_17": [
@@ -159320,7 +159256,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Catch a Dragon Impling.",
+		"description": "Catch a dragon impling.",
 		"hidden": 1,
 		"id": 4519,
 		"op_17": [
@@ -159352,7 +159288,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Catch a Kingly Impling.",
+		"description": "Catch a kingly impling.",
 		"hidden": 1,
 		"id": 4520,
 		"op_17": [
@@ -159384,7 +159320,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Equip a full set of Bane armour.",
+		"description": "Equip a full set of bane armour.",
 		"hidden": 1,
 		"id": 4521,
 		"op_17": [
@@ -159416,7 +159352,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Equip a full set of Elder Rune armour.",
+		"description": "Equip a full set of elder rune armour.",
 		"hidden": 1,
 		"id": 4522,
 		"op_17": [
@@ -159480,7 +159416,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Burn 100 Magic Logs",
+		"description": "Burn 100 magic logs",
 		"hidden": 1,
 		"id": 4524,
 		"op_17": [
@@ -159554,7 +159490,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Obtain 50 Million Agility XP.",
+		"description": "Obtain 50 million Agility XP.",
 		"hidden": 1,
 		"id": 4526,
 		"op_17": [
@@ -159578,7 +159514,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Obtain 50 Million Construction XP.",
+		"description": "Obtain 50 million Construction XP.",
 		"hidden": 1,
 		"id": 4527,
 		"op_17": [
@@ -159602,7 +159538,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Obtain 50 Million Cooking XP.",
+		"description": "Obtain 50 million Cooking XP.",
 		"hidden": 1,
 		"id": 4528,
 		"op_17": [
@@ -159626,7 +159562,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Obtain 50 Million Crafting XP.",
+		"description": "Obtain 50 million Crafting XP.",
 		"hidden": 1,
 		"id": 4529,
 		"op_17": [
@@ -159650,7 +159586,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Obtain 50 Million Farming XP.",
+		"description": "Obtain 50 million Farming XP.",
 		"hidden": 1,
 		"id": 4530,
 		"op_17": [
@@ -159674,7 +159610,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Obtain 50 Million Firemaking XP.",
+		"description": "Obtain 50 million Firemaking XP.",
 		"hidden": 1,
 		"id": 4531,
 		"op_17": [
@@ -159698,7 +159634,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Obtain 50 Million Fishing XP.",
+		"description": "Obtain 50 million Fishing XP.",
 		"hidden": 1,
 		"id": 4532,
 		"op_17": [
@@ -159722,7 +159658,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Obtain 50 Million Fletching XP.",
+		"description": "Obtain 50 million Fletching XP.",
 		"hidden": 1,
 		"id": 4533,
 		"op_17": [
@@ -159746,7 +159682,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Obtain 50 Million Herblore XP.",
+		"description": "Obtain 50 million Herblore XP.",
 		"hidden": 1,
 		"id": 4534,
 		"op_17": [
@@ -159770,7 +159706,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Obtain 50 Million Hunter XP.",
+		"description": "Obtain 50 million Hunter XP.",
 		"hidden": 1,
 		"id": 4535,
 		"op_17": [
@@ -159794,7 +159730,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Obtain 50 Million Mining XP.",
+		"description": "Obtain 50 million Mining XP.",
 		"hidden": 1,
 		"id": 4536,
 		"op_17": [
@@ -159818,7 +159754,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Obtain 50 Million Prayer XP.",
+		"description": "Obtain 50 million Prayer XP.",
 		"hidden": 1,
 		"id": 4537,
 		"op_17": [
@@ -159842,7 +159778,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Obtain 50 Million Runecrafting XP.",
+		"description": "Obtain 50 million Runecrafting XP.",
 		"hidden": 1,
 		"id": 4538,
 		"op_17": [
@@ -159866,7 +159802,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Obtain 50 Million Slayer XP.",
+		"description": "Obtain 50 million Slayer XP.",
 		"hidden": 1,
 		"id": 4539,
 		"op_17": [
@@ -159890,7 +159826,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Obtain 50 Million Smithing XP.",
+		"description": "Obtain 50 million Smithing XP.",
 		"hidden": 1,
 		"id": 4540,
 		"op_17": [
@@ -159914,7 +159850,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Obtain 50 Million Thieving XP.",
+		"description": "Obtain 50 million Thieving XP.",
 		"hidden": 1,
 		"id": 4541,
 		"op_17": [
@@ -159938,7 +159874,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Obtain 50 Million Woodcutting XP.",
+		"description": "Obtain 50 million Woodcutting XP.",
 		"hidden": 1,
 		"id": 4542,
 		"op_17": [
@@ -159962,7 +159898,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Obtain 50 Million Dungeoneering XP.",
+		"description": "Obtain 50 million Dungeoneering XP.",
 		"hidden": 1,
 		"id": 4543,
 		"op_17": [
@@ -159986,7 +159922,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Obtain 50 Million Invention XP.",
+		"description": "Obtain 50 million Invention XP.",
 		"hidden": 1,
 		"id": 4544,
 		"op_17": [
@@ -160010,7 +159946,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Obtain 50 Million Divination XP.",
+		"description": "Obtain 50 million Divination XP.",
 		"hidden": 1,
 		"id": 4545,
 		"op_17": [
@@ -160034,7 +159970,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Obtain 50 Million Archaeology XP.",
+		"description": "Obtain 50 million Archaeology XP.",
 		"hidden": 1,
 		"id": 4546,
 		"op_17": [
@@ -160058,7 +159994,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Obtain 50 Million Attack XP.",
+		"description": "Obtain 50 million Attack XP.",
 		"hidden": 1,
 		"id": 4547,
 		"op_17": [
@@ -160082,7 +160018,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Obtain 50 Million Constitution XP.",
+		"description": "Obtain 50 million Constitution XP.",
 		"hidden": 1,
 		"id": 4548,
 		"op_17": [
@@ -160106,7 +160042,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Obtain 50 Million Strength XP.",
+		"description": "Obtain 50 million Strength XP.",
 		"hidden": 1,
 		"id": 4549,
 		"op_17": [
@@ -160130,7 +160066,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Obtain 50 Million Defence XP.",
+		"description": "Obtain 50 million Defence XP.",
 		"hidden": 1,
 		"id": 4550,
 		"op_17": [
@@ -160154,7 +160090,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Obtain 50 Million Ranged XP.",
+		"description": "Obtain 50 million Ranged XP.",
 		"hidden": 1,
 		"id": 4551,
 		"op_17": [
@@ -160178,7 +160114,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Obtain 50 Million Magic XP.",
+		"description": "Obtain 50 million Magic XP.",
 		"hidden": 1,
 		"id": 4552,
 		"op_17": [
@@ -160202,7 +160138,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Obtain 50 Million Summoning XP.",
+		"description": "Obtain 50 million Summoning XP.",
 		"hidden": 1,
 		"id": 4553,
 		"op_17": [
@@ -160226,7 +160162,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Obtain 50 Million Necromancy XP.",
+		"description": "Obtain 50 million Necromancy XP.",
 		"hidden": 1,
 		"id": 4554,
 		"op_17": [
@@ -160250,7 +160186,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Make 5 Elder Overload Salve Potions.",
+		"description": "Make 5 elder overload salve potions.",
 		"hidden": 1,
 		"id": 4555,
 		"op_13": [
@@ -160295,7 +160231,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Equip an Eternal Magic shortbow.",
+		"description": "Equip an eternal magic shortbow.",
 		"hidden": 1,
 		"id": 4556,
 		"op_17": [
@@ -160345,7 +160281,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Equip any Masterwork weapon.",
+		"description": "Equip any masterwork weapon.",
 		"hidden": 1,
 		"id": 4557,
 		"op_13": [
@@ -160392,7 +160328,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Equip a full set of Masterwork armour.",
+		"description": "Equip a full set of masterwork armour.",
 		"hidden": 1,
 		"id": 4558,
 		"op_17": [
@@ -160406,11 +160342,9 @@
 		"points": 0,
 		"previous_achievements": [
 			3519,
-			69576,
-			136009
+			69576
 		],
 		"skill_req_count": [
-			2,
 			3,
 			3
 		],
@@ -160419,6 +160353,15 @@
 				"level": 90,
 				"skillID": 1,
 				"text": "Skill: Defence 90",
+				"unk_bytes": [
+					0,
+					0
+				]
+			},
+			{
+				"level": 99,
+				"skillID": 13,
+				"text": "Skill: Smithing 99",
 				"unk_bytes": [
 					0,
 					0
@@ -160441,24 +160384,6 @@
 					1,
 					0
 				]
-			},
-			{
-				"level": 99,
-				"skillID": 1,
-				"text": "Skill: Defence 99",
-				"unk_bytes": [
-					2,
-					0
-				]
-			},
-			{
-				"level": 110,
-				"skillID": 12,
-				"text": "Skill: Crafting 110",
-				"unk_bytes": [
-					2,
-					0
-				]
 			}
 		],
 		"spriteID": 30108,
@@ -160468,7 +160393,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Equip a full set of Primal armour.",
+		"description": "Equip a full set of primal armour.",
 		"hidden": 1,
 		"id": 4559,
 		"op_17": [
@@ -160518,7 +160443,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Obtain 200 Million XP in any single skill.",
+		"description": "Obtain 200 million XP in any single skill.",
 		"hidden": 1,
 		"id": 4560,
 		"op_17": [
@@ -160915,7 +160840,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Catch a Crimson Swift in the Feldip Hills.",
+		"description": "Catch a crimson swift in the Feldip Hills.",
 		"hidden": 1,
 		"id": 4577,
 		"op_17": [
@@ -160933,7 +160858,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Defeat a Tortoise with riders in Kandarin.",
+		"description": "Defeat a tortoise with riders in Kandarin.",
 		"hidden": 1,
 		"id": 4578,
 		"op_17": [
@@ -160969,7 +160894,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Equip a Marksman hat.",
+		"description": "Equip a marksman hat.",
 		"hidden": 1,
 		"id": 4580,
 		"op_17": [
@@ -161011,7 +160936,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Catch a Wild Kebbit.",
+		"description": "Catch a wild kebbit.",
 		"hidden": 1,
 		"id": 4582,
 		"op_17": [
@@ -161043,7 +160968,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Make a Pineapple Punch cocktail.",
+		"description": "Make a pineapple punch cocktail.",
 		"hidden": 1,
 		"id": 4583,
 		"op_17": [
@@ -161075,7 +161000,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Fletch 50 Maple shieldbow (unstrung) in Kandarin.",
+		"description": "Fletch 50 maple shieldbow (unstrung) in Kandarin.",
 		"hidden": 1,
 		"id": 4584,
 		"op_17": [
@@ -161149,7 +161074,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Equip a Spottier Cape.",
+		"description": "Equip a spottier cape.",
 		"hidden": 1,
 		"id": 4586,
 		"op_17": [
@@ -161213,7 +161138,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Check a grown Papaya Tree inside Tree Gnome Stronghold.",
+		"description": "Check a grown papaya tree inside Tree Gnome Stronghold.",
 		"hidden": 1,
 		"id": 4588,
 		"op_17": [
@@ -161245,7 +161170,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Defeat a Fire Giant in Kandarin.",
+		"description": "Defeat a fire giant in Kandarin.",
 		"hidden": 1,
 		"id": 4589,
 		"op_17": [
@@ -161321,7 +161246,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Equip an Ogre Forester Hat.",
+		"description": "Equip an ogre forester hat.",
 		"hidden": 1,
 		"id": 4591,
 		"op_17": [
@@ -161345,7 +161270,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Hunt 10 Spotted Kebbits with the help of a falcon.",
+		"description": "Hunt 10 spotted kebbits with the help of a falcon.",
 		"hidden": 1,
 		"id": 4592,
 		"op_17": [
@@ -161450,7 +161375,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Catch 50 Red Chinchompas in Kandarin.",
+		"description": "Catch 50 red chinchompas in Kandarin.",
 		"hidden": 1,
 		"id": 4596,
 		"op_17": [
@@ -161487,7 +161412,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Equip an Ogre Expert hat.",
+		"description": "Equip an ogre expert hat.",
 		"hidden": 1,
 		"id": 4597,
 		"op_17": [
@@ -161511,7 +161436,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Catch a Monkfish.",
+		"description": "Catch a monkfish.",
 		"hidden": 1,
 		"id": 4598,
 		"op_17": [
@@ -161659,7 +161584,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Chop an Elder Tree until it no longer has logs remaining.",
+		"description": "Chop an elder tree until it no longer has logs remaining in Kandarin.",
 		"hidden": 1,
 		"id": 4602,
 		"op_17": [
@@ -161691,7 +161616,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Obtain a Crystal Geode from a Crystal Tree.",
+		"description": "Obtain a crystal geode from a crystal tree.",
 		"hidden": 1,
 		"id": 4603,
 		"op_17": [
@@ -161755,7 +161680,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Equip a Dragon Archer hat.",
+		"description": "Equip a dragon archer hat.",
 		"hidden": 1,
 		"id": 4605,
 		"op_17": [
@@ -161779,7 +161704,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Equip an Expert Dragon Archer hat.",
+		"description": "Equip an expert dragon archer hat.",
 		"hidden": 1,
 		"id": 4606,
 		"op_17": [
@@ -161790,12 +161715,6 @@
 			}
 		],
 		"points": 0,
-		"quest_req_for_miniquests": [
-			102
-		],
-		"skill_req_count": [
-			1
-		],
 		"spriteID": 30108,
 		"subreq_count": [
 			1
@@ -161803,7 +161722,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Defeat an Automaton after 'The World Wakes'.",
+		"description": "Defeat an automaton.",
 		"hidden": 1,
 		"id": 4607,
 		"op_13": [
@@ -161878,7 +161797,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Mine 25 Platinum Ore south of Piscatoris Fishing Colony.",
+		"description": "Mine 25 platinum ore south of Piscatoris Fishing Colony.",
 		"hidden": 1,
 		"id": 4609,
 		"op_17": [
@@ -161915,7 +161834,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Chop 50 Eternal Magic logs.",
+		"description": "Chop 50 eternal magic logs.",
 		"hidden": 1,
 		"id": 4610,
 		"op_17": [
@@ -161970,7 +161889,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Catch a Karambwanji.",
+		"description": "Catch a karambwanji.",
 		"hidden": 1,
 		"id": 4612,
 		"op_17": [
@@ -162002,7 +161921,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Defeat a Greater Demon on Karamja.",
+		"description": "Defeat a greater demon on Karamja.",
 		"hidden": 1,
 		"id": 4613,
 		"op_17": [
@@ -162056,7 +161975,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Craft 50 Nature runes.",
+		"description": "Craft 50 nature runes.",
 		"hidden": 1,
 		"id": 4616,
 		"op_17": [
@@ -162079,7 +161998,7 @@
 			{
 				"level": 44,
 				"skillID": 20,
-				"text": "Skill: Runecrafting 44",
+				"text": "Skill: Runecraft 44",
 				"unk_bytes": [
 					0,
 					0
@@ -162286,7 +162205,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Equip an Obsidian cape.",
+		"description": "Equip an obsidian cape.",
 		"hidden": 1,
 		"id": 4624,
 		"op_17": [
@@ -162469,7 +162388,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Equip a full set of Obsidian armour.",
+		"description": "Equip a full set of obsidian armour.",
 		"hidden": 1,
 		"id": 4630,
 		"op_17": [
@@ -162487,7 +162406,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Equip a Red Topaz Machete.",
+		"description": "Equip a red topaz machete.",
 		"hidden": 1,
 		"id": 4631,
 		"op_17": [
@@ -162505,7 +162424,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Find a Gout Tuber.",
+		"description": "Find a gout tuber.",
 		"hidden": 1,
 		"id": 4632,
 		"op_17": [
@@ -162540,7 +162459,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Equip a Fire Cape.",
+		"description": "Equip a fire cape.",
 		"hidden": 1,
 		"id": 4633,
 		"op_17": [
@@ -162583,7 +162502,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Access the Gemstone cavern.",
+		"description": "Access the Gemstone Cavern.",
 		"hidden": 1,
 		"id": 4635,
 		"op_17": [
@@ -162607,7 +162526,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Catch a Draconic jadinko at Herblore Habitat.",
+		"description": "Catch a draconic jadinko at Herblore Habitat.",
 		"hidden": 1,
 		"id": 4636,
 		"op_17": [
@@ -162639,7 +162558,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Craft a Bolas.",
+		"description": "Craft a bolas.",
 		"hidden": 1,
 		"id": 4637,
 		"op_17": [
@@ -162802,7 +162721,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Defeat 10 gemstone dragons.",
+		"description": "Defeat 10 gemstone dragons inside the Gemstone Cavern.",
 		"hidden": 1,
 		"id": 4645,
 		"op_17": [
@@ -162818,8 +162737,11 @@
 			0
 		],
 		"points": 0,
+		"previous_achievements": [
+			1060
+		],
 		"skill_req_count": [
-			1
+			2
 		],
 		"skill_reqs_8": [
 			{
@@ -162839,7 +162761,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Equip a piece of Gemstone armour.",
+		"description": "Equip a piece of gemstone armour.",
 		"hidden": 1,
 		"id": 4646,
 		"op_17": [
@@ -162871,7 +162793,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Complete all Har-Aken combat achievements.",
+		"description": "Complete all Har-Aken Combat Mastery achievements.",
 		"hidden": 1,
 		"id": 4647,
 		"op_17": [
@@ -162895,7 +162817,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Complete all TzTok-Jad combat achievements.",
+		"description": "Complete all TzTok-Jad Combat Mastery achievements.",
 		"hidden": 1,
 		"id": 4648,
 		"op_17": [
@@ -162985,7 +162907,7 @@
 			{
 				"level": 14,
 				"skillID": 20,
-				"text": "Skill: Runecrafting 14",
+				"text": "Skill: Runecraft 14",
 				"unk_bytes": [
 					0,
 					0
@@ -163071,7 +162993,7 @@
 			{
 				"level": 44,
 				"skillID": 20,
-				"text": "Skill: Runecrafting 44",
+				"text": "Skill: Runecraft 44",
 				"unk_bytes": [
 					0,
 					0
@@ -163085,7 +163007,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Siphon Rune dust from a RuneSphere in the RuneSpan.",
+		"description": "Siphon rune dust from a Runesphere in the Runespan.",
 		"hidden": 1,
 		"id": 4657,
 		"op_17": [
@@ -163103,7 +163025,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Siphon from a death esswraith in the RuneSpan.",
+		"description": "Siphon from a death esswraith in the Runespan.",
 		"hidden": 1,
 		"id": 4658,
 		"op_17": [
@@ -163121,7 +163043,7 @@
 			{
 				"level": 65,
 				"skillID": 20,
-				"text": "Skill: Runecrafting 65",
+				"text": "Skill: Runecraft 65",
 				"unk_bytes": [
 					0,
 					0
@@ -163135,7 +163057,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Navigate the RuneSpan using a Greater Conjuration Platorm.",
+		"description": "Navigate the Runespan using a greater conjuration platform.",
 		"hidden": 1,
 		"id": 4659,
 		"op_17": [
@@ -163153,7 +163075,7 @@
 			{
 				"level": 95,
 				"skillID": 20,
-				"text": "Skill: Runecrafting 95",
+				"text": "Skill: Runecraft 95",
 				"unk_bytes": [
 					0,
 					0
@@ -163167,7 +163089,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Obtain the Massive Pouch from the RuneSpan.",
+		"description": "Obtain the massive pouch from the Runespan.",
 		"hidden": 1,
 		"id": 4660,
 		"op_17": [
@@ -163185,7 +163107,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Obtain the Greater Runic Staff from the RuneSpan.",
+		"description": "Obtain the greater runic staff from the Runespan.",
 		"hidden": 1,
 		"id": 4661,
 		"op_17": [
@@ -163203,7 +163125,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Equip the full Master Runecrafter skilling outfit.",
+		"description": "Equip the full master runecrafter skilling outfit.",
 		"hidden": 1,
 		"id": 4662,
 		"op_17": [
@@ -163435,7 +163357,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Fill a Charmed Sack with corruption at the Nexus in Lumbridge Swamp.",
+		"description": "Fill a charmed sack with corruption at the Nexus in Lumbridge Swamp.",
 		"hidden": 1,
 		"id": 4673,
 		"op_17": [
@@ -163517,7 +163439,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Craft 50 Water Runes.",
+		"description": "Craft 50 water runes.",
 		"hidden": 1,
 		"id": 4676,
 		"op_17": [
@@ -163540,7 +163462,7 @@
 			{
 				"level": 5,
 				"skillID": 20,
-				"text": "Skill: Runecrafting 5",
+				"text": "Skill: Runecraft 5",
 				"unk_bytes": [
 					0,
 					0
@@ -163641,7 +163563,7 @@
 			{
 				"level": 27,
 				"skillID": 20,
-				"text": "Skill: Runecrafting 27",
+				"text": "Skill: Runecraft 27",
 				"unk_bytes": [
 					0,
 					0
@@ -163802,6 +163724,12 @@
 			0
 		],
 		"points": 0,
+		"quest_req_for_miniquests": [
+			86
+		],
+		"skill_req_count": [
+			1
+		],
 		"spriteID": 30108,
 		"subreq_count": [
 			1
@@ -163914,7 +163842,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Conjure a ghost  at the City of Um ritual site.",
+		"description": "Conjure a ghost at the City of Um ritual site.",
 		"hidden": 1,
 		"id": 4688,
 		"op_17": [
@@ -163949,7 +163877,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Conjure a Phantom Guardian at the City of Um ritual site.",
+		"description": "Conjure a phantom guardian at the City of Um ritual site.",
 		"hidden": 1,
 		"id": 4689,
 		"op_17": [
@@ -164225,7 +164153,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Pan in the river at the Digsite.",
+		"description": "Pan for an uncut jade at the Digsite.",
 		"hidden": 1,
 		"id": 4698,
 		"op_17": [
@@ -164355,7 +164283,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Mine 50 Dark Animica from the Empty Throne Room.",
+		"description": "Mine 50 dark animica from the Empty Throne Room.",
 		"hidden": 1,
 		"id": 4702,
 		"op_17": [
@@ -164488,7 +164416,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Complete all Sanctum of Rebirth combat achievements.",
+		"description": "Complete all Sanctum of Rebirth Combat Mastery achievements.",
 		"hidden": 1,
 		"id": 4706,
 		"op_17": [
@@ -164512,7 +164440,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Complete all of Rasial, the First Necromancer's combat achievements.",
+		"description": "Complete all of Rasial, the First Necromancer's Combat Mastery achievements.",
 		"hidden": 1,
 		"id": 4707,
 		"op_13": [
@@ -164555,7 +164483,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Defeat a Werewolf in Morytania.",
+		"description": "Defeat a werewolf in Morytania.",
 		"hidden": 1,
 		"id": 4708,
 		"op_13": [
@@ -164584,7 +164512,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Pass through the Holy barrier.",
+		"description": "Pass through the holy barrier.",
 		"hidden": 1,
 		"id": 4709,
 		"op_17": [
@@ -164608,7 +164536,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Defeat 5 Feral Vampyres in the Haunted Woods.",
+		"description": "Defeat 5 feral vampyres in the Haunted Woods.",
 		"hidden": 1,
 		"id": 4710,
 		"op_13": [
@@ -164852,7 +164780,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Catch 10 Green salamanders.",
+		"description": "Catch 10 green salamanders.",
 		"hidden": 1,
 		"id": 4718,
 		"op_13": [
@@ -164897,7 +164825,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Mine 30 Phasmatite.",
+		"description": "Mine 30 phasmatite.",
 		"hidden": 1,
 		"id": 4719,
 		"op_13": [
@@ -164942,7 +164870,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Defeat 25 Gargoyles.",
+		"description": "Defeat 25 gargoyles.",
 		"hidden": 1,
 		"id": 4720,
 		"op_13": [
@@ -164987,7 +164915,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Defeat 35 Aberrant Spectres.",
+		"description": "Defeat 35 aberrant spectres.",
 		"hidden": 1,
 		"id": 4721,
 		"op_13": [
@@ -165344,7 +165272,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Burn 20 Blisterwood logs.",
+		"description": "Burn 20 blisterwood logs.",
 		"hidden": 1,
 		"id": 4728,
 		"op_13": [
@@ -165434,7 +165362,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Defeat 30 Abyssal Demons.",
+		"description": "Defeat 30 abyssal demons.",
 		"hidden": 1,
 		"id": 4730,
 		"op_13": [
@@ -165479,7 +165407,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Harvest 200 radiant energy from Radiant Wisps.",
+		"description": "Harvest 200 radiant energy from radiant wisps.",
 		"hidden": 1,
 		"id": 4731,
 		"op_13": [
@@ -165524,7 +165452,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Defeat 20 Celestial Dragons.",
+		"description": "Defeat 20 celestial dragons.",
 		"hidden": 1,
 		"id": 4732,
 		"op_13": [
@@ -165558,7 +165486,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Equip a Noxious Scythe.",
+		"description": "Equip a noxious scythe.",
 		"hidden": 1,
 		"id": 4733,
 		"op_17": [
@@ -165590,7 +165518,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Equip a Noxious Staff.",
+		"description": "Equip a noxious staff.",
 		"hidden": 1,
 		"id": 4734,
 		"op_17": [
@@ -165622,7 +165550,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Equip a Noxious Bow.",
+		"description": "Equip a noxious bow.",
 		"hidden": 1,
 		"id": 4735,
 		"op_17": [
@@ -165754,7 +165682,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Equip a Malevolent Kiteshield.",
+		"description": "Equip a malevolent kiteshield.",
 		"hidden": 1,
 		"id": 4738,
 		"op_17": [
@@ -165786,7 +165714,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Equip a Merciless Kiteshield.",
+		"description": "Equip a merciless kiteshield.",
 		"hidden": 1,
 		"id": 4739,
 		"op_17": [
@@ -165818,7 +165746,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Equip a Vengeful Kiteshield.",
+		"description": "Equip a vengeful kiteshield.",
 		"hidden": 1,
 		"id": 4740,
 		"op_17": [
@@ -165850,7 +165778,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Obtain an Araxyte Pheremone drop.",
+		"description": "Obtain an Araxyte Pheromone drop.",
 		"hidden": 1,
 		"id": 4741,
 		"op_13": [
@@ -165919,7 +165847,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Complete all Araxxor and Araxxi combat achievements.",
+		"description": "Complete all Araxxi Combat Mastery achievements.",
 		"hidden": 1,
 		"id": 4743,
 		"op_17": [
@@ -165937,7 +165865,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Cook a Rabbit in Tirannwn.",
+		"description": "Cook a rabbit in Tirannwn.",
 		"hidden": 1,
 		"id": 4744,
 		"op_17": [
@@ -165966,7 +165894,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Use the Bank in Lletya.",
+		"description": "Use the bank in Lletya.",
 		"hidden": 1,
 		"id": 4745,
 		"op_17": [
@@ -166101,7 +166029,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Check a grown Papaya Tree in Lletya.",
+		"description": "Check a grown papaya tree in Lletya.",
 		"hidden": 1,
 		"id": 4750,
 		"op_17": [
@@ -166141,7 +166069,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Craft 50 Death Runes.",
+		"description": "Craft 50 death runes.",
 		"hidden": 1,
 		"id": 4751,
 		"op_13": [
@@ -166172,7 +166100,7 @@
 			{
 				"level": 65,
 				"skillID": 20,
-				"text": "Skill: Runecrafting 65",
+				"text": "Skill: Runecraft 65",
 				"unk_bytes": [
 					0,
 					0
@@ -166186,7 +166114,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Move your house to Prifddinas.",
+		"description": "Enter your player-owned house from Prifddinas.",
 		"hidden": 1,
 		"id": 4752,
 		"op_17": [
@@ -166221,7 +166149,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Use an Elven Teleport Crystal.",
+		"description": "Use an elven teleport crystal.",
 		"hidden": 1,
 		"id": 4753,
 		"op_17": [
@@ -166282,7 +166210,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Catch 10 Pawyas in Isafdar.",
+		"description": "Catch 10 pawyas in Isafdar.",
 		"hidden": 1,
 		"id": 4755,
 		"op_17": [
@@ -166490,7 +166418,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Cleanse the Corrupted Seren stone with 5 cleansing crystals.",
+		"description": "Cleanse the corrupted Seren stone with 5 cleansing crystals.",
 		"hidden": 1,
 		"id": 4761,
 		"op_17": [
@@ -166570,7 +166498,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Harvest 100 Incandescent energy from Incandescent Wisps.",
+		"description": "Harvest 100 incandescent energy from incandescent wisps.",
 		"hidden": 1,
 		"id": 4763,
 		"op_17": [
@@ -166607,7 +166535,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Equip a Dark bow.",
+		"description": "Equip a dark bow.",
 		"hidden": 1,
 		"id": 4764,
 		"op_17": [
@@ -166648,7 +166576,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Defeat 30 Dark beasts in Tirannwn.",
+		"description": "Defeat 30 dark beasts in Tirannwn.",
 		"hidden": 1,
 		"id": 4765,
 		"op_17": [
@@ -166685,7 +166613,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Equip a Crystal halberd.",
+		"description": "Equip a crystal halberd.",
 		"hidden": 1,
 		"id": 4766,
 		"op_17": [
@@ -166726,7 +166654,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Equip a Crystal shield.",
+		"description": "Equip a crystal shield.",
 		"hidden": 1,
 		"id": 4767,
 		"op_17": [
@@ -166767,7 +166695,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Equip a Crystal bow.",
+		"description": "Equip a crystal bow.",
 		"hidden": 1,
 		"id": 4768,
 		"op_17": [
@@ -166808,7 +166736,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Catch 25 Grenwalls in Isafdar.",
+		"description": "Catch 25 grenwalls in Isafdar.",
 		"hidden": 1,
 		"id": 4769,
 		"op_17": [
@@ -166853,7 +166781,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Defeat 10 Elf warriors in Lletya.",
+		"description": "Defeat 10 elf warriors in Lletya.",
 		"hidden": 1,
 		"id": 4770,
 		"op_17": [
@@ -166887,7 +166815,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Chop 50 Magic logs in Tirannwn.",
+		"description": "Chop 50 magic logs in Tirannwn.",
 		"hidden": 1,
 		"id": 4771,
 		"op_17": [
@@ -166961,7 +166889,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Charge a piece of Dragonstone jewellery using the Tears of Seren.",
+		"description": "Charge a piece of dragonstone jewellery using the Tears of Seren.",
 		"hidden": 1,
 		"id": 4773,
 		"op_17": [
@@ -167046,7 +166974,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Check a grown Crystal Tree in the Tower of Voices.",
+		"description": "Check a grown crystal tree in the Tower of Voices.",
 		"hidden": 1,
 		"id": 4776,
 		"op_17": [
@@ -167105,7 +167033,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Catch a Crystal impling.",
+		"description": "Catch a crystal impling.",
 		"hidden": 1,
 		"id": 4778,
 		"op_17": [
@@ -167137,7 +167065,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Craft an Attuned crystal teleport seed.",
+		"description": "Craft an attuned crystal teleport seed.",
 		"hidden": 1,
 		"id": 4779,
 		"op_17": [
@@ -167162,7 +167090,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Mine 50 Light animica in Isafdar.",
+		"description": "Mine 50 light animica in Isafdar.",
 		"hidden": 1,
 		"id": 4780,
 		"op_17": [
@@ -167207,7 +167135,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Chop 25 Elder logs in Tirannwn.",
+		"description": "Chop 25 elder logs in Tirannwn.",
 		"hidden": 1,
 		"id": 4781,
 		"op_17": [
@@ -167239,51 +167167,6 @@
 				"level": 90,
 				"skillID": 8,
 				"text": "Skill: Woodcutting 90",
-				"unk_bytes": [
-					0,
-					0
-				]
-			}
-		],
-		"spriteID": 30108,
-		"subreq_count": [
-			1
-		]
-	},
-	{
-		"category": 5619,
-		"description": "Catch 75 Crystal skillchompas in Isafdar.",
-		"hidden": 1,
-		"id": 4782,
-		"op_17": [
-			{
-				"description": "",
-				"value": 75,
-				"varbit": 59711
-			}
-		],
-		"op_32": [
-			2,
-			0,
-			0
-		],
-		"op_9": [
-			{
-				"description": "Partial completion of the Regicide quest.",
-				"step_size": 1,
-				"value": 9,
-				"varbit": 2102
-			}
-		],
-		"points": 0,
-		"skill_req_count": [
-			2
-		],
-		"skill_reqs_8": [
-			{
-				"level": 97,
-				"skillID": 21,
-				"text": "Skill: Hunter 97",
 				"unk_bytes": [
 					0,
 					0
@@ -167357,7 +167240,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Complete a Frozen floor in Daemonheim.",
+		"description": "Complete a frozen floor in Daemonheim.",
 		"hidden": 1,
 		"id": 4786,
 		"op_17": [
@@ -167375,7 +167258,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Defeat a Black Unicorn in the Wilderness.",
+		"description": "Defeat a black unicorn in the Wilderness.",
 		"hidden": 1,
 		"id": 4787,
 		"op_17": [
@@ -167393,7 +167276,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Sacrifice Dragon bones on the Chaos Altar. ",
+		"description": "Sacrifice dragon bones on the Chaos Altar. ",
 		"hidden": 1,
 		"id": 4788,
 		"op_17": [
@@ -167451,7 +167334,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Defeat 5 Green dragons.",
+		"description": "Defeat 5 green dragons.",
 		"hidden": 1,
 		"id": 4790,
 		"op_17": [
@@ -167575,7 +167458,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Defeat 10 Fetid Zombies.",
+		"description": "Defeat 10 fetid zombies.",
 		"hidden": 1,
 		"id": 4794,
 		"op_17": [
@@ -167598,7 +167481,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Defeat 20 Bound Skeletons.",
+		"description": "Defeat 20 bound skeletons.",
 		"hidden": 1,
 		"id": 4795,
 		"op_17": [
@@ -167653,7 +167536,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Defeat Bossy McBoss Face.",
+		"description": "Defeat Bossy McBossFace.",
 		"hidden": 1,
 		"id": 4797,
 		"op_17": [
@@ -167703,7 +167586,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Catch 25 Black Salamanders.",
+		"description": "Catch 25 black salamanders.",
 		"hidden": 1,
 		"id": 4799,
 		"op_17": [
@@ -167804,7 +167687,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Upgrade your Gem bag.",
+		"description": "Upgrade your gem bag.",
 		"hidden": 1,
 		"id": 4802,
 		"op_17": [
@@ -168013,7 +167896,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Chop 20 Bloodwood logs in the Wilderness.",
+		"description": "Chop 20 bloodwood logs in the Wilderness.",
 		"hidden": 1,
 		"id": 4808,
 		"op_13": [
@@ -168126,7 +168009,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Defeat 5 Ripper Demons.",
+		"description": "Defeat 5 ripper demons.",
 		"hidden": 1,
 		"id": 4811,
 		"op_17": [
@@ -168163,7 +168046,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Defeat 10 Lava Strykewyrms in the Wilderness, south of the Lava Maze.",
+		"description": "Defeat 10 lava strykewyrms in the Wilderness, south of the Lava Maze.",
 		"hidden": 1,
 		"id": 4812,
 		"op_17": [
@@ -168250,7 +168133,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Equip a Chaotic weapon or kiteshield.",
+		"description": "Equip a chaotic weapon or kiteshield.",
 		"hidden": 1,
 		"id": 4814,
 		"op_17": [
@@ -168309,7 +168192,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Defeat 25 Hydrix dragons in the Wilderness.",
+		"description": "Defeat 25 hydrix dragons in the Wilderness.",
 		"hidden": 1,
 		"id": 4815,
 		"op_17": [
@@ -168346,7 +168229,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Defeat 10 Abyssal lords in the Wilderness.",
+		"description": "Defeat 10 abyssal lords in the Wilderness.",
 		"hidden": 1,
 		"id": 4816,
 		"op_17": [
@@ -168383,7 +168266,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Mine 30 Primal ores.",
+		"description": "Mine 30 primal ores.",
 		"hidden": 1,
 		"id": 4817,
 		"op_17": [
@@ -168420,7 +168303,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Smelt 150 Primal bars.",
+		"description": "Smelt 150 primal bars.",
 		"hidden": 1,
 		"id": 4818,
 		"op_17": [
@@ -168489,7 +168372,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Equip an Eldritch Crossbow.",
+		"description": "Equip an eldritch crossbow.",
 		"hidden": 1,
 		"id": 4820,
 		"op_17": [
@@ -173573,6 +173456,1456 @@
 		],
 		"spriteID": 1502,
 		"subcategory": 4888,
+		"subreq_count": [
+			1
+		]
+	},
+	{
+		"category": 5619,
+		"description": "Purchase the 'Very Good Baiter' title.",
+		"hidden": 1,
+		"id": 5012,
+		"op_17": [
+			{
+				"description": "",
+				"value": 1,
+				"varbit": 61725
+			}
+		],
+		"points": 0,
+		"spriteID": 30108,
+		"subreq_count": [
+			1
+		]
+	},
+	{
+		"category": 5619,
+		"description": "Complete all combat mastery achievements for Raksha.",
+		"hidden": 1,
+		"id": 5013,
+		"op_17": [
+			{
+				"description": "",
+				"value": 1,
+				"varbit": 61728
+			}
+		],
+		"points": 0,
+		"spriteID": 30108,
+		"subreq_count": [
+			1
+		]
+	},
+	{
+		"category": 5619,
+		"description": "Complete all combat mastery achievements for the Rex Matriarchs.",
+		"hidden": 1,
+		"id": 5014,
+		"op_17": [
+			{
+				"description": "",
+				"value": 1,
+				"varbit": 61729
+			}
+		],
+		"points": 0,
+		"spriteID": 30108,
+		"subreq_count": [
+			1
+		]
+	},
+	{
+		"category": 5619,
+		"description": "Equip a dragon defender.",
+		"hidden": 1,
+		"id": 5015,
+		"op_17": [
+			{
+				"description": "",
+				"value": 1,
+				"varbit": 61730
+			}
+		],
+		"points": 0,
+		"spriteID": 30108,
+		"subreq_count": [
+			1
+		]
+	},
+	{
+		"category": 5619,
+		"description": "Complete all combat mastery achievements for the Giant Mole.",
+		"hidden": 1,
+		"id": 5016,
+		"op_17": [
+			{
+				"description": "",
+				"value": 1,
+				"varbit": 61734
+			}
+		],
+		"points": 0,
+		"spriteID": 30108,
+		"subreq_count": [
+			1
+		]
+	},
+	{
+		"category": 5619,
+		"description": "Complete all combat mastery achievements for the Queen Black Dragon.",
+		"hidden": 1,
+		"id": 5017,
+		"op_17": [
+			{
+				"description": "",
+				"value": 1,
+				"varbit": 61735
+			}
+		],
+		"points": 0,
+		"spriteID": 30108,
+		"subreq_count": [
+			1
+		]
+	},
+	{
+		"category": 5619,
+		"description": "Defeat a boss in the Dominion Tower.",
+		"hidden": 1,
+		"id": 5018,
+		"op_17": [
+			{
+				"description": "",
+				"value": 1,
+				"varbit": 61699
+			}
+		],
+		"points": 0,
+		"spriteID": 30108,
+		"subreq_count": [
+			1
+		]
+	},
+	{
+		"category": 5619,
+		"description": "Defeat 15 profane scabarites.",
+		"hidden": 1,
+		"id": 5019,
+		"op_17": [
+			{
+				"description": "",
+				"value": 15,
+				"varbit": 61849
+			}
+		],
+		"op_32": [
+			2,
+			0,
+			0
+		],
+		"points": 0,
+		"spriteID": 30108,
+		"subreq_count": [
+			1
+		]
+	},
+	{
+		"category": 5619,
+		"description": "Defeat 5 elite profane scabarites.",
+		"hidden": 1,
+		"id": 5020,
+		"op_17": [
+			{
+				"description": "",
+				"value": 5,
+				"varbit": 61850
+			}
+		],
+		"op_32": [
+			2,
+			0,
+			0
+		],
+		"points": 0,
+		"spriteID": 30108,
+		"subreq_count": [
+			1
+		]
+	},
+	{
+		"category": 5619,
+		"description": "Equip a Khopesh of the Kharidian.",
+		"hidden": 1,
+		"id": 5021,
+		"op_17": [
+			{
+				"description": "",
+				"value": 1,
+				"varbit": 61788
+			}
+		],
+		"points": 0,
+		"spriteID": 30108,
+		"subreq_count": [
+			1
+		]
+	},
+	{
+		"category": 5619,
+		"description": "Equip a Khopesh of Tumeken or Khopesh of Elidinis.",
+		"hidden": 1,
+		"id": 5022,
+		"op_17": [
+			{
+				"description": "",
+				"value": 1,
+				"varbit": 61789
+			}
+		],
+		"points": 0,
+		"spriteID": 30108,
+		"subreq_count": [
+			1
+		]
+	},
+	{
+		"category": 5619,
+		"description": "Shatter a phylactery dropped by The Magister.",
+		"hidden": 1,
+		"id": 5023,
+		"op_17": [
+			{
+				"description": "",
+				"value": 1,
+				"varbit": 61790
+			}
+		],
+		"points": 0,
+		"spriteID": 30108,
+		"subreq_count": [
+			1
+		]
+	},
+	{
+		"category": 5619,
+		"description": "Equip a weapon from the Heart of Gielinor.",
+		"hidden": 1,
+		"id": 5024,
+		"op_17": [
+			{
+				"description": "",
+				"value": 1,
+				"varbit": 61814
+			}
+		],
+		"points": 0,
+		"spriteID": 30108,
+		"subreq_count": [
+			1
+		]
+	},
+	{
+		"category": 5619,
+		"description": "Defeat Telos, the Warden at 4,000% enrage.",
+		"hidden": 1,
+		"id": 5025,
+		"op_17": [
+			{
+				"description": "",
+				"value": 1,
+				"varbit": 61815
+			}
+		],
+		"points": 0,
+		"spriteID": 30108,
+		"subreq_count": [
+			1
+		]
+	},
+	{
+		"category": 5619,
+		"description": "Crack a safe in Zemouregal's fort.",
+		"hidden": 1,
+		"id": 5026,
+		"op_17": [
+			{
+				"description": "",
+				"value": 1,
+				"varbit": 61793
+			}
+		],
+		"points": 0,
+		"spriteID": 30108,
+		"subreq_count": [
+			1
+		]
+	},
+	{
+		"category": 5619,
+		"description": "Defeat a metal dragon in Ghorrock.",
+		"hidden": 1,
+		"id": 5027,
+		"op_17": [
+			{
+				"description": "",
+				"value": 1,
+				"varbit": 61794
+			}
+		],
+		"points": 0,
+		"spriteID": 30108,
+		"subreq_count": [
+			1
+		]
+	},
+	{
+		"category": 5619,
+		"description": "Cut the bloodwood tree at the Mahjarrat Ritual Site.",
+		"hidden": 1,
+		"id": 5028,
+		"op_17": [
+			{
+				"description": "",
+				"value": 1,
+				"varbit": 61795
+			}
+		],
+		"points": 0,
+		"spriteID": 30108,
+		"subreq_count": [
+			1
+		]
+	},
+	{
+		"category": 5619,
+		"description": "Complete all Combat Mastery achievements for the Dagannoth Kings.",
+		"hidden": 1,
+		"id": 5029,
+		"op_17": [
+			{
+				"description": "",
+				"value": 1,
+				"varbit": 61818
+			}
+		],
+		"points": 0,
+		"spriteID": 30108,
+		"subreq_count": [
+			1
+		]
+	},
+	{
+		"category": 5619,
+		"description": "Bring marigolds to Anya at her campsite.",
+		"hidden": 1,
+		"id": 5030,
+		"op_17": [
+			{
+				"description": "",
+				"value": 1,
+				"varbit": 61738
+			}
+		],
+		"points": 0,
+		"spriteID": 30108,
+		"subreq_count": [
+			1
+		]
+	},
+	{
+		"category": 5619,
+		"description": "Use the outhouse on the cliffs north of Wendlewick.",
+		"hidden": 1,
+		"id": 5031,
+		"op_17": [
+			{
+				"description": "",
+				"value": 1,
+				"varbit": 61739
+			}
+		],
+		"points": 0,
+		"spriteID": 30108,
+		"subreq_count": [
+			1
+		]
+	},
+	{
+		"category": 5619,
+		"description": "Attempt to eat a burnt lobster while inside the Burnt Lobster Tavern.",
+		"hidden": 1,
+		"id": 5032,
+		"op_17": [
+			{
+				"description": "",
+				"value": 1,
+				"varbit": 61740
+			}
+		],
+		"points": 0,
+		"spriteID": 30108,
+		"subreq_count": [
+			1
+		]
+	},
+	{
+		"category": 5619,
+		"description": "Attempt to pet Inanna.",
+		"hidden": 1,
+		"id": 5033,
+		"op_17": [
+			{
+				"description": "",
+				"value": 1,
+				"varbit": 61741
+			}
+		],
+		"points": 0,
+		"spriteID": 30108,
+		"subreq_count": [
+			1
+		]
+	},
+	{
+		"category": 5619,
+		"description": "Find and speak to the drunken villager.",
+		"hidden": 1,
+		"id": 5034,
+		"op_17": [
+			{
+				"description": "",
+				"value": 1,
+				"varbit": 61742
+			}
+		],
+		"points": 0,
+		"spriteID": 30108,
+		"subreq_count": [
+			1
+		]
+	},
+	{
+		"category": 5619,
+		"description": "Use a fairy ring to travel to Amberfell forest.",
+		"hidden": 1,
+		"id": 5035,
+		"op_17": [
+			{
+				"description": "",
+				"value": 1,
+				"varbit": 61743
+			}
+		],
+		"points": 0,
+		"spriteID": 30108,
+		"subreq_count": [
+			1
+		]
+	},
+	{
+		"category": 5619,
+		"description": "Climb to the top of the Wendlewick lighthouse.",
+		"hidden": 1,
+		"id": 5036,
+		"op_17": [
+			{
+				"description": "",
+				"value": 1,
+				"varbit": 61744
+			}
+		],
+		"points": 0,
+		"spriteID": 30108,
+		"subreq_count": [
+			1
+		]
+	},
+	{
+		"category": 5619,
+		"description": "Defeat a juvenile boulder crab. ",
+		"hidden": 1,
+		"id": 5037,
+		"op_17": [
+			{
+				"description": "",
+				"value": 1,
+				"varbit": 61749
+			}
+		],
+		"points": 0,
+		"spriteID": 30108,
+		"subreq_count": [
+			1
+		]
+	},
+	{
+		"category": 5619,
+		"description": "Pickpocket a ranger in Wendlewick.",
+		"hidden": 1,
+		"id": 5038,
+		"op_17": [
+			{
+				"description": "",
+				"value": 1,
+				"varbit": 61750
+			}
+		],
+		"points": 0,
+		"spriteID": 30108,
+		"subreq_count": [
+			1
+		]
+	},
+	{
+		"category": 5619,
+		"description": "Brew a Wendlewick ale.",
+		"hidden": 1,
+		"id": 5039,
+		"op_17": [
+			{
+				"description": "",
+				"value": 1,
+				"varbit": 61751
+			}
+		],
+		"points": 0,
+		"spriteID": 30108,
+		"subreq_count": [
+			1
+		]
+	},
+	{
+		"category": 5619,
+		"description": "Cut creeping ivy 20 times.",
+		"hidden": 1,
+		"id": 5040,
+		"op_17": [
+			{
+				"description": "",
+				"value": 20,
+				"varbit": 61845
+			}
+		],
+		"op_32": [
+			2,
+			0,
+			0
+		],
+		"points": 0,
+		"spriteID": 30108,
+		"subreq_count": [
+			1
+		]
+	},
+	{
+		"category": 5619,
+		"description": "Catch a jackalope.",
+		"hidden": 1,
+		"id": 5041,
+		"op_17": [
+			{
+				"description": "",
+				"value": 1,
+				"varbit": 61753
+			}
+		],
+		"points": 0,
+		"spriteID": 30108,
+		"subreq_count": [
+			1
+		]
+	},
+	{
+		"category": 5619,
+		"description": "Use an empowered obelisk to create a jackalope pouch at the Shrine of Inanna.",
+		"hidden": 1,
+		"id": 5042,
+		"op_17": [
+			{
+				"description": "",
+				"value": 1,
+				"varbit": 61754
+			}
+		],
+		"points": 0,
+		"spriteID": 30108,
+		"subreq_count": [
+			1
+		]
+	},
+	{
+		"category": 5619,
+		"description": "Use the spirit plane connection bonus at the Shrine of Inanna to create a summoning pouch for free.",
+		"hidden": 1,
+		"id": 5043,
+		"op_17": [
+			{
+				"description": "",
+				"value": 1,
+				"varbit": 61755
+			}
+		],
+		"points": 0,
+		"spriteID": 30108,
+		"subreq_count": [
+			1
+		]
+	},
+	{
+		"category": 5619,
+		"description": "Use the Fang of Mohegan to teleport to the Shrine of Inanna.",
+		"hidden": 1,
+		"id": 5044,
+		"op_17": [
+			{
+				"description": "",
+				"value": 1,
+				"varbit": 61756
+			}
+		],
+		"points": 0,
+		"spriteID": 30108,
+		"subreq_count": [
+			1
+		]
+	},
+	{
+		"category": 5619,
+		"description": "Search a hollow tree within the Highweald forest.",
+		"hidden": 1,
+		"id": 5045,
+		"op_17": [
+			{
+				"description": "",
+				"value": 1,
+				"varbit": 61757
+			}
+		],
+		"points": 0,
+		"spriteID": 30108,
+		"subreq_count": [
+			1
+		]
+	},
+	{
+		"category": 5619,
+		"description": "Equip Tellervo's net and Tellervo's lantern.",
+		"hidden": 1,
+		"id": 5046,
+		"op_17": [
+			{
+				"description": "",
+				"value": 1,
+				"varbit": 61758
+			}
+		],
+		"points": 0,
+		"spriteID": 30108,
+		"subreq_count": [
+			1
+		]
+	},
+	{
+		"category": 5619,
+		"description": "Construct a birdhouse.",
+		"hidden": 1,
+		"id": 5047,
+		"op_17": [
+			{
+				"description": "",
+				"value": 1,
+				"varbit": 61759
+			}
+		],
+		"points": 0,
+		"spriteID": 30108,
+		"subreq_count": [
+			1
+		]
+	},
+	{
+		"category": 5619,
+		"description": "Harvest 10 birdhouses.",
+		"hidden": 1,
+		"id": 5048,
+		"op_17": [
+			{
+				"description": "",
+				"value": 10,
+				"varbit": 61846
+			}
+		],
+		"op_32": [
+			2,
+			0,
+			0
+		],
+		"points": 0,
+		"spriteID": 30108,
+		"subreq_count": [
+			1
+		]
+	},
+	{
+		"category": 5619,
+		"description": "Take down a giant dashing kebbit in big game hunter.",
+		"hidden": 1,
+		"id": 5049,
+		"op_17": [
+			{
+				"description": "",
+				"value": 1,
+				"varbit": 61762
+			}
+		],
+		"points": 0,
+		"spriteID": 30108,
+		"subreq_count": [
+			1
+		]
+	},
+	{
+		"category": 5619,
+		"description": "Use a clockwork box trap to catch a grenwall in a kebbit encounter.",
+		"hidden": 1,
+		"id": 5050,
+		"op_17": [
+			{
+				"description": "",
+				"value": 1,
+				"varbit": 61763
+			}
+		],
+		"points": 0,
+		"spriteID": 30108,
+		"subreq_count": [
+			1
+		]
+	},
+	{
+		"category": 5619,
+		"description": "Catch 30 giant crayfish at the Wendlewick fish farm.",
+		"hidden": 1,
+		"id": 5051,
+		"op_17": [
+			{
+				"description": "",
+				"value": 30,
+				"varbit": 61847
+			}
+		],
+		"op_32": [
+			2,
+			0,
+			0
+		],
+		"points": 0,
+		"spriteID": 30108,
+		"subreq_count": [
+			1
+		]
+	},
+	{
+		"category": 5619,
+		"description": "Create an antisanguine potion.",
+		"hidden": 1,
+		"id": 5052,
+		"op_17": [
+			{
+				"description": "",
+				"value": 1,
+				"varbit": 61767
+			}
+		],
+		"points": 0,
+		"spriteID": 30108,
+		"subreq_count": [
+			1
+		]
+	},
+	{
+		"category": 5619,
+		"description": "Mine 20 havensilver ore.",
+		"hidden": 1,
+		"id": 5053,
+		"op_17": [
+			{
+				"description": "",
+				"value": 20,
+				"varbit": 61848
+			}
+		],
+		"op_32": [
+			2,
+			0,
+			0
+		],
+		"points": 0,
+		"spriteID": 30108,
+		"subreq_count": [
+			1
+		]
+	},
+	{
+		"category": 5619,
+		"description": "Smith a havensilver weapon.",
+		"hidden": 1,
+		"id": 5054,
+		"op_17": [
+			{
+				"description": "",
+				"value": 1,
+				"varbit": 61769
+			}
+		],
+		"points": 0,
+		"spriteID": 30108,
+		"subreq_count": [
+			1
+		]
+	},
+	{
+		"category": 5619,
+		"description": "Upgrade a havensilver weapon to tier 60.",
+		"hidden": 1,
+		"id": 5055,
+		"op_17": [
+			{
+				"description": "",
+				"value": 1,
+				"varbit": 61770
+			}
+		],
+		"points": 0,
+		"spriteID": 30108,
+		"subreq_count": [
+			1
+		]
+	},
+	{
+		"category": 5619,
+		"description": "Defeat a Sanguine crawler.",
+		"hidden": 1,
+		"id": 5056,
+		"op_17": [
+			{
+				"description": "",
+				"value": 1,
+				"varbit": 61771
+			}
+		],
+		"points": 0,
+		"spriteID": 30108,
+		"subreq_count": [
+			1
+		]
+	},
+	{
+		"category": 5619,
+		"description": "Plant a tainted seed in the special farming patch atop the blighted cave.",
+		"hidden": 1,
+		"id": 5057,
+		"op_17": [
+			{
+				"description": "",
+				"value": 1,
+				"varbit": 61772
+			}
+		],
+		"points": 0,
+		"spriteID": 30108,
+		"subreq_count": [
+			1
+		]
+	},
+	{
+		"category": 5619,
+		"description": "Equip the vampyrism gloves.",
+		"hidden": 1,
+		"id": 5058,
+		"op_17": [
+			{
+				"description": "",
+				"value": 1,
+				"varbit": 61773
+			}
+		],
+		"points": 0,
+		"spriteID": 30108,
+		"subreq_count": [
+			1
+		]
+	},
+	{
+		"category": 5619,
+		"description": "Defeat Ivar, King of Bones while wielding the Bonecrushing maul.",
+		"hidden": 1,
+		"id": 5059,
+		"op_17": [
+			{
+				"description": "",
+				"value": 1,
+				"varbit": 61776
+			}
+		],
+		"points": 0,
+		"spriteID": 30108,
+		"subreq_count": [
+			1
+		]
+	},
+	{
+		"category": 5619,
+		"description": "Complete the 'Museum - Guthixian I' and 'Museum - Guthixian II' collections.",
+		"hidden": 1,
+		"id": 5060,
+		"op_17": [
+			{
+				"description": "",
+				"value": 1,
+				"varbit": 61780
+			}
+		],
+		"points": 0,
+		"spriteID": 30108,
+		"subreq_count": [
+			1
+		]
+	},
+	{
+		"category": 5619,
+		"description": "Recruit Tali as a research assistant and assign her to a Moonrise research project.",
+		"hidden": 1,
+		"id": 5061,
+		"op_17": [
+			{
+				"description": "",
+				"value": 1,
+				"varbit": 61781
+			}
+		],
+		"points": 0,
+		"spriteID": 30108,
+		"subreq_count": [
+			1
+		]
+	},
+	{
+		"category": 5619,
+		"description": "Uncover the depths of the Moonrise digsite.",
+		"hidden": 1,
+		"id": 5062,
+		"op_17": [
+			{
+				"description": "",
+				"value": 1,
+				"varbit": 61782
+			}
+		],
+		"points": 0,
+		"spriteID": 30108,
+		"subreq_count": [
+			1
+		]
+	},
+	{
+		"category": 5619,
+		"description": "Speak to Inanna with the Anzagar pet present.",
+		"hidden": 1,
+		"id": 5063,
+		"op_17": [
+			{
+				"description": "",
+				"value": 1,
+				"varbit": 61783
+			}
+		],
+		"points": 0,
+		"spriteID": 30108,
+		"subreq_count": [
+			1
+		]
+	},
+	{
+		"category": 5619,
+		"description": "Bring a restored bloodwine artefact to Anya.",
+		"hidden": 1,
+		"id": 5064,
+		"op_17": [
+			{
+				"description": "",
+				"value": 1,
+				"varbit": 61784
+			}
+		],
+		"points": 0,
+		"spriteID": 30108,
+		"subreq_count": [
+			1
+		]
+	},
+	{
+		"category": 5619,
+		"description": "Complete all Combat Mastery achievements for Ivar, King of Bones.",
+		"hidden": 1,
+		"id": 5065,
+		"op_17": [
+			{
+				"description": "",
+				"value": 1,
+				"varbit": 61820
+			}
+		],
+		"points": 0,
+		"spriteID": 30108,
+		"subreq_count": [
+			1
+		]
+	},
+	{
+		"category": 5619,
+		"description": "Complete all Combat Mastery achievements for Silverquill, the Dreadhog.",
+		"hidden": 1,
+		"id": 5066,
+		"op_17": [
+			{
+				"description": "",
+				"value": 1,
+				"varbit": 61821
+			}
+		],
+		"points": 0,
+		"spriteID": 30108,
+		"subreq_count": [
+			1
+		]
+	},
+	{
+		"category": 5619,
+		"description": "Catch 30 red chinchompas in Kandarin.",
+		"hidden": 1,
+		"id": 5067,
+		"op_17": [
+			{
+				"description": "",
+				"value": 30,
+				"varbit": 61843
+			}
+		],
+		"op_32": [
+			2,
+			0,
+			0
+		],
+		"points": 0,
+		"spriteID": 30108,
+		"subreq_count": [
+			1
+		]
+	},
+	{
+		"category": 5619,
+		"description": "Equip an ogre bowman hat.",
+		"hidden": 1,
+		"id": 5068,
+		"op_17": [
+			{
+				"description": "",
+				"value": 1,
+				"varbit": 61798
+			}
+		],
+		"points": 0,
+		"spriteID": 30108,
+		"subreq_count": [
+			1
+		]
+	},
+	{
+		"category": 5619,
+		"description": "Complete all Combat Mastery achievements for the Ascension Legiones.",
+		"hidden": 1,
+		"id": 5069,
+		"op_17": [
+			{
+				"description": "",
+				"value": 1,
+				"varbit": 61823
+			}
+		],
+		"points": 0,
+		"spriteID": 30108,
+		"subreq_count": [
+			1
+		]
+	},
+	{
+		"category": 5619,
+		"description": "Collect 10 Agility Arena tickets from the Brimhaven Agility Arena.",
+		"hidden": 1,
+		"id": 5070,
+		"op_17": [
+			{
+				"description": "",
+				"value": 10,
+				"varbit": 61844
+			}
+		],
+		"op_32": [
+			2,
+			0,
+			0
+		],
+		"points": 0,
+		"spriteID": 30108,
+		"subreq_count": [
+			1
+		]
+	},
+	{
+		"category": 5619,
+		"description": "Equip a TokHaar-Kal Ket, Xil, Mej, or Mor cape.",
+		"hidden": 1,
+		"id": 5071,
+		"op_17": [
+			{
+				"description": "",
+				"value": 1,
+				"varbit": 61841
+			}
+		],
+		"points": 0,
+		"spriteID": 30108,
+		"subreq_count": [
+			1
+		]
+	},
+	{
+		"category": 5619,
+		"description": "Defeat 50 tormented demons.",
+		"hidden": 1,
+		"id": 5072,
+		"op_17": [
+			{
+				"description": "",
+				"value": 50,
+				"varbit": 22941
+			}
+		],
+		"op_32": [
+			2,
+			0,
+			0
+		],
+		"points": 0,
+		"spriteID": 30108,
+		"subreq_count": [
+			1
+		]
+	},
+	{
+		"category": 5619,
+		"description": "Equip a Bow of the Last Guardian.",
+		"hidden": 1,
+		"id": 5073,
+		"op_17": [
+			{
+				"description": "",
+				"value": 1,
+				"varbit": 61805
+			}
+		],
+		"points": 0,
+		"spriteID": 30108,
+		"subreq_count": [
+			1
+		]
+	},
+	{
+		"category": 5619,
+		"description": "Defeat Zamorak at 500% enrage in a solo or group encounter.",
+		"hidden": 1,
+		"id": 5074,
+		"op_17": [
+			{
+				"description": "",
+				"value": 1,
+				"varbit": 61807
+			}
+		],
+		"points": 0,
+		"spriteID": 30108,
+		"subreq_count": [
+			1
+		]
+	},
+	{
+		"category": 5619,
+		"description": "Equip an igneous Kal-Ket, Xil, Mej, or Mor cape.",
+		"hidden": 1,
+		"id": 5075,
+		"op_17": [
+			{
+				"description": "",
+				"value": 1,
+				"varbit": 61825
+			}
+		],
+		"points": 0,
+		"spriteID": 30108,
+		"subreq_count": [
+			1
+		]
+	},
+	{
+		"category": 5619,
+		"description": "Defeat Zamorak, Lord of Chaos at 1,000% enrage solo or in a group.",
+		"hidden": 1,
+		"id": 5076,
+		"op_17": [
+			{
+				"description": "",
+				"value": 1,
+				"varbit": 61826
+			}
+		],
+		"points": 0,
+		"spriteID": 30108,
+		"subreq_count": [
+			1
+		]
+	},
+	{
+		"category": 5619,
+		"description": "Smith a piece of Necronium armour or weaponry in Morytania.",
+		"hidden": 1,
+		"id": 5077,
+		"op_17": [
+			{
+				"description": "",
+				"value": 1,
+				"varbit": 61810
+			}
+		],
+		"points": 0,
+		"spriteID": 30108,
+		"subreq_count": [
+			1
+		]
+	},
+	{
+		"category": 5619,
+		"description": "Complete all combat mastery achievements for the Barrows Brothers.",
+		"hidden": 1,
+		"id": 5078,
+		"op_17": [
+			{
+				"description": "",
+				"value": 1,
+				"varbit": 61811
+			}
+		],
+		"points": 0,
+		"spriteID": 30108,
+		"subreq_count": [
+			1
+		]
+	},
+	{
+		"category": 5619,
+		"description": "Steal from a potion stall in Darkmeyer.",
+		"hidden": 1,
+		"id": 5079,
+		"op_17": [
+			{
+				"description": "",
+				"value": 1,
+				"varbit": 61812
+			}
+		],
+		"points": 0,
+		"spriteID": 30108,
+		"subreq_count": [
+			1
+		]
+	},
+	{
+		"category": 5619,
+		"description": "Catch 30 crystal skillchompas in Isafdar.",
+		"hidden": 1,
+		"id": 5080,
+		"op_17": [
+			{
+				"description": "",
+				"value": 30,
+				"varbit": 59711
+			}
+		],
+		"op_32": [
+			2,
+			0,
+			0
+		],
+		"op_9": [
+			{
+				"description": "Partial completion of the Regicide quest.",
+				"step_size": 1,
+				"value": 9,
+				"varbit": 2102
+			}
+		],
+		"points": 0,
+		"skill_req_count": [
+			2
+		],
+		"skill_reqs_8": [
+			{
+				"level": 97,
+				"skillID": 21,
+				"text": "Skill: Hunter 97",
+				"unk_bytes": [
+					0,
+					0
+				]
+			}
+		],
+		"spriteID": 30108,
+		"subreq_count": [
+			1
+		]
+	},
+	{
+		"category": 5619,
+		"description": "Defeat 25 Lost Grove creatures.",
+		"hidden": 1,
+		"id": 5081,
+		"op_17": [
+			{
+				"description": "",
+				"value": 25,
+				"varbit": 61851
+			}
+		],
+		"op_32": [
+			2,
+			0,
+			0
+		],
+		"points": 0,
+		"spriteID": 30108,
+		"subreq_count": [
+			1
+		]
+	},
+	{
+		"category": 5619,
+		"description": "Catch a crystal urchin at the Prifddinas Waterfall.",
+		"hidden": 1,
+		"id": 5082,
+		"op_17": [
+			{
+				"description": "",
+				"value": 1,
+				"varbit": 61830
+			}
+		],
+		"points": 0,
+		"spriteID": 30108,
+		"subreq_count": [
+			1
+		]
+	},
+	{
+		"category": 5619,
+		"description": "Equip a piece of the Prifddinas Musician's or Worker's outfit.",
+		"hidden": 1,
+		"id": 5083,
+		"op_17": [
+			{
+				"description": "",
+				"value": 1,
+				"varbit": 61831
+			}
+		],
+		"points": 0,
+		"spriteID": 30108,
+		"subreq_count": [
+			1
+		]
+	},
+	{
+		"category": 5619,
+		"description": "Help Teelee with the wisps of the Grove.",
+		"hidden": 1,
+		"id": 5084,
+		"op_17": [
+			{
+				"description": "",
+				"value": 1,
+				"varbit": 61832
+			}
+		],
+		"points": 0,
+		"spriteID": 30108,
+		"subreq_count": [
+			1
+		]
+	},
+	{
+		"category": 5619,
+		"description": "Equip a blightbound crossbow.",
+		"hidden": 1,
+		"id": 5085,
+		"op_17": [
+			{
+				"description": "",
+				"value": 1,
+				"varbit": 61833
+			}
+		],
+		"points": 0,
+		"spriteID": 30108,
+		"subreq_count": [
+			1
+		]
+	},
+	{
+		"category": 5619,
+		"description": "Scatter 15 searing ashes.",
+		"hidden": 1,
+		"id": 5086,
+		"op_17": [
+			{
+				"description": "",
+				"value": 15,
+				"varbit": 61852
+			}
+		],
+		"op_32": [
+			2,
+			0,
+			0
+		],
+		"points": 0,
+		"spriteID": 30108,
+		"subreq_count": [
+			1
+		]
+	},
+	{
+		"category": 5619,
+		"description": "Equip a Ruinous weapon.",
+		"hidden": 1,
+		"id": 5087,
+		"op_17": [
+			{
+				"description": "",
+				"value": 1,
+				"varbit": 61840
+			}
+		],
+		"points": 0,
+		"spriteID": 30108,
 		"subreq_count": [
 			1
 		]

@@ -17,7 +17,7 @@ function script20131(int0: number, int1: number): string {
             break;
         }
     };
-    if (((ACHIEVEMENT_CATEGORY(int1) == 4766 as category) && (dbrow_getfield(int0, 1368128, 0) == 6))) {
+    if (((ACHIEVEMENT_CATEGORY(int1) == 4766 as category) && (dbrow_getfield(int0, 1368144, 0) == 7))) {
         return `Complete the task set: ${enum_getvalue(41, 36, 3482 as cs2enum, ACHIEVEMENT_SUBCAT(unk11032(int1, 0)))}.`;
     };
     return script15321(int1);

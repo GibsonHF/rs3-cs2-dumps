@@ -36,6 +36,7 @@ function script2734(int0: number, int1: number, int2: number, int3: number): [nu
             break;
         }
     };
-    int3 = script20150(int0, int3);
+    stack(int0);
+    int3 = script20150(int1, int3);
     return [int1, int2, int3];
 }

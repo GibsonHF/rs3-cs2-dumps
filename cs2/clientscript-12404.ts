@@ -1,5 +1,9 @@
 //
 function script12404(int0: number): number {
+    script20959();
+    if (BRANCH_EQUALS(1)) {
+        return 0;
+    };
     var int1 = 400;
     var int2 = 100;
     switch (int0) {

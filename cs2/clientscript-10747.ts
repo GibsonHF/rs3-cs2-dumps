@@ -30,6 +30,60 @@ function script10747(int0: number): void {
     if ((varbitplayer_33889 < 1)) {
         IF_SETHIDE(true, comp(138, 15));
     };
+    stack(16);
+    stack(0);
+    script20932();
+    if (BRANCH_EQUALS(0)) {
+        IF_SETHIDE(true, comp(138, 7));
+    };
+    stack(8);
+    stack(0);
+    script20932();
+    if (BRANCH_EQUALS(0)) {
+        IF_SETHIDE(true, comp(138, 8));
+    };
+    stack(2);
+    stack(0);
+    script20932();
+    if (BRANCH_EQUALS(0)) {
+        IF_SETHIDE(true, comp(138, 9));
+    };
+    stack(11);
+    stack(0);
+    script20932();
+    if (BRANCH_EQUALS(0)) {
+        IF_SETHIDE(true, comp(138, 10));
+    };
+    stack(6);
+    stack(0);
+    script20932();
+    if (BRANCH_EQUALS(0)) {
+        IF_SETHIDE(true, comp(138, 11));
+    };
+    stack(15);
+    stack(0);
+    script20932();
+    if (BRANCH_EQUALS(0)) {
+        IF_SETHIDE(true, comp(138, 12));
+    };
+    stack(16);
+    stack(0);
+    script20932();
+    if (BRANCH_EQUALS(0)) {
+        IF_SETHIDE(true, comp(138, 13));
+    };
+    stack(23);
+    stack(0);
+    script20932();
+    if (BRANCH_EQUALS(0)) {
+        IF_SETHIDE(true, comp(138, 14));
+    };
+    stack(32);
+    stack(0);
+    script20932();
+    if (BRANCH_EQUALS(0)) {
+        IF_SETHIDE(true, comp(138, 15));
+    };
     switch (int0) {
         case 0: {
             IF_SETHIDE(false, comp(138, 34));

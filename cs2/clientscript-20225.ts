@@ -1,6 +1,6 @@
 //
 function script20225(): void {
-    script20209(1, "League progression is separate to your regular RuneScape save. When the League ends, points and untradeable rewards will be transferred to your nominated RuneScape save.");
+    script20209(1, "League progression is separate to your regular RuneScape save. When the League ends, points will be transferred to your nominated RuneScape account to be used in the Sage's shop to unlock cosmetic rewards.");
     script20211(0);
     CC_DELETEALL(comp(1401, 21));
     CC_DELETEALL(comp(1401, 27));

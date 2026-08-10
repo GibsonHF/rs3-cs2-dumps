@@ -220,9 +220,9 @@ function script8454(int0: number): void {
         };
     } else {
         if ((varbitplayer_27168 == 0)) {
-            string1 = `${inttostring(varbitplayer_1668, 10)}/${inttostring(script2915(), 10)}`;
+            string1 = `${inttostring(varplayer_13537, 10)}/${inttostring(script2915(), 10)}`;
         } else {
-            string1 = `${inttostring((varbitplayer_1668 / 10), 10)}/${inttostring((script2915() / 10), 10)}`;
+            string1 = `${inttostring((varplayer_13537 / 10), 10)}/${inttostring((script2915() / 10), 10)}`;
         };
         IF_SETTEXT(string1, comp(1463, 24));
         if ((STRING_LENGTH(string1) >= 8)) {
@@ -231,7 +231,7 @@ function script8454(int0: number): void {
             IF_SETTEXT("Life Points", comp(1463, 25));
         };
         if (((IF_FIND(comp(1463, 16)) == 1) && (IF_FIND[1](CC_GETPARENTLAYER()) == 1))) {
-            int3 = script669(varbitplayer_1668, script2915(), CC_GETWIDTH[1]());
+            int3 = script669(varplayer_13537, script2915(), CC_GETWIDTH[1]());
             CC_SETSIZE(int3, CC_GETHEIGHT(), 0, 0);
         };
         string1 = `${inttostring(script5256(), 10)}/${inttostring(script7081(), 10)}`;

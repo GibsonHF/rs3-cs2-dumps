@@ -14,6 +14,14 @@ function script5730(int0: number, int1: number, int2: number): number {
             script1493();
             break;
         }
+        case 63584: {
+            script12556();
+            break;
+        }
+        case 63588: {
+            script15032();
+            break;
+        }
         case 18338: {
             script1494(int2);
             break;

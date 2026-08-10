@@ -1,6 +1,47 @@
 //
 function script1858(int0: number): number {
     switch (varplayer_12314) {
+        case 2: {
+            switch (int0) {
+                case 0: {
+                    return 1;
+                }
+                case 12: {
+                    if ((QUEST_FINISHED(489 as quest) == false)) {
+                        return 1;
+                    };
+                    break;
+                }
+                case 17: {
+                    if ((script20143(19582, 3) == 1)) {
+                        return 1;
+                    };
+                    break;
+                }
+                case 4: {
+                    return 1;
+                }
+                case 18: {
+                    return 1;
+                }
+                case 19: {
+                    return 1;
+                }
+                case 20: {
+                    if ((script20143(19583, 3) == 1)) {
+                        return 1;
+                    };
+                    break;
+                }
+                case 21: {
+                    return 1;
+                }
+                default: {
+                    return 0;
+                }
+            };
+            break;
+        }
         case 1: {
             switch (int0) {
                 case 0: {

@@ -172,7 +172,7 @@ function script14003(int0: number, int1: number, string0: string): void {
             string1 = "3, Space";
             break;
         }
-        case 77529096: {
+        case 77529095: {
             switch (MAP_LANG()) {
                 case 1: {
                     string1 = "J";
@@ -193,11 +193,11 @@ function script14003(int0: number, int1: number, string0: string): void {
             };
             break;
         }
-        case 77529097: {
+        case 77529096: {
             string1 = "N";
             break;
         }
-        case 77529095: {
+        case 77529094: {
             string1 = "CTRL + A";
             break;
         }

@@ -44,7 +44,6 @@ function script2134(int0: number, string0: string, string1: string): string {
     var string18 = "";
     var string19 = "";
     var string20 = "";
-    var string21 = "";
     var int26 = 0;
     if ((int0 != -1)) {
         [string2, int1] = script2133(int0);
@@ -196,58 +195,54 @@ function script2134(int0: number, string0: string, string1: string): string {
         if ((STRING_LENGTH(string0) == 0)) {
             var string0 = script6392(int2, int14, string8, int3, int15, string9, int4, int16, string10, int5, int17, string11, int6, int18, string12, int7, int19, string13, int8, int20, string14, int9, int21, string15, int10, int22, string16, int11, int23, string17, int12, int24, string18, int13, int25, string19, quest_getparam(int0, 7823), "", "<br>");
         };
-        string21 = script16835(int0);
-        string20 = script3977(quest_getparam(int0, 1345));
+        string20 = script16835(int0);
     };
-    var string22 = "";
+    var string21 = "";
     if ((STRING_LENGTH(string2) > 0)) {
-        string22 = strconcat(string22, string2);
-        string22 = strconcat(string22, "<br>");
+        string21 = strconcat(string21, string2);
+        string21 = strconcat(string21, "<br>");
     };
     if ((STRING_LENGTH(string3) > 0)) {
-        string22 = strconcat(string22, string3);
-        string22 = strconcat(string22, "<br>");
+        string21 = strconcat(string21, string3);
+        string21 = strconcat(string21, "<br>");
     };
     if ((STRING_LENGTH(string4) > 0)) {
-        string22 = strconcat(string22, string4);
-        string22 = strconcat(string22, "<br>");
+        string21 = strconcat(string21, string4);
+        string21 = strconcat(string21, "<br>");
     };
     if ((STRING_LENGTH(string5) > 0)) {
-        string22 = strconcat(string22, string5);
-        string22 = strconcat(string22, "<br>");
+        string21 = strconcat(string21, string5);
+        string21 = strconcat(string21, "<br>");
     };
     if ((STRING_LENGTH(string6) > 0)) {
-        string22 = strconcat(string22, string6);
-        string22 = strconcat(string22, "<br>");
+        string21 = strconcat(string21, string6);
+        string21 = strconcat(string21, "<br>");
     };
     if ((STRING_LENGTH(string7) > 0)) {
-        string22 = strconcat(string22, string7);
-        string22 = strconcat(string22, "<br>");
+        string21 = strconcat(string21, string7);
+        string21 = strconcat(string21, "<br>");
     };
     if ((int26 == 1)) {
         if ((STRING_LENGTH(string1) > 0)) {
-            string22 = strconcat(string22, string1);
-            string22 = strconcat(string22, "<br>");
+            string21 = strconcat(string21, string1);
+            string21 = strconcat(string21, "<br>");
         } else if ((STRING_LENGTH(string0) > 0)) {
             if ((int0 == 371)) {
-                string22 = strconcat(string22, inttostring(script2135(), 10));
+                string21 = strconcat(string21, inttostring(script2135(), 10));
             };
-            string22 = strconcat(string22, string0);
-            string22 = strconcat(string22, "<br>");
+            string21 = strconcat(string21, string0);
+            string21 = strconcat(string21, "<br>");
         };
     } else if ((STRING_LENGTH(string0) > 0)) {
         if ((int0 == 371)) {
-            string22 = strconcat(string22, inttostring(script2135(), 10));
+            string21 = strconcat(string21, inttostring(script2135(), 10));
         };
-        string22 = strconcat(string22, string0);
-        string22 = strconcat(string22, "<br>");
-    };
-    if ((STRING_LENGTH(string21) > 0)) {
-        string22 = strconcat(string22, string21);
-        string22 = strconcat(string22, "<br>");
+        string21 = strconcat(string21, string0);
+        string21 = strconcat(string21, "<br>");
     };
     if ((STRING_LENGTH(string20) > 0)) {
-        string22 = strconcat(string22, string20);
+        string21 = strconcat(string21, string20);
+        string21 = strconcat(string21, "<br>");
     };
-    return string22;
+    return string21;
 }

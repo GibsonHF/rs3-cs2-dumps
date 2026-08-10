@@ -19,7 +19,11 @@ function script20309(int0: number, int1: number, int2: number): void {
                 int8 = (int8 + int6);
                 int9 = (int9 + int7);
                 if ((CC_FINDBYCATEGORY(int0, int3, 7) == 1)) {
-                    CC_SETTEXT(inttostring(int6, 10));
+                    if ((int6 == 1)) {
+                        CC_SETTEXT(`${inttostring(int6, 10)} task`);
+                    } else {
+                        CC_SETTEXT(`${inttostring(int6, 10)} tasks`);
+                    };
                 };
             };
         };

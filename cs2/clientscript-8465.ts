@@ -1,7 +1,7 @@
 //
 function script8465(int0: number): void {
     var int1 = 0;
-    var int2 = 94 as inv;
+    var int2 = 94;
     var int3 = varplayer_711;
     var int4 = varplayer_3563;
     var int5 = varplayer_712;
@@ -15,7 +15,7 @@ function script8465(int0: number): void {
     var int13 = varclient_2760;
     if ((int0 == 102170649)) {
         int1 = 1;
-        int2 = 742 as inv;
+        int2 = 742;
         int3 = varplayer_4975;
         int4 = varplayer_4976;
         int5 = varplayer_4977;
@@ -38,13 +38,8 @@ function script8465(int0: number): void {
         int18 = MAX(0, MIN(10000, (10000 - (SCALE(int15, int16, 100) * int6))));
         int19 = MAX(0, MIN(10000, (10000 - (SCALE(int15, int16, 100) * int7))));
     };
-    var int20 = INV_TOTALPARAM(int2, 2946);
-    if ((script5839() == 1)) {
-        int20 = (int20 + 2);
-    };
-    if ((INV_GETOBJ(int2, 17) == 31925 as obj)) {
-        int20 = (int20 + 10);
-    };
+    script21026();
+    var int20 = [];
     var int21 = (STAT(3 as stat) * 100);
     if ((varbitplayer_27168 == 1)) {
         int21 = (int21 / 10);

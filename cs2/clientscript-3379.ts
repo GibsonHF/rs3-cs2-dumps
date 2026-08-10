@@ -51,7 +51,6 @@ function script3379(int0: number, int1: number, int2: number): void {
     var int19 = 0;
     var int20 = 0;
     var int21 = 0;
-    var int22 = -1;
     script8306();
     if ((((script8314(int0) == -1) || (varbitplayer_38842 == 1)) || (varbitplayer_27169 == 1))) {
         int3 = script10405(int0);
@@ -146,44 +145,27 @@ function script3379(int0: number, int1: number, int2: number): void {
             };
         } else {
             if (((((struct_getparam(int3, 3534) != -1) || (int0 == 9)) || (int0 == 12)) || (int0 == 17))) {
-                int22 = script20117(-1);
                 if ((struct_getparam(int3, 9398) == true)) {
-                    if ((int22 == -1)) {
-                        if ((varbitclient_60445 == 1)) {
-                            if ((varbitclient_60444 == varbitclient_22877)) {
-                                varbitclient_22877 = 0;
-                            };
-                            if (((varbitclient_60444 != 0) && (varbitclient_60444 != (int0 + 1)))) {
-                                script8323((varbitclient_60444 - 1), 1);
-                            };
-                            varbitclient_60444 = (int0 + 1);
-                            [int13, int14] = script9950();
-                            IF_SETPOSITION(int13, int14, 2, 2, struct_getparam(int3, 3503));
-                            if ((varbitclient_22877 != 0)) {
-                                script10535((varbitclient_22877 - 1));
-                            };
-                        } else {
-                            if (((varbitclient_22877 != 0) && (varbitclient_22877 != (int0 + 1)))) {
-                                script8323((varbitclient_22877 - 1), 1);
-                            };
-                            varbitclient_22877 = (int0 + 1);
-                            [int13, int14] = script9950();
-                            IF_SETPOSITION(int13, int14, 2, 2, struct_getparam(int3, 3503));
+                    if ((varbitclient_60445 == 1)) {
+                        if ((varbitclient_60444 == varbitclient_22877)) {
+                            varbitclient_22877 = 0;
+                        };
+                        if (((varbitclient_60444 != 0) && (varbitclient_60444 != (int0 + 1)))) {
+                            script8323((varbitclient_60444 - 1), 1);
+                        };
+                        varbitclient_60444 = (int0 + 1);
+                        [int13, int14] = script9950();
+                        IF_SETPOSITION(int13, int14, 2, 2, struct_getparam(int3, 3503));
+                        if ((varbitclient_22877 != 0)) {
+                            script10535((varbitclient_22877 - 1));
                         };
                     } else {
-                        [int13, int14] = script9950();
-                        if ((varbitclient_60445 == 1)) {
-                            if ((varbitclient_60444 > 0)) {
-                                int13 = (int13 + 210);
-                            };
-                            IF_SETPOSITION(int13, int14, 2, 2, struct_getparam(int3, 3503));
-                        };
-                        if ((((varbitclient_22877 != 0) && (varbitclient_22877 != (int0 + 1))) && (script1423(int0, int22) == 0))) {
+                        if (((varbitclient_22877 != 0) && (varbitclient_22877 != (int0 + 1)))) {
                             script8323((varbitclient_22877 - 1), 1);
                         };
-                        if ((script1423(int0, int22) == 0)) {
-                            varbitclient_22877 = (int0 + 1);
-                        };
+                        varbitclient_22877 = (int0 + 1);
+                        [int13, int14] = script9950();
+                        IF_SETPOSITION(int13, int14, 2, 2, struct_getparam(int3, 3503));
                     };
                 } else {
                     [int13, int14] = script9950();
@@ -193,10 +175,10 @@ function script3379(int0: number, int1: number, int2: number): void {
                         };
                         IF_SETPOSITION(int13, int14, 2, 2, struct_getparam(int3, 3503));
                     };
-                    if ((((varbitclient_22877 != 0) && (varbitclient_22877 != (int0 + 1))) && (script1423(int0, int22) == 0))) {
+                    if ((((varbitclient_22877 != 0) && (varbitclient_22877 != (int0 + 1))) && (script1423(int0) == 0))) {
                         script8323((varbitclient_22877 - 1), 1);
                     };
-                    if ((script1423(int0, int22) == 0)) {
+                    if ((script1423(int0) == 0)) {
                         varbitclient_22877 = (int0 + 1);
                     };
                 };

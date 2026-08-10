@@ -484,7 +484,8 @@ function script8144(): void {
             int20 = 0;
             int21 = 0;
         } else {
-            int7 = 16;
+            script21108();
+            int7 = [];
             int22 = 32;
             int23 = 32;
             int20 = 4;
@@ -497,7 +498,8 @@ function script8144(): void {
         int20 = 0;
         int21 = 0;
     } else {
-        int7 = 16;
+        script21108();
+        int7 = [];
         int22 = 32;
         int23 = 32;
         int20 = 4;

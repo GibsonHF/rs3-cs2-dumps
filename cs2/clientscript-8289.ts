@@ -40,12 +40,18 @@ function script8289(int0: number, int1: number): void {
     if ((CC_FIND(int5, 15) == 1)) {
         if ((int1 != -1)) {
             if ((struct_getparam(int1, 3495) != -1)) {
-                CC_SETGRAPHIC(struct_getparam(int1, 3495));
+                stack(int1);
+                script21109();
+                CC_SETGRAPHIC();
             } else {
-                CC_SETGRAPHIC(struct_getparam(int4, 3495));
+                stack(int4);
+                script21109();
+                CC_SETGRAPHIC();
             };
         } else {
-            CC_SETGRAPHIC(struct_getparam(int4, 3495));
+            stack(int4);
+            script21109();
+            CC_SETGRAPHIC();
         };
     };
     return;

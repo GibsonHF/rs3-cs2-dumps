@@ -124,7 +124,9 @@ function script13678(int0: number, int1: number, int2: number, int3: number, int
     string0 = `<col=f5b241>Current Invention level:</col> ${inttostring(STAT(26 as stat), 10)}`;
     CC_SETONMOUSEREPEAT(callback(script3876, string0, -2147483645, -2147483643));
     int19 = (int19 + (int23 + int17));
-    int24 = dbrow_getfield(int11, 90160, 0);
+    stack(int11);
+    script21031();
+    int24 = [];
     stack(int1);
     stack(4);
     stack(int14);

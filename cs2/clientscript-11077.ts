@@ -1,9 +1,6 @@
 //
 function script11077(int0: number): number {
     switch (int0) {
-        case 14718: {
-            return varbitplayer_1898;
-        }
         case 24333: {
             return varplayer_4678;
         }
@@ -431,6 +428,9 @@ function script11077(int0: number): number {
         }
         case 47801: {
             return MODULO(varplayer_10936, 6);
+        }
+        case 3636: {
+            return varbitplayer_1898;
         }
         case 48850: {
             return varbitplayer_54609;

@@ -1,6 +1,9 @@
 //
 function script18542(int0: number): number {
     var int1 = script18543(int0);
+    if ((((int0 != 4153) && (varplayer_12314 == 2)) && (varbitplayer_61685 == 1))) {
+        return 0;
+    };
     if ((MAP_MEMBERS() == 1)) {
         if (((varbitplayer_4318 == 1) || (INV_GETOBJ(94 as inv, 12) == 19669 as obj))) {
             int1 = SCALE(item_getparam(int0, 4332), 100, 90);

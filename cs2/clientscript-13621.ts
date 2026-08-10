@@ -5539,6 +5539,27 @@ function script13621(int0: number): number {
         case 59647: {
             return script5566(varbitplayer_60069, 7, 1);
         }
+        case 63625: {
+            return script5566(varbitplayer_61854, 1, 1);
+        }
+        case 63626: {
+            return script5566(varbitplayer_61854, 2, 1);
+        }
+        case 63627: {
+            return script5566(varbitplayer_61854, 3, 1);
+        }
+        case 63628: {
+            return script5566(varbitplayer_61854, 4, 1);
+        }
+        case 63629: {
+            return script5566(varbitplayer_61854, 5, 1);
+        }
+        case 63630: {
+            return script5566(varbitplayer_61854, 6, 1);
+        }
+        case 63631: {
+            return script5566(varbitplayer_61854, 7, 1);
+        }
         case 59996: {
             return varbitplayer_60264;
         }

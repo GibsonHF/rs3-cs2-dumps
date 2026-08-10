@@ -18,7 +18,7 @@ function script8283(int0: number, int1: number): void {
                 int2 = 0;
                 int3 = 0;
                 int4 = 742;
-                int5 = 404;
+                int5 = 450;
             } else {
                 IF_SETHIDE(false, comp(1784, 4));
                 IF_SETHIDE(false, comp(1784, 3));

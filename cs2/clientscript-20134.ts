@@ -4,10 +4,15 @@ function script20134(): number {
     if ((int0 == -1)) {
         return 0;
     };
-    var int1 = dbrow_getfield(int0, 1335584, 0);
+    if ((script13048() == 1)) {
+        return 999;
+    };
+    var int1 = dbrow_getfield(int0, 1335648, 0);
     var int2 = 0;
     var int3 = 0;
-    var int4 = ENUM_GETOUTPUTCOUNT(int1);
+    stack(0);
+    script20928();
+    var int4 = [];
     while ((int2 < int4)) {
         if ((varbitplayer_58389 >= enum_getvalue(0, 0, int1, int2))) {
             int3 = (int3 + 1);
