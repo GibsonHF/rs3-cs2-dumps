@@ -15,7 +15,7 @@ function script10141(int0: number): void {
     varbitclient_23073 = 30;
     if ((varbitclient_23069 < 0)) {
         varbitclient_23069 = 0;
-        IF_SETHIDE(true, comp(232, 129));
+        IF_SETHIDE(true, comp(232, 129));  // toplevel_v2_parent_suboverlay_twitch:webcam_list_layer
     };
     script10118();
     script10144();

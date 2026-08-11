@@ -1,6 +1,6 @@
 //
 function script20726(): void {
-    IF_SETTEXT(varclient_8434, comp(1665, 1));
+    IF_SETTEXT(varclient_8434, comp(1665, 1));  // poh_house_controls:house_settings_title
     var int0 = 109117446;
     var int1 = 0;
     stack(int0);

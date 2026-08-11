@@ -2,8 +2,8 @@
 function script13223(int0: number, string0: string): void {
     if ((int0 <= CLIENTCLOCK())) {
         if ((strcmp(varclient_2250, string0) != 0)) {
-            IF_SETONTIMER(callback(), comp(1843, 238));
-            if ((IF_FIND(comp(1843, 183)) == 1)) {
+            IF_SETONTIMER(callback(), comp(1843, 238));  // mtxmgt_store:aif_text_input
+            if ((IF_FIND(comp(1843, 183)) == 1)) {  // mtxmgt_store:items_layer
                 if ((varclient_5938 != script441(1))) {
                     script13230();
                     return;
@@ -13,7 +13,7 @@ function script13223(int0: number, string0: string): void {
             var string0 = varclient_2250;
         };
         var int0 = (CLIENTCLOCK() + 25);
-        IF_SETONTIMER(callback(script13222, string0, int0), comp(1843, 238));
+        IF_SETONTIMER(callback(script13222, string0, int0), comp(1843, 238));  // mtxmgt_store:aif_text_input
     };
     return;
 }

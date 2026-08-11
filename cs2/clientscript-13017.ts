@@ -15,15 +15,15 @@ function script13017(int0: number, int1: number, int2: number): void {
         varclient_7340 = MODULO(int3, 60);
     };
     if (((int2 == 0) && ((int0 + int1) > 0))) {
-        IF_SETONTIMER(callback(script18163), comp(584, 8));
+        IF_SETONTIMER(callback(script18163), comp(584, 8));  // doublexp_week:doublexp_timer
     };
     script12262(int2);
-    IF_SETTEXT(script18166(), comp(584, 8));
+    IF_SETTEXT(script18166(), comp(584, 8));  // doublexp_week:doublexp_timer
     script18167(0);
     if ((MAP_MEMBERS() == 0)) {
-        IF_SETTEXT("1.2x<br>XP", comp(584, 2));
+        IF_SETTEXT("1.2x<br>XP", comp(584, 2));  // doublexp_week:doublexp_label
     } else {
-        IF_SETTEXT("2x<br>XP", comp(584, 2));
+        IF_SETTEXT("2x<br>XP", comp(584, 2));  // doublexp_week:doublexp_label
     };
     return;
 }

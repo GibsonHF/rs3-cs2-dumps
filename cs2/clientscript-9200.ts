@@ -6,10 +6,10 @@ function script9200(int0: number): void {
         script8844(1, 18, 0, 8585232, -1);
         script8844(1, 13, 8, 8585224, -1);
     } else {
-        IF_SETOPKEY(1, 0, 0, comp(131, 10));
-        IF_SETOPKEY(1, 0, 0, comp(131, 13));
-        IF_SETOPKEY(1, 0, 0, comp(131, 16));
-        IF_SETOPKEY(1, 0, 0, comp(131, 8));
+        IF_SETOPKEY(1, 0, 0, comp(131, 10));  // div_converting:energy_click
+        IF_SETOPKEY(1, 0, 0, comp(131, 13));  // div_converting:xp_click
+        IF_SETOPKEY(1, 0, 0, comp(131, 16));  // div_converting:enhanced_click
+        IF_SETOPKEY(1, 0, 0, comp(131, 8));  // div_converting:modal_dialog_window_close_button
     };
     return;
 }

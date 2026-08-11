@@ -20,29 +20,29 @@ function script1708(): void {
         string0 = `${inttostring(int1, 10)}h`;
     };
     if ((int0 > 0)) {
-        IF_SETTEXT(`Voyages available: ${inttostring(int0, 10)}`, comp(950, 11));
+        IF_SETTEXT(`Voyages available: ${inttostring(int0, 10)}`, comp(950, 11));  // pop_voyage_list:list_rerolls
     } else {
-        IF_SETTEXT(`New voyages in ${string0}`, comp(950, 11));
+        IF_SETTEXT(`New voyages in ${string0}`, comp(950, 11));  // pop_voyage_list:list_rerolls
     };
     script13993(62259213, -1, 28556, `Add 5 rerolls (${inttostring(varbitplayer_17421, 10)})`);
     if (((varbitplayer_17421 < 1) || (varbitplayer_17121 > 15))) {
-        IF_SETHIDE(false, comp(950, 14));
+        IF_SETHIDE(false, comp(950, 14));  // pop_voyage_list:add_rerolls_no
     } else {
-        IF_SETHIDE(true, comp(950, 14));
+        IF_SETHIDE(true, comp(950, 14));  // pop_voyage_list:add_rerolls_no
     };
     if ((varbitplayer_17423 < 1)) {
-        IF_SETHIDE(false, comp(950, 277));
+        IF_SETHIDE(false, comp(950, 277));  // pop_voyage_list:reroll_special_voyages_disable_layer
     } else {
-        IF_SETHIDE(true, comp(950, 277));
+        IF_SETHIDE(true, comp(950, 277));  // pop_voyage_list:reroll_special_voyages_disable_layer
     };
     script1711(varbitplayer_17129, 1);
     script1711(varbitplayer_17129, 2);
     script1711(varbitplayer_17129, 3);
-    IF_SETOPKEY(2, 96, 0, comp(950, 106));
-    IF_SETOPKEY(1, 97, 0, comp(950, 106));
-    IF_SETOPKEY(2, 98, 0, comp(950, 2));
-    IF_SETOPKEY(1, 99, 0, comp(950, 2));
-    IF_SETOPKEY(1, 13, 0, comp(950, 218));
+    IF_SETOPKEY(2, 96, 0, comp(950, 106));  // pop_voyage_list:ship_list_selector
+    IF_SETOPKEY(1, 97, 0, comp(950, 106));  // pop_voyage_list:ship_list_selector
+    IF_SETOPKEY(2, 98, 0, comp(950, 2));  // pop_voyage_list:voyage_list_selector
+    IF_SETOPKEY(1, 99, 0, comp(950, 2));  // pop_voyage_list:voyage_list_selector
+    IF_SETOPKEY(1, 13, 0, comp(950, 218));  // pop_voyage_list:mainmodal_window_close_button
     script2192();
     script1885();
     var int3 = varplayer_3415;
@@ -61,14 +61,14 @@ function script1708(): void {
         script13960(62259275, 28693, 0, 0);
     };
     if ((varbitplayer_17495 < 63)) {
-        IF_SETHIDE(true, comp(950, 110));
-        IF_SETHIDE(true, comp(950, 10));
-        IF_SETHIDE(true, comp(950, 7));
-        IF_SETHIDE(true, comp(950, 33));
-        IF_SETHIDE(true, comp(950, 53));
-        IF_SETHIDE(true, comp(950, 73));
+        IF_SETHIDE(true, comp(950, 110));  // pop_voyage_list:effects_button
+        IF_SETHIDE(true, comp(950, 10));  // pop_voyage_list:reroll_layer
+        IF_SETHIDE(true, comp(950, 7));  // pop_voyage_list:more_layer
+        IF_SETHIDE(true, comp(950, 33));  // pop_voyage_list:list_1_reroll
+        IF_SETHIDE(true, comp(950, 53));  // pop_voyage_list:list_2_reroll
+        IF_SETHIDE(true, comp(950, 73));  // pop_voyage_list:list_3_reroll
         if ((varbitplayer_17495 < 38)) {
-            IF_SETHIDE(true, comp(950, 108));
+            IF_SETHIDE(true, comp(950, 108));  // pop_voyage_list:crew_roster
         };
     };
     return;

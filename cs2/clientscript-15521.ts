@@ -7,7 +7,7 @@ function script15521(): void {
     varclient_6877 = 0;
     varclient_6878 = 0;
     if ((script6431() == 1)) {
-        IF_SETHIDE(true, comp(784, 32));
+        IF_SETHIDE(true, comp(784, 32));  // fairyrings:tut_text_3
     };
     return;
 }

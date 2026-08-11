@@ -2,7 +2,7 @@
 function script6446(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number, int8: number, int9: number, int10: number, int11: number, int12: number, int13: number): void {
     var int5 = (int5 + 100);
     var int1 = (int1 + int2);
-    if ((CC_FIND(comp(1311, 343), 0) == 1)) {
+    if ((CC_FIND(comp(1311, 343), 0) == 1)) {  // mtxmgt:preview_pane
         var int4 = CC_GETMODELANGLE_Y();
         int1 = CC_GETMODELZOOM();
         int5 = CC_GETMODELYOF();

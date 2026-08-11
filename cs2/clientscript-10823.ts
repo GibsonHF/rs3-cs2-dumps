@@ -51,9 +51,9 @@ function script10823(int0: number): void {
             return;
         };
         if ((cc_getparam(8107) == true)) {
-            if ((int3 == comp(1204, 2))) {
+            if ((int3 == comp(1204, 2))) {  // activity_buff_bar:buff_render_layer
                 script2921(int0, int1);
-            } else if (((int3 != comp(1204, 2)) && (script11295(int1) == 0))) {
+            } else if (((int3 != comp(1204, 2)) && (script11295(int1) == 0))) {  // activity_buff_bar:buff_render_layer
                 script2921(int0, int1);
             };
         };

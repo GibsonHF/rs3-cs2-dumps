@@ -68,7 +68,7 @@ function script12122(int0: number, int1: number, int2: number, int3: number, int
         CC_SETONMOUSEREPEAT(callback(script12123, -2147483645, -2147483643, int6, int0, int7, int1));
         CC_SETOP(1, "Select");
         CC_SENDTOFRONT();
-        if ((int2 == comp(1708, 33))) {
+        if ((int2 == comp(1708, 33))) {  // invent_discovery:side_active_layer
             CC_SETONSCROLLWHEEL(callback(script36, 111935489, 111935490, -2147483646));
         };
     };

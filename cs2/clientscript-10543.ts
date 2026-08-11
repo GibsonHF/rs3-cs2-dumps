@@ -20,7 +20,7 @@ function script10543(int0: number, int1: number): void {
             int8 = 126484636;
             int10 = 126484532;
             int9 = 126484630;
-            IF_SETHIDE(false, comp(1930, 49));
+            IF_SETHIDE(false, comp(1930, 49));  // timed_event_tasks:task_1
             break;
         }
         case 1: {
@@ -33,7 +33,7 @@ function script10543(int0: number, int1: number): void {
             int8 = 126484637;
             int10 = 126484602;
             int9 = 126484629;
-            IF_SETHIDE(false, comp(1930, 50));
+            IF_SETHIDE(false, comp(1930, 50));  // timed_event_tasks:task_2
             break;
         }
         case 2: {
@@ -46,7 +46,7 @@ function script10543(int0: number, int1: number): void {
             int8 = 126484638;
             int10 = 126484577;
             int9 = 126484628;
-            IF_SETHIDE(false, comp(1930, 96));
+            IF_SETHIDE(false, comp(1930, 96));  // timed_event_tasks:task_3
             break;
         }
     };

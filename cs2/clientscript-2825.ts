@@ -4,7 +4,7 @@ function script2825(int0: number): void {
         if ((int0 == 1)) {
             CAM_SMOOTHRESET();
         };
-        IF_SETONCAMFINISHED(callback(), comp(89, 0));
+        IF_SETONCAMFINISHED(callback(), comp(89, 0));  // fade2:eventlayer
         return;
     };
     CAM_MOVEALONG(0, varclient_1064, enum_getvalue(0, 0, varclient_1067, varclient_1064), enum_getvalue(0, 0, varclient_1067, (varclient_1064 + 1)), 1, varclient_1064);

@@ -1,8 +1,8 @@
 //
 function script20555(): void {
-    CC_DELETEALL(comp(853, 6));
-    CC_DELETEALL(comp(853, 4));
-    IF_SETSIZE(0, -8, 1, 1, comp(853, 6));
+    CC_DELETEALL(comp(853, 6));  // mtx_front_end_bonds:redeem
+    CC_DELETEALL(comp(853, 4));  // mtx_front_end_bonds:scrollbar
+    IF_SETSIZE(0, -8, 1, 1, comp(853, 6));  // mtx_front_end_bonds:redeem
     var int0 = ENUM_GETOUTPUTCOUNT(16365 as cs2enum);
     if ((int0 <= 0)) {
         return;
@@ -21,7 +21,7 @@ function script20555(): void {
             string0 = dbrow_getfield(int2, 548864, 0);
             int5 = dbrow_getfield(int2, 548896, 0);
             int6 = dbrow_getfield(int2, 548960, 0);
-            script15938(55902214, UI_GETCATEGORY(IF_GETNEXTSUBID(comp(853, 6))), UI_GETDYNID(IF_GETNEXTSUBID(comp(853, 6))), 0, 0, 1, 0, 176, 176, 0, 0);
+            script15938(55902214, UI_GETCATEGORY(IF_GETNEXTSUBID(comp(853, 6))), UI_GETDYNID(IF_GETNEXTSUBID(comp(853, 6))), 0, 0, 1, 0, 176, 176, 0, 0);  // mtx_front_end_bonds:redeem
             CC_SETOP(1, "Preview");
             CC_SETONOP(callback(script20556, int1));
             script20615(55902214, string0, int5, script20466(int6, -1, 2), 2, 1, 0, 0, callback(script0));
@@ -30,16 +30,16 @@ function script20555(): void {
     };
     var int7 = script5276(int3, 3);
     var int8 = ((int7 * 176) + ((int7 + 1) * 8));
-    if ((int8 > IF_GETHEIGHT(comp(853, 6)))) {
-        IF_SETSCROLLSIZE(0, int8, comp(853, 6));
+    if ((int8 > IF_GETHEIGHT(comp(853, 6)))) {  // mtx_front_end_bonds:redeem
+        IF_SETSCROLLSIZE(0, int8, comp(853, 6));  // mtx_front_end_bonds:redeem
         script7791(55902212, 55902214);
-        IF_SETHIDE(true, comp(853, 50));
-        IF_SETHIDE(false, comp(853, 51));
+        IF_SETHIDE(true, comp(853, 50));  // mtx_front_end_bonds:fade_top
+        IF_SETHIDE(false, comp(853, 51));  // mtx_front_end_bonds:fade_bottom
     } else {
-        IF_SETSCROLLSIZE(0, 0, comp(853, 6));
-        IF_SETSIZE(0, int8, 1, 0, comp(853, 6));
-        IF_SETHIDE(true, comp(853, 50));
-        IF_SETHIDE(true, comp(853, 51));
+        IF_SETSCROLLSIZE(0, 0, comp(853, 6));  // mtx_front_end_bonds:redeem
+        IF_SETSIZE(0, int8, 1, 0, comp(853, 6));  // mtx_front_end_bonds:redeem
+        IF_SETHIDE(true, comp(853, 50));  // mtx_front_end_bonds:fade_top
+        IF_SETHIDE(true, comp(853, 51));  // mtx_front_end_bonds:fade_bottom
     };
     return;
 }

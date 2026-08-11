@@ -4,7 +4,7 @@ function script19028(): void {
     var int1 = -1 as graphic;
     var string0 = "";
     if (((varbitplayer_52293 > 0) && (varbitplayer_52294 > 0))) {
-        IF_SETHIDE(false, comp(1082, 82));
+        IF_SETHIDE(false, comp(1082, 82));  // trh189_overlay:left_modifier_plus
     };
     switch (varbitplayer_52295) {
         case 61: {
@@ -30,7 +30,7 @@ function script19028(): void {
         case 65: {
             int0 = 19176 as graphic;
             string0 = "<col=DE7FE1>Purple";
-            IF_SETHIDE(true, comp(1082, 82));
+            IF_SETHIDE(true, comp(1082, 82));  // trh189_overlay:left_modifier_plus
             break;
         }
         default: {
@@ -68,8 +68,8 @@ function script19028(): void {
             break;
         }
     };
-    IF_SETGRAPHIC(int0, comp(1082, 74));
-    IF_SETGRAPHIC(int1, comp(1082, 59));
+    IF_SETGRAPHIC(int0, comp(1082, 74));  // trh189_overlay:left_modifier
+    IF_SETGRAPHIC(int1, comp(1082, 59));  // trh189_overlay:right_modifier
     script19029(string0, 70910026);
     script11158();
     script11159();

@@ -1,16 +1,16 @@
 //
 function script16395(int0: number, int1: number): void {
     if ((int1 <= 1)) {
-        IF_SETHIDE(true, comp(955, 16));
-        if ((IF_GETHIDE(comp(955, 17)) == true)) {
-            IF_SETSIZE(20, 20, 1, 1, comp(955, 12));
+        IF_SETHIDE(true, comp(955, 16));  // uitutorial:pages
+        if ((IF_GETHIDE(comp(955, 17)) == true)) {  // uitutorial:ok_button
+            IF_SETSIZE(20, 20, 1, 1, comp(955, 12));  // uitutorial:contents_area
         } else {
-            IF_SETSIZE(20, 65, 1, 1, comp(955, 12));
+            IF_SETSIZE(20, 65, 1, 1, comp(955, 12));  // uitutorial:contents_area
         };
         return;
     };
-    IF_SETSIZE(20, 65, 1, 1, comp(955, 12));
-    CC_DELETEALL(comp(955, 1));
+    IF_SETSIZE(20, 65, 1, 1, comp(955, 12));  // uitutorial:contents_area
+    CC_DELETEALL(comp(955, 1));  // uitutorial:page_contents
     var int2 = 0;
     var int3 = 0;
     var int4 = 0;
@@ -31,7 +31,7 @@ function script16395(int0: number, int1: number): void {
         int2 = (int2 + 1);
     };
     int4 = (int4 - 5);
-    IF_SETSIZE((int4 + 80), 35, 0, 0, comp(955, 16));
+    IF_SETSIZE((int4 + 80), 35, 0, 0, comp(955, 16));  // uitutorial:pages
     script16398();
     return;
 }

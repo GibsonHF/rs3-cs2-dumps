@@ -5,7 +5,7 @@ function script6784(int0: number, int1: number): void {
     var int4 = int1;
     if ((int4 > 0)) {
         int4 = (int4 - 1);
-        IF_SETONTIMER(callback(script6784, int0, int4), comp(631, 0));
+        IF_SETONTIMER(callback(script6784, int0, int4), comp(631, 0));  // trh196_overlay:splash_screen
         return;
     };
     if ((int0 > 3)) {
@@ -34,8 +34,8 @@ function script6784(int0: number, int1: number): void {
         }
     };
     int0 = (int0 + 1);
-    IF_SETNPCMODEL(int2, comp(631, 76));
-    IF_SETNPCMODEL(int3, comp(631, 77));
-    IF_SETONTIMER(callback(script6784, int0, 100), comp(631, 0));
+    IF_SETNPCMODEL(int2, comp(631, 76));  // trh196_overlay:npc_model_1
+    IF_SETNPCMODEL(int3, comp(631, 77));  // trh196_overlay:npc_model_2
+    IF_SETONTIMER(callback(script6784, int0, 100), comp(631, 0));  // trh196_overlay:splash_screen
     return;
 }

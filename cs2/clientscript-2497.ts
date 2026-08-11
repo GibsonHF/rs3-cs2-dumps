@@ -14,33 +14,33 @@ function script2497(): void {
         switch (int5) {
             case 0: {
                 int0 = enum_getvalue(0, 73, 1932 as cs2enum, varbitplayer_42981);
-                int1 = comp(35, 27);
-                int2 = comp(35, 23);
-                int3 = comp(35, 22);
+                int1 = comp(35, 27);  // trh153_overlay:chest_1_model
+                int2 = comp(35, 23);  // trh153_overlay:chest_1_icon
+                int3 = comp(35, 22);  // trh153_overlay:chest_1_icon_glow
                 int4 = 2293781;
                 break;
             }
             case 1: {
                 int0 = enum_getvalue(0, 73, 1932 as cs2enum, varbitplayer_42982);
-                int1 = comp(35, 12);
-                int2 = comp(35, 26);
-                int3 = comp(35, 25);
+                int1 = comp(35, 12);  // trh153_overlay:chest_2_model
+                int2 = comp(35, 26);  // trh153_overlay:chest_2_icon
+                int3 = comp(35, 25);  // trh153_overlay:chest_2_icon_glow
                 int4 = 2293784;
                 break;
             }
             case 2: {
                 int0 = enum_getvalue(0, 73, 1932 as cs2enum, varbitplayer_42983);
-                int1 = comp(35, 29);
-                int2 = comp(35, 20);
-                int3 = comp(35, 19);
+                int1 = comp(35, 29);  // trh153_overlay:chest_3_model
+                int2 = comp(35, 20);  // trh153_overlay:chest_3_icon
+                int3 = comp(35, 19);  // trh153_overlay:chest_3_icon_glow
                 int4 = 2293778;
                 break;
             }
             case 3: {
                 int0 = enum_getvalue(0, 73, 1932 as cs2enum, varbitplayer_42984);
-                int1 = comp(35, 10);
-                int2 = comp(35, 4);
-                int3 = comp(35, 3);
+                int1 = comp(35, 10);  // trh153_overlay:chest_4_model
+                int2 = comp(35, 4);  // trh153_overlay:chest_4_icon
+                int3 = comp(35, 3);  // trh153_overlay:chest_4_icon_glow
                 int4 = 2293762;
                 break;
             }

@@ -2,9 +2,9 @@
 function script3032(int0: number, int1: number, int2: number): void {
     var int3 = comp(-1, 65535);
     if ((int2 == 1)) {
-        int3 = comp(909, 13);
+        int3 = comp(909, 13);  // lobbyscreen_pane_friendslist:friends_mo_bg
     } else if ((int2 == 0)) {
-        int3 = comp(909, 32);
+        int3 = comp(909, 32);  // lobbyscreen_pane_friendslist:ignore_mo_bg
     };
     if ((CC_FIND(int0, int1) == 1)) {
         IF_SETHIDE(false, int3);

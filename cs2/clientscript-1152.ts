@@ -1,6 +1,6 @@
 //
 function script1152(): void {
-    CC_DELETEALL(comp(215, 29));
+    CC_DELETEALL(comp(215, 29));  // trh148_overlay:gem_info_layer
     var int0 = -1;
     var int1 = -1;
     var int2 = 0;
@@ -20,7 +20,7 @@ function script1152(): void {
     var int16 = 0;
     var int17 = 0;
     var int18 = 0;
-    var int19 = IF_GETNEXTSUBID(comp(215, 29));
+    var int19 = IF_GETNEXTSUBID(comp(215, 29));  // trh148_overlay:gem_info_layer
     var int20 = 0;
     var int21 = 8;
     [int4, int5, int6, int7, int8, int9, int10, int11, int12, int13, int14, int15, int16, int17] = script1153();
@@ -68,14 +68,14 @@ function script1152(): void {
             int1 = -1;
             int1 = (int1 + 1);
             while ((int1 < int2)) {
-                stack(comp(215, 29));
+                stack(comp(215, 29));  // trh148_overlay:gem_info_layer
                 stack(5);
                 stack(int19);
                 int19 = (int19 + 1);
                 CC_CREATE();
                 CC_SETGRAPHIC(script227((int0 + 1)));
                 if ((int1 < int3)) {
-                    stack(comp(215, 29));
+                    stack(comp(215, 29));  // trh148_overlay:gem_info_layer
                     stack(5);
                     stack(int19);
                     int19 = (int19 + 1);

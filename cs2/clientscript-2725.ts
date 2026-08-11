@@ -1,7 +1,7 @@
 //
 function script2725(): void {
     var int0 = 0;
-    var int1 = comp(945, 10);
+    var int1 = comp(945, 10);  // rand_overlay:keys_held
     var int2 = -1;
     CC_DELETEALL(int1);
     script41(61931533);
@@ -262,11 +262,11 @@ function script2725(): void {
         int0 = (int0 + 1);
     };
     if ((int0 == 0)) {
-        IF_SETHIDE(true, comp(945, 32));
-        IF_SETHIDE(false, comp(945, 33));
+        IF_SETHIDE(true, comp(945, 32));  // rand_overlay:keys_held_bg
+        IF_SETHIDE(false, comp(945, 33));  // rand_overlay:keys_none
     } else {
-        IF_SETHIDE(false, comp(945, 32));
-        IF_SETHIDE(true, comp(945, 33));
+        IF_SETHIDE(false, comp(945, 32));  // rand_overlay:keys_held_bg
+        IF_SETHIDE(true, comp(945, 33));  // rand_overlay:keys_none
     };
     return;
 }

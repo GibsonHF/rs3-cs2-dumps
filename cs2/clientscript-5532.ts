@@ -1,7 +1,7 @@
 //
 function script5532(int0: number, int1: number): void {
-    var int2 = IF_GETSCROLLX(comp(1179, 8));
-    IF_SETSCROLLPOS((IF_GETSCROLLX(comp(1179, 8)) + int1), 0, comp(1179, 8));
+    var int2 = IF_GETSCROLLX(comp(1179, 8));  // object_choice:menu
+    IF_SETSCROLLPOS((IF_GETSCROLLX(comp(1179, 8)) + int1), 0, comp(1179, 8));  // object_choice:menu
     script5533();
     var int3 = -1 as vorbis;
     if ((MODULO(CLIENTCLOCK(), 5) == 0)) {

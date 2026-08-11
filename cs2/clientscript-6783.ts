@@ -10,12 +10,12 @@ function script6783(): void {
     while ((int0 < int1)) {
         [int3, int2, int2, int2, int2, int2, int2, int2] = dbrow_getfield(8346 as dbrow, 413696, int0);
         if ((int3 != -1)) {
-            CC_CREATE(comp(631, 24), 5, int4);
+            CC_CREATE(comp(631, 24), 5, int4);  // trh196_overlay:ultra_rare_list
             int4 = (int4 + 1);
             CC_SETSIZE(36, 34, 0, 0);
             CC_SETOBJECT_NONUM(int3, 1);
             CC_SETHIDE(false);
-            CC_CREATE(comp(631, 24), 4, int4);
+            CC_CREATE(comp(631, 24), 4, int4);  // trh196_overlay:ultra_rare_list
             int4 = (int4 + 1);
             CC_SETPOSITION(36, int5, 0, 0);
             CC_SETSIZE(322, 34, 0, 0);
@@ -26,12 +26,12 @@ function script6783(): void {
         };
     };
     if ((int5 > 0)) {
-        CC_CREATE(comp(631, 24), 5, int4);
+        CC_CREATE(comp(631, 24), 5, int4);  // trh196_overlay:ultra_rare_list
         int4 = (int4 + 1);
         CC_SETGRAPHIC(5394 as graphic);
         CC_SETPOSITION(23, 0, 0, 0);
         CC_SETSIZE(17, (int5 + 10), 0, 0);
-        IF_SETHIDE(false, comp(631, 24));
+        IF_SETHIDE(false, comp(631, 24));  // trh196_overlay:ultra_rare_list
     };
     return;
 }

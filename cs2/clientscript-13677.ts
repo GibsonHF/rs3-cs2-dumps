@@ -72,11 +72,11 @@ function script13677(int0: number, int1: number): void {
     if ((int8 != 0)) {
         int11 = (int11 + 16);
     };
-    if ((int11 < IF_GETHEIGHT(comp(1901, 1)))) {
+    if ((int11 < IF_GETHEIGHT(comp(1901, 1)))) {  // invent_machine_build:button_draw_layer
         int11 = 0;
     };
-    IF_SETSCROLLSIZE(0, int11, comp(1901, 2));
-    IF_SETSCROLLPOS(0, 0, comp(1901, 2));
+    IF_SETSCROLLSIZE(0, int11, comp(1901, 2));  // invent_machine_build:button_scrolling_layer
+    IF_SETSCROLLPOS(0, 0, comp(1901, 2));  // invent_machine_build:button_scrolling_layer
     script7791(124583967, 124583938);
     script13680(push_array[2](0));
     IF_TRIGGEROP(int0, push_array[2](0), 1);

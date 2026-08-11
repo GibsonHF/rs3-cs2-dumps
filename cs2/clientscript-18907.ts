@@ -15,11 +15,11 @@ function script18907(): void {
     var int12 = 0;
     var int13 = 0;
     var int14 = 0;
-    CC_DELETEALL(comp(1284, 28));
-    CC_DELETEALL(comp(1284, 25));
+    CC_DELETEALL(comp(1284, 28));  // calendar_main:empty_entries_container
+    CC_DELETEALL(comp(1284, 25));  // calendar_main:line_divider_container
     while ((int12 < int1)) {
         int9 = (int12 * (41 + 4));
-        if ((IF_FIND(comp(1284, 28)) == 1)) {
+        if ((IF_FIND(comp(1284, 28)) == 1)) {  // calendar_main:empty_entries_container
             while ((int13 < int0)) {
                 int3 = (varclient_7418 + int13);
                 if ((int3 != int2)) {
@@ -33,7 +33,7 @@ function script18907(): void {
                 int10 = (int10 + 1);
             };
         };
-        if ((IF_FIND(comp(1284, 25)) == 1)) {
+        if ((IF_FIND(comp(1284, 25)) == 1)) {  // calendar_main:line_divider_container
             script10033(0, int11, 0, ((int9 + 41) + 1), 0, 0, int6, 2, 0, 0, 13568);
             int11 = (int11 + 1);
         };
@@ -41,7 +41,7 @@ function script18907(): void {
         int12 = (int12 + 1);
         int13 = 0;
     };
-    if ((IF_FIND(comp(1284, 25)) == 1)) {
+    if ((IF_FIND(comp(1284, 25)) == 1)) {  // calendar_main:line_divider_container
         CC_SETSIZE(int6, int5, 0, 0);
         script10033(0, int11, 0, 0, 0, 0, 2, int5, 0, 0, 13568);
         int11 = (int11 + 1);

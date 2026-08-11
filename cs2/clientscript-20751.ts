@@ -1,7 +1,7 @@
 //
 function script20751(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number): void {
-    IF_SETHIDE(false, comp(1512, 13));
-    IF_SETSIZE(0, 30, 1, 0, comp(1512, 13));
+    IF_SETHIDE(false, comp(1512, 13));  // house_furniture_catalogue:items_stairs_toggle
+    IF_SETSIZE(0, 30, 1, 0, comp(1512, 13));  // house_furniture_catalogue:items_stairs_toggle
     IF_SETSIZE(16, 36, 1, 1, int0);
     IF_SETSIZE(16, 36, 0, 1, int1);
     CC_DELETEALL(int2);

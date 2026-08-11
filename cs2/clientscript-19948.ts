@@ -109,28 +109,28 @@ function script19948(int0: number): void {
         }
     };
     if ((STRING_LENGTH(string0) > 0)) {
-        IF_SETSIZE(IF_GETWIDTH(comp(1336, 28)), 138, 0, 0, comp(1336, 28));
+        IF_SETSIZE(IF_GETWIDTH(comp(1336, 28)), 138, 0, 0, comp(1336, 28));  // easter_egg_hunt:clue_info_text
     } else {
-        IF_SETSIZE(IF_GETWIDTH(comp(1336, 28)), ((138 + IF_GETHEIGHT(comp(1336, 77))) + 4), 0, 0, comp(1336, 28));
+        IF_SETSIZE(IF_GETWIDTH(comp(1336, 28) /*easter_egg_hunt:clue_info_text*/), ((138 + IF_GETHEIGHT(comp(1336, 77) /*easter_egg_hunt:clue_info_header_text*/)) + 4), 0, 0, comp(1336, 28) /*easter_egg_hunt:clue_info_text*/);
     };
-    IF_SETTEXT(string0, comp(1336, 77));
+    IF_SETTEXT(string0, comp(1336, 77));  // easter_egg_hunt:clue_info_header_text
     script19949();
     int1 = (PARAHEIGHT(IF_GETTEXT(int9), 276, 207 as fontmetrics) * 16);
     if ((int1 > 138)) {
-        IF_SETHIDE(false, comp(1336, 17));
-        IF_SETSIZE(16, 138, 0, 0, comp(1336, 17));
-        IF_SETSCROLLPOS(0, 0, comp(1336, 18));
-        IF_SETSCROLLSIZE(0, int1, comp(1336, 18));
+        IF_SETHIDE(false, comp(1336, 17));  // easter_egg_hunt:clue_info_scrollbar_layer
+        IF_SETSIZE(16, 138, 0, 0, comp(1336, 17));  // easter_egg_hunt:clue_info_scrollbar_layer
+        IF_SETSCROLLPOS(0, 0, comp(1336, 18));  // easter_egg_hunt:clue_info_layer
+        IF_SETSCROLLSIZE(0, int1, comp(1336, 18));  // easter_egg_hunt:clue_info_layer
         script7791(87556113, 87556114);
     } else {
-        IF_SETHIDE(true, comp(1336, 17));
-        IF_SETSCROLLSIZE(0, 0, comp(1336, 18));
+        IF_SETHIDE(true, comp(1336, 17));  // easter_egg_hunt:clue_info_scrollbar_layer
+        IF_SETSCROLLSIZE(0, 0, comp(1336, 18));  // easter_egg_hunt:clue_info_layer
     };
-    if ((int9 != comp(1336, 28))) {
+    if ((int9 != comp(1336, 28))) {  // easter_egg_hunt:clue_info_text
         IF_SETHIDE(false, int9);
     } else {
-        IF_SETHIDE(false, comp(1336, 28));
-        IF_SETTEXT(string2, comp(1336, 28));
+        IF_SETHIDE(false, comp(1336, 28));  // easter_egg_hunt:clue_info_text
+        IF_SETTEXT(string2, comp(1336, 28));  // easter_egg_hunt:clue_info_text
     };
     return;
 }

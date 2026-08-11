@@ -1,9 +1,9 @@
 //
 function script15200(): void {
-    CC_DELETEALL(comp(622, 7));
-    CC_DELETEALL(comp(622, 8));
+    CC_DELETEALL(comp(622, 7));  // lunarfm_remotefarm:navbuttons_buildlayer
+    CC_DELETEALL(comp(622, 8));  // lunarfm_remotefarm:navbuttons_clicklayer
     var int0 = 0;
-    var int1 = (IF_GETWIDTH(comp(622, 3)) - 30);
+    var int1 = (IF_GETWIDTH(comp(622, 3)) - 30);  // lunarfm_remotefarm:navbuttons
     var int2 = 30;
     var int3 = 2;
     var int4 = 4;
@@ -19,13 +19,13 @@ function script15200(): void {
         };
         script10410(40763399, 40763400, 28556, int4, int3, int1, int2, int0, int7, enum_getvalue(0, 36, 16003 as cs2enum, int0));
         int3 = (int3 + (int2 + int5));
-        if ((CC_FIND(comp(622, 8), int0) == 1)) {
+        if ((CC_FIND(comp(622, 8), int0) == 1)) {  // lunarfm_remotefarm:navbuttons_clicklayer
             CC_SETONOP(callback(script15201, int0));
         };
         int0 = (int0 + 1);
     };
     int3 = (int3 - int5);
-    IF_SETSCROLLSIZE(0, int3, comp(622, 5));
+    IF_SETSCROLLSIZE(0, int3, comp(622, 5));  // lunarfm_remotefarm:navbuttons_scroll_layer
     script7791(40763398, 40763397);
     return;
 }

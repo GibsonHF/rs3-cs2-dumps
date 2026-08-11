@@ -1,6 +1,6 @@
 //
 function script5092(): void {
-    CC_DELETEALL(comp(1112, 3));
+    CC_DELETEALL(comp(1112, 3));  // clan_field_hud:info
     var string0 = "";
     var string1 = "";
     var string2 = "";
@@ -90,9 +90,9 @@ function script5092(): void {
         int4 = MAX(int3, int2);
         int2 = ((int4 - int2) / 2);
         [int0, int1] = [(int0 + int2), (int1 + int2)];
-        IF_SETSIZE((int4 + 8), (int5 + 8), 0, 0, comp(1112, 1));
-        CC_CREATE(comp(1112, 3), 4, IF_GETNEXTSUBID(comp(1112, 3)));
-        CC_CREATE[1](comp(1112, 3), 4, IF_GETNEXTSUBID(comp(1112, 3)));
+        IF_SETSIZE((int4 + 8), (int5 + 8), 0, 0, comp(1112, 1));  // clan_field_hud:info_area
+        CC_CREATE(comp(1112, 3), 4, IF_GETNEXTSUBID(comp(1112, 3)));  // clan_field_hud:info
+        CC_CREATE[1](comp(1112, 3), 4, IF_GETNEXTSUBID(comp(1112, 3)));  // clan_field_hud:info
         CC_SETSIZE(int0, 0, 0, 1);
         CC_SETSIZE[1](int0, 0, 0, 1);
         CC_SETPOSITION(0, 0, 0, 1);
@@ -107,7 +107,7 @@ function script5092(): void {
         CC_SETCOLOUR[1](16711680);
         CC_SETTEXT(string0);
         CC_SETTEXT[1](string1);
-        CC_CREATE(comp(1112, 3), 4, IF_GETNEXTSUBID(comp(1112, 3)));
+        CC_CREATE(comp(1112, 3), 4, IF_GETNEXTSUBID(comp(1112, 3)));  // clan_field_hud:info
         CC_SETSIZE(int0, 0, 0, 1);
         CC_SETPOSITION(0, 0, 0, 1);
         CC_SETTEXTFONT(66 as fontmetrics);
@@ -115,8 +115,8 @@ function script5092(): void {
         CC_SETTEXTALIGN(1, 0, 0);
         CC_SETCOLOUR(16711680);
         CC_SETTEXT(string2);
-        CC_CREATE(comp(1112, 3), 4, IF_GETNEXTSUBID(comp(1112, 3)));
-        CC_CREATE[1](comp(1112, 3), 4, IF_GETNEXTSUBID(comp(1112, 3)));
+        CC_CREATE(comp(1112, 3), 4, IF_GETNEXTSUBID(comp(1112, 3)));  // clan_field_hud:info
+        CC_CREATE[1](comp(1112, 3), 4, IF_GETNEXTSUBID(comp(1112, 3)));  // clan_field_hud:info
         CC_SETSIZE(int1, 0, 0, 1);
         CC_SETSIZE[1](int1, 0, 0, 1);
         CC_SETPOSITION(0, 0, 2, 1);
@@ -131,7 +131,7 @@ function script5092(): void {
         CC_SETCOLOUR[1](8355839);
         CC_SETTEXT(string3);
         CC_SETTEXT[1](string4);
-        CC_CREATE(comp(1112, 3), 4, IF_GETNEXTSUBID(comp(1112, 3)));
+        CC_CREATE(comp(1112, 3), 4, IF_GETNEXTSUBID(comp(1112, 3)));  // clan_field_hud:info
         CC_SETSIZE(int1, 0, 0, 1);
         CC_SETPOSITION(0, 0, 2, 1);
         CC_SETTEXTFONT(66 as fontmetrics);
@@ -140,8 +140,8 @@ function script5092(): void {
         CC_SETCOLOUR(8355839);
         CC_SETTEXT(string5);
         if ((STRING_LENGTH(string0) > 0)) {
-            CC_CREATE(comp(1112, 3), 9, IF_GETNEXTSUBID(comp(1112, 3)));
-            CC_CREATE[1](comp(1112, 3), 9, IF_GETNEXTSUBID(comp(1112, 3)));
+            CC_CREATE(comp(1112, 3), 9, IF_GETNEXTSUBID(comp(1112, 3)));  // clan_field_hud:info
+            CC_CREATE[1](comp(1112, 3), 9, IF_GETNEXTSUBID(comp(1112, 3)));  // clan_field_hud:info
             CC_SETSIZE(0, 27, 0, 0);
             CC_SETSIZE[1](0, 27, 0, 0);
             CC_SETPOSITION((int0 + 2), 3, 0, 0);
@@ -149,8 +149,8 @@ function script5092(): void {
             CC_SETCOLOUR(8355711);
             CC_SETCOLOUR[1](4144959);
         };
-        CC_CREATE(comp(1112, 3), 4, IF_GETNEXTSUBID(comp(1112, 3)));
-        CC_CREATE[1](comp(1112, 3), 4, IF_GETNEXTSUBID(comp(1112, 3)));
+        CC_CREATE(comp(1112, 3), 4, IF_GETNEXTSUBID(comp(1112, 3)));  // clan_field_hud:info
+        CC_CREATE[1](comp(1112, 3), 4, IF_GETNEXTSUBID(comp(1112, 3)));  // clan_field_hud:info
         CC_SETSIZE(int3, 0, 0, 1);
         CC_SETSIZE[1](int3, 0, 0, 1);
         CC_SETPOSITION(0, 0, 1, 1);
@@ -166,7 +166,7 @@ function script5092(): void {
         CC_SETTEXT(string6);
         CC_SETTEXT[1](string7);
         if ((int6 > 0)) {
-            CC_CREATE(comp(1112, 3), 4, IF_GETNEXTSUBID(comp(1112, 3)));
+            CC_CREATE(comp(1112, 3), 4, IF_GETNEXTSUBID(comp(1112, 3)));  // clan_field_hud:info
             CC_SETSIZE(int3, 12, 0, 0);
             CC_SETPOSITION((MAX((int4 - int3), 0) / 2), 0, 2, 2);
             CC_SETTEXTFONT(66 as fontmetrics);

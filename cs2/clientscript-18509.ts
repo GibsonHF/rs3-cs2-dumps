@@ -12,7 +12,7 @@ function script18509(int0: number, int1: number, int2: number, int3: number): vo
         }
     };
     varclient_7383 = int3;
-    var int5 = comp(1253, 340);
+    var int5 = comp(1253, 340);  // wheel_of_fortune:trh_banner_reward_track_time_remaining_text
     IF_SETONTIMER(callback(script18510, int5, int1), int5);
     return;
 }

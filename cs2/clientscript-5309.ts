@@ -5,7 +5,7 @@ function script5309(int0: number): void {
     var int3 = 7289;
     var int4 = 0;
     while ((int4 < ENUM_GETOUTPUTCOUNT(840 as cs2enum))) {
-        if ((CC_FIND(comp(823, 8), int4) == 1)) {
+        if ((CC_FIND(comp(823, 8), int4) == 1)) {  // clan_keep_theatre_props:prop_backgrounds
             if ((int4 != int0)) {
                 CC_SETGRAPHIC(int1);
             } else {

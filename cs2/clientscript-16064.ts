@@ -11,7 +11,7 @@ function script16064(int0: number, int1: number, int2: number, int3: number): vo
         };
         int7 = script16060(int7, varbitclient_50191, int5);
         if ((int7 < 1)) {
-            IF_SETHIDE(true, comp(863, 84));
+            IF_SETHIDE(true, comp(863, 84));  // egwd_wen_boss_loot:difficulty_continue_button_disabled_layer
             IF_SET2DANGLE(0, int2);
             IF_SET2DANGLE(0, int3);
             return;

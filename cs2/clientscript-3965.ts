@@ -3,17 +3,17 @@ function script3965(int0: number): void {
     if (((varclient_1885 < 5) || (varclient_1885 > 9))) {
         if ((IF_GETTRANS(int0) != 255)) {
             IF_SETTRANS(255, int0);
-            IF_SETHIDE(true, comp(1050, 1));
-            IF_SETHIDE(true, comp(1050, 2));
+            IF_SETHIDE(true, comp(1050, 1));  // fremsaga_thok2_ending_montage:image_graphic
+            IF_SETHIDE(true, comp(1050, 2));  // fremsaga_thok2_ending_montage:text_description
         } else if ((((varclient_1885 > 4) && (varclient_1885 < 10)) && (IF_GETTRANS(int0) != 0))) {
             IF_SETTRANS(0, int0);
-            IF_SETHIDE(false, comp(1050, 1));
-            IF_SETHIDE(false, comp(1050, 2));
+            IF_SETHIDE(false, comp(1050, 1));  // fremsaga_thok2_ending_montage:image_graphic
+            IF_SETHIDE(false, comp(1050, 2));  // fremsaga_thok2_ending_montage:text_description
         };
     } else if ((((varclient_1885 > 4) && (varclient_1885 < 10)) && (IF_GETTRANS(int0) != 0))) {
         IF_SETTRANS(0, int0);
-        IF_SETHIDE(false, comp(1050, 1));
-        IF_SETHIDE(false, comp(1050, 2));
+        IF_SETHIDE(false, comp(1050, 1));  // fremsaga_thok2_ending_montage:image_graphic
+        IF_SETHIDE(false, comp(1050, 2));  // fremsaga_thok2_ending_montage:text_description
     };
     return;
 }

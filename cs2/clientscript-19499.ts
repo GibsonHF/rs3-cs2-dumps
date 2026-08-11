@@ -1,7 +1,7 @@
 //
 function script19499(int0: number, int1: number): void {
     var int2 = -1 as obj;
-    if ((CC_FIND(comp(1313, 75), int1) == 1)) {
+    if ((CC_FIND(comp(1313, 75), int1) == 1)) {  // group_ironman_storage:clan_inv
         int2 = CC_GETINVOBJECT();
     } else {
         int2 = INV_GETOBJ(963 as inv, int1);

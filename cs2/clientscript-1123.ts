@@ -22,9 +22,9 @@ function script1123(int0: number): void {
             break;
         }
     };
-    var int1 = IF_GETWIDTH(comp(264, 10));
-    var int2 = IF_GETHEIGHT(comp(264, 10));
-    IF_SETONTIMER(callback(script4156, int1, int2), comp(264, 10));
+    var int1 = IF_GETWIDTH(comp(264, 10));  // paint_cannon:clickout_blocker
+    var int2 = IF_GETHEIGHT(comp(264, 10));  // paint_cannon:clickout_blocker
+    IF_SETONTIMER(callback(script4156, int1, int2), comp(264, 10));  // paint_cannon:clickout_blocker
     script15407();
     return;
 }

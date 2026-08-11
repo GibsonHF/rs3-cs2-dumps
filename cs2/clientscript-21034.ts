@@ -12,8 +12,8 @@ function script21034(): void {
     } else {
         string0 = `You have unlocked ${inttostring((int0 + int2), 10)}/${inttostring(int1, 10)} regions.`;
     };
-    IF_SETTEXT(string0, comp(1409, 13));
-    var int3 = STRINGWIDTH(string0, IF_GETFONTMETRICS(comp(1409, 13)));
+    IF_SETTEXT(string0, comp(1409, 13));  // league_parent_areas:karamja
+    var int3 = STRINGWIDTH(string0, IF_GETFONTMETRICS(comp(1409, 13)));  // league_parent_areas:karamja
     stack(92340236);
     stack(92340237);
     script21033();

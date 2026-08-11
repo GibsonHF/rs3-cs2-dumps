@@ -1,8 +1,8 @@
 //
 function script7898(): void {
     if ((varclient_3484 == 0)) {
-        varclient_3487 = IF_GETMODELANGLE_Y(comp(1420, 46));
-        varclient_6880 = IF_GETMODELANGLE_Y(comp(1420, 47));
+        varclient_3487 = IF_GETMODELANGLE_Y(comp(1420, 46));  // acc_create:avatar_paperdoll
+        varclient_6880 = IF_GETMODELANGLE_Y(comp(1420, 47));  // acc_create:avatar_head
         varclient_3483 = GET_MOUSEX();
         varclient_3484 = 1;
         varclient_3494 = CLIENTCLOCK();
@@ -16,7 +16,7 @@ function script7898(): void {
         int0 = (int0 * -1);
         int1 = 1;
     };
-    IF_SETONTIMER(callback(script7899, (CLIENTCLOCK() + 10), int0, int1, 50), comp(1420, 11));
+    IF_SETONTIMER(callback(script7899, (CLIENTCLOCK() + 10), int0, int1, 50), comp(1420, 11));  // acc_create:avatar_listener
     varclient_3483 = GET_MOUSEX();
     return;
 }

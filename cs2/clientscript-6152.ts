@@ -5,44 +5,44 @@ function script6152(int0: number): void {
         case 1: {
             if ((varclient_1888 > 50)) {
                 varclient_1888 = 0;
-                IF_SETTRANS(255, comp(1268, 2));
-                IF_SETONTIMER(callback(script6152, 2), comp(1268, 0));
+                IF_SETTRANS(255, comp(1268, 2));  // fremsaga_bilrach_title:title_foreground
+                IF_SETONTIMER(callback(script6152, 2), comp(1268, 0));  // fremsaga_bilrach_title:title_background
             } else {
-                IF_SETONTIMER(callback(script6152, 1), comp(1268, 0));
-                IF_SETTRANS(SCALE(varclient_1888, 50, 255), comp(1268, 2));
+                IF_SETONTIMER(callback(script6152, 1), comp(1268, 0));  // fremsaga_bilrach_title:title_background
+                IF_SETTRANS(SCALE(varclient_1888, 50, 255), comp(1268, 2));  // fremsaga_bilrach_title:title_foreground
             };
             break;
         }
         case 2: {
             if ((varclient_1888 > 150)) {
                 varclient_1888 = 0;
-                IF_SETONTIMER(callback(script6152, 3), comp(1268, 0));
+                IF_SETONTIMER(callback(script6152, 3), comp(1268, 0));  // fremsaga_bilrach_title:title_background
             } else {
-                IF_SETONTIMER(callback(script6152, 2), comp(1268, 0));
+                IF_SETONTIMER(callback(script6152, 2), comp(1268, 0));  // fremsaga_bilrach_title:title_background
             };
             break;
         }
         case 3: {
             if ((varclient_1888 > 50)) {
                 varclient_1888 = 0;
-                IF_SETTRANS(0, comp(1268, 2));
-                IF_SETONTIMER(callback(script6152, 4), comp(1268, 0));
-                IF_SETHIDE(true, comp(1268, 2));
-                IF_SETHIDE(true, comp(1268, 1));
+                IF_SETTRANS(0, comp(1268, 2));  // fremsaga_bilrach_title:title_foreground
+                IF_SETONTIMER(callback(script6152, 4), comp(1268, 0));  // fremsaga_bilrach_title:title_background
+                IF_SETHIDE(true, comp(1268, 2));  // fremsaga_bilrach_title:title_foreground
+                IF_SETHIDE(true, comp(1268, 1));  // fremsaga_bilrach_title:title_text
             } else {
-                IF_SETONTIMER(callback(script6152, 3), comp(1268, 0));
-                IF_SETTRANS((255 - SCALE(varclient_1888, 50, 255)), comp(1268, 2));
+                IF_SETONTIMER(callback(script6152, 3), comp(1268, 0));  // fremsaga_bilrach_title:title_background
+                IF_SETTRANS((255 - SCALE(varclient_1888, 50, 255)), comp(1268, 2));  // fremsaga_bilrach_title:title_foreground
             };
             break;
         }
         case 4: {
             if ((varclient_1888 > 150)) {
                 varclient_1888 = 0;
-                IF_SETTRANS(255, comp(1268, 0));
-                IF_SETONTIMER(callback(), comp(1268, 0));
+                IF_SETTRANS(255, comp(1268, 0));  // fremsaga_bilrach_title:title_background
+                IF_SETONTIMER(callback(), comp(1268, 0));  // fremsaga_bilrach_title:title_background
             } else {
-                IF_SETONTIMER(callback(script6152, 4), comp(1268, 0));
-                IF_SETTRANS(SCALE(varclient_1888, 150, 255), comp(1268, 0));
+                IF_SETONTIMER(callback(script6152, 4), comp(1268, 0));  // fremsaga_bilrach_title:title_background
+                IF_SETTRANS(SCALE(varclient_1888, 150, 255), comp(1268, 0));  // fremsaga_bilrach_title:title_background
             };
             break;
         }

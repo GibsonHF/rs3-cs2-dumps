@@ -12,13 +12,13 @@ function script19736(): void {
                 break;
             }
         };
-        IF_SETHIDE(true, comp(1278, 14));
+        IF_SETHIDE(true, comp(1278, 14));  // trh204_overlay:treasure_room_desc
         stack(55);
         stack(2330);
         unk11010(83755022, "i", 83755021);
         unk11009();
     } else {
-        IF_SETHIDE(false, comp(1278, 14));
+        IF_SETHIDE(false, comp(1278, 14));  // trh204_overlay:treasure_room_desc
     };
     return;
 }

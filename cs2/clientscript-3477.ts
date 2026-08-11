@@ -2,71 +2,71 @@
 function script3477(): void {
     var int0 = (3 - script3484(1));
     if ((int0 > 0)) {
-        IF_SETOBJECT_ALWAYSNUM(enum_getvalue(0, 33, 3082 as cs2enum, 1), int0, comp(991, 6));
-        IF_SETONOP(callback(script3481, -2147483644), comp(991, 6));
-        IF_SETOP(1, "Select", comp(991, 6));
+        IF_SETOBJECT_ALWAYSNUM(enum_getvalue(0, 33, 3082 as cs2enum, 1), int0, comp(991, 6));  // love_puzzle:source_1_l
+        IF_SETONOP(callback(script3481, -2147483644), comp(991, 6));  // love_puzzle:source_1_l
+        IF_SETOP(1, "Select", comp(991, 6));  // love_puzzle:source_1_l
     } else {
-        IF_SETOBJECT_NONUM(-1 as obj, 0, comp(991, 6));
-        IF_SETONOP(callback(), comp(991, 6));
-        IF_CLEAROPS(comp(991, 6));
+        IF_SETOBJECT_NONUM(-1 as obj, 0, comp(991, 6));  // love_puzzle:source_1_l
+        IF_SETONOP(callback(), comp(991, 6));  // love_puzzle:source_1_l
+        IF_CLEAROPS(comp(991, 6));  // love_puzzle:source_1_l
     };
     int0 = (2 - script3484(2));
     if ((int0 > 0)) {
-        IF_SETOBJECT_ALWAYSNUM(enum_getvalue(0, 33, 3082 as cs2enum, 2), int0, comp(991, 7));
-        IF_SETONOP(callback(script3481, -2147483644), comp(991, 7));
-        IF_SETOP(1, "Select", comp(991, 7));
+        IF_SETOBJECT_ALWAYSNUM(enum_getvalue(0, 33, 3082 as cs2enum, 2), int0, comp(991, 7));  // love_puzzle:source_1_r
+        IF_SETONOP(callback(script3481, -2147483644), comp(991, 7));  // love_puzzle:source_1_r
+        IF_SETOP(1, "Select", comp(991, 7));  // love_puzzle:source_1_r
     } else {
-        IF_SETOBJECT_NONUM(-1 as obj, 0, comp(991, 7));
-        IF_SETONOP(callback(), comp(991, 7));
-        IF_CLEAROPS(comp(991, 7));
+        IF_SETOBJECT_NONUM(-1 as obj, 0, comp(991, 7));  // love_puzzle:source_1_r
+        IF_SETONOP(callback(), comp(991, 7));  // love_puzzle:source_1_r
+        IF_CLEAROPS(comp(991, 7));  // love_puzzle:source_1_r
     };
     int0 = (2 - script3484(3));
     if ((int0 > 0)) {
-        IF_SETOBJECT_ALWAYSNUM(enum_getvalue(0, 33, 3082 as cs2enum, 3), int0, comp(991, 8));
-        IF_SETONOP(callback(script3481, -2147483644), comp(991, 8));
-        IF_SETOP(1, "Select", comp(991, 8));
+        IF_SETOBJECT_ALWAYSNUM(enum_getvalue(0, 33, 3082 as cs2enum, 3), int0, comp(991, 8));  // love_puzzle:source_1_b
+        IF_SETONOP(callback(script3481, -2147483644), comp(991, 8));  // love_puzzle:source_1_b
+        IF_SETOP(1, "Select", comp(991, 8));  // love_puzzle:source_1_b
     } else {
-        IF_SETOBJECT_NONUM(-1 as obj, 0, comp(991, 8));
-        IF_SETONOP(callback(), comp(991, 8));
-        IF_CLEAROPS(comp(991, 8));
+        IF_SETOBJECT_NONUM(-1 as obj, 0, comp(991, 8));  // love_puzzle:source_1_b
+        IF_SETONOP(callback(), comp(991, 8));  // love_puzzle:source_1_b
+        IF_CLEAROPS(comp(991, 8));  // love_puzzle:source_1_b
     };
     int0 = (2 - script3485(1));
     if ((int0 > 0)) {
-        IF_SETOBJECT_ALWAYSNUM(enum_getvalue(0, 33, 3083 as cs2enum, 1), int0, comp(991, 14));
-        IF_SETONOP(callback(script3481, -2147483644), comp(991, 14));
-        IF_SETOP(1, "Select", comp(991, 14));
+        IF_SETOBJECT_ALWAYSNUM(enum_getvalue(0, 33, 3083 as cs2enum, 1), int0, comp(991, 14));  // love_puzzle:source_2_l
+        IF_SETONOP(callback(script3481, -2147483644), comp(991, 14));  // love_puzzle:source_2_l
+        IF_SETOP(1, "Select", comp(991, 14));  // love_puzzle:source_2_l
     } else {
-        IF_SETOBJECT_NONUM(-1 as obj, 0, comp(991, 14));
-        IF_SETONOP(callback(), comp(991, 14));
-        IF_CLEAROPS(comp(991, 14));
+        IF_SETOBJECT_NONUM(-1 as obj, 0, comp(991, 14));  // love_puzzle:source_2_l
+        IF_SETONOP(callback(), comp(991, 14));  // love_puzzle:source_2_l
+        IF_CLEAROPS(comp(991, 14));  // love_puzzle:source_2_l
     };
     int0 = (4 - script3485(2));
     if ((int0 > 0)) {
-        IF_SETOBJECT_ALWAYSNUM(enum_getvalue(0, 33, 3083 as cs2enum, 2), int0, comp(991, 15));
-        IF_SETONOP(callback(script3481, -2147483644), comp(991, 15));
-        IF_SETOP(1, "Select", comp(991, 15));
+        IF_SETOBJECT_ALWAYSNUM(enum_getvalue(0, 33, 3083 as cs2enum, 2), int0, comp(991, 15));  // love_puzzle:source_2_r
+        IF_SETONOP(callback(script3481, -2147483644), comp(991, 15));  // love_puzzle:source_2_r
+        IF_SETOP(1, "Select", comp(991, 15));  // love_puzzle:source_2_r
     } else {
-        IF_SETOBJECT_NONUM(-1 as obj, 0, comp(991, 15));
-        IF_SETONOP(callback(), comp(991, 15));
-        IF_CLEAROPS(comp(991, 15));
+        IF_SETOBJECT_NONUM(-1 as obj, 0, comp(991, 15));  // love_puzzle:source_2_r
+        IF_SETONOP(callback(), comp(991, 15));  // love_puzzle:source_2_r
+        IF_CLEAROPS(comp(991, 15));  // love_puzzle:source_2_r
     };
     int0 = (2 - script3485(3));
     if ((int0 > 0)) {
-        IF_SETOBJECT_ALWAYSNUM(enum_getvalue(0, 33, 3083 as cs2enum, 3), int0, comp(991, 16));
-        IF_SETONOP(callback(script3481, -2147483644), comp(991, 16));
-        IF_SETOP(1, "Select", comp(991, 16));
+        IF_SETOBJECT_ALWAYSNUM(enum_getvalue(0, 33, 3083 as cs2enum, 3), int0, comp(991, 16));  // love_puzzle:source_2_b
+        IF_SETONOP(callback(script3481, -2147483644), comp(991, 16));  // love_puzzle:source_2_b
+        IF_SETOP(1, "Select", comp(991, 16));  // love_puzzle:source_2_b
     } else {
-        IF_SETOBJECT_NONUM(-1 as obj, 0, comp(991, 16));
-        IF_SETONOP(callback(), comp(991, 16));
-        IF_CLEAROPS(comp(991, 16));
+        IF_SETOBJECT_NONUM(-1 as obj, 0, comp(991, 16));  // love_puzzle:source_2_b
+        IF_SETONOP(callback(), comp(991, 16));  // love_puzzle:source_2_b
+        IF_CLEAROPS(comp(991, 16));  // love_puzzle:source_2_b
     };
-    CC_DELETEALL(comp(991, 10));
+    CC_DELETEALL(comp(991, 10));  // love_puzzle:grid1
     var int1 = 0;
     var int2 = 0;
     var int3 = 0;
     var int4 = script13749();
     while ((int1 < 28)) {
-        CC_CREATE(comp(991, 10), 5, int1);
+        CC_CREATE(comp(991, 10), 5, int1);  // love_puzzle:grid1
         CC_SETSIZE(36, 32, 0, 0);
         CC_SETPOSITION((((6 - int2) * 16) + (int3 * 32)), (int2 * 32), 0, 2);
         int0 = script3482(int1);
@@ -91,12 +91,12 @@ function script3477(): void {
         };
         int1 = (int1 + 1);
     };
-    CC_DELETEALL(comp(991, 18));
+    CC_DELETEALL(comp(991, 18));  // love_puzzle:grid2
     int1 = 0;
     int2 = 6;
     int3 = 0;
     while ((int1 < 28)) {
-        CC_CREATE(comp(991, 18), 5, int1);
+        CC_CREATE(comp(991, 18), 5, int1);  // love_puzzle:grid2
         CC_SETSIZE(36, 32, 0, 0);
         CC_SETPOSITION((((6 - int2) * 16) + (int3 * 32)), (int2 * 32), 0, 0);
         int0 = script3483(int1);

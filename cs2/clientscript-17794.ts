@@ -1,5 +1,5 @@
 //
 function script17794(int0: number): void {
-    IF_SETTEXT(script17500(int0), comp(1224, 10));
+    IF_SETTEXT(script17500(int0), comp(1224, 10));  // necro_ritual_recipe_selection:name_text
     return;
 }

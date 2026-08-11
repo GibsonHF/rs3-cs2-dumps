@@ -7,9 +7,9 @@ function script8153(int0: number, int1: number): void {
     var int3 = 0;
     var int4 = ENUM_GETOUTPUTCOUNT(int0);
     var int5 = int4;
-    var int6 = IF_GETWIDTH(comp(1432, 4));
-    CC_DELETEALL(comp(1432, 5));
-    CC_DELETEALL(comp(1432, 6));
+    var int6 = IF_GETWIDTH(comp(1432, 4));  // toplevel_v2_parents_quickchildren:quickchild
+    CC_DELETEALL(comp(1432, 5));  // toplevel_v2_parents_quickchildren:quickchild_build
+    CC_DELETEALL(comp(1432, 6));  // toplevel_v2_parents_quickchildren:quickchild_click
     script13843(93847557, 93847558, int0, 4);
     var int7 = 36;
     var int8 = 36;
@@ -50,7 +50,7 @@ function script8153(int0: number, int1: number): void {
     var int17 = int12;
     var int18 = int13;
     while ((int2 < int4)) {
-        if (((CC_FIND(comp(1432, 5), int2) == 1) && (CC_FIND[1](comp(1432, 6), int2) == 1))) {
+        if (((CC_FIND(comp(1432, 5) /*toplevel_v2_parents_quickchildren:quickchild_build*/, int2) == 1) && (CC_FIND[1](comp(1432, 6) /*toplevel_v2_parents_quickchildren:quickchild_click*/, int2) == 1))) {
             if ((script19633(enum_getvalue(0, 0, int0, int2)) == 0)) {
                 CC_SETHIDE(true);
                 CC_SETHIDE[1](true);

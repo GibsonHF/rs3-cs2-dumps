@@ -8,7 +8,7 @@ function script12176(int0: number, int1: number): void {
         CC_SETGRAPHIC(-1 as graphic);
     };
     CC_SETONTIMER(callback());
-    if ((CC_FIND[1](comp(1712, 3), cc_getparam(5531)) == 1)) {
+    if ((CC_FIND[1](comp(1712, 3), cc_getparam(5531)) == 1)) {  // invent_gizmo:work_layer
         if ((int2 > 1)) {
             CC_SETTEXT[1](inttostring(int2, 10));
             CC_SETHIDE[1](false);

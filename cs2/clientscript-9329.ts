@@ -10,9 +10,9 @@ function script9329(int0: number): void {
     var int5 = 5;
     [int2, int3] = script5787(int0);
     var int6 = int2;
-    var int7 = IF_GETWIDTH(comp(517, 199));
+    var int7 = IF_GETWIDTH(comp(517, 199));  // bank:bank_items_container
     while ((int2 < int3)) {
-        if (((CC_FIND(comp(517, 201), int2) == 1) && (CC_FIND[1](comp(517, 217), int2) == 1))) {
+        if (((CC_FIND(comp(517, 201) /*bank:bank_inv*/, int2) == 1) && (CC_FIND[1](comp(517, 217) /*bank:bank_inv_insert*/, int2) == 1))) {
             CC_SETPOSITION(int4, int5, 0, 0);
             CC_SETHIDE(false);
             CC_SETPOSITION[1]((int4 - 8), int5, 0, 0);
@@ -27,12 +27,12 @@ function script9329(int0: number): void {
     };
     int6 = (int6 - 1);
     while ((int6 >= 0)) {
-        if ((CC_FIND(comp(517, 201), int6) == 1)) {
+        if ((CC_FIND(comp(517, 201), int6) == 1)) {  // bank:bank_inv
             CC_SETHIDE(true);
         };
     };
     while ((int3 < 1820)) {
-        if ((CC_FIND(comp(517, 201), int3) == 1)) {
+        if ((CC_FIND(comp(517, 201), int3) == 1)) {  // bank:bank_inv
             CC_SETHIDE(true);
         };
         int3 = (int3 + 1);

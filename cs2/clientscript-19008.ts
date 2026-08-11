@@ -51,7 +51,7 @@ function script19008(): void {
         case 49941: {
             int7 = 413;
             int8 = 25;
-            IF_SETONVARTRANSMIT(callback(script18996, 11753, 1), comp(1870, 16));
+            IF_SETONVARTRANSMIT(callback(script18996, 11753, 1), comp(1870, 16));  // trh119_buried_treasure_overlay:grid_rect_layer
             int1 = 7;
             int2 = 7;
             int5 = 17514 as cs2enum;
@@ -63,22 +63,22 @@ function script19008(): void {
             break;
         }
     };
-    IF_SETPOSITION(int7, int8, 0, 0, comp(1870, 16));
-    IF_SETPOSITION(int7, int8, 0, 0, comp(1870, 18));
-    IF_SETPOSITION(int7, int8, 0, 0, comp(1870, 17));
-    IF_SETSIZE((int1 * int0), (int2 * int0), 0, 0, comp(1870, 16));
-    IF_SETSIZE((int1 * int0), (int2 * int0), 0, 0, comp(1870, 18));
-    IF_SETSIZE((int1 * int0), (int2 * int0), 0, 0, comp(1870, 17));
+    IF_SETPOSITION(int7, int8, 0, 0, comp(1870, 16));  // trh119_buried_treasure_overlay:grid_rect_layer
+    IF_SETPOSITION(int7, int8, 0, 0, comp(1870, 18));  // trh119_buried_treasure_overlay:grid_chest_layer
+    IF_SETPOSITION(int7, int8, 0, 0, comp(1870, 17));  // trh119_buried_treasure_overlay:grid_hover_layer
+    IF_SETSIZE((int1 * int0), (int2 * int0), 0, 0, comp(1870, 16));  // trh119_buried_treasure_overlay:grid_rect_layer
+    IF_SETSIZE((int1 * int0), (int2 * int0), 0, 0, comp(1870, 18));  // trh119_buried_treasure_overlay:grid_chest_layer
+    IF_SETSIZE((int1 * int0), (int2 * int0), 0, 0, comp(1870, 17));  // trh119_buried_treasure_overlay:grid_hover_layer
     var int9 = (0 - int0);
     var int10 = 0;
     var int11 = int9;
     var int12 = int10;
     var int13 = 0;
-    CC_DELETEALL(comp(1870, 16));
-    CC_DELETEALL(comp(1870, 18));
-    CC_DELETEALL(comp(1870, 17));
-    CC_DELETEALL(comp(1870, 25));
-    CC_DELETEALL(comp(1253, 556));
+    CC_DELETEALL(comp(1870, 16));  // trh119_buried_treasure_overlay:grid_rect_layer
+    CC_DELETEALL(comp(1870, 18));  // trh119_buried_treasure_overlay:grid_chest_layer
+    CC_DELETEALL(comp(1870, 17));  // trh119_buried_treasure_overlay:grid_hover_layer
+    CC_DELETEALL(comp(1870, 25));  // trh119_buried_treasure_overlay:chest_info_layer
+    CC_DELETEALL(comp(1253, 556));  // wheel_of_fortune:fake_op
     var int14 = 0;
     var int15 = script18992(int6);
     var int16 = (int9 + (int1 * int0));
@@ -91,11 +91,11 @@ function script19008(): void {
             int12 = (int12 + int0);
         };
         script19009(int6, int14, int0, int11, int12, int4, int3);
-        CC_CREATE(comp(1253, 556), 5, int14);
+        CC_CREATE(comp(1253, 556), 5, int14);  // wheel_of_fortune:fake_op
         int14 = (int14 + 1);
     };
-    CC_CREATE(comp(1253, 556), 5, int14);
-    IF_SETONOP(callback(script19007, int14, 1), comp(1870, 21));
+    CC_CREATE(comp(1253, 556), 5, int14);  // wheel_of_fortune:fake_op
+    IF_SETONOP(callback(script19007, int14, 1), comp(1870, 21));  // trh119_buried_treasure_overlay:keybind_layer
     switch (int6) {
         case 1515: {
             script18995();

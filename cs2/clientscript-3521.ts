@@ -1,9 +1,9 @@
 //
 function script3521(): void {
-    IF_SETTEXT(inttostring(varbitplayer_23015, 10), comp(1790, 59));
-    IF_SETOPBASE(`${script4033(29492)}Tradable Bonds`, comp(1790, 58));
-    IF_SETTEXT(inttostring(varbitplayer_23016, 10), comp(1790, 62));
-    IF_SETOPBASE(`${script4033(29494)}Untradable Bonds`, comp(1790, 61));
+    IF_SETTEXT(inttostring(varbitplayer_23015, 10), comp(1790, 59));  // currency:mtx_tradebond_text
+    IF_SETOPBASE(`${script4033(29492)}Tradable Bonds`, comp(1790, 58));  // currency:bonds_tradeable_icon
+    IF_SETTEXT(inttostring(varbitplayer_23016, 10), comp(1790, 62));  // currency:mtx_untradebond_text
+    IF_SETOPBASE(`${script4033(29494)}Untradable Bonds`, comp(1790, 61));  // currency:bonds_untradeable_icon
     var int0 = 0;
     var int1 = -1 as obj;
     var int2 = 0;
@@ -11,20 +11,20 @@ function script3521(): void {
     while ((int0 < 8)) {
         int2 = (MODULO(int0, 2) * 55);
         int3 = ((int0 / 2) * 63);
-        CC_CREATE(comp(1790, 54), 5, int0);
+        CC_CREATE(comp(1790, 54), 5, int0);  // currency:mtx_invslot_layer
         CC_SETSIZE(40, 40, 0, 0);
         CC_SETPOSITION((int2 + 7), int3, 0, 0);
         CC_SETGRAPHIC(26557 as graphic);
         int1 = INV_GETOBJ(795 as inv, int0);
         if ((int1 != -1 as obj)) {
-            CC_CREATE(comp(1790, 55), 5, int0);
+            CC_CREATE(comp(1790, 55), 5, int0);  // currency:mtx_obj_layer
             CC_SETSIZE(38, 38, 0, 0);
             CC_SETPOSITION((int2 + 8), (int3 + 1), 0, 0);
             CC_SETOBJECT(int1, -1);
             script12410(int1);
             CC_SETONOP(callback(script1620, -2147483645, -2147483643, 100, 0, 8));
             script14992(int1, 795, int0);
-            CC_CREATE(comp(1790, 56), 4, int0);
+            CC_CREATE(comp(1790, 56), 4, int0);  // currency:mtx_text_layer
             CC_SETSIZE(55, 11, 0, 0);
             if ((int2 == 0)) {
                 CC_SETPOSITION(0, (int3 + 44), 0, 0);

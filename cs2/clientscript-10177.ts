@@ -8,14 +8,14 @@ function script10177(int0: number, int1: number, int2: number, int3: number, int
     CC_DELETEALL(int9);
     CC_DELETEALL(int10);
     if ((script10179() == 0)) {
-        IF_SETHIDE(true, comp(735, 30));
-        IF_SETHIDE(false, comp(735, 25));
-        IF_SETOPCURSOR(1, 204, comp(735, 28));
-        IF_SETOPCURSOR(1, 204, comp(735, 29));
+        IF_SETHIDE(true, comp(735, 30));  // clan_camp_list:list
+        IF_SETHIDE(false, comp(735, 25));  // clan_camp_list:intro
+        IF_SETOPCURSOR(1, 204, comp(735, 28));  // clan_camp_list:forum_link1
+        IF_SETOPCURSOR(1, 204, comp(735, 29));  // clan_camp_list:forum_link2
         return;
     };
-    IF_SETHIDE(false, comp(735, 30));
-    IF_SETHIDE(true, comp(735, 25));
+    IF_SETHIDE(false, comp(735, 30));  // clan_camp_list:list
+    IF_SETHIDE(true, comp(735, 25));  // clan_camp_list:intro
     var int11 = 0;
     var int12 = 24;
     var string0 = "";
@@ -112,11 +112,11 @@ function script10177(int0: number, int1: number, int2: number, int3: number, int
             IF_SETSCROLLPOS(0, 0, int0);
             IF_SETHIDE(true, int1);
         };
-        IF_SETSIZE(0, int16, 0, 0, comp(735, 3));
-        IF_SETSIZE(0, int16, 0, 0, comp(735, 2));
-        IF_SETSIZE(0, int16, 0, 0, comp(735, 1));
-        IF_SETSIZE(0, int16, 0, 0, comp(735, 0));
-        IF_SETSIZE(0, int16, 0, 0, comp(735, 4));
+        IF_SETSIZE(0, int16, 0, 0, comp(735, 3));  // clan_camp_list:name_divider
+        IF_SETSIZE(0, int16, 0, 0, comp(735, 2));  // clan_camp_list:rep_divider
+        IF_SETSIZE(0, int16, 0, 0, comp(735, 1));  // clan_camp_list:recruiting_divider
+        IF_SETSIZE(0, int16, 0, 0, comp(735, 0));  // clan_camp_list:citadel_divider
+        IF_SETSIZE(0, int16, 0, 0, comp(735, 4));  // clan_camp_list:size_divider
         return;
     };
     if ((int16 > IF_GETHEIGHT(int0))) {
@@ -128,10 +128,10 @@ function script10177(int0: number, int1: number, int2: number, int3: number, int
         IF_SETSCROLLPOS(0, 0, int0);
         IF_SETHIDE(true, int1);
     };
-    IF_SETSIZE(0, int16, 0, 0, comp(735, 3));
-    IF_SETSIZE(0, int16, 0, 0, comp(735, 2));
-    IF_SETSIZE(0, int16, 0, 0, comp(735, 1));
-    IF_SETSIZE(0, int16, 0, 0, comp(735, 0));
-    IF_SETSIZE(0, int16, 0, 0, comp(735, 4));
+    IF_SETSIZE(0, int16, 0, 0, comp(735, 3));  // clan_camp_list:name_divider
+    IF_SETSIZE(0, int16, 0, 0, comp(735, 2));  // clan_camp_list:rep_divider
+    IF_SETSIZE(0, int16, 0, 0, comp(735, 1));  // clan_camp_list:recruiting_divider
+    IF_SETSIZE(0, int16, 0, 0, comp(735, 0));  // clan_camp_list:citadel_divider
+    IF_SETSIZE(0, int16, 0, 0, comp(735, 4));  // clan_camp_list:size_divider
     return;
 }

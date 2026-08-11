@@ -1,7 +1,7 @@
 //
 function script9497(): void {
     if ((varclient_3891 <= 0)) {
-        IF_SETONTIMER(callback(), comp(749, 63));
+        IF_SETONTIMER(callback(), comp(749, 63));  // 6awe2_hud:popup_layer
     } else {
         script9498();
         varclient_3891 = (varclient_3891 - 1);

@@ -1,6 +1,6 @@
 //
 function script6487(): void {
-    if ((IF_GETNEXTSUBID(comp(1475, 2)) > 0)) {
+    if ((IF_GETNEXTSUBID(comp(1475, 2)) > 0)) {  // toplevel_v2_edit_mode:advanced_text
         script20516();
         return;
     };

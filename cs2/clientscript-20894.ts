@@ -3,7 +3,7 @@ function script20894(int0: number, string0: string): void {
     var int1 = 0;
     [string0, int1] = script20895(string0);
     if ((int1 == 1)) {
-        IF_SETTEXT(string0, comp(105, 225));
+        IF_SETTEXT(string0, comp(105, 225));  // stockmarket:offertype_icon ?
     };
     varclient_6788 = string0;
     switch (int0) {

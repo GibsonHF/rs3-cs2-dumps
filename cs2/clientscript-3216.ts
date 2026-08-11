@@ -13,7 +13,7 @@ function script3216(int0: number, int1: number): void {
         script7879();
         return;
     };
-    if ((IF_GETHIDE(comp(1420, 187)) == false)) {
+    if ((IF_GETHIDE(comp(1420, 187)) == false)) {  // acc_create:escape_confirm
         return;
     };
     var string0 = "";
@@ -31,15 +31,15 @@ function script3216(int0: number, int1: number): void {
                     if ((int0 == 13)) {
                         varclient_2563 = "";
                     } else {
-                        IF_SETHIDE(true, comp(786, 16));
-                        IF_SETHIDE(true, comp(786, 13));
+                        IF_SETHIDE(true, comp(786, 16));  // acc_create_name:name_input_caret
+                        IF_SETHIDE(true, comp(786, 13));  // acc_create_name:name_highlight_rect
                         varclient_174 = -1;
                         script1594();
                         return;
                     };
                 } else {
-                    IF_SETHIDE(true, comp(786, 16));
-                    IF_SETHIDE(true, comp(786, 13));
+                    IF_SETHIDE(true, comp(786, 16));  // acc_create_name:name_input_caret
+                    IF_SETHIDE(true, comp(786, 13));  // acc_create_name:name_highlight_rect
                     varclient_174 = -1;
                     script1594();
                     return;

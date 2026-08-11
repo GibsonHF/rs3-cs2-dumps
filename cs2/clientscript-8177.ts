@@ -15,9 +15,9 @@ function script8177(): void {
     };
     if ((WORLDLIST_FETCH() == 0)) {
     };
-    IF_SETHIDE(false, comp(1477, 805));
-    IF_SETHIDE(true, comp(1433, 62));
-    IF_SETHIDE(true, comp(274, 192));
+    IF_SETHIDE(false, comp(1477, 805));  // toplevel_v2:escape_menu
+    IF_SETHIDE(true, comp(1433, 62));  // escape_menu:logout_popup
+    IF_SETHIDE(true, comp(274, 192));  // escape_menu_mobile:logout_popup
     script6739(9);
     script8841(1, 1);
     script13831(1);

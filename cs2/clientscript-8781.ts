@@ -7,12 +7,12 @@ function script8781(int0: number): void {
         script193(1);
         return;
     };
-    IF_SETHIDE(true, comp(276, 16));
+    IF_SETHIDE(true, comp(276, 16));  // toplevel_v2_mobile:settings_mobile
     script8306();
     script8792();
     if ((varbitplayer_38842 == 1)) {
         varbitclient_32705 = 0;
-        IF_SETCOLOUR(0, comp(1477, 26));
+        IF_SETCOLOUR(0, comp(1477, 26));  // toplevel_v2:background_colour
         script8352();
         script13892();
         script8784();
@@ -20,7 +20,7 @@ function script8781(int0: number): void {
     };
     if ((varbitplayer_27169 == 1)) {
         varbitclient_32705 = 0;
-        IF_SETCOLOUR(0, comp(1477, 26));
+        IF_SETCOLOUR(0, comp(1477, 26));  // toplevel_v2:background_colour
         script9943();
         script8784();
         return;
@@ -42,7 +42,7 @@ function script8781(int0: number): void {
     var int15 = comp(-1, 65535);
     var int16 = comp(-1, 65535);
     varclient_3474 = 0;
-    IF_SETCOLOUR(0, comp(1477, 26));
+    IF_SETCOLOUR(0, comp(1477, 26));  // toplevel_v2:background_colour
     script8352();
     int12 = (ENUM_GETOUTPUTCOUNT(7717 as cs2enum) - 1);
     var int17 = int0;

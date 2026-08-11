@@ -1,10 +1,10 @@
 //
 function script8000(): void {
     if (((IF_GET_GAMESCREEN() == comp(-1, 65535)) || (script6354(IF_GET_GAMESCREEN()) == 0))) {
-        IF_SETONTIMER(callback(script1094), comp(1477, 31));
+        IF_SETONTIMER(callback(script1094), comp(1477, 31));  // toplevel_v2:render_layer
         return;
     };
-    IF_SETONTIMER(callback(), comp(1477, 31));
+    IF_SETONTIMER(callback(), comp(1477, 31));  // toplevel_v2:render_layer
     switch (varplayer_1114) {
         case 1: {
             script2121();

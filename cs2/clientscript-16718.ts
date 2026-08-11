@@ -13,28 +13,28 @@ function script16718(): void {
     while ((int8 <= 3)) {
         switch (int8) {
             case 1: {
-                int0 = comp(1014, 60);
+                int0 = comp(1014, 60);  // trh183_overlay:chest_1_click_layer
                 int1 = 66453566;
-                int2 = comp(1014, 65);
-                int3 = comp(1014, 66);
+                int2 = comp(1014, 65);  // trh183_overlay:chest_1_prize_info
+                int3 = comp(1014, 66);  // trh183_overlay:chest_1_multiplier_icon
                 [int4, int5, int6] = [varplayer_10588, varplayer_10589, varplayer_10590];
                 int7 = varplayer_10587;
                 break;
             }
             case 2: {
-                int0 = comp(1014, 58);
+                int0 = comp(1014, 58);  // trh183_overlay:chest_2_click_layer
                 int1 = 66453572;
-                int2 = comp(1014, 71);
-                int3 = comp(1014, 72);
+                int2 = comp(1014, 71);  // trh183_overlay:chest_2_prize_info
+                int3 = comp(1014, 72);  // trh183_overlay:chest_2_multiplier_icon
                 [int4, int5, int6] = [varplayer_10592, varplayer_10593, varplayer_10594];
                 int7 = varplayer_10591;
                 break;
             }
             case 3: {
-                int0 = comp(1014, 56);
+                int0 = comp(1014, 56);  // trh183_overlay:chest_3_click_layer
                 int1 = 66453578;
-                int2 = comp(1014, 77);
-                int3 = comp(1014, 78);
+                int2 = comp(1014, 77);  // trh183_overlay:chest_3_prize_info
+                int3 = comp(1014, 78);  // trh183_overlay:chest_3_multiplier_icon
                 [int4, int5, int6] = [varplayer_10596, varplayer_10597, varplayer_10598];
                 int7 = varplayer_10595;
                 break;
@@ -45,8 +45,8 @@ function script16718(): void {
         IF_SETOPCURSOR(1, 201, int0);
         script16719(int1, int4, int5, int6, int7);
     };
-    IF_SETOPCURSOR(1, 46, comp(1014, 27));
-    IF_SETOPCURSOR(1, 46, comp(1014, 108));
-    IF_SETOPCURSOR(1, 46, comp(1014, 34));
+    IF_SETOPCURSOR(1, 46, comp(1014, 27));  // trh183_overlay:reroll_icon
+    IF_SETOPCURSOR(1, 46, comp(1014, 108));  // trh183_overlay:multiplier_icon
+    IF_SETOPCURSOR(1, 46, comp(1014, 34));  // trh183_overlay:freeze_icon
     return;
 }

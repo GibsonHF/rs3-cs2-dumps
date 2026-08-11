@@ -1,9 +1,9 @@
 //
 function script12739(int0: number): void {
     if ((int0 == 1)) {
-        IF_SETTRANS(85, comp(1786, 33));
+        IF_SETTRANS(85, comp(1786, 33));  // trh104_overlay:gem
     } else {
-        IF_SETTRANS(0, comp(1786, 33));
+        IF_SETTRANS(0, comp(1786, 33));  // trh104_overlay:gem
     };
     return;
 }

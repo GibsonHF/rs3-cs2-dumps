@@ -19,7 +19,7 @@ function script20025(int0: number): void {
     };
     IF_SETSIZE(int9, int10, 0, 0, int2);
     if ((int0 == 1)) {
-        IF_SETGRAPHIC(script20010(int5), comp(1340, 30));
+        IF_SETGRAPHIC(script20010(int5), comp(1340, 30));  // trh210_overlay:highlight
     };
     IF_SETGRAPHIC(int4, int3);
     IF_SETGRAPHIC(int8, int7);

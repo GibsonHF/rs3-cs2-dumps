@@ -1,6 +1,6 @@
 //
 function script15962(): void {
-    if ((IF_FIND(comp(862, 3)) == 1)) {
+    if ((IF_FIND(comp(862, 3)) == 1)) {  // ui_template:dropdown
         script10643(4487);
         script15961(4487);
         unk11039(25);

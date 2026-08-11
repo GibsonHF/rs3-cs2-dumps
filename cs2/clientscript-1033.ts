@@ -8,12 +8,12 @@ function script1033(string0: string): void {
     } else {
         string1 = string0;
     };
-    IF_SETTEXT(SUBSTRING(string0, 0, int0), comp(157, 0));
+    IF_SETTEXT(SUBSTRING(string0, 0, int0), comp(157, 0));  // quickchat_tutorial:title
     var int1 = 0;
     var int2 = 0;
     int1 = (PARAHEIGHT(string1, 400, 27 as fontmetrics) * 12);
-    int2 = IF_GETHEIGHT(comp(157, 3));
-    int2 = ((IF_GETHEIGHT(comp(157, 3)) / 2) - (int1 / 2));
+    int2 = IF_GETHEIGHT(comp(157, 3));  // quickchat_tutorial:text
+    int2 = ((IF_GETHEIGHT(comp(157, 3)) / 2) - (int1 / 2));  // quickchat_tutorial:text
     script1034(0, 35, int2, 400, 100, string1, 16777215);
     return;
 }

@@ -12,10 +12,10 @@ function script12598(int0: number, int1: number, int2: number, int3: number, int
         case 3:
         case 4: {
             if ((int5 != -1 as stat)) {
-                if ((int3 == comp(1588, 24))) {
-                    var int3 = comp(1588, 9);
-                } else if ((int3 == comp(1681, 27))) {
-                    int3 = comp(1681, 12);
+                if ((int3 == comp(1588, 24))) {  // telemetry:skill_draw_layer
+                    var int3 = comp(1588, 9);  // telemetry:skill_target_layer
+                } else if ((int3 == comp(1681, 27))) {  // toplevel_v2_parent_suboverlay_telemetry:skill_draw_layer
+                    int3 = comp(1681, 12);  // toplevel_v2_parent_suboverlay_telemetry:skill_target_layer
                 } else {
                     int3 = comp(-1, 65535);
                 };

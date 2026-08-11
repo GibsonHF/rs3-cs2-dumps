@@ -4,9 +4,9 @@ function script11829(int0: number, int1: number, int2: number, int3: number): vo
     var int5 = 0;
     var int6 = 0;
     var int7 = 0;
-    var int8 = comp(1588, 4);
+    var int8 = comp(1588, 4);  // telemetry:telemetry_highlight
     if ((int3 == 2)) {
-        int8 = comp(1681, 7);
+        int8 = comp(1681, 7);  // toplevel_v2_parent_suboverlay_telemetry:telemetry_highlight
     };
     if (((CC_FIND(int1, int0) == 1) && (cc_getparam(5325) != -1))) {
         IF_SETSIZE(IF_GETWIDTH(int1), CC_GETHEIGHT(), 0, 0, int8);

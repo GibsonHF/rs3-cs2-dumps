@@ -28,19 +28,19 @@ function script4559(int0: number, int1: number, int2: number, int3: number, int4
     if ((int22 == 1)) {
         int13 = 40;
     } else {
-        IF_SETSIZE(0, int13, 1, 0, comp(589, 9));
+        IF_SETSIZE(0, int13, 1, 0, comp(589, 9));  // lobbyscreen_pane_friendschat:friendschat_active_bg
     };
     int21 = ((int13 / 2) - 4);
     if ((int11 <= 0)) {
         if ((int22 == 0)) {
-            IF_SETTEXT("Not in chat", comp(589, 25));
-            IF_SETTEXT("None", comp(589, 27));
+            IF_SETTEXT("Not in chat", comp(589, 25));  // lobbyscreen_pane_friendschat:friendschat_detail_name_text
+            IF_SETTEXT("None", comp(589, 27));  // lobbyscreen_pane_friendschat:friendschat_detail_owner_text
             IF_SETHIDE(false, int6);
             script13991(int6, -1, 2830, 1);
             IF_SETSIZE(IF_GETWIDTH(int7), 0, 0, 0, int7);
             script4560("You are not currently in a Friends Chat channel.<br><br>Use the button below if you wish to join a chat channel.", int3);
         } else {
-            IF_SETTEXT("(Not in chat)", comp(1044, 26));
+            IF_SETTEXT("(Not in chat)", comp(1044, 26));  // lobbyscreen_pane_mobile_social:friends_chat_list_title
             script4560("You are not currently in a Friends Chat channel.<br><br>Use the 'Join Channel' button if you wish to join a chat channel.", int3);
         };
         IF_SETTEXT("Join Channel", int8);
@@ -50,12 +50,12 @@ function script4559(int0: number, int1: number, int2: number, int3: number, int4
         IF_SETSCROLLPOS(0, 0, int4);
     } else {
         if ((int22 == 0)) {
-            IF_SETTEXT(CLAN_GETCHATDISPLAYNAME(), comp(589, 25));
-            IF_SETTEXT(CLAN_GETCHATOWNERNAME(), comp(589, 27));
+            IF_SETTEXT(CLAN_GETCHATDISPLAYNAME(), comp(589, 25));  // lobbyscreen_pane_friendschat:friendschat_detail_name_text
+            IF_SETTEXT(CLAN_GETCHATOWNERNAME(), comp(589, 27));  // lobbyscreen_pane_friendschat:friendschat_detail_owner_text
             IF_SETHIDE(true, int6);
             IF_SETSIZE(IF_GETWIDTH(int7), 0, 0, 1, int7);
         } else {
-            IF_SETTEXT(`${CLAN_GETCHATDISPLAYNAME()}<br>(${CLAN_GETCHATOWNERNAME()})`, comp(1044, 26));
+            IF_SETTEXT(`${CLAN_GETCHATDISPLAYNAME()}<br>(${CLAN_GETCHATOWNERNAME()})`, comp(1044, 26));  // lobbyscreen_pane_mobile_social:friends_chat_list_title
         };
         IF_SETTEXT("Leave Channel", int8);
         IF_SETOP(1, "Leave chat channel", int8);

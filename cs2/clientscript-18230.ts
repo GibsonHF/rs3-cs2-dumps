@@ -3,8 +3,8 @@ function script18230(int0: number): void {
     var int1 = 0;
     var int2 = 0;
     int1 = script12869(int0);
-    int2 = MIN(SCALE(int1, (struct_getparam(int0, 6142) * struct_getparam(int0, 6144)), IF_GETWIDTH(comp(1343, 138))), IF_GETWIDTH(comp(1343, 138)));
-    if ((CC_FIND(comp(1343, 138), 0) == 1)) {
+    int2 = MIN(SCALE(int1, (struct_getparam(int0, 6142) * struct_getparam(int0, 6144)), IF_GETWIDTH(comp(1343, 138))), IF_GETWIDTH(comp(1343, 138)));  // jobs_main:weekly_progress_value_bounds_layer
+    if ((CC_FIND(comp(1343, 138), 0) == 1)) {  // jobs_main:weekly_progress_value_bounds_layer
         CC_SETTEXT(`${TOSTRING_LOCALISED((int1 / struct_getparam(int0, 4926)), 1)}/${TOSTRING_LOCALISED(((struct_getparam(int0, 6142) * struct_getparam(int0, 6144)) / struct_getparam(int0, 4926)), 1)}`);
     };
     var int3 = 0;
@@ -13,7 +13,7 @@ function script18230(int0: number): void {
     var int6 = -1 as obj;
     var int7 = -1 as graphic;
     var int8 = struct_getparam(int0, 6146);
-    var int9 = comp(1343, 139);
+    var int9 = comp(1343, 139);  // jobs_main:weekly_progress_rewards_layer
     while ((int3 < 7)) {
         if ((CC_FIND(int9, int3) == 1)) {
             int6 = enum_getvalue(0, 33, int8, int3);
@@ -35,6 +35,6 @@ function script18230(int0: number): void {
         };
         int3 = (int3 + 1);
     };
-    IF_SETONTIMER(callback(script12886, 88014988, 88014974, 88014975, int2), comp(1343, 140));
+    IF_SETONTIMER(callback(script12886, 88014988, 88014974, 88014975, int2), comp(1343, 140));  // jobs_main:weekly_progress_value_graphic_layer
     return;
 }

@@ -21,7 +21,7 @@ function script14387(int0: number, int1: number, int2: number, int3: number, int
             var int3 = script11882(int3, INV_GETNUM(int5, int4));
         };
     };
-    if ((CC_FIND(comp(517, 279), int4) == 1)) {
+    if ((CC_FIND(comp(517, 279), int4) == 1)) {  // bank:preset_inventory_layer
         CC_SETOBJECT(int8, int3);
     };
     return;

@@ -11,16 +11,16 @@ function script12295(): void {
     };
     script11878(110428192, 110428193);
     var string0 = "Make cannonballs to earn Smithing XP.";
-    IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643), comp(1772, 4));
+    IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643), comp(1772, 4));  // elr0_configure:cannonball_smithing_layer
     string0 = "Mix black powder to earn Herblore XP.";
-    IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643), comp(1772, 6));
+    IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643), comp(1772, 6));  // elr0_configure:cannonball_herblore_layer
     string0 = "Make small repairs to the prison to earn Crafting XP.";
-    IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643), comp(1772, 25));
+    IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643), comp(1772, 25));  // elr0_configure:prison_crafting_layer
     string0 = "Shore up the prison's defences to earn Construction XP.";
-    IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643), comp(1772, 29));
+    IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643), comp(1772, 29));  // elr0_configure:prison_construction_layer
     string0 = "Fire the cannon at Jed's ship for Firemaking XP.";
-    IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643), comp(1772, 37));
+    IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643), comp(1772, 37));  // elr0_configure:cannon_firemaking_layer
     string0 = "Aim the cannon at Jed's ship for Ranged XP.";
-    IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643), comp(1772, 41));
+    IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643), comp(1772, 41));  // elr0_configure:cannon_ranged_layer
     return;
 }

@@ -1,6 +1,6 @@
 //
 function script6406(): void {
-    IF_SETTEXT(`Current points: ${inttostring(varbitplayer_9071, 10)}`, comp(1308, 895));
+    IF_SETTEXT(`Current points: ${inttostring(varbitplayer_9071, 10)}`, comp(1308, 895));  // ss_rework:current_points_title
     if (((varbitplayer_25046 == 0) && (varbitplayer_9071 < 100))) {
         script6414(85721220, 0);
     };
@@ -2554,9 +2554,9 @@ function script6406(): void {
             script9660(85721202);
         };
     };
-    IF_SETHIDE(false, comp(1308, 896));
+    IF_SETHIDE(false, comp(1308, 896));  // ss_rework:scrollbar
     script7791(85721984, 85721132);
-    IF_SETOBJECT(19675 as obj, -1, comp(1308, 479));
-    IF_SETOBJECT(31188 as obj, -1, comp(1308, 495));
+    IF_SETOBJECT(19675 as obj, -1, comp(1308, 479));  // ss_rework:herbicide_model
+    IF_SETOBJECT(31188 as obj, -1, comp(1308, 495));  // ss_rework:seedicide_model
     return;
 }

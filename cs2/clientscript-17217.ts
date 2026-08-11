@@ -15,7 +15,7 @@ function script17217(int0: number): void {
             int1 = 0;
             string0 = "View suspects";
             string1 = "Notes on possible suspects.";
-            int2 = comp(1030, 26);
+            int2 = comp(1030, 26);  // quest_fort_casefile:tab_suspects_graphic
             int3 = 10520 as graphic;
             int4 = 10519;
             break;
@@ -24,7 +24,7 @@ function script17217(int0: number): void {
             int1 = 1;
             string0 = "View Duke's evidence";
             string1 = "Notes on the murder of Duke Hoarse.";
-            int2 = comp(1030, 28);
+            int2 = comp(1030, 28);  // quest_fort_casefile:tab_evidence_part1_graphic
             break;
         }
         case 67502109: {
@@ -35,7 +35,7 @@ function script17217(int0: number): void {
             int1 = 2;
             string0 = "View Alchemist's evidence";
             string1 = "Notes on the murder of Simon Bullace.";
-            int2 = comp(1030, 30);
+            int2 = comp(1030, 30);  // quest_fort_casefile:tab_evidence_part2_graphic
             break;
         }
     };

@@ -5,7 +5,7 @@ function script1212(int0: number, int1: number, int2: number, int3: number, int4
         int10 = 31 as fontmetrics;
     };
     CC_DELETEALL(int0);
-    CC_DELETEALL(comp(1177, 0));
+    CC_DELETEALL(comp(1177, 0));  // info_box:mainlayer
     var int11 = 0;
     var string1 = "";
     var int12 = 0;

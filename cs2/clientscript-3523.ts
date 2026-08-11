@@ -1,8 +1,8 @@
 //
 function script3523(): void {
-    CC_DELETEALL(comp(1790, 9));
-    CC_DELETEALL(comp(1790, 63));
-    CC_DELETEALL(comp(1790, 64));
+    CC_DELETEALL(comp(1790, 9));  // currency:fav_invslot_layer_1
+    CC_DELETEALL(comp(1790, 63));  // currency:fav_obj_layer_1
+    CC_DELETEALL(comp(1790, 64));  // currency:fav_text_layer_1
     var int0 = -1;
     var int1 = 0;
     var int2 = (MODULO(int1, 2) * 55);
@@ -14,12 +14,12 @@ function script3523(): void {
         int2 = (MODULO(int1, 2) * 55);
         int3 = ((int1 / 2) * 63);
         int0 = script14968((int1 + 1));
-        CC_CREATE(comp(1790, 9), 5, int1);
+        CC_CREATE(comp(1790, 9), 5, int1);  // currency:fav_invslot_layer_1
         CC_SETSIZE(40, 40, 0, 0);
         CC_SETPOSITION((int2 + 7), int3, 0, 0);
         CC_SETGRAPHIC(26557 as graphic);
         if ((int0 != -1)) {
-            CC_CREATE(comp(1790, 63), 5, int1);
+            CC_CREATE(comp(1790, 63), 5, int1);  // currency:fav_obj_layer_1
             CC_SETSIZE(38, 38, 0, 0);
             CC_SETPOSITION((int2 + 8), (int3 + 1), 0, 0);
             CC_SETONMOUSEREPEAT(callback(script12777, int0, -2147483645, -2147483643));
@@ -48,7 +48,7 @@ function script3523(): void {
                 CC_SETGRAPHIC(dbrow_getfield(int0, 270384, 0));
                 CC_SETOPBASE(`${script4033(41028)}${string1}`);
             };
-            CC_CREATE(comp(1790, 64), 4, int1);
+            CC_CREATE(comp(1790, 64), 4, int1);  // currency:fav_text_layer_1
             CC_SETSIZE(55, 11, 0, 0);
             if ((int2 == 0)) {
                 CC_SETPOSITION(0, (int3 + 44), 0, 0);

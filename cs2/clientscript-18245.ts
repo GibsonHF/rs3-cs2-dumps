@@ -4,11 +4,11 @@ function script18245(): void {
     if ((int0 == -1 as cs2enum)) {
         return;
     };
-    CC_DELETEALL(comp(1343, 19));
-    CC_DELETEALL(comp(1343, 20));
-    CC_DELETEALL(comp(1343, 22));
-    CC_DELETEALL(comp(1343, 21));
-    CC_DELETEALL(comp(1343, 23));
+    CC_DELETEALL(comp(1343, 19));  // jobs_main:button_graphics
+    CC_DELETEALL(comp(1343, 20));  // jobs_main:button_icons
+    CC_DELETEALL(comp(1343, 22));  // jobs_main:button_stamps
+    CC_DELETEALL(comp(1343, 21));  // jobs_main:button_labels
+    CC_DELETEALL(comp(1343, 23));  // jobs_main:button_clickboxes
     var int1 = 0;
     var int2 = 0;
     var int3 = ENUM_GETOUTPUTCOUNT(int0);
@@ -30,19 +30,19 @@ function script18245(): void {
             script18242(int4, int1, int2);
             int2 = (int2 + 1);
         } else {
-            if ((CC_FIND(comp(1343, 19), int1) == 1)) {
+            if ((CC_FIND(comp(1343, 19), int1) == 1)) {  // jobs_main:button_graphics
                 CC_SETHIDE(true);
             };
-            if ((CC_FIND(comp(1343, 20), int1) == 1)) {
+            if ((CC_FIND(comp(1343, 20), int1) == 1)) {  // jobs_main:button_icons
                 CC_SETHIDE(true);
             };
-            if ((CC_FIND(comp(1343, 21), int1) == 1)) {
+            if ((CC_FIND(comp(1343, 21), int1) == 1)) {  // jobs_main:button_labels
                 CC_SETHIDE(true);
             };
-            if ((CC_FIND(comp(1343, 22), int1) == 1)) {
+            if ((CC_FIND(comp(1343, 22), int1) == 1)) {  // jobs_main:button_stamps
                 CC_SETHIDE(true);
             };
-            if ((CC_FIND(comp(1343, 23), int1) == 1)) {
+            if ((CC_FIND(comp(1343, 23), int1) == 1)) {  // jobs_main:button_clickboxes
                 CC_SETHIDE(true);
             };
         };

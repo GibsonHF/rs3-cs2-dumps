@@ -56,11 +56,11 @@ function script12206(int0: number): void {
     };
     var string0 = enum_getvalue(33, 36, 10771 as cs2enum, int1);
     if ((int0 == 112394341)) {
-        IF_SETTEXT(`Are you sure you want to create a ${string0} for ${TOSTRING_LOCALISED(int2, 1)} grotesque souls?`, comp(1715, 123));
+        IF_SETTEXT(`Are you sure you want to create a ${string0} for ${TOSTRING_LOCALISED(int2, 1)} grotesque souls?`, comp(1715, 123));  // trh80_corrupt:confirm_purchase_text
     } else {
-        IF_SETTEXT(`Are you sure you want to create the ${string0} for ${TOSTRING_LOCALISED(int2, 1)} grotesque souls? You will receive ${inttostring((3 * int2), 10)} Slayer XP.`, comp(1715, 123));
+        IF_SETTEXT(`Are you sure you want to create the ${string0} for ${TOSTRING_LOCALISED(int2, 1)} grotesque souls? You will receive ${inttostring((3 * int2), 10)} Slayer XP.`, comp(1715, 123));  // trh80_corrupt:confirm_purchase_text
     };
-    IF_SETHIDE(false, comp(1715, 2));
-    IF_SETHIDE(false, comp(1715, 31));
+    IF_SETHIDE(false, comp(1715, 2));  // trh80_corrupt:darkness
+    IF_SETHIDE(false, comp(1715, 31));  // trh80_corrupt:confirm_purchase
     return;
 }

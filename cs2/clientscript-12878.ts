@@ -13,7 +13,7 @@ function script12878(int0: number): void {
             string1 = `Your gathering limit extender will expire in ${inttostring(varbitplayer_34281, 10)} days.`;
         };
     };
-    if ((CC_FIND(comp(1802, 64), 3) == 1)) {
+    if ((CC_FIND(comp(1802, 64), 3) == 1)) {  // timed_event:left_container
         CC_SETTEXT(string0);
         if ((struct_getparam(int0, 6644) == 0)) {
             CC_SETOP(1, "Purchase");
@@ -22,7 +22,7 @@ function script12878(int0: number): void {
             CC_SETONMOUSEREPEAT(callback(script3876, string1, -2147483645, -2147483643));
         };
     };
-    if ((CC_FIND(comp(1802, 64), 1) == 1)) {
+    if ((CC_FIND(comp(1802, 64), 1) == 1)) {  // timed_event:left_container
         if ((struct_getparam(int0, 6644) == 0)) {
             CC_SETTEXT(`${TOSTRING_LOCALISED(int1, 1)}/${TOSTRING_LOCALISED(int2, 1)}`);
         } else {

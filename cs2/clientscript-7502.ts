@@ -33,30 +33,30 @@ function script7502(): void {
             int2 = script7503(int1);
             switch (varclient_2707) {
                 case 0: {
-                    IF_SETGRAPHIC(int2, comp(1389, 11));
-                    IF_SETGRAPHIC(script7504(int2), comp(1389, 15));
-                    IF_SETTEXT(script7505(int2), comp(1389, 7));
-                    IF_SETTEXT(script7515(int2), comp(1389, 26));
+                    IF_SETGRAPHIC(int2, comp(1389, 11));  // rand_dnd_select_card:rand_dnd_card_3
+                    IF_SETGRAPHIC(script7504(int2), comp(1389, 15));  // rand_dnd_select_card:rand_dnd_chosen_card
+                    IF_SETTEXT(script7505(int2), comp(1389, 7));  // rand_dnd_select_card:rand_dnd_card_name_text
+                    IF_SETTEXT(script7515(int2), comp(1389, 26));  // rand_dnd_select_card:info_text
                     break;
                 }
                 case 1: {
-                    IF_SETGRAPHIC(int2, comp(1389, 10));
-                    IF_SETHIDE(false, comp(1389, 10));
+                    IF_SETGRAPHIC(int2, comp(1389, 10));  // rand_dnd_select_card:rand_dnd_card_2
+                    IF_SETHIDE(false, comp(1389, 10));  // rand_dnd_select_card:rand_dnd_card_2
                     break;
                 }
                 case 2: {
-                    IF_SETGRAPHIC(int2, comp(1389, 12));
-                    IF_SETHIDE(false, comp(1389, 12));
+                    IF_SETGRAPHIC(int2, comp(1389, 12));  // rand_dnd_select_card:rand_dnd_card_4
+                    IF_SETHIDE(false, comp(1389, 12));  // rand_dnd_select_card:rand_dnd_card_4
                     break;
                 }
                 case 3: {
-                    IF_SETGRAPHIC(int2, comp(1389, 9));
-                    IF_SETHIDE(false, comp(1389, 9));
+                    IF_SETGRAPHIC(int2, comp(1389, 9));  // rand_dnd_select_card:rand_dnd_card_1
+                    IF_SETHIDE(false, comp(1389, 9));  // rand_dnd_select_card:rand_dnd_card_1
                     break;
                 }
                 case 4: {
-                    IF_SETGRAPHIC(int2, comp(1389, 13));
-                    IF_SETHIDE(false, comp(1389, 13));
+                    IF_SETGRAPHIC(int2, comp(1389, 13));  // rand_dnd_select_card:rand_dnd_card_5
+                    IF_SETHIDE(false, comp(1389, 13));  // rand_dnd_select_card:rand_dnd_card_5
                     break;
                 }
             };
@@ -66,9 +66,9 @@ function script7502(): void {
         int0 = (int0 + 1);
     };
     if ((varclient_2710 == 0)) {
-        IF_SETONTIMER(callback(script7512, 15, 0), comp(1389, 23));
+        IF_SETONTIMER(callback(script7512, 15, 0), comp(1389, 23));  // rand_dnd_select_card:rand_dnd_progress_bar_fill
     } else {
-        IF_SETONTIMER(callback(script7512, varclient_2710, 0), comp(1389, 23));
+        IF_SETONTIMER(callback(script7512, varclient_2710, 0), comp(1389, 23));  // rand_dnd_select_card:rand_dnd_progress_bar_fill
     };
     return;
 }

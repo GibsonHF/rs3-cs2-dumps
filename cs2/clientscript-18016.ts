@@ -1,6 +1,6 @@
 //
 function script18016(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number): [number, number, number, number, number] {
-    var int6 = comp(1227, 40);
+    var int6 = comp(1227, 40);  // bp3_track_tab:reward_track_tile_layer
     var int7 = 80412713;
     var int8 = 1;
     var int9 = script17969(varplayer_11339, 0, 0, int0);

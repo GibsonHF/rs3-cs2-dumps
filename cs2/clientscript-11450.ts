@@ -1,5 +1,5 @@
 //
 function script11450(): void {
-    IF_SETHIDE(true, comp(1624, 11));
+    IF_SETHIDE(true, comp(1624, 11));  // spotlight:buy_popup_layer
     return;
 }

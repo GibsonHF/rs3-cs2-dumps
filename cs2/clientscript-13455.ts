@@ -5,19 +5,19 @@ function script13455(int0: number): void {
     var string0 = "Change selected faction";
     switch (int0) {
         case 1: {
-            int1 = comp(1875, 18);
+            int1 = comp(1875, 18);  // repmodal:circular_bar_layer_worker_favourite
             break;
         }
         case 2: {
-            int1 = comp(1875, 13);
+            int1 = comp(1875, 13);  // repmodal:circular_bar_layer_imperial_favourite
             break;
         }
         case 3: {
-            int1 = comp(1875, 21);
+            int1 = comp(1875, 21);  // repmodal:circular_bar_layer_merchant_favourite
             break;
         }
         case 4: {
-            int1 = comp(1875, 16);
+            int1 = comp(1875, 16);  // repmodal:circular_bar_layer_ports_favourite
             break;
         }
     };

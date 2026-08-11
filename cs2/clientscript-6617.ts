@@ -12,12 +12,12 @@ function script6617(int0: number, int1: number, int2: number, int3: number, int4
         if ((int2 == 2)) {
             int3 = MIN((int3 + 20), 255);
         };
-        if ((int5 == comp(1324, 18))) {
-            IF_SETTRANS(int3, comp(1324, 18));
-            IF_SETTRANS(int3, comp(1324, 11));
+        if ((int5 == comp(1324, 18))) {  // peng_pow_bfish_setup:info_layer_txt
+            IF_SETTRANS(int3, comp(1324, 18));  // peng_pow_bfish_setup:info_layer_txt
+            IF_SETTRANS(int3, comp(1324, 11));  // peng_pow_bfish_setup:info_layer_gfx
         } else {
-            IF_SETTRANS(int3, comp(1323, 58));
-            IF_SETTRANS(int3, comp(1323, 8));
+            IF_SETTRANS(int3, comp(1323, 58));  // peng_pow_bfish:info_layer_txt
+            IF_SETTRANS(int3, comp(1323, 8));  // peng_pow_bfish:info_layer_gfx
         };
         var int4 = (CLIENTCLOCK() + 1);
     };

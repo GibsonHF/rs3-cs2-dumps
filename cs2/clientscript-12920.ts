@@ -6,8 +6,8 @@ function script12920(int0: number): void {
         IF_SETOPKEYRATE(1, 10, 0, 118292482);
         IF_SETOPKEYRATE(1, 10, 0, 118292481);
     } else {
-        IF_SETOPKEY(1, 0, 0, comp(1805, 2));
-        IF_SETOPKEY(1, 0, 0, comp(1805, 1));
+        IF_SETOPKEY(1, 0, 0, comp(1805, 2));  // fotg2_lava_falls:left_layer
+        IF_SETOPKEY(1, 0, 0, comp(1805, 1));  // fotg2_lava_falls:right_layer
     };
     return;
 }

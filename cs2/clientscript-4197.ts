@@ -16,10 +16,10 @@ function script4197(int0: number): void {
     var int11 = 0;
     var int12 = 0;
     var int13 = 0;
-    var int14 = comp(90, 162);
-    var int15 = comp(90, 163);
-    var int16 = comp(90, 176);
-    var int17 = comp(90, 177);
+    var int14 = comp(90, 162);  // pof_animal:hirepool_build_layer
+    var int15 = comp(90, 163);  // pof_animal:hirepool_click_layer
+    var int16 = comp(90, 176);  // pof_animal:farmhand_paddock_build_layer
+    var int17 = comp(90, 177);  // pof_animal:farmhand_paddock_click_layer
     var int18 = dbrow_getfield(int0, 159808, 0);
     define_array[74](int18);
     var string0 = "Assign";

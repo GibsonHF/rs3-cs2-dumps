@@ -4,7 +4,7 @@ function script16525(): void {
     var int1 = 0;
     var int2 = 4;
     var int3 = 18647;
-    CC_DELETEALL(comp(970, 24));
+    CC_DELETEALL(comp(970, 24));  // trh180_overlay:prize_layer
     while ((int0 < 2)) {
         int2 = (3 + (int0 * 60));
         if ((int0 < varbitplayer_51243)) {

@@ -4,7 +4,7 @@ function script11721(int0: number, int1: number, int2: number): void {
     var int3 = 0;
     if ((int1 == 1)) {
         IF_SETCOLOUR(16777215, int2);
-        IF_SETHIDE(true, comp(1654, 36));
+        IF_SETHIDE(true, comp(1654, 36));  // raid1rep:speech_bubble
     } else {
         switch (int0) {
             case 1: {
@@ -53,9 +53,9 @@ function script11721(int0: number, int1: number, int2: number): void {
             }
         };
         int3 = (20 + (15 * PARAHEIGHT(string0, 270, 28 as fontmetrics)));
-        IF_SETSIZE(350, int3, 0, 0, comp(1654, 36));
-        IF_SETTEXT(string0, comp(1654, 37));
-        IF_SETHIDE(false, comp(1654, 36));
+        IF_SETSIZE(350, int3, 0, 0, comp(1654, 36));  // raid1rep:speech_bubble
+        IF_SETTEXT(string0, comp(1654, 37));  // raid1rep:goebie_text
+        IF_SETHIDE(false, comp(1654, 36));  // raid1rep:speech_bubble
         IF_SETCOLOUR(13158600, int2);
     };
     return;

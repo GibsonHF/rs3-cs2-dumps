@@ -1,7 +1,7 @@
 //
 function script9223(int0: number, int1: number, int2: number, int3: number): void {
     script3843();
-    if ((((int0 != comp(1464, 15)) && (int0 != comp(1462, 31))) && (int0 != comp(517, 28)))) {
+    if ((((int0 != comp(1464, 15) /*toplevel_v2_worn:item_layer*/) && (int0 != comp(1462, 31) /*toplevel_v2_parent_suboverlay_worn:item_layer*/)) && (int0 != comp(517, 28) /*bank:item_layer*/))) {
         return;
     };
     if ((script7980(int2) != -1)) {

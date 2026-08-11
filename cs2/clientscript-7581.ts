@@ -14,23 +14,23 @@ function script7581(): void {
     var int11 = 1;
     switch (varbitplayer_18080) {
         case 1: {
-            int0 = comp(164, 12);
-            int1 = comp(164, 25);
+            int0 = comp(164, 12);  // tsd_assigning_overlay:death_drag_icon
+            int1 = comp(164, 25);  // tsd_assigning_overlay:death_icon
             break;
         }
         case 2: {
-            int0 = comp(164, 13);
-            int1 = comp(164, 26);
+            int0 = comp(164, 13);  // tsd_assigning_overlay:thaerisk_drag_icon
+            int1 = comp(164, 26);  // tsd_assigning_overlay:thaerisk_icon
             break;
         }
         case 4: {
-            int0 = comp(164, 14);
-            int1 = comp(164, 27);
+            int0 = comp(164, 14);  // tsd_assigning_overlay:valluta_drag_icon
+            int1 = comp(164, 27);  // tsd_assigning_overlay:valluta_icon
             break;
         }
         case 3: {
-            int0 = comp(164, 15);
-            int1 = comp(164, 28);
+            int0 = comp(164, 15);  // tsd_assigning_overlay:cres_drag_icon
+            int1 = comp(164, 28);  // tsd_assigning_overlay:cres_icon
             break;
         }
         default: {
@@ -40,23 +40,23 @@ function script7581(): void {
     };
     switch (varbitplayer_18081) {
         case 1: {
-            int2 = comp(164, 12);
-            int3 = comp(164, 25);
+            int2 = comp(164, 12);  // tsd_assigning_overlay:death_drag_icon
+            int3 = comp(164, 25);  // tsd_assigning_overlay:death_icon
             break;
         }
         case 2: {
-            int2 = comp(164, 13);
-            int3 = comp(164, 26);
+            int2 = comp(164, 13);  // tsd_assigning_overlay:thaerisk_drag_icon
+            int3 = comp(164, 26);  // tsd_assigning_overlay:thaerisk_icon
             break;
         }
         case 4: {
-            int2 = comp(164, 14);
-            int3 = comp(164, 27);
+            int2 = comp(164, 14);  // tsd_assigning_overlay:valluta_drag_icon
+            int3 = comp(164, 27);  // tsd_assigning_overlay:valluta_icon
             break;
         }
         case 3: {
-            int2 = comp(164, 15);
-            int3 = comp(164, 28);
+            int2 = comp(164, 15);  // tsd_assigning_overlay:cres_drag_icon
+            int3 = comp(164, 28);  // tsd_assigning_overlay:cres_icon
             break;
         }
         default: {
@@ -66,23 +66,23 @@ function script7581(): void {
     };
     switch (varbitplayer_18082) {
         case 1: {
-            int4 = comp(164, 12);
-            int5 = comp(164, 25);
+            int4 = comp(164, 12);  // tsd_assigning_overlay:death_drag_icon
+            int5 = comp(164, 25);  // tsd_assigning_overlay:death_icon
             break;
         }
         case 2: {
-            int4 = comp(164, 13);
-            int5 = comp(164, 26);
+            int4 = comp(164, 13);  // tsd_assigning_overlay:thaerisk_drag_icon
+            int5 = comp(164, 26);  // tsd_assigning_overlay:thaerisk_icon
             break;
         }
         case 4: {
-            int4 = comp(164, 14);
-            int5 = comp(164, 27);
+            int4 = comp(164, 14);  // tsd_assigning_overlay:valluta_drag_icon
+            int5 = comp(164, 27);  // tsd_assigning_overlay:valluta_icon
             break;
         }
         case 3: {
-            int4 = comp(164, 15);
-            int5 = comp(164, 28);
+            int4 = comp(164, 15);  // tsd_assigning_overlay:cres_drag_icon
+            int5 = comp(164, 28);  // tsd_assigning_overlay:cres_icon
             break;
         }
         default: {
@@ -92,23 +92,23 @@ function script7581(): void {
     };
     switch (varbitplayer_18083) {
         case 1: {
-            int6 = comp(164, 12);
-            int7 = comp(164, 25);
+            int6 = comp(164, 12);  // tsd_assigning_overlay:death_drag_icon
+            int7 = comp(164, 25);  // tsd_assigning_overlay:death_icon
             break;
         }
         case 2: {
-            int6 = comp(164, 13);
-            int7 = comp(164, 26);
+            int6 = comp(164, 13);  // tsd_assigning_overlay:thaerisk_drag_icon
+            int7 = comp(164, 26);  // tsd_assigning_overlay:thaerisk_icon
             break;
         }
         case 4: {
-            int6 = comp(164, 14);
-            int7 = comp(164, 27);
+            int6 = comp(164, 14);  // tsd_assigning_overlay:valluta_drag_icon
+            int7 = comp(164, 27);  // tsd_assigning_overlay:valluta_icon
             break;
         }
         case 3: {
-            int6 = comp(164, 15);
-            int7 = comp(164, 28);
+            int6 = comp(164, 15);  // tsd_assigning_overlay:cres_drag_icon
+            int7 = comp(164, 28);  // tsd_assigning_overlay:cres_icon
             break;
         }
         default: {
@@ -136,7 +136,7 @@ function script7581(): void {
         };
         IF_SETGRAPHIC(int12, int1);
         IF_SETDRAGGABLE(comp(-1, 65535), -1, int0);
-        IF_SETHIDE(false, comp(164, 20));
+        IF_SETHIDE(false, comp(164, 20));  // tsd_assigning_overlay:wing1_disable
     };
     if ((varbitplayer_18021 > 150)) {
         int12 = script7582(int3);
@@ -145,7 +145,7 @@ function script7581(): void {
         };
         IF_SETGRAPHIC(int12, int3);
         IF_SETDRAGGABLE(comp(-1, 65535), -1, int2);
-        IF_SETHIDE(false, comp(164, 21));
+        IF_SETHIDE(false, comp(164, 21));  // tsd_assigning_overlay:wing2_disable
     };
     if ((varbitplayer_18021 > 160)) {
         int12 = script7582(int5);
@@ -154,7 +154,7 @@ function script7581(): void {
         };
         IF_SETGRAPHIC(int12, int5);
         IF_SETDRAGGABLE(comp(-1, 65535), -1, int4);
-        IF_SETHIDE(false, comp(164, 22));
+        IF_SETHIDE(false, comp(164, 22));  // tsd_assigning_overlay:wing3_disable
     };
     if ((varbitplayer_18021 > 170)) {
         int12 = script7582(int7);
@@ -163,7 +163,7 @@ function script7581(): void {
         };
         IF_SETGRAPHIC(int12, int7);
         IF_SETDRAGGABLE(comp(-1, 65535), -1, int6);
-        IF_SETHIDE(false, comp(164, 23));
+        IF_SETHIDE(false, comp(164, 23));  // tsd_assigning_overlay:wing4_disable
     };
     var int13 = script6431();
     script16148(10747916, int13);

@@ -35,18 +35,18 @@ function script17148(): void {
         IF_SETOPBASE(string0, int4);
     };
     if ((script443() < 8)) {
-        IF_SETENABLED(false, comp(1120, 73));
-        IF_CLEAROPS(comp(1120, 73));
-        IF_SETHIDE(true, comp(1120, 3));
-        IF_SETHIDE(true, comp(1120, 4));
-        IF_SETHIDE(true, comp(1120, 5));
+        IF_SETENABLED(false, comp(1120, 73));  // trh190_overlay:treasure_room_button
+        IF_CLEAROPS(comp(1120, 73));  // trh190_overlay:treasure_room_button
+        IF_SETHIDE(true, comp(1120, 3));  // trh190_overlay:button_shine_graphic
+        IF_SETHIDE(true, comp(1120, 4));  // trh190_overlay:button_light_graphic
+        IF_SETHIDE(true, comp(1120, 5));  // trh190_overlay:loot_room_door_click
         script3536("The Loot Room cannot be visited until it is full.", 73400393, -1);
     } else {
-        IF_SETENABLED(true, comp(1120, 73));
-        IF_SETOP(1, "Select", comp(1120, 73));
-        IF_SETHIDE(false, comp(1120, 3));
-        IF_SETHIDE(false, comp(1120, 4));
-        IF_SETHIDE(false, comp(1120, 5));
+        IF_SETENABLED(true, comp(1120, 73));  // trh190_overlay:treasure_room_button
+        IF_SETOP(1, "Select", comp(1120, 73));  // trh190_overlay:treasure_room_button
+        IF_SETHIDE(false, comp(1120, 3));  // trh190_overlay:button_shine_graphic
+        IF_SETHIDE(false, comp(1120, 4));  // trh190_overlay:button_light_graphic
+        IF_SETHIDE(false, comp(1120, 5));  // trh190_overlay:loot_room_door_click
         script16247(73400393, -1);
     };
     script17715();

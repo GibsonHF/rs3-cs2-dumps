@@ -59,7 +59,7 @@ function script17837(): void {
         };
         int1 = (int1 + 1);
     };
-    IF_SETTEXT(`Active (${inttostring(int10, 10)}/${inttostring(int11, 10)})`, comp(1499, 34));
+    IF_SETTEXT(`Active (${inttostring(int10, 10)}/${inttostring(int11, 10)})`, comp(1499, 34));  // construction_house_furniture_portal_nexus_configure:active_header
     script19620(98238501, int0, int7, -1, 0, 0, 0, 0);
     return;
 }

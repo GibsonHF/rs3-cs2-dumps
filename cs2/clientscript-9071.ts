@@ -1,7 +1,7 @@
 //
 function script9071(int0: number, int1: number, int2: number, int3: number, int4: number): void {
-    IF_SETHIDE(false, comp(644, 2));
-    IF_SETHIDE(true, comp(644, 10));
+    IF_SETHIDE(false, comp(644, 2));  // trh167_overlay:crystal_layer
+    IF_SETHIDE(true, comp(644, 10));  // trh167_overlay:prize_layer
     script9219(42205187, int0);
     script9219(42205188, int1);
     script9219(42205189, int2);

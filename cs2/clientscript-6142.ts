@@ -1,7 +1,7 @@
 //
 function script6142(int0: number, int1: number): void {
-    var int2 = IF_GETWIDTH(comp(1270, 13));
-    var int3 = IF_GETHEIGHT(comp(1270, 13));
+    var int2 = IF_GETWIDTH(comp(1270, 13));  // fremsaga_bilrach_mind:mind_layer
+    var int3 = IF_GETHEIGHT(comp(1270, 13));  // fremsaga_bilrach_mind:mind_layer
     var int4 = comp(-1, 65535);
     var int5 = 0;
     var int6 = 14;

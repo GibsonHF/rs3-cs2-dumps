@@ -1,5 +1,5 @@
 //
 function script986(int0: number): void {
-    IF_SETTEXT(TOSTRING_LOCALISED(MAX(0, (varplayer_8048 - 1)), 1), comp(204, 110));
+    IF_SETTEXT(TOSTRING_LOCALISED(MAX(0, (varplayer_8048 - 1)), 1), comp(204, 110));  // rsraffle:ticket_input_display
     return;
 }

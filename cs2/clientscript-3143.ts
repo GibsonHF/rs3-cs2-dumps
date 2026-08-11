@@ -8,29 +8,29 @@ function script3143(int0: number, int1: number, int2: number, int3: number): voi
             int4 = (int0 - int1);
             int5 = (int4 / 1440);
             int6 = (MODULO(int4, 1440) / 60);
-            IF_SETTEXT("Member", comp(274, 38));
+            IF_SETTEXT("Member", comp(274, 38));  // escape_menu_mobile:members_type
             if ((int5 == 0)) {
-                IF_SETTEXT(`Expires in ${script11479(0, int6, int5)}`, comp(274, 39));
+                IF_SETTEXT(`Expires in ${script11479(0, int6, int5)}`, comp(274, 39));  // escape_menu_mobile:members_time
             } else {
-                IF_SETTEXT(`Expires in ${inttostring(int5, 10)} days`, comp(274, 39));
+                IF_SETTEXT(`Expires in ${inttostring(int5, 10)} days`, comp(274, 39));  // escape_menu_mobile:members_time
             };
-            IF_SETGRAPHIC(12978 as graphic, comp(274, 37));
+            IF_SETGRAPHIC(12978 as graphic, comp(274, 37));  // escape_menu_mobile:members_icon
             script6865(17956902, -1, 0);
             script6865(17956903, -1, 6);
         } else {
-            IF_SETTEXT("Non-Member", comp(274, 38));
-            IF_SETTEXT("", comp(274, 39));
-            IF_SETGRAPHIC(12979 as graphic, comp(274, 37));
+            IF_SETTEXT("Non-Member", comp(274, 38));  // escape_menu_mobile:members_type
+            IF_SETTEXT("", comp(274, 39));  // escape_menu_mobile:members_time
+            IF_SETGRAPHIC(12979 as graphic, comp(274, 37));  // escape_menu_mobile:members_icon
             script6865(17956902, -1, 0);
         };
     } else {
-        IF_SETTEXT("Member", comp(274, 38));
-        IF_SETTEXT("", comp(274, 39));
-        IF_SETGRAPHIC(12978 as graphic, comp(274, 37));
+        IF_SETTEXT("Member", comp(274, 38));  // escape_menu_mobile:members_type
+        IF_SETTEXT("", comp(274, 39));  // escape_menu_mobile:members_time
+        IF_SETGRAPHIC(12978 as graphic, comp(274, 37));  // escape_menu_mobile:members_icon
         script6865(17956902, -1, 0);
         script6865(17956903, -1, 10611452);
     };
-    IF_SETTEXT(inttostring(MAP_WORLD(), 10), comp(274, 14));
+    IF_SETTEXT(inttostring(MAP_WORLD(), 10), comp(274, 14));  // escape_menu_mobile:player_info_world_text
     script15949();
     return;
 }

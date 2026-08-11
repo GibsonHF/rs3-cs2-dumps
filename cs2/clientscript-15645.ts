@@ -157,12 +157,12 @@ function script15645(int0: number, int1: number, int2: number, int3: number): vo
             }
         };
     };
-    IF_SETSIZE(IF_GETWIDTH(comp(744, 69)), int8, 0, 0, comp(744, 69));
+    IF_SETSIZE(IF_GETWIDTH(comp(744, 69)), int8, 0, 0, comp(744, 69));  // loginscreen:oauth2_username_email_btn
     script10410(48758854, -1, 28557, 0, 0, int7, int8, -1, callback(script0));
     script4512(48758854, struct_getparam(631, 3915), MIN(int8, struct_getparam(631, 3916)), (0 + 3), (0 + 3), struct_getparam(631, 3910));
     script6200(48758854, (((int7 - 40) - 10) - 10), int8, ((0 + 40) + 10), 0, 28, struct_getparam(631, 8263), 0);
     CC_SETTEXTALIGN(1, 1, 14);
     script152(48758855, int7, int8, 0, 0, callback(script26), 0);
-    IF_SETONCLICK(callback(script9061, 7), comp(744, 71));
+    IF_SETONCLICK(callback(script9061, 7), comp(744, 71));  // loginscreen:oauth2_username_email_btn_click
     return;
 }

@@ -20,13 +20,13 @@ function script13826(int0: number, int1: number, int2: number, int3: number): vo
     var int8 = -1 as obj;
     var int9 = script8403(33882311);
     var int10 = script8404(33882311);
-    var int11 = IF_GETHEIGHT(comp(517, 199));
-    var int12 = IF_GETWIDTH(comp(517, 199));
-    var int13 = IF_GETSCROLLY(comp(517, 199));
+    var int11 = IF_GETHEIGHT(comp(517, 199));  // bank:bank_items_container
+    var int12 = IF_GETWIDTH(comp(517, 199));  // bank:bank_items_container
+    var int13 = IF_GETSCROLLY(comp(517, 199));  // bank:bank_items_container
     var int14 = 1;
     if ((((((varbitplayer_45140 != 0) || (int9 < 0)) || (int9 > int12)) || (int10 < 0)) || (int10 > int11))) {
-        IF_SETHIDE(true, comp(517, 209));
-        IF_SETHIDE(true, comp(517, 207));
+        IF_SETHIDE(true, comp(517, 209));  // bank:ondrag_highlight
+        IF_SETHIDE(true, comp(517, 207));  // bank:ondrag_placeholder_highlight
         varclient_6686 = 0;
         int14 = 0;
     };
@@ -49,21 +49,21 @@ function script13826(int0: number, int1: number, int2: number, int3: number): vo
                 varclient_6708 = 0;
             } else {
                 if ((int14 == 1)) {
-                    if (((IF_GETHIDE(comp(517, 209)) == true) && (IF_GETHIDE(comp(517, 207)) == true))) {
+                    if (((IF_GETHIDE(comp(517, 209) /*bank:ondrag_highlight*/) == true) && (IF_GETHIDE(comp(517, 207) /*bank:ondrag_placeholder_highlight*/) == true))) {
                         int4 = script5798(int7);
                         int5 = script14374(int4);
                         if ((((varbitplayer_45141 != 1) && (varbitplayer_45141 != int4)) && (int7 != -1))) {
                             if ((varbitplayer_45911 == 0)) {
-                                IF_TRIGGEROP(comp(517, 169), int4, 1);
+                                IF_TRIGGEROP(comp(517, 169), int4, 1);  // bank:tabs_click
                             };
                             return;
                         };
-                        if (((int6 != -1) && (CC_FIND[1](comp(517, 201), int6) == 1))) {
+                        if (((int6 != -1) && (CC_FIND[1](comp(517, 201), int6) == 1))) {  // bank:bank_inv
                             varclient_6707 = -1;
                             varclient_6708 = 1;
                             script13827(33882321);
                         };
-                        if (((int7 != -1) && (CC_FIND[1](comp(517, 201), int7) == 1))) {
+                        if (((int7 != -1) && (CC_FIND[1](comp(517, 201), int7) == 1))) {  // bank:bank_inv
                             if ((int6 == -1)) {
                                 varclient_6707 = (1820 + 1);
                                 varclient_6708 = 0;
@@ -75,28 +75,28 @@ function script13826(int0: number, int1: number, int2: number, int3: number): vo
                     };
                 } else {
                     varclient_6708 = 0;
-                    IF_SETHIDE(true, comp(517, 209));
-                    IF_SETHIDE(true, comp(517, 207));
+                    IF_SETHIDE(true, comp(517, 209));  // bank:ondrag_highlight
+                    IF_SETHIDE(true, comp(517, 207));  // bank:ondrag_placeholder_highlight
                 };
                 return;
             };
         } else {
             if ((int14 == 1)) {
-                if (((IF_GETHIDE(comp(517, 209)) == true) && (IF_GETHIDE(comp(517, 207)) == true))) {
+                if (((IF_GETHIDE(comp(517, 209) /*bank:ondrag_highlight*/) == true) && (IF_GETHIDE(comp(517, 207) /*bank:ondrag_placeholder_highlight*/) == true))) {
                     int4 = script5798(int7);
                     int5 = script14374(int4);
                     if ((((varbitplayer_45141 != 1) && (varbitplayer_45141 != int4)) && (int7 != -1))) {
                         if ((varbitplayer_45911 == 0)) {
-                            IF_TRIGGEROP(comp(517, 169), int4, 1);
+                            IF_TRIGGEROP(comp(517, 169), int4, 1);  // bank:tabs_click
                         };
                         return;
                     };
-                    if (((int6 != -1) && (CC_FIND[1](comp(517, 201), int6) == 1))) {
+                    if (((int6 != -1) && (CC_FIND[1](comp(517, 201), int6) == 1))) {  // bank:bank_inv
                         varclient_6707 = -1;
                         varclient_6708 = 1;
                         script13827(33882321);
                     };
-                    if (((int7 != -1) && (CC_FIND[1](comp(517, 201), int7) == 1))) {
+                    if (((int7 != -1) && (CC_FIND[1](comp(517, 201), int7) == 1))) {  // bank:bank_inv
                         if ((int6 == -1)) {
                             varclient_6707 = (1820 + 1);
                             varclient_6708 = 0;
@@ -108,8 +108,8 @@ function script13826(int0: number, int1: number, int2: number, int3: number): vo
                 };
             } else {
                 varclient_6708 = 0;
-                IF_SETHIDE(true, comp(517, 209));
-                IF_SETHIDE(true, comp(517, 207));
+                IF_SETHIDE(true, comp(517, 209));  // bank:ondrag_highlight
+                IF_SETHIDE(true, comp(517, 207));  // bank:ondrag_placeholder_highlight
             };
             return;
         };

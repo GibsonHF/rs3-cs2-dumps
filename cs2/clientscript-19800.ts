@@ -19,6 +19,6 @@ function script19800(): void {
         script12478("No background graphic set when trying to update trh205 background.");
         return;
     };
-    IF_SETGRAPHIC(int0, comp(1253, 5));
+    IF_SETGRAPHIC(int0, comp(1253, 5));  // wheel_of_fortune:background
     return;
 }

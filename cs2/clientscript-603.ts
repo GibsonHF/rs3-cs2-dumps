@@ -1,7 +1,7 @@
 //
 function script603(): void {
     if ((varclient_82 <= 0)) {
-        IF_SETONTIMER(callback(), comp(105, 170));
+        IF_SETONTIMER(callback(), comp(105, 170));  // stockmarket:choosebuy7_button_layer ?
         script621();
     };
     varclient_82 = (varclient_82 - 1);

@@ -8,9 +8,9 @@ function script9803(string0: string): void {
     };
     varclient_1090 = 14;
     varclient_1091 = 14;
-    IF_SETTEXT(varclient_4192, comp(744, 165));
+    IF_SETTEXT(varclient_4192, comp(744, 165));  // loginscreen:auth_cant_log_in
     script15700();
-    IF_SETTEXT(string0, comp(744, 149));
+    IF_SETTEXT(string0, comp(744, 149));  // loginscreen:com_149
     script3239(14, 1);
     script3230();
     return;

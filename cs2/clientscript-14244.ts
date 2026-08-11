@@ -1,7 +1,7 @@
 //
 function script14244(): [number, number, number, number] {
     var int0 = script10074();
-    if ((int0 != comp(1477, 27))) {
+    if ((int0 != comp(1477, 27))) {  // toplevel_v2:viewport
         return [0, 0, IF_GETWIDTH(int0), IF_GETHEIGHT(int0)];
     };
     if (((varbitplayer_38842 == 0) && (varclient_6403 == 0))) {
@@ -11,8 +11,8 @@ function script14244(): [number, number, number, number] {
     var int2 = 0;
     var int3 = 0;
     var int4 = 0;
-    var int5 = IF_GETWIDTH(comp(1477, 26));
-    var int6 = IF_GETHEIGHT(comp(1477, 26));
+    var int5 = IF_GETWIDTH(comp(1477, 26));  // toplevel_v2:background_colour
+    var int6 = IF_GETHEIGHT(comp(1477, 26));  // toplevel_v2:background_colour
     if ((varclient_6403 != 0)) {
         [int1, int2, int3, int4] = VIEWPORT_GETBOUNDS();
         return [int1, int2, (int1 + int3), (int2 + int4)];

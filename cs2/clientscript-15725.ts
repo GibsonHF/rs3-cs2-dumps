@@ -4,7 +4,7 @@ function script15725(): void {
     if ((int0 <= 0)) {
         return;
     };
-    var int1 = comp(828, 3);
+    var int1 = comp(828, 3);  // mobile_shop_hard_currency:build_wrapper
     IF_SETONTIMER(callback(), int1);
     CC_DELETEALL(int1);
     if ((int0 == 2)) {

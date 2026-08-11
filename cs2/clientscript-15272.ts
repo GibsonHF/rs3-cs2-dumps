@@ -1,5 +1,5 @@
 //
 function script15272(): void {
-    IF_SETONTIMER(callback(), comp(744, 190));
+    IF_SETONTIMER(callback(), comp(744, 190));  // loginscreen:loadingbox_border_side
     return;
 }

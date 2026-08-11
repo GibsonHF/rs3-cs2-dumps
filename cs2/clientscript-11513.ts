@@ -1,7 +1,7 @@
 //
 function script11513(): void {
-    var int0 = comp(1627, 21);
-    var int1 = comp(1627, 4);
+    var int0 = comp(1627, 21);  // mtxmgt_colour_overlay:premium_colour_buttons
+    var int1 = comp(1627, 4);  // mtxmgt_colour_overlay:premium_colour_buttons_inactive
     CC_DELETEALL(int0);
     CC_DELETEALL(int1);
     var int2 = 0;

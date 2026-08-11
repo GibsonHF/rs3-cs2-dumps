@@ -5,6 +5,6 @@ function script19495(): void {
     };
     script19512(0);
     script3843();
-    IF_SETONTIMER(callback(), comp(1313, 75));
+    IF_SETONTIMER(callback(), comp(1313, 75));  // group_ironman_storage:clan_inv
     return;
 }

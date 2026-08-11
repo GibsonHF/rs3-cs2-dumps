@@ -7,20 +7,20 @@ function script82(int0: number, int1: number, int2: number, int3: number, int4: 
     if ((STRING_INDEXOF_CHAR(string0, 42, 0) == 0)) {
         string0 = SUBSTRING(string0, 1, STRING_LENGTH(string0));
     };
-    IF_SETTEXT(string0, comp(1490, 21));
+    IF_SETTEXT(string0, comp(1490, 21));  // toplevel_v2_target_info:name
     var int5 = 0;
     if ((int0 > 0)) {
-        IF_SETTEXT(inttostring(int0, 10), comp(1490, 17));
+        IF_SETTEXT(inttostring(int0, 10), comp(1490, 17));  // toplevel_v2_target_info:level
         int5 = (COMLEVEL_ACTIVE() - int0);
     } else {
-        IF_SETTEXT("-", comp(1490, 17));
+        IF_SETTEXT("-", comp(1490, 17));  // toplevel_v2_target_info:level
     };
     if ((int5 >= 0)) {
-        IF_SETCOLOUR(script693((255 - SCALE(int5, COMLEVEL_ACTIVE(), 255)), 255, 0), comp(1490, 17));
+        IF_SETCOLOUR(script693((255 - SCALE(int5, COMLEVEL_ACTIVE(), 255)), 255, 0), comp(1490, 17));  // toplevel_v2_target_info:level
     } else {
-        IF_SETCOLOUR(script693(255, (255 + MAX(SCALE(int5, MAX(int0, 200), 255), -255)), 0), comp(1490, 17));
+        IF_SETCOLOUR(script693(255, (255 + MAX(SCALE(int5, MAX(int0, 200), 255), -255)), 0), comp(1490, 17));  // toplevel_v2_target_info:level
     };
-    IF_SETGRAPHIC(int1, comp(1490, 27));
+    IF_SETGRAPHIC(int1, comp(1490, 27));  // toplevel_v2_target_info:weakness
     var string1 = "Weakness: ";
     switch (int1) {
         case 197: {
@@ -108,12 +108,12 @@ function script82(int0: number, int1: number, int2: number, int3: number, int4: 
             break;
         }
     };
-    IF_SETPARAM_STRING(4277, string1, comp(1490, 15));
-    IF_SETPARAM_INT(7540, 2, comp(1490, 15));
-    IF_SETONMOUSEREPEAT(callback(script8799, string1, -2147483645, -2147483643), comp(1490, 27));
+    IF_SETPARAM_STRING(4277, string1, comp(1490, 15));  // toplevel_v2_target_info:ops
+    IF_SETPARAM_INT(7540, 2, comp(1490, 15));  // toplevel_v2_target_info:ops
+    IF_SETONMOUSEREPEAT(callback(script8799, string1, -2147483645, -2147483643), comp(1490, 27));  // toplevel_v2_target_info:weakness
     varclient_7158 = -1;
-    IF_SETTEXT("-", comp(1490, 75));
-    IF_SETCOLOUR(16777215, comp(1490, 75));
+    IF_SETTEXT("-", comp(1490, 75));  // toplevel_v2_target_info:hitchance_text
+    IF_SETCOLOUR(16777215, comp(1490, 75));  // toplevel_v2_target_info:hitchance_text
     script3536("Last known hit chance", 97648715, -1);
     script91();
     return;

@@ -23,11 +23,11 @@ function script17999(int0: number, int1: number, int2: number, int3: number, int
         };
         if ((script17865(int0) == 1)) {
             string0 = "You've got the Premier Hero Pass, you're able to claim Premier Rewards.";
-            IF_SETHIDE(true, comp(1227, 65));
+            IF_SETHIDE(true, comp(1227, 65));  // bp3_track_tab:claim_all_upgrade_button
         } else {
-            IF_SETHIDE(false, comp(1227, 65));
+            IF_SETHIDE(false, comp(1227, 65));  // bp3_track_tab:claim_all_upgrade_button
         };
-        IF_SETTEXT(string0, comp(1227, 84));
+        IF_SETTEXT(string0, comp(1227, 84));  // bp3_track_tab:claim_premium_upsell
     } else {
         int8 = 65;
         int9 = 65;

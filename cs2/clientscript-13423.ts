@@ -1,6 +1,6 @@
 //
 function script13423(): void {
-    var int0 = comp(1873, 1);
+    var int0 = comp(1873, 1);  // menaphos_cutscene_overlay:logo
     var int1 = IF_GETTRANS(int0);
     if ((int1 == 0)) {
         IF_SETONTIMER(callback(), int0);

@@ -28,14 +28,14 @@ function script19670(int0: number, int1: number, int2: number): void {
     if ((int13 != -1 as struct)) {
         if ((int14 != -1 as struct)) {
             script17958(int14, struct_getparam(int14, 8691), struct_getparam(int14, 8692), int11, int7, int12, int8, int9, 50, -1);
-            IF_SETMODELANGLE(0, 40, 0, 0, 0, 1400, comp(935, 84));
+            IF_SETMODELANGLE(0, 40, 0, 0, 0, 1400, comp(935, 84));  // trh176_overlay:bonus_droptable_reward_pet_layer
             script17956(int13, int11, int7, int4, int8, int9, 50, 14661);
         } else {
             script17956(int13, int11, int7, int4, int8, int9, 50, -1);
         };
     } else if ((int14 != -1 as struct)) {
         script17958(int14, struct_getparam(int14, 8691), struct_getparam(int14, 8692), int11, int7, int12, int8, int9, 50, -1);
-        IF_SETMODELANGLE(0, 40, 0, 0, 0, 1400, comp(935, 84));
+        IF_SETMODELANGLE(0, 40, 0, 0, 0, 1400, comp(935, 84));  // trh176_overlay:bonus_droptable_reward_pet_layer
     } else {
         IF_SETHIDE(true, int7);
         IF_SETHIDE(true, int9);

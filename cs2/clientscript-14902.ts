@@ -22,32 +22,32 @@ function script14902(): void {
         switch (int5) {
             case 14496: {
                 int1 = 45416576;
-                int2 = comp(693, 134);
-                int3 = comp(693, 168);
+                int2 = comp(693, 134);  // arch_research_management:accordion_intern_build_layer
+                int3 = comp(693, 168);  // arch_research_management:accordion_intern_control_layer
                 break;
             }
             case 14497: {
                 int1 = 45416587;
-                int2 = comp(693, 145);
-                int3 = comp(693, 169);
+                int2 = comp(693, 145);  // arch_research_management:accordion_assistant_build_layer
+                int3 = comp(693, 169);  // arch_research_management:accordion_assistant_control_layer
                 break;
             }
             case 14498: {
                 int1 = 45416598;
-                int2 = comp(693, 156);
-                int3 = comp(693, 170);
+                int2 = comp(693, 156);  // arch_research_management:accordion_associate_build_layer
+                int3 = comp(693, 170);  // arch_research_management:accordion_associate_control_layer
                 break;
             }
             case 14499: {
                 int1 = 45416609;
-                int2 = comp(693, 167);
-                int3 = comp(693, 171);
+                int2 = comp(693, 167);  // arch_research_management:accordion_professor_build_layer
+                int3 = comp(693, 171);  // arch_research_management:accordion_professor_control_layer
                 break;
             }
             case 14500: {
                 int1 = 45416624;
-                int2 = comp(693, 182);
-                int3 = comp(693, 183);
+                int2 = comp(693, 182);  // arch_research_management:accordion_consultant_build_layer
+                int3 = comp(693, 183);  // arch_research_management:accordion_consultant_control_layer
                 break;
             }
         };

@@ -1,10 +1,10 @@
 //
 function script13765(int0: number, int1: number): void {
     if ((varbitplayer_21682 == 0)) {
-        IF_SETHIDE(true, comp(1430, 246));
+        IF_SETHIDE(true, comp(1430, 246));  // toplevel_v2_combat_bar:revolutions_highlight
         return;
     };
-    IF_SETHIDE(false, comp(1430, 246));
+    IF_SETHIDE(false, comp(1430, 246));  // toplevel_v2_combat_bar:revolutions_highlight
     if ((int0 == 0)) {
         script13766(int0, int1);
     } else if ((int0 == 1)) {

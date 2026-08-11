@@ -8,7 +8,7 @@ function script3413(): void {
         script8899(enum_getvalue(0, 26, 3077 as cs2enum, int0));
         script13064(enum_getvalue(0, 26, 3077 as cs2enum, int0));
     };
-    IF_SETTEXT(TOSTRING_LOCALISED(varbitplayer_35835, 1), comp(1865, 15));
+    IF_SETTEXT(TOSTRING_LOCALISED(varbitplayer_35835, 1), comp(1865, 15));  // sworld_end:anima_value_label
     script13632();
     return;
 }

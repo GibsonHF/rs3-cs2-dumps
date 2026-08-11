@@ -11,10 +11,10 @@ function script8131(int0: number): void {
         int3 = 20254;
     };
     IF_SETGRAPHIC(int1, int0);
-    IF_SETGRAPHIC(int2, comp(1430, 59));
-    IF_SETONMOUSEOVER(callback(script44, -2147483645, int3), comp(1430, 59));
-    IF_SETONMOUSELEAVE(callback(script44, -2147483645, int2), comp(1430, 59));
-    IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643), comp(1430, 58));
+    IF_SETGRAPHIC(int2, comp(1430, 59));  // toplevel_v2_combat_bar:auto_retaliate_button
+    IF_SETONMOUSEOVER(callback(script44, -2147483645, int3), comp(1430, 59));  // toplevel_v2_combat_bar:auto_retaliate_button
+    IF_SETONMOUSELEAVE(callback(script44, -2147483645, int2), comp(1430, 59));  // toplevel_v2_combat_bar:auto_retaliate_button
+    IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643), comp(1430, 58));  // toplevel_v2_combat_bar:auto_retaliate_button_layer
     script8808();
     return;
 }

@@ -27,6 +27,6 @@ function script3701(): void {
     };
     var string2 = strconcat(string0, " ");
     string2 = strconcat(string2, string1);
-    IF_SETTEXT(string2, comp(570, 99));
+    IF_SETTEXT(string2, comp(570, 99));  // crcs_info_overlay:audience_request
     return;
 }

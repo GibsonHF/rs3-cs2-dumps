@@ -1,29 +1,29 @@
 //
 function script11443(): void {
-    var int0 = comp(779, 42);
-    var int1 = comp(779, 0);
-    var int2 = comp(779, 1);
+    var int0 = comp(779, 42);  // rcguild_rewards:content_layer
+    var int1 = comp(779, 0);  // rcguild_rewards:content_build_layer
+    var int2 = comp(779, 1);  // rcguild_rewards:content_click_layer
     CC_DELETEALL(int1);
     script11440();
-    IF_SETHIDE(true, comp(779, 44));
-    IF_SETTEXT("", comp(779, 47));
-    IF_SETSCROLLSIZE(0, 0, comp(779, 43));
-    IF_SETSCROLLPOS(0, 0, comp(779, 43));
+    IF_SETHIDE(true, comp(779, 44));  // rcguild_rewards:scroll_bar_layer
+    IF_SETTEXT("", comp(779, 47));  // rcguild_rewards:rc_guild_confirm
+    IF_SETSCROLLSIZE(0, 0, comp(779, 43));  // rcguild_rewards:content_builder_wrapper
+    IF_SETSCROLLPOS(0, 0, comp(779, 43));  // rcguild_rewards:content_builder_wrapper
     switch (varplayer_5428) {
         case 379: {
-            IF_SETHIDE(false, comp(779, 10));
+            IF_SETHIDE(false, comp(779, 10));  // rcguild_rewards:rcguild_rewards_talismans_selected_layer
             break;
         }
         case 380: {
-            IF_SETHIDE(false, comp(779, 19));
+            IF_SETHIDE(false, comp(779, 19));  // rcguild_rewards:rcguild_rewards_outfits_selected_layer
             break;
         }
         case 10014: {
-            IF_SETHIDE(false, comp(779, 28));
+            IF_SETHIDE(false, comp(779, 28));  // rcguild_rewards:rcguild_rewards_teles_selected_layer
             break;
         }
         case 10015: {
-            IF_SETHIDE(false, comp(779, 37));
+            IF_SETHIDE(false, comp(779, 37));  // rcguild_rewards:rcguild_rewards_misc_selected_layer
             break;
         }
     };
@@ -36,9 +36,9 @@ function script11443(): void {
     var int6 = IF_GETWIDTH(int0);
     if ((int5 >= IF_GETHEIGHT(int0))) {
         int6 = (int6 - 16);
-        IF_SETSCROLLSIZE(0, int5, comp(779, 43));
+        IF_SETSCROLLSIZE(0, int5, comp(779, 43));  // rcguild_rewards:content_builder_wrapper
         script7791(51052588, 51052587);
-        IF_SETHIDE(false, comp(779, 44));
+        IF_SETHIDE(false, comp(779, 44));  // rcguild_rewards:scroll_bar_layer
     };
     var int7 = (int6 / 2);
     var int8 = 5;

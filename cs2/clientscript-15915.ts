@@ -1,6 +1,6 @@
 //
 function script15915(): void {
-    IF_SETOPCURSOR(1, 46, comp(861, 6));
+    IF_SETOPCURSOR(1, 46, comp(861, 6));  // instance_timer:collection_log_button_layer
     varclient_6930 = MODULO(varclient_6930, 3000);
     var int0 = ((varplayer_9925 - DATE_MINUTES()) - 1);
     var int1 = 0;
@@ -39,7 +39,7 @@ function script15915(): void {
     } else {
         string0 = `${string2}:${string1}`;
     };
-    IF_SETTEXT(string0, comp(861, 8));
+    IF_SETTEXT(string0, comp(861, 8));  // instance_timer:time_text
     varclient_6930 = (varclient_6930 + 1);
     return;
 }

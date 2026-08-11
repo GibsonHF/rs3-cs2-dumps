@@ -20,6 +20,6 @@ function script20760(int0: number): void {
     if ((script7108(int2) <= 0)) {
         return;
     };
-    IF_TRIGGEROP(comp(1516, 23), -1, 1);
+    IF_TRIGGEROP(comp(1516, 23), -1, 1);  // house_furniture_makex:make_button
     return;
 }

@@ -72,33 +72,33 @@ function script4632(int0: number): void {
         };
         string4 = `${string3} victims in succession have rendered their souls to ${varclient_2362}.`;
     };
-    IF_SETTEXT(string5, comp(21, 0));
-    IF_SETTEXT(string4, comp(21, 2));
-    IF_SETTEXT(string2, comp(21, 1));
-    IF_SETTEXT(`Highest value Wilderness kill:<br>${TOSTRING_LOCALISED_LONG(varclient_1523, 1)} coins.`, comp(21, 3));
-    IF_SETHIDE(false, comp(21, 17));
-    IF_SETHIDE(false, comp(21, 26));
-    IF_SETHIDE(true, comp(21, 1));
-    IF_SETHIDE(true, comp(21, 2));
+    IF_SETTEXT(string5, comp(21, 0));  // dhat_statue:brag_text
+    IF_SETTEXT(string4, comp(21, 2));  // dhat_statue:streak_text
+    IF_SETTEXT(string2, comp(21, 1));  // dhat_statue:kdr_text
+    IF_SETTEXT(`Highest value Wilderness kill:<br>${TOSTRING_LOCALISED_LONG(varclient_1523, 1)} coins.`, comp(21, 3));  // dhat_statue:value_text
+    IF_SETHIDE(false, comp(21, 17));  // dhat_statue:divider_1
+    IF_SETHIDE(false, comp(21, 26));  // dhat_statue:divider_2
+    IF_SETHIDE(true, comp(21, 1));  // dhat_statue:kdr_text
+    IF_SETHIDE(true, comp(21, 2));  // dhat_statue:streak_text
     if ((varclient_1524 == 1)) {
-        IF_SETHIDE(false, comp(21, 1));
+        IF_SETHIDE(false, comp(21, 1));  // dhat_statue:kdr_text
         if ((varclient_1522 > 1)) {
-            IF_SETHIDE(false, comp(21, 2));
+            IF_SETHIDE(false, comp(21, 2));  // dhat_statue:streak_text
         };
     };
-    IF_SETHIDE(true, comp(21, 3));
+    IF_SETHIDE(true, comp(21, 3));  // dhat_statue:value_text
     if (((int0 == 1) && LONG_BRANCH_GREATER_THAN(varclient_1523, 0n))) {
-        IF_SETHIDE(false, comp(21, 3));
+        IF_SETHIDE(false, comp(21, 3));  // dhat_statue:value_text
     };
-    IF_SETPOSITION(IF_GETX(comp(21, 17)), IF_GETY(comp(21, 3)), 0, 0, comp(21, 17));
-    if ((IF_GETHIDE(comp(21, 3)) == 1)) {
-        IF_SETHIDE(true, comp(21, 17));
-        IF_SETPOSITION(IF_GETX(comp(21, 2)), 0, 0, 2, comp(21, 2));
-        IF_SETPOSITION(IF_GETX(comp(21, 1)), IF_GETHEIGHT(comp(21, 2)), 0, 2, comp(21, 1));
+    IF_SETPOSITION(IF_GETX(comp(21, 17) /*dhat_statue:divider_1*/), IF_GETY(comp(21, 3) /*dhat_statue:value_text*/), 0, 0, comp(21, 17) /*dhat_statue:divider_1*/);
+    if ((IF_GETHIDE(comp(21, 3)) == 1)) {  // dhat_statue:value_text
+        IF_SETHIDE(true, comp(21, 17));  // dhat_statue:divider_1
+        IF_SETPOSITION(IF_GETX(comp(21, 2)), 0, 0, 2, comp(21, 2));  // dhat_statue:streak_text
+        IF_SETPOSITION(IF_GETX(comp(21, 1) /*dhat_statue:kdr_text*/), IF_GETHEIGHT(comp(21, 2) /*dhat_statue:streak_text*/), 0, 2, comp(21, 1) /*dhat_statue:kdr_text*/);
     };
-    IF_SETPOSITION(IF_GETX(comp(21, 17)), IF_GETY(comp(21, 1)), 0, 0, comp(21, 26));
-    if ((IF_GETHIDE(comp(21, 2)) == 1)) {
-        IF_SETHIDE(true, comp(21, 26));
+    IF_SETPOSITION(IF_GETX(comp(21, 17) /*dhat_statue:divider_1*/), IF_GETY(comp(21, 1) /*dhat_statue:kdr_text*/), 0, 0, comp(21, 26) /*dhat_statue:divider_2*/);
+    if ((IF_GETHIDE(comp(21, 2)) == 1)) {  // dhat_statue:streak_text
+        IF_SETHIDE(true, comp(21, 26));  // dhat_statue:divider_2
     };
     return;
 }

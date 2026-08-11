@@ -18,15 +18,15 @@ function script9611(): void {
             string1 = "";
         };
         script13998(30081024, 30081027, 28556, 5, int1, 145, 24, int0, 0, string0, script9670(int0, varbitplayer_16083));
-        if ((CC_FIND(comp(459, 3), int0) == 1)) {
+        if ((CC_FIND(comp(459, 3), int0) == 1)) {  // ecosystem_environmental_feature:click
             CC_SETOP(1, "Select");
             CC_SETONOP(callback(script9612, -2147483643));
         };
         if ((int0 == varbitplayer_16083)) {
-            IF_SETTEXT(string0, comp(459, 7));
-            IF_SETTEXT(string1, comp(459, 8));
-            IF_SETTEXT(string2, comp(459, 9));
-            IF_SETMODEL(int3, comp(459, 6));
+            IF_SETTEXT(string0, comp(459, 7));  // ecosystem_environmental_feature:feature_name
+            IF_SETTEXT(string1, comp(459, 8));  // ecosystem_environmental_feature:build_requirements
+            IF_SETTEXT(string2, comp(459, 9));  // ecosystem_environmental_feature:description_text
+            IF_SETMODEL(int3, comp(459, 6));  // ecosystem_environmental_feature:feature_model
         };
         int0 = (int0 + 1);
         int1 = (int1 + 28);

@@ -37,7 +37,7 @@ function script18480(): void {
             break;
         }
         default: {
-            IF_SETHIDE(false, comp(1253, 447));
+            IF_SETHIDE(false, comp(1253, 447));  // wheel_of_fortune:trh_promo_info
             break;
         }
     };

@@ -42,6 +42,6 @@ function script1488(int0: number, int1: number, int2: number, int3: number): voi
         CC_SETPOSITION(0, 0, 1, 1);
         CC_SETGRAPHIC(script1489(MODULO(int6, 10)));
     };
-    IF_SETONTIMER(callback(script1488, int0, int1, int6, int3), comp(723, 11));
+    IF_SETONTIMER(callback(script1488, int0, int1, int6, int3), comp(723, 11));  // 6awe3_game_hud:countdown_layer
     return;
 }

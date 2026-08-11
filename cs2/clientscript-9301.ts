@@ -1,7 +1,7 @@
 //
 function script9301(int0: number, int1: number): void {
     var int2 = -1 as obj;
-    if ((CC_FIND(comp(517, 201), int1) == 1)) {
+    if ((CC_FIND(comp(517, 201), int1) == 1)) {  // bank:bank_inv
         int2 = CC_GETINVOBJECT();
     } else {
         int2 = INV_GETOBJ(95 as inv, int1);

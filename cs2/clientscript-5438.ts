@@ -16,7 +16,7 @@ function script5438(): void {
         };
         int1 = (int1 + 1);
     };
-    IF_SETTEXT(string0, comp(1166, 1));
-    IF_SETTEXT(`Quests completed: ${inttostring(int0, 10)}. You need at least: ${inttostring(20, 10)}`, comp(1166, 2));
+    IF_SETTEXT(string0, comp(1166, 1));  // dom_quest_list:quest_list_text
+    IF_SETTEXT(`Quests completed: ${inttostring(int0, 10)}. You need at least: ${inttostring(20, 10)}`, comp(1166, 2));  // dom_quest_list:tally
     return;
 }

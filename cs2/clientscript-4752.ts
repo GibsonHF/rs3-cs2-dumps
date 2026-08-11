@@ -21,7 +21,7 @@ function script4752(): void {
     script7852(0, int3, 0, 0, 0, 36, 1, 0, 17062, "Download Launcher");
     CC_SETONBUTTONCLICK(callback(script15228, 31));
     int3 = (int3 + 36);
-    IF_SETTEXT("Login", comp(744, 92));
-    IF_SETSIZE(300, int3, 0, 0, comp(744, 91));
+    IF_SETTEXT("Login", comp(744, 92));  // loginscreen:username_input_group
+    IF_SETSIZE(300, int3, 0, 0, comp(744, 91));  // loginscreen:username_title
     return;
 }

@@ -6,12 +6,12 @@ function script801(): void {
         case 1000:
         case 1001: {
             script12252(varclient_5130, varclient_5130);
-            IF_SETONTIMER(callback(script12251, CLIENTCLOCK(), varclient_5130), comp(1508, 2));
+            IF_SETONTIMER(callback(script12251, CLIENTCLOCK(), varclient_5130), comp(1508, 2));  // timed_kill:time_text
             break;
         }
         default: {
             script4172(varclient_4258);
-            IF_SETONTIMER(callback(script2959, CLIENTCLOCK()), comp(1508, 2));
+            IF_SETONTIMER(callback(script2959, CLIENTCLOCK()), comp(1508, 2));  // timed_kill:time_text
             break;
         }
     };

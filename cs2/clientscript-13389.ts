@@ -33,27 +33,27 @@ function script13389(int0: number, int1: number, int2: number): void {
         if ((int6 != -1 as cs2enum)) {
             int7 = enum_getvalue(0, 73, int6, 2147483647);
         };
-        if (((int7 != -1 as struct) && (int1 == comp(744, 14)))) {
-            IF_SETHIDE(false, comp(744, 15));
-            IF_SETHIDE(false, comp(744, 16));
-            IF_SETGRAPHIC(struct_getparam(int7, 6533), comp(744, 17));
-            IF_SETGRAPHIC(struct_getparam(int7, 6534), comp(744, 18));
-            IF_SETGRAPHIC(struct_getparam(int7, 6535), comp(744, 19));
-            IF_SETGRAPHIC(struct_getparam(int7, 6536), comp(744, 20));
-            IF_SETGRAPHIC(struct_getparam(int7, 6537), comp(744, 21));
-            IF_SETGRAPHIC(struct_getparam(int7, 6538), comp(744, 22));
-            IF_SETGRAPHIC(struct_getparam(int7, 6539), comp(744, 23));
-            IF_SETGRAPHIC(struct_getparam(int7, 6540), comp(744, 24));
-            IF_SETGRAPHIC(struct_getparam(int7, 6541), comp(744, 25));
-            IF_SETTRANS(255, comp(744, 17));
-            IF_SETTRANS(255, comp(744, 18));
-            IF_SETTRANS(255, comp(744, 19));
-            IF_SETTRANS(255, comp(744, 20));
-            IF_SETTRANS(255, comp(744, 21));
-            IF_SETTRANS(255, comp(744, 22));
-            IF_SETTRANS(255, comp(744, 23));
-            IF_SETTRANS(255, comp(744, 24));
-            IF_SETTRANS(255, comp(744, 25));
+        if (((int7 != -1 as struct) && (int1 == comp(744, 14)))) {  // loginscreen:background_fader
+            IF_SETHIDE(false, comp(744, 15));  // loginscreen:background_fader_image
+            IF_SETHIDE(false, comp(744, 16));  // loginscreen:nxt_background_fade_layer
+            IF_SETGRAPHIC(struct_getparam(int7, 6533), comp(744, 17));  // loginscreen:nxt_background_graphic_fade_0
+            IF_SETGRAPHIC(struct_getparam(int7, 6534), comp(744, 18));  // loginscreen:nxt_background_graphic_fade_1
+            IF_SETGRAPHIC(struct_getparam(int7, 6535), comp(744, 19));  // loginscreen:nxt_background_graphic_fade_2
+            IF_SETGRAPHIC(struct_getparam(int7, 6536), comp(744, 20));  // loginscreen:nxt_background_graphic_fade_3
+            IF_SETGRAPHIC(struct_getparam(int7, 6537), comp(744, 21));  // loginscreen:nxt_background_graphic_fade_4
+            IF_SETGRAPHIC(struct_getparam(int7, 6538), comp(744, 22));  // loginscreen:nxt_background_graphic_fade_5
+            IF_SETGRAPHIC(struct_getparam(int7, 6539), comp(744, 23));  // loginscreen:nxt_background_graphic_fade_6
+            IF_SETGRAPHIC(struct_getparam(int7, 6540), comp(744, 24));  // loginscreen:nxt_background_graphic_fade_7
+            IF_SETGRAPHIC(struct_getparam(int7, 6541), comp(744, 25));  // loginscreen:nxt_background_graphic_fade_8
+            IF_SETTRANS(255, comp(744, 17));  // loginscreen:nxt_background_graphic_fade_0
+            IF_SETTRANS(255, comp(744, 18));  // loginscreen:nxt_background_graphic_fade_1
+            IF_SETTRANS(255, comp(744, 19));  // loginscreen:nxt_background_graphic_fade_2
+            IF_SETTRANS(255, comp(744, 20));  // loginscreen:nxt_background_graphic_fade_3
+            IF_SETTRANS(255, comp(744, 21));  // loginscreen:nxt_background_graphic_fade_4
+            IF_SETTRANS(255, comp(744, 22));  // loginscreen:nxt_background_graphic_fade_5
+            IF_SETTRANS(255, comp(744, 23));  // loginscreen:nxt_background_graphic_fade_6
+            IF_SETTRANS(255, comp(744, 24));  // loginscreen:nxt_background_graphic_fade_7
+            IF_SETTRANS(255, comp(744, 25));  // loginscreen:nxt_background_graphic_fade_8
         };
     };
     if ((((int2 == varclient_6040) && (varclient_6042 == 0)) && (int6 == -1 as cs2enum))) {

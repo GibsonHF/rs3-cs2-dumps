@@ -9,7 +9,7 @@ function script2458(): void {
     if ((int2 == -1)) {
         return;
     };
-    var int3 = comp(1477, 294);
+    var int3 = comp(1477, 294);  // toplevel_v2:minigame_window_close_button
     var string0 = "Close";
     if ((CC_FIND(int3, 1) == 1)) {
         CC_SETGRAPHIC(struct_getparam(int2, 3602));

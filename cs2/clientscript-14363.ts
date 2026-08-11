@@ -32,7 +32,7 @@ function script14363(int0: number, int1: number, int2: number, int3: number, int
             int4 = 0;
         };
     };
-    if ((CC_FIND(comp(517, 201), int5) == 1)) {
+    if ((CC_FIND(comp(517, 201), int5) == 1)) {  // bank:bank_inv
         script13796(int3, (CC_GETINVCOUNT() + int7));
     };
     return;

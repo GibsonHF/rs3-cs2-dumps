@@ -1,7 +1,7 @@
 //
 function script19465(): void {
-    var int0 = (IF_GETWIDTH(comp(1302, 51)) - 10);
-    CC_DELETEALL(comp(1302, 51));
+    var int0 = (IF_GETWIDTH(comp(1302, 51)) - 10);  // group_ironman_parent:rules_scrolling_right
+    CC_DELETEALL(comp(1302, 51));  // group_ironman_parent:rules_scrolling_right
     var int1 = 0;
     var int2 = ENUM_GETOUTPUTCOUNT(5975 as cs2enum);
     var int3 = 0;

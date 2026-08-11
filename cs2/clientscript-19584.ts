@@ -2,7 +2,7 @@
 function script19584(int0: number, int1: number, int2: number): number {
     var int3 = script19579();
     while ((int1 < int3)) {
-        if (((CC_FIND(comp(1313, 75), int1) == 1) && (CC_GETINVOBJECT() == int0))) {
+        if (((CC_FIND(comp(1313, 75), int1) == 1) && (CC_GETINVOBJECT() == int0))) {  // group_ironman_storage:clan_inv
             if (((CC_GETINVCOUNT() > 0) || (int2 == 1))) {
                 return int1;
             };

@@ -20,10 +20,10 @@ function script10815(int0: number): void {
             return;
         }
     };
-    if ((IF_GETHIDE(comp(475, 8)) == true)) {
-        IF_SETHIDE(false, comp(475, 8));
+    if ((IF_GETHIDE(comp(475, 8)) == true)) {  // machinima_livecamera:ui
+        IF_SETHIDE(false, comp(475, 8));  // machinima_livecamera:ui
     } else {
-        IF_SETHIDE(true, comp(475, 8));
+        IF_SETHIDE(true, comp(475, 8));  // machinima_livecamera:ui
     };
     return;
 }

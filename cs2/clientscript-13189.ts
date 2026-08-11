@@ -14,14 +14,14 @@ function script13189(int0: number, int1: number, int2: number, int3: number, int
             if ((int8 < INV_SIZE(675 as inv))) {
                 if ((INV_GETOBJ(675 as inv, int8) == -1 as obj)) {
                     if (((int8 == 0) || (INV_GETOBJ(675 as inv, (int8 - 1)) != -1 as obj))) {
-                        CC_DELETEALL(comp(1843, 185));
+                        CC_DELETEALL(comp(1843, 185));  // mtxmgt_store:keepsake_layer
                         int7 = (int7 + 1);
                         while ((int7 < int2)) {
-                            CC_CREATE(comp(1843, 185), 5, int7);
+                            CC_CREATE(comp(1843, 185), 5, int7);  // mtxmgt_store:keepsake_layer
                         };
-                        CC_CREATE(comp(1843, 185), 5, int7);
+                        CC_CREATE(comp(1843, 185), 5, int7);  // mtxmgt_store:keepsake_layer
                         CC_SETOBJECT(int3, int4);
-                        IF_TRIGGEROP(comp(1843, 185), int7, 1);
+                        IF_TRIGGEROP(comp(1843, 185), int7, 1);  // mtxmgt_store:keepsake_layer
                         return;
                     };
                     return;

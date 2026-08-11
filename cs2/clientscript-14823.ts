@@ -1,6 +1,6 @@
 //
 function script14823(): void {
-    var int0 = comp(685, 59);
+    var int0 = comp(685, 59);  // arch_journal:contract_research_build_layer
     CC_DELETEALL(int0);
     var string0 = "";
     if ((varbitplayer_46466 == 0)) {
@@ -33,8 +33,8 @@ function script14823(): void {
         };
         script10629(int0, IF_GETNEXTSUBID(int0), IF_GETWIDTH(int0), (IF_GETHEIGHT(int0) / 2), 0, 0, string0, 0, 26, 1, 1, 0, 0);
         script14874(int0, 0, (IF_GETHEIGHT(int0) / 2), IF_GETWIDTH(int0), (IF_GETHEIGHT(int0) / 2), string1, "", 0);
-        CC_DELETEALL(comp(685, 61));
-        script14875(44892221, -1, 1, 0, 0, IF_GETWIDTH(comp(685, 61)), IF_GETHEIGHT(comp(685, 61)), 0);
+        CC_DELETEALL(comp(685, 61));  // arch_journal:contract_research_team_build_layer
+        script14875(44892221, -1, 1, 0, 0, IF_GETWIDTH(comp(685, 61)), IF_GETHEIGHT(comp(685, 61)), 0);  // arch_journal:contract_research_team_build_layer
     };
     return;
 }

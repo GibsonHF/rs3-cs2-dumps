@@ -14,7 +14,7 @@ function script21050(): void {
             string0 = "You must be a member to access this region.";
         };
         if ((int0 == 0)) {
-            IF_SETHIDE(false, comp(1409, 5));
+            IF_SETHIDE(false, comp(1409, 5));  // league_parent_areas:area_list
             IF_SETTEXT(`${string0}<br>To continue your Leagues journey, please subscribe to RuneScape.`, comp(1409, 133));
             if ((script6431() == 0)) {
                 IF_SETTEXT("Subscribe", comp(1409, 134));

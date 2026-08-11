@@ -12,7 +12,7 @@ function script16111(): void {
     if ((strcmp(string0, "") == 0)) {
         return;
     };
-    if ((CC_FIND(comp(662, 48), 0) == 1)) {
+    if ((CC_FIND(comp(662, 48), 0) == 1)) {  // lore_stats_side:info_popup_text
         CC_SETTEXT(string0);
     };
     script13785();

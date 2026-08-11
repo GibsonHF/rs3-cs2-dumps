@@ -90,31 +90,31 @@ function script7705(): void {
         }
     };
     if ((script7719(varbitplayer_22401) > 0)) {
-        IF_SETHIDE(false, comp(1047, 14));
-        IF_SETHIDE(true, comp(1047, 15));
+        IF_SETHIDE(false, comp(1047, 14));  // mm_tasklist:task_complete_layer
+        IF_SETHIDE(true, comp(1047, 15));  // mm_tasklist:task_buttons
     } else if ((varbitplayer_22401 == 0)) {
-        IF_SETHIDE(true, comp(1047, 14));
-        IF_SETHIDE(true, comp(1047, 15));
+        IF_SETHIDE(true, comp(1047, 14));  // mm_tasklist:task_complete_layer
+        IF_SETHIDE(true, comp(1047, 15));  // mm_tasklist:task_buttons
     } else {
-        IF_SETHIDE(true, comp(1047, 14));
-        IF_SETHIDE(false, comp(1047, 15));
+        IF_SETHIDE(true, comp(1047, 14));  // mm_tasklist:task_complete_layer
+        IF_SETHIDE(false, comp(1047, 15));  // mm_tasklist:task_buttons
         if ((varbitplayer_22387 > 0)) {
             if ((varbitplayer_22387 == varbitplayer_22401)) {
-                IF_SETHIDE(true, comp(1047, 70));
+                IF_SETHIDE(true, comp(1047, 70));  // mm_tasklist:set_active_task
                 string0 = strconcat(string0, "<br><col=00C800>This is your active task.");
             } else {
-                IF_SETHIDE(false, comp(1047, 70));
+                IF_SETHIDE(false, comp(1047, 70));  // mm_tasklist:set_active_task
             };
         };
         if ((varbitplayer_22388 > 0)) {
             if ((varbitplayer_22388 == varbitplayer_22401)) {
-                IF_SETHIDE(true, comp(1047, 69));
+                IF_SETHIDE(true, comp(1047, 69));  // mm_tasklist:jmod_support
                 string0 = strconcat(string0, "<br><col=00C800>A JMod can help with this task.");
             } else {
-                IF_SETHIDE(false, comp(1047, 69));
+                IF_SETHIDE(false, comp(1047, 69));  // mm_tasklist:jmod_support
             };
         };
     };
-    IF_SETTEXT(string0, comp(1047, 13));
+    IF_SETTEXT(string0, comp(1047, 13));  // mm_tasklist:right_panel_text
     return;
 }

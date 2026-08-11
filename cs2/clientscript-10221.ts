@@ -5,14 +5,14 @@ function script10221(int0: number, int1: number): void {
             printmessage("You have logged in to Twitch!");
             varbitclient_23064 = 1;
             script9528(15204422, 100);
-            IF_SETHIDE(true, comp(232, 72));
-            IF_SETHIDE(true, comp(232, 73));
-            IF_SETHIDE(true, comp(232, 69));
-            IF_SETHIDE(true, comp(232, 64));
-            IF_SETHIDE(false, comp(232, 66));
-            IF_SETONTIMER(callback(script10142, CLIENTCLOCK()), comp(232, 66));
-            IF_SETHIDE(true, comp(232, 38));
-            IF_SETHIDE(false, comp(232, 37));
+            IF_SETHIDE(true, comp(232, 72));  // toplevel_v2_parent_suboverlay_twitch:twitch_login
+            IF_SETHIDE(true, comp(232, 73));  // toplevel_v2_parent_suboverlay_twitch:twitch_setup
+            IF_SETHIDE(true, comp(232, 69));  // toplevel_v2_parent_suboverlay_twitch:logging_in
+            IF_SETHIDE(true, comp(232, 64));  // toplevel_v2_parent_suboverlay_twitch:api_check
+            IF_SETHIDE(false, comp(232, 66));  // toplevel_v2_parent_suboverlay_twitch:autosetup
+            IF_SETONTIMER(callback(script10142, CLIENTCLOCK()), comp(232, 66));  // toplevel_v2_parent_suboverlay_twitch:autosetup
+            IF_SETHIDE(true, comp(232, 38));  // toplevel_v2_parent_suboverlay_twitch:logout_btn_disable
+            IF_SETHIDE(false, comp(232, 37));  // toplevel_v2_parent_suboverlay_twitch:logout_btn
             script7698();
         } else if ((int0 == 2)) {
             if ((int1 == 0)) {
@@ -26,7 +26,7 @@ function script10221(int0: number, int1: number): void {
                     varclient_4288 = 0;
                     varbitclient_23064 = 0;
                     varbitclient_23079 = 0;
-                    IF_SETTEXT("", comp(232, 93));
+                    IF_SETTEXT("", comp(232, 93));  // toplevel_v2_parent_suboverlay_twitch:login_password
                     printmessage("Your Twitch username or Password is incorrect.");
                 };
                 script10118();
@@ -49,7 +49,7 @@ function script10221(int0: number, int1: number): void {
                 varclient_4288 = 0;
                 varbitclient_23064 = 0;
                 varbitclient_23079 = 0;
-                IF_SETTEXT("", comp(232, 93));
+                IF_SETTEXT("", comp(232, 93));  // toplevel_v2_parent_suboverlay_twitch:login_password
                 printmessage("Your Twitch username or Password is incorrect.");
             };
             script10118();
@@ -78,7 +78,7 @@ function script10221(int0: number, int1: number): void {
                 varclient_4288 = 0;
                 varbitclient_23064 = 0;
                 varbitclient_23079 = 0;
-                IF_SETTEXT("", comp(232, 93));
+                IF_SETTEXT("", comp(232, 93));  // toplevel_v2_parent_suboverlay_twitch:login_password
                 printmessage("Your Twitch username or Password is incorrect.");
             };
             script10118();
@@ -101,7 +101,7 @@ function script10221(int0: number, int1: number): void {
             varclient_4288 = 0;
             varbitclient_23064 = 0;
             varbitclient_23079 = 0;
-            IF_SETTEXT("", comp(232, 93));
+            IF_SETTEXT("", comp(232, 93));  // toplevel_v2_parent_suboverlay_twitch:login_password
             printmessage("Your Twitch username or Password is incorrect.");
         };
         script10118();

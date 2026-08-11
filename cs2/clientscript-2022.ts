@@ -29,18 +29,18 @@ function script2022(): void {
     if ((varplayer_3413 > 0)) {
         string5 = inttostring(varplayer_3413, 10);
     };
-    IF_SETTEXT(string0, comp(950, 118));
-    IF_SETTEXT(string1, comp(950, 130));
-    IF_SETTEXT(string2, comp(950, 132));
-    IF_SETTEXT(string3, comp(950, 144));
-    IF_SETTEXT(string4, comp(950, 146));
-    IF_SETTEXT(string5, comp(950, 158));
+    IF_SETTEXT(string0, comp(950, 118));  // pop_voyage_list:graft_ship
+    IF_SETTEXT(string1, comp(950, 130));  // pop_voyage_list:graft_voyage
+    IF_SETTEXT(string2, comp(950, 132));  // pop_voyage_list:combat_ship
+    IF_SETTEXT(string3, comp(950, 144));  // pop_voyage_list:combat_voyage
+    IF_SETTEXT(string4, comp(950, 146));  // pop_voyage_list:seafaring_ship
+    IF_SETTEXT(string5, comp(950, 158));  // pop_voyage_list:seafaring_voyage
     var int1 = SCALE(10, 6, (int0 - 5));
     var int2 = SCALE(200, 100, int1);
     var int3 = (200 - int2);
     var int4 = 20;
-    IF_SETTEXT(`${inttostring(int0, 10)}%`, comp(950, 160));
-    IF_SETCOLOUR(script693(int3, int2, int4), comp(950, 160));
+    IF_SETTEXT(`${inttostring(int0, 10)}%`, comp(950, 160));  // pop_voyage_list:voyage_chance_total
+    IF_SETCOLOUR(script693(int3, int2, int4), comp(950, 160));  // pop_voyage_list:voyage_chance_total
     var int5 = 0;
     if ((varbitplayer_17129 == 1)) {
         switch (varbitplayer_17130) {
@@ -77,76 +77,76 @@ function script2022(): void {
     if ((int6 != -1 as struct)) {
         if ((struct_getparam(int6, 2366) == 7)) {
             if ((script1121(varbitplayer_17132) == 1)) {
-                IF_SETHIDE(false, comp(950, 195));
-                IF_SETTEXT("Your captain already has four traits and cannot gain any more.", comp(950, 195));
-                IF_SETHIDE(true, comp(950, 196));
+                IF_SETHIDE(false, comp(950, 195));  // pop_voyage_list:low_chance_warning
+                IF_SETTEXT("Your captain already has four traits and cannot gain any more.", comp(950, 195));  // pop_voyage_list:low_chance_warning
+                IF_SETHIDE(true, comp(950, 196));  // pop_voyage_list:confirm_send
             } else if ((int0 < 35)) {
-                IF_SETHIDE(false, comp(950, 195));
-                IF_SETTEXT("Warning: Your chances of success are low. You risk harsher penalties if the voyage fails.", comp(950, 195));
-                IF_SETHIDE(true, comp(950, 196));
+                IF_SETHIDE(false, comp(950, 195));  // pop_voyage_list:low_chance_warning
+                IF_SETTEXT("Warning: Your chances of success are low. You risk harsher penalties if the voyage fails.", comp(950, 195));  // pop_voyage_list:low_chance_warning
+                IF_SETHIDE(true, comp(950, 196));  // pop_voyage_list:confirm_send
             } else {
-                IF_SETHIDE(true, comp(950, 195));
-                IF_SETHIDE(false, comp(950, 196));
+                IF_SETHIDE(true, comp(950, 195));  // pop_voyage_list:low_chance_warning
+                IF_SETHIDE(false, comp(950, 196));  // pop_voyage_list:confirm_send
             };
         } else if ((int6 != -1 as struct)) {
             if ((struct_getparam(int6, 2366) == 5)) {
                 if ((script3730() == 0)) {
-                    IF_SETHIDE(false, comp(950, 195));
-                    IF_SETTEXT("Warning: The Scroll you have focused on is complete. Please view your Port Management page to change the scroll.", comp(950, 195));
-                    IF_SETHIDE(true, comp(950, 196));
+                    IF_SETHIDE(false, comp(950, 195));  // pop_voyage_list:low_chance_warning
+                    IF_SETTEXT("Warning: The Scroll you have focused on is complete. Please view your Port Management page to change the scroll.", comp(950, 195));  // pop_voyage_list:low_chance_warning
+                    IF_SETHIDE(true, comp(950, 196));  // pop_voyage_list:confirm_send
                 } else if ((int0 < 35)) {
-                    IF_SETHIDE(false, comp(950, 195));
-                    IF_SETTEXT("Warning: Your chances of success are low. You risk harsher penalties if the voyage fails.", comp(950, 195));
-                    IF_SETHIDE(true, comp(950, 196));
+                    IF_SETHIDE(false, comp(950, 195));  // pop_voyage_list:low_chance_warning
+                    IF_SETTEXT("Warning: Your chances of success are low. You risk harsher penalties if the voyage fails.", comp(950, 195));  // pop_voyage_list:low_chance_warning
+                    IF_SETHIDE(true, comp(950, 196));  // pop_voyage_list:confirm_send
                 } else {
-                    IF_SETHIDE(true, comp(950, 195));
-                    IF_SETHIDE(false, comp(950, 196));
+                    IF_SETHIDE(true, comp(950, 195));  // pop_voyage_list:low_chance_warning
+                    IF_SETHIDE(false, comp(950, 196));  // pop_voyage_list:confirm_send
                 };
             } else if ((int0 < 35)) {
-                IF_SETHIDE(false, comp(950, 195));
-                IF_SETTEXT("Warning: Your chances of success are low. You risk harsher penalties if the voyage fails.", comp(950, 195));
-                IF_SETHIDE(true, comp(950, 196));
+                IF_SETHIDE(false, comp(950, 195));  // pop_voyage_list:low_chance_warning
+                IF_SETTEXT("Warning: Your chances of success are low. You risk harsher penalties if the voyage fails.", comp(950, 195));  // pop_voyage_list:low_chance_warning
+                IF_SETHIDE(true, comp(950, 196));  // pop_voyage_list:confirm_send
             } else {
-                IF_SETHIDE(true, comp(950, 195));
-                IF_SETHIDE(false, comp(950, 196));
+                IF_SETHIDE(true, comp(950, 195));  // pop_voyage_list:low_chance_warning
+                IF_SETHIDE(false, comp(950, 196));  // pop_voyage_list:confirm_send
             };
         } else if ((int0 < 35)) {
-            IF_SETHIDE(false, comp(950, 195));
-            IF_SETTEXT("Warning: Your chances of success are low. You risk harsher penalties if the voyage fails.", comp(950, 195));
-            IF_SETHIDE(true, comp(950, 196));
+            IF_SETHIDE(false, comp(950, 195));  // pop_voyage_list:low_chance_warning
+            IF_SETTEXT("Warning: Your chances of success are low. You risk harsher penalties if the voyage fails.", comp(950, 195));  // pop_voyage_list:low_chance_warning
+            IF_SETHIDE(true, comp(950, 196));  // pop_voyage_list:confirm_send
         } else {
-            IF_SETHIDE(true, comp(950, 195));
-            IF_SETHIDE(false, comp(950, 196));
+            IF_SETHIDE(true, comp(950, 195));  // pop_voyage_list:low_chance_warning
+            IF_SETHIDE(false, comp(950, 196));  // pop_voyage_list:confirm_send
         };
     } else if ((int6 != -1 as struct)) {
         if ((struct_getparam(int6, 2366) == 5)) {
             if ((script3730() == 0)) {
-                IF_SETHIDE(false, comp(950, 195));
-                IF_SETTEXT("Warning: The Scroll you have focused on is complete. Please view your Port Management page to change the scroll.", comp(950, 195));
-                IF_SETHIDE(true, comp(950, 196));
+                IF_SETHIDE(false, comp(950, 195));  // pop_voyage_list:low_chance_warning
+                IF_SETTEXT("Warning: The Scroll you have focused on is complete. Please view your Port Management page to change the scroll.", comp(950, 195));  // pop_voyage_list:low_chance_warning
+                IF_SETHIDE(true, comp(950, 196));  // pop_voyage_list:confirm_send
             } else if ((int0 < 35)) {
-                IF_SETHIDE(false, comp(950, 195));
-                IF_SETTEXT("Warning: Your chances of success are low. You risk harsher penalties if the voyage fails.", comp(950, 195));
-                IF_SETHIDE(true, comp(950, 196));
+                IF_SETHIDE(false, comp(950, 195));  // pop_voyage_list:low_chance_warning
+                IF_SETTEXT("Warning: Your chances of success are low. You risk harsher penalties if the voyage fails.", comp(950, 195));  // pop_voyage_list:low_chance_warning
+                IF_SETHIDE(true, comp(950, 196));  // pop_voyage_list:confirm_send
             } else {
-                IF_SETHIDE(true, comp(950, 195));
-                IF_SETHIDE(false, comp(950, 196));
+                IF_SETHIDE(true, comp(950, 195));  // pop_voyage_list:low_chance_warning
+                IF_SETHIDE(false, comp(950, 196));  // pop_voyage_list:confirm_send
             };
         } else if ((int0 < 35)) {
-            IF_SETHIDE(false, comp(950, 195));
-            IF_SETTEXT("Warning: Your chances of success are low. You risk harsher penalties if the voyage fails.", comp(950, 195));
-            IF_SETHIDE(true, comp(950, 196));
+            IF_SETHIDE(false, comp(950, 195));  // pop_voyage_list:low_chance_warning
+            IF_SETTEXT("Warning: Your chances of success are low. You risk harsher penalties if the voyage fails.", comp(950, 195));  // pop_voyage_list:low_chance_warning
+            IF_SETHIDE(true, comp(950, 196));  // pop_voyage_list:confirm_send
         } else {
-            IF_SETHIDE(true, comp(950, 195));
-            IF_SETHIDE(false, comp(950, 196));
+            IF_SETHIDE(true, comp(950, 195));  // pop_voyage_list:low_chance_warning
+            IF_SETHIDE(false, comp(950, 196));  // pop_voyage_list:confirm_send
         };
     } else if ((int0 < 35)) {
-        IF_SETHIDE(false, comp(950, 195));
-        IF_SETTEXT("Warning: Your chances of success are low. You risk harsher penalties if the voyage fails.", comp(950, 195));
-        IF_SETHIDE(true, comp(950, 196));
+        IF_SETHIDE(false, comp(950, 195));  // pop_voyage_list:low_chance_warning
+        IF_SETTEXT("Warning: Your chances of success are low. You risk harsher penalties if the voyage fails.", comp(950, 195));  // pop_voyage_list:low_chance_warning
+        IF_SETHIDE(true, comp(950, 196));  // pop_voyage_list:confirm_send
     } else {
-        IF_SETHIDE(true, comp(950, 195));
-        IF_SETHIDE(false, comp(950, 196));
+        IF_SETHIDE(true, comp(950, 195));  // pop_voyage_list:low_chance_warning
+        IF_SETHIDE(false, comp(950, 196));  // pop_voyage_list:confirm_send
     };
     return;
 }

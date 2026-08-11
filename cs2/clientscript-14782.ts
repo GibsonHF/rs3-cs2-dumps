@@ -3,9 +3,9 @@ function script14782(int0: number): void {
     if ((varplayer_9215 == -1 as cs2enum)) {
         return;
     };
-    CC_DELETEALL(comp(657, 12));
-    CC_DELETEALL(comp(657, 13));
-    CC_DELETEALL(comp(657, 9));
+    CC_DELETEALL(comp(657, 12));  // collector_board:collector_build_layer
+    CC_DELETEALL(comp(657, 13));  // collector_board:collector_control_layer
+    CC_DELETEALL(comp(657, 9));  // collector_board:collector_scrollbar_layer
     var int1 = ENUM_GETOUTPUTCOUNT(varplayer_9215);
     var int2 = -1 as dbrow;
     var string0 = "";
@@ -23,23 +23,23 @@ function script14782(int0: number): void {
         int2 = enum_getvalue(0, 74, varplayer_9215, int8);
         if ((script14575(int2) == 1)) {
             string0 = dbrow_getfield(int2, 335888, 0);
-            int6 = MAX(int5, (2 * script7593(string0, (IF_GETWIDTH(comp(657, 8)) - (2 * 1)), 26, 0)));
-            script13998(43057164, 43057165, 28556, 1, (int7 + 1), (IF_GETWIDTH(comp(657, 8)) - (2 * 1)), int6, int8, 0, string0, script9670(int8, varplayer_9218));
-            if ((CC_FIND(comp(657, 13), int8) == 1)) {
+            int6 = MAX(int5, (2 * script7593(string0, (IF_GETWIDTH(comp(657, 8)) - (2 * 1)), 26, 0)));  // collector_board:collector_scrolling_layer
+            script13998(43057164, 43057165, 28556, 1, (int7 + 1), (IF_GETWIDTH(comp(657, 8)) - (2 * 1)), int6, int8, 0, string0, script9670(int8, varplayer_9218));  // collector_board:collector_scrolling_layer
+            if ((CC_FIND(comp(657, 13), int8) == 1)) {  // collector_board:collector_control_layer
                 CC_SETONOP(callback(script14781, int8));
             };
             int7 = (int7 + int6);
         } else {
-            CC_CREATE(comp(657, 13), 4, int8);
+            CC_CREATE(comp(657, 13), 4, int8);  // collector_board:collector_control_layer
         };
     };
-    IF_SETSCROLLSIZE(0, MAX(IF_GETHEIGHT(comp(657, 8)), (int7 + 1)), comp(657, 8));
+    IF_SETSCROLLSIZE(0, MAX(IF_GETHEIGHT(comp(657, 8)), (int7 + 1)), comp(657, 8));  // collector_board:collector_scrolling_layer
     script7791(43057161, 43057160);
     script10428(43057178, 43057179, varplayer_9216, (ENUM_GETOUTPUTCOUNT(varplayer_9216) - 1), "Select a filter", varplayer_9217, 1);
     script14783(varplayer_9218);
     script14784(varplayer_9218);
     if ((int0 == 1)) {
-        IF_SETSCROLLPOS(0, 0, comp(657, 19));
+        IF_SETSCROLLPOS(0, 0, comp(657, 19));  // collector_board:collection_info_scrolling_layer
     };
     script7791(43057173, 43057171);
     return;

@@ -1,6 +1,6 @@
 //
 function script13680(int0: number): void {
-    var int1 = comp(1901, 14);
+    var int1 = comp(1901, 14);  // invent_machine_build:info_window_recipe
     CC_DELETEALL(int1);
     var int2 = enum_getvalue(0, 74, 13175 as cs2enum, varbitplayer_37614);
     var int3 = -1;
@@ -20,14 +20,14 @@ function script13680(int0: number): void {
     var int16 = -1;
     var int17 = -1;
     var int18 = -1;
-    var int19 = IF_GETY(comp(1901, 14));
+    var int19 = IF_GETY(comp(1901, 14));  // invent_machine_build:info_window_recipe
     var int20 = 1;
-    if ((CC_FIND(comp(1901, 0), int0) == 1)) {
+    if ((CC_FIND(comp(1901, 0), int0) == 1)) {  // invent_machine_build:button_control_layer
         stack(90112);
         stack(cc_getparam(6813));
         DB_FIND(0);
         int3 = dbrow_findnext();
-        if ((CC_FIND[1](comp(1901, 1), 0) == 1)) {
+        if ((CC_FIND[1](comp(1901, 1), 0) == 1)) {  // invent_machine_build:button_draw_layer
             CC_SETPOSITION[1](CC_GETX[1](), cc_getparam(6814), 0, 0);
             CC_SETHIDE[1](false);
             CC_SENDTOFRONT[1]();
@@ -36,9 +36,9 @@ function script13680(int0: number): void {
         return;
     };
     string0 = dbrow_getfield(int3, 90128, 0);
-    IF_SETTEXT(string0, comp(1901, 15));
+    IF_SETTEXT(string0, comp(1901, 15));  // invent_machine_build:machine_name
     string0 = dbrow_getfield(int3, 90144, 0);
-    IF_SETTEXT(string0, comp(1901, 4));
+    IF_SETTEXT(string0, comp(1901, 4));  // invent_machine_build:machine_desc
     stack(int3);
     script21030();
     int9 = [];
@@ -47,82 +47,82 @@ function script13680(int0: number): void {
     } else {
         string0 = TOSTRING_LOCALISED(int9, 1);
     };
-    IF_SETTEXT(string0, comp(1901, 21));
+    IF_SETTEXT(string0, comp(1901, 21));  // invent_machine_build:capacity_value
     int9 = dbrow_getfield(int3, 90480, 0);
     string0 = TOSTRING_LOCALISED(int9, 1);
-    IF_SETTEXT(string0, comp(1901, 66));
+    IF_SETTEXT(string0, comp(1901, 66));  // invent_machine_build:invent_xp_value
     if ((varbitplayer_37615 == 1)) {
-        IF_SETTEXT("N/A", comp(1901, 85));
+        IF_SETTEXT("N/A", comp(1901, 85));  // invent_machine_build:items_per_hour_value
     } else {
         stack(int3);
         script21123();
         int9 = [];
         string0 = TOSTRING_LOCALISED(int9, 1);
-        IF_SETTEXT(string0, comp(1901, 85));
+        IF_SETTEXT(string0, comp(1901, 85));  // invent_machine_build:items_per_hour_value
     };
     int9 = dbrow_getfield(int3, 90448, 0);
     string0 = TOSTRING_LOCALISED(int9, 1);
-    IF_SETTEXT(string0, comp(1901, 56));
+    IF_SETTEXT(string0, comp(1901, 56));  // invent_machine_build:power_req_value
     if ((varbitplayer_37615 == 1)) {
-        IF_SETTEXT("Power supplied", comp(1901, 55));
-        IF_SETONMOUSEREPEAT(callback(script13684, -2147483645, -2147483643, 1, dbrow_getfield(int3, 90448, 0), int4), comp(1901, 11));
+        IF_SETTEXT("Power supplied", comp(1901, 55));  // invent_machine_build:power_req_label
+        IF_SETONMOUSEREPEAT(callback(script13684, -2147483645, -2147483643, 1, dbrow_getfield(int3, 90448, 0), int4), comp(1901, 11));  // invent_machine_build:power_required
     } else {
-        IF_SETONMOUSEREPEAT(callback(script13684, -2147483645, -2147483643, 0, 0, int4), comp(1901, 11));
+        IF_SETONMOUSEREPEAT(callback(script13684, -2147483645, -2147483643, 0, 0, int4), comp(1901, 11));  // invent_machine_build:power_required
     };
     if (((((varbitplayer_37612 - varbitplayer_37613) + int4) >= int9) || (varbitplayer_37615 == 1))) {
-        IF_SETGRAPHIC(13165 as graphic, comp(1901, 57));
-        IF_SETCOLOUR(65280, comp(1901, 56));
+        IF_SETGRAPHIC(13165 as graphic, comp(1901, 57));  // invent_machine_build:power_req_graphic
+        IF_SETCOLOUR(65280, comp(1901, 56));  // invent_machine_build:power_req_value
     } else {
-        IF_SETGRAPHIC(13166 as graphic, comp(1901, 57));
-        IF_SETCOLOUR(16711680, comp(1901, 56));
+        IF_SETGRAPHIC(13166 as graphic, comp(1901, 57));  // invent_machine_build:power_req_graphic
+        IF_SETCOLOUR(16711680, comp(1901, 56));  // invent_machine_build:power_req_value
         int20 = 0;
     };
-    IF_SETGRAPHIC(30989 as graphic, comp(1901, 41));
+    IF_SETGRAPHIC(30989 as graphic, comp(1901, 41));  // invent_machine_build:power_req_icon
     stack(int3);
     script21031();
     int9 = [];
     string0 = TOSTRING_LOCALISED(int9, 1);
-    IF_SETTEXT(string0, comp(1901, 59));
+    IF_SETTEXT(string0, comp(1901, 59));  // invent_machine_build:invent_level_value
     if ((STAT(26 as stat) >= int9)) {
-        IF_SETGRAPHIC(13165 as graphic, comp(1901, 60));
-        IF_SETCOLOUR(65280, comp(1901, 59));
+        IF_SETGRAPHIC(13165 as graphic, comp(1901, 60));  // invent_machine_build:invent_level_graphic
+        IF_SETCOLOUR(65280, comp(1901, 59));  // invent_machine_build:invent_level_value
     } else {
-        IF_SETGRAPHIC(13166 as graphic, comp(1901, 60));
-        IF_SETCOLOUR(16711680, comp(1901, 59));
+        IF_SETGRAPHIC(13166 as graphic, comp(1901, 60));  // invent_machine_build:invent_level_graphic
+        IF_SETCOLOUR(16711680, comp(1901, 59));  // invent_machine_build:invent_level_value
         int20 = 0;
     };
     string0 = `<col=f5b241>Current Invention level:</col> ${inttostring(STAT(26 as stat), 10)}`;
-    IF_SETONMOUSEREPEAT(callback(script3876, string0, -2147483645, -1), comp(1901, 58));
+    IF_SETONMOUSEREPEAT(callback(script3876, string0, -2147483645, -1), comp(1901, 58));  // invent_machine_build:invent_level_label
     int9 = dbrow_getfield(int3, 90176, 0);
     string0 = dbrow_getfield(int3, 90128, 0);
-    IF_SETTEXT(string0, comp(1901, 71));
+    IF_SETTEXT(string0, comp(1901, 71));  // invent_machine_build:blueprint_label
     if ((script12059(int9) == 1)) {
-        IF_SETGRAPHIC(13165 as graphic, comp(1901, 72));
+        IF_SETGRAPHIC(13165 as graphic, comp(1901, 72));  // invent_machine_build:blueprint_graphic
     } else {
-        IF_SETGRAPHIC(13166 as graphic, comp(1901, 72));
+        IF_SETGRAPHIC(13166 as graphic, comp(1901, 72));  // invent_machine_build:blueprint_graphic
         int20 = 0;
     };
     string0 = `<col=f5b241>Discover blueprint:</col> ${dbrow_getfield(int3, 90128, 0)}`;
-    IF_SETONMOUSEREPEAT(callback(script3876, string0, -2147483645, -1), comp(1901, 71));
+    IF_SETONMOUSEREPEAT(callback(script3876, string0, -2147483645, -1), comp(1901, 71));  // invent_machine_build:blueprint_label
     var int21 = dbrow_getfield(int3, 90192, 0);
     if ((int21 != -1)) {
-        IF_SETTEXT(`Tier ${inttostring(dbrow_getfield(int21, 90208, 0), 10)}`, comp(1901, 78));
+        IF_SETTEXT(`Tier ${inttostring(dbrow_getfield(int21, 90208, 0), 10)}`, comp(1901, 78));  // invent_machine_build:machine_value
         if ((int2 == int21)) {
-            IF_SETGRAPHIC(13165 as graphic, comp(1901, 79));
-            IF_SETCOLOUR(65280, comp(1901, 78));
+            IF_SETGRAPHIC(13165 as graphic, comp(1901, 79));  // invent_machine_build:machine_graphic
+            IF_SETCOLOUR(65280, comp(1901, 78));  // invent_machine_build:machine_value
         } else {
-            IF_SETGRAPHIC(13166 as graphic, comp(1901, 79));
-            IF_SETCOLOUR(16711680, comp(1901, 78));
+            IF_SETGRAPHIC(13166 as graphic, comp(1901, 79));  // invent_machine_build:machine_graphic
+            IF_SETCOLOUR(16711680, comp(1901, 78));  // invent_machine_build:machine_value
             int20 = 0;
         };
         string0 = `<col=f5b241>Machine required:</col> ${dbrow_getfield(int21, 90128, 0)}`;
-        IF_SETONMOUSEREPEAT(callback(script3876, string0, -2147483645, -1), comp(1901, 77));
+        IF_SETONMOUSEREPEAT(callback(script3876, string0, -2147483645, -1), comp(1901, 77));  // invent_machine_build:machine_label
     } else {
-        IF_SETTEXT("None", comp(1901, 78));
-        IF_SETGRAPHIC(13165 as graphic, comp(1901, 79));
-        IF_SETCOLOUR(65280, comp(1901, 78));
+        IF_SETTEXT("None", comp(1901, 78));  // invent_machine_build:machine_value
+        IF_SETGRAPHIC(13165 as graphic, comp(1901, 79));  // invent_machine_build:machine_graphic
+        IF_SETCOLOUR(65280, comp(1901, 78));  // invent_machine_build:machine_value
         string0 = "<col=f5b241>Machine required:</col> None";
-        IF_SETONMOUSEREPEAT(callback(script3876, string0, -2147483645, -1), comp(1901, 77));
+        IF_SETONMOUSEREPEAT(callback(script3876, string0, -2147483645, -1), comp(1901, 77));  // invent_machine_build:machine_label
     };
     int13 = DB_GETFIELDCOUNT(int3, 90224);
     int14 = DB_GETFIELDCOUNT(int3, 90240);
@@ -293,30 +293,30 @@ function script13680(int0: number): void {
     if ((int2 != -1)) {
         if ((dbrow_getfield(int3, 90272, 0) == dbrow_getfield(int2, 90272, 0))) {
             if ((dbrow_getfield(int3, 90208, 0) < dbrow_getfield(int2, 90208, 0))) {
-                IF_SETTEXT("Downgrade", comp(1901, 54));
+                IF_SETTEXT("Downgrade", comp(1901, 54));  // invent_machine_build:build_button_text
             } else {
-                IF_SETTEXT("Upgrade", comp(1901, 54));
+                IF_SETTEXT("Upgrade", comp(1901, 54));  // invent_machine_build:build_button_text
             };
         } else {
-            IF_SETTEXT("Build", comp(1901, 54));
+            IF_SETTEXT("Build", comp(1901, 54));  // invent_machine_build:build_button_text
         };
     } else if ((dbrow_getfield(int3, 90208, 0) > 1)) {
         int20 = 0;
     };
     if ((int20 == 0)) {
-        IF_SETHIDE(false, comp(1901, 52));
+        IF_SETHIDE(false, comp(1901, 52));  // invent_machine_build:build_button_disabled_layer
         string0 = "You do not have all of the requirements to build this machine.";
-        IF_SETONMOUSEREPEAT(callback(script3876, string0, -2147483645, -2147483643), comp(1901, 52));
+        IF_SETONMOUSEREPEAT(callback(script3876, string0, -2147483645, -2147483643), comp(1901, 52));  // invent_machine_build:build_button_disabled_layer
     } else {
-        IF_SETHIDE(true, comp(1901, 52));
-        IF_SETONMOUSEREPEAT(callback(), comp(1901, 52));
+        IF_SETHIDE(true, comp(1901, 52));  // invent_machine_build:build_button_disabled_layer
+        IF_SETONMOUSEREPEAT(callback(), comp(1901, 52));  // invent_machine_build:build_button_disabled_layer
     };
-    if ((int19 > IF_GETHEIGHT(comp(1901, 36)))) {
-        IF_SETSCROLLSIZE(0, int19, comp(1901, 36));
+    if ((int19 > IF_GETHEIGHT(comp(1901, 36)))) {  // invent_machine_build:scroll_layer
+        IF_SETSCROLLSIZE(0, int19, comp(1901, 36));  // invent_machine_build:scroll_layer
     } else {
-        IF_SETSCROLLSIZE(0, 0, comp(1901, 36));
+        IF_SETSCROLLSIZE(0, 0, comp(1901, 36));  // invent_machine_build:scroll_layer
     };
-    IF_SETSCROLLPOS(0, 0, comp(1901, 36));
+    IF_SETSCROLLPOS(0, 0, comp(1901, 36));  // invent_machine_build:scroll_layer
     script7791(124583973, 124583972);
     return;
 }

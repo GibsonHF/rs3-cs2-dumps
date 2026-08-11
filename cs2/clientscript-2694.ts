@@ -13,12 +13,12 @@ function script2694(int0: number, int1: number, string0: string): void {
         return;
     };
     if ((int0 == 2)) {
-        IF_SETTEXT(script400(string0, "<br>", " "), comp(978, 7));
+        IF_SETTEXT(script400(string0, "<br>", " "), comp(978, 7));  // graphics_options_client:messages
         script2190("", string0, 0, callback(), 0);
-        IF_SETONCLICK(callback(), comp(808, 5));
+        IF_SETONCLICK(callback(), comp(808, 5));  // lobbyscreen_input:link
         return;
     };
-    IF_SETTEXT(script400(string0, "<br>", " "), comp(978, 7));
+    IF_SETTEXT(script400(string0, "<br>", " "), comp(978, 7));  // graphics_options_client:messages
     if ((int0 == 4)) {
         return;
     };

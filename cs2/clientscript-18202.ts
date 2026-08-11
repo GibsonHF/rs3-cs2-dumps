@@ -19,7 +19,7 @@ function script18202(int0: number, int1: number, int2: number, int3: number, int
     var int19 = 0;
     var int20 = -1;
     var string1 = "";
-    if ((IF_FIND(comp(1843, 1)) == 1)) {
+    if ((IF_FIND(comp(1843, 1)) == 1)) {  // mtxmgt_store:item_buttons_layer
         cc_setparam(5946, -1);
     };
     stack(0);
@@ -29,7 +29,7 @@ function script18202(int0: number, int1: number, int2: number, int3: number, int
     int8 = enum_getvalue(int7);
     int9 = enum_getvalue(0, 73, 8601 as cs2enum, int7);
     var int21 = 0;
-    if ((IF_FIND(comp(1843, 183)) == 1)) {
+    if ((IF_FIND(comp(1843, 183)) == 1)) {  // mtxmgt_store:items_layer
         int21 = MAX(0, cc_getparam(6359));
     };
     [int15, int0] = script18193(int15, int21, int0, int6, string0, int2, int3, int4);
@@ -160,7 +160,7 @@ function script18202(int0: number, int1: number, int2: number, int3: number, int
                     int9 = -1;
                 };
             };
-            if ((IF_FIND(comp(1843, 250)) == 1)) {
+            if ((IF_FIND(comp(1843, 250)) == 1)) {  // mtxmgt_store:filter_error_message_layer
                 script13248(int0, string0, 120783098);
             };
             script13172(int0, 0);
@@ -182,7 +182,7 @@ function script18202(int0: number, int1: number, int2: number, int3: number, int
                 int9 = -1;
             };
         };
-        if ((IF_FIND(comp(1843, 250)) == 1)) {
+        if ((IF_FIND(comp(1843, 250)) == 1)) {  // mtxmgt_store:filter_error_message_layer
             script13248(int0, string0, 120783098);
         };
         script13172(int0, 0);
@@ -218,7 +218,7 @@ function script18202(int0: number, int1: number, int2: number, int3: number, int
                 int9 = -1;
             };
         };
-        if ((IF_FIND(comp(1843, 250)) == 1)) {
+        if ((IF_FIND(comp(1843, 250)) == 1)) {  // mtxmgt_store:filter_error_message_layer
             script13248(int0, string0, 120783098);
         };
         script13172(int0, 0);
@@ -240,7 +240,7 @@ function script18202(int0: number, int1: number, int2: number, int3: number, int
             int9 = -1;
         };
     };
-    if ((IF_FIND(comp(1843, 250)) == 1)) {
+    if ((IF_FIND(comp(1843, 250)) == 1)) {  // mtxmgt_store:filter_error_message_layer
         script13248(int0, string0, 120783098);
     };
     script13172(int0, 0);

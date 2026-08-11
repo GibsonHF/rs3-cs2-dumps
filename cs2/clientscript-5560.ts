@@ -14,11 +14,11 @@ function script5560(long0: bigint): void {
     };
     script16559(96534537, 2);
     script16559(96600076, 2);
-    IF_SETCOLOUR(int0, comp(1920, 12));
-    IF_SETCOLOUR(int0, comp(1666, 2));
-    IF_SETTEXT(string0, comp(1920, 12));
-    IF_SETTEXT(string0, comp(1666, 2));
-    IF_SETONMOUSEREPEAT(callback(script8799, string1, -2147483645, -2147483643), comp(1920, 12));
-    IF_SETONMOUSEREPEAT(callback(script8799, string1, -2147483645, -2147483643), comp(1666, 2));
+    IF_SETCOLOUR(int0, comp(1920, 12));  // toplevel_v2_minimap_legacy:money_pouch_output
+    IF_SETCOLOUR(int0, comp(1666, 2));  // exchange_moneypouch:money_pouch_output
+    IF_SETTEXT(string0, comp(1920, 12));  // toplevel_v2_minimap_legacy:money_pouch_output
+    IF_SETTEXT(string0, comp(1666, 2));  // exchange_moneypouch:money_pouch_output
+    IF_SETONMOUSEREPEAT(callback(script8799, string1, -2147483645, -2147483643), comp(1920, 12));  // toplevel_v2_minimap_legacy:money_pouch_output
+    IF_SETONMOUSEREPEAT(callback(script8799, string1, -2147483645, -2147483643), comp(1666, 2));  // exchange_moneypouch:money_pouch_output
     return;
 }

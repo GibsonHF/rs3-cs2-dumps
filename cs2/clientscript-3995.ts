@@ -61,10 +61,10 @@ function script3995(): void {
         if ((int0 == -1 as obj)) {
             return;
         };
-        IF_SETTEXT(`${inttostring(int2, 10)}x ${OC_NAME(int0)}`, comp(1239, 3));
-        IF_SETTEXT(string0, comp(1239, 4));
+        IF_SETTEXT(`${inttostring(int2, 10)}x ${OC_NAME(int0)}`, comp(1239, 3));  // mtxfair17_chinchompa:prize_name_and_amount
+        IF_SETTEXT(string0, comp(1239, 4));  // mtxfair17_chinchompa:prize_description
     };
     SOUND_VORBIS_VOLUME(40090 as vorbis, 1, 0, 100);
-    IF_SETHIDE(false, comp(1239, 18));
+    IF_SETHIDE(false, comp(1239, 18));  // mtxfair17_chinchompa:prize_claim_layer
     return;
 }

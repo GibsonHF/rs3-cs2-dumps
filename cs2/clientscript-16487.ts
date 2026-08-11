@@ -62,14 +62,14 @@ function script16487(): void {
     };
     var string0 = dbrow_getfield(script438(varbitplayer_51126), 503824, 0);
     script16498(int4, 62849038);
-    IF_SETGRAPHIC(int1, comp(959, 9));
-    IF_SETTEXT(`You open your ${string0} and receive`, comp(959, 31));
-    IF_SETCOLOUR(int5, comp(959, 21));
-    IF_SETCOLOUR(int5, comp(959, 20));
+    IF_SETGRAPHIC(int1, comp(959, 9));  // trh178_overlay:progress_bar_graphic
+    IF_SETTEXT(`You open your ${string0} and receive`, comp(959, 31));  // trh178_overlay:prize_claim_title
+    IF_SETCOLOUR(int5, comp(959, 21));  // trh178_overlay:light_flare
+    IF_SETCOLOUR(int5, comp(959, 20));  // trh178_overlay:glow
     if ((varbitplayer_51127 == 0)) {
-        IF_SETGRAPHIC(int2, comp(959, 12));
+        IF_SETGRAPHIC(int2, comp(959, 12));  // trh178_overlay:progress_lock
     } else {
-        IF_SETGRAPHIC(int3, comp(959, 12));
+        IF_SETGRAPHIC(int3, comp(959, 12));  // trh178_overlay:progress_lock
     };
     script16502();
     return;

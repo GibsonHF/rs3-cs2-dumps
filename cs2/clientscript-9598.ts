@@ -9,11 +9,11 @@ function script9598(int0: number): void {
     if (((int0 == 3) && (varbitplayer_22425 == 1))) {
         return;
     };
-    IF_SETHIDE(true, comp(1029, 2));
-    IF_SETHIDE(true, comp(1029, 61));
-    IF_SETHIDE(true, comp(1029, 8));
-    IF_SETHIDE(false, comp(1029, 99));
-    IF_SETTEXT("retrieving poll information...", comp(1029, 102));
+    IF_SETHIDE(true, comp(1029, 2));  // polls:polls_title_layer
+    IF_SETHIDE(true, comp(1029, 61));  // polls:polls_content_layer
+    IF_SETHIDE(true, comp(1029, 8));  // polls:polls_featured_layer
+    IF_SETHIDE(false, comp(1029, 99));  // polls:polls_loading_layer
+    IF_SETTEXT("retrieving poll information...", comp(1029, 102));  // polls:polls_desc_title_2
     switch (int0) {
         case 0: {
             break;

@@ -1,6 +1,6 @@
 //
 function script10805(): void {
-    var int0 = comp(1562, 25);
+    var int0 = comp(1562, 25);  // mtxmgt_purchase:response_layer
     CC_DELETEALL(int0);
     var string0 = "";
     var int1 = 0;
@@ -119,26 +119,26 @@ function script10805(): void {
     CC_SETSIZE(0, script7593(CC_GETTEXT(), int7, CC_GETFONTMETRICS(), 0), 1, 0);
     int4 = (int4 + 1);
     int6 = ((int6 + CC_GETHEIGHT()) + int5);
-    IF_SETHIDE(true, comp(1562, 26));
-    IF_SETHIDE(true, comp(1562, 28));
-    IF_SETHIDE(true, comp(1562, 27));
+    IF_SETHIDE(true, comp(1562, 26));  // mtxmgt_purchase:response_back_button_layer
+    IF_SETHIDE(true, comp(1562, 28));  // mtxmgt_purchase:response_close_button_layer
+    IF_SETHIDE(true, comp(1562, 27));  // mtxmgt_purchase:response_continue_button_layer
     switch (int1) {
         case 1: {
-            IF_SETTEXT("Close", comp(1562, 111));
-            IF_SETHIDE(false, comp(1562, 28));
+            IF_SETTEXT("Close", comp(1562, 111));  // mtxmgt_purchase:response_close_button_text
+            IF_SETHIDE(false, comp(1562, 28));  // mtxmgt_purchase:response_close_button_layer
             break;
         }
         case 2: {
-            IF_SETTEXT("Done", comp(1562, 111));
-            IF_SETHIDE(false, comp(1562, 28));
+            IF_SETTEXT("Done", comp(1562, 111));  // mtxmgt_purchase:response_close_button_text
+            IF_SETHIDE(false, comp(1562, 28));  // mtxmgt_purchase:response_close_button_layer
             break;
         }
         case 3: {
-            IF_SETHIDE(false, comp(1562, 27));
+            IF_SETHIDE(false, comp(1562, 27));  // mtxmgt_purchase:response_continue_button_layer
             break;
         }
         default: {
-            IF_SETHIDE(false, comp(1562, 26));
+            IF_SETHIDE(false, comp(1562, 26));  // mtxmgt_purchase:response_back_button_layer
             break;
         }
     };

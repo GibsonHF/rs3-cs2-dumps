@@ -242,9 +242,9 @@ function script1221(int0: number, int1: number): void {
         }
         case 18: {
             if ((int0 == 13)) {
-                if ((IF_GETHIDE(comp(744, 301)) == 1)) {
+                if ((IF_GETHIDE(comp(744, 301)) == 1)) {  // loginscreen:left_top_flurish_2
                     script3131();
-                } else if ((IF_GETHIDE(comp(744, 301)) == 0)) {
+                } else if ((IF_GETHIDE(comp(744, 301)) == 0)) {  // loginscreen:left_top_flurish_2
                     script2465();
                 } else {
                     script3133(0);

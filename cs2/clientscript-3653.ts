@@ -68,7 +68,7 @@ function script3653(int0: number): void {
         script3657(int1, 41549847, 41549848, 41549843, 41549844, 41549845, 41549846, int6, int7, 0);
         int1 = (int1 + 1);
     };
-    IF_SETSCROLLPOS(0, varclient_6741, comp(634, 10));
+    IF_SETSCROLLPOS(0, varclient_6741, comp(634, 10));  // runepass:scrolling
     script3620(varplayer_9078, 0);
     return;
 }

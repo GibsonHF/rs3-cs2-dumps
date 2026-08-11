@@ -23,8 +23,8 @@ function script8323(int0: number, int1: number): void {
                     varbitclient_38843 = 0;
                 };
                 IF_SETHIDE(true, struct_getparam(script10405(int0), 3503));
-                if (((int0 == 2) && (IF_GETHIDE(comp(276, 18)) == false))) {
-                    IF_SETHIDE(true, comp(276, 18));
+                if (((int0 == 2) && (IF_GETHIDE(comp(276, 18)) == false))) {  // toplevel_v2_mobile:inv_drag_options_window
+                    IF_SETHIDE(true, comp(276, 18));  // toplevel_v2_mobile:inv_drag_options_window
                 };
                 script2638();
                 script10228();

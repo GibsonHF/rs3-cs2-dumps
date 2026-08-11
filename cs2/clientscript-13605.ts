@@ -18,9 +18,9 @@ function script13605(int0: number): void {
     };
     var int4 = 0;
     var int5 = 0;
-    CC_DELETEALL(comp(1896, 56));
-    IF_SETHIDE(true, comp(1896, 57));
-    IF_SETHIDE(true, comp(1896, 56));
+    CC_DELETEALL(comp(1896, 56));  // cheevo_player_inspect_full:dropdown_layer
+    IF_SETHIDE(true, comp(1896, 57));  // cheevo_player_inspect_full:subcat_highlight
+    IF_SETHIDE(true, comp(1896, 56));  // cheevo_player_inspect_full:dropdown_layer
     var int6 = enum_getvalue(0, 73, 11155 as cs2enum, (int0 + 1));
     if ((int6 == -1 as struct)) {
         return;
@@ -30,13 +30,13 @@ function script13605(int0: number): void {
     var string0 = "";
     var int9 = 0;
     if ((int7 != -1 as cs2enum)) {
-        IF_SETHIDE(false, comp(1896, 56));
+        IF_SETHIDE(false, comp(1896, 56));  // cheevo_player_inspect_full:dropdown_layer
         int4 = ENUM_GETOUTPUTCOUNT(int7);
-        IF_SETSIZE((5 * 2), (2 + (int4 * (32 + 2))), 1, 0, comp(1896, 56));
-        IF_SETPOSITION(5, (2 + ((45 + 2) * (int0 + 1))), 1, 0, comp(1896, 56));
+        IF_SETSIZE((5 * 2), (2 + (int4 * (32 + 2))), 1, 0, comp(1896, 56));  // cheevo_player_inspect_full:dropdown_layer
+        IF_SETPOSITION(5, (2 + ((45 + 2) * (int0 + 1))), 1, 0, comp(1896, 56));  // cheevo_player_inspect_full:dropdown_layer
         while ((int5 < int4)) {
             int8 = enum_getvalue(0, 73, int7, int5);
-            CC_CREATE(comp(1896, 56), 3, (int5 * 2));
+            CC_CREATE(comp(1896, 56), 3, (int5 * 2));  // cheevo_player_inspect_full:dropdown_layer
             CC_SETPOSITION(1, ((int5 * (32 + 2)) + 2), 0, 0);
             CC_SETSIZE(5, 32, 1, 0);
             CC_SETFILL(1);
@@ -51,7 +51,7 @@ function script13605(int0: number): void {
             };
             CC_SETOP(1, "Select");
             CC_SETONOP(callback(script13607, -2147483643));
-            CC_CREATE(comp(1896, 56), 4, ((int5 * 2) + 1));
+            CC_CREATE(comp(1896, 56), 4, ((int5 * 2) + 1));  // cheevo_player_inspect_full:dropdown_layer
             CC_SETPOSITION(5, ((int5 * (32 + 2)) + 2), 0, 0);
             CC_SETSIZE((5 * 2), 32, 1, 0);
             CC_SETCOLOUR(16711422);

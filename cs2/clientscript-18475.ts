@@ -1,6 +1,6 @@
 //
 function script18475(int0: number, int1: number): void {
-    IF_SETONVARTRANSMIT(callback(script18477, 11598, 1), comp(855, 7));
+    IF_SETONVARTRANSMIT(callback(script18477, 11598, 1), comp(855, 7));  // mtx_front_end_spotlight:set_var_fake_op
     var string0 = "";
     if ((CC_FIND(int0, 0) == 1)) {
         switch (int1) {
@@ -8,9 +8,9 @@ function script18475(int0: number, int1: number): void {
                 if ((unk11022("title_text") == 1)) {
                     string0 = unk11021("title_text");
                 };
-                IF_SETHIDE(false, comp(855, 9));
+                IF_SETHIDE(false, comp(855, 9));  // mtx_front_end_spotlight:crm_braze
                 script18476(1);
-                IF_SETTEXT(string0, comp(855, 29));
+                IF_SETTEXT(string0, comp(855, 29));  // mtx_front_end_spotlight:ccrm_text_braze
                 break;
             }
             case 3:
@@ -18,7 +18,7 @@ function script18475(int0: number, int1: number): void {
             case 5:
             case 6: {
                 script18476(2);
-                IF_SETHIDE(true, comp(855, 9));
+                IF_SETHIDE(true, comp(855, 9));  // mtx_front_end_spotlight:crm_braze
                 break;
             }
         };

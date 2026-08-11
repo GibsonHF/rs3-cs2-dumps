@@ -4,7 +4,7 @@ function script11244(int0: number, int1: number): void {
         return;
     };
     if ((CC_FIND(int0, int1) == 1)) {
-        IF_SETTEXT(enum_getvalue(0, 36, 9936 as cs2enum, int1), comp(1610, 8));
+        IF_SETTEXT(enum_getvalue(0, 36, 9936 as cs2enum, int1), comp(1610, 8));  // jmod_tool:selected_chat_phrase
     };
     return;
 }

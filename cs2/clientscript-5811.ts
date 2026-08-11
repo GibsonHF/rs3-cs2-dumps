@@ -17,7 +17,7 @@ function script5811(int0: number, int1: number, int2: number): void {
             }
         };
     };
-    IF_SETTEXT(string0, comp(1866, 27));
+    IF_SETTEXT(string0, comp(1866, 27));  // sworld_hud:sworld_hud_objective_text
     if ((STRING_LENGTH(struct_getparam(int0, 6513)) > 0)) {
         string0 = struct_getparam(int0, 6513);
         if ((STRING_LENGTH(struct_getparam(int0, 6514)) > 0)) {
@@ -37,6 +37,6 @@ function script5811(int0: number, int1: number, int2: number): void {
             };
         };
     };
-    IF_SETTEXT(string0, comp(1866, 80));
+    IF_SETTEXT(string0, comp(1866, 80));  // sworld_hud:sworld_hud_objective_text_1
     return;
 }

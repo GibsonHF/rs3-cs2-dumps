@@ -1,6 +1,6 @@
 //
 function script7374(int0: number, int1: number): void {
-    var int2 = comp(1379, 79);
+    var int2 = comp(1379, 79);  // pop_manager:selected_item
     IF_SETHIDE(false, int2);
     var int3 = (IF_GETX(int0) + IF_GETX(IF_GETPARENTLAYER(int0)));
     var int4 = (IF_GETY(int0) + IF_GETY(IF_GETPARENTLAYER(int0)));

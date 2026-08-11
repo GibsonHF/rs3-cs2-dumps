@@ -1,6 +1,6 @@
 //
 function script2018(int0: number): void {
-    IF_OPENSUBCLIENT(comp(1477, 880), 1476);
+    IF_OPENSUBCLIENT(comp(1477, 880), 1476);  // toplevel_v2:no_displayname_layer
     var string0 = "";
     var string1 = "";
     var string2 = "";

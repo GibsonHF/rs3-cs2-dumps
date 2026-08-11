@@ -1,7 +1,7 @@
 //
 function script14952(): void {
-    var int0 = comp(477, 7);
-    var int1 = comp(477, 8);
+    var int0 = comp(477, 7);  // arch_material_storage_info:build_layer
+    var int1 = comp(477, 8);  // arch_material_storage_info:control_layer
     if (((IF_GETNEXTSUBID(int0) == 0) && (IF_GETNEXTSUBID(int1) == 0))) {
         script14953();
         return;

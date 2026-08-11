@@ -4,19 +4,19 @@ function script9179(int0: number, int1: number, int2: number): void {
     var int4 = 0;
     if ((int2 == 1)) {
         if ((script9178(struct_getparam(int0, 1268)) == 0)) {
-            CC_CREATE(comp(1344, 26), 5, int1);
+            CC_CREATE(comp(1344, 26), 5, int1);  // minigames_main:button_tracker_icons
             CC_SETHIDE(true);
-            CC_CREATE(comp(1344, 27), 4, int1);
+            CC_CREATE(comp(1344, 27), 4, int1);  // minigames_main:button_tracker_labels
             CC_SETHIDE(true);
         } else if ((struct_getparam(int0, 3812) == 1)) {
             if ((script3224(struct_getparam(int0, 1268)) == 0)) {
-                CC_CREATE(comp(1344, 26), 5, int1);
+                CC_CREATE(comp(1344, 26), 5, int1);  // minigames_main:button_tracker_icons
                 CC_SETHIDE(true);
-                CC_CREATE(comp(1344, 27), 4, int1);
+                CC_CREATE(comp(1344, 27), 4, int1);  // minigames_main:button_tracker_labels
                 CC_SETHIDE(true);
             } else {
                 [int3, int4] = script9132(struct_getparam(int0, 1268));
-                CC_CREATE(comp(1344, 26), 5, int1);
+                CC_CREATE(comp(1344, 26), 5, int1);  // minigames_main:button_tracker_icons
                 switch (int3) {
                     case 0: {
                         CC_SETGRAPHIC(21101 as graphic);
@@ -49,7 +49,7 @@ function script9179(int0: number, int1: number, int2: number): void {
                 CC_SETSIZE(40, 40, 0, 0);
                 CC_SETONMOUSELEAVE(callback(script8805));
                 CC_SETONMOUSEREPEAT(callback(script9134, -2147483645, -2147483643));
-                CC_CREATE(comp(1344, 27), 4, int1);
+                CC_CREATE(comp(1344, 27), 4, int1);  // minigames_main:button_tracker_labels
                 CC_SETTEXTFONT(26 as fontmetrics);
                 switch (int3) {
                     case 0: {
@@ -97,7 +97,7 @@ function script9179(int0: number, int1: number, int2: number): void {
             };
         } else {
             [int3, int4] = script9132(struct_getparam(int0, 1268));
-            CC_CREATE(comp(1344, 26), 5, int1);
+            CC_CREATE(comp(1344, 26), 5, int1);  // minigames_main:button_tracker_icons
             switch (int3) {
                 case 0: {
                     CC_SETGRAPHIC(21101 as graphic);
@@ -130,7 +130,7 @@ function script9179(int0: number, int1: number, int2: number): void {
             CC_SETSIZE(40, 40, 0, 0);
             CC_SETONMOUSELEAVE(callback(script8805));
             CC_SETONMOUSEREPEAT(callback(script9134, -2147483645, -2147483643));
-            CC_CREATE(comp(1344, 27), 4, int1);
+            CC_CREATE(comp(1344, 27), 4, int1);  // minigames_main:button_tracker_labels
             CC_SETTEXTFONT(26 as fontmetrics);
             switch (int3) {
                 case 0: {
@@ -178,13 +178,13 @@ function script9179(int0: number, int1: number, int2: number): void {
         };
     } else if ((struct_getparam(int0, 3812) == 1)) {
         if ((script3224(struct_getparam(int0, 1268)) == 0)) {
-            CC_CREATE(comp(1344, 26), 5, int1);
+            CC_CREATE(comp(1344, 26), 5, int1);  // minigames_main:button_tracker_icons
             CC_SETHIDE(true);
-            CC_CREATE(comp(1344, 27), 4, int1);
+            CC_CREATE(comp(1344, 27), 4, int1);  // minigames_main:button_tracker_labels
             CC_SETHIDE(true);
         } else {
             [int3, int4] = script9132(struct_getparam(int0, 1268));
-            CC_CREATE(comp(1344, 26), 5, int1);
+            CC_CREATE(comp(1344, 26), 5, int1);  // minigames_main:button_tracker_icons
             switch (int3) {
                 case 0: {
                     CC_SETGRAPHIC(21101 as graphic);
@@ -217,7 +217,7 @@ function script9179(int0: number, int1: number, int2: number): void {
             CC_SETSIZE(40, 40, 0, 0);
             CC_SETONMOUSELEAVE(callback(script8805));
             CC_SETONMOUSEREPEAT(callback(script9134, -2147483645, -2147483643));
-            CC_CREATE(comp(1344, 27), 4, int1);
+            CC_CREATE(comp(1344, 27), 4, int1);  // minigames_main:button_tracker_labels
             CC_SETTEXTFONT(26 as fontmetrics);
             switch (int3) {
                 case 0: {
@@ -265,7 +265,7 @@ function script9179(int0: number, int1: number, int2: number): void {
         };
     } else {
         [int3, int4] = script9132(struct_getparam(int0, 1268));
-        CC_CREATE(comp(1344, 26), 5, int1);
+        CC_CREATE(comp(1344, 26), 5, int1);  // minigames_main:button_tracker_icons
         switch (int3) {
             case 0: {
                 CC_SETGRAPHIC(21101 as graphic);
@@ -298,7 +298,7 @@ function script9179(int0: number, int1: number, int2: number): void {
         CC_SETSIZE(40, 40, 0, 0);
         CC_SETONMOUSELEAVE(callback(script8805));
         CC_SETONMOUSEREPEAT(callback(script9134, -2147483645, -2147483643));
-        CC_CREATE(comp(1344, 27), 4, int1);
+        CC_CREATE(comp(1344, 27), 4, int1);  // minigames_main:button_tracker_labels
         CC_SETTEXTFONT(26 as fontmetrics);
         switch (int3) {
             case 0: {
@@ -344,7 +344,7 @@ function script9179(int0: number, int1: number, int2: number): void {
         CC_SETONMOUSELEAVE(callback(script8805));
         CC_SETONMOUSEREPEAT(callback(script9134, -2147483645, -2147483643));
     };
-    if ((CC_FIND(comp(1344, 25), int1) == 1)) {
+    if ((CC_FIND(comp(1344, 25), int1) == 1)) {  // minigames_main:button_labels
         switch (int3) {
             case 0: {
                 CC_SETCOLOUR(16763656);

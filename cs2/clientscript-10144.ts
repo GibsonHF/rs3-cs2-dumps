@@ -14,25 +14,25 @@ function script10144(): void {
     var int8 = -1;
     if ((int0 == 0)) {
         printmessage("No supported webcam detected.");
-        IF_SETHIDE(false, comp(232, 138));
-        IF_SETHIDE(true, comp(232, 129));
+        IF_SETHIDE(false, comp(232, 138));  // toplevel_v2_parent_suboverlay_twitch:checkbox_selected_disabled_layer
+        IF_SETHIDE(true, comp(232, 129));  // toplevel_v2_parent_suboverlay_twitch:webcam_list_layer
         script10145();
         return;
     };
     int1 = TTV_WEBCAM_GETDEVICE_COUNT();
     if ((int1 == 0)) {
         printmessage("No webcam detected. If you connect a webcam you must log out and back in to Twitch to detect it.");
-        IF_SETHIDE(false, comp(232, 138));
+        IF_SETHIDE(false, comp(232, 138));  // toplevel_v2_parent_suboverlay_twitch:checkbox_selected_disabled_layer
         script10145();
         return;
     };
     printmessage("Webcam detected.");
     if ((int1 > 1)) {
-        IF_SETHIDE(false, comp(232, 132));
-        IF_SETHIDE(false, comp(232, 133));
+        IF_SETHIDE(false, comp(232, 132));  // toplevel_v2_parent_suboverlay_twitch:webcam_name_right
+        IF_SETHIDE(false, comp(232, 133));  // toplevel_v2_parent_suboverlay_twitch:webcam_name_left
     } else {
-        IF_SETHIDE(true, comp(232, 132));
-        IF_SETHIDE(true, comp(232, 133));
+        IF_SETHIDE(true, comp(232, 132));  // toplevel_v2_parent_suboverlay_twitch:webcam_name_right
+        IF_SETHIDE(true, comp(232, 133));  // toplevel_v2_parent_suboverlay_twitch:webcam_name_left
     };
     [int2, string0, string1] = TTV_WEBCAM_GETDEVICE_BYINDEX(0);
     if ((int2 == -1)) {
@@ -45,9 +45,9 @@ function script10144(): void {
         };
         varclient_4291 = string0;
         varclient_4292 = int5;
-        IF_SETTEXT(string1, comp(232, 131));
-        IF_SETHIDE(true, comp(232, 138));
-        IF_SETTEXT(`${inttostring(int6, 10)} x ${inttostring(int7, 10)}, framerate: ${inttostring(int8, 10)}`, comp(232, 135));
+        IF_SETTEXT(string1, comp(232, 131));  // toplevel_v2_parent_suboverlay_twitch:webcam_name
+        IF_SETHIDE(true, comp(232, 138));  // toplevel_v2_parent_suboverlay_twitch:checkbox_selected_disabled_layer
+        IF_SETTEXT(`${inttostring(int6, 10)} x ${inttostring(int7, 10)}, framerate: ${inttostring(int8, 10)}`, comp(232, 135));  // toplevel_v2_parent_suboverlay_twitch:webcam_options
     };
     return;
 }

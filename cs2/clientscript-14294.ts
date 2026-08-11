@@ -5,7 +5,7 @@ function script14294(): number {
     var int2 = -1 as obj;
     var int3 = script14337();
     while ((int0 < int3)) {
-        if ((CC_FIND(comp(517, 201), int0) == 1)) {
+        if ((CC_FIND(comp(517, 201), int0) == 1)) {  // bank:bank_inv
             int2 = CC_GETINVOBJECT();
         };
         if ((((int2 != -1 as obj) && (int2 != 48447 as obj)) && (OC_MEMBERS(int2) == 0))) {

@@ -1,6 +1,6 @@
 //
 function script11116(int0: number): void {
-    var int1 = comp(1598, 35);
+    var int1 = comp(1598, 35);  // easter15_combine_overlay:egg_content_layer
     CC_DELETEALL(int1);
     var int2 = 0;
     var int3 = -1 as obj;
@@ -31,9 +31,9 @@ function script11116(int0: number): void {
         int2 = (int2 + 1);
     };
     if (((int0 == 3) || (int0 == 1))) {
-        IF_SETTEXT("Which egg do you want to start with?", comp(1598, 36));
+        IF_SETTEXT("Which egg do you want to start with?", comp(1598, 36));  // easter15_combine_overlay:egg_title
     } else {
-        IF_SETTEXT("Which egg's effect do you want to apply?", comp(1598, 36));
+        IF_SETTEXT("Which egg's effect do you want to apply?", comp(1598, 36));  // easter15_combine_overlay:egg_title
     };
     return;
 }

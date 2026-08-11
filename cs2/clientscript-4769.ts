@@ -34,15 +34,15 @@ function script4769(int0: number, int1: number, int2: number, int3: number, int4
     var int40 = 0;
     if ((int0 == 1)) {
         int11 = 300;
-        int13 = comp(1115, 67);
+        int13 = comp(1115, 67);  // clan_build_jobs:list_downgrade_content
         int14 = 73072706;
     } else if ((int0 == 2)) {
         int11 = 600;
-        int13 = comp(1115, 65);
+        int13 = comp(1115, 65);  // clan_build_jobs:list_upkeep_content
         int14 = 73072704;
     } else {
         int11 = 900;
-        int13 = comp(1115, 63);
+        int13 = comp(1115, 63);  // clan_build_jobs:list_upgrade_content
         int14 = 73072702;
         varclient_1561 = 0;
         varclient_1562 = 0;

@@ -1,7 +1,7 @@
 //
 function script9291(int0: number, int1: number): void {
     script7944();
-    var int2 = comp(1851, 40);
+    var int2 = comp(1851, 40);  // achievements_sub:build_layer
     var int3 = -1;
     if ((IF_FIND(int2) == 1)) {
         int3 = cc_getparam(7161);
@@ -11,7 +11,7 @@ function script9291(int0: number, int1: number): void {
         varclient_6918 = -1;
         varclient_6919 = -1;
     };
-    IF_SETHIDE(true, comp(1851, 41));
+    IF_SETHIDE(true, comp(1851, 41));  // achievements_sub:cheevo_details
     script15343(int3, 0);
     var int4 = 60;
     if ((varbitplayer_37059 == 1)) {
@@ -41,9 +41,9 @@ function script9291(int0: number, int1: number): void {
         varclient_6918 = int0;
         varclient_6919 = int1;
     };
-    CC_DELETEALL(comp(1851, 43));
+    CC_DELETEALL(comp(1851, 43));  // achievements_sub:cheevo_details_grid
     if ((CC_FIND(int2, int0) == 1)) {
-        IF_SETPOSITION(0, (CC_GETY() + CC_GETHEIGHT()), 0, 0, comp(1851, 41));
+        IF_SETPOSITION(0, (CC_GETY() + CC_GETHEIGHT()), 0, 0, comp(1851, 41));  // achievements_sub:cheevo_details
     };
     var int8 = unk10981(int1);
     var int9 = 2;
@@ -200,11 +200,11 @@ function script9291(int0: number, int1: number): void {
         int10 = (int10 + 1);
     };
     unk11013(0, int9, int10, 121307179);
-    var int20 = (((int12 * int10) + ((IF_GETCHILDSPACING(comp(1851, 43)) * int10) - 1)) + 6);
-    IF_SETSIZE(0, int20, 1, 0, comp(1851, 41));
-    IF_SETHIDE(false, comp(1851, 41));
-    script15343(int0, IF_GETHEIGHT(comp(1851, 41)));
-    int6 = (int6 + IF_GETHEIGHT(comp(1851, 41)));
+    var int20 = (((int12 * int10) + ((IF_GETCHILDSPACING(comp(1851, 43)) * int10) - 1)) + 6);  // achievements_sub:cheevo_details_grid
+    IF_SETSIZE(0, int20, 1, 0, comp(1851, 41));  // achievements_sub:cheevo_details
+    IF_SETHIDE(false, comp(1851, 41));  // achievements_sub:cheevo_details
+    script15343(int0, IF_GETHEIGHT(comp(1851, 41)));  // achievements_sub:cheevo_details
+    int6 = (int6 + IF_GETHEIGHT(comp(1851, 41)));  // achievements_sub:cheevo_details
     script15341(int2, int6, int5);
     return;
 }

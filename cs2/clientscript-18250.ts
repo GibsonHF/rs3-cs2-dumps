@@ -1,6 +1,6 @@
 //
 function script18250(): void {
-    IF_SETHIDE(true, comp(1343, 27));
+    IF_SETHIDE(true, comp(1343, 27));  // jobs_main:weekly_progress_layer
     var int0 = script18249();
     var int1 = script18160(varplayer_3233);
     if ((int1 < 1)) {

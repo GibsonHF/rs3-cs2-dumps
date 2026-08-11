@@ -3,42 +3,42 @@ function script7962(): void {
     var int0 = -1;
     var int1 = -1;
     var int2 = -1;
-    IF_SETHIDE(true, comp(1490, 38));
-    IF_SETHIDE(true, comp(1490, 41));
-    IF_SETHIDE(true, comp(1490, 44));
-    IF_SETHIDE(true, comp(1490, 47));
-    IF_SETHIDE(true, comp(1490, 50));
-    IF_SETHIDE(true, comp(1490, 53));
-    IF_SETHIDE(true, comp(1490, 56));
-    IF_SETHIDE(true, comp(1490, 59));
-    IF_SETHIDE(true, comp(1490, 62));
-    IF_SETHIDE(true, comp(1490, 65));
-    IF_SETHIDE(true, comp(1490, 68));
-    IF_SETHIDE(true, comp(1490, 71));
-    IF_SETTEXT("", comp(1490, 39));
-    IF_SETTEXT("", comp(1490, 42));
-    IF_SETTEXT("", comp(1490, 45));
-    IF_SETTEXT("", comp(1490, 48));
-    IF_SETTEXT("", comp(1490, 51));
-    IF_SETTEXT("", comp(1490, 54));
-    IF_SETTEXT("", comp(1490, 57));
-    IF_SETTEXT("", comp(1490, 60));
-    IF_SETTEXT("", comp(1490, 63));
-    IF_SETTEXT("", comp(1490, 66));
-    IF_SETTEXT("", comp(1490, 69));
-    IF_SETTEXT("", comp(1490, 72));
-    IF_SETHIDE(true, comp(1490, 40));
-    IF_SETHIDE(true, comp(1490, 43));
-    IF_SETHIDE(true, comp(1490, 46));
-    IF_SETHIDE(true, comp(1490, 49));
-    IF_SETHIDE(true, comp(1490, 52));
-    IF_SETHIDE(true, comp(1490, 55));
-    IF_SETHIDE(true, comp(1490, 58));
-    IF_SETHIDE(true, comp(1490, 61));
-    IF_SETHIDE(true, comp(1490, 64));
-    IF_SETHIDE(true, comp(1490, 67));
-    IF_SETHIDE(true, comp(1490, 70));
-    IF_SETHIDE(true, comp(1490, 73));
+    IF_SETHIDE(true, comp(1490, 38));  // toplevel_v2_target_info:graphic_0
+    IF_SETHIDE(true, comp(1490, 41));  // toplevel_v2_target_info:graphic_1
+    IF_SETHIDE(true, comp(1490, 44));  // toplevel_v2_target_info:graphic_2
+    IF_SETHIDE(true, comp(1490, 47));  // toplevel_v2_target_info:graphic_3
+    IF_SETHIDE(true, comp(1490, 50));  // toplevel_v2_target_info:graphic_4
+    IF_SETHIDE(true, comp(1490, 53));  // toplevel_v2_target_info:graphic_5
+    IF_SETHIDE(true, comp(1490, 56));  // toplevel_v2_target_info:graphic_6
+    IF_SETHIDE(true, comp(1490, 59));  // toplevel_v2_target_info:graphic_7
+    IF_SETHIDE(true, comp(1490, 62));  // toplevel_v2_target_info:graphic_8
+    IF_SETHIDE(true, comp(1490, 65));  // toplevel_v2_target_info:graphic_9
+    IF_SETHIDE(true, comp(1490, 68));  // toplevel_v2_target_info:graphic_10
+    IF_SETHIDE(true, comp(1490, 71));  // toplevel_v2_target_info:graphic_11
+    IF_SETTEXT("", comp(1490, 39));  // toplevel_v2_target_info:text_0
+    IF_SETTEXT("", comp(1490, 42));  // toplevel_v2_target_info:text_1
+    IF_SETTEXT("", comp(1490, 45));  // toplevel_v2_target_info:text_2
+    IF_SETTEXT("", comp(1490, 48));  // toplevel_v2_target_info:text_3
+    IF_SETTEXT("", comp(1490, 51));  // toplevel_v2_target_info:text_4
+    IF_SETTEXT("", comp(1490, 54));  // toplevel_v2_target_info:text_5
+    IF_SETTEXT("", comp(1490, 57));  // toplevel_v2_target_info:text_6
+    IF_SETTEXT("", comp(1490, 60));  // toplevel_v2_target_info:text_7
+    IF_SETTEXT("", comp(1490, 63));  // toplevel_v2_target_info:text_8
+    IF_SETTEXT("", comp(1490, 66));  // toplevel_v2_target_info:text_9
+    IF_SETTEXT("", comp(1490, 69));  // toplevel_v2_target_info:text_10
+    IF_SETTEXT("", comp(1490, 72));  // toplevel_v2_target_info:text_11
+    IF_SETHIDE(true, comp(1490, 40));  // toplevel_v2_target_info:rect_0
+    IF_SETHIDE(true, comp(1490, 43));  // toplevel_v2_target_info:rect_1
+    IF_SETHIDE(true, comp(1490, 46));  // toplevel_v2_target_info:rect_2
+    IF_SETHIDE(true, comp(1490, 49));  // toplevel_v2_target_info:rect_3
+    IF_SETHIDE(true, comp(1490, 52));  // toplevel_v2_target_info:rect_4
+    IF_SETHIDE(true, comp(1490, 55));  // toplevel_v2_target_info:rect_5
+    IF_SETHIDE(true, comp(1490, 58));  // toplevel_v2_target_info:rect_6
+    IF_SETHIDE(true, comp(1490, 61));  // toplevel_v2_target_info:rect_7
+    IF_SETHIDE(true, comp(1490, 64));  // toplevel_v2_target_info:rect_8
+    IF_SETHIDE(true, comp(1490, 67));  // toplevel_v2_target_info:rect_9
+    IF_SETHIDE(true, comp(1490, 70));  // toplevel_v2_target_info:rect_10
+    IF_SETHIDE(true, comp(1490, 73));  // toplevel_v2_target_info:rect_11
     var int3 = 0;
     var int4 = 0;
     var int5 = -1;

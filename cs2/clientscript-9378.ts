@@ -1,17 +1,17 @@
 //
 function script9378(): void {
-    IF_SETSCROLLPOS(0, 0, comp(209, 4));
-    IF_SETSCROLLSIZE(0, 0, comp(209, 4));
-    CC_DELETEALL(comp(209, 6));
+    IF_SETSCROLLPOS(0, 0, comp(209, 4));  // activity_tracker_embedded_more_info:contents_wrapper
+    IF_SETSCROLLSIZE(0, 0, comp(209, 4));  // activity_tracker_embedded_more_info:contents_wrapper
+    CC_DELETEALL(comp(209, 6));  // activity_tracker_embedded_more_info:scrollbar_layer
     if ((varplayer_8741 == 0)) {
-        IF_SETHIDE(true, comp(209, 4));
-        IF_SETHIDE(false, comp(209, 7));
+        IF_SETHIDE(true, comp(209, 4));  // activity_tracker_embedded_more_info:contents_wrapper
+        IF_SETHIDE(false, comp(209, 7));  // activity_tracker_embedded_more_info:nothing_tracked
         return;
     };
-    IF_SETHIDE(false, comp(209, 4));
-    IF_SETHIDE(true, comp(209, 7));
-    var int0 = comp(209, 5);
-    var int1 = comp(209, 8);
+    IF_SETHIDE(false, comp(209, 4));  // activity_tracker_embedded_more_info:contents_wrapper
+    IF_SETHIDE(true, comp(209, 7));  // activity_tracker_embedded_more_info:nothing_tracked
+    var int0 = comp(209, 5);  // activity_tracker_embedded_more_info:contents_build_layer
+    var int1 = comp(209, 8);  // activity_tracker_embedded_more_info:contents_click_layer
     CC_DELETEALL(int0);
     CC_DELETEALL(int1);
     var int2 = IF_GETWIDTH(int0);
@@ -152,7 +152,7 @@ function script9378(): void {
     };
     int3 = script9391(int0, int3, int5, int6, int7);
     if ((int3 > IF_GETHEIGHT(int0))) {
-        IF_SETSCROLLSIZE(0, int3, comp(209, 4));
+        IF_SETSCROLLSIZE(0, int3, comp(209, 4));  // activity_tracker_embedded_more_info:contents_wrapper
         script7791(13697030, 13697028);
     };
     return;

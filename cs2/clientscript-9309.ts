@@ -1,6 +1,6 @@
 //
 function script9309(int0: number): number {
-    while ((CC_FIND(comp(517, 201), int0) == 1)) {
+    while ((CC_FIND(comp(517, 201), int0) == 1)) {  // bank:bank_inv
         if (((CC_GETINVOBJECT() == 48447 as obj) || (CC_GETINVCOUNT() <= 0))) {
             return int0;
         };

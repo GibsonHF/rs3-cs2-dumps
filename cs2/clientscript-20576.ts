@@ -50,8 +50,8 @@ function script20576(): void {
         string2 = `You will receive ${TOSTRING_LOCALISED(int1, 1)} Bonus XP in ${string0}.`;
     };
     script6046(`${string1}${string2}`, 97321028, 50);
-    IF_SETTEXT(TOSTRING_LOCALISED(varplayer_12584, 1), comp(1485, 82));
-    IF_SETTEXT(`You are using ${inttostring(varplayer_12584, 10)} Radiant ${script4583(varplayer_12584, "Star", "Stars")}.<br>You will receive ${TOSTRING_LOCALISED(int1, 1)} Bonus XP in ${string0}.`, comp(1485, 125));
+    IF_SETTEXT(TOSTRING_LOCALISED(varplayer_12584, 1), comp(1485, 82));  // marketplace_bonus_xp_redeem:quantity_input_display
+    IF_SETTEXT(`You are using ${inttostring(varplayer_12584, 10)} Radiant ${script4583(varplayer_12584, "Star", "Stars")}.<br>You will receive ${TOSTRING_LOCALISED(int1, 1)} Bonus XP in ${string0}.`, comp(1485, 125));  // marketplace_bonus_xp_redeem:output_confirm
     script20560();
     return;
 }

@@ -1,6 +1,6 @@
 //
 function script6103(): void {
-    IF_SETTEXT(varclient_2361, comp(1265, 59));
+    IF_SETTEXT(varclient_2361, comp(1265, 59));  // shop_main:item_description
     var string0 = "";
     var string1 = "";
     switch (varclient_1876) {
@@ -87,7 +87,7 @@ function script6103(): void {
             break;
         }
     };
-    IF_SETTEXT(string0, comp(1265, 63));
+    IF_SETTEXT(string0, comp(1265, 63));  // shop_main:item_info
     switch (varclient_1876) {
         case 0: {
             string1 = "It is worn on the head.";
@@ -256,6 +256,6 @@ function script6103(): void {
             break;
         }
     };
-    IF_SETTEXT(string1, comp(1265, 64));
+    IF_SETTEXT(string1, comp(1265, 64));  // shop_main:item_more_info
     return;
 }

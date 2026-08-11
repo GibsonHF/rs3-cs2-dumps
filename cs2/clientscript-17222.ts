@@ -9,22 +9,22 @@ function script17222(int0: number, int1: number, int2: number, int3: number, int
     IF_SETTEXT(inttostring((1 + int5), 10), int3);
     IF_SETTEXT(inttostring((2 + int5), 10), int4);
     if ((int5 == 0)) {
-        IF_SETHIDE(true, comp(1030, 20));
+        IF_SETHIDE(true, comp(1030, 20));  // quest_fort_casefile:entries_navigate_left
     } else {
-        IF_SETHIDE(false, comp(1030, 20));
+        IF_SETHIDE(false, comp(1030, 20));  // quest_fort_casefile:entries_navigate_left
     };
     if ((int5 > 0)) {
         if ((int1 > 0)) {
             if ((int1 == (IF_GETSCROLLHEIGHT(int0) - IF_GETSCROLLY(int0)))) {
-                IF_SETHIDE(true, comp(1030, 21));
+                IF_SETHIDE(true, comp(1030, 21));  // quest_fort_casefile:entries_navigate_right
             } else {
-                IF_SETHIDE(false, comp(1030, 21));
+                IF_SETHIDE(false, comp(1030, 21));  // quest_fort_casefile:entries_navigate_right
             };
         } else {
-            IF_SETHIDE(false, comp(1030, 21));
+            IF_SETHIDE(false, comp(1030, 21));  // quest_fort_casefile:entries_navigate_right
         };
     } else {
-        IF_SETHIDE(false, comp(1030, 21));
+        IF_SETHIDE(false, comp(1030, 21));  // quest_fort_casefile:entries_navigate_right
     };
     return;
 }

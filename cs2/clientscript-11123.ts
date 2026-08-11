@@ -1,6 +1,6 @@
 //
 function script11123(string0: string): void {
-    var int0 = comp(1599, 3);
+    var int0 = comp(1599, 3);  // easter15_egg_select:egg_panel
     CC_DELETEALL(int0);
     var int1 = 0;
     var int2 = -1 as obj;
@@ -22,6 +22,6 @@ function script11123(string0: string): void {
         int1 = (int1 + 1);
     };
     IF_SETSIZE(((int4 * 44) + 4), 50, 0, 0, int0);
-    IF_SETTEXT(string0, comp(1599, 4));
+    IF_SETTEXT(string0, comp(1599, 4));  // easter15_egg_select:message
     return;
 }

@@ -7,8 +7,8 @@ function script18005(int0: number, int1: number): void {
     var int6 = 0;
     var int7 = -1;
     [int2, int3, int4, int5, int6, int7] = script17884(int0);
-    var int8 = comp(1227, 14);
-    var int9 = comp(1227, 17);
+    var int8 = comp(1227, 14);  // bp3_track_tab:reward_cosmetic_display
+    var int9 = comp(1227, 17);  // bp3_track_tab:reward_object_display
     var int10 = -1;
     IF_SETHIDE(true, int8);
     IF_SETHIDE(true, int9);

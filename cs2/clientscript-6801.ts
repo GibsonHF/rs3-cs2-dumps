@@ -8,8 +8,8 @@ function script6801(int0: number, int1: number, int2: number, int3: number): voi
     var int5 = 1;
     var int6 = 120;
     var string0 = "";
-    IF_SETTEXT(`${inttostring(script2073(), 10)}/${inttostring(script2072(), 10)}`, comp(176, 44));
-    IF_SETTEXT(`Max resources: ${TOSTRING_LOCALISED(script6641(), 1)}`, comp(176, 38));
+    IF_SETTEXT(`${inttostring(script2073(), 10)}/${inttostring(script2072(), 10)}`, comp(176, 44));  // dino_base_camp:total_workers_text
+    IF_SETTEXT(`Max resources: ${TOSTRING_LOCALISED(script6641(), 1)}`, comp(176, 38));  // dino_base_camp:max_resources_text
     while ((int5 <= 6)) {
         CC_CREATE(int0, 4, IF_GETNEXTSUBID(int0));
         CC_SETSIZE(100, 24, 0, 0);

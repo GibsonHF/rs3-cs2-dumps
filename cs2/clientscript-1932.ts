@@ -1,6 +1,6 @@
 //
 function script1932(): void {
-    IF_SETHIDE(false, comp(267, 43));
+    IF_SETHIDE(false, comp(267, 43));  // qps:info_panel
     script14093(17498155, -1, 227, 0, 0, 1, 15, 2);
     switch (RANDOM(4)) {
         case 0: {

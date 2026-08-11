@@ -2,10 +2,10 @@
 function script16573(int0: number): void {
     if ((int0 != 0)) {
         var int0 = (int0 - 1);
-        IF_SETONTIMER(callback(script16573, int0), comp(485, 11));
+        IF_SETONTIMER(callback(script16573, int0), comp(485, 11));  // trh181_overlay:gemfall_timer
         return;
     };
-    IF_SETONTIMER(callback(script16582, 120), comp(485, 11));
+    IF_SETONTIMER(callback(script16582, 120), comp(485, 11));  // trh181_overlay:gemfall_timer
     var int1 = -1;
     int1 = (int1 + 1);
     while ((int1 < 5)) {

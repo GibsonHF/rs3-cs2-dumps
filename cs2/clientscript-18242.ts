@@ -373,7 +373,7 @@ function script18242(int0: number, int1: number, int2: number): void {
     } else {
         string0 = script17040(int3);
     };
-    if ((CC_FIND(comp(1343, 19), int1) == 1)) {
+    if ((CC_FIND(comp(1343, 19), int1) == 1)) {  // jobs_main:button_graphics
         int13 = (0 + ((49 + 10) * int2));
         script7858(int1, 0, int12, int13, 0, 0, (254 - 3), 49, 0, 0, 4476, string0);
         script7872(script12585(int14), 1, 1, int16);
@@ -385,7 +385,7 @@ function script18242(int0: number, int1: number, int2: number): void {
     var int20 = 0;
     var int21 = 0;
     var int22 = 0;
-    if ((CC_FIND(comp(1343, 20), int1) == 1)) {
+    if ((CC_FIND(comp(1343, 20), int1) == 1)) {  // jobs_main:button_icons
         int11 = struct_getparam(int0, 1271);
         if (((int3 == -1) && (int15 != -2))) {
             int11 = 13161 as graphic;
@@ -414,7 +414,7 @@ function script18242(int0: number, int1: number, int2: number): void {
         int22 = CC_GETHEIGHT();
     };
     var int23 = -1 as graphic;
-    if ((CC_FIND(comp(1343, 22), int1) == 1)) {
+    if ((CC_FIND(comp(1343, 22), int1) == 1)) {  // jobs_main:button_stamps
         switch (int4) {
             case 2: {
                 int23 = script3561(-2);
@@ -430,7 +430,7 @@ function script18242(int0: number, int1: number, int2: number): void {
             CC_SETPOSITION(int19, int20, 0, 0);
         };
     };
-    if (((int3 != -1) && (CC_FIND(comp(1343, 23), int1) == 1))) {
+    if (((int3 != -1) && (CC_FIND(comp(1343, 23), int1) == 1))) {  // jobs_main:button_clickboxes
         CC_SETHIDE(false);
         CC_SETSIZE(254, 49, 0, 0);
         CC_SETPOSITION(1, (0 + ((49 + 10) * int2)), 0, 0);

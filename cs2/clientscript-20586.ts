@@ -18,6 +18,6 @@ function script20586(): void {
             break;
         }
     };
-    IF_SETHIDE(true, comp(1485, 73));
+    IF_SETHIDE(true, comp(1485, 73));  // marketplace_bonus_xp_redeem:preview_popup
     return;
 }

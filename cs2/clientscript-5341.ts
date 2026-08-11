@@ -9,9 +9,9 @@ function script5341(int0: number): void {
             CAM_MOVETO(39160881, 1350, 1000, 100);
             CAM_LOOKAT(39095339, 25, 1000, 100);
         };
-        IF_SETGRAPHIC(18526 as graphic, comp(54, 8));
-        IF_SETGRAPHIC(18525 as graphic, comp(54, 128));
-        IF_SETGRAPHIC(18526 as graphic, comp(54, 130));
+        IF_SETGRAPHIC(18526 as graphic, comp(54, 8));  // castlewars_catapult:view1_graphic
+        IF_SETGRAPHIC(18525 as graphic, comp(54, 128));  // castlewars_catapult:view2_graphic
+        IF_SETGRAPHIC(18526 as graphic, comp(54, 130));  // castlewars_catapult:view3_graphic
     } else if ((int0 == 3)) {
         varclient_1278 = 3;
         if ((varbitplayer_4185 == 1)) {
@@ -21,9 +21,9 @@ function script5341(int0: number): void {
             CAM_MOVETO(39357491, 1325, 1000, 100);
             CAM_LOOKAT(39177268, 25, 1000, 100);
         };
-        IF_SETGRAPHIC(18526 as graphic, comp(54, 8));
-        IF_SETGRAPHIC(18526 as graphic, comp(54, 128));
-        IF_SETGRAPHIC(18525 as graphic, comp(54, 130));
+        IF_SETGRAPHIC(18526 as graphic, comp(54, 8));  // castlewars_catapult:view1_graphic
+        IF_SETGRAPHIC(18526 as graphic, comp(54, 128));  // castlewars_catapult:view2_graphic
+        IF_SETGRAPHIC(18525 as graphic, comp(54, 130));  // castlewars_catapult:view3_graphic
     } else {
         varclient_1278 = 1;
         if ((varbitplayer_4185 == 1)) {
@@ -33,9 +33,9 @@ function script5341(int0: number): void {
             CAM_MOVETO(38800431, 1575, 1000, 100);
             CAM_LOOKAT(38898728, 25, 1000, 100);
         };
-        IF_SETGRAPHIC(18525 as graphic, comp(54, 8));
-        IF_SETGRAPHIC(18526 as graphic, comp(54, 128));
-        IF_SETGRAPHIC(18526 as graphic, comp(54, 130));
+        IF_SETGRAPHIC(18525 as graphic, comp(54, 8));  // castlewars_catapult:view1_graphic
+        IF_SETGRAPHIC(18526 as graphic, comp(54, 128));  // castlewars_catapult:view2_graphic
+        IF_SETGRAPHIC(18526 as graphic, comp(54, 130));  // castlewars_catapult:view3_graphic
     };
     return;
 }

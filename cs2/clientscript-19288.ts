@@ -2,8 +2,8 @@
 function script19288(int0: number, int1: number, int2: number): void {
     script19251(inttostring(int0, 10), 84541525, script19223(0, 84541525));
     unk10997(84541470);
-    IF_SETMODELANIM(-1 as seq, comp(1290, 83));
-    IF_SETMODELANIM(int1, comp(1290, 83));
+    IF_SETMODELANIM(-1 as seq, comp(1290, 83));  // trh_dungeon_crawl_overlay:boss_encounter_npc_model
+    IF_SETMODELANIM(int1, comp(1290, 83));  // trh_dungeon_crawl_overlay:boss_encounter_npc_model
     stack(int2);
     stack(16429);
     stack(BAS_GETANIM_READY(dbrow_getfield(varplayer_11902, 1228850, 0)));

@@ -19,14 +19,14 @@ function script5494(int0: number): void {
         string0 = "    ";
     };
     string0 = strconcat(" ", string0);
-    IF_SETTEXT(string0, comp(1072, 6));
+    IF_SETTEXT(string0, comp(1072, 6));  // pop_ship_names:ship_prefix
     if ((strcmp(string1, "") == 0)) {
         string1 = "    ";
     };
     string1 = strconcat(" ", string1);
-    IF_SETTEXT(string1, comp(1072, 9));
+    IF_SETTEXT(string1, comp(1072, 9));  // pop_ship_names:ship_name1
     string2 = strconcat(" ", strconcat(string2, " "));
-    IF_SETTEXT(string2, comp(1072, 12));
+    IF_SETTEXT(string2, comp(1072, 12));  // pop_ship_names:ship_name2
     var int11 = 0;
     var int12 = 0;
     switch (varplayer_3375) {
@@ -46,16 +46,16 @@ function script5494(int0: number): void {
             break;
         }
     };
-    if ((((int12 == varplayer_3376) && (CC_FIND(comp(1072, 18), int11) == 1)) && (CC_GETHIDE() == 0))) {
+    if ((((int12 == varplayer_3376) && (CC_FIND(comp(1072, 18), int11) == 1)) && (CC_GETHIDE() == 0))) {  // pop_ship_names:names_layer
         CC_SETCOLOUR(16239152);
         CC_SETONMOUSEOVER(callback(script5645, int11, 1, 1));
         CC_SETONMOUSELEAVE(callback(script5645, int11, 0, 1));
-        IF_SETHIDE(false, comp(1072, 19));
-        IF_SETPOSITION(CC_GETX(), (CC_GETY() - 2), 0, 0, comp(1072, 19));
+        IF_SETHIDE(false, comp(1072, 19));  // pop_ship_names:name_selected
+        IF_SETPOSITION(CC_GETX(), (CC_GETY() - 2), 0, 0, comp(1072, 19));  // pop_ship_names:name_selected
     };
     script13971(70254621, -1, 28553, "Save", 1);
     script13971(70254622, -1, 28554, "Revert", 1);
-    IF_SETTEXT(inttostring(varplayer_3374, 10), comp(1072, 13));
+    IF_SETTEXT(inttostring(varplayer_3374, 10), comp(1072, 13));  // pop_ship_names:ship_number
     switch (varplayer_3374) {
         case 1: {
             if ((varplayer_3377 != varplayer_3382)) {
@@ -87,11 +87,11 @@ function script5494(int0: number): void {
         }
     };
     if ((script4186() < 2)) {
-        IF_SETHIDE(true, comp(1072, 2));
-        IF_SETHIDE(true, comp(1072, 3));
+        IF_SETHIDE(true, comp(1072, 2));  // pop_ship_names:next_ship
+        IF_SETHIDE(true, comp(1072, 3));  // pop_ship_names:prev_ship
     } else {
-        IF_SETHIDE(false, comp(1072, 2));
-        IF_SETHIDE(false, comp(1072, 3));
+        IF_SETHIDE(false, comp(1072, 2));  // pop_ship_names:next_ship
+        IF_SETHIDE(false, comp(1072, 3));  // pop_ship_names:prev_ship
     };
     return;
 }

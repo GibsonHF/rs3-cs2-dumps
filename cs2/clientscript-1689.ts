@@ -8,7 +8,7 @@ function script1689(): void {
         } else if ((varclient_1045 == 1)) {
             varclient_1046 = MAX((varclient_1046 - 2), 0);
         };
-        IF_SETTRANS(varclient_1046, comp(85, 2));
+        IF_SETTRANS(varclient_1046, comp(85, 2));  // mah4_cutscene_overlay:black_rect
     };
     varclient_1050 = (varclient_1050 + 1);
     if ((varclient_1050 >= (6 - 1))) {
@@ -30,7 +30,7 @@ function script1689(): void {
         } else {
             varclient_1049 = 255;
         };
-        IF_SETTRANS(varclient_1049, comp(85, 1));
+        IF_SETTRANS(varclient_1049, comp(85, 1));  // mah4_cutscene_overlay:yellow_rect
     };
     return;
 }

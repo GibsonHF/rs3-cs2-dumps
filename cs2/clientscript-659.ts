@@ -10,17 +10,17 @@ function script659(int0: number, int1: number, int2: number, int3: number, int4:
         IF_SETONVARTRANSMIT(callback(script15834, -2147483645, int1, int2, int3, int4, int5, 1785, 1831, 4823, 3), int0);
         script664(int0, int1, int2, int3, int4, int5);
     };
-    if ((IF_FIND(comp(1923, 36)) == 1)) {
+    if ((IF_FIND(comp(1923, 36)) == 1)) {  // toplevel_v2_combat_bar_mobile:spell_icon
         CC_SETONTARGETENTER(callback(script697, 126025741));
         stack(callback(script698, 126025741));
         CC_SETONTARGETLEAVE();
     };
-    if ((IF_FIND(comp(1430, 38)) == 1)) {
+    if ((IF_FIND(comp(1430, 38)) == 1)) {  // toplevel_v2_combat_bar:spell_icon
         CC_SETONTARGETENTER(callback(script697, 93716506));
         stack(callback(script698, 93716506));
         CC_SETONTARGETLEAVE();
     };
-    if ((IF_FIND(comp(1506, 18)) == 1)) {
+    if ((IF_FIND(comp(1506, 18)) == 1)) {  // topstat_lore:spell_icon
         CC_SETONTARGETENTER(callback(script697, 98697234));
         stack(callback(script698, 98697234));
         CC_SETONTARGETLEAVE();

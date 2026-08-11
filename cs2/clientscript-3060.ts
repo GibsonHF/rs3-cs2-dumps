@@ -28,9 +28,9 @@ function script3060(int0: number): void {
     };
     if ((int0 == 2)) {
         if ((int1 == 0)) {
-            IF_SETONTIMER(callback(script10055), comp(909, 0));
+            IF_SETONTIMER(callback(script10055), comp(909, 0));  // lobbyscreen_pane_friendslist:main
         } else {
-            IF_SETONTIMER(callback(script10055), comp(1044, 0));
+            IF_SETONTIMER(callback(script10055), comp(1044, 0));  // lobbyscreen_pane_mobile_social:main
         };
     };
     if ((int0 == 1)) {
@@ -40,37 +40,37 @@ function script3060(int0: number): void {
         WORLDLIST_PINGWORLDS(0);
     };
     if ((int0 == 5)) {
-        IF_SETHIDE(true, comp(906, 59));
+        IF_SETHIDE(true, comp(906, 59));  // lobbyscreen:bottom_bar
     } else {
         if ((WORLDLIST_FETCH() == 0)) {
-            IF_SETONTIMER(callback(script13117, -2147483645), comp(906, 6));
+            IF_SETONTIMER(callback(script13117, -2147483645), comp(906, 6));  // lobbyscreen:current_world_timer
         } else {
             script3116();
         };
-        IF_SETHIDE(false, comp(906, 59));
+        IF_SETHIDE(false, comp(906, 59));  // lobbyscreen:bottom_bar
     };
     IF_SETHIDE(false, int3);
     switch (int0) {
         case 2: {
             if ((int1 == 1)) {
-                IF_BUTTON_SETTOGGLED(0, comp(1044, 6));
-                IF_BUTTON_SETTOGGLED(0, comp(1044, 7));
+                IF_BUTTON_SETTOGGLED(0, comp(1044, 6));  // lobbyscreen_pane_mobile_social:friends_chat_button
+                IF_BUTTON_SETTOGGLED(0, comp(1044, 7));  // lobbyscreen_pane_mobile_social:clan_chat_button
             };
             break;
         }
         case 4: {
             script3161(1);
             if ((int1 == 1)) {
-                IF_BUTTON_SETTOGGLED(0, comp(1044, 5));
-                IF_BUTTON_SETTOGGLED(0, comp(1044, 6));
+                IF_BUTTON_SETTOGGLED(0, comp(1044, 5));  // lobbyscreen_pane_mobile_social:friends_button
+                IF_BUTTON_SETTOGGLED(0, comp(1044, 6));  // lobbyscreen_pane_mobile_social:friends_chat_button
             };
             break;
         }
         case 3: {
             script4556(1);
             if ((int1 == 1)) {
-                IF_BUTTON_SETTOGGLED(0, comp(1044, 5));
-                IF_BUTTON_SETTOGGLED(0, comp(1044, 7));
+                IF_BUTTON_SETTOGGLED(0, comp(1044, 5));  // lobbyscreen_pane_mobile_social:friends_button
+                IF_BUTTON_SETTOGGLED(0, comp(1044, 7));  // lobbyscreen_pane_mobile_social:clan_chat_button
             };
             break;
         }

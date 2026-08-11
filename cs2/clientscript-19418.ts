@@ -5,8 +5,8 @@ function script19418(): void {
     var string0 = "";
     var int2 = 0;
     var int3 = -1;
-    CC_DELETEALL(comp(1300, 13));
-    if ((IF_FIND(comp(1300, 13)) == 1)) {
+    CC_DELETEALL(comp(1300, 13));  // group_ironman_create:members
+    if ((IF_FIND(comp(1300, 13)) == 1)) {  // group_ironman_create:members
         int0 = (int0 + 1);
         while ((int0 <= 5)) {
             switch (int0) {

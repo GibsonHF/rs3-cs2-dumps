@@ -39,15 +39,15 @@ function script18467(int0: number, int1: number, int2: number): void {
             if (((CC_FIND(int0, 0) == 1) && (unk11022("title_text") == 1))) {
                 switch (int2) {
                     case 0: {
-                        int4 = comp(907, 72);
+                        int4 = comp(907, 72);  // lobbyscreen_pane_playerinfo:bottom_left_title_text
                         break;
                     }
                     case 2: {
-                        int4 = comp(907, 98);
+                        int4 = comp(907, 98);  // lobbyscreen_pane_playerinfo:bottom_right_title_text
                         break;
                     }
                     case 1: {
-                        int4 = comp(907, 45);
+                        int4 = comp(907, 45);  // lobbyscreen_pane_playerinfo:bottom_centre_title_text
                         break;
                     }
                     default: {

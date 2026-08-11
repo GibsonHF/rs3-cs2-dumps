@@ -149,102 +149,102 @@ function script7249(int0: number): void {
     string3 = inttostring(int11, 10);
     string4 = inttostring(int13, 10);
     string5 = inttostring(int15, 10);
-    IF_SETTEXT(string2, comp(916, 127));
+    IF_SETTEXT(string2, comp(916, 127));  // pop_ship:part_speed
     if ((int9 > varclient_2612)) {
-        IF_SETCOLOUR(1936391, comp(916, 127));
+        IF_SETCOLOUR(1936391, comp(916, 127));  // pop_ship:part_speed
     } else if ((int9 < varclient_2612)) {
-        IF_SETCOLOUR(16711680, comp(916, 127));
+        IF_SETCOLOUR(16711680, comp(916, 127));  // pop_ship:part_speed
     } else {
-        IF_SETCOLOUR(16446166, comp(916, 127));
+        IF_SETCOLOUR(16446166, comp(916, 127));  // pop_ship:part_speed
     };
-    IF_SETTEXT(string3, comp(916, 124));
+    IF_SETTEXT(string3, comp(916, 124));  // pop_ship:part_graft
     if ((int11 > varclient_2616)) {
-        IF_SETCOLOUR(1936391, comp(916, 124));
+        IF_SETCOLOUR(1936391, comp(916, 124));  // pop_ship:part_graft
     } else if ((int11 < varclient_2616)) {
-        IF_SETCOLOUR(16711680, comp(916, 124));
+        IF_SETCOLOUR(16711680, comp(916, 124));  // pop_ship:part_graft
     } else {
-        IF_SETCOLOUR(16446166, comp(916, 124));
+        IF_SETCOLOUR(16446166, comp(916, 124));  // pop_ship:part_graft
     };
-    IF_SETTEXT(string4, comp(916, 125));
+    IF_SETTEXT(string4, comp(916, 125));  // pop_ship:part_combat
     if ((int13 > varclient_2614)) {
-        IF_SETCOLOUR(1936391, comp(916, 125));
+        IF_SETCOLOUR(1936391, comp(916, 125));  // pop_ship:part_combat
     } else if ((int13 < varclient_2614)) {
-        IF_SETCOLOUR(16711680, comp(916, 125));
+        IF_SETCOLOUR(16711680, comp(916, 125));  // pop_ship:part_combat
     } else {
-        IF_SETCOLOUR(16446166, comp(916, 125));
+        IF_SETCOLOUR(16446166, comp(916, 125));  // pop_ship:part_combat
     };
-    IF_SETTEXT(string5, comp(916, 126));
+    IF_SETTEXT(string5, comp(916, 126));  // pop_ship:part_seafaring
     if ((int15 > varclient_2618)) {
-        IF_SETCOLOUR(1936391, comp(916, 126));
+        IF_SETCOLOUR(1936391, comp(916, 126));  // pop_ship:part_seafaring
     } else if ((int15 < varclient_2618)) {
-        IF_SETCOLOUR(16711680, comp(916, 126));
+        IF_SETCOLOUR(16711680, comp(916, 126));  // pop_ship:part_seafaring
     } else {
-        IF_SETCOLOUR(16446166, comp(916, 126));
+        IF_SETCOLOUR(16446166, comp(916, 126));  // pop_ship:part_seafaring
     };
     var int17 = 1;
-    IF_SETCOLOUR(16446166, comp(916, 141));
-    IF_SETCOLOUR(16446166, comp(916, 143));
+    IF_SETCOLOUR(16446166, comp(916, 141));  // pop_ship:cost_1_amount
+    IF_SETCOLOUR(16446166, comp(916, 143));  // pop_ship:cost_2_amount
     if ((int2 == 0)) {
         switch (int5) {
             case 1: {
                 if ((int6 > varplayer_3441)) {
-                    IF_SETCOLOUR(16711680, comp(916, 141));
+                    IF_SETCOLOUR(16711680, comp(916, 141));  // pop_ship:cost_1_amount
                     int17 = 0;
                 };
                 break;
             }
             case 2: {
                 if ((int6 > varplayer_3442)) {
-                    IF_SETCOLOUR(16711680, comp(916, 141));
+                    IF_SETCOLOUR(16711680, comp(916, 141));  // pop_ship:cost_1_amount
                     int17 = 0;
                 };
                 break;
             }
             case 3: {
                 if ((int6 > varplayer_3443)) {
-                    IF_SETCOLOUR(16711680, comp(916, 141));
+                    IF_SETCOLOUR(16711680, comp(916, 141));  // pop_ship:cost_1_amount
                     int17 = 0;
                 };
                 break;
             }
             case 4: {
                 if ((int6 > varplayer_3444)) {
-                    IF_SETCOLOUR(16711680, comp(916, 141));
+                    IF_SETCOLOUR(16711680, comp(916, 141));  // pop_ship:cost_1_amount
                     int17 = 0;
                 };
                 break;
             }
             case 5: {
                 if ((int6 > varplayer_3445)) {
-                    IF_SETCOLOUR(16711680, comp(916, 141));
+                    IF_SETCOLOUR(16711680, comp(916, 141));  // pop_ship:cost_1_amount
                     int17 = 0;
                 };
                 break;
             }
             case 6: {
                 if ((int6 > varplayer_3446)) {
-                    IF_SETCOLOUR(16711680, comp(916, 141));
+                    IF_SETCOLOUR(16711680, comp(916, 141));  // pop_ship:cost_1_amount
                     int17 = 0;
                 };
                 break;
             }
             case 7: {
                 if ((int6 > varplayer_3447)) {
-                    IF_SETCOLOUR(16711680, comp(916, 141));
+                    IF_SETCOLOUR(16711680, comp(916, 141));  // pop_ship:cost_1_amount
                     int17 = 0;
                 };
                 break;
             }
             case 8: {
                 if ((int6 > varplayer_4038)) {
-                    IF_SETCOLOUR(16711680, comp(916, 141));
+                    IF_SETCOLOUR(16711680, comp(916, 141));  // pop_ship:cost_1_amount
                     int17 = 0;
                 };
                 break;
             }
             case 9: {
                 if ((int6 > varplayer_4039)) {
-                    IF_SETCOLOUR(16711680, comp(916, 141));
+                    IF_SETCOLOUR(16711680, comp(916, 141));  // pop_ship:cost_1_amount
                     int17 = 0;
                 };
                 break;
@@ -254,81 +254,81 @@ function script7249(int0: number): void {
         if ((int5 > 0)) {
             if ((int5 < 8)) {
                 if ((int6 > 0)) {
-                    IF_SETTEXT(string0, comp(916, 141));
-                    IF_SETGRAPHIC(enum_getvalue(0, 23, 7153 as cs2enum, int5), comp(916, 140));
-                    IF_SETSIZE(17, 17, 0, 0, comp(916, 140));
+                    IF_SETTEXT(string0, comp(916, 141));  // pop_ship:cost_1_amount
+                    IF_SETGRAPHIC(enum_getvalue(0, 23, 7153 as cs2enum, int5), comp(916, 140));  // pop_ship:cost_1_icon
+                    IF_SETSIZE(17, 17, 0, 0, comp(916, 140));  // pop_ship:cost_1_icon
                 } else {
-                    IF_SETTEXT("", comp(916, 141));
-                    IF_SETGRAPHIC(-1 as graphic, comp(916, 140));
+                    IF_SETTEXT("", comp(916, 141));  // pop_ship:cost_1_amount
+                    IF_SETGRAPHIC(-1 as graphic, comp(916, 140));  // pop_ship:cost_1_icon
                 };
             } else {
-                IF_SETTEXT("", comp(916, 141));
-                IF_SETGRAPHIC(-1 as graphic, comp(916, 140));
+                IF_SETTEXT("", comp(916, 141));  // pop_ship:cost_1_amount
+                IF_SETGRAPHIC(-1 as graphic, comp(916, 140));  // pop_ship:cost_1_icon
             };
         } else {
-            IF_SETTEXT("", comp(916, 141));
-            IF_SETGRAPHIC(-1 as graphic, comp(916, 140));
+            IF_SETTEXT("", comp(916, 141));  // pop_ship:cost_1_amount
+            IF_SETGRAPHIC(-1 as graphic, comp(916, 140));  // pop_ship:cost_1_icon
         };
         switch (int7) {
             case 1: {
                 if ((int8 > varplayer_3441)) {
-                    IF_SETCOLOUR(16711680, comp(916, 143));
+                    IF_SETCOLOUR(16711680, comp(916, 143));  // pop_ship:cost_2_amount
                     int17 = 0;
                 };
                 break;
             }
             case 2: {
                 if ((int8 > varplayer_3442)) {
-                    IF_SETCOLOUR(16711680, comp(916, 143));
+                    IF_SETCOLOUR(16711680, comp(916, 143));  // pop_ship:cost_2_amount
                     int17 = 0;
                 };
                 break;
             }
             case 3: {
                 if ((int8 > varplayer_3443)) {
-                    IF_SETCOLOUR(16711680, comp(916, 143));
+                    IF_SETCOLOUR(16711680, comp(916, 143));  // pop_ship:cost_2_amount
                     int17 = 0;
                 };
                 break;
             }
             case 4: {
                 if ((int8 > varplayer_3444)) {
-                    IF_SETCOLOUR(16711680, comp(916, 143));
+                    IF_SETCOLOUR(16711680, comp(916, 143));  // pop_ship:cost_2_amount
                     int17 = 0;
                 };
                 break;
             }
             case 5: {
                 if ((int8 > varplayer_3445)) {
-                    IF_SETCOLOUR(16711680, comp(916, 143));
+                    IF_SETCOLOUR(16711680, comp(916, 143));  // pop_ship:cost_2_amount
                     int17 = 0;
                 };
                 break;
             }
             case 6: {
                 if ((int8 > varplayer_3446)) {
-                    IF_SETCOLOUR(16711680, comp(916, 143));
+                    IF_SETCOLOUR(16711680, comp(916, 143));  // pop_ship:cost_2_amount
                     int17 = 0;
                 };
                 break;
             }
             case 7: {
                 if ((int8 > varplayer_3447)) {
-                    IF_SETCOLOUR(16711680, comp(916, 143));
+                    IF_SETCOLOUR(16711680, comp(916, 143));  // pop_ship:cost_2_amount
                     int17 = 0;
                 };
                 break;
             }
             case 8: {
                 if ((int8 > varplayer_4038)) {
-                    IF_SETCOLOUR(16711680, comp(916, 143));
+                    IF_SETCOLOUR(16711680, comp(916, 143));  // pop_ship:cost_2_amount
                     int17 = 0;
                 };
                 break;
             }
             case 9: {
                 if ((int8 > varplayer_4039)) {
-                    IF_SETCOLOUR(16711680, comp(916, 143));
+                    IF_SETCOLOUR(16711680, comp(916, 143));  // pop_ship:cost_2_amount
                     int17 = 0;
                 };
                 break;
@@ -338,81 +338,81 @@ function script7249(int0: number): void {
         if ((int7 > 0)) {
             if ((int7 < 10)) {
                 if ((int8 > 0)) {
-                    IF_SETTEXT(string1, comp(916, 143));
-                    IF_SETGRAPHIC(enum_getvalue(0, 23, 7153 as cs2enum, int7), comp(916, 142));
-                    IF_SETSIZE(17, 17, 0, 0, comp(916, 142));
+                    IF_SETTEXT(string1, comp(916, 143));  // pop_ship:cost_2_amount
+                    IF_SETGRAPHIC(enum_getvalue(0, 23, 7153 as cs2enum, int7), comp(916, 142));  // pop_ship:cost_2_icon
+                    IF_SETSIZE(17, 17, 0, 0, comp(916, 142));  // pop_ship:cost_2_icon
                 } else {
-                    IF_SETTEXT("", comp(916, 143));
-                    IF_SETGRAPHIC(-1 as graphic, comp(916, 142));
+                    IF_SETTEXT("", comp(916, 143));  // pop_ship:cost_2_amount
+                    IF_SETGRAPHIC(-1 as graphic, comp(916, 142));  // pop_ship:cost_2_icon
                 };
             } else {
-                IF_SETTEXT("", comp(916, 143));
-                IF_SETGRAPHIC(-1 as graphic, comp(916, 142));
+                IF_SETTEXT("", comp(916, 143));  // pop_ship:cost_2_amount
+                IF_SETGRAPHIC(-1 as graphic, comp(916, 142));  // pop_ship:cost_2_icon
             };
         } else {
-            IF_SETTEXT("", comp(916, 143));
-            IF_SETGRAPHIC(-1 as graphic, comp(916, 142));
+            IF_SETTEXT("", comp(916, 143));  // pop_ship:cost_2_amount
+            IF_SETGRAPHIC(-1 as graphic, comp(916, 142));  // pop_ship:cost_2_icon
         };
-        IF_SETHIDE(false, comp(916, 138));
-        IF_SETHIDE(true, comp(916, 128));
+        IF_SETHIDE(false, comp(916, 138));  // pop_ship:part_unlock
+        IF_SETHIDE(true, comp(916, 128));  // pop_ship:part_vs
         script13969(60031120, -1, 28553, "Buy");
         script13971(60031121, -1, 28553, "Buy", 1);
         if ((int17 == 0)) {
-            IF_SETHIDE(false, comp(916, 145));
-            if ((CC_FIND(comp(916, 115), int0) == 1)) {
+            IF_SETHIDE(false, comp(916, 145));  // pop_ship:list_activate_no
+            if ((CC_FIND(comp(916, 115), int0) == 1)) {  // pop_ship:list_lock
                 CC_SETGRAPHIC(9998 as graphic);
             };
         } else {
-            IF_SETHIDE(true, comp(916, 145));
+            IF_SETHIDE(true, comp(916, 145));  // pop_ship:list_activate_no
         };
     } else if ((varplayer_3391 == int3)) {
-        IF_SETHIDE(true, comp(916, 138));
-        IF_SETHIDE(true, comp(916, 128));
+        IF_SETHIDE(true, comp(916, 138));  // pop_ship:part_unlock
+        IF_SETHIDE(true, comp(916, 128));  // pop_ship:part_vs
         script13969(60031120, -1, 28553, "Close");
         script13971(60031121, -1, 28553, "Close", 1);
-        IF_SETHIDE(true, comp(916, 145));
+        IF_SETHIDE(true, comp(916, 145));  // pop_ship:list_activate_no
     } else {
         string2 = inttostring(varclient_2612, 10);
         string3 = inttostring(varclient_2616, 10);
         string4 = inttostring(varclient_2614, 10);
         string5 = inttostring(varclient_2618, 10);
-        IF_SETTEXT(string2, comp(916, 133));
-        IF_SETTEXT(string3, comp(916, 130));
-        IF_SETTEXT(string4, comp(916, 131));
-        IF_SETTEXT(string5, comp(916, 132));
+        IF_SETTEXT(string2, comp(916, 133));  // pop_ship:active_speed
+        IF_SETTEXT(string3, comp(916, 130));  // pop_ship:active_graft
+        IF_SETTEXT(string4, comp(916, 131));  // pop_ship:active_combat
+        IF_SETTEXT(string5, comp(916, 132));  // pop_ship:active_seafaring
         if ((int9 < varclient_2612)) {
-            IF_SETCOLOUR(1936391, comp(916, 133));
+            IF_SETCOLOUR(1936391, comp(916, 133));  // pop_ship:active_speed
         } else if ((int9 > varclient_2612)) {
-            IF_SETCOLOUR(16711680, comp(916, 133));
+            IF_SETCOLOUR(16711680, comp(916, 133));  // pop_ship:active_speed
         } else {
-            IF_SETCOLOUR(16446166, comp(916, 133));
+            IF_SETCOLOUR(16446166, comp(916, 133));  // pop_ship:active_speed
         };
         if ((int11 < varclient_2616)) {
-            IF_SETCOLOUR(1936391, comp(916, 130));
+            IF_SETCOLOUR(1936391, comp(916, 130));  // pop_ship:active_graft
         } else if ((int11 > varclient_2616)) {
-            IF_SETCOLOUR(16711680, comp(916, 130));
+            IF_SETCOLOUR(16711680, comp(916, 130));  // pop_ship:active_graft
         } else {
-            IF_SETCOLOUR(16446166, comp(916, 130));
+            IF_SETCOLOUR(16446166, comp(916, 130));  // pop_ship:active_graft
         };
         if ((int13 < varclient_2614)) {
-            IF_SETCOLOUR(1936391, comp(916, 131));
+            IF_SETCOLOUR(1936391, comp(916, 131));  // pop_ship:active_combat
         } else if ((int13 > varclient_2614)) {
-            IF_SETCOLOUR(16711680, comp(916, 131));
+            IF_SETCOLOUR(16711680, comp(916, 131));  // pop_ship:active_combat
         } else {
-            IF_SETCOLOUR(16446166, comp(916, 131));
+            IF_SETCOLOUR(16446166, comp(916, 131));  // pop_ship:active_combat
         };
         if ((int15 < varclient_2618)) {
-            IF_SETCOLOUR(1936391, comp(916, 132));
+            IF_SETCOLOUR(1936391, comp(916, 132));  // pop_ship:active_seafaring
         } else if ((int15 > varclient_2618)) {
-            IF_SETCOLOUR(16711680, comp(916, 132));
+            IF_SETCOLOUR(16711680, comp(916, 132));  // pop_ship:active_seafaring
         } else {
-            IF_SETCOLOUR(16446166, comp(916, 132));
+            IF_SETCOLOUR(16446166, comp(916, 132));  // pop_ship:active_seafaring
         };
-        IF_SETHIDE(true, comp(916, 138));
-        IF_SETHIDE(false, comp(916, 128));
+        IF_SETHIDE(true, comp(916, 138));  // pop_ship:part_unlock
+        IF_SETHIDE(false, comp(916, 128));  // pop_ship:part_vs
         script13969(60031120, -1, 28553, "Activate");
         script13971(60031121, -1, 28553, "Activate", 1);
-        IF_SETHIDE(true, comp(916, 145));
+        IF_SETHIDE(true, comp(916, 145));  // pop_ship:list_activate_no
     };
     return;
 }

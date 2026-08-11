@@ -11,9 +11,9 @@ function script19501(int0: number): void {
     var string0 = script13084(int3, 2);
     var string1 = script13084(int4, 2);
     if ((int3 < 1)) {
-        IF_SETTEXT(`<col=EB2F2F>Time remaining:  ${string0}:${string1}`, comp(1313, 24));
+        IF_SETTEXT(`<col=EB2F2F>Time remaining:  ${string0}:${string1}`, comp(1313, 24));  // group_ironman_storage:save_changes_label
     } else {
-        IF_SETTEXT(`Time remaining:  ${string0}:${string1}`, comp(1313, 24));
+        IF_SETTEXT(`Time remaining:  ${string0}:${string1}`, comp(1313, 24));  // group_ironman_storage:save_changes_label
     };
     return;
 }

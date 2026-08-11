@@ -5,7 +5,7 @@ function script7706(int0: number, int1: number, int2: number): void {
     } else if ((int1 == 2)) {
         IF_SETCOLOUR(16777215, int0);
     } else {
-        IF_SETPOSITION((IF_GETX(int0) - 2), (IF_GETY(int0) - 2), 0, 0, comp(1047, 44));
+        IF_SETPOSITION((IF_GETX(int0) - 2), (IF_GETY(int0) - 2), 0, 0, comp(1047, 44));  // mm_tasklist:selected_task
     };
     return;
 }

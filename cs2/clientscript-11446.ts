@@ -6,24 +6,24 @@ function script11446(): void {
     CC_DELETEALL(int1);
     CC_DELETEALL(int2);
     script11445();
-    IF_SETHIDE(true, comp(1624, 16));
+    IF_SETHIDE(true, comp(1624, 16));  // spotlight:scroll_bar_layer
     IF_SETSCROLLSIZE(0, 0, int0);
     IF_SETSCROLLPOS(0, 0, int0);
     switch (varplayer_5425) {
         case 10018: {
-            IF_SETHIDE(false, comp(1624, 23));
+            IF_SETHIDE(false, comp(1624, 23));  // spotlight:armour_tab_selected_layer
             break;
         }
         case 10019: {
-            IF_SETHIDE(false, comp(1624, 32));
+            IF_SETHIDE(false, comp(1624, 32));  // spotlight:skill_gear_tab_selected_layer
             break;
         }
         case 10020: {
-            IF_SETHIDE(false, comp(1624, 41));
+            IF_SETHIDE(false, comp(1624, 41));  // spotlight:misc_tab_selected_layer
             break;
         }
         case 10021: {
-            IF_SETHIDE(false, comp(1624, 50));
+            IF_SETHIDE(false, comp(1624, 50));  // spotlight:limited_tab_selected_layer
             break;
         }
     };
@@ -447,7 +447,7 @@ function script11446(): void {
     if ((int10 >= IF_GETHEIGHT(int0))) {
         IF_SETSCROLLSIZE(0, int10, int0);
         script7791(106430480, int0);
-        IF_SETHIDE(false, comp(1624, 16));
+        IF_SETHIDE(false, comp(1624, 16));  // spotlight:scroll_bar_layer
     };
     return;
 }

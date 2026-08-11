@@ -31,12 +31,12 @@ function script6121(int0: number): void {
             break;
         }
     };
-    if ((strcmp(string0, IF_GETTEXT(comp(621, 34))) == 0)) {
+    if ((strcmp(string0, IF_GETTEXT(comp(621, 34))) == 0)) {  // fremsaga_thok2_overlay:info_text
         return;
     };
     var int1 = STRINGWIDTH(string0, 66 as fontmetrics);
-    IF_SETSIZE(int1, 32, 0, 0, comp(621, 34));
-    IF_SETSIZE((int1 + 64), 28, 0, 0, comp(621, 11));
-    IF_SETTEXT(string0, comp(621, 34));
+    IF_SETSIZE(int1, 32, 0, 0, comp(621, 34));  // fremsaga_thok2_overlay:info_text
+    IF_SETSIZE((int1 + 64), 28, 0, 0, comp(621, 11));  // fremsaga_thok2_overlay:info_layer
+    IF_SETTEXT(string0, comp(621, 34));  // fremsaga_thok2_overlay:info_text
     return;
 }

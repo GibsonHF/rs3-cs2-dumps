@@ -1,6 +1,6 @@
 //
 function script20559(): void {
-    IF_SETTEXT(`Radiant Stars Available : ${TOSTRING_LOCALISED(varplayer_12582, 1)}`, comp(1485, 36));
+    IF_SETTEXT(`Radiant Stars Available : ${TOSTRING_LOCALISED(varplayer_12582, 1)}`, comp(1485, 36));  // marketplace_bonus_xp_redeem:boosters_available
     if ((varplayer_12583 == 0)) {
         return;
     };
@@ -23,7 +23,7 @@ function script20559(): void {
     } else {
         varplayer_12584 = 0;
     };
-    IF_SETTEXT(TOSTRING_LOCALISED(varplayer_12584, 1), comp(1485, 82));
+    IF_SETTEXT(TOSTRING_LOCALISED(varplayer_12584, 1), comp(1485, 82));  // marketplace_bonus_xp_redeem:quantity_input_display
     script20576();
     return;
 }

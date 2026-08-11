@@ -1,13 +1,13 @@
 //
 function script15528(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, string0: string, string1: string): void {
-    CC_DELETEALL(comp(1253, 457));
+    CC_DELETEALL(comp(1253, 457));  // wheel_of_fortune:trh_promo_info_popup_layer_content
     var int7 = 0;
     var int8 = 0;
     var int9 = 0;
     var int10 = 0;
     var int11 = 0;
-    var int12 = (IF_GETWIDTH(comp(1253, 457)) - 20);
-    IF_SETHIDE(false, comp(1253, 453));
+    var int12 = (IF_GETWIDTH(comp(1253, 457)) - 20);  // wheel_of_fortune:trh_promo_info_popup_layer_content
+    IF_SETHIDE(false, comp(1253, 453));  // wheel_of_fortune:trh_promo_info_popup_layer
     stack(82117065);
     stack(0);
     stack(int7);
@@ -86,7 +86,7 @@ function script15528(int0: number, int1: number, int2: number, int3: number, int
     CC_SETTEXTALIGN(0, 0, 19);
     CC_SETCOLOUR(16777215);
     int16 = (int16 + (int8 + 20));
-    if ((CC_FINDBYCATEGORY(comp(1253, 457), 1, 0) == 1)) {
+    if ((CC_FINDBYCATEGORY(comp(1253, 457), 1, 0) == 1)) {  // wheel_of_fortune:trh_promo_info_popup_layer_content
         CC_SETSIZE(0, int16, 1, 0);
         int10 = (int10 + int16);
     };
@@ -99,9 +99,9 @@ function script15528(int0: number, int1: number, int2: number, int3: number, int
     CC_SETOP(1, "Back");
     CC_SETONOP(callback(script15647));
     int10 = (int10 + (35 + 10));
-    var int17 = (int10 - IF_GETHEIGHT(comp(1253, 457)));
+    var int17 = (int10 - IF_GETHEIGHT(comp(1253, 457)));  // wheel_of_fortune:trh_promo_info_popup_layer_content
     if ((int17 > 0)) {
-        IF_SETSIZE(IF_GETWIDTH(comp(1253, 455)), (IF_GETHEIGHT(comp(1253, 455)) + int17), 0, 0, comp(1253, 455));
+        IF_SETSIZE(IF_GETWIDTH(comp(1253, 455)), (IF_GETHEIGHT(comp(1253, 455)) + int17), 0, 0, comp(1253, 455));  // wheel_of_fortune:trh_promo_info_popup_layer_content_container
     };
     return;
 }

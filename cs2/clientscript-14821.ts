@@ -8,13 +8,13 @@ function script14821(): void {
     script14844(44892314, -1, -1, 44892317, 44892318, int2);
     if ((MAP_MEMBERS() == 0)) {
         if (((int0 != -1) && (dbrow_getfield(int0, 385072, 0) == 1))) {
-            IF_SETHIDE(false, comp(685, 250));
+            IF_SETHIDE(false, comp(685, 250));  // arch_journal:relic_slot_1_members_layer
         };
         if (((int1 != -1) && (dbrow_getfield(int1, 385072, 0) == 1))) {
-            IF_SETHIDE(false, comp(685, 252));
+            IF_SETHIDE(false, comp(685, 252));  // arch_journal:relic_slot_2_members_layer
         };
         if (((int2 != -1) && (dbrow_getfield(int2, 385072, 0) == 1))) {
-            IF_SETHIDE(false, comp(685, 254));
+            IF_SETHIDE(false, comp(685, 254));  // arch_journal:relic_slot_3_members_layer
         };
     };
     return;

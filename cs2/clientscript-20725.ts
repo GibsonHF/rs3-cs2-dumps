@@ -18,12 +18,12 @@ function script20725(int0: number): void {
             break;
         }
         case 4: {
-            IF_TRIGGEROP(comp(1665, 28), -1, 1);
+            IF_TRIGGEROP(comp(1665, 28), -1, 1);  // poh_house_controls:furniture_edit_button_layer_click
             script20777();
             break;
         }
         case 5: {
-            IF_TRIGGEROP(comp(1665, 28), -1, 2);
+            IF_TRIGGEROP(comp(1665, 28), -1, 2);  // poh_house_controls:furniture_edit_button_layer_click
             script20777();
             break;
         }

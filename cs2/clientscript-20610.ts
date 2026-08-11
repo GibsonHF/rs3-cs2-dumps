@@ -27,10 +27,10 @@ function script20610(int0: number): void {
                 break;
             }
         };
-        IF_SETHIDE(false, comp(1495, 39));
+        IF_SETHIDE(false, comp(1495, 39));  // marketplace_preview:spinner_blackout
         script20625(1);
     } else {
-        IF_SETHIDE(false, comp(1495, 39));
+        IF_SETHIDE(false, comp(1495, 39));  // marketplace_preview:spinner_blackout
         script20625(2);
     };
     return;

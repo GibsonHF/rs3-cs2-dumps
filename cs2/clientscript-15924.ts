@@ -9,7 +9,7 @@ function script15924(int0: number, int1: number, int2: number): void {
     };
     [string1, string0, int3] = script9784(int4);
     script10410(33882229, 33882231, 28228, int1, int2, 30, 30, int0, 0, string1);
-    if ((CC_FIND(comp(517, 119), int0) == 1)) {
+    if ((CC_FIND(comp(517, 119), int0) == 1)) {  // bank:share_quick_click
         CC_SETPOSITION(int1, int2, 0, 0);
         CC_SETSIZE(30, 30, 0, 0);
         CC_SETONMOUSEREPEAT(callback(script8780, -2147483645, int4));

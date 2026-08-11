@@ -3,7 +3,7 @@ function script18931(int0: number): number {
     var int1 = -1;
     switch (int0) {
         case 13581: {
-            if ((CC_FIND(comp(1284, 29), 0) == 1)) {
+            if ((CC_FIND(comp(1284, 29), 0) == 1)) {  // calendar_main:entries_container
                 int1 = 0;
             };
             break;

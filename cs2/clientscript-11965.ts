@@ -1,6 +1,6 @@
 //
 function script11965(int0: number): void {
-    if ((CC_FIND(comp(1704, 8), int0) == 1)) {
+    if ((CC_FIND(comp(1704, 8), int0) == 1)) {  // tutisland_focus:distractions
         SOUND_VORBIS_RATE(RANDOM_SOUND_PITCH(5993 as vorbis, 1, 0, 200, 20, 20));
         SOUND_VORBIS_RATE(RANDOM_SOUND_PITCH(4368 as vorbis, 1, 0, 200, 20, 20));
         CC_SETHIDE(true);

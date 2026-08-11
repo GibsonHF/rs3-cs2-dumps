@@ -1,17 +1,17 @@
 //
 function script10442(): void {
-    var int0 = comp(1477, 891);
+    var int0 = comp(1477, 891);  // toplevel_v2:dropdown_panel
     switch (IF_GETTOP()) {
         case 906: {
-            int0 = comp(906, 159);
+            int0 = comp(906, 159);  // lobbyscreen:dropdown_panel
             break;
         }
         case 744: {
-            int0 = comp(744, 361);
+            int0 = comp(744, 361);  // loginscreen:minimenu_layer
             break;
         }
         default: {
-            int0 = comp(1477, 891);
+            int0 = comp(1477, 891);  // toplevel_v2:dropdown_panel
             break;
         }
     };

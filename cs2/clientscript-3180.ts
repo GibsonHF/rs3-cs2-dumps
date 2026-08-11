@@ -1,7 +1,7 @@
 //
 function script3180(): void {
     script3181();
-    IF_SETHIDE(true, comp(906, 144));
+    IF_SETHIDE(true, comp(906, 144));  // lobbyscreen:report_abuse_stage1
     if ((IF_GETHIDE(enum_getvalue(0, 9, script17126(), 4)) == false)) {
         script3161(1);
     };

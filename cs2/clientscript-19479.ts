@@ -1,6 +1,6 @@
 //
 function script19479(int0: number): number {
-    while ((CC_FIND(comp(1313, 75), int0) == 1)) {
+    while ((CC_FIND(comp(1313, 75), int0) == 1)) {  // group_ironman_storage:clan_inv
         if (((CC_GETINVOBJECT() == 48447 as obj) || (CC_GETINVCOUNT() <= 0))) {
             return int0;
         };

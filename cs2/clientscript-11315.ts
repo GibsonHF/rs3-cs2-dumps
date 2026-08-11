@@ -5,7 +5,7 @@ function script11315(int0: number): void {
     var int3 = -1;
     var int4 = 0;
     var int5 = 0;
-    if ((int0 == comp(1507, 1))) {
+    if ((int0 == comp(1507, 1))) {  // legacy_select:eoc_mouseover
         int1 = 9990 as cs2enum;
     } else {
         int1 = 9991 as cs2enum;

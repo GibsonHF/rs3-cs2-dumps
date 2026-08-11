@@ -14,7 +14,7 @@ function script15424(int0: number): void {
             };
         };
     } else {
-        IF_SETOPKEY(1, 0, 0, comp(743, 6));
+        IF_SETOPKEY(1, 0, 0, comp(743, 6));  // toplevel_v2_extra_action_button:click_layer
     };
     return;
 }

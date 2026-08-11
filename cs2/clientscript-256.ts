@@ -4,11 +4,11 @@ function script256(): void {
     if (((((((((varclient_1111 == -1) || (varclient_1113 == -1)) || (varclient_1112 == -1)) || (varclient_1114 == -1)) || (varclient_1115 == -1)) || (varclient_1116 == -1)) || (varclient_1117 == -1)) || (varclient_1927 == -1))) {
         return;
     };
-    var int0 = (IF_GETNEXTSUBID(comp(919, 36)) * (18 + 4));
-    var int1 = ((IF_GETNEXTSUBID(comp(919, 36)) + 1) * (18 + 4));
-    IF_SETSCROLLSIZE(0, int1, comp(919, 34));
-    IF_SETSIZE(IF_GETWIDTH(comp(919, 27)), int1, 0, 0, comp(919, 27));
-    CC_CREATE(comp(919, 27), 4, IF_GETNEXTSUBID(comp(919, 27)));
+    var int0 = (IF_GETNEXTSUBID(comp(919, 36)) * (18 + 4));  // fishcomp_overlay:history_habitat_layer
+    var int1 = ((IF_GETNEXTSUBID(comp(919, 36)) + 1) * (18 + 4));  // fishcomp_overlay:history_habitat_layer
+    IF_SETSCROLLSIZE(0, int1, comp(919, 34));  // fishcomp_overlay:history_scrolllayer
+    IF_SETSIZE(IF_GETWIDTH(comp(919, 27)), int1, 0, 0, comp(919, 27));  // fishcomp_overlay:history_species_layer
+    CC_CREATE(comp(919, 27), 4, IF_GETNEXTSUBID(comp(919, 27)));  // fishcomp_overlay:history_species_layer
     if ((varclient_1927 >= 1)) {
         CC_SETCOLOUR(15849648);
     } else {
@@ -21,8 +21,8 @@ function script256(): void {
     CC_SETTEXTALIGN(1, 1, 0);
     string0 = `${CC_GETTEXT()}: The type of fish`;
     CC_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643));
-    IF_SETSIZE(IF_GETWIDTH(comp(919, 36)), int1, 0, 0, comp(919, 36));
-    CC_CREATE(comp(919, 36), 4, IF_GETNEXTSUBID(comp(919, 36)));
+    IF_SETSIZE(IF_GETWIDTH(comp(919, 36)), int1, 0, 0, comp(919, 36));  // fishcomp_overlay:history_habitat_layer
+    CC_CREATE(comp(919, 36), 4, IF_GETNEXTSUBID(comp(919, 36)));  // fishcomp_overlay:history_habitat_layer
     if ((varclient_1927 >= 1)) {
         CC_SETCOLOUR(15849648);
     } else {
@@ -35,8 +35,8 @@ function script256(): void {
     CC_SETTEXTALIGN(1, 1, 0);
     string0 = `${CC_GETTEXT()}: The habitat in which you caught the fish`;
     CC_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643));
-    IF_SETSIZE(IF_GETWIDTH(comp(919, 37)), int1, 0, 0, comp(919, 37));
-    CC_CREATE(comp(919, 37), 4, IF_GETNEXTSUBID(comp(919, 37)));
+    IF_SETSIZE(IF_GETWIDTH(comp(919, 37)), int1, 0, 0, comp(919, 37));  // fishcomp_overlay:history_weight_layer
+    CC_CREATE(comp(919, 37), 4, IF_GETNEXTSUBID(comp(919, 37)));  // fishcomp_overlay:history_weight_layer
     if ((varclient_1927 >= 1)) {
         CC_SETCOLOUR(15849648);
     } else {
@@ -49,8 +49,8 @@ function script256(): void {
     CC_SETTEXTALIGN(1, 1, 0);
     string0 = `${CC_GETTEXT()}: The weight of the fish`;
     CC_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643));
-    IF_SETSIZE(IF_GETWIDTH(comp(919, 38)), int1, 0, 0, comp(919, 38));
-    CC_CREATE(comp(919, 38), 5, IF_GETNEXTSUBID(comp(919, 38)));
+    IF_SETSIZE(IF_GETWIDTH(comp(919, 38)), int1, 0, 0, comp(919, 38));  // fishcomp_overlay:history_bait_layer
+    CC_CREATE(comp(919, 38), 5, IF_GETNEXTSUBID(comp(919, 38)));  // fishcomp_overlay:history_bait_layer
     CC_SETSIZE(20, 20, 0, 0);
     CC_SETPOSITION(0, int0, 1, 2);
     var int2 = -1 as obj;
@@ -103,8 +103,8 @@ function script256(): void {
         string0 = "You do not know which bait was used to catch this big fish";
     };
     CC_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643));
-    IF_SETSIZE(IF_GETWIDTH(comp(919, 39)), int1, 0, 0, comp(919, 39));
-    CC_CREATE(comp(919, 39), 4, IF_GETNEXTSUBID(comp(919, 39)));
+    IF_SETSIZE(IF_GETWIDTH(comp(919, 39)), int1, 0, 0, comp(919, 39));  // fishcomp_overlay:history_hook_layer
+    CC_CREATE(comp(919, 39), 4, IF_GETNEXTSUBID(comp(919, 39)));  // fishcomp_overlay:history_hook_layer
     if ((varclient_1927 >= 1)) {
         CC_SETCOLOUR(15849648);
     } else {
@@ -121,8 +121,8 @@ function script256(): void {
     };
     CC_SETTEXTALIGN(1, 1, 0);
     CC_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643));
-    IF_SETSIZE(IF_GETWIDTH(comp(919, 40)), int1, 0, 0, comp(919, 40));
-    CC_CREATE(comp(919, 40), 4, IF_GETNEXTSUBID(comp(919, 40)));
+    IF_SETSIZE(IF_GETWIDTH(comp(919, 40)), int1, 0, 0, comp(919, 40));  // fishcomp_overlay:history_distance_layer
+    CC_CREATE(comp(919, 40), 4, IF_GETNEXTSUBID(comp(919, 40)));  // fishcomp_overlay:history_distance_layer
     if ((varclient_1927 >= 1)) {
         CC_SETCOLOUR(15849648);
     } else {
@@ -139,8 +139,8 @@ function script256(): void {
     };
     CC_SETTEXTALIGN(1, 1, 0);
     CC_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643));
-    IF_SETSIZE(IF_GETWIDTH(comp(919, 41)), int1, 0, 0, comp(919, 41));
-    CC_CREATE(comp(919, 41), 4, IF_GETNEXTSUBID(comp(919, 41)));
+    IF_SETSIZE(IF_GETWIDTH(comp(919, 41)), int1, 0, 0, comp(919, 41));  // fishcomp_overlay:history_rating_layer
+    CC_CREATE(comp(919, 41), 4, IF_GETNEXTSUBID(comp(919, 41)));  // fishcomp_overlay:history_rating_layer
     if ((varclient_1927 >= 1)) {
         CC_SETCOLOUR(15849648);
     } else {
@@ -162,7 +162,7 @@ function script256(): void {
         string0 = "You helped a contestant to catch this big fish";
     };
     CC_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643));
-    if ((IF_GETHEIGHT(comp(919, 30)) == 215)) {
+    if ((IF_GETHEIGHT(comp(919, 30)) == 215)) {  // fishcomp_overlay:fishcomp_right_panel
         script7791(60227619, 60227618);
     };
     varclient_1111 = -1;

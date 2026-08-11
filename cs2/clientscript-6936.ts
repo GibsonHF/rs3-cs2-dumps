@@ -32,7 +32,7 @@ function script6936(): void {
     } else if ((varclient_546 < varclient_1333)) {
         string0 = `<col=ff0000>${string0}</col>`;
     };
-    IF_SETTEXT(string0, comp(1367, 34));
-    IF_SETTEXT(string1, comp(1367, 40));
+    IF_SETTEXT(string0, comp(1367, 34));  // duel3_options:my_stake_value
+    IF_SETTEXT(string1, comp(1367, 40));  // duel3_options:their_stake_value
     return;
 }

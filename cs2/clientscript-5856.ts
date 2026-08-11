@@ -1,9 +1,9 @@
 //
 function script5856(): void {
-    var int0 = comp(1043, 2);
-    var int1 = comp(1043, 1);
-    var int2 = comp(1043, 0);
-    var int3 = comp(1043, 166);
+    var int0 = comp(1043, 2);  // 6awe3_rewards:skill_book
+    var int1 = comp(1043, 1);  // 6awe3_rewards:skill_category
+    var int2 = comp(1043, 0);  // 6awe3_rewards:skill_extras
+    var int3 = comp(1043, 166);  // 6awe3_rewards:skill_scrollbar
     var int4 = 68354215;
     var int5 = 0;
     var int6 = 0;

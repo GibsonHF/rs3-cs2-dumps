@@ -3,9 +3,9 @@ function script4853(): void {
     script4863();
     switch (varbitplayer_6679) {
         case 0: {
-            IF_SETHIDE(true, comp(1259, 5));
+            IF_SETHIDE(true, comp(1259, 5));  // clan_stronghold_main_map:map_teleport_hotspot_layer
             if ((varclient_1794 == 0)) {
-                IF_SETHIDE(false, comp(1259, 5));
+                IF_SETHIDE(false, comp(1259, 5));  // clan_stronghold_main_map:map_teleport_hotspot_layer
             };
             break;
         }

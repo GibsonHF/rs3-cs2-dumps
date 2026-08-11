@@ -8,53 +8,53 @@ function script13531(int0: number, int1: number, int2: number, int3: number): vo
     var int9 = 0;
     switch (int0) {
         case 0: {
-            [int4, int5] = [comp(137, 213), comp(137, 214)];
+            [int4, int5] = [comp(137, 213) /*chatdefault:legacy_chat_game*/, comp(137, 214) /*chatdefault:legacy_chat_game_icon*/];
             int7 = 0;
             break;
         }
         case 1: {
-            [int4, int5] = [comp(137, 218), comp(137, 219)];
+            [int4, int5] = [comp(137, 218) /*chatdefault:legacy_chat_public*/, comp(137, 219) /*chatdefault:legacy_chat_public_icon*/];
             int7 = 1;
             break;
         }
         case 2: {
-            [int4, int5] = [comp(137, 223), comp(137, 224)];
+            [int4, int5] = [comp(137, 223) /*chatdefault:legacy_chat_private*/, comp(137, 224) /*chatdefault:legacy_chat_private_icon*/];
             int7 = 2;
             break;
         }
         case 3: {
-            [int4, int5] = [comp(137, 228), comp(137, 229)];
+            [int4, int5] = [comp(137, 228) /*chatdefault:legacy_chat_friendschat*/, comp(137, 229) /*chatdefault:legacy_chat_friendschat_icon*/];
             int7 = 3;
             break;
         }
         case 4: {
-            [int4, int5] = [comp(137, 233), comp(137, 234)];
+            [int4, int5] = [comp(137, 233) /*chatdefault:legacy_chat_clan*/, comp(137, 234) /*chatdefault:legacy_chat_clan_icon*/];
             int7 = 4;
             break;
         }
         case 5: {
-            [int4, int5] = [comp(137, 238), comp(137, 239)];
+            [int4, int5] = [comp(137, 238) /*chatdefault:legacy_chat_guest*/, comp(137, 239) /*chatdefault:legacy_chat_guest_icon*/];
             int7 = 5;
             break;
         }
         case 6: {
-            [int4, int5] = [comp(137, 243), comp(137, 244)];
+            [int4, int5] = [comp(137, 243) /*chatdefault:legacy_chat_trade*/, comp(137, 244) /*chatdefault:legacy_chat_trade_icon*/];
             int7 = 6;
             break;
         }
         case 15: {
-            [int4, int5] = [comp(137, 248), comp(137, 249)];
+            [int4, int5] = [comp(137, 248) /*chatdefault:legacy_chat_group*/, comp(137, 249) /*chatdefault:legacy_chat_group_icon*/];
             int7 = 7;
             break;
         }
         case 16: {
-            [int4, int5] = [comp(137, 253), comp(137, 259)];
+            [int4, int5] = [comp(137, 253) /*chatdefault:legacy_chat_group_ironman*/, comp(137, 259) /*chatdefault:legacy_chat_group_ironman_icon*/];
             int7 = 8;
             IF_SETHIDE(script12585(int3), int4);
             break;
         }
         case 99: {
-            [int4, int5] = [comp(137, 209), comp(137, 210)];
+            [int4, int5] = [comp(137, 209) /*chatdefault:legacy_chat_all*/, comp(137, 210) /*chatdefault:legacy_chat_all_icon*/];
             int8 = 35;
             int9 = 0;
             break;

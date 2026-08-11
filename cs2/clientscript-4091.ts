@@ -1,13 +1,13 @@
 //
 function script4091(int0: number): void {
-    var int1 = IF_GETTRANS(comp(1202, 0));
+    var int1 = IF_GETTRANS(comp(1202, 0));  // fmc_darkness:black
     if ((int1 > (255 - (int0 + 1)))) {
-        IF_SETTRANS(255, comp(1202, 0));
-        IF_SETTRANS(125, comp(1202, 2));
-        IF_SETONTIMER(callback(), comp(1202, 0));
+        IF_SETTRANS(255, comp(1202, 0));  // fmc_darkness:black
+        IF_SETTRANS(125, comp(1202, 2));  // fmc_darkness:fade
+        IF_SETONTIMER(callback(), comp(1202, 0));  // fmc_darkness:black
         return;
     };
-    IF_SETTRANS((int1 + int0), comp(1202, 0));
-    IF_SETTRANS(((int1 + int0) / 2), comp(1202, 2));
+    IF_SETTRANS((int1 + int0), comp(1202, 0));  // fmc_darkness:black
+    IF_SETTRANS(((int1 + int0) / 2), comp(1202, 2));  // fmc_darkness:fade
     return;
 }

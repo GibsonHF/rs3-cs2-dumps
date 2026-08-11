@@ -4,7 +4,7 @@ function script9327(int0: number, int1: number): void {
     if ((script6431() == 1)) {
         int2 = 52;
     };
-    var int3 = MAX(1, (IF_GETWIDTH(comp(517, 199)) / int2));
+    var int3 = MAX(1, (IF_GETWIDTH(comp(517, 199)) / int2));  // bank:bank_items_container
     var int4 = 0;
     var int5 = -1 as cs2enum;
     switch (int0) {
@@ -47,14 +47,14 @@ function script9327(int0: number, int1: number): void {
         }
     };
     if ((int6 == 0)) {
-        IF_SETHIDE(false, comp(517, 197));
+        IF_SETHIDE(false, comp(517, 197));  // bank:message_nofilter
         while ((int7 < 1820)) {
-            if ((CC_FIND(comp(517, 201), int7) == 1)) {
+            if ((CC_FIND(comp(517, 201), int7) == 1)) {  // bank:bank_inv
                 CC_SETHIDE(true);
             };
             int7 = (int7 + 1);
         };
-        IF_SETSCROLLPOS(0, 0, comp(517, 199));
+        IF_SETSCROLLPOS(0, 0, comp(517, 199));  // bank:bank_items_container
         script9302(0);
         return;
     };
@@ -99,7 +99,7 @@ function script9327(int0: number, int1: number): void {
     var int14 = -1;
     var int15 = 8;
     while ((int7 < int13)) {
-        if ((CC_FIND(comp(517, 201), int7) == 1)) {
+        if ((CC_FIND(comp(517, 201), int7) == 1)) {  // bank:bank_inv
             int14 = cc_getparam(3844);
             if ((int14 != -1)) {
                 int9 = (push_array[2](int14) + ((push_array[1](int14) / int3) * int2));
@@ -114,7 +114,7 @@ function script9327(int0: number, int1: number): void {
         int7 = (int7 + 1);
     };
     script13828(int8);
-    IF_SETHIDE(true, comp(517, 197));
+    IF_SETHIDE(true, comp(517, 197));  // bank:message_nofilter
     script9302(int6);
     return;
 }

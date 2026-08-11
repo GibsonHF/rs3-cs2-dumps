@@ -1,17 +1,17 @@
 //
 function script19023(): void {
     if (((varplayer_11775 <= 0) || (varclient_7786 <= CLIENTCLOCK()))) {
-        IF_SETHIDE(true, comp(994, 5));
-        IF_SETTRANS(255, comp(994, 5));
-        IF_SETONTIMER(callback(), comp(994, 1));
+        IF_SETHIDE(true, comp(994, 5));  // toplevel_v2_status_effects:resurrection_sickness_graphic
+        IF_SETTRANS(255, comp(994, 5));  // toplevel_v2_status_effects:resurrection_sickness_graphic
+        IF_SETONTIMER(callback(), comp(994, 1));  // toplevel_v2_status_effects:resurrection_sickness_layer
         return;
     };
-    IF_SETHIDE(false, comp(994, 5));
+    IF_SETHIDE(false, comp(994, 5));  // toplevel_v2_status_effects:resurrection_sickness_graphic
     if (((varclient_7786 - CLIENTCLOCK()) < 30)) {
-        IF_SETTRANS((255 - SCALE((varclient_7786 - CLIENTCLOCK()), 30, 255)), comp(994, 5));
+        IF_SETTRANS((255 - SCALE((varclient_7786 - CLIENTCLOCK()), 30, 255)), comp(994, 5));  // toplevel_v2_status_effects:resurrection_sickness_graphic
     } else {
-        IF_SETTRANS(0, comp(994, 5));
+        IF_SETTRANS(0, comp(994, 5));  // toplevel_v2_status_effects:resurrection_sickness_graphic
     };
-    IF_SETONTIMER(callback(script19023), comp(994, 1));
+    IF_SETONTIMER(callback(script19023), comp(994, 1));  // toplevel_v2_status_effects:resurrection_sickness_layer
     return;
 }

@@ -5,7 +5,7 @@ function script7792(int0: number, int1: number, int2: number): void {
     var int5 = script9249(int0);
     var int6 = int5;
     if ((int0 == 93)) {
-        int3 = comp(107, 7);
+        int3 = comp(107, 7);  // stockside:inventory_layer
     } else {
         int4 = enum_getreverseindex(39, 0, 1079 as cs2enum, int0, 0);
         if ((int4 != -1)) {

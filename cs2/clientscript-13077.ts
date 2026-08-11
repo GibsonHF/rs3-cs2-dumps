@@ -5,8 +5,8 @@ function script13077(int0: number): void {
     };
     varclient_5923 = (int0 + 1);
     var int1 = 0;
-    while ((int1 < IF_GETNEXTSUBID(comp(1829, 6)))) {
-        if ((CC_FIND(comp(1829, 6), int1) == 1)) {
+    while ((int1 < IF_GETNEXTSUBID(comp(1829, 6)))) {  // peng_bttf_mastermind:selection
+        if ((CC_FIND(comp(1829, 6), int1) == 1)) {  // peng_bttf_mastermind:selection
             if ((int1 != int0)) {
                 CC_SETOUTLINE(0);
             } else {

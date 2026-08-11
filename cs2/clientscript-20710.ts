@@ -20,8 +20,8 @@ function script20710(int0: number, int1: number): void {
     };
     if ((CC_FINDBYCATEGORY(int0, int2, 0) == 1)) {
         CC_SETSIZE(0, (34 * 2), 1, 0);
-        IF_SETSCROLLSIZE(0, (IF_GETSCROLLHEIGHT(comp(1499, 36)) + 34), comp(1499, 36));
-        script72(98238501, 98238500, IF_GETSCROLLY(comp(1499, 36)));
+        IF_SETSCROLLSIZE(0, (IF_GETSCROLLHEIGHT(comp(1499, 36)) + 34), comp(1499, 36));  // construction_house_furniture_portal_nexus_configure:active_scrolling
+        script72(98238501, 98238500, IF_GETSCROLLY(comp(1499, 36)));  // construction_house_furniture_portal_nexus_configure:active_scrolling
     };
     if (((CC_FINDBYCATEGORY(int0, int2, 1) == 1) && (CC_FINDBYCATEGORY[1](int0, int2, 2) == 1))) {
         if ((int2 < UI_GETCATEGORY(varclient_8441))) {

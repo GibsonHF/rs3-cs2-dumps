@@ -1,6 +1,6 @@
 //
 function script7151(): void {
-    var int0 = comp(185, 18);
+    var int0 = comp(185, 18);  // dino_herb_bag:herb_layer
     var int1 = ENUM_GETOUTPUTCOUNT(15289 as cs2enum);
     var int2 = 0;
     var int3 = 0;
@@ -49,6 +49,6 @@ function script7151(): void {
     };
     IF_SETONINVTRANSMIT(callback(script7151, 866, 1), int0);
     IF_SETONVARTRANSMIT(callback(script7151, 8639, 8640, 8641, 8642, 8643, 5), int0);
-    IF_SETONVARTRANSMIT(callback(script7152, 8649, 1), comp(185, 6));
+    IF_SETONVARTRANSMIT(callback(script7152, 8649, 1), comp(185, 6));  // dino_herb_bag:inv_content_player_inv
     return;
 }

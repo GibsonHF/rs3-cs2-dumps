@@ -36,7 +36,7 @@ function script14841(int0: number): void {
             break;
         }
     };
-    IF_SETTEXT(string0, comp(685, 26));
+    IF_SETTEXT(string0, comp(685, 26));  // arch_journal:research_title_text
     script14842(int1);
     return;
 }

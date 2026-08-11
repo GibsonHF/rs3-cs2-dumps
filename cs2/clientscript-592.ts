@@ -1,6 +1,6 @@
 //
 function script592(): void {
-    var int0 = IF_GETWIDTH(comp(517, 116));
+    var int0 = IF_GETWIDTH(comp(517, 116));  // bank:share_preset_quick_buttons
     var int1 = MAX(0, ((int0 - 180) / 7));
     var int2 = int1;
     var int3 = 0;
@@ -10,10 +10,10 @@ function script592(): void {
     int2 = MAX(int2, 4);
     var int7 = int2;
     int1 = int2;
-    CC_DELETEALL(comp(517, 119));
-    CC_DELETEALL(comp(517, 117));
-    CC_DELETEALL(comp(517, 118));
-    CC_CREATE(comp(517, 119), 4, 0);
+    CC_DELETEALL(comp(517, 119));  // bank:share_quick_click
+    CC_DELETEALL(comp(517, 117));  // bank:share_quick_build
+    CC_DELETEALL(comp(517, 118));  // bank:share_quick_disabled
+    CC_CREATE(comp(517, 119), 4, 0);  // bank:share_quick_click
     while ((int5 <= 9)) {
         if ((int4 < 19)) {
             script15924(int5, int2, int3);

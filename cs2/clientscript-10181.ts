@@ -3,47 +3,47 @@ function script10181(int0: number, int1: number): void {
     var int2 = 24;
     switch (int0) {
         case 0: {
-            varclient_4481 = comp(735, 37);
+            varclient_4481 = comp(735, 37);  // clan_camp_list:clan_name
             break;
         }
         case 1: {
-            varclient_4481 = comp(735, 37);
+            varclient_4481 = comp(735, 37);  // clan_camp_list:clan_name
             break;
         }
         case 2: {
-            varclient_4481 = comp(735, 36);
+            varclient_4481 = comp(735, 36);  // clan_camp_list:clan_rep
             break;
         }
         case 3: {
-            varclient_4481 = comp(735, 36);
+            varclient_4481 = comp(735, 36);  // clan_camp_list:clan_rep
             break;
         }
         case 4: {
-            varclient_4481 = comp(735, 38);
+            varclient_4481 = comp(735, 38);  // clan_camp_list:clan_size
             break;
         }
         case 5: {
-            varclient_4481 = comp(735, 38);
+            varclient_4481 = comp(735, 38);  // clan_camp_list:clan_size
             break;
         }
         case 6: {
-            varclient_4481 = comp(735, 35);
+            varclient_4481 = comp(735, 35);  // clan_camp_list:clan_recruiting_text
             break;
         }
         case 7: {
-            varclient_4481 = comp(735, 35);
+            varclient_4481 = comp(735, 35);  // clan_camp_list:clan_recruiting_text
             break;
         }
         case 8: {
-            varclient_4481 = comp(735, 33);
+            varclient_4481 = comp(735, 33);  // clan_camp_list:clan_citadel_text
             break;
         }
         case 9: {
-            varclient_4481 = comp(735, 33);
+            varclient_4481 = comp(735, 33);  // clan_camp_list:clan_citadel_text
             break;
         }
         default: {
-            varclient_4481 = comp(735, 37);
+            varclient_4481 = comp(735, 37);  // clan_camp_list:clan_name
             break;
         }
     };
@@ -106,28 +106,28 @@ function script10181(int0: number, int1: number): void {
     };
     int3 = 0;
     while ((int3 < int4)) {
-        if ((CC_FIND(comp(735, 37), push_array(int3)) == 1)) {
+        if ((CC_FIND(comp(735, 37), push_array(int3)) == 1)) {  // clan_camp_list:clan_name
             CC_SETPOSITION(0, (int2 * int3), 0, 0);
         };
-        if ((CC_FIND(comp(735, 36), push_array(int3)) == 1)) {
+        if ((CC_FIND(comp(735, 36), push_array(int3)) == 1)) {  // clan_camp_list:clan_rep
             CC_SETPOSITION(0, (int2 * int3), 0, 0);
         };
-        if ((CC_FIND(comp(735, 38), push_array(int3)) == 1)) {
+        if ((CC_FIND(comp(735, 38), push_array(int3)) == 1)) {  // clan_camp_list:clan_size
             CC_SETPOSITION(0, (int2 * int3), 0, 0);
         };
-        if ((CC_FIND(comp(735, 34), push_array(int3)) == 1)) {
+        if ((CC_FIND(comp(735, 34), push_array(int3)) == 1)) {  // clan_camp_list:clan_recruiting
             CC_SETPOSITION(0, ((int2 * int3) + 5), 1, 0);
         };
-        if ((CC_FIND(comp(735, 35), push_array(int3)) == 1)) {
+        if ((CC_FIND(comp(735, 35), push_array(int3)) == 1)) {  // clan_camp_list:clan_recruiting_text
             CC_SETPOSITION(0, ((int2 * int3) + 5), 1, 0);
         };
-        if ((CC_FIND(comp(735, 32), push_array(int3)) == 1)) {
+        if ((CC_FIND(comp(735, 32), push_array(int3)) == 1)) {  // clan_camp_list:clan_citadel
             CC_SETPOSITION(0, ((int2 * int3) + 5), 1, 0);
         };
-        if ((CC_FIND(comp(735, 33), push_array(int3)) == 1)) {
+        if ((CC_FIND(comp(735, 33), push_array(int3)) == 1)) {  // clan_camp_list:clan_citadel_text
             CC_SETPOSITION(0, ((int2 * int3) + 5), 1, 0);
         };
-        if ((CC_FIND(comp(735, 39), push_array(int3)) == 1)) {
+        if ((CC_FIND(comp(735, 39), push_array(int3)) == 1)) {  // clan_camp_list:more_button
             CC_SETPOSITION(0, (int2 * int3), 0, 0);
         };
         int3 = (int3 + 1);

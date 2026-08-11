@@ -3,12 +3,12 @@ function script95(int0: number, int1: number, int2: number): void {
     if (((int0 == -1 as cs2enum) || (int1 == -1))) {
         return;
     };
-    var int3 = comp(516, 9);
-    var int4 = comp(516, 1);
-    var int5 = comp(516, 0);
-    var int6 = comp(516, 10);
-    var int7 = comp(516, 11);
-    var int8 = comp(516, 12);
+    var int3 = comp(516, 9);  // postbag_parcel:parcel_contents_background_layer
+    var int4 = comp(516, 1);  // postbag_parcel:parcel_contents_build_layer
+    var int5 = comp(516, 0);  // postbag_parcel:parcel_contents_control_layer
+    var int6 = comp(516, 10);  // postbag_parcel:parcel_contents_scrolling_layer
+    var int7 = comp(516, 11);  // postbag_parcel:parcel_contents_scrollbar_layer
+    var int8 = comp(516, 12);  // postbag_parcel:parcel_contents_back_button_layer
     var int9 = 33816584;
     var int10 = -1;
     var int11 = 8;

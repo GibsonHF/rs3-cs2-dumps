@@ -2,11 +2,11 @@
 function script4725(): void {
     var int0 = 20316160;
     var int1 = 20316161;
-    var int2 = comp(310, 20);
+    var int2 = comp(310, 20);  // clan_keep_theatre_actors:name_layer
     var int3 = 20316181;
-    var int4 = comp(310, 23);
-    var int5 = comp(310, 22);
-    var int6 = comp(310, 26);
+    var int4 = comp(310, 23);  // clan_keep_theatre_actors:remove_layer
+    var int5 = comp(310, 22);  // clan_keep_theatre_actors:target_layer
+    var int6 = comp(310, 26);  // clan_keep_theatre_actors:tooltip_trigger_layer
     var string0 = "";
     CC_DELETEALL(int2);
     CC_DELETEALL(int5);
@@ -67,8 +67,8 @@ function script4725(): void {
         int10 = 6004 as graphic;
         int11 = 6005;
     };
-    IF_SETGRAPHIC(int10, comp(310, 27));
-    IF_SETONMOUSEOVER(callback(script44, -2147483645, int11), comp(310, 27));
-    IF_SETONMOUSELEAVE(callback(script44, -2147483645, int10), comp(310, 27));
+    IF_SETGRAPHIC(int10, comp(310, 27));  // clan_keep_theatre_actors:restrict_tick
+    IF_SETONMOUSEOVER(callback(script44, -2147483645, int11), comp(310, 27));  // clan_keep_theatre_actors:restrict_tick
+    IF_SETONMOUSELEAVE(callback(script44, -2147483645, int10), comp(310, 27));  // clan_keep_theatre_actors:restrict_tick
     return;
 }

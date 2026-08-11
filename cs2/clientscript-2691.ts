@@ -1,6 +1,6 @@
 //
 function script2691(): void {
-    if ((IF_GETHIDE(comp(906, 127)) == true)) {
+    if ((IF_GETHIDE(comp(906, 127)) == true)) {  // lobbyscreen:authenticator_button_layer
         return;
     };
     var string0 = "totp-authenticator";

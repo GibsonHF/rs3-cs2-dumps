@@ -9,7 +9,7 @@ function script2603(int0: number, int1: number, int2: number, int3: number): num
     var int10 = 0;
     var int11 = -1 as obj;
     var int12 = 1;
-    if ((((((int2 == comp(37, 103)) || (int2 == comp(37, 114))) || (int2 == comp(37, 125))) || (int2 == comp(37, 136))) || (int2 == comp(37, 147)))) {
+    if ((((((int2 == comp(37, 103) /*ms_smithing_makex:accordion_content_layer_5*/) || (int2 == comp(37, 114) /*ms_smithing_makex:accordion_content_layer_6*/)) || (int2 == comp(37, 125) /*ms_smithing_makex:accordion_content_layer_7*/)) || (int2 == comp(37, 136) /*ms_smithing_makex:accordion_content_layer_8*/)) || (int2 == comp(37, 147) /*ms_smithing_makex:accordion_content_layer_9*/))) {
         int12 = 0;
     };
     var int13 = 1;

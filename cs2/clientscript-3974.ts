@@ -19,7 +19,7 @@ function script3974(int0: number, int1: number, int2: number, int3: number, stri
     [int10, int11] = script8405(28704802);
     int8 = (int8 - int10);
     int9 = (int9 - int11);
-    var int12 = IF_GETWIDTH(comp(438, 34));
+    var int12 = IF_GETWIDTH(comp(438, 34));  // oct18:overview_layer
     int12 = (int12 - (int7 - int6));
     if ((int8 > int12)) {
         int8 = int12;

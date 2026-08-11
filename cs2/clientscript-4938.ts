@@ -2,7 +2,7 @@
 function script4938(int0: number): void {
     var int1 = 0;
     var int2 = 0;
-    var int3 = comp(1261, 110);
+    var int3 = comp(1261, 110);  // clan_stronghold_main_buildings:right_building_layer
     if ((int0 == 0)) {
         if ((varbitplayer_6679 == 1)) {
             int1 = (IF_GETX(int3) + 12);

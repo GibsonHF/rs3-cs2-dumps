@@ -1,6 +1,6 @@
 //
 function script18074(int0: number): void {
-    var int1 = comp(1226, 30);
+    var int1 = comp(1226, 30);  // bp3_missions_tab:mission_info_content_layer
     var int2 = script17905(int0);
     var int3 = script17903(int0);
     var int4 = script17902(int0);

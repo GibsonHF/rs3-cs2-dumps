@@ -1,11 +1,11 @@
 //
 function script10651(): void {
     if ((varbitplayer_678 == 1)) {
-        IF_SETHIDE(false, comp(1311, 499));
-        IF_SETHIDE(true, comp(1311, 500));
+        IF_SETHIDE(false, comp(1311, 499));  // mtxmgt:show_all_toggle_button_off_icon
+        IF_SETHIDE(true, comp(1311, 500));  // mtxmgt:show_all_toggle_button_on_icon
     } else {
-        IF_SETHIDE(true, comp(1311, 499));
-        IF_SETHIDE(false, comp(1311, 500));
+        IF_SETHIDE(true, comp(1311, 499));  // mtxmgt:show_all_toggle_button_off_icon
+        IF_SETHIDE(false, comp(1311, 500));  // mtxmgt:show_all_toggle_button_on_icon
     };
     if ((varbitplayer_673 == 2)) {
         script10653(varclient_4618, 1);

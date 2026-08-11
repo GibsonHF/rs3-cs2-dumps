@@ -3,7 +3,7 @@ function script7717(int0: number, int1: number, int2: number, int3: number, int4
     if ((IF_GETHIDE(int3) == true)) {
         return;
     };
-    if ((CC_FIND(comp(1411, 0), int5) == 1)) {
+    if ((CC_FIND(comp(1411, 0), int5) == 1)) {  // clantool_profile:variables
         switch (int0) {
             case 84: {
                 if ((STRING_LENGTH(varclient_2250) > 0)) {

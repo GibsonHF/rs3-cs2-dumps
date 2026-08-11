@@ -13,20 +13,20 @@ function script5923(int0: number, int1: number, int2: number): void {
         switch (int9) {
             case 0: {
                 int3 = enum_getvalue(0, 73, 812 as cs2enum, int0);
-                int4 = comp(19, 2);
-                int5 = comp(19, 3);
+                int4 = comp(19, 2);  // trh154_overlay:chest_1_model
+                int5 = comp(19, 3);  // trh154_overlay:chest_1_click
                 break;
             }
             case 1: {
                 int3 = enum_getvalue(0, 73, 812 as cs2enum, int1);
-                int4 = comp(19, 7);
-                int5 = comp(19, 8);
+                int4 = comp(19, 7);  // trh154_overlay:chest_2_model
+                int5 = comp(19, 8);  // trh154_overlay:chest_2_click
                 break;
             }
             case 2: {
                 int3 = enum_getvalue(0, 73, 812 as cs2enum, int2);
-                int4 = comp(19, 9);
-                int5 = comp(19, 10);
+                int4 = comp(19, 9);  // trh154_overlay:chest_3_model
+                int5 = comp(19, 10);  // trh154_overlay:chest_3_click
                 break;
             }
         };

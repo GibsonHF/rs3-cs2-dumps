@@ -5,26 +5,26 @@ function script11031(int0: number, int1: number): void {
     var int4 = 0;
     switch (int1) {
         case 1: {
-            int2 = comp(1631, 22);
-            int3 = comp(1631, 32);
+            int2 = comp(1631, 22);  // trh55_world_event:saradomin_progress_graphic
+            int3 = comp(1631, 32);  // trh55_world_event:saradomin_amount
             int4 = varbitplayer_28189;
             break;
         }
         case 2: {
-            int2 = comp(1631, 38);
-            int3 = comp(1631, 17);
+            int2 = comp(1631, 38);  // trh55_world_event:zamorak_progress_graphic
+            int3 = comp(1631, 17);  // trh55_world_event:zamorak_amount
             int4 = varbitplayer_28190;
             break;
         }
         case 3: {
-            int2 = comp(1631, 42);
-            int3 = comp(1631, 83);
+            int2 = comp(1631, 42);  // trh55_world_event:armadyl_progress_graphic
+            int3 = comp(1631, 83);  // trh55_world_event:armadyl_amount
             int4 = varbitplayer_28191;
             break;
         }
         case 4: {
-            int2 = comp(1631, 75);
-            int3 = comp(1631, 92);
+            int2 = comp(1631, 75);  // trh55_world_event:godless_progress_graphic
+            int3 = comp(1631, 92);  // trh55_world_event:godless_amount
             int4 = varbitplayer_28192;
             break;
         }

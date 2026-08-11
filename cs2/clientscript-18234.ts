@@ -1,6 +1,6 @@
 //
 function script18234(int0: number): void {
-    var int1 = comp(1343, 209);
+    var int1 = comp(1343, 209);  // jobs_main:weekly_progress_time_remaining_text
     var string0 = "";
     var int2 = 0;
     var int3 = 0;
@@ -20,14 +20,14 @@ function script18234(int0: number): void {
         string0 = "Logout to Refresh";
     };
     IF_SETTEXT(string0, int1);
-    IF_SETTEXT(string0, comp(1343, 203));
-    IF_SETTEXT(script17229(), comp(1343, 14));
+    IF_SETTEXT(string0, comp(1343, 203));  // jobs_main:reward_select_time_remaining_text
+    IF_SETTEXT(script17229(), comp(1343, 14));  // jobs_main:time_remaining_text
     var int5 = 0;
     var int6 = script16317();
     var string1 = script17177(script17176());
     int5 = (int5 + 1);
     while ((int5 <= int6)) {
-        if (((script16319(int5) == -1) && (CC_FINDBYCATEGORY(comp(1343, 19), (int5 - 1), 0) == 1))) {
+        if (((script16319(int5) == -1) && (CC_FINDBYCATEGORY(comp(1343, 19), (int5 - 1), 0) == 1))) {  // jobs_main:button_graphics
             CC_SETTEXT(string1);
         };
     };

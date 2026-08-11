@@ -3,9 +3,9 @@ function script17412(): void {
     var int0 = 0;
     var int1 = 0;
     var int2 = 0;
-    IF_SETGRAPHIC(21231 as graphic, comp(1253, 5));
-    IF_SETSIZE(0, 0, 1, 1, comp(1253, 5));
-    CC_DELETEALL(comp(1253, 3));
+    IF_SETGRAPHIC(21231 as graphic, comp(1253, 5));  // wheel_of_fortune:background
+    IF_SETSIZE(0, 0, 1, 1, comp(1253, 5));  // wheel_of_fortune:background
+    CC_DELETEALL(comp(1253, 3));  // wheel_of_fortune:background_holder
     [int1, int0] = [int0, (int0 + 1)];
     int2 = 0;
     stack(82116611);

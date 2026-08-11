@@ -1,17 +1,17 @@
 //
 function script19190(int0: number): void {
-    var int1 = comp(1288, 69);
+    var int1 = comp(1288, 69);  // trh_academy_shared_overlay:character_model
     if (((varbitplayer_56046 == 0) || (IF_GETMODELZOOM(int1) != 400))) {
         script19191(int0, int1);
         script19184(int0, int1);
         IF_SETMODELANGLE(-55, 72, 0, -300, 0, 400, int1);
     };
-    IF_SETOP(5, "Examine", comp(1288, 70));
-    IF_SETOPBASE(`<col=FFFF00>${script19175(int0)}</col>`, comp(1288, 70));
-    IF_SETONOP(callback(script19189, int0), comp(1288, 70));
-    IF_SETTEXT(`Level<br>${inttostring(script19145(int0), 10)}`, comp(1288, 50));
+    IF_SETOP(5, "Examine", comp(1288, 70));  // trh_academy_shared_overlay:character_examine
+    IF_SETOPBASE(`<col=FFFF00>${script19175(int0)}</col>`, comp(1288, 70));  // trh_academy_shared_overlay:character_examine
+    IF_SETONOP(callback(script19189, int0), comp(1288, 70));  // trh_academy_shared_overlay:character_examine
+    IF_SETTEXT(`Level<br>${inttostring(script19145(int0), 10)}`, comp(1288, 50));  // trh_academy_shared_overlay:character_level
     script19192(int0);
-    IF_SETTEXT(script19175(int0), comp(1288, 49));
+    IF_SETTEXT(script19175(int0), comp(1288, 49));  // trh_academy_shared_overlay:character_name
     var int2 = script19148(int0);
     var int3 = -1;
     var int4 = -1;
@@ -42,7 +42,7 @@ function script19190(int0: number): void {
             script19194(int2, int3, 84410446, 84410448, 84410449, 84410450, int10);
             script19194(int2, int4, 84410443, 84410445, 84410477, 84410478, int10);
             var string0 = "Select this to see a full list of rewards";
-            IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643), comp(1288, 74));
+            IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643), comp(1288, 74));  // trh_academy_shared_overlay:milestone_reward_plus_button
             return;
         };
     };
@@ -53,6 +53,6 @@ function script19190(int0: number): void {
     script19194(int2, int3, 84410446, 84410448, 84410449, 84410450, int10);
     script19194(int2, int4, 84410443, 84410445, 84410477, 84410478, int10);
     string0 = "Select this to see a full list of rewards";
-    IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643), comp(1288, 74));
+    IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643), comp(1288, 74));  // trh_academy_shared_overlay:milestone_reward_plus_button
     return;
 }

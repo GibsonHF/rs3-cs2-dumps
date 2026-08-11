@@ -3,107 +3,107 @@ function script3488(): void {
     MAX(varbitplayer_43374, 1);
     switch (varbitplayer_43374) {
         case 1: {
-            IF_SETSIZE(SCALE(250, 100, (varbitplayer_2438 * 10)), 17, 0, 0, comp(993, 122));
+            IF_SETSIZE(SCALE(250, 100, (varbitplayer_2438 * 10)), 17, 0, 0, comp(993, 122));  // rand_ring_interface:ring_a_bar_actual
             if ((varbitplayer_2438 == 10)) {
-                IF_SETHIDE(true, comp(993, 26));
+                IF_SETHIDE(true, comp(993, 26));  // rand_ring_interface:upgrade_ring_a_layer
             } else {
-                IF_SETHIDE(false, comp(993, 26));
+                IF_SETHIDE(false, comp(993, 26));  // rand_ring_interface:upgrade_ring_a_layer
             };
-            IF_SETSIZE(SCALE(250, 100, (varbitplayer_2439 * 10)), 17, 0, 0, comp(993, 68));
+            IF_SETSIZE(SCALE(250, 100, (varbitplayer_2439 * 10)), 17, 0, 0, comp(993, 68));  // rand_ring_interface:ring_b_bar_actual
             if ((varbitplayer_2439 == 10)) {
-                IF_SETHIDE(true, comp(993, 22));
+                IF_SETHIDE(true, comp(993, 22));  // rand_ring_interface:upgrade_ring_b_layer
             } else {
-                IF_SETHIDE(false, comp(993, 22));
+                IF_SETHIDE(false, comp(993, 22));  // rand_ring_interface:upgrade_ring_b_layer
             };
-            IF_SETSIZE(SCALE(250, 100, (varbitplayer_2440 * 10)), 17, 0, 0, comp(993, 95));
+            IF_SETSIZE(SCALE(250, 100, (varbitplayer_2440 * 10)), 17, 0, 0, comp(993, 95));  // rand_ring_interface:ring_c_bar_actual
             if ((varbitplayer_2440 == 10)) {
-                IF_SETHIDE(true, comp(993, 19));
+                IF_SETHIDE(true, comp(993, 19));  // rand_ring_interface:upgrade_ring_c_layer
             } else {
-                IF_SETHIDE(false, comp(993, 19));
+                IF_SETHIDE(false, comp(993, 19));  // rand_ring_interface:upgrade_ring_c_layer
             };
             break;
         }
         case 2: {
-            IF_SETSIZE(SCALE(250, 100, (varbitplayer_2441 * 10)), 17, 0, 0, comp(993, 122));
+            IF_SETSIZE(SCALE(250, 100, (varbitplayer_2441 * 10)), 17, 0, 0, comp(993, 122));  // rand_ring_interface:ring_a_bar_actual
             if ((varbitplayer_2441 == 10)) {
-                IF_SETHIDE(true, comp(993, 26));
+                IF_SETHIDE(true, comp(993, 26));  // rand_ring_interface:upgrade_ring_a_layer
             } else {
-                IF_SETHIDE(false, comp(993, 26));
+                IF_SETHIDE(false, comp(993, 26));  // rand_ring_interface:upgrade_ring_a_layer
             };
-            IF_SETSIZE(SCALE(250, 100, (varbitplayer_2442 * 10)), 17, 0, 0, comp(993, 68));
+            IF_SETSIZE(SCALE(250, 100, (varbitplayer_2442 * 10)), 17, 0, 0, comp(993, 68));  // rand_ring_interface:ring_b_bar_actual
             if ((varbitplayer_2442 == 10)) {
-                IF_SETHIDE(true, comp(993, 22));
+                IF_SETHIDE(true, comp(993, 22));  // rand_ring_interface:upgrade_ring_b_layer
             } else {
-                IF_SETHIDE(false, comp(993, 22));
+                IF_SETHIDE(false, comp(993, 22));  // rand_ring_interface:upgrade_ring_b_layer
             };
-            IF_SETSIZE(SCALE(250, 100, (varbitplayer_2443 * 10)), 17, 0, 0, comp(993, 95));
+            IF_SETSIZE(SCALE(250, 100, (varbitplayer_2443 * 10)), 17, 0, 0, comp(993, 95));  // rand_ring_interface:ring_c_bar_actual
             if ((varbitplayer_2443 == 10)) {
-                IF_SETHIDE(true, comp(993, 19));
+                IF_SETHIDE(true, comp(993, 19));  // rand_ring_interface:upgrade_ring_c_layer
             } else {
-                IF_SETHIDE(false, comp(993, 19));
+                IF_SETHIDE(false, comp(993, 19));  // rand_ring_interface:upgrade_ring_c_layer
             };
             break;
         }
         case 3: {
-            IF_SETSIZE(SCALE(250, 100, (varbitplayer_2444 * 10)), 17, 0, 0, comp(993, 122));
+            IF_SETSIZE(SCALE(250, 100, (varbitplayer_2444 * 10)), 17, 0, 0, comp(993, 122));  // rand_ring_interface:ring_a_bar_actual
             if ((varbitplayer_2444 == 10)) {
-                IF_SETHIDE(true, comp(993, 26));
+                IF_SETHIDE(true, comp(993, 26));  // rand_ring_interface:upgrade_ring_a_layer
             } else {
-                IF_SETHIDE(false, comp(993, 26));
+                IF_SETHIDE(false, comp(993, 26));  // rand_ring_interface:upgrade_ring_a_layer
             };
-            IF_SETSIZE(SCALE(250, 100, (varbitplayer_2445 * 10)), 17, 0, 0, comp(993, 68));
+            IF_SETSIZE(SCALE(250, 100, (varbitplayer_2445 * 10)), 17, 0, 0, comp(993, 68));  // rand_ring_interface:ring_b_bar_actual
             if ((varbitplayer_2445 == 10)) {
-                IF_SETHIDE(true, comp(993, 22));
+                IF_SETHIDE(true, comp(993, 22));  // rand_ring_interface:upgrade_ring_b_layer
             } else {
-                IF_SETHIDE(false, comp(993, 22));
+                IF_SETHIDE(false, comp(993, 22));  // rand_ring_interface:upgrade_ring_b_layer
             };
-            IF_SETSIZE(SCALE(250, 100, (varbitplayer_2446 * 10)), 17, 0, 0, comp(993, 95));
+            IF_SETSIZE(SCALE(250, 100, (varbitplayer_2446 * 10)), 17, 0, 0, comp(993, 95));  // rand_ring_interface:ring_c_bar_actual
             if ((varbitplayer_2446 == 10)) {
-                IF_SETHIDE(true, comp(993, 19));
+                IF_SETHIDE(true, comp(993, 19));  // rand_ring_interface:upgrade_ring_c_layer
             } else {
-                IF_SETHIDE(false, comp(993, 19));
+                IF_SETHIDE(false, comp(993, 19));  // rand_ring_interface:upgrade_ring_c_layer
             };
             break;
         }
         case 4: {
-            IF_SETSIZE(SCALE(250, 100, (varbitplayer_24893 * 10)), 17, 0, 0, comp(993, 122));
+            IF_SETSIZE(SCALE(250, 100, (varbitplayer_24893 * 10)), 17, 0, 0, comp(993, 122));  // rand_ring_interface:ring_a_bar_actual
             if ((varbitplayer_24893 == 10)) {
-                IF_SETHIDE(true, comp(993, 26));
+                IF_SETHIDE(true, comp(993, 26));  // rand_ring_interface:upgrade_ring_a_layer
             } else {
-                IF_SETHIDE(false, comp(993, 26));
+                IF_SETHIDE(false, comp(993, 26));  // rand_ring_interface:upgrade_ring_a_layer
             };
-            IF_SETSIZE(SCALE(250, 100, (varbitplayer_24894 * 10)), 17, 0, 0, comp(993, 68));
+            IF_SETSIZE(SCALE(250, 100, (varbitplayer_24894 * 10)), 17, 0, 0, comp(993, 68));  // rand_ring_interface:ring_b_bar_actual
             if ((varbitplayer_24894 == 10)) {
-                IF_SETHIDE(true, comp(993, 22));
+                IF_SETHIDE(true, comp(993, 22));  // rand_ring_interface:upgrade_ring_b_layer
             } else {
-                IF_SETHIDE(false, comp(993, 22));
+                IF_SETHIDE(false, comp(993, 22));  // rand_ring_interface:upgrade_ring_b_layer
             };
-            IF_SETSIZE(SCALE(250, 100, (varbitplayer_24895 * 10)), 17, 0, 0, comp(993, 95));
+            IF_SETSIZE(SCALE(250, 100, (varbitplayer_24895 * 10)), 17, 0, 0, comp(993, 95));  // rand_ring_interface:ring_c_bar_actual
             if ((varbitplayer_24895 == 10)) {
-                IF_SETHIDE(true, comp(993, 19));
+                IF_SETHIDE(true, comp(993, 19));  // rand_ring_interface:upgrade_ring_c_layer
             } else {
-                IF_SETHIDE(false, comp(993, 19));
+                IF_SETHIDE(false, comp(993, 19));  // rand_ring_interface:upgrade_ring_c_layer
             };
             break;
         }
         case 5: {
-            IF_SETSIZE(SCALE(250, 100, (varbitplayer_2447 * 10)), 17, 0, 0, comp(993, 122));
+            IF_SETSIZE(SCALE(250, 100, (varbitplayer_2447 * 10)), 17, 0, 0, comp(993, 122));  // rand_ring_interface:ring_a_bar_actual
             if ((varbitplayer_2447 == 10)) {
-                IF_SETHIDE(true, comp(993, 26));
+                IF_SETHIDE(true, comp(993, 26));  // rand_ring_interface:upgrade_ring_a_layer
             } else {
-                IF_SETHIDE(false, comp(993, 26));
+                IF_SETHIDE(false, comp(993, 26));  // rand_ring_interface:upgrade_ring_a_layer
             };
-            IF_SETSIZE(SCALE(250, 100, (varbitplayer_2448 * 10)), 17, 0, 0, comp(993, 68));
+            IF_SETSIZE(SCALE(250, 100, (varbitplayer_2448 * 10)), 17, 0, 0, comp(993, 68));  // rand_ring_interface:ring_b_bar_actual
             if ((varbitplayer_2448 == 10)) {
-                IF_SETHIDE(true, comp(993, 22));
+                IF_SETHIDE(true, comp(993, 22));  // rand_ring_interface:upgrade_ring_b_layer
             } else {
-                IF_SETHIDE(false, comp(993, 22));
+                IF_SETHIDE(false, comp(993, 22));  // rand_ring_interface:upgrade_ring_b_layer
             };
-            IF_SETSIZE(SCALE(250, 100, (varbitplayer_2449 * 10)), 17, 0, 0, comp(993, 95));
+            IF_SETSIZE(SCALE(250, 100, (varbitplayer_2449 * 10)), 17, 0, 0, comp(993, 95));  // rand_ring_interface:ring_c_bar_actual
             if ((varbitplayer_2449 == 10)) {
-                IF_SETHIDE(true, comp(993, 19));
+                IF_SETHIDE(true, comp(993, 19));  // rand_ring_interface:upgrade_ring_c_layer
             } else {
-                IF_SETHIDE(false, comp(993, 19));
+                IF_SETHIDE(false, comp(993, 19));  // rand_ring_interface:upgrade_ring_c_layer
             };
             break;
         }
@@ -114,7 +114,7 @@ function script3488(): void {
     script13995(65077399, -1, 28556, "", script9670(varbitplayer_43374, 4));
     script13995(65077288, -1, 28556, "", script9670(varbitplayer_43374, 5));
     var int0 = enum_getvalue(0, 26, 3088 as cs2enum, varbitplayer_43374);
-    IF_SETTEXT(struct_getparam(enum_getvalue(0, 73, int0, 1), 1089), comp(993, 98));
+    IF_SETTEXT(struct_getparam(enum_getvalue(0, 73, int0, 1), 1089), comp(993, 98));  // rand_ring_interface:ring_a_name
     IF_SETTEXT(struct_getparam(enum_getvalue(0, 73, int0, 1), 1090), 65077347);
     IF_SETTEXT(struct_getparam(enum_getvalue(0, 73, int0, 2), 1089), 65077292);
     IF_SETTEXT(struct_getparam(enum_getvalue(0, 73, int0, 2), 1090), 65077293);

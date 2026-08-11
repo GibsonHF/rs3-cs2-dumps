@@ -8,16 +8,16 @@ function script16641(int0: number): void {
         }
         case 2: {
             string0 = "You can excavate at this location.";
-            if ((IF_FIND(comp(996, 8)) == 1)) {
+            if ((IF_FIND(comp(996, 8)) == 1)) {  // trail_compassclue_side:dig_icon
                 CC_SETMODEL(104784 as model);
                 CC_SETMODELANGLE(-85, -200, 1340, 1872, 1596, 450);
                 CC_SETONMOUSEREPEAT(callback(script8799, string0, 65273864, -1));
             };
-            IF_SETOP(1, "Excavate", comp(996, 0));
+            IF_SETOP(1, "Excavate", comp(996, 0));  // trail_compassclue_side:dig_icon_layer
             break;
         }
         case 3: {
-            IF_SETHIDE(true, comp(996, 0));
+            IF_SETHIDE(true, comp(996, 0));  // trail_compassclue_side:dig_icon_layer
             break;
         }
     };

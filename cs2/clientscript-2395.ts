@@ -11,7 +11,7 @@ function script2395(int0: number, int1: number, int2: number, int3: number): voi
     var int6 = script2385(int0, 1);
     var int7 = 0;
     if ((int3 == 37158928)) {
-        if ((((int6 == -1) || (IF_GETLAYER(int1) == comp(567, 16))) || (script13863(int0, -1, int1, int2) == 0))) {
+        if ((((int6 == -1) || (IF_GETLAYER(int1) == comp(567, 16))) || (script13863(int0, -1, int1, int2) == 0))) {  // toplevel_v2_ribbon_select:hidden_list
             return;
         };
         int7 = -1;
@@ -31,7 +31,7 @@ function script2395(int0: number, int1: number, int2: number, int3: number): voi
     } else {
         return;
     };
-    if ((((PLAYERMEMBER() == false) && (int0 == script2390(7))) && (IF_FIND(comp(1431, 1)) == 1))) {
+    if ((((PLAYERMEMBER() == false) && (int0 == script2390(7))) && (IF_FIND(comp(1431, 1)) == 1))) {  // toplevel_v2_ribbon:ribbon_root
         int7 = MAX(0, MIN(int7, cc_getparam(6837)));
     };
     script2393(int0, int7);

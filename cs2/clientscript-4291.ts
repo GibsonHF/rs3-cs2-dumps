@@ -1,22 +1,22 @@
 //
 function script4291(): void {
     IF_SETONCLANSETTINGSTRANSMIT(callback(script4300), 71827479);
-    IF_SETONVARCTRANSMIT(callback(script4300, 1516, 1), comp(1096, 23));
-    IF_SETONTIMER(callback(script4319, 0, 1), comp(1096, 29));
+    IF_SETONVARCTRANSMIT(callback(script4300, 1516, 1), comp(1096, 23));  // clansettings:list_name_layer
+    IF_SETONTIMER(callback(script4319, 0, 1), comp(1096, 29));  // clansettings:clanmate_settings_layer
     IF_SETONCLANSETTINGSTRANSMIT(callback(script4294), 71827485);
     IF_SETONCLANCHANNELTRANSMIT(callback(script4294), 71827485);
-    IF_SETONVARCTRANSMIT(callback(script118, 1500, 1501, 1502, 1503, 4), comp(1096, 29));
-    IF_SETONVARCSTRTRANSMIT(callback(script118, 2521, 1), comp(1096, 29));
+    IF_SETONVARCTRANSMIT(callback(script118, 1500, 1501, 1502, 1503, 4), comp(1096, 29));  // clansettings:clanmate_settings_layer
+    IF_SETONVARCSTRTRANSMIT(callback(script118, 2521, 1), comp(1096, 29));  // clansettings:clanmate_settings_layer
     script4311();
     script4328(71827597);
     IF_SETONCLANSETTINGSTRANSMIT(callback(script5226), 71827597);
-    IF_SETSIZE(IF_GETWIDTH(comp(1096, 29)), 115, 0, 0, comp(1096, 29));
-    IF_SETHIDE(true, comp(1096, 609));
-    var int0 = comp(1096, 22);
+    IF_SETSIZE(IF_GETWIDTH(comp(1096, 29)), 115, 0, 0, comp(1096, 29));  // clansettings:clanmate_settings_layer
+    IF_SETHIDE(true, comp(1096, 609));  // clansettings:clan_data_waiting
+    var int0 = comp(1096, 22);  // clansettings:rectangle_layer
     var int1 = 0;
     var int2 = 0;
     var int3 = 0;
-    var int4 = (IF_GETWIDTH(comp(1096, 21)) / 2);
+    var int4 = (IF_GETWIDTH(comp(1096, 21)) / 2);  // clansettings:list_scrolling_layer
     var int5 = 23;
     var int6 = script10495(12);
     var int7 = script10495(9);

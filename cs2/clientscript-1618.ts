@@ -5,7 +5,7 @@ function script1618(): void {
     var int2 = 0;
     var int3 = 0;
     var int4 = 0;
-    IF_SETHIDE(false, comp(287, 4));
+    IF_SETHIDE(false, comp(287, 4));  // reinitialisation_puzzle:inv_layer
     if ((varclient_1032 == 1)) {
         int0 = 221 as inv;
     } else {

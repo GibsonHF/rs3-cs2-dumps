@@ -27,6 +27,6 @@ function script7840(): void {
             break;
         }
     };
-    IF_SETONTIMER(callback(), comp(1420, 6));
+    IF_SETONTIMER(callback(), comp(1420, 6));  // acc_create:random_name_listener
     return;
 }

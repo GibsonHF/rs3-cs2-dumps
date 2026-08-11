@@ -11,7 +11,7 @@ function script18902(): void {
     script18899(1, int6);
     while ((int6 < int0)) {
         int2 = (varclient_7418 + int6);
-        if ((CC_FINDBYCATEGORY(comp(1284, 17), 0, int6) == 1)) {
+        if ((CC_FINDBYCATEGORY(comp(1284, 17), 0, int6) == 1)) {  // calendar_main:weekdays_container_scroll_layer
             if ((int2 != int1)) {
                 script10684(7571);
             } else {
@@ -19,7 +19,7 @@ function script18902(): void {
                 script18899(0, int6);
             };
         };
-        if ((CC_FINDBYCATEGORY(comp(1284, 17), 1, int6) == 1)) {
+        if ((CC_FINDBYCATEGORY(comp(1284, 17), 1, int6) == 1)) {  // calendar_main:weekdays_container_scroll_layer
             [int3, int4, int5] = DATE_RUNEDAY_TODATE(int2);
             string0 = `${enum_getvalue(0, 36, 13931 as cs2enum, MODULO(int6, 7))}<br>${inttostring(int3, 10)}`;
             if ((STRINGWIDTH(string0, script20491(17514)) > CC_GETWIDTH())) {

@@ -1,5 +1,5 @@
 //
 function script2039(): void {
-    IF_SETHIDE(true, comp(1040, 8));
+    IF_SETHIDE(true, comp(1040, 8));  // town_ingame_hud:text_layer
     return;
 }

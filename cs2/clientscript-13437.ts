@@ -1,6 +1,6 @@
 //
 function script13437(): void {
-    var int0 = comp(1875, 5);
+    var int0 = comp(1875, 5);  // repmodal:side_graphic_text_layer
     CC_DELETEALL(int0);
     var string0 = "Increase the standing you have within any of the four factions to unlock city rewards.<br><br>All faction reputation contributes to your overall city ranking and gives you access to additional content.";
     CC_CREATE(int0, 4, IF_GETNEXTSUBID(int0));

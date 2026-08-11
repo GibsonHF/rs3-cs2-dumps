@@ -7,7 +7,7 @@ function script7192(int0: number, int1: number, int2: number, int3: number, int4
     var int4 = MAX(MIN(int4, (3500 / 8)), (0 - 3500));
     CAM2_SETPOSITIONENTITY_PLAYER(int0, int1, int2, 0, 0, 0, 0, 100);
     CAM2_SETLOOKATENTITY_PLAYER(script7193(2500, int0, int1, int2, int3, int4), 0);
-    IF_SETONOP(callback(script7194, -2147483644, int0, int1, int2, int3, int4, int5, int6, int7), comp(475, 6));
-    IF_SETONMOUSEREPEAT(callback(script7195, -2147483647, -2147483646, int0, int1, int2, int3, int4, int5, int6, int7), comp(475, 7));
+    IF_SETONOP(callback(script7194, -2147483644, int0, int1, int2, int3, int4, int5, int6, int7), comp(475, 6));  // machinima_livecamera:keylistener_layer
+    IF_SETONMOUSEREPEAT(callback(script7195, -2147483647, -2147483646, int0, int1, int2, int3, int4, int5, int6, int7), comp(475, 7));  // machinima_livecamera:mouselistener
     return;
 }

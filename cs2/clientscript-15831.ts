@@ -1,5 +1,5 @@
 //
 function script15831(): void {
-    IF_SETTEXT(script3930(script15830(), IF_GETWIDTH(comp(662, 58)), 1, 56), comp(662, 58));
+    IF_SETTEXT(script3930(script15830(), IF_GETWIDTH(comp(662, 58)), 1, 56), comp(662, 58));  // lore_stats_side:lore_name
     return;
 }

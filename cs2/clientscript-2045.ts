@@ -35,7 +35,7 @@ function script2045(int0: number, int1: number, int2: number, int3: number, int4
     if ((varbitplayer_14109 == 0)) {
         script4(93192197, varclient_674, "You are here", 280, int0, int10, int11, int12, int13);
     } else {
-        CC_DELETEALL(comp(1422, 5));
+        CC_DELETEALL(comp(1422, 5));  // worldmap_v2_ui:you_are_here
     };
     script4(93192198, varclient_623, varclient_2546, varclient_624, int0, int10, int11, int12, int13);
     script4(93192199, varclient_625, varclient_2547, varclient_626, int0, int10, int11, int12, int13);
@@ -65,23 +65,23 @@ function script2045(int0: number, int1: number, int2: number, int3: number, int4
             script9331(93192221, 24970, int0, int10, int11, int12, int13);
             script9331(93192222, 28259, int0, int10, int11, int12, int13);
         } else {
-            CC_DELETEALL(comp(1422, 20));
-            CC_DELETEALL(comp(1422, 21));
-            CC_DELETEALL(comp(1422, 22));
-            CC_DELETEALL(comp(1422, 23));
-            CC_DELETEALL(comp(1422, 24));
-            CC_DELETEALL(comp(1422, 25));
-            CC_DELETEALL(comp(1422, 26));
-            CC_DELETEALL(comp(1422, 27));
-            CC_DELETEALL(comp(1422, 28));
-            CC_DELETEALL(comp(1422, 29));
-            CC_DELETEALL(comp(1422, 30));
+            CC_DELETEALL(comp(1422, 20));  // worldmap_v2_ui:upsell0
+            CC_DELETEALL(comp(1422, 21));  // worldmap_v2_ui:upsell1
+            CC_DELETEALL(comp(1422, 22));  // worldmap_v2_ui:upsell2
+            CC_DELETEALL(comp(1422, 23));  // worldmap_v2_ui:upsell3
+            CC_DELETEALL(comp(1422, 24));  // worldmap_v2_ui:upsell4
+            CC_DELETEALL(comp(1422, 25));  // worldmap_v2_ui:upsell5
+            CC_DELETEALL(comp(1422, 26));  // worldmap_v2_ui:upsell6
+            CC_DELETEALL(comp(1422, 27));  // worldmap_v2_ui:upsell7
+            CC_DELETEALL(comp(1422, 28));  // worldmap_v2_ui:upsell8
+            CC_DELETEALL(comp(1422, 29));  // worldmap_v2_ui:upsell9
+            CC_DELETEALL(comp(1422, 30));  // worldmap_v2_ui:upsell10
         };
     };
     if ((WORLDMAP_GETCURRENTMAP() == 28)) {
         script9331(93192223, script13350(), int0, int10, int11, int12, int13);
     } else {
-        CC_DELETEALL(comp(1422, 31));
+        CC_DELETEALL(comp(1422, 31));  // worldmap_v2_ui:newcontent_upsell0
     };
     return;
 }

@@ -1,8 +1,8 @@
 //
 function script365(int0: number, int1: number, int2: number): void {
-    var int3 = STRINGWIDTH(IF_GETTEXT(comp(1473, 11)), 26 as fontmetrics);
+    var int3 = STRINGWIDTH(IF_GETTEXT(comp(1473, 11)), 26 as fontmetrics);  // toplevel_v2_inventory:money_pouch_anim_text
     var int4 = 10;
-    if (((int1 == 109182982) || (int2 == comp(517, 20)))) {
+    if (((int1 == 109182982) || (int2 == comp(517, 20)))) {  // bank:money_pouch_anim_layer
         int4 = 0;
     };
     var int5 = 1;
@@ -10,7 +10,7 @@ function script365(int0: number, int1: number, int2: number): void {
     if ((int6 < 25)) {
         int5 = (1 - ((int3 * (25 - int6)) / 25));
     };
-    if ((int2 == comp(1920, 13))) {
+    if ((int2 == comp(1920, 13))) {  // toplevel_v2_minimap_legacy:money_pouch_anim_layer
         IF_SETPOSITION(int5, IF_GETY(int2), 2, 0, int2);
     } else {
         IF_SETPOSITION(int5, int4, 2, 0, int2);
@@ -18,15 +18,15 @@ function script365(int0: number, int1: number, int2: number): void {
     if ((int6 < 150)) {
         return;
     };
-    IF_SETHIDE(true, comp(1474, 13));
-    IF_SETHIDE(true, comp(1473, 10));
-    IF_SETHIDE(true, comp(1920, 13));
-    IF_SETHIDE(true, comp(1666, 1));
-    IF_SETHIDE(true, comp(517, 20));
-    IF_SETONTIMER(callback(), comp(1474, 13));
-    IF_SETONTIMER(callback(), comp(1473, 10));
-    IF_SETONTIMER(callback(), comp(1920, 13));
-    IF_SETONTIMER(callback(), comp(1666, 1));
-    IF_SETONTIMER(callback(), comp(517, 20));
+    IF_SETHIDE(true, comp(1474, 13));  // toplevel_v2_parent_suboverlay_inventory:money_pouch_anim_layer
+    IF_SETHIDE(true, comp(1473, 10));  // toplevel_v2_inventory:money_pouch_anim_layer
+    IF_SETHIDE(true, comp(1920, 13));  // toplevel_v2_minimap_legacy:money_pouch_anim_layer
+    IF_SETHIDE(true, comp(1666, 1));  // exchange_moneypouch:money_pouch_anim_layer
+    IF_SETHIDE(true, comp(517, 20));  // bank:money_pouch_anim_layer
+    IF_SETONTIMER(callback(), comp(1474, 13));  // toplevel_v2_parent_suboverlay_inventory:money_pouch_anim_layer
+    IF_SETONTIMER(callback(), comp(1473, 10));  // toplevel_v2_inventory:money_pouch_anim_layer
+    IF_SETONTIMER(callback(), comp(1920, 13));  // toplevel_v2_minimap_legacy:money_pouch_anim_layer
+    IF_SETONTIMER(callback(), comp(1666, 1));  // exchange_moneypouch:money_pouch_anim_layer
+    IF_SETONTIMER(callback(), comp(517, 20));  // bank:money_pouch_anim_layer
     return;
 }

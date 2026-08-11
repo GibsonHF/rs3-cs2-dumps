@@ -1,10 +1,10 @@
 //
 function script467(): void {
-    CC_DELETEALL(comp(549, 22));
-    IF_SETHIDE(true, comp(549, 66));
+    CC_DELETEALL(comp(549, 22));  // boothpreview:worn_items_layer
+    IF_SETHIDE(true, comp(549, 66));  // boothpreview:confirm_layer_container
     var int0 = 0;
     while ((int0 < 14)) {
-        CC_CREATE(comp(549, 22), 5, int0);
+        CC_CREATE(comp(549, 22), 5, int0);  // boothpreview:worn_items_layer
         if ((((int0 != 6) && (int0 != 8)) && (int0 != 11))) {
             if ((INV_GETOBJ(94 as inv, int0) != -1 as obj)) {
                 CC_SETSIZE(36, 32, 0, 0);
@@ -77,24 +77,24 @@ function script467(): void {
         int0 = (int0 + 1);
     };
     if ((varclient_4678 == 1)) {
-        IF_SETSIZE(130, 45, 0, 0, comp(549, 12));
-        IF_SETPOSITION(-16, 51, 1, 1, comp(549, 12));
-        IF_SETHIDE(false, comp(549, 13));
+        IF_SETSIZE(130, 45, 0, 0, comp(549, 12));  // boothpreview:confirm_button_layer
+        IF_SETPOSITION(-16, 51, 1, 1, comp(549, 12));  // boothpreview:confirm_button_layer
+        IF_SETHIDE(false, comp(549, 13));  // boothpreview:dropdown_box_for_elf_override
     } else {
-        IF_SETSIZE(130, 66, 0, 0, comp(549, 12));
-        IF_SETPOSITION(-16, 74, 1, 1, comp(549, 12));
-        IF_SETHIDE(true, comp(549, 13));
+        IF_SETSIZE(130, 66, 0, 0, comp(549, 12));  // boothpreview:confirm_button_layer
+        IF_SETPOSITION(-16, 74, 1, 1, comp(549, 12));  // boothpreview:confirm_button_layer
+        IF_SETHIDE(true, comp(549, 13));  // boothpreview:dropdown_box_for_elf_override
     };
     if ((varplayer_5055 == 0)) {
-        IF_SETHIDE(true, comp(549, 19));
-        IF_SETHIDE(true, comp(549, 16));
-        IF_SETHIDE(false, comp(549, 20));
-        IF_SETHIDE(false, comp(549, 17));
+        IF_SETHIDE(true, comp(549, 19));  // boothpreview:npc_model
+        IF_SETHIDE(true, comp(549, 16));  // boothpreview:npc_head
+        IF_SETHIDE(false, comp(549, 20));  // boothpreview:playermodel
+        IF_SETHIDE(false, comp(549, 17));  // boothpreview:chathead
     } else {
-        IF_SETHIDE(false, comp(549, 19));
-        IF_SETHIDE(false, comp(549, 16));
-        IF_SETHIDE(true, comp(549, 20));
-        IF_SETHIDE(true, comp(549, 17));
+        IF_SETHIDE(false, comp(549, 19));  // boothpreview:npc_model
+        IF_SETHIDE(false, comp(549, 16));  // boothpreview:npc_head
+        IF_SETHIDE(true, comp(549, 20));  // boothpreview:playermodel
+        IF_SETHIDE(true, comp(549, 17));  // boothpreview:chathead
     };
     return;
 }

@@ -1,5 +1,5 @@
 //
 function script11594(): void {
-    IF_SETTEXT(inttostring(varbitplayer_28346, 10), comp(1635, 95));
+    IF_SETTEXT(inttostring(varbitplayer_28346, 10), comp(1635, 95));  // mtx91_challenge_setup:text_input_display_protect_key
     return;
 }

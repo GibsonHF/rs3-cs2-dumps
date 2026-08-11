@@ -69,7 +69,7 @@ function script4(int0: number, int1: number, int2: number, int3: number, int4: n
     var string1 = "Scroll map";
     var string2 = "";
     if ((STRING_LENGTH(string0) > 0)) {
-        if ((int0 == comp(1422, 5))) {
+        if ((int0 == comp(1422, 5))) {  // worldmap_v2_ui:you_are_here
             string2 = "Your position";
         } else {
             string2 = REMOVETAGS(script2332(string0, "<br>", " "));
@@ -83,7 +83,7 @@ function script4(int0: number, int1: number, int2: number, int3: number, int4: n
         int17 = (int12 / 2);
         int18 = (int12 / 2);
         script2048(int0, 1, struct_getparam(int2, 131), int12, int13, 0, 0, 0, 0, 0, 0, 1, "", "", -1);
-    } else if (((int0 != comp(1422, 13)) && (int0 != comp(1422, 16)))) {
+    } else if (((int0 != comp(1422, 13) /*worldmap_v2_ui:arrow_raid_demon_boss*/) && (int0 != comp(1422, 16) /*worldmap_v2_ui:arrow_jmod_event*/))) {
         int12 = struct_getparam(int2, 136);
         int13 = struct_getparam(int2, 645);
         switch (int14) {
@@ -167,7 +167,7 @@ function script4(int0: number, int1: number, int2: number, int3: number, int4: n
     var int29 = -1 as graphic;
     var int30 = 0;
     if ((STRING_LENGTH(string0) > 0)) {
-        if ((int0 != comp(1422, 16))) {
+        if ((int0 != comp(1422, 16))) {  // worldmap_v2_ui:arrow_jmod_event
             int23 = struct_getparam(int2, 650);
             int24 = struct_getparam(int2, 651);
             int27 = struct_getparam(int2, 647);

@@ -6,7 +6,7 @@ function script18029(): void {
     if ((varplayer_11339 == script17854())) {
         int0 = 8376;
     };
-    CC_DELETEALL(comp(1227, 45));
+    CC_DELETEALL(comp(1227, 45));  // bp3_track_tab:purchase_button
     if ((script17912() == 1)) {
         string0 = "Purchase Premier Hero Pass";
         string1 = "Purchase Premier Hero Pass";

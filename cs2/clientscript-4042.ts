@@ -111,9 +111,9 @@ function script4042(): void {
                 break;
             }
         };
-        IF_SETHIDE(false, comp(1057, 34));
+        IF_SETHIDE(false, comp(1057, 34));  // warguild_token_overlay:keg_tag_layer
     } else {
-        IF_SETHIDE(true, comp(1057, 34));
+        IF_SETHIDE(true, comp(1057, 34));  // warguild_token_overlay:keg_tag_layer
     };
     return;
 }

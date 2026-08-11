@@ -4,7 +4,7 @@ function script18452(): void {
     var int1 = script18421(-1);
     var int2 = 10;
     var int3 = 7;
-    var int4 = comp(1280, 23);
+    var int4 = comp(1280, 23);  // buff_select_event:reward_layer
     CC_DELETEALL(int4);
     int0 = (int0 + 1);
     while ((int0 < int1)) {

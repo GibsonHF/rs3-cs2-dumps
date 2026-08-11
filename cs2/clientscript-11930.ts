@@ -45,7 +45,7 @@ function script11930(int0: number): void {
                         string1 = `${string1}<br>Keyboard Shortcut : ${script13398(int5)}`;
                     };
                     script11624(4653064, 4653065, int2, int3, int4, int5, int6);
-                    if (((CC_FIND(comp(71, 9), int5) == 1) && (int7 == 1))) {
+                    if (((CC_FIND(comp(71, 9), int5) == 1) && (int7 == 1))) {  // arch_orthen_site_map:icon_control_layer
                         CC_SETOPBASE(string0);
                         CC_SETOP(1, "Info");
                         CC_SETOP(2, "Fast travel");
@@ -54,13 +54,13 @@ function script11930(int0: number): void {
                         CC_SETONMOUSEREPEAT(callback(script14732, string0, string1, -2147483645, -2147483643));
                     };
                     if ((int5 == int0)) {
-                        IF_SETPOSITION((int3 - 90), (int4 + 8), 0, 0, comp(71, 10));
+                        IF_SETPOSITION((int3 - 90), (int4 + 8), 0, 0, comp(71, 10));  // arch_orthen_site_map:current_location_layer
                     };
                 } else {
-                    CC_CREATE(comp(71, 9), 4, int5);
+                    CC_CREATE(comp(71, 9), 4, int5);  // arch_orthen_site_map:icon_control_layer
                 };
             } else {
-                CC_CREATE(comp(71, 9), 4, int5);
+                CC_CREATE(comp(71, 9), 4, int5);  // arch_orthen_site_map:icon_control_layer
             };
         };
     };

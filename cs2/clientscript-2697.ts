@@ -1,9 +1,9 @@
 //
 function script2697(): void {
-    var int0 = comp(78, 4);
-    var int1 = comp(78, 5);
-    var int2 = comp(78, 6);
-    var int3 = comp(78, 7);
+    var int0 = comp(78, 4);  // group_inspect_stats:background
+    var int1 = comp(78, 5);  // group_inspect_stats:icon
+    var int2 = comp(78, 6);  // group_inspect_stats:stat
+    var int3 = comp(78, 7);  // group_inspect_stats:stat_base
     var int4 = ENUM_GETOUTPUTCOUNT(7674 as cs2enum);
     var int5 = 0;
     var int6 = -1 as struct;
@@ -29,10 +29,10 @@ function script2697(): void {
         int5 = (int5 + 1);
     };
     if (((varbitplayer_27169 == 1) || (script6431() == 1))) {
-        IF_SETHIDE(false, comp(78, 26));
+        IF_SETHIDE(false, comp(78, 26));  // group_inspect_stats:close_button
     };
-    var int8 = comp(78, 12);
-    var int9 = comp(78, 13);
+    var int8 = comp(78, 12);  // group_inspect_stats:skilltotal
+    var int9 = comp(78, 13);  // group_inspect_stats:combat_level
     IF_SETSIZE(16384, 0, 2, 1, int8);
     CC_CREATE(int8, 5, 0);
     CC_SETGRAPHIC(24429 as graphic);
@@ -48,7 +48,7 @@ function script2697(): void {
     CC_SETTEXTALIGN(0, 1, 0);
     CC_SETCOLOUR(16777215);
     IF_SETHIDE(true, int9);
-    if ((IF_GETWIDTH(comp(78, 9)) >= 120)) {
+    if ((IF_GETWIDTH(comp(78, 9)) >= 120)) {  // group_inspect_stats:fixed_area
         IF_SETSIZE((16384 / 2), 0, 2, 1, int8);
         IF_SETSIZE((16384 / 2), 0, 2, 1, int9);
         IF_SETPOSITION(0, 0, 2, 0, int9);

@@ -1,6 +1,6 @@
 //
 function script8576(): void {
-    if ((IF_FIND(comp(1890, 37)) == 1)) {
+    if ((IF_FIND(comp(1890, 37)) == 1)) {  // prayer_quick_preset_interface:glow
         switch (varbitplayer_36830) {
             case 0: {
                 CC_SETONVARTRANSMIT(callback(script8563, 7058, 7059, 2));

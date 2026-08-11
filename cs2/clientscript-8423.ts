@@ -11,10 +11,10 @@ function script8423(int0: number, int1: number, int2: number, int3: number): voi
     var int12 = 0;
     switch (int0) {
         case 95027200: {
-            int5 = comp(1450, 3);
-            int6 = comp(1450, 4);
-            int8 = comp(1450, 6);
-            int7 = comp(1450, 2);
+            int5 = comp(1450, 3);  // toplevel_v2_parent_suboverlay_ability_book_melee:abilities_layer
+            int6 = comp(1450, 4);  // toplevel_v2_parent_suboverlay_ability_book_melee:cooldown_layer
+            int8 = comp(1450, 6);  // toplevel_v2_parent_suboverlay_ability_book_melee:ability_flash_layer
+            int7 = comp(1450, 2);  // toplevel_v2_parent_suboverlay_ability_book_melee:slot_border_layer
             int4 = 1;
             int9 = 6;
             int10 = 1;
@@ -22,10 +22,10 @@ function script8423(int0: number, int1: number, int2: number, int3: number): voi
             break;
         }
         case 95420423: {
-            int5 = comp(1456, 1);
-            int6 = comp(1456, 2);
-            int8 = comp(1456, 10);
-            int7 = comp(1456, 0);
+            int5 = comp(1456, 1);  // toplevel_v2_parent_suboverlay_ability_book_ranged:abilities_layer
+            int6 = comp(1456, 2);  // toplevel_v2_parent_suboverlay_ability_book_ranged:cooldown_layer
+            int8 = comp(1456, 10);  // toplevel_v2_parent_suboverlay_ability_book_ranged:ability_flash_layer
+            int7 = comp(1456, 0);  // toplevel_v2_parent_suboverlay_ability_book_ranged:slot_border_layer
             int4 = 1;
             int9 = 7;
             int10 = 1;
@@ -33,10 +33,10 @@ function script8423(int0: number, int1: number, int2: number, int3: number): voi
             break;
         }
         case 23789575: {
-            int5 = comp(363, 1);
-            int6 = comp(363, 2);
-            int8 = comp(363, 10);
-            int7 = comp(363, 0);
+            int5 = comp(363, 1);  // toplevel_v2_parent_suboverlay_ability_book_defence:abilities_layer
+            int6 = comp(363, 2);  // toplevel_v2_parent_suboverlay_ability_book_defence:cooldown_layer
+            int8 = comp(363, 10);  // toplevel_v2_parent_suboverlay_ability_book_defence:ability_flash_layer
+            int7 = comp(363, 0);  // toplevel_v2_parent_suboverlay_ability_book_defence:slot_border_layer
             int4 = 1;
             int9 = 39;
             int10 = 1;
@@ -44,10 +44,10 @@ function script8423(int0: number, int1: number, int2: number, int3: number): voi
             break;
         }
         case 19464199: {
-            int5 = comp(297, 1);
-            int6 = comp(297, 2);
-            int8 = comp(297, 10);
-            int7 = comp(297, 0);
+            int5 = comp(297, 1);  // toplevel_v2_parent_suboverlay_ability_book_constitution:abilities_layer
+            int6 = comp(297, 2);  // toplevel_v2_parent_suboverlay_ability_book_constitution:cooldown_layer
+            int8 = comp(297, 10);  // toplevel_v2_parent_suboverlay_ability_book_constitution:ability_flash_layer
+            int7 = comp(297, 0);  // toplevel_v2_parent_suboverlay_ability_book_constitution:slot_border_layer
             int4 = 1;
             int9 = 40;
             int10 = 1;
@@ -55,10 +55,10 @@ function script8423(int0: number, int1: number, int2: number, int3: number): voi
             break;
         }
         case 25952263: {
-            int5 = comp(396, 1);
-            int6 = comp(396, 2);
-            int8 = comp(396, 10);
-            int7 = comp(396, 0);
+            int5 = comp(396, 1);  // toplevel_v2_parent_suboverlay_ability_book_magic_ability:abilities_layer
+            int6 = comp(396, 2);  // toplevel_v2_parent_suboverlay_ability_book_magic_ability:cooldown_layer
+            int8 = comp(396, 10);  // toplevel_v2_parent_suboverlay_ability_book_magic_ability:ability_flash_layer
+            int7 = comp(396, 0);  // toplevel_v2_parent_suboverlay_ability_book_magic_ability:slot_border_layer
             int4 = 1;
             int9 = 33;
             int10 = 1;
@@ -66,10 +66,10 @@ function script8423(int0: number, int1: number, int2: number, int3: number): voi
             break;
         }
         case 31588359: {
-            int5 = comp(482, 1);
-            int6 = comp(482, 2);
-            int8 = comp(482, 10);
-            int7 = comp(482, 0);
+            int5 = comp(482, 1);  // toplevel_v2_parent_suboverlay_ability_book_magic_skilling:abilities_layer
+            int6 = comp(482, 2);  // toplevel_v2_parent_suboverlay_ability_book_magic_skilling:cooldown_layer
+            int8 = comp(482, 10);  // toplevel_v2_parent_suboverlay_ability_book_magic_skilling:ability_flash_layer
+            int7 = comp(482, 0);  // toplevel_v2_parent_suboverlay_ability_book_magic_skilling:slot_border_layer
             int4 = 1;
             int9 = 36;
             int10 = 1;
@@ -77,10 +77,10 @@ function script8423(int0: number, int1: number, int2: number, int3: number): voi
             break;
         }
         case 31653895: {
-            int5 = comp(483, 1);
-            int6 = comp(483, 2);
-            int8 = comp(483, 10);
-            int7 = comp(483, 0);
+            int5 = comp(483, 1);  // toplevel_v2_parent_suboverlay_ability_book_magic_teleport:abilities_layer
+            int6 = comp(483, 2);  // toplevel_v2_parent_suboverlay_ability_book_magic_teleport:cooldown_layer
+            int8 = comp(483, 10);  // toplevel_v2_parent_suboverlay_ability_book_magic_teleport:ability_flash_layer
+            int7 = comp(483, 0);  // toplevel_v2_parent_suboverlay_ability_book_magic_teleport:slot_border_layer
             int4 = 1;
             int9 = 35;
             int10 = 1;
@@ -88,10 +88,10 @@ function script8423(int0: number, int1: number, int2: number, int3: number): voi
             break;
         }
         case 27525127: {
-            int5 = comp(420, 1);
-            int6 = comp(420, 2);
-            int8 = comp(420, 10);
-            int7 = comp(420, 0);
+            int5 = comp(420, 1);  // toplevel_v2_parent_suboverlay_ability_book_magic_combat:abilities_layer
+            int6 = comp(420, 2);  // toplevel_v2_parent_suboverlay_ability_book_magic_combat:cooldown_layer
+            int8 = comp(420, 10);  // toplevel_v2_parent_suboverlay_ability_book_magic_combat:ability_flash_layer
+            int7 = comp(420, 0);  // toplevel_v2_parent_suboverlay_ability_book_magic_combat:slot_border_layer
             int4 = 1;
             int9 = 34;
             int10 = 1;
@@ -99,10 +99,10 @@ function script8423(int0: number, int1: number, int2: number, int3: number): voi
             break;
         }
         case 95617031: {
-            int5 = comp(1459, 1);
-            int6 = comp(1459, 2);
-            int8 = comp(1459, 10);
-            int7 = comp(1459, 0);
+            int5 = comp(1459, 1);  // toplevel_v2_parent_suboverlay_ability_book_magic:abilities_layer
+            int6 = comp(1459, 2);  // toplevel_v2_parent_suboverlay_ability_book_magic:cooldown_layer
+            int8 = comp(1459, 10);  // toplevel_v2_parent_suboverlay_ability_book_magic:ability_flash_layer
+            int7 = comp(1459, 0);  // toplevel_v2_parent_suboverlay_ability_book_magic:slot_border_layer
             int4 = 1;
             int9 = 5;
             int10 = 4;
@@ -110,10 +110,10 @@ function script8423(int0: number, int1: number, int2: number, int3: number): voi
             break;
         }
         case 79101959: {
-            int5 = comp(1207, 1);
-            int6 = comp(1207, 2);
-            int8 = comp(1207, 10);
-            int7 = comp(1207, 0);
+            int5 = comp(1207, 1);  // toplevel_v2_parent_suboverlay_ability_book_necromancy:abilities_layer
+            int6 = comp(1207, 2);  // toplevel_v2_parent_suboverlay_ability_book_necromancy:cooldown_layer
+            int8 = comp(1207, 10);  // toplevel_v2_parent_suboverlay_ability_book_necromancy:ability_flash_layer
+            int7 = comp(1207, 0);  // toplevel_v2_parent_suboverlay_ability_book_necromancy:slot_border_layer
             int4 = 1;
             int9 = 42;
             int10 = 2;
@@ -121,10 +121,10 @@ function script8423(int0: number, int1: number, int2: number, int3: number): voi
             break;
         }
         case 79364103: {
-            int5 = comp(1211, 1);
-            int6 = comp(1211, 2);
-            int8 = comp(1211, 10);
-            int7 = comp(1211, 0);
+            int5 = comp(1211, 1);  // toplevel_v2_parent_suboverlay_ability_book_necromancy_abilities:abilities_layer
+            int6 = comp(1211, 2);  // toplevel_v2_parent_suboverlay_ability_book_necromancy_abilities:cooldown_layer
+            int8 = comp(1211, 10);  // toplevel_v2_parent_suboverlay_ability_book_necromancy_abilities:ability_flash_layer
+            int7 = comp(1211, 0);  // toplevel_v2_parent_suboverlay_ability_book_necromancy_abilities:slot_border_layer
             int4 = 1;
             int9 = 43;
             int10 = 1;
@@ -132,10 +132,10 @@ function script8423(int0: number, int1: number, int2: number, int3: number): voi
             break;
         }
         case 79560711: {
-            int5 = comp(1214, 1);
-            int6 = comp(1214, 2);
-            int8 = comp(1214, 10);
-            int7 = comp(1214, 0);
+            int5 = comp(1214, 1);  // toplevel_v2_parent_suboverlay_ability_book_necromancy_spells:abilities_layer
+            int6 = comp(1214, 2);  // toplevel_v2_parent_suboverlay_ability_book_necromancy_spells:cooldown_layer
+            int8 = comp(1214, 10);  // toplevel_v2_parent_suboverlay_ability_book_necromancy_spells:ability_flash_layer
+            int7 = comp(1214, 0);  // toplevel_v2_parent_suboverlay_ability_book_necromancy_spells:slot_border_layer
             int4 = 1;
             int9 = 44;
             int10 = 1;
@@ -143,10 +143,10 @@ function script8423(int0: number, int1: number, int2: number, int3: number): voi
             break;
         }
         case 123207687: {
-            int5 = comp(1880, 1);
-            int6 = comp(1880, 2);
-            int8 = comp(1880, 10);
-            int7 = comp(1880, 0);
+            int5 = comp(1880, 1);  // toplevel_v2_parent_suboverlay_ability_book_defcon:abilities_layer
+            int6 = comp(1880, 2);  // toplevel_v2_parent_suboverlay_ability_book_defcon:cooldown_layer
+            int8 = comp(1880, 10);  // toplevel_v2_parent_suboverlay_ability_book_defcon:ability_flash_layer
+            int7 = comp(1880, 0);  // toplevel_v2_parent_suboverlay_ability_book_defcon:slot_border_layer
             int4 = 1;
             int9 = 8;
             int10 = 2;
@@ -154,130 +154,130 @@ function script8423(int0: number, int1: number, int2: number, int3: number): voi
             break;
         }
         case 95682565: {
-            int5 = comp(1460, 1);
-            int6 = comp(1460, 2);
-            int8 = comp(1460, 4);
-            int7 = comp(1460, 0);
+            int5 = comp(1460, 1);  // toplevel_v2_window_ability_book_melee:abilities_layer
+            int6 = comp(1460, 2);  // toplevel_v2_window_ability_book_melee:cooldown_layer
+            int8 = comp(1460, 4);  // toplevel_v2_window_ability_book_melee:ability_flash_layer
+            int7 = comp(1460, 0);  // toplevel_v2_window_ability_book_melee:slot_border_layer
             int4 = 1;
             int9 = 6;
             int10 = 1;
             break;
         }
         case 95158279: {
-            int5 = comp(1452, 1);
-            int6 = comp(1452, 2);
-            int8 = comp(1452, 10);
-            int7 = comp(1452, 0);
+            int5 = comp(1452, 1);  // toplevel_v2_window_ability_book_ranged:abilities_layer
+            int6 = comp(1452, 2);  // toplevel_v2_window_ability_book_ranged:cooldown_layer
+            int8 = comp(1452, 10);  // toplevel_v2_window_ability_book_ranged:ability_flash_layer
+            int7 = comp(1452, 0);  // toplevel_v2_window_ability_book_ranged:slot_border_layer
             int4 = 1;
             int9 = 7;
             int10 = 1;
             break;
         }
         case 95748103: {
-            int5 = comp(1461, 1);
-            int6 = comp(1461, 2);
-            int8 = comp(1461, 10);
-            int7 = comp(1461, 0);
+            int5 = comp(1461, 1);  // toplevel_v2_window_ability_book_magic:abilities_layer
+            int6 = comp(1461, 2);  // toplevel_v2_window_ability_book_magic:cooldown_layer
+            int8 = comp(1461, 10);  // toplevel_v2_window_ability_book_magic:ability_flash_layer
+            int7 = comp(1461, 0);  // toplevel_v2_window_ability_book_magic:slot_border_layer
             int4 = 1;
             int9 = 5;
             int10 = 4;
             break;
         }
         case 123469831: {
-            int5 = comp(1884, 1);
-            int6 = comp(1884, 2);
-            int8 = comp(1884, 10);
-            int7 = comp(1884, 0);
+            int5 = comp(1884, 1);  // toplevel_v2_window_ability_book_magic_ability:abilities_layer
+            int6 = comp(1884, 2);  // toplevel_v2_window_ability_book_magic_ability:cooldown_layer
+            int8 = comp(1884, 10);  // toplevel_v2_window_ability_book_magic_ability:ability_flash_layer
+            int7 = comp(1884, 0);  // toplevel_v2_window_ability_book_magic_ability:slot_border_layer
             int4 = 1;
             int9 = 33;
             int10 = 1;
             break;
         }
         case 123535367: {
-            int5 = comp(1885, 1);
-            int6 = comp(1885, 2);
-            int8 = comp(1885, 10);
-            int7 = comp(1885, 0);
+            int5 = comp(1885, 1);  // toplevel_v2_window_ability_book_magic_combat:abilities_layer
+            int6 = comp(1885, 2);  // toplevel_v2_window_ability_book_magic_combat:cooldown_layer
+            int8 = comp(1885, 10);  // toplevel_v2_window_ability_book_magic_combat:ability_flash_layer
+            int7 = comp(1885, 0);  // toplevel_v2_window_ability_book_magic_combat:slot_border_layer
             int4 = 1;
             int9 = 34;
             int10 = 1;
             break;
         }
         case 123666439: {
-            int5 = comp(1887, 1);
-            int6 = comp(1887, 2);
-            int8 = comp(1887, 10);
-            int7 = comp(1887, 0);
+            int5 = comp(1887, 1);  // toplevel_v2_window_ability_book_magic_teleport:abilities_layer
+            int6 = comp(1887, 2);  // toplevel_v2_window_ability_book_magic_teleport:cooldown_layer
+            int8 = comp(1887, 10);  // toplevel_v2_window_ability_book_magic_teleport:ability_flash_layer
+            int7 = comp(1887, 0);  // toplevel_v2_window_ability_book_magic_teleport:slot_border_layer
             int4 = 1;
             int9 = 35;
             int10 = 1;
             break;
         }
         case 123600903: {
-            int5 = comp(1886, 1);
-            int6 = comp(1886, 2);
-            int8 = comp(1886, 10);
-            int7 = comp(1886, 0);
+            int5 = comp(1886, 1);  // toplevel_v2_window_ability_book_magic_skilling:abilities_layer
+            int6 = comp(1886, 2);  // toplevel_v2_window_ability_book_magic_skilling:cooldown_layer
+            int8 = comp(1886, 10);  // toplevel_v2_window_ability_book_magic_skilling:ability_flash_layer
+            int7 = comp(1886, 0);  // toplevel_v2_window_ability_book_magic_skilling:slot_border_layer
             int4 = 1;
             int9 = 36;
             int10 = 1;
             break;
         }
         case 79888391: {
-            int5 = comp(1219, 1);
-            int6 = comp(1219, 2);
-            int8 = comp(1219, 10);
-            int7 = comp(1219, 0);
+            int5 = comp(1219, 1);  // toplevel_v2_window_ability_book_necromancy:abilities_layer
+            int6 = comp(1219, 2);  // toplevel_v2_window_ability_book_necromancy:cooldown_layer
+            int8 = comp(1219, 10);  // toplevel_v2_window_ability_book_necromancy:ability_flash_layer
+            int7 = comp(1219, 0);  // toplevel_v2_window_ability_book_necromancy:slot_border_layer
             int4 = 1;
             int9 = 42;
             int10 = 2;
             break;
         }
         case 79953927: {
-            int5 = comp(1220, 1);
-            int6 = comp(1220, 2);
-            int8 = comp(1220, 10);
-            int7 = comp(1220, 0);
+            int5 = comp(1220, 1);  // toplevel_v2_window_ability_book_necromancy_abilities:abilities_layer
+            int6 = comp(1220, 2);  // toplevel_v2_window_ability_book_necromancy_abilities:cooldown_layer
+            int8 = comp(1220, 10);  // toplevel_v2_window_ability_book_necromancy_abilities:ability_flash_layer
+            int7 = comp(1220, 0);  // toplevel_v2_window_ability_book_necromancy_abilities:slot_border_layer
             int4 = 1;
             int9 = 43;
             int10 = 1;
             break;
         }
         case 80019463: {
-            int5 = comp(1221, 1);
-            int6 = comp(1221, 2);
-            int8 = comp(1221, 10);
-            int7 = comp(1221, 0);
+            int5 = comp(1221, 1);  // toplevel_v2_window_ability_book_necromancy_spells:abilities_layer
+            int6 = comp(1221, 2);  // toplevel_v2_window_ability_book_necromancy_spells:cooldown_layer
+            int8 = comp(1221, 10);  // toplevel_v2_window_ability_book_necromancy_spells:ability_flash_layer
+            int7 = comp(1221, 0);  // toplevel_v2_window_ability_book_necromancy_spells:slot_border_layer
             int4 = 1;
             int9 = 44;
             int10 = 1;
             break;
         }
         case 123404295: {
-            int5 = comp(1883, 1);
-            int6 = comp(1883, 2);
-            int8 = comp(1883, 10);
-            int7 = comp(1883, 0);
+            int5 = comp(1883, 1);  // toplevel_v2_window_ability_book_defcon:abilities_layer
+            int6 = comp(1883, 2);  // toplevel_v2_window_ability_book_defcon:cooldown_layer
+            int8 = comp(1883, 10);  // toplevel_v2_window_ability_book_defcon:ability_flash_layer
+            int7 = comp(1883, 0);  // toplevel_v2_window_ability_book_defcon:slot_border_layer
             int4 = 1;
             int9 = 8;
             int10 = 2;
             break;
         }
         case 94961671: {
-            int5 = comp(1449, 1);
-            int6 = comp(1449, 2);
-            int8 = comp(1449, 10);
-            int7 = comp(1449, 0);
+            int5 = comp(1449, 1);  // toplevel_v2_window_ability_book_defence:abilities_layer
+            int6 = comp(1449, 2);  // toplevel_v2_window_ability_book_defence:cooldown_layer
+            int8 = comp(1449, 10);  // toplevel_v2_window_ability_book_defence:ability_flash_layer
+            int7 = comp(1449, 0);  // toplevel_v2_window_ability_book_defence:slot_border_layer
             int4 = 1;
             int9 = 39;
             int10 = 1;
             break;
         }
         case 123338759: {
-            int5 = comp(1882, 1);
-            int6 = comp(1882, 2);
-            int8 = comp(1882, 10);
-            int7 = comp(1882, 0);
+            int5 = comp(1882, 1);  // toplevel_v2_window_ability_book_constitution:abilities_layer
+            int6 = comp(1882, 2);  // toplevel_v2_window_ability_book_constitution:cooldown_layer
+            int8 = comp(1882, 10);  // toplevel_v2_window_ability_book_constitution:ability_flash_layer
+            int7 = comp(1882, 0);  // toplevel_v2_window_ability_book_constitution:slot_border_layer
             int4 = 1;
             int9 = 40;
             int10 = 1;

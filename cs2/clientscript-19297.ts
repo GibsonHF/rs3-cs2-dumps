@@ -9,9 +9,9 @@ function script19297(): void {
     while ((int4 <= 8)) {
         [int1, int2, int3] = script19217(int4);
         if ((MODULO(((int4 - 1) / 2), 2) == 0)) {
-            int0 = comp(1290, 86);
+            int0 = comp(1290, 86);  // trh_dungeon_crawl_overlay:boss_left_reward_grid
         } else {
-            int0 = comp(1290, 87);
+            int0 = comp(1290, 87);  // trh_dungeon_crawl_overlay:boss_right_reward_grid
         };
         if ((((CC_FINDBYCATEGORY(int0, int4, 0) == 1) && (varplayer_11882 <= SCALE((8 - int4), 8, 100000))) && (unk11011(int4, 3, int0) == 0))) {
             if ((CC_FINDBYCATEGORY(int0, int4, 1) == 1)) {

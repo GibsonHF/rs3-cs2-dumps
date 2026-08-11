@@ -6,7 +6,7 @@ function script10064(): void {
         };
         varclient_4271 = 1;
     };
-    var int0 = comp(1486, 14);
+    var int0 = comp(1486, 14);  // text_tooltip:tooltip_dynamic_text
     var int1 = cc_getparam(4261);
     var int2 = 0;
     var string0 = "";

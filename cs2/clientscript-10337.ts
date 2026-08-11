@@ -4,7 +4,7 @@ function script10337(): void {
     var string1 = "Toggle matchmaking.";
     var int0 = 25862 as graphic;
     var int1 = 0;
-    if ((IF_GETGRAPHIC(comp(1519, 37)) == int0)) {
+    if ((IF_GETGRAPHIC(comp(1519, 37)) == int0)) {  // group_child:want_members_button
         [int0, string0] = [25863 as graphic, "Your group is not registered for matchmaking."];
     };
     if ((PLAYER_GROUP_FIND() == 1)) {

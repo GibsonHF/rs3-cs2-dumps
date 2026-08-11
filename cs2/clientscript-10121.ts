@@ -2,21 +2,21 @@
 function script10121(int0: number, int1: number, int2: number, int3: number): void {
     var string0 = "";
     var int4 = 0;
-    if ((int0 == comp(232, 87))) {
+    if ((int0 == comp(232, 87))) {  // toplevel_v2_parent_suboverlay_twitch:login_username
         varclient_4285 = IF_GETTEXT(int0);
         string0 = varclient_4285;
         int4 = varclient_4286;
-    } else if ((int0 == comp(232, 93))) {
+    } else if ((int0 == comp(232, 93))) {  // toplevel_v2_parent_suboverlay_twitch:login_password
         string0 = varclient_4287;
         int4 = varclient_4288;
-    } else if ((int0 == comp(232, 116))) {
+    } else if ((int0 == comp(232, 116))) {  // toplevel_v2_parent_suboverlay_twitch:stream_name
         varclient_4289 = IF_GETTEXT(int0);
         string0 = varclient_4289;
         int4 = varclient_4290;
     };
     switch (int2) {
         case 84: {
-            if ((int0 == comp(232, 93))) {
+            if ((int0 == comp(232, 93))) {  // toplevel_v2_parent_suboverlay_twitch:login_password
                 script10116();
                 return;
             };
@@ -25,12 +25,12 @@ function script10121(int0: number, int1: number, int2: number, int3: number): vo
             return;
         }
         case 80: {
-            if ((int0 == comp(232, 87))) {
+            if ((int0 == comp(232, 87))) {  // toplevel_v2_parent_suboverlay_twitch:login_username
                 varbitclient_23065 = 2;
                 script10119(1);
                 return;
             };
-            if ((int0 == comp(232, 93))) {
+            if ((int0 == comp(232, 93))) {  // toplevel_v2_parent_suboverlay_twitch:login_password
                 varbitclient_23065 = 1;
                 script10119(1);
                 return;
@@ -72,21 +72,21 @@ function script10121(int0: number, int1: number, int2: number, int3: number): vo
     var string2 = "";
     var int7 = 0;
     var int8 = comp(-1, 65535);
-    if ((int0 == comp(232, 87))) {
+    if ((int0 == comp(232, 87))) {  // toplevel_v2_parent_suboverlay_twitch:login_username
         int8 = 15204431;
         varclient_4286 = int4;
         varclient_4285 = string0;
         IF_SETPOSITION(script1551(varclient_4286, varclient_4285, 26, 6), IF_GETY(int3), 0, 0, int3);
         IF_SETTEXT(varclient_4285, int0);
         varbitclient_23065 = 1;
-    } else if ((int0 == comp(232, 93))) {
+    } else if ((int0 == comp(232, 93))) {  // toplevel_v2_parent_suboverlay_twitch:login_password
         int8 = 15204433;
         varclient_4288 = int4;
         varclient_4287 = string0;
         IF_SETPOSITION(script1551(varclient_4288, script2949(varclient_4287), 26, 6), IF_GETY(int3), 0, 0, int3);
         IF_SETTEXT(script2949(varclient_4287), int0);
         varbitclient_23065 = 2;
-    } else if ((int0 == comp(232, 116))) {
+    } else if ((int0 == comp(232, 116))) {  // toplevel_v2_parent_suboverlay_twitch:stream_name
         int8 = 15204461;
         varclient_4290 = int4;
         varclient_4289 = string0;

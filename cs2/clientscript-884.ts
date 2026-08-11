@@ -1,14 +1,14 @@
 //
 function script884(): string {
-    var int0 = comp(1930, 43);
+    var int0 = comp(1930, 43);  // timed_event_tasks:event11_reward_square_4
     if ((IF_FIND(int0) == 1)) {
         if ((MODULO((varbitplayer_39302 + 1), 2) == 0)) {
             CC_SETONMOUSEREPEAT(callback(script3876, OC_NAME(41755 as obj), int0, 0));
-            IF_SETHIDE(false, comp(1930, 225));
+            IF_SETHIDE(false, comp(1930, 225));  // timed_event_tasks:event11_mystery_box_big
             return "Big event mystery box";
         };
         CC_SETONMOUSEREPEAT(callback(script3876, OC_NAME(41754 as obj), int0, 0));
-        IF_SETHIDE(false, comp(1930, 224));
+        IF_SETHIDE(false, comp(1930, 224));  // timed_event_tasks:event11_mystery_box
         return "Event mystery box";
     };
     return "";

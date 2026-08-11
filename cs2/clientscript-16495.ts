@@ -1,8 +1,8 @@
 //
 function script16495(): void {
     var int0 = 0;
-    IF_SETGRAPHIC(34864 as graphic, comp(1253, 5));
-    CC_DELETEALL(comp(1253, 3));
+    IF_SETGRAPHIC(34864 as graphic, comp(1253, 5));  // wheel_of_fortune:background
+    CC_DELETEALL(comp(1253, 3));  // wheel_of_fortune:background_holder
     stack(82116611);
     stack(int0);
     int0 = (int0 + 1);

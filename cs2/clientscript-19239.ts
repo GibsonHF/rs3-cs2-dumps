@@ -20,6 +20,6 @@ function script19239(): void {
         int3 = varbitplayer_59980;
     };
     int4 = (((varbitplayer_56120 + varbitplayer_56121) + varbitplayer_56122) + varbitplayer_59980);
-    IF_SETTEXT(`${string1}${inttostring(PUSH_CONSTANT_INT[16]("<br><col=", int0))}${inttostring(PUSH_CONSTANT_INT[16](">Confections this week:</col> <col=", int2))}>${TOSTRING_LOCALISED(int3, 1)}${inttostring(PUSH_CONSTANT_INT[16]("</col><br><col=", int0))}${inttostring(PUSH_CONSTANT_INT[16](">Confections this event:</col> <col=", int2))}>${TOSTRING_LOCALISED(int4, 1)}</col>`, comp(1289, 43));
+    IF_SETTEXT(`${string1}${inttostring(PUSH_CONSTANT_INT[16]("<br><col=", int0))}${inttostring(PUSH_CONSTANT_INT[16](">Confections this week:</col> <col=", int2))}>${TOSTRING_LOCALISED(int3, 1)}${inttostring(PUSH_CONSTANT_INT[16]("</col><br><col=", int0))}${inttostring(PUSH_CONSTANT_INT[16](">Confections this event:</col> <col=", int2))}>${TOSTRING_LOCALISED(int4, 1)}</col>`, comp(1289, 43));  // halloween24:personal_summary_faction_text
     return;
 }

@@ -31,22 +31,22 @@ function script7308(int0: number): void {
     var int23 = INV_GETOBJ(678 as inv, int0);
     switch (int0) {
         case 0: {
-            int1 = comp(1276, 39);
+            int1 = comp(1276, 39);  // pop_crew:recruit_icon_1
             int2 = 83623979;
-            int3 = comp(1276, 41);
+            int3 = comp(1276, 41);  // pop_crew:recruit_name_1
             string0 = OC_NAME(int23);
             int9 = 83623972;
             int11 = 83623973;
-            int12 = comp(1276, 52);
-            int13 = comp(1276, 49);
-            int14 = comp(1276, 50);
-            int15 = comp(1276, 51);
-            int10 = comp(1276, 44);
-            int18 = comp(1276, 53);
-            int19 = comp(1276, 54);
-            int20 = comp(1276, 55);
-            int21 = comp(1276, 56);
-            int16 = comp(1276, 57);
+            int12 = comp(1276, 52);  // pop_crew:recruit_speed_1
+            int13 = comp(1276, 49);  // pop_crew:recruit_graft_1
+            int14 = comp(1276, 50);  // pop_crew:recruit_combat_1
+            int15 = comp(1276, 51);  // pop_crew:recruit_seafaring_1
+            int10 = comp(1276, 44);  // pop_crew:recruit_stats_1
+            int18 = comp(1276, 53);  // pop_crew:recruit_cost_1_icon_1
+            int19 = comp(1276, 54);  // pop_crew:recruit_cost_1_amount_1
+            int20 = comp(1276, 55);  // pop_crew:recruit_cost_2_icon_1
+            int21 = comp(1276, 56);  // pop_crew:recruit_cost_2_amount_1
+            int16 = comp(1276, 57);  // pop_crew:recruit_fluff_1
             string2 = varclient_2652;
             int17 = 83623976;
             int22 = 83623974;
@@ -394,11 +394,11 @@ function script7308(int0: number): void {
             IF_SETHIDE(true, int22);
         };
         if ((enum_hasoutput(33, 2173 as cs2enum, int23) == 1)) {
-            IF_SETNPCHEAD(int8, comp(1276, 18));
-            IF_SETMODELANIM(9806 as seq, comp(1276, 18));
-            IF_SETMODELZOOM(2900, comp(1276, 18));
+            IF_SETNPCHEAD(int8, comp(1276, 18));  // pop_crew:recruit_icon_0
+            IF_SETMODELANIM(9806 as seq, comp(1276, 18));  // pop_crew:recruit_icon_0
+            IF_SETMODELZOOM(2900, comp(1276, 18));  // pop_crew:recruit_icon_0
             string1 = strconcat(enum_getvalue(0, 36, int4, int6), ` ${enum_getvalue(0, 36, 5768, int7)}`);
-            IF_SETTEXT(`Captain: ${string1}`, comp(1276, 19));
+            IF_SETTEXT(`Captain: ${string1}`, comp(1276, 19));  // pop_crew:recruit_name_0
         };
     } else {
         IF_SETGRAPHIC(-1 as graphic, int1);
@@ -418,7 +418,7 @@ function script7308(int0: number): void {
         IF_SETTEXT("", int21);
         IF_SETTEXT("", int16);
         if ((int0 == 3)) {
-            IF_SETMODEL(-1 as model, comp(1276, 18));
+            IF_SETMODEL(-1 as model, comp(1276, 18));  // pop_crew:recruit_icon_0
         };
         script996(int11, -1, 28557, 1, 0);
     };

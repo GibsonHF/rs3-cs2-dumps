@@ -5,8 +5,8 @@ function script6138(int0: number): void {
     var int3 = 0;
     var int4 = 14;
     var int5 = ((int2 - int1) / int4);
-    var int6 = (IF_GETWIDTH(comp(1270, 13)) + int1);
-    var int7 = (IF_GETHEIGHT(comp(1270, 13)) + int1);
+    var int6 = (IF_GETWIDTH(comp(1270, 13)) + int1);  // fremsaga_bilrach_mind:mind_layer
+    var int7 = (IF_GETHEIGHT(comp(1270, 13)) + int1);  // fremsaga_bilrach_mind:mind_layer
     var int8 = comp(-1, 65535);
     var int9 = -1 as graphic;
     var int10 = (int6 / 2);
@@ -82,8 +82,8 @@ function script6138(int0: number): void {
         int11 = (int7 / 2);
         int3 = (int3 + 1);
     };
-    int10 = (IF_GETWIDTH(comp(1270, 13)) / 2);
-    int11 = (IF_GETHEIGHT(comp(1270, 13)) / 2);
+    int10 = (IF_GETWIDTH(comp(1270, 13)) / 2);  // fremsaga_bilrach_mind:mind_layer
+    int11 = (IF_GETHEIGHT(comp(1270, 13)) / 2);  // fremsaga_bilrach_mind:mind_layer
     script6142(int10, int11);
     varclient_1886 = (int10 * 100);
     varclient_1887 = (int11 * 100);

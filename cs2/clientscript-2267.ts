@@ -3,13 +3,13 @@ function script2267(): void {
     script13972(2949138, -1, 28595, "Pouches", script9670(0, varbitplayer_43381));
     script13972(2949139, -1, 28595, "Scrolls", script9670(1, varbitplayer_43381));
     var int0 = 0;
-    CC_DELETEALL(comp(45, 3));
-    CC_DELETEALL(comp(45, 4));
-    CC_DELETEALL(comp(45, 5));
-    CC_DELETEALL(comp(45, 20));
-    CC_DELETEALL(comp(45, 21));
-    CC_DELETEALL(comp(45, 22));
-    CC_DELETEALL(comp(45, 0));
+    CC_DELETEALL(comp(45, 3));  // wolf_shard_swap:found_build
+    CC_DELETEALL(comp(45, 4));  // wolf_shard_swap:found_icon
+    CC_DELETEALL(comp(45, 5));  // wolf_shard_swap:found_click
+    CC_DELETEALL(comp(45, 20));  // wolf_shard_swap:not_build
+    CC_DELETEALL(comp(45, 21));  // wolf_shard_swap:not_icon
+    CC_DELETEALL(comp(45, 22));  // wolf_shard_swap:not_click
+    CC_DELETEALL(comp(45, 0));  // wolf_shard_swap:scrolling_layer
     var int1 = 0;
     var int2 = 0;
     var int3 = 0;
@@ -37,8 +37,8 @@ function script2267(): void {
     var int18 = ENUM_GETOUTPUTCOUNT(int11);
     while ((int0 < int18)) {
         int9 = enum_getvalue(0, 33, int11, int0);
-        CC_CREATE(comp(45, 4), 5, int0);
-        CC_CREATE[1](comp(45, 21), 5, int0);
+        CC_CREATE(comp(45, 4), 5, int0);  // wolf_shard_swap:found_icon
+        CC_CREATE[1](comp(45, 21), 5, int0);  // wolf_shard_swap:not_icon
         if ((int11 == 10053 as cs2enum)) {
             CC_SETOBJECT_ALWAYSNUM(int9, MAX(item_getparam(int9, 599), 1));
             CC_SETOBJECT_ALWAYSNUM[1](int9, MAX(item_getparam(int9, 599), 1));
@@ -54,16 +54,16 @@ function script2267(): void {
     };
     int0 = 0;
     while ((int0 < int18)) {
-        CC_CREATE(comp(45, 5), 4, int0);
-        CC_CREATE(comp(45, 22), 4, int0);
+        CC_CREATE(comp(45, 5), 4, int0);  // wolf_shard_swap:found_click
+        CC_CREATE(comp(45, 22), 4, int0);  // wolf_shard_swap:not_click
         int0 = (int0 + 1);
     };
     int0 = 0;
     while ((int0 < int18)) {
         if ((item_getparam(enum_getvalue(0, 33, int11, int0), 457) <= 0)) {
             if ((item_getparam(enum_getvalue(0, 33, int11, int0), 599) <= 0)) {
-                CC_CREATE(comp(45, 5), 4, int0);
-                CC_CREATE(comp(45, 22), 4, int0);
+                CC_CREATE(comp(45, 5), 4, int0);  // wolf_shard_swap:found_click
+                CC_CREATE(comp(45, 22), 4, int0);  // wolf_shard_swap:not_click
             } else {
                 int9 = enum_getvalue(0, 33, int11, int0);
                 int8 = enum_getvalue(0, 33, 1182 as cs2enum, int0);
@@ -78,40 +78,40 @@ function script2267(): void {
                         int7 = 1;
                         int5 = int1;
                         int6 = int2;
-                        int15 = comp(45, 3);
-                        int16 = comp(45, 4);
-                        int17 = comp(45, 5);
+                        int15 = comp(45, 3);  // wolf_shard_swap:found_build
+                        int16 = comp(45, 4);  // wolf_shard_swap:found_icon
+                        int17 = comp(45, 5);  // wolf_shard_swap:found_click
                     } else if ((OC_CERT(int9) != int9)) {
                         if ((INV_TOTAL(93 as inv, OC_CERT(int9)) > 0)) {
                             int7 = 1;
                             int5 = int1;
                             int6 = int2;
-                            int15 = comp(45, 3);
-                            int16 = comp(45, 4);
-                            int17 = comp(45, 5);
+                            int15 = comp(45, 3);  // wolf_shard_swap:found_build
+                            int16 = comp(45, 4);  // wolf_shard_swap:found_icon
+                            int17 = comp(45, 5);  // wolf_shard_swap:found_click
                         } else {
                             int7 = 0;
                             int5 = int3;
                             int6 = int4;
-                            int15 = comp(45, 20);
-                            int16 = comp(45, 21);
-                            int17 = comp(45, 22);
+                            int15 = comp(45, 20);  // wolf_shard_swap:not_build
+                            int16 = comp(45, 21);  // wolf_shard_swap:not_icon
+                            int17 = comp(45, 22);  // wolf_shard_swap:not_click
                         };
                     } else {
                         int7 = 0;
                         int5 = int3;
                         int6 = int4;
-                        int15 = comp(45, 20);
-                        int16 = comp(45, 21);
-                        int17 = comp(45, 22);
+                        int15 = comp(45, 20);  // wolf_shard_swap:not_build
+                        int16 = comp(45, 21);  // wolf_shard_swap:not_icon
+                        int17 = comp(45, 22);  // wolf_shard_swap:not_click
                     };
                 } else {
                     int7 = 0;
                     int5 = int3;
                     int6 = int4;
-                    int15 = comp(45, 20);
-                    int16 = comp(45, 21);
-                    int17 = comp(45, 22);
+                    int15 = comp(45, 20);  // wolf_shard_swap:not_build
+                    int16 = comp(45, 21);  // wolf_shard_swap:not_icon
+                    int17 = comp(45, 22);  // wolf_shard_swap:not_click
                 };
                 if ((item_getparam(OC_UNCERT(int9), 394) > enum_getvalue(0, 0, 1471 as cs2enum, STAT_BASE(23 as stat)))) {
                     string1 = `${string0} - You need a Summoning level of ${inttostring(enum_getvalue(0, 0, 1472 as cs2enum, item_getparam(OC_UNCERT(int9), 394)), 10)} to swap this`;
@@ -176,40 +176,40 @@ function script2267(): void {
                     int7 = 1;
                     int5 = int1;
                     int6 = int2;
-                    int15 = comp(45, 3);
-                    int16 = comp(45, 4);
-                    int17 = comp(45, 5);
+                    int15 = comp(45, 3);  // wolf_shard_swap:found_build
+                    int16 = comp(45, 4);  // wolf_shard_swap:found_icon
+                    int17 = comp(45, 5);  // wolf_shard_swap:found_click
                 } else if ((OC_CERT(int9) != int9)) {
                     if ((INV_TOTAL(93 as inv, OC_CERT(int9)) > 0)) {
                         int7 = 1;
                         int5 = int1;
                         int6 = int2;
-                        int15 = comp(45, 3);
-                        int16 = comp(45, 4);
-                        int17 = comp(45, 5);
+                        int15 = comp(45, 3);  // wolf_shard_swap:found_build
+                        int16 = comp(45, 4);  // wolf_shard_swap:found_icon
+                        int17 = comp(45, 5);  // wolf_shard_swap:found_click
                     } else {
                         int7 = 0;
                         int5 = int3;
                         int6 = int4;
-                        int15 = comp(45, 20);
-                        int16 = comp(45, 21);
-                        int17 = comp(45, 22);
+                        int15 = comp(45, 20);  // wolf_shard_swap:not_build
+                        int16 = comp(45, 21);  // wolf_shard_swap:not_icon
+                        int17 = comp(45, 22);  // wolf_shard_swap:not_click
                     };
                 } else {
                     int7 = 0;
                     int5 = int3;
                     int6 = int4;
-                    int15 = comp(45, 20);
-                    int16 = comp(45, 21);
-                    int17 = comp(45, 22);
+                    int15 = comp(45, 20);  // wolf_shard_swap:not_build
+                    int16 = comp(45, 21);  // wolf_shard_swap:not_icon
+                    int17 = comp(45, 22);  // wolf_shard_swap:not_click
                 };
             } else {
                 int7 = 0;
                 int5 = int3;
                 int6 = int4;
-                int15 = comp(45, 20);
-                int16 = comp(45, 21);
-                int17 = comp(45, 22);
+                int15 = comp(45, 20);  // wolf_shard_swap:not_build
+                int16 = comp(45, 21);  // wolf_shard_swap:not_icon
+                int17 = comp(45, 22);  // wolf_shard_swap:not_click
             };
             if ((item_getparam(OC_UNCERT(int9), 394) > enum_getvalue(0, 0, 1471 as cs2enum, STAT_BASE(23 as stat)))) {
                 string1 = `${string0} - You need a Summoning level of ${inttostring(enum_getvalue(0, 0, 1472 as cs2enum, item_getparam(OC_UNCERT(int9), 394)), 10)} to swap this`;
@@ -262,34 +262,34 @@ function script2267(): void {
         };
         int0 = (int0 + 1);
     };
-    IF_SETPOSITION(0, 25, 0, 0, comp(45, 2));
+    IF_SETPOSITION(0, 25, 0, 0, comp(45, 2));  // wolf_shard_swap:not_found
     if (((int1 > 0) || (int2 >= 1))) {
-        IF_SETPOSITION(0, (((int2 * int12) + int12) + 40), 0, 0, comp(45, 2));
-        IF_SETPOSITION(0, 20, 0, 0, comp(45, 1));
-        CC_CREATE(comp(45, 0), 4, IF_GETNEXTSUBID(comp(45, 0)));
+        IF_SETPOSITION(0, (((int2 * int12) + int12) + 40), 0, 0, comp(45, 2));  // wolf_shard_swap:not_found
+        IF_SETPOSITION(0, 20, 0, 0, comp(45, 1));  // wolf_shard_swap:found
+        CC_CREATE(comp(45, 0), 4, IF_GETNEXTSUBID(comp(45, 0)));  // wolf_shard_swap:scrolling_layer
         CC_SETCOLOUR(script10495(3));
         CC_SETTEXTFONT(57 as fontmetrics);
         CC_SETTEXTALIGN(0, 1, 0);
         CC_SETTEXT("Able to swap for shards");
         CC_SETSIZE(0, 15, 1, 0);
         CC_SETPOSITION(5, 1, 0, 0);
-        CC_CREATE(comp(45, 0), 4, IF_GETNEXTSUBID(comp(45, 0)));
+        CC_CREATE(comp(45, 0), 4, IF_GETNEXTSUBID(comp(45, 0)));  // wolf_shard_swap:scrolling_layer
         CC_SETCOLOUR(script10495(3));
         CC_SETTEXTFONT(57 as fontmetrics);
         CC_SETTEXTALIGN(0, 1, 0);
         CC_SETTEXT("Not able to swap");
         CC_SETSIZE(0, 15, 1, 0);
         CC_SETPOSITION(5, (((int2 * int12) + int12) + 20), 0, 0);
-        IF_SETSCROLLSIZE(0, ((((int2 + int4) * int12) + (int12 * 3)) - 20), comp(45, 0));
+        IF_SETSCROLLSIZE(0, ((((int2 + int4) * int12) + (int12 * 3)) - 20), comp(45, 0));  // wolf_shard_swap:scrolling_layer
     } else {
-        CC_CREATE(comp(45, 0), 4, IF_GETNEXTSUBID(comp(45, 0)));
+        CC_CREATE(comp(45, 0), 4, IF_GETNEXTSUBID(comp(45, 0)));  // wolf_shard_swap:scrolling_layer
         CC_SETCOLOUR(script10495(3));
         CC_SETTEXTFONT(57 as fontmetrics);
         CC_SETTEXTALIGN(0, 1, 0);
         CC_SETTEXT("Not able to swap");
         CC_SETSIZE(0, 20, 1, 0);
         CC_SETPOSITION(5, 1, 0, 0);
-        IF_SETSCROLLSIZE(0, ((((int2 + int4) * int12) + int12) + 20), comp(45, 0));
+        IF_SETSCROLLSIZE(0, ((((int2 + int4) * int12) + int12) + 20), comp(45, 0));  // wolf_shard_swap:scrolling_layer
     };
     script7791(2949136, 2949120);
     return;

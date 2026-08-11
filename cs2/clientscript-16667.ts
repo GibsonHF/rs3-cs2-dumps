@@ -1,7 +1,7 @@
 //
 function script16667(): void {
     script16674();
-    CC_DELETEALL(comp(1253, 3));
+    CC_DELETEALL(comp(1253, 3));  // wheel_of_fortune:background_holder
     script16668();
     script16669();
     var int0 = 0;

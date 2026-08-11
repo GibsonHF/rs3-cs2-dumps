@@ -1,6 +1,6 @@
 //
 function script8574(int0: number): void {
-    CC_CREATE(comp(1890, 10), 5, int0);
+    CC_CREATE(comp(1890, 10), 5, int0);  // prayer_quick_preset_interface:preset_ability_layer
     CC_SETSIZE(25, 25, 0, 0);
     CC_SETPOSITION(4, ((29 * int0) + 5), 0, 0);
     var string0 = "You can drag these to your ability bar";

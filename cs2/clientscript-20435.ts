@@ -67,7 +67,7 @@ function script20435(): void {
         CC_SETTEXTALIGN(0, 1, 0);
         int13 = dbrow_findnext();
     };
-    IF_SETSCROLLSIZE(0, (int12 + 4), comp(1802, 255));
+    IF_SETSCROLLSIZE(0, (int12 + 4), comp(1802, 255));  // timed_event:anniversary_skillcapes_skill_list_layer
     script7791(118096131, 118096127);
     return;
 }

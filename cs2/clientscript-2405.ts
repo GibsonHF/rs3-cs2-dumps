@@ -1,9 +1,9 @@
 //
 function script2405(): void {
-    var int0 = comp(936, 3);
-    var int1 = comp(936, 4);
-    var int2 = comp(936, 5);
-    var int3 = comp(936, 6);
+    var int0 = comp(936, 3);  // rand_inspect_stats:background
+    var int1 = comp(936, 4);  // rand_inspect_stats:icon
+    var int2 = comp(936, 5);  // rand_inspect_stats:stat
+    var int3 = comp(936, 6);  // rand_inspect_stats:stat_base
     var int4 = ENUM_GETOUTPUTCOUNT(7674 as cs2enum);
     var int5 = 0;
     var int6 = -1 as struct;
@@ -28,8 +28,8 @@ function script2405(): void {
         CC_SETCOLOUR(int7);
         int5 = (int5 + 1);
     };
-    var int8 = comp(936, 11);
-    var int9 = comp(936, 12);
+    var int8 = comp(936, 11);  // rand_inspect_stats:skilltotal
+    var int9 = comp(936, 12);  // rand_inspect_stats:combat_level
     IF_SETSIZE(16384, 0, 2, 1, int8);
     CC_CREATE(int8, 5, 0);
     CC_SETGRAPHIC(24429 as graphic);
@@ -45,7 +45,7 @@ function script2405(): void {
     CC_SETTEXTALIGN(0, 1, 0);
     CC_SETCOLOUR(16777215);
     IF_SETHIDE(true, int9);
-    if ((IF_GETWIDTH(comp(936, 8)) >= 120)) {
+    if ((IF_GETWIDTH(comp(936, 8)) >= 120)) {  // rand_inspect_stats:fixed_area
         IF_SETSIZE((16384 / 2), 0, 2, 1, int8);
         IF_SETSIZE((16384 / 2), 0, 2, 1, int9);
         IF_SETPOSITION(0, 0, 2, 0, int9);

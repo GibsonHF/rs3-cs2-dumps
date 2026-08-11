@@ -2,13 +2,13 @@
 function script6495(int0: number, int1: number, int2: number): void {
     var string0 = "Show";
     var int3 = false;
-    var int4 = comp(1458, 48);
-    var int5 = comp(1458, 9);
-    var int6 = comp(1458, 10);
-    if ((int0 == comp(1458, 48))) {
-        int4 = comp(1457, 44);
-        int5 = comp(1457, 7);
-        int6 = comp(1457, 8);
+    var int4 = comp(1458, 48);  // toplevel_v2_prayer:header_click_layer
+    var int5 = comp(1458, 9);  // toplevel_v2_prayer:stats_layer
+    var int6 = comp(1458, 10);  // toplevel_v2_prayer:stats_info_layer
+    if ((int0 == comp(1458, 48))) {  // toplevel_v2_prayer:header_click_layer
+        int4 = comp(1457, 44);  // toplevel_v2_parent_suboverlay_prayer:header_click_layer
+        int5 = comp(1457, 7);  // toplevel_v2_parent_suboverlay_prayer:stats_layer
+        int6 = comp(1457, 8);  // toplevel_v2_parent_suboverlay_prayer:stats_info_layer
     };
     if ((varbitplayer_45116 == 0)) {
         int3 = false;

@@ -12,7 +12,7 @@ function script3650(int0: number, int1: number, int2: number): void {
     var string0 = "";
     var int12 = DB_GETFIELDCOUNT(int3, 303344);
     var int13 = (IF_GETWIDTH(int1) - 5);
-    if ((IF_GETHIDE(comp(634, 54)) == true)) {
+    if ((IF_GETHIDE(comp(634, 54)) == true)) {  // runepass:task_scrollbar
         int13 = (int13 - 16);
     };
     int13 = (int13 - 30);
@@ -212,16 +212,16 @@ function script3650(int0: number, int1: number, int2: number): void {
             int17 = int12;
         };
     };
-    IF_SETSCROLLSIZE(0, int16, comp(634, 58));
-    if ((IF_GETSCROLLY(comp(634, 58)) > IF_GETSCROLLHEIGHT(comp(634, 58)))) {
-        IF_SETSCROLLPOS(0, IF_GETSCROLLHEIGHT(comp(634, 58)), comp(634, 58));
+    IF_SETSCROLLSIZE(0, int16, comp(634, 58));  // runepass:task_specifics
+    if ((IF_GETSCROLLY(comp(634, 58)) > IF_GETSCROLLHEIGHT(comp(634, 58)))) {  // runepass:task_specifics
+        IF_SETSCROLLPOS(0, IF_GETSCROLLHEIGHT(comp(634, 58)), comp(634, 58));  // runepass:task_specifics
     };
-    if ((int16 < IF_GETHEIGHT(comp(634, 58)))) {
-        IF_SETHIDE(true, comp(634, 54));
-        IF_SETSIZE(0, 0, 1, 1, comp(634, 58));
+    if ((int16 < IF_GETHEIGHT(comp(634, 58)))) {  // runepass:task_specifics
+        IF_SETHIDE(true, comp(634, 54));  // runepass:task_scrollbar
+        IF_SETSIZE(0, 0, 1, 1, comp(634, 58));  // runepass:task_specifics
     } else {
-        IF_SETHIDE(false, comp(634, 54));
-        IF_SETSIZE(16, 0, 1, 1, comp(634, 58));
+        IF_SETHIDE(false, comp(634, 54));  // runepass:task_scrollbar
+        IF_SETSIZE(16, 0, 1, 1, comp(634, 58));  // runepass:task_specifics
     };
     script3784(41549880, 41549878, 41549882);
     return;

@@ -35,7 +35,7 @@ function script2393(int0: number, int1: number): void {
     var int7 = 0;
     var int8 = script2390(7);
     var int9 = 0;
-    if ((IF_FIND(comp(1431, 1)) == 1)) {
+    if ((IF_FIND(comp(1431, 1)) == 1)) {  // toplevel_v2_ribbon:ribbon_root
         int9 = cc_getparam(6837);
     };
     while ((int6 != int1)) {

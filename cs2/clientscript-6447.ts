@@ -1,6 +1,6 @@
 //
 function script6447(int0: number, int1: number, int2: number, int3: number): void {
-    if ((IF_GETGRAPHIC(comp(1311, 374)) == 3030 as graphic)) {
+    if ((IF_GETGRAPHIC(comp(1311, 374)) == 3030 as graphic)) {  // mtxmgt:chathead_mode_swapper
         return;
     };
     var int4 = 0;

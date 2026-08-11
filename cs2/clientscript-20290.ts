@@ -29,7 +29,7 @@ function script20290(int0: number, int1: number, int2: number): void {
             break;
         }
     };
-    IF_SETSCROLLPOS(0, 0, comp(1479, 19));
+    IF_SETSCROLLPOS(0, 0, comp(1479, 19));  // league_parent_tasks:task_panel
     script20291();
     return;
 }

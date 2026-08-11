@@ -21,10 +21,10 @@ function script15820(int0: number, int1: number, int2: number, int3: number, int
                     string1 = script14145(script11623());
                     string1 = script14145(string1, dbrow_getfield(int0, 499872, 0), dbrow_getfield(int0, 499888, 0));
                     string1 = script14145(string1, "You currently own:", script14241(dbrow_getfield(int0, 499936, 0)));
-                    IF_SETONOP(callback(script15743, string3), comp(891, 27));
+                    IF_SETONOP(callback(script15743, string3), comp(891, 27));  // mtx_front_end_confirm:buy_button
                 };
-                IF_SETHIDE(true, comp(891, 29));
-                IF_SETTEXT(string2, comp(891, 28));
+                IF_SETHIDE(true, comp(891, 29));  // mtx_front_end_confirm:soft_currency_wrapper
+                IF_SETTEXT(string2, comp(891, 28));  // mtx_front_end_confirm:cash_buy_text
             };
             break;
         }
@@ -60,7 +60,7 @@ function script15820(int0: number, int1: number, int2: number, int3: number, int
             if ((int2 != -1)) {
                 string1 = script14145(string1, "Membership Benefits:", script16579(int2, -1));
             };
-            IF_SETSIZE(20, 20, 0, 0, comp(891, 30));
+            IF_SETSIZE(20, 20, 0, 0, comp(891, 30));  // mtx_front_end_confirm:soft_currency_sprite
             script11538(struct_getparam(varplayer_5148, 8661), string2);
             break;
         }
@@ -68,18 +68,18 @@ function script15820(int0: number, int1: number, int2: number, int3: number, int
     if ((((int3 != -1) && (int4 != -1)) && (STRING_LENGTH(string0) == 0))) {
         string0 = script11623(struct_getparam(int4, 2533), struct_getparam(int3, 2533));
     };
-    IF_SETTEXT(string0, comp(891, 13));
-    IF_SETTEXT(string1, comp(891, 17));
+    IF_SETTEXT(string0, comp(891, 13));  // mtx_front_end_confirm:item_name
+    IF_SETTEXT(string1, comp(891, 17));  // mtx_front_end_confirm:item_desc
     script11539(int3, int6, int5, 1, int8);
     script16206(int0);
-    var int12 = script15891(string1, IF_GETWIDTH(comp(891, 17)), IF_GETFONTMETRICS(comp(891, 17)), 0);
-    if ((int12 >= IF_GETHEIGHT(comp(891, 16)))) {
-        IF_SETSCROLLSIZE(0, int12, comp(891, 16));
-        IF_SETHIDE(false, comp(891, 15));
+    var int12 = script15891(string1, IF_GETWIDTH(comp(891, 17)), IF_GETFONTMETRICS(comp(891, 17)), 0);  // mtx_front_end_confirm:item_desc
+    if ((int12 >= IF_GETHEIGHT(comp(891, 16)))) {  // mtx_front_end_confirm:item_description_scroll_layer
+        IF_SETSCROLLSIZE(0, int12, comp(891, 16));  // mtx_front_end_confirm:item_description_scroll_layer
+        IF_SETHIDE(false, comp(891, 15));  // mtx_front_end_confirm:item_description_scrollbar
         script7791(58392591, 58392592);
     } else {
-        IF_SETSCROLLSIZE(0, 0, comp(891, 16));
-        IF_SETHIDE(true, comp(891, 15));
+        IF_SETSCROLLSIZE(0, 0, comp(891, 16));  // mtx_front_end_confirm:item_description_scroll_layer
+        IF_SETHIDE(true, comp(891, 15));  // mtx_front_end_confirm:item_description_scrollbar
     };
     return;
 }

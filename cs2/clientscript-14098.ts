@@ -39,7 +39,7 @@ function script14098(int0: number): void {
             };
             int2 = (int2 + 1);
         };
-        if ((CC_FIND(comp(1944, 6), int13) == 1)) {
+        if ((CC_FIND(comp(1944, 6), int13) == 1)) {  // toolbelt_v2:toolbelt_build_layer
             CC_SETTEXT(`${struct_getparam(int6, 6974)} - ${inttostring(int12, 10)}/${inttostring(int2, 10)}`);
         };
         int3 = 5;
@@ -50,12 +50,12 @@ function script14098(int0: number): void {
         int2 = 0;
         int12 = 0;
     };
-    var int19 = IF_GETHEIGHT(comp(1944, 3));
+    var int19 = IF_GETHEIGHT(comp(1944, 3));  // toolbelt_v2:scroll_bar
     if ((int19 == 0)) {
         int19 = 272;
     };
     int9 = (int9 + int19);
-    IF_SETSCROLLSIZE(0, int9, comp(1944, 5));
+    IF_SETSCROLLSIZE(0, int9, comp(1944, 5));  // toolbelt_v2:toolbelt_scroll_layer
     script7791(127401987, 127401989);
     script8421(127401985, 127402085, 127401986, 127402086, `Tool belt - ${inttostring(int14, 10)}/${inttostring(int15, 10)}`, 21218, 1040, 1, -1, -1);
     return;

@@ -49,21 +49,21 @@ function script10465(int0: number, int1: number, int2: number, int3: number, int
         if ((MODULO(int4, 2) == 1)) {
             switch (int4) {
                 case 1: {
-                    IF_SETHIDE(true, comp(751, 14));
-                    IF_SETHIDE(true, comp(1148, 14));
+                    IF_SETHIDE(true, comp(751, 14));  // trh_dialog_select:select_button_2
+                    IF_SETHIDE(true, comp(1148, 14));  // trh_dialog_select_overlay:select_button_2
                     break;
                 }
                 case 3: {
-                    IF_SETHIDE(true, comp(751, 12));
-                    IF_SETHIDE(true, comp(1148, 12));
+                    IF_SETHIDE(true, comp(751, 12));  // trh_dialog_select:select_button_4
+                    IF_SETHIDE(true, comp(1148, 12));  // trh_dialog_select_overlay:select_button_4
                     break;
                 }
                 case 5: {
-                    IF_SETHIDE(true, comp(1148, 10));
+                    IF_SETHIDE(true, comp(1148, 10));  // trh_dialog_select_overlay:select_button_6
                     break;
                 }
                 case 7: {
-                    IF_SETHIDE(true, comp(1148, 8));
+                    IF_SETHIDE(true, comp(1148, 8));  // trh_dialog_select_overlay:select_button_8
                     break;
                 }
             };

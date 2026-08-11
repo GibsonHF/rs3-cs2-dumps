@@ -3,8 +3,8 @@ function script19197(int0: number): void {
     var int1 = -1 as dbrow;
     var int2 = -1 as stat;
     var int3 = -1;
-    var int4 = comp(1288, 18);
-    var int5 = comp(1288, 15);
+    var int4 = comp(1288, 18);  // trh_academy_shared_overlay:interaction_icon
+    var int5 = comp(1288, 15);  // trh_academy_shared_overlay:interaction_icon_holder
     var int6 = -1 as graphic;
     var int7 = 0;
     var int8 = 25;

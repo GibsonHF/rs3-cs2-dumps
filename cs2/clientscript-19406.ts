@@ -5,9 +5,9 @@ function script19406(): void {
     var string1 = "";
     [int0, string1] = script19390();
     var string2 = script19324(varbitplayer_56614, varbitplayer_56616);
-    IF_SETTEXT(string0, comp(1299, 11));
-    IF_SETGRAPHIC(int0, comp(1299, 10));
+    IF_SETTEXT(string0, comp(1299, 11));  // group_ironman_child:group_name
+    IF_SETGRAPHIC(int0, comp(1299, 10));  // group_ironman_child:group_prestige
     script3536(string1, 85131274, -1);
-    IF_SETTEXT(string2, comp(1299, 12));
+    IF_SETTEXT(string2, comp(1299, 12));  // group_ironman_child:group_type
     return;
 }

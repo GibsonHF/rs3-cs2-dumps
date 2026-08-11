@@ -35,8 +35,8 @@ function script3165(int0: number, int1: number, int2: number, int3: number, int4
     var int23 = script13749();
     if ((int23 == 0)) {
         IF_SETSIZE(IF_GETWIDTH(int7), 0, 0, 1, int7);
-        IF_SETTEXT(ACTIVECLANCHANNEL_GETCLANNAME(), comp(912, 22));
-        IF_SETSIZE(0, int11, 1, 0, comp(912, 9));
+        IF_SETTEXT(ACTIVECLANCHANNEL_GETCLANNAME(), comp(912, 22));  // lobbyscreen_pane_clanchat:clan_detail_name_text
+        IF_SETSIZE(0, int11, 1, 0, comp(912, 9));  // lobbyscreen_pane_clanchat:clan_active_bg
     } else {
         int11 = 40;
         int22 = (int22 + 7);

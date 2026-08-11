@@ -35,8 +35,8 @@ function script14287(): void {
             break;
         }
     };
-    IF_SETOBJECT_NONUM(int0, 1, comp(1127, 19));
-    IF_SETOBJECT_NONUM(int1, 1, comp(1127, 15));
-    IF_SETOBJECT_NONUM(int2, 1, comp(1127, 24));
+    IF_SETOBJECT_NONUM(int0, 1, comp(1127, 19));  // hlr4m_itemselect:battlemage_model
+    IF_SETOBJECT_NONUM(int1, 1, comp(1127, 15));  // hlr4m_itemselect:trickster_model
+    IF_SETOBJECT_NONUM(int2, 1, comp(1127, 24));  // hlr4m_itemselect:vanguard_model
     return;
 }

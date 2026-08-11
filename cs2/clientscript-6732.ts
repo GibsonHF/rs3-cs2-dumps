@@ -384,22 +384,22 @@ function script6732(): void {
                 };
             };
             if ((int6 != -1)) {
-                IF_SETTEXT(`Total kills: ${inttostring(int6, 10)}`, comp(753, 100));
+                IF_SETTEXT(`Total kills: ${inttostring(int6, 10)}`, comp(753, 100));  // bslay_boss_info:boss_total_text
             } else {
-                IF_SETTEXT("Total kills: <col=FF0000>LOTS</col>", comp(753, 100));
+                IF_SETTEXT("Total kills: <col=FF0000>LOTS</col>", comp(753, 100));  // bslay_boss_info:boss_total_text
             };
             if ((int7 != -1)) {
-                IF_SETTEXT(`Total prestige: ${inttostring(int7, 10)}`, comp(753, 101));
+                IF_SETTEXT(`Total prestige: ${inttostring(int7, 10)}`, comp(753, 101));  // bslay_boss_info:boss_total_prestige_text
             } else {
-                IF_SETTEXT("Total prestige: <col=FF0000>LOTS</col>", comp(753, 101));
+                IF_SETTEXT("Total prestige: <col=FF0000>LOTS</col>", comp(753, 101));  // bslay_boss_info:boss_total_prestige_text
             };
             int1 = (int1 + 1);
         };
         int0 = (int0 + 1);
     };
-    if (((int9 + 25) > IF_GETHEIGHT(comp(753, 102)))) {
-        IF_SETSCROLLPOS(0, 0, comp(753, 102));
-        IF_SETSCROLLSIZE(0, ((int9 + 25) + 2), comp(753, 102));
+    if (((int9 + 25) > IF_GETHEIGHT(comp(753, 102)))) {  // bslay_boss_info:boss_kill_build_layer
+        IF_SETSCROLLPOS(0, 0, comp(753, 102));  // bslay_boss_info:boss_kill_build_layer
+        IF_SETSCROLLSIZE(0, ((int9 + 25) + 2), comp(753, 102));  // bslay_boss_info:boss_kill_build_layer
         script31(49348714, 49348710, 4343, 4340, 4341, 4342, 4337, 4336);
     };
     return;

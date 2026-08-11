@@ -2,7 +2,7 @@
 function script12123(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number): void {
     var int6 = 0;
     var int7 = 0;
-    if ((IF_FIND(comp(1708, 32)) == 1)) {
+    if ((IF_FIND(comp(1708, 32)) == 1)) {  // invent_discovery:side_popup_layer
         if ((cc_getparam(5530) == int2)) {
             CC_SETONTIMER(callback(script12124, -2147483645, (CLIENTCLOCK() + 1), int3, int4, int5));
             return;
@@ -19,19 +19,19 @@ function script12123(int0: number, int1: number, int2: number, int3: number, int
     var int8 = 0;
     var int9 = 0;
     var int10 = comp(-1, 65535);
-    CC_DELETEALL(comp(1708, 32));
+    CC_DELETEALL(comp(1708, 32));  // invent_discovery:side_popup_layer
     if ((CC_FIND(int0, int1) == 1)) {
         var int2 = cc_getparam(5530);
         int8 = (CC_GETX() + 5);
         int9 = CC_GETY();
         int10 = CC_GETLAYER();
-        while ((int10 != comp(1708, 2))) {
+        while ((int10 != comp(1708, 2))) {  // invent_discovery:side_content_layer
             int8 = (int8 + IF_GETX(int10));
             int9 = (int9 + IF_GETY(int10));
             int10 = IF_GETLAYER(int10);
         };
         script12122(111935520, 0, -1, 0, int8, int9, int2);
-        if ((IF_FIND(comp(1708, 32)) == 1)) {
+        if ((IF_FIND(comp(1708, 32)) == 1)) {  // invent_discovery:side_popup_layer
             CC_SETONTIMER(callback(script12124, -2147483645, (CLIENTCLOCK() + 1), int3, int4, int5));
             cc_setparam(5530, int2);
             cc_setparam(5531, int4);

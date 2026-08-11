@@ -68,6 +68,6 @@ function script3771(int0: number, int1: number): void {
         }
     };
     IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643), int1);
-    IF_SETSIZE(167, 300, 1, 0, comp(574, 4));
+    IF_SETSIZE(167, 300, 1, 0, comp(574, 4));  // share_actionbar_accept:accept_share_window
     return;
 }

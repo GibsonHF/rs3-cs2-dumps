@@ -6,7 +6,7 @@ function script6043(int0: number, int1: number, int2: number): void {
         script6046("Choose a skill...", int2, 50);
         return;
     };
-    if (((IF_GETHIDE(comp(1263, 5)) == false) && (varbitplayer_43349 == 2))) {
+    if (((IF_GETHIDE(comp(1263, 5)) == false) && (varbitplayer_43349 == 2))) {  // xp_reward:xp_type_choice
         IF_SETHIDE(false, int1);
         script6046("Choose an xp type...", int2, 50);
         return;
@@ -26,9 +26,9 @@ function script6043(int0: number, int1: number, int2: number): void {
     script6046(script6036(enum_getvalue(0, 17, 681, varclient_1796), varclient_1797, varclient_1799), int2, 50);
     if ((varclient_1799 == 54603)) {
         if ((script17262(varclient_1796) == 0)) {
-            IF_SETTEXT("Block XP", comp(1263, 81));
+            IF_SETTEXT("Block XP", comp(1263, 81));  // xp_reward:confirm_button_text
         } else {
-            IF_SETTEXT("Give XP", comp(1263, 81));
+            IF_SETTEXT("Give XP", comp(1263, 81));  // xp_reward:confirm_button_text
         };
     };
     return;

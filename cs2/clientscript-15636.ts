@@ -83,7 +83,7 @@ function script15636(int0: number): void {
             break;
         }
     };
-    IF_SETTEXT(string0, comp(915, 32));
+    IF_SETTEXT(string0, comp(915, 32));  // lobbyscreen_report_abuse_stage2:desc
     script15635();
     return;
 }

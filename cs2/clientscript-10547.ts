@@ -5,13 +5,13 @@ function script10547(int0: number, int1: number): void {
     var int4 = script12422(int3, int2, 184);
     IF_SETSIZE(int4, 17, 0, 0, struct_getparam(int1, 7417));
     IF_SETTEXT(`${inttostring(int3, 10)}/${inttostring(int2, 10)}`, struct_getparam(int1, 7418));
-    IF_SETTEXT(inttostring(varbitplayer_39302, 10), comp(1930, 71));
+    IF_SETTEXT(inttostring(varbitplayer_39302, 10), comp(1930, 71));  // timed_event_tasks:level_text
     if ((varbitplayer_39302 < 10)) {
-        IF_SETHIDE(true, comp(1930, 77));
+        IF_SETHIDE(true, comp(1930, 77));  // timed_event_tasks:reward_highlight_3
         if ((varbitplayer_39302 < 5)) {
-            IF_SETHIDE(true, comp(1930, 81));
+            IF_SETHIDE(true, comp(1930, 81));  // timed_event_tasks:reward_highlight_2
             if ((varbitplayer_39302 < 2)) {
-                IF_SETHIDE(true, comp(1930, 85));
+                IF_SETHIDE(true, comp(1930, 85));  // timed_event_tasks:reward_highlight_1
             };
         };
     };
@@ -42,6 +42,6 @@ function script10547(int0: number, int1: number): void {
         };
         int5 = (int5 + 1);
     };
-    IF_SETTEXT(`Next Reward<br>${script11901()}`, comp(1930, 176));
+    IF_SETTEXT(`Next Reward<br>${script11901()}`, comp(1930, 176));  // timed_event_tasks:next_reward_text
     return;
 }

@@ -15,7 +15,7 @@ function script4311(): void {
     if ((int0 == 1)) {
         int2 = varclient_1500;
     };
-    IF_SETTEXT(`Settings for: ${varclient_2521}`, comp(1096, 38));
+    IF_SETTEXT(`Settings for: ${varclient_2521}`, comp(1096, 38));  // clansettings:clanmate_details_clanmate_name
     switch (MAP_LANG()) {
         case 1: {
             int8 = 3727;

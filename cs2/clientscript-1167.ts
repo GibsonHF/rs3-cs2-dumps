@@ -45,7 +45,7 @@ function script1167(): void {
         int5 = 32;
         int3 = 10;
     };
-    CC_DELETEALL(comp(885, 0));
+    CC_DELETEALL(comp(885, 0));  // exchange_interface_experts:content
     while ((int1 < int7)) {
         int9 = enum_getvalue(0, 33, int0, int1);
         int11 = enum_getvalue(0, 9, 737, int1);
@@ -53,13 +53,13 @@ function script1167(): void {
             IF_SETHIDE(false, int11);
             IF_SETSIZE(int10, int10, 0, 0, int11);
             IF_SETPOSITION((int3 + ((int10 + int3) * MODULO(int1, int8))), (int4 + ((int1 / int8) * (int10 + int4))), 0, 0, int11);
-            CC_CREATE(comp(885, 0), 5, int2);
+            CC_CREATE(comp(885, 0), 5, int2);  // exchange_interface_experts:content
             CC_SETSIZE(34, 30, 0, 0);
             unk11114(enum_getvalue(0, 33, int0, int1), -1);
             CC_SETPOSITION((int5 + IF_GETX(int11)), (int6 + IF_GETY(int11)), 0, 0);
             CC_SETOP(1, "Examine");
             CC_SETOPBASE(`<col=ff9040>${script18300(int9)}`);
-            CC_CREATE(comp(885, 0), 4, (int2 + 1));
+            CC_CREATE(comp(885, 0), 4, (int2 + 1));  // exchange_interface_experts:content
             CC_SETSIZE(IF_GETWIDTH(int11), (IF_GETWIDTH(int11) - 5), 0, 0);
             CC_SETTEXTFONT(26 as fontmetrics);
             CC_SETCOLOUR(13408512);
@@ -78,15 +78,15 @@ function script1167(): void {
         IF_SETHIDE(true, enum_getvalue(0, 9, 737, int1));
         int1 = (int1 + 1);
     };
-    if ((int12 < IF_GETHEIGHT(comp(885, 0)))) {
-        IF_SETSCROLLPOS(0, 0, comp(885, 0));
-        IF_SETSCROLLSIZE(0, 0, comp(885, 0));
-        CC_DELETEALL(comp(885, 1));
-        IF_SETHIDE(true, comp(885, 1));
+    if ((int12 < IF_GETHEIGHT(comp(885, 0)))) {  // exchange_interface_experts:content
+        IF_SETSCROLLPOS(0, 0, comp(885, 0));  // exchange_interface_experts:content
+        IF_SETSCROLLSIZE(0, 0, comp(885, 0));  // exchange_interface_experts:content
+        CC_DELETEALL(comp(885, 1));  // exchange_interface_experts:scrollbar
+        IF_SETHIDE(true, comp(885, 1));  // exchange_interface_experts:scrollbar
     } else {
-        IF_SETHIDE(false, comp(885, 1));
-        IF_SETSCROLLPOS(0, 0, comp(885, 0));
-        IF_SETSCROLLSIZE(IF_GETWIDTH(comp(885, 0)), (int12 + int5), comp(885, 0));
+        IF_SETHIDE(false, comp(885, 1));  // exchange_interface_experts:scrollbar
+        IF_SETSCROLLPOS(0, 0, comp(885, 0));  // exchange_interface_experts:content
+        IF_SETSCROLLSIZE(IF_GETWIDTH(comp(885, 0)), (int12 + int5), comp(885, 0));  // exchange_interface_experts:content
         script31(57999361, 57999360, 792, 789, 790, 791, 773, 788);
     };
     return;

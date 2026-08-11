@@ -9,8 +9,8 @@ function script16971(): void {
     script16982();
     script16984();
     script16986();
-    IF_SETSIZE(200, 130, 0, 0, comp(1253, 32));
-    IF_SETPOSITION(100, 50, 0, 0, comp(1253, 32));
-    IF_SETOPCURSOR(1, 201, comp(1068, 24));
+    IF_SETSIZE(200, 130, 0, 0, comp(1253, 32));  // wheel_of_fortune:wheel_spin_button_layer_1
+    IF_SETPOSITION(100, 50, 0, 0, comp(1253, 32));  // wheel_of_fortune:wheel_spin_button_layer_1
+    IF_SETOPCURSOR(1, 201, comp(1068, 24));  // trh188:cauldron_model
     return;
 }

@@ -14,7 +14,7 @@ function script6599(int0: number, int1: number, int2: number): void {
         int3 = ((int4 * int3) / 100);
         CC_SETSIZE(int3, CC_GETHEIGHT(), 0, 0);
         if ((int2 < 500)) {
-            IF_SETSIZE((int4 + 22), IF_GETHEIGHT(comp(1326, 77)), 0, 0, comp(1326, 77));
+            IF_SETSIZE((int4 + 22), IF_GETHEIGHT(comp(1326, 77)), 0, 0, comp(1326, 77));  // peng_pow_sub_overlay:resize_health_bar
         };
     };
     return;

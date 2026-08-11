@@ -19,10 +19,10 @@ function script7987(int0: number): void {
         while ((int2 < ENUM_GETOUTPUTCOUNT(10364 as cs2enum))) {
             int0 = enum_getvalue(0, 9, 10364 as cs2enum, int2);
             if ((int0 != comp(-1, 65535))) {
-                if ((int0 == comp(1444, 3))) {
+                if ((int0 == comp(1444, 3))) {  // toplevel_v2_keyboard_settings:group_ironman_layer
                     if ((script19316() == 0)) {
                         IF_SETHIDE(true, int0);
-                    } else if ((int0 == comp(1444, 4))) {
+                    } else if ((int0 == comp(1444, 4))) {  // toplevel_v2_keyboard_settings:leagues_layer
                         if ((varplayer_12314 <= 0)) {
                             IF_SETHIDE(true, int0);
                         } else {
@@ -33,7 +33,7 @@ function script7987(int0: number): void {
                         IF_SETPOSITION(0, int3, 0, 0, int0);
                         int3 = (int3 + IF_GETHEIGHT(int0));
                     };
-                } else if ((int0 == comp(1444, 4))) {
+                } else if ((int0 == comp(1444, 4))) {  // toplevel_v2_keyboard_settings:leagues_layer
                     if ((varplayer_12314 <= 0)) {
                         IF_SETHIDE(true, int0);
                     } else {

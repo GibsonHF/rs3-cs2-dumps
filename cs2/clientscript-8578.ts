@@ -13,29 +13,29 @@ function script8578(): void {
     var int9 = struct_getparam(37698, 6674);
     script13310(123928584, 123928609, 27, 4000);
     script13310(123928602, 123928610, 28, 4000);
-    IF_SETTEXT(`${inttostring(script8579(1), 10)}/${inttostring(int9, 10)}`, comp(1891, 30));
-    IF_SETTEXT(`${inttostring(script8579(2), 10)}/${inttostring(int9, 10)}`, comp(1891, 55));
-    IF_SETGRAPHIC(struct_getparam(37695, 6703), comp(1891, 40));
-    IF_SETGRAPHIC(struct_getparam(37695, 6704), comp(1891, 20));
+    IF_SETTEXT(`${inttostring(script8579(1), 10)}/${inttostring(int9, 10)}`, comp(1891, 30));  // trh_rifts:skill1_progress_text
+    IF_SETTEXT(`${inttostring(script8579(2), 10)}/${inttostring(int9, 10)}`, comp(1891, 55));  // trh_rifts:skill2_progress_text
+    IF_SETGRAPHIC(struct_getparam(37695, 6703), comp(1891, 40));  // trh_rifts:skill1_prize_graphic
+    IF_SETGRAPHIC(struct_getparam(37695, 6704), comp(1891, 20));  // trh_rifts:skill2_prize_graphic
     if ((varbitplayer_36876 == int9)) {
         int7 = 1;
-        IF_SETGRAPHIC(struct_getparam(37695, 6705), comp(1891, 40));
+        IF_SETGRAPHIC(struct_getparam(37695, 6705), comp(1891, 40));  // trh_rifts:skill1_prize_graphic
     };
     if ((varbitplayer_36877 == int9)) {
         int8 = 1;
-        IF_SETGRAPHIC(struct_getparam(37695, 6706), comp(1891, 20));
+        IF_SETGRAPHIC(struct_getparam(37695, 6706), comp(1891, 20));  // trh_rifts:skill2_prize_graphic
     };
     script8577(123928616, -1);
     script8577(123928596, -1);
-    IF_SETHIDE(int7, comp(1891, 41));
-    IF_SETHIDE(int8, comp(1891, 42));
+    IF_SETHIDE(int7, comp(1891, 41));  // trh_rifts:skill1_prize_lock
+    IF_SETHIDE(int8, comp(1891, 42));  // trh_rifts:skill2_prize_lock
     var string1 = struct_getparam(37695, 6707);
     var string2 = struct_getparam(37695, 6708);
     if ((STRING_LENGTH(string1) > 0)) {
-        IF_SETONMOUSEREPEAT(callback(script3876, string1, -2147483645, -1), comp(1891, 40));
+        IF_SETONMOUSEREPEAT(callback(script3876, string1, -2147483645, -1), comp(1891, 40));  // trh_rifts:skill1_prize_graphic
     };
     if ((STRING_LENGTH(string2) > 0)) {
-        IF_SETONMOUSEREPEAT(callback(script3876, string2, -2147483645, -1), comp(1891, 20));
+        IF_SETONMOUSEREPEAT(callback(script3876, string2, -2147483645, -1), comp(1891, 20));  // trh_rifts:skill2_prize_graphic
     };
     stack(int2);
     stack(5);

@@ -43,9 +43,9 @@ function script13046(int0: number, int1: number): void {
         string1 = `${string1} master`;
     };
     int3 = enum_getvalue(0, 23, 8548, int5);
-    IF_SETHIDE(false, comp(1825, 29));
-    IF_SETTEXT(`What would you like to do with the ${string1} perk?`, comp(1825, 36));
-    IF_SETGRAPHIC(int3, comp(1825, 35));
-    IF_SETHIDE(int2, comp(1825, 44));
+    IF_SETHIDE(false, comp(1825, 29));  // skillcape_perks:main_panel_blockclick
+    IF_SETTEXT(`What would you like to do with the ${string1} perk?`, comp(1825, 36));  // skillcape_perks:perk_confirm_text
+    IF_SETGRAPHIC(int3, comp(1825, 35));  // skillcape_perks:perk_confirm_icon
+    IF_SETHIDE(int2, comp(1825, 44));  // skillcape_perks:positive_button_disabled_layer
     return;
 }

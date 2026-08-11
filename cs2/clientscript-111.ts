@@ -1,18 +1,18 @@
 //[proc,meslayer_mode10]
 function script111(): void {
-    IF_SETHIDE(false, comp(1469, 0));
+    IF_SETHIDE(false, comp(1469, 0));  // meslayer:root
     if ((varclient_1413 == false)) {
         return;
     };
     if ((varclient_11 == true)) {
         script675();
     };
-    IF_SETTEXT("Enter the player name whose channel you wish to join:", comp(1469, 3));
+    IF_SETTEXT("Enter the player name whose channel you wish to join:", comp(1469, 3));  // meslayer:mes_text
     varclient_5 = 10;
     script1564("");
-    IF_SETONCLICK(callback(), comp(1469, 1));
+    IF_SETONCLICK(callback(), comp(1469, 1));  // meslayer:mes_layer
     script2026();
-    CC_CREATE(comp(1469, 1), 4, 0);
+    CC_CREATE(comp(1469, 1), 4, 0);  // meslayer:mes_layer
     script2752();
     if ((varclient_1027 == true)) {
         if ((STRING_LENGTH(varclient_2508) > 0)) {

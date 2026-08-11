@@ -31,14 +31,14 @@ function script11332(): void {
             return;
         }
     };
-    var int2 = IF_GETWIDTH(comp(1615, 319));
+    var int2 = IF_GETWIDTH(comp(1615, 319));  // trh53_spring_cleaner_updated:green_large_progress_value_layer
     var int3 = 0;
     if ((int2 >= int1)) {
         if ((varclient_4786 < 4)) {
             varclient_4786 = (varclient_4786 + 1);
             varclient_4785 = 1;
             script9554(105840641, 105841161, 105840642, script11327(varclient_4786), 21218);
-            IF_SETSIZE(1, 19, 0, 0, comp(1615, 319));
+            IF_SETSIZE(1, 19, 0, 0, comp(1615, 319));  // trh53_spring_cleaner_updated:green_large_progress_value_layer
             script11330();
             return;
         };
@@ -49,17 +49,17 @@ function script11332(): void {
         if ((varclient_4784 == 10000)) {
             varclient_4786 = 5;
             script9554(105840641, 105841161, 105840642, script11327(varclient_4786), 21218);
-            IF_SETTEXT("Fully Upgraded!", comp(1615, 323));
+            IF_SETTEXT("Fully Upgraded!", comp(1615, 323));  // trh53_spring_cleaner_updated:upgrade_progress_text
             script11330();
         } else {
-            IF_SETTEXT(`${TOSTRING_LOCALISED(varclient_4784, 1)} / ${TOSTRING_LOCALISED(int0, 1)}`, comp(1615, 323));
+            IF_SETTEXT(`${TOSTRING_LOCALISED(varclient_4784, 1)} / ${TOSTRING_LOCALISED(int0, 1)}`, comp(1615, 323));  // trh53_spring_cleaner_updated:upgrade_progress_text
         };
-        IF_SETONTIMER(callback(), comp(1615, 319));
+        IF_SETONTIMER(callback(), comp(1615, 319));  // trh53_spring_cleaner_updated:green_large_progress_value_layer
         return;
     };
     int4 = (int2 + MAX(((int4 - int2) / 20), 1));
-    IF_SETSIZE(int4, 19, 0, 0, comp(1615, 319));
+    IF_SETSIZE(int4, 19, 0, 0, comp(1615, 319));  // trh53_spring_cleaner_updated:green_large_progress_value_layer
     varclient_4785 = SCALE(int0, int1, int4);
-    IF_SETTEXT(`${TOSTRING_LOCALISED(varclient_4785, 1)} / ${TOSTRING_LOCALISED(int0, 1)}`, comp(1615, 323));
+    IF_SETTEXT(`${TOSTRING_LOCALISED(varclient_4785, 1)} / ${TOSTRING_LOCALISED(int0, 1)}`, comp(1615, 323));  // trh53_spring_cleaner_updated:upgrade_progress_text
     return;
 }

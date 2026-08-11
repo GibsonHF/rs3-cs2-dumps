@@ -1,7 +1,7 @@
 //
 function script15526(): void {
-    var int0 = (IF_GETX(comp(784, 6)) + (IF_GETWIDTH(comp(784, 6)) / 2));
-    var int1 = (IF_GETX(comp(784, 60)) + (IF_GETWIDTH(comp(784, 60)) / 2));
+    var int0 = (IF_GETX(comp(784, 6)) + (IF_GETWIDTH(comp(784, 6)) / 2));  // fairyrings:wheel_left
+    var int1 = (IF_GETX(comp(784, 60)) + (IF_GETWIDTH(comp(784, 60)) / 2));  // fairyrings:left_e
     varclient_6879 = (int1 - int0);
     return;
 }

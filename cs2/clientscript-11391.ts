@@ -2,13 +2,13 @@
 function script11391(): void {
     var int0 = script11401();
     if ((int0 == -1 as cs2enum)) {
-        IF_SETHIDE(false, comp(1621, 17));
+        IF_SETHIDE(false, comp(1621, 17));  // poh_costume_room:loading_layer
         return;
     };
-    IF_SETHIDE(true, comp(1621, 17));
+    IF_SETHIDE(true, comp(1621, 17));  // poh_costume_room:loading_layer
     var int1 = 0;
     var int2 = ENUM_GETOUTPUTCOUNT(int0);
-    var int3 = IF_GETWIDTH(comp(1621, 6));
+    var int3 = IF_GETWIDTH(comp(1621, 6));  // poh_costume_room:scrolling_area
     var int4 = 8;
     var int5 = 5;
     var int6 = -1 as obj;
@@ -32,7 +32,7 @@ function script11391(): void {
         int13 = 18266 as graphic;
     };
     while ((int1 < int2)) {
-        if (((CC_FIND(comp(1621, 25), int1) == 1) && (CC_FIND[1](comp(1621, 20), int1) == 1))) {
+        if (((CC_FIND(comp(1621, 25) /*poh_costume_room:click_area*/, int1) == 1) && (CC_FIND[1](comp(1621, 20) /*poh_costume_room:build_area*/, int1) == 1))) {
             int6 = enum_getvalue(0, 33, int0, int1);
             if ((script5252(int6) == 1)) {
                 if ((((int4 + int7) + 4) > int3)) {
@@ -60,10 +60,10 @@ function script11391(): void {
         int1 = (int1 + 1);
     };
     int5 = ((int5 + 36) + 5);
-    if ((int5 >= IF_GETHEIGHT(comp(1621, 6)))) {
-        IF_SETSCROLLSIZE(0, int5, comp(1621, 6));
+    if ((int5 >= IF_GETHEIGHT(comp(1621, 6)))) {  // poh_costume_room:scrolling_area
+        IF_SETSCROLLSIZE(0, int5, comp(1621, 6));  // poh_costume_room:scrolling_area
     } else {
-        IF_SETSCROLLSIZE(0, 0, comp(1621, 6));
+        IF_SETSCROLLSIZE(0, 0, comp(1621, 6));  // poh_costume_room:scrolling_area
     };
     script7791(106233863, 106233862);
     return;

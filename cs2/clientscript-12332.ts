@@ -4,11 +4,11 @@ function script12332(int0: number): void {
         return;
     };
     CC_DELETEALL(int0);
-    CC_DELETEALL(comp(1682, 3));
-    CC_DELETEALL(comp(1682, 4));
-    CC_DELETEALL(comp(1682, 5));
-    CC_DELETEALL(comp(1682, 6));
-    var int1 = IF_GETLAYER(comp(1682, 5));
+    CC_DELETEALL(comp(1682, 3));  // toplevel_v2_parent_suboverlay_telemetry_settings:checkbox_build_layer
+    CC_DELETEALL(comp(1682, 4));  // toplevel_v2_parent_suboverlay_telemetry_settings:checkbox_click_layer
+    CC_DELETEALL(comp(1682, 5));  // toplevel_v2_parent_suboverlay_telemetry_settings:dropdown_build_layer
+    CC_DELETEALL(comp(1682, 6));  // toplevel_v2_parent_suboverlay_telemetry_settings:dropdown_click_layer
+    var int1 = IF_GETLAYER(comp(1682, 5));  // toplevel_v2_parent_suboverlay_telemetry_settings:dropdown_build_layer
     if ((int1 == comp(-1, 65535))) {
         return;
     };
@@ -58,7 +58,7 @@ function script12332(int0: number): void {
     } else if ((varplayer_5884 == 1 as telemetry_interval)) {
         int11 = 2;
     };
-    [int2, int3] = script10429(110231557, 110231558, 0, int2, int6, IF_GETNEXTSUBID(comp(1682, 5)), 10373, 10294, "Select which time interval you wish to show data for.", int11, 0);
+    [int2, int3] = script10429(110231557, 110231558, 0, int2, int6, IF_GETNEXTSUBID(comp(1682, 5)), 10373, 10294, "Select which time interval you wish to show data for.", int11, 0);  // toplevel_v2_parent_suboverlay_telemetry_settings:dropdown_build_layer
     int2 = (int2 + 2);
     CC_CREATE(int1, 4, IF_GETNEXTSUBID(int1));
     CC_SETTEXTFONT(26 as fontmetrics);

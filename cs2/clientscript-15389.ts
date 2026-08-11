@@ -1,6 +1,6 @@
 //
 function script15389(): void {
-    IF_SETONTIMER(callback(), comp(137, 77));
+    IF_SETONTIMER(callback(), comp(137, 77));  // chatdefault:wiki_button_wrapper
     if ((varclient_6858 == true)) {
         varclient_6858 = false;
     } else {

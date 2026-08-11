@@ -19,7 +19,7 @@ function script9394(int0: number, int1: number, int2: number): void {
     var int12 = 0;
     var int13 = 0;
     var int14 = 0;
-    var int15 = IF_GETWIDTH(comp(365, 16));
+    var int15 = IF_GETWIDTH(comp(365, 16));  // settings:set_scrolling
     var int16 = 0;
     var int17 = 20;
     var int18 = 0;
@@ -48,7 +48,7 @@ function script9394(int0: number, int1: number, int2: number): void {
                             string2 = LOWERCASE(struct_getparam(int11, 7528));
                             if ((((STRING_INDEXOF_STRING(string1, string0, 0) > -1) || (STRING_INDEXOF_STRING(string2, string0, 0) > -1)) || (STRING_INDEXOF_STRING(string5, string0, 0) > -1))) {
                                 int13 = script9395(int11);
-                                if (((script16146(int11, int13) == 1) && (CC_FINDBYCATEGORY[1](comp(365, 19), int14, int7) == 0))) {
+                                if (((script16146(int11, int13) == 1) && (CC_FINDBYCATEGORY[1](comp(365, 19), int14, int7) == 0))) {  // settings:set_click
                                     if ((int12 == 0)) {
                                         string6 = `${string3}<col=ffffff> > </col>${string4}`;
                                         int16 = script20478(string6, int15, 2195, 0);

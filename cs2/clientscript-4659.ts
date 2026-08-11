@@ -4,9 +4,9 @@ function script4659(int0: number): void {
     script4542(int1, 1441856, 1441861);
     IF_SETTEXT(inttostring(varplayer_1562, 10), int0);
     if ((varplayer_1562 <= 1000)) {
-        IF_SETMODELANIM(9777 as seq, comp(22, 70));
+        IF_SETMODELANIM(9777 as seq, comp(22, 70));  // fremsaga_signature_healthoverlay:ozanhead
     } else {
-        IF_SETMODELANIM(9804 as seq, comp(22, 70));
+        IF_SETMODELANIM(9804 as seq, comp(22, 70));  // fremsaga_signature_healthoverlay:ozanhead
     };
     return;
 }

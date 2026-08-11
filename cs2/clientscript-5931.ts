@@ -1,7 +1,7 @@
 //
 function script5931(): void {
     if ((varclient_2602 == 0)) {
-        IF_SETONTIMER(callback(), comp(916, 315));
+        IF_SETONTIMER(callback(), comp(916, 315));  // pop_ship:loading_frame
         script6184();
     };
     return;

@@ -1,10 +1,10 @@
 //
 function script11520(): void {
-    CC_DELETEALL(comp(1627, 34));
+    CC_DELETEALL(comp(1627, 34));  // mtxmgt_colour_overlay:prismatic_wheel_active
     varclient_4887 = -1;
     var int0 = 0;
     while ((int0 < 32)) {
-        CC_CREATE(comp(1627, 34), 3, int0);
+        CC_CREATE(comp(1627, 34), 3, int0);  // mtxmgt_colour_overlay:prismatic_wheel_active
         CC_SETPOSITION(0, 0, 0, 0);
         CC_SETSIZE(0, 0, 1, 1);
         CC_SETOP(1, "Select");

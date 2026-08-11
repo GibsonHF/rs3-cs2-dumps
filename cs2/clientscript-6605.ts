@@ -9,7 +9,7 @@ function script6605(int0: number): void {
     var int6 = 100;
     var int7 = 0;
     var int8 = 0;
-    if ((IF_FIND(comp(1324, 13)) == 1)) {
+    if ((IF_FIND(comp(1324, 13)) == 1)) {  // peng_pow_bfish_setup:board_dummy
         int3 = CC_GETX();
         int4 = CC_GETY();
         int1 = CC_GETX();
@@ -27,7 +27,7 @@ function script6605(int0: number): void {
             int1 = (21 + int1);
         };
     };
-    if ((IF_FIND(comp(1324, 16)) == 1)) {
+    if ((IF_FIND(comp(1324, 16)) == 1)) {  // peng_pow_bfish_setup:gamepiece_corral
         int3 = CC_GETX();
         int4 = CC_GETY();
         int1 = CC_GETX();

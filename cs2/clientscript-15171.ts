@@ -1,7 +1,7 @@
 //
 function script15171(int0: number): void {
-    var int1 = comp(653, 107);
-    var int2 = comp(653, 108);
+    var int1 = comp(653, 107);  // event_crafting:give_all_button
+    var int2 = comp(653, 108);  // event_crafting:skip_all_button
     CC_DELETEALL(int1);
     IF_CLEAROPS(int1);
     CC_DELETEALL(int2);

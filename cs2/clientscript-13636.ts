@@ -5,16 +5,16 @@ function script13636(int0: number, int1: number, int2: number, int3: number, int
     IF_SETPOSITION(0, struct_getparam(int3, 7265), 0, 0, int4);
     if ((int1 != int2)) {
         script7791(86638606, int4);
-        IF_SETPARAM_INT(6313, 4, comp(1322, 14));
-        IF_SETPARAM_INT(6312, 15, comp(1322, 14));
+        IF_SETPARAM_INT(6313, 4, comp(1322, 14));  // minimenu:menu_scroll_bar_layer ?
+        IF_SETPARAM_INT(6312, 15, comp(1322, 14));  // minimenu:menu_scroll_bar_layer ?
         if ((script13749() == 1)) {
             script14182(int4);
             stack(callback(script3711, int4, -2147483645));
             stack(script83());
             IF_SETONRELEASE();
         };
-        IF_SETHIDE(false, comp(1322, 16));
-        IF_SETHIDE(false, comp(1322, 15));
+        IF_SETHIDE(false, comp(1322, 16));  // minimenu:menu_scroll_down_layer ?
+        IF_SETHIDE(false, comp(1322, 15));  // minimenu:menu_scroll_up_layer ?
     };
     IF_SETSIZE(int0, int1, 0, 0, int5);
     script4512(int5, struct_getparam(int3, 7266), struct_getparam(int3, 7265), 0, 0, struct_getparam(int3, 7268));

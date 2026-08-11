@@ -24,7 +24,7 @@ function script19114(): void {
             break;
         }
     };
-    IF_SETGRAPHIC(int0, comp(1147, 150));
-    IF_SETGRAPHIC(int1, comp(1147, 151));
+    IF_SETGRAPHIC(int0, comp(1147, 150));  // trh199_overlay:claim_rewards_graphic
+    IF_SETGRAPHIC(int1, comp(1147, 151));  // trh199_overlay:claim_rewards_disabled_graphic
     return;
 }

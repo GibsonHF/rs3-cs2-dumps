@@ -1,8 +1,8 @@
 //
 function script17795(int0: number): void {
     var int1 = 0;
-    var int2 = comp(1224, 17);
-    var int3 = comp(1224, 18);
+    var int2 = comp(1224, 17);  // necro_ritual_recipe_selection:requirements_scroll_layer
+    var int3 = comp(1224, 18);  // necro_ritual_recipe_selection:requirements_scrollbar_layer
     CC_DELETEALL(int2);
     int1 = (int1 + script17797(int0, int1, int2));
     int1 = (int1 + script17798(int0, int1, int2));

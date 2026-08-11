@@ -5,7 +5,7 @@ function script195(int0: number, int1: number, int2: number): void {
     if ((script6431() == 1)) {
         int3 = 27;
         int4 = 32 as fontmetrics;
-        IF_SETHIDE(true, comp(1427, 16));
+        IF_SETHIDE(true, comp(1427, 16));  // friendschat_child:background
     };
     IF_SETONCLANTRANSMIT(callback(script203, int2), int0);
     IF_SETONFRIENDTRANSMIT(callback(script203, int2), int0);

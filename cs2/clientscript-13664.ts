@@ -15,8 +15,8 @@ function script13664(): void {
     var int4 = [];
     var int5 = DB_GETFIELDCOUNT(int0, 90416);
     var int6 = dbrow_getfield(int0, 90272, 0);
-    var int7 = IF_GETWIDTH(comp(1902, 10));
-    var int8 = IF_GETWIDTH(comp(1902, 11));
+    var int7 = IF_GETWIDTH(comp(1902, 10));  // invent_machine_management:input_secondary_1_bar
+    var int8 = IF_GETWIDTH(comp(1902, 11));  // invent_machine_management:input_secondary_2_bar
     stack(int0);
     script21123();
     var int9 = [];
@@ -41,16 +41,16 @@ function script13664(): void {
     };
     if ((int5 > 0)) {
         [int1, int2] = dbrow_getfield(int0, 90416, 0);
-        int3 = ((IF_GETX(comp(1902, 10)) + SCALE(int7, (int2 * int4), (varplayer_7270 * int2))) - (IF_GETWIDTH(comp(1902, 16)) / 2));
-        if ((IF_FIND(comp(1902, 16)) == 1)) {
+        int3 = ((IF_GETX(comp(1902, 10) /*invent_machine_management:input_secondary_1_bar*/) + SCALE(int7, (int2 * int4), (varplayer_7270 * int2))) - (IF_GETWIDTH(comp(1902, 16) /*invent_machine_management:input_secondary_1_required*/) / 2));
+        if ((IF_FIND(comp(1902, 16)) == 1)) {  // invent_machine_management:input_secondary_1_required
             cc_setparam(6408, script12422(CC_GETX(), int7, 65536));
             cc_setparam(6409, script12422(int3, int7, 65536));
         };
     };
     if ((int5 > 1)) {
         [int1, int2] = dbrow_getfield(int0, 90416, 1);
-        int3 = ((IF_GETX(comp(1902, 11)) + SCALE(int8, (int2 * int4), (varplayer_7270 * int2))) - (IF_GETWIDTH(comp(1902, 18)) / 2));
-        if ((IF_FIND(comp(1902, 18)) == 1)) {
+        int3 = ((IF_GETX(comp(1902, 11) /*invent_machine_management:input_secondary_2_bar*/) + SCALE(int8, (int2 * int4), (varplayer_7270 * int2))) - (IF_GETWIDTH(comp(1902, 18) /*invent_machine_management:input_secondary_2_required*/) / 2));
+        if ((IF_FIND(comp(1902, 18)) == 1)) {  // invent_machine_management:input_secondary_2_required
             cc_setparam(6408, script12422(CC_GETX(), int8, 65536));
             cc_setparam(6409, script12422(int3, int8, 65536));
         };
@@ -72,8 +72,8 @@ function script13664(): void {
             break;
         }
     };
-    int3 = ((IF_GETX(comp(1902, 12)) + SCALE(int12, int11, int8)) - (IF_GETWIDTH(comp(1902, 13)) / 2));
-    if ((IF_FIND(comp(1902, 13)) == 1)) {
+    int3 = ((IF_GETX(comp(1902, 12) /*invent_machine_management:input_generator_charge_bar*/) + SCALE(int12, int11, int8)) - (IF_GETWIDTH(comp(1902, 13) /*invent_machine_management:input_generator_charge_required*/) / 2));
+    if ((IF_FIND(comp(1902, 13)) == 1)) {  // invent_machine_management:input_generator_charge_required
         cc_setparam(6408, script12422(CC_GETX(), int8, 65536));
         cc_setparam(6409, script12422(int3, int8, 65536));
     };

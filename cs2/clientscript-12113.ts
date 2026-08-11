@@ -15,6 +15,6 @@ function script12113(): void {
     var int8 = struct_getparam(int0, 8013);
     var int9 = struct_getparam(int0, 8014);
     var int10 = struct_getparam(int0, 8015);
-    IF_SETMODELLIGHTING(int1, int2, int3, int4, int5, int6, int7, int8, int9, int10, comp(1023, 95));
+    IF_SETMODELLIGHTING(int1, int2, int3, int4, int5, int6, int7, int8, int9, int10, comp(1023, 95));  // trh187_overlay:bonus_chest_model
     return;
 }

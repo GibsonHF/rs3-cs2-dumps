@@ -1,7 +1,7 @@
 //
 function script19735(): void {
     SOUND_GROUP_STOP(0);
-    CC_DELETEALL(comp(1278, 30));
+    CC_DELETEALL(comp(1278, 30));  // trh204_overlay:smoke_layer
     var int0 = -1;
     var int1 = 8;
     var int2 = -1;

@@ -3,7 +3,7 @@ function script20708(int0: number, int1: number, int2: number, int3: number): vo
     if ((script6431() == 1)) {
         ACTIVECLANCHANNEL_FIND_AFFINED(0);
     };
-    IF_SETHIDE(true, comp(1499, 28));
+    IF_SETHIDE(true, comp(1499, 28));  // construction_house_furniture_portal_nexus_configure:available_delete
     if ((varclient_8440 == comp(-1, 65535))) {
         return;
     };

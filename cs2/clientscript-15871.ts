@@ -1,7 +1,7 @@
 //
 function script15871(): void {
     var int0 = struct_getparam(37398, 3503);
-    var int1 = script6430(IF_GETHIDE(comp(276, 27)));
+    var int1 = script6430(IF_GETHIDE(comp(276, 27)));  // toplevel_v2_mobile:chat_panel
     if ((int0 != comp(-1, 65535))) {
         if (((varbitclient_44897 == 1) || (int1 == 1))) {
             IF_SETHIDE(true, int0);

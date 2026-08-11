@@ -1,6 +1,6 @@
 //
 function script9334(int0: number): void {
-    var int1 = comp(698, 2);
+    var int1 = comp(698, 2);  // worldmap_v2_upsell:upsell_window_content
     var int2 = 4;
     var int3 = 0;
     if ((CC_FIND(int1, int3) == 1)) {
@@ -63,14 +63,14 @@ function script9334(int0: number): void {
     };
     if ((struct_getparam(int0, 6292) == 1)) {
         if ((struct_getparam(int0, 6293) == 1)) {
-            IF_SETHIDE(true, comp(698, 4));
-            IF_SETHIDE(false, comp(698, 3));
+            IF_SETHIDE(true, comp(698, 4));  // worldmap_v2_upsell:subsribe_button_layer
+            IF_SETHIDE(false, comp(698, 3));  // worldmap_v2_upsell:teleport_button_layer
         } else if ((PLAYERMEMBER() == true)) {
-            IF_SETHIDE(true, comp(698, 4));
+            IF_SETHIDE(true, comp(698, 4));  // worldmap_v2_upsell:subsribe_button_layer
             if ((MAP_MEMBERS() == 1)) {
-                IF_SETHIDE(false, comp(698, 3));
+                IF_SETHIDE(false, comp(698, 3));  // worldmap_v2_upsell:teleport_button_layer
             } else {
-                IF_SETHIDE(true, comp(698, 3));
+                IF_SETHIDE(true, comp(698, 3));  // worldmap_v2_upsell:teleport_button_layer
             };
         };
     };

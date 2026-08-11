@@ -16,7 +16,7 @@ function script7299(): void {
             int2 = 15582 as graphic;
             int4 = 15583;
         };
-        if ((CC_FIND(comp(1276, 5), int0) == 1)) {
+        if ((CC_FIND(comp(1276, 5), int0) == 1)) {  // pop_crew:crew_list_background
             if ((varbitplayer_17147 == int0)) {
                 CC_SETGRAPHIC(int3);
                 CC_SETONMOUSEOVER(callback());

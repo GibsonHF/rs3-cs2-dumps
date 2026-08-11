@@ -62,7 +62,7 @@ function script800(int0: number): void {
         varclient_2599 = varclient_2600;
         varclient_2600 = int0;
     };
-    IF_SETTEXT(enum_getvalue(0, 36, 995 as cs2enum, varclient_2582), comp(193, 133));
+    IF_SETTEXT(enum_getvalue(0, 36, 995 as cs2enum, varclient_2582), comp(193, 133));  // ariane1_organ_keyboard:note_text_1
     IF_SETTEXT(enum_getvalue(0, 36, 995, varclient_2583), 12648582);
     IF_SETTEXT(enum_getvalue(0, 36, 995, varclient_2584), 12648583);
     IF_SETTEXT(enum_getvalue(0, 36, 995, varclient_2585), 12648584);
@@ -108,8 +108,8 @@ function script800(int0: number): void {
         if (((((int1 == 1) && (int2 == 1)) && (int3 == 7)) && (int4 == 10))) {
             SOUND_VORBIS_VOLUME(21792 as vorbis, 1, 0, 150);
             printmessage("A key pops out of the organ mechanism.");
-            IF_SETHIDE(false, comp(193, 24));
-            IF_SETHIDE(true, comp(193, 130));
+            IF_SETHIDE(false, comp(193, 24));  // ariane1_organ_keyboard:basement_key
+            IF_SETHIDE(true, comp(193, 130));  // ariane1_organ_keyboard:note_text_mouseover
         };
     };
     return;

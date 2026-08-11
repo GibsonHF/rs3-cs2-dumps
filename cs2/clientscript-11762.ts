@@ -1,10 +1,10 @@
 //
 function script11762(): void {
-    CC_DELETEALL(comp(1253, 556));
+    CC_DELETEALL(comp(1253, 556));  // wheel_of_fortune:fake_op
     var int0 = -1;
     int0 = (int0 + 1);
     while ((int0 < 6)) {
-        CC_CREATE(comp(1253, 556), 5, int0);
+        CC_CREATE(comp(1253, 556), 5, int0);  // wheel_of_fortune:fake_op
     };
     script17021();
     var int1 = struct_getparam(45877, 5409);

@@ -2,19 +2,19 @@
 function script16405(int0: number): void {
     switch (int0) {
         case 62586903: {
-            IF_SETONTIMER(callback(script16407, -2147483645, 10, 0, 0), comp(955, 24));
+            IF_SETONTIMER(callback(script16407, -2147483645, 10, 0, 0), comp(955, 24));  // uitutorial:arrow_below_moving
             break;
         }
         case 62586901: {
-            IF_SETONTIMER(callback(script16407, -2147483645, 20, 20, 0), comp(955, 22));
+            IF_SETONTIMER(callback(script16407, -2147483645, 20, 20, 0), comp(955, 22));  // uitutorial:arrow_above_moving
             break;
         }
         case 62586905: {
-            IF_SETONTIMER(callback(script16407, -2147483645, 10, 0, 1), comp(955, 26));
+            IF_SETONTIMER(callback(script16407, -2147483645, 10, 0, 1), comp(955, 26));  // uitutorial:arrow_right_moving
             break;
         }
         case 62586907: {
-            IF_SETONTIMER(callback(script16407, -2147483645, 20, 20, 1), comp(955, 28));
+            IF_SETONTIMER(callback(script16407, -2147483645, 20, 20, 1), comp(955, 28));  // uitutorial:arrow_left_moving
             break;
         }
     };

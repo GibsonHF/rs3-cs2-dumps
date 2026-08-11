@@ -45,7 +45,7 @@ function script8504(int0: number, int1: number): void {
     };
     if ((int3 != comp(-1, 65535))) {
         if ((int7 == 1)) {
-            if ((IF_GETHIDE(comp(276, 27)) == true)) {
+            if ((IF_GETHIDE(comp(276, 27)) == true)) {  // toplevel_v2_mobile:chat_panel
                 IF_SETHIDE(true, int3);
                 if ((varbitplayer_29940 == 0)) {
                     IF_SETSCROLLPOS(0, 0, int2);

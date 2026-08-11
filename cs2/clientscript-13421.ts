@@ -1,7 +1,7 @@
 //
 function script13421(int0: number, int1: number, int2: number, int3: number, int4: number): void {
-    IF_SETHIDE(true, comp(1872, 125));
-    IF_SETHIDE(true, comp(1872, 37));
+    IF_SETHIDE(true, comp(1872, 125));  // menaphos_collections:guide_layer
+    IF_SETHIDE(true, comp(1872, 37));  // menaphos_collections:home_layer
     var int5 = enum_getvalue(0, 26, 12604 as cs2enum, int1);
     var int6 = enum_getvalue(0, 26, int5, int3);
     var int7 = (int4 * int2);
@@ -14,7 +14,7 @@ function script13421(int0: number, int1: number, int2: number, int3: number, int
     var int14 = 0;
     var int15 = 55;
     var int16 = 60;
-    if ((IF_GETHEIGHT(comp(1872, 0)) <= 550)) {
+    if ((IF_GETHEIGHT(comp(1872, 0)) <= 550)) {  // menaphos_collections:mainmodal_layer
         int15 = 50;
         int16 = 54;
     };
@@ -195,9 +195,9 @@ function script13421(int0: number, int1: number, int2: number, int3: number, int
             };
             int8 = enum_getvalue(0, 73, int6, int7);
         };
-        IF_SETHIDE(false, comp(1872, 124));
+        IF_SETHIDE(false, comp(1872, 124));  // menaphos_collections:dynamic_layer
         return;
     };
-    IF_SETHIDE(false, comp(1872, 124));
+    IF_SETHIDE(false, comp(1872, 124));  // menaphos_collections:dynamic_layer
     return;
 }

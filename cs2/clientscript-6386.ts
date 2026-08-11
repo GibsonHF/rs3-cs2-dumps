@@ -4,7 +4,7 @@ function script6386(): void {
     var int1 = 0;
     var int2 = 0;
     var int3 = 0;
-    var int4 = IF_GETWIDTH(comp(1412, 5));
+    var int4 = IF_GETWIDTH(comp(1412, 5));  // rand_dnd_resource_ring:build_layer
     var int5 = ((int4 - 20) / 2);
     var int6 = 10;
     var string0 = "";
@@ -33,8 +33,8 @@ function script6386(): void {
         };
     };
     int6 = (int6 + (int7 + 3));
-    if ((IF_GETHEIGHT(comp(1412, 3)) < int6)) {
-        IF_SETSCROLLSIZE(0, int6, comp(1412, 3));
+    if ((IF_GETHEIGHT(comp(1412, 3)) < int6)) {  // rand_dnd_resource_ring:content_layer
+        IF_SETSCROLLSIZE(0, int6, comp(1412, 3));  // rand_dnd_resource_ring:content_layer
         script7791(92536838, 92536835);
     };
     return;

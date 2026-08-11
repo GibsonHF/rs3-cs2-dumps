@@ -13,7 +13,7 @@ function script9452(int0: number): void {
     var int11 = 0;
     switch (int0) {
         case 2: {
-            int1 = comp(747, 23);
+            int1 = comp(747, 23);  // 6awe2_faction_strategy_vote:divination_layer
             int2 = 48955473;
             int3 = 48955485;
             int4 = 48955497;
@@ -22,11 +22,11 @@ function script9452(int0: number): void {
             int8 = 48955404;
             int10 = varbitplayer_21083;
             int11 = varclient_3868;
-            int9 = comp(747, 74);
+            int9 = comp(747, 74);  // 6awe2_faction_strategy_vote:divination_updating_layer
             break;
         }
         case 0: {
-            int1 = comp(747, 21);
+            int1 = comp(747, 21);  // 6awe2_faction_strategy_vote:distance_layer
             int2 = 48955515;
             int3 = 48955527;
             int4 = 48955539;
@@ -35,11 +35,11 @@ function script9452(int0: number): void {
             int8 = 48955406;
             int10 = varbitplayer_21084;
             int11 = varclient_3869;
-            int9 = comp(747, 116);
+            int9 = comp(747, 116);  // 6awe2_faction_strategy_vote:distance_updating_layer
             break;
         }
         case 1: {
-            int1 = comp(747, 15);
+            int1 = comp(747, 15);  // 6awe2_faction_strategy_vote:defence_layer
             int2 = 48955559;
             int3 = 48955571;
             int4 = 48955583;
@@ -48,11 +48,11 @@ function script9452(int0: number): void {
             int8 = 48955405;
             int10 = varbitplayer_21085;
             int11 = varclient_3870;
-            int9 = comp(747, 160);
+            int9 = comp(747, 160);  // 6awe2_faction_strategy_vote:defence_updating_layer
             break;
         }
         case 3: {
-            int1 = comp(747, 25);
+            int1 = comp(747, 25);  // 6awe2_faction_strategy_vote:risk_layer
             int2 = 48955431;
             int3 = 48955443;
             int4 = 48955455;
@@ -61,7 +61,7 @@ function script9452(int0: number): void {
             int8 = 48955403;
             int10 = varbitplayer_21086;
             int11 = varclient_3871;
-            int9 = comp(747, 32);
+            int9 = comp(747, 32);  // 6awe2_faction_strategy_vote:risk_updating_layer
             break;
         }
     };

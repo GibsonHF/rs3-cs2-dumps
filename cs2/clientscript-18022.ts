@@ -1,6 +1,6 @@
 //
 function script18022(int0: number, int1: number, int2: number, int3: number, int4: number): void {
-    var int5 = comp(1227, 40);
+    var int5 = comp(1227, 40);  // bp3_track_tab:reward_track_tile_layer
     var int6 = 0;
     var int7 = 0;
     if ((int4 > 0)) {

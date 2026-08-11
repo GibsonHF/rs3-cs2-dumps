@@ -1,25 +1,25 @@
 //
 function script12754(int0: number, string0: string): void {
-    var int1 = comp(1787, 38);
-    var int2 = comp(1787, 37);
+    var int1 = comp(1787, 38);  // cruc_dm_overlay:history1_text
+    var int2 = comp(1787, 37);  // cruc_dm_overlay:history1_icon
     varclient_5871 = (varclient_5871 + 1);
     if ((varclient_5871 == 3)) {
         varclient_5871 = 0;
     };
     switch (varclient_5871) {
         case 0: {
-            int1 = comp(1787, 38);
-            int2 = comp(1787, 37);
+            int1 = comp(1787, 38);  // cruc_dm_overlay:history1_text
+            int2 = comp(1787, 37);  // cruc_dm_overlay:history1_icon
             break;
         }
         case 1: {
-            int1 = comp(1787, 40);
-            int2 = comp(1787, 39);
+            int1 = comp(1787, 40);  // cruc_dm_overlay:history2_text
+            int2 = comp(1787, 39);  // cruc_dm_overlay:history2_icon
             break;
         }
         case 2: {
-            int1 = comp(1787, 42);
-            int2 = comp(1787, 41);
+            int1 = comp(1787, 42);  // cruc_dm_overlay:history3_text
+            int2 = comp(1787, 41);  // cruc_dm_overlay:history3_icon
             break;
         }
     };

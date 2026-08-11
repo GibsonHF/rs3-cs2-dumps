@@ -31,7 +31,7 @@ function script7568(int0: number): void {
             break;
         }
     };
-    if ((CC_FIND(comp(1399, 2), int0) == 1)) {
+    if ((CC_FIND(comp(1399, 2), int0) == 1)) {  // tsd_boulder_overlay:gold_frame_content_layer
         CC_SETGRAPHIC(int1);
     };
     script16609();

@@ -22,12 +22,12 @@ function script1172(): void {
         varclient_3698 = 1;
     };
     if ((script13749() == 1)) {
-        IF_SETONRESIZE(callback(script15677), comp(744, 26));
+        IF_SETONRESIZE(callback(script15677), comp(744, 26));  // loginscreen:login_screen
         script15678();
-        IF_SETHIDE(false, comp(744, 1));
-        IF_SETONCLICK(callback(), comp(744, 140));
+        IF_SETHIDE(false, comp(744, 1));  // loginscreen:close_button
+        IF_SETONCLICK(callback(), comp(744, 140));  // loginscreen:login_social_build
     };
-    IF_SETONRESIZE(callback(script3229), comp(744, 0));
+    IF_SETONRESIZE(callback(script3229), comp(744, 0));  // loginscreen:base
     script3230();
     varclient_6886 = 0;
     if ((varclient_1099 == -1)) {
@@ -63,42 +63,42 @@ function script1172(): void {
     script6720();
     script15694(48759032);
     if ((script6431() == 1)) {
-        IF_SETHIDE(true, comp(744, 30));
-        IF_SETHIDE(false, comp(744, 60));
-        IF_SETHIDE(false, comp(744, 40));
-        IF_SETHIDE(true, comp(744, 54));
-        IF_SETHIDE(false, comp(744, 209));
-        IF_SETHIDE(true, comp(744, 225));
-        IF_SETHIDE(false, comp(744, 31));
-        IF_SETHIDE(true, comp(744, 35));
-        IF_SETHIDE(false, comp(744, 358));
+        IF_SETHIDE(true, comp(744, 30));  // loginscreen:runescape_logo
+        IF_SETHIDE(false, comp(744, 60));  // loginscreen:mobile_rs_logo
+        IF_SETHIDE(false, comp(744, 40));  // loginscreen:mobile_background
+        IF_SETHIDE(true, comp(744, 54));  // loginscreen:desktop_background
+        IF_SETHIDE(false, comp(744, 209));  // loginscreen:com_209
+        IF_SETHIDE(true, comp(744, 225));  // loginscreen:settings_content
+        IF_SETHIDE(false, comp(744, 31));  // loginscreen:mobile_settings_button_layer
+        IF_SETHIDE(true, comp(744, 35));  // loginscreen:desktop_settings_button_layer
+        IF_SETHIDE(false, comp(744, 358));  // loginscreen:infobox_layer
     } else {
-        IF_SETSIZE(0, 0, 1, 1, comp(744, 29));
-        IF_SETSIZE(0, 0, 1, 1, comp(744, 39));
-        IF_SETPOSITION(0, 0, 0, 0, comp(744, 39));
-        IF_SETHIDE(true, comp(744, 60));
-        IF_SETHIDE(true, comp(744, 40));
-        IF_SETHIDE(false, comp(744, 54));
-        IF_SETPOSITION(10, 10, 2, 0, comp(744, 191));
-        IF_SETSIZE(364, 392, 0, 0, comp(744, 52));
-        IF_SETPOSITION(0, 0, 1, 1, comp(744, 52));
-        IF_SETSIZE(0, 0, 1, 1, comp(744, 173));
-        IF_SETPOSITION(0, 0, 1, 1, comp(744, 173));
-        IF_SETPOSITION(0, 32, 1, 0, comp(744, 180));
-        IF_SETSIZE(40, 130, 1, 1, comp(744, 180));
-        IF_SETPOSITION(0, 20, 1, 2, comp(744, 185));
-        IF_SETPOSITION(0, 0, 0, 0, comp(744, 93));
-        IF_SETSIZE(0, 0, 1, 1, comp(744, 93));
-        IF_SETPOSITION(0, 20, 1, 2, comp(744, 146));
-        IF_SETSIZE(300, 36, 0, 0, comp(744, 146));
-        IF_SETPOSITION(0, 0, 1, 2, comp(744, 186));
-        IF_SETSIZE(0, 70, 1, 0, comp(744, 186));
-        IF_SETHIDE(false, comp(744, 187));
-        IF_SETHIDE(false, comp(744, 225));
-        IF_SETHIDE(true, comp(744, 209));
-        IF_SETHIDE(true, comp(744, 31));
-        IF_SETHIDE(false, comp(744, 35));
-        IF_SETHIDE(true, comp(744, 358));
+        IF_SETSIZE(0, 0, 1, 1, comp(744, 29));  // loginscreen:left_hand_panel
+        IF_SETSIZE(0, 0, 1, 1, comp(744, 39));  // loginscreen:right_hand_panel
+        IF_SETPOSITION(0, 0, 0, 0, comp(744, 39));  // loginscreen:right_hand_panel
+        IF_SETHIDE(true, comp(744, 60));  // loginscreen:mobile_rs_logo
+        IF_SETHIDE(true, comp(744, 40));  // loginscreen:mobile_background
+        IF_SETHIDE(false, comp(744, 54));  // loginscreen:desktop_background
+        IF_SETPOSITION(10, 10, 2, 0, comp(744, 191));  // loginscreen:softkeyboard_close_layer
+        IF_SETSIZE(364, 392, 0, 0, comp(744, 52));  // loginscreen:right_hand_panel_center
+        IF_SETPOSITION(0, 0, 1, 1, comp(744, 52));  // loginscreen:right_hand_panel_center
+        IF_SETSIZE(0, 0, 1, 1, comp(744, 173));  // loginscreen:login_progress_popup_password
+        IF_SETPOSITION(0, 0, 1, 1, comp(744, 173));  // loginscreen:login_progress_popup_password
+        IF_SETPOSITION(0, 32, 1, 0, comp(744, 180));  // loginscreen:login_progress_3rdparty_text
+        IF_SETSIZE(40, 130, 1, 1, comp(744, 180));  // loginscreen:login_progress_3rdparty_text
+        IF_SETPOSITION(0, 20, 1, 2, comp(744, 185));  // loginscreen:other
+        IF_SETPOSITION(0, 0, 0, 0, comp(744, 93));  // loginscreen:username_input_group_graphic
+        IF_SETSIZE(0, 0, 1, 1, comp(744, 93));  // loginscreen:username_input_group_graphic
+        IF_SETPOSITION(0, 20, 1, 2, comp(744, 146));  // loginscreen:auth_input_group
+        IF_SETSIZE(300, 36, 0, 0, comp(744, 146));  // loginscreen:auth_input_group
+        IF_SETPOSITION(0, 0, 1, 2, comp(744, 186));  // loginscreen:steam_permanent_timer
+        IF_SETSIZE(0, 70, 1, 0, comp(744, 186));  // loginscreen:steam_permanent_timer
+        IF_SETHIDE(false, comp(744, 187));  // loginscreen:maindebug
+        IF_SETHIDE(false, comp(744, 225));  // loginscreen:settings_content
+        IF_SETHIDE(true, comp(744, 209));  // loginscreen:com_209
+        IF_SETHIDE(true, comp(744, 31));  // loginscreen:mobile_settings_button_layer
+        IF_SETHIDE(false, comp(744, 35));  // loginscreen:desktop_settings_button_layer
+        IF_SETHIDE(true, comp(744, 358));  // loginscreen:infobox_layer
     };
     varclient_6712 = 1;
     var int0 = 0;

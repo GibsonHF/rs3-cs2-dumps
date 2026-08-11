@@ -66,14 +66,14 @@ function script2724(int0: number): void {
         }
     };
     script2722(int0);
-    IF_SETTEXT(enum_getvalue(0, 36, 7892 as cs2enum, int1), comp(92, 30));
+    IF_SETTEXT(enum_getvalue(0, 36, 7892 as cs2enum, int1), comp(92, 30));  // div_map:moreinfo_title
     if ((STAT_BASE(25 as stat) < int2)) {
         string0 = "<col=B52912>You cannot yet use this colony.</col><br>";
     };
     string0 = strconcat(string0, enum_getvalue(0, 36, 7893, int1));
-    IF_SETTEXT(string0, comp(92, 31));
-    IF_SETHIDE(false, comp(92, 26));
+    IF_SETTEXT(string0, comp(92, 31));  // div_map:moreinfo_desc
+    IF_SETHIDE(false, comp(92, 26));  // div_map:moreinfo_base
     SOUND_VORBIS_VOLUME(36961 as vorbis, 1, 0, 120);
-    IF_SETHIDE(false, comp(92, 24));
+    IF_SETHIDE(false, comp(92, 24));  // div_map:block_layer
     return;
 }

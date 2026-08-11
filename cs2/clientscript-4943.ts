@@ -2,7 +2,7 @@
 function script4943(int0: number): void {
     var int1 = 0;
     var int2 = 0;
-    var int3 = comp(1258, 246);
+    var int3 = comp(1258, 246);  // clan_stronghold_main_decor:right_custom_layer
     if ((int0 == 0)) {
         if ((varbitplayer_6679 == 2)) {
             int1 = (IF_GETX(int3) + 12);

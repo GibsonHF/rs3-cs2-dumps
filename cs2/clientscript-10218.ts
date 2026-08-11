@@ -31,15 +31,15 @@ function script10218(): void {
             break;
         }
     };
-    if (((npc_getparam(unk11077(), 4473) == 1) || (strcmp(inttostring(int3, 10), IF_GETTEXT(comp(1490, 34))) != 0))) {
+    if (((npc_getparam(unk11077(), 4473) == 1) || (strcmp(inttostring(int3, 10), IF_GETTEXT(comp(1490, 34))) != 0))) {  // toplevel_v2_target_info:entity_health_left
         if ((npc_getparam(unk11077(), 4473) == 1)) {
-            IF_SETTEXT("", comp(1490, 34));
+            IF_SETTEXT("", comp(1490, 34));  // toplevel_v2_target_info:entity_health_left
         } else {
-            IF_SETTEXT(TOSTRING_LOCALISED(int3, 1), comp(1490, 34));
+            IF_SETTEXT(TOSTRING_LOCALISED(int3, 1), comp(1490, 34));  // toplevel_v2_target_info:entity_health_left
         };
         int4 = MAX(MIN(SCALE(int3, int2, 100), 100), 0);
         int5 = ((int4 * 16384) / 100);
-        IF_SETSIZE(int5, IF_GETHEIGHT(comp(1490, 33)), 2, 0, comp(1490, 24));
+        IF_SETSIZE(int5, IF_GETHEIGHT(comp(1490, 33) /*toplevel_v2_target_info:probar_fake_layer*/), 2, 0, comp(1490, 24) /*toplevel_v2_target_info:probar_actual_health_layer*/);
     };
     script17671(npc_getparam(unk11077(), 8900), varclient_7158);
     if ((varclient_4168 != varnpc_87)) {

@@ -9,7 +9,7 @@ function script5662(int0: number, int1: number): void {
     if ((int0 == 0)) {
         if ((script12082() == 1)) {
             IF_SETONSTATTRANSMIT(callback(script5661, 1), 79495235);
-            IF_SETONVARCTRANSMIT(callback(script5661, 1, 2695, 1), comp(1213, 67));
+            IF_SETONVARCTRANSMIT(callback(script5661, 1, 2695, 1), comp(1213, 67));  // xp_popup:xp_popup_listener_layer
         } else {
             script5659();
             return;
@@ -46,7 +46,7 @@ function script5662(int0: number, int1: number): void {
     var int8 = 0;
     var int9 = 0;
     var string1 = "0";
-    if ((IF_GETHIDE(comp(1477, 636)) == false)) {
+    if ((IF_GETHIDE(comp(1477, 636)) == false)) {  // toplevel_v2:xp_popup_text_window
         if ((varplayer_95 > 0)) {
             if (((int7 == 0) || (int2 > 1))) {
                 int9 = MODULO(varplayer_95, 10);
@@ -65,7 +65,7 @@ function script5662(int0: number, int1: number): void {
                 string0 = `( bonus)`;
             };
         };
-        CC_CREATE(comp(1477, 637), 4, IF_GETNEXTSUBID(comp(1477, 637)));
+        CC_CREATE(comp(1477, 637), 4, IF_GETNEXTSUBID(comp(1477, 637)));  // toplevel_v2:xp_popup_text_window_content
         if ((int7 != 0)) {
             if ((int2 == 1)) {
                 if ((int7 == 1)) {
@@ -87,7 +87,7 @@ function script5662(int0: number, int1: number): void {
         CC_SETTEXTALIGN(1, 1, 0);
         CC_SETPOSITION(0, 0, 1, 2);
     } else {
-        CC_DELETEALL(comp(1477, 637));
+        CC_DELETEALL(comp(1477, 637));  // toplevel_v2:xp_popup_text_window_content
     };
     if ((int1 == 1)) {
         script5653();

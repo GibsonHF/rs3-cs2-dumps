@@ -1,17 +1,17 @@
 //
 function script17768(): void {
-    var int0 = comp(1223, 3);
-    var int1 = comp(1223, 8);
-    var int2 = comp(1223, 9);
-    var int3 = comp(1223, 14);
-    var int4 = comp(1223, 6);
-    var int5 = comp(1223, 12);
-    var int6 = comp(1223, 21);
-    var int7 = comp(1223, 25);
-    var int8 = comp(1223, 7);
-    var int9 = comp(1223, 13);
-    var int10 = comp(1223, 22);
-    var int11 = comp(1223, 26);
+    var int0 = comp(1223, 3);  // necro_ritual_information:durability_layer
+    var int1 = comp(1223, 8);  // necro_ritual_information:light_source_layer
+    var int2 = comp(1223, 9);  // necro_ritual_information:glyph_layer
+    var int3 = comp(1223, 14);  // necro_ritual_information:output_layer
+    var int4 = comp(1223, 6);  // necro_ritual_information:durability_title_layer
+    var int5 = comp(1223, 12);  // necro_ritual_information:light_source_title_layer
+    var int6 = comp(1223, 21);  // necro_ritual_information:glyph_title_layer
+    var int7 = comp(1223, 25);  // necro_ritual_information:output_title_layer
+    var int8 = comp(1223, 7);  // necro_ritual_information:durability_holding_layer
+    var int9 = comp(1223, 13);  // necro_ritual_information:light_source_holding_layer
+    var int10 = comp(1223, 22);  // necro_ritual_information:glyph_holding_layer
+    var int11 = comp(1223, 26);  // necro_ritual_information:output_holding_layer
     script2995(int4, IF_GETNEXTSUBID(int4), 0, 0, 0, 0, PARAWIDTH("Durability: ", IF_GETWIDTH(int4), 207 as fontmetrics), 16, 0, 0, 2100, "Durability: ");
     script2731(int4, CC_GETID(), 2);
     IF_SETSIZE(CC_GETWIDTH(), 16, 0, 0, int4);

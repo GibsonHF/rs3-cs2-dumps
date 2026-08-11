@@ -1,6 +1,6 @@
 //
 function script17311(): void {
-    var int0 = comp(1152, 32);
+    var int0 = comp(1152, 32);  // trh192_overlay:character_model
     if ((varbitplayer_52882 == 0)) {
         IF_SETNPCMODEL(script17310(0), int0);
         IF_SETMODELANIM(35288 as seq, int0);

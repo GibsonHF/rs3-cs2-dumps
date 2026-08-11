@@ -85,31 +85,31 @@ function script12749(): void {
         };
         int7 = (int7 + 1);
     };
-    IF_SETHIDE(false, comp(1786, 57));
-    IF_SETHIDE(false, comp(1786, 64));
-    IF_SETHIDE(false, comp(1786, 71));
-    IF_SETHIDE(false, comp(1786, 78));
-    IF_SETHIDE(false, comp(1786, 85));
+    IF_SETHIDE(false, comp(1786, 57));  // trh104_overlay:node00_layer
+    IF_SETHIDE(false, comp(1786, 64));  // trh104_overlay:node01_layer
+    IF_SETHIDE(false, comp(1786, 71));  // trh104_overlay:node02_layer
+    IF_SETHIDE(false, comp(1786, 78));  // trh104_overlay:node03_layer
+    IF_SETHIDE(false, comp(1786, 85));  // trh104_overlay:node04_layer
     var int12 = enum_getvalue(0, 0, 11607 as cs2enum, varbitplayer_33713);
     if ((int12 == 5)) {
-        IF_SETHIDE(true, comp(1786, 92));
-        IF_SETHIDE(true, comp(1786, 99));
-        IF_SETHIDE(true, comp(1786, 54));
-        IF_SETHIDE(true, comp(1786, 55));
+        IF_SETHIDE(true, comp(1786, 92));  // trh104_overlay:node05_layer
+        IF_SETHIDE(true, comp(1786, 99));  // trh104_overlay:node06_layer
+        IF_SETHIDE(true, comp(1786, 54));  // trh104_overlay:path6
+        IF_SETHIDE(true, comp(1786, 55));  // trh104_overlay:path7
     } else if ((int12 == 6)) {
-        IF_SETHIDE(false, comp(1786, 92));
-        IF_SETHIDE(true, comp(1786, 99));
+        IF_SETHIDE(false, comp(1786, 92));  // trh104_overlay:node05_layer
+        IF_SETHIDE(true, comp(1786, 99));  // trh104_overlay:node06_layer
         if ((varbitplayer_33713 == 7)) {
-            IF_SETHIDE(true, comp(1786, 54));
+            IF_SETHIDE(true, comp(1786, 54));  // trh104_overlay:path6
         } else {
-            IF_SETHIDE(false, comp(1786, 54));
+            IF_SETHIDE(false, comp(1786, 54));  // trh104_overlay:path6
         };
-        IF_SETHIDE(true, comp(1786, 55));
+        IF_SETHIDE(true, comp(1786, 55));  // trh104_overlay:path7
     } else if ((int12 == 7)) {
-        IF_SETHIDE(false, comp(1786, 92));
-        IF_SETHIDE(false, comp(1786, 99));
-        IF_SETHIDE(false, comp(1786, 54));
-        IF_SETHIDE(false, comp(1786, 55));
+        IF_SETHIDE(false, comp(1786, 92));  // trh104_overlay:node05_layer
+        IF_SETHIDE(false, comp(1786, 99));  // trh104_overlay:node06_layer
+        IF_SETHIDE(false, comp(1786, 54));  // trh104_overlay:path6
+        IF_SETHIDE(false, comp(1786, 55));  // trh104_overlay:path7
     };
     return;
 }

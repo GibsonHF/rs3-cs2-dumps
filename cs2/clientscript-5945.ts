@@ -1,7 +1,7 @@
 //
 function script5945(int0: number, int1: number): void {
-    var int2 = comp(1252, 0);
-    var int3 = comp(1252, 1);
+    var int2 = comp(1252, 0);  // wheel_of_fortune_button:container
+    var int3 = comp(1252, 1);  // wheel_of_fortune_button:content_layer
     var int4 = MAX(1, IF_GETWIDTH(int2));
     var int5 = MAX(1, IF_GETHEIGHT(int2));
     if (((int4 > 0) && (int5 > 0))) {

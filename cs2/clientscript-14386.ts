@@ -15,7 +15,7 @@ function script14386(int0: number, int1: number, int2: number, int3: number): vo
     if ((script8040(int6, int8) == 1)) {
         return;
     };
-    if ((CC_FIND(comp(517, 289), int4) == 1)) {
+    if ((CC_FIND(comp(517, 289), int4) == 1)) {  // bank:preset_worn_item_layer
         script9222(int8, int3);
     };
     return;

@@ -2,11 +2,11 @@
 function script4319(int0: number, int1: number): void {
     var int2 = 0;
     var int3 = 0;
-    var int4 = comp(1096, 29);
-    var int5 = comp(1096, 19);
-    var int6 = comp(1096, 35);
-    var int7 = comp(1096, 36);
-    var int8 = comp(1096, 31);
+    var int4 = comp(1096, 29);  // clansettings:clanmate_settings_layer
+    var int5 = comp(1096, 19);  // clansettings:clan_list_layer
+    var int6 = comp(1096, 35);  // clansettings:clanmate_settings_updown_arrow_left
+    var int7 = comp(1096, 36);  // clansettings:clanmate_settings_updown_arrow_right
+    var int8 = comp(1096, 31);  // clansettings:clanmate_settings_top_bar_layer
     var int9 = 71827477;
     if ((int0 > 0)) {
         int2 = (int0 - 1);

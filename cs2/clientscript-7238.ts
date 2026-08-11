@@ -26,14 +26,14 @@ function script7238(int0: number, int1: number, int2: number, int3: number, int4
     var int9 = 300;
     var int10 = 16;
     var int11 = STRINGWIDTH(string0, int6);
-    if ((int3 == comp(1486, 14))) {
+    if ((int3 == comp(1486, 14))) {  // text_tooltip:tooltip_dynamic_text
         int9 = 350;
         int11 = MIN(int11, int9);
         int10 = 0;
         if ((int8 < int11)) {
             int8 = MAX(int8, MIN(PARAWIDTH(string0, int9, int6), int9));
         };
-    } else if ((int3 == comp(1322, 7))) {
+    } else if ((int3 == comp(1322, 7))) {  // minimenu:mobile_tooltip_text ?
         int9 = 270;
         int11 = MIN(int11, int9);
         int10 = 0;

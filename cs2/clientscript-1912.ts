@@ -1,11 +1,11 @@
 //
 function script1912(): void {
-    CC_DELETEALL(comp(267, 39));
-    CC_DELETEALL(comp(267, 41));
+    CC_DELETEALL(comp(267, 39));  // qps:tab1_footer_build
+    CC_DELETEALL(comp(267, 41));  // qps:tab1_footer_click
     var int0 = -1;
     var int1 = -1 as struct;
-    IF_SETTEXT("Milestone Rewards", comp(267, 40));
-    CC_CREATE(comp(267, 38), 5, 0);
+    IF_SETTEXT("Milestone Rewards", comp(267, 40));  // qps:tab1_footer_text
+    CC_CREATE(comp(267, 38), 5, 0);  // qps:tab1_footer_bg
     CC_SETSIZE(0, 0, 1, 1);
     CC_SETPOSITION(0, 0, 0, 0);
     CC_SETGRAPHIC(4544 as graphic);

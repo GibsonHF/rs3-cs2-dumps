@@ -46,7 +46,7 @@ function script10347(): void {
     };
     script10350();
     script10361(varplayer_4696);
-    IF_SETONVARCTRANSMIT(callback(script10348, 4502, 1), comp(1524, 0));
+    IF_SETONVARCTRANSMIT(callback(script10348, 4502, 1), comp(1524, 0));  // group_parent:base
     stack(callback(script10349));
     stack(99876864);
     IF_SETONPLAYERGROUPTRANSMIT();

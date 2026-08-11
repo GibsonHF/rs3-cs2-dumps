@@ -43,7 +43,7 @@ function script7120(int0: number): number {
         };
         int7 = (5 + ((int4 * 10) + (int4 * int13)));
         int6 = (((int5 * 10) + (int5 * int13)) + int14);
-        CC_CREATE(comp(1371, 22), 5, int12);
+        CC_CREATE(comp(1371, 22), 5, int12);  // makex2012_controls:items_list
         if ((int2 == 0)) {
             CC_SETHIDE(true);
         } else {
@@ -61,7 +61,7 @@ function script7120(int0: number): number {
             };
         };
         int12 = (int12 + 1);
-        CC_CREATE(comp(1371, 22), 5, int12);
+        CC_CREATE(comp(1371, 22), 5, int12);  // makex2012_controls:items_list
         if ((int2 == 0)) {
             CC_SETHIDE(true);
         } else {
@@ -111,7 +111,7 @@ function script7120(int0: number): number {
             CC_SETOP(1, "Select");
         };
         int12 = (int12 + 1);
-        CC_CREATE(comp(1371, 22), 5, int12);
+        CC_CREATE(comp(1371, 22), 5, int12);  // makex2012_controls:items_list
         if ((int2 == 0)) {
             CC_SETHIDE(true);
         } else {
@@ -136,7 +136,7 @@ function script7120(int0: number): number {
             };
         };
         int12 = (int12 + 1);
-        CC_CREATE(comp(1371, 22), 5, int12);
+        CC_CREATE(comp(1371, 22), 5, int12);  // makex2012_controls:items_list
         if ((int2 == 0)) {
             CC_SETHIDE(true);
         } else {
@@ -156,7 +156,7 @@ function script7120(int0: number): number {
         int1 = (int1 + 1);
     };
     if ((int3 == 0)) {
-        CC_CREATE(comp(1371, 22), 4, int12);
+        CC_CREATE(comp(1371, 22), 4, int12);  // makex2012_controls:items_list
         CC_SETTEXT("There is nothing in this category available for you to work on at this time.");
         script11024(3);
         CC_SETTEXTFONT(26 as fontmetrics);

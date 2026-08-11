@@ -22,10 +22,10 @@ function script20823(int0: number): void {
             }
         };
     } else {
-        IF_SETOPKEY(1, 0, 0, comp(1518, 26));
-        IF_SETOPKEY(1, 0, 0, comp(1518, 4));
-        IF_SETOPKEY(1, 0, 0, comp(1518, 30));
-        IF_SETOPKEY(1, 0, 0, comp(1518, 32));
+        IF_SETOPKEY(1, 0, 0, comp(1518, 26));  // house_furniture_trunk:mainmodal_window_close_button
+        IF_SETOPKEY(1, 0, 0, comp(1518, 4));  // house_furniture_trunk:search_trigger
+        IF_SETOPKEY(1, 0, 0, comp(1518, 30));  // house_furniture_trunk:deposit_inv
+        IF_SETOPKEY(1, 0, 0, comp(1518, 32));  // house_furniture_trunk:bank_cert_button
     };
     return;
 }

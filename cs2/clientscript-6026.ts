@@ -1,10 +1,10 @@
 //
 function script6026(int0: number, int1: number, int2: number): void {
     if ((int2 < 25)) {
-        IF_SETONTIMER(callback(script6026, int0, int1, (int2 + 1)), comp(1043, 2));
+        IF_SETONTIMER(callback(script6026, int0, int1, (int2 + 1)), comp(1043, 2));  // 6awe3_rewards:skill_book
         return;
     };
-    IF_SETONTIMER(callback(), comp(1043, 2));
+    IF_SETONTIMER(callback(), comp(1043, 2));  // 6awe3_rewards:skill_book
     script8059(1);
     script8059(2);
     if ((varclient_4146 == int0)) {

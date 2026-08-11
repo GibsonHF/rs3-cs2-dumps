@@ -6,10 +6,10 @@ function script14109(int0: number, int1: number, int2: number, int3: number): [n
     var int7 = struct_getparam(int5, 3808);
     var int1 = (int1 - 1);
     var int8 = (int7 * int1);
-    CC_CREATE(comp(1944, 11), 5, IF_GETNEXTSUBID(comp(1944, 11)));
+    CC_CREATE(comp(1944, 11), 5, IF_GETNEXTSUBID(comp(1944, 11)));  // toolbelt_v2:categories
     CC_SETPOSITION(((int0 * int7) - (int8 / 2)), 0, 1, 1);
     CC_SETSIZE(struct_getparam(int5, 3808), struct_getparam(int5, 3807), 0, 0);
-    CC_CREATE[1](comp(1944, 11), 5, IF_GETNEXTSUBID(comp(1944, 11)));
+    CC_CREATE[1](comp(1944, 11), 5, IF_GETNEXTSUBID(comp(1944, 11)));  // toolbelt_v2:categories
     CC_SETPOSITION[1](((int0 * int7) - (int8 / 2)), 0, 1, 1);
     CC_SETSIZE[1](struct_getparam(int3, 6977), struct_getparam(int3, 6978), 0, 0);
     script14106(127401995, CC_GETID(), CC_GETID[1](), int3, int5);
@@ -20,7 +20,7 @@ function script14109(int0: number, int1: number, int2: number, int3: number): [n
     CC_SETOP(1, `Show ${struct_getparam(int3, 6974)}`);
     CC_SETONOP(callback(script14108, int2));
     var int2 = (int2 + 14);
-    CC_CREATE(comp(1944, 6), 4, IF_GETNEXTSUBID(comp(1944, 6)));
+    CC_CREATE(comp(1944, 6), 4, IF_GETNEXTSUBID(comp(1944, 6)));  // toolbelt_v2:toolbelt_build_layer
     CC_SETPOSITION(5, int2, 0, 0);
     CC_SETSIZE(500, 30, 0, 0);
     CC_SETTEXTFONT(28 as fontmetrics);

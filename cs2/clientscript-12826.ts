@@ -3,15 +3,15 @@ function script12826(int0: number, int1: number, int2: number): void {
     var int3 = comp(-1, 65535);
     switch (int0) {
         case 2: {
-            int3 = comp(1798, 34);
+            int3 = comp(1798, 34);  // elrc:collections_progress_bar
             break;
         }
         case 1: {
-            int3 = comp(1798, 83);
+            int3 = comp(1798, 83);  // elrc:tasks_progress_bar
             break;
         }
         case 3: {
-            int3 = comp(1798, 30);
+            int3 = comp(1798, 30);  // elrc:miniquests_progress_bar
             break;
         }
     };

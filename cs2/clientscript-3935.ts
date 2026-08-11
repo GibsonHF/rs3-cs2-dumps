@@ -1,5 +1,5 @@
 //
 function script3935(): void {
-    IF_SETHIDE(true, comp(1029, 107));
+    IF_SETHIDE(true, comp(1029, 107));  // polls:member_upsell
     return;
 }

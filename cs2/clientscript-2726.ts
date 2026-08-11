@@ -16,6 +16,6 @@ function script2726(int0: number, int1: number, int2: number): void {
     CC_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643));
     var int11 = ((int7 * (int3 + int6)) + int6);
     var int12 = ((int8 * (int4 + int6)) + int6);
-    IF_SETSIZE(int11, int12, 0, 0, comp(945, 10));
+    IF_SETSIZE(int11, int12, 0, 0, comp(945, 10));  // rand_overlay:keys_held
     return;
 }

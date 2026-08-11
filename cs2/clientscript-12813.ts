@@ -22,7 +22,7 @@ function script12813(int0: number, int1: number, int2: number, int3: number, int
     var int16 = 8;
     var int17 = 0;
     while ((int13 < int12)) {
-        CC_CREATE(comp(1794, 1), 5, int13);
+        CC_CREATE(comp(1794, 1), 5, int13);  // cs_week_2016_clues_reward:trail_reward_box
         CC_SETSIZE(36, 32, 0, 0);
         CC_SETPOSITION(int16, int17, 0, 1);
         int16 = ((int16 + 36) + 8);

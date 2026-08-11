@@ -29,6 +29,6 @@ function script20585(): void {
     if ((varplayer_12584 == 0)) {
         return;
     };
-    IF_SETHIDE(false, comp(1485, 73));
+    IF_SETHIDE(false, comp(1485, 73));  // marketplace_bonus_xp_redeem:preview_popup
     return;
 }

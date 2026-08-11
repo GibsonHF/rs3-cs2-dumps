@@ -47,7 +47,7 @@ function script4428(int0: number): void {
             IF_SETPOSITION(((IF_GETX(int4) + IF_GETWIDTH(int4)) + 5), 0, 0, 1, int6);
             IF_SETSIZE(int27, int27, 0, 0, int6);
         };
-        IF_SETHIDE(true, comp(1110, 1));
+        IF_SETHIDE(true, comp(1110, 1));  // clan_chat:background
     };
     while ((int25 < 600)) {
         int26 = (int25 * int27);

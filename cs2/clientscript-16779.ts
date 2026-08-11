@@ -15,17 +15,17 @@ function script16779(int0: number): void {
         }
         case 1: {
             int1 = varbitplayer_51611;
-            int3 = comp(1023, 49);
+            int3 = comp(1023, 49);  // trh187_overlay:monster_model_1
             break;
         }
         case 2: {
             int1 = varbitplayer_51612;
-            int3 = comp(1023, 56);
+            int3 = comp(1023, 56);  // trh187_overlay:monster_model_2
             break;
         }
         case 3: {
             int1 = varbitplayer_51613;
-            int3 = comp(1023, 63);
+            int3 = comp(1023, 63);  // trh187_overlay:monster_model_3
             break;
         }
     };

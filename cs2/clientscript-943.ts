@@ -6,117 +6,117 @@ function script943(int0: number): void {
     SOUND_VORBIS_RATE(6185 as vorbis, 1, 0, 100, 350);
     switch (int0) {
         case 1: {
-            IF_SETHIDE(true, comp(60, 47));
-            IF_SETSIZE(IF_GETWIDTH(comp(60, 43)), 22, 0, 0, comp(60, 43));
-            IF_SETCOLOUR(16248247, comp(60, 48));
-            IF_SETGRAPHIC(10465 as graphic, comp(60, 44));
-            IF_SETGRAPHIC(10466 as graphic, comp(60, 45));
-            IF_SETGRAPHIC(10465 as graphic, comp(60, 46));
-            IF_SETHIDE(false, comp(60, 72));
+            IF_SETHIDE(true, comp(60, 47));  // castlewars_trade:dec_armour_button_u
+            IF_SETSIZE(IF_GETWIDTH(comp(60, 43)), 22, 0, 0, comp(60, 43));  // castlewars_trade:dec_armour_button
+            IF_SETCOLOUR(16248247, comp(60, 48));  // castlewars_trade:dec_armour_button_text
+            IF_SETGRAPHIC(10465 as graphic, comp(60, 44));  // castlewars_trade:dec_armour_button_l
+            IF_SETGRAPHIC(10466 as graphic, comp(60, 45));  // castlewars_trade:dec_armour_button_m
+            IF_SETGRAPHIC(10465 as graphic, comp(60, 46));  // castlewars_trade:dec_armour_button_r
+            IF_SETHIDE(false, comp(60, 72));  // castlewars_trade:decorative_armour_layer
             switch (varclient_1279) {
                 case 2: {
-                    IF_SETHIDE(false, comp(60, 53));
-                    IF_SETSIZE(IF_GETWIDTH(comp(60, 49)), 20, 0, 0, comp(60, 49));
-                    IF_SETCOLOUR(15052881, comp(60, 54));
-                    IF_SETGRAPHIC(10463 as graphic, comp(60, 50));
-                    IF_SETGRAPHIC(10464 as graphic, comp(60, 51));
-                    IF_SETGRAPHIC(10463 as graphic, comp(60, 52));
-                    IF_SETHIDE(true, comp(60, 211));
+                    IF_SETHIDE(false, comp(60, 53));  // castlewars_trade:consume_button_u
+                    IF_SETSIZE(IF_GETWIDTH(comp(60, 49)), 20, 0, 0, comp(60, 49));  // castlewars_trade:consume_button
+                    IF_SETCOLOUR(15052881, comp(60, 54));  // castlewars_trade:consume_button_text
+                    IF_SETGRAPHIC(10463 as graphic, comp(60, 50));  // castlewars_trade:consume_button_l
+                    IF_SETGRAPHIC(10464 as graphic, comp(60, 51));  // castlewars_trade:consume_button_m
+                    IF_SETGRAPHIC(10463 as graphic, comp(60, 52));  // castlewars_trade:consume_button_r
+                    IF_SETHIDE(true, comp(60, 211));  // castlewars_trade:consumables_layer
                     break;
                 }
                 case 3: {
-                    IF_SETHIDE(false, comp(60, 59));
-                    IF_SETSIZE(IF_GETWIDTH(comp(60, 55)), 20, 0, 0, comp(60, 55));
-                    IF_SETCOLOUR(15052881, comp(60, 60));
-                    IF_SETGRAPHIC(10463 as graphic, comp(60, 56));
-                    IF_SETGRAPHIC(10464 as graphic, comp(60, 57));
-                    IF_SETGRAPHIC(10463 as graphic, comp(60, 58));
-                    IF_SETHIDE(true, comp(60, 284));
+                    IF_SETHIDE(false, comp(60, 59));  // castlewars_trade:misc_items_button_u
+                    IF_SETSIZE(IF_GETWIDTH(comp(60, 55)), 20, 0, 0, comp(60, 55));  // castlewars_trade:misc_items_button
+                    IF_SETCOLOUR(15052881, comp(60, 60));  // castlewars_trade:misc_items_button_text
+                    IF_SETGRAPHIC(10463 as graphic, comp(60, 56));  // castlewars_trade:misc_items_button_l
+                    IF_SETGRAPHIC(10464 as graphic, comp(60, 57));  // castlewars_trade:misc_items_button_m
+                    IF_SETGRAPHIC(10463 as graphic, comp(60, 58));  // castlewars_trade:misc_items_button_r
+                    IF_SETHIDE(true, comp(60, 284));  // castlewars_trade:misc_layer
                     break;
                 }
             };
-            IF_SETONMOUSEOVER(callback(script1881, 1, 1, 3932204, 3932205, 3932206), comp(60, 43));
-            IF_SETONMOUSELEAVE(callback(script1881, 1, 0, 3932204, 3932205, 3932206), comp(60, 43));
-            IF_SETONMOUSEOVER(callback(script1881, 0, 1, 3932210, 3932211, 3932212), comp(60, 49));
-            IF_SETONMOUSELEAVE(callback(script1881, 0, 0, 3932210, 3932211, 3932212), comp(60, 49));
-            IF_SETONMOUSEOVER(callback(script1881, 0, 1, 3932216, 3932217, 3932218), comp(60, 55));
-            IF_SETONMOUSELEAVE(callback(script1881, 0, 0, 3932216, 3932217, 3932218), comp(60, 55));
+            IF_SETONMOUSEOVER(callback(script1881, 1, 1, 3932204, 3932205, 3932206), comp(60, 43));  // castlewars_trade:dec_armour_button
+            IF_SETONMOUSELEAVE(callback(script1881, 1, 0, 3932204, 3932205, 3932206), comp(60, 43));  // castlewars_trade:dec_armour_button
+            IF_SETONMOUSEOVER(callback(script1881, 0, 1, 3932210, 3932211, 3932212), comp(60, 49));  // castlewars_trade:consume_button
+            IF_SETONMOUSELEAVE(callback(script1881, 0, 0, 3932210, 3932211, 3932212), comp(60, 49));  // castlewars_trade:consume_button
+            IF_SETONMOUSEOVER(callback(script1881, 0, 1, 3932216, 3932217, 3932218), comp(60, 55));  // castlewars_trade:misc_items_button
+            IF_SETONMOUSELEAVE(callback(script1881, 0, 0, 3932216, 3932217, 3932218), comp(60, 55));  // castlewars_trade:misc_items_button
             break;
         }
         case 2: {
-            IF_SETHIDE(true, comp(60, 53));
-            IF_SETSIZE(IF_GETWIDTH(comp(60, 49)), 22, 0, 0, comp(60, 49));
-            IF_SETCOLOUR(16248247, comp(60, 54));
-            IF_SETGRAPHIC(10465 as graphic, comp(60, 50));
-            IF_SETGRAPHIC(10466 as graphic, comp(60, 51));
-            IF_SETGRAPHIC(10465 as graphic, comp(60, 52));
-            IF_SETHIDE(false, comp(60, 211));
+            IF_SETHIDE(true, comp(60, 53));  // castlewars_trade:consume_button_u
+            IF_SETSIZE(IF_GETWIDTH(comp(60, 49)), 22, 0, 0, comp(60, 49));  // castlewars_trade:consume_button
+            IF_SETCOLOUR(16248247, comp(60, 54));  // castlewars_trade:consume_button_text
+            IF_SETGRAPHIC(10465 as graphic, comp(60, 50));  // castlewars_trade:consume_button_l
+            IF_SETGRAPHIC(10466 as graphic, comp(60, 51));  // castlewars_trade:consume_button_m
+            IF_SETGRAPHIC(10465 as graphic, comp(60, 52));  // castlewars_trade:consume_button_r
+            IF_SETHIDE(false, comp(60, 211));  // castlewars_trade:consumables_layer
             switch (varclient_1279) {
                 case 1: {
-                    IF_SETHIDE(false, comp(60, 47));
-                    IF_SETSIZE(IF_GETWIDTH(comp(60, 43)), 20, 0, 0, comp(60, 43));
-                    IF_SETCOLOUR(15052881, comp(60, 48));
-                    IF_SETGRAPHIC(10463 as graphic, comp(60, 44));
-                    IF_SETGRAPHIC(10464 as graphic, comp(60, 45));
-                    IF_SETGRAPHIC(10463 as graphic, comp(60, 46));
-                    IF_SETHIDE(true, comp(60, 72));
+                    IF_SETHIDE(false, comp(60, 47));  // castlewars_trade:dec_armour_button_u
+                    IF_SETSIZE(IF_GETWIDTH(comp(60, 43)), 20, 0, 0, comp(60, 43));  // castlewars_trade:dec_armour_button
+                    IF_SETCOLOUR(15052881, comp(60, 48));  // castlewars_trade:dec_armour_button_text
+                    IF_SETGRAPHIC(10463 as graphic, comp(60, 44));  // castlewars_trade:dec_armour_button_l
+                    IF_SETGRAPHIC(10464 as graphic, comp(60, 45));  // castlewars_trade:dec_armour_button_m
+                    IF_SETGRAPHIC(10463 as graphic, comp(60, 46));  // castlewars_trade:dec_armour_button_r
+                    IF_SETHIDE(true, comp(60, 72));  // castlewars_trade:decorative_armour_layer
                     break;
                 }
                 case 3: {
-                    IF_SETHIDE(false, comp(60, 59));
-                    IF_SETSIZE(IF_GETWIDTH(comp(60, 55)), 20, 0, 0, comp(60, 55));
-                    IF_SETCOLOUR(15052881, comp(60, 60));
-                    IF_SETGRAPHIC(10463 as graphic, comp(60, 56));
-                    IF_SETGRAPHIC(10464 as graphic, comp(60, 57));
-                    IF_SETGRAPHIC(10463 as graphic, comp(60, 58));
-                    IF_SETHIDE(true, comp(60, 284));
+                    IF_SETHIDE(false, comp(60, 59));  // castlewars_trade:misc_items_button_u
+                    IF_SETSIZE(IF_GETWIDTH(comp(60, 55)), 20, 0, 0, comp(60, 55));  // castlewars_trade:misc_items_button
+                    IF_SETCOLOUR(15052881, comp(60, 60));  // castlewars_trade:misc_items_button_text
+                    IF_SETGRAPHIC(10463 as graphic, comp(60, 56));  // castlewars_trade:misc_items_button_l
+                    IF_SETGRAPHIC(10464 as graphic, comp(60, 57));  // castlewars_trade:misc_items_button_m
+                    IF_SETGRAPHIC(10463 as graphic, comp(60, 58));  // castlewars_trade:misc_items_button_r
+                    IF_SETHIDE(true, comp(60, 284));  // castlewars_trade:misc_layer
                     break;
                 }
             };
-            IF_SETONMOUSEOVER(callback(script1881, 0, 1, 3932204, 3932205, 3932206), comp(60, 43));
-            IF_SETONMOUSELEAVE(callback(script1881, 0, 0, 3932204, 3932205, 3932206), comp(60, 43));
-            IF_SETONMOUSEOVER(callback(script1881, 1, 1, 3932210, 3932211, 3932212), comp(60, 49));
-            IF_SETONMOUSELEAVE(callback(script1881, 1, 0, 3932210, 3932211, 3932212), comp(60, 49));
-            IF_SETONMOUSEOVER(callback(script1881, 0, 1, 3932216, 3932217, 3932218), comp(60, 55));
-            IF_SETONMOUSELEAVE(callback(script1881, 0, 0, 3932216, 3932217, 3932218), comp(60, 55));
+            IF_SETONMOUSEOVER(callback(script1881, 0, 1, 3932204, 3932205, 3932206), comp(60, 43));  // castlewars_trade:dec_armour_button
+            IF_SETONMOUSELEAVE(callback(script1881, 0, 0, 3932204, 3932205, 3932206), comp(60, 43));  // castlewars_trade:dec_armour_button
+            IF_SETONMOUSEOVER(callback(script1881, 1, 1, 3932210, 3932211, 3932212), comp(60, 49));  // castlewars_trade:consume_button
+            IF_SETONMOUSELEAVE(callback(script1881, 1, 0, 3932210, 3932211, 3932212), comp(60, 49));  // castlewars_trade:consume_button
+            IF_SETONMOUSEOVER(callback(script1881, 0, 1, 3932216, 3932217, 3932218), comp(60, 55));  // castlewars_trade:misc_items_button
+            IF_SETONMOUSELEAVE(callback(script1881, 0, 0, 3932216, 3932217, 3932218), comp(60, 55));  // castlewars_trade:misc_items_button
             break;
         }
         case 3: {
-            IF_SETHIDE(true, comp(60, 59));
-            IF_SETSIZE(IF_GETWIDTH(comp(60, 55)), 22, 0, 0, comp(60, 55));
-            IF_SETCOLOUR(16248247, comp(60, 60));
-            IF_SETGRAPHIC(10465 as graphic, comp(60, 56));
-            IF_SETGRAPHIC(10466 as graphic, comp(60, 57));
-            IF_SETGRAPHIC(10465 as graphic, comp(60, 58));
-            IF_SETHIDE(false, comp(60, 284));
+            IF_SETHIDE(true, comp(60, 59));  // castlewars_trade:misc_items_button_u
+            IF_SETSIZE(IF_GETWIDTH(comp(60, 55)), 22, 0, 0, comp(60, 55));  // castlewars_trade:misc_items_button
+            IF_SETCOLOUR(16248247, comp(60, 60));  // castlewars_trade:misc_items_button_text
+            IF_SETGRAPHIC(10465 as graphic, comp(60, 56));  // castlewars_trade:misc_items_button_l
+            IF_SETGRAPHIC(10466 as graphic, comp(60, 57));  // castlewars_trade:misc_items_button_m
+            IF_SETGRAPHIC(10465 as graphic, comp(60, 58));  // castlewars_trade:misc_items_button_r
+            IF_SETHIDE(false, comp(60, 284));  // castlewars_trade:misc_layer
             switch (varclient_1279) {
                 case 1: {
-                    IF_SETHIDE(false, comp(60, 47));
-                    IF_SETSIZE(IF_GETWIDTH(comp(60, 43)), 20, 0, 0, comp(60, 43));
-                    IF_SETCOLOUR(15052881, comp(60, 48));
-                    IF_SETGRAPHIC(10463 as graphic, comp(60, 44));
-                    IF_SETGRAPHIC(10464 as graphic, comp(60, 45));
-                    IF_SETGRAPHIC(10463 as graphic, comp(60, 46));
-                    IF_SETHIDE(true, comp(60, 72));
+                    IF_SETHIDE(false, comp(60, 47));  // castlewars_trade:dec_armour_button_u
+                    IF_SETSIZE(IF_GETWIDTH(comp(60, 43)), 20, 0, 0, comp(60, 43));  // castlewars_trade:dec_armour_button
+                    IF_SETCOLOUR(15052881, comp(60, 48));  // castlewars_trade:dec_armour_button_text
+                    IF_SETGRAPHIC(10463 as graphic, comp(60, 44));  // castlewars_trade:dec_armour_button_l
+                    IF_SETGRAPHIC(10464 as graphic, comp(60, 45));  // castlewars_trade:dec_armour_button_m
+                    IF_SETGRAPHIC(10463 as graphic, comp(60, 46));  // castlewars_trade:dec_armour_button_r
+                    IF_SETHIDE(true, comp(60, 72));  // castlewars_trade:decorative_armour_layer
                     break;
                 }
                 case 2: {
-                    IF_SETHIDE(false, comp(60, 53));
-                    IF_SETSIZE(IF_GETWIDTH(comp(60, 49)), 20, 0, 0, comp(60, 49));
-                    IF_SETCOLOUR(15052881, comp(60, 54));
-                    IF_SETGRAPHIC(10463 as graphic, comp(60, 50));
-                    IF_SETGRAPHIC(10464 as graphic, comp(60, 51));
-                    IF_SETGRAPHIC(10463 as graphic, comp(60, 52));
-                    IF_SETHIDE(true, comp(60, 211));
+                    IF_SETHIDE(false, comp(60, 53));  // castlewars_trade:consume_button_u
+                    IF_SETSIZE(IF_GETWIDTH(comp(60, 49)), 20, 0, 0, comp(60, 49));  // castlewars_trade:consume_button
+                    IF_SETCOLOUR(15052881, comp(60, 54));  // castlewars_trade:consume_button_text
+                    IF_SETGRAPHIC(10463 as graphic, comp(60, 50));  // castlewars_trade:consume_button_l
+                    IF_SETGRAPHIC(10464 as graphic, comp(60, 51));  // castlewars_trade:consume_button_m
+                    IF_SETGRAPHIC(10463 as graphic, comp(60, 52));  // castlewars_trade:consume_button_r
+                    IF_SETHIDE(true, comp(60, 211));  // castlewars_trade:consumables_layer
                     break;
                 }
             };
-            IF_SETONMOUSEOVER(callback(script1881, 0, 1, 3932204, 3932205, 3932206), comp(60, 43));
-            IF_SETONMOUSELEAVE(callback(script1881, 0, 0, 3932204, 3932205, 3932206), comp(60, 43));
-            IF_SETONMOUSEOVER(callback(script1881, 0, 1, 3932210, 3932211, 3932212), comp(60, 49));
-            IF_SETONMOUSELEAVE(callback(script1881, 0, 0, 3932210, 3932211, 3932212), comp(60, 49));
-            IF_SETONMOUSEOVER(callback(script1881, 1, 1, 3932216, 3932217, 3932218), comp(60, 55));
-            IF_SETONMOUSELEAVE(callback(script1881, 1, 0, 3932216, 3932217, 3932218), comp(60, 55));
+            IF_SETONMOUSEOVER(callback(script1881, 0, 1, 3932204, 3932205, 3932206), comp(60, 43));  // castlewars_trade:dec_armour_button
+            IF_SETONMOUSELEAVE(callback(script1881, 0, 0, 3932204, 3932205, 3932206), comp(60, 43));  // castlewars_trade:dec_armour_button
+            IF_SETONMOUSEOVER(callback(script1881, 0, 1, 3932210, 3932211, 3932212), comp(60, 49));  // castlewars_trade:consume_button
+            IF_SETONMOUSELEAVE(callback(script1881, 0, 0, 3932210, 3932211, 3932212), comp(60, 49));  // castlewars_trade:consume_button
+            IF_SETONMOUSEOVER(callback(script1881, 1, 1, 3932216, 3932217, 3932218), comp(60, 55));  // castlewars_trade:misc_items_button
+            IF_SETONMOUSELEAVE(callback(script1881, 1, 0, 3932216, 3932217, 3932218), comp(60, 55));  // castlewars_trade:misc_items_button
             break;
         }
     };

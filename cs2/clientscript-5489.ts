@@ -15,8 +15,8 @@ function script5489(): void {
     };
     var int2 = GET_MOUSEY();
     var int3 = GET_MOUSEX();
-    var int4 = IF_GETWIDTH(comp(1477, 885));
-    var int5 = IF_GETHEIGHT(comp(1477, 885));
+    var int4 = IF_GETWIDTH(comp(1477, 885));  // toplevel_v2:optext_bubble
+    var int5 = IF_GETHEIGHT(comp(1477, 885));  // toplevel_v2:optext_bubble
     var int6 = 0;
     var int7 = 0;
     var int8 = 0;
@@ -74,6 +74,6 @@ function script5489(): void {
         int11 = (int3 - (int4 / 2));
         int11 = MIN(MAX(int11, int6), (int8 - int4));
     };
-    IF_SETPOSITION(int11, (int10 + script20394(25)), 0, 0, comp(1477, 885));
+    IF_SETPOSITION(int11, (int10 + script20394(25)), 0, 0, comp(1477, 885));  // toplevel_v2:optext_bubble
     return;
 }

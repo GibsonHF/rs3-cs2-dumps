@@ -1,8 +1,8 @@
 //
 function script16703(string0: string): void {
     var int0 = 182;
-    var int1 = comp(998, 6);
-    var int2 = comp(998, 12);
+    var int1 = comp(998, 6);  // modal_storage:storage_layer
+    var int2 = comp(998, 12);  // modal_storage:storage_text
     if ((STRING_LENGTH(string0) > 0)) {
         int0 = (182 - (28 - 6));
     };

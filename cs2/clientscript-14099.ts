@@ -4,12 +4,12 @@ function script14099(int0: number, int1: number, int2: number, int3: number, int
         return;
     };
     if ((int2 == 0)) {
-        IF_SETTEXT(`${OC_NAME(int1)} - Not stored`, comp(1944, 26));
+        IF_SETTEXT(`${OC_NAME(int1)} - Not stored`, comp(1944, 26));  // toolbelt_v2:info_name
     } else {
-        IF_SETTEXT(OC_NAME(int1), comp(1944, 26));
+        IF_SETTEXT(OC_NAME(int1), comp(1944, 26));  // toolbelt_v2:info_name
     };
-    IF_SETTEXT("Loading...", comp(1944, 27));
-    if ((IF_FIND(comp(1944, 30)) == 1)) {
+    IF_SETTEXT("Loading...", comp(1944, 27));  // toolbelt_v2:info_desc
+    if ((IF_FIND(comp(1944, 30)) == 1)) {  // toolbelt_v2:icon
         CC_SETOBJECT_NONUM(int1, -1);
         if ((int2 == 0)) {
             CC_SETCOLOUR(5526612);
@@ -34,43 +34,43 @@ function script14099(int0: number, int1: number, int2: number, int3: number, int
         if ((int2 == 1)) {
             if ((strcmp(struct_getparam(int0, 6986), "") != 0)) {
                 if ((MAP_MEMBERS() == 1)) {
-                    IF_SETONOP(callback(), comp(1944, 29));
+                    IF_SETONOP(callback(), comp(1944, 29));  // toolbelt_v2:icon_background
                     IF_SETOP(1, struct_getparam(int0, 6986), 127402013);
-                    IF_SETONMOUSEOVER(callback(script7793, -2147483645, 29006), comp(1944, 29));
-                    IF_SETONMOUSELEAVE(callback(script7793, -2147483645, 21363), comp(1944, 29));
+                    IF_SETONMOUSEOVER(callback(script7793, -2147483645, 29006), comp(1944, 29));  // toolbelt_v2:icon_background
+                    IF_SETONMOUSELEAVE(callback(script7793, -2147483645, 21363), comp(1944, 29));  // toolbelt_v2:icon_background
                 } else if ((MAP_MEMBERS() == 0)) {
                     if ((OC_MEMBERS(int1) == 0)) {
-                        IF_SETONOP(callback(), comp(1944, 29));
+                        IF_SETONOP(callback(), comp(1944, 29));  // toolbelt_v2:icon_background
                         IF_SETOP(1, struct_getparam(int0, 6986), 127402013);
-                        IF_SETONMOUSEOVER(callback(script7793, -2147483645, 29006), comp(1944, 29));
-                        IF_SETONMOUSELEAVE(callback(script7793, -2147483645, 21363), comp(1944, 29));
+                        IF_SETONMOUSEOVER(callback(script7793, -2147483645, 29006), comp(1944, 29));  // toolbelt_v2:icon_background
+                        IF_SETONMOUSELEAVE(callback(script7793, -2147483645, 21363), comp(1944, 29));  // toolbelt_v2:icon_background
                     } else {
                         script7794(127402013, 21363);
-                        IF_SETONOP(callback(), comp(1944, 29));
-                        IF_CLEAROPS(comp(1944, 29));
-                        IF_SETONMOUSEOVER(callback(), comp(1944, 29));
-                        IF_SETONMOUSELEAVE(callback(), comp(1944, 29));
+                        IF_SETONOP(callback(), comp(1944, 29));  // toolbelt_v2:icon_background
+                        IF_CLEAROPS(comp(1944, 29));  // toolbelt_v2:icon_background
+                        IF_SETONMOUSEOVER(callback(), comp(1944, 29));  // toolbelt_v2:icon_background
+                        IF_SETONMOUSELEAVE(callback(), comp(1944, 29));  // toolbelt_v2:icon_background
                     };
                 } else {
                     script7794(127402013, 21363);
-                    IF_SETONOP(callback(), comp(1944, 29));
-                    IF_CLEAROPS(comp(1944, 29));
-                    IF_SETONMOUSEOVER(callback(), comp(1944, 29));
-                    IF_SETONMOUSELEAVE(callback(), comp(1944, 29));
+                    IF_SETONOP(callback(), comp(1944, 29));  // toolbelt_v2:icon_background
+                    IF_CLEAROPS(comp(1944, 29));  // toolbelt_v2:icon_background
+                    IF_SETONMOUSEOVER(callback(), comp(1944, 29));  // toolbelt_v2:icon_background
+                    IF_SETONMOUSELEAVE(callback(), comp(1944, 29));  // toolbelt_v2:icon_background
                 };
             } else {
                 script7794(127402013, 21363);
-                IF_SETONOP(callback(), comp(1944, 29));
-                IF_CLEAROPS(comp(1944, 29));
-                IF_SETONMOUSEOVER(callback(), comp(1944, 29));
-                IF_SETONMOUSELEAVE(callback(), comp(1944, 29));
+                IF_SETONOP(callback(), comp(1944, 29));  // toolbelt_v2:icon_background
+                IF_CLEAROPS(comp(1944, 29));  // toolbelt_v2:icon_background
+                IF_SETONMOUSEOVER(callback(), comp(1944, 29));  // toolbelt_v2:icon_background
+                IF_SETONMOUSELEAVE(callback(), comp(1944, 29));  // toolbelt_v2:icon_background
             };
         } else {
             script7794(127402013, 21363);
-            IF_SETONOP(callback(), comp(1944, 29));
-            IF_CLEAROPS(comp(1944, 29));
-            IF_SETONMOUSEOVER(callback(), comp(1944, 29));
-            IF_SETONMOUSELEAVE(callback(), comp(1944, 29));
+            IF_SETONOP(callback(), comp(1944, 29));  // toolbelt_v2:icon_background
+            IF_CLEAROPS(comp(1944, 29));  // toolbelt_v2:icon_background
+            IF_SETONMOUSEOVER(callback(), comp(1944, 29));  // toolbelt_v2:icon_background
+            IF_SETONMOUSELEAVE(callback(), comp(1944, 29));  // toolbelt_v2:icon_background
         };
         if ((int2 == 0)) {
             script7794(127402007, 21362);

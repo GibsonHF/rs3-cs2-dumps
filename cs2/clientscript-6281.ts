@@ -65,6 +65,6 @@ function script6281(int0: number): void {
             break;
         }
     };
-    IF_SETONTIMER(callback(script6282), comp(1297, 165));
+    IF_SETONTIMER(callback(script6282), comp(1297, 165));  // cruc_rewards:jingle_play_1
     return;
 }

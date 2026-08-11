@@ -46,7 +46,7 @@ function script4738(int0: number, int1: number): void {
         };
         int3 = (int3 + 1);
     };
-    IF_SETTEXT(`Items found: ${inttostring(int9, 10)}`, comp(1144, 5));
+    IF_SETTEXT(`Items found: ${inttostring(int9, 10)}`, comp(1144, 5));  // wom2_inventory_display:total_text
     if ((int7 > 0)) {
         int6 = (int6 + 32);
     };

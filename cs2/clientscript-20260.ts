@@ -8,7 +8,7 @@ function script20260(int0: number, int1: number): [number, number] {
     var int7 = script20261(int1);
     var int8 = -1;
     while ((int3 < int0)) {
-        if ((CC_FINDBYCATEGORY(comp(1443, 8), 200, int3) == 1)) {
+        if ((CC_FINDBYCATEGORY(comp(1443, 8), 200, int3) == 1)) {  // league_parent_relics:relic_main
             if ((int4 == cc_getparam(9342))) {
                 int5 = (int5 + 1);
             } else {
@@ -17,7 +17,7 @@ function script20260(int0: number, int1: number): [number, number] {
             };
             CC_SETSIZE(int6, 0, 0, 1);
             CC_SETPOSITION(int2, 0, 0, 0);
-            if ((CC_FINDBYCATEGORY(comp(1443, 7), int4, 3) == 1)) {
+            if ((CC_FINDBYCATEGORY(comp(1443, 7), int4, 3) == 1)) {  // league_parent_relics:relic_main_headers
                 CC_SETSIZE(((int6 * int5) + (15 * (int5 - 1))), 0, 0, 1);
                 if ((int5 == 1)) {
                     CC_SETPOSITION(int2, 0, 0, 1);

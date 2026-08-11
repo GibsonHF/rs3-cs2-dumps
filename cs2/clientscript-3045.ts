@@ -1,6 +1,6 @@
 //
 function script3045(): void {
-    var int0 = comp(909, 47);
+    var int0 = comp(909, 47);  // lobbyscreen_pane_friendslist:pm_radio_buttons
     var int1 = CHAT_GETFILTER_PRIVATE();
     var int2 = 0;
     var int3 = 2;

@@ -7,7 +7,7 @@ function script11964(int0: number): void {
     if ((IF_GETTRANS(int0) == 255)) {
         IF_SETONTIMER(callback(), int0);
         IF_SETHIDE(true, int0);
-        IF_SETHIDE(true, comp(1704, 9));
+        IF_SETHIDE(true, comp(1704, 9));  // tutisland_focus:text
         return;
     };
     if ((MODULO(varclient_5111, 2) == 0)) {

@@ -170,6 +170,6 @@ function script8538(int0: number, int1: number, int2: number, int3: number, int4
     if ((varbitplayer_27169 == 0)) {
         script8057(int9, -1, int10);
     };
-    IF_SETONTIMER(callback(script8539), comp(1477, 7));
+    IF_SETONTIMER(callback(script8539), comp(1477, 7));  // toplevel_v2:chat_controller
     return;
 }

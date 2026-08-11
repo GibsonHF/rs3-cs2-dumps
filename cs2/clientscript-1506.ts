@@ -9,7 +9,7 @@ function script1506(): void {
         int0 = 1136;
         int1 = 3291;
     };
-    CC_DELETEALL(comp(728, 11));
+    CC_DELETEALL(comp(728, 11));  // player_kit_feet:menu
     var int2 = 0;
     var int3 = ENUM_GETOUTPUTCOUNT(int0);
     var int4 = -1;
@@ -19,10 +19,10 @@ function script1506(): void {
     while ((int2 < int3)) {
         int4 = enum_getvalue(0, 10, int0, int2);
         string0 = enum_getvalue(0, 36, int1, int2);
-        CC_CREATE(comp(728, 11), 5, IF_GETNEXTSUBID(comp(728, 11)));
+        CC_CREATE(comp(728, 11), 5, IF_GETNEXTSUBID(comp(728, 11)));  // player_kit_feet:menu
         CC_SETSIZE(18, 18, 0, 0);
         CC_SETPOSITION(0, (int5 + 1), 0, 0);
-        CC_CREATE[1](comp(728, 11), 4, IF_GETNEXTSUBID(comp(728, 11)));
+        CC_CREATE[1](comp(728, 11), 4, IF_GETNEXTSUBID(comp(728, 11)));  // player_kit_feet:menu
         CC_SETSIZE[1](20, 19, 1, 0);
         CC_SETPOSITION[1](0, int5, 2, 0);
         CC_SETTEXTALIGN[1](0, 1, 0);
@@ -46,28 +46,28 @@ function script1506(): void {
         int2 = (int2 + 1);
         int5 = (int5 + 20);
     };
-    if ((int5 > IF_GETHEIGHT(comp(728, 11)))) {
-        IF_SETSIZE(20, 4, 1, 1, comp(728, 11));
-        IF_SETSCROLLSIZE(0, int5, comp(728, 11));
-        if ((int6 < IF_GETSCROLLY(comp(728, 11)))) {
-            IF_SETSCROLLPOS(0, (int6 - 5), comp(728, 11));
-        } else if (((int6 + 19) >= (IF_GETSCROLLY(comp(728, 11)) + IF_GETHEIGHT(comp(728, 11))))) {
-            IF_SETSCROLLPOS(0, ((int6 + 25) - IF_GETHEIGHT(comp(728, 11))), comp(728, 11));
+    if ((int5 > IF_GETHEIGHT(comp(728, 11)))) {  // player_kit_feet:menu
+        IF_SETSIZE(20, 4, 1, 1, comp(728, 11));  // player_kit_feet:menu
+        IF_SETSCROLLSIZE(0, int5, comp(728, 11));  // player_kit_feet:menu
+        if ((int6 < IF_GETSCROLLY(comp(728, 11)))) {  // player_kit_feet:menu
+            IF_SETSCROLLPOS(0, (int6 - 5), comp(728, 11));  // player_kit_feet:menu
+        } else if (((int6 + 19) >= (IF_GETSCROLLY(comp(728, 11)) + IF_GETHEIGHT(comp(728, 11))))) {  // player_kit_feet:menu
+            IF_SETSCROLLPOS(0, ((int6 + 25) - IF_GETHEIGHT(comp(728, 11))), comp(728, 11));  // player_kit_feet:menu
         };
-        IF_SETHIDE(false, comp(728, 12));
+        IF_SETHIDE(false, comp(728, 12));  // player_kit_feet:menu_scrollbar
         script31(47710220, 47710219, 792, 789, 790, 791, 773, 788);
     } else {
-        IF_SETSIZE(4, 4, 1, 1, comp(728, 11));
-        IF_SETSCROLLSIZE(0, 0, comp(728, 11));
-        IF_SETSCROLLPOS(0, 0, comp(728, 11));
-        CC_DELETEALL(comp(728, 12));
-        IF_SETHIDE(true, comp(728, 12));
+        IF_SETSIZE(4, 4, 1, 1, comp(728, 11));  // player_kit_feet:menu
+        IF_SETSCROLLSIZE(0, 0, comp(728, 11));  // player_kit_feet:menu
+        IF_SETSCROLLPOS(0, 0, comp(728, 11));  // player_kit_feet:menu
+        CC_DELETEALL(comp(728, 12));  // player_kit_feet:menu_scrollbar
+        IF_SETHIDE(true, comp(728, 12));  // player_kit_feet:menu_scrollbar
     };
-    CC_DELETEALL(comp(728, 14));
+    CC_DELETEALL(comp(728, 14));  // player_kit_feet:colours
     int3 = ENUM_GETOUTPUTCOUNT(3297 as cs2enum);
     var int7 = 6;
     var int8 = ((((int3 - 1) / int7) + 1) * 21);
-    if ((int8 > IF_GETHEIGHT(comp(728, 14)))) {
+    if ((int8 > IF_GETHEIGHT(comp(728, 14)))) {  // player_kit_feet:colours
         int7 = 5;
     };
     int2 = 0;
@@ -78,13 +78,13 @@ function script1506(): void {
     while ((int2 < int3)) {
         string0 = enum_getvalue(0, 36, 3296, int2);
         int11 = enum_getvalue(0, 0, 3297, int2);
-        CC_CREATE(comp(728, 14), 3, IF_GETNEXTSUBID(comp(728, 14)));
+        CC_CREATE(comp(728, 14), 3, IF_GETNEXTSUBID(comp(728, 14)));  // player_kit_feet:colours
         CC_SETSIZE(20, 20, 0, 0);
         CC_SETFILL(1);
         CC_SETPOSITION((int9 * CC_GETWIDTH()), int5, 0, 0);
         CC_SETCOLOUR(enum_getvalue(0, 0, 753, int2));
         CC_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643));
-        CC_CREATE[1](comp(728, 14), 5, IF_GETNEXTSUBID(comp(728, 14)));
+        CC_CREATE[1](comp(728, 14), 5, IF_GETNEXTSUBID(comp(728, 14)));  // player_kit_feet:colours
         CC_SETSIZE[1](CC_GETWIDTH(), CC_GETHEIGHT(), 0, 0);
         CC_SETPOSITION[1](CC_GETX(), CC_GETY(), 0, 0);
         if ((int11 == varclient_1018)) {
@@ -110,22 +110,22 @@ function script1506(): void {
     if ((int9 != 0)) {
         int5 = (int5 + 21);
     };
-    if (((int5 > IF_GETHEIGHT(comp(728, 14))) || (int7 < 6))) {
-        IF_SETSIZE(20, 4, 1, 1, comp(728, 14));
-        IF_SETSCROLLSIZE(0, int5, comp(728, 14));
-        if ((int6 < IF_GETSCROLLY(comp(728, 14)))) {
-            IF_SETSCROLLPOS(0, (int6 - 5), comp(728, 14));
-        } else if (((int6 + 21) >= (IF_GETSCROLLY(comp(728, 14)) + IF_GETHEIGHT(comp(728, 14))))) {
-            IF_SETSCROLLPOS(0, ((int6 + 25) - IF_GETHEIGHT(comp(728, 14))), comp(728, 14));
+    if (((int5 > IF_GETHEIGHT(comp(728, 14))) || (int7 < 6))) {  // player_kit_feet:colours
+        IF_SETSIZE(20, 4, 1, 1, comp(728, 14));  // player_kit_feet:colours
+        IF_SETSCROLLSIZE(0, int5, comp(728, 14));  // player_kit_feet:colours
+        if ((int6 < IF_GETSCROLLY(comp(728, 14)))) {  // player_kit_feet:colours
+            IF_SETSCROLLPOS(0, (int6 - 5), comp(728, 14));  // player_kit_feet:colours
+        } else if (((int6 + 21) >= (IF_GETSCROLLY(comp(728, 14)) + IF_GETHEIGHT(comp(728, 14))))) {  // player_kit_feet:colours
+            IF_SETSCROLLPOS(0, ((int6 + 25) - IF_GETHEIGHT(comp(728, 14))), comp(728, 14));  // player_kit_feet:colours
         };
-        IF_SETHIDE(false, comp(728, 15));
+        IF_SETHIDE(false, comp(728, 15));  // player_kit_feet:colours_scrollbar
         script31(47710223, 47710222, 792, 789, 790, 791, 773, 788);
     } else {
-        IF_SETSIZE(4, 4, 1, 1, comp(728, 14));
-        IF_SETSCROLLSIZE(0, 0, comp(728, 14));
-        IF_SETSCROLLPOS(0, 0, comp(728, 14));
-        CC_DELETEALL(comp(728, 15));
-        IF_SETHIDE(true, comp(728, 15));
+        IF_SETSIZE(4, 4, 1, 1, comp(728, 14));  // player_kit_feet:colours
+        IF_SETSCROLLSIZE(0, 0, comp(728, 14));  // player_kit_feet:colours
+        IF_SETSCROLLPOS(0, 0, comp(728, 14));  // player_kit_feet:colours
+        CC_DELETEALL(comp(728, 15));  // player_kit_feet:colours_scrollbar
+        IF_SETHIDE(true, comp(728, 15));  // player_kit_feet:colours_scrollbar
     };
     return;
 }

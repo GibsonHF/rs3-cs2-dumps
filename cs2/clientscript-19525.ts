@@ -5,10 +5,10 @@ function script19525(int0: number, int1: number): void {
     };
     var int2 = int0;
     while ((int2 <= int1)) {
-        if ((CC_FIND(comp(1313, 76), int2) == 1)) {
+        if ((CC_FIND(comp(1313, 76), int2) == 1)) {  // group_ironman_storage:separators
             CC_SETHIDE(true);
         };
-        if ((CC_FIND(comp(1313, 77), int2) == 1)) {
+        if ((CC_FIND(comp(1313, 77), int2) == 1)) {  // group_ironman_storage:dividers
             CC_SETHIDE(true);
         };
         int2 = (int2 + 1);

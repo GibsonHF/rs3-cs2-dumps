@@ -1,6 +1,6 @@
 //[clientscript,meslayer_mode12]
 function script1157(int0: number): void {
-    IF_SETHIDE(false, comp(1469, 0));
+    IF_SETHIDE(false, comp(1469, 0));  // meslayer:root
     if ((int0 != 1)) {
         return;
     };
@@ -10,13 +10,13 @@ function script1157(int0: number): void {
         varclient_266 = 1;
     };
     if ((STRING_LENGTH(varclient_2409) > 0)) {
-        IF_SETTEXT("Edit the name of your caller:<br>(Delete it to disable this feature.)", comp(1469, 3));
+        IF_SETTEXT("Edit the name of your caller:<br>(Delete it to disable this feature.)", comp(1469, 3));  // meslayer:mes_text
     } else {
-        IF_SETTEXT("Enter the name of your caller:", comp(1469, 3));
+        IF_SETTEXT("Enter the name of your caller:", comp(1469, 3));  // meslayer:mes_text
     };
     varclient_5 = 12;
     script1564(varclient_2409);
-    IF_SETONCLICK(callback(script1805), comp(1469, 1));
+    IF_SETONCLICK(callback(script1805), comp(1469, 1));  // meslayer:mes_layer
     script2026();
     return;
 }

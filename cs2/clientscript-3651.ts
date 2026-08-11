@@ -1,20 +1,20 @@
 //
 function script3651(int0: number): void {
-    IF_SETTEXT(dbrow_getfield(int0, 299024, 0), comp(634, 169));
+    IF_SETTEXT(dbrow_getfield(int0, 299024, 0), comp(634, 169));  // runepass:welcome_title
     var int1 = dbrow_getfield(int0, 299344, 0);
     if ((dbrow_getfield(int0, 299472, 0) == 1)) {
         int1 = (int1 - 1);
     };
-    IF_SETTEXT(inttostring(int1, 10), comp(634, 39));
-    IF_SETONOP(callback(script3642, (int1 - 1)), comp(634, 37));
-    IF_SETTEXT(inttostring((dbrow_getfield(int0, 299344, 0) / 2), 10), comp(634, 42));
-    IF_SETONOP(callback(script3642, ((int1 / 2) - 1)), comp(634, 40));
-    CC_DELETEALL(comp(634, 23));
-    CC_DELETEALL(comp(634, 24));
-    CC_DELETEALL(comp(634, 19));
-    CC_DELETEALL(comp(634, 20));
-    CC_DELETEALL(comp(634, 21));
-    CC_DELETEALL(comp(634, 22));
+    IF_SETTEXT(inttostring(int1, 10), comp(634, 39));  // runepass:slider_top_text
+    IF_SETONOP(callback(script3642, (int1 - 1)), comp(634, 37));  // runepass:slider_top
+    IF_SETTEXT(inttostring((dbrow_getfield(int0, 299344, 0) / 2), 10), comp(634, 42));  // runepass:slider_mid_text
+    IF_SETONOP(callback(script3642, ((int1 / 2) - 1)), comp(634, 40));  // runepass:slider_mid
+    CC_DELETEALL(comp(634, 23));  // runepass:build
+    CC_DELETEALL(comp(634, 24));  // runepass:click
+    CC_DELETEALL(comp(634, 19));  // runepass:claim_build
+    CC_DELETEALL(comp(634, 20));  // runepass:claim_click
+    CC_DELETEALL(comp(634, 21));  // runepass:reward_build
+    CC_DELETEALL(comp(634, 22));  // runepass:reward_click
     var int2 = varplayer_9062;
     if ((AND(int2, 170) == 0)) {
         int2 = (int2 * 3);
@@ -50,7 +50,7 @@ function script3651(int0: number): void {
         int24 = script3658(int16, int19, int20, 41549847, 41549848, 41549843, 41549844, 41549845, 41549846, int23, 1, 0, int24, int15);
         int16 = (int16 + 1);
     };
-    IF_SETSCROLLPOS(0, varclient_6741, comp(634, 10));
+    IF_SETSCROLLPOS(0, varclient_6741, comp(634, 10));  // runepass:scrolling
     script3653(int0);
     script3620(varplayer_9078, 0);
     script15597(41549851);

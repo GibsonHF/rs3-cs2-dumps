@@ -1,6 +1,6 @@
 //
 function script1363(int0: number, int1: number, int2: number): void {
-    var int3 = comp(1924, 189);
+    var int3 = comp(1924, 189);  // toplevel_v2_combat_bar_mobile_buttons:bar_selection_layer
     var int4 = IF_GETHEIGHT(int3);
     var int5 = MAX(1, SCALE(10, 50, int4));
     var int6 = 0;

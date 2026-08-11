@@ -6,7 +6,7 @@ function script9306(int0: number, int1: number): number {
     var int5 = 0;
     var int6 = 0;
     while ((int2 < int3)) {
-        if ((CC_FIND(comp(517, 201), int2) == 1)) {
+        if ((CC_FIND(comp(517, 201), int2) == 1)) {  // bank:bank_inv
             if ((int1 == 0)) {
                 int4 = INV_GETOBJ(95 as inv, int2);
             } else {

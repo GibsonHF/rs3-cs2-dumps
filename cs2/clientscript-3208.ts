@@ -1,14 +1,14 @@
 //
 function script3208(): void {
-    IF_SETHIDE(true, comp(502, 17));
-    IF_SETHIDE(false, comp(502, 18));
-    IF_SETHIDE(false, comp(502, 19));
-    var int0 = comp(502, 58);
-    var int1 = comp(502, 59);
-    var int2 = comp(502, 60);
-    var int3 = comp(502, 61);
-    var int4 = comp(502, 35);
-    var int5 = comp(502, 37);
+    IF_SETHIDE(true, comp(502, 17));  // piratefinale_invasion_overlay:main_layer
+    IF_SETHIDE(false, comp(502, 18));  // piratefinale_invasion_overlay:test_map_layer
+    IF_SETHIDE(false, comp(502, 19));  // piratefinale_invasion_overlay:test_skulls
+    var int0 = comp(502, 58);  // piratefinale_invasion_overlay:skull_1_point_1
+    var int1 = comp(502, 59);  // piratefinale_invasion_overlay:skull_2_point_1
+    var int2 = comp(502, 60);  // piratefinale_invasion_overlay:skull_3_point_1
+    var int3 = comp(502, 61);  // piratefinale_invasion_overlay:skull_4_point_1
+    var int4 = comp(502, 35);  // piratefinale_invasion_overlay:skulls_layer_1
+    var int5 = comp(502, 37);  // piratefinale_invasion_overlay:secannon_info
     var int6 = 1;
     var int7 = varbitplayer_39954;
     var int8 = false;
@@ -18,42 +18,42 @@ function script3208(): void {
         switch (int6) {
             case 1: {
                 int7 = varbitplayer_39954;
-                int0 = comp(502, 58);
-                int1 = comp(502, 59);
-                int2 = comp(502, 60);
-                int3 = comp(502, 61);
-                int4 = comp(502, 35);
-                int5 = comp(502, 37);
+                int0 = comp(502, 58);  // piratefinale_invasion_overlay:skull_1_point_1
+                int1 = comp(502, 59);  // piratefinale_invasion_overlay:skull_2_point_1
+                int2 = comp(502, 60);  // piratefinale_invasion_overlay:skull_3_point_1
+                int3 = comp(502, 61);  // piratefinale_invasion_overlay:skull_4_point_1
+                int4 = comp(502, 35);  // piratefinale_invasion_overlay:skulls_layer_1
+                int5 = comp(502, 37);  // piratefinale_invasion_overlay:secannon_info
                 break;
             }
             case 2: {
                 int7 = varbitplayer_39955;
-                int0 = comp(502, 63);
-                int1 = comp(502, 64);
-                int2 = comp(502, 65);
-                int3 = comp(502, 66);
-                int4 = comp(502, 32);
-                int5 = comp(502, 34);
+                int0 = comp(502, 63);  // piratefinale_invasion_overlay:skull_1_point_2
+                int1 = comp(502, 64);  // piratefinale_invasion_overlay:skull_2_point_2
+                int2 = comp(502, 65);  // piratefinale_invasion_overlay:skull_3_point_2
+                int3 = comp(502, 66);  // piratefinale_invasion_overlay:skull_4_point_2
+                int4 = comp(502, 32);  // piratefinale_invasion_overlay:skulls_layer_2
+                int5 = comp(502, 34);  // piratefinale_invasion_overlay:swcannon_info
                 break;
             }
             case 3: {
                 int7 = varbitplayer_39956;
-                int0 = comp(502, 68);
-                int1 = comp(502, 69);
-                int2 = comp(502, 70);
-                int3 = comp(502, 71);
-                int4 = comp(502, 29);
-                int5 = comp(502, 31);
+                int0 = comp(502, 68);  // piratefinale_invasion_overlay:skull_1_point_3
+                int1 = comp(502, 69);  // piratefinale_invasion_overlay:skull_2_point_3
+                int2 = comp(502, 70);  // piratefinale_invasion_overlay:skull_3_point_3
+                int3 = comp(502, 71);  // piratefinale_invasion_overlay:skull_4_point_3
+                int4 = comp(502, 29);  // piratefinale_invasion_overlay:skulls_layer_3
+                int5 = comp(502, 31);  // piratefinale_invasion_overlay:wall_info
                 break;
             }
             case 4: {
                 int7 = varbitplayer_39957;
-                int0 = comp(502, 73);
-                int1 = comp(502, 74);
-                int2 = comp(502, 75);
-                int3 = comp(502, 76);
-                int4 = comp(502, 26);
-                int5 = comp(502, 28);
+                int0 = comp(502, 73);  // piratefinale_invasion_overlay:skull_1_point_4
+                int1 = comp(502, 74);  // piratefinale_invasion_overlay:skull_2_point_4
+                int2 = comp(502, 75);  // piratefinale_invasion_overlay:skull_3_point_4
+                int3 = comp(502, 76);  // piratefinale_invasion_overlay:skull_4_point_4
+                int4 = comp(502, 26);  // piratefinale_invasion_overlay:skulls_layer_4
+                int5 = comp(502, 28);  // piratefinale_invasion_overlay:maingate_info
                 break;
             }
             case 5: {
@@ -63,12 +63,12 @@ function script3208(): void {
                     int8 = false;
                 };
                 int7 = varbitplayer_39958;
-                int0 = comp(502, 78);
-                int1 = comp(502, 79);
-                int2 = comp(502, 80);
-                int3 = comp(502, 81);
-                int4 = comp(502, 23);
-                int5 = comp(502, 25);
+                int0 = comp(502, 78);  // piratefinale_invasion_overlay:skull_1_point_5
+                int1 = comp(502, 79);  // piratefinale_invasion_overlay:skull_2_point_5
+                int2 = comp(502, 80);  // piratefinale_invasion_overlay:skull_3_point_5
+                int3 = comp(502, 81);  // piratefinale_invasion_overlay:skull_4_point_5
+                int4 = comp(502, 23);  // piratefinale_invasion_overlay:skulls_layer_5
+                int5 = comp(502, 25);  // piratefinale_invasion_overlay:river_info
                 break;
             }
             case 6: {
@@ -78,12 +78,12 @@ function script3208(): void {
                     int8 = false;
                 };
                 int7 = varbitplayer_39959;
-                int0 = comp(502, 83);
-                int1 = comp(502, 84);
-                int2 = comp(502, 85);
-                int3 = comp(502, 86);
-                int4 = comp(502, 20);
-                int5 = comp(502, 22);
+                int0 = comp(502, 83);  // piratefinale_invasion_overlay:skull_1_point_6
+                int1 = comp(502, 84);  // piratefinale_invasion_overlay:skull_2_point_6
+                int2 = comp(502, 85);  // piratefinale_invasion_overlay:skull_3_point_6
+                int3 = comp(502, 86);  // piratefinale_invasion_overlay:skull_4_point_6
+                int4 = comp(502, 20);  // piratefinale_invasion_overlay:skulls_layer_6
+                int5 = comp(502, 22);  // piratefinale_invasion_overlay:cropfield_info
                 break;
             }
             case 7: {
@@ -93,12 +93,12 @@ function script3208(): void {
                     int8 = false;
                 };
                 int7 = varbitplayer_39960;
-                int0 = comp(502, 3);
-                int1 = comp(502, 4);
-                int2 = comp(502, 5);
-                int3 = comp(502, 6);
-                int4 = comp(502, 0);
-                int5 = comp(502, 2);
+                int0 = comp(502, 3);  // piratefinale_invasion_overlay:skull_1_point_7
+                int1 = comp(502, 4);  // piratefinale_invasion_overlay:skull_2_point_7
+                int2 = comp(502, 5);  // piratefinale_invasion_overlay:skull_3_point_7
+                int3 = comp(502, 6);  // piratefinale_invasion_overlay:skull_4_point_7
+                int4 = comp(502, 0);  // piratefinale_invasion_overlay:skulls_layer_7
+                int5 = comp(502, 2);  // piratefinale_invasion_overlay:beachead_info
                 break;
             }
         };

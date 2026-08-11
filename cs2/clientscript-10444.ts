@@ -1,21 +1,21 @@
 //
 function script10444(): void {
-    var int0 = comp(1477, 891);
-    var int1 = comp(1477, 896);
+    var int0 = comp(1477, 891);  // toplevel_v2:dropdown_panel
+    var int1 = comp(1477, 896);  // toplevel_v2:dropdown_list
     switch (IF_GETTOP()) {
         case 906: {
-            int0 = comp(906, 159);
-            int1 = comp(906, 164);
+            int0 = comp(906, 159);  // lobbyscreen:dropdown_panel
+            int1 = comp(906, 164);  // lobbyscreen:dropdown_list
             break;
         }
         case 744: {
-            int0 = comp(744, 361);
-            int1 = comp(744, 366);
+            int0 = comp(744, 361);  // loginscreen:minimenu_layer
+            int1 = comp(744, 366);  // loginscreen:32bit_warning_text
             break;
         }
         default: {
-            int0 = comp(1477, 891);
-            int1 = comp(1477, 896);
+            int0 = comp(1477, 891);  // toplevel_v2:dropdown_panel
+            int1 = comp(1477, 896);  // toplevel_v2:dropdown_list
             break;
         }
     };

@@ -16,12 +16,12 @@ function script11292(int0: number): void {
             }
         };
     } else {
-        IF_SETOPKEY(1, 0, 0, comp(189, 21));
-        IF_SETOPKEY(1, 0, 0, comp(189, 19));
-        IF_SETOPKEY(1, 0, 0, comp(189, 23));
-        IF_SETOPKEY(1, 0, 0, comp(189, 28));
-        IF_SETOPKEY(1, 0, 0, comp(189, 30));
-        IF_SETOPKEY(1, 0, 0, comp(189, 32));
+        IF_SETOPKEY(1, 0, 0, comp(189, 21));  // event17_minigame:event17_walk_click_1
+        IF_SETOPKEY(1, 0, 0, comp(189, 19));  // event17_minigame:event17_walk_click_2
+        IF_SETOPKEY(1, 0, 0, comp(189, 23));  // event17_minigame:event17_walk_click_3
+        IF_SETOPKEY(1, 0, 0, comp(189, 28));  // event17_minigame:event18_fire_click_1
+        IF_SETOPKEY(1, 0, 0, comp(189, 30));  // event17_minigame:event18_fire_click_2
+        IF_SETOPKEY(1, 0, 0, comp(189, 32));  // event17_minigame:event18_fire_click_3
         varclient_6747 = -1 as stat;
     };
     return;

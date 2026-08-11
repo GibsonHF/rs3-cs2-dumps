@@ -4,7 +4,7 @@ function script43(): void {
     var int1 = 0;
     var string0 = "";
     while ((int0 < INV_SIZE(141 as inv))) {
-        CC_CREATE(comp(364, 1), 5, int0);
+        CC_CREATE(comp(364, 1), 5, int0);  // trail_reward:trail_reward_box
         CC_SETSIZE(36, 32, 0, 0);
         CC_SETPOSITION((10 + (40 * int1)), 10, 0, 0);
         if ((INV_GETOBJ(141 as inv, int0) != -1 as obj)) {

@@ -5,30 +5,30 @@ function script4920(): void {
     var int2 = comp(-1, 65535);
     switch (varbitplayer_6679) {
         case 0: {
-            int0 = comp(1259, 186);
-            int1 = comp(1259, 180);
-            int2 = comp(1259, 46);
+            int0 = comp(1259, 186);  // clan_stronghold_main_map:member_count_text
+            int1 = comp(1259, 180);  // clan_stronghold_main_map:build_time_text
+            int2 = comp(1259, 46);  // clan_stronghold_main_map:member_display_blue_layer
             break;
         }
         case 1:
         case 3:
         case 4: {
-            int0 = comp(1261, 367);
-            int1 = comp(1261, 360);
-            int2 = comp(1261, 363);
+            int0 = comp(1261, 367);  // clan_stronghold_main_buildings:member_count_text
+            int1 = comp(1261, 360);  // clan_stronghold_main_buildings:build_time_text
+            int2 = comp(1261, 363);  // clan_stronghold_main_buildings:member_display_blue_layer
             break;
         }
         case 2:
         case 5: {
-            int0 = comp(1258, 614);
-            int1 = comp(1258, 607);
-            int2 = comp(1258, 610);
+            int0 = comp(1258, 614);  // clan_stronghold_main_decor:member_count_text
+            int1 = comp(1258, 607);  // clan_stronghold_main_decor:build_time_text
+            int2 = comp(1258, 610);  // clan_stronghold_main_decor:member_display_blue_layer
             break;
         }
         case 6: {
-            int0 = comp(1260, 319);
-            int1 = comp(1260, 313);
-            int2 = comp(1260, 102);
+            int0 = comp(1260, 319);  // clan_stronghold_main_resources:member_count_text
+            int1 = comp(1260, 313);  // clan_stronghold_main_resources:build_time_text
+            int2 = comp(1260, 102);  // clan_stronghold_main_resources:member_display_blue_layer
             break;
         }
     };

@@ -1,8 +1,8 @@
 //
 function script19957(): void {
     var int0 = 0;
-    if ((IF_FIND(comp(970, 35)) == 1)) {
-        CC_DELETEALL(comp(970, 35));
+    if ((IF_FIND(comp(970, 35)) == 1)) {  // trh180_overlay:splash_screen
+        CC_DELETEALL(comp(970, 35));  // trh180_overlay:splash_screen
         stack(63569955);
         stack(int0);
         int0 = (int0 + 1);

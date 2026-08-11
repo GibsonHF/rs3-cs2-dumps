@@ -6,7 +6,7 @@ function script963(int0: number): void {
     if ((int0 == 51380233)) {
         varclient_6873 = MODULO((varclient_6873 + 90), 360);
         if ((varclient_6876 == -1)) {
-            if ((IF_FIND(comp(784, 61)) == 1)) {
+            if ((IF_FIND(comp(784, 61)) == 1)) {  // fairyrings:left_s
                 [int1, int2] = script15524(varclient_6873);
                 if ((int1 <= int2)) {
                     varclient_6876 = 1;
@@ -20,7 +20,7 @@ function script963(int0: number): void {
     } else if ((int0 == 51380242)) {
         varclient_6874 = MODULO((varclient_6874 + 90), 360);
         if ((varclient_6877 == -1)) {
-            if ((IF_FIND(comp(784, 64)) == 1)) {
+            if ((IF_FIND(comp(784, 64)) == 1)) {  // fairyrings:mid_s
                 [int1, int2] = script15524(varclient_6874);
                 if ((int1 <= int2)) {
                     varclient_6877 = 1;
@@ -34,7 +34,7 @@ function script963(int0: number): void {
     } else if ((int0 == 51380251)) {
         varclient_6875 = MODULO((varclient_6875 + 90), 360);
         if ((varclient_6878 == -1)) {
-            if ((IF_FIND(comp(784, 67)) == 1)) {
+            if ((IF_FIND(comp(784, 67)) == 1)) {  // fairyrings:right_s
                 [int1, int2] = script15524(varclient_6875);
                 if ((int1 <= int2)) {
                     varclient_6878 = 1;

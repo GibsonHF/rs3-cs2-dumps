@@ -1,7 +1,7 @@
 //
 function script11092(int0: number, int1: number, int2: number, int3: number, int4: number): void {
-    var int5 = comp(1594, 40);
-    var int6 = comp(1594, 43);
+    var int5 = comp(1594, 40);  // rewardshop:rewardshop_item_name
+    var int6 = comp(1594, 43);  // rewardshop:rewardshop_confirm_slot
     var int7 = 104464446;
     var string0 = script13337(int1);
     IF_SETTEXT(string0, int5);

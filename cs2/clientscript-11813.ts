@@ -71,9 +71,9 @@ function script11813(int0: number): void {
         script11815(1925, int4, string0, int0);
     };
     if ((int0 != 4)) {
-        IF_SETONTIMER(callback(script11813, 0), comp(1477, 6));
+        IF_SETONTIMER(callback(script11813, 0), comp(1477, 6));  // toplevel_v2:global_cooldown_timer
     } else {
-        IF_SETONTIMER(callback(), comp(1477, 6));
+        IF_SETONTIMER(callback(), comp(1477, 6));  // toplevel_v2:global_cooldown_timer
     };
     return;
 }

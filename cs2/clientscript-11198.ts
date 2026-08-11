@@ -3,25 +3,25 @@ function script11198(int0: number): void {
     if ((int0 == -1)) {
         return;
     };
-    IF_SETONTIMER(callback(), comp(1253, 72));
+    IF_SETONTIMER(callback(), comp(1253, 72));  // wheel_of_fortune:countdown_text
     if ((varclient_4751 < script766(int0))) {
-        IF_SETTEXT("Coming Soon!", comp(1253, 72));
-        IF_SETTEXTFONT(29 as fontmetrics, comp(1253, 72));
+        IF_SETTEXT("Coming Soon!", comp(1253, 72));  // wheel_of_fortune:countdown_text
+        IF_SETTEXTFONT(29 as fontmetrics, comp(1253, 72));  // wheel_of_fortune:countdown_text
     } else if ((int0 == 38726)) {
-        IF_SETTEXT(script11200(varclient_6297, varclient_6298), comp(1253, 72));
-        IF_SETONTIMER(callback(script13729), comp(1253, 72));
+        IF_SETTEXT(script11200(varclient_6297, varclient_6298), comp(1253, 72));  // wheel_of_fortune:countdown_text
+        IF_SETONTIMER(callback(script13729), comp(1253, 72));  // wheel_of_fortune:countdown_text
     } else {
-        IF_SETTEXT(script11200(varclient_4752, varclient_4753), comp(1253, 72));
-        IF_SETONTIMER(callback(script11199), comp(1253, 72));
+        IF_SETTEXT(script11200(varclient_4752, varclient_4753), comp(1253, 72));  // wheel_of_fortune:countdown_text
+        IF_SETONTIMER(callback(script11199), comp(1253, 72));  // wheel_of_fortune:countdown_text
     };
-    IF_SETHIDE(false, comp(1253, 72));
-    IF_SETHIDE(false, comp(1253, 69));
-    IF_SETHIDE(false, comp(1253, 70));
+    IF_SETHIDE(false, comp(1253, 72));  // wheel_of_fortune:countdown_text
+    IF_SETHIDE(false, comp(1253, 69));  // wheel_of_fortune:info_icon
+    IF_SETHIDE(false, comp(1253, 70));  // wheel_of_fortune:info_icon_holder
     if ((varplayer_5191 < script766(int0))) {
-        IF_SETGRAPHIC(25624 as graphic, comp(1253, 70));
+        IF_SETGRAPHIC(25624 as graphic, comp(1253, 70));  // wheel_of_fortune:info_icon_holder
         varplayer_5191 = script766(int0);
     } else {
-        IF_SETGRAPHIC(25623 as graphic, comp(1253, 70));
+        IF_SETGRAPHIC(25623 as graphic, comp(1253, 70));  // wheel_of_fortune:info_icon_holder
     };
     return;
 }

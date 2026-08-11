@@ -1,8 +1,8 @@
 //
 function script5085(int0: number): void {
-    IF_SETHIDE(true, comp(1114, 22));
+    IF_SETHIDE(true, comp(1114, 22));  // clan_field_setup:dropdown_container
     varclient_160 = -1;
-    CC_DELETEALL(comp(1114, 26));
+    CC_DELETEALL(comp(1114, 26));  // clan_field_setup:dropdown_options
     var int1 = 0;
     var int2 = ENUM_GETOUTPUTCOUNT(3921 as cs2enum);
     while ((int1 < int2)) {

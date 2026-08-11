@@ -11,6 +11,6 @@ function script16532(): void {
     } else {
         [int0, int1] = script16516();
     };
-    IF_SETOBJECT_NONUM(int0, int1, comp(970, 29));
+    IF_SETOBJECT_NONUM(int0, int1, comp(970, 29));  // trh180_overlay:progress_bar_prize_model
     return;
 }

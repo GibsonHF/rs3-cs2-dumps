@@ -1,6 +1,6 @@
 //
 function script19278(): void {
-    IF_SETTEXT(dbrow_getfield(varplayer_11901, 1216544, 0), comp(1290, 15));
+    IF_SETTEXT(dbrow_getfield(varplayer_11901, 1216544, 0), comp(1290, 15));  // trh_dungeon_crawl_overlay:overview_title_text
     var int0 = -1;
     switch (varbitplayer_56167) {
         case 0: {
@@ -32,7 +32,7 @@ function script19278(): void {
             break;
         }
     };
-    IF_SETGRAPHIC(int0, comp(1290, 18));
+    IF_SETGRAPHIC(int0, comp(1290, 18));  // trh_dungeon_crawl_overlay:overview_floor_layout_graphic
     var int1 = 34439;
     var int2 = 46;
     var int3 = 46;

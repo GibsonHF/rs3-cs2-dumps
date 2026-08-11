@@ -13,28 +13,28 @@ function script18835(): void {
     while ((int8 <= 3)) {
         switch (int8) {
             case 1: {
-                int0 = comp(1282, 7);
+                int0 = comp(1282, 7);  // trh197_overlay:chest_1_click_layer
                 int1 = 84017161;
-                int2 = comp(1282, 10);
-                int3 = comp(1282, 11);
+                int2 = comp(1282, 10);  // trh197_overlay:chest_1_prize_info
+                int3 = comp(1282, 11);  // trh197_overlay:chest_1_multiplier_icon
                 [int4, int5, int6] = [varplayer_11661, varplayer_11662, varplayer_11663];
                 int7 = varplayer_11660;
                 break;
             }
             case 2: {
-                int0 = comp(1282, 5);
+                int0 = comp(1282, 5);  // trh197_overlay:chest_2_click_layer
                 int1 = 84017165;
-                int2 = comp(1282, 14);
-                int3 = comp(1282, 15);
+                int2 = comp(1282, 14);  // trh197_overlay:chest_2_prize_info
+                int3 = comp(1282, 15);  // trh197_overlay:chest_2_multiplier_icon
                 [int4, int5, int6] = [varplayer_11665, varplayer_11666, varplayer_11667];
                 int7 = varplayer_11664;
                 break;
             }
             case 3: {
-                int0 = comp(1282, 3);
+                int0 = comp(1282, 3);  // trh197_overlay:chest_3_click_layer
                 int1 = 84017169;
-                int2 = comp(1282, 18);
-                int3 = comp(1282, 19);
+                int2 = comp(1282, 18);  // trh197_overlay:chest_3_prize_info
+                int3 = comp(1282, 19);  // trh197_overlay:chest_3_multiplier_icon
                 [int4, int5, int6] = [varplayer_11669, varplayer_11670, varplayer_11671];
                 int7 = varplayer_11668;
                 break;

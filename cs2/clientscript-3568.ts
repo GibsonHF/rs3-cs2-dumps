@@ -26,26 +26,26 @@ function script3568(int0: number, int1: number, int2: number, int3: number, int4
     var int20 = MODULO(int10, 10);
     var int21 = 0;
     var int22 = 0;
-    if (((int5 != 0) && (int0 == comp(907, 39)))) {
+    if (((int5 != 0) && (int0 == comp(907, 39)))) {  // lobbyscreen_pane_playerinfo:message_of_the_week_dynamic
         switch (MAP_LANG()) {
             case 0: {
-                IF_SETGRAPHIC(15118 as graphic, comp(907, 38));
+                IF_SETGRAPHIC(15118 as graphic, comp(907, 38));  // lobbyscreen_pane_playerinfo:special_gfx
                 break;
             }
             case 1: {
-                IF_SETGRAPHIC(15119 as graphic, comp(907, 38));
+                IF_SETGRAPHIC(15119 as graphic, comp(907, 38));  // lobbyscreen_pane_playerinfo:special_gfx
                 break;
             }
             case 2: {
-                IF_SETGRAPHIC(15120 as graphic, comp(907, 38));
+                IF_SETGRAPHIC(15120 as graphic, comp(907, 38));  // lobbyscreen_pane_playerinfo:special_gfx
                 break;
             }
             case 3: {
-                IF_SETGRAPHIC(15121 as graphic, comp(907, 38));
+                IF_SETGRAPHIC(15121 as graphic, comp(907, 38));  // lobbyscreen_pane_playerinfo:special_gfx
                 break;
             }
         };
-        IF_SETTEXT("Double XP", comp(907, 18));
+        IF_SETTEXT("Double XP", comp(907, 18));  // lobbyscreen_pane_playerinfo:main_banner_title_text
         var int5 = 0;
     };
     var string0 = "Hours";

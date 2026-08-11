@@ -8,19 +8,19 @@ function script13924(): void {
     varclient_6366 = 0;
     varclient_6367 = 0;
     varclient_6368 = 0;
-    CC_DELETEALL(comp(1931, 18));
-    CC_DELETEALL(comp(1931, 19));
-    CC_DELETEALL(comp(1931, 17));
+    CC_DELETEALL(comp(1931, 18));  // slide_puzzle:puzzle_layer
+    CC_DELETEALL(comp(1931, 19));  // slide_puzzle:puzzle_hint
+    CC_DELETEALL(comp(1931, 17));  // slide_puzzle:puzzle_check
     while ((int0 < 25)) {
-        CC_CREATE(comp(1931, 18), 5, int0);
+        CC_CREATE(comp(1931, 18), 5, int0);  // slide_puzzle:puzzle_layer
         CC_SETSIZE(49, 49, 0, 0);
         CC_SETPOSITION((56 * int1), (56 * int2), 0, 0);
         CC_SETONCLICK(callback(script13928, int0));
         CC_SETOP(1, "Move");
-        CC_CREATE(comp(1931, 19), 5, int0);
+        CC_CREATE(comp(1931, 19), 5, int0);  // slide_puzzle:puzzle_hint
         CC_SETSIZE(49, 49, 0, 0);
         CC_SETPOSITION((56 * int1), (56 * int2), 0, 0);
-        CC_CREATE(comp(1931, 17), 3, int0);
+        CC_CREATE(comp(1931, 17), 3, int0);  // slide_puzzle:puzzle_check
         CC_SETTRANS(255);
         CC_SETSIZE((49 + 4), (49 + 4), 0, 0);
         CC_SETPOSITION((56 * int1), (56 * int2), 0, 0);

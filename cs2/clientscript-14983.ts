@@ -1,9 +1,9 @@
 //
 function script14983(int0: number, int1: number): void {
-    if ((int0 == comp(1473, 17))) {
-        var int0 = comp(1473, 12);
+    if ((int0 == comp(1473, 17))) {  // toplevel_v2_inventory:premium_currency_layer
+        var int0 = comp(1473, 12);  // toplevel_v2_inventory:bonds_pouch_layer
     } else {
-        int0 = comp(1474, 16);
+        int0 = comp(1474, 16);  // toplevel_v2_parent_suboverlay_inventory:bonds_pouch_layer
     };
     switch (int1) {
         case 1: {
@@ -19,7 +19,7 @@ function script14983(int0: number, int1: number): void {
             break;
         }
     };
-    IF_SETSIZE(0, 0, 1, 1, comp(1473, 17));
-    IF_SETSIZE(0, 0, 1, 1, comp(1474, 21));
+    IF_SETSIZE(0, 0, 1, 1, comp(1473, 17));  // toplevel_v2_inventory:premium_currency_layer
+    IF_SETSIZE(0, 0, 1, 1, comp(1474, 21));  // toplevel_v2_parent_suboverlay_inventory:premium_currency_layer
     return;
 }

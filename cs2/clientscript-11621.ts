@@ -34,7 +34,7 @@ function script11621(int0: number, int1: number, int2: number, int3: number, int
                 int10 = 0;
                 int12 = 0;
             };
-            if (((IF_GETLAYER(int5) == comp(1594, 81)) && (int14 == 0))) {
+            if (((IF_GETLAYER(int5) == comp(1594, 81)) && (int14 == 0))) {  // rewardshop:item_preview_layer
                 int13 = 450;
             };
             IF_SETHIDE(false, int5);
@@ -63,7 +63,7 @@ function script11621(int0: number, int1: number, int2: number, int3: number, int
                 int10 = 0;
                 int12 = 0;
             };
-            if (((IF_GETLAYER(int5) == comp(1594, 81)) && (int14 == 0))) {
+            if (((IF_GETLAYER(int5) == comp(1594, 81)) && (int14 == 0))) {  // rewardshop:item_preview_layer
                 int13 = 600;
             };
             while ((int15 < int3)) {

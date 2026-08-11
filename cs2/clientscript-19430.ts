@@ -1,6 +1,6 @@
 //
 function script19430(): void {
-    var int0 = comp(1302, 105);
+    var int0 = comp(1302, 105);  // group_ironman_parent:achievement_scrolling
     CC_DELETEALL(int0);
     var int1 = 0;
     var int2 = ENUM_GETOUTPUTCOUNT(5984 as cs2enum);

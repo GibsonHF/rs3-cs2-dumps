@@ -1,7 +1,7 @@
 //
 function script7298(): void {
-    CC_DELETEALL(comp(1276, 7));
-    CC_DELETEALL(comp(1276, 6));
+    CC_DELETEALL(comp(1276, 7));  // pop_crew:crew_list_icon
+    CC_DELETEALL(comp(1276, 6));  // pop_crew:crew_list_quality
     var int0 = 0;
     var int1 = -1;
     var int2 = 0;
@@ -52,14 +52,14 @@ function script7298(): void {
         if ((int1 != -1)) {
             int10 = script7317(677, int0);
             if ((enum_hasoutput(33, 2173 as cs2enum, int1) == 1)) {
-                CC_CREATE(comp(1276, 7), 5, int0);
+                CC_CREATE(comp(1276, 7), 5, int0);  // pop_crew:crew_list_icon
                 CC_SETGRAPHIC(item_getparam(int1, 3080));
                 CC_SETSIZE(35, 35, 0, 0);
                 CC_SETPOSITION(18, (14 + (int5 * 55)), 0, 0);
                 CC_SETOP(1, "Info");
                 CC_SETOP(2, "Dismiss");
                 CC_SETONOP(callback(script7301));
-                CC_CREATE(comp(1276, 5), 5, int0);
+                CC_CREATE(comp(1276, 5), 5, int0);  // pop_crew:crew_list_background
                 if ((varbitplayer_17147 == int0)) {
                     CC_SETGRAPHIC(15581 as graphic);
                 } else {
@@ -71,17 +71,17 @@ function script7298(): void {
                 };
                 CC_SETSIZE(55, 55, 0, 0);
                 CC_SETPOSITION(8, (4 + (int5 * 55)), 0, 0);
-                CC_CREATE(comp(1276, 8), 5, int0);
+                CC_CREATE(comp(1276, 8), 5, int0);  // pop_crew:crew_list_number_background
                 CC_SETGRAPHIC(15477 as graphic);
                 CC_SETSIZE(21, 21, 0, 0);
                 CC_SETPOSITION(9, (6 + (int5 * 55)), 0, 0);
-                CC_CREATE(comp(1276, 9), 4, int0);
+                CC_CREATE(comp(1276, 9), 4, int0);  // pop_crew:crew_list_number
                 CC_SETSIZE(21, 21, 0, 0);
                 CC_SETTEXTALIGN(1, 1, 0);
                 CC_SETTEXTFONT(66 as fontmetrics);
                 CC_SETTEXT(string0);
                 CC_SETPOSITION(9, (7 + (int5 * 55)), 0, 0);
-                CC_CREATE(comp(1276, 10), 4, int0);
+                CC_CREATE(comp(1276, 10), 4, int0);  // pop_crew:crew_list_level
                 CC_SETSIZE(12, 12, 0, 0);
                 CC_SETTEXTFONT(66 as fontmetrics);
                 CC_SETTEXTALIGN(2, 1, 0);
@@ -91,7 +91,7 @@ function script7298(): void {
                 CC_SETPOSITION(40, (38 + (int5 * 55)), 0, 0);
                 int5 = (int5 + 1);
             } else {
-                CC_CREATE(comp(1276, 7), 5, int0);
+                CC_CREATE(comp(1276, 7), 5, int0);  // pop_crew:crew_list_icon
                 CC_SETGRAPHIC(item_getparam(int1, 3080));
                 CC_SETSIZE(35, 35, 0, 0);
                 int8 = MODULO(int4, 5);
@@ -100,7 +100,7 @@ function script7298(): void {
                 CC_SETOP(1, "Info");
                 CC_SETOP(2, "Dismiss");
                 CC_SETONOP(callback(script7301));
-                CC_CREATE(comp(1276, 5), 5, int0);
+                CC_CREATE(comp(1276, 5), 5, int0);  // pop_crew:crew_list_background
                 if ((varbitplayer_17147 == int0)) {
                     CC_SETGRAPHIC(15584 as graphic);
                     CC_SETONMOUSEOVER(callback());
@@ -114,17 +114,17 @@ function script7298(): void {
                 };
                 CC_SETSIZE(45, 45, 0, 0);
                 CC_SETPOSITION((69 + (int8 * 52)), (9 + (int7 * 55)), 0, 0);
-                CC_CREATE(comp(1276, 8), 5, int0);
+                CC_CREATE(comp(1276, 8), 5, int0);  // pop_crew:crew_list_number_background
                 CC_SETGRAPHIC(15477 as graphic);
                 CC_SETSIZE(21, 21, 0, 0);
                 CC_SETPOSITION((65 + (int8 * 52)), (6 + (int7 * 55)), 0, 0);
-                CC_CREATE(comp(1276, 9), 4, int0);
+                CC_CREATE(comp(1276, 9), 4, int0);  // pop_crew:crew_list_number
                 CC_SETSIZE(21, 21, 0, 0);
                 CC_SETTEXTALIGN(1, 1, 0);
                 CC_SETTEXTFONT(66 as fontmetrics);
                 CC_SETTEXT(string0);
                 CC_SETPOSITION((65 + (int8 * 52)), (7 + (int7 * 55)), 0, 0);
-                CC_CREATE(comp(1276, 10), 4, int0);
+                CC_CREATE(comp(1276, 10), 4, int0);  // pop_crew:crew_list_level
                 CC_SETSIZE(12, 12, 0, 0);
                 CC_SETTEXTALIGN(2, 1, 0);
                 CC_SETTEXTFONT(66 as fontmetrics);
@@ -135,11 +135,11 @@ function script7298(): void {
                 int4 = (int4 + 1);
             };
         } else {
-            CC_CREATE(comp(1276, 7), 5, int0);
-            CC_CREATE(comp(1276, 5), 5, int0);
-            CC_CREATE(comp(1276, 8), 5, int0);
-            CC_CREATE(comp(1276, 9), 4, int0);
-            CC_CREATE(comp(1276, 10), 4, int0);
+            CC_CREATE(comp(1276, 7), 5, int0);  // pop_crew:crew_list_icon
+            CC_CREATE(comp(1276, 5), 5, int0);  // pop_crew:crew_list_background
+            CC_CREATE(comp(1276, 8), 5, int0);  // pop_crew:crew_list_number_background
+            CC_CREATE(comp(1276, 9), 4, int0);  // pop_crew:crew_list_number
+            CC_CREATE(comp(1276, 10), 4, int0);  // pop_crew:crew_list_level
         };
         int0 = (int0 + 1);
     };
@@ -158,17 +158,17 @@ function script7298(): void {
         string1 = `${inttostring(int11, 10)}h`;
     };
     if ((varbitplayer_17461 > 0)) {
-        IF_SETTEXT(`Rerolls available: ${inttostring(varbitplayer_17461, 10)}`, comp(1276, 102));
+        IF_SETTEXT(`Rerolls available: ${inttostring(varbitplayer_17461, 10)}`, comp(1276, 102));  // pop_crew:crew_rerolls
     } else {
-        IF_SETTEXT(`New crew in ${string1}`, comp(1276, 102));
+        IF_SETTEXT(`New crew in ${string1}`, comp(1276, 102));  // pop_crew:crew_rerolls
     };
     script13993(83624041, -1, 28556, `Add 5 Rerolls (${inttostring(varbitplayer_17420, 10)})`);
     script13994(83624042, -1, 28556, `Add 5 Rerolls (${inttostring(varbitplayer_17420, 10)})`, 1);
     if ((varbitplayer_17495 < 63)) {
-        IF_SETHIDE(false, comp(1276, 106));
-        IF_SETHIDE(true, comp(1276, 42));
-        IF_SETHIDE(true, comp(1276, 64));
-        IF_SETHIDE(true, comp(1276, 86));
+        IF_SETHIDE(false, comp(1276, 106));  // pop_crew:add_crew_no
+        IF_SETHIDE(true, comp(1276, 42));  // pop_crew:reroll_layer_1
+        IF_SETHIDE(true, comp(1276, 64));  // pop_crew:reroll_layer_2
+        IF_SETHIDE(true, comp(1276, 86));  // pop_crew:reroll_layer_3
     };
     script1137();
     return;

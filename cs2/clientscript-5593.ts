@@ -4,19 +4,19 @@ function script5593(int0: number, int1: number): void {
         script11648(77856779);
         IF_RESUME_PAUSEBUTTON(77856776);
     } else if (((int0 == 17) || (int1 == 50))) {
-        if ((IF_GETHIDE(comp(1188, 13)) == false)) {
+        if ((IF_GETHIDE(comp(1188, 13)) == false)) {  // choice_v2:option_2
             script11648(77856784);
             IF_RESUME_PAUSEBUTTON(77856781);
         } else if (((int0 == 18) || (int1 == 51))) {
-            if ((IF_GETHIDE(comp(1188, 18)) == false)) {
+            if ((IF_GETHIDE(comp(1188, 18)) == false)) {  // choice_v2:option_3
                 script11648(77856789);
                 IF_RESUME_PAUSEBUTTON(77856786);
             } else if (((int0 == 19) || (int1 == 52))) {
-                if ((IF_GETHIDE(comp(1188, 23)) == false)) {
+                if ((IF_GETHIDE(comp(1188, 23)) == false)) {  // choice_v2:option_4
                     script11648(77856794);
                     IF_RESUME_PAUSEBUTTON(77856791);
                 } else if (((int0 == 20) || (int1 == 53))) {
-                    if ((IF_GETHIDE(comp(1188, 28)) == false)) {
+                    if ((IF_GETHIDE(comp(1188, 28)) == false)) {  // choice_v2:option_5
                         script11648(77856799);
                         IF_RESUME_PAUSEBUTTON(77856796);
                     } else if ((int0 == 13)) {
@@ -26,7 +26,7 @@ function script5593(int0: number, int1: number): void {
                     script675();
                 };
             } else if (((int0 == 20) || (int1 == 53))) {
-                if ((IF_GETHIDE(comp(1188, 28)) == false)) {
+                if ((IF_GETHIDE(comp(1188, 28)) == false)) {  // choice_v2:option_5
                     script11648(77856799);
                     IF_RESUME_PAUSEBUTTON(77856796);
                 } else if ((int0 == 13)) {
@@ -36,11 +36,11 @@ function script5593(int0: number, int1: number): void {
                 script675();
             };
         } else if (((int0 == 19) || (int1 == 52))) {
-            if ((IF_GETHIDE(comp(1188, 23)) == false)) {
+            if ((IF_GETHIDE(comp(1188, 23)) == false)) {  // choice_v2:option_4
                 script11648(77856794);
                 IF_RESUME_PAUSEBUTTON(77856791);
             } else if (((int0 == 20) || (int1 == 53))) {
-                if ((IF_GETHIDE(comp(1188, 28)) == false)) {
+                if ((IF_GETHIDE(comp(1188, 28)) == false)) {  // choice_v2:option_5
                     script11648(77856799);
                     IF_RESUME_PAUSEBUTTON(77856796);
                 } else if ((int0 == 13)) {
@@ -50,7 +50,7 @@ function script5593(int0: number, int1: number): void {
                 script675();
             };
         } else if (((int0 == 20) || (int1 == 53))) {
-            if ((IF_GETHIDE(comp(1188, 28)) == false)) {
+            if ((IF_GETHIDE(comp(1188, 28)) == false)) {  // choice_v2:option_5
                 script11648(77856799);
                 IF_RESUME_PAUSEBUTTON(77856796);
             } else if ((int0 == 13)) {
@@ -60,15 +60,15 @@ function script5593(int0: number, int1: number): void {
             script675();
         };
     } else if (((int0 == 18) || (int1 == 51))) {
-        if ((IF_GETHIDE(comp(1188, 18)) == false)) {
+        if ((IF_GETHIDE(comp(1188, 18)) == false)) {  // choice_v2:option_3
             script11648(77856789);
             IF_RESUME_PAUSEBUTTON(77856786);
         } else if (((int0 == 19) || (int1 == 52))) {
-            if ((IF_GETHIDE(comp(1188, 23)) == false)) {
+            if ((IF_GETHIDE(comp(1188, 23)) == false)) {  // choice_v2:option_4
                 script11648(77856794);
                 IF_RESUME_PAUSEBUTTON(77856791);
             } else if (((int0 == 20) || (int1 == 53))) {
-                if ((IF_GETHIDE(comp(1188, 28)) == false)) {
+                if ((IF_GETHIDE(comp(1188, 28)) == false)) {  // choice_v2:option_5
                     script11648(77856799);
                     IF_RESUME_PAUSEBUTTON(77856796);
                 } else if ((int0 == 13)) {
@@ -78,7 +78,7 @@ function script5593(int0: number, int1: number): void {
                 script675();
             };
         } else if (((int0 == 20) || (int1 == 53))) {
-            if ((IF_GETHIDE(comp(1188, 28)) == false)) {
+            if ((IF_GETHIDE(comp(1188, 28)) == false)) {  // choice_v2:option_5
                 script11648(77856799);
                 IF_RESUME_PAUSEBUTTON(77856796);
             } else if ((int0 == 13)) {
@@ -88,11 +88,11 @@ function script5593(int0: number, int1: number): void {
             script675();
         };
     } else if (((int0 == 19) || (int1 == 52))) {
-        if ((IF_GETHIDE(comp(1188, 23)) == false)) {
+        if ((IF_GETHIDE(comp(1188, 23)) == false)) {  // choice_v2:option_4
             script11648(77856794);
             IF_RESUME_PAUSEBUTTON(77856791);
         } else if (((int0 == 20) || (int1 == 53))) {
-            if ((IF_GETHIDE(comp(1188, 28)) == false)) {
+            if ((IF_GETHIDE(comp(1188, 28)) == false)) {  // choice_v2:option_5
                 script11648(77856799);
                 IF_RESUME_PAUSEBUTTON(77856796);
             } else if ((int0 == 13)) {
@@ -102,7 +102,7 @@ function script5593(int0: number, int1: number): void {
             script675();
         };
     } else if (((int0 == 20) || (int1 == 53))) {
-        if ((IF_GETHIDE(comp(1188, 28)) == false)) {
+        if ((IF_GETHIDE(comp(1188, 28)) == false)) {  // choice_v2:option_5
             script11648(77856799);
             IF_RESUME_PAUSEBUTTON(77856796);
         } else if ((int0 == 13)) {

@@ -15,22 +15,22 @@ function script9022(int0: number): void {
         script9021(88146190, 88146192, 88146193, 88146215, int2, 88146010);
     };
     if ((int2 == 1)) {
-        IF_SETHIDE(false, comp(1345, 77));
+        IF_SETHIDE(false, comp(1345, 77));  // featured_main:crs_reroll_button_layer
         script3536("Shuffle the deck of recommended content and deal another hand of cards.", 88145997, -1);
-        IF_SETHIDE(false, comp(1345, 97));
+        IF_SETHIDE(false, comp(1345, 97));  // featured_main:crs_reroll1_button_layer
         script3536("Shuffle this deck of recommended content.", 88146017, -1);
-        IF_SETHIDE(false, comp(1345, 289));
+        IF_SETHIDE(false, comp(1345, 289));  // featured_main:crs_reroll2_button_layer
         script3536("Shuffle this deck of recommended content.", 88146209, -1);
-        IF_SETHIDE(false, comp(1345, 292));
+        IF_SETHIDE(false, comp(1345, 292));  // featured_main:crs_reroll3_button_layer
         script3536("Shuffle this deck of recommended content.", 88146212, -1);
-        IF_SETHIDE(false, comp(1345, 295));
+        IF_SETHIDE(false, comp(1345, 295));  // featured_main:crs_reroll4_button_layer
         script3536("Shuffle this deck of recommended content.", 88146215, -1);
     } else {
-        IF_SETHIDE(true, comp(1345, 77));
-        IF_SETHIDE(true, comp(1345, 97));
-        IF_SETHIDE(true, comp(1345, 289));
-        IF_SETHIDE(true, comp(1345, 292));
-        IF_SETHIDE(true, comp(1345, 295));
+        IF_SETHIDE(true, comp(1345, 77));  // featured_main:crs_reroll_button_layer
+        IF_SETHIDE(true, comp(1345, 97));  // featured_main:crs_reroll1_button_layer
+        IF_SETHIDE(true, comp(1345, 289));  // featured_main:crs_reroll2_button_layer
+        IF_SETHIDE(true, comp(1345, 292));  // featured_main:crs_reroll3_button_layer
+        IF_SETHIDE(true, comp(1345, 295));  // featured_main:crs_reroll4_button_layer
     };
     script3536("Next Page", 88145922, -1);
     script13990(88146166, 88146167, 28556);
@@ -96,70 +96,70 @@ function script9022(int0: number): void {
             string0 = "";
         };
         if ((STRING_LENGTH(string0) > 0)) {
-            IF_SETTEXT(string0, comp(1345, 80));
-            IF_SETSCROLLPOS(0, 0, comp(1345, 82));
-            int18 = (script7593(IF_GETTEXT(comp(1345, 80)), IF_GETWIDTH(comp(1345, 80)), IF_GETFONTMETRICS(comp(1345, 80)), 0) + 5);
-            IF_SETSCROLLSIZE(0, int18, comp(1345, 82));
-            if ((int18 > IF_GETHEIGHT(comp(1345, 82)))) {
-                IF_SETHIDE(false, comp(1345, 84));
+            IF_SETTEXT(string0, comp(1345, 80));  // featured_main:crs_req
+            IF_SETSCROLLPOS(0, 0, comp(1345, 82));  // featured_main:crs_req_parent_layer
+            int18 = (script7593(IF_GETTEXT(comp(1345, 80)), IF_GETWIDTH(comp(1345, 80)), IF_GETFONTMETRICS(comp(1345, 80)), 0) + 5);  // featured_main:crs_req
+            IF_SETSCROLLSIZE(0, int18, comp(1345, 82));  // featured_main:crs_req_parent_layer
+            if ((int18 > IF_GETHEIGHT(comp(1345, 82)))) {  // featured_main:crs_req_parent_layer
+                IF_SETHIDE(false, comp(1345, 84));  // featured_main:crs_req_scroll_layer
                 script7791(88146004, 88146002);
             } else {
-                IF_SETHIDE(true, comp(1345, 84));
+                IF_SETHIDE(true, comp(1345, 84));  // featured_main:crs_req_scroll_layer
             };
             script13959(88146151, 28755, 0);
             string8 = "Display list of additional requirements.";
         } else {
-            IF_SETTEXT("No additional requirements", comp(1345, 80));
-            IF_SETHIDE(true, comp(1345, 73));
+            IF_SETTEXT("No additional requirements", comp(1345, 80));  // featured_main:crs_req
+            IF_SETHIDE(true, comp(1345, 73));  // featured_main:crs_req_layer
             script13959(88146151, 28755, 1);
             string8 = "This content does not have any additional requirements.";
         };
         script3536(string8, 88146150, -1);
-        if ((IF_GETHIDE(comp(1345, 73)) == true)) {
-            IF_SETGRAPHIC(31347 as graphic, comp(1345, 232));
+        if ((IF_GETHIDE(comp(1345, 73)) == true)) {  // featured_main:crs_req_layer
+            IF_SETGRAPHIC(31347 as graphic, comp(1345, 232));  // featured_main:crs_reqs_met_icon
         } else {
-            IF_SETGRAPHIC(31348 as graphic, comp(1345, 232));
+            IF_SETGRAPHIC(31348 as graphic, comp(1345, 232));  // featured_main:crs_reqs_met_icon
         };
         switch (int11) {
             case -1: {
                 script3536("Requirements not met.", 88146153, -1);
-                IF_SETHIDE(false, comp(1345, 233));
-                IF_SETHIDE(true, comp(1345, 234));
-                IF_SETHIDE(true, comp(1345, 235));
+                IF_SETHIDE(false, comp(1345, 233));  // featured_main:crs_reqs_met_cross
+                IF_SETHIDE(true, comp(1345, 234));  // featured_main:crs_reqs_met_tick
+                IF_SETHIDE(true, comp(1345, 235));  // featured_main:crs_reqs_met_complete
                 break;
             }
             case 0: {
                 script3536("Requirements met.", 88146154, -1);
-                IF_SETHIDE(false, comp(1345, 234));
-                IF_SETHIDE(true, comp(1345, 233));
-                IF_SETHIDE(true, comp(1345, 235));
+                IF_SETHIDE(false, comp(1345, 234));  // featured_main:crs_reqs_met_tick
+                IF_SETHIDE(true, comp(1345, 233));  // featured_main:crs_reqs_met_cross
+                IF_SETHIDE(true, comp(1345, 235));  // featured_main:crs_reqs_met_complete
                 break;
             }
             case -2: {
                 script3536("You have completed this content.", 88146155, -1);
-                IF_SETHIDE(false, comp(1345, 235));
-                IF_SETHIDE(true, comp(1345, 233));
-                IF_SETHIDE(true, comp(1345, 234));
+                IF_SETHIDE(false, comp(1345, 235));  // featured_main:crs_reqs_met_complete
+                IF_SETHIDE(true, comp(1345, 233));  // featured_main:crs_reqs_met_cross
+                IF_SETHIDE(true, comp(1345, 234));  // featured_main:crs_reqs_met_tick
                 break;
             }
             default: {
                 script3536("No requirements.", 88146154, -1);
-                IF_SETHIDE(false, comp(1345, 234));
-                IF_SETHIDE(true, comp(1345, 233));
-                IF_SETHIDE(true, comp(1345, 235));
+                IF_SETHIDE(false, comp(1345, 234));  // featured_main:crs_reqs_met_tick
+                IF_SETHIDE(true, comp(1345, 233));  // featured_main:crs_reqs_met_cross
+                IF_SETHIDE(true, comp(1345, 235));  // featured_main:crs_reqs_met_complete
                 break;
             }
         };
         if ((script9027(int3, int4, int5) == 1)) {
             script3536("Requires membership.", 88146156, -1);
-            IF_SETHIDE(false, comp(1345, 236));
-            IF_SETHIDE(true, comp(1345, 237));
+            IF_SETHIDE(false, comp(1345, 236));  // featured_main:crs_reqs_met_p2p
+            IF_SETHIDE(true, comp(1345, 237));  // featured_main:crs_reqs_met_f2p
         } else {
             script3536("Does not require membership.", 88146157, -1);
-            IF_SETHIDE(false, comp(1345, 237));
-            IF_SETHIDE(true, comp(1345, 236));
+            IF_SETHIDE(false, comp(1345, 237));  // featured_main:crs_reqs_met_f2p
+            IF_SETHIDE(true, comp(1345, 236));  // featured_main:crs_reqs_met_p2p
         };
-        int6 = comp(1345, 238);
+        int6 = comp(1345, 238);  // featured_main:crs_desc_layer
         int10 = IF_GETWIDTH(int6);
         CC_DELETEALL(int6);
         int12 = script7663(int3, int4, int5);
@@ -241,14 +241,14 @@ function script9022(int0: number): void {
             int9 = (int9 + 5);
             [int7, int9] = script12086(int6, int7, int8, int9, int10, string2, 11574);
         };
-        IF_SETSCROLLPOS(0, 0, comp(1345, 226));
-        int18 = ((IF_GETHEIGHT(comp(1345, 228)) + int9) + 5);
-        IF_SETSCROLLSIZE(0, int18, comp(1345, 226));
-        if ((int18 > IF_GETHEIGHT(comp(1345, 226)))) {
-            IF_SETHIDE(false, comp(1345, 227));
+        IF_SETSCROLLPOS(0, 0, comp(1345, 226));  // featured_main:crs_details_desc_layer
+        int18 = ((IF_GETHEIGHT(comp(1345, 228)) + int9) + 5);  // featured_main:crs_details_reqs_met_layer
+        IF_SETSCROLLSIZE(0, int18, comp(1345, 226));  // featured_main:crs_details_desc_layer
+        if ((int18 > IF_GETHEIGHT(comp(1345, 226)))) {  // featured_main:crs_details_desc_layer
+            IF_SETHIDE(false, comp(1345, 227));  // featured_main:crs_details_scroll_layer
             script7791(88146147, 88146146);
         } else {
-            IF_SETHIDE(true, comp(1345, 227));
+            IF_SETHIDE(true, comp(1345, 227));  // featured_main:crs_details_scroll_layer
         };
         if (((int3 != -1) && (struct_getparam(int3, 4253) != -1 as struct))) {
             int3 = struct_getparam(int3, 4253);
@@ -332,9 +332,9 @@ function script9022(int0: number): void {
             };
             script3536(string8, 88146161, -1);
             if ((int33 == 1)) {
-                IF_SETGRAPHIC(30140 as graphic, comp(1345, 245));
+                IF_SETGRAPHIC(30140 as graphic, comp(1345, 245));  // featured_main:crs_icon_track
             } else {
-                IF_SETGRAPHIC(30141 as graphic, comp(1345, 245));
+                IF_SETGRAPHIC(30141 as graphic, comp(1345, 245));  // featured_main:crs_icon_track
             };
             int15 = 0;
             if ((int12 == 7)) {

@@ -77,85 +77,85 @@ function script6385(): void {
     int1 = script5528(int1, int0, int2, varclient_4742, 77267028, 77267031, 77267030, 77267032);
     int1 = script5528(int1, int0, int2, varclient_5834, 77267033, 77267036, 77267035, 77267037);
     int1 = script5528(int1, int0, int2, varclient_5836, 77267038, 77267041, 77267040, 77267042);
-    IF_SETSIZE(MAX(320, MIN(512, (int1 + 84))), 230, 0, 0, comp(1179, 0));
-    if ((IF_GETHIDE(comp(1179, 9)) == false)) {
-        IF_SETPAUSETEXT("Select", comp(1179, 12));
+    IF_SETSIZE(MAX(320, MIN(512, (int1 + 84))), 230, 0, 0, comp(1179, 0));  // object_choice:mainmodal_window
+    if ((IF_GETHIDE(comp(1179, 9)) == false)) {  // object_choice:button_1
+        IF_SETPAUSETEXT("Select", comp(1179, 12));  // object_choice:button_graphics_1
     };
-    if ((IF_GETHIDE(comp(1179, 14)) == false)) {
-        IF_SETPAUSETEXT("Select", comp(1179, 17));
+    if ((IF_GETHIDE(comp(1179, 14)) == false)) {  // object_choice:button_2
+        IF_SETPAUSETEXT("Select", comp(1179, 17));  // object_choice:button_graphics_2
     };
-    if ((IF_GETHIDE(comp(1179, 19)) == false)) {
-        IF_SETPAUSETEXT("Select", comp(1179, 22));
+    if ((IF_GETHIDE(comp(1179, 19)) == false)) {  // object_choice:button_3
+        IF_SETPAUSETEXT("Select", comp(1179, 22));  // object_choice:button_graphics_3
     };
-    if ((IF_GETHIDE(comp(1179, 24)) == false)) {
-        IF_SETPAUSETEXT("Select", comp(1179, 27));
+    if ((IF_GETHIDE(comp(1179, 24)) == false)) {  // object_choice:button_4
+        IF_SETPAUSETEXT("Select", comp(1179, 27));  // object_choice:button_graphics_4
     };
-    if ((IF_GETHIDE(comp(1179, 29)) == false)) {
-        IF_SETPAUSETEXT("Select", comp(1179, 32));
+    if ((IF_GETHIDE(comp(1179, 29)) == false)) {  // object_choice:button_5
+        IF_SETPAUSETEXT("Select", comp(1179, 32));  // object_choice:button_graphics_5
     };
-    if ((IF_GETHIDE(comp(1179, 34)) == false)) {
-        IF_SETPAUSETEXT("Select", comp(1179, 37));
+    if ((IF_GETHIDE(comp(1179, 34)) == false)) {  // object_choice:button_6
+        IF_SETPAUSETEXT("Select", comp(1179, 37));  // object_choice:button_graphics_6
     };
-    if ((IF_GETHIDE(comp(1179, 39)) == false)) {
-        IF_SETPAUSETEXT("Select", comp(1179, 42));
+    if ((IF_GETHIDE(comp(1179, 39)) == false)) {  // object_choice:button_7
+        IF_SETPAUSETEXT("Select", comp(1179, 42));  // object_choice:button_graphics_7
     };
-    if ((IF_GETHIDE(comp(1179, 44)) == false)) {
-        IF_SETPAUSETEXT("Select", comp(1179, 47));
+    if ((IF_GETHIDE(comp(1179, 44)) == false)) {  // object_choice:button_8
+        IF_SETPAUSETEXT("Select", comp(1179, 47));  // object_choice:button_graphics_8
     };
-    if ((IF_GETHIDE(comp(1179, 49)) == false)) {
-        IF_SETPAUSETEXT("Select", comp(1179, 52));
+    if ((IF_GETHIDE(comp(1179, 49)) == false)) {  // object_choice:button_9
+        IF_SETPAUSETEXT("Select", comp(1179, 52));  // object_choice:button_graphics_9
     };
-    if ((IF_GETHIDE(comp(1179, 54)) == false)) {
-        IF_SETPAUSETEXT("Select", comp(1179, 57));
+    if ((IF_GETHIDE(comp(1179, 54)) == false)) {  // object_choice:button_10
+        IF_SETPAUSETEXT("Select", comp(1179, 57));  // object_choice:button_graphics_10
     };
-    if ((IF_GETHIDE(comp(1179, 59)) == false)) {
-        IF_SETPAUSETEXT("Select", comp(1179, 62));
+    if ((IF_GETHIDE(comp(1179, 59)) == false)) {  // object_choice:button_11
+        IF_SETPAUSETEXT("Select", comp(1179, 62));  // object_choice:button_graphics_11
     };
-    if ((IF_GETHIDE(comp(1179, 64)) == false)) {
-        IF_SETPAUSETEXT("Select", comp(1179, 67));
+    if ((IF_GETHIDE(comp(1179, 64)) == false)) {  // object_choice:button_12
+        IF_SETPAUSETEXT("Select", comp(1179, 67));  // object_choice:button_graphics_12
     };
-    if ((IF_GETHIDE(comp(1179, 69)) == false)) {
-        IF_SETPAUSETEXT("Select", comp(1179, 72));
+    if ((IF_GETHIDE(comp(1179, 69)) == false)) {  // object_choice:button_13
+        IF_SETPAUSETEXT("Select", comp(1179, 72));  // object_choice:button_graphics_13
     };
-    if ((IF_GETHIDE(comp(1179, 74)) == false)) {
-        IF_SETPAUSETEXT("Select", comp(1179, 77));
+    if ((IF_GETHIDE(comp(1179, 74)) == false)) {  // object_choice:button_14
+        IF_SETPAUSETEXT("Select", comp(1179, 77));  // object_choice:button_graphics_14
     };
-    if ((IF_GETHIDE(comp(1179, 79)) == false)) {
-        IF_SETPAUSETEXT("Select", comp(1179, 82));
+    if ((IF_GETHIDE(comp(1179, 79)) == false)) {  // object_choice:button_15
+        IF_SETPAUSETEXT("Select", comp(1179, 82));  // object_choice:button_graphics_15
     };
-    if ((IF_GETHIDE(comp(1179, 84)) == false)) {
-        IF_SETPAUSETEXT("Select", comp(1179, 87));
+    if ((IF_GETHIDE(comp(1179, 84)) == false)) {  // object_choice:button_16
+        IF_SETPAUSETEXT("Select", comp(1179, 87));  // object_choice:button_graphics_16
     };
-    if ((IF_GETHIDE(comp(1179, 89)) == false)) {
-        IF_SETPAUSETEXT("Select", comp(1179, 92));
+    if ((IF_GETHIDE(comp(1179, 89)) == false)) {  // object_choice:button_17
+        IF_SETPAUSETEXT("Select", comp(1179, 92));  // object_choice:button_graphics_17
     };
-    if ((IF_GETHIDE(comp(1179, 94)) == false)) {
-        IF_SETPAUSETEXT("Select", comp(1179, 97));
+    if ((IF_GETHIDE(comp(1179, 94)) == false)) {  // object_choice:button_18
+        IF_SETPAUSETEXT("Select", comp(1179, 97));  // object_choice:button_graphics_18
     };
-    int0 = IF_GETWIDTH(comp(1179, 8));
+    int0 = IF_GETWIDTH(comp(1179, 8));  // object_choice:menu
     if ((int1 > int0)) {
-        IF_SETSCROLLSIZE(int1, 0, comp(1179, 8));
-        IF_SETSCROLLPOS(varclient_93, 0, comp(1179, 8));
-        IF_SETONMOUSEREPEAT(callback(script5532, -2147483645, -4), comp(1179, 5));
-        IF_SETONMOUSEREPEAT(callback(script5532, -2147483645, 4), comp(1179, 6));
+        IF_SETSCROLLSIZE(int1, 0, comp(1179, 8));  // object_choice:menu
+        IF_SETSCROLLPOS(varclient_93, 0, comp(1179, 8));  // object_choice:menu
+        IF_SETONMOUSEREPEAT(callback(script5532, -2147483645, -4), comp(1179, 5));  // object_choice:left
+        IF_SETONMOUSEREPEAT(callback(script5532, -2147483645, 4), comp(1179, 6));  // object_choice:right
         stack(callback(script5532, -2147483645, -6));
         stack(77266949);
         IF_SETONHOLD();
         stack(callback(script5532, -2147483645, 6));
         stack(77266950);
         IF_SETONHOLD();
-        IF_SETONCLICK(callback(script5532, -2147483645, -6), comp(1179, 5));
-        IF_SETONCLICK(callback(script5532, -2147483645, 6), comp(1179, 6));
-        IF_SETHIDE(false, comp(1179, 5));
-        IF_SETHIDE(false, comp(1179, 6));
+        IF_SETONCLICK(callback(script5532, -2147483645, -6), comp(1179, 5));  // object_choice:left
+        IF_SETONCLICK(callback(script5532, -2147483645, 6), comp(1179, 6));  // object_choice:right
+        IF_SETHIDE(false, comp(1179, 5));  // object_choice:left
+        IF_SETHIDE(false, comp(1179, 6));  // object_choice:right
         script5533();
     } else {
-        IF_SETSCROLLSIZE(0, 0, comp(1179, 8));
-        IF_SETSCROLLPOS(0, 0, comp(1179, 8));
-        IF_CLEARSCRIPTHOOKS(comp(1179, 5));
-        IF_CLEARSCRIPTHOOKS(comp(1179, 6));
-        IF_SETHIDE(true, comp(1179, 5));
-        IF_SETHIDE(true, comp(1179, 6));
+        IF_SETSCROLLSIZE(0, 0, comp(1179, 8));  // object_choice:menu
+        IF_SETSCROLLPOS(0, 0, comp(1179, 8));  // object_choice:menu
+        IF_CLEARSCRIPTHOOKS(comp(1179, 5));  // object_choice:left
+        IF_CLEARSCRIPTHOOKS(comp(1179, 6));  // object_choice:right
+        IF_SETHIDE(true, comp(1179, 5));  // object_choice:left
+        IF_SETHIDE(true, comp(1179, 6));  // object_choice:right
     };
     return;
 }

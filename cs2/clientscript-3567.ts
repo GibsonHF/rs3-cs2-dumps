@@ -24,20 +24,20 @@ function script3567(int0: number, int1: number, int2: number, int3: number): voi
     var string5 = "";
     var string6 = "";
     var int8 = -1;
-    IF_SETHIDE(false, comp(916, 165));
-    IF_SETHIDE(true, comp(916, 163));
+    IF_SETHIDE(false, comp(916, 165));  // pop_ship:crew_compare_hover
+    IF_SETHIDE(true, comp(916, 163));  // pop_ship:hover_crew_dragable_hint
     var int9 = INV_GETOBJ(677 as inv, int0);
     var int10 = 0;
     var int11 = 0;
     if (((int9 == -1 as obj) || (int7 == 0))) {
-        IF_SETGRAPHIC(-1 as graphic, comp(916, 166));
-        IF_SETTEXT("Empty slot", comp(916, 167));
-        IF_SETTEXT("", comp(916, 168));
-        IF_SETTEXT("", comp(916, 176));
-        IF_SETTEXT("", comp(916, 173));
-        IF_SETTEXT("", comp(916, 174));
-        IF_SETTEXT("", comp(916, 175));
-        IF_SETTEXT("", comp(916, 177));
+        IF_SETGRAPHIC(-1 as graphic, comp(916, 166));  // pop_ship:hover_crew_icon
+        IF_SETTEXT("Empty slot", comp(916, 167));  // pop_ship:hover_crew_name
+        IF_SETTEXT("", comp(916, 168));  // pop_ship:hover_crew_level
+        IF_SETTEXT("", comp(916, 176));  // pop_ship:hover_crew_speed
+        IF_SETTEXT("", comp(916, 173));  // pop_ship:hover_crew_graft
+        IF_SETTEXT("", comp(916, 174));  // pop_ship:hover_crew_combat
+        IF_SETTEXT("", comp(916, 175));  // pop_ship:hover_crew_seafaring
+        IF_SETTEXT("", comp(916, 177));  // pop_ship:hover_crew_trait
         return;
     };
     int11 = enum_hasoutput(33, 2173 as cs2enum, int9);
@@ -46,13 +46,13 @@ function script3567(int0: number, int1: number, int2: number, int3: number): voi
     };
     [string0, string1, string2, string3, string4, string5, string6, int8] = script7318(677, int0);
     if ((int2 == 1)) {
-        IF_SETGRAPHIC(item_getparam(varclient_2626, 3080), comp(916, 166));
-        IF_SETTEXT(varclient_2627, comp(916, 167));
-        IF_SETTEXT(inttostring(varclient_2632, 10), comp(916, 176));
-        IF_SETTEXT(inttostring(varclient_2638, 10), comp(916, 173));
-        IF_SETTEXT(inttostring(varclient_2634, 10), comp(916, 174));
-        IF_SETTEXT(inttostring(varclient_2640, 10), comp(916, 175));
-        IF_SETTEXT(`Level ${inttostring(varclient_2642, 10)}`, comp(916, 168));
+        IF_SETGRAPHIC(item_getparam(varclient_2626, 3080), comp(916, 166));  // pop_ship:hover_crew_icon
+        IF_SETTEXT(varclient_2627, comp(916, 167));  // pop_ship:hover_crew_name
+        IF_SETTEXT(inttostring(varclient_2632, 10), comp(916, 176));  // pop_ship:hover_crew_speed
+        IF_SETTEXT(inttostring(varclient_2638, 10), comp(916, 173));  // pop_ship:hover_crew_graft
+        IF_SETTEXT(inttostring(varclient_2634, 10), comp(916, 174));  // pop_ship:hover_crew_combat
+        IF_SETTEXT(inttostring(varclient_2640, 10), comp(916, 175));  // pop_ship:hover_crew_seafaring
+        IF_SETTEXT(`Level ${inttostring(varclient_2642, 10)}`, comp(916, 168));  // pop_ship:hover_crew_level
         IF_SETTEXT(varclient_2629, 60031153);
         return;
     };
@@ -65,13 +65,13 @@ function script3567(int0: number, int1: number, int2: number, int3: number): voi
     } else if (((int10 == 0) && (int11 == 1))) {
         int1 = 0;
     };
-    IF_SETGRAPHIC(int8, comp(916, 166));
-    IF_SETTEXT(string0, comp(916, 167));
-    IF_SETTEXT(string1, comp(916, 176));
-    IF_SETTEXT(string2, comp(916, 173));
-    IF_SETTEXT(string3, comp(916, 174));
-    IF_SETTEXT(string4, comp(916, 175));
-    IF_SETTEXT(string5, comp(916, 168));
-    IF_SETTEXT(string6, comp(916, 177));
+    IF_SETGRAPHIC(int8, comp(916, 166));  // pop_ship:hover_crew_icon
+    IF_SETTEXT(string0, comp(916, 167));  // pop_ship:hover_crew_name
+    IF_SETTEXT(string1, comp(916, 176));  // pop_ship:hover_crew_speed
+    IF_SETTEXT(string2, comp(916, 173));  // pop_ship:hover_crew_graft
+    IF_SETTEXT(string3, comp(916, 174));  // pop_ship:hover_crew_combat
+    IF_SETTEXT(string4, comp(916, 175));  // pop_ship:hover_crew_seafaring
+    IF_SETTEXT(string5, comp(916, 168));  // pop_ship:hover_crew_level
+    IF_SETTEXT(string6, comp(916, 177));  // pop_ship:hover_crew_trait
     return;
 }

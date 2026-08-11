@@ -1,6 +1,6 @@
 //
 function script14439(): number {
-    if (((script9096() == 1) && (IF_HASSUBOVERLAY(comp(1420, 185), 1775 as overlayinterface) == 1))) {
+    if (((script9096() == 1) && (IF_HASSUBOVERLAY(comp(1420, 185), 1775 as overlayinterface) == 1))) {  // acc_create:newplayer_prompt
         return 1;
     };
     var int0 = script8875(3);

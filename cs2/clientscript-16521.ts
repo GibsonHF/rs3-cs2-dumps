@@ -3,9 +3,9 @@ function script16521(): void {
     var int0 = 0;
     var int1 = 0;
     var int2 = 0;
-    IF_SETGRAPHIC(21231 as graphic, comp(1253, 5));
-    IF_SETSIZE(0, 0, 1, 1, comp(1253, 5));
-    CC_DELETEALL(comp(1253, 3));
+    IF_SETGRAPHIC(21231 as graphic, comp(1253, 5));  // wheel_of_fortune:background
+    IF_SETSIZE(0, 0, 1, 1, comp(1253, 5));  // wheel_of_fortune:background
+    CC_DELETEALL(comp(1253, 3));  // wheel_of_fortune:background_holder
     [int1, int0] = [int0, (int0 + 1)];
     int2 = 0;
     stack(82116611);
@@ -13,13 +13,13 @@ function script16521(): void {
     stack(int2);
     int2 = (int2 + 1);
     script15938(0, -105, 1, 1, 0, 37, 1, 0);
-    CC_SETSCROLLSIZE((2 * IF_GETWIDTH(comp(1253, 3))), 0);
+    CC_SETSCROLLSIZE((2 * IF_GETWIDTH(comp(1253, 3))), 0);  // wheel_of_fortune:background_holder
     CC_SETSCROLLPOS((CC_GETSCROLLWIDTH() / 4), 0);
     CC_SETONTIMER(callback(script16522, int1, 6));
     stack(int1);
     stack(int2);
     int2 = (int2 + 1);
-    script7919(0, 0, 0, 1, (2 * IF_GETWIDTH(comp(1253, 3))), 0, 0, 1, 18631, 1, 0, 1, 32);
+    script7919(0, 0, 0, 1, (2 * IF_GETWIDTH(comp(1253, 3))), 0, 0, 1, 18631, 1, 0, 1, 32);  // wheel_of_fortune:background_holder
     [int1, int0] = [int0, (int0 + 1)];
     int2 = 0;
     stack(82116611);
@@ -27,13 +27,13 @@ function script16521(): void {
     stack(int2);
     int2 = (int2 + 1);
     script15938(0, -105, 1, 1, 0, 37, 1, 0);
-    CC_SETSCROLLSIZE((2 * IF_GETWIDTH(comp(1253, 3))), 0);
+    CC_SETSCROLLSIZE((2 * IF_GETWIDTH(comp(1253, 3))), 0);  // wheel_of_fortune:background_holder
     CC_SETSCROLLPOS(CC_GETSCROLLWIDTH(), 0);
     CC_SETONTIMER(callback(script16522, int1, 4));
     stack(int1);
     stack(int2);
     int2 = (int2 + 1);
-    script7919(0, 0, 0, 1, (2 * IF_GETWIDTH(comp(1253, 3))), 0, 0, 1, 18632, 0, 0, 1, 0);
+    script7919(0, 0, 0, 1, (2 * IF_GETWIDTH(comp(1253, 3))), 0, 0, 1, 18632, 0, 0, 1, 0);  // wheel_of_fortune:background_holder
     [int1, int0] = [int0, (int0 + 1)];
     int2 = 0;
     stack(82116611);

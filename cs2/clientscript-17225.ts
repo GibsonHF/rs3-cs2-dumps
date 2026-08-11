@@ -1,14 +1,14 @@
 //
 function script17225(int0: number, int1: number): void {
-    CC_DELETEALL(comp(1030, 16));
-    CC_DELETEALL(comp(1030, 17));
-    CC_DELETEALL(comp(1030, 18));
-    CC_DELETEALL(comp(1030, 19));
+    CC_DELETEALL(comp(1030, 16));  // quest_fort_casefile:entries_build_layer
+    CC_DELETEALL(comp(1030, 17));  // quest_fort_casefile:entries_discuss_button_layer
+    CC_DELETEALL(comp(1030, 18));  // quest_fort_casefile:entries_replay_button_layer
+    CC_DELETEALL(comp(1030, 19));  // quest_fort_casefile:entries_link_button_layer
     if ((int1 == -1 as dbrow)) {
         return;
     };
-    IF_SETSCROLLPOS(0, 0, comp(1030, 14));
-    script17222(67502094, IF_GETSCROLLHEIGHT(comp(1030, 14)), -1, 67502102, 67502103);
+    IF_SETSCROLLPOS(0, 0, comp(1030, 14));  // quest_fort_casefile:entries_scrolling_layer
+    script17222(67502094, IF_GETSCROLLHEIGHT(comp(1030, 14)), -1, 67502102, 67502103);  // quest_fort_casefile:entries_scrolling_layer
     var int2 = -1;
     var int3 = DB_GETFIELDCOUNT(int1, 892928);
     var int4 = -1 as dbrow;
@@ -20,7 +20,7 @@ function script17225(int0: number, int1: number): void {
     var int10 = 50;
     var int11 = int10;
     var int12 = 0;
-    var int13 = IF_GETHEIGHT(comp(1030, 14));
+    var int13 = IF_GETHEIGHT(comp(1030, 14));  // quest_fort_casefile:entries_scrolling_layer
     var int14 = int13;
     int2 = (int2 + 1);
     while ((int2 < int3)) {
@@ -32,7 +32,7 @@ function script17225(int0: number, int1: number): void {
                 int9 = 0;
                 int12 = int11;
             } else {
-                int9 = (IF_GETWIDTH(comp(1030, 16)) - 326);
+                int9 = (IF_GETWIDTH(comp(1030, 16)) - 326);  // quest_fort_casefile:entries_build_layer
                 int11 = int12;
             };
             int5 = (int5 + 1);
@@ -52,12 +52,12 @@ function script17225(int0: number, int1: number): void {
             };
         };
     };
-    IF_SETSCROLLSIZE(0, int14, comp(1030, 14));
+    IF_SETSCROLLSIZE(0, int14, comp(1030, 14));  // quest_fort_casefile:entries_scrolling_layer
     if ((int14 > int13)) {
-        IF_SETHIDE(false, comp(1030, 15));
+        IF_SETHIDE(false, comp(1030, 15));  // quest_fort_casefile:entries_navigation_layer
         script17220(67502094, int13, 67502100, 67502102, 67502101, 67502103);
     } else {
-        IF_SETHIDE(true, comp(1030, 15));
+        IF_SETHIDE(true, comp(1030, 15));  // quest_fort_casefile:entries_navigation_layer
     };
     return;
 }

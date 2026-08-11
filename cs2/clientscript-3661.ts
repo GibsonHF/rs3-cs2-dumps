@@ -1,6 +1,6 @@
 //
 function script3661(int0: number): void {
-    CC_DELETEALL(comp(634, 14));
+    CC_DELETEALL(comp(634, 14));  // runepass:back_main
     var int1 = -1;
     var int2 = 0;
     var int3 = 0;

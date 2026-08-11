@@ -21,9 +21,9 @@ function script13332(int0: number): void {
     var int6 = 0;
     var int7 = 0;
     var string0 = "";
-    CC_DELETEALL(comp(1851, 12));
-    IF_SETHIDE(true, comp(1851, 12));
-    IF_SETHIDE(true, comp(1851, 41));
+    CC_DELETEALL(comp(1851, 12));  // achievements_sub:subcategory_container
+    IF_SETHIDE(true, comp(1851, 12));  // achievements_sub:subcategory_container
+    IF_SETHIDE(true, comp(1851, 41));  // achievements_sub:cheevo_details
     int2 = enum_getvalue(0, 73, 11155 as cs2enum, int0);
     if ((int2 == -1 as struct)) {
         return;
@@ -37,16 +37,16 @@ function script13332(int0: number): void {
     var int0 = (int0 + 1);
     var string1 = "";
     if ((int3 != -1 as cs2enum)) {
-        IF_SETHIDE(false, comp(1851, 12));
+        IF_SETHIDE(false, comp(1851, 12));  // achievements_sub:subcategory_container
         int5 = ENUM_GETOUTPUTCOUNT(int3);
-        IF_SETSIZE((5 * 2), (2 + (int5 * (32 + 2))), 1, 0, comp(1851, 12));
-        IF_SETPOSITION(5, (2 + ((45 + 2) * int0)), 1, 0, comp(1851, 12));
+        IF_SETSIZE((5 * 2), (2 + (int5 * (32 + 2))), 1, 0, comp(1851, 12));  // achievements_sub:subcategory_container
+        IF_SETPOSITION(5, (2 + ((45 + 2) * int0)), 1, 0, comp(1851, 12));  // achievements_sub:subcategory_container
         while ((int6 < int5)) {
             int8 = enum_getvalue(0, 73, int3, int6);
             if ((varclient_5990 == int6)) {
                 int12 = struct_getparam(int8, 6422);
             };
-            CC_CREATE(comp(1851, 12), 3, (int6 * 3));
+            CC_CREATE(comp(1851, 12), 3, (int6 * 3));  // achievements_sub:subcategory_container
             CC_SETPOSITION(1, ((int6 * (32 + 2)) + 2), 0, 0);
             CC_SETSIZE(5, 32, 1, 0);
             CC_SETFILL(1);
@@ -61,7 +61,7 @@ function script13332(int0: number): void {
             };
             CC_SETONOP(callback(script13333, struct_getparam(int8, 6422), int6, 1));
             CC_SETOP(1, "Select");
-            CC_CREATE(comp(1851, 12), 4, ((int6 * 3) + 1));
+            CC_CREATE(comp(1851, 12), 4, ((int6 * 3) + 1));  // achievements_sub:subcategory_container
             CC_SETPOSITION((5 + (2 * 2)), ((int6 * (32 + 2)) + 2), 2, 0);
             [int9, int10, int11] = script13289(struct_getparam(int8, 6757));
             CC_SETTEXT(`${TOSTRING_LOCALISED(int9, 1)}/${TOSTRING_LOCALISED(int10, 1)}`);
@@ -70,7 +70,7 @@ function script13332(int0: number): void {
             CC_SETTEXTFONT(26 as fontmetrics);
             CC_SETCOLOUR(script10495(3));
             CC_SETSIZE(50, (32 - 2), 0, 0);
-            CC_CREATE(comp(1851, 12), 4, ((int6 * 3) + 2));
+            CC_CREATE(comp(1851, 12), 4, ((int6 * 3) + 2));  // achievements_sub:subcategory_container
             CC_SETPOSITION(5, ((int6 * (32 + 2)) + 2), 0, 0);
             CC_SETSIZE(85, 32, 0, 0);
             CC_SETCOLOUR(script10495(3));
@@ -125,13 +125,13 @@ function script13332(int0: number): void {
             varplayer_6891 = int12;
             script13614(int12, varclient_5990, 2);
         } else {
-            CC_DELETEALL(comp(1851, 40));
+            CC_DELETEALL(comp(1851, 40));  // achievements_sub:build_layer
         };
     } else if ((int12 != -1)) {
         varplayer_6891 = int12;
         script13614(int12, varclient_5990, 2);
     } else {
-        CC_DELETEALL(comp(1851, 40));
+        CC_DELETEALL(comp(1851, 40));  // achievements_sub:build_layer
     };
     return;
 }

@@ -46,22 +46,22 @@ function script6782(): void {
         };
         int3 = dbrow_findnext();
     };
-    IF_SETTEXT(`Bonus Prizes  <col=FFFFFF>(${inttostring(int1, 10)})</col>`, comp(1253, 317));
+    IF_SETTEXT(`Bonus Prizes  <col=FFFFFF>(${inttostring(int1, 10)})</col>`, comp(1253, 317));  // wheel_of_fortune:reward_layer_bonus_prizes_title
     if ((CC_FIND(int0, 0) == 1)) {
         CC_SETSIZE((80 * int1), 0, 0, 1);
         if ((int1 <= 8)) {
             script13959(82116930, 37674, 1);
             script13959(82116932, 37674, 1);
-            IF_SETHIDE(true, comp(1253, 321));
-            IF_SETHIDE(true, comp(1253, 323));
+            IF_SETHIDE(true, comp(1253, 321));  // wheel_of_fortune:reward_layer_bonus_prizes_scroll_left
+            IF_SETHIDE(true, comp(1253, 323));  // wheel_of_fortune:reward_layer_bonus_prizes_scroll_right
         } else {
-            IF_SETSCROLLSIZE(CC_GETWIDTH(), 0, comp(1253, 319));
-            IF_SETSCROLLPOS(0, 0, comp(1253, 319));
+            IF_SETSCROLLSIZE(CC_GETWIDTH(), 0, comp(1253, 319));  // wheel_of_fortune:reward_layer_bonus_prizes_content_scroll_layer
+            IF_SETSCROLLPOS(0, 0, comp(1253, 319));  // wheel_of_fortune:reward_layer_bonus_prizes_content_scroll_layer
             script13959(82116930, 37674, 1);
-            IF_SETHIDE(false, comp(1253, 321));
-            IF_SETHIDE(false, comp(1253, 323));
+            IF_SETHIDE(false, comp(1253, 321));  // wheel_of_fortune:reward_layer_bonus_prizes_scroll_left
+            IF_SETHIDE(false, comp(1253, 323));  // wheel_of_fortune:reward_layer_bonus_prizes_scroll_right
         };
     };
-    IF_SETTEXT(`(${inttostring(int1, 10)})`, comp(1253, 318));
+    IF_SETTEXT(`(${inttostring(int1, 10)})`, comp(1253, 318));  // wheel_of_fortune:reward_layer_bonus_prizes_number
     return;
 }

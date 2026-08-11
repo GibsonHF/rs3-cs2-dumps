@@ -1,6 +1,6 @@
 //
 function script3370(int0: number, int1: number): void {
-    if ((CC_FIND(comp(1216, 6), int0) == 1)) {
+    if ((CC_FIND(comp(1216, 6), int0) == 1)) {  // levelup:unlocks_layer
         if ((CLIENTCLOCK() > (int1 + 50))) {
             CC_SETPOSITION(CC_GETX(), MAX((CC_GETY() - 2), 0), 0, 0);
             CC_SETTRANS(MIN(255, (CC_GETTRANS() + 7)));

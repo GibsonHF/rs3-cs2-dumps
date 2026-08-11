@@ -6,9 +6,9 @@ function script5905(): void {
     } else {
         string0 = "Traverse course obstacles to increase velocity. When you have maximum velocity, you will automatically traverse the next obstacle.";
     };
-    IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643), comp(1550, 5));
+    IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643), comp(1550, 5));  // elfcity_hefin_course_overlay:velocity_layer
     var int0 = 0;
-    if (((IF_FIND(comp(1550, 12)) == 1) && (IF_FIND[1](CC_GETPARENTLAYER()) == 1))) {
+    if (((IF_FIND(comp(1550, 12)) == 1) && (IF_FIND[1](CC_GETPARENTLAYER()) == 1))) {  // elfcity_hefin_course_overlay:velocity_bar_layer
         int0 = script669(varbitplayer_25931, 100, CC_GETWIDTH[1]());
         CC_SETSIZE(int0, CC_GETHEIGHT(), 0, 0);
     };

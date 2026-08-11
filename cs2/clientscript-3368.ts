@@ -1,6 +1,6 @@
 //
 function script3368(int0: number, int1: number, string0: string): void {
-    if ((((CC_FIND(comp(1216, 6), int0) == 1) && (STRING_LENGTH(CC_GETTEXT()) == 0)) && (CLIENTCLOCK() > int1))) {
+    if ((((CC_FIND(comp(1216, 6), int0) == 1) && (STRING_LENGTH(CC_GETTEXT()) == 0)) && (CLIENTCLOCK() > int1))) {  // levelup:unlocks_layer
         var string0 = strconcat("New: ", string0);
         CC_SETTEXT(string0);
         CC_SETTEXTFONT(23 as fontmetrics);

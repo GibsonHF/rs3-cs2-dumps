@@ -329,8 +329,8 @@ function script14999(int0: number, int1: number, int2: number): void {
     } else {
         script9087(int6, string0, string2, int0, -1);
     };
-    IF_SETGRAPHIC(int5, comp(1092, 44));
-    IF_SETPOSITION((IF_GETX(int0) - 5), (IF_GETY(int0) - 5), 0, 0, comp(1092, 43));
-    IF_SETHIDE(false, comp(1092, 43));
+    IF_SETGRAPHIC(int5, comp(1092, 44));  // thas_lodestone_map:hubs_rollover_graphic
+    IF_SETPOSITION((IF_GETX(int0) - 5), (IF_GETY(int0) - 5), 0, 0, comp(1092, 43));  // thas_lodestone_map:hubs_rollover
+    IF_SETHIDE(false, comp(1092, 43));  // thas_lodestone_map:hubs_rollover
     return;
 }

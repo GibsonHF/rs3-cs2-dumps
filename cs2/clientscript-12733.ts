@@ -13,7 +13,7 @@ function script12733(): void {
     if ((int2 == 1)) {
         int0 = MIN((int0 + 1), 8);
     };
-    int5 = comp(1786, 146);
+    int5 = comp(1786, 146);  // trh104_overlay:east
     if (((varbitplayer_33713 + 1) < int0)) {
         if (((varbitplayer_33713 + 1) < 8)) {
             int6 = 15455 as graphic;
@@ -51,7 +51,7 @@ function script12733(): void {
         IF_SETONMOUSELEAVE(callback(), int5);
     };
     string0 = "Travel";
-    int5 = comp(1786, 26);
+    int5 = comp(1786, 26);  // trh104_overlay:west
     if ((varbitplayer_33713 > 0)) {
         int6 = 15455 as graphic;
         IF_SETOP(1, "Travel", int5);
@@ -70,55 +70,55 @@ function script12733(): void {
     if ((varbitplayer_33716 > 0)) {
         if (((varbitplayer_33713 + 1) == int0)) {
             if ((varbitplayer_33712 != 45)) {
-                IF_SETHIDE(true, comp(1786, 121));
+                IF_SETHIDE(true, comp(1786, 121));  // trh104_overlay:positive_button_disabled_layer
             } else {
-                IF_SETHIDE(false, comp(1786, 121));
+                IF_SETHIDE(false, comp(1786, 121));  // trh104_overlay:positive_button_disabled_layer
             };
         } else {
-            IF_SETHIDE(false, comp(1786, 121));
+            IF_SETHIDE(false, comp(1786, 121));  // trh104_overlay:positive_button_disabled_layer
         };
     } else {
-        IF_SETHIDE(false, comp(1786, 121));
+        IF_SETHIDE(false, comp(1786, 121));  // trh104_overlay:positive_button_disabled_layer
     };
-    IF_SETHIDE(true, comp(1786, 2));
-    IF_SETHIDE(true, comp(1786, 3));
-    IF_SETHIDE(true, comp(1786, 4));
-    IF_SETHIDE(true, comp(1786, 5));
-    IF_SETHIDE(true, comp(1786, 6));
-    IF_SETHIDE(true, comp(1786, 7));
-    IF_SETHIDE(true, comp(1786, 8));
-    IF_SETHIDE(true, comp(1786, 9));
+    IF_SETHIDE(true, comp(1786, 2));  // trh104_overlay:title1
+    IF_SETHIDE(true, comp(1786, 3));  // trh104_overlay:title2
+    IF_SETHIDE(true, comp(1786, 4));  // trh104_overlay:title3
+    IF_SETHIDE(true, comp(1786, 5));  // trh104_overlay:title4
+    IF_SETHIDE(true, comp(1786, 6));  // trh104_overlay:title5
+    IF_SETHIDE(true, comp(1786, 7));  // trh104_overlay:title6
+    IF_SETHIDE(true, comp(1786, 8));  // trh104_overlay:title7
+    IF_SETHIDE(true, comp(1786, 9));  // trh104_overlay:title8
     switch (varbitplayer_33713) {
         case 0: {
-            IF_SETHIDE(false, comp(1786, 2));
+            IF_SETHIDE(false, comp(1786, 2));  // trh104_overlay:title1
             break;
         }
         case 1: {
-            IF_SETHIDE(false, comp(1786, 3));
+            IF_SETHIDE(false, comp(1786, 3));  // trh104_overlay:title2
             break;
         }
         case 2: {
-            IF_SETHIDE(false, comp(1786, 4));
+            IF_SETHIDE(false, comp(1786, 4));  // trh104_overlay:title3
             break;
         }
         case 3: {
-            IF_SETHIDE(false, comp(1786, 5));
+            IF_SETHIDE(false, comp(1786, 5));  // trh104_overlay:title4
             break;
         }
         case 4: {
-            IF_SETHIDE(false, comp(1786, 6));
+            IF_SETHIDE(false, comp(1786, 6));  // trh104_overlay:title5
             break;
         }
         case 5: {
-            IF_SETHIDE(false, comp(1786, 7));
+            IF_SETHIDE(false, comp(1786, 7));  // trh104_overlay:title6
             break;
         }
         case 6: {
-            IF_SETHIDE(false, comp(1786, 8));
+            IF_SETHIDE(false, comp(1786, 8));  // trh104_overlay:title7
             break;
         }
         case 7: {
-            IF_SETHIDE(false, comp(1786, 9));
+            IF_SETHIDE(false, comp(1786, 9));  // trh104_overlay:title8
             break;
         }
     };

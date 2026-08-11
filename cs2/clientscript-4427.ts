@@ -1,10 +1,10 @@
 //
 function script4427(): void {
-    IF_SETHIDE(true, comp(1253, 89));
-    IF_SETHIDE(true, comp(1253, 171));
+    IF_SETHIDE(true, comp(1253, 89));  // wheel_of_fortune:foreground_layer
+    IF_SETHIDE(true, comp(1253, 171));  // wheel_of_fortune:ticker_tape_viewport
     var int0 = 0;
-    IF_SETGRAPHIC(33711 as graphic, comp(1253, 5));
-    CC_DELETEALL(comp(1253, 3));
+    IF_SETGRAPHIC(33711 as graphic, comp(1253, 5));  // wheel_of_fortune:background
+    CC_DELETEALL(comp(1253, 3));  // wheel_of_fortune:background_holder
     stack(82116611);
     stack(int0);
     int0 = (int0 + 1);
@@ -42,8 +42,8 @@ function script4427(): void {
     CC_SETNPCMODEL(27082 as npc);
     CC_SETOP(1, "Pet");
     CC_SETONOP(callback(script18841));
-    IF_SETMODELLIGHTING(2048, 0, 0, 255, 255, 255, 0, -1, -4, 13802 as material, comp(1253, 31));
-    IF_SETMODELLIGHTING(2048, 0, 0, 255, 255, 255, 0, -1, -4, 13802 as material, comp(1253, 21));
-    IF_SETMODELLIGHTING(2048, 0, 0, 255, 255, 255, 0, -1, -4, 13802 as material, comp(1253, 26));
+    IF_SETMODELLIGHTING(2048, 0, 0, 255, 255, 255, 0, -1, -4, 13802 as material, comp(1253, 31));  // wheel_of_fortune:chest_model_1
+    IF_SETMODELLIGHTING(2048, 0, 0, 255, 255, 255, 0, -1, -4, 13802 as material, comp(1253, 21));  // wheel_of_fortune:chest_model_2
+    IF_SETMODELLIGHTING(2048, 0, 0, 255, 255, 255, 0, -1, -4, 13802 as material, comp(1253, 26));  // wheel_of_fortune:chest_model_3
     return;
 }

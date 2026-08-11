@@ -1,6 +1,6 @@
 //
 function script6094(): void {
-    var int0 = comp(1265, 20);
+    var int0 = comp(1265, 20);  // shop_main:list_background
     var int1 = 24086 as graphic;
     if ((varbitplayer_987 == 1)) {
         int1 = 24086 as graphic;
@@ -15,7 +15,7 @@ function script6094(): void {
         int2 = (int2 + 1);
     };
     int2 = 0;
-    int0 = comp(1265, 14);
+    int0 = comp(1265, 14);  // shop_main:free_background
     while ((int2 < 40)) {
         if ((CC_FIND(int0, int2) == 1)) {
             CC_SETGRAPHIC(int1);

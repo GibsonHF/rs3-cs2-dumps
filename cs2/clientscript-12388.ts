@@ -81,6 +81,6 @@ function script12388(int0: number, int1: number): void {
     } else {
         int2 = MIN(int3, SCALE(int3, (int4 - int5), (int0 - int5)));
     };
-    IF_SETSIZE(int2, 25, 0, 0, comp(1747, 34));
+    IF_SETSIZE(int2, 25, 0, 0, comp(1747, 34));  // gwd2_rep:com_34 ?
     return;
 }

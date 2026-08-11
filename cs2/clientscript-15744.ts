@@ -27,7 +27,7 @@ function script15744(string0: string): void {
         }
     };
     SHOP_PURCHASEITEM(string0);
-    IF_SETHIDE(false, comp(828, 9));
-    IF_SETONTIMER(callback(script15745, -2147483645, string0), comp(828, 9));
+    IF_SETHIDE(false, comp(828, 9));  // mobile_shop_hard_currency:one_tap_purchase_layer
+    IF_SETONTIMER(callback(script15745, -2147483645, string0), comp(828, 9));  // mobile_shop_hard_currency:one_tap_purchase_layer
     return;
 }

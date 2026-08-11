@@ -7,7 +7,7 @@ function script13792(): void {
     var int4 = -1;
     int4 = (int4 + 1);
     while ((int4 < int0)) {
-        CC_CREATE(comp(1918, 3), 5, int3);
+        CC_CREATE(comp(1918, 3), 5, int3);  // dave_quest_bank:dave_bank_content_layer
         CC_SETSIZE(36, 32, 0, 0);
         CC_SETPOSITION(int1, int2, 0, 0);
         if ((INV_GETOBJ(841 as inv, int3) != -1 as obj)) {

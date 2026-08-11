@@ -15,9 +15,9 @@ function script1137(): void {
         script13960(83623971, 28693, 0, 0);
     };
     if (((varbitplayer_17420 < 1) || (varbitplayer_17461 > 10))) {
-        IF_SETHIDE(false, comp(1276, 106));
+        IF_SETHIDE(false, comp(1276, 106));  // pop_crew:add_crew_no
     } else {
-        IF_SETHIDE(true, comp(1276, 106));
+        IF_SETHIDE(true, comp(1276, 106));  // pop_crew:add_crew_no
     };
     return;
 }

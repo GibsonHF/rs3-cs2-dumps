@@ -18,7 +18,7 @@ function script1362(int0: number): void {
                 } else {
                     IF_SETONVARTRANSMIT(callback(script8490, int0, 1772, 1773, 1774, 4739, 1775, 458, 458, 458, 457, 1775, 3680, 4737, 5967, 1775, 9451, 9451, 4818, 17), int1);
                 };
-                IF_SETONVARTRANSMIT(callback(script464, 3680, 1), comp(137, 54));
+                IF_SETONVARTRANSMIT(callback(script464, 3680, 1), comp(137, 54));  // chatdefault:rebuild_timer
                 break;
             }
             case 19: {

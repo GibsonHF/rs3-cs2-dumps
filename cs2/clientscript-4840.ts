@@ -34,50 +34,50 @@ function script4840(): void {
     switch (int0) {
         case 1: {
             if ((int2 > 0)) {
-                IF_SETTEXT(inttostring(int2, 10), comp(1258, 486));
+                IF_SETTEXT(inttostring(int2, 10), comp(1258, 486));  // clan_stronghold_main_decor:custom_total_resource1_1
             } else {
-                IF_SETTEXT("", comp(1258, 486));
+                IF_SETTEXT("", comp(1258, 486));  // clan_stronghold_main_decor:custom_total_resource1_1
             };
-            int7 = comp(1258, 483);
-            int8 = comp(1258, 484);
-            int9 = comp(1258, 485);
+            int7 = comp(1258, 483);  // clan_stronghold_main_decor:custom_total_resource_icon1_1
+            int8 = comp(1258, 484);  // clan_stronghold_main_decor:custom_total_resource_icon2_1
+            int9 = comp(1258, 485);  // clan_stronghold_main_decor:custom_total_resource_icon3_1
             break;
         }
         case 2: {
             if ((int2 > 0)) {
-                IF_SETTEXT(inttostring(int2, 10), comp(1258, 411));
+                IF_SETTEXT(inttostring(int2, 10), comp(1258, 411));  // clan_stronghold_main_decor:custom_total_resource1_2
             } else {
-                IF_SETTEXT("", comp(1258, 411));
+                IF_SETTEXT("", comp(1258, 411));  // clan_stronghold_main_decor:custom_total_resource1_2
             };
             if ((int4 > 0)) {
-                IF_SETTEXT(inttostring(int4, 10), comp(1258, 412));
+                IF_SETTEXT(inttostring(int4, 10), comp(1258, 412));  // clan_stronghold_main_decor:custom_total_resource2_2
             } else {
-                IF_SETTEXT("", comp(1258, 412));
+                IF_SETTEXT("", comp(1258, 412));  // clan_stronghold_main_decor:custom_total_resource2_2
             };
-            int7 = comp(1258, 408);
-            int8 = comp(1258, 409);
-            int9 = comp(1258, 410);
+            int7 = comp(1258, 408);  // clan_stronghold_main_decor:custom_total_resource_icon1_2
+            int8 = comp(1258, 409);  // clan_stronghold_main_decor:custom_total_resource_icon2_2
+            int9 = comp(1258, 410);  // clan_stronghold_main_decor:custom_total_resource_icon3_2
             break;
         }
         case 3: {
             if ((int2 > 0)) {
-                IF_SETTEXT(inttostring(int2, 10), comp(1258, 330));
+                IF_SETTEXT(inttostring(int2, 10), comp(1258, 330));  // clan_stronghold_main_decor:custom_total_resource1_3
             } else {
-                IF_SETTEXT("", comp(1258, 330));
+                IF_SETTEXT("", comp(1258, 330));  // clan_stronghold_main_decor:custom_total_resource1_3
             };
             if ((int4 > 0)) {
-                IF_SETTEXT(inttostring(int4, 10), comp(1258, 332));
+                IF_SETTEXT(inttostring(int4, 10), comp(1258, 332));  // clan_stronghold_main_decor:custom_total_resource2_3
             } else {
-                IF_SETTEXT("", comp(1258, 332));
+                IF_SETTEXT("", comp(1258, 332));  // clan_stronghold_main_decor:custom_total_resource2_3
             };
             if ((int6 > 0)) {
-                IF_SETTEXT(inttostring(int6, 10), comp(1258, 331));
+                IF_SETTEXT(inttostring(int6, 10), comp(1258, 331));  // clan_stronghold_main_decor:custom_total_resource3_3
             } else {
-                IF_SETTEXT("", comp(1258, 331));
+                IF_SETTEXT("", comp(1258, 331));  // clan_stronghold_main_decor:custom_total_resource3_3
             };
-            int7 = comp(1258, 327);
-            int8 = comp(1258, 328);
-            int9 = comp(1258, 329);
+            int7 = comp(1258, 327);  // clan_stronghold_main_decor:custom_total_resource_icon1_3
+            int8 = comp(1258, 328);  // clan_stronghold_main_decor:custom_total_resource_icon2_3
+            int9 = comp(1258, 329);  // clan_stronghold_main_decor:custom_total_resource_icon3_3
             break;
         }
         default: {

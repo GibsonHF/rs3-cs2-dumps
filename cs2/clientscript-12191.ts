@@ -13,7 +13,7 @@ function script12191(int0: number): number {
     stack(int1);
     int1 = (int1 - 1);
     while (BRANCH_GREATER_THAN(0)) {
-        if ((CC_FIND(comp(1712, 3), int1) == 1)) {
+        if ((CC_FIND(comp(1712, 3), int1) == 1)) {  // invent_gizmo:work_layer
             int5 = cc_getparam(5529);
             if ((int5 != -1 as dbrow)) {
                 int4 = 1;

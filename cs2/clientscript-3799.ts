@@ -100,11 +100,11 @@ function script3799(int0: number, int1: number, int2: number, int3: number, int4
         case 41549834: {
             varclient_6739 = 0;
             varclient_6740 = 0;
-            varclient_6741 = IF_GETSCROLLY(comp(634, 10));
+            varclient_6741 = IF_GETSCROLLY(comp(634, 10));  // runepass:scrolling
             if ((int3 == 0)) {
-                IF_SETGRAPHIC(11960 as graphic, comp(634, 43));
+                IF_SETGRAPHIC(11960 as graphic, comp(634, 43));  // runepass:slider_yak
             } else {
-                IF_SETGRAPHIC(11946 as graphic, comp(634, 43));
+                IF_SETGRAPHIC(11946 as graphic, comp(634, 43));  // runepass:slider_yak
             };
             script3660(int2);
             return;

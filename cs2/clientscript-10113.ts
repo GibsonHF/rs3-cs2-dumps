@@ -1,7 +1,7 @@
 //
 function script10113(int0: number, int1: number, int2: number): void {
     var int3 = 0;
-    var int4 = comp(232, 8);
+    var int4 = comp(232, 8);  // toplevel_v2_parent_suboverlay_twitch:build_layer
     if (((varclient_4294 != -1) && (CC_FIND(int4, varclient_4294) == 1))) {
         int3 = (CC_GETY() / 47);
         if ((MODULO(int3, 2) == 0)) {

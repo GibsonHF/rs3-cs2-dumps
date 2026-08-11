@@ -1,7 +1,7 @@
 //
 function script16388(int0: number, int1: number): void {
-    var int2 = IF_GETWIDTH(comp(955, 6));
-    var int3 = IF_GETHEIGHT(comp(955, 6));
+    var int2 = IF_GETWIDTH(comp(955, 6));  // uitutorial:main_container
+    var int3 = IF_GETHEIGHT(comp(955, 6));  // uitutorial:main_container
     var int4 = 0;
     if ((int0 < 0)) {
         int4 = 1;
@@ -15,7 +15,7 @@ function script16388(int0: number, int1: number): void {
     if (((varclient_3851 != 0) && (int4 == varclient_3851))) {
         return;
     };
-    CC_CREATE(comp(955, 9), 5, 0);
+    CC_CREATE(comp(955, 9), 5, 0);  // uitutorial:arrow_layer
     CC_SETGRAPHIC(21393 as graphic);
     CC_SETSIZE(41, 54, 0, 0);
     CC_SETONTIMER(callback(script773, 0, 0, 62586889));

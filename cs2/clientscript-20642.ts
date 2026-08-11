@@ -59,8 +59,8 @@ function script20642(int0: number, int1: number): number {
             int4 = dbrow_getfield(int2, 1425408, 0);
             string0 = dbrow_getfield(int2, 1425456, 0);
             int5 = script20474(int2);
-            if ((CC_FIND(comp(1498, 2), int0) == 1)) {
-                script15937(UI_GETCATEGORY(IF_GETNEXTSUBID(comp(1498, 2))), UI_GETDYNID(IF_GETNEXTSUBID(comp(1498, 2))), 0, 0, 1, 0, 176, 176, 0, 0);
+            if ((CC_FIND(comp(1498, 2), int0) == 1)) {  // marketplace_store:items_holder
+                script15937(UI_GETCATEGORY(IF_GETNEXTSUBID(comp(1498, 2))), UI_GETDYNID(IF_GETNEXTSUBID(comp(1498, 2))), 0, 0, 1, 0, 176, 176, 0, 0);  // marketplace_store:items_holder
             };
             if (((int13 == 1) || (int14 == 3))) {
                 CC_SETOP(1, "Preview");
@@ -107,10 +107,10 @@ function script20642(int0: number, int1: number): number {
             };
             script20616(98172930, string0, int5, string1, int8, string3, int17, 6, 6, 1, 1, int19, int15, script20658(int7), int16, string2, int18);
             if (((int13 == 0) && (int14 == 1))) {
-                script10033(UI_GETCATEGORY(IF_GETNEXTSUBID(comp(1498, 2))), UI_GETDYNID(IF_GETNEXTSUBID(comp(1498, 2))), 0, 0, 0, 0, 0, 0, 1, 1, 4127);
+                script10033(UI_GETCATEGORY(IF_GETNEXTSUBID(comp(1498, 2))), UI_GETDYNID(IF_GETNEXTSUBID(comp(1498, 2))), 0, 0, 0, 0, 0, 0, 1, 1, 4127);  // marketplace_store:items_holder
                 CC_SETCOLOUR(986381);
                 CC_SETTRANS(75);
-                script10485(UI_GETCATEGORY(IF_GETNEXTSUBID(comp(1498, 2))), UI_GETDYNID(IF_GETNEXTSUBID(comp(1498, 2))), 0, 0, 0, 0, 0, 0, 1, 1, 2195, "Owned");
+                script10485(UI_GETCATEGORY(IF_GETNEXTSUBID(comp(1498, 2))), UI_GETDYNID(IF_GETNEXTSUBID(comp(1498, 2))), 0, 0, 0, 0, 0, 0, 1, 1, 2195, "Owned");  // marketplace_store:items_holder
                 CC_SETTEXTALIGN(1, 1, 0);
                 CC_SETCOLOUR(16777215);
             };
@@ -120,8 +120,8 @@ function script20642(int0: number, int1: number): number {
                 int4 = dbrow_getfield(int2, 1425408, 0);
                 string0 = dbrow_getfield(int2, 1425456, 0);
                 int5 = script20474(int2);
-                if ((CC_FIND(comp(1498, 2), int0) == 1)) {
-                    script15937(UI_GETCATEGORY(IF_GETNEXTSUBID(comp(1498, 2))), UI_GETDYNID(IF_GETNEXTSUBID(comp(1498, 2))), 0, 0, 1, 0, 176, 176, 0, 0);
+                if ((CC_FIND(comp(1498, 2), int0) == 1)) {  // marketplace_store:items_holder
+                    script15937(UI_GETCATEGORY(IF_GETNEXTSUBID(comp(1498, 2))), UI_GETDYNID(IF_GETNEXTSUBID(comp(1498, 2))), 0, 0, 1, 0, 176, 176, 0, 0);  // marketplace_store:items_holder
                 };
                 if (((int13 == 1) || (int14 == 3))) {
                     CC_SETOP(1, "Preview");
@@ -168,10 +168,10 @@ function script20642(int0: number, int1: number): number {
                 };
                 script20616(98172930, string0, int5, string1, int8, string3, int17, 6, 6, 1, 1, int19, int15, script20658(int7), int16, string2, int18);
                 if (((int13 == 0) && (int14 == 1))) {
-                    script10033(UI_GETCATEGORY(IF_GETNEXTSUBID(comp(1498, 2))), UI_GETDYNID(IF_GETNEXTSUBID(comp(1498, 2))), 0, 0, 0, 0, 0, 0, 1, 1, 4127);
+                    script10033(UI_GETCATEGORY(IF_GETNEXTSUBID(comp(1498, 2))), UI_GETDYNID(IF_GETNEXTSUBID(comp(1498, 2))), 0, 0, 0, 0, 0, 0, 1, 1, 4127);  // marketplace_store:items_holder
                     CC_SETCOLOUR(986381);
                     CC_SETTRANS(75);
-                    script10485(UI_GETCATEGORY(IF_GETNEXTSUBID(comp(1498, 2))), UI_GETDYNID(IF_GETNEXTSUBID(comp(1498, 2))), 0, 0, 0, 0, 0, 0, 1, 1, 2195, "Owned");
+                    script10485(UI_GETCATEGORY(IF_GETNEXTSUBID(comp(1498, 2))), UI_GETDYNID(IF_GETNEXTSUBID(comp(1498, 2))), 0, 0, 0, 0, 0, 0, 1, 1, 2195, "Owned");  // marketplace_store:items_holder
                     CC_SETTEXTALIGN(1, 1, 0);
                     CC_SETCOLOUR(16777215);
                 };

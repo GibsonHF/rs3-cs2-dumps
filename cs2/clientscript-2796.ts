@@ -16,7 +16,7 @@ function script2796(int0: number, int1: number): void {
         return;
     };
     var int14 = 0;
-    if (((int0 == comp(284, 18)) && (script6431() == 1))) {
+    if (((int0 == comp(284, 18)) && (script6431() == 1))) {  // buff_bar:buff_render_layer
         int14 = 2;
     };
     if ((IF_FIND(int0) == 1)) {
@@ -29,11 +29,11 @@ function script2796(int0: number, int1: number): void {
                     int12 = cc_getparam[1](8106);
                     if (((int8 + int4) <= int2)) {
                         if (((int9 + int4) <= int3)) {
-                            if ((int0 == comp(1204, 2))) {
+                            if ((int0 == comp(1204, 2))) {  // activity_buff_bar:buff_render_layer
                                 CC_SETPOSITION[1](int8, int9, int14, 0);
                                 cc_setparam[1](8107, 1);
                                 int7 = (int7 + 1);
-                            } else if ((int0 != comp(1204, 2))) {
+                            } else if ((int0 != comp(1204, 2))) {  // activity_buff_bar:buff_render_layer
                                 if ((script11295(int12) == 0)) {
                                     CC_SETPOSITION[1](int8, int9, int14, 0);
                                     cc_setparam[1](8107, 1);

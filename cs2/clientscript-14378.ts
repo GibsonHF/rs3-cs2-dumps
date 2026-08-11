@@ -17,42 +17,42 @@ function script14378(int0: number): void {
         return;
     };
     if ((varbitplayer_45192 == 1)) {
-        IF_SETHIDE(false, comp(517, 172));
-        IF_SETHIDE(true, comp(517, 183));
-        IF_SETPOSITION(0, int2, 0, 0, comp(517, 172));
+        IF_SETHIDE(false, comp(517, 172));  // bank:bank_tab_move_highlight_vertical
+        IF_SETHIDE(true, comp(517, 183));  // bank:bank_tab_move_highlight_horizontal
+        IF_SETPOSITION(0, int2, 0, 0, comp(517, 172));  // bank:bank_tab_move_highlight_vertical
         varclient_6678 = CLIENTCLOCK();
         if ((int3 == 1)) {
-            IF_SETHIDE(false, comp(517, 181));
-            IF_SETHIDE(true, comp(517, 177));
-            IF_SETHIDE(true, comp(517, 173));
+            IF_SETHIDE(false, comp(517, 181));  // bank:bank_tab_move_highlight_on_tab_vertical
+            IF_SETHIDE(true, comp(517, 177));  // bank:bank_tab_move_highlight_between_tabs_shift_up
+            IF_SETHIDE(true, comp(517, 173));  // bank:bank_tab_move_highlight_between_tabs_shift_down
         } else {
-            IF_SETHIDE(true, comp(517, 181));
+            IF_SETHIDE(true, comp(517, 181));  // bank:bank_tab_move_highlight_on_tab_vertical
             if ((int1 >= script5796())) {
-                IF_SETHIDE(true, comp(517, 177));
-                IF_SETHIDE(false, comp(517, 173));
+                IF_SETHIDE(true, comp(517, 177));  // bank:bank_tab_move_highlight_between_tabs_shift_up
+                IF_SETHIDE(false, comp(517, 173));  // bank:bank_tab_move_highlight_between_tabs_shift_down
             } else {
-                IF_SETHIDE(false, comp(517, 177));
-                IF_SETHIDE(true, comp(517, 173));
+                IF_SETHIDE(false, comp(517, 177));  // bank:bank_tab_move_highlight_between_tabs_shift_up
+                IF_SETHIDE(true, comp(517, 173));  // bank:bank_tab_move_highlight_between_tabs_shift_down
             };
         };
     } else {
-        IF_SETHIDE(true, comp(517, 172));
-        IF_SETHIDE(false, comp(517, 183));
-        IF_SETPOSITION(int2, 0, 0, 0, comp(517, 183));
+        IF_SETHIDE(true, comp(517, 172));  // bank:bank_tab_move_highlight_vertical
+        IF_SETHIDE(false, comp(517, 183));  // bank:bank_tab_move_highlight_horizontal
+        IF_SETPOSITION(int2, 0, 0, 0, comp(517, 183));  // bank:bank_tab_move_highlight_horizontal
         varclient_6678 = CLIENTCLOCK();
-        IF_SETHIDE(false, comp(517, 183));
+        IF_SETHIDE(false, comp(517, 183));  // bank:bank_tab_move_highlight_horizontal
         if ((int3 == 1)) {
-            IF_SETHIDE(false, comp(517, 192));
-            IF_SETHIDE(true, comp(517, 184));
-            IF_SETHIDE(true, comp(517, 188));
+            IF_SETHIDE(false, comp(517, 192));  // bank:bank_tab_move_highlight_on_tab_horizontal
+            IF_SETHIDE(true, comp(517, 184));  // bank:bank_tab_move_highlight_between_tabs_shift_right
+            IF_SETHIDE(true, comp(517, 188));  // bank:bank_tab_move_highlight_between_tabs_shift_left
         } else {
-            IF_SETHIDE(true, comp(517, 192));
+            IF_SETHIDE(true, comp(517, 192));  // bank:bank_tab_move_highlight_on_tab_horizontal
             if ((int1 >= script5796())) {
-                IF_SETHIDE(true, comp(517, 184));
-                IF_SETHIDE(false, comp(517, 188));
+                IF_SETHIDE(true, comp(517, 184));  // bank:bank_tab_move_highlight_between_tabs_shift_right
+                IF_SETHIDE(false, comp(517, 188));  // bank:bank_tab_move_highlight_between_tabs_shift_left
             } else {
-                IF_SETHIDE(false, comp(517, 184));
-                IF_SETHIDE(true, comp(517, 188));
+                IF_SETHIDE(false, comp(517, 184));  // bank:bank_tab_move_highlight_between_tabs_shift_right
+                IF_SETHIDE(true, comp(517, 188));  // bank:bank_tab_move_highlight_between_tabs_shift_left
             };
         };
     };

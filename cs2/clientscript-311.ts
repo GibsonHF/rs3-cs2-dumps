@@ -40,6 +40,6 @@ function script311(): void {
         }
     };
     script9554(36962326, 36962328, 36962327, string0, 21217);
-    IF_SETTEXT(string1, comp(564, 5));
+    IF_SETTEXT(string1, comp(564, 5));  // playerwatch_trigger:trigger_text
     return;
 }

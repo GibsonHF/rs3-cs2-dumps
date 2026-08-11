@@ -1,10 +1,10 @@
 //
 function script18031(): void {
-    var int0 = comp(1227, 36);
-    var int1 = comp(1227, 39);
-    var int2 = comp(1227, 38);
-    var int3 = comp(1227, 37);
-    var int4 = comp(1227, 34);
+    var int0 = comp(1227, 36);  // bp3_track_tab:reward_track_scroll_section
+    var int1 = comp(1227, 39);  // bp3_track_tab:reward_preview_button
+    var int2 = comp(1227, 38);  // bp3_track_tab:reward_track_fade_left
+    var int3 = comp(1227, 37);  // bp3_track_tab:reward_track_fade_right
+    var int4 = comp(1227, 34);  // bp3_track_tab:reward_track_section_background
     var int5 = 0;
     if ((IF_FIND(int1) == 1)) {
         int5 = cc_getparam(8193);

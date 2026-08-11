@@ -1,6 +1,6 @@
 //
 function script4851(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number): void {
-    IF_SETHIDE(true, comp(1258, 561));
+    IF_SETHIDE(true, comp(1258, 561));  // clan_stronghold_main_decor:custom_list_highlight
     CC_DELETEALL(int2);
     CC_DELETEALL(int3);
     CC_DELETEALL(int4);
@@ -64,8 +64,8 @@ function script4851(int0: number, int1: number, int2: number, int3: number, int4
                 CC_SETONMOUSEOVER(callback(script1356, -2147483645, -2147483643, 4537648));
             };
             if ((int14 == int7)) {
-                IF_SETHIDE(false, comp(1258, 561));
-                IF_SETPOSITION(0, int9, 0, 0, comp(1258, 561));
+                IF_SETHIDE(false, comp(1258, 561));  // clan_stronghold_main_decor:custom_list_highlight
+                IF_SETPOSITION(0, int9, 0, 0, comp(1258, 561));  // clan_stronghold_main_decor:custom_list_highlight
             };
             CC_CREATE(int2, 4, int8);
             CC_SETSIZE(30, int10, 1, 0);
@@ -96,8 +96,8 @@ function script4851(int0: number, int1: number, int2: number, int3: number, int4
         CC_SETONOP(callback(script4803, int8));
         CC_SETOP(1, "Select");
         CC_SETONMOUSEOVER(callback(script1356, -2147483645, -2147483643, 4537648));
-        IF_SETHIDE(false, comp(1258, 561));
-        IF_SETPOSITION(0, int9, 0, 0, comp(1258, 561));
+        IF_SETHIDE(false, comp(1258, 561));  // clan_stronghold_main_decor:custom_list_highlight
+        IF_SETPOSITION(0, int9, 0, 0, comp(1258, 561));  // clan_stronghold_main_decor:custom_list_highlight
         CC_CREATE(int2, 4, int8);
         CC_SETSIZE(30, int10, 1, 0);
         CC_SETPOSITION(30, int9, 0, 0);

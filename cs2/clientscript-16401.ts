@@ -5,8 +5,8 @@ function script16401(int0: number, int1: number): void {
     var int4 = 0;
     var int5 = 0;
     [int2, int3, int4, int5] = script14244();
-    var int6 = IF_GETWIDTH(comp(955, 8));
-    var int7 = IF_GETHEIGHT(comp(955, 8));
+    var int6 = IF_GETWIDTH(comp(955, 8));  // uitutorial:box_container
+    var int7 = IF_GETHEIGHT(comp(955, 8));  // uitutorial:box_container
     var int8 = ((int2 + ((int4 - int2) / 2)) - (int6 / 2));
     var int9 = (int3 + 33);
     var int10 = 0;
@@ -60,16 +60,16 @@ function script16401(int0: number, int1: number): void {
             default: {
                 if ((int10 <= ((int4 - int2) / 2))) {
                     if ((int11 <= ((int5 - int3) / 2))) {
-                        IF_SETPOSITION((int4 - int6), (int5 - int7), 0, 0, comp(955, 8));
+                        IF_SETPOSITION((int4 - int6), (int5 - int7), 0, 0, comp(955, 8));  // uitutorial:box_container
                     } else {
-                        IF_SETPOSITION((int4 - int6), int3, 0, 0, comp(955, 8));
+                        IF_SETPOSITION((int4 - int6), int3, 0, 0, comp(955, 8));  // uitutorial:box_container
                     };
                 } else if ((int11 <= ((int5 - int3) / 2))) {
-                    IF_SETPOSITION(int2, (int5 - int7), 0, 0, comp(955, 8));
+                    IF_SETPOSITION(int2, (int5 - int7), 0, 0, comp(955, 8));  // uitutorial:box_container
                 } else {
-                    IF_SETPOSITION(int2, int3, 0, 0, comp(955, 8));
+                    IF_SETPOSITION(int2, int3, 0, 0, comp(955, 8));  // uitutorial:box_container
                 };
-                IF_SETONTIMER(callback(script16403, int0, int1, int2, int3, int4, int5), comp(955, 5));
+                IF_SETONTIMER(callback(script16403, int0, int1, int2, int3, int4, int5), comp(955, 5));  // uitutorial:timer_layer
                 return;
             }
         };
@@ -84,7 +84,7 @@ function script16401(int0: number, int1: number): void {
         };
         int15 = (int15 + 1);
     };
-    IF_SETPOSITION(int8, int9, 0, 0, comp(955, 8));
-    IF_SETONTIMER(callback(script16403, int0, int1, int2, int3, int4, int5), comp(955, 5));
+    IF_SETPOSITION(int8, int9, 0, 0, comp(955, 8));  // uitutorial:box_container
+    IF_SETONTIMER(callback(script16403, int0, int1, int2, int3, int4, int5), comp(955, 5));  // uitutorial:timer_layer
     return;
 }

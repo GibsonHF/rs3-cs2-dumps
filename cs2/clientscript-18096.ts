@@ -10,22 +10,22 @@ function script18096(int0: number, int1: number): void {
     var int9 = 0;
     switch (int0) {
         case 1: {
-            int6 = comp(1228, 21);
-            int2 = comp(1228, 6);
-            int3 = comp(1228, 26);
-            int4 = comp(1228, 27);
-            int5 = comp(1228, 28);
-            int7 = comp(1228, 20);
+            int6 = comp(1228, 21);  // bp3_splash_embedded:right_graphic
+            int2 = comp(1228, 6);  // bp3_splash_embedded:right_holder
+            int3 = comp(1228, 26);  // bp3_splash_embedded:right_title
+            int4 = comp(1228, 27);  // bp3_splash_embedded:right_desc
+            int5 = comp(1228, 28);  // bp3_splash_embedded:right_button_holder
+            int7 = comp(1228, 20);  // bp3_splash_embedded:right_vfx_holder
             int8 = 4312;
             break;
         }
         case 2: {
-            int6 = comp(1228, 10);
-            int2 = comp(1228, 7);
-            int3 = comp(1228, 15);
-            int4 = comp(1228, 16);
-            int5 = comp(1228, 17);
-            int7 = comp(1228, 9);
+            int6 = comp(1228, 10);  // bp3_splash_embedded:left_graphic
+            int2 = comp(1228, 7);  // bp3_splash_embedded:left_holder
+            int3 = comp(1228, 15);  // bp3_splash_embedded:left_title
+            int4 = comp(1228, 16);  // bp3_splash_embedded:left_desc
+            int5 = comp(1228, 17);  // bp3_splash_embedded:left_button_holder
+            int7 = comp(1228, 9);  // bp3_splash_embedded:left_vfx_holder
             int9 = 16384;
             int8 = 4437;
             break;

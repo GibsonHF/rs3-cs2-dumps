@@ -13,7 +13,7 @@ function script6607(int0: number): void {
     SOUND_VORBIS_VOLUME(6185 as vorbis, 1, 0, 150);
     int3 = ENUM_GETOUTPUTCOUNT(6060 as cs2enum);
     int3 = (int3 + int1);
-    if ((IF_FIND(comp(1324, 16)) == 1)) {
+    if ((IF_FIND(comp(1324, 16)) == 1)) {  // peng_pow_bfish_setup:gamepiece_corral
         int4 = CC_GETX();
         int5 = CC_GETY();
         int6 = CC_GETX();

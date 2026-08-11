@@ -3,12 +3,12 @@ function script8182(): void {
     if ((varclient_6524 > 0)) {
         return;
     };
-    if ((IF_GETHIDE(comp(1477, 805)) == true)) {
+    if ((IF_GETHIDE(comp(1477, 805)) == true)) {  // toplevel_v2:escape_menu
         script8177();
     } else {
         script8179();
     };
     varclient_6524 = 2;
-    IF_SETONTIMER(callback(script2038), comp(1477, 8));
+    IF_SETONTIMER(callback(script2038), comp(1477, 8));  // toplevel_v2:keyboard_handler
     return;
 }

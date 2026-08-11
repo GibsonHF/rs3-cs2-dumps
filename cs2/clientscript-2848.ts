@@ -4,7 +4,7 @@ function script2848(int0: number, int1: number, int2: number, int3: number, int4
     var int7 = 0;
     if ((int2 != comp(-1, 65535))) {
         if ((int3 == -1)) {
-            if (((IF_FIND(int2) == 1) && (int2 == comp(474, 11)))) {
+            if (((IF_FIND(int2) == 1) && (int2 == comp(474, 11)))) {  // rm_wires:wires_corral
                 int6 = int4;
                 int7 = int5;
                 if ((CC_FIND[1](int0, int1) == 1)) {

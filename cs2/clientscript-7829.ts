@@ -1,6 +1,6 @@
 //
 function script7829(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, string0: string, string1: string, string2: string): void {
-    var int7 = comp(1419, 5);
+    var int7 = comp(1419, 5);  // toplevel_v2_parent_suboverlay_high_scores:toplevel_v2_parent_suboverlay_table_layer
     var int8 = 0;
     var int9 = 24;
     if ((int0 == 29067 as graphic)) {
@@ -9,11 +9,11 @@ function script7829(int0: number, int1: number, int2: number, int3: number, int4
     if ((int2 == 0)) {
         switch (MODULO(varclient_2819, 2)) {
             case 0: {
-                int7 = comp(1419, 41);
+                int7 = comp(1419, 41);  // toplevel_v2_parent_suboverlay_high_scores:toplevel_v2_parent_suboverlay_2_col1_layer
                 break;
             }
             case 1: {
-                int7 = comp(1419, 42);
+                int7 = comp(1419, 42);  // toplevel_v2_parent_suboverlay_high_scores:toplevel_v2_parent_suboverlay_2_col2_layer
                 break;
             }
         };
@@ -92,15 +92,15 @@ function script7829(int0: number, int1: number, int2: number, int3: number, int4
     } else if ((int2 == 1)) {
         switch (MODULO(varclient_2819, 3)) {
             case 0: {
-                int7 = comp(1419, 49);
+                int7 = comp(1419, 49);  // toplevel_v2_parent_suboverlay_high_scores:toplevel_v2_parent_suboverlay_3_col1_layer
                 break;
             }
             case 1: {
-                int7 = comp(1419, 50);
+                int7 = comp(1419, 50);  // toplevel_v2_parent_suboverlay_high_scores:toplevel_v2_parent_suboverlay_3_col2_layer
                 break;
             }
             case 2: {
-                int7 = comp(1419, 51);
+                int7 = comp(1419, 51);  // toplevel_v2_parent_suboverlay_high_scores:toplevel_v2_parent_suboverlay_3_col3_layer
                 break;
             }
         };
@@ -136,11 +136,11 @@ function script7829(int0: number, int1: number, int2: number, int3: number, int4
     } else if ((int2 == 2)) {
         switch (MODULO(varclient_2819, 2)) {
             case 0: {
-                int7 = comp(1419, 1);
+                int7 = comp(1419, 1);  // toplevel_v2_parent_suboverlay_high_scores:toplevel_v2_parent_suboverlay_summer16_col1_layer
                 break;
             }
             case 1: {
-                int7 = comp(1419, 2);
+                int7 = comp(1419, 2);  // toplevel_v2_parent_suboverlay_high_scores:toplevel_v2_parent_suboverlay_summer16_col2_layer
                 break;
             }
         };

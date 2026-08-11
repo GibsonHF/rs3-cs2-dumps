@@ -41,7 +41,7 @@ function script17960(int0: number, int1: number, int2: number, int3: number, int
             int12 = struct_getparam(int0, 8669);
         };
     };
-    if (((IF_GETLAYER(int5) == comp(1594, 81)) && (int15 == 0))) {
+    if (((IF_GETLAYER(int5) == comp(1594, 81)) && (int15 == 0))) {  // rewardshop:item_preview_layer
         int14 = 450;
     };
     IF_SETMODELANGLE(int9, int10, int11, int12, int13, int14, int5);

@@ -11,11 +11,11 @@ function script15797(): void {
         int4 = 80;
         int5 = 0;
     };
-    IF_SETPOSITION((int4 + int0), (int5 + int1), 0, 0, comp(846, 0));
-    IF_SETSIZE(280, 85, 0, 0, comp(846, 0));
-    var int6 = comp(846, 5);
+    IF_SETPOSITION((int4 + int0), (int5 + int1), 0, 0, comp(846, 0));  // tut7_sandbox_goal:bounds
+    IF_SETSIZE(280, 85, 0, 0, comp(846, 0));  // tut7_sandbox_goal:bounds
+    var int6 = comp(846, 5);  // tut7_sandbox_goal:window_content
     var int7 = (5 * 2);
-    var int8 = comp(846, 6);
+    var int8 = comp(846, 6);  // tut7_sandbox_goal:desc_layer
     var int9 = 24;
     var int10 = 0;
     CC_CREATE(int8, 4, IF_GETNEXTSUBID(int8));
@@ -56,12 +56,12 @@ function script15797(): void {
     int13 = CC_GETID();
     script3403();
     if ((script6431() == 1)) {
-        IF_SETPOSITION((10 + 2), CC_GETY(), 0, 0, comp(846, 3));
+        IF_SETPOSITION((10 + 2), CC_GETY(), 0, 0, comp(846, 3));  // tut7_sandbox_goal:floater
     } else {
-        IF_SETPOSITION((10 + 2), (CC_GETY() + 3), 0, 0, comp(846, 3));
+        IF_SETPOSITION((10 + 2), (CC_GETY() + 3), 0, 0, comp(846, 3));  // tut7_sandbox_goal:floater
     };
-    IF_SETSIZE(CC_GETWIDTH(), CC_GETHEIGHT(), 1, 0, comp(846, 3));
-    IF_SETHIDE(true, comp(846, 3));
+    IF_SETSIZE(CC_GETWIDTH(), CC_GETHEIGHT(), 1, 0, comp(846, 3));  // tut7_sandbox_goal:floater
+    IF_SETHIDE(true, comp(846, 3));  // tut7_sandbox_goal:floater
     if ((CC_FIND(int6, int12) == 1)) {
         CC_SETONVARTRANSMIT(callback(script15800, int6, int8, int10, int13, int12, 9775, 9775, 2));
     };

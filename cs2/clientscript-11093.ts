@@ -11,12 +11,12 @@ function script11093(int0: number): void {
     };
     if ((script6431() == 1)) {
         if ((int4 <= (4 * 2))) {
-            IF_SETHIDE(true, comp(1594, 35));
+            IF_SETHIDE(true, comp(1594, 35));  // rewardshop:scrollbar_layer
         } else {
             [int1, int2] = script23(int4, int1, int2);
             int5 = enum_getvalue(0, 9, 1481 as cs2enum, MAX(1, int0));
             if (((int2 > int3) || (IF_GETHEIGHT(int5) < (int2 * (113 + 6))))) {
-                IF_SETHIDE(false, comp(1594, 35));
+                IF_SETHIDE(false, comp(1594, 35));  // rewardshop:scrollbar_layer
                 script582(104464419, int5, script24(int1, script14(int0)));
             } else {
                 script15544(104464419, int5);
@@ -26,7 +26,7 @@ function script11093(int0: number): void {
         [int1, int2] = script23(int4, int1, int2);
         int5 = enum_getvalue(0, 9, 1481 as cs2enum, MAX(1, int0));
         if (((int2 > int3) || (IF_GETHEIGHT(int5) < (int2 * (113 + 6))))) {
-            IF_SETHIDE(false, comp(1594, 35));
+            IF_SETHIDE(false, comp(1594, 35));  // rewardshop:scrollbar_layer
             script582(104464419, int5, script24(int1, script14(int0)));
         } else {
             script15544(104464419, int5);
@@ -37,30 +37,30 @@ function script11093(int0: number): void {
     script13972(104464386, -1, 28595, struct_getparam(varplayer_5148, 4847), script9670(3, int0));
     script13972(104464387, -1, 28595, struct_getparam(varplayer_5148, 4848), script9670(4, int0));
     script13972(104464388, -1, 28595, struct_getparam(varplayer_5148, 7401), script9670(5, int0));
-    IF_SETHIDE(true, comp(1594, 24));
-    IF_SETHIDE(true, comp(1594, 25));
-    IF_SETHIDE(true, comp(1594, 26));
-    IF_SETHIDE(true, comp(1594, 27));
-    IF_SETHIDE(true, comp(1594, 28));
+    IF_SETHIDE(true, comp(1594, 24));  // rewardshop:tab_1_content_layer
+    IF_SETHIDE(true, comp(1594, 25));  // rewardshop:tab_2_content_layer
+    IF_SETHIDE(true, comp(1594, 26));  // rewardshop:tab_3_content_layer
+    IF_SETHIDE(true, comp(1594, 27));  // rewardshop:tab_4_content_layer
+    IF_SETHIDE(true, comp(1594, 28));  // rewardshop:tab_5_content_layer
     switch (int0) {
         case 1: {
-            IF_SETHIDE(false, comp(1594, 24));
+            IF_SETHIDE(false, comp(1594, 24));  // rewardshop:tab_1_content_layer
             break;
         }
         case 2: {
-            IF_SETHIDE(false, comp(1594, 25));
+            IF_SETHIDE(false, comp(1594, 25));  // rewardshop:tab_2_content_layer
             break;
         }
         case 3: {
-            IF_SETHIDE(false, comp(1594, 26));
+            IF_SETHIDE(false, comp(1594, 26));  // rewardshop:tab_3_content_layer
             break;
         }
         case 4: {
-            IF_SETHIDE(false, comp(1594, 27));
+            IF_SETHIDE(false, comp(1594, 27));  // rewardshop:tab_4_content_layer
             break;
         }
         case 5: {
-            IF_SETHIDE(false, comp(1594, 28));
+            IF_SETHIDE(false, comp(1594, 28));  // rewardshop:tab_5_content_layer
             break;
         }
     };

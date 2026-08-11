@@ -49,7 +49,7 @@ function script20318(int0: number, int1: number, int2: number, int3: number, int
                 CC_DELETE[1]();
             };
             if ((int11 <= 0)) {
-                if ((int0 != comp(1479, 20))) {
+                if ((int0 != comp(1479, 20))) {  // league_parent_tasks:task_scrollbar
                     IF_SETONRESIZE(callback(script20285), int4);
                     IF_CALLONRESIZE(int4);
                 } else if ((script20320(int0, int2) == 0)) {

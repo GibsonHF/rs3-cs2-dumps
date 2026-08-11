@@ -6,7 +6,7 @@ function script14350(int0: number, int1: number, int2: number): number {
     var int3 = 0;
     if ((script3802(int0) == 1)) {
         while ((int3 < int2)) {
-            if ((CC_FIND[1](comp(517, 201), int3) == 1)) {
+            if ((CC_FIND[1](comp(517, 201), int3) == 1)) {  // bank:bank_inv
                 if ((CC_GETINVOBJECT[1]() == 48447 as obj)) {
                     var int1 = (int1 - 1);
                     if ((int1 == 0)) {
@@ -26,7 +26,7 @@ function script14350(int0: number, int1: number, int2: number): number {
     var int4 = 0;
     var int5 = -1 as obj;
     while ((int3 < int2)) {
-        if ((CC_FIND[1](comp(517, 201), int3) == 1)) {
+        if ((CC_FIND[1](comp(517, 201), int3) == 1)) {  // bank:bank_inv
             int5 = CC_GETINVOBJECT[1]();
             if ((int5 == int0)) {
                 int4 = ((2147483647 - CC_GETINVCOUNT[1]()) - int1);

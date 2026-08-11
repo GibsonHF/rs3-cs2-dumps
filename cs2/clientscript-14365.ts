@@ -1,6 +1,6 @@
 //
 function script14365(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number, int8: number, int9: number, int10: number): void {
-    if ((CC_FIND(comp(517, 201), int0) == 1)) {
+    if ((CC_FIND(comp(517, 201), int0) == 1)) {  // bank:bank_inv
         script13796(int8, int9);
     };
     if ((CC_FIND(script14074(int4), int5) == 1)) {

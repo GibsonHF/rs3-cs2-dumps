@@ -24,7 +24,7 @@ function script7870(int0: number, int1: number, int2: number, int3: number, int4
             CC_SETONMOUSEREPEAT[1](callback(script8799, string0, -2147483645, -2147483643));
         };
         if ((int5 != -1)) {
-            IF_SETONTIMER(callback(script7865, (CLIENTCLOCK() + 10), int6, int5), comp(1420, 119));
+            IF_SETONTIMER(callback(script7865, (CLIENTCLOCK() + 10), int6, int5), comp(1420, 119));  // acc_create:colours_menu
         };
     } else {
         if ((CC_FIND(int7, int2) == 1)) {
@@ -32,7 +32,7 @@ function script7870(int0: number, int1: number, int2: number, int3: number, int4
         };
         script8808();
         if ((int5 != -1)) {
-            IF_SETONTIMER(callback(script7864, (CLIENTCLOCK() + 10), int5), comp(1420, 119));
+            IF_SETONTIMER(callback(script7864, (CLIENTCLOCK() + 10), int5), comp(1420, 119));  // acc_create:colours_menu
         };
     };
     return;

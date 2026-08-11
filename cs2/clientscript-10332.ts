@@ -20,11 +20,11 @@ function script10332(int0: number): void {
             break;
         }
     };
-    IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -1), comp(1519, 62));
-    IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -1), comp(1520, 29));
-    IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -1), comp(1528, 53));
-    IF_SETGRAPHIC(int1, comp(1519, 28));
-    IF_SETGRAPHIC(int1, comp(1520, 30));
-    IF_SETGRAPHIC(int1, comp(1528, 54));
+    IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -1), comp(1519, 62));  // group_child:invitation_setting_button_active_layer
+    IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -1), comp(1520, 29));  // group_child_dropdown:invitation_setting_button_active_layer
+    IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -1), comp(1528, 53));  // toplevel_v2_parent_suboverlay_group:invitation_setting_button_active_layer
+    IF_SETGRAPHIC(int1, comp(1519, 28));  // group_child:invitation_setting_button
+    IF_SETGRAPHIC(int1, comp(1520, 30));  // group_child_dropdown:invitation_setting_button
+    IF_SETGRAPHIC(int1, comp(1528, 54));  // toplevel_v2_parent_suboverlay_group:invitation_setting_button
     return;
 }

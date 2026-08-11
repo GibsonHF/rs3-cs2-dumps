@@ -1,26 +1,26 @@
 //
 function script10197(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number, int8: number, int9: number, int10: number, int11: number, int12: number, int13: number, int14: number, int15: number, int16: number, string0: string, string1: string, string2: string, string3: string, string4: string, string5: string, string6: string, string7: string, string8: string, string9: string, string10: string, string11: string, string12: string, string13: string, string14: string, string15: string, string16: string, string17: string, string18: string): void {
-    var int17 = comp(751, 37);
+    var int17 = comp(751, 37);  // trh_dialog_select:root_layer
     var int18 = 49217553;
     var int19 = 49217571;
     var int20 = 49217554;
     var int21 = 49217572;
-    var int22 = comp(751, 19);
-    var int23 = comp(751, 24);
-    var int24 = comp(751, 25);
-    var int25 = comp(751, 20);
-    var int26 = comp(751, 22);
+    var int22 = comp(751, 19);  // trh_dialog_select:info_layer
+    var int23 = comp(751, 24);  // trh_dialog_select:info_text
+    var int24 = comp(751, 25);  // trh_dialog_select:select_panel
+    var int25 = comp(751, 20);  // trh_dialog_select:checkbox_layer
+    var int26 = comp(751, 22);  // trh_dialog_select:checkbox_text
     if ((int16 == 1)) {
-        int17 = comp(1148, 37);
+        int17 = comp(1148, 37);  // trh_dialog_select_overlay:root_layer
         int18 = 75235345;
         int19 = 75235363;
         int20 = 75235346;
         int21 = 75235364;
-        int22 = comp(1148, 19);
-        int23 = comp(1148, 24);
-        int24 = comp(1148, 25);
-        int25 = comp(1148, 20);
-        int26 = comp(1148, 22);
+        int22 = comp(1148, 19);  // trh_dialog_select_overlay:info_layer
+        int23 = comp(1148, 24);  // trh_dialog_select_overlay:info_text
+        int24 = comp(1148, 25);  // trh_dialog_select_overlay:select_panel
+        int25 = comp(1148, 20);  // trh_dialog_select_overlay:checkbox_layer
+        int26 = comp(1148, 22);  // trh_dialog_select_overlay:checkbox_text
     };
     script10200();
     var int27 = 8;

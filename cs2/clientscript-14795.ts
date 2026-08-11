@@ -4,7 +4,7 @@ function script14795(int0: number, int1: number): void {
         return;
     };
     script9554(43712528, 43712536, 43712529, dbrow_getfield(int0, 352288, 0), 21217);
-    IF_SETHIDE(false, comp(667, 13));
+    IF_SETHIDE(false, comp(667, 13));  // arch_site_map:popup_window
     var string0 = `${dbrow_getfield(int0, 352304, 0)}<br><br>Requires level ${inttostring(dbrow_getfield(int0, 352352, 0), 10)} Archaeology.`;
     var string1 = "Fast travel";
     var int2 = 0;
@@ -23,7 +23,7 @@ function script14795(int0: number, int1: number): void {
     } else if ((script6431() == 0)) {
         string0 = `${string0}<br>Keyboard Shortcut : ${script14802(int0)}`;
     };
-    IF_SETTEXT(string0, comp(667, 20));
+    IF_SETTEXT(string0, comp(667, 20));  // arch_site_map:site_info_text
     SOUND_VORBIS_VOLUME(41269 as vorbis, 1, 0, 150);
     script13971(43712534, 43712535, 28553, string1, int2);
     return;

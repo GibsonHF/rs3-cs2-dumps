@@ -88,7 +88,7 @@ function script13247(int0: number, int1: number): void {
     CC_SETGRAPHIC(int9);
     CC_SETSIZE(11, 11, 0, 0);
     CC_SETPOSITION(int11, ((int7 + (int3 / 2)) + MODULO(int3, 2)), 2, 0);
-    if ((IF_FIND(comp(1844, 0)) == 1)) {
+    if ((IF_FIND(comp(1844, 0)) == 1)) {  // mtxmgt_store_banner_overlay:currency_buy_runecoins_button
         CC_SETHIDE(false);
         string1 = "Get More RuneCoins";
         CC_SETPOSITION(int11, int7, 2, 0);
@@ -102,7 +102,7 @@ function script13247(int0: number, int1: number): void {
             script14990(2, string1);
         };
     };
-    if (((IF_FIND(comp(1844, 1)) == 1) && (CC_FIND(int0, int13) == 1))) {
+    if (((IF_FIND(comp(1844, 1)) == 1) && (CC_FIND(int0, int13) == 1))) {  // mtxmgt_store_banner_overlay:currency_buy_keepsake_keys_button
         script14990(2, "You can buy more keepsake keys in the Marketplace.");
     };
     return;

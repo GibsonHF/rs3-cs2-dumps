@@ -56,28 +56,28 @@ function script10038(int0: number, int1: number, int2: number): void {
     };
     switch (int0) {
         case 0: {
-            IF_SETONVARCTRANSMIT(callback(script10037, 0, varclient_4263, 4263, 1), comp(907, 71));
-            int3 = comp(907, 78);
+            IF_SETONVARCTRANSMIT(callback(script10037, 0, varclient_4263, 4263, 1), comp(907, 71));  // lobbyscreen_pane_playerinfo:bottom_left
+            int3 = comp(907, 78);  // lobbyscreen_pane_playerinfo:bottom_left_graphic
             int4 = 59441224;
-            int5 = comp(907, 95);
-            int6 = comp(907, 96);
+            int5 = comp(907, 95);  // lobbyscreen_pane_playerinfo:bottom_left_overlay_layer
+            int6 = comp(907, 96);  // lobbyscreen_pane_playerinfo:bottom_left_highlight_layer
             int7 = 2;
             break;
         }
         case 1: {
-            IF_SETONVARCTRANSMIT(callback(script10037, 1, varclient_4264, 4264, 1), comp(907, 44));
-            int3 = comp(907, 50);
+            IF_SETONVARCTRANSMIT(callback(script10037, 1, varclient_4264, 4264, 1), comp(907, 44));  // lobbyscreen_pane_playerinfo:bottom_centre
+            int3 = comp(907, 50);  // lobbyscreen_pane_playerinfo:bottom_centre_graphic
             int4 = 59441197;
-            int5 = comp(907, 67);
-            int6 = comp(907, 68);
+            int5 = comp(907, 67);  // lobbyscreen_pane_playerinfo:bottom_centre_overlay_layer
+            int6 = comp(907, 68);  // lobbyscreen_pane_playerinfo:bottom_centre_highlight_layer
             break;
         }
         case 2: {
-            IF_SETONVARCTRANSMIT(callback(script10037, 2, varclient_4265, 4265, 1), comp(907, 97));
-            int3 = comp(907, 104);
+            IF_SETONVARCTRANSMIT(callback(script10037, 2, varclient_4265, 4265, 1), comp(907, 97));  // lobbyscreen_pane_playerinfo:bottom_right
+            int3 = comp(907, 104);  // lobbyscreen_pane_playerinfo:bottom_right_graphic
             int4 = 59441250;
-            int5 = comp(907, 121);
-            int6 = comp(907, 122);
+            int5 = comp(907, 121);  // lobbyscreen_pane_playerinfo:bottom_right_overlay_layer
+            int6 = comp(907, 122);  // lobbyscreen_pane_playerinfo:bottom_right_highlight_layer
             int7 = 2;
             break;
         }

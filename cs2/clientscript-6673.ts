@@ -5,7 +5,7 @@ function script6673(int0: number, int1: number): void {
         return;
     };
     IF_SETONTIMER(callback(), int0);
-    if ((CC_FIND[1](comp(1555, 10), 1) == 1)) {
+    if ((CC_FIND[1](comp(1555, 10), 1) == 1)) {  // elfcity_meilyr_recipe_shop:highlight_area
         CC_SETHIDE[1](true);
     };
     script6979(varplayer_4902);

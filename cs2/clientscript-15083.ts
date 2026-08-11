@@ -1,8 +1,8 @@
 //
 function script15083(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number, int8: number, int9: number, int10: number, int11: number, int12: number, int13: number, string0: string, string1: string, string2: string, string3: string): void {
     if ((int9 == 45727)) {
-        IF_SETPOSITION(int1, int2, 0, 0, comp(855, 9));
-        IF_SETSIZE(int3, int4, 0, 0, comp(855, 9));
+        IF_SETPOSITION(int1, int2, 0, 0, comp(855, 9));  // mtx_front_end_spotlight:crm_braze
+        IF_SETSIZE(int3, int4, 0, 0, comp(855, 9));  // mtx_front_end_spotlight:crm_braze
         return;
     };
     var int14 = 11709;
@@ -101,9 +101,9 @@ function script15083(int0: number, int1: number, int2: number, int3: number, int
         }
     };
     if ((int9 == 45727)) {
-        IF_SETHIDE(false, comp(855, 10));
-        IF_SETPOSITION(int1, int2, 0, 0, comp(855, 10));
-        IF_SETSIZE(int3, int4, 0, 0, comp(855, 10));
+        IF_SETHIDE(false, comp(855, 10));  // mtx_front_end_spotlight:ccrm
+        IF_SETPOSITION(int1, int2, 0, 0, comp(855, 10));  // mtx_front_end_spotlight:ccrm
+        IF_SETSIZE(int3, int4, 0, 0, comp(855, 10));  // mtx_front_end_spotlight:ccrm
         return;
     };
     stack(int6);

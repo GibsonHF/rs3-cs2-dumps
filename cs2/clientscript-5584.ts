@@ -1,7 +1,7 @@
 //
 function script5584(int0: number, int1: number): void {
     if ((int0 == comp(-1, 65535))) {
-        if ((int1 == comp(327, 6))) {
+        if ((int1 == comp(327, 6))) {  // chat_v3:click_continue
             script8841(12, 1);
         };
         return;

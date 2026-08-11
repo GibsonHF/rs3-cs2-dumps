@@ -1,7 +1,7 @@
 //
 function script20633(int0: number): void {
-    CC_DELETEALL(comp(1498, 2));
-    CC_DELETEALL(comp(1498, 5));
+    CC_DELETEALL(comp(1498, 2));  // marketplace_store:items_holder
+    CC_DELETEALL(comp(1498, 5));  // marketplace_store:scrollbar_layer
     var int1 = 0;
     var int2 = 0;
     var int3 = 0;
@@ -50,7 +50,7 @@ function script20633(int0: number): void {
                     script20641(script20651(int0), int5);
                 } else if (((int6 + int7) == 0)) {
                     script20641(script20651(int0), int5);
-                    script2995(98172930, IF_GETNEXTSUBID(comp(1498, 2)), 11, int1, 0, 0, 22, 20, 1, 0, 2099, "No items to display.");
+                    script2995(98172930, IF_GETNEXTSUBID(comp(1498, 2)), 11, int1, 0, 0, 22, 20, 1, 0, 2099, "No items to display.");  // marketplace_store:items_holder
                 } else {
                     int1 = int5;
                 };
@@ -63,7 +63,7 @@ function script20633(int0: number): void {
         int4 = (int4 + int7);
     };
     if ((STRING_LENGTH(varclient_8377) > 0)) {
-        script2995(98172930, IF_GETNEXTSUBID(comp(1498, 2)), 11, 0, 0, 0, 22, 20, 1, 0, 2099, `Displaying ${inttostring(int4, 10)} ${script4583(int4, "result", "results")} for '${varclient_8377}'.`);
+        script2995(98172930, IF_GETNEXTSUBID(comp(1498, 2)), 11, 0, 0, 0, 22, 20, 1, 0, 2099, `Displaying ${inttostring(int4, 10)} ${script4583(int4, "result", "results")} for '${varclient_8377}'.`);  // marketplace_store:items_holder
     };
     script20634(int1);
     return;

@@ -9,7 +9,7 @@ function script19734(int0: number): void {
         IF_SETHIDE(true, int2);
     };
     var string0 = script985(varbitplayer_57133, "You have claimed all available prizes.", "You can claim 1 more free prize!", `You can claim ${inttostring(varbitplayer_57133, 10)} more free prizes!`);
-    IF_SETTEXT(string0, comp(1278, 14));
+    IF_SETTEXT(string0, comp(1278, 14));  // trh204_overlay:treasure_room_desc
     if ((varbitplayer_57133 == 0)) {
         script19737();
     };

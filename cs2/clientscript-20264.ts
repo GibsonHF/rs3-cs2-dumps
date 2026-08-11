@@ -13,8 +13,8 @@ function script20264(int0: number, int1: number): void {
     var int7 = dbrow_getfield(int0, 1343504, int3);
     var int8 = (((140 + 4) * 3) - 4);
     var int9 = int2;
-    CC_DELETEALL(comp(1443, 20));
-    IF_SETSIZE(int8, 100, 0, 0, comp(1443, 20));
+    CC_DELETEALL(comp(1443, 20));  // league_parent_relics:overview_scrolling_toggles
+    IF_SETSIZE(int8, 100, 0, 0, comp(1443, 20));  // league_parent_relics:overview_scrolling_toggles
     script15938(94568468, 200, 0, 0, 0, 1, 1, 0, 0, 1, 1);
     if (((int7 != -1) && (int7 != int6))) {
         script15937(int5, int3, 0, 0, 0, 0, 0, 0, 1, 1);

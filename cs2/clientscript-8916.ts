@@ -21,10 +21,10 @@ function script8916(int0: number, int1: number, int2: number, int3: number): voi
     };
     varbitplayer_45912 = 0;
     if ((int2 >= int3)) {
-        IF_SETONTIMER(callback(), comp(517, 37));
+        IF_SETONTIMER(callback(), comp(517, 37));  // bank:main_options
         script9318(1);
         return;
     };
-    IF_SETONTIMER(callback(script8916, int0, int2, MIN((int2 + 5), int3), int3), comp(517, 37));
+    IF_SETONTIMER(callback(script8916, int0, int2, MIN((int2 + 5), int3), int3), comp(517, 37));  // bank:main_options
     return;
 }

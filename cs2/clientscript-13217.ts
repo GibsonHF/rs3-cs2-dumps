@@ -1,10 +1,10 @@
 //
 function script13217(): void {
     var string0 = "";
-    if ((IF_FIND(comp(1843, 183)) == 1)) {
+    if ((IF_FIND(comp(1843, 183)) == 1)) {  // mtxmgt_store:items_layer
         string0 = cc_getparam(5441);
     };
-    if (((varclient_2236 == 8) && (varclient_2235 == comp(517, 234)))) {
+    if (((varclient_2236 == 8) && (varclient_2235 == comp(517, 234)))) {  // bank:text_input_listener
         script13909();
     };
     if ((varclient_2236 <= 0)) {
@@ -16,8 +16,8 @@ function script13217(): void {
         script13223(string0, CLIENTCLOCK());
         script9833(120783089, 120783090, 120783091, 120783092, 120783095, 1, 0);
         script7796(120783088, script9984(28549, 4));
-        IF_SETHIDE(false, comp(1843, 246));
-        IF_SETCOLOUR(16777215, comp(1843, 244));
+        IF_SETHIDE(false, comp(1843, 246));  // mtxmgt_store:filter_cancel
+        IF_SETCOLOUR(16777215, comp(1843, 244));  // mtxmgt_store:text_input_display
     };
     return;
 }

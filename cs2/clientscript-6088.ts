@@ -1,18 +1,18 @@
 //
 function script6088(int0: number, int1: number): void {
-    var int2 = comp(1265, 20);
-    var int3 = comp(1265, 23);
-    var int4 = comp(1265, 24);
-    var int5 = comp(1265, 22);
-    var int6 = comp(1265, 21);
-    var int7 = comp(1265, 25);
+    var int2 = comp(1265, 20);  // shop_main:list_background
+    var int3 = comp(1265, 23);  // shop_main:list_name
+    var int4 = comp(1265, 24);  // shop_main:list_icon
+    var int5 = comp(1265, 22);  // shop_main:list_currency
+    var int6 = comp(1265, 21);  // shop_main:list_price
+    var int7 = comp(1265, 25);  // shop_main:list_extra_icon
     if ((int1 == 1)) {
-        int2 = comp(1265, 14);
-        int3 = comp(1265, 16);
-        int4 = comp(1265, 17);
+        int2 = comp(1265, 14);  // shop_main:free_background
+        int3 = comp(1265, 16);  // shop_main:free_name
+        int4 = comp(1265, 17);  // shop_main:free_icon
         int5 = comp(-1, 65535);
-        int6 = comp(1265, 15);
-        int7 = comp(1265, 18);
+        int6 = comp(1265, 15);  // shop_main:free_price
+        int7 = comp(1265, 18);  // shop_main:free_extra_icon
     };
     CC_CREATE(int2, 5, int0);
     CC_CREATE(int3, 4, int0);

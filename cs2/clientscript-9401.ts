@@ -1,7 +1,7 @@
 //
 function script9401(int0: number): void {
-    var int1 = comp(240, 9);
-    var int2 = comp(240, 10);
+    var int1 = comp(240, 9);  // activity_tracker_embedded_options:options_control_click
+    var int2 = comp(240, 10);  // activity_tracker_embedded_options:highlight_layer
     var int3 = enum_getvalue(0, 0, 9458 as cs2enum, int0);
     var int4 = script8229(5, int3);
     if ((CC_FIND(int1, int0) == 1)) {

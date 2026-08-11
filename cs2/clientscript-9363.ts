@@ -43,7 +43,7 @@ function script9363(): void {
             break;
         }
     };
-    IF_SETHIDE(true, comp(701, 206));
-    IF_SETONVARCTRANSMIT(callback(script9364, 3856, 1), comp(701, 102));
+    IF_SETHIDE(true, comp(701, 206));  // clan_noticeboard_broadcast:clan_data_waiting
+    IF_SETONVARCTRANSMIT(callback(script9364, 3856, 1), comp(701, 102));  // clan_noticeboard_broadcast:reltime_text
     return;
 }

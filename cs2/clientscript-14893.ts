@@ -4,13 +4,13 @@ function script14893(int0: number, int1: number): void {
     var int3 = comp(-1, 65535);
     switch (int0) {
         case 14093: {
-            int2 = comp(693, 70);
-            int3 = comp(693, 71);
+            int2 = comp(693, 70);  // arch_research_management:general_research_build_layer
+            int3 = comp(693, 71);  // arch_research_management:general_research_control_layer
             break;
         }
         case 14094: {
-            int2 = comp(693, 74);
-            int3 = comp(693, 77);
+            int2 = comp(693, 74);  // arch_research_management:special_research_build_layer
+            int3 = comp(693, 77);  // arch_research_management:special_research_control_layer
             break;
         }
     };

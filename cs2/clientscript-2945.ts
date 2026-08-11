@@ -17,7 +17,7 @@ function script2945(): void {
     };
     varclient_200 = 0;
     varclient_201 = 0;
-    IF_SETONCLICK(callback(), comp(744, 139));
+    IF_SETONCLICK(callback(), comp(744, 139));  // loginscreen:continue_text
     script15660();
     script15662("Signing in...", -1, 0);
     varclient_1100 = -3;
@@ -30,6 +30,6 @@ function script2945(): void {
         LOBBY_ENTERLOBBY(varclient_2576, varclient_2577, varclient_4192, varclient_4193);
     };
     varclient_4192 = "";
-    IF_SETONTIMER(callback(script2946, 0), comp(744, 173));
+    IF_SETONTIMER(callback(script2946, 0), comp(744, 173));  // loginscreen:login_progress_popup_password
     return;
 }

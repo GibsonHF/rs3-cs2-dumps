@@ -9,10 +9,10 @@ function script3512(): void {
         };
         script3514();
         if ((IF_HASSUBMODAL(int0, 327) == 1)) {
-            if ((IF_FIND(comp(327, 22)) == 1)) {
+            if ((IF_FIND(comp(327, 22)) == 1)) {  // chat_v3:chat_text_layer
                 CC_CALLONRESIZE();
             };
-        } else if ((CC_FIND(comp(387, 22), 0) == 1)) {
+        } else if ((CC_FIND(comp(387, 22), 0) == 1)) {  // chat_v3_choice:choice_buttons_draw
             CC_CALLONRESIZE();
         };
     };

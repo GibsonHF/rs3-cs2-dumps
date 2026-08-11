@@ -7,8 +7,8 @@ function script9226(int0: number, int1: number, int2: number): void {
     script13826(int0, int1, int2, script8404(33882313));
     if ((script6431() == 1)) {
         if ((int0 == 93 as inv)) {
-            if ((IF_GETHIDE(comp(276, 18)) == true)) {
-                IF_SETHIDE(false, comp(276, 18));
+            if ((IF_GETHIDE(comp(276, 18)) == true)) {  // toplevel_v2_mobile:inv_drag_options_window
+                IF_SETHIDE(false, comp(276, 18));  // toplevel_v2_mobile:inv_drag_options_window
                 script16539();
             } else {
                 script16540();

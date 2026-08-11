@@ -16,29 +16,29 @@ function script6979(int0: number): void {
     };
     if ((script7612(int2) == 0)) {
         script7610("The Meilyr clan are still working on perfecting this recipe. You can help them by finding lost journal pages within Daemonheim.");
-        IF_SETTEXT("Unknown recipe", comp(1555, 16));
-        IF_SETTEXT("Cost to unlock:<br>Unknown", comp(1555, 15));
+        IF_SETTEXT("Unknown recipe", comp(1555, 16));  // elfcity_meilyr_recipe_shop:name_text
+        IF_SETTEXT("Cost to unlock:<br>Unknown", comp(1555, 15));  // elfcity_meilyr_recipe_shop:unlock_text
         return;
     };
     var string0 = OC_NAME(int1);
     string0 = SUBSTRING(string0, 0, (STRING_LENGTH(string0) - 3));
-    IF_SETTEXT(string0, comp(1555, 16));
+    IF_SETTEXT(string0, comp(1555, 16));  // elfcity_meilyr_recipe_shop:name_text
     var int3 = script7157(101908487, int1, 0);
-    if ((int3 > IF_GETHEIGHT(comp(1555, 7)))) {
-        IF_SETSCROLLSIZE(0, int3, comp(1555, 7));
+    if ((int3 > IF_GETHEIGHT(comp(1555, 7)))) {  // elfcity_meilyr_recipe_shop:use_bonus
+        IF_SETSCROLLSIZE(0, int3, comp(1555, 7));  // elfcity_meilyr_recipe_shop:use_bonus
     } else {
-        IF_SETSCROLLSIZE(0, 0, comp(1555, 7));
+        IF_SETSCROLLSIZE(0, 0, comp(1555, 7));  // elfcity_meilyr_recipe_shop:use_bonus
     };
     script31(101908483, 101908487, -1, -1, -1, -1, -1, -1);
     var int4 = item_getparam(int1, 4665);
-    IF_SETHIDE(false, comp(1555, 24));
+    IF_SETHIDE(false, comp(1555, 24));  // elfcity_meilyr_recipe_shop:buy_button_disabled_layer
     if ((script7611(int2) == 1)) {
-        IF_SETTEXT("Unlocked!", comp(1555, 15));
+        IF_SETTEXT("Unlocked!", comp(1555, 15));  // elfcity_meilyr_recipe_shop:unlock_text
     } else if ((int4 != -1)) {
-        IF_SETTEXT(`Cost to unlock:<br>${TOSTRING_LOCALISED(int4, 1)}`, comp(1555, 15));
-        IF_SETHIDE(true, comp(1555, 24));
+        IF_SETTEXT(`Cost to unlock:<br>${TOSTRING_LOCALISED(int4, 1)}`, comp(1555, 15));  // elfcity_meilyr_recipe_shop:unlock_text
+        IF_SETHIDE(true, comp(1555, 24));  // elfcity_meilyr_recipe_shop:buy_button_disabled_layer
     } else {
-        IF_SETTEXT("-", comp(1555, 15));
+        IF_SETTEXT("-", comp(1555, 15));  // elfcity_meilyr_recipe_shop:unlock_text
     };
     return;
 }

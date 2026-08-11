@@ -2,11 +2,11 @@
 function script2657(): void {
     varbitplayer_11164 = 0;
     if ((varbitplayer_11152 == 0)) {
-        IF_SETHIDE(false, comp(876, 4));
-        IF_SETHIDE(true, comp(876, 5));
+        IF_SETHIDE(false, comp(876, 4));  // mah3_heistsplines:blackout
+        IF_SETHIDE(true, comp(876, 5));  // mah3_heistsplines:smokelayer
     };
     if ((varbitplayer_11152 == 1)) {
-        IF_SETHIDE(true, comp(876, 4));
+        IF_SETHIDE(true, comp(876, 4));  // mah3_heistsplines:blackout
         SPLINE_NEW(0, 2);
         SPLINE_NEW(1, 2);
         SPLINE_ADDPOINT(0, 0, pos(0,51,156,42,60), 1450, pos(0,51,156,62,62), 1385, 0);
@@ -25,10 +25,10 @@ function script2657(): void {
         SPLINE_ADDPOINT(0, 2, pos(0,51,156,38,59), 825, pos(0,51,156,42,60), 565, 0);
         SPLINE_ADDPOINT(1, 2, pos(0,51,156,38,55), 600, pos(0,51,156,30,55), 600, 0);
         CAM_MOVEALONG(0, 0, 250, 350, 1, 0);
-        IF_SETONCAMFINISHED(callback(script2658), comp(876, 0));
+        IF_SETONCAMFINISHED(callback(script2658), comp(876, 0));  // mah3_heistsplines:controller
     };
     if ((varbitplayer_11152 == 3)) {
-        IF_SETHIDE(true, comp(876, 4));
+        IF_SETHIDE(true, comp(876, 4));  // mah3_heistsplines:blackout
         SPLINE_NEW(0, 4);
         SPLINE_NEW(1, 4);
         SPLINE_ADDPOINT(0, 0, pos(0,52,156,58,48), 805, pos(0,52,156,46,47), 650, 0);
@@ -40,10 +40,10 @@ function script2657(): void {
         SPLINE_ADDPOINT(0, 3, pos(0,52,156,42,34), 745, pos(0,52,156,42,32), 650, 0);
         SPLINE_ADDPOINT(1, 3, pos(0,52,156,42,28), 600, pos(0,52,156,46,27), 670, 0);
         CAM_MOVEALONG(0, 0, 300, 400, 1, 0);
-        IF_SETONCAMFINISHED(callback(script2658), comp(876, 0));
+        IF_SETONCAMFINISHED(callback(script2658), comp(876, 0));  // mah3_heistsplines:controller
     };
     if ((varbitplayer_11152 == 4)) {
-        IF_SETHIDE(true, comp(876, 4));
+        IF_SETHIDE(true, comp(876, 4));  // mah3_heistsplines:blackout
         SPLINE_NEW(0, 3);
         SPLINE_NEW(1, 3);
         SPLINE_ADDPOINT(0, 0, pos(0,51,156,10,55), 1125, pos(0,51,156,14,54), 1085, 0);
@@ -53,10 +53,10 @@ function script2657(): void {
         SPLINE_ADDPOINT(0, 2, pos(0,51,156,50,47), 980, pos(0,51,156,42,47), 865, 0);
         SPLINE_ADDPOINT(1, 2, pos(0,51,156,42,41), 620, pos(0,51,156,42,40), 540, 0);
         CAM_MOVEALONG(0, 0, 300, 400, 1, 0);
-        IF_SETONCAMFINISHED(callback(script2658), comp(876, 0));
+        IF_SETONCAMFINISHED(callback(script2658), comp(876, 0));  // mah3_heistsplines:controller
     };
     if ((varbitplayer_11152 == 5)) {
-        IF_SETHIDE(false, comp(876, 5));
+        IF_SETHIDE(false, comp(876, 5));  // mah3_heistsplines:smokelayer
     };
     if ((varbitplayer_11152 == 6)) {
         SPLINE_NEW(0, 6);
@@ -75,10 +75,10 @@ function script2657(): void {
         SPLINE_ADDPOINT(0, 5, pos(0,51,156,42,39), 975, pos(0,51,156,42,40), 920, 0);
         SPLINE_ADDPOINT(1, 5, pos(0,51,156,58,39), 725, pos(0,51,156,58,40), 725, 0);
         CAM_MOVEALONG(0, 0, 500, 600, 1, 0);
-        IF_SETONCAMFINISHED(callback(script2658), comp(876, 0));
+        IF_SETONCAMFINISHED(callback(script2658), comp(876, 0));  // mah3_heistsplines:controller
     };
     if ((varbitplayer_11152 == 7)) {
-        IF_SETHIDE(true, comp(876, 5));
+        IF_SETHIDE(true, comp(876, 5));  // mah3_heistsplines:smokelayer
         SPLINE_NEW(0, 2);
         SPLINE_NEW(1, 2);
         SPLINE_ADDPOINT(0, 0, pos(0,51,156,42,39), 975, pos(0,51,156,46,39), 1410, 0);
@@ -86,10 +86,10 @@ function script2657(): void {
         SPLINE_ADDPOINT(0, 1, pos(0,51,156,58,39), 915, pos(0,51,156,62,39), 800, 0);
         SPLINE_ADDPOINT(1, 1, pos(0,51,156,14,39), 650, pos(0,51,156,14,39), 725, 0);
         CAM_MOVEALONG(0, 0, 400, 200, 1, 0);
-        IF_SETONCAMFINISHED(callback(script2658), comp(876, 0));
+        IF_SETONCAMFINISHED(callback(script2658), comp(876, 0));  // mah3_heistsplines:controller
     };
     if ((varbitplayer_11152 == 8)) {
-        IF_SETHIDE(true, comp(876, 5));
+        IF_SETHIDE(true, comp(876, 5));  // mah3_heistsplines:smokelayer
         SPLINE_NEW(0, 2);
         SPLINE_NEW(1, 2);
         SPLINE_ADDPOINT(0, 0, pos(0,51,156,58,39), 915, pos(0,51,156,62,39), 960, 0);
@@ -97,7 +97,7 @@ function script2657(): void {
         SPLINE_ADDPOINT(0, 1, pos(0,51,156,22,38), 985, pos(0,51,156,22,38), 950, 0);
         SPLINE_ADDPOINT(1, 1, pos(0,51,156,34,39), 800, pos(0,51,156,34,39), 800, 0);
         CAM_MOVEALONG(0, 0, 400, 200, 1, 0);
-        IF_SETONCAMFINISHED(callback(script2658), comp(876, 0));
+        IF_SETONCAMFINISHED(callback(script2658), comp(876, 0));  // mah3_heistsplines:controller
     };
     return;
 }

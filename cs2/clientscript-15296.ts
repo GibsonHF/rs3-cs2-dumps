@@ -22,9 +22,9 @@ function script15296(int0: number, int1: number): void {
         CC_SETOPCURSOR(1, 46);
         CC_SETPOSITION(0, (32 * int3), 1, 0);
         if ((varbitplayer_48224 == int2)) {
-            IF_SETHIDE(false, comp(271, 42));
-            IF_SETPOSITION(0, (32 * int3), 1, 0, comp(271, 42));
-            IF_SETSIZE(4, 32, 1, 0, comp(271, 42));
+            IF_SETHIDE(false, comp(271, 42));  // trh171_overlay:modifier_selected
+            IF_SETPOSITION(0, (32 * int3), 1, 0, comp(271, 42));  // trh171_overlay:modifier_selected
+            IF_SETSIZE(4, 32, 1, 0, comp(271, 42));  // trh171_overlay:modifier_selected
         };
         int3 = (int3 + 1);
         switch (int5) {

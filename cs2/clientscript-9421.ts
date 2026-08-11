@@ -1,7 +1,7 @@
 //
 function script9421(int0: number, int1: number): void {
     SOUND_VORBIS_VOLUME(36961 as vorbis, 1, 0, 200);
-    IF_SETHIDE(false, comp(711, 19));
+    IF_SETHIDE(false, comp(711, 19));  // 6awe2_rewards:confirm_purchase
     var int2 = enum_getvalue(0, 73, 8211 as cs2enum, int0);
     var int3 = struct_getparam(int2, 3931);
     var string0 = "Are you sure you want to claim this reward?";
@@ -14,24 +14,24 @@ function script9421(int0: number, int1: number): void {
     };
     int4 = (int4 * int1);
     string0 = strconcat(string0, `<br>This will cost you ${inttostring(int4, 10)} renown.`);
-    IF_SETTEXT(string0, comp(711, 89));
+    IF_SETTEXT(string0, comp(711, 89));  // 6awe2_rewards:confirm_details_areyousure
     if ((varbitplayer_21115 == 3)) {
-        IF_SETTEXT(OC_NAME(struct_getparam(int2, 3931)), comp(711, 87));
+        IF_SETTEXT(OC_NAME(struct_getparam(int2, 3931)), comp(711, 87));  // 6awe2_rewards:confirm_details_name
         if ((struct_getparam(int2, 3941) == 1)) {
-            IF_SETOBJECT(-1 as obj, -1, comp(711, 88));
-            IF_SETGRAPHIC(struct_getparam(int2, 3948), comp(711, 88));
+            IF_SETOBJECT(-1 as obj, -1, comp(711, 88));  // 6awe2_rewards:confirm_details_item_image
+            IF_SETGRAPHIC(struct_getparam(int2, 3948), comp(711, 88));  // 6awe2_rewards:confirm_details_item_image
         } else {
-            IF_SETOBJECT(struct_getparam(int2, 3931), -1, comp(711, 88));
+            IF_SETOBJECT(struct_getparam(int2, 3931), -1, comp(711, 88));  // 6awe2_rewards:confirm_details_item_image
         };
     } else {
-        IF_SETTEXT(OC_NAME(struct_getparam(int2, 3932)), comp(711, 87));
+        IF_SETTEXT(OC_NAME(struct_getparam(int2, 3932)), comp(711, 87));  // 6awe2_rewards:confirm_details_name
         if ((struct_getparam(int2, 3941) == 1)) {
-            IF_SETOBJECT(-1 as obj, -1, comp(711, 88));
-            IF_SETGRAPHIC(struct_getparam(int2, 3949), comp(711, 88));
+            IF_SETOBJECT(-1 as obj, -1, comp(711, 88));  // 6awe2_rewards:confirm_details_item_image
+            IF_SETGRAPHIC(struct_getparam(int2, 3949), comp(711, 88));  // 6awe2_rewards:confirm_details_item_image
         } else {
-            IF_SETOBJECT(struct_getparam(int2, 3932), -1, comp(711, 88));
+            IF_SETOBJECT(struct_getparam(int2, 3932), -1, comp(711, 88));  // 6awe2_rewards:confirm_details_item_image
         };
     };
-    IF_SETONOP(callback(script9411, int0, 1), comp(711, 85));
+    IF_SETONOP(callback(script9411, int0, 1), comp(711, 85));  // 6awe2_rewards:confirm_button
     return;
 }

@@ -1,6 +1,6 @@
 //
 function script9878(): void {
-    IF_SETONVARTRANSMIT(callback(), comp(1503, 8));
+    IF_SETONVARTRANSMIT(callback(), comp(1503, 8));  // combatv2_legacy_side:buttons
     var int0 = INV_GETOBJ(94 as inv, 3);
     var int1 = 0;
     var string0 = "Attack";
@@ -55,26 +55,26 @@ function script9878(): void {
         }
     };
     script9879(int1);
-    IF_SETHIDE(false, comp(1503, 37));
+    IF_SETHIDE(false, comp(1503, 37));  // combatv2_legacy_side:button1
     if ((((int1 == 2) || (int1 == 3)) || (int1 == 4))) {
-        IF_SETHIDE(true, comp(1503, 41));
+        IF_SETHIDE(true, comp(1503, 41));  // combatv2_legacy_side:button2
     } else {
-        IF_SETHIDE(false, comp(1503, 41));
+        IF_SETHIDE(false, comp(1503, 41));  // combatv2_legacy_side:button2
     };
-    IF_SETHIDE(false, comp(1503, 45));
+    IF_SETHIDE(false, comp(1503, 45));  // combatv2_legacy_side:button3
     script11348();
-    IF_SETGRAPHIC(int2, comp(1503, 39));
-    IF_SETGRAPHIC(int3, comp(1503, 43));
-    IF_SETGRAPHIC(int5, comp(1503, 47));
-    IF_SETGRAPHIC(int2, comp(1503, 29));
-    IF_SETGRAPHIC(int2, comp(1503, 54));
-    IF_SETGRAPHIC(int4, comp(1503, 32));
-    IF_SETGRAPHIC(int4, comp(1503, 56));
-    IF_SETGRAPHIC(int5, comp(1503, 35));
-    IF_SETGRAPHIC(int5, comp(1503, 58));
-    IF_SETTEXT(string0, comp(1503, 40));
-    IF_SETONMOUSEREPEAT(callback(script8799, string1, -2147483645, -2147483643), comp(1503, 37));
-    IF_SETONMOUSEREPEAT(callback(script8799, string3, -2147483645, -2147483643), comp(1503, 11));
+    IF_SETGRAPHIC(int2, comp(1503, 39));  // combatv2_legacy_side:icon1
+    IF_SETGRAPHIC(int3, comp(1503, 43));  // combatv2_legacy_side:icon2
+    IF_SETGRAPHIC(int5, comp(1503, 47));  // combatv2_legacy_side:icon3
+    IF_SETGRAPHIC(int2, comp(1503, 29));  // combatv2_legacy_side:barbassault_icon1
+    IF_SETGRAPHIC(int2, comp(1503, 54));  // combatv2_legacy_side:barbassault_icon1_tiny
+    IF_SETGRAPHIC(int4, comp(1503, 32));  // combatv2_legacy_side:barbassault_icon2
+    IF_SETGRAPHIC(int4, comp(1503, 56));  // combatv2_legacy_side:barbassault_icon2_tiny
+    IF_SETGRAPHIC(int5, comp(1503, 35));  // combatv2_legacy_side:barbassault_icon3
+    IF_SETGRAPHIC(int5, comp(1503, 58));  // combatv2_legacy_side:barbassault_icon3_tiny
+    IF_SETTEXT(string0, comp(1503, 40));  // combatv2_legacy_side:text1
+    IF_SETONMOUSEREPEAT(callback(script8799, string1, -2147483645, -2147483643), comp(1503, 37));  // combatv2_legacy_side:button1
+    IF_SETONMOUSEREPEAT(callback(script8799, string3, -2147483645, -2147483643), comp(1503, 11));  // combatv2_legacy_side:combat_icon
     script9877();
     return;
 }

@@ -1,6 +1,6 @@
 //
 function script14344(int0: number): number {
-    if ((CC_FIND[1](comp(517, 201), int0) == 1)) {
+    if ((CC_FIND[1](comp(517, 201), int0) == 1)) {  // bank:bank_inv
         if ((CC_GETINVOBJECT[1]() == 48447 as obj)) {
             return -1 as obj;
         };

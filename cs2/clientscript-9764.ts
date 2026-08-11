@@ -1,7 +1,7 @@
 //
 function script9764(): void {
     var int0 = comp(-1, 65535);
-    IF_SETOPKEY(1, 0, 0, comp(1145, 31));
+    IF_SETOPKEY(1, 0, 0, comp(1145, 31));  // spirittree2:spirittree_window_close_button
     var int1 = 0;
     while ((int1 < ENUM_GETOUTPUTCOUNT(8839 as cs2enum))) {
         int0 = enum_getvalue(0, 9, 8839 as cs2enum, int1);

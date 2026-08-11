@@ -3,7 +3,7 @@ function script10521(int0: number, int1: number): void {
     if ((varclient_2236 == 9)) {
         switch (int0) {
             case 119930893: {
-                IF_SETHIDE(true, comp(1830, 17));
+                IF_SETHIDE(true, comp(1830, 17));  // text_input_dialog:input_confirm_instructions
                 break;
             }
             case 97452039: {
@@ -15,7 +15,7 @@ function script10521(int0: number, int1: number): void {
                 break;
             }
             case 36438037: {
-                IF_SETHIDE(true, comp(556, 18));
+                IF_SETHIDE(true, comp(556, 18));  // investigate:input_confirm_instructions
                 break;
             }
             case 33882347: {

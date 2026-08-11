@@ -2,6 +2,6 @@
 function script16485(): void {
     var int0 = script438(varbitplayer_51126);
     var int1 = dbrow_getfield(int0, 503872, 0);
-    IF_SETMODEL(int1, comp(1253, 31));
+    IF_SETMODEL(int1, comp(1253, 31));  // wheel_of_fortune:chest_model_1
     return;
 }

@@ -6,22 +6,22 @@ function script13388(int0: number, int1: number): void {
     if ((int1 == 0)) {
         switch (int0) {
             case 1: {
-                int3 = comp(1875, 8);
+                int3 = comp(1875, 8);  // repmodal:backlight_worker_text
                 string0 = "Worker";
                 break;
             }
             case 2: {
-                int3 = comp(1875, 11);
+                int3 = comp(1875, 11);  // repmodal:backlight_imperial_text
                 string0 = "Imperial";
                 break;
             }
             case 3: {
-                int3 = comp(1875, 20);
+                int3 = comp(1875, 20);  // repmodal:backlight_merchant_text
                 string0 = "Merchant";
                 break;
             }
             case 4: {
-                int3 = comp(1875, 15);
+                int3 = comp(1875, 15);  // repmodal:backlight_ports_text
                 string0 = "Port";
                 break;
             }
@@ -29,19 +29,19 @@ function script13388(int0: number, int1: number): void {
     } else {
         switch (int0) {
             case 1: {
-                int3 = comp(1875, 140);
+                int3 = comp(1875, 140);  // repmodal:backlight_worker_text_secondary
                 break;
             }
             case 2: {
-                int3 = comp(1875, 143);
+                int3 = comp(1875, 143);  // repmodal:backlight_imperial_text_secondary
                 break;
             }
             case 3: {
-                int3 = comp(1875, 149);
+                int3 = comp(1875, 149);  // repmodal:backlight_merchant_text_secondary
                 break;
             }
             case 4: {
-                int3 = comp(1875, 146);
+                int3 = comp(1875, 146);  // repmodal:backlight_ports_text_secondary
                 break;
             }
         };
@@ -58,38 +58,38 @@ function script13388(int0: number, int1: number): void {
     if ((int1 == 0)) {
         switch (int0) {
             case 1: {
-                int3 = comp(1875, 8);
+                int3 = comp(1875, 8);  // repmodal:backlight_worker_text
                 break;
             }
             case 2: {
-                int3 = comp(1875, 11);
+                int3 = comp(1875, 11);  // repmodal:backlight_imperial_text
                 break;
             }
             case 3: {
-                int3 = comp(1875, 20);
+                int3 = comp(1875, 20);  // repmodal:backlight_merchant_text
                 break;
             }
             case 4: {
-                int3 = comp(1875, 15);
+                int3 = comp(1875, 15);  // repmodal:backlight_ports_text
                 break;
             }
         };
     } else {
         switch (int0) {
             case 1: {
-                int3 = comp(1875, 140);
+                int3 = comp(1875, 140);  // repmodal:backlight_worker_text_secondary
                 break;
             }
             case 2: {
-                int3 = comp(1875, 143);
+                int3 = comp(1875, 143);  // repmodal:backlight_imperial_text_secondary
                 break;
             }
             case 3: {
-                int3 = comp(1875, 149);
+                int3 = comp(1875, 149);  // repmodal:backlight_merchant_text_secondary
                 break;
             }
             case 4: {
-                int3 = comp(1875, 146);
+                int3 = comp(1875, 146);  // repmodal:backlight_ports_text_secondary
                 break;
             }
         };

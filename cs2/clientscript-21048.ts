@@ -1,6 +1,6 @@
 //
 function script21048(): void {
-    IF_SETHIDE(false, comp(1409, 6));
+    IF_SETHIDE(false, comp(1409, 6));  // league_parent_areas:map_area
     var string0 = enum_getvalue(0, 36, 9057 as cs2enum, varbitplayer_58391);
     IF_SETTEXT(`Region unlocks are permanent.<br>This is your final chance to change your mind.<br><br>Unlock this region: ${string0}`, comp(1409, 143));
     var string1 = "Unlock";

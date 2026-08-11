@@ -69,7 +69,7 @@ function script11602(int0: number, int1: number): void {
         int2 = (int2 + 1);
         [int3, int4, int5, long0] = script11603(int2);
     };
-    IF_SETSCROLLSIZE(int8, MAX(IF_GETHEIGHT(comp(1638, 9)), int7), comp(1638, 9));
+    IF_SETSCROLLSIZE(int8, MAX(IF_GETHEIGHT(comp(1638, 9)), int7), comp(1638, 9));  // exchange_history_v2:list_layer ?
     script7791(107347973, 107347977);
     return;
 }

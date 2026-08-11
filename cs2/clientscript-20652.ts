@@ -1,14 +1,14 @@
 //
 function script20652(int0: number, int1: number): void {
     if ((int0 > 0)) {
-        IF_SETHIDE(false, comp(1498, 3));
+        IF_SETHIDE(false, comp(1498, 3));  // marketplace_store:fade_top
     } else {
-        IF_SETHIDE(true, comp(1498, 3));
+        IF_SETHIDE(true, comp(1498, 3));  // marketplace_store:fade_top
     };
     if ((int0 >= int1)) {
-        IF_SETHIDE(true, comp(1498, 4));
+        IF_SETHIDE(true, comp(1498, 4));  // marketplace_store:fade_bottom
     } else {
-        IF_SETHIDE(false, comp(1498, 4));
+        IF_SETHIDE(false, comp(1498, 4));  // marketplace_store:fade_bottom
     };
     return;
 }

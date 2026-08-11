@@ -2,7 +2,7 @@
 function script3729(int0: number): void {
     var int1 = 0;
     var int2 = 2;
-    var int3 = comp(1477, 8);
+    var int3 = comp(1477, 8);  // toplevel_v2:keyboard_handler
     if ((int0 == 1)) {
         while ((int1 <= 4)) {
             script8844(int2, script8825(42, int1), int3, -1);

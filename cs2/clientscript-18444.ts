@@ -60,7 +60,7 @@ function script18444(): void {
             IF_SETHIDE(true, int7);
         };
     };
-    if ((IF_FIND(comp(1280, 18)) == 1)) {
+    if ((IF_FIND(comp(1280, 18)) == 1)) {  // buff_select_event:buff_select_button
         if ((int11 == 0)) {
             CC_SETENABLED(true);
         } else {

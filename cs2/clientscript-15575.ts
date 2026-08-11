@@ -28,9 +28,9 @@ function script15575(int0: number): void {
             break;
         }
     };
-    if ((CC_FIND(comp(1420, 130), int0) == 1)) {
-        IF_SETCOLOUR(CC_GETCOLOUR(), comp(1420, 124));
+    if ((CC_FIND(comp(1420, 130), int0) == 1)) {  // acc_create:colours
+        IF_SETCOLOUR(CC_GETCOLOUR(), comp(1420, 124));  // acc_create:colour_selected_1
     };
-    IF_SETTEXT(string0, comp(1420, 123));
+    IF_SETTEXT(string0, comp(1420, 123));  // acc_create:colour_name_1
     return;
 }

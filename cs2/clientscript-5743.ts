@@ -54,12 +54,12 @@ function script5743(int0: number, int1: number): void {
         int4 = (int4 + 1);
     };
     int6 = (int6 - int9);
-    if (((int6 - int9) > IF_GETHEIGHT(comp(1867, 4)))) {
-        IF_SETSCROLLSIZE(0, (0 - (0 - int6)), comp(1867, 4));
+    if (((int6 - int9) > IF_GETHEIGHT(comp(1867, 4)))) {  // sworld_start:sworld_select_world_list
+        IF_SETSCROLLSIZE(0, (0 - (0 - int6)), comp(1867, 4));  // sworld_start:sworld_select_world_list
     } else {
-        IF_SETSCROLLSIZE(0, 0, comp(1867, 4));
+        IF_SETSCROLLSIZE(0, 0, comp(1867, 4));  // sworld_start:sworld_select_world_list
     };
-    IF_SETSCROLLPOS(0, int6, comp(1867, 4));
+    IF_SETSCROLLPOS(0, int6, comp(1867, 4));  // sworld_start:sworld_select_world_list
     script7791(122355715, 122355716);
     return;
 }

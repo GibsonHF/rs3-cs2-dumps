@@ -9,19 +9,19 @@ function script5975(): void {
             int0 = 1;
         };
         if ((varbitplayer_6676 == 0)) {
-            IF_SETHIDE(true, comp(1259, 104));
-            IF_SETHIDE(false, comp(1259, 98));
+            IF_SETHIDE(true, comp(1259, 104));  // clan_stronghold_main_map:day_button_selected_layer
+            IF_SETHIDE(false, comp(1259, 98));  // clan_stronghold_main_map:night_button_selected_layer
         } else {
-            IF_SETHIDE(false, comp(1259, 104));
-            IF_SETHIDE(true, comp(1259, 98));
+            IF_SETHIDE(false, comp(1259, 104));  // clan_stronghold_main_map:day_button_selected_layer
+            IF_SETHIDE(true, comp(1259, 98));  // clan_stronghold_main_map:night_button_selected_layer
         };
     };
     if ((int0 == 1)) {
-        IF_SETHIDE(true, comp(1259, 68));
-        IF_SETHIDE(true, comp(1259, 75));
+        IF_SETHIDE(true, comp(1259, 68));  // clan_stronghold_main_map:select_layout_button_disabled_layer
+        IF_SETHIDE(true, comp(1259, 75));  // clan_stronghold_main_map:revert_layout_button_disabled_layer
     } else {
-        IF_SETHIDE(false, comp(1259, 68));
-        IF_SETHIDE(false, comp(1259, 75));
+        IF_SETHIDE(false, comp(1259, 68));  // clan_stronghold_main_map:select_layout_button_disabled_layer
+        IF_SETHIDE(false, comp(1259, 75));  // clan_stronghold_main_map:revert_layout_button_disabled_layer
     };
     return;
 }

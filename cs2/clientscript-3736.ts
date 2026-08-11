@@ -1,7 +1,7 @@
 //
 function script3736(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number): void {
-    var int7 = IF_GETWIDTH(comp(573, 62));
-    var int8 = IF_GETHEIGHT(comp(573, 62));
+    var int7 = IF_GETWIDTH(comp(573, 62));  // clan_admin_mes:dropdown_click
+    var int8 = IF_GETHEIGHT(comp(573, 62));  // clan_admin_mes:dropdown_click
     var int9 = 0;
     var int10 = 0;
     var int11 = -1;
@@ -13,7 +13,7 @@ function script3736(int0: number, int1: number, int2: number, int3: number, int4
     var int16 = struct_getparam(21332, 1381);
     var int17 = 0;
     var int18 = -1;
-    IF_SETHIDE(true, comp(573, 21));
+    IF_SETHIDE(true, comp(573, 21));  // clan_admin_mes:confirm_layer
     CC_DELETEALL(int1);
     CC_DELETEALL(int2);
     CC_DELETEALL(int3);
@@ -53,7 +53,7 @@ function script3736(int0: number, int1: number, int2: number, int3: number, int4
         int11 = enum_getvalue(0, 73, 8660, int20);
         string0 = struct_getparam(int11, 4188);
         int12 = PARAHEIGHT(string0, IF_GETWIDTH(int2), 27 as fontmetrics);
-        CC_CREATE(comp(573, 62), 4, int10);
+        CC_CREATE(comp(573, 62), 4, int10);  // clan_admin_mes:dropdown_click
         CC_SETHIDE(true);
         CC_CREATE(int5, 3, int10);
         CC_SETSIZE(0, MAX(24, ((12 * int12) + 4)), 1, 0);

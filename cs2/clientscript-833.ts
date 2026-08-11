@@ -7,7 +7,7 @@ function script833(int0: number): void {
     if ((int1 < 40)) {
         int1 = 40;
     };
-    IF_SETTRANS(int0, comp(1202, 0));
-    IF_SETTRANS(int1, comp(1202, 2));
+    IF_SETTRANS(int0, comp(1202, 0));  // fmc_darkness:black
+    IF_SETTRANS(int1, comp(1202, 2));  // fmc_darkness:fade
     return;
 }

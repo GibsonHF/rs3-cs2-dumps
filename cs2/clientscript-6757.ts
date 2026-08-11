@@ -11,25 +11,25 @@ function script6757(): void {
     var string0 = "";
     var int5 = struct_getparam(int2, 3330);
     var int6 = struct_getparam(int2, 3331);
-    IF_SETHIDE(false, comp(1345, 103));
-    IF_SETTEXT(string0, comp(1345, 218));
+    IF_SETHIDE(false, comp(1345, 103));  // featured_main:reqhelp_layer
+    IF_SETTEXT(string0, comp(1345, 218));  // featured_main:gold_window_title_text
     script4532(88146138);
     if ((struct_getparam(int4, 1290) == 1)) {
-        IF_SETTEXT("Free to play content", comp(1345, 116));
-        IF_SETCOLOUR(6776679, comp(1345, 116));
-        IF_SETGRAPHIC(13165 as graphic, comp(1345, 115));
+        IF_SETTEXT("Free to play content", comp(1345, 116));  // featured_main:mem_text
+        IF_SETCOLOUR(6776679, comp(1345, 116));  // featured_main:mem_text
+        IF_SETGRAPHIC(13165 as graphic, comp(1345, 115));  // featured_main:mem_tick
     } else if ((PLAYERMEMBER() == false)) {
-        IF_SETTEXT("RuneScape member: Click to subscribe!", comp(1345, 116));
-        IF_SETCOLOUR(9803157, comp(1345, 116));
-        IF_SETGRAPHIC(13166 as graphic, comp(1345, 115));
+        IF_SETTEXT("RuneScape member: Click to subscribe!", comp(1345, 116));  // featured_main:mem_text
+        IF_SETCOLOUR(9803157, comp(1345, 116));  // featured_main:mem_text
+        IF_SETGRAPHIC(13166 as graphic, comp(1345, 115));  // featured_main:mem_tick
     } else if ((MAP_MEMBERS() == 0)) {
-        IF_SETTEXT("Member's world", comp(1345, 116));
-        IF_SETCOLOUR(9803157, comp(1345, 116));
-        IF_SETGRAPHIC(13166 as graphic, comp(1345, 115));
+        IF_SETTEXT("Member's world", comp(1345, 116));  // featured_main:mem_text
+        IF_SETCOLOUR(9803157, comp(1345, 116));  // featured_main:mem_text
+        IF_SETGRAPHIC(13166 as graphic, comp(1345, 115));  // featured_main:mem_tick
     } else {
-        IF_SETTEXT("RuneScape member", comp(1345, 116));
-        IF_SETCOLOUR(6776679, comp(1345, 116));
-        IF_SETGRAPHIC(13165 as graphic, comp(1345, 115));
+        IF_SETTEXT("RuneScape member", comp(1345, 116));  // featured_main:mem_text
+        IF_SETCOLOUR(6776679, comp(1345, 116));  // featured_main:mem_text
+        IF_SETGRAPHIC(13165 as graphic, comp(1345, 115));  // featured_main:mem_tick
     };
     var int7 = 0;
     var int8 = 0;
@@ -171,9 +171,9 @@ function script6757(): void {
                 script6758(int3, int14, int7, int8, int9, int10, int11, int13, int12);
             };
         };
-        IF_SETSIZE(400, (115 + (23 * int14)), 0, 0, comp(1345, 106));
+        IF_SETSIZE(400, (115 + (23 * int14)), 0, 0, comp(1345, 106));  // featured_main:gold_window_layer
         return;
     };
-    IF_SETSIZE(400, (115 + (23 * int14)), 0, 0, comp(1345, 106));
+    IF_SETSIZE(400, (115 + (23 * int14)), 0, 0, comp(1345, 106));  // featured_main:gold_window_layer
     return;
 }

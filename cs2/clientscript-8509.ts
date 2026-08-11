@@ -139,7 +139,7 @@ function script8509(int0: number, int1: number): void {
                     };
                     script8510(int2, int0, int1);
                     if ((((int2 == 18) && (int8 == 0)) && (STRING_LENGTH(varclient_2483) > 0))) {
-                        IF_SETHIDE(true, comp(137, 78));
+                        IF_SETHIDE(true, comp(137, 78));  // chatdefault:wiki_button
                     };
                 };
             } else {
@@ -152,7 +152,7 @@ function script8509(int0: number, int1: number): void {
                 };
                 script8510(int2, int0, int1);
                 if ((((int2 == 18) && (int8 == 0)) && (STRING_LENGTH(varclient_2483) > 0))) {
-                    IF_SETHIDE(true, comp(137, 78));
+                    IF_SETHIDE(true, comp(137, 78));  // chatdefault:wiki_button
                 };
             };
             break;

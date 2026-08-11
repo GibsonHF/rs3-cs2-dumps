@@ -1,6 +1,6 @@
 //
 function script16371(int0: number): void {
-    if ((IF_GETHIDE(comp(1747, 4)) == true)) {
+    if ((IF_GETHIDE(comp(1747, 4)) == true)) {  // gwd2_rep:info_layer ?
         script16369(int0);
     } else {
         script16370(int0);

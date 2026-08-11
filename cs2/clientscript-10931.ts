@@ -7,8 +7,8 @@ function script10931(int0: number, int1: number, int2: number, int3: number, int
     var int7 = 0;
     var string6 = "Sticky post";
     var int8 = 0;
-    IF_SETHIDE(true, comp(907, 186));
-    IF_SETHIDE(false, comp(907, 147));
+    IF_SETHIDE(true, comp(907, 186));  // lobbyscreen_pane_playerinfo:no_news
+    IF_SETHIDE(false, comp(907, 147));  // lobbyscreen_pane_playerinfo:news_build_layer
     var int9 = 167;
     var int10 = 206;
     var int11 = 15;

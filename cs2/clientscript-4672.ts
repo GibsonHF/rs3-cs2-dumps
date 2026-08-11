@@ -8,8 +8,8 @@ function script4672(int0: number): void {
         }
         case 2: {
             int1 = 9051 as npc;
-            IF_SETMODELANIM(9804 as seq, comp(102, 31));
-            IF_SETMODELZOOM(2500, comp(102, 31));
+            IF_SETMODELANIM(9804 as seq, comp(102, 31));  // fremsaga_reward:face
+            IF_SETMODELZOOM(2500, comp(102, 31));  // fremsaga_reward:face
             break;
         }
         case 4:
@@ -19,10 +19,10 @@ function script4672(int0: number): void {
         }
         case 3: {
             int1 = 15373 as npc;
-            IF_SETMODELANIM(9804 as seq, comp(102, 31));
+            IF_SETMODELANIM(9804 as seq, comp(102, 31));  // fremsaga_reward:face
             break;
         }
     };
-    IF_SETNPCHEAD(int1, comp(102, 31));
+    IF_SETNPCHEAD(int1, comp(102, 31));  // fremsaga_reward:face
     return;
 }

@@ -2,7 +2,7 @@
 function script8867(int0: number): void {
     var int1 = struct_getparam(21300, 3503);
     var int2 = struct_getparam(21300, 3505);
-    var int3 = comp(1477, 739);
+    var int3 = comp(1477, 739);  // toplevel_v2:side_modal_window_alt_content
     if ((int0 == 1)) {
         if ((IF_HASSUB(int2) == 0)) {
             return;

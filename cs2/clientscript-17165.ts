@@ -1,7 +1,7 @@
 //
 function script17165(int0: number, int1: number): void {
     SOUND_VORBIS_VOLUME(36960 as vorbis, 1, 0, 240);
-    if (((int1 == 0) && (IF_GETHIDE(comp(1253, 462)) == false))) {
+    if (((int1 == 0) && (IF_GETHIDE(comp(1253, 462)) == false))) {  // wheel_of_fortune:trh_get_keys_layer
         script13463("Please finish what you are doing before opening prize preview.");
         return;
     };

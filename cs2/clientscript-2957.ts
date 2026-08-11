@@ -1,16 +1,16 @@
 //
 function script2957(int0: number, int1: number, int2: number): void {
-    CC_DELETEALL(comp(365, 12));
-    CC_DELETEALL(comp(365, 13));
-    CC_DELETEALL(comp(365, 17));
-    CC_DELETEALL(comp(365, 18));
-    CC_DELETEALL(comp(365, 19));
-    CC_DELETEALL(comp(365, 20));
-    CC_DELETEALL(comp(365, 10));
-    IF_SETHIDE(true, comp(365, 21));
-    IF_SETHIDE(true, comp(365, 22));
-    IF_SETHIDE(true, comp(365, 23));
-    IF_SETHIDE(true, comp(365, 7));
+    CC_DELETEALL(comp(365, 12));  // settings:cat_build
+    CC_DELETEALL(comp(365, 13));  // settings:cat_click
+    CC_DELETEALL(comp(365, 17));  // settings:set_link
+    CC_DELETEALL(comp(365, 18));  // settings:set_build
+    CC_DELETEALL(comp(365, 19));  // settings:set_click
+    CC_DELETEALL(comp(365, 20));  // settings:set_value
+    CC_DELETEALL(comp(365, 10));  // settings:spinner
+    IF_SETHIDE(true, comp(365, 21));  // settings:shop_warning_buy_box
+    IF_SETHIDE(true, comp(365, 22));  // settings:shop_warning_sell_box
+    IF_SETHIDE(true, comp(365, 23));  // settings:loot_beam_value_box
+    IF_SETHIDE(true, comp(365, 7));  // settings:loading
     var int3 = script20382();
     var int4 = 0;
     var int5 = 23920642;
@@ -19,7 +19,7 @@ function script2957(int0: number, int1: number, int2: number): void {
     var int7 = 0;
     var int8 = ENUM_GETOUTPUTCOUNT(int3);
     var int9 = 0;
-    var int10 = IF_GETWIDTH(comp(365, 14));
+    var int10 = IF_GETWIDTH(comp(365, 14));  // settings:cat_scrolling
     var int11 = 0;
     var int12 = 0;
     var int13 = 0;
@@ -47,7 +47,7 @@ function script2957(int0: number, int1: number, int2: number): void {
         };
         int7 = (int7 + 1);
     };
-    IF_SETSCROLLSIZE(0, int11, comp(365, 14));
+    IF_SETSCROLLSIZE(0, int11, comp(365, 14));  // settings:cat_scrolling
     script7791(23920655, 23920654);
     if ((int6 >= 2)) {
         script9394(int5, int2, int3);
@@ -57,14 +57,14 @@ function script2957(int0: number, int1: number, int2: number): void {
     if ((int14 == -1 as dbrow)) {
         return;
     };
-    int10 = IF_GETWIDTH(comp(365, 16));
+    int10 = IF_GETWIDTH(comp(365, 16));  // settings:set_scrolling
     var string0 = dbrow_getfield(int14, 126976, 0);
     var string1 = dbrow_getfield(int14, 126992, 0);
     var int18 = script20478(string0, int10, 2195, 0);
     var int19 = script20478(string1, int10, 17514, 0);
-    script2995(23920658, IF_GETNEXTSUBID(comp(365, 18)), 0, 0, 0, 0, int10, int18, 0, 0, 2195, string0);
+    script2995(23920658, IF_GETNEXTSUBID(comp(365, 18)), 0, 0, 0, 0, int10, int18, 0, 0, 2195, string0);  // settings:set_build
     CC_SETTEXTALIGN(1, 1, 0);
-    script2995(23920658, IF_GETNEXTSUBID(comp(365, 18)), 4, (int18 + 4), 0, 0, (int10 - (2 * 4)), int19, 0, 0, 17514, string1);
+    script2995(23920658, IF_GETNEXTSUBID(comp(365, 18)), 4, (int18 + 4), 0, 0, (int10 - (2 * 4)), int19, 0, 0, 17514, string1);  // settings:set_build
     int11 = (int18 + 4);
     if ((STRING_LENGTH(string1) > 0)) {
         int11 = ((int11 + int19) + 4);

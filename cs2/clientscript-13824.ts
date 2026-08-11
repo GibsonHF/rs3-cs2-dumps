@@ -1,7 +1,7 @@
 //
 function script13824(): void {
     if (((varbitplayer_42094 == 1) || (script6431() == 1))) {
-        IF_SETONTIMER(callback(), comp(1477, 882));
+        IF_SETONTIMER(callback(), comp(1477, 882));  // toplevel_v2:optext_layer
         return;
     };
     var int0 = 0;

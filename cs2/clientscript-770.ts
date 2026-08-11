@@ -1,7 +1,7 @@
 //
 function script770(int0: number, int1: number, int2: number): void {
-    var int3 = IF_GETWIDTH(comp(673, 0));
-    var int4 = IF_GETHEIGHT(comp(673, 0));
+    var int3 = IF_GETWIDTH(comp(673, 0));  // tut5_spotlight:content_layer
+    var int4 = IF_GETHEIGHT(comp(673, 0));  // tut5_spotlight:content_layer
     var int5 = 0;
     var int6 = 0;
     var int7 = 0;
@@ -23,13 +23,13 @@ function script770(int0: number, int1: number, int2: number): void {
         if (((varclient_3851 != 0) && (int11 == varclient_3851))) {
             return;
         };
-        CC_DELETEALL(comp(673, 0));
-        CC_CREATE(comp(673, 0), 3, 0);
+        CC_DELETEALL(comp(673, 0));  // tut5_spotlight:content_layer
+        CC_CREATE(comp(673, 0), 3, 0);  // tut5_spotlight:content_layer
         CC_SETSIZE(0, 0, 1, 1);
         CC_SETPOSITION(0, 0, 0, 0);
         CC_SETFILL(1);
         CC_SETTRANS(125);
-        CC_CREATE(comp(673, 0), 5, 1);
+        CC_CREATE(comp(673, 0), 5, 1);  // tut5_spotlight:content_layer
         CC_SETGRAPHIC(21393 as graphic);
         CC_SETSIZE(41, 54, 0, 0);
         CC_SETONTIMER(callback(script773, 1, 0, 44105728));
@@ -58,7 +58,7 @@ function script770(int0: number, int1: number, int2: number): void {
         varclient_3851 = int11;
         return;
     };
-    CC_DELETEALL(comp(673, 0));
+    CC_DELETEALL(comp(673, 0));  // tut5_spotlight:content_layer
     varclient_3851 = 0;
     var int13 = dbrow_getfield(varplayer_8746, 295328, 0);
     int5 = SCALE((varclient_3848 - varclient_3847), 100, varclient_3845);
@@ -83,37 +83,37 @@ function script770(int0: number, int1: number, int2: number): void {
         int8 = (int2 - SCALE(int6, 100, varclient_3846));
         int10 = (int8 + int6);
     };
-    IF_SETHIDE(false, comp(673, 1));
-    IF_SETGRAPHIC(int12, comp(673, 1));
-    IF_SETSIZE(int5, int6, 0, 0, comp(673, 1));
-    IF_SETPOSITION(int7, int8, 0, 0, comp(673, 1));
-    IF_SETHIDE(false, comp(673, 2));
-    IF_SETSIZE(int5, (int4 - (int4 - int8)), 0, 0, comp(673, 2));
-    IF_SETPOSITION(int7, 0, 0, 0, comp(673, 2));
+    IF_SETHIDE(false, comp(673, 1));  // tut5_spotlight:centre
+    IF_SETGRAPHIC(int12, comp(673, 1));  // tut5_spotlight:centre
+    IF_SETSIZE(int5, int6, 0, 0, comp(673, 1));  // tut5_spotlight:centre
+    IF_SETPOSITION(int7, int8, 0, 0, comp(673, 1));  // tut5_spotlight:centre
+    IF_SETHIDE(false, comp(673, 2));  // tut5_spotlight:top
+    IF_SETSIZE(int5, (int4 - (int4 - int8)), 0, 0, comp(673, 2));  // tut5_spotlight:top
+    IF_SETPOSITION(int7, 0, 0, 0, comp(673, 2));  // tut5_spotlight:top
     IF_SETFILL(1, 44105738);
-    IF_SETCOLOUR(0, comp(673, 10));
-    IF_SETTRANS(125, comp(673, 10));
-    IF_SETHIDE(int14, comp(673, 3));
-    IF_SETHIDE(false, comp(673, 4));
-    IF_SETSIZE(int5, (int4 - int10), 0, 0, comp(673, 4));
-    IF_SETPOSITION(int7, int10, 0, 0, comp(673, 4));
+    IF_SETCOLOUR(0, comp(673, 10));  // tut5_spotlight:top_rect
+    IF_SETTRANS(125, comp(673, 10));  // tut5_spotlight:top_rect
+    IF_SETHIDE(int14, comp(673, 3));  // tut5_spotlight:top_noclickthrough
+    IF_SETHIDE(false, comp(673, 4));  // tut5_spotlight:bottom
+    IF_SETSIZE(int5, (int4 - int10), 0, 0, comp(673, 4));  // tut5_spotlight:bottom
+    IF_SETPOSITION(int7, int10, 0, 0, comp(673, 4));  // tut5_spotlight:bottom
     IF_SETFILL(1, 44105739);
-    IF_SETCOLOUR(0, comp(673, 11));
-    IF_SETTRANS(125, comp(673, 11));
-    IF_SETHIDE(int14, comp(673, 5));
-    IF_SETHIDE(false, comp(673, 6));
-    IF_SETSIZE(int7, int4, 0, 0, comp(673, 6));
-    IF_SETPOSITION(0, 0, 0, 0, comp(673, 6));
+    IF_SETCOLOUR(0, comp(673, 11));  // tut5_spotlight:bottom_rect
+    IF_SETTRANS(125, comp(673, 11));  // tut5_spotlight:bottom_rect
+    IF_SETHIDE(int14, comp(673, 5));  // tut5_spotlight:bottom_noclickthrough
+    IF_SETHIDE(false, comp(673, 6));  // tut5_spotlight:left
+    IF_SETSIZE(int7, int4, 0, 0, comp(673, 6));  // tut5_spotlight:left
+    IF_SETPOSITION(0, 0, 0, 0, comp(673, 6));  // tut5_spotlight:left
     IF_SETFILL(1, 44105740);
-    IF_SETCOLOUR(0, comp(673, 12));
-    IF_SETTRANS(125, comp(673, 12));
-    IF_SETHIDE(int14, comp(673, 7));
-    IF_SETHIDE(false, comp(673, 8));
-    IF_SETSIZE((int3 - int9), int4, 0, 0, comp(673, 8));
-    IF_SETPOSITION(int9, 0, 0, 0, comp(673, 8));
+    IF_SETCOLOUR(0, comp(673, 12));  // tut5_spotlight:left_rect
+    IF_SETTRANS(125, comp(673, 12));  // tut5_spotlight:left_rect
+    IF_SETHIDE(int14, comp(673, 7));  // tut5_spotlight:left_noclickthrough
+    IF_SETHIDE(false, comp(673, 8));  // tut5_spotlight:right
+    IF_SETSIZE((int3 - int9), int4, 0, 0, comp(673, 8));  // tut5_spotlight:right
+    IF_SETPOSITION(int9, 0, 0, 0, comp(673, 8));  // tut5_spotlight:right
     IF_SETFILL(1, 44105741);
-    IF_SETCOLOUR(0, comp(673, 13));
-    IF_SETTRANS(125, comp(673, 13));
-    IF_SETHIDE(int14, comp(673, 9));
+    IF_SETCOLOUR(0, comp(673, 13));  // tut5_spotlight:right_rect
+    IF_SETTRANS(125, comp(673, 13));  // tut5_spotlight:right_rect
+    IF_SETHIDE(int14, comp(673, 9));  // tut5_spotlight:right_noclickthrough
     return;
 }

@@ -79,11 +79,11 @@ function script2988(int0: number): void {
             return;
         }
     };
-    IF_SETHIDE(true, comp(72, 9));
-    IF_SETHIDE(false, comp(72, 10));
-    IF_SETTEXT(string0, comp(72, 3));
-    IF_SETTEXT(string1, comp(72, 4));
-    IF_SETTEXT(string2, comp(72, 5));
-    IF_SETMODEL(int1, comp(72, 2));
+    IF_SETHIDE(true, comp(72, 9));  // ecosystem_creatures:buttons
+    IF_SETHIDE(false, comp(72, 10));  // ecosystem_creatures:requirement_layer
+    IF_SETTEXT(string0, comp(72, 3));  // ecosystem_creatures:name
+    IF_SETTEXT(string1, comp(72, 4));  // ecosystem_creatures:description
+    IF_SETTEXT(string2, comp(72, 5));  // ecosystem_creatures:requirements
+    IF_SETMODEL(int1, comp(72, 2));  // ecosystem_creatures:creature_model
     return;
 }

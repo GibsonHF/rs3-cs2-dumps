@@ -1,9 +1,9 @@
 //
 function script20417(): void {
-    var int0 = comp(191, 77);
-    var int1 = comp(191, 78);
-    var int2 = comp(191, 79);
-    var int3 = comp(191, 80);
+    var int0 = comp(191, 77);  // christmas_hub:winter_weeks_info_title
+    var int1 = comp(191, 78);  // christmas_hub:winter_weeks_info_date
+    var int2 = comp(191, 79);  // christmas_hub:winter_weeks_info_time
+    var int3 = comp(191, 80);  // christmas_hub:winter_weeks_info_text_layer
     var int4 = 0;
     var int5 = 4;
     var int6 = 4;

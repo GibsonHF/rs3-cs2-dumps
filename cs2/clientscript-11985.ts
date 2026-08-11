@@ -8,6 +8,6 @@ function script11985(int0: number, string0: string): void {
         var string0 = varclient_2250;
         var int0 = (CLIENTCLOCK() + 25);
     };
-    IF_SETONTIMER(callback(script11984, string0, int0), comp(1108, 31));
+    IF_SETONTIMER(callback(script11984, string0, int0), comp(1108, 31));  // friendschatsetup:aif_text_input
     return;
 }

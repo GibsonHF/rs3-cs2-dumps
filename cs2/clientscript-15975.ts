@@ -1,6 +1,6 @@
 //
 function script15975(int0: number): void {
-    var int1 = comp(743, 9);
+    var int1 = comp(743, 9);  // toplevel_v2_extra_action_button:button_graphic_cooldown
     IF_SETHIDE(false, int1);
     var int2 = dbrow_getfield(int0, 483424, 0);
     if ((int2 == 0)) {

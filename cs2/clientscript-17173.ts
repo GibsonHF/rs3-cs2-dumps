@@ -3,9 +3,9 @@ function script17173(): void {
     var int0 = 0;
     var int1 = 0;
     var int2 = 0;
-    IF_SETGRAPHIC(27373 as graphic, comp(1253, 5));
-    IF_SETSIZE(800, 600, 0, 0, comp(1253, 5));
-    CC_DELETEALL(comp(1253, 3));
+    IF_SETGRAPHIC(27373 as graphic, comp(1253, 5));  // wheel_of_fortune:background
+    IF_SETSIZE(800, 600, 0, 0, comp(1253, 5));  // wheel_of_fortune:background
+    CC_DELETEALL(comp(1253, 3));  // wheel_of_fortune:background_holder
     [int1, int0] = [int0, (int0 + 1)];
     int2 = 0;
     stack(82116611);
@@ -16,8 +16,8 @@ function script17173(): void {
     stack(int1);
     stack(int2);
     int2 = (int2 + 1);
-    script7919(0, 0, 1, 1, IF_GETWIDTH(comp(1253, 3)), 0, 0, 1, 27375, 1, 0, 1, 32);
-    if ((CC_FINDBYCATEGORY(comp(1253, 3), int1, (int2 - 1)) == 1)) {
+    script7919(0, 0, 1, 1, IF_GETWIDTH(comp(1253, 3)), 0, 0, 1, 27375, 1, 0, 1, 32);  // wheel_of_fortune:background_holder
+    if ((CC_FINDBYCATEGORY(comp(1253, 3), int1, (int2 - 1)) == 1)) {  // wheel_of_fortune:background_holder
         CC_SETONTIMER(callback(script17174, -2147483645, -2147483643, 6));
     };
     [int1, int0] = [int0, (int0 + 1)];

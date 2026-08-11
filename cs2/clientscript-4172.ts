@@ -24,29 +24,29 @@ function script4172(int0: number): void {
         string2 = strconcat("0", string2);
     };
     if ((int3 > 0)) {
-        IF_SETTEXT(`${string0}:${string1}:${string2}`, comp(1508, 2));
+        IF_SETTEXT(`${string0}:${string1}:${string2}`, comp(1508, 2));  // timed_kill:time_text
     } else {
-        IF_SETTEXT(`${string1}:${string2}`, comp(1508, 2));
+        IF_SETTEXT(`${string1}:${string2}`, comp(1508, 2));  // timed_kill:time_text
     };
     var int5 = (varclient_4259 + (varclient_4260 * 30));
     if ((varclient_4260 != 0)) {
         if ((CLIENTCLOCK() > int5)) {
-            IF_SETCOLOUR(13107200, comp(1508, 2));
+            IF_SETCOLOUR(13107200, comp(1508, 2));  // timed_kill:time_text
         } else if ((CLIENTCLOCK() > (int5 - 50))) {
-            IF_SETCOLOUR(13112320, comp(1508, 2));
+            IF_SETCOLOUR(13112320, comp(1508, 2));  // timed_kill:time_text
         } else if ((CLIENTCLOCK() > (int5 - 100))) {
-            IF_SETCOLOUR(13772800, comp(1508, 2));
+            IF_SETCOLOUR(13772800, comp(1508, 2));  // timed_kill:time_text
         } else if ((CLIENTCLOCK() > (int5 - 150))) {
-            IF_SETCOLOUR(14433280, comp(1508, 2));
+            IF_SETCOLOUR(14433280, comp(1508, 2));  // timed_kill:time_text
         } else if ((CLIENTCLOCK() > (int5 - 200))) {
-            IF_SETCOLOUR(15093760, comp(1508, 2));
+            IF_SETCOLOUR(15093760, comp(1508, 2));  // timed_kill:time_text
         } else if ((CLIENTCLOCK() > (int5 - 250))) {
-            IF_SETCOLOUR(16409600, comp(1508, 2));
+            IF_SETCOLOUR(16409600, comp(1508, 2));  // timed_kill:time_text
         } else {
-            IF_SETCOLOUR(16777215, comp(1508, 2));
+            IF_SETCOLOUR(16777215, comp(1508, 2));  // timed_kill:time_text
         };
     } else {
-        IF_SETCOLOUR(16777215, comp(1508, 2));
+        IF_SETCOLOUR(16777215, comp(1508, 2));  // timed_kill:time_text
     };
     return;
 }

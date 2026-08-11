@@ -7,8 +7,8 @@ function script6460(int0: number): void {
     script6473();
     script7487(int0);
     script6443(0, 0, 10, 200, 1, 1);
-    IF_SETHIDE(true, comp(1311, 363));
-    IF_SETHIDE(true, comp(1311, 341));
-    IF_SETHIDE(true, comp(1311, 340));
+    IF_SETHIDE(true, comp(1311, 363));  // mtxmgt:recolour_layer
+    IF_SETHIDE(true, comp(1311, 341));  // mtxmgt:list_scrollbar
+    IF_SETHIDE(true, comp(1311, 340));  // mtxmgt:header_scrollbar
     return;
 }

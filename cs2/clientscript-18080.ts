@@ -7,9 +7,9 @@ function script18080(int0: number, int1: number, int2: number, int3: number): nu
     };
     var int6 = 10;
     var int7 = 0;
-    var int8 = comp(1226, 32);
-    var int9 = comp(1226, 31);
-    var int10 = comp(1226, 29);
+    var int8 = comp(1226, 32);  // bp3_missions_tab:mission_info_chain_layer
+    var int9 = comp(1226, 31);  // bp3_missions_tab:mission_info_chain_title_layer
+    var int10 = comp(1226, 29);  // bp3_missions_tab:mission_info_chain_scroll_bar
     if ((IF_FIND(int9) == 1)) {
         script10485(4, int4, 10, int2, 0, 0, 0, 30, 1, 0, 7982, "Mission Chain");
         CC_SETCOLOUR(14734449);

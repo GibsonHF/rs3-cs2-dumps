@@ -3,7 +3,7 @@ function script61(): void {
     var int0 = 0;
     var int1 = -1 as obj;
     while ((int0 < 5)) {
-        CC_CREATE(comp(260, 15), 5, int0);
+        CC_CREATE(comp(260, 15), 5, int0);  // dream_armour:chest_layer
         CC_SETSIZE(36, 32, 0, 0);
         if ((int0 == 0)) {
             CC_SETPOSITION(0, 43, 0, 0);
@@ -28,35 +28,35 @@ function script61(): void {
             CC_SETOUTLINE(1);
             CC_SETONMOUSEREPEAT(callback(script9564, int1, -2147483645, -2147483643));
             if ((int0 == 0)) {
-                IF_SETGRAPHIC(-1 as graphic, comp(260, 14));
+                IF_SETGRAPHIC(-1 as graphic, comp(260, 14));  // dream_armour:inv_icon_weapon
             };
             if ((int0 == 1)) {
-                IF_SETGRAPHIC(-1 as graphic, comp(260, 10));
+                IF_SETGRAPHIC(-1 as graphic, comp(260, 10));  // dream_armour:inv_icon_helm
             };
             if ((int0 == 2)) {
-                IF_SETGRAPHIC(-1 as graphic, comp(260, 11));
+                IF_SETGRAPHIC(-1 as graphic, comp(260, 11));  // dream_armour:inv_icon_chest
             };
             if ((int0 == 3)) {
-                IF_SETGRAPHIC(-1 as graphic, comp(260, 12));
+                IF_SETGRAPHIC(-1 as graphic, comp(260, 12));  // dream_armour:inv_icon_leggings
             };
             if ((int0 == 4)) {
-                IF_SETGRAPHIC(-1 as graphic, comp(260, 13));
+                IF_SETGRAPHIC(-1 as graphic, comp(260, 13));  // dream_armour:inv_icon_boots
             };
         } else {
             if ((int0 == 0)) {
-                IF_SETGRAPHIC(24434 as graphic, comp(260, 14));
+                IF_SETGRAPHIC(24434 as graphic, comp(260, 14));  // dream_armour:inv_icon_weapon
             };
             if ((int0 == 1)) {
-                IF_SETGRAPHIC(24431 as graphic, comp(260, 10));
+                IF_SETGRAPHIC(24431 as graphic, comp(260, 10));  // dream_armour:inv_icon_helm
             };
             if ((int0 == 2)) {
-                IF_SETGRAPHIC(24436 as graphic, comp(260, 11));
+                IF_SETGRAPHIC(24436 as graphic, comp(260, 11));  // dream_armour:inv_icon_chest
             };
             if ((int0 == 3)) {
-                IF_SETGRAPHIC(24438 as graphic, comp(260, 12));
+                IF_SETGRAPHIC(24438 as graphic, comp(260, 12));  // dream_armour:inv_icon_leggings
             };
             if ((int0 == 4)) {
-                IF_SETGRAPHIC(24440 as graphic, comp(260, 13));
+                IF_SETGRAPHIC(24440 as graphic, comp(260, 13));  // dream_armour:inv_icon_boots
             };
         };
         int0 = (int0 + 1);

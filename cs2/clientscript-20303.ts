@@ -15,9 +15,9 @@ function script20303(int0: number, int1: number, int2: number): void {
     if ((int4 == -1)) {
         return;
     };
-    var int5 = comp(1361, 1);
+    var int5 = comp(1361, 1);  // league_child_tasks:quest_trigger
     if ((int0 == 96927764)) {
-        int5 = comp(1479, 1);
+        int5 = comp(1479, 1);  // league_parent_tasks:quest_trigger
     };
     CC_CREATE(int5, 0, int4);
     CC_SETSIZE(1, 1, 0, 0);

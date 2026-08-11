@@ -1,19 +1,19 @@
 //
 function script12306(): void {
     if ((script12328() == 0)) {
-        CC_DELETEALL(comp(1477, 13));
-        CC_DELETEALL(comp(1477, 14));
+        CC_DELETEALL(comp(1477, 13));  // toplevel_v2:graph_data_layer
+        CC_DELETEALL(comp(1477, 14));  // toplevel_v2:graph_data_fine_layer
         return;
     };
     var int0 = -1;
     var int1 = 0;
-    IF_SETPARAM_INT(5641, CLIENTCLOCK(), comp(1477, 13));
+    IF_SETPARAM_INT(5641, CLIENTCLOCK(), comp(1477, 13));  // toplevel_v2:graph_data_layer
     if (((varclient_5156 != 0) || (MODULO((CLIENTCLOCK() - varclient_5159), varclient_5157) == 0))) {
         if ((varclient_5157 > 0)) {
             int0 = MODULO(((CLIENTCLOCK() - varclient_5159) / varclient_5157), 256);
         };
         if ((varclient_5156 == 0)) {
-            if ((CC_FIND(comp(1477, 13), int0) == 1)) {
+            if ((CC_FIND(comp(1477, 13), int0) == 1)) {  // toplevel_v2:graph_data_layer
                 script12309(96796685, int0, 0);
                 script12308();
                 script12309(96796686, 0, 1);

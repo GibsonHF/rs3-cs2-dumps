@@ -1,11 +1,11 @@
 //
 function script11007(int0: number): void {
-    CC_DELETEALL(comp(1311, 391));
+    CC_DELETEALL(comp(1311, 391));  // mtxmgt:pet_growth_progress
     var int1 = 78;
     var int2 = 0;
     var int3 = script11005(int0);
     var int4 = 0;
-    CC_CREATE(comp(1311, 391), 5, 0);
+    CC_CREATE(comp(1311, 391), 5, 0);  // mtxmgt:pet_growth_progress
     CC_SETSIZE(2, 6, 0, 0);
     CC_SETPOSITION(4, 3, 0, 0);
     if ((int3 > 0)) {
@@ -28,17 +28,17 @@ function script11007(int0: number): void {
     };
     int4 = ((int2 * 100) / int1);
     if ((int3 < 9000)) {
-        IF_SETTEXT(`Growth until Adolescence: <col=FFFFFF>${inttostring(int4, 10)}%</col>`, comp(1311, 388));
+        IF_SETTEXT(`Growth until Adolescence: <col=FFFFFF>${inttostring(int4, 10)}%</col>`, comp(1311, 388));  // mtxmgt:pet_growth_text
     } else if ((int3 >= 9000)) {
         if ((int3 < 24000)) {
-            IF_SETTEXT(`Growth until Adult: <col=FFFFFF>${inttostring(int4, 10)}%</col>`, comp(1311, 388));
+            IF_SETTEXT(`Growth until Adult: <col=FFFFFF>${inttostring(int4, 10)}%</col>`, comp(1311, 388));  // mtxmgt:pet_growth_text
         } else {
-            IF_SETTEXT("Adult", comp(1311, 388));
+            IF_SETTEXT("Adult", comp(1311, 388));  // mtxmgt:pet_growth_text
         };
     } else {
-        IF_SETTEXT("Adult", comp(1311, 388));
+        IF_SETTEXT("Adult", comp(1311, 388));  // mtxmgt:pet_growth_text
     };
-    CC_CREATE(comp(1311, 391), 5, 1);
+    CC_CREATE(comp(1311, 391), 5, 1);  // mtxmgt:pet_growth_progress
     CC_SETSIZE(2, 6, 0, 0);
     CC_SETHFLIP(true);
     CC_SETPOSITION(((int2 + CC_GETWIDTH()) + 4), 3, 0, 0);
@@ -48,7 +48,7 @@ function script11007(int0: number): void {
         CC_SETGRAPHIC(18404 as graphic);
     };
     if ((int2 != 0)) {
-        CC_CREATE(comp(1311, 391), 5, 2);
+        CC_CREATE(comp(1311, 391), 5, 2);  // mtxmgt:pet_growth_progress
         CC_SETSIZE(int2, 6, 0, 0);
         CC_SETPOSITION(6, 3, 0, 0);
         CC_SETGRAPHIC(18399 as graphic);

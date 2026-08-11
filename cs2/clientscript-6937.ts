@@ -1,9 +1,9 @@
 //
 function script6937(): void {
-    IF_SETSCROLLSIZE(IF_GETHEIGHT(comp(636, 7)), IF_GETWIDTH(comp(636, 7)), comp(636, 7));
-    CC_DELETEALL(comp(636, 0));
-    CC_DELETEALL(comp(636, 8));
-    CC_DELETEALL(comp(636, 9));
+    IF_SETSCROLLSIZE(IF_GETHEIGHT(comp(636, 7)), IF_GETWIDTH(comp(636, 7)), comp(636, 7));  // gravestone_loot:scrolling_layer
+    CC_DELETEALL(comp(636, 0));  // gravestone_loot:build_area
+    CC_DELETEALL(comp(636, 8));  // gravestone_loot:click_area
+    CC_DELETEALL(comp(636, 9));  // gravestone_loot:scrollbar
     var int0 = 0;
     var int1 = 0;
     var int2 = -1 as obj;
@@ -15,7 +15,7 @@ function script6937(): void {
     while ((int0 < 47)) {
         int2 = INV_GETOBJ(676 as inv, int0);
         int3 = INV_GETNUM(676 as inv, int0);
-        CC_CREATE(comp(636, 8), 5, int0);
+        CC_CREATE(comp(636, 8), 5, int0);  // gravestone_loot:click_area
         if ((int2 != -1 as obj)) {
             if ((int3 > 0)) {
                 CC_SETSIZE(36, 32, 0, 0);
@@ -31,7 +31,7 @@ function script6937(): void {
                 CC_SETONMOUSEREPEAT(callback(script11555, int2, int0));
                 if ((int0 < varbitplayer_28114)) {
                     CC_SETOP(1, "Deprotect");
-                    CC_CREATE(comp(636, 0), 3, int0);
+                    CC_CREATE(comp(636, 0), 3, int0);  // gravestone_loot:build_area
                     CC_SETSIZE(36, 32, 0, 0);
                     CC_SETPOSITION(int6, int7, 0, 0);
                     CC_SETFILL(0);
@@ -47,11 +47,11 @@ function script6937(): void {
         int0 = (int0 + 1);
     };
     var int8 = (((int1 / 4) + 1) * 40);
-    if ((int8 < IF_GETHEIGHT(comp(636, 7)))) {
-        int8 = IF_GETHEIGHT(comp(636, 7));
+    if ((int8 < IF_GETHEIGHT(comp(636, 7)))) {  // gravestone_loot:scrolling_layer
+        int8 = IF_GETHEIGHT(comp(636, 7));  // gravestone_loot:scrolling_layer
     };
-    IF_SETSCROLLSIZE(0, int8, comp(636, 7));
-    IF_SETSCROLLPOS(0, 0, comp(636, 7));
+    IF_SETSCROLLSIZE(0, int8, comp(636, 7));  // gravestone_loot:scrolling_layer
+    IF_SETSCROLLPOS(0, 0, comp(636, 7));  // gravestone_loot:scrolling_layer
     script31(41680905, 41680903, 4343, 4340, 4341, 4342, 4337, 4336);
     return;
 }

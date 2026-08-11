@@ -13,7 +13,7 @@ function script2190(int0: number, int1: number, int2: number, string0: string, s
     script9554(52953090, 52953096, 52953091, string0, 28782);
     varclient_2478 = string1;
     if ((int0 == 1)) {
-        IF_SETTEXT(ESCAPE(varclient_2478), comp(808, 10));
+        IF_SETTEXT(ESCAPE(varclient_2478), comp(808, 10));  // lobbyscreen_input:text
     } else {
         IF_SETTEXT(varclient_2478, 52953098);
     };
@@ -28,26 +28,26 @@ function script2190(int0: number, int1: number, int2: number, string0: string, s
         int5 = 485;
         varclient_1650 = 1;
     };
-    IF_SETTEXT(string4, comp(808, 6));
-    IF_SETOP(1, string4, comp(808, 6));
-    IF_SETONOP(callback(script3019, int1, string2), comp(808, 6));
-    IF_SETTEXT(string5, comp(808, 7));
-    IF_SETOP(1, string5, comp(808, 7));
-    IF_SETSIZE(int5, 175, 0, 0, comp(808, 1));
+    IF_SETTEXT(string4, comp(808, 6));  // lobbyscreen_input:positive
+    IF_SETOP(1, string4, comp(808, 6));  // lobbyscreen_input:positive
+    IF_SETONOP(callback(script3019, int1, string2), comp(808, 6));  // lobbyscreen_input:positive
+    IF_SETTEXT(string5, comp(808, 7));  // lobbyscreen_input:neutral
+    IF_SETOP(1, string5, comp(808, 7));  // lobbyscreen_input:neutral
+    IF_SETSIZE(int5, 175, 0, 0, comp(808, 1));  // lobbyscreen_input:window
     if ((int4 == 1)) {
-        IF_SETPOSITION(0, 0, 1, 0, comp(808, 1));
+        IF_SETPOSITION(0, 0, 1, 0, comp(808, 1));  // lobbyscreen_input:window
     } else {
-        IF_SETPOSITION(0, 0, 1, 1, comp(808, 1));
+        IF_SETPOSITION(0, 0, 1, 1, comp(808, 1));  // lobbyscreen_input:window
     };
     if ((int2 == 0)) {
-        IF_SETPOSITION(0, 5, 1, 2, comp(808, 6));
-        IF_SETHIDE(true, comp(808, 7));
+        IF_SETPOSITION(0, 5, 1, 2, comp(808, 6));  // lobbyscreen_input:positive
+        IF_SETHIDE(true, comp(808, 7));  // lobbyscreen_input:neutral
     } else {
-        IF_SETPOSITION(-75, 5, 1, 2, comp(808, 6));
-        IF_SETPOSITION(75, 5, 1, 2, comp(808, 7));
-        IF_SETHIDE(false, comp(808, 7));
+        IF_SETPOSITION(-75, 5, 1, 2, comp(808, 6));  // lobbyscreen_input:positive
+        IF_SETPOSITION(75, 5, 1, 2, comp(808, 7));  // lobbyscreen_input:neutral
+        IF_SETHIDE(false, comp(808, 7));  // lobbyscreen_input:neutral
     };
-    IF_SETHIDE(false, comp(906, 99));
+    IF_SETHIDE(false, comp(906, 99));  // lobbyscreen:input
     var int6 = 0;
     switch (int1) {
         case 1:
@@ -76,30 +76,30 @@ function script2190(int0: number, int1: number, int2: number, string0: string, s
     } else if ((IF_GETHIDE(enum_getvalue(0, 9, int7, 3)) == 0)) {
         script4556(0);
     };
-    IF_SETONKEY(callback(script3022, -2147483640, -2147483639, -2147483645, int6, int1, string2), comp(808, 10));
+    IF_SETONKEY(callback(script3022, -2147483640, -2147483639, -2147483645, int6, int1, string2), comp(808, 10));  // lobbyscreen_input:text
     varplayer_8156 = int3;
     script1566(0, string1, int3);
     if ((int1 != -1)) {
         if ((int1 != 6)) {
             varclient_1097 = STRING_LENGTH(varclient_2478);
-            IF_SETONCLICK(callback(script1874, -2147483647, 52953098, 52953099), comp(808, 10));
+            IF_SETONCLICK(callback(script1874, -2147483647, 52953098, 52953099), comp(808, 10));  // lobbyscreen_input:text
             script1875(52953098, 52953099, varclient_2478);
-            IF_SETHIDE(true, comp(808, 11));
-            IF_SETHIDE(false, comp(808, 4));
+            IF_SETHIDE(true, comp(808, 11));  // lobbyscreen_input:caret
+            IF_SETHIDE(false, comp(808, 4));  // lobbyscreen_input:box_container
         } else {
             varclient_1097 = 0;
-            IF_SETHIDE(true, comp(808, 4));
+            IF_SETHIDE(true, comp(808, 4));  // lobbyscreen_input:box_container
             if (((STRING_LENGTH(string3) > 0) && (STRING_LENGTH(varclient_2478) > 0))) {
-                IF_SETTEXT(`<u=AED0E0>${string3}</u>`, comp(808, 5));
-                IF_SETHIDE(false, comp(808, 5));
+                IF_SETTEXT(`<u=AED0E0>${string3}</u>`, comp(808, 5));  // lobbyscreen_input:link
+                IF_SETHIDE(false, comp(808, 5));  // lobbyscreen_input:link
             };
         };
     } else {
         varclient_1097 = 0;
-        IF_SETHIDE(true, comp(808, 4));
+        IF_SETHIDE(true, comp(808, 4));  // lobbyscreen_input:box_container
         if (((STRING_LENGTH(string3) > 0) && (STRING_LENGTH(varclient_2478) > 0))) {
-            IF_SETTEXT(`<u=AED0E0>${string3}</u>`, comp(808, 5));
-            IF_SETHIDE(false, comp(808, 5));
+            IF_SETTEXT(`<u=AED0E0>${string3}</u>`, comp(808, 5));  // lobbyscreen_input:link
+            IF_SETHIDE(false, comp(808, 5));  // lobbyscreen_input:link
         };
     };
     return;

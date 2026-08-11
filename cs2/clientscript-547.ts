@@ -297,8 +297,8 @@ function script547(int0: number, int1: number, int2: number, int3: number): void
         int22 = (CC_GETX() + script8407(int0));
         int23 = ((CC_GETY() + script8408(int0)) + 27);
     };
-    if ((((int22 + int20) + 10) > IF_GETWIDTH(comp(1477, 27)))) {
-        int22 = (IF_GETWIDTH(comp(1477, 27)) - (int20 + 24));
+    if ((((int22 + int20) + 10) > IF_GETWIDTH(comp(1477, 27)))) {  // toplevel_v2:viewport
+        int22 = (IF_GETWIDTH(comp(1477, 27)) - (int20 + 24));  // toplevel_v2:viewport
     };
     if ((((int23 + int21) + 10) > IF_GETHEIGHT(int4))) {
         int23 = (int23 - (int21 + 10));

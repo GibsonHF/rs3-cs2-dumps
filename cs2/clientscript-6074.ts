@@ -38,18 +38,18 @@ function script6074(int0: number): void {
     if ((int0 > 0)) {
         if ((int0 > int2)) {
             int1 = int2;
-            IF_SETTEXT(script940(int1), comp(1265, 67));
+            IF_SETTEXT(script940(int1), comp(1265, 67));  // shop_main:selected_quantity
             return;
         };
         if (((2147483647 - int1) < int0)) {
             int1 = int2;
-            IF_SETTEXT(script940(int1), comp(1265, 67));
+            IF_SETTEXT(script940(int1), comp(1265, 67));  // shop_main:selected_quantity
             return;
         };
         int1 = MIN((int1 + int0), int2);
     } else {
         int1 = MIN(int2, MAX(1, (int1 + int0)));
     };
-    IF_SETTEXT(script940(int1), comp(1265, 67));
+    IF_SETTEXT(script940(int1), comp(1265, 67));  // shop_main:selected_quantity
     return;
 }

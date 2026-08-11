@@ -41,20 +41,20 @@ function script19464(): void {
         var int14 = -1;
         if ((int2 == -1)) {
             script19444(85327896, 85327895, 85327894, 85327899, 85327898, 85327897);
-            IF_SETHIDE(false, comp(1302, 24));
-            IF_SETNPCMODEL(31413 as npc, comp(1302, 24));
-            IF_SETMODELANIM(27114 as seq, comp(1302, 24));
-            IF_SETMODELANGLE(0, 100, 0, 0, 0, 700, comp(1302, 24));
-            IF_SETHIDE(false, comp(1302, 23));
-            IF_SETNPCMODEL(31414 as npc, comp(1302, 23));
-            IF_SETMODELANIM(20949 as seq, comp(1302, 23));
-            IF_SETMODELANGLE(-80, 60, 0, 0, 0, 800, comp(1302, 23));
-            IF_SETHIDE(false, comp(1302, 22));
-            IF_SETNPCMODEL(31413 as npc, comp(1302, 22));
-            IF_SETMODELANIM(20949 as seq, comp(1302, 22));
-            IF_SETMODELANGLE(80, 60, 0, 0, 0, 800, comp(1302, 22));
+            IF_SETHIDE(false, comp(1302, 24));  // group_ironman_parent:rules_model_1
+            IF_SETNPCMODEL(31413 as npc, comp(1302, 24));  // group_ironman_parent:rules_model_1
+            IF_SETMODELANIM(27114 as seq, comp(1302, 24));  // group_ironman_parent:rules_model_1
+            IF_SETMODELANGLE(0, 100, 0, 0, 0, 700, comp(1302, 24));  // group_ironman_parent:rules_model_1
+            IF_SETHIDE(false, comp(1302, 23));  // group_ironman_parent:rules_model_2
+            IF_SETNPCMODEL(31414 as npc, comp(1302, 23));  // group_ironman_parent:rules_model_2
+            IF_SETMODELANIM(20949 as seq, comp(1302, 23));  // group_ironman_parent:rules_model_2
+            IF_SETMODELANGLE(-80, 60, 0, 0, 0, 800, comp(1302, 23));  // group_ironman_parent:rules_model_2
+            IF_SETHIDE(false, comp(1302, 22));  // group_ironman_parent:rules_model_3
+            IF_SETNPCMODEL(31413 as npc, comp(1302, 22));  // group_ironman_parent:rules_model_3
+            IF_SETMODELANIM(20949 as seq, comp(1302, 22));  // group_ironman_parent:rules_model_3
+            IF_SETMODELANGLE(80, 60, 0, 0, 0, 800, comp(1302, 22));  // group_ironman_parent:rules_model_3
             string0 = "Congratulations - you have completed all the Group Ironman Journey Achievements!";
-            IF_SETHIDE(true, comp(1302, 20));
+            IF_SETHIDE(true, comp(1302, 20));  // group_ironman_parent:rules_title_left
         } else {
             int3 = DB_GETFIELDCOUNT(int2, 1253408);
             int4 = DB_GETFIELDCOUNT(int2, 1253440);
@@ -99,10 +99,10 @@ function script19464(): void {
                 script19450();
             };
         };
-        int11 = IF_GETWIDTH(comp(1302, 28));
+        int11 = IF_GETWIDTH(comp(1302, 28));  // group_ironman_parent:rules_reward_name_wrapper
         int12 = MAX(30, (10 + script15891(string0, int11, 41, 0)));
-        IF_SETTEXT(string0, comp(1302, 30));
-        IF_SETSIZE(0, int12, 1, 0, comp(1302, 28));
+        IF_SETTEXT(string0, comp(1302, 30));  // group_ironman_parent:rules_reward_name
+        IF_SETSIZE(0, int12, 1, 0, comp(1302, 28));  // group_ironman_parent:rules_reward_name_wrapper
         return;
     };
     int3 = 0;
@@ -120,20 +120,20 @@ function script19464(): void {
     int14 = -1;
     if ((int2 == -1)) {
         script19444(85327896, 85327895, 85327894, 85327899, 85327898, 85327897);
-        IF_SETHIDE(false, comp(1302, 24));
-        IF_SETNPCMODEL(31413 as npc, comp(1302, 24));
-        IF_SETMODELANIM(27114 as seq, comp(1302, 24));
-        IF_SETMODELANGLE(0, 100, 0, 0, 0, 700, comp(1302, 24));
-        IF_SETHIDE(false, comp(1302, 23));
-        IF_SETNPCMODEL(31414 as npc, comp(1302, 23));
-        IF_SETMODELANIM(20949 as seq, comp(1302, 23));
-        IF_SETMODELANGLE(-80, 60, 0, 0, 0, 800, comp(1302, 23));
-        IF_SETHIDE(false, comp(1302, 22));
-        IF_SETNPCMODEL(31413 as npc, comp(1302, 22));
-        IF_SETMODELANIM(20949 as seq, comp(1302, 22));
-        IF_SETMODELANGLE(80, 60, 0, 0, 0, 800, comp(1302, 22));
+        IF_SETHIDE(false, comp(1302, 24));  // group_ironman_parent:rules_model_1
+        IF_SETNPCMODEL(31413 as npc, comp(1302, 24));  // group_ironman_parent:rules_model_1
+        IF_SETMODELANIM(27114 as seq, comp(1302, 24));  // group_ironman_parent:rules_model_1
+        IF_SETMODELANGLE(0, 100, 0, 0, 0, 700, comp(1302, 24));  // group_ironman_parent:rules_model_1
+        IF_SETHIDE(false, comp(1302, 23));  // group_ironman_parent:rules_model_2
+        IF_SETNPCMODEL(31414 as npc, comp(1302, 23));  // group_ironman_parent:rules_model_2
+        IF_SETMODELANIM(20949 as seq, comp(1302, 23));  // group_ironman_parent:rules_model_2
+        IF_SETMODELANGLE(-80, 60, 0, 0, 0, 800, comp(1302, 23));  // group_ironman_parent:rules_model_2
+        IF_SETHIDE(false, comp(1302, 22));  // group_ironman_parent:rules_model_3
+        IF_SETNPCMODEL(31413 as npc, comp(1302, 22));  // group_ironman_parent:rules_model_3
+        IF_SETMODELANIM(20949 as seq, comp(1302, 22));  // group_ironman_parent:rules_model_3
+        IF_SETMODELANGLE(80, 60, 0, 0, 0, 800, comp(1302, 22));  // group_ironman_parent:rules_model_3
         string0 = "Congratulations - you have completed all the Group Ironman Journey Achievements!";
-        IF_SETHIDE(true, comp(1302, 20));
+        IF_SETHIDE(true, comp(1302, 20));  // group_ironman_parent:rules_title_left
     } else {
         int3 = DB_GETFIELDCOUNT(int2, 1253408);
         int4 = DB_GETFIELDCOUNT(int2, 1253440);
@@ -178,9 +178,9 @@ function script19464(): void {
             script19450();
         };
     };
-    int11 = IF_GETWIDTH(comp(1302, 28));
+    int11 = IF_GETWIDTH(comp(1302, 28));  // group_ironman_parent:rules_reward_name_wrapper
     int12 = MAX(30, (10 + script15891(string0, int11, 41, 0)));
-    IF_SETTEXT(string0, comp(1302, 30));
-    IF_SETSIZE(0, int12, 1, 0, comp(1302, 28));
+    IF_SETTEXT(string0, comp(1302, 30));  // group_ironman_parent:rules_reward_name
+    IF_SETSIZE(0, int12, 1, 0, comp(1302, 28));  // group_ironman_parent:rules_reward_name_wrapper
     return;
 }

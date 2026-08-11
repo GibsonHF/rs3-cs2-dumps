@@ -2,7 +2,7 @@
 function script1721(): void {
     var int0 = 0;
     var int1 = 5;
-    var int2 = (IF_GETWIDTH(comp(88, 0)) / int1);
+    var int2 = (IF_GETWIDTH(comp(88, 0)) / int1);  // quest_lunar_contact_npc_spell_v2:scroll_layer
     var int3 = 0;
     var int4 = 0;
     var int5 = 125;
@@ -17,11 +17,11 @@ function script1721(): void {
     if ((MODULO(int11, int1) != 0)) {
         int12 = (int12 + int5);
     };
-    CC_DELETEALL(comp(88, 1));
-    CC_DELETEALL(comp(88, 2));
-    IF_SETSCROLLSIZE((int1 * int2), int12, comp(88, 0));
+    CC_DELETEALL(comp(88, 1));  // quest_lunar_contact_npc_spell_v2:model_layer
+    CC_DELETEALL(comp(88, 2));  // quest_lunar_contact_npc_spell_v2:caption_layer
+    IF_SETSCROLLSIZE((int1 * int2), int12, comp(88, 0));  // quest_lunar_contact_npc_spell_v2:scroll_layer
     while ((int0 < int11)) {
-        CC_CREATE(comp(88, 1), 6, int0);
+        CC_CREATE(comp(88, 1), 6, int0);  // quest_lunar_contact_npc_spell_v2:model_layer
         CC_SETSIZE(int2, int5, 0, 0);
         [int7, string0, int9, int8, int10] = script19775(int0);
         CC_SETMODEL(int7);
@@ -32,7 +32,7 @@ function script1721(): void {
             CC_SETONMOUSEOVER(callback(script1860, -2147483643, int10));
             CC_SETONMOUSELEAVE(callback(script2607, -2147483643));
         };
-        CC_CREATE(comp(88, 2), 4, int0);
+        CC_CREATE(comp(88, 2), 4, int0);  // quest_lunar_contact_npc_spell_v2:caption_layer
         CC_SETSIZE(int2, (int5 - (int6 * 2)), 0, 0);
         CC_SETCOLOUR(16750901);
         CC_SETTEXTFONT(66 as fontmetrics);

@@ -1,8 +1,8 @@
 //
 function script16262(int0: number): void {
-    var int1 = comp(908, 4);
-    var int2 = comp(908, 5);
-    var int3 = comp(908, 6);
+    var int1 = comp(908, 4);  // teleport_list:button_layer
+    var int2 = comp(908, 5);  // teleport_list:category_title_layer
+    var int3 = comp(908, 6);  // teleport_list:category_obj_layer
     CC_DELETEALL(int1);
     CC_DELETEALL(int2);
     CC_DELETEALL(int3);

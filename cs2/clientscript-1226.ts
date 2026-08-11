@@ -71,6 +71,6 @@ function script1226(int0: number): void {
             }
         };
     };
-    IF_SETMODEL(int1, comp(308, 16));
+    IF_SETMODEL(int1, comp(308, 16));  // chosen_reward_statue_interface:model_preview
     return;
 }

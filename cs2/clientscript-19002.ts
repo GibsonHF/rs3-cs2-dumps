@@ -1,8 +1,8 @@
 //
 function script19002(): void {
-    IF_SETHIDE(false, comp(1870, 22));
+    IF_SETHIDE(false, comp(1870, 22));  // trh119_buried_treasure_overlay:bonus_prize_claim
     var int0 = 0;
-    CC_DELETEALL(comp(1870, 22));
+    CC_DELETEALL(comp(1870, 22));  // trh119_buried_treasure_overlay:bonus_prize_claim
     stack(122552342);
     stack(int0);
     int0 = (int0 + 1);

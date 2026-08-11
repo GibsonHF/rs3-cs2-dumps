@@ -9,7 +9,7 @@ function script8779(): void {
     };
     script10517();
     script18646();
-    IF_SETONVARTRANSMIT(callback(script13895, 3680, 1), comp(1477, 0));
+    IF_SETONVARTRANSMIT(callback(script13895, 3680, 1), comp(1477, 0));  // toplevel_v2:permanent_listeners
     varbitclient_42113 = varbitclient_21816;
     script13795();
     varclient_4781 = 0;

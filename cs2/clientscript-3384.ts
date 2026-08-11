@@ -4,23 +4,23 @@ function script3384(int0: number): void {
     AUTOSETUP_BEGIN();
     switch (int0) {
         case 0: {
-            int1 = comp(882, 1);
+            int1 = comp(882, 1);  // loginscreen_graphics_options:universe
             break;
         }
         case 1: {
-            int1 = comp(742, 1);
+            int1 = comp(742, 1);  // graphics_options:universe
             break;
         }
         case 2: {
-            int1 = comp(911, 0);
+            int1 = comp(911, 0);  // lobbyscreen_pane_options:universe
             break;
         }
         case 4: {
-            int1 = comp(882, 1);
+            int1 = comp(882, 1);  // loginscreen_graphics_options:universe
             break;
         }
         case 3: {
-            int1 = comp(744, 359);
+            int1 = comp(744, 359);  // loginscreen:tooltips_layer
             break;
         }
         default: {

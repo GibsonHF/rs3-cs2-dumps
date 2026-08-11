@@ -4,7 +4,7 @@ function script18326(int0: number, int1: number, int2: number, int3: number, int
     var int8 = 0;
     var int9 = 0;
     var int10 = 0;
-    var int11 = comp(1171, 0);
+    var int11 = comp(1171, 0);  // activity_progress_bar:marker1
     while ((int10 != -1)) {
         int8 = (int8 + 1);
         switch (int8) {

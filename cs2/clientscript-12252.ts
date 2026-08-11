@@ -25,18 +25,18 @@ function script12252(int0: number, int1: number): void {
         string2 = strconcat("0", string2);
     };
     if ((int4 > 0)) {
-        IF_SETTEXT(`${string0}:${string1}:${string2}`, comp(1508, 2));
+        IF_SETTEXT(`${string0}:${string1}:${string2}`, comp(1508, 2));  // timed_kill:time_text
     } else {
-        IF_SETTEXT(`${string1}:${string2}`, comp(1508, 2));
+        IF_SETTEXT(`${string1}:${string2}`, comp(1508, 2));  // timed_kill:time_text
     };
     if ((int0 > 1500)) {
-        IF_SETCOLOUR(16777215, comp(1508, 2));
+        IF_SETCOLOUR(16777215, comp(1508, 2));  // timed_kill:time_text
     } else if ((int0 > 1000)) {
-        IF_SETCOLOUR(16409600, comp(1508, 2));
+        IF_SETCOLOUR(16409600, comp(1508, 2));  // timed_kill:time_text
     } else if ((int0 > 500)) {
-        IF_SETCOLOUR(15093760, comp(1508, 2));
+        IF_SETCOLOUR(15093760, comp(1508, 2));  // timed_kill:time_text
     } else {
-        IF_SETCOLOUR(13107200, comp(1508, 2));
+        IF_SETCOLOUR(13107200, comp(1508, 2));  // timed_kill:time_text
     };
     return;
 }

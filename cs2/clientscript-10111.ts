@@ -1,6 +1,6 @@
 //
 function script10111(): void {
-    CC_DELETEALL(comp(232, 8));
+    CC_DELETEALL(comp(232, 8));  // toplevel_v2_parent_suboverlay_twitch:build_layer
     varclient_4294 = -1;
     varclient_4295 = -1;
     varclient_4296 = -1;
@@ -16,7 +16,7 @@ function script10111(): void {
         int1 = (int1 + 1);
         [int0, string0, string1, string2, string3] = TTV_LIVESTREAMS_GETSTREAM_NEXT();
     };
-    IF_SETSCROLLSIZE(IF_GETWIDTH(comp(232, 8)), (int1 * 47), comp(232, 8));
+    IF_SETSCROLLSIZE(IF_GETWIDTH(comp(232, 8)), (int1 * 47), comp(232, 8));  // toplevel_v2_parent_suboverlay_twitch:build_layer
     script31(15204359, 15204360, 5666, 5663, 5664, 5665, 5686, 5685);
     return;
 }

@@ -4,19 +4,19 @@ function script1983(int0: number): void {
     SOUND_VORBIS_VOLUME(14378 as vorbis, 1, 0, 255);
     varclient_1184 = int0;
     if ((int0 == 0)) {
-        IF_SETHIDE(true, comp(1035, 229));
-        IF_SETHIDE(true, comp(1035, 2));
-        IF_SETHIDE(false, comp(1035, 222));
-        IF_SETHIDE(false, comp(1035, 1));
-        IF_SETTEXT(`Wins: ${inttostring(varbitplayer_21659, 10)}    Reward points: ${inttostring(varbitplayer_21658, 10)}`, comp(1035, 5));
-        IF_SETTEXT(`Level: ${inttostring(varplayer_4162, 10)}`, comp(1035, 51));
+        IF_SETHIDE(true, comp(1035, 229));  // town_rewards:robber_tab_selected_layer
+        IF_SETHIDE(true, comp(1035, 2));  // town_rewards:reward_tab_2
+        IF_SETHIDE(false, comp(1035, 222));  // town_rewards:guards_tab_selected_layer
+        IF_SETHIDE(false, comp(1035, 1));  // town_rewards:reward_tab_1
+        IF_SETTEXT(`Wins: ${inttostring(varbitplayer_21659, 10)}    Reward points: ${inttostring(varbitplayer_21658, 10)}`, comp(1035, 5));  // town_rewards:current_points_text
+        IF_SETTEXT(`Level: ${inttostring(varplayer_4162, 10)}`, comp(1035, 51));  // town_rewards:guard_level
     } else {
-        IF_SETHIDE(true, comp(1035, 222));
-        IF_SETHIDE(true, comp(1035, 1));
-        IF_SETHIDE(false, comp(1035, 229));
-        IF_SETHIDE(false, comp(1035, 2));
-        IF_SETTEXT(`Wins: ${inttostring(varbitplayer_21659, 10)}    Reward points: ${inttostring(varbitplayer_21658, 10)}`, comp(1035, 5));
-        IF_SETTEXT(`Level: ${inttostring(varplayer_4163, 10)}`, comp(1035, 96));
+        IF_SETHIDE(true, comp(1035, 222));  // town_rewards:guards_tab_selected_layer
+        IF_SETHIDE(true, comp(1035, 1));  // town_rewards:reward_tab_1
+        IF_SETHIDE(false, comp(1035, 229));  // town_rewards:robber_tab_selected_layer
+        IF_SETHIDE(false, comp(1035, 2));  // town_rewards:reward_tab_2
+        IF_SETTEXT(`Wins: ${inttostring(varbitplayer_21659, 10)}    Reward points: ${inttostring(varbitplayer_21658, 10)}`, comp(1035, 5));  // town_rewards:current_points_text
+        IF_SETTEXT(`Level: ${inttostring(varplayer_4163, 10)}`, comp(1035, 96));  // town_rewards:robber_level
     };
     return;
 }

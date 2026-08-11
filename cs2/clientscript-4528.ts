@@ -1,8 +1,8 @@
 //
 function script4528(): void {
-    IF_SETHIDE(false, comp(959, 0));
-    IF_SETHIDE(true, comp(959, 3));
-    IF_SETHIDE(true, comp(1253, 8));
+    IF_SETHIDE(false, comp(959, 0));  // trh178_overlay:splash_screen
+    IF_SETHIDE(true, comp(959, 3));  // trh178_overlay:universe
+    IF_SETHIDE(true, comp(1253, 8));  // wheel_of_fortune:chests_layer
     var int0 = 32498;
     switch (MAP_LANG()) {
         case 0: {

@@ -8,7 +8,7 @@ function script6881(): void {
         int2 = 1;
     };
     while ((int0 >= 0)) {
-        if ((CC_FIND(comp(1311, 504), (int0 * 2)) == 1)) {
+        if ((CC_FIND(comp(1311, 504), (int0 * 2)) == 1)) {  // mtxmgt:colours
             CC_CLEAROPS();
             CC_SETOP(int1, "Select-primary-colour");
             if ((varbitplayer_688 == 1)) {

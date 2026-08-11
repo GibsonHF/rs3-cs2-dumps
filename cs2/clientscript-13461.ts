@@ -25,7 +25,7 @@ function script13461(int0: number): void {
             break;
         }
     };
-    int2 = comp(1875, 57);
+    int2 = comp(1875, 57);  // repmodal:faction_title_layer
     CC_CREATE(int2, 4, IF_GETNEXTSUBID(int2));
     CC_SETTEXTFONT(60 as fontmetrics);
     CC_SETTEXTALIGN(0, 0, 0);
@@ -33,7 +33,7 @@ function script13461(int0: number): void {
     CC_SETSIZE(200, 40, 0, 0);
     CC_SETCOLOUR(script10495(0));
     CC_SETTEXT(string0);
-    int2 = comp(1875, 59);
+    int2 = comp(1875, 59);  // repmodal:faction_description_layer
     switch (int0) {
         case 1: {
             string0 = "Batal has been part of the system as long as anyone can remember, born in the gutters of the golden city and bound to a life of servitude in the worker's quarter. Upon achieving adulthood, he had endured enough to compress the exuberance of his youth into a dense ruby, searing with anger and injustice at the life that was forced upon him.<br><br>Batal sought understanding with steadfast resilience and immeasurable passion, winning the adoration of his brothers and sisters. He had so much to lose, and the first target of his oppressors was what he had built his existence with and around. Robbed of his pride and both of his hands in the name of discipline, he found the only refuge left for him with his people. He found it easier than ever to rise through the ranks, as he represented exactly what would happen if the upper class were defied, and the Pharaoh felt it necessary to hold that banner aloft.<br><br>Only time can tell if he can make headway in carving out a place for his people.";
@@ -54,9 +54,9 @@ function script13461(int0: number): void {
     };
     IF_SETPOSITION(247, 52, 2, 0, int2);
     IF_SETSIZE(305, 270, 0, 0, int2);
-    IF_SETCOLOUR(script10495(3), comp(1875, 62));
-    IF_SETTEXT(string0, comp(1875, 62));
-    var int3 = script15891(string0, 289, IF_GETFONTMETRICS(comp(1875, 62)), 0);
+    IF_SETCOLOUR(script10495(3), comp(1875, 62));  // repmodal:faction_description_text
+    IF_SETTEXT(string0, comp(1875, 62));  // repmodal:faction_description_text
+    var int3 = script15891(string0, 289, IF_GETFONTMETRICS(comp(1875, 62)), 0);  // repmodal:faction_description_text
     script19620(122880061, 122880060, int3, -1, -1, 0, 0, 0);
     var int4 = script13432(int0);
     var string1 = enum_getvalue(0, 36, struct_getparam(int1, 6584), int4);
@@ -158,7 +158,7 @@ function script13461(int0: number): void {
     CC_SETSIZE[1](200, 40, 0, 0);
     CC_SETCOLOUR[1](script10495(0));
     CC_SETTEXT[1](string0);
-    int2 = comp(1875, 53);
+    int2 = comp(1875, 53);  // repmodal:faction_favourite_layer
     CC_DELETEALL(int2);
     CC_CREATE(int2, 3, IF_GETNEXTSUBID(int2));
     CC_SETPOSITION(0, 0, 0, 0);

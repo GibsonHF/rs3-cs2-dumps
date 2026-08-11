@@ -1,5 +1,5 @@
 //
 function script1116(int0: number): void {
-    IF_TRIGGEROP(comp(1253, 556), int0, 1);
+    IF_TRIGGEROP(comp(1253, 556), int0, 1);  // wheel_of_fortune:fake_op
     return;
 }

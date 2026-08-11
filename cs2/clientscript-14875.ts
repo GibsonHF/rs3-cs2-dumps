@@ -18,7 +18,7 @@ function script14875(int0: number, int1: number, int2: number, int3: number, int
         } else if ((int12 != -1)) {
             script7924(int0, IF_GETNEXTSUBID(int0), 56, 56, (int8 + 2), (int9 + 2), dbrow_getfield(int12, 372800, 0), 0, 0, 0, 0);
             CC_SETONMOUSEREPEAT(callback(script3876, dbrow_getfield(int12, 372768, 0), -2147483645, -2147483643));
-        } else if ((int0 == comp(693, 41))) {
+        } else if ((int0 == comp(693, 41))) {  // arch_research_management:contract_team_build_layer
             script7924(int0, IF_GETNEXTSUBID(int0), 36, 36, (int8 + 12), (int9 + 12), 18945, 0, 0, 0, 0);
         };
     };

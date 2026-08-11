@@ -3,8 +3,8 @@ function script16293(): void {
     var int0 = script734(varbitplayer_61265);
     var int1 = -1;
     var int2 = -1 as obj;
-    IF_SETENABLED(int0, comp(1499, 21));
-    IF_SETENABLED(int0, comp(1499, 22));
+    IF_SETENABLED(int0, comp(1499, 21));  // construction_house_furniture_portal_nexus_configure:save
+    IF_SETENABLED(int0, comp(1499, 22));  // construction_house_furniture_portal_nexus_configure:cancel
     if ((varclient_8476 > 0)) {
         int1 = script11651(varclient_8476);
         if ((int1 != -1)) {
@@ -34,7 +34,7 @@ function script16293(): void {
         };
     };
     if ((varbitplayer_61266 > 0)) {
-        CC_DELETEALL(comp(1499, 36));
+        CC_DELETEALL(comp(1499, 36));  // construction_house_furniture_portal_nexus_configure:active_scrolling
         script17837();
     };
     return;

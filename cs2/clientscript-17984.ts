@@ -1,6 +1,6 @@
 //
 function script17984(): void {
-    var int0 = comp(1227, 5);
+    var int0 = comp(1227, 5);  // bp3_track_tab:main_layer_vfx
     if ((CC_FIND(int0, 6000) == 1)) {
         CC_ANIM_KILL(6, 2);
         CC_ANIM_KILL(5, 0);

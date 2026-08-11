@@ -33,7 +33,7 @@ function script562(int0: number, int1: number, int2: number, int3: number, int4:
     };
     int8 = (int8 + (IF_GETWIDTH(int4) - IF_GETWIDTH(int1)));
     int9 = (int9 + (IF_GETHEIGHT(int4) - IF_GETHEIGHT(int1)));
-    var int16 = (((IF_GETWIDTH(comp(1477, 724)) - int8) - 6) / (113 + 6));
+    var int16 = (((IF_GETWIDTH(comp(1477, 724)) - int8) - 6) / (113 + 6));  // toplevel_v2:fullmodal_window
     var int17 = MAX(script13(varplayer_5148), (int13 * int12));
     script15544(104464419, 104464408);
     script15544(104464419, 104464409);
@@ -56,16 +56,16 @@ function script562(int0: number, int1: number, int2: number, int3: number, int4:
             [int12, int13] = script23(int17, int12, int13);
             int8 = (int8 + ((113 + 6) * MIN(int12, 5)));
             int9 = (int9 + ((113 + 6) * MIN(int13, int14)));
-            if ((int9 >= IF_GETHEIGHT(comp(1477, 724)))) {
+            if ((int9 >= IF_GETHEIGHT(comp(1477, 724)))) {  // toplevel_v2:fullmodal_window
                 int9 = 0;
                 int11 = 1;
             };
             int15 = enum_getvalue(0, 9, 1481, MAX(1, varbitplayer_27175));
             if (((int13 > int14) || (IF_GETHEIGHT(int15) < (int13 * (113 + 6))))) {
                 int8 = (int8 + 16);
-                IF_SETHIDE(false, comp(1594, 35));
-                IF_SETPOSITION(9, 31, 2, 0, comp(1594, 35));
-                IF_SETSIZE(16, 56, 0, 1, comp(1594, 35));
+                IF_SETHIDE(false, comp(1594, 35));  // rewardshop:scrollbar_layer
+                IF_SETPOSITION(9, 31, 2, 0, comp(1594, 35));  // rewardshop:scrollbar_layer
+                IF_SETSIZE(16, 56, 0, 1, comp(1594, 35));  // rewardshop:scrollbar_layer
                 script582(104464419, int15, int13);
             } else {
                 script15544(104464419, int15);
@@ -76,16 +76,16 @@ function script562(int0: number, int1: number, int2: number, int3: number, int4:
         [int12, int13] = script23(int17, int12, int13);
         int8 = (int8 + ((113 + 6) * MIN(int12, 5)));
         int9 = (int9 + ((113 + 6) * MIN(int13, int14)));
-        if ((int9 >= IF_GETHEIGHT(comp(1477, 724)))) {
+        if ((int9 >= IF_GETHEIGHT(comp(1477, 724)))) {  // toplevel_v2:fullmodal_window
             int9 = 0;
             int11 = 1;
         };
         int15 = enum_getvalue(0, 9, 1481, MAX(1, varbitplayer_27175));
         if (((int13 > int14) || (IF_GETHEIGHT(int15) < (int13 * (113 + 6))))) {
             int8 = (int8 + 16);
-            IF_SETHIDE(false, comp(1594, 35));
-            IF_SETPOSITION(9, 31, 2, 0, comp(1594, 35));
-            IF_SETSIZE(16, 56, 0, 1, comp(1594, 35));
+            IF_SETHIDE(false, comp(1594, 35));  // rewardshop:scrollbar_layer
+            IF_SETPOSITION(9, 31, 2, 0, comp(1594, 35));  // rewardshop:scrollbar_layer
+            IF_SETSIZE(16, 56, 0, 1, comp(1594, 35));  // rewardshop:scrollbar_layer
             script582(104464419, int15, int13);
         } else {
             script15544(104464419, int15);

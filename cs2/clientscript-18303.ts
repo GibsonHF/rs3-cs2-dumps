@@ -5,43 +5,43 @@ function script18303(int0: number): void {
     var int2 = 0;
     switch (int0) {
         case 81264660: {
-            int1 = comp(1240, 19);
+            int1 = comp(1240, 19);  // quest_necromancy_city_band_subquest_journal:quest_necromancy_city_band_guitar_disabled_layer
             if ((script2156(503) == 1)) {
                 string0 = "You have completed this part of the quest!";
-                IF_SETTEXT("That Old Black Magic: My One and Only Lute<br>(Completed)", comp(1240, 21));
+                IF_SETTEXT("That Old Black Magic: My One and Only Lute<br>(Completed)", comp(1240, 21));  // quest_necromancy_city_band_subquest_journal:quest_necromancy_city_band_guitar_text_field
             };
             break;
         }
         case 81264668: {
-            int1 = comp(1240, 27);
+            int1 = comp(1240, 27);  // quest_necromancy_city_band_subquest_journal:quest_necromancy_city_band_trumpet_disabled_layer
             if ((script2156(503) == 0)) {
                 string0 = "You must complete My One and Only Lute before starting this part.";
                 int2 = 1;
             } else if ((script2156(504) == 1)) {
                 string0 = "You have completed this part of the quest!";
-                IF_SETTEXT("That Old Black Magic: Skelly By Everlight<br>(Completed)", comp(1240, 29));
+                IF_SETTEXT("That Old Black Magic: Skelly By Everlight<br>(Completed)", comp(1240, 29));  // quest_necromancy_city_band_subquest_journal:quest_necromancy_city_band_trumpet_text_field
             };
             break;
         }
         case 81264676: {
-            int1 = comp(1240, 35);
+            int1 = comp(1240, 35);  // quest_necromancy_city_band_subquest_journal:quest_necromancy_city_band_piano_disabled_layer
             if ((script2156(503) == 0)) {
                 string0 = "You must complete My One and Only Lute before starting this part.";
                 int2 = 1;
             } else if ((script2156(505) == 1)) {
                 string0 = "You have completed this part of the quest!";
-                IF_SETTEXT("That Old Black Magic: Flesh and Bone<br>(Completed)", comp(1240, 37));
+                IF_SETTEXT("That Old Black Magic: Flesh and Bone<br>(Completed)", comp(1240, 37));  // quest_necromancy_city_band_subquest_journal:quest_necromancy_city_band_piano_text_field
             };
             break;
         }
         case 81264652: {
-            int1 = comp(1240, 11);
+            int1 = comp(1240, 11);  // quest_necromancy_city_band_subquest_journal:quest_necromancy_city_band_drums_disabled_layer
             if ((script2156(503) == 0)) {
                 string0 = "You must complete My One and Only Lute before starting this part.";
                 int2 = 1;
             } else if ((script2156(506) == 1)) {
                 string0 = "You have completed this part of the quest!";
-                IF_SETTEXT("That Old Black Magic: Hermy and Bass<br>(Completed)", comp(1240, 13));
+                IF_SETTEXT("That Old Black Magic: Hermy and Bass<br>(Completed)", comp(1240, 13));  // quest_necromancy_city_band_subquest_journal:quest_necromancy_city_band_drums_text_field
             };
             break;
         }

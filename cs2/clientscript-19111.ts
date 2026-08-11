@@ -24,7 +24,7 @@ function script19111(): void {
             break;
         }
     };
-    IF_SETGRAPHIC(int0, comp(1147, 68));
-    IF_SETGRAPHIC(int1, comp(1147, 69));
+    IF_SETGRAPHIC(int0, comp(1147, 68));  // trh199_overlay:crafting_button_graphic
+    IF_SETGRAPHIC(int1, comp(1147, 69));  // trh199_overlay:crafting_button_disabled_graphic
     return;
 }

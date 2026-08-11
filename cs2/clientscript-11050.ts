@@ -5,25 +5,25 @@ function script11050(int0: number): void {
     var int3 = comp(-1, 65535);
     switch (varbitplayer_28210) {
         case 1: {
-            int3 = comp(1631, 22);
+            int3 = comp(1631, 22);  // trh55_world_event:saradomin_progress_graphic
             int1 = IF_GETWIDTH(int3);
             int2 = varbitplayer_28189;
             break;
         }
         case 2: {
-            int3 = comp(1631, 38);
+            int3 = comp(1631, 38);  // trh55_world_event:zamorak_progress_graphic
             int1 = IF_GETWIDTH(int3);
             int2 = varbitplayer_28190;
             break;
         }
         case 3: {
-            int3 = comp(1631, 42);
+            int3 = comp(1631, 42);  // trh55_world_event:armadyl_progress_graphic
             int1 = IF_GETWIDTH(int3);
             int2 = varbitplayer_28191;
             break;
         }
         case 4: {
-            int3 = comp(1631, 75);
+            int3 = comp(1631, 75);  // trh55_world_event:godless_progress_graphic
             int1 = IF_GETWIDTH(int3);
             int2 = varbitplayer_28192;
             break;

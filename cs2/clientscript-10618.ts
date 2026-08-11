@@ -63,8 +63,8 @@ function script10618(int0: number, int1: number): void {
         }
     };
     script11847(string1);
-    IF_SETTEXT(string1, comp(1802, 327));
-    IF_SETTEXT(string0, comp(1802, 328));
+    IF_SETTEXT(string1, comp(1802, 327));  // timed_event:variety_task_events_specific_info
+    IF_SETTEXT(string0, comp(1802, 328));  // timed_event:variety_task_events_specific_title
     script10983(int1);
     return;
 }

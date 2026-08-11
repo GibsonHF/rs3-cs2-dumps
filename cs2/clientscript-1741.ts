@@ -7,13 +7,13 @@ function script1741(int0: number): void {
     var int5 = 18807 as graphic;
     var int6 = 18808 as graphic;
     IF_SETGRAPHIC(18807 as graphic, int0);
-    var int7 = comp(1465, 19);
-    var int8 = comp(1465, 16);
+    var int7 = comp(1465, 19);  // toplevel_v2_minimap:run_text
+    var int8 = comp(1465, 16);  // toplevel_v2_minimap:run_background_1
     var int9 = 1;
     if ((script13749() == 1)) {
         int9 = 6;
-        int7 = comp(326, 5);
-        int8 = comp(326, 2);
+        int7 = comp(326, 5);  // toplevel_v2_run_energy:run_graphic
+        int8 = comp(326, 2);  // toplevel_v2_run_energy:run_circle
     };
     if ((varclient_119 == 1)) {
         IF_SETGRAPHIC(int2, int7);

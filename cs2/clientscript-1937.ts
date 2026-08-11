@@ -11,14 +11,14 @@ function script1937(int0: number, int1: number, int2: number, int3: number): voi
         } else {
             string0 = `This will reset all unlocks. You will have to allocate your quest points again and wait ${inttostring(7, 10)} days before resetting again.`;
         };
-        IF_SETTEXT(string0, comp(267, 65));
+        IF_SETTEXT(string0, comp(267, 65));  // qps:confirmation_text
     } else if ((int2 == 1)) {
         if ((int5 <= 0)) {
             return;
         };
-        IF_SETTEXT(`Do you wish to allocate ${inttostring(int5, 10)} points to this track?`, comp(267, 65));
+        IF_SETTEXT(`Do you wish to allocate ${inttostring(int5, 10)} points to this track?`, comp(267, 65));  // qps:confirmation_text
     };
-    IF_SETHIDE(false, comp(267, 6));
-    IF_SETHIDE(false, comp(267, 4));
+    IF_SETHIDE(false, comp(267, 6));  // qps:confirmation_window
+    IF_SETHIDE(false, comp(267, 4));  // qps:confirmation_mask
     return;
 }

@@ -17,7 +17,7 @@ function script11398(int0: number): void {
         script11399();
         return;
     };
-    CC_DELETEALL(comp(1621, 16));
+    CC_DELETEALL(comp(1621, 16));  // poh_costume_room:set_build_area
     var int3 = script11400(int0);
     var int4 = -1 as obj;
     if ((int3 == 0)) {
@@ -45,7 +45,7 @@ function script11398(int0: number): void {
     var int15 = 9;
     var int16 = 8;
     var int17 = 5;
-    var int18 = IF_GETWIDTH(comp(1621, 16));
+    var int18 = IF_GETWIDTH(comp(1621, 16));  // poh_costume_room:set_build_area
     var int19 = -1 as obj;
     var int20 = 1;
     var int21 = 0;
@@ -99,7 +99,7 @@ function script11398(int0: number): void {
                 break;
             }
         };
-        CC_CREATE(comp(1621, 16), 5, int14);
+        CC_CREATE(comp(1621, 16), 5, int14);  // poh_costume_room:set_build_area
         if ((int19 != -1 as obj)) {
             if ((int3 == 0)) {
                 int4 = script11404(int19);
@@ -129,8 +129,8 @@ function script11398(int0: number): void {
         if ((int4 != -1 as obj)) {
             int2 = int4;
         };
-        IF_SETTEXT(OC_NAME(int2), comp(1621, 4));
-        IF_SETTEXT("The following items are part of this set:", comp(1621, 15));
+        IF_SETTEXT(OC_NAME(int2), comp(1621, 4));  // poh_costume_room:name_text
+        IF_SETTEXT("The following items are part of this set:", comp(1621, 15));  // poh_costume_room:set_text
         string0 = "Deposit";
         if ((varbitplayer_27926 == 0)) {
             int21 = 1;
@@ -144,8 +144,8 @@ function script11398(int0: number): void {
         if ((int4 != -1 as obj)) {
             int2 = int4;
         };
-        IF_SETTEXT(OC_NAME(int2), comp(1621, 4));
-        IF_SETTEXT("The following items are part of this set:", comp(1621, 15));
+        IF_SETTEXT(OC_NAME(int2), comp(1621, 4));  // poh_costume_room:name_text
+        IF_SETTEXT("The following items are part of this set:", comp(1621, 15));  // poh_costume_room:set_text
         string0 = "Withdraw";
         if ((varbitplayer_27926 == 0)) {
             int21 = 1;

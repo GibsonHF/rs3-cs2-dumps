@@ -173,9 +173,9 @@ function script12831(int0: number, int1: number, int2: number, int3: number, int
             };
             int8 = enum_getvalue(0, 73, int6, int7);
         };
-        IF_SETHIDE(false, comp(1798, 86));
+        IF_SETHIDE(false, comp(1798, 86));  // elrc:dynamic_layer
         return;
     };
-    IF_SETHIDE(false, comp(1798, 86));
+    IF_SETHIDE(false, comp(1798, 86));  // elrc:dynamic_layer
     return;
 }

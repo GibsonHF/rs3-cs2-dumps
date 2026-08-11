@@ -8,7 +8,7 @@ function script6626(int0: number): void {
     var int6 = 0;
     var int7 = 0;
     var int8 = 0;
-    var int9 = comp(1323, 6);
+    var int9 = comp(1323, 6);  // peng_pow_bfish:pieces_green
     var int10 = 6060 as cs2enum;
     if ((varbitplayer_9391 == 160)) {
         int10 = 6061 as cs2enum;

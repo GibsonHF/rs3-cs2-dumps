@@ -10,8 +10,8 @@ function script7349(): void {
     script7355();
     script7357();
     script7359();
-    IF_SETOPKEY(1, 96, 0, comp(944, 8));
-    IF_SETOPKEY(1, 97, 0, comp(944, 6));
-    IF_SETOPKEY(1, 13, 0, comp(944, 140));
+    IF_SETOPKEY(1, 96, 0, comp(944, 8));  // pop_log:prev_layer
+    IF_SETOPKEY(1, 97, 0, comp(944, 6));  // pop_log:next_layer
+    IF_SETOPKEY(1, 13, 0, comp(944, 140));  // pop_log:mainmodal_window_close_button
     return;
 }

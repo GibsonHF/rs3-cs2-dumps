@@ -7,9 +7,9 @@ function script10576(): void {
         return;
     };
     varbitplayer_24852 = 10;
-    IF_SETGRAPHIC(23962 as graphic, comp(1533, 5));
-    IF_SETTEXT("Good old-fashioned pirate food. Eat for healing and a random stat boost. (+2 stat boost. Heals the same as a mackerel)", comp(1533, 33));
-    IF_SETTEXT("Buy a ship's biscuit?", comp(1533, 34));
-    IF_SETHIDE(false, comp(1533, 29));
+    IF_SETGRAPHIC(23962 as graphic, comp(1533, 5));  // trh29_pirate_coins_shop:popup_icon
+    IF_SETTEXT("Good old-fashioned pirate food. Eat for healing and a random stat boost. (+2 stat boost. Heals the same as a mackerel)", comp(1533, 33));  // trh29_pirate_coins_shop:popup_description
+    IF_SETTEXT("Buy a ship's biscuit?", comp(1533, 34));  // trh29_pirate_coins_shop:popup_question
+    IF_SETHIDE(false, comp(1533, 29));  // trh29_pirate_coins_shop:popup_layer
     return;
 }

@@ -1,6 +1,6 @@
 //
 function script12177(int0: number): void {
-    var int1 = comp(1712, 3);
+    var int1 = comp(1712, 3);  // invent_gizmo:work_layer
     CC_DELETEALL(int1);
     var int2 = 0;
     while ((int2 < 9)) {

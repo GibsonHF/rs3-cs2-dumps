@@ -5,7 +5,7 @@ function script6481(int0: number, int1: number): void {
     };
     varclient_1964 = int0;
     varclient_1965 = int1;
-    var int2 = comp(1311, 196);
+    var int2 = comp(1311, 196);  // mtxmgt:selected_item
     if ((CC_FIND(int0, int1) == 1)) {
         varclient_1966 = CC_GETPARENTLAYER();
         if ((varclient_1966 == enum_getvalue(0, 9, 5961 as cs2enum, varclient_2699))) {

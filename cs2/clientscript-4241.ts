@@ -1,5 +1,5 @@
 //
 function script4241(): void {
-    IF_SETSIZE(SCALE(varbitplayer_9653, 10, 16384), 16384, 2, 2, comp(1078, 10));
+    IF_SETSIZE(SCALE(varbitplayer_9653, 10, 16384), 16384, 2, 2, comp(1078, 10));  // acs_battleships_side:health_bar
     return;
 }

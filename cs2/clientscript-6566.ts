@@ -6,7 +6,7 @@ function script6566(): void {
         return;
     };
     if (((varclient_1781 <= 0) || (varclient_1781 > 5))) {
-        if ((IF_GETHIDE(comp(1253, 8)) == true)) {
+        if ((IF_GETHIDE(comp(1253, 8)) == true)) {  // wheel_of_fortune:chests_layer
             if (((script11747(33217) == 1) || (script11747(34277) == 1))) {
                 return;
             };
@@ -32,33 +32,33 @@ function script6566(): void {
     var int4 = 0;
     switch (varclient_1781) {
         case 1: {
-            int0 = comp(1253, 31);
-            int1 = comp(1253, 33);
+            int0 = comp(1253, 31);  // wheel_of_fortune:chest_model_1
+            int1 = comp(1253, 33);  // wheel_of_fortune:wheel_spin_button_active_layer_1
             break;
         }
         case 2: {
-            int0 = comp(1253, 21);
-            int1 = comp(1253, 23);
+            int0 = comp(1253, 21);  // wheel_of_fortune:chest_model_2
+            int1 = comp(1253, 23);  // wheel_of_fortune:wheel_spin_button_active_layer_2
             break;
         }
         case 3: {
-            int0 = comp(1253, 26);
-            int1 = comp(1253, 28);
+            int0 = comp(1253, 26);  // wheel_of_fortune:chest_model_3
+            int1 = comp(1253, 28);  // wheel_of_fortune:wheel_spin_button_active_layer_3
             break;
         }
         case 4: {
-            int0 = comp(1253, 16);
-            int1 = comp(1253, 18);
+            int0 = comp(1253, 16);  // wheel_of_fortune:chest_model_4
+            int1 = comp(1253, 18);  // wheel_of_fortune:wheel_spin_button_active_layer_4
             break;
         }
         case 5: {
-            int0 = comp(1253, 11);
-            int1 = comp(1253, 13);
+            int0 = comp(1253, 11);  // wheel_of_fortune:chest_model_5
+            int1 = comp(1253, 13);  // wheel_of_fortune:wheel_spin_button_active_layer_5
             break;
         }
         default: {
-            int0 = comp(1253, 31);
-            int1 = comp(1253, 33);
+            int0 = comp(1253, 31);  // wheel_of_fortune:chest_model_1
+            int1 = comp(1253, 33);  // wheel_of_fortune:wheel_spin_button_active_layer_1
             break;
         }
     };
@@ -101,38 +101,38 @@ function script6566(): void {
         case 6: {
             switch (varclient_1781) {
                 case 1: {
-                    int0 = comp(1585, 20);
-                    int1 = comp(1585, 22);
+                    int0 = comp(1585, 20);  // trh45_overlay:chest_model_1
+                    int1 = comp(1585, 22);  // trh45_overlay:wheel_spin_button_active_layer_1
                     break;
                 }
                 case 2: {
-                    int0 = comp(1585, 29);
-                    int1 = comp(1585, 31);
+                    int0 = comp(1585, 29);  // trh45_overlay:chest_model_2
+                    int1 = comp(1585, 31);  // trh45_overlay:wheel_spin_button_active_layer_2
                     break;
                 }
                 case 3: {
-                    int0 = comp(1585, 24);
-                    int1 = comp(1585, 26);
+                    int0 = comp(1585, 24);  // trh45_overlay:chest_model_3
+                    int1 = comp(1585, 26);  // trh45_overlay:wheel_spin_button_active_layer_3
                     break;
                 }
                 case 4: {
-                    int0 = comp(1585, 14);
-                    int1 = comp(1585, 17);
+                    int0 = comp(1585, 14);  // trh45_overlay:chest_model_4
+                    int1 = comp(1585, 17);  // trh45_overlay:wheel_spin_button_active_layer_4
                     break;
                 }
                 case 5: {
-                    int0 = comp(1585, 10);
-                    int1 = comp(1585, 12);
+                    int0 = comp(1585, 10);  // trh45_overlay:chest_model_5
+                    int1 = comp(1585, 12);  // trh45_overlay:wheel_spin_button_active_layer_5
                     break;
                 }
                 case 6: {
-                    int0 = comp(1585, 6);
-                    int1 = comp(1585, 33);
+                    int0 = comp(1585, 6);  // trh45_overlay:chest_model_6
+                    int1 = comp(1585, 33);  // trh45_overlay:wheel_spin_button_active_layer_6
                     break;
                 }
                 default: {
-                    int0 = comp(1585, 20);
-                    int1 = comp(1585, 22);
+                    int0 = comp(1585, 20);  // trh45_overlay:chest_model_1
+                    int1 = comp(1585, 22);  // trh45_overlay:wheel_spin_button_active_layer_1
                     break;
                 }
             };
@@ -141,27 +141,27 @@ function script6566(): void {
         case 34: {
             switch (varbitplayer_42991) {
                 case 1: {
-                    int0 = comp(35, 27);
+                    int0 = comp(35, 27);  // trh153_overlay:chest_1_model
                     int2 = enum_getvalue(0, 73, 1932 as cs2enum, varbitplayer_42981);
                     break;
                 }
                 case 2: {
-                    int0 = comp(35, 12);
+                    int0 = comp(35, 12);  // trh153_overlay:chest_2_model
                     int2 = enum_getvalue(0, 73, 1932 as cs2enum, varbitplayer_42982);
                     break;
                 }
                 case 3: {
-                    int0 = comp(35, 29);
+                    int0 = comp(35, 29);  // trh153_overlay:chest_3_model
                     int2 = enum_getvalue(0, 73, 1932 as cs2enum, varbitplayer_42983);
                     break;
                 }
                 case 4: {
-                    int0 = comp(35, 10);
+                    int0 = comp(35, 10);  // trh153_overlay:chest_4_model
                     int2 = enum_getvalue(0, 73, 1932 as cs2enum, varbitplayer_42984);
                     break;
                 }
                 default: {
-                    IF_SETONTIMER(callback(script5898, -2147483645, 300), comp(1253, 0));
+                    IF_SETONTIMER(callback(script5898, -2147483645, 300), comp(1253, 0));  // wheel_of_fortune:main_layer
                     return;
                 }
             };
@@ -173,23 +173,23 @@ function script6566(): void {
         case 36: {
             switch (varbitplayer_43348) {
                 case 1: {
-                    int0 = comp(19, 2);
-                    int1 = comp(19, 3);
+                    int0 = comp(19, 2);  // trh154_overlay:chest_1_model
+                    int1 = comp(19, 3);  // trh154_overlay:chest_1_click
                     break;
                 }
                 case 2: {
-                    int0 = comp(19, 7);
-                    int1 = comp(19, 8);
+                    int0 = comp(19, 7);  // trh154_overlay:chest_2_model
+                    int1 = comp(19, 8);  // trh154_overlay:chest_2_click
                     break;
                 }
                 case 3: {
-                    int0 = comp(19, 9);
-                    int1 = comp(19, 10);
+                    int0 = comp(19, 9);  // trh154_overlay:chest_3_model
+                    int1 = comp(19, 10);  // trh154_overlay:chest_3_click
                     break;
                 }
                 default: {
-                    int0 = comp(19, 7);
-                    int1 = comp(19, 8);
+                    int0 = comp(19, 7);  // trh154_overlay:chest_2_model
+                    int1 = comp(19, 8);  // trh154_overlay:chest_2_click
                     break;
                 }
             };
@@ -198,7 +198,7 @@ function script6566(): void {
         case 54: {
             if ((varbitplayer_47441 == 1)) {
                 int3 = 33402 as seq;
-                int0 = comp(696, 5);
+                int0 = comp(696, 5);  // trh169_overlay:trh169_slime_model
                 int4 = 60;
             } else {
                 int4 = 300;
@@ -211,28 +211,28 @@ function script6566(): void {
             break;
         }
     };
-    IF_SETMODELANIM(22645 as seq, comp(1253, 31));
-    IF_SETMODELANIM(22645 as seq, comp(1253, 21));
-    IF_SETMODELANIM(22645 as seq, comp(1253, 26));
-    IF_SETMODELANIM(22645 as seq, comp(1253, 16));
-    IF_SETMODELANIM(22645 as seq, comp(1253, 11));
-    IF_SETMODELANIM(22645 as seq, comp(1585, 20));
-    IF_SETMODELANIM(22645 as seq, comp(1585, 29));
-    IF_SETMODELANIM(22645 as seq, comp(1585, 24));
-    IF_SETMODELANIM(22645 as seq, comp(1585, 14));
-    IF_SETMODELANIM(22645 as seq, comp(1585, 10));
-    IF_SETMODELANIM(22645 as seq, comp(1585, 6));
-    IF_SETONTIMER(callback(), comp(1253, 31));
-    IF_SETONTIMER(callback(), comp(1253, 21));
-    IF_SETONTIMER(callback(), comp(1253, 26));
-    IF_SETONTIMER(callback(), comp(1253, 16));
-    IF_SETONTIMER(callback(), comp(1253, 11));
-    IF_SETONTIMER(callback(), comp(1585, 20));
-    IF_SETONTIMER(callback(), comp(1585, 29));
-    IF_SETONTIMER(callback(), comp(1585, 24));
-    IF_SETONTIMER(callback(), comp(1585, 14));
-    IF_SETONTIMER(callback(), comp(1585, 10));
-    IF_SETONTIMER(callback(), comp(1585, 6));
+    IF_SETMODELANIM(22645 as seq, comp(1253, 31));  // wheel_of_fortune:chest_model_1
+    IF_SETMODELANIM(22645 as seq, comp(1253, 21));  // wheel_of_fortune:chest_model_2
+    IF_SETMODELANIM(22645 as seq, comp(1253, 26));  // wheel_of_fortune:chest_model_3
+    IF_SETMODELANIM(22645 as seq, comp(1253, 16));  // wheel_of_fortune:chest_model_4
+    IF_SETMODELANIM(22645 as seq, comp(1253, 11));  // wheel_of_fortune:chest_model_5
+    IF_SETMODELANIM(22645 as seq, comp(1585, 20));  // trh45_overlay:chest_model_1
+    IF_SETMODELANIM(22645 as seq, comp(1585, 29));  // trh45_overlay:chest_model_2
+    IF_SETMODELANIM(22645 as seq, comp(1585, 24));  // trh45_overlay:chest_model_3
+    IF_SETMODELANIM(22645 as seq, comp(1585, 14));  // trh45_overlay:chest_model_4
+    IF_SETMODELANIM(22645 as seq, comp(1585, 10));  // trh45_overlay:chest_model_5
+    IF_SETMODELANIM(22645 as seq, comp(1585, 6));  // trh45_overlay:chest_model_6
+    IF_SETONTIMER(callback(), comp(1253, 31));  // wheel_of_fortune:chest_model_1
+    IF_SETONTIMER(callback(), comp(1253, 21));  // wheel_of_fortune:chest_model_2
+    IF_SETONTIMER(callback(), comp(1253, 26));  // wheel_of_fortune:chest_model_3
+    IF_SETONTIMER(callback(), comp(1253, 16));  // wheel_of_fortune:chest_model_4
+    IF_SETONTIMER(callback(), comp(1253, 11));  // wheel_of_fortune:chest_model_5
+    IF_SETONTIMER(callback(), comp(1585, 20));  // trh45_overlay:chest_model_1
+    IF_SETONTIMER(callback(), comp(1585, 29));  // trh45_overlay:chest_model_2
+    IF_SETONTIMER(callback(), comp(1585, 24));  // trh45_overlay:chest_model_3
+    IF_SETONTIMER(callback(), comp(1585, 14));  // trh45_overlay:chest_model_4
+    IF_SETONTIMER(callback(), comp(1585, 10));  // trh45_overlay:chest_model_5
+    IF_SETONTIMER(callback(), comp(1585, 6));  // trh45_overlay:chest_model_6
     IF_SETONMOUSEOVER(callback(), int1);
     IF_SETONMOUSELEAVE(callback(), int1);
     IF_SETMODELANIM(int3, int0);
@@ -241,10 +241,10 @@ function script6566(): void {
         if ((struct_getparam(int5, 8676) == true)) {
             script16776(script16774(int5));
         } else {
-            IF_SETONTIMER(callback(script5898, -2147483645, int4), comp(1253, 0));
+            IF_SETONTIMER(callback(script5898, -2147483645, int4), comp(1253, 0));  // wheel_of_fortune:main_layer
         };
     } else {
-        IF_SETONTIMER(callback(script5898, -2147483645, int4), comp(1253, 0));
+        IF_SETONTIMER(callback(script5898, -2147483645, int4), comp(1253, 0));  // wheel_of_fortune:main_layer
     };
     return;
 }

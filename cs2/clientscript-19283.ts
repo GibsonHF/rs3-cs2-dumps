@@ -79,7 +79,7 @@ function script19283(int0: number, int1: number, int2: number, int3: number, int
             break;
         }
     };
-    if (((int0 == comp(1290, 49)) && (int2 == varbitplayer_56168))) {
+    if (((int0 == comp(1290, 49)) && (int2 == varbitplayer_56168))) {  // trh_dungeon_crawl_overlay:map_critical_path_build_layer
         script2994(int0, IF_GETNEXTSUBID(int0), int18, int19, 0, 0, int14, int14, 0, 0, 34462);
         script3537("You are here");
     };

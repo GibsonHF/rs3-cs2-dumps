@@ -72,9 +72,9 @@ function script20244(int0: number): void {
         int4 = (int4 - 32);
         int5 = (int5 - 32);
     };
-    IF_SETPOSITION(0, int4, 0, 0, comp(1361, 10));
-    IF_SETPOSITION(0, int5, 1, 0, comp(1361, 11));
-    IF_SETSIZE(0, (125 - (90 - int5)), 1, 1, comp(1361, 11));
+    IF_SETPOSITION(0, int4, 0, 0, comp(1361, 10));  // league_child_tasks:separator_3
+    IF_SETPOSITION(0, int5, 1, 0, comp(1361, 11));  // league_child_tasks:contents
+    IF_SETSIZE(0, (125 - (90 - int5)), 1, 1, comp(1361, 11));  // league_child_tasks:contents
     varbitplayer_61493 = int10;
     return;
 }

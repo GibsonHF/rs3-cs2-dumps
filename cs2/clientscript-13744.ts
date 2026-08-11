@@ -3,7 +3,7 @@ function script13744(int0: number): void {
     var int1 = ENUM_GETOUTPUTCOUNT(int0);
     var int2 = 1;
     var int3 = 0;
-    var int4 = IF_GETWIDTH(comp(1914, 1));
+    var int4 = IF_GETWIDTH(comp(1914, 1));  // elf_pvm_portal_choose_task:build_layer
     var int5 = ((int4 - 20) / 2);
     var int6 = 10;
     var string0 = "null";
@@ -35,8 +35,8 @@ function script13744(int0: number): void {
         int2 = (int2 + 1);
     };
     int6 = (int6 + (int7 + 3));
-    if ((IF_GETHEIGHT(comp(1914, 5)) < int6)) {
-        IF_SETSCROLLSIZE(0, int6, comp(1914, 5));
+    if ((IF_GETHEIGHT(comp(1914, 5)) < int6)) {  // elf_pvm_portal_choose_task:content_layer
+        IF_SETSCROLLSIZE(0, int6, comp(1914, 5));  // elf_pvm_portal_choose_task:content_layer
         script7791(125435910, 125435909);
     };
     return;

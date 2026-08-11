@@ -6,7 +6,7 @@ function script11354(): void {
     var int3 = 0;
     var int4 = 0;
     var int5 = 0;
-    var int6 = comp(1311, 586);
+    var int6 = comp(1311, 586);  // mtxmgt:pet_abilities_content
     var int7 = ENUM_GETOUTPUTCOUNT(9013 as cs2enum);
     var int8 = 0;
     CC_DELETEALL(int6);
@@ -26,7 +26,7 @@ function script11354(): void {
             };
             CC_SETONMOUSEREPEAT(callback(script11363, int1, -2147483645, -2147483643));
             CC_SETONMOUSELEAVE(callback(script8805));
-            CC_SETDRAGGABLE(comp(1311, 586), -1);
+            CC_SETDRAGGABLE(comp(1311, 586), -1);  // mtxmgt:pet_abilities_content
             CC_SETDRAGRENDERBEHAVIOUR(2);
             if ((int9 == 0)) {
                 CC_SETDRAGDEADTIME(5);

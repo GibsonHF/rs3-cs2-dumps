@@ -6,7 +6,7 @@ function script13174(int0: number, int1: number): void {
         return;
     };
     var int4 = (int2 / ABS(int2));
-    if (((IF_FIND(comp(1843, 183)) == 1) && (IF_FIND[1](comp(1843, 261)) == 1))) {
+    if (((IF_FIND(comp(1843, 183) /*mtxmgt_store:items_layer*/) == 1) && (IF_FIND[1](comp(1843, 261) /*mtxmgt_store:ragdolls_scrollsize_layer*/) == 1))) {
         int3 = cc_getparam(6359);
         if ((int4 > 0)) {
             int2 = MIN(int2, (CC_GETSCROLLWIDTH[1]() - 8));

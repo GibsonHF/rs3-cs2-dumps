@@ -199,7 +199,7 @@ function script15074(int0: number): void {
                 int19 = 0;
                 int4 = 10;
             };
-            if ((CC_FINDBYCATEGORY[1](comp(1253, 451), 0, int21) == 1)) {
+            if ((CC_FINDBYCATEGORY[1](comp(1253, 451), 0, int21) == 1)) {  // wheel_of_fortune:trh_promo_info_right_contents
                 CC_SETSIZE[1](0, int22, 1, 0);
             };
             int8 = -1;
@@ -207,17 +207,17 @@ function script15074(int0: number): void {
             int3 = (int3 + 10);
         };
     };
-    if ((CC_FINDBYCATEGORY(comp(1253, 451), 0, 0) == 1)) {
+    if ((CC_FINDBYCATEGORY(comp(1253, 451), 0, 0) == 1)) {  // wheel_of_fortune:trh_promo_info_right_contents
         if ((int3 > 492)) {
             CC_SETSIZE((10 + 16), int3, 1, 0);
-            IF_SETSCROLLPOS(0, 0, comp(1253, 451));
-            IF_SETSCROLLSIZE(380, int3, comp(1253, 451));
+            IF_SETSCROLLPOS(0, 0, comp(1253, 451));  // wheel_of_fortune:trh_promo_info_right_contents
+            IF_SETSCROLLSIZE(380, int3, comp(1253, 451));  // wheel_of_fortune:trh_promo_info_right_contents
             script7791(82117060, 82117059);
         } else {
             CC_SETSIZE(20, int3, 1, 0);
-            IF_SETSCROLLPOS(0, 0, comp(1253, 451));
-            IF_SETSCROLLSIZE(380, int3, comp(1253, 451));
-            CC_DELETEALL(comp(1253, 452));
+            IF_SETSCROLLPOS(0, 0, comp(1253, 451));  // wheel_of_fortune:trh_promo_info_right_contents
+            IF_SETSCROLLSIZE(380, int3, comp(1253, 451));  // wheel_of_fortune:trh_promo_info_right_contents
+            CC_DELETEALL(comp(1253, 452));  // wheel_of_fortune:trh_promo_info_right_panel_scrollbar
         };
     };
     return;

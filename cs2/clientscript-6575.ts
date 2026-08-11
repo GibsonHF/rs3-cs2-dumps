@@ -56,27 +56,27 @@ function script6575(): void {
     if (((int5 == -1) && (int6 != -1))) {
         int5 = int6;
     };
-    CC_DELETEALL(comp(755, 6));
+    CC_DELETEALL(comp(755, 6));  // area_task_sub:recommended_task_pin_layer
     if ((int5 != -1)) {
         ACHIEVEMENT_FINDPARENTS(int5);
         int7 = ACHIEVEMENT_FINDNEXT();
-        IF_SETTEXT(`Recommended Task: ${ACHIEVEMENT_GETNAME(int5)}`, comp(755, 4));
-        IF_SETTEXT(`${ACHIEVEMENT_GETNAME(int7)}<br>Task Description: ${script15321(int5)}`, comp(755, 5));
-        IF_SETGRAPHIC(ACHIEVEMENT_SPRITE(int5), comp(755, 3));
-        if ((IF_FIND(comp(755, 6)) == 1)) {
-            CC_CREATE(comp(755, 6), 5, 0);
+        IF_SETTEXT(`Recommended Task: ${ACHIEVEMENT_GETNAME(int5)}`, comp(755, 4));  // area_task_sub:recommended_task_name
+        IF_SETTEXT(`${ACHIEVEMENT_GETNAME(int7)}<br>Task Description: ${script15321(int5)}`, comp(755, 5));  // area_task_sub:recommended_task_desc
+        IF_SETGRAPHIC(ACHIEVEMENT_SPRITE(int5), comp(755, 3));  // area_task_sub:recommended_task_graphic
+        if ((IF_FIND(comp(755, 6)) == 1)) {  // area_task_sub:recommended_task_pin_layer
+            CC_CREATE(comp(755, 6), 5, 0);  // area_task_sub:recommended_task_pin_layer
             CC_SETSIZE(14, 14, 0, 0);
             CC_SETNOCLICKTHROUGH(true);
             script13339(49479686, 0, int5);
         };
-        IF_SETHIDE(false, comp(755, 6));
-        IF_SETPOSITION(60, 4, 0, 0, comp(755, 4));
+        IF_SETHIDE(false, comp(755, 6));  // area_task_sub:recommended_task_pin_layer
+        IF_SETPOSITION(60, 4, 0, 0, comp(755, 4));  // area_task_sub:recommended_task_name
     } else {
-        IF_SETTEXT("All tasks completed!", comp(755, 4));
-        IF_SETTEXT("", comp(755, 5));
-        IF_SETGRAPHIC(int8, comp(755, 3));
-        IF_SETHIDE(true, comp(755, 6));
-        IF_SETPOSITION(45, 4, 0, 0, comp(755, 4));
+        IF_SETTEXT("All tasks completed!", comp(755, 4));  // area_task_sub:recommended_task_name
+        IF_SETTEXT("", comp(755, 5));  // area_task_sub:recommended_task_desc
+        IF_SETGRAPHIC(int8, comp(755, 3));  // area_task_sub:recommended_task_graphic
+        IF_SETHIDE(true, comp(755, 6));  // area_task_sub:recommended_task_pin_layer
+        IF_SETPOSITION(45, 4, 0, 0, comp(755, 4));  // area_task_sub:recommended_task_name
     };
     var int15 = -1;
     int14 = int12;
@@ -96,9 +96,9 @@ function script6575(): void {
     int7 = script8438(int0, int15);
     int9 = script11707(int0, int15);
     IF_SETOBJECT_HIGHRES(int9, 49479761);
-    IF_SETTEXT(script3509(int9), comp(755, 82));
-    IF_SETTEXT(script15321(int7), comp(755, 83));
+    IF_SETTEXT(script3509(int9), comp(755, 82));  // area_task_sub:reward_name
+    IF_SETTEXT(script15321(int7), comp(755, 83));  // area_task_sub:reward_desc
     script1025(49479763, -1, 208, 207, 206);
-    IF_SETONOP(callback(script17834, int7, int9), comp(755, 84));
+    IF_SETONOP(callback(script17834, int7, int9), comp(755, 84));  // area_task_sub:reward_info_button
     return;
 }

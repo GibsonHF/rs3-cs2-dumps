@@ -1,26 +1,26 @@
 //
 function script7557(int0: number): void {
     var int1 = 0;
-    var int2 = comp(1398, 66);
+    var int2 = comp(1398, 66);  // tsd_unlocking_power:base
     switch (int0) {
         case 91619329: {
             int1 = (varbitplayer_18117 * 11);
-            int2 = comp(1398, 47);
+            int2 = comp(1398, 47);  // tsd_unlocking_power:good_bar
             break;
         }
         case 91619328: {
             int1 = (varbitplayer_18116 * 11);
-            int2 = comp(1398, 49);
+            int2 = comp(1398, 49);  // tsd_unlocking_power:evil_bar
             break;
         }
         case 91619330: {
             int1 = (varbitplayer_18119 * 11);
-            int2 = comp(1398, 45);
+            int2 = comp(1398, 45);  // tsd_unlocking_power:order_bar
             break;
         }
         case 91619331: {
             int1 = (varbitplayer_18118 * 11);
-            int2 = comp(1398, 44);
+            int2 = comp(1398, 44);  // tsd_unlocking_power:chaos_bar
             break;
         }
     };

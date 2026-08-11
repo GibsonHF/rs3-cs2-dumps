@@ -8,7 +8,7 @@ function script14167(int0: number, int1: number, int2: number): void {
     };
     if ((IF_FIND(int1) == 1)) {
         if ((int0 == 1)) {
-            if (((IF_HASSUB(struct_getparam(21300, 3505)) == 1) || (IF_HASSUB(comp(1477, 739)) == 1))) {
+            if (((IF_HASSUB(struct_getparam(21300, 3505)) == 1) || (IF_HASSUB(comp(1477, 739)) == 1))) {  // toplevel_v2:side_modal_window_alt_content
                 script4452(CC_GETX(), CC_GETY(), ((CC_GETWIDTH() + 210) + 10), CC_GETHEIGHT());
             } else {
                 script4452(CC_GETX(), CC_GETY(), CC_GETWIDTH(), CC_GETHEIGHT());

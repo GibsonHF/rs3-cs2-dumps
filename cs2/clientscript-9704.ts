@@ -18,11 +18,11 @@ function script9704(int0: number): void {
         };
     };
     if ((script13749() == 1)) {
-        IF_SETONMOUSELEAVE(callback(), comp(1253, 171));
-        IF_SETDRAGGABLE(comp(1253, 171), -1, comp(1253, 206));
-        IF_SETHIDE(false, comp(1253, 206));
+        IF_SETONMOUSELEAVE(callback(), comp(1253, 171));  // wheel_of_fortune:ticker_tape_viewport
+        IF_SETDRAGGABLE(comp(1253, 171) /*wheel_of_fortune:ticker_tape_viewport*/, -1, comp(1253, 206) /*wheel_of_fortune:ticker_swipe_layer*/);
+        IF_SETHIDE(false, comp(1253, 206));  // wheel_of_fortune:ticker_swipe_layer
     } else {
-        IF_SETHIDE(true, comp(1253, 206));
+        IF_SETHIDE(true, comp(1253, 206));  // wheel_of_fortune:ticker_swipe_layer
         script5821();
     };
     return;

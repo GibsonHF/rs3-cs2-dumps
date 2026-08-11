@@ -8,7 +8,7 @@ function script14031(int0: number): void {
     var int6 = 0;
     var int7 = -1;
     CC_DELETEALL(int1);
-    IF_SETCOLOUR(script10495(9), comp(1936, 0));
+    IF_SETCOLOUR(script10495(9), comp(1936, 0));  // trail_hideyholes:heading_bg
     while ((int4 <= 62)) {
         stack(28672);
         stack(int4);
@@ -51,25 +51,25 @@ function script14031(int0: number): void {
     };
     IF_SETSCROLLSIZE(0, MAX(IF_GETHEIGHT(int1), int3), int1);
     script7791(int2, int1);
-    IF_SETHIDE(true, comp(1936, 19));
-    IF_SETHIDE(true, comp(1936, 27));
-    IF_SETHIDE(true, comp(1936, 35));
-    IF_SETHIDE(true, comp(1936, 43));
+    IF_SETHIDE(true, comp(1936, 19));  // trail_hideyholes:easy_tab_selected_layer
+    IF_SETHIDE(true, comp(1936, 27));  // trail_hideyholes:medium_tab_selected_layer
+    IF_SETHIDE(true, comp(1936, 35));  // trail_hideyholes:hard_tab_selected_layer
+    IF_SETHIDE(true, comp(1936, 43));  // trail_hideyholes:master_tab_selected_layer
     switch (int0) {
         case 1: {
-            IF_SETHIDE(false, comp(1936, 19));
+            IF_SETHIDE(false, comp(1936, 19));  // trail_hideyholes:easy_tab_selected_layer
             break;
         }
         case 2: {
-            IF_SETHIDE(false, comp(1936, 27));
+            IF_SETHIDE(false, comp(1936, 27));  // trail_hideyholes:medium_tab_selected_layer
             break;
         }
         case 3: {
-            IF_SETHIDE(false, comp(1936, 35));
+            IF_SETHIDE(false, comp(1936, 35));  // trail_hideyholes:hard_tab_selected_layer
             break;
         }
         case 5: {
-            IF_SETHIDE(false, comp(1936, 43));
+            IF_SETHIDE(false, comp(1936, 43));  // trail_hideyholes:master_tab_selected_layer
             break;
         }
     };

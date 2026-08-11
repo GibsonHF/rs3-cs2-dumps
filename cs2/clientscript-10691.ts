@@ -7,25 +7,25 @@ function script10691(int0: number): void {
         case 101253120: {
             int1 = varbitplayer_25553;
             string0 = "Activate double points.";
-            int2 = comp(1545, 27);
+            int2 = comp(1545, 27);  // divdnd_overlay:memories1_text
             break;
         }
         case 101253122: {
             int1 = varbitplayer_25554;
             string0 = "Activate immunity.";
-            int2 = comp(1545, 34);
+            int2 = comp(1545, 34);  // divdnd_overlay:memories2_text
             break;
         }
         case 101253124: {
             int1 = varbitplayer_25555;
             string0 = "Activate double points.";
-            int2 = comp(1545, 38);
+            int2 = comp(1545, 38);  // divdnd_overlay:robots1_text
             break;
         }
         case 101253127: {
             int1 = varbitplayer_25556;
             string0 = "Subdue all automatons.";
-            int2 = comp(1545, 42);
+            int2 = comp(1545, 42);  // divdnd_overlay:robots2_text
             break;
         }
     };

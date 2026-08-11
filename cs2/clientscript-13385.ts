@@ -30,19 +30,19 @@ function script13385(): void {
             if ((int4 == -1 as graphic)) {
                 int4 = struct_getparam(int0, 6586);
             };
-            IF_SETGRAPHIC(int4, comp(744, 30));
-            IF_SETPOSITION(struct_getparam(int0, 8688), struct_getparam(int0, 8689), struct_getparam(int0, 5389), struct_getparam(int0, 5388), comp(744, 30));
-            IF_SETSIZE(int2, int3, 0, 0, comp(744, 30));
-            IF_SETGRAPHIC(struct_getparam(int0, 6533), comp(744, 5));
-            IF_SETGRAPHIC(struct_getparam(int0, 6534), comp(744, 6));
-            IF_SETGRAPHIC(struct_getparam(int0, 6535), comp(744, 7));
-            IF_SETGRAPHIC(struct_getparam(int0, 6536), comp(744, 8));
-            IF_SETGRAPHIC(struct_getparam(int0, 6537), comp(744, 9));
-            IF_SETGRAPHIC(struct_getparam(int0, 6538), comp(744, 10));
-            IF_SETGRAPHIC(struct_getparam(int0, 6539), comp(744, 11));
-            IF_SETGRAPHIC(struct_getparam(int0, 6540), comp(744, 12));
-            IF_SETGRAPHIC(struct_getparam(int0, 6541), comp(744, 13));
-            IF_SETHIDE(false, comp(744, 4));
+            IF_SETGRAPHIC(int4, comp(744, 30));  // loginscreen:runescape_logo
+            IF_SETPOSITION(struct_getparam(int0, 8688), struct_getparam(int0, 8689), struct_getparam(int0, 5389), struct_getparam(int0, 5388), comp(744, 30));  // loginscreen:runescape_logo
+            IF_SETSIZE(int2, int3, 0, 0, comp(744, 30));  // loginscreen:runescape_logo
+            IF_SETGRAPHIC(struct_getparam(int0, 6533), comp(744, 5));  // loginscreen:nxt_background_graphic_0
+            IF_SETGRAPHIC(struct_getparam(int0, 6534), comp(744, 6));  // loginscreen:nxt_background_graphic_1
+            IF_SETGRAPHIC(struct_getparam(int0, 6535), comp(744, 7));  // loginscreen:nxt_background_graphic_2
+            IF_SETGRAPHIC(struct_getparam(int0, 6536), comp(744, 8));  // loginscreen:nxt_background_graphic_3
+            IF_SETGRAPHIC(struct_getparam(int0, 6537), comp(744, 9));  // loginscreen:nxt_background_graphic_4
+            IF_SETGRAPHIC(struct_getparam(int0, 6538), comp(744, 10));  // loginscreen:nxt_background_graphic_5
+            IF_SETGRAPHIC(struct_getparam(int0, 6539), comp(744, 11));  // loginscreen:nxt_background_graphic_6
+            IF_SETGRAPHIC(struct_getparam(int0, 6540), comp(744, 12));  // loginscreen:nxt_background_graphic_7
+            IF_SETGRAPHIC(struct_getparam(int0, 6541), comp(744, 13));  // loginscreen:nxt_background_graphic_8
+            IF_SETHIDE(false, comp(744, 4));  // loginscreen:nxt_background_layer
         };
     };
     return;

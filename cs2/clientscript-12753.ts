@@ -4,28 +4,28 @@ function script12753(int0: number, int1: number, string0: string): void {
     var int3 = comp(-1, 65535);
     switch (int0) {
         case 1: {
-            int2 = comp(1787, 0);
-            int3 = comp(1787, 1);
+            int2 = comp(1787, 0);  // cruc_dm_overlay:rank1_name
+            int3 = comp(1787, 1);  // cruc_dm_overlay:rank1_kills
             break;
         }
         case 2: {
-            int2 = comp(1787, 2);
-            int3 = comp(1787, 3);
+            int2 = comp(1787, 2);  // cruc_dm_overlay:rank2_name
+            int3 = comp(1787, 3);  // cruc_dm_overlay:rank2_kills
             break;
         }
         case 3: {
-            int2 = comp(1787, 4);
-            int3 = comp(1787, 5);
+            int2 = comp(1787, 4);  // cruc_dm_overlay:rank3_name
+            int3 = comp(1787, 5);  // cruc_dm_overlay:rank3_kills
             break;
         }
         case 4: {
-            int2 = comp(1787, 6);
-            int3 = comp(1787, 7);
+            int2 = comp(1787, 6);  // cruc_dm_overlay:rank4_name
+            int3 = comp(1787, 7);  // cruc_dm_overlay:rank4_kills
             break;
         }
         case 5: {
-            int2 = comp(1787, 8);
-            int3 = comp(1787, 9);
+            int2 = comp(1787, 8);  // cruc_dm_overlay:rank5_name
+            int3 = comp(1787, 9);  // cruc_dm_overlay:rank5_kills
             break;
         }
     };

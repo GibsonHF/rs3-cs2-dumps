@@ -5,7 +5,7 @@ function script9236(int0: number, int1: number, int2: number, int3: number, int4
     };
     script9237(int0, int1, -1, int2, int3, int4, int5, int6, int7);
     IF_SETONINVTRANSMIT(callback(script9235, int0, int1, int3, int5, int6, int7, string0, int3, 1), int1);
-    if ((((int1 == comp(517, 15)) || (int1 == comp(517, 35))) || (int1 == comp(1313, 14)))) {
+    if ((((int1 == comp(517, 15) /*bank:inventory_click*/) || (int1 == comp(517, 35) /*bank:bob_click*/)) || (int1 == comp(1313, 14) /*group_ironman_storage:inventory_click*/))) {
         IF_SETONVARTRANSMIT(callback(script9235, int0, int1, int3, int5, int6, int7, string0, 111, 8958, 2), int1);
     } else {
         IF_SETONVARTRANSMIT(callback(script9234, int0, int1, int2, int3, int4, int5, int6, int7, string0, 3680, 1), int1);

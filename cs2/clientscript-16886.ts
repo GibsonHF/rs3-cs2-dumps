@@ -1,7 +1,7 @@
 //
 function script16886(int0: number, int1: number): void {
     var string0 = "Transition Now";
-    if ((int0 == comp(1055, 11))) {
+    if ((int0 == comp(1055, 11))) {  // gamemode_seasonal_transition:btn_panel
         if ((script1017() == 1)) {
             IF_SETSIZE(20, 40, 1, 0, int0);
             script15938(int0, 0, 0, 0, 0, 1, 1, 0, 0, 1, 1);

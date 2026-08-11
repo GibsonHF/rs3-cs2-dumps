@@ -1,6 +1,6 @@
 //
 function script20750(int0: number, int1: number, int2: number): void {
-    if (((varbitclient_61226 == 62) && (int1 == comp(1512, 16)))) {
+    if (((varbitclient_61226 == 62) && (int1 == comp(1512, 16)))) {  // house_furniture_catalogue:items_obj
         return;
     };
     var int3 = dbrow_findnext();

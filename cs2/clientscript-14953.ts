@@ -1,8 +1,8 @@
 //
 function script14953(): void {
-    var int0 = comp(477, 7);
-    var int1 = comp(477, 8);
-    var int2 = comp(477, 6);
+    var int0 = comp(477, 7);  // arch_material_storage_info:build_layer
+    var int1 = comp(477, 8);  // arch_material_storage_info:control_layer
+    var int2 = comp(477, 6);  // arch_material_storage_info:scrolling_layer
     var int3 = 31260681;
     CC_DELETEALL(int0);
     CC_DELETEALL(int1);

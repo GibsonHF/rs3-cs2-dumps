@@ -12,13 +12,13 @@ function script10361(int0: number): void {
     };
     varplayer_4698 = MAX(varplayer_4697, MIN(script1432(), 152));
     var string0 = struct_getparam(int2, 3631);
-    if (((strcmp(string0, "") == 0) || (PARAHEIGHT(string0, IF_GETWIDTH(comp(1524, 83)), IF_GETFONTMETRICS(comp(1524, 83))) > 2))) {
+    if (((strcmp(string0, "") == 0) || (PARAHEIGHT(string0, IF_GETWIDTH(comp(1524, 83)), IF_GETFONTMETRICS(comp(1524, 83))) > 2))) {  // group_parent:description_text
         string0 = struct_getparam(int2, 1273);
     };
     IF_SETTEXT(struct_getparam(int2, 1266), 99876946);
-    IF_SETTEXT(string0, comp(1524, 83));
-    IF_SETTEXT(`${inttostring(struct_getparam(int2, 4500), 10)} - ${inttostring(struct_getparam(int2, 4501), 10)} Players`, comp(1524, 79));
-    IF_SETTEXT(`${inttostring(struct_getparam(int2, 4502), 10)} Players`, comp(1524, 81));
+    IF_SETTEXT(string0, comp(1524, 83));  // group_parent:description_text
+    IF_SETTEXT(`${inttostring(struct_getparam(int2, 4500), 10)} - ${inttostring(struct_getparam(int2, 4501), 10)} Players`, comp(1524, 79));  // group_parent:size_text
+    IF_SETTEXT(`${inttostring(struct_getparam(int2, 4502), 10)} Players`, comp(1524, 81));  // group_parent:recommended_text
     var int3 = script10390(int2, int1);
     var int4 = script10364(int2);
     var int5 = script10366(int2);
@@ -28,21 +28,21 @@ function script10361(int0: number): void {
     var int8 = MIN(69, int5);
     var int9 = (((207 - int6) - int7) - int8);
     if ((int9 == 0)) {
-        IF_SETSIZE(10, 90, 1, 0, comp(1524, 84));
-        IF_SETSIZE(10, 90, 1, 0, comp(1524, 89));
-        IF_SETPOSITION(5, 195, 0, 0, comp(1524, 89));
-        IF_SETSIZE(10, 90, 1, 0, comp(1524, 94));
-        IF_SETPOSITION(5, 290, 0, 0, comp(1524, 94));
+        IF_SETSIZE(10, 90, 1, 0, comp(1524, 84));  // group_parent:req_holder
+        IF_SETSIZE(10, 90, 1, 0, comp(1524, 89));  // group_parent:reward_holder
+        IF_SETPOSITION(5, 195, 0, 0, comp(1524, 89));  // group_parent:reward_holder
+        IF_SETSIZE(10, 90, 1, 0, comp(1524, 94));  // group_parent:settings_holder
+        IF_SETPOSITION(5, 290, 0, 0, comp(1524, 94));  // group_parent:settings_holder
         script11729(int3, 99876951, 99876952);
         script11729(int4, 99876956, 99876957);
         script11729(int5, 99876961, 99876968);
         return;
     } else if ((((int6 < 69) && (int7 < 69)) && (int8 < 69))) {
-        IF_SETSIZE(10, 90, 1, 0, comp(1524, 84));
-        IF_SETSIZE(10, 90, 1, 0, comp(1524, 89));
-        IF_SETPOSITION(5, 195, 0, 0, comp(1524, 89));
-        IF_SETSIZE(10, 90, 1, 0, comp(1524, 94));
-        IF_SETPOSITION(5, 290, 0, 0, comp(1524, 94));
+        IF_SETSIZE(10, 90, 1, 0, comp(1524, 84));  // group_parent:req_holder
+        IF_SETSIZE(10, 90, 1, 0, comp(1524, 89));  // group_parent:reward_holder
+        IF_SETPOSITION(5, 195, 0, 0, comp(1524, 89));  // group_parent:reward_holder
+        IF_SETSIZE(10, 90, 1, 0, comp(1524, 94));  // group_parent:settings_holder
+        IF_SETPOSITION(5, 290, 0, 0, comp(1524, 94));  // group_parent:settings_holder
         script11729(int3, 99876951, 99876952);
         script11729(int4, 99876956, 99876957);
         script11729(int5, 99876961, 99876968);
@@ -71,11 +71,11 @@ function script10361(int0: number): void {
     int6 = (int6 + 24);
     int7 = (int7 + 24);
     int8 = (int8 + 24);
-    IF_SETSIZE(10, int6, 1, 0, comp(1524, 84));
-    IF_SETSIZE(10, int7, 1, 0, comp(1524, 89));
-    IF_SETPOSITION(5, ((100 + int6) + 5), 0, 0, comp(1524, 89));
-    IF_SETSIZE(10, int8, 1, 0, comp(1524, 94));
-    IF_SETPOSITION(5, (((100 + int6) + int7) + 10), 0, 0, comp(1524, 94));
+    IF_SETSIZE(10, int6, 1, 0, comp(1524, 84));  // group_parent:req_holder
+    IF_SETSIZE(10, int7, 1, 0, comp(1524, 89));  // group_parent:reward_holder
+    IF_SETPOSITION(5, ((100 + int6) + 5), 0, 0, comp(1524, 89));  // group_parent:reward_holder
+    IF_SETSIZE(10, int8, 1, 0, comp(1524, 94));  // group_parent:settings_holder
+    IF_SETPOSITION(5, (((100 + int6) + int7) + 10), 0, 0, comp(1524, 94));  // group_parent:settings_holder
     script11729(int3, 99876951, 99876952);
     script11729(int4, 99876956, 99876957);
     script11729(int5, 99876961, 99876968);

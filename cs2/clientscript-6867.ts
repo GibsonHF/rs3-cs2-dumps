@@ -39,7 +39,7 @@ function script6867(int0: number, int1: number): number {
     if ((int0 > 0)) {
         int8 = (int8 + 4);
     };
-    CC_CREATE(comp(1360, 0), 4, int0);
+    CC_CREATE(comp(1360, 0), 4, int0);  // oct_event_if:text_layer
     CC_SETTEXTFONT(66 as fontmetrics);
     CC_SETTEXTSHADOW(true);
     CC_SETTEXTALIGN(1, 1, 0);
@@ -58,7 +58,7 @@ function script6867(int0: number, int1: number): number {
         CC_SETCOLOUR(16711680);
     };
     var int0 = (int0 + 1);
-    CC_CREATE(comp(1360, 0), 4, int0);
+    CC_CREATE(comp(1360, 0), 4, int0);  // oct_event_if:text_layer
     CC_SETTEXTFONT(66 as fontmetrics);
     CC_SETTEXTSHADOW(true);
     CC_SETTEXTALIGN(1, 1, 0);
@@ -73,7 +73,7 @@ function script6867(int0: number, int1: number): number {
         CC_SETCOLOUR(16711680);
     };
     int0 = (int0 + 1);
-    CC_CREATE(comp(1360, 0), 4, int0);
+    CC_CREATE(comp(1360, 0), 4, int0);  // oct_event_if:text_layer
     CC_SETTEXTFONT(66 as fontmetrics);
     CC_SETTEXTSHADOW(true);
     CC_SETTEXTALIGN(1, 1, 0);
@@ -88,7 +88,7 @@ function script6867(int0: number, int1: number): number {
         CC_SETCOLOUR(16711680);
     };
     int0 = (int0 + 1);
-    CC_CREATE(comp(1360, 0), 5, int0);
+    CC_CREATE(comp(1360, 0), 5, int0);  // oct_event_if:text_layer
     switch (((int0 / 4) + 1)) {
         case 1: {
             if ((varbitplayer_14342 == 1)) {

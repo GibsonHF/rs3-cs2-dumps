@@ -1,9 +1,9 @@
 //
 function script19777(): void {
-    CC_DELETEALL(comp(1253, 556));
+    CC_DELETEALL(comp(1253, 556));  // wheel_of_fortune:fake_op
     var int0 = 0;
     while ((int0 < 9)) {
-        CC_CREATE(comp(1253, 556), 5, int0);
+        CC_CREATE(comp(1253, 556), 5, int0);  // wheel_of_fortune:fake_op
         int0 = (int0 + 1);
     };
     int0 = 0;
@@ -11,14 +11,14 @@ function script19777(): void {
     var int2 = DB_GETFIELDCOUNT(dbrow_getfield(14845 as dbrow, 1106016, 0), 1269760);
     var int3 = (MAX(int1, int2) + 1);
     while ((int0 < int3)) {
-        CC_CREATE(comp(1320, 172), 5, int0);
+        CC_CREATE(comp(1320, 172), 5, int0);  // trh205_overlay:prize_select_full_preview_fake_op
         int0 = (int0 + 1);
     };
-    CC_CREATE(comp(1320, 172), 5, (int3 + 1));
-    IF_SETONVARTRANSMIT(callback(script19782, 12080, 12080, 2), comp(1320, 22));
-    IF_SETONVARTRANSMIT(callback(script19780, 12084, 1), comp(1320, 39));
-    IF_SETONVARTRANSMIT(callback(script19807, 12081, 12082, 12082, 3), comp(1320, 51));
-    IF_SETONVARTRANSMIT(callback(script19782, 12080, 1), comp(1320, 23));
+    CC_CREATE(comp(1320, 172), 5, (int3 + 1));  // trh205_overlay:prize_select_full_preview_fake_op
+    IF_SETONVARTRANSMIT(callback(script19782, 12080, 12080, 2), comp(1320, 22));  // trh205_overlay:bonus_item_model_layer
+    IF_SETONVARTRANSMIT(callback(script19780, 12084, 1), comp(1320, 39));  // trh205_overlay:blackboard_item_list
+    IF_SETONVARTRANSMIT(callback(script19807, 12081, 12082, 12082, 3), comp(1320, 51));  // trh205_overlay:prize_select_layer
+    IF_SETONVARTRANSMIT(callback(script19782, 12080, 1), comp(1320, 23));  // trh205_overlay:main_chest
     DB_LISTALL(313);
     var int4 = dbrow_findnext();
     var int5 = -1;

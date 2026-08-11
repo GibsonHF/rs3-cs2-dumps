@@ -4,7 +4,7 @@ function script575(): void {
     if ((varclient_81 > 0)) {
         return;
     };
-    IF_SETONTIMER(callback(), comp(389, 7));
+    IF_SETONTIMER(callback(), comp(389, 7));  // objdialog:searchtext
     script576();
     return;
 }

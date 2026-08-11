@@ -10,8 +10,8 @@ function script20214(int0: number): void {
         int1 = (int1 - 100);
         script20222((255 - SCALE(255, 100, int1)));
     } else {
-        IF_SETPARAM_INT(8058, 1, comp(1401, 3));
-        IF_SETONTIMER(callback(), comp(1401, 3));
+        IF_SETPARAM_INT(8058, 1, comp(1401, 3));  // league_onboarding:anim_listener
+        IF_SETONTIMER(callback(), comp(1401, 3));  // league_onboarding:anim_listener
     };
     return;
 }

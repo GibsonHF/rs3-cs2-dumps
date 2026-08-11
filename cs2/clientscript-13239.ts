@@ -77,7 +77,7 @@ function script13239(int0: number, int1: number, int2: number, int3: number, int
             CC_SETCOLOUR(script10495(5));
         };
     } else if ((int8 == 4)) {
-        CC_CREATE(comp(1845, 18), 5, IF_GETNEXTSUBID(comp(1845, 18)));
+        CC_CREATE(comp(1845, 18), 5, IF_GETNEXTSUBID(comp(1845, 18)));  // mtxmgt_store_checkout:checkout_checkmark_layer
         CC_SETGRAPHIC(21747 as graphic);
         CC_SETSIZE(27, 27, 0, 0);
         CC_SETPOSITION(2, int4, 2, 0);

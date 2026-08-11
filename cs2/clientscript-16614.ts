@@ -1,10 +1,10 @@
 //
 function script16614(): void {
-    CC_DELETEALL(comp(1253, 3));
-    IF_SETHIDE(true, comp(1253, 171));
-    IF_SETGRAPHIC(struct_getparam(46119, 8206), comp(1253, 5));
-    IF_SETPOSITION(126, 60, 0, 0, comp(1253, 32));
-    IF_SETSIZE(200, 150, 0, 0, comp(1253, 32));
+    CC_DELETEALL(comp(1253, 3));  // wheel_of_fortune:background_holder
+    IF_SETHIDE(true, comp(1253, 171));  // wheel_of_fortune:ticker_tape_viewport
+    IF_SETGRAPHIC(struct_getparam(46119, 8206), comp(1253, 5));  // wheel_of_fortune:background
+    IF_SETPOSITION(126, 60, 0, 0, comp(1253, 32));  // wheel_of_fortune:wheel_spin_button_layer_1
+    IF_SETSIZE(200, 150, 0, 0, comp(1253, 32));  // wheel_of_fortune:wheel_spin_button_layer_1
     script16615();
     var int0 = 0;
     var int1 = 0;

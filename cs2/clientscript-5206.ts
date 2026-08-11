@@ -1,9 +1,9 @@
 //
 function script5206(): void {
-    var int0 = (IF_GETWIDTH(comp(1122, 72)) - 240);
+    var int0 = (IF_GETWIDTH(comp(1122, 72)) - 240);  // hcape_interface:crest_content_layer
     var int1 = (int0 / 5);
     var int2 = (int1 + ((int0 - (int1 * 5)) / 2));
-    var int3 = IF_GETSCROLLY(comp(1122, 72));
+    var int3 = IF_GETSCROLLY(comp(1122, 72));  // hcape_interface:crest_content_layer
     var int4 = ENUM_GETOUTPUTCOUNT(4850 as cs2enum);
     var int5 = 0;
     var int6 = 0;
@@ -15,8 +15,8 @@ function script5206(): void {
     var int12 = -1 as struct;
     var int13 = -1 as struct;
     var int14 = 0;
-    CC_DELETEALL(comp(1122, 2));
-    CC_DELETEALL(comp(1122, 3));
+    CC_DELETEALL(comp(1122, 2));  // hcape_interface:crest_content_build
+    CC_DELETEALL(comp(1122, 3));  // hcape_interface:crest_content_click
     while ((int11 < int4)) {
         int12 = enum_getvalue(0, 73, 4850 as cs2enum, int11);
         if (((int11 != 0) && (int12 == -1 as struct))) {
@@ -28,7 +28,7 @@ function script5206(): void {
         if ((int13 != -1 as struct)) {
             if ((struct_getparam(int13, 2196) == 1)) {
                 if ((int8 == 0)) {
-                    CC_CREATE(comp(1122, 3), 3, int11);
+                    CC_CREATE(comp(1122, 3), 3, int11);  // hcape_interface:crest_content_click
                     CC_SETHIDE(true);
                 } else {
                     if ((varbitplayer_1038 == int11)) {
@@ -44,11 +44,11 @@ function script5206(): void {
                     int5 = (int2 + (MODULO(int11, 4) * int9));
                     int6 = (int1 + ((int11 / 4) * int9));
                     script13998(73531394, 73531395, 28556, int5, int6, 60, 60, int11, int14, "", int7);
-                    CC_CREATE(comp(1122, 2), 5, IF_GETNEXTSUBID(comp(1122, 2)));
+                    CC_CREATE(comp(1122, 2), 5, IF_GETNEXTSUBID(comp(1122, 2)));  // hcape_interface:crest_content_build
                     CC_SETPOSITION(int5, int6, 0, 0);
                     CC_SETSIZE(60, 60, 0, 0);
                     CC_SETGRAPHIC(struct_getparam(int12, 1883));
-                    if (((int8 == 1) && (CC_FIND(comp(1122, 3), int11) == 1))) {
+                    if (((int8 == 1) && (CC_FIND(comp(1122, 3), int11) == 1))) {  // hcape_interface:crest_content_click
                         CC_SETONOP(callback(script5207, -2147483645, -2147483643));
                     };
                 };
@@ -66,11 +66,11 @@ function script5206(): void {
                 int5 = (int2 + (MODULO(int11, 4) * int9));
                 int6 = (int1 + ((int11 / 4) * int9));
                 script13998(73531394, 73531395, 28556, int5, int6, 60, 60, int11, int14, "", int7);
-                CC_CREATE(comp(1122, 2), 5, IF_GETNEXTSUBID(comp(1122, 2)));
+                CC_CREATE(comp(1122, 2), 5, IF_GETNEXTSUBID(comp(1122, 2)));  // hcape_interface:crest_content_build
                 CC_SETPOSITION(int5, int6, 0, 0);
                 CC_SETSIZE(60, 60, 0, 0);
                 CC_SETGRAPHIC(struct_getparam(int12, 1883));
-                if (((int8 == 1) && (CC_FIND(comp(1122, 3), int11) == 1))) {
+                if (((int8 == 1) && (CC_FIND(comp(1122, 3), int11) == 1))) {  // hcape_interface:crest_content_click
                     CC_SETONOP(callback(script5207, -2147483645, -2147483643));
                 };
             };
@@ -88,11 +88,11 @@ function script5206(): void {
             int5 = (int2 + (MODULO(int11, 4) * int9));
             int6 = (int1 + ((int11 / 4) * int9));
             script13998(73531394, 73531395, 28556, int5, int6, 60, 60, int11, int14, "", int7);
-            CC_CREATE(comp(1122, 2), 5, IF_GETNEXTSUBID(comp(1122, 2)));
+            CC_CREATE(comp(1122, 2), 5, IF_GETNEXTSUBID(comp(1122, 2)));  // hcape_interface:crest_content_build
             CC_SETPOSITION(int5, int6, 0, 0);
             CC_SETSIZE(60, 60, 0, 0);
             CC_SETGRAPHIC(struct_getparam(int12, 1883));
-            if (((int8 == 1) && (CC_FIND(comp(1122, 3), int11) == 1))) {
+            if (((int8 == 1) && (CC_FIND(comp(1122, 3), int11) == 1))) {  // hcape_interface:crest_content_click
                 CC_SETONOP(callback(script5207, -2147483645, -2147483643));
             };
         };
@@ -103,12 +103,12 @@ function script5206(): void {
         int15 = (int15 + 1);
     };
     var int16 = ((int15 * int9) + int1);
-    if ((int16 > IF_GETHEIGHT(comp(1122, 72)))) {
-        IF_SETSCROLLSIZE(0, int16, comp(1122, 72));
-        IF_SETSCROLLPOS(0, int3, comp(1122, 72));
+    if ((int16 > IF_GETHEIGHT(comp(1122, 72)))) {  // hcape_interface:crest_content_layer
+        IF_SETSCROLLSIZE(0, int16, comp(1122, 72));  // hcape_interface:crest_content_layer
+        IF_SETSCROLLPOS(0, int3, comp(1122, 72));  // hcape_interface:crest_content_layer
     } else {
-        IF_SETSCROLLSIZE(0, 0, comp(1122, 72));
-        IF_SETSCROLLPOS(0, 0, comp(1122, 72));
+        IF_SETSCROLLSIZE(0, 0, comp(1122, 72));  // hcape_interface:crest_content_layer
+        IF_SETSCROLLPOS(0, 0, comp(1122, 72));  // hcape_interface:crest_content_layer
     };
     script7791(73531465, 73531464);
     return;

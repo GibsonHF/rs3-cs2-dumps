@@ -6,6 +6,6 @@ function script7989(int0: number, int1: number, int2: number, int3: number, int4
     script9092(int0, int4, "Golden chinchompa ball", 56623132, 56623106);
     script9092(int0, int5, "Zaros ball", 56623133, 56623107);
     script9092(int0, int6, "Stone of Jas ball", 56623134, 56623108);
-    IF_SETTEXT(`Kicks: ${inttostring(int0, 10)}`, comp(864, 34));
+    IF_SETTEXT(`Kicks: ${inttostring(int0, 10)}`, comp(864, 34));  // trh17_config:kicks_done
     return;
 }

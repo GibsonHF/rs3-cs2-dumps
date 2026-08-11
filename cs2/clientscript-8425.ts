@@ -35,7 +35,7 @@ function script8425(): void {
             break;
         }
     };
-    IF_SETTEXT(string0, comp(247, 12));
+    IF_SETTEXT(string0, comp(247, 12));  // oct13_therm:oct13_next_resource_text_1
     string0 = "";
     switch (varbitplayer_20721) {
         case 1: {
@@ -71,6 +71,6 @@ function script8425(): void {
             break;
         }
     };
-    IF_SETTEXT(string0, comp(247, 13));
+    IF_SETTEXT(string0, comp(247, 13));  // oct13_therm:oct13_next_resource_text_2
     return;
 }

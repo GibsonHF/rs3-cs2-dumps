@@ -55,15 +55,15 @@ function script8463(int0: number): void {
     var int29 = 0;
     if (((int12 == -1) || (item_getparam(int12, 2832) == 1))) {
         if ((int1 == 1)) {
-            IF_SETHIDE(false, comp(1559, 96));
+            IF_SETHIDE(false, comp(1559, 96));  // toplevel_v2_inspect_worn_stats:off_weapon_button_disabled_layer
             if ((varclient_4664 == 1)) {
                 script8467(int0, 0);
             };
         } else {
-            IF_SETHIDE(false, comp(1463, 176));
-            IF_SETHIDE(false, comp(1463, 120));
-            IF_SETHIDE(true, comp(1463, 117));
-            IF_SETHIDE(true, comp(1463, 114));
+            IF_SETHIDE(false, comp(1463, 176));  // toplevel_v2_parent_suboverlay_worn_stats:off_weapon_button_disabled_layer
+            IF_SETHIDE(false, comp(1463, 120));  // toplevel_v2_parent_suboverlay_worn_stats:off_vs_button_disabled
+            IF_SETHIDE(true, comp(1463, 117));  // toplevel_v2_parent_suboverlay_worn_stats:off_vs_button_off
+            IF_SETHIDE(true, comp(1463, 114));  // toplevel_v2_parent_suboverlay_worn_stats:off_vs_button_on
             if ((varclient_2761 == 1)) {
                 script8459(int0, 0);
             };
@@ -74,16 +74,16 @@ function script8463(int0: number): void {
         return;
     };
     if ((int1 == 1)) {
-        IF_SETHIDE(true, comp(1559, 96));
+        IF_SETHIDE(true, comp(1559, 96));  // toplevel_v2_inspect_worn_stats:off_weapon_button_disabled_layer
     } else {
-        IF_SETHIDE(true, comp(1463, 176));
-        IF_SETHIDE(true, comp(1463, 120));
+        IF_SETHIDE(true, comp(1463, 176));  // toplevel_v2_parent_suboverlay_worn_stats:off_weapon_button_disabled_layer
+        IF_SETHIDE(true, comp(1463, 120));  // toplevel_v2_parent_suboverlay_worn_stats:off_vs_button_disabled
         if ((varclient_2761 == 1)) {
-            IF_SETHIDE(true, comp(1463, 117));
-            IF_SETHIDE(false, comp(1463, 114));
+            IF_SETHIDE(true, comp(1463, 117));  // toplevel_v2_parent_suboverlay_worn_stats:off_vs_button_off
+            IF_SETHIDE(false, comp(1463, 114));  // toplevel_v2_parent_suboverlay_worn_stats:off_vs_button_on
         } else {
-            IF_SETHIDE(false, comp(1463, 117));
-            IF_SETHIDE(true, comp(1463, 114));
+            IF_SETHIDE(false, comp(1463, 117));  // toplevel_v2_parent_suboverlay_worn_stats:off_vs_button_off
+            IF_SETHIDE(true, comp(1463, 114));  // toplevel_v2_parent_suboverlay_worn_stats:off_vs_button_on
         };
     };
     switch (script7241(int12)) {
@@ -165,36 +165,36 @@ function script8463(int0: number): void {
     };
     var string3 = "";
     if ((int1 == 1)) {
-        IF_SETTEXT(inttostring(int14, 10), comp(1559, 63));
-        IF_SETTEXT(inttostring(int16, 10), comp(1559, 68));
-        IF_SETTEXT(string0, comp(1559, 73));
-        IF_SETTEXT(string2, comp(1559, 77));
+        IF_SETTEXT(inttostring(int14, 10), comp(1559, 63));  // toplevel_v2_inspect_worn_stats:off_damage_value
+        IF_SETTEXT(inttostring(int16, 10), comp(1559, 68));  // toplevel_v2_inspect_worn_stats:off_accuracy_value
+        IF_SETTEXT(string0, comp(1559, 73));  // toplevel_v2_inspect_worn_stats:off_type_value
+        IF_SETTEXT(string2, comp(1559, 77));  // toplevel_v2_inspect_worn_stats:off_speed_value
         string3 = `Weapon : <col=00FF00>${inttostring(script7244(int12), 10)}</col><br>Skill Bonus : <col=00FF00>${inttostring(int8, 10)}</col>`;
         if ((int15 > 0)) {
             string3 = `Weapon : <col=00FF00>${inttostring(script7244(int12), 10)}</col><br>Skill Bonus : <col=00FF00>${inttostring(int8, 10)}</col><br>Hybrid Nerf : <col=00FF00>-${inttostring(int15, 10)}</col>`;
         };
-        IF_SETONMOUSEREPEAT(callback(script3876, string3, -2147483645, -2147483643), comp(1559, 66));
-        IF_SETONMOUSELEAVE(callback(script8805), comp(1559, 66));
+        IF_SETONMOUSEREPEAT(callback(script3876, string3, -2147483645, -2147483643), comp(1559, 66));  // toplevel_v2_inspect_worn_stats:off_accuracy_value_box
+        IF_SETONMOUSELEAVE(callback(script8805), comp(1559, 66));  // toplevel_v2_inspect_worn_stats:off_accuracy_value_box
         string3 = `${string1} : <col=00FF00>${inttostring(int24, 10)}</col><br>Skill Bonus : <col=00FF00>${inttostring(int25, 10)}</col><br>Damage Bonus : <col=00FF00>${inttostring(int26, 10)}</col>`;
-        IF_SETONMOUSEREPEAT(callback(script3876, string3, -2147483645, -2147483643), comp(1559, 61));
-        IF_SETONMOUSELEAVE(callback(script8805), comp(1559, 61));
+        IF_SETONMOUSEREPEAT(callback(script3876, string3, -2147483645, -2147483643), comp(1559, 61));  // toplevel_v2_inspect_worn_stats:off_damage_value_box
+        IF_SETONMOUSELEAVE(callback(script8805), comp(1559, 61));  // toplevel_v2_inspect_worn_stats:off_damage_value_box
     } else {
-        IF_SETTEXT(inttostring(int14, 10), comp(1463, 68));
-        IF_SETTEXT(inttostring(int16, 10), comp(1463, 73));
-        IF_SETTEXT(string0, comp(1463, 78));
-        IF_SETTEXT(string2, comp(1463, 82));
-        IF_SETTEXT(`${inttostring(SCALE(int21, 1000, 10), 10)}%`, comp(1463, 127));
-        IF_SETTEXT(`${inttostring(SCALE(int22, 1000, 10), 10)}%`, comp(1463, 131));
-        IF_SETTEXT(`${inttostring(SCALE(int23, 1000, 10), 10)}%`, comp(1463, 135));
+        IF_SETTEXT(inttostring(int14, 10), comp(1463, 68));  // toplevel_v2_parent_suboverlay_worn_stats:off_damage_value
+        IF_SETTEXT(inttostring(int16, 10), comp(1463, 73));  // toplevel_v2_parent_suboverlay_worn_stats:off_accuracy_value
+        IF_SETTEXT(string0, comp(1463, 78));  // toplevel_v2_parent_suboverlay_worn_stats:off_type_value
+        IF_SETTEXT(string2, comp(1463, 82));  // toplevel_v2_parent_suboverlay_worn_stats:off_speed_value
+        IF_SETTEXT(`${inttostring(SCALE(int21, 1000, 10), 10)}%`, comp(1463, 127));  // toplevel_v2_parent_suboverlay_worn_stats:off_vs_melee_value
+        IF_SETTEXT(`${inttostring(SCALE(int22, 1000, 10), 10)}%`, comp(1463, 131));  // toplevel_v2_parent_suboverlay_worn_stats:off_vs_range_value
+        IF_SETTEXT(`${inttostring(SCALE(int23, 1000, 10), 10)}%`, comp(1463, 135));  // toplevel_v2_parent_suboverlay_worn_stats:off_vs_magic_value
         string3 = `Weapon : <col=00FF00>${inttostring(script7244(int12), 10)}</col><br>Skill Bonus : <col=00FF00>${inttostring(int8, 10)}</col>`;
         if ((int15 > 0)) {
             string3 = `Weapon : <col=00FF00>${inttostring(script7244(int12), 10)}</col><br>Skill Bonus : <col=00FF00>${inttostring(int8, 10)}</col><br>Hybrid Nerf : <col=00FF00>-${inttostring(int15, 10)}</col>`;
         };
-        IF_SETONMOUSEREPEAT(callback(script3876, string3, -2147483645, -2147483643), comp(1463, 71));
-        IF_SETONMOUSELEAVE(callback(script8805), comp(1463, 71));
+        IF_SETONMOUSEREPEAT(callback(script3876, string3, -2147483645, -2147483643), comp(1463, 71));  // toplevel_v2_parent_suboverlay_worn_stats:off_accuracy_value_box
+        IF_SETONMOUSELEAVE(callback(script8805), comp(1463, 71));  // toplevel_v2_parent_suboverlay_worn_stats:off_accuracy_value_box
         string3 = `${string1} : <col=00FF00>${inttostring(int24, 10)}</col><br>Skill Bonus : <col=00FF00>${inttostring(int25, 10)}</col><br>Damage Bonus : <col=00FF00>${inttostring(int26, 10)}</col>`;
-        IF_SETONMOUSEREPEAT(callback(script3876, string3, -2147483645, -2147483643), comp(1463, 66));
-        IF_SETONMOUSELEAVE(callback(script8805), comp(1463, 66));
+        IF_SETONMOUSEREPEAT(callback(script3876, string3, -2147483645, -2147483643), comp(1463, 66));  // toplevel_v2_parent_suboverlay_worn_stats:off_damage_value_box
+        IF_SETONMOUSELEAVE(callback(script8805), comp(1463, 66));  // toplevel_v2_parent_suboverlay_worn_stats:off_damage_value_box
     };
     return;
 }

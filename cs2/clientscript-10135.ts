@@ -2,12 +2,12 @@
 function script10135(int0: number, int1: number): void {
     var int2 = 0;
     var int3 = 0;
-    if (((((varbitclient_23079 == 1) && (int0 != comp(232, 137))) && (int0 != comp(232, 181))) && (int0 != comp(232, 185)))) {
+    if (((((varbitclient_23079 == 1) && (int0 != comp(232, 137) /*toplevel_v2_parent_suboverlay_twitch:webcam_checkbox_selected_layer*/)) && (int0 != comp(232, 181) /*toplevel_v2_parent_suboverlay_twitch:webcam_checkbox_selected_flip_vertical*/)) && (int0 != comp(232, 185) /*toplevel_v2_parent_suboverlay_twitch:webcam_checkbox_selected_flip_horizontal*/))) {
         printmessage("You can't change that while your broadcast is active");
         SOUND_VORBIS_VOLUME(10046 as vorbis, 1, 0, 150);
         return;
     };
-    if (((OS_ISMAC() == 1) && (int0 == comp(232, 137)))) {
+    if (((OS_ISMAC() == 1) && (int0 == comp(232, 137)))) {  // toplevel_v2_parent_suboverlay_twitch:webcam_checkbox_selected_layer
         printmessage("Webcams are not supported on Macs.");
         SOUND_VORBIS_VOLUME(10046 as vorbis, 1, 0, 150);
         return;
@@ -16,16 +16,16 @@ function script10135(int0: number, int1: number): void {
         SOUND_VORBIS_VOLUME(36961 as vorbis, 1, 0, 100);
         IF_SETHIDE(false, int0);
         IF_SETHIDE(true, int1);
-        if ((int0 == comp(232, 123))) {
+        if ((int0 == comp(232, 123))) {  // toplevel_v2_parent_suboverlay_twitch:voice_checkbox_selected_layer
             varbitclient_23068 = 1;
-        } else if ((int0 == comp(232, 137))) {
+        } else if ((int0 == comp(232, 137))) {  // toplevel_v2_parent_suboverlay_twitch:webcam_checkbox_selected_layer
             if ((STRING_LENGTH(varclient_4291) > 1)) {
                 varbitclient_23069 = 1;
-                IF_SETHIDE(false, comp(232, 129));
+                IF_SETHIDE(false, comp(232, 129));  // toplevel_v2_parent_suboverlay_twitch:webcam_list_layer
                 script10149();
             } else {
                 printmessage("No webcam detected. If you connect a webcam you must log out and back in to Twitch to detect it.");
-                IF_SETHIDE(false, comp(232, 138));
+                IF_SETHIDE(false, comp(232, 138));  // toplevel_v2_parent_suboverlay_twitch:checkbox_selected_disabled_layer
             };
         } else if ((int0 == 15204533)) {
             varbitclient_23249 = 1;
@@ -44,11 +44,11 @@ function script10135(int0: number, int1: number): void {
         SOUND_VORBIS_VOLUME(36961 as vorbis, 1, 0, 100);
         IF_SETHIDE(true, int0);
         IF_SETHIDE(false, int1);
-        if ((int0 == comp(232, 123))) {
+        if ((int0 == comp(232, 123))) {  // toplevel_v2_parent_suboverlay_twitch:voice_checkbox_selected_layer
             varbitclient_23068 = 0;
         } else if ((int0 == 15204489)) {
             varbitclient_23069 = 0;
-            IF_SETHIDE(true, comp(232, 129));
+            IF_SETHIDE(true, comp(232, 129));  // toplevel_v2_parent_suboverlay_twitch:webcam_list_layer
             script10150(0);
         } else if ((int0 == 15204533)) {
             varbitclient_23249 = 0;

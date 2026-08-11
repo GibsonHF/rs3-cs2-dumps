@@ -16,12 +16,12 @@ function script8790(int0: number, int1: number, string0: string): number {
     int3 = MAX((script7593(string0, int5, int6, 0) + 10), int3);
     script10764(79823095, 21361, 0, int0, int2, int3, 16777215);
     if ((int1 != -1 as graphic)) {
-        CC_CREATE(comp(1218, 247), 5, IF_GETNEXTSUBID(comp(1218, 247)));
+        CC_CREATE(comp(1218, 247), 5, IF_GETNEXTSUBID(comp(1218, 247)));  // skillguide:image_layer
         CC_SETSIZE(int4, int4, 0, 0);
         CC_SETPOSITION(5, (int0 + ((int3 - int4) / 2)), 0, 0);
         CC_SETGRAPHIC(int1);
     };
-    CC_CREATE(comp(1218, 247), 4, IF_GETNEXTSUBID(comp(1218, 247)));
+    CC_CREATE(comp(1218, 247), 4, IF_GETNEXTSUBID(comp(1218, 247)));  // skillguide:image_layer
     CC_SETPOSITION((int4 + 10), int0, 0, 0);
     CC_SETTEXTFONT(int6);
     CC_SETTEXTSHADOW(false);

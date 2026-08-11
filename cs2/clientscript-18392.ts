@@ -5,7 +5,7 @@ function script18392(int0: number, int1: number): void {
         IF_SETNPCHEAD(int2, int1);
     };
     if ((int0 == 1)) {
-        IF_SETTEXT("Select a delivery target in the left panel for more information", comp(1279, 27));
+        IF_SETTEXT("Select a delivery target in the left panel for more information", comp(1279, 27));  // xmas23_present_delivery:right_panel_default_text
     };
     return;
 }

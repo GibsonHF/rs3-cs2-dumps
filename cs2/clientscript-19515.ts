@@ -7,7 +7,7 @@ function script19515(): void {
     var string0 = "Withdraw";
     var string1 = script19536();
     while ((int0 < 200)) {
-        if ((CC_FIND(comp(1313, 75), int0) == 1)) {
+        if ((CC_FIND(comp(1313, 75), int0) == 1)) {  // group_ironman_storage:clan_inv
             int1 = INV_GETOBJ(963 as inv, int0);
             if ((int1 == -1 as obj)) {
                 int1 = 48447 as obj;

@@ -4,6 +4,6 @@ function script8753(): void {
         return;
     };
     var int0 = struct_getparam(script10405(2000), 3503);
-    IF_SETPOSITION(((IF_GETWIDTH(comp(1477, 27)) / 2) - (IF_GETWIDTH(int0) / 2)), ((IF_GETHEIGHT(comp(1477, 27)) / 2) - (IF_GETHEIGHT(int0) / 2)), 0, 0, int0);
+    IF_SETPOSITION(((IF_GETWIDTH(comp(1477, 27)) / 2) - (IF_GETWIDTH(int0) / 2)), ((IF_GETHEIGHT(comp(1477, 27)) / 2) - (IF_GETHEIGHT(int0) / 2)), 0, 0, int0);  // toplevel_v2:viewport
     return;
 }

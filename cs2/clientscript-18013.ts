@@ -1,12 +1,12 @@
 //
 function script18013(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number): void {
-    IF_SETONTIMER(callback(), comp(1227, 33));
+    IF_SETONTIMER(callback(), comp(1227, 33));  // bp3_track_tab:reward_track_section
     var int8 = int1;
     var int9 = script17890(int2);
     var int10 = MIN((int1 + int0), int9);
     var int11 = 1;
-    var int12 = comp(1227, 40);
-    var int13 = comp(1227, 41);
+    var int12 = comp(1227, 40);  // bp3_track_tab:reward_track_tile_layer
+    var int13 = comp(1227, 41);  // bp3_track_tab:reward_track_level_layer
     var int14 = dbrow_getfield(int2, 991264, 0);
     var int15 = 0;
     var int16 = 1;
@@ -34,16 +34,16 @@ function script18013(int0: number, int1: number, int2: number, int3: number, int
         int8 = (int8 + 1);
     };
     if ((int10 < int9)) {
-        IF_SETONTIMER(callback(script18012, int0, (int10 + 1), int2, int3, int4, int5, int6, int7), comp(1227, 33));
+        IF_SETONTIMER(callback(script18012, int0, (int10 + 1), int2, int3, int4, int5, int6, int7), comp(1227, 33));  // bp3_track_tab:reward_track_section
         return;
     };
     [int6, int7, int4, int5, int3] = script18015(int6, int7, int4, int5, int3);
     var int20 = 0;
     int3 = (int3 + script18011());
-    int3 = (int3 + (IF_GETWIDTH(comp(1227, 39)) + 2));
+    int3 = (int3 + (IF_GETWIDTH(comp(1227, 39)) + 2));  // bp3_track_tab:reward_preview_button
     IF_SETSIZE(int3, IF_GETHEIGHT(int13), 0, 0, int13);
     IF_SETSIZE(int3, IF_GETHEIGHT(int12), 0, 0, int12);
-    var int21 = comp(1227, 36);
+    var int21 = comp(1227, 36);  // bp3_track_tab:reward_track_scroll_section
     var int22 = int3;
     script17927();
     if ((varclient_7302 <= 0)) {

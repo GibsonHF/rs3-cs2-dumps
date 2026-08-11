@@ -33,7 +33,7 @@ function script7533(int0: number, int1: number, int2: number, int3: number, int4
         CC_SETPOSITION(((int6 + 10) + 36), int7, 0, 0);
         CC_SETTEXTFONT(26 as fontmetrics);
         CC_SETTEXTALIGN(1, 1, 0);
-        CC_SETCOLOUR(IF_GETCOLOUR(comp(1394, 12)));
+        CC_SETCOLOUR(IF_GETCOLOUR(comp(1394, 12)));  // slayer_contracts_menu:confirm_text
         CC_SETTEXTSHADOW(true);
         [int16, int17] = [struct_getparam(int5, 3248), struct_getparam(int5, 3249)];
         [int18, int19] = [enum_getvalue(0, 0, 7321 as cs2enum, int16), enum_getvalue(0, 0, 7322 as cs2enum, int16)];

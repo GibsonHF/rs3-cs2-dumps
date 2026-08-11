@@ -1,19 +1,19 @@
 //
 function script3597(int0: number, int1: number, int2: number): void {
     if ((int0 != -1 as obj)) {
-        IF_SETOBJECT_NONUM(int0, 1, comp(632, 32));
+        IF_SETOBJECT_NONUM(int0, 1, comp(632, 32));  // farming_requests:easy_animal_icon
     } else {
-        IF_SETHIDE(true, comp(632, 32));
+        IF_SETHIDE(true, comp(632, 32));  // farming_requests:easy_animal_icon
     };
     if ((int1 != -1 as obj)) {
-        IF_SETOBJECT_NONUM(int1, 1, comp(632, 56));
+        IF_SETOBJECT_NONUM(int1, 1, comp(632, 56));  // farming_requests:med_animal_icon
     } else {
-        IF_SETHIDE(true, comp(632, 56));
+        IF_SETHIDE(true, comp(632, 56));  // farming_requests:med_animal_icon
     };
     if ((int2 != -1 as obj)) {
-        IF_SETOBJECT_NONUM(int2, 1, comp(632, 80));
+        IF_SETOBJECT_NONUM(int2, 1, comp(632, 80));  // farming_requests:hard_animal_icon
     } else {
-        IF_SETHIDE(true, comp(632, 80));
+        IF_SETHIDE(true, comp(632, 80));  // farming_requests:hard_animal_icon
     };
     var int3 = 0;
     var int4 = -1;
@@ -25,20 +25,20 @@ function script3597(int0: number, int1: number, int2: number): void {
         switch (int3) {
             case 0: {
                 int4 = 2360;
-                int5 = comp(632, 12);
-                int6 = comp(632, 10);
+                int5 = comp(632, 12);  // farming_requests:easy_request_state
+                int6 = comp(632, 10);  // farming_requests:easy_complete_status
                 break;
             }
             case 1: {
                 int4 = 2361;
-                int5 = comp(632, 39);
-                int6 = comp(632, 36);
+                int5 = comp(632, 39);  // farming_requests:med_request_state
+                int6 = comp(632, 36);  // farming_requests:med_complete_status
                 break;
             }
             case 2: {
                 int4 = 2362;
-                int5 = comp(632, 63);
-                int6 = comp(632, 60);
+                int5 = comp(632, 63);  // farming_requests:hard_request_state
+                int6 = comp(632, 60);  // farming_requests:hard_complete_status
                 break;
             }
         };

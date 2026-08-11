@@ -1,12 +1,12 @@
 //
 function script7381(): void {
-    IF_SETHIDE(true, comp(754, 32));
-    IF_SETHIDE(true, comp(754, 84));
-    IF_SETHIDE(false, comp(754, 238));
-    IF_SETHIDE(true, comp(754, 8));
-    IF_SETHIDE(true, comp(754, 17));
-    IF_SETHIDE(false, comp(754, 26));
-    IF_SETHIDE(false, comp(754, 31));
+    IF_SETHIDE(true, comp(754, 32));  // bslay_shop:items
+    IF_SETHIDE(true, comp(754, 84));  // bslay_shop:effects
+    IF_SETHIDE(false, comp(754, 238));  // bslay_shop:rewards
+    IF_SETHIDE(true, comp(754, 8));  // bslay_shop:items_tab_selected_layer
+    IF_SETHIDE(true, comp(754, 17));  // bslay_shop:effects_tab_selected_layer
+    IF_SETHIDE(false, comp(754, 26));  // bslay_shop:rewards_tab_selected_layer
+    IF_SETHIDE(false, comp(754, 31));  // bslay_shop:scrollbar
     script7791(49414175, 49414382);
     if ((script10165() == 1)) {
         script7382(49414388);

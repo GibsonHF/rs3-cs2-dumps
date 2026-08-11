@@ -1,11 +1,11 @@
 //
 function script7220(int0: number, int1: number, int2: number): void {
-    var int3 = comp(186, 9);
-    var int4 = comp(186, 10);
-    var int5 = comp(186, 13);
-    var int6 = comp(186, 17);
-    var int7 = comp(186, 16);
-    var int8 = comp(186, 18);
+    var int3 = comp(186, 9);  // dino_totem:totem_model
+    var int4 = comp(186, 10);  // dino_totem:totem_piece_1
+    var int5 = comp(186, 13);  // dino_totem:totem_piece_tick_1
+    var int6 = comp(186, 17);  // dino_totem:totem_name
+    var int7 = comp(186, 16);  // dino_totem:totem_desc
+    var int8 = comp(186, 18);  // dino_totem:totem_state
     var string0 = OC_NAME(int0);
     var string1 = "";
     var int9 = item_getparam(int0, 2655);
@@ -40,20 +40,20 @@ function script7220(int0: number, int1: number, int2: number): void {
         switch (int10) {
             case 0: {
                 int9 = item_getparam(int0, 2655);
-                int4 = comp(186, 10);
-                int5 = comp(186, 13);
+                int4 = comp(186, 10);  // dino_totem:totem_piece_1
+                int5 = comp(186, 13);  // dino_totem:totem_piece_tick_1
                 break;
             }
             case 1: {
                 int9 = item_getparam(int0, 2656);
-                int4 = comp(186, 11);
-                int5 = comp(186, 14);
+                int4 = comp(186, 11);  // dino_totem:totem_piece_2
+                int5 = comp(186, 14);  // dino_totem:totem_piece_tick_2
                 break;
             }
             case 2: {
                 int9 = item_getparam(int0, 2657);
-                int4 = comp(186, 12);
-                int5 = comp(186, 15);
+                int4 = comp(186, 12);  // dino_totem:totem_piece_3
+                int5 = comp(186, 15);  // dino_totem:totem_piece_tick_3
                 break;
             }
         };

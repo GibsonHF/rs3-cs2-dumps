@@ -115,8 +115,8 @@ function script354(int0: number): void {
         return;
     };
     var string0 = enum_getvalue(33, 36, 10339 as cs2enum, int1);
-    IF_SETTEXT(`Are you sure you want to create ${string0} for ${TOSTRING_LOCALISED(int2, 1)} starlight ore?`, comp(1675, 263));
-    IF_SETHIDE(false, comp(1675, 2));
-    IF_SETHIDE(false, comp(1675, 45));
+    IF_SETTEXT(`Are you sure you want to create ${string0} for ${TOSTRING_LOCALISED(int2, 1)} starlight ore?`, comp(1675, 263));  // trh69_starfury:confirm_purchase_text
+    IF_SETHIDE(false, comp(1675, 2));  // trh69_starfury:darkness
+    IF_SETHIDE(false, comp(1675, 45));  // trh69_starfury:confirm_purchase
     return;
 }

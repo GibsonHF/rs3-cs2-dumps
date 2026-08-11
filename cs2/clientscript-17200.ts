@@ -3,7 +3,7 @@ function script17200(int0: number, int1: number): void {
     if ((script16199(74579968) == 1)) {
         return;
     };
-    if ((IF_GETHIDE(comp(1138, 51)) == false)) {
+    if ((IF_GETHIDE(comp(1138, 51)) == false)) {  // trh191:reward_claim_layer
         script17198();
         return;
     };
@@ -16,6 +16,6 @@ function script17200(int0: number, int1: number): void {
             int1 = 5;
         };
     };
-    IF_TRIGGEROP(comp(1253, 556), int0, int1);
+    IF_TRIGGEROP(comp(1253, 556), int0, int1);  // wheel_of_fortune:fake_op
     return;
 }

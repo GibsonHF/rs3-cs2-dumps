@@ -1,7 +1,7 @@
 //
 function script4607(): void {
     var int0 = script4606();
-    var int1 = comp(1802, 62);
+    var int1 = comp(1802, 62);  // timed_event:event16_progress_value_graphic_layer
     var int2 = 0;
     var int3 = 0;
     var int4 = 0;

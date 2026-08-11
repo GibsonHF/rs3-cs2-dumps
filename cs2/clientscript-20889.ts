@@ -11,7 +11,7 @@ function script20889(int0: number, int1: number): void {
         case 6:
         case 7:
         case 8: {
-            IF_SETHIDE(false, comp(105, 240));
+            IF_SETHIDE(false, comp(105, 240));  // stockmarket:offercount_plus ?
             return;
         }
     };

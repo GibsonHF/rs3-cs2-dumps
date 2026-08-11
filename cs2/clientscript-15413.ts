@@ -18,19 +18,19 @@ function script15413(): void {
         if ((int2 != -1)) {
             if ((int3 > 0)) {
                 if ((int3 <= int5)) {
-                    IF_SETGRAPHIC(int2, comp(760, 16));
+                    IF_SETGRAPHIC(int2, comp(760, 16));  // trh193_overlay:bonus_display_graphic_1_min
                 };
                 if ((int3 >= int6)) {
-                    IF_SETGRAPHIC(int2, comp(760, 18));
+                    IF_SETGRAPHIC(int2, comp(760, 18));  // trh193_overlay:bonus_display_graphic_1_max
                     script15415(49807382, int3, -1);
                 };
             };
             if ((int4 > 0)) {
                 if ((int4 <= int7)) {
-                    IF_SETGRAPHIC(int2, comp(760, 24));
+                    IF_SETGRAPHIC(int2, comp(760, 24));  // trh193_overlay:bonus_display_graphic_2_min
                 };
                 if ((int4 > int8)) {
-                    IF_SETGRAPHIC(int2, comp(760, 26));
+                    IF_SETGRAPHIC(int2, comp(760, 26));  // trh193_overlay:bonus_display_graphic_2_max
                     script15415(49807383, int4, -1);
                 };
             };

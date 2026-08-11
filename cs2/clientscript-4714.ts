@@ -25,8 +25,8 @@ function script4714(int0: number): void {
         return;
     };
     var string0 = enum_getvalue(9, 36, 12108 as cs2enum, int0);
-    IF_SETTEXT(`Are you sure you want to unlock ${string0} for ${TOSTRING_LOCALISED(int1, 1)} reputation?`, comp(1824, 40));
-    IF_SETHIDE(false, comp(1824, 1));
-    IF_SETHIDE(false, comp(1824, 21));
+    IF_SETTEXT(`Are you sure you want to unlock ${string0} for ${TOSTRING_LOCALISED(int1, 1)} reputation?`, comp(1824, 40));  // trh116_valentines_shop:confirm_purchase_text
+    IF_SETHIDE(false, comp(1824, 1));  // trh116_valentines_shop:darkness
+    IF_SETHIDE(false, comp(1824, 21));  // trh116_valentines_shop:confirm_purchase
     return;
 }

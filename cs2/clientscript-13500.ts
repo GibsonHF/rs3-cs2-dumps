@@ -5,19 +5,19 @@ function script13500(): void {
     while ((int1 < 5)) {
         switch (int1) {
             case 1: {
-                int0 = comp(1876, 37);
+                int0 = comp(1876, 37);  // repoverlay:reputation_favourite_worker
                 break;
             }
             case 2: {
-                int0 = comp(1876, 31);
+                int0 = comp(1876, 31);  // repoverlay:reputation_favourite_imperial
                 break;
             }
             case 3: {
-                int0 = comp(1876, 26);
+                int0 = comp(1876, 26);  // repoverlay:reputation_favourite_merchants
                 break;
             }
             case 4: {
-                int0 = comp(1876, 19);
+                int0 = comp(1876, 19);  // repoverlay:reputation_favourite_port
                 break;
             }
             default: {

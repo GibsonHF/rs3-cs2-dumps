@@ -5,11 +5,11 @@ function script20033(): void {
     if ((int0 >= 400)) {
         string0 = `<col=FF00>${TOSTRING_LOCALISED(int0, 1)}</col>`;
     };
-    IF_SETGRAPHIC(17090 as graphic, comp(1253, 313));
-    IF_SETPOSITION(0, 15, 1, 2, comp(1253, 314));
-    IF_SETTEXT(`${inttostring(25, 10)}x ${OC_NAME(59267 as obj)}<br><br><br>Total: ${string0}`, comp(1253, 314));
-    IF_SETPOSITION(0, 25, 1, 0, comp(1253, 313));
-    IF_SETSIZE(68, 68, 0, 0, comp(1253, 313));
-    IF_SETHIDE(true, comp(1253, 312));
+    IF_SETGRAPHIC(17090 as graphic, comp(1253, 313));  // wheel_of_fortune:reward_layer_additional_prize_object
+    IF_SETPOSITION(0, 15, 1, 2, comp(1253, 314));  // wheel_of_fortune:reward_layer_additional_prize_text
+    IF_SETTEXT(`${inttostring(25, 10)}x ${OC_NAME(59267 as obj)}<br><br><br>Total: ${string0}`, comp(1253, 314));  // wheel_of_fortune:reward_layer_additional_prize_text
+    IF_SETPOSITION(0, 25, 1, 0, comp(1253, 313));  // wheel_of_fortune:reward_layer_additional_prize_object
+    IF_SETSIZE(68, 68, 0, 0, comp(1253, 313));  // wheel_of_fortune:reward_layer_additional_prize_object
+    IF_SETHIDE(true, comp(1253, 312));  // wheel_of_fortune:reward_layer_additional_prize_rarity_gem
     return;
 }

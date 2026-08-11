@@ -11,19 +11,19 @@ function script1942(): void {
             varclient_560 = 0;
         };
     };
-    IF_SETTRANS(varclient_559, comp(809, 6));
+    IF_SETTRANS(varclient_559, comp(809, 6));  // sc_in_game_overlay:panic_highlight_rect
     if ((varclient_561 < 4)) {
-        if ((IF_GETHIDE(comp(809, 7)) == true)) {
+        if ((IF_GETHIDE(comp(809, 7)) == true)) {  // sc_in_game_overlay:panic_text
             varclient_562 = MIN(20, (varclient_562 + 1));
             if ((varclient_562 == 20)) {
                 varclient_562 = 0;
-                IF_SETHIDE(false, comp(809, 7));
+                IF_SETHIDE(false, comp(809, 7));  // sc_in_game_overlay:panic_text
             };
         } else {
             varclient_562 = MIN(35, (varclient_562 + 1));
             if ((varclient_562 == 35)) {
                 varclient_562 = 0;
-                IF_SETHIDE(true, comp(809, 7));
+                IF_SETHIDE(true, comp(809, 7));  // sc_in_game_overlay:panic_text
                 varclient_561 = MIN(4, (varclient_561 + 1));
             };
         };

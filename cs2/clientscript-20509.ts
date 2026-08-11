@@ -6,7 +6,7 @@ function script20509(int0: number): void {
     var string1 = "";
     var int3 = 0;
     var int4 = 0;
-    if ((IF_FIND(comp(1475, 42)) == 1)) {
+    if ((IF_FIND(comp(1475, 42)) == 1)) {  // toplevel_v2_edit_mode:dropdown_save_slot
         unk11058();
         while ((int1 < int2)) {
             int3 = enum_getvalue(0, 0, 10781, int1);

@@ -1,9 +1,9 @@
 //
 function script5283(): void {
-    if ((IF_GETX(comp(555, 14)) < 455)) {
+    if ((IF_GETX(comp(555, 14)) < 455)) {  // mah5_collarpuzzle:collar_bobside
         SOUND_VORBIS_RATE(RANDOM_SOUND_PITCH(7557 as vorbis, 1, 0, 200, 20, 20));
-        IF_SETPOSITION((IF_GETX(comp(555, 14)) + 10), IF_GETY(comp(555, 14)), 0, 0, comp(555, 14));
-        IF_SETPOSITION((IF_GETX(comp(555, 15)) + 10), IF_GETY(comp(555, 15)), 0, 0, comp(555, 15));
+        IF_SETPOSITION((IF_GETX(comp(555, 14)) + 10), IF_GETY(comp(555, 14)), 0, 0, comp(555, 14));  // mah5_collarpuzzle:collar_bobside
+        IF_SETPOSITION((IF_GETX(comp(555, 15)) + 10), IF_GETY(comp(555, 15)), 0, 0, comp(555, 15));  // mah5_collarpuzzle:collar_diraksside
     };
     return;
 }

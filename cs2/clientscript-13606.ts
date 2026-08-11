@@ -1,6 +1,6 @@
 //
 function script13606(int0: number, int1: number, int2: number): void {
-    CC_DELETEALL(comp(1896, 3));
+    CC_DELETEALL(comp(1896, 3));  // cheevo_player_inspect_full:scroll_bar_layer
     var int3 = 0;
     var int4 = ENUM_GETOUTPUTCOUNT(13036 as cs2enum);
     var int5 = 0;

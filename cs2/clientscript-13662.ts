@@ -11,7 +11,7 @@ function script13662(): void {
     stack(int0);
     script21030();
     var int1 = [];
-    if ((IF_FIND(comp(1902, 37)) == 1)) {
+    if ((IF_FIND(comp(1902, 37)) == 1)) {  // invent_machine_management:machine_capacity
         string0 = `Capacity: ${TOSTRING_LOCALISED(varplayer_7270, 1)}`;
         if ((int1 != -1)) {
             string0 = `${string0}/${TOSTRING_LOCALISED(int1, 1)}`;

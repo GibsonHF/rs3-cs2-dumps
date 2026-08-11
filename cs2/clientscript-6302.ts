@@ -11,55 +11,55 @@ function script6302(int0: number, int1: number, int2: number, int3: number, int4
     var int11 = script1601(int0, int8);
     switch (int2) {
         case 95682562: {
-            [int9, int10, int11] = [comp(1460, 1), 95682564, 95682563];
+            [int9, int10, int11] = [comp(1460, 1), 95682564, 95682563];  // toplevel_v2_window_ability_book_melee:abilities_layer
             break;
         }
         case 95158274: {
-            [int9, int10, int11] = [comp(1452, 1), 95158282, 95158281];
+            [int9, int10, int11] = [comp(1452, 1), 95158282, 95158281];  // toplevel_v2_window_ability_book_ranged:abilities_layer
             break;
         }
         case 95748098: {
-            [int9, int10, int11] = [comp(1461, 1), 95748106, 95748105];
+            [int9, int10, int11] = [comp(1461, 1), 95748106, 95748105];  // toplevel_v2_window_ability_book_magic:abilities_layer
             break;
         }
         case 123469826: {
-            [int9, int10, int11] = [comp(1884, 1), 123469834, 123469833];
+            [int9, int10, int11] = [comp(1884, 1), 123469834, 123469833];  // toplevel_v2_window_ability_book_magic_ability:abilities_layer
             break;
         }
         case 123535362: {
-            [int9, int10, int11] = [comp(1885, 1), 123535370, 123535369];
+            [int9, int10, int11] = [comp(1885, 1), 123535370, 123535369];  // toplevel_v2_window_ability_book_magic_combat:abilities_layer
             break;
         }
         case 123666434: {
-            [int9, int10, int11] = [comp(1887, 1), 123666442, 123666441];
+            [int9, int10, int11] = [comp(1887, 1), 123666442, 123666441];  // toplevel_v2_window_ability_book_magic_teleport:abilities_layer
             break;
         }
         case 123600898: {
-            [int9, int10, int11] = [comp(1886, 1), 123600906, 123600905];
+            [int9, int10, int11] = [comp(1886, 1), 123600906, 123600905];  // toplevel_v2_window_ability_book_magic_skilling:abilities_layer
             break;
         }
         case 79888386: {
-            [int9, int10, int11] = [comp(1219, 1), 79888394, 79888393];
+            [int9, int10, int11] = [comp(1219, 1), 79888394, 79888393];  // toplevel_v2_window_ability_book_necromancy:abilities_layer
             break;
         }
         case 79953922: {
-            [int9, int10, int11] = [comp(1220, 1), 79953930, 79953929];
+            [int9, int10, int11] = [comp(1220, 1), 79953930, 79953929];  // toplevel_v2_window_ability_book_necromancy_abilities:abilities_layer
             break;
         }
         case 80019458: {
-            [int9, int10, int11] = [comp(1221, 1), 80019466, 80019465];
+            [int9, int10, int11] = [comp(1221, 1), 80019466, 80019465];  // toplevel_v2_window_ability_book_necromancy_spells:abilities_layer
             break;
         }
         case 123404290: {
-            [int9, int10, int11] = [comp(1883, 1), 123404298, 123404297];
+            [int9, int10, int11] = [comp(1883, 1), 123404298, 123404297];  // toplevel_v2_window_ability_book_defcon:abilities_layer
             break;
         }
         case 94961666: {
-            [int9, int10, int11] = [comp(1449, 1), 94961674, 94961673];
+            [int9, int10, int11] = [comp(1449, 1), 94961674, 94961673];  // toplevel_v2_window_ability_book_defence:abilities_layer
             break;
         }
         case 123338754: {
-            [int9, int10, int11] = [comp(1882, 1), 123338762, 123338761];
+            [int9, int10, int11] = [comp(1882, 1), 123338762, 123338761];  // toplevel_v2_window_ability_book_constitution:abilities_layer
             break;
         }
     };

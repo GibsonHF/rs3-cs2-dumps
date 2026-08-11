@@ -19,37 +19,37 @@ function script9424(int0: number): void {
         return;
     };
     if ((int0 >= 2)) {
-        IF_SETHIDE(true, comp(711, 144));
+        IF_SETHIDE(true, comp(711, 144));  // 6awe2_rewards:tier2_locked
     };
     if ((int0 >= 3)) {
-        IF_SETHIDE(true, comp(711, 149));
+        IF_SETHIDE(true, comp(711, 149));  // 6awe2_rewards:tier3_locked
     };
-    IF_SETGRAPHIC(18090 as graphic, comp(711, 136));
-    IF_SETGRAPHIC(18091 as graphic, comp(711, 137));
-    IF_SETGRAPHIC(18092 as graphic, comp(711, 138));
-    IF_SETGRAPHIC(18090 as graphic, comp(711, 140));
-    IF_SETGRAPHIC(18091 as graphic, comp(711, 141));
-    IF_SETGRAPHIC(18092 as graphic, comp(711, 142));
-    IF_SETGRAPHIC(18090 as graphic, comp(711, 145));
-    IF_SETGRAPHIC(18091 as graphic, comp(711, 146));
-    IF_SETGRAPHIC(18092 as graphic, comp(711, 147));
+    IF_SETGRAPHIC(18090 as graphic, comp(711, 136));  // 6awe2_rewards:counter_1_tab_graphic_left
+    IF_SETGRAPHIC(18091 as graphic, comp(711, 137));  // 6awe2_rewards:counter_1_tab_graphic_mid
+    IF_SETGRAPHIC(18092 as graphic, comp(711, 138));  // 6awe2_rewards:counter_1_tab_graphic_right
+    IF_SETGRAPHIC(18090 as graphic, comp(711, 140));  // 6awe2_rewards:counter_2_tab_graphic_left
+    IF_SETGRAPHIC(18091 as graphic, comp(711, 141));  // 6awe2_rewards:counter_2_tab_graphic_mid
+    IF_SETGRAPHIC(18092 as graphic, comp(711, 142));  // 6awe2_rewards:counter_2_tab_graphic_right
+    IF_SETGRAPHIC(18090 as graphic, comp(711, 145));  // 6awe2_rewards:counter_3_tab_graphic_left
+    IF_SETGRAPHIC(18091 as graphic, comp(711, 146));  // 6awe2_rewards:counter_3_tab_graphic_mid
+    IF_SETGRAPHIC(18092 as graphic, comp(711, 147));  // 6awe2_rewards:counter_3_tab_graphic_right
     switch (int0) {
         case 1: {
-            IF_SETGRAPHIC(18087 as graphic, comp(711, 136));
-            IF_SETGRAPHIC(18088 as graphic, comp(711, 137));
-            IF_SETGRAPHIC(18089 as graphic, comp(711, 138));
+            IF_SETGRAPHIC(18087 as graphic, comp(711, 136));  // 6awe2_rewards:counter_1_tab_graphic_left
+            IF_SETGRAPHIC(18088 as graphic, comp(711, 137));  // 6awe2_rewards:counter_1_tab_graphic_mid
+            IF_SETGRAPHIC(18089 as graphic, comp(711, 138));  // 6awe2_rewards:counter_1_tab_graphic_right
             break;
         }
         case 2: {
-            IF_SETGRAPHIC(18087 as graphic, comp(711, 140));
-            IF_SETGRAPHIC(18088 as graphic, comp(711, 141));
-            IF_SETGRAPHIC(18089 as graphic, comp(711, 142));
+            IF_SETGRAPHIC(18087 as graphic, comp(711, 140));  // 6awe2_rewards:counter_2_tab_graphic_left
+            IF_SETGRAPHIC(18088 as graphic, comp(711, 141));  // 6awe2_rewards:counter_2_tab_graphic_mid
+            IF_SETGRAPHIC(18089 as graphic, comp(711, 142));  // 6awe2_rewards:counter_2_tab_graphic_right
             break;
         }
         case 3: {
-            IF_SETGRAPHIC(18087 as graphic, comp(711, 145));
-            IF_SETGRAPHIC(18088 as graphic, comp(711, 146));
-            IF_SETGRAPHIC(18089 as graphic, comp(711, 147));
+            IF_SETGRAPHIC(18087 as graphic, comp(711, 145));  // 6awe2_rewards:counter_3_tab_graphic_left
+            IF_SETGRAPHIC(18088 as graphic, comp(711, 146));  // 6awe2_rewards:counter_3_tab_graphic_mid
+            IF_SETGRAPHIC(18089 as graphic, comp(711, 147));  // 6awe2_rewards:counter_3_tab_graphic_right
             break;
         }
     };

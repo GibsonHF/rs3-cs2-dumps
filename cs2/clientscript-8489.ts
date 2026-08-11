@@ -20,7 +20,7 @@ function script8489(int0: number, int1: number, int2: number, int3: number, int4
     var int16 = 0;
     var int17 = 0;
     if ((script6431() == 1)) {
-        if ((int2 == comp(1557, 1))) {
+        if ((int2 == comp(1557, 1))) {  // stats_inspect:list
             int16 = 5;
             int15 = (int15 + 5);
         } else {

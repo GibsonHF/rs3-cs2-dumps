@@ -34,7 +34,7 @@ function script20031(int0: number, int1: number): void {
     [int11, int12, int13] = dbrow_getfield(int1, 1310784, 0);
     [int9, int10] = dbrow_getfield(int1, 1310768, 0);
     if (((((int5 > 1) || (int6 > 0)) || (int7 > 1)) || (int8 > 0))) {
-        IF_SETHIDE(false, comp(1340, 110));
+        IF_SETHIDE(false, comp(1340, 110));  // trh210_overlay:bonus_option_2_empty_gem
         IF_SETTEXT("Bonus", int2);
         if ((int5 > 1)) {
             IF_SETTEXT("Minimum Multipliers", int2);
@@ -53,7 +53,7 @@ function script20031(int0: number, int1: number): void {
     } else if (((int9 != -1) && (int10 > 0))) {
         IF_SETTEXT("Loot", int2);
         if ((int0 == 2)) {
-            IF_SETHIDE(true, comp(1340, 110));
+            IF_SETHIDE(true, comp(1340, 110));  // trh210_overlay:bonus_option_2_empty_gem
         };
         if ((int10 > 1)) {
             string0 = `${inttostring(int10, 10)} x ${OC_NAME(int9)}`;

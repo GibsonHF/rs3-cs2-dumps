@@ -2,7 +2,7 @@
 function script20189(): void {
     var int0 = 0;
     var int1 = 4;
-    var int2 = (IF_GETWIDTH(comp(1396, 11)) - 24);
+    var int2 = (IF_GETWIDTH(comp(1396, 11)) - 24);  // league_lobby_splash:contents_normal
     [int0, int1] = script19613(0, int0, int1, int2, "RuneScape");
     CC_SETTEXTALIGN(1, 1, 0);
     [int0, int1] = script19617(0, int0, int1, int2, 0, "Permanent progression.");

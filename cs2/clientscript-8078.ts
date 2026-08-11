@@ -1,9 +1,9 @@
 //
 function script8078(int0: number, int1: number, int2: number): void {
-    var int3 = IF_GETWIDTH(comp(1477, 31));
-    var int4 = IF_GETHEIGHT(comp(1477, 31));
-    var int5 = IF_GETWIDTH(comp(1477, 31));
-    var int6 = IF_GETHEIGHT(comp(1477, 31));
+    var int3 = IF_GETWIDTH(comp(1477, 31));  // toplevel_v2:render_layer
+    var int4 = IF_GETHEIGHT(comp(1477, 31));  // toplevel_v2:render_layer
+    var int5 = IF_GETWIDTH(comp(1477, 31));  // toplevel_v2:render_layer
+    var int6 = IF_GETHEIGHT(comp(1477, 31));  // toplevel_v2:render_layer
     var int7 = int3;
     var int8 = int4;
     if (((IF_GET_GAMESCREEN() != comp(-1, 65535)) || (script6354(IF_GET_GAMESCREEN()) == 1))) {
@@ -16,7 +16,7 @@ function script8078(int0: number, int1: number, int2: number): void {
             script8080(5, int5, int6);
             script8080(2, int5, int6);
             script6247(int5, int6);
-            IF_SETONTIMER(callback(script8078, IF_GETWIDTH(comp(1477, 45)), IF_GETHEIGHT(comp(1477, 45)), 96796717), comp(1477, 45));
+            IF_SETONTIMER(callback(script8078, IF_GETWIDTH(comp(1477, 45)), IF_GETHEIGHT(comp(1477, 45)), 96796717), comp(1477, 45));  // toplevel_v2:world_fade_overlay
         };
     };
     return;

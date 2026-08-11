@@ -19,14 +19,14 @@ function script7489(int0: number): void {
     };
     if ((ENUM_GETOUTPUTCOUNT(enum_getvalue(0, 26, 5959 as cs2enum, int0)) > 7)) {
         if ((int0 != 2)) {
-            IF_SETHIDE(false, comp(1311, 340));
-            IF_SETSCROLLSIZE(0, MAX(int2, IF_GETHEIGHT(comp(1311, 146))), comp(1311, 146));
+            IF_SETHIDE(false, comp(1311, 340));  // mtxmgt:header_scrollbar
+            IF_SETSCROLLSIZE(0, MAX(int2, IF_GETHEIGHT(comp(1311, 146))), comp(1311, 146));  // mtxmgt:list_headers
             script31(85918036, 85917842, -1, -1, -1, -1, -1, -1);
         } else {
-            IF_SETHIDE(true, comp(1311, 340));
+            IF_SETHIDE(true, comp(1311, 340));  // mtxmgt:header_scrollbar
         };
     } else {
-        IF_SETHIDE(true, comp(1311, 340));
+        IF_SETHIDE(true, comp(1311, 340));  // mtxmgt:header_scrollbar
     };
     script6481(varclient_1964, varclient_1965);
     return;

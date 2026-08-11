@@ -1,13 +1,13 @@
 //
 function script20268(int0: number): void {
-    CC_DELETEALL(comp(1443, 34));
+    CC_DELETEALL(comp(1443, 34));  // league_parent_relics:overview_unlock
     var int1 = 0;
     var int2 = DB_GETFIELDCOUNT(int0, 1339392);
     var int3 = -1;
     var int4 = 0;
     var int5 = 0;
     var int6 = 0;
-    var int7 = IF_GETWIDTH(comp(1443, 34));
+    var int7 = IF_GETWIDTH(comp(1443, 34));  // league_parent_relics:overview_unlock
     var int8 = 0;
     var int9 = 0;
     var string0 = "";
@@ -22,7 +22,7 @@ function script20268(int0: number): void {
         unk11016("Invalid current tier or no tier unlocked");
         return;
     };
-    if ((IF_FIND(comp(1443, 34)) == 1)) {
+    if ((IF_FIND(comp(1443, 34)) == 1)) {  // league_parent_relics:overview_unlock
         while ((int1 < int2)) {
             int3 = dbrow_getfield(int0, 1339392, int1);
             int4 = DB_GETFIELDCOUNT(int3, 1343504);
@@ -93,8 +93,8 @@ function script20268(int0: number): void {
                 [int5, int6] = script19615(0, int5, int6, int7, "N/A");
             };
             if ((int1 == varbitplayer_58407)) {
-                IF_SETPOSITION(0, int12, 1, 0, comp(1443, 33));
-                IF_SETSIZE(0, (int6 - int12), 1, 0, comp(1443, 33));
+                IF_SETPOSITION(0, int12, 1, 0, comp(1443, 33));  // league_parent_relics:wrapper_back
+                IF_SETSIZE(0, (int6 - int12), 1, 0, comp(1443, 33));  // league_parent_relics:wrapper_back
             };
             int1 = (int1 + 1);
         };

@@ -1,6 +1,6 @@
 //
 function script11113(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number, int8: number, int9: number, int10: number, int11: number, int12: number): void {
-    if ((IF_FIND(comp(1598, 35)) == 1)) {
+    if ((IF_FIND(comp(1598, 35)) == 1)) {  // easter15_combine_overlay:egg_content_layer
         cc_setparam(4894, int12);
     };
     script11114(1, int0, int6, int12, 104726538, 104726540, 104726539);
@@ -13,32 +13,32 @@ function script11113(int0: number, int1: number, int2: number, int3: number, int
     switch (int12) {
         case 1:
         case 2: {
-            IF_SETTEXT("Calibrating", comp(1598, 4));
-            IF_SETHIDE(true, comp(1598, 39));
-            IF_SETHIDE(true, comp(1598, 37));
+            IF_SETTEXT("Calibrating", comp(1598, 4));  // easter15_combine_overlay:state_title
+            IF_SETHIDE(true, comp(1598, 39));  // easter15_combine_overlay:notebook_button_layer
+            IF_SETHIDE(true, comp(1598, 37));  // easter15_combine_overlay:notebook_label
             break;
         }
         case 3: {
-            IF_SETTEXT("Machine is empty", comp(1598, 4));
-            IF_SETHIDE(false, comp(1598, 39));
-            IF_SETHIDE(false, comp(1598, 37));
-            IF_SETHIDE(false, comp(1598, 58));
+            IF_SETTEXT("Machine is empty", comp(1598, 4));  // easter15_combine_overlay:state_title
+            IF_SETHIDE(false, comp(1598, 39));  // easter15_combine_overlay:notebook_button_layer
+            IF_SETHIDE(false, comp(1598, 37));  // easter15_combine_overlay:notebook_label
+            IF_SETHIDE(false, comp(1598, 58));  // easter15_combine_overlay:empty_button_disabled_layer
             break;
         }
         case 4: {
-            IF_SETTEXT("Current attributes", comp(1598, 4));
-            IF_SETHIDE(false, comp(1598, 39));
-            IF_SETHIDE(false, comp(1598, 37));
-            IF_SETHIDE(true, comp(1598, 58));
+            IF_SETTEXT("Current attributes", comp(1598, 4));  // easter15_combine_overlay:state_title
+            IF_SETHIDE(false, comp(1598, 39));  // easter15_combine_overlay:notebook_button_layer
+            IF_SETHIDE(false, comp(1598, 37));  // easter15_combine_overlay:notebook_label
+            IF_SETHIDE(true, comp(1598, 58));  // easter15_combine_overlay:empty_button_disabled_layer
             break;
         }
     };
     if (((int12 == 2) || (int12 == 4))) {
-        IF_SETHIDE(true, comp(1598, 58));
-        IF_SETTRANS(0, comp(1598, 60));
+        IF_SETHIDE(true, comp(1598, 58));  // easter15_combine_overlay:empty_button_disabled_layer
+        IF_SETTRANS(0, comp(1598, 60));  // easter15_combine_overlay:empty_button_graphic
     } else {
-        IF_SETHIDE(false, comp(1598, 58));
-        IF_SETTRANS(196, comp(1598, 60));
+        IF_SETHIDE(false, comp(1598, 58));  // easter15_combine_overlay:empty_button_disabled_layer
+        IF_SETTRANS(196, comp(1598, 60));  // easter15_combine_overlay:empty_button_graphic
     };
     return;
 }

@@ -90,12 +90,12 @@ function script11074(): void {
             }
         };
     };
-    IF_SETTEXT(string0, comp(753, 29));
-    int1 = (int1 + script15891(IF_GETTEXT(comp(753, 29)), IF_GETWIDTH(comp(753, 29)), IF_GETFONTMETRICS(comp(753, 29)), 0));
+    IF_SETTEXT(string0, comp(753, 29));  // bslay_boss_info:boss_desc_text
+    int1 = (int1 + script15891(IF_GETTEXT(comp(753, 29)), IF_GETWIDTH(comp(753, 29)), IF_GETFONTMETRICS(comp(753, 29)), 0));  // bslay_boss_info:boss_desc_text
     if ((int2 == 1)) {
         int1 = (int1 + script19863(int3, int5, int1));
     };
-    if ((int1 >= IF_GETHEIGHT(comp(753, 27)))) {
+    if ((int1 >= IF_GETHEIGHT(comp(753, 27)))) {  // bslay_boss_info:boss_desc_wrapper
         IF_SETHIDE(false, int4);
         IF_SETSCROLLSIZE(0, int1, int3);
         IF_SETSCROLLPOS(0, 0, int3);

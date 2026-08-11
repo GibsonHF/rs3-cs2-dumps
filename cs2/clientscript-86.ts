@@ -55,15 +55,15 @@ function script86(int0: number, int1: number, int2: number): void {
                 }
                 case 140:
                 case 143: {
-                    IF_TRIGGEROP(comp(1477, 1), int6, 1);
+                    IF_TRIGGEROP(comp(1477, 1), int6, 1);  // toplevel_v2:chat_open_interface_listener
                     break;
                 }
                 case 141: {
-                    IF_TRIGGEROP(comp(1477, 1), 5, 1);
+                    IF_TRIGGEROP(comp(1477, 1), 5, 1);  // toplevel_v2:chat_open_interface_listener
                     break;
                 }
                 case 146: {
-                    IF_TRIGGEROP(comp(1477, 2), int6, 1);
+                    IF_TRIGGEROP(comp(1477, 2), int6, 1);  // toplevel_v2:chat_worldhop_listener
                     break;
                 }
             };

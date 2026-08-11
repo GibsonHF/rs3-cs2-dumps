@@ -5,17 +5,17 @@ function script11960(int0: number): void {
     switch (int0) {
         case 111738888: {
             int1 = varbitplayer_30103;
-            int2 = comp(1705, 40);
+            int2 = comp(1705, 40);  // tutisland_lev:fish1_type
             break;
         }
         case 111738907: {
             int1 = varbitplayer_30104;
-            int2 = comp(1705, 44);
+            int2 = comp(1705, 44);  // tutisland_lev:fish2_type
             break;
         }
         case 111738908: {
             int1 = varbitplayer_30105;
-            int2 = comp(1705, 47);
+            int2 = comp(1705, 47);  // tutisland_lev:fish3_type
             break;
         }
     };

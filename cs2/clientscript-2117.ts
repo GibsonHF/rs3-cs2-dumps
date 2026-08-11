@@ -1,7 +1,7 @@
 //
 function script2117(int0: number, int1: number): number {
     var int2 = script2120(int0);
-    var int3 = IF_GETNEXTSUBID(comp(267, 76));
+    var int3 = IF_GETNEXTSUBID(comp(267, 76));  // qps:claim_layer_build
     var int4 = -1 as graphic;
     var string0 = "";
     if ((int2 > 0)) {
@@ -32,7 +32,7 @@ function script2117(int0: number, int1: number): number {
                 break;
             }
         };
-        stack(comp(267, 76));
+        stack(comp(267, 76));  // qps:claim_layer_build
         stack(5);
         stack(int3);
         int3 = (int3 + 1);
@@ -42,7 +42,7 @@ function script2117(int0: number, int1: number): number {
         CC_SETGRAPHIC(int4);
         CC_SETONMOUSEREPEAT(callback(script3876, string0, -2147483645, -2147483643));
         if ((int2 > 1)) {
-            CC_CREATE(comp(267, 76), 4, int3);
+            CC_CREATE(comp(267, 76), 4, int3);  // qps:claim_layer_build
             CC_SETSIZE((100 / 2), (100 / 2), 0, 0);
             CC_SETPOSITION((int1 + 10), 0, 0, 1);
             CC_SETTEXTFONT(28 as fontmetrics);

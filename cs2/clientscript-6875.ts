@@ -15,7 +15,7 @@ function script6875(): void {
     var string1 = "";
     var int7 = -1;
     while ((int6 >= 0)) {
-        if ((CC_FIND(comp(1311, 504), ((int6 * 2) + 1)) == 1)) {
+        if ((CC_FIND(comp(1311, 504), ((int6 * 2) + 1)) == 1)) {  // mtxmgt:colours
             int7 = enum_getvalue(0, 0, 2345 as cs2enum, int6);
             string1 = enum_getvalue(0, 36, 2344 as cs2enum, int6);
             if ((varclient_2017 == int7)) {

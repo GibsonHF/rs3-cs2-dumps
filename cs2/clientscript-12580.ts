@@ -15,7 +15,7 @@ function script12580(int0: number, int1: number): void {
         CC_SETPOSITION(((MODULO(int2, int6) * (36 + int5)) + int5), (((int2 / int6) * (32 + int5)) + int5), 0, 0);
         CC_SETONMOUSEREPEAT(callback(script9564, int7, -2147483645, CC_GETID()));
         if ((int7 == varplayer_6370)) {
-            IF_SETPOSITION((CC_GETX() - 2), (CC_GETY() - 2), 0, 0, comp(1771, 0));
+            IF_SETPOSITION((CC_GETX() - 2), (CC_GETY() - 2), 0, 0, comp(1771, 0));  // gwd2_solo_loot:most_recent_highlight
         };
         int2 = (int2 + 1);
         int7 = INV_GETOBJ(797 as inv, int2);

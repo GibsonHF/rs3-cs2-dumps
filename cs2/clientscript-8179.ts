@@ -1,6 +1,6 @@
 //
 function script8179(): void {
-    IF_SETHIDE(true, comp(1477, 805));
+    IF_SETHIDE(true, comp(1477, 805));  // toplevel_v2:escape_menu
     script2254();
     script6739(11);
     script8841(1, 0);

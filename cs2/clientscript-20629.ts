@@ -37,7 +37,7 @@ function script20629(int0: number): void {
     };
     varclient_8376 = int0;
     script20631(0);
-    IF_SETSCROLLPOS(0, 0, comp(1498, 2));
+    IF_SETSCROLLPOS(0, 0, comp(1498, 2));  // marketplace_store:items_holder
     script20630(varclient_8376);
     script20624(varclient_8376);
     return;

@@ -7,11 +7,11 @@ function script4277(): void {
         string1 = strconcat("0", string1);
     };
     if ((varbitplayer_8702 == 0)) {
-        IF_SETTEXT("Match Starts In:", comp(1088, 13));
-        IF_SETTEXT(`${string0}:${string1}`, comp(1088, 14));
+        IF_SETTEXT("Match Starts In:", comp(1088, 13));  // clan_rcw_score:time_label
+        IF_SETTEXT(`${string0}:${string1}`, comp(1088, 14));  // clan_rcw_score:time
     } else {
-        IF_SETTEXT("Time Remaining:", comp(1088, 13));
-        IF_SETTEXT(`${string0}:${string1}`, comp(1088, 14));
+        IF_SETTEXT("Time Remaining:", comp(1088, 13));  // clan_rcw_score:time_label
+        IF_SETTEXT(`${string0}:${string1}`, comp(1088, 14));  // clan_rcw_score:time
     };
     return;
 }

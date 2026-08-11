@@ -1,5 +1,5 @@
 //
 function script1452(int0: number): void {
-    IF_SETONTIMER(callback(script1457, 47382532, (CLIENTCLOCK() + (int0 * 30))), comp(723, 4));
+    IF_SETONTIMER(callback(script1457, 47382532, (CLIENTCLOCK() + (int0 * 30))), comp(723, 4));  // 6awe3_game_hud:time_remaining_text
     return;
 }

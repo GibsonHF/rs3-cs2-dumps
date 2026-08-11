@@ -1,7 +1,7 @@
 //
 function script4486(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number): void {
-    CC_DELETEALL(comp(740, 1));
-    var int7 = IF_GETNEXTSUBID(comp(740, 1));
+    CC_DELETEALL(comp(740, 1));  // igc_main:calendar_layer
+    var int7 = IF_GETNEXTSUBID(comp(740, 1));  // igc_main:calendar_layer
     var int8 = -1;
     var int9 = -1;
     var int10 = -1;
@@ -72,7 +72,7 @@ function script4486(int0: number, int1: number, int2: number, int3: number, int4
             };
             int13 = ((int8 * 84) + (int8 * 4));
             int14 = ((int9 * 58) + (int9 * 4));
-            CC_CREATE(comp(740, 1), 3, int7);
+            CC_CREATE(comp(740, 1), 3, int7);  // igc_main:calendar_layer
             CC_SETSIZE(84, 58, 0, 0);
             CC_SETPOSITION(int13, int14, 0, 0);
             CC_SETFILL(1);
@@ -82,7 +82,7 @@ function script4486(int0: number, int1: number, int2: number, int3: number, int4
             cc_setparam(7188, int5);
             cc_setparam(7192, 1);
             int7 = (int7 + 1);
-            CC_CREATE(comp(740, 1), 4, int7);
+            CC_CREATE(comp(740, 1), 4, int7);  // igc_main:calendar_layer
             CC_SETSIZE(84, 58, 0, 0);
             CC_SETPOSITION((int13 + 2), (int14 + 2), 0, 0);
             CC_SETTEXTFONT(26 as fontmetrics);
@@ -95,7 +95,7 @@ function script4486(int0: number, int1: number, int2: number, int3: number, int4
             CC_SETTEXTSHADOW(true);
             CC_SETTEXT(inttostring(int10, 10));
             int7 = (int7 + 1);
-            CC_CREATE(comp(740, 1), 5, int7);
+            CC_CREATE(comp(740, 1), 5, int7);  // igc_main:calendar_layer
             CC_SETSIZE(84, 58, 0, 0);
             CC_SETPOSITION(int13, int14, 0, 0);
             CC_SETGRAPHIC(33779 as graphic);

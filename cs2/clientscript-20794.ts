@@ -3,7 +3,7 @@ function script20794(int0: number): number {
     var int1 = 99221507;
     var int2 = 0;
     var int3 = 1;
-    if ((varclient_8427 == comp(1518, 8))) {
+    if ((varclient_8427 == comp(1518, 8))) {  // house_furniture_trunk:filters
         int3 = 0;
     };
     script7896(int1, 0, 0, int2, 0, 0, 0, 24, 1, 0, 4487, 1, 12625, -1, varbitclient_61235);

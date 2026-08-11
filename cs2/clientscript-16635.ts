@@ -7,18 +7,18 @@ function script16635(int0: number, int1: number): number {
     int3 = SCALE(100, DETAILGET_INTERFACESCALE(), int3);
     if ((int2 >= 1480)) {
         if ((int1 == 1)) {
-            IF_TRIGGEROP(comp(1433, 63), -1, 1);
+            IF_TRIGGEROP(comp(1433, 63), -1, 1);  // escape_menu:fake_op
         };
         return 16;
     };
     if (((int3 >= 700) && (int2 >= 952))) {
         if ((int1 == 1)) {
-            IF_TRIGGEROP(comp(1433, 63), -1, 2);
+            IF_TRIGGEROP(comp(1433, 63), -1, 2);  // escape_menu:fake_op
         };
         return 17;
     };
     if ((int1 == 1)) {
-        IF_TRIGGEROP(comp(1433, 63), -1, 3);
+        IF_TRIGGEROP(comp(1433, 63), -1, 3);  // escape_menu:fake_op
     };
     return int0;
 }

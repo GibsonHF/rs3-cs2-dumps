@@ -1,6 +1,6 @@
 //
 function script14745(): void {
-    var int0 = comp(1486, 14);
+    var int0 = comp(1486, 14);  // text_tooltip:tooltip_dynamic_text
     var int1 = cc_getparam(4261);
     var int2 = script14591(int1);
     if ((int2 == -1 as dbrow)) {

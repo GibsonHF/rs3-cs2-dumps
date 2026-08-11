@@ -1,7 +1,7 @@
 //
 function script11957(int0: number, string0: string): void {
     var int1 = 0;
-    if ((IF_FIND(comp(1108, 2)) == 1)) {
+    if ((IF_FIND(comp(1108, 2)) == 1)) {  // friendschatsetup:chat_frame
         if ((cc_getparam(5433) == -1)) {
             return;
         };
@@ -43,13 +43,13 @@ function script11957(int0: number, string0: string): void {
     var int4 = 0;
     if ((int3 > 1)) {
         while ((int1 != -1)) {
-            if ((CC_FIND(comp(1108, 7), int1) == 1)) {
+            if ((CC_FIND(comp(1108, 7), int1) == 1)) {  // friendschatsetup:rank
                 CC_SETPOSITION(0, int2, 0, 0);
             };
-            if ((CC_FIND(comp(1108, 5), int1) == 1)) {
+            if ((CC_FIND(comp(1108, 5), int1) == 1)) {  // friendschatsetup:icon
                 CC_SETPOSITION(0, int2, 0, 0);
             };
-            if ((CC_FIND(comp(1108, 6), int1) == 1)) {
+            if ((CC_FIND(comp(1108, 6), int1) == 1)) {  // friendschatsetup:name
                 CC_SETPOSITION(0, int2, 0, 0);
                 switch (int0) {
                     case 0: {
@@ -88,13 +88,13 @@ function script11957(int0: number, string0: string): void {
             };
         };
     };
-    if ((IF_GETSCROLLY(comp(1108, 27)) > int2)) {
-        IF_SETSCROLLPOS(0, 0, comp(1108, 27));
+    if ((IF_GETSCROLLY(comp(1108, 27)) > int2)) {  // friendschatsetup:chat_scroller
+        IF_SETSCROLLPOS(0, 0, comp(1108, 27));  // friendschatsetup:chat_scroller
     };
-    if ((int2 > IF_GETHEIGHT(comp(1108, 27)))) {
-        IF_SETSCROLLSIZE(0, int2, comp(1108, 27));
+    if ((int2 > IF_GETHEIGHT(comp(1108, 27)))) {  // friendschatsetup:chat_scroller
+        IF_SETSCROLLSIZE(0, int2, comp(1108, 27));  // friendschatsetup:chat_scroller
     } else {
-        IF_SETSCROLLSIZE(0, 0, comp(1108, 27));
+        IF_SETSCROLLSIZE(0, 0, comp(1108, 27));  // friendschatsetup:chat_scroller
     };
     script7791(72613891, 72613915);
     return;

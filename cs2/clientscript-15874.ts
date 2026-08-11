@@ -4,7 +4,7 @@ function script15874(int0: number): void {
         return;
     };
     SOUND_VORBIS_VOLUME(36961 as vorbis, 1, 0, 120);
-    IF_SETSCROLLPOS(0, 0, comp(828, 6));
+    IF_SETSCROLLPOS(0, 0, comp(828, 6));  // mobile_shop_hard_currency:packages
     script15727(int0);
     script20624(int0);
     return;

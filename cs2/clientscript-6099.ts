@@ -17,11 +17,11 @@ function script6099(int0: number, int1: number, int2: number, int3: number, int4
     if (((varbitplayer_27169 == 1) || (script6431() == 1))) {
         switch (int0) {
             case 93: {
-                IF_SETHIDE(false, comp(65, 19));
+                IF_SETHIDE(false, comp(65, 19));  // group_inspect_inv:close_button
                 break;
             }
             case 530: {
-                IF_SETHIDE(false, comp(47, 21));
+                IF_SETHIDE(false, comp(47, 21));  // group_inspect_bob:close_button
                 break;
             }
         };

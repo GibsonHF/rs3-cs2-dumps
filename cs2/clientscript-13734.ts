@@ -15,10 +15,10 @@ function script13734(): void {
     script13735(varbitplayer_38549, 38717, 125370485, 125370373, 125370483, 125370482);
     script13735(varbitplayer_38550, 38718, 125370490, 125370371, 125370488, 125370487);
     script13735(varbitplayer_38551, 38719, 125370495, 125370376, 125370493, 125370492);
-    IF_SETTEXT(TOSTRING_LOCALISED(INV_TOTAL(93 as inv, 41239 as obj), 1), comp(1913, 73));
-    IF_SETHIDE(false, comp(1913, 32));
-    IF_SETHIDE(true, comp(1913, 34));
-    IF_SETHIDE(true, comp(1913, 36));
-    IF_SETONOP(callback(script13737, 0), comp(1913, 38));
+    IF_SETTEXT(TOSTRING_LOCALISED(INV_TOTAL(93 as inv, 41239 as obj), 1), comp(1913, 73));  // trh131_costume:total_cloth
+    IF_SETHIDE(false, comp(1913, 32));  // trh131_costume:main_layer
+    IF_SETHIDE(true, comp(1913, 34));  // trh131_costume:preview_layer
+    IF_SETHIDE(true, comp(1913, 36));  // trh131_costume:info_layer
+    IF_SETONOP(callback(script13737, 0), comp(1913, 38));  // trh131_costume:help_button
     return;
 }

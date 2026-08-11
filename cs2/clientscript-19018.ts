@@ -4,7 +4,7 @@ function script19018(int0: number, int1: number, int2: number): void {
     var string0 = struct_getparam(int3, 855);
     var int4 = struct_getparam(int3, 9111);
     var int5 = struct_getparam(int3, 856);
-    if ((IF_FIND(comp(1870, 10)) == 1)) {
+    if ((IF_FIND(comp(1870, 10)) == 1)) {  // trh119_buried_treasure_overlay:prize_graphic
         if ((int4 != -1)) {
             if ((STRING_LENGTH(string0) == 0)) {
                 string0 = `${OC_NAME(int4)} - ${item_getparam(int4, 4085)}`;
@@ -17,7 +17,7 @@ function script19018(int0: number, int1: number, int2: number): void {
             CC_SETGRAPHIC(int5);
         };
     };
-    IF_SETTEXT(string0, comp(1870, 9));
+    IF_SETTEXT(string0, comp(1870, 9));  // trh119_buried_treasure_overlay:prize_title
     varbitplayer_43520 = int1;
     switch (int0) {
         case 49941: {

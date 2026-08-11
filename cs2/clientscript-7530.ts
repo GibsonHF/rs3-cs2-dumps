@@ -4,23 +4,23 @@ function script7530(int0: number, int1: number): void {
     var int2 = -1 as graphic;
     switch (int0) {
         case 1: {
-            int2 = IF_GETGRAPHIC(comp(1393, 6));
+            int2 = IF_GETGRAPHIC(comp(1393, 6));  // rand_dnd_card_preview:rand_dnd_card_1
             break;
         }
         case 2: {
-            int2 = IF_GETGRAPHIC(comp(1393, 7));
+            int2 = IF_GETGRAPHIC(comp(1393, 7));  // rand_dnd_card_preview:rand_dnd_card_2
             break;
         }
         case 3: {
-            int2 = IF_GETGRAPHIC(comp(1393, 8));
+            int2 = IF_GETGRAPHIC(comp(1393, 8));  // rand_dnd_card_preview:rand_dnd_card_3
             break;
         }
         case 4: {
-            int2 = IF_GETGRAPHIC(comp(1393, 9));
+            int2 = IF_GETGRAPHIC(comp(1393, 9));  // rand_dnd_card_preview:rand_dnd_card_4
             break;
         }
         case 5: {
-            int2 = IF_GETGRAPHIC(comp(1393, 10));
+            int2 = IF_GETGRAPHIC(comp(1393, 10));  // rand_dnd_card_preview:rand_dnd_card_5
             break;
         }
     };

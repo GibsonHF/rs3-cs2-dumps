@@ -11,6 +11,6 @@ function script20878(int0: number, int1: number): void {
     } else {
         string0 = `Buy limit per 4 hours: ${TOSTRING_LOCALISED(varplayer_9464, 1)}`;
     };
-    IF_SETTEXT(string0, comp(105, 141));
+    IF_SETTEXT(string0, comp(105, 141));  // stockmarket:abort5 ?
     return;
 }

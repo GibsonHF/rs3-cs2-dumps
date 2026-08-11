@@ -1,9 +1,9 @@
 //
 function script13486(): void {
-    var int0 = comp(1879, 2);
+    var int0 = comp(1879, 2);  // slayer_pod_codex:list_layer
     var int1 = 123142152;
-    var int2 = comp(1879, 12);
-    var int3 = comp(1879, 13);
+    var int2 = comp(1879, 12);  // slayer_pod_codex:monster_drag_layer
+    var int3 = comp(1879, 13);  // slayer_pod_codex:monster_model
     var int4 = IF_GETLAYER(int3);
     var int5 = -1 as npc;
     var int6 = -1 as obj;

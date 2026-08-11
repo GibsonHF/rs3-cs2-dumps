@@ -8,10 +8,10 @@ function script4073(): void {
         script380(3997);
         LOBBY_ENTERLOBBY_SSO(varclient_4192, varclient_4193);
         varclient_3708 = 1;
-        IF_SETHIDE(true, comp(744, 93));
+        IF_SETHIDE(true, comp(744, 93));  // loginscreen:username_input_group_graphic
         script15662("Signing in...", -1, 0);
         varclient_1100 = -3;
-        IF_SETONTIMER(callback(script2946, 0), comp(744, 173));
+        IF_SETONTIMER(callback(script2946, 0), comp(744, 173));  // loginscreen:login_progress_popup_password
     };
     return;
 }

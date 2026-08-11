@@ -1,6 +1,6 @@
 //
 function script14062(int0: number): void {
-    IF_SETHIDE(true, comp(1639, 14));
+    IF_SETHIDE(true, comp(1639, 14));  // slayer_count:weakness
     var int1 = 9286 as graphic;
     var int2 = -1 as cs2enum;
     var int3 = -1 as struct;
@@ -23,9 +23,9 @@ function script14062(int0: number): void {
         int4 = struct_getparam(int3, 1347);
     };
     if ((int4 != -1 as npc)) {
-        IF_SETHIDE(false, comp(1639, 14));
+        IF_SETHIDE(false, comp(1639, 14));  // slayer_count:weakness
         int1 = script16098(int4);
     };
-    IF_SETGRAPHIC(int1, comp(1639, 14));
+    IF_SETGRAPHIC(int1, comp(1639, 14));  // slayer_count:weakness
     return;
 }

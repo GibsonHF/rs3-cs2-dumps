@@ -1,18 +1,18 @@
 //
 function script9058(int0: number): void {
-    var int1 = comp(1854, 3);
-    var int2 = comp(1854, 8);
-    var int3 = comp(1854, 7);
-    var int4 = comp(1854, 6);
-    var int5 = comp(1854, 5);
-    var int6 = comp(1854, 9);
+    var int1 = comp(1854, 3);  // cheevo_tracker:scrollable_layer
+    var int2 = comp(1854, 8);  // cheevo_tracker:build_layer
+    var int3 = comp(1854, 7);  // cheevo_tracker:click_layer
+    var int4 = comp(1854, 6);  // cheevo_tracker:find_more_click
+    var int5 = comp(1854, 5);  // cheevo_tracker:mobile_highlights
+    var int6 = comp(1854, 9);  // cheevo_tracker:scrollbar_layer
     if ((int0 == 1)) {
-        int1 = comp(1855, 3);
-        int2 = comp(1855, 4);
-        int3 = comp(1855, 5);
+        int1 = comp(1855, 3);  // cheevo_tracker_embedded:scrollable_layer
+        int2 = comp(1855, 4);  // cheevo_tracker_embedded:build_layer
+        int3 = comp(1855, 5);  // cheevo_tracker_embedded:click_layer
         int4 = comp(-1, 65535);
         int5 = comp(-1, 65535);
-        int6 = comp(1855, 6);
+        int6 = comp(1855, 6);  // cheevo_tracker_embedded:scrollbar_layer
     };
     IF_SETHIDE(true, int6);
     IF_SETSIZE(0, 0, 1, 1, int1);

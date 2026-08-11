@@ -43,9 +43,9 @@ function script18001(int0: number, int1: number, int2: number, int3: number, int
         if ((int7 != 1)) {
             script7872(1, 1, 1, 1);
         };
-        IF_SETPOSITION(CC_GETABSOLUTEX(), CC_GETABSOLUTEY(), 0, 0, comp(1227, 18));
+        IF_SETPOSITION(CC_GETABSOLUTEX(), CC_GETABSOLUTEY(), 0, 0, comp(1227, 18));  // bp3_track_tab:reward_tutorial_anchor
         int14 = 80412707;
-        int15 = comp(1227, 36);
+        int15 = comp(1227, 36);  // bp3_track_tab:reward_track_scroll_section
         int10 = IF_GETSCROLLX(int15);
         int11 = IF_GETWIDTH(int15);
         switch (int7) {

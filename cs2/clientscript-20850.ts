@@ -2,7 +2,7 @@
 function script20850(int0: number): void {
     CC_DELETEALL(comp(1494, 17));
     var int1 = ((40 + (int0 * 12)) + ((int0 - 1) * 4));
-    IF_SETSIZE(int1, 22, 0, 0, comp(1494, 13));
+    IF_SETSIZE(int1, 22, 0, 0, comp(1494, 13));  // marketplace_featured:carousel_3
     var int2 = -1;
     var int3 = -1;
     int2 = (int2 + 1);

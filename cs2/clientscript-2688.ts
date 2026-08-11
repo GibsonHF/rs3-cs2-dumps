@@ -4,14 +4,14 @@ function script2688(): void {
         if ((varclient_1413 == false)) {
             return;
         };
-        IF_SETHIDE(false, comp(1469, 0));
+        IF_SETHIDE(false, comp(1469, 0));  // meslayer:root
         if ((varclient_11 == true)) {
             script675();
         };
-        IF_SETTEXT("Enter the player to ban from the channel:", comp(1469, 3));
+        IF_SETTEXT("Enter the player to ban from the channel:", comp(1469, 3));  // meslayer:mes_text
         varclient_5 = 15;
         script1564("");
-        IF_SETONCLICK(callback(), comp(1469, 1));
+        IF_SETONCLICK(callback(), comp(1469, 1));  // meslayer:mes_layer
         script2026();
     };
     return;

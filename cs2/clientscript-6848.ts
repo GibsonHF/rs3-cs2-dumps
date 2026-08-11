@@ -1,6 +1,6 @@
 //
 function script6848(int0: number): void {
-    var int1 = script6849(IF_GET2DANGLE(comp(1354, 35)));
+    var int1 = script6849(IF_GET2DANGLE(comp(1354, 35)));  // ozan2_sundial:gnomon
     var int2 = script6850(int0);
     var int3 = -1;
     if ((int1 == -1)) {
@@ -76,14 +76,14 @@ function script6848(int0: number): void {
     if ((int1 == 0)) {
         if ((int2 >= 1)) {
             if ((int2 <= 8)) {
-                IF_SET2DANGLE(30583, comp(1354, 35));
+                IF_SET2DANGLE(30583, comp(1354, 35));  // ozan2_sundial:gnomon
                 int1 = 8;
             } else {
-                IF_SET2DANGLE(34588, comp(1354, 35));
+                IF_SET2DANGLE(34588, comp(1354, 35));  // ozan2_sundial:gnomon
                 int1 = 9;
             };
         } else {
-            IF_SET2DANGLE(34588, comp(1354, 35));
+            IF_SET2DANGLE(34588, comp(1354, 35));  // ozan2_sundial:gnomon
             int1 = 9;
         };
     };
@@ -103,6 +103,6 @@ function script6848(int0: number): void {
         script6853(int2);
         return;
     };
-    IF_SETONTIMER(callback(script6851, CLIENTCLOCK(), int1, int2, int3), comp(1354, 35));
+    IF_SETONTIMER(callback(script6851, CLIENTCLOCK(), int1, int2, int3), comp(1354, 35));  // ozan2_sundial:gnomon
     return;
 }

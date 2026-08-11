@@ -9,18 +9,18 @@ function script12873(int0: number, int1: number, int2: number, int3: number, int
     if ((varclient_5879 < struct_getparam(int0, 6132))) {
         return;
     };
-    var int5 = comp(1802, 64);
-    var int6 = comp(1802, 66);
-    var int7 = comp(1802, 101);
-    var int8 = comp(1802, 157);
-    var int9 = comp(1802, 7);
-    var int10 = comp(1802, 0);
+    var int5 = comp(1802, 64);  // timed_event:left_container
+    var int6 = comp(1802, 66);  // timed_event:countdown_layer
+    var int7 = comp(1802, 101);  // timed_event:event_ended_layer
+    var int8 = comp(1802, 157);  // timed_event:title_text
+    var int9 = comp(1802, 7);  // timed_event:title_graphic
+    var int10 = comp(1802, 0);  // timed_event:universe
     if (((int0 == 9802) || (int0 == 40974))) {
-        int5 = comp(1930, 98);
-        int6 = comp(1930, 37);
-        int7 = comp(1930, 92);
-        int8 = comp(1930, 90);
-        int10 = comp(1930, 59);
+        int5 = comp(1930, 98);  // timed_event_tasks:left_container
+        int6 = comp(1930, 37);  // timed_event_tasks:countdown_layer
+        int7 = comp(1930, 92);  // timed_event_tasks:event_ended_layer
+        int8 = comp(1930, 90);  // timed_event_tasks:title_text
+        int10 = comp(1930, 59);  // timed_event_tasks:main_layer
     };
     if ((int1 == 2)) {
         IF_SETHIDE(true, int5);

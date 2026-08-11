@@ -9,6 +9,6 @@ function script4671(): void {
     script4672(varbitplayer_4766);
     script4677();
     script4673(varbitplayer_4766);
-    IF_SETONTIMER(callback(script4675), comp(102, 36));
+    IF_SETONTIMER(callback(script4675), comp(102, 36));  // fremsaga_reward:bar_layer
     return;
 }

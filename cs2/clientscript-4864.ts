@@ -158,50 +158,50 @@ function script4864(): void {
         script4866(8, varclan_2731, int17, int23, int31, int43);
         script4866(9, varclan_2732, int16, int22, int30, int43);
         script4866(10, varclan_2733, 0, 0, 0, int43);
-        IF_SETTEXT(string1, comp(1260, 281));
+        IF_SETTEXT(string1, comp(1260, 281));  // clan_stronghold_main_resources:primary_target_txt
         switch (varbitplayer_6680) {
             case 1: {
-                IF_SETGRAPHIC(7381 as graphic, comp(1260, 299));
+                IF_SETGRAPHIC(7381 as graphic, comp(1260, 299));  // clan_stronghold_main_resources:resource_details_resource_icon_graphic
                 break;
             }
             case 2: {
-                IF_SETGRAPHIC(7380 as graphic, comp(1260, 299));
+                IF_SETGRAPHIC(7380 as graphic, comp(1260, 299));  // clan_stronghold_main_resources:resource_details_resource_icon_graphic
                 break;
             }
             case 3: {
-                IF_SETGRAPHIC(7384 as graphic, comp(1260, 299));
+                IF_SETGRAPHIC(7384 as graphic, comp(1260, 299));  // clan_stronghold_main_resources:resource_details_resource_icon_graphic
                 break;
             }
             case 4: {
-                IF_SETGRAPHIC(7378 as graphic, comp(1260, 299));
+                IF_SETGRAPHIC(7378 as graphic, comp(1260, 299));  // clan_stronghold_main_resources:resource_details_resource_icon_graphic
                 break;
             }
             case 5: {
-                IF_SETGRAPHIC(7377 as graphic, comp(1260, 299));
+                IF_SETGRAPHIC(7377 as graphic, comp(1260, 299));  // clan_stronghold_main_resources:resource_details_resource_icon_graphic
                 break;
             }
             case 6: {
-                IF_SETGRAPHIC(7379 as graphic, comp(1260, 299));
+                IF_SETGRAPHIC(7379 as graphic, comp(1260, 299));  // clan_stronghold_main_resources:resource_details_resource_icon_graphic
                 break;
             }
             case 7: {
-                IF_SETGRAPHIC(7376 as graphic, comp(1260, 299));
+                IF_SETGRAPHIC(7376 as graphic, comp(1260, 299));  // clan_stronghold_main_resources:resource_details_resource_icon_graphic
                 break;
             }
             case 8: {
-                IF_SETGRAPHIC(7383 as graphic, comp(1260, 299));
+                IF_SETGRAPHIC(7383 as graphic, comp(1260, 299));  // clan_stronghold_main_resources:resource_details_resource_icon_graphic
                 break;
             }
             case 9: {
-                IF_SETGRAPHIC(7382 as graphic, comp(1260, 299));
+                IF_SETGRAPHIC(7382 as graphic, comp(1260, 299));  // clan_stronghold_main_resources:resource_details_resource_icon_graphic
                 break;
             }
             case 10: {
-                IF_SETGRAPHIC(7385 as graphic, comp(1260, 299));
+                IF_SETGRAPHIC(7385 as graphic, comp(1260, 299));  // clan_stronghold_main_resources:resource_details_resource_icon_graphic
                 break;
             }
             default: {
-                IF_SETGRAPHIC(-1 as graphic, comp(1260, 299));
+                IF_SETGRAPHIC(-1 as graphic, comp(1260, 299));  // clan_stronghold_main_resources:resource_details_resource_icon_graphic
                 break;
             }
         };
@@ -253,69 +253,69 @@ function script4864(): void {
             string1 = "No target set";
         };
         if ((varbitplayer_6680 > 0)) {
-            IF_SETHIDE(false, comp(1260, 91));
-            IF_SETHIDE(true, comp(1260, 93));
-            IF_SETTEXT(enum_getvalue(0, 36, 4285 as cs2enum, varbitplayer_6680), comp(1260, 32));
-            IF_SETTEXT(string1, comp(1260, 295));
+            IF_SETHIDE(false, comp(1260, 91));  // clan_stronghold_main_resources:resource_details_panel
+            IF_SETHIDE(true, comp(1260, 93));  // clan_stronghold_main_resources:resource_details_select_text
+            IF_SETTEXT(enum_getvalue(0, 36, 4285 as cs2enum, varbitplayer_6680), comp(1260, 32));  // clan_stronghold_main_resources:resource_name
+            IF_SETTEXT(string1, comp(1260, 295));  // clan_stronghold_main_resources:resource_details_amount_txt
             if (((script5956(varbitplayer_6680) == 1) || (script5956(varbitplayer_6680) == 2))) {
-                IF_SETGRAPHIC(5917 as graphic, comp(1260, 87));
-                IF_SETGRAPHIC(5919 as graphic, comp(1260, 89));
+                IF_SETGRAPHIC(5917 as graphic, comp(1260, 87));  // clan_stronghold_main_resources:lock_on_target_checkbox
+                IF_SETGRAPHIC(5919 as graphic, comp(1260, 89));  // clan_stronghold_main_resources:manual_lock_checkbox
             };
             if ((script5956(varbitplayer_6680) == 3)) {
-                IF_SETGRAPHIC(5917 as graphic, comp(1260, 89));
-                IF_SETGRAPHIC(5919 as graphic, comp(1260, 87));
+                IF_SETGRAPHIC(5917 as graphic, comp(1260, 89));  // clan_stronghold_main_resources:manual_lock_checkbox
+                IF_SETGRAPHIC(5919 as graphic, comp(1260, 87));  // clan_stronghold_main_resources:lock_on_target_checkbox
             };
             if ((script5956(varbitplayer_6680) == 0)) {
-                IF_SETGRAPHIC(5919 as graphic, comp(1260, 89));
-                IF_SETGRAPHIC(5919 as graphic, comp(1260, 87));
+                IF_SETGRAPHIC(5919 as graphic, comp(1260, 89));  // clan_stronghold_main_resources:manual_lock_checkbox
+                IF_SETGRAPHIC(5919 as graphic, comp(1260, 87));  // clan_stronghold_main_resources:lock_on_target_checkbox
             };
             string3 = "Toggle whether this skill plot will lock when the resource target is reached. It will automatically unlock once all resource targets are hit.";
-            IF_SETONMOUSEREPEAT(callback(script8799, string3, -2147483645, -2147483643), comp(1260, 87));
+            IF_SETONMOUSEREPEAT(callback(script8799, string3, -2147483645, -2147483643), comp(1260, 87));  // clan_stronghold_main_resources:lock_on_target_checkbox
             string3 = "Toggle whether this skill plot is locked. If this is checked, the plot will stay locked until manually unlocked.";
-            IF_SETONMOUSEREPEAT(callback(script8799, string3, -2147483645, -2147483643), comp(1260, 89));
+            IF_SETONMOUSEREPEAT(callback(script8799, string3, -2147483645, -2147483643), comp(1260, 89));  // clan_stronghold_main_resources:manual_lock_checkbox
             if ((varclan_2744 == varbitplayer_6680)) {
                 if ((script5224(-1) == 1)) {
-                    IF_SETGRAPHIC(5916 as graphic, comp(1260, 133));
+                    IF_SETGRAPHIC(5916 as graphic, comp(1260, 133));  // clan_stronghold_main_resources:primary_target_checkbox_graphic
                     string3 = "Toggle whether this resource is the primary resource target.";
-                    IF_SETOP(1, "Make Primary Target", comp(1260, 133));
+                    IF_SETOP(1, "Make Primary Target", comp(1260, 133));  // clan_stronghold_main_resources:primary_target_checkbox_graphic
                 } else {
-                    IF_SETGRAPHIC(5919 as graphic, comp(1260, 133));
+                    IF_SETGRAPHIC(5919 as graphic, comp(1260, 133));  // clan_stronghold_main_resources:primary_target_checkbox_graphic
                     string3 = "You do not have permission from your clan to set the primary resource target.";
-                    IF_SETOP(1, "", comp(1260, 133));
+                    IF_SETOP(1, "", comp(1260, 133));  // clan_stronghold_main_resources:primary_target_checkbox_graphic
                 };
             } else if ((script5224(-1) == 1)) {
                 if ((script5214(varbitplayer_6680) <= varbitclan_6507)) {
-                    IF_SETGRAPHIC(5920 as graphic, comp(1260, 133));
+                    IF_SETGRAPHIC(5920 as graphic, comp(1260, 133));  // clan_stronghold_main_resources:primary_target_checkbox_graphic
                     string3 = "Toggle whether this resource is the primary resource target.";
-                    IF_SETOP(1, "Make Primary Target", comp(1260, 133));
+                    IF_SETOP(1, "Make Primary Target", comp(1260, 133));  // clan_stronghold_main_resources:primary_target_checkbox_graphic
                 } else {
-                    IF_SETGRAPHIC(5923 as graphic, comp(1260, 133));
+                    IF_SETGRAPHIC(5923 as graphic, comp(1260, 133));  // clan_stronghold_main_resources:primary_target_checkbox_graphic
                     string3 = `This resource will become available at citadel tier ${inttostring(script5214(varbitplayer_6680), 10)}.`;
-                    IF_SETOP(1, "", comp(1260, 133));
+                    IF_SETOP(1, "", comp(1260, 133));  // clan_stronghold_main_resources:primary_target_checkbox_graphic
                 };
             } else {
-                IF_SETGRAPHIC(5923 as graphic, comp(1260, 133));
+                IF_SETGRAPHIC(5923 as graphic, comp(1260, 133));  // clan_stronghold_main_resources:primary_target_checkbox_graphic
                 string3 = "You do not have permission from your clan to set the primary resource target.";
-                IF_SETOP(1, "", comp(1260, 133));
+                IF_SETOP(1, "", comp(1260, 133));  // clan_stronghold_main_resources:primary_target_checkbox_graphic
             };
-            IF_SETONMOUSEREPEAT(callback(script8799, string3, -2147483645, -2147483643), comp(1260, 133));
-            IF_SETHIDE(false, comp(1260, 289));
-            IF_SETONMOUSEREPEAT(callback(script8799, string5, -2147483645, -2147483643), comp(1260, 288));
+            IF_SETONMOUSEREPEAT(callback(script8799, string3, -2147483645, -2147483643), comp(1260, 133));  // clan_stronghold_main_resources:primary_target_checkbox_graphic
+            IF_SETHIDE(false, comp(1260, 289));  // clan_stronghold_main_resources:set_resource_target_button_disabled_layer
+            IF_SETONMOUSEREPEAT(callback(script8799, string5, -2147483645, -2147483643), comp(1260, 288));  // clan_stronghold_main_resources:set_resource_target_button_active_layer
             if ((script5224(-1) == 1)) {
                 if ((script5214(varbitplayer_6680) <= varbitclan_6507)) {
-                    IF_SETHIDE(true, comp(1260, 289));
+                    IF_SETHIDE(true, comp(1260, 289));  // clan_stronghold_main_resources:set_resource_target_button_disabled_layer
                 } else {
-                    IF_SETHIDE(false, comp(1260, 289));
+                    IF_SETHIDE(false, comp(1260, 289));  // clan_stronghold_main_resources:set_resource_target_button_disabled_layer
                     string4 = `This resource will become available at citadel tier ${inttostring(script5214(varbitplayer_6680), 10)}.`;
                 };
             } else {
-                IF_SETHIDE(false, comp(1260, 289));
+                IF_SETHIDE(false, comp(1260, 289));  // clan_stronghold_main_resources:set_resource_target_button_disabled_layer
                 string4 = "You do not have permission from your clan to set resource targets.";
             };
-            IF_SETONMOUSEREPEAT(callback(script8799, string4, -2147483645, -2147483643), comp(1260, 289));
+            IF_SETONMOUSEREPEAT(callback(script8799, string4, -2147483645, -2147483643), comp(1260, 289));  // clan_stronghold_main_resources:set_resource_target_button_disabled_layer
         } else {
-            IF_SETHIDE(true, comp(1260, 91));
-            IF_SETHIDE(false, comp(1260, 93));
+            IF_SETHIDE(true, comp(1260, 91));  // clan_stronghold_main_resources:resource_details_panel
+            IF_SETHIDE(false, comp(1260, 93));  // clan_stronghold_main_resources:resource_details_select_text
         };
     };
     return;

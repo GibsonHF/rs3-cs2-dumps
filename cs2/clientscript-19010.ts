@@ -113,27 +113,27 @@ function script19010(int0: number): void {
             int17 = 32;
             int20 = 0;
             int21 = 49;
-            IF_SETSIZE(30, 190, 1, 1, comp(1870, 9));
+            IF_SETSIZE(30, 190, 1, 1, comp(1870, 9));  // trh119_buried_treasure_overlay:prize_title
             break;
         }
     };
-    IF_SETHIDE(false, comp(1870, 14));
-    IF_SETHIDE(false, comp(1870, 0));
-    IF_SETHIDE(true, comp(1870, 15));
-    IF_SETHIDE(int12, comp(1870, 19));
-    CC_DELETEALL(comp(1870, 4));
-    CC_DELETEALL(comp(1870, 6));
-    IF_SETPOSITION(int1, int2, 0, 0, comp(1870, 0));
-    IF_SETSIZE(int3, int4, 0, 0, comp(1870, 0));
-    IF_SETPOSITION(int5, int6, 0, 0, comp(1870, 2));
-    IF_SETSIZE(int7, int8, 0, 0, comp(1870, 2));
-    IF_SETPOSITION(int9, int10, 1, 2, comp(1870, 19));
-    IF_SETTEXT(string0, comp(1870, 14));
-    IF_SETSIZE(((int20 * 2) + (int14 * ENUM_GETOUTPUTCOUNT(int11))), 0, 0, 1, comp(1870, 4));
-    IF_SETSIZE(((int20 * 2) + (int14 * ENUM_GETOUTPUTCOUNT(int11))), 0, 0, 1, comp(1870, 5));
-    IF_SETSIZE(((int20 * 2) + (int14 * ENUM_GETOUTPUTCOUNT(int11))), 0, 0, 1, comp(1870, 6));
-    IF_SETSCROLLSIZE(((int20 * 2) + (int14 * ENUM_GETOUTPUTCOUNT(int11))), 0, comp(1870, 3));
-    if ((IF_GETWIDTH(comp(1870, 3)) > IF_GETWIDTH(comp(1870, 2)))) {
+    IF_SETHIDE(false, comp(1870, 14));  // trh119_buried_treasure_overlay:promo_title
+    IF_SETHIDE(false, comp(1870, 0));  // trh119_buried_treasure_overlay:prize_info_layer
+    IF_SETHIDE(true, comp(1870, 15));  // trh119_buried_treasure_overlay:info_layer
+    IF_SETHIDE(int12, comp(1870, 19));  // trh119_buried_treasure_overlay:skip_button
+    CC_DELETEALL(comp(1870, 4));  // trh119_buried_treasure_overlay:prize_scroll_build_layer
+    CC_DELETEALL(comp(1870, 6));  // trh119_buried_treasure_overlay:prize_scroll_click_layer
+    IF_SETPOSITION(int1, int2, 0, 0, comp(1870, 0));  // trh119_buried_treasure_overlay:prize_info_layer
+    IF_SETSIZE(int3, int4, 0, 0, comp(1870, 0));  // trh119_buried_treasure_overlay:prize_info_layer
+    IF_SETPOSITION(int5, int6, 0, 0, comp(1870, 2));  // trh119_buried_treasure_overlay:prize_scroll_layer
+    IF_SETSIZE(int7, int8, 0, 0, comp(1870, 2));  // trh119_buried_treasure_overlay:prize_scroll_layer
+    IF_SETPOSITION(int9, int10, 1, 2, comp(1870, 19));  // trh119_buried_treasure_overlay:skip_button
+    IF_SETTEXT(string0, comp(1870, 14));  // trh119_buried_treasure_overlay:promo_title
+    IF_SETSIZE(((int20 * 2) + (int14 * ENUM_GETOUTPUTCOUNT(int11))), 0, 0, 1, comp(1870, 4));  // trh119_buried_treasure_overlay:prize_scroll_build_layer
+    IF_SETSIZE(((int20 * 2) + (int14 * ENUM_GETOUTPUTCOUNT(int11))), 0, 0, 1, comp(1870, 5));  // trh119_buried_treasure_overlay:prize_scroll_notification_layer
+    IF_SETSIZE(((int20 * 2) + (int14 * ENUM_GETOUTPUTCOUNT(int11))), 0, 0, 1, comp(1870, 6));  // trh119_buried_treasure_overlay:prize_scroll_click_layer
+    IF_SETSCROLLSIZE(((int20 * 2) + (int14 * ENUM_GETOUTPUTCOUNT(int11))), 0, comp(1870, 3));  // trh119_buried_treasure_overlay:prize_scroll_content
+    if ((IF_GETWIDTH(comp(1870, 3) /*trh119_buried_treasure_overlay:prize_scroll_content*/) > IF_GETWIDTH(comp(1870, 2) /*trh119_buried_treasure_overlay:prize_scroll_layer*/))) {
         script1142(122552327, 122552323, 4567);
     };
     var int22 = int20;
@@ -143,7 +143,7 @@ function script19010(int0: number): void {
     var int26 = -1 as graphic;
     var int27 = -1;
     var int28 = -1 as struct;
-    var int29 = IF_GETNEXTSUBID(comp(1870, 4));
+    var int29 = IF_GETNEXTSUBID(comp(1870, 4));  // trh119_buried_treasure_overlay:prize_scroll_build_layer
     var int30 = 1;
     var int31 = -1;
     var int32 = -1;
@@ -171,13 +171,13 @@ function script19010(int0: number): void {
             if ((int30 == 1)) {
                 CC_SETGRAPHIC(int26);
             };
-            if ((CC_FIND[1](comp(1870, 4), (int29 - 2)) == 1)) {
+            if ((CC_FIND[1](comp(1870, 4), (int29 - 2)) == 1)) {  // trh119_buried_treasure_overlay:prize_scroll_build_layer
                 CC_SETONMOUSEOVER[1](callback(script19020, 122552324, (int29 - 1), int0, int11, 1));
                 CC_SETONMOUSELEAVE[1](callback(script19020, 122552324, (int29 - 1), int0, int11, 0));
             };
         };
         int29 = script19011(int0, int29, int22, int23, int30);
-        script2994(122552326, IF_GETNEXTSUBID(comp(1870, 6)), (int22 + int18), (int23 + int19), 0, 0, int16, int17, 0, 0, -1);
+        script2994(122552326, IF_GETNEXTSUBID(comp(1870, 6)), (int22 + int18), (int23 + int19), 0, 0, int16, int17, 0, 0, -1);  // trh119_buried_treasure_overlay:prize_scroll_click_layer
         CC_SETOP(1, "Select");
         CC_SETONOP(callback(script19016, int0, int24, int11));
         int30 = 0;

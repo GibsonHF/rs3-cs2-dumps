@@ -11,13 +11,13 @@ function script17821(int0: number): void {
     var int9 = -1;
     var int10 = -1;
     var int11 = -1;
-    IF_SETHIDE(true, comp(1023, 92));
-    IF_SETHIDE(true, comp(1023, 90));
-    IF_SETHIDE(true, comp(1023, 88));
-    IF_SETHIDE(true, comp(1023, 87));
-    IF_SETHIDE(true, comp(1023, 89));
-    IF_SETHIDE(true, comp(1023, 91));
-    IF_SETHIDE(true, comp(1023, 93));
+    IF_SETHIDE(true, comp(1023, 92));  // trh187_overlay:or_3
+    IF_SETHIDE(true, comp(1023, 90));  // trh187_overlay:or_2
+    IF_SETHIDE(true, comp(1023, 88));  // trh187_overlay:or_1
+    IF_SETHIDE(true, comp(1023, 87));  // trh187_overlay:prize_1
+    IF_SETHIDE(true, comp(1023, 89));  // trh187_overlay:prize_2
+    IF_SETHIDE(true, comp(1023, 91));  // trh187_overlay:prize_3
+    IF_SETHIDE(true, comp(1023, 93));  // trh187_overlay:prize_4
     int10 = (int10 + 1);
     while ((int10 < DB_GETFIELDCOUNT(int1, 1392720))) {
         [int4, int5, int8, int6] = dbrow_getfield(int1, 1392720, int10);
@@ -70,28 +70,28 @@ function script17821(int0: number): void {
     };
     script12679(int0);
     if (((int10 - 1) > 3)) {
-        IF_SETHIDE(false, comp(1023, 92));
-        IF_SETHIDE(false, comp(1023, 90));
-        IF_SETHIDE(false, comp(1023, 88));
+        IF_SETHIDE(false, comp(1023, 92));  // trh187_overlay:or_3
+        IF_SETHIDE(false, comp(1023, 90));  // trh187_overlay:or_2
+        IF_SETHIDE(false, comp(1023, 88));  // trh187_overlay:or_1
     };
     if (((int10 - 1) == 2)) {
-        IF_SETHIDE(false, comp(1023, 90));
-        IF_SETHIDE(false, comp(1023, 88));
+        IF_SETHIDE(false, comp(1023, 90));  // trh187_overlay:or_2
+        IF_SETHIDE(false, comp(1023, 88));  // trh187_overlay:or_1
     };
     if (((int10 - 1) == 1)) {
-        IF_SETHIDE(false, comp(1023, 88));
+        IF_SETHIDE(false, comp(1023, 88));  // trh187_overlay:or_1
     };
     switch (int10) {
         case 1: {
-            IF_SETPOSITION(115, 287, 1, 0, comp(1023, 24));
+            IF_SETPOSITION(115, 287, 1, 0, comp(1023, 24));  // trh187_overlay:upcoming_prize
             break;
         }
         case 2: {
-            IF_SETPOSITION(60, 287, 1, 0, comp(1023, 24));
+            IF_SETPOSITION(60, 287, 1, 0, comp(1023, 24));  // trh187_overlay:upcoming_prize
             break;
         }
         case 3: {
-            IF_SETPOSITION(40, 287, 1, 0, comp(1023, 24));
+            IF_SETPOSITION(40, 287, 1, 0, comp(1023, 24));  // trh187_overlay:upcoming_prize
             break;
         }
     };

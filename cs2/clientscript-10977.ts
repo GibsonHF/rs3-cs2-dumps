@@ -1,10 +1,10 @@
 //
 function script10977(): void {
-    var int0 = IF_GETHEIGHT(comp(1583, 9));
+    var int0 = IF_GETHEIGHT(comp(1583, 9));  // trh44_valentines15_milestones:love_fill
     if ((int0 > 5)) {
-        IF_SETSIZE(417, MAX((int0 - 5), 5), 0, 0, comp(1583, 9));
+        IF_SETSIZE(417, MAX((int0 - 5), 5), 0, 0, comp(1583, 9));  // trh44_valentines15_milestones:love_fill
     } else {
-        IF_SETONTIMER(callback(), comp(1583, 9));
+        IF_SETONTIMER(callback(), comp(1583, 9));  // trh44_valentines15_milestones:love_fill
     };
     return;
 }

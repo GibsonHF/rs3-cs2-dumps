@@ -1,19 +1,19 @@
 //
 function script13946(): void {
-    CC_DELETEALL(comp(517, 265));
-    CC_DELETEALL(comp(517, 266));
-    CC_DELETEALL(comp(517, 267));
-    CC_DELETEALL(comp(517, 271));
-    CC_DELETEALL(comp(517, 268));
-    CC_DELETEALL(comp(517, 269));
-    CC_DELETEALL(comp(517, 270));
-    CC_CREATE(comp(517, 265), 4, 0);
-    CC_CREATE(comp(517, 267), 4, 0);
-    CC_CREATE(comp(517, 271), 4, 0);
-    CC_CREATE(comp(517, 268), 4, 0);
-    CC_CREATE(comp(517, 269), 4, 0);
-    CC_CREATE(comp(517, 270), 4, 0);
-    IF_SETHIDE(true, comp(517, 274));
+    CC_DELETEALL(comp(517, 265));  // bank:preset_list_back
+    CC_DELETEALL(comp(517, 266));  // bank:preset_list_build
+    CC_DELETEALL(comp(517, 267));  // bank:preset_list_click
+    CC_DELETEALL(comp(517, 271));  // bank:preset_list_locked
+    CC_DELETEALL(comp(517, 268));  // bank:preset_list_status_inv
+    CC_DELETEALL(comp(517, 269));  // bank:preset_list_status_worn
+    CC_DELETEALL(comp(517, 270));  // bank:preset_list_status_bob
+    CC_CREATE(comp(517, 265), 4, 0);  // bank:preset_list_back
+    CC_CREATE(comp(517, 267), 4, 0);  // bank:preset_list_click
+    CC_CREATE(comp(517, 271), 4, 0);  // bank:preset_list_locked
+    CC_CREATE(comp(517, 268), 4, 0);  // bank:preset_list_status_inv
+    CC_CREATE(comp(517, 269), 4, 0);  // bank:preset_list_status_worn
+    CC_CREATE(comp(517, 270), 4, 0);  // bank:preset_list_status_bob
+    IF_SETHIDE(true, comp(517, 274));  // bank:preset_highlight_mouseover
     var int0 = 1;
     var int1 = 0;
     var int2 = 0;
@@ -61,7 +61,7 @@ function script13946(): void {
         if ((int0 != 19)) {
             script6200(33882378, 24, 30, 0, int1, 29, inttostring(int0, 10), 0);
             CC_SETTEXTALIGN(1, 1, 0);
-            CC_SETDRAGGABLE(comp(517, 264), -1);
+            CC_SETDRAGGABLE(comp(517, 264), -1);  // bank:preset_list_settings
         } else {
             script4512(33882378, 24, 24, 3, (int1 + 3), script15934(18787, 15083));
         };
@@ -71,11 +71,11 @@ function script13946(): void {
             CC_SETOP(3, "Reset");
         };
         CC_SETONOP(callback(script13938, -2147483643));
-        CC_CREATE(comp(517, 271), 5, int0);
+        CC_CREATE(comp(517, 271), 5, int0);  // bank:preset_list_locked
         CC_SETSIZE(30, 30, 0, 0);
         CC_SETPOSITION(0, int1, 2, 0);
         CC_SETGRAPHIC(int5);
-        script2995(33882378, IF_GETNEXTSUBID(comp(517, 266)), 15, int1, 0, 0, 80, 30, 1, 0, 2100, string0);
+        script2995(33882378, IF_GETNEXTSUBID(comp(517, 266)), 15, int1, 0, 0, 80, 30, 1, 0, 2100, string0);  // bank:preset_list_build
         CC_SETTEXTALIGN(1, 1, 0);
         script6888(2);
         if ((int5 == -1 as graphic)) {
@@ -87,20 +87,20 @@ function script13946(): void {
                 script14397(33882382, 24, 24, 0, (int1 + 3), 0, 0, script14389(530, int4));
                 CC_SETOP(1, "Toggle");
             } else {
-                CC_CREATE(comp(517, 268), 4, int0);
-                CC_CREATE(comp(517, 269), 4, int0);
+                CC_CREATE(comp(517, 268), 4, int0);  // bank:preset_list_status_inv
+                CC_CREATE(comp(517, 269), 4, int0);  // bank:preset_list_status_worn
                 script14397(33882382, 24, 24, 0, (int1 + 3), 0, 0, script14389(530, 1));
                 CC_SETOP(1, "Toggle");
             };
-            CC_CREATE(comp(517, 266), 4, IF_GETNEXTSUBID(comp(517, 266)));
+            CC_CREATE(comp(517, 266), 4, IF_GETNEXTSUBID(comp(517, 266)));  // bank:preset_list_build
             CC_SETSIZE(50, 30, 0, 0);
             CC_SETPOSITION(0, int1, 2, 0);
             CC_SETONMOUSEREPEAT(callback(script8799, string2, -2147483645, -2147483643));
         } else {
-            CC_CREATE(comp(517, 268), 4, int0);
-            CC_CREATE(comp(517, 269), 4, int0);
-            CC_CREATE(comp(517, 270), 4, int0);
-            script15929(33882378, IF_GETNEXTSUBID(comp(517, 266)), 0, int1, 0, 0, 0, 30, 1, 0, int0);
+            CC_CREATE(comp(517, 268), 4, int0);  // bank:preset_list_status_inv
+            CC_CREATE(comp(517, 269), 4, int0);  // bank:preset_list_status_worn
+            CC_CREATE(comp(517, 270), 4, int0);  // bank:preset_list_status_bob
+            script15929(33882378, IF_GETNEXTSUBID(comp(517, 266)), 0, int1, 0, 0, 0, 30, 1, 0, int0);  // bank:preset_list_build
         };
         int1 = (int1 + (30 + 2));
         int0 = (int0 + 1);

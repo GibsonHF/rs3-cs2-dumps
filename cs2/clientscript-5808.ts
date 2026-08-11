@@ -1,14 +1,14 @@
 //
 function script5808(int0: number, int1: number): void {
-    var int2 = comp(1457, 21);
-    var int3 = comp(1457, 22);
-    var int4 = comp(1457, 20);
-    var int5 = comp(1457, 23);
+    var int2 = comp(1457, 21);  // toplevel_v2_parent_suboverlay_prayer:stats_info_title_layer
+    var int3 = comp(1457, 22);  // toplevel_v2_parent_suboverlay_prayer:stats_info_info_layer
+    var int4 = comp(1457, 20);  // toplevel_v2_parent_suboverlay_prayer:stats_no_info_layer
+    var int5 = comp(1457, 23);  // toplevel_v2_parent_suboverlay_prayer:stats_divider
     if ((int0 == 95551497)) {
-        int2 = comp(1458, 13);
-        int3 = comp(1458, 14);
-        int4 = comp(1458, 12);
-        int5 = comp(1458, 15);
+        int2 = comp(1458, 13);  // toplevel_v2_prayer:stats_info_title_layer
+        int3 = comp(1458, 14);  // toplevel_v2_prayer:stats_info_info_layer
+        int4 = comp(1458, 12);  // toplevel_v2_prayer:stats_no_info_layer
+        int5 = comp(1458, 15);  // toplevel_v2_prayer:stats_divider
     };
     CC_DELETEALL(int2);
     CC_DELETEALL(int3);

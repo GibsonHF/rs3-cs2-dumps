@@ -46,9 +46,9 @@ function script7095(): void {
             case 53296:
             case 53297:
             case 53298: {
-                IF_SETTEXT("-", comp(1251, 10));
-                IF_SETONTIMER(callback(), comp(1251, 11));
-                IF_SETONTIMER(callback(), comp(1251, 3));
+                IF_SETTEXT("-", comp(1251, 10));  // makex2012_progress_dialogue:time_text
+                IF_SETONTIMER(callback(), comp(1251, 11));  // makex2012_progress_dialogue:production_dialog_control
+                IF_SETONTIMER(callback(), comp(1251, 3));  // makex2012_progress_dialogue:cancel_layer
                 return;
             }
         };
@@ -65,9 +65,9 @@ function script7095(): void {
         script7098();
         return;
     };
-    IF_SETTEXT(string0, comp(1251, 10));
-    IF_SETONTIMER(callback(script7099, 81985546, (int1 - 1), (CLIENTCLOCK() + int2)), comp(1251, 11));
+    IF_SETTEXT(string0, comp(1251, 10));  // makex2012_progress_dialogue:time_text
+    IF_SETONTIMER(callback(script7099, 81985546, (int1 - 1), (CLIENTCLOCK() + int2)), comp(1251, 11));  // makex2012_progress_dialogue:production_dialog_control
     var int3 = (CLIENTCLOCK() + (((varclient_5831 + varclient_2227) * 30) * 2));
-    IF_SETONTIMER(callback(script7097, int3), comp(1251, 3));
+    IF_SETONTIMER(callback(script7097, int3), comp(1251, 3));  // makex2012_progress_dialogue:cancel_layer
     return;
 }

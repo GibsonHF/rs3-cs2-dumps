@@ -1,6 +1,6 @@
 //
 function script18219(int0: number): void {
-    IF_SETHIDE(int0, comp(1343, 30));
+    IF_SETHIDE(int0, comp(1343, 30));  // jobs_main:reward_layer
     if ((int0 == false)) {
         SOUND_VORBIS_VOLUME(52153 as vorbis, 1, 0, 100);
         script18221();

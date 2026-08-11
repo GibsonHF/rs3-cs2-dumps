@@ -3,64 +3,64 @@ function script9673(int0: number, int1: number, int2: number, int3: number, int4
     if ((int2 == -1 as obj)) {
         return;
     };
-    var int7 = comp(1253, 519);
+    var int7 = comp(1253, 519);  // wheel_of_fortune:ticker_tooltip_layer
     var int8 = 82117149;
     IF_SETHIDE(false, int7);
-    IF_SETOBJECT(int2, int3, comp(1253, 538));
-    IF_SETTEXT(OC_NAME(int2), comp(1253, 534));
-    IF_SETTEXT(string0, comp(1253, 535));
-    var int9 = (PARAHEIGHT(string0, IF_GETWIDTH(comp(1253, 535)), 26 as fontmetrics) * script11432(26));
+    IF_SETOBJECT(int2, int3, comp(1253, 538));  // wheel_of_fortune:ticker_tooltip_object
+    IF_SETTEXT(OC_NAME(int2), comp(1253, 534));  // wheel_of_fortune:ticker_tooltip_name
+    IF_SETTEXT(string0, comp(1253, 535));  // wheel_of_fortune:ticker_tooltip_description
+    var int9 = (PARAHEIGHT(string0, IF_GETWIDTH(comp(1253, 535)), 26 as fontmetrics) * script11432(26));  // wheel_of_fortune:ticker_tooltip_description
     if ((int9 > 56)) {
-        IF_SETSIZE(IF_GETWIDTH(comp(1253, 519)), (220 + (int9 - 56)), 0, 0, comp(1253, 519));
+        IF_SETSIZE(IF_GETWIDTH(comp(1253, 519)), (220 + (int9 - 56)), 0, 0, comp(1253, 519));  // wheel_of_fortune:ticker_tooltip_layer
     } else {
-        IF_SETSIZE(IF_GETWIDTH(comp(1253, 519)), 220, 0, 0, comp(1253, 519));
+        IF_SETSIZE(IF_GETWIDTH(comp(1253, 519)), 220, 0, 0, comp(1253, 519));  // wheel_of_fortune:ticker_tooltip_layer
     };
     switch (int4) {
         case 1: {
-            IF_SETTEXT("Common", comp(1253, 536));
+            IF_SETTEXT("Common", comp(1253, 536));  // wheel_of_fortune:ticker_tooltip_rarity
             break;
         }
         case 2: {
-            IF_SETTEXT("Fairly Common", comp(1253, 536));
+            IF_SETTEXT("Fairly Common", comp(1253, 536));  // wheel_of_fortune:ticker_tooltip_rarity
             break;
         }
         case 3: {
-            IF_SETTEXT("Uncommon", comp(1253, 536));
+            IF_SETTEXT("Uncommon", comp(1253, 536));  // wheel_of_fortune:ticker_tooltip_rarity
             break;
         }
         case 4: {
-            IF_SETTEXT("Rare", comp(1253, 536));
+            IF_SETTEXT("Rare", comp(1253, 536));  // wheel_of_fortune:ticker_tooltip_rarity
             break;
         }
         case 5: {
-            IF_SETTEXT("Very Rare", comp(1253, 536));
+            IF_SETTEXT("Very Rare", comp(1253, 536));  // wheel_of_fortune:ticker_tooltip_rarity
             break;
         }
         case 6: {
-            IF_SETTEXT("Super Rare", comp(1253, 536));
+            IF_SETTEXT("Super Rare", comp(1253, 536));  // wheel_of_fortune:ticker_tooltip_rarity
             break;
         }
         case 7: {
-            IF_SETTEXT("Ultra Rare", comp(1253, 536));
+            IF_SETTEXT("Ultra Rare", comp(1253, 536));  // wheel_of_fortune:ticker_tooltip_rarity
             break;
         }
     };
     if (((int5 == 8) || (int5 == 10))) {
-        IF_SETGRAPHIC(script8948(int4), comp(1253, 539));
+        IF_SETGRAPHIC(script8948(int4), comp(1253, 539));  // wheel_of_fortune:ticker_tooltip_rarity_graphic
     } else {
-        IF_SETGRAPHIC(script8948(int4), comp(1253, 539));
+        IF_SETGRAPHIC(script8948(int4), comp(1253, 539));  // wheel_of_fortune:ticker_tooltip_rarity_graphic
     };
-    IF_SETTEXT(enum_getvalue(0, 36, 16539 as cs2enum, int5), comp(1253, 537));
-    IF_SETGRAPHIC(enum_getvalue(0, 23, 16540, int5), comp(1253, 540));
+    IF_SETTEXT(enum_getvalue(0, 36, 16539 as cs2enum, int5), comp(1253, 537));  // wheel_of_fortune:ticker_tooltip_category
+    IF_SETGRAPHIC(enum_getvalue(0, 23, 16540, int5), comp(1253, 540));  // wheel_of_fortune:ticker_tooltip_category_graphic
     IF_SETSIZE(1, 1, 0, 0, int8);
     if ((script5828("", int2, -1, 27827, int8, 82117161, -1, -1) > 0)) {
         IF_SETHIDE(false, int8);
-        IF_SETHIDE(false, comp(1253, 553));
-        IF_SETHIDE(false, comp(1253, 552));
+        IF_SETHIDE(false, comp(1253, 553));  // wheel_of_fortune:ticker_tooltip_optext_layer
+        IF_SETHIDE(false, comp(1253, 552));  // wheel_of_fortune:ticker_tooltip_extra_title
         IF_SETSIZE((IF_GETWIDTH(int8) + 16), (25 + IF_GETHEIGHT(int8)), 0, 0, int8);
-        IF_SETPOSITION((16 / 2), ((16 / 2) + 25), 0, 0, comp(1253, 553));
+        IF_SETPOSITION((16 / 2), ((16 / 2) + 25), 0, 0, comp(1253, 553));  // wheel_of_fortune:ticker_tooltip_optext_layer
     } else {
-        IF_SETHIDE(true, comp(1253, 541));
+        IF_SETHIDE(true, comp(1253, 541));  // wheel_of_fortune:ticker_tooltip_extra_layer
     };
     var int10 = 0;
     var int11 = 0;
@@ -100,9 +100,9 @@ function script9673(int0: number, int1: number, int2: number, int3: number, int4
             int21 = MIN(int21, ((int23 - 35) / 2));
         };
         int21 = ((int21 + (int23 / 2)) - 9);
-        IF_SETPOSITION(int21, 0, 0, 2, comp(1253, 531));
-        IF_SETSIZE((int21 - 17), 18, 0, 0, comp(1253, 528));
-        IF_SETSIZE(((int23 - int21) - 34), 18, 0, 0, comp(1253, 529));
+        IF_SETPOSITION(int21, 0, 0, 2, comp(1253, 531));  // wheel_of_fortune:ticker_tooltip_arrow
+        IF_SETSIZE((int21 - 17), 18, 0, 0, comp(1253, 528));  // wheel_of_fortune:ticker_tooltip_border_sw
+        IF_SETSIZE(((int23 - int21) - 34), 18, 0, 0, comp(1253, 529));  // wheel_of_fortune:ticker_tooltip_border_se
     } else if ((int1 == -1)) {
         if ((IF_FIND(int0) == 1)) {
             [int15, int16, int17, int18] = [script1743(), script1744(), CC_GETWIDTH(), CC_GETHEIGHT()];
@@ -118,9 +118,9 @@ function script9673(int0: number, int1: number, int2: number, int3: number, int4
                 int21 = MIN(int21, ((int23 - 35) / 2));
             };
             int21 = ((int21 + (int23 / 2)) - 9);
-            IF_SETPOSITION(int21, 0, 0, 2, comp(1253, 531));
-            IF_SETSIZE((int21 - 17), 18, 0, 0, comp(1253, 528));
-            IF_SETSIZE(((int23 - int21) - 34), 18, 0, 0, comp(1253, 529));
+            IF_SETPOSITION(int21, 0, 0, 2, comp(1253, 531));  // wheel_of_fortune:ticker_tooltip_arrow
+            IF_SETSIZE((int21 - 17), 18, 0, 0, comp(1253, 528));  // wheel_of_fortune:ticker_tooltip_border_sw
+            IF_SETSIZE(((int23 - int21) - 34), 18, 0, 0, comp(1253, 529));  // wheel_of_fortune:ticker_tooltip_border_se
         } else {
             IF_SETHIDE(true, int7);
         };

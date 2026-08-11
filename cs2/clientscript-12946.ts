@@ -15,8 +15,8 @@ function script12946(): void {
     int8 = (((int6 - 1) / 2) + 1);
     var string0 = "";
     int9 = script5276(int6, int8);
-    var int10 = ((IF_GETHEIGHT(comp(1808, 23)) - (int4 * (int8 - 1))) / int8);
-    var int11 = ((IF_GETWIDTH(comp(1808, 23)) - (int4 * (int9 - 1))) / int9);
+    var int10 = ((IF_GETHEIGHT(comp(1808, 23)) - (int4 * (int8 - 1))) / int8);  // event_episodes:episode_layers
+    var int11 = ((IF_GETWIDTH(comp(1808, 23)) - (int4 * (int9 - 1))) / int9);  // event_episodes:episode_layers
     var int12 = 0;
     while ((int5 < int6)) {
         stack(57344);

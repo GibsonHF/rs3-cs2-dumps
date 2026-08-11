@@ -21,20 +21,20 @@ function script3116(): void {
     };
     int0 = WORLDLIST_SPECIFIC_THISWORLD();
     if ((TESTBIT(int0, 24) == 1)) {
-        IF_SETGRAPHIC(script20124(), comp(906, 64));
-        IF_SETCOLOUR(15777401, comp(906, 63));
+        IF_SETGRAPHIC(script20124(), comp(906, 64));  // lobbyscreen:current_icon
+        IF_SETCOLOUR(15777401, comp(906, 63));  // lobbyscreen:current_text
     } else if ((TESTBIT(int0, 0) == 1)) {
-        IF_SETGRAPHIC(23835 as graphic, comp(906, 64));
-        IF_SETCOLOUR(15777401, comp(906, 63));
+        IF_SETGRAPHIC(23835 as graphic, comp(906, 64));  // lobbyscreen:current_icon
+        IF_SETCOLOUR(15777401, comp(906, 63));  // lobbyscreen:current_text
     } else {
-        IF_SETGRAPHIC(23837 as graphic, comp(906, 64));
-        IF_SETCOLOUR(16777215, comp(906, 63));
+        IF_SETGRAPHIC(23837 as graphic, comp(906, 64));  // lobbyscreen:current_icon
+        IF_SETCOLOUR(16777215, comp(906, 63));  // lobbyscreen:current_text
     };
-    IF_SETHIDE(false, comp(906, 64));
+    IF_SETHIDE(false, comp(906, 64));  // lobbyscreen:current_icon
     var string0 = `World ${inttostring(MAP_WORLD(), 10)}`;
-    IF_SETTEXT(string0, comp(906, 63));
-    IF_SETTEXTALIGN(1, 1, 0, comp(906, 63));
-    IF_SETONMOUSEREPEAT(callback(script10072, MAP_WORLD(), -2147483645, -1), comp(906, 63));
+    IF_SETTEXT(string0, comp(906, 63));  // lobbyscreen:current_text
+    IF_SETTEXTALIGN(1, 1, 0, comp(906, 63));  // lobbyscreen:current_text
+    IF_SETONMOUSEREPEAT(callback(script10072, MAP_WORLD(), -2147483645, -1), comp(906, 63));  // lobbyscreen:current_text
     script3064(1);
     return;
 }

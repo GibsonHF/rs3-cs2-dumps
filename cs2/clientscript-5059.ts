@@ -15,7 +15,7 @@ function script5059(int0: number, int1: number, int2: number): void {
             CC_SETONMOUSEOVER(callback());
             CC_SETONMOUSELEAVE(callback());
         };
-        if ((IF_GETHIDE(comp(1111, 18)) == true)) {
+        if ((IF_GETHIDE(comp(1111, 18)) == true)) {  // clan_field_editor:details_container
             script5063(int0, int1, 0);
             if ((CC_FIND(int0, (int3 + 1)) == 1)) {
                 CC_SETONMOUSEOVER(callback(script5061, -2147483645, int1, 1, 0));

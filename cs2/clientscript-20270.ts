@@ -18,9 +18,9 @@ function script20270(): void {
     };
     var string1 = "Activate";
     if (((PLAYERMEMBER() == 1) || (int3 == 0))) {
-        IF_SETHIDE(false, comp(1443, 27));
-        IF_SETHIDE(true, comp(1443, 26));
-        IF_SETTEXT(string0, comp(1443, 42));
+        IF_SETHIDE(false, comp(1443, 27));  // league_parent_relics:passives_relic_title
+        IF_SETHIDE(true, comp(1443, 26));  // league_parent_relics:bg_passive
+        IF_SETTEXT(string0, comp(1443, 42));  // league_parent_relics:overview_confirm_unlock_spinner
         stack(21096);
         stack(CLIENTCLOCK());
         stack(94568493);
@@ -30,7 +30,7 @@ function script20270(): void {
         IF_SETHIDE(false, comp(1443, 46));
         IF_SETTEXT("5...", comp(1443, 45));
         IF_SETENABLED(false, comp(1443, 45));
-        IF_SETENABLED(false, comp(1443, 38));
+        IF_SETENABLED(false, comp(1443, 38));  // league_parent_relics:body_confirm
     } else {
         stack(int2);
         script21097();

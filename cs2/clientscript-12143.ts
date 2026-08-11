@@ -4,14 +4,14 @@ function script12143(int0: number, int1: number): void {
         return;
     };
     if ((int0 == 1)) {
-        IF_SETHIDE(true, comp(1708, 95));
-        IF_SETHIDE(false, comp(1708, 96));
-        IF_SETMODELANIM(27991 as seq, comp(1708, 96));
+        IF_SETHIDE(true, comp(1708, 95));  // invent_discovery:lightbulb_model
+        IF_SETHIDE(false, comp(1708, 96));  // invent_discovery:lightbulb_cracked_model
+        IF_SETMODELANIM(27991 as seq, comp(1708, 96));  // invent_discovery:lightbulb_cracked_model
         SOUND_VORBIS_RATE(12225 as vorbis, 1, 0, 240, 350);
     } else {
-        IF_SETMODELANIM(27992 as seq, comp(1708, 95));
+        IF_SETMODELANIM(27992 as seq, comp(1708, 95));  // invent_discovery:lightbulb_model
         SOUND_VORBIS_RATE(12230 as vorbis, 1, 0, 240, 270);
     };
-    IF_SETONTIMER(callback(), comp(1708, 55));
+    IF_SETONTIMER(callback(), comp(1708, 55));  // invent_discovery:workbench_overlay
     return;
 }

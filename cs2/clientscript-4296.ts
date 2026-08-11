@@ -21,9 +21,9 @@ function script4296(): void {
     };
     var int1 = SCALE(varbitplayer_40594, int0, 100);
     var int2 = SCALE(350, 100, int1);
-    if ((IF_GETWIDTH(comp(1185, 10)) != int2)) {
-        IF_SETSIZE(int2, 33, 0, 0, comp(1185, 10));
-        IF_SETONTIMER(callback(script4297, int2, int1), comp(1185, 6));
+    if ((IF_GETWIDTH(comp(1185, 10)) != int2)) {  // nature_boss_healthbar_second_bar:health_bar
+        IF_SETSIZE(int2, 33, 0, 0, comp(1185, 10));  // nature_boss_healthbar_second_bar:health_bar
+        IF_SETONTIMER(callback(script4297, int2, int1), comp(1185, 6));  // nature_boss_healthbar_second_bar:health_diamond_left
     };
     var int3 = varbitplayer_40594;
     if ((varbitplayer_27168 == 1)) {
@@ -51,12 +51,12 @@ function script4296(): void {
     if ((varbitplayer_40594 > 0)) {
         if ((varbitplayer_40595 == 1)) {
             string0 = inttostring(SCALE(int3, 20000, 10), 10);
-            IF_SETTEXT(`${string0}%`, comp(1185, 13));
+            IF_SETTEXT(`${string0}%`, comp(1185, 13));  // nature_boss_healthbar_second_bar:tooltip_healthamount
         } else {
-            IF_SETTEXT(string0, comp(1185, 13));
+            IF_SETTEXT(string0, comp(1185, 13));  // nature_boss_healthbar_second_bar:tooltip_healthamount
         };
     } else {
-        IF_SETTEXT("", comp(1185, 13));
+        IF_SETTEXT("", comp(1185, 13));  // nature_boss_healthbar_second_bar:tooltip_healthamount
     };
     return;
 }

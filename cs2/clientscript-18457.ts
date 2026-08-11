@@ -3,17 +3,17 @@ function script18457(int0: number): void {
     if ((int0 == -1)) {
         return;
     };
-    IF_SETHIDE(false, comp(1280, 36));
-    IF_SETHIDE(false, comp(1280, 39));
-    IF_SETHIDE(true, comp(1280, 38));
+    IF_SETHIDE(false, comp(1280, 36));  // buff_select_event:popup_layer
+    IF_SETHIDE(false, comp(1280, 39));  // buff_select_event:tutorial_window_layer
+    IF_SETHIDE(true, comp(1280, 38));  // buff_select_event:buff_confirm_window_layer
     var string0 = "";
-    if ((IF_FIND(comp(1280, 41)) == 1)) {
+    if ((IF_FIND(comp(1280, 41)) == 1)) {  // buff_select_event:tutorial_title_text
         CC_SETTEXT(struct_getparam(int0, 6135));
     };
     var int1 = 0;
     var int2 = 83886123;
     var int3 = 83886122;
-    if ((IF_FIND(comp(1280, 44)) == 1)) {
+    if ((IF_FIND(comp(1280, 44)) == 1)) {  // buff_select_event:tutorial_body_text
         string0 = struct_getparam(int0, 6136);
         if ((script18412() == 1)) {
             string0 = `${string0}<br><br>Ironman accounts cannot gain buffs from this event, but can log in each day to make progress toward unlocking the reward.`;

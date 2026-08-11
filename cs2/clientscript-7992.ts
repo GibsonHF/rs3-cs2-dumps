@@ -5,7 +5,7 @@ function script7992(): void {
     };
     var int0 = script2581(33098);
     if ((int0 == 1)) {
-        IF_SETONTIMER(callback(), comp(1477, 920));
+        IF_SETONTIMER(callback(), comp(1477, 920));  // toplevel_v2:fps_monitor
         return;
     };
     var int1 = 0;
@@ -16,10 +16,10 @@ function script7992(): void {
         return;
     };
     if ((int2 > 144)) {
-        IF_OPENSUBCLIENT(comp(1477, 879), 1423);
+        IF_OPENSUBCLIENT(comp(1477, 879), 1423);  // toplevel_v2:confirm_save_popup_layer
         varclient_2824 = 1;
-        IF_SETTEXT("It looks like you have a very high frame-rate at the moment which means your GPU may be doing more work than your monitor can display.<br><br>You might like to turn up your graphics settings [if they are not already on ultra], or turn on VSync which will reduce the extra work your GPU is doing.", comp(1423, 6));
-        IF_SETONOP(callback(script132), comp(1423, 5));
+        IF_SETTEXT("It looks like you have a very high frame-rate at the moment which means your GPU may be doing more work than your monitor can display.<br><br>You might like to turn up your graphics settings [if they are not already on ultra], or turn on VSync which will reduce the extra work your GPU is doing.", comp(1423, 6));  // fps_warning:info_text
+        IF_SETONOP(callback(script132), comp(1423, 5));  // fps_warning:button_op
     };
     return;
 }

@@ -11,13 +11,13 @@ function script13761(int0: number, int1: number, int2: number): void {
     };
     var int3 = 0;
     var int4 = 0;
-    IF_SETHIDE(false, comp(1029, 77));
-    IF_SETGRAPHIC(int0, comp(1029, 79));
-    [int3, int4] = IF_GETGRAPHICDIMENSIONS(comp(1029, 79));
+    IF_SETHIDE(false, comp(1029, 77));  // polls:polls_survey_image_box
+    IF_SETGRAPHIC(int0, comp(1029, 79));  // polls:polls_survey_image_graphic
+    [int3, int4] = IF_GETGRAPHICDIMENSIONS(comp(1029, 79));  // polls:polls_survey_image_graphic
     if ((int3 < 350)) {
-        IF_SETSIZE(250, 151, 0, 0, comp(1029, 79));
+        IF_SETSIZE(250, 151, 0, 0, comp(1029, 79));  // polls:polls_survey_image_graphic
     } else {
-        IF_SETSIZE(350, 197, 0, 0, comp(1029, 79));
+        IF_SETSIZE(350, 197, 0, 0, comp(1029, 79));  // polls:polls_survey_image_graphic
     };
     if ((CC_FIND(int2, int1) == 1)) {
         CC_SETCOLOUR(16771892);

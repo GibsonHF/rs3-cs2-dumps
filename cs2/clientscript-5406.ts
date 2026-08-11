@@ -1,10 +1,10 @@
 //
 function script5406(int0: number, int1: number): void {
-    IF_SETHIDE(true, comp(1172, 2));
-    IF_SETHIDE(true, comp(1172, 5));
-    IF_SETHIDE(false, comp(1172, 7));
+    IF_SETHIDE(true, comp(1172, 2));  // dom_taunt_overlay:boss_name_layer
+    IF_SETHIDE(true, comp(1172, 5));  // dom_taunt_overlay:player_name_layer
+    IF_SETHIDE(false, comp(1172, 7));  // dom_taunt_overlay:win_lose_layer
     if ((int0 == 1)) {
-        IF_SETTEXT("Yeah! You won!", comp(1172, 8));
+        IF_SETTEXT("Yeah! You won!", comp(1172, 8));  // dom_taunt_overlay:win_lose
         switch (RANDOM(2)) {
             case 0: {
                 SOUND_VORBIS_VOLUME(7897 as vorbis, 1, 0, 255);
@@ -16,12 +16,12 @@ function script5406(int0: number, int1: number): void {
             }
         };
         if ((((varbitplayer_3655 > 0) || (varbitplayer_3656 > 0)) || (varbitplayer_3659 != 0))) {
-            IF_SETTEXT(`You now have a dominion factor of: ${script46(int1, ",")}`, comp(1172, 10));
+            IF_SETTEXT(`You now have a dominion factor of: ${script46(int1, ",")}`, comp(1172, 10));  // dom_taunt_overlay:points_result
         } else {
-            IF_SETTEXT("", comp(1172, 10));
+            IF_SETTEXT("", comp(1172, 10));  // dom_taunt_overlay:points_result
         };
     } else {
-        IF_SETTEXT("Unlucky, you lost!", comp(1172, 8));
+        IF_SETTEXT("Unlucky, you lost!", comp(1172, 8));  // dom_taunt_overlay:win_lose
         switch (RANDOM(2)) {
             case 0: {
                 SOUND_VORBIS_VOLUME(7904 as vorbis, 1, 0, 255);
@@ -33,9 +33,9 @@ function script5406(int0: number, int1: number): void {
             }
         };
         if ((((varbitplayer_3655 > 0) || (varbitplayer_3656 > 0)) || (varbitplayer_3659 != 0))) {
-            IF_SETTEXT(`You leave with a dominion factor of: ${script46(int1, ",")}`, comp(1172, 10));
+            IF_SETTEXT(`You leave with a dominion factor of: ${script46(int1, ",")}`, comp(1172, 10));  // dom_taunt_overlay:points_result
         } else {
-            IF_SETTEXT("", comp(1172, 10));
+            IF_SETTEXT("", comp(1172, 10));  // dom_taunt_overlay:points_result
         };
     };
     return;

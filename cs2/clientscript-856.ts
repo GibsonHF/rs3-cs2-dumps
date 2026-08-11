@@ -1,6 +1,6 @@
 //
 function script856(): void {
-    if ((IF_GETWIDTH(comp(202, 11)) == 147)) {
+    if ((IF_GETWIDTH(comp(202, 11)) == 147)) {  // trh149:progress_bar_4
         return;
     };
     var int0 = 1;
@@ -75,6 +75,6 @@ function script856(): void {
             break;
         }
     };
-    IF_SETONTIMER(callback(script857, int6, int5, int2), comp(202, 2));
+    IF_SETONTIMER(callback(script857, int6, int5, int2), comp(202, 2));  // trh149:progress_layer
     return;
 }

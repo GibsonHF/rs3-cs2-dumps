@@ -1,5 +1,5 @@
 //
 function script7618(): void {
-    IF_SETONTIMER(callback(script7619, -2147483645, 91881477, CLIENTCLOCK()), comp(1402, 3));
+    IF_SETONTIMER(callback(script7619, -2147483645, 91881477, CLIENTCLOCK()), comp(1402, 3));  // combatv2_teleother:warning
     return;
 }

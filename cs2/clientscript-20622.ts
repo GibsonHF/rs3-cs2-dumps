@@ -1,17 +1,17 @@
 //
 function script20622(): void {
-    CC_DELETEALL(comp(1491, 3));
+    CC_DELETEALL(comp(1491, 3));  // marketplace_currency_banner:marketplace_tab_fakeop_layer
     var int0 = -1;
     var int1 = script20470();
     int0 = (int0 + 1);
     while ((int0 < int1)) {
-        CC_CREATE(comp(1491, 3), 5, int0);
+        CC_CREATE(comp(1491, 3), 5, int0);  // marketplace_currency_banner:marketplace_tab_fakeop_layer
     };
     int0 = -1;
     int1 = script20471();
     int0 = (int0 + 1);
     while ((int0 < int1)) {
-        CC_CREATE(comp(1491, 2), 5, int0);
+        CC_CREATE(comp(1491, 2), 5, int0);  // marketplace_currency_banner:marketplace_store_navigation_fakeop_layer
     };
     return;
 }

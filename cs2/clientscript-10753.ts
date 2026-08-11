@@ -11,7 +11,7 @@ function script10753(): void {
     };
     string0 = strconcat(string0, "Completed laps: ");
     string0 = strconcat(string0, string1);
-    IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643), comp(1550, 4));
-    IF_SETONTIMER(callback(script10921), comp(1550, 4));
+    IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643), comp(1550, 4));  // elfcity_hefin_course_overlay:time
+    IF_SETONTIMER(callback(script10921), comp(1550, 4));  // elfcity_hefin_course_overlay:time
     return;
 }

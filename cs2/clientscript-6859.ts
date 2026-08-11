@@ -34,9 +34,9 @@ function script6859(): void {
             break;
         }
     };
-    IF_SETGRAPHIC(int0, comp(1358, 26));
-    IF_SETGRAPHIC(int1, comp(1358, 17));
-    IF_SETGRAPHIC(int2, comp(1358, 19));
-    IF_SETGRAPHIC(int3, comp(1358, 15));
+    IF_SETGRAPHIC(int0, comp(1358, 26));  // sizzling_choose_your_fate:dodging_death_text
+    IF_SETGRAPHIC(int1, comp(1358, 17));  // sizzling_choose_your_fate:instakill_dart_text
+    IF_SETGRAPHIC(int2, comp(1358, 19));  // sizzling_choose_your_fate:healing_box_text
+    IF_SETGRAPHIC(int3, comp(1358, 15));  // sizzling_choose_your_fate:deposit_box_text
     return;
 }

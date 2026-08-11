@@ -1,11 +1,11 @@
 //
 function script3869(): void {
-    IF_SETTEXT(`Closest lodestone: <col=FFFFFF>${struct_getparam(enum_getvalue(0, 73, 13200 as cs2enum, struct_getparam(varclient_4485, 1378)), 2794)}</col>`, comp(753, 121));
+    IF_SETTEXT(`Closest lodestone: <col=FFFFFF>${struct_getparam(enum_getvalue(0, 73, 13200 as cs2enum, struct_getparam(varclient_4485, 1378)), 2794)}</col>`, comp(753, 121));  // bslay_boss_info:lodestone_text
     IF_SETTEXT(struct_getparam(varclient_4485, 1348), 49348619);
-    IF_SETTEXT(`Recommended Combat Level: <col=FFFFFF>${inttostring(struct_getparam(varclient_4485, 1353), 10)}</col>`, comp(753, 16));
-    IF_SETTEXT(`Recommended Group Size: <col=FFFFFF>${inttostring(struct_getparam(varclient_4485, 2237), 10)}</col>`, comp(753, 18));
+    IF_SETTEXT(`Recommended Combat Level: <col=FFFFFF>${inttostring(struct_getparam(varclient_4485, 1353), 10)}</col>`, comp(753, 16));  // bslay_boss_info:boss_rec_cbl_text
+    IF_SETTEXT(`Recommended Group Size: <col=FFFFFF>${inttostring(struct_getparam(varclient_4485, 2237), 10)}</col>`, comp(753, 18));  // bslay_boss_info:group_size_text
     script11074();
-    CC_DELETEALL(comp(753, 34));
+    CC_DELETEALL(comp(753, 34));  // bslay_boss_info:boss_req_build_layer
     var int0 = 0;
     var int1 = 0;
     var int2 = 0;
@@ -177,16 +177,16 @@ function script3869(): void {
             [int0, int1] = script3870(int6, int7, int8, string0, int0, int1);
         };
     };
-    CC_DELETEALL(comp(753, 35));
-    IF_SETSCROLLPOS(0, 0, comp(753, 34));
-    if (((int1 + 36) > IF_GETHEIGHT(comp(753, 34)))) {
-        IF_SETSCROLLSIZE(0, (int1 + 36), comp(753, 34));
+    CC_DELETEALL(comp(753, 35));  // bslay_boss_info:scroll_layer
+    IF_SETSCROLLPOS(0, 0, comp(753, 34));  // bslay_boss_info:boss_req_build_layer
+    if (((int1 + 36) > IF_GETHEIGHT(comp(753, 34)))) {  // bslay_boss_info:boss_req_build_layer
+        IF_SETSCROLLSIZE(0, (int1 + 36), comp(753, 34));  // bslay_boss_info:boss_req_build_layer
         script7791(49348643, 49348642);
     } else {
-        IF_SETSCROLLSIZE(0, 0, comp(753, 34));
+        IF_SETSCROLLSIZE(0, 0, comp(753, 34));  // bslay_boss_info:boss_req_build_layer
     };
-    if ((IF_GETNEXTSUBID(comp(753, 34)) == 0)) {
-        CC_CREATE(comp(753, 34), 4, IF_GETNEXTSUBID(comp(753, 34)));
+    if ((IF_GETNEXTSUBID(comp(753, 34)) == 0)) {  // bslay_boss_info:boss_req_build_layer
+        CC_CREATE(comp(753, 34), 4, IF_GETNEXTSUBID(comp(753, 34)));  // bslay_boss_info:boss_req_build_layer
         CC_SETPOSITION(0, 0, 1, 1);
         CC_SETSIZE(0, 0, 1, 1);
         CC_SETTEXT("There are no special requirements.");
@@ -195,19 +195,19 @@ function script3869(): void {
         CC_SETTEXTALIGN(0, 1, 0);
     };
     if ((struct_getparam(varclient_4485, 3038) != -1)) {
-        IF_SETGRAPHIC(struct_getparam(varclient_4485, 3038), comp(753, 39));
+        IF_SETGRAPHIC(struct_getparam(varclient_4485, 3038), comp(753, 39));  // bslay_boss_info:npc_background
     } else {
-        IF_SETGRAPHIC(-1 as graphic, comp(753, 39));
+        IF_SETGRAPHIC(-1 as graphic, comp(753, 39));  // bslay_boss_info:npc_background
     };
-    IF_SETNPCMODEL(struct_getparam(varclient_4485, 1347), comp(753, 40));
-    IF_SETMODELANIM(BAS_GETANIM_READY(varclient_4484), comp(753, 40));
-    IF_SETMODELANGLE(0, struct_getparam(varclient_4485, 3041), 0, 0, 0, struct_getparam(varclient_4485, 3040), comp(753, 40));
-    IF_SETTEXT(`Combat Level: <col=FFFFFF>${inttostring(struct_getparam(varclient_4485, 2238), 10)}</col>`, comp(753, 52));
+    IF_SETNPCMODEL(struct_getparam(varclient_4485, 1347), comp(753, 40));  // bslay_boss_info:boss_model
+    IF_SETMODELANIM(BAS_GETANIM_READY(varclient_4484), comp(753, 40));  // bslay_boss_info:boss_model
+    IF_SETMODELANGLE(0, struct_getparam(varclient_4485, 3041), 0, 0, 0, struct_getparam(varclient_4485, 3040), comp(753, 40));  // bslay_boss_info:boss_model
+    IF_SETTEXT(`Combat Level: <col=FFFFFF>${inttostring(struct_getparam(varclient_4485, 2238), 10)}</col>`, comp(753, 52));  // bslay_boss_info:boss_combat_level
     var string1 = "";
     script12274();
-    IF_SETPOSITION(75, 0, 2, 1, comp(753, 54));
-    IF_SETPOSITION(0, 0, 2, 1, comp(753, 58));
-    IF_SETHIDE(true, comp(753, 62));
+    IF_SETPOSITION(75, 0, 2, 1, comp(753, 54));  // bslay_boss_info:boss_timed_death
+    IF_SETPOSITION(0, 0, 2, 1, comp(753, 58));  // bslay_boss_info:boss_death
+    IF_SETHIDE(true, comp(753, 62));  // bslay_boss_info:boss_death_hardmode
     var int10 = -1;
     var int11 = -1;
     [int10, int11] = script15912(varclient_4485);
@@ -236,8 +236,8 @@ function script3869(): void {
         string1 = TOSTRING_LOCALISED(varclient_4486, 1);
     };
     string0 = strconcat(string0, string1);
-    IF_SETONMOUSEREPEAT(callback(script8799, string0, 49348669, -1), comp(753, 58));
-    IF_SETTEXT(string1, comp(753, 60));
+    IF_SETONMOUSEREPEAT(callback(script8799, string0, 49348669, -1), comp(753, 58));  // bslay_boss_info:boss_death
+    IF_SETTEXT(string1, comp(753, 60));  // bslay_boss_info:boss_death_count
     var int12 = -1;
     if ((varclient_4487 != -1)) {
         int12 = script15909(varclient_4485);
@@ -269,15 +269,15 @@ function script3869(): void {
             string1 = TOSTRING_LOCALISED(varclient_4487, 1);
         };
         string0 = strconcat(string0, string1);
-        IF_SETONMOUSEREPEAT(callback(script8799, string0, 49348669, -1), comp(753, 62));
-        IF_SETTEXT(string1, comp(753, 64));
-        IF_SETPOSITION(0, 0, 0, 1, comp(753, 54));
-        IF_SETPOSITION(75, 0, 2, 1, comp(753, 58));
-        IF_SETHIDE(false, comp(753, 62));
-        IF_SETGRAPHIC(int12, comp(753, 65));
+        IF_SETONMOUSEREPEAT(callback(script8799, string0, 49348669, -1), comp(753, 62));  // bslay_boss_info:boss_death_hardmode
+        IF_SETTEXT(string1, comp(753, 64));  // bslay_boss_info:boss_death_count_hardmode
+        IF_SETPOSITION(0, 0, 0, 1, comp(753, 54));  // bslay_boss_info:boss_timed_death
+        IF_SETPOSITION(75, 0, 2, 1, comp(753, 58));  // bslay_boss_info:boss_death
+        IF_SETHIDE(false, comp(753, 62));  // bslay_boss_info:boss_death_hardmode
+        IF_SETGRAPHIC(int12, comp(753, 65));  // bslay_boss_info:boss_death_hardmode_graphic
     };
-    CC_DELETEALL(comp(753, 94));
+    CC_DELETEALL(comp(753, 94));  // bslay_boss_info:boss_loot_build_layer
     script10498(49348702, 49348703, 49348701, varclient_4485, 0, 0, 0);
-    IF_SETHIDE(false, comp(753, 7));
+    IF_SETHIDE(false, comp(753, 7));  // bslay_boss_info:boss_info_wrapper
     return;
 }

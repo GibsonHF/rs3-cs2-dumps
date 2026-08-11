@@ -10,7 +10,7 @@ function script14395(int0: number, int1: number): void {
         CC_SETONMOUSEREPEAT(callback(script14392, int1, int0, -2147483645, -2147483643));
         CC_SETONOP(callback(script14393, int0, -2147483645, -2147483643, -2147483644));
         CC_SETONDRAGCOMPLETE(callback(script14394, int0, -2147483645, -2147483643, -2147483642, -2147483641));
-        CC_SETDRAGGABLE(comp(517, 279), 1);
+        CC_SETDRAGGABLE(comp(517, 279), 1);  // bank:preset_inventory_layer
     };
     return;
 }

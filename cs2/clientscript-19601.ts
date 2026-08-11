@@ -3,7 +3,7 @@ function script19601(int0: number, int1: number, int2: number): void {
     var int3 = (int1 + int2);
     var int4 = int1;
     while ((int3 >= int0)) {
-        if (((CC_FIND(comp(1313, 75), int3) == 1) && (CC_FIND[1](comp(1313, 75), int4) == 1))) {
+        if (((CC_FIND(comp(1313, 75), int3) == 1) && (CC_FIND[1](comp(1313, 75), int4) == 1))) {  // group_ironman_storage:clan_inv
             if ((CC_GETINVOBJECT[1]() == 48447 as obj)) {
                 CC_SETOBJECT_NONUM(48447 as obj, 1);
             } else {
@@ -15,12 +15,12 @@ function script19601(int0: number, int1: number, int2: number): void {
     };
     int4 = (int0 + int2);
     while ((int0 < int4)) {
-        if ((CC_FIND(comp(1313, 75), int0) == 1)) {
+        if ((CC_FIND(comp(1313, 75), int0) == 1)) {  // group_ironman_storage:clan_inv
             CC_SETOBJECT_NONUM(48447 as obj, 0);
         };
         var int0 = (int0 + 1);
     };
-    IF_SETONTIMER(callback(script19597), comp(1313, 74));
+    IF_SETONTIMER(callback(script19597), comp(1313, 74));  // group_ironman_storage:clan_items_container
     if ((varplayer_11958 > int0)) {
         varplayer_11958 = (varplayer_11958 + int2);
     };

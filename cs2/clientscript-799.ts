@@ -1,106 +1,106 @@
 //
 function script799(): void {
-    IF_SETGRAPHIC(15330 as graphic, comp(193, 45));
-    IF_SETGRAPHIC(15330 as graphic, comp(193, 46));
-    IF_SETGRAPHIC(15330 as graphic, comp(193, 47));
-    IF_SETGRAPHIC(15330 as graphic, comp(193, 48));
-    IF_SETGRAPHIC(15330 as graphic, comp(193, 49));
-    IF_SETGRAPHIC(15330 as graphic, comp(193, 50));
-    IF_SETGRAPHIC(15330 as graphic, comp(193, 51));
-    IF_SETGRAPHIC(15330 as graphic, comp(193, 52));
-    IF_SETGRAPHIC(15330 as graphic, comp(193, 53));
-    IF_SETGRAPHIC(15330 as graphic, comp(193, 54));
-    IF_SETGRAPHIC(15330 as graphic, comp(193, 55));
-    IF_SETGRAPHIC(15330 as graphic, comp(193, 56));
-    IF_SETGRAPHIC(15330 as graphic, comp(193, 57));
-    IF_SETGRAPHIC(15330 as graphic, comp(193, 58));
-    IF_SETGRAPHIC(15330 as graphic, comp(193, 59));
-    IF_SETGRAPHIC(15330 as graphic, comp(193, 60));
-    IF_SETGRAPHIC(15330 as graphic, comp(193, 61));
-    IF_SETGRAPHIC(15330 as graphic, comp(193, 62));
-    IF_SETGRAPHIC(15330 as graphic, comp(193, 63));
-    IF_SETGRAPHIC(15330 as graphic, comp(193, 64));
-    IF_SETGRAPHIC(15332 as graphic, comp(193, 113));
-    IF_SETGRAPHIC(15332 as graphic, comp(193, 114));
-    IF_SETGRAPHIC(15332 as graphic, comp(193, 115));
-    IF_SETGRAPHIC(15332 as graphic, comp(193, 116));
-    IF_SETGRAPHIC(15332 as graphic, comp(193, 117));
-    IF_SETGRAPHIC(15332 as graphic, comp(193, 118));
-    IF_SETGRAPHIC(15332 as graphic, comp(193, 119));
-    IF_SETGRAPHIC(15332 as graphic, comp(193, 120));
-    IF_SETGRAPHIC(15332 as graphic, comp(193, 121));
-    IF_SETGRAPHIC(15332 as graphic, comp(193, 122));
-    IF_SETGRAPHIC(15332 as graphic, comp(193, 123));
-    IF_SETGRAPHIC(15332 as graphic, comp(193, 124));
-    IF_SETGRAPHIC(15332 as graphic, comp(193, 125));
-    IF_SETGRAPHIC(15332 as graphic, comp(193, 126));
-    IF_SETGRAPHIC(15334 as graphic, comp(193, 25));
-    IF_SETGRAPHIC(15334 as graphic, comp(193, 26));
-    IF_SETGRAPHIC(15334 as graphic, comp(193, 27));
-    IF_SETGRAPHIC(15334 as graphic, comp(193, 28));
-    IF_SETGRAPHIC(15334 as graphic, comp(193, 29));
-    IF_SETGRAPHIC(15334 as graphic, comp(193, 30));
-    IF_SETGRAPHIC(15334 as graphic, comp(193, 31));
-    IF_SETGRAPHIC(15334 as graphic, comp(193, 32));
-    IF_SETGRAPHIC(15334 as graphic, comp(193, 33));
-    IF_SETGRAPHIC(15334 as graphic, comp(193, 34));
-    IF_SETGRAPHIC(15334 as graphic, comp(193, 35));
-    IF_SETGRAPHIC(15334 as graphic, comp(193, 36));
-    IF_SETGRAPHIC(15334 as graphic, comp(193, 37));
-    IF_SETGRAPHIC(15334 as graphic, comp(193, 38));
-    IF_SETGRAPHIC(15334 as graphic, comp(193, 39));
-    IF_SETGRAPHIC(15334 as graphic, comp(193, 40));
-    IF_SETGRAPHIC(15334 as graphic, comp(193, 41));
-    IF_SETGRAPHIC(15334 as graphic, comp(193, 42));
-    IF_SETGRAPHIC(15334 as graphic, comp(193, 43));
-    IF_SETGRAPHIC(15334 as graphic, comp(193, 44));
-    IF_SETGRAPHIC(15336 as graphic, comp(193, 99));
-    IF_SETGRAPHIC(15336 as graphic, comp(193, 100));
-    IF_SETGRAPHIC(15336 as graphic, comp(193, 101));
-    IF_SETGRAPHIC(15336 as graphic, comp(193, 102));
-    IF_SETGRAPHIC(15336 as graphic, comp(193, 103));
-    IF_SETGRAPHIC(15336 as graphic, comp(193, 104));
-    IF_SETGRAPHIC(15336 as graphic, comp(193, 105));
-    IF_SETGRAPHIC(15336 as graphic, comp(193, 106));
-    IF_SETGRAPHIC(15336 as graphic, comp(193, 107));
-    IF_SETGRAPHIC(15336 as graphic, comp(193, 108));
-    IF_SETGRAPHIC(15336 as graphic, comp(193, 109));
-    IF_SETGRAPHIC(15336 as graphic, comp(193, 110));
-    IF_SETGRAPHIC(15336 as graphic, comp(193, 111));
-    IF_SETGRAPHIC(15336 as graphic, comp(193, 112));
-    IF_SETGRAPHIC(15338 as graphic, comp(193, 65));
-    IF_SETGRAPHIC(15338 as graphic, comp(193, 66));
-    IF_SETGRAPHIC(15338 as graphic, comp(193, 67));
-    IF_SETGRAPHIC(15338 as graphic, comp(193, 68));
-    IF_SETGRAPHIC(15338 as graphic, comp(193, 69));
-    IF_SETGRAPHIC(15338 as graphic, comp(193, 70));
-    IF_SETGRAPHIC(15338 as graphic, comp(193, 71));
-    IF_SETGRAPHIC(15338 as graphic, comp(193, 72));
-    IF_SETGRAPHIC(15338 as graphic, comp(193, 73));
-    IF_SETGRAPHIC(15338 as graphic, comp(193, 74));
-    IF_SETGRAPHIC(15338 as graphic, comp(193, 75));
-    IF_SETGRAPHIC(15338 as graphic, comp(193, 76));
-    IF_SETGRAPHIC(15338 as graphic, comp(193, 77));
-    IF_SETGRAPHIC(15338 as graphic, comp(193, 78));
-    IF_SETGRAPHIC(15338 as graphic, comp(193, 79));
-    IF_SETGRAPHIC(15338 as graphic, comp(193, 80));
-    IF_SETGRAPHIC(15338 as graphic, comp(193, 81));
-    IF_SETGRAPHIC(15338 as graphic, comp(193, 82));
-    IF_SETGRAPHIC(15338 as graphic, comp(193, 83));
-    IF_SETGRAPHIC(15338 as graphic, comp(193, 84));
-    IF_SETGRAPHIC(15340 as graphic, comp(193, 85));
-    IF_SETGRAPHIC(15340 as graphic, comp(193, 86));
-    IF_SETGRAPHIC(15340 as graphic, comp(193, 87));
-    IF_SETGRAPHIC(15340 as graphic, comp(193, 88));
-    IF_SETGRAPHIC(15340 as graphic, comp(193, 89));
-    IF_SETGRAPHIC(15340 as graphic, comp(193, 90));
-    IF_SETGRAPHIC(15340 as graphic, comp(193, 91));
-    IF_SETGRAPHIC(15340 as graphic, comp(193, 92));
-    IF_SETGRAPHIC(15340 as graphic, comp(193, 93));
-    IF_SETGRAPHIC(15340 as graphic, comp(193, 94));
-    IF_SETGRAPHIC(15340 as graphic, comp(193, 95));
-    IF_SETGRAPHIC(15340 as graphic, comp(193, 96));
-    IF_SETGRAPHIC(15340 as graphic, comp(193, 97));
-    IF_SETGRAPHIC(15340 as graphic, comp(193, 98));
+    IF_SETGRAPHIC(15330 as graphic, comp(193, 45));  // ariane1_organ_keyboard:1_c0
+    IF_SETGRAPHIC(15330 as graphic, comp(193, 46));  // ariane1_organ_keyboard:1_d0
+    IF_SETGRAPHIC(15330 as graphic, comp(193, 47));  // ariane1_organ_keyboard:1_e0
+    IF_SETGRAPHIC(15330 as graphic, comp(193, 48));  // ariane1_organ_keyboard:1_f0
+    IF_SETGRAPHIC(15330 as graphic, comp(193, 49));  // ariane1_organ_keyboard:1_g0
+    IF_SETGRAPHIC(15330 as graphic, comp(193, 50));  // ariane1_organ_keyboard:1_a0
+    IF_SETGRAPHIC(15330 as graphic, comp(193, 51));  // ariane1_organ_keyboard:1_b0
+    IF_SETGRAPHIC(15330 as graphic, comp(193, 52));  // ariane1_organ_keyboard:1_c1
+    IF_SETGRAPHIC(15330 as graphic, comp(193, 53));  // ariane1_organ_keyboard:1_d1
+    IF_SETGRAPHIC(15330 as graphic, comp(193, 54));  // ariane1_organ_keyboard:1_e1
+    IF_SETGRAPHIC(15330 as graphic, comp(193, 55));  // ariane1_organ_keyboard:1_f1
+    IF_SETGRAPHIC(15330 as graphic, comp(193, 56));  // ariane1_organ_keyboard:1_g1
+    IF_SETGRAPHIC(15330 as graphic, comp(193, 57));  // ariane1_organ_keyboard:1_a1
+    IF_SETGRAPHIC(15330 as graphic, comp(193, 58));  // ariane1_organ_keyboard:1_b1
+    IF_SETGRAPHIC(15330 as graphic, comp(193, 59));  // ariane1_organ_keyboard:1_c2
+    IF_SETGRAPHIC(15330 as graphic, comp(193, 60));  // ariane1_organ_keyboard:1_d2
+    IF_SETGRAPHIC(15330 as graphic, comp(193, 61));  // ariane1_organ_keyboard:1_e2
+    IF_SETGRAPHIC(15330 as graphic, comp(193, 62));  // ariane1_organ_keyboard:1_f2
+    IF_SETGRAPHIC(15330 as graphic, comp(193, 63));  // ariane1_organ_keyboard:1_g2
+    IF_SETGRAPHIC(15330 as graphic, comp(193, 64));  // ariane1_organ_keyboard:1_a2
+    IF_SETGRAPHIC(15332 as graphic, comp(193, 113));  // ariane1_organ_keyboard:1_c_0
+    IF_SETGRAPHIC(15332 as graphic, comp(193, 114));  // ariane1_organ_keyboard:1_d_0
+    IF_SETGRAPHIC(15332 as graphic, comp(193, 115));  // ariane1_organ_keyboard:1_f_0
+    IF_SETGRAPHIC(15332 as graphic, comp(193, 116));  // ariane1_organ_keyboard:1_g_0
+    IF_SETGRAPHIC(15332 as graphic, comp(193, 117));  // ariane1_organ_keyboard:1_a_0
+    IF_SETGRAPHIC(15332 as graphic, comp(193, 118));  // ariane1_organ_keyboard:1_c_1
+    IF_SETGRAPHIC(15332 as graphic, comp(193, 119));  // ariane1_organ_keyboard:1_d_1
+    IF_SETGRAPHIC(15332 as graphic, comp(193, 120));  // ariane1_organ_keyboard:1_f_1
+    IF_SETGRAPHIC(15332 as graphic, comp(193, 121));  // ariane1_organ_keyboard:1_g_1
+    IF_SETGRAPHIC(15332 as graphic, comp(193, 122));  // ariane1_organ_keyboard:1_a_1
+    IF_SETGRAPHIC(15332 as graphic, comp(193, 123));  // ariane1_organ_keyboard:1_c_2
+    IF_SETGRAPHIC(15332 as graphic, comp(193, 124));  // ariane1_organ_keyboard:1_d_2
+    IF_SETGRAPHIC(15332 as graphic, comp(193, 125));  // ariane1_organ_keyboard:1_f_2
+    IF_SETGRAPHIC(15332 as graphic, comp(193, 126));  // ariane1_organ_keyboard:1_g_2
+    IF_SETGRAPHIC(15334 as graphic, comp(193, 25));  // ariane1_organ_keyboard:2_c0
+    IF_SETGRAPHIC(15334 as graphic, comp(193, 26));  // ariane1_organ_keyboard:2_d0
+    IF_SETGRAPHIC(15334 as graphic, comp(193, 27));  // ariane1_organ_keyboard:2_e0
+    IF_SETGRAPHIC(15334 as graphic, comp(193, 28));  // ariane1_organ_keyboard:2_f0
+    IF_SETGRAPHIC(15334 as graphic, comp(193, 29));  // ariane1_organ_keyboard:2_g0
+    IF_SETGRAPHIC(15334 as graphic, comp(193, 30));  // ariane1_organ_keyboard:2_a0
+    IF_SETGRAPHIC(15334 as graphic, comp(193, 31));  // ariane1_organ_keyboard:2_b0
+    IF_SETGRAPHIC(15334 as graphic, comp(193, 32));  // ariane1_organ_keyboard:2_c1
+    IF_SETGRAPHIC(15334 as graphic, comp(193, 33));  // ariane1_organ_keyboard:2_d1
+    IF_SETGRAPHIC(15334 as graphic, comp(193, 34));  // ariane1_organ_keyboard:2_e1
+    IF_SETGRAPHIC(15334 as graphic, comp(193, 35));  // ariane1_organ_keyboard:2_f1
+    IF_SETGRAPHIC(15334 as graphic, comp(193, 36));  // ariane1_organ_keyboard:2_g1
+    IF_SETGRAPHIC(15334 as graphic, comp(193, 37));  // ariane1_organ_keyboard:2_a1
+    IF_SETGRAPHIC(15334 as graphic, comp(193, 38));  // ariane1_organ_keyboard:2_b1
+    IF_SETGRAPHIC(15334 as graphic, comp(193, 39));  // ariane1_organ_keyboard:2_c2
+    IF_SETGRAPHIC(15334 as graphic, comp(193, 40));  // ariane1_organ_keyboard:2_d2
+    IF_SETGRAPHIC(15334 as graphic, comp(193, 41));  // ariane1_organ_keyboard:2_e2
+    IF_SETGRAPHIC(15334 as graphic, comp(193, 42));  // ariane1_organ_keyboard:2_f2
+    IF_SETGRAPHIC(15334 as graphic, comp(193, 43));  // ariane1_organ_keyboard:2_g2
+    IF_SETGRAPHIC(15334 as graphic, comp(193, 44));  // ariane1_organ_keyboard:2_a2
+    IF_SETGRAPHIC(15336 as graphic, comp(193, 99));  // ariane1_organ_keyboard:2_c_0
+    IF_SETGRAPHIC(15336 as graphic, comp(193, 100));  // ariane1_organ_keyboard:2_d_0
+    IF_SETGRAPHIC(15336 as graphic, comp(193, 101));  // ariane1_organ_keyboard:2_f_0
+    IF_SETGRAPHIC(15336 as graphic, comp(193, 102));  // ariane1_organ_keyboard:2_g_0
+    IF_SETGRAPHIC(15336 as graphic, comp(193, 103));  // ariane1_organ_keyboard:2_a_0
+    IF_SETGRAPHIC(15336 as graphic, comp(193, 104));  // ariane1_organ_keyboard:2_c_1
+    IF_SETGRAPHIC(15336 as graphic, comp(193, 105));  // ariane1_organ_keyboard:2_d_1
+    IF_SETGRAPHIC(15336 as graphic, comp(193, 106));  // ariane1_organ_keyboard:2_f_1
+    IF_SETGRAPHIC(15336 as graphic, comp(193, 107));  // ariane1_organ_keyboard:2_g_1
+    IF_SETGRAPHIC(15336 as graphic, comp(193, 108));  // ariane1_organ_keyboard:2_a_1
+    IF_SETGRAPHIC(15336 as graphic, comp(193, 109));  // ariane1_organ_keyboard:2_c_2
+    IF_SETGRAPHIC(15336 as graphic, comp(193, 110));  // ariane1_organ_keyboard:2_d_2
+    IF_SETGRAPHIC(15336 as graphic, comp(193, 111));  // ariane1_organ_keyboard:2_f_2
+    IF_SETGRAPHIC(15336 as graphic, comp(193, 112));  // ariane1_organ_keyboard:2_g_2
+    IF_SETGRAPHIC(15338 as graphic, comp(193, 65));  // ariane1_organ_keyboard:3_c0
+    IF_SETGRAPHIC(15338 as graphic, comp(193, 66));  // ariane1_organ_keyboard:3_d0
+    IF_SETGRAPHIC(15338 as graphic, comp(193, 67));  // ariane1_organ_keyboard:3_e0
+    IF_SETGRAPHIC(15338 as graphic, comp(193, 68));  // ariane1_organ_keyboard:3_f0
+    IF_SETGRAPHIC(15338 as graphic, comp(193, 69));  // ariane1_organ_keyboard:3_g0
+    IF_SETGRAPHIC(15338 as graphic, comp(193, 70));  // ariane1_organ_keyboard:3_a0
+    IF_SETGRAPHIC(15338 as graphic, comp(193, 71));  // ariane1_organ_keyboard:3_b0
+    IF_SETGRAPHIC(15338 as graphic, comp(193, 72));  // ariane1_organ_keyboard:3_c1
+    IF_SETGRAPHIC(15338 as graphic, comp(193, 73));  // ariane1_organ_keyboard:3_d1
+    IF_SETGRAPHIC(15338 as graphic, comp(193, 74));  // ariane1_organ_keyboard:3_e1
+    IF_SETGRAPHIC(15338 as graphic, comp(193, 75));  // ariane1_organ_keyboard:3_f1
+    IF_SETGRAPHIC(15338 as graphic, comp(193, 76));  // ariane1_organ_keyboard:3_g1
+    IF_SETGRAPHIC(15338 as graphic, comp(193, 77));  // ariane1_organ_keyboard:3_a1
+    IF_SETGRAPHIC(15338 as graphic, comp(193, 78));  // ariane1_organ_keyboard:3_b1
+    IF_SETGRAPHIC(15338 as graphic, comp(193, 79));  // ariane1_organ_keyboard:3_c2
+    IF_SETGRAPHIC(15338 as graphic, comp(193, 80));  // ariane1_organ_keyboard:3_d2
+    IF_SETGRAPHIC(15338 as graphic, comp(193, 81));  // ariane1_organ_keyboard:3_e2
+    IF_SETGRAPHIC(15338 as graphic, comp(193, 82));  // ariane1_organ_keyboard:3_f2
+    IF_SETGRAPHIC(15338 as graphic, comp(193, 83));  // ariane1_organ_keyboard:3_g2
+    IF_SETGRAPHIC(15338 as graphic, comp(193, 84));  // ariane1_organ_keyboard:3_a2
+    IF_SETGRAPHIC(15340 as graphic, comp(193, 85));  // ariane1_organ_keyboard:3_c_0
+    IF_SETGRAPHIC(15340 as graphic, comp(193, 86));  // ariane1_organ_keyboard:3_d_0
+    IF_SETGRAPHIC(15340 as graphic, comp(193, 87));  // ariane1_organ_keyboard:3_f_0
+    IF_SETGRAPHIC(15340 as graphic, comp(193, 88));  // ariane1_organ_keyboard:3_g_0
+    IF_SETGRAPHIC(15340 as graphic, comp(193, 89));  // ariane1_organ_keyboard:3_a_0
+    IF_SETGRAPHIC(15340 as graphic, comp(193, 90));  // ariane1_organ_keyboard:3_c_1
+    IF_SETGRAPHIC(15340 as graphic, comp(193, 91));  // ariane1_organ_keyboard:3_d_1
+    IF_SETGRAPHIC(15340 as graphic, comp(193, 92));  // ariane1_organ_keyboard:3_f_1
+    IF_SETGRAPHIC(15340 as graphic, comp(193, 93));  // ariane1_organ_keyboard:3_g_1
+    IF_SETGRAPHIC(15340 as graphic, comp(193, 94));  // ariane1_organ_keyboard:3_a_1
+    IF_SETGRAPHIC(15340 as graphic, comp(193, 95));  // ariane1_organ_keyboard:3_c_2
+    IF_SETGRAPHIC(15340 as graphic, comp(193, 96));  // ariane1_organ_keyboard:3_d_2
+    IF_SETGRAPHIC(15340 as graphic, comp(193, 97));  // ariane1_organ_keyboard:3_f_2
+    IF_SETGRAPHIC(15340 as graphic, comp(193, 98));  // ariane1_organ_keyboard:3_g_2
     return;
 }

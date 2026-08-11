@@ -1,12 +1,12 @@
 //
 function script14956(int0: number): void {
-    var int1 = comp(477, 20);
-    var int2 = comp(477, 18);
-    var int3 = comp(477, 19);
+    var int1 = comp(477, 20);  // arch_material_storage_info:popup_info_build_layer
+    var int2 = comp(477, 18);  // arch_material_storage_info:popup_info_scrolling_layer
+    var int3 = comp(477, 19);  // arch_material_storage_info:popup_info_scrollbar_layer
     CC_DELETEALL(int1);
-    IF_SETHIDE(false, comp(477, 4));
+    IF_SETHIDE(false, comp(477, 4));  // arch_material_storage_info:popup_window
     IF_SETSIZE(0, 0, 1, 1, int2);
-    IF_SETTEXT(OC_NAME(int0), comp(477, 16));
+    IF_SETTEXT(OC_NAME(int0), comp(477, 16));  // arch_material_storage_info:popup_title
     var string0 = script14957(int0);
     CC_CREATE(int1, 4, IF_GETNEXTSUBID(int1));
     CC_SETSIZE(10, 0, 1, 1);

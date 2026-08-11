@@ -4,7 +4,7 @@ function script1415(): void {
     var int1 = 0;
     var int2 = 0;
     while ((int0 <= INV_SIZE(93 as inv))) {
-        CC_CREATE(comp(323, 3), 5, int0);
+        CC_CREATE(comp(323, 3), 5, int0);  // tai_bwo_wannai_post:tbw_parcel_inv
         CC_SETSIZE(36, 32, 0, 0);
         CC_SETPOSITION((5 + (40 * int1)), (40 * int2), 0, 0);
         if ((INV_GETOBJ(93 as inv, int0) != -1 as obj)) {

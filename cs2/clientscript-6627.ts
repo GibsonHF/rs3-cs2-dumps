@@ -9,7 +9,7 @@ function script6627(int0: number): void {
     var int7 = 0;
     var int8 = 0;
     var int9 = -1 as obj;
-    var int10 = comp(1323, 45);
+    var int10 = comp(1323, 45);  // peng_pow_bfish:pieces_blue
     var int11 = 6060 as cs2enum;
     if ((varbitplayer_9391 == 160)) {
         int11 = 6061 as cs2enum;

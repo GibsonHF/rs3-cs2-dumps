@@ -1,6 +1,6 @@
 //
 function script6290(int0: number): void {
-    CC_CREATE(comp(1296, 3), 4, 0);
+    CC_CREATE(comp(1296, 3), 4, 0);  // cruc_battle_overlay:fee_layer
     CC_SETSIZE(90, 12, 0, 0);
     CC_SETPOSITION(0, 0, 0, 0);
     CC_SETTEXTFONT(66 as fontmetrics);
@@ -14,6 +14,6 @@ function script6290(int0: number): void {
         CC_SETCOLOUR(65280);
     };
     CC_SETTEXTSHADOW(true);
-    IF_SETONTIMER(callback(script6291), comp(1296, 3));
+    IF_SETONTIMER(callback(script6291), comp(1296, 3));  // cruc_battle_overlay:fee_layer
     return;
 }

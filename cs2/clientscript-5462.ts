@@ -118,7 +118,7 @@ function script5462(int0: number, int1: number): void {
             break;
         }
     };
-    CC_CREATE(comp(1159, 31), 5, int1);
+    CC_CREATE(comp(1159, 31), 5, int1);  // dom_battle_overlay:handicap_icons_layer
     CC_SETGRAPHIC(int2);
     CC_SETSIZE(23, 23, 0, 0);
     CC_SETPOSITION(varclient_1670, varclient_1671, 2, 2);

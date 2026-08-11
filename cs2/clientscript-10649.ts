@@ -1,10 +1,10 @@
 //
 function script10649(): void {
     if ((script4157() != 5)) {
-        IF_SETHIDE(true, comp(662, 90));
+        IF_SETHIDE(true, comp(662, 90));  // lore_stats_side:pet_abilities
         return;
     };
-    IF_SETHIDE(false, comp(662, 90));
+    IF_SETHIDE(false, comp(662, 90));  // lore_stats_side:pet_abilities
     var int0 = 1;
     var int1 = -1 as struct;
     var int2 = 43384922;
@@ -19,19 +19,19 @@ function script10649(): void {
         int1 = enum_getvalue(0, 73, 9013 as cs2enum, int0);
         switch (int6) {
             case 1: {
-                int3 = comp(662, 100);
+                int3 = comp(662, 100);  // lore_stats_side:pet_ability_graphic_1
                 int4 = 43384934;
                 int5 = 43384933;
                 break;
             }
             case 2: {
-                int3 = comp(662, 97);
+                int3 = comp(662, 97);  // lore_stats_side:pet_ability_graphic_2
                 int4 = 43384931;
                 int5 = 43384930;
                 break;
             }
             case 3: {
-                int3 = comp(662, 92);
+                int3 = comp(662, 92);  // lore_stats_side:pet_ability_graphic_3
                 int4 = 43384926;
                 int5 = 43384925;
                 break;

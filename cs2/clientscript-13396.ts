@@ -12,10 +12,10 @@ function script13396(int0: number, int1: number, int2: number, int3: number, int
         int8 = (int8 - (int10 - int1));
         int10 = 0;
     };
-    IF_SETHIDE(false, comp(1322, 4));
-    IF_SETPOSITION(int9, int10, 0, 0, comp(1322, 4));
-    IF_SETSIZE(int7, int8, 0, 0, comp(1322, 4));
-    IF_SETSIZE(int2, int3, 0, 0, comp(1322, 11));
+    IF_SETHIDE(false, comp(1322, 4));  // minimenu:menu_blocking_layer ?
+    IF_SETPOSITION(int9, int10, 0, 0, comp(1322, 4));  // minimenu:menu_blocking_layer ?
+    IF_SETSIZE(int7, int8, 0, 0, comp(1322, 4));  // minimenu:menu_blocking_layer ?
+    IF_SETSIZE(int2, int3, 0, 0, comp(1322, 11));  // minimenu:menu_layer ?
     script13636(int2, int3, int4, int6, 86638602, 86638601, enum_getvalue(0, 36, 14117 as cs2enum, MAP_LANG()));
     var int11 = 0;
     var string0 = "0";

@@ -95,14 +95,14 @@ function script10860(int0: number, int1: number): void {
         }
     };
     if ((int1 == 1)) {
-        IF_SETTEXT(string0, comp(1572, 3));
+        IF_SETTEXT(string0, comp(1572, 3));  // atelf_teleports:elfcity_tele_name
         if (((int3 > 0) && (script13749() == 0))) {
             string1 = `${string1}<br>Keybind: ${inttostring(int3, 10)}`;
         };
-        IF_SETTEXT(string1, comp(1572, 4));
+        IF_SETTEXT(string1, comp(1572, 4));  // atelf_teleports:elfcity_tele_destination
     } else {
-        IF_SETTEXT("Teleport Destination", comp(1572, 3));
-        IF_SETTEXT("Hover over a teleport icon to learn where it leads.", comp(1572, 4));
+        IF_SETTEXT("Teleport Destination", comp(1572, 3));  // atelf_teleports:elfcity_tele_name
+        IF_SETTEXT("Hover over a teleport icon to learn where it leads.", comp(1572, 4));  // atelf_teleports:elfcity_tele_destination
     };
     if ((script10861(int2) == 1)) {
         if ((int1 == 1)) {
@@ -110,31 +110,31 @@ function script10860(int0: number, int1: number): void {
         } else {
             IF_SETGRAPHIC(int4, int0);
         };
-        IF_SETHIDE(true, comp(1572, 10));
+        IF_SETHIDE(true, comp(1572, 10));  // atelf_teleports:info_holder_locked
     } else {
         IF_SETGRAPHIC(int6, int0);
         switch (int2) {
             case 1: {
-                IF_SETTEXT("You can unlock this destination by completing all tasks in the Easy Tirannwn Task Set.", comp(1572, 24));
+                IF_SETTEXT("You can unlock this destination by completing all tasks in the Easy Tirannwn Task Set.", comp(1572, 24));  // atelf_teleports:elfcity_tele_unlockhint
                 break;
             }
             case 2: {
-                IF_SETTEXT("You can unlock this destination by completing all tasks in the Medium Tirannwn Task Set.", comp(1572, 24));
+                IF_SETTEXT("You can unlock this destination by completing all tasks in the Medium Tirannwn Task Set.", comp(1572, 24));  // atelf_teleports:elfcity_tele_unlockhint
                 break;
             }
             case 3: {
-                IF_SETTEXT("You can unlock this destination by completing all tasks in the Hard Tirannwn Task Set.", comp(1572, 24));
+                IF_SETTEXT("You can unlock this destination by completing all tasks in the Hard Tirannwn Task Set.", comp(1572, 24));  // atelf_teleports:elfcity_tele_unlockhint
                 break;
             }
             case 4: {
-                IF_SETTEXT("You can unlock this destination by completing all tasks in the Elite Tirannwn Task Set.", comp(1572, 24));
+                IF_SETTEXT("You can unlock this destination by completing all tasks in the Elite Tirannwn Task Set.", comp(1572, 24));  // atelf_teleports:elfcity_tele_unlockhint
                 break;
             }
         };
         if ((int1 == 1)) {
-            IF_SETHIDE(false, comp(1572, 10));
+            IF_SETHIDE(false, comp(1572, 10));  // atelf_teleports:info_holder_locked
         } else {
-            IF_SETHIDE(true, comp(1572, 10));
+            IF_SETHIDE(true, comp(1572, 10));  // atelf_teleports:info_holder_locked
         };
     };
     return;

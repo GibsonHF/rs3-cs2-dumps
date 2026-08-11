@@ -1,13 +1,13 @@
 //
 function script4095(): void {
-    var int0 = IF_GETTRANS(comp(1202, 0));
+    var int0 = IF_GETTRANS(comp(1202, 0));  // fmc_darkness:black
     if ((int0 > 75)) {
-        IF_SETTRANS(80, comp(1202, 0));
-        IF_SETTRANS(40, comp(1202, 2));
-        IF_SETONTIMER(callback(), comp(1202, 0));
+        IF_SETTRANS(80, comp(1202, 0));  // fmc_darkness:black
+        IF_SETTRANS(40, comp(1202, 2));  // fmc_darkness:fade
+        IF_SETONTIMER(callback(), comp(1202, 0));  // fmc_darkness:black
         return;
     };
-    IF_SETTRANS((int0 + 4), comp(1202, 0));
-    IF_SETTRANS(((int0 + 4) / 2), comp(1202, 2));
+    IF_SETTRANS((int0 + 4), comp(1202, 0));  // fmc_darkness:black
+    IF_SETTRANS(((int0 + 4) / 2), comp(1202, 2));  // fmc_darkness:fade
     return;
 }

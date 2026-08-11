@@ -3,17 +3,17 @@ function script19287(): void {
     var int0 = dbrow_getfield(varplayer_11901, 1216528, 0);
     if ((varplayer_11882 > 0)) {
         script19221(dbrow_getfield(varplayer_11902, 1228848, 0), 84541523);
-        IF_SETHIDE(false, comp(1290, 88));
-        IF_SETTEXT("Attack", comp(1290, 204));
+        IF_SETHIDE(false, comp(1290, 88));  // trh_dungeon_crawl_overlay:boss_encounter_examine_layer
+        IF_SETTEXT("Attack", comp(1290, 204));  // trh_dungeon_crawl_overlay:boss_encounter_button_text
     } else {
         script19291();
     };
-    IF_SETPOSITION(0, 0, 1, 1, comp(1290, 83));
+    IF_SETPOSITION(0, 0, 1, 1, comp(1290, 83));  // trh_dungeon_crawl_overlay:boss_encounter_npc_model
     var string0 = dbrow_getfield(varplayer_11902, 1228816, 0);
     var string1 = dbrow_getfield(varplayer_11902, 1228832, 0);
-    IF_SETTEXT(string0, comp(1290, 103));
-    IF_SETOPBASE(`<col=FFFF00>${string0}</col> <col=FF0000>(level: ???)</col>`, comp(1290, 88));
-    IF_SETONOP(callback(script7774, string1, -2147483645, -2147483643, 0), comp(1290, 88));
+    IF_SETTEXT(string0, comp(1290, 103));  // trh_dungeon_crawl_overlay:boss_healthbar_name_text
+    IF_SETOPBASE(`<col=FFFF00>${string0}</col> <col=FF0000>(level: ???)</col>`, comp(1290, 88));  // trh_dungeon_crawl_overlay:boss_encounter_examine_layer
+    IF_SETONOP(callback(script7774, string1, -2147483645, -2147483643, 0), comp(1290, 88));  // trh_dungeon_crawl_overlay:boss_encounter_examine_layer
     var int1 = -1;
     var int2 = -1;
     var int3 = 0;

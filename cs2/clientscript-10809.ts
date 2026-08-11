@@ -1,12 +1,12 @@
 //
 function script10809(): void {
-    var int0 = comp(1562, 29);
+    var int0 = comp(1562, 29);  // mtxmgt_purchase:runecoins_layer
     var int1 = 102367285;
-    var int2 = comp(1562, 54);
-    var int3 = comp(1562, 17);
-    var int4 = comp(1562, 63);
-    var int5 = comp(1562, 18);
-    var int6 = comp(1562, 55);
+    var int2 = comp(1562, 54);  // mtxmgt_purchase:runecoins_content_layer
+    var int3 = comp(1562, 17);  // mtxmgt_purchase:runecoins_button_layer
+    var int4 = comp(1562, 63);  // mtxmgt_purchase:runecoins_button_text
+    var int5 = comp(1562, 18);  // mtxmgt_purchase:buy_runecoins_button_layer
+    var int6 = comp(1562, 55);  // mtxmgt_purchase:bonds_to_runecoins_button_layer
     CC_DELETEALL(int2);
     var int7 = -1;
     var int8 = (varclient_4968 + varclient_4969);

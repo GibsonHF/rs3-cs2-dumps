@@ -14,7 +14,7 @@ function script7491(int0: number, int1: number, int2: number, string0: string): 
     if ((int4 == 0)) {
         return;
     };
-    IF_SETHIDE(true, comp(1311, 171));
+    IF_SETHIDE(true, comp(1311, 171));  // mtxmgt:none_found_error_layer
     var int5 = 0;
     var int6 = -1 as struct;
     var int7 = 0;
@@ -290,12 +290,12 @@ function script7491(int0: number, int1: number, int2: number, string0: string): 
         int5 = (int5 + 1);
     };
     if ((int9 == 0)) {
-        IF_SETHIDE(false, comp(1311, 171));
+        IF_SETHIDE(false, comp(1311, 171));  // mtxmgt:none_found_error_layer
     };
     script6481(varclient_1964, varclient_1965);
-    var int14 = IF_GETSCROLLHEIGHT(comp(1311, 170));
-    IF_SETSCROLLSIZE(0, MAX(int7, IF_GETHEIGHT(comp(1311, 170))), comp(1311, 170));
-    if ((int14 == IF_GETSCROLLHEIGHT(comp(1311, 170)))) {
+    var int14 = IF_GETSCROLLHEIGHT(comp(1311, 170));  // mtxmgt:list_contents
+    IF_SETSCROLLSIZE(0, MAX(int7, IF_GETHEIGHT(comp(1311, 170))), comp(1311, 170));  // mtxmgt:list_contents
+    if ((int14 == IF_GETSCROLLHEIGHT(comp(1311, 170)))) {  // mtxmgt:list_contents
         var int2 = 1;
     };
     var int15 = int2;
@@ -303,16 +303,16 @@ function script7491(int0: number, int1: number, int2: number, string0: string): 
         int15 = 1;
     };
     if ((int2 == 0)) {
-        IF_SETSCROLLPOS(IF_GETSCROLLY(comp(1311, 170)), 0, comp(1311, 170));
+        IF_SETSCROLLPOS(IF_GETSCROLLY(comp(1311, 170)), 0, comp(1311, 170));  // mtxmgt:list_contents
     };
     var int16 = 0;
     var int17 = 0;
     var int18 = 0;
     var int19 = 0;
     if ((int9 < 14)) {
-        IF_SETHIDE(true, comp(1311, 341));
+        IF_SETHIDE(true, comp(1311, 341));  // mtxmgt:list_scrollbar
     } else if ((int2 == 0)) {
-        IF_SETHIDE(false, comp(1311, 341));
+        IF_SETHIDE(false, comp(1311, 341));  // mtxmgt:list_scrollbar
         script7791(85918037, 85917866);
     };
     return;

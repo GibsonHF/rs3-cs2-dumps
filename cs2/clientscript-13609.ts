@@ -17,11 +17,11 @@ function script13609(int0: number, int1: number, int2: number, int3: number, int
         }
     };
     varclient_6272 = (varclient_6272 + 1);
-    IF_SETTEXT(`${TOSTRING_LOCALISED(varclient_6271, 1)}/${TOSTRING_LOCALISED(varclient_6272, 1)}`, comp(1896, 13));
+    IF_SETTEXT(`${TOSTRING_LOCALISED(varclient_6271, 1)}/${TOSTRING_LOCALISED(varclient_6272, 1)}`, comp(1896, 13));  // cheevo_player_inspect_full:inspector_totals
     var int8 = 60;
     var int9 = 28;
     var int10 = 2;
-    var int11 = comp(1896, 15);
+    var int11 = comp(1896, 15);  // cheevo_player_inspect_full:inspectors_cheevos
     CC_CREATE(int11, 3, IF_GETNEXTSUBID(int11));
     CC_SETSIZE(0, int8, 1, 0);
     CC_SETPOSITION(0, int5, 0, 0);
@@ -83,9 +83,9 @@ function script13609(int0: number, int1: number, int2: number, int3: number, int
             break;
         }
     };
-    int11 = comp(1896, 16);
+    int11 = comp(1896, 16);  // cheevo_player_inspect_full:player_cheevos
     script13610(int11, int5, int1, int2);
-    IF_SETTEXT(`${TOSTRING_LOCALISED(varclient_6273, 1)}/${TOSTRING_LOCALISED(varclient_6274, 1)}`, comp(1896, 12));
+    IF_SETTEXT(`${TOSTRING_LOCALISED(varclient_6273, 1)}/${TOSTRING_LOCALISED(varclient_6274, 1)}`, comp(1896, 12));  // cheevo_player_inspect_full:you_totals
     script13611();
     return;
 }

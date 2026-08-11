@@ -1,6 +1,6 @@
 //
 function script1321(int0: number): void {
-    var int1 = comp(1924, 192);
+    var int1 = comp(1924, 192);  // toplevel_v2_combat_bar_mobile_buttons:bar_selection_content_layer
     var int2 = -1;
     if ((IF_FIND(int1) == 1)) {
         int2 = cc_getparam(7486);

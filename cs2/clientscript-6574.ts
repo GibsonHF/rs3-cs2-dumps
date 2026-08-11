@@ -1,19 +1,19 @@
 //
 function script6574(int0: number): void {
-    IF_SETOPKEY(1, -1, 0, comp(1253, 33));
-    IF_SETOPKEY(1, -1, 0, comp(1253, 23));
-    IF_SETOPKEY(1, -1, 0, comp(1253, 28));
-    IF_SETOPKEY(1, -1, 0, comp(1253, 18));
-    IF_SETOPKEY(1, -1, 0, comp(1253, 13));
-    IF_SETOPKEY(1, -1, 0, comp(1253, 276));
-    IF_SETOPKEY(1, -1, 0, comp(1253, 278));
-    IF_SETOPKEY(1, -1, 0, comp(1253, 277));
-    IF_SETOPKEY(1, -1, 0, comp(1253, 282));
-    IF_SETOPKEY(1, -1, 0, comp(1253, 296));
-    IF_SETOPKEY(1, -1, 0, comp(1253, 295));
+    IF_SETOPKEY(1, -1, 0, comp(1253, 33));  // wheel_of_fortune:wheel_spin_button_active_layer_1
+    IF_SETOPKEY(1, -1, 0, comp(1253, 23));  // wheel_of_fortune:wheel_spin_button_active_layer_2
+    IF_SETOPKEY(1, -1, 0, comp(1253, 28));  // wheel_of_fortune:wheel_spin_button_active_layer_3
+    IF_SETOPKEY(1, -1, 0, comp(1253, 18));  // wheel_of_fortune:wheel_spin_button_active_layer_4
+    IF_SETOPKEY(1, -1, 0, comp(1253, 13));  // wheel_of_fortune:wheel_spin_button_active_layer_5
+    IF_SETOPKEY(1, -1, 0, comp(1253, 276));  // wheel_of_fortune:reward_claim_auto_button
+    IF_SETOPKEY(1, -1, 0, comp(1253, 278));  // wheel_of_fortune:reward_claim_bank_button
+    IF_SETOPKEY(1, -1, 0, comp(1253, 277));  // wheel_of_fortune:reward_claim_inv_button
+    IF_SETOPKEY(1, -1, 0, comp(1253, 282));  // wheel_of_fortune:reward_convert_button
+    IF_SETOPKEY(1, -1, 0, comp(1253, 296));  // wheel_of_fortune:discard_confirm_button
+    IF_SETOPKEY(1, -1, 0, comp(1253, 295));  // wheel_of_fortune:discard_cancel_button
     switch (varclient_1928) {
         case 7: {
-            IF_SETOPKEY(1, -1, 0, comp(1620, 21));
+            IF_SETOPKEY(1, -1, 0, comp(1620, 21));  // trh54_guaranteed_quality:keybind_layer
             break;
         }
         case 12: {
@@ -28,35 +28,35 @@ function script6574(int0: number): void {
         case 29:
         case 41:
         case 57: {
-            IF_SETOPKEY(1, -1, 0, comp(1870, 21));
+            IF_SETOPKEY(1, -1, 0, comp(1870, 21));  // trh119_buried_treasure_overlay:keybind_layer
             break;
         }
         case 32: {
-            IF_SETOPKEY(1, -1, 0, comp(491, 7));
+            IF_SETOPKEY(1, -1, 0, comp(491, 7));  // trh147_overlay:keybind_layer
             break;
         }
         case 30: {
-            IF_SETOPKEY(1, -1, 0, comp(215, 26));
+            IF_SETOPKEY(1, -1, 0, comp(215, 26));  // trh148_overlay:keybind_layer
             break;
         }
         case 34: {
-            IF_SETOPKEY(1, -1, 0, comp(35, 17));
+            IF_SETOPKEY(1, -1, 0, comp(35, 17));  // trh153_overlay:keybind_layer
             break;
         }
         case 36: {
-            IF_SETOPKEY(1, -1, 0, comp(19, 6));
+            IF_SETOPKEY(1, -1, 0, comp(19, 6));  // trh154_overlay:keybind_layer
             break;
         }
         case 51: {
-            IF_SETOPKEY(1, -1, 0, comp(639, 27));
+            IF_SETOPKEY(1, -1, 0, comp(639, 27));  // trh166:claim_button
             break;
         }
         case 52: {
-            IF_SETOPKEY(1, -1, 0, comp(644, 27));
+            IF_SETOPKEY(1, -1, 0, comp(644, 27));  // trh167_overlay:keybind_layer
             break;
         }
         case 53: {
-            IF_SETOPKEY(1, -1, 0, comp(654, 194));
+            IF_SETOPKEY(1, -1, 0, comp(654, 194));  // trh168:keybind_layer
             break;
         }
         case 54: {
@@ -64,61 +64,61 @@ function script6574(int0: number): void {
             break;
         }
         case 60: {
-            IF_SETOPKEY(1, -1, 0, comp(539, 1));
+            IF_SETOPKEY(1, -1, 0, comp(539, 1));  // trh174_overlay:keybind_layer
             break;
         }
         case 62: {
-            IF_SETOPKEY(1, -1, 0, comp(935, 17));
+            IF_SETOPKEY(1, -1, 0, comp(935, 17));  // trh176_overlay:keybind_layer
             break;
         }
         case 63: {
-            IF_SETOPKEY(1, -1, 0, comp(669, 2));
+            IF_SETOPKEY(1, -1, 0, comp(669, 2));  // trh177_overlay:keybind_layer
             break;
         }
         case 66: {
-            IF_SETOPKEY(1, -1, 0, comp(970, 30));
+            IF_SETOPKEY(1, -1, 0, comp(970, 30));  // trh180_overlay:keybind_layer
             break;
         }
         case 68:
         case 88:
         case 91: {
-            IF_SETOPKEY(1, -1, 0, comp(1288, 6));
+            IF_SETOPKEY(1, -1, 0, comp(1288, 6));  // trh_academy_shared_overlay:keybind_layer
             break;
         }
         case 69: {
-            IF_SETOPKEY(1, -1, 0, comp(1014, 36));
+            IF_SETOPKEY(1, -1, 0, comp(1014, 36));  // trh183_overlay:keybind_layer
             break;
         }
         case 72: {
-            IF_SETOPKEY(1, -1, 0, comp(1023, 66));
+            IF_SETOPKEY(1, -1, 0, comp(1023, 66));  // trh187_overlay:keybind_layer
             break;
         }
         case 74: {
-            IF_SETOPKEY(1, -1, 0, comp(1068, 24));
+            IF_SETOPKEY(1, -1, 0, comp(1068, 24));  // trh188:cauldron_model
             break;
         }
         case 75: {
-            IF_SETOPKEY(1, -1, 0, comp(1082, 34));
+            IF_SETOPKEY(1, -1, 0, comp(1082, 34));  // trh189_overlay:keybind_layer
             break;
         }
         case 76: {
-            IF_SETOPKEY(1, -1, 0, comp(1120, 107));
+            IF_SETOPKEY(1, -1, 0, comp(1120, 107));  // trh190_overlay:keybind_layer
             break;
         }
         case 77: {
-            IF_SETOPKEY(1, -1, 0, comp(1138, 0));
+            IF_SETOPKEY(1, -1, 0, comp(1138, 0));  // trh191:keybind_layer
             break;
         }
         case 78: {
-            IF_SETOPKEY(1, -1, 0, comp(1152, 4));
+            IF_SETOPKEY(1, -1, 0, comp(1152, 4));  // trh192_overlay:keybind_layer
             break;
         }
         case 81: {
-            IF_SETOPKEY(1, -1, 0, comp(1271, 98));
+            IF_SETOPKEY(1, -1, 0, comp(1271, 98));  // trh195:keybind_layer
             break;
         }
         case 82: {
-            IF_SETOPKEY(1, -1, 0, comp(631, 3));
+            IF_SETOPKEY(1, -1, 0, comp(631, 3));  // trh196_overlay:keybind_layer
             break;
         }
         case 87: {
@@ -126,11 +126,11 @@ function script6574(int0: number): void {
             break;
         }
         case 89: {
-            IF_SETOPKEY(1, -1, 0, comp(1278, 70));
+            IF_SETOPKEY(1, -1, 0, comp(1278, 70));  // trh204_overlay:keybind_layer
             break;
         }
         case 94: {
-            IF_SETOPKEY(1, -1, 0, comp(1340, 28));
+            IF_SETOPKEY(1, -1, 0, comp(1340, 28));  // trh210_overlay:keybind_layer
             break;
         }
     };
@@ -141,8 +141,8 @@ function script6574(int0: number): void {
     var int1 = 0;
     var int2 = script16161();
     var int3 = 0;
-    if ((((IF_GETHIDE(comp(1253, 8)) == false) || (int2 == 33217)) || (int2 == 34277))) {
-        if ((IF_GETHIDE(comp(1253, 265)) == true)) {
+    if ((((IF_GETHIDE(comp(1253, 8)) == false) || (int2 == 33217)) || (int2 == 34277))) {  // wheel_of_fortune:chests_layer
+        if ((IF_GETHIDE(comp(1253, 265)) == true)) {  // wheel_of_fortune:reward_layer
             switch (int2) {
                 case 31364: {
                     script16019(106168341);
@@ -196,7 +196,7 @@ function script6574(int0: number): void {
                     break;
                 }
                 case 11563: {
-                    if ((IF_GETHIDE(comp(1253, 265)) == true)) {
+                    if ((IF_GETHIDE(comp(1253, 265)) == true)) {  // wheel_of_fortune:reward_layer
                         script16019(42860738);
                         return;
                     };
@@ -229,7 +229,7 @@ function script6574(int0: number): void {
                 case 32986:
                 case 50263:
                 case 2951: {
-                    if ((IF_GETHIDE(comp(1288, 83)) == true)) {
+                    if ((IF_GETHIDE(comp(1288, 83)) == true)) {  // trh_academy_shared_overlay:claim_layer
                         script16019(84410374);
                         return;
                     };
@@ -278,7 +278,7 @@ function script6574(int0: number): void {
                     break;
                 }
                 case 46396: {
-                    if ((IF_HASSUBMODAL(comp(1152, 1), 1253) == 1)) {
+                    if ((IF_HASSUBMODAL(comp(1152, 1), 1253) == 1)) {  // trh192_overlay:splash_screen
                         return;
                     };
                     script16019(75497476);
@@ -317,7 +317,7 @@ function script6574(int0: number): void {
                     break;
                 }
                 case 51804: {
-                    if ((IF_GETHIDE(comp(1340, 65)) == true)) {
+                    if ((IF_GETHIDE(comp(1340, 65)) == true)) {  // trh210_overlay:bonus_layer
                         script16019(87818268);
                         return;
                     };
@@ -331,7 +331,7 @@ function script6574(int0: number): void {
             if ((int3 == 0)) {
                 return;
             };
-            if ((IF_GETHIDE(comp(1253, 447)) == false)) {
+            if ((IF_GETHIDE(comp(1253, 447)) == false)) {  // wheel_of_fortune:trh_promo_info
                 varclient_1993 = 0;
                 return;
             };
@@ -347,27 +347,27 @@ function script6574(int0: number): void {
             };
             switch (int1) {
                 case 1: {
-                    IF_SETOPKEY(1, 83, 0, comp(1253, 33));
+                    IF_SETOPKEY(1, 83, 0, comp(1253, 33));  // wheel_of_fortune:wheel_spin_button_active_layer_1
                     break;
                 }
                 case 2: {
-                    IF_SETOPKEY(1, 83, 0, comp(1253, 23));
+                    IF_SETOPKEY(1, 83, 0, comp(1253, 23));  // wheel_of_fortune:wheel_spin_button_active_layer_2
                     break;
                 }
                 case 3: {
-                    IF_SETOPKEY(1, 83, 0, comp(1253, 28));
+                    IF_SETOPKEY(1, 83, 0, comp(1253, 28));  // wheel_of_fortune:wheel_spin_button_active_layer_3
                     break;
                 }
                 case 4: {
-                    IF_SETOPKEY(1, 83, 0, comp(1253, 18));
+                    IF_SETOPKEY(1, 83, 0, comp(1253, 18));  // wheel_of_fortune:wheel_spin_button_active_layer_4
                     break;
                 }
                 case 5: {
-                    IF_SETOPKEY(1, 83, 0, comp(1253, 13));
+                    IF_SETOPKEY(1, 83, 0, comp(1253, 13));  // wheel_of_fortune:wheel_spin_button_active_layer_5
                     break;
                 }
                 default: {
-                    IF_SETOPKEY(1, 83, 0, comp(1253, 33));
+                    IF_SETOPKEY(1, 83, 0, comp(1253, 33));  // wheel_of_fortune:wheel_spin_button_active_layer_1
                     break;
                 }
             };
@@ -375,18 +375,18 @@ function script6574(int0: number): void {
             return;
         };
     };
-    if ((IF_GETHIDE(comp(1253, 265)) == false)) {
+    if ((IF_GETHIDE(comp(1253, 265)) == false)) {  // wheel_of_fortune:reward_layer
         switch (int2) {
             case 34810: {
-                IF_SETOPKEY(1, -1, 0, comp(491, 7));
+                IF_SETOPKEY(1, -1, 0, comp(491, 7));  // trh147_overlay:keybind_layer
                 break;
             }
             case 40579: {
-                IF_SETOPKEY(1, -1, 0, comp(215, 26));
+                IF_SETOPKEY(1, -1, 0, comp(215, 26));  // trh148_overlay:keybind_layer
                 break;
             }
             case 34826: {
-                IF_SETOPKEY(1, -1, 0, comp(35, 17));
+                IF_SETOPKEY(1, -1, 0, comp(35, 17));  // trh153_overlay:keybind_layer
                 break;
             }
             case 1530: {
@@ -394,76 +394,76 @@ function script6574(int0: number): void {
                 break;
             }
             case 45540: {
-                IF_SETOPKEY(1, -1, 0, comp(539, 1));
+                IF_SETOPKEY(1, -1, 0, comp(539, 1));  // trh174_overlay:keybind_layer
                 break;
             }
             case 38119: {
-                IF_SETOPKEY(1, -1, 0, comp(935, 17));
+                IF_SETOPKEY(1, -1, 0, comp(935, 17));  // trh176_overlay:keybind_layer
                 break;
             }
             case 39801: {
-                IF_SETOPKEY(1, -1, 0, comp(669, 2));
+                IF_SETOPKEY(1, -1, 0, comp(669, 2));  // trh177_overlay:keybind_layer
                 break;
             }
             case 22606: {
-                IF_SETOPKEY(1, -1, 0, comp(970, 30));
+                IF_SETOPKEY(1, -1, 0, comp(970, 30));  // trh180_overlay:keybind_layer
                 break;
             }
             case 3707: {
-                IF_SETOPKEY(1, -1, 0, comp(1014, 36));
+                IF_SETOPKEY(1, -1, 0, comp(1014, 36));  // trh183_overlay:keybind_layer
                 break;
             }
             case 32986:
             case 50263: {
-                IF_SETOPKEY(1, -1, 0, comp(1288, 6));
+                IF_SETOPKEY(1, -1, 0, comp(1288, 6));  // trh_academy_shared_overlay:keybind_layer
                 break;
             }
             case 39853: {
-                IF_SETOPKEY(1, -1, 0, comp(1023, 66));
+                IF_SETOPKEY(1, -1, 0, comp(1023, 66));  // trh187_overlay:keybind_layer
                 break;
             }
             case 47035: {
-                IF_SETOPKEY(1, -1, 0, comp(1082, 34));
+                IF_SETOPKEY(1, -1, 0, comp(1082, 34));  // trh189_overlay:keybind_layer
                 break;
             }
             case 46398: {
-                IF_SETOPKEY(1, -1, 0, comp(1120, 107));
+                IF_SETOPKEY(1, -1, 0, comp(1120, 107));  // trh190_overlay:keybind_layer
                 break;
             }
             case 46396: {
-                IF_SETOPKEY(1, -1, 0, comp(1152, 4));
+                IF_SETOPKEY(1, -1, 0, comp(1152, 4));  // trh192_overlay:keybind_layer
                 break;
             }
             case 49116: {
-                IF_SETOPKEY(1, -1, 0, comp(1271, 98));
+                IF_SETOPKEY(1, -1, 0, comp(1271, 98));  // trh195:keybind_layer
                 break;
             }
             case 21098: {
-                IF_SETOPKEY(1, -1, 0, comp(631, 3));
+                IF_SETOPKEY(1, -1, 0, comp(631, 3));  // trh196_overlay:keybind_layer
                 break;
             }
             case 49719: {
-                IF_SETOPKEY(1, -1, 0, comp(1282, 20));
+                IF_SETOPKEY(1, -1, 0, comp(1282, 20));  // trh197_overlay:keybind_layer
                 break;
             }
             case 50195: {
-                IF_SETOPKEY(1, -1, 0, comp(1147, 2));
+                IF_SETOPKEY(1, -1, 0, comp(1147, 2));  // trh199_overlay:keybind_layer
                 break;
             }
             case 50555: {
-                IF_SETOPKEY(1, -1, 0, comp(1290, 75));
+                IF_SETOPKEY(1, -1, 0, comp(1290, 75));  // trh_dungeon_crawl_overlay:keybind_layer
                 break;
             }
             case 51061: {
-                IF_SETOPKEY(1, -1, 0, comp(1278, 70));
+                IF_SETOPKEY(1, -1, 0, comp(1278, 70));  // trh204_overlay:keybind_layer
                 break;
             }
             case 51131: {
-                IF_SETOPKEY(1, -1, 0, comp(1320, 4));
+                IF_SETOPKEY(1, -1, 0, comp(1320, 4));  // trh205_overlay:keybind_layer
                 break;
             }
             case 51827: {
-                IF_SETOPKEY(1, -1, 0, comp(1342, 4));
+                IF_SETOPKEY(1, -1, 0, comp(1342, 4));  // trh209_overlay:keybind_layer
                 break;
             }
         };
@@ -471,7 +471,7 @@ function script6574(int0: number): void {
             varclient_1993 = 0;
             return;
         };
-        if ((IF_GETHIDE(comp(1253, 290)) == false)) {
+        if ((IF_GETHIDE(comp(1253, 290)) == false)) {  // wheel_of_fortune:discard_confirm_layer
             script8844(1, 83, 8, 82116903, -1);
             script8844(1, 50, 8, 82116904, -1);
             varclient_1993 = 0;
@@ -481,10 +481,10 @@ function script6574(int0: number): void {
             script8844(1, 83, 8, 82116884, -1);
         };
         if ((IF_GETENABLED(82116886) == 1)) {
-            IF_SETOPKEY(1, 68, 0, comp(1253, 278));
+            IF_SETOPKEY(1, 68, 0, comp(1253, 278));  // wheel_of_fortune:reward_claim_bank_button
         };
         if ((IF_GETENABLED(82116885) == 1)) {
-            IF_SETOPKEY(1, 39, 0, comp(1253, 277));
+            IF_SETOPKEY(1, 39, 0, comp(1253, 277));  // wheel_of_fortune:reward_claim_inv_button
         };
         if ((IF_GETENABLED(82116890) == 1)) {
             script8844(1, 50, 8, 82116890, -1);

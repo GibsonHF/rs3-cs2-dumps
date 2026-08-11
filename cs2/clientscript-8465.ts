@@ -49,93 +49,93 @@ function script8465(int0: number): void {
     var string0 = "";
     var string1 = "";
     if ((int1 == 1)) {
-        IF_SETTEXT(inttostring(int16, 10), comp(1559, 119));
+        IF_SETTEXT(inttostring(int16, 10), comp(1559, 119));  // toplevel_v2_inspect_worn_stats:armour_rating_value
         int23 = (SCALE(int16, 100, (100 - int5)) - SCALE(int16, 100, 45));
         string0 = inttostring(int23, 10);
         if ((int23 > 0)) {
             string0 = `+${string0}`;
         };
-        IF_SETTEXT(string0, comp(1559, 117));
+        IF_SETTEXT(string0, comp(1559, 117));  // toplevel_v2_inspect_worn_stats:effective_melee_armour_value
         int23 = (SCALE(int16, 100, (100 - int6)) - SCALE(int16, 100, 45));
         string0 = inttostring(int23, 10);
         if ((int23 > 0)) {
             string0 = `+${string0}`;
         };
-        IF_SETTEXT(string0, comp(1559, 121));
+        IF_SETTEXT(string0, comp(1559, 121));  // toplevel_v2_inspect_worn_stats:effective_ranged_armour_value
         int23 = (SCALE(int16, 100, (100 - int7)) - SCALE(int16, 100, 45));
         string0 = inttostring(int23, 10);
         if ((int23 > 0)) {
             string0 = `+${string0}`;
         };
-        IF_SETTEXT(string0, comp(1559, 123));
+        IF_SETTEXT(string0, comp(1559, 123));  // toplevel_v2_inspect_worn_stats:effective_magic_armour_value
         int23 = (SCALE(int16, 100, (100 - int8)) - SCALE(int16, 100, 45));
         string0 = inttostring(int23, 10);
         if ((int23 > 0)) {
             string0 = `+${string0}`;
         };
-        IF_SETTEXT(string0, comp(1559, 156));
-        IF_SETTEXT(`${script10006((10 * ((int10 + int11) + MIN(99, script10781(1)))))}%`, comp(1559, 80));
+        IF_SETTEXT(string0, comp(1559, 156));  // toplevel_v2_inspect_worn_stats:effective_necromancy_armour_value
+        IF_SETTEXT(`${script10006((10 * ((int10 + int11) + MIN(99, script10781(1)))))}%`, comp(1559, 80));  // toplevel_v2_inspect_worn_stats:damage_reduction_pve
         string1 = `Defence level : <col=00FF00>${script10006(MIN(990, (10 * script10781(1))))}%</col><br>Tank armour : <col=00FF00>${script10006((10 * int10))}%</col><br>Shield : <col=00FF00>${script10006((10 * int11))}%</col>`;
-        IF_SETONMOUSEREPEAT(callback(script3876, string1, -2147483645, -2147483643), comp(1559, 80));
-        IF_SETONMOUSELEAVE(callback(script8805), comp(1559, 80));
-        IF_SETTEXT(`${script10006((int12 + MIN(990, (10 * script10781(1)))))}%`, comp(1559, 82));
+        IF_SETONMOUSEREPEAT(callback(script3876, string1, -2147483645, -2147483643), comp(1559, 80));  // toplevel_v2_inspect_worn_stats:damage_reduction_pve
+        IF_SETONMOUSELEAVE(callback(script8805), comp(1559, 80));  // toplevel_v2_inspect_worn_stats:damage_reduction_pve
+        IF_SETTEXT(`${script10006((int12 + MIN(990, (10 * script10781(1)))))}%`, comp(1559, 82));  // toplevel_v2_inspect_worn_stats:damage_reduction_pvp
         string1 = `Defence level : <col=00FF00>${script10006(MIN(990, (10 * script10781(1))))}%</col><br>PvP armour : <col=00FF00>${script10006(int12)}%</col>`;
-        IF_SETONMOUSEREPEAT(callback(script3876, string1, -2147483645, -2147483643), comp(1559, 82));
-        IF_SETONMOUSELEAVE(callback(script8805), comp(1559, 82));
-        IF_SETTEXT(inttostring(int20, 10), comp(1559, 101));
+        IF_SETONMOUSEREPEAT(callback(script3876, string1, -2147483645, -2147483643), comp(1559, 82));  // toplevel_v2_inspect_worn_stats:damage_reduction_pvp
+        IF_SETONMOUSELEAVE(callback(script8805), comp(1559, 82));  // toplevel_v2_inspect_worn_stats:damage_reduction_pvp
+        IF_SETTEXT(inttostring(int20, 10), comp(1559, 101));  // toplevel_v2_inspect_worn_stats:prayer_bonus_value
         string1 = `Armour : <col=00FF00>${inttostring(int3, 10)}</col><br>Skill Bonus : <col=00FF00>${inttostring(int4, 10)}</col>`;
-        IF_SETONMOUSEREPEAT(callback(script3876, string1, -2147483645, -2147483643), comp(1559, 119));
-        IF_SETONMOUSELEAVE(callback(script8805), comp(1559, 119));
+        IF_SETONMOUSEREPEAT(callback(script3876, string1, -2147483645, -2147483643), comp(1559, 119));  // toplevel_v2_inspect_worn_stats:armour_rating_value
+        IF_SETONMOUSELEAVE(callback(script8805), comp(1559, 119));  // toplevel_v2_inspect_worn_stats:armour_rating_value
         string1 = `<col=F3B13F>Life Points</col><br>Base : <col=00FF00>${inttostring(int21, 10)}</col><br>Armour Bonus : <col=00FF00>${inttostring(int22, 10)}</col>`;
-        IF_SETONMOUSEREPEAT(callback(script3876, string1, -2147483645, -2147483643), comp(1559, 19));
-        IF_SETONMOUSELEAVE(callback(script8805), comp(1559, 19));
+        IF_SETONMOUSEREPEAT(callback(script3876, string1, -2147483645, -2147483643), comp(1559, 19));  // toplevel_v2_inspect_worn_stats:health_value_text
+        IF_SETONMOUSELEAVE(callback(script8805), comp(1559, 19));  // toplevel_v2_inspect_worn_stats:health_value_text
         string1 = "<col=F3B13F>Prayer Points</col>";
-        IF_SETONMOUSEREPEAT(callback(script3876, string1, -2147483645, -2147483643), comp(1559, 20));
-        IF_SETONMOUSELEAVE(callback(script8805), comp(1559, 20));
+        IF_SETONMOUSEREPEAT(callback(script3876, string1, -2147483645, -2147483643), comp(1559, 20));  // toplevel_v2_inspect_worn_stats:prayer_value_text
+        IF_SETONMOUSELEAVE(callback(script8805), comp(1559, 20));  // toplevel_v2_inspect_worn_stats:prayer_value_text
     } else {
-        IF_SETTEXT(inttostring(int16, 10), comp(1463, 197));
+        IF_SETTEXT(inttostring(int16, 10), comp(1463, 197));  // toplevel_v2_parent_suboverlay_worn_stats:armour_rating_value
         int23 = (SCALE(int16, 100, (100 - int5)) - SCALE(int16, 100, 45));
         string0 = inttostring(int23, 10);
         if ((int23 > 0)) {
             string0 = `+${string0}`;
         };
-        IF_SETTEXT(string0, comp(1463, 8));
+        IF_SETTEXT(string0, comp(1463, 8));  // toplevel_v2_parent_suboverlay_worn_stats:effective_melee_armour_value
         int23 = (SCALE(int16, 100, (100 - int6)) - SCALE(int16, 100, 45));
         string0 = inttostring(int23, 10);
         if ((int23 > 0)) {
             string0 = `+${string0}`;
         };
-        IF_SETTEXT(string0, comp(1463, 6));
+        IF_SETTEXT(string0, comp(1463, 6));  // toplevel_v2_parent_suboverlay_worn_stats:effective_ranged_armour_value
         int23 = (SCALE(int16, 100, (100 - int7)) - SCALE(int16, 100, 45));
         string0 = inttostring(int23, 10);
         if ((int23 > 0)) {
             string0 = `+${string0}`;
         };
-        IF_SETTEXT(string0, comp(1463, 3));
+        IF_SETTEXT(string0, comp(1463, 3));  // toplevel_v2_parent_suboverlay_worn_stats:effective_magic_armour_value
         int23 = (SCALE(int16, 100, (100 - int8)) - SCALE(int16, 100, 45));
         string0 = inttostring(int23, 10);
         if ((int23 > 0)) {
             string0 = `+${string0}`;
         };
-        IF_SETTEXT(string0, comp(1463, 231));
-        IF_SETTEXT(`${inttostring(SCALE(int17, 1000, 10), 10)}%`, comp(1463, 148));
-        IF_SETTEXT(`${inttostring(SCALE(int18, 1000, 10), 10)}%`, comp(1463, 152));
-        IF_SETTEXT(`${inttostring(SCALE(int19, 1000, 10), 10)}%`, comp(1463, 156));
-        IF_SETTEXT(`${script10006((10 * ((int10 + int11) + MIN(99, STAT(1 as stat)))))}%`, comp(1463, 160));
+        IF_SETTEXT(string0, comp(1463, 231));  // toplevel_v2_parent_suboverlay_worn_stats:effective_necromancy_armour_value
+        IF_SETTEXT(`${inttostring(SCALE(int17, 1000, 10), 10)}%`, comp(1463, 148));  // toplevel_v2_parent_suboverlay_worn_stats:armour_vs_melee_value
+        IF_SETTEXT(`${inttostring(SCALE(int18, 1000, 10), 10)}%`, comp(1463, 152));  // toplevel_v2_parent_suboverlay_worn_stats:armour_vs_range_value
+        IF_SETTEXT(`${inttostring(SCALE(int19, 1000, 10), 10)}%`, comp(1463, 156));  // toplevel_v2_parent_suboverlay_worn_stats:armour_vs_magic_value
+        IF_SETTEXT(`${script10006((10 * ((int10 + int11) + MIN(99, STAT(1 as stat)))))}%`, comp(1463, 160));  // toplevel_v2_parent_suboverlay_worn_stats:damage_reduction_pve
         string1 = `Defence level : <col=00FF00>${script10006(MIN(990, (10 * STAT(1 as stat))))}%</col><br>Tank armour : <col=00FF00>${script10006((10 * int10))}%</col><br>Shield : <col=00FF00>${script10006((10 * int11))}%</col>`;
-        IF_SETONMOUSEREPEAT(callback(script3876, string1, -2147483645, -2147483643), comp(1463, 160));
-        IF_SETONMOUSELEAVE(callback(script8805), comp(1463, 160));
-        IF_SETTEXT(`${script10006((int12 + MIN(990, (10 * STAT(1 as stat)))))}%`, comp(1463, 162));
+        IF_SETONMOUSEREPEAT(callback(script3876, string1, -2147483645, -2147483643), comp(1463, 160));  // toplevel_v2_parent_suboverlay_worn_stats:damage_reduction_pve
+        IF_SETONMOUSELEAVE(callback(script8805), comp(1463, 160));  // toplevel_v2_parent_suboverlay_worn_stats:damage_reduction_pve
+        IF_SETTEXT(`${script10006((int12 + MIN(990, (10 * STAT(1 as stat)))))}%`, comp(1463, 162));  // toplevel_v2_parent_suboverlay_worn_stats:damage_reduction_pvp
         string1 = `Defence level : <col=00FF00>${script10006(MIN(990, (10 * STAT(1 as stat))))}%</col><br>PvP armour : <col=00FF00>${script10006(int12)}%</col>`;
-        IF_SETONMOUSEREPEAT(callback(script3876, string1, -2147483645, -2147483643), comp(1463, 162));
-        IF_SETONMOUSELEAVE(callback(script8805), comp(1463, 162));
-        IF_SETTEXT(inttostring(int20, 10), comp(1463, 181));
+        IF_SETONMOUSEREPEAT(callback(script3876, string1, -2147483645, -2147483643), comp(1463, 162));  // toplevel_v2_parent_suboverlay_worn_stats:damage_reduction_pvp
+        IF_SETONMOUSELEAVE(callback(script8805), comp(1463, 162));  // toplevel_v2_parent_suboverlay_worn_stats:damage_reduction_pvp
+        IF_SETTEXT(inttostring(int20, 10), comp(1463, 181));  // toplevel_v2_parent_suboverlay_worn_stats:prayer_bonus_value
         string1 = `Armour : <col=00FF00>${inttostring(int3, 10)}</col><br>Skill Bonus : <col=00FF00>${inttostring(int4, 10)}</col>`;
-        IF_SETONMOUSEREPEAT(callback(script3876, string1, -2147483645, -2147483643), comp(1463, 197));
-        IF_SETONMOUSELEAVE(callback(script8805), comp(1463, 197));
+        IF_SETONMOUSEREPEAT(callback(script3876, string1, -2147483645, -2147483643), comp(1463, 197));  // toplevel_v2_parent_suboverlay_worn_stats:armour_rating_value
+        IF_SETONMOUSELEAVE(callback(script8805), comp(1463, 197));  // toplevel_v2_parent_suboverlay_worn_stats:armour_rating_value
         string1 = `Base : <col=00FF00>${inttostring(int21, 10)}</col><br>Armour Bonus : <col=00FF00>${inttostring(int22, 10)}</col>`;
-        IF_SETONMOUSEREPEAT(callback(script3876, string1, -2147483645, -2147483643), comp(1463, 24));
-        IF_SETONMOUSELEAVE(callback(script8805), comp(1463, 24));
+        IF_SETONMOUSEREPEAT(callback(script3876, string1, -2147483645, -2147483643), comp(1463, 24));  // toplevel_v2_parent_suboverlay_worn_stats:health_value_text
+        IF_SETONMOUSELEAVE(callback(script8805), comp(1463, 24));  // toplevel_v2_parent_suboverlay_worn_stats:health_value_text
     };
     return;
 }

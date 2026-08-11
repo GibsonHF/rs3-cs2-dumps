@@ -31,20 +31,20 @@ function script8876(int0: number, int1: number, string0: string): void {
     if ((int8 >= 0)) {
         string1 = SUBSTRING(string0, 0, int8);
     };
-    IF_SETHIDE(true, comp(1489, 8));
-    IF_SETTEXT(string1, comp(1489, 13));
-    IF_SETSIZE((STRINGWIDTH(string1, IF_GETFONTMETRICS(comp(1489, 13))) + 5), 17, 0, 0, comp(1489, 13));
+    IF_SETHIDE(true, comp(1489, 8));  // toplevel_v2_hover_target:is_tagged_layer
+    IF_SETTEXT(string1, comp(1489, 13));  // toplevel_v2_hover_target:name
+    IF_SETSIZE((STRINGWIDTH(string1, IF_GETFONTMETRICS(comp(1489, 13))) + 5), 17, 0, 0, comp(1489, 13));  // toplevel_v2_hover_target:name
     var int9 = 0;
     if ((int7 > 0)) {
-        IF_SETTEXT(inttostring(int7, 10), comp(1489, 1));
+        IF_SETTEXT(inttostring(int7, 10), comp(1489, 1));  // toplevel_v2_hover_target:hover_target_level
         int9 = (COMLEVEL_ACTIVE() - int7);
     } else {
-        IF_SETTEXT("", comp(1489, 1));
+        IF_SETTEXT("", comp(1489, 1));  // toplevel_v2_hover_target:hover_target_level
     };
     if ((int9 >= 0)) {
-        IF_SETCOLOUR(script693((255 - SCALE(int9, COMLEVEL_ACTIVE(), 255)), 255, 0), comp(1489, 1));
+        IF_SETCOLOUR(script693((255 - SCALE(int9, COMLEVEL_ACTIVE(), 255)), 255, 0), comp(1489, 1));  // toplevel_v2_hover_target:hover_target_level
     } else {
-        IF_SETCOLOUR(script693(255, (255 + MAX(SCALE(int9, MAX(int7, 200), 255), -255)), 0), comp(1489, 1));
+        IF_SETCOLOUR(script693(255, (255 + MAX(SCALE(int9, MAX(int7, 200), 255), -255)), 0), comp(1489, 1));  // toplevel_v2_hover_target:hover_target_level
     };
     var int10 = 9286 as graphic;
     var string2 = "Weakness : ";
@@ -130,17 +130,17 @@ function script8876(int0: number, int1: number, string0: string): void {
             break;
         }
     };
-    IF_SETONMOUSEREPEAT(callback(script8799, string2, -2147483645, -2147483643), comp(1489, 18));
-    IF_SETGRAPHIC(int10, comp(1489, 18));
+    IF_SETONMOUSEREPEAT(callback(script8799, string2, -2147483645, -2147483643), comp(1489, 18));  // toplevel_v2_hover_target:weakness
+    IF_SETGRAPHIC(int10, comp(1489, 18));  // toplevel_v2_hover_target:weakness
     var int11 = 5;
-    var int12 = ((IF_GETX(comp(1489, 13)) + IF_GETWIDTH(comp(1489, 13))) + int11);
-    IF_SETPOSITION(int12, IF_GETY(comp(1489, 14)), 0, 0, comp(1489, 14));
-    var int13 = ((IF_GETX(comp(1489, 14)) + IF_GETWIDTH(comp(1489, 14))) + int11);
-    IF_SETPOSITION(int13, IF_GETY(comp(1489, 15)), 0, 0, comp(1489, 15));
-    var int14 = (IF_GETX(comp(1489, 15)) + IF_GETWIDTH(comp(1489, 15)));
-    var int15 = MAX(int14, IF_GETWIDTH(comp(1489, 16)));
+    var int12 = ((IF_GETX(comp(1489, 13)) + IF_GETWIDTH(comp(1489, 13))) + int11);  // toplevel_v2_hover_target:name
+    IF_SETPOSITION(int12, IF_GETY(comp(1489, 14)), 0, 0, comp(1489, 14));  // toplevel_v2_hover_target:weakness_container
+    var int13 = ((IF_GETX(comp(1489, 14)) + IF_GETWIDTH(comp(1489, 14))) + int11);  // toplevel_v2_hover_target:weakness_container
+    IF_SETPOSITION(int13, IF_GETY(comp(1489, 15)), 0, 0, comp(1489, 15));  // toplevel_v2_hover_target:level_layer
+    var int14 = (IF_GETX(comp(1489, 15)) + IF_GETWIDTH(comp(1489, 15)));  // toplevel_v2_hover_target:level_layer
+    var int15 = MAX(int14, IF_GETWIDTH(comp(1489, 16)));  // toplevel_v2_hover_target:target_health_bar_layer
     if ((int15 > int14)) {
-        IF_SETPOSITION(0, IF_GETY(comp(1489, 15)), 2, 0, comp(1489, 15));
+        IF_SETPOSITION(0, IF_GETY(comp(1489, 15)), 2, 0, comp(1489, 15));  // toplevel_v2_hover_target:level_layer
     };
     var int16 = 0;
     var int17 = 0;
@@ -149,19 +149,19 @@ function script8876(int0: number, int1: number, string0: string): void {
     int17 = MIN(100, int17);
     int17 = MAX(0, int17);
     int16 = ((int17 * 16384) / 100);
-    IF_SETSIZE(int16, IF_GETHEIGHT(comp(1489, 19)), 2, 0, comp(1489, 2));
+    IF_SETSIZE(int16, IF_GETHEIGHT(comp(1489, 19) /*toplevel_v2_hover_target:probar_fake_layer*/), 2, 0, comp(1489, 2) /*toplevel_v2_hover_target:probar_actual_health_layer*/);
     if ((npc_getparam(unk11077(), 4473) == 1)) {
-        IF_SETTEXT("", comp(1489, 20));
+        IF_SETTEXT("", comp(1489, 20));  // toplevel_v2_hover_target:entity_health_left
     } else {
-        IF_SETTEXT(TOSTRING_LOCALISED(int3, 1), comp(1489, 20));
+        IF_SETTEXT(TOSTRING_LOCALISED(int3, 1), comp(1489, 20));  // toplevel_v2_hover_target:entity_health_left
     };
-    var int18 = ((int5 + IF_GETY(comp(1489, 16))) + IF_GETHEIGHT(comp(1489, 16)));
-    IF_SETSIZE(int14, int18, 0, 0, comp(1488, 3));
+    var int18 = ((int5 + IF_GETY(comp(1489, 16))) + IF_GETHEIGHT(comp(1489, 16)));  // toplevel_v2_hover_target:target_health_bar_layer
+    IF_SETSIZE(int14, int18, 0, 0, comp(1488, 3));  // toplevel_v2_targeting:hover_info
     var int19 = (int4 - (int14 / 2));
     var int20 = int6;
-    int19 = MAX(MIN(int19, (IF_GETWIDTH(comp(1488, 0)) - int14)), 0);
-    int20 = MAX(MIN(int20, (IF_GETHEIGHT(comp(1488, 0)) - int18)), 0);
-    IF_SETPOSITION(int19, int20, 0, 0, comp(1488, 3));
-    IF_SETHIDE(false, comp(1489, 3));
+    int19 = MAX(MIN(int19, (IF_GETWIDTH(comp(1488, 0)) - int14)), 0);  // toplevel_v2_targeting:universe
+    int20 = MAX(MIN(int20, (IF_GETHEIGHT(comp(1488, 0)) - int18)), 0);  // toplevel_v2_targeting:universe
+    IF_SETPOSITION(int19, int20, 0, 0, comp(1488, 3));  // toplevel_v2_targeting:hover_info
+    IF_SETHIDE(false, comp(1489, 3));  // toplevel_v2_hover_target:universe
     return;
 }

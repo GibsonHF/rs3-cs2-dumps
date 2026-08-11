@@ -9,13 +9,13 @@ function script1467(int0: number, int1: number): void {
     };
     var int3 = script11108(int0, int1);
     var int4 = SCALE(int3, 360, 32);
-    IF_SETCOLOUR(HSVTORGB(script11527(int4, varplayer_5456)), comp(1627, 35));
+    IF_SETCOLOUR(HSVTORGB(script11527(int4, varplayer_5456)), comp(1627, 35));  // mtxmgt_colour_overlay:prismatic_preview
     script11521(int4);
-    if (((varclient_4887 != -1) && (CC_FIND(comp(1627, 34), varclient_4887) == 1))) {
+    if (((varclient_4887 != -1) && (CC_FIND(comp(1627, 34), varclient_4887) == 1))) {  // mtxmgt_colour_overlay:prismatic_wheel_active
         CC_SETHIDE(true);
     };
     varclient_4887 = int4;
-    if ((CC_FIND(comp(1627, 34), varclient_4887) == 1)) {
+    if ((CC_FIND(comp(1627, 34), varclient_4887) == 1)) {  // mtxmgt_colour_overlay:prismatic_wheel_active
         CC_SETHIDE(false);
     };
     return;

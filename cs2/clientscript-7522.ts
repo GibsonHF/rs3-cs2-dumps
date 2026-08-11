@@ -33,30 +33,30 @@ function script7522(): void {
             int2 = script7503(int1);
             switch (varclient_2707) {
                 case 0: {
-                    IF_SETGRAPHIC(int2, comp(1393, 8));
-                    IF_SETGRAPHIC(script7504(int2), comp(1393, 11));
-                    IF_SETTEXT(script7505(int2), comp(1393, 4));
-                    IF_SETTEXT(script7515(int2), comp(1393, 15));
+                    IF_SETGRAPHIC(int2, comp(1393, 8));  // rand_dnd_card_preview:rand_dnd_card_3
+                    IF_SETGRAPHIC(script7504(int2), comp(1393, 11));  // rand_dnd_card_preview:rand_dnd_chosen_card
+                    IF_SETTEXT(script7505(int2), comp(1393, 4));  // rand_dnd_card_preview:rand_dnd_card_name_text
+                    IF_SETTEXT(script7515(int2), comp(1393, 15));  // rand_dnd_card_preview:info_text
                     break;
                 }
                 case 1: {
-                    IF_SETGRAPHIC(int2, comp(1393, 7));
-                    IF_SETHIDE(false, comp(1393, 7));
+                    IF_SETGRAPHIC(int2, comp(1393, 7));  // rand_dnd_card_preview:rand_dnd_card_2
+                    IF_SETHIDE(false, comp(1393, 7));  // rand_dnd_card_preview:rand_dnd_card_2
                     break;
                 }
                 case 2: {
-                    IF_SETGRAPHIC(int2, comp(1393, 9));
-                    IF_SETHIDE(false, comp(1393, 9));
+                    IF_SETGRAPHIC(int2, comp(1393, 9));  // rand_dnd_card_preview:rand_dnd_card_4
+                    IF_SETHIDE(false, comp(1393, 9));  // rand_dnd_card_preview:rand_dnd_card_4
                     break;
                 }
                 case 3: {
-                    IF_SETGRAPHIC(int2, comp(1393, 6));
-                    IF_SETHIDE(false, comp(1393, 6));
+                    IF_SETGRAPHIC(int2, comp(1393, 6));  // rand_dnd_card_preview:rand_dnd_card_1
+                    IF_SETHIDE(false, comp(1393, 6));  // rand_dnd_card_preview:rand_dnd_card_1
                     break;
                 }
                 case 4: {
-                    IF_SETGRAPHIC(int2, comp(1393, 10));
-                    IF_SETHIDE(false, comp(1393, 10));
+                    IF_SETGRAPHIC(int2, comp(1393, 10));  // rand_dnd_card_preview:rand_dnd_card_5
+                    IF_SETHIDE(false, comp(1393, 10));  // rand_dnd_card_preview:rand_dnd_card_5
                     break;
                 }
             };

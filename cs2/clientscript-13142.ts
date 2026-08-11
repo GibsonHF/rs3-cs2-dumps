@@ -1,9 +1,9 @@
 //
 function script13142(int0: number): void {
     if ((int0 == 1)) {
-        IF_SETONKEY(callback(script13143, -2147483640, -2147483639), comp(1306, 52));
+        IF_SETONKEY(callback(script13143, -2147483640, -2147483639), comp(1306, 52));  // poh_furniture_create:content
     } else {
-        IF_SETONKEY(callback(), comp(1306, 52));
+        IF_SETONKEY(callback(), comp(1306, 52));  // poh_furniture_create:content
     };
     return;
 }

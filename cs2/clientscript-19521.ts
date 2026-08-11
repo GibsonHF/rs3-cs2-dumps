@@ -4,7 +4,7 @@ function script19521(int0: number, int1: number): void {
     if ((script6431() == 1)) {
         int2 = 52;
     };
-    var int3 = MAX(1, (IF_GETWIDTH(comp(1313, 74)) / int2));
+    var int3 = MAX(1, (IF_GETWIDTH(comp(1313, 74)) / int2));  // group_ironman_storage:clan_items_container
     var int4 = 0;
     var int5 = -1 as cs2enum;
     switch (int0) {
@@ -39,14 +39,14 @@ function script19521(int0: number, int1: number): void {
         }
     };
     if ((int6 == 0)) {
-        IF_SETHIDE(false, comp(1313, 72));
+        IF_SETHIDE(false, comp(1313, 72));  // group_ironman_storage:message_nofilter
         while ((int7 < 200)) {
-            if ((CC_FIND(comp(1313, 75), int7) == 1)) {
+            if ((CC_FIND(comp(1313, 75), int7) == 1)) {  // group_ironman_storage:clan_inv
                 CC_SETHIDE(true);
             };
             int7 = (int7 + 1);
         };
-        IF_SETSCROLLPOS(0, 0, comp(1313, 74));
+        IF_SETSCROLLPOS(0, 0, comp(1313, 74));  // group_ironman_storage:clan_items_container
         script19503(0);
         return;
     };
@@ -80,7 +80,7 @@ function script19521(int0: number, int1: number): void {
     var int14 = -1;
     var int15 = 8;
     while ((int7 < int13)) {
-        if ((CC_FIND(comp(1313, 75), int7) == 1)) {
+        if ((CC_FIND(comp(1313, 75), int7) == 1)) {  // group_ironman_storage:clan_inv
             int14 = cc_getparam(3844);
             if ((int14 != -1)) {
                 int9 = (push_array[2](int14) + ((push_array[1](int14) / int3) * int2));
@@ -95,7 +95,7 @@ function script19521(int0: number, int1: number): void {
         int7 = (int7 + 1);
     };
     script19544(int8);
-    IF_SETHIDE(true, comp(1313, 72));
+    IF_SETHIDE(true, comp(1313, 72));  // group_ironman_storage:message_nofilter
     script19503(int6);
     return;
 }

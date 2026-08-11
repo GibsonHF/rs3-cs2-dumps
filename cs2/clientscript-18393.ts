@@ -6,7 +6,7 @@ function script18393(int0: number, int1: number, int2: number): void {
         IF_SENDTOFRONT(int1);
         IF_SETMODELZOOM(3000, int1);
         if ((int3 != -1 as struct)) {
-            IF_SETTEXT(`${struct_getparam(int3, 9032)}<br>Click to select`, comp(1279, 27));
+            IF_SETTEXT(`${struct_getparam(int3, 9032)}<br>Click to select`, comp(1279, 27));  // xmas23_present_delivery:right_panel_default_text
         };
     } else {
         IF_SETMODELANIM(-1 as seq, int1);

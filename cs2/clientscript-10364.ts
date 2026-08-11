@@ -1,6 +1,6 @@
 //
 function script10364(int0: number): number {
-    CC_DELETEALL(comp(1524, 92));
+    CC_DELETEALL(comp(1524, 92));  // group_parent:reward_build_area
     if ((int0 == -1)) {
         return 0;
     };

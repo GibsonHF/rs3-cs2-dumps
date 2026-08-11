@@ -1,6 +1,6 @@
 //
 function script18111(int0: number): void {
-    CC_DELETEALL(comp(403, 24));
+    CC_DELETEALL(comp(403, 24));  // bp3_buffs_tab:content_buff_content_layer
     var int1 = DB_GETFIELDCOUNT(int0, 991536);
     var int2 = (1 + (int1 / 3));
     var int3 = (int1 + 1);
@@ -34,7 +34,7 @@ function script18111(int0: number): void {
             int10 = 0;
             int9 = (int9 + 1);
         };
-        if ((CC_FINDBYCATEGORY(comp(403, 24), int3, int9) == 1)) {
+        if ((CC_FINDBYCATEGORY(comp(403, 24), int3, int9) == 1)) {  // bp3_buffs_tab:content_buff_content_layer
             stack(int11);
             stack(int8);
             int8 = (int8 + 1);

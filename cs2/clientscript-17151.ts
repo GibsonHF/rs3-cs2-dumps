@@ -42,17 +42,17 @@ function script17151(int0: number): void {
         IF_SETOPBASE(dbrow_getfield(int1, 503824, 0), int6);
     };
     var string0 = script985(varbitplayer_51320, "You have opened all available chests.", "You can open 1 more free chest!", `You can open ${inttostring(varbitplayer_51320, 10)} more free chests!`);
-    IF_SETTEXT(string0, comp(1120, 28));
+    IF_SETTEXT(string0, comp(1120, 28));  // trh190_overlay:treasure_room_desc
     if ((varbitplayer_51320 == 0)) {
         script17285();
     };
     if ((script17143() < 4)) {
-        IF_SETENABLED(false, comp(1120, 27));
-        IF_CLEAROPS(comp(1120, 27));
+        IF_SETENABLED(false, comp(1120, 27));  // trh190_overlay:treasure_room_continue_button
+        IF_CLEAROPS(comp(1120, 27));  // trh190_overlay:treasure_room_continue_button
         script3536(`You need to open and claim your rewards from ${inttostring(4, 10)} chests in total before continuing.`, 73400347, -1);
     } else {
-        IF_SETENABLED(true, comp(1120, 27));
-        IF_SETOP(1, "Select", comp(1120, 27));
+        IF_SETENABLED(true, comp(1120, 27));  // trh190_overlay:treasure_room_continue_button
+        IF_SETOP(1, "Select", comp(1120, 27));  // trh190_overlay:treasure_room_continue_button
         script16247(73400347, -1);
     };
     return;

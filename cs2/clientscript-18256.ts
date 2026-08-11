@@ -19,7 +19,7 @@ function script18256(int0: number, int1: number, int2: number, int3: number): vo
         case 88015029: {
             [int4, string0, int5, string1] = script18134(int0, int1);
             IF_SETTEXT(string1, int3);
-            IF_SETOBJECT(52610 as obj, int5, comp(1343, 179));
+            IF_SETOBJECT(52610 as obj, int5, comp(1343, 179));  // jobs_main:currency_object
             break;
         }
         default: {

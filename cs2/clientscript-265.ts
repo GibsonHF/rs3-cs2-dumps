@@ -39,6 +39,6 @@ function script265(): void {
             break;
         }
     };
-    IF_SETTEXT(string0, comp(923, 67));
+    IF_SETTEXT(string0, comp(923, 67));  // fishcomp_side:hook_heading_txt
     return;
 }

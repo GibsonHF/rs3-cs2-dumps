@@ -6,7 +6,7 @@ function script14103(int0: number, int1: number, int2: number): void {
     };
     IF_SETONTIMER(callback(), int1);
     IF_SETVFLIP(1, int1);
-    IF_SETOP(1, "Expand", comp(1944, 31));
+    IF_SETOP(1, "Expand", comp(1944, 31));  // toolbelt_v2:info_expandarrow
     IF_SETHIDE(true, int0);
     return;
 }

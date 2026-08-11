@@ -16,14 +16,14 @@ function script10399(int0: number): void {
             int1 = script12923();
             int2 = script12922();
             if ((IF_HASSUBMODAL(script8074(), 1148) == 1)) {
-                int3 = comp(1148, 37);
+                int3 = comp(1148, 37);  // trh_dialog_select_overlay:root_layer
             };
         };
     } else if (((IF_HASSUB(script8074()) == 1) && (IF_HASSUB(script8073()) == 1))) {
         int1 = script12923();
         int2 = script12922();
         if ((IF_HASSUBMODAL(script8074(), 1148) == 1)) {
-            int3 = comp(1148, 37);
+            int3 = comp(1148, 37);  // trh_dialog_select_overlay:root_layer
         };
     };
     if ((varbitplayer_38842 == 1)) {
@@ -38,7 +38,7 @@ function script10399(int0: number): void {
                     int4 = IF_GETX(int1);
                     int6 = IF_GETWIDTH(int1);
                 };
-                if ((int4 > (IF_GETWIDTH(comp(1477, 27)) - (int4 + int6)))) {
+                if ((int4 > (IF_GETWIDTH(comp(1477, 27)) - (int4 + int6)))) {  // toplevel_v2:viewport
                     int4 = (int4 - IF_GETWIDTH(int2));
                 } else {
                     int4 = (int4 + int6);

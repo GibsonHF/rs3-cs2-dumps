@@ -47,15 +47,15 @@ function script8288(int0: number): void {
     switch (int0) {
         case 3: {
             if ((int19 == 3)) {
-                IF_TRIGGEROP(comp(1477, 24), -1, 1);
+                IF_TRIGGEROP(comp(1477, 24), -1, 1);  // toplevel_v2:intern_notes_daily_challenge
             };
             break;
         }
         case 4: {
             if ((int19 == 6)) {
-                IF_TRIGGEROP(comp(1477, 25), -1, 1);
+                IF_TRIGGEROP(comp(1477, 25), -1, 1);  // toplevel_v2:intern_notes_community_events
             } else if (((varbitplayer_52957 > 0) && (script14441() == -1))) {
-                IF_TRIGGEROP(comp(1477, 25), -1, 1);
+                IF_TRIGGEROP(comp(1477, 25), -1, 1);  // toplevel_v2:intern_notes_community_events
             };
             break;
         }

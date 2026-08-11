@@ -1,6 +1,6 @@
 //
 function script1898(): void {
-    IF_CLEARSCRIPTHOOKS(comp(1477, 37));
+    IF_CLEARSCRIPTHOOKS(comp(1477, 37));  // toplevel_v2:worldmap_pinch_controls
     script14182(96796709);
     script8808();
     script675();

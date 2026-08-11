@@ -1,6 +1,6 @@
 //[clientscript,conq_action_cam_reset]
 function script420(): void {
     CAM_FOLLOWCOORD(varclient_1353);
-    IF_SETONTIMER(callback(script421, varclient_1355, varclient_1356, 0, 0), comp(1013, 0));
+    IF_SETONTIMER(callback(script421, varclient_1355, varclient_1356, 0, 0), comp(1013, 0));  // conq_scroll_overlay:main_layer
     return;
 }

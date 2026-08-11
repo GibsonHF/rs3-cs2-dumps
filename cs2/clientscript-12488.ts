@@ -10,8 +10,8 @@ function script12488(): void {
         string0 = dbrow_getfield(int0, 36896, 0);
         string1 = varclient_5191;
     };
-    IF_SETTEXT(string0, comp(1759, 2));
-    IF_SETTEXT(string1, comp(1759, 9));
+    IF_SETTEXT(string0, comp(1759, 2));  // mm16_tracking:task_name
+    IF_SETTEXT(string1, comp(1759, 9));  // mm16_tracking:task_progress
     script12489();
     return;
 }

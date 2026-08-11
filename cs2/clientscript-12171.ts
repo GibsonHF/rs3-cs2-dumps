@@ -9,9 +9,9 @@ function script12171(int0: number): void {
     script12190();
     script12196(1);
     if ((script12062(int0) == 1)) {
-        IF_SETGRAPHIC(24236 as graphic, comp(1712, 1));
+        IF_SETGRAPHIC(24236 as graphic, comp(1712, 1));  // invent_gizmo:gizmo_background
     } else {
-        IF_SETGRAPHIC(24235 as graphic, comp(1712, 1));
+        IF_SETGRAPHIC(24235 as graphic, comp(1712, 1));  // invent_gizmo:gizmo_background
     };
     return;
 }

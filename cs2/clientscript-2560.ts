@@ -64,7 +64,7 @@ function script2560(int0: number): void {
             break;
         }
     };
-    IF_SETTEXT(string0, comp(1615, 404));
-    IF_SETTEXT(string1, comp(1615, 405));
+    IF_SETTEXT(string0, comp(1615, 404));  // trh53_spring_cleaner_updated:upgrade_name_box
+    IF_SETTEXT(string1, comp(1615, 405));  // trh53_spring_cleaner_updated:upgrade_name_discription
     return;
 }

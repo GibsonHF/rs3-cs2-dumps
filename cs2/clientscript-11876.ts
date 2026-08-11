@@ -8,12 +8,12 @@ function script11876(): void {
     };
     script11878(110428192, 110428193);
     var string0 = "Sabotage catapults to earn Construction XP.";
-    IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643), comp(1685, 4));
+    IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643), comp(1685, 4));  // falsiege_configure:sabotage_construction_layer
     string0 = "Sabotage catapults to earn Woodcutting XP.";
-    IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643), comp(1685, 6));
+    IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643), comp(1685, 6));  // falsiege_configure:sabotage_woodcutting_layer
     string0 = "Heal injured soldiers to earn Herblore XP.";
-    IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643), comp(1685, 23));
+    IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643), comp(1685, 23));  // falsiege_configure:heal_herblore_layer
     string0 = "Heal injured soldiers to earn Constitution XP.";
-    IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643), comp(1685, 27));
+    IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643), comp(1685, 27));  // falsiege_configure:heal_constitution_layer
     return;
 }

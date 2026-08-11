@@ -13,6 +13,6 @@ function script6293(): void {
     SPLINE_ADDPOINT(0, 4, pos(0,52,95,5,38), 500, pos(0,52,95,1,40), 500, 0);
     SPLINE_ADDPOINT(1, 4, pos(0,52,95,45,36), 25, pos(0,52,95,45,36), 25, 0);
     CAM_MOVEALONG(0, 0, 100, 100, 1, 0);
-    IF_SETONCAMFINISHED(callback(script5469, 0), comp(1161, 0));
+    IF_SETONCAMFINISHED(callback(script5469, 0), comp(1161, 0));  // dom_camera:spline_contol_layer
     return;
 }

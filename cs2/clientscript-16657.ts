@@ -16,10 +16,10 @@ function script16657(int0: number, int1: number, int2: number, int3: number, int
             script16658(int10, int6, string2, string1, string0, int7, int8);
         } else if ((int2 < 60)) {
             if ((int8 == 1)) {
-                IF_SETTRANS(MAX(0, (IF_GETTRANS(comp(94, 5)) - 5)), comp(94, 5));
+                IF_SETTRANS(MAX(0, (IF_GETTRANS(comp(94, 5)) - 5)), comp(94, 5));  // image_sequence:text
             };
         } else if (((int2 >= (int3 - 60)) && (int9 == 1))) {
-            IF_SETTRANS(MIN(255, (IF_GETTRANS(comp(94, 5)) + 5)), comp(94, 5));
+            IF_SETTRANS(MIN(255, (IF_GETTRANS(comp(94, 5)) + 5)), comp(94, 5));  // image_sequence:text
         };
         int2 = (int2 + 1);
     } else {
@@ -27,7 +27,7 @@ function script16657(int0: number, int1: number, int2: number, int3: number, int
         int2 = 0;
     };
     if (((int1 < int5) && (varplayer_10473 != -1 as dbrow))) {
-        IF_SETONTIMER(callback(script16657, (int0 + 1), int1, int2, int3, int4, int5, int6, string0, int7, int8, int9), comp(982, 0));
+        IF_SETONTIMER(callback(script16657, (int0 + 1), int1, int2, int3, int4, int5, int6, string0, int7, int8, int9), comp(982, 0));  // audio_sequence:audio_sequence
     };
     return;
 }

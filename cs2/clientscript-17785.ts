@@ -1,8 +1,8 @@
 //
 function script17785(int0: number): void {
     var int1 = 0;
-    var int2 = comp(1224, 34);
-    var int3 = comp(1224, 35);
+    var int2 = comp(1224, 34);  // necro_ritual_recipe_selection:list_scroll_layer
+    var int3 = comp(1224, 35);  // necro_ritual_recipe_selection:list_scrollbar_layer
     var int4 = 0;
     var int5 = IF_GETWIDTH(int2);
     var string0 = "";

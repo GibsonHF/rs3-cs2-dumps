@@ -1,6 +1,6 @@
 //
 function script11348(): void {
-    var int0 = comp(1503, 13);
+    var int0 = comp(1503, 13);  // combatv2_legacy_side:sp_attack_button
     var int1 = IF_GETPARENTLAYER(int0);
     if ((int1 == comp(-1, 65535))) {
         return;
@@ -10,14 +10,14 @@ function script11348(): void {
     var int4 = 40;
     var int5 = 10;
     var int6 = 0;
-    var int7 = comp(1503, 50);
+    var int7 = comp(1503, 50);  // combatv2_legacy_side:auto_retaliate
     var int8 = IF_GETWIDTH(int7);
     var int9 = IF_GETHEIGHT(int7);
     var int10 = true;
-    var int11 = comp(1503, 8);
-    var int12 = comp(1503, 27);
-    var int13 = comp(1503, 37);
-    var int14 = comp(1503, 1);
+    var int11 = comp(1503, 8);  // combatv2_legacy_side:buttons
+    var int12 = comp(1503, 27);  // combatv2_legacy_side:barbassault_buttons
+    var int13 = comp(1503, 37);  // combatv2_legacy_side:button1
+    var int14 = comp(1503, 1);  // combatv2_legacy_side:barbassault_button1_tiny
     var int15 = IF_GETWIDTH(int13);
     var int16 = IF_GETHEIGHT(int13);
     var int17 = true;
@@ -34,30 +34,30 @@ function script11348(): void {
     var int23 = ((int4 + (int16 * 2)) + int19);
     var int24 = ((int4 + (int16 * int21)) + int19);
     if ((int22 == 1)) {
-        IF_SETHIDE(false, comp(1503, 27));
-        IF_SETHIDE(true, comp(1503, 8));
+        IF_SETHIDE(false, comp(1503, 27));  // combatv2_legacy_side:barbassault_buttons
+        IF_SETHIDE(true, comp(1503, 8));  // combatv2_legacy_side:buttons
         if ((int24 <= int3)) {
             if (((int15 * 2) <= int2)) {
-                IF_SETHIDE(false, comp(1503, 0));
-                IF_SETHIDE(true, comp(1503, 4));
+                IF_SETHIDE(false, comp(1503, 0));  // combatv2_legacy_side:barbassault_buttons_big
+                IF_SETHIDE(true, comp(1503, 4));  // combatv2_legacy_side:barbassault_buttons_tiny
             } else {
-                IF_SETHIDE(true, comp(1503, 0));
-                IF_SETHIDE(false, comp(1503, 4));
+                IF_SETHIDE(true, comp(1503, 0));  // combatv2_legacy_side:barbassault_buttons_big
+                IF_SETHIDE(false, comp(1503, 4));  // combatv2_legacy_side:barbassault_buttons_tiny
                 int16 = IF_GETHEIGHT(int14);
                 int15 = IF_GETWIDTH(int14);
                 int4 = 36;
                 int24 = ((int4 + (int16 * int21)) + int19);
             };
         } else {
-            IF_SETHIDE(true, comp(1503, 0));
-            IF_SETHIDE(false, comp(1503, 4));
+            IF_SETHIDE(true, comp(1503, 0));  // combatv2_legacy_side:barbassault_buttons_big
+            IF_SETHIDE(false, comp(1503, 4));  // combatv2_legacy_side:barbassault_buttons_tiny
             int16 = IF_GETHEIGHT(int14);
             int15 = IF_GETWIDTH(int14);
             int4 = 36;
             int24 = ((int4 + (int16 * int21)) + int19);
         };
     } else {
-        IF_SETHIDE(true, comp(1503, 27));
+        IF_SETHIDE(true, comp(1503, 27));  // combatv2_legacy_side:barbassault_buttons
     };
     if ((int23 <= int3)) {
         int24 = int23;

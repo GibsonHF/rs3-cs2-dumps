@@ -1,6 +1,6 @@
 //
 function script7243(int0: number): void {
-    if ((int0 == comp(999, 108))) {
+    if ((int0 == comp(999, 108))) {  // trh132:use_goldstar_btn_graphic
         if ((varbitplayer_38985 == 1)) {
             IF_SETGRAPHIC(32155 as graphic, int0);
         } else {

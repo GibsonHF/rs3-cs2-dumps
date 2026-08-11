@@ -2,8 +2,8 @@
 function script19193(): void {
     SOUND_VORBIS_VOLUME(36961 as vorbis, 1, 0, 180);
     var int0 = script16161();
-    IF_SETHIDE(false, comp(1288, 57));
-    IF_SETTEXT(`Level - ${inttostring(script19145(int0), 10)}`, comp(1288, 65));
+    IF_SETHIDE(false, comp(1288, 57));  // trh_academy_shared_overlay:milestone_reward_layer
+    IF_SETTEXT(`Level - ${inttostring(script19145(int0), 10)}`, comp(1288, 65));  // trh_academy_shared_overlay:milestone_reward_level_text
     var int1 = script19148(int0);
     var int2 = -1;
     var int3 = 0;

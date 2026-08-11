@@ -6,30 +6,30 @@ function script1247(int0: number, int1: number, string0: string): void {
     if ((int0 == 1)) {
         script7845(int1, string0);
     } else {
-        IF_SETTEXT(string0, comp(64, 102));
+        IF_SETTEXT(string0, comp(64, 102));  // no_displayname_v2:information_text
         switch (int1) {
             case 1: {
-                IF_SETGRAPHIC(19716 as graphic, comp(64, 33));
-                IF_SETHIDE(true, comp(64, 7));
+                IF_SETGRAPHIC(19716 as graphic, comp(64, 33));  // no_displayname_v2:name_input_status_icon
+                IF_SETHIDE(true, comp(64, 7));  // no_displayname_v2:information_layer
                 break;
             }
             case 2: {
-                IF_SETGRAPHIC(18861 as graphic, comp(64, 33));
-                IF_SETHIDE(true, comp(64, 7));
+                IF_SETGRAPHIC(18861 as graphic, comp(64, 33));  // no_displayname_v2:name_input_status_icon
+                IF_SETHIDE(true, comp(64, 7));  // no_displayname_v2:information_layer
                 break;
             }
             case 3: {
-                IF_SETGRAPHIC(19718 as graphic, comp(64, 33));
-                IF_SETHIDE(true, comp(64, 7));
+                IF_SETGRAPHIC(19718 as graphic, comp(64, 33));  // no_displayname_v2:name_input_status_icon
+                IF_SETHIDE(true, comp(64, 7));  // no_displayname_v2:information_layer
                 break;
             }
             default: {
-                IF_SETGRAPHIC(19717 as graphic, comp(64, 33));
-                IF_SETHIDE(false, comp(64, 7));
+                IF_SETGRAPHIC(19717 as graphic, comp(64, 33));  // no_displayname_v2:name_input_status_icon
+                IF_SETHIDE(false, comp(64, 7));  // no_displayname_v2:information_layer
                 break;
             }
         };
-        IF_SETHIDE(false, comp(64, 31));
+        IF_SETHIDE(false, comp(64, 31));  // no_displayname_v2:name_icon_layer
     };
     return;
 }

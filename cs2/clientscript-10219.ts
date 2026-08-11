@@ -16,10 +16,10 @@ function script10219(): void {
         };
         int5 = MAX(1, (int5 / 10));
     };
-    IF_SETTEXT(TOSTRING_LOCALISED(int4, 1), comp(1490, 34));
+    IF_SETTEXT(TOSTRING_LOCALISED(int4, 1), comp(1490, 34));  // toplevel_v2_target_info:entity_health_left
     int2 = MAX(MIN(SCALE(int4, int5, 100), 100), 0);
     int3 = ((int2 * 16384) / 100);
-    IF_SETSIZE(int3, IF_GETHEIGHT(comp(1490, 33)), 2, 0, comp(1490, 24));
+    IF_SETSIZE(int3, IF_GETHEIGHT(comp(1490, 33) /*toplevel_v2_target_info:probar_fake_layer*/), 2, 0, comp(1490, 24) /*toplevel_v2_target_info:probar_actual_health_layer*/);
     script17671(250, varclient_7158);
     script5(int0, int1);
     return;

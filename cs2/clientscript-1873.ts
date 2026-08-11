@@ -6,7 +6,7 @@ function script1873(): void {
             varclient_1745 = false;
         };
         script3064(1);
-        IF_SETONTIMER(callback(), comp(906, 81));
+        IF_SETONTIMER(callback(), comp(906, 81));  // lobbyscreen:login_button
         script3097();
     };
     return;

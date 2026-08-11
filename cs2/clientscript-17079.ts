@@ -7,7 +7,7 @@ function script17079(int0: number, int1: number, int2: number): void {
         CC_DELETEALL(int0);
         script2649();
         script2601();
-        IF_SETPOSITION(((IF_GETX(int0) - 5) - IF_GETWIDTH(comp(906, 139))), IF_GETY(comp(906, 139)), 0, 0, comp(906, 139));
+        IF_SETPOSITION(((IF_GETX(int0) - 5) - IF_GETWIDTH(comp(906, 139))), IF_GETY(comp(906, 139)), 0, 0, comp(906, 139));  // lobbyscreen:clock
     };
     return;
 }

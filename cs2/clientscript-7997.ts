@@ -14,8 +14,8 @@ function script7997(): void {
     } else {
         script9944();
     };
-    IF_SETHIDE(true, comp(1477, 804));
+    IF_SETHIDE(true, comp(1477, 804));  // toplevel_v2:floater_layer
     script8702(-1, 9);
-    IF_SETHIDE(true, comp(1477, 805));
+    IF_SETHIDE(true, comp(1477, 805));  // toplevel_v2:escape_menu
     return;
 }

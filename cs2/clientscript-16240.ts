@@ -6,22 +6,22 @@ function script16240(): void {
     var int3 = comp(-1, 65535);
     var int4 = comp(-1, 65535);
     var int5 = comp(-1, 65535);
-    CC_DELETEALL(comp(485, 44));
+    CC_DELETEALL(comp(485, 44));  // trh181_overlay:gemfall_container
     switch (MAP_LANG()) {
         case 0: {
-            IF_SETGRAPHIC(33956 as graphic, comp(485, 24));
+            IF_SETGRAPHIC(33956 as graphic, comp(485, 24));  // trh181_overlay:trh181_gemfall_title
             break;
         }
         case 1: {
-            IF_SETGRAPHIC(33957 as graphic, comp(485, 24));
+            IF_SETGRAPHIC(33957 as graphic, comp(485, 24));  // trh181_overlay:trh181_gemfall_title
             break;
         }
         case 2: {
-            IF_SETGRAPHIC(33958 as graphic, comp(485, 24));
+            IF_SETGRAPHIC(33958 as graphic, comp(485, 24));  // trh181_overlay:trh181_gemfall_title
             break;
         }
         case 3: {
-            IF_SETGRAPHIC(33959 as graphic, comp(485, 24));
+            IF_SETGRAPHIC(33959 as graphic, comp(485, 24));  // trh181_overlay:trh181_gemfall_title
             break;
         }
     };

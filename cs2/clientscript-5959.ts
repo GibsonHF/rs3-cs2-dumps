@@ -18,9 +18,9 @@ function script5959(): void {
     if ((strcmp(string0, "") != 0)) {
         script4408(82378774);
         if ((script6431() == 0)) {
-            IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643), comp(1257, 22));
+            IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643), comp(1257, 22));  // clan_resource_data:fealty
         } else {
-            IF_SETONCLICK(callback(script8799, string0, -2147483645, -2147483643), comp(1257, 22));
+            IF_SETONCLICK(callback(script8799, string0, -2147483645, -2147483643), comp(1257, 22));  // clan_resource_data:fealty
         };
     };
     return;

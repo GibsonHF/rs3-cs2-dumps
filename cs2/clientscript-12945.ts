@@ -7,37 +7,37 @@ function script12945(int0: number): void {
     var int5 = 0;
     var int6 = 0;
     var string0 = "";
-    CC_DELETEALL(comp(1810, 27));
-    CC_DELETEALL(comp(1810, 26));
-    IF_SETSIZE(22, 8, 1, 1, comp(1810, 27));
+    CC_DELETEALL(comp(1810, 27));  // event_weekends:next_weekend_scroll_layer
+    CC_DELETEALL(comp(1810, 26));  // event_weekends:next_weekend_scrollbar_layer
+    IF_SETSIZE(22, 8, 1, 1, comp(1810, 27));  // event_weekends:next_weekend_scroll_layer
     if ((int1 != -1 as dbrow)) {
         int3 = DB_GETFIELDCOUNT(int1, 53328);
         int2 = 0;
         while ((int2 < int3)) {
             [int6, string0] = dbrow_getfield(int1, 53328, int2);
             if ((int6 == 1)) {
-                [int5, int4] = script176(118620187, IF_GETNEXTSUBID(comp(1810, 27)), 5, int4, IF_GETWIDTH(comp(1810, 27)), 21341, 16, 16, string0, 29166);
+                [int5, int4] = script176(118620187, IF_GETNEXTSUBID(comp(1810, 27)), 5, int4, IF_GETWIDTH(comp(1810, 27)), 21341, 16, 16, string0, 29166);  // event_weekends:next_weekend_scroll_layer
             } else {
-                [int5, int4] = script12086(118620187, IF_GETNEXTSUBID(comp(1810, 27)), 5, int4, IF_GETWIDTH(comp(1810, 27)), string0, 29166);
+                [int5, int4] = script12086(118620187, IF_GETNEXTSUBID(comp(1810, 27)), 5, int4, IF_GETWIDTH(comp(1810, 27)), string0, 29166);  // event_weekends:next_weekend_scroll_layer
             };
             int2 = (int2 + 1);
         };
     };
-    if ((int4 <= IF_GETHEIGHT(comp(1810, 27)))) {
-        IF_SETSIZE(8, 8, 1, 1, comp(1810, 27));
+    if ((int4 <= IF_GETHEIGHT(comp(1810, 27)))) {  // event_weekends:next_weekend_scroll_layer
+        IF_SETSIZE(8, 8, 1, 1, comp(1810, 27));  // event_weekends:next_weekend_scroll_layer
     } else {
-        IF_SETSCROLLSIZE(IF_GETWIDTH(comp(1810, 27)), int4, comp(1810, 27));
+        IF_SETSCROLLSIZE(IF_GETWIDTH(comp(1810, 27)), int4, comp(1810, 27));  // event_weekends:next_weekend_scroll_layer
         script7791(118620186, 118620187);
     };
-    IF_SETHIDE(true, comp(1810, 20));
-    IF_SETHIDE(true, comp(1810, 32));
-    IF_SETHIDE(true, comp(1810, 40));
-    IF_SETHIDE(true, comp(1810, 48));
-    IF_SETHIDE(true, comp(1810, 56));
-    IF_SETHIDE(true, comp(1810, 64));
-    IF_SETHIDE(true, comp(1810, 72));
-    IF_SETHIDE(true, comp(1810, 80));
-    IF_SETHIDE(true, comp(1810, 88));
+    IF_SETHIDE(true, comp(1810, 20));  // event_weekends:button_1_selected_layer
+    IF_SETHIDE(true, comp(1810, 32));  // event_weekends:button_2_selected_layer
+    IF_SETHIDE(true, comp(1810, 40));  // event_weekends:button_3_selected_layer
+    IF_SETHIDE(true, comp(1810, 48));  // event_weekends:button_4_selected_layer
+    IF_SETHIDE(true, comp(1810, 56));  // event_weekends:button_5_selected_layer
+    IF_SETHIDE(true, comp(1810, 64));  // event_weekends:button_6_selected_layer
+    IF_SETHIDE(true, comp(1810, 72));  // event_weekends:button_7_selected_layer
+    IF_SETHIDE(true, comp(1810, 80));  // event_weekends:button_8_selected_layer
+    IF_SETHIDE(true, comp(1810, 88));  // event_weekends:button_9_selected_layer
     IF_SETHIDE(false, struct_getparam(enum_getvalue(0, 73, 11920, int0), 4040));
     return;
 }

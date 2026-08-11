@@ -20,7 +20,7 @@ function script11823(): void {
     } else {
         string0 = strconcat(string0, `0${inttostring(int2, 10)}`);
     };
-    if ((IF_FIND(comp(1588, 38)) == 1)) {
+    if ((IF_FIND(comp(1588, 38)) == 1)) {  // telemetry:stopwatch_time
         CC_SETTEXT(script3930(string0, CC_GETWIDTH(), 1, CC_GETFONTMETRICS()));
         if ((strcmp(CC_GETTEXT(), string0) != 0)) {
             CC_SETONMOUSEREPEAT(callback(script3876, string0, -2147483645, -2147483643));
@@ -28,7 +28,7 @@ function script11823(): void {
             CC_SETONMOUSEREPEAT(callback());
         };
     };
-    if ((IF_FIND(comp(1681, 65)) == 1)) {
+    if ((IF_FIND(comp(1681, 65)) == 1)) {  // toplevel_v2_parent_suboverlay_telemetry:stopwatch_time
         CC_SETTEXT(script3930(string0, CC_GETWIDTH(), 1, CC_GETFONTMETRICS()));
         if ((strcmp(CC_GETTEXT(), string0) != 0)) {
             CC_SETONMOUSEREPEAT(callback(script3876, string0, -2147483645, -2147483643));

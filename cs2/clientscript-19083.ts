@@ -1,6 +1,6 @@
 //
 function script19083(): void {
-    CC_DELETEALL(comp(1147, 82));
+    CC_DELETEALL(comp(1147, 82));  // trh199_overlay:blueprint_grid
     var int0 = struct_getparam(50195, 9127);
     var int1 = ENUM_GETOUTPUTCOUNT(int0);
     var int2 = 75169874;

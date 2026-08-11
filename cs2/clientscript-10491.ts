@@ -16,6 +16,6 @@ function script10491(int0: number): void {
             break;
         }
     };
-    IF_SETSIZE(int1, int2, 0, 0, comp(942, 3));
+    IF_SETSIZE(int1, int2, 0, 0, comp(942, 3));  // rand_dungeon_map:wrapper
     return;
 }

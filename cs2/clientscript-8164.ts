@@ -1,14 +1,14 @@
 //
 function script8164(): void {
     if (((varbitplayer_27169 == 1) || (varbitplayer_38842 == 1))) {
-        IF_SETHIDE(true, comp(1477, 65));
+        IF_SETHIDE(true, comp(1477, 65));  // toplevel_v2:buttons_window_settings_button
         return;
     };
     if ((script20475() == 0)) {
-        IF_SETHIDE(true, comp(1477, 65));
+        IF_SETHIDE(true, comp(1477, 65));  // toplevel_v2:buttons_window_settings_button
         return;
     };
-    if (((CC_FIND(comp(1477, 65), 1) == 1) && (script20475() == 1))) {
+    if (((CC_FIND(comp(1477, 65), 1) == 1) && (script20475() == 1))) {  // toplevel_v2:buttons_window_settings_button
         CC_SETOP(1, "Toggle Interface Customisation");
         CC_SETONOP(callback(script8166, -2147483645, -2147483643));
         CC_SETONMOUSEREPEAT(callback(script8171, -2147483645, -2147483643));
@@ -20,6 +20,6 @@ function script8164(): void {
         CC_SETMOUSEOVERCURSOR(36);
         CC_SETNOCLICKTHROUGH(true);
     };
-    IF_SETHIDE(false, comp(1477, 65));
+    IF_SETHIDE(false, comp(1477, 65));  // toplevel_v2:buttons_window_settings_button
     return;
 }

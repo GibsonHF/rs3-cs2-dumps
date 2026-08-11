@@ -31,8 +31,8 @@ function script12947(): void {
     int7 = (((int5 - 1) / 2) + 1);
     var string0 = "";
     int8 = script5276(int5, int7);
-    var int9 = ((IF_GETHEIGHT(comp(1807, 26)) - (int2 * (int7 - 1))) / int7);
-    var int10 = ((IF_GETWIDTH(comp(1807, 26)) - (int2 * (int8 - 1))) / int8);
+    var int9 = ((IF_GETHEIGHT(comp(1807, 26)) - (int2 * (int7 - 1))) / int7);  // event_community:community_container
+    var int10 = ((IF_GETWIDTH(comp(1807, 26)) - (int2 * (int8 - 1))) / int8);  // event_community:community_container
     var int11 = 0;
     var int12 = 0;
     var string1 = "";

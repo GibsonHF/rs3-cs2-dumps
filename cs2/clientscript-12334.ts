@@ -4,11 +4,11 @@ function script12334(int0: number): void {
         return;
     };
     CC_DELETEALL(int0);
-    CC_DELETEALL(comp(1737, 3));
-    CC_DELETEALL(comp(1737, 4));
-    CC_DELETEALL(comp(1737, 5));
-    CC_DELETEALL(comp(1737, 6));
-    var int1 = IF_GETLAYER(comp(1737, 5));
+    CC_DELETEALL(comp(1737, 3));  // toplevel_v2_parent_suboverlay_graph_settings:checkbox_build_layer
+    CC_DELETEALL(comp(1737, 4));  // toplevel_v2_parent_suboverlay_graph_settings:checkbox_click_layer
+    CC_DELETEALL(comp(1737, 5));  // toplevel_v2_parent_suboverlay_graph_settings:dropdown_build_layer
+    CC_DELETEALL(comp(1737, 6));  // toplevel_v2_parent_suboverlay_graph_settings:dropdown_click_layer
+    var int1 = IF_GETLAYER(comp(1737, 5));  // toplevel_v2_parent_suboverlay_graph_settings:dropdown_build_layer
     if ((int1 == comp(-1, 65535))) {
         return;
     };

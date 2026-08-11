@@ -2,26 +2,26 @@
 function script10770(int0: number, int1: number, int2: number, int3: number): void {
     var int4 = 360;
     var int5 = ((int4 / int2) * int1);
-    IF_SETSIZE(int5, 32, 0, 0, comp(364, 25));
+    IF_SETSIZE(int5, 32, 0, 0, comp(364, 25));  // trail_reward:fill_bar
     var string0 = "";
     if ((int1 != -1)) {
         string0 = `${inttostring(int1, 10)}/${inttostring(int2, 10)}`;
     };
     if ((int3 == 0)) {
-        IF_SETTEXT("Free reroll!", comp(364, 15));
+        IF_SETTEXT("Free reroll!", comp(364, 15));  // trail_reward:reroll_progress
     } else {
-        IF_SETTEXT(`Reroll Progress - ${string0}`, comp(364, 15));
+        IF_SETTEXT(`Reroll Progress - ${string0}`, comp(364, 15));  // trail_reward:reroll_progress
     };
     if ((int0 == 0)) {
         if ((int3 == 1)) {
-            IF_SETHIDE(false, comp(364, 10));
+            IF_SETHIDE(false, comp(364, 10));  // trail_reward:button_layer_off
         } else {
-            IF_SETHIDE(true, comp(364, 10));
-            IF_SETTEXT(`Reroll Reward (${inttostring(int0, 10)})`, comp(364, 9));
+            IF_SETHIDE(true, comp(364, 10));  // trail_reward:button_layer_off
+            IF_SETTEXT(`Reroll Reward (${inttostring(int0, 10)})`, comp(364, 9));  // trail_reward:button_text
         };
     } else {
-        IF_SETHIDE(true, comp(364, 10));
-        IF_SETTEXT(`Reroll Reward (${inttostring(int0, 10)})`, comp(364, 9));
+        IF_SETHIDE(true, comp(364, 10));  // trail_reward:button_layer_off
+        IF_SETTEXT(`Reroll Reward (${inttostring(int0, 10)})`, comp(364, 9));  // trail_reward:button_text
     };
     return;
 }

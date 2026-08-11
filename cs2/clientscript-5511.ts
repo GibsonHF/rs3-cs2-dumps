@@ -316,11 +316,11 @@ function script5511(): void {
         };
         switch (MODULO(int0, 2)) {
             case 0: {
-                int6 = comp(753, 114);
+                int6 = comp(753, 114);  // bslay_boss_info:monster_col1
                 break;
             }
             case 1: {
-                int6 = comp(753, 116);
+                int6 = comp(753, 116);  // bslay_boss_info:monster_col2
                 break;
             }
         };
@@ -360,20 +360,20 @@ function script5511(): void {
             int5 = script7687(int5, int3);
         };
         if ((int4 != -1)) {
-            IF_SETTEXT(`Total kills: ${inttostring(int4, 10)}`, comp(753, 111));
+            IF_SETTEXT(`Total kills: ${inttostring(int4, 10)}`, comp(753, 111));  // bslay_boss_info:monster_total_text
         } else {
-            IF_SETTEXT("Total kills: <col=FF0000>LOTS</col>", comp(753, 111));
+            IF_SETTEXT("Total kills: <col=FF0000>LOTS</col>", comp(753, 111));  // bslay_boss_info:monster_total_text
         };
         if ((int5 != -1)) {
-            IF_SETTEXT(`Total prestige: ${inttostring(int5, 10)}`, comp(753, 112));
+            IF_SETTEXT(`Total prestige: ${inttostring(int5, 10)}`, comp(753, 112));  // bslay_boss_info:monster_total_prestige_text
         } else {
-            IF_SETTEXT("Total prestige: <col=FF0000>LOTS</col>", comp(753, 112));
+            IF_SETTEXT("Total prestige: <col=FF0000>LOTS</col>", comp(753, 112));  // bslay_boss_info:monster_total_prestige_text
         };
         int0 = (int0 + 1);
     };
-    if (((int7 + 25) > IF_GETHEIGHT(comp(753, 113)))) {
-        IF_SETSCROLLPOS(0, 0, comp(753, 113));
-        IF_SETSCROLLSIZE(0, ((int7 + 25) + 2), comp(753, 113));
+    if (((int7 + 25) > IF_GETHEIGHT(comp(753, 113)))) {  // bslay_boss_info:monster_build_layer
+        IF_SETSCROLLPOS(0, 0, comp(753, 113));  // bslay_boss_info:monster_build_layer
+        IF_SETSCROLLSIZE(0, ((int7 + 25) + 2), comp(753, 113));  // bslay_boss_info:monster_build_layer
         script31(49348725, 49348721, 4343, 4340, 4341, 4342, 4337, 4336);
     };
     return;

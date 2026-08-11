@@ -6,7 +6,7 @@ function script15695(): void {
             break;
         }
         default: {
-            IF_SETHIDE(true, comp(840, 4));
+            IF_SETHIDE(true, comp(840, 4));  // free_trial_prompt:popups
             break;
         }
     };

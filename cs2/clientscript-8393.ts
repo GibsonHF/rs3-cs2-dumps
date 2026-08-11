@@ -5,7 +5,7 @@ function script8393(int0: number, int1: number): void {
     if ((struct_getparam(int2, 3533) == false)) {
         if ((int1 == 0)) {
             script20526(int0, struct_getparam(int2, 3503));
-            if ((CC_FIND[1](comp(1475, 3), int0) == 1)) {
+            if ((CC_FIND[1](comp(1475, 3), int0) == 1)) {  // toplevel_v2_edit_mode:advanced_click
                 var int1 = cc_getparam[1](7194);
             } else {
                 int1 = script8730(9, int0);

@@ -21,19 +21,19 @@ function script15059(int0: number): void {
         case 43384878: {
             if ((IF_GETHEIGHT(int0) == 4)) {
                 CC_DELETEALL(int0);
-                CC_DELETEALL(comp(662, 47));
-                CC_DELETEALL(comp(662, 48));
-                IF_SETSCROLLPOS(0, 0, comp(662, 48));
-                IF_SETSCROLLSIZE(0, 0, comp(662, 48));
-                CC_DELETEALL(comp(662, 49));
+                CC_DELETEALL(comp(662, 47));  // lore_stats_side:info_popup_bg
+                CC_DELETEALL(comp(662, 48));  // lore_stats_side:info_popup_text
+                IF_SETSCROLLPOS(0, 0, comp(662, 48));  // lore_stats_side:info_popup_text
+                IF_SETSCROLLSIZE(0, 0, comp(662, 48));  // lore_stats_side:info_popup_text
+                CC_DELETEALL(comp(662, 49));  // lore_stats_side:info_popup_scrollbar
             } else {
                 script13785();
             };
             break;
         }
         case 33882248: {
-            if ((IF_GETWIDTH(comp(517, 136)) <= 1)) {
-                IF_SETHIDE(true, comp(517, 136));
+            if ((IF_GETWIDTH(comp(517, 136)) <= 1)) {  // bank:more_storage_container
+                IF_SETHIDE(true, comp(517, 136));  // bank:more_storage_container
             };
             break;
         }

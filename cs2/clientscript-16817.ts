@@ -8,6 +8,6 @@ function script16817(): void {
     if ((varbitplayer_27169 == 1)) {
         int0 = 50;
     };
-    IF_SETPOSITION(0, int0, 1, 0, comp(1046, 0));
+    IF_SETPOSITION(0, int0, 1, 0, comp(1046, 0));  // quest_daughter_moia_gameplay:bespoke_window
     return;
 }

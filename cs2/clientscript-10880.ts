@@ -5,28 +5,28 @@ function script10880(int0: number, int1: number, int2: number, int3: number, str
     if ((int3 == 1)) {
         int4 = 16777215;
     };
-    CC_CREATE(comp(1577, 5), 4, (int1 - 1));
+    CC_CREATE(comp(1577, 5), 4, (int1 - 1));  // mtx76_scoreboard:name_column
     CC_SETSIZE(0, 25, 1, 0);
     CC_SETPOSITION(0, (26 * (int1 - 1)), 1, 0);
     CC_SETTEXTALIGN(1, 1, 0);
     CC_SETTEXTFONT(26 as fontmetrics);
     CC_SETCOLOUR(int4);
     CC_SETTEXT(string0);
-    CC_CREATE(comp(1577, 4), 4, (int1 - 1));
+    CC_CREATE(comp(1577, 4), 4, (int1 - 1));  // mtx76_scoreboard:total_dmg_column
     CC_SETSIZE(0, 25, 1, 0);
     CC_SETPOSITION(0, (26 * (int1 - 1)), 1, 0);
     CC_SETTEXTALIGN(1, 1, 0);
     CC_SETTEXTFONT(26 as fontmetrics);
     CC_SETCOLOUR(int4);
     CC_SETTEXT(TOSTRING_LOCALISED(int0, 1));
-    CC_CREATE(comp(1577, 2), 4, (int1 - 1));
+    CC_CREATE(comp(1577, 2), 4, (int1 - 1));  // mtx76_scoreboard:dpm_column
     CC_SETSIZE(0, 25, 1, 0);
     CC_SETPOSITION(0, (26 * (int1 - 1)), 1, 0);
     CC_SETTEXTALIGN(1, 1, 0);
     CC_SETTEXTFONT(26 as fontmetrics);
     CC_SETCOLOUR(int4);
     CC_SETTEXT(TOSTRING_LOCALISED((int0 / 3), 1));
-    CC_CREATE(comp(1577, 3), 5, (int1 - 1));
+    CC_CREATE(comp(1577, 3), 5, (int1 - 1));  // mtx76_scoreboard:dmg_icon_layer
     CC_SETSIZE(25, 25, 0, 0);
     switch (int2) {
         case 0: {

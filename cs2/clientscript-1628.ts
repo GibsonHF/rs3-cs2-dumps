@@ -18,7 +18,7 @@ function script1628(): void {
     SPLINE_ADDPOINT(1, 3, MOVECOORD(int2, 8, 0, 28), 300, MOVECOORD(int2, 8, 0, 28), 300, 0);
     SPLINE_ADDPOINT(1, 4, MOVECOORD(int2, 30, 0, 16), 300, MOVECOORD(int2, 30, 0, 16), 300, 0);
     SPLINE_ADDPOINT(1, 5, MOVECOORD(int2, 30, 0, 16), 400, MOVECOORD(int2, 30, 0, 16), 400, 0);
-    IF_SETONCAMFINISHED(callback(script1631), comp(75, 0));
+    IF_SETONCAMFINISHED(callback(script1631), comp(75, 0));  // wtl_cutscenes:cutscene_controller
     CAM_MOVEALONG(0, 0, 200, 200, 1, 0);
     return;
 }

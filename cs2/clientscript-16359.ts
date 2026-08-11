@@ -10,22 +10,22 @@ function script16359(): void {
         switch (int2) {
             case 1: {
                 int0 = script438(varbitplayer_29986);
-                int1 = comp(935, 6);
-                int4 = comp(935, 48);
+                int1 = comp(935, 6);  // trh176_overlay:chest_1_model
+                int4 = comp(935, 48);  // trh176_overlay:chest_1_rarity
                 int3 = dbrow_getfield(script438(varbitplayer_29986), 504001, 0);
                 break;
             }
             case 2: {
                 int0 = script438(varbitplayer_29987);
-                int1 = comp(935, 9);
-                int4 = comp(935, 49);
+                int1 = comp(935, 9);  // trh176_overlay:chest_2_model
+                int4 = comp(935, 49);  // trh176_overlay:chest_2_rarity
                 int3 = dbrow_getfield(script438(varbitplayer_29987), 504001, 0);
                 break;
             }
             case 3: {
                 int0 = script438(varbitplayer_29988);
-                int1 = comp(935, 13);
-                int4 = comp(935, 15);
+                int1 = comp(935, 13);  // trh176_overlay:chest_3_model
+                int4 = comp(935, 15);  // trh176_overlay:chest_3_rarity
                 int3 = dbrow_getfield(script438(varbitplayer_29988), 504001, 0);
                 break;
             }
@@ -39,11 +39,11 @@ function script16359(): void {
         IF_SETMODELLIGHTING(256, 1024, 0, 255, 255, 255, 3, -2, -6, 3224 as material, int1);
     };
     if ((varbitplayer_29983 == 1)) {
-        IF_SETHIDE(true, comp(935, 4));
-        IF_SETHIDE(false, comp(935, 11));
+        IF_SETHIDE(true, comp(935, 4));  // trh176_overlay:multi_chest_layer
+        IF_SETHIDE(false, comp(935, 11));  // trh176_overlay:bonus_chest_layer
     } else {
-        IF_SETHIDE(false, comp(935, 4));
-        IF_SETHIDE(true, comp(935, 11));
+        IF_SETHIDE(false, comp(935, 4));  // trh176_overlay:multi_chest_layer
+        IF_SETHIDE(true, comp(935, 11));  // trh176_overlay:bonus_chest_layer
     };
     return;
 }

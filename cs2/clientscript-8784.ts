@@ -27,7 +27,7 @@ function script8784(): void {
             int3 = (int3 + 1);
         };
     };
-    if ((IF_HASSUB(comp(1448, 3)) == 0)) {
+    if ((IF_HASSUB(comp(1448, 3)) == 0)) {  // toplevel_v2_parent:suboverlay_layer_1
         script8290(0);
     };
     if ((varbitplayer_38842 == 0)) {

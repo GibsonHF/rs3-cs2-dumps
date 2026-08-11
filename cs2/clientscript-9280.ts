@@ -5,6 +5,6 @@ function script9280(): void {
     };
     script9317(0);
     script3843();
-    IF_SETONTIMER(callback(), comp(517, 201));
+    IF_SETONTIMER(callback(), comp(517, 201));  // bank:bank_inv
     return;
 }

@@ -12,7 +12,7 @@ function script14364(int0: number, int1: number): void {
     };
     var int3 = -1 as obj;
     var int4 = 0;
-    if ((CC_FIND(comp(517, 201), int0) == 1)) {
+    if ((CC_FIND(comp(517, 201), int0) == 1)) {  // bank:bank_inv
         int3 = CC_GETINVOBJECT();
         int4 = CC_GETINVCOUNT();
     };
@@ -21,7 +21,7 @@ function script14364(int0: number, int1: number): void {
     var string0 = script13591();
     var string1 = script13685();
     while ((int1 != int0)) {
-        if ((CC_FIND(comp(517, 201), int1) == 1)) {
+        if ((CC_FIND(comp(517, 201), int1) == 1)) {  // bank:bank_inv
             int5 = CC_GETINVOBJECT();
             int6 = CC_GETINVCOUNT();
             if ((int3 == 48447 as obj)) {
@@ -34,13 +34,13 @@ function script14364(int0: number, int1: number): void {
         };
         int1 = (int1 + int2);
     };
-    if ((CC_FIND(comp(517, 201), int1) == 1)) {
+    if ((CC_FIND(comp(517, 201), int1) == 1)) {  // bank:bank_inv
         if ((int3 == 48447 as obj)) {
             CC_SETOBJECT_NONUM(int3, int4);
         } else {
             CC_SETOBJECT(int3, int4);
         };
     };
-    IF_SETONTIMER(callback(script14357), comp(517, 199));
+    IF_SETONTIMER(callback(script14357), comp(517, 199));  // bank:bank_items_container
     return;
 }

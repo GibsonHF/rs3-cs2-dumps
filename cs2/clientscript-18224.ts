@@ -1,6 +1,6 @@
 //
 function script18224(int0: number, int1: number): void {
-    var int2 = comp(1343, 167);
+    var int2 = comp(1343, 167);  // jobs_main:prize_dividers
     CC_CREATE(int2, 5, IF_GETNEXTSUBID(int2));
     CC_SETSIZE(58, 3, 0, 0);
     CC_SETPOSITION((((int0 - 2) * 81) + 52), 0, 0, 1);

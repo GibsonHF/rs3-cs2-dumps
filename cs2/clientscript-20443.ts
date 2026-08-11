@@ -21,8 +21,8 @@ function script20443(): void {
                 break;
             }
         };
-        IF_SETGRAPHIC(int0, comp(1802, 253));
-        IF_SETSIZE(200, 364, 0, 0, comp(1802, 253));
+        IF_SETGRAPHIC(int0, comp(1802, 253));  // timed_event:anniversary_skillcapes_keyart_graphic
+        IF_SETSIZE(200, 364, 0, 0, comp(1802, 253));  // timed_event:anniversary_skillcapes_keyart_graphic
     };
     return;
 }

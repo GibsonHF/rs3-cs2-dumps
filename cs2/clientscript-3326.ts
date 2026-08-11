@@ -4,6 +4,6 @@ function script3326(): void {
     if ((varclient_1174 == 2)) {
         string0 = "High";
     };
-    IF_SETTEXT(string0, comp(949, 50));
+    IF_SETTEXT(string0, comp(949, 50));  // rand_party_invite:party_complexity
     return;
 }

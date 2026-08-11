@@ -1,8 +1,8 @@
 //
 function script17094(int0: number, long0: bigint, long1: bigint, long2: bigint, long3: bigint, long4: bigint, long5: bigint, long6: bigint): void {
-    CC_DELETEALL(comp(1626, 52));
+    CC_DELETEALL(comp(1626, 52));  // death:cost_info
     var int1 = STRINGWIDTH(TOSTRING_LOCALISED(2147483647, 1), 168 as fontmetrics);
-    var int2 = IF_GETWIDTH(comp(1626, 52));
+    var int2 = IF_GETWIDTH(comp(1626, 52));  // death:cost_info
     var int3 = 0;
     var int4 = 0;
     var int5 = script15891("Carried wealth:", 1000, 28, 0);

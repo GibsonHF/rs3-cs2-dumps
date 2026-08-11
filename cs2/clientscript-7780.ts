@@ -33,11 +33,11 @@ function script7780(): void {
         return;
     };
     var int3 = struct_getparam(int2, 7984);
-    IF_SETHIDE(true, comp(1253, 30));
-    IF_SETHIDE(true, comp(1253, 20));
-    IF_SETHIDE(true, comp(1253, 25));
-    IF_SETHIDE(true, comp(1253, 15));
-    IF_SETHIDE(true, comp(1253, 10));
+    IF_SETHIDE(true, comp(1253, 30));  // wheel_of_fortune:chest_layer_1
+    IF_SETHIDE(true, comp(1253, 20));  // wheel_of_fortune:chest_layer_2
+    IF_SETHIDE(true, comp(1253, 25));  // wheel_of_fortune:chest_layer_3
+    IF_SETHIDE(true, comp(1253, 15));  // wheel_of_fortune:chest_layer_4
+    IF_SETHIDE(true, comp(1253, 10));  // wheel_of_fortune:chest_layer_5
     if ((int3 < 1)) {
         return;
     };
@@ -87,7 +87,7 @@ function script7780(): void {
     while ((int28 <= int3)) {
         switch (int28) {
             case 1: {
-                int15 = comp(1253, 30);
+                int15 = comp(1253, 30);  // wheel_of_fortune:chest_layer_1
                 int16 = 82116639;
                 int17 = 82116641;
                 int18 = 82116640;

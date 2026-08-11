@@ -2,7 +2,7 @@
 function script7630(int0: number, int1: number): void {
     varplayer_4903 = int1;
     script10742(int1);
-    if (((CC_FIND(int0, int1) == 1) && (CC_FIND[1](comp(1554, 22), 0) == 1))) {
+    if (((CC_FIND(int0, int1) == 1) && (CC_FIND[1](comp(1554, 22), 0) == 1))) {  // elfcity_meilyr_maw_swap:highlight_area
         CC_SETPOSITION[1](CC_GETX(), CC_GETY(), 0, 0);
         CC_SETHIDE[1](false);
     };

@@ -6,7 +6,7 @@ function script13248(int0: number, int1: number, string0: string): void {
     if ((int0 > 0)) {
         return;
     };
-    if ((IF_FIND(comp(1843, 183)) == 1)) {
+    if ((IF_FIND(comp(1843, 183)) == 1)) {  // mtxmgt_store:items_layer
         if ((AND(script13250(), cc_getparam(6371)) == 0)) {
             string1 = "There are no results. Try changing the availability filter.";
         } else if ((AND(12858, cc_getparam(6372)) == 0)) {

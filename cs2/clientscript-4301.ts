@@ -1,12 +1,12 @@
 //[proc,clansettings_list_build]
 function script4301(): void {
-    var int0 = comp(1096, 23);
-    var int1 = comp(1096, 24);
-    var int2 = comp(1096, 25);
-    var int3 = comp(1096, 26);
+    var int0 = comp(1096, 23);  // clansettings:list_name_layer
+    var int1 = comp(1096, 24);  // clansettings:list_job_layer
+    var int2 = comp(1096, 25);  // clansettings:list_rank_layer
+    var int3 = comp(1096, 26);  // clansettings:list_button_layer
     var int4 = 71827476;
-    var int5 = comp(1096, 21);
-    var int6 = comp(1096, 27);
+    var int5 = comp(1096, 21);  // clansettings:list_scrolling_layer
+    var int6 = comp(1096, 27);  // clansettings:mute_icon_layer
     var string0 = "";
     var string1 = "";
     var int7 = 15;

@@ -1,7 +1,7 @@
 //
 function script19500(int0: number): void {
     if ((varplayer_11962 == 0)) {
-        IF_SETTEXT("Loading...", comp(1313, 24));
+        IF_SETTEXT("Loading...", comp(1313, 24));  // group_ironman_storage:save_changes_label
         return;
     };
     var int1 = 0;

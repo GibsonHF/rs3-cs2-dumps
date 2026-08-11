@@ -15,10 +15,10 @@ function script9943(): void {
     var int12 = 0;
     var int13 = 0;
     var int14 = IF_GETHIDE(struct_getparam(37398, 3503));
-    if ((IF_GETWIDTH(comp(1477, 26)) <= (552 + script19630(0)))) {
+    if ((IF_GETWIDTH(comp(1477, 26)) <= (552 + script19630(0)))) {  // toplevel_v2:background_colour
         int8 = 1;
     };
-    if ((IF_GETWIDTH(comp(1477, 26)) <= ((552 * 2) + script19630(0)))) {
+    if ((IF_GETWIDTH(comp(1477, 26)) <= ((552 * 2) + script19630(0)))) {  // toplevel_v2:background_colour
         int9 = 1;
     };
     [int11, int12] = script9950();
@@ -52,7 +52,7 @@ function script9943(): void {
                                 IF_SETPOSITION((int11 + 210), int12, 2, 2, struct_getparam(int1, 3503));
                                 IF_SETSIZE((script19630(int8) - 210), 315, 0, 0, struct_getparam(int1, 3503));
                             } else {
-                                int6 = (((IF_GETHEIGHT(comp(1477, 26)) - 275) - 315) - int12);
+                                int6 = (((IF_GETHEIGHT(comp(1477, 26)) - 275) - 315) - int12);  // toplevel_v2:background_colour
                                 if ((int6 >= 315)) {
                                     IF_SETPOSITION(int11, ((int12 + 315) + ((int6 - 315) / 2)), 2, 2, struct_getparam(int1, 3503));
                                     IF_SETSIZE(script19630(int8), 315, 0, 0, struct_getparam(int1, 3503));
@@ -163,7 +163,7 @@ function script9943(): void {
             script8323((varbitclient_60444 - 1), 1);
         };
     };
-    if ((IF_HASSUB(comp(1448, 3)) == 0)) {
+    if ((IF_HASSUB(comp(1448, 3)) == 0)) {  // toplevel_v2_parent:suboverlay_layer_1
         script8290(0);
     } else {
         script8288(varbitplayer_18994);
@@ -196,7 +196,7 @@ function script9943(): void {
     IF_SETPOSITION(0, 0, 2, 0, struct_getparam(script10405(1004), 3503));
     IF_SETSIZE(275, 275, 0, 0, struct_getparam(int1, 3503));
     if ((varbitplayer_223 == 1)) {
-        IF_SETHIDE(true, comp(745, 7));
+        IF_SETHIDE(true, comp(745, 7));  // statusicons:xpx2smallbuttonlayer
     };
     int1 = script10405(1015);
     IF_SETPOSITION(275, 0, 2, 0, struct_getparam(int1, 3503));

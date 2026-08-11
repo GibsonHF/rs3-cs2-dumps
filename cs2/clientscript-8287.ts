@@ -21,6 +21,6 @@ function script8287(int0: number, int1: number): void {
         int3 = struct_getparam(int3, 7130);
     };
     script8282(int3);
-    IF_SETHIDE(false, comp(1448, 1));
+    IF_SETHIDE(false, comp(1448, 1));  // toplevel_v2_parent:loading_layer
     return;
 }

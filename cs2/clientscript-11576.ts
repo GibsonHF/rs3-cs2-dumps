@@ -12,62 +12,62 @@ function script11576(int0: number, int1: number, int2: number, int3: number, int
         string1 = enum_getvalue(0, 36, 9898, int2);
     };
     var string2 = enum_getvalue(0, 36, 10118, int3);
-    IF_SETTEXT(string0, comp(1637, 23));
-    IF_SETTEXT(string1, comp(1637, 39));
-    IF_SETTEXT(string2, comp(1637, 41));
+    IF_SETTEXT(string0, comp(1637, 23));  // mtx91_entry:selected_skill
+    IF_SETTEXT(string1, comp(1637, 39));  // mtx91_entry:selected_entry_fee
+    IF_SETTEXT(string2, comp(1637, 41));  // mtx91_entry:selected_time_limit
     if ((int4 > 4)) {
-        IF_SETTEXT(`${inttostring((int4 / 4), 10)} mins`, comp(1637, 43));
+        IF_SETTEXT(`${inttostring((int4 / 4), 10)} mins`, comp(1637, 43));  // mtx91_entry:selected_start_delay
     } else if ((int4 > 0)) {
-        IF_SETTEXT("1 min", comp(1637, 43));
+        IF_SETTEXT("1 min", comp(1637, 43));  // mtx91_entry:selected_start_delay
     } else if ((int4 == 0)) {
-        IF_SETTEXT("Competition started", comp(1637, 43));
+        IF_SETTEXT("Competition started", comp(1637, 43));  // mtx91_entry:selected_start_delay
     } else {
-        IF_SETTEXT("Competition finished", comp(1637, 43));
+        IF_SETTEXT("Competition finished", comp(1637, 43));  // mtx91_entry:selected_start_delay
     };
-    IF_SETTEXT(TOSTRING_LOCALISED(int13, 1), comp(1637, 59));
+    IF_SETTEXT(TOSTRING_LOCALISED(int13, 1), comp(1637, 59));  // mtx91_entry:total_pot
     if ((int14 == 1)) {
-        IF_SETHIDE(false, comp(1637, 48));
+        IF_SETHIDE(false, comp(1637, 48));  // mtx91_entry:start_button_layer
     } else {
-        IF_SETHIDE(true, comp(1637, 48));
+        IF_SETHIDE(true, comp(1637, 48));  // mtx91_entry:start_button_layer
     };
     if ((int0 == 0)) {
-        IF_SETTEXT("Challenge Gem - Skilling Competition", comp(1637, 7));
-        IF_SETTEXT("Skill", comp(1637, 22));
-        IF_SETTEXT("Skill level range", comp(1637, 30));
-        IF_SETTEXT(inttostring(int5, 10), comp(1637, 34));
-        IF_SETTEXT(inttostring(int6, 10), comp(1637, 37));
-        IF_SETPOSITION(32, 200, 0, 0, comp(1637, 46));
-        IF_SETPOSITION(319, 200, 0, 0, comp(1637, 59));
-        IF_SETHIDE(true, comp(1637, 24));
-        IF_SETHIDE(true, comp(1637, 27));
-        IF_SETHIDE(true, comp(1637, 44));
-        IF_SETHIDE(true, comp(1637, 21));
+        IF_SETTEXT("Challenge Gem - Skilling Competition", comp(1637, 7));  // mtx91_entry:skilling_title
+        IF_SETTEXT("Skill", comp(1637, 22));  // mtx91_entry:selected_skill_text
+        IF_SETTEXT("Skill level range", comp(1637, 30));  // mtx91_entry:skilling_level_range
+        IF_SETTEXT(inttostring(int5, 10), comp(1637, 34));  // mtx91_entry:display_min_level
+        IF_SETTEXT(inttostring(int6, 10), comp(1637, 37));  // mtx91_entry:display_max_level
+        IF_SETPOSITION(32, 200, 0, 0, comp(1637, 46));  // mtx91_entry:total_pot_text
+        IF_SETPOSITION(319, 200, 0, 0, comp(1637, 59));  // mtx91_entry:total_pot
+        IF_SETHIDE(true, comp(1637, 24));  // mtx91_entry:mob_min_level
+        IF_SETHIDE(true, comp(1637, 27));  // mtx91_entry:mob_max_level
+        IF_SETHIDE(true, comp(1637, 44));  // mtx91_entry:combat_options
+        IF_SETHIDE(true, comp(1637, 21));  // mtx91_entry:info_holder_active_3
     } else {
-        IF_SETTEXT("Challenge Gem - Combat Competition", comp(1637, 7));
-        IF_SETTEXT("Enemy combat level range", comp(1637, 22));
-        IF_SETTEXT("Player combat level range", comp(1637, 30));
-        IF_SETTEXT("-", comp(1637, 23));
-        IF_SETTEXT(inttostring(int7, 10), comp(1637, 34));
-        IF_SETTEXT(inttostring(int8, 10), comp(1637, 37));
-        IF_SETTEXT(inttostring(int9, 10), comp(1637, 26));
-        IF_SETTEXT(inttostring(int10, 10), comp(1637, 29));
-        IF_SETPOSITION(32, 230, 0, 0, comp(1637, 46));
-        IF_SETPOSITION(319, 230, 0, 0, comp(1637, 59));
+        IF_SETTEXT("Challenge Gem - Combat Competition", comp(1637, 7));  // mtx91_entry:skilling_title
+        IF_SETTEXT("Enemy combat level range", comp(1637, 22));  // mtx91_entry:selected_skill_text
+        IF_SETTEXT("Player combat level range", comp(1637, 30));  // mtx91_entry:skilling_level_range
+        IF_SETTEXT("-", comp(1637, 23));  // mtx91_entry:selected_skill
+        IF_SETTEXT(inttostring(int7, 10), comp(1637, 34));  // mtx91_entry:display_min_level
+        IF_SETTEXT(inttostring(int8, 10), comp(1637, 37));  // mtx91_entry:display_max_level
+        IF_SETTEXT(inttostring(int9, 10), comp(1637, 26));  // mtx91_entry:display_mob_min_level
+        IF_SETTEXT(inttostring(int10, 10), comp(1637, 29));  // mtx91_entry:display_mob_max_level
+        IF_SETPOSITION(32, 230, 0, 0, comp(1637, 46));  // mtx91_entry:total_pot_text
+        IF_SETPOSITION(319, 230, 0, 0, comp(1637, 59));  // mtx91_entry:total_pot
         if ((int11 == 1)) {
-            IF_SETGRAPHIC(int15, comp(1637, 10));
+            IF_SETGRAPHIC(int15, comp(1637, 10));  // mtx91_entry:wilderness_checkbox
         } else {
-            IF_SETGRAPHIC(int16, comp(1637, 10));
+            IF_SETGRAPHIC(int16, comp(1637, 10));  // mtx91_entry:wilderness_checkbox
         };
         if ((int12 == 1)) {
-            IF_SETGRAPHIC(int15, comp(1637, 12));
+            IF_SETGRAPHIC(int15, comp(1637, 12));  // mtx91_entry:pvp_checkbox
         } else {
-            IF_SETGRAPHIC(int16, comp(1637, 12));
+            IF_SETGRAPHIC(int16, comp(1637, 12));  // mtx91_entry:pvp_checkbox
         };
-        IF_SETHIDE(false, comp(1637, 24));
-        IF_SETHIDE(false, comp(1637, 27));
-        IF_SETHIDE(false, comp(1637, 44));
-        IF_SETHIDE(false, comp(1637, 21));
+        IF_SETHIDE(false, comp(1637, 24));  // mtx91_entry:mob_min_level
+        IF_SETHIDE(false, comp(1637, 27));  // mtx91_entry:mob_max_level
+        IF_SETHIDE(false, comp(1637, 44));  // mtx91_entry:combat_options
+        IF_SETHIDE(false, comp(1637, 21));  // mtx91_entry:info_holder_active_3
     };
-    IF_SETTEXT("Challenge gems allow players to compete against each other, either for fun or as staked competition. All challenge details are shown on this interface.<br><br>Upon entering, your stake will be placed in the prize pool and at the end of the competition the winner will be rewarded with the full prize pool.<br><br>Once the competition begins you can begin to gain points. Only activities done on this world will count towards your score.<br><br>At the end of the competition the winner is the person who has the highest score greater than 0; in the case of a draw the money is split evenly between those players (up to 10).<br><br>You must be logged in and on this world at the end of the competition to be considered for the win.<br><br>For skilling competitions, points are awarded for the base XP gained.<br>For combat competitions, points are awarded for the amount of damage dealt.", comp(1637, 17));
+    IF_SETTEXT("Challenge gems allow players to compete against each other, either for fun or as staked competition. All challenge details are shown on this interface.<br><br>Upon entering, your stake will be placed in the prize pool and at the end of the competition the winner will be rewarded with the full prize pool.<br><br>Once the competition begins you can begin to gain points. Only activities done on this world will count towards your score.<br><br>At the end of the competition the winner is the person who has the highest score greater than 0; in the case of a draw the money is split evenly between those players (up to 10).<br><br>You must be logged in and on this world at the end of the competition to be considered for the win.<br><br>For skilling competitions, points are awarded for the base XP gained.<br>For combat competitions, points are awarded for the amount of damage dealt.", comp(1637, 17));  // mtx91_entry:details_text
     return;
 }

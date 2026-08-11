@@ -39,8 +39,8 @@ function script15256(): void {
             break;
         }
     };
-    IF_SETSIZE(0, 74, 1, 1, comp(744, 55));
-    IF_SETHIDE(false, comp(744, 59));
+    IF_SETSIZE(0, 74, 1, 1, comp(744, 55));  // loginscreen:desktop_background_upper
+    IF_SETHIDE(false, comp(744, 59));  // loginscreen:desktop_background_lower
     script15269(string0, string1, int1, 0);
     return;
 }

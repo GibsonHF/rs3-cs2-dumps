@@ -1,12 +1,12 @@
 //
 function script15355(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number): void {
-    var int7 = comp(1851, 12);
+    var int7 = comp(1851, 12);  // achievements_sub:subcategory_container
     IF_SETONVARTRANSMIT(callback(script15354, int0, int1, int2, int3, int4, 7120, 1), int7);
-    var int8 = comp(1851, 13);
-    var int9 = comp(1851, 21);
+    var int8 = comp(1851, 13);  // achievements_sub:subcat_build
+    var int9 = comp(1851, 21);  // achievements_sub:subcat_click
     CC_DELETEALL(int8);
     CC_DELETEALL(int9);
-    IF_SETHIDE(true, comp(1851, 22));
+    IF_SETHIDE(true, comp(1851, 22));  // achievements_sub:subcat_highlight
     var int10 = ENUM_GETOUTPUTCOUNT(int2);
     var int11 = enum_getreverseindex(41, 0, 16072 as cs2enum, int3, 0);
     if ((int11 == -1)) {
@@ -167,10 +167,10 @@ function script15355(int0: number, int1: number, int2: number, int3: number, int
                     CC_SETTEXT(string1);
                 };
             } else if (((varclient_6830 - 1) == enum_getreverseindex(41, 0, int2, int20, 0))) {
-                IF_SETHIDE(true, comp(1851, 22));
+                IF_SETHIDE(true, comp(1851, 22));  // achievements_sub:subcat_highlight
             };
         } else if (((varclient_6830 - 1) == enum_getreverseindex(41, 0, int2, int20, 0))) {
-            IF_SETHIDE(true, comp(1851, 22));
+            IF_SETHIDE(true, comp(1851, 22));  // achievements_sub:subcat_highlight
         };
         int13 = (int13 + 1);
     };

@@ -1,5 +1,5 @@
 //
 function script14959(): void {
-    IF_SETHIDE(true, comp(477, 4));
+    IF_SETHIDE(true, comp(477, 4));  // arch_material_storage_info:popup_window
     return;
 }

@@ -7,7 +7,7 @@ function script18108(): void {
     var int1 = 0;
     var int2 = 0;
     while ((int2 < int0)) {
-        if ((CC_FINDBYCATEGORY(comp(403, 9), int2, 0) == 1)) {
+        if ((CC_FINDBYCATEGORY(comp(403, 9), int2, 0) == 1)) {  // bp3_buffs_tab:xp_buff_content_layer
             CC_SETPOSITION(CC_GETX(), int1, 0, 0);
             if ((cc_getparam(8193) == 1)) {
                 int1 = (int1 + 58);

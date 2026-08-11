@@ -1,12 +1,12 @@
 //
 function script15633(): void {
-    var int0 = comp(907, 1);
-    var int1 = comp(907, 2);
-    var int2 = comp(907, 3);
-    var int3 = comp(907, 143);
-    var int4 = comp(907, 4);
-    var int5 = comp(907, 69);
-    var int6 = comp(907, 70);
+    var int0 = comp(907, 1);  // lobbyscreen_pane_playerinfo:mobile_extra_offset
+    var int1 = comp(907, 2);  // lobbyscreen_pane_playerinfo:promo_layer
+    var int2 = comp(907, 3);  // lobbyscreen_pane_playerinfo:promo_offset
+    var int3 = comp(907, 143);  // lobbyscreen_pane_playerinfo:news_layer
+    var int4 = comp(907, 4);  // lobbyscreen_pane_playerinfo:latest_update_layer
+    var int5 = comp(907, 69);  // lobbyscreen_pane_playerinfo:rotator_buttons
+    var int6 = comp(907, 70);  // lobbyscreen_pane_playerinfo:latest_promotion_layer
     var int7 = 30;
     var int8 = 30;
     var int9 = 24;

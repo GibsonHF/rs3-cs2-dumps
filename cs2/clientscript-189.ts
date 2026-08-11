@@ -78,8 +78,8 @@ function script189(int0: number, int1: number): void {
                     break;
                 }
                 case 4: {
-                    if ((IF_GETSCROLLY(comp(1851, 40)) > 0)) {
-                        varclient_6917 = IF_GETSCROLLY(comp(1851, 40));
+                    if ((IF_GETSCROLLY(comp(1851, 40)) > 0)) {  // achievements_sub:build_layer
+                        varclient_6917 = IF_GETSCROLLY(comp(1851, 40));  // achievements_sub:build_layer
                     };
                     script7944();
                     break;
@@ -93,10 +93,10 @@ function script189(int0: number, int1: number): void {
         }
         case 5: {
             if ((int1 == 1)) {
-                if ((varclient_2235 == comp(105, 182))) {
+                if ((varclient_2235 == comp(105, 182))) {  // stockmarket:offerbutton7_hide ?
                     IF_SETONDIALOGABORT(callback(), 6881463);
                     script7206(6881462, 6881463, 6881464, 6881465, 6881285);
-                } else if ((varclient_2235 == comp(105, 167))) {
+                } else if ((varclient_2235 == comp(105, 167))) {  // stockmarket:offersummary7_bg ?
                     IF_SETONDIALOGABORT(callback(), 6881448);
                     script7206(6881447, 6881448, 6881449, 6881450, 6881284);
                 };

@@ -3,9 +3,9 @@ function script11834(int0: number, int1: number, int2: number, int3: number, int
     varbitclient_29535 = 0;
     varclient_5077 = comp(-1, 65535);
     if ((int4 == 1)) {
-        IF_SETHIDE(true, comp(1588, 4));
+        IF_SETHIDE(true, comp(1588, 4));  // telemetry:telemetry_highlight
     } else if ((int4 == 2)) {
-        IF_SETHIDE(true, comp(1681, 7));
+        IF_SETHIDE(true, comp(1681, 7));  // toplevel_v2_parent_suboverlay_telemetry:telemetry_highlight
     };
     var int5 = IF_GETNEXTSUBID(int3);
     var int6 = 0;

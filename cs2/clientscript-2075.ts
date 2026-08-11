@@ -7,9 +7,9 @@ function script2075(): void {
         } else {
             int0 = 0;
         };
-        IF_SETTEXT(inttostring(int0, 10), comp(837, 5));
+        IF_SETTEXT(inttostring(int0, 10), comp(837, 5));  // snp_waiting_room:text_blueteam_count
     } else {
-        IF_SETTEXT(inttostring(varclient_637, 10), comp(837, 5));
+        IF_SETTEXT(inttostring(varclient_637, 10), comp(837, 5));  // snp_waiting_room:text_blueteam_count
     };
     return;
 }

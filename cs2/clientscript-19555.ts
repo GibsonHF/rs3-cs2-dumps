@@ -1,11 +1,11 @@
 //
 function script19555(): void {
     if ((varbitplayer_45140 != 0)) {
-        IF_TRIGGEROP(comp(1313, 117), -1, 1);
+        IF_TRIGGEROP(comp(1313, 117), -1, 1);  // group_ironman_storage:bottom_panel_cancel_button
         script19561(0);
     };
     script10444();
-    IF_SETHIDE(true, comp(1313, 72));
+    IF_SETHIDE(true, comp(1313, 72));  // group_ironman_storage:message_nofilter
     script19526();
     script19519(varclient_6711, 1);
     varclient_6684 = 1;
@@ -13,11 +13,11 @@ function script19555(): void {
     varclient_2236 = 8;
     varclient_2237 = 12;
     var string0 = "";
-    IF_SETONTIMER(callback(script19556, string0, CLIENTCLOCK()), comp(1313, 93));
+    IF_SETONTIMER(callback(script19556, string0, CLIENTCLOCK()), comp(1313, 93));  // group_ironman_storage:search_button
     script9833(86048864, 86048865, 86048866, 86048867, 86048869, 0, 0);
-    IF_SETHIDE(false, comp(1313, 115));
-    IF_SETPOSITION(0, 0, 2, 2, comp(1313, 115));
+    IF_SETHIDE(false, comp(1313, 115));  // group_ironman_storage:bottom_panel_cancel
+    IF_SETPOSITION(0, 0, 2, 2, comp(1313, 115));  // group_ironman_storage:bottom_panel_cancel
     script13993(86048883, -1, 28228, "Cancel Search");
-    IF_SETONOP(callback(script19554), comp(1313, 117));
+    IF_SETONOP(callback(script19554), comp(1313, 117));  // group_ironman_storage:bottom_panel_cancel_button
     return;
 }

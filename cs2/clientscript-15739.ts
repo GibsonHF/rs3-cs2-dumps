@@ -40,9 +40,9 @@ function script15739(int0: number, int1: number, int2: number, string0: string, 
     };
     script18696(dbrow_getfield(int0, 499712, 0));
     script20547(string2, string0, 1, string3, dbrow_getfield(int0, 499792, 0), int2, dbrow_getfield(int0, 500048, 0));
-    IF_SETONOP(callback(script20548), comp(1495, 22));
-    IF_SETONOP(callback(script20548), comp(1495, 2));
-    IF_SETONOP(callback(script15743, string1), comp(1495, 52));
-    IF_SETHIDE(false, comp(828, 8));
+    IF_SETONOP(callback(script20548), comp(1495, 22));  // marketplace_preview:rotator_button_layer
+    IF_SETONOP(callback(script20548), comp(1495, 2));  // marketplace_preview:background
+    IF_SETONOP(callback(script15743, string1), comp(1495, 52));  // marketplace_preview:purchase_button_layer
+    IF_SETHIDE(false, comp(828, 8));  // mobile_shop_hard_currency:confirm_buy_container
     return;
 }

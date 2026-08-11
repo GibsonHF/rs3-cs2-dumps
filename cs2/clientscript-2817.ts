@@ -23,6 +23,6 @@ function script2817(): void {
     varclient_1067 = 875 as cs2enum;
     script2825(1);
     script2810(5832706);
-    IF_SETONCAMFINISHED(callback(script2824, 1), comp(89, 0));
+    IF_SETONCAMFINISHED(callback(script2824, 1), comp(89, 0));  // fade2:eventlayer
     return;
 }

@@ -5,7 +5,7 @@ function script5847(): void {
     var int0 = -1 as struct;
     var int1 = -1;
     var int2 = 0;
-    var int3 = comp(1043, 10);
+    var int3 = comp(1043, 10);  // 6awe3_rewards:buy_text
     switch (varplayer_4378) {
         case 0: {
             if ((varclient_4149 == -1)) {

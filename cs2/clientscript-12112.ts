@@ -2,7 +2,7 @@
 function script12112(int0: number, int1: number, int2: number, int3: number): void {
     if ((int0 != -1 as obj)) {
         if ((script6431() == 1)) {
-            if (((CC_GETLAYER() == comp(1464, 15)) || (CC_GETLAYER() == comp(1462, 31)))) {
+            if (((CC_GETLAYER() == comp(1464, 15) /*toplevel_v2_worn:item_layer*/) || (CC_GETLAYER() == comp(1462, 31) /*toplevel_v2_parent_suboverlay_worn:item_layer*/))) {
                 CC_SETSIZE(44, 39, 0, 0);
             } else {
                 CC_SETSIZE(36, 32, 0, 0);
@@ -35,7 +35,7 @@ function script12112(int0: number, int1: number, int2: number, int3: number): vo
         CC_SETONOP(callback(script1620, -2147483645, -2147483643, 100, 0, 8));
     } else {
         if ((script6431() == 1)) {
-            if (((CC_GETLAYER() == comp(1464, 15)) || (CC_GETLAYER() == comp(1462, 31)))) {
+            if (((CC_GETLAYER() == comp(1464, 15) /*toplevel_v2_worn:item_layer*/) || (CC_GETLAYER() == comp(1462, 31) /*toplevel_v2_parent_suboverlay_worn:item_layer*/))) {
                 CC_SETSIZE((44 - 3), (39 - 2), 0, 0);
             } else {
                 CC_SETSIZE((36 - 4), (32 - 2), 0, 0);

@@ -24,7 +24,7 @@ function script15163(int0: number, int1: number, int2: number, int3: number): vo
     var int11 = 0;
     var int12 = 1;
     var int13 = 0;
-    if ((CC_FIND[1](comp(653, 154), 1) == 1)) {
+    if ((CC_FIND[1](comp(653, 154), 1) == 1)) {  // event_crafting:accordion_content_layer
         int12 = 0;
     };
     while ((int4 < int5)) {

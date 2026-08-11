@@ -4,7 +4,7 @@ function script1691(int0: number, int1: number): void {
     if ((strcmp(varclient_5877, "") != 0)) {
         int2 = 1;
     } else {
-        IF_SETTEXT("Interact here to search for a book", comp(87, 16));
+        IF_SETTEXT("Interact here to search for a book", comp(87, 16));  // poh_bookcase:search_input_display
     };
     if ((int2 == 1)) {
         script9554(5701637, 5701639, 5701638, `Searching for: ${varclient_5877}`, 21218);

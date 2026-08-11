@@ -1,7 +1,7 @@
 //
 function script14775(): void {
     var int0 = script12585(dbrow_getfield(varplayer_9212, 340016, 0));
-    IF_SETHIDE(int0, comp(656, 12));
+    IF_SETHIDE(int0, comp(656, 12));  // collection_log:favourite_graphic
     if ((int0 == true)) {
         return;
     };
@@ -11,8 +11,8 @@ function script14775(): void {
         int1 = 23798 as graphic;
         int2 = 23797;
     };
-    IF_SETGRAPHIC(int1, comp(656, 12));
-    IF_SETONMOUSEOVER(callback(script44, 42991628, int2), comp(656, 12));
-    IF_SETONMOUSELEAVE(callback(script44, 42991628, int1), comp(656, 12));
+    IF_SETGRAPHIC(int1, comp(656, 12));  // collection_log:favourite_graphic
+    IF_SETONMOUSEOVER(callback(script44, 42991628, int2), comp(656, 12));  // collection_log:favourite_graphic
+    IF_SETONMOUSELEAVE(callback(script44, 42991628, int1), comp(656, 12));  // collection_log:favourite_graphic
     return;
 }

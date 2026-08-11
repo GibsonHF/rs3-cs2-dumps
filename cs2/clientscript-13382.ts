@@ -22,7 +22,7 @@ function script13382(): void {
         if ((int1 != -1 as cs2enum)) {
             varclient_6045 = script13386(int1);
             if ((varclient_6042 != 1)) {
-                IF_SETONTIMER(callback(script13387, -2147483645, 48758798, CLIENTCLOCK(), varclient_6040), comp(744, 3));
+                IF_SETONTIMER(callback(script13387, -2147483645, 48758798, CLIENTCLOCK(), varclient_6040), comp(744, 3));  // loginscreen:backgrounds
             };
         };
     };

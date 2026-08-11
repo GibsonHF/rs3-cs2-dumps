@@ -15,6 +15,6 @@ function script19714(int0: number, int1: number, int2: number, int3: number): vo
         CC_SETOP(1, "Select");
         CC_SETONOP(callback(script19716, int0, int1, int2, int5, int4));
     };
-    IF_SETHIDE(false, comp(1495, 25));
+    IF_SETHIDE(false, comp(1495, 25));  // marketplace_preview:recolour_button_layer
     return;
 }

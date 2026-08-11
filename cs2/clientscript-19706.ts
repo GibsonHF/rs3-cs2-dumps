@@ -1,15 +1,15 @@
 //
 function script19706(): number {
-    CC_DELETEALL(comp(1475, 39));
-    CC_DELETEALL(comp(1475, 40));
-    CC_DELETEALL(comp(1475, 27));
+    CC_DELETEALL(comp(1475, 39));  // toplevel_v2_edit_mode:interface_sharing_build
+    CC_DELETEALL(comp(1475, 40));  // toplevel_v2_edit_mode:interface_sharing_click
+    CC_DELETEALL(comp(1475, 27));  // toplevel_v2_edit_mode:interface_sharing_scrollbar
     if ((script19705() == 0)) {
-        IF_SETHIDE(true, comp(1475, 24));
-        IF_SETTEXT("", comp(1475, 33));
+        IF_SETHIDE(true, comp(1475, 24));  // toplevel_v2_edit_mode:interface_sharing_contents
+        IF_SETTEXT("", comp(1475, 33));  // toplevel_v2_edit_mode:interface_sharing_player_input
         return 0;
     };
-    IF_SETHIDE(false, comp(1475, 24));
-    IF_SETTEXT(varclient_8264, comp(1475, 33));
+    IF_SETHIDE(false, comp(1475, 24));  // toplevel_v2_edit_mode:interface_sharing_contents
+    IF_SETTEXT(varclient_8264, comp(1475, 33));  // toplevel_v2_edit_mode:interface_sharing_player_input
     var int0 = -1;
     var int1 = 0;
     var int2 = ENUM_GETOUTPUTCOUNT(10781 as cs2enum);
@@ -21,7 +21,7 @@ function script19706(): number {
     var string0 = "";
     var string1 = "";
     var int8 = 0;
-    IF_SETTEXT(`Load ${varclient_8264} Layouts:`, comp(1475, 25));
+    IF_SETTEXT(`Load ${varclient_8264} Layouts:`, comp(1475, 25));  // toplevel_v2_edit_mode:load_interface_sharing
     while ((int0 < int2)) {
         if ((script19689(int3) == 1)) {
             int4 = script19690(int3);
@@ -55,7 +55,7 @@ function script19706(): number {
         int0 = (int0 + 1);
         int3 = enum_getvalue(0, 0, 10781, int0);
     };
-    IF_SETSIZE(0, MIN(150, (int1 + int7)), 1, 0, comp(1475, 24));
+    IF_SETSIZE(0, MIN(150, (int1 + int7)), 1, 0, comp(1475, 24));  // toplevel_v2_edit_mode:interface_sharing_contents
     script19620(96665627, 96665626, int1, -1, -1, 0, 0, int7);
     return (int1 + int7);
 }

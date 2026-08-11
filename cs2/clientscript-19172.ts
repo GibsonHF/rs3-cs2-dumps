@@ -4,6 +4,6 @@ function script19172(int0: number): void {
     if ((int1 == -1)) {
         return;
     };
-    IF_SETGRAPHIC(script19171(int1, int0), comp(1253, 5));
+    IF_SETGRAPHIC(script19171(int1, int0), comp(1253, 5));  // wheel_of_fortune:background
     return;
 }

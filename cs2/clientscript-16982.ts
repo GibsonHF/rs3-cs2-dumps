@@ -43,14 +43,14 @@ function script16982(): void {
     var int7 = 0;
     if ((int6 != 2)) {
         int7 = 1;
-        IF_SETPOSITION(0, 0, 1, 1, comp(1068, 33));
-        IF_SETPOSITION(0, 0, 1, 1, comp(1068, 32));
+        IF_SETPOSITION(0, 0, 1, 1, comp(1068, 33));  // trh188:reward_claim_prize_1_layer
+        IF_SETPOSITION(0, 0, 1, 1, comp(1068, 32));  // trh188:reward_claim_prize_1_background_layer
     } else {
-        IF_SETPOSITION(0, 0, 0, 1, comp(1068, 33));
-        IF_SETPOSITION(-63, 0, 0, 1, comp(1068, 32));
+        IF_SETPOSITION(0, 0, 0, 1, comp(1068, 33));  // trh188:reward_claim_prize_1_layer
+        IF_SETPOSITION(-63, 0, 0, 1, comp(1068, 32));  // trh188:reward_claim_prize_1_background_layer
     };
-    IF_SETHIDE(int7, comp(1068, 76));
-    IF_SETHIDE(int7, comp(1068, 42));
-    IF_SETHIDE(int7, comp(1068, 41));
+    IF_SETHIDE(int7, comp(1068, 76));  // trh188:progress_bar_reward_2
+    IF_SETHIDE(int7, comp(1068, 42));  // trh188:reward_claim_prize_2_layer
+    IF_SETHIDE(int7, comp(1068, 41));  // trh188:reward_claim_prize_2_background_layer
     return;
 }

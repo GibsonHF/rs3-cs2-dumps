@@ -4,11 +4,11 @@ function script14116(): void {
     var int1 = 0;
     var int2 = ENUM_GETOUTPUTCOUNT(6511 as cs2enum);
     if ((varbitplayer_41612 == 0)) {
-        IF_SETTEXT("Herb collector<col=ff0000> - Purchased at the Ardougne Farmers' Market</col>", comp(1006, 160));
-        IF_SETHIDE(true, comp(1006, 159));
+        IF_SETTEXT("Herb collector<col=ff0000> - Purchased at the Ardougne Farmers' Market</col>", comp(1006, 160));  // rand_herbburner:herb_collector_title
+        IF_SETHIDE(true, comp(1006, 159));  // rand_herbburner:herb_pickup_toggle_text
     } else {
-        IF_SETTEXT("Herb collector", comp(1006, 160));
-        IF_SETHIDE(false, comp(1006, 159));
+        IF_SETTEXT("Herb collector", comp(1006, 160));  // rand_herbburner:herb_collector_title
+        IF_SETHIDE(false, comp(1006, 159));  // rand_herbburner:herb_pickup_toggle_text
     };
     int0 = (int0 + 1);
     while ((int0 < int2)) {

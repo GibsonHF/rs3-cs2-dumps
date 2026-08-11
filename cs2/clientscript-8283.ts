@@ -13,15 +13,15 @@ function script8283(int0: number, int1: number): void {
     switch (int0) {
         case 34148: {
             if ((struct_getparam(int7, 5909) == comp(-1, 65535))) {
-                IF_SETHIDE(true, comp(1784, 4));
-                IF_SETHIDE(true, comp(1784, 3));
+                IF_SETHIDE(true, comp(1784, 4));  // toplevel_v2_parent_suboverlay_seasonal:seasonal_navigation_panel
+                IF_SETHIDE(true, comp(1784, 3));  // toplevel_v2_parent_suboverlay_seasonal:seasonal_bg
                 int2 = 0;
                 int3 = 0;
                 int4 = 742;
                 int5 = 450;
             } else {
-                IF_SETHIDE(false, comp(1784, 4));
-                IF_SETHIDE(false, comp(1784, 3));
+                IF_SETHIDE(false, comp(1784, 4));  // toplevel_v2_parent_suboverlay_seasonal:seasonal_navigation_panel
+                IF_SETHIDE(false, comp(1784, 3));  // toplevel_v2_parent_suboverlay_seasonal:seasonal_bg
             };
             break;
         }

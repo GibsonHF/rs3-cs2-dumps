@@ -3,8 +3,8 @@ function script19954(): void {
     if ((varbitplayer_57849 == 1)) {
         return;
     };
-    var int0 = comp(1334, 1);
-    var int1 = comp(1334, 2);
+    var int0 = comp(1334, 1);  // easter_hub_beekeeping_emotion_bar:emotion_bar
+    var int1 = comp(1334, 2);  // easter_hub_beekeeping_emotion_bar:current_emotion
     if ((varbitplayer_57842 < 300)) {
         IF_SETGRAPHIC(34916 as graphic, int1);
         script3536("Sad", int1, -1);

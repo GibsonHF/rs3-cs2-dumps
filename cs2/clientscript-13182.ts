@@ -1,13 +1,13 @@
 //
 function script13182(): void {
     var int0 = -1;
-    var int1 = IF_GETWIDTH(comp(1843, 251));
+    var int1 = IF_GETWIDTH(comp(1843, 251));  // mtxmgt_store:ragdolls_layer
     var int2 = MODULO((4 - MODULO(int1, 4)), 4);
     if ((int2 < 3)) {
         int2 = (int2 + 4);
     };
     int1 = (((int1 + int2) / 4) - int2);
-    var int3 = IF_GETHEIGHT(comp(1843, 251));
+    var int3 = IF_GETHEIGHT(comp(1843, 251));  // mtxmgt_store:ragdolls_layer
     int3 = (int3 - int2);
     var int4 = (MODULO(int3, 2) + int2);
     int3 = (int3 / 2);

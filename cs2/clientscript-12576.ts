@@ -10,7 +10,7 @@ function script12576(int0: number, int1: number, int2: number): void {
         };
         int6 = script12577(int6, varbitclient_32658, int4);
         if ((int6 < 1)) {
-            IF_SETHIDE(true, comp(1771, 69));
+            IF_SETHIDE(true, comp(1771, 69));  // gwd2_solo_loot:loot_continue_button_disabled_layer
             IF_SET2DANGLE(0, int1);
             IF_SET2DANGLE(0, int2);
             return;

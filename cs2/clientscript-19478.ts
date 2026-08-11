@@ -1,6 +1,6 @@
 //
 function script19478(int0: number, int1: number, int2: number, int3: number): void {
-    var int4 = comp(1313, 14);
+    var int4 = comp(1313, 14);  // group_ironman_storage:inventory_click
     var int5 = -1 as obj;
     varbitplayer_45912 = 1;
     while ((int1 < int2)) {
@@ -18,10 +18,10 @@ function script19478(int0: number, int1: number, int2: number, int3: number): vo
     };
     varbitplayer_45912 = 0;
     if ((int2 >= int3)) {
-        IF_SETONTIMER(callback(), comp(1313, 16));
+        IF_SETONTIMER(callback(), comp(1313, 16));  // group_ironman_storage:main_options
         script19513(1);
         return;
     };
-    IF_SETONTIMER(callback(script19478, int0, int2, MIN((int2 + 5), int3), int3), comp(1313, 16));
+    IF_SETONTIMER(callback(script19478, int0, int2, MIN((int2 + 5), int3), int3), comp(1313, 16));  // group_ironman_storage:main_options
     return;
 }

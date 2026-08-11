@@ -11,7 +11,7 @@ function script9946(): void {
     var int4 = script10405(1033);
     var int5 = script10405(1009);
     var int6 = script10405(1038);
-    var int7 = (IF_GETHEIGHT(comp(1477, 27)) - varclient_1037);
+    var int7 = (IF_GETHEIGHT(comp(1477, 27)) - varclient_1037);  // toplevel_v2:viewport
     var int8 = 0;
     var int9 = 0;
     var int10 = 0;
@@ -59,7 +59,7 @@ function script9946(): void {
     IF_SETPOSITION(0, 0, 0, 2, struct_getparam(int0, 3503));
     IF_SETSIZE(552, int7, 0, int11, struct_getparam(int0, 3503));
     int7 = IF_GETHEIGHT(struct_getparam(int0, 3503));
-    var int13 = IF_GETWIDTH(comp(1477, 26));
+    var int13 = IF_GETWIDTH(comp(1477, 26));  // toplevel_v2:background_colour
     if ((int13 <= ((552 * 2) + script19630(0)))) {
         IF_SETPOSITION(0, ((int7 + int9) + int10), 0, 2, struct_getparam(int2, 3503));
         IF_SETPOSITION(0, (int7 + int10), 0, 2, struct_getparam(int3, 3503));
@@ -92,7 +92,7 @@ function script9946(): void {
     if ((CC_FIND(int14, 9) == 1)) {
         CC_SETDRAGRENDERBEHAVIOUR(3);
         CC_SETMOUSEOVERCURSOR(190);
-        CC_SETDRAGGABLE(comp(1477, 27), -1);
+        CC_SETDRAGGABLE(comp(1477, 27), -1);  // toplevel_v2:viewport
         CC_SETDRAGDEADTIME(1);
         CC_SETDRAGDEADZONE(1);
         CC_SETONDRAG(callback(script9948, 18, -2147483646, 0));

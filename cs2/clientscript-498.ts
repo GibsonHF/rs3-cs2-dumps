@@ -11,20 +11,20 @@ function script498(int0: number, int1: number, int2: number, int3: number, int4:
     if (((((((int0 == varclient_1372) && (int1 == varclient_1373)) && (int2 == varclient_1374)) && (int3 == varclient_1375)) && (int4 == varclient_1376)) && (int5 == varclient_1377))) {
         return;
     };
-    IF_SETONVARCTRANSMIT(callback(script498, varclient_1372, varclient_1373, varclient_1374, varclient_1375, varclient_1376, varclient_1377, 1372, 1373, 1374, 1375, 1376, 1377, 6), comp(1012, 3));
-    var int14 = comp(1012, 14);
-    var int15 = comp(1012, 15);
-    var int16 = comp(1012, 16);
-    var int17 = comp(1012, 17);
-    var int18 = comp(1012, 18);
+    IF_SETONVARCTRANSMIT(callback(script498, varclient_1372, varclient_1373, varclient_1374, varclient_1375, varclient_1376, varclient_1377, 1372, 1373, 1374, 1375, 1376, 1377, 6), comp(1012, 3));  // conq_side_unit_details:content_layer
+    var int14 = comp(1012, 14);  // conq_side_unit_details:buff_icon_1
+    var int15 = comp(1012, 15);  // conq_side_unit_details:buff_icon_2
+    var int16 = comp(1012, 16);  // conq_side_unit_details:buff_icon_3
+    var int17 = comp(1012, 17);  // conq_side_unit_details:buff_icon_4
+    var int18 = comp(1012, 18);  // conq_side_unit_details:buff_icon_5
     if ((varclient_1367 != -1 as npc)) {
         int6 = (((((varclient_1372 + varclient_1373) + varclient_1374) + varclient_1375) + varclient_1376) + varclient_1377);
         if ((int6 == 0)) {
-            IF_SETHIDE(true, comp(1012, 13));
-            IF_SETHIDE(false, comp(1012, 12));
+            IF_SETHIDE(true, comp(1012, 13));  // conq_side_unit_details:buffs_layer
+            IF_SETHIDE(false, comp(1012, 12));  // conq_side_unit_details:no_command_abilities_text
         } else {
-            IF_SETHIDE(false, comp(1012, 13));
-            IF_SETHIDE(true, comp(1012, 12));
+            IF_SETHIDE(false, comp(1012, 13));  // conq_side_unit_details:buffs_layer
+            IF_SETHIDE(true, comp(1012, 12));  // conq_side_unit_details:no_command_abilities_text
         };
         if ((int6 == 1)) {
             IF_SETHIDE(false, int14);

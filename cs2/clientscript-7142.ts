@@ -24,7 +24,7 @@ function script7142(int0: number, int1: number): void {
         }
     };
     SOUND_VORBIS_RATE(RANDOM_SOUND_PITCH(int2, 1, 0, 20, 5, 10));
-    if ((CC_FIND(comp(1371, 22), int0) == 1)) {
+    if ((CC_FIND(comp(1371, 22), int0) == 1)) {  // makex2012_controls:items_list
         CC_SETGRAPHIC(int1);
     };
     return;

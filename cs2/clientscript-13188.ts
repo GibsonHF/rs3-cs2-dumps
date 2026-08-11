@@ -7,7 +7,7 @@ function script13188(int0: number, int1: number): void {
     var int3 = struct_getparam(int2, 6397);
     var int4 = struct_getparam(int2, 6398);
     var int5 = struct_getparam(int2, 6401);
-    var int6 = comp(1843, 265);
+    var int6 = comp(1843, 265);  // mtxmgt_store:preview_overlay_layer
     var int7 = 0;
     var int8 = IF_GETWIDTH(int6);
     var int9 = 0;
@@ -20,7 +20,7 @@ function script13188(int0: number, int1: number): void {
     var int15 = -1;
     if ((int0 == 1)) {
         CC_DELETEALL(int6);
-        if ((IF_FIND[1](comp(1843, 273)) == 1)) {
+        if ((IF_FIND[1](comp(1843, 273)) == 1)) {  // mtxmgt_store:deselect_button_layer
             int14 = CC_GETWIDTH[1]();
             int8 = (int8 - ((int14 + 2) * 2));
             stack(int6);
@@ -38,15 +38,15 @@ function script13188(int0: number, int1: number): void {
             int7 = (int7 + (CC_GETHEIGHT() + 8));
             CC_SETPOSITION[1](0, 0, 2, 0);
             CC_SETHIDE[1](false);
-            if ((IF_FIND[1](comp(1843, 274)) == 1)) {
+            if ((IF_FIND[1](comp(1843, 274)) == 1)) {  // mtxmgt_store:clear_button_layer
                 CC_SETPOSITION[1](0, (int14 + 2), 2, 0);
                 CC_SETHIDE[1](false);
             };
-            if ((IF_FIND[1](comp(1843, 281)) == 1)) {
+            if ((IF_FIND[1](comp(1843, 281)) == 1)) {  // mtxmgt_store:hide_button_layer
                 CC_SETPOSITION[1](0, ((int14 + 2) * 2), 2, 0);
                 CC_SETHIDE[1](false);
             };
-            if ((IF_FIND[1](comp(1843, 266)) == 1)) {
+            if ((IF_FIND[1](comp(1843, 266)) == 1)) {  // mtxmgt_store:recolour_button_layer
                 CC_SETPOSITION[1](0, 0, 0, 0);
                 CC_SETHIDE[1](false);
             };
@@ -114,21 +114,21 @@ function script13188(int0: number, int1: number): void {
         CC_SETSIZE((CC_GETX() * 2), script7593(CC_GETTEXT(), int8, CC_GETFONTMETRICS(), 0), 1, 0);
         CC_SETCOLOUR(script10495(2));
         int7 = (int7 + (CC_GETHEIGHT() + 8));
-        if ((IF_FIND(comp(1843, 324)) == 1)) {
+        if ((IF_FIND(comp(1843, 324)) == 1)) {  // mtxmgt_store:clear_button_disabled_layer
             if ((int10 == 1)) {
                 CC_SETHIDE(true);
             } else {
                 CC_SETHIDE(false);
             };
         };
-        if ((IF_FIND(comp(1843, 287)) == 1)) {
+        if ((IF_FIND(comp(1843, 287)) == 1)) {  // mtxmgt_store:hide_button_disabled_layer
             if ((int1 == -3)) {
                 CC_SETHIDE(false);
             } else {
                 CC_SETHIDE(true);
             };
         };
-        if (((IF_FIND(comp(1843, 280)) == 1) && (IF_FIND[1](comp(1843, 310)) == 1))) {
+        if (((IF_FIND(comp(1843, 280) /*mtxmgt_store:deselect_button_disabled_layer*/) == 1) && (IF_FIND[1](comp(1843, 310) /*mtxmgt_store:apply_button_disabled_layer*/) == 1))) {
             if ((int11 == 1)) {
                 CC_SETHIDE(true);
                 CC_SETHIDE[1](true);

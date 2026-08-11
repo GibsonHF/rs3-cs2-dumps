@@ -26,10 +26,10 @@ function script7973(int0: number, int1: number): void {
             IF_SETGRAPHIC(18859 as graphic, int0);
         };
     };
-    IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643), comp(1430, 270));
-    IF_SETONMOUSELEAVE(callback(script8805), comp(1430, 270));
+    IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643), comp(1430, 270));  // toplevel_v2_combat_bar:fullscreen_padlock
+    IF_SETONMOUSELEAVE(callback(script8805), comp(1430, 270));  // toplevel_v2_combat_bar:fullscreen_padlock
     script8808();
-    IF_SETOP(1, string1, comp(1430, 270));
+    IF_SETOP(1, string1, comp(1430, 270));  // toplevel_v2_combat_bar:fullscreen_padlock
     script6993(0, 0, 0, -1);
     return;
 }

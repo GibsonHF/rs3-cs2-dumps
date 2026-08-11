@@ -87,13 +87,13 @@ function script9720(int0: number, int1: number): void {
             }
         };
     };
-    IF_SETOP(1, string0, comp(1253, 277));
-    IF_SETENABLED(int2, comp(1253, 277));
+    IF_SETOP(1, string0, comp(1253, 277));  // wheel_of_fortune:reward_claim_inv_button
+    IF_SETENABLED(int2, comp(1253, 277));  // wheel_of_fortune:reward_claim_inv_button
     if ((int2 == true)) {
-        IF_SETONMOUSEREPEAT(callback(script3876, string1, -2147483645, -1), comp(1253, 277));
+        IF_SETONMOUSEREPEAT(callback(script3876, string1, -2147483645, -1), comp(1253, 277));  // wheel_of_fortune:reward_claim_inv_button
     } else {
-        IF_SETONMOUSEREPEAT(callback(script3876, string2, -2147483645, -1), comp(1253, 277));
+        IF_SETONMOUSEREPEAT(callback(script3876, string2, -2147483645, -1), comp(1253, 277));  // wheel_of_fortune:reward_claim_inv_button
     };
-    IF_SETTEXT(string3, comp(1253, 277));
+    IF_SETTEXT(string3, comp(1253, 277));  // wheel_of_fortune:reward_claim_inv_button
     return;
 }

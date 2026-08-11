@@ -1,7 +1,7 @@
 //[clientscript,meslayer_mode9]
 function script110(string0: string): void {
-    IF_SETHIDE(false, comp(1469, 0));
-    IF_SETTEXT(string0, comp(1469, 3));
+    IF_SETHIDE(false, comp(1469, 0));  // meslayer:root
+    IF_SETTEXT(string0, comp(1469, 3));  // meslayer:mes_text
     varclient_5 = 9;
     if ((strcmp("null", varclient_2510) == 0)) {
         varclient_2510 = "";
@@ -15,10 +15,10 @@ function script110(string0: string): void {
     if ((strcmp("null", varclient_2511) == 0)) {
         varclient_2511 = "";
     };
-    IF_SETONCLICK(callback(), comp(1469, 1));
+    IF_SETONCLICK(callback(), comp(1469, 1));  // meslayer:mes_layer
     script2026();
     if ((strcmp(varclient_2511, "") != 0)) {
-        CC_CREATE(comp(1469, 1), 4, 0);
+        CC_CREATE(comp(1469, 1), 4, 0);  // meslayer:mes_layer
         script2752();
         CC_SETTEXT(`Last entered: ${varclient_2511}`);
         CC_SETOP(1, "Use:");

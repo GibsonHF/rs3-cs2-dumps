@@ -3,8 +3,8 @@ function script4637(int0: number): void {
     var string0 = "";
     var int1 = 0;
     var int2 = 0;
-    IF_SETHIDE(false, comp(153, 3));
-    IF_SETTEXT("", comp(153, 4));
+    IF_SETHIDE(false, comp(153, 3));  // fremsaga_storyselect:reward_button
+    IF_SETTEXT("", comp(153, 4));  // fremsaga_storyselect:reward_text
     SOUND_VORBIS_VOLUME(6185 as vorbis, 1, 0, 150);
     script14296(int0);
     switch (int0) {
@@ -56,15 +56,15 @@ function script4637(int0: number): void {
             break;
         }
     };
-    IF_SETHIDE(true, comp(153, 13));
+    IF_SETHIDE(true, comp(153, 13));  // fremsaga_storyselect:instructions
     script13971(10027011, -1, 28554, "Show Rewards", 0);
     script13971(10027046, -1, 28553, "Play Saga", 0);
-    IF_SETTEXT(string0, comp(153, 12));
-    var int3 = (PARAHEIGHT(string0, IF_GETWIDTH(comp(153, 12)), 26 as fontmetrics) * script11432(26));
-    if ((int3 < IF_GETHEIGHT(comp(153, 10)))) {
+    IF_SETTEXT(string0, comp(153, 12));  // fremsaga_storyselect:flavour_text
+    var int3 = (PARAHEIGHT(string0, IF_GETWIDTH(comp(153, 12)), 26 as fontmetrics) * script11432(26));  // fremsaga_storyselect:flavour_text
+    if ((int3 < IF_GETHEIGHT(comp(153, 10)))) {  // fremsaga_storyselect:scroll_text_layer
         int3 = 0;
     };
-    IF_SETSCROLLSIZE(0, int3, comp(153, 10));
+    IF_SETSCROLLSIZE(0, int3, comp(153, 10));  // fremsaga_storyselect:scroll_text_layer
     script7791(10027019, 10027018);
     return;
 }

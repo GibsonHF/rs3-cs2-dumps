@@ -1,6 +1,6 @@
 //
 function script13184(): void {
-    if (((IF_FIND(comp(1843, 251)) == 1) && ((cc_getparam(5945) + 50) > CLIENTCLOCK()))) {
+    if (((IF_FIND(comp(1843, 251)) == 1) && ((cc_getparam(5945) + 50) > CLIENTCLOCK()))) {  // mtxmgt_store:ragdolls_layer
         return;
     };
     var int0 = -1;
@@ -36,7 +36,7 @@ function script13184(): void {
             int2 = 8;
         };
     };
-    if (((int1 == 1) && (IF_FIND(comp(1843, 251)) == 1))) {
+    if (((int1 == 1) && (IF_FIND(comp(1843, 251)) == 1))) {  // mtxmgt_store:ragdolls_layer
         cc_setparam(5945, CLIENTCLOCK());
     };
     return;

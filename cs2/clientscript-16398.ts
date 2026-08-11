@@ -1,9 +1,9 @@
 //
 function script16398(): void {
     var int0 = 0;
-    var int1 = IF_GETNEXTSUBID(comp(955, 1));
+    var int1 = IF_GETNEXTSUBID(comp(955, 1));  // uitutorial:page_contents
     while ((int0 < int1)) {
-        if ((CC_FIND(comp(955, 1), int0) == 1)) {
+        if ((CC_FIND(comp(955, 1), int0) == 1)) {  // uitutorial:page_contents
             if ((int0 == varplayer_8747)) {
                 script7872(1, 1, 1, 1);
             } else {

@@ -17,6 +17,6 @@ function script5473(int0: number): void {
     SPLINE_ADDPOINT(0, 6, MOVECOORD(int0, -8, 2, 9), 1900, MOVECOORD(int0, -10, 2, 7), 1900, 0);
     SPLINE_ADDPOINT(1, 6, MOVECOORD(int0, -3, 2, 2), 1200, MOVECOORD(int0, -4, 2, 0), 1200, 0);
     CAM_MOVEALONG(0, 0, 490, 490, 1, 0);
-    IF_SETONCAMFINISHED(callback(script5474, 0, 490), comp(1172, 9));
+    IF_SETONCAMFINISHED(callback(script5474, 0, 490), comp(1172, 9));  // dom_taunt_overlay:spline_handle
     return;
 }

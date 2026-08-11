@@ -1,6 +1,6 @@
 //
 function script15368(string0: string): void {
-    var int0 = comp(1851, 40);
+    var int0 = comp(1851, 40);  // achievements_sub:build_layer
     CC_DELETEALL(int0);
     CC_CREATE(int0, 4, IF_GETNEXTSUBID(int0));
     CC_SETPOSITION(0, 0, 1, 0);

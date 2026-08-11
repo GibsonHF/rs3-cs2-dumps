@@ -11,22 +11,22 @@ function script12881(int0: number): void {
         int4 = ENUM_GETOUTPUTCOUNT(int1);
     };
     var int5 = -1;
-    var int6 = comp(1802, 158);
-    var int7 = comp(1802, 161);
+    var int6 = comp(1802, 158);  // timed_event:shop_layer
+    var int7 = comp(1802, 161);  // timed_event:item_build_layer
     var int8 = 118096034;
-    var int9 = comp(1802, 160);
-    var int10 = comp(1802, 170);
-    var int11 = comp(1802, 167);
-    var int12 = comp(1802, 163);
+    var int9 = comp(1802, 160);  // timed_event:item_control_layer
+    var int10 = comp(1802, 170);  // timed_event:currency_bond_text
+    var int11 = comp(1802, 167);  // timed_event:currency_runecoin_text
+    var int12 = comp(1802, 163);  // timed_event:currency_layer
     CC_DELETEALL(int6);
     if (((int0 == 9802) || (int0 == 40974))) {
-        int6 = comp(1930, 67);
-        int7 = comp(1930, 226);
+        int6 = comp(1930, 67);  // timed_event_tasks:shop_layer
+        int7 = comp(1930, 226);  // timed_event_tasks:item_build_layer
         int8 = 126484707;
-        int9 = comp(1930, 228);
-        int10 = comp(1930, 236);
-        int11 = comp(1930, 233);
-        int12 = comp(1930, 229);
+        int9 = comp(1930, 228);  // timed_event_tasks:item_control_layer
+        int10 = comp(1930, 236);  // timed_event_tasks:currency_bond_text
+        int11 = comp(1930, 233);  // timed_event_tasks:currency_runecoin_text
+        int12 = comp(1930, 229);  // timed_event_tasks:currency_layer
     };
     IF_SETONVARTRANSMIT(callback(script12880, int0, 9782, 9781, 2), int12);
     IF_SETONVARCTRANSMIT(callback(script12880, int0, 4659, 1), int12);

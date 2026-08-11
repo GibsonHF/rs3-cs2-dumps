@@ -13,29 +13,29 @@ function script919(): void {
     } else {
         int1 = varclient_744;
     };
-    IF_SETTEXT(string0, comp(449, 10));
+    IF_SETTEXT(string0, comp(449, 10));  // obj_info:buy_text
     if ((int1 > int0)) {
-        IF_SETCOLOUR(16711680, comp(449, 11));
+        IF_SETCOLOUR(16711680, comp(449, 11));  // obj_info:player_has
     } else {
-        IF_SETCOLOUR(varclient_1241, comp(449, 11));
+        IF_SETCOLOUR(varclient_1241, comp(449, 11));  // obj_info:player_has
     };
     if ((int1 > -1)) {
-        IF_SETOBJECT_ALWAYSNUM(varclient_743, int1, comp(449, 9));
+        IF_SETOBJECT_ALWAYSNUM(varclient_743, int1, comp(449, 9));  // obj_info:buy_graphic
     } else {
-        IF_SETOBJECT_NONUM(-1 as obj, -1, comp(449, 9));
+        IF_SETOBJECT_NONUM(-1 as obj, -1, comp(449, 9));  // obj_info:buy_graphic
     };
     if ((varclient_744 == -1)) {
         script13969(29425672, -1, 28553, "Take");
-        IF_SETOP(1, "Take 1", comp(449, 8));
-        IF_SETOP(2, "Take 5", comp(449, 8));
-        IF_SETOP(3, "Take 10", comp(449, 8));
-        IF_SETOP(4, "Take 50", comp(449, 8));
+        IF_SETOP(1, "Take 1", comp(449, 8));  // obj_info:buy_button
+        IF_SETOP(2, "Take 5", comp(449, 8));  // obj_info:buy_button
+        IF_SETOP(3, "Take 10", comp(449, 8));  // obj_info:buy_button
+        IF_SETOP(4, "Take 50", comp(449, 8));  // obj_info:buy_button
     } else {
         script13969(29425672, -1, 28553, "Buy");
-        IF_SETOP(1, "Buy 1", comp(449, 8));
-        IF_SETOP(2, "Buy 5", comp(449, 8));
-        IF_SETOP(3, "Buy 10", comp(449, 8));
-        IF_SETOP(4, "Buy 50", comp(449, 8));
+        IF_SETOP(1, "Buy 1", comp(449, 8));  // obj_info:buy_button
+        IF_SETOP(2, "Buy 5", comp(449, 8));  // obj_info:buy_button
+        IF_SETOP(3, "Buy 10", comp(449, 8));  // obj_info:buy_button
+        IF_SETOP(4, "Buy 50", comp(449, 8));  // obj_info:buy_button
     };
     return;
 }

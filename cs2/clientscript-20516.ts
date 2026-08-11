@@ -10,7 +10,7 @@ function script20516(): void {
     var int6 = 0;
     var int7 = 0;
     while ((int0 < int1)) {
-        if (((CC_FIND(comp(1475, 0), int0) == 1) && (IF_FIND[1](comp(1475, 0)) == 1))) {
+        if (((CC_FIND(comp(1475, 0), int0) == 1) && (IF_FIND[1](comp(1475, 0)) == 1))) {  // toplevel_v2_edit_mode:advanced_cat
             CC_SETPOSITION(0, int3, 2, 0);
             if ((cc_getparam[1](9396) == int0)) {
                 CC_SETOP(1, "Close");
@@ -29,7 +29,7 @@ function script20516(): void {
         int6 = ENUM_GETOUTPUTCOUNT(int2);
         while ((int5 < int6)) {
             int7 = enum_getvalue(0, 0, int2, int5);
-            if ((CC_FIND(comp(1475, 3), int7) == 1)) {
+            if ((CC_FIND(comp(1475, 3), int7) == 1)) {  // toplevel_v2_edit_mode:advanced_click
                 CC_SETHIDE(int4);
                 if ((int4 == false)) {
                     CC_SETPOSITION(0, int3, 2, 0);

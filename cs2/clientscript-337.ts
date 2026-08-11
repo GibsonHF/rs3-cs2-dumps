@@ -2,8 +2,8 @@
 function script337(int0: number, int1: number): void {
     var int2 = (int1 + (int0 * 25));
     if ((CLIENTCLOCK() > (int2 + 50))) {
-        CC_DELETEALL(comp(1216, 1));
-        IF_SETONTIMER(callback(), comp(1216, 7));
+        CC_DELETEALL(comp(1216, 1));  // levelup:firework_layer
+        IF_SETONTIMER(callback(), comp(1216, 7));  // levelup:levelup_bg
         return;
     };
     var int3 = 0;
@@ -11,8 +11,8 @@ function script337(int0: number, int1: number): void {
     var int5 = RANDOM(50);
     while ((int3 < int0)) {
         if ((CLIENTCLOCK() == (int1 + (int3 * 25)))) {
-            CC_DELETEALL(comp(1216, 1));
-            CC_CREATE(comp(1216, 1), 6, IF_GETNEXTSUBID(comp(1216, 1)));
+            CC_DELETEALL(comp(1216, 1));  // levelup:firework_layer
+            CC_CREATE(comp(1216, 1), 6, IF_GETNEXTSUBID(comp(1216, 1)));  // levelup:firework_layer
             CC_SETSIZE(121, 114, 0, 0);
             CC_SETMODEL(32150 as model);
             CC_SETMODELANIM(15754 as seq);

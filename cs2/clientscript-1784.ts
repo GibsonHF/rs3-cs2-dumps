@@ -1,7 +1,7 @@
 //[proc,clanwars_updateside]
 function script1784(): void {
     var int0 = 0;
-    var int1 = (IF_GETWIDTH(comp(792, 3)) - 16);
+    var int1 = (IF_GETWIDTH(comp(792, 3)) - 16);  // clanwars_setup_side:contents
     var int2 = 0;
     [int0, int2] = script1785("~ Eligibility ~", int0, int2, int1, 1);
     if ((varclient_6260 == false)) {
@@ -128,20 +128,20 @@ function script1784(): void {
     int0 = (int0 + 7);
     [int0, int2] = script1785("~ Arena ~", int0, int2, int1, 1);
     [int0, int2] = script1785(struct_getparam(enum_getvalue(0, 73, 1604 as cs2enum, varclient_257), 555), int0, int2, int1, 0);
-    if ((int0 > IF_GETHEIGHT(comp(792, 3)))) {
-        IF_SETHIDE(false, comp(792, 4));
-        IF_SETPOSITION(7, 46, 0, 0, comp(792, 3));
-        IF_SETSCROLLSIZE(0, int0, comp(792, 3));
+    if ((int0 > IF_GETHEIGHT(comp(792, 3)))) {  // clanwars_setup_side:contents
+        IF_SETHIDE(false, comp(792, 4));  // clanwars_setup_side:scrollbar
+        IF_SETPOSITION(7, 46, 0, 0, comp(792, 3));  // clanwars_setup_side:contents
+        IF_SETSCROLLSIZE(0, int0, comp(792, 3));  // clanwars_setup_side:contents
         script31(51904516, 51904515, 792, 789, 790, 791, 773, 788);
-        if ((CC_FIND(comp(792, 4), 1) == 1)) {
-            script37(51904516, 51904515, IF_GETSCROLLY(comp(792, 3)), 1);
+        if ((CC_FIND(comp(792, 4), 1) == 1)) {  // clanwars_setup_side:scrollbar
+            script37(51904516, 51904515, IF_GETSCROLLY(comp(792, 3)), 1);  // clanwars_setup_side:contents
         };
     } else {
-        CC_DELETEALL(comp(792, 4));
-        IF_SETHIDE(true, comp(792, 4));
-        IF_SETPOSITION(15, 46, 0, 0, comp(792, 3));
-        IF_SETSCROLLSIZE(0, 0, comp(792, 3));
-        IF_SETSCROLLPOS(0, 0, comp(792, 3));
+        CC_DELETEALL(comp(792, 4));  // clanwars_setup_side:scrollbar
+        IF_SETHIDE(true, comp(792, 4));  // clanwars_setup_side:scrollbar
+        IF_SETPOSITION(15, 46, 0, 0, comp(792, 3));  // clanwars_setup_side:contents
+        IF_SETSCROLLSIZE(0, 0, comp(792, 3));  // clanwars_setup_side:contents
+        IF_SETSCROLLPOS(0, 0, comp(792, 3));  // clanwars_setup_side:contents
     };
     return;
 }

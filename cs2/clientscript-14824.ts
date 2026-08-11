@@ -36,7 +36,7 @@ function script14824(int0: number): void {
             break;
         }
     };
-    IF_SETTEXT(string0, comp(685, 20));
+    IF_SETTEXT(string0, comp(685, 20));  // arch_journal:mysteries_title_text
     script14825(int1);
     return;
 }

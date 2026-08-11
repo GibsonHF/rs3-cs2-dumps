@@ -26,9 +26,9 @@ function script9139(): void {
     };
     var int1 = enum_getvalue(0, 73, int0, varplayer_3233);
     if ((script9178(struct_getparam(int1, 1268)) == 1)) {
-        IF_SETGRAPHIC(21106 as graphic, comp(1344, 34));
+        IF_SETGRAPHIC(21106 as graphic, comp(1344, 34));  // minigames_main:fav_icon
     } else {
-        IF_SETGRAPHIC(21105 as graphic, comp(1344, 34));
+        IF_SETGRAPHIC(21105 as graphic, comp(1344, 34));  // minigames_main:fav_icon
     };
     script8808();
     return;

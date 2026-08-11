@@ -34,21 +34,21 @@ function script7032(int0: number, int1: number): void {
     if (((int0 > 0) && (int1 > 0))) {
         int3 = script1161(int0, int1);
     };
-    IF_SETTEXT(string1, comp(916, 110));
-    CC_DELETEALL(comp(916, 112));
-    CC_DELETEALL(comp(916, 114));
-    CC_DELETEALL(comp(916, 115));
-    CC_DELETEALL(comp(916, 113));
-    CC_DELETEALL(comp(916, 116));
-    IF_SETHIDE(true, comp(916, 116));
-    IF_SETHIDE(true, comp(916, 107));
+    IF_SETTEXT(string1, comp(916, 110));  // pop_ship:list_title
+    CC_DELETEALL(comp(916, 112));  // pop_ship:list_boxes
+    CC_DELETEALL(comp(916, 114));  // pop_ship:list_text
+    CC_DELETEALL(comp(916, 115));  // pop_ship:list_lock
+    CC_DELETEALL(comp(916, 113));  // pop_ship:list_boxes_click
+    CC_DELETEALL(comp(916, 116));  // pop_ship:list_scroll
+    IF_SETHIDE(true, comp(916, 116));  // pop_ship:list_scroll
+    IF_SETHIDE(true, comp(916, 107));  // pop_ship:list_layer
     if (((int2 == -1 as cs2enum) || (varclient_2611 > 0))) {
-        IF_SETOPKEY(1, 13, 0, comp(916, 344));
-        IF_SETOPKEY(1, 0, 0, comp(916, 381));
+        IF_SETOPKEY(1, 13, 0, comp(916, 344));  // pop_ship:close_button
+        IF_SETOPKEY(1, 0, 0, comp(916, 381));  // pop_ship:list_closer
         return;
     };
-    IF_SETOPKEY(1, 0, 0, comp(916, 344));
-    IF_SETOPKEY(1, 13, 0, comp(916, 381));
+    IF_SETOPKEY(1, 0, 0, comp(916, 344));  // pop_ship:close_button
+    IF_SETOPKEY(1, 13, 0, comp(916, 381));  // pop_ship:list_closer
     var int4 = 0;
     var int5 = 0;
     var int6 = 0;
@@ -127,24 +127,24 @@ function script7032(int0: number, int1: number): void {
         };
         if ((int8 == 0)) {
             int5 = (int5 + 1);
-            script13998(60031088, 60031089, 28556, 0, int6, (IF_GETWIDTH(comp(916, 111)) - 5), 32, int4, 0, "", script9670(varplayer_3391, int4));
+            script13998(60031088, 60031089, 28556, 0, int6, (IF_GETWIDTH(comp(916, 111)) - 5), 32, int4, 0, "", script9670(varplayer_3391, int4));  // pop_ship:list_contents
         } else {
             script10410(60031088, 60031089, 28556, -1, -1, 1, 1, int4, 0, "");
         };
-        CC_CREATE(comp(916, 114), 4, int4);
+        CC_CREATE(comp(916, 114), 4, int4);  // pop_ship:list_text
         CC_SETCOLOUR(16777215);
         CC_SETTEXT(`   ${struct_getparam(int9, 662)}`);
         if ((int8 == 0)) {
-            CC_SETSIZE(IF_GETWIDTH(comp(916, 111)), 32, 0, 0);
+            CC_SETSIZE(IF_GETWIDTH(comp(916, 111)), 32, 0, 0);  // pop_ship:list_contents
         } else {
             CC_SETSIZE(0, 0, 0, 0);
         };
         CC_SETPOSITION(0, int6, 0, 0);
         CC_SETTEXTFONT(26 as fontmetrics);
         CC_SETTEXTALIGN(0, 1, 12);
-        IF_SETCOLOUR(16446166, comp(916, 141));
-        IF_SETCOLOUR(16446166, comp(916, 143));
-        CC_CREATE(comp(916, 115), 5, int4);
+        IF_SETCOLOUR(16446166, comp(916, 141));  // pop_ship:cost_1_amount
+        IF_SETCOLOUR(16446166, comp(916, 143));  // pop_ship:cost_2_amount
+        CC_CREATE(comp(916, 115), 5, int4);  // pop_ship:list_lock
         if ((int7 == 0)) {
             if ((int8 == 0)) {
                 int10 = 1;
@@ -153,63 +153,63 @@ function script7032(int0: number, int1: number): void {
                 switch (struct_getparam(int9, 701)) {
                     case 1: {
                         if ((struct_getparam(int9, 702) > varplayer_3441)) {
-                            IF_SETCOLOUR(16711680, comp(916, 141));
+                            IF_SETCOLOUR(16711680, comp(916, 141));  // pop_ship:cost_1_amount
                             int10 = 0;
                         };
                         break;
                     }
                     case 2: {
                         if ((struct_getparam(int9, 702) > varplayer_3442)) {
-                            IF_SETCOLOUR(16711680, comp(916, 141));
+                            IF_SETCOLOUR(16711680, comp(916, 141));  // pop_ship:cost_1_amount
                             int10 = 0;
                         };
                         break;
                     }
                     case 3: {
                         if ((struct_getparam(int9, 702) > varplayer_3443)) {
-                            IF_SETCOLOUR(16711680, comp(916, 141));
+                            IF_SETCOLOUR(16711680, comp(916, 141));  // pop_ship:cost_1_amount
                             int10 = 0;
                         };
                         break;
                     }
                     case 4: {
                         if ((struct_getparam(int9, 702) > varplayer_3444)) {
-                            IF_SETCOLOUR(16711680, comp(916, 141));
+                            IF_SETCOLOUR(16711680, comp(916, 141));  // pop_ship:cost_1_amount
                             int10 = 0;
                         };
                         break;
                     }
                     case 5: {
                         if ((struct_getparam(int9, 702) > varplayer_3445)) {
-                            IF_SETCOLOUR(16711680, comp(916, 141));
+                            IF_SETCOLOUR(16711680, comp(916, 141));  // pop_ship:cost_1_amount
                             int10 = 0;
                         };
                         break;
                     }
                     case 6: {
                         if ((struct_getparam(int9, 702) > varplayer_3446)) {
-                            IF_SETCOLOUR(16711680, comp(916, 141));
+                            IF_SETCOLOUR(16711680, comp(916, 141));  // pop_ship:cost_1_amount
                             int10 = 0;
                         };
                         break;
                     }
                     case 7: {
                         if ((struct_getparam(int9, 702) > varplayer_3447)) {
-                            IF_SETCOLOUR(16711680, comp(916, 141));
+                            IF_SETCOLOUR(16711680, comp(916, 141));  // pop_ship:cost_1_amount
                             int10 = 0;
                         };
                         break;
                     }
                     case 8: {
                         if ((struct_getparam(int9, 702) > varplayer_4038)) {
-                            IF_SETCOLOUR(16711680, comp(916, 141));
+                            IF_SETCOLOUR(16711680, comp(916, 141));  // pop_ship:cost_1_amount
                             int10 = 0;
                         };
                         break;
                     }
                     case 9: {
                         if ((struct_getparam(int9, 702) > varplayer_4039)) {
-                            IF_SETCOLOUR(16711680, comp(916, 141));
+                            IF_SETCOLOUR(16711680, comp(916, 141));  // pop_ship:cost_1_amount
                             int10 = 0;
                         };
                         break;
@@ -218,63 +218,63 @@ function script7032(int0: number, int1: number): void {
                 switch (struct_getparam(int9, 703)) {
                     case 1: {
                         if ((struct_getparam(int9, 704) > varplayer_3441)) {
-                            IF_SETCOLOUR(16711680, comp(916, 143));
+                            IF_SETCOLOUR(16711680, comp(916, 143));  // pop_ship:cost_2_amount
                             int10 = 0;
                         };
                         break;
                     }
                     case 2: {
                         if ((struct_getparam(int9, 704) > varplayer_3442)) {
-                            IF_SETCOLOUR(16711680, comp(916, 143));
+                            IF_SETCOLOUR(16711680, comp(916, 143));  // pop_ship:cost_2_amount
                             int10 = 0;
                         };
                         break;
                     }
                     case 3: {
                         if ((struct_getparam(int9, 704) > varplayer_3443)) {
-                            IF_SETCOLOUR(16711680, comp(916, 143));
+                            IF_SETCOLOUR(16711680, comp(916, 143));  // pop_ship:cost_2_amount
                             int10 = 0;
                         };
                         break;
                     }
                     case 4: {
                         if ((struct_getparam(int9, 704) > varplayer_3444)) {
-                            IF_SETCOLOUR(16711680, comp(916, 143));
+                            IF_SETCOLOUR(16711680, comp(916, 143));  // pop_ship:cost_2_amount
                             int10 = 0;
                         };
                         break;
                     }
                     case 5: {
                         if ((struct_getparam(int9, 704) > varplayer_3445)) {
-                            IF_SETCOLOUR(16711680, comp(916, 143));
+                            IF_SETCOLOUR(16711680, comp(916, 143));  // pop_ship:cost_2_amount
                             int10 = 0;
                         };
                         break;
                     }
                     case 6: {
                         if ((struct_getparam(int9, 704) > varplayer_3446)) {
-                            IF_SETCOLOUR(16711680, comp(916, 143));
+                            IF_SETCOLOUR(16711680, comp(916, 143));  // pop_ship:cost_2_amount
                             int10 = 0;
                         };
                         break;
                     }
                     case 7: {
                         if ((struct_getparam(int9, 704) > varplayer_3447)) {
-                            IF_SETCOLOUR(16711680, comp(916, 143));
+                            IF_SETCOLOUR(16711680, comp(916, 143));  // pop_ship:cost_2_amount
                             int10 = 0;
                         };
                         break;
                     }
                     case 8: {
                         if ((struct_getparam(int9, 704) > varplayer_4038)) {
-                            IF_SETCOLOUR(16711680, comp(916, 143));
+                            IF_SETCOLOUR(16711680, comp(916, 143));  // pop_ship:cost_2_amount
                             int10 = 0;
                         };
                         break;
                     }
                     case 9: {
                         if ((struct_getparam(int9, 704) > varplayer_4039)) {
-                            IF_SETCOLOUR(16711680, comp(916, 143));
+                            IF_SETCOLOUR(16711680, comp(916, 143));  // pop_ship:cost_2_amount
                             int10 = 0;
                         };
                         break;
@@ -312,38 +312,38 @@ function script7032(int0: number, int1: number): void {
             int6 = ((int6 + 32) + 5);
         };
     };
-    IF_SETSCROLLSIZE(0, int6, comp(916, 111));
+    IF_SETSCROLLSIZE(0, int6, comp(916, 111));  // pop_ship:list_contents
     script7791(60031092, 60031087);
-    IF_SETHIDE(false, comp(916, 107));
-    IF_SETHIDE(true, comp(916, 178));
-    IF_SETHIDE(true, comp(916, 146));
-    IF_SETHIDE(false, comp(916, 322));
-    IF_SETHIDE(true, comp(916, 321));
-    IF_SETHIDE(true, comp(916, 334));
+    IF_SETHIDE(false, comp(916, 107));  // pop_ship:list_layer
+    IF_SETHIDE(true, comp(916, 178));  // pop_ship:crew_manager_layer
+    IF_SETHIDE(true, comp(916, 146));  // pop_ship:crew_compare_layer
+    IF_SETHIDE(false, comp(916, 322));  // pop_ship:crew_roster_open
+    IF_SETHIDE(true, comp(916, 321));  // pop_ship:crew_roster_close
+    IF_SETHIDE(true, comp(916, 334));  // pop_ship:active_voyage_send_layer
     if ((int5 < 6)) {
-        IF_SETHIDE(true, comp(916, 116));
+        IF_SETHIDE(true, comp(916, 116));  // pop_ship:list_scroll
     } else {
-        IF_SETHIDE(false, comp(916, 116));
+        IF_SETHIDE(false, comp(916, 116));  // pop_ship:list_scroll
     };
     switch (int1) {
         case 1: {
-            IF_SETPOSITION(0, 17, 1, 1, comp(916, 107));
+            IF_SETPOSITION(0, 17, 1, 1, comp(916, 107));  // pop_ship:list_layer
             break;
         }
         case 2: {
-            IF_SETPOSITION(-117, 17, 1, 1, comp(916, 107));
+            IF_SETPOSITION(-117, 17, 1, 1, comp(916, 107));  // pop_ship:list_layer
             break;
         }
         case 3: {
-            IF_SETPOSITION(125, 17, 1, 1, comp(916, 107));
+            IF_SETPOSITION(125, 17, 1, 1, comp(916, 107));  // pop_ship:list_layer
             break;
         }
         case 4: {
-            IF_SETPOSITION(255, 17, 1, 1, comp(916, 107));
+            IF_SETPOSITION(255, 17, 1, 1, comp(916, 107));  // pop_ship:list_layer
             break;
         }
         case 5: {
-            IF_SETPOSITION(-255, 17, 1, 1, comp(916, 107));
+            IF_SETPOSITION(-255, 17, 1, 1, comp(916, 107));  // pop_ship:list_layer
             break;
         }
     };

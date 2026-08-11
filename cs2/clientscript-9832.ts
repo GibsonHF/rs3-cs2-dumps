@@ -59,7 +59,7 @@ function script9832(int0: number, string0: string): void {
     };
     var int13 = 0;
     if ((varclient_6684 == true)) {
-        int13 = IF_GETY(comp(517, 202));
+        int13 = IF_GETY(comp(517, 202));  // bank:diango_inv
         if ((int11 > 0)) {
             if ((int13 == 0)) {
                 int13 = (int13 + 5);
@@ -68,18 +68,18 @@ function script9832(int0: number, string0: string): void {
             script15434(int11);
         } else if ((int11 == 0)) {
             if ((int13 == 0)) {
-                IF_SETHIDE(false, comp(517, 198));
+                IF_SETHIDE(false, comp(517, 198));  // bank:message_nomatches
             };
             script10186(1, 1);
         };
         script13828((int13 + int8));
         return;
     };
-    if ((int8 > IF_GETHEIGHT(comp(1387, 38)))) {
-        IF_SETSCROLLSIZE(0, int8, comp(1387, 38));
-        script72(90898471, 90898470, IF_GETSCROLLY(comp(1387, 38)));
+    if ((int8 > IF_GETHEIGHT(comp(1387, 38)))) {  // diango_items:holiday_items
+        IF_SETSCROLLSIZE(0, int8, comp(1387, 38));  // diango_items:holiday_items
+        script72(90898471, 90898470, IF_GETSCROLLY(comp(1387, 38)));  // diango_items:holiday_items
     } else {
-        IF_SETSCROLLSIZE(0, 0, comp(1387, 38));
+        IF_SETSCROLLSIZE(0, 0, comp(1387, 38));  // diango_items:holiday_items
         script72(90898471, 90898470, 0);
     };
     return;

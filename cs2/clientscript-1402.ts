@@ -4,131 +4,131 @@ function script1402(): void {
         return;
     };
     if ((varplayer_1260 == 0)) {
-        IF_SETMODEL(3062 as model, comp(270, 6));
-        IF_SETMODELANIM(646 as seq, comp(270, 6));
+        IF_SETMODEL(3062 as model, comp(270, 6));  // playermap_east:x_mark_0
+        IF_SETMODELANIM(646 as seq, comp(270, 6));  // playermap_east:x_mark_0
     } else if ((varplayer_1260 == 1)) {
-        IF_SETMODEL(3062 as model, comp(270, 7));
-        IF_SETMODELANIM(646 as seq, comp(270, 7));
+        IF_SETMODEL(3062 as model, comp(270, 7));  // playermap_east:x_mark_1
+        IF_SETMODELANIM(646 as seq, comp(270, 7));  // playermap_east:x_mark_1
     } else if ((varplayer_1260 == 2)) {
-        IF_SETMODEL(3062 as model, comp(270, 8));
-        IF_SETMODELANIM(646 as seq, comp(270, 8));
+        IF_SETMODEL(3062 as model, comp(270, 8));  // playermap_east:x_mark_2
+        IF_SETMODELANIM(646 as seq, comp(270, 8));  // playermap_east:x_mark_2
     } else if ((varplayer_1260 == 3)) {
-        IF_SETMODEL(3062 as model, comp(270, 9));
-        IF_SETMODELANIM(646 as seq, comp(270, 9));
+        IF_SETMODEL(3062 as model, comp(270, 9));  // playermap_east:x_mark_3
+        IF_SETMODELANIM(646 as seq, comp(270, 9));  // playermap_east:x_mark_3
     } else if ((varplayer_1260 == 4)) {
-        IF_SETMODEL(3062 as model, comp(270, 10));
-        IF_SETMODELANIM(646 as seq, comp(270, 10));
+        IF_SETMODEL(3062 as model, comp(270, 10));  // playermap_east:x_mark_4
+        IF_SETMODELANIM(646 as seq, comp(270, 10));  // playermap_east:x_mark_4
     } else if ((varplayer_1260 == 5)) {
-        IF_SETMODEL(3062 as model, comp(270, 11));
-        IF_SETMODELANIM(646 as seq, comp(270, 11));
+        IF_SETMODEL(3062 as model, comp(270, 11));  // playermap_east:x_mark_5
+        IF_SETMODELANIM(646 as seq, comp(270, 11));  // playermap_east:x_mark_5
     } else if ((varplayer_1260 == 6)) {
-        IF_SETMODEL(3062 as model, comp(270, 12));
-        IF_SETMODELANIM(646 as seq, comp(270, 12));
+        IF_SETMODEL(3062 as model, comp(270, 12));  // playermap_east:x_mark_6
+        IF_SETMODELANIM(646 as seq, comp(270, 12));  // playermap_east:x_mark_6
     } else if ((varplayer_1260 == 7)) {
-        IF_SETMODEL(3062 as model, comp(270, 13));
-        IF_SETMODELANIM(646 as seq, comp(270, 13));
+        IF_SETMODEL(3062 as model, comp(270, 13));  // playermap_east:x_mark_7
+        IF_SETMODELANIM(646 as seq, comp(270, 13));  // playermap_east:x_mark_7
     } else if ((varplayer_1260 == 8)) {
-        IF_SETMODEL(3062 as model, comp(270, 14));
-        IF_SETMODELANIM(646 as seq, comp(270, 14));
+        IF_SETMODEL(3062 as model, comp(270, 14));  // playermap_east:x_mark_8
+        IF_SETMODELANIM(646 as seq, comp(270, 14));  // playermap_east:x_mark_8
     } else if ((varplayer_1260 == 9)) {
-        IF_SETMODEL(3062 as model, comp(270, 15));
-        IF_SETMODELANIM(646 as seq, comp(270, 15));
+        IF_SETMODEL(3062 as model, comp(270, 15));  // playermap_east:x_mark_9
+        IF_SETMODELANIM(646 as seq, comp(270, 15));  // playermap_east:x_mark_9
     } else if ((varplayer_1260 == 10)) {
-        IF_SETMODEL(3062 as model, comp(270, 16));
-        IF_SETMODELANIM(646 as seq, comp(270, 16));
+        IF_SETMODEL(3062 as model, comp(270, 16));  // playermap_east:x_mark_10
+        IF_SETMODELANIM(646 as seq, comp(270, 16));  // playermap_east:x_mark_10
     } else if ((varplayer_1260 == 11)) {
-        IF_SETMODEL(3062 as model, comp(270, 17));
-        IF_SETMODELANIM(646 as seq, comp(270, 17));
+        IF_SETMODEL(3062 as model, comp(270, 17));  // playermap_east:x_mark_11
+        IF_SETMODELANIM(646 as seq, comp(270, 17));  // playermap_east:x_mark_11
     } else if ((varplayer_1260 == 12)) {
-        IF_SETMODEL(3062 as model, comp(270, 18));
-        IF_SETMODELANIM(646 as seq, comp(270, 18));
+        IF_SETMODEL(3062 as model, comp(270, 18));  // playermap_east:x_mark_12
+        IF_SETMODELANIM(646 as seq, comp(270, 18));  // playermap_east:x_mark_12
     } else if ((varplayer_1260 == 13)) {
-        IF_SETMODEL(3062 as model, comp(270, 19));
-        IF_SETMODELANIM(646 as seq, comp(270, 19));
+        IF_SETMODEL(3062 as model, comp(270, 19));  // playermap_east:x_mark_13
+        IF_SETMODELANIM(646 as seq, comp(270, 19));  // playermap_east:x_mark_13
     } else if ((varplayer_1260 == 14)) {
-        IF_SETMODEL(3062 as model, comp(270, 20));
-        IF_SETMODELANIM(646 as seq, comp(270, 20));
+        IF_SETMODEL(3062 as model, comp(270, 20));  // playermap_east:x_mark_14
+        IF_SETMODELANIM(646 as seq, comp(270, 20));  // playermap_east:x_mark_14
     } else if ((varplayer_1260 == 15)) {
-        IF_SETMODEL(3062 as model, comp(270, 21));
-        IF_SETMODELANIM(646 as seq, comp(270, 21));
+        IF_SETMODEL(3062 as model, comp(270, 21));  // playermap_east:x_mark_15
+        IF_SETMODELANIM(646 as seq, comp(270, 21));  // playermap_east:x_mark_15
     } else if ((varplayer_1260 == 16)) {
-        IF_SETMODEL(3062 as model, comp(270, 22));
-        IF_SETMODELANIM(646 as seq, comp(270, 22));
+        IF_SETMODEL(3062 as model, comp(270, 22));  // playermap_east:x_mark_16
+        IF_SETMODELANIM(646 as seq, comp(270, 22));  // playermap_east:x_mark_16
     } else if ((varplayer_1260 == 17)) {
-        IF_SETMODEL(3062 as model, comp(270, 23));
-        IF_SETMODELANIM(646 as seq, comp(270, 23));
+        IF_SETMODEL(3062 as model, comp(270, 23));  // playermap_east:x_mark_17
+        IF_SETMODELANIM(646 as seq, comp(270, 23));  // playermap_east:x_mark_17
     } else if ((varplayer_1260 == 18)) {
-        IF_SETMODEL(3062 as model, comp(270, 24));
-        IF_SETMODELANIM(646 as seq, comp(270, 24));
+        IF_SETMODEL(3062 as model, comp(270, 24));  // playermap_east:x_mark_18
+        IF_SETMODELANIM(646 as seq, comp(270, 24));  // playermap_east:x_mark_18
     } else if ((varplayer_1260 == 19)) {
-        IF_SETMODEL(3062 as model, comp(270, 25));
-        IF_SETMODELANIM(646 as seq, comp(270, 25));
+        IF_SETMODEL(3062 as model, comp(270, 25));  // playermap_east:x_mark_19
+        IF_SETMODELANIM(646 as seq, comp(270, 25));  // playermap_east:x_mark_19
     } else if ((varplayer_1260 == 20)) {
-        IF_SETMODEL(3062 as model, comp(270, 26));
-        IF_SETMODELANIM(646 as seq, comp(270, 26));
+        IF_SETMODEL(3062 as model, comp(270, 26));  // playermap_east:x_mark_20
+        IF_SETMODELANIM(646 as seq, comp(270, 26));  // playermap_east:x_mark_20
     } else if ((varplayer_1260 == 21)) {
-        IF_SETMODEL(3062 as model, comp(270, 27));
-        IF_SETMODELANIM(646 as seq, comp(270, 27));
+        IF_SETMODEL(3062 as model, comp(270, 27));  // playermap_east:x_mark_21
+        IF_SETMODELANIM(646 as seq, comp(270, 27));  // playermap_east:x_mark_21
     } else if ((varplayer_1260 == 22)) {
-        IF_SETMODEL(3062 as model, comp(270, 28));
-        IF_SETMODELANIM(646 as seq, comp(270, 28));
+        IF_SETMODEL(3062 as model, comp(270, 28));  // playermap_east:x_mark_22
+        IF_SETMODELANIM(646 as seq, comp(270, 28));  // playermap_east:x_mark_22
     } else if ((varplayer_1260 == 23)) {
-        IF_SETMODEL(3062 as model, comp(270, 29));
-        IF_SETMODELANIM(646 as seq, comp(270, 29));
+        IF_SETMODEL(3062 as model, comp(270, 29));  // playermap_east:x_mark_23
+        IF_SETMODELANIM(646 as seq, comp(270, 29));  // playermap_east:x_mark_23
     } else if ((varplayer_1260 == 24)) {
-        IF_SETMODEL(3062 as model, comp(270, 30));
-        IF_SETMODELANIM(646 as seq, comp(270, 30));
+        IF_SETMODEL(3062 as model, comp(270, 30));  // playermap_east:x_mark_24
+        IF_SETMODELANIM(646 as seq, comp(270, 30));  // playermap_east:x_mark_24
     } else if ((varplayer_1260 == 25)) {
-        IF_SETMODEL(3062 as model, comp(270, 31));
-        IF_SETMODELANIM(646 as seq, comp(270, 31));
+        IF_SETMODEL(3062 as model, comp(270, 31));  // playermap_east:x_mark_25
+        IF_SETMODELANIM(646 as seq, comp(270, 31));  // playermap_east:x_mark_25
     } else if ((varplayer_1260 == 26)) {
-        IF_SETMODEL(3062 as model, comp(270, 32));
-        IF_SETMODELANIM(646 as seq, comp(270, 32));
+        IF_SETMODEL(3062 as model, comp(270, 32));  // playermap_east:x_mark_26
+        IF_SETMODELANIM(646 as seq, comp(270, 32));  // playermap_east:x_mark_26
     } else if ((varplayer_1260 == 27)) {
-        IF_SETMODEL(3062 as model, comp(270, 33));
-        IF_SETMODELANIM(646 as seq, comp(270, 33));
+        IF_SETMODEL(3062 as model, comp(270, 33));  // playermap_east:x_mark_27
+        IF_SETMODELANIM(646 as seq, comp(270, 33));  // playermap_east:x_mark_27
     } else if ((varplayer_1260 == 28)) {
-        IF_SETMODEL(3062 as model, comp(270, 34));
-        IF_SETMODELANIM(646 as seq, comp(270, 34));
+        IF_SETMODEL(3062 as model, comp(270, 34));  // playermap_east:x_mark_28
+        IF_SETMODELANIM(646 as seq, comp(270, 34));  // playermap_east:x_mark_28
     } else if ((varplayer_1260 == 29)) {
-        IF_SETMODEL(3062 as model, comp(270, 35));
-        IF_SETMODELANIM(646 as seq, comp(270, 35));
+        IF_SETMODEL(3062 as model, comp(270, 35));  // playermap_east:x_mark_29
+        IF_SETMODELANIM(646 as seq, comp(270, 35));  // playermap_east:x_mark_29
     } else if ((varplayer_1260 == 30)) {
-        IF_SETMODEL(3062 as model, comp(270, 36));
-        IF_SETMODELANIM(646 as seq, comp(270, 36));
+        IF_SETMODEL(3062 as model, comp(270, 36));  // playermap_east:x_mark_30
+        IF_SETMODELANIM(646 as seq, comp(270, 36));  // playermap_east:x_mark_30
     } else if ((varplayer_1260 == 31)) {
-        IF_SETMODEL(3062 as model, comp(270, 37));
-        IF_SETMODELANIM(646 as seq, comp(270, 37));
+        IF_SETMODEL(3062 as model, comp(270, 37));  // playermap_east:x_mark_31
+        IF_SETMODELANIM(646 as seq, comp(270, 37));  // playermap_east:x_mark_31
     } else if ((varplayer_1260 == 32)) {
-        IF_SETMODEL(3062 as model, comp(270, 38));
-        IF_SETMODELANIM(646 as seq, comp(270, 38));
+        IF_SETMODEL(3062 as model, comp(270, 38));  // playermap_east:x_mark_32
+        IF_SETMODELANIM(646 as seq, comp(270, 38));  // playermap_east:x_mark_32
     } else if ((varplayer_1260 == 33)) {
-        IF_SETMODEL(3062 as model, comp(270, 39));
-        IF_SETMODELANIM(646 as seq, comp(270, 39));
+        IF_SETMODEL(3062 as model, comp(270, 39));  // playermap_east:x_mark_33
+        IF_SETMODELANIM(646 as seq, comp(270, 39));  // playermap_east:x_mark_33
     } else if ((varplayer_1260 == 34)) {
-        IF_SETMODEL(3062 as model, comp(270, 40));
-        IF_SETMODELANIM(646 as seq, comp(270, 40));
+        IF_SETMODEL(3062 as model, comp(270, 40));  // playermap_east:x_mark_34
+        IF_SETMODELANIM(646 as seq, comp(270, 40));  // playermap_east:x_mark_34
     } else if ((varplayer_1260 == 35)) {
-        IF_SETMODEL(3062 as model, comp(270, 41));
-        IF_SETMODELANIM(646 as seq, comp(270, 41));
+        IF_SETMODEL(3062 as model, comp(270, 41));  // playermap_east:x_mark_35
+        IF_SETMODELANIM(646 as seq, comp(270, 41));  // playermap_east:x_mark_35
     } else if ((varplayer_1260 == 36)) {
-        IF_SETMODEL(3062 as model, comp(270, 42));
-        IF_SETMODELANIM(646 as seq, comp(270, 42));
+        IF_SETMODEL(3062 as model, comp(270, 42));  // playermap_east:x_mark_36
+        IF_SETMODELANIM(646 as seq, comp(270, 42));  // playermap_east:x_mark_36
     } else if ((varplayer_1260 == 37)) {
-        IF_SETMODEL(3062 as model, comp(270, 43));
-        IF_SETMODELANIM(646 as seq, comp(270, 43));
+        IF_SETMODEL(3062 as model, comp(270, 43));  // playermap_east:x_mark_37
+        IF_SETMODELANIM(646 as seq, comp(270, 43));  // playermap_east:x_mark_37
     } else if ((varplayer_1260 == 38)) {
-        IF_SETMODEL(3062 as model, comp(270, 44));
-        IF_SETMODELANIM(646 as seq, comp(270, 44));
+        IF_SETMODEL(3062 as model, comp(270, 44));  // playermap_east:x_mark_38
+        IF_SETMODELANIM(646 as seq, comp(270, 44));  // playermap_east:x_mark_38
     } else if ((varplayer_1260 == 39)) {
-        IF_SETMODEL(3062 as model, comp(270, 45));
-        IF_SETMODELANIM(646 as seq, comp(270, 45));
+        IF_SETMODEL(3062 as model, comp(270, 45));  // playermap_east:x_mark_39
+        IF_SETMODELANIM(646 as seq, comp(270, 45));  // playermap_east:x_mark_39
     } else if ((varplayer_1260 == 40)) {
-        IF_SETMODEL(3062 as model, comp(270, 46));
-        IF_SETMODELANIM(646 as seq, comp(270, 46));
+        IF_SETMODEL(3062 as model, comp(270, 46));  // playermap_east:x_mark_40
+        IF_SETMODELANIM(646 as seq, comp(270, 46));  // playermap_east:x_mark_40
     } else if ((varplayer_1260 == 41)) {
-        IF_SETMODEL(3062 as model, comp(270, 47));
-        IF_SETMODELANIM(646 as seq, comp(270, 47));
+        IF_SETMODEL(3062 as model, comp(270, 47));  // playermap_east:x_mark_41
+        IF_SETMODELANIM(646 as seq, comp(270, 47));  // playermap_east:x_mark_41
     };
     return;
 }

@@ -1,6 +1,6 @@
 //
 function script3870(int0: number, int1: number, int2: number, int3: number, int4: number, string0: string): [number, number] {
-    var int5 = comp(753, 34);
+    var int5 = comp(753, 34);  // bslay_boss_info:boss_req_build_layer
     if ((int0 == 0)) {
         var string0 = strconcat(string0, "<br><br>You do not meet this requirement.");
     } else if ((int0 == -1)) {

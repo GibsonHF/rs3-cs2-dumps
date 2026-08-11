@@ -13,7 +13,7 @@ function script13159(int0: number): void {
     var int10 = 0;
     if ((int0 == 28519)) {
         varclient_5939 = (INV_SIZE(675 as inv) - INV_FREESPACE(675 as inv));
-        if ((IF_FIND(comp(1843, 183)) == 1)) {
+        if ((IF_FIND(comp(1843, 183)) == 1)) {  // mtxmgt_store:items_layer
             string0 = cc_getparam(5441);
             int1 = cc_getparam(6362);
             int2 = cc_getparam(6364);

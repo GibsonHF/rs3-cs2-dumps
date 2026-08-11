@@ -15,7 +15,7 @@ function script16063(int0: number, int1: number): void {
         CC_SETPOSITION(((MODULO(int2, int6) * (36 + int5)) + int5), (((int2 / int6) * (32 + int5)) + int5), 0, 0);
         CC_SETONMOUSEREPEAT(callback(script9564, int7, -2147483645, CC_GETID()));
         if ((int7 == varplayer_10181)) {
-            IF_SETPOSITION((CC_GETX() - 2), (CC_GETY() - 2), 0, 0, comp(863, 0));
+            IF_SETPOSITION((CC_GETX() - 2), (CC_GETY() - 2), 0, 0, comp(863, 0));  // egwd_wen_boss_loot:most_recent_highlight
         };
         int2 = (int2 + 1);
         int7 = INV_GETOBJ(906 as inv, int2);

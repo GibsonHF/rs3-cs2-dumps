@@ -1,6 +1,6 @@
 //
 function script3422(): void {
-    IF_SETSCROLLSIZE(IF_GETWIDTH(comp(60, 73)), IF_GETHEIGHT(comp(60, 37)), comp(60, 73));
+    IF_SETSCROLLSIZE(IF_GETWIDTH(comp(60, 73) /*castlewars_trade:armour_scrolling_item_layer*/), IF_GETHEIGHT(comp(60, 37) /*castlewars_trade:armour_big_layer_to_hold_items*/), comp(60, 73) /*castlewars_trade:armour_scrolling_item_layer*/);
     script31(3932234, 3932233, 5666, 5663, 5664, 5665, 5686, 5685);
     script3425(3932200, 3932236);
     script3425(3932244, 3932240);

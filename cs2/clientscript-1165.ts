@@ -9,10 +9,10 @@ function script1165(int0: number, int1: number): void {
     if ((int1 == -1)) {
         int2 = IF_GETMODELXOF(49348648);
         int3 = IF_GETMODELYOF(49348648);
-        int4 = IF_GETMODELZOOM(comp(753, 40));
-        int5 = IF_GETMODELANGLE_X(comp(753, 40));
-        int6 = (IF_GETMODELANGLE_Y(comp(753, 40)) + 2);
-        int7 = IF_GETMODELANGLE_Z(comp(753, 40));
+        int4 = IF_GETMODELZOOM(comp(753, 40));  // bslay_boss_info:boss_model
+        int5 = IF_GETMODELANGLE_X(comp(753, 40));  // bslay_boss_info:boss_model
+        int6 = (IF_GETMODELANGLE_Y(comp(753, 40)) + 2);  // bslay_boss_info:boss_model
+        int7 = IF_GETMODELANGLE_Z(comp(753, 40));  // bslay_boss_info:boss_model
         IF_SETMODELANGLE(int2, int3, int5, int6, int7, int4, int0);
     } else if ((CC_FIND(int0, int1) == 1)) {
         int2 = CC_GETMODELXOF();

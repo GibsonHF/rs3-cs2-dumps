@@ -5,15 +5,15 @@ function script15518(): void {
     };
     var int0 = -1;
     var int1 = 0;
-    var int2 = IF_GETNEXTSUBID(comp(784, 43));
+    var int2 = IF_GETNEXTSUBID(comp(784, 43));  // fairyrings:favourite_build
     var int3 = 0;
     while ((int3 == 0)) {
-        stack(comp(784, 43));
+        stack(comp(784, 43));  // fairyrings:favourite_build
         int0 = (int0 + 1);
         if ((CC_FIND(int0) == 1)) {
             int1 = cc_getparam(885);
             if ((int1 > 0)) {
-                CC_CREATE[1](comp(784, 43), 4, int2);
+                CC_CREATE[1](comp(784, 43), 4, int2);  // fairyrings:favourite_build
                 CC_SETSIZE[1](32, 32, 0, 0);
                 CC_SETPOSITION[1](0, (CC_GETY() + ((36 - 32) / 2)), 0, 0);
                 if ((int1 == 10)) {

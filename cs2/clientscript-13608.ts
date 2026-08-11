@@ -1,9 +1,9 @@
 //
 function script13608(): void {
     script13602();
-    IF_SETHIDE(true, comp(1896, 5));
-    CC_DELETEALL(comp(1896, 4));
-    CC_CREATE(comp(1896, 4), 4, 0);
+    IF_SETHIDE(true, comp(1896, 5));  // cheevo_player_inspect_full:content_wrapper
+    CC_DELETEALL(comp(1896, 4));  // cheevo_player_inspect_full:wrapper
+    CC_CREATE(comp(1896, 4), 4, 0);  // cheevo_player_inspect_full:wrapper
     CC_SETPOSITION(0, 25, 0, 0);
     CC_SETSIZE(0, 25, 1, 1);
     CC_SETTEXT("The person you were inspecting can no longer be found");

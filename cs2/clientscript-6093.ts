@@ -1,13 +1,13 @@
 //
 function script6093(int0: number): void {
-    var int1 = comp(1265, 20);
-    var int2 = comp(1265, 24);
-    var int3 = comp(1265, 21);
-    var int4 = comp(1265, 22);
+    var int1 = comp(1265, 20);  // shop_main:list_background
+    var int2 = comp(1265, 24);  // shop_main:list_icon
+    var int3 = comp(1265, 21);  // shop_main:list_price
+    var int4 = comp(1265, 22);  // shop_main:list_currency
     if ((int0 == varplayer_305)) {
-        int1 = comp(1265, 14);
-        int2 = comp(1265, 17);
-        int3 = comp(1265, 15);
+        int1 = comp(1265, 14);  // shop_main:free_background
+        int2 = comp(1265, 17);  // shop_main:free_icon
+        int3 = comp(1265, 15);  // shop_main:free_price
         int4 = comp(-1, 65535);
     };
     var int5 = 0;

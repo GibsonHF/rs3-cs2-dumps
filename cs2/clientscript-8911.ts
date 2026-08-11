@@ -1,6 +1,6 @@
 //
 function script8911(int0: number, int1: number, int2: number): void {
-    if ((int2 == comp(517, 35))) {
+    if ((int2 == comp(517, 35))) {  // bank:bob_click
         script2293(530, int0, int1);
     } else {
         script2293(93, int0, int1);

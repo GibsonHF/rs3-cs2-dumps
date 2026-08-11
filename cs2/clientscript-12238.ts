@@ -1,6 +1,6 @@
 //
 function script12238(): void {
     script8421(112787457, 112787465, 112787458, -1, "Backpack", 21259, -1, 1, -1, -1);
-    IF_SETONINVTRANSMIT(callback(script12239, 93, 1), comp(1721, 3));
+    IF_SETONINVTRANSMIT(callback(script12239, 93, 1), comp(1721, 3));  // exchange_sets_side_v2:root
     return;
 }

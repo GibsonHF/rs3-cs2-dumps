@@ -12,22 +12,22 @@ function script10366(int0: number): number {
     var int7 = 0;
     var int8 = 0;
     var int9 = 0;
-    var int10 = (IF_GETWIDTH(comp(1524, 98)) - 10);
+    var int10 = (IF_GETWIDTH(comp(1524, 98)) - 10);  // group_parent:settings_build_area
     var int11 = 0;
-    CC_DELETEALL(comp(1524, 98));
-    CC_DELETEALL(comp(1524, 99));
+    CC_DELETEALL(comp(1524, 98));  // group_parent:settings_build_area
+    CC_DELETEALL(comp(1524, 99));  // group_parent:settings_click_area
     if ((struct_getparam(int0, 4507) == true)) {
         if ((script1432() > varplayer_4697)) {
             int9 = script10367(99876962, "Minimum combat level required to join the group.", int9);
-            IF_SETHIDE(false, comp(1524, 100));
-            IF_SETPOSITION(0, int9, 0, 0, comp(1524, 100));
+            IF_SETHIDE(false, comp(1524, 100));  // group_parent:combat_setting_area
+            IF_SETPOSITION(0, int9, 0, 0, comp(1524, 100));  // group_parent:combat_setting_area
             script10085(99876966, 99876967, 40049, MAX(3, varplayer_4697), varplayer_4698, varplayer_4721);
-            int9 = ((int9 + IF_GETHEIGHT(comp(1524, 100))) + 5);
+            int9 = ((int9 + IF_GETHEIGHT(comp(1524, 100))) + 5);  // group_parent:combat_setting_area
         } else {
-            IF_SETHIDE(true, comp(1524, 100));
+            IF_SETHIDE(true, comp(1524, 100));  // group_parent:combat_setting_area
         };
     } else {
-        IF_SETHIDE(true, comp(1524, 100));
+        IF_SETHIDE(true, comp(1524, 100));  // group_parent:combat_setting_area
     };
     if ((int2 != -1 as cs2enum)) {
         int7 = ENUM_GETOUTPUTCOUNT(int2);

@@ -1,11 +1,11 @@
 //
 function script16080(int0: number, int1: number, int2: number, int3: number): void {
     var int4 = MAX(1, int2);
-    IF_SETONTIMER(callback(), comp(485, 13));
+    IF_SETONTIMER(callback(), comp(485, 13));  // trh181_overlay:gem_layer
     var int5 = script16723(int1);
-    CC_DELETEALL(comp(485, 13));
+    CC_DELETEALL(comp(485, 13));  // trh181_overlay:gem_layer
     var string0 = `${inttostring(int2, 10)}x ${script17439(int1)}`;
-    if ((IF_FIND(comp(485, 13)) == 1)) {
+    if ((IF_FIND(comp(485, 13)) == 1)) {  // trh181_overlay:gem_layer
         script7919(0, 0, 0, 0, 1, 0, 82, 100, 0, 0, int5, 0, 0, 0, 0);
         CC_SETOP(1, "Information");
         CC_SETONOP(callback(script7774, string0, -2147483645, -1, 0));

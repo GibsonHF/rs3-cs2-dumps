@@ -1,70 +1,70 @@
 //
 function script10890(int0: number, int1: number, string0: string, string1: string, string2: string, string3: string, string4: string, string5: string, string6: string, string7: string, string8: string, string9: string, string10: string, string11: string, string12: string, string13: string, string14: string, string15: string, string16: string, string17: string, string18: string, string19: string, string20: string): void {
     var int2 = (78 + (26 * int0));
-    var int3 = MAX(209, PARAWIDTH(string0, 512, IF_GETFONTMETRICS(comp(720, 3))));
-    IF_SETTEXT(string0, comp(720, 3));
-    if ((IF_FIND(comp(720, 3)) == 1)) {
+    var int3 = MAX(209, PARAWIDTH(string0, 512, IF_GETFONTMETRICS(comp(720, 3))));  // modal_choice:title
+    IF_SETTEXT(string0, comp(720, 3));  // modal_choice:title
+    if ((IF_FIND(comp(720, 3)) == 1)) {  // modal_choice:title
         cc_setparam(6752, int1);
     };
-    IF_SETHIDE(true, comp(720, 4));
-    IF_SETHIDE(true, comp(720, 5));
-    IF_SETHIDE(true, comp(720, 6));
-    IF_SETHIDE(true, comp(720, 7));
-    IF_SETHIDE(true, comp(720, 8));
-    IF_SETHIDE(true, comp(720, 9));
-    IF_SETHIDE(true, comp(720, 10));
-    IF_SETHIDE(true, comp(720, 11));
-    IF_SETHIDE(true, comp(720, 12));
-    IF_SETHIDE(true, comp(720, 13));
-    if (((int0 >= 1) && (IF_FIND(comp(720, 14)) == 1))) {
+    IF_SETHIDE(true, comp(720, 4));  // modal_choice:option_1
+    IF_SETHIDE(true, comp(720, 5));  // modal_choice:option_2
+    IF_SETHIDE(true, comp(720, 6));  // modal_choice:option_3
+    IF_SETHIDE(true, comp(720, 7));  // modal_choice:option_4
+    IF_SETHIDE(true, comp(720, 8));  // modal_choice:option_5
+    IF_SETHIDE(true, comp(720, 9));  // modal_choice:option_6
+    IF_SETHIDE(true, comp(720, 10));  // modal_choice:option_7
+    IF_SETHIDE(true, comp(720, 11));  // modal_choice:option_8
+    IF_SETHIDE(true, comp(720, 12));  // modal_choice:option_9
+    IF_SETHIDE(true, comp(720, 13));  // modal_choice:option_10
+    if (((int0 >= 1) && (IF_FIND(comp(720, 14)) == 1))) {  // modal_choice:option_text_1
         CC_SETTEXT(`1. ${string1}`);
         int3 = MAX(int3, STRINGWIDTH(CC_GETTEXT(), CC_GETFONTMETRICS()));
-        IF_SETHIDE(false, comp(720, 4));
+        IF_SETHIDE(false, comp(720, 4));  // modal_choice:option_1
     };
-    if (((int0 >= 2) && (IF_FIND(comp(720, 21)) == 1))) {
+    if (((int0 >= 2) && (IF_FIND(comp(720, 21)) == 1))) {  // modal_choice:option_text_2
         CC_SETTEXT(`2. ${string3}`);
         int3 = MAX(int3, STRINGWIDTH(CC_GETTEXT(), CC_GETFONTMETRICS()));
-        IF_SETHIDE(false, comp(720, 5));
+        IF_SETHIDE(false, comp(720, 5));  // modal_choice:option_2
     };
-    if (((int0 >= 3) && (IF_FIND(comp(720, 24)) == 1))) {
+    if (((int0 >= 3) && (IF_FIND(comp(720, 24)) == 1))) {  // modal_choice:option_text_3
         CC_SETTEXT(`3. ${string5}`);
         int3 = MAX(int3, STRINGWIDTH(CC_GETTEXT(), CC_GETFONTMETRICS()));
-        IF_SETHIDE(false, comp(720, 6));
+        IF_SETHIDE(false, comp(720, 6));  // modal_choice:option_3
     };
-    if (((int0 >= 4) && (IF_FIND(comp(720, 27)) == 1))) {
+    if (((int0 >= 4) && (IF_FIND(comp(720, 27)) == 1))) {  // modal_choice:option_text_4
         CC_SETTEXT(`4. ${string7}`);
         int3 = MAX(int3, STRINGWIDTH(CC_GETTEXT(), CC_GETFONTMETRICS()));
-        IF_SETHIDE(false, comp(720, 7));
+        IF_SETHIDE(false, comp(720, 7));  // modal_choice:option_4
     };
-    if (((int0 >= 5) && (IF_FIND(comp(720, 30)) == 1))) {
+    if (((int0 >= 5) && (IF_FIND(comp(720, 30)) == 1))) {  // modal_choice:option_text_5
         CC_SETTEXT(`5. ${string9}`);
         int3 = MAX(int3, STRINGWIDTH(CC_GETTEXT(), CC_GETFONTMETRICS()));
-        IF_SETHIDE(false, comp(720, 8));
+        IF_SETHIDE(false, comp(720, 8));  // modal_choice:option_5
     };
-    if (((int0 >= 6) && (IF_FIND(comp(720, 33)) == 1))) {
+    if (((int0 >= 6) && (IF_FIND(comp(720, 33)) == 1))) {  // modal_choice:option_text_6
         CC_SETTEXT(`6. ${string11}`);
         int3 = MAX(int3, STRINGWIDTH(CC_GETTEXT(), CC_GETFONTMETRICS()));
-        IF_SETHIDE(false, comp(720, 9));
+        IF_SETHIDE(false, comp(720, 9));  // modal_choice:option_6
     };
-    if (((int0 >= 7) && (IF_FIND(comp(720, 36)) == 1))) {
+    if (((int0 >= 7) && (IF_FIND(comp(720, 36)) == 1))) {  // modal_choice:option_text_7
         CC_SETTEXT(`7. ${string13}`);
         int3 = MAX(int3, STRINGWIDTH(CC_GETTEXT(), CC_GETFONTMETRICS()));
-        IF_SETHIDE(false, comp(720, 10));
+        IF_SETHIDE(false, comp(720, 10));  // modal_choice:option_7
     };
-    if (((int0 >= 8) && (IF_FIND(comp(720, 39)) == 1))) {
+    if (((int0 >= 8) && (IF_FIND(comp(720, 39)) == 1))) {  // modal_choice:option_text_8
         CC_SETTEXT(`8. ${string15}`);
         int3 = MAX(int3, STRINGWIDTH(CC_GETTEXT(), CC_GETFONTMETRICS()));
-        IF_SETHIDE(false, comp(720, 11));
+        IF_SETHIDE(false, comp(720, 11));  // modal_choice:option_8
     };
-    if (((int0 >= 9) && (IF_FIND(comp(720, 42)) == 1))) {
+    if (((int0 >= 9) && (IF_FIND(comp(720, 42)) == 1))) {  // modal_choice:option_text_9
         CC_SETTEXT(`9. ${string17}`);
         int3 = MAX(int3, STRINGWIDTH(CC_GETTEXT(), CC_GETFONTMETRICS()));
-        IF_SETHIDE(false, comp(720, 12));
+        IF_SETHIDE(false, comp(720, 12));  // modal_choice:option_9
     };
-    if (((int0 >= 10) && (IF_FIND(comp(720, 45)) == 1))) {
+    if (((int0 >= 10) && (IF_FIND(comp(720, 45)) == 1))) {  // modal_choice:option_text_10
         CC_SETTEXT(`0. ${string19}`);
         int3 = MAX(int3, STRINGWIDTH(CC_GETTEXT(), CC_GETFONTMETRICS()));
-        IF_SETHIDE(false, comp(720, 13));
+        IF_SETHIDE(false, comp(720, 13));  // modal_choice:option_10
     };
     script10891(TESTBIT(int1, 1), 47185920, 47185921, 47185934);
     script10891(TESTBIT(int1, 2), 47185939, 47185940, 47185941);
@@ -77,57 +77,57 @@ function script10890(int0: number, int1: number, string0: string, string1: strin
     script10891(TESTBIT(int1, 9), 47185960, 47185961, 47185962);
     script10891(TESTBIT(int1, 10), 47185963, 47185964, 47185965);
     if ((STRING_LENGTH(string2) > 0)) {
-        IF_SETONMOUSEREPEAT(callback(script3876, string2, -2147483645, -1), comp(720, 4));
+        IF_SETONMOUSEREPEAT(callback(script3876, string2, -2147483645, -1), comp(720, 4));  // modal_choice:option_1
     } else {
-        IF_SETONMOUSEREPEAT(callback(), comp(720, 4));
+        IF_SETONMOUSEREPEAT(callback(), comp(720, 4));  // modal_choice:option_1
     };
     if ((STRING_LENGTH(string4) > 0)) {
-        IF_SETONMOUSEREPEAT(callback(script3876, string4, -2147483645, -1), comp(720, 5));
+        IF_SETONMOUSEREPEAT(callback(script3876, string4, -2147483645, -1), comp(720, 5));  // modal_choice:option_2
     } else {
-        IF_SETONMOUSEREPEAT(callback(), comp(720, 5));
+        IF_SETONMOUSEREPEAT(callback(), comp(720, 5));  // modal_choice:option_2
     };
     if ((STRING_LENGTH(string6) > 0)) {
-        IF_SETONMOUSEREPEAT(callback(script3876, string6, -2147483645, -1), comp(720, 6));
+        IF_SETONMOUSEREPEAT(callback(script3876, string6, -2147483645, -1), comp(720, 6));  // modal_choice:option_3
     } else {
-        IF_SETONMOUSEREPEAT(callback(), comp(720, 6));
+        IF_SETONMOUSEREPEAT(callback(), comp(720, 6));  // modal_choice:option_3
     };
     if ((STRING_LENGTH(string8) > 0)) {
-        IF_SETONMOUSEREPEAT(callback(script3876, string8, -2147483645, -1), comp(720, 7));
+        IF_SETONMOUSEREPEAT(callback(script3876, string8, -2147483645, -1), comp(720, 7));  // modal_choice:option_4
     } else {
-        IF_SETONMOUSEREPEAT(callback(), comp(720, 7));
+        IF_SETONMOUSEREPEAT(callback(), comp(720, 7));  // modal_choice:option_4
     };
     if ((STRING_LENGTH(string10) > 0)) {
-        IF_SETONMOUSEREPEAT(callback(script3876, string10, -2147483645, -1), comp(720, 8));
+        IF_SETONMOUSEREPEAT(callback(script3876, string10, -2147483645, -1), comp(720, 8));  // modal_choice:option_5
     } else {
-        IF_SETONMOUSEREPEAT(callback(), comp(720, 8));
+        IF_SETONMOUSEREPEAT(callback(), comp(720, 8));  // modal_choice:option_5
     };
     if ((STRING_LENGTH(string12) > 0)) {
-        IF_SETONMOUSEREPEAT(callback(script3876, string12, -2147483645, -1), comp(720, 9));
+        IF_SETONMOUSEREPEAT(callback(script3876, string12, -2147483645, -1), comp(720, 9));  // modal_choice:option_6
     } else {
-        IF_SETONMOUSEREPEAT(callback(), comp(720, 9));
+        IF_SETONMOUSEREPEAT(callback(), comp(720, 9));  // modal_choice:option_6
     };
     if ((STRING_LENGTH(string14) > 0)) {
-        IF_SETONMOUSEREPEAT(callback(script3876, string14, -2147483645, -1), comp(720, 10));
+        IF_SETONMOUSEREPEAT(callback(script3876, string14, -2147483645, -1), comp(720, 10));  // modal_choice:option_7
     } else {
-        IF_SETONMOUSEREPEAT(callback(), comp(720, 10));
+        IF_SETONMOUSEREPEAT(callback(), comp(720, 10));  // modal_choice:option_7
     };
     if ((STRING_LENGTH(string16) > 0)) {
-        IF_SETONMOUSEREPEAT(callback(script3876, string16, -2147483645, -1), comp(720, 11));
+        IF_SETONMOUSEREPEAT(callback(script3876, string16, -2147483645, -1), comp(720, 11));  // modal_choice:option_8
     } else {
-        IF_SETONMOUSEREPEAT(callback(), comp(720, 11));
+        IF_SETONMOUSEREPEAT(callback(), comp(720, 11));  // modal_choice:option_8
     };
     if ((STRING_LENGTH(string18) > 0)) {
-        IF_SETONMOUSEREPEAT(callback(script3876, string18, -2147483645, -1), comp(720, 12));
+        IF_SETONMOUSEREPEAT(callback(script3876, string18, -2147483645, -1), comp(720, 12));  // modal_choice:option_9
     } else {
-        IF_SETONMOUSEREPEAT(callback(), comp(720, 12));
+        IF_SETONMOUSEREPEAT(callback(), comp(720, 12));  // modal_choice:option_9
     };
     if ((STRING_LENGTH(string20) > 0)) {
-        IF_SETONMOUSEREPEAT(callback(script3876, string20, -2147483645, -1), comp(720, 13));
+        IF_SETONMOUSEREPEAT(callback(script3876, string20, -2147483645, -1), comp(720, 13));  // modal_choice:option_10
     } else {
-        IF_SETONMOUSEREPEAT(callback(), comp(720, 13));
+        IF_SETONMOUSEREPEAT(callback(), comp(720, 13));  // modal_choice:option_10
     };
     int3 = MIN((int3 + 36), 512);
     int3 = MAX(int3, 270);
-    IF_SETSIZE(int3, int2, 0, 0, comp(720, 2));
+    IF_SETSIZE(int3, int2, 0, 0, comp(720, 2));  // modal_choice:modal_dialog_window
     return;
 }

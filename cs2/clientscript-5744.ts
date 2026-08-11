@@ -221,14 +221,14 @@ function script5744(int0: number): void {
         int15 = (int15 + 1);
     };
     script3536("Please select a challenge first", 122355765, -1);
-    IF_SETHIDE(true, comp(1867, 52));
-    IF_SETHIDE(false, comp(1867, 53));
-    if (((int9 - 3) > IF_GETHEIGHT(comp(1867, 7)))) {
-        IF_SETSCROLLSIZE(0, int9, comp(1867, 7));
-        IF_SETSCROLLPOS(0, 0, comp(1867, 7));
+    IF_SETHIDE(true, comp(1867, 52));  // sworld_start:challenge_start_button_active_layer
+    IF_SETHIDE(false, comp(1867, 53));  // sworld_start:challenge_start_button_disabled_layer
+    if (((int9 - 3) > IF_GETHEIGHT(comp(1867, 7)))) {  // sworld_start:sworld_select_challenge_world_list
+        IF_SETSCROLLSIZE(0, int9, comp(1867, 7));  // sworld_start:sworld_select_challenge_world_list
+        IF_SETSCROLLPOS(0, 0, comp(1867, 7));  // sworld_start:sworld_select_challenge_world_list
     } else {
-        IF_SETSCROLLSIZE(0, 0, comp(1867, 7));
-        IF_SETSCROLLPOS(0, 0, comp(1867, 7));
+        IF_SETSCROLLSIZE(0, 0, comp(1867, 7));  // sworld_start:sworld_select_challenge_world_list
+        IF_SETSCROLLPOS(0, 0, comp(1867, 7));  // sworld_start:sworld_select_challenge_world_list
     };
     script7791(122355715, 122355719);
     return;

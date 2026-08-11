@@ -1,7 +1,7 @@
 //
 function script8157(int0: number): void {
     if ((script6354(93847556) == 1)) {
-        if ((IF_FIND(comp(1432, 4)) == 1)) {
+        if ((IF_FIND(comp(1432, 4)) == 1)) {  // toplevel_v2_parents_quickchildren:quickchild
             script8153(cc_getparam(3642), cc_getparam(3643));
         };
         script8808();

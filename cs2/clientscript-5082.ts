@@ -7,24 +7,24 @@ function script5082(int0: number): void {
         if ((CC_FIND[1](int0, ((varclient_160 * 10) + 2)) == 1)) {
             int1 = ((script4405() + CC_GETHEIGHT[1]()) - script3366(73007126));
             if ((int1 >= IF_GETHEIGHT(int0))) {
-                IF_SETHIDE(true, comp(1114, 23));
+                IF_SETHIDE(true, comp(1114, 23));  // clan_field_setup:dropdown
             } else if ((int1 <= 0)) {
-                IF_SETHIDE(true, comp(1114, 23));
+                IF_SETHIDE(true, comp(1114, 23));  // clan_field_setup:dropdown
             } else {
-                IF_SETHIDE(false, comp(1114, 23));
-                IF_SETPOSITION((script1815() - script3365(73007126)), int1, 0, 0, comp(1114, 23));
-                if ((IF_FIND[1](comp(1114, 23)) == 1)) {
+                IF_SETHIDE(false, comp(1114, 23));  // clan_field_setup:dropdown
+                IF_SETPOSITION((script1815() - script3365(73007126)), int1, 0, 0, comp(1114, 23));  // clan_field_setup:dropdown
+                if ((IF_FIND[1](comp(1114, 23)) == 1)) {  // clan_field_setup:dropdown
                     int3 = (cc_getparam[1](1477) + 8);
-                    int2 = MAX(MIN(int3, (IF_GETHEIGHT(comp(1114, 22)) - int1)), 0);
+                    int2 = MAX(MIN(int3, (IF_GETHEIGHT(comp(1114, 22)) - int1)), 0);  // clan_field_setup:dropdown_container
                     CC_SETSIZE[1](cc_getparam[1](1476), int2, 0, 0);
                 };
-                IF_SETONTIMER(callback(script5083, -2147483645, varclient_160, (CLIENTCLOCK() + 2)), comp(1114, 23));
+                IF_SETONTIMER(callback(script5083, -2147483645, varclient_160, (CLIENTCLOCK() + 2)), comp(1114, 23));  // clan_field_setup:dropdown
             };
         } else {
-            IF_SETHIDE(true, comp(1114, 23));
+            IF_SETHIDE(true, comp(1114, 23));  // clan_field_setup:dropdown
         };
     } else {
-        IF_SETHIDE(true, comp(1114, 23));
+        IF_SETHIDE(true, comp(1114, 23));  // clan_field_setup:dropdown
     };
     return;
 }

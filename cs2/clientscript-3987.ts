@@ -5,9 +5,9 @@ function script3987(): void {
     var int2 = 0;
     var int3 = 0;
     var int4 = 0;
-    CC_DELETEALL(comp(1239, 14));
+    CC_DELETEALL(comp(1239, 14));  // mtxfair17_chinchompa:grid_layer
     while ((int1 <= 30)) {
-        CC_CREATE(comp(1239, 14), 5, int0);
+        CC_CREATE(comp(1239, 14), 5, int0);  // mtxfair17_chinchompa:grid_layer
         CC_SETSIZE(50, 50, 0, 0);
         CC_SETPOSITION(int2, int3, 0, 0);
         if ((script3986(int1) == 0)) {

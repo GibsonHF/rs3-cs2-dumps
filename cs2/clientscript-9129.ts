@@ -28,7 +28,7 @@ function script9129(int0: number, int1: number, int2: number, int3: number, int4
             break;
         }
         case 9: {
-            IF_SETONVARTRANSMIT(callback(script9130, int0, int1, int2, int3, -1, 9083, 9084, 2), comp(1854, 4));
+            IF_SETONVARTRANSMIT(callback(script9130, int0, int1, int2, int3, -1, 9083, 9084, 2), comp(1854, 4));  // cheevo_tracker:progress_bar_listener
             break;
         }
         case 10: {

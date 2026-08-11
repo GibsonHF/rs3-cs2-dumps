@@ -55,7 +55,7 @@ function script5177(int0: number, int1: number): void {
             break;
         }
     };
-    if ((CC_FIND(comp(387, 23), int2) == 1)) {
+    if ((CC_FIND(comp(387, 23), int2) == 1)) {  // chat_v3_choice:choice_buttons_click
         CC_RESUME_PAUSEBUTTON();
     };
     return;

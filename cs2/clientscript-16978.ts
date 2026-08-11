@@ -47,7 +47,7 @@ function script16978(int0: number): void {
                 IF_SETHIDE(true, script16998(int0));
             };
             if ((int0 == 3)) {
-                IF_SETTEXT("", comp(1068, 95));
+                IF_SETTEXT("", comp(1068, 95));  // trh188:ingredient_3_amount
             };
             IF_SETHIDE(true, script16993(int0));
             IF_SETGRAPHIC(22111 as graphic, script16995(int0));

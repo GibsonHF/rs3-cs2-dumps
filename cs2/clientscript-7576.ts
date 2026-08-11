@@ -1,5 +1,5 @@
 //
 function script7576(): void {
-    IF_SETONTIMER(callback(script7577), comp(163, 2));
+    IF_SETONTIMER(callback(script7577), comp(163, 2));  // tsd_sliske_entrance:base
     return;
 }

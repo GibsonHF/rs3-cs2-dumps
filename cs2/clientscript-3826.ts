@@ -28,7 +28,7 @@ function script3826(int0: number, int1: number): void {
     } else {
         return;
     };
-    if (((int3 != comp(-1, 65535)) && (IF_GETHIDE(comp(276, 27)) == false))) {
+    if (((int3 != comp(-1, 65535)) && (IF_GETHIDE(comp(276, 27)) == false))) {  // toplevel_v2_mobile:chat_panel
         IF_SETHIDE(false, int3);
         script72(int3, int2, int7);
         IF_SETONSCROLLWHEEL(callback(script36, int3, int2, -2147483646), int2);

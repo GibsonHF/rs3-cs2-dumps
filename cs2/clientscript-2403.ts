@@ -12,16 +12,16 @@ function script2403(int0: number): void {
         script8844(1, 23, 8, 126353492, -1);
         script8844(1, 24, 8, 126353500, -1);
     } else {
-        IF_SETOPKEY(1, 0, 0, comp(1928, 22));
-        IF_SETOPKEY(1, 0, 0, comp(1928, 28));
-        IF_SETOPKEY(1, 0, 0, comp(1928, 60));
-        IF_SETOPKEY(1, 0, 0, comp(1928, 68));
-        IF_SETOPKEY(1, 0, 0, comp(1928, 76));
-        IF_SETOPKEY(1, 0, 0, comp(1928, 44));
-        IF_SETOPKEY(1, 0, 0, comp(1928, 52));
-        IF_SETOPKEY(1, 0, 0, comp(1928, 36));
-        IF_SETOPKEY(1, 0, 0, comp(1928, 84));
-        IF_SETOPKEY(1, 0, 0, comp(1928, 92));
+        IF_SETOPKEY(1, 0, 0, comp(1928, 22));  // magic_carpet:window_close_button
+        IF_SETOPKEY(1, 0, 0, comp(1928, 28));  // magic_carpet:alkharid_button_active_layer
+        IF_SETOPKEY(1, 0, 0, comp(1928, 60));  // magic_carpet:npollnivneach_button_active_layer
+        IF_SETOPKEY(1, 0, 0, comp(1928, 68));  // magic_carpet:spollnivneach_button_active_layer
+        IF_SETOPKEY(1, 0, 0, comp(1928, 76));  // magic_carpet:nardah_button_active_layer
+        IF_SETOPKEY(1, 0, 0, comp(1928, 44));  // magic_carpet:bedabin_button_active_layer
+        IF_SETOPKEY(1, 0, 0, comp(1928, 52));  // magic_carpet:uzer_button_active_layer
+        IF_SETOPKEY(1, 0, 0, comp(1928, 36));  // magic_carpet:monkey_button_active_layer
+        IF_SETOPKEY(1, 0, 0, comp(1928, 84));  // magic_carpet:menaphos_button_active_layer
+        IF_SETOPKEY(1, 0, 0, comp(1928, 92));  // magic_carpet:sophanem_button_active_layer
     };
     return;
 }

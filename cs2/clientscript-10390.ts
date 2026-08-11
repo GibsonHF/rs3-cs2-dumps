@@ -1,12 +1,12 @@
 //
 function script10390(int0: number, int1: number): number {
-    CC_DELETEALL(comp(1524, 87));
+    CC_DELETEALL(comp(1524, 87));  // group_parent:req_build_area
     if ((int0 == -1)) {
         return 0;
     };
     var int2 = 0;
     var int3 = 0;
-    var int4 = IF_GETWIDTH(comp(1524, 87));
+    var int4 = IF_GETWIDTH(comp(1524, 87));  // group_parent:req_build_area
     var int5 = 40;
     var int6 = 0;
     var int7 = 0;

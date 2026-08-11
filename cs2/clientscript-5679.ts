@@ -98,11 +98,11 @@ function script5679(int0: number): void {
         printmessage("You don't have enough rose petals to unlock that reward.");
         return;
     };
-    IF_SETGRAPHIC(int2, comp(1584, 159));
+    IF_SETGRAPHIC(int2, comp(1584, 159));  // trh44_valentines15_shop:popup_icon
     var int4 = enum_getvalue(0, 0, 9662 as cs2enum, int1);
     var string0 = enum_getvalue(0, 36, 9663 as cs2enum, int1);
-    IF_SETTEXT(`Are you sure you want to unlock ${string0} for ${TOSTRING_LOCALISED(int4, 1)} rose petals?`, comp(1584, 178));
-    IF_SETHIDE(false, comp(1584, 60));
-    IF_SETHIDE(false, comp(1584, 12));
+    IF_SETTEXT(`Are you sure you want to unlock ${string0} for ${TOSTRING_LOCALISED(int4, 1)} rose petals?`, comp(1584, 178));  // trh44_valentines15_shop:popup_description
+    IF_SETHIDE(false, comp(1584, 60));  // trh44_valentines15_shop:darkness
+    IF_SETHIDE(false, comp(1584, 12));  // trh44_valentines15_shop:popup_layer
     return;
 }

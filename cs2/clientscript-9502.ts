@@ -6,82 +6,82 @@ function script9502(int0: number, int1: number): void {
     switch (int1) {
         case 1: {
             int4 = 18993 as graphic;
-            int2 = comp(749, 61);
+            int2 = comp(749, 61);  // 6awe2_hud:armadyl_icon_1
             break;
         }
         case 2: {
             int4 = 18997 as graphic;
-            int2 = comp(749, 61);
+            int2 = comp(749, 61);  // 6awe2_hud:armadyl_icon_1
             break;
         }
         case 3: {
             int4 = 18996 as graphic;
-            int2 = comp(749, 60);
+            int2 = comp(749, 60);  // 6awe2_hud:armadyl_icon_2
             break;
         }
         case 4: {
             int4 = 18998 as graphic;
-            int2 = comp(749, 60);
+            int2 = comp(749, 60);  // 6awe2_hud:armadyl_icon_2
             break;
         }
         case 5: {
             int4 = 19000 as graphic;
-            int2 = comp(749, 59);
+            int2 = comp(749, 59);  // 6awe2_hud:armadyl_icon_3
             break;
         }
         case 6: {
             int4 = 18999 as graphic;
-            int2 = comp(749, 59);
+            int2 = comp(749, 59);  // 6awe2_hud:armadyl_icon_3
             break;
         }
         case 7: {
             int4 = 18994 as graphic;
-            int2 = comp(749, 58);
+            int2 = comp(749, 58);  // 6awe2_hud:armadyl_icon_4
             break;
         }
         case 8: {
             int4 = 18995 as graphic;
-            int2 = comp(749, 58);
+            int2 = comp(749, 58);  // 6awe2_hud:armadyl_icon_4
             break;
         }
         case 9: {
             int4 = 18985 as graphic;
-            int2 = comp(749, 56);
+            int2 = comp(749, 56);  // 6awe2_hud:bandos_icon_1
             break;
         }
         case 10: {
             int4 = 18989 as graphic;
-            int2 = comp(749, 56);
+            int2 = comp(749, 56);  // 6awe2_hud:bandos_icon_1
             break;
         }
         case 11: {
             int4 = 18988 as graphic;
-            int2 = comp(749, 55);
+            int2 = comp(749, 55);  // 6awe2_hud:bandos_icon_2
             break;
         }
         case 12: {
             int4 = 18990 as graphic;
-            int2 = comp(749, 55);
+            int2 = comp(749, 55);  // 6awe2_hud:bandos_icon_2
             break;
         }
         case 13: {
             int4 = 18992 as graphic;
-            int2 = comp(749, 54);
+            int2 = comp(749, 54);  // 6awe2_hud:bandos_icon_3
             break;
         }
         case 14: {
             int4 = 18991 as graphic;
-            int2 = comp(749, 54);
+            int2 = comp(749, 54);  // 6awe2_hud:bandos_icon_3
             break;
         }
         case 15: {
             int4 = 18986 as graphic;
-            int2 = comp(749, 53);
+            int2 = comp(749, 53);  // 6awe2_hud:bandos_icon_4
             break;
         }
         case 16: {
             int4 = 18987 as graphic;
-            int2 = comp(749, 53);
+            int2 = comp(749, 53);  // 6awe2_hud:bandos_icon_4
             break;
         }
     };

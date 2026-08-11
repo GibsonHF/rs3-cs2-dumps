@@ -13,9 +13,9 @@ function script1237(int0: number, int1: number): void {
     var int8 = 0;
     var int9 = 0;
     if ((int1 != 37672)) {
-        int6 = comp(1458, 44);
+        int6 = comp(1458, 44);  // toplevel_v2_prayer:prayer_header_icon
         if ((int1 == 37671)) {
-            int6 = comp(1457, 53);
+            int6 = comp(1457, 53);  // toplevel_v2_parent_suboverlay_prayer:prayer_header_icon
         };
         int3 = script11994(int2, int0);
         if ((IF_FIND(struct_getparam(int1, 8150)) == 1)) {

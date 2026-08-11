@@ -8,7 +8,7 @@ function script12002(int0: number, int1: number, int2: number): void {
     if ((int2 == 1)) {
         int3 = 42;
     };
-    if ((struct_getparam(int0, 8125) == comp(1890, 0))) {
+    if ((struct_getparam(int0, 8125) == comp(1890, 0))) {  // prayer_quick_preset_interface:main_layer
         int3 = 0;
     };
     CC_DELETEALL(struct_getparam(int0, 8130));

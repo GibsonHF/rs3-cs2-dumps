@@ -402,7 +402,7 @@ function script12885(int0: number): void {
                 };
             };
         } else {
-            CC_CREATE(comp(1802, 172), 4, IF_GETNEXTSUBID(comp(1802, 172)));
+            CC_CREATE(comp(1802, 172), 4, IF_GETNEXTSUBID(comp(1802, 172)));  // timed_event:information_layer
             CC_SETTEXTFONT(58 as fontmetrics);
             CC_SETCOLOUR(16777215);
             CC_SETTEXTALIGN(1, 1, 0);
@@ -411,7 +411,7 @@ function script12885(int0: number): void {
             CC_SETTEXT("There is no information for this event.");
         };
     } else {
-        CC_CREATE(comp(1802, 172), 4, IF_GETNEXTSUBID(comp(1802, 172)));
+        CC_CREATE(comp(1802, 172), 4, IF_GETNEXTSUBID(comp(1802, 172)));  // timed_event:information_layer
         CC_SETTEXTFONT(58 as fontmetrics);
         CC_SETCOLOUR(16777215);
         CC_SETTEXTALIGN(1, 1, 0);

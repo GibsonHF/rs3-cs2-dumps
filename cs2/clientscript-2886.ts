@@ -3,9 +3,9 @@ function script2886(): void {
     varclient_1078 = varbitplayer_5746;
     varclient_1086 = 0;
     var int0 = CLIENTCLOCK();
-    IF_SETONTIMER(callback(script2892, 31195160, int0), comp(476, 24));
+    IF_SETONTIMER(callback(script2892, 31195160, int0), comp(476, 24));  // sfa:initial
     SOUND_SYNTH(31902, 1, 0);
-    IF_SETONRESIZE(callback(script2887), comp(476, 0));
+    IF_SETONRESIZE(callback(script2887), comp(476, 0));  // sfa:content_layer
     script2888();
     return;
 }

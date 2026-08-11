@@ -1,16 +1,16 @@
 //
 function script59(int0: number): void {
-    var int1 = comp(17, 4);
-    var int2 = comp(17, 3);
-    var int3 = comp(17, 2);
-    var int4 = comp(17, 5);
-    var int5 = comp(17, 1);
+    var int1 = comp(17, 4);  // tuska_hub_overlay:armadyl_progress_bar
+    var int2 = comp(17, 3);  // tuska_hub_overlay:godless_progress_bar
+    var int3 = comp(17, 2);  // tuska_hub_overlay:saradomin_progress_bar
+    var int4 = comp(17, 5);  // tuska_hub_overlay:zamorak_progress_bar
+    var int5 = comp(17, 1);  // tuska_hub_overlay:main_progress_bar
     if ((int0 == 0)) {
-        int1 = comp(1630, 213);
-        int2 = comp(1630, 211);
-        int3 = comp(1630, 209);
-        int4 = comp(1630, 215);
-        int5 = comp(1630, 208);
+        int1 = comp(1630, 213);  // tuska_world_event_info:armadyl_progress_bar
+        int2 = comp(1630, 211);  // tuska_world_event_info:godless_progress_bar
+        int3 = comp(1630, 209);  // tuska_world_event_info:saradomin_progress_bar
+        int4 = comp(1630, 215);  // tuska_world_event_info:zamorak_progress_bar
+        int5 = comp(1630, 208);  // tuska_world_event_info:main_progress_bar
     };
     var int6 = SCALE(varclient_4929, 100, 87);
     var int7 = SCALE(varclient_4931, 100, 87);

@@ -36,7 +36,7 @@ function script2339(): void {
     SPLINE_ADDPOINT(1, 12, MOVECOORD(int4, 32, 0, 42), int2, MOVECOORD(int4, 32, 0, 43), int2, 0);
     SPLINE_ADDPOINT(0, 13, MOVECOORD(int4, 47, 0, 40), 778, MOVECOORD(int4, 47, 0, 46), 778, 0);
     SPLINE_ADDPOINT(1, 13, MOVECOORD(int4, 31, 0, 41), int2, MOVECOORD(int4, 28, 0, 41), int2, 0);
-    IF_SETONCAMFINISHED(callback(script2344), comp(558, 0));
+    IF_SETONCAMFINISHED(callback(script2344), comp(558, 0));  // mah1_tutorialsplines:controller
     CAM_MOVEALONG(0, varclient_770, 500, 900, 1, varclient_770);
     return;
 }

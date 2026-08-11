@@ -1,11 +1,11 @@
 //
 function script11661(int0: number, int1: number): void {
-    IF_SETHIDE(true, comp(1562, 10));
-    IF_SETHIDE(true, comp(1562, 11));
-    IF_SETHIDE(true, comp(1562, 12));
-    IF_SETHIDE(true, comp(1562, 13));
-    CC_DELETEALL(comp(1562, 140));
-    var int2 = comp(1562, 8);
+    IF_SETHIDE(true, comp(1562, 10));  // mtxmgt_purchase:confirm_runecoins_button_layer
+    IF_SETHIDE(true, comp(1562, 11));  // mtxmgt_purchase:confirm_loyaltypoints_button_layer
+    IF_SETHIDE(true, comp(1562, 12));  // mtxmgt_purchase:confirm_bonds_button_layer
+    IF_SETHIDE(true, comp(1562, 13));  // mtxmgt_purchase:confirm_bonds_to_runecoins_button_layer
+    CC_DELETEALL(comp(1562, 140));  // mtxmgt_purchase:confirm_bonds_to_runecoins_button_active_layer
+    var int2 = comp(1562, 8);  // mtxmgt_purchase:confirm_info_layer
     CC_DELETEALL(int2);
     if ((int0 == -1)) {
         if ((int1 == 1)) {
@@ -39,7 +39,7 @@ function script11661(int0: number, int1: number): void {
     switch (int0) {
         case 0: {
             if ((int4 > -1)) {
-                IF_SETHIDE(false, comp(1562, 10));
+                IF_SETHIDE(false, comp(1562, 10));  // mtxmgt_purchase:confirm_runecoins_button_layer
                 if ((int4 == 0)) {
                     string1 = "You wish to claim";
                     string4 = "Free";
@@ -86,7 +86,7 @@ function script11661(int0: number, int1: number): void {
         }
         case 1: {
             if ((int5 > -1)) {
-                IF_SETHIDE(false, comp(1562, 11));
+                IF_SETHIDE(false, comp(1562, 11));  // mtxmgt_purchase:confirm_loyaltypoints_button_layer
                 if ((int5 == 0)) {
                     string1 = "You wish to claim";
                     string4 = "Free";
@@ -100,7 +100,7 @@ function script11661(int0: number, int1: number): void {
         }
         case 2: {
             if ((int6 > -1)) {
-                IF_SETHIDE(false, comp(1562, 12));
+                IF_SETHIDE(false, comp(1562, 12));  // mtxmgt_purchase:confirm_bonds_button_layer
                 if ((int6 == 1)) {
                     string4 = `${TOSTRING_LOCALISED(int6, 1)} Bond`;
                 } else {
@@ -136,15 +136,15 @@ function script11661(int0: number, int1: number): void {
                     string4 = `${TOSTRING_LOCALISED(int6, 1)} Bonds`;
                 };
                 while ((int10 < int6)) {
-                    CC_CREATE(comp(1562, 140), 5, int10);
+                    CC_CREATE(comp(1562, 140), 5, int10);  // mtxmgt_purchase:confirm_bonds_to_runecoins_button_active_layer
                     int10 = (int10 + 1);
                 };
-                CC_CREATE(comp(1562, 140), 5, int10);
+                CC_CREATE(comp(1562, 140), 5, int10);  // mtxmgt_purchase:confirm_bonds_to_runecoins_button_active_layer
                 CC_SETSIZE(0, 0, 1, 1);
                 CC_SETPOSITION(0, 0, 0, 0);
                 CC_SETOP(1, "Select");
                 CC_SETONOP(callback(script11660, 1, 2));
-                IF_SETHIDE(false, comp(1562, 13));
+                IF_SETHIDE(false, comp(1562, 13));  // mtxmgt_purchase:confirm_bonds_to_runecoins_button_layer
             };
             break;
         }

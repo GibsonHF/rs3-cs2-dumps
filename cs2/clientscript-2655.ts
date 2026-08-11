@@ -1,10 +1,10 @@
 //
 function script2655(int0: number, int1: number): void {
     if ((int0 <= 11)) {
-        IF_SETSCROLLSIZE(404, 215, comp(868, 5));
+        IF_SETSCROLLSIZE(404, 215, comp(868, 5));  // generaljournal_scroll:qj_layer1
         script72(56885254, 56885253, 0);
     } else {
-        IF_SETSCROLLSIZE(404, (int0 * 20), comp(868, 5));
+        IF_SETSCROLLSIZE(404, (int0 * 20), comp(868, 5));  // generaljournal_scroll:qj_layer1
         if ((int1 == 1)) {
             script72(56885254, 56885253, 0);
         } else {

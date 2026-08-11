@@ -1,5 +1,5 @@
 //
 function script6055(): void {
-    IF_SETTEXT(`Current keys: ${inttostring(script6950(), 10)}`, comp(219, 36));
+    IF_SETTEXT(`Current keys: ${inttostring(script6950(), 10)}`, comp(219, 36));  // bonds_gratz:mtxgame_text_02
     return;
 }

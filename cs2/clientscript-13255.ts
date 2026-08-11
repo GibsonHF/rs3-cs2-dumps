@@ -27,6 +27,6 @@ function script13255(int0: number, int1: number): number {
         }
     };
     IF_SETHIDE(false, int1);
-    IF_SETHIDE(true, comp(1798, 136));
+    IF_SETHIDE(true, comp(1798, 136));  // elrc:resources_text
     return -1;
 }

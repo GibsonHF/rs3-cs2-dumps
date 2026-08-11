@@ -18,7 +18,7 @@ function script6815(int0: number, int1: number): void {
     if ((int0 == -1)) {
         return;
     };
-    if ((int8 == comp(1351, 0))) {
+    if ((int8 == comp(1351, 0))) {  // ozan1_scales_puzzle:take_weight
         return;
     };
     if ((((int2 == 13522 as graphic) && (int4 == -1)) && (script6818(int1) == 1))) {

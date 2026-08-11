@@ -7,17 +7,17 @@ function script6050(int0: number, int1: number, int2: number, int3: number): voi
     var int8 = (int6 + int7);
     var int9 = 1;
     var int10 = 0;
-    var int11 = comp(640, 13);
-    var int12 = comp(640, 15);
-    var int13 = comp(640, 14);
-    var int14 = comp(640, 7);
-    var int15 = comp(640, 11);
-    if ((IF_GETLAYER(int0) == comp(1616, 1))) {
-        int11 = comp(1616, 11);
-        int12 = comp(1616, 13);
-        int13 = comp(1616, 12);
-        int14 = comp(1616, 5);
-        int15 = comp(1616, 0);
+    var int11 = comp(640, 13);  // combatv2_actionbar:fullscreen_threshold_highlight
+    var int12 = comp(640, 15);  // combatv2_actionbar:fullscreen_ultimate_highlight_left
+    var int13 = comp(640, 14);  // combatv2_actionbar:fullscreen_ultimate_highlight_right
+    var int14 = comp(640, 7);  // combatv2_actionbar:fullscreen_adrenaline_bar_red
+    var int15 = comp(640, 11);  // combatv2_actionbar:fullscreen_adrenaline_bar_graphic
+    if ((IF_GETLAYER(int0) == comp(1616, 1))) {  // combatv2_adrenaline:fullscreen_border_layer
+        int11 = comp(1616, 11);  // combatv2_adrenaline:fullscreen_threshold_highlight
+        int12 = comp(1616, 13);  // combatv2_adrenaline:fullscreen_ultimate_highlight_left
+        int13 = comp(1616, 12);  // combatv2_adrenaline:fullscreen_ultimate_highlight_right
+        int14 = comp(1616, 5);  // combatv2_adrenaline:fullscreen_adrenaline_bar_red
+        int15 = comp(1616, 0);  // combatv2_adrenaline:fullscreen_adrenaline_bar_graphic
     };
     if ((varplayer_679 >= 500)) {
         if ((int8 >= 50)) {

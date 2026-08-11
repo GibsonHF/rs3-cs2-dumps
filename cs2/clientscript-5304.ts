@@ -1,6 +1,6 @@
 //
 function script5304(int0: number): void {
-    if ((int0 == comp(824, 50))) {
+    if ((int0 == comp(824, 50))) {  // clan_keep_theatre_spotlight:spot_colour_selected_1
         switch (varbitplayer_6360) {
             case 0: {
                 IF_SETCOLOUR(16777215, int0);
@@ -27,7 +27,7 @@ function script5304(int0: number): void {
                 break;
             }
         };
-    } else if ((int0 == comp(824, 120))) {
+    } else if ((int0 == comp(824, 120))) {  // clan_keep_theatre_spotlight:spot_colour_selected_2
         switch (varbitplayer_6361) {
             case 0: {
                 IF_SETCOLOUR(16777215, int0);
@@ -54,7 +54,7 @@ function script5304(int0: number): void {
                 break;
             }
         };
-    } else if ((int0 == comp(824, 173))) {
+    } else if ((int0 == comp(824, 173))) {  // clan_keep_theatre_spotlight:spot_colour_selected_3
         switch (varbitplayer_6362) {
             case 0: {
                 IF_SETCOLOUR(16777215, int0);
@@ -81,7 +81,7 @@ function script5304(int0: number): void {
                 break;
             }
         };
-    } else if ((int0 == comp(824, 210))) {
+    } else if ((int0 == comp(824, 210))) {  // clan_keep_theatre_spotlight:spot_colour_selected_4
         switch (varbitplayer_6363) {
             case 0: {
                 IF_SETCOLOUR(16777215, int0);

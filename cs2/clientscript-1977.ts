@@ -100,9 +100,9 @@ function script1977(int0: number, int1: number): void {
     var int3 = MIN(500, MAX(30, (PARAHEIGHT(string0, IF_GETWIDTH(int1), IF_GETFONTMETRICS(int1)) * 15)));
     int3 = (int3 + 85);
     if ((int2 == 1)) {
-        IF_SETHIDE(true, comp(1036, 14));
+        IF_SETHIDE(true, comp(1036, 14));  // town_tutorial:next_arrow
     } else {
-        IF_SETHIDE(false, comp(1036, 14));
+        IF_SETHIDE(false, comp(1036, 14));  // town_tutorial:next_arrow
     };
     IF_SETSIZE(IF_GETWIDTH(int0), int3, 0, 0, int0);
     IF_SETTEXT(string0, int1);

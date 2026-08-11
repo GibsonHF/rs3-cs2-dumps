@@ -9,10 +9,10 @@ function script871(): void {
     var int5 = (varclient_111 * int4);
     int5 = (int5 + 512);
     int5 = (2048 - int5);
-    IF_SETMODELANGLE(0, 0, 0, 0, int5, 388, comp(717, 4));
+    IF_SETMODELANGLE(0, 0, 0, 0, int5, 388, comp(717, 4));  // easter08_incubator_side:demo_pointer
     script896();
     var int6 = (enum_getvalue(0, 0, 1422 as cs2enum, varbitplayer_14321) * (1024 / int0));
     int6 = (int6 + 512);
-    IF_SETMODELANGLE(0, 0, 0, 0, int6, 365, comp(717, 3));
+    IF_SETMODELANGLE(0, 0, 0, 0, int6, 365, comp(717, 3));  // easter08_incubator_side:temperature_target
     return;
 }

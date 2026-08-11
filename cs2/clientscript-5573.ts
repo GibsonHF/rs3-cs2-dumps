@@ -7,66 +7,66 @@ function script5573(int0: number): void {
     switch (int0) {
         case 0: {
             int1 = varclient_1735;
-            int2 = comp(1180, 7);
-            int3 = comp(1180, 86);
+            int2 = comp(1180, 7);  // rden2_overlay:event_layer_0
+            int3 = comp(1180, 86);  // rden2_overlay:event_bg_0
             break;
         }
         case 1: {
             int1 = varclient_1736;
-            int2 = comp(1180, 8);
-            int3 = comp(1180, 97);
+            int2 = comp(1180, 8);  // rden2_overlay:event_layer_1
+            int3 = comp(1180, 97);  // rden2_overlay:event_bg_1
             int4 = -1;
             break;
         }
         case 2: {
             int1 = varclient_1737;
-            int2 = comp(1180, 12);
-            int3 = comp(1180, 108);
+            int2 = comp(1180, 12);  // rden2_overlay:event_layer_2
+            int3 = comp(1180, 108);  // rden2_overlay:event_bg_2
             break;
         }
         case 3: {
             int1 = varclient_1738;
-            int2 = comp(1180, 13);
-            int3 = comp(1180, 119);
+            int2 = comp(1180, 13);  // rden2_overlay:event_layer_3
+            int3 = comp(1180, 119);  // rden2_overlay:event_bg_3
             int4 = -1;
             break;
         }
         case 4: {
             int1 = varclient_1739;
-            int2 = comp(1180, 14);
-            int3 = comp(1180, 130);
+            int2 = comp(1180, 14);  // rden2_overlay:event_layer_4
+            int3 = comp(1180, 130);  // rden2_overlay:event_bg_4
             break;
         }
         case 5: {
             int1 = varclient_1740;
-            int2 = comp(1180, 15);
-            int3 = comp(1180, 141);
+            int2 = comp(1180, 15);  // rden2_overlay:event_layer_5
+            int3 = comp(1180, 141);  // rden2_overlay:event_bg_5
             int4 = -1;
             break;
         }
         case 6: {
             int1 = varclient_1741;
-            int2 = comp(1180, 16);
-            int3 = comp(1180, 152);
+            int2 = comp(1180, 16);  // rden2_overlay:event_layer_6
+            int3 = comp(1180, 152);  // rden2_overlay:event_bg_6
             break;
         }
         case 7: {
             int1 = varclient_1742;
-            int2 = comp(1180, 17);
-            int3 = comp(1180, 163);
+            int2 = comp(1180, 17);  // rden2_overlay:event_layer_7
+            int3 = comp(1180, 163);  // rden2_overlay:event_bg_7
             int4 = -1;
             break;
         }
         case 8: {
             int1 = varclient_1743;
-            int2 = comp(1180, 18);
-            int3 = comp(1180, 174);
+            int2 = comp(1180, 18);  // rden2_overlay:event_layer_8
+            int3 = comp(1180, 174);  // rden2_overlay:event_bg_8
             break;
         }
         case 9: {
             int1 = varclient_1744;
-            int2 = comp(1180, 19);
-            int3 = comp(1180, 185);
+            int2 = comp(1180, 19);  // rden2_overlay:event_layer_9
+            int3 = comp(1180, 185);  // rden2_overlay:event_bg_9
             int4 = -1;
             break;
         }

@@ -5,7 +5,7 @@ function script9949(int0: number, int1: number): void {
     var int4 = script10405(1003);
     var int5 = script10405(1032);
     var int6 = script10405(1033);
-    var int0 = (IF_GETHEIGHT(comp(1477, 27)) - int0);
+    var int0 = (IF_GETHEIGHT(comp(1477, 27)) - int0);  // toplevel_v2:viewport
     var int7 = 0;
     var int8 = 0;
     var int9 = 0;
@@ -33,10 +33,10 @@ function script9949(int0: number, int1: number): void {
     script8504(18, int10);
     script8390(18);
     if ((int1 == 1)) {
-        IF_SETSIZE(0, 24, 1, 1, comp(137, 3));
+        IF_SETSIZE(0, 24, 1, 1, comp(137, 3));  // chatdefault:quickchat
         script8491(18);
     };
-    var int11 = IF_GETWIDTH(comp(1477, 26));
+    var int11 = IF_GETWIDTH(comp(1477, 26));  // toplevel_v2:background_colour
     if ((int11 <= ((552 * 2) + script19630(0)))) {
         IF_SETPOSITION(0, ((int0 + int8) + int9), 0, 2, struct_getparam(int4, 3503));
         IF_SETPOSITION(0, (int0 + int9), 0, 2, struct_getparam(int5, 3503));

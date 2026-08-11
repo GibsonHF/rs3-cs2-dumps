@@ -1,9 +1,9 @@
 //
 function script7957(int0: number, int1: number, int2: number, int3: number): void {
-    if ((IF_GETHIDE(comp(1422, 34)) == true)) {
+    if ((IF_GETHIDE(comp(1422, 34)) == true)) {  // worldmap_v2_ui:overviewframe
         return;
     };
-    var int4 = comp(1422, 38);
+    var int4 = comp(1422, 38);  // worldmap_v2_ui:overview_noclientcode
     CC_DELETEALL(int4);
     var int5 = 0;
     CC_CREATE(int4, 3, int5);

@@ -1,12 +1,12 @@
 //
 function script12192(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number): void {
     script12196(0);
-    var int7 = comp(1712, 31);
+    var int7 = comp(1712, 31);  // invent_gizmo:result_feedback
     CC_DELETEALL(int7);
     var int8 = 0;
     var int9 = 0;
     var int10 = 0;
-    var int11 = (IF_GETWIDTH(comp(1712, 29)) - 24);
+    var int11 = (IF_GETWIDTH(comp(1712, 29)) - 24);  // invent_gizmo:result_feedback_layer
     var int12 = -1;
     var string0 = "null";
     if ((int0 == 0)) {
@@ -44,14 +44,14 @@ function script12192(int0: number, int1: number, int2: number, int3: number, int
     script19620(112197664, int7, int9, -1, -1, 0, 8, 8);
     if ((int6 > 0)) {
         if ((int5 > 0)) {
-            IF_SETHIDE(true, comp(1712, 43));
+            IF_SETHIDE(true, comp(1712, 43));  // invent_gizmo:repeat_button_disabled_layer
         } else {
-            IF_SETHIDE(false, comp(1712, 43));
+            IF_SETHIDE(false, comp(1712, 43));  // invent_gizmo:repeat_button_disabled_layer
         };
-        IF_SETHIDE(true, comp(1712, 60));
+        IF_SETHIDE(true, comp(1712, 60));  // invent_gizmo:restart_button_disabled_layer
     } else {
-        IF_SETHIDE(false, comp(1712, 43));
-        IF_SETHIDE(false, comp(1712, 60));
+        IF_SETHIDE(false, comp(1712, 43));  // invent_gizmo:repeat_button_disabled_layer
+        IF_SETHIDE(false, comp(1712, 60));  // invent_gizmo:restart_button_disabled_layer
     };
     int7 = 112197668;
     CC_DELETEALL(int7);

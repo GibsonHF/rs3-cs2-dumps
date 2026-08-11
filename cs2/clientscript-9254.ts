@@ -1,7 +1,7 @@
 //
 function script9254(int0: number, int1: number): void {
-    IF_SETSIZE(int0, IF_GETHEIGHT(comp(671, 11)), 0, 0, comp(671, 11));
-    IF_SETHIDE(int1, comp(671, 15));
+    IF_SETSIZE(int0, IF_GETHEIGHT(comp(671, 11)), 0, 0, comp(671, 11));  // lore_bank:mainmodal_window
+    IF_SETHIDE(int1, comp(671, 15));  // lore_bank:player_inv_holder
     var int2 = (INV_SIZE(530 as inv) - 1);
     if ((varplayer_1784 != -1 as npc)) {
         int2 = (npc_getparam(varplayer_1784, 379) - 1);
@@ -38,7 +38,7 @@ function script9254(int0: number, int1: number): void {
         script9233(43974687, 43974688, 43974685, 43974689, 93, 0, 0, (INV_SIZE(93 as inv) - 1), 1);
     };
     if ((script6431() == 1)) {
-        IF_SETPOSITION(15, 5, 2, 0, comp(671, 16));
+        IF_SETPOSITION(15, 5, 2, 0, comp(671, 16));  // lore_bank:bob_icon_layer
     };
     return;
 }

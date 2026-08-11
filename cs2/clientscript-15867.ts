@@ -1,9 +1,9 @@
 //
 function script15867(int0: number): void {
-    var int1 = comp(858, 14);
-    var int2 = comp(858, 15);
-    var int3 = comp(858, 16);
-    var int4 = comp(858, 17);
+    var int1 = comp(858, 14);  // mobile_chat_panel_settings:left_settings_build_wrapper
+    var int2 = comp(858, 15);  // mobile_chat_panel_settings:left_settings_build
+    var int3 = comp(858, 16);  // mobile_chat_panel_settings:left_settings_click
+    var int4 = comp(858, 17);  // mobile_chat_panel_settings:left_settings_scrollbar
     CC_DELETEALL(int2);
     CC_DELETEALL(int3);
     CC_DELETEALL(int4);

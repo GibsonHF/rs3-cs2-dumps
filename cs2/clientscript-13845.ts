@@ -123,7 +123,7 @@ function script13845(int0: number, int1: number, int2: number, int3: number, int
                     if ((CC_FIND[1](int1, int4) == 1)) {
                         CC_SETONDRAGCOMPLETE[1](callback(script2395, int6, -2147483645, -2147483643, -2147483642));
                         CC_SETMOUSEOVERCURSOR[1](194);
-                        CC_SETDRAGGABLE[1](comp(567, 7), -1);
+                        CC_SETDRAGGABLE[1](comp(567, 7), -1);  // toplevel_v2_ribbon_select:showing_list
                         if ((script13749() == 0)) {
                             CC_SETDRAGDEADZONE[1](5);
                             CC_SETDRAGDEADTIME[1](5);

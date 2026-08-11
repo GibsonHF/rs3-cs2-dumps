@@ -13,14 +13,14 @@ function script9330(): void {
     var int7 = 0;
     var int8 = 0;
     var int9 = 0;
-    var int10 = IF_GETWIDTH(comp(517, 199));
-    var int11 = IF_GETHEIGHT(comp(517, 199));
+    var int10 = IF_GETWIDTH(comp(517, 199));  // bank:bank_items_container
+    var int11 = IF_GETHEIGHT(comp(517, 199));  // bank:bank_items_container
     [int1, int2] = script5788();
     var int12 = int2;
     var int13 = 0;
     var string0 = "";
     while ((int12 < 1820)) {
-        if ((CC_FIND(comp(517, 201), int12) == 1)) {
+        if ((CC_FIND(comp(517, 201), int12) == 1)) {  // bank:bank_inv
             CC_SETHIDE(true);
         };
         int12 = (int12 + 1);
@@ -33,7 +33,7 @@ function script9330(): void {
         int8 = int3;
         int9 = int4;
         while ((int12 < int2)) {
-            if (((CC_FIND(comp(517, 201), int12) == 1) && (CC_FIND[1](comp(517, 217), int12) == 1))) {
+            if (((CC_FIND(comp(517, 201) /*bank:bank_inv*/, int12) == 1) && (CC_FIND[1](comp(517, 217) /*bank:bank_inv_insert*/, int12) == 1))) {
                 CC_SETPOSITION(int3, int4, 0, 0);
                 CC_SETHIDE(false);
                 CC_SETPOSITION[1]((int3 - 8), int4, 0, 0);
@@ -78,7 +78,7 @@ function script9330(): void {
             int3 = 8;
         };
     };
-    IF_SETSCROLLPOS(0, MIN(varclient_6691, int4), comp(517, 199));
+    IF_SETSCROLLPOS(0, MIN(varclient_6691, int4), comp(517, 199));  // bank:bank_items_container
     script13828(int4);
     return;
 }

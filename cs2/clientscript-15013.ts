@@ -11,7 +11,7 @@ function script15013(int0: number, int1: number, int2: number, int3: number, int
     var long6 = 0n;
     var int10 = -1;
     var int11 = -1;
-    stack(comp(707, 11));
+    stack(comp(707, 11));  // stock_favourites:search_input_border ?
     int10 = (int10 + 1);
     while ((CC_FIND(int10) == 1)) {
         int8 = cc_getparam(7221);

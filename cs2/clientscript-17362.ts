@@ -20,8 +20,8 @@ function script17362(): void {
                 break;
             }
         };
-        IF_SETGRAPHIC(int0, comp(1802, 285));
-        IF_SETSIZE(200, 364, 0, 0, comp(1802, 285));
+        IF_SETGRAPHIC(int0, comp(1802, 285));  // timed_event:variety_task_events_keyart_graphic
+        IF_SETSIZE(200, 364, 0, 0, comp(1802, 285));  // timed_event:variety_task_events_keyart_graphic
     };
     return;
 }

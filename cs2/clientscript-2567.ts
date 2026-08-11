@@ -6,8 +6,8 @@ function script2567(): void {
     var int3 = 0;
     var int4 = -1 as cs2enum;
     var int5 = 5;
-    int1 = ((IF_GETWIDTH(comp(842, 0)) - (36 * int5)) / (int5 - 1));
-    int2 = ((IF_GETHEIGHT(comp(842, 0)) - 128) / 3);
+    int1 = ((IF_GETWIDTH(comp(842, 0)) - (36 * int5)) / (int5 - 1));  // mob_rewards_quest_kit:content
+    int2 = ((IF_GETHEIGHT(comp(842, 0)) - 128) / 3);  // mob_rewards_quest_kit:content
     if ((INV_TOTAL(93 as inv, 15001 as obj) > 0)) {
         int4 = 1991 as cs2enum;
     } else if ((INV_TOTAL(93 as inv, 15002 as obj) > 0)) {
@@ -19,7 +19,7 @@ function script2567(): void {
     };
     while ((int3 == 0)) {
         if ((enum_getvalue(0, 33, int4, int0) != 1511 as obj)) {
-            CC_CREATE(comp(842, 0), 5, int0);
+            CC_CREATE(comp(842, 0), 5, int0);  // mob_rewards_quest_kit:content
             CC_SETSIZE(36, 32, 0, 0);
             CC_SETPOSITION(((36 + int1) * MODULO(int0, int5)), ((int0 / int5) * (32 + int2)), 0, 0);
             CC_SETOBJECT(enum_getvalue(0, 33, int4, int0), -1);

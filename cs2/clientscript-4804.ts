@@ -59,17 +59,17 @@ function script4804(): void {
     var int10 = script4822(varbitplayer_6981);
     if ((int8 == 1)) {
         script4846(1);
-        IF_SETGRAPHIC(-1 as graphic, comp(1258, 251));
-        IF_SETTEXT("Reset Hotspot to its default state", comp(1258, 252));
-        IF_SETTEXT("", comp(1258, 426));
-        IF_SETTEXT("", comp(1258, 427));
-        IF_SETTEXT("", comp(1258, 428));
-        IF_SETTEXT("", comp(1258, 345));
-        IF_SETTEXT("", comp(1258, 346));
-        IF_SETTEXT("", comp(1258, 347));
-        IF_SETTEXT("", comp(1258, 258));
-        IF_SETTEXT("", comp(1258, 259));
-        IF_SETTEXT("", comp(1258, 260));
+        IF_SETGRAPHIC(-1 as graphic, comp(1258, 251));  // clan_stronghold_main_decor:custom_slot_icon
+        IF_SETTEXT("Reset Hotspot to its default state", comp(1258, 252));  // clan_stronghold_main_decor:custom_slot_text
+        IF_SETTEXT("", comp(1258, 426));  // clan_stronghold_main_decor:custom_details_section_title_1_1
+        IF_SETTEXT("", comp(1258, 427));  // clan_stronghold_main_decor:custom_details_section_title_2_1
+        IF_SETTEXT("", comp(1258, 428));  // clan_stronghold_main_decor:custom_details_section_title_3_1
+        IF_SETTEXT("", comp(1258, 345));  // clan_stronghold_main_decor:custom_details_section_title_1_2
+        IF_SETTEXT("", comp(1258, 346));  // clan_stronghold_main_decor:custom_details_section_title_2_2
+        IF_SETTEXT("", comp(1258, 347));  // clan_stronghold_main_decor:custom_details_section_title_3_2
+        IF_SETTEXT("", comp(1258, 258));  // clan_stronghold_main_decor:custom_details_section_title_1_3
+        IF_SETTEXT("", comp(1258, 259));  // clan_stronghold_main_decor:custom_details_section_title_2_3
+        IF_SETTEXT("", comp(1258, 260));  // clan_stronghold_main_decor:custom_details_section_title_3_3
         script4805(1, 1);
         script4805(2, 1);
         script4805(3, 1);
@@ -81,10 +81,10 @@ function script4804(): void {
         script4805(3, 3);
     } else {
         if ((int9 != -1 as cs2enum)) {
-            IF_SETGRAPHIC(enum_getvalue(0, 23, int9, int5), comp(1258, 251));
+            IF_SETGRAPHIC(enum_getvalue(0, 23, int9, int5), comp(1258, 251));  // clan_stronghold_main_decor:custom_slot_icon
         };
         if ((int10 != -1 as cs2enum)) {
-            IF_SETTEXT(enum_getvalue(0, 36, int10, int5), comp(1258, 252));
+            IF_SETTEXT(enum_getvalue(0, 36, int10, int5), comp(1258, 252));  // clan_stronghold_main_decor:custom_slot_text
         };
         int1 = enum_getvalue(0, 26, 4043 as cs2enum, int5);
         if (((int1 == -1 as cs2enum) && (int8 == 0))) {

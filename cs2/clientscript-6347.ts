@@ -9,17 +9,17 @@ function script6347(int0: number): void {
         if ((varclient_1882 == 1)) {
             if ((PLAYERMEMBER() == false)) {
                 if ((USERDETAIL_LOBBY_PLAYAGE() > 0)) {
-                    IF_SETONTIMER(callback(script1999, 59375616, 0, int1, int2, int3, int4, int5), comp(906, 0));
+                    IF_SETONTIMER(callback(script1999, 59375616, 0, int1, int2, int3, int4, int5), comp(906, 0));  // lobbyscreen:base
                 } else {
-                    IF_SETONTIMER(callback(), comp(906, 0));
+                    IF_SETONTIMER(callback(), comp(906, 0));  // lobbyscreen:base
                     script1299();
                 };
             } else {
-                IF_SETONTIMER(callback(), comp(906, 0));
+                IF_SETONTIMER(callback(), comp(906, 0));  // lobbyscreen:base
                 script1299();
             };
         } else {
-            IF_SETONTIMER(callback(), comp(906, 0));
+            IF_SETONTIMER(callback(), comp(906, 0));  // lobbyscreen:base
             script1299();
         };
         varclient_1882 = 0;

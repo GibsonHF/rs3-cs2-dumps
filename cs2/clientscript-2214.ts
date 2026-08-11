@@ -7,13 +7,13 @@ function script2214(): void {
         if ((IF_GETX(varclient_1136) > 256)) {
             IF_SETPOSITION((IF_GETX(varclient_1136) - 1), IF_GETY(varclient_1136), 0, 0, varclient_1136);
         };
-        if ((IF_GETY(comp(932, 14)) > 70)) {
+        if ((IF_GETY(comp(932, 14)) > 70)) {  // easter10_nuts:bar
             IF_SETPOSITION(IF_GETX(varclient_1136), (IF_GETY(varclient_1136) - 2), 0, 0, varclient_1136);
-            IF_SETPOSITION(IF_GETX(comp(932, 14)), (IF_GETY(comp(932, 14)) - 2), 0, 0, comp(932, 14));
-            IF_SETONTIMER(callback(script2214), comp(932, 1));
+            IF_SETPOSITION(IF_GETX(comp(932, 14)), (IF_GETY(comp(932, 14)) - 2), 0, 0, comp(932, 14));  // easter10_nuts:bar
+            IF_SETONTIMER(callback(script2214), comp(932, 1));  // easter10_nuts:content
         } else {
             IF_SETHIDE(true, varclient_1136);
-            IF_SETONTIMER(callback(script2215), comp(932, 1));
+            IF_SETONTIMER(callback(script2215), comp(932, 1));  // easter10_nuts:content
         };
     };
     return;

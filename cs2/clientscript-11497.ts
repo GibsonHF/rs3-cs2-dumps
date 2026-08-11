@@ -46,9 +46,9 @@ function script11497(int0: number): void {
     var int25 = 0;
     var int26 = 0;
     if ((int0 == 1)) {
-        int25 = IF_GETWIDTH(comp(1588, 31));
-        int26 = PARAWIDTH("888:88:88", 1000, IF_GETFONTMETRICS(comp(1588, 38)));
-        if (((IF_FIND(comp(1588, 33)) == 1) && (IF_FIND[1](comp(1588, 39)) == 1))) {
+        int25 = IF_GETWIDTH(comp(1588, 31));  // telemetry:buttons_layer
+        int26 = PARAWIDTH("888:88:88", 1000, IF_GETFONTMETRICS(comp(1588, 38)));  // telemetry:stopwatch_time
+        if (((IF_FIND(comp(1588, 33) /*telemetry:stopwatch_layer*/) == 1) && (IF_FIND[1](comp(1588, 39) /*telemetry:add_row_button_layer*/) == 1))) {
             if ((varplayer_5884 != 1 as telemetry_interval)) {
                 CC_SETPOSITION(4, 4, 2, 2);
                 CC_SETSIZE(0, CC_GETHEIGHT(), 0, 0);
@@ -203,7 +203,7 @@ function script11497(int0: number): void {
                                         CC_SETTEXTALIGN(0, 1, 0);
                                         int18 = TELEMETRY_GET_GRID_VALUE(int5, int12, int8);
                                         int2 = script12285(int6, int13);
-                                        if (((((int0 == 1) && (int9 == 1)) && (varbitclient_2053 == 1)) && (CC_FIND[1](comp(1477, 688), int2) == 1))) {
+                                        if (((((int0 == 1) && (int9 == 1)) && (varbitclient_2053 == 1)) && (CC_FIND[1](comp(1477, 688), int2) == 1))) {  // toplevel_v2:telemetry_overlay_layer
                                             cc_setparam[1](5945, CLIENTCLOCK());
                                             CC_SETHIDE[1](false);
                                             cc_setparam[1](5848, int1);
@@ -594,16 +594,16 @@ function script11497(int0: number): void {
         script11825(int0, int25, int14, int15, int39, int40, int41, 110166020, 110166050, varclient_5074, varclient_5075);
         IF_SETONSCROLLWHEEL(callback(), int41);
         script12597(int42, int39, int40, int41);
-    } else if (((int0 == 1) && (IF_HASSUBOVERLAY(comp(1477, 343), 1588 as overlayinterface) == 1))) {
+    } else if (((int0 == 1) && (IF_HASSUBOVERLAY(comp(1477, 343), 1588 as overlayinterface) == 1))) {  // toplevel_v2:telemetry_window_content
         int39 = 104071178;
         int40 = 104071179;
         int41 = 104071170;
         int42 = 104071171;
         if ((varbitplayer_27169 == 1)) {
             script12603();
-            IF_SETOP(2, "", comp(1588, 72));
+            IF_SETOP(2, "", comp(1588, 72));  // telemetry:open_parent_button_active_layer
         } else {
-            IF_SETOP(2, "Toggle lightweight mode", comp(1588, 72));
+            IF_SETOP(2, "Toggle lightweight mode", comp(1588, 72));  // telemetry:open_parent_button_active_layer
         };
         script11825(int0, int25, int14, int15, int39, int40, int41, 104071169, 104071199, varclient_5072, varclient_5073);
         IF_SETNOCLICKTHROUGH(1, int39);
@@ -614,12 +614,12 @@ function script11497(int0: number): void {
         };
     };
     if ((varplayer_5884 == 1)) {
-        IF_SETHIDE(false, comp(1588, 33));
-        IF_SETHIDE(false, comp(1681, 43));
+        IF_SETHIDE(false, comp(1588, 33));  // telemetry:stopwatch_layer
+        IF_SETHIDE(false, comp(1681, 43));  // toplevel_v2_parent_suboverlay_telemetry:stopwatch_layer
         script11823();
     } else {
-        IF_SETHIDE(true, comp(1588, 33));
-        IF_SETHIDE(true, comp(1681, 43));
+        IF_SETHIDE(true, comp(1588, 33));  // telemetry:stopwatch_layer
+        IF_SETHIDE(true, comp(1681, 43));  // toplevel_v2_parent_suboverlay_telemetry:stopwatch_layer
     };
     if ((int0 == 1)) {
         script12646(96797360, 0);

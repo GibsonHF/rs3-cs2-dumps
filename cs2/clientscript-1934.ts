@@ -1,9 +1,9 @@
 //
 function script1934(): void {
-    if ((CC_FIND(comp(267, 57), 0) == 0)) {
+    if ((CC_FIND(comp(267, 57), 0) == 0)) {  // qps:info_panel_build
         return;
     };
     script14093(17498155, -1, 1, 0, 0, 1, 15, 2);
-    IF_SETONTIMER(callback(script1935, 15), comp(267, 59));
+    IF_SETONTIMER(callback(script1935, 15), comp(267, 59));  // qps:info_panel_close
     return;
 }

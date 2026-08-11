@@ -10,27 +10,27 @@ function script6600(): void {
     while ((int6 < 5)) {
         switch (int6) {
             case 0: {
-                int0 = comp(1326, 13);
+                int0 = comp(1326, 13);  // peng_pow_sub_overlay:assign_gun
                 int1 = varbitplayer_9416;
                 break;
             }
             case 1: {
-                int0 = comp(1326, 39);
+                int0 = comp(1326, 39);  // peng_pow_sub_overlay:assign_engine
                 int1 = varbitplayer_9417;
                 break;
             }
             case 2: {
-                int0 = comp(1326, 51);
+                int0 = comp(1326, 51);  // peng_pow_sub_overlay:assign_windows
                 int1 = varbitplayer_9418;
                 break;
             }
             case 3: {
-                int0 = comp(1326, 61);
+                int0 = comp(1326, 61);  // peng_pow_sub_overlay:assign_pump
                 int1 = varbitplayer_9419;
                 break;
             }
             case 4: {
-                int0 = comp(1326, 72);
+                int0 = comp(1326, 72);  // peng_pow_sub_overlay:assign_sonar
                 int1 = varbitplayer_9420;
                 break;
             }

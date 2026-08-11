@@ -24,7 +24,7 @@ function script407(): void {
     } else {
         string0 = inttostring(int1, 10);
     };
-    IF_SETTEXT(`Turn Time Left<br>${inttostring(int2, 10)}:${string0}`, comp(1010, 20));
-    IF_SETTEXT(`${inttostring(int2, 10)}:${string0}`, comp(1013, 24));
+    IF_SETTEXT(`Turn Time Left<br>${inttostring(int2, 10)}:${string0}`, comp(1010, 20));  // conq_side_turn:time_left_text
+    IF_SETTEXT(`${inttostring(int2, 10)}:${string0}`, comp(1013, 24));  // conq_scroll_overlay:time_left_text
     return;
 }

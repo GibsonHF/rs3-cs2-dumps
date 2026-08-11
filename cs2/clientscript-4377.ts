@@ -1,16 +1,16 @@
 //[clientscript,clan_vote_update]
 function script4377(): void {
     if ((varplayer_2081 == varclient_1499)) {
-        IF_SETTEXT("You have voted.", comp(1101, 74));
+        IF_SETTEXT("You have voted.", comp(1101, 74));  // clan_voting:vote_status
     } else {
-        IF_SETTEXT("You have not yet voted.<br>How would you like to vote?", comp(1101, 74));
+        IF_SETTEXT("You have not yet voted.<br>How would you like to vote?", comp(1101, 74));  // clan_voting:vote_status
     };
     if ((varbitplayer_8989 == 0)) {
-        IF_SETTEXT("Results of last vote:", comp(1101, 12));
+        IF_SETTEXT("Results of last vote:", comp(1101, 12));  // clan_voting:vote_time
     } else if (((varbitplayer_8992 == 1) || (varbitplayer_8992 == 0))) {
-        IF_SETTEXT("Vote open for less than a minute.", comp(1101, 12));
+        IF_SETTEXT("Vote open for less than a minute.", comp(1101, 12));  // clan_voting:vote_time
     } else {
-        IF_SETTEXT(`Vote open for less than ${inttostring(varbitplayer_8992, 10)} minutes.`, comp(1101, 12));
+        IF_SETTEXT(`Vote open for less than ${inttostring(varbitplayer_8992, 10)} minutes.`, comp(1101, 12));  // clan_voting:vote_time
     };
     var int0 = (varbitplayer_8987 + varbitplayer_8988);
     var int1 = 0;
@@ -29,8 +29,8 @@ function script4377(): void {
             };
         };
     };
-    IF_SETTEXT(inttostring(varbitplayer_8987, 10), comp(1101, 7));
-    IF_SETTEXT(inttostring(varbitplayer_8988, 10), comp(1101, 8));
+    IF_SETTEXT(inttostring(varbitplayer_8987, 10), comp(1101, 7));  // clan_voting:vote_yes_total
+    IF_SETTEXT(inttostring(varbitplayer_8988, 10), comp(1101, 8));  // clan_voting:vote_no_total
     script4542(int1, 72155187, 72155192);
     script4542(int2, 72155197, 72155202);
     return;

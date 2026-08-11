@@ -1,6 +1,6 @@
 //
 function script20243(int0: number): void {
-    if (((int0 == comp(1443, 1)) && (varbitplayer_61493 == 1))) {
+    if (((int0 == comp(1443, 1)) && (varbitplayer_61493 == 1))) {  // league_parent_relics:progress_bar
         stack(int0);
         script21082();
         return;

@@ -36,9 +36,9 @@ function script8416(): void {
         }
     };
     if ((varbitplayer_20718 != 0)) {
-        IF_SETTEXT(`<col=7592A0>${string0}: <col=FFFFFF>${inttostring(varbitplayer_20716, 10)}%`, comp(247, 10));
+        IF_SETTEXT(`<col=7592A0>${string0}: <col=FFFFFF>${inttostring(varbitplayer_20716, 10)}%`, comp(247, 10));  // oct13_therm:oct13_resource_needed_text_1
     } else {
-        IF_SETTEXT(`<col=7592A0>${string0}`, comp(247, 10));
+        IF_SETTEXT(`<col=7592A0>${string0}`, comp(247, 10));  // oct13_therm:oct13_resource_needed_text_1
     };
     return;
 }

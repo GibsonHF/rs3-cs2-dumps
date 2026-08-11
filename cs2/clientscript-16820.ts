@@ -7,9 +7,9 @@ function script16820(int0: number): void {
         script8180(1, 98);
         script8772(1);
     } else {
-        IF_SETOPKEY(1, 0, 0, comp(1046, 12));
-        IF_SETOPKEY(1, 0, 0, comp(1046, 17));
-        IF_SETOPKEY(1, 0, 0, comp(1046, 22));
+        IF_SETOPKEY(1, 0, 0, comp(1046, 12));  // quest_daughter_moia_gameplay:attack_vault_click
+        IF_SETOPKEY(1, 0, 0, comp(1046, 17));  // quest_daughter_moia_gameplay:attack_drain_click
+        IF_SETOPKEY(1, 0, 0, comp(1046, 22));  // quest_daughter_moia_gameplay:attack_blast_click
     };
     return;
 }

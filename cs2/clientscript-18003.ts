@@ -45,7 +45,7 @@ function script18003(int0: number, int1: number, int2: number, int3: number, int
         };
     };
     IF_SETHIDE(script6430(int8), int0);
-    var int10 = comp(1227, 13);
+    var int10 = comp(1227, 13);  // bp3_track_tab:reward_requirement_text
     IF_SETHIDE(int8, int10);
     IF_SETTEXT(string0, int10);
     return;

@@ -1,6 +1,6 @@
 //
 function script9340(int0: number, int1: number, int2: number): void {
-    if ((CC_FIND(comp(517, 200), int0) == 1)) {
+    if ((CC_FIND(comp(517, 200), int0) == 1)) {  // bank:tab_highlights
         CC_SETPOSITION((int1 - 4), (int2 - 2), 0, 0);
         if ((varbitplayer_22875 == 1)) {
             CC_SETCOLOUR(16763759);

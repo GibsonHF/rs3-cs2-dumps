@@ -9,6 +9,6 @@ function script20571(int0: number, int1: number, int2: number, int3: number): vo
         };
         int4 = (int4 - 1);
     };
-    IF_CALLONRESIZE(comp(1485, 35));
+    IF_CALLONRESIZE(comp(1485, 35));  // marketplace_bonus_xp_redeem:redeem
     return;
 }

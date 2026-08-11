@@ -20,84 +20,84 @@ function script12199(int0: number, int1: number, int2: number, int3: number): vo
     if ((int6 == -1 as obj)) {
         int6 = int4;
     };
-    var int7 = enum_getvalue(25, 0, 8584 as cs2enum, IF_GETFONTMETRICS(comp(1711, 7)));
-    IF_SETTEXTALIGN(0, 3, int7, comp(1711, 7));
-    IF_SETTEXT(OC_NAME(int6), comp(1711, 7));
-    IF_SETOBJECT(int6, 1, comp(1711, 6));
+    var int7 = enum_getvalue(25, 0, 8584 as cs2enum, IF_GETFONTMETRICS(comp(1711, 7)));  // invent_examine:item_name
+    IF_SETTEXTALIGN(0, 3, int7, comp(1711, 7));  // invent_examine:item_name
+    IF_SETTEXT(OC_NAME(int6), comp(1711, 7));  // invent_examine:item_name
+    IF_SETOBJECT(int6, 1, comp(1711, 6));  // invent_examine:item_icon
     var int8 = INV_GETVAR(int0, int1, 30212);
     var int9 = script12071(int8);
     var int10 = 0;
     var int11 = 0;
-    IF_SETTEXT(inttostring(int9, 10), comp(1711, 45));
-    IF_SETTEXT(TOSTRING_LOCALISED(int8, 1), comp(1711, 46));
+    IF_SETTEXT(inttostring(int9, 10), comp(1711, 45));  // invent_examine:stats_level
+    IF_SETTEXT(TOSTRING_LOCALISED(int8, 1), comp(1711, 46));  // invent_examine:stats_current_xp
     string0 = `Current XP: ${TOSTRING_LOCALISED(int8, 1)}`;
     if ((int9 < script12072())) {
         int10 = script12074((int9 + 1));
         int11 = script12074(int9);
         string0 = `${string0}<br>Next level: ${TOSTRING_LOCALISED(int10, 1)}<br>Remainder: ${TOSTRING_LOCALISED((int10 - int8), 1)}`;
-        IF_SETONMOUSEREPEAT(callback(), comp(1711, 33));
-        IF_SETHIDE(false, comp(1711, 47));
-        IF_SETHIDE(true, comp(1711, 53));
-        IF_SETSIZE(SCALE((IF_GETWIDTH(comp(1711, 47)) - 2), (int10 - int11), (int8 - int11)), 0, 0, 1, comp(1711, 51));
+        IF_SETONMOUSEREPEAT(callback(), comp(1711, 33));  // invent_examine:next_level_background
+        IF_SETHIDE(false, comp(1711, 47));  // invent_examine:stats_next_level
+        IF_SETHIDE(true, comp(1711, 53));  // invent_examine:stats_next_xp
+        IF_SETSIZE(SCALE((IF_GETWIDTH(comp(1711, 47) /*invent_examine:stats_next_level*/) - 2), (int10 - int11), (int8 - int11)), 0, 0, 1, comp(1711, 51) /*invent_examine:stats_next_level_progress*/);
     } else {
-        IF_SETTEXT("-", comp(1711, 53));
-        IF_SETHIDE(true, comp(1711, 47));
-        IF_SETHIDE(false, comp(1711, 53));
+        IF_SETTEXT("-", comp(1711, 53));  // invent_examine:stats_next_xp
+        IF_SETHIDE(true, comp(1711, 47));  // invent_examine:stats_next_level
+        IF_SETHIDE(false, comp(1711, 53));  // invent_examine:stats_next_xp
         if ((int9 < 20)) {
             string0 = `${string0}<br>You do not know how to level a weapon above level ${inttostring(script12072(), 10)}.`;
         } else {
             string0 = `${string0}<br>This item has reached the maximum level.`;
         };
     };
-    IF_SETONMOUSEREPEAT(callback(script3876, string0, -2147483645, -1), comp(1711, 33));
+    IF_SETONMOUSEREPEAT(callback(script3876, string0, -2147483645, -1), comp(1711, 33));  // invent_examine:next_level_background
     var int12 = varplayer_5991;
     if ((int3 == 0)) {
         int12 = int2;
-        IF_SETTEXT("Drain rate:<br>This item", comp(1711, 19));
+        IF_SETTEXT("Drain rate:<br>This item", comp(1711, 19));  // invent_examine:current_equipment_title
         if ((int5 == 1)) {
             string0 = "This section refers to drain rates when using this item for skilling.";
         } else {
             string0 = "This section refers to drain rates when using this item alone.";
         };
     } else {
-        IF_SETTEXT("Drain rate:<br>Equipped items", comp(1711, 19));
+        IF_SETTEXT("Drain rate:<br>Equipped items", comp(1711, 19));  // invent_examine:current_equipment_title
         string0 = "This section refers to all currently equipped augmented equipment.";
     };
-    IF_SETONMOUSEREPEAT(callback(script3876, string0, -2147483645, -1), comp(1711, 19));
+    IF_SETONMOUSEREPEAT(callback(script3876, string0, -2147483645, -1), comp(1711, 19));  // invent_examine:current_equipment_title
     if ((item_getparam(int4, 5772) == 1)) {
-        IF_SETTEXT("Charges used:", comp(1711, 36));
-        IF_SETTEXT(TOSTRING_LOCALISED(script670(int0, int1, int4), 1), comp(1711, 37));
-        IF_SETTEXT(TOSTRING_LOCALISED(item_getparam(int4, 3385), 1), comp(1711, 41));
-        IF_SETTEXT("n/a", comp(1711, 28));
-        IF_SETHIDE(false, comp(1711, 38));
+        IF_SETTEXT("Charges used:", comp(1711, 36));  // invent_examine:charge_drain
+        IF_SETTEXT(TOSTRING_LOCALISED(script670(int0, int1, int4), 1), comp(1711, 37));  // invent_examine:stats_charge_drain
+        IF_SETTEXT(TOSTRING_LOCALISED(item_getparam(int4, 3385), 1), comp(1711, 41));  // invent_examine:max_charge_value
+        IF_SETTEXT("n/a", comp(1711, 28));  // invent_examine:total_drain_rate
+        IF_SETHIDE(false, comp(1711, 38));  // invent_examine:max_charge
         string0 = `Once this item runs out of charge it will become broken. It is not possible to repair, only disassemble to gain item experience and materials.<br><br>Once all charges are used up, the item will be able to level up to ${TOSTRING_LOCALISED(MIN(10, script12072()), 1)}.`;
-        IF_SETONMOUSEREPEAT(callback(script3876, string0, -2147483645, -1), comp(1711, 34));
-        IF_SETONMOUSEREPEAT(callback(script3876, string0, -2147483645, -1), comp(1711, 38));
+        IF_SETONMOUSEREPEAT(callback(script3876, string0, -2147483645, -1), comp(1711, 34));  // invent_examine:charge_drain_layer
+        IF_SETONMOUSEREPEAT(callback(script3876, string0, -2147483645, -1), comp(1711, 38));  // invent_examine:max_charge
     } else {
-        IF_SETTEXT("Charge drain:", comp(1711, 36));
-        IF_SETTEXT(`${script12069(SCALE(int2, 6, 10), 2)}/s`, comp(1711, 37));
-        IF_SETTEXT(`${script12069(SCALE(int12, 6, 10), 2)}/s`, comp(1711, 28));
-        IF_SETHIDE(true, comp(1711, 38));
+        IF_SETTEXT("Charge drain:", comp(1711, 36));  // invent_examine:charge_drain
+        IF_SETTEXT(`${script12069(SCALE(int2, 6, 10), 2)}/s`, comp(1711, 37));  // invent_examine:stats_charge_drain
+        IF_SETTEXT(`${script12069(SCALE(int12, 6, 10), 2)}/s`, comp(1711, 28));  // invent_examine:total_drain_rate
+        IF_SETHIDE(true, comp(1711, 38));  // invent_examine:max_charge
     };
-    IF_SETTEXT(script12069(varplayer_5984, 0), comp(1711, 29));
+    IF_SETTEXT(script12069(varplayer_5984, 0), comp(1711, 29));  // invent_examine:total_charge_stored
     var int13 = 0;
     var int14 = 0;
     var int15 = 0;
     if ((int12 > 0)) {
-        IF_SETTEXT(script17049(int12, 7), comp(1711, 30));
+        IF_SETTEXT(script17049(int12, 7), comp(1711, 30));  // invent_examine:total_time_left
         string0 = `Approximate time remaining: ${script17049(int12, 1)}`;
-        IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -1), comp(1711, 23));
+        IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -1), comp(1711, 23));  // invent_examine:time_left_background
     } else {
-        IF_SETTEXT("n/a", comp(1711, 30));
-        IF_SETONMOUSEREPEAT(callback(), comp(1711, 23));
+        IF_SETTEXT("n/a", comp(1711, 30));  // invent_examine:total_time_left
+        IF_SETONMOUSEREPEAT(callback(), comp(1711, 23));  // invent_examine:time_left_background
     };
     string0 = `Maximum charge stored: ${script12069(script12067(), 0)}.`;
-    IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -1), comp(1711, 22));
+    IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -1), comp(1711, 22));  // invent_examine:charge_stored_background
     var int16 = 1;
     if ((int3 == 1)) {
         int16 = 0;
     };
-    IF_SETONOP(callback(script12199, int0, int1, int2, int16), comp(1711, 59));
+    IF_SETONOP(callback(script12199, int0, int1, int2, int16), comp(1711, 59));  // invent_examine:change_display_active_layer
     var int17 = INV_GETVAR(int0, int1, 30215);
     var int18 = INV_GETVAR(int0, int1, 30216);
     var int19 = INV_GETVAR(int0, int1, 30217);
@@ -106,8 +106,8 @@ function script12199(int0: number, int1: number, int2: number, int3: number): vo
     var int22 = INV_GETVAR(int0, int1, 30220);
     var int23 = INV_GETVAR(int0, int1, 30221);
     var int24 = INV_GETVAR(int0, int1, 30222);
-    IF_SETTEXT(script14926(INV_GETVAR(int0, int1, 47354)), comp(1711, 79));
-    IF_SETTEXT(script14926(INV_GETVAR(int0, int1, 47355)), comp(1711, 96));
+    IF_SETTEXT(script14926(INV_GETVAR(int0, int1, 47354)), comp(1711, 79));  // invent_examine:gizmo_1_class_text
+    IF_SETTEXT(script14926(INV_GETVAR(int0, int1, 47355)), comp(1711, 96));  // invent_examine:gizmo_2_class_text
     stack(32768);
     stack(int17);
     DB_FIND(0);
@@ -239,48 +239,48 @@ function script12199(int0: number, int1: number, int2: number, int3: number): vo
     if ((int9 >= 20)) {
         string0 = `${string0}${string1}`;
         if ((script20178(script12076(int17)) == 1)) {
-            IF_SETHIDE(false, comp(1711, 84));
-            IF_SETPOSITION(55, 0, 0, 0, comp(1711, 85));
+            IF_SETHIDE(false, comp(1711, 84));  // invent_examine:perk_proc_chance_icon_1
+            IF_SETPOSITION(55, 0, 0, 0, comp(1711, 85));  // invent_examine:perk_text_1
             string3 = `${script12078(script12076(int17), int18)} has a 10% increased chance to activate!`;
-            IF_SETONMOUSEREPEAT(callback(script8799, string3, -2147483645, -1), comp(1711, 84));
+            IF_SETONMOUSEREPEAT(callback(script8799, string3, -2147483645, -1), comp(1711, 84));  // invent_examine:perk_proc_chance_icon_1
         };
         if ((script20178(script12076(int19)) == 1)) {
-            IF_SETHIDE(false, comp(1711, 90));
-            IF_SETPOSITION(55, 0, 0, 0, comp(1711, 91));
+            IF_SETHIDE(false, comp(1711, 90));  // invent_examine:perk_proc_chance_icon_2
+            IF_SETPOSITION(55, 0, 0, 0, comp(1711, 91));  // invent_examine:perk_text_2
             string3 = `${script12078(script12076(int19), int20)} has a 10% increased chance to activate!`;
-            IF_SETONMOUSEREPEAT(callback(script8799, string3, -2147483645, -1), comp(1711, 90));
+            IF_SETONMOUSEREPEAT(callback(script8799, string3, -2147483645, -1), comp(1711, 90));  // invent_examine:perk_proc_chance_icon_2
         };
         if ((script20178(script12076(int21)) == 1)) {
-            IF_SETHIDE(false, comp(1711, 101));
-            IF_SETPOSITION(55, 0, 0, 0, comp(1711, 102));
+            IF_SETHIDE(false, comp(1711, 101));  // invent_examine:perk_proc_chance_icon_3
+            IF_SETPOSITION(55, 0, 0, 0, comp(1711, 102));  // invent_examine:perk_text_3
             string3 = `${script12078(script12076(int21), int22)} has a 10% increased chance to activate!`;
-            IF_SETONMOUSEREPEAT(callback(script8799, string3, -2147483645, -1), comp(1711, 101));
+            IF_SETONMOUSEREPEAT(callback(script8799, string3, -2147483645, -1), comp(1711, 101));  // invent_examine:perk_proc_chance_icon_3
         };
         if ((script20178(script12076(int23)) == 1)) {
-            IF_SETHIDE(false, comp(1711, 107));
-            IF_SETPOSITION(55, 0, 0, 0, comp(1711, 108));
+            IF_SETHIDE(false, comp(1711, 107));  // invent_examine:perk_proc_chance_icon_4
+            IF_SETPOSITION(55, 0, 0, 0, comp(1711, 108));  // invent_examine:perk_text_4
             string3 = `${script12078(script12076(int23), int24)} has a 10% increased chance to activate!`;
-            IF_SETONMOUSEREPEAT(callback(script8799, string3, -2147483645, -1), comp(1711, 107));
+            IF_SETONMOUSEREPEAT(callback(script8799, string3, -2147483645, -1), comp(1711, 107));  // invent_examine:perk_proc_chance_icon_4
         };
     } else {
         string0 = `${string0}${string2}`;
     };
     string0 = `${string0}Level 20: Helpful perks will activate 10% more frequently.</col><br>`;
-    IF_SETONOP(callback(script1259), comp(1711, 13));
-    IF_SETTEXT(string0, comp(1711, 71));
+    IF_SETONOP(callback(script1259), comp(1711, 13));  // invent_examine:info_button
+    IF_SETTEXT(string0, comp(1711, 71));  // invent_examine:level_desription
     var int27 = 26;
     if ((script6431() == 1)) {
         int27 = 28;
     };
-    IF_SETTEXTFONT(int27, comp(1711, 71));
-    IF_SETSCROLLSIZE(IF_GETWIDTH(comp(1711, 70)), (10 + script7593(string0, IF_GETWIDTH(comp(1711, 70)), int27, 0)), comp(1711, 70));
+    IF_SETTEXTFONT(int27, comp(1711, 71));  // invent_examine:level_desription
+    IF_SETSCROLLSIZE(IF_GETWIDTH(comp(1711, 70)), (10 + script7593(string0, IF_GETWIDTH(comp(1711, 70)), int27, 0)), comp(1711, 70));  // invent_examine:text_frame
     script7791(112132168, 112132166);
     if ((script12066(int6) == 1)) {
-        IF_SETPOSITION(83, 0, 0, 0, comp(1711, 64));
-        IF_SETHIDE(true, comp(1711, 93));
+        IF_SETPOSITION(83, 0, 0, 0, comp(1711, 64));  // invent_examine:gizmo_layer_1
+        IF_SETHIDE(true, comp(1711, 93));  // invent_examine:gizmo_layer_2
     } else {
-        IF_SETPOSITION(0, 0, 0, 0, comp(1711, 64));
-        IF_SETHIDE(false, comp(1711, 93));
+        IF_SETPOSITION(0, 0, 0, 0, comp(1711, 64));  // invent_examine:gizmo_layer_1
+        IF_SETHIDE(false, comp(1711, 93));  // invent_examine:gizmo_layer_2
     };
     return;
 }

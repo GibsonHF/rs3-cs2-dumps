@@ -1,14 +1,14 @@
 //
 function script11821(int0: number, int1: number, int2: number, int3: number): void {
     var int4 = 114163736;
-    var int5 = comp(1742, 16);
-    var int6 = IF_GETWIDTH(comp(1742, 54));
+    var int5 = comp(1742, 16);  // trh_event_overview:progress_layer
+    var int6 = IF_GETWIDTH(comp(1742, 54));  // trh_event_overview:blue_large_progress_value_bounds_layer
     var int7 = (int6 / 10);
     script9554(114163726, 114163741, 114163727, struct_getparam(int2, 5675), 21218);
     var int8 = MAX(1, (SCALE(int0, 1000, int6) + 1));
-    IF_SETONTIMER(callback(script11858, int0, int1, int8, int7, 114163764, 114163766), comp(1742, 54));
+    IF_SETONTIMER(callback(script11858, int0, int1, int8, int7, 114163764, 114163766), comp(1742, 54));  // trh_event_overview:blue_large_progress_value_bounds_layer
     var int9 = MAX(1, (SCALE(int1, 1000, int6) + 1));
-    IF_SETONTIMER(callback(script11858, int0, int1, int9, int7, 114163790, 114163789), comp(1742, 77));
+    IF_SETONTIMER(callback(script11858, int0, int1, int9, int7, 114163790, 114163789), comp(1742, 77));  // trh_event_overview:green_large_progress_value_bounds_layer
     var string0 = "";
     var int10 = 0;
     CC_DELETEALL(int4);

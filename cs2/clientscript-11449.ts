@@ -1,12 +1,12 @@
 //
 function script11449(int0: number, int1: number, int2: number, int3: number): void {
-    IF_SETHIDE(false, comp(1624, 62));
-    IF_SETPOSITION(8, IF_GETY(comp(1624, 63)), 2, 0, comp(1624, 63));
-    IF_SETOBJECT_NONUM(struct_getparam(int0, 5067), 5, comp(1624, 60));
+    IF_SETHIDE(false, comp(1624, 62));  // spotlight:cancel_btn_layer
+    IF_SETPOSITION(8, IF_GETY(comp(1624, 63)), 2, 0, comp(1624, 63));  // spotlight:purchase_btn_layer
+    IF_SETOBJECT_NONUM(struct_getparam(int0, 5067), 5, comp(1624, 60));  // spotlight:popup_item_graphic
     if ((strcmp("", struct_getparam(int0, 5066)) != 0)) {
         IF_SETTEXT(struct_getparam(int0, 5066), 106430525);
     } else {
-        IF_SETTEXT(OC_NAME(struct_getparam(int0, 5067)), comp(1624, 61));
+        IF_SETTEXT(OC_NAME(struct_getparam(int0, 5067)), comp(1624, 61));  // spotlight:popup_item_name
     };
     var int4 = struct_getparam(int0, 5069);
     var int5 = int1;
@@ -55,44 +55,44 @@ function script11449(int0: number, int1: number, int2: number, int3: number): vo
         }
     };
     if ((varplayer_5427 < int4)) {
-        IF_SETTEXT("You do not have enough currency for the purchase of:", comp(1624, 59));
-        IF_SETTEXT("OK", comp(1624, 73));
-        IF_SETHIDE(true, comp(1624, 62));
-        IF_SETPOSITION(0, IF_GETY(comp(1624, 63)), 1, 0, comp(1624, 63));
+        IF_SETTEXT("You do not have enough currency for the purchase of:", comp(1624, 59));  // spotlight:buy_popup_text
+        IF_SETTEXT("OK", comp(1624, 73));  // spotlight:purchase_btn_text
+        IF_SETHIDE(true, comp(1624, 62));  // spotlight:cancel_btn_layer
+        IF_SETPOSITION(0, IF_GETY(comp(1624, 63)), 1, 0, comp(1624, 63));  // spotlight:purchase_btn_layer
     } else if ((int2 == 1)) {
         if ((int3 == 0)) {
-            IF_SETTEXT("You already have the maximum amount of clue scrolls.", comp(1624, 59));
-            IF_SETTEXT("OK", comp(1624, 73));
-            IF_SETHIDE(true, comp(1624, 62));
-            IF_SETPOSITION(0, IF_GETY(comp(1624, 63)), 1, 0, comp(1624, 63));
+            IF_SETTEXT("You already have the maximum amount of clue scrolls.", comp(1624, 59));  // spotlight:buy_popup_text
+            IF_SETTEXT("OK", comp(1624, 73));  // spotlight:purchase_btn_text
+            IF_SETHIDE(true, comp(1624, 62));  // spotlight:cancel_btn_layer
+            IF_SETPOSITION(0, IF_GETY(comp(1624, 63)), 1, 0, comp(1624, 63));  // spotlight:purchase_btn_layer
         } else if ((PLAYERMEMBER() == 0)) {
             if ((OC_MEMBERS(int7) == 1)) {
-                IF_SETTEXT("This item is for members only:", comp(1624, 59));
-                IF_SETTEXT("OK", comp(1624, 73));
-                IF_SETHIDE(true, comp(1624, 62));
-                IF_SETPOSITION(0, IF_GETY(comp(1624, 63)), 1, 0, comp(1624, 63));
+                IF_SETTEXT("This item is for members only:", comp(1624, 59));  // spotlight:buy_popup_text
+                IF_SETTEXT("OK", comp(1624, 73));  // spotlight:purchase_btn_text
+                IF_SETHIDE(true, comp(1624, 62));  // spotlight:cancel_btn_layer
+                IF_SETPOSITION(0, IF_GETY(comp(1624, 63)), 1, 0, comp(1624, 63));  // spotlight:purchase_btn_layer
             } else {
-                IF_SETTEXT(`Spend ${TOSTRING_LOCALISED((int4 * int5), 1)} on purchasing ${TOSTRING_LOCALISED(int5, 1)}:`, comp(1624, 59));
-                IF_SETTEXT(string0, comp(1624, 73));
+                IF_SETTEXT(`Spend ${TOSTRING_LOCALISED((int4 * int5), 1)} on purchasing ${TOSTRING_LOCALISED(int5, 1)}:`, comp(1624, 59));  // spotlight:buy_popup_text
+                IF_SETTEXT(string0, comp(1624, 73));  // spotlight:purchase_btn_text
             };
         } else {
-            IF_SETTEXT(`Spend ${TOSTRING_LOCALISED((int4 * int5), 1)} on purchasing ${TOSTRING_LOCALISED(int5, 1)}:`, comp(1624, 59));
-            IF_SETTEXT(string0, comp(1624, 73));
+            IF_SETTEXT(`Spend ${TOSTRING_LOCALISED((int4 * int5), 1)} on purchasing ${TOSTRING_LOCALISED(int5, 1)}:`, comp(1624, 59));  // spotlight:buy_popup_text
+            IF_SETTEXT(string0, comp(1624, 73));  // spotlight:purchase_btn_text
         };
     } else if ((PLAYERMEMBER() == 0)) {
         if ((OC_MEMBERS(int7) == 1)) {
-            IF_SETTEXT("This item is for members only:", comp(1624, 59));
-            IF_SETTEXT("OK", comp(1624, 73));
-            IF_SETHIDE(true, comp(1624, 62));
-            IF_SETPOSITION(0, IF_GETY(comp(1624, 63)), 1, 0, comp(1624, 63));
+            IF_SETTEXT("This item is for members only:", comp(1624, 59));  // spotlight:buy_popup_text
+            IF_SETTEXT("OK", comp(1624, 73));  // spotlight:purchase_btn_text
+            IF_SETHIDE(true, comp(1624, 62));  // spotlight:cancel_btn_layer
+            IF_SETPOSITION(0, IF_GETY(comp(1624, 63)), 1, 0, comp(1624, 63));  // spotlight:purchase_btn_layer
         } else {
-            IF_SETTEXT(`Spend ${TOSTRING_LOCALISED((int4 * int5), 1)} on purchasing ${TOSTRING_LOCALISED(int5, 1)}:`, comp(1624, 59));
-            IF_SETTEXT(string0, comp(1624, 73));
+            IF_SETTEXT(`Spend ${TOSTRING_LOCALISED((int4 * int5), 1)} on purchasing ${TOSTRING_LOCALISED(int5, 1)}:`, comp(1624, 59));  // spotlight:buy_popup_text
+            IF_SETTEXT(string0, comp(1624, 73));  // spotlight:purchase_btn_text
         };
     } else {
-        IF_SETTEXT(`Spend ${TOSTRING_LOCALISED((int4 * int5), 1)} on purchasing ${TOSTRING_LOCALISED(int5, 1)}:`, comp(1624, 59));
-        IF_SETTEXT(string0, comp(1624, 73));
+        IF_SETTEXT(`Spend ${TOSTRING_LOCALISED((int4 * int5), 1)} on purchasing ${TOSTRING_LOCALISED(int5, 1)}:`, comp(1624, 59));  // spotlight:buy_popup_text
+        IF_SETTEXT(string0, comp(1624, 73));  // spotlight:purchase_btn_text
     };
-    IF_SETHIDE(false, comp(1624, 11));
+    IF_SETHIDE(false, comp(1624, 11));  // spotlight:buy_popup_layer
     return;
 }

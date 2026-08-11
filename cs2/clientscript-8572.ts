@@ -10,7 +10,7 @@ function script8572(int0: number): void {
     var int3 = 18866;
     var int4 = 18865;
     var string2 = "Edit preset name";
-    CC_CREATE(comp(1890, 4), 3, int0);
+    CC_CREATE(comp(1890, 4), 3, int0);  // prayer_quick_preset_interface:preset_button_layer
     CC_SETSIZE(220, 24, 0, 0);
     CC_SETPOSITION(30, ((29 * int0) + 5), 0, 0);
     CC_SETOP(1, "View preset");
@@ -23,7 +23,7 @@ function script8572(int0: number): void {
         CC_SETONMOUSEOVER(callback(script1356, -2147483645, -2147483643, script10495(9)));
         CC_SETONMOUSELEAVE(callback(script1356, -2147483645, -2147483643, script10495(12)));
     };
-    CC_CREATE(comp(1890, 5), 4, int0);
+    CC_CREATE(comp(1890, 5), 4, int0);  // prayer_quick_preset_interface:preset_name_layer
     CC_SETTEXT(string0);
     CC_SETTEXTFONT(29 as fontmetrics);
     CC_SETCOLOUR(16777215);
@@ -31,14 +31,14 @@ function script8572(int0: number): void {
     CC_SETTEXTALIGN(0, 1, 0);
     CC_SETSIZE(210, 25, 0, 0);
     CC_SETPOSITION(35, ((29 * int0) + 4), 0, 0);
-    CC_CREATE(comp(1890, 6), 5, int0);
+    CC_CREATE(comp(1890, 6), 5, int0);  // prayer_quick_preset_interface:preset_rubbish_btn_layer
     CC_SETGRAPHIC(18863 as graphic);
     CC_SETSIZE(16, 16, 0, 0);
     CC_SETPOSITION(229, ((29 * int0) + 8), 0, 0);
     CC_SETOP(1, "Remove preset");
     CC_SETONMOUSEOVER(callback(script5336, -2147483645, -2147483643, int1));
     CC_SETONMOUSELEAVE(callback(script5336, -2147483645, -2147483643, int2));
-    CC_CREATE(comp(1890, 7), 5, int0);
+    CC_CREATE(comp(1890, 7), 5, int0);  // prayer_quick_preset_interface:preset_edit_btn_layer
     CC_SETGRAPHIC(18865 as graphic);
     CC_SETSIZE(16, 16, 0, 0);
     CC_SETPOSITION(209, ((29 * int0) + 8), 0, 0);

@@ -13,19 +13,19 @@ function script20048(): void {
     while ((int8 <= 2)) {
         switch (int8) {
             case 1: {
-                int0 = comp(1342, 11);
+                int0 = comp(1342, 11);  // trh209_overlay:chest_1_click_layer
                 int1 = 87949325;
-                int2 = comp(1342, 16);
-                int3 = comp(1342, 17);
+                int2 = comp(1342, 16);  // trh209_overlay:chest_1_prize_info
+                int3 = comp(1342, 17);  // trh209_overlay:chest_1_multiplier_icon
                 [int4, int5, int6] = [varplayer_12243, varplayer_12244, varplayer_12245];
                 int7 = varplayer_12249;
                 break;
             }
             case 2: {
-                int0 = comp(1342, 9);
+                int0 = comp(1342, 9);  // trh209_overlay:chest_2_click_layer
                 int1 = 87949331;
-                int2 = comp(1342, 22);
-                int3 = comp(1342, 23);
+                int2 = comp(1342, 22);  // trh209_overlay:chest_2_prize_info
+                int3 = comp(1342, 23);  // trh209_overlay:chest_2_multiplier_icon
                 [int4, int5, int6] = [varplayer_12246, varplayer_12247, varplayer_12248];
                 int7 = varplayer_12250;
                 break;

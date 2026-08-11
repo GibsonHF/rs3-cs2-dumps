@@ -95,7 +95,7 @@ function script5433(int0: number, int1: number): void {
             break;
         }
     };
-    CC_CREATE(comp(1167, 1), 5, int0);
+    CC_CREATE(comp(1167, 1), 5, int0);  // dom_handicap:slot_layer
     CC_SETGRAPHIC(int2);
     CC_SETSIZE(80, 80, 0, 0);
     CC_SETPOSITION(0, int1, 1, 0);

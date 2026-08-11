@@ -67,7 +67,7 @@ function script12774(): void {
     var int10 = 55;
     var int11 = 0;
     var int12 = 40;
-    [int11, int12, int7] = script12087((IF_GETWIDTH(comp(1790, 28)) - 16), int9, 5, 9);
+    [int11, int12, int7] = script12087((IF_GETWIDTH(comp(1790, 28)) - 16), int9, 5, 9);  // currency:accordion_standard_content_layer
     var int13 = 0;
     var int14 = int8;
     var int15 = 0;
@@ -141,10 +141,10 @@ function script12774(): void {
         };
         int14 = (int14 + (int10 + int8));
         script9582(IF_GETPARENTLAYER(int5), int14, int14);
-        IF_SETSIZE(0, IF_GETHEIGHT(comp(1790, 13)), 1, 0, comp(1790, 13));
-        IF_SETSIZE(0, IF_GETHEIGHT(comp(1790, 14)), 1, 0, comp(1790, 14));
-        IF_SETSIZE(0, IF_GETHEIGHT(comp(1790, 15)), 1, 0, comp(1790, 15));
-        IF_SETSIZE(0, IF_GETHEIGHT(comp(1790, 16)), 1, 0, comp(1790, 16));
+        IF_SETSIZE(0, IF_GETHEIGHT(comp(1790, 13)), 1, 0, comp(1790, 13));  // currency:accordion_standard_group_layer
+        IF_SETSIZE(0, IF_GETHEIGHT(comp(1790, 14)), 1, 0, comp(1790, 14));  // currency:accordion_dnd_group_layer
+        IF_SETSIZE(0, IF_GETHEIGHT(comp(1790, 15)), 1, 0, comp(1790, 15));  // currency:accordion_minigames_group_layer
+        IF_SETSIZE(0, IF_GETHEIGHT(comp(1790, 16)), 1, 0, comp(1790, 16));  // currency:accordion_seasonal_group_layer
         int18 = (int18 - 1);
     };
     return;

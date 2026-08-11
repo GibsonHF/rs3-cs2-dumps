@@ -422,6 +422,6 @@ function script1103(int0: number): void {
             return;
         }
     };
-    IF_SETTEXT(enum_getvalue(0, 36, 995 as cs2enum, int1), comp(193, 130));
+    IF_SETTEXT(enum_getvalue(0, 36, 995 as cs2enum, int1), comp(193, 130));  // ariane1_organ_keyboard:note_text_mouseover
     return;
 }

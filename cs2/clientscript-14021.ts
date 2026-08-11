@@ -1,6 +1,6 @@
 //
 function script14021(int0: number): void {
-    var int1 = comp(1934, 5);
+    var int1 = comp(1934, 5);  // trail17_skyscrapers:hint_top
     var int2 = -1;
     var int3 = -1;
     int2 = (int2 + 1);
@@ -13,15 +13,15 @@ function script14021(int0: number): void {
         };
         switch (int2) {
             case 0: {
-                int1 = comp(1934, 3);
+                int1 = comp(1934, 3);  // trail17_skyscrapers:hint_left
                 break;
             }
             case 1: {
-                int1 = comp(1934, 4);
+                int1 = comp(1934, 4);  // trail17_skyscrapers:hint_bottom
                 break;
             }
             case 2: {
-                int1 = comp(1934, 2);
+                int1 = comp(1934, 2);  // trail17_skyscrapers:hint_right
                 break;
             }
         };

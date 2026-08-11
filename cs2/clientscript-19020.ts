@@ -1,6 +1,6 @@
 //
 function script19020(int0: number, int1: number, int2: number, int3: number, int4: number): void {
-    var int5 = (IF_GETNEXTSUBID(comp(1870, 4)) / ENUM_GETOUTPUTCOUNT(int3));
+    var int5 = (IF_GETNEXTSUBID(comp(1870, 4)) / ENUM_GETOUTPUTCOUNT(int3));  // trh119_buried_treasure_overlay:prize_scroll_build_layer
     var int6 = ((int1 - 2) / int5);
     if ((int6 == varbitplayer_43520)) {
         return;

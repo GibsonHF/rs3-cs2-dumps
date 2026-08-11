@@ -5,17 +5,17 @@ function script15608(int0: number): void {
     switch (int0) {
         case 1: {
             int1 = script20335(1);
-            int2 = comp(906, 95);
+            int2 = comp(906, 95);  // lobbyscreen:login_fav1
             break;
         }
         case 2: {
             int1 = script20335(2);
-            int2 = comp(906, 96);
+            int2 = comp(906, 96);  // lobbyscreen:login_fav2
             break;
         }
         case 3: {
             int1 = script20335(3);
-            int2 = comp(906, 97);
+            int2 = comp(906, 97);  // lobbyscreen:login_fav3
             break;
         }
         default: {

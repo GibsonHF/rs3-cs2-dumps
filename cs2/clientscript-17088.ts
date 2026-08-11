@@ -1,20 +1,20 @@
 //
 function script17088(int0: number): string {
-    IF_BUTTON_SETTOGGLED(0, comp(1626, 19));
-    IF_BUTTON_SETTOGGLED(0, comp(1626, 80));
-    IF_BUTTON_SETTOGGLED(0, comp(1626, 82));
-    IF_BUTTON_SETTOGGLED(0, comp(1626, 84));
+    IF_BUTTON_SETTOGGLED(0, comp(1626, 19));  // death:tab_overview
+    IF_BUTTON_SETTOGGLED(0, comp(1626, 80));  // death:tab_death
+    IF_BUTTON_SETTOGGLED(0, comp(1626, 82));  // death:tab_overflow
+    IF_BUTTON_SETTOGGLED(0, comp(1626, 84));  // death:tab_danger
     var string0 = "Death";
     var string1 = "Death";
     switch (varbitplayer_52406) {
         case 0: {
-            IF_BUTTON_SETTOGGLED(1, comp(1626, 19));
+            IF_BUTTON_SETTOGGLED(1, comp(1626, 19));  // death:tab_overview
             string0 = "Death Cost Overview";
             string1 = "What happens when you die?";
             break;
         }
         case 1: {
-            IF_BUTTON_SETTOGGLED(1, comp(1626, 80));
+            IF_BUTTON_SETTOGGLED(1, comp(1626, 80));  // death:tab_death
             if ((varbitplayer_28118 == 1)) {
                 string0 = "Death Reclaim";
                 string1 = "Pay to reclaim these items.";
@@ -31,13 +31,13 @@ function script17088(int0: number): string {
             break;
         }
         case 2: {
-            IF_BUTTON_SETTOGGLED(1, comp(1626, 82));
+            IF_BUTTON_SETTOGGLED(1, comp(1626, 82));  // death:tab_overflow
             string0 = "Overflow Storage";
             string1 = "Reclaim items from overflow.";
             break;
         }
         case 3: {
-            IF_BUTTON_SETTOGGLED(1, comp(1626, 84));
+            IF_BUTTON_SETTOGGLED(1, comp(1626, 84));  // death:tab_danger
             string0 = "Death Preview";
             string1 = "If you died in dangerous PvP.";
             break;
@@ -46,10 +46,10 @@ function script17088(int0: number): string {
     script16930(106561555, -1, 2, "View information about the death system.");
     if ((varbitplayer_28118 == 1)) {
         script16930(106561616, -1, 2, "View items you can reclaim from death.");
-        IF_SETOPBASE("Item Reclaim", comp(1626, 80));
+        IF_SETOPBASE("Item Reclaim", comp(1626, 80));  // death:tab_death
     } else {
         script16930(106561616, -1, 2, "View how much you would pay to reclaim items if you were to die where you are now.");
-        IF_SETOPBASE("Death Preview", comp(1626, 80));
+        IF_SETOPBASE("Death Preview", comp(1626, 80));  // death:tab_death
     };
     script16930(106561618, -1, 2, "View your overflow storage.");
     script16930(106561620, -1, 2, "View which items you would lose if you died in dangerous PvP.");
@@ -57,16 +57,16 @@ function script17088(int0: number): string {
     if ((varbitplayer_28117 == 1)) {
         string1 = "Loading...";
     };
-    IF_SETTEXT(string1, comp(1626, 25));
-    IF_SETENABLED(true, comp(1626, 19));
-    IF_SETENABLED(true, comp(1626, 80));
-    IF_SETENABLED(true, comp(1626, 82));
+    IF_SETTEXT(string1, comp(1626, 25));  // death:left_hand_title
+    IF_SETENABLED(true, comp(1626, 19));  // death:tab_overview
+    IF_SETENABLED(true, comp(1626, 80));  // death:tab_death
+    IF_SETENABLED(true, comp(1626, 82));  // death:tab_overflow
     if ((((varbitplayer_28118 == 1) || (int0 == 2)) || (int0 == 3))) {
-        IF_SETENABLED(false, comp(1626, 84));
-        IF_SETGRAPHIC(24203 as graphic, comp(1626, 85));
+        IF_SETENABLED(false, comp(1626, 84));  // death:tab_danger
+        IF_SETGRAPHIC(24203 as graphic, comp(1626, 85));  // death:tab_icon_danger
     } else {
-        IF_SETENABLED(true, comp(1626, 84));
-        IF_SETGRAPHIC(24202 as graphic, comp(1626, 85));
+        IF_SETENABLED(true, comp(1626, 84));  // death:tab_danger
+        IF_SETGRAPHIC(24202 as graphic, comp(1626, 85));  // death:tab_icon_danger
     };
     script17087(varplayer_10745);
     return "";

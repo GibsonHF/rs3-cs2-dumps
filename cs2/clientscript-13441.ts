@@ -1,10 +1,10 @@
 //
 function script13441(int0: number): void {
     var int1 = 122880075;
-    var int2 = comp(1875, 110);
-    var int3 = comp(1875, 109);
+    var int2 = comp(1875, 110);  // repmodal:progress_value_graphic_layer_1
+    var int3 = comp(1875, 109);  // repmodal:progress_join_layer_1
     var int4 = 122880097;
-    var int5 = comp(1875, 96);
+    var int5 = comp(1875, 96);  // repmodal:progress_rewards_layer_1
     var int6 = script13433(5);
     var int7 = struct_getparam(int6, 6582);
     var int8 = struct_getparam(int6, 6583);
@@ -42,7 +42,7 @@ function script13441(int0: number): void {
         CC_SETONVARTRANSMIT(callback(script13436, 5, 7002, 6991, 2));
     };
     IF_SETONTIMER(callback(script13442, int2, int3, int4, int15), int2);
-    IF_SETHIDE(false, comp(1875, 1));
+    IF_SETHIDE(false, comp(1875, 1));  // repmodal:progress_background_layer_1
     while ((int18 < int20)) {
         int21 = enum_getvalue(0, 33, int7, int18);
         int14 = item_getparam(int21, 6276);

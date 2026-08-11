@@ -31,15 +31,15 @@ function script20501(int0: number): void {
     script20504(21279);
     script8707(18);
     var int26 = (28 + 4);
-    IF_SETPOSITION(4, int26, 0, 2, comp(137, 55));
-    IF_SETSIZE(8, int26, 1, 1, comp(137, 55));
-    IF_SETSIZE(0, 28, 1, 0, comp(137, 208));
-    IF_SETPOSITION(0, 0, 0, 2, comp(137, 208));
-    IF_SETHIDE(true, comp(137, 56));
-    IF_SETHIDE(true, comp(137, 66));
-    IF_SETHIDE(false, comp(137, 208));
-    IF_SETPOSITION(4, int26, 0, 2, comp(137, 3));
-    IF_SETSIZE(8, int26, 1, 1, comp(137, 3));
+    IF_SETPOSITION(4, int26, 0, 2, comp(137, 55));  // chatdefault:chat
+    IF_SETSIZE(8, int26, 1, 1, comp(137, 55));  // chatdefault:chat
+    IF_SETSIZE(0, 28, 1, 0, comp(137, 208));  // chatdefault:legacy_filter_buttons
+    IF_SETPOSITION(0, 0, 0, 2, comp(137, 208));  // chatdefault:legacy_filter_buttons
+    IF_SETHIDE(true, comp(137, 56));  // chatdefault:top_layer
+    IF_SETHIDE(true, comp(137, 66));  // chatdefault:divider_top
+    IF_SETHIDE(false, comp(137, 208));  // chatdefault:legacy_filter_buttons
+    IF_SETPOSITION(4, int26, 0, 2, comp(137, 3));  // chatdefault:quickchat
+    IF_SETSIZE(8, int26, 1, 1, comp(137, 3));  // chatdefault:quickchat
     if ((int0 == 18)) {
         script13531(0, int1, int14, int25);
         script13531(1, int4, int17, int25);
@@ -64,21 +64,21 @@ function script20501(int0: number): void {
         int28 = (22 - int27);
     };
     if ((int25 == 1)) {
-        IF_SETGRAPHIC(23635 as graphic, comp(137, 257));
-        IF_SETHIDE(true, comp(137, 258));
-        IF_SETSIZE((36 + int27), 0, 0, 1, comp(137, 254));
-        IF_SETPOSITION((494 + int28), 0, 0, 0, comp(137, 254));
+        IF_SETGRAPHIC(23635 as graphic, comp(137, 257));  // chatdefault:legacy_reportabuse_icon
+        IF_SETHIDE(true, comp(137, 258));  // chatdefault:legacy_text_report_abuse
+        IF_SETSIZE((36 + int27), 0, 0, 1, comp(137, 254));  // chatdefault:legacy_reportabuse
+        IF_SETPOSITION((494 + int28), 0, 0, 0, comp(137, 254));  // chatdefault:legacy_reportabuse
         int29 = 23636;
-        IF_SETONMOUSEOVER(callback(script44, 8978689, int29), comp(137, 254));
+        IF_SETONMOUSEOVER(callback(script44, 8978689, int29), comp(137, 254));  // chatdefault:legacy_reportabuse
         int29 = 23635;
-        IF_SETONMOUSELEAVE(callback(script44, 8978689, int29), comp(137, 254));
+        IF_SETONMOUSELEAVE(callback(script44, 8978689, int29), comp(137, 254));  // chatdefault:legacy_reportabuse
     } else {
-        IF_SETGRAPHIC(-1 as graphic, comp(137, 257));
-        IF_SETHIDE(false, comp(137, 258));
-        IF_SETSIZE((55 + int27), 0, 0, 1, comp(137, 254));
-        IF_SETPOSITION((475 + int28), 0, 0, 0, comp(137, 254));
-        IF_SETONMOUSEOVER(callback(), comp(137, 254));
-        IF_SETONMOUSELEAVE(callback(), comp(137, 254));
+        IF_SETGRAPHIC(-1 as graphic, comp(137, 257));  // chatdefault:legacy_reportabuse_icon
+        IF_SETHIDE(false, comp(137, 258));  // chatdefault:legacy_text_report_abuse
+        IF_SETSIZE((55 + int27), 0, 0, 1, comp(137, 254));  // chatdefault:legacy_reportabuse
+        IF_SETPOSITION((475 + int28), 0, 0, 0, comp(137, 254));  // chatdefault:legacy_reportabuse
+        IF_SETONMOUSEOVER(callback(), comp(137, 254));  // chatdefault:legacy_reportabuse
+        IF_SETONMOUSELEAVE(callback(), comp(137, 254));  // chatdefault:legacy_reportabuse
     };
     return;
 }

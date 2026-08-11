@@ -1,6 +1,6 @@
 //
 function script11379(): void {
-    var int0 = comp(1619, 4);
+    var int0 = comp(1619, 4);  // poh_aqua_fishlist:fish_list
     var string0 = "";
     var int1 = 0;
     var int2 = 0;
@@ -8,9 +8,9 @@ function script11379(): void {
     var int4 = script10495(8);
     var int5 = script10495(2);
     var int6 = (IF_GETWIDTH(int0) / 2);
-    IF_SETCOLOUR(int5, comp(1619, 5));
+    IF_SETCOLOUR(int5, comp(1619, 5));  // poh_aqua_fishlist:header
     CC_DELETEALL(int0);
-    CC_DELETEALL(comp(1619, 3));
+    CC_DELETEALL(comp(1619, 3));  // poh_aqua_fishlist:prawn_ball_list
     while ((int1 < ENUM_GETOUTPUTCOUNT(10000 as cs2enum))) {
         int2 = enum_getvalue(0, 0, 9999 as cs2enum, int1);
         CC_CREATE(int0, 4, IF_GETNEXTSUBID(int0));
@@ -43,7 +43,7 @@ function script11379(): void {
     CC_SETSIZE(1, 0, 1, 0);
     int1 = 0;
     while ((int1 < 4)) {
-        CC_CREATE(comp(1619, 3), 4, int1);
+        CC_CREATE(comp(1619, 3), 4, int1);  // poh_aqua_fishlist:prawn_ball_list
         CC_SETPOSITION((int6 * MODULO(int1, 2)), (20 * (int1 / 2)), 0, 0);
         CC_SETSIZE(int6, 20, 0, 0);
         CC_SETTEXTFONT(26 as fontmetrics);
@@ -89,7 +89,7 @@ function script11379(): void {
         };
         int1 = (int1 + 1);
     };
-    CC_CREATE(comp(1619, 3), 4, IF_GETNEXTSUBID(comp(1619, 3)));
+    CC_CREATE(comp(1619, 3), 4, IF_GETNEXTSUBID(comp(1619, 3)));  // poh_aqua_fishlist:prawn_ball_list
     CC_SETPOSITION(0, (20 * ((int1 + MODULO(int1, 2)) / 2)), 0, 0);
     CC_SETSIZE(0, 20, 1, 0);
     CC_SETTEXTFONT(26 as fontmetrics);

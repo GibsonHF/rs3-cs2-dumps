@@ -12,11 +12,11 @@ function script769(): void {
     if ((varplayer_4824 == int0)) {
         int2 = varbitplayer_25412;
     };
-    IF_SETTEXT(script361(int1, 0), comp(662, 82));
-    IF_SETTEXT(script361(int2, 0), comp(662, 84));
+    IF_SETTEXT(script361(int1, 0), comp(662, 82));  // lore_stats_side:lore_scroll_counter_inv
+    IF_SETTEXT(script361(int2, 0), comp(662, 84));  // lore_stats_side:lore_scroll_counter_familiar
     var string0 = script361((int1 + int2), 0);
-    IF_SETTEXT(string0, comp(662, 122));
-    IF_SETSIZE(PARAWIDTH(string0, 1000, IF_GETFONTMETRICS(comp(662, 122))), IF_GETHEIGHT(comp(662, 122)), 0, 0, comp(662, 122));
+    IF_SETTEXT(string0, comp(662, 122));  // lore_stats_side:lore_scroll_counter_small
+    IF_SETSIZE(PARAWIDTH(string0, 1000, IF_GETFONTMETRICS(comp(662, 122))), IF_GETHEIGHT(comp(662, 122)), 0, 0, comp(662, 122));  // lore_stats_side:lore_scroll_counter_small
     script11728();
     script11688();
     return;

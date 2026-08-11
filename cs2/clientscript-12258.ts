@@ -47,35 +47,35 @@ function script12258(): void {
             break;
         }
     };
-    IF_SETOP(1, string0, comp(1725, 5));
-    IF_SETOP(1, string1, comp(1725, 9));
-    IF_SETOP(1, string2, comp(1725, 19));
-    IF_SETONMOUSEREPEAT(callback(script8799, string3, -2147483645, -1), comp(1725, 3));
-    IF_SETONMOUSEREPEAT(callback(script8799, string4, -2147483645, -1), comp(1725, 7));
-    IF_SETONMOUSEREPEAT(callback(script8799, string5, -2147483645, -1), comp(1725, 11));
+    IF_SETOP(1, string0, comp(1725, 5));  // nomel_transmog_overlay:ability_slot_1_graphic
+    IF_SETOP(1, string1, comp(1725, 9));  // nomel_transmog_overlay:ability_slot_2_graphic
+    IF_SETOP(1, string2, comp(1725, 19));  // nomel_transmog_overlay:ability_slot_3_graphic
+    IF_SETONMOUSEREPEAT(callback(script8799, string3, -2147483645, -1), comp(1725, 3));  // nomel_transmog_overlay:ability_slot_0
+    IF_SETONMOUSEREPEAT(callback(script8799, string4, -2147483645, -1), comp(1725, 7));  // nomel_transmog_overlay:ability_slot_1
+    IF_SETONMOUSEREPEAT(callback(script8799, string5, -2147483645, -1), comp(1725, 11));  // nomel_transmog_overlay:ability_slot_2
     if ((int0 != -1 as graphic)) {
-        IF_SETGRAPHIC(int0, comp(1725, 5));
+        IF_SETGRAPHIC(int0, comp(1725, 5));  // nomel_transmog_overlay:ability_slot_1_graphic
     } else {
-        IF_SETOBJECT_NONUM(int3, 0, comp(1725, 5));
+        IF_SETOBJECT_NONUM(int3, 0, comp(1725, 5));  // nomel_transmog_overlay:ability_slot_1_graphic
     };
     if ((int1 != -1 as graphic)) {
-        IF_SETGRAPHIC(int1, comp(1725, 9));
+        IF_SETGRAPHIC(int1, comp(1725, 9));  // nomel_transmog_overlay:ability_slot_2_graphic
     } else {
-        IF_SETOBJECT_NONUM(int3, 0, comp(1725, 9));
+        IF_SETOBJECT_NONUM(int3, 0, comp(1725, 9));  // nomel_transmog_overlay:ability_slot_2_graphic
     };
-    IF_SETGRAPHIC(int2, comp(1725, 19));
-    var int5 = IF_GETWIDTH(comp(1725, 0));
-    var int6 = IF_GETHEIGHT(comp(1725, 0));
+    IF_SETGRAPHIC(int2, comp(1725, 19));  // nomel_transmog_overlay:ability_slot_3_graphic
+    var int5 = IF_GETWIDTH(comp(1725, 0));  // nomel_transmog_overlay:bespoke_window
+    var int6 = IF_GETHEIGHT(comp(1725, 0));  // nomel_transmog_overlay:bespoke_window
     if ((int4 == 1)) {
         int6 = 112;
-        IF_SETHIDE(true, comp(1725, 7));
-        IF_SETPOSITION(24, IF_GETY(comp(1725, 3)), 0, 0, comp(1725, 3));
-        IF_SETPOSITION(((IF_GETX(comp(1725, 3)) + IF_GETWIDTH(comp(1725, 3))) + 4), IF_GETY(comp(1725, 11)), 0, 0, comp(1725, 11));
+        IF_SETHIDE(true, comp(1725, 7));  // nomel_transmog_overlay:ability_slot_1
+        IF_SETPOSITION(24, IF_GETY(comp(1725, 3)), 0, 0, comp(1725, 3));  // nomel_transmog_overlay:ability_slot_0
+        IF_SETPOSITION(((IF_GETX(comp(1725, 3) /*nomel_transmog_overlay:ability_slot_0*/) + IF_GETWIDTH(comp(1725, 3) /*nomel_transmog_overlay:ability_slot_0*/)) + 4), IF_GETY(comp(1725, 11) /*nomel_transmog_overlay:ability_slot_2*/), 0, 0, comp(1725, 11) /*nomel_transmog_overlay:ability_slot_2*/);
     } else {
-        IF_SETHIDE(false, comp(1725, 7));
-        IF_SETPOSITION(6, IF_GETY(comp(1725, 3)), 0, 0, comp(1725, 3));
-        IF_SETPOSITION(102, IF_GETY(comp(1725, 11)), 0, 0, comp(1725, 11));
+        IF_SETHIDE(false, comp(1725, 7));  // nomel_transmog_overlay:ability_slot_1
+        IF_SETPOSITION(6, IF_GETY(comp(1725, 3)), 0, 0, comp(1725, 3));  // nomel_transmog_overlay:ability_slot_0
+        IF_SETPOSITION(102, IF_GETY(comp(1725, 11)), 0, 0, comp(1725, 11));  // nomel_transmog_overlay:ability_slot_2
     };
-    IF_SETSIZE(int5, int6, 0, 0, comp(1725, 0));
+    IF_SETSIZE(int5, int6, 0, 0, comp(1725, 0));  // nomel_transmog_overlay:bespoke_window
     return;
 }

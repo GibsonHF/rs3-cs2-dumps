@@ -4,7 +4,7 @@ function script7511(int0: number, int1: number, int2: number): void {
     var int4 = 5;
     if ((int0 == 0)) {
         var int2 = (int2 - 1);
-        IF_SETONTIMER(callback(), comp(1389, 5));
+        IF_SETONTIMER(callback(), comp(1389, 5));  // rand_dnd_select_card:rand_dnd_cards_perm_layer
         varclient_2706 = false;
         if ((int2 > 0)) {
             if ((int1 == 1)) {
@@ -15,7 +15,7 @@ function script7511(int0: number, int1: number, int2: number): void {
             };
         };
     } else {
-        if ((IF_FIND(comp(1389, 5)) == 1)) {
+        if ((IF_FIND(comp(1389, 5)) == 1)) {  // rand_dnd_select_card:rand_dnd_cards_perm_layer
             if ((int1 == 1)) {
                 CC_SETPOSITION((CC_GETX() - int4), CC_GETY(), 0, 0);
             } else if ((int1 == 0)) {
@@ -32,7 +32,7 @@ function script7511(int0: number, int1: number, int2: number): void {
         } else {
             int0 = 0;
         };
-        IF_SETONTIMER(callback(script7511, int0, int1, int2), comp(1389, 5));
+        IF_SETONTIMER(callback(script7511, int0, int1, int2), comp(1389, 5));  // rand_dnd_select_card:rand_dnd_cards_perm_layer
     };
     return;
 }

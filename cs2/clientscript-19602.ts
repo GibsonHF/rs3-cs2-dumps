@@ -1,6 +1,6 @@
 //
 function script19602(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number): void {
-    if ((CC_FIND(comp(1313, 75), int0) == 1)) {
+    if ((CC_FIND(comp(1313, 75), int0) == 1)) {  // group_ironman_storage:clan_inv
         if ((int3 >= int1)) {
             if ((int7 == 1)) {
                 script19539(int2, 0);

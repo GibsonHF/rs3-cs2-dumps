@@ -118,15 +118,15 @@ function script7470(int0: number): void {
         CC_SETTEXTSHADOW(true);
         CC_SETTEXT("Nothing to retrieve.");
     };
-    if ((int0 == comp(1387, 38))) {
+    if ((int0 == comp(1387, 38))) {  // diango_items:holiday_items
         if ((int6 > 8)) {
             int7 = (int7 + int13);
         };
-        if ((int7 > IF_GETHEIGHT(comp(1387, 38)))) {
-            IF_SETSCROLLSIZE(0, int7, comp(1387, 38));
-            script72(90898471, 90898470, IF_GETSCROLLY(comp(1387, 38)));
+        if ((int7 > IF_GETHEIGHT(comp(1387, 38)))) {  // diango_items:holiday_items
+            IF_SETSCROLLSIZE(0, int7, comp(1387, 38));  // diango_items:holiday_items
+            script72(90898471, 90898470, IF_GETSCROLLY(comp(1387, 38)));  // diango_items:holiday_items
         } else {
-            IF_SETSCROLLSIZE(0, 0, comp(1387, 38));
+            IF_SETSCROLLSIZE(0, 0, comp(1387, 38));  // diango_items:holiday_items
             script72(90898471, 90898470, 0);
         };
     };

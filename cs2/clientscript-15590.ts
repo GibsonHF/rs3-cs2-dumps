@@ -1,7 +1,7 @@
 //
 function script15590(int0: number): void {
-    var int1 = comp(1513, 41);
-    var int2 = comp(1513, 40);
+    var int1 = comp(1513, 41);  // graphics_options_v2_client:scrollbar
+    var int2 = comp(1513, 40);  // graphics_options_v2_client:advanced_build_area
     var int3 = ENUM_GETOUTPUTCOUNT(10849 as cs2enum);
     var int4 = (1 + int3);
     var int5 = (int4 / 2);

@@ -24,6 +24,6 @@ function script2355(int0: number): void {
     } else {
         int1 = enum_getvalue(0, 31, 2193 as cs2enum, varbitplayer_17138);
     };
-    IF_SETMODEL(int1, comp(884, 8));
+    IF_SETMODEL(int1, comp(884, 8));  // pop_captain_customise:legs
     return;
 }

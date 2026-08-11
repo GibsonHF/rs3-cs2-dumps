@@ -23,16 +23,16 @@ function script1711(int0: number, int1: number): void {
     var int22 = -1;
     var int23 = comp(-1, 65535);
     if ((int0 == 1)) {
-        IF_SETHIDE(true, comp(950, 10));
-        IF_SETHIDE(false, comp(950, 7));
+        IF_SETHIDE(true, comp(950, 10));  // pop_voyage_list:reroll_layer
+        IF_SETHIDE(false, comp(950, 7));  // pop_voyage_list:more_layer
         if ((varplayer_3416 == 0)) {
             if ((varbitplayer_17131 == 0)) {
-                IF_SETHIDE(false, comp(950, 275));
+                IF_SETHIDE(false, comp(950, 275));  // pop_voyage_list:list_more_no
             } else {
-                IF_SETHIDE(true, comp(950, 275));
+                IF_SETHIDE(true, comp(950, 275));  // pop_voyage_list:list_more_no
             };
         } else {
-            IF_SETHIDE(true, comp(950, 275));
+            IF_SETHIDE(true, comp(950, 275));  // pop_voyage_list:list_more_no
         };
         switch (int1) {
             case 1: {
@@ -48,12 +48,12 @@ function script1711(int0: number, int1: number): void {
                 break;
             }
         };
-        IF_SETHIDE(true, comp(950, 33));
-        IF_SETHIDE(true, comp(950, 53));
-        IF_SETHIDE(true, comp(950, 73));
+        IF_SETHIDE(true, comp(950, 33));  // pop_voyage_list:list_1_reroll
+        IF_SETHIDE(true, comp(950, 53));  // pop_voyage_list:list_2_reroll
+        IF_SETHIDE(true, comp(950, 73));  // pop_voyage_list:list_3_reroll
     } else {
-        IF_SETHIDE(false, comp(950, 10));
-        IF_SETHIDE(true, comp(950, 7));
+        IF_SETHIDE(false, comp(950, 10));  // pop_voyage_list:reroll_layer
+        IF_SETHIDE(true, comp(950, 7));  // pop_voyage_list:more_layer
         switch (int1) {
             case 1: {
                 int2 = varbitplayer_17115;
@@ -68,9 +68,9 @@ function script1711(int0: number, int1: number): void {
                 break;
             }
         };
-        IF_SETHIDE(false, comp(950, 33));
-        IF_SETHIDE(false, comp(950, 53));
-        IF_SETHIDE(false, comp(950, 73));
+        IF_SETHIDE(false, comp(950, 33));  // pop_voyage_list:list_1_reroll
+        IF_SETHIDE(false, comp(950, 53));  // pop_voyage_list:list_2_reroll
+        IF_SETHIDE(false, comp(950, 73));  // pop_voyage_list:list_3_reroll
     };
     switch (int1) {
         case 1: {

@@ -1,7 +1,7 @@
 //
 function script18819(): void {
-    IF_SETHIDE(false, comp(488, 64));
-    IF_SETHIDE(true, comp(488, 0));
+    IF_SETHIDE(false, comp(488, 64));  // trh184_overlay:splash_screen
+    IF_SETHIDE(true, comp(488, 0));  // trh184_overlay:universe
     var int0 = 0;
     stack(31981632);
     stack(int0);

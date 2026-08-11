@@ -1,6 +1,6 @@
 //
 function script8957(int0: number, int1: number): void {
-    var int2 = comp(1496, 222);
+    var int2 = comp(1496, 222);  // 6awe1_onboarding:pips
     CC_DELETEALL(int2);
     var int3 = 0;
     var int4 = 0;

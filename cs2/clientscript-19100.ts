@@ -1,6 +1,6 @@
 //
 function script19100(): void {
-    CC_DELETEALL(comp(1147, 4));
+    CC_DELETEALL(comp(1147, 4));  // trh199_overlay:reward_grid
     if ((varbitplayer_55928 == 0)) {
         return;
     };
@@ -30,17 +30,17 @@ function script19100(): void {
                 int4 = (int4 + 1);
                 script7920(int2, (int3 + 1), int4, 0, int3, 0, 0, 1, 1, 32, 32, 0, 0, 34132);
             } else if ((int8 == 1)) {
-                if ((CC_FINDBYCATEGORY(comp(1147, 4), (int3 + 1), 0) == 1)) {
+                if ((CC_FINDBYCATEGORY(comp(1147, 4), (int3 + 1), 0) == 1)) {  // trh199_overlay:reward_grid
                     CC_SETGRAPHIC(34130 as graphic);
                 };
-                IF_SETTEXT(OC_NAME(int5), comp(1147, 153));
+                IF_SETTEXT(OC_NAME(int5), comp(1147, 153));  // trh199_overlay:current_crafting_text
                 int8 = 0;
             };
         } else if ((int8 == 1)) {
-            if ((CC_FINDBYCATEGORY(comp(1147, 4), (int3 + 1), 0) == 1)) {
+            if ((CC_FINDBYCATEGORY(comp(1147, 4), (int3 + 1), 0) == 1)) {  // trh199_overlay:reward_grid
                 CC_SETGRAPHIC(34130 as graphic);
             };
-            IF_SETTEXT(OC_NAME(int5), comp(1147, 153));
+            IF_SETTEXT(OC_NAME(int5), comp(1147, 153));  // trh199_overlay:current_crafting_text
             int8 = 0;
         };
         int4 = 0;

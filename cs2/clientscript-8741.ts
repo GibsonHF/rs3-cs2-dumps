@@ -12,7 +12,7 @@ function script8741(int0: number): void {
     var int3 = script2257(int1);
     varclient_4167 = 1;
     if ((int2 != int3)) {
-        IF_SETONRESIZE(callback(script8883, int0), comp(1477, 26));
+        IF_SETONRESIZE(callback(script8883, int0), comp(1477, 26));  // toplevel_v2:background_colour
         script8885(int0);
         varclient_3474 = 1;
     } else {

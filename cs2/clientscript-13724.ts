@@ -1,8 +1,8 @@
 //
 function script13724(int0: number): void {
-    var int1 = IF_GETHEIGHT(comp(1911, 4));
+    var int1 = IF_GETHEIGHT(comp(1911, 4));  // mtxfest17_tapper_overlay:progress_bar_bar_layer
     if ((int1 == varbitplayer_38525)) {
-        IF_SETONTIMER(callback(), comp(1911, 4));
+        IF_SETONTIMER(callback(), comp(1911, 4));  // mtxfest17_tapper_overlay:progress_bar_bar_layer
         return;
     };
     if ((int0 == 1)) {
@@ -10,6 +10,6 @@ function script13724(int0: number): void {
     } else {
         int1 = (int1 - 1);
     };
-    IF_SETSIZE(4, int1, 1, 0, comp(1911, 4));
+    IF_SETSIZE(4, int1, 1, 0, comp(1911, 4));  // mtxfest17_tapper_overlay:progress_bar_bar_layer
     return;
 }

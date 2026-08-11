@@ -1,8 +1,8 @@
 //
 function script10600(int0: number, int1: number): void {
-    var int2 = comp(1536, 3);
+    var int2 = comp(1536, 3);  // elfcity_voice_overlay:voice_1_icon
     if ((int0 == 2)) {
-        int2 = comp(1536, 4);
+        int2 = comp(1536, 4);  // elfcity_voice_overlay:voice_2_icon
     };
     var string0 = "";
     switch (IF_GETGRAPHIC(int2)) {

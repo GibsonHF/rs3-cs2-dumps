@@ -38,9 +38,9 @@ function script9184(): void {
         return;
     };
     if ((struct_getparam(enum_getvalue(0, 73, int1, varplayer_3233), 2701) > 0)) {
-        IF_SETHIDE(false, comp(1344, 101));
+        IF_SETHIDE(false, comp(1344, 101));  // minigames_main:teleport_message
     };
-    IF_SETHIDE(false, comp(1344, 107));
-    IF_SETHIDE(true, comp(1344, 106));
+    IF_SETHIDE(false, comp(1344, 107));  // minigames_main:checkbox_deselected_layer
+    IF_SETHIDE(true, comp(1344, 106));  // minigames_main:checkbox_selected_layer
     return;
 }

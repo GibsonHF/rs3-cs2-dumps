@@ -7,6 +7,6 @@ function script2201(): void {
     };
     script2209();
     IF_SETHIDE(false, varclient_1136);
-    IF_SETONTIMER(callback(script2210), comp(932, 1));
+    IF_SETONTIMER(callback(script2210), comp(932, 1));  // easter10_nuts:content
     return;
 }

@@ -7,12 +7,12 @@ function script11276(int0: number, int1: number): void {
     script11275(int0, (int1 * 10), 28303);
     if ((varclient_4777 > 0)) {
         if ((varclient_4777 <= ENUM_GETOUTPUTCOUNT(9458 as cs2enum))) {
-            IF_SETHIDE(true, comp(1611, 16));
+            IF_SETHIDE(true, comp(1611, 16));  // stat_select:confirm_disabled
         } else {
-            IF_SETHIDE(false, comp(1611, 16));
+            IF_SETHIDE(false, comp(1611, 16));  // stat_select:confirm_disabled
         };
     } else {
-        IF_SETHIDE(false, comp(1611, 16));
+        IF_SETHIDE(false, comp(1611, 16));  // stat_select:confirm_disabled
     };
     return;
 }

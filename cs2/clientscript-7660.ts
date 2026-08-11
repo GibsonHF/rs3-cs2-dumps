@@ -1,10 +1,10 @@
 //
 function script7660(): void {
     if ((script5909(1405) == 1)) {
-        IF_TRIGGEROP(comp(1405, 20), -1, 1);
+        IF_TRIGGEROP(comp(1405, 20), -1, 1);  // bugreport_interface:bugreport_interface_close_button
     };
-    IF_SETTEXT("", comp(1405, 26));
-    IF_SETTEXT("", comp(1405, 12));
+    IF_SETTEXT("", comp(1405, 26));  // bugreport_interface:input_repro
+    IF_SETTEXT("", comp(1405, 12));  // bugreport_interface:input_text
     varclient_2751 = false;
     varbitplayer_18337 = 0;
     varbitplayer_18336 = 0;

@@ -5,13 +5,13 @@ function script10212(): void {
     var int2 = 0;
     var int3 = 0;
     var int4 = 0;
-    var int5 = IF_GETPARENTLAYER(comp(1375, 0));
+    var int5 = IF_GETPARENTLAYER(comp(1375, 0));  // headbar_highlight:main
     var int6 = 0;
     var int7 = 0;
     var int8 = 0;
     var int9 = 0;
     var int10 = 0;
-    if ((IF_FIND(comp(1375, 0)) == 1)) {
+    if ((IF_FIND(comp(1375, 0)) == 1)) {  // headbar_highlight:main
         CC_SETSIZE(66, 6, 0, 0);
     };
     [int0, int1, int2] = GET_ENTITY_SCREEN_POSITION(GET_ENTITY_OVERLAY_HEIGHT());
@@ -20,7 +20,7 @@ function script10212(): void {
         int3 = IF_GETWIDTH(int5);
         int4 = IF_GETHEIGHT(int5);
     };
-    if ((IF_FIND(comp(1375, 0)) == 1)) {
+    if ((IF_FIND(comp(1375, 0)) == 1)) {  // headbar_highlight:main
         int0 = (int0 - (CC_GETWIDTH() / 2));
         int1 = ((int1 - (CC_GETHEIGHT() / 2)) - 15);
         if ((int0 < 0)) {

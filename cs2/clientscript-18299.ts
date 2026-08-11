@@ -42,10 +42,10 @@ function script18299(): void {
     };
     var int11 = 0;
     var int12 = 0;
-    if ((IF_FIND(comp(635, 13)) == 1)) {
+    if ((IF_FIND(comp(635, 13)) == 1)) {  // combatv2_ability_necromancy_conjure_undead_army_customisation:ability_list_grid
         [int11, int12] = CC_SETONHORIZONTALPINCH(CC_GRID_GETNUMCOLUMNS(), CC_GRID_GETNUMROWS(), int5, unk11080(int6));
         CC_SETSIZE(0, int12, 1, 0);
-        IF_SETSCROLLSIZE(0, int12, comp(635, 12));
+        IF_SETSCROLLSIZE(0, int12, comp(635, 12));  // combatv2_ability_necromancy_conjure_undead_army_customisation:ability_list_scroll_layer
     };
     script7791(41615374, 41615372);
     return;

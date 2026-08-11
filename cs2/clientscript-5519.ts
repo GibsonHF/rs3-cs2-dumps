@@ -14,9 +14,9 @@ function script5519(): void {
         int2 = (int2 + 1);
     };
     if ((varbitplayer_41365 == 1)) {
-        IF_SETTEXT("Once per day you may choose the boss encountered in a dungeon.", comp(217, 4));
+        IF_SETTEXT("Once per day you may choose the boss encountered in a dungeon.", comp(217, 4));  // rand_pick_boss:desc_text
     } else {
-        IF_SETTEXT("Your skillcape allows you to choose the next boss encountered in a dungeon.", comp(217, 4));
+        IF_SETTEXT("Your skillcape allows you to choose the next boss encountered in a dungeon.", comp(217, 4));  // rand_pick_boss:desc_text
     };
     return;
 }

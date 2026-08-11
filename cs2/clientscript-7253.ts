@@ -18,7 +18,7 @@ function script7253(): void {
             int2 = 15582 as graphic;
             int4 = 15583;
         };
-        if ((CC_FIND(comp(916, 181), int0) == 1)) {
+        if ((CC_FIND(comp(916, 181), int0) == 1)) {  // pop_ship:crew_layer_backgrounds
             if ((varplayer_3393 == int0)) {
                 CC_SETGRAPHIC(int3);
                 CC_SETONMOUSEOVER(callback());
@@ -29,7 +29,7 @@ function script7253(): void {
                 CC_SETONMOUSELEAVE(callback(script688, -2147483645, CC_GETID(), int2));
             };
         };
-        if ((CC_FIND(comp(916, 185), int0) == 1)) {
+        if ((CC_FIND(comp(916, 185), int0) == 1)) {  // pop_ship:captain_layer_backgrounds
             if ((varplayer_3393 == int0)) {
                 CC_SETGRAPHIC(int3);
                 CC_SETONMOUSEOVER(callback());

@@ -10,14 +10,14 @@ function script15238(int0: number): void {
             return;
         }
     };
-    var int2 = comp(1477, 4);
+    var int2 = comp(1477, 4);  // toplevel_v2:steam_listener
     switch (IF_GETTOP()) {
         case 906: {
-            int2 = comp(906, 19);
+            int2 = comp(906, 19);  // lobbyscreen:rebilling_listener
             break;
         }
         case 744: {
-            int2 = comp(744, 192);
+            int2 = comp(744, 192);  // loginscreen:options
             break;
         }
     };

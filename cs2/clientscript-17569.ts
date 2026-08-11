@@ -1,7 +1,7 @@
 //
 function script17569(string0: string, string1: string): void {
-    var int0 = comp(1165, 5);
-    var int1 = comp(1165, 6);
+    var int0 = comp(1165, 5);  // messagescroll_extended:content_holding_layer
+    var int1 = comp(1165, 6);  // messagescroll_extended:content_scrollbar_layer
     var int2 = IF_GETWIDTH(int0);
     var int3 = IF_GETHEIGHT(int0);
     var int4 = script20478(string1, int2, 17473, 0);

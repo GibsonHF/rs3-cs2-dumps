@@ -1,9 +1,9 @@
 //
 function script8144(): void {
-    var int0 = comp(1431, 1);
-    var int1 = comp(1431, 8);
-    var int2 = comp(1431, 0);
-    var int3 = comp(1431, 12);
+    var int0 = comp(1431, 1);  // toplevel_v2_ribbon:ribbon_root
+    var int1 = comp(1431, 8);  // toplevel_v2_ribbon:window_holder
+    var int2 = comp(1431, 0);  // toplevel_v2_ribbon:window_build
+    var int3 = comp(1431, 12);  // toplevel_v2_ribbon:window_click
     var int4 = IF_GETWIDTH(int0);
     if ((int4 == 0)) {
         return;

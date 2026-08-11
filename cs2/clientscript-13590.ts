@@ -3,21 +3,21 @@ function script13590(int0: number, int1: number): void {
     if ((script12082() == 0)) {
         return;
     };
-    var int2 = comp(1894, 17);
-    var int3 = comp(1894, 16);
-    var int4 = comp(1894, 18);
-    var int5 = comp(1894, 19);
-    var int6 = comp(1894, 20);
+    var int2 = comp(1894, 17);  // cheevo_paths:paths_card_build_layer
+    var int3 = comp(1894, 16);  // cheevo_paths:paths_recbutton_click_layer
+    var int4 = comp(1894, 18);  // cheevo_paths:paths_guidance_build_layer
+    var int5 = comp(1894, 19);  // cheevo_paths:paths_jump_build_layer
+    var int6 = comp(1894, 20);  // cheevo_paths:paths_card_scroll_layer
     var int7 = 124125208;
     var int8 = 124125209;
-    var int9 = comp(1894, 4);
-    var int10 = comp(1894, 5);
+    var int9 = comp(1894, 4);  // cheevo_paths:paths_dropdown_build
+    var int10 = comp(1894, 5);  // cheevo_paths:paths_dropdown_click
     var int11 = 124125214;
     var int12 = 124125215;
-    var int13 = comp(1894, 7);
+    var int13 = comp(1894, 7);  // cheevo_paths:paths_progress_layer_wrapper
     var int14 = 124125195;
     var int15 = 124125196;
-    var int16 = comp(1894, 21);
+    var int16 = comp(1894, 21);  // cheevo_paths:paths_filter_wrapper_layer
     var int17 = 124125216;
     var int18 = 124125221;
     var int19 = 124125225;

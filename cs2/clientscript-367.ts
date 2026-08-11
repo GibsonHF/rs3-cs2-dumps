@@ -24,8 +24,8 @@ function script367(int0: number): void {
         script2464();
         script2466();
     };
-    IF_SETHIDE(int0, comp(1477, 815));
-    IF_SETHIDE(int0, comp(1477, 878));
+    IF_SETHIDE(int0, comp(1477, 815));  // toplevel_v2:fullscreen_pop_ups
+    IF_SETHIDE(int0, comp(1477, 878));  // toplevel_v2:low_fps_layer
     if ((int0 == true)) {
         CLIENTOPTION_SET(6, 0);
     } else {

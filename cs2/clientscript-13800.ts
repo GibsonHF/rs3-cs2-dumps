@@ -36,7 +36,7 @@ function script13800(int0: number, int1: number): void {
             if ((varbitplayer_27171 == 1)) {
                 SOUND_SYNTH_VOLUME(885, 1, 0, 255);
             };
-            if ((IF_GETHIDE(comp(1234, 2)) == false)) {
+            if ((IF_GETHIDE(comp(1234, 2)) == false)) {  // clock_wrapper:fav_icon
                 script8054(80871426, -1, 0, 200);
             };
         };

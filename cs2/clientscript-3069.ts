@@ -5,9 +5,9 @@ function script3069(int0: number, int1: number, int2: number): void {
     var int5 = comp(-1, 65535);
     switch (int0) {
         case 23920658: {
-            int3 = comp(365, 5);
-            int4 = comp(365, 0);
-            int5 = comp(365, 11);
+            int3 = comp(365, 5);  // settings:popup_container
+            int4 = comp(365, 0);  // settings:popup_build
+            int5 = comp(365, 11);  // settings:popup_click
             break;
         }
         default: {

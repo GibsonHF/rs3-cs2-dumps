@@ -1,29 +1,29 @@
 //
 function script2242(): void {
     SOUND_SYNTH(27502, 3, 0);
-    IF_SETTEXT(`Turns taken score: ${inttostring(varplayer_2948, 10)} x 101 = ${inttostring((varplayer_2948 * 101), 10)}`, comp(927, 2));
-    IF_SETTEXT(`Resources spare: ${inttostring((varplayer_2962 + (varplayer_2961 + varplayer_2960)), 10)} x -10 = -${inttostring(((varplayer_2962 + (varplayer_2961 + varplayer_2960)) * 10), 10)}`, comp(927, 6));
+    IF_SETTEXT(`Turns taken score: ${inttostring(varplayer_2948, 10)} x 101 = ${inttostring((varplayer_2948 * 101), 10)}`, comp(927, 2));  // easter10_gameresult:turnscore
+    IF_SETTEXT(`Resources spare: ${inttostring((varplayer_2962 + (varplayer_2961 + varplayer_2960)), 10)} x -10 = -${inttostring(((varplayer_2962 + (varplayer_2961 + varplayer_2960)) * 10), 10)}`, comp(927, 6));  // easter10_gameresult:resourcesscore
     if ((varplayer_2948 < 16)) {
-        IF_SETTEXT("Completed within turn limit: -100", comp(927, 7));
+        IF_SETTEXT("Completed within turn limit: -100", comp(927, 7));  // easter10_gameresult:underparscore
     } else {
-        IF_SETTEXT("Not completed within turn limit: 0", comp(927, 7));
+        IF_SETTEXT("Not completed within turn limit: 0", comp(927, 7));  // easter10_gameresult:underparscore
     };
-    IF_SETTEXT(`Workers employed: ${inttostring(varplayer_2955, 10)} x -10 = -${inttostring((varplayer_2955 * 10), 10)}`, comp(927, 8));
-    IF_SETTEXT(`Turns taken: ${inttostring(varplayer_2948, 10)}`, comp(927, 1));
+    IF_SETTEXT(`Workers employed: ${inttostring(varplayer_2955, 10)} x -10 = -${inttostring((varplayer_2955 * 10), 10)}`, comp(927, 8));  // easter10_gameresult:workersemployedscore
+    IF_SETTEXT(`Turns taken: ${inttostring(varplayer_2948, 10)}`, comp(927, 1));  // easter10_gameresult:turncount
     if ((varbitplayer_14974 == 0)) {
-        IF_SETTEXT("Oven not repaired: 50", comp(927, 3));
+        IF_SETTEXT("Oven not repaired: 50", comp(927, 3));  // easter10_gameresult:incubatorrepaired
     } else {
-        IF_SETTEXT("Oven repaired: 0", comp(927, 3));
+        IF_SETTEXT("Oven repaired: 0", comp(927, 3));  // easter10_gameresult:incubatorrepaired
     };
     if ((varbitplayer_14976 == 0)) {
-        IF_SETTEXT("Conveyor not repaired: 50", comp(927, 4));
+        IF_SETTEXT("Conveyor not repaired: 50", comp(927, 4));  // easter10_gameresult:conveyorrepaired
     } else {
-        IF_SETTEXT("Conveyor repaired: 0", comp(927, 4));
+        IF_SETTEXT("Conveyor repaired: 0", comp(927, 4));  // easter10_gameresult:conveyorrepaired
     };
     if ((varbitplayer_14975 == 0)) {
-        IF_SETTEXT("Painter not repaired: 50", comp(927, 5));
+        IF_SETTEXT("Painter not repaired: 50", comp(927, 5));  // easter10_gameresult:painterepaired
     } else {
-        IF_SETTEXT("Painter repaired: 0", comp(927, 5));
+        IF_SETTEXT("Painter repaired: 0", comp(927, 5));  // easter10_gameresult:painterepaired
     };
     var int0 = 0;
     int0 = (varplayer_2948 * 101);
@@ -48,9 +48,9 @@ function script2242(): void {
         int0 = 32768;
     };
     if ((int0 == varbitplayer_14989)) {
-        IF_SETTEXT(`Final score: ${inttostring(int0, 10)} (New best score)`, comp(927, 0));
+        IF_SETTEXT(`Final score: ${inttostring(int0, 10)} (New best score)`, comp(927, 0));  // easter10_gameresult:finalscore
     } else {
-        IF_SETTEXT(`Final score: ${inttostring(int0, 10)}`, comp(927, 0));
+        IF_SETTEXT(`Final score: ${inttostring(int0, 10)}`, comp(927, 0));  // easter10_gameresult:finalscore
     };
     return;
 }

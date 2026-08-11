@@ -8,17 +8,17 @@ function script2940(int0: number): void {
     } else if (((int1 == 21) || (int1 == 1))) {
         return;
     };
-    IF_SETTEXT(script1346(varclient_2576), comp(744, 111));
-    IF_SETTEXT(script2949(varclient_2577), comp(744, 134));
-    if ((IF_GETHIDE(comp(744, 319)) == 0)) {
+    IF_SETTEXT(script1346(varclient_2576), comp(744, 111));  // loginscreen:toggle_remember_username_login
+    IF_SETTEXT(script2949(varclient_2577), comp(744, 134));  // loginscreen:login_button_disabled
+    if ((IF_GETHIDE(comp(744, 319)) == 0)) {  // loginscreen:recover_main
         script15651(113);
         varclient_1099 = STRING_LENGTH(varclient_6896);
         script3237(48759122, 48759123, 48759124, varclient_6896, 113, 212);
-    } else if ((IF_GETHIDE(comp(744, 147)) == 0)) {
+    } else if ((IF_GETHIDE(comp(744, 147)) == 0)) {  // loginscreen:auth_input_group_graphics
         script15651(114);
         varclient_1099 = STRING_LENGTH(varclient_4192);
         script3237(48758948, 48758949, 48758950, varclient_4192, 114, 212);
-    } else if ((IF_GETHIDE(comp(744, 93)) == 0)) {
+    } else if ((IF_GETHIDE(comp(744, 93)) == 0)) {  // loginscreen:username_input_group_graphic
         if ((STRING_LENGTH(varclient_2576) > 0)) {
             script15651(101);
         } else {

@@ -4,27 +4,27 @@ function script12493(int0: number, int1: number): void {
     var int3 = comp(-1, 65535);
     switch (int0) {
         case 1: {
-            int3 = comp(1757, 107);
+            int3 = comp(1757, 107);  // mm16_cases:progress_bar_blue_join_1
             break;
         }
         case 2: {
-            int3 = comp(1757, 108);
+            int3 = comp(1757, 108);  // mm16_cases:progress_bar_blue_join_2
             break;
         }
         case 3: {
-            int3 = comp(1757, 109);
+            int3 = comp(1757, 109);  // mm16_cases:progress_bar_blue_join_3
             break;
         }
         case 4: {
-            int3 = comp(1757, 110);
+            int3 = comp(1757, 110);  // mm16_cases:progress_bar_blue_join_4
             break;
         }
         case 5: {
-            int3 = comp(1757, 111);
+            int3 = comp(1757, 111);  // mm16_cases:progress_bar_blue_join_5
             break;
         }
         case 6: {
-            int3 = comp(1757, 112);
+            int3 = comp(1757, 112);  // mm16_cases:progress_bar_blue_join_6
             break;
         }
     };

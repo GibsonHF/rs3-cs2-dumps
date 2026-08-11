@@ -23,8 +23,8 @@ function script4460(int0: number): void {
         if ((script5539(int2) == 1)) {
             return;
         };
-        IF_SETTEXT(script4263(int2, int0), comp(1178, 126));
-        IF_SETHIDE(false, comp(1178, 122));
+        IF_SETTEXT(script4263(int2, int0), comp(1178, 126));  // trh_bingo:task_desc_text
+        IF_SETHIDE(false, comp(1178, 122));  // trh_bingo:task_desc
         return;
     };
     if ((int3 == 0)) {
@@ -36,7 +36,7 @@ function script4460(int0: number): void {
     if ((script5539(int2) == 1)) {
         return;
     };
-    IF_SETTEXT(script4263(int2, int0), comp(1178, 126));
-    IF_SETHIDE(false, comp(1178, 122));
+    IF_SETTEXT(script4263(int2, int0), comp(1178, 126));  // trh_bingo:task_desc_text
+    IF_SETHIDE(false, comp(1178, 122));  // trh_bingo:task_desc
     return;
 }

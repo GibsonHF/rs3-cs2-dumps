@@ -12,7 +12,7 @@ function script430(int0: number, int1: number): void {
             } else {
                 int2 = varbitplayer_5415;
             };
-            int5 = comp(1024, 39);
+            int5 = comp(1024, 39);  // conq_side_command:name_1
             break;
         }
         case 67108874: {
@@ -21,7 +21,7 @@ function script430(int0: number, int1: number): void {
             } else {
                 int2 = varbitplayer_5416;
             };
-            int5 = comp(1024, 32);
+            int5 = comp(1024, 32);  // conq_side_command:name_2
             break;
         }
         case 67108876: {
@@ -30,7 +30,7 @@ function script430(int0: number, int1: number): void {
             } else {
                 int2 = varbitplayer_5417;
             };
-            int5 = comp(1024, 25);
+            int5 = comp(1024, 25);  // conq_side_command:name_3
             break;
         }
         case 67108878: {
@@ -39,7 +39,7 @@ function script430(int0: number, int1: number): void {
             } else {
                 int2 = varbitplayer_5418;
             };
-            int5 = comp(1024, 18);
+            int5 = comp(1024, 18);  // conq_side_command:name_4
             break;
         }
         default: {

@@ -6,7 +6,7 @@ function script6967(int0: number, int1: number, int2: number, int3: number, int4
     if ((varclient_4083 == 4)) {
         return;
     };
-    var int7 = comp(1253, 519);
+    var int7 = comp(1253, 519);  // wheel_of_fortune:ticker_tooltip_layer
     var int8 = 0;
     var int9 = 0;
     var int10 = 0;
@@ -17,9 +17,9 @@ function script6967(int0: number, int1: number, int2: number, int3: number, int4
             int10 = ((int9 - 35) / 2);
             int8 = MAX(MIN(int8, int10), (0 - int10));
             int8 = ((int8 + (int9 / 2)) - 9);
-            IF_SETPOSITION(int8, 0, 0, 2, comp(1253, 531));
-            IF_SETSIZE((int8 - 17), 18, 0, 0, comp(1253, 528));
-            IF_SETSIZE(((int9 - int8) - 34), 18, 0, 0, comp(1253, 529));
+            IF_SETPOSITION(int8, 0, 0, 2, comp(1253, 531));  // wheel_of_fortune:ticker_tooltip_arrow
+            IF_SETSIZE((int8 - 17), 18, 0, 0, comp(1253, 528));  // wheel_of_fortune:ticker_tooltip_border_sw
+            IF_SETSIZE(((int9 - int8) - 34), 18, 0, 0, comp(1253, 529));  // wheel_of_fortune:ticker_tooltip_border_se
             return;
         } else if (((int1 == -1) && (IF_FIND(int0) == 1))) {
             int9 = IF_GETWIDTH(int7);
@@ -27,9 +27,9 @@ function script6967(int0: number, int1: number, int2: number, int3: number, int4
             int10 = ((int9 - 35) / 2);
             int8 = MAX(MIN(int8, int10), (0 - int10));
             int8 = ((int8 + (int9 / 2)) - 9);
-            IF_SETPOSITION(int8, 0, 0, 2, comp(1253, 531));
-            IF_SETSIZE((int8 - 17), 18, 0, 0, comp(1253, 528));
-            IF_SETSIZE(((int9 - int8) - 34), 18, 0, 0, comp(1253, 529));
+            IF_SETPOSITION(int8, 0, 0, 2, comp(1253, 531));  // wheel_of_fortune:ticker_tooltip_arrow
+            IF_SETSIZE((int8 - 17), 18, 0, 0, comp(1253, 528));  // wheel_of_fortune:ticker_tooltip_border_sw
+            IF_SETSIZE(((int9 - int8) - 34), 18, 0, 0, comp(1253, 529));  // wheel_of_fortune:ticker_tooltip_border_se
             return;
         };
     };

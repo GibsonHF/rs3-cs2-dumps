@@ -13,7 +13,7 @@ function script8412(int0: number): void {
             CC_SETONDRAGCOMPLETE(callback());
         } else if ((int0 != -1)) {
             CC_SETMOUSEOVERCURSOR(194);
-            CC_SETDRAGGABLE(comp(1477, 27), -1);
+            CC_SETDRAGGABLE(comp(1477, 27), -1);  // toplevel_v2:viewport
             CC_SETDRAGDEADTIME(1);
             CC_SETDRAGDEADZONE(1);
             CC_SETONDRAG(callback(script8301, int0, -2147483645, -2147483643, -2147483647, -2147483646));
@@ -21,7 +21,7 @@ function script8412(int0: number): void {
         };
     } else if ((int0 != -1)) {
         CC_SETMOUSEOVERCURSOR(194);
-        CC_SETDRAGGABLE(comp(1477, 27), -1);
+        CC_SETDRAGGABLE(comp(1477, 27), -1);  // toplevel_v2:viewport
         CC_SETDRAGDEADTIME(1);
         CC_SETDRAGDEADZONE(1);
         CC_SETONDRAG(callback(script8301, int0, -2147483645, -2147483643, -2147483647, -2147483646));

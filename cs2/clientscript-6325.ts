@@ -17,11 +17,11 @@ function script6325(): void {
         script6326(1, 85458956, 85458957);
         string0 = "<col=787878>";
     };
-    IF_SETGRAPHIC(int0, comp(1304, 4));
+    IF_SETGRAPHIC(int0, comp(1304, 4));  // carni_treasurechest:key
     if ((varclient_1935 > 0)) {
-        IF_SETTEXT(`${string0}${inttostring(MIN(varclient_1935, 999999999), 10)}</col>`, comp(1304, 3));
+        IF_SETTEXT(`${string0}${inttostring(MIN(varclient_1935, 999999999), 10)}</col>`, comp(1304, 3));  // carni_treasurechest:pin
     } else {
-        IF_SETTEXT(`${string0}None</col>`, comp(1304, 3));
+        IF_SETTEXT(`${string0}None</col>`, comp(1304, 3));  // carni_treasurechest:pin
     };
     return;
 }

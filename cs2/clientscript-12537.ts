@@ -1,5 +1,5 @@
 //
 function script12537(): void {
-    IF_SETHIDE(true, comp(1762, 27));
+    IF_SETHIDE(true, comp(1762, 27));  // invent_techtree:techtree_selected
     return;
 }

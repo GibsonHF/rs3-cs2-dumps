@@ -27,13 +27,13 @@ function script10941(): void {
         int0 = (int0 + 1);
     };
     if ((int1 == 0)) {
-        if ((IF_GETHIDE(comp(907, 186)) == true)) {
-            IF_SETHIDE(false, comp(907, 187));
+        if ((IF_GETHIDE(comp(907, 186)) == true)) {  // lobbyscreen_pane_playerinfo:no_news
+            IF_SETHIDE(false, comp(907, 187));  // lobbyscreen_pane_playerinfo:no_articles
         } else {
-            IF_SETHIDE(true, comp(907, 187));
+            IF_SETHIDE(true, comp(907, 187));  // lobbyscreen_pane_playerinfo:no_articles
         };
     } else {
-        IF_SETHIDE(true, comp(907, 187));
+        IF_SETHIDE(true, comp(907, 187));  // lobbyscreen_pane_playerinfo:no_articles
     };
     script10944(int5, 59441299, 59441336);
     return;

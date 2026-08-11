@@ -1,76 +1,76 @@
 //
 function script4807(): void {
-    CC_DELETEALL(comp(1258, 453));
-    CC_DELETEALL(comp(1258, 464));
-    CC_DELETEALL(comp(1258, 463));
-    CC_DELETEALL(comp(1258, 462));
-    CC_DELETEALL(comp(1258, 461));
-    CC_DELETEALL(comp(1258, 455));
-    CC_DELETEALL(comp(1258, 441));
-    CC_DELETEALL(comp(1258, 452));
-    CC_DELETEALL(comp(1258, 451));
-    CC_DELETEALL(comp(1258, 450));
-    CC_DELETEALL(comp(1258, 449));
-    CC_DELETEALL(comp(1258, 443));
-    CC_DELETEALL(comp(1258, 429));
-    CC_DELETEALL(comp(1258, 440));
-    CC_DELETEALL(comp(1258, 439));
-    CC_DELETEALL(comp(1258, 438));
-    CC_DELETEALL(comp(1258, 437));
-    CC_DELETEALL(comp(1258, 431));
-    CC_DELETEALL(comp(1258, 376));
-    CC_DELETEALL(comp(1258, 389));
-    CC_DELETEALL(comp(1258, 388));
-    CC_DELETEALL(comp(1258, 386));
-    CC_DELETEALL(comp(1258, 387));
-    CC_DELETEALL(comp(1258, 385));
-    CC_DELETEALL(comp(1258, 384));
-    CC_DELETEALL(comp(1258, 378));
-    CC_DELETEALL(comp(1258, 362));
-    CC_DELETEALL(comp(1258, 375));
-    CC_DELETEALL(comp(1258, 374));
-    CC_DELETEALL(comp(1258, 372));
-    CC_DELETEALL(comp(1258, 373));
-    CC_DELETEALL(comp(1258, 371));
-    CC_DELETEALL(comp(1258, 370));
-    CC_DELETEALL(comp(1258, 364));
-    CC_DELETEALL(comp(1258, 348));
-    CC_DELETEALL(comp(1258, 361));
-    CC_DELETEALL(comp(1258, 360));
-    CC_DELETEALL(comp(1258, 358));
-    CC_DELETEALL(comp(1258, 359));
-    CC_DELETEALL(comp(1258, 357));
-    CC_DELETEALL(comp(1258, 356));
-    CC_DELETEALL(comp(1258, 350));
-    CC_DELETEALL(comp(1258, 293));
-    CC_DELETEALL(comp(1258, 308));
-    CC_DELETEALL(comp(1258, 307));
-    CC_DELETEALL(comp(1258, 305));
-    CC_DELETEALL(comp(1258, 303));
-    CC_DELETEALL(comp(1258, 306));
-    CC_DELETEALL(comp(1258, 304));
-    CC_DELETEALL(comp(1258, 302));
-    CC_DELETEALL(comp(1258, 301));
-    CC_DELETEALL(comp(1258, 295));
-    CC_DELETEALL(comp(1258, 277));
-    CC_DELETEALL(comp(1258, 292));
-    CC_DELETEALL(comp(1258, 291));
-    CC_DELETEALL(comp(1258, 289));
-    CC_DELETEALL(comp(1258, 287));
-    CC_DELETEALL(comp(1258, 290));
-    CC_DELETEALL(comp(1258, 288));
-    CC_DELETEALL(comp(1258, 286));
-    CC_DELETEALL(comp(1258, 285));
-    CC_DELETEALL(comp(1258, 279));
-    CC_DELETEALL(comp(1258, 261));
-    CC_DELETEALL(comp(1258, 276));
-    CC_DELETEALL(comp(1258, 275));
-    CC_DELETEALL(comp(1258, 273));
-    CC_DELETEALL(comp(1258, 271));
-    CC_DELETEALL(comp(1258, 274));
-    CC_DELETEALL(comp(1258, 272));
-    CC_DELETEALL(comp(1258, 270));
-    CC_DELETEALL(comp(1258, 269));
-    CC_DELETEALL(comp(1258, 263));
+    CC_DELETEALL(comp(1258, 453));  // clan_stronghold_main_decor:custom_details_section_1_1
+    CC_DELETEALL(comp(1258, 464));  // clan_stronghold_main_decor:custom_details_icon_1_1
+    CC_DELETEALL(comp(1258, 463));  // clan_stronghold_main_decor:custom_details_resource_icon_1_1
+    CC_DELETEALL(comp(1258, 462));  // clan_stronghold_main_decor:custom_details_resource_amount_1_1
+    CC_DELETEALL(comp(1258, 461));  // clan_stronghold_main_decor:custom_details_select_1_1
+    CC_DELETEALL(comp(1258, 455));  // clan_stronghold_main_decor:custom_details_background_1_1
+    CC_DELETEALL(comp(1258, 441));  // clan_stronghold_main_decor:custom_details_section_2_1
+    CC_DELETEALL(comp(1258, 452));  // clan_stronghold_main_decor:custom_details_icon_2_1
+    CC_DELETEALL(comp(1258, 451));  // clan_stronghold_main_decor:custom_details_resource_icon_2_1
+    CC_DELETEALL(comp(1258, 450));  // clan_stronghold_main_decor:custom_details_resource_amount_2_1
+    CC_DELETEALL(comp(1258, 449));  // clan_stronghold_main_decor:custom_details_select_2_1
+    CC_DELETEALL(comp(1258, 443));  // clan_stronghold_main_decor:custom_details_background_2_1
+    CC_DELETEALL(comp(1258, 429));  // clan_stronghold_main_decor:custom_details_section_3_1
+    CC_DELETEALL(comp(1258, 440));  // clan_stronghold_main_decor:custom_details_icon_3_1
+    CC_DELETEALL(comp(1258, 439));  // clan_stronghold_main_decor:custom_details_resource_icon_3_1
+    CC_DELETEALL(comp(1258, 438));  // clan_stronghold_main_decor:custom_details_resource_amount_3_1
+    CC_DELETEALL(comp(1258, 437));  // clan_stronghold_main_decor:custom_details_select_3_1
+    CC_DELETEALL(comp(1258, 431));  // clan_stronghold_main_decor:custom_details_background_3_1
+    CC_DELETEALL(comp(1258, 376));  // clan_stronghold_main_decor:custom_details_section_1_2
+    CC_DELETEALL(comp(1258, 389));  // clan_stronghold_main_decor:custom_details_icon_1_2
+    CC_DELETEALL(comp(1258, 388));  // clan_stronghold_main_decor:custom_details_resource_icon_1_2_1
+    CC_DELETEALL(comp(1258, 386));  // clan_stronghold_main_decor:custom_details_resource_icon_1_2_2
+    CC_DELETEALL(comp(1258, 387));  // clan_stronghold_main_decor:custom_details_resource_amount_1_2_1
+    CC_DELETEALL(comp(1258, 385));  // clan_stronghold_main_decor:custom_details_resource_amount_1_2_2
+    CC_DELETEALL(comp(1258, 384));  // clan_stronghold_main_decor:custom_details_select_1_2
+    CC_DELETEALL(comp(1258, 378));  // clan_stronghold_main_decor:custom_details_background_1_2
+    CC_DELETEALL(comp(1258, 362));  // clan_stronghold_main_decor:custom_details_section_2_2
+    CC_DELETEALL(comp(1258, 375));  // clan_stronghold_main_decor:custom_details_icon_2_2
+    CC_DELETEALL(comp(1258, 374));  // clan_stronghold_main_decor:custom_details_resource_icon_2_2_1
+    CC_DELETEALL(comp(1258, 372));  // clan_stronghold_main_decor:custom_details_resource_icon_2_2_2
+    CC_DELETEALL(comp(1258, 373));  // clan_stronghold_main_decor:custom_details_resource_amount_2_2_1
+    CC_DELETEALL(comp(1258, 371));  // clan_stronghold_main_decor:custom_details_resource_amount_2_2_2
+    CC_DELETEALL(comp(1258, 370));  // clan_stronghold_main_decor:custom_details_select_2_2
+    CC_DELETEALL(comp(1258, 364));  // clan_stronghold_main_decor:custom_details_background_2_2
+    CC_DELETEALL(comp(1258, 348));  // clan_stronghold_main_decor:custom_details_section_3_2
+    CC_DELETEALL(comp(1258, 361));  // clan_stronghold_main_decor:custom_details_icon_3_2
+    CC_DELETEALL(comp(1258, 360));  // clan_stronghold_main_decor:custom_details_resource_icon_3_2_1
+    CC_DELETEALL(comp(1258, 358));  // clan_stronghold_main_decor:custom_details_resource_icon_3_2_2
+    CC_DELETEALL(comp(1258, 359));  // clan_stronghold_main_decor:custom_details_resource_amount_3_2_1
+    CC_DELETEALL(comp(1258, 357));  // clan_stronghold_main_decor:custom_details_resource_amount_3_2_2
+    CC_DELETEALL(comp(1258, 356));  // clan_stronghold_main_decor:custom_details_select_3_2
+    CC_DELETEALL(comp(1258, 350));  // clan_stronghold_main_decor:custom_details_background_3_2
+    CC_DELETEALL(comp(1258, 293));  // clan_stronghold_main_decor:custom_details_section_1_3
+    CC_DELETEALL(comp(1258, 308));  // clan_stronghold_main_decor:custom_details_icon_1_3
+    CC_DELETEALL(comp(1258, 307));  // clan_stronghold_main_decor:custom_details_resource_icon_1_3_1
+    CC_DELETEALL(comp(1258, 305));  // clan_stronghold_main_decor:custom_details_resource_icon_1_3_2
+    CC_DELETEALL(comp(1258, 303));  // clan_stronghold_main_decor:custom_details_resource_icon_1_3_3
+    CC_DELETEALL(comp(1258, 306));  // clan_stronghold_main_decor:custom_details_resource_amount_1_3_1
+    CC_DELETEALL(comp(1258, 304));  // clan_stronghold_main_decor:custom_details_resource_amount_1_3_2
+    CC_DELETEALL(comp(1258, 302));  // clan_stronghold_main_decor:custom_details_resource_amount_1_3_3
+    CC_DELETEALL(comp(1258, 301));  // clan_stronghold_main_decor:custom_details_select_1_3
+    CC_DELETEALL(comp(1258, 295));  // clan_stronghold_main_decor:custom_details_background_1_3
+    CC_DELETEALL(comp(1258, 277));  // clan_stronghold_main_decor:custom_details_section_2_3
+    CC_DELETEALL(comp(1258, 292));  // clan_stronghold_main_decor:custom_details_icon_2_3
+    CC_DELETEALL(comp(1258, 291));  // clan_stronghold_main_decor:custom_details_resource_icon_2_3_1
+    CC_DELETEALL(comp(1258, 289));  // clan_stronghold_main_decor:custom_details_resource_icon_2_3_2
+    CC_DELETEALL(comp(1258, 287));  // clan_stronghold_main_decor:custom_details_resource_icon_2_3_3
+    CC_DELETEALL(comp(1258, 290));  // clan_stronghold_main_decor:custom_details_resource_amount_2_3_1
+    CC_DELETEALL(comp(1258, 288));  // clan_stronghold_main_decor:custom_details_resource_amount_2_3_2
+    CC_DELETEALL(comp(1258, 286));  // clan_stronghold_main_decor:custom_details_resource_amount_2_3_3
+    CC_DELETEALL(comp(1258, 285));  // clan_stronghold_main_decor:custom_details_select_2_3
+    CC_DELETEALL(comp(1258, 279));  // clan_stronghold_main_decor:custom_details_background_2_3
+    CC_DELETEALL(comp(1258, 261));  // clan_stronghold_main_decor:custom_details_section_3_3
+    CC_DELETEALL(comp(1258, 276));  // clan_stronghold_main_decor:custom_details_icon_3_3
+    CC_DELETEALL(comp(1258, 275));  // clan_stronghold_main_decor:custom_details_resource_icon_3_3_1
+    CC_DELETEALL(comp(1258, 273));  // clan_stronghold_main_decor:custom_details_resource_icon_3_3_2
+    CC_DELETEALL(comp(1258, 271));  // clan_stronghold_main_decor:custom_details_resource_icon_3_3_3
+    CC_DELETEALL(comp(1258, 274));  // clan_stronghold_main_decor:custom_details_resource_amount_3_3_1
+    CC_DELETEALL(comp(1258, 272));  // clan_stronghold_main_decor:custom_details_resource_amount_3_3_2
+    CC_DELETEALL(comp(1258, 270));  // clan_stronghold_main_decor:custom_details_resource_amount_3_3_3
+    CC_DELETEALL(comp(1258, 269));  // clan_stronghold_main_decor:custom_details_select_3_3
+    CC_DELETEALL(comp(1258, 263));  // clan_stronghold_main_decor:custom_details_background_3_3
     return;
 }

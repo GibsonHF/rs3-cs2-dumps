@@ -17,8 +17,8 @@ function script10991(int0: number): void {
         };
     };
     script11847(string0);
-    IF_SETTEXT("Information", comp(1802, 328));
-    IF_SETTEXT(string0, comp(1802, 327));
+    IF_SETTEXT("Information", comp(1802, 328));  // timed_event:variety_task_events_specific_title
+    IF_SETTEXT(string0, comp(1802, 327));  // timed_event:variety_task_events_specific_info
     script10983(int0);
     return;
 }

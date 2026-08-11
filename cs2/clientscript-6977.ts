@@ -1,24 +1,24 @@
 //
 function script6977(): void {
-    CC_DELETEALL(comp(1555, 8));
-    CC_DELETEALL(comp(1555, 9));
-    CC_DELETEALL(comp(1555, 10));
+    CC_DELETEALL(comp(1555, 8));  // elfcity_meilyr_recipe_shop:build_area
+    CC_DELETEALL(comp(1555, 9));  // elfcity_meilyr_recipe_shop:click_area
+    CC_DELETEALL(comp(1555, 10));  // elfcity_meilyr_recipe_shop:highlight_area
     var int0 = 0;
     var int1 = ENUM_GETOUTPUTCOUNT(9448 as cs2enum);
     var int2 = 0;
     var int3 = 0;
-    var int4 = IF_GETWIDTH(comp(1555, 8));
-    var int5 = IF_GETHEIGHT(comp(1555, 8));
+    var int4 = IF_GETWIDTH(comp(1555, 8));  // elfcity_meilyr_recipe_shop:build_area
+    var int5 = IF_GETHEIGHT(comp(1555, 8));  // elfcity_meilyr_recipe_shop:build_area
     var int6 = -1 as obj;
     var int7 = -1;
     var string0 = "";
     var string1 = "";
-    CC_CREATE(comp(1555, 10), 3, 0);
+    CC_CREATE(comp(1555, 10), 3, 0);  // elfcity_meilyr_recipe_shop:highlight_area
     CC_SETFILL(0);
     CC_SETSIZE(40, 36, 0, 0);
     CC_SETCOLOUR(15777401);
     CC_SETHIDE(true);
-    CC_CREATE(comp(1555, 10), 3, 1);
+    CC_CREATE(comp(1555, 10), 3, 1);  // elfcity_meilyr_recipe_shop:highlight_area
     CC_SETFILL(0);
     CC_SETSIZE(40, 36, 0, 0);
     CC_SETCOLOUR(16777215);
@@ -28,13 +28,13 @@ function script6977(): void {
         if (((int2 + 43) > int4)) {
             [int2, int3] = [0, (int3 + 39)];
         };
-        CC_CREATE(comp(1555, 9), 4, int0);
+        CC_CREATE(comp(1555, 9), 4, int0);  // elfcity_meilyr_recipe_shop:click_area
         if ((int6 == -1 as obj)) {
             CC_SETPOSITION(0, 0, 0, 0);
             CC_SETSIZE(0, 0, 0, 0);
             CC_SETHIDE(true);
         } else {
-            if (((int0 == varplayer_4902) && (CC_FIND[1](comp(1555, 10), 0) == 1))) {
+            if (((int0 == varplayer_4902) && (CC_FIND[1](comp(1555, 10), 0) == 1))) {  // elfcity_meilyr_recipe_shop:highlight_area
                 CC_SETPOSITION[1](int2, int3, 0, 0);
                 CC_SETHIDE[1](false);
             };
@@ -51,11 +51,11 @@ function script6977(): void {
             CC_SETOP(1, "Select");
             CC_SETONMOUSEREPEAT(callback(script6721, -2147483645, -2147483643, string0));
             CC_SETONOP(callback(script6065, -2147483645, -2147483643));
-            CC_CREATE(comp(1555, 8), 5, IF_GETNEXTSUBID(comp(1555, 8)));
+            CC_CREATE(comp(1555, 8), 5, IF_GETNEXTSUBID(comp(1555, 8)));  // elfcity_meilyr_recipe_shop:build_area
             CC_SETPOSITION(int2, int3, 0, 0);
             CC_SETSIZE(40, 36, 0, 0);
             CC_SETGRAPHIC(18266 as graphic);
-            CC_CREATE(comp(1555, 8), 5, IF_GETNEXTSUBID(comp(1555, 8)));
+            CC_CREATE(comp(1555, 8), 5, IF_GETNEXTSUBID(comp(1555, 8)));  // elfcity_meilyr_recipe_shop:build_area
             CC_SETPOSITION((int2 + 2), (int3 + 2), 0, 0);
             CC_SETSIZE(36, 32, 0, 0);
             if ((script7612(int7) == 0)) {
@@ -64,7 +64,7 @@ function script6977(): void {
                 CC_SETOBJECT_NONUM(int6, 1);
             };
             if ((script7611(int7) == 1)) {
-                CC_CREATE(comp(1555, 8), 5, IF_GETNEXTSUBID(comp(1555, 8)));
+                CC_CREATE(comp(1555, 8), 5, IF_GETNEXTSUBID(comp(1555, 8)));  // elfcity_meilyr_recipe_shop:build_area
                 CC_SETPOSITION((int2 + 25), (int3 + 21), 0, 0);
                 CC_SETSIZE(15, 15, 0, 0);
                 CC_SETGRAPHIC(13165 as graphic);
@@ -74,9 +74,9 @@ function script6977(): void {
         int0 = (int0 + 1);
     };
     if (((int3 + 32) > int5)) {
-        IF_SETSCROLLSIZE(0, (int3 + 32), comp(1555, 9));
+        IF_SETSCROLLSIZE(0, (int3 + 32), comp(1555, 9));  // elfcity_meilyr_recipe_shop:click_area
     } else {
-        IF_SETSCROLLSIZE(0, 0, comp(1555, 9));
+        IF_SETSCROLLSIZE(0, 0, comp(1555, 9));  // elfcity_meilyr_recipe_shop:click_area
     };
     script31(101908491, 101908489, -1, -1, -1, -1, -1, -1);
     return;

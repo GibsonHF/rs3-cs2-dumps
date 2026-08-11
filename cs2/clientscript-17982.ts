@@ -3,24 +3,24 @@ function script17982(int0: number): void {
     var int1 = comp(-1, 65535);
     switch (int0) {
         case 0: {
-            int1 = comp(1227, 2);
+            int1 = comp(1227, 2);  // bp3_track_tab:main_layer_background
             break;
         }
         case 1: {
-            int1 = comp(1226, 4);
+            int1 = comp(1226, 4);  // bp3_missions_tab:main_layer_background
             break;
         }
         case 3: {
-            int1 = comp(403, 3);
+            int1 = comp(403, 3);  // bp3_buffs_tab:main_layer_background
             break;
         }
         case 2: {
-            int1 = comp(843, 2);
-            IF_SETHIDE(true, comp(843, 3));
+            int1 = comp(843, 2);  // mtx_front_end_oddments:main_layer_background
+            IF_SETHIDE(true, comp(843, 3));  // mtx_front_end_oddments:main_layer_static_background
             break;
         }
         case 100: {
-            int1 = comp(1227, 63);
+            int1 = comp(1227, 63);  // bp3_track_tab:claim_all_background
             break;
         }
         default: {

@@ -1,7 +1,7 @@
 //
 function script5863(int0: number): void {
     var int1 = 38666250;
-    if ((int0 == comp(1438, 13))) {
+    if ((int0 == comp(1438, 13))) {  // toplevel_v2_parent_suboverlay_emotes:overhead
         int1 = 94240779;
     };
     var int2 = IF_GRID_GETNUMROWS(int0);

@@ -6,18 +6,18 @@ function script5977(): void {
     var int3 = comp(-1, 65535);
     switch (varbitplayer_6679) {
         case 0: {
-            int3 = comp(1259, 2);
+            int3 = comp(1259, 2);  // clan_stronghold_main_map:map_graphic
             break;
         }
         case 1:
         case 3:
         case 4: {
-            int3 = comp(1261, 6);
+            int3 = comp(1261, 6);  // clan_stronghold_main_buildings:map_graphic
             break;
         }
         case 2:
         case 5: {
-            int3 = comp(1258, 27);
+            int3 = comp(1258, 27);  // clan_stronghold_main_decor:map_graphic
             break;
         }
         default: {

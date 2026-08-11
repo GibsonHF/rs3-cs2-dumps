@@ -2,25 +2,25 @@
 function script13831(int0: number): void {
     var int1 = script6431();
     if ((int1 == 1)) {
-        IF_SETNOCLICKTHROUGH(1, comp(1477, 808));
-        IF_SETSIZE(0, 0, 1, 1, comp(274, 0));
-        IF_SETOP(1, "", comp(1477, 809));
-        if ((IF_FIND(comp(274, 0)) == 1)) {
+        IF_SETNOCLICKTHROUGH(1, comp(1477, 808));  // toplevel_v2:escape_menu_content
+        IF_SETSIZE(0, 0, 1, 1, comp(274, 0));  // escape_menu_mobile:root
+        IF_SETOP(1, "", comp(1477, 809));  // toplevel_v2:escape_menu_close_button
+        if ((IF_FIND(comp(274, 0)) == 1)) {  // escape_menu_mobile:root
             stack(9537);
             unk11040("");
             CC_CALLONRESIZE();
         };
         if ((script248() == 1)) {
-            IF_SETHIDE(true, comp(274, 15));
-            IF_SETHIDE(true, comp(274, 25));
+            IF_SETHIDE(true, comp(274, 15));  // escape_menu_mobile:bonds_layer
+            IF_SETHIDE(true, comp(274, 25));  // escape_menu_mobile:runecoins_layer
         };
     } else {
-        IF_SETNOCLICKTHROUGH(0, comp(1477, 808));
-        IF_SETOP(1, "", comp(1477, 809));
-        IF_SETSIZE(470, 234, 0, 0, comp(1433, 0));
-        IF_SETTEXTFONT(26 as fontmetrics, comp(1433, 4));
-        IF_SETTEXTFONT(26 as fontmetrics, comp(1433, 23));
-        IF_SETTEXTFONT(26 as fontmetrics, comp(1433, 48));
+        IF_SETNOCLICKTHROUGH(0, comp(1477, 808));  // toplevel_v2:escape_menu_content
+        IF_SETOP(1, "", comp(1477, 809));  // toplevel_v2:escape_menu_close_button
+        IF_SETSIZE(470, 234, 0, 0, comp(1433, 0));  // escape_menu:root
+        IF_SETTEXTFONT(26 as fontmetrics, comp(1433, 4));  // escape_menu:parent_buttons_title
+        IF_SETTEXTFONT(26 as fontmetrics, comp(1433, 23));  // escape_menu:quick_switch_text
+        IF_SETTEXTFONT(26 as fontmetrics, comp(1433, 48));  // escape_menu:csat_text
     };
     var int2 = 0;
     var int3 = 0;
@@ -30,11 +30,11 @@ function script13831(int0: number): void {
         int5 = 0;
         int3 = 1;
     } else if ((varbitplayer_22875 == 1)) {
-        IF_SETSIZE(0, 68, 1, 0, comp(1433, 3));
-        IF_SETSIZE(0, 40, 1, 0, comp(1433, 5));
+        IF_SETSIZE(0, 68, 1, 0, comp(1433, 3));  // escape_menu:parents_layer
+        IF_SETSIZE(0, 40, 1, 0, comp(1433, 5));  // escape_menu:parents_scrolling
     } else {
-        IF_SETSIZE(0, 63, 1, 0, comp(1433, 3));
-        IF_SETSIZE(0, 35, 1, 0, comp(1433, 5));
+        IF_SETSIZE(0, 63, 1, 0, comp(1433, 3));  // escape_menu:parents_layer
+        IF_SETSIZE(0, 35, 1, 0, comp(1433, 5));  // escape_menu:parents_scrolling
     };
     var int6 = 1;
     var int7 = 0;
@@ -67,12 +67,12 @@ function script13831(int0: number): void {
     int8 = (int8 + 40);
     if ((int2 == 0)) {
         script13836(93913094, 93913095);
-        IF_SETSIZE(220, 63, 0, 0, comp(1433, 3));
+        IF_SETSIZE(220, 63, 0, 0, comp(1433, 3));  // escape_menu:parents_layer
     };
     if ((int3 == 0)) {
         if (((((varbitclient_19036 + varbitclient_19628) + varbitclient_31443) + varbitclient_31921) == 0)) {
-            IF_SETHIDE(true, comp(1433, 23));
-            IF_SETHIDE(true, comp(1433, 24));
+            IF_SETHIDE(true, comp(1433, 23));  // escape_menu:quick_switch_text
+            IF_SETHIDE(true, comp(1433, 24));  // escape_menu:static_dropdown_load
         } else {
             script2708(93913113, 93913114, 7711, -1, "Select a preset to load", 0, script6428(varbitplayer_1899, 1));
         };

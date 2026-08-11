@@ -1,13 +1,13 @@
 //
 function script6703(): void {
-    var int0 = comp(176, 12);
-    var int1 = comp(176, 10);
-    var int2 = comp(176, 11);
-    var int3 = comp(176, 13);
-    var int4 = comp(176, 14);
+    var int0 = comp(176, 12);  // dino_base_camp:building_content_layer
+    var int1 = comp(176, 10);  // dino_base_camp:building_container_layer
+    var int2 = comp(176, 11);  // dino_base_camp:building_bg_layer
+    var int3 = comp(176, 13);  // dino_base_camp:building_click_layer
+    var int4 = comp(176, 14);  // dino_base_camp:building_scrollbar_layer
     var int5 = 11534351;
-    var int6 = comp(176, 22);
-    var int7 = comp(176, 5);
+    var int6 = comp(176, 22);  // dino_base_camp:building_info_layer
+    var int7 = comp(176, 5);  // dino_base_camp:resource_content_layer
     var int8 = 11534340;
     var int9 = 11534371;
     var int10 = 11534370;

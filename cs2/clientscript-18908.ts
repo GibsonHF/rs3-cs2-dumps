@@ -6,9 +6,9 @@ function script18908(): void {
     var int3 = 0;
     var int4 = 0;
     var int5 = -1;
-    CC_DELETEALL(comp(1284, 29));
+    CC_DELETEALL(comp(1284, 29));  // calendar_main:entries_container
     varbitclient_55448 = 0;
-    if ((IF_FIND(comp(1284, 29)) == 1)) {
+    if ((IF_FIND(comp(1284, 29)) == 1)) {  // calendar_main:entries_container
         while ((int4 < int2)) {
             stack(1163264);
             stack(int4);

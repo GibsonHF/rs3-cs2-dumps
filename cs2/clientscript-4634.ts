@@ -16,7 +16,7 @@ function script4634(int0: number): void {
     if ((script6431() == 1)) {
         int2 = 16;
     };
-    if ((IF_GETHIDE(comp(744, 90)) == false)) {
+    if ((IF_GETHIDE(comp(744, 90)) == false)) {  // loginscreen:username_group
         return;
     };
     switch (int0) {
@@ -66,7 +66,7 @@ function script4634(int0: number): void {
     varclient_1100 = -1;
     varclient_200 = 0;
     varclient_201 = 0;
-    IF_SETONCLICK(callback(), comp(744, 139));
+    IF_SETONCLICK(callback(), comp(744, 139));  // loginscreen:continue_text
     if ((int3 == 1)) {
         if ((script13749() == 1)) {
             switch (varclient_6908) {
@@ -102,6 +102,6 @@ function script4634(int0: number): void {
     };
     unk11088(int1, varclient_4192, varclient_4193, varclient_6908);
     varclient_4192 = "";
-    IF_SETONTIMER(callback(script2946, int0), comp(744, 173));
+    IF_SETONTIMER(callback(script2946, int0), comp(744, 173));  // loginscreen:login_progress_popup_password
     return;
 }

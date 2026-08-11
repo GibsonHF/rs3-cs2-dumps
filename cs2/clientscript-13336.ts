@@ -5,7 +5,7 @@ function script13336(int0: number, int1: number): void {
     var string0 = "";
     var int4 = 60;
     var int1 = (int1 * 11);
-    if ((CC_FIND(comp(1851, 40), int1) == 1)) {
+    if ((CC_FIND(comp(1851, 40), int1) == 1)) {  // achievements_sub:build_layer
         int2 = cc_getparam(6430);
         int3 = cc_getparam(6431);
     };
@@ -50,7 +50,7 @@ function script13336(int0: number, int1: number): void {
         varclient_5992 = int6;
     };
     var string1 = "";
-    if ((CC_FIND(comp(1851, 40), int1) == 1)) {
+    if ((CC_FIND(comp(1851, 40), int1) == 1)) {  // achievements_sub:build_layer
         CC_SETPOSITION(0, int6, 0, 0);
         CC_SETSIZE(0, int4, 1, 0);
         CC_SETFILL(1);
@@ -71,7 +71,7 @@ function script13336(int0: number, int1: number): void {
     var string2 = "";
     var int14 = struct_getparam(int3, 7895);
     if ((int5 == 1)) {
-        if ((CC_FIND(comp(1851, 40), (int1 + 4)) == 1)) {
+        if ((CC_FIND(comp(1851, 40), (int1 + 4)) == 1)) {  // achievements_sub:build_layer
             CC_SETSIZE(14, 14, 0, 0);
             if ((struct_getparam(int3, 6755) > 0)) {
                 CC_SETPOSITION((int9 + 2), (int6 + 2), 0, 0);
@@ -83,7 +83,7 @@ function script13336(int0: number, int1: number): void {
             };
             int10 = (CC_GETX() + CC_GETWIDTH());
         };
-        if (((struct_getparam(int3, 6755) > 0) && (CC_FIND(comp(1851, 40), (int1 + 10)) == 1))) {
+        if (((struct_getparam(int3, 6755) > 0) && (CC_FIND(comp(1851, 40), (int1 + 10)) == 1))) {  // achievements_sub:build_layer
             CC_SETPOSITION(((int9 + 1) + 2), ((int6 + 14) + (2 * 2)), 0, 0);
             CC_SETSIZE(14, 12, 0, 0);
             CC_SETCOLOUR(script10495(3));
@@ -92,7 +92,7 @@ function script13336(int0: number, int1: number): void {
             CC_SETTEXTALIGN(1, 1, 0);
             CC_SETTEXTFONT(26 as fontmetrics);
         };
-        if ((CC_FIND(comp(1851, 40), (int1 + 6)) == 1)) {
+        if ((CC_FIND(comp(1851, 40), (int1 + 6)) == 1)) {  // achievements_sub:build_layer
             CC_SETPOSITION((int10 + 2), int6, 0, 0);
             CC_SETSIZE(((int10 + (2 * 2)) + 15), int4, 1, 0);
             CC_SETCOLOUR(int7);
@@ -106,7 +106,7 @@ function script13336(int0: number, int1: number): void {
             CC_SETTEXTFONT(26 as fontmetrics);
         };
         if (((strcmp(struct_getparam(int3, 6414), "") != 0) || (struct_getparam(int3, 7894) == 1))) {
-            if ((CC_FIND(comp(1851, 40), (int1 + 8)) == 1)) {
+            if ((CC_FIND(comp(1851, 40), (int1 + 8)) == 1)) {  // achievements_sub:build_layer
                 CC_SETPOSITION(2, (int6 + 2), 2, 0);
                 CC_SETGRAPHIC(29975 as graphic);
                 CC_SETSIZE(14, 14, 0, 0);
@@ -116,7 +116,7 @@ function script13336(int0: number, int1: number): void {
                 int13 = 1;
             };
         };
-        if (((struct_getparam(int3, 6427) > -1) && (CC_FIND(comp(1851, 40), (int1 + 7)) == 1))) {
+        if (((struct_getparam(int3, 6427) > -1) && (CC_FIND(comp(1851, 40), (int1 + 7)) == 1))) {  // achievements_sub:build_layer
             CC_SETSIZE(13, 13, 0, 0);
             if ((int13 == 0)) {
                 CC_SETPOSITION(2, (int6 + ((int4 / 2) - (CC_GETHEIGHT() / 2))), 2, 0);
@@ -126,21 +126,21 @@ function script13336(int0: number, int1: number): void {
             CC_SETGRAPHIC(30205 as graphic);
         };
     } else {
-        if ((CC_FIND(comp(1851, 40), (int1 + 1)) == 1)) {
+        if ((CC_FIND(comp(1851, 40), (int1 + 1)) == 1)) {  // achievements_sub:build_layer
             CC_SETPOSITION(2, (int6 + 2), 0, 0);
             CC_SETSIZE(28, 28, 0, 0);
             CC_SETGRAPHIC(script13286(int3));
             int9 = (CC_GETX() + CC_GETWIDTH());
         };
         if (((int2 == -1) || (int2 == -2))) {
-            if ((CC_FIND(comp(1851, 40), (int1 + 3)) == 1)) {
+            if ((CC_FIND(comp(1851, 40), (int1 + 3)) == 1)) {  // achievements_sub:build_layer
                 CC_SETPOSITION(2, (int6 + 2), 0, 0);
                 CC_SETSIZE(28, 28, 0, 0);
                 if ((int2 == -2)) {
                     CC_SETGRAPHIC(26606 as graphic);
                 } else {
                     CC_SETGRAPHIC(26605 as graphic);
-                    if ((CC_FIND[1](comp(1851, 40), (int1 + 2)) == 1)) {
+                    if ((CC_FIND[1](comp(1851, 40), (int1 + 2)) == 1)) {  // achievements_sub:build_layer
                         CC_SETPOSITION[1](2, (int6 + 2), 0, 0);
                         CC_SETSIZE[1](28, 28, 0, 0);
                         CC_SETFILL[1](1);
@@ -150,7 +150,7 @@ function script13336(int0: number, int1: number): void {
                 };
             };
         };
-        if ((CC_FIND(comp(1851, 40), (int1 + 4)) == 1)) {
+        if ((CC_FIND(comp(1851, 40), (int1 + 4)) == 1)) {  // achievements_sub:build_layer
             CC_SETPOSITION((int9 + 2), int6, 0, 0);
             CC_SETSIZE(14, 14, 0, 0);
             CC_SETNOCLICKTHROUGH(true);
@@ -158,7 +158,7 @@ function script13336(int0: number, int1: number): void {
             };
             int10 = (CC_GETX() + CC_GETWIDTH());
         };
-        if ((CC_FIND(comp(1851, 40), (int1 + 5)) == 1)) {
+        if ((CC_FIND(comp(1851, 40), (int1 + 5)) == 1)) {  // achievements_sub:build_layer
             CC_SETPOSITION((int10 + 2), int6, 0, 0);
             switch (script13498(struct_getparam(int3, 6417))) {
                 case 1: {
@@ -190,7 +190,7 @@ function script13336(int0: number, int1: number): void {
             CC_SETTEXTFONT(55 as fontmetrics);
             CC_SETCOLOUR(int8);
         };
-        if ((CC_FIND(comp(1851, 40), (int1 + 6)) == 1)) {
+        if ((CC_FIND(comp(1851, 40), (int1 + 6)) == 1)) {  // achievements_sub:build_layer
             CC_SETPOSITION((int9 + 2), (int6 + 15), 0, 0);
             CC_SETSIZE((int9 + 13), (int4 - 15), 1, 0);
             CC_SETCOLOUR(int7);
@@ -205,7 +205,7 @@ function script13336(int0: number, int1: number): void {
             int11 = CC_GETY();
             int12 = (CC_GETHEIGHT() / 2);
         };
-        if ((CC_FIND(comp(1851, 40), (int1 + 7)) == 1)) {
+        if ((CC_FIND(comp(1851, 40), (int1 + 7)) == 1)) {  // achievements_sub:build_layer
             CC_SETSIZE(13, 13, 0, 0);
             CC_SETPOSITION(2, (int11 + (int12 - (CC_GETHEIGHT() / 2))), 2, 0);
             if ((struct_getparam(int3, 6427) > -1)) {
@@ -213,7 +213,7 @@ function script13336(int0: number, int1: number): void {
             };
         };
         if (((strcmp(struct_getparam(int3, 6414), "") != 0) || (struct_getparam(int3, 7894) == 1))) {
-            if ((CC_FIND(comp(1851, 40), (int1 + 8)) == 1)) {
+            if ((CC_FIND(comp(1851, 40), (int1 + 8)) == 1)) {  // achievements_sub:build_layer
                 CC_SETPOSITION(2, (int6 + 2), 2, 0);
                 CC_SETGRAPHIC(29975 as graphic);
                 CC_SETSIZE(14, 14, 0, 0);
@@ -222,14 +222,14 @@ function script13336(int0: number, int1: number): void {
                 CC_SETNOCLICKTHROUGH(true);
             };
         };
-        if (((CC_FIND(comp(1851, 40), (int1 + 9)) == 1) && (struct_getparam(int3, 6755) > 0))) {
+        if (((CC_FIND(comp(1851, 40), (int1 + 9)) == 1) && (struct_getparam(int3, 6755) > 0))) {  // achievements_sub:build_layer
             CC_SETPOSITION((int9 - 15), (((int6 + 2) + 28) - 12), 0, 0);
             CC_SETSIZE(15, 12, 0, 0);
             CC_SETCOLOUR(0);
             CC_SETTRANS(128);
             CC_SETFILL(1);
         };
-        if (((CC_FIND(comp(1851, 40), (int1 + 10)) == 1) && (struct_getparam(int3, 6755) > 0))) {
+        if (((CC_FIND(comp(1851, 40), (int1 + 10)) == 1) && (struct_getparam(int3, 6755) > 0))) {  // achievements_sub:build_layer
             CC_SETPOSITION((int9 - 15), ((int6 + int9) - 12), 0, 0);
             CC_SETSIZE(14, 12, 0, 0);
             CC_SETCOLOUR(script10495(3));

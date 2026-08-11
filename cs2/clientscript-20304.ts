@@ -4,7 +4,7 @@ function script20304(): void {
     if ((script20132(int0) == 0)) {
         return;
     };
-    if (((varclient_8334 == IF_GETWIDTH(comp(1361, 7))) && (varclient_8335 == IF_GETHEIGHT(comp(1361, 7))))) {
+    if (((varclient_8334 == IF_GETWIDTH(comp(1361, 7))) && (varclient_8335 == IF_GETHEIGHT(comp(1361, 7))))) {  // league_child_tasks:main
         return;
     };
     var int1 = dbrow_getfield(int0, 1335504, 0);
@@ -28,7 +28,7 @@ function script20304(): void {
         int6 = dbrow_getfield(int11, 1368160, 0);
         string0 = script20131(int11, int5);
         int3 = (200 + dbrow_getfield(int2, 1376273, int6));
-        if (((CC_FINDBYCATEGORY[1](comp(1361, 21), int3, 0) == 1) && (CC_FIND(comp(1361, 21), int9) == 1))) {
+        if (((CC_FINDBYCATEGORY[1](comp(1361, 21), int3, 0) == 1) && (CC_FIND(comp(1361, 21), int9) == 1))) {  // league_child_tasks:task_panel
             if ((unk11011(script20173(((3000 * 5) + int9)), 89194517) == 1)) {
                 int12 = (38 + 32);
             } else {
@@ -52,8 +52,8 @@ function script20304(): void {
         int11 = dbrow_findnext();
     };
     script20309(89194517, 89194516, 89194518);
-    varclient_8334 = IF_GETWIDTH(comp(1361, 7));
-    varclient_8335 = IF_GETHEIGHT(comp(1361, 7));
+    varclient_8334 = IF_GETWIDTH(comp(1361, 7));  // league_child_tasks:main
+    varclient_8335 = IF_GETHEIGHT(comp(1361, 7));  // league_child_tasks:main
     script16559(89194520, 100);
     script20316();
     return;

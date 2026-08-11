@@ -10,9 +10,9 @@ function script6349(int0: number, int1: number, int2: number): [number, number] 
                 case 150: {
                     [int3, int4] = script8064(2);
                     if ((int3 == comp(-1, 65535))) {
-                        int0 = comp(1473, 4);
+                        int0 = comp(1473, 4);  // toplevel_v2_inventory:slot_layer
                     } else if ((int3 == struct_getparam(script10405(2), 3514))) {
-                        int0 = comp(1474, 7);
+                        int0 = comp(1474, 7);  // toplevel_v2_parent_suboverlay_inventory:slot_layer
                     } else {
                         int0 = int3;
                         int1 = int4;
@@ -22,9 +22,9 @@ function script6349(int0: number, int1: number, int2: number): [number, number] 
                 case 151: {
                     [int3, int4] = script8064(3);
                     if ((int3 == comp(-1, 65535))) {
-                        int0 = comp(1464, 14);
+                        int0 = comp(1464, 14);  // toplevel_v2_worn:slot_layer
                     } else if ((int3 == struct_getparam(script10405(3), 3514))) {
-                        int0 = comp(1462, 17);
+                        int0 = comp(1462, 17);  // toplevel_v2_parent_suboverlay_worn:slot_layer
                     } else {
                         int0 = int3;
                         int1 = int4;
@@ -33,14 +33,14 @@ function script6349(int0: number, int1: number, int2: number): [number, number] 
                 }
                 case 153: {
                     if ((varplayer_303 == 1)) {
-                        int0 = comp(1265, 36);
+                        int0 = comp(1265, 36);  // shop_main:shops_buy_tab
                         int1 = -1;
                     };
                     break;
                 }
                 case 154: {
                     if ((varplayer_303 == 0)) {
-                        int0 = comp(1265, 27);
+                        int0 = comp(1265, 27);  // shop_main:shops_sell_tab
                         int1 = -1;
                     };
                     break;
@@ -48,9 +48,9 @@ function script6349(int0: number, int1: number, int2: number): [number, number] 
                 case 155: {
                     [int3, int4] = script8064(4);
                     if ((int3 == comp(-1, 65535))) {
-                        int0 = comp(1458, 40);
+                        int0 = comp(1458, 40);  // toplevel_v2_prayer:prayer_buttons
                     } else if ((int3 == struct_getparam(script10405(4), 3514))) {
-                        int0 = comp(1457, 16);
+                        int0 = comp(1457, 16);  // toplevel_v2_parent_suboverlay_prayer:prayer_buttons
                     } else {
                         int0 = int3;
                         int1 = int4;
@@ -137,10 +137,10 @@ function script6349(int0: number, int1: number, int2: number): [number, number] 
                     [int0, int1] = script8064(5);
                     if ((int0 == comp(-1, 65535))) {
                         if ((varbitplayer_18791 == 1)) {
-                            int0 = comp(1461, 1);
+                            int0 = comp(1461, 1);  // toplevel_v2_window_ability_book_magic:abilities_layer
                             int1 = 14;
                         } else {
-                            int0 = comp(1461, 7);
+                            int0 = comp(1461, 7);  // toplevel_v2_window_ability_book_magic:category_buttons_layer
                             int1 = 8;
                         };
                     };
@@ -150,10 +150,10 @@ function script6349(int0: number, int1: number, int2: number): [number, number] 
                     [int0, int1] = script8064(5);
                     if ((int0 == comp(-1, 65535))) {
                         if ((varbitplayer_18791 == 1)) {
-                            int0 = comp(1461, 1);
+                            int0 = comp(1461, 1);  // toplevel_v2_window_ability_book_magic:abilities_layer
                             int1 = 16;
                         } else {
-                            int0 = comp(1461, 7);
+                            int0 = comp(1461, 7);  // toplevel_v2_window_ability_book_magic:category_buttons_layer
                             int1 = 8;
                         };
                     };
@@ -163,10 +163,10 @@ function script6349(int0: number, int1: number, int2: number): [number, number] 
                     [int0, int1] = script8064(6);
                     if ((int0 == comp(-1, 65535))) {
                         if ((varbitplayer_18787 == 0)) {
-                            int0 = comp(1460, 1);
+                            int0 = comp(1460, 1);  // toplevel_v2_window_ability_book_melee:abilities_layer
                             int1 = 19;
                         } else {
-                            int0 = comp(1460, 5);
+                            int0 = comp(1460, 5);  // toplevel_v2_window_ability_book_melee:category_buttons_layer
                             int1 = 7;
                         };
                     };
@@ -176,10 +176,10 @@ function script6349(int0: number, int1: number, int2: number): [number, number] 
                     [int0, int1] = script8064(7);
                     if ((int0 == comp(-1, 65535))) {
                         if ((varbitplayer_18789 == 0)) {
-                            int0 = comp(1452, 1);
+                            int0 = comp(1452, 1);  // toplevel_v2_window_ability_book_ranged:abilities_layer
                             int1 = 6;
                         } else {
-                            int0 = comp(1452, 7);
+                            int0 = comp(1452, 7);  // toplevel_v2_window_ability_book_ranged:category_buttons_layer
                             int1 = 7;
                         };
                     };
@@ -189,10 +189,10 @@ function script6349(int0: number, int1: number, int2: number): [number, number] 
                     [int0, int1] = script8064(5);
                     if ((int0 == comp(-1, 65535))) {
                         if ((varbitplayer_18791 == 0)) {
-                            int0 = comp(1461, 1);
+                            int0 = comp(1461, 1);  // toplevel_v2_window_ability_book_magic:abilities_layer
                             int1 = 7;
                         } else {
-                            int0 = comp(1461, 7);
+                            int0 = comp(1461, 7);  // toplevel_v2_window_ability_book_magic:category_buttons_layer
                             int1 = 7;
                         };
                     };
@@ -202,10 +202,10 @@ function script6349(int0: number, int1: number, int2: number): [number, number] 
                     [int0, int1] = script8064(6);
                     if ((int0 == comp(-1, 65535))) {
                         if ((varbitplayer_18787 == 0)) {
-                            int0 = comp(1460, 1);
+                            int0 = comp(1460, 1);  // toplevel_v2_window_ability_book_melee:abilities_layer
                             int1 = 5;
                         } else {
-                            int0 = comp(1460, 5);
+                            int0 = comp(1460, 5);  // toplevel_v2_window_ability_book_melee:category_buttons_layer
                             int1 = 7;
                         };
                     };
@@ -215,10 +215,10 @@ function script6349(int0: number, int1: number, int2: number): [number, number] 
                     [int0, int1] = script8064(7);
                     if ((int0 == comp(-1, 65535))) {
                         if ((varbitplayer_18789 == 0)) {
-                            int0 = comp(1452, 1);
+                            int0 = comp(1452, 1);  // toplevel_v2_window_ability_book_ranged:abilities_layer
                             int1 = 9;
                         } else {
-                            int0 = comp(1452, 7);
+                            int0 = comp(1452, 7);  // toplevel_v2_window_ability_book_ranged:category_buttons_layer
                             int1 = 7;
                         };
                     };
@@ -228,10 +228,10 @@ function script6349(int0: number, int1: number, int2: number): [number, number] 
                     [int0, int1] = script8064(5);
                     if ((int0 == comp(-1, 65535))) {
                         if ((varbitplayer_18791 == 0)) {
-                            int0 = comp(1461, 1);
+                            int0 = comp(1461, 1);  // toplevel_v2_window_ability_book_magic:abilities_layer
                             int1 = 11;
                         } else {
-                            int0 = comp(1461, 7);
+                            int0 = comp(1461, 7);  // toplevel_v2_window_ability_book_magic:category_buttons_layer
                             int1 = 7;
                         };
                     };
@@ -270,22 +270,22 @@ function script6349(int0: number, int1: number, int2: number): [number, number] 
                     break;
                 }
                 case 188: {
-                    int0 = comp(1450, 3);
+                    int0 = comp(1450, 3);  // toplevel_v2_parent_suboverlay_ability_book_melee:abilities_layer
                     int1 = 19;
                     break;
                 }
                 case 189: {
-                    int0 = comp(1450, 3);
+                    int0 = comp(1450, 3);  // toplevel_v2_parent_suboverlay_ability_book_melee:abilities_layer
                     int1 = 5;
                     break;
                 }
                 case 190: {
-                    int0 = comp(1456, 1);
+                    int0 = comp(1456, 1);  // toplevel_v2_parent_suboverlay_ability_book_ranged:abilities_layer
                     int1 = 1;
                     break;
                 }
                 case 191: {
-                    int0 = comp(1459, 1);
+                    int0 = comp(1459, 1);  // toplevel_v2_parent_suboverlay_ability_book_magic:abilities_layer
                     int1 = 1;
                     break;
                 }
@@ -338,11 +338,11 @@ function script6349(int0: number, int1: number, int2: number): [number, number] 
                     break;
                 }
                 case 212: {
-                    if ((IF_GETHIDE(comp(176, 30)) == true)) {
+                    if ((IF_GETHIDE(comp(176, 30)) == true)) {  // dino_base_camp:worker_layer
                         if ((((varbitplayer_44275 == 0) || (varbitplayer_44276 == 0)) || (varbitplayer_44279 == 0))) {
-                            int0 = comp(176, 7);
+                            int0 = comp(176, 7);  // dino_base_camp:worker_dropdown_build_layer
                         } else {
-                            int0 = comp(176, 36);
+                            int0 = comp(176, 36);  // dino_base_camp:worker_click_layer
                             if ((varbitplayer_44275 == 0)) {
                                 int1 = 2;
                             } else if ((varbitplayer_44276 == 0)) {
@@ -354,7 +354,7 @@ function script6349(int0: number, int1: number, int2: number): [number, number] 
                             };
                         };
                     } else {
-                        int0 = comp(176, 36);
+                        int0 = comp(176, 36);  // dino_base_camp:worker_click_layer
                         if ((varbitplayer_44275 == 0)) {
                             int1 = 2;
                         } else if ((varbitplayer_44276 == 0)) {
@@ -369,13 +369,13 @@ function script6349(int0: number, int1: number, int2: number): [number, number] 
                 }
                 case 213: {
                     if ((varbitplayer_44262 == 0)) {
-                        if ((IF_GETHIDE(comp(176, 30)) == false)) {
-                            int0 = comp(176, 7);
+                        if ((IF_GETHIDE(comp(176, 30)) == false)) {  // dino_base_camp:worker_layer
+                            int0 = comp(176, 7);  // dino_base_camp:worker_dropdown_build_layer
                         } else if ((varbitplayer_44287 != 1)) {
-                            int0 = comp(176, 13);
+                            int0 = comp(176, 13);  // dino_base_camp:building_click_layer
                             int1 = 0;
                         } else {
-                            int0 = comp(176, 27);
+                            int0 = comp(176, 27);  // dino_base_camp:building_build_button
                             int1 = -1;
                         };
                     };
@@ -383,20 +383,20 @@ function script6349(int0: number, int1: number, int2: number): [number, number] 
                 }
                 case 214: {
                     if (((varbitplayer_46463 == 85) && (enum_getreversecount(74, 14090 as cs2enum, 2891) > 0))) {
-                        if ((IF_GETHIDE(comp(691, 73)) == true)) {
+                        if ((IF_GETHIDE(comp(691, 73)) == true)) {  // arch_relic_management:popup_window
                             if ((varclient_6761 != enum_getreverseindex(74, 0, 14090 as cs2enum, 2891, 0))) {
-                                int0 = comp(691, 65);
+                                int0 = comp(691, 65);  // arch_relic_management:relic_info_list_control_layer
                                 int1 = enum_getreverseindex(74, 0, 14090 as cs2enum, 2891, 0);
                             } else {
-                                int0 = comp(691, 70);
+                                int0 = comp(691, 70);  // arch_relic_management:relic_info_button_layer
                             };
-                        } else if ((IF_GETHIDE(comp(691, 77)) == false)) {
-                            int0 = comp(691, 86);
-                        } else if ((IF_GETHIDE(comp(691, 75)) == false)) {
+                        } else if ((IF_GETHIDE(comp(691, 77)) == false)) {  // arch_relic_management:unlock_window
+                            int0 = comp(691, 86);  // arch_relic_management:unlock_continue_button_layer
+                        } else if ((IF_GETHIDE(comp(691, 75)) == false)) {  // arch_relic_management:confirmation_window
                             if ((varclient_6760 != 1)) {
-                                int0 = comp(691, 146);
+                                int0 = comp(691, 146);  // arch_relic_management:confirmation_relic_slot_1_layer
                             } else {
-                                int0 = comp(691, 159);
+                                int0 = comp(691, 159);  // arch_relic_management:confirmation_confirm_button_layer
                             };
                         };
                     };
@@ -405,39 +405,39 @@ function script6349(int0: number, int1: number, int2: number): [number, number] 
                 case 215: {
                     switch (varbitplayer_46466) {
                         case 0: {
-                            if ((IF_GETHIDE(comp(693, 30)) == true)) {
-                                int0 = comp(693, 22);
+                            if ((IF_GETHIDE(comp(693, 30)) == true)) {  // arch_research_management:panel_background_layer
+                                int0 = comp(693, 22);  // arch_research_management:panel_toggle_button_layer
                             } else if ((varplayer_9288 == 14496 as cs2enum)) {
                                 if ((varplayer_9289 == 0)) {
-                                    int0 = comp(693, 110);
+                                    int0 = comp(693, 110);  // arch_research_management:researcher_info_button_layer
                                 } else {
-                                    int0 = comp(693, 168);
+                                    int0 = comp(693, 168);  // arch_research_management:accordion_intern_control_layer
                                     int1 = 0;
                                 };
                             } else {
-                                int0 = comp(693, 168);
+                                int0 = comp(693, 168);  // arch_research_management:accordion_intern_control_layer
                                 int1 = 0;
                             };
                             break;
                         }
                         case 5: {
-                            if ((IF_GETHIDE(comp(693, 30)) == false)) {
-                                int0 = comp(693, 22);
-                            } else if ((IF_GETHIDE(comp(693, 117)) == true)) {
-                                int0 = comp(693, 193);
+                            if ((IF_GETHIDE(comp(693, 30)) == false)) {  // arch_research_management:panel_background_layer
+                                int0 = comp(693, 22);  // arch_research_management:panel_toggle_button_layer
+                            } else if ((IF_GETHIDE(comp(693, 117)) == true)) {  // arch_research_management:popup_build_layer
+                                int0 = comp(693, 193);  // arch_research_management:research_info_button_layer
                             } else {
-                                int0 = comp(693, 118);
+                                int0 = comp(693, 118);  // arch_research_management:popup_control_layer
                                 int1 = 1;
                             };
                             break;
                         }
                         case 10: {
-                            if ((IF_GETHIDE(comp(693, 30)) == false)) {
-                                int0 = comp(693, 22);
-                            } else if ((IF_GETHIDE(comp(693, 117)) == true)) {
-                                int0 = comp(693, 193);
+                            if ((IF_GETHIDE(comp(693, 30)) == false)) {  // arch_research_management:panel_background_layer
+                                int0 = comp(693, 22);  // arch_research_management:panel_toggle_button_layer
+                            } else if ((IF_GETHIDE(comp(693, 117)) == true)) {  // arch_research_management:popup_build_layer
+                                int0 = comp(693, 193);  // arch_research_management:research_info_button_layer
                             } else {
-                                int0 = comp(693, 118);
+                                int0 = comp(693, 118);  // arch_research_management:popup_control_layer
                                 int1 = 1;
                             };
                             break;
@@ -451,17 +451,17 @@ function script6349(int0: number, int1: number, int2: number): [number, number] 
                         case 5: {
                             if ((varclient_7216 == 0)) {
                                 if ((varclient_7217 == 0)) {
-                                    if ((IF_GETHIDE(comp(1222, 56)) == true)) {
-                                        int0 = comp(1222, 34);
+                                    if ((IF_GETHIDE(comp(1222, 56)) == true)) {  // skill_tree:node_confirmation_window
+                                        int0 = comp(1222, 34);  // skill_tree:node_info_footer_layer
                                     } else {
-                                        int0 = comp(1222, 70);
+                                        int0 = comp(1222, 70);  // skill_tree:node_confirmation_confirm_button_layer
                                     };
                                 } else {
-                                    int0 = comp(1222, 27);
+                                    int0 = comp(1222, 27);  // skill_tree:tree_content_control_layer
                                     int1 = script17441(0, (0 + 1));
                                 };
                             } else {
-                                int0 = comp(1222, 27);
+                                int0 = comp(1222, 27);  // skill_tree:tree_content_control_layer
                                 int1 = script17441(0, (0 + 1));
                             };
                             break;
@@ -476,9 +476,9 @@ function script6349(int0: number, int1: number, int2: number): [number, number] 
             case 150: {
                 [int3, int4] = script8064(2);
                 if ((int3 == comp(-1, 65535))) {
-                    int0 = comp(1473, 4);
+                    int0 = comp(1473, 4);  // toplevel_v2_inventory:slot_layer
                 } else if ((int3 == struct_getparam(script10405(2), 3514))) {
-                    int0 = comp(1474, 7);
+                    int0 = comp(1474, 7);  // toplevel_v2_parent_suboverlay_inventory:slot_layer
                 } else {
                     int0 = int3;
                     int1 = int4;
@@ -488,9 +488,9 @@ function script6349(int0: number, int1: number, int2: number): [number, number] 
             case 151: {
                 [int3, int4] = script8064(3);
                 if ((int3 == comp(-1, 65535))) {
-                    int0 = comp(1464, 14);
+                    int0 = comp(1464, 14);  // toplevel_v2_worn:slot_layer
                 } else if ((int3 == struct_getparam(script10405(3), 3514))) {
-                    int0 = comp(1462, 17);
+                    int0 = comp(1462, 17);  // toplevel_v2_parent_suboverlay_worn:slot_layer
                 } else {
                     int0 = int3;
                     int1 = int4;
@@ -499,14 +499,14 @@ function script6349(int0: number, int1: number, int2: number): [number, number] 
             }
             case 153: {
                 if ((varplayer_303 == 1)) {
-                    int0 = comp(1265, 36);
+                    int0 = comp(1265, 36);  // shop_main:shops_buy_tab
                     int1 = -1;
                 };
                 break;
             }
             case 154: {
                 if ((varplayer_303 == 0)) {
-                    int0 = comp(1265, 27);
+                    int0 = comp(1265, 27);  // shop_main:shops_sell_tab
                     int1 = -1;
                 };
                 break;
@@ -514,9 +514,9 @@ function script6349(int0: number, int1: number, int2: number): [number, number] 
             case 155: {
                 [int3, int4] = script8064(4);
                 if ((int3 == comp(-1, 65535))) {
-                    int0 = comp(1458, 40);
+                    int0 = comp(1458, 40);  // toplevel_v2_prayer:prayer_buttons
                 } else if ((int3 == struct_getparam(script10405(4), 3514))) {
-                    int0 = comp(1457, 16);
+                    int0 = comp(1457, 16);  // toplevel_v2_parent_suboverlay_prayer:prayer_buttons
                 } else {
                     int0 = int3;
                     int1 = int4;
@@ -603,10 +603,10 @@ function script6349(int0: number, int1: number, int2: number): [number, number] 
                 [int0, int1] = script8064(5);
                 if ((int0 == comp(-1, 65535))) {
                     if ((varbitplayer_18791 == 1)) {
-                        int0 = comp(1461, 1);
+                        int0 = comp(1461, 1);  // toplevel_v2_window_ability_book_magic:abilities_layer
                         int1 = 14;
                     } else {
-                        int0 = comp(1461, 7);
+                        int0 = comp(1461, 7);  // toplevel_v2_window_ability_book_magic:category_buttons_layer
                         int1 = 8;
                     };
                 };
@@ -616,10 +616,10 @@ function script6349(int0: number, int1: number, int2: number): [number, number] 
                 [int0, int1] = script8064(5);
                 if ((int0 == comp(-1, 65535))) {
                     if ((varbitplayer_18791 == 1)) {
-                        int0 = comp(1461, 1);
+                        int0 = comp(1461, 1);  // toplevel_v2_window_ability_book_magic:abilities_layer
                         int1 = 16;
                     } else {
-                        int0 = comp(1461, 7);
+                        int0 = comp(1461, 7);  // toplevel_v2_window_ability_book_magic:category_buttons_layer
                         int1 = 8;
                     };
                 };
@@ -629,10 +629,10 @@ function script6349(int0: number, int1: number, int2: number): [number, number] 
                 [int0, int1] = script8064(6);
                 if ((int0 == comp(-1, 65535))) {
                     if ((varbitplayer_18787 == 0)) {
-                        int0 = comp(1460, 1);
+                        int0 = comp(1460, 1);  // toplevel_v2_window_ability_book_melee:abilities_layer
                         int1 = 19;
                     } else {
-                        int0 = comp(1460, 5);
+                        int0 = comp(1460, 5);  // toplevel_v2_window_ability_book_melee:category_buttons_layer
                         int1 = 7;
                     };
                 };
@@ -642,10 +642,10 @@ function script6349(int0: number, int1: number, int2: number): [number, number] 
                 [int0, int1] = script8064(7);
                 if ((int0 == comp(-1, 65535))) {
                     if ((varbitplayer_18789 == 0)) {
-                        int0 = comp(1452, 1);
+                        int0 = comp(1452, 1);  // toplevel_v2_window_ability_book_ranged:abilities_layer
                         int1 = 6;
                     } else {
-                        int0 = comp(1452, 7);
+                        int0 = comp(1452, 7);  // toplevel_v2_window_ability_book_ranged:category_buttons_layer
                         int1 = 7;
                     };
                 };
@@ -655,10 +655,10 @@ function script6349(int0: number, int1: number, int2: number): [number, number] 
                 [int0, int1] = script8064(5);
                 if ((int0 == comp(-1, 65535))) {
                     if ((varbitplayer_18791 == 0)) {
-                        int0 = comp(1461, 1);
+                        int0 = comp(1461, 1);  // toplevel_v2_window_ability_book_magic:abilities_layer
                         int1 = 7;
                     } else {
-                        int0 = comp(1461, 7);
+                        int0 = comp(1461, 7);  // toplevel_v2_window_ability_book_magic:category_buttons_layer
                         int1 = 7;
                     };
                 };
@@ -668,10 +668,10 @@ function script6349(int0: number, int1: number, int2: number): [number, number] 
                 [int0, int1] = script8064(6);
                 if ((int0 == comp(-1, 65535))) {
                     if ((varbitplayer_18787 == 0)) {
-                        int0 = comp(1460, 1);
+                        int0 = comp(1460, 1);  // toplevel_v2_window_ability_book_melee:abilities_layer
                         int1 = 5;
                     } else {
-                        int0 = comp(1460, 5);
+                        int0 = comp(1460, 5);  // toplevel_v2_window_ability_book_melee:category_buttons_layer
                         int1 = 7;
                     };
                 };
@@ -681,10 +681,10 @@ function script6349(int0: number, int1: number, int2: number): [number, number] 
                 [int0, int1] = script8064(7);
                 if ((int0 == comp(-1, 65535))) {
                     if ((varbitplayer_18789 == 0)) {
-                        int0 = comp(1452, 1);
+                        int0 = comp(1452, 1);  // toplevel_v2_window_ability_book_ranged:abilities_layer
                         int1 = 9;
                     } else {
-                        int0 = comp(1452, 7);
+                        int0 = comp(1452, 7);  // toplevel_v2_window_ability_book_ranged:category_buttons_layer
                         int1 = 7;
                     };
                 };
@@ -694,10 +694,10 @@ function script6349(int0: number, int1: number, int2: number): [number, number] 
                 [int0, int1] = script8064(5);
                 if ((int0 == comp(-1, 65535))) {
                     if ((varbitplayer_18791 == 0)) {
-                        int0 = comp(1461, 1);
+                        int0 = comp(1461, 1);  // toplevel_v2_window_ability_book_magic:abilities_layer
                         int1 = 11;
                     } else {
-                        int0 = comp(1461, 7);
+                        int0 = comp(1461, 7);  // toplevel_v2_window_ability_book_magic:category_buttons_layer
                         int1 = 7;
                     };
                 };
@@ -736,22 +736,22 @@ function script6349(int0: number, int1: number, int2: number): [number, number] 
                 break;
             }
             case 188: {
-                int0 = comp(1450, 3);
+                int0 = comp(1450, 3);  // toplevel_v2_parent_suboverlay_ability_book_melee:abilities_layer
                 int1 = 19;
                 break;
             }
             case 189: {
-                int0 = comp(1450, 3);
+                int0 = comp(1450, 3);  // toplevel_v2_parent_suboverlay_ability_book_melee:abilities_layer
                 int1 = 5;
                 break;
             }
             case 190: {
-                int0 = comp(1456, 1);
+                int0 = comp(1456, 1);  // toplevel_v2_parent_suboverlay_ability_book_ranged:abilities_layer
                 int1 = 1;
                 break;
             }
             case 191: {
-                int0 = comp(1459, 1);
+                int0 = comp(1459, 1);  // toplevel_v2_parent_suboverlay_ability_book_magic:abilities_layer
                 int1 = 1;
                 break;
             }
@@ -804,11 +804,11 @@ function script6349(int0: number, int1: number, int2: number): [number, number] 
                 break;
             }
             case 212: {
-                if ((IF_GETHIDE(comp(176, 30)) == true)) {
+                if ((IF_GETHIDE(comp(176, 30)) == true)) {  // dino_base_camp:worker_layer
                     if ((((varbitplayer_44275 == 0) || (varbitplayer_44276 == 0)) || (varbitplayer_44279 == 0))) {
-                        int0 = comp(176, 7);
+                        int0 = comp(176, 7);  // dino_base_camp:worker_dropdown_build_layer
                     } else {
-                        int0 = comp(176, 36);
+                        int0 = comp(176, 36);  // dino_base_camp:worker_click_layer
                         if ((varbitplayer_44275 == 0)) {
                             int1 = 2;
                         } else if ((varbitplayer_44276 == 0)) {
@@ -820,7 +820,7 @@ function script6349(int0: number, int1: number, int2: number): [number, number] 
                         };
                     };
                 } else {
-                    int0 = comp(176, 36);
+                    int0 = comp(176, 36);  // dino_base_camp:worker_click_layer
                     if ((varbitplayer_44275 == 0)) {
                         int1 = 2;
                     } else if ((varbitplayer_44276 == 0)) {
@@ -835,13 +835,13 @@ function script6349(int0: number, int1: number, int2: number): [number, number] 
             }
             case 213: {
                 if ((varbitplayer_44262 == 0)) {
-                    if ((IF_GETHIDE(comp(176, 30)) == false)) {
-                        int0 = comp(176, 7);
+                    if ((IF_GETHIDE(comp(176, 30)) == false)) {  // dino_base_camp:worker_layer
+                        int0 = comp(176, 7);  // dino_base_camp:worker_dropdown_build_layer
                     } else if ((varbitplayer_44287 != 1)) {
-                        int0 = comp(176, 13);
+                        int0 = comp(176, 13);  // dino_base_camp:building_click_layer
                         int1 = 0;
                     } else {
-                        int0 = comp(176, 27);
+                        int0 = comp(176, 27);  // dino_base_camp:building_build_button
                         int1 = -1;
                     };
                 };
@@ -849,20 +849,20 @@ function script6349(int0: number, int1: number, int2: number): [number, number] 
             }
             case 214: {
                 if (((varbitplayer_46463 == 85) && (enum_getreversecount(74, 14090 as cs2enum, 2891) > 0))) {
-                    if ((IF_GETHIDE(comp(691, 73)) == true)) {
+                    if ((IF_GETHIDE(comp(691, 73)) == true)) {  // arch_relic_management:popup_window
                         if ((varclient_6761 != enum_getreverseindex(74, 0, 14090 as cs2enum, 2891, 0))) {
-                            int0 = comp(691, 65);
+                            int0 = comp(691, 65);  // arch_relic_management:relic_info_list_control_layer
                             int1 = enum_getreverseindex(74, 0, 14090 as cs2enum, 2891, 0);
                         } else {
-                            int0 = comp(691, 70);
+                            int0 = comp(691, 70);  // arch_relic_management:relic_info_button_layer
                         };
-                    } else if ((IF_GETHIDE(comp(691, 77)) == false)) {
-                        int0 = comp(691, 86);
-                    } else if ((IF_GETHIDE(comp(691, 75)) == false)) {
+                    } else if ((IF_GETHIDE(comp(691, 77)) == false)) {  // arch_relic_management:unlock_window
+                        int0 = comp(691, 86);  // arch_relic_management:unlock_continue_button_layer
+                    } else if ((IF_GETHIDE(comp(691, 75)) == false)) {  // arch_relic_management:confirmation_window
                         if ((varclient_6760 != 1)) {
-                            int0 = comp(691, 146);
+                            int0 = comp(691, 146);  // arch_relic_management:confirmation_relic_slot_1_layer
                         } else {
-                            int0 = comp(691, 159);
+                            int0 = comp(691, 159);  // arch_relic_management:confirmation_confirm_button_layer
                         };
                     };
                 };
@@ -871,39 +871,39 @@ function script6349(int0: number, int1: number, int2: number): [number, number] 
             case 215: {
                 switch (varbitplayer_46466) {
                     case 0: {
-                        if ((IF_GETHIDE(comp(693, 30)) == true)) {
-                            int0 = comp(693, 22);
+                        if ((IF_GETHIDE(comp(693, 30)) == true)) {  // arch_research_management:panel_background_layer
+                            int0 = comp(693, 22);  // arch_research_management:panel_toggle_button_layer
                         } else if ((varplayer_9288 == 14496 as cs2enum)) {
                             if ((varplayer_9289 == 0)) {
-                                int0 = comp(693, 110);
+                                int0 = comp(693, 110);  // arch_research_management:researcher_info_button_layer
                             } else {
-                                int0 = comp(693, 168);
+                                int0 = comp(693, 168);  // arch_research_management:accordion_intern_control_layer
                                 int1 = 0;
                             };
                         } else {
-                            int0 = comp(693, 168);
+                            int0 = comp(693, 168);  // arch_research_management:accordion_intern_control_layer
                             int1 = 0;
                         };
                         break;
                     }
                     case 5: {
-                        if ((IF_GETHIDE(comp(693, 30)) == false)) {
-                            int0 = comp(693, 22);
-                        } else if ((IF_GETHIDE(comp(693, 117)) == true)) {
-                            int0 = comp(693, 193);
+                        if ((IF_GETHIDE(comp(693, 30)) == false)) {  // arch_research_management:panel_background_layer
+                            int0 = comp(693, 22);  // arch_research_management:panel_toggle_button_layer
+                        } else if ((IF_GETHIDE(comp(693, 117)) == true)) {  // arch_research_management:popup_build_layer
+                            int0 = comp(693, 193);  // arch_research_management:research_info_button_layer
                         } else {
-                            int0 = comp(693, 118);
+                            int0 = comp(693, 118);  // arch_research_management:popup_control_layer
                             int1 = 1;
                         };
                         break;
                     }
                     case 10: {
-                        if ((IF_GETHIDE(comp(693, 30)) == false)) {
-                            int0 = comp(693, 22);
-                        } else if ((IF_GETHIDE(comp(693, 117)) == true)) {
-                            int0 = comp(693, 193);
+                        if ((IF_GETHIDE(comp(693, 30)) == false)) {  // arch_research_management:panel_background_layer
+                            int0 = comp(693, 22);  // arch_research_management:panel_toggle_button_layer
+                        } else if ((IF_GETHIDE(comp(693, 117)) == true)) {  // arch_research_management:popup_build_layer
+                            int0 = comp(693, 193);  // arch_research_management:research_info_button_layer
                         } else {
-                            int0 = comp(693, 118);
+                            int0 = comp(693, 118);  // arch_research_management:popup_control_layer
                             int1 = 1;
                         };
                         break;
@@ -917,17 +917,17 @@ function script6349(int0: number, int1: number, int2: number): [number, number] 
                     case 5: {
                         if ((varclient_7216 == 0)) {
                             if ((varclient_7217 == 0)) {
-                                if ((IF_GETHIDE(comp(1222, 56)) == true)) {
-                                    int0 = comp(1222, 34);
+                                if ((IF_GETHIDE(comp(1222, 56)) == true)) {  // skill_tree:node_confirmation_window
+                                    int0 = comp(1222, 34);  // skill_tree:node_info_footer_layer
                                 } else {
-                                    int0 = comp(1222, 70);
+                                    int0 = comp(1222, 70);  // skill_tree:node_confirmation_confirm_button_layer
                                 };
                             } else {
-                                int0 = comp(1222, 27);
+                                int0 = comp(1222, 27);  // skill_tree:tree_content_control_layer
                                 int1 = script17441(0, (0 + 1));
                             };
                         } else {
-                            int0 = comp(1222, 27);
+                            int0 = comp(1222, 27);  // skill_tree:tree_content_control_layer
                             int1 = script17441(0, (0 + 1));
                         };
                         break;

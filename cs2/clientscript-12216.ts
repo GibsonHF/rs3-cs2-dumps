@@ -27,7 +27,7 @@ function script12216(): void {
         int0 = (int0 + 1);
     };
     if ((int2 != 8)) {
-        IF_SETGRAPHIC(26664 as graphic, comp(1717, 183));
+        IF_SETGRAPHIC(26664 as graphic, comp(1717, 183));  // trh82_valentines:prize_disabled_15
     };
     return;
 }

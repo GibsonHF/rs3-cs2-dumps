@@ -7,37 +7,37 @@ function script1715(): void {
     switch (varclient_1043) {
         case 4761:
         case 4762: {
-            int0 = comp(24, 14);
+            int0 = comp(24, 14);  // barrows_overlay:barrows_ahrim
             break;
         }
         case 4763:
         case 4764: {
-            int0 = comp(24, 12);
+            int0 = comp(24, 12);  // barrows_overlay:barrows_dharok
             break;
         }
         case 4765:
         case 4766: {
-            int0 = comp(24, 13);
+            int0 = comp(24, 13);  // barrows_overlay:barrows_guthan
             break;
         }
         case 4767:
         case 4768: {
-            int0 = comp(24, 15);
+            int0 = comp(24, 15);  // barrows_overlay:barrows_karil
             break;
         }
         case 4769:
         case 4770: {
-            int0 = comp(24, 16);
+            int0 = comp(24, 16);  // barrows_overlay:barrows_torag
             break;
         }
         case 4771:
         case 4772: {
-            int0 = comp(24, 17);
+            int0 = comp(24, 17);  // barrows_overlay:barrows_verac
             break;
         }
         case 24195:
         case 24196: {
-            int0 = comp(24, 18);
+            int0 = comp(24, 18);  // barrows_overlay:barrows_akrisae
             break;
         }
     };

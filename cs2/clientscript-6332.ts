@@ -1,7 +1,7 @@
 //
 function script6332(int0: number, int1: number, int2: number, int3: number): void {
     if ((script6431() == 1)) {
-        IF_SETHIDE(true, comp(1304, 16));
+        IF_SETHIDE(true, comp(1304, 16));  // carni_treasurechest:help_button
     };
     if ((int0 == 1)) {
         IF_SETGRAPHIC(11512 as graphic, int1);

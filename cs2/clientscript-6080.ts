@@ -1,5 +1,5 @@
 //
 function script6080(): void {
-    IF_SETONTIMER(callback(script6081), comp(1265, 2));
+    IF_SETONTIMER(callback(script6081), comp(1265, 2));  // shop_main:listener
     return;
 }

@@ -31,110 +31,110 @@ function script10993(int0: number): void {
         };
         script6470(int3);
         varclient_2699 = int0;
-        IF_SETSCROLLPOS(0, 0, comp(1311, 170));
+        IF_SETSCROLLPOS(0, 0, comp(1311, 170));  // mtxmgt:list_contents
     };
     if ((varbitplayer_673 == 1)) {
         script6876(1);
     };
     if ((varbitplayer_673 == 2)) {
         script10653(0, int5);
-        IF_SETHIDE(true, comp(1311, 27));
-        IF_SETHIDE(true, comp(1311, 31));
-        IF_SETHIDE(true, comp(1311, 35));
-        IF_SETHIDE(true, comp(1311, 39));
-        IF_SETHIDE(true, comp(1311, 43));
-        IF_SETHIDE(true, comp(1311, 47));
-        IF_SETHIDE(true, comp(1311, 51));
-        IF_SETHIDE(true, comp(1311, 55));
-        IF_SETHIDE(true, comp(1311, 59));
-        IF_SETHIDE(true, comp(1311, 67));
-        IF_SETHIDE(true, comp(1311, 71));
-        IF_SETHIDE(true, comp(1311, 86));
-        IF_SETHIDE(true, comp(1311, 90));
-        IF_SETHIDE(true, comp(1311, 94));
-        IF_SETGRAPHIC(24451 as graphic, comp(1311, 28));
-        IF_SETGRAPHIC(24453 as graphic, comp(1311, 32));
-        IF_SETGRAPHIC(24455 as graphic, comp(1311, 36));
-        IF_SETGRAPHIC(24457 as graphic, comp(1311, 40));
-        IF_SETGRAPHIC(24459 as graphic, comp(1311, 44));
-        IF_SETGRAPHIC(24461 as graphic, comp(1311, 48));
-        IF_SETGRAPHIC(24463 as graphic, comp(1311, 52));
-        IF_SETGRAPHIC(24465 as graphic, comp(1311, 56));
-        IF_SETGRAPHIC(24467 as graphic, comp(1311, 60));
-        IF_SETGRAPHIC(24469 as graphic, comp(1311, 68));
-        IF_SETGRAPHIC(24471 as graphic, comp(1311, 72));
-        IF_SETGRAPHIC(24473 as graphic, comp(1311, 87));
-        IF_SETGRAPHIC(24475 as graphic, comp(1311, 91));
-        IF_SETGRAPHIC(24477 as graphic, comp(1311, 95));
+        IF_SETHIDE(true, comp(1311, 27));  // mtxmgt:head_slot_active
+        IF_SETHIDE(true, comp(1311, 31));  // mtxmgt:back_slot_active
+        IF_SETHIDE(true, comp(1311, 35));  // mtxmgt:neck_slot_active
+        IF_SETHIDE(true, comp(1311, 39));  // mtxmgt:mainhand_slot_active
+        IF_SETHIDE(true, comp(1311, 43));  // mtxmgt:torso_slot_active
+        IF_SETHIDE(true, comp(1311, 47));  // mtxmgt:offhand_slot_active
+        IF_SETHIDE(true, comp(1311, 51));  // mtxmgt:legs_slot_active
+        IF_SETHIDE(true, comp(1311, 55));  // mtxmgt:hands_slot_active
+        IF_SETHIDE(true, comp(1311, 59));  // mtxmgt:feet_slot_active
+        IF_SETHIDE(true, comp(1311, 67));  // mtxmgt:effects_slot_active
+        IF_SETHIDE(true, comp(1311, 71));  // mtxmgt:wings_slot_active
+        IF_SETHIDE(true, comp(1311, 86));  // mtxmgt:all_items_active
+        IF_SETHIDE(true, comp(1311, 90));  // mtxmgt:keepsake_items_active
+        IF_SETHIDE(true, comp(1311, 94));  // mtxmgt:clear_items_active
+        IF_SETGRAPHIC(24451 as graphic, comp(1311, 28));  // mtxmgt:head_slot_icon
+        IF_SETGRAPHIC(24453 as graphic, comp(1311, 32));  // mtxmgt:back_slot_icon
+        IF_SETGRAPHIC(24455 as graphic, comp(1311, 36));  // mtxmgt:neck_slot_icon
+        IF_SETGRAPHIC(24457 as graphic, comp(1311, 40));  // mtxmgt:mainhand_slot_icon
+        IF_SETGRAPHIC(24459 as graphic, comp(1311, 44));  // mtxmgt:torso_slot_icon
+        IF_SETGRAPHIC(24461 as graphic, comp(1311, 48));  // mtxmgt:offhand_slot_icon
+        IF_SETGRAPHIC(24463 as graphic, comp(1311, 52));  // mtxmgt:legs_slot_icon
+        IF_SETGRAPHIC(24465 as graphic, comp(1311, 56));  // mtxmgt:hands_slot_icon
+        IF_SETGRAPHIC(24467 as graphic, comp(1311, 60));  // mtxmgt:feet_slot_icon
+        IF_SETGRAPHIC(24469 as graphic, comp(1311, 68));  // mtxmgt:effects_slot_icon
+        IF_SETGRAPHIC(24471 as graphic, comp(1311, 72));  // mtxmgt:wings_slot_icon
+        IF_SETGRAPHIC(24473 as graphic, comp(1311, 87));  // mtxmgt:all_items_icon
+        IF_SETGRAPHIC(24475 as graphic, comp(1311, 91));  // mtxmgt:keepsake_items_icon
+        IF_SETGRAPHIC(24477 as graphic, comp(1311, 95));  // mtxmgt:clear_items_icon
         switch (varclient_2699) {
             case 0: {
-                IF_SETGRAPHIC(24452 as graphic, comp(1311, 28));
-                IF_SETHIDE(false, comp(1311, 27));
+                IF_SETGRAPHIC(24452 as graphic, comp(1311, 28));  // mtxmgt:head_slot_icon
+                IF_SETHIDE(false, comp(1311, 27));  // mtxmgt:head_slot_active
                 break;
             }
             case 1: {
-                IF_SETGRAPHIC(24454 as graphic, comp(1311, 32));
-                IF_SETHIDE(false, comp(1311, 31));
+                IF_SETGRAPHIC(24454 as graphic, comp(1311, 32));  // mtxmgt:back_slot_icon
+                IF_SETHIDE(false, comp(1311, 31));  // mtxmgt:back_slot_active
                 break;
             }
             case 2: {
-                IF_SETGRAPHIC(24456 as graphic, comp(1311, 36));
-                IF_SETHIDE(false, comp(1311, 35));
+                IF_SETGRAPHIC(24456 as graphic, comp(1311, 36));  // mtxmgt:neck_slot_icon
+                IF_SETHIDE(false, comp(1311, 35));  // mtxmgt:neck_slot_active
                 break;
             }
             case 3: {
-                IF_SETGRAPHIC(24458 as graphic, comp(1311, 40));
-                IF_SETHIDE(false, comp(1311, 39));
+                IF_SETGRAPHIC(24458 as graphic, comp(1311, 40));  // mtxmgt:mainhand_slot_icon
+                IF_SETHIDE(false, comp(1311, 39));  // mtxmgt:mainhand_slot_active
                 break;
             }
             case 4: {
-                IF_SETGRAPHIC(24460 as graphic, comp(1311, 44));
-                IF_SETHIDE(false, comp(1311, 43));
+                IF_SETGRAPHIC(24460 as graphic, comp(1311, 44));  // mtxmgt:torso_slot_icon
+                IF_SETHIDE(false, comp(1311, 43));  // mtxmgt:torso_slot_active
                 break;
             }
             case 5: {
-                IF_SETGRAPHIC(24462 as graphic, comp(1311, 48));
-                IF_SETHIDE(false, comp(1311, 47));
+                IF_SETGRAPHIC(24462 as graphic, comp(1311, 48));  // mtxmgt:offhand_slot_icon
+                IF_SETHIDE(false, comp(1311, 47));  // mtxmgt:offhand_slot_active
                 break;
             }
             case 7: {
-                IF_SETGRAPHIC(24464 as graphic, comp(1311, 52));
-                IF_SETHIDE(false, comp(1311, 51));
+                IF_SETGRAPHIC(24464 as graphic, comp(1311, 52));  // mtxmgt:legs_slot_icon
+                IF_SETHIDE(false, comp(1311, 51));  // mtxmgt:legs_slot_active
                 break;
             }
             case 9: {
-                IF_SETGRAPHIC(24466 as graphic, comp(1311, 56));
-                IF_SETHIDE(false, comp(1311, 55));
+                IF_SETGRAPHIC(24466 as graphic, comp(1311, 56));  // mtxmgt:hands_slot_icon
+                IF_SETHIDE(false, comp(1311, 55));  // mtxmgt:hands_slot_active
                 break;
             }
             case 10: {
-                IF_SETGRAPHIC(24468 as graphic, comp(1311, 60));
-                IF_SETHIDE(false, comp(1311, 59));
+                IF_SETGRAPHIC(24468 as graphic, comp(1311, 60));  // mtxmgt:feet_slot_icon
+                IF_SETHIDE(false, comp(1311, 59));  // mtxmgt:feet_slot_active
                 break;
             }
             case 14: {
-                IF_SETGRAPHIC(24470 as graphic, comp(1311, 68));
-                IF_SETHIDE(false, comp(1311, 67));
+                IF_SETGRAPHIC(24470 as graphic, comp(1311, 68));  // mtxmgt:effects_slot_icon
+                IF_SETHIDE(false, comp(1311, 67));  // mtxmgt:effects_slot_active
                 break;
             }
             case 18: {
-                IF_SETGRAPHIC(24472 as graphic, comp(1311, 72));
-                IF_SETHIDE(false, comp(1311, 71));
+                IF_SETGRAPHIC(24472 as graphic, comp(1311, 72));  // mtxmgt:wings_slot_icon
+                IF_SETHIDE(false, comp(1311, 71));  // mtxmgt:wings_slot_active
                 break;
             }
             case 20: {
-                IF_SETGRAPHIC(24474 as graphic, comp(1311, 87));
-                IF_SETHIDE(false, comp(1311, 86));
+                IF_SETGRAPHIC(24474 as graphic, comp(1311, 87));  // mtxmgt:all_items_icon
+                IF_SETHIDE(false, comp(1311, 86));  // mtxmgt:all_items_active
                 break;
             }
             case 19: {
-                IF_SETGRAPHIC(24476 as graphic, comp(1311, 91));
-                IF_SETHIDE(false, comp(1311, 90));
+                IF_SETGRAPHIC(24476 as graphic, comp(1311, 91));  // mtxmgt:keepsake_items_icon
+                IF_SETHIDE(false, comp(1311, 90));  // mtxmgt:keepsake_items_active
                 break;
             }
             case 21: {
-                IF_SETGRAPHIC(24478 as graphic, comp(1311, 95));
-                IF_SETHIDE(false, comp(1311, 94));
+                IF_SETGRAPHIC(24478 as graphic, comp(1311, 95));  // mtxmgt:clear_items_icon
+                IF_SETHIDE(false, comp(1311, 94));  // mtxmgt:clear_items_active
                 break;
             }
         };

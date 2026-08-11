@@ -1,6 +1,6 @@
 //
 function script14716(int0: number, string0: string): void {
-    CC_CREATE[1](comp(1218, 247), 4, IF_GETNEXTSUBID(comp(1218, 247)));
+    CC_CREATE[1](comp(1218, 247), 4, IF_GETNEXTSUBID(comp(1218, 247)));  // skillguide:image_layer
     CC_SETPOSITION[1](105, (int0 + 18), 0, 0);
     if ((STRINGWIDTH(string0, 28 as fontmetrics) <= 455)) {
         CC_SETTEXTFONT[1](28 as fontmetrics);

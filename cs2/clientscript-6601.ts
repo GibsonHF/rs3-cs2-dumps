@@ -3,7 +3,7 @@ function script6601(int0: number): void {
     var int1 = 0;
     var int2 = 0;
     var int3 = 0;
-    if ((IF_FIND(comp(1325, 12)) == 1)) {
+    if ((IF_FIND(comp(1325, 12)) == 1)) {  // peng_pow_sound_monitor:bar_width
         int2 = CC_GETWIDTH();
         int3 = CC_GETX();
     };

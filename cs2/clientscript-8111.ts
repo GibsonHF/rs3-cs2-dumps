@@ -1,8 +1,8 @@
 //
 function script8111(int0: number, int1: number): void {
-    var int2 = comp(1430, 254);
-    var int3 = comp(1430, 61);
-    var int4 = comp(1430, 268);
+    var int2 = comp(1430, 254);  // toplevel_v2_combat_bar:actionbar_scroller
+    var int3 = comp(1430, 61);  // toplevel_v2_combat_bar:actionbar_layer
+    var int4 = comp(1430, 268);  // toplevel_v2_combat_bar:combatbar_buttons
     var int5 = script10405(1003);
     if ((varbitplayer_27168 == 1)) {
         IF_SETHIDE(true, struct_getparam(int5, 3507));

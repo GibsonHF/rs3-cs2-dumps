@@ -2,32 +2,32 @@
 function script19507(): void {
     if ((varbitplayer_27169 == 1)) {
         script19508(struct_getparam(21308, 3503), 714);
-        IF_SETHIDE(true, comp(1313, 103));
+        IF_SETHIDE(true, comp(1313, 103));  // group_ironman_storage:filter_bg
     } else {
-        IF_SETHIDE(false, comp(1313, 103));
+        IF_SETHIDE(false, comp(1313, 103));  // group_ironman_storage:filter_bg
     };
     var int0 = 0;
     var int1 = 0;
     var int2 = 0;
     var int3 = 0;
     [int0, int2, int1, int3] = script2956();
-    IF_SETPOSITION(int0, int2, 0, 0, comp(1313, 2));
-    IF_SETSIZE((int0 + int1), (int2 + int3), 1, 1, comp(1313, 2));
+    IF_SETPOSITION(int0, int2, 0, 0, comp(1313, 2));  // group_ironman_storage:all
+    IF_SETSIZE((int0 + int1), (int2 + int3), 1, 1, comp(1313, 2));  // group_ironman_storage:all
     var int4 = 213;
     var int5 = script6431();
     if ((int5 == 1)) {
-        IF_SETPOSITION(70, 12, 2, 0, comp(1313, 120));
+        IF_SETPOSITION(70, 12, 2, 0, comp(1313, 120));  // group_ironman_storage:help_button_layer
         int4 = 253;
     } else {
-        IF_SETPOSITION(50, 15, 2, 0, comp(1313, 120));
+        IF_SETPOSITION(50, 15, 2, 0, comp(1313, 120));  // group_ironman_storage:help_button_layer
     };
-    var int6 = IF_GETHEIGHT(comp(1313, 4));
-    IF_SETSIZE(int4, 0, 0, 1, comp(1313, 5));
-    IF_SETSIZE((int4 + 4), 0, 1, 1, comp(1313, 65));
+    var int6 = IF_GETHEIGHT(comp(1313, 4));  // group_ironman_storage:content
+    IF_SETSIZE(int4, 0, 0, 1, comp(1313, 5));  // group_ironman_storage:right_panel
+    IF_SETSIZE((int4 + 4), 0, 1, 1, comp(1313, 65));  // group_ironman_storage:main_panel
     if (((varbitplayer_45140 != 0) || (varbitplayer_39433 == 1))) {
-        IF_SETPOSITION(0, 0, 1, 2, comp(1313, 68));
+        IF_SETPOSITION(0, 0, 1, 2, comp(1313, 68));  // group_ironman_storage:clan_items_layer
     } else {
-        IF_SETPOSITION(0, 0, 2, 2, comp(1313, 68));
+        IF_SETPOSITION(0, 0, 2, 2, comp(1313, 68));  // group_ironman_storage:clan_items_layer
     };
     return;
 }

@@ -11,8 +11,8 @@ function script20858(): void {
         varclient_8376 = 0;
     };
     if ((script6431() == 1)) {
-        IF_SETGRAPHIC(-1 as graphic, comp(1498, 3));
-        IF_SETGRAPHIC(-1 as graphic, comp(1498, 4));
+        IF_SETGRAPHIC(-1 as graphic, comp(1498, 3));  // marketplace_store:fade_top
+        IF_SETGRAPHIC(-1 as graphic, comp(1498, 4));  // marketplace_store:fade_bottom
     };
     script20631(1);
     script20630(varclient_8376);

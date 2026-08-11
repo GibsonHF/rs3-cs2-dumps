@@ -1,7 +1,7 @@
 //
 function script15353(int0: number, int1: number, int2: number): void {
     script15357(int0, int1, 0, 0);
-    CC_DELETEALL(comp(1851, 40));
+    CC_DELETEALL(comp(1851, 40));  // achievements_sub:build_layer
     script15332();
     var int3 = ENUM_GETOUTPUTCOUNT(16072 as cs2enum);
     var int4 = enum_getvalue(0, 41, 16072 as cs2enum, int2);
@@ -12,7 +12,7 @@ function script15353(int0: number, int1: number, int2: number): void {
     } else {
         script15365();
     };
-    var int5 = comp(1851, 12);
+    var int5 = comp(1851, 12);  // achievements_sub:subcategory_container
     IF_CLEARSCRIPTHOOKS(int5);
     var int6 = 0;
     if ((CC_FIND(int1, int2) == 1)) {

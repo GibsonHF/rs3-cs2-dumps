@@ -6,8 +6,8 @@ function script17051(): void {
     var int3 = script1611(2, int1);
     var int4 = script1611(0, int0);
     var int5 = script1611(0, int1);
-    IF_SETMODELANIM(int2, comp(1082, 83));
-    IF_SETONTIMER(callback(script17059, SEQLENGTH(int2), int4, 70910035), comp(1082, 83));
-    IF_SETONTIMER(callback(script17060, 20, int3, int5, 70910015), comp(1082, 63));
+    IF_SETMODELANIM(int2, comp(1082, 83));  // trh189_overlay:solar_armour
+    IF_SETONTIMER(callback(script17059, SEQLENGTH(int2), int4, 70910035), comp(1082, 83));  // trh189_overlay:solar_armour
+    IF_SETONTIMER(callback(script17060, 20, int3, int5, 70910015), comp(1082, 63));  // trh189_overlay:lunar_armour
     return;
 }

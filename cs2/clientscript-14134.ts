@@ -27,7 +27,7 @@ function script14134(int0: number, int1: number, int2: number, int3: number, int
         script14001(127401990, 35515, (int4 - 11), 0, int8, 1);
         string0 = `${string0} - Not stored`;
     };
-    if ((CC_FIND(comp(1944, 7), (int3 - 1)) == 1)) {
+    if ((CC_FIND(comp(1944, 7), (int3 - 1)) == 1)) {  // toolbelt_v2:toolbelt_click_layer
         CC_SETOP(1, `View ${string1}${OC_NAME(int6)}</col>`);
         if ((struct_getparam(int5, 7765) == 1)) {
             if ((int7 == 1)) {
@@ -40,7 +40,7 @@ function script14134(int0: number, int1: number, int2: number, int3: number, int
         };
         CC_SETONOP(callback(script14099, int5, int6, int7, int2, (int2 - (14 + 20)), -2147483644));
     };
-    if ((CC_FIND(comp(1944, 6), int4) == 1)) {
+    if ((CC_FIND(comp(1944, 6), int4) == 1)) {  // toolbelt_v2:toolbelt_build_layer
         CC_SETOBJECT(int6, -1);
         CC_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643));
         if ((int7 == 0)) {

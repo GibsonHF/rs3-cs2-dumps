@@ -232,64 +232,64 @@ function script8461(int0: number): [number, number] {
     };
     var string5 = "";
     if ((int1 == 1)) {
-        IF_SETTEXT(inttostring(int19, 10), comp(1559, 41));
-        IF_SETTEXT(inttostring((int22 + int23), 10), comp(1559, 46));
-        IF_SETTEXT(string0, comp(1559, 51));
-        IF_SETTEXT(string2, comp(1559, 55));
-        IF_SETTEXT(inttostring(int20, 10), comp(1559, 138));
-        IF_SETTEXT(inttostring((int22 + int23), 10), comp(1559, 143));
-        IF_SETTEXT(string0, comp(1559, 148));
-        IF_SETTEXT("N/A", comp(1559, 153));
+        IF_SETTEXT(inttostring(int19, 10), comp(1559, 41));  // toplevel_v2_inspect_worn_stats:main_damage_value
+        IF_SETTEXT(inttostring((int22 + int23), 10), comp(1559, 46));  // toplevel_v2_inspect_worn_stats:main_accuracy_value
+        IF_SETTEXT(string0, comp(1559, 51));  // toplevel_v2_inspect_worn_stats:main_type_value
+        IF_SETTEXT(string2, comp(1559, 55));  // toplevel_v2_inspect_worn_stats:main_speed_value
+        IF_SETTEXT(inttostring(int20, 10), comp(1559, 138));  // toplevel_v2_inspect_worn_stats:ab_damage_value
+        IF_SETTEXT(inttostring((int22 + int23), 10), comp(1559, 143));  // toplevel_v2_inspect_worn_stats:ab_accuracy_value
+        IF_SETTEXT(string0, comp(1559, 148));  // toplevel_v2_inspect_worn_stats:ab_type_value
+        IF_SETTEXT("N/A", comp(1559, 153));  // toplevel_v2_inspect_worn_stats:ab_speed_value
         string5 = `Weapon : <col=00FF00>${inttostring(script7244(int14), 10)}</col><br>Skill Bonus : <col=00FF00>${inttostring(int9, 10)}</col>`;
         if ((int21 > 0)) {
             string5 = `Weapon : <col=00FF00>${inttostring(script7244(int14), 10)}</col><br>Skill Bonus : <col=00FF00>${inttostring(int9, 10)}</col><br>Hybrid Nerf : <col=00FF00>-${inttostring(int21, 10)}</col>`;
         };
-        IF_SETONMOUSEREPEAT(callback(script3876, string5, -2147483645, -2147483643), comp(1559, 44));
-        IF_SETONMOUSELEAVE(callback(script8805), comp(1559, 44));
+        IF_SETONMOUSEREPEAT(callback(script3876, string5, -2147483645, -2147483643), comp(1559, 44));  // toplevel_v2_inspect_worn_stats:main_accuracy_value_box
+        IF_SETONMOUSELEAVE(callback(script8805), comp(1559, 44));  // toplevel_v2_inspect_worn_stats:main_accuracy_value_box
         string5 = `Weapon : <col=00FF00>${inttostring(script7244(int14), 10)}</col><br>Skill Bonus : <col=00FF00>${inttostring(int9, 10)}</col>`;
         if ((int21 > 0)) {
             string5 = `Weapon : <col=00FF00>${inttostring(script7244(int14), 10)}</col><br>Skill Bonus : <col=00FF00>${inttostring(int9, 10)}</col><br>Hybrid Nerf : <col=00FF00>-${inttostring(int21, 10)}</col>`;
         };
-        IF_SETONMOUSEREPEAT(callback(script3876, string5, -2147483645, -2147483643), comp(1559, 142));
-        IF_SETONMOUSELEAVE(callback(script8805), comp(1559, 142));
+        IF_SETONMOUSEREPEAT(callback(script3876, string5, -2147483645, -2147483643), comp(1559, 142));  // toplevel_v2_inspect_worn_stats:ab_accuracy_value_box
+        IF_SETONMOUSELEAVE(callback(script8805), comp(1559, 142));  // toplevel_v2_inspect_worn_stats:ab_accuracy_value_box
         string5 = `${string1} : <col=00FF00>${inttostring(int31, 10)}</col><br>Skill Bonus : <col=00FF00>${inttostring(int32, 10)}</col><br>Damage Bonus : <col=00FF00>${inttostring(int33, 10)}</col>`;
-        IF_SETONMOUSEREPEAT(callback(script3876, string5, -2147483645, -2147483643), comp(1559, 39));
-        IF_SETONMOUSELEAVE(callback(script8805), comp(1559, 39));
+        IF_SETONMOUSEREPEAT(callback(script3876, string5, -2147483645, -2147483643), comp(1559, 39));  // toplevel_v2_inspect_worn_stats:main_damage_value_box
+        IF_SETONMOUSELEAVE(callback(script8805), comp(1559, 39));  // toplevel_v2_inspect_worn_stats:main_damage_value_box
     } else {
-        IF_SETTEXT(inttostring(int19, 10), comp(1463, 46));
-        IF_SETTEXT(inttostring((int22 + int23), 10), comp(1463, 51));
-        IF_SETTEXT(string0, comp(1463, 56));
-        IF_SETTEXT(string2, comp(1463, 60));
-        IF_SETTEXT(inttostring(int20, 10), comp(1463, 214));
-        IF_SETTEXT(inttostring((int22 + int23), 10), comp(1463, 219));
-        IF_SETTEXT(string0, comp(1463, 224));
-        IF_SETTEXT("N/A", comp(1463, 228));
-        IF_SETTEXT(string3, comp(1463, 239));
-        IF_SETTEXT(string4, comp(1463, 245));
+        IF_SETTEXT(inttostring(int19, 10), comp(1463, 46));  // toplevel_v2_parent_suboverlay_worn_stats:main_damage_value
+        IF_SETTEXT(inttostring((int22 + int23), 10), comp(1463, 51));  // toplevel_v2_parent_suboverlay_worn_stats:main_accuracy_value
+        IF_SETTEXT(string0, comp(1463, 56));  // toplevel_v2_parent_suboverlay_worn_stats:main_type_value
+        IF_SETTEXT(string2, comp(1463, 60));  // toplevel_v2_parent_suboverlay_worn_stats:main_speed_value
+        IF_SETTEXT(inttostring(int20, 10), comp(1463, 214));  // toplevel_v2_parent_suboverlay_worn_stats:ab_damage_value
+        IF_SETTEXT(inttostring((int22 + int23), 10), comp(1463, 219));  // toplevel_v2_parent_suboverlay_worn_stats:ab_accuracy_value
+        IF_SETTEXT(string0, comp(1463, 224));  // toplevel_v2_parent_suboverlay_worn_stats:ab_type_value
+        IF_SETTEXT("N/A", comp(1463, 228));  // toplevel_v2_parent_suboverlay_worn_stats:ab_speed_value
+        IF_SETTEXT(string3, comp(1463, 239));  // toplevel_v2_parent_suboverlay_worn_stats:critical_strike_chance_value_text
+        IF_SETTEXT(string4, comp(1463, 245));  // toplevel_v2_parent_suboverlay_worn_stats:critical_strike_damage_value_text
         string5 = `Skill Bonus : <col=00FF00>${script7653(script18545(varplayer_717, int14), 1, 1, 0, 1)}%</col>`;
-        IF_SETONMOUSEREPEAT(callback(script3876, string5, -2147483645, -2147483643), comp(1463, 237));
-        IF_SETONMOUSELEAVE(callback(script8805), comp(1463, 237));
+        IF_SETONMOUSEREPEAT(callback(script3876, string5, -2147483645, -2147483643), comp(1463, 237));  // toplevel_v2_parent_suboverlay_worn_stats:critical_strike_chance_value_box
+        IF_SETONMOUSELEAVE(callback(script8805), comp(1463, 237));  // toplevel_v2_parent_suboverlay_worn_stats:critical_strike_chance_value_box
         string5 = `Skill Bonus : <col=00FF00>${script7653(script17469(varplayer_717, int14), 1, 1, 0, 1)}%</col>`;
-        IF_SETONMOUSEREPEAT(callback(script3876, string5, -2147483645, -2147483643), comp(1463, 244));
-        IF_SETONMOUSELEAVE(callback(script8805), comp(1463, 244));
-        IF_SETTEXT(`${inttostring(SCALE(int28, 1000, 10), 10)}%`, comp(1463, 103));
-        IF_SETTEXT(`${inttostring(SCALE(int29, 1000, 10), 10)}%`, comp(1463, 107));
-        IF_SETTEXT(`${inttostring(SCALE(int30, 1000, 10), 10)}%`, comp(1463, 111));
+        IF_SETONMOUSEREPEAT(callback(script3876, string5, -2147483645, -2147483643), comp(1463, 244));  // toplevel_v2_parent_suboverlay_worn_stats:critical_strike_damage_value_box
+        IF_SETONMOUSELEAVE(callback(script8805), comp(1463, 244));  // toplevel_v2_parent_suboverlay_worn_stats:critical_strike_damage_value_box
+        IF_SETTEXT(`${inttostring(SCALE(int28, 1000, 10), 10)}%`, comp(1463, 103));  // toplevel_v2_parent_suboverlay_worn_stats:main_vs_melee_value
+        IF_SETTEXT(`${inttostring(SCALE(int29, 1000, 10), 10)}%`, comp(1463, 107));  // toplevel_v2_parent_suboverlay_worn_stats:main_vs_range_value
+        IF_SETTEXT(`${inttostring(SCALE(int30, 1000, 10), 10)}%`, comp(1463, 111));  // toplevel_v2_parent_suboverlay_worn_stats:main_vs_magic_value
         string5 = `Weapon : <col=00FF00>${inttostring((script7244(int14) + int23), 10)}</col><br>Skill Bonus : <col=00FF00>${inttostring(int9, 10)}</col>`;
         if ((int21 > 0)) {
             string5 = `Weapon : <col=00FF00>${inttostring((script7244(int14) + int23), 10)}</col><br>Skill Bonus : <col=00FF00>${inttostring(int9, 10)}</col><br>Hybrid Nerf : <col=00FF00>-${inttostring(int21, 10)}</col>`;
         };
-        IF_SETONMOUSEREPEAT(callback(script3876, string5, -2147483645, -2147483643), comp(1463, 49));
-        IF_SETONMOUSELEAVE(callback(script8805), comp(1463, 49));
+        IF_SETONMOUSEREPEAT(callback(script3876, string5, -2147483645, -2147483643), comp(1463, 49));  // toplevel_v2_parent_suboverlay_worn_stats:main_accuracy_value_box
+        IF_SETONMOUSELEAVE(callback(script8805), comp(1463, 49));  // toplevel_v2_parent_suboverlay_worn_stats:main_accuracy_value_box
         string5 = `Weapon : <col=00FF00>${inttostring(script7244(int14), 10)}</col><br>Skill Bonus : <col=00FF00>${inttostring(int9, 10)}</col>`;
         if ((int21 > 0)) {
             string5 = `Weapon : <col=00FF00>${inttostring(script7244(int14), 10)}</col><br>Skill Bonus : <col=00FF00>${inttostring(int9, 10)}</col><br>Hybrid Nerf : <col=00FF00>-${inttostring(int21, 10)}</col>`;
         };
-        IF_SETONMOUSEREPEAT(callback(script3876, string5, -2147483645, -2147483643), comp(1463, 217));
-        IF_SETONMOUSELEAVE(callback(script8805), comp(1463, 217));
+        IF_SETONMOUSEREPEAT(callback(script3876, string5, -2147483645, -2147483643), comp(1463, 217));  // toplevel_v2_parent_suboverlay_worn_stats:ab_accuracy_value_box
+        IF_SETONMOUSELEAVE(callback(script8805), comp(1463, 217));  // toplevel_v2_parent_suboverlay_worn_stats:ab_accuracy_value_box
         string5 = `${string1} : <col=00FF00>${inttostring(int31, 10)}</col><br>Skill Bonus : <col=00FF00>${inttostring(int32, 10)}</col><br>Damage Bonus : <col=00FF00>${inttostring(int33, 10)}</col>`;
-        IF_SETONMOUSEREPEAT(callback(script3876, string5, -2147483645, -2147483643), comp(1463, 44));
-        IF_SETONMOUSELEAVE(callback(script8805), comp(1463, 44));
+        IF_SETONMOUSEREPEAT(callback(script3876, string5, -2147483645, -2147483643), comp(1463, 44));  // toplevel_v2_parent_suboverlay_worn_stats:main_damage_value_box
+        IF_SETONMOUSELEAVE(callback(script8805), comp(1463, 44));  // toplevel_v2_parent_suboverlay_worn_stats:main_damage_value_box
     };
     return [int20, int31];
 }

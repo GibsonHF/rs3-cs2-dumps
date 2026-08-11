@@ -70,8 +70,8 @@ function script3379(int0: number, int1: number, int2: number): void {
         } else if ((varbitplayer_27169 == 0)) {
             [int13, int14, int15, int16, int17, int18] = script8725(varclient_4108, int0);
             if ((varclient_4108 == 8)) {
-                int13 = script8711(int13, int15, int17, IF_GETWIDTH(comp(1477, 27)));
-                int14 = script8711(int14, int16, int18, IF_GETHEIGHT(comp(1477, 27)));
+                int13 = script8711(int13, int15, int17, IF_GETWIDTH(comp(1477, 27)));  // toplevel_v2:viewport
+                int14 = script8711(int14, int16, int18, IF_GETHEIGHT(comp(1477, 27)));  // toplevel_v2:viewport
             };
             if ((script12612(int3) == 1)) {
                 IF_SETPOSITION(int13, int14, 0, 0, int4);
@@ -109,8 +109,8 @@ function script3379(int0: number, int1: number, int2: number): void {
                     } else if ((script12612(int3) == 0)) {
                         [int13, int14, int15, int16, int17, int18] = script8725(1, int0);
                         if ((varclient_4108 == 8)) {
-                            int13 = script8711(int13, int15, int17, IF_GETWIDTH(comp(1477, 27)));
-                            int14 = script8711(int14, int16, int18, IF_GETHEIGHT(comp(1477, 27)));
+                            int13 = script8711(int13, int15, int17, IF_GETWIDTH(comp(1477, 27)));  // toplevel_v2:viewport
+                            int14 = script8711(int14, int16, int18, IF_GETHEIGHT(comp(1477, 27)));  // toplevel_v2:viewport
                         };
                         [int13, int14, int17, int18, int19] = script8382(int13, int14, int17, int18, int0, 0, 1);
                         script8387(int13, int14, int17, int18, int0);
@@ -130,8 +130,8 @@ function script3379(int0: number, int1: number, int2: number): void {
                 } else if ((script12612(int3) == 0)) {
                     [int13, int14, int15, int16, int17, int18] = script8725(1, int0);
                     if ((varclient_4108 == 8)) {
-                        int13 = script8711(int13, int15, int17, IF_GETWIDTH(comp(1477, 27)));
-                        int14 = script8711(int14, int16, int18, IF_GETHEIGHT(comp(1477, 27)));
+                        int13 = script8711(int13, int15, int17, IF_GETWIDTH(comp(1477, 27)));  // toplevel_v2:viewport
+                        int14 = script8711(int14, int16, int18, IF_GETHEIGHT(comp(1477, 27)));  // toplevel_v2:viewport
                     };
                     [int13, int14, int17, int18, int19] = script8382(int13, int14, int17, int18, int0, 0, 1);
                     script8387(int13, int14, int17, int18, int0);

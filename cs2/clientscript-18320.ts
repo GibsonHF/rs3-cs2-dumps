@@ -7,7 +7,7 @@ function script18320(): void {
     var int4 = -1 as obj;
     while ((int1 < int0)) {
         int4 = INV_GETOBJ(952 as inv, int1);
-        CC_CREATE(comp(1269, 5), 5, int1);
+        CC_CREATE(comp(1269, 5), 5, int1);  // drop_casket:reward_box
         CC_SETSIZE(36, 32, 0, 0);
         CC_SETPOSITION(int2, int3, 0, 1);
         int2 = ((int2 + 36) + 8);

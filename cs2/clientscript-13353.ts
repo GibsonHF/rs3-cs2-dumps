@@ -23,11 +23,11 @@ function script13353(): void {
         int6 = 5;
     };
     while ((int0 < 1820)) {
-        CC_CREATE(comp(517, 201), 5, int0);
+        CC_CREATE(comp(517, 201), 5, int0);  // bank:bank_inv
         CC_SETSIZE(int3, int4, 0, 0);
         CC_SETOUTLINE(1);
         CC_SETONOP(callback(script14073, -2147483644, -2147483643, -2147483645));
-        CC_SETDRAGGABLE(comp(517, 0), -1);
+        CC_SETDRAGGABLE(comp(517, 0), -1);  // bank:all
         CC_SETDRAGDEADZONE(int5);
         CC_SETDRAGDEADTIME(int6);
         CC_SETONDRAG(callback(script13799, -2147483645, -2147483643, -2147483646));
@@ -36,27 +36,27 @@ function script13353(): void {
         CC_SETONMOUSELEAVE(callback(script9300, -2147483645, -2147483643));
         CC_SETONMOUSEREPEAT(callback(script9301, -2147483645, -2147483643));
         CC_SETHIDE(true);
-        CC_CREATE[1](comp(517, 217), 5, int0);
+        CC_CREATE[1](comp(517, 217), 5, int0);  // bank:bank_inv_insert
         CC_SETCOLOUR[1](65535);
         CC_SETONMOUSEOVER[1](callback(script13866, -2147483643, 1));
         CC_SETONMOUSELEAVE[1](callback(script13866, -2147483643, 0));
         CC_SETSIZE[1](8, int4, 0, 0);
         int0 = (int0 + 1);
     };
-    IF_SETPARAM_INT(3843, -1, comp(517, 168));
+    IF_SETPARAM_INT(3843, -1, comp(517, 168));  // bank:tabs_dynamic
     script10017(33882363, -1, -1, 6, "null", 33882365);
     int0 = 0;
     while ((int0 <= 15)) {
-        CC_CREATE(comp(517, 205), 4, int0);
+        CC_CREATE(comp(517, 205), 4, int0);  // bank:tab_spacer_endrow
         CC_SETONMOUSEOVER(callback(script13870, -2147483645, -2147483643, 1));
         CC_SETONMOUSELEAVE(callback(script13870, -2147483645, -2147483643, 0));
-        CC_CREATE(comp(517, 206), 4, int0);
+        CC_CREATE(comp(517, 206), 4, int0);  // bank:tab_spacer_below
         CC_SETONMOUSEOVER(callback(script13870, -2147483645, -2147483643, 1));
         CC_SETONMOUSELEAVE(callback(script13870, -2147483645, -2147483643, 0));
-        CC_CREATE(comp(517, 171), 4, int0);
-        CC_CREATE(comp(517, 169), 4, int0);
-        CC_CREATE(comp(517, 170), 5, int0);
-        CC_CREATE(comp(517, 200), 5, int0);
+        CC_CREATE(comp(517, 171), 4, int0);  // bank:tabs_spacers
+        CC_CREATE(comp(517, 169), 4, int0);  // bank:tabs_click
+        CC_CREATE(comp(517, 170), 5, int0);  // bank:tabs_icons
+        CC_CREATE(comp(517, 200), 5, int0);  // bank:tab_highlights
         CC_SETSIZE(int1, int2, 0, 0);
         CC_SETGRAPHIC(int7);
         CC_SETTRANS(int8);

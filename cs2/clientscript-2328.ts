@@ -7,19 +7,19 @@ function script2328(int0: number): void {
             if ((IF_GETY(int0) < 170)) {
                 switch (varclient_765) {
                     case 1: {
-                        IF_SETPOSITION(IF_GETX(comp(306, 7)), (IF_GETY(comp(306, 7)) - 2), 0, 0, comp(306, 7));
+                        IF_SETPOSITION(IF_GETX(comp(306, 7)), (IF_GETY(comp(306, 7)) - 2), 0, 0, comp(306, 7));  // easter09_nuts:model1
                         break;
                     }
                     case 2: {
-                        IF_SETPOSITION(IF_GETX(comp(306, 8)), (IF_GETY(comp(306, 8)) - 2), 0, 0, comp(306, 8));
+                        IF_SETPOSITION(IF_GETX(comp(306, 8)), (IF_GETY(comp(306, 8)) - 2), 0, 0, comp(306, 8));  // easter09_nuts:model2
                         break;
                     }
                     case 3: {
-                        IF_SETPOSITION(IF_GETX(comp(306, 9)), (IF_GETY(comp(306, 9)) - 2), 0, 0, comp(306, 9));
+                        IF_SETPOSITION(IF_GETX(comp(306, 9)), (IF_GETY(comp(306, 9)) - 2), 0, 0, comp(306, 9));  // easter09_nuts:model3
                         break;
                     }
                     case 4: {
-                        IF_SETPOSITION(IF_GETX(comp(306, 10)), (IF_GETY(comp(306, 10)) - 2), 0, 0, comp(306, 10));
+                        IF_SETPOSITION(IF_GETX(comp(306, 10)), (IF_GETY(comp(306, 10)) - 2), 0, 0, comp(306, 10));  // easter09_nuts:model4
                         break;
                     }
                 };

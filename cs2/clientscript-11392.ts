@@ -94,7 +94,7 @@ function script11392(int0: number, int1: number, int2: number, int3: number): vo
                 int17 = 18266 as graphic;
                 int18 = 24427 as graphic;
             };
-            if ((CC_FIND(comp(1621, 20), int1) == 1)) {
+            if ((CC_FIND(comp(1621, 20), int1) == 1)) {  // poh_costume_room:build_area
                 if ((int16 == 1)) {
                     if ((varbitplayer_27926 == 1)) {
                         CC_SETGRAPHIC(int18);
@@ -136,7 +136,7 @@ function script11392(int0: number, int1: number, int2: number, int3: number): vo
         int17 = 18266 as graphic;
         int18 = 24427 as graphic;
     };
-    if ((CC_FIND(comp(1621, 20), int1) == 1)) {
+    if ((CC_FIND(comp(1621, 20), int1) == 1)) {  // poh_costume_room:build_area
         if ((int16 == 1)) {
             if ((varbitplayer_27926 == 1)) {
                 CC_SETGRAPHIC(int18);

@@ -5,23 +5,23 @@ function script2325(): void {
         return;
     };
     SOUND_SYNTH(35680, 1, 0);
-    if (((IF_GETX(comp(306, 7)) >= IF_GETX(comp(306, 19))) && (IF_GETX(comp(306, 7)) < (IF_GETX(comp(306, 19)) + IF_GETWIDTH(comp(306, 19)))))) {
+    if (((IF_GETX(comp(306, 7) /*easter09_nuts:model1*/) >= IF_GETX(comp(306, 19) /*easter09_nuts:position_layer*/)) && (IF_GETX(comp(306, 7) /*easter09_nuts:model1*/) < (IF_GETX(comp(306, 19) /*easter09_nuts:position_layer*/) + IF_GETWIDTH(comp(306, 19) /*easter09_nuts:position_layer*/))))) {
         varclient_765 = 1;
         script2326(varclient_761);
     };
-    if (((IF_GETX(comp(306, 8)) >= IF_GETX(comp(306, 19))) && (IF_GETX(comp(306, 8)) < (IF_GETX(comp(306, 19)) + IF_GETWIDTH(comp(306, 19)))))) {
+    if (((IF_GETX(comp(306, 8) /*easter09_nuts:model2*/) >= IF_GETX(comp(306, 19) /*easter09_nuts:position_layer*/)) && (IF_GETX(comp(306, 8) /*easter09_nuts:model2*/) < (IF_GETX(comp(306, 19) /*easter09_nuts:position_layer*/) + IF_GETWIDTH(comp(306, 19) /*easter09_nuts:position_layer*/))))) {
         varclient_765 = 2;
         script2326(varclient_762);
     };
-    if (((IF_GETX(comp(306, 9)) >= IF_GETX(comp(306, 19))) && (IF_GETX(comp(306, 9)) < (IF_GETX(comp(306, 19)) + IF_GETWIDTH(comp(306, 19)))))) {
+    if (((IF_GETX(comp(306, 9) /*easter09_nuts:model3*/) >= IF_GETX(comp(306, 19) /*easter09_nuts:position_layer*/)) && (IF_GETX(comp(306, 9) /*easter09_nuts:model3*/) < (IF_GETX(comp(306, 19) /*easter09_nuts:position_layer*/) + IF_GETWIDTH(comp(306, 19) /*easter09_nuts:position_layer*/))))) {
         varclient_765 = 3;
         script2326(varclient_763);
     };
-    if (((IF_GETX(comp(306, 10)) >= IF_GETX(comp(306, 19))) && (IF_GETX(comp(306, 10)) < (IF_GETX(comp(306, 19)) + IF_GETWIDTH(comp(306, 19)))))) {
+    if (((IF_GETX(comp(306, 10) /*easter09_nuts:model4*/) >= IF_GETX(comp(306, 19) /*easter09_nuts:position_layer*/)) && (IF_GETX(comp(306, 10) /*easter09_nuts:model4*/) < (IF_GETX(comp(306, 19) /*easter09_nuts:position_layer*/) + IF_GETWIDTH(comp(306, 19) /*easter09_nuts:position_layer*/))))) {
         varclient_765 = 4;
         script2326(varclient_764);
     };
     varclient_766 = 1;
-    IF_SETONTIMER(callback(script2328, -2147483645), comp(306, 11));
+    IF_SETONTIMER(callback(script2328, -2147483645), comp(306, 11));  // easter09_nuts:bar
     return;
 }

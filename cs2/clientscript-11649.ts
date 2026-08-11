@@ -4,11 +4,11 @@ function script11649(): void {
     var int1 = 0;
     var int2 = 22;
     if ((varbitplayer_33921 == 0)) {
-        IF_SETTEXT("Bone collector<col=ff0000> - Purchased from Boni on Waiko</col>", comp(1641, 77));
-        IF_SETHIDE(true, comp(1641, 135));
+        IF_SETTEXT("Bone collector<col=ff0000> - Purchased from Boni on Waiko</col>", comp(1641, 77));  // rand_bonecrusher:bone_collector_title
+        IF_SETHIDE(true, comp(1641, 135));  // rand_bonecrusher:bone_pickup_toggle_text
     } else {
-        IF_SETTEXT("Bone collector", comp(1641, 77));
-        IF_SETHIDE(false, comp(1641, 135));
+        IF_SETTEXT("Bone collector", comp(1641, 77));  // rand_bonecrusher:bone_collector_title
+        IF_SETHIDE(false, comp(1641, 135));  // rand_bonecrusher:bone_pickup_toggle_text
     };
     int0 = (int0 + 1);
     while ((int0 < int2)) {

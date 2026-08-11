@@ -6,6 +6,6 @@ function script13717(): void {
     } else {
         string0 = `<col=FF0000>${inttostring(varbitplayer_38505, 10)} Slain`;
     };
-    IF_SETTEXT(`Current Streak<br>${string0}`, comp(1910, 4));
+    IF_SETTEXT(`Current Streak<br>${string0}`, comp(1910, 4));  // mtxfest17_wol:current_streak_text
     return;
 }

@@ -16,6 +16,6 @@ function script8305(int0: number): void {
     script8705(int0);
     varclient_2832 = 0;
     varclient_3467 = -1;
-    IF_SENDTOBACK(comp(1477, 26));
+    IF_SENDTOBACK(comp(1477, 26));  // toplevel_v2:background_colour
     return;
 }

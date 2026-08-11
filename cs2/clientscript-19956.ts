@@ -1,6 +1,6 @@
 //
 function script19956(): void {
-    IF_SETHIDE(false, comp(970, 35));
+    IF_SETHIDE(false, comp(970, 35));  // trh180_overlay:splash_screen
     var int0 = 0;
     stack(63569955);
     stack(int0);

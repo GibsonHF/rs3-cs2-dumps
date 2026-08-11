@@ -123,13 +123,13 @@ function script2596(int0: number, int1: number, int2: number, int3: number): voi
         };
         int22 = (int22 + 1);
     };
-    var int30 = ((IF_GETY(comp(1513, 37)) + IF_GETY(comp(1513, 40))) + MAX(int9, int10));
+    var int30 = ((IF_GETY(comp(1513, 37) /*graphics_options_v2_client:advanced_layer*/) + IF_GETY(comp(1513, 40) /*graphics_options_v2_client:advanced_build_area*/)) + MAX(int9, int10));
     switch (int3) {
         case 0:
         case 4: {
-            int30 = ((IF_GETY(comp(882, 10)) + int30) + 10);
-            IF_SETSIZE(IF_GETWIDTH(comp(882, 3)), int30, 0, 0, comp(882, 3));
-            IF_SETPOSITION(0, 0, 1, 1, comp(882, 3));
+            int30 = ((IF_GETY(comp(882, 10)) + int30) + 10);  // loginscreen_graphics_options:mainmodal_window_content
+            IF_SETSIZE(IF_GETWIDTH(comp(882, 3)), int30, 0, 0, comp(882, 3));  // loginscreen_graphics_options:contents
+            IF_SETPOSITION(0, 0, 1, 1, comp(882, 3));  // loginscreen_graphics_options:contents
             break;
         }
     };

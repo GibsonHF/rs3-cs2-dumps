@@ -1,12 +1,12 @@
 //
 function script20323(int0: number, int1: number): void {
-    if (((int1 != comp(1479, 20)) && (varplayer_12329 < 8))) {
+    if (((int1 != comp(1479, 20)) && (varplayer_12329 < 8))) {  // league_parent_tasks:task_scrollbar
         switch (varplayer_12329) {
             case 5:
             case 8: {
                 varplayer_12329 = (varplayer_12329 + 1);
-                IF_SETONRESIZE(callback(script20285), comp(1361, 5));
-                IF_CALLONRESIZE(comp(1361, 5));
+                IF_SETONRESIZE(callback(script20285), comp(1361, 5));  // league_child_tasks:filter_deferred
+                IF_CALLONRESIZE(comp(1361, 5));  // league_child_tasks:filter_deferred
                 return;
             }
         };
@@ -14,7 +14,7 @@ function script20323(int0: number, int1: number): void {
     IF_SETSCROLLPOS(0, 0, int0);
     CC_DELETEALL(int0);
     CC_DELETEALL(int1);
-    if ((int1 == comp(1479, 20))) {
+    if ((int1 == comp(1479, 20))) {  // league_parent_tasks:task_scrollbar
         if ((STRING_LENGTH(varclient_8333) > 0)) {
             script2995(int0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 2195, `No tasks found matching the '${varclient_8333}' search.<br>Please try another search term or update your filters.`);
         } else {

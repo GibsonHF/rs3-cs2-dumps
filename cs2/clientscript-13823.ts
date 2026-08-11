@@ -4,7 +4,7 @@ function script13823(): void {
         return;
     };
     if ((script6431() == 0)) {
-        IF_SETONTIMER(callback(script13824), comp(1477, 882));
+        IF_SETONTIMER(callback(script13824), comp(1477, 882));  // toplevel_v2:optext_layer
     };
     return;
 }

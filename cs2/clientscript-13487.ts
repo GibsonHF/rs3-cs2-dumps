@@ -17,27 +17,27 @@ function script13487(int0: number, int1: number, int2: number): void {
     IF_SETPOSITION(0, (60 + int8), 1, 0, int3);
     if ((int4 == 1)) {
         IF_RESETMODELLIGHTING(int3);
-        IF_SETTEXT(string0, comp(1879, 15));
+        IF_SETTEXT(string0, comp(1879, 15));  // slayer_pod_codex:monster_name
     } else {
         IF_SETMODELLIGHTING(script16107(), -1, int3);
-        IF_SETTEXT("???", comp(1879, 15));
+        IF_SETTEXT("???", comp(1879, 15));  // slayer_pod_codex:monster_name
     };
-    IF_SETTEXT("", comp(1879, 16));
+    IF_SETTEXT("", comp(1879, 16));  // slayer_pod_codex:monster_kills
     var int9 = -1;
     var int10 = -1;
     if ((int4 == 1)) {
         [int9, int10] = script13485(int5);
     };
     if ((int9 > -1)) {
-        IF_SETTEXT(`Kills: ${TOSTRING_LOCALISED(int9, 1)}<br>Prestige: ${inttostring(int10, 10)}`, comp(1879, 16));
-        IF_SETHIDE(false, comp(1879, 16));
+        IF_SETTEXT(`Kills: ${TOSTRING_LOCALISED(int9, 1)}<br>Prestige: ${inttostring(int10, 10)}`, comp(1879, 16));  // slayer_pod_codex:monster_kills
+        IF_SETHIDE(false, comp(1879, 16));  // slayer_pod_codex:monster_kills
     } else {
-        IF_SETHIDE(true, comp(1879, 16));
+        IF_SETHIDE(true, comp(1879, 16));  // slayer_pod_codex:monster_kills
     };
     var int11 = 5;
     var int12 = 5;
     int11 = ((3 + (MODULO(int1, 5) * 40)) + (MODULO(int1, 5) * 5));
     int12 = ((3 + ((int1 / 5) * 40)) + ((int1 / 5) * 5));
-    IF_SETPOSITION(int11, int12, 0, 0, comp(1879, 3));
+    IF_SETPOSITION(int11, int12, 0, 0, comp(1879, 3));  // slayer_pod_codex:active_highlight
     return;
 }

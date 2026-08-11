@@ -5,7 +5,7 @@ function script701(): void {
     var int2 = 0;
     var int3 = script13749();
     while ((int0 < 28)) {
-        CC_CREATE(comp(478, 1), 5, int0);
+        CC_CREATE(comp(478, 1), 5, int0);  // bank_deposit_imp:imp_deposit_layer
         CC_SETSIZE(36, 32, 0, 0);
         CC_SETPOSITION((40 * int1), (40 * int2), 0, 0);
         if ((INV_GETOBJ(93 as inv, int0) != -1 as obj)) {

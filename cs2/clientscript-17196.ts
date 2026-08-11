@@ -1,6 +1,6 @@
 //
 function script17196(int0: number): void {
-    CC_DELETEALL(comp(1138, 22));
+    CC_DELETEALL(comp(1138, 22));  // trh191:reward_draw_layer
     var int1 = enum_getvalue(0, 74, 16852, int0);
     var int2 = dbrow_getfield(int1, 884752, 0);
     var int3 = 0;
@@ -10,7 +10,7 @@ function script17196(int0: number): void {
     var int7 = 0;
     var int8 = script17206(int2);
     var int9 = 113;
-    var int10 = IF_GETNEXTSUBID(comp(1138, 22));
+    var int10 = IF_GETNEXTSUBID(comp(1138, 22));  // trh191:reward_draw_layer
     var string0 = "";
     int3 = (int3 + 1);
     while ((int3 <= int2)) {
@@ -33,6 +33,6 @@ function script17196(int0: number): void {
         CC_SETTEXTALIGN(1, 1, 12);
         int8 = (int8 + int9);
     };
-    IF_SETHIDE(false, comp(1138, 51));
+    IF_SETHIDE(false, comp(1138, 51));  // trh191:reward_claim_layer
     return;
 }

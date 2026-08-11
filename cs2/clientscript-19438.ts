@@ -23,10 +23,10 @@ function script19438(): void {
         return;
     };
     if ((int5 == 1)) {
-        IF_SETSIZE(0, 0, 1, 1, comp(1302, 86));
+        IF_SETSIZE(0, 0, 1, 1, comp(1302, 86));  // group_ironman_parent:reward_selected_area
         IF_SETHIDE(true, int1);
     } else {
-        IF_SETSIZE(40, 0, 1, 1, comp(1302, 86));
+        IF_SETSIZE(40, 0, 1, 1, comp(1302, 86));  // group_ironman_parent:reward_selected_area
         IF_SETHIDE(false, int1);
     };
     var int6 = ((40 * int5) + ((int5 - 1) * 4));

@@ -19,7 +19,7 @@ function script11457(int0: number, int1: number, int2: number, int3: number, int
             };
             CC_SETOPBASE(`<col=FF981F>${OC_NAME(int2)}`);
             if (((int9 == 1) || (int9 == 3))) {
-                if ((int1 == comp(1626, 63))) {
+                if ((int1 == comp(1626, 63))) {  // death:autosave_click
                     CC_SETOP(1, "Examine");
                 } else {
                     CC_SETOP(1, "Examine");

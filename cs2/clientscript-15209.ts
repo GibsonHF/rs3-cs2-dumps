@@ -8,10 +8,10 @@ function script15209(int0: number): void {
     [int1, int2] = dbrow_getfield(int0, 299040, 0);
     [int3, int4, int5] = script3985(int2, 1);
     if ((((int3 <= 0) && (int4 <= 0)) && (int5 <= 0))) {
-        IF_SETTEXT("Event has finished", comp(634, 46));
-        IF_SETONTIMER(callback(), comp(634, 44));
+        IF_SETTEXT("Event has finished", comp(634, 46));  // runepass:time_remaining_text
+        IF_SETONTIMER(callback(), comp(634, 44));  // runepass:time_remaining_layer
         return;
     };
-    IF_SETTEXT(`${inttostring(int3, 10)} Days, ${inttostring(int4, 10)} Hrs, ${inttostring(int5, 10)} Mins`, comp(634, 46));
+    IF_SETTEXT(`${inttostring(int3, 10)} Days, ${inttostring(int4, 10)} Hrs, ${inttostring(int5, 10)} Mins`, comp(634, 46));  // runepass:time_remaining_text
     return;
 }

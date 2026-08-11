@@ -1,6 +1,6 @@
 //
 function script15979(int0: number, int1: number, int2: number, int3: number): void {
-    if (((IF_GETHIDE(comp(1477, 787)) == false) && (script6354(93847555) == 1))) {
+    if (((IF_GETHIDE(comp(1477, 787)) == false) && (script6354(93847555) == 1))) {  // toplevel_v2:context_menu_layer
         return;
     };
     if (((script15532(0) == 1) || (varbitplayer_27169 == 1))) {
@@ -39,9 +39,9 @@ function script15979(int0: number, int1: number, int2: number, int3: number): vo
     var int10 = 0;
     var int11 = -8;
     var int12 = 2;
-    var int13 = comp(1431, 1);
+    var int13 = comp(1431, 1);  // toplevel_v2_ribbon:ribbon_root
     if ((int3 == 1)) {
-        int13 = comp(568, 0);
+        int13 = comp(568, 0);  // toplevel_v2_ribbon_extra:all
     };
     if ((IF_GETWIDTH(int13) < IF_GETHEIGHT(int13))) {
         int10 = 3;
@@ -66,9 +66,9 @@ function script15979(int0: number, int1: number, int2: number, int3: number): vo
     } else {
         return;
     };
-    IF_OPENSUBCLIENT(comp(1477, 788), 1432);
+    IF_OPENSUBCLIENT(comp(1477, 788), 1432);  // toplevel_v2:context_menu_content_layer
     script8421(93847553, 93847555, 93847554, -1, "", 21259, -1, 0, -1, 38884);
-    if ((IF_FIND(comp(1432, 4)) == 1)) {
+    if ((IF_FIND(comp(1432, 4)) == 1)) {  // toplevel_v2_parents_quickchildren:quickchild
         cc_setparam(3642, int4);
         cc_setparam(3643, int10);
     };

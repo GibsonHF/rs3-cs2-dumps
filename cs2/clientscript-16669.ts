@@ -19,7 +19,7 @@ function script16669(): void {
         CC_SETOBJECT(int0, int1);
         CC_SETSIZE(50, 50, 0, 0);
     };
-    if (((CC_FIND(comp(1253, 3), 2) == 1) && (CC_FINDBYCATEGORY[1](comp(1253, 3), 2, 3) == 1))) {
+    if (((CC_FIND(comp(1253, 3), 2) == 1) && (CC_FINDBYCATEGORY[1](comp(1253, 3), 2, 3) == 1))) {  // wheel_of_fortune:background_holder
         script16665(script16689(), 82116611, CC_GETID[1]());
     };
     return;

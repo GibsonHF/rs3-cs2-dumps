@@ -200,7 +200,7 @@ function script112(int0: number, int1: number): void {
             break;
         }
     };
-    IF_SETTEXT(ESCAPE(varclient_2506), comp(1469, 4));
+    IF_SETTEXT(ESCAPE(varclient_2506), comp(1469, 4));  // meslayer:mes_text2
     script1557();
     if ((varclient_5 == 14)) {
         varclient_2249 = LOWERCASE(varclient_2506);

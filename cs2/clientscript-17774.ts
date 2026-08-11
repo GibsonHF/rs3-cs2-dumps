@@ -1,6 +1,6 @@
 //
 function script17774(int0: number, int1: number, int2: number, int3: number, int4: number): number {
-    var int5 = comp(1223, 22);
+    var int5 = comp(1223, 22);  // necro_ritual_information:glyph_holding_layer
     var int6 = IF_GETWIDTH(int5);
     var int7 = (18 * PARAHEIGHT(`${inttostring(int1, 10)} / ${inttostring(int2, 10)} ${script17522(int3)}`, int6, 207 as fontmetrics));
     script9731(int5, IF_GETNEXTSUBID(int5), 0, int0, 0, 0, 18, 18, 0, 0, int4, -1);

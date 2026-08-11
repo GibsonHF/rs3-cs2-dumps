@@ -1,14 +1,14 @@
 //
 function script10099(int0: number, int1: number, int2: number): void {
-    var int3 = comp(1515, 10);
-    var int4 = IF_GETWIDTH(comp(1515, 13));
-    var int5 = IF_GETHEIGHT(comp(1515, 13));
+    var int3 = comp(1515, 10);  // sb_overlay:small_spider
+    var int4 = IF_GETWIDTH(comp(1515, 13));  // sb_overlay:border_blur
+    var int5 = IF_GETHEIGHT(comp(1515, 13));  // sb_overlay:border_blur
     var int6 = 50;
     var int7 = -50;
     var int8 = -50;
     var int9 = 1500;
     if ((int2 == 1)) {
-        int3 = comp(1515, 11);
+        int3 = comp(1515, 11);  // sb_overlay:big_spider
         int6 = 0;
         int9 = 1000;
     };
@@ -74,6 +74,6 @@ function script10099(int0: number, int1: number, int2: number): void {
         }
     };
     IF_SETPOSITION(int7, int8, 0, 0, int3);
-    IF_SETONTIMER(callback(script10100, int12, int3, int4, int5), comp(1515, 15));
+    IF_SETONTIMER(callback(script10100, int12, int3, int4, int5), comp(1515, 15));  // sb_overlay:spider_controller
     return;
 }

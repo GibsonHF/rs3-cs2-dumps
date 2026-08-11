@@ -1,8 +1,8 @@
 //
 function script11753(): void {
-    var int0 = comp(732, 3);
-    var int1 = comp(732, 4);
-    var int2 = comp(732, 5);
+    var int0 = comp(732, 3);  // hvh_rewards:build_wrapper
+    var int1 = comp(732, 4);  // hvh_rewards:build_layer
+    var int2 = comp(732, 5);  // hvh_rewards:click_layer
     var int3 = 47972358;
     CC_DELETEALL(int1);
     CC_DELETEALL(int2);

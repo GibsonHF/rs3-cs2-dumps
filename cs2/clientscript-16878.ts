@@ -1,16 +1,16 @@
 //
 function script16878(): void {
-    IF_SETONVARTRANSMIT(callback(script16878, 6601, 10647, 9008, 10637, 10630, 10630, 6), comp(906, 13));
+    IF_SETONVARTRANSMIT(callback(script16878, 6601, 10647, 9008, 10637, 10630, 10630, 6), comp(906, 13));  // lobbyscreen:fss_counter_next
     if ((script3112() == 0)) {
         return;
     };
     var int0 = script16828(varplayer_6601);
     var int1 = script16829(varplayer_6601);
     var int2 = ((DATE_MINUTES_FROMRUNEDAY(int1) + 720) - 1);
-    IF_SETTEXT(`Fresh Start Worlds: Week ${inttostring(int0, 10)} Boosts (ACTIVE)`, comp(907, 12));
-    IF_SETTEXT("Fresh Start Worlds: Next Week's Boosts", comp(907, 6));
-    IF_SETONTIMER(callback(script12275, 59441161, 59375629, int2, varplayer_10647, -1, 1, 1, 1), comp(906, 13));
-    IF_SETONTIMER(callback(script12275, 59441167, 59375628, int2, varplayer_10647, -1, 1, 1, 1), comp(906, 12));
+    IF_SETTEXT(`Fresh Start Worlds: Week ${inttostring(int0, 10)} Boosts (ACTIVE)`, comp(907, 12));  // lobbyscreen_pane_playerinfo:fss_current_title
+    IF_SETTEXT("Fresh Start Worlds: Next Week's Boosts", comp(907, 6));  // lobbyscreen_pane_playerinfo:fss_next_title
+    IF_SETONTIMER(callback(script12275, 59441161, 59375629, int2, varplayer_10647, -1, 1, 1, 1), comp(906, 13));  // lobbyscreen:fss_counter_next
+    IF_SETONTIMER(callback(script12275, 59441167, 59375628, int2, varplayer_10647, -1, 1, 1, 1), comp(906, 12));  // lobbyscreen:fss_counter_current
     var int3 = struct_getparam(11795, 6381);
     var int4 = struct_getparam(25706, 6381);
     switch (MAP_LANG()) {
@@ -30,12 +30,12 @@ function script16878(): void {
             break;
         }
     };
-    IF_SETGRAPHIC(int3, comp(907, 14));
-    IF_SETGRAPHIC(int4, comp(907, 8));
+    IF_SETGRAPHIC(int3, comp(907, 14));  // lobbyscreen_pane_playerinfo:fss_current_graphic
+    IF_SETGRAPHIC(int4, comp(907, 8));  // lobbyscreen_pane_playerinfo:fss_next_graphic
     script16904();
     script16880(59441168, int0, 1);
     script16880(59441162, (int0 + 1), 0);
-    IF_SETONTIMER(callback(script16879, -2147483645, int0, 1, 0), comp(907, 16));
-    IF_SETONTIMER(callback(script16879, -2147483645, (int0 + 1), 0, 0), comp(907, 10));
+    IF_SETONTIMER(callback(script16879, -2147483645, int0, 1, 0), comp(907, 16));  // lobbyscreen_pane_playerinfo:fss_current_contents
+    IF_SETONTIMER(callback(script16879, -2147483645, (int0 + 1), 0, 0), comp(907, 10));  // lobbyscreen_pane_playerinfo:fss_next_contents
     return;
 }

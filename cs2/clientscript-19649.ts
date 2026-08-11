@@ -32,11 +32,11 @@ function script19649(int0: number, int1: number): number {
         int2 = 13333 as graphic;
     };
     if ((int0 == 1)) {
-        IF_SETGRAPHIC(int2, comp(641, 15));
-        IF_SETHIDE(int3, comp(641, 19));
+        IF_SETGRAPHIC(int2, comp(641, 15));  // xmas2019_advent:progress_members_present
+        IF_SETHIDE(int3, comp(641, 19));  // xmas2019_advent:progress_members_tick
     } else {
-        IF_SETGRAPHIC(int2, comp(641, 14));
-        IF_SETHIDE(int3, comp(641, 18));
+        IF_SETGRAPHIC(int2, comp(641, 14));  // xmas2019_advent:progress_f2p_present
+        IF_SETHIDE(int3, comp(641, 18));  // xmas2019_advent:progress_f2p_tick
     };
     return -1;
 }

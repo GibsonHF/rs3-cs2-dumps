@@ -1,7 +1,7 @@
 //
 function script11617(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number, int8: number, int9: number): number {
     var int10 = 380;
-    if ((IF_GETLAYER(int3) == comp(1594, 81))) {
+    if ((IF_GETLAYER(int3) == comp(1594, 81))) {  // rewardshop:item_preview_layer
         int10 = 600;
     };
     script15941(int3, 0, int2, 0, 0, 0, 0, 0, 0, 1, 1);

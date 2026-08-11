@@ -14,6 +14,6 @@ function script15507(int0: number, int1: number, int2: number, int3: number, int
     };
     [int6, int7] = script15475(int0);
     IF_SETOBJECT(int6, int7, int1);
-    IF_SETTEXT(`(Tier ${inttostring((varbitplayer_48869 + 1), 10)})`, comp(770, 75));
+    IF_SETTEXT(`(Tier ${inttostring((varbitplayer_48869 + 1), 10)})`, comp(770, 75));  // trh173_overlay:prestige_counter_text
     return;
 }

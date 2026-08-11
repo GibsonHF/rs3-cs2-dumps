@@ -15,25 +15,25 @@ function script18298(): void {
         switch (int8) {
             case 1: {
                 int5 = int1;
-                int6 = comp(635, 20);
+                int6 = comp(635, 20);  // combatv2_ability_necromancy_conjure_undead_army_customisation:ability_1_button
                 int7 = 41615391;
                 break;
             }
             case 2: {
                 int5 = int2;
-                int6 = comp(635, 23);
+                int6 = comp(635, 23);  // combatv2_ability_necromancy_conjure_undead_army_customisation:ability_2_button
                 int7 = 41615392;
                 break;
             }
             case 3: {
                 int5 = int3;
-                int6 = comp(635, 26);
+                int6 = comp(635, 26);  // combatv2_ability_necromancy_conjure_undead_army_customisation:ability_3_button
                 int7 = 41615393;
                 break;
             }
             case 4: {
                 int5 = int4;
-                int6 = comp(635, 29);
+                int6 = comp(635, 29);  // combatv2_ability_necromancy_conjure_undead_army_customisation:ability_4_button
                 int7 = 41615394;
                 break;
             }

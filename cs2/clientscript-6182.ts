@@ -18,21 +18,21 @@ function script6182(int0: number, int1: number): void {
     if ((int4 == -1 as struct)) {
         return;
     };
-    IF_SETRECOL(1, 62904, struct_getparam(int4, 2396), comp(1273, 21));
-    IF_SETRECOL(2, 62894, struct_getparam(int4, 2397), comp(1273, 21));
-    IF_SETRECOL(3, 62884, struct_getparam(int4, 2398), comp(1273, 21));
-    IF_SETRECOL(4, 62874, struct_getparam(int4, 2399), comp(1273, 21));
-    IF_SETRECOL(1, 62904, struct_getparam(int4, 2396), comp(1273, 22));
-    IF_SETRECOL(2, 62894, struct_getparam(int4, 2397), comp(1273, 22));
-    IF_SETRECOL(3, 62884, struct_getparam(int4, 2398), comp(1273, 22));
-    IF_SETRECOL(4, 62874, struct_getparam(int4, 2399), comp(1273, 22));
-    IF_SETRECOL(1, 62904, struct_getparam(int4, 2396), comp(1273, 23));
-    IF_SETRECOL(2, 62894, struct_getparam(int4, 2397), comp(1273, 23));
-    IF_SETRECOL(3, 62884, struct_getparam(int4, 2398), comp(1273, 23));
-    IF_SETRECOL(4, 62874, struct_getparam(int4, 2399), comp(1273, 23));
-    IF_SETRECOL(1, 62904, struct_getparam(int4, 2396), comp(1273, 24));
-    IF_SETRECOL(2, 62894, struct_getparam(int4, 2397), comp(1273, 24));
-    IF_SETRECOL(3, 62884, struct_getparam(int4, 2398), comp(1273, 24));
-    IF_SETRECOL(4, 62874, struct_getparam(int4, 2399), comp(1273, 24));
+    IF_SETRECOL(1, 62904, struct_getparam(int4, 2396), comp(1273, 21));  // rcsiphonxp_shop:recolour_buy_op_wicked_set_hood
+    IF_SETRECOL(2, 62894, struct_getparam(int4, 2397), comp(1273, 21));  // rcsiphonxp_shop:recolour_buy_op_wicked_set_hood
+    IF_SETRECOL(3, 62884, struct_getparam(int4, 2398), comp(1273, 21));  // rcsiphonxp_shop:recolour_buy_op_wicked_set_hood
+    IF_SETRECOL(4, 62874, struct_getparam(int4, 2399), comp(1273, 21));  // rcsiphonxp_shop:recolour_buy_op_wicked_set_hood
+    IF_SETRECOL(1, 62904, struct_getparam(int4, 2396), comp(1273, 22));  // rcsiphonxp_shop:recolour_buy_op_wicked_set_cape
+    IF_SETRECOL(2, 62894, struct_getparam(int4, 2397), comp(1273, 22));  // rcsiphonxp_shop:recolour_buy_op_wicked_set_cape
+    IF_SETRECOL(3, 62884, struct_getparam(int4, 2398), comp(1273, 22));  // rcsiphonxp_shop:recolour_buy_op_wicked_set_cape
+    IF_SETRECOL(4, 62874, struct_getparam(int4, 2399), comp(1273, 22));  // rcsiphonxp_shop:recolour_buy_op_wicked_set_cape
+    IF_SETRECOL(1, 62904, struct_getparam(int4, 2396), comp(1273, 23));  // rcsiphonxp_shop:recolour_buy_op_wicked_set_torso
+    IF_SETRECOL(2, 62894, struct_getparam(int4, 2397), comp(1273, 23));  // rcsiphonxp_shop:recolour_buy_op_wicked_set_torso
+    IF_SETRECOL(3, 62884, struct_getparam(int4, 2398), comp(1273, 23));  // rcsiphonxp_shop:recolour_buy_op_wicked_set_torso
+    IF_SETRECOL(4, 62874, struct_getparam(int4, 2399), comp(1273, 23));  // rcsiphonxp_shop:recolour_buy_op_wicked_set_torso
+    IF_SETRECOL(1, 62904, struct_getparam(int4, 2396), comp(1273, 24));  // rcsiphonxp_shop:recolour_buy_op_wicked_set_legs
+    IF_SETRECOL(2, 62894, struct_getparam(int4, 2397), comp(1273, 24));  // rcsiphonxp_shop:recolour_buy_op_wicked_set_legs
+    IF_SETRECOL(3, 62884, struct_getparam(int4, 2398), comp(1273, 24));  // rcsiphonxp_shop:recolour_buy_op_wicked_set_legs
+    IF_SETRECOL(4, 62874, struct_getparam(int4, 2399), comp(1273, 24));  // rcsiphonxp_shop:recolour_buy_op_wicked_set_legs
     return;
 }

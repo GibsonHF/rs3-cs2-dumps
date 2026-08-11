@@ -1,9 +1,9 @@
 //
 function script14825(int0: number): void {
-    CC_DELETEALL(comp(685, 18));
-    CC_DELETEALL(comp(685, 19));
-    script14814(44892177, IF_GETSCROLLHEIGHT(comp(685, 17)), -1, 44892228, 44892229);
-    IF_SETSCROLLPOS(0, 0, comp(685, 17));
+    CC_DELETEALL(comp(685, 18));  // arch_journal:mysteries_build_layer
+    CC_DELETEALL(comp(685, 19));  // arch_journal:mysteries_control_layer
+    script14814(44892177, IF_GETSCROLLHEIGHT(comp(685, 17)), -1, 44892228, 44892229);  // arch_journal:mysteries_scrolling_layer
+    IF_SETSCROLLPOS(0, 0, comp(685, 17));  // arch_journal:mysteries_scrolling_layer
     if ((int0 == -1 as cs2enum)) {
         return;
     };
@@ -11,10 +11,10 @@ function script14825(int0: number): void {
     var int2 = ENUM_GETOUTPUTCOUNT(int0);
     var int3 = 0;
     var int4 = 55;
-    if ((IF_GETHEIGHT(comp(685, 0)) >= 550)) {
+    if ((IF_GETHEIGHT(comp(685, 0)) >= 550)) {  // arch_journal:mainmodal_window
         int4 = 75;
     };
-    var int5 = IF_GETHEIGHT(comp(685, 17));
+    var int5 = IF_GETHEIGHT(comp(685, 17));  // arch_journal:mysteries_scrolling_layer
     var int6 = int5;
     var int7 = -1;
     int7 = (int7 + 1);
@@ -26,19 +26,19 @@ function script14825(int0: number): void {
                 int4 = ((int4 - ((70 + 5) * 5)) + int5);
                 int6 = (int6 + int5);
             } else {
-                int3 = (IF_GETWIDTH(comp(685, 18)) - 326);
+                int3 = (IF_GETWIDTH(comp(685, 18)) - 326);  // arch_journal:mysteries_build_layer
                 int4 = (int4 - ((70 + 5) * 5));
             };
         };
-        script14826(44892178, 44892179, int1, int3, int4, 326, 70, IF_GETNEXTSUBID(comp(685, 19)));
+        script14826(44892178, 44892179, int1, int3, int4, 326, 70, IF_GETNEXTSUBID(comp(685, 19)));  // arch_journal:mysteries_control_layer
         int4 = (int4 + (70 + 5));
     };
-    IF_SETSCROLLSIZE(0, int6, comp(685, 17));
+    IF_SETSCROLLSIZE(0, int6, comp(685, 17));  // arch_journal:mysteries_scrolling_layer
     if ((int6 > int5)) {
-        IF_SETHIDE(false, comp(685, 65));
+        IF_SETHIDE(false, comp(685, 65));  // arch_journal:mysteries_navigation_layer
         script14812(44892177, int5, 44892226, 44892228, 44892227, 44892229);
     } else {
-        IF_SETHIDE(true, comp(685, 65));
+        IF_SETHIDE(true, comp(685, 65));  // arch_journal:mysteries_navigation_layer
     };
     return;
 }

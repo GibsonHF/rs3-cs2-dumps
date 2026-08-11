@@ -15,7 +15,7 @@ function script16446(string0: string): void {
     if (((STRING_LENGTH(string2) == 0) && (STRING_LENGTH(string3) == 0))) {
         return;
     };
-    var int1 = comp(1486, 14);
+    var int1 = comp(1486, 14);  // text_tooltip:tooltip_dynamic_text
     var int2 = MIN((480 - (2 * 4)), PARAWIDTH(string2, 1000, 58 as fontmetrics));
     if ((STRING_LENGTH(string3) > 0)) {
         int2 = MAX(int2, MIN((480 - (2 * 4)), PARAWIDTH(string3, 1000, 29 as fontmetrics)));

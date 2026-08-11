@@ -11,7 +11,7 @@ function script9307(int0: number, int1: number): number {
     while ((int4 <= 15)) {
         int5 = int2;
         while ((int5 < int3)) {
-            if ((CC_FIND(comp(517, 201), int5) == 1)) {
+            if ((CC_FIND(comp(517, 201), int5) == 1)) {  // bank:bank_inv
                 if ((int1 == 0)) {
                     int8 = INV_GETOBJ(95 as inv, int5);
                     int6 = INV_GETNUM(95 as inv, int5);

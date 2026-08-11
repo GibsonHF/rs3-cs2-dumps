@@ -1,17 +1,17 @@
 //
 function script10437(int0: number, int1: number): void {
-    var int2 = comp(1477, 895);
+    var int2 = comp(1477, 895);  // toplevel_v2:dropdown_highlight
     switch (IF_GETTOP()) {
         case 906: {
-            int2 = comp(906, 163);
+            int2 = comp(906, 163);  // lobbyscreen:dropdown_highlight
             break;
         }
         case 744: {
-            int2 = comp(744, 365);
+            int2 = comp(744, 365);  // loginscreen:32bit_warning_content
             break;
         }
         default: {
-            int2 = comp(1477, 895);
+            int2 = comp(1477, 895);  // toplevel_v2:dropdown_highlight
             break;
         }
     };

@@ -18,7 +18,7 @@ function script6563(int0: number, int1: number, int2: number): void {
     var int16 = 0;
     CC_DELETEALL(int0);
     CC_DELETEALL(int1);
-    IF_SETHIDE(true, comp(175, 3));
+    IF_SETHIDE(true, comp(175, 3));  // elfcity_increaser:list_loading
     int3 = (int3 + 1);
     while ((int3 < int11)) {
         int14 = enum_getvalue(0, 33, 15225 as cs2enum, int3);
@@ -81,8 +81,8 @@ function script6563(int0: number, int1: number, int2: number): void {
             int4 = (int4 + (int7 + 5));
         };
     };
-    IF_SETSCROLLPOS(0, 0, comp(175, 4));
-    IF_SETSCROLLSIZE(0, MAX(IF_GETHEIGHT(int0), int4), comp(175, 4));
+    IF_SETSCROLLPOS(0, 0, comp(175, 4));  // elfcity_increaser:list_main
+    IF_SETSCROLLSIZE(0, MAX(IF_GETHEIGHT(int0), int4), comp(175, 4));  // elfcity_increaser:list_main
     script7791(int2, 11468804);
     return;
 }

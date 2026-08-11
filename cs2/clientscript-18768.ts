@@ -30,10 +30,10 @@ function script18768(int0: number): void {
         }
     };
     if ((((int0 == 2) || (int0 == 3)) || (int0 == 4))) {
-        IF_SETONTIMER(callback(), comp(764, 9));
+        IF_SETONTIMER(callback(), comp(764, 9));  // combatv2_channel_bar:bar_progress_layer
         script18777();
     };
     varclient_7414 = (CLIENTCLOCK() + int1);
-    IF_SETONTIMER(callback(script18769, -2147483645, int0, MAX(1, int2)), comp(764, 0));
+    IF_SETONTIMER(callback(script18769, -2147483645, int0, MAX(1, int2)), comp(764, 0));  // combatv2_channel_bar:universe
     return;
 }

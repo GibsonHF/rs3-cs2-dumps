@@ -9,14 +9,14 @@ function script1364(): void {
         if ((script8314(1008) == -1)) {
             IF_SETHIDE(false, struct_getparam(21300, 3503));
             IF_SETHIDE(false, struct_getparam(21300, 3505));
-            IF_SETHIDE(true, comp(1477, 739));
+            IF_SETHIDE(true, comp(1477, 739));  // toplevel_v2:side_modal_window_alt_content
             script10399(-1);
         };
-    } else if ((IF_HASSUB(comp(1477, 739)) == 1)) {
+    } else if ((IF_HASSUB(comp(1477, 739)) == 1)) {  // toplevel_v2:side_modal_window_alt_content
         if ((script8314(1008) == -1)) {
             IF_SETHIDE(false, struct_getparam(21300, 3503));
             IF_SETHIDE(true, struct_getparam(21300, 3505));
-            IF_SETHIDE(false, comp(1477, 739));
+            IF_SETHIDE(false, comp(1477, 739));  // toplevel_v2:side_modal_window_alt_content
             script10399(-1);
         };
     } else {
@@ -52,43 +52,43 @@ function script1364(): void {
             IF_SETNOCLICKTHROUGH(1, struct_getparam(21303, 6121));
         };
         script14163();
-    } else if ((IF_HASSUB(comp(1477, 749)) == 1)) {
+    } else if ((IF_HASSUB(comp(1477, 749)) == 1)) {  // toplevel_v2:mes_window_content_overlays
         if ((script8847(12) != -1)) {
             script8841(12, 0);
         };
-        if ((IF_HASSUBOVERLAY(comp(1418, 2), 1469 as overlayinterface) == 1)) {
+        if ((IF_HASSUBOVERLAY(comp(1418, 2), 1469 as overlayinterface) == 1)) {  // toplevel_v2_chatoverlay:open_overlay
             if ((varclient_5 == 0)) {
                 if ((script8847(10) != -1)) {
                     script8841(10, 0);
                 };
                 IF_SETNOCLICKTHROUGH(0, struct_getparam(21303, 3503));
                 IF_SETNOCLICKTHROUGH(0, struct_getparam(21303, 6121));
-                IF_SETHIDE(true, comp(1418, 3));
+                IF_SETHIDE(true, comp(1418, 3));  // toplevel_v2_chatoverlay:root
                 script3374(1006);
             } else {
                 IF_SETNOCLICKTHROUGH(1, struct_getparam(21303, 3503));
                 IF_SETNOCLICKTHROUGH(0, struct_getparam(21303, 6121));
-                IF_SETHIDE(false, comp(1418, 3));
+                IF_SETHIDE(false, comp(1418, 3));  // toplevel_v2_chatoverlay:root
                 if ((script8847(10) == -1)) {
                     script8841(10, 1);
                 };
                 script14163();
             };
-        } else if ((IF_HASSUBOVERLAY(comp(1418, 2), 389 as overlayinterface) == 1)) {
-            if ((IF_GETHIDE(comp(389, 0)) == true)) {
+        } else if ((IF_HASSUBOVERLAY(comp(1418, 2), 389 as overlayinterface) == 1)) {  // toplevel_v2_chatoverlay:open_overlay
+            if ((IF_GETHIDE(comp(389, 0)) == true)) {  // objdialog:root
                 IF_SETNOCLICKTHROUGH(0, struct_getparam(21303, 3503));
                 IF_SETNOCLICKTHROUGH(0, struct_getparam(21303, 6121));
-                IF_SETHIDE(true, comp(1418, 3));
+                IF_SETHIDE(true, comp(1418, 3));  // toplevel_v2_chatoverlay:root
                 script3374(1006);
             } else {
                 IF_SETNOCLICKTHROUGH(1, struct_getparam(21303, 3503));
                 IF_SETNOCLICKTHROUGH(0, struct_getparam(21303, 6121));
-                IF_SETHIDE(false, comp(1418, 3));
+                IF_SETHIDE(false, comp(1418, 3));  // toplevel_v2_chatoverlay:root
             };
         } else {
             IF_SETNOCLICKTHROUGH(1, struct_getparam(21303, 3503));
             IF_SETNOCLICKTHROUGH(0, struct_getparam(21303, 6121));
-            IF_SETHIDE(false, comp(1418, 3));
+            IF_SETHIDE(false, comp(1418, 3));  // toplevel_v2_chatoverlay:root
         };
     } else {
         if ((script8847(12) != -1)) {
@@ -134,7 +134,7 @@ function script1364(): void {
         };
         script20393(0, 5);
     };
-    if ((IF_HASSUB(comp(1477, 744)) == 1)) {
+    if ((IF_HASSUB(comp(1477, 744)) == 1)) {  // toplevel_v2:big_window
         script20393(1, 7);
     } else {
         script20393(0, 7);
@@ -147,10 +147,10 @@ function script1364(): void {
     };
     script3288();
     if (((((varplayer_1784 != -1 as npc) || (varplayer_1831 == 24906 as obj)) || (varplayer_1831 == 24907 as obj)) || (varplayer_1831 == 24908 as obj))) {
-        IF_SETHIDE(false, comp(1430, 28));
+        IF_SETHIDE(false, comp(1430, 28));  // toplevel_v2_combat_bar:main_ops
     } else if ((varplayer_1831 != -1 as obj)) {
         if ((OC_CATEGORY(varplayer_1831) == 2840 as category)) {
-            IF_SETHIDE(false, comp(1430, 28));
+            IF_SETHIDE(false, comp(1430, 28));  // toplevel_v2_combat_bar:main_ops
         } else {
             script8084();
         };

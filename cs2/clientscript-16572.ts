@@ -8,19 +8,19 @@ function script16572(): void {
     if ((int1 == comp(-1, 65535))) {
         return;
     };
-    if ((IF_GETHIDE(comp(276, 27)) == true)) {
+    if ((IF_GETHIDE(comp(276, 27)) == true)) {  // toplevel_v2_mobile:chat_panel
         if ((script8314(1028) != -1)) {
             script8323(1028, 0);
         };
-        IF_SETHIDE(false, comp(276, 27));
+        IF_SETHIDE(false, comp(276, 27));  // toplevel_v2_mobile:chat_panel
         IF_SETPOSITION(script3365(56164380), script3366(56164380), 0, 0, int1);
-        IF_SETSIZE(IF_GETWIDTH(comp(857, 28)), IF_GETHEIGHT(comp(857, 28)), 0, 0, int1);
+        IF_SETSIZE(IF_GETWIDTH(comp(857, 28)), IF_GETHEIGHT(comp(857, 28)), 0, 0, int1);  // mobile_chat_panel:contents
         IF_SETHIDE(true, int1);
         varclient_6798 = 0;
         script6060(0);
         script15855(enum_getvalue(0, 0, 10155 as cs2enum, varbitplayer_49443));
     } else {
-        IF_SETHIDE(true, comp(276, 27));
+        IF_SETHIDE(true, comp(276, 27));  // toplevel_v2_mobile:chat_panel
         script15854(enum_getvalue(0, 0, 10155 as cs2enum, varbitplayer_49443));
         IF_SETHIDE(false, int1);
         IF_SETPOSITION(0, 82, 0, 0, int1);

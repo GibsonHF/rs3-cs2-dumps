@@ -1,11 +1,11 @@
 //
 function script1387(): void {
-    var int0 = comp(936, 2);
-    var int1 = comp(936, 7);
-    var int2 = comp(936, 3);
-    var int3 = comp(936, 4);
-    var int4 = comp(936, 5);
-    var int5 = comp(936, 6);
+    var int0 = comp(936, 2);  // rand_inspect_stats:list
+    var int1 = comp(936, 7);  // rand_inspect_stats:scrollbar
+    var int2 = comp(936, 3);  // rand_inspect_stats:background
+    var int3 = comp(936, 4);  // rand_inspect_stats:icon
+    var int4 = comp(936, 5);  // rand_inspect_stats:stat
+    var int5 = comp(936, 6);  // rand_inspect_stats:stat_base
     IF_SETSIZE(0, 0, 1, 1, int0);
     var int6 = ENUM_GETOUTPUTCOUNT(7674 as cs2enum);
     var int7 = IF_GETWIDTH(int0);
@@ -62,14 +62,14 @@ function script1387(): void {
         };
         int19 = (int19 + 1);
     };
-    IF_SETSIZE(16384, 0, 2, 1, comp(936, 11));
+    IF_SETSIZE(16384, 0, 2, 1, comp(936, 11));  // rand_inspect_stats:skilltotal
     if ((int7 >= 120)) {
-        IF_SETSIZE((16384 / 2), 0, 2, 1, comp(936, 11));
-        IF_SETSIZE((16384 / 2), 0, 2, 1, comp(936, 12));
-        IF_SETPOSITION(0, 0, 2, 0, comp(936, 12));
-        IF_SETHIDE(false, comp(936, 12));
+        IF_SETSIZE((16384 / 2), 0, 2, 1, comp(936, 11));  // rand_inspect_stats:skilltotal
+        IF_SETSIZE((16384 / 2), 0, 2, 1, comp(936, 12));  // rand_inspect_stats:combat_level
+        IF_SETPOSITION(0, 0, 2, 0, comp(936, 12));  // rand_inspect_stats:combat_level
+        IF_SETHIDE(false, comp(936, 12));  // rand_inspect_stats:combat_level
     } else {
-        IF_SETHIDE(true, comp(936, 12));
+        IF_SETHIDE(true, comp(936, 12));  // rand_inspect_stats:combat_level
     };
     return;
 }

@@ -46,9 +46,9 @@ function script14110(int0: number, int1: number, int2: number, int3: number, int
     } else if (((int8 == 53443 as obj) && (int9 == 1))) {
         CC_SETOP(2, `Inspect ${string1}${OC_NAME(int8)}</col>`);
     };
-    var int10 = IF_GETNEXTSUBID(comp(1944, 6));
+    var int10 = IF_GETNEXTSUBID(comp(1944, 6));  // toolbelt_v2:toolbelt_build_layer
     CC_SETONVARTRANSMIT(callback(script14134, int0, int2, int4, int5, int10, 7863, 1103, 1102, 5699, 5987, 1107, 6));
-    CC_CREATE(comp(1944, 6), 5, int10);
+    CC_CREATE(comp(1944, 6), 5, int10);  // toolbelt_v2:toolbelt_build_layer
     CC_SETPOSITION((int3 + 4), (int4 + 4), 0, 0);
     CC_SETSIZE(32, 32, 0, 0);
     CC_SETOBJECT(int8, -1);

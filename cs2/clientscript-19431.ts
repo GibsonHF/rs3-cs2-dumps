@@ -24,19 +24,19 @@ function script19431(int0: number, int1: number, int2: number, int3: number): nu
                 stack(int3);
                 DB_FIND(0);
                 if ((script19337(dbrow_findnext()) == 1)) {
-                    IF_SETTEXT("Claimed", comp(1302, 82));
-                    IF_SETENABLED(false, comp(1302, 82));
+                    IF_SETTEXT("Claimed", comp(1302, 82));  // group_ironman_parent:button_reward_claim
+                    IF_SETENABLED(false, comp(1302, 82));  // group_ironman_parent:button_reward_claim
                 } else {
-                    IF_SETTEXT("Claim Reward", comp(1302, 82));
-                    IF_SETENABLED(true, comp(1302, 82));
+                    IF_SETTEXT("Claim Reward", comp(1302, 82));  // group_ironman_parent:button_reward_claim
+                    IF_SETENABLED(true, comp(1302, 82));  // group_ironman_parent:button_reward_claim
                 };
             } else {
-                IF_SETTEXT("Locked", comp(1302, 82));
-                IF_SETENABLED(false, comp(1302, 82));
+                IF_SETTEXT("Locked", comp(1302, 82));  // group_ironman_parent:button_reward_claim
+                IF_SETENABLED(false, comp(1302, 82));  // group_ironman_parent:button_reward_claim
             };
         } else {
-            IF_SETTEXT("Locked", comp(1302, 82));
-            IF_SETENABLED(false, comp(1302, 82));
+            IF_SETTEXT("Locked", comp(1302, 82));  // group_ironman_parent:button_reward_claim
+            IF_SETENABLED(false, comp(1302, 82));  // group_ironman_parent:button_reward_claim
         };
     };
     stack(int0);

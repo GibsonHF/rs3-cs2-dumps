@@ -6,8 +6,8 @@ function script7147(): void {
     if ((STRING_LENGTH(string0) == 0)) {
         string0 = enum_getvalue(0, 36, 6816, int0);
     };
-    CC_DELETEALL(comp(1370, 29));
+    CC_DELETEALL(comp(1370, 29));  // makex2012:make_build
     script1458(89784349, 89784350, 28553, string0, script6427(varplayer_8846));
-    IF_SETPAUSETEXT(`Make ${inttostring(varplayer_8847, 10)} ${OC_NAME(varplayer_1170)}`, comp(1370, 30));
+    IF_SETPAUSETEXT(`Make ${inttostring(varplayer_8847, 10)} ${OC_NAME(varplayer_1170)}`, comp(1370, 30));  // makex2012:make_click
     return;
 }

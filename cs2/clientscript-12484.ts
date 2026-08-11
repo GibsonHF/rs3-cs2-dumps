@@ -1,13 +1,13 @@
 //
 function script12484(): void {
-    CC_DELETEALL(comp(1757, 31));
-    CC_DELETEALL(comp(1757, 34));
-    CC_DELETEALL(comp(1757, 37));
-    CC_DELETEALL(comp(1757, 40));
-    CC_DELETEALL(comp(1757, 30));
-    CC_DELETEALL(comp(1757, 33));
-    CC_DELETEALL(comp(1757, 36));
-    CC_DELETEALL(comp(1757, 39));
+    CC_DELETEALL(comp(1757, 31));  // mm16_cases:build_pet
+    CC_DELETEALL(comp(1757, 34));  // mm16_cases:build_misc
+    CC_DELETEALL(comp(1757, 37));  // mm16_cases:build_people
+    CC_DELETEALL(comp(1757, 40));  // mm16_cases:build_item
+    CC_DELETEALL(comp(1757, 30));  // mm16_cases:click_pet
+    CC_DELETEALL(comp(1757, 33));  // mm16_cases:click_misc
+    CC_DELETEALL(comp(1757, 36));  // mm16_cases:click_people
+    CC_DELETEALL(comp(1757, 39));  // mm16_cases:click_item
     var int0 = 0;
     var int1 = ENUM_GETOUTPUTCOUNT(11211 as cs2enum);
     var int2 = 0;
@@ -107,15 +107,15 @@ function script12484(): void {
             CC_SETSIZE(50, 50, 0, 0);
             CC_SETPOSITION(int3, int4, 0, 0);
             if ((int2 == varbitplayer_31220)) {
-                IF_SETHIDE(false, comp(1757, 24));
-                IF_SETPOSITION(((script3365(int10) + int3) - 2), ((script3366(int10) + int4) - 2), 0, 0, comp(1757, 24));
+                IF_SETHIDE(false, comp(1757, 24));  // mm16_cases:highlight_rect
+                IF_SETPOSITION(((script3365(int10) + int3) - 2), ((script3366(int10) + int4) - 2), 0, 0, comp(1757, 24));  // mm16_cases:highlight_rect
             };
             CC_SETGRAPHIC(int12);
         };
         int0 = (int0 + 1);
     };
     if ((varbitplayer_31220 == 0)) {
-        IF_SETHIDE(true, comp(1757, 24));
+        IF_SETHIDE(true, comp(1757, 24));  // mm16_cases:highlight_rect
     };
     return;
 }

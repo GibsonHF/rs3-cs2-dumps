@@ -1,8 +1,8 @@
 //
 function script7623(int0: number, int1: number, int2: number, int3: number, int4: number, string0: string, string1: string): [number, number] {
     if ((int4 == 0)) {
-        var int0 = script13998(55705601, 55705602, 28556, 0, int1, IF_GETWIDTH(comp(850, 1)), 32, int0, 0, string0, int2);
-        if ((CC_FIND(comp(850, 2), (int0 - 1)) == 1)) {
+        var int0 = script13998(55705601, 55705602, 28556, 0, int1, IF_GETWIDTH(comp(850, 1)), 32, int0, 0, string0, int2);  // modal_choice_details_controls:button_draw
+        if ((CC_FIND(comp(850, 2), (int0 - 1)) == 1)) {  // modal_choice_details_controls:button_click
             CC_SETOPBASE(`<col=ffffff>${string0}</col>`);
             CC_SETOP(1, "View information");
             CC_SETPARAM_STRING(4618, string0);

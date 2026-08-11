@@ -27,6 +27,6 @@ function script6134(int0: number): void {
         int2 = (300 - int2);
     };
     int2 = SCALE(int2, int3, 200);
-    IF_SETTRANS(int2, comp(1270, 15));
+    IF_SETTRANS(int2, comp(1270, 15));  // fremsaga_bilrach_mind:cursor_thing
     return;
 }

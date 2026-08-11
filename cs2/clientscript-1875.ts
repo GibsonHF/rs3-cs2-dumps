@@ -1,6 +1,6 @@
 //
 function script1875(int0: number, int1: number, string0: string): void {
-    var int2 = comp(808, 10);
+    var int2 = comp(808, 10);  // lobbyscreen_input:text
     var int3 = IF_GETFONTMETRICS(int0);
     IF_SETPOSITION(script1551(varclient_1097, string0, int3, IF_GETX(int2)), IF_GETY(int1), 0, 0, int1);
     var int4 = IF_GETWIDTH(int2);

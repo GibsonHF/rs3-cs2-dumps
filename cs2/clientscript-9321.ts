@@ -7,7 +7,7 @@ function script9321(): void {
     var string0 = script13591();
     var string1 = script13685();
     while ((int0 < 1820)) {
-        if ((CC_FIND(comp(517, 201), int0) == 1)) {
+        if ((CC_FIND(comp(517, 201), int0) == 1)) {  // bank:bank_inv
             int1 = INV_GETOBJ(95 as inv, int0);
             if ((int1 == -1 as obj)) {
                 int1 = 48447 as obj;

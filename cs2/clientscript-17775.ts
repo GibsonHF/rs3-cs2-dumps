@@ -1,9 +1,9 @@
 //
 function script17775(int0: number): number {
-    var int1 = comp(1223, 14);
-    var int2 = comp(1223, 26);
-    var int3 = comp(1223, 27);
-    var int4 = comp(1223, 25);
+    var int1 = comp(1223, 14);  // necro_ritual_information:output_layer
+    var int2 = comp(1223, 26);  // necro_ritual_information:output_holding_layer
+    var int3 = comp(1223, 27);  // necro_ritual_information:output_scrollbar_layer
+    var int4 = comp(1223, 25);  // necro_ritual_information:output_title_layer
     var int5 = 18;
     var int6 = (((IF_GETWIDTH(int1) - IF_GETWIDTH(int4)) - 16) - (8 * 2));
     var int7 = 0;
@@ -39,7 +39,7 @@ function script17775(int0: number): number {
         IF_SETSCROLLSIZE(0, 0, int2);
     };
     IF_SETPOSITION(0, int0, 1, 0, int1);
-    IF_SETSIZE((IF_GETWIDTH(comp(1223, 2)) - IF_GETWIDTH(int1)), (MIN(int8, int9) + (8 * int10)), 1, 0, int1);
+    IF_SETSIZE((IF_GETWIDTH(comp(1223, 2)) - IF_GETWIDTH(int1)), (MIN(int8, int9) + (8 * int10)), 1, 0, int1);  // necro_ritual_information:content_layer
     IF_SETSIZE(int6, MIN(int8, int9), 0, 0, int2);
     return ((int7 + MIN(int8, int9)) + (8 * int11));
 }

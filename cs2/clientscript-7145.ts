@@ -13,7 +13,7 @@ function script7145(): void {
         if ((STRING_LENGTH(string0) == 0)) {
             string0 = enum_getvalue(0, 36, 6816, int0);
         };
-        if ((CC_FIND(comp(1370, 29), 3) == 1)) {
+        if ((CC_FIND(comp(1370, 29), 3) == 1)) {  // makex2012:make_build
             CC_SETTEXT(string0);
         };
     };

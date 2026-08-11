@@ -1,6 +1,6 @@
 //
 function script11221(int0: number, int1: number, int2: number): number {
-    var int3 = comp(1139, 10);
+    var int3 = comp(1139, 10);  // comscenario:description
     var string0 = "";
     CC_CREATE(int3, 4, int1);
     CC_SETSIZE((IF_GETWIDTH(int3) - 8), 20, 0, 0);

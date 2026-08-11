@@ -6,11 +6,11 @@ function script1419(): void {
     if ((varclient_11 == true)) {
         script675();
     };
-    IF_SETHIDE(false, comp(1469, 0));
-    IF_SETTEXT("Enter name of player to delete from list", comp(1469, 3));
+    IF_SETHIDE(false, comp(1469, 0));  // meslayer:root
+    IF_SETTEXT("Enter name of player to delete from list", comp(1469, 3));  // meslayer:mes_text
     varclient_5 = 5;
     script1564("");
-    IF_SETONCLICK(callback(), comp(1469, 1));
+    IF_SETONCLICK(callback(), comp(1469, 1));  // meslayer:mes_layer
     script2026();
     return;
 }

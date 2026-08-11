@@ -3,11 +3,11 @@ function script4685(): void {
     var string0 = inttostring(varbitplayer_3920, 10);
     var string1 = "Waiting for next wave...";
     if ((varclient_1537 != 0)) {
-        IF_SETHIDE(false, comp(447, 14));
-        IF_SETSIZE(IF_GETWIDTH(comp(447, 1)), 79, 0, 0, comp(447, 1));
+        IF_SETHIDE(false, comp(447, 14));  // loy_waves:waiting_layer
+        IF_SETSIZE(IF_GETWIDTH(comp(447, 1)), 79, 0, 0, comp(447, 1));  // loy_waves:background
     } else {
-        IF_SETHIDE(true, comp(447, 14));
-        IF_SETSIZE(IF_GETWIDTH(comp(447, 1)), 45, 0, 0, comp(447, 1));
+        IF_SETHIDE(true, comp(447, 14));  // loy_waves:waiting_layer
+        IF_SETSIZE(IF_GETWIDTH(comp(447, 1)), 45, 0, 0, comp(447, 1));  // loy_waves:background
     };
     script4699(29294603, 29294604, 29294605, "Wave", string0);
     if ((varclient_1537 != 0)) {

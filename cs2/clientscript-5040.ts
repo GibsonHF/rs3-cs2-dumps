@@ -1,6 +1,6 @@
 //
 function script5040(): void {
-    CC_DELETEALL(comp(1111, 15));
+    CC_DELETEALL(comp(1111, 15));  // clan_field_editor:elements
     var int0 = 0;
     var int1 = 0;
     var int2 = -1 as struct;
@@ -10,7 +10,7 @@ function script5040(): void {
     var int6 = 200;
     if ((CLANPROFILE_FIND() == 1)) {
         while ((int0 < 200)) {
-            CC_CREATE(comp(1111, 15), 5, int0);
+            CC_CREATE(comp(1111, 15), 5, int0);  // clan_field_editor:elements
             [int1, int3, int4, int5] = script5019(int0);
             if ((int1 != 0)) {
                 int2 = enum_getvalue(0, 73, 3943 as cs2enum, int1);
@@ -31,9 +31,9 @@ function script5040(): void {
             };
             int0 = (int0 + 1);
         };
-        IF_SETTEXT(inttostring(int6, 10), comp(1111, 84));
+        IF_SETTEXT(inttostring(int6, 10), comp(1111, 84));  // clan_field_editor:used
     } else {
-        IF_SETTEXT("...", comp(1111, 84));
+        IF_SETTEXT("...", comp(1111, 84));  // clan_field_editor:used
     };
     return;
 }

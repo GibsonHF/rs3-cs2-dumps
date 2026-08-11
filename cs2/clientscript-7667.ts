@@ -4,9 +4,9 @@ function script7667(int0: number): void {
         IF_SETHIDE(false, int0);
         varclient_198 = 1;
         if ((varclient_2753 == 1)) {
-            IF_SETONTIMER(callback(script7668, int0), comp(1405, 14));
+            IF_SETONTIMER(callback(script7668, int0), comp(1405, 14));  // bugreport_interface:chars_left
         } else if ((varclient_2753 == 2)) {
-            IF_SETONTIMER(callback(script7668, int0), comp(1405, 29));
+            IF_SETONTIMER(callback(script7668, int0), comp(1405, 29));  // bugreport_interface:chars_repro
         };
     };
     return;

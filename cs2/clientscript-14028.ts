@@ -1,6 +1,6 @@
 //
 function script14028(): void {
-    var int0 = comp(1935, 2);
+    var int0 = comp(1935, 2);  // clue_stats:mainmodal_window_content
     CC_DELETEALL(int0);
     var int1 = -1;
     var int2 = 0;

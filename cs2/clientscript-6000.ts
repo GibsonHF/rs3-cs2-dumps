@@ -1,6 +1,6 @@
 //
 function script6000(): void {
-    var int0 = comp(947, 755);
+    var int0 = comp(947, 755);  // rand_floor_select:info_button_layer
     if ((script6431() == 1)) {
         IF_SETPOSITION((IF_GETX(int0) - 30), IF_GETY(int0), 0, 0, int0);
     };
@@ -14,34 +14,34 @@ function script6000(): void {
     script5360(62063332, 4128);
     script5360(62063336, 4127);
     script5360(62063340, 4128);
-    IF_SETTEXT(`Death Penalty Reduction +${inttostring(1, 10)}%`, comp(947, 733));
-    IF_SETTEXT(`Extra Resource Chance +${inttostring(2, 10)}%`, comp(947, 737));
-    IF_SETTEXT(`Skilling XP Boost +${inttostring(1, 10)}%`, comp(947, 741));
-    IF_SETTEXT(`Damage Reduction +${inttostring(1, 10)}%`, comp(947, 745));
-    IF_SETTEXT(`Floor XP Boost +${inttostring(25, 10)}%`, comp(947, 749));
-    IF_SETTEXT(`${inttostring((MAX(varbitplayer_24882, 1) * 1), 10)}%`, comp(947, 734));
-    IF_SETCOLOUR(2031360, comp(947, 734));
-    IF_SETTEXT(`${inttostring((varbitplayer_24883 * 2), 10)}%`, comp(947, 738));
+    IF_SETTEXT(`Death Penalty Reduction +${inttostring(1, 10)}%`, comp(947, 733));  // rand_floor_select:buff_1_text
+    IF_SETTEXT(`Extra Resource Chance +${inttostring(2, 10)}%`, comp(947, 737));  // rand_floor_select:buff_2_text
+    IF_SETTEXT(`Skilling XP Boost +${inttostring(1, 10)}%`, comp(947, 741));  // rand_floor_select:buff_3_text
+    IF_SETTEXT(`Damage Reduction +${inttostring(1, 10)}%`, comp(947, 745));  // rand_floor_select:buff_4_text
+    IF_SETTEXT(`Floor XP Boost +${inttostring(25, 10)}%`, comp(947, 749));  // rand_floor_select:buff_5_text
+    IF_SETTEXT(`${inttostring((MAX(varbitplayer_24882, 1) * 1), 10)}%`, comp(947, 734));  // rand_floor_select:buff_1_active_text
+    IF_SETCOLOUR(2031360, comp(947, 734));  // rand_floor_select:buff_1_active_text
+    IF_SETTEXT(`${inttostring((varbitplayer_24883 * 2), 10)}%`, comp(947, 738));  // rand_floor_select:buff_2_active_text
     if ((varbitplayer_24883 > 0)) {
-        IF_SETCOLOUR(2031360, comp(947, 738));
+        IF_SETCOLOUR(2031360, comp(947, 738));  // rand_floor_select:buff_2_active_text
     } else {
         script2731(62063330, -1, 3);
     };
-    IF_SETTEXT(`${inttostring((varbitplayer_24884 * 1), 10)}%`, comp(947, 742));
+    IF_SETTEXT(`${inttostring((varbitplayer_24884 * 1), 10)}%`, comp(947, 742));  // rand_floor_select:buff_3_active_text
     if ((varbitplayer_24884 > 0)) {
-        IF_SETCOLOUR(2031360, comp(947, 742));
+        IF_SETCOLOUR(2031360, comp(947, 742));  // rand_floor_select:buff_3_active_text
     } else {
         script2731(62063334, -1, 3);
     };
-    IF_SETTEXT(`${inttostring((varbitplayer_24885 * 1), 10)}%`, comp(947, 746));
+    IF_SETTEXT(`${inttostring((varbitplayer_24885 * 1), 10)}%`, comp(947, 746));  // rand_floor_select:buff_4_active_text
     if ((varbitplayer_24885 > 0)) {
-        IF_SETCOLOUR(2031360, comp(947, 746));
+        IF_SETCOLOUR(2031360, comp(947, 746));  // rand_floor_select:buff_4_active_text
     } else {
         script2731(62063338, -1, 3);
     };
-    IF_SETTEXT(`${inttostring((varbitplayer_24886 * 25), 10)}%`, comp(947, 750));
+    IF_SETTEXT(`${inttostring((varbitplayer_24886 * 25), 10)}%`, comp(947, 750));  // rand_floor_select:buff_5_active_text
     if ((varbitplayer_24886 > 0)) {
-        IF_SETCOLOUR(2031360, comp(947, 750));
+        IF_SETCOLOUR(2031360, comp(947, 750));  // rand_floor_select:buff_5_active_text
     } else {
         script2731(62063342, -1, 3);
     };
@@ -51,27 +51,27 @@ function script6000(): void {
     };
     switch (MODULO(int1, 5)) {
         case 0: {
-            IF_SETCOLOUR(16777215, comp(947, 733));
+            IF_SETCOLOUR(16777215, comp(947, 733));  // rand_floor_select:buff_1_text
             script5360(62063324, 4366);
             break;
         }
         case 1: {
-            IF_SETCOLOUR(16777215, comp(947, 737));
+            IF_SETCOLOUR(16777215, comp(947, 737));  // rand_floor_select:buff_2_text
             script5360(62063328, 4366);
             break;
         }
         case 2: {
-            IF_SETCOLOUR(16777215, comp(947, 741));
+            IF_SETCOLOUR(16777215, comp(947, 741));  // rand_floor_select:buff_3_text
             script5360(62063332, 4366);
             break;
         }
         case 3: {
-            IF_SETCOLOUR(16777215, comp(947, 745));
+            IF_SETCOLOUR(16777215, comp(947, 745));  // rand_floor_select:buff_4_text
             script5360(62063336, 4366);
             break;
         }
         case 4: {
-            IF_SETCOLOUR(16777215, comp(947, 749));
+            IF_SETCOLOUR(16777215, comp(947, 749));  // rand_floor_select:buff_5_text
             script5360(62063340, 4366);
             break;
         }

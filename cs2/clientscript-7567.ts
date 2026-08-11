@@ -39,7 +39,7 @@ function script7567(int0: number): void {
             break;
         }
     };
-    if (((script6431() == 0) && (CC_FIND(comp(1399, 2), int0) == 1))) {
+    if (((script6431() == 0) && (CC_FIND(comp(1399, 2), int0) == 1))) {  // tsd_boulder_overlay:gold_frame_content_layer
         CC_SETGRAPHIC(int1);
     };
     script16746(string0);

@@ -8,7 +8,7 @@ function script18058(): void {
     int1 = (int1 + 1);
     while ((int1 <= int0)) {
         int2 = script17897(int1);
-        if (((int2 != -1) && (CC_FINDBYCATEGORY(comp(1226, 34), (int1 + 40), 0) == 1))) {
+        if (((int2 != -1) && (CC_FINDBYCATEGORY(comp(1226, 34), (int1 + 40), 0) == 1))) {  // bp3_missions_tab:mission_list_content_layer
             int3 = cc_getparam(5165);
             if ((int3 == 0)) {
                 int4 = 7992;

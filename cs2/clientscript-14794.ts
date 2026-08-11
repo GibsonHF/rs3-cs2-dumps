@@ -34,7 +34,7 @@ function script14794(int0: number): void {
                         string1 = `${string1}<br>Keyboard Shortcut : ${script14802(int2)}`;
                     };
                     script11624(43712522, 43712523, int3, int4, int5, int6, 1);
-                    if ((CC_FIND(comp(667, 11), int6) == 1)) {
+                    if ((CC_FIND(comp(667, 11), int6) == 1)) {  // arch_site_map:icon_control_layer
                         CC_SETOPBASE(dbrow_getfield(int2, 352288, 0));
                         CC_SETOP(1, "Info");
                         CC_SETOP(2, "Fast travel");
@@ -43,22 +43,22 @@ function script14794(int0: number): void {
                         CC_SETONMOUSEREPEAT(callback(script14732, string0, string1, -2147483645, -2147483643));
                     };
                     if ((int2 == int0)) {
-                        IF_SETPOSITION((int4 - 90), (int5 + 10), 0, 0, comp(667, 12));
+                        IF_SETPOSITION((int4 - 90), (int5 + 10), 0, 0, comp(667, 12));  // arch_site_map:current_location_layer
                     };
                 } else {
-                    CC_CREATE(comp(667, 11), 4, int6);
+                    CC_CREATE(comp(667, 11), 4, int6);  // arch_site_map:icon_control_layer
                 };
             } else {
-                CC_CREATE(comp(667, 11), 4, int6);
+                CC_CREATE(comp(667, 11), 4, int6);  // arch_site_map:icon_control_layer
             };
         };
     };
     string0 = "Archaeology Guild";
     string1 = "";
-    if ((IF_FIND(comp(667, 9)) == 1)) {
+    if ((IF_FIND(comp(667, 9)) == 1)) {  // arch_site_map:guild_icon_graphic
         script14741(string0, string1);
         if ((int2 == -1)) {
-            IF_SETPOSITION((CC_GETX() - 90), (CC_GETY() + 4), 0, 0, comp(667, 12));
+            IF_SETPOSITION((CC_GETX() - 90), (CC_GETY() + 4), 0, 0, comp(667, 12));  // arch_site_map:current_location_layer
         };
     };
     script8841(91, 1);

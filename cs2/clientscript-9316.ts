@@ -1,14 +1,14 @@
 //
 function script9316(): void {
-    if ((IF_HASSUBMODAL(comp(1477, 693), 1387) == 1)) {
+    if ((IF_HASSUBMODAL(comp(1477, 693), 1387) == 1)) {  // toplevel_v2:bank_window
         script595(0);
         return;
     };
-    if ((IF_HASSUBMODAL(comp(1477, 693), 1621) == 1)) {
+    if ((IF_HASSUBMODAL(comp(1477, 693), 1621) == 1)) {  // toplevel_v2:bank_window
         script15069(0);
         return;
     };
-    if ((IF_HASSUBMODAL(comp(1477, 693), 1313) == 1)) {
+    if ((IF_HASSUBMODAL(comp(1477, 693), 1313) == 1)) {  // toplevel_v2:bank_window
         script19511();
         return;
     };

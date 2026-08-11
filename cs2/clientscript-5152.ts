@@ -15,10 +15,10 @@ function script5152(): void {
         } else {
             string0 = strconcat(string0, inttostring(int1, 10));
         };
-        IF_SETTEXT(string0, comp(800, 6));
+        IF_SETTEXT(string0, comp(800, 6));  // clan_kickout_overlay:clan_kickout_timer
     };
     if ((varclient_1563 <= 0)) {
-        IF_SETONTIMER(callback(), comp(800, 6));
+        IF_SETONTIMER(callback(), comp(800, 6));  // clan_kickout_overlay:clan_kickout_timer
         IF_CLOSE();
     };
     return;

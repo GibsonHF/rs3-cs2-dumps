@@ -17,6 +17,6 @@ function script17021(): void {
     } else {
         script16503(58064953, 58064952, 58064954, 17237, 0, -1, 45877);
     };
-    IF_SETHIDE(true, comp(1253, 80));
+    IF_SETHIDE(true, comp(1253, 80));  // wheel_of_fortune:bonus_feature_counter_layer
     return;
 }

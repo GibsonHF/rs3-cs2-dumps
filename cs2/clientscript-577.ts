@@ -1,10 +1,10 @@
 //[proc,objdialog_dosearch]
 function script577(string0: string): void {
     var int0 = OC_FIND(string0, true);
-    var int1 = IF_GETWIDTH(comp(389, 2));
+    var int1 = IF_GETWIDTH(comp(389, 2));  // objdialog:resultlist
     var int2 = (int1 - 8);
     if ((int0 == -1)) {
-        CC_CREATE(comp(389, 2), 4, 0);
+        CC_CREATE(comp(389, 2), 4, 0);  // objdialog:resultlist
         CC_SETPOSITION(0, 48, 0, 0);
         CC_SETSIZE(int1, 16, 0, 0);
         CC_SETTEXTFONT(53 as fontmetrics);
@@ -12,12 +12,12 @@ function script577(string0: string): void {
         CC_SETTEXTALIGN(1, 1, 0);
         script6888(3);
         CC_SETTEXTSHADOW(true);
-        IF_SETSCROLLSIZE(0, 0, comp(389, 2));
+        IF_SETSCROLLSIZE(0, 0, comp(389, 2));  // objdialog:resultlist
         script578();
         return;
     };
     if ((int0 == 0)) {
-        CC_CREATE(comp(389, 2), 4, 0);
+        CC_CREATE(comp(389, 2), 4, 0);  // objdialog:resultlist
         CC_SETPOSITION(0, 48, 0, 0);
         CC_SETSIZE(int1, 16, 0, 0);
         CC_SETTEXTFONT(53 as fontmetrics);
@@ -25,7 +25,7 @@ function script577(string0: string): void {
         CC_SETTEXTALIGN(1, 1, 0);
         script6888(3);
         CC_SETTEXTSHADOW(true);
-        IF_SETSCROLLSIZE(0, 0, comp(389, 2));
+        IF_SETSCROLLSIZE(0, 0, comp(389, 2));  // objdialog:resultlist
         script578();
         return;
     };
@@ -33,7 +33,7 @@ function script577(string0: string): void {
     var int4 = 0;
     var int5 = 0;
     var int6 = OC_FINDNEXT();
-    CC_CREATE(comp(389, 2), 3, 0);
+    CC_CREATE(comp(389, 2), 3, 0);  // objdialog:resultlist
     while ((int6 != -1 as obj)) {
         int4 = 0;
         int5 = 0;
@@ -49,7 +49,7 @@ function script577(string0: string): void {
             int4 = 1;
         };
         if ((int4 == 0)) {
-            CC_CREATE(comp(389, 2), 4, int3);
+            CC_CREATE(comp(389, 2), 4, int3);  // objdialog:resultlist
             CC_SETPOSITION(4, (15 * (int3 - 1)), 0, 0);
             CC_SETSIZE(int2, 15, 0, 0);
             script6888(3);
@@ -62,7 +62,7 @@ function script577(string0: string): void {
             int3 = (int3 + 1);
         };
     };
-    IF_SETSCROLLSIZE(0, (15 * (int3 - 1)), comp(389, 2));
+    IF_SETSCROLLSIZE(0, (15 * (int3 - 1)), comp(389, 2));  // objdialog:resultlist
     script578();
     return;
 }

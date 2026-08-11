@@ -56,7 +56,7 @@ function script12233(int0: number, int1: number, int2: number, int3: number, int
             CC_CREATE(struct_getparam(int1, 8128), 5, int24);
             CC_SETSIZE(int9, int10, 0, 0);
             CC_SETPOSITION((push_array(MODULO(int15, int2)) - 2), (((int15 / int2) * int5) + 1), 0, 0);
-            if (((int0 != comp(1890, 38)) && (CC_FIND(struct_getparam(int1, 8128), int24) == 1))) {
+            if (((int0 != comp(1890, 38)) && (CC_FIND(struct_getparam(int1, 8128), int24) == 1))) {  // prayer_quick_preset_interface:prayer_buttons
                 CC_SETGRAPHIC(int20);
             };
             if (((int1 == 37672) || (int26 == 1))) {

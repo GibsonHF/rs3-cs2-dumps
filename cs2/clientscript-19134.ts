@@ -1,10 +1,10 @@
 //
 function script19134(int0: number, int1: number, string0: string): void {
-    IF_SETHIDE(false, comp(1181, 5));
-    IF_SETCOLOUR(int0, comp(1181, 61));
+    IF_SETHIDE(false, comp(1181, 5));  // activity_progress_bar_extension:progress_bar_2_layer
+    IF_SETCOLOUR(int0, comp(1181, 61));  // activity_progress_bar_extension:progress_bar_2_fill_rect
     script13310(77398021, 77398076, 62, 4000);
     script17557(string0, int1, 77398078);
-    IF_SETONVARTRANSMIT(callback(script17556, string0, int1, 77398078, 11843, 11844, 2), comp(1181, 62));
-    IF_SETPOSITION(0, 40, 1, 0, comp(1181, 6));
+    IF_SETONVARTRANSMIT(callback(script17556, string0, int1, 77398078, 11843, 11844, 2), comp(1181, 62));  // activity_progress_bar_extension:progress_bar_2_text
+    IF_SETPOSITION(0, 40, 1, 0, comp(1181, 6));  // activity_progress_bar_extension:buff_bar_layer
     return;
 }

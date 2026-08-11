@@ -2,7 +2,7 @@
 function script12151(int0: number, int1: number): void {
     var int2 = 0;
     var int3 = -1;
-    if ((IF_FIND(comp(1708, 13)) == 1)) {
+    if ((IF_FIND(comp(1708, 13)) == 1)) {  // invent_discovery:track_select
         if ((CC_GETHIDE() == true)) {
             CC_SETHIDE(false);
             CC_SETPOSITION((IF_GETX(int1) - 3), (IF_GETY(int1) - 3), 0, 0);

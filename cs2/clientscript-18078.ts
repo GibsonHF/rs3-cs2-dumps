@@ -8,7 +8,7 @@ function script18078(int0: number, int1: number, int2: number, int3: number, int
         varclient_7301 = int3;
         script7872(1, 1, 1, 1);
     };
-    var int5 = (IF_GETHEIGHT(comp(1226, 32)) + 10);
+    var int5 = (IF_GETHEIGHT(comp(1226, 32)) + 10);  // bp3_missions_tab:mission_info_chain_layer
     var int6 = 80347166;
     int5 = script18079(int2, int6, int5);
     SOUND_VORBIS_VOLUME(56687 as vorbis, 1, 0, 100);

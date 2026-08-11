@@ -3,29 +3,29 @@ function script15306(): void {
     var int0 = 0;
     var int1 = script20087();
     if ((varbitplayer_58313 == 1)) {
-        IF_SETHIDE(true, comp(422, 109));
-        IF_SETHIDE(false, comp(422, 110));
-        IF_SETHIDE(false, comp(422, 114));
-        IF_SETHIDE(false, comp(422, 118));
-        IF_SETHIDE(false, comp(422, 122));
-        IF_SETHIDE(false, comp(422, 126));
-        IF_SETHIDE(false, comp(422, 101));
-        IF_SETHIDE(false, comp(422, 102));
-        IF_SETHIDE(false, comp(422, 103));
-        IF_SETHIDE(false, comp(422, 104));
-        IF_SETHIDE(false, comp(422, 105));
+        IF_SETHIDE(true, comp(422, 109));  // slayer_dungeon:room_unlock_subtitle
+        IF_SETHIDE(false, comp(422, 110));  // slayer_dungeon:hotspot_icon_16
+        IF_SETHIDE(false, comp(422, 114));  // slayer_dungeon:hotspot_icon_17
+        IF_SETHIDE(false, comp(422, 118));  // slayer_dungeon:hotspot_icon_18
+        IF_SETHIDE(false, comp(422, 122));  // slayer_dungeon:hotspot_icon_19
+        IF_SETHIDE(false, comp(422, 126));  // slayer_dungeon:hotspot_icon_20
+        IF_SETHIDE(false, comp(422, 101));  // slayer_dungeon:hotspot_graphic_16
+        IF_SETHIDE(false, comp(422, 102));  // slayer_dungeon:hotspot_graphic_17
+        IF_SETHIDE(false, comp(422, 103));  // slayer_dungeon:hotspot_graphic_18
+        IF_SETHIDE(false, comp(422, 104));  // slayer_dungeon:hotspot_graphic_19
+        IF_SETHIDE(false, comp(422, 105));  // slayer_dungeon:hotspot_graphic_20
     } else {
-        IF_SETHIDE(false, comp(422, 109));
-        IF_SETHIDE(true, comp(422, 110));
-        IF_SETHIDE(true, comp(422, 114));
-        IF_SETHIDE(true, comp(422, 118));
-        IF_SETHIDE(true, comp(422, 122));
-        IF_SETHIDE(true, comp(422, 126));
-        IF_SETHIDE(true, comp(422, 101));
-        IF_SETHIDE(true, comp(422, 102));
-        IF_SETHIDE(true, comp(422, 103));
-        IF_SETHIDE(true, comp(422, 104));
-        IF_SETHIDE(true, comp(422, 105));
+        IF_SETHIDE(false, comp(422, 109));  // slayer_dungeon:room_unlock_subtitle
+        IF_SETHIDE(true, comp(422, 110));  // slayer_dungeon:hotspot_icon_16
+        IF_SETHIDE(true, comp(422, 114));  // slayer_dungeon:hotspot_icon_17
+        IF_SETHIDE(true, comp(422, 118));  // slayer_dungeon:hotspot_icon_18
+        IF_SETHIDE(true, comp(422, 122));  // slayer_dungeon:hotspot_icon_19
+        IF_SETHIDE(true, comp(422, 126));  // slayer_dungeon:hotspot_icon_20
+        IF_SETHIDE(true, comp(422, 101));  // slayer_dungeon:hotspot_graphic_16
+        IF_SETHIDE(true, comp(422, 102));  // slayer_dungeon:hotspot_graphic_17
+        IF_SETHIDE(true, comp(422, 103));  // slayer_dungeon:hotspot_graphic_18
+        IF_SETHIDE(true, comp(422, 104));  // slayer_dungeon:hotspot_graphic_19
+        IF_SETHIDE(true, comp(422, 105));  // slayer_dungeon:hotspot_graphic_20
     };
     var int2 = -1;
     var int3 = -1;

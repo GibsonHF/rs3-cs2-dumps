@@ -1,8 +1,8 @@
 //
 function script12121(): void {
-    CC_DELETEALL(comp(1708, 31));
-    CC_DELETEALL(comp(1708, 33));
-    CC_DELETEALL(comp(1708, 69));
+    CC_DELETEALL(comp(1708, 31));  // invent_discovery:side_draw_layer
+    CC_DELETEALL(comp(1708, 33));  // invent_discovery:side_active_layer
+    CC_DELETEALL(comp(1708, 69));  // invent_discovery:drag_layer
     var int0 = 0;
     var int1 = 0;
     var int2 = -1 as dbrow;
@@ -14,7 +14,7 @@ function script12121(): void {
         int2 = enum_getvalue(0, 74, 10743 as cs2enum, int4);
         pop_array(int4, int4);
         pop_array[1](int4, dbrow_getfield(int2, 20624, 0));
-        CC_CREATE(comp(1708, 33), 3, int4);
+        CC_CREATE(comp(1708, 33), 3, int4);  // invent_discovery:side_active_layer
         CC_SETHIDE(true);
         int4 = (int4 + 1);
     };
@@ -29,7 +29,7 @@ function script12121(): void {
         int4 = (int4 + 1);
     };
     if ((int1 == 0)) {
-        CC_CREATE(comp(1708, 31), 4, int0);
+        CC_CREATE(comp(1708, 31), 4, int0);  // invent_discovery:side_draw_layer
         CC_SETTEXT("No inventions");
         CC_SETTEXTFONT(57 as fontmetrics);
         CC_SETTEXTALIGN(0, 1, 16);
@@ -37,7 +37,7 @@ function script12121(): void {
         CC_SETSIZE(20, 20, 1, 0);
         CC_SETPOSITION(5, 10, 0, 0);
         int0 = (int0 + 1);
-        CC_CREATE(comp(1708, 31), 4, int0);
+        CC_CREATE(comp(1708, 31), 4, int0);  // invent_discovery:side_draw_layer
         CC_SETTEXT("You can't think of anything new to invent at the moment.");
         CC_SETTEXTFONT(26 as fontmetrics);
         CC_SETTEXTALIGN(0, 0, 12);
@@ -47,18 +47,18 @@ function script12121(): void {
         int0 = (int0 + 1);
     };
     var int5 = ((int1 * 40) + 120);
-    if ((int5 <= IF_GETHEIGHT(comp(1708, 62)))) {
-        IF_SETHIDE(true, comp(1708, 1));
-        IF_SETSCROLLPOS(0, 0, comp(1708, 2));
-        IF_SETPOSITION(5, 1, 0, 0, comp(1708, 2));
+    if ((int5 <= IF_GETHEIGHT(comp(1708, 62)))) {  // invent_discovery:side_layer
+        IF_SETHIDE(true, comp(1708, 1));  // invent_discovery:side_scrollbar_layer
+        IF_SETSCROLLPOS(0, 0, comp(1708, 2));  // invent_discovery:side_content_layer
+        IF_SETPOSITION(5, 1, 0, 0, comp(1708, 2));  // invent_discovery:side_content_layer
     } else {
-        IF_SETHIDE(false, comp(1708, 1));
-        IF_SETSCROLLPOS(0, MAX(0, IF_GETSCROLLY(comp(1708, 2))), comp(1708, 2));
-        IF_SETSCROLLSIZE(0, int5, comp(1708, 2));
+        IF_SETHIDE(false, comp(1708, 1));  // invent_discovery:side_scrollbar_layer
+        IF_SETSCROLLPOS(0, MAX(0, IF_GETSCROLLY(comp(1708, 2))), comp(1708, 2));  // invent_discovery:side_content_layer
+        IF_SETSCROLLSIZE(0, int5, comp(1708, 2));  // invent_discovery:side_content_layer
         script7791(111935489, 111935490);
-        IF_SETPOSITION(0, 1, 0, 0, comp(1708, 2));
+        IF_SETPOSITION(0, 1, 0, 0, comp(1708, 2));  // invent_discovery:side_content_layer
     };
-    if ((IF_FIND(comp(1708, 32)) == 1)) {
+    if ((IF_FIND(comp(1708, 32)) == 1)) {  // invent_discovery:side_popup_layer
         cc_setparam(5530, -1);
         cc_setparam(5531, 0);
         cc_setparam(5532, 0);

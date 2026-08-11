@@ -1,18 +1,18 @@
 //
 function script6089(int0: number, int1: number, int2: number, int3: number): void {
-    var int4 = comp(1265, 20);
-    var int5 = comp(1265, 23);
-    var int6 = comp(1265, 24);
-    var int7 = comp(1265, 22);
-    var int8 = comp(1265, 21);
-    var int9 = comp(1265, 25);
+    var int4 = comp(1265, 20);  // shop_main:list_background
+    var int5 = comp(1265, 23);  // shop_main:list_name
+    var int6 = comp(1265, 24);  // shop_main:list_icon
+    var int7 = comp(1265, 22);  // shop_main:list_currency
+    var int8 = comp(1265, 21);  // shop_main:list_price
+    var int9 = comp(1265, 25);  // shop_main:list_extra_icon
     if ((int0 == varplayer_305)) {
-        int4 = comp(1265, 14);
-        int5 = comp(1265, 16);
-        int6 = comp(1265, 17);
+        int4 = comp(1265, 14);  // shop_main:free_background
+        int5 = comp(1265, 16);  // shop_main:free_name
+        int6 = comp(1265, 17);  // shop_main:free_icon
         int7 = comp(-1, 65535);
-        int8 = comp(1265, 15);
-        int9 = comp(1265, 18);
+        int8 = comp(1265, 15);  // shop_main:free_price
+        int9 = comp(1265, 18);  // shop_main:free_extra_icon
     };
     var int10 = 0;
     var int11 = 0;

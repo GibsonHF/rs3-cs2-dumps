@@ -7,11 +7,11 @@ function script3388(int0: number, int1: number): void {
             break;
         }
         case 2: {
-            int2 = comp(825, 5);
+            int2 = comp(825, 5);  // lobbyscreen_windowmode_confirm:text
             break;
         }
         default: {
-            int2 = comp(744, 203);
+            int2 = comp(744, 203);  // loginscreen:windowmode_confirm_border
             break;
         }
     };

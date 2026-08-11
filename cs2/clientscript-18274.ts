@@ -14,8 +14,8 @@ function script18274(int0: number, int1: number): void {
     var int13 = -1 as model;
     var int14 = -1 as seq;
     var int15 = -1 as model;
-    var int16 = comp(1311, 343);
-    var int17 = comp(1311, 362);
+    var int16 = comp(1311, 343);  // mtxmgt:preview_pane
+    var int17 = comp(1311, 362);  // mtxmgt:preview_pane_dragger
     var int18 = -1 as cs2enum;
     var int19 = 0;
     var int20 = 0;
@@ -25,7 +25,7 @@ function script18274(int0: number, int1: number): void {
     var int24 = 0;
     var int25 = 0;
     var int26 = 0;
-    CC_DELETEALL(comp(1311, 371));
+    CC_DELETEALL(comp(1311, 371));  // mtxmgt:preview_variants_layer
     if ((int0 != -1)) {
         int2 = struct_getparam(int0, 9201);
         if ((varbitplayer_55451 == 1)) {
@@ -107,9 +107,9 @@ function script18274(int0: number, int1: number): void {
                 if ((varclient_1968 == 1)) {
                     int3 = 37903 as seq;
                 };
-                IF_SETONTIMER(callback(script6449, -2147483645, int16, 0, 0), comp(1311, 657));
+                IF_SETONTIMER(callback(script6449, -2147483645, int16, 0, 0), comp(1311, 657));  // mtxmgt:anim_listener
             } else {
-                IF_SETONTIMER(callback(), comp(1311, 657));
+                IF_SETONTIMER(callback(), comp(1311, 657));  // mtxmgt:anim_listener
             };
             if ((CC_FIND(int16, 0) == 1)) {
                 CC_SETONVARCTRANSMIT(callback());
@@ -117,10 +117,10 @@ function script18274(int0: number, int1: number): void {
             };
             int25 = (int25 + 1);
         } else {
-            CC_DELETEALL(comp(1311, 343));
+            CC_DELETEALL(comp(1311, 343));  // mtxmgt:preview_pane
         };
     } else {
-        CC_DELETEALL(comp(1311, 343));
+        CC_DELETEALL(comp(1311, 343));  // mtxmgt:preview_pane
     };
     if (((int4 != -1 as seq) && (int5 != -1 as model))) {
         script6446(int16, 300, int19, int21, int22, int20, int5, int4, int6, int7, int8, int9, int10, int11);
@@ -168,9 +168,9 @@ function script18274(int0: number, int1: number): void {
             if ((varclient_1968 == 1)) {
                 int3 = 37903 as seq;
             };
-            IF_SETONTIMER(callback(script6449, -2147483645, int16, 0, 0), comp(1311, 657));
+            IF_SETONTIMER(callback(script6449, -2147483645, int16, 0, 0), comp(1311, 657));  // mtxmgt:anim_listener
         } else {
-            IF_SETONTIMER(callback(), comp(1311, 657));
+            IF_SETONTIMER(callback(), comp(1311, 657));  // mtxmgt:anim_listener
         };
         if ((CC_FIND(int16, int24) == 1)) {
             CC_SETONVARCTRANSMIT(callback());
@@ -230,7 +230,7 @@ function script18274(int0: number, int1: number): void {
         case 51607:
         case 985:
         case 980: {
-            IF_SETONTIMER(callback(script18275, int0, int1, (SEQLENGTH(struct_getparam(int0, 2535)) + 1)), comp(1311, 657));
+            IF_SETONTIMER(callback(script18275, int0, int1, (SEQLENGTH(struct_getparam(int0, 2535)) + 1)), comp(1311, 657));  // mtxmgt:anim_listener
             break;
         }
         case 47045:
@@ -239,7 +239,7 @@ function script18274(int0: number, int1: number): void {
         case 47185:
         case 47186:
         case 52414: {
-            IF_SETONTIMER(callback(script18275, int0, int1, 240), comp(1311, 657));
+            IF_SETONTIMER(callback(script18275, int0, int1, 240), comp(1311, 657));  // mtxmgt:anim_listener
             break;
         }
     };

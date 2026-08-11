@@ -42,8 +42,8 @@ function script12698(): void {
         int7 = 1;
         int4 = (int4 + 1);
     };
-    IF_SETSIZE(356, int3, 0, 0, comp(1785, 63));
-    IF_SETTEXT(string0, comp(1785, 65));
-    IF_SETHIDE(false, comp(1785, 15));
+    IF_SETSIZE(356, int3, 0, 0, comp(1785, 63));  // lampforge:confirm_box
+    IF_SETTEXT(string0, comp(1785, 65));  // lampforge:confirm_info_text
+    IF_SETHIDE(false, comp(1785, 15));  // lampforge:confirmation_layer
     return;
 }

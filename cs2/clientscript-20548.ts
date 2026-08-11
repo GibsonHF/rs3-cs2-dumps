@@ -18,6 +18,6 @@ function script20548(): void {
             break;
         }
     };
-    IF_SETHIDE(true, comp(828, 8));
+    IF_SETHIDE(true, comp(828, 8));  // mobile_shop_hard_currency:confirm_buy_container
     return;
 }

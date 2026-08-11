@@ -1,8 +1,8 @@
 //
 function script13343(int0: number, int1: number, int2: number, int3: number, string0: string): number {
-    var int4 = ((IF_GETWIDTH(comp(1851, 41)) / 2) - 6);
+    var int4 = ((IF_GETWIDTH(comp(1851, 41)) / 2) - 6);  // achievements_sub:cheevo_details
     var string1 = "";
-    CC_CREATE(comp(1851, 41), 4, IF_GETNEXTSUBID(comp(1851, 41)));
+    CC_CREATE(comp(1851, 41), 4, IF_GETNEXTSUBID(comp(1851, 41)));  // achievements_sub:cheevo_details
     if ((MODULO(int0, 2) == 0)) {
         CC_SETPOSITION(3, int1, 0, 0);
     } else {
@@ -28,7 +28,7 @@ function script13343(int0: number, int1: number, int2: number, int3: number, str
         CC_SETONMOUSEREPEAT(callback(script8799, string1, 121307177, CC_GETID()));
     };
     if ((MODULO(int0, 2) == 1)) {
-        if ((CC_FIND[1](comp(1851, 41), (CC_GETID() - 1)) == 1)) {
+        if ((CC_FIND[1](comp(1851, 41), (CC_GETID() - 1)) == 1)) {  // achievements_sub:cheevo_details
             var int1 = (int1 + MAX(CC_GETHEIGHT(), CC_GETHEIGHT[1]()));
         } else {
             int1 = (int1 + CC_GETHEIGHT());

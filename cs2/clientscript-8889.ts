@@ -4,7 +4,7 @@ function script8889(): void {
         return;
     };
     if (((varbitplayer_16467 != 0) && (varplayer_3185 == 4))) {
-        IF_SETONVARTRANSMIT(callback(), comp(906, 14));
+        IF_SETONVARTRANSMIT(callback(), comp(906, 14));  // lobbyscreen:email_validation_listener
         script6190();
     };
     switch (varplayer_3185) {
@@ -25,7 +25,7 @@ function script8889(): void {
             break;
         }
         case 4: {
-            IF_SETONVARCTRANSMIT(callback(), comp(906, 14));
+            IF_SETONVARCTRANSMIT(callback(), comp(906, 14));  // lobbyscreen:email_validation_listener
             script6192();
             break;
         }

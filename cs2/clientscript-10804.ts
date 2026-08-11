@@ -1,9 +1,9 @@
 //
 function script10804(): void {
-    var int0 = comp(1562, 6);
-    var int1 = comp(1562, 7);
-    var int2 = comp(1562, 24);
-    var int3 = comp(1562, 25);
+    var int0 = comp(1562, 6);  // mtxmgt_purchase:currency_layer
+    var int1 = comp(1562, 7);  // mtxmgt_purchase:confirm_layer
+    var int2 = comp(1562, 24);  // mtxmgt_purchase:progress_layer
+    var int3 = comp(1562, 25);  // mtxmgt_purchase:response_layer
     IF_SETHIDE(true, int0);
     IF_SETHIDE(true, int1);
     IF_SETHIDE(true, int2);

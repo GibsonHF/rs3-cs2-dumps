@@ -8,10 +8,10 @@ function script4547(int0: number, int1: number, int2: number, int3: number, int4
     script15947(int3, 0, IF_GETNEXTSUBID(int3), 0, 0, 0, 0, 0, 0, 1, 1, 2100, "If you join a clan you will be able to<br>chat with your clanmates from here.");
     CC_SETTEXTALIGN(1, 1, 0);
     if ((script13749() == 0)) {
-        IF_SETTEXT("Not in chat", comp(912, 22));
+        IF_SETTEXT("Not in chat", comp(912, 22));  // lobbyscreen_pane_clanchat:clan_detail_name_text
         IF_SETSIZE(IF_GETWIDTH(int7), 0, 0, 0, int7);
     } else {
-        IF_SETTEXT("(Not in clan chat)", comp(1044, 23));
+        IF_SETTEXT("(Not in clan chat)", comp(1044, 23));  // lobbyscreen_pane_mobile_social:clan_name
     };
     IF_SETSCROLLSIZE(0, 0, int4);
     IF_SETSCROLLPOS(0, 0, int4);

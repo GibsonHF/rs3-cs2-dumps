@@ -1,11 +1,11 @@
 //
 function script13232(int0: number): void {
     var string0 = "You need to purchase items or undo the changes above first";
-    IF_SETONMOUSEREPEAT(callback(script3876, string0, -2147483645, -2147483643), comp(1845, 212));
+    IF_SETONMOUSEREPEAT(callback(script3876, string0, -2147483645, -2147483643), comp(1845, 212));  // mtxmgt_store_checkout:apply_button_disabled_layer
     var int1 = script10495(7);
     var int2 = script10495(8);
-    CC_DELETEALL(comp(1845, 19));
-    CC_CREATE(comp(1845, 19), 4, IF_GETNEXTSUBID(comp(1845, 19)));
+    CC_DELETEALL(comp(1845, 19));  // mtxmgt_store_checkout:checkout_static_layer
+    CC_CREATE(comp(1845, 19), 4, IF_GETNEXTSUBID(comp(1845, 19)));  // mtxmgt_store_checkout:checkout_static_layer
     CC_SETTEXTFONT(58 as fontmetrics);
     CC_SETTEXTSHADOW(true);
     CC_SETTEXT("Confirmation");
@@ -13,31 +13,31 @@ function script13232(int0: number): void {
     CC_SETTEXTALIGN(0, 1, 0);
     CC_SETSIZE(0, script7593(CC_GETTEXT(), 1000, CC_GETFONTMETRICS(), 0), 1, 0);
     CC_SETCOLOUR(script10495(0));
-    CC_CREATE[1](comp(1845, 19), 4, IF_GETNEXTSUBID(comp(1845, 19)));
+    CC_CREATE[1](comp(1845, 19), 4, IF_GETNEXTSUBID(comp(1845, 19)));  // mtxmgt_store_checkout:checkout_static_layer
     CC_SETTEXT[1]("Some of your selections cannot be equipped.");
     CC_SETPOSITION[1](4, ((CC_GETY() + CC_GETHEIGHT()) + 4), 0, 0);
     CC_SETTEXTFONT[1](26 as fontmetrics);
     CC_SETTEXTSHADOW[1](true);
-    CC_SETSIZE[1](4, script7593(CC_GETTEXT[1](), IF_GETWIDTH(comp(1845, 19)), CC_GETFONTMETRICS[1](), 0), 1, 0);
+    CC_SETSIZE[1](4, script7593(CC_GETTEXT[1](), IF_GETWIDTH(comp(1845, 19)), CC_GETFONTMETRICS[1](), 0), 1, 0);  // mtxmgt_store_checkout:checkout_static_layer
     CC_SETCOLOUR[1](script10495(3));
     CC_SETTEXTALIGN[1](0, 0, 0);
-    IF_SETPOSITION(0, (CC_GETY[1]() + (2 * CC_GETHEIGHT[1]())), 0, 0, comp(1845, 17));
-    IF_SETSIZE(0, (((IF_GETY(comp(1845, 17)) + (27 * 2)) + (4 * 3)) - 2), 1, 1, comp(1845, 17));
-    IF_SETPOSITION(0, IF_GETY(comp(1845, 17)), 2, 0, comp(1845, 0));
-    IF_SETSIZE(16, ((IF_GETY(comp(1845, 17)) + (27 * 2)) + (4 * 2)), 0, 1, comp(1845, 0));
-    CC_CREATE(comp(1845, 19), 9, IF_GETNEXTSUBID(comp(1845, 19)));
-    CC_SETPOSITION(0, (IF_GETY(comp(1845, 17)) - 2), 0, 0);
+    IF_SETPOSITION(0, (CC_GETY[1]() + (2 * CC_GETHEIGHT[1]())), 0, 0, comp(1845, 17));  // mtxmgt_store_checkout:checkout_layer
+    IF_SETSIZE(0, (((IF_GETY(comp(1845, 17)) + (27 * 2)) + (4 * 3)) - 2), 1, 1, comp(1845, 17));  // mtxmgt_store_checkout:checkout_layer
+    IF_SETPOSITION(0, IF_GETY(comp(1845, 17) /*mtxmgt_store_checkout:checkout_layer*/), 2, 0, comp(1845, 0) /*mtxmgt_store_checkout:checkout_scrollbar_layer*/);
+    IF_SETSIZE(16, ((IF_GETY(comp(1845, 17) /*mtxmgt_store_checkout:checkout_layer*/) + (27 * 2)) + (4 * 2)), 0, 1, comp(1845, 0) /*mtxmgt_store_checkout:checkout_scrollbar_layer*/);
+    CC_CREATE(comp(1845, 19), 9, IF_GETNEXTSUBID(comp(1845, 19)));  // mtxmgt_store_checkout:checkout_static_layer
+    CC_SETPOSITION(0, (IF_GETY(comp(1845, 17)) - 2), 0, 0);  // mtxmgt_store_checkout:checkout_layer
     CC_SETCOLOUR(int2);
     CC_SETSIZE(1, 0, 1, 0);
-    CC_CREATE(comp(1845, 19), 9, IF_GETNEXTSUBID(comp(1845, 19)));
-    CC_SETPOSITION(0, (IF_GETY(comp(1845, 17)) - 1), 0, 0);
+    CC_CREATE(comp(1845, 19), 9, IF_GETNEXTSUBID(comp(1845, 19)));  // mtxmgt_store_checkout:checkout_static_layer
+    CC_SETPOSITION(0, (IF_GETY(comp(1845, 17)) - 1), 0, 0);  // mtxmgt_store_checkout:checkout_layer
     CC_SETCOLOUR(int1);
     CC_SETSIZE(1, 0, 1, 0);
-    CC_CREATE(comp(1845, 19), 9, IF_GETNEXTSUBID(comp(1845, 19)));
-    CC_SETPOSITION(0, (IF_GETY(comp(1845, 17)) + IF_GETHEIGHT(comp(1845, 17))), 0, 0);
+    CC_CREATE(comp(1845, 19), 9, IF_GETNEXTSUBID(comp(1845, 19)));  // mtxmgt_store_checkout:checkout_static_layer
+    CC_SETPOSITION(0, (IF_GETY(comp(1845, 17)) + IF_GETHEIGHT(comp(1845, 17))), 0, 0);  // mtxmgt_store_checkout:checkout_layer
     CC_SETCOLOUR(int2);
     CC_SETSIZE(1, 0, 1, 0);
-    CC_CREATE[1](comp(1845, 19), 9, IF_GETNEXTSUBID(comp(1845, 19)));
+    CC_CREATE[1](comp(1845, 19), 9, IF_GETNEXTSUBID(comp(1845, 19)));  // mtxmgt_store_checkout:checkout_static_layer
     CC_SETPOSITION[1](0, (CC_GETY() + 1), 0, 0);
     CC_SETCOLOUR[1](int1);
     CC_SETSIZE[1](1, 0, 1, 0);

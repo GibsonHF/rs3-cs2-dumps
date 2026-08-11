@@ -13,7 +13,7 @@ function script13847(int0: number, int1: number, int2: number): void {
     if ((varbitplayer_22875 == 1)) {
         int10 = 4;
         int11 = 7;
-    } else if ((int0 == comp(567, 28))) {
+    } else if ((int0 == comp(567, 28))) {  // toplevel_v2_ribbon_select:child_build
         int10 = 4;
         int11 = 4;
     };

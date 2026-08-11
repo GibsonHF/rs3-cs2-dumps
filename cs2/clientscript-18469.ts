@@ -11,8 +11,8 @@ function script18469(int0: number, int1: number): void {
                 } else {
                     CC_SETNOCLICKTHROUGH(true);
                     script8421(83951623, 83951626, 83951624, -1, "", 21259, -1, 1, -1, -1);
-                    IF_SETHIDE(false, comp(1281, 11));
-                    IF_SETNOCLICKTHROUGH(1, comp(1281, 11));
+                    IF_SETHIDE(false, comp(1281, 11));  // crm_braze_login_popup:close_button_layer
+                    IF_SETNOCLICKTHROUGH(1, comp(1281, 11));  // crm_braze_login_popup:close_button_layer
                     script18472(int2);
                 };
                 break;

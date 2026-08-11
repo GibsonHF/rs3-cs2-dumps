@@ -1,6 +1,6 @@
 //
 function script8555(int0: number): number {
-    if ((((int0 == 18) && (script13749() == 1)) && (IF_GETHIDE(comp(276, 28)) == false))) {
+    if ((((int0 == 18) && (script13749() == 1)) && (IF_GETHIDE(comp(276, 28)) == false))) {  // toplevel_v2_mobile:chat_panel_overlay
         return 15007755;
     };
     switch (int0) {

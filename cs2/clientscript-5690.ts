@@ -7,10 +7,10 @@ function script5690(): void {
             varclient_1753 = 8;
         };
     };
-    IF_SETHIDE(false, comp(1218, 262));
-    CC_DELETEALL(comp(1218, 246));
-    CC_DELETEALL(comp(1218, 247));
-    CC_DELETEALL(comp(1218, 245));
+    IF_SETHIDE(false, comp(1218, 262));  // skillguide:members_filter_wrapper
+    CC_DELETEALL(comp(1218, 246));  // skillguide:content_layer
+    CC_DELETEALL(comp(1218, 247));  // skillguide:image_layer
+    CC_DELETEALL(comp(1218, 245));  // skillguide:background_layer
     var int0 = 0;
     var int1 = 0;
     var string0 = "";
@@ -202,27 +202,27 @@ function script5690(): void {
             };
         };
         if ((int3 > 0)) {
-            IF_SETHIDE(true, comp(1218, 262));
-            IF_SETHIDE(true, comp(1218, 256));
-            IF_SETHIDE(true, comp(1218, 259));
-            IF_SETHIDE(false, comp(1218, 240));
-            IF_SETHIDE(true, comp(1218, 242));
-            if ((int3 < IF_GETHEIGHT(comp(1218, 255)))) {
-                IF_SETSCROLLSIZE(0, 0, comp(1218, 244));
+            IF_SETHIDE(true, comp(1218, 262));  // skillguide:members_filter_wrapper
+            IF_SETHIDE(true, comp(1218, 256));  // skillguide:sort_by_dropdown
+            IF_SETHIDE(true, comp(1218, 259));  // skillguide:filter_by_dropdown
+            IF_SETHIDE(false, comp(1218, 240));  // skillguide:new_unlocks_layer
+            IF_SETHIDE(true, comp(1218, 242));  // skillguide:loading_text
+            if ((int3 < IF_GETHEIGHT(comp(1218, 255)))) {  // skillguide:main_content_scrollbar_layer
+                IF_SETSCROLLSIZE(0, 0, comp(1218, 244));  // skillguide:main_content_layer
             } else {
-                IF_SETSCROLLSIZE(0, int3, comp(1218, 244));
+                IF_SETSCROLLSIZE(0, int3, comp(1218, 244));  // skillguide:main_content_layer
             };
-            IF_SETSCROLLPOS(0, 0, comp(1218, 244));
-            IF_SETSIZE(590, int3, 0, 0, comp(1218, 246));
-            IF_SETSIZE(590, int3, 0, 0, comp(1218, 247));
+            IF_SETSCROLLPOS(0, 0, comp(1218, 244));  // skillguide:main_content_layer
+            IF_SETSIZE(590, int3, 0, 0, comp(1218, 246));  // skillguide:content_layer
+            IF_SETSIZE(590, int3, 0, 0, comp(1218, 247));  // skillguide:image_layer
             script7791(79823103, 79823092);
             return;
         };
     };
-    IF_SETHIDE(false, comp(1218, 255));
+    IF_SETHIDE(false, comp(1218, 255));  // skillguide:main_content_scrollbar_layer
     int11 = 0;
     int3 = script6346(varclient_1753, varclient_1754, int3);
-    IF_SETHIDE(true, comp(1218, 240));
+    IF_SETHIDE(true, comp(1218, 240));  // skillguide:new_unlocks_layer
     while ((int11 < int6)) {
         [int3, int21] = script16268(int11, int10, int3, int21, enum_getvalue(0, 73, int5, int11), -1, 0, 120, varbitplayer_41394);
         pop_array(int11, int11);
@@ -247,10 +247,10 @@ function script5690(): void {
     pop_array(int10, -1);
     script17567(0, 79823094, 0, (int10 - 1));
     int11 = 0;
-    IF_SETPARAM_INT(2221, push_array(int11), comp(1218, 246));
-    IF_SETPARAM_INT(2222, push_array((int10 - 1)), comp(1218, 246));
+    IF_SETPARAM_INT(2221, push_array(int11), comp(1218, 246));  // skillguide:content_layer
+    IF_SETPARAM_INT(2222, push_array((int10 - 1)), comp(1218, 246));  // skillguide:content_layer
     while ((int11 < int10)) {
-        if ((CC_FIND(comp(1218, 246), push_array(int11)) == 1)) {
+        if ((CC_FIND(comp(1218, 246), push_array(int11)) == 1)) {  // skillguide:content_layer
             CC_SETPARAM_INT(2221, push_array((int11 + 1)));
             if ((int11 > 0)) {
                 CC_SETPARAM_INT(2222, push_array((int11 - 1)));
@@ -260,10 +260,10 @@ function script5690(): void {
     };
     int11 = 0;
     script17568(0, 79823094, 0, (int10 - 1));
-    IF_SETPARAM_INT(2223, push_array((int10 - 1)), comp(1218, 246));
-    IF_SETPARAM_INT(2224, push_array(int11), comp(1218, 246));
+    IF_SETPARAM_INT(2223, push_array((int10 - 1)), comp(1218, 246));  // skillguide:content_layer
+    IF_SETPARAM_INT(2224, push_array(int11), comp(1218, 246));  // skillguide:content_layer
     while ((int11 < int10)) {
-        if ((CC_FIND(comp(1218, 246), push_array(int11)) == 1)) {
+        if ((CC_FIND(comp(1218, 246), push_array(int11)) == 1)) {  // skillguide:content_layer
             CC_SETPARAM_INT(2224, push_array((int11 + 1)));
             if ((int11 > 0)) {
                 CC_SETPARAM_INT(2223, push_array((int11 - 1)));
@@ -271,7 +271,7 @@ function script5690(): void {
         };
         int11 = (int11 + 1);
     };
-    IF_SETSCROLLPOS(0, 0, comp(1218, 244));
+    IF_SETSCROLLPOS(0, 0, comp(1218, 244));  // skillguide:main_content_layer
     script5691(varclient_1753);
     return;
 }

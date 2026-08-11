@@ -44,7 +44,7 @@ function script9239(int0: number, int1: number, int2: number, int3: number, int4
                     case 65404953:
                     case 65404937: {
                         if ((varplayer_10581 == 1008 as inv)) {
-                            if ((int1 == comp(998, 9))) {
+                            if ((int1 == comp(998, 9))) {  // modal_storage:storage_obj_build_layer
                                 if ((int6 >= script1020())) {
                                     if ((CC_FIND[1](int0, int6) == 1)) {
                                         script14710(int1, int7, int6, CC_GETX[1](), CC_GETY[1](), 14045, "", "Requires a higher workbench storage upgrade from Ezreal's shop in the Archaeology Guild.");
@@ -90,7 +90,7 @@ function script9239(int0: number, int1: number, int2: number, int3: number, int4
                     }
                     case 43253786:
                     case 43253779: {
-                        if ((int1 == comp(660, 26))) {
+                        if ((int1 == comp(660, 26))) {  // arch_material_storage:storage_obj_build_layer
                             if ((int6 >= script14683())) {
                                 if ((CC_FIND[1](int0, int6) == 1)) {
                                     script14710(int1, int7, int6, CC_GETX[1](), CC_GETY[1](), 14045, "", "Requires a higher material storage upgrade from Ezreal's shop in the Archaeology Guild.");
@@ -113,7 +113,7 @@ function script9239(int0: number, int1: number, int2: number, int3: number, int4
                     }
                     case 31850505:
                     case 31850526: {
-                        if ((int1 == comp(486, 9))) {
+                        if ((int1 == comp(486, 9))) {  // rand_storage:storage_obj_build_layer
                             if ((int6 >= script5354())) {
                                 if ((CC_FIND[1](int0, int6) == 1)) {
                                     script14710(int1, int7, int6, CC_GETX[1](), CC_GETY[1](), 14045, "", script5355(int6));

@@ -195,50 +195,50 @@ function script6650(): void {
             break;
         }
     };
-    IF_SETGRAPHIC(int0, comp(1321, 68));
-    IF_SETGRAPHIC(int1, comp(1321, 76));
-    IF_SETGRAPHIC(int2, comp(1321, 84));
-    IF_SETGRAPHIC(int3, comp(1321, 92));
-    IF_SETGRAPHIC(int4, comp(1321, 116));
-    IF_SETGRAPHIC(int7, comp(1321, 108));
-    IF_SETGRAPHIC(int8, comp(1321, 132));
-    IF_SETGRAPHIC(int5, comp(1321, 100));
-    IF_SETGRAPHIC(int6, comp(1321, 124));
-    IF_SETHIDE(true, comp(1321, 32));
-    IF_SETHIDE(true, comp(1321, 24));
-    IF_SETHIDE(true, comp(1321, 40));
-    IF_SETHIDE(true, comp(1321, 48));
-    IF_SETHIDE(true, comp(1321, 16));
+    IF_SETGRAPHIC(int0, comp(1321, 68));  // clav_customise:head_gfx
+    IF_SETGRAPHIC(int1, comp(1321, 76));  // clav_customise:torso_gfx
+    IF_SETGRAPHIC(int2, comp(1321, 84));  // clav_customise:bottom_gfx
+    IF_SETGRAPHIC(int3, comp(1321, 92));  // clav_customise:upper_arm_right_gfx
+    IF_SETGRAPHIC(int4, comp(1321, 116));  // clav_customise:upper_arm_left_gfx
+    IF_SETGRAPHIC(int7, comp(1321, 108));  // clav_customise:lower_arm_right_gfx
+    IF_SETGRAPHIC(int8, comp(1321, 132));  // clav_customise:lower_arm_left_gfx
+    IF_SETGRAPHIC(int5, comp(1321, 100));  // clav_customise:arm_connect_right_gfx
+    IF_SETGRAPHIC(int6, comp(1321, 124));  // clav_customise:arm_connect_left_gfx
+    IF_SETHIDE(true, comp(1321, 32));  // clav_customise:all_magic_selected
+    IF_SETHIDE(true, comp(1321, 24));  // clav_customise:all_nature_selected
+    IF_SETHIDE(true, comp(1321, 40));  // clav_customise:all_lava_selected
+    IF_SETHIDE(true, comp(1321, 48));  // clav_customise:all_crystal_selected
+    IF_SETHIDE(true, comp(1321, 16));  // clav_customise:all_water_selected
     if (((((((((varbitplayer_8725 == varbitplayer_8726) && (varbitplayer_8727 == varbitplayer_8725)) && (varbitplayer_8728 == varbitplayer_8725)) && (varbitplayer_8730 == varbitplayer_8725)) && (varbitplayer_8729 == varbitplayer_8725)) && (varbitplayer_8731 == varbitplayer_8725)) && (varbitplayer_8733 == varbitplayer_8725)) && (varbitplayer_8732 == varbitplayer_8725))) {
         switch (varbitplayer_8725) {
             case 2: {
-                IF_SETHIDE(false, comp(1321, 48));
+                IF_SETHIDE(false, comp(1321, 48));  // clav_customise:all_crystal_selected
                 break;
             }
             case 5: {
-                IF_SETHIDE(false, comp(1321, 24));
+                IF_SETHIDE(false, comp(1321, 24));  // clav_customise:all_nature_selected
                 break;
             }
             case 1: {
-                IF_SETHIDE(false, comp(1321, 32));
+                IF_SETHIDE(false, comp(1321, 32));  // clav_customise:all_magic_selected
                 break;
             }
             case 3: {
-                IF_SETHIDE(false, comp(1321, 40));
+                IF_SETHIDE(false, comp(1321, 40));  // clav_customise:all_lava_selected
                 break;
             }
             case 4: {
-                IF_SETHIDE(false, comp(1321, 16));
+                IF_SETHIDE(false, comp(1321, 16));  // clav_customise:all_water_selected
                 break;
             }
         };
     };
     if ((script7768() == 1)) {
-        IF_SETHIDE(true, comp(1321, 52));
-        IF_SETHIDE(true, comp(1321, 192));
+        IF_SETHIDE(true, comp(1321, 52));  // clav_customise:crystal_theme_disabled_layer
+        IF_SETHIDE(true, comp(1321, 192));  // clav_customise:crystal_part_disabled_layer
     } else {
-        IF_SETHIDE(false, comp(1321, 52));
-        IF_SETHIDE(false, comp(1321, 192));
+        IF_SETHIDE(false, comp(1321, 52));  // clav_customise:crystal_theme_disabled_layer
+        IF_SETHIDE(false, comp(1321, 192));  // clav_customise:crystal_part_disabled_layer
     };
     return;
 }

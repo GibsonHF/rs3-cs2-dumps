@@ -1,5 +1,5 @@
 //
 function script3306(): void {
-    IF_SETTEXT(inttostring(varclient_1154, 10), comp(949, 23));
+    IF_SETTEXT(inttostring(varclient_1154, 10), comp(949, 23));  // rand_party_invite:mem2_combat
     return;
 }

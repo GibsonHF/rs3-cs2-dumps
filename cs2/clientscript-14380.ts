@@ -1,8 +1,8 @@
 //
 function script14380(): number {
-    var int0 = IF_GETHEIGHT(comp(517, 168));
-    var int1 = IF_GETSCROLLHEIGHT(comp(517, 168));
-    var int2 = IF_GETSCROLLY(comp(517, 168));
+    var int0 = IF_GETHEIGHT(comp(517, 168));  // bank:tabs_dynamic
+    var int1 = IF_GETSCROLLHEIGHT(comp(517, 168));  // bank:tabs_dynamic
+    var int2 = IF_GETSCROLLY(comp(517, 168));  // bank:tabs_dynamic
     var int3 = 0;
     var int4 = 0;
     if ((int1 > int0)) {

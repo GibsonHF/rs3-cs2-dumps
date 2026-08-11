@@ -1,11 +1,11 @@
 //
 function script6098(): void {
-    var int0 = comp(78, 3);
-    var int1 = comp(78, 8);
-    var int2 = comp(78, 4);
-    var int3 = comp(78, 5);
-    var int4 = comp(78, 6);
-    var int5 = comp(78, 7);
+    var int0 = comp(78, 3);  // group_inspect_stats:list
+    var int1 = comp(78, 8);  // group_inspect_stats:scrollbar
+    var int2 = comp(78, 4);  // group_inspect_stats:background
+    var int3 = comp(78, 5);  // group_inspect_stats:icon
+    var int4 = comp(78, 6);  // group_inspect_stats:stat
+    var int5 = comp(78, 7);  // group_inspect_stats:stat_base
     IF_SETSIZE(0, 0, 1, 1, int0);
     var int6 = ENUM_GETOUTPUTCOUNT(7674 as cs2enum);
     var int7 = IF_GETWIDTH(int0);
@@ -62,14 +62,14 @@ function script6098(): void {
         };
         int19 = (int19 + 1);
     };
-    IF_SETSIZE(16384, 0, 2, 1, comp(78, 12));
+    IF_SETSIZE(16384, 0, 2, 1, comp(78, 12));  // group_inspect_stats:skilltotal
     if ((int7 >= 120)) {
-        IF_SETSIZE((16384 / 2), 0, 2, 1, comp(78, 12));
-        IF_SETSIZE((16384 / 2), 0, 2, 1, comp(78, 13));
-        IF_SETPOSITION(0, 0, 2, 0, comp(78, 13));
-        IF_SETHIDE(false, comp(78, 13));
+        IF_SETSIZE((16384 / 2), 0, 2, 1, comp(78, 12));  // group_inspect_stats:skilltotal
+        IF_SETSIZE((16384 / 2), 0, 2, 1, comp(78, 13));  // group_inspect_stats:combat_level
+        IF_SETPOSITION(0, 0, 2, 0, comp(78, 13));  // group_inspect_stats:combat_level
+        IF_SETHIDE(false, comp(78, 13));  // group_inspect_stats:combat_level
     } else {
-        IF_SETHIDE(true, comp(78, 13));
+        IF_SETHIDE(true, comp(78, 13));  // group_inspect_stats:combat_level
     };
     return;
 }

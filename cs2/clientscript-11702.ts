@@ -4,12 +4,12 @@ function script11702(int0: number, int1: number): void {
     var int3 = -1;
     switch (varbitplayer_19000) {
         case 1: {
-            int2 = comp(105, 222);
+            int2 = comp(105, 222);  // stockmarket:offertype_text ?
             int3 = 6881503;
             break;
         }
         case 4: {
-            int2 = comp(707, 6);
+            int2 = comp(707, 6);  // stock_favourites:favourites_frame ?
             int3 = 46333959;
             break;
         }

@@ -36,12 +36,12 @@ function script11270(int0: number, int1: number): void {
     IF_SETPOSITION(0, 0, 1, 1, int1);
     if ((varclient_4777 > 0)) {
         if ((varclient_4777 <= ENUM_GETOUTPUTCOUNT(9458 as cs2enum))) {
-            IF_SETHIDE(true, comp(1611, 16));
+            IF_SETHIDE(true, comp(1611, 16));  // stat_select:confirm_disabled
         } else {
-            IF_SETHIDE(false, comp(1611, 16));
+            IF_SETHIDE(false, comp(1611, 16));  // stat_select:confirm_disabled
         };
     } else {
-        IF_SETHIDE(false, comp(1611, 16));
+        IF_SETHIDE(false, comp(1611, 16));  // stat_select:confirm_disabled
     };
     return;
 }

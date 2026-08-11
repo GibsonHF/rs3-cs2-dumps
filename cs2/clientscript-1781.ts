@@ -3,7 +3,7 @@ function script1781(): void {
     var int0 = 0;
     var int1 = 0;
     while ((int0 <= 4)) {
-        if ((CC_FIND(comp(791, 139), (int0 * 3)) == 1)) {
+        if ((CC_FIND(comp(791, 139), (int0 * 3)) == 1)) {  // clanwars_setup:arena_layer
             int1 = 0;
             if (((MAP_MEMBERS() == 0) && (struct_getparam(enum_getvalue(0, 73, 1604 as cs2enum, int0), 557) == true))) {
                 int1 = 1;

@@ -17,7 +17,7 @@ function script6068(int0: number, int1: number): void {
                             return;
                         };
                         IF_RESUME_PAUSEBUTTON(77529096);
-                    } else if ((((int0 == 48) && (KEYHELD_CTRL() == true)) && (IF_GETHIDE(comp(1183, 6)) == false))) {
+                    } else if ((((int0 == 48) && (KEYHELD_CTRL() == true)) && (IF_GETHIDE(comp(1183, 6)) == false))) {  // confirm_destroy_v2:destroy_all_name
                         IF_RESUME_PAUSEBUTTON(77529094);
                     };
                 } else if (((int0 == 69) || (int0 == 13))) {
@@ -25,7 +25,7 @@ function script6068(int0: number, int1: number): void {
                         return;
                     };
                     IF_RESUME_PAUSEBUTTON(77529096);
-                } else if ((((int0 == 48) && (KEYHELD_CTRL() == true)) && (IF_GETHIDE(comp(1183, 6)) == false))) {
+                } else if ((((int0 == 48) && (KEYHELD_CTRL() == true)) && (IF_GETHIDE(comp(1183, 6)) == false))) {  // confirm_destroy_v2:destroy_all_name
                     IF_RESUME_PAUSEBUTTON(77529094);
                 };
             } else if ((MAP_LANG() == 3)) {
@@ -36,7 +36,7 @@ function script6068(int0: number, int1: number): void {
                         return;
                     };
                     IF_RESUME_PAUSEBUTTON(77529096);
-                } else if ((((int0 == 48) && (KEYHELD_CTRL() == true)) && (IF_GETHIDE(comp(1183, 6)) == false))) {
+                } else if ((((int0 == 48) && (KEYHELD_CTRL() == true)) && (IF_GETHIDE(comp(1183, 6)) == false))) {  // confirm_destroy_v2:destroy_all_name
                     IF_RESUME_PAUSEBUTTON(77529094);
                 };
             } else if (((int0 == 69) || (int0 == 13))) {
@@ -44,7 +44,7 @@ function script6068(int0: number, int1: number): void {
                     return;
                 };
                 IF_RESUME_PAUSEBUTTON(77529096);
-            } else if ((((int0 == 48) && (KEYHELD_CTRL() == true)) && (IF_GETHIDE(comp(1183, 6)) == false))) {
+            } else if ((((int0 == 48) && (KEYHELD_CTRL() == true)) && (IF_GETHIDE(comp(1183, 6)) == false))) {  // confirm_destroy_v2:destroy_all_name
                 IF_RESUME_PAUSEBUTTON(77529094);
             };
         } else if ((MAP_LANG() == 2)) {
@@ -58,7 +58,7 @@ function script6068(int0: number, int1: number): void {
                         return;
                     };
                     IF_RESUME_PAUSEBUTTON(77529096);
-                } else if ((((int0 == 48) && (KEYHELD_CTRL() == true)) && (IF_GETHIDE(comp(1183, 6)) == false))) {
+                } else if ((((int0 == 48) && (KEYHELD_CTRL() == true)) && (IF_GETHIDE(comp(1183, 6)) == false))) {  // confirm_destroy_v2:destroy_all_name
                     IF_RESUME_PAUSEBUTTON(77529094);
                 };
             } else if (((int0 == 69) || (int0 == 13))) {
@@ -66,7 +66,7 @@ function script6068(int0: number, int1: number): void {
                     return;
                 };
                 IF_RESUME_PAUSEBUTTON(77529096);
-            } else if ((((int0 == 48) && (KEYHELD_CTRL() == true)) && (IF_GETHIDE(comp(1183, 6)) == false))) {
+            } else if ((((int0 == 48) && (KEYHELD_CTRL() == true)) && (IF_GETHIDE(comp(1183, 6)) == false))) {  // confirm_destroy_v2:destroy_all_name
                 IF_RESUME_PAUSEBUTTON(77529094);
             };
         } else if ((MAP_LANG() == 3)) {
@@ -77,7 +77,7 @@ function script6068(int0: number, int1: number): void {
                     return;
                 };
                 IF_RESUME_PAUSEBUTTON(77529096);
-            } else if ((((int0 == 48) && (KEYHELD_CTRL() == true)) && (IF_GETHIDE(comp(1183, 6)) == false))) {
+            } else if ((((int0 == 48) && (KEYHELD_CTRL() == true)) && (IF_GETHIDE(comp(1183, 6)) == false))) {  // confirm_destroy_v2:destroy_all_name
                 IF_RESUME_PAUSEBUTTON(77529094);
             };
         } else if (((int0 == 69) || (int0 == 13))) {
@@ -85,7 +85,7 @@ function script6068(int0: number, int1: number): void {
                 return;
             };
             IF_RESUME_PAUSEBUTTON(77529096);
-        } else if ((((int0 == 48) && (KEYHELD_CTRL() == true)) && (IF_GETHIDE(comp(1183, 6)) == false))) {
+        } else if ((((int0 == 48) && (KEYHELD_CTRL() == true)) && (IF_GETHIDE(comp(1183, 6)) == false))) {  // confirm_destroy_v2:destroy_all_name
             IF_RESUME_PAUSEBUTTON(77529094);
         };
     } else if ((MAP_LANG() == 1)) {
@@ -102,7 +102,7 @@ function script6068(int0: number, int1: number): void {
                         return;
                     };
                     IF_RESUME_PAUSEBUTTON(77529096);
-                } else if ((((int0 == 48) && (KEYHELD_CTRL() == true)) && (IF_GETHIDE(comp(1183, 6)) == false))) {
+                } else if ((((int0 == 48) && (KEYHELD_CTRL() == true)) && (IF_GETHIDE(comp(1183, 6)) == false))) {  // confirm_destroy_v2:destroy_all_name
                     IF_RESUME_PAUSEBUTTON(77529094);
                 };
             } else if (((int0 == 69) || (int0 == 13))) {
@@ -110,7 +110,7 @@ function script6068(int0: number, int1: number): void {
                     return;
                 };
                 IF_RESUME_PAUSEBUTTON(77529096);
-            } else if ((((int0 == 48) && (KEYHELD_CTRL() == true)) && (IF_GETHIDE(comp(1183, 6)) == false))) {
+            } else if ((((int0 == 48) && (KEYHELD_CTRL() == true)) && (IF_GETHIDE(comp(1183, 6)) == false))) {  // confirm_destroy_v2:destroy_all_name
                 IF_RESUME_PAUSEBUTTON(77529094);
             };
         } else if ((MAP_LANG() == 3)) {
@@ -121,7 +121,7 @@ function script6068(int0: number, int1: number): void {
                     return;
                 };
                 IF_RESUME_PAUSEBUTTON(77529096);
-            } else if ((((int0 == 48) && (KEYHELD_CTRL() == true)) && (IF_GETHIDE(comp(1183, 6)) == false))) {
+            } else if ((((int0 == 48) && (KEYHELD_CTRL() == true)) && (IF_GETHIDE(comp(1183, 6)) == false))) {  // confirm_destroy_v2:destroy_all_name
                 IF_RESUME_PAUSEBUTTON(77529094);
             };
         } else if (((int0 == 69) || (int0 == 13))) {
@@ -129,7 +129,7 @@ function script6068(int0: number, int1: number): void {
                 return;
             };
             IF_RESUME_PAUSEBUTTON(77529096);
-        } else if ((((int0 == 48) && (KEYHELD_CTRL() == true)) && (IF_GETHIDE(comp(1183, 6)) == false))) {
+        } else if ((((int0 == 48) && (KEYHELD_CTRL() == true)) && (IF_GETHIDE(comp(1183, 6)) == false))) {  // confirm_destroy_v2:destroy_all_name
             IF_RESUME_PAUSEBUTTON(77529094);
         };
     } else if ((MAP_LANG() == 2)) {
@@ -143,7 +143,7 @@ function script6068(int0: number, int1: number): void {
                     return;
                 };
                 IF_RESUME_PAUSEBUTTON(77529096);
-            } else if ((((int0 == 48) && (KEYHELD_CTRL() == true)) && (IF_GETHIDE(comp(1183, 6)) == false))) {
+            } else if ((((int0 == 48) && (KEYHELD_CTRL() == true)) && (IF_GETHIDE(comp(1183, 6)) == false))) {  // confirm_destroy_v2:destroy_all_name
                 IF_RESUME_PAUSEBUTTON(77529094);
             };
         } else if (((int0 == 69) || (int0 == 13))) {
@@ -151,7 +151,7 @@ function script6068(int0: number, int1: number): void {
                 return;
             };
             IF_RESUME_PAUSEBUTTON(77529096);
-        } else if ((((int0 == 48) && (KEYHELD_CTRL() == true)) && (IF_GETHIDE(comp(1183, 6)) == false))) {
+        } else if ((((int0 == 48) && (KEYHELD_CTRL() == true)) && (IF_GETHIDE(comp(1183, 6)) == false))) {  // confirm_destroy_v2:destroy_all_name
             IF_RESUME_PAUSEBUTTON(77529094);
         };
     } else if ((MAP_LANG() == 3)) {
@@ -162,7 +162,7 @@ function script6068(int0: number, int1: number): void {
                 return;
             };
             IF_RESUME_PAUSEBUTTON(77529096);
-        } else if ((((int0 == 48) && (KEYHELD_CTRL() == true)) && (IF_GETHIDE(comp(1183, 6)) == false))) {
+        } else if ((((int0 == 48) && (KEYHELD_CTRL() == true)) && (IF_GETHIDE(comp(1183, 6)) == false))) {  // confirm_destroy_v2:destroy_all_name
             IF_RESUME_PAUSEBUTTON(77529094);
         };
     } else if (((int0 == 69) || (int0 == 13))) {
@@ -170,7 +170,7 @@ function script6068(int0: number, int1: number): void {
             return;
         };
         IF_RESUME_PAUSEBUTTON(77529096);
-    } else if ((((int0 == 48) && (KEYHELD_CTRL() == true)) && (IF_GETHIDE(comp(1183, 6)) == false))) {
+    } else if ((((int0 == 48) && (KEYHELD_CTRL() == true)) && (IF_GETHIDE(comp(1183, 6)) == false))) {  // confirm_destroy_v2:destroy_all_name
         IF_RESUME_PAUSEBUTTON(77529094);
     };
     return;

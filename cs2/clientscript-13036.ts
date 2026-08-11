@@ -16,8 +16,8 @@ function script13036(): void {
             };
         };
     };
-    IF_SETGRAPHIC(script13037((int1 / 100)), comp(1731, 2));
-    IF_SETGRAPHIC(script13037(MODULO((int1 / 10), 10)), comp(1731, 3));
-    IF_SETGRAPHIC(script13037(MODULO(int1, 10)), comp(1731, 4));
+    IF_SETGRAPHIC(script13037((int1 / 100)), comp(1731, 2));  // bxp_countdown:bxp_number_x00
+    IF_SETGRAPHIC(script13037(MODULO((int1 / 10), 10)), comp(1731, 3));  // bxp_countdown:bxp_number_0x0
+    IF_SETGRAPHIC(script13037(MODULO(int1, 10)), comp(1731, 4));  // bxp_countdown:bxp_number_00x
     return;
 }

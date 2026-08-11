@@ -13,7 +13,7 @@ function script18514(): void {
             break;
         }
     };
-    IF_SETTEXT(string0, comp(1253, 353));
-    IF_SETHIDE(false, comp(1253, 349));
+    IF_SETTEXT(string0, comp(1253, 353));  // wheel_of_fortune:trh_banner_reward_track_info_panel_text
+    IF_SETHIDE(false, comp(1253, 349));  // wheel_of_fortune:trh_banner_reward_track_info_panel
     return;
 }

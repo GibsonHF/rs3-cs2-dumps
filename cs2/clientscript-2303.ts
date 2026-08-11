@@ -19,8 +19,8 @@ function script2303(int0: number, int1: number, int2: number, int3: number): voi
             IF_SETOP(1, "Turn quick prayers on", int1);
         };
     };
-    IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643), comp(1430, 18));
-    IF_SETONMOUSELEAVE(callback(script8805), comp(1430, 18));
+    IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643), comp(1430, 18));  // toplevel_v2_combat_bar:prayer_globe_layer
+    IF_SETONMOUSELEAVE(callback(script8805), comp(1430, 18));  // toplevel_v2_combat_bar:prayer_globe_layer
     script8051(int1);
     if ((script6431() == 1)) {
         script4601();

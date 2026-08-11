@@ -116,33 +116,33 @@ function script4063(int0: number, int1: number): void {
         }
         case 51: {
             int2 = script12422(varbitplayer_50392, 12, 65536);
-            IF_SETTEXT(`${inttostring(varbitplayer_50392, 10)}/${inttostring(12, 10)}`, comp(886, 53));
+            IF_SETTEXT(`${inttostring(varbitplayer_50392, 10)}/${inttostring(12, 10)}`, comp(886, 53));  // trh175_overlay:bonus_progress_bar_text
             break;
         }
         case 53: {
             int2 = script12422(varbitplayer_29996, 12, 65536);
-            IF_SETTEXT(`${inttostring(varbitplayer_29996, 10)}/${inttostring(12, 10)}`, comp(935, 47));
+            IF_SETTEXT(`${inttostring(varbitplayer_29996, 10)}/${inttostring(12, 10)}`, comp(935, 47));  // trh176_overlay:bonus_progress_bar_text
             break;
         }
         case 54: {
             int2 = script12422(varbitplayer_51024, 6, 65536);
-            IF_SETTEXT(`${inttostring(varbitplayer_51024, 10)}/${inttostring(6, 10)}`, comp(669, 22));
+            IF_SETTEXT(`${inttostring(varbitplayer_51024, 10)}/${inttostring(6, 10)}`, comp(669, 22));  // trh177_overlay:bonus_progress_bar_text
             break;
         }
         case 55: {
             int2 = script12422(varbitplayer_51270, 12, 65536);
-            IF_SETTEXT(`${inttostring(varbitplayer_51270, 10)}/${inttostring(12, 10)}`, comp(300, 26));
+            IF_SETTEXT(`${inttostring(varbitplayer_51270, 10)}/${inttostring(12, 10)}`, comp(300, 26));  // trh155_overlay:bonus_progress_bar_text
             break;
         }
         case 59: {
             if (((varclient_7219 == -1) || (varclient_7221 >= varclient_7222))) {
                 int2 = 65536;
-                IF_SETTEXT("MAX", comp(1222, 20));
+                IF_SETTEXT("MAX", comp(1222, 20));  // skill_tree:points_progress_bar_text
             } else {
                 int2 = script12422(varclient_7218, varclient_7219, 65536);
                 switch (varplayer_11091) {
                     case 7599: {
-                        IF_SETTEXT(`${TOSTRING_LOCALISED((varclient_7218 / 10), 1)}/${TOSTRING_LOCALISED((varclient_7219 / 10), 1)} XP`, comp(1222, 20));
+                        IF_SETTEXT(`${TOSTRING_LOCALISED((varclient_7218 / 10), 1)}/${TOSTRING_LOCALISED((varclient_7219 / 10), 1)} XP`, comp(1222, 20));  // skill_tree:points_progress_bar_text
                         break;
                     }
                 };
@@ -151,7 +151,7 @@ function script4063(int0: number, int1: number): void {
         }
         case 61: {
             int2 = script12422(varbitplayer_54404, 6, 65536);
-            IF_SETTEXT(`${inttostring(varbitplayer_54404, 10)}/${inttostring(6, 10)}`, comp(631, 21));
+            IF_SETTEXT(`${inttostring(varbitplayer_54404, 10)}/${inttostring(6, 10)}`, comp(631, 21));  // trh196_overlay:bonus_progress_bar_text
             break;
         }
         case 60: {
@@ -161,12 +161,12 @@ function script4063(int0: number, int1: number): void {
         }
         case 63: {
             int2 = script12422(varbitplayer_57145, 6, 65536);
-            IF_SETTEXT(`${inttostring(varbitplayer_57145, 10)}/${inttostring(6, 10)}`, comp(1320, 12));
+            IF_SETTEXT(`${inttostring(varbitplayer_57145, 10)}/${inttostring(6, 10)}`, comp(1320, 12));  // trh205_overlay:bonus_progress_bar_text
             break;
         }
         case 64: {
             int2 = script12422(script19768(), script19767(0), 65536);
-            IF_SETTEXT(`${inttostring(script19768(), 10)}/${inttostring(script19767(0), 10)}`, comp(1320, 20));
+            IF_SETTEXT(`${inttostring(script19768(), 10)}/${inttostring(script19767(0), 10)}`, comp(1320, 20));  // trh205_overlay:prize_progress_bar_text
             break;
         }
     };

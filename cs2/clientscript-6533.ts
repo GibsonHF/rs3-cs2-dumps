@@ -8,17 +8,17 @@ function script6533(int0: number, int1: number, int2: number, int3: number): voi
         return;
     };
     script5671();
-    CC_DELETEALL(comp(556, 10));
-    IF_SETHIDE(false, comp(556, 6));
+    CC_DELETEALL(comp(556, 10));  // investigate:information
+    IF_SETHIDE(false, comp(556, 6));  // investigate:keywords_title
     var string0 = script5688(int0, int1, int2);
     if ((script5647(int0, int1, int2) == 1)) {
         if ((STRING_LENGTH(string0) > 0)) {
-            IF_SETTEXT(string0, comp(556, 5));
+            IF_SETTEXT(string0, comp(556, 5));  // investigate:section_title
         };
-        IF_SETHIDE(false, comp(556, 11));
+        IF_SETHIDE(false, comp(556, 11));  // investigate:replay_button
     } else {
-        IF_SETTEXT("???", comp(556, 5));
-        IF_SETHIDE(true, comp(556, 11));
+        IF_SETTEXT("???", comp(556, 5));  // investigate:section_title
+        IF_SETHIDE(true, comp(556, 11));  // investigate:replay_button
     };
     var int5 = 0;
     var int6 = 0;

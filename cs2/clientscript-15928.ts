@@ -1,6 +1,6 @@
 //
 function script15928(): void {
-    CC_DELETEALL(comp(517, 83));
+    CC_DELETEALL(comp(517, 83));  // bank:preset_load_bob_disabled
     script2996(33882195, 0, 0, 0, 0, 0, 0, 0, 1, 1, 4352);
     if ((MAP_MEMBERS() == 1)) {
         CC_SETHIDE(true);

@@ -1,12 +1,12 @@
 //
 function script9292(): void {
     script16571(varbitclient_41275);
-    IF_SETHIDE(script12585(script19316()), comp(857, 15));
-    if (((IF_GETHIDE(comp(276, 27)) == true) && (IF_FIND(struct_getparam(script10405(18), 3503)) == 1))) {
+    IF_SETHIDE(script12585(script19316()), comp(857, 15));  // mobile_chat_panel:group_ironman
+    if (((IF_GETHIDE(comp(276, 27)) == true) && (IF_FIND(struct_getparam(script10405(18), 3503)) == 1))) {  // toplevel_v2_mobile:chat_panel
         switch (varbitclient_41275) {
             case 0: {
                 CC_SETSIZE(300, 100, 0, 0);
-                IF_SETPARAM_INT(6839, varclient_2835, comp(137, 55));
+                IF_SETPARAM_INT(6839, varclient_2835, comp(137, 55));  // chatdefault:chat
                 script6060(255);
                 varclient_6798 = (CLIENTCLOCK() + 250);
                 script8792();

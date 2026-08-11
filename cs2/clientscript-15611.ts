@@ -5,7 +5,7 @@ function script15611(): void {
             return;
         }
     };
-    IF_SETONTIMER(callback(), comp(906, 8));
+    IF_SETONTIMER(callback(), comp(906, 8));  // lobbyscreen:pending_transaction_timer
     script3097();
     return;
 }

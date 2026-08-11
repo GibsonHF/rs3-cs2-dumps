@@ -4,7 +4,7 @@ function script16092(int0: number, int1: number, int2: number, int3: number, int
     var int8 = 0;
     var int9 = 0;
     var int10 = 50;
-    if ((CC_FINDBYCATEGORY(comp(485, 13), 0, 0) == 1)) {
+    if ((CC_FINDBYCATEGORY(comp(485, 13), 0, 0) == 1)) {  // trh181_overlay:gem_layer
         if ((int0 == 0)) {
             CC_SETGRAPHIC(script16723(int4));
             script16728(int4, int6);
@@ -19,7 +19,7 @@ function script16092(int0: number, int1: number, int2: number, int3: number, int
         if ((MODULO(varbitplayer_51593, script16725()) == 0)) {
             int10 = 0;
         };
-        IF_SETONTIMER(callback(script16013, int10, int4, int1, int3, int2), comp(485, 13));
+        IF_SETONTIMER(callback(script16013, int10, int4, int1, int3, int2), comp(485, 13));  // trh181_overlay:gem_layer
     };
     return;
 }

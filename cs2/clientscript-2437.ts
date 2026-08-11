@@ -27,6 +27,6 @@ function script2437(): void {
     if ((int2 > 100)) {
         int2 = 100;
     };
-    IF_SETSIZE(IF_GETWIDTH(comp(15, 1)), SCALE(int2, 100, IF_GETHEIGHT(comp(15, 2))), 0, 0, comp(15, 1));
+    IF_SETSIZE(IF_GETWIDTH(comp(15, 1) /*trawler_game_overlay:water_bar_fill*/), SCALE(int2, 100, IF_GETHEIGHT(comp(15, 2) /*trawler_game_overlay:water_bar_border*/)), 0, 0, comp(15, 1) /*trawler_game_overlay:water_bar_fill*/);
     return;
 }

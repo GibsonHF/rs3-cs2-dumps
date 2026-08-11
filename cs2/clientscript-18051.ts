@@ -5,10 +5,10 @@ function script18051(): void {
         varclient_7306 = (varclient_7306 - 1);
     };
     if ((varclient_7306 <= 0)) {
-        IF_SETONTIMER(callback(), comp(1226, 8));
+        IF_SETONTIMER(callback(), comp(1226, 8));  // bp3_missions_tab:redraw_listener
         script18055();
     } else {
-        IF_SETONTIMER(callback(script18051), comp(1226, 8));
+        IF_SETONTIMER(callback(script18051), comp(1226, 8));  // bp3_missions_tab:redraw_listener
     };
     return;
 }

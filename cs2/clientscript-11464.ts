@@ -6,7 +6,7 @@ function script11464(int0: number, int1: number, string0: string): void {
     CC_SETONMOUSELEAVE(callback(script3035));
     if ((STRING_LENGTH(string0) > 0)) {
         int2 = (STRINGWIDTH(`Last known as: ${string0}`, 66 as fontmetrics) + 8);
-        if ((int2 > IF_GETWIDTH(comp(909, 5)))) {
+        if ((int2 > IF_GETWIDTH(comp(909, 5)))) {  // lobbyscreen_pane_friendslist:friends_upper
             string1 = `Last known as:<br>${string0}`;
         } else {
             string1 = `Last known as: ${string0}`;

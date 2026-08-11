@@ -9,8 +9,8 @@ function script5524(int0: number, int1: number): void {
     var int7 = -1;
     var int8 = -1;
     [int5, int6, int7, int8] = script7387();
-    CC_DELETEALL(comp(1072, 18));
-    IF_SETHIDE(true, comp(1072, 19));
+    CC_DELETEALL(comp(1072, 18));  // pop_ship_names:names_layer
+    IF_SETHIDE(true, comp(1072, 19));  // pop_ship_names:name_selected
     var int9 = -1;
     var int10 = -1;
     var int11 = -1;
@@ -20,14 +20,14 @@ function script5524(int0: number, int1: number): void {
     script13992(70254603, -1, 28556, 0);
     switch (int0) {
         case 1: {
-            IF_SETHIDE(true, comp(1072, 21));
+            IF_SETHIDE(true, comp(1072, 21));  // pop_ship_names:static_dropdown
             script13992(70254597, -1, 28556, 1);
             int9 = int2;
             int12 = varbitplayer_17030;
             break;
         }
         case 2: {
-            IF_SETHIDE(false, comp(1072, 21));
+            IF_SETHIDE(false, comp(1072, 21));  // pop_ship_names:static_dropdown
             script13992(70254600, -1, 28556, 1);
             int9 = int3;
             int10 = int5;
@@ -37,7 +37,7 @@ function script5524(int0: number, int1: number): void {
             break;
         }
         case 3: {
-            IF_SETHIDE(false, comp(1072, 21));
+            IF_SETHIDE(false, comp(1072, 21));  // pop_ship_names:static_dropdown
             script13992(70254603, -1, 28556, 1);
             int9 = int4;
             int10 = int7;
@@ -53,7 +53,7 @@ function script5524(int0: number, int1: number): void {
     var string0 = "";
     var int16 = ENUM_GETOUTPUTCOUNT(int9);
     while ((int13 < int16)) {
-        CC_CREATE(comp(1072, 18), 4, int13);
+        CC_CREATE(comp(1072, 18), 4, int13);  // pop_ship_names:names_layer
         if ((int10 != -1)) {
             int15 = enum_getvalue(0, 0, int10, int13);
         } else {
@@ -76,8 +76,8 @@ function script5524(int0: number, int1: number): void {
                 CC_SETCOLOUR(16239152);
                 CC_SETONMOUSEOVER(callback(script5645, int13, 1, 1));
                 CC_SETONMOUSELEAVE(callback(script5645, int13, 0, 1));
-                IF_SETHIDE(false, comp(1072, 19));
-                IF_SETPOSITION(CC_GETX(), (CC_GETY() - 2), 0, 0, comp(1072, 19));
+                IF_SETHIDE(false, comp(1072, 19));  // pop_ship_names:name_selected
+                IF_SETPOSITION(CC_GETX(), (CC_GETY() - 2), 0, 0, comp(1072, 19));  // pop_ship_names:name_selected
             } else {
                 CC_SETONMOUSEOVER(callback(script5645, int13, 1, 0));
                 CC_SETONMOUSELEAVE(callback(script5645, int13, 0, 0));
@@ -88,8 +88,8 @@ function script5524(int0: number, int1: number): void {
         };
         int13 = (int13 + 1);
     };
-    var int17 = MAX(IF_GETHEIGHT(comp(1072, 18)), (3 + (22 * ((int14 / 3) + 1))));
-    IF_SETSCROLLSIZE(0, int17, comp(1072, 18));
+    var int17 = MAX(IF_GETHEIGHT(comp(1072, 18)), (3 + (22 * ((int14 / 3) + 1))));  // pop_ship_names:names_layer
+    IF_SETSCROLLSIZE(0, int17, comp(1072, 18));  // pop_ship_names:names_layer
     script31(70254612, 70254610, 8383, 8380, 8381, 8382, 8375, 8374);
     return;
 }

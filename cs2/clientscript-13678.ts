@@ -285,7 +285,7 @@ function script13678(int0: number, int1: number, int2: number, int3: number, int
     CC_SETPOSITION((((int7 + (5 * int17)) + (2 * int23)) + (2 * PARAWIDTH("999", IF_GETWIDTH(int1), 26 as fontmetrics))), int8, 2, 0);
     CC_SETCOLOUR(0);
     if (((int2 + 1) == int6)) {
-        IF_SETTEXT("Upgrades & downgrades available for this machine:", comp(1901, 3));
+        IF_SETTEXT("Upgrades & downgrades available for this machine:", comp(1901, 3));  // invent_machine_build:button_window_main_text
         if ((int6 != int5)) {
             stack(int1);
             stack(4);

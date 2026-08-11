@@ -313,8 +313,8 @@ function script84(int0: number): void {
     var int29 = script11432(int28);
     var int30 = enum_getvalue(0, 0, 1648 as cs2enum, int27);
     var int31 = 2;
-    var int32 = IF_GETTRANS(comp(137, 2));
-    if ((IF_GETHIDE(comp(276, 27)) == false)) {
+    var int32 = IF_GETTRANS(comp(137, 2));  // chatdefault:mobile_listener_graphic
+    if ((IF_GETHIDE(comp(276, 27)) == false)) {  // toplevel_v2_mobile:chat_panel
         int32 = 0;
     };
     if (((int26 == 1) && (varbitplayer_29940 == 0))) {

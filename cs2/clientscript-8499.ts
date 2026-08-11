@@ -2,7 +2,7 @@
 function script8499(int0: number, int1: number): void {
     var int2 = -1 as struct;
     var int3 = 0;
-    if ((CC_FIND(comp(1890, 37), int1) == 1)) {
+    if ((CC_FIND(comp(1890, 37), int1) == 1)) {  // prayer_quick_preset_interface:glow
         if ((script6799(varbitplayer_36830) == 1)) {
             int2 = enum_getvalue(0, 73, 6760 as cs2enum, int1);
         } else {

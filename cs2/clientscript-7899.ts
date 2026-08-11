@@ -5,7 +5,7 @@ function script7899(int0: number, int1: number, int2: number, int3: number): voi
             script7913();
         };
         varclient_3493 = 0;
-        IF_SETONTIMER(callback(), comp(1420, 11));
+        IF_SETONTIMER(callback(), comp(1420, 11));  // acc_create:avatar_listener
         return;
     };
     if ((int1 >= 600)) {
@@ -58,13 +58,13 @@ function script7899(int0: number, int1: number, int2: number, int3: number): voi
                 varclient_6880 = 1572;
             };
         };
-        if ((IF_GETHIDE(comp(1420, 46)) == false)) {
-            IF_SETMODELANGLE(0, 130, 0, varclient_3487, 0, 160, comp(1420, 46));
+        if ((IF_GETHIDE(comp(1420, 46)) == false)) {  // acc_create:avatar_paperdoll
+            IF_SETMODELANGLE(0, 130, 0, varclient_3487, 0, 160, comp(1420, 46));  // acc_create:avatar_paperdoll
         };
-        if ((IF_GETHIDE(comp(1420, 47)) == false)) {
-            IF_SETMODELANGLE(-70, 0, 0, varclient_6880, 0, 950, comp(1420, 47));
+        if ((IF_GETHIDE(comp(1420, 47)) == false)) {  // acc_create:avatar_head
+            IF_SETMODELANGLE(-70, 0, 0, varclient_6880, 0, 950, comp(1420, 47));  // acc_create:avatar_head
         };
-        IF_SETONTIMER(callback(script7899, int0, (int1 - int3), int2, int3), comp(1420, 11));
+        IF_SETONTIMER(callback(script7899, int0, (int1 - int3), int2, int3), comp(1420, 11));  // acc_create:avatar_listener
     } else {
         switch (int3) {
             case 50: {
@@ -80,7 +80,7 @@ function script7899(int0: number, int1: number, int2: number, int3: number): voi
                 break;
             }
         };
-        IF_SETONTIMER(callback(script7899, (CLIENTCLOCK() + 10), (int1 - int3), int2, int3), comp(1420, 11));
+        IF_SETONTIMER(callback(script7899, (CLIENTCLOCK() + 10), (int1 - int3), int2, int3), comp(1420, 11));  // acc_create:avatar_listener
     };
     return;
 }

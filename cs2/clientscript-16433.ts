@@ -6,7 +6,7 @@ function script16433(): void {
     var int1 = 0;
     var int2 = 0;
     var int3 = -1;
-    CC_DELETEALL(comp(669, 24));
+    CC_DELETEALL(comp(669, 24));  // trh177_overlay:blackboard_item_list
     var int4 = 0;
     while ((int0 != -1)) {
         if ((script16421(int0) == 1)) {
@@ -16,7 +16,7 @@ function script16433(): void {
             } else {
                 int4 = 0;
             };
-            CC_CREATE(comp(669, 24), 5, int2);
+            CC_CREATE(comp(669, 24), 5, int2);  // trh177_overlay:blackboard_item_list
             int2 = (int2 + 1);
             if ((int4 == 1)) {
                 CC_SETPOSITION(12, int1, 0, 0);
@@ -27,14 +27,14 @@ function script16433(): void {
             CC_SETGRAPHIC(int3);
             CC_SETHIDE(false);
             if ((int4 == 1)) {
-                CC_CREATE(comp(669, 24), 5, int2);
+                CC_CREATE(comp(669, 24), 5, int2);  // trh177_overlay:blackboard_item_list
                 int2 = (int2 + 1);
                 CC_SETPOSITION(1, int1, 0, 0);
                 CC_SETSIZE(17, 18, 0, 0);
                 CC_SETGRAPHIC(5390 as graphic);
                 CC_SETHIDE(false);
             };
-            CC_CREATE(comp(669, 24), 4, int2);
+            CC_CREATE(comp(669, 24), 4, int2);  // trh177_overlay:blackboard_item_list
             int2 = (int2 + 1);
             CC_SETPOSITION(36, int1, 0, 0);
             CC_SETSIZE(322, 20, 0, 0);
@@ -47,12 +47,12 @@ function script16433(): void {
         int0 = dbrow_findnext();
     };
     if ((int1 > 0)) {
-        CC_CREATE(comp(669, 24), 5, int2);
+        CC_CREATE(comp(669, 24), 5, int2);  // trh177_overlay:blackboard_item_list
         int2 = (int2 + 1);
         CC_SETGRAPHIC(5394 as graphic);
         CC_SETPOSITION(23, 0, 0, 0);
         CC_SETSIZE(17, (int1 + 10), 0, 0);
-        IF_SETHIDE(false, comp(669, 24));
+        IF_SETHIDE(false, comp(669, 24));  // trh177_overlay:blackboard_item_list
     };
     script16432(43843621);
     return;

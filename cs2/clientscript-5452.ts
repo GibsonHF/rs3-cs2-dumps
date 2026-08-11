@@ -1,14 +1,14 @@
 //
 function script5452(int0: number, int1: number, int2: number): void {
     if ((int2 > 1)) {
-        if ((strcmp(IF_GETTEXT(comp(90, 172)), dbrow_getfield(int0, 155648, 0)) == 0)) {
-            IF_SETHIDE(true, comp(90, 164));
+        if ((strcmp(IF_GETTEXT(comp(90, 172)), dbrow_getfield(int0, 155648, 0)) == 0)) {  // pof_animal:showstats_farmhand_name
+            IF_SETHIDE(true, comp(90, 164));  // pof_animal:showstats_farmhand_layer
         };
         return;
     };
-    IF_SETHIDE(false, comp(90, 164));
-    IF_SETOBJECT_NONUM(dbrow_getfield(int0, 155936, 0), 0, comp(90, 169));
-    IF_SETMODELZOOM(dbrow_getfield(int0, 155952, 0), comp(90, 169));
+    IF_SETHIDE(false, comp(90, 164));  // pof_animal:showstats_farmhand_layer
+    IF_SETOBJECT_NONUM(dbrow_getfield(int0, 155936, 0), 0, comp(90, 169));  // pof_animal:showstats_farmhand_model
+    IF_SETMODELZOOM(dbrow_getfield(int0, 155952, 0), comp(90, 169));  // pof_animal:showstats_farmhand_model
     IF_SETTEXT(dbrow_getfield(int0, 155648, 0), 5898412);
     var int3 = 0;
     var int4 = -1;
@@ -137,14 +137,14 @@ function script5452(int0: number, int1: number, int2: number): void {
     if ((dbrow_getfield(int0, 155808, 0) == 1)) {
         string0 = `${string0}Boosts materials.<br>`;
     };
-    IF_SETTEXT(string0, comp(90, 171));
+    IF_SETTEXT(string0, comp(90, 171));  // pof_animal:showstats_farmhand_data
     IF_SETTEXT(dbrow_getfield(int0, 155664, 0), 5898408);
     if ((int1 == 1)) {
-        IF_SETHIDE(false, comp(90, 175));
-        IF_SETHIDE(true, comp(90, 174));
+        IF_SETHIDE(false, comp(90, 175));  // pof_animal:showstats_farmhand_add_button
+        IF_SETHIDE(true, comp(90, 174));  // pof_animal:showstats_farmhand_remove_button
     } else {
-        IF_SETHIDE(true, comp(90, 175));
-        IF_SETHIDE(false, comp(90, 174));
+        IF_SETHIDE(true, comp(90, 175));  // pof_animal:showstats_farmhand_add_button
+        IF_SETHIDE(false, comp(90, 174));  // pof_animal:showstats_farmhand_remove_button
     };
     return;
 }

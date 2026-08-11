@@ -1,6 +1,6 @@
 //
 function script5367(int0: number, int1: number): void {
-    if ((CC_FIND(comp(951, 24), int0) == 1)) {
+    if ((CC_FIND(comp(951, 24), int0) == 1)) {  // agidad_overlay:foreground
         switch (int1) {
             case 0: {
                 CC_SETHIDE(true);

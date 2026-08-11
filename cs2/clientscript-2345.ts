@@ -18,6 +18,6 @@ function script2345(): void {
     SPLINE_ADDPOINT(1, 3, int3, 400, int3, 400, 0);
     SPLINE_ADDPOINT(1, 4, int3, 500, int3, 500, 0);
     CAM_MOVEALONG(0, 0, 200, 200, 1, 0);
-    IF_SETONCAMFINISHED(callback(script2346), comp(582, 0));
+    IF_SETONCAMFINISHED(callback(script2346), comp(582, 0));  // mah1_orbitsplines:controller
     return;
 }

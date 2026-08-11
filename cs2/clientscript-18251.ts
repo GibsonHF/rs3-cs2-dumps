@@ -2,27 +2,27 @@
 function script18251(int0: number, int1: number, int2: number): void {
     var int3 = script6431();
     var int4 = struct_getparam(int1, 8682);
-    IF_SETHIDE(false, comp(1343, 46));
-    IF_SETHIDE(false, comp(1343, 47));
-    IF_SETHIDE(false, comp(1343, 43));
-    IF_SETHIDE(false, comp(1343, 56));
-    IF_SETHIDE(false, comp(1343, 59));
-    IF_SETHIDE(true, comp(1343, 79));
-    IF_SETHIDE(true, comp(1343, 80));
-    IF_SETHIDE(PLAYERMEMBER(), comp(1343, 170));
-    IF_SETTEXT(script17039(int1), comp(1343, 45));
-    IF_SETSIZE(35, 35, 0, 0, comp(1343, 52));
-    IF_SETGRAPHIC(struct_getparam(int1, 1271), comp(1343, 52));
+    IF_SETHIDE(false, comp(1343, 46));  // jobs_main:pin_layer
+    IF_SETHIDE(false, comp(1343, 47));  // jobs_main:tele_layer
+    IF_SETHIDE(false, comp(1343, 43));  // jobs_main:objectives_layer
+    IF_SETHIDE(false, comp(1343, 56));  // jobs_main:rewards_layer
+    IF_SETHIDE(false, comp(1343, 59));  // jobs_main:buttons_layer
+    IF_SETHIDE(true, comp(1343, 79));  // jobs_main:extra_info_layer
+    IF_SETHIDE(true, comp(1343, 80));  // jobs_main:feedback_layer
+    IF_SETHIDE(PLAYERMEMBER(), comp(1343, 170));  // jobs_main:membership_button
+    IF_SETTEXT(script17039(int1), comp(1343, 45));  // jobs_main:job_name
+    IF_SETSIZE(35, 35, 0, 0, comp(1343, 52));  // jobs_main:info_skill_icon
+    IF_SETGRAPHIC(struct_getparam(int1, 1271), comp(1343, 52));  // jobs_main:info_skill_icon
     var string0 = struct_getparam(int1, 1274);
     if (((int3 == 1) && (STRING_LENGTH(struct_getparam(int1, 8082)) > 0))) {
         string0 = struct_getparam(int1, 8082);
     };
     script16248(string0, 88014902, -1);
-    IF_SETHIDE(true, comp(1343, 30));
+    IF_SETHIDE(true, comp(1343, 30));  // jobs_main:reward_layer
     script18255();
-    IF_SETONVARTRANSMIT(callback(script18254, 10298, 3232, 3233, 4767, 4767, 4767, 4767, 4767, 4767, 4767, 4767, 4767, 4767, 3240, 3241, 3242, 3243, 3244, 18), comp(1343, 59));
+    IF_SETONVARTRANSMIT(callback(script18254, 10298, 3232, 3233, 4767, 4767, 4767, 4767, 4767, 4767, 4767, 4767, 4767, 4767, 3240, 3241, 3242, 3243, 3244, 18), comp(1343, 59));  // jobs_main:buttons_layer
     script18253(int1, int2);
-    IF_SETONVARTRANSMIT(callback(script18252, int1, int2, 6901, 6902, 1269, 8738, 8739, 5), comp(1343, 69));
+    IF_SETONVARTRANSMIT(callback(script18252, int1, int2, 6901, 6902, 1269, 8738, 8739, 5), comp(1343, 69));  // jobs_main:track_button
     var string1 = "";
     if ((((PLAYERMEMBER() == 1) && (script4148() == 0)) && (script16840(script12477(), 5) == 0))) {
         if ((STRING_LENGTH(string1) > 0)) {
@@ -92,9 +92,9 @@ function script18251(int0: number, int1: number, int2: number): void {
             if (((int8 >= int7) && (script18262(int2) == 1))) {
                 int9 = script3561(-2);
             };
-            IF_SETOBJECT_NONUM(32092 as obj, 0, comp(1343, 76));
+            IF_SETOBJECT_NONUM(32092 as obj, 0, comp(1343, 76));  // jobs_main:extend_object
             script16248(string4, 88014924, -1);
-            IF_SETOBJECT_NONUM(32092 as obj, 0, comp(1343, 65));
+            IF_SETOBJECT_NONUM(32092 as obj, 0, comp(1343, 65));  // jobs_main:reroll_object
             script16248(string4, 88014913, -1);
             string3 = "The number of daily challenge tokens in your currency pouch.";
             string3 = strconcat(string3, "<br>");
@@ -113,25 +113,25 @@ function script18251(int0: number, int1: number, int2: number): void {
     if ((STRING_LENGTH(string1) == 0)) {
         string1 = "None";
     };
-    IF_SETTEXT(string1, comp(1343, 68));
+    IF_SETTEXT(string1, comp(1343, 68));  // jobs_main:rewards
     string3 = "When you've completed a challenge, press the Claim Rewards button or hand in your challenge to a Challenge Mistress for your reward.";
     if ((int9 != -1)) {
-        IF_SETHIDE(false, comp(1343, 53));
-        IF_SETGRAPHIC(int9, comp(1343, 53));
+        IF_SETHIDE(false, comp(1343, 53));  // jobs_main:info_daily_stamp
+        IF_SETGRAPHIC(int9, comp(1343, 53));  // jobs_main:info_daily_stamp
         if ((int9 == script3561(-2))) {
             string3 = "You've completed this challenge!<br>Press the Claim Rewards button or hand in your challenge to a Challenge Mistress for your reward.";
         };
         script16248(string3, 88014901, -1);
     } else {
-        IF_SETHIDE(true, comp(1343, 53));
+        IF_SETHIDE(true, comp(1343, 53));  // jobs_main:info_daily_stamp
     };
-    IF_SETTEXT(string2, comp(1343, 54));
-    IF_SETHIDE(false, comp(1343, 50));
-    IF_SETTEXT(`${inttostring(int8, 10)} / ${inttostring(int7, 10)}`, comp(1343, 55));
+    IF_SETTEXT(string2, comp(1343, 54));  // jobs_main:job_desc
+    IF_SETHIDE(false, comp(1343, 50));  // jobs_main:progress_layer
+    IF_SETTEXT(`${inttostring(int8, 10)} / ${inttostring(int7, 10)}`, comp(1343, 55));  // jobs_main:progress_bar_text
     if ((int7 != 0)) {
-        IF_SETSIZE(SCALE(int8, int7, 16384), 16384, 2, 2, comp(1343, 111));
+        IF_SETSIZE(SCALE(int8, int7, 16384), 16384, 2, 2, comp(1343, 111));  // jobs_main:progress_bar_value_layer
     } else {
-        IF_SETSIZE(16384, 16384, 2, 2, comp(1343, 111));
+        IF_SETSIZE(16384, 16384, 2, 2, comp(1343, 111));  // jobs_main:progress_bar_value_layer
     };
     script16248("Shows your progress in your current challenge.", 88014956, -1);
     return;

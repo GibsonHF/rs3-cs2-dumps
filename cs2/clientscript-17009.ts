@@ -1,6 +1,6 @@
 //
 function script17009(): void {
-    if ((IF_GETHIDE(comp(1253, 453)) == false)) {
+    if ((IF_GETHIDE(comp(1253, 453)) == false)) {  // wheel_of_fortune:trh_promo_info_popup_layer
         script15690();
     };
     script18480();

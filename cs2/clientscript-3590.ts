@@ -4,6 +4,6 @@ function script3590(int0: number): void {
         return;
     };
     IF_SETCOLOUR(16777215, int0);
-    IF_SETHIDE(true, comp(612, 4));
+    IF_SETHIDE(true, comp(612, 4));  // farming_rep:info_layer
     return;
 }

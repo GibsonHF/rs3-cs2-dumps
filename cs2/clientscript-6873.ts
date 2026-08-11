@@ -10,7 +10,7 @@ function script6873(): void {
     if (((int0 != -1 as cs2enum) && (int1 != -1 as cs2enum))) {
         int4 = ENUM_GETOUTPUTCOUNT(int0);
         while ((int3 < int4)) {
-            CC_CREATE(comp(1311, 504), 3, int5);
+            CC_CREATE(comp(1311, 504), 3, int5);  // mtxmgt:colours
             CC_SETSIZE(18, 18, 0, 0);
             if ((MODULO(int3, 2) == 0)) {
                 CC_SETPOSITION(5, (35 + (int3 * 12)), 0, 0);
@@ -24,7 +24,7 @@ function script6873(): void {
                 CC_SETOP(2, "Select-secondary-colour");
             };
             int5 = (int5 + 1);
-            CC_CREATE(comp(1311, 504), 5, int5);
+            CC_CREATE(comp(1311, 504), 5, int5);  // mtxmgt:colours
             if ((MODULO(int3, 2) == 0)) {
                 CC_SETPOSITION(4, (34 + (int3 * 12)), 0, 0);
             } else {

@@ -49,7 +49,7 @@ function script6978(): void {
             break;
         }
         case 3451: {
-            if (((varbitplayer_22147 > 0) || (IF_GETHIDE(comp(485, 9)) == false))) {
+            if (((varbitplayer_22147 > 0) || (IF_GETHIDE(comp(485, 9)) == false))) {  // trh181_overlay:gemfall_layer
                 int1 = 1;
             };
             break;
@@ -186,19 +186,19 @@ function script6978(): void {
         script6974();
         return;
     };
-    IF_SETHIDE(true, comp(1253, 171));
-    IF_SETHIDE(true, comp(1253, 265));
-    IF_SETHIDE(false, comp(1253, 91));
+    IF_SETHIDE(true, comp(1253, 171));  // wheel_of_fortune:ticker_tape_viewport
+    IF_SETHIDE(true, comp(1253, 265));  // wheel_of_fortune:reward_layer
+    IF_SETHIDE(false, comp(1253, 91));  // wheel_of_fortune:play_again_layer
     if ((int0 == 39853)) {
         varclient_7076 = false;
     } else {
-        IF_SETHIDE(false, comp(1253, 8));
+        IF_SETHIDE(false, comp(1253, 8));  // wheel_of_fortune:chests_layer
     };
-    IF_SETHIDE(true, comp(1253, 69));
-    IF_SETHIDE(true, comp(1253, 70));
-    IF_SETHIDE(true, comp(1253, 72));
-    IF_SETHIDE(false, comp(1253, 93));
-    IF_SETHIDE(true, comp(1253, 89));
+    IF_SETHIDE(true, comp(1253, 69));  // wheel_of_fortune:info_icon
+    IF_SETHIDE(true, comp(1253, 70));  // wheel_of_fortune:info_icon_holder
+    IF_SETHIDE(true, comp(1253, 72));  // wheel_of_fortune:countdown_text
+    IF_SETHIDE(false, comp(1253, 93));  // wheel_of_fortune:play_again_popout
+    IF_SETHIDE(true, comp(1253, 89));  // wheel_of_fortune:foreground_layer
     script2622(82116712, -269, 269, 260, 0);
     script2624(82116708, 0, 255, 50, 0);
     script2624(82116709, 100, 255, 50, 0);
@@ -207,9 +207,9 @@ function script6978(): void {
     if ((((int0 != -1) && (struct_getparam(int0, 8340) == true)) && (struct_getparam(int0, 8362) == true))) {
         int2 = -40;
     };
-    IF_SETPOSITION(IF_GETX(comp(1253, 97)), int2, 0, 1, comp(1253, 97));
-    IF_SETPOSITION(IF_GETX(comp(1253, 105)), int2, 0, 1, comp(1253, 105));
-    IF_SETPOSITION(IF_GETX(comp(1253, 108)), int2, 0, 1, comp(1253, 108));
+    IF_SETPOSITION(IF_GETX(comp(1253, 97)), int2, 0, 1, comp(1253, 97));  // wheel_of_fortune:out_of_keys_buy_keys_layer
+    IF_SETPOSITION(IF_GETX(comp(1253, 105)), int2, 0, 1, comp(1253, 105));  // wheel_of_fortune:out_of_keys_use_bonds_layer
+    IF_SETPOSITION(IF_GETX(comp(1253, 108)), int2, 0, 1, comp(1253, 108));  // wheel_of_fortune:out_of_keys_earn_keys_layer
     script3904();
     script10877();
     varclient_4083 = 5;
@@ -224,6 +224,6 @@ function script6978(): void {
     } else {
         string0 = "You have no Bonds available.";
     };
-    IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -1), comp(1253, 105));
+    IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -1), comp(1253, 105));  // wheel_of_fortune:out_of_keys_use_bonds_layer
     return;
 }

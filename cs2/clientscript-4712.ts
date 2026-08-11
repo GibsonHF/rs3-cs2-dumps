@@ -17,8 +17,8 @@ function script4712(): void {
             int1 = (int1 - int2);
         };
     };
-    IF_SETPOSITION(0, int0, 1, 2, comp(1775, 57));
-    IF_SETPOSITION(0, int1, 1, 2, comp(1775, 66));
-    IF_SETPOSITION(0, int2, 1, 2, comp(1775, 75));
+    IF_SETPOSITION(0, int0, 1, 2, comp(1775, 57));  // newplayer_prompt:newplayer_new_button_layer
+    IF_SETPOSITION(0, int1, 1, 2, comp(1775, 66));  // newplayer_prompt:newplayer_return_button_layer
+    IF_SETPOSITION(0, int2, 1, 2, comp(1775, 75));  // newplayer_prompt:newplayer_recent_button_layer
     return;
 }

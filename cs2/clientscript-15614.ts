@@ -1,7 +1,7 @@
 //
 function script15614(int0: number): void {
     var string0 = "";
-    if ((IF_GETHIDE(comp(906, 151)) == true)) {
+    if ((IF_GETHIDE(comp(906, 151)) == true)) {  // lobbyscreen:popup
         switch (varclient_6885) {
             case 0: {
                 if ((script13749() == 1)) {

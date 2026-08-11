@@ -2,8 +2,8 @@
 function script1009(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number, string0: string, string1: string): void {
     var string2 = "You can only remove this animal from the 'Check Animals' tab while it has produce to gather.";
     if ((int6 > 1)) {
-        if ((strcmp(IF_GETTEXT(comp(90, 54)), string0) == 0)) {
-            IF_SETHIDE(true, comp(90, 43));
+        if ((strcmp(IF_GETTEXT(comp(90, 54)), string0) == 0)) {  // pof_animal:showstats_name
+            IF_SETHIDE(true, comp(90, 43));  // pof_animal:showstats_layer
         };
         return;
     };
@@ -48,35 +48,35 @@ function script1009(int0: number, int1: number, int2: number, int3: number, int4
     if ((int12 != -1 as struct)) {
         string7 = struct_getparam(int12, 7456);
     };
-    IF_SETHIDE(false, comp(90, 43));
-    IF_SETNPCMODEL(int0, comp(90, 45));
-    IF_SETMODELANIM(BAS_GETANIM_READY(npc_getparam(int0, 3857)), comp(90, 45));
-    IF_SETMODELZOOM(int4, comp(90, 45));
-    IF_SETMODELANGLE(0, 0, npc_getparam(int0, 3864), npc_getparam(int0, 3865), 0, int4, comp(90, 45));
-    IF_SETTEXT(string0, comp(90, 54));
-    IF_SETTEXT(string1, comp(90, 55));
-    IF_SETTEXT(string3, comp(90, 57));
-    IF_SETTEXT(string4, comp(90, 56));
-    IF_SETTEXT(string5, comp(90, 48));
-    IF_SETTEXT(string6, comp(90, 49));
-    IF_SETTEXT(string7, comp(90, 50));
+    IF_SETHIDE(false, comp(90, 43));  // pof_animal:showstats_layer
+    IF_SETNPCMODEL(int0, comp(90, 45));  // pof_animal:showstats_model
+    IF_SETMODELANIM(BAS_GETANIM_READY(npc_getparam(int0, 3857)), comp(90, 45));  // pof_animal:showstats_model
+    IF_SETMODELZOOM(int4, comp(90, 45));  // pof_animal:showstats_model
+    IF_SETMODELANGLE(0, 0, npc_getparam(int0, 3864), npc_getparam(int0, 3865), 0, int4, comp(90, 45));  // pof_animal:showstats_model
+    IF_SETTEXT(string0, comp(90, 54));  // pof_animal:showstats_name
+    IF_SETTEXT(string1, comp(90, 55));  // pof_animal:showstats_growthstage
+    IF_SETTEXT(string3, comp(90, 57));  // pof_animal:showstats_breed
+    IF_SETTEXT(string4, comp(90, 56));  // pof_animal:showstats_gender
+    IF_SETTEXT(string5, comp(90, 48));  // pof_animal:showstats_trait1
+    IF_SETTEXT(string6, comp(90, 49));  // pof_animal:showstats_trait2
+    IF_SETTEXT(string7, comp(90, 50));  // pof_animal:showstats_trait3
     if ((INV_GETVAR(int1, int2, 48837) == 1)) {
-        IF_SETGRAPHIC(15217 as graphic, comp(90, 181));
-        IF_SETGRAPHIC(15217 as graphic, comp(90, 182));
+        IF_SETGRAPHIC(15217 as graphic, comp(90, 181));  // pof_animal:showstats_favourite_pen_icon
+        IF_SETGRAPHIC(15217 as graphic, comp(90, 182));  // pof_animal:showstats_favourite_inv_icon
     } else {
-        IF_SETGRAPHIC(15218 as graphic, comp(90, 181));
-        IF_SETGRAPHIC(15218 as graphic, comp(90, 182));
+        IF_SETGRAPHIC(15218 as graphic, comp(90, 181));  // pof_animal:showstats_favourite_pen_icon
+        IF_SETGRAPHIC(15218 as graphic, comp(90, 182));  // pof_animal:showstats_favourite_inv_icon
     };
     if ((int5 == 1)) {
-        IF_SETHIDE(false, comp(90, 60));
-        IF_SETHIDE(true, comp(90, 59));
-        IF_SETHIDE(true, comp(90, 51));
-        IF_SETHIDE(false, comp(90, 52));
+        IF_SETHIDE(false, comp(90, 60));  // pof_animal:showstats_add_button
+        IF_SETHIDE(true, comp(90, 59));  // pof_animal:showstats_remove_button
+        IF_SETHIDE(true, comp(90, 51));  // pof_animal:showstats_favourite_pen_layer
+        IF_SETHIDE(false, comp(90, 52));  // pof_animal:showstats_favourite_inv_layer
     } else {
-        IF_SETHIDE(true, comp(90, 60));
-        IF_SETHIDE(false, comp(90, 59));
-        IF_SETHIDE(false, comp(90, 51));
-        IF_SETHIDE(true, comp(90, 52));
+        IF_SETHIDE(true, comp(90, 60));  // pof_animal:showstats_add_button
+        IF_SETHIDE(false, comp(90, 59));  // pof_animal:showstats_remove_button
+        IF_SETHIDE(false, comp(90, 51));  // pof_animal:showstats_favourite_pen_layer
+        IF_SETHIDE(true, comp(90, 52));  // pof_animal:showstats_favourite_inv_layer
     };
     return;
 }

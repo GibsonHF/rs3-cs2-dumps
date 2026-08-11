@@ -25,64 +25,64 @@ function script5444(int0: number): void {
     var int17 = -1;
     var int18 = -1;
     varclient_1681 = 0;
-    IF_SETGRAPHIC(8430 as graphic, comp(1168, 28));
-    IF_SETGRAPHIC(8430 as graphic, comp(1168, 27));
-    IF_SETGRAPHIC(8430 as graphic, comp(1168, 26));
-    IF_SETGRAPHIC(8430 as graphic, comp(1168, 25));
-    IF_SETGRAPHIC(8430 as graphic, comp(1168, 24));
-    IF_SETGRAPHIC(8430 as graphic, comp(1168, 23));
-    IF_SETTEXT("Please select a monster.", comp(1168, 103));
-    IF_SETTEXT("", comp(1168, 2));
-    IF_SETCOLOUR(16101953, comp(1168, 77));
-    IF_SETCOLOUR(16101953, comp(1168, 80));
-    IF_SETCOLOUR(16101953, comp(1168, 82));
-    IF_SETCOLOUR(16101953, comp(1168, 81));
-    IF_SETCOLOUR(16101953, comp(1168, 83));
-    IF_SETCOLOUR(16101953, comp(1168, 84));
-    IF_SETCOLOUR(16101953, comp(1168, 85));
-    IF_SETCOLOUR(16101953, comp(1168, 99));
-    IF_SETCOLOUR(16101953, comp(1168, 369));
-    IF_SETCOLOUR(16101953, comp(1168, 370));
+    IF_SETGRAPHIC(8430 as graphic, comp(1168, 28));  // dom_free:border_1
+    IF_SETGRAPHIC(8430 as graphic, comp(1168, 27));  // dom_free:border_2
+    IF_SETGRAPHIC(8430 as graphic, comp(1168, 26));  // dom_free:border_3
+    IF_SETGRAPHIC(8430 as graphic, comp(1168, 25));  // dom_free:border_4
+    IF_SETGRAPHIC(8430 as graphic, comp(1168, 24));  // dom_free:border_5
+    IF_SETGRAPHIC(8430 as graphic, comp(1168, 23));  // dom_free:border_6
+    IF_SETTEXT("Please select a monster.", comp(1168, 103));  // dom_free:boss_info_text
+    IF_SETTEXT("", comp(1168, 2));  // dom_free:boss_name
+    IF_SETCOLOUR(16101953, comp(1168, 77));  // dom_free:class_text_a
+    IF_SETCOLOUR(16101953, comp(1168, 80));  // dom_free:class_text_b
+    IF_SETCOLOUR(16101953, comp(1168, 82));  // dom_free:class_text_c
+    IF_SETCOLOUR(16101953, comp(1168, 81));  // dom_free:class_text_d
+    IF_SETCOLOUR(16101953, comp(1168, 83));  // dom_free:class_text_e
+    IF_SETCOLOUR(16101953, comp(1168, 84));  // dom_free:class_text_f
+    IF_SETCOLOUR(16101953, comp(1168, 85));  // dom_free:class_text_g
+    IF_SETCOLOUR(16101953, comp(1168, 99));  // dom_free:class_text_h
+    IF_SETCOLOUR(16101953, comp(1168, 369));  // dom_free:class_text_x1
+    IF_SETCOLOUR(16101953, comp(1168, 370));  // dom_free:class_text_x2
     varclient_1680 = int0;
     switch (int0) {
         case 1: {
-            IF_SETCOLOUR(16777215, comp(1168, 77));
+            IF_SETCOLOUR(16777215, comp(1168, 77));  // dom_free:class_text_a
             break;
         }
         case 2: {
-            IF_SETCOLOUR(16777215, comp(1168, 80));
+            IF_SETCOLOUR(16777215, comp(1168, 80));  // dom_free:class_text_b
             break;
         }
         case 3: {
-            IF_SETCOLOUR(16777215, comp(1168, 82));
+            IF_SETCOLOUR(16777215, comp(1168, 82));  // dom_free:class_text_c
             break;
         }
         case 4: {
-            IF_SETCOLOUR(16777215, comp(1168, 81));
+            IF_SETCOLOUR(16777215, comp(1168, 81));  // dom_free:class_text_d
             break;
         }
         case 5: {
-            IF_SETCOLOUR(16777215, comp(1168, 83));
+            IF_SETCOLOUR(16777215, comp(1168, 83));  // dom_free:class_text_e
             break;
         }
         case 6: {
-            IF_SETCOLOUR(16777215, comp(1168, 84));
+            IF_SETCOLOUR(16777215, comp(1168, 84));  // dom_free:class_text_f
             break;
         }
         case 7: {
-            IF_SETCOLOUR(16777215, comp(1168, 85));
+            IF_SETCOLOUR(16777215, comp(1168, 85));  // dom_free:class_text_g
             break;
         }
         case 8: {
-            IF_SETCOLOUR(16777215, comp(1168, 99));
+            IF_SETCOLOUR(16777215, comp(1168, 99));  // dom_free:class_text_h
             break;
         }
         case 9: {
-            IF_SETCOLOUR(16777215, comp(1168, 369));
+            IF_SETCOLOUR(16777215, comp(1168, 369));  // dom_free:class_text_x1
             break;
         }
         case 10: {
-            IF_SETCOLOUR(16777215, comp(1168, 370));
+            IF_SETCOLOUR(16777215, comp(1168, 370));  // dom_free:class_text_x2
             break;
         }
     };
@@ -110,12 +110,12 @@ function script5444(int0: number): void {
     int16 = struct_getparam(int4, 2101);
     int17 = struct_getparam(int5, 2101);
     int18 = struct_getparam(int6, 2101);
-    IF_SETGRAPHIC(int13, comp(1168, 17));
-    IF_SETGRAPHIC(int14, comp(1168, 18));
-    IF_SETGRAPHIC(int15, comp(1168, 19));
-    IF_SETGRAPHIC(int16, comp(1168, 20));
-    IF_SETGRAPHIC(int17, comp(1168, 21));
-    IF_SETGRAPHIC(int18, comp(1168, 22));
+    IF_SETGRAPHIC(int13, comp(1168, 17));  // dom_free:boss_icon_1
+    IF_SETGRAPHIC(int14, comp(1168, 18));  // dom_free:boss_icon_2
+    IF_SETGRAPHIC(int15, comp(1168, 19));  // dom_free:boss_icon_3
+    IF_SETGRAPHIC(int16, comp(1168, 20));  // dom_free:boss_icon_4
+    IF_SETGRAPHIC(int17, comp(1168, 21));  // dom_free:boss_icon_5
+    IF_SETGRAPHIC(int18, comp(1168, 22));  // dom_free:boss_icon_6
     if ((script5451(int7) == 1)) {
         script5445(0, string0, 76546078, 76546079, 1);
     } else {

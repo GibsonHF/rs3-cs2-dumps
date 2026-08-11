@@ -31,36 +31,36 @@ function script6284(int0: number): void {
         int1 = 11240 as graphic;
         string0 = "";
     };
-    if ((CC_FIND(comp(1296, 14), 0) == 1)) {
+    if ((CC_FIND(comp(1296, 14), 0) == 1)) {  // cruc_battle_overlay:face_layer
         if ((int1 != -1 as graphic)) {
             int2 = CC_GETGRAPHIC();
             if ((int2 == int1)) {
                 return;
             };
-            IF_SETHIDE(false, comp(1296, 15));
+            IF_SETHIDE(false, comp(1296, 15));  // cruc_battle_overlay:supreme_frame
             if ((int0 != 6)) {
-                IF_SETTEXT("<br>Supreme Champions:<br>None", comp(1296, 0));
-                IF_SETHIDE(true, comp(1296, 10));
-                IF_SETSCROLLSIZE(0, 24, comp(1296, 9));
+                IF_SETTEXT("<br>Supreme Champions:<br>None", comp(1296, 0));  // cruc_battle_overlay:name_list
+                IF_SETHIDE(true, comp(1296, 10));  // cruc_battle_overlay:scroll_layer
+                IF_SETSCROLLSIZE(0, 24, comp(1296, 9));  // cruc_battle_overlay:name_scroll_layer
             };
-            IF_SETTEXT(string0, comp(1296, 18));
+            IF_SETTEXT(string0, comp(1296, 18));  // cruc_battle_overlay:timer_text
             CC_SETGRAPHIC(int1);
-            CC_CREATE(comp(1296, 14), 5, 1);
+            CC_CREATE(comp(1296, 14), 5, 1);  // cruc_battle_overlay:face_layer
             CC_SETGRAPHIC(int2);
             CC_SETSIZE(50, 50, 0, 0);
             CC_SETPOSITION(0, 0, 4, 4);
-            IF_SETONTIMER(callback(script6285, 1), comp(1296, 14));
+            IF_SETONTIMER(callback(script6285, 1), comp(1296, 14));  // cruc_battle_overlay:face_layer
         } else {
             CC_SETGRAPHIC(-1 as graphic);
-            IF_SETHIDE(true, comp(1296, 15));
+            IF_SETHIDE(true, comp(1296, 15));  // cruc_battle_overlay:supreme_frame
             varclient_1931 = 0;
-            IF_SETHIDE(true, comp(1296, 1));
-            IF_SET2DANGLE(0, comp(1296, 4));
+            IF_SETHIDE(true, comp(1296, 1));  // cruc_battle_overlay:dropdown_list_layer
+            IF_SET2DANGLE(0, comp(1296, 4));  // cruc_battle_overlay:dropdown_arrow
         };
     } else if ((int1 != -1 as graphic)) {
-        IF_SETHIDE(false, comp(1296, 15));
-        IF_SETTEXT(string0, comp(1296, 18));
-        CC_CREATE(comp(1296, 14), 5, 0);
+        IF_SETHIDE(false, comp(1296, 15));  // cruc_battle_overlay:supreme_frame
+        IF_SETTEXT(string0, comp(1296, 18));  // cruc_battle_overlay:timer_text
+        CC_CREATE(comp(1296, 14), 5, 0);  // cruc_battle_overlay:face_layer
         CC_SETGRAPHIC(int1);
         CC_SETSIZE(50, 50, 0, 0);
         CC_SETPOSITION(0, 0, 4, 4);

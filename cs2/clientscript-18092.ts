@@ -1,6 +1,6 @@
 //
 function script18092(int0: number, int1: number, int2: number, int3: number): [number, number] {
-    var int4 = comp(1226, 67);
+    var int4 = comp(1226, 67);  // bp3_missions_tab:skill_selection_panel_holder
     var int5 = (9 * int0);
     var int6 = 2;
     var int7 = -1 as stat;

@@ -10,7 +10,7 @@ function script16059(int0: number, int1: number, int2: number): void {
         };
         int6 = script16060(int6, varbitclient_50190, int4);
         if ((int6 < 1)) {
-            IF_SETHIDE(true, comp(863, 67));
+            IF_SETHIDE(true, comp(863, 67));  // egwd_wen_boss_loot:loot_continue_button_disabled_layer
             IF_SET2DANGLE(0, int1);
             IF_SET2DANGLE(0, int2);
             return;

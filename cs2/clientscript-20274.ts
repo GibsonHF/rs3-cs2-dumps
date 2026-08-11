@@ -1,7 +1,7 @@
 //
 function script20274(int0: number): void {
-    var int1 = comp(1480, 4);
-    var int2 = comp(1480, 5);
+    var int1 = comp(1480, 4);  // league_relic_teleport_list:button_layer
+    var int2 = comp(1480, 5);  // league_relic_teleport_list:category_title_layer
     CC_DELETEALL(int1);
     CC_DELETEALL(int2);
     var int3 = DB_GETFIELDCOUNT(int0, 1380352);

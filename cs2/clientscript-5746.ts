@@ -30,15 +30,15 @@ function script5746(int0: number, int1: number, int2: number, int3: number): voi
         string0 = "You have completed this challenge for this week. Check the minigames tracker in the adventures interface to see when it will reset.";
     } else {
         if ((struct_getparam(int7, 6453) == true)) {
-            IF_SETHIDE(true, comp(1867, 53));
-            IF_SETHIDE(false, comp(1867, 52));
-            IF_SETONMOUSEREPEAT(callback(), comp(1867, 53));
+            IF_SETHIDE(true, comp(1867, 53));  // sworld_start:challenge_start_button_disabled_layer
+            IF_SETHIDE(false, comp(1867, 52));  // sworld_start:challenge_start_button_active_layer
+            IF_SETONMOUSEREPEAT(callback(), comp(1867, 53));  // sworld_start:challenge_start_button_disabled_layer
             return;
         };
         string0 = "You cannot start this challenge from this portal. Please use the other portal.";
     };
     script3536(string0, 122355765, -1);
-    IF_SETHIDE(false, comp(1867, 53));
-    IF_SETHIDE(true, comp(1867, 52));
+    IF_SETHIDE(false, comp(1867, 53));  // sworld_start:challenge_start_button_disabled_layer
+    IF_SETHIDE(true, comp(1867, 52));  // sworld_start:challenge_start_button_active_layer
     return;
 }

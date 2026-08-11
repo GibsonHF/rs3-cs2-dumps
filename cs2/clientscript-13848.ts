@@ -4,7 +4,7 @@ function script13848(): void {
     var int1 = 0;
     var int2 = 0;
     var int3 = 2;
-    var int4 = IF_GETWIDTH(comp(567, 15));
+    var int4 = IF_GETWIDTH(comp(567, 15));  // toplevel_v2_ribbon_select:showing_click
     var int5 = 0;
     var int6 = 0;
     var int7 = 0;
@@ -25,7 +25,7 @@ function script13848(): void {
         if ((enum_hasoutput(0, 13319 as cs2enum, int0) == 1)) {
             if ((script19633(int0) == 1)) {
                 int0 = enum_getreverseindex(0, 0, 13319 as cs2enum, int0, 0);
-                if (((CC_FIND(comp(567, 14), int0) == 1) && (CC_FIND[1](comp(567, 15), int0) == 1))) {
+                if (((CC_FIND(comp(567, 14) /*toplevel_v2_ribbon_select:showing_build*/, int0) == 1) && (CC_FIND[1](comp(567, 15) /*toplevel_v2_ribbon_select:showing_click*/, int0) == 1))) {
                     CC_SETHIDE(false);
                     CC_SETPOSITION(int2, int3, 0, 0);
                     CC_SETHIDE[1](false);

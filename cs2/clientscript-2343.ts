@@ -2,6 +2,6 @@
 function script2343(): void {
     varclient_770 = 8;
     CAM_MOVEALONG(0, varclient_770, 500, 900, 1, varclient_770);
-    IF_SETONCAMFINISHED(callback(script2344), comp(558, 0));
+    IF_SETONCAMFINISHED(callback(script2344), comp(558, 0));  // mah1_tutorialsplines:controller
     return;
 }

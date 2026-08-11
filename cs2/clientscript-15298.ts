@@ -12,81 +12,81 @@ function script15298(): void {
     if ((int0 != -1)) {
         string0 = OC_NAME(int0);
     };
-    IF_SETTEXT(string0, comp(271, 5));
+    IF_SETTEXT(string0, comp(271, 5));  // trh171_overlay:prize_name
     if ((int4 == 0)) {
-        IF_SETHIDE(true, comp(271, 6));
+        IF_SETHIDE(true, comp(271, 6));  // trh171_overlay:modifier_icon_wrapper
     } else {
-        IF_SETHIDE(false, comp(271, 6));
+        IF_SETHIDE(false, comp(271, 6));  // trh171_overlay:modifier_icon_wrapper
     };
-    IF_SETGRAPHIC(10348 as graphic, comp(271, 2));
-    IF_SETOBJECT(-1 as obj, -1, comp(271, 3));
-    IF_SETPOSITION(0, 0, 1, 1, comp(271, 4));
+    IF_SETGRAPHIC(10348 as graphic, comp(271, 2));  // trh171_overlay:modifier_icon_gfx
+    IF_SETOBJECT(-1 as obj, -1, comp(271, 3));  // trh171_overlay:modifier_icon_obj
+    IF_SETPOSITION(0, 0, 1, 1, comp(271, 4));  // trh171_overlay:modifier_icon_text
     [string1, string2, int1, int2, int3] = dbrow_getfield(3792 as dbrow, 471040, int4);
     if ((int3 == 1)) {
         int3 = -1;
     };
-    IF_SETTEXTFONT(60 as fontmetrics, comp(271, 4));
-    IF_SETHIDE(true, comp(271, 10));
-    IF_SETHIDE(false, comp(271, 11));
+    IF_SETTEXTFONT(60 as fontmetrics, comp(271, 4));  // trh171_overlay:modifier_icon_text
+    IF_SETHIDE(true, comp(271, 10));  // trh171_overlay:current_item_random
+    IF_SETHIDE(false, comp(271, 11));  // trh171_overlay:reward_current_prize_layer
     switch (int4) {
         case 1: {
-            IF_SETGRAPHIC(10350 as graphic, comp(271, 2));
-            IF_SETTEXT("", comp(271, 4));
-            IF_SETHIDE(false, comp(271, 10));
-            IF_SETHIDE(true, comp(271, 11));
+            IF_SETGRAPHIC(10350 as graphic, comp(271, 2));  // trh171_overlay:modifier_icon_gfx
+            IF_SETTEXT("", comp(271, 4));  // trh171_overlay:modifier_icon_text
+            IF_SETHIDE(false, comp(271, 10));  // trh171_overlay:current_item_random
+            IF_SETHIDE(true, comp(271, 11));  // trh171_overlay:reward_current_prize_layer
             break;
         }
         case 2: {
-            IF_SETTEXT("X2", comp(271, 4));
+            IF_SETTEXT("X2", comp(271, 4));  // trh171_overlay:modifier_icon_text
             break;
         }
         case 3: {
-            IF_SETTEXT("X3", comp(271, 4));
+            IF_SETTEXT("X3", comp(271, 4));  // trh171_overlay:modifier_icon_text
             break;
         }
         case 4: {
-            IF_SETTEXT("X4", comp(271, 4));
+            IF_SETTEXT("X4", comp(271, 4));  // trh171_overlay:modifier_icon_text
             break;
         }
         case 5: {
-            IF_SETTEXT("X5", comp(271, 4));
+            IF_SETTEXT("X5", comp(271, 4));  // trh171_overlay:modifier_icon_text
             break;
         }
         case 6: {
-            IF_SETTEXT("X6", comp(271, 4));
+            IF_SETTEXT("X6", comp(271, 4));  // trh171_overlay:modifier_icon_text
             break;
         }
         case 7: {
-            IF_SETTEXT("X7", comp(271, 4));
+            IF_SETTEXT("X7", comp(271, 4));  // trh171_overlay:modifier_icon_text
             break;
         }
         case 8: {
-            IF_SETTEXT("X8", comp(271, 4));
+            IF_SETTEXT("X8", comp(271, 4));  // trh171_overlay:modifier_icon_text
             break;
         }
         case 9: {
-            IF_SETTEXT("X9", comp(271, 4));
+            IF_SETTEXT("X9", comp(271, 4));  // trh171_overlay:modifier_icon_text
             break;
         }
         case 10: {
-            IF_SETTEXT("X10", comp(271, 4));
+            IF_SETTEXT("X10", comp(271, 4));  // trh171_overlay:modifier_icon_text
             break;
         }
         case 11: {
-            IF_SETGRAPHIC(10351 as graphic, comp(271, 2));
-            IF_SETTEXT("", comp(271, 4));
+            IF_SETGRAPHIC(10351 as graphic, comp(271, 2));  // trh171_overlay:modifier_icon_gfx
+            IF_SETTEXT("", comp(271, 4));  // trh171_overlay:modifier_icon_text
             break;
         }
         case 12: {
-            IF_SETGRAPHIC(10351 as graphic, comp(271, 2));
-            IF_SETTEXT("", comp(271, 4));
+            IF_SETGRAPHIC(10351 as graphic, comp(271, 2));  // trh171_overlay:modifier_icon_gfx
+            IF_SETTEXT("", comp(271, 4));  // trh171_overlay:modifier_icon_text
             break;
         }
         default: {
-            IF_SETOBJECT(int2, int3, comp(271, 3));
-            IF_SETTEXT("+", comp(271, 4));
-            IF_SETTEXTFONT(61 as fontmetrics, comp(271, 4));
-            IF_SETPOSITION(-20, 0, 1, 1, comp(271, 4));
+            IF_SETOBJECT(int2, int3, comp(271, 3));  // trh171_overlay:modifier_icon_obj
+            IF_SETTEXT("+", comp(271, 4));  // trh171_overlay:modifier_icon_text
+            IF_SETTEXTFONT(61 as fontmetrics, comp(271, 4));  // trh171_overlay:modifier_icon_text
+            IF_SETPOSITION(-20, 0, 1, 1, comp(271, 4));  // trh171_overlay:modifier_icon_text
             break;
         }
     };

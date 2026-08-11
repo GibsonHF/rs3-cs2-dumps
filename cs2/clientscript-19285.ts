@@ -8,17 +8,17 @@ function script19285(int0: number): void {
     switch (int0) {
         case 1: {
             int1 = varbitplayer_56173;
-            int2 = comp(1290, 43);
-            int3 = comp(1290, 39);
-            int4 = comp(1290, 218);
+            int2 = comp(1290, 43);  // trh_dungeon_crawl_overlay:bonus_option_1_button_layer
+            int3 = comp(1290, 39);  // trh_dungeon_crawl_overlay:bonus_option_1_button_graphic
+            int4 = comp(1290, 218);  // trh_dungeon_crawl_overlay:bonus_option_1_modifier_layer
             int5 = 84541659;
             break;
         }
         case 2: {
             int1 = varbitplayer_56174;
-            int2 = comp(1290, 182);
-            int3 = comp(1290, 42);
-            int4 = comp(1290, 180);
+            int2 = comp(1290, 182);  // trh_dungeon_crawl_overlay:bonus_option_2_button_layer
+            int3 = comp(1290, 42);  // trh_dungeon_crawl_overlay:bonus_option_2_button_graphic
+            int4 = comp(1290, 180);  // trh_dungeon_crawl_overlay:bonus_option_2_modifier_layer
             int5 = 84541621;
             break;
         }

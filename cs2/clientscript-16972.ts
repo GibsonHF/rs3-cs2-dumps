@@ -1,6 +1,6 @@
 //
 function script16972(): void {
-    IF_SETMODELANIM(35057 as seq, comp(1068, 24));
+    IF_SETMODELANIM(35057 as seq, comp(1068, 24));  // trh188:cauldron_model
     switch (RANDOM(5)) {
         case 0: {
             SOUND_VORBIS_RATE(RANDOM_SOUND_PITCH(35948 as vorbis, 1, 0, 80, 20, 20));

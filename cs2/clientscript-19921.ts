@@ -13,13 +13,13 @@ function script19921(int0: number, int1: number, int2: number, int3: number): vo
     var string0 = "";
     var int13 = 1;
     int4 = 83755014;
-    int5 = comp(1278, 122);
-    int6 = comp(1278, 128);
-    int7 = comp(1278, 124);
-    int8 = comp(1278, 120);
-    int9 = comp(1278, 123);
-    int10 = comp(1278, 125);
-    int11 = comp(1278, 126);
+    int5 = comp(1278, 122);  // trh204_overlay:chest_3_description
+    int6 = comp(1278, 128);  // trh204_overlay:chest_3_click_layer
+    int7 = comp(1278, 124);  // trh204_overlay:chest_3_prize_layer
+    int8 = comp(1278, 120);  // trh204_overlay:chest_3_background
+    int9 = comp(1278, 123);  // trh204_overlay:chest_3_rarity_layer
+    int10 = comp(1278, 125);  // trh204_overlay:chest_3_rarity_corner_graphic
+    int11 = comp(1278, 126);  // trh204_overlay:chest_3_rarity_corner_graphic_flipped
     int13 = 1;
     IF_SETGRAPHIC(34909 as graphic, int8);
     IF_SETHIDE(true, int5);

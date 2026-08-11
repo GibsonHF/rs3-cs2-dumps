@@ -8,7 +8,7 @@ function script8864(): void {
     var int5 = 0;
     var int6 = 0;
     var int7 = 0;
-    if (((IF_HASSUB(struct_getparam(21300, 3505)) == 1) || (IF_HASSUB(comp(1477, 739)) == 1))) {
+    if (((IF_HASSUB(struct_getparam(21300, 3505)) == 1) || (IF_HASSUB(comp(1477, 739)) == 1))) {  // toplevel_v2:side_modal_window_alt_content
         varclient_3692 = 1;
         script7997();
         if (((varbitplayer_27169 == 0) && (script6431() == 0))) {

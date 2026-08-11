@@ -3,7 +3,7 @@ function script11971(int0: number): void {
     if ((varbitclient_30112 > 0)) {
         return;
     };
-    if (((int0 == comp(1706, 24)) || (int0 == comp(1706, 25)))) {
+    if (((int0 == comp(1706, 24) /*tutisland_vault:click_left*/) || (int0 == comp(1706, 25) /*tutisland_vault:click_right*/))) {
         varbitclient_30112 = (varbitclient_30112 + 1);
         IF_TRIGGEROP(int0, -1, 1);
     };

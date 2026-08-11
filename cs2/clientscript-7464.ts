@@ -1,7 +1,7 @@
 //
 function script7464(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number, int8: number, int9: number, int10: number, int11: number): void {
-    IF_SETPOSITION(0, 95, 1, 1, comp(1802, 13));
-    IF_SETHIDE(false, comp(1802, 103));
+    IF_SETPOSITION(0, 95, 1, 1, comp(1802, 13));  // timed_event:progress_layer
+    IF_SETHIDE(false, comp(1802, 103));  // timed_event:event17_skill_layer
     var int12 = 0;
     var int13 = 0;
     var int14 = 0;

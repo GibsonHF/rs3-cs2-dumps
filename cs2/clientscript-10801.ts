@@ -1,9 +1,9 @@
 //
 function script10801(): void {
     script11661(varplayer_5739, 0);
-    var int0 = comp(1562, 2);
-    var int1 = comp(1562, 0);
-    var int2 = comp(1562, 1);
+    var int0 = comp(1562, 2);  // mtxmgt_purchase:header_layer
+    var int1 = comp(1562, 0);  // mtxmgt_purchase:outfit_content_layer
+    var int2 = comp(1562, 1);  // mtxmgt_purchase:outfit_scrollbar_layer
     script10809();
     script10810();
     script11663();

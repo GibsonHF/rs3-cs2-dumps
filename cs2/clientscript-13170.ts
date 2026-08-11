@@ -15,7 +15,7 @@ function script13170(int0: number, int1: number, int2: number, int3: number, int
     var int12 = -1;
     var int13 = -1;
     var int14 = 0;
-    if ((IF_FIND(comp(1843, 183)) == 1)) {
+    if ((IF_FIND(comp(1843, 183)) == 1)) {  // mtxmgt_store:items_layer
         string1 = cc_getparam(5441);
         int10 = cc_getparam(6362);
         pop_array[1](1, cc_getparam(6364));

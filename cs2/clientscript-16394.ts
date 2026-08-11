@@ -5,7 +5,7 @@ function script16394(): void {
     };
     var string0 = script16444(varplayer_8746);
     if ((STRING_LENGTH(string0) == 0)) {
-        IF_SETHIDE(true, comp(955, 8));
+        IF_SETHIDE(true, comp(955, 8));  // uitutorial:box_container
         return;
     };
     var string1 = dbrow_getfield(varplayer_8745, 290816, 0);
@@ -35,22 +35,22 @@ function script16394(): void {
     var int12 = struct_getparam(21217, 3823);
     switch (int11) {
         case 1: {
-            IF_SETHIDE(true, comp(955, 20));
-            IF_SETHIDE(true, comp(955, 17));
+            IF_SETHIDE(true, comp(955, 20));  // uitutorial:close
+            IF_SETHIDE(true, comp(955, 17));  // uitutorial:ok_button
             break;
         }
         case 2: {
-            IF_SETHIDE(true, comp(955, 20));
-            IF_SETHIDE(false, comp(955, 17));
+            IF_SETHIDE(true, comp(955, 20));  // uitutorial:close
+            IF_SETHIDE(false, comp(955, 17));  // uitutorial:ok_button
             break;
         }
         default: {
             if ((int8 <= 1)) {
-                IF_SETHIDE(false, comp(955, 20));
-                IF_SETHIDE(false, comp(955, 17));
+                IF_SETHIDE(false, comp(955, 20));  // uitutorial:close
+                IF_SETHIDE(false, comp(955, 17));  // uitutorial:ok_button
             } else {
-                IF_SETHIDE(false, comp(955, 20));
-                IF_SETHIDE(true, comp(955, 17));
+                IF_SETHIDE(false, comp(955, 20));  // uitutorial:close
+                IF_SETHIDE(true, comp(955, 17));  // uitutorial:ok_button
             };
             break;
         }
@@ -161,15 +161,15 @@ function script16394(): void {
     } else {
         int39 = ((int24 + 10) + int29);
     };
-    if ((IF_GETHIDE(comp(955, 16)) == 0)) {
-        if ((int39 < IF_GETWIDTH(comp(955, 16)))) {
-            int39 = (IF_GETWIDTH(comp(955, 16)) + 30);
+    if ((IF_GETHIDE(comp(955, 16)) == 0)) {  // uitutorial:pages
+        if ((int39 < IF_GETWIDTH(comp(955, 16)))) {  // uitutorial:pages
+            int39 = (IF_GETWIDTH(comp(955, 16)) + 30);  // uitutorial:pages
         };
         int39 = (int39 + 50);
         int40 = (int40 + 123);
-    } else if ((IF_GETHIDE(comp(955, 17)) == 0)) {
-        if ((int39 < IF_GETWIDTH(comp(955, 17)))) {
-            int39 = (IF_GETWIDTH(comp(955, 17)) + 30);
+    } else if ((IF_GETHIDE(comp(955, 17)) == 0)) {  // uitutorial:ok_button
+        if ((int39 < IF_GETWIDTH(comp(955, 17)))) {  // uitutorial:ok_button
+            int39 = (IF_GETWIDTH(comp(955, 17)) + 30);  // uitutorial:ok_button
         };
         int39 = (int39 + 50);
         int40 = (int40 + 123);
@@ -177,17 +177,17 @@ function script16394(): void {
         int39 = (int39 + 50);
         int40 = (int40 + 78);
     };
-    IF_SETSIZE(int39, int40, 0, 0, comp(955, 8));
-    IF_SETPOSITION(0, (int14 + 33), 1, 0, comp(955, 8));
+    IF_SETSIZE(int39, int40, 0, 0, comp(955, 8));  // uitutorial:box_container
+    IF_SETPOSITION(0, (int14 + 33), 1, 0, comp(955, 8));  // uitutorial:box_container
     script19682(62586888);
-    IF_SETHIDE(false, comp(955, 8));
-    if (((STRINGWIDTH(string1, int12) + IF_GETWIDTH(comp(955, 19))) > IF_GETWIDTH(comp(955, 15)))) {
-        IF_SETHIDE(true, comp(955, 19));
+    IF_SETHIDE(false, comp(955, 8));  // uitutorial:box_container
+    if (((STRINGWIDTH(string1, int12) + IF_GETWIDTH(comp(955, 19) /*uitutorial:flashy_icon*/)) > IF_GETWIDTH(comp(955, 15) /*uitutorial:build_layer*/))) {
+        IF_SETHIDE(true, comp(955, 19));  // uitutorial:flashy_icon
     } else {
-        IF_SETHIDE(false, comp(955, 19));
+        IF_SETHIDE(false, comp(955, 19));  // uitutorial:flashy_icon
     };
-    CC_DELETEALL(comp(955, 15));
-    CC_DELETEALL(comp(955, 9));
+    CC_DELETEALL(comp(955, 15));  // uitutorial:build_layer
+    CC_DELETEALL(comp(955, 9));  // uitutorial:arrow_layer
     var int41 = 0;
     if ((int31 > 0)) {
         stack(62586895);
@@ -255,11 +255,11 @@ function script16394(): void {
         };
     };
     script16416(255);
-    IF_SETONTIMER(callback(script16408), comp(955, 6));
+    IF_SETONTIMER(callback(script16408), comp(955, 6));  // uitutorial:main_container
     if ((int9 != -1)) {
-        IF_SETONTIMER(callback(script16400, int39, int40, int5, int6, int9, int10), comp(955, 5));
+        IF_SETONTIMER(callback(script16400, int39, int40, int5, int6, int9, int10), comp(955, 5));  // uitutorial:timer_layer
     } else if ((script6431() == 1)) {
-        IF_SETONTIMER(callback(script16402, int39, int40), comp(955, 5));
+        IF_SETONTIMER(callback(script16402, int39, int40), comp(955, 5));  // uitutorial:timer_layer
     };
     return;
 }

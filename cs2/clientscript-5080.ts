@@ -13,38 +13,38 @@ function script5080(int0: number): void {
     switch (varbitplayer_7078) {
         case 1: {
             if ((varclient_1095 == true)) {
-                IF_SETTEXT("Press 'Confirm' when you've made your choices.", comp(1114, 8));
+                IF_SETTEXT("Press 'Confirm' when you've made your choices.", comp(1114, 8));  // clan_field_setup:status
             } else {
-                IF_SETTEXT("Waiting for the battle's initiator to choose the rules...", comp(1114, 8));
+                IF_SETTEXT("Waiting for the battle's initiator to choose the rules...", comp(1114, 8));  // clan_field_setup:status
             };
             break;
         }
         case 2: {
             if ((varclient_1095 == true)) {
-                IF_SETTEXT("Press 'Confirm' when you've made your choices.", comp(1114, 8));
+                IF_SETTEXT("Press 'Confirm' when you've made your choices.", comp(1114, 8));  // clan_field_setup:status
             } else {
-                IF_SETTEXT(`Waiting for ${varclient_2537} to choose the rules...`, comp(1114, 8));
+                IF_SETTEXT(`Waiting for ${varclient_2537} to choose the rules...`, comp(1114, 8));  // clan_field_setup:status
             };
             break;
         }
         case 3: {
-            IF_SETTEXT("Loading elements...", comp(1114, 8));
+            IF_SETTEXT("Loading elements...", comp(1114, 8));  // clan_field_setup:status
             break;
         }
         case 4: {
-            IF_SETTEXT("Building elements...", comp(1114, 8));
+            IF_SETTEXT("Building elements...", comp(1114, 8));  // clan_field_setup:status
             break;
         }
         case 5: {
-            IF_SETTEXT("Failed to build battlefield.", comp(1114, 8));
+            IF_SETTEXT("Failed to build battlefield.", comp(1114, 8));  // clan_field_setup:status
             break;
         }
         case 6: {
-            IF_SETTEXT("Initialising build mode.", comp(1114, 8));
+            IF_SETTEXT("Initialising build mode.", comp(1114, 8));  // clan_field_setup:status
             break;
         }
         default: {
-            IF_SETTEXT("Loading...", comp(1114, 8));
+            IF_SETTEXT("Loading...", comp(1114, 8));  // clan_field_setup:status
             break;
         }
     };

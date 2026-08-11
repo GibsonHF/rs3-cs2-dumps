@@ -8,7 +8,7 @@ function script11521(int0: number): void {
     while ((int2 < 4)) {
         int3 = 0;
         while ((int3 < 4)) {
-            CC_CREATE(comp(1627, 36), 3, int1);
+            CC_CREATE(comp(1627, 36), 3, int1);  // mtxmgt_colour_overlay:prismatic_sat_val_active
             CC_SETPOSITION((int2 * 16), ((3 - int3) * 16), 0, 0);
             CC_SETSIZE(16, 16, 0, 0);
             CC_SETOP(1, "Select");

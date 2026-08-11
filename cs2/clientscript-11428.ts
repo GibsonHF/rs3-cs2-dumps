@@ -2,9 +2,9 @@
 function script11428(int0: number): void {
     var int1 = 0;
     var int2 = comp(-1, 65535);
-    if ((int0 == comp(284, 18))) {
+    if ((int0 == comp(284, 18))) {  // buff_bar:buff_render_layer
         printmessage("Testing buff bar");
-    } else if ((int0 == comp(291, 1))) {
+    } else if ((int0 == comp(291, 1))) {  // debuff_bar:buff_render_layer
         printmessage("Testing debuff bar");
     };
     if ((IF_FIND(int0) == 1)) {

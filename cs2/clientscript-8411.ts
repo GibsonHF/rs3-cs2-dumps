@@ -86,7 +86,7 @@ function script8411(int0: number, int1: number): void {
     if ((struct_getparam(int2, 3734) == 0)) {
         int37 = 0;
     } else if ((int0 == 1000)) {
-        if ((IF_HASSUBOVERLAY(comp(1477, 31), 1421 as overlayinterface) == 1)) {
+        if ((IF_HASSUBOVERLAY(comp(1477, 31), 1421 as overlayinterface) == 1)) {  // toplevel_v2:render_layer
             int37 = 0;
         } else if ((int0 == 1004)) {
             if ((varbitplayer_60446 == 1)) {
@@ -1368,7 +1368,7 @@ function script8411(int0: number, int1: number): void {
     if ((((int0 == 18) && (varbitplayer_27169 == 1)) && (CC_FIND(int7, 9) == 1))) {
         CC_SETDRAGRENDERBEHAVIOUR(3);
         CC_SETMOUSEOVERCURSOR(190);
-        CC_SETDRAGGABLE(comp(1477, 27), -1);
+        CC_SETDRAGGABLE(comp(1477, 27), -1);  // toplevel_v2:viewport
         CC_SETDRAGDEADTIME(1);
         CC_SETDRAGDEADZONE(1);
         CC_SETONDRAG(callback(script9948, int0, -2147483646, 0));

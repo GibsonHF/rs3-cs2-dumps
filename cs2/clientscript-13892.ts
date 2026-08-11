@@ -15,8 +15,8 @@ function script13892(): void {
     };
     varbitclient_19930 = 191;
     script8411(1002, 0);
-    IF_SETHIDE(false, comp(276, 16));
-    var int10 = IF_GETHEIGHT(comp(276, 16));
+    IF_SETHIDE(false, comp(276, 16));  // toplevel_v2_mobile:settings_mobile
+    var int10 = IF_GETHEIGHT(comp(276, 16));  // toplevel_v2_mobile:settings_mobile
     IF_SETSIZE(50, int10, 0, 1, struct_getparam(38884, 3503));
     var int11 = 0;
     var int12 = 0;
@@ -62,12 +62,12 @@ function script13892(): void {
                             }
                             case 1009: {
                                 CC_SETSIZE((((script11319() + 1) * 6) + 10), (((script11319() + 1) * 1) + 10), 0, 0);
-                                CC_SETPOSITION((0 - (6 + (CC_GETWIDTH() / 2))), (IF_GETY(comp(1923, 5)) - (CC_GETHEIGHT() + 4)), 1, 0);
+                                CC_SETPOSITION((0 - (6 + (CC_GETWIDTH() / 2))), (IF_GETY(comp(1923, 5)) - (CC_GETHEIGHT() + 4)), 1, 0);  // toplevel_v2_combat_bar_mobile:stat_globes
                                 break;
                             }
                             case 1038: {
                                 CC_SETSIZE((((script11319() + 1) * 6) + 10), (((script11319() + 1) * 1) + 10), 0, 0);
-                                CC_SETPOSITION((((CC_GETWIDTH() / 2) + 1) - 6), (IF_GETY(comp(1923, 5)) - (CC_GETHEIGHT() + 4)), 1, 0);
+                                CC_SETPOSITION((((CC_GETWIDTH() / 2) + 1) - 6), (IF_GETY(comp(1923, 5)) - (CC_GETHEIGHT() + 4)), 1, 0);  // toplevel_v2_combat_bar_mobile:stat_globes
                                 break;
                             }
                             case 1006: {
@@ -191,7 +191,7 @@ function script13892(): void {
                             case 32: {
                                 CC_SETPOSITION(0, 185, 0, 0);
                                 script15870();
-                                if (((varbitclient_44897 == 1) || (IF_GETHIDE(comp(276, 27)) == false))) {
+                                if (((varbitclient_44897 == 1) || (IF_GETHIDE(comp(276, 27)) == false))) {  // toplevel_v2_mobile:chat_panel
                                     int9 = true;
                                 };
                                 script10162();
@@ -199,26 +199,26 @@ function script13892(): void {
                                 break;
                             }
                             case 1036: {
-                                CC_SETPOSITION(((8 + IF_GETX(comp(279, 21))) + IF_GETWIDTH(comp(279, 21))), IF_GETY(comp(279, 21)), 0, 0);
+                                CC_SETPOSITION(((8 + IF_GETX(comp(279, 21))) + IF_GETWIDTH(comp(279, 21))), IF_GETY(comp(279, 21)), 0, 0);  // mobile_ribbon_left:secondary_event_hud_hide
                                 break;
                             }
                             case 1051: {
-                                CC_SETPOSITION(((70 + IF_GETX(comp(279, 10))) + IF_GETWIDTH(comp(279, 10))), 0, 0, 0);
+                                CC_SETPOSITION(((70 + IF_GETX(comp(279, 10))) + IF_GETWIDTH(comp(279, 10))), 0, 0, 0);  // mobile_ribbon_left:activity_tracker_wrapper
                                 break;
                             }
                             case 18: {
-                                if ((IF_GETHIDE(comp(276, 27)) == true)) {
+                                if ((IF_GETHIDE(comp(276, 27)) == true)) {  // toplevel_v2_mobile:chat_panel
                                     CC_SETPOSITION(0, 82, 0, 0);
                                     CC_SETSIZE(300, 100, 0, 0);
                                 } else {
                                     CC_SETPOSITION(script3365(56164380), script3366(56164380), 0, 0);
-                                    CC_SETSIZE(IF_GETWIDTH(comp(857, 28)), IF_GETHEIGHT(comp(857, 28)), 0, 0);
+                                    CC_SETSIZE(IF_GETWIDTH(comp(857, 28)), IF_GETHEIGHT(comp(857, 28)), 0, 0);  // mobile_chat_panel:contents
                                 };
                                 script15844(0);
                                 switch (script14238(-1)) {
                                     case -1: {
                                         if ((varbitclient_41275 == 0)) {
-                                            script6060(IF_GETTRANS(comp(137, 2)));
+                                            script6060(IF_GETTRANS(comp(137, 2)));  // chatdefault:mobile_listener_graphic
                                         } else {
                                             script9292();
                                         };
@@ -248,7 +248,7 @@ function script13892(): void {
                                 break;
                             }
                             case 1025: {
-                                CC_SETPOSITION(((IF_GETX(comp(276, 15)) + IF_GETWIDTH(comp(276, 15))) + 5), 0, 0, 0);
+                                CC_SETPOSITION(((IF_GETX(comp(276, 15)) + IF_GETWIDTH(comp(276, 15))) + 5), 0, 0, 0);  // toplevel_v2_mobile:device_status_layer
                                 CC_SETSIZE(50, 20, 0, 0);
                                 break;
                             }
@@ -258,7 +258,7 @@ function script13892(): void {
                                     CC_SETSIZE(int3, int4, 0, 0);
                                 };
                                 if ((struct_getparam(int5, 3534) != -1)) {
-                                    if (((IF_GETHEIGHT(comp(1477, 60)) - int10) < 410)) {
+                                    if (((IF_GETHEIGHT(comp(1477, 60)) - int10) < 410)) {  // toplevel_v2:plugin_build_layer_bottom
                                         CC_SETSIZE(250, int10, 0, 1);
                                         CC_SETPOSITION(50, int10, 2, 0);
                                     } else {
@@ -312,8 +312,8 @@ function script13892(): void {
         };
         int1 = (int1 + 1);
     };
-    IF_SETPOSITION(int14, int15, 0, 0, comp(1477, 816));
-    IF_SETSIZE((int14 + int16), (int15 + int17), 1, 1, comp(1477, 816));
+    IF_SETPOSITION(int14, int15, 0, 0, comp(1477, 816));  // toplevel_v2:fixed_overlay_windows
+    IF_SETSIZE((int14 + int16), (int15 + int17), 1, 1, comp(1477, 816));  // toplevel_v2:fixed_overlay_windows
     if (((varbitclient_49616 == 0) && (script2384(0, 1) < 0))) {
         script1159();
     };
@@ -321,13 +321,13 @@ function script13892(): void {
         script8311((varbitclient_38843 - 1));
         script2638();
     };
-    if ((IF_HASSUB(comp(1448, 3)) == 0)) {
+    if ((IF_HASSUB(comp(1448, 3)) == 0)) {  // toplevel_v2_parent:suboverlay_layer_1
         script8290(0);
     } else {
         script8288(varbitplayer_18994);
     };
     script13893(int8);
-    IF_SETHIDE(true, comp(1477, 883));
+    IF_SETHIDE(true, comp(1477, 883));  // toplevel_v2:hover_text_display
     script8144();
     return;
 }

@@ -18,19 +18,19 @@ function script10158(int0: number): void {
     } else {
         [int5, int6] = [120, 70];
     };
-    varbitclient_23081 = MAX(MIN(IF_GETWIDTH(comp(1477, 320)), 2048), MAX(varbitclient_23081, 330));
-    varbitclient_23082 = MAX(MIN(IF_GETHEIGHT(comp(1477, 320)), 2048), MAX(varbitclient_23082, 300));
+    varbitclient_23081 = MAX(MIN(IF_GETWIDTH(comp(1477, 320)), 2048), MAX(varbitclient_23081, 330));  // toplevel_v2:twitch_window
+    varbitclient_23082 = MAX(MIN(IF_GETHEIGHT(comp(1477, 320)), 2048), MAX(varbitclient_23082, 300));  // toplevel_v2:twitch_window
     if ((int0 == 1)) {
-        varbitclient_23081 = MAX(MIN(IF_GETWIDTH(comp(1477, 320)), 2048), 330);
-        varbitclient_23082 = MAX(MIN(IF_GETHEIGHT(comp(1477, 320)), 2048), 300);
+        varbitclient_23081 = MAX(MIN(IF_GETWIDTH(comp(1477, 320)), 2048), 330);  // toplevel_v2:twitch_window
+        varbitclient_23082 = MAX(MIN(IF_GETHEIGHT(comp(1477, 320)), 2048), 300);  // toplevel_v2:twitch_window
         [int3, int4, int5, int6, int7] = script8382(int3, int4, int5, int6, 26, 0, 1);
         if ((int7 == 1)) {
             script8387(int3, int4, int5, int6, 26);
-            IF_SETHIDE(true, comp(231, 3));
+            IF_SETHIDE(true, comp(231, 3));  // twitch_stream:webcam_build
             script8705(26);
-            IF_SETHIDE(false, comp(231, 16));
-            IF_SETHIDE(true, comp(231, 11));
-            IF_SETHIDE(true, comp(231, 17));
+            IF_SETHIDE(false, comp(231, 16));  // twitch_stream:maximise_button
+            IF_SETHIDE(true, comp(231, 11));  // twitch_stream:twitch_player_name
+            IF_SETHIDE(true, comp(231, 17));  // twitch_stream:minimise_button
             SOUND_VORBIS_VOLUME(36961 as vorbis, 1, 0, 100);
         };
     } else {
@@ -45,12 +45,12 @@ function script10158(int0: number): void {
         };
         [int3, int4, varbitclient_23081, varbitclient_23082, int7] = script8382(int3, int4, varbitclient_23081, varbitclient_23082, 26, 0, 1);
         if ((int7 == 1)) {
-            IF_SETHIDE(false, comp(231, 3));
+            IF_SETHIDE(false, comp(231, 3));  // twitch_stream:webcam_build
             script8387(int3, int4, varbitclient_23081, varbitclient_23082, 26);
             script8705(26);
-            IF_SETHIDE(true, comp(231, 16));
-            IF_SETHIDE(false, comp(231, 17));
-            IF_SETHIDE(false, comp(231, 11));
+            IF_SETHIDE(true, comp(231, 16));  // twitch_stream:maximise_button
+            IF_SETHIDE(false, comp(231, 17));  // twitch_stream:minimise_button
+            IF_SETHIDE(false, comp(231, 11));  // twitch_stream:twitch_player_name
             script10134();
             SOUND_VORBIS_VOLUME(36961 as vorbis, 1, 0, 100);
         };

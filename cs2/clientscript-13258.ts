@@ -7,7 +7,7 @@ function script13258(int0: number, int1: number, int2: number, int3: number, int
     var int6 = IF_GETWIDTH(int2);
     var int7 = 300;
     var int8 = 16;
-    if ((int3 == comp(1486, 14))) {
+    if ((int3 == comp(1486, 14))) {  // text_tooltip:tooltip_dynamic_text
         int7 = 350;
         var int0 = MIN(int0, int7);
         int8 = 0;

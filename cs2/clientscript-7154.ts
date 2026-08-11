@@ -1,10 +1,10 @@
 //
 function script7154(): void {
-    var int0 = comp(186, 3);
-    var int1 = comp(186, 4);
+    var int0 = comp(186, 3);  // dino_totem:list_layer
+    var int1 = comp(186, 4);  // dino_totem:click_layer
     var int2 = 12189701;
-    var int3 = comp(186, 8);
-    var int4 = comp(186, 9);
+    var int3 = comp(186, 8);  // dino_totem:totem_drag_layer
+    var int4 = comp(186, 9);  // dino_totem:totem_model
     var int5 = IF_GETLAYER(int4);
     var int6 = -1 as obj;
     var string0 = "???";

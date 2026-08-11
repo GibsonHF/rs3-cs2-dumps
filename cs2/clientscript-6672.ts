@@ -27,12 +27,12 @@ function script6672(int0: number, int1: number): void {
     } else if ((script328(int0) == 1)) {
         int4 = false;
     };
-    IF_SETOP(1, `Convert to : ${OC_NAME(int3)}`, comp(1253, 282));
-    IF_SETENABLED(int4, comp(1253, 282));
+    IF_SETOP(1, `Convert to : ${OC_NAME(int3)}`, comp(1253, 282));  // wheel_of_fortune:reward_convert_button
+    IF_SETENABLED(int4, comp(1253, 282));  // wheel_of_fortune:reward_convert_button
     if ((int4 == true)) {
-        IF_SETONMOUSEREPEAT(callback(script3876, string0, -2147483645, -1), comp(1253, 282));
+        IF_SETONMOUSEREPEAT(callback(script3876, string0, -2147483645, -1), comp(1253, 282));  // wheel_of_fortune:reward_convert_button
     } else {
-        IF_SETONMOUSEREPEAT(callback(script3876, string1, -2147483645, -1), comp(1253, 282));
+        IF_SETONMOUSEREPEAT(callback(script3876, string1, -2147483645, -1), comp(1253, 282));  // wheel_of_fortune:reward_convert_button
     };
     return;
 }

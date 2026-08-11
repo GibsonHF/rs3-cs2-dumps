@@ -28,13 +28,13 @@ function script16267(int0: number, int1: number, int2: number, int3: number, int
         int11 = 27167;
         int12 = 27168;
     };
-    CC_CREATE(comp(1216, 6), 4, IF_GETNEXTSUBID(comp(1216, 6)));
+    CC_CREATE(comp(1216, 6), 4, IF_GETNEXTSUBID(comp(1216, 6)));  // levelup:unlocks_layer
     CC_SETPOSITION(0, 25, 1, 2);
     var int13 = (STRINGWIDTH(string0, 23 as fontmetrics) + STRINGWIDTH("New", 23 as fontmetrics));
     CC_SETSIZE(0, 33, 1, 0);
     CC_SETONTIMER(callback(script3368, -2147483643, string0, (CLIENTCLOCK() + (int2 * int5))));
     var int14 = CC_GETX();
-    CC_CREATE(comp(1216, 6), 5, IF_GETNEXTSUBID(comp(1216, 6)));
+    CC_CREATE(comp(1216, 6), 5, IF_GETNEXTSUBID(comp(1216, 6)));  // levelup:unlocks_layer
     CC_SETPOSITION(0, 24, 1, 2);
     CC_SETSIZE(int13, 33, 0, 0);
     CC_SETTILING(true);
@@ -42,17 +42,17 @@ function script16267(int0: number, int1: number, int2: number, int3: number, int
     CC_SENDTOBACK();
     int14 = CC_GETX();
     int13 = CC_GETWIDTH();
-    CC_CREATE(comp(1216, 6), 5, IF_GETNEXTSUBID(comp(1216, 6)));
+    CC_CREATE(comp(1216, 6), 5, IF_GETNEXTSUBID(comp(1216, 6)));  // levelup:unlocks_layer
     CC_SETPOSITION((int14 - 50), 24, 0, 2);
     CC_SETSIZE(50, 33, 0, 0);
     CC_SETONTIMER(callback(script4226, -2147483643, int10, (CLIENTCLOCK() + (int2 * int5))));
     CC_SENDTOBACK();
-    CC_CREATE(comp(1216, 6), 5, IF_GETNEXTSUBID(comp(1216, 6)));
+    CC_CREATE(comp(1216, 6), 5, IF_GETNEXTSUBID(comp(1216, 6)));  // levelup:unlocks_layer
     CC_SETPOSITION((int14 + int13), 24, 0, 2);
     CC_SETSIZE(50, 33, 0, 0);
     CC_SETONTIMER(callback(script4226, -2147483643, int12, (CLIENTCLOCK() + (int2 * int5))));
     CC_SENDTOBACK();
-    CC_CREATE(comp(1216, 1), 6, IF_GETNEXTSUBID(comp(1216, 1)));
+    CC_CREATE(comp(1216, 1), 6, IF_GETNEXTSUBID(comp(1216, 1)));  // levelup:firework_layer
     CC_SETMODEL(32144 as model);
     CC_SETSIZE(32, 32, 0, 0);
     CC_SETMODELANIM(15754 as seq);

@@ -18,20 +18,20 @@ function script17733(int0: number, int1: number, int2: number, int3: number, int
     switch (int0) {
         case 7599: {
             string0 = `Earn <col=ffffff>${script17481(int0, int7)}</col> by gaining Necromancy XP with combat.`;
-            IF_SETHIDE(false, comp(1222, 23));
-            IF_SETGRAPHIC(31310 as graphic, comp(1222, 147));
-            IF_SETONVARCTRANSMIT(callback(script17736, 7223, 1), comp(1222, 148));
+            IF_SETHIDE(false, comp(1222, 23));  // skill_tree:extra_value_layer
+            IF_SETGRAPHIC(31310 as graphic, comp(1222, 147));  // skill_tree:extra_value_icon
+            IF_SETONVARCTRANSMIT(callback(script17736, 7223, 1), comp(1222, 148));  // skill_tree:extra_value_text
             script3536("Total number of souls powering the vessel.", 80085015, -1);
             break;
         }
     };
     IF_SETTEXT(dbrow_getfield(int0, 946192, 0), 80085007);
-    IF_SETTEXT(string0, comp(1222, 16));
-    IF_SETGRAPHIC(dbrow_getfield(int0, 946256, 0), comp(1222, 25));
+    IF_SETTEXT(string0, comp(1222, 16));  // skill_tree:tree_details_body_text
+    IF_SETGRAPHIC(dbrow_getfield(int0, 946256, 0), comp(1222, 25));  // skill_tree:points_available_icon
     script17741(int0);
     script13310(80085090, 80085091, 59, (8 * 1000));
-    IF_SETONVARCTRANSMIT(callback(script17735, 7220, 7221, 7222, 3), comp(1222, 26));
+    IF_SETONVARCTRANSMIT(callback(script17735, 7220, 7221, 7222, 3), comp(1222, 26));  // skill_tree:points_available_text
     script3536("Total number of Talent Points available.", 80085016, -1);
-    IF_SETONVARCTRANSMIT(callback(script17734, 7220, 7221, 7222, 3), comp(1222, 18));
+    IF_SETONVARCTRANSMIT(callback(script17734, 7220, 7221, 7222, 3), comp(1222, 18));  // skill_tree:points_earned_text
     return;
 }

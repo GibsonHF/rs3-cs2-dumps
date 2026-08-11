@@ -6,8 +6,8 @@ function script7702(): void {
     if ((varbitplayer_38842 == 1)) {
         if ((script8314(2008) == -1)) {
             [int1, int2] = script8716(2008);
-            int0 = (IF_GETX(comp(1490, 13)) + ((IF_GETWIDTH(comp(1490, 13)) - int1) / 2));
-            script8387(int0, (IF_GETY(comp(1490, 13)) - 10), int1, int2, 2008);
+            int0 = (IF_GETX(comp(1490, 13)) + ((IF_GETWIDTH(comp(1490, 13)) - int1) / 2));  // toplevel_v2_target_info:universe
+            script8387(int0, (IF_GETY(comp(1490, 13)) - 10), int1, int2, 2008);  // toplevel_v2_target_info:universe
             script8705(2008);
             script8311(2008);
         };
@@ -15,15 +15,15 @@ function script7702(): void {
         if ((varbitplayer_27169 == 0)) {
             if ((script8314(2008) == -1)) {
                 [int1, int2] = script8716(2008);
-                int0 = (IF_GETX(comp(1490, 13)) + ((IF_GETWIDTH(comp(1490, 13)) - int1) / 2));
-                script8387(int0, (IF_GETY(comp(1490, 13)) - 10), int1, int2, 2008);
+                int0 = (IF_GETX(comp(1490, 13)) + ((IF_GETWIDTH(comp(1490, 13)) - int1) / 2));  // toplevel_v2_target_info:universe
+                script8387(int0, (IF_GETY(comp(1490, 13)) - 10), int1, int2, 2008);  // toplevel_v2_target_info:universe
                 script8705(2008);
                 script8311(2008);
             };
-        } else if (((script8314(2008) != -1) && (IF_HASSUBOVERLAY(comp(1488, 4), 1490 as overlayinterface) == 1))) {
+        } else if (((script8314(2008) != -1) && (IF_HASSUBOVERLAY(comp(1488, 4), 1490 as overlayinterface) == 1))) {  // toplevel_v2_targeting:target
             script8323(2008, 0);
         };
-    } else if (((script8314(2008) != -1) && (IF_HASSUBOVERLAY(comp(1488, 4), 1490 as overlayinterface) == 1))) {
+    } else if (((script8314(2008) != -1) && (IF_HASSUBOVERLAY(comp(1488, 4), 1490 as overlayinterface) == 1))) {  // toplevel_v2_targeting:target
         script8323(2008, 0);
     };
     return;

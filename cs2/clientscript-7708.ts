@@ -1,10 +1,10 @@
 //
 function script7708(): void {
-    var int0 = IF_GETSCROLLY(comp(1411, 6));
-    CC_DELETEALL(comp(1411, 0));
-    CC_DELETEALL(comp(1411, 7));
-    CC_DELETEALL(comp(1411, 1));
-    IF_SETHIDE(true, comp(1411, 56));
+    var int0 = IF_GETSCROLLY(comp(1411, 6));  // clantool_profile:all
+    CC_DELETEALL(comp(1411, 0));  // clantool_profile:variables
+    CC_DELETEALL(comp(1411, 7));  // clantool_profile:titles
+    CC_DELETEALL(comp(1411, 1));  // clantool_profile:boxes
+    IF_SETHIDE(true, comp(1411, 56));  // clantool_profile:text_input_clickout
     var int1 = 0;
     if ((CLANPROFILE_FIND() == 1)) {
         script7709("%clan_core_next_update_minute");
@@ -879,7 +879,7 @@ function script7708(): void {
         CC_SETTEXT(inttostring(varclan_2856, 10));
         script7709("%clav_3_resource_cap_varclan");
         CC_SETTEXT(inttostring(varclan_2857, 10));
-        IF_SETSCROLLSIZE(0, (CC_GETY() + 30), comp(1411, 6));
+        IF_SETSCROLLSIZE(0, (CC_GETY() + 30), comp(1411, 6));  // clantool_profile:all
         script31(92471305, 92471302, 5666, 5663, 5664, 5665, 5686, 5685);
         if ((int0 > 0)) {
             script37(92471305, 92471302, int0, 1);

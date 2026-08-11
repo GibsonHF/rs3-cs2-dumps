@@ -22,19 +22,19 @@ function script427(): void {
     while ((int12 < 4)) {
         switch (int12) {
             case 1: {
-                [int7, int8, int9, int10, int11] = [int4, comp(1024, 10), 67108896, 67108898, 67108897];
+                [int7, int8, int9, int10, int11] = [int4, comp(1024, 10), 67108896, 67108898, 67108897];  // conq_side_command:ability_layer_2
                 break;
             }
             case 2: {
-                [int7, int8, int9, int10, int11] = [int5, comp(1024, 12), 67108889, 67108891, 67108890];
+                [int7, int8, int9, int10, int11] = [int5, comp(1024, 12), 67108889, 67108891, 67108890];  // conq_side_command:ability_layer_3
                 break;
             }
             case 3: {
-                [int7, int8, int9, int10, int11] = [int6, comp(1024, 14), 67108882, 67108884, 67108883];
+                [int7, int8, int9, int10, int11] = [int6, comp(1024, 14), 67108882, 67108884, 67108883];  // conq_side_command:ability_layer_4
                 break;
             }
             default: {
-                [int7, int8, int9, int10, int11] = [int3, comp(1024, 8), 67108903, 67108905, 67108904];
+                [int7, int8, int9, int10, int11] = [int3, comp(1024, 8), 67108903, 67108905, 67108904];  // conq_side_command:ability_layer_1
                 break;
             }
         };
@@ -57,79 +57,79 @@ function script427(): void {
         int12 = (int12 + 1);
     };
     if ((int0 == 4)) {
-        IF_SETHIDE(true, comp(1024, 3));
-        IF_SETHIDE(false, comp(1024, 4));
+        IF_SETHIDE(true, comp(1024, 3));  // conq_side_command:abilities_layer
+        IF_SETHIDE(false, comp(1024, 4));  // conq_side_command:no_abilities_layer
     } else if ((int0 == 3)) {
-        IF_SETHIDE(false, comp(1024, 3));
-        IF_SETHIDE(true, comp(1024, 4));
+        IF_SETHIDE(false, comp(1024, 3));  // conq_side_command:abilities_layer
+        IF_SETHIDE(true, comp(1024, 4));  // conq_side_command:no_abilities_layer
         if ((int3 != 0)) {
-            IF_SETPOSITION(0, 0, 1, 0, comp(1024, 8));
-            IF_SETONMOUSEREPEAT(callback(script432, -2147483645), comp(1024, 8));
+            IF_SETPOSITION(0, 0, 1, 0, comp(1024, 8));  // conq_side_command:ability_layer_1
+            IF_SETONMOUSEREPEAT(callback(script432, -2147483645), comp(1024, 8));  // conq_side_command:ability_layer_1
         } else if ((int4 != 0)) {
-            IF_SETPOSITION(0, 0, 1, 0, comp(1024, 10));
-            IF_SETONMOUSEREPEAT(callback(script432, -2147483645), comp(1024, 10));
+            IF_SETPOSITION(0, 0, 1, 0, comp(1024, 10));  // conq_side_command:ability_layer_2
+            IF_SETONMOUSEREPEAT(callback(script432, -2147483645), comp(1024, 10));  // conq_side_command:ability_layer_2
         } else if ((int5 != 0)) {
-            IF_SETPOSITION(0, 0, 1, 0, comp(1024, 12));
-            IF_SETONMOUSEREPEAT(callback(script432, -2147483645), comp(1024, 12));
+            IF_SETPOSITION(0, 0, 1, 0, comp(1024, 12));  // conq_side_command:ability_layer_3
+            IF_SETONMOUSEREPEAT(callback(script432, -2147483645), comp(1024, 12));  // conq_side_command:ability_layer_3
         } else if ((int6 != 0)) {
-            IF_SETPOSITION(0, 0, 1, 0, comp(1024, 14));
-            IF_SETONMOUSEREPEAT(callback(script432, -2147483645), comp(1024, 14));
+            IF_SETPOSITION(0, 0, 1, 0, comp(1024, 14));  // conq_side_command:ability_layer_4
+            IF_SETONMOUSEREPEAT(callback(script432, -2147483645), comp(1024, 14));  // conq_side_command:ability_layer_4
         };
     } else if ((int0 == 2)) {
-        IF_SETHIDE(false, comp(1024, 3));
-        IF_SETHIDE(true, comp(1024, 4));
+        IF_SETHIDE(false, comp(1024, 3));  // conq_side_command:abilities_layer
+        IF_SETHIDE(true, comp(1024, 4));  // conq_side_command:no_abilities_layer
         if ((int3 != 0)) {
-            IF_SETPOSITION(0, 0, 1, 0, comp(1024, 8));
-            IF_SETONMOUSEREPEAT(callback(script432, -2147483645), comp(1024, 8));
+            IF_SETPOSITION(0, 0, 1, 0, comp(1024, 8));  // conq_side_command:ability_layer_1
+            IF_SETONMOUSEREPEAT(callback(script432, -2147483645), comp(1024, 8));  // conq_side_command:ability_layer_1
             int1 = (int1 + 45);
         };
         if ((int4 != 0)) {
-            IF_SETPOSITION(0, int1, 1, 0, comp(1024, 10));
-            IF_SETONMOUSEREPEAT(callback(script432, -2147483645), comp(1024, 10));
+            IF_SETPOSITION(0, int1, 1, 0, comp(1024, 10));  // conq_side_command:ability_layer_2
+            IF_SETONMOUSEREPEAT(callback(script432, -2147483645), comp(1024, 10));  // conq_side_command:ability_layer_2
             int1 = (int1 + 45);
         };
         if ((int5 != 0)) {
-            IF_SETPOSITION(0, int1, 1, 0, comp(1024, 12));
-            IF_SETONMOUSEREPEAT(callback(script432, -2147483645), comp(1024, 12));
+            IF_SETPOSITION(0, int1, 1, 0, comp(1024, 12));  // conq_side_command:ability_layer_3
+            IF_SETONMOUSEREPEAT(callback(script432, -2147483645), comp(1024, 12));  // conq_side_command:ability_layer_3
             int1 = (int1 + 45);
         };
         if ((int6 != 0)) {
-            IF_SETPOSITION(0, int1, 1, 0, comp(1024, 14));
-            IF_SETONMOUSEREPEAT(callback(script432, -2147483645), comp(1024, 14));
+            IF_SETPOSITION(0, int1, 1, 0, comp(1024, 14));  // conq_side_command:ability_layer_4
+            IF_SETONMOUSEREPEAT(callback(script432, -2147483645), comp(1024, 14));  // conq_side_command:ability_layer_4
         };
     } else if ((int0 == 1)) {
-        IF_SETHIDE(false, comp(1024, 3));
-        IF_SETHIDE(true, comp(1024, 4));
+        IF_SETHIDE(false, comp(1024, 3));  // conq_side_command:abilities_layer
+        IF_SETHIDE(true, comp(1024, 4));  // conq_side_command:no_abilities_layer
         if ((int3 != 0)) {
-            IF_SETPOSITION(0, 0, 1, 0, comp(1024, 8));
-            IF_SETONMOUSEREPEAT(callback(script432, -2147483645), comp(1024, 8));
+            IF_SETPOSITION(0, 0, 1, 0, comp(1024, 8));  // conq_side_command:ability_layer_1
+            IF_SETONMOUSEREPEAT(callback(script432, -2147483645), comp(1024, 8));  // conq_side_command:ability_layer_1
             int1 = (int1 + 45);
         };
         if ((int4 != 0)) {
-            IF_SETPOSITION(0, int1, 1, 0, comp(1024, 10));
-            IF_SETONMOUSEREPEAT(callback(script432, -2147483645), comp(1024, 10));
+            IF_SETPOSITION(0, int1, 1, 0, comp(1024, 10));  // conq_side_command:ability_layer_2
+            IF_SETONMOUSEREPEAT(callback(script432, -2147483645), comp(1024, 10));  // conq_side_command:ability_layer_2
             int1 = (int1 + 45);
         };
         if ((int5 != 0)) {
-            IF_SETPOSITION(0, int1, 1, 0, comp(1024, 12));
-            IF_SETONMOUSEREPEAT(callback(script432, -2147483645), comp(1024, 12));
+            IF_SETPOSITION(0, int1, 1, 0, comp(1024, 12));  // conq_side_command:ability_layer_3
+            IF_SETONMOUSEREPEAT(callback(script432, -2147483645), comp(1024, 12));  // conq_side_command:ability_layer_3
             int1 = (int1 + 45);
         };
         if ((int6 != 0)) {
-            IF_SETPOSITION(0, int1, 1, 0, comp(1024, 14));
-            IF_SETONMOUSEREPEAT(callback(script432, -2147483645), comp(1024, 12));
+            IF_SETPOSITION(0, int1, 1, 0, comp(1024, 14));  // conq_side_command:ability_layer_4
+            IF_SETONMOUSEREPEAT(callback(script432, -2147483645), comp(1024, 12));  // conq_side_command:ability_layer_3
         };
     } else {
-        IF_SETHIDE(false, comp(1024, 3));
-        IF_SETHIDE(true, comp(1024, 4));
-        IF_SETPOSITION(0, 0, 1, 0, comp(1024, 8));
-        IF_SETONMOUSEREPEAT(callback(script432, -2147483645), comp(1024, 8));
-        IF_SETPOSITION(0, 45, 1, 0, comp(1024, 10));
-        IF_SETONMOUSEREPEAT(callback(script432, -2147483645), comp(1024, 10));
-        IF_SETPOSITION(0, 90, 1, 0, comp(1024, 12));
-        IF_SETONMOUSEREPEAT(callback(script432, -2147483645), comp(1024, 12));
-        IF_SETPOSITION(0, 135, 1, 0, comp(1024, 14));
-        IF_SETONMOUSEREPEAT(callback(script432, -2147483645), comp(1024, 14));
+        IF_SETHIDE(false, comp(1024, 3));  // conq_side_command:abilities_layer
+        IF_SETHIDE(true, comp(1024, 4));  // conq_side_command:no_abilities_layer
+        IF_SETPOSITION(0, 0, 1, 0, comp(1024, 8));  // conq_side_command:ability_layer_1
+        IF_SETONMOUSEREPEAT(callback(script432, -2147483645), comp(1024, 8));  // conq_side_command:ability_layer_1
+        IF_SETPOSITION(0, 45, 1, 0, comp(1024, 10));  // conq_side_command:ability_layer_2
+        IF_SETONMOUSEREPEAT(callback(script432, -2147483645), comp(1024, 10));  // conq_side_command:ability_layer_2
+        IF_SETPOSITION(0, 90, 1, 0, comp(1024, 12));  // conq_side_command:ability_layer_3
+        IF_SETONMOUSEREPEAT(callback(script432, -2147483645), comp(1024, 12));  // conq_side_command:ability_layer_3
+        IF_SETPOSITION(0, 135, 1, 0, comp(1024, 14));  // conq_side_command:ability_layer_4
+        IF_SETONMOUSEREPEAT(callback(script432, -2147483645), comp(1024, 14));  // conq_side_command:ability_layer_4
     };
     return;
 }

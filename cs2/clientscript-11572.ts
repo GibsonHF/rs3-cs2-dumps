@@ -10,17 +10,17 @@ function script11572(int0: number, int1: number): void {
         int3 = 3495;
         switch (int0) {
             case 27: {
-                IF_SETHIDE(false, comp(1632, 55));
+                IF_SETHIDE(false, comp(1632, 55));  // trh50_skill_toggle:archaeology_no_click
                 break;
             }
             case 28: {
-                IF_SETHIDE(false, comp(1632, 56));
+                IF_SETHIDE(false, comp(1632, 56));  // trh50_skill_toggle:necromancy_no_click
                 break;
             }
         };
     } else if (((int0 == 26 as stat) && (script12654() == 0))) {
         int3 = 3495;
-        IF_SETHIDE(false, comp(1632, 54));
+        IF_SETHIDE(false, comp(1632, 54));  // trh50_skill_toggle:invention_no_click
     };
     CC_CREATE(int1, 3, int6);
     CC_SETSIZE(0, 0, 1, 1);

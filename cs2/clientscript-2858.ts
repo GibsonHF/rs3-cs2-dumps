@@ -1,6 +1,6 @@
 //
 function script2858(int0: number): void {
-    var int1 = comp(1566, 58);
+    var int1 = comp(1566, 58);  // egq_tracking:dot
     var int2 = IF_GETX(int1);
     var int3 = IF_GETY(int1);
     var int4 = 102629433;
@@ -18,7 +18,7 @@ function script2858(int0: number): void {
     if ((((((((((int6 + int7) + int8) + int9) + int10) + int11) + int12) + int13) + int14) == 0)) {
         IF_SETPOSITION(0, 0, 0, 0, int1);
         IF_SETHIDE(true, int1);
-        IF_SETHIDE(true, comp(1566, 69));
+        IF_SETHIDE(true, comp(1566, 69));  // egq_tracking:signal_name
         script10828();
         return;
     };

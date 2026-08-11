@@ -224,24 +224,24 @@ function script4982(int0: number, int1: number, int2: number, int3: number, int4
             int9 = (int9 * 2);
             int10 = (int10 * 2);
         };
-        IF_SETTEXT(inttostring(int5, 10), comp(1261, 136));
-        IF_SETTEXT(inttostring(int6, 10), comp(1261, 137));
-        IF_SETTEXT(inttostring(int7, 10), comp(1261, 138));
-        IF_SETTEXT(inttostring(int8, 10), comp(1261, 139));
-        IF_SETTEXT(inttostring(int9, 10), comp(1261, 140));
-        IF_SETTEXT(inttostring(int10, 10), comp(1261, 141));
-        IF_SETTEXT(inttostring(int17, 10), comp(1261, 147));
-        IF_SETTEXT(inttostring(int18, 10), comp(1261, 148));
-        IF_SETTEXT(inttostring(int19, 10), comp(1261, 149));
-        IF_SETTEXT(inttostring(int20, 10), comp(1261, 150));
-        IF_SETTEXT(inttostring(int21, 10), comp(1261, 151));
-        IF_SETTEXT(inttostring(int22, 10), comp(1261, 152));
-        IF_SETTEXT(inttostring(int11, 10), comp(1261, 172));
-        IF_SETTEXT(inttostring(int12, 10), comp(1261, 173));
-        IF_SETTEXT(inttostring(int13, 10), comp(1261, 174));
-        IF_SETTEXT(inttostring(int14, 10), comp(1261, 175));
-        IF_SETTEXT(inttostring(int15, 10), comp(1261, 176));
-        IF_SETTEXT(inttostring(int16, 10), comp(1261, 177));
+        IF_SETTEXT(inttostring(int5, 10), comp(1261, 136));  // clan_stronghold_main_buildings:building_upkeep_timber_txt
+        IF_SETTEXT(inttostring(int6, 10), comp(1261, 137));  // clan_stronghold_main_buildings:building_upkeep_stone_txt
+        IF_SETTEXT(inttostring(int7, 10), comp(1261, 138));  // clan_stronghold_main_buildings:building_upkeep_bars_txt
+        IF_SETTEXT(inttostring(int8, 10), comp(1261, 139));  // clan_stronghold_main_buildings:building_upkeep_rations_txt
+        IF_SETTEXT(inttostring(int9, 10), comp(1261, 140));  // clan_stronghold_main_buildings:building_upkeep_cloth_txt
+        IF_SETTEXT(inttostring(int10, 10), comp(1261, 141));  // clan_stronghold_main_buildings:building_upkeep_precious_bars_txt
+        IF_SETTEXT(inttostring(int17, 10), comp(1261, 147));  // clan_stronghold_main_buildings:building_upgrade_timber_txt
+        IF_SETTEXT(inttostring(int18, 10), comp(1261, 148));  // clan_stronghold_main_buildings:building_upgrade_stone_txt
+        IF_SETTEXT(inttostring(int19, 10), comp(1261, 149));  // clan_stronghold_main_buildings:building_upgrade_bars_txt
+        IF_SETTEXT(inttostring(int20, 10), comp(1261, 150));  // clan_stronghold_main_buildings:building_upgrade_rations_txt
+        IF_SETTEXT(inttostring(int21, 10), comp(1261, 151));  // clan_stronghold_main_buildings:building_upgrade_cloth_txt
+        IF_SETTEXT(inttostring(int22, 10), comp(1261, 152));  // clan_stronghold_main_buildings:building_upgrade_precious_bars_txt
+        IF_SETTEXT(inttostring(int11, 10), comp(1261, 172));  // clan_stronghold_main_buildings:building_downgrade_timber_txt
+        IF_SETTEXT(inttostring(int12, 10), comp(1261, 173));  // clan_stronghold_main_buildings:building_downgrade_stone_txt
+        IF_SETTEXT(inttostring(int13, 10), comp(1261, 174));  // clan_stronghold_main_buildings:building_downgrade_bars_txt
+        IF_SETTEXT(inttostring(int14, 10), comp(1261, 175));  // clan_stronghold_main_buildings:building_downgrade_rations_txt
+        IF_SETTEXT(inttostring(int15, 10), comp(1261, 176));  // clan_stronghold_main_buildings:building_downgrade_cloth_txt
+        IF_SETTEXT(inttostring(int16, 10), comp(1261, 177));  // clan_stronghold_main_buildings:building_downgrade_precious_bars_txt
     };
     return;
 }

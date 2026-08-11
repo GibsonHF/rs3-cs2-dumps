@@ -5,10 +5,10 @@ function script1549(int0: number): void {
     };
     var int1 = script15513();
     if (((int1 == -1) || (struct_getparam(int1, 7171) == true))) {
-        IF_SETONTIMER(callback(script1654, -1), comp(1253, 116));
-        IF_SETONTIMER(callback(), comp(1253, 111));
+        IF_SETONTIMER(callback(script1654, -1), comp(1253, 116));  // wheel_of_fortune:advert_layer
+        IF_SETONTIMER(callback(), comp(1253, 111));  // wheel_of_fortune:advert_button_container
     } else {
-        IF_SETONTIMER(callback(script1549, (CLIENTCLOCK() + 800)), comp(1253, 111));
+        IF_SETONTIMER(callback(script1549, (CLIENTCLOCK() + 800)), comp(1253, 111));  // wheel_of_fortune:advert_button_container
     };
     return;
 }

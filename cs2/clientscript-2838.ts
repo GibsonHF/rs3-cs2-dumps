@@ -18,7 +18,7 @@ function script2838(): void {
     SPLINE_ADDPOINT(0, 5, script2808(int2, 54662856, 55072472), 506, script2808(int2, 54662856, 55072471), 506, 0);
     SPLINE_ADDPOINT(1, 5, script2808(int2, 54662856, 55072485), 350, script2808(int2, 54662856, 55072487), 350, 0);
     varclient_1068 = 0;
-    IF_SETONCAMFINISHED(callback(script2840), comp(384, 0));
+    IF_SETONCAMFINISHED(callback(script2840), comp(384, 0));  // nom_cutscene_controller:cutscene_controller
     CAM_MOVEALONG(0, varclient_1068, 100, 100, 1, varclient_1068);
     return;
 }

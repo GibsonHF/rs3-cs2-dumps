@@ -24,8 +24,8 @@ function script12142(int0: number): void {
             break;
         }
     };
-    IF_SETTEXT(string0, comp(1708, 97));
-    IF_SETONTIMER(callback(script12143, 1, (CLIENTCLOCK() + 10)), comp(1708, 55));
+    IF_SETTEXT(string0, comp(1708, 97));  // invent_discovery:refine_continue_text
+    IF_SETONTIMER(callback(script12143, 1, (CLIENTCLOCK() + 10)), comp(1708, 55));  // invent_discovery:workbench_overlay
     script12128();
     return;
 }

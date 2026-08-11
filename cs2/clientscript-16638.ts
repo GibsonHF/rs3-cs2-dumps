@@ -1,9 +1,9 @@
 //
 function script16638(string0: string): void {
     var string1 = "Press here to hide the Yak Track notification.<br>You can open Yak Track at any time from the Events Tab.<br>Drag this button anywhere on the screen.";
-    IF_SETONMOUSEREPEAT(callback(script8799, string0, 82051073, -1), comp(1252, 1));
-    IF_SETONMOUSEOVER(callback(script1093, 82051097, 1236), comp(1252, 1));
-    IF_SETONMOUSELEAVE(callback(script1093, 82051097, 9210), comp(1252, 1));
-    IF_SETONMOUSEREPEAT(callback(script8799, string1, 82051091, -1), comp(1252, 19));
+    IF_SETONMOUSEREPEAT(callback(script8799, string0, 82051073, -1), comp(1252, 1));  // wheel_of_fortune_button:content_layer
+    IF_SETONMOUSEOVER(callback(script1093, 82051097, 1236), comp(1252, 1));  // wheel_of_fortune_button:content_layer
+    IF_SETONMOUSELEAVE(callback(script1093, 82051097, 9210), comp(1252, 1));  // wheel_of_fortune_button:content_layer
+    IF_SETONMOUSEREPEAT(callback(script8799, string1, 82051091, -1), comp(1252, 19));  // wheel_of_fortune_button:wof_tick
     return;
 }

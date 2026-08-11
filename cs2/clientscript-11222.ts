@@ -5,7 +5,7 @@ function script11222(int0: number, int1: number, int2: number): number {
     var int5 = 0;
     var string0 = "";
     var string1 = "";
-    CC_CREATE(comp(1139, 11), 4, int1);
+    CC_CREATE(comp(1139, 11), 4, int1);  // comscenario:type
     CC_SETSIZE(0, 10, 1, 0);
     CC_SETPOSITION(0, 0, 0, 0);
     CC_SETTEXTFONT(27 as fontmetrics);
@@ -62,7 +62,7 @@ function script11222(int0: number, int1: number, int2: number): number {
         CC_SETTEXT("");
         CC_SETHIDE(true);
     };
-    CC_CREATE(comp(1139, 12), 4, int1);
+    CC_CREATE(comp(1139, 12), 4, int1);  // comscenario:difficulty
     CC_SETSIZE(0, 10, 1, 0);
     CC_SETPOSITION(0, 0, 0, 0);
     CC_SETTEXTFONT(27 as fontmetrics);

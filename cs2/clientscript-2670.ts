@@ -1,6 +1,6 @@
 //
 function script2670(): void {
-    if ((IF_GETHIDE(comp(906, 124)) == true)) {
+    if ((IF_GETHIDE(comp(906, 124)) == true)) {  // lobbyscreen:email_validation_button_layer
         return;
     };
     var string0 = "Email Registration";

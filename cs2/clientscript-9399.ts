@@ -13,7 +13,7 @@ function script9399(int0: number, int1: number, int2: number): void {
         int3 = (int3 + 1);
     };
     if ((int5 == 0)) {
-        IF_SETTEXT("Skill Tracker", comp(240, 6));
+        IF_SETTEXT("Skill Tracker", comp(240, 6));  // activity_tracker_embedded_options:options_title
         CC_CREATE(int0, 4, IF_GETNEXTSUBID(int0));
         CC_SETPOSITION(0, 0, 1, 1);
         CC_SETSIZE(0, 0, 1, 1);
@@ -25,7 +25,7 @@ function script9399(int0: number, int1: number, int2: number): void {
             CC_SETTEXT("You are currently not tracking any skills.<br>Open 'Skills' and use the Tap and Hold menu to select and begin tracking a level or XP target.");
         };
         script11024(3);
-        IF_SETHIDE(false, comp(240, 1));
+        IF_SETHIDE(false, comp(240, 1));  // activity_tracker_embedded_options:options_layer
         return;
     };
     var int8 = 5;
@@ -39,7 +39,7 @@ function script9399(int0: number, int1: number, int2: number): void {
         int3 = (int3 - 1);
     };
     if ((int8 == 0)) {
-        IF_SETTEXT("Skill Tracker", comp(240, 6));
+        IF_SETTEXT("Skill Tracker", comp(240, 6));  // activity_tracker_embedded_options:options_title
         CC_CREATE(int0, 4, IF_GETNEXTSUBID(int0));
         CC_SETPOSITION(0, 0, 1, 1);
         CC_SETSIZE(0, 0, 1, 1);
@@ -47,14 +47,14 @@ function script9399(int0: number, int1: number, int2: number): void {
         CC_SETTEXTALIGN(1, 1, 0);
         CC_SETTEXT("There are currently no trackers available.<br>Please remove some and try again");
         script11024(3);
-        IF_SETHIDE(false, comp(240, 1));
+        IF_SETHIDE(false, comp(240, 1));  // activity_tracker_embedded_options:options_layer
         return;
     };
     var int10 = 0;
     var int11 = -1 as cs2enum;
     var int12 = 0;
     [int10, int11, int12] = script8941(int5, IF_GETWIDTH(int0), 5);
-    IF_SETTEXT("Choose skills to (un)track", comp(240, 6));
+    IF_SETTEXT("Choose skills to (un)track", comp(240, 6));  // activity_tracker_embedded_options:options_title
     int3 = 0;
     var int13 = 0;
     var int14 = 0;
@@ -95,6 +95,6 @@ function script9399(int0: number, int1: number, int2: number): void {
         };
         int3 = (int3 + 1);
     };
-    IF_SETHIDE(false, comp(240, 1));
+    IF_SETHIDE(false, comp(240, 1));  // activity_tracker_embedded_options:options_layer
     return;
 }

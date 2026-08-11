@@ -4,8 +4,8 @@ function script3351(int0: number, int1: number, int2: number, int3: number): [nu
     var int5 = 0;
     var int6 = 0;
     var int7 = 0;
-    var int8 = IF_GETWIDTH(comp(1322, 18));
-    var int9 = IF_GETHEIGHT(comp(1322, 18));
+    var int8 = IF_GETWIDTH(comp(1322, 18));  // minimenu:mobile_tooltip_window_size ?
+    var int9 = IF_GETHEIGHT(comp(1322, 18));  // minimenu:mobile_tooltip_window_size ?
     int6 = int8;
     if ((varclient_6403 != 0)) {
         [int4, int5, int6, int7] = VIEWPORT_GETBOUNDS();

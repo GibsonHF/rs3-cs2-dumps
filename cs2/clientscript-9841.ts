@@ -24,14 +24,14 @@ function script9841(int0: number): void {
         }
     };
     if ((int0 == int1)) {
-        IF_SETTEXT("Correct", comp(1350, 13));
-        IF_SETTEXT(`It was indeed<br>${string0}`, comp(1350, 14));
-        IF_SETHIDE(false, comp(1350, 1));
+        IF_SETTEXT("Correct", comp(1350, 13));  // rhino_awareness:rhino_answered_title
+        IF_SETTEXT(`It was indeed<br>${string0}`, comp(1350, 14));  // rhino_awareness:rhino_answered_text
+        IF_SETHIDE(false, comp(1350, 1));  // rhino_awareness:rhino_answered_question_popup
     } else {
-        IF_SETHIDE(false, comp(1350, 10));
-        IF_SETTEXT("Incorrect", comp(1350, 13));
-        IF_SETTEXT("You will have to wait 1 minute until you can try again.", comp(1350, 14));
-        IF_SETHIDE(false, comp(1350, 1));
+        IF_SETHIDE(false, comp(1350, 10));  // rhino_awareness:todays_rhino_wrong_answer
+        IF_SETTEXT("Incorrect", comp(1350, 13));  // rhino_awareness:rhino_answered_title
+        IF_SETTEXT("You will have to wait 1 minute until you can try again.", comp(1350, 14));  // rhino_awareness:rhino_answered_text
+        IF_SETHIDE(false, comp(1350, 1));  // rhino_awareness:rhino_answered_question_popup
         if ((varclient_4199 < CLIENTCLOCK())) {
             varclient_4198 = 60;
             varclient_4199 = (CLIENTCLOCK() + (varclient_4198 * 50));

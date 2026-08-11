@@ -36,13 +36,13 @@ function script7(int0: number): [number, number] {
             int9 = (int9 - npc_getparam(int0, 7237));
         };
         int10 = (int8 - int9);
-        if ((CC_FIND(comp(1488, 0), varclient_2826) == 1)) {
+        if ((CC_FIND(comp(1488, 0), varclient_2826) == 1)) {  // toplevel_v2_targeting:universe
             CC_SETHIDE(false);
             CC_SETPOSITION(int2, int9, 0, 0);
             CC_SETSIZE((int4 - int2), int10, 0, 0);
         } else {
-            varclient_2826 = IF_GETNEXTSUBID(comp(1488, 0));
-            CC_CREATE(comp(1488, 0), 3, varclient_2826);
+            varclient_2826 = IF_GETNEXTSUBID(comp(1488, 0));  // toplevel_v2_targeting:universe
+            CC_CREATE(comp(1488, 0), 3, varclient_2826);  // toplevel_v2_targeting:universe
             CC_SETTRANS(255);
             CC_SETPOSITION(int2, int9, 0, 0);
             CC_SETSIZE((int4 - int2), int10, 0, 0);
@@ -60,18 +60,18 @@ function script7(int0: number): [number, number] {
             int9 = (int9 - npc_getparam(int0, 7237));
         };
         int10 = (int8 - int9);
-        if ((CC_FIND(comp(1488, 0), varclient_2826) == 1)) {
+        if ((CC_FIND(comp(1488, 0), varclient_2826) == 1)) {  // toplevel_v2_targeting:universe
             CC_SETHIDE(false);
             CC_SETPOSITION(int2, int9, 0, 0);
             CC_SETSIZE((int4 - int2), int10, 0, 0);
         } else {
-            varclient_2826 = IF_GETNEXTSUBID(comp(1488, 0));
-            CC_CREATE(comp(1488, 0), 3, varclient_2826);
+            varclient_2826 = IF_GETNEXTSUBID(comp(1488, 0));  // toplevel_v2_targeting:universe
+            CC_CREATE(comp(1488, 0), 3, varclient_2826);  // toplevel_v2_targeting:universe
             CC_SETTRANS(255);
             CC_SETPOSITION(int2, int9, 0, 0);
             CC_SETSIZE((int4 - int2), int10, 0, 0);
         };
     };
-    IF_SETHIDE(false, comp(1490, 14));
+    IF_SETHIDE(false, comp(1490, 14));  // toplevel_v2_target_info:visible_info
     return [int6, int9];
 }

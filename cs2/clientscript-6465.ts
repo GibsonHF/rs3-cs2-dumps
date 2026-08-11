@@ -36,13 +36,13 @@ function script6465(int0: number, int1: number, int2: number): void {
         };
     } else if ((int0 == 1)) {
         int8 = 127;
-        IF_SETPOSITION(128, 0, 0, 0, comp(1311, 340));
+        IF_SETPOSITION(128, 0, 0, 0, comp(1311, 340));  // mtxmgt:header_scrollbar
     } else if (((int0 == 3) || (int0 == 4))) {
         int8 = 177;
-        IF_SETPOSITION(178, 0, 0, 0, comp(1311, 340));
+        IF_SETPOSITION(178, 0, 0, 0, comp(1311, 340));  // mtxmgt:header_scrollbar
     } else if ((int0 == 5)) {
         int8 = 132;
-        IF_SETPOSITION(133, 0, 0, 0, comp(1311, 340));
+        IF_SETPOSITION(133, 0, 0, 0, comp(1311, 340));  // mtxmgt:header_scrollbar
     };
     CC_CREATE(int3, 5, IF_GETNEXTSUBID(int3));
     if ((int2 == 0)) {

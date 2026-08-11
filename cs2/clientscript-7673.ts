@@ -5,9 +5,9 @@ function script7673(int0: number, int1: number, int2: number, string0: string): 
     var int5 = 0;
     var int6 = 12;
     var int7 = -1;
-    if ((int2 == comp(1405, 12))) {
+    if ((int2 == comp(1405, 12))) {  // bugreport_interface:input_text
         int7 = 92078095;
-    } else if ((int2 == comp(1405, 26))) {
+    } else if ((int2 == comp(1405, 26))) {  // bugreport_interface:input_repro
         int7 = 92078107;
     };
     int3 = STRING_INDEXOF_CHAR(string0, 62, (int1 - 1));

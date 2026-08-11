@@ -1,6 +1,6 @@
 //
 function script20702(): void {
-    var int0 = comp(184, 9);
+    var int0 = comp(184, 9);  // bait_box:food_layer
     var int1 = 0;
     var int2 = 0;
     var int3 = 0;
@@ -52,6 +52,6 @@ function script20702(): void {
         IF_SETONINVTRANSMIT(callback(script20702, varplayer_12696, 1), int0);
     };
     script20704();
-    IF_SETONVARTRANSMIT(callback(script20703, 8606, 1), comp(184, 17));
+    IF_SETONVARTRANSMIT(callback(script20703, 8606, 1), comp(184, 17));  // bait_box:inv_contents_layer
     return;
 }

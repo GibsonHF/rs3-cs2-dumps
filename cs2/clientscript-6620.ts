@@ -16,7 +16,7 @@ function script6620(int0: number): void {
         CC_CREATE(int0, 5, int5);
         CC_SETSIZE(21, 21, 0, 0);
         CC_SETPOSITION(int1, int2, 0, 0);
-        if ((int0 == comp(1323, 45))) {
+        if ((int0 == comp(1323, 45))) {  // peng_pow_bfish:pieces_blue
             CC_SETOP(1, "Select");
         };
         int5 = (int5 + 1);

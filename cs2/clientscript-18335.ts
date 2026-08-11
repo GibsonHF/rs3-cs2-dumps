@@ -53,8 +53,8 @@ function script18335(int0: number, int1: number): void {
         IF_SETHIDE(true, int7);
         IF_SETSCROLLSIZE(0, 0, int8);
     };
-    IF_SETTEXT(string0, comp(1802, 328));
-    IF_SETTEXT(string1, comp(1802, 327));
+    IF_SETTEXT(string0, comp(1802, 328));  // timed_event:variety_task_events_specific_title
+    IF_SETTEXT(string1, comp(1802, 327));  // timed_event:variety_task_events_specific_info
     script18336(int1);
     script17358(int0);
     SOUND_VORBIS_VOLUME(36961 as vorbis, 1, 0, 180);

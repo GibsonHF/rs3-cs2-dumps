@@ -81,7 +81,7 @@ function script18324(): void {
     };
     var int0 = struct_getparam(varplayer_10946, 8990);
     if (((int0 != -1 as struct) && (struct_getparam(int0, 8859) == 1))) {
-        IF_SETHIDE(false, comp(1181, 41));
+        IF_SETHIDE(false, comp(1181, 41));  // activity_progress_bar_extension:progress_markers
         script18326(77398017, struct_getparam(int0, 8853), struct_getparam(int0, 8854), struct_getparam(int0, 8855), struct_getparam(int0, 8856), struct_getparam(int0, 8857), struct_getparam(int0, 4343));
     };
     return;

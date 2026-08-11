@@ -16,21 +16,21 @@ function script11388(): void {
         int4 = 18266 as graphic;
     };
     script3288();
-    CC_DELETEALL(comp(1621, 25));
-    CC_DELETEALL(comp(1621, 20));
+    CC_DELETEALL(comp(1621, 25));  // poh_costume_room:click_area
+    CC_DELETEALL(comp(1621, 20));  // poh_costume_room:build_area
     var int6 = script11401();
     if ((int6 == -1 as cs2enum)) {
-        IF_SETONTIMER(callback(script11388), comp(1621, 23));
-        IF_SETHIDE(false, comp(1621, 17));
+        IF_SETONTIMER(callback(script11388), comp(1621, 23));  // poh_costume_room:mainmodal_window_content
+        IF_SETHIDE(false, comp(1621, 17));  // poh_costume_room:loading_layer
         return;
     };
     var int7 = 0;
     var int8 = ENUM_GETOUTPUTCOUNT(int6);
     while ((int7 < int8)) {
-        CC_CREATE(comp(1621, 25), 5, int7);
+        CC_CREATE(comp(1621, 25), 5, int7);  // poh_costume_room:click_area
         CC_SETSIZE(int2, int3, 0, 0);
         CC_SETHIDE(true);
-        CC_CREATE(comp(1621, 20), 5, int7);
+        CC_CREATE(comp(1621, 20), 5, int7);  // poh_costume_room:build_area
         CC_SETSIZE(int0, int1, 0, 0);
         CC_SETGRAPHIC(int4);
         CC_SETTRANS(int5);
@@ -38,10 +38,10 @@ function script11388(): void {
         int7 = (int7 + 1);
     };
     varclient_4797 = 105;
-    IF_SETONTIMER(callback(script11396, 2), comp(1621, 23));
-    IF_SETONVARTRANSMIT(callback(script11388, 5405, 1), comp(1621, 1));
-    IF_SETONVARTRANSMIT(callback(script11390, 5411, 5407, 5408, 5409, 5410, 10385, 13466, 13467, 8), comp(1621, 23));
-    IF_SETONINVTRANSMIT(callback(script5247, 93, 1), comp(1621, 23));
+    IF_SETONTIMER(callback(script11396, 2), comp(1621, 23));  // poh_costume_room:mainmodal_window_content
+    IF_SETONVARTRANSMIT(callback(script11388, 5405, 1), comp(1621, 1));  // poh_costume_room:rebuild_listener
+    IF_SETONVARTRANSMIT(callback(script11390, 5411, 5407, 5408, 5409, 5410, 10385, 13466, 13467, 8), comp(1621, 23));  // poh_costume_room:mainmodal_window_content
+    IF_SETONINVTRANSMIT(callback(script5247, 93, 1), comp(1621, 23));  // poh_costume_room:mainmodal_window_content
     script11391();
     script11398(-1);
     script15069(1);

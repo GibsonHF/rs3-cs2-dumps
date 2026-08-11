@@ -15,9 +15,9 @@ function script429(): void {
                 } else {
                     int0 = varbitplayer_5415;
                 };
-                int2 = comp(1024, 41);
-                int3 = comp(1024, 43);
-                int5 = comp(1024, 42);
+                int2 = comp(1024, 41);  // conq_side_command:icon_1
+                int3 = comp(1024, 43);  // conq_side_command:shading_rect_1
+                int5 = comp(1024, 42);  // conq_side_command:cooldown_1
                 break;
             }
             case 1: {
@@ -26,9 +26,9 @@ function script429(): void {
                 } else {
                     int0 = varbitplayer_5416;
                 };
-                int2 = comp(1024, 34);
-                int3 = comp(1024, 36);
-                int5 = comp(1024, 35);
+                int2 = comp(1024, 34);  // conq_side_command:icon_2
+                int3 = comp(1024, 36);  // conq_side_command:shading_rect_2
+                int5 = comp(1024, 35);  // conq_side_command:cooldown_2
                 break;
             }
             case 2: {
@@ -37,9 +37,9 @@ function script429(): void {
                 } else {
                     int0 = varbitplayer_5417;
                 };
-                int2 = comp(1024, 27);
-                int3 = comp(1024, 29);
-                int5 = comp(1024, 28);
+                int2 = comp(1024, 27);  // conq_side_command:icon_3
+                int3 = comp(1024, 29);  // conq_side_command:shading_rect_3
+                int5 = comp(1024, 28);  // conq_side_command:cooldown_3
                 break;
             }
             case 3: {
@@ -48,9 +48,9 @@ function script429(): void {
                 } else {
                     int0 = varbitplayer_5418;
                 };
-                int2 = comp(1024, 20);
-                int3 = comp(1024, 22);
-                int5 = comp(1024, 21);
+                int2 = comp(1024, 20);  // conq_side_command:icon_4
+                int3 = comp(1024, 22);  // conq_side_command:shading_rect_4
+                int5 = comp(1024, 21);  // conq_side_command:cooldown_4
                 break;
             }
         };

@@ -11,6 +11,6 @@ function script6596(int0: number): void {
         script6598(86900804, varclient_1998, 100);
         script6599(86900739, varclient_1999, varclient_2000);
     };
-    IF_SETONTIMER(callback(script6596, int0), comp(1326, 23));
+    IF_SETONTIMER(callback(script6596, int0), comp(1326, 23));  // peng_pow_sub_overlay:health
     return;
 }

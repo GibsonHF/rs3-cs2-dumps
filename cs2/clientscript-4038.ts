@@ -82,8 +82,8 @@ function script4038(int0: number): void {
             break;
         }
     };
-    IF_SETTEXT(string0, comp(1377, 117));
-    IF_SETTEXT(string1, comp(1377, 118));
+    IF_SETTEXT(string0, comp(1377, 117));  // pop_map:map_island_name
+    IF_SETTEXT(string1, comp(1377, 118));  // pop_map:map_island_details
     var int1 = enum_getvalue(0, 0, 6178, int0);
     script2370(int1);
     return;

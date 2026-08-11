@@ -22,7 +22,7 @@ function script8906(int0: number, int1: number): void {
                 if ((varplayer_8970 != -1)) {
                     script14355();
                 };
-                IF_SETHIDE(true, comp(517, 218));
+                IF_SETHIDE(true, comp(517, 218));  // bank:custom_tab_panel
                 script10239();
                 script9324(1);
                 script9511(1);
@@ -32,9 +32,9 @@ function script8906(int0: number, int1: number): void {
         case 2: {
             if ((int1 == 1)) {
                 script13352();
-                IF_SETHIDE(true, comp(517, 218));
+                IF_SETHIDE(true, comp(517, 218));  // bank:custom_tab_panel
             } else {
-                IF_SETONCLICK(callback(script8910, int1, int2), comp(517, 328));
+                IF_SETONCLICK(callback(script8910, int1, int2), comp(517, 328));  // bank:confirm_drop_button
             };
             break;
         }

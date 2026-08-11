@@ -3,7 +3,7 @@ function script4220(): void {
     script6575();
     var int0 = -1;
     var int1 = 0;
-    if ((CC_FIND(comp(755, 85), 0) == 1)) {
+    if ((CC_FIND(comp(755, 85), 0) == 1)) {  // area_task_sub:dropdown_layer
         script7909(1, 17000, -1, varbitplayer_54002);
         int0 = ENUM_GETOUTPUTCOUNT(3003 as cs2enum);
         if ((int0 != ENUM_GETOUTPUTCOUNT(17000 as cs2enum))) {

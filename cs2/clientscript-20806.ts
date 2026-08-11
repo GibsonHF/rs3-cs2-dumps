@@ -1,11 +1,11 @@
 //
 function script20806(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number): void {
-    if ((int2 == comp(1512, 15))) {
+    if ((int2 == comp(1512, 15))) {  // house_furniture_catalogue:items_bg
         if ((varbitclient_61226 == 62)) {
             script20751(int0, int1, int2, int3, int4, varbitclient_61230, int6, 1);
             return;
         };
-        IF_SETHIDE(true, comp(1512, 13));
+        IF_SETHIDE(true, comp(1512, 13));  // house_furniture_catalogue:items_stairs_toggle
         IF_SETSIZE(16, 0, 1, 1, int0);
         IF_SETSIZE(16, 0, 0, 1, int1);
     };

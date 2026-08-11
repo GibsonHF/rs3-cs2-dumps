@@ -96,8 +96,8 @@ function script7664(int0: number, int1: number, int2: number, int3: number): voi
             script7665(varclient_2753);
             script1733(92078094);
             script1733(92078109);
-            IF_SETTEXT(inttostring((500 - STRING_LENGTH(REMOVETAGS(varclient_2758))), 10), comp(1405, 14));
-            IF_SETTEXT(inttostring((500 - STRING_LENGTH(REMOVETAGS(varclient_2759))), 10), comp(1405, 29));
+            IF_SETTEXT(inttostring((500 - STRING_LENGTH(REMOVETAGS(varclient_2758))), 10), comp(1405, 14));  // bugreport_interface:chars_left
+            IF_SETTEXT(inttostring((500 - STRING_LENGTH(REMOVETAGS(varclient_2759))), 10), comp(1405, 29));  // bugreport_interface:chars_repro
             return;
         }
     };

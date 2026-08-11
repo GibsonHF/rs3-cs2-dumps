@@ -30,15 +30,15 @@ function script6744(): void {
             break;
         }
     };
-    CC_DELETEALL(comp(1344, 21));
-    CC_DELETEALL(comp(1344, 22));
-    CC_DELETEALL(comp(1344, 24));
-    CC_DELETEALL(comp(1344, 25));
-    CC_DELETEALL(comp(1344, 23));
-    CC_DELETEALL(comp(1344, 28));
-    CC_DELETEALL(comp(1344, 26));
-    CC_DELETEALL(comp(1344, 27));
-    IF_SETHIDE(true, comp(1344, 18));
+    CC_DELETEALL(comp(1344, 21));  // minigames_main:button_graphics
+    CC_DELETEALL(comp(1344, 22));  // minigames_main:button_spotlight_highlight
+    CC_DELETEALL(comp(1344, 24));  // minigames_main:button_icons
+    CC_DELETEALL(comp(1344, 25));  // minigames_main:button_labels
+    CC_DELETEALL(comp(1344, 23));  // minigames_main:button_clickboxes
+    CC_DELETEALL(comp(1344, 28));  // minigames_main:scrollbar
+    CC_DELETEALL(comp(1344, 26));  // minigames_main:button_tracker_icons
+    CC_DELETEALL(comp(1344, 27));  // minigames_main:button_tracker_labels
+    IF_SETHIDE(true, comp(1344, 18));  // minigames_main:no_favs_text
     var int3 = 0;
     var int4 = 0;
     var int5 = ENUM_GETOUTPUTCOUNT(int0);
@@ -71,30 +71,30 @@ function script6744(): void {
         if ((int6 != -1 as struct)) {
             if ((int2 == 1)) {
                 if ((script9178(struct_getparam(int6, 1268)) == 0)) {
-                    CC_CREATE(comp(1344, 21), 5, int3);
+                    CC_CREATE(comp(1344, 21), 5, int3);  // minigames_main:button_graphics
                     CC_SETHIDE(true);
-                    CC_CREATE(comp(1344, 22), 3, int3);
+                    CC_CREATE(comp(1344, 22), 3, int3);  // minigames_main:button_spotlight_highlight
                     CC_SETHIDE(true);
-                    CC_CREATE(comp(1344, 24), 5, int3);
+                    CC_CREATE(comp(1344, 24), 5, int3);  // minigames_main:button_icons
                     CC_SETHIDE(true);
-                    CC_CREATE(comp(1344, 25), 4, int3);
+                    CC_CREATE(comp(1344, 25), 4, int3);  // minigames_main:button_labels
                     CC_SETHIDE(true);
-                    CC_CREATE(comp(1344, 23), 3, int3);
+                    CC_CREATE(comp(1344, 23), 3, int3);  // minigames_main:button_clickboxes
                     CC_SETHIDE(true);
                 } else if ((struct_getparam(int6, 3812) == 1)) {
                     if ((script3224(struct_getparam(int6, 1268)) == 0)) {
-                        CC_CREATE(comp(1344, 21), 5, int3);
+                        CC_CREATE(comp(1344, 21), 5, int3);  // minigames_main:button_graphics
                         CC_SETHIDE(true);
-                        CC_CREATE(comp(1344, 22), 3, int3);
+                        CC_CREATE(comp(1344, 22), 3, int3);  // minigames_main:button_spotlight_highlight
                         CC_SETHIDE(true);
-                        CC_CREATE(comp(1344, 24), 5, int3);
+                        CC_CREATE(comp(1344, 24), 5, int3);  // minigames_main:button_icons
                         CC_SETHIDE(true);
-                        CC_CREATE(comp(1344, 25), 4, int3);
+                        CC_CREATE(comp(1344, 25), 4, int3);  // minigames_main:button_labels
                         CC_SETHIDE(true);
-                        CC_CREATE(comp(1344, 23), 3, int3);
+                        CC_CREATE(comp(1344, 23), 3, int3);  // minigames_main:button_clickboxes
                         CC_SETHIDE(true);
                     } else {
-                        CC_CREATE(comp(1344, 21), 5, int3);
+                        CC_CREATE(comp(1344, 21), 5, int3);  // minigames_main:button_graphics
                         cc_setparam(4545, int7);
                         if (((varplayer_3233 - 1) == int3)) {
                             CC_SETGRAPHIC(struct_getparam(int7, 3913));
@@ -107,7 +107,7 @@ function script6744(): void {
                         CC_SETPOSITION(1, (0 + ((43 + 3) * int4)), 0, 2);
                         int13 = struct_getparam(int6, 1268);
                         if (((((int8 == int13) || (int10 == int13)) || (int11 == int13)) || (int12 == int13))) {
-                            CC_CREATE(comp(1344, 22), 3, int3);
+                            CC_CREATE(comp(1344, 22), 3, int3);  // minigames_main:button_spotlight_highlight
                             CC_SETFILL(1);
                             if ((int8 == int13)) {
                                 CC_SETCOLOUR(script693(0, 255, 0));
@@ -118,10 +118,10 @@ function script6744(): void {
                             CC_SETSIZE(244, 33, 0, 0);
                             CC_SETPOSITION(6, (5 + ((33 + 3) * int4)), 0, 2);
                         } else {
-                            CC_CREATE(comp(1344, 22), 3, int3);
+                            CC_CREATE(comp(1344, 22), 3, int3);  // minigames_main:button_spotlight_highlight
                             CC_SETHIDE(true);
                         };
-                        CC_CREATE(comp(1344, 23), 3, int3);
+                        CC_CREATE(comp(1344, 23), 3, int3);  // minigames_main:button_clickboxes
                         CC_SETSIZE(254, 43, 0, 0);
                         CC_SETPOSITION(1, (0 + ((43 + 3) * int4)), 0, 2);
                         CC_SETCOLOUR(6710886);
@@ -133,7 +133,7 @@ function script6744(): void {
                         } else {
                             CC_SETTRANS(255);
                         };
-                        CC_CREATE(comp(1344, 25), 4, int3);
+                        CC_CREATE(comp(1344, 25), 4, int3);  // minigames_main:button_labels
                         cc_setparam(4545, int7);
                         CC_SETTEXTFONT(26 as fontmetrics);
                         CC_SETCOLOUR(16763656);
@@ -141,7 +141,7 @@ function script6744(): void {
                         CC_SETTEXTALIGN(0, 1, 13);
                         CC_SETSIZE(130, 43, 0, 0);
                         CC_SETPOSITION(40, (0 + ((43 + 3) * int4)), 0, 2);
-                        CC_CREATE(comp(1344, 24), 5, int3);
+                        CC_CREATE(comp(1344, 24), 5, int3);  // minigames_main:button_icons
                         if ((struct_getparam(int6, 3629) == 0)) {
                             if ((int8 == int13)) {
                                 CC_SETGRAPHIC(7918 as graphic);
@@ -178,7 +178,7 @@ function script6744(): void {
                         int4 = (int4 + 1);
                     };
                 } else {
-                    CC_CREATE(comp(1344, 21), 5, int3);
+                    CC_CREATE(comp(1344, 21), 5, int3);  // minigames_main:button_graphics
                     cc_setparam(4545, int7);
                     if (((varplayer_3233 - 1) == int3)) {
                         CC_SETGRAPHIC(struct_getparam(int7, 3913));
@@ -191,7 +191,7 @@ function script6744(): void {
                     CC_SETPOSITION(1, (0 + ((43 + 3) * int4)), 0, 2);
                     int13 = struct_getparam(int6, 1268);
                     if (((((int8 == int13) || (int10 == int13)) || (int11 == int13)) || (int12 == int13))) {
-                        CC_CREATE(comp(1344, 22), 3, int3);
+                        CC_CREATE(comp(1344, 22), 3, int3);  // minigames_main:button_spotlight_highlight
                         CC_SETFILL(1);
                         if ((int8 == int13)) {
                             CC_SETCOLOUR(script693(0, 255, 0));
@@ -202,10 +202,10 @@ function script6744(): void {
                         CC_SETSIZE(244, 33, 0, 0);
                         CC_SETPOSITION(6, (5 + ((33 + 3) * int4)), 0, 2);
                     } else {
-                        CC_CREATE(comp(1344, 22), 3, int3);
+                        CC_CREATE(comp(1344, 22), 3, int3);  // minigames_main:button_spotlight_highlight
                         CC_SETHIDE(true);
                     };
-                    CC_CREATE(comp(1344, 23), 3, int3);
+                    CC_CREATE(comp(1344, 23), 3, int3);  // minigames_main:button_clickboxes
                     CC_SETSIZE(254, 43, 0, 0);
                     CC_SETPOSITION(1, (0 + ((43 + 3) * int4)), 0, 2);
                     CC_SETCOLOUR(6710886);
@@ -217,7 +217,7 @@ function script6744(): void {
                     } else {
                         CC_SETTRANS(255);
                     };
-                    CC_CREATE(comp(1344, 25), 4, int3);
+                    CC_CREATE(comp(1344, 25), 4, int3);  // minigames_main:button_labels
                     cc_setparam(4545, int7);
                     CC_SETTEXTFONT(26 as fontmetrics);
                     CC_SETCOLOUR(16763656);
@@ -225,7 +225,7 @@ function script6744(): void {
                     CC_SETTEXTALIGN(0, 1, 13);
                     CC_SETSIZE(130, 43, 0, 0);
                     CC_SETPOSITION(40, (0 + ((43 + 3) * int4)), 0, 2);
-                    CC_CREATE(comp(1344, 24), 5, int3);
+                    CC_CREATE(comp(1344, 24), 5, int3);  // minigames_main:button_icons
                     if ((struct_getparam(int6, 3629) == 0)) {
                         if ((int8 == int13)) {
                             CC_SETGRAPHIC(7918 as graphic);
@@ -263,18 +263,18 @@ function script6744(): void {
                 };
             } else if ((struct_getparam(int6, 3812) == 1)) {
                 if ((script3224(struct_getparam(int6, 1268)) == 0)) {
-                    CC_CREATE(comp(1344, 21), 5, int3);
+                    CC_CREATE(comp(1344, 21), 5, int3);  // minigames_main:button_graphics
                     CC_SETHIDE(true);
-                    CC_CREATE(comp(1344, 22), 3, int3);
+                    CC_CREATE(comp(1344, 22), 3, int3);  // minigames_main:button_spotlight_highlight
                     CC_SETHIDE(true);
-                    CC_CREATE(comp(1344, 24), 5, int3);
+                    CC_CREATE(comp(1344, 24), 5, int3);  // minigames_main:button_icons
                     CC_SETHIDE(true);
-                    CC_CREATE(comp(1344, 25), 4, int3);
+                    CC_CREATE(comp(1344, 25), 4, int3);  // minigames_main:button_labels
                     CC_SETHIDE(true);
-                    CC_CREATE(comp(1344, 23), 3, int3);
+                    CC_CREATE(comp(1344, 23), 3, int3);  // minigames_main:button_clickboxes
                     CC_SETHIDE(true);
                 } else {
-                    CC_CREATE(comp(1344, 21), 5, int3);
+                    CC_CREATE(comp(1344, 21), 5, int3);  // minigames_main:button_graphics
                     cc_setparam(4545, int7);
                     if (((varplayer_3233 - 1) == int3)) {
                         CC_SETGRAPHIC(struct_getparam(int7, 3913));
@@ -287,7 +287,7 @@ function script6744(): void {
                     CC_SETPOSITION(1, (0 + ((43 + 3) * int4)), 0, 2);
                     int13 = struct_getparam(int6, 1268);
                     if (((((int8 == int13) || (int10 == int13)) || (int11 == int13)) || (int12 == int13))) {
-                        CC_CREATE(comp(1344, 22), 3, int3);
+                        CC_CREATE(comp(1344, 22), 3, int3);  // minigames_main:button_spotlight_highlight
                         CC_SETFILL(1);
                         if ((int8 == int13)) {
                             CC_SETCOLOUR(script693(0, 255, 0));
@@ -298,10 +298,10 @@ function script6744(): void {
                         CC_SETSIZE(244, 33, 0, 0);
                         CC_SETPOSITION(6, (5 + ((33 + 3) * int4)), 0, 2);
                     } else {
-                        CC_CREATE(comp(1344, 22), 3, int3);
+                        CC_CREATE(comp(1344, 22), 3, int3);  // minigames_main:button_spotlight_highlight
                         CC_SETHIDE(true);
                     };
-                    CC_CREATE(comp(1344, 23), 3, int3);
+                    CC_CREATE(comp(1344, 23), 3, int3);  // minigames_main:button_clickboxes
                     CC_SETSIZE(254, 43, 0, 0);
                     CC_SETPOSITION(1, (0 + ((43 + 3) * int4)), 0, 2);
                     CC_SETCOLOUR(6710886);
@@ -313,7 +313,7 @@ function script6744(): void {
                     } else {
                         CC_SETTRANS(255);
                     };
-                    CC_CREATE(comp(1344, 25), 4, int3);
+                    CC_CREATE(comp(1344, 25), 4, int3);  // minigames_main:button_labels
                     cc_setparam(4545, int7);
                     CC_SETTEXTFONT(26 as fontmetrics);
                     CC_SETCOLOUR(16763656);
@@ -321,7 +321,7 @@ function script6744(): void {
                     CC_SETTEXTALIGN(0, 1, 13);
                     CC_SETSIZE(130, 43, 0, 0);
                     CC_SETPOSITION(40, (0 + ((43 + 3) * int4)), 0, 2);
-                    CC_CREATE(comp(1344, 24), 5, int3);
+                    CC_CREATE(comp(1344, 24), 5, int3);  // minigames_main:button_icons
                     if ((struct_getparam(int6, 3629) == 0)) {
                         if ((int8 == int13)) {
                             CC_SETGRAPHIC(7918 as graphic);
@@ -358,7 +358,7 @@ function script6744(): void {
                     int4 = (int4 + 1);
                 };
             } else {
-                CC_CREATE(comp(1344, 21), 5, int3);
+                CC_CREATE(comp(1344, 21), 5, int3);  // minigames_main:button_graphics
                 cc_setparam(4545, int7);
                 if (((varplayer_3233 - 1) == int3)) {
                     CC_SETGRAPHIC(struct_getparam(int7, 3913));
@@ -371,7 +371,7 @@ function script6744(): void {
                 CC_SETPOSITION(1, (0 + ((43 + 3) * int4)), 0, 2);
                 int13 = struct_getparam(int6, 1268);
                 if (((((int8 == int13) || (int10 == int13)) || (int11 == int13)) || (int12 == int13))) {
-                    CC_CREATE(comp(1344, 22), 3, int3);
+                    CC_CREATE(comp(1344, 22), 3, int3);  // minigames_main:button_spotlight_highlight
                     CC_SETFILL(1);
                     if ((int8 == int13)) {
                         CC_SETCOLOUR(script693(0, 255, 0));
@@ -382,10 +382,10 @@ function script6744(): void {
                     CC_SETSIZE(244, 33, 0, 0);
                     CC_SETPOSITION(6, (5 + ((33 + 3) * int4)), 0, 2);
                 } else {
-                    CC_CREATE(comp(1344, 22), 3, int3);
+                    CC_CREATE(comp(1344, 22), 3, int3);  // minigames_main:button_spotlight_highlight
                     CC_SETHIDE(true);
                 };
-                CC_CREATE(comp(1344, 23), 3, int3);
+                CC_CREATE(comp(1344, 23), 3, int3);  // minigames_main:button_clickboxes
                 CC_SETSIZE(254, 43, 0, 0);
                 CC_SETPOSITION(1, (0 + ((43 + 3) * int4)), 0, 2);
                 CC_SETCOLOUR(6710886);
@@ -397,7 +397,7 @@ function script6744(): void {
                 } else {
                     CC_SETTRANS(255);
                 };
-                CC_CREATE(comp(1344, 25), 4, int3);
+                CC_CREATE(comp(1344, 25), 4, int3);  // minigames_main:button_labels
                 cc_setparam(4545, int7);
                 CC_SETTEXTFONT(26 as fontmetrics);
                 CC_SETCOLOUR(16763656);
@@ -405,7 +405,7 @@ function script6744(): void {
                 CC_SETTEXTALIGN(0, 1, 13);
                 CC_SETSIZE(130, 43, 0, 0);
                 CC_SETPOSITION(40, (0 + ((43 + 3) * int4)), 0, 2);
-                CC_CREATE(comp(1344, 24), 5, int3);
+                CC_CREATE(comp(1344, 24), 5, int3);  // minigames_main:button_icons
                 if ((struct_getparam(int6, 3629) == 0)) {
                     if ((int8 == int13)) {
                         CC_SETGRAPHIC(7918 as graphic);
@@ -446,12 +446,12 @@ function script6744(): void {
     };
     script10428(88080414, 88080415, 6156, -1, "Filter the minigames shown.", varbitplayer_20794, 0);
     if ((int4 == 0)) {
-        IF_SETHIDE(false, comp(1344, 18));
+        IF_SETHIDE(false, comp(1344, 18));  // minigames_main:no_favs_text
     };
     script9175();
-    IF_SETSCROLLSIZE(0, (int4 * (3 + 43)), comp(1344, 20));
-    IF_SETSCROLLPOS(0, 0, comp(1344, 20));
-    if ((IF_GETSCROLLHEIGHT(comp(1344, 20)) > IF_GETHEIGHT(comp(1344, 19)))) {
+    IF_SETSCROLLSIZE(0, (int4 * (3 + 43)), comp(1344, 20));  // minigames_main:list
+    IF_SETSCROLLPOS(0, 0, comp(1344, 20));  // minigames_main:list
+    if ((IF_GETSCROLLHEIGHT(comp(1344, 20) /*minigames_main:list*/) > IF_GETHEIGHT(comp(1344, 19) /*minigames_main:list_layer*/))) {
         script31(88080412, 88080404, 4343, 4340, 4341, 4342, 4337, 4336);
     } else {
         script31(88080412, 88080403, 4343, 4340, 4341, 4342, 4337, 4336);

@@ -3,7 +3,7 @@ function script13497(int0: number): void {
     var int1 = 15;
     if ((script16112() == 1)) {
         script14093(int0, -1, 28, 1, 4, 0, int1, 2);
-        IF_SETOP(1, "View information", comp(662, 50));
+        IF_SETOP(1, "View information", comp(662, 50));  // lore_stats_side:header_holder
         return;
     };
     var int2 = script16113();
@@ -19,7 +19,7 @@ function script13497(int0: number): void {
     var int4 = (script7593(string0, (IF_GETWIDTH(int0) - (2 * int3)), 28, 0) + (4 * int3));
     IF_SETSIZE(28, int4, 1, 0, int0);
     script7795(43384879, 21361, 0);
-    CC_CREATE(comp(662, 48), 4, 0);
+    CC_CREATE(comp(662, 48), 4, 0);  // lore_stats_side:info_popup_text
     CC_SETSIZE((2 * int3), (2 * int3), 1, 1);
     CC_SETPOSITION(int3, (2 * int3), 0, 2);
     CC_SETTEXTFONT(28 as fontmetrics);
@@ -29,6 +29,6 @@ function script13497(int0: number): void {
     CC_SETCOLOUR(16777215);
     IF_SETSIZE(28, 4, 1, 0, int0);
     script14093(int0, -1, 28, 1, int4, 0, int1, 2);
-    IF_SETOP(1, "Close information", comp(662, 50));
+    IF_SETOP(1, "Close information", comp(662, 50));  // lore_stats_side:header_holder
     return;
 }

@@ -10,7 +10,7 @@ function script19715(int0: number, int1: number): void {
         string1 = enum_getvalue(0, 36, 6629, int1);
     };
     var int3 = 1;
-    if ((IF_FIND(comp(1475, 43)) == 1)) {
+    if ((IF_FIND(comp(1475, 43)) == 1)) {  // toplevel_v2_edit_mode:dropdown_name
         unk11058();
         if ((int1 == 0)) {
             CC_LIST_ADDENTRY(0, `As: ${string0}`, -1);

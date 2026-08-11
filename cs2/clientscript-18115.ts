@@ -35,8 +35,8 @@ function script18115(): void {
     };
     int1 = (int1 / 2);
     int2 = (int2 / 2);
-    IF_SETGRAPHIC(int0, comp(1229, 10));
-    IF_SETSIZE(int1, int2, 0, 0, comp(1229, 10));
+    IF_SETGRAPHIC(int0, comp(1229, 10));  // bp3_first_open_splash:bp3_heropass_title
+    IF_SETSIZE(int1, int2, 0, 0, comp(1229, 10));  // bp3_first_open_splash:bp3_heropass_title
     script17927();
     script7852(80543750, 0, 0, 0, 0, 0, 0, 0, 1, 1, script17989(27), "");
     CC_SETOP(1, "Begin Hero Pass");
@@ -48,7 +48,7 @@ function script18115(): void {
     var int3 = 0;
     var int4 = 0;
     var int5 = 450;
-    var int6 = comp(1229, 5);
+    var int6 = comp(1229, 5);  // bp3_first_open_splash:open_pass_vfx_back
     CC_DELETEALL(int6);
     script2994(int6, 1, int3, int4, 1, 1, int5, int5, 0, 0, 4312);
     CC_SETONTIMER(callback(script17942, int6, 1, -1500));
@@ -56,7 +56,7 @@ function script18115(): void {
     script2994(int6, 2, int3, int4, 1, 1, int5, int5, 0, 0, 4312);
     CC_SETONTIMER(callback(script17942, int6, 2, -1500));
     CC_SET2DANGLE(49152);
-    int6 = comp(1229, 7);
+    int6 = comp(1229, 7);  // bp3_first_open_splash:open_pass_vfx_front
     CC_DELETEALL(int6);
     script2994(int6, 1, int3, int4, 1, 1, int5, int5, 0, 0, 4312);
     CC_SETONTIMER(callback(script17942, int6, 1, -1500));
@@ -98,6 +98,6 @@ function script18115(): void {
     } else {
         string0 = strconcat(string0, `<br> - If unlocked, the progrss booster from ${script17888(script17854())} would've awarded ${TOSTRING_LOCALISED(10, 1)} levels.`);
     };
-    IF_SETTEXT(string0, comp(1229, 22));
+    IF_SETTEXT(string0, comp(1229, 22));  // bp3_first_open_splash:right_desc
     return;
 }

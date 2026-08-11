@@ -8,7 +8,7 @@ function script2400(int0: number): void {
     };
     var int1 = script2387(1);
     var int2 = 0;
-    if ((IF_FIND(comp(1431, 1)) == 1)) {
+    if ((IF_FIND(comp(1431, 1)) == 1)) {  // toplevel_v2_ribbon:ribbon_root
         int2 = cc_getparam(6837);
     };
     int1 = (int1 - int2);
@@ -38,7 +38,7 @@ function script2400(int0: number): void {
     var int14 = int2;
     var int15 = 0;
     var int16 = (int1 + int2);
-    if ((IF_GETWIDTH(comp(1431, 1)) < IF_GETHEIGHT(comp(1431, 1)))) {
+    if ((IF_GETWIDTH(comp(1431, 1)) < IF_GETHEIGHT(comp(1431, 1)))) {  // toplevel_v2_ribbon:ribbon_root
         int12 = script2255(int11, int10, int0, -1, 2, int6, int7, 0, 0, 96797362);
     } else {
         if ((varbitplayer_22875 == 1)) {
@@ -55,7 +55,7 @@ function script2400(int0: number): void {
         };
         if ((enum_hasoutput(0, 13319 as cs2enum, int13) == 1)) {
             int13 = enum_getreverseindex(0, 0, 13319 as cs2enum, int13, 0);
-            if (((CC_FIND(comp(568, 5), int13) == 1) && (CC_FIND[1](comp(568, 6), int13) == 1))) {
+            if (((CC_FIND(comp(568, 5) /*toplevel_v2_ribbon_extra:window_build*/, int13) == 1) && (CC_FIND[1](comp(568, 6) /*toplevel_v2_ribbon_extra:window_click*/, int13) == 1))) {
                 CC_SETHIDE(false);
                 CC_SETHIDE[1](false);
                 switch (int12) {

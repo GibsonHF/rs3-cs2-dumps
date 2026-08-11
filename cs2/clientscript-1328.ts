@@ -1,9 +1,9 @@
 //
 function script1328(int0: number): void {
-    if ((((((((IF_GETHIDE(comp(906, 99)) == false) || (IF_GETHIDE(comp(906, 100)) == false)) || (IF_GETHIDE(comp(906, 101)) == false)) || (IF_GETHIDE(comp(906, 151)) == false)) || (IF_GETHIDE(comp(906, 144)) == false)) || (IF_GETHIDE(comp(906, 145)) == false)) || (IF_GETHIDE(comp(906, 146)) == false))) {
+    if ((((((((IF_GETHIDE(comp(906, 99) /*lobbyscreen:input*/) == false) || (IF_GETHIDE(comp(906, 100) /*lobbyscreen:windowmode_confirm*/) == false)) || (IF_GETHIDE(comp(906, 101) /*lobbyscreen:pvp_warning*/) == false)) || (IF_GETHIDE(comp(906, 151) /*lobbyscreen:popup*/) == false)) || (IF_GETHIDE(comp(906, 144) /*lobbyscreen:report_abuse_stage1*/) == false)) || (IF_GETHIDE(comp(906, 145) /*lobbyscreen:report_abuse_stage2*/) == false)) || (IF_GETHIDE(comp(906, 146) /*lobbyscreen:report_abuse_ignore*/) == false))) {
         return;
     };
-    if ((IF_GETHIDE(comp(906, 149)) == false)) {
+    if ((IF_GETHIDE(comp(906, 149)) == false)) {  // lobbyscreen:under_13
         if ((int0 == 13)) {
             script2422();
         };
@@ -90,7 +90,7 @@ function script1328(int0: number): void {
                     break;
                 }
                 case 83: {
-                    IF_TRIGGEROP(comp(906, 81), -1, 1);
+                    IF_TRIGGEROP(comp(906, 81), -1, 1);  // lobbyscreen:login_button
                     break;
                 }
             };

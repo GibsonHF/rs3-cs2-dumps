@@ -159,10 +159,10 @@ function script6999(int0: number): void {
         script8844(8, script8825(5, 101), 93716738, -1);
         script8844(1, script8825(5, 82), 93716483, -1);
         script8844(1, script8825(5, 81), 93716482, -1);
-        if ((CC_FIND(comp(1477, 71), 1) == 1)) {
+        if ((CC_FIND(comp(1477, 71), 1) == 1)) {  // toplevel_v2:action_window_settings_button
             script8844(2, script8825(5, 83), 96796743, 1);
         } else {
-            IF_SETONTIMER(callback(script7967, 96796743, 1, -2147483645), comp(1430, 262));
+            IF_SETONTIMER(callback(script7967, 96796743, 1, -2147483645), comp(1430, 262));  // toplevel_v2_combat_bar:fullscreen_arrow_bg
         };
         script8844(1, script8825(5, 85), 93716493, -1);
         script8844(1, script8825(5, 85), 98566146, -1);
@@ -226,53 +226,53 @@ function script6999(int0: number): void {
                 int4 = (int4 + 1);
             };
         };
-        IF_SETOPKEY(6, 0, 0, comp(1430, 261));
-        IF_SETOPKEY(7, 0, 0, comp(1430, 261));
-        IF_SETOPKEY(8, 0, 0, comp(1430, 261));
-        IF_SETOPKEY(9, 0, 0, comp(1430, 261));
-        IF_SETOPKEY(10, 0, 0, comp(1430, 261));
-        IF_SETOPKEY(6, 0, 0, comp(1430, 260));
-        IF_SETOPKEY(7, 0, 0, comp(1430, 260));
-        IF_SETOPKEY(8, 0, 0, comp(1430, 260));
-        IF_SETOPKEY(9, 0, 0, comp(1430, 260));
-        IF_SETOPKEY(10, 0, 0, comp(1430, 260));
-        IF_SETOPKEY(6, 0, 0, comp(1430, 259));
-        IF_SETOPKEY(7, 0, 0, comp(1430, 259));
-        IF_SETOPKEY(8, 0, 0, comp(1430, 259));
-        IF_SETOPKEY(9, 0, 0, comp(1430, 259));
-        IF_SETOPKEY(10, 0, 0, comp(1430, 259));
-        IF_SETOPKEY(6, 0, 0, comp(1430, 258));
-        IF_SETOPKEY(7, 0, 0, comp(1430, 258));
-        IF_SETOPKEY(8, 0, 0, comp(1430, 258));
-        IF_SETOPKEY(1, 0, 0, comp(1430, 262));
-        IF_SETOPKEY(2, 0, 0, comp(1430, 262));
-        IF_SETOPKEY(3, 0, 0, comp(1430, 262));
-        IF_SETOPKEY(4, 0, 0, comp(1430, 262));
-        IF_SETOPKEY(5, 0, 0, comp(1430, 262));
-        IF_SETOPKEY(6, 0, 0, comp(1430, 262));
-        IF_SETOPKEY(7, 0, 0, comp(1430, 262));
-        IF_SETOPKEY(8, 0, 0, comp(1430, 262));
-        IF_SETOPKEY(9, 0, 0, comp(1430, 262));
-        IF_SETOPKEY(10, 0, 0, comp(1430, 262));
-        IF_SETOPKEY(1, 0, 0, comp(1430, 3));
-        IF_SETOPKEY(1, 0, 0, comp(1430, 2));
-        if ((CC_FIND(comp(1477, 71), 1) == 1)) {
+        IF_SETOPKEY(6, 0, 0, comp(1430, 261));  // toplevel_v2_combat_bar:actionbar_scroller_op_1_5
+        IF_SETOPKEY(7, 0, 0, comp(1430, 261));  // toplevel_v2_combat_bar:actionbar_scroller_op_1_5
+        IF_SETOPKEY(8, 0, 0, comp(1430, 261));  // toplevel_v2_combat_bar:actionbar_scroller_op_1_5
+        IF_SETOPKEY(9, 0, 0, comp(1430, 261));  // toplevel_v2_combat_bar:actionbar_scroller_op_1_5
+        IF_SETOPKEY(10, 0, 0, comp(1430, 261));  // toplevel_v2_combat_bar:actionbar_scroller_op_1_5
+        IF_SETOPKEY(6, 0, 0, comp(1430, 260));  // toplevel_v2_combat_bar:actionbar_scroller_op_6_10
+        IF_SETOPKEY(7, 0, 0, comp(1430, 260));  // toplevel_v2_combat_bar:actionbar_scroller_op_6_10
+        IF_SETOPKEY(8, 0, 0, comp(1430, 260));  // toplevel_v2_combat_bar:actionbar_scroller_op_6_10
+        IF_SETOPKEY(9, 0, 0, comp(1430, 260));  // toplevel_v2_combat_bar:actionbar_scroller_op_6_10
+        IF_SETOPKEY(10, 0, 0, comp(1430, 260));  // toplevel_v2_combat_bar:actionbar_scroller_op_6_10
+        IF_SETOPKEY(6, 0, 0, comp(1430, 259));  // toplevel_v2_combat_bar:actionbar_scroller_op_11_15
+        IF_SETOPKEY(7, 0, 0, comp(1430, 259));  // toplevel_v2_combat_bar:actionbar_scroller_op_11_15
+        IF_SETOPKEY(8, 0, 0, comp(1430, 259));  // toplevel_v2_combat_bar:actionbar_scroller_op_11_15
+        IF_SETOPKEY(9, 0, 0, comp(1430, 259));  // toplevel_v2_combat_bar:actionbar_scroller_op_11_15
+        IF_SETOPKEY(10, 0, 0, comp(1430, 259));  // toplevel_v2_combat_bar:actionbar_scroller_op_11_15
+        IF_SETOPKEY(6, 0, 0, comp(1430, 258));  // toplevel_v2_combat_bar:actionbar_scroller_op_16_20
+        IF_SETOPKEY(7, 0, 0, comp(1430, 258));  // toplevel_v2_combat_bar:actionbar_scroller_op_16_20
+        IF_SETOPKEY(8, 0, 0, comp(1430, 258));  // toplevel_v2_combat_bar:actionbar_scroller_op_16_20
+        IF_SETOPKEY(1, 0, 0, comp(1430, 262));  // toplevel_v2_combat_bar:fullscreen_arrow_bg
+        IF_SETOPKEY(2, 0, 0, comp(1430, 262));  // toplevel_v2_combat_bar:fullscreen_arrow_bg
+        IF_SETOPKEY(3, 0, 0, comp(1430, 262));  // toplevel_v2_combat_bar:fullscreen_arrow_bg
+        IF_SETOPKEY(4, 0, 0, comp(1430, 262));  // toplevel_v2_combat_bar:fullscreen_arrow_bg
+        IF_SETOPKEY(5, 0, 0, comp(1430, 262));  // toplevel_v2_combat_bar:fullscreen_arrow_bg
+        IF_SETOPKEY(6, 0, 0, comp(1430, 262));  // toplevel_v2_combat_bar:fullscreen_arrow_bg
+        IF_SETOPKEY(7, 0, 0, comp(1430, 262));  // toplevel_v2_combat_bar:fullscreen_arrow_bg
+        IF_SETOPKEY(8, 0, 0, comp(1430, 262));  // toplevel_v2_combat_bar:fullscreen_arrow_bg
+        IF_SETOPKEY(9, 0, 0, comp(1430, 262));  // toplevel_v2_combat_bar:fullscreen_arrow_bg
+        IF_SETOPKEY(10, 0, 0, comp(1430, 262));  // toplevel_v2_combat_bar:fullscreen_arrow_bg
+        IF_SETOPKEY(1, 0, 0, comp(1430, 3));  // toplevel_v2_combat_bar:next_bar_listener
+        IF_SETOPKEY(1, 0, 0, comp(1430, 2));  // toplevel_v2_combat_bar:previous_bar_listener
+        if ((CC_FIND(comp(1477, 71), 1) == 1)) {  // toplevel_v2:action_window_settings_button
             CC_SETOPKEY(2, 0, 0, -1, 0, -1, 0, -1, 0, -1, 0);
         };
-        IF_SETOPKEY(1, 0, 0, comp(1430, 13));
-        IF_SETOPKEY(1, 0, 0, comp(1504, 2));
-        IF_SETOPKEY(1, 0, 0, comp(1430, 18));
-        IF_SETOPKEY(1, 0, 0, comp(1505, 2));
-        IF_SETOPKEY(1, 0, 0, comp(1430, 59));
-        IF_SETOPKEY(1, 0, 0, comp(1430, 57));
-        IF_SETOPKEY(1, 0, 0, comp(1616, 10));
-        IF_SETOPKEY(2, 0, 0, comp(1616, 10));
+        IF_SETOPKEY(1, 0, 0, comp(1430, 13));  // toplevel_v2_combat_bar:health_icon
+        IF_SETOPKEY(1, 0, 0, comp(1504, 2));  // topstat_hitpoints:background
+        IF_SETOPKEY(1, 0, 0, comp(1430, 18));  // toplevel_v2_combat_bar:prayer_globe_layer
+        IF_SETOPKEY(1, 0, 0, comp(1505, 2));  // topstat_prayer:topstat_background_prayer
+        IF_SETOPKEY(1, 0, 0, comp(1430, 59));  // toplevel_v2_combat_bar:auto_retaliate_button
+        IF_SETOPKEY(1, 0, 0, comp(1430, 57));  // toplevel_v2_combat_bar:player_adrenaline_bar
+        IF_SETOPKEY(1, 0, 0, comp(1616, 10));  // combatv2_adrenaline:fullscreen_adrenaline_bg
+        IF_SETOPKEY(2, 0, 0, comp(1616, 10));  // combatv2_adrenaline:fullscreen_adrenaline_bg
         IF_SETOPKEY(1, 0, 0, script8082());
         unk11168(0, 0, script8082());
-        IF_SETOPKEY(1, 0, 0, comp(1430, 5));
-        IF_SETOPKEY(1, 0, 0, comp(1616, 16));
-        IF_SETOPKEY(2, 0, 0, comp(1430, 5));
-        IF_SETOPKEY(2, 0, 0, comp(1616, 16));
+        IF_SETOPKEY(1, 0, 0, comp(1430, 5));  // toplevel_v2_combat_bar:tab_targetting_listener
+        IF_SETOPKEY(1, 0, 0, comp(1616, 16));  // combatv2_adrenaline:tab_targetting_listener
+        IF_SETOPKEY(2, 0, 0, comp(1430, 5));  // toplevel_v2_combat_bar:tab_targetting_listener
+        IF_SETOPKEY(2, 0, 0, comp(1616, 16));  // combatv2_adrenaline:tab_targetting_listener
         unk11168(0, 0, 93716484);
         unk11168(0, 0, 105906191);
     };

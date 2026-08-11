@@ -5,17 +5,17 @@ function script19598(): void {
     var int2 = -1 as obj;
     var int3 = 0;
     while ((int1 < 200)) {
-        if (((CC_FIND(comp(1313, 75), int1) == 1) && (CC_GETINVOBJECT() == 48447 as obj))) {
+        if (((CC_FIND(comp(1313, 75), int1) == 1) && (CC_GETINVOBJECT() == 48447 as obj))) {  // group_ironman_storage:clan_inv
             [int0, int2, int3] = script19600(MAX(int0, (int1 + 1)));
-            if ((CC_FIND(comp(1313, 75), int1) == 1)) {
+            if ((CC_FIND(comp(1313, 75), int1) == 1)) {  // group_ironman_storage:clan_inv
                 CC_SETOBJECT(int2, int3);
             };
-            if ((CC_FIND(comp(1313, 75), int0) == 1)) {
+            if ((CC_FIND(comp(1313, 75), int0) == 1)) {  // group_ironman_storage:clan_inv
                 CC_SETOBJECT_NONUM(48447 as obj, 0);
             };
         };
         int1 = (int1 + 1);
     };
-    IF_SETONTIMER(callback(script19597), comp(1313, 74));
+    IF_SETONTIMER(callback(script19597), comp(1313, 74));  // group_ironman_storage:clan_items_container
     return;
 }

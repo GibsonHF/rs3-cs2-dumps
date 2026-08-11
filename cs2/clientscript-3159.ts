@@ -17,7 +17,7 @@ function script3159(int0: number, int1: number, int2: number, int3: number, int4
     IF_SETONFRIENDTRANSMIT(callback(script11461, int2, int3, int4, int7, int5, int6, int8, int9), int5);
     if ((unk10993(0) == 1)) {
         script3165(int2, int3, int4, int7, int5, int6, int8, int9);
-        if ((IF_GETHIDE(comp(906, 48)) == false)) {
+        if ((IF_GETHIDE(comp(906, 48)) == false)) {  // lobbyscreen:clanchat_panel
             script3161(1);
         } else if ((int17 == 1)) {
             if ((unk11097(68419591) == 1)) {

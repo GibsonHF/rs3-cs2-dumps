@@ -3,19 +3,19 @@ function script5269(int0: number, int1: number, int2: number, int3: number, int4
     var int28 = 0;
     var int29 = 0;
     var int30 = 0;
-    IF_SETTEXT(string0, comp(1137, 49));
-    IF_SETONMOUSEREPEAT(callback(script8799, string1, -2147483645, -2147483643), comp(1137, 38));
-    IF_SETTEXT(inttostring(int25, 10), comp(1137, 54));
-    IF_SETTEXT(inttostring((int26 + int27), 10), comp(1137, 45));
-    CC_DELETEALL(comp(1137, 36));
-    CC_DELETEALL(comp(1137, 86));
-    CC_DELETEALL(comp(1137, 97));
+    IF_SETTEXT(string0, comp(1137, 49));  // cmtool_if:scenario_name
+    IF_SETONMOUSEREPEAT(callback(script8799, string1, -2147483645, -2147483643), comp(1137, 38));  // cmtool_if:scenario
+    IF_SETTEXT(inttostring(int25, 10), comp(1137, 54));  // cmtool_if:player_number
+    IF_SETTEXT(inttostring((int26 + int27), 10), comp(1137, 45));  // cmtool_if:npc_number
+    CC_DELETEALL(comp(1137, 36));  // cmtool_if:npc_spawnlist
+    CC_DELETEALL(comp(1137, 86));  // cmtool_if:npc_spawnlist_1
+    CC_DELETEALL(comp(1137, 97));  // cmtool_if:npc_spawnlist_2
     if ((int0 == 1)) {
-        IF_SETHIDE(true, comp(1137, 23));
-        IF_SETHIDE(false, comp(1137, 24));
-        IF_SETHIDE(false, comp(1137, 25));
-        IF_SETTEXT(inttostring(int26, 10), comp(1137, 70));
-        IF_SETTEXT(inttostring(int27, 10), comp(1137, 76));
+        IF_SETHIDE(true, comp(1137, 23));  // cmtool_if:spawn_layer_single
+        IF_SETHIDE(false, comp(1137, 24));  // cmtool_if:spawn_layer_team_1
+        IF_SETHIDE(false, comp(1137, 25));  // cmtool_if:spawn_layer_team_2
+        IF_SETTEXT(inttostring(int26, 10), comp(1137, 70));  // cmtool_if:team1_number
+        IF_SETTEXT(inttostring(int27, 10), comp(1137, 76));  // cmtool_if:team2_number
         if ((int1 != -1)) {
             int28 = script5271(74514518, string2, int2, int3, int28);
         };
@@ -48,9 +48,9 @@ function script5269(int0: number, int1: number, int2: number, int3: number, int4
             int30 = script5272(74514529, int30, int29);
         };
     } else {
-        IF_SETHIDE(false, comp(1137, 23));
-        IF_SETHIDE(true, comp(1137, 24));
-        IF_SETHIDE(true, comp(1137, 25));
+        IF_SETHIDE(false, comp(1137, 23));  // cmtool_if:spawn_layer_single
+        IF_SETHIDE(true, comp(1137, 24));  // cmtool_if:spawn_layer_team_1
+        IF_SETHIDE(true, comp(1137, 25));  // cmtool_if:spawn_layer_team_2
         if ((int1 != -1)) {
             int28 = script5271(74514468, string2, int2, int3, int28);
         };

@@ -1,8 +1,8 @@
 //
 function script6866(): void {
-    CC_DELETEALL(comp(1360, 0));
-    CC_DELETEALL(comp(1360, 2));
-    CC_DELETEALL(comp(1360, 1));
+    CC_DELETEALL(comp(1360, 0));  // oct_event_if:text_layer
+    CC_DELETEALL(comp(1360, 2));  // oct_event_if:tooltip_layer
+    CC_DELETEALL(comp(1360, 1));  // oct_event_if:scrollbar_layer
     var int0 = ENUM_GETOUTPUTCOUNT(6570 as cs2enum);
     var int1 = 0;
     var int2 = 1;

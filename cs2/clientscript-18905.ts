@@ -7,7 +7,7 @@ function script18905(): void {
     var string0 = "";
     var int4 = DB_LISTALL(284);
     var int5 = 0;
-    CC_DELETEALL(comp(1284, 26));
+    CC_DELETEALL(comp(1284, 26));  // calendar_main:categories_container
     while ((int5 < int4)) {
         if ((script18856(int5) == 1)) {
             int5 = (int5 + 1);

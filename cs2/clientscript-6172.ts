@@ -8,7 +8,7 @@ function script6172(int0: number, int1: number): number {
     var int4 = struct_getparam(int2, 2391);
     var string0 = struct_getparam(int2, 2392);
     var int5 = 10735;
-    if ((CC_FIND(comp(1273, 14), int0) == 1)) {
+    if ((CC_FIND(comp(1273, 14), int0) == 1)) {  // rcsiphonxp_shop:items_buy_op_layer
         CC_SETGRAPHIC(10734 as graphic);
         CC_SETSIZE(84, 78, 0, 0);
         CC_SETPOSITION(int3, int4, 0, 0);
@@ -22,7 +22,7 @@ function script6172(int0: number, int1: number): number {
         CC_SETONOP(callback(script6171, int0, -2147483645));
         if ((struct_getparam(int2, 2378) == 0)) {
             CC_SETOPBASE(struct_getparam(int2, 2376));
-            CC_CREATE(comp(1273, 14), 4, int1);
+            CC_CREATE(comp(1273, 14), 4, int1);  // rcsiphonxp_shop:items_buy_op_layer
             CC_SETSIZE(84, 14, 0, 0);
             CC_SETPOSITION(int3, (int4 - 30), 0, 0);
             CC_SETTEXT(struct_getparam(int2, 2376));
@@ -34,7 +34,7 @@ function script6172(int0: number, int1: number): number {
             CC_SETOPBASE(struct_getparam(int2, 2376));
         } else {
             CC_SETOPBASE(`${struct_getparam(int2, 2376)} ${struct_getparam(int2, 2377)}`);
-            CC_CREATE(comp(1273, 14), 4, int1);
+            CC_CREATE(comp(1273, 14), 4, int1);  // rcsiphonxp_shop:items_buy_op_layer
             CC_SETSIZE(84, 14, 0, 0);
             CC_SETPOSITION(int3, (int4 - 37), 0, 0);
             if (((MAP_LANG() == 3) || (MAP_LANG() == 2))) {
@@ -47,7 +47,7 @@ function script6172(int0: number, int1: number): number {
             CC_SETTEXTSHADOW(false);
             CC_SETCOLOUR(16777215);
             int1 = (int1 + 1);
-            CC_CREATE(comp(1273, 14), 4, int1);
+            CC_CREATE(comp(1273, 14), 4, int1);  // rcsiphonxp_shop:items_buy_op_layer
             CC_SETSIZE(84, 14, 0, 0);
             CC_SETPOSITION(int3, (int4 - 23), 0, 0);
             if (((MAP_LANG() == 3) || (MAP_LANG() == 2))) {
@@ -62,7 +62,7 @@ function script6172(int0: number, int1: number): number {
             int1 = (int1 + 1);
             CC_SETOPBASE(strconcat(strconcat(struct_getparam(int2, 2376), " "), struct_getparam(int2, 2377)));
         };
-        CC_CREATE(comp(1273, 14), 4, int1);
+        CC_CREATE(comp(1273, 14), 4, int1);  // rcsiphonxp_shop:items_buy_op_layer
         CC_SETSIZE(84, 14, 0, 0);
         CC_SETPOSITION(int3, (int4 + 82), 0, 0);
         CC_SETTEXT(`${struct_getparam(int2, 2380)} Points`);
@@ -71,7 +71,7 @@ function script6172(int0: number, int1: number): number {
         CC_SETTEXTSHADOW(false);
         CC_SETCOLOUR(16417049);
         int1 = (int1 + 1);
-        CC_CREATE(comp(1273, 14), 6, int1);
+        CC_CREATE(comp(1273, 14), 6, int1);  // rcsiphonxp_shop:items_buy_op_layer
         CC_SETSIZE(20, 20, 0, 0);
         CC_SETMODEL(struct_getparam(int2, 2383));
         CC_SETMODELANGLE(struct_getparam(int2, 2388), struct_getparam(int2, 2389), struct_getparam(int2, 2385), struct_getparam(int2, 2386), struct_getparam(int2, 2387), struct_getparam(int2, 2384));

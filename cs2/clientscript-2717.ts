@@ -31,51 +31,51 @@ function script2717(): void {
     var int3 = comp(-1, 65535);
     switch (int0) {
         case 1: {
-            int3 = comp(92, 12);
+            int3 = comp(92, 12);  // div_map:colony1
             break;
         }
         case 2: {
-            int3 = comp(92, 13);
+            int3 = comp(92, 13);  // div_map:colony2
             break;
         }
         case 3: {
-            int3 = comp(92, 14);
+            int3 = comp(92, 14);  // div_map:colony3
             break;
         }
         case 4: {
-            int3 = comp(92, 15);
+            int3 = comp(92, 15);  // div_map:colony4
             break;
         }
         case 5: {
-            int3 = comp(92, 16);
+            int3 = comp(92, 16);  // div_map:colony5
             break;
         }
         case 6: {
-            int3 = comp(92, 17);
+            int3 = comp(92, 17);  // div_map:colony6
             break;
         }
         case 7: {
-            int3 = comp(92, 18);
+            int3 = comp(92, 18);  // div_map:colony7
             break;
         }
         case 8: {
-            int3 = comp(92, 19);
+            int3 = comp(92, 19);  // div_map:colony8
             break;
         }
         case 9: {
-            int3 = comp(92, 20);
+            int3 = comp(92, 20);  // div_map:colony9
             break;
         }
         case 10: {
-            int3 = comp(92, 21);
+            int3 = comp(92, 21);  // div_map:colony10
             break;
         }
         case 11: {
-            int3 = comp(92, 22);
+            int3 = comp(92, 22);  // div_map:colony11
             break;
         }
         case 12: {
-            int3 = comp(92, 23);
+            int3 = comp(92, 23);  // div_map:colony12
             break;
         }
         default: {
@@ -86,47 +86,47 @@ function script2717(): void {
     while ((int2 < int0)) {
         switch (int2) {
             case 1: {
-                int3 = comp(92, 12);
+                int3 = comp(92, 12);  // div_map:colony1
                 break;
             }
             case 2: {
-                int3 = comp(92, 13);
+                int3 = comp(92, 13);  // div_map:colony2
                 break;
             }
             case 3: {
-                int3 = comp(92, 14);
+                int3 = comp(92, 14);  // div_map:colony3
                 break;
             }
             case 4: {
-                int3 = comp(92, 15);
+                int3 = comp(92, 15);  // div_map:colony4
                 break;
             }
             case 5: {
-                int3 = comp(92, 16);
+                int3 = comp(92, 16);  // div_map:colony5
                 break;
             }
             case 6: {
-                int3 = comp(92, 17);
+                int3 = comp(92, 17);  // div_map:colony6
                 break;
             }
             case 7: {
-                int3 = comp(92, 18);
+                int3 = comp(92, 18);  // div_map:colony7
                 break;
             }
             case 8: {
-                int3 = comp(92, 19);
+                int3 = comp(92, 19);  // div_map:colony8
                 break;
             }
             case 9: {
-                int3 = comp(92, 20);
+                int3 = comp(92, 20);  // div_map:colony9
                 break;
             }
             case 10: {
-                int3 = comp(92, 21);
+                int3 = comp(92, 21);  // div_map:colony10
                 break;
             }
             case 11: {
-                int3 = comp(92, 22);
+                int3 = comp(92, 22);  // div_map:colony11
                 break;
             }
             default: {
@@ -140,47 +140,47 @@ function script2717(): void {
     while ((int2 > int0)) {
         switch (int2) {
             case 2: {
-                int3 = comp(92, 13);
+                int3 = comp(92, 13);  // div_map:colony2
                 break;
             }
             case 3: {
-                int3 = comp(92, 14);
+                int3 = comp(92, 14);  // div_map:colony3
                 break;
             }
             case 4: {
-                int3 = comp(92, 15);
+                int3 = comp(92, 15);  // div_map:colony4
                 break;
             }
             case 5: {
-                int3 = comp(92, 16);
+                int3 = comp(92, 16);  // div_map:colony5
                 break;
             }
             case 6: {
-                int3 = comp(92, 17);
+                int3 = comp(92, 17);  // div_map:colony6
                 break;
             }
             case 7: {
-                int3 = comp(92, 18);
+                int3 = comp(92, 18);  // div_map:colony7
                 break;
             }
             case 8: {
-                int3 = comp(92, 19);
+                int3 = comp(92, 19);  // div_map:colony8
                 break;
             }
             case 9: {
-                int3 = comp(92, 20);
+                int3 = comp(92, 20);  // div_map:colony9
                 break;
             }
             case 10: {
-                int3 = comp(92, 21);
+                int3 = comp(92, 21);  // div_map:colony10
                 break;
             }
             case 11: {
-                int3 = comp(92, 22);
+                int3 = comp(92, 22);  // div_map:colony11
                 break;
             }
             case 12: {
-                int3 = comp(92, 23);
+                int3 = comp(92, 23);  // div_map:colony12
                 break;
             }
             default: {

@@ -5,16 +5,16 @@ function script12148(): void {
     script12136(varbitclient_30261, 111935606, 111935605);
     script12136(varbitclient_30262, 111935608, 111935607);
     script12136(varbitclient_30263, 111935610, 111935609);
-    IF_SETGRAPHIC(script12149((varbitclient_30264 - 1)), comp(1708, 14));
-    IF_SETGRAPHIC(script12149((varbitclient_30265 - 1)), comp(1708, 15));
-    IF_SETGRAPHIC(script12149((varbitclient_30266 - 1)), comp(1708, 16));
-    IF_SETGRAPHIC(script12149((varbitclient_30267 - 1)), comp(1708, 17));
-    IF_SETGRAPHIC(script12149((varbitclient_30268 - 1)), comp(1708, 18));
+    IF_SETGRAPHIC(script12149((varbitclient_30264 - 1)), comp(1708, 14));  // invent_discovery:track_icon_0
+    IF_SETGRAPHIC(script12149((varbitclient_30265 - 1)), comp(1708, 15));  // invent_discovery:track_icon_1
+    IF_SETGRAPHIC(script12149((varbitclient_30266 - 1)), comp(1708, 16));  // invent_discovery:track_icon_2
+    IF_SETGRAPHIC(script12149((varbitclient_30267 - 1)), comp(1708, 17));  // invent_discovery:track_icon_3
+    IF_SETGRAPHIC(script12149((varbitclient_30268 - 1)), comp(1708, 18));  // invent_discovery:track_icon_4
     var string0 = "";
     if ((((((varbitclient_30264 == 0) || (varbitclient_30265 == 0)) || (varbitclient_30266 == 0)) || (varbitclient_30267 == 0)) || (varbitclient_30268 == 0))) {
-        IF_SETHIDE(false, comp(1708, 104));
+        IF_SETHIDE(false, comp(1708, 104));  // invent_discovery:discover_disable_layer
     } else {
-        IF_SETHIDE(true, comp(1708, 104));
+        IF_SETHIDE(true, comp(1708, 104));  // invent_discovery:discover_disable_layer
     };
     return;
 }

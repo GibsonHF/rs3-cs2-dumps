@@ -1,6 +1,6 @@
 //
 function script7947(): void {
-    IF_SETONTIMER(callback(), comp(1477, 800));
+    IF_SETONTIMER(callback(), comp(1477, 800));  // toplevel_v2:worldmap_ui_layer
     if ((WORLDMAP_3DVIEW_ACTIVE() == 0)) {
         return;
     };
@@ -12,8 +12,8 @@ function script7947(): void {
     stack(callback());
     stack(96797472);
     IF_SETONHOLD();
-    IF_SETONCLICK(callback(), comp(1477, 800));
-    IF_SETONTIMER(callback(), comp(1477, 800));
+    IF_SETONCLICK(callback(), comp(1477, 800));  // toplevel_v2:worldmap_ui_layer
+    IF_SETONTIMER(callback(), comp(1477, 800));  // toplevel_v2:worldmap_ui_layer
     script13878();
     return;
 }

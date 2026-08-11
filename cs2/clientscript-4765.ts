@@ -41,16 +41,16 @@ function script4765(): void {
         }
     };
     if ((int3 == 1)) {
-        IF_SETHIDE(int1, comp(1253, 80));
-        IF_SETHIDE(int2, comp(1253, 75));
-        IF_SETTEXT(string0, comp(1253, 83));
-        IF_SETTEXT(`${string1}:`, comp(1253, 86));
+        IF_SETHIDE(int1, comp(1253, 80));  // wheel_of_fortune:bonus_feature_counter_layer
+        IF_SETHIDE(int2, comp(1253, 75));  // wheel_of_fortune:bonus_feature_info_layer
+        IF_SETTEXT(string0, comp(1253, 83));  // wheel_of_fortune:bonus_feature_counter_title
+        IF_SETTEXT(`${string1}:`, comp(1253, 86));  // wheel_of_fortune:bonus_feature_counter_status_label
         if (((int4 > 0) && (int5 > 0))) {
-            IF_SETTEXT(`${inttostring(int4, 10)}/${inttostring(int5, 10)}`, comp(1253, 87));
+            IF_SETTEXT(`${inttostring(int4, 10)}/${inttostring(int5, 10)}`, comp(1253, 87));  // wheel_of_fortune:bonus_feature_counter_status_text
         };
     } else {
-        IF_SETHIDE(true, comp(1253, 80));
-        IF_SETHIDE(true, comp(1253, 75));
+        IF_SETHIDE(true, comp(1253, 80));  // wheel_of_fortune:bonus_feature_counter_layer
+        IF_SETHIDE(true, comp(1253, 75));  // wheel_of_fortune:bonus_feature_info_layer
     };
     return;
 }

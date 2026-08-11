@@ -7,15 +7,15 @@ function script5755(int0: number): void {
     } else if ((int1 > 200)) {
         if ((varbitclient_35731 < 9)) {
             script8899(13138);
-            if ((IF_FIND(comp(1865, 15)) == 1)) {
+            if ((IF_FIND(comp(1865, 15)) == 1)) {  // sworld_end:anima_value_label
                 if ((varbitplayer_35835 >= 25)) {
                     cc_setparam(6519, 0);
                     CC_SETONTIMER(callback(script5756, 122224655, 0, varbitplayer_35835));
                 } else {
-                    IF_SETTEXT(inttostring(varbitplayer_35835, 10), comp(1865, 15));
+                    IF_SETTEXT(inttostring(varbitplayer_35835, 10), comp(1865, 15));  // sworld_end:anima_value_label
                 };
             } else {
-                IF_SETTEXT(inttostring(varbitplayer_35835, 10), comp(1865, 15));
+                IF_SETTEXT(inttostring(varbitplayer_35835, 10), comp(1865, 15));  // sworld_end:anima_value_label
             };
             varbitclient_35731 = 9;
         } else if ((int1 > 175)) {

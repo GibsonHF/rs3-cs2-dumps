@@ -16,20 +16,20 @@ function script14223(int0: number, int1: number, int2: number, int3: number): vo
     [int4, int5] = script14226(int2, int6, int7, string0);
     var int10 = (int4 + 31);
     var int11 = (int5 + (2 * 31));
-    var int3 = MAX(0, (int3 - IF_GETSCROLLY(comp(1322, 10))));
-    if (((int3 + int5) > IF_GETHEIGHT(comp(1322, 5)))) {
-        int3 = (IF_GETHEIGHT(comp(1322, 5)) - int5);
+    var int3 = MAX(0, (int3 - IF_GETSCROLLY(comp(1322, 10))));  // minimenu:menu_build_layer ?
+    if (((int3 + int5) > IF_GETHEIGHT(comp(1322, 5)))) {  // minimenu:universe_layer ?
+        int3 = (IF_GETHEIGHT(comp(1322, 5)) - int5);  // minimenu:universe_layer ?
     };
     var int12 = (int3 - 31);
     if ((int3 < int12)) {
         int11 = (int11 - (int12 - int3));
         int12 = 0;
     };
-    IF_SETHIDE(false, comp(1322, 3));
-    IF_SETSIZE(int10, int11, 0, 0, comp(1322, 3));
-    IF_SETSIZE(int4, int5, 0, 0, comp(1322, 12));
-    IF_SETPOSITION(IF_GETWIDTH(comp(1322, 11)), int3, 0, 0, comp(1322, 12));
-    IF_SETPOSITION((IF_GETWIDTH(comp(1322, 11)) + IF_GETX(comp(1322, 5))), (int12 + IF_GETY(comp(1322, 5))), 0, 0, comp(1322, 3));
+    IF_SETHIDE(false, comp(1322, 3));  // minimenu:submenu_blocking_layer ?
+    IF_SETSIZE(int10, int11, 0, 0, comp(1322, 3));  // minimenu:submenu_blocking_layer ?
+    IF_SETSIZE(int4, int5, 0, 0, comp(1322, 12));  // minimenu:submenu_layer ?
+    IF_SETPOSITION(IF_GETWIDTH(comp(1322, 11) /*minimenu:menu_layer ?*/), int3, 0, 0, comp(1322, 12) /*minimenu:submenu_layer ?*/);
+    IF_SETPOSITION((IF_GETWIDTH(comp(1322, 11) /*minimenu:menu_layer ?*/) + IF_GETX(comp(1322, 5) /*minimenu:universe_layer ?*/)), (int12 + IF_GETY(comp(1322, 5) /*minimenu:universe_layer ?*/)), 0, 0, comp(1322, 3) /*minimenu:submenu_blocking_layer ?*/);
     script13636(int4, int5, int5, int6, 86638609, 86638605, string0);
     var int13 = 0;
     while ((int13 < int7)) {

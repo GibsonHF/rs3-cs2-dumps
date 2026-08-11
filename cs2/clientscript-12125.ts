@@ -1,7 +1,7 @@
 //
 function script12125(): void {
     varclient_5116 = (varclient_5116 + 1);
-    IF_SETONTIMER(callback(script12127, -2147483645, (CLIENTCLOCK() + 500)), comp(1708, 37));
+    IF_SETONTIMER(callback(script12127, -2147483645, (CLIENTCLOCK() + 500)), comp(1708, 37));  // invent_discovery:workspace_layer
     switch (RANDOM(10)) {
         case 0: {
             SOUND_VORBIS_RATE(RANDOM_SOUND_PITCH(11874 as vorbis, 1, 0, 125, 20, 20));

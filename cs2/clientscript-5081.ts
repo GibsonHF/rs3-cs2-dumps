@@ -5,7 +5,7 @@ function script5081(int0: number, int1: number, int2: number, int3: number, int4
         return;
     };
     SOUND_VORBIS_VOLUME(6185 as vorbis, 1, 0, 200);
-    IF_SETHIDE(false, comp(1114, 22));
+    IF_SETHIDE(false, comp(1114, 22));  // clan_field_setup:dropdown_container
     varclient_160 = int1;
     var int7 = (int1 * 10);
     if ((CC_FIND(int0, int7) == 1)) {
@@ -29,10 +29,10 @@ function script5081(int0: number, int1: number, int2: number, int3: number, int4
     if ((CC_FIND(int0, (int7 + 8)) == 1)) {
         CC_SETTRANS(255);
     };
-    CC_DELETEALL(comp(1114, 26));
+    CC_DELETEALL(comp(1114, 26));  // clan_field_setup:dropdown_options
     var int8 = 0;
     while ((int8 < int3)) {
-        CC_CREATE(comp(1114, 26), 3, IF_GETNEXTSUBID(comp(1114, 26)));
+        CC_CREATE(comp(1114, 26), 3, IF_GETNEXTSUBID(comp(1114, 26)));  // clan_field_setup:dropdown_options
         CC_SETHIDE(true);
         int8 = (int8 + 1);
     };
@@ -41,7 +41,7 @@ function script5081(int0: number, int1: number, int2: number, int3: number, int4
     int8 = 0;
     while ((int8 < int4)) {
         if ((int9 != int8)) {
-            CC_CREATE(comp(1114, 26), 4, IF_GETNEXTSUBID(comp(1114, 26)));
+            CC_CREATE(comp(1114, 26), 4, IF_GETNEXTSUBID(comp(1114, 26)));  // clan_field_setup:dropdown_options
             CC_SETSIZE(0, 12, 1, 0);
             CC_SETPOSITION(0, int10, 0, 0);
             CC_SETTEXTFONT(66 as fontmetrics);
@@ -55,19 +55,19 @@ function script5081(int0: number, int1: number, int2: number, int3: number, int4
             CC_SETONOP(callback(script5084, int0));
             int10 = (int10 + CC_GETHEIGHT());
         } else {
-            CC_CREATE(comp(1114, 26), 3, IF_GETNEXTSUBID(comp(1114, 26)));
+            CC_CREATE(comp(1114, 26), 3, IF_GETNEXTSUBID(comp(1114, 26)));  // clan_field_setup:dropdown_options
             CC_SETHIDE(true);
         };
         int8 = (int8 + 1);
     };
-    IF_SETPARAM_INT(1476, int6, comp(1114, 23));
-    IF_SETPARAM_INT(1477, int10, comp(1114, 23));
-    IF_SETSCROLLSIZE(0, int10, comp(1114, 26));
+    IF_SETPARAM_INT(1476, int6, comp(1114, 23));  // clan_field_setup:dropdown
+    IF_SETPARAM_INT(1477, int10, comp(1114, 23));  // clan_field_setup:dropdown
+    IF_SETSCROLLSIZE(0, int10, comp(1114, 26));  // clan_field_setup:dropdown_options
     script5082(int0);
     if ((int4 > 4)) {
         script31(73007131, 73007130, 6507, 6504, 6505, 6506, 6499, 6498);
     } else {
-        CC_DELETEALL(comp(1114, 27));
+        CC_DELETEALL(comp(1114, 27));  // clan_field_setup:dropdown_scrollbar
     };
     return;
 }

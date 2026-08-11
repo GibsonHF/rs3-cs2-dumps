@@ -15,7 +15,7 @@ function script16268(int0: number, int1: number, int2: number, int3: number, int
         int12 = 0;
     };
     if (((int9 > int6) && (int9 <= int7))) {
-        CC_CREATE(comp(1218, 246), 5, int0);
+        CC_CREATE(comp(1218, 246), 5, int0);  // skillguide:content_layer
         CC_SETSIZE(590, int12, 0, 0);
         CC_SETPOSITION(0, 0, 0, 0);
         CC_SETONCLICK(callback(script5697, -2147483643, int4, int5));
@@ -27,7 +27,7 @@ function script16268(int0: number, int1: number, int2: number, int3: number, int
         if ((int10 == 1)) {
             CC_SETGRAPHIC(9310 as graphic);
         };
-        CC_CREATE(comp(1218, 245), 5, IF_GETNEXTSUBID(comp(1218, 245)));
+        CC_CREATE(comp(1218, 245), 5, IF_GETNEXTSUBID(comp(1218, 245)));  // skillguide:background_layer
         CC_SETSIZE(590, int12, 0, 0);
         CC_SETPOSITION(0, int2, 0, 0);
         var int2 = (int2 + 41);

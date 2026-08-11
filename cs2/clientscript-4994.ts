@@ -57,63 +57,63 @@ function script4994(): void {
         int25 = script4953(int18);
         int26 = script4953(int19);
         int27 = script4953(int20);
-        IF_SETTEXT(`Tier ${inttostring(varbitclan_6507, 10)}`, comp(1261, 262));
-        IF_SETTEXT(`Tier ${inttostring(varbitclan_6508, 10)}`, comp(1261, 271));
-        IF_SETTEXT(`Tier ${inttostring(varbitclan_6509, 10)}`, comp(1261, 280));
-        IF_SETTEXT(`Tier ${inttostring(int7, 10)}`, comp(1261, 289));
-        IF_SETTEXT(`Tier ${inttostring(int8, 10)}`, comp(1261, 298));
-        IF_SETTEXT(`Tier ${inttostring(int9, 10)}`, comp(1261, 307));
-        IF_SETTEXT(`Tier ${inttostring(int10, 10)}`, comp(1261, 316));
-        IF_SETTEXT(`Tier ${inttostring(int11, 10)}`, comp(1261, 334));
-        IF_SETTEXT(`Tier ${inttostring(int12, 10)}`, comp(1261, 325));
-        IF_SETTEXT(`Tier ${inttostring(int13, 10)}`, comp(1261, 343));
+        IF_SETTEXT(`Tier ${inttostring(varbitclan_6507, 10)}`, comp(1261, 262));  // clan_stronghold_main_buildings:building_button_walls_tier_txt
+        IF_SETTEXT(`Tier ${inttostring(varbitclan_6508, 10)}`, comp(1261, 271));  // clan_stronghold_main_buildings:building_button_warehouse_tier_txt
+        IF_SETTEXT(`Tier ${inttostring(varbitclan_6509, 10)}`, comp(1261, 280));  // clan_stronghold_main_buildings:building_button_battlefield_tier_txt
+        IF_SETTEXT(`Tier ${inttostring(int7, 10)}`, comp(1261, 289));  // clan_stronghold_main_buildings:building_button_woodcutting_tier_txt
+        IF_SETTEXT(`Tier ${inttostring(int8, 10)}`, comp(1261, 298));  // clan_stronghold_main_buildings:building_button_mining_tier_txt
+        IF_SETTEXT(`Tier ${inttostring(int9, 10)}`, comp(1261, 307));  // clan_stronghold_main_buildings:building_button_firemaking_tier_txt
+        IF_SETTEXT(`Tier ${inttostring(int10, 10)}`, comp(1261, 316));  // clan_stronghold_main_buildings:building_button_smithing_tier_txt
+        IF_SETTEXT(`Tier ${inttostring(int11, 10)}`, comp(1261, 334));  // clan_stronghold_main_buildings:building_button_summoning_tier_txt
+        IF_SETTEXT(`Tier ${inttostring(int12, 10)}`, comp(1261, 325));  // clan_stronghold_main_buildings:building_button_cooking_tier_txt
+        IF_SETTEXT(`Tier ${inttostring(int13, 10)}`, comp(1261, 343));  // clan_stronghold_main_buildings:building_button_crafting_tier_txt
         if ((int7 == 0)) {
             if ((int21 > 0)) {
-                IF_SETTEXT("Building", comp(1261, 289));
+                IF_SETTEXT("Building", comp(1261, 289));  // clan_stronghold_main_buildings:building_button_woodcutting_tier_txt
             } else {
-                IF_SETTEXT("Buy", comp(1261, 289));
+                IF_SETTEXT("Buy", comp(1261, 289));  // clan_stronghold_main_buildings:building_button_woodcutting_tier_txt
             };
         };
         if ((int8 == 0)) {
             if ((int22 > 0)) {
-                IF_SETTEXT("Building", comp(1261, 298));
+                IF_SETTEXT("Building", comp(1261, 298));  // clan_stronghold_main_buildings:building_button_mining_tier_txt
             } else {
-                IF_SETTEXT("Buy", comp(1261, 298));
+                IF_SETTEXT("Buy", comp(1261, 298));  // clan_stronghold_main_buildings:building_button_mining_tier_txt
             };
         };
         if ((int9 == 0)) {
             if ((int23 > 0)) {
-                IF_SETTEXT("Building", comp(1261, 307));
+                IF_SETTEXT("Building", comp(1261, 307));  // clan_stronghold_main_buildings:building_button_firemaking_tier_txt
             } else {
-                IF_SETTEXT("Buy", comp(1261, 307));
+                IF_SETTEXT("Buy", comp(1261, 307));  // clan_stronghold_main_buildings:building_button_firemaking_tier_txt
             };
         };
         if ((int10 == 0)) {
             if ((int24 > 0)) {
-                IF_SETTEXT("Building", comp(1261, 316));
+                IF_SETTEXT("Building", comp(1261, 316));  // clan_stronghold_main_buildings:building_button_smithing_tier_txt
             } else {
-                IF_SETTEXT("Buy", comp(1261, 316));
+                IF_SETTEXT("Buy", comp(1261, 316));  // clan_stronghold_main_buildings:building_button_smithing_tier_txt
             };
         };
         if ((int11 == 0)) {
             if ((int25 > 0)) {
-                IF_SETTEXT("Building", comp(1261, 334));
+                IF_SETTEXT("Building", comp(1261, 334));  // clan_stronghold_main_buildings:building_button_summoning_tier_txt
             } else {
-                IF_SETTEXT("Buy", comp(1261, 334));
+                IF_SETTEXT("Buy", comp(1261, 334));  // clan_stronghold_main_buildings:building_button_summoning_tier_txt
             };
         };
         if ((int12 == 0)) {
             if ((int26 > 0)) {
-                IF_SETTEXT("Building", comp(1261, 325));
+                IF_SETTEXT("Building", comp(1261, 325));  // clan_stronghold_main_buildings:building_button_cooking_tier_txt
             } else {
-                IF_SETTEXT("Buy", comp(1261, 325));
+                IF_SETTEXT("Buy", comp(1261, 325));  // clan_stronghold_main_buildings:building_button_cooking_tier_txt
             };
         };
         if ((int13 == 0)) {
             if ((int27 > 0)) {
-                IF_SETTEXT("Building", comp(1261, 343));
+                IF_SETTEXT("Building", comp(1261, 343));  // clan_stronghold_main_buildings:building_button_crafting_tier_txt
             } else {
-                IF_SETTEXT("Buy", comp(1261, 343));
+                IF_SETTEXT("Buy", comp(1261, 343));  // clan_stronghold_main_buildings:building_button_crafting_tier_txt
             };
         };
     };

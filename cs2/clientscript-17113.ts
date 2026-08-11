@@ -8,14 +8,14 @@ function script17113(): void {
             script2436(0);
             script17115();
         } else {
-            IF_SETHIDE(true, comp(1483, 1));
+            IF_SETHIDE(true, comp(1483, 1));  // gravestone_timer:bespoke_window
             script2436(1);
         };
     } else if ((((varbitplayer_52409 > 0) || (varbitplayer_52410 > 0)) || (varbitplayer_52411 > 0))) {
         script2436(0);
         script17115();
     } else {
-        IF_SETHIDE(true, comp(1483, 1));
+        IF_SETHIDE(true, comp(1483, 1));  // gravestone_timer:bespoke_window
         script2436(1);
     };
     return;

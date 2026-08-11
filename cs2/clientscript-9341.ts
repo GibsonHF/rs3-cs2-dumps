@@ -1,11 +1,11 @@
 //
 function script9341(): void {
-    var int0 = comp(209, 18);
-    var int1 = comp(209, 19);
-    var int2 = comp(209, 20);
-    CC_DELETEALL(comp(209, 22));
-    CC_DELETEALL(comp(209, 23));
-    IF_SETHIDE(true, comp(209, 23));
+    var int0 = comp(209, 18);  // activity_tracker_embedded_more_info:path_title
+    var int1 = comp(209, 19);  // activity_tracker_embedded_more_info:path_desc
+    var int2 = comp(209, 20);  // activity_tracker_embedded_more_info:path_complete
+    CC_DELETEALL(comp(209, 22));  // activity_tracker_embedded_more_info:goto_builder
+    CC_DELETEALL(comp(209, 23));  // activity_tracker_embedded_more_info:goto_click
+    IF_SETHIDE(true, comp(209, 23));  // activity_tracker_embedded_more_info:goto_click
     if ((varplayer_7123 == 0)) {
         IF_SETTEXT("No path selected...", int0);
         IF_SETTEXT("Please choose a recommended path.", int1);

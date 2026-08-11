@@ -1,5 +1,5 @@
 //
 function script4748(): void {
-    IF_SETHIDE(true, comp(993, 139));
+    IF_SETHIDE(true, comp(993, 139));  // rand_ring_interface:confirm_upgrade_layer
     return;
 }

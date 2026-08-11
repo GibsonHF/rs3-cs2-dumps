@@ -15,7 +15,7 @@ function script19423(int0: number, int1: number, int2: number, int3: number, int
     var int8 = script9464(int0, varbitplayer_56563);
     if ((int0 == varbitplayer_56563)) {
         int6 = 18102;
-        IF_SETTEXT(string0, comp(1302, 3));
+        IF_SETTEXT(string0, comp(1302, 3));  // group_ironman_parent:tab_title
     };
     IF_SETGRAPHIC(int6, int2);
     IF_SETGRAPHIC(int7, int3);

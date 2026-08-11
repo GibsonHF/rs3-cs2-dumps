@@ -1,7 +1,7 @@
 //
 function script7943(int0: number): void {
     if ((int0 == 1)) {
-        IF_SETONKEY(callback(script10815, -2147483640), comp(475, 6));
+        IF_SETONKEY(callback(script10815, -2147483640), comp(475, 6));  // machinima_livecamera:keylistener_layer
         switch (MAP_LANG()) {
             case 2: {
                 script8844(1, 35, 8, 31129606, -1);
@@ -36,24 +36,24 @@ function script7943(int0: number): void {
         IF_SETOPKEYRATE(8, 1, 1, 31129606);
         IF_SETOPKEYRATE(9, 1, 1, 31129606);
         IF_SETOPKEYRATE(10, 1, 1, 31129606);
-        IF_SETONOP(callback(script10816, -2147483644), comp(475, 6));
-        IF_SETONMOUSEREPEAT(callback(script10817, -2147483647, -2147483646, 0, 0), comp(475, 7));
-        IF_SETONSCROLLWHEEL(callback(script3011, -2147483646), comp(475, 7));
+        IF_SETONOP(callback(script10816, -2147483644), comp(475, 6));  // machinima_livecamera:keylistener_layer
+        IF_SETONMOUSEREPEAT(callback(script10817, -2147483647, -2147483646, 0, 0), comp(475, 7));  // machinima_livecamera:mouselistener
+        IF_SETONSCROLLWHEEL(callback(script3011, -2147483646), comp(475, 7));  // machinima_livecamera:mouselistener
     } else {
-        IF_SETOPKEY(1, 0, 0, comp(475, 6));
-        IF_SETOPKEY(2, 0, 0, comp(475, 6));
-        IF_SETOPKEY(3, 0, 0, comp(475, 6));
-        IF_SETOPKEY(4, 0, 0, comp(475, 6));
-        IF_SETOPKEY(5, 0, 0, comp(475, 6));
-        IF_SETOPKEY(6, 0, 0, comp(475, 6));
-        IF_SETOPKEY(7, 0, 0, comp(475, 6));
-        IF_SETOPKEY(8, 0, 0, comp(475, 6));
-        IF_SETOPKEY(9, 0, 0, comp(475, 6));
-        IF_SETOPKEY(10, 0, 0, comp(475, 6));
-        IF_SETONKEY(callback(), comp(475, 6));
-        IF_SETONOP(callback(), comp(475, 6));
-        IF_SETONMOUSEREPEAT(callback(), comp(475, 7));
-        IF_SETONSCROLLWHEEL(callback(), comp(475, 7));
+        IF_SETOPKEY(1, 0, 0, comp(475, 6));  // machinima_livecamera:keylistener_layer
+        IF_SETOPKEY(2, 0, 0, comp(475, 6));  // machinima_livecamera:keylistener_layer
+        IF_SETOPKEY(3, 0, 0, comp(475, 6));  // machinima_livecamera:keylistener_layer
+        IF_SETOPKEY(4, 0, 0, comp(475, 6));  // machinima_livecamera:keylistener_layer
+        IF_SETOPKEY(5, 0, 0, comp(475, 6));  // machinima_livecamera:keylistener_layer
+        IF_SETOPKEY(6, 0, 0, comp(475, 6));  // machinima_livecamera:keylistener_layer
+        IF_SETOPKEY(7, 0, 0, comp(475, 6));  // machinima_livecamera:keylistener_layer
+        IF_SETOPKEY(8, 0, 0, comp(475, 6));  // machinima_livecamera:keylistener_layer
+        IF_SETOPKEY(9, 0, 0, comp(475, 6));  // machinima_livecamera:keylistener_layer
+        IF_SETOPKEY(10, 0, 0, comp(475, 6));  // machinima_livecamera:keylistener_layer
+        IF_SETONKEY(callback(), comp(475, 6));  // machinima_livecamera:keylistener_layer
+        IF_SETONOP(callback(), comp(475, 6));  // machinima_livecamera:keylistener_layer
+        IF_SETONMOUSEREPEAT(callback(), comp(475, 7));  // machinima_livecamera:mouselistener
+        IF_SETONSCROLLWHEEL(callback(), comp(475, 7));  // machinima_livecamera:mouselistener
     };
     return;
 }

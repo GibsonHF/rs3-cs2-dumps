@@ -18,7 +18,7 @@ function script8680(int0: number): void {
     var int15 = 2;
     var int16 = 2;
     if ((int7 == 1)) {
-        if ((int0 == comp(1473, 0))) {
+        if ((int0 == comp(1473, 0))) {  // toplevel_v2_inventory:main_layer
             int9 = 44;
             int10 = 44;
             int11 = 44;

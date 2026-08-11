@@ -19,13 +19,13 @@ function script19731(int0: number): void {
     var int16 = 0;
     switch (int0) {
         case 1: {
-            int1 = comp(1278, 5);
-            int2 = comp(1278, 63);
-            int3 = comp(1278, 62);
-            int4 = comp(1278, 59);
-            int5 = comp(1278, 57);
-            int6 = comp(1278, 10);
-            int7 = comp(1278, 60);
+            int1 = comp(1278, 5);  // trh204_overlay:chest_1_layer
+            int2 = comp(1278, 63);  // trh204_overlay:chest_1_description
+            int3 = comp(1278, 62);  // trh204_overlay:chest_1_click_layer
+            int4 = comp(1278, 59);  // trh204_overlay:chest_1_prize_layer
+            int5 = comp(1278, 57);  // trh204_overlay:chest_1_background
+            int6 = comp(1278, 10);  // trh204_overlay:chest_1_background_glow
+            int7 = comp(1278, 60);  // trh204_overlay:chest_1_rarity_corner_graphic
             int10 = varbitplayer_57129;
             int15 = varbitplayer_57135;
             int12 = varplayer_12051;
@@ -35,13 +35,13 @@ function script19731(int0: number): void {
             break;
         }
         case 2: {
-            int1 = comp(1278, 8);
-            int2 = comp(1278, 69);
-            int3 = comp(1278, 68);
-            int4 = comp(1278, 65);
-            int5 = comp(1278, 11);
-            int6 = comp(1278, 9);
-            int7 = comp(1278, 66);
+            int1 = comp(1278, 8);  // trh204_overlay:chest_2_layer
+            int2 = comp(1278, 69);  // trh204_overlay:chest_2_description
+            int3 = comp(1278, 68);  // trh204_overlay:chest_2_click_layer
+            int4 = comp(1278, 65);  // trh204_overlay:chest_2_prize_layer
+            int5 = comp(1278, 11);  // trh204_overlay:chest_2_background
+            int6 = comp(1278, 9);  // trh204_overlay:chest_2_background_glow
+            int7 = comp(1278, 66);  // trh204_overlay:chest_2_rarity_corner_graphic
             int10 = varbitplayer_57130;
             int15 = varbitplayer_57136;
             int12 = varplayer_12054;
@@ -51,15 +51,15 @@ function script19731(int0: number): void {
             break;
         }
         case 3: {
-            int1 = comp(1278, 6);
-            int2 = comp(1278, 122);
-            int3 = comp(1278, 128);
-            int4 = comp(1278, 124);
-            int5 = comp(1278, 120);
-            int6 = comp(1278, 7);
-            int8 = comp(1278, 123);
-            int7 = comp(1278, 125);
-            int9 = comp(1278, 126);
+            int1 = comp(1278, 6);  // trh204_overlay:chest_3_layer
+            int2 = comp(1278, 122);  // trh204_overlay:chest_3_description
+            int3 = comp(1278, 128);  // trh204_overlay:chest_3_click_layer
+            int4 = comp(1278, 124);  // trh204_overlay:chest_3_prize_layer
+            int5 = comp(1278, 120);  // trh204_overlay:chest_3_background
+            int6 = comp(1278, 7);  // trh204_overlay:chest_3_background_glow
+            int8 = comp(1278, 123);  // trh204_overlay:chest_3_rarity_layer
+            int7 = comp(1278, 125);  // trh204_overlay:chest_3_rarity_corner_graphic
+            int9 = comp(1278, 126);  // trh204_overlay:chest_3_rarity_corner_graphic_flipped
             int14 = varplayer_12185;
             break;
         }

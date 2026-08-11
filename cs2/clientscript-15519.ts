@@ -13,17 +13,17 @@ function script15519(int0: number): void {
         script8844(10, 25, 8, 51380266, -1);
         script8844(1, 13, 8, 51380281, -1);
     } else {
-        IF_SETOPKEY(1, 0, 0, comp(784, 42));
-        IF_SETOPKEY(2, 0, 0, comp(784, 42));
-        IF_SETOPKEY(3, 0, 0, comp(784, 42));
-        IF_SETOPKEY(4, 0, 0, comp(784, 42));
-        IF_SETOPKEY(5, 0, 0, comp(784, 42));
-        IF_SETOPKEY(6, 0, 0, comp(784, 42));
-        IF_SETOPKEY(7, 0, 0, comp(784, 42));
-        IF_SETOPKEY(8, 0, 0, comp(784, 42));
-        IF_SETOPKEY(9, 0, 0, comp(784, 42));
-        IF_SETOPKEY(10, 0, 0, comp(784, 42));
-        IF_SETOPKEY(1, 0, 0, comp(784, 57));
+        IF_SETOPKEY(1, 0, 0, comp(784, 42));  // fairyrings:keyboard_listener
+        IF_SETOPKEY(2, 0, 0, comp(784, 42));  // fairyrings:keyboard_listener
+        IF_SETOPKEY(3, 0, 0, comp(784, 42));  // fairyrings:keyboard_listener
+        IF_SETOPKEY(4, 0, 0, comp(784, 42));  // fairyrings:keyboard_listener
+        IF_SETOPKEY(5, 0, 0, comp(784, 42));  // fairyrings:keyboard_listener
+        IF_SETOPKEY(6, 0, 0, comp(784, 42));  // fairyrings:keyboard_listener
+        IF_SETOPKEY(7, 0, 0, comp(784, 42));  // fairyrings:keyboard_listener
+        IF_SETOPKEY(8, 0, 0, comp(784, 42));  // fairyrings:keyboard_listener
+        IF_SETOPKEY(9, 0, 0, comp(784, 42));  // fairyrings:keyboard_listener
+        IF_SETOPKEY(10, 0, 0, comp(784, 42));  // fairyrings:keyboard_listener
+        IF_SETOPKEY(1, 0, 0, comp(784, 57));  // fairyrings:mainmodal_window_close_button
     };
     return;
 }

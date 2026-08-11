@@ -1,17 +1,17 @@
 //
 function script2704(): void {
     if ((script6431() == 0)) {
-        IF_SETONTIMER(callback(), comp(137, 1));
+        IF_SETONTIMER(callback(), comp(137, 1));  // chatdefault:mobile_listener
         return;
     };
-    if (((IF_GETHIDE(comp(276, 27)) == false) || (varclient_6798 == 0))) {
+    if (((IF_GETHIDE(comp(276, 27)) == false) || (varclient_6798 == 0))) {  // toplevel_v2_mobile:chat_panel
         return;
     };
     if ((varbitclient_41275 != 0)) {
         varclient_6798 = 0;
         script6060(0);
     };
-    var int0 = IF_GETTRANS(comp(137, 2));
+    var int0 = IF_GETTRANS(comp(137, 2));  // chatdefault:mobile_listener_graphic
     var int1 = 0;
     if ((varclient_6798 < CLIENTCLOCK())) {
         int1 = MIN(255, SCALE(255, 40, (CLIENTCLOCK() - varclient_6798)));

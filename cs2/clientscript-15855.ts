@@ -1,7 +1,7 @@
 //
 function script15855(int0: number): void {
-    IF_SETHIDE(true, comp(857, 20));
-    IF_SETTEXT("", comp(857, 19));
+    IF_SETHIDE(true, comp(857, 20));  // mobile_chat_panel:tabs_layer
+    IF_SETTEXT("", comp(857, 19));  // mobile_chat_panel:secondary_title
     varclient_6910 = 0;
     stack(557056);
     stack(int0);
@@ -13,12 +13,12 @@ function script15855(int0: number): void {
         IF_SETGRAPHIC(struct_getparam(int2, 8097), int3);
         IF_SETTEXT(dbrow_getfield(int1, 557072, 0), 56164370);
         if ((DB_GETFIELDCOUNT(int1, 557088) > 0)) {
-            if ((IF_FIND(comp(857, 20)) == 1)) {
+            if ((IF_FIND(comp(857, 20)) == 1)) {  // mobile_chat_panel:tabs_layer
                 cc_setparam(424, int1);
             };
-            IF_SETHIDE(false, comp(857, 20));
+            IF_SETHIDE(false, comp(857, 20));  // mobile_chat_panel:tabs_layer
             script15857(int1);
-        } else if ((IF_FIND(comp(857, 20)) == 1)) {
+        } else if ((IF_FIND(comp(857, 20)) == 1)) {  // mobile_chat_panel:tabs_layer
             cc_setparam(424, -1);
         };
     };

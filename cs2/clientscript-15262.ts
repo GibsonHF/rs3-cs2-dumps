@@ -5,7 +5,7 @@ function script15262(): void {
     varclient_1100 = -3;
     varclient_200 = 0;
     varclient_201 = 0;
-    IF_SETONTIMER(callback(script2946, 8), comp(744, 173));
+    IF_SETONTIMER(callback(script2946, 8), comp(744, 173));  // loginscreen:login_progress_popup_password
     script15272();
     script15251(8);
     return;

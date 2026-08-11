@@ -7,12 +7,12 @@ function script1923(): void {
     if ((int0 == 0)) {
         int1 = MAX(0, MIN((5 - int1), 5));
         int2 = MAX(0, MIN((5 - int2), 5));
-        IF_SETTEXT(inttostring(int1, 10), comp(804, 14));
-        IF_SETTEXT(inttostring(int2, 10), comp(804, 13));
-        IF_SETHIDE(false, comp(804, 3));
-        IF_SETHIDE(true, comp(804, 2));
+        IF_SETTEXT(inttostring(int1, 10), comp(804, 14));  // sc_lobby_team_overlay:size
+        IF_SETTEXT(inttostring(int2, 10), comp(804, 13));  // sc_lobby_team_overlay:enemy_size
+        IF_SETHIDE(false, comp(804, 3));  // sc_lobby_team_overlay:player_count
+        IF_SETHIDE(true, comp(804, 2));  // sc_lobby_team_overlay:start_time_text
     } else {
-        IF_SETHIDE(true, comp(804, 3));
+        IF_SETHIDE(true, comp(804, 3));  // sc_lobby_team_overlay:player_count
         if ((MODULO(int0, 100) != 0)) {
             int3 = 1;
         };
@@ -20,8 +20,8 @@ function script1923(): void {
         if ((int3 == 1)) {
             int0 = (int0 + 1);
         };
-        IF_SETTEXT(`Game start : ${inttostring(int0, 10)} mins`, comp(804, 2));
-        IF_SETHIDE(false, comp(804, 2));
+        IF_SETTEXT(`Game start : ${inttostring(int0, 10)} mins`, comp(804, 2));  // sc_lobby_team_overlay:start_time_text
+        IF_SETHIDE(false, comp(804, 2));  // sc_lobby_team_overlay:start_time_text
     };
     return;
 }

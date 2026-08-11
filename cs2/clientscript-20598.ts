@@ -21,12 +21,12 @@ function script20598(int0: number, int1: number): void {
     };
     CC_DELETEALL(int0);
     if ((script20612() == 0)) {
-        IF_SETHIDE(false, comp(1494, 31));
+        IF_SETHIDE(false, comp(1494, 31));  // marketplace_featured:unavailable_layer
         script1106();
         script1108();
         return;
     };
-    IF_SETHIDE(true, comp(1494, 31));
+    IF_SETHIDE(true, comp(1494, 31));  // marketplace_featured:unavailable_layer
     var int7 = 738;
     var int8 = 237;
     var int9 = int7;
@@ -40,7 +40,7 @@ function script20598(int0: number, int1: number): void {
     script7918(UI_GETCATEGORY(IF_GETNEXTSUBID(int0)), UI_GETDYNID(IF_GETNEXTSUBID(int0)), 0, 0, 1, 0, int9, int10, 0, 0, int11);
     CC_SETOP(1, "Select");
     if ((script6431() == 0)) {
-        if ((int0 == comp(1494, 22))) {
+        if ((int0 == comp(1494, 22))) {  // marketplace_featured:carousel_static
             int4 = IF_GETNEXTSUBID(int0);
             script7918(UI_GETCATEGORY(IF_GETNEXTSUBID(int0)), UI_GETDYNID(IF_GETNEXTSUBID(int0)), 0, 0, 2, 0, 0, 0, 1, 1, 35933);
             int5 = IF_GETNEXTSUBID(int0);
@@ -49,7 +49,7 @@ function script20598(int0: number, int1: number): void {
             IF_SETONMOUSEOVER(callback(script20601, int0, 1, int4, int5), int0);
             IF_SETONMOUSELEAVE(callback(script20601, int0, 0, int4, int5), int0);
         } else if ((int0 == comp(1494, 5))) {
-            IF_SETHIDE(false, comp(1494, 18));
+            IF_SETHIDE(false, comp(1494, 18));  // marketplace_featured:carousel_price_layer
         };
     };
     if ((dbrow_getfield(int1, 1417504, 0) == 0)) {
@@ -59,7 +59,7 @@ function script20598(int0: number, int1: number): void {
     if ((int0 == comp(1494, 5))) {
         script20599(int1, 97910796, 97910804, 97910805);
     };
-    if ((int0 == comp(1494, 22))) {
+    if ((int0 == comp(1494, 22))) {  // marketplace_featured:carousel_static
         script20599(int1, 97910807, 97910816, 97910817);
     };
     return;

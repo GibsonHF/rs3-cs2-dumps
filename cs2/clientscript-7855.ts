@@ -1,7 +1,7 @@
 //
 function script7855(int0: number, int1: number): void {
     varclient_3685 = varclient_2563;
-    IF_SETTEXT(`${inttostring(STRING_LENGTH(varclient_2563), 10)} / 12`, comp(786, 9));
+    IF_SETTEXT(`${inttostring(STRING_LENGTH(varclient_2563), 10)} / 12`, comp(786, 9));  // acc_create_name:name_length
     if ((STRING_LENGTH(varclient_2563) <= 0)) {
         script7845(5, "Display names can be up to 12 characters long and may contain letters, numbers, spaces, underscores and dashes only.");
         return;
@@ -17,11 +17,11 @@ function script7855(int0: number, int1: number): void {
     if ((IF_GETTOP() == 906)) {
         script7845(4, "You have entered a valid character name!<br>Please wait while the system checks availability.");
         CREATE_NAME_AVAILABLEREQUEST(varclient_2563);
-        IF_SETONTIMER(callback(script7856), comp(1420, 7));
+        IF_SETONTIMER(callback(script7856), comp(1420, 7));  // acc_create:name_listener
     } else {
-        IF_TRIGGEROP(comp(786, 0), -1, 1);
-        IF_SETHIDE(true, comp(786, 10));
-        IF_SETHIDE(false, comp(786, 11));
+        IF_TRIGGEROP(comp(786, 0), -1, 1);  // acc_create_name:hidden_op_layer
+        IF_SETHIDE(true, comp(786, 10));  // acc_create_name:name_label_desc
+        IF_SETHIDE(false, comp(786, 11));  // acc_create_name:name_check_spinner
     };
     return;
 }

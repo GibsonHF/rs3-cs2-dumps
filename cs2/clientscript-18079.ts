@@ -1,6 +1,6 @@
 //
 function script18079(int0: number, int1: number, int2: number): number {
-    var int3 = comp(1226, 28);
+    var int3 = comp(1226, 28);  // bp3_missions_tab:mission_info_scroll_bar
     IF_SETPOSITION(0, int2, 0, 0, int1);
     IF_SETSIZE(16, (IF_GETHEIGHT(int1) - int2), 0, 0, int3);
     IF_SETPOSITION(IF_GETX(int3), int2, 0, 0, int3);

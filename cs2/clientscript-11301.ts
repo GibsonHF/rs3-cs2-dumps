@@ -3,10 +3,10 @@ function script11301(): void {
     var int0 = 0;
     var int1 = 15;
     var int2 = 0;
-    CC_DELETEALL(comp(1613, 40));
+    CC_DELETEALL(comp(1613, 40));  // poh_aquarium:floorplan
     while ((int1 >= 0)) {
         while ((int0 < 16)) {
-            CC_CREATE(comp(1613, 40), 3, int2);
+            CC_CREATE(comp(1613, 40), 3, int2);  // poh_aquarium:floorplan
             CC_SETSIZE(15, 15, 0, 0);
             CC_SETCOLOUR(65280);
             CC_SETFILL(1);

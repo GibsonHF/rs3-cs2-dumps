@@ -1,183 +1,183 @@
 //
 function script19876(int0: number): void {
-    IF_SETHIDE(true, comp(1288, 165));
-    IF_SETHIDE(true, comp(1288, 169));
-    IF_SETHIDE(true, comp(1288, 176));
-    IF_SETHIDE(true, comp(1288, 178));
-    IF_SETHIDE(true, comp(1288, 174));
-    IF_SETHIDE(true, comp(1288, 161));
-    IF_SETHIDE(true, comp(1288, 145));
-    IF_SETHIDE(true, comp(1288, 147));
-    IF_SETHIDE(true, comp(1288, 146));
-    IF_SETMODEL(-1 as model, comp(1288, 161));
-    IF_SETMODEL(-1 as model, comp(1288, 145));
-    IF_SETMODEL(-1 as model, comp(1288, 147));
-    IF_SETMODEL(-1 as model, comp(1288, 146));
-    IF_SETMODELANIM(-1 as seq, comp(1288, 161));
-    IF_SETMODELANIM(-1 as seq, comp(1288, 145));
-    IF_SETMODELANIM(-1 as seq, comp(1288, 147));
-    IF_SETMODELANIM(-1 as seq, comp(1288, 146));
-    IF_SETONTIMER(callback(), comp(1288, 145));
-    IF_SETONTIMER(callback(), comp(1288, 146));
+    IF_SETHIDE(true, comp(1288, 165));  // trh_academy_shared_overlay:reward_preview_1_selected_rect
+    IF_SETHIDE(true, comp(1288, 169));  // trh_academy_shared_overlay:reward_preview_2_selected_rect
+    IF_SETHIDE(true, comp(1288, 176));  // trh_academy_shared_overlay:reward_preview_3_selected_rect
+    IF_SETHIDE(true, comp(1288, 178));  // trh_academy_shared_overlay:reward_preview_4_selected_rect
+    IF_SETHIDE(true, comp(1288, 174));  // trh_academy_shared_overlay:reward_preview_5_selected_rect
+    IF_SETHIDE(true, comp(1288, 161));  // trh_academy_shared_overlay:reward_preview_player_1_spotanim_model
+    IF_SETHIDE(true, comp(1288, 145));  // trh_academy_shared_overlay:reward_preview_target_1_spotanim_model
+    IF_SETHIDE(true, comp(1288, 147));  // trh_academy_shared_overlay:reward_preview_player_2_spotanim_model
+    IF_SETHIDE(true, comp(1288, 146));  // trh_academy_shared_overlay:reward_preview_target_2_spotanim_model
+    IF_SETMODEL(-1 as model, comp(1288, 161));  // trh_academy_shared_overlay:reward_preview_player_1_spotanim_model
+    IF_SETMODEL(-1 as model, comp(1288, 145));  // trh_academy_shared_overlay:reward_preview_target_1_spotanim_model
+    IF_SETMODEL(-1 as model, comp(1288, 147));  // trh_academy_shared_overlay:reward_preview_player_2_spotanim_model
+    IF_SETMODEL(-1 as model, comp(1288, 146));  // trh_academy_shared_overlay:reward_preview_target_2_spotanim_model
+    IF_SETMODELANIM(-1 as seq, comp(1288, 161));  // trh_academy_shared_overlay:reward_preview_player_1_spotanim_model
+    IF_SETMODELANIM(-1 as seq, comp(1288, 145));  // trh_academy_shared_overlay:reward_preview_target_1_spotanim_model
+    IF_SETMODELANIM(-1 as seq, comp(1288, 147));  // trh_academy_shared_overlay:reward_preview_player_2_spotanim_model
+    IF_SETMODELANIM(-1 as seq, comp(1288, 146));  // trh_academy_shared_overlay:reward_preview_target_2_spotanim_model
+    IF_SETONTIMER(callback(), comp(1288, 145));  // trh_academy_shared_overlay:reward_preview_target_1_spotanim_model
+    IF_SETONTIMER(callback(), comp(1288, 146));  // trh_academy_shared_overlay:reward_preview_target_2_spotanim_model
     unk10997(84410523);
     var int1 = -1;
     var int2 = 0;
     switch (int0) {
         case 1: {
-            IF_SETHIDE(false, comp(1288, 152));
-            IF_SETTEXT("Symbol of Devotion", comp(1288, 156));
-            IF_SETTEXT("Symbol of Devastation", comp(1288, 157));
-            IF_SETHIDE(false, comp(1288, 165));
-            IF_SETMODELANGLE(-55, 55, -20, -45, 0, 400, comp(1288, 162));
-            IF_SETMODELANIM(18019 as seq, comp(1288, 162));
-            IF_SETMODELANGLE(55, 55, -20, 45, 0, 400, comp(1288, 163));
-            IF_SETMODELANIM(18019 as seq, comp(1288, 163));
+            IF_SETHIDE(false, comp(1288, 152));  // trh_academy_shared_overlay:splash_screen_desc
+            IF_SETTEXT("Symbol of Devotion", comp(1288, 156));  // trh_academy_shared_overlay:reward_preview_text_1
+            IF_SETTEXT("Symbol of Devastation", comp(1288, 157));  // trh_academy_shared_overlay:reward_preview_text_2
+            IF_SETHIDE(false, comp(1288, 165));  // trh_academy_shared_overlay:reward_preview_1_selected_rect
+            IF_SETMODELANGLE(-55, 55, -20, -45, 0, 400, comp(1288, 162));  // trh_academy_shared_overlay:splash_screen_npc_large_model_1
+            IF_SETMODELANIM(18019 as seq, comp(1288, 162));  // trh_academy_shared_overlay:splash_screen_npc_large_model_1
+            IF_SETMODELANGLE(55, 55, -20, 45, 0, 400, comp(1288, 163));  // trh_academy_shared_overlay:splash_screen_npc_large_model_2
+            IF_SETMODELANIM(18019 as seq, comp(1288, 163));  // trh_academy_shared_overlay:splash_screen_npc_large_model_2
             break;
         }
         case 2: {
-            IF_SETHIDE(true, comp(1288, 152));
-            IF_SETTEXT("Blessed Concentrated Blast", comp(1288, 156));
-            IF_SETTEXT("Corrupted Concentrated Blast", comp(1288, 157));
-            IF_SETHIDE(false, comp(1288, 169));
-            IF_SETMODELANGLE(-55, 58, -20, -330, 0, 400, comp(1288, 162));
-            IF_SETMODELANGLE(-55, 58, -20, -330, 0, 400, comp(1288, 161));
-            IF_SETMODELANIM(18012 as seq, comp(1288, 162));
-            IF_SETMODELANGLE(55, 58, -20, 694, 0, 400, comp(1288, 163));
-            IF_SETMODELANGLE(55, 58, -20, 694, 0, 400, comp(1288, 147));
-            IF_SETMODELANIM(18012 as seq, comp(1288, 163));
+            IF_SETHIDE(true, comp(1288, 152));  // trh_academy_shared_overlay:splash_screen_desc
+            IF_SETTEXT("Blessed Concentrated Blast", comp(1288, 156));  // trh_academy_shared_overlay:reward_preview_text_1
+            IF_SETTEXT("Corrupted Concentrated Blast", comp(1288, 157));  // trh_academy_shared_overlay:reward_preview_text_2
+            IF_SETHIDE(false, comp(1288, 169));  // trh_academy_shared_overlay:reward_preview_2_selected_rect
+            IF_SETMODELANGLE(-55, 58, -20, -330, 0, 400, comp(1288, 162));  // trh_academy_shared_overlay:splash_screen_npc_large_model_1
+            IF_SETMODELANGLE(-55, 58, -20, -330, 0, 400, comp(1288, 161));  // trh_academy_shared_overlay:reward_preview_player_1_spotanim_model
+            IF_SETMODELANIM(18012 as seq, comp(1288, 162));  // trh_academy_shared_overlay:splash_screen_npc_large_model_1
+            IF_SETMODELANGLE(55, 58, -20, 694, 0, 400, comp(1288, 163));  // trh_academy_shared_overlay:splash_screen_npc_large_model_2
+            IF_SETMODELANGLE(55, 58, -20, 694, 0, 400, comp(1288, 147));  // trh_academy_shared_overlay:reward_preview_player_2_spotanim_model
+            IF_SETMODELANIM(18012 as seq, comp(1288, 163));  // trh_academy_shared_overlay:splash_screen_npc_large_model_2
             int2 = SEQLENGTH(19989 as seq);
-            IF_SETMODELANIM(19989 as seq, comp(1288, 162));
+            IF_SETMODELANIM(19989 as seq, comp(1288, 162));  // trh_academy_shared_overlay:splash_screen_npc_large_model_1
             unk11010(int2, callback(script16429, BAS_GETANIM_READY(2688 as bas), 84410530), 84410523);
             unk11009();
-            IF_SETMODELANIM(19989 as seq, comp(1288, 163));
+            IF_SETMODELANIM(19989 as seq, comp(1288, 163));  // trh_academy_shared_overlay:splash_screen_npc_large_model_2
             unk11010(int2, callback(script16429, BAS_GETANIM_READY(2688 as bas), 84410531), 84410523);
             unk11009();
-            IF_SETHIDE(false, comp(1288, 161));
-            IF_SETMODEL(135900 as model, comp(1288, 161));
-            IF_SETMODELANIM(19990 as seq, comp(1288, 161));
+            IF_SETHIDE(false, comp(1288, 161));  // trh_academy_shared_overlay:reward_preview_player_1_spotanim_model
+            IF_SETMODEL(135900 as model, comp(1288, 161));  // trh_academy_shared_overlay:reward_preview_player_1_spotanim_model
+            IF_SETMODELANIM(19990 as seq, comp(1288, 161));  // trh_academy_shared_overlay:reward_preview_player_1_spotanim_model
             unk11010(int2, callback(script19253, -1, 84410529), 84410523);
             unk11009();
-            IF_SETHIDE(false, comp(1288, 147));
-            IF_SETMODEL(135903 as model, comp(1288, 147));
-            IF_SETMODELANIM(19990 as seq, comp(1288, 147));
+            IF_SETHIDE(false, comp(1288, 147));  // trh_academy_shared_overlay:reward_preview_player_2_spotanim_model
+            IF_SETMODEL(135903 as model, comp(1288, 147));  // trh_academy_shared_overlay:reward_preview_player_2_spotanim_model
+            IF_SETMODELANIM(19990 as seq, comp(1288, 147));  // trh_academy_shared_overlay:reward_preview_player_2_spotanim_model
             unk11010(int2, callback(script19253, -1, 84410515), 84410523);
             unk11009();
-            IF_SETMODELANGLE(-250, -165, 0, 0, 0, 750, comp(1288, 145));
-            IF_SETMODELANGLE(250, -165, 0, 0, 0, 750, comp(1288, 146));
-            IF_SETHIDE(true, comp(1288, 145));
-            IF_SETHIDE(true, comp(1288, 146));
-            IF_SETMODEL(135899 as model, comp(1288, 145));
-            IF_SETMODELANIM(19991 as seq, comp(1288, 145));
-            IF_SETMODEL(135902 as model, comp(1288, 146));
-            IF_SETMODELANIM(19991 as seq, comp(1288, 146));
+            IF_SETMODELANGLE(-250, -165, 0, 0, 0, 750, comp(1288, 145));  // trh_academy_shared_overlay:reward_preview_target_1_spotanim_model
+            IF_SETMODELANGLE(250, -165, 0, 0, 0, 750, comp(1288, 146));  // trh_academy_shared_overlay:reward_preview_target_2_spotanim_model
+            IF_SETHIDE(true, comp(1288, 145));  // trh_academy_shared_overlay:reward_preview_target_1_spotanim_model
+            IF_SETHIDE(true, comp(1288, 146));  // trh_academy_shared_overlay:reward_preview_target_2_spotanim_model
+            IF_SETMODEL(135899 as model, comp(1288, 145));  // trh_academy_shared_overlay:reward_preview_target_1_spotanim_model
+            IF_SETMODELANIM(19991 as seq, comp(1288, 145));  // trh_academy_shared_overlay:reward_preview_target_1_spotanim_model
+            IF_SETMODEL(135902 as model, comp(1288, 146));  // trh_academy_shared_overlay:reward_preview_target_2_spotanim_model
+            IF_SETMODELANIM(19991 as seq, comp(1288, 146));  // trh_academy_shared_overlay:reward_preview_target_2_spotanim_model
             unk11010(112, callback(script16749, 0, 84410513), 84410513);
             unk11009();
             unk11010(112, callback(script16749, 0, 84410514), 84410514);
             unk11009();
-            IF_SETONTIMER(callback(script19323, 8, 0, (CLIENTCLOCK() + 110), (CLIENTCLOCK() + 160), 84410513), comp(1288, 145));
-            IF_SETONTIMER(callback(script19323, -8, 0, (CLIENTCLOCK() + 110), (CLIENTCLOCK() + 160), 84410514), comp(1288, 146));
+            IF_SETONTIMER(callback(script19323, 8, 0, (CLIENTCLOCK() + 110), (CLIENTCLOCK() + 160), 84410513), comp(1288, 145));  // trh_academy_shared_overlay:reward_preview_target_1_spotanim_model
+            IF_SETONTIMER(callback(script19323, -8, 0, (CLIENTCLOCK() + 110), (CLIENTCLOCK() + 160), 84410514), comp(1288, 146));  // trh_academy_shared_overlay:reward_preview_target_2_spotanim_model
             int1 = int2;
             break;
         }
         case 3: {
-            IF_SETHIDE(true, comp(1288, 152));
-            IF_SETTEXT("Blessed Chain", comp(1288, 156));
-            IF_SETTEXT("Corrupted Chain", comp(1288, 157));
-            IF_SETHIDE(false, comp(1288, 176));
-            IF_SETMODELANGLE(-55, 58, -20, -330, 0, 400, comp(1288, 162));
-            IF_SETMODELANGLE(-55, 58, -20, -330, 0, 400, comp(1288, 161));
-            IF_SETMODELANIM(18012 as seq, comp(1288, 162));
-            IF_SETMODELANGLE(55, 58, -20, 694, 0, 400, comp(1288, 163));
-            IF_SETMODELANGLE(55, 58, -20, 694, 0, 400, comp(1288, 147));
-            IF_SETMODELANIM(18012 as seq, comp(1288, 163));
+            IF_SETHIDE(true, comp(1288, 152));  // trh_academy_shared_overlay:splash_screen_desc
+            IF_SETTEXT("Blessed Chain", comp(1288, 156));  // trh_academy_shared_overlay:reward_preview_text_1
+            IF_SETTEXT("Corrupted Chain", comp(1288, 157));  // trh_academy_shared_overlay:reward_preview_text_2
+            IF_SETHIDE(false, comp(1288, 176));  // trh_academy_shared_overlay:reward_preview_3_selected_rect
+            IF_SETMODELANGLE(-55, 58, -20, -330, 0, 400, comp(1288, 162));  // trh_academy_shared_overlay:splash_screen_npc_large_model_1
+            IF_SETMODELANGLE(-55, 58, -20, -330, 0, 400, comp(1288, 161));  // trh_academy_shared_overlay:reward_preview_player_1_spotanim_model
+            IF_SETMODELANIM(18012 as seq, comp(1288, 162));  // trh_academy_shared_overlay:splash_screen_npc_large_model_1
+            IF_SETMODELANGLE(55, 58, -20, 694, 0, 400, comp(1288, 163));  // trh_academy_shared_overlay:splash_screen_npc_large_model_2
+            IF_SETMODELANGLE(55, 58, -20, 694, 0, 400, comp(1288, 147));  // trh_academy_shared_overlay:reward_preview_player_2_spotanim_model
+            IF_SETMODELANIM(18012 as seq, comp(1288, 163));  // trh_academy_shared_overlay:splash_screen_npc_large_model_2
             int2 = SEQLENGTH(18426 as seq);
-            IF_SETMODELANIM(18426 as seq, comp(1288, 162));
+            IF_SETMODELANIM(18426 as seq, comp(1288, 162));  // trh_academy_shared_overlay:splash_screen_npc_large_model_1
             unk11010(int2, callback(script16429, BAS_GETANIM_READY(2688 as bas), 84410530), 84410523);
             unk11009();
-            IF_SETMODELANIM(18426 as seq, comp(1288, 163));
+            IF_SETMODELANIM(18426 as seq, comp(1288, 163));  // trh_academy_shared_overlay:splash_screen_npc_large_model_2
             unk11010(int2, callback(script16429, BAS_GETANIM_READY(2688 as bas), 84410531), 84410523);
             unk11009();
-            IF_SETHIDE(false, comp(1288, 161));
-            IF_SETMODEL(135904 as model, comp(1288, 161));
-            IF_SETMODELANIM(36666 as seq, comp(1288, 161));
+            IF_SETHIDE(false, comp(1288, 161));  // trh_academy_shared_overlay:reward_preview_player_1_spotanim_model
+            IF_SETMODEL(135904 as model, comp(1288, 161));  // trh_academy_shared_overlay:reward_preview_player_1_spotanim_model
+            IF_SETMODELANIM(36666 as seq, comp(1288, 161));  // trh_academy_shared_overlay:reward_preview_player_1_spotanim_model
             unk11010(int2, callback(script19253, -1, 84410529), 84410523);
             unk11009();
-            IF_SETHIDE(false, comp(1288, 147));
-            IF_SETMODEL(135905 as model, comp(1288, 147));
-            IF_SETMODELANIM(36666 as seq, comp(1288, 147));
+            IF_SETHIDE(false, comp(1288, 147));  // trh_academy_shared_overlay:reward_preview_player_2_spotanim_model
+            IF_SETMODEL(135905 as model, comp(1288, 147));  // trh_academy_shared_overlay:reward_preview_player_2_spotanim_model
+            IF_SETMODELANIM(36666 as seq, comp(1288, 147));  // trh_academy_shared_overlay:reward_preview_player_2_spotanim_model
             unk11010(int2, callback(script19253, -1, 84410515), 84410523);
             unk11009();
-            IF_SETMODELANGLE(-220, -240, 0, 0, 0, 1100, comp(1288, 145));
-            IF_SETMODELANGLE(220, -165, 0, 0, 0, 750, comp(1288, 146));
-            IF_SETHIDE(true, comp(1288, 145));
-            IF_SETHIDE(true, comp(1288, 146));
-            IF_SETMODEL(135894 as model, comp(1288, 145));
-            IF_SETMODELANIM(18441 as seq, comp(1288, 145));
-            IF_SETMODEL(135895 as model, comp(1288, 146));
-            IF_SETMODELANIM(18441 as seq, comp(1288, 146));
+            IF_SETMODELANGLE(-220, -240, 0, 0, 0, 1100, comp(1288, 145));  // trh_academy_shared_overlay:reward_preview_target_1_spotanim_model
+            IF_SETMODELANGLE(220, -165, 0, 0, 0, 750, comp(1288, 146));  // trh_academy_shared_overlay:reward_preview_target_2_spotanim_model
+            IF_SETHIDE(true, comp(1288, 145));  // trh_academy_shared_overlay:reward_preview_target_1_spotanim_model
+            IF_SETHIDE(true, comp(1288, 146));  // trh_academy_shared_overlay:reward_preview_target_2_spotanim_model
+            IF_SETMODEL(135894 as model, comp(1288, 145));  // trh_academy_shared_overlay:reward_preview_target_1_spotanim_model
+            IF_SETMODELANIM(18441 as seq, comp(1288, 145));  // trh_academy_shared_overlay:reward_preview_target_1_spotanim_model
+            IF_SETMODEL(135895 as model, comp(1288, 146));  // trh_academy_shared_overlay:reward_preview_target_2_spotanim_model
+            IF_SETMODELANIM(18441 as seq, comp(1288, 146));  // trh_academy_shared_overlay:reward_preview_target_2_spotanim_model
             unk11010(22, callback(script16749, 0, 84410513), 84410513);
             unk11009();
             unk11010(22, callback(script16749, 0, 84410514), 84410514);
             unk11009();
-            IF_SETONTIMER(callback(script19323, 8, 0, (CLIENTCLOCK() + 20), (CLIENTCLOCK() + 80), 84410513), comp(1288, 145));
-            IF_SETONTIMER(callback(script19323, -8, 0, (CLIENTCLOCK() + 20), (CLIENTCLOCK() + 80), 84410514), comp(1288, 146));
+            IF_SETONTIMER(callback(script19323, 8, 0, (CLIENTCLOCK() + 20), (CLIENTCLOCK() + 80), 84410513), comp(1288, 145));  // trh_academy_shared_overlay:reward_preview_target_1_spotanim_model
+            IF_SETONTIMER(callback(script19323, -8, 0, (CLIENTCLOCK() + 20), (CLIENTCLOCK() + 80), 84410514), comp(1288, 146));  // trh_academy_shared_overlay:reward_preview_target_2_spotanim_model
             int1 = int2;
             break;
         }
         case 4: {
-            IF_SETHIDE(true, comp(1288, 152));
-            IF_SETTEXT("Blessed Wild Magic", comp(1288, 156));
-            IF_SETTEXT("Corrupted Wild Magic", comp(1288, 157));
-            IF_SETHIDE(false, comp(1288, 178));
-            IF_SETMODELANGLE(-55, 58, -20, -330, 0, 400, comp(1288, 162));
-            IF_SETMODELANGLE(-55, 58, -20, -330, 0, 400, comp(1288, 161));
-            IF_SETMODELANIM(18012 as seq, comp(1288, 162));
-            IF_SETMODELANGLE(55, 58, -20, 694, 0, 400, comp(1288, 163));
-            IF_SETMODELANGLE(55, 58, -20, 694, 0, 400, comp(1288, 147));
-            IF_SETMODELANIM(18012 as seq, comp(1288, 163));
+            IF_SETHIDE(true, comp(1288, 152));  // trh_academy_shared_overlay:splash_screen_desc
+            IF_SETTEXT("Blessed Wild Magic", comp(1288, 156));  // trh_academy_shared_overlay:reward_preview_text_1
+            IF_SETTEXT("Corrupted Wild Magic", comp(1288, 157));  // trh_academy_shared_overlay:reward_preview_text_2
+            IF_SETHIDE(false, comp(1288, 178));  // trh_academy_shared_overlay:reward_preview_4_selected_rect
+            IF_SETMODELANGLE(-55, 58, -20, -330, 0, 400, comp(1288, 162));  // trh_academy_shared_overlay:splash_screen_npc_large_model_1
+            IF_SETMODELANGLE(-55, 58, -20, -330, 0, 400, comp(1288, 161));  // trh_academy_shared_overlay:reward_preview_player_1_spotanim_model
+            IF_SETMODELANIM(18012 as seq, comp(1288, 162));  // trh_academy_shared_overlay:splash_screen_npc_large_model_1
+            IF_SETMODELANGLE(55, 58, -20, 694, 0, 400, comp(1288, 163));  // trh_academy_shared_overlay:splash_screen_npc_large_model_2
+            IF_SETMODELANGLE(55, 58, -20, 694, 0, 400, comp(1288, 147));  // trh_academy_shared_overlay:reward_preview_player_2_spotanim_model
+            IF_SETMODELANIM(18012 as seq, comp(1288, 163));  // trh_academy_shared_overlay:splash_screen_npc_large_model_2
             int2 = SEQLENGTH(18410 as seq);
-            IF_SETMODELANIM(18410 as seq, comp(1288, 162));
+            IF_SETMODELANIM(18410 as seq, comp(1288, 162));  // trh_academy_shared_overlay:splash_screen_npc_large_model_1
             unk11010(int2, callback(script16429, BAS_GETANIM_READY(2688 as bas), 84410530), 84410523);
             unk11009();
-            IF_SETMODELANIM(18410 as seq, comp(1288, 163));
+            IF_SETMODELANIM(18410 as seq, comp(1288, 163));  // trh_academy_shared_overlay:splash_screen_npc_large_model_2
             unk11010(int2, callback(script16429, BAS_GETANIM_READY(2688 as bas), 84410531), 84410523);
             unk11009();
-            IF_SETHIDE(false, comp(1288, 161));
-            IF_SETMODEL(135907 as model, comp(1288, 161));
-            IF_SETMODELANIM(36664 as seq, comp(1288, 161));
+            IF_SETHIDE(false, comp(1288, 161));  // trh_academy_shared_overlay:reward_preview_player_1_spotanim_model
+            IF_SETMODEL(135907 as model, comp(1288, 161));  // trh_academy_shared_overlay:reward_preview_player_1_spotanim_model
+            IF_SETMODELANIM(36664 as seq, comp(1288, 161));  // trh_academy_shared_overlay:reward_preview_player_1_spotanim_model
             unk11010(int2, callback(script19253, -1, 84410529), 84410523);
             unk11009();
-            IF_SETHIDE(false, comp(1288, 147));
-            IF_SETMODEL(135909 as model, comp(1288, 147));
-            IF_SETMODELANIM(36664 as seq, comp(1288, 147));
+            IF_SETHIDE(false, comp(1288, 147));  // trh_academy_shared_overlay:reward_preview_player_2_spotanim_model
+            IF_SETMODEL(135909 as model, comp(1288, 147));  // trh_academy_shared_overlay:reward_preview_player_2_spotanim_model
+            IF_SETMODELANIM(36664 as seq, comp(1288, 147));  // trh_academy_shared_overlay:reward_preview_player_2_spotanim_model
             unk11010(int2, callback(script19253, -1, 84410515), 84410523);
             unk11009();
-            IF_SETMODELANGLE(-220, -240, 0, 0, 0, 1100, comp(1288, 145));
-            IF_SETMODELANGLE(220, -165, 0, 0, 0, 750, comp(1288, 146));
-            IF_SETHIDE(true, comp(1288, 145));
-            IF_SETHIDE(true, comp(1288, 146));
-            IF_SETMODEL(135910 as model, comp(1288, 145));
-            IF_SETMODELANIM(2792 as seq, comp(1288, 145));
-            IF_SETMODEL(135911 as model, comp(1288, 146));
-            IF_SETMODELANIM(2792 as seq, comp(1288, 146));
+            IF_SETMODELANGLE(-220, -240, 0, 0, 0, 1100, comp(1288, 145));  // trh_academy_shared_overlay:reward_preview_target_1_spotanim_model
+            IF_SETMODELANGLE(220, -165, 0, 0, 0, 750, comp(1288, 146));  // trh_academy_shared_overlay:reward_preview_target_2_spotanim_model
+            IF_SETHIDE(true, comp(1288, 145));  // trh_academy_shared_overlay:reward_preview_target_1_spotanim_model
+            IF_SETHIDE(true, comp(1288, 146));  // trh_academy_shared_overlay:reward_preview_target_2_spotanim_model
+            IF_SETMODEL(135910 as model, comp(1288, 145));  // trh_academy_shared_overlay:reward_preview_target_1_spotanim_model
+            IF_SETMODELANIM(2792 as seq, comp(1288, 145));  // trh_academy_shared_overlay:reward_preview_target_1_spotanim_model
+            IF_SETMODEL(135911 as model, comp(1288, 146));  // trh_academy_shared_overlay:reward_preview_target_2_spotanim_model
+            IF_SETMODELANIM(2792 as seq, comp(1288, 146));  // trh_academy_shared_overlay:reward_preview_target_2_spotanim_model
             unk11010(22, callback(script16749, 0, 84410513), 84410513);
             unk11009();
             unk11010(22, callback(script16749, 0, 84410514), 84410514);
             unk11009();
-            IF_SETONTIMER(callback(script19323, 8, 0, (CLIENTCLOCK() + 20), (CLIENTCLOCK() + 80), 84410513), comp(1288, 145));
-            IF_SETONTIMER(callback(script19323, -8, 0, (CLIENTCLOCK() + 20), (CLIENTCLOCK() + 80), 84410514), comp(1288, 146));
+            IF_SETONTIMER(callback(script19323, 8, 0, (CLIENTCLOCK() + 20), (CLIENTCLOCK() + 80), 84410513), comp(1288, 145));  // trh_academy_shared_overlay:reward_preview_target_1_spotanim_model
+            IF_SETONTIMER(callback(script19323, -8, 0, (CLIENTCLOCK() + 20), (CLIENTCLOCK() + 80), 84410514), comp(1288, 146));  // trh_academy_shared_overlay:reward_preview_target_2_spotanim_model
             int1 = int2;
             break;
         }
         case 5: {
-            IF_SETHIDE(false, comp(1288, 152));
-            IF_SETTEXT("Cape of Devotion", comp(1288, 156));
-            IF_SETTEXT("Cape of Devastation", comp(1288, 157));
-            IF_SETHIDE(false, comp(1288, 174));
-            IF_SETMODELANGLE(-55, 55, -20, 900, 0, 400, comp(1288, 162));
-            IF_SETMODELANIM(18019 as seq, comp(1288, 162));
-            IF_SETMODELANGLE(55, 55, -20, -900, 0, 400, comp(1288, 163));
-            IF_SETMODELANIM(18019 as seq, comp(1288, 163));
+            IF_SETHIDE(false, comp(1288, 152));  // trh_academy_shared_overlay:splash_screen_desc
+            IF_SETTEXT("Cape of Devotion", comp(1288, 156));  // trh_academy_shared_overlay:reward_preview_text_1
+            IF_SETTEXT("Cape of Devastation", comp(1288, 157));  // trh_academy_shared_overlay:reward_preview_text_2
+            IF_SETHIDE(false, comp(1288, 174));  // trh_academy_shared_overlay:reward_preview_5_selected_rect
+            IF_SETMODELANGLE(-55, 55, -20, 900, 0, 400, comp(1288, 162));  // trh_academy_shared_overlay:splash_screen_npc_large_model_1
+            IF_SETMODELANIM(18019 as seq, comp(1288, 162));  // trh_academy_shared_overlay:splash_screen_npc_large_model_1
+            IF_SETMODELANGLE(55, 55, -20, -900, 0, 400, comp(1288, 163));  // trh_academy_shared_overlay:splash_screen_npc_large_model_2
+            IF_SETMODELANIM(18019 as seq, comp(1288, 163));  // trh_academy_shared_overlay:splash_screen_npc_large_model_2
             break;
         }
     };

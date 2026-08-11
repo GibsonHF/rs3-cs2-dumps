@@ -2,7 +2,7 @@
 function script2971(int0: number, int1: number, int2: number, int3: number, int4: number): number {
     var int5 = enum_getreverseindex(74, 0, 14569 as cs2enum, int0, 0);
     if ((script18934(int0) == 0)) {
-        CC_CREATE(comp(365, 13), 4, int5);
+        CC_CREATE(comp(365, 13), 4, int5);  // settings:cat_click
         CC_SETHIDE(true);
         return int2;
     };

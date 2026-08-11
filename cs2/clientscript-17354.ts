@@ -17,8 +17,8 @@ function script17354(): void {
         IF_SETHIDE(true, int0);
         IF_SETSCROLLSIZE(0, 0, int1);
     };
-    IF_SETTEXT(string1, comp(1802, 327));
-    IF_SETTEXT(string0, comp(1802, 328));
+    IF_SETTEXT(string1, comp(1802, 327));  // timed_event:variety_task_events_specific_info
+    IF_SETTEXT(string0, comp(1802, 328));  // timed_event:variety_task_events_specific_title
     script17358(-1);
     return;
 }

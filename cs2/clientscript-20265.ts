@@ -40,10 +40,10 @@ function script20265(int0: number, int1: number, int2: number, int3: number, int
         };
         int5 = (int5 + 1);
     };
-    if (((int8 > 0) && (IF_FIND(comp(1443, 23)) == 1))) {
+    if (((int8 > 0) && (IF_FIND(comp(1443, 23)) == 1))) {  // league_parent_relics:confirm_popup
         [int1, int2] = script19613(0, int1, int2, int3, "Toggleable Effects");
-        IF_SETPOSITION(0, int2, 0, 0, comp(1443, 24));
-        IF_SETSIZE(0, int8, 1, 0, comp(1443, 24));
+        IF_SETPOSITION(0, int2, 0, 0, comp(1443, 24));  // league_parent_relics:confirm_window
+        IF_SETSIZE(0, int8, 1, 0, comp(1443, 24));  // league_parent_relics:confirm_window
         int2 = (int2 + int8);
         [int1, int2] = script19613(0, int1, int2, int3, "Always Active Effects");
     };

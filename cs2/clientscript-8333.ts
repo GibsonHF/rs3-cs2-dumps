@@ -9,19 +9,19 @@ function script8333(int0: number): [number, number] {
             int4 = 0;
         } else if ((IF_HASSUBOVERLAY(int2, 1117 as overlayinterface) == 1)) {
             int3 = 190;
-            if ((IF_GETHIDE(comp(1117, 6)) == false)) {
+            if ((IF_GETHIDE(comp(1117, 6)) == false)) {  // clan_stronghold_skill_plot_overlay:selection_box_woodcutting
                 int4 = 147;
-            } else if ((IF_GETHIDE(comp(1117, 7)) == false)) {
+            } else if ((IF_GETHIDE(comp(1117, 7)) == false)) {  // clan_stronghold_skill_plot_overlay:selection_box_mining
                 int4 = 261;
-            } else if ((IF_GETHIDE(comp(1117, 8)) == false)) {
+            } else if ((IF_GETHIDE(comp(1117, 8)) == false)) {  // clan_stronghold_skill_plot_overlay:selection_box_firemaking
                 int4 = 147;
-            } else if ((IF_GETHIDE(comp(1117, 9)) == false)) {
+            } else if ((IF_GETHIDE(comp(1117, 9)) == false)) {  // clan_stronghold_skill_plot_overlay:selection_box_smithing
                 int4 = 261;
-            } else if ((IF_GETHIDE(comp(1117, 10)) == false)) {
+            } else if ((IF_GETHIDE(comp(1117, 10)) == false)) {  // clan_stronghold_skill_plot_overlay:selection_box_crafting
                 int4 = 147;
-            } else if ((IF_GETHIDE(comp(1117, 11)) == false)) {
+            } else if ((IF_GETHIDE(comp(1117, 11)) == false)) {  // clan_stronghold_skill_plot_overlay:selection_box_summoning
                 int4 = 147;
-            } else if ((IF_GETHIDE(comp(1117, 14)) == false)) {
+            } else if ((IF_GETHIDE(comp(1117, 14)) == false)) {  // clan_stronghold_skill_plot_overlay:selection_box_cooking
                 int4 = 147;
             };
         } else if ((((IF_HASSUBOVERLAY(int2, 953 as overlayinterface) == 1) || (IF_HASSUBOVERLAY(int2, 946 as overlayinterface) == 1)) || (IF_HASSUBOVERLAY(int2, 936 as overlayinterface) == 1))) {

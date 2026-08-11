@@ -9,19 +9,19 @@ function script4901(): void {
         int4 = varbitclan_6507;
         int0 = script4904(0, 0, int4);
         if ((int0 != -1 as graphic)) {
-            IF_SETGRAPHIC(int0, comp(1259, 24));
+            IF_SETGRAPHIC(int0, comp(1259, 24));  // clan_stronghold_main_map:map_layout_button_a_graphic
         };
         int1 = script4904(0, 1, int4);
         if ((int1 != -1 as graphic)) {
-            IF_SETGRAPHIC(int1, comp(1259, 23));
+            IF_SETGRAPHIC(int1, comp(1259, 23));  // clan_stronghold_main_map:map_layout_button_b_graphic
         };
         int2 = script4904(0, 2, int4);
         if ((int2 != -1 as graphic)) {
-            IF_SETGRAPHIC(int2, comp(1259, 22));
+            IF_SETGRAPHIC(int2, comp(1259, 22));  // clan_stronghold_main_map:map_layout_button_c_graphic
         };
         int3 = script4904(0, 3, int4);
         if ((int3 != -1 as graphic)) {
-            IF_SETGRAPHIC(int3, comp(1259, 21));
+            IF_SETGRAPHIC(int3, comp(1259, 21));  // clan_stronghold_main_map:map_layout_button_d_graphic
         };
     };
     return;

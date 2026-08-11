@@ -12,21 +12,21 @@ function script5461(): void {
     varclient_1676 = 0;
     string0 = struct_getparam(int0, 2095);
     if ((varbitplayer_3659 == 7)) {
-        IF_SETHIDE(false, comp(1159, 42));
+        IF_SETHIDE(false, comp(1159, 42));  // dom_battle_overlay:timer_layer
     } else {
-        IF_SETHIDE(true, comp(1159, 42));
+        IF_SETHIDE(true, comp(1159, 42));  // dom_battle_overlay:timer_layer
     };
     varclient_1670 = 0;
     varclient_1671 = 0;
-    IF_SETTEXT(string0, comp(1159, 41));
-    IF_SETTEXT(string2, comp(1159, 40));
+    IF_SETTEXT(string0, comp(1159, 41));  // dom_battle_overlay:boss_name
+    IF_SETTEXT(string2, comp(1159, 40));  // dom_battle_overlay:player_name
     var int2 = script6431();
-    IF_SETHIDE(int2, comp(1159, 33));
-    IF_SETHIDE(int2, comp(1159, 39));
-    IF_SETHIDE(int2, comp(1159, 40));
-    IF_SETHIDE(int2, comp(1159, 41));
-    IF_SETHIDE(int2, comp(1159, 12));
-    IF_SETHIDE(int2, comp(1159, 13));
+    IF_SETHIDE(int2, comp(1159, 33));  // dom_battle_overlay:player_health_layer
+    IF_SETHIDE(int2, comp(1159, 39));  // dom_battle_overlay:boss_health_layer
+    IF_SETHIDE(int2, comp(1159, 40));  // dom_battle_overlay:player_name
+    IF_SETHIDE(int2, comp(1159, 41));  // dom_battle_overlay:boss_name
+    IF_SETHIDE(int2, comp(1159, 12));  // dom_battle_overlay:splat_player
+    IF_SETHIDE(int2, comp(1159, 13));  // dom_battle_overlay:splat_boss
     if ((varbitplayer_3655 > 0)) {
         string1 = `Climber. Floor ${inttostring(varbitplayer_3655, 10)}`;
     } else if ((varbitplayer_3656 > 0)) {
@@ -38,11 +38,11 @@ function script5461(): void {
     } else {
         string1 = "Unknown";
     };
-    IF_SETTEXT(string1, comp(1159, 32));
-    IF_SETSIZE(IF_GETWIDTH(comp(1159, 23)), 37, 0, 0, comp(1159, 23));
-    IF_SETSIZE(IF_GETWIDTH(comp(1159, 31)), 1, 0, 0, comp(1159, 31));
-    IF_SETSIZE((IF_GETWIDTH(comp(1159, 33)) - 10), IF_GETHEIGHT(comp(1159, 35)), 0, 0, comp(1159, 35));
-    IF_SETSIZE((IF_GETWIDTH(comp(1159, 39)) - 10), IF_GETHEIGHT(comp(1159, 17)), 0, 0, comp(1159, 17));
+    IF_SETTEXT(string1, comp(1159, 32));  // dom_battle_overlay:status_text
+    IF_SETSIZE(IF_GETWIDTH(comp(1159, 23)), 37, 0, 0, comp(1159, 23));  // dom_battle_overlay:stats_layer
+    IF_SETSIZE(IF_GETWIDTH(comp(1159, 31)), 1, 0, 0, comp(1159, 31));  // dom_battle_overlay:handicap_icons_layer
+    IF_SETSIZE((IF_GETWIDTH(comp(1159, 33) /*dom_battle_overlay:player_health_layer*/) - 10), IF_GETHEIGHT(comp(1159, 35) /*dom_battle_overlay:player_healthbar*/), 0, 0, comp(1159, 35) /*dom_battle_overlay:player_healthbar*/);
+    IF_SETSIZE((IF_GETWIDTH(comp(1159, 39) /*dom_battle_overlay:boss_health_layer*/) - 10), IF_GETHEIGHT(comp(1159, 17) /*dom_battle_overlay:boss_healthbar*/), 0, 0, comp(1159, 17) /*dom_battle_overlay:boss_healthbar*/);
     SOUND_VORBIS_VOLUME(8105 as vorbis, 1, 60, 255);
     if ((varbitplayer_3662 == 1)) {
         script5462(1, int1);
@@ -132,10 +132,10 @@ function script5461(): void {
         script5462(22, int1);
         int1 = (int1 + 1);
     };
-    IF_SETONTIMER(callback(script5467), comp(1159, 30));
+    IF_SETONTIMER(callback(script5467), comp(1159, 30));  // dom_battle_overlay:global_layer
     varclient_1674 = -45;
     varclient_1675 = -75;
-    IF_SETPOSITION(0, varclient_1674, 1, 0, comp(1159, 22));
-    IF_SETPOSITION(3, varclient_1675, 2, 2, comp(1159, 23));
+    IF_SETPOSITION(0, varclient_1674, 1, 0, comp(1159, 22));  // dom_battle_overlay:health_bars_layer
+    IF_SETPOSITION(3, varclient_1675, 2, 2, comp(1159, 23));  // dom_battle_overlay:stats_layer
     return;
 }

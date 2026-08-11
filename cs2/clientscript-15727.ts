@@ -1,6 +1,6 @@
 //
 function script15727(int0: number): void {
-    CC_DELETEALL(comp(828, 4));
+    CC_DELETEALL(comp(828, 4));  // mobile_shop_hard_currency:tab_layer
     varclient_6892 = int0;
     var int1 = 0;
     var int2 = 0;

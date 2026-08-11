@@ -163,8 +163,8 @@ function script12483(): void {
             break;
         }
     };
-    IF_SETGRAPHIC(int0, comp(1758, 19));
-    IF_SETTEXT(string1, comp(1758, 21));
-    IF_SETTEXT(string0, comp(1758, 20));
+    IF_SETGRAPHIC(int0, comp(1758, 19));  // mm16_summary:mtx_graphic
+    IF_SETTEXT(string1, comp(1758, 21));  // mm16_summary:mtx_desc
+    IF_SETTEXT(string0, comp(1758, 20));  // mm16_summary:mtx_title
     return;
 }

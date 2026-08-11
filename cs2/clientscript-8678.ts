@@ -40,7 +40,7 @@ function script8678(int0: number): void {
     var int13 = 36;
     var int14 = 32;
     if ((int7 == 1)) {
-        if ((int0 == comp(1473, 0))) {
+        if ((int0 == comp(1473, 0))) {  // toplevel_v2_inventory:main_layer
             int11 = 44;
             int12 = 44;
             int13 = 44;

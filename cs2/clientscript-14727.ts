@@ -11,7 +11,7 @@ function script14727(int0: number, int1: number): number {
             break;
         }
         case 82: {
-            if ((((int1 == 13) && (varbitplayer_19000 == 1)) && (IF_GETHIDE(comp(105, 130)) == false))) {
+            if ((((int1 == 13) && (varbitplayer_19000 == 1)) && (IF_GETHIDE(comp(105, 130)) == false))) {  // stockmarket:choosesell5_button_over_layer ?
                 return 1;
             };
             break;

@@ -13,18 +13,18 @@ function script12449(int0: number, int1: number): void {
             if (((int1 > 0) && (varbitclient_23075 < 1))) {
                 script835();
                 varbitclient_23075 = 1;
-                IF_SETONTIMER(callback(script12448), comp(1477, 16));
+                IF_SETONTIMER(callback(script12448), comp(1477, 16));  // toplevel_v2:gamepad_listener
             };
             break;
         }
         case 9: {
             if (((int1 > 0) && (varbitclient_23075 < 1))) {
-                if ((IF_GETHIDE(comp(475, 8)) == true)) {
-                    IF_SETHIDE(false, comp(475, 8));
+                if ((IF_GETHIDE(comp(475, 8)) == true)) {  // machinima_livecamera:ui
+                    IF_SETHIDE(false, comp(475, 8));  // machinima_livecamera:ui
                 } else {
-                    IF_SETHIDE(true, comp(475, 8));
+                    IF_SETHIDE(true, comp(475, 8));  // machinima_livecamera:ui
                 };
-                IF_SETONTIMER(callback(script12448), comp(1477, 16));
+                IF_SETONTIMER(callback(script12448), comp(1477, 16));  // toplevel_v2:gamepad_listener
                 varbitclient_23075 = 1;
                 return;
             };

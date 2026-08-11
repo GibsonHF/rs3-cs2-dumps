@@ -10,11 +10,11 @@ function script19520(int0: number, int1: number): void {
     var int6 = 0;
     var int7 = 8;
     var int8 = 5;
-    var int9 = IF_GETWIDTH(comp(1313, 74));
+    var int9 = IF_GETWIDTH(comp(1313, 74));  // group_ironman_storage:clan_items_container
     var int10 = 0;
     var int11 = 0;
     while ((int3 < int4)) {
-        if ((CC_FIND(comp(1313, 75), int3) == 1)) {
+        if ((CC_FIND(comp(1313, 75), int3) == 1)) {  // group_ironman_storage:clan_inv
             if ((int1 == 1)) {
                 int5 = CC_GETINVOBJECT();
                 int6 = CC_GETINVCOUNT();
@@ -93,20 +93,20 @@ function script19520(int0: number, int1: number): void {
     };
     if ((int7 == 8)) {
         if ((int8 == 5)) {
-            IF_SETHIDE(false, comp(1313, 72));
+            IF_SETHIDE(false, comp(1313, 72));  // group_ironman_storage:message_nofilter
         } else {
-            IF_SETHIDE(true, comp(1313, 72));
+            IF_SETHIDE(true, comp(1313, 72));  // group_ironman_storage:message_nofilter
         };
     } else {
-        IF_SETHIDE(true, comp(1313, 72));
+        IF_SETHIDE(true, comp(1313, 72));  // group_ironman_storage:message_nofilter
     };
     while ((int3 < 200)) {
-        if ((CC_FIND(comp(1313, 75), int3) == 1)) {
+        if ((CC_FIND(comp(1313, 75), int3) == 1)) {  // group_ironman_storage:clan_inv
             CC_SETHIDE(true);
         };
         int3 = (int3 + 1);
     };
-    IF_SETSCROLLPOS(0, 0, comp(1313, 74));
+    IF_SETSCROLLPOS(0, 0, comp(1313, 74));  // group_ironman_storage:clan_items_container
     if ((int7 > 8)) {
         int8 = (int8 + int2);
     };

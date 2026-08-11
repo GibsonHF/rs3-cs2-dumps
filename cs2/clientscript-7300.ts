@@ -10,9 +10,9 @@ function script7300(): void {
         string0 = `${inttostring(int0, 10)}h`;
     };
     if ((varbitplayer_17461 > 0)) {
-        IF_SETTEXT(`Rerolls available: ${inttostring(varbitplayer_17461, 10)}`, comp(1276, 102));
+        IF_SETTEXT(`Rerolls available: ${inttostring(varbitplayer_17461, 10)}`, comp(1276, 102));  // pop_crew:crew_rerolls
     } else {
-        IF_SETTEXT(`New crew in ${string0}`, comp(1276, 102));
+        IF_SETTEXT(`New crew in ${string0}`, comp(1276, 102));  // pop_crew:crew_rerolls
     };
     script13993(83624041, -1, 28556, `Add 5 Rerolls (${inttostring(varbitplayer_17420, 10)})`);
     script13994(83624042, -1, 28556, `Add 5 Rerolls (${inttostring(varbitplayer_17420, 10)})`, 1);

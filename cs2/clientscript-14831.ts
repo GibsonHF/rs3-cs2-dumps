@@ -16,10 +16,10 @@ function script14831(int0: number): void {
         string2 = script14912(int0);
         string3 = script14913(int0);
     };
-    IF_SETGRAPHIC(int1, comp(685, 85));
-    IF_SETTEXT(string0, comp(685, 86));
-    IF_SETTEXT(string1, comp(685, 87));
-    IF_SETTEXT(string2, comp(685, 89));
-    IF_SETTEXT(string3, comp(685, 94));
+    IF_SETGRAPHIC(int1, comp(685, 85));  // arch_journal:restoration_info_graphic
+    IF_SETTEXT(string0, comp(685, 86));  // arch_journal:restoration_info_name_text
+    IF_SETTEXT(string1, comp(685, 87));  // arch_journal:restoration_info_desc_text
+    IF_SETTEXT(string2, comp(685, 89));  // arch_journal:restoration_info_collector_text
+    IF_SETTEXT(string3, comp(685, 94));  // arch_journal:restoration_info_excavation_text
     return;
 }

@@ -6,10 +6,10 @@ function script7555(): void {
     } else {
         int0 = (varbitplayer_18127 * 10);
     };
-    if ((IF_GETWIDTH(comp(378, 3)) > int0)) {
-        IF_SETSIZE(int0, IF_GETHEIGHT(comp(378, 3)), 0, 0, comp(378, 3));
+    if ((IF_GETWIDTH(comp(378, 3)) > int0)) {  // tsd_juna_health:zilyana_fill
+        IF_SETSIZE(int0, IF_GETHEIGHT(comp(378, 3)), 0, 0, comp(378, 3));  // tsd_juna_health:zilyana_fill
     } else {
-        IF_SETONTIMER(callback(script7556, int0), comp(378, 1));
+        IF_SETONTIMER(callback(script7556, int0), comp(378, 1));  // tsd_juna_health:zilyana
     };
     return;
 }

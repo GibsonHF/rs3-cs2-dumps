@@ -2,12 +2,12 @@
 function script7251(): void {
     script7252(varplayer_3390);
     if ((varplayer_3393 < 0)) {
-        IF_SETOPKEY(1, 13, 0, comp(916, 344));
-        IF_SETOPKEY(1, 0, 0, comp(916, 381));
+        IF_SETOPKEY(1, 13, 0, comp(916, 344));  // pop_ship:close_button
+        IF_SETOPKEY(1, 0, 0, comp(916, 381));  // pop_ship:list_closer
         return;
     };
-    IF_SETOPKEY(1, 0, 0, comp(916, 344));
-    IF_SETOPKEY(1, 13, 0, comp(916, 381));
+    IF_SETOPKEY(1, 0, 0, comp(916, 344));  // pop_ship:close_button
+    IF_SETOPKEY(1, 13, 0, comp(916, 381));  // pop_ship:list_closer
     var int0 = script7311(varplayer_3393);
     var int1 = INV_GETOBJ(677 as inv, varplayer_3393);
     var int2 = 0;

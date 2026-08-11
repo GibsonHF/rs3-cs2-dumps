@@ -1,7 +1,7 @@
 //
 function script7338(int0: number, int1: number, int2: number, int3: number, int4: number): [number, number] {
     var int5 = enum_getvalue(0, 73, int0, int1);
-    var int6 = comp(1373, 10);
+    var int6 = comp(1373, 10);  // pop_port_upgrade:content_layer
     if ((int5 == -1 as struct)) {
         return [0, 0];
     };

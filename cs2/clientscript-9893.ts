@@ -6,6 +6,6 @@ function script9893(int0: number): void {
     } else {
         IF_SETONTIMER(callback(), int0);
     };
-    IF_SETTRANS(int1, comp(1504, 6));
+    IF_SETTRANS(int1, comp(1504, 6));  // topstat_hitpoints:icon
     return;
 }

@@ -6,7 +6,7 @@ function script19015(int0: number): void {
     var int4 = -1 as graphic;
     var int5 = -1 as graphic;
     var int6 = script16161();
-    if ((CC_FIND(comp(1870, 18), int0) == 1)) {
+    if ((CC_FIND(comp(1870, 18), int0) == 1)) {  // trh119_buried_treasure_overlay:grid_chest_layer
         switch (int6) {
             case 1515: {
                 int4 = 30449 as graphic;
@@ -52,7 +52,7 @@ function script19015(int0: number): void {
             }
             case 1: {
                 CC_SETGRAPHIC(int4);
-                if ((CC_FIND[1](comp(1870, 17), int0) == 1)) {
+                if ((CC_FIND[1](comp(1870, 17), int0) == 1)) {  // trh119_buried_treasure_overlay:grid_hover_layer
                     CC_SETGRAPHIC[1](-1 as graphic);
                     CC_SETONMOUSEOVER[1](callback());
                     CC_SETONMOUSELEAVE[1](callback());

@@ -1,6 +1,6 @@
 //[proc,clanwars_updateside_textbox]
 function script1785(int0: number, int1: number, int2: number, int3: number, string0: string): [number, number] {
-    CC_CREATE(comp(792, 3), 4, int1);
+    CC_CREATE(comp(792, 3), 4, int1);  // clanwars_setup_side:contents
     CC_SETPOSITION(0, int0, 0, 0);
     CC_SETTEXTFONT(67 as fontmetrics);
     CC_SETTEXTSHADOW(true);

@@ -1,12 +1,12 @@
 //
 function script11281(int0: number, int1: number): void {
-    IF_SETHIDE(false, comp(1422, 18));
-    IF_SETHIDE(false, comp(1612, 1));
-    var int2 = comp(1612, 3);
-    var int3 = comp(1612, 11);
-    IF_SETTEXT("Yes", comp(1612, 14));
-    IF_SETTEXT("No", comp(1612, 22));
-    IF_SETONOP(callback(script10090), comp(1612, 19));
+    IF_SETHIDE(false, comp(1422, 18));  // worldmap_v2_ui:overlay_window_cancel_layer
+    IF_SETHIDE(false, comp(1612, 1));  // worldmap_v2_confirm:confirm_window
+    var int2 = comp(1612, 3);  // worldmap_v2_confirm:confirm_window_content
+    var int3 = comp(1612, 11);  // worldmap_v2_confirm:positive_button_active_layer
+    IF_SETTEXT("Yes", comp(1612, 14));  // worldmap_v2_confirm:positive_button_text
+    IF_SETTEXT("No", comp(1612, 22));  // worldmap_v2_confirm:neutral_button_text
+    IF_SETONOP(callback(script10090), comp(1612, 19));  // worldmap_v2_confirm:neutral_button_active_layer
     CC_DELETEALL(int2);
     CC_DELETEALL(int3);
     IF_SETOP(callback(script1), int3);

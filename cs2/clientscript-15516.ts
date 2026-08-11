@@ -35,9 +35,9 @@ function script15516(int0: number, int1: number, int2: number, int3: number, int
     };
     script15518();
     if ((int9 > IF_GETHEIGHT(int1))) {
-        IF_SETSCROLLSIZE(0, (int9 - int10), comp(784, 41));
+        IF_SETSCROLLSIZE(0, (int9 - int10), comp(784, 41));  // fairyrings:log_content
     } else {
-        IF_SETSCROLLSIZE(0, 0, comp(784, 41));
+        IF_SETSCROLLSIZE(0, 0, comp(784, 41));  // fairyrings:log_content
     };
     script7791(51380273, 51380265);
     return;

@@ -4,7 +4,7 @@ function script9831(int0: number, int1: number, int2: number, int3: number, stri
         if ((strcmp(varclient_2250, string0) != 0)) {
             if ((STRING_LENGTH(varclient_2250) > 0)) {
                 if ((int3 == 1)) {
-                    IF_SETHIDE(false, comp(517, 202));
+                    IF_SETHIDE(false, comp(517, 202));  // bank:diango_inv
                 };
                 IF_SETONTIMER(callback(), int1);
                 script9832(varclient_2250, int2);

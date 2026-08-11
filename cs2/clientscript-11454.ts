@@ -1,17 +1,17 @@
 //
 function script11454(): void {
-    CC_DELETEALL(comp(1626, 9));
-    CC_DELETEALL(comp(1626, 10));
-    CC_DELETEALL(comp(1626, 55));
-    CC_DELETEALL(comp(1626, 56));
-    CC_DELETEALL(comp(1626, 2));
-    CC_DELETEALL(comp(1626, 4));
-    CC_DELETEALL(comp(1626, 95));
-    CC_DELETEALL(comp(1626, 96));
-    CC_DELETEALL(comp(1626, 62));
-    CC_DELETEALL(comp(1626, 63));
-    CC_DELETEALL(comp(1626, 77));
-    CC_DELETEALL(comp(1626, 79));
+    CC_DELETEALL(comp(1626, 9));  // death:protect_build
+    CC_DELETEALL(comp(1626, 10));  // death:protect_click
+    CC_DELETEALL(comp(1626, 55));  // death:keep_build
+    CC_DELETEALL(comp(1626, 56));  // death:keep_click
+    CC_DELETEALL(comp(1626, 2));  // death:lost_build
+    CC_DELETEALL(comp(1626, 4));  // death:lost_click
+    CC_DELETEALL(comp(1626, 95));  // death:lost_bob_build
+    CC_DELETEALL(comp(1626, 96));  // death:lost_bob_click
+    CC_DELETEALL(comp(1626, 62));  // death:autosave_build
+    CC_DELETEALL(comp(1626, 63));  // death:autosave_click
+    CC_DELETEALL(comp(1626, 77));  // death:overflow_build
+    CC_DELETEALL(comp(1626, 79));  // death:overflow_click
     var int0 = 0;
     var int1 = 0;
     switch (varbitplayer_28118) {
@@ -58,36 +58,36 @@ function script11454(): void {
     };
     if ((varbitplayer_28118 == 1)) {
         if (((varbitplayer_52406 == 1) || (varbitplayer_52406 == 2))) {
-            IF_SETSIZE(288, (5 + IF_GETHEIGHT(comp(1626, 43))), 1, 1, comp(1626, 24));
-            IF_SETSIZE(30, (30 + IF_GETHEIGHT(comp(1626, 43))), 1, 1, comp(1626, 52));
-            IF_SETHIDE(false, comp(1626, 43));
+            IF_SETSIZE(288, (5 + IF_GETHEIGHT(comp(1626, 43) /*death:buttons_layer*/)), 1, 1, comp(1626, 24) /*death:left_hand_display*/);
+            IF_SETSIZE(30, (30 + IF_GETHEIGHT(comp(1626, 43) /*death:buttons_layer*/)), 1, 1, comp(1626, 52) /*death:cost_info*/);
+            IF_SETHIDE(false, comp(1626, 43));  // death:buttons_layer
             if ((varbitplayer_52406 == 2)) {
-                IF_SETHIDE(false, comp(1626, 44));
-                IF_SETHIDE(false, comp(1626, 45));
+                IF_SETHIDE(false, comp(1626, 44));  // death:overflow_destroy_single
+                IF_SETHIDE(false, comp(1626, 45));  // death:overflow_confirm_single
             } else {
-                IF_SETHIDE(true, comp(1626, 44));
-                IF_SETHIDE(true, comp(1626, 45));
+                IF_SETHIDE(true, comp(1626, 44));  // death:overflow_destroy_single
+                IF_SETHIDE(true, comp(1626, 45));  // death:overflow_confirm_single
             };
         } else {
-            IF_SETSIZE(288, 5, 1, 1, comp(1626, 24));
-            IF_SETSIZE(30, 30, 1, 1, comp(1626, 52));
-            IF_SETHIDE(true, comp(1626, 43));
+            IF_SETSIZE(288, 5, 1, 1, comp(1626, 24));  // death:left_hand_display
+            IF_SETSIZE(30, 30, 1, 1, comp(1626, 52));  // death:cost_info
+            IF_SETHIDE(true, comp(1626, 43));  // death:buttons_layer
         };
     } else if ((varbitplayer_52406 == 2)) {
-        IF_SETSIZE(288, (5 + IF_GETHEIGHT(comp(1626, 43))), 1, 1, comp(1626, 24));
-        IF_SETSIZE(30, (30 + IF_GETHEIGHT(comp(1626, 43))), 1, 1, comp(1626, 52));
-        IF_SETHIDE(false, comp(1626, 43));
+        IF_SETSIZE(288, (5 + IF_GETHEIGHT(comp(1626, 43) /*death:buttons_layer*/)), 1, 1, comp(1626, 24) /*death:left_hand_display*/);
+        IF_SETSIZE(30, (30 + IF_GETHEIGHT(comp(1626, 43) /*death:buttons_layer*/)), 1, 1, comp(1626, 52) /*death:cost_info*/);
+        IF_SETHIDE(false, comp(1626, 43));  // death:buttons_layer
         if ((varbitplayer_52406 == 2)) {
-            IF_SETHIDE(false, comp(1626, 44));
-            IF_SETHIDE(false, comp(1626, 45));
+            IF_SETHIDE(false, comp(1626, 44));  // death:overflow_destroy_single
+            IF_SETHIDE(false, comp(1626, 45));  // death:overflow_confirm_single
         } else {
-            IF_SETHIDE(true, comp(1626, 44));
-            IF_SETHIDE(true, comp(1626, 45));
+            IF_SETHIDE(true, comp(1626, 44));  // death:overflow_destroy_single
+            IF_SETHIDE(true, comp(1626, 45));  // death:overflow_confirm_single
         };
     } else {
-        IF_SETSIZE(288, 5, 1, 1, comp(1626, 24));
-        IF_SETSIZE(30, 30, 1, 1, comp(1626, 52));
-        IF_SETHIDE(true, comp(1626, 43));
+        IF_SETSIZE(288, 5, 1, 1, comp(1626, 24));  // death:left_hand_display
+        IF_SETSIZE(30, 30, 1, 1, comp(1626, 52));  // death:cost_info
+        IF_SETHIDE(true, comp(1626, 43));  // death:buttons_layer
     };
     script17088(int0);
     var long0 = 0n;
@@ -139,26 +139,26 @@ function script11454(): void {
     var int24 = 0;
     var int25 = script17093();
     if ((varbitplayer_52406 == 0)) {
-        IF_SETHIDE(false, comp(1626, 41));
-        IF_SETHIDE(true, comp(1626, 30));
+        IF_SETHIDE(false, comp(1626, 41));  // death:info_panel
+        IF_SETHIDE(true, comp(1626, 30));  // death:death_status
     } else if ((varbitplayer_52406 == 2)) {
-        IF_SETHIDE(true, comp(1626, 41));
-        IF_SETHIDE(false, comp(1626, 30));
+        IF_SETHIDE(true, comp(1626, 41));  // death:info_panel
+        IF_SETHIDE(false, comp(1626, 30));  // death:death_status
         int24 = script17090(106561568, -1, -1, int24, int25, (INV_SIZE(930 as inv) - INV_FREESPACE(930 as inv)), "");
-        IF_SETHIDE(true, comp(1626, 33));
-        IF_SETHIDE(true, comp(1626, 34));
-        IF_SETHIDE(true, comp(1626, 35));
-        IF_SETHIDE(true, comp(1626, 36));
-        IF_SETHIDE(true, comp(1626, 37));
+        IF_SETHIDE(true, comp(1626, 33));  // death:protected_container
+        IF_SETHIDE(true, comp(1626, 34));  // death:keep_container
+        IF_SETHIDE(true, comp(1626, 35));  // death:lost_container
+        IF_SETHIDE(true, comp(1626, 36));  // death:lost_bob_container
+        IF_SETHIDE(true, comp(1626, 37));  // death:autosave_container
     } else {
-        IF_SETHIDE(true, comp(1626, 41));
-        IF_SETHIDE(false, comp(1626, 30));
+        IF_SETHIDE(true, comp(1626, 41));  // death:info_panel
+        IF_SETHIDE(false, comp(1626, 30));  // death:death_status
         int24 = script17090(106561569, 106561543, 106561544, int24, int25, int7, string1);
         int24 = script17090(106561570, 106561589, 106561590, int24, int25, int8, string2);
         int24 = script17090(106561571, 106561536, 106561537, int24, int25, int23, string3);
         int24 = script17090(106561572, 106561629, 106561630, int24, int25, int1, string4);
         int24 = script17090(106561573, 106561596, 106561597, int24, int25, int10, string5);
-        IF_SETHIDE(true, comp(1626, 32));
+        IF_SETHIDE(true, comp(1626, 32));  // death:overflow_container
     };
     var int26 = 0;
     var int27 = 0;
@@ -250,16 +250,16 @@ function script11454(): void {
     if ((varbitplayer_28117 == 0)) {
         if ((varbitplayer_52406 == 2)) {
             if ((INV_FREESPACE(930 as inv) == INV_SIZE(930 as inv))) {
-                IF_SETENABLED(false, comp(1626, 47));
+                IF_SETENABLED(false, comp(1626, 47));  // death:confirm_button
             } else {
-                IF_SETENABLED(true, comp(1626, 47));
+                IF_SETENABLED(true, comp(1626, 47));  // death:confirm_button
             };
             string6 = script17372(long6, 9, 0);
         } else {
             if ((INV_FREESPACE(676 as inv) == INV_SIZE(676 as inv))) {
-                IF_SETENABLED(false, comp(1626, 47));
+                IF_SETENABLED(false, comp(1626, 47));  // death:confirm_button
             } else {
-                IF_SETENABLED(true, comp(1626, 47));
+                IF_SETENABLED(true, comp(1626, 47));  // death:confirm_button
             };
             if ((varbitplayer_1942 == 3)) {
                 string6 = "Free";
@@ -269,26 +269,26 @@ function script11454(): void {
             };
         };
     } else {
-        IF_SETENABLED(false, comp(1626, 47));
+        IF_SETENABLED(false, comp(1626, 47));  // death:confirm_button
     };
-    IF_SETTEXT(string6, comp(1626, 51));
+    IF_SETTEXT(string6, comp(1626, 51));  // death:reclaim_cost
     var long11 = script17375(script17375(long3, long5), varclient_4876);
     var long12 = script17375(long1, long11);
     script17096();
     script17094(int0, long12, long11, long2, long4, long9, long10, long7);
-    IF_SETTEXT("Confirm", comp(1626, 71));
-    IF_SETTEXT("Yes", comp(1626, 72));
-    IF_SETTEXT("No", comp(1626, 73));
+    IF_SETTEXT("Confirm", comp(1626, 71));  // death:popup_confirm
+    IF_SETTEXT("Yes", comp(1626, 72));  // death:popup_yes
+    IF_SETTEXT("No", comp(1626, 73));  // death:popup_no
     if ((int24 == 0)) {
         if ((varbitplayer_28117 == 0)) {
-            IF_SETHIDE(false, comp(1626, 38));
+            IF_SETHIDE(false, comp(1626, 38));  // death:no_items
         } else {
-            IF_SETHIDE(true, comp(1626, 38));
+            IF_SETHIDE(true, comp(1626, 38));  // death:no_items
         };
     } else {
-        IF_SETHIDE(true, comp(1626, 38));
+        IF_SETHIDE(true, comp(1626, 38));  // death:no_items
     };
-    IF_SETSCROLLSIZE(0, script17380(int24, IF_GETHEIGHT(comp(1626, 31)), int24, 0), comp(1626, 31));
+    IF_SETSCROLLSIZE(0, script17380(int24, IF_GETHEIGHT(comp(1626, 31)), int24, 0), comp(1626, 31));  // death:death_status_scrolling
     script7791(106561576, 106561567);
     return;
 }

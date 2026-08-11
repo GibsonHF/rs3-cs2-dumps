@@ -1,6 +1,6 @@
 //
 function script15817(): void {
-    var int0 = comp(854, 5);
+    var int0 = comp(854, 5);  // mtx_front_end_pc_currencies:main_layer
     var int1 = 10;
     CC_DELETEALL(int0);
     script15083(int0, int1, 14, 255, 430, "Select", 0, 0, 12934, "Membership", "", "", 71, -1, -1, -1, -1, 0);

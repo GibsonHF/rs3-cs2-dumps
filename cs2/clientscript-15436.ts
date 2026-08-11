@@ -17,7 +17,7 @@ function script15436(int0: number): void {
             }
         };
     } else {
-        IF_SETOPKEY(1, 0, 0, comp(1387, 9));
+        IF_SETOPKEY(1, 0, 0, comp(1387, 9));  // diango_items:text_input_display
     };
     return;
 }

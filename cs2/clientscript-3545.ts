@@ -1,9 +1,9 @@
 //
 function script3545(): void {
     if ((varplayer_1831 == -1 as obj)) {
-        IF_SETHIDE(true, comp(1923, 17));
+        IF_SETHIDE(true, comp(1923, 17));  // toplevel_v2_combat_bar_mobile:summoning_highlight_graphic
     } else {
-        IF_SETHIDE(false, comp(1923, 17));
+        IF_SETHIDE(false, comp(1923, 17));  // toplevel_v2_combat_bar_mobile:summoning_highlight_graphic
     };
     return;
 }

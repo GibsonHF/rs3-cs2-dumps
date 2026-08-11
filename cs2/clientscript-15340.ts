@@ -1,7 +1,7 @@
 //
 function script15340(int0: number, int1: number, int2: number): number {
     script15332();
-    var int3 = comp(1851, 40);
+    var int3 = comp(1851, 40);  // achievements_sub:build_layer
     CC_DELETEALL(int3);
     define_array[131](int0);
     define_array[65536](int0);

@@ -5,7 +5,7 @@ function script10150(int0: number): void {
     var string0 = "";
     var string1 = "";
     if (((varclient_4292 != -1) && (STRING_LENGTH(varclient_4291) > 0))) {
-        IF_SETHIDE(true, comp(231, 3));
+        IF_SETHIDE(true, comp(231, 3));  // twitch_stream:webcam_build
         [int2, string0, string1] = TTV_WEBCAM_GETDEVICE_BYUNIQUENAME(varclient_4291);
         int1 = TTV_WEBCAM_STOP(int2);
         if ((int0 == 1)) {

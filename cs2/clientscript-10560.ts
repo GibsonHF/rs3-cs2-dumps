@@ -9,16 +9,16 @@ function script10560(int0: number, int1: number): void {
     CC_SETOBJECT(enum_getvalue(0, 33, 9199 as cs2enum, int0), -1);
     CC_SETOP(1, "Remove");
     CC_SETONOP(callback());
-    if (((int1 != comp(1532, 17)) && (varbitplayer_24912 == int0))) {
-        IF_SETTEXT("Base rune cost: <col=ffffff>???</col>.<br>+<col=ffffff>???</col> Total: <col=ffffff>???</col>.", comp(1532, 3));
+    if (((int1 != comp(1532, 17)) && (varbitplayer_24912 == int0))) {  // runemach_dnd:slot1_container
+        IF_SETTEXT("Base rune cost: <col=ffffff>???</col>.<br>+<col=ffffff>???</col> Total: <col=ffffff>???</col>.", comp(1532, 3));  // runemach_dnd:slot1_quantity
         script10558(100401169);
     };
-    if (((int1 != comp(1532, 19)) && (varbitplayer_24913 == int0))) {
-        IF_SETTEXT("Base rune cost: <col=ffffff>???</col>.<br>+<col=ffffff>???</col> Total: <col=ffffff>???</col>.", comp(1532, 4));
+    if (((int1 != comp(1532, 19)) && (varbitplayer_24913 == int0))) {  // runemach_dnd:slot2_container
+        IF_SETTEXT("Base rune cost: <col=ffffff>???</col>.<br>+<col=ffffff>???</col> Total: <col=ffffff>???</col>.", comp(1532, 4));  // runemach_dnd:slot2_quantity
         script10558(100401171);
     };
-    if (((int1 != comp(1532, 21)) && (varbitplayer_24914 == int0))) {
-        IF_SETTEXT("Base rune cost: <col=ffffff>???</col>.<br>+<col=ffffff>???</col> Total: <col=ffffff>???</col>.", comp(1532, 5));
+    if (((int1 != comp(1532, 21)) && (varbitplayer_24914 == int0))) {  // runemach_dnd:slot3_container
+        IF_SETTEXT("Base rune cost: <col=ffffff>???</col>.<br>+<col=ffffff>???</col> Total: <col=ffffff>???</col>.", comp(1532, 5));  // runemach_dnd:slot3_quantity
         script10558(100401173);
     };
     return;

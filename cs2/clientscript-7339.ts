@@ -56,7 +56,7 @@ function script7339(int0: number, int1: number, int2: number, int3: number, int4
     if ((int7 == 1)) {
         return [int2, int3];
     };
-    var int8 = comp(1373, 10);
+    var int8 = comp(1373, 10);  // pop_port_upgrade:content_layer
     CC_CREATE(int8, 4, int2);
     var int2 = (int2 + 1);
     CC_SETPOSITION(200, (int3 + 5), 0, 0);

@@ -33,9 +33,9 @@ function script2020(): void {
             break;
         }
     };
-    IF_SETTEXT(`${string0}${string1}${string2}`, comp(950, 107));
+    IF_SETTEXT(`${string0}${string1}${string2}`, comp(950, 107));  // pop_voyage_list:ship_name
     if ((PARAWIDTH(`${string0}${string1}${string2}`, 700, 57 as fontmetrics) > 220)) {
-        IF_SETTEXTFONT(56 as fontmetrics, comp(950, 107));
+        IF_SETTEXTFONT(56 as fontmetrics, comp(950, 107));  // pop_voyage_list:ship_name
     };
     return;
 }

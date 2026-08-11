@@ -1,6 +1,6 @@
 //
 function script11224(int0: number): void {
-    IF_SETTEXT(struct_getparam(int0, 4950), comp(1139, 27));
+    IF_SETTEXT(struct_getparam(int0, 4950), comp(1139, 27));  // comscenario:confirm_title
     IF_SETTEXT(struct_getparam(int0, 4951), 74645534);
     var string0 = "general";
     switch (struct_getparam(int0, 4952)) {
@@ -45,7 +45,7 @@ function script11224(int0: number): void {
             break;
         }
     };
-    IF_SETTEXT(`Type: ${string0}`, comp(1139, 22));
+    IF_SETTEXT(`Type: ${string0}`, comp(1139, 22));  // comscenario:confirm_type
     switch (struct_getparam(int0, 4954)) {
         case 0: {
             string0 = "Novice";
@@ -64,7 +64,7 @@ function script11224(int0: number): void {
             break;
         }
     };
-    IF_SETTEXT(`Difficulty: ${string0}`, comp(1139, 24));
+    IF_SETTEXT(`Difficulty: ${string0}`, comp(1139, 24));  // comscenario:confirm_difficulty
     var int1 = 0;
     var int2 = 0;
     var int3 = 0;
@@ -86,8 +86,8 @@ function script11224(int0: number): void {
                 string1 = strconcat(string1, ` ${inttostring(int3, 10)} seconds`);
             };
         };
-        IF_SETTEXT(string1, comp(1139, 26));
+        IF_SETTEXT(string1, comp(1139, 26));  // comscenario:confirm_timelimit
     };
-    IF_SETTEXT(strconcat("Rewards: ", struct_getparam(int0, 4956)), comp(1139, 25));
+    IF_SETTEXT(strconcat("Rewards: ", struct_getparam(int0, 4956)), comp(1139, 25));  // comscenario:confirm_rewards
     return;
 }

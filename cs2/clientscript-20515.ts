@@ -3,7 +3,7 @@ function script20515(int0: number): void {
     var int1 = 0;
     var int2 = ENUM_GETOUTPUTCOUNT(int0);
     var int3 = 0;
-    var int4 = IF_GETWIDTH(comp(1475, 4));
+    var int4 = IF_GETWIDTH(comp(1475, 4));  // toplevel_v2_edit_mode:advanced_scrolling
     var int5 = (int4 - 22);
     var int6 = 0;
     var int7 = 0;

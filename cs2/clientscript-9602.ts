@@ -17,18 +17,18 @@ function script9602(int0: number, int1: number, int2: number): void {
         string0 = "";
         switch (int1) {
             case 0: {
-                IF_SETHIDE(true, comp(1029, 17));
-                IF_SETTEXT("Closed", comp(1029, 11));
+                IF_SETHIDE(true, comp(1029, 17));  // polls:polls_featured_gold_time
+                IF_SETTEXT("Closed", comp(1029, 11));  // polls:polls_featured_gold_title
                 break;
             }
             case 1: {
-                IF_SETHIDE(true, comp(1029, 28));
-                IF_SETTEXT("Closed", comp(1029, 23));
+                IF_SETHIDE(true, comp(1029, 28));  // polls:polls_featured_silver_time
+                IF_SETTEXT("Closed", comp(1029, 23));  // polls:polls_featured_silver_title
                 break;
             }
             case 2: {
-                IF_SETHIDE(true, comp(1029, 41));
-                IF_SETTEXT("Closed", comp(1029, 35));
+                IF_SETHIDE(true, comp(1029, 41));  // polls:polls_featured_bronze_time
+                IF_SETTEXT("Closed", comp(1029, 35));  // polls:polls_featured_bronze_title
                 break;
             }
         };
@@ -74,15 +74,15 @@ function script9602(int0: number, int1: number, int2: number): void {
     };
     switch (int1) {
         case 0: {
-            IF_SETTEXT(string0, comp(1029, 17));
+            IF_SETTEXT(string0, comp(1029, 17));  // polls:polls_featured_gold_time
             break;
         }
         case 1: {
-            IF_SETTEXT(string0, comp(1029, 28));
+            IF_SETTEXT(string0, comp(1029, 28));  // polls:polls_featured_silver_time
             break;
         }
         case 2: {
-            IF_SETTEXT(string0, comp(1029, 41));
+            IF_SETTEXT(string0, comp(1029, 41));  // polls:polls_featured_bronze_time
             break;
         }
     };

@@ -1,7 +1,7 @@
 //
 function script9333(): void {
-    var int0 = comp(698, 2);
-    var int1 = comp(698, 4);
+    var int0 = comp(698, 2);  // worldmap_v2_upsell:upsell_window_content
+    var int1 = comp(698, 4);  // worldmap_v2_upsell:subsribe_button_layer
     var int2 = 304;
     var int3 = 92;
     var int4 = 4;

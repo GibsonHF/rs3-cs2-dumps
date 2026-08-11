@@ -2,8 +2,8 @@
 function script19006(): void {
     var int0 = 1;
     int0 = (int0 + 1);
-    while ((int0 < IF_GETNEXTSUBID(comp(1870, 22)))) {
-        if ((CC_FIND(comp(1870, 22), int0) == 1)) {
+    while ((int0 < IF_GETNEXTSUBID(comp(1870, 22)))) {  // trh119_buried_treasure_overlay:bonus_prize_claim
+        if ((CC_FIND(comp(1870, 22), int0) == 1)) {  // trh119_buried_treasure_overlay:bonus_prize_claim
             CC_SETTRANS(0);
             CC_SETHIDE(false);
             if ((cc_getparam(5830) != 0)) {

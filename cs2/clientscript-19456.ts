@@ -1,6 +1,6 @@
 //
 function script19456(): void {
-    var int0 = comp(1302, 68);
+    var int0 = comp(1302, 68);  // group_ironman_parent:overview_details_panel
     CC_DELETEALL(int0);
     script19458();
     script19457(int0, 0);

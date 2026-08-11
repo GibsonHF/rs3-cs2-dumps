@@ -1,7 +1,7 @@
 //
 function script9277(int0: number, int1: number, int2: number, int3: number): void {
     if (((CAM2_GETCONTROLMODE() != 1) || (int0 == 0))) {
-        IF_SETONTIMER(callback(), comp(1477, 40));
+        IF_SETONTIMER(callback(), comp(1477, 40));  // toplevel_v2:camera_biglistener
         varclient_3824 = 0;
         return;
     };
@@ -53,6 +53,6 @@ function script9277(int0: number, int1: number, int2: number, int3: number): voi
     varclient_5114 = int4;
     varclient_5115 = int5;
     CAM2_SETPOSITIONENTITY_PLAYER(0, 0, script8769(int1), int4, int5, 0, 0, 100);
-    IF_SETONTIMER(callback(script648, (int0 - 1), int1, int2, int3), comp(1477, 40));
+    IF_SETONTIMER(callback(script648, (int0 - 1), int1, int2, int3), comp(1477, 40));  // toplevel_v2:camera_biglistener
     return;
 }

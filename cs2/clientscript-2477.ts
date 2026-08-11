@@ -2,7 +2,7 @@
 function script2477(): void {
     var int0 = 0;
     var int1 = -1 as obj;
-    var int2 = comp(309, 4);
+    var int2 = comp(309, 4);  // toolbelt_v2_keyring:key_layer
     var int3 = 5;
     var string0 = "";
     var int4 = 0;

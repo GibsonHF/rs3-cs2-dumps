@@ -3,7 +3,7 @@ function script16623(int0: number, int1: number): void {
     if ((MODULO(CLIENTCLOCK(), 50) != 0)) {
         return;
     };
-    if ((CC_FINDBYCATEGORY(comp(1253, 3), int0, int1) == 1)) {
+    if ((CC_FINDBYCATEGORY(comp(1253, 3), int0, int1) == 1)) {  // wheel_of_fortune:background_holder
         CC_SETTEXT(script16625(script16626(), varclient_4753));
     };
     return;

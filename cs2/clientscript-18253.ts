@@ -19,14 +19,14 @@ function script18253(int0: number, int1: number): void {
         string1 = "You are already tracking the maximum of 5 activities.";
         int6 = 0;
     };
-    IF_SETGRAPHIC(int2, comp(1343, 70));
-    IF_BUTTON_SETTOGGLED(int3, comp(1343, 69));
-    IF_CLEAROPS(comp(1343, 69));
+    IF_SETGRAPHIC(int2, comp(1343, 70));  // jobs_main:track_icon
+    IF_BUTTON_SETTOGGLED(int3, comp(1343, 69));  // jobs_main:track_button
+    IF_CLEAROPS(comp(1343, 69));  // jobs_main:track_button
     if ((int6 > 0)) {
-        IF_SETOP(int6, string0, comp(1343, 69));
+        IF_SETOP(int6, string0, comp(1343, 69));  // jobs_main:track_button
     };
-    IF_SETENABLED(int4, comp(1343, 69));
-    IF_SETONOP(callback(), comp(1343, 69));
+    IF_SETENABLED(int4, comp(1343, 69));  // jobs_main:track_button
+    IF_SETONOP(callback(), comp(1343, 69));  // jobs_main:track_button
     script16247(88014917, -1);
     var int7 = script6431();
     if ((STRING_LENGTH(string1) > 0)) {
@@ -39,14 +39,14 @@ function script18253(int0: number, int1: number): void {
         };
     };
     if ((struct_getparam(int0, 2700) != -1 as coordgrid)) {
-        IF_SETHIDE(false, comp(1343, 47));
+        IF_SETHIDE(false, comp(1343, 47));  // jobs_main:tele_layer
         string1 = "Teleport to a lodestone near where you can complete this challenge.";
         script16247(88015042, -1);
         if ((int7 == 0)) {
             script3536(string1, 88015042, -1);
         };
     } else {
-        IF_SETHIDE(true, comp(1343, 47));
+        IF_SETHIDE(true, comp(1343, 47));  // jobs_main:tele_layer
     };
     return;
 }

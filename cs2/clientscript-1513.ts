@@ -11,10 +11,10 @@ function script1513(): void {
     var int8 = -1;
     switch (varclient_778) {
         case 1: {
-            IF_SETGRAPHIC(1052 as graphic, comp(729, 11));
-            IF_SETGRAPHIC(1045 as graphic, comp(729, 12));
-            IF_SETGRAPHIC(1057 as graphic, comp(729, 13));
-            IF_SETGRAPHIC(1054 as graphic, comp(729, 14));
+            IF_SETGRAPHIC(1052 as graphic, comp(729, 11));  // player_kit_tailor:torso_tab
+            IF_SETGRAPHIC(1045 as graphic, comp(729, 12));  // player_kit_tailor:arms_tab
+            IF_SETGRAPHIC(1057 as graphic, comp(729, 13));  // player_kit_tailor:hands_tab
+            IF_SETGRAPHIC(1054 as graphic, comp(729, 14));  // player_kit_tailor:legs_tab
             int2 = script15531(3);
             if ((GENDER() == 1)) {
                 int0 = 693;
@@ -32,10 +32,10 @@ function script1513(): void {
             break;
         }
         case 2: {
-            IF_SETGRAPHIC(1052 as graphic, comp(729, 11));
-            IF_SETGRAPHIC(1053 as graphic, comp(729, 12));
-            IF_SETGRAPHIC(1049 as graphic, comp(729, 13));
-            IF_SETGRAPHIC(1054 as graphic, comp(729, 14));
+            IF_SETGRAPHIC(1052 as graphic, comp(729, 11));  // player_kit_tailor:torso_tab
+            IF_SETGRAPHIC(1053 as graphic, comp(729, 12));  // player_kit_tailor:arms_tab
+            IF_SETGRAPHIC(1049 as graphic, comp(729, 13));  // player_kit_tailor:hands_tab
+            IF_SETGRAPHIC(1054 as graphic, comp(729, 14));  // player_kit_tailor:legs_tab
             int2 = script15531(4);
             if ((GENDER() == 1)) {
                 int0 = 751;
@@ -47,10 +47,10 @@ function script1513(): void {
             break;
         }
         case 3: {
-            IF_SETGRAPHIC(1052 as graphic, comp(729, 11));
-            IF_SETGRAPHIC(1053 as graphic, comp(729, 12));
-            IF_SETGRAPHIC(1057 as graphic, comp(729, 13));
-            IF_SETGRAPHIC(1046 as graphic, comp(729, 14));
+            IF_SETGRAPHIC(1052 as graphic, comp(729, 11));  // player_kit_tailor:torso_tab
+            IF_SETGRAPHIC(1053 as graphic, comp(729, 12));  // player_kit_tailor:arms_tab
+            IF_SETGRAPHIC(1057 as graphic, comp(729, 13));  // player_kit_tailor:hands_tab
+            IF_SETGRAPHIC(1046 as graphic, comp(729, 14));  // player_kit_tailor:legs_tab
             int2 = script15531(5);
             if ((GENDER() == 1)) {
                 int0 = 1607;
@@ -69,10 +69,10 @@ function script1513(): void {
         }
         default: {
             varclient_778 = 0;
-            IF_SETGRAPHIC(1044 as graphic, comp(729, 11));
-            IF_SETGRAPHIC(1053 as graphic, comp(729, 12));
-            IF_SETGRAPHIC(1057 as graphic, comp(729, 13));
-            IF_SETGRAPHIC(1054 as graphic, comp(729, 14));
+            IF_SETGRAPHIC(1044 as graphic, comp(729, 11));  // player_kit_tailor:torso_tab
+            IF_SETGRAPHIC(1053 as graphic, comp(729, 12));  // player_kit_tailor:arms_tab
+            IF_SETGRAPHIC(1057 as graphic, comp(729, 13));  // player_kit_tailor:hands_tab
+            IF_SETGRAPHIC(1054 as graphic, comp(729, 14));  // player_kit_tailor:legs_tab
             int2 = script15531(2);
             if ((GENDER() == 1)) {
                 int0 = 1591;
@@ -90,7 +90,7 @@ function script1513(): void {
             break;
         }
     };
-    CC_DELETEALL(comp(729, 16));
+    CC_DELETEALL(comp(729, 16));  // player_kit_tailor:menu
     var int9 = 0;
     var int10 = ENUM_GETOUTPUTCOUNT(int0);
     var int11 = -1;
@@ -100,10 +100,10 @@ function script1513(): void {
     while ((int9 < int10)) {
         int11 = enum_getvalue(0, 10, int0, int9);
         string0 = enum_getvalue(0, 36, int1, int9);
-        CC_CREATE(comp(729, 16), 5, IF_GETNEXTSUBID(comp(729, 16)));
+        CC_CREATE(comp(729, 16), 5, IF_GETNEXTSUBID(comp(729, 16)));  // player_kit_tailor:menu
         CC_SETSIZE(18, 18, 0, 0);
         CC_SETPOSITION(0, (int12 + 1), 0, 0);
-        CC_CREATE[1](comp(729, 16), 4, IF_GETNEXTSUBID(comp(729, 16)));
+        CC_CREATE[1](comp(729, 16), 4, IF_GETNEXTSUBID(comp(729, 16)));  // player_kit_tailor:menu
         CC_SETSIZE[1](20, 19, 1, 0);
         CC_SETPOSITION[1](0, int12, 2, 0);
         CC_SETTEXTALIGN[1](0, 1, 0);
@@ -123,34 +123,34 @@ function script1513(): void {
         int9 = (int9 + 1);
         int12 = (int12 + 20);
     };
-    if ((int12 > IF_GETHEIGHT(comp(729, 16)))) {
-        IF_SETSIZE(20, 4, 1, 1, comp(729, 16));
-        IF_SETSCROLLSIZE(0, int12, comp(729, 16));
-        if ((int13 < IF_GETSCROLLY(comp(729, 16)))) {
-            IF_SETSCROLLPOS(0, (int13 - 5), comp(729, 16));
-        } else if (((int13 + 19) >= (IF_GETSCROLLY(comp(729, 16)) + IF_GETHEIGHT(comp(729, 16))))) {
-            IF_SETSCROLLPOS(0, ((int13 + 25) - IF_GETHEIGHT(comp(729, 16))), comp(729, 16));
+    if ((int12 > IF_GETHEIGHT(comp(729, 16)))) {  // player_kit_tailor:menu
+        IF_SETSIZE(20, 4, 1, 1, comp(729, 16));  // player_kit_tailor:menu
+        IF_SETSCROLLSIZE(0, int12, comp(729, 16));  // player_kit_tailor:menu
+        if ((int13 < IF_GETSCROLLY(comp(729, 16)))) {  // player_kit_tailor:menu
+            IF_SETSCROLLPOS(0, (int13 - 5), comp(729, 16));  // player_kit_tailor:menu
+        } else if (((int13 + 19) >= (IF_GETSCROLLY(comp(729, 16)) + IF_GETHEIGHT(comp(729, 16))))) {  // player_kit_tailor:menu
+            IF_SETSCROLLPOS(0, ((int13 + 25) - IF_GETHEIGHT(comp(729, 16))), comp(729, 16));  // player_kit_tailor:menu
         };
-        IF_SETHIDE(false, comp(729, 17));
+        IF_SETHIDE(false, comp(729, 17));  // player_kit_tailor:menu_scrollbar
         script31(47775761, 47775760, 792, 789, 790, 791, 773, 788);
     } else {
-        IF_SETSIZE(4, 4, 1, 1, comp(729, 16));
-        IF_SETSCROLLSIZE(0, 0, comp(729, 16));
-        IF_SETSCROLLPOS(0, 0, comp(729, 16));
-        CC_DELETEALL(comp(729, 17));
-        IF_SETHIDE(true, comp(729, 17));
+        IF_SETSIZE(4, 4, 1, 1, comp(729, 16));  // player_kit_tailor:menu
+        IF_SETSCROLLSIZE(0, 0, comp(729, 16));  // player_kit_tailor:menu
+        IF_SETSCROLLPOS(0, 0, comp(729, 16));  // player_kit_tailor:menu
+        CC_DELETEALL(comp(729, 17));  // player_kit_tailor:menu_scrollbar
+        IF_SETHIDE(true, comp(729, 17));  // player_kit_tailor:menu_scrollbar
     };
-    CC_DELETEALL(comp(729, 19));
+    CC_DELETEALL(comp(729, 19));  // player_kit_tailor:colours
     if ((int5 == -1)) {
-        IF_SETSIZE(4, 4, 1, 1, comp(729, 19));
-        IF_SETSCROLLSIZE(0, 0, comp(729, 19));
-        IF_SETSCROLLPOS(0, 0, comp(729, 19));
-        CC_DELETEALL(comp(729, 20));
-        IF_SETHIDE(true, comp(729, 20));
+        IF_SETSIZE(4, 4, 1, 1, comp(729, 19));  // player_kit_tailor:colours
+        IF_SETSCROLLSIZE(0, 0, comp(729, 19));  // player_kit_tailor:colours
+        IF_SETSCROLLPOS(0, 0, comp(729, 19));  // player_kit_tailor:colours
+        CC_DELETEALL(comp(729, 20));  // player_kit_tailor:colours_scrollbar
+        IF_SETHIDE(true, comp(729, 20));  // player_kit_tailor:colours_scrollbar
         return;
     };
     int10 = ENUM_GETOUTPUTCOUNT(int5);
-    var int14 = ((IF_GETWIDTH(comp(729, 19)) - IF_GETWIDTH(comp(729, 20))) / 21);
+    var int14 = ((IF_GETWIDTH(comp(729, 19) /*player_kit_tailor:colours*/) - IF_GETWIDTH(comp(729, 20) /*player_kit_tailor:colours_scrollbar*/)) / 21);
     var int15 = 2;
     int9 = 0;
     int12 = 0;
@@ -160,13 +160,13 @@ function script1513(): void {
     while ((int9 < int10)) {
         int18 = enum_getvalue(0, 0, int4, int9);
         string0 = enum_getvalue(0, 36, int6, int9);
-        CC_CREATE(comp(729, 19), 3, IF_GETNEXTSUBID(comp(729, 19)));
+        CC_CREATE(comp(729, 19), 3, IF_GETNEXTSUBID(comp(729, 19)));  // player_kit_tailor:colours
         CC_SETSIZE(20, 20, 0, 0);
         CC_SETFILL(1);
         CC_SETPOSITION(((int16 * CC_GETWIDTH()) + int15), int12, 0, 0);
         CC_SETCOLOUR(enum_getvalue(0, 0, int5, int9));
         CC_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643));
-        CC_CREATE[1](comp(729, 19), 5, IF_GETNEXTSUBID(comp(729, 19)));
+        CC_CREATE[1](comp(729, 19), 5, IF_GETNEXTSUBID(comp(729, 19)));  // player_kit_tailor:colours
         CC_SETSIZE[1](CC_GETWIDTH(), CC_GETHEIGHT(), 0, 0);
         CC_SETPOSITION[1](CC_GETX(), CC_GETY(), 0, 0);
         if ((int18 == int8)) {
@@ -192,20 +192,20 @@ function script1513(): void {
     if ((int16 != 0)) {
         int12 = (int12 + 21);
     };
-    if (((int12 > IF_GETHEIGHT(comp(729, 19))) || (int14 < 5))) {
-        IF_SETSCROLLSIZE(0, int12, comp(729, 19));
-        if ((int13 < IF_GETSCROLLY(comp(729, 19)))) {
-            IF_SETSCROLLPOS(0, (int13 - 5), comp(729, 19));
-        } else if (((int13 + 21) >= (IF_GETSCROLLY(comp(729, 19)) + IF_GETHEIGHT(comp(729, 19))))) {
-            IF_SETSCROLLPOS(0, ((int13 + 25) - IF_GETHEIGHT(comp(729, 19))), comp(729, 19));
+    if (((int12 > IF_GETHEIGHT(comp(729, 19))) || (int14 < 5))) {  // player_kit_tailor:colours
+        IF_SETSCROLLSIZE(0, int12, comp(729, 19));  // player_kit_tailor:colours
+        if ((int13 < IF_GETSCROLLY(comp(729, 19)))) {  // player_kit_tailor:colours
+            IF_SETSCROLLPOS(0, (int13 - 5), comp(729, 19));  // player_kit_tailor:colours
+        } else if (((int13 + 21) >= (IF_GETSCROLLY(comp(729, 19)) + IF_GETHEIGHT(comp(729, 19))))) {  // player_kit_tailor:colours
+            IF_SETSCROLLPOS(0, ((int13 + 25) - IF_GETHEIGHT(comp(729, 19))), comp(729, 19));  // player_kit_tailor:colours
         };
-        IF_SETHIDE(false, comp(729, 20));
+        IF_SETHIDE(false, comp(729, 20));  // player_kit_tailor:colours_scrollbar
         script31(47775764, 47775763, 792, 789, 790, 791, 773, 788);
     } else {
-        IF_SETSCROLLSIZE(0, 0, comp(729, 19));
-        IF_SETSCROLLPOS(0, 0, comp(729, 19));
-        CC_DELETEALL(comp(729, 20));
-        IF_SETHIDE(true, comp(729, 20));
+        IF_SETSCROLLSIZE(0, 0, comp(729, 19));  // player_kit_tailor:colours
+        IF_SETSCROLLPOS(0, 0, comp(729, 19));  // player_kit_tailor:colours
+        CC_DELETEALL(comp(729, 20));  // player_kit_tailor:colours_scrollbar
+        IF_SETHIDE(true, comp(729, 20));  // player_kit_tailor:colours_scrollbar
     };
     return;
 }

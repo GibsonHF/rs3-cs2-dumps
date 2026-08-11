@@ -14,7 +14,7 @@ function script15613(int0: number, int1: number, int2: number, int3: number, int
             int8 = 23871 as graphic;
             int9 = 16777215;
         };
-        CC_CREATE(comp(906, 30), 5, 0);
+        CC_CREATE(comp(906, 30), 5, 0);  // lobbyscreen:tab_backing
         CC_SETSIZE(0, 60, 1, 0);
         CC_SETPOSITION(0, 0, 0, 0);
         CC_SETGRAPHIC(23858 as graphic);

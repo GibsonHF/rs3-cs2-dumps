@@ -61,8 +61,8 @@ function script2269(): void {
         int2 = enum_getvalue(0, 31, 2192 as cs2enum, int5);
         int3 = enum_getvalue(0, 31, 2194 as cs2enum, int6);
     };
-    IF_SETMODEL(int1, comp(884, 9));
-    IF_SETMODEL(int2, comp(884, 7));
-    IF_SETMODEL(int3, comp(884, 8));
+    IF_SETMODEL(int1, comp(884, 9));  // pop_captain_customise:hat
+    IF_SETMODEL(int2, comp(884, 7));  // pop_captain_customise:torso
+    IF_SETMODEL(int3, comp(884, 8));  // pop_captain_customise:legs
     return;
 }

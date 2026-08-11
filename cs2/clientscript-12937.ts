@@ -2,7 +2,7 @@
 function script12937(): void {
     var int0 = script14441();
     int0 = 36979;
-    IF_SETTEXT(struct_getparam(int0, 6206), comp(1810, 0));
+    IF_SETTEXT(struct_getparam(int0, 6206), comp(1810, 0));  // event_weekends:event_weekends_title
     IF_SETTEXT(struct_getparam(int0, 6207), 118620166);
     var int1 = 0;
     var int2 = enum_getvalue(0, 74, 706, int1);

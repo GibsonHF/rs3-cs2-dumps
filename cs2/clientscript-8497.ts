@@ -3,9 +3,9 @@ function script8497(int0: number): void {
     var int1 = script2222(int0);
     if ((int1 == 0)) {
         script8564();
-        CC_DELETEALL(comp(1890, 38));
-        CC_DELETEALL(comp(1890, 1));
-        CC_CREATE(comp(1890, 1), 4, 0);
+        CC_DELETEALL(comp(1890, 38));  // prayer_quick_preset_interface:prayer_buttons
+        CC_DELETEALL(comp(1890, 1));  // prayer_quick_preset_interface:prayer_help_layer
+        CC_CREATE(comp(1890, 1), 4, 0);  // prayer_quick_preset_interface:prayer_help_layer
         if ((varbitplayer_36829 <= 0)) {
             if ((script6431() == 0)) {
                 CC_SETTEXT("You don't have any presets.<br><br>Click the create preset button<br>to create your first preset.");
@@ -21,7 +21,7 @@ function script8497(int0: number): void {
         CC_SETSIZE(0, 0, 1, 1);
         CC_SETPOSITION(0, 0, 0, 0);
     } else {
-        CC_DELETEALL(comp(1890, 1));
+        CC_DELETEALL(comp(1890, 1));  // prayer_quick_preset_interface:prayer_help_layer
         script7819(123863078);
         script8564();
         script8576();

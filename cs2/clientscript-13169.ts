@@ -196,7 +196,7 @@ function script13169(int0: number, int1: number): number {
             break;
         }
         case 4: {
-            if ((IF_FIND(comp(1843, 183)) == 1)) {
+            if ((IF_FIND(comp(1843, 183)) == 1)) {  // mtxmgt_store:items_layer
                 int2 = cc_getparam(6362);
                 int3 = cc_getparam(6364);
                 int4 = cc_getparam(6365);
@@ -226,7 +226,7 @@ function script13169(int0: number, int1: number): number {
             if ((varbitclient_35134 != 1)) {
                 varbitclient_35134 = 1;
                 script13163();
-                if ((IF_FIND(comp(1843, 183)) == 1)) {
+                if ((IF_FIND(comp(1843, 183)) == 1)) {  // mtxmgt_store:items_layer
                     script13171(CC_GETSCROLLHEIGHT(), 1);
                 };
                 script13176();
@@ -237,7 +237,7 @@ function script13169(int0: number, int1: number): number {
             if ((varbitclient_35134 != 0)) {
                 varbitclient_35134 = 0;
                 script13163();
-                if ((IF_FIND(comp(1843, 261)) == 1)) {
+                if ((IF_FIND(comp(1843, 261)) == 1)) {  // mtxmgt_store:ragdolls_scrollsize_layer
                     script13172(CC_GETSCROLLWIDTH(), 1);
                 };
                 script13177();
@@ -281,10 +281,10 @@ function script13169(int0: number, int1: number): number {
             };
         };
     };
-    if ((IF_FIND(comp(1843, 183)) == 1)) {
+    if ((IF_FIND(comp(1843, 183)) == 1)) {  // mtxmgt_store:items_layer
         script13170(cc_getparam(5441), int2, int3, int4, int5, int6, int7, int8, int9, int10, int11);
     };
-    if ((((int14 >= 0) && (int14 <= int16)) && (IF_FIND(comp(1843, 0)) == 1))) {
+    if ((((int14 >= 0) && (int14 <= int16)) && (IF_FIND(comp(1843, 0)) == 1))) {  // mtxmgt_store:main_layer
         CC_SETONTIMER(callback());
     };
     return 1;

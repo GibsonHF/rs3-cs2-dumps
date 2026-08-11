@@ -1,7 +1,7 @@
 //
 function script19281(): void {
-    CC_DELETEALL(comp(1290, 52));
-    CC_DELETEALL(comp(1290, 53));
+    CC_DELETEALL(comp(1290, 52));  // trh_dungeon_crawl_overlay:map_bonus_path_1_build_layer
+    CC_DELETEALL(comp(1290, 53));  // trh_dungeon_crawl_overlay:map_bonus_path_1_control_layer
     var int0 = DB_GETFIELDCOUNT(varplayer_11902, 1220704);
     var int1 = -1;
     int1 = (int1 + 1);

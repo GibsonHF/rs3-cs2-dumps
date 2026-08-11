@@ -1,11 +1,11 @@
 //
 function script5872(): void {
     var string0 = "The potion slot is only available after you have completed the Daemonheim medium tasks.";
-    var int0 = comp(116, 30);
-    var int1 = comp(116, 29);
-    var int2 = comp(116, 118);
-    var int3 = comp(116, 115);
-    var int4 = comp(116, 116);
+    var int0 = comp(116, 30);  // rand_bound_interface:potion_item
+    var int1 = comp(116, 29);  // rand_bound_interface:potion_blank
+    var int2 = comp(116, 118);  // rand_bound_interface:potion_slot_blocked
+    var int3 = comp(116, 115);  // rand_bound_interface:bound_item_15_blocked
+    var int4 = comp(116, 116);  // rand_bound_interface:bound_item_16_blocked
     if ((MAP_MEMBERS() == 0)) {
         IF_SETHIDE(false, int2);
         IF_SETHIDE(false, int3);

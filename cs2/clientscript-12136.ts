@@ -3,43 +3,43 @@ function script12136(int0: number, int1: number, int2: number): number {
     var int3 = -1 as graphic;
     switch (int0) {
         case 1: {
-            int3 = IF_GETGRAPHIC(comp(1708, 43));
+            int3 = IF_GETGRAPHIC(comp(1708, 43));  // invent_discovery:part_icon_0
             break;
         }
         case 2: {
-            int3 = IF_GETGRAPHIC(comp(1708, 44));
+            int3 = IF_GETGRAPHIC(comp(1708, 44));  // invent_discovery:part_icon_1
             break;
         }
         case 3: {
-            int3 = IF_GETGRAPHIC(comp(1708, 45));
+            int3 = IF_GETGRAPHIC(comp(1708, 45));  // invent_discovery:part_icon_2
             break;
         }
         case 4: {
-            int3 = IF_GETGRAPHIC(comp(1708, 46));
+            int3 = IF_GETGRAPHIC(comp(1708, 46));  // invent_discovery:part_icon_3
             break;
         }
         case 5: {
-            int3 = IF_GETGRAPHIC(comp(1708, 47));
+            int3 = IF_GETGRAPHIC(comp(1708, 47));  // invent_discovery:part_icon_4
             break;
         }
         case 6: {
-            int3 = IF_GETGRAPHIC(comp(1708, 48));
+            int3 = IF_GETGRAPHIC(comp(1708, 48));  // invent_discovery:part_icon_5
             break;
         }
         case 7: {
-            int3 = IF_GETGRAPHIC(comp(1708, 49));
+            int3 = IF_GETGRAPHIC(comp(1708, 49));  // invent_discovery:part_icon_6
             break;
         }
         case 8: {
-            int3 = IF_GETGRAPHIC(comp(1708, 50));
+            int3 = IF_GETGRAPHIC(comp(1708, 50));  // invent_discovery:part_icon_7
             break;
         }
         case 9: {
-            int3 = IF_GETGRAPHIC(comp(1708, 51));
+            int3 = IF_GETGRAPHIC(comp(1708, 51));  // invent_discovery:part_icon_8
             break;
         }
         case 10: {
-            int3 = IF_GETGRAPHIC(comp(1708, 52));
+            int3 = IF_GETGRAPHIC(comp(1708, 52));  // invent_discovery:part_icon_9
             break;
         }
     };

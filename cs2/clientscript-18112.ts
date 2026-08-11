@@ -13,14 +13,14 @@ function script18112(int0: number, int1: number, int2: number, int3: number): vo
     string0 = strconcat(string0, "<br><br>");
     string0 = strconcat(string0, "Expires at the end of this pass.");
     var int4 = 0;
-    if ((IF_FIND(comp(403, 28)) == 1)) {
+    if ((IF_FIND(comp(403, 28)) == 1)) {  // bp3_buffs_tab:buff_info_desc
         CC_SETTEXT(string0);
         int4 = script15891(string0, CC_GETWIDTH(), 209, 0);
     };
-    if ((IF_FIND(comp(403, 27)) == 1)) {
+    if ((IF_FIND(comp(403, 27)) == 1)) {  // bp3_buffs_tab:buff_info_window
         CC_SETSIZE(CC_GETWIDTH(), MIN(420, (int4 + 42)), 0, 0);
     };
     script16226(26411037, 26411038, 26411039, script17915(int0));
-    IF_SETHIDE(false, comp(403, 12));
+    IF_SETHIDE(false, comp(403, 12));  // bp3_buffs_tab:buff_info_layer
     return;
 }

@@ -1,6 +1,6 @@
 //
 function script7591(): void {
-    var int0 = comp(1486, 14);
+    var int0 = comp(1486, 14);  // text_tooltip:tooltip_dynamic_text
     var int1 = cc_getparam(8225);
     if ((int1 == -1 as quest)) {
         return;

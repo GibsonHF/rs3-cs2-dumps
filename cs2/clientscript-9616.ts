@@ -5,8 +5,8 @@ function script9616(): void {
     var int2 = 0;
     var string0 = "";
     var int3 = -1;
-    CC_DELETEALL(comp(311, 8));
-    CC_DELETEALL(comp(311, 11));
+    CC_DELETEALL(comp(311, 8));  // ecosystem_wardcreature:build
+    CC_DELETEALL(comp(311, 11));  // ecosystem_wardcreature:click
     while ((int0 < 7)) {
         [int2, string0, int3] = script9775((int0 + 1));
         if ((int2 == 0)) {
@@ -14,7 +14,7 @@ function script9616(): void {
             int3 = -1;
         };
         script13998(20381704, 20381707, 28556, 0, int1, 180, 24, int0, script6428(0, int2), string0, script9670((int0 + 1), varbitplayer_41254));
-        if ((CC_FIND(comp(311, 11), int0) == 1)) {
+        if ((CC_FIND(comp(311, 11), int0) == 1)) {  // ecosystem_wardcreature:click
             CC_SETOP(1, "Select");
             CC_SETONOP(callback(script9776, -2147483643));
             CC_SETONMOUSEOVER(callback(script9777, -2147483643));

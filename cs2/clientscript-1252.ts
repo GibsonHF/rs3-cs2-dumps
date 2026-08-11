@@ -32,13 +32,13 @@ function script1252(int0: number, int1: number, int2: number): void {
         [varclient_2563, varclient_1099] = script802(varclient_1099, varclient_2563, 2, int0, int1);
         IF_SETTEXT(varclient_2563, int4);
         if ((STRING_LENGTH(varclient_2563) <= 0)) {
-            IF_SETHIDE(false, comp(64, 86));
+            IF_SETHIDE(false, comp(64, 86));  // no_displayname_v2:confirm_button_disabled
         } else {
-            IF_SETHIDE(true, comp(64, 86));
+            IF_SETHIDE(true, comp(64, 86));  // no_displayname_v2:confirm_button_disabled
         };
         script3218(int3, int4, int5, varclient_2563, 111);
-        IF_SETHIDE(true, comp(64, 31));
-        IF_SETHIDE(true, comp(64, 7));
+        IF_SETHIDE(true, comp(64, 31));  // no_displayname_v2:name_icon_layer
+        IF_SETHIDE(true, comp(64, 7));  // no_displayname_v2:information_layer
     };
     return;
 }

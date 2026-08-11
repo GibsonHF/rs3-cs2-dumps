@@ -8,13 +8,13 @@ function script6135(): void {
     var int1 = -1;
     var int2 = 0;
     var int3 = 0;
-    if ((IF_GETHIDE(comp(1270, 52)) == false)) {
+    if ((IF_GETHIDE(comp(1270, 52)) == false)) {  // fremsaga_bilrach_mind:mind_04
         int3 = (int3 + 1);
     };
-    if ((IF_GETHIDE(comp(1270, 56)) == false)) {
+    if ((IF_GETHIDE(comp(1270, 56)) == false)) {  // fremsaga_bilrach_mind:mind_08
         int3 = (int3 + 1);
     };
-    if ((IF_GETHIDE(comp(1270, 60)) == false)) {
+    if ((IF_GETHIDE(comp(1270, 60)) == false)) {  // fremsaga_bilrach_mind:mind_12
         int3 = (int3 + 1);
     };
     switch (int3) {
@@ -50,13 +50,13 @@ function script6135(): void {
     IF_SETONTIMER(callback(script6141, -2147483645, int2, int4, int5, 0, 0, 0, 0, 0, 0, 0), int0);
     int3 = (int3 + 1);
     if ((int3 > 0)) {
-        IF_SETGRAPHIC(10576 as graphic, comp(1270, 20));
+        IF_SETGRAPHIC(10576 as graphic, comp(1270, 20));  // fremsaga_bilrach_mind:probe_1
     };
     if ((int3 > 1)) {
-        IF_SETGRAPHIC(10576 as graphic, comp(1270, 21));
+        IF_SETGRAPHIC(10576 as graphic, comp(1270, 21));  // fremsaga_bilrach_mind:probe_2
     };
     if ((int3 > 2)) {
-        IF_SETGRAPHIC(10576 as graphic, comp(1270, 22));
+        IF_SETGRAPHIC(10576 as graphic, comp(1270, 22));  // fremsaga_bilrach_mind:probe_3
     };
     SOUND_VORBIS_VOLUME(14660 as vorbis, 1, 0, 120);
     return;

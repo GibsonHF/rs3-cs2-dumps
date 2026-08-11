@@ -8,22 +8,22 @@ function script10441(int0: number, int1: number, int2: number): void {
     define_array((int4 + 1));
     var int5 = 0;
     var int6 = 0;
-    var int7 = comp(1477, 896);
-    var int8 = comp(1477, 897);
+    var int7 = comp(1477, 896);  // toplevel_v2:dropdown_list
+    var int8 = comp(1477, 897);  // toplevel_v2:dropdown_build
     switch (IF_GETTOP()) {
         case 906: {
-            int7 = comp(906, 164);
-            int8 = comp(906, 165);
+            int7 = comp(906, 164);  // lobbyscreen:dropdown_list
+            int8 = comp(906, 165);  // lobbyscreen:dropdown_build
             break;
         }
         case 744: {
-            int7 = comp(744, 366);
-            int8 = comp(744, 367);
+            int7 = comp(744, 366);  // loginscreen:32bit_warning_text
+            int8 = comp(744, 367);  // loginscreen:32bit_warning_okay
             break;
         }
         default: {
-            int7 = comp(1477, 896);
-            int8 = comp(1477, 897);
+            int7 = comp(1477, 896);  // toplevel_v2:dropdown_list
+            int8 = comp(1477, 897);  // toplevel_v2:dropdown_build
             break;
         }
     };

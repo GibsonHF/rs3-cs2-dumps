@@ -29,20 +29,20 @@ function script10068(int0: number, int1: number): void {
     switch (varbitplayer_18994) {
         case 3: {
             if ((int2 == 3)) {
-                IF_TRIGGEROP(comp(1477, 24), -1, 1);
+                IF_TRIGGEROP(comp(1477, 24), -1, 1);  // toplevel_v2:intern_notes_daily_challenge
             };
             break;
         }
         case 4: {
             if ((int2 == 6)) {
-                IF_TRIGGEROP(comp(1477, 25), -1, 1);
+                IF_TRIGGEROP(comp(1477, 25), -1, 1);  // toplevel_v2:intern_notes_community_events
             };
             break;
         }
     };
     script8193();
     script8192();
-    IF_SETHIDE(false, comp(1448, 1));
+    IF_SETHIDE(false, comp(1448, 1));  // toplevel_v2_parent:loading_layer
     script445(varbitplayer_18994, int2);
     script8186(int0);
     return;

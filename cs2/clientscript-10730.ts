@@ -2,7 +2,7 @@
 function script10730(): void {
     switch (varbitplayer_25769) {
         case 0: {
-            IF_SETHIDE(true, comp(1548, 19));
+            IF_SETHIDE(true, comp(1548, 19));  // house_library_puzzle:rightbook6
             break;
         }
         case 1:
@@ -12,8 +12,8 @@ function script10730(): void {
         case 5:
         case 6:
         case 7: {
-            IF_SETMODEL(script10724(varbitplayer_25769), comp(1548, 19));
-            IF_SETHIDE(false, comp(1548, 19));
+            IF_SETMODEL(script10724(varbitplayer_25769), comp(1548, 19));  // house_library_puzzle:rightbook6
+            IF_SETHIDE(false, comp(1548, 19));  // house_library_puzzle:rightbook6
             break;
         }
     };

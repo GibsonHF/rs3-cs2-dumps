@@ -1,7 +1,7 @@
 //
 function script3692(int0: number, int1: number, int2: number, string0: string): void {
-    CC_DELETEALL(comp(90, 78));
-    CC_DELETEALL(comp(90, 79));
+    CC_DELETEALL(comp(90, 78));  // pof_animal:harvest_build
+    CC_DELETEALL(comp(90, 79));  // pof_animal:harvest_click
     script13971(int0, int1, 28553, string0, int2);
     return;
 }

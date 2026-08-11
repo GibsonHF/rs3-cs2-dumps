@@ -54,17 +54,17 @@ function script12274(): void {
                     break;
                 }
             };
-            IF_SETOP(2, `Announce to Local Chat ${string2}`, comp(753, 57));
-            IF_SETOP(3, `Announce to Friends Chat ${string2}`, comp(753, 57));
-            IF_SETOP(4, `Announce to Clan Chat ${string2}`, comp(753, 57));
-            IF_SETOP(5, `Announce to Guest Clan Chat ${string2}`, comp(753, 57));
-            IF_SETOP(10, "Reset time", comp(753, 57));
+            IF_SETOP(2, `Announce to Local Chat ${string2}`, comp(753, 57));  // bslay_boss_info:boss_timed_death_graphic
+            IF_SETOP(3, `Announce to Friends Chat ${string2}`, comp(753, 57));  // bslay_boss_info:boss_timed_death_graphic
+            IF_SETOP(4, `Announce to Clan Chat ${string2}`, comp(753, 57));  // bslay_boss_info:boss_timed_death_graphic
+            IF_SETOP(5, `Announce to Guest Clan Chat ${string2}`, comp(753, 57));  // bslay_boss_info:boss_timed_death_graphic
+            IF_SETOP(10, "Reset time", comp(753, 57));  // bslay_boss_info:boss_timed_death_graphic
         } else {
-            IF_SETOP(2, "", comp(753, 57));
-            IF_SETOP(3, "", comp(753, 57));
-            IF_SETOP(4, "", comp(753, 57));
-            IF_SETOP(5, "", comp(753, 57));
-            IF_SETOP(10, "", comp(753, 57));
+            IF_SETOP(2, "", comp(753, 57));  // bslay_boss_info:boss_timed_death_graphic
+            IF_SETOP(3, "", comp(753, 57));  // bslay_boss_info:boss_timed_death_graphic
+            IF_SETOP(4, "", comp(753, 57));  // bslay_boss_info:boss_timed_death_graphic
+            IF_SETOP(5, "", comp(753, 57));  // bslay_boss_info:boss_timed_death_graphic
+            IF_SETOP(10, "", comp(753, 57));  // bslay_boss_info:boss_timed_death_graphic
         };
         if ((varclient_4489 > -1)) {
             if ((varclient_4489 > 0)) {
@@ -101,11 +101,11 @@ function script12274(): void {
                 } else {
                     string0 = strconcat(string0, `<br><col=FF3030>${string1}</col>`);
                 };
-                IF_SETOP(6, `Announce to Local Chat ${string2}`, comp(753, 57));
-                IF_SETOP(7, `Announce to Friends Chat ${string2}`, comp(753, 57));
-                IF_SETOP(8, `Announce to Clan Chat ${string2}`, comp(753, 57));
-                IF_SETOP(9, `Announce to Guest Clan Chat ${string2}`, comp(753, 57));
-                IF_SETOP(10, "Reset time", comp(753, 57));
+                IF_SETOP(6, `Announce to Local Chat ${string2}`, comp(753, 57));  // bslay_boss_info:boss_timed_death_graphic
+                IF_SETOP(7, `Announce to Friends Chat ${string2}`, comp(753, 57));  // bslay_boss_info:boss_timed_death_graphic
+                IF_SETOP(8, `Announce to Clan Chat ${string2}`, comp(753, 57));  // bslay_boss_info:boss_timed_death_graphic
+                IF_SETOP(9, `Announce to Guest Clan Chat ${string2}`, comp(753, 57));  // bslay_boss_info:boss_timed_death_graphic
+                IF_SETOP(10, "Reset time", comp(753, 57));  // bslay_boss_info:boss_timed_death_graphic
             } else {
                 switch (int4) {
                     case 1: {
@@ -134,22 +134,22 @@ function script12274(): void {
                 } else {
                     string0 = strconcat(string0, "<br><col=FF3030>---</col>");
                 };
-                IF_SETOP(6, "", comp(753, 57));
-                IF_SETOP(7, "", comp(753, 57));
-                IF_SETOP(8, "", comp(753, 57));
-                IF_SETOP(9, "", comp(753, 57));
+                IF_SETOP(6, "", comp(753, 57));  // bslay_boss_info:boss_timed_death_graphic
+                IF_SETOP(7, "", comp(753, 57));  // bslay_boss_info:boss_timed_death_graphic
+                IF_SETOP(8, "", comp(753, 57));  // bslay_boss_info:boss_timed_death_graphic
+                IF_SETOP(9, "", comp(753, 57));  // bslay_boss_info:boss_timed_death_graphic
             };
         } else {
-            IF_SETOP(6, "", comp(753, 57));
-            IF_SETOP(7, "", comp(753, 57));
-            IF_SETOP(8, "", comp(753, 57));
-            IF_SETOP(9, "", comp(753, 57));
+            IF_SETOP(6, "", comp(753, 57));  // bslay_boss_info:boss_timed_death_graphic
+            IF_SETOP(7, "", comp(753, 57));  // bslay_boss_info:boss_timed_death_graphic
+            IF_SETOP(8, "", comp(753, 57));  // bslay_boss_info:boss_timed_death_graphic
+            IF_SETOP(9, "", comp(753, 57));  // bslay_boss_info:boss_timed_death_graphic
         };
-        IF_SETONMOUSEREPEAT(callback(script8799, string3, 49348669, -1), comp(753, 54));
-        IF_SETTEXT(string0, comp(753, 56));
-        IF_SETHIDE(false, comp(753, 54));
+        IF_SETONMOUSEREPEAT(callback(script8799, string3, 49348669, -1), comp(753, 54));  // bslay_boss_info:boss_timed_death
+        IF_SETTEXT(string0, comp(753, 56));  // bslay_boss_info:boss_timed_death_text
+        IF_SETHIDE(false, comp(753, 54));  // bslay_boss_info:boss_timed_death
     } else {
-        IF_SETHIDE(true, comp(753, 54));
+        IF_SETHIDE(true, comp(753, 54));  // bslay_boss_info:boss_timed_death
     };
     return;
 }

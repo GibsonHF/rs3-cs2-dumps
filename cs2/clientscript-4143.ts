@@ -5,11 +5,11 @@ function script4143(): void {
         return;
     };
     if ((script6431() == 1)) {
-        IF_SETHIDE(true, comp(1433, 90));
-        IF_SETSIZE(385, 76, 0, 0, comp(1433, 81));
+        IF_SETHIDE(true, comp(1433, 90));  // escape_menu:checkbox_container
+        IF_SETSIZE(385, 76, 0, 0, comp(1433, 81));  // escape_menu:escape_logout_popup
     } else {
         script10416(93913179, 93913180, "Don't show me this again.", "", "", varbitplayer_42255);
     };
-    IF_SETHIDE(false, comp(1433, 62));
+    IF_SETHIDE(false, comp(1433, 62));  // escape_menu:logout_popup
     return;
 }

@@ -37,6 +37,6 @@ function script10147(int0: number): void {
     varbitclient_23070 = 1;
     varclient_4292 = int1;
     script10150(1);
-    IF_SETTEXT(`${inttostring(int2, 10)} x ${inttostring(int3, 10)}, framerate: ${inttostring(int4, 10)}`, comp(232, 135));
+    IF_SETTEXT(`${inttostring(int2, 10)} x ${inttostring(int3, 10)}, framerate: ${inttostring(int4, 10)}`, comp(232, 135));  // toplevel_v2_parent_suboverlay_twitch:webcam_options
     return;
 }

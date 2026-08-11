@@ -20,12 +20,12 @@ function script4431(int0: number): void {
     } else {
         script4437(int0);
         string0 = "Join Clan Chat channel.";
-        IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643), comp(1110, 130));
-        IF_SETONMOUSELEAVE(callback(script8805), comp(1110, 130));
-        IF_SETOP(1, "Join Clan Chat channel", comp(1110, 130));
-        IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643), comp(1440, 100));
-        IF_SETONMOUSELEAVE(callback(script8805), comp(1440, 100));
-        IF_SETOP(1, "Join Clan Chat channel", comp(1440, 100));
+        IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643), comp(1110, 130));  // clan_chat:clan_join_affinedchat_button
+        IF_SETONMOUSELEAVE(callback(script8805), comp(1110, 130));  // clan_chat:clan_join_affinedchat_button
+        IF_SETOP(1, "Join Clan Chat channel", comp(1110, 130));  // clan_chat:clan_join_affinedchat_button
+        IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643), comp(1440, 100));  // toplevel_v2_parent_suboverlay_clan_chat:clan_join_affinedchat_button
+        IF_SETONMOUSELEAVE(callback(script8805), comp(1440, 100));  // toplevel_v2_parent_suboverlay_clan_chat:clan_join_affinedchat_button
+        IF_SETOP(1, "Join Clan Chat channel", comp(1440, 100));  // toplevel_v2_parent_suboverlay_clan_chat:clan_join_affinedchat_button
         script4589(int0);
     };
     return;

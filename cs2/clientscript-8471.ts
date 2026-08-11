@@ -55,7 +55,7 @@ function script8471(int0: number, int1: number): void {
     var int20 = 0;
     var int21 = 0;
     if ((int16 == 1)) {
-        if (((int0 == comp(1464, 0)) || (int0 == comp(1462, 3)))) {
+        if (((int0 == comp(1464, 0) /*toplevel_v2_worn:content_layer*/) || (int0 == comp(1462, 3) /*toplevel_v2_parent_suboverlay_worn:content_layer*/))) {
             int21 = 1;
         };
     };
@@ -73,7 +73,7 @@ function script8471(int0: number, int1: number): void {
                 IF_SETPOSITION(0, 0, 2, 0, int5);
                 IF_SETSIZE(0, 0, 0, 1, int5);
             };
-            IF_SETPOSITION(((2 + 4) - 2), (((IF_GETHEIGHT(comp(1843, 296)) + 4) + 2) + 8), 2, 2, int4);
+            IF_SETPOSITION(((2 + 4) - 2), (((IF_GETHEIGHT(comp(1843, 296)) + 4) + 2) + 8), 2, 2, int4);  // mtxmgt_store:buttons_layer
             IF_SETSIZE((220 - (2 * ((2 + 4) - 2))), 200, 0, 0, int4);
             int19 = ((IF_GETWIDTH(int4) - 140) / 2);
             if ((int10 != comp(-1, 65535))) {
@@ -3298,7 +3298,7 @@ function script8471(int0: number, int1: number): void {
         int37 = -1 as obj;
         int38 = -1;
         if ((CC_FIND[1](int7, int31) == 1)) {
-            if (((int8 == comp(517, 289)) && (TESTBIT(varplayer_6954, int31) == 1))) {
+            if (((int8 == comp(517, 289)) && (TESTBIT(varplayer_6954, int31) == 1))) {  // bank:preset_worn_item_layer
                 CC_CREATE(int11, 5, IF_GETNEXTSUBID(int11));
                 CC_SETSIZE(CC_GETWIDTH[1](), CC_GETHEIGHT[1](), 0, 0);
                 CC_SETPOSITION(CC_GETX[1](), CC_GETY[1](), 0, 0);
@@ -4123,14 +4123,14 @@ function script8471(int0: number, int1: number): void {
         };
     };
     if ((int1 == 818)) {
-        if ((IF_FIND(comp(1843, 272)) == 1)) {
+        if ((IF_FIND(comp(1843, 272)) == 1)) {  // mtxmgt_store:recolour_button_disabled_layer
             if ((TESTBIT(int41, 0) == 1)) {
                 CC_SETHIDE(true);
             } else {
                 CC_SETHIDE(false);
             };
         };
-        if ((IF_FIND(comp(1843, 312)) == 1)) {
+        if ((IF_FIND(comp(1843, 312)) == 1)) {  // mtxmgt_store:apply_button_text
             if ((TESTBIT(int41, 1) == 1)) {
                 CC_SETTEXT("Apply");
             } else {

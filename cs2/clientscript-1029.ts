@@ -1,13 +1,13 @@
 //
 function script1029(int0: number, int1: number): void {
-    CC_DELETEALL(comp(157, 2));
-    CC_DELETEALL(comp(157, 3));
-    IF_SETTEXT("Quick Chat - Shortcut Reference", comp(157, 0));
-    IF_SETHIDE(true, comp(157, 1));
+    CC_DELETEALL(comp(157, 2));  // quickchat_tutorial:main
+    CC_DELETEALL(comp(157, 3));  // quickchat_tutorial:text
+    IF_SETTEXT("Quick Chat - Shortcut Reference", comp(157, 0));  // quickchat_tutorial:title
+    IF_SETHIDE(true, comp(157, 1));  // quickchat_tutorial:pagecontrols
     if ((script6431() == 1)) {
-        IF_SETONCLICK(callback(script784, 12906, 0, 7), comp(157, 6));
+        IF_SETONCLICK(callback(script784, 12906, 0, 7), comp(157, 6));  // quickchat_tutorial:button_active
     } else {
-        IF_SETONCLICK(callback(script784, 1486, 0, 7), comp(157, 6));
+        IF_SETONCLICK(callback(script784, 1486, 0, 7), comp(157, 6));  // quickchat_tutorial:button_active
     };
     script13993(10289158, -1, 28556, "User Guide");
     var int2 = 0;

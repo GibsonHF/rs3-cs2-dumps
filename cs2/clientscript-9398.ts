@@ -1,6 +1,6 @@
 //
 function script9398(int0: number, int1: number, int2: number): void {
-    if ((IF_GETHIDE(comp(240, 1)) == true)) {
+    if ((IF_GETHIDE(comp(240, 1)) == true)) {  // activity_tracker_embedded_options:options_layer
         return;
     };
     CC_DELETEALL(int0);

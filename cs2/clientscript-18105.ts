@@ -40,7 +40,7 @@ function script18105(int0: number, int1: number, int2: number, int3: number, int
             int17 = 0;
             int7 = (int7 + 1);
         };
-        if ((CC_FINDBYCATEGORY(comp(403, 9), int0, int7) == 1)) {
+        if ((CC_FINDBYCATEGORY(comp(403, 9), int0, int7) == 1)) {  // bp3_buffs_tab:xp_buff_content_layer
             int15 = enum_getvalue(0, 0, 9458 as cs2enum, int18);
             int16 = script2179(int15);
             if ((enum_hasoutput(17, int8, int16) == 1)) {
@@ -74,7 +74,7 @@ function script18105(int0: number, int1: number, int2: number, int3: number, int
     var string0 = "";
     var int20 = 0;
     var int21 = 0;
-    if ((CC_FINDBYCATEGORY(comp(403, 9), int0, 0) == 1)) {
+    if ((CC_FINDBYCATEGORY(comp(403, 9), int0, 0) == 1)) {  // bp3_buffs_tab:xp_buff_content_layer
         string0 = script18106(int2, int3, int14, int4);
         int20 = (CC_GETWIDTH() - 20);
         int21 = script15891(string0, int20, 207, 0);

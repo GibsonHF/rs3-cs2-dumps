@@ -1,21 +1,21 @@
 //
 function script13243(int0: number, int1: number): void {
-    CC_DELETEALL(comp(1843, 292));
-    CC_DELETEALL(comp(1843, 295));
+    CC_DELETEALL(comp(1843, 292));  // mtxmgt_store:preview_extra_overlay_layer
+    CC_DELETEALL(comp(1843, 295));  // mtxmgt_store:preview_extra_overlay_list_layer
     var int2 = comp(-1, 65535);
     var int3 = comp(-1, 65535);
     if ((varbitclient_35134 == 1)) {
-        int2 = comp(1843, 295);
-        int3 = comp(1843, 294);
-        IF_SETHIDE(true, comp(1843, 289));
-        if ((IF_FIND(comp(1843, 293)) == 1)) {
-            CC_SETPOSITION(0, (((IF_GETY(comp(1843, 265)) + enum_getvalue(25, 0, 8549 as cs2enum, 58 as fontmetrics)) + enum_getvalue(25, 0, 8549 as cs2enum, 29 as fontmetrics)) + (2 * 8)), 2, 0);
-            CC_SETSIZE(CC_GETWIDTH(), (IF_GETY(comp(1841, 5)) - CC_GETY()), 0, 0);
+        int2 = comp(1843, 295);  // mtxmgt_store:preview_extra_overlay_list_layer
+        int3 = comp(1843, 294);  // mtxmgt_store:preview_extra_list_layer
+        IF_SETHIDE(true, comp(1843, 289));  // mtxmgt_store:preview_extra_layer
+        if ((IF_FIND(comp(1843, 293)) == 1)) {  // mtxmgt_store:preview_extra_bounding_list_layer
+            CC_SETPOSITION(0, (((IF_GETY(comp(1843, 265)) + enum_getvalue(25, 0, 8549 as cs2enum, 58 as fontmetrics)) + enum_getvalue(25, 0, 8549 as cs2enum, 29 as fontmetrics)) + (2 * 8)), 2, 0);  // mtxmgt_store:preview_overlay_layer
+            CC_SETSIZE(CC_GETWIDTH(), (IF_GETY(comp(1841, 5)) - CC_GETY()), 0, 0);  // toplevel_v2_store_worn:scrolling_layer
         };
     } else {
-        int2 = comp(1843, 292);
-        int3 = comp(1843, 289);
-        IF_SETHIDE(true, comp(1843, 294));
+        int2 = comp(1843, 292);  // mtxmgt_store:preview_extra_overlay_layer
+        int3 = comp(1843, 289);  // mtxmgt_store:preview_extra_layer
+        IF_SETHIDE(true, comp(1843, 294));  // mtxmgt_store:preview_extra_list_layer
     };
     var int4 = true;
     var int5 = -1;

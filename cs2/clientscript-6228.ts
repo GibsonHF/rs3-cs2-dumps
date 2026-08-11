@@ -1,10 +1,10 @@
 //
 function script6228(int0: number): void {
-    var int1 = comp(1043, 149);
-    var int2 = comp(1043, 2);
-    var int3 = comp(1043, 0);
-    var int4 = comp(1043, 168);
-    var int5 = comp(1043, 174);
+    var int1 = comp(1043, 149);  // 6awe3_rewards:info_build_area
+    var int2 = comp(1043, 2);  // 6awe3_rewards:skill_book
+    var int3 = comp(1043, 0);  // 6awe3_rewards:skill_extras
+    var int4 = comp(1043, 168);  // 6awe3_rewards:skill_buy
+    var int5 = comp(1043, 174);  // 6awe3_rewards:buy_skill_disabled
     var int6 = 0;
     var int7 = -1 as struct;
     CC_DELETEALL(int1);

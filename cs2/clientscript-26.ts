@@ -7,9 +7,9 @@ function script26(): void {
     var int4 = 0;
     var int5 = 0;
     var int6 = 0;
-    int4 = ((IF_GETWIDTH(comp(197, 11)) - int2) / (int2 + 36));
+    int4 = ((IF_GETWIDTH(comp(197, 11)) - int2) / (int2 + 36));  // magictraining_shop:shop_items_layer
     while ((int0 <= INV_SIZE(347 as inv))) {
-        CC_CREATE(comp(197, 11), 5, int0);
+        CC_CREATE(comp(197, 11), 5, int0);  // magictraining_shop:shop_items_layer
         CC_SETSIZE(36, 32, 0, 0);
         CC_SETPOSITION((int2 + ((36 + int2) * (int0 - (int1 * int4)))), (int3 + (int1 * (32 + int3))), 0, 0);
         int5 = (int2 + ((36 + int2) * (int0 - (int1 * int4))));

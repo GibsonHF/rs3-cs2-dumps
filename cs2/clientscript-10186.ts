@@ -5,13 +5,13 @@ function script10186(int0: number, int1: number): void {
     };
     var int2 = int0;
     while ((int2 <= int1)) {
-        if (((int2 <= 15) && (CC_FIND(comp(517, 200), int2) == 1))) {
+        if (((int2 <= 15) && (CC_FIND(comp(517, 200), int2) == 1))) {  // bank:tab_highlights
             CC_SETHIDE(true);
         };
-        if ((CC_FIND(comp(517, 203), int2) == 1)) {
+        if ((CC_FIND(comp(517, 203), int2) == 1)) {  // bank:tab_separators
             CC_SETHIDE(true);
         };
-        if ((CC_FIND(comp(517, 204), int2) == 1)) {
+        if ((CC_FIND(comp(517, 204), int2) == 1)) {  // bank:tab_dividers
             CC_SETHIDE(true);
         };
         int2 = (int2 + 1);

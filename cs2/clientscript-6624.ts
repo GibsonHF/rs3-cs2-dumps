@@ -7,10 +7,10 @@ function script6624(int0: number, int1: number, int2: number, int3: number, int4
     } else {
         if ((int4 != varbitplayer_3945)) {
             if ((varbitplayer_3945 == 1)) {
-                var int0 = comp(1323, 94);
+                var int0 = comp(1323, 94);  // peng_pow_bfish:timer_bar_green
                 var int4 = 1;
             } else {
-                int0 = comp(1323, 22);
+                int0 = comp(1323, 22);  // peng_pow_bfish:timer_bar_blue
                 int4 = 0;
             };
             if ((varbitplayer_3942 == 0)) {
@@ -38,6 +38,6 @@ function script6624(int0: number, int1: number, int2: number, int3: number, int4
             SOUND_VORBIS_VOLUME(16938 as vorbis, 1, 16, 50);
         };
     };
-    IF_SETONTIMER(callback(script6624, int0, int1, int2, int3, int4), comp(1323, 1));
+    IF_SETONTIMER(callback(script6624, int0, int1, int2, int3, int4), comp(1323, 1));  // peng_pow_bfish:game_boards
     return;
 }

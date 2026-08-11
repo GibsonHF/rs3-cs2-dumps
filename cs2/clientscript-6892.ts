@@ -46,9 +46,9 @@ function script6892(): void {
             pop_array[1](int4, 0);
             int4 = (int4 + 1);
         };
-        IF_SETHIDE(false, comp(1366, 7));
+        IF_SETHIDE(false, comp(1366, 7));  // duel3_confirm:my_scrollbar
     } else {
-        IF_SETHIDE(true, comp(1366, 7));
+        IF_SETHIDE(true, comp(1366, 7));  // duel3_confirm:my_scrollbar
         string0 = "Absolutely nothing";
     };
     script6894(string0, 89522182, 89522183, 89522181);
@@ -91,10 +91,10 @@ function script6892(): void {
             pop_array[1](int4, 0);
             int4 = (int4 + 1);
         };
-        IF_SETHIDE(false, comp(1366, 12));
+        IF_SETHIDE(false, comp(1366, 12));  // duel3_confirm:their_scrollbar
     } else {
         string0 = "<col=ff0000>Absolutely nothing</col>";
-        IF_SETHIDE(true, comp(1366, 12));
+        IF_SETHIDE(true, comp(1366, 12));  // duel3_confirm:their_scrollbar
     };
     script6894(string0, 89522187, 89522188, 89522186);
     var string1 = "";
@@ -130,7 +130,7 @@ function script6892(): void {
     } else {
         [string1, string2] = [`Your stake: ${string1}`, `Opponent's stake: ${string2}`];
     };
-    IF_SETTEXT(string1, comp(1366, 5));
-    IF_SETTEXT(string2, comp(1366, 10));
+    IF_SETTEXT(string1, comp(1366, 5));  // duel3_confirm:my_header
+    IF_SETTEXT(string2, comp(1366, 10));  // duel3_confirm:their_header
     return;
 }

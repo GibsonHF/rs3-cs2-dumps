@@ -9,18 +9,18 @@ function script18508(): void {
     var int6 = script18496(int0);
     [int1, int2, int4, int5] = script18494(int0);
     if ((int4 != -1)) {
-        IF_SETGRAPHIC(int5, comp(1253, 344));
+        IF_SETGRAPHIC(int5, comp(1253, 344));  // wheel_of_fortune:trh_banner_reward_track_final_reward_preview
     } else if ((int1 != -1 as obj)) {
-        IF_SETOBJECT(int1, int2, comp(1253, 344));
+        IF_SETOBJECT(int1, int2, comp(1253, 344));  // wheel_of_fortune:trh_banner_reward_track_final_reward_preview
     };
     if ((varbitplayer_55050 == 1)) {
-        IF_SETHIDE(false, comp(1253, 345));
-        IF_SETGRAPHIC(13165 as graphic, comp(1253, 345));
+        IF_SETHIDE(false, comp(1253, 345));  // wheel_of_fortune:trh_banner_reward_track_final_reward_claimed_icon
+        IF_SETGRAPHIC(13165 as graphic, comp(1253, 345));  // wheel_of_fortune:trh_banner_reward_track_final_reward_claimed_icon
     } else if ((varbitplayer_55049 >= int6)) {
-        IF_SETHIDE(false, comp(1253, 345));
-        IF_SETGRAPHIC(13166 as graphic, comp(1253, 345));
+        IF_SETHIDE(false, comp(1253, 345));  // wheel_of_fortune:trh_banner_reward_track_final_reward_claimed_icon
+        IF_SETGRAPHIC(13166 as graphic, comp(1253, 345));  // wheel_of_fortune:trh_banner_reward_track_final_reward_claimed_icon
     } else {
-        IF_SETHIDE(true, comp(1253, 345));
+        IF_SETHIDE(true, comp(1253, 345));  // wheel_of_fortune:trh_banner_reward_track_final_reward_claimed_icon
     };
     return;
 }

@@ -1,9 +1,9 @@
 //
 function script6235(int0: number): void {
     if ((int0 == 1)) {
-        IF_SETHIDE(false, comp(1285, 31));
+        IF_SETHIDE(false, comp(1285, 31));  // qbd2_energybar:noclickthru
     } else {
-        IF_SETHIDE(true, comp(1285, 31));
+        IF_SETHIDE(true, comp(1285, 31));  // qbd2_energybar:noclickthru
     };
     return;
 }

@@ -5,13 +5,13 @@ function script11709(int0: number, int1: number): void {
         IF_SETONTIMER(callback(script11709, int0, int1), int1);
         return;
     };
-    if ((IF_FIND(comp(1082, 39)) == 1)) {
+    if ((IF_FIND(comp(1082, 39)) == 1)) {  // trh189_overlay:chase_prize_npc_layer
         CC_SETONTIMER(callback(script12631, -2147483645, -2147483643));
         script12642(-4000, 0);
         cc_setparam(5828, 0);
         cc_setparam(2977, 0);
     };
-    IF_SETONTIMER(callback(script11709, 1500, 70909989), comp(1082, 37));
-    IF_SETONTIMER(callback(script11710, 450, 70909990), comp(1082, 38));
+    IF_SETONTIMER(callback(script11709, 1500, 70909989), comp(1082, 37));  // trh189_overlay:chase_prize_preview
+    IF_SETONTIMER(callback(script11710, 450, 70909990), comp(1082, 38));  // trh189_overlay:chase_prize_handler
     return;
 }

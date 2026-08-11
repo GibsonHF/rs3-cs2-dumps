@@ -5,8 +5,8 @@ function script17083(int0: number): void {
             return;
         };
     };
-    IF_SETHIDE(true, comp(1626, 69));
-    IF_SETHIDE(false, comp(1626, 68));
-    IF_SETHIDE(false, comp(1626, 64));
+    IF_SETHIDE(true, comp(1626, 69));  // death:confirm_contents
+    IF_SETHIDE(false, comp(1626, 68));  // death:confirm_loading
+    IF_SETHIDE(false, comp(1626, 64));  // death:confirm_panel
     return;
 }

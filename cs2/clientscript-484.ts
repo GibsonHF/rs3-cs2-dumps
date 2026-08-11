@@ -90,18 +90,18 @@ function script484(int0: number): void {
         }
     };
     if ((int1 == -1)) {
-        IF_SETHIDE(true, comp(1015, 38));
-        IF_SETHIDE(false, comp(1015, 78));
-        IF_SETGRAPHIC(npc_getparam(int2, 1148), comp(1015, 59));
+        IF_SETHIDE(true, comp(1015, 38));  // conq_buy_army:no_unit_selected_text
+        IF_SETHIDE(false, comp(1015, 78));  // conq_buy_army:purchase_current_details_layer
+        IF_SETGRAPHIC(npc_getparam(int2, 1148), comp(1015, 59));  // conq_buy_army:current_unit_image
         IF_SETTEXT(npc_getparam(int2, 1139), 66519097);
-        IF_SETTEXT(`Movement: <col=ffffff>${inttostring(npc_getparam(int2, 1134), 10)}`, comp(1015, 83));
-        IF_SETTEXT(`Damage: <col=ffffff>${inttostring((npc_getparam(int2, 1135) * 100), 10)}`, comp(1015, 84));
-        IF_SETTEXT(`Health: <col=ffffff>${inttostring((npc_getparam(int2, 1136) * 100), 10)}`, comp(1015, 85));
-        IF_SETTEXT(`Range: <col=ffffff>${inttostring(npc_getparam(int2, 1137), 10)}`, comp(1015, 86));
-        IF_SETTEXT(`Cost: <col=ffffff>${inttostring(npc_getparam(int2, 1138), 10)}`, comp(1015, 87));
+        IF_SETTEXT(`Movement: <col=ffffff>${inttostring(npc_getparam(int2, 1134), 10)}`, comp(1015, 83));  // conq_buy_army:unit_movement_text
+        IF_SETTEXT(`Damage: <col=ffffff>${inttostring((npc_getparam(int2, 1135) * 100), 10)}`, comp(1015, 84));  // conq_buy_army:unit_damage_text
+        IF_SETTEXT(`Health: <col=ffffff>${inttostring((npc_getparam(int2, 1136) * 100), 10)}`, comp(1015, 85));  // conq_buy_army:unit_health_text
+        IF_SETTEXT(`Range: <col=ffffff>${inttostring(npc_getparam(int2, 1137), 10)}`, comp(1015, 86));  // conq_buy_army:unit_range_text
+        IF_SETTEXT(`Cost: <col=ffffff>${inttostring(npc_getparam(int2, 1138), 10)}`, comp(1015, 87));  // conq_buy_army:unit_cost_text
     } else if ((int1 != int2)) {
-        IF_SETGRAPHIC(npc_getparam(int2, 1148), comp(1015, 59));
-        IF_SETTEXT(strconcat(IF_GETTEXT(comp(1015, 57)), ` ~ ${npc_getparam(int2, 1139)}`), comp(1015, 57));
+        IF_SETGRAPHIC(npc_getparam(int2, 1148), comp(1015, 59));  // conq_buy_army:current_unit_image
+        IF_SETTEXT(strconcat(IF_GETTEXT(comp(1015, 57)), ` ~ ${npc_getparam(int2, 1139)}`), comp(1015, 57));  // conq_buy_army:unit_type_text
         int3 = npc_getparam(int1, 1134);
         int4 = npc_getparam(int2, 1134);
         if ((int3 < int4)) {
@@ -113,7 +113,7 @@ function script484(int0: number): void {
         } else {
             string0 = ` ~ ${inttostring(npc_getparam(int2, 1134), 10)}`;
         };
-        IF_SETTEXT(strconcat(IF_GETTEXT(comp(1015, 83)), string0), comp(1015, 83));
+        IF_SETTEXT(strconcat(IF_GETTEXT(comp(1015, 83)), string0), comp(1015, 83));  // conq_buy_army:unit_movement_text
         int3 = npc_getparam(int1, 1135);
         int4 = npc_getparam(int2, 1135);
         if ((int3 < int4)) {
@@ -125,7 +125,7 @@ function script484(int0: number): void {
         } else {
             string0 = ` ~ ${inttostring((npc_getparam(int2, 1135) * 100), 10)}`;
         };
-        IF_SETTEXT(strconcat(IF_GETTEXT(comp(1015, 84)), string0), comp(1015, 84));
+        IF_SETTEXT(strconcat(IF_GETTEXT(comp(1015, 84)), string0), comp(1015, 84));  // conq_buy_army:unit_damage_text
         int3 = npc_getparam(int1, 1136);
         int4 = npc_getparam(int2, 1136);
         if ((int3 < int4)) {
@@ -137,7 +137,7 @@ function script484(int0: number): void {
         } else {
             string0 = ` ~ ${inttostring((npc_getparam(int2, 1136) * 100), 10)}`;
         };
-        IF_SETTEXT(strconcat(IF_GETTEXT(comp(1015, 85)), string0), comp(1015, 85));
+        IF_SETTEXT(strconcat(IF_GETTEXT(comp(1015, 85)), string0), comp(1015, 85));  // conq_buy_army:unit_health_text
         int3 = npc_getparam(int1, 1137);
         int4 = npc_getparam(int2, 1137);
         if ((int3 < int4)) {
@@ -149,7 +149,7 @@ function script484(int0: number): void {
         } else {
             string0 = ` ~ ${inttostring(npc_getparam(int2, 1137), 10)}`;
         };
-        IF_SETTEXT(strconcat(IF_GETTEXT(comp(1015, 86)), string0), comp(1015, 86));
+        IF_SETTEXT(strconcat(IF_GETTEXT(comp(1015, 86)), string0), comp(1015, 86));  // conq_buy_army:unit_range_text
         int3 = npc_getparam(int1, 1138);
         int4 = npc_getparam(int2, 1138);
         if ((int3 < int4)) {
@@ -161,7 +161,7 @@ function script484(int0: number): void {
         } else {
             string0 = ` ~ ${inttostring(npc_getparam(int2, 1138), 10)}`;
         };
-        IF_SETTEXT(strconcat(IF_GETTEXT(comp(1015, 87)), string0), comp(1015, 87));
+        IF_SETTEXT(strconcat(IF_GETTEXT(comp(1015, 87)), string0), comp(1015, 87));  // conq_buy_army:unit_cost_text
     };
     return;
 }

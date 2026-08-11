@@ -4,12 +4,12 @@ function script6053(int0: number, int1: number, int2: number): void {
     var int4 = SCALE(varplayer_679, 1000, 100);
     var int5 = SCALE(IF_GETWIDTH(int0), int3, 100);
     var int6 = 3;
-    var int7 = comp(640, 8);
+    var int7 = comp(640, 8);  // combatv2_actionbar:fullscreen_energy_pulse
     var int8 = 0;
-    var int9 = comp(640, 9);
-    if ((IF_GETLAYER(int0) == comp(1616, 1))) {
-        int7 = comp(1616, 6);
-        int9 = comp(1616, 7);
+    var int9 = comp(640, 9);  // combatv2_actionbar:flash_ah_aaah
+    if ((IF_GETLAYER(int0) == comp(1616, 1))) {  // combatv2_adrenaline:fullscreen_border_layer
+        int7 = comp(1616, 6);  // combatv2_adrenaline:fullscreen_energy_pulse
+        int9 = comp(1616, 7);  // combatv2_adrenaline:flash_ah_aaah
     };
     var int2 = int1;
     var int1 = script42(IF_GETHIDE(int7));

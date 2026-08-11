@@ -6,7 +6,7 @@ function script4996(int0: number): void {
     var int4 = -1;
     var int5 = -1;
     var int6 = -1;
-    IF_SETHIDE(false, comp(1261, 241));
+    IF_SETHIDE(false, comp(1261, 241));  // clan_stronghold_main_buildings:building_loading_layer
     if ((CLANPROFILE_FIND() == 1)) {
         script4899(1);
         int2 = script4963(int0);

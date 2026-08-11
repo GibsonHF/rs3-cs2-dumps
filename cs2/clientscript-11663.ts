@@ -1,11 +1,11 @@
 //
 function script11663(): void {
-    var int0 = comp(1562, 31);
+    var int0 = comp(1562, 31);  // mtxmgt_purchase:bonds_layer
     var int1 = 102367274;
-    var int2 = comp(1562, 43);
-    var int3 = comp(1562, 15);
-    var int4 = comp(1562, 16);
-    var int5 = comp(1562, 44);
+    var int2 = comp(1562, 43);  // mtxmgt_purchase:bonds_content_layer
+    var int3 = comp(1562, 15);  // mtxmgt_purchase:bonds_button_layer
+    var int4 = comp(1562, 16);  // mtxmgt_purchase:buy_bonds_button_layer
+    var int5 = comp(1562, 44);  // mtxmgt_purchase:ge_bonds_button_layer
     var int6 = 102367250;
     CC_DELETEALL(int2);
     var int7 = -1;

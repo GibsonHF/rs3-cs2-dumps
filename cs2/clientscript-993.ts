@@ -3,7 +3,7 @@ function script993(int0: number, int1: number, int2: number): void {
     if ((int1 == -1)) {
         return;
     };
-    var int3 = comp(204, 85);
+    var int3 = comp(204, 85);  // rsraffle:claim_panel_build_layer
     var int4 = -1;
     var int5 = 0;
     var int6 = 0;

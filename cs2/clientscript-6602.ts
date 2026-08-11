@@ -1,9 +1,9 @@
 //
 function script6602(): void {
-    IF_SETHIDE(false, comp(1327, 10));
+    IF_SETHIDE(false, comp(1327, 10));  // peng_pow_engine:highlight
     switch (varbitplayer_9421) {
         case 0: {
-            IF_SETHIDE(true, comp(1327, 10));
+            IF_SETHIDE(true, comp(1327, 10));  // peng_pow_engine:highlight
             break;
         }
         case 1: {

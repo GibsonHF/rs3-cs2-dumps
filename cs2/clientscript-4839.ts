@@ -4,48 +4,48 @@ function script4839(int0: number, int1: number): void {
     var int3 = comp(-1, 65535);
     switch (int0) {
         case 82444741: {
-            int3 = comp(1258, 456);
-            int2 = IF_GETNEXTSUBID(comp(1258, 461));
+            int3 = comp(1258, 456);  // clan_stronghold_main_decor:custom_details_expand_1_1
+            int2 = IF_GETNEXTSUBID(comp(1258, 461));  // clan_stronghold_main_decor:custom_details_select_1_1
             break;
         }
         case 82444664: {
-            int3 = comp(1258, 379);
-            int2 = IF_GETNEXTSUBID(comp(1258, 384));
+            int3 = comp(1258, 379);  // clan_stronghold_main_decor:custom_details_expand_1_2
+            int2 = IF_GETNEXTSUBID(comp(1258, 384));  // clan_stronghold_main_decor:custom_details_select_1_2
             break;
         }
         case 82444581: {
-            int3 = comp(1258, 296);
-            int2 = IF_GETNEXTSUBID(comp(1258, 301));
+            int3 = comp(1258, 296);  // clan_stronghold_main_decor:custom_details_expand_1_3
+            int2 = IF_GETNEXTSUBID(comp(1258, 301));  // clan_stronghold_main_decor:custom_details_select_1_3
             break;
         }
         case 82444729: {
-            int3 = comp(1258, 444);
-            int2 = IF_GETNEXTSUBID(comp(1258, 449));
+            int3 = comp(1258, 444);  // clan_stronghold_main_decor:custom_details_expand_2_1
+            int2 = IF_GETNEXTSUBID(comp(1258, 449));  // clan_stronghold_main_decor:custom_details_select_2_1
             break;
         }
         case 82444650: {
-            int3 = comp(1258, 365);
-            int2 = IF_GETNEXTSUBID(comp(1258, 370));
+            int3 = comp(1258, 365);  // clan_stronghold_main_decor:custom_details_expand_2_2
+            int2 = IF_GETNEXTSUBID(comp(1258, 370));  // clan_stronghold_main_decor:custom_details_select_2_2
             break;
         }
         case 82444565: {
-            int3 = comp(1258, 280);
-            int2 = IF_GETNEXTSUBID(comp(1258, 285));
+            int3 = comp(1258, 280);  // clan_stronghold_main_decor:custom_details_expand_2_3
+            int2 = IF_GETNEXTSUBID(comp(1258, 285));  // clan_stronghold_main_decor:custom_details_select_2_3
             break;
         }
         case 82444717: {
-            int3 = comp(1258, 432);
-            int2 = IF_GETNEXTSUBID(comp(1258, 437));
+            int3 = comp(1258, 432);  // clan_stronghold_main_decor:custom_details_expand_3_1
+            int2 = IF_GETNEXTSUBID(comp(1258, 437));  // clan_stronghold_main_decor:custom_details_select_3_1
             break;
         }
         case 82444636: {
-            int3 = comp(1258, 351);
-            int2 = IF_GETNEXTSUBID(comp(1258, 356));
+            int3 = comp(1258, 351);  // clan_stronghold_main_decor:custom_details_expand_3_2
+            int2 = IF_GETNEXTSUBID(comp(1258, 356));  // clan_stronghold_main_decor:custom_details_select_3_2
             break;
         }
         case 82444549: {
-            int3 = comp(1258, 264);
-            int2 = IF_GETNEXTSUBID(comp(1258, 269));
+            int3 = comp(1258, 264);  // clan_stronghold_main_decor:custom_details_expand_3_3
+            int2 = IF_GETNEXTSUBID(comp(1258, 269));  // clan_stronghold_main_decor:custom_details_select_3_3
             break;
         }
     };

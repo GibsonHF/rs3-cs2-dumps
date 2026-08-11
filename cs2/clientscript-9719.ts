@@ -58,13 +58,13 @@ function script9719(int0: number, int1: number): void {
             }
         };
     };
-    IF_SETOP(1, string1, comp(1253, 278));
-    IF_SETENABLED(int2, comp(1253, 278));
+    IF_SETOP(1, string1, comp(1253, 278));  // wheel_of_fortune:reward_claim_bank_button
+    IF_SETENABLED(int2, comp(1253, 278));  // wheel_of_fortune:reward_claim_bank_button
     if ((int2 == true)) {
-        IF_SETONMOUSEREPEAT(callback(script3876, string2, -2147483645, -1), comp(1253, 278));
+        IF_SETONMOUSEREPEAT(callback(script3876, string2, -2147483645, -1), comp(1253, 278));  // wheel_of_fortune:reward_claim_bank_button
     } else {
-        IF_SETONMOUSEREPEAT(callback(script3876, string3, -2147483645, -1), comp(1253, 278));
+        IF_SETONMOUSEREPEAT(callback(script3876, string3, -2147483645, -1), comp(1253, 278));  // wheel_of_fortune:reward_claim_bank_button
     };
-    IF_SETTEXT(string0, comp(1253, 278));
+    IF_SETTEXT(string0, comp(1253, 278));  // wheel_of_fortune:reward_claim_bank_button
     return;
 }

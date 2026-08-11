@@ -10,29 +10,29 @@ function script19266(): void {
     };
     script19273();
     script19278();
-    IF_SETHIDE(true, comp(1290, 10));
-    IF_SETHIDE(true, comp(1290, 27));
-    IF_SETHIDE(true, comp(1290, 30));
-    IF_SETHIDE(true, comp(1290, 26));
+    IF_SETHIDE(true, comp(1290, 10));  // trh_dungeon_crawl_overlay:map_layer
+    IF_SETHIDE(true, comp(1290, 27));  // trh_dungeon_crawl_overlay:bonus_encounter_layer
+    IF_SETHIDE(true, comp(1290, 30));  // trh_dungeon_crawl_overlay:boss_encounter_layer
+    IF_SETHIDE(true, comp(1290, 26));  // trh_dungeon_crawl_overlay:rewards_layer
     if ((((varplayer_11876 != -1 as obj) || (varplayer_11878 != -1 as obj)) || (varplayer_11880 != -1 as obj))) {
         script19298();
-        IF_SETHIDE(false, comp(1290, 26));
+        IF_SETHIDE(false, comp(1290, 26));  // trh_dungeon_crawl_overlay:rewards_layer
         return;
     };
     switch (DB_GETROWTABLE(varplayer_11902)) {
         case 298: {
             script19279();
-            IF_SETHIDE(false, comp(1290, 10));
+            IF_SETHIDE(false, comp(1290, 10));  // trh_dungeon_crawl_overlay:map_layer
             break;
         }
         case 299: {
             script19284();
-            IF_SETHIDE(false, comp(1290, 27));
+            IF_SETHIDE(false, comp(1290, 27));  // trh_dungeon_crawl_overlay:bonus_encounter_layer
             break;
         }
         case 300: {
             script19287();
-            IF_SETHIDE(false, comp(1290, 30));
+            IF_SETHIDE(false, comp(1290, 30));  // trh_dungeon_crawl_overlay:boss_encounter_layer
             break;
         }
     };

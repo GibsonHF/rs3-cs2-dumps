@@ -1,28 +1,28 @@
 //
 function script6384(): void {
-    if ((IF_GETHIDE(comp(241, 7)) == false)) {
+    if ((IF_GETHIDE(comp(241, 7)) == false)) {  // sliske1_underworld:sliske1_underworld_pg3
         script6980();
-        IF_SETHIDE(true, comp(241, 8));
-        IF_SETHIDE(true, comp(241, 7));
-        IF_SETHIDE(false, comp(241, 6));
-        IF_SETHIDE(false, comp(241, 5));
-    } else if ((IF_GETHIDE(comp(241, 9)) == false)) {
+        IF_SETHIDE(true, comp(241, 8));  // sliske1_underworld:sliske1_underworld_pg4
+        IF_SETHIDE(true, comp(241, 7));  // sliske1_underworld:sliske1_underworld_pg3
+        IF_SETHIDE(false, comp(241, 6));  // sliske1_underworld:sliske1_underworld_pg2
+        IF_SETHIDE(false, comp(241, 5));  // sliske1_underworld:sliske1_underworld_pg1
+    } else if ((IF_GETHIDE(comp(241, 9)) == false)) {  // sliske1_underworld:sliske1_underworld_pg5
         script6980();
-        IF_SETHIDE(true, comp(241, 10));
-        IF_SETHIDE(true, comp(241, 9));
-        IF_SETHIDE(false, comp(241, 8));
-        IF_SETHIDE(false, comp(241, 7));
-    } else if ((IF_GETHIDE(comp(241, 11)) == false)) {
+        IF_SETHIDE(true, comp(241, 10));  // sliske1_underworld:sliske1_underworld_pg6
+        IF_SETHIDE(true, comp(241, 9));  // sliske1_underworld:sliske1_underworld_pg5
+        IF_SETHIDE(false, comp(241, 8));  // sliske1_underworld:sliske1_underworld_pg4
+        IF_SETHIDE(false, comp(241, 7));  // sliske1_underworld:sliske1_underworld_pg3
+    } else if ((IF_GETHIDE(comp(241, 11)) == false)) {  // sliske1_underworld:sliske1_underworld_pg7
         script6980();
-        IF_SETHIDE(true, comp(241, 12));
-        IF_SETHIDE(true, comp(241, 11));
-        IF_SETHIDE(false, comp(241, 10));
-        IF_SETHIDE(false, comp(241, 9));
-    } else if ((IF_GETHIDE(comp(241, 13)) == false)) {
+        IF_SETHIDE(true, comp(241, 12));  // sliske1_underworld:sliske1_underworld_pg8
+        IF_SETHIDE(true, comp(241, 11));  // sliske1_underworld:sliske1_underworld_pg7
+        IF_SETHIDE(false, comp(241, 10));  // sliske1_underworld:sliske1_underworld_pg6
+        IF_SETHIDE(false, comp(241, 9));  // sliske1_underworld:sliske1_underworld_pg5
+    } else if ((IF_GETHIDE(comp(241, 13)) == false)) {  // sliske1_underworld:sliske1_underworld_pg9
         script6980();
-        IF_SETHIDE(true, comp(241, 13));
-        IF_SETHIDE(false, comp(241, 12));
-        IF_SETHIDE(false, comp(241, 11));
+        IF_SETHIDE(true, comp(241, 13));  // sliske1_underworld:sliske1_underworld_pg9
+        IF_SETHIDE(false, comp(241, 12));  // sliske1_underworld:sliske1_underworld_pg8
+        IF_SETHIDE(false, comp(241, 11));  // sliske1_underworld:sliske1_underworld_pg7
     };
     return;
 }

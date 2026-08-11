@@ -1,11 +1,11 @@
 //
 function script1365(int0: number): void {
-    var int1 = comp(1594, 95);
+    var int1 = comp(1594, 95);  // rewardshop:item_description
     var int2 = 104464480;
     var string0 = script17844(varplayer_5148, 3);
     var string1 = script17844(varplayer_5148, 4);
-    IF_SETHIDE(false, comp(1594, 33));
-    IF_SETTEXT(script13337(int0), comp(1594, 79));
+    IF_SETHIDE(false, comp(1594, 33));  // rewardshop:information_panel
+    IF_SETTEXT(script13337(int0), comp(1594, 79));  // rewardshop:item_name
     IF_SETTEXT(struct_getparam(int0, 4858), int1);
     IF_SETTEXT(`Cost: ${script12658(varplayer_5148, int0, script9095(int0, script13501(int0)), struct_getparam(int0, 5878), 1, 0)}`, int2);
     var int3 = 0;

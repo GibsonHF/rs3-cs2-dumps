@@ -38,7 +38,7 @@ function script2890(): void {
     var int11 = 0;
     while ((int8 <= 6)) {
         int10 = enum_getvalue(0, 9, 925 as cs2enum, int8);
-        if (((int10 != comp(476, 0)) && (IF_GETGRAPHIC(int10) == -1 as graphic))) {
+        if (((int10 != comp(476, 0)) && (IF_GETGRAPHIC(int10) == -1 as graphic))) {  // sfa:content_layer
             switch (int8) {
                 case 1: {
                     int0 = enum_getvalue(0, 32, 929, varclient_1080);
@@ -70,8 +70,8 @@ function script2890(): void {
                 IF_SETTEXT(enum_getvalue(32, 36, 930 as cs2enum, int0), enum_getvalue(9, 9, 926 as cs2enum, int10));
                 IF_SETONMOUSEREPEAT(callback(script8799, enum_getvalue(32, 36, 930, int0), -2147483645, -2147483643), int10);
                 if (((int10 != 31195149) && (int10 != 31195150))) {
-                    IF_SETHIDE(false, comp(476, 17));
-                    IF_SETPOSITION(IF_GETX(int10), IF_GETY(int10), 0, 0, comp(476, 17));
+                    IF_SETHIDE(false, comp(476, 17));  // sfa:alert
+                    IF_SETPOSITION(IF_GETX(int10), IF_GETY(int10), 0, 0, comp(476, 17));  // sfa:alert
                     script1725(31195153);
                     int11 = (CLIENTCLOCK() + 150);
                     IF_SETONTIMER(callback(script2891, int11, int10), int10);

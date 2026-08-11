@@ -14,35 +14,35 @@ function script14137(): void {
         switch (int8) {
             case 1: {
                 int0 = script7844(varbitplayer_51611);
-                int2 = comp(1023, 49);
-                int1 = comp(1023, 44);
-                int3 = comp(1023, 47);
-                int4 = comp(1023, 48);
-                int5 = comp(1023, 45);
+                int2 = comp(1023, 49);  // trh187_overlay:monster_model_1
+                int1 = comp(1023, 44);  // trh187_overlay:monster_layer_1
+                int3 = comp(1023, 47);  // trh187_overlay:monster_name_1
+                int4 = comp(1023, 48);  // trh187_overlay:monster_rarity_1
+                int5 = comp(1023, 45);  // trh187_overlay:monster_gem_1
                 int6 = 67043378;
-                int7 = comp(1023, 46);
+                int7 = comp(1023, 46);  // trh187_overlay:monster_plus_1
                 break;
             }
             case 2: {
                 int0 = script7844(varbitplayer_51612);
-                int2 = comp(1023, 56);
-                int1 = comp(1023, 51);
-                int3 = comp(1023, 55);
-                int4 = comp(1023, 54);
-                int5 = comp(1023, 52);
+                int2 = comp(1023, 56);  // trh187_overlay:monster_model_2
+                int1 = comp(1023, 51);  // trh187_overlay:monster_layer_2
+                int3 = comp(1023, 55);  // trh187_overlay:monster_name_2
+                int4 = comp(1023, 54);  // trh187_overlay:monster_rarity_2
+                int5 = comp(1023, 52);  // trh187_overlay:monster_gem_2
                 int6 = 67043385;
-                int7 = comp(1023, 53);
+                int7 = comp(1023, 53);  // trh187_overlay:monster_plus_2
                 break;
             }
             case 3: {
                 int0 = script7844(varbitplayer_51613);
-                int2 = comp(1023, 63);
-                int1 = comp(1023, 58);
-                int3 = comp(1023, 62);
-                int4 = comp(1023, 61);
-                int5 = comp(1023, 59);
+                int2 = comp(1023, 63);  // trh187_overlay:monster_model_3
+                int1 = comp(1023, 58);  // trh187_overlay:monster_layer_3
+                int3 = comp(1023, 62);  // trh187_overlay:monster_name_3
+                int4 = comp(1023, 61);  // trh187_overlay:monster_rarity_3
+                int5 = comp(1023, 59);  // trh187_overlay:monster_gem_3
                 int6 = 67043392;
-                int7 = comp(1023, 60);
+                int7 = comp(1023, 60);  // trh187_overlay:monster_plus_3
                 break;
             }
         };

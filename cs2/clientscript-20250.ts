@@ -1,6 +1,6 @@
 //
 function script20250(): void {
-    CC_DELETEALL(comp(1442, 15));
+    CC_DELETEALL(comp(1442, 15));  // league_parent_ranks:title_points
     var int0 = script20117(2);
     if ((int0 == -1)) {
         return;
@@ -8,7 +8,7 @@ function script20250(): void {
     var int1 = dbrow_getfield(int0, 1335488, 0);
     var int2 = 0;
     var int3 = DB_GETFIELDCOUNT(int1, 1363968);
-    var int4 = IF_GETHEIGHT(comp(1442, 15));
+    var int4 = IF_GETHEIGHT(comp(1442, 15));  // league_parent_ranks:title_points
     var int5 = ((int4 - (4 * (int3 - 1))) / int3);
     var int6 = 0;
     var int7 = SCALE(32, 36, (int5 - 4));
@@ -43,7 +43,7 @@ function script20250(): void {
         };
         int2 = (int2 + 1);
     };
-    if ((CC_FIND(comp(1442, 1), 0) == 1)) {
+    if ((CC_FIND(comp(1442, 1), 0) == 1)) {  // league_parent_ranks:progress_bar
         int12 = dbrow_getfield(int1, 1363970, int13);
         CC_SETOBJECT_HIGHRES(int12);
     };
@@ -57,7 +57,7 @@ function script20250(): void {
     } else {
         string0 = `Earn ${TOSTRING_LOCALISED((int9 - int8), 1)} points to unlock the next trophy`;
     };
-    IF_SETTEXT(string0, comp(1442, 11));
+    IF_SETTEXT(string0, comp(1442, 11));  // league_parent_ranks:table_contents
     var int16 = -1;
     var int17 = -1;
     var int18 = -1;
@@ -71,18 +71,18 @@ function script20250(): void {
     stack(int12);
     script21087();
     [int16, int17, int18, int19, int20, int21, int22, int23, int24, int25] = [];
-    IF_SETMODEL(int16, comp(1442, 12));
-    IF_SETMODELZOOM(int17, comp(1442, 12));
+    IF_SETMODEL(int16, comp(1442, 12));  // league_parent_ranks:divider_title
+    IF_SETMODELZOOM(int17, comp(1442, 12));  // league_parent_ranks:divider_title
     if (((int18 != -1) && (int19 != -1))) {
-        IF_SETRETEX(1, int18, int19, comp(1442, 12));
+        IF_SETRETEX(1, int18, int19, comp(1442, 12));  // league_parent_ranks:divider_title
     };
     if (((int20 != -1) && (int21 != -1))) {
-        IF_SETRECOL(1, int20, int21, comp(1442, 12));
+        IF_SETRECOL(1, int20, int21, comp(1442, 12));  // league_parent_ranks:divider_title
         if (((int22 != -1) && (int23 != -1))) {
-            IF_SETRECOL(2, int22, int23, comp(1442, 12));
+            IF_SETRECOL(2, int22, int23, comp(1442, 12));  // league_parent_ranks:divider_title
         };
     };
-    IF_SETPOSITION(int24, int25, 1, 1, comp(1442, 12));
-    IF_SETTEXT("Trophies are available once the League ends.", comp(1442, 13));
+    IF_SETPOSITION(int24, int25, 1, 1, comp(1442, 12));  // league_parent_ranks:divider_title
+    IF_SETTEXT("Trophies are available once the League ends.", comp(1442, 13));  // league_parent_ranks:divider_tier
     return;
 }

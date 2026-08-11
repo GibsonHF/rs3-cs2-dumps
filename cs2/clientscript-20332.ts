@@ -18,18 +18,18 @@ function script20332(): void {
     var int15 = 26;
     if ((int12 != -1)) {
         int11 = 30;
-        IF_SETHIDE(false, comp(910, 12));
+        IF_SETHIDE(false, comp(910, 12));  // lobbyscreen_pane_worldselect:switch_mode
         if ((varbitplayer_58378 == 1)) {
-            IF_BUTTON_SETTOGGLED(1, comp(910, 90));
-            IF_BUTTON_SETTOGGLED(0, comp(910, 88));
+            IF_BUTTON_SETTOGGLED(1, comp(910, 90));  // lobbyscreen_pane_worldselect:league_worlds
+            IF_BUTTON_SETTOGGLED(0, comp(910, 88));  // lobbyscreen_pane_worldselect:normal_worlds
         } else {
-            IF_BUTTON_SETTOGGLED(0, comp(910, 90));
-            IF_BUTTON_SETTOGGLED(1, comp(910, 88));
+            IF_BUTTON_SETTOGGLED(0, comp(910, 90));  // lobbyscreen_pane_worldselect:league_worlds
+            IF_BUTTON_SETTOGGLED(1, comp(910, 88));  // lobbyscreen_pane_worldselect:normal_worlds
         };
-        IF_SETTEXTFONT(209 as fontmetrics, comp(910, 88));
+        IF_SETTEXTFONT(209 as fontmetrics, comp(910, 88));  // lobbyscreen_pane_worldselect:normal_worlds
     } else {
         varbitplayer_58378 = 0;
-        IF_SETHIDE(true, comp(910, 90));
+        IF_SETHIDE(true, comp(910, 90));  // lobbyscreen_pane_worldselect:league_worlds
     };
     if ((script13749() == 1)) {
         int1 = 42;
@@ -42,26 +42,26 @@ function script20332(): void {
         int9 = 42;
         int10 = 32;
         int15 = 28;
-        IF_SETHIDE(false, comp(910, 2));
-        IF_SETCOLOUR(16777215, comp(910, 8));
-        IF_SETTEXTFONT(28 as fontmetrics, comp(910, 8));
-        IF_SETSIZE(0, (54 + int11), 1, 1, comp(910, 16));
-        IF_SETPOSITION(0, (54 + int11), 0, 0, comp(910, 16));
+        IF_SETHIDE(false, comp(910, 2));  // lobbyscreen_pane_worldselect:title_mobile_bg
+        IF_SETCOLOUR(16777215, comp(910, 8));  // lobbyscreen_pane_worldselect:status_text
+        IF_SETTEXTFONT(28 as fontmetrics, comp(910, 8));  // lobbyscreen_pane_worldselect:status_text
+        IF_SETSIZE(0, (54 + int11), 1, 1, comp(910, 16));  // lobbyscreen_pane_worldselect:list_content
+        IF_SETPOSITION(0, (54 + int11), 0, 0, comp(910, 16));  // lobbyscreen_pane_worldselect:list_content
     } else {
-        IF_SETHIDE(true, comp(910, 2));
-        IF_SETPOSITION(0, 0, 0, 0, comp(910, 6));
-        IF_SETCOLOUR(14931919, comp(910, 8));
-        IF_SETTEXTFONT(26 as fontmetrics, comp(910, 8));
-        IF_SETSIZE(0, (60 + int11), 1, 1, comp(910, 16));
-        IF_SETPOSITION(0, (60 + int11), 0, 0, comp(910, 16));
+        IF_SETHIDE(true, comp(910, 2));  // lobbyscreen_pane_worldselect:title_mobile_bg
+        IF_SETPOSITION(0, 0, 0, 0, comp(910, 6));  // lobbyscreen_pane_worldselect:title_offset
+        IF_SETCOLOUR(14931919, comp(910, 8));  // lobbyscreen_pane_worldselect:status_text
+        IF_SETTEXTFONT(26 as fontmetrics, comp(910, 8));  // lobbyscreen_pane_worldselect:status_text
+        IF_SETSIZE(0, (60 + int11), 1, 1, comp(910, 16));  // lobbyscreen_pane_worldselect:list_content
+        IF_SETPOSITION(0, (60 + int11), 0, 0, comp(910, 16));  // lobbyscreen_pane_worldselect:list_content
     };
     script15637(int13);
-    IF_SETPOSITION(0, (int8 + 4), 0, 0, comp(910, 12));
-    IF_SETSIZE(0, int8, 1, 0, comp(910, 11));
-    IF_SETSIZE(0, int1, 1, 0, comp(910, 65));
-    IF_SETSIZE(16, int1, 1, 0, comp(910, 17));
-    IF_SETSIZE(16, int1, 1, 0, comp(910, 18));
-    IF_SETSIZE(16, int1, 1, 0, comp(910, 19));
+    IF_SETPOSITION(0, (int8 + 4), 0, 0, comp(910, 12));  // lobbyscreen_pane_worldselect:switch_mode
+    IF_SETSIZE(0, int8, 1, 0, comp(910, 11));  // lobbyscreen_pane_worldselect:title
+    IF_SETSIZE(0, int1, 1, 0, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
+    IF_SETSIZE(16, int1, 1, 0, comp(910, 17));  // lobbyscreen_pane_worldselect:list_fav1
+    IF_SETSIZE(16, int1, 1, 0, comp(910, 18));  // lobbyscreen_pane_worldselect:list_fav2
+    IF_SETSIZE(16, int1, 1, 0, comp(910, 19));  // lobbyscreen_pane_worldselect:list_fav3
     if ((script20335(1) > 0)) {
         int0 = (int1 + int2);
     };
@@ -72,45 +72,45 @@ function script20332(): void {
         int0 = (int0 + (int1 + int2));
     };
     if ((int0 == 0)) {
-        IF_SETHIDE(true, comp(910, 28));
-        IF_SETHIDE(true, comp(910, 29));
-        IF_SETHIDE(true, comp(910, 20));
+        IF_SETHIDE(true, comp(910, 28));  // lobbyscreen_pane_worldselect:fav_div_top
+        IF_SETHIDE(true, comp(910, 29));  // lobbyscreen_pane_worldselect:fav_div_bottom
+        IF_SETHIDE(true, comp(910, 20));  // lobbyscreen_pane_worldselect:ws_fav_divs
     } else {
-        IF_SETPOSITION(0, int6, 0, 0, comp(910, 28));
-        IF_SETSIZE(16, (int0 + 2), 1, 0, comp(910, 20));
-        IF_SETPOSITION(0, (int6 + int2), 0, 0, comp(910, 20));
-        IF_SETPOSITION(0, (int6 + int2), 0, 0, comp(910, 17));
-        IF_SETPOSITION(0, ((int6 + int1) + (int2 * 2)), 0, 0, comp(910, 18));
-        IF_SETPOSITION(0, ((int6 + (int1 * 2)) + (int2 * 3)), 0, 0, comp(910, 19));
-        IF_SETHIDE(false, comp(910, 20));
-        IF_SETHIDE(false, comp(910, 28));
-        IF_SETHIDE(false, comp(910, 29));
+        IF_SETPOSITION(0, int6, 0, 0, comp(910, 28));  // lobbyscreen_pane_worldselect:fav_div_top
+        IF_SETSIZE(16, (int0 + 2), 1, 0, comp(910, 20));  // lobbyscreen_pane_worldselect:ws_fav_divs
+        IF_SETPOSITION(0, (int6 + int2), 0, 0, comp(910, 20));  // lobbyscreen_pane_worldselect:ws_fav_divs
+        IF_SETPOSITION(0, (int6 + int2), 0, 0, comp(910, 17));  // lobbyscreen_pane_worldselect:list_fav1
+        IF_SETPOSITION(0, ((int6 + int1) + (int2 * 2)), 0, 0, comp(910, 18));  // lobbyscreen_pane_worldselect:list_fav2
+        IF_SETPOSITION(0, ((int6 + (int1 * 2)) + (int2 * 3)), 0, 0, comp(910, 19));  // lobbyscreen_pane_worldselect:list_fav3
+        IF_SETHIDE(false, comp(910, 20));  // lobbyscreen_pane_worldselect:ws_fav_divs
+        IF_SETHIDE(false, comp(910, 28));  // lobbyscreen_pane_worldselect:fav_div_top
+        IF_SETHIDE(false, comp(910, 29));  // lobbyscreen_pane_worldselect:fav_div_bottom
         int0 = (int0 + 1);
-        IF_SETPOSITION(0, (int6 + int0), 0, 0, comp(910, 29));
+        IF_SETPOSITION(0, (int6 + int0), 0, 0, comp(910, 29));  // lobbyscreen_pane_worldselect:fav_div_bottom
         int0 = (int0 + 2);
     };
-    IF_SETPOSITION(0, 0, 0, 0, comp(910, 30));
-    IF_SETSIZE(0, (int6 - int7), 1, 0, comp(910, 30));
+    IF_SETPOSITION(0, 0, 0, 0, comp(910, 30));  // lobbyscreen_pane_worldselect:list_titles
+    IF_SETSIZE(0, (int6 - int7), 1, 0, comp(910, 30));  // lobbyscreen_pane_worldselect:list_titles
     int0 = (int0 + (int6 + MAX(4, int2)));
-    IF_SETSIZE(16, int0, 1, 1, comp(910, 62));
-    IF_SETPOSITION(0, int0, 0, 0, comp(910, 62));
-    IF_SETSIZE(16, (int0 - 3), 0, 1, comp(910, 87));
-    IF_SETPOSITION(0, 0, 2, 2, comp(910, 87));
-    var int16 = comp(910, 64);
-    var int17 = comp(910, 66);
-    var int18 = comp(910, 67);
-    var int19 = comp(910, 68);
-    var int20 = comp(910, 69);
-    var int21 = comp(910, 70);
-    var int22 = comp(910, 71);
-    var int23 = comp(910, 72);
-    var int24 = comp(910, 73);
-    var int25 = comp(910, 74);
-    var int26 = comp(910, 75);
-    var int27 = comp(910, 76);
-    var int28 = comp(910, 77);
+    IF_SETSIZE(16, int0, 1, 1, comp(910, 62));  // lobbyscreen_pane_worldselect:list_area
+    IF_SETPOSITION(0, int0, 0, 0, comp(910, 62));  // lobbyscreen_pane_worldselect:list_area
+    IF_SETSIZE(16, (int0 - 3), 0, 1, comp(910, 87));  // lobbyscreen_pane_worldselect:list_scroll
+    IF_SETPOSITION(0, 0, 2, 2, comp(910, 87));  // lobbyscreen_pane_worldselect:list_scroll
+    var int16 = comp(910, 64);  // lobbyscreen_pane_worldselect:ws_bg
+    var int17 = comp(910, 66);  // lobbyscreen_pane_worldselect:fav
+    var int18 = comp(910, 67);  // lobbyscreen_pane_worldselect:world
+    var int19 = comp(910, 68);  // lobbyscreen_pane_worldselect:world_icon
+    var int20 = comp(910, 69);  // lobbyscreen_pane_worldselect:players
+    var int21 = comp(910, 70);  // lobbyscreen_pane_worldselect:activity
+    var int22 = comp(910, 71);  // lobbyscreen_pane_worldselect:location
+    var int23 = comp(910, 72);  // lobbyscreen_pane_worldselect:location_flag
+    var int24 = comp(910, 73);  // lobbyscreen_pane_worldselect:type
+    var int25 = comp(910, 74);  // lobbyscreen_pane_worldselect:lootshare
+    var int26 = comp(910, 75);  // lobbyscreen_pane_worldselect:ping
+    var int27 = comp(910, 76);  // lobbyscreen_pane_worldselect:ws_buttons_r
+    var int28 = comp(910, 77);  // lobbyscreen_pane_worldselect:ws_buttons_l
     var int29 = 59637847;
-    var int30 = comp(910, 86);
+    var int30 = comp(910, 86);  // lobbyscreen_pane_worldselect:ws_list_dynamic_divs
     CC_DELETEALL(int16);
     CC_DELETEALL(int17);
     CC_DELETEALL(int18);
@@ -148,7 +148,7 @@ function script20332(): void {
     var int44 = -1;
     [int31, int32, string0, int33, string1, int34, int35, string2] = unk11102();
     if ((int31 == -1)) {
-        IF_SETTEXT("The world list could not be loaded.<br><br>Please accept our apologies for the<br>inconvenience, and try again later.", comp(910, 10));
+        IF_SETTEXT("The world list could not be loaded.<br><br>Please accept our apologies for the<br>inconvenience, and try again later.", comp(910, 10));  // lobbyscreen_pane_worldselect:please_wait
         return;
     };
     var int45 = 0;
@@ -220,8 +220,8 @@ function script20332(): void {
                                             CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
                                             CC_SETONCLICK(callback(script10036));
                                             if ((int31 == MAP_WORLD())) {
-                                                IF_SETHIDE(false, comp(910, 65));
-                                                IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                                                IF_SETHIDE(false, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
+                                                IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
                                             };
                                             if ((int31 == script20335(1))) {
                                                 int42 = int45;
@@ -280,8 +280,8 @@ function script20332(): void {
                                         CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
                                         CC_SETONCLICK(callback(script10036));
                                         if ((int31 == MAP_WORLD())) {
-                                            IF_SETHIDE(false, comp(910, 65));
-                                            IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                                            IF_SETHIDE(false, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
+                                            IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
                                         };
                                         if ((int31 == script20335(1))) {
                                             int42 = int45;
@@ -340,8 +340,8 @@ function script20332(): void {
                                     CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
                                     CC_SETONCLICK(callback(script10036));
                                     if ((int31 == MAP_WORLD())) {
-                                        IF_SETHIDE(false, comp(910, 65));
-                                        IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                                        IF_SETHIDE(false, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
+                                        IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
                                     };
                                     if ((int31 == script20335(1))) {
                                         int42 = int45;
@@ -404,8 +404,8 @@ function script20332(): void {
                                         CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
                                         CC_SETONCLICK(callback(script10036));
                                         if ((int31 == MAP_WORLD())) {
-                                            IF_SETHIDE(false, comp(910, 65));
-                                            IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                                            IF_SETHIDE(false, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
+                                            IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
                                         };
                                         if ((int31 == script20335(1))) {
                                             int42 = int45;
@@ -464,8 +464,8 @@ function script20332(): void {
                                     CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
                                     CC_SETONCLICK(callback(script10036));
                                     if ((int31 == MAP_WORLD())) {
-                                        IF_SETHIDE(false, comp(910, 65));
-                                        IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                                        IF_SETHIDE(false, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
+                                        IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
                                     };
                                     if ((int31 == script20335(1))) {
                                         int42 = int45;
@@ -524,8 +524,8 @@ function script20332(): void {
                                 CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
                                 CC_SETONCLICK(callback(script10036));
                                 if ((int31 == MAP_WORLD())) {
-                                    IF_SETHIDE(false, comp(910, 65));
-                                    IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                                    IF_SETHIDE(false, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
+                                    IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
                                 };
                                 if ((int31 == script20335(1))) {
                                     int42 = int45;
@@ -588,8 +588,8 @@ function script20332(): void {
                                     CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
                                     CC_SETONCLICK(callback(script10036));
                                     if ((int31 == MAP_WORLD())) {
-                                        IF_SETHIDE(false, comp(910, 65));
-                                        IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                                        IF_SETHIDE(false, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
+                                        IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
                                     };
                                     if ((int31 == script20335(1))) {
                                         int42 = int45;
@@ -648,8 +648,8 @@ function script20332(): void {
                                 CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
                                 CC_SETONCLICK(callback(script10036));
                                 if ((int31 == MAP_WORLD())) {
-                                    IF_SETHIDE(false, comp(910, 65));
-                                    IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                                    IF_SETHIDE(false, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
+                                    IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
                                 };
                                 if ((int31 == script20335(1))) {
                                     int42 = int45;
@@ -708,8 +708,8 @@ function script20332(): void {
                             CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
                             CC_SETONCLICK(callback(script10036));
                             if ((int31 == MAP_WORLD())) {
-                                IF_SETHIDE(false, comp(910, 65));
-                                IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                                IF_SETHIDE(false, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
+                                IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
                             };
                             if ((int31 == script20335(1))) {
                                 int42 = int45;
@@ -778,8 +778,8 @@ function script20332(): void {
                                         CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
                                         CC_SETONCLICK(callback(script10036));
                                         if ((int31 == MAP_WORLD())) {
-                                            IF_SETHIDE(false, comp(910, 65));
-                                            IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                                            IF_SETHIDE(false, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
+                                            IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
                                         };
                                         if ((int31 == script20335(1))) {
                                             int42 = int45;
@@ -838,8 +838,8 @@ function script20332(): void {
                                     CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
                                     CC_SETONCLICK(callback(script10036));
                                     if ((int31 == MAP_WORLD())) {
-                                        IF_SETHIDE(false, comp(910, 65));
-                                        IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                                        IF_SETHIDE(false, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
+                                        IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
                                     };
                                     if ((int31 == script20335(1))) {
                                         int42 = int45;
@@ -898,8 +898,8 @@ function script20332(): void {
                                 CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
                                 CC_SETONCLICK(callback(script10036));
                                 if ((int31 == MAP_WORLD())) {
-                                    IF_SETHIDE(false, comp(910, 65));
-                                    IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                                    IF_SETHIDE(false, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
+                                    IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
                                 };
                                 if ((int31 == script20335(1))) {
                                     int42 = int45;
@@ -962,8 +962,8 @@ function script20332(): void {
                                     CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
                                     CC_SETONCLICK(callback(script10036));
                                     if ((int31 == MAP_WORLD())) {
-                                        IF_SETHIDE(false, comp(910, 65));
-                                        IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                                        IF_SETHIDE(false, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
+                                        IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
                                     };
                                     if ((int31 == script20335(1))) {
                                         int42 = int45;
@@ -1022,8 +1022,8 @@ function script20332(): void {
                                 CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
                                 CC_SETONCLICK(callback(script10036));
                                 if ((int31 == MAP_WORLD())) {
-                                    IF_SETHIDE(false, comp(910, 65));
-                                    IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                                    IF_SETHIDE(false, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
+                                    IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
                                 };
                                 if ((int31 == script20335(1))) {
                                     int42 = int45;
@@ -1082,8 +1082,8 @@ function script20332(): void {
                             CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
                             CC_SETONCLICK(callback(script10036));
                             if ((int31 == MAP_WORLD())) {
-                                IF_SETHIDE(false, comp(910, 65));
-                                IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                                IF_SETHIDE(false, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
+                                IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
                             };
                             if ((int31 == script20335(1))) {
                                 int42 = int45;
@@ -1146,8 +1146,8 @@ function script20332(): void {
                                 CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
                                 CC_SETONCLICK(callback(script10036));
                                 if ((int31 == MAP_WORLD())) {
-                                    IF_SETHIDE(false, comp(910, 65));
-                                    IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                                    IF_SETHIDE(false, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
+                                    IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
                                 };
                                 if ((int31 == script20335(1))) {
                                     int42 = int45;
@@ -1206,8 +1206,8 @@ function script20332(): void {
                             CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
                             CC_SETONCLICK(callback(script10036));
                             if ((int31 == MAP_WORLD())) {
-                                IF_SETHIDE(false, comp(910, 65));
-                                IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                                IF_SETHIDE(false, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
+                                IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
                             };
                             if ((int31 == script20335(1))) {
                                 int42 = int45;
@@ -1266,8 +1266,8 @@ function script20332(): void {
                         CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
                         CC_SETONCLICK(callback(script10036));
                         if ((int31 == MAP_WORLD())) {
-                            IF_SETHIDE(false, comp(910, 65));
-                            IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                            IF_SETHIDE(false, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
+                            IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
                         };
                         if ((int31 == script20335(1))) {
                             int42 = int45;
@@ -1339,8 +1339,8 @@ function script20332(): void {
                                         CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
                                         CC_SETONCLICK(callback(script10036));
                                         if ((int31 == MAP_WORLD())) {
-                                            IF_SETHIDE(false, comp(910, 65));
-                                            IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                                            IF_SETHIDE(false, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
+                                            IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
                                         };
                                         if ((int31 == script20335(1))) {
                                             int42 = int45;
@@ -1399,8 +1399,8 @@ function script20332(): void {
                                     CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
                                     CC_SETONCLICK(callback(script10036));
                                     if ((int31 == MAP_WORLD())) {
-                                        IF_SETHIDE(false, comp(910, 65));
-                                        IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                                        IF_SETHIDE(false, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
+                                        IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
                                     };
                                     if ((int31 == script20335(1))) {
                                         int42 = int45;
@@ -1459,8 +1459,8 @@ function script20332(): void {
                                 CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
                                 CC_SETONCLICK(callback(script10036));
                                 if ((int31 == MAP_WORLD())) {
-                                    IF_SETHIDE(false, comp(910, 65));
-                                    IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                                    IF_SETHIDE(false, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
+                                    IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
                                 };
                                 if ((int31 == script20335(1))) {
                                     int42 = int45;
@@ -1523,8 +1523,8 @@ function script20332(): void {
                                     CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
                                     CC_SETONCLICK(callback(script10036));
                                     if ((int31 == MAP_WORLD())) {
-                                        IF_SETHIDE(false, comp(910, 65));
-                                        IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                                        IF_SETHIDE(false, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
+                                        IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
                                     };
                                     if ((int31 == script20335(1))) {
                                         int42 = int45;
@@ -1583,8 +1583,8 @@ function script20332(): void {
                                 CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
                                 CC_SETONCLICK(callback(script10036));
                                 if ((int31 == MAP_WORLD())) {
-                                    IF_SETHIDE(false, comp(910, 65));
-                                    IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                                    IF_SETHIDE(false, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
+                                    IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
                                 };
                                 if ((int31 == script20335(1))) {
                                     int42 = int45;
@@ -1643,8 +1643,8 @@ function script20332(): void {
                             CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
                             CC_SETONCLICK(callback(script10036));
                             if ((int31 == MAP_WORLD())) {
-                                IF_SETHIDE(false, comp(910, 65));
-                                IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                                IF_SETHIDE(false, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
+                                IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
                             };
                             if ((int31 == script20335(1))) {
                                 int42 = int45;
@@ -1707,8 +1707,8 @@ function script20332(): void {
                                 CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
                                 CC_SETONCLICK(callback(script10036));
                                 if ((int31 == MAP_WORLD())) {
-                                    IF_SETHIDE(false, comp(910, 65));
-                                    IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                                    IF_SETHIDE(false, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
+                                    IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
                                 };
                                 if ((int31 == script20335(1))) {
                                     int42 = int45;
@@ -1767,8 +1767,8 @@ function script20332(): void {
                             CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
                             CC_SETONCLICK(callback(script10036));
                             if ((int31 == MAP_WORLD())) {
-                                IF_SETHIDE(false, comp(910, 65));
-                                IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                                IF_SETHIDE(false, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
+                                IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
                             };
                             if ((int31 == script20335(1))) {
                                 int42 = int45;
@@ -1827,8 +1827,8 @@ function script20332(): void {
                         CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
                         CC_SETONCLICK(callback(script10036));
                         if ((int31 == MAP_WORLD())) {
-                            IF_SETHIDE(false, comp(910, 65));
-                            IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                            IF_SETHIDE(false, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
+                            IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
                         };
                         if ((int31 == script20335(1))) {
                             int42 = int45;
@@ -1897,8 +1897,8 @@ function script20332(): void {
                                     CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
                                     CC_SETONCLICK(callback(script10036));
                                     if ((int31 == MAP_WORLD())) {
-                                        IF_SETHIDE(false, comp(910, 65));
-                                        IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                                        IF_SETHIDE(false, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
+                                        IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
                                     };
                                     if ((int31 == script20335(1))) {
                                         int42 = int45;
@@ -1957,8 +1957,8 @@ function script20332(): void {
                                 CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
                                 CC_SETONCLICK(callback(script10036));
                                 if ((int31 == MAP_WORLD())) {
-                                    IF_SETHIDE(false, comp(910, 65));
-                                    IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                                    IF_SETHIDE(false, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
+                                    IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
                                 };
                                 if ((int31 == script20335(1))) {
                                     int42 = int45;
@@ -2017,8 +2017,8 @@ function script20332(): void {
                             CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
                             CC_SETONCLICK(callback(script10036));
                             if ((int31 == MAP_WORLD())) {
-                                IF_SETHIDE(false, comp(910, 65));
-                                IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                                IF_SETHIDE(false, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
+                                IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
                             };
                             if ((int31 == script20335(1))) {
                                 int42 = int45;
@@ -2081,8 +2081,8 @@ function script20332(): void {
                                 CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
                                 CC_SETONCLICK(callback(script10036));
                                 if ((int31 == MAP_WORLD())) {
-                                    IF_SETHIDE(false, comp(910, 65));
-                                    IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                                    IF_SETHIDE(false, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
+                                    IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
                                 };
                                 if ((int31 == script20335(1))) {
                                     int42 = int45;
@@ -2141,8 +2141,8 @@ function script20332(): void {
                             CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
                             CC_SETONCLICK(callback(script10036));
                             if ((int31 == MAP_WORLD())) {
-                                IF_SETHIDE(false, comp(910, 65));
-                                IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                                IF_SETHIDE(false, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
+                                IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
                             };
                             if ((int31 == script20335(1))) {
                                 int42 = int45;
@@ -2201,8 +2201,8 @@ function script20332(): void {
                         CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
                         CC_SETONCLICK(callback(script10036));
                         if ((int31 == MAP_WORLD())) {
-                            IF_SETHIDE(false, comp(910, 65));
-                            IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                            IF_SETHIDE(false, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
+                            IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
                         };
                         if ((int31 == script20335(1))) {
                             int42 = int45;
@@ -2265,8 +2265,8 @@ function script20332(): void {
                             CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
                             CC_SETONCLICK(callback(script10036));
                             if ((int31 == MAP_WORLD())) {
-                                IF_SETHIDE(false, comp(910, 65));
-                                IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                                IF_SETHIDE(false, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
+                                IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
                             };
                             if ((int31 == script20335(1))) {
                                 int42 = int45;
@@ -2325,8 +2325,8 @@ function script20332(): void {
                         CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
                         CC_SETONCLICK(callback(script10036));
                         if ((int31 == MAP_WORLD())) {
-                            IF_SETHIDE(false, comp(910, 65));
-                            IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                            IF_SETHIDE(false, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
+                            IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
                         };
                         if ((int31 == script20335(1))) {
                             int42 = int45;
@@ -2385,8 +2385,8 @@ function script20332(): void {
                     CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
                     CC_SETONCLICK(callback(script10036));
                     if ((int31 == MAP_WORLD())) {
-                        IF_SETHIDE(false, comp(910, 65));
-                        IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                        IF_SETHIDE(false, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
+                        IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
                     };
                     if ((int31 == script20335(1))) {
                         int42 = int45;
@@ -2461,8 +2461,8 @@ function script20332(): void {
                                         CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
                                         CC_SETONCLICK(callback(script10036));
                                         if ((int31 == MAP_WORLD())) {
-                                            IF_SETHIDE(false, comp(910, 65));
-                                            IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                                            IF_SETHIDE(false, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
+                                            IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
                                         };
                                         if ((int31 == script20335(1))) {
                                             int42 = int45;
@@ -2521,8 +2521,8 @@ function script20332(): void {
                                     CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
                                     CC_SETONCLICK(callback(script10036));
                                     if ((int31 == MAP_WORLD())) {
-                                        IF_SETHIDE(false, comp(910, 65));
-                                        IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                                        IF_SETHIDE(false, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
+                                        IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
                                     };
                                     if ((int31 == script20335(1))) {
                                         int42 = int45;
@@ -2581,8 +2581,8 @@ function script20332(): void {
                                 CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
                                 CC_SETONCLICK(callback(script10036));
                                 if ((int31 == MAP_WORLD())) {
-                                    IF_SETHIDE(false, comp(910, 65));
-                                    IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                                    IF_SETHIDE(false, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
+                                    IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
                                 };
                                 if ((int31 == script20335(1))) {
                                     int42 = int45;
@@ -2645,8 +2645,8 @@ function script20332(): void {
                                     CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
                                     CC_SETONCLICK(callback(script10036));
                                     if ((int31 == MAP_WORLD())) {
-                                        IF_SETHIDE(false, comp(910, 65));
-                                        IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                                        IF_SETHIDE(false, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
+                                        IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
                                     };
                                     if ((int31 == script20335(1))) {
                                         int42 = int45;
@@ -2705,8 +2705,8 @@ function script20332(): void {
                                 CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
                                 CC_SETONCLICK(callback(script10036));
                                 if ((int31 == MAP_WORLD())) {
-                                    IF_SETHIDE(false, comp(910, 65));
-                                    IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                                    IF_SETHIDE(false, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
+                                    IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
                                 };
                                 if ((int31 == script20335(1))) {
                                     int42 = int45;
@@ -2765,8 +2765,8 @@ function script20332(): void {
                             CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
                             CC_SETONCLICK(callback(script10036));
                             if ((int31 == MAP_WORLD())) {
-                                IF_SETHIDE(false, comp(910, 65));
-                                IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                                IF_SETHIDE(false, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
+                                IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
                             };
                             if ((int31 == script20335(1))) {
                                 int42 = int45;
@@ -2829,8 +2829,8 @@ function script20332(): void {
                                 CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
                                 CC_SETONCLICK(callback(script10036));
                                 if ((int31 == MAP_WORLD())) {
-                                    IF_SETHIDE(false, comp(910, 65));
-                                    IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                                    IF_SETHIDE(false, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
+                                    IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
                                 };
                                 if ((int31 == script20335(1))) {
                                     int42 = int45;
@@ -2889,8 +2889,8 @@ function script20332(): void {
                             CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
                             CC_SETONCLICK(callback(script10036));
                             if ((int31 == MAP_WORLD())) {
-                                IF_SETHIDE(false, comp(910, 65));
-                                IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                                IF_SETHIDE(false, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
+                                IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
                             };
                             if ((int31 == script20335(1))) {
                                 int42 = int45;
@@ -2949,8 +2949,8 @@ function script20332(): void {
                         CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
                         CC_SETONCLICK(callback(script10036));
                         if ((int31 == MAP_WORLD())) {
-                            IF_SETHIDE(false, comp(910, 65));
-                            IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                            IF_SETHIDE(false, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
+                            IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
                         };
                         if ((int31 == script20335(1))) {
                             int42 = int45;
@@ -3019,8 +3019,8 @@ function script20332(): void {
                                     CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
                                     CC_SETONCLICK(callback(script10036));
                                     if ((int31 == MAP_WORLD())) {
-                                        IF_SETHIDE(false, comp(910, 65));
-                                        IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                                        IF_SETHIDE(false, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
+                                        IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
                                     };
                                     if ((int31 == script20335(1))) {
                                         int42 = int45;
@@ -3079,8 +3079,8 @@ function script20332(): void {
                                 CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
                                 CC_SETONCLICK(callback(script10036));
                                 if ((int31 == MAP_WORLD())) {
-                                    IF_SETHIDE(false, comp(910, 65));
-                                    IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                                    IF_SETHIDE(false, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
+                                    IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
                                 };
                                 if ((int31 == script20335(1))) {
                                     int42 = int45;
@@ -3139,8 +3139,8 @@ function script20332(): void {
                             CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
                             CC_SETONCLICK(callback(script10036));
                             if ((int31 == MAP_WORLD())) {
-                                IF_SETHIDE(false, comp(910, 65));
-                                IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                                IF_SETHIDE(false, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
+                                IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
                             };
                             if ((int31 == script20335(1))) {
                                 int42 = int45;
@@ -3203,8 +3203,8 @@ function script20332(): void {
                                 CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
                                 CC_SETONCLICK(callback(script10036));
                                 if ((int31 == MAP_WORLD())) {
-                                    IF_SETHIDE(false, comp(910, 65));
-                                    IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                                    IF_SETHIDE(false, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
+                                    IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
                                 };
                                 if ((int31 == script20335(1))) {
                                     int42 = int45;
@@ -3263,8 +3263,8 @@ function script20332(): void {
                             CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
                             CC_SETONCLICK(callback(script10036));
                             if ((int31 == MAP_WORLD())) {
-                                IF_SETHIDE(false, comp(910, 65));
-                                IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                                IF_SETHIDE(false, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
+                                IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
                             };
                             if ((int31 == script20335(1))) {
                                 int42 = int45;
@@ -3323,8 +3323,8 @@ function script20332(): void {
                         CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
                         CC_SETONCLICK(callback(script10036));
                         if ((int31 == MAP_WORLD())) {
-                            IF_SETHIDE(false, comp(910, 65));
-                            IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                            IF_SETHIDE(false, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
+                            IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
                         };
                         if ((int31 == script20335(1))) {
                             int42 = int45;
@@ -3387,8 +3387,8 @@ function script20332(): void {
                             CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
                             CC_SETONCLICK(callback(script10036));
                             if ((int31 == MAP_WORLD())) {
-                                IF_SETHIDE(false, comp(910, 65));
-                                IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                                IF_SETHIDE(false, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
+                                IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
                             };
                             if ((int31 == script20335(1))) {
                                 int42 = int45;
@@ -3447,8 +3447,8 @@ function script20332(): void {
                         CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
                         CC_SETONCLICK(callback(script10036));
                         if ((int31 == MAP_WORLD())) {
-                            IF_SETHIDE(false, comp(910, 65));
-                            IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                            IF_SETHIDE(false, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
+                            IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
                         };
                         if ((int31 == script20335(1))) {
                             int42 = int45;
@@ -3507,8 +3507,8 @@ function script20332(): void {
                     CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
                     CC_SETONCLICK(callback(script10036));
                     if ((int31 == MAP_WORLD())) {
-                        IF_SETHIDE(false, comp(910, 65));
-                        IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                        IF_SETHIDE(false, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
+                        IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
                     };
                     if ((int31 == script20335(1))) {
                         int42 = int45;
@@ -3580,8 +3580,8 @@ function script20332(): void {
                                     CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
                                     CC_SETONCLICK(callback(script10036));
                                     if ((int31 == MAP_WORLD())) {
-                                        IF_SETHIDE(false, comp(910, 65));
-                                        IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                                        IF_SETHIDE(false, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
+                                        IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
                                     };
                                     if ((int31 == script20335(1))) {
                                         int42 = int45;
@@ -3640,8 +3640,8 @@ function script20332(): void {
                                 CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
                                 CC_SETONCLICK(callback(script10036));
                                 if ((int31 == MAP_WORLD())) {
-                                    IF_SETHIDE(false, comp(910, 65));
-                                    IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                                    IF_SETHIDE(false, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
+                                    IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
                                 };
                                 if ((int31 == script20335(1))) {
                                     int42 = int45;
@@ -3700,8 +3700,8 @@ function script20332(): void {
                             CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
                             CC_SETONCLICK(callback(script10036));
                             if ((int31 == MAP_WORLD())) {
-                                IF_SETHIDE(false, comp(910, 65));
-                                IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                                IF_SETHIDE(false, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
+                                IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
                             };
                             if ((int31 == script20335(1))) {
                                 int42 = int45;
@@ -3764,8 +3764,8 @@ function script20332(): void {
                                 CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
                                 CC_SETONCLICK(callback(script10036));
                                 if ((int31 == MAP_WORLD())) {
-                                    IF_SETHIDE(false, comp(910, 65));
-                                    IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                                    IF_SETHIDE(false, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
+                                    IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
                                 };
                                 if ((int31 == script20335(1))) {
                                     int42 = int45;
@@ -3824,8 +3824,8 @@ function script20332(): void {
                             CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
                             CC_SETONCLICK(callback(script10036));
                             if ((int31 == MAP_WORLD())) {
-                                IF_SETHIDE(false, comp(910, 65));
-                                IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                                IF_SETHIDE(false, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
+                                IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
                             };
                             if ((int31 == script20335(1))) {
                                 int42 = int45;
@@ -3884,8 +3884,8 @@ function script20332(): void {
                         CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
                         CC_SETONCLICK(callback(script10036));
                         if ((int31 == MAP_WORLD())) {
-                            IF_SETHIDE(false, comp(910, 65));
-                            IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                            IF_SETHIDE(false, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
+                            IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
                         };
                         if ((int31 == script20335(1))) {
                             int42 = int45;
@@ -3948,8 +3948,8 @@ function script20332(): void {
                             CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
                             CC_SETONCLICK(callback(script10036));
                             if ((int31 == MAP_WORLD())) {
-                                IF_SETHIDE(false, comp(910, 65));
-                                IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                                IF_SETHIDE(false, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
+                                IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
                             };
                             if ((int31 == script20335(1))) {
                                 int42 = int45;
@@ -4008,8 +4008,8 @@ function script20332(): void {
                         CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
                         CC_SETONCLICK(callback(script10036));
                         if ((int31 == MAP_WORLD())) {
-                            IF_SETHIDE(false, comp(910, 65));
-                            IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                            IF_SETHIDE(false, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
+                            IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
                         };
                         if ((int31 == script20335(1))) {
                             int42 = int45;
@@ -4068,8 +4068,8 @@ function script20332(): void {
                     CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
                     CC_SETONCLICK(callback(script10036));
                     if ((int31 == MAP_WORLD())) {
-                        IF_SETHIDE(false, comp(910, 65));
-                        IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                        IF_SETHIDE(false, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
+                        IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
                     };
                     if ((int31 == script20335(1))) {
                         int42 = int45;
@@ -4138,8 +4138,8 @@ function script20332(): void {
                                 CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
                                 CC_SETONCLICK(callback(script10036));
                                 if ((int31 == MAP_WORLD())) {
-                                    IF_SETHIDE(false, comp(910, 65));
-                                    IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                                    IF_SETHIDE(false, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
+                                    IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
                                 };
                                 if ((int31 == script20335(1))) {
                                     int42 = int45;
@@ -4198,8 +4198,8 @@ function script20332(): void {
                             CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
                             CC_SETONCLICK(callback(script10036));
                             if ((int31 == MAP_WORLD())) {
-                                IF_SETHIDE(false, comp(910, 65));
-                                IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                                IF_SETHIDE(false, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
+                                IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
                             };
                             if ((int31 == script20335(1))) {
                                 int42 = int45;
@@ -4258,8 +4258,8 @@ function script20332(): void {
                         CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
                         CC_SETONCLICK(callback(script10036));
                         if ((int31 == MAP_WORLD())) {
-                            IF_SETHIDE(false, comp(910, 65));
-                            IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                            IF_SETHIDE(false, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
+                            IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
                         };
                         if ((int31 == script20335(1))) {
                             int42 = int45;
@@ -4322,8 +4322,8 @@ function script20332(): void {
                             CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
                             CC_SETONCLICK(callback(script10036));
                             if ((int31 == MAP_WORLD())) {
-                                IF_SETHIDE(false, comp(910, 65));
-                                IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                                IF_SETHIDE(false, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
+                                IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
                             };
                             if ((int31 == script20335(1))) {
                                 int42 = int45;
@@ -4382,8 +4382,8 @@ function script20332(): void {
                         CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
                         CC_SETONCLICK(callback(script10036));
                         if ((int31 == MAP_WORLD())) {
-                            IF_SETHIDE(false, comp(910, 65));
-                            IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                            IF_SETHIDE(false, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
+                            IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
                         };
                         if ((int31 == script20335(1))) {
                             int42 = int45;
@@ -4442,8 +4442,8 @@ function script20332(): void {
                     CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
                     CC_SETONCLICK(callback(script10036));
                     if ((int31 == MAP_WORLD())) {
-                        IF_SETHIDE(false, comp(910, 65));
-                        IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                        IF_SETHIDE(false, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
+                        IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
                     };
                     if ((int31 == script20335(1))) {
                         int42 = int45;
@@ -4506,8 +4506,8 @@ function script20332(): void {
                         CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
                         CC_SETONCLICK(callback(script10036));
                         if ((int31 == MAP_WORLD())) {
-                            IF_SETHIDE(false, comp(910, 65));
-                            IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                            IF_SETHIDE(false, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
+                            IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
                         };
                         if ((int31 == script20335(1))) {
                             int42 = int45;
@@ -4566,8 +4566,8 @@ function script20332(): void {
                     CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
                     CC_SETONCLICK(callback(script10036));
                     if ((int31 == MAP_WORLD())) {
-                        IF_SETHIDE(false, comp(910, 65));
-                        IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                        IF_SETHIDE(false, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
+                        IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
                     };
                     if ((int31 == script20335(1))) {
                         int42 = int45;
@@ -4626,8 +4626,8 @@ function script20332(): void {
                 CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
                 CC_SETONCLICK(callback(script10036));
                 if ((int31 == MAP_WORLD())) {
-                    IF_SETHIDE(false, comp(910, 65));
-                    IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                    IF_SETHIDE(false, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
+                    IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
                 };
                 if ((int31 == script20335(1))) {
                     int42 = int45;
@@ -4702,8 +4702,8 @@ function script20332(): void {
                                     CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
                                     CC_SETONCLICK(callback(script10036));
                                     if ((int31 == MAP_WORLD())) {
-                                        IF_SETHIDE(false, comp(910, 65));
-                                        IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                                        IF_SETHIDE(false, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
+                                        IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
                                     };
                                     if ((int31 == script20335(1))) {
                                         int42 = int45;
@@ -4762,8 +4762,8 @@ function script20332(): void {
                                 CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
                                 CC_SETONCLICK(callback(script10036));
                                 if ((int31 == MAP_WORLD())) {
-                                    IF_SETHIDE(false, comp(910, 65));
-                                    IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                                    IF_SETHIDE(false, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
+                                    IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
                                 };
                                 if ((int31 == script20335(1))) {
                                     int42 = int45;
@@ -4822,8 +4822,8 @@ function script20332(): void {
                             CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
                             CC_SETONCLICK(callback(script10036));
                             if ((int31 == MAP_WORLD())) {
-                                IF_SETHIDE(false, comp(910, 65));
-                                IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                                IF_SETHIDE(false, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
+                                IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
                             };
                             if ((int31 == script20335(1))) {
                                 int42 = int45;
@@ -4886,8 +4886,8 @@ function script20332(): void {
                                 CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
                                 CC_SETONCLICK(callback(script10036));
                                 if ((int31 == MAP_WORLD())) {
-                                    IF_SETHIDE(false, comp(910, 65));
-                                    IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                                    IF_SETHIDE(false, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
+                                    IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
                                 };
                                 if ((int31 == script20335(1))) {
                                     int42 = int45;
@@ -4946,8 +4946,8 @@ function script20332(): void {
                             CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
                             CC_SETONCLICK(callback(script10036));
                             if ((int31 == MAP_WORLD())) {
-                                IF_SETHIDE(false, comp(910, 65));
-                                IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                                IF_SETHIDE(false, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
+                                IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
                             };
                             if ((int31 == script20335(1))) {
                                 int42 = int45;
@@ -5006,8 +5006,8 @@ function script20332(): void {
                         CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
                         CC_SETONCLICK(callback(script10036));
                         if ((int31 == MAP_WORLD())) {
-                            IF_SETHIDE(false, comp(910, 65));
-                            IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                            IF_SETHIDE(false, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
+                            IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
                         };
                         if ((int31 == script20335(1))) {
                             int42 = int45;
@@ -5070,8 +5070,8 @@ function script20332(): void {
                             CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
                             CC_SETONCLICK(callback(script10036));
                             if ((int31 == MAP_WORLD())) {
-                                IF_SETHIDE(false, comp(910, 65));
-                                IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                                IF_SETHIDE(false, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
+                                IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
                             };
                             if ((int31 == script20335(1))) {
                                 int42 = int45;
@@ -5130,8 +5130,8 @@ function script20332(): void {
                         CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
                         CC_SETONCLICK(callback(script10036));
                         if ((int31 == MAP_WORLD())) {
-                            IF_SETHIDE(false, comp(910, 65));
-                            IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                            IF_SETHIDE(false, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
+                            IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
                         };
                         if ((int31 == script20335(1))) {
                             int42 = int45;
@@ -5190,8 +5190,8 @@ function script20332(): void {
                     CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
                     CC_SETONCLICK(callback(script10036));
                     if ((int31 == MAP_WORLD())) {
-                        IF_SETHIDE(false, comp(910, 65));
-                        IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                        IF_SETHIDE(false, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
+                        IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
                     };
                     if ((int31 == script20335(1))) {
                         int42 = int45;
@@ -5260,8 +5260,8 @@ function script20332(): void {
                                 CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
                                 CC_SETONCLICK(callback(script10036));
                                 if ((int31 == MAP_WORLD())) {
-                                    IF_SETHIDE(false, comp(910, 65));
-                                    IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                                    IF_SETHIDE(false, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
+                                    IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
                                 };
                                 if ((int31 == script20335(1))) {
                                     int42 = int45;
@@ -5320,8 +5320,8 @@ function script20332(): void {
                             CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
                             CC_SETONCLICK(callback(script10036));
                             if ((int31 == MAP_WORLD())) {
-                                IF_SETHIDE(false, comp(910, 65));
-                                IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                                IF_SETHIDE(false, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
+                                IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
                             };
                             if ((int31 == script20335(1))) {
                                 int42 = int45;
@@ -5380,8 +5380,8 @@ function script20332(): void {
                         CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
                         CC_SETONCLICK(callback(script10036));
                         if ((int31 == MAP_WORLD())) {
-                            IF_SETHIDE(false, comp(910, 65));
-                            IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                            IF_SETHIDE(false, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
+                            IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
                         };
                         if ((int31 == script20335(1))) {
                             int42 = int45;
@@ -5444,8 +5444,8 @@ function script20332(): void {
                             CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
                             CC_SETONCLICK(callback(script10036));
                             if ((int31 == MAP_WORLD())) {
-                                IF_SETHIDE(false, comp(910, 65));
-                                IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                                IF_SETHIDE(false, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
+                                IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
                             };
                             if ((int31 == script20335(1))) {
                                 int42 = int45;
@@ -5504,8 +5504,8 @@ function script20332(): void {
                         CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
                         CC_SETONCLICK(callback(script10036));
                         if ((int31 == MAP_WORLD())) {
-                            IF_SETHIDE(false, comp(910, 65));
-                            IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                            IF_SETHIDE(false, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
+                            IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
                         };
                         if ((int31 == script20335(1))) {
                             int42 = int45;
@@ -5564,8 +5564,8 @@ function script20332(): void {
                     CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
                     CC_SETONCLICK(callback(script10036));
                     if ((int31 == MAP_WORLD())) {
-                        IF_SETHIDE(false, comp(910, 65));
-                        IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                        IF_SETHIDE(false, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
+                        IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
                     };
                     if ((int31 == script20335(1))) {
                         int42 = int45;
@@ -5628,8 +5628,8 @@ function script20332(): void {
                         CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
                         CC_SETONCLICK(callback(script10036));
                         if ((int31 == MAP_WORLD())) {
-                            IF_SETHIDE(false, comp(910, 65));
-                            IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                            IF_SETHIDE(false, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
+                            IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
                         };
                         if ((int31 == script20335(1))) {
                             int42 = int45;
@@ -5688,8 +5688,8 @@ function script20332(): void {
                     CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
                     CC_SETONCLICK(callback(script10036));
                     if ((int31 == MAP_WORLD())) {
-                        IF_SETHIDE(false, comp(910, 65));
-                        IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                        IF_SETHIDE(false, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
+                        IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
                     };
                     if ((int31 == script20335(1))) {
                         int42 = int45;
@@ -5748,8 +5748,8 @@ function script20332(): void {
                 CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
                 CC_SETONCLICK(callback(script10036));
                 if ((int31 == MAP_WORLD())) {
-                    IF_SETHIDE(false, comp(910, 65));
-                    IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                    IF_SETHIDE(false, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
+                    IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
                 };
                 if ((int31 == script20335(1))) {
                     int42 = int45;
@@ -5821,8 +5821,8 @@ function script20332(): void {
                                 CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
                                 CC_SETONCLICK(callback(script10036));
                                 if ((int31 == MAP_WORLD())) {
-                                    IF_SETHIDE(false, comp(910, 65));
-                                    IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                                    IF_SETHIDE(false, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
+                                    IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
                                 };
                                 if ((int31 == script20335(1))) {
                                     int42 = int45;
@@ -5881,8 +5881,8 @@ function script20332(): void {
                             CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
                             CC_SETONCLICK(callback(script10036));
                             if ((int31 == MAP_WORLD())) {
-                                IF_SETHIDE(false, comp(910, 65));
-                                IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                                IF_SETHIDE(false, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
+                                IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
                             };
                             if ((int31 == script20335(1))) {
                                 int42 = int45;
@@ -5941,8 +5941,8 @@ function script20332(): void {
                         CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
                         CC_SETONCLICK(callback(script10036));
                         if ((int31 == MAP_WORLD())) {
-                            IF_SETHIDE(false, comp(910, 65));
-                            IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                            IF_SETHIDE(false, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
+                            IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
                         };
                         if ((int31 == script20335(1))) {
                             int42 = int45;
@@ -6005,8 +6005,8 @@ function script20332(): void {
                             CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
                             CC_SETONCLICK(callback(script10036));
                             if ((int31 == MAP_WORLD())) {
-                                IF_SETHIDE(false, comp(910, 65));
-                                IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                                IF_SETHIDE(false, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
+                                IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
                             };
                             if ((int31 == script20335(1))) {
                                 int42 = int45;
@@ -6065,8 +6065,8 @@ function script20332(): void {
                         CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
                         CC_SETONCLICK(callback(script10036));
                         if ((int31 == MAP_WORLD())) {
-                            IF_SETHIDE(false, comp(910, 65));
-                            IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                            IF_SETHIDE(false, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
+                            IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
                         };
                         if ((int31 == script20335(1))) {
                             int42 = int45;
@@ -6125,8 +6125,8 @@ function script20332(): void {
                     CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
                     CC_SETONCLICK(callback(script10036));
                     if ((int31 == MAP_WORLD())) {
-                        IF_SETHIDE(false, comp(910, 65));
-                        IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                        IF_SETHIDE(false, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
+                        IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
                     };
                     if ((int31 == script20335(1))) {
                         int42 = int45;
@@ -6189,8 +6189,8 @@ function script20332(): void {
                         CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
                         CC_SETONCLICK(callback(script10036));
                         if ((int31 == MAP_WORLD())) {
-                            IF_SETHIDE(false, comp(910, 65));
-                            IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                            IF_SETHIDE(false, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
+                            IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
                         };
                         if ((int31 == script20335(1))) {
                             int42 = int45;
@@ -6249,8 +6249,8 @@ function script20332(): void {
                     CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
                     CC_SETONCLICK(callback(script10036));
                     if ((int31 == MAP_WORLD())) {
-                        IF_SETHIDE(false, comp(910, 65));
-                        IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                        IF_SETHIDE(false, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
+                        IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
                     };
                     if ((int31 == script20335(1))) {
                         int42 = int45;
@@ -6309,8 +6309,8 @@ function script20332(): void {
                 CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
                 CC_SETONCLICK(callback(script10036));
                 if ((int31 == MAP_WORLD())) {
-                    IF_SETHIDE(false, comp(910, 65));
-                    IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                    IF_SETHIDE(false, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
+                    IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
                 };
                 if ((int31 == script20335(1))) {
                     int42 = int45;
@@ -6379,8 +6379,8 @@ function script20332(): void {
                             CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
                             CC_SETONCLICK(callback(script10036));
                             if ((int31 == MAP_WORLD())) {
-                                IF_SETHIDE(false, comp(910, 65));
-                                IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                                IF_SETHIDE(false, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
+                                IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
                             };
                             if ((int31 == script20335(1))) {
                                 int42 = int45;
@@ -6439,8 +6439,8 @@ function script20332(): void {
                         CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
                         CC_SETONCLICK(callback(script10036));
                         if ((int31 == MAP_WORLD())) {
-                            IF_SETHIDE(false, comp(910, 65));
-                            IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                            IF_SETHIDE(false, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
+                            IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
                         };
                         if ((int31 == script20335(1))) {
                             int42 = int45;
@@ -6499,8 +6499,8 @@ function script20332(): void {
                     CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
                     CC_SETONCLICK(callback(script10036));
                     if ((int31 == MAP_WORLD())) {
-                        IF_SETHIDE(false, comp(910, 65));
-                        IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                        IF_SETHIDE(false, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
+                        IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
                     };
                     if ((int31 == script20335(1))) {
                         int42 = int45;
@@ -6563,8 +6563,8 @@ function script20332(): void {
                         CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
                         CC_SETONCLICK(callback(script10036));
                         if ((int31 == MAP_WORLD())) {
-                            IF_SETHIDE(false, comp(910, 65));
-                            IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                            IF_SETHIDE(false, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
+                            IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
                         };
                         if ((int31 == script20335(1))) {
                             int42 = int45;
@@ -6623,8 +6623,8 @@ function script20332(): void {
                     CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
                     CC_SETONCLICK(callback(script10036));
                     if ((int31 == MAP_WORLD())) {
-                        IF_SETHIDE(false, comp(910, 65));
-                        IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                        IF_SETHIDE(false, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
+                        IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
                     };
                     if ((int31 == script20335(1))) {
                         int42 = int45;
@@ -6683,8 +6683,8 @@ function script20332(): void {
                 CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
                 CC_SETONCLICK(callback(script10036));
                 if ((int31 == MAP_WORLD())) {
-                    IF_SETHIDE(false, comp(910, 65));
-                    IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                    IF_SETHIDE(false, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
+                    IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
                 };
                 if ((int31 == script20335(1))) {
                     int42 = int45;
@@ -6747,8 +6747,8 @@ function script20332(): void {
                     CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
                     CC_SETONCLICK(callback(script10036));
                     if ((int31 == MAP_WORLD())) {
-                        IF_SETHIDE(false, comp(910, 65));
-                        IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                        IF_SETHIDE(false, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
+                        IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
                     };
                     if ((int31 == script20335(1))) {
                         int42 = int45;
@@ -6807,8 +6807,8 @@ function script20332(): void {
                 CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
                 CC_SETONCLICK(callback(script10036));
                 if ((int31 == MAP_WORLD())) {
-                    IF_SETHIDE(false, comp(910, 65));
-                    IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                    IF_SETHIDE(false, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
+                    IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
                 };
                 if ((int31 == script20335(1))) {
                     int42 = int45;
@@ -6867,8 +6867,8 @@ function script20332(): void {
             CC_SETONOP(callback(script3128, -2147483645, -2147483643, -2147483644, int45, int31));
             CC_SETONCLICK(callback(script10036));
             if ((int31 == MAP_WORLD())) {
-                IF_SETHIDE(false, comp(910, 65));
-                IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));
+                IF_SETHIDE(false, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
+                IF_SETPOSITION(0, int46, 0, 0, comp(910, 65));  // lobbyscreen_pane_worldselect:ws_selected_bg
             };
             if ((int31 == script20335(1))) {
                 int42 = int45;
@@ -6884,7 +6884,7 @@ function script20332(): void {
             int45 = (int45 + 1);
         };
     };
-    IF_SETSCROLLSIZE(0, (int46 + IF_GETY(comp(910, 63))), comp(910, 62));
+    IF_SETSCROLLSIZE(0, (int46 + IF_GETY(comp(910, 63) /*lobbyscreen_pane_worldselect:list_main*/)), comp(910, 62) /*lobbyscreen_pane_worldselect:list_area*/);
     script31(int29, 59637822, 792, 789, 790, 791, 773, 788);
     if ((script20335(1) > 0)) {
         script3118(script20335(1), 59637777, int42);
@@ -6901,7 +6901,7 @@ function script20332(): void {
     } else {
         script3119(59637779, 0);
     };
-    IF_SETHIDE(true, comp(910, 10));
-    IF_SETHIDE(false, comp(910, 16));
+    IF_SETHIDE(true, comp(910, 10));  // lobbyscreen_pane_worldselect:please_wait
+    IF_SETHIDE(false, comp(910, 16));  // lobbyscreen_pane_worldselect:list_content
     return;
 }

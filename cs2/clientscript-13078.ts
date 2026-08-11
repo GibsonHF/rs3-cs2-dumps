@@ -12,7 +12,7 @@ function script13078(int0: number): void {
         return;
     };
     var int1 = -1 as obj;
-    if ((CC_FIND(comp(1829, 7), int0) == 1)) {
+    if ((CC_FIND(comp(1829, 7), int0) == 1)) {  // peng_bttf_mastermind:board
         int1 = script13081(varclient_5923);
         if ((int1 == -1 as obj)) {
             return;

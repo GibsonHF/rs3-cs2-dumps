@@ -1,6 +1,6 @@
 //
 function script5692(int0: number, int1: number, int2: number, int3: number): void {
-    CC_CREATE[1](comp(1218, 247), 5, IF_GETNEXTSUBID(comp(1218, 247)));
+    CC_CREATE[1](comp(1218, 247), 5, IF_GETNEXTSUBID(comp(1218, 247)));  // skillguide:image_layer
     CC_SETSIZE[1](36, 32, 0, 0);
     CC_SETPOSITION[1](3, (int1 + 2), 0, 0);
     var int4 = 0;
@@ -49,7 +49,7 @@ function script5692(int0: number, int1: number, int2: number, int3: number): voi
         CC_SETOBJECT[1](int5, -1);
         script14739(int5);
     };
-    CC_CREATE[1](comp(1218, 247), 4, IF_GETNEXTSUBID(comp(1218, 247)));
+    CC_CREATE[1](comp(1218, 247), 4, IF_GETNEXTSUBID(comp(1218, 247)));  // skillguide:image_layer
     CC_SETPOSITION[1](35, int1, 0, 0);
     CC_SETTEXTFONT[1](28 as fontmetrics);
     CC_SETTEXTSHADOW[1](true);
@@ -62,13 +62,13 @@ function script5692(int0: number, int1: number, int2: number, int3: number): voi
     CC_SETTEXTALIGN[1](1, 1, 13);
     CC_SETSIZE[1](32, 36, 0, 0);
     if ((int8 == 1)) {
-        CC_CREATE[1](comp(1218, 247), 4, IF_GETNEXTSUBID(comp(1218, 247)));
+        CC_CREATE[1](comp(1218, 247), 4, IF_GETNEXTSUBID(comp(1218, 247)));  // skillguide:image_layer
         CC_SETPOSITION[1](74, (int1 + 9), 0, 0);
         CC_SETSIZE[1](25, 20, 0, 0);
         CC_SETONMOUSEOVER[1](callback(script5693, -2147483643, 0));
         CC_SETONMOUSELEAVE[1](callback(script5694));
     };
-    CC_CREATE[1](comp(1218, 247), 4, IF_GETNEXTSUBID(comp(1218, 247)));
+    CC_CREATE[1](comp(1218, 247), 4, IF_GETNEXTSUBID(comp(1218, 247)));  // skillguide:image_layer
     CC_SETPOSITION[1](105, int1, 0, 0);
     CC_SETTEXT[1](string0);
     if ((int2 != -1)) {
@@ -255,14 +255,14 @@ function script5692(int0: number, int1: number, int2: number, int3: number): voi
     var int9 = 27845;
     var int10 = 27844;
     if (((int4 == 1) || (STRING_LENGTH(string1) > 0))) {
-        CC_CREATE[1](comp(1218, 247), 5, IF_GETNEXTSUBID(comp(1218, 247)));
+        CC_CREATE[1](comp(1218, 247), 5, IF_GETNEXTSUBID(comp(1218, 247)));  // skillguide:image_layer
         CC_SETPOSITION[1](5, (int1 + 8), 2, 0);
         CC_SETGRAPHIC[1](27844 as graphic);
         CC_SETSIZE[1](20, 20, 0, 0);
         CC_SETONMOUSEOVER[1](callback(script5336, -2147483645, -2147483643, int9));
         CC_SETONMOUSELEAVE[1](callback(script5336, -2147483645, -2147483643, int10));
     };
-    if ((CC_FIND(comp(1218, 246), int0) == 1)) {
+    if ((CC_FIND(comp(1218, 246), int0) == 1)) {  // skillguide:content_layer
         CC_SETPOSITION(5, int1, 0, 0);
         CC_SETONTIMER(callback());
     };

@@ -9,7 +9,7 @@ function script4462(int0: number): void {
     var int7 = struct_getparam(int1, 7338);
     var int8 = struct_getparam(int1, 7340);
     var int9 = struct_getparam(int1, 7340);
-    var int10 = comp(1110, 4);
+    var int10 = comp(1110, 4);  // clan_chat:clan_ignore_count_text
     var int11 = 0;
     var int12 = 0;
     var string0 = "";

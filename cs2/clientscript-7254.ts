@@ -1,32 +1,32 @@
 //
 function script7254(int0: number): void {
-    IF_SETTEXT(struct_getparam(int0, 2365), comp(916, 42));
+    IF_SETTEXT(struct_getparam(int0, 2365), comp(916, 42));  // pop_ship:voyage_name
     script7280();
     if ((struct_getparam(int0, 3056) == 0)) {
-        IF_SETHIDE(true, comp(916, 45));
-        IF_SETHIDE(true, comp(916, 44));
+        IF_SETHIDE(true, comp(916, 45));  // pop_ship:graft_chance_layer
+        IF_SETHIDE(true, comp(916, 44));  // pop_ship:graft_chance_label
     } else {
-        IF_SETHIDE(false, comp(916, 45));
-        IF_SETHIDE(false, comp(916, 44));
+        IF_SETHIDE(false, comp(916, 45));  // pop_ship:graft_chance_layer
+        IF_SETHIDE(false, comp(916, 44));  // pop_ship:graft_chance_label
     };
     if ((struct_getparam(int0, 3057) == 0)) {
-        IF_SETHIDE(true, comp(916, 57));
-        IF_SETHIDE(true, comp(916, 56));
+        IF_SETHIDE(true, comp(916, 57));  // pop_ship:combat_chance_layer
+        IF_SETHIDE(true, comp(916, 56));  // pop_ship:combat_chance_label
     } else {
-        IF_SETHIDE(false, comp(916, 57));
-        IF_SETHIDE(false, comp(916, 56));
+        IF_SETHIDE(false, comp(916, 57));  // pop_ship:combat_chance_layer
+        IF_SETHIDE(false, comp(916, 56));  // pop_ship:combat_chance_label
     };
     if ((struct_getparam(int0, 3058) == 0)) {
-        IF_SETHIDE(true, comp(916, 69));
-        IF_SETHIDE(true, comp(916, 68));
+        IF_SETHIDE(true, comp(916, 69));  // pop_ship:seafaring_chance_layer
+        IF_SETHIDE(true, comp(916, 68));  // pop_ship:seafaring_chance_label
     } else {
-        IF_SETHIDE(false, comp(916, 69));
-        IF_SETHIDE(false, comp(916, 68));
+        IF_SETHIDE(false, comp(916, 69));  // pop_ship:seafaring_chance_layer
+        IF_SETHIDE(false, comp(916, 68));  // pop_ship:seafaring_chance_label
     };
     if (((struct_getparam(int0, 2366) == 7) && (script1121(varplayer_3390) == 1))) {
-        IF_SETHIDE(false, comp(916, 339));
-        IF_SETTEXT("Your captain already has four traits and cannot gain any more.", comp(916, 339));
-        IF_SETHIDE(true, comp(916, 340));
+        IF_SETHIDE(false, comp(916, 339));  // pop_ship:low_chance_warning
+        IF_SETTEXT("Your captain already has four traits and cannot gain any more.", comp(916, 339));  // pop_ship:low_chance_warning
+        IF_SETHIDE(true, comp(916, 340));  // pop_ship:confirm_send
     };
     var int1 = 0;
     var int2 = 0;
@@ -45,6 +45,6 @@ function script7254(int0: number): void {
         string0 = strconcat("0", string0);
     };
     var string1 = `${inttostring(int1, 10)}:${string0}`;
-    IF_SETTEXT(string1, comp(916, 83));
+    IF_SETTEXT(string1, comp(916, 83));  // pop_ship:voyage_time
     return;
 }

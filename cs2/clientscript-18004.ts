@@ -27,7 +27,7 @@ function script18004(int0: number, int1: number): void {
             break;
         }
     };
-    IF_SETTEXT(string0, comp(1227, 11));
-    IF_SETTEXT(string1, comp(1227, 12));
+    IF_SETTEXT(string0, comp(1227, 11));  // bp3_track_tab:reward_information_title
+    IF_SETTEXT(string1, comp(1227, 12));  // bp3_track_tab:reward_information_desc
     return;
 }

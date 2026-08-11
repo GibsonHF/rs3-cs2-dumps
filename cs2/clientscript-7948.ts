@@ -3,7 +3,7 @@ function script7948(): void {
     if ((CAM2_GETCONTROLMODE() == 0)) {
         return;
     };
-    IF_SETONTIMER(callback(), comp(1477, 800));
+    IF_SETONTIMER(callback(), comp(1477, 800));  // toplevel_v2:worldmap_ui_layer
     var int0 = WORLDMAP_GETCURRENTMAP();
     var string0 = COORD_GRIDTOFINE(varclient_622, 1);
     if ((int0 == -1 as maparea)) {
@@ -53,8 +53,8 @@ function script7948(): void {
     stack(callback(script7951, -2147483647, -2147483646));
     stack(96797472);
     IF_SETONHOLD();
-    IF_SETONCLICK(callback(script7950, -2147483645, -2147483647, -2147483646), comp(1477, 800));
-    IF_SETONTIMER(callback(script7949), comp(1477, 800));
+    IF_SETONCLICK(callback(script7950, -2147483645, -2147483647, -2147483646), comp(1477, 800));  // toplevel_v2:worldmap_ui_layer
+    IF_SETONTIMER(callback(script7949), comp(1477, 800));  // toplevel_v2:worldmap_ui_layer
     script7956(100, 1);
     script7952();
     return;

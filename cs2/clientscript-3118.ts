@@ -68,10 +68,10 @@ function script3118(int0: number, int1: number, int2: number): void {
         } else {
             CC_SETHIDE(true);
         };
-        script7924(int1, 2, int22, int22, (IF_GETX(comp(910, 66)) + ((IF_GETWIDTH(comp(910, 66)) - int22) / 2)), int21, int10, 0, 0, 0, 0);
-        script10629(int1, 3, (IF_GETWIDTH(int1) - (IF_GETX(comp(910, 67)) + 2)), int17, (IF_GETX(comp(910, 67)) + 2), 0, `World ${inttostring(int0, 10)} is running in a different language or is unavailable.`, int11, int24, 0, 1, 0, 1);
-        script10629(int1, 4, IF_GETWIDTH(comp(910, 76)), int17, IF_GETX(comp(910, 76)), callback(script0), 0, int24, 0, 1, 0, 1);
-        script10629(int1, 5, IF_GETWIDTH(comp(910, 77)), int17, IF_GETX(comp(910, 77)), callback(script0), 0, int24, 0, 1, 0, 1);
+        script7924(int1, 2, int22, int22, (IF_GETX(comp(910, 66)) + ((IF_GETWIDTH(comp(910, 66)) - int22) / 2)), int21, int10, 0, 0, 0, 0);  // lobbyscreen_pane_worldselect:fav
+        script10629(int1, 3, (IF_GETWIDTH(int1) - (IF_GETX(comp(910, 67)) + 2)), int17, (IF_GETX(comp(910, 67)) + 2), 0, `World ${inttostring(int0, 10)} is running in a different language or is unavailable.`, int11, int24, 0, 1, 0, 1);  // lobbyscreen_pane_worldselect:world
+        script10629(int1, 4, IF_GETWIDTH(comp(910, 76)), int17, IF_GETX(comp(910, 76)), callback(script0), 0, int24, 0, 1, 0, 1);  // lobbyscreen_pane_worldselect:ws_buttons_r
+        script10629(int1, 5, IF_GETWIDTH(comp(910, 77)), int17, IF_GETX(comp(910, 77)), callback(script0), 0, int24, 0, 1, 0, 1);  // lobbyscreen_pane_worldselect:ws_buttons_l
         CC_SETONMOUSEOVER(callback(script3120, int1));
         CC_SETONMOUSELEAVE(callback(script3122, int1));
         CC_SETOP(1, "Remove");
@@ -92,21 +92,21 @@ function script3118(int0: number, int1: number, int2: number): void {
     } else {
         CC_SETHIDE(true);
     };
-    script7924(int1, 2, int22, int22, (IF_GETX(comp(910, 66)) + ((IF_GETWIDTH(comp(910, 66)) - int22) / 2)), int21, int10, 0, 0, 0, 0);
-    script7924(int1, 3, 0, 0, (IF_GETX(comp(910, 68)) + 2), 1, -1, 0, 0, 0, 0);
-    script10629(int1, 4, (IF_GETWIDTH(comp(910, 67)) - 6), int17, (IF_GETX(comp(910, 67)) + 3), 0, inttostring(int0, 10), int11, int24, 0, 1, 0, 1);
-    script10629(int1, 5, (IF_GETWIDTH(comp(910, 69)) - 6), int17, (IF_GETX(comp(910, 69)) + 3), 0, string6, int11, int24, 0, 1, 0, 1);
-    script10629(int1, 6, (IF_GETWIDTH(comp(910, 70)) - 6), int17, (IF_GETX(comp(910, 70)) + 3), 0, string4, int11, int24, 0, 1, 0, 1);
-    script7924(int1, 7, 24, 12, (IF_GETX(comp(910, 72)) + 4), int19, int14, 0, 0, 0, 0);
-    script10629(int1, 8, (IF_GETWIDTH(comp(910, 71)) - 30), int17, (IF_GETX(comp(910, 71)) + 30), 0, string3, int11, int24, 0, 1, 0, 1);
-    script10629(int1, 9, (IF_GETWIDTH(comp(910, 73)) - 10), int17, (IF_GETX(comp(910, 73)) + 5), 0, string5, int12, int24, 0, 1, 0, 1);
-    script7924(int1, 10, int23, int23, (IF_GETX(comp(910, 74)) + ((IF_GETWIDTH(comp(910, 74)) - int23) / 2)), int20, int15, 0, 0, 0, 0);
-    script10629(int1, 11, (IF_GETWIDTH(comp(910, 74)) - 10), int17, (IF_GETX(comp(910, 75)) + 5), 0, inttostring(int9, 10), int11, int24, 0, 1, 0, 1);
-    script10629(int1, 12, IF_GETWIDTH(comp(910, 76)), int17, IF_GETX(comp(910, 76)), callback(script0), 0, int24, 0, 1, 0, 1);
+    script7924(int1, 2, int22, int22, (IF_GETX(comp(910, 66)) + ((IF_GETWIDTH(comp(910, 66)) - int22) / 2)), int21, int10, 0, 0, 0, 0);  // lobbyscreen_pane_worldselect:fav
+    script7924(int1, 3, 0, 0, (IF_GETX(comp(910, 68)) + 2), 1, -1, 0, 0, 0, 0);  // lobbyscreen_pane_worldselect:world_icon
+    script10629(int1, 4, (IF_GETWIDTH(comp(910, 67)) - 6), int17, (IF_GETX(comp(910, 67)) + 3), 0, inttostring(int0, 10), int11, int24, 0, 1, 0, 1);  // lobbyscreen_pane_worldselect:world
+    script10629(int1, 5, (IF_GETWIDTH(comp(910, 69)) - 6), int17, (IF_GETX(comp(910, 69)) + 3), 0, string6, int11, int24, 0, 1, 0, 1);  // lobbyscreen_pane_worldselect:players
+    script10629(int1, 6, (IF_GETWIDTH(comp(910, 70)) - 6), int17, (IF_GETX(comp(910, 70)) + 3), 0, string4, int11, int24, 0, 1, 0, 1);  // lobbyscreen_pane_worldselect:activity
+    script7924(int1, 7, 24, 12, (IF_GETX(comp(910, 72)) + 4), int19, int14, 0, 0, 0, 0);  // lobbyscreen_pane_worldselect:location_flag
+    script10629(int1, 8, (IF_GETWIDTH(comp(910, 71)) - 30), int17, (IF_GETX(comp(910, 71)) + 30), 0, string3, int11, int24, 0, 1, 0, 1);  // lobbyscreen_pane_worldselect:location
+    script10629(int1, 9, (IF_GETWIDTH(comp(910, 73)) - 10), int17, (IF_GETX(comp(910, 73)) + 5), 0, string5, int12, int24, 0, 1, 0, 1);  // lobbyscreen_pane_worldselect:type
+    script7924(int1, 10, int23, int23, (IF_GETX(comp(910, 74)) + ((IF_GETWIDTH(comp(910, 74)) - int23) / 2)), int20, int15, 0, 0, 0, 0);  // lobbyscreen_pane_worldselect:lootshare
+    script10629(int1, 11, (IF_GETWIDTH(comp(910, 74) /*lobbyscreen_pane_worldselect:lootshare*/) - 10), int17, (IF_GETX(comp(910, 75) /*lobbyscreen_pane_worldselect:ping*/) + 5), 0, inttostring(int9, 10), int11, int24, 0, 1, 0, 1);
+    script10629(int1, 12, IF_GETWIDTH(comp(910, 76)), int17, IF_GETX(comp(910, 76)), callback(script0), 0, int24, 0, 1, 0, 1);  // lobbyscreen_pane_worldselect:ws_buttons_r
     CC_SETOP(1, "Select");
     CC_SETOPBASE(`World ${inttostring(int0, 10)}`);
     CC_SETONOP(callback(script3129, -2147483644, int2, int0, string2));
-    script10629(int1, 13, IF_GETWIDTH(comp(910, 77)), int17, IF_GETX(comp(910, 77)), callback(script0), 0, int24, 0, 1, 0, 1);
+    script10629(int1, 13, IF_GETWIDTH(comp(910, 77)), int17, IF_GETX(comp(910, 77)), callback(script0), 0, int24, 0, 1, 0, 1);  // lobbyscreen_pane_worldselect:ws_buttons_l
     CC_SETONMOUSEOVER(callback(script3120, int1));
     CC_SETONMOUSELEAVE(callback(script3122, int1));
     CC_SETOP(1, "Remove");

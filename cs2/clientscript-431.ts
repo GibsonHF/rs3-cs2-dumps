@@ -7,8 +7,8 @@ function script431(int0: number, int1: number): void {
     var int6 = -1;
     switch (int0) {
         case 67108872: {
-            int2 = comp(1024, 44);
-            int3 = comp(1024, 45);
+            int2 = comp(1024, 44);  // conq_side_command:highlight_outer_rect_1
+            int3 = comp(1024, 45);  // conq_side_command:highlight_inner_rect_1
             if ((varclient_1388 == 1)) {
                 int4 = 1;
             } else {
@@ -17,8 +17,8 @@ function script431(int0: number, int1: number): void {
             break;
         }
         case 67108874: {
-            int2 = comp(1024, 37);
-            int3 = comp(1024, 38);
+            int2 = comp(1024, 37);  // conq_side_command:highlight_outer_rect_2
+            int3 = comp(1024, 38);  // conq_side_command:highlight_inner_rect_2
             if ((varclient_1388 == 1)) {
                 int4 = 3;
             } else {
@@ -27,8 +27,8 @@ function script431(int0: number, int1: number): void {
             break;
         }
         case 67108876: {
-            int2 = comp(1024, 30);
-            int3 = comp(1024, 31);
+            int2 = comp(1024, 30);  // conq_side_command:highlight_outer_rect_3
+            int3 = comp(1024, 31);  // conq_side_command:highlight_inner_rect_3
             if ((varclient_1388 == 1)) {
                 int4 = 5;
             } else {
@@ -37,8 +37,8 @@ function script431(int0: number, int1: number): void {
             break;
         }
         case 67108878: {
-            int2 = comp(1024, 23);
-            int3 = comp(1024, 24);
+            int2 = comp(1024, 23);  // conq_side_command:highlight_outer_rect_4
+            int3 = comp(1024, 24);  // conq_side_command:highlight_inner_rect_4
             if ((varclient_1388 == 1)) {
                 int4 = 6;
             } else {

@@ -6,6 +6,6 @@ function script418(): void {
     CAM_FOLLOWCOORD(varclient_1354);
     varclient_1355 = CAM_GETANGLE_XA();
     varclient_1356 = CAM_GETANGLE_YA();
-    IF_SETONTIMER(callback(script421, varclient_1357, varclient_1358, 0, 0), comp(1013, 0));
+    IF_SETONTIMER(callback(script421, varclient_1357, varclient_1358, 0, 0), comp(1013, 0));  // conq_scroll_overlay:main_layer
     return;
 }

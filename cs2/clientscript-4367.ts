@@ -5,7 +5,7 @@ function script4367(): void {
         varclient_2539 = string0;
         varclient_1498 = STRING_LENGTH(varclient_2539);
         varclient_1498 = script1552(varclient_1498, varclient_2539, 26, 72089612, -1);
-        IF_SETPOSITION(varclient_1498, IF_GETY(comp(1100, 13)), 0, 0, comp(1100, 13));
+        IF_SETPOSITION(varclient_1498, IF_GETY(comp(1100, 13)), 0, 0, comp(1100, 13));  // clan_qfc_input:caret
         IF_SETTEXT(varclient_2539, 72089612);
     };
     return;

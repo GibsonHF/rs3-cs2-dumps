@@ -8,7 +8,7 @@ function script4635(int0: number, int1: number): void {
     script4636(int0, int1, 55574549, "Select");
     script4636(int0, int1, 55574540, "Select");
     script4636(int0, int1, 55574533, "Toggle");
-    IF_SETHIDE(true, comp(848, 21));
-    IF_SETHIDE(true, comp(848, 12));
+    IF_SETHIDE(true, comp(848, 21));  // modal_confirm_overlay:yes_button_active_layer
+    IF_SETHIDE(true, comp(848, 12));  // modal_confirm_overlay:no_button_active_layer
     return;
 }

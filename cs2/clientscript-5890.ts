@@ -4,7 +4,7 @@ function script5890(int0: number, int1: number): void {
         script5892(93716733);
         return;
     };
-    if ((((varbitplayer_21682 == 1) && (IF_FIND(comp(1430, 253)) == 1)) && (cc_getparam(4132) != int1))) {
+    if ((((varbitplayer_21682 == 1) && (IF_FIND(comp(1430, 253)) == 1)) && (cc_getparam(4132) != int1))) {  // toplevel_v2_combat_bar:just_used_flash
         varclient_4098 = -1 as struct;
         CC_SETHIDE(false);
         CC_SETONTIMER(callback(script5891, -2147483645, (CLIENTCLOCK() + 30)));

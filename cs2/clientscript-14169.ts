@@ -1,7 +1,7 @@
 //
 function script14169(): void {
-    if ((IF_GETHIDE(comp(276, 18)) == false)) {
-        IF_SETHIDE(true, comp(276, 18));
+    if ((IF_GETHIDE(comp(276, 18)) == false)) {  // toplevel_v2_mobile:inv_drag_options_window
+        IF_SETHIDE(true, comp(276, 18));  // toplevel_v2_mobile:inv_drag_options_window
     };
     if ((script4550(398) == 1)) {
         return;

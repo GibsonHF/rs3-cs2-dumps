@@ -12,7 +12,7 @@ function script10863(): void {
     if ((varbitplayer_26598 == 1)) {
         string0 = "You can teleport to locations in the elven lands 1 more time today.";
     };
-    IF_SETTEXT(string0, comp(1572, 1));
+    IF_SETTEXT(string0, comp(1572, 1));  // atelf_teleports:elfcity_tele_charges
     script8841(84, 1);
     return;
 }

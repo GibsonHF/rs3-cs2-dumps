@@ -77,13 +77,13 @@ function script9237(int0: number, int1: number, int2: number, int3: number, int4
         int20 = 2;
     };
     var int28 = int23;
-    if (((int1 == comp(517, 15)) || (int1 == comp(517, 35)))) {
+    if (((int1 == comp(517, 15) /*bank:inventory_click*/) || (int1 == comp(517, 35) /*bank:bob_click*/))) {
         int28 = 4;
-    } else if ((int1 == comp(662, 5))) {
-        if (((int23 < 4) || (int1 == comp(1313, 14)))) {
+    } else if ((int1 == comp(662, 5))) {  // lore_stats_side:inventory_invlayer
+        if (((int23 < 4) || (int1 == comp(1313, 14)))) {  // group_ironman_storage:inventory_click
             int28 = 4;
         };
-    } else if ((int1 == comp(1313, 14))) {
+    } else if ((int1 == comp(1313, 14))) {  // group_ironman_storage:inventory_click
         int28 = 4;
     };
     var int29 = 0;

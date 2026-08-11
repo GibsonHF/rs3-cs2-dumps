@@ -4,6 +4,6 @@ function script19494(): void {
         varclient_8173 = (varclient_8173 - 1);
         return;
     };
-    IF_SETONTIMER(callback(), comp(1313, 65));
+    IF_SETONTIMER(callback(), comp(1313, 65));  // group_ironman_storage:main_panel
     return;
 }

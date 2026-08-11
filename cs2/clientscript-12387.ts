@@ -11,34 +11,34 @@ function script12387(int0: number): void {
         case 1: {
             int2 = varbitplayer_30864;
             string0 = "Seren reputation";
-            IF_SETGRAPHIC(27225 as graphic, comp(1747, 6));
-            IF_SETGRAPHIC(27225 as graphic, comp(1747, 7));
+            IF_SETGRAPHIC(27225 as graphic, comp(1747, 6));  // gwd2_rep:faction_icon_l ?
+            IF_SETGRAPHIC(27225 as graphic, comp(1747, 7));  // gwd2_rep:faction_icon_r ?
             break;
         }
         case 2: {
             int2 = varbitplayer_30865;
             string0 = "Sliske reputation";
-            IF_SETGRAPHIC(27226 as graphic, comp(1747, 6));
-            IF_SETGRAPHIC(27226 as graphic, comp(1747, 7));
+            IF_SETGRAPHIC(27226 as graphic, comp(1747, 6));  // gwd2_rep:faction_icon_l ?
+            IF_SETGRAPHIC(27226 as graphic, comp(1747, 7));  // gwd2_rep:faction_icon_r ?
             break;
         }
         case 3: {
             int2 = varbitplayer_30871;
             string0 = "Zamorak reputation";
-            IF_SETGRAPHIC(27227 as graphic, comp(1747, 6));
-            IF_SETGRAPHIC(27227 as graphic, comp(1747, 7));
+            IF_SETGRAPHIC(27227 as graphic, comp(1747, 6));  // gwd2_rep:faction_icon_l ?
+            IF_SETGRAPHIC(27227 as graphic, comp(1747, 7));  // gwd2_rep:faction_icon_r ?
             break;
         }
         case 4: {
             int2 = varbitplayer_30870;
             string0 = "Zaros reputation";
-            IF_SETGRAPHIC(27228 as graphic, comp(1747, 6));
-            IF_SETGRAPHIC(27228 as graphic, comp(1747, 7));
+            IF_SETGRAPHIC(27228 as graphic, comp(1747, 6));  // gwd2_rep:faction_icon_l ?
+            IF_SETGRAPHIC(27228 as graphic, comp(1747, 7));  // gwd2_rep:faction_icon_r ?
             break;
         }
     };
     varclient_5185 = int0;
-    IF_SETHIDE(true, comp(1747, 4));
+    IF_SETHIDE(true, comp(1747, 4));  // gwd2_rep:info_layer ?
     script9554(114491415, 114491417, 114491416, `${string0} rewards`, 21218);
     script12392(int0);
     var int4 = 2;
@@ -81,12 +81,12 @@ function script12387(int0: number): void {
     };
     if ((int4 == 0)) {
         string1 = "All rewards unlocked!";
-        IF_SETSIZE(444, 9, 0, 0, comp(1747, 12));
+        IF_SETSIZE(444, 9, 0, 0, comp(1747, 12));  // gwd2_rep:overall_progress_front ?
     } else {
         if ((int5 == 0)) {
-            IF_SETSIZE(0, 9, 0, 0, comp(1747, 12));
+            IF_SETSIZE(0, 9, 0, 0, comp(1747, 12));  // gwd2_rep:overall_progress_front ?
         } else {
-            IF_SETSIZE((4 + (56 * int5)), 9, 0, 0, comp(1747, 12));
+            IF_SETSIZE((4 + (56 * int5)), 9, 0, 0, comp(1747, 12));  // gwd2_rep:overall_progress_front ?
         };
         string1 = enum_getvalue(0, 36, 10993 as cs2enum, int4);
         if ((int4 == 14)) {
@@ -95,7 +95,7 @@ function script12387(int0: number): void {
             string1 = `Next unlock: ${string1}<br>Progress: ${TOSTRING_LOCALISED(int6, 1)}/${TOSTRING_LOCALISED(int7, 1)}`;
         };
     };
-    IF_SETTEXT(string1, comp(1747, 28));
-    IF_SETTEXT(`${string0}: ${TOSTRING_LOCALISED(MIN(2000, int2), 1)}/${TOSTRING_LOCALISED(2000, 1)}`, comp(1747, 35));
+    IF_SETTEXT(string1, comp(1747, 28));  // gwd2_rep:mainmodal_window_content ?
+    IF_SETTEXT(`${string0}: ${TOSTRING_LOCALISED(MIN(2000, int2), 1)}/${TOSTRING_LOCALISED(2000, 1)}`, comp(1747, 35));  // gwd2_rep:com_35 ?
     return;
 }

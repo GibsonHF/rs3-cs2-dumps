@@ -35,9 +35,9 @@ function script9361(int0: number): void {
                 break;
             }
         };
-        IF_SETTEXT("", comp(701, 203));
-        IF_SETTEXT("", comp(701, 184));
-        IF_SETTEXT("", comp(701, 102));
+        IF_SETTEXT("", comp(701, 203));  // clan_noticeboard_broadcast:broadcast_text
+        IF_SETTEXT("", comp(701, 184));  // clan_noticeboard_broadcast:phrase
+        IF_SETTEXT("", comp(701, 102));  // clan_noticeboard_broadcast:reltime_text
         script9363();
     };
     return;

@@ -1,7 +1,7 @@
 //
 function script14900(int0: number): void {
-    var int1 = comp(693, 25);
-    var int2 = comp(693, 26);
+    var int1 = comp(693, 25);  // arch_research_management:contract_research_build_layer
+    var int2 = comp(693, 26);  // arch_research_management:contract_research_control_layer
     CC_DELETEALL(int1);
     CC_DELETEALL(int2);
     var int3 = script14650(int0);

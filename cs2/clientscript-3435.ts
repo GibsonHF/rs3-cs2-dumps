@@ -22,9 +22,9 @@ function script3435(int0: number): void {
             break;
         }
     };
-    IF_SETGRAPHIC(int1, comp(1358, 3));
-    IF_SETGRAPHIC(int2, comp(1358, 2));
-    IF_SETGRAPHIC(int3, comp(1358, 1));
-    IF_SETGRAPHIC(int4, comp(1358, 0));
+    IF_SETGRAPHIC(int1, comp(1358, 3));  // sizzling_choose_your_fate:deposit_box_graphic
+    IF_SETGRAPHIC(int2, comp(1358, 2));  // sizzling_choose_your_fate:instakill_dart_graphic
+    IF_SETGRAPHIC(int3, comp(1358, 1));  // sizzling_choose_your_fate:healing_box_graphic
+    IF_SETGRAPHIC(int4, comp(1358, 0));  // sizzling_choose_your_fate:dodging_death_graphic
     return;
 }

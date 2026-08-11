@@ -1,8 +1,8 @@
 //
 function script15051(int0: number): void {
-    if ((((int0 == 2) && (varclient_2235 == comp(105, 167))) && (strcmp(varclient_2250, "") != 0))) {
+    if ((((int0 == 2) && (varclient_2235 == comp(105, 167))) && (strcmp(varclient_2250, "") != 0))) {  // stockmarket:offersummary7_bg ?
         varclient_84 = script7210(script7209(varclient_2250));
-        IF_SETTEXT(TOSTRING_LOCALISED(varclient_84, 1), comp(105, 170));
+        IF_SETTEXT(TOSTRING_LOCALISED(varclient_84, 1), comp(105, 170));  // stockmarket:choosebuy7_button_layer ?
         SOUND_VORBIS_VOLUME(36961 as vorbis, 1, 0, 120);
         script15038(varclient_84, varclient_85, 0);
     };

@@ -1,7 +1,7 @@
 //
 function script3660(int0: number): void {
-    IF_SETPOSITION(0, (int0 / 2), 0, 0, comp(634, 13));
-    IF_SETPOSITION(0, (int0 * 2), 0, 0, comp(634, 17));
+    IF_SETPOSITION(0, (int0 / 2), 0, 0, comp(634, 13));  // runepass:back_parallax_low
+    IF_SETPOSITION(0, (int0 * 2), 0, 0, comp(634, 17));  // runepass:back_parallax_high
     var int1 = script3608();
     if ((int1 == -1)) {
         return;

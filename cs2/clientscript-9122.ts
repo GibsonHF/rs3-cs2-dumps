@@ -9,10 +9,10 @@ function script9122(int0: number, int1: number, int2: number, int3: number, int4
     varbitplayer_4321 = int10;
     varbitplayer_25803 = int11;
     if ((varbitplayer_4323 <= 0)) {
-        IF_SETHIDE(true, comp(1253, 265));
+        IF_SETHIDE(true, comp(1253, 265));  // wheel_of_fortune:reward_layer
         return;
     };
-    IF_SETHIDE(false, comp(1253, 273));
+    IF_SETHIDE(false, comp(1253, 273));  // wheel_of_fortune:reward_won_item_layer
     if ((varclient_1790 == 7)) {
         script1646();
         return;

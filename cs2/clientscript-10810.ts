@@ -1,10 +1,10 @@
 //
 function script10810(): void {
-    var int0 = comp(1562, 30);
+    var int0 = comp(1562, 30);  // mtxmgt_purchase:loyaltypoints_layer
     var int1 = 102367251;
-    var int2 = comp(1562, 20);
-    var int3 = comp(1562, 41);
-    var int4 = comp(1562, 39);
+    var int2 = comp(1562, 20);  // mtxmgt_purchase:loyaltypoints_content_layer
+    var int3 = comp(1562, 41);  // mtxmgt_purchase:loyaltypoints_button_text
+    var int4 = comp(1562, 39);  // mtxmgt_purchase:loyaltypoints_button_disabled_layer
     var int5 = 102367250;
     CC_DELETEALL(int2);
     var int6 = -1;

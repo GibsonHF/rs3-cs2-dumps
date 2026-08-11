@@ -11,7 +11,7 @@ function script20313(int0: number, int1: number): void {
         return;
     };
     var string0 = script20131(int0, int3);
-    if ((CC_FINDBYCATEGORY(comp(1361, 21), script20173(((3000 * 4) + int2))) == 1)) {
+    if ((CC_FINDBYCATEGORY(comp(1361, 21), script20173(((3000 * 4) + int2))) == 1)) {  // league_child_tasks:task_panel
         CC_SETTEXT(string0);
         if ((int1 >= 10)) {
             CC_SETONTIMER(callback());
@@ -19,7 +19,7 @@ function script20313(int0: number, int1: number): void {
             CC_SETONTIMER(callback(script20313, int0, (int1 + 1)));
         };
     };
-    if ((CC_FINDBYCATEGORY(comp(1479, 20), script20173(((3000 * 4) + int2))) == 1)) {
+    if ((CC_FINDBYCATEGORY(comp(1479, 20), script20173(((3000 * 4) + int2))) == 1)) {  // league_parent_tasks:task_scrollbar
         CC_SETTEXT(string0);
         if ((int1 >= 10)) {
             CC_SETONTIMER(callback());

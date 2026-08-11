@@ -9,8 +9,8 @@ function script16531(): void {
         int1 = dbrow_getfield(int0, 725104, 0);
         script3536(dbrow_getfield(int0, 725040, 0), 63569942, -1);
     };
-    IF_SETTEXT(string0, comp(970, 39));
-    IF_SETGRAPHIC(int1, comp(970, 23));
+    IF_SETTEXT(string0, comp(970, 39));  // trh180_overlay:current_bonus_text
+    IF_SETGRAPHIC(int1, comp(970, 23));  // trh180_overlay:current_egg
     var int2 = 63569935;
     if ((varbitplayer_51240 > 0)) {
         int0 = script16519(varbitplayer_51240);
@@ -30,7 +30,7 @@ function script16531(): void {
     } else {
         string0 = "None";
     };
-    IF_SETTEXT(string0, comp(970, 46));
-    IF_SETGRAPHIC(int1, comp(970, 43));
+    IF_SETTEXT(string0, comp(970, 46));  // trh180_overlay:next_bonus_text
+    IF_SETGRAPHIC(int1, comp(970, 43));  // trh180_overlay:next_egg
     return;
 }

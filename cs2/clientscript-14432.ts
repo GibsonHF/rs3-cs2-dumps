@@ -1,6 +1,6 @@
 //
 function script14432(int0: number, int1: number): void {
-    CC_DELETEALL(comp(1253, 448));
+    CC_DELETEALL(comp(1253, 448));  // wheel_of_fortune:trh_promo_info_left_panel
     var int2 = 0;
     var int3 = 0;
     var int4 = 0;

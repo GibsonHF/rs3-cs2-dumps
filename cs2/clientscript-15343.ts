@@ -1,6 +1,6 @@
 //
 function script15343(int0: number, int1: number): void {
-    var int2 = comp(1851, 40);
+    var int2 = comp(1851, 40);  // achievements_sub:build_layer
     var int3 = 0;
     var int4 = IF_GETNEXTSUBID(int2);
     var int5 = 0;

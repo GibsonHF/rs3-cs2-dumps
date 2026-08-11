@@ -1,6 +1,6 @@
 //
 function script1235(int0: number): void {
-    IF_SETHIDE(false, comp(181, 1));
+    IF_SETHIDE(false, comp(181, 1));  // lighttemple_piller:mirror_layer
     switch (varclient_180) {
         case 1: {
             IF_SETMODELANGLE(0, 0, 510, 762, 0, 410, int0);
@@ -27,7 +27,7 @@ function script1235(int0: number): void {
             break;
         }
         default: {
-            IF_SETHIDE(true, comp(181, 1));
+            IF_SETHIDE(true, comp(181, 1));  // lighttemple_piller:mirror_layer
             break;
         }
     };

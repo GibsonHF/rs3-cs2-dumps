@@ -22,12 +22,12 @@ function script9609(int0: number): void {
             int2 = 0;
         };
     };
-    IF_SETTEXT(string0, comp(419, 11));
-    IF_SETTEXT(string1, comp(419, 14));
-    IF_SETTEXT(string2, comp(419, 17));
-    IF_SETTEXT(string3, comp(419, 18));
+    IF_SETTEXT(string0, comp(419, 11));  // patchy_interface:item_1
+    IF_SETTEXT(string1, comp(419, 14));  // patchy_interface:item_2
+    IF_SETTEXT(string2, comp(419, 17));  // patchy_interface:cost_1
+    IF_SETTEXT(string3, comp(419, 18));  // patchy_interface:cost_2
     script13971(27459603, -1, 28553, "Create", int1);
     script13971(27459604, -1, 28553, "Separate", int2);
-    IF_SETONTIMER(callback(), comp(419, 3));
+    IF_SETONTIMER(callback(), comp(419, 3));  // patchy_interface:item_list
     return;
 }

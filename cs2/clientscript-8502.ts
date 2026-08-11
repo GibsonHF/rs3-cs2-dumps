@@ -120,8 +120,8 @@ function script8502(int0: number, int1: number, int2: number): void {
     int11 = 0;
     [int5, string0, int6, string1, string2, string3, string4, int7, string5, int8, int9] = unk11059(int4);
     var int22 = script6431();
-    var int23 = IF_GETTRANS(comp(137, 2));
-    if ((IF_GETHIDE(comp(276, 27)) == false)) {
+    var int23 = IF_GETTRANS(comp(137, 2));  // chatdefault:mobile_listener_graphic
+    if ((IF_GETHIDE(comp(276, 27)) == false)) {  // toplevel_v2_mobile:chat_panel
         int23 = 0;
     };
     var int24 = 2;

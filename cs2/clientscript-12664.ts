@@ -1,6 +1,6 @@
 //
 function script12664(): void {
-    var int0 = IF_GETHEIGHT(comp(1778, 3));
+    var int0 = IF_GETHEIGHT(comp(1778, 3));  // trh93_overlay_new:progress_bar_fill
     var int1 = 210;
     var int2 = 1;
     var int3 = MAX(1, SCALE(int1, 100, varbitplayer_33371));
@@ -10,28 +10,28 @@ function script12664(): void {
     } else if ((int0 > int3)) {
         int2 = MAX((int0 - 2), int3);
     } else {
-        IF_SETONTIMER(callback(), comp(1778, 3));
+        IF_SETONTIMER(callback(), comp(1778, 3));  // trh93_overlay_new:progress_bar_fill
         return;
     };
     if ((int2 == 0)) {
         int2 = 1;
-        IF_SETONTIMER(callback(), comp(1778, 3));
+        IF_SETONTIMER(callback(), comp(1778, 3));  // trh93_overlay_new:progress_bar_fill
     };
-    IF_SETSIZE(41, int2, 0, 0, comp(1778, 3));
+    IF_SETSIZE(41, int2, 0, 0, comp(1778, 3));  // trh93_overlay_new:progress_bar_fill
     if ((varbitplayer_33371 >= 5)) {
-        IF_SETGRAPHIC(27789 as graphic, comp(1778, 11));
+        IF_SETGRAPHIC(27789 as graphic, comp(1778, 11));  // trh93_overlay_new:marker_1
     };
     if ((varbitplayer_33371 >= 15)) {
-        IF_SETGRAPHIC(27791 as graphic, comp(1778, 10));
+        IF_SETGRAPHIC(27791 as graphic, comp(1778, 10));  // trh93_overlay_new:marker_2
     };
     if ((varbitplayer_33371 >= 35)) {
-        IF_SETGRAPHIC(27793 as graphic, comp(1778, 9));
+        IF_SETGRAPHIC(27793 as graphic, comp(1778, 9));  // trh93_overlay_new:marker_3
     };
     if ((varbitplayer_33371 >= 60)) {
-        IF_SETGRAPHIC(27795 as graphic, comp(1778, 8));
+        IF_SETGRAPHIC(27795 as graphic, comp(1778, 8));  // trh93_overlay_new:marker_4
     };
     if ((varbitplayer_33371 >= 100)) {
-        IF_SETGRAPHIC(27797 as graphic, comp(1778, 7));
+        IF_SETGRAPHIC(27797 as graphic, comp(1778, 7));  // trh93_overlay_new:marker_5
     };
     return;
 }

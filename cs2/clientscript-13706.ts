@@ -4,7 +4,7 @@ function script13706(): void {
     var int1 = 0;
     var string0 = "You have already completed this element of the bar crawl.";
     if ((varbitplayer_38438 == 2)) {
-        IF_SETTEXT("Get the requested drink from each of the Inns before the 6th November to win 2 medium prismatic lamps. You will receive a small prismatic lamp for each task on the list you complete.", comp(1905, 126));
+        IF_SETTEXT("Get the requested drink from each of the Inns before the 6th November to win 2 medium prismatic lamps. You will receive a small prismatic lamp for each task on the list you complete.", comp(1905, 126));  // mtxfest17_beer_crawl:info_text
     };
     while ((int1 < 18)) {
         if ((script13707(int0) == 1)) {

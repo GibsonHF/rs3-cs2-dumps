@@ -1,14 +1,14 @@
 //
 function script18088(int0: number, int1: number, int2: number): void {
-    var int3 = comp(1226, 67);
-    IF_SETTEXT(`This will cost <col=2EF8FF>${TOSTRING_LOCALISED(int1, 1)}</col> x vis wax.`, comp(1226, 65));
+    var int3 = comp(1226, 67);  // bp3_missions_tab:skill_selection_panel_holder
+    IF_SETTEXT(`This will cost <col=2EF8FF>${TOSTRING_LOCALISED(int1, 1)}</col> x vis wax.`, comp(1226, 65));  // bp3_missions_tab:skill_selection_desc
     var string0 = "";
     if ((int2 == 1)) {
         string0 = "";
     } else {
         string0 = "Warning: You will lose any progress already gained towards this mission.";
     };
-    IF_SETTEXT(string0, comp(1226, 66));
+    IF_SETTEXT(string0, comp(1226, 66));  // bp3_missions_tab:skill_selection_warning_text
     CC_DELETEALL(int3);
     var int4 = 681 as cs2enum;
     var int5 = ENUM_GETOUTPUTCOUNT(int4);
@@ -33,14 +33,14 @@ function script18088(int0: number, int1: number, int2: number): void {
     [int10, int8] = script18092(2, int8, int10, int0);
     [int10, int8] = script18092(3, int8, int10, int0);
     [int10, int8] = script18092(4, int8, int10, int0);
-    CC_DELETEALL(comp(1226, 68));
+    CC_DELETEALL(comp(1226, 68));  // bp3_missions_tab:skill_selection_confirmation
     script7852(80347204, 0, 0, 0, 0, 0, 0, 0, 1, 1, 7954, "Confirm");
     CC_SETOP(1, "Confirm");
     CC_SETONOP(callback(script18089));
-    CC_DELETEALL(comp(1226, 69));
+    CC_DELETEALL(comp(1226, 69));  // bp3_missions_tab:skill_selection_close
     script7852(80347205, int8, 0, 0, 0, 0, 0, 0, 1, 1, 7953, "Back");
     CC_SETOP(1, "Back");
     CC_SETONOP(callback(script18090));
-    IF_SETHIDE(false, comp(1226, 15));
+    IF_SETHIDE(false, comp(1226, 15));  // bp3_missions_tab:skill_selection_holder
     return;
 }

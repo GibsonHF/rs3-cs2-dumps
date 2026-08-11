@@ -77,7 +77,7 @@ function script10210(int0: number, int1: number, int2: number, int3: number, int
         } else {
             string1 = `You have only just left another world. Your profile will be transferred in<br>${inttostring(int9, 10)} seconds.`;
         };
-        if ((IF_GETHIDE(comp(906, 151)) == true)) {
+        if ((IF_GETHIDE(comp(906, 151)) == true)) {  // lobbyscreen:popup
             script3093(int7, 4042, "World Change", string1, 2611, "Abort Login", "");
         } else {
             script1871(string1);
@@ -85,9 +85,9 @@ function script10210(int0: number, int1: number, int2: number, int3: number, int
         return;
     };
     if ((int7 == 42)) {
-        IF_SETHIDE(false, comp(906, 84));
-        IF_SETTEXT(inttostring(int1, 10), comp(906, 87));
-        IF_SETTEXT(inttostring(unk11160(), 10), comp(906, 89));
+        IF_SETHIDE(false, comp(906, 84));  // lobbyscreen:login_queue_info
+        IF_SETTEXT(inttostring(int1, 10), comp(906, 87));  // lobbyscreen:login_queue_world
+        IF_SETTEXT(inttostring(unk11160(), 10), comp(906, 89));  // lobbyscreen:login_queue_position
         if ((((varclient_1100 != 42) && (varclient_1100 != 43)) && (varclient_1100 != -1))) {
             script3093(int7, 4039, "World Full", `World ${inttostring(int1, 10)} is currently full.<br><br>You have been added to the queue for this world.`, 2611, "", "OK");
         };
@@ -95,13 +95,13 @@ function script10210(int0: number, int1: number, int2: number, int3: number, int
         return;
     };
     if ((int7 == 43)) {
-        IF_SETTEXT(inttostring(int1, 10), comp(906, 87));
-        IF_SETTEXT(inttostring(unk11160(), 10), comp(906, 89));
+        IF_SETTEXT(inttostring(int1, 10), comp(906, 87));  // lobbyscreen:login_queue_world
+        IF_SETTEXT(inttostring(unk11160(), 10), comp(906, 89));  // lobbyscreen:login_queue_position
         varclient_1100 = 43;
         return;
     };
-    IF_SETHIDE(true, comp(906, 84));
-    if (((int0 == comp(906, 0)) || (int0 == comp(906, 20)))) {
+    IF_SETHIDE(true, comp(906, 84));  // lobbyscreen:login_queue_info
+    if (((int0 == comp(906, 0) /*lobbyscreen:base*/) || (int0 == comp(906, 20) /*lobbyscreen:straight_through*/))) {
         script1299();
     };
     script3097();
@@ -474,7 +474,7 @@ function script10210(int0: number, int1: number, int2: number, int3: number, int
         case 47:
         case 51: {
             string0 = "You need to validate your email address to log in.";
-            IF_SETHIDE(false, comp(906, 148));
+            IF_SETHIDE(false, comp(906, 148));  // lobbyscreen:email_validation
             break;
         }
         case 48: {
@@ -537,7 +537,7 @@ function script10210(int0: number, int1: number, int2: number, int3: number, int
             break;
         }
     };
-    IF_TRIGGEROP(comp(906, 3), -1, 1);
+    IF_TRIGGEROP(comp(906, 3), -1, 1);  // lobbyscreen:clear_autoworld_triggerop
     script3093(int7, 4035, "Login Failed", string0, int14, string5, string6);
     return;
 }

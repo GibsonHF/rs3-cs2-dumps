@@ -4,18 +4,18 @@ function script11409(int0: number): void {
     var int2 = (IF_GETHEIGHT(int0) - 52);
     var int3 = 0;
     var int4 = 0;
-    IF_SETHIDE(false, comp(1622, 2));
-    IF_SETSIZE(0, 52, 1, 1, comp(1622, 1));
-    IF_SETSIZE(16, 52, 0, 1, comp(1622, 0));
+    IF_SETHIDE(false, comp(1622, 2));  // toplevel_v2_loot:fixed_layer
+    IF_SETSIZE(0, 52, 1, 1, comp(1622, 1));  // toplevel_v2_loot:scrolling_layer
+    IF_SETSIZE(16, 52, 0, 1, comp(1622, 0));  // toplevel_v2_loot:scrollbar_layer
     if ((varbitplayer_22875 != 1)) {
-        IF_SETHIDE(false, comp(1622, 10));
+        IF_SETHIDE(false, comp(1622, 10));  // toplevel_v2_loot:slot_layer
     } else {
-        IF_SETHIDE(true, comp(1622, 10));
+        IF_SETHIDE(true, comp(1622, 10));  // toplevel_v2_loot:slot_layer
     };
     var int5 = -1;
     var int6 = -1;
-    int5 = IF_GETWIDTH(comp(1622, 1));
-    int6 = IF_GETHEIGHT(comp(1622, 1));
+    int5 = IF_GETWIDTH(comp(1622, 1));  // toplevel_v2_loot:scrolling_layer
+    int6 = IF_GETHEIGHT(comp(1622, 1));  // toplevel_v2_loot:scrolling_layer
     var int7 = 40;
     var int8 = 36;
     var int9 = 2;
@@ -42,11 +42,11 @@ function script11409(int0: number): void {
     int16 = MAX(1, int16);
     if (((int16 * int11) > int12)) {
         int3 = 1;
-        IF_SETSIZE(16, 52, 1, 1, comp(1622, 1));
-        IF_SETPOSITION(0, 0, 2, 0, comp(1622, 0));
-        IF_SETSIZE(16, 52, 0, 1, comp(1622, 0));
-        int5 = IF_GETWIDTH(comp(1622, 1));
-        int6 = IF_GETHEIGHT(comp(1622, 1));
+        IF_SETSIZE(16, 52, 1, 1, comp(1622, 1));  // toplevel_v2_loot:scrolling_layer
+        IF_SETPOSITION(0, 0, 2, 0, comp(1622, 0));  // toplevel_v2_loot:scrollbar_layer
+        IF_SETSIZE(16, 52, 0, 1, comp(1622, 0));  // toplevel_v2_loot:scrollbar_layer
+        int5 = IF_GETWIDTH(comp(1622, 1));  // toplevel_v2_loot:scrolling_layer
+        int6 = IF_GETHEIGHT(comp(1622, 1));  // toplevel_v2_loot:scrolling_layer
         [int15, int13, int14] = script9856((int5 - 2), int10, (2 + 2), 2);
     };
     int15 = MIN(int15, int1);
@@ -58,8 +58,8 @@ function script11409(int0: number): void {
     int16 = MAX(1, int16);
     var int17 = (((int15 * int10) + 2) + 2);
     var int18 = ((int16 * int11) + (2 + 2));
-    int4 = MAX(IF_GETHEIGHT(comp(1622, 1)), (int18 - int6));
-    IF_SETSCROLLSIZE(0, int4, comp(1622, 1));
+    int4 = MAX(IF_GETHEIGHT(comp(1622, 1)), (int18 - int6));  // toplevel_v2_loot:scrolling_layer
+    IF_SETSCROLLSIZE(0, int4, comp(1622, 1));  // toplevel_v2_loot:scrolling_layer
     var int19 = 0;
     var int20 = 0;
     var int21 = -1 as obj;
@@ -72,11 +72,11 @@ function script11409(int0: number): void {
         int24 = (int24 + 1);
     };
     while ((int19 < int1)) {
-        if (((CC_FIND[1](comp(1622, 10), int19) == 1) && (CC_FIND(comp(1622, 11), int19) == 1))) {
+        if (((CC_FIND[1](comp(1622, 10) /*toplevel_v2_loot:slot_layer*/, int19) == 1) && (CC_FIND(comp(1622, 11) /*toplevel_v2_loot:item_layer*/, int19) == 1))) {
             int21 = INV_GETOBJ(773 as inv, int19);
             int22 = INV_GETNUM(773 as inv, int19);
             CC_SETPOSITION[1]((push_array(MODULO(int19, int15)) - 1), ((((int19 / int15) * int11) + 2) - 1), 0, 0);
-            if ((CC_FIND[1](comp(1622, 12), int19) == 1)) {
+            if ((CC_FIND[1](comp(1622, 12), int19) == 1)) {  // toplevel_v2_loot:highlight_layer
                 CC_SETPOSITION[1]((push_array(MODULO(int19, int15)) - 1), ((((int19 / int15) * int11) + 2) - 1), 0, 0);
             };
             CC_SETPOSITION((push_array(MODULO(int19, int15)) + 3), ((((int19 / int15) * int11) + 1) + 2), 0, 0);
@@ -89,10 +89,10 @@ function script11409(int0: number): void {
         int19 = (int19 + 1);
     };
     var int25 = (((int16 * int11) + 2) + 2);
-    int25 = MAX(IF_GETHEIGHT(comp(1622, 1)), int25);
-    CC_DELETEALL(comp(1622, 0));
-    IF_SETSCROLLSIZE(0, int25, comp(1622, 1));
-    if ((int25 > IF_GETHEIGHT(comp(1622, 1)))) {
+    int25 = MAX(IF_GETHEIGHT(comp(1622, 1)), int25);  // toplevel_v2_loot:scrolling_layer
+    CC_DELETEALL(comp(1622, 0));  // toplevel_v2_loot:scrollbar_layer
+    IF_SETSCROLLSIZE(0, int25, comp(1622, 1));  // toplevel_v2_loot:scrolling_layer
+    if ((int25 > IF_GETHEIGHT(comp(1622, 1)))) {  // toplevel_v2_loot:scrolling_layer
         script7791(106299392, 106299393);
     };
     return;

@@ -9,9 +9,9 @@ function script18010(): void {
         return;
     };
     script18030(int0);
-    var int1 = comp(1227, 40);
+    var int1 = comp(1227, 40);  // bp3_track_tab:reward_track_tile_layer
     CC_DELETEALL(int1);
-    var int2 = comp(1227, 41);
+    var int2 = comp(1227, 41);  // bp3_track_tab:reward_track_level_layer
     CC_DELETEALL(int2);
     var int3 = dbrow_getfield(int0, 991280, 0);
     var int4 = 100;
@@ -33,12 +33,12 @@ function script18010(): void {
         };
         int7 = (int7 + 1);
     };
-    var int9 = comp(1227, 36);
+    var int9 = comp(1227, 36);  // bp3_track_tab:reward_track_scroll_section
     script17927();
     var int10 = (int6 * (int4 + int5));
     IF_SETSCROLLPOS(0, 0, int9);
     IF_SETSCROLLSIZE(int10, IF_GETHEIGHT(int9), int9);
     script11147(80412707, int9);
-    IF_SETONTIMER(callback(script18012, 15, 1, int0, 0, 3, 0, 3, 0), comp(1227, 33));
+    IF_SETONTIMER(callback(script18012, 15, 1, int0, 0, 3, 0, 3, 0), comp(1227, 33));  // bp3_track_tab:reward_track_section
     return;
 }

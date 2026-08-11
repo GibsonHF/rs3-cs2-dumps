@@ -15,10 +15,10 @@ function script18441(int0: number): void {
             int5 = 59;
         };
         string0 = script3382(int3, int4, int5, -1, 1, 0);
-        IF_SETTEXT(string0, comp(1280, 13));
+        IF_SETTEXT(string0, comp(1280, 13));  // buff_select_event:buff_expire_countdown_text
     } else {
         script18442(1);
     };
-    IF_SETTEXT(`This event ends: ${script18408(int2)}`, comp(1280, 11));
+    IF_SETTEXT(`This event ends: ${script18408(int2)}`, comp(1280, 11));  // buff_select_event:event_buff_event_end_text
     return;
 }

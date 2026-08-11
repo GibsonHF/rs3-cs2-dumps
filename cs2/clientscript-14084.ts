@@ -53,35 +53,35 @@ function script14084(int0: number): void {
             }
         };
     } else {
-        IF_SETOPKEY(1, 0, 0, comp(105, 225));
-        IF_SETOPKEY(1, 0, 0, comp(105, 12));
-        IF_SETOPKEY(1, 0, 0, comp(105, 26));
-        IF_SETOPKEY(1, 0, 0, comp(105, 40));
-        IF_SETOPKEY(1, 0, 0, comp(105, 54));
-        IF_SETOPKEY(1, 0, 0, comp(105, 68));
-        IF_SETOPKEY(1, 0, 0, comp(105, 82));
-        IF_SETOPKEY(1, 0, 0, comp(105, 96));
-        IF_SETOPKEY(1, 0, 0, comp(105, 110));
-        IF_SETOPKEY(1, 0, 0, comp(105, 16));
-        IF_SETOPKEY(1, 0, 0, comp(105, 30));
-        IF_SETOPKEY(1, 0, 0, comp(105, 44));
-        IF_SETOPKEY(1, 0, 0, comp(105, 58));
-        IF_SETOPKEY(1, 0, 0, comp(105, 72));
-        IF_SETOPKEY(1, 0, 0, comp(105, 86));
-        IF_SETOPKEY(1, 0, 0, comp(105, 100));
-        IF_SETOPKEY(1, 0, 0, comp(105, 114));
-        IF_SETOPKEY(1, 0, 0, comp(105, 19));
-        IF_SETOPKEY(1, 0, 0, comp(105, 33));
-        IF_SETOPKEY(1, 0, 0, comp(105, 47));
-        IF_SETOPKEY(1, 0, 0, comp(105, 61));
-        IF_SETOPKEY(1, 0, 0, comp(105, 75));
-        IF_SETOPKEY(1, 0, 0, comp(105, 89));
-        IF_SETOPKEY(1, 0, 0, comp(105, 103));
-        IF_SETOPKEY(1, 0, 0, comp(105, 117));
-        IF_SETOPKEY(1, 0, 0, comp(105, 124));
-        IF_SETOPKEY(1, 0, 0, comp(105, 131));
-        IF_SETOPKEY(1, 0, 0, comp(651, 0));
-        IF_SETOPKEY(1, 0, 0, comp(651, 1));
+        IF_SETOPKEY(1, 0, 0, comp(105, 225));  // stockmarket:offertype_icon ?
+        IF_SETOPKEY(1, 0, 0, comp(105, 12));  // stockmarket:choosebuy0_button_on_layer ?
+        IF_SETOPKEY(1, 0, 0, comp(105, 26));  // stockmarket:abort_holder0 ?
+        IF_SETOPKEY(1, 0, 0, comp(105, 40));  // stockmarket:choosesell1_button_over_layer ?
+        IF_SETOPKEY(1, 0, 0, comp(105, 54));  // stockmarket:choosebuy2_button_on_layer ?
+        IF_SETOPKEY(1, 0, 0, comp(105, 68));  // stockmarket:abort_holder2 ?
+        IF_SETOPKEY(1, 0, 0, comp(105, 82));  // stockmarket:choosesell3_button_over_layer ?
+        IF_SETOPKEY(1, 0, 0, comp(105, 96));  // stockmarket:editmode4 ?
+        IF_SETOPKEY(1, 0, 0, comp(105, 110));  // stockmarket:offerbutton4_hide ?
+        IF_SETOPKEY(1, 0, 0, comp(105, 16));  // stockmarket:choosebuy0_icon ?
+        IF_SETOPKEY(1, 0, 0, comp(105, 30));  // stockmarket:editmode1 ?
+        IF_SETOPKEY(1, 0, 0, comp(105, 44));  // stockmarket:label_layer_1 ?
+        IF_SETOPKEY(1, 0, 0, comp(105, 58));  // stockmarket:choosebuy2_icon ?
+        IF_SETOPKEY(1, 0, 0, comp(105, 72));  // stockmarket:editmode3 ?
+        IF_SETOPKEY(1, 0, 0, comp(105, 86));  // stockmarket:offerbutton3_hide ?
+        IF_SETOPKEY(1, 0, 0, comp(105, 100));  // stockmarket:choosebuy4_button_over_layer ?
+        IF_SETOPKEY(1, 0, 0, comp(105, 114));  // stockmarket:labelbuy4 ?
+        IF_SETOPKEY(1, 0, 0, comp(105, 19));  // stockmarket:choosesell0_button_over_layer ?
+        IF_SETOPKEY(1, 0, 0, comp(105, 33));  // stockmarket:choosebuy1_button_on_layer ?
+        IF_SETOPKEY(1, 0, 0, comp(105, 47));  // stockmarket:abort_holder1 ?
+        IF_SETOPKEY(1, 0, 0, comp(105, 61));  // stockmarket:choosesell2_button_over_layer ?
+        IF_SETOPKEY(1, 0, 0, comp(105, 75));  // stockmarket:choosebuy3_button_on_layer ?
+        IF_SETOPKEY(1, 0, 0, comp(105, 89));  // stockmarket:label_layer_3 ?
+        IF_SETOPKEY(1, 0, 0, comp(105, 103));  // stockmarket:choosebuy4_icon ?
+        IF_SETOPKEY(1, 0, 0, comp(105, 117));  // stockmarket:abort4 ?
+        IF_SETOPKEY(1, 0, 0, comp(105, 124));  // stockmarket:choosebuy5_button_over_layer ?
+        IF_SETOPKEY(1, 0, 0, comp(105, 131));  // stockmarket:choosesell5_button_hit_layer ?
+        IF_SETOPKEY(1, 0, 0, comp(651, 0));  // stockmarket_collectall:send_to_inv_layer ?
+        IF_SETOPKEY(1, 0, 0, comp(651, 1));  // stockmarket_collectall:send_to_bank_layer ?
         script8844(1, 0, 0, 6881424, 0);
     };
     return;

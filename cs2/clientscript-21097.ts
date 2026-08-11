@@ -5,7 +5,7 @@ function script21097(): void {
     if ((int1 != -1)) {
         int2 = dbrow_getfield(int1, 1347616, 0);
     };
-    IF_SETHIDE(false, comp(1443, 10));
+    IF_SETHIDE(false, comp(1443, 10));  // league_parent_relics:detailed
     script8421(94568497, 94568499, 94568498, 94568500, "Membership Required", 21217, 1007, 1, -1, -1);
     var string0 = "You must be a member to activate this relic.";
     if ((int2 == 1)) {

@@ -5,7 +5,7 @@ function script13395(int0: number, int1: number, int2: number, int3: number, int
     var string0 = "0";
     var int9 = 0;
     var int10 = 0;
-    IF_SETSIZE(0, 0, 1, 1, comp(1322, 11));
+    IF_SETSIZE(0, 0, 1, 1, comp(1322, 11));  // minimenu:menu_layer ?
     var int11 = (int2 + (2 * 31));
     var int12 = (int3 + (2 * 31));
     var int13 = (int0 - 31);
@@ -18,15 +18,15 @@ function script13395(int0: number, int1: number, int2: number, int3: number, int
         int12 = (int12 - (int14 - int1));
         int14 = 0;
     };
-    IF_SETHIDE(false, comp(1322, 4));
-    IF_SETPOSITION(int13, int14, 0, 0, comp(1322, 4));
-    IF_SETSIZE(int11, int12, 0, 0, comp(1322, 4));
+    IF_SETHIDE(false, comp(1322, 4));  // minimenu:menu_blocking_layer ?
+    IF_SETPOSITION(int13, int14, 0, 0, comp(1322, 4));  // minimenu:menu_blocking_layer ?
+    IF_SETSIZE(int11, int12, 0, 0, comp(1322, 4));  // minimenu:menu_blocking_layer ?
     script13636(int2, int3, int4, int6, 86638602, 86638601, enum_getvalue(0, 36, 14117 as cs2enum, MAP_LANG()));
     while ((int7 < int5)) {
         [int8, string0, int9] = NOTIFICATIONS_SENDGROUPEDLOCAL(-1, int7);
         if (((varbitplayer_41265 == 0) || (TESTBIT(varplayer_7991, int8) == 0))) {
             script13637(string0, 1, -1, int7, int10, int2, int6, 86638602);
-            if ((CC_FIND(comp(1322, 10), int7) == 1)) {
+            if ((CC_FIND(comp(1322, 10), int7) == 1)) {  // minimenu:menu_build_layer ?
                 cc_setparam(6122, int2);
                 cc_setparam(6123, int3);
                 cc_setparam(6124, int0);

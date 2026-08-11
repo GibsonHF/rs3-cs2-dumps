@@ -24,23 +24,23 @@ function script12674(): void {
         int0 = (int0 + 1);
     };
     if ((varbitplayer_41340 == 1)) {
-        IF_SETHIDE(false, comp(1780, 135));
+        IF_SETHIDE(false, comp(1780, 135));  // mtxbeach16_metaldetecting:redeem_button_disabled_layer
     };
     switch (MAP_LANG()) {
         case 0: {
-            IF_SETGRAPHIC(4368 as graphic, comp(1780, 101));
+            IF_SETGRAPHIC(4368 as graphic, comp(1780, 101));  // mtxbeach16_metaldetecting:treasure_map_bond_text
             break;
         }
         case 1: {
-            IF_SETGRAPHIC(4369 as graphic, comp(1780, 101));
+            IF_SETGRAPHIC(4369 as graphic, comp(1780, 101));  // mtxbeach16_metaldetecting:treasure_map_bond_text
             break;
         }
         case 2: {
-            IF_SETGRAPHIC(4370 as graphic, comp(1780, 101));
+            IF_SETGRAPHIC(4370 as graphic, comp(1780, 101));  // mtxbeach16_metaldetecting:treasure_map_bond_text
             break;
         }
         case 3: {
-            IF_SETGRAPHIC(4371 as graphic, comp(1780, 101));
+            IF_SETGRAPHIC(4371 as graphic, comp(1780, 101));  // mtxbeach16_metaldetecting:treasure_map_bond_text
             break;
         }
     };

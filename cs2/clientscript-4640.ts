@@ -7,7 +7,7 @@ function script4640(int0: number): void {
     if ((int1 == -1 as cs2enum)) {
         return;
     };
-    var int2 = comp(93, 9);
+    var int2 = comp(93, 9);  // div_porter:porter_list_build
     CC_DELETEALL(int2);
     CC_CREATE(int2, 4, IF_GETNEXTSUBID(int2));
     script2733(int2, CC_GETID(), 1);
@@ -35,8 +35,8 @@ function script4640(int0: number): void {
         CC_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643));
         int5 = (int5 + (16 * MODULO(int3, 2)));
     };
-    IF_SETSCROLLPOS(0, 0, comp(93, 8));
-    IF_SETSCROLLSIZE(0, MAX(IF_GETHEIGHT(comp(93, 4)), (int5 + 16)), comp(93, 8));
+    IF_SETSCROLLPOS(0, 0, comp(93, 8));  // div_porter:porter_list_layer
+    IF_SETSCROLLSIZE(0, MAX(IF_GETHEIGHT(comp(93, 4) /*div_porter:porter_options_layer*/), (int5 + 16)), comp(93, 8) /*div_porter:porter_list_layer*/);
     script7791(6094858, 6094856);
     return;
 }

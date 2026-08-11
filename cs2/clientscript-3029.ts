@@ -33,7 +33,7 @@ function script3029(int0: number, int1: number, int2: number, int3: number, int4
         int19 = 40;
         int20 = (int20 + 7);
     } else {
-        IF_SETSIZE(0, int19, 1, 0, comp(909, 13));
+        IF_SETSIZE(0, int19, 1, 0, comp(909, 13));  // lobbyscreen_pane_friendslist:friends_mo_bg
     };
     switch (int9) {
         case -2: {

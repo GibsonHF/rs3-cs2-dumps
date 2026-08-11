@@ -1,6 +1,6 @@
 //
 function script3424(): void {
-    IF_SETSCROLLSIZE(IF_GETWIDTH(comp(60, 285)), IF_GETHEIGHT(comp(60, 286)), comp(60, 285));
+    IF_SETSCROLLSIZE(IF_GETWIDTH(comp(60, 285) /*castlewars_trade:misc_scrolling_item_layer*/), IF_GETHEIGHT(comp(60, 286) /*castlewars_trade:misc_big_layer_to_hold_items*/), comp(60, 285) /*castlewars_trade:misc_scrolling_item_layer*/);
     script31(3932447, 3932445, 5666, 5663, 5664, 5665, 5686, 5685);
     script3425(3932454, 3932449);
     script3425(3932461, 3932456);

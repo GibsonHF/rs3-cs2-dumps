@@ -7,9 +7,9 @@ function script10568(): void {
         return;
     };
     varbitplayer_24852 = 2;
-    IF_SETGRAPHIC(23964 as graphic, comp(1533, 5));
-    IF_SETTEXT("Be made to walk the plank by an enraged pirate.", comp(1533, 33));
-    IF_SETTEXT("Buy Walk the Plank emote?", comp(1533, 34));
-    IF_SETHIDE(false, comp(1533, 29));
+    IF_SETGRAPHIC(23964 as graphic, comp(1533, 5));  // trh29_pirate_coins_shop:popup_icon
+    IF_SETTEXT("Be made to walk the plank by an enraged pirate.", comp(1533, 33));  // trh29_pirate_coins_shop:popup_description
+    IF_SETTEXT("Buy Walk the Plank emote?", comp(1533, 34));  // trh29_pirate_coins_shop:popup_question
+    IF_SETHIDE(false, comp(1533, 29));  // trh29_pirate_coins_shop:popup_layer
     return;
 }

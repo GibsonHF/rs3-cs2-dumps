@@ -1,8 +1,8 @@
 //
 function script3954(): void {
-    IF_SETONVARTRANSMIT(callback(script3937, 9855, 9846, 2), comp(1802, 155));
-    CC_DELETEALL(comp(1802, 155));
-    CC_DELETEALL(comp(1802, 156));
+    IF_SETONVARTRANSMIT(callback(script3937, 9855, 9846, 2), comp(1802, 155));  // timed_event:summary_button_build_area
+    CC_DELETEALL(comp(1802, 155));  // timed_event:summary_button_build_area
+    CC_DELETEALL(comp(1802, 156));  // timed_event:summary_button_click_area
     script13980(118096027, 118096028, 28553, 462, 322, 200, 0, script734(OR(varbitplayer_49336, varbitplayer_49339)), "250 Runecoins");
     script13980(118096027, 118096028, 28553, 462, 362, 200, 1, script734(OR(varbitplayer_49336, varbitplayer_49339)), "1 Bond");
     return;
