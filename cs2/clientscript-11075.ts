@@ -7,7 +7,7 @@ function script11075(int0: number): void {
     if ((((varclient_6864 + 100) > CLIENTCLOCK()) || (IF_HASSUBMODAL(comp(1477, 38), 475) == 1))) {  // toplevel_v2:machinima_camera
         return;
     };
-    var int1 = 1983;
+    var int1 = 8139;
     if ((int0 == 2)) {
         int1 = 16284;
     };

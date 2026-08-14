@@ -46319,6 +46319,12 @@
 	},
 	{
 		"extra": {
+			"spell_desc": "<col=0x00ff00>+9%</col> catch rate while fishing." // 2795
+		},
+		"id": 3638
+	},
+	{
+		"extra": {
 			"extra_000ED5": 1, // 3797
 			"extra_000EDA": 10203, // 3802
 			"extra_000EDF": 55, // 3807
