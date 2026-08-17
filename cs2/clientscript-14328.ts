@@ -6,37 +6,51 @@ function script14328(int0: number, int1: number, int2: number): [number, number]
             case 45:
             case 30: {
                 script1296("You can't do that now.");
-                return [int1, int2];
+                stack(int1);
+                return [int2, 0];
             }
         };
     };
-    var int3 = UI_GETCATEGORY(int0);
-    var int4 = UI_GETDYNID(int0);
-    if ((int3 == 0)) {
-        if (((int4 >= 0) && (int4 <= 7))) {
-            if ((int4 == int1)) {
+    var int4 = UI_GETCATEGORY(int0);
+    var int5 = UI_GETDYNID(int0);
+    if ((int4 == 0)) {
+        if (((int5 >= 0) && (int5 <= 7))) {
+            if ((int5 == int1)) {
                 switch (int2) {
                     case 127: {
-                        return [int1, 126];
+                        stack(int1);
+                        return [126, 0];
                     }
                     case 126: {
-                        return [63, 127];
+                        stack(63);
+                        return [127, 0];
                     }
                 };
-                return [int1, 126];
+                stack(int1);
+                return [126, 0];
             };
-            return [int4, 127];
+            stack(int5);
+            return [127, 0];
         };
-        if ((int4 == 63)) {
-            return [63, 127];
+        if ((int5 == 63)) {
+            if ((int3 == 1)) {
+                stack(int1);
+                return [int2, 0];
+            };
+            stack(63);
+            return [127, 0];
         };
-        if ((int4 == 62)) {
-            return [62, 127];
+        if ((int5 == 62)) {
+            stack(62);
+            return [127, 0];
         };
-        return [63, 127];
+        stack(63);
+        return [127, 0];
     };
-    if ((int2 == int4)) {
-        return [int1, 127];
+    if ((int2 == int5)) {
+        stack(int1);
+        return [127, 0];
     };
-    return [int1, int4];
+    stack(int1);
+    return [int5, 0];
 }

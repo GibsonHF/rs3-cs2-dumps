@@ -63,5 +63,8 @@ function script14434(int0: number): number {
     if ((script12517(1008, int0, 0) != -1)) {
         return 1;
     };
+    if ((script12517(1004, int0, 0) != -1)) {
+        return 1;
+    };
     return 0;
 }

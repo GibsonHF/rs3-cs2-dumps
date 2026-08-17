@@ -10,22 +10,25 @@ function script20805(int0: number, int1: number, int2: number, int3: number, int
             }
         };
     };
-    var int8 = 0;
     var int9 = 0;
-    [int8, int9] = script14328(int1, varbitclient_61226, varbitclient_61227);
-    if (((int8 == varbitclient_61226) && (int9 == varbitclient_61227))) {
-        script20801(int0, varbitclient_61226, varbitclient_61227, int2, int3, int4, int5, int6, int7);
+    var int10 = 0;
+    var int11 = 0;
+    [int9, int10, int11] = [int1, script14328(varbitclient_61226, varbitclient_61227, varbitclient_61875)];
+    if (((int9 == varbitclient_61226) && (int10 == varbitclient_61227))) {
+        stack(int0);
+        script20801(varbitclient_61226, varbitclient_61227, int2, int3, int4, int5, int6, int7, int8);
         return;
     };
-    varbitclient_61226 = int8;
-    varbitclient_61227 = int9;
-    script20801(int0, varbitclient_61226, varbitclient_61227, int2, int3, int4, int5, int6, int7);
+    varbitclient_61226 = int9;
+    varbitclient_61227 = int10;
+    stack(int0);
+    script20801(varbitclient_61226, varbitclient_61227, int2, int3, int4, int5, int6, int7, int8);
     switch (int0) {
         case 99352586: {
             script20769();
             break;
         }
-        case 99090443: {
+        case 99090444: {
             break;
         }
         case 99483657: {
@@ -36,6 +39,7 @@ function script20805(int0: number, int1: number, int2: number, int3: number, int
             break;
         }
     };
-    script20806(int2, int3, int4, int5, int6, varbitclient_61228, int7, 1);
+    stack(int2);
+    script20806(int3, int4, int5, int6, int7, varbitclient_61228, int8, 1);
     return;
 }

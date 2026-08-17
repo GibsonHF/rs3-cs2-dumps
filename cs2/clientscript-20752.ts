@@ -3,14 +3,16 @@ function script20752(int0: number, int1: number, int2: number, int3: number, int
     if ((varbitclient_61226 != 62)) {
         return;
     };
-    if ((int7 == 18460)) {
-        script20751(int0, int1, int2, int3, int4, int5, int6, 1);
+    if ((int8 == 18460)) {
+        stack(int0);
+        script20751(int1, int2, int3, int4, int5, int6, int7, 1);
         return;
     };
-    if ((varbitclient_61230 != int5)) {
-        varbitclient_61230 = int5;
+    if ((varbitclient_61230 != int6)) {
+        varbitclient_61230 = int6;
         script16257();
-        script20751(int0, int1, int2, int3, int4, int5, int6, 1);
+        stack(int0);
+        script20751(int1, int2, int3, int4, int5, int6, int7, 1);
     };
     return;
 }

@@ -26,7 +26,7 @@ function script20800(int0: number, int1: number, int2: number, string0: string):
             script20767();
             break;
         }
-        case 99090442: {
+        case 99090443: {
             script20748();
             break;
         }

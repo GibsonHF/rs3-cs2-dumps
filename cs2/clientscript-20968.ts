@@ -3,7 +3,7 @@ function script20968(): void {
     if (((varplayer_12314 > 0) && (varbitplayer_61589 == 1))) {
         switch (int0) {
             case 5: {
-                stack(200);
+                stack(2000);
                 return;
             }
             case 6: {

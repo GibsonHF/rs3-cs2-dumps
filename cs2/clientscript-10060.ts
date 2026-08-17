@@ -1,12 +1,15 @@
 //
 function script10060(): number {
-    stack(1200128);
-    stack(varbitplayer_55991);
-    DB_FIND(0);
-    var int0 = dbrow_findnext();
-    if ((int0 == -1)) {
-        script12478(`Unable to locate runecrafting_altars dbrow with id = ${inttostring(varbitplayer_55991, 10)}`);
-        return 2478;
+    switch (MAP_LANG()) {
+        case 1: {
+            return 35196;
+        }
+        case 2: {
+            return 35199;
+        }
+        case 3: {
+            return 35200;
+        }
     };
-    return dbrow_getfield(int0, 1200160, 0);
+    return 35197;
 }

@@ -6,8 +6,8 @@ function script20811(int0: number, int1: number, int2: number): void {
             IF_CALLONRESIZE(int0);
             break;
         }
-        case 99090447: {
-            IF_SETONRESIZE(callback(script20749, int0, int1, int2), int0);
+        case 99090448: {
+            IF_SETONRESIZE(callback(script20749, int0, int1, int2, int3), int0);
             IF_CALLONRESIZE(int0);
             break;
         }

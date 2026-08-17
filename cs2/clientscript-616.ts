@@ -4,6 +4,9 @@ function script616(int0: number, int1: number, int2: number, int3: number, int4:
         return;
     };
     var int7 = dbrow_getfield(int4, 1515584, 0);
+    if ((int7 == -1 as obj)) {
+        int7 = dbrow_getfield(int4, 1576992, 0);
+    };
     IF_SETHIDE(false, int0);
     IF_SETOBJECT(int7, -1, int2);
     var int8 = 0;

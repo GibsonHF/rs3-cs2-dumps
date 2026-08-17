@@ -1,12 +1,7 @@
 //
 function script3725(int0: number): number {
-    if ((IF_HASSUBMODAL(script8074(), 1253) == 1)) {
-        if ((varplayer_8745 == 5606 as dbrow)) {
-            return 0;
-        };
-        if (((varplayer_8745 != -1 as dbrow) && (dbrow_getfield(varplayer_8745, 291008, 0) != -1))) {
-            return 0;
-        };
+    if (((IF_HASSUBMODAL(script8074(), 1253) == 1) && (varplayer_8745 == 5606 as dbrow))) {
+        return 0;
     };
     var int1 = -1;
     var int2 = -1;

@@ -1,28 +1,19 @@
 //
 function script4001(int0: number, string0: string, string1: string): string {
-    var string2 = string0;
-    if ((struct_getparam(int0, 1345) > 0)) {
-        if ((STRING_LENGTH(quest_getparam(struct_getparam(int0, 1403), 7814)) > 0)) {
-            if ((strcmp(string0, "") != 0)) {
-                var string0 = strconcat(string0, "<br>");
-            };
-            string0 = strconcat(string0, "Quest Start:<br>");
-            string0 = strconcat(string0, quest_getparam(struct_getparam(int0, 1403), 7814));
-        };
-        if ((STRING_LENGTH(quest_getparam(struct_getparam(int0, 1403), 5968)) > 0)) {
-            if ((strcmp(string0, "") != 0)) {
-                if ((STRING_LENGTH(quest_getparam(struct_getparam(int0, 1403), 7814)) > 0)) {
-                    string0 = strconcat(string0, "<br><br>");
-                } else {
-                    string0 = strconcat(string0, "<br>");
-                };
-            };
-            string0 = strconcat(string0, "Description:<br>");
-            string0 = strconcat(string0, quest_getparam(struct_getparam(int0, 1403), 5968));
-        };
+    stack(1515520);
+    stack(int0);
+    DB_FIND(0);
+    var int1 = dbrow_findnext();
+    if ((int1 == -1)) {
+        return 0;
     };
-    if ((((strcmp(string2, "") == 0) && (strcmp(string0, "") != 0)) && (strcmp(string1, "") != 0))) {
-        string0 = strconcat(string0, "<br>");
+    var int2 = dbrow_getfield(int1, 1515856, 0);
+    if ((int2 != -1)) {
+        return 0;
     };
-    return string0;
+    var int3 = DB_GETFIELDCOUNT(int2, 1572864);
+    if ((int3 <= 0)) {
+        return 0;
+    };
+    return 1;
 }

@@ -467121,6 +467121,14 @@
   },
   {
     "domain": "PLAYER",
+    "source": "13487",
+    "lsb": 13,
+    "msb": 13,
+    "wiki_sync": false,
+    "id": "58390 [league_locality_overview_tab]"
+  },
+  {
+    "domain": "PLAYER",
     "source": "12330 [league_locality_ui]",
     "lsb": 4,
     "msb": 9,
@@ -472798,6 +472806,14 @@
     "msb": 9,
     "wiki_sync": false,
     "id": "59100 [league_task_woodcutting_elder_logs_tirannwn_25]"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "13487",
+    "lsb": 14,
+    "msb": 14,
+    "wiki_sync": false,
+    "id": "59101 [league_task_hunter_catch_crystal_skillchompas_tirannwn_75]"
   },
   {
     "domain": "PLAYER",
@@ -493457,9 +493473,9 @@
   },
   {
     "domain": "PLAYER",
-    "source": "13513",
-    "lsb": 7,
-    "msb": 7,
+    "source": "13492",
+    "lsb": 8,
+    "msb": 8,
     "wiki_sync": false,
     "id": "61684"
   },
@@ -494958,5 +494974,77 @@
     "msb": 23,
     "wiki_sync": false,
     "id": "61871"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "13487",
+    "lsb": 15,
+    "msb": 15,
+    "wiki_sync": false,
+    "id": "61872"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "12904 [construction_house_ui_1]",
+    "lsb": 30,
+    "msb": 30,
+    "wiki_sync": false,
+    "id": "61873"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "12905 [construction_house_ui_2]",
+    "lsb": 9,
+    "msb": 16,
+    "wiki_sync": false,
+    "id": "61874"
+  },
+  {
+    "domain": "CLIENT",
+    "source": "8423 [construction_house_ui_client_1]",
+    "lsb": 30,
+    "msb": 30,
+    "wiki_sync": false,
+    "id": "61875"
+  },
+  {
+    "domain": "CLIENT",
+    "source": "8424 [construction_house_ui_client_2]",
+    "lsb": 9,
+    "msb": 16,
+    "wiki_sync": false,
+    "id": "61876"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "13492",
+    "lsb": 7,
+    "msb": 7,
+    "wiki_sync": false,
+    "id": "61877"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "13487",
+    "lsb": 16,
+    "msb": 16,
+    "wiki_sync": false,
+    "id": "61878"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "13487",
+    "lsb": 17,
+    "msb": 17,
+    "wiki_sync": false,
+    "id": "61879"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "13487",
+    "lsb": 18,
+    "msb": 18,
+    "wiki_sync": false,
+    "id": "61880"
   }
 ]

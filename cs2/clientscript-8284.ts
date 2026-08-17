@@ -309,9 +309,6 @@ function script8284(int0: number, int1: number): number {
             break;
         }
         case 7: {
-            if ((script3825() == 1)) {
-                return 0;
-            };
             int3 = (int3 + 1);
             while ((int3 <= int4)) {
                 switch (int3) {
@@ -339,6 +336,9 @@ function script8284(int0: number, int1: number): number {
                         int2 = 1;
                         break;
                     }
+                };
+                if (((int3 != 1) && (script3825() == 1))) {
+                    int2 = 1;
                 };
                 if ((int2 == 0)) {
                     if ((int1 == -1)) {

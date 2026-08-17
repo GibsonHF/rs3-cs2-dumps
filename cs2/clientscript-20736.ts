@@ -35,7 +35,7 @@ function script20736(int0: number): void {
         };
     };
     varbitclient_61229 = (1 - varbitclient_61229);
-    IF_SETONTIMER(callback(script20737), comp(1512, 24));  // house_furniture_catalogue:toggle_button_align
+    IF_SETONTIMER(callback(script20737), comp(1512, 26));  // house_furniture_catalogue:toggle_button
     script20738();
     return;
 }

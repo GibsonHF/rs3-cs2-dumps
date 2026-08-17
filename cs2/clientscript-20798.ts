@@ -6,7 +6,7 @@ function script20798(): void {
             script20769();
             break;
         }
-        case 99090442: {
+        case 99090443: {
             script20746();
             break;
         }

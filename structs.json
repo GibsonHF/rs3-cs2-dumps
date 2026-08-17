@@ -39454,7 +39454,8 @@
 			"extra_0011F0": "rs:packs:iaia_fighter_bundle", // 4592
 			"sgs_pack_components": 6965, // 4717
 			"th_available_date": 8909, // 4742
-			"extra_001288": 2435 // 4744
+			"extra_001288": 2435, // 4744
+			"extra_0013B7": 1 // 5047
 		},
 		"id": 3058
 	},
@@ -39464,7 +39465,8 @@
 			"extra_0011F0": "rs:packs:iaia_traveller_bundle", // 4592
 			"sgs_pack_components": 6966, // 4717
 			"th_available_date": 8909, // 4742
-			"extra_001288": 2436 // 4744
+			"extra_001288": 2436, // 4744
+			"extra_0013B7": 1 // 5047
 		},
 		"id": 3059
 	},
@@ -45233,7 +45235,8 @@
 			"extra_0011F0": "rs:packs:arcane_apprentice_bundle", // 4592
 			"sgs_pack_components": 7275, // 4717
 			"th_available_date": 8909, // 4742
-			"extra_001288": 2437 // 4744
+			"extra_001288": 2437, // 4744
+			"extra_0013B7": 1 // 5047
 		},
 		"id": 3549
 	},
@@ -45440,17 +45443,16 @@
 	{
 		"extra": {
 			"solomons_category": 7, // 2531
-			"SGS_sub_group": 1, // 2532
 			"SGS_name": "Anniversary Architect Bundle", // 2533
 			"extra_0011F0": "rs:packs:anniversary_architect_bundle", // 4592
-			"sgs_pack_components": 8375 // 4717
+			"sgs_pack_components": 8375, // 4717
+			"extra_001288": 2448 // 4744
 		},
 		"id": 3566
 	},
 	{
 		"extra": {
 			"solomons_category": 7, // 2531
-			"SGS_sub_group": 1, // 2532
 			"SGS_name": "Anniversary Architect Display Shield", // 2533
 			"extra_0010AB": 1, // 4267
 			"extra_002426": 18257, // 9254
@@ -45461,7 +45463,6 @@
 	{
 		"extra": {
 			"solomons_category": 7, // 2531
-			"SGS_sub_group": 1, // 2532
 			"SGS_name": "Anniversary Architect Display Shield (Crossed)", // 2533
 			"extra_0010AB": 1, // 4267
 			"extra_002426": 18257, // 9254
@@ -45472,7 +45473,6 @@
 	{
 		"extra": {
 			"solomons_category": 7, // 2531
-			"SGS_sub_group": 1, // 2532
 			"SGS_name": "Anniversary Architect Banner", // 2533
 			"extra_002426": 18276, // 9254
 			"extra_0024F1": 19518 // 9457
@@ -45482,7 +45482,6 @@
 	{
 		"extra": {
 			"solomons_category": 7, // 2531
-			"SGS_sub_group": 1, // 2532
 			"SGS_name": "Anniversary Architect Tall Banner", // 2533
 			"extra_002426": 18281, // 9254
 			"extra_0024F1": 19519 // 9457
@@ -45492,7 +45491,6 @@
 	{
 		"extra": {
 			"solomons_category": 7, // 2531
-			"SGS_sub_group": 1, // 2532
 			"SGS_name": "Anniversary Architect Plushie", // 2533
 			"extra_002426": 18379, // 9254
 			"extra_0024F1": 19517 // 9457
@@ -45502,7 +45500,6 @@
 	{
 		"extra": {
 			"solomons_category": 7, // 2531
-			"SGS_sub_group": 1, // 2532
 			"SGS_name": "Anniversary Architect Statue", // 2533
 			"extra_002426": 18256, // 9254
 			"extra_0024F1": 19516 // 9457
@@ -45512,7 +45509,6 @@
 	{
 		"extra": {
 			"solomons_category": 7, // 2531
-			"SGS_sub_group": 1, // 2532
 			"SGS_name": "Anniversary Architect Plaque (Wall)", // 2533
 			"extra_0010AB": 1, // 4267
 			"extra_002426": 19499, // 9254
@@ -45523,7 +45519,6 @@
 	{
 		"extra": {
 			"solomons_category": 7, // 2531
-			"SGS_sub_group": 1, // 2532
 			"SGS_name": "Anniversary Architect Plaque (Floor)", // 2533
 			"extra_002426": 19500, // 9254
 			"extra_0024F1": 19521 // 9457
@@ -45533,17 +45528,16 @@
 	{
 		"extra": {
 			"solomons_category": 7, // 2531
-			"SGS_sub_group": 1, // 2532
 			"SGS_name": "Party Decoration Bundle", // 2533
 			"extra_0011F0": "rs:packs:party_balloon_bundle", // 4592
-			"sgs_pack_components": 11262 // 4717
+			"sgs_pack_components": 11262, // 4717
+			"extra_001288": 2449 // 4744
 		},
 		"id": 3575
 	},
 	{
 		"extra": {
 			"solomons_category": 7, // 2531
-			"SGS_sub_group": 1, // 2532
 			"SGS_name": "Red Party Balloons (standing)", // 2533
 			"extra_002426": 19502, // 9254
 			"extra_0024F1": 19524 // 9457
@@ -45553,7 +45547,6 @@
 	{
 		"extra": {
 			"solomons_category": 7, // 2531
-			"SGS_sub_group": 1, // 2532
 			"SGS_name": "Red Party Balloons (floor)", // 2533
 			"extra_002426": 19501, // 9254
 			"extra_0024F1": 19525 // 9457
@@ -45563,7 +45556,6 @@
 	{
 		"extra": {
 			"solomons_category": 7, // 2531
-			"SGS_sub_group": 1, // 2532
 			"SGS_name": "Red Party Balloons (wall)", // 2533
 			"extra_0010AB": 1, // 4267
 			"extra_002426": 19503, // 9254
@@ -45574,7 +45566,6 @@
 	{
 		"extra": {
 			"solomons_category": 7, // 2531
-			"SGS_sub_group": 1, // 2532
 			"SGS_name": "Blue Party Balloons (standing)", // 2533
 			"extra_002426": 19502, // 9254
 			"extra_0024F1": 19527 // 9457
@@ -45584,7 +45575,6 @@
 	{
 		"extra": {
 			"solomons_category": 7, // 2531
-			"SGS_sub_group": 1, // 2532
 			"SGS_name": "Blue Party Balloons (floor)", // 2533
 			"extra_002426": 19501, // 9254
 			"extra_0024F1": 19528 // 9457
@@ -45594,7 +45584,6 @@
 	{
 		"extra": {
 			"solomons_category": 7, // 2531
-			"SGS_sub_group": 1, // 2532
 			"SGS_name": "Blue Party Balloons (wall)", // 2533
 			"extra_0010AB": 1, // 4267
 			"extra_002426": 19503, // 9254
@@ -45605,7 +45594,6 @@
 	{
 		"extra": {
 			"solomons_category": 7, // 2531
-			"SGS_sub_group": 1, // 2532
 			"SGS_name": "Yellow Party Balloons (standing)", // 2533
 			"extra_002426": 19502, // 9254
 			"extra_0024F1": 19530 // 9457
@@ -45615,7 +45603,6 @@
 	{
 		"extra": {
 			"solomons_category": 7, // 2531
-			"SGS_sub_group": 1, // 2532
 			"SGS_name": "Yellow Party Balloons (floor)", // 2533
 			"extra_002426": 19501, // 9254
 			"extra_0024F1": 19531 // 9457
@@ -45625,7 +45612,6 @@
 	{
 		"extra": {
 			"solomons_category": 7, // 2531
-			"SGS_sub_group": 1, // 2532
 			"SGS_name": "Yellow Party Balloons (wall)", // 2533
 			"extra_0010AB": 1, // 4267
 			"extra_002426": 19503, // 9254
@@ -45636,7 +45622,6 @@
 	{
 		"extra": {
 			"solomons_category": 7, // 2531
-			"SGS_sub_group": 1, // 2532
 			"SGS_name": "Mixed Party Balloons (standing)", // 2533
 			"extra_002426": 19502, // 9254
 			"extra_0024F1": 19533 // 9457
@@ -45646,7 +45631,6 @@
 	{
 		"extra": {
 			"solomons_category": 7, // 2531
-			"SGS_sub_group": 1, // 2532
 			"SGS_name": "Mixed Party Balloons (floor)", // 2533
 			"extra_002426": 19501, // 9254
 			"extra_0024F1": 19534 // 9457
@@ -45656,7 +45640,6 @@
 	{
 		"extra": {
 			"solomons_category": 7, // 2531
-			"SGS_sub_group": 1, // 2532
 			"SGS_name": "Mixed Party Balloons (wall)", // 2533
 			"extra_0010AB": 1, // 4267
 			"extra_002426": 19503, // 9254
@@ -45667,7 +45650,6 @@
 	{
 		"extra": {
 			"solomons_category": 7, // 2531
-			"SGS_sub_group": 1, // 2532
 			"SGS_name": "Party Bunting", // 2533
 			"extra_0010AB": 1, // 4267
 			"extra_002426": 19504, // 9254
@@ -45678,17 +45660,16 @@
 	{
 		"extra": {
 			"solomons_category": 7, // 2531
-			"SGS_sub_group": 1, // 2532
 			"SGS_name": "Party Cannon Bundle", // 2533
 			"extra_0011F0": "rs:packs:party_cannon_bundle", // 4592
-			"sgs_pack_components": 11263 // 4717
+			"sgs_pack_components": 11263, // 4717
+			"extra_001288": 2450 // 4744
 		},
 		"id": 3589
 	},
 	{
 		"extra": {
 			"solomons_category": 7, // 2531
-			"SGS_sub_group": 1, // 2532
 			"SGS_name": "Confetti Party Cannon", // 2533
 			"extra_002426": 19505, // 9254
 			"extra_0024F1": 19537 // 9457
@@ -45698,7 +45679,6 @@
 	{
 		"extra": {
 			"solomons_category": 7, // 2531
-			"SGS_sub_group": 1, // 2532
 			"SGS_name": "Firework Party Cannon", // 2533
 			"extra_002426": 19505, // 9254
 			"extra_0024F1": 19538 // 9457
@@ -46319,9 +46299,167 @@
 	},
 	{
 		"extra": {
-			"spell_desc": "<col=0x00ff00>+9%</col> catch rate while fishing." // 2795
+			"solomons_category": 7, // 2531
+			"SGS_name": "Blooming Fountain Bundle", // 2533
+			"extra_0011F0": "rs:packs:blooming_fountain_bundle", // 4592
+			"sgs_pack_components": 9080, // 4717
+			"extra_001288": 2445 // 4744
 		},
 		"id": 3638
+	},
+	{
+		"extra": {
+			"solomons_category": 7, // 2531
+			"SGS_name": "Blooming Archway and Bench Bundle", // 2533
+			"extra_0011F0": "rs:packs:blooming_flowered_bundle", // 4592
+			"sgs_pack_components": 13616, // 4717
+			"extra_001288": 2446 // 4744
+		},
+		"id": 3639
+	},
+	{
+		"extra": {
+			"solomons_category": 7, // 2531
+			"SGS_name": "Blooming Trellis Bundle", // 2533
+			"extra_0011F0": "rs:packs:blooming_trellis_bundle", // 4592
+			"sgs_pack_components": 13617, // 4717
+			"extra_001288": 2447 // 4744
+		},
+		"id": 3640
+	},
+	{
+		"extra": {
+			"solomons_category": 7, // 2531
+			"SGS_name": "Rose posh fountain", // 2533
+			"extra_002426": 13500, // 9254
+			"extra_0024F1": 19557 // 9457
+		},
+		"id": 3641
+	},
+	{
+		"extra": {
+			"solomons_category": 7, // 2531
+			"SGS_name": "Candlelit rose posh fountain", // 2533
+			"extra_002426": 13500, // 9254
+			"extra_0024F1": 19960 // 9457
+		},
+		"id": 3642
+	},
+	{
+		"extra": {
+			"solomons_category": 7, // 2531
+			"SGS_name": "Rose trellis archway", // 2533
+			"extra_002426": 13501, // 9254
+			"extra_0024F1": 19962 // 9457
+		},
+		"id": 3643
+	},
+	{
+		"extra": {
+			"solomons_category": 7, // 2531
+			"SGS_name": "Rose trellis archway", // 2533
+			"extra_002426": 18100, // 9254
+			"extra_0024F1": 19965 // 9457
+		},
+		"id": 3644
+	},
+	{
+		"extra": {
+			"solomons_category": 7, // 2531
+			"SGS_name": "Poison ivy trellis archway", // 2533
+			"extra_002426": 13501, // 9254
+			"extra_0024F1": 19963 // 9457
+		},
+		"id": 3645
+	},
+	{
+		"extra": {
+			"solomons_category": 7, // 2531
+			"SGS_name": "Poison ivy trellis archway", // 2533
+			"extra_002426": 18100, // 9254
+			"extra_0024F1": 19966 // 9457
+		},
+		"id": 3646
+	},
+	{
+		"extra": {
+			"solomons_category": 7, // 2531
+			"SGS_name": "Rose bench", // 2533
+			"extra_002426": 19541, // 9254
+			"extra_0024F1": 19977 // 9457
+		},
+		"id": 3647
+	},
+	{
+		"extra": {
+			"solomons_category": 7, // 2531
+			"SGS_name": "Rose trellis", // 2533
+			"extra_002426": 19542, // 9254
+			"extra_0024F1": 19968 // 9457
+		},
+		"id": 3648
+	},
+	{
+		"extra": {
+			"solomons_category": 7, // 2531
+			"SGS_name": "Poison ivy trellis", // 2533
+			"extra_002426": 19542, // 9254
+			"extra_0024F1": 19969 // 9457
+		},
+		"id": 3649
+	},
+	{
+		"extra": {
+			"solomons_category": 7, // 2531
+			"SGS_name": "Rose trellis", // 2533
+			"extra_002426": 19543, // 9254
+			"extra_0024F1": 19971 // 9457
+		},
+		"id": 3650
+	},
+	{
+		"extra": {
+			"solomons_category": 7, // 2531
+			"SGS_name": "Poison ivy trellis", // 2533
+			"extra_002426": 19543, // 9254
+			"extra_0024F1": 19972 // 9457
+		},
+		"id": 3651
+	},
+	{
+		"extra": {
+			"solomons_category": 7, // 2531
+			"SGS_name": "Rose trellis", // 2533
+			"extra_002426": 13499, // 9254
+			"extra_0024F1": 19974 // 9457
+		},
+		"id": 3652
+	},
+	{
+		"extra": {
+			"solomons_category": 7, // 2531
+			"SGS_name": "Poison ivy trellis", // 2533
+			"extra_002426": 13499, // 9254
+			"extra_0024F1": 19975 // 9457
+		},
+		"id": 3653
+	},
+	{
+		"extra": {
+			"extra_0018ED": 35186, // 6381
+			"extra_0018F1": 35186, // 6385
+			"extra_0018F2": 35186, // 6386
+			"extra_0018F3": 35186, // 6387
+			"extra_0018F7": "Blooming Gardens", // 6391
+			"extra_0018F8": 14 // 6392
+		},
+		"id": 3654
+	},
+	{
+		"extra": {
+			"spell_desc": "<col=0x00ff00>+9%</col> catch rate while fishing." // 2795
+		},
+		"id": 3655
 	},
 	{
 		"extra": {

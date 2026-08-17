@@ -6911,6 +6911,33 @@ function script6488(int0: number): number {
             };
             break;
         }
+        case 3058: {
+            if ((varbitplayer_30326 == 1)) {
+                return 1;
+            };
+            if ((((((varbitplayer_51301 == 1) && (varbitplayer_51304 == 1)) && (varbitplayer_51302 == 1)) && (varbitplayer_51303 == 1)) && (varbitplayer_51300 == 1))) {
+                return 1;
+            };
+            break;
+        }
+        case 3059: {
+            if ((varbitplayer_30330 == 1)) {
+                return 1;
+            };
+            if ((((((varbitplayer_51297 == 1) && (varbitplayer_51299 == 1)) && (varbitplayer_51295 == 1)) && (varbitplayer_51298 == 1)) && (varbitplayer_51296 == 1))) {
+                return 1;
+            };
+            break;
+        }
+        case 3549: {
+            if ((varbitplayer_30334 == 1)) {
+                return 1;
+            };
+            if (((((((((varbitplayer_55670 == 1) && (varbitplayer_55672 == 1)) && (varbitplayer_55669 == 1)) && (varbitplayer_55675 == 1)) && (varbitplayer_55668 == 1)) && (varbitplayer_55671 == 1)) && (varbitplayer_55673 == 1)) && (varbitplayer_55674 == 1))) {
+                return 1;
+            };
+            break;
+        }
         default: {
             return 1;
         }
