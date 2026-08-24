@@ -1,7 +1,5 @@
 //
 function script17356(int0: number): number {
-    stack(1093632);
-    stack(int0);
-    DB_FIND(0);
-    return dbrow_findnext();
+    IF_SETHIDE(true, comp(1442, 12));  // league_parent_ranks:divider_title
+    return;
 }

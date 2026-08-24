@@ -1,11 +1,5 @@
 //
 function script20200(int0: number): void {
-    if ((int0 < 4)) {
-        IF_SETONTIMER(callback(script20200, (int0 + 1)), comp(1409, 1));
-        return;
-    };
-    IF_SETONTIMER(callback(), comp(1409, 1));
-    IF_SETPARAM_INT(9341, -1, comp(1409, 1));
-    script20201(-1);
+    stack(unk11018(unk11018(WORLDMAP_LISTELEMENT_START(1368160, 7, 3, 0), WORLDMAP_LISTELEMENT_START(1368160, 17, 3, 0)), WORLDMAP_LISTELEMENT_START(1368160, 24, 3, 0)));
     return;
 }

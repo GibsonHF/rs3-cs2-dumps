@@ -1,6 +1,5 @@
 //
 function script20203(): void {
-    varbitplayer_58390 = 0;
-    script20195(0);
+    stack(WORLDMAP_LISTELEMENT_START(1368160, 33, 3, 0));
     return;
 }

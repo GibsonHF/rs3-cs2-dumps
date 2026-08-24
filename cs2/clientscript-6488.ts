@@ -6938,6 +6938,18 @@ function script6488(int0: number): number {
             };
             break;
         }
+        case 3688: {
+            if (((((((varbitplayer_51737 == 1) && (varbitplayer_51738 == 1)) && (varbitplayer_51739 == 1)) && (varbitplayer_51740 == 1)) && (varbitplayer_51741 == 1)) && (varbitplayer_51742 == 1))) {
+                return 1;
+            };
+            return 0;
+        }
+        case 3689: {
+            if (((((((varbitplayer_51743 == 1) && (varbitplayer_51746 == 1)) && (varbitplayer_51744 == 1)) && (varbitplayer_51745 == 1)) && (varbitplayer_51747 == 1)) && (varbitplayer_51748 == 1))) {
+                return 1;
+            };
+            return 0;
+        }
         default: {
             return 1;
         }

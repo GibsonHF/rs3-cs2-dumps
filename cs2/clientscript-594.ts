@@ -6,7 +6,7 @@ function script594(int0: number, int1: number, int2: number, long0: bigint): voi
     IF_SETOBJECT(int1, -1, comp(105, 154));  // stockmarket:choosesell6_button_over_layer ?
     var string0 = "null";
     var string1 = "null";
-    var string2 = "null";
+    var string2 = "";
     var int3 = 0;
     var int4 = 8;
     if ((int0 == 0)) {

@@ -1,7 +1,9 @@
 //
 function script18337(int0: number): number {
-    stack(1097728);
-    stack(int0);
-    DB_FIND(0);
-    return dbrow_findnext();
+    if ((varplayer_13541 < 2)) {
+        IF_SETENABLED(true, int0);
+    } else {
+        IF_SETENABLED(false, int0);
+    };
+    return;
 }

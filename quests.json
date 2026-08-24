@@ -3484,7 +3484,7 @@
 			"quest_combat_req": "You will need to defeat a level 63 giant sea snake.", // 7816
 			"quest_xp_lamp_1": "5,000 Agility XP lamp<br>5,000 Slayer XP lamp", // 7818
 			"quest_xp_lamp_2": "5,000 Constitution XP lamp", // 7820
-			"quest_reward": "20,000 coins<br>Increased resources from Miscellania<br>Access to the dungeon connecting Miscellania and Etceteria", // 7823
+			"quest_reward": "20,000 coins<br>Increased resources from Miscellania<br>Furniture plans to construct a Miscellania table in your player-owned house<br>Access to the dungeon connecting Miscellania and Etceteria", // 7823
 			"quest_icon_small_sprite": 9548, // 7829
 			"quest_age_period": 1, // 7831
 			"quest_release_year": 2006, // 7834
@@ -4832,7 +4832,8 @@
 		"quest_list_name": "Clockwork Syringe, A",
 		"quest_points": 1,
 		"required_quests": [
-			4
+			4,
+			532
 		],
 		"skill_requirements": {
 			"1": 76,
@@ -11802,6 +11803,9 @@
 		"quest_item_sprite": 14969,
 		"quest_list_name": "You Are It",
 		"quest_points": 1,
+		"required_quests": [
+			532
+		],
 		"start_location_path": [
 			43322776
 		],

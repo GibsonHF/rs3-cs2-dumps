@@ -31,11 +31,32 @@ function script20169(int0: number, int1: number, int2: number, int3: number, int
             };
             break;
         }
+        case 15: {
+            int2 = enum_getvalue(0, 0, 9278, varplayer_12351);
+            if (((int2 != -1) && (int2 != 15))) {
+                return script20169(int0, int1, int2, int3, int4);
+            };
+            return -1;
+        }
         case 14: {
+            int2 = 0;
+            if ((int4 == 0)) {
+                stack(int7);
+                int7 = script18338(0);
+            };
+            stack(int2);
+            int2 = (int2 + 1);
+            while (BRANCH_LESS_THAN(11)) {
+                if ((script20133(int2) == 1)) {
+                    stack(int7);
+                    int7 = script18338(int2);
+                };
+            };
+            int6 = IF_SETPLAYERHEAD_SELF(int6, int7);
             break;
         }
         case 8: {
-            int7 = unk11018(unk11018(unk11018(unk11018(unk11018(unk11018(WORLDMAP_LISTELEMENT_START(1368160, 1, 3, 0), WORLDMAP_LISTELEMENT_START(1368160, 2, 3, 0)), WORLDMAP_LISTELEMENT_START(1368160, 27, 3, 0)), WORLDMAP_LISTELEMENT_START(1368160, 21, 3, 0)), WORLDMAP_LISTELEMENT_START(1368160, 34, 3, 0)), WORLDMAP_LISTELEMENT_START(1368160, 35, 3, 0)), WORLDMAP_LISTELEMENT_START(1368160, 18, 3, 0));
+            int7 = script18377();
             if ((int4 == 1)) {
                 int7 = unk11018(int7, WORLDMAP_LISTELEMENT_START(1368160, 0, 3, 0));
             };
@@ -43,7 +64,7 @@ function script20169(int0: number, int1: number, int2: number, int3: number, int
             break;
         }
         case 2: {
-            int7 = unk11018(unk11018(unk11018(unk11018(unk11018(WORLDMAP_LISTELEMENT_START(1368160, 3, 3, 0), WORLDMAP_LISTELEMENT_START(1368160, 22, 3, 0)), WORLDMAP_LISTELEMENT_START(1368160, 8, 3, 0)), WORLDMAP_LISTELEMENT_START(1368160, 30, 3, 0)), WORLDMAP_LISTELEMENT_START(1368160, 32, 3, 0)), WORLDMAP_LISTELEMENT_START(1368160, 26, 3, 0));
+            int7 = script19030();
             if ((int4 == 1)) {
                 int7 = unk11018(int7, WORLDMAP_LISTELEMENT_START(1368160, 0, 3, 0));
             };
@@ -51,7 +72,7 @@ function script20169(int0: number, int1: number, int2: number, int3: number, int
             break;
         }
         case 6: {
-            int7 = unk11018(unk11018(unk11018(unk11018(unk11018(unk11018(unk11018(WORLDMAP_LISTELEMENT_START(1368160, 4, 3, 0), WORLDMAP_LISTELEMENT_START(1368160, 5, 3, 0)), WORLDMAP_LISTELEMENT_START(1368160, 28, 3, 0)), WORLDMAP_LISTELEMENT_START(1368160, 15, 3, 0)), WORLDMAP_LISTELEMENT_START(1368160, 16, 3, 0)), WORLDMAP_LISTELEMENT_START(1368160, 31, 3, 0)), WORLDMAP_LISTELEMENT_START(1368160, 20, 3, 0)), WORLDMAP_LISTELEMENT_START(1368160, 29, 3, 0));
+            int7 = script19135();
             if ((int4 == 1)) {
                 int7 = unk11018(int7, WORLDMAP_LISTELEMENT_START(1368160, 0, 3, 0));
             };
@@ -59,7 +80,7 @@ function script20169(int0: number, int1: number, int2: number, int3: number, int
             break;
         }
         case 3: {
-            int7 = unk11018(WORLDMAP_LISTELEMENT_START(1368160, 11, 3, 0), WORLDMAP_LISTELEMENT_START(1368160, 25, 3, 0));
+            int7 = script19214();
             if ((int4 == 1)) {
                 int7 = unk11018(int7, WORLDMAP_LISTELEMENT_START(1368160, 0, 3, 0));
             };
@@ -67,7 +88,8 @@ function script20169(int0: number, int1: number, int2: number, int3: number, int
             break;
         }
         case 4: {
-            int7 = unk11018(unk11018(WORLDMAP_LISTELEMENT_START(1368160, 7, 3, 0), WORLDMAP_LISTELEMENT_START(1368160, 17, 3, 0)), WORLDMAP_LISTELEMENT_START(1368160, 24, 3, 0));
+            script20200();
+            int7 = [];
             if ((int4 == 1)) {
                 int7 = unk11018(int7, WORLDMAP_LISTELEMENT_START(1368160, 0, 3, 0));
             };
@@ -75,7 +97,8 @@ function script20169(int0: number, int1: number, int2: number, int3: number, int
             break;
         }
         case 10: {
-            int7 = unk11018(WORLDMAP_LISTELEMENT_START(1368160, 13, 3, 0), WORLDMAP_LISTELEMENT_START(1368160, 23, 3, 0));
+            script20201();
+            int7 = [];
             if ((int4 == 1)) {
                 int7 = unk11018(int7, WORLDMAP_LISTELEMENT_START(1368160, 0, 3, 0));
             };
@@ -83,7 +106,8 @@ function script20169(int0: number, int1: number, int2: number, int3: number, int
             break;
         }
         case 11: {
-            int7 = unk11018(WORLDMAP_LISTELEMENT_START(1368160, 14, 3, 0), WORLDMAP_LISTELEMENT_START(1368160, 12, 3, 0));
+            script20202();
+            int7 = [];
             if ((int4 == 1)) {
                 int7 = unk11018(int7, WORLDMAP_LISTELEMENT_START(1368160, 0, 3, 0));
             };
@@ -91,7 +115,8 @@ function script20169(int0: number, int1: number, int2: number, int3: number, int
             break;
         }
         case 1: {
-            int7 = WORLDMAP_LISTELEMENT_START(1368160, 33, 3, 0);
+            script20203();
+            int7 = [];
             if ((int4 == 1)) {
                 int7 = unk11018(int7, WORLDMAP_LISTELEMENT_START(1368160, 0, 3, 0));
             };
@@ -99,7 +124,8 @@ function script20169(int0: number, int1: number, int2: number, int3: number, int
             break;
         }
         case 5: {
-            int7 = WORLDMAP_LISTELEMENT_START(1368160, 36, 3, 0);
+            script20205();
+            int7 = [];
             if ((int4 == 1)) {
                 int7 = unk11018(int7, WORLDMAP_LISTELEMENT_START(1368160, 0, 3, 0));
             };
@@ -107,7 +133,8 @@ function script20169(int0: number, int1: number, int2: number, int3: number, int
             break;
         }
         case 7: {
-            int7 = WORLDMAP_LISTELEMENT_START(1368160, 6, 3, 0);
+            script20206();
+            int7 = [];
             if ((int4 == 1)) {
                 int7 = unk11018(int7, WORLDMAP_LISTELEMENT_START(1368160, 0, 3, 0));
             };
@@ -115,7 +142,8 @@ function script20169(int0: number, int1: number, int2: number, int3: number, int
             break;
         }
         case 9: {
-            int7 = WORLDMAP_LISTELEMENT_START(1368160, 9, 3, 0);
+            script20272();
+            int7 = [];
             if ((int4 == 1)) {
                 int7 = unk11018(int7, WORLDMAP_LISTELEMENT_START(1368160, 0, 3, 0));
             };

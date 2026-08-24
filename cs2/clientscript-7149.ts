@@ -91,6 +91,15 @@ function script7149(int0: number): number {
             };
             break;
         }
+        case 20017: {
+            if ((varbitplayer_61886 == 0)) {
+                if ((((((varbitplayer_61881 == 1) || (varbitplayer_61882 == 1)) || (varbitplayer_61883 == 1)) || (varbitplayer_61884 == 1)) || (varbitplayer_61885 == 1))) {
+                    return 0;
+                };
+                return 1;
+            };
+            break;
+        }
         case 19412: {
             if ((varbitplayer_61460 == 1)) {
                 return 0;

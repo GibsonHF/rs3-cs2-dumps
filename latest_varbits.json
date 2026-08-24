@@ -495046,5 +495046,69 @@
     "msb": 18,
     "wiki_sync": false,
     "id": "61880"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "13487",
+    "lsb": 19,
+    "msb": 19,
+    "wiki_sync": false,
+    "id": "61881"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "13487",
+    "lsb": 20,
+    "msb": 20,
+    "wiki_sync": false,
+    "id": "61882"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "13487",
+    "lsb": 21,
+    "msb": 21,
+    "wiki_sync": false,
+    "id": "61883"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "13487",
+    "lsb": 22,
+    "msb": 22,
+    "wiki_sync": false,
+    "id": "61884"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "13487",
+    "lsb": 23,
+    "msb": 23,
+    "wiki_sync": false,
+    "id": "61885"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "13487",
+    "lsb": 24,
+    "msb": 24,
+    "wiki_sync": false,
+    "id": "61886"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "13428 [construction_house_furniture_recipe_unlocks_2]",
+    "lsb": 17,
+    "msb": 17,
+    "wiki_sync": false,
+    "id": "61887"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "13428 [construction_house_furniture_recipe_unlocks_2]",
+    "lsb": 18,
+    "msb": 18,
+    "wiki_sync": false,
+    "id": "61888"
   }
 ]

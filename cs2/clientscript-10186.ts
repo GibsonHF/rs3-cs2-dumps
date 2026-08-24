@@ -11,7 +11,10 @@ function script10186(int0: number, int1: number): void {
         if ((CC_FIND(comp(517, 203), int2) == 1)) {  // bank:tab_separators
             CC_SETHIDE(true);
         };
-        if ((CC_FIND(comp(517, 204), int2) == 1)) {  // bank:tab_dividers
+        if ((CC_FIND(comp(517, 204), (int2 * 2)) == 1)) {  // bank:tab_dividers
+            CC_SETHIDE(true);
+        };
+        if ((CC_FIND(comp(517, 204), ((int2 * 2) + 1)) == 1)) {  // bank:tab_dividers
             CC_SETHIDE(true);
         };
         int2 = (int2 + 1);

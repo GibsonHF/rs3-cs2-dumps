@@ -148467,11 +148467,8 @@
 			}
 		],
 		"points": 0,
-		"quest_req_for_miniquests": [
-			222
-		],
 		"skill_req_count": [
-			6
+			4
 		],
 		"skill_reqs_8": [
 			{
@@ -148505,15 +148502,6 @@
 				"level": 80,
 				"skillID": 6,
 				"text": "Skill: Magic 80",
-				"unk_bytes": [
-					0,
-					0
-				]
-			},
-			{
-				"level": 80,
-				"skillID": 16,
-				"text": "Skill: Agility 77",
 				"unk_bytes": [
 					0,
 					0
@@ -153285,9 +153273,9 @@
 		],
 		"skill_reqs_8": [
 			{
-				"level": 50,
+				"level": 5,
 				"skillID": 5,
-				"text": "Skill: Prayer 50",
+				"text": "Skill: Prayer 5",
 				"unk_bytes": [
 					0,
 					0
@@ -153317,9 +153305,9 @@
 		],
 		"skill_reqs_8": [
 			{
-				"level": 28,
-				"skillID": 21,
-				"text": "Skill: Hunter 28",
+				"level": 50,
+				"skillID": 5,
+				"text": "Skill: Prayer 50",
 				"unk_bytes": [
 					0,
 					0
@@ -154338,7 +154326,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Equip a maple shieldbow.",
+		"description": "Equip a maple longbow.",
 		"hidden": 1,
 		"id": 4366,
 		"op_17": [
@@ -154379,7 +154367,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Fletch 50 maple shieldbow (unstrung).",
+		"description": "Fletch 50 maple longbow (unstrung).",
 		"hidden": 1,
 		"id": 4367,
 		"op_17": [
@@ -161000,7 +160988,7 @@
 	},
 	{
 		"category": 5619,
-		"description": "Fletch 50 maple shieldbow (unstrung) in Kandarin.",
+		"description": "Fletch 50 maple longbow (unstrung) in Kandarin.",
 		"hidden": 1,
 		"id": 4584,
 		"op_17": [

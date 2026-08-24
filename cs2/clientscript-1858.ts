@@ -27,6 +27,12 @@ function script1858(int0: number): number {
                 case 19: {
                     return 1;
                 }
+                case 16: {
+                    if ((varbitplayer_58404 >= 3)) {
+                        return 1;
+                    };
+                    break;
+                }
                 case 20: {
                     if ((script20143(19583, 3) == 1)) {
                         return 1;
@@ -34,6 +40,9 @@ function script1858(int0: number): number {
                     break;
                 }
                 case 21: {
+                    return 1;
+                }
+                case 22: {
                     return 1;
                 }
                 default: {

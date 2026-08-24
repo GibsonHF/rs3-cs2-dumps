@@ -2,14 +2,14 @@
 function script10060(): number {
     switch (MAP_LANG()) {
         case 1: {
-            return 35196;
+            return 36481;
         }
         case 2: {
-            return 35199;
+            return 36480;
         }
         case 3: {
-            return 35200;
+            return 36482;
         }
     };
-    return 35197;
+    return 36479;
 }

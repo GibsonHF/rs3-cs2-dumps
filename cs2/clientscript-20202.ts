@@ -1,8 +1,5 @@
 //
 function script20202(): void {
-    if ((varbitplayer_58391 > 0)) {
-        varbitplayer_58390 = 1;
-        script20195(0);
-    };
+    stack(unk11018(WORLDMAP_LISTELEMENT_START(1368160, 14, 3, 0), WORLDMAP_LISTELEMENT_START(1368160, 12, 3, 0)));
     return;
 }

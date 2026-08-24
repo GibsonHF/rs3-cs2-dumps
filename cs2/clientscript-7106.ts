@@ -21,6 +21,9 @@ function script7106(int0: number, int1: number, int2: number, int3: number, int4
     };
     switch (int1) {
         case 61: {
+            if (((int2 == 132) && (script1858(22) == 1))) {
+                return 1;
+            };
             if ((script7073(int2) == 2)) {
                 return 1;
             };

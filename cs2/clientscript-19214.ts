@@ -1,7 +1,4 @@
 //
 function script19214(int0: number): number {
-    stack(1241088);
-    stack(int0);
-    DB_FIND(0);
-    return dbrow_findnext();
+    return unk11018(WORLDMAP_LISTELEMENT_START(1368160, 11, 3, 0), WORLDMAP_LISTELEMENT_START(1368160, 25, 3, 0));
 }

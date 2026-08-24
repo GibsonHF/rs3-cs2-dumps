@@ -46463,6 +46463,445 @@
 	},
 	{
 		"extra": {
+			"solomons_category": 2, // 2531
+			"SGS_sub_group": 20, // 2532
+			"SGS_name": "Fatebound Champion Armour", // 2533
+			"extra_0009F2": 1, // 2546
+			"extra_0011F0": "rs:outfits:zarosian_champion", // 4592
+			"th_available_date": 8944, // 4742
+			"extra_001288": 2451, // 4744
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace." // 4751
+		},
+		"id": 3656
+	},
+	{
+		"extra": {
+			"solomons_category": 2, // 2531
+			"SGS_sub_group": 0, // 2532
+			"SGS_name": "Fatebound Champion Mask", // 2533
+			"extra_0009F2": 1, // 2546
+			"outfit_parent_vbId": 3656, // 4419
+			"th_available_date": 8944, // 4742
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace." // 4751
+		},
+		"id": 3657
+	},
+	{
+		"extra": {
+			"solomons_category": 2, // 2531
+			"SGS_sub_group": 4, // 2532
+			"SGS_name": "Fatebound Champion Chestpiece", // 2533
+			"extra_0009F2": 1, // 2546
+			"outfit_parent_vbId": 3656, // 4419
+			"th_available_date": 8944, // 4742
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace." // 4751
+		},
+		"id": 3658
+	},
+	{
+		"extra": {
+			"solomons_category": 2, // 2531
+			"SGS_sub_group": 7, // 2532
+			"SGS_name": "Fatebound Champion Legpiece", // 2533
+			"extra_0009F2": 1, // 2546
+			"outfit_parent_vbId": 3656, // 4419
+			"th_available_date": 8944, // 4742
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace." // 4751
+		},
+		"id": 3659
+	},
+	{
+		"extra": {
+			"solomons_category": 2, // 2531
+			"SGS_sub_group": 9, // 2532
+			"SGS_name": "Fatebound Champion Gauntlets", // 2533
+			"extra_0009F2": 1, // 2546
+			"outfit_parent_vbId": 3656, // 4419
+			"th_available_date": 8944, // 4742
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace." // 4751
+		},
+		"id": 3660
+	},
+	{
+		"extra": {
+			"solomons_category": 2, // 2531
+			"SGS_sub_group": 10, // 2532
+			"SGS_name": "Fatebound Champion Boots", // 2533
+			"extra_0009F2": 1, // 2546
+			"outfit_parent_vbId": 3656, // 4419
+			"th_available_date": 8944, // 4742
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace." // 4751
+		},
+		"id": 3661
+	},
+	{
+		"extra": {
+			"solomons_category": 2, // 2531
+			"SGS_sub_group": 20, // 2532
+			"SGS_name": "Shadowbound Champion Armour", // 2533
+			"extra_0009F2": 1, // 2546
+			"extra_0011F0": "rs:outfits:zarosian_shadow_champion", // 4592
+			"th_available_date": 8944, // 4742
+			"extra_001288": 2452, // 4744
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace." // 4751
+		},
+		"id": 3662
+	},
+	{
+		"extra": {
+			"solomons_category": 2, // 2531
+			"SGS_sub_group": 0, // 2532
+			"SGS_name": "Shadowbound Champion Mask", // 2533
+			"extra_0009F2": 1, // 2546
+			"outfit_parent_vbId": 3662, // 4419
+			"th_available_date": 8944, // 4742
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace." // 4751
+		},
+		"id": 3663
+	},
+	{
+		"extra": {
+			"solomons_category": 2, // 2531
+			"SGS_sub_group": 4, // 2532
+			"SGS_name": "Shadowbound Champion Chestpiece", // 2533
+			"extra_0009F2": 1, // 2546
+			"outfit_parent_vbId": 3662, // 4419
+			"th_available_date": 8944, // 4742
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace." // 4751
+		},
+		"id": 3664
+	},
+	{
+		"extra": {
+			"solomons_category": 2, // 2531
+			"SGS_sub_group": 7, // 2532
+			"SGS_name": "Shadowbound Champion Legpiece", // 2533
+			"extra_0009F2": 1, // 2546
+			"outfit_parent_vbId": 3662, // 4419
+			"th_available_date": 8944, // 4742
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace." // 4751
+		},
+		"id": 3665
+	},
+	{
+		"extra": {
+			"solomons_category": 2, // 2531
+			"SGS_sub_group": 9, // 2532
+			"SGS_name": "Shadowbound Champion Gauntlets", // 2533
+			"extra_0009F2": 1, // 2546
+			"outfit_parent_vbId": 3662, // 4419
+			"th_available_date": 8944, // 4742
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace." // 4751
+		},
+		"id": 3666
+	},
+	{
+		"extra": {
+			"solomons_category": 2, // 2531
+			"SGS_sub_group": 10, // 2532
+			"SGS_name": "Shadowbound Champion Boots", // 2533
+			"extra_0009F2": 1, // 2546
+			"outfit_parent_vbId": 3662, // 4419
+			"th_available_date": 8944, // 4742
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace." // 4751
+		},
+		"id": 3667
+	},
+	{
+		"extra": {
+			"solomons_category": 2, // 2531
+			"SGS_sub_group": 20, // 2532
+			"SGS_name": "Shadowbound Battlemage Robes", // 2533
+			"extra_0009F2": 1, // 2546
+			"extra_0011F0": "rs:outfits:zarosian_battlemage", // 4592
+			"th_available_date": 8944, // 4742
+			"extra_001288": 2453, // 4744
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace." // 4751
+		},
+		"id": 3668
+	},
+	{
+		"extra": {
+			"solomons_category": 2, // 2531
+			"SGS_sub_group": 4, // 2532
+			"SGS_name": "Shadowbound Battlemage Robe Top", // 2533
+			"extra_0009F2": 1, // 2546
+			"outfit_parent_vbId": 3668, // 4419
+			"th_available_date": 8944, // 4742
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace." // 4751
+		},
+		"id": 3669
+	},
+	{
+		"extra": {
+			"solomons_category": 2, // 2531
+			"SGS_sub_group": 7, // 2532
+			"SGS_name": "Shadowbound Battlemage Robe Bottom", // 2533
+			"extra_0009F2": 1, // 2546
+			"outfit_parent_vbId": 3668, // 4419
+			"th_available_date": 8944, // 4742
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace." // 4751
+		},
+		"id": 3670
+	},
+	{
+		"extra": {
+			"solomons_category": 2, // 2531
+			"SGS_sub_group": 9, // 2532
+			"SGS_name": "Shadowbound Battlemage Gloves", // 2533
+			"extra_0009F2": 1, // 2546
+			"outfit_parent_vbId": 3668, // 4419
+			"th_available_date": 8944, // 4742
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace." // 4751
+		},
+		"id": 3671
+	},
+	{
+		"extra": {
+			"solomons_category": 2, // 2531
+			"SGS_sub_group": 10, // 2532
+			"SGS_name": "Shadowbound Battlemage Boots", // 2533
+			"extra_0009F2": 1, // 2546
+			"outfit_parent_vbId": 3668, // 4419
+			"th_available_date": 8944, // 4742
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace." // 4751
+		},
+		"id": 3672
+	},
+	{
+		"extra": {
+			"solomons_category": 2, // 2531
+			"SGS_sub_group": 3, // 2532
+			"SGS_name": "Fatebound Wand", // 2533
+			"extra_0009F2": 1, // 2546
+			"extra_0011EF": 65536, // 4591
+			"th_available_date": 8944, // 4742
+			"extra_001288": 2454, // 4744
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace." // 4751
+		},
+		"id": 3673
+	},
+	{
+		"extra": {
+			"solomons_category": 2, // 2531
+			"SGS_sub_group": 5, // 2532
+			"SGS_name": "Fatebound Book", // 2533
+			"extra_0009F2": 1, // 2546
+			"extra_0011EF": 67108864, // 4591
+			"th_available_date": 8944, // 4742
+			"extra_001288": 2454, // 4744
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace." // 4751
+		},
+		"id": 3674
+	},
+	{
+		"extra": {
+			"solomons_category": 2, // 2531
+			"SGS_sub_group": 3, // 2532
+			"SGS_name": "Fatebound Staff", // 2533
+			"extra_0009F2": 1, // 2546
+			"extra_0011EF": 32768, // 4591
+			"th_available_date": 8944, // 4742
+			"extra_001288": 2454, // 4744
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace." // 4751
+		},
+		"id": 3675
+	},
+	{
+		"extra": {
+			"solomons_category": 2, // 2531
+			"SGS_sub_group": 3, // 2532
+			"SGS_name": "Fatebound Longsword", // 2533
+			"extra_0009F2": 1, // 2546
+			"extra_0011EF": 524292, // 4591
+			"th_available_date": 8944, // 4742
+			"extra_001288": 2454, // 4744
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace." // 4751
+		},
+		"id": 3676
+	},
+	{
+		"extra": {
+			"solomons_category": 2, // 2531
+			"SGS_sub_group": 5, // 2532
+			"SGS_name": "Fatebound Longsword Offhand", // 2533
+			"extra_0009F2": 1, // 2546
+			"extra_0011EF": 524292, // 4591
+			"th_available_date": 8944, // 4742
+			"extra_001288": 2454, // 4744
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace." // 4751
+		},
+		"id": 3677
+	},
+	{
+		"extra": {
+			"solomons_category": 2, // 2531
+			"SGS_sub_group": 3, // 2532
+			"SGS_name": "Fatebound Longbow", // 2533
+			"extra_0009F2": 1, // 2546
+			"extra_0011EF": 8192, // 4591
+			"th_available_date": 8944, // 4742
+			"extra_001288": 2454, // 4744
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace." // 4751
+		},
+		"id": 3678
+	},
+	{
+		"extra": {
+			"solomons_category": 2, // 2531
+			"SGS_sub_group": 3, // 2532
+			"SGS_name": "Shadowbound Wand", // 2533
+			"extra_0009F2": 1, // 2546
+			"extra_0011EF": 65536, // 4591
+			"th_available_date": 8944, // 4742
+			"extra_001288": 2455, // 4744
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace." // 4751
+		},
+		"id": 3679
+	},
+	{
+		"extra": {
+			"solomons_category": 2, // 2531
+			"SGS_sub_group": 5, // 2532
+			"SGS_name": "Shadowbound Book", // 2533
+			"extra_0009F2": 1, // 2546
+			"extra_0011EF": 67108864, // 4591
+			"th_available_date": 8944, // 4742
+			"extra_001288": 2455, // 4744
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace." // 4751
+		},
+		"id": 3680
+	},
+	{
+		"extra": {
+			"solomons_category": 2, // 2531
+			"SGS_sub_group": 3, // 2532
+			"SGS_name": "Shadowbound Staff", // 2533
+			"extra_0009F2": 1, // 2546
+			"extra_0011EF": 32768, // 4591
+			"th_available_date": 8944, // 4742
+			"extra_001288": 2455, // 4744
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace." // 4751
+		},
+		"id": 3681
+	},
+	{
+		"extra": {
+			"solomons_category": 2, // 2531
+			"SGS_sub_group": 3, // 2532
+			"SGS_name": "Shadowbound Longsword", // 2533
+			"extra_0009F2": 1, // 2546
+			"extra_0011EF": 524292, // 4591
+			"th_available_date": 8944, // 4742
+			"extra_001288": 2455, // 4744
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace." // 4751
+		},
+		"id": 3682
+	},
+	{
+		"extra": {
+			"solomons_category": 2, // 2531
+			"SGS_sub_group": 5, // 2532
+			"SGS_name": "Shadowbound Longsword Offhand", // 2533
+			"extra_0009F2": 1, // 2546
+			"extra_0011EF": 524292, // 4591
+			"th_available_date": 8944, // 4742
+			"extra_001288": 2455, // 4744
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace." // 4751
+		},
+		"id": 3683
+	},
+	{
+		"extra": {
+			"solomons_category": 2, // 2531
+			"SGS_sub_group": 3, // 2532
+			"SGS_name": "Shadowbound Longbow", // 2533
+			"extra_0009F2": 1, // 2546
+			"extra_0011EF": 8192, // 4591
+			"th_available_date": 8944, // 4742
+			"extra_001288": 2455, // 4744
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace." // 4751
+		},
+		"id": 3684
+	},
+	{
+		"extra": {
+			"SGS_name": "Zarosian Weapon Bundle", // 2533
+			"extra_0011F0": "rs:packs:zarosian_weapons_bundle", // 4592
+			"sgs_pack_components": 13618, // 4717
+			"th_available_date": 8944, // 4742
+			"extra_001288": 2454 // 4744
+		},
+		"id": 3685
+	},
+	{
+		"extra": {
+			"SGS_name": "Shadow Weapon Bundle", // 2533
+			"extra_0011F0": "rs:packs:dark_zarosian_weapons_bundle", // 4592
+			"sgs_pack_components": 13619, // 4717
+			"th_available_date": 8944, // 4742
+			"extra_001288": 2455 // 4744
+		},
+		"id": 3686
+	},
+	{
+		"extra": {
+			"SGS_name": "The Bound Mega Bundle", // 2533
+			"extra_0011F0": "rs:packs:zarosian_mega_bundle", // 4592
+			"sgs_pack_components": 13620, // 4717
+			"th_available_date": 8944, // 4742
+			"extra_001288": 2456 // 4744
+		},
+		"id": 3687
+	},
+	{
+		"extra": {
+			"SGS_name": "Vagabond Knight Weapon Bundle", // 2533
+			"extra_0011F0": "rs:packs:vagabond_knight_weapons_bundle", // 4592
+			"sgs_pack_components": 13631, // 4717
+			"th_available_date": 8944, // 4742
+			"extra_001288": 1351 // 4744
+		},
+		"id": 3688
+	},
+	{
+		"extra": {
+			"SGS_name": "Ancient Necronium Weapon Bundle", // 2533
+			"extra_0011F0": "rs:packs:ancient_necronium_weapons_bundle", // 4592
+			"sgs_pack_components": 13632, // 4717
+			"th_available_date": 8944, // 4742
+			"extra_001288": 1357 // 4744
+		},
+		"id": 3689
+	},
+	{
+		"extra": {
+			"extra_0018ED": 35301, // 6381
+			"extra_0018F1": 35301, // 6385
+			"extra_0018F2": 35301, // 6386
+			"extra_0018F3": 35301, // 6387
+			"extra_0018F7": "Champions of Zaros", // 6391
+			"extra_0018F8": 14 // 6392
+		},
+		"id": 3690
+	},
+	{
+		"extra": {
+			"rewards_interface_item_name": "Furniture plans: Ports table", // 4849
+			"rewards_interface_cost": 10000, // 4850
+			"rewards_interface_item": 63490, // 4851
+			"rewards_interface_sprite": -1, // 4852
+			"extra_0012F6": 1, // 4854
+			"rewards_interface_item_desc": "Unlock a Ports table for your player-owned house.", // 4858
+			"extra_0012FB": "You must have travelled at least 140,000 distance in Player Owned Ports.", // 4859
+			"outfit_piece_4": 1, // 4862
+			"extra_0016F6": 10, // 5878
+			"extra_002422": 1 // 9250
+		},
+		"id": 3691
+	},
+	{
+		"extra": {
 			"extra_000ED5": 1, // 3797
 			"extra_000EDA": 10203, // 3802
 			"extra_000EDF": 55, // 3807
@@ -110714,13 +111153,15 @@
 			"SGS_name": "Poison spider (red)", // 2533
 			"extra_0009EC": 200, // 2540
 			"extra_0009ED": 120, // 2541
-			"extra_0009F2": 9, // 2546
+			"extra_0009F2": 1, // 2546
+			"potion_effect_unk1": 150, // 2997
 			"extra_001144": 0, // 4420
+			"extra_0011F0": "rs:companions:poison_spider_red", // 4592
 			"th_available_date": 7489, // 4742
-			"available_till": 7543, // 4743
 			"extra_001288": 1346, // 4744
-			"cosmetic_unlock_hint": "This reward can be obtained from the Expedition to the Wilderness Yak Track.", // 4751
-			"extra_002022": 12298 // 8226
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.", // 4751
+			"extra_002022": 12298, // 8226
+			"extra_0021DA": 520 // 8666
 		},
 		"id": 11968
 	},
@@ -161875,13 +162316,15 @@
 			"SGS_name": "Poison spider (green)", // 2533
 			"extra_0009EC": 200, // 2540
 			"extra_0009ED": 120, // 2541
-			"extra_0009F2": 9, // 2546
+			"extra_0009F2": 1, // 2546
+			"potion_effect_unk1": 150, // 2997
 			"extra_001144": 0, // 4420
+			"extra_0011F0": "rs:companions:poison_spider_green", // 4592
 			"th_available_date": 7489, // 4742
-			"available_till": 7543, // 4743
 			"extra_001288": 1347, // 4744
-			"cosmetic_unlock_hint": "This reward can be obtained from the Expedition to the Wilderness Yak Track.", // 4751
-			"extra_002022": 21191 // 8226
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.", // 4751
+			"extra_002022": 21191, // 8226
+			"extra_0021DA": 520 // 8666
 		},
 		"id": 19627
 	},
@@ -169195,14 +169638,15 @@
 			"SGS_sub_group": 2, // 2532
 			"SGS_name": "Dark Beast", // 2533
 			"extra_0009ED": 70, // 2541
-			"extra_0009F2": 9, // 2546
+			"extra_0009F2": 1, // 2546
+			"potion_effect_unk1": 170, // 2997
 			"extra_001144": 0, // 4420
+			"extra_0011F0": "rs:companions:dark_beast", // 4592
 			"th_available_date": 7489, // 4742
-			"available_till": 7543, // 4743
 			"extra_001288": 1348, // 4744
-			"cosmetic_unlock_hint": "This reward can be obtained from the Expedition to the Wilderness Yak Track.", // 4751
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.", // 4751
 			"extra_002022": 21204, // 8226
-			"extra_0021DA": 300 // 8666
+			"extra_0021DA": 600 // 8666
 		},
 		"id": 21201
 	},
@@ -177081,7 +177525,6 @@
 			"extra_0009F2": 1, // 2546
 			"extra_0011F0": "rs:outfits:vagabondKnight", // 4592
 			"th_available_date": 8587, // 4742
-			"available_till": 8616, // 4743
 			"extra_001288": 1349, // 4744
 			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.", // 4751
 			"extra_0019E4": 7489 // 6628
@@ -177096,7 +177539,6 @@
 			"extra_0009F2": 1, // 2546
 			"outfit_parent_vbId": 22602, // 4419
 			"th_available_date": 8587, // 4742
-			"available_till": 8616, // 4743
 			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.", // 4751
 			"extra_0019E4": 7489 // 6628
 		},
@@ -189372,7 +189814,6 @@
 			"extra_0009F2": 1, // 2546
 			"outfit_parent_vbId": 22602, // 4419
 			"th_available_date": 8587, // 4742
-			"available_till": 8616, // 4743
 			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.", // 4751
 			"extra_0019E4": 7489 // 6628
 		},
@@ -189386,7 +189827,6 @@
 			"extra_0009F2": 1, // 2546
 			"outfit_parent_vbId": 22602, // 4419
 			"th_available_date": 8587, // 4742
-			"available_till": 8616, // 4743
 			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.", // 4751
 			"extra_0019E4": 7489 // 6628
 		},
@@ -195011,7 +195451,6 @@
 			"extra_0009F2": 1, // 2546
 			"outfit_parent_vbId": 22602, // 4419
 			"th_available_date": 8587, // 4742
-			"available_till": 8616, // 4743
 			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.", // 4751
 			"extra_0019E4": 7489 // 6628
 		},
@@ -195058,7 +195497,6 @@
 			"extra_0009F2": 1, // 2546
 			"outfit_parent_vbId": 22602, // 4419
 			"th_available_date": 8587, // 4742
-			"available_till": 8616, // 4743
 			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.", // 4751
 			"extra_0019E4": 7489 // 6628
 		},
@@ -195072,7 +195510,6 @@
 			"extra_0009F2": 1, // 2546
 			"extra_0011F0": "rs:outfits:ancientNecronium", // 4592
 			"th_available_date": 8587, // 4742
-			"available_till": 8616, // 4743
 			"extra_001288": 1350, // 4744
 			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.", // 4751
 			"extra_0019E4": 7489 // 6628
@@ -195087,7 +195524,6 @@
 			"extra_0009F2": 1, // 2546
 			"outfit_parent_vbId": 25710, // 4419
 			"th_available_date": 8587, // 4742
-			"available_till": 8616, // 4743
 			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.", // 4751
 			"extra_0019E4": 7489 // 6628
 		},
@@ -195101,7 +195537,6 @@
 			"extra_0009F2": 1, // 2546
 			"outfit_parent_vbId": 25710, // 4419
 			"th_available_date": 8587, // 4742
-			"available_till": 8616, // 4743
 			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.", // 4751
 			"extra_0019E4": 7489 // 6628
 		},
@@ -195115,7 +195550,6 @@
 			"extra_0009F2": 1, // 2546
 			"outfit_parent_vbId": 25710, // 4419
 			"th_available_date": 8587, // 4742
-			"available_till": 8616, // 4743
 			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.", // 4751
 			"extra_0019E4": 7489 // 6628
 		},
@@ -217219,7 +217653,6 @@
 			"extra_0009F2": 1, // 2546
 			"outfit_parent_vbId": 25710, // 4419
 			"th_available_date": 8587, // 4742
-			"available_till": 8616, // 4743
 			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.", // 4751
 			"extra_0019E4": 7489 // 6628
 		},
@@ -217233,7 +217666,6 @@
 			"extra_0009F2": 1, // 2546
 			"outfit_parent_vbId": 25710, // 4419
 			"th_available_date": 8587, // 4742
-			"available_till": 8616, // 4743
 			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.", // 4751
 			"extra_0019E4": 7489 // 6628
 		},
@@ -223292,7 +223724,9 @@
 			"solomons_category": 2, // 2531
 			"SGS_sub_group": 20, // 2532
 			"SGS_name": "Zarosian Shadow", // 2533
-			"outfit_parent_vbId": 29734 // 4419
+			"extra_0009F2": 1, // 2546
+			"outfit_parent_vbId": 29734, // 4419
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace." // 4751
 		},
 		"id": 28893
 	},
@@ -223301,7 +223735,9 @@
 			"solomons_category": 2, // 2531
 			"SGS_sub_group": 0, // 2532
 			"SGS_name": "Zarosian Shadow Hood", // 2533
-			"outfit_parent_vbId": 29734 // 4419
+			"extra_0009F2": 1, // 2546
+			"outfit_parent_vbId": 29734, // 4419
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace." // 4751
 		},
 		"id": 28894
 	},
@@ -223310,7 +223746,9 @@
 			"solomons_category": 2, // 2531
 			"SGS_sub_group": 4, // 2532
 			"SGS_name": "Zarosian Shadow Robe Top", // 2533
-			"outfit_parent_vbId": 29734 // 4419
+			"extra_0009F2": 1, // 2546
+			"outfit_parent_vbId": 29734, // 4419
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace." // 4751
 		},
 		"id": 28895
 	},
@@ -223319,7 +223757,9 @@
 			"solomons_category": 2, // 2531
 			"SGS_sub_group": 7, // 2532
 			"SGS_name": "Zarosian Shadow Robe Bottom", // 2533
-			"outfit_parent_vbId": 29734 // 4419
+			"extra_0009F2": 1, // 2546
+			"outfit_parent_vbId": 29734, // 4419
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace." // 4751
 		},
 		"id": 28896
 	},
@@ -223328,7 +223768,9 @@
 			"solomons_category": 2, // 2531
 			"SGS_sub_group": 9, // 2532
 			"SGS_name": "Zarosian Shadow Gauntlets", // 2533
-			"outfit_parent_vbId": 29734 // 4419
+			"extra_0009F2": 1, // 2546
+			"outfit_parent_vbId": 29734, // 4419
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace." // 4751
 		},
 		"id": 28897
 	},
@@ -223337,7 +223779,9 @@
 			"solomons_category": 2, // 2531
 			"SGS_sub_group": 10, // 2532
 			"SGS_name": "Zarosian Shadow Boots", // 2533
-			"outfit_parent_vbId": 29734 // 4419
+			"extra_0009F2": 1, // 2546
+			"outfit_parent_vbId": 29734, // 4419
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace." // 4751
 		},
 		"id": 28898
 	},
@@ -223346,7 +223790,9 @@
 			"solomons_category": 2, // 2531
 			"SGS_sub_group": 20, // 2532
 			"SGS_name": "Zarosian Praetor", // 2533
-			"outfit_parent_vbId": 29734 // 4419
+			"extra_0009F2": 1, // 2546
+			"outfit_parent_vbId": 29734, // 4419
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace." // 4751
 		},
 		"id": 28899
 	},
@@ -223355,7 +223801,9 @@
 			"solomons_category": 2, // 2531
 			"SGS_sub_group": 0, // 2532
 			"SGS_name": "Zarosian Praetor Mask", // 2533
-			"outfit_parent_vbId": 29734 // 4419
+			"extra_0009F2": 1, // 2546
+			"outfit_parent_vbId": 29734, // 4419
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace." // 4751
 		},
 		"id": 28900
 	},
@@ -223364,7 +223812,9 @@
 			"solomons_category": 2, // 2531
 			"SGS_sub_group": 4, // 2532
 			"SGS_name": "Zarosian Praetor Splint Mail", // 2533
-			"outfit_parent_vbId": 29734 // 4419
+			"extra_0009F2": 1, // 2546
+			"outfit_parent_vbId": 29734, // 4419
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace." // 4751
 		},
 		"id": 28901
 	},
@@ -223373,7 +223823,9 @@
 			"solomons_category": 2, // 2531
 			"SGS_sub_group": 7, // 2532
 			"SGS_name": "Zarosian Praetor Robe", // 2533
-			"outfit_parent_vbId": 29734 // 4419
+			"extra_0009F2": 1, // 2546
+			"outfit_parent_vbId": 29734, // 4419
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace." // 4751
 		},
 		"id": 28902
 	},
@@ -223382,7 +223834,9 @@
 			"solomons_category": 2, // 2531
 			"SGS_sub_group": 9, // 2532
 			"SGS_name": "Zarosian Praetor Gauntlets", // 2533
-			"outfit_parent_vbId": 29734 // 4419
+			"extra_0009F2": 1, // 2546
+			"outfit_parent_vbId": 29734, // 4419
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace." // 4751
 		},
 		"id": 28903
 	},
@@ -223391,7 +223845,9 @@
 			"solomons_category": 2, // 2531
 			"SGS_sub_group": 10, // 2532
 			"SGS_name": "Zarosian Praetor Boots", // 2533
-			"outfit_parent_vbId": 29734 // 4419
+			"extra_0009F2": 1, // 2546
+			"outfit_parent_vbId": 29734, // 4419
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace." // 4751
 		},
 		"id": 28904
 	},
@@ -223400,7 +223856,9 @@
 			"solomons_category": 2, // 2531
 			"SGS_sub_group": 2, // 2532
 			"SGS_name": "Zarosian Mark", // 2533
-			"outfit_parent_vbId": 29734 // 4419
+			"extra_0009F2": 1, // 2546
+			"outfit_parent_vbId": 29734, // 4419
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace." // 4751
 		},
 		"id": 28905
 	},
@@ -223425,7 +223883,9 @@
 			"SGS_sub_group": 3, // 2532
 			"SGS_name": "the Empty", // 2533
 			"title_index_in_enum": 189, // 2543
+			"extra_0009F2": 1, // 2546
 			"outfit_parent_vbId": 29734, // 4419
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.", // 4751
 			"extra_0024B9": 17706 // 9401
 		},
 		"id": 28907
@@ -223436,7 +223896,9 @@
 			"SGS_sub_group": 3, // 2532
 			"SGS_name": "the Shadow", // 2533
 			"title_index_in_enum": 190, // 2543
+			"extra_0009F2": 1, // 2546
 			"outfit_parent_vbId": 29734, // 4419
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.", // 4751
 			"extra_0024B9": 17706 // 9401
 		},
 		"id": 28908
@@ -223447,7 +223909,9 @@
 			"SGS_sub_group": 3, // 2532
 			"SGS_name": "Praetor", // 2533
 			"title_index_in_enum": 191, // 2543
+			"extra_0009F2": 1, // 2546
 			"outfit_parent_vbId": 29734, // 4419
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.", // 4751
 			"extra_0024B9": 17706 // 9401
 		},
 		"id": 28909
@@ -223458,7 +223922,9 @@
 			"SGS_sub_group": 3, // 2532
 			"SGS_name": "Dream of Mah", // 2533
 			"title_index_in_enum": 192, // 2543
+			"extra_0009F2": 1, // 2546
 			"outfit_parent_vbId": 29734, // 4419
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.", // 4751
 			"extra_0024B9": 17706 // 9401
 		},
 		"id": 28910
@@ -223469,7 +223935,9 @@
 			"SGS_sub_group": 3, // 2532
 			"SGS_name": "of Senntisten", // 2533
 			"title_index_in_enum": 193, // 2543
+			"extra_0009F2": 1, // 2546
 			"outfit_parent_vbId": 29734, // 4419
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.", // 4751
 			"extra_0024B9": 17706 // 9401
 		},
 		"id": 28911
@@ -223480,7 +223948,9 @@
 			"SGS_sub_group": 3, // 2532
 			"SGS_name": "of the Second Age", // 2533
 			"title_index_in_enum": 194, // 2543
+			"extra_0009F2": 1, // 2546
 			"outfit_parent_vbId": 29734, // 4419
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.", // 4751
 			"extra_0024B9": 17706 // 9401
 		},
 		"id": 28912
@@ -223491,7 +223961,9 @@
 			"SGS_sub_group": 3, // 2532
 			"SGS_name": "the Betrayed", // 2533
 			"title_index_in_enum": 195, // 2543
+			"extra_0009F2": 1, // 2546
 			"outfit_parent_vbId": 29734, // 4419
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.", // 4751
 			"extra_0024B9": 17706 // 9401
 		},
 		"id": 28913
@@ -223502,7 +223974,9 @@
 			"SGS_sub_group": 3, // 2532
 			"SGS_name": "the Muspah", // 2533
 			"title_index_in_enum": 196, // 2543
+			"extra_0009F2": 1, // 2546
 			"outfit_parent_vbId": 29734, // 4419
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.", // 4751
 			"extra_0024B9": 17706 // 9401
 		},
 		"id": 28914
@@ -223513,7 +223987,9 @@
 			"SGS_sub_group": 3, // 2532
 			"SGS_name": "the Nihil", // 2533
 			"title_index_in_enum": 197, // 2543
+			"extra_0009F2": 1, // 2546
 			"outfit_parent_vbId": 29734, // 4419
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.", // 4751
 			"extra_0024B9": 17706 // 9401
 		},
 		"id": 28915
@@ -232546,9 +233022,11 @@
 	{
 		"extra": {
 			"SGS_name": "Zaros", // 2533
+			"extra_0009F2": 1, // 2546
 			"extra_0011F0": "rs:packs:zarospack", // 4592
 			"sgs_pack_components": 9557, // 4717
-			"th_available_date": 4569 // 4742
+			"th_available_date": 4569, // 4742
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace." // 4751
 		},
 		"id": 29734
 	},
@@ -283081,12 +283559,11 @@
 			"solomons_category": 2, // 2531
 			"SGS_sub_group": 3, // 2532
 			"SGS_name": "Vagabond Knight's Throwing Axe", // 2533
-			"extra_0009F2": 9, // 2546
+			"extra_0009F2": 1, // 2546
 			"extra_0011EF": 16777344, // 4591
 			"th_available_date": 7489, // 4742
-			"available_till": 7543, // 4743
 			"extra_001288": 1351, // 4744
-			"cosmetic_unlock_hint": "This reward can be obtained from the Expedition to the Wilderness Yak Track." // 4751
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace." // 4751
 		},
 		"id": 34363
 	},
@@ -289526,12 +290003,11 @@
 			"solomons_category": 2, // 2531
 			"SGS_sub_group": 5, // 2532
 			"SGS_name": "Vagabond Knight's Off-Hand Throwing Axe", // 2533
-			"extra_0009F2": 9, // 2546
+			"extra_0009F2": 1, // 2546
 			"extra_0011EF": 16777344, // 4591
 			"th_available_date": 7489, // 4742
-			"available_till": 7543, // 4743
 			"extra_001288": 1351, // 4744
-			"cosmetic_unlock_hint": "This reward can be obtained from the Expedition to the Wilderness Yak Track." // 4751
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace." // 4751
 		},
 		"id": 34888
 	},
@@ -397662,8 +398138,9 @@
 			"solomons_category": 5, // 2531
 			"SGS_sub_group": 2, // 2532
 			"SGS_name": "Moorrissey", // 2533
+			"extra_0009ED": 70, // 2541
 			"extra_0009F2": 1, // 2546
-			"potion_effect_unk1": 175, // 2997
+			"potion_effect_unk1": 195, // 2997
 			"extra_001144": 0, // 4420
 			"extra_0011F0": "rs:companions:moorrissey", // 4592
 			"th_available_date": 6690, // 4742
@@ -397898,6 +398375,7 @@
 			"extra_0009E8": 33437, // 2536
 			"extra_0009E9": 114440, // 2537
 			"extra_0009F2": 1, // 2546
+			"extra_000CFE": 2, // 3326
 			"extra_000D23": 1, // 3363
 			"extra_000D42": 0, // 3394
 			"extra_0010AB": 1, // 4267
@@ -397906,7 +398384,7 @@
 			"extra_001288": 865, // 4744
 			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.", // 4751
 			"extra_0021DC": 600, // 8668
-			"extra_0021DE": 250 // 8670
+			"extra_0021DE": 180 // 8670
 		},
 		"id": 44422
 	},
@@ -403650,12 +404128,11 @@
 			"solomons_category": 2, // 2531
 			"SGS_sub_group": 3, // 2532
 			"SGS_name": "Vagabond Knight's Longsword", // 2533
-			"extra_0009F2": 9, // 2546
+			"extra_0009F2": 1, // 2546
 			"extra_0011EF": 524292, // 4591
 			"th_available_date": 7489, // 4742
-			"available_till": 7543, // 4743
 			"extra_001288": 1352, // 4744
-			"cosmetic_unlock_hint": "This reward can be obtained from the Expedition to the Wilderness Yak Track." // 4751
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace." // 4751
 		},
 		"id": 44910
 	},
@@ -403664,12 +404141,11 @@
 			"solomons_category": 2, // 2531
 			"SGS_sub_group": 5, // 2532
 			"SGS_name": "Vagabond Knight's Off-Hand Longsword", // 2533
-			"extra_0009F2": 9, // 2546
+			"extra_0009F2": 1, // 2546
 			"extra_0011EF": 524292, // 4591
 			"th_available_date": 7489, // 4742
-			"available_till": 7543, // 4743
 			"extra_001288": 1352, // 4744
-			"cosmetic_unlock_hint": "This reward can be obtained from the Expedition to the Wilderness Yak Track." // 4751
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace." // 4751
 		},
 		"id": 44911
 	},
@@ -404205,12 +404681,11 @@
 			"solomons_category": 2, // 2531
 			"SGS_sub_group": 3, // 2532
 			"SGS_name": "Vagabond Knight's Crossbow", // 2533
-			"extra_0009F2": 9, // 2546
+			"extra_0009F2": 1, // 2546
 			"extra_0011EF": 16384, // 4591
 			"th_available_date": 7489, // 4742
-			"available_till": 7543, // 4743
 			"extra_001288": 1353, // 4744
-			"cosmetic_unlock_hint": "This reward can be obtained from the Expedition to the Wilderness Yak Track." // 4751
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace." // 4751
 		},
 		"id": 44949
 	},
@@ -406211,12 +406686,11 @@
 			"solomons_category": 2, // 2531
 			"SGS_sub_group": 3, // 2532
 			"SGS_name": "Vagabond Knight's Staff", // 2533
-			"extra_0009F2": 9, // 2546
+			"extra_0009F2": 1, // 2546
 			"extra_0011EF": 32768, // 4591
 			"th_available_date": 7489, // 4742
-			"available_till": 7543, // 4743
 			"extra_001288": 1354, // 4744
-			"cosmetic_unlock_hint": "This reward can be obtained from the Expedition to the Wilderness Yak Track." // 4751
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace." // 4751
 		},
 		"id": 45112
 	},
@@ -410462,12 +410936,11 @@
 			"solomons_category": 2, // 2531
 			"SGS_sub_group": 5, // 2532
 			"SGS_name": "Vagabond Knight's Book", // 2533
-			"extra_0009F2": 9, // 2546
+			"extra_0009F2": 1, // 2546
 			"extra_0011EF": 67108864, // 4591
 			"th_available_date": 7489, // 4742
-			"available_till": 7543, // 4743
 			"extra_001288": 1355, // 4744
-			"cosmetic_unlock_hint": "This reward can be obtained from the Expedition to the Wilderness Yak Track." // 4751
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace." // 4751
 		},
 		"id": 45467
 	},
@@ -411205,12 +411678,11 @@
 			"solomons_category": 2, // 2531
 			"SGS_sub_group": 3, // 2532
 			"SGS_name": "Vagabond Knight's Longbow", // 2533
-			"extra_0009F2": 9, // 2546
+			"extra_0009F2": 1, // 2546
 			"extra_0011EF": 8192, // 4591
 			"th_available_date": 7489, // 4742
-			"available_till": 7543, // 4743
 			"extra_001288": 1356, // 4744
-			"cosmetic_unlock_hint": "This reward can be obtained from the Expedition to the Wilderness Yak Track." // 4751
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace." // 4751
 		},
 		"id": 45530
 	},
@@ -411219,12 +411691,11 @@
 			"solomons_category": 2, // 2531
 			"SGS_sub_group": 3, // 2532
 			"SGS_name": "Ancient Necronium Dagger", // 2533
-			"extra_0009F2": 9, // 2546
+			"extra_0009F2": 1, // 2546
 			"extra_0011EF": 262146, // 4591
 			"th_available_date": 7489, // 4742
-			"available_till": 7543, // 4743
 			"extra_001288": 1357, // 4744
-			"cosmetic_unlock_hint": "This reward can be obtained from the Expedition to the Wilderness Yak Track." // 4751
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace." // 4751
 		},
 		"id": 45531
 	},
@@ -411233,12 +411704,11 @@
 			"solomons_category": 2, // 2531
 			"SGS_sub_group": 5, // 2532
 			"SGS_name": "Ancient Necronium Off-Hand Dagger", // 2533
-			"extra_0009F2": 9, // 2546
+			"extra_0009F2": 1, // 2546
 			"extra_0011EF": 262146, // 4591
 			"th_available_date": 7489, // 4742
-			"available_till": 7543, // 4743
 			"extra_001288": 1357, // 4744
-			"cosmetic_unlock_hint": "This reward can be obtained from the Expedition to the Wilderness Yak Track." // 4751
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace." // 4751
 		},
 		"id": 45532
 	},
@@ -418559,12 +419029,11 @@
 			"solomons_category": 2, // 2531
 			"SGS_sub_group": 3, // 2532
 			"SGS_name": "Ancient Necronium Mace", // 2533
-			"extra_0009F2": 9, // 2546
+			"extra_0009F2": 1, // 2546
 			"extra_0011EF": 1048584, // 4591
 			"th_available_date": 7489, // 4742
-			"available_till": 7543, // 4743
 			"extra_001288": 1358, // 4744
-			"cosmetic_unlock_hint": "This reward can be obtained from the Expedition to the Wilderness Yak Track." // 4751
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace." // 4751
 		},
 		"id": 46127
 	},
@@ -418573,12 +419042,11 @@
 			"solomons_category": 2, // 2531
 			"SGS_sub_group": 5, // 2532
 			"SGS_name": "Ancient Necronium Off-Hand Mace", // 2533
-			"extra_0009F2": 9, // 2546
+			"extra_0009F2": 1, // 2546
 			"extra_0011EF": 1048584, // 4591
 			"th_available_date": 7489, // 4742
-			"available_till": 7543, // 4743
 			"extra_001288": 1358, // 4744
-			"cosmetic_unlock_hint": "This reward can be obtained from the Expedition to the Wilderness Yak Track." // 4751
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace." // 4751
 		},
 		"id": 46128
 	},
@@ -418587,12 +419055,11 @@
 			"solomons_category": 2, // 2531
 			"SGS_sub_group": 3, // 2532
 			"SGS_name": "Ancient Necronium Scythe", // 2533
-			"extra_0009F2": 9, // 2546
+			"extra_0009F2": 1, // 2546
 			"extra_0011EF": 4096, // 4591
 			"th_available_date": 7489, // 4742
-			"available_till": 7543, // 4743
 			"extra_001288": 1359, // 4744
-			"cosmetic_unlock_hint": "This reward can be obtained from the Expedition to the Wilderness Yak Track." // 4751
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace." // 4751
 		},
 		"id": 46129
 	},
@@ -418601,12 +419068,11 @@
 			"solomons_category": 2, // 2531
 			"SGS_sub_group": 3, // 2532
 			"SGS_name": "Ancient Necronium Greatsword", // 2533
-			"extra_0009F2": 9, // 2546
+			"extra_0009F2": 1, // 2546
 			"extra_0011EF": 256, // 4591
 			"th_available_date": 7489, // 4742
-			"available_till": 7543, // 4743
 			"extra_001288": 1360, // 4744
-			"cosmetic_unlock_hint": "This reward can be obtained from the Expedition to the Wilderness Yak Track." // 4751
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace." // 4751
 		},
 		"id": 46130
 	},
@@ -418615,12 +419081,11 @@
 			"solomons_category": 2, // 2531
 			"SGS_sub_group": 3, // 2532
 			"SGS_name": "Ancient Necronium Spear", // 2533
-			"extra_0009F2": 9, // 2546
+			"extra_0009F2": 1, // 2546
 			"extra_0011EF": 512, // 4591
 			"th_available_date": 7489, // 4742
-			"available_till": 7543, // 4743
 			"extra_001288": 1361, // 4744
-			"cosmetic_unlock_hint": "This reward can be obtained from the Expedition to the Wilderness Yak Track." // 4751
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace." // 4751
 		},
 		"id": 46131
 	},
@@ -418629,12 +419094,11 @@
 			"solomons_category": 2, // 2531
 			"SGS_sub_group": 3, // 2532
 			"SGS_name": "Ancient Necronium Shortbow", // 2533
-			"extra_0009F2": 9, // 2546
+			"extra_0009F2": 1, // 2546
 			"extra_0011EF": 8192, // 4591
 			"th_available_date": 7489, // 4742
-			"available_till": 7543, // 4743
 			"extra_001288": 1362, // 4744
-			"cosmetic_unlock_hint": "This reward can be obtained from the Expedition to the Wilderness Yak Track." // 4751
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace." // 4751
 		},
 		"id": 46132
 	},
@@ -418672,13 +419136,13 @@
 			"extra_0009E9": 126767, // 2537
 			"extra_0009EC": 400, // 2540
 			"extra_0009ED": 160, // 2541
-			"extra_0009F2": 9, // 2546
+			"extra_0009F2": 1, // 2546
 			"extra_000D23": 0, // 3363
 			"extra_0010AB": 1, // 4267
+			"extra_0011F0": "rs:spells:volcanic_teleport", // 4592
 			"th_available_date": 7489, // 4742
-			"available_till": 7543, // 4743
 			"extra_001288": 1366, // 4744
-			"cosmetic_unlock_hint": "This reward can be obtained from the Expedition to the Wilderness Yak Track.", // 4751
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.", // 4751
 			"extra_002162": 1200 // 8546
 		},
 		"id": 46134
@@ -462161,6 +462625,7 @@
 			"extra_0009F2": 1, // 2546
 			"extra_0011F0": "rs:effects:shadowstep", // 4592
 			"extra_001288": 1836, // 4744
+			"cosmetic_unlock_hint": "This cosmetic can be obtained from the Marketplace.", // 4751
 			"extra_001D62": 1 // 7522
 		},
 		"id": 49764

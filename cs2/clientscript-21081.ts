@@ -6,7 +6,7 @@ function script21081(): void {
     };
     CC_DELETEALL(int0);
     var int2 = varbitplayer_58389;
-    var int3 = 450;
+    var int3 = 400;
     var int4 = 9287 as cs2enum;
     var int5 = 0;
     var int6 = ENUM_GETOUTPUTCOUNT(int4);

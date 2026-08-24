@@ -1,12 +1,4 @@
 //
 function script19135(): number {
-    stack(1200128);
-    stack(varbitplayer_55991);
-    DB_FIND(0);
-    var int0 = dbrow_findnext();
-    if ((int0 == -1)) {
-        script12478(`Unable to locate runecrafting_altars dbrow with id = ${inttostring(varbitplayer_55991, 10)}`);
-        return 7936;
-    };
-    return dbrow_getfield(int0, 1200176, 0);
+    return unk11018(unk11018(unk11018(unk11018(unk11018(unk11018(unk11018(WORLDMAP_LISTELEMENT_START(1368160, 4, 3, 0), WORLDMAP_LISTELEMENT_START(1368160, 5, 3, 0)), WORLDMAP_LISTELEMENT_START(1368160, 28, 3, 0)), WORLDMAP_LISTELEMENT_START(1368160, 15, 3, 0)), WORLDMAP_LISTELEMENT_START(1368160, 16, 3, 0)), WORLDMAP_LISTELEMENT_START(1368160, 31, 3, 0)), WORLDMAP_LISTELEMENT_START(1368160, 20, 3, 0)), WORLDMAP_LISTELEMENT_START(1368160, 29, 3, 0));
 }
