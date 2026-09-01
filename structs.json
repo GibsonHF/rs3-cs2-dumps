@@ -39162,7 +39162,7 @@
 		"extra": {
 			"skillguide_what": "Maple longbow (sighted)", // 2210
 			"skillguide_req_items": "Ammo: Arrows up to adamant", // 2211
-			"required_level?": 40, // 2212
+			"required_level?": 45, // 2212
 			"skillguide_item": 18331, // 2213
 			"extra_0008A7": 3, // 2215
 			"skill_ui_subcategory": 3 // 2220
@@ -39211,7 +39211,7 @@
 		"extra": {
 			"skillguide_what": "Magic longbow (sighted)", // 2210
 			"skillguide_req_items": "Ammo: Arrows up to bane", // 2211
-			"required_level?": 80, // 2212
+			"required_level?": 85, // 2212
 			"skillguide_item": 18332, // 2213
 			"extra_0008A7": 3, // 2215
 			"skill_ui_subcategory": 3 // 2220
@@ -60281,8 +60281,10 @@
 	{
 		"extra": {
 			"skillguide_req_items": "Ammo: Arrows up to necronium", // 2211
+			"required_level?": 70, // 2212
 			"skillguide_item": 857, // 2213
 			"extra_0008A7": 3, // 2215
+			"skillguide_is_members": 1, // 2217
 			"extra_0008AA": 1, // 2218
 			"skill_ui_subcategory": 3 // 2220
 		},
@@ -60291,8 +60293,10 @@
 	{
 		"extra": {
 			"skillguide_req_items": "Ammo: Arrows up to bane", // 2211
+			"required_level?": 80, // 2212
 			"skillguide_item": 861, // 2213
 			"extra_0008A7": 3, // 2215
+			"skillguide_is_members": 1, // 2217
 			"extra_0008AA": 1, // 2218
 			"skill_ui_subcategory": 3 // 2220
 		},
@@ -60301,6 +60305,7 @@
 	{
 		"extra": {
 			"skillguide_req_items": "Ammo: Arrows up to elder", // 2211
+			"required_level?": 90, // 2212
 			"skillguide_item": 29614, // 2213
 			"extra_0008A7": 3, // 2215
 			"skillguide_is_members": 1, // 2217
@@ -60715,8 +60720,10 @@
 	},
 	{
 		"extra": {
+			"required_level?": 70, // 2212
 			"skillguide_item": 855, // 2213
 			"extra_0008A7": 3, // 2215
+			"skillguide_is_members": 1, // 2217
 			"extra_0008AA": 1, // 2218
 			"skill_ui_subcategory": 3 // 2220
 		},
@@ -60724,8 +60731,10 @@
 	},
 	{
 		"extra": {
+			"required_level?": 80, // 2212
 			"skillguide_item": 859, // 2213
 			"extra_0008A7": 3, // 2215
+			"skillguide_is_members": 1, // 2217
 			"extra_0008AA": 1, // 2218
 			"skill_ui_subcategory": 3 // 2220
 		},
@@ -60733,6 +60742,7 @@
 	},
 	{
 		"extra": {
+			"required_level?": 90, // 2212
 			"skillguide_item": 29611, // 2213
 			"extra_0008A7": 3, // 2215
 			"skillguide_is_members": 1, // 2217
@@ -182711,7 +182721,7 @@
 		"extra": {
 			"skillguide_what": "Elder longbow (sighted)", // 2210
 			"skillguide_req_items": "Ammo: Arrows up to elder", // 2211
-			"required_level?": 90, // 2212
+			"required_level?": 95, // 2212
 			"skillguide_item": 29634, // 2213
 			"extra_0008A7": 3, // 2215
 			"skillguide_is_members": 1, // 2217

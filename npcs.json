@@ -381657,18 +381657,9 @@
 			null,
 			null
 		],
-		"animation_group": 1900,
+		"animation_group": 4519,
 		"attackCursor": 42,
 		"boundSize": 2,
-		"color_replacements": {
-			"5263": 14348,
-			"5264": 14349,
-			"5272": 14357,
-			"5403": 14360,
-			"5540": 14369,
-			"6308": 15393,
-			"6315": 15400
-		},
 		"combat": 4,
 		"extra": {
 			"attack_speed": 4, // 14
@@ -381685,9 +381676,7 @@
 		},
 		"id": 10480,
 		"models": [
-			61019,
-			61013,
-			61023
+			121521
 		],
 		"movementCapabilities": 3,
 		"name": "Giant rat"
@@ -381700,18 +381689,9 @@
 			null,
 			null
 		],
-		"animation_group": 1900,
+		"animation_group": 4519,
 		"attackCursor": 42,
 		"boundSize": 2,
-		"color_replacements": {
-			"5263": 14348,
-			"5264": 14349,
-			"5272": 14357,
-			"5403": 14360,
-			"5540": 14369,
-			"6308": 15393,
-			"6315": 15400
-		},
 		"combat": 14,
 		"extra": {
 			"attack_speed": 4, // 14
@@ -381728,9 +381708,7 @@
 		},
 		"id": 10481,
 		"models": [
-			61019,
-			61013,
-			61023
+			121521
 		],
 		"movementCapabilities": 3,
 		"name": "Giant rat"
@@ -381743,18 +381721,9 @@
 			null,
 			null
 		],
-		"animation_group": 1900,
+		"animation_group": 4519,
 		"attackCursor": 42,
 		"boundSize": 2,
-		"color_replacements": {
-			"5263": 14348,
-			"5264": 14349,
-			"5272": 14357,
-			"5403": 14360,
-			"5540": 14369,
-			"6308": 15393,
-			"6315": 15400
-		},
 		"combat": 25,
 		"extra": {
 			"attack_speed": 4, // 14
@@ -381771,9 +381740,7 @@
 		},
 		"id": 10482,
 		"models": [
-			61020,
-			61011,
-			61022
+			121521
 		],
 		"movementCapabilities": 3,
 		"name": "Giant rat"
@@ -381786,18 +381753,9 @@
 			null,
 			null
 		],
-		"animation_group": 1900,
+		"animation_group": 4519,
 		"attackCursor": 42,
 		"boundSize": 2,
-		"color_replacements": {
-			"5263": 14348,
-			"5264": 14349,
-			"5272": 14357,
-			"5403": 14360,
-			"5540": 14369,
-			"6308": 15393,
-			"6315": 15400
-		},
 		"combat": 36,
 		"extra": {
 			"attack_speed": 4, // 14
@@ -381814,9 +381772,7 @@
 		},
 		"id": 10483,
 		"models": [
-			61018,
-			61013,
-			61024
+			121521
 		],
 		"movementCapabilities": 3,
 		"name": "Giant rat"
@@ -381829,18 +381785,9 @@
 			null,
 			null
 		],
-		"animation_group": 1900,
+		"animation_group": 4519,
 		"attackCursor": 42,
 		"boundSize": 2,
-		"color_replacements": {
-			"5263": 14348,
-			"5264": 14349,
-			"5272": 14357,
-			"5403": 14360,
-			"5540": 14369,
-			"6308": 15393,
-			"6315": 15400
-		},
 		"combat": 47,
 		"extra": {
 			"attack_speed": 4, // 14
@@ -381857,9 +381804,7 @@
 		},
 		"id": 10484,
 		"models": [
-			61019,
-			61013,
-			61023
+			121521
 		],
 		"movementCapabilities": 3,
 		"name": "Giant rat"
@@ -381872,18 +381817,9 @@
 			null,
 			null
 		],
-		"animation_group": 1900,
+		"animation_group": 4519,
 		"attackCursor": 42,
 		"boundSize": 2,
-		"color_replacements": {
-			"5263": 14348,
-			"5264": 14349,
-			"5272": 14357,
-			"5403": 14360,
-			"5540": 14369,
-			"6308": 15393,
-			"6315": 15400
-		},
 		"combat": 58,
 		"extra": {
 			"attack_speed": 4, // 14
@@ -381900,9 +381836,7 @@
 		},
 		"id": 10485,
 		"models": [
-			61020,
-			61011,
-			61022
+			121521
 		],
 		"movementCapabilities": 3,
 		"name": "Giant rat"
@@ -381915,18 +381849,9 @@
 			null,
 			null
 		],
-		"animation_group": 1900,
+		"animation_group": 4519,
 		"attackCursor": 42,
 		"boundSize": 2,
-		"color_replacements": {
-			"5263": 14348,
-			"5264": 14349,
-			"5272": 14357,
-			"5403": 14360,
-			"5540": 14369,
-			"6308": 15393,
-			"6315": 15400
-		},
 		"combat": 70,
 		"extra": {
 			"attack_speed": 4, // 14
@@ -381943,9 +381868,7 @@
 		},
 		"id": 10486,
 		"models": [
-			61019,
-			61013,
-			61023
+			121521
 		],
 		"movementCapabilities": 3,
 		"name": "Giant rat"
@@ -433824,6 +433747,14 @@
 		"animation_group": 103,
 		"attackCursor": 42,
 		"boundSize": 1,
+		"color_replacements": {
+			"36870": 2843,
+			"36882": 2848,
+			"36912": 7731,
+			"36942": 38848,
+			"36960": 2826,
+			"42107": 7731
+		},
 		"combat": 91,
 		"extra": {
 			"accuracy_magic": 1299, // 3
@@ -433845,7 +433776,7 @@
 			"no_tag": 1 // 2892
 		},
 		"headModels": [
-			134148
+			127936
 		],
 		"head_icon_data": [
 			[
@@ -433856,11 +433787,10 @@
 		"id": 11940,
 		"models": [
 			134117,
-			134147,
-			134150,
-			134149,
-			134145,
-			134146
+			127935,
+			134446,
+			134448,
+			134447
 		],
 		"movementCapabilities": 3,
 		"name": "Skeletal warrior"
@@ -433876,6 +433806,14 @@
 		"animation_group": 103,
 		"attackCursor": 42,
 		"boundSize": 1,
+		"color_replacements": {
+			"36870": 2843,
+			"36882": 2848,
+			"36912": 7731,
+			"36942": 38848,
+			"36960": 2826,
+			"42107": 7731
+		},
 		"combat": 91,
 		"extra": {
 			"accuracy_magic": 1299, // 3
@@ -433897,7 +433835,7 @@
 			"no_tag": 1 // 2892
 		},
 		"headModels": [
-			134148
+			127936
 		],
 		"head_icon_data": [
 			[
@@ -433908,11 +433846,10 @@
 		"id": 11941,
 		"models": [
 			134117,
-			134147,
-			134150,
-			134149,
-			134145,
-			134146
+			127935,
+			134446,
+			134448,
+			134447
 		],
 		"movementCapabilities": 3,
 		"name": "Skeletal warrior"
@@ -433928,6 +433865,14 @@
 		"animation_group": 103,
 		"attackCursor": 42,
 		"boundSize": 1,
+		"color_replacements": {
+			"36870": 2843,
+			"36882": 2848,
+			"36912": 7731,
+			"36942": 38848,
+			"36960": 2826,
+			"42107": 7731
+		},
 		"combat": 91,
 		"extra": {
 			"accuracy_magic": 1299, // 3
@@ -433949,7 +433894,7 @@
 			"no_tag": 1 // 2892
 		},
 		"headModels": [
-			134148
+			127936
 		],
 		"head_icon_data": [
 			[
@@ -433960,11 +433905,10 @@
 		"id": 11942,
 		"models": [
 			134117,
-			134147,
-			134150,
-			134149,
-			134145,
-			134146
+			127935,
+			134446,
+			134448,
+			134447
 		],
 		"movementCapabilities": 3,
 		"name": "Skeletal warrior"
@@ -433980,6 +433924,14 @@
 		"animation_group": 103,
 		"attackCursor": 42,
 		"boundSize": 1,
+		"color_replacements": {
+			"36870": 2843,
+			"36882": 2848,
+			"36912": 7731,
+			"36942": 38848,
+			"36960": 2826,
+			"42107": 7731
+		},
 		"combat": 93,
 		"extra": {
 			"accuracy_magic": 1372, // 3
@@ -434001,7 +433953,7 @@
 			"no_tag": 1 // 2892
 		},
 		"headModels": [
-			134148
+			127936
 		],
 		"head_icon_data": [
 			[
@@ -434012,11 +433964,10 @@
 		"id": 11943,
 		"models": [
 			134117,
-			134147,
-			134150,
-			134149,
-			134145,
-			134146
+			127935,
+			134446,
+			134448,
+			134447
 		],
 		"movementCapabilities": 3,
 		"name": "Skeletal warrior"
@@ -434032,6 +433983,14 @@
 		"animation_group": 103,
 		"attackCursor": 42,
 		"boundSize": 1,
+		"color_replacements": {
+			"36870": 2843,
+			"36882": 2848,
+			"36912": 7731,
+			"36942": 38848,
+			"36960": 2826,
+			"42107": 7731
+		},
 		"combat": 93,
 		"extra": {
 			"accuracy_magic": 1372, // 3
@@ -434053,7 +434012,7 @@
 			"no_tag": 1 // 2892
 		},
 		"headModels": [
-			134148
+			127936
 		],
 		"head_icon_data": [
 			[
@@ -434064,11 +434023,10 @@
 		"id": 11944,
 		"models": [
 			134117,
-			134147,
-			134150,
-			134149,
-			134145,
-			134146
+			127935,
+			134446,
+			134448,
+			134447
 		],
 		"movementCapabilities": 3,
 		"name": "Skeletal warrior"
@@ -434084,6 +434042,14 @@
 		"animation_group": 103,
 		"attackCursor": 42,
 		"boundSize": 1,
+		"color_replacements": {
+			"36870": 2843,
+			"36882": 2848,
+			"36912": 7731,
+			"36942": 38848,
+			"36960": 2826,
+			"42107": 7731
+		},
 		"combat": 93,
 		"extra": {
 			"accuracy_magic": 1372, // 3
@@ -434105,7 +434071,7 @@
 			"no_tag": 1 // 2892
 		},
 		"headModels": [
-			134148
+			127936
 		],
 		"head_icon_data": [
 			[
@@ -434116,11 +434082,10 @@
 		"id": 11945,
 		"models": [
 			134117,
-			134147,
-			134150,
-			134149,
-			134145,
-			134146
+			127935,
+			134446,
+			134448,
+			134447
 		],
 		"movementCapabilities": 3,
 		"name": "Skeletal warrior"
@@ -434136,6 +434101,14 @@
 		"animation_group": 103,
 		"attackCursor": 42,
 		"boundSize": 1,
+		"color_replacements": {
+			"36870": 2843,
+			"36882": 2848,
+			"36912": 7731,
+			"36942": 38848,
+			"36960": 2826,
+			"42107": 7731
+		},
 		"combat": 96,
 		"extra": {
 			"accuracy_magic": 1447, // 3
@@ -434157,7 +434130,7 @@
 			"no_tag": 1 // 2892
 		},
 		"headModels": [
-			134148
+			127936
 		],
 		"head_icon_data": [
 			[
@@ -434168,11 +434141,10 @@
 		"id": 11946,
 		"models": [
 			134117,
-			134147,
-			134150,
-			134149,
-			134145,
-			134146
+			127935,
+			134446,
+			134448,
+			134447
 		],
 		"movementCapabilities": 3,
 		"name": "Skeletal warrior"
@@ -434188,6 +434160,14 @@
 		"animation_group": 103,
 		"attackCursor": 42,
 		"boundSize": 1,
+		"color_replacements": {
+			"36870": 2843,
+			"36882": 2848,
+			"36912": 7731,
+			"36942": 38848,
+			"36960": 2826,
+			"42107": 7731
+		},
 		"combat": 96,
 		"extra": {
 			"accuracy_magic": 1447, // 3
@@ -434209,7 +434189,7 @@
 			"no_tag": 1 // 2892
 		},
 		"headModels": [
-			134148
+			127936
 		],
 		"head_icon_data": [
 			[
@@ -434220,11 +434200,10 @@
 		"id": 11947,
 		"models": [
 			134117,
-			134147,
-			134150,
-			134149,
-			134145,
-			134146
+			127935,
+			134446,
+			134448,
+			134447
 		],
 		"movementCapabilities": 3,
 		"name": "Skeletal warrior"
@@ -434240,6 +434219,14 @@
 		"animation_group": 103,
 		"attackCursor": 42,
 		"boundSize": 1,
+		"color_replacements": {
+			"36870": 2843,
+			"36882": 2848,
+			"36912": 7731,
+			"36942": 38848,
+			"36960": 2826,
+			"42107": 7731
+		},
 		"combat": 96,
 		"extra": {
 			"accuracy_magic": 1447, // 3
@@ -434261,7 +434248,7 @@
 			"no_tag": 1 // 2892
 		},
 		"headModels": [
-			134148
+			127936
 		],
 		"head_icon_data": [
 			[
@@ -434272,11 +434259,10 @@
 		"id": 11948,
 		"models": [
 			134117,
-			134147,
-			134150,
-			134149,
-			134145,
-			134146
+			127935,
+			134446,
+			134448,
+			134447
 		],
 		"movementCapabilities": 3,
 		"name": "Skeletal warrior"
@@ -434292,6 +434278,14 @@
 		"animation_group": 103,
 		"attackCursor": 42,
 		"boundSize": 1,
+		"color_replacements": {
+			"36870": 2843,
+			"36882": 2848,
+			"36912": 7731,
+			"36942": 38848,
+			"36960": 2826,
+			"42107": 7731
+		},
 		"combat": 99,
 		"extra": {
 			"accuracy_magic": 1526, // 3
@@ -434313,7 +434307,7 @@
 			"no_tag": 1 // 2892
 		},
 		"headModels": [
-			134148
+			127936
 		],
 		"head_icon_data": [
 			[
@@ -434324,11 +434318,10 @@
 		"id": 11949,
 		"models": [
 			134117,
-			134147,
-			134150,
-			134149,
-			134145,
-			134146
+			127935,
+			134446,
+			134448,
+			134447
 		],
 		"movementCapabilities": 3,
 		"name": "Skeletal warrior"
@@ -434344,6 +434337,14 @@
 		"animation_group": 103,
 		"attackCursor": 42,
 		"boundSize": 1,
+		"color_replacements": {
+			"36870": 2843,
+			"36882": 2848,
+			"36912": 7731,
+			"36942": 38848,
+			"36960": 2826,
+			"42107": 7731
+		},
 		"combat": 99,
 		"extra": {
 			"accuracy_magic": 1526, // 3
@@ -434365,7 +434366,7 @@
 			"no_tag": 1 // 2892
 		},
 		"headModels": [
-			134148
+			127936
 		],
 		"head_icon_data": [
 			[
@@ -434376,11 +434377,10 @@
 		"id": 11950,
 		"models": [
 			134117,
-			134147,
-			134150,
-			134149,
-			134145,
-			134146
+			127935,
+			134446,
+			134448,
+			134447
 		],
 		"movementCapabilities": 3,
 		"name": "Skeletal warrior"
@@ -434396,6 +434396,14 @@
 		"animation_group": 103,
 		"attackCursor": 42,
 		"boundSize": 1,
+		"color_replacements": {
+			"36870": 2843,
+			"36882": 2848,
+			"36912": 7731,
+			"36942": 38848,
+			"36960": 2826,
+			"42107": 7731
+		},
 		"combat": 99,
 		"extra": {
 			"accuracy_magic": 1526, // 3
@@ -434417,7 +434425,7 @@
 			"no_tag": 1 // 2892
 		},
 		"headModels": [
-			134148
+			127936
 		],
 		"head_icon_data": [
 			[
@@ -434428,11 +434436,10 @@
 		"id": 11951,
 		"models": [
 			134117,
-			134147,
-			134150,
-			134149,
-			134145,
-			134146
+			127935,
+			134446,
+			134448,
+			134447
 		],
 		"movementCapabilities": 3,
 		"name": "Skeletal warrior"
@@ -434448,6 +434455,14 @@
 		"animation_group": 103,
 		"attackCursor": 42,
 		"boundSize": 1,
+		"color_replacements": {
+			"36870": 2843,
+			"36882": 2848,
+			"36912": 7731,
+			"36942": 38848,
+			"36960": 2826,
+			"42107": 7731
+		},
 		"combat": 102,
 		"extra": {
 			"accuracy_magic": 1608, // 3
@@ -434469,7 +434484,7 @@
 			"no_tag": 1 // 2892
 		},
 		"headModels": [
-			134148
+			127936
 		],
 		"head_icon_data": [
 			[
@@ -434480,11 +434495,10 @@
 		"id": 11952,
 		"models": [
 			134117,
-			134147,
-			134150,
-			134149,
-			134145,
-			134146
+			127935,
+			134446,
+			134448,
+			134447
 		],
 		"movementCapabilities": 3,
 		"name": "Skeletal warrior"
@@ -434500,6 +434514,14 @@
 		"animation_group": 103,
 		"attackCursor": 42,
 		"boundSize": 1,
+		"color_replacements": {
+			"36870": 2843,
+			"36882": 2848,
+			"36912": 7731,
+			"36942": 38848,
+			"36960": 2826,
+			"42107": 7731
+		},
 		"combat": 102,
 		"extra": {
 			"accuracy_magic": 1608, // 3
@@ -434521,7 +434543,7 @@
 			"no_tag": 1 // 2892
 		},
 		"headModels": [
-			134148
+			127936
 		],
 		"head_icon_data": [
 			[
@@ -434532,11 +434554,10 @@
 		"id": 11953,
 		"models": [
 			134117,
-			134147,
-			134150,
-			134149,
-			134145,
-			134146
+			127935,
+			134446,
+			134448,
+			134447
 		],
 		"movementCapabilities": 3,
 		"name": "Skeletal warrior"
@@ -434552,6 +434573,14 @@
 		"animation_group": 103,
 		"attackCursor": 42,
 		"boundSize": 1,
+		"color_replacements": {
+			"36870": 2843,
+			"36882": 2848,
+			"36912": 7731,
+			"36942": 38848,
+			"36960": 2826,
+			"42107": 7731
+		},
 		"combat": 102,
 		"extra": {
 			"accuracy_magic": 1608, // 3
@@ -434573,7 +434602,7 @@
 			"no_tag": 1 // 2892
 		},
 		"headModels": [
-			134148
+			127936
 		],
 		"head_icon_data": [
 			[
@@ -434584,11 +434613,10 @@
 		"id": 11954,
 		"models": [
 			134117,
-			134147,
-			134150,
-			134149,
-			134145,
-			134146
+			127935,
+			134446,
+			134448,
+			134447
 		],
 		"movementCapabilities": 3,
 		"name": "Skeletal warrior"
@@ -434604,6 +434632,14 @@
 		"animation_group": 103,
 		"attackCursor": 42,
 		"boundSize": 1,
+		"color_replacements": {
+			"36870": 2843,
+			"36882": 2848,
+			"36912": 7731,
+			"36942": 38848,
+			"36960": 2826,
+			"42107": 7731
+		},
 		"combat": 105,
 		"extra": {
 			"accuracy_magic": 1694, // 3
@@ -434625,7 +434661,7 @@
 			"no_tag": 1 // 2892
 		},
 		"headModels": [
-			134148
+			127936
 		],
 		"head_icon_data": [
 			[
@@ -434636,11 +434672,10 @@
 		"id": 11955,
 		"models": [
 			134117,
-			134147,
-			134150,
-			134149,
-			134145,
-			134146
+			127935,
+			134446,
+			134448,
+			134447
 		],
 		"movementCapabilities": 3,
 		"name": "Skeletal warrior"
@@ -434656,6 +434691,14 @@
 		"animation_group": 103,
 		"attackCursor": 42,
 		"boundSize": 1,
+		"color_replacements": {
+			"36870": 2843,
+			"36882": 2848,
+			"36912": 7731,
+			"36942": 38848,
+			"36960": 2826,
+			"42107": 7731
+		},
 		"combat": 105,
 		"extra": {
 			"accuracy_magic": 1694, // 3
@@ -434677,7 +434720,7 @@
 			"no_tag": 1 // 2892
 		},
 		"headModels": [
-			134148
+			127936
 		],
 		"head_icon_data": [
 			[
@@ -434688,11 +434731,10 @@
 		"id": 11956,
 		"models": [
 			134117,
-			134147,
-			134150,
-			134149,
-			134145,
-			134146
+			127935,
+			134446,
+			134448,
+			134447
 		],
 		"movementCapabilities": 3,
 		"name": "Skeletal warrior"
@@ -434708,6 +434750,14 @@
 		"animation_group": 103,
 		"attackCursor": 42,
 		"boundSize": 1,
+		"color_replacements": {
+			"36870": 2843,
+			"36882": 2848,
+			"36912": 7731,
+			"36942": 38848,
+			"36960": 2826,
+			"42107": 7731
+		},
 		"combat": 105,
 		"extra": {
 			"accuracy_magic": 1694, // 3
@@ -434729,7 +434779,7 @@
 			"no_tag": 1 // 2892
 		},
 		"headModels": [
-			134148
+			127936
 		],
 		"head_icon_data": [
 			[
@@ -434740,11 +434790,10 @@
 		"id": 11957,
 		"models": [
 			134117,
-			134147,
-			134150,
-			134149,
-			134145,
-			134146
+			127935,
+			134446,
+			134448,
+			134447
 		],
 		"movementCapabilities": 3,
 		"name": "Skeletal warrior"
@@ -434760,6 +434809,14 @@
 		"animation_group": 103,
 		"attackCursor": 42,
 		"boundSize": 1,
+		"color_replacements": {
+			"36870": 2843,
+			"36882": 2848,
+			"36912": 7731,
+			"36942": 38848,
+			"36960": 2826,
+			"42107": 7731
+		},
 		"combat": 107,
 		"extra": {
 			"accuracy_magic": 1783, // 3
@@ -434781,7 +434838,7 @@
 			"no_tag": 1 // 2892
 		},
 		"headModels": [
-			134148
+			127936
 		],
 		"head_icon_data": [
 			[
@@ -434792,11 +434849,10 @@
 		"id": 11958,
 		"models": [
 			134117,
-			134147,
-			134150,
-			134149,
-			134145,
-			134146
+			127935,
+			134446,
+			134448,
+			134447
 		],
 		"movementCapabilities": 3,
 		"name": "Skeletal warrior"
@@ -434812,6 +434868,14 @@
 		"animation_group": 103,
 		"attackCursor": 42,
 		"boundSize": 1,
+		"color_replacements": {
+			"36870": 2843,
+			"36882": 2848,
+			"36912": 7731,
+			"36942": 38848,
+			"36960": 2826,
+			"42107": 7731
+		},
 		"combat": 107,
 		"extra": {
 			"accuracy_magic": 1783, // 3
@@ -434833,7 +434897,7 @@
 			"no_tag": 1 // 2892
 		},
 		"headModels": [
-			134148
+			127936
 		],
 		"head_icon_data": [
 			[
@@ -434844,11 +434908,10 @@
 		"id": 11959,
 		"models": [
 			134117,
-			134147,
-			134150,
-			134149,
-			134145,
-			134146
+			127935,
+			134446,
+			134448,
+			134447
 		],
 		"movementCapabilities": 3,
 		"name": "Skeletal warrior"
@@ -434864,6 +434927,14 @@
 		"animation_group": 103,
 		"attackCursor": 42,
 		"boundSize": 1,
+		"color_replacements": {
+			"36870": 2843,
+			"36882": 2848,
+			"36912": 7731,
+			"36942": 38848,
+			"36960": 2826,
+			"42107": 7731
+		},
 		"combat": 107,
 		"extra": {
 			"accuracy_magic": 1783, // 3
@@ -434885,7 +434956,7 @@
 			"no_tag": 1 // 2892
 		},
 		"headModels": [
-			134148
+			127936
 		],
 		"head_icon_data": [
 			[
@@ -434896,11 +434967,10 @@
 		"id": 11960,
 		"models": [
 			134117,
-			134147,
-			134150,
-			134149,
-			134145,
-			134146
+			127935,
+			134446,
+			134448,
+			134447
 		],
 		"movementCapabilities": 3,
 		"name": "Skeletal warrior"
@@ -434916,6 +434986,14 @@
 		"animation_group": 103,
 		"attackCursor": 42,
 		"boundSize": 1,
+		"color_replacements": {
+			"36870": 2843,
+			"36882": 2848,
+			"36912": 7731,
+			"36942": 38848,
+			"36960": 2826,
+			"42107": 7731
+		},
 		"combat": 110,
 		"extra": {
 			"accuracy_magic": 1876, // 3
@@ -434937,7 +435015,7 @@
 			"no_tag": 1 // 2892
 		},
 		"headModels": [
-			134148
+			127936
 		],
 		"head_icon_data": [
 			[
@@ -434948,11 +435026,10 @@
 		"id": 11961,
 		"models": [
 			134117,
-			134147,
-			134150,
-			134149,
-			134145,
-			134146
+			127935,
+			134446,
+			134448,
+			134447
 		],
 		"movementCapabilities": 3,
 		"name": "Skeletal warrior"
@@ -434968,6 +435045,14 @@
 		"animation_group": 103,
 		"attackCursor": 42,
 		"boundSize": 1,
+		"color_replacements": {
+			"36870": 2843,
+			"36882": 2848,
+			"36912": 7731,
+			"36942": 38848,
+			"36960": 2826,
+			"42107": 7731
+		},
 		"combat": 110,
 		"extra": {
 			"accuracy_magic": 1876, // 3
@@ -434989,7 +435074,7 @@
 			"no_tag": 1 // 2892
 		},
 		"headModels": [
-			134148
+			127936
 		],
 		"head_icon_data": [
 			[
@@ -435000,11 +435085,10 @@
 		"id": 11962,
 		"models": [
 			134117,
-			134147,
-			134150,
-			134149,
-			134145,
-			134146
+			127935,
+			134446,
+			134448,
+			134447
 		],
 		"movementCapabilities": 3,
 		"name": "Skeletal warrior"
@@ -435020,6 +435104,14 @@
 		"animation_group": 103,
 		"attackCursor": 42,
 		"boundSize": 1,
+		"color_replacements": {
+			"36870": 2843,
+			"36882": 2848,
+			"36912": 7731,
+			"36942": 38848,
+			"36960": 2826,
+			"42107": 7731
+		},
 		"combat": 110,
 		"extra": {
 			"accuracy_magic": 1876, // 3
@@ -435041,7 +435133,7 @@
 			"no_tag": 1 // 2892
 		},
 		"headModels": [
-			134148
+			127936
 		],
 		"head_icon_data": [
 			[
@@ -435052,11 +435144,10 @@
 		"id": 11963,
 		"models": [
 			134117,
-			134147,
-			134150,
-			134149,
-			134145,
-			134146
+			127935,
+			134446,
+			134448,
+			134447
 		],
 		"movementCapabilities": 3,
 		"name": "Skeletal warrior"
@@ -435072,6 +435163,14 @@
 		"animation_group": 103,
 		"attackCursor": 42,
 		"boundSize": 1,
+		"color_replacements": {
+			"36870": 2843,
+			"36882": 2848,
+			"36912": 7731,
+			"36942": 38848,
+			"36960": 2826,
+			"42107": 7731
+		},
 		"combat": 113,
 		"extra": {
 			"accuracy_magic": 1973, // 3
@@ -435093,7 +435192,7 @@
 			"no_tag": 1 // 2892
 		},
 		"headModels": [
-			134148
+			127936
 		],
 		"head_icon_data": [
 			[
@@ -435104,11 +435203,10 @@
 		"id": 11964,
 		"models": [
 			134117,
-			134147,
-			134150,
-			134149,
-			134145,
-			134146
+			127935,
+			134446,
+			134448,
+			134447
 		],
 		"movementCapabilities": 3,
 		"name": "Skeletal warrior"
@@ -435124,6 +435222,14 @@
 		"animation_group": 103,
 		"attackCursor": 42,
 		"boundSize": 1,
+		"color_replacements": {
+			"36870": 2843,
+			"36882": 2848,
+			"36912": 7731,
+			"36942": 38848,
+			"36960": 2826,
+			"42107": 7731
+		},
 		"combat": 113,
 		"extra": {
 			"accuracy_magic": 1973, // 3
@@ -435145,7 +435251,7 @@
 			"no_tag": 1 // 2892
 		},
 		"headModels": [
-			134148
+			127936
 		],
 		"head_icon_data": [
 			[
@@ -435156,11 +435262,10 @@
 		"id": 11965,
 		"models": [
 			134117,
-			134147,
-			134150,
-			134149,
-			134145,
-			134146
+			127935,
+			134446,
+			134448,
+			134447
 		],
 		"movementCapabilities": 3,
 		"name": "Skeletal warrior"
@@ -435176,6 +435281,14 @@
 		"animation_group": 103,
 		"attackCursor": 42,
 		"boundSize": 1,
+		"color_replacements": {
+			"36870": 2843,
+			"36882": 2848,
+			"36912": 7731,
+			"36942": 38848,
+			"36960": 2826,
+			"42107": 7731
+		},
 		"combat": 113,
 		"extra": {
 			"accuracy_magic": 1973, // 3
@@ -435197,7 +435310,7 @@
 			"no_tag": 1 // 2892
 		},
 		"headModels": [
-			134148
+			127936
 		],
 		"head_icon_data": [
 			[
@@ -435208,11 +435321,10 @@
 		"id": 11966,
 		"models": [
 			134117,
-			134147,
-			134150,
-			134149,
-			134145,
-			134146
+			127935,
+			134446,
+			134448,
+			134447
 		],
 		"movementCapabilities": 3,
 		"name": "Skeletal warrior"
@@ -435228,6 +435340,14 @@
 		"animation_group": 103,
 		"attackCursor": 42,
 		"boundSize": 1,
+		"color_replacements": {
+			"36870": 2843,
+			"36882": 2848,
+			"36912": 7731,
+			"36942": 38848,
+			"36960": 2826,
+			"42107": 7731
+		},
 		"combat": 116,
 		"extra": {
 			"accuracy_magic": 2074, // 3
@@ -435249,7 +435369,7 @@
 			"no_tag": 1 // 2892
 		},
 		"headModels": [
-			134148
+			127936
 		],
 		"head_icon_data": [
 			[
@@ -435260,11 +435380,10 @@
 		"id": 11967,
 		"models": [
 			134117,
-			134147,
-			134150,
-			134149,
-			134145,
-			134146
+			127935,
+			134446,
+			134448,
+			134447
 		],
 		"movementCapabilities": 3,
 		"name": "Skeletal warrior"
@@ -435280,6 +435399,14 @@
 		"animation_group": 103,
 		"attackCursor": 42,
 		"boundSize": 1,
+		"color_replacements": {
+			"36870": 2843,
+			"36882": 2848,
+			"36912": 7731,
+			"36942": 38848,
+			"36960": 2826,
+			"42107": 7731
+		},
 		"combat": 116,
 		"extra": {
 			"accuracy_magic": 2074, // 3
@@ -435301,7 +435428,7 @@
 			"no_tag": 1 // 2892
 		},
 		"headModels": [
-			134148
+			127936
 		],
 		"head_icon_data": [
 			[
@@ -435312,11 +435439,10 @@
 		"id": 11968,
 		"models": [
 			134117,
-			134147,
-			134150,
-			134149,
-			134145,
-			134146
+			127935,
+			134446,
+			134448,
+			134447
 		],
 		"movementCapabilities": 3,
 		"name": "Skeletal warrior"
@@ -435332,6 +435458,14 @@
 		"animation_group": 103,
 		"attackCursor": 42,
 		"boundSize": 1,
+		"color_replacements": {
+			"36870": 2843,
+			"36882": 2848,
+			"36912": 7731,
+			"36942": 38848,
+			"36960": 2826,
+			"42107": 7731
+		},
 		"combat": 116,
 		"extra": {
 			"accuracy_magic": 2074, // 3
@@ -435353,7 +435487,7 @@
 			"no_tag": 1 // 2892
 		},
 		"headModels": [
-			134148
+			127936
 		],
 		"head_icon_data": [
 			[
@@ -435364,11 +435498,10 @@
 		"id": 11969,
 		"models": [
 			134117,
-			134147,
-			134150,
-			134149,
-			134145,
-			134146
+			127935,
+			134446,
+			134448,
+			134447
 		],
 		"movementCapabilities": 3,
 		"name": "Skeletal warrior"
@@ -435384,6 +435517,14 @@
 		"animation_group": 103,
 		"attackCursor": 42,
 		"boundSize": 1,
+		"color_replacements": {
+			"36870": 2843,
+			"36882": 2848,
+			"36912": 7731,
+			"36942": 38848,
+			"36960": 2826,
+			"42107": 7731
+		},
 		"combat": 119,
 		"extra": {
 			"accuracy_magic": 2178, // 3
@@ -435405,7 +435546,7 @@
 			"no_tag": 1 // 2892
 		},
 		"headModels": [
-			134148
+			127936
 		],
 		"head_icon_data": [
 			[
@@ -435416,11 +435557,10 @@
 		"id": 11970,
 		"models": [
 			134117,
-			134147,
-			134150,
-			134149,
-			134145,
-			134146
+			127935,
+			134446,
+			134448,
+			134447
 		],
 		"movementCapabilities": 3,
 		"name": "Skeletal warrior"
@@ -435436,6 +435576,14 @@
 		"animation_group": 103,
 		"attackCursor": 42,
 		"boundSize": 1,
+		"color_replacements": {
+			"36870": 2843,
+			"36882": 2848,
+			"36912": 7731,
+			"36942": 38848,
+			"36960": 2826,
+			"42107": 7731
+		},
 		"combat": 119,
 		"extra": {
 			"accuracy_magic": 2178, // 3
@@ -435457,7 +435605,7 @@
 			"no_tag": 1 // 2892
 		},
 		"headModels": [
-			134148
+			127936
 		],
 		"head_icon_data": [
 			[
@@ -435468,11 +435616,10 @@
 		"id": 11971,
 		"models": [
 			134117,
-			134147,
-			134150,
-			134149,
-			134145,
-			134146
+			127935,
+			134446,
+			134448,
+			134447
 		],
 		"movementCapabilities": 3,
 		"name": "Skeletal warrior"
@@ -435488,6 +435635,14 @@
 		"animation_group": 103,
 		"attackCursor": 42,
 		"boundSize": 1,
+		"color_replacements": {
+			"36870": 2843,
+			"36882": 2848,
+			"36912": 7731,
+			"36942": 38848,
+			"36960": 2826,
+			"42107": 7731
+		},
 		"combat": 119,
 		"extra": {
 			"accuracy_magic": 2178, // 3
@@ -435509,7 +435664,7 @@
 			"no_tag": 1 // 2892
 		},
 		"headModels": [
-			134148
+			127936
 		],
 		"head_icon_data": [
 			[
@@ -435520,11 +435675,10 @@
 		"id": 11972,
 		"models": [
 			134117,
-			134147,
-			134150,
-			134149,
-			134145,
-			134146
+			127935,
+			134446,
+			134448,
+			134447
 		],
 		"movementCapabilities": 3,
 		"name": "Skeletal warrior"
@@ -435540,6 +435694,14 @@
 		"animation_group": 103,
 		"attackCursor": 42,
 		"boundSize": 1,
+		"color_replacements": {
+			"36870": 2843,
+			"36882": 2848,
+			"36912": 7731,
+			"36942": 38848,
+			"36960": 2826,
+			"42107": 7731
+		},
 		"combat": 121,
 		"extra": {
 			"accuracy_magic": 2287, // 3
@@ -435561,7 +435723,7 @@
 			"no_tag": 1 // 2892
 		},
 		"headModels": [
-			134148
+			127936
 		],
 		"head_icon_data": [
 			[
@@ -435572,11 +435734,10 @@
 		"id": 11973,
 		"models": [
 			134117,
-			134147,
-			134150,
-			134149,
-			134145,
-			134146
+			127935,
+			134446,
+			134448,
+			134447
 		],
 		"movementCapabilities": 3,
 		"name": "Skeletal warrior"
@@ -435592,6 +435753,14 @@
 		"animation_group": 103,
 		"attackCursor": 42,
 		"boundSize": 1,
+		"color_replacements": {
+			"36870": 2843,
+			"36882": 2848,
+			"36912": 7731,
+			"36942": 38848,
+			"36960": 2826,
+			"42107": 7731
+		},
 		"combat": 121,
 		"extra": {
 			"accuracy_magic": 2287, // 3
@@ -435613,7 +435782,7 @@
 			"no_tag": 1 // 2892
 		},
 		"headModels": [
-			134148
+			127936
 		],
 		"head_icon_data": [
 			[
@@ -435624,11 +435793,10 @@
 		"id": 11974,
 		"models": [
 			134117,
-			134147,
-			134150,
-			134149,
-			134145,
-			134146
+			127935,
+			134446,
+			134448,
+			134447
 		],
 		"movementCapabilities": 3,
 		"name": "Skeletal warrior"
@@ -435644,6 +435812,14 @@
 		"animation_group": 103,
 		"attackCursor": 42,
 		"boundSize": 1,
+		"color_replacements": {
+			"36870": 2843,
+			"36882": 2848,
+			"36912": 7731,
+			"36942": 38848,
+			"36960": 2826,
+			"42107": 7731
+		},
 		"combat": 121,
 		"extra": {
 			"accuracy_magic": 2287, // 3
@@ -435665,7 +435841,7 @@
 			"no_tag": 1 // 2892
 		},
 		"headModels": [
-			134148
+			127936
 		],
 		"head_icon_data": [
 			[
@@ -435676,11 +435852,10 @@
 		"id": 11975,
 		"models": [
 			134117,
-			134147,
-			134150,
-			134149,
-			134145,
-			134146
+			127935,
+			134446,
+			134448,
+			134447
 		],
 		"movementCapabilities": 3,
 		"name": "Skeletal warrior"
@@ -435696,6 +435871,14 @@
 		"animation_group": 103,
 		"attackCursor": 42,
 		"boundSize": 1,
+		"color_replacements": {
+			"36870": 2843,
+			"36882": 2848,
+			"36912": 7731,
+			"36942": 38848,
+			"36960": 2826,
+			"42107": 7731
+		},
 		"combat": 124,
 		"extra": {
 			"accuracy_magic": 2400, // 3
@@ -435717,7 +435900,7 @@
 			"no_tag": 1 // 2892
 		},
 		"headModels": [
-			134148
+			127936
 		],
 		"head_icon_data": [
 			[
@@ -435728,11 +435911,10 @@
 		"id": 11976,
 		"models": [
 			134117,
-			134147,
-			134150,
-			134149,
-			134145,
-			134146
+			127935,
+			134446,
+			134448,
+			134447
 		],
 		"movementCapabilities": 3,
 		"name": "Skeletal warrior"
@@ -435748,6 +435930,14 @@
 		"animation_group": 103,
 		"attackCursor": 42,
 		"boundSize": 1,
+		"color_replacements": {
+			"36870": 2843,
+			"36882": 2848,
+			"36912": 7731,
+			"36942": 38848,
+			"36960": 2826,
+			"42107": 7731
+		},
 		"combat": 124,
 		"extra": {
 			"accuracy_magic": 2400, // 3
@@ -435769,7 +435959,7 @@
 			"no_tag": 1 // 2892
 		},
 		"headModels": [
-			134148
+			127936
 		],
 		"head_icon_data": [
 			[
@@ -435780,11 +435970,10 @@
 		"id": 11977,
 		"models": [
 			134117,
-			134147,
-			134150,
-			134149,
-			134145,
-			134146
+			127935,
+			134446,
+			134448,
+			134447
 		],
 		"movementCapabilities": 3,
 		"name": "Skeletal warrior"
@@ -435800,6 +435989,14 @@
 		"animation_group": 103,
 		"attackCursor": 42,
 		"boundSize": 1,
+		"color_replacements": {
+			"36870": 2843,
+			"36882": 2848,
+			"36912": 7731,
+			"36942": 38848,
+			"36960": 2826,
+			"42107": 7731
+		},
 		"combat": 124,
 		"extra": {
 			"accuracy_magic": 2400, // 3
@@ -435821,7 +436018,7 @@
 			"no_tag": 1 // 2892
 		},
 		"headModels": [
-			134148
+			127936
 		],
 		"head_icon_data": [
 			[
@@ -435832,11 +436029,10 @@
 		"id": 11978,
 		"models": [
 			134117,
-			134147,
-			134150,
-			134149,
-			134145,
-			134146
+			127935,
+			134446,
+			134448,
+			134447
 		],
 		"movementCapabilities": 3,
 		"name": "Skeletal warrior"
@@ -435852,6 +436048,14 @@
 		"animation_group": 103,
 		"attackCursor": 42,
 		"boundSize": 1,
+		"color_replacements": {
+			"36870": 2843,
+			"36882": 2848,
+			"36912": 7731,
+			"36942": 38848,
+			"36960": 2826,
+			"42107": 7731
+		},
 		"combat": 127,
 		"extra": {
 			"accuracy_magic": 2577, // 3
@@ -435873,7 +436077,7 @@
 			"no_tag": 1 // 2892
 		},
 		"headModels": [
-			134148
+			127936
 		],
 		"head_icon_data": [
 			[
@@ -435884,11 +436088,10 @@
 		"id": 11979,
 		"models": [
 			134117,
-			134147,
-			134150,
-			134149,
-			134145,
-			134146
+			127935,
+			134446,
+			134448,
+			134447
 		],
 		"movementCapabilities": 3,
 		"name": "Skeletal warrior"
@@ -435904,6 +436107,14 @@
 		"animation_group": 103,
 		"attackCursor": 42,
 		"boundSize": 1,
+		"color_replacements": {
+			"36870": 2843,
+			"36882": 2848,
+			"36912": 7731,
+			"36942": 38848,
+			"36960": 2826,
+			"42107": 7731
+		},
 		"combat": 127,
 		"extra": {
 			"accuracy_magic": 2577, // 3
@@ -435925,7 +436136,7 @@
 			"no_tag": 1 // 2892
 		},
 		"headModels": [
-			134148
+			127936
 		],
 		"head_icon_data": [
 			[
@@ -435936,11 +436147,10 @@
 		"id": 11980,
 		"models": [
 			134117,
-			134147,
-			134150,
-			134149,
-			134145,
-			134146
+			127935,
+			134446,
+			134448,
+			134447
 		],
 		"movementCapabilities": 3,
 		"name": "Skeletal warrior"
@@ -435956,6 +436166,14 @@
 		"animation_group": 103,
 		"attackCursor": 42,
 		"boundSize": 1,
+		"color_replacements": {
+			"36870": 2843,
+			"36882": 2848,
+			"36912": 7731,
+			"36942": 38848,
+			"36960": 2826,
+			"42107": 7731
+		},
 		"combat": 127,
 		"extra": {
 			"accuracy_magic": 2577, // 3
@@ -435977,7 +436195,7 @@
 			"no_tag": 1 // 2892
 		},
 		"headModels": [
-			134148
+			127936
 		],
 		"head_icon_data": [
 			[
@@ -435988,11 +436206,10 @@
 		"id": 11981,
 		"models": [
 			134117,
-			134147,
-			134150,
-			134149,
-			134145,
-			134146
+			127935,
+			134446,
+			134448,
+			134447
 		],
 		"movementCapabilities": 3,
 		"name": "Skeletal warrior"
@@ -436008,6 +436225,14 @@
 		"animation_group": 103,
 		"attackCursor": 42,
 		"boundSize": 1,
+		"color_replacements": {
+			"36870": 2843,
+			"36882": 2848,
+			"36912": 7731,
+			"36942": 38848,
+			"36960": 2826,
+			"42107": 7731
+		},
 		"combat": 138,
 		"extra": {
 			"accuracy_magic": 3031, // 3
@@ -436029,7 +436254,7 @@
 			"no_tag": 1 // 2892
 		},
 		"headModels": [
-			134148
+			127936
 		],
 		"head_icon_data": [
 			[
@@ -436040,11 +436265,10 @@
 		"id": 11982,
 		"models": [
 			134117,
-			134147,
-			134150,
-			134149,
-			134145,
-			134146
+			127935,
+			134446,
+			134448,
+			134447
 		],
 		"movementCapabilities": 3,
 		"name": "Skeletal warrior"
@@ -436060,6 +436284,14 @@
 		"animation_group": 103,
 		"attackCursor": 42,
 		"boundSize": 1,
+		"color_replacements": {
+			"36870": 2843,
+			"36882": 2848,
+			"36912": 7731,
+			"36942": 38848,
+			"36960": 2826,
+			"42107": 7731
+		},
 		"combat": 138,
 		"extra": {
 			"accuracy_magic": 3031, // 3
@@ -436081,7 +436313,7 @@
 			"no_tag": 1 // 2892
 		},
 		"headModels": [
-			134148
+			127936
 		],
 		"head_icon_data": [
 			[
@@ -436092,11 +436324,10 @@
 		"id": 11983,
 		"models": [
 			134117,
-			134147,
-			134150,
-			134149,
-			134145,
-			134146
+			127935,
+			134446,
+			134448,
+			134447
 		],
 		"movementCapabilities": 3,
 		"name": "Skeletal warrior"
@@ -436112,6 +436343,14 @@
 		"animation_group": 103,
 		"attackCursor": 42,
 		"boundSize": 1,
+		"color_replacements": {
+			"36870": 2843,
+			"36882": 2848,
+			"36912": 7731,
+			"36942": 38848,
+			"36960": 2826,
+			"42107": 7731
+		},
 		"combat": 138,
 		"extra": {
 			"accuracy_magic": 3031, // 3
@@ -436133,7 +436372,7 @@
 			"no_tag": 1 // 2892
 		},
 		"headModels": [
-			134148
+			127936
 		],
 		"head_icon_data": [
 			[
@@ -436144,11 +436383,10 @@
 		"id": 11984,
 		"models": [
 			134117,
-			134147,
-			134150,
-			134149,
-			134145,
-			134146
+			127935,
+			134446,
+			134448,
+			134447
 		],
 		"movementCapabilities": 3,
 		"name": "Skeletal warrior"
@@ -441648,7 +441886,7 @@
 		"unknown_67": 0
 	},
 	{
-		"ambience": 12,
+		"ambience": 64,
 		"animation_group": 1767,
 		"boundSize": 1,
 		"combat": 0,
@@ -441662,7 +441900,7 @@
 		"unknown_63": true
 	},
 	{
-		"ambience": 12,
+		"ambience": 64,
 		"animation_group": 1767,
 		"boundSize": 1,
 		"combat": 0,
@@ -441676,7 +441914,7 @@
 		"unknown_63": true
 	},
 	{
-		"ambience": 12,
+		"ambience": 64,
 		"animation_group": 1767,
 		"boundSize": 1,
 		"combat": 0,
@@ -441690,7 +441928,7 @@
 		"unknown_63": true
 	},
 	{
-		"ambience": 12,
+		"ambience": 64,
 		"animation_group": 1767,
 		"boundSize": 1,
 		"combat": 0,
@@ -441704,7 +441942,7 @@
 		"unknown_63": true
 	},
 	{
-		"ambience": 12,
+		"ambience": 64,
 		"animation_group": 1767,
 		"boundSize": 1,
 		"combat": 0,
@@ -441782,7 +442020,7 @@
 			null,
 			null
 		],
-		"ambience": 12,
+		"ambience": 64,
 		"animation_group": 1767,
 		"boundSize": 1,
 		"combat": 0,
@@ -441833,7 +442071,7 @@
 			null,
 			null
 		],
-		"ambience": 12,
+		"ambience": 64,
 		"animation_group": 1767,
 		"boundSize": 1,
 		"combat": 0,
@@ -441895,7 +442133,7 @@
 			null,
 			null
 		],
-		"ambience": 12,
+		"ambience": 64,
 		"animation_group": 1767,
 		"boundSize": 1,
 		"combat": 0,
@@ -441934,7 +442172,7 @@
 			null,
 			null
 		],
-		"ambience": 12,
+		"ambience": 64,
 		"animation_group": 1767,
 		"boundSize": 1,
 		"combat": 0,
@@ -441988,7 +442226,7 @@
 			null,
 			null
 		],
-		"ambience": 12,
+		"ambience": 64,
 		"animation_group": 1767,
 		"boundSize": 1,
 		"combat": 0,
@@ -448257,7 +448495,7 @@
 		"unknown_63": true
 	},
 	{
-		"ambience": 12,
+		"ambience": 64,
 		"animation_group": 1858,
 		"boundSize": 1,
 		"combat": 0,
@@ -448365,7 +448603,7 @@
 		"unknown_63": true
 	},
 	{
-		"ambience": 12,
+		"ambience": 64,
 		"animation_group": 1858,
 		"boundSize": 1,
 		"combat": 0,
@@ -448379,7 +448617,7 @@
 		"unknown_63": true
 	},
 	{
-		"ambience": 12,
+		"ambience": 64,
 		"animation_group": 1858,
 		"boundSize": 1,
 		"combat": 0,
@@ -448393,7 +448631,7 @@
 		"unknown_63": true
 	},
 	{
-		"ambience": 12,
+		"ambience": 64,
 		"animation_group": 1858,
 		"boundSize": 1,
 		"combat": 0,
@@ -491751,7 +491989,7 @@
 		"unknown_67": 0
 	},
 	{
-		"ambience": 12,
+		"ambience": 64,
 		"animation_group": 1858,
 		"boundSize": 1,
 		"combat": 0,
@@ -595699,18 +595937,9 @@
 			null,
 			null
 		],
-		"animation_group": 1900,
+		"animation_group": 4519,
 		"attackCursor": 42,
 		"boundSize": 2,
-		"color_replacements": {
-			"5263": 14348,
-			"5264": 14349,
-			"5272": 14357,
-			"5403": 14360,
-			"5540": 14369,
-			"6308": 15393,
-			"6315": 15400
-		},
 		"combat": 4,
 		"extra": {
 			"attack_speed": 4, // 14
@@ -595728,9 +595957,7 @@
 		},
 		"id": 16808,
 		"models": [
-			61019,
-			61013,
-			61023
+			121521
 		],
 		"movementCapabilities": 3,
 		"name": "Giant rat"
@@ -595743,18 +595970,9 @@
 			null,
 			null
 		],
-		"animation_group": 1900,
+		"animation_group": 4519,
 		"attackCursor": 42,
 		"boundSize": 2,
-		"color_replacements": {
-			"5263": 14348,
-			"5264": 14349,
-			"5272": 14357,
-			"5403": 14360,
-			"5540": 14369,
-			"6308": 15393,
-			"6315": 15400
-		},
 		"combat": 14,
 		"extra": {
 			"attack_speed": 4, // 14
@@ -595772,9 +595990,7 @@
 		},
 		"id": 16809,
 		"models": [
-			61019,
-			61013,
-			61023
+			121521
 		],
 		"movementCapabilities": 3,
 		"name": "Giant rat"
@@ -595787,18 +596003,9 @@
 			null,
 			null
 		],
-		"animation_group": 1900,
+		"animation_group": 4519,
 		"attackCursor": 42,
 		"boundSize": 2,
-		"color_replacements": {
-			"5263": 14348,
-			"5264": 14349,
-			"5272": 14357,
-			"5403": 14360,
-			"5540": 14369,
-			"6308": 15393,
-			"6315": 15400
-		},
 		"combat": 25,
 		"extra": {
 			"attack_speed": 4, // 14
@@ -595816,9 +596023,7 @@
 		},
 		"id": 16810,
 		"models": [
-			61020,
-			61011,
-			61022
+			121521
 		],
 		"movementCapabilities": 3,
 		"name": "Giant rat"
@@ -595831,18 +596036,9 @@
 			null,
 			null
 		],
-		"animation_group": 1900,
+		"animation_group": 4519,
 		"attackCursor": 42,
 		"boundSize": 2,
-		"color_replacements": {
-			"5263": 14348,
-			"5264": 14349,
-			"5272": 14357,
-			"5403": 14360,
-			"5540": 14369,
-			"6308": 15393,
-			"6315": 15400
-		},
 		"combat": 36,
 		"extra": {
 			"attack_speed": 4, // 14
@@ -595860,9 +596056,7 @@
 		},
 		"id": 16811,
 		"models": [
-			61018,
-			61013,
-			61024
+			121521
 		],
 		"movementCapabilities": 3,
 		"name": "Giant rat"
@@ -595875,18 +596069,9 @@
 			null,
 			null
 		],
-		"animation_group": 1900,
+		"animation_group": 4519,
 		"attackCursor": 42,
 		"boundSize": 2,
-		"color_replacements": {
-			"5263": 14348,
-			"5264": 14349,
-			"5272": 14357,
-			"5403": 14360,
-			"5540": 14369,
-			"6308": 15393,
-			"6315": 15400
-		},
 		"combat": 47,
 		"extra": {
 			"attack_speed": 4, // 14
@@ -595904,9 +596089,7 @@
 		},
 		"id": 16812,
 		"models": [
-			61019,
-			61013,
-			61023
+			121521
 		],
 		"movementCapabilities": 3,
 		"name": "Giant rat"
@@ -595919,18 +596102,9 @@
 			null,
 			null
 		],
-		"animation_group": 1900,
+		"animation_group": 4519,
 		"attackCursor": 42,
 		"boundSize": 2,
-		"color_replacements": {
-			"5263": 14348,
-			"5264": 14349,
-			"5272": 14357,
-			"5403": 14360,
-			"5540": 14369,
-			"6308": 15393,
-			"6315": 15400
-		},
 		"combat": 58,
 		"extra": {
 			"attack_speed": 4, // 14
@@ -595948,9 +596122,7 @@
 		},
 		"id": 16813,
 		"models": [
-			61020,
-			61011,
-			61022
+			121521
 		],
 		"movementCapabilities": 3,
 		"name": "Giant rat"
@@ -595963,18 +596135,9 @@
 			null,
 			null
 		],
-		"animation_group": 1900,
+		"animation_group": 4519,
 		"attackCursor": 42,
 		"boundSize": 2,
-		"color_replacements": {
-			"5263": 14348,
-			"5264": 14349,
-			"5272": 14357,
-			"5403": 14360,
-			"5540": 14369,
-			"6308": 15393,
-			"6315": 15400
-		},
 		"combat": 70,
 		"extra": {
 			"attack_speed": 4, // 14
@@ -595992,9 +596155,7 @@
 		},
 		"id": 16814,
 		"models": [
-			61019,
-			61013,
-			61023
+			121521
 		],
 		"movementCapabilities": 3,
 		"name": "Giant rat"
@@ -1025657,6 +1025818,14 @@
 		"animation_group": 103,
 		"attackCursor": 42,
 		"boundSize": 1,
+		"color_replacements": {
+			"36870": 2843,
+			"36882": 2848,
+			"36912": 7731,
+			"36942": 38848,
+			"36960": 2826,
+			"42107": 7731
+		},
 		"combat": 112,
 		"extra": {
 			"accuracy_magic": 1924, // 3
@@ -1025679,7 +1025848,7 @@
 			"no_tag": 1 // 2892
 		},
 		"headModels": [
-			134148
+			127936
 		],
 		"head_icon_data": [
 			[
@@ -1025690,11 +1025859,10 @@
 		"id": 30239,
 		"models": [
 			134117,
-			134147,
-			134150,
-			134149,
-			134145,
-			134146
+			127935,
+			134446,
+			134448,
+			134447
 		],
 		"movementCapabilities": 3,
 		"name": "Skeletal warrior",
@@ -1025713,6 +1025881,14 @@
 		"animation_group": 103,
 		"attackCursor": 42,
 		"boundSize": 1,
+		"color_replacements": {
+			"36870": 2843,
+			"36882": 2848,
+			"36912": 7731,
+			"36942": 38848,
+			"36960": 2826,
+			"42107": 7731
+		},
 		"combat": 112,
 		"extra": {
 			"accuracy_magic": 1924, // 3
@@ -1025735,7 +1025911,7 @@
 			"no_tag": 1 // 2892
 		},
 		"headModels": [
-			134148
+			127936
 		],
 		"head_icon_data": [
 			[
@@ -1025746,11 +1025922,10 @@
 		"id": 30240,
 		"models": [
 			134117,
-			134147,
-			134150,
-			134149,
-			134145,
-			134146
+			127935,
+			134446,
+			134448,
+			134447
 		],
 		"movementCapabilities": 3,
 		"name": "Skeletal warrior",
@@ -1025769,6 +1025944,14 @@
 		"animation_group": 103,
 		"attackCursor": 42,
 		"boundSize": 1,
+		"color_replacements": {
+			"36870": 2843,
+			"36882": 2848,
+			"36912": 7731,
+			"36942": 38848,
+			"36960": 2826,
+			"42107": 7731
+		},
 		"combat": 112,
 		"extra": {
 			"accuracy_magic": 1924, // 3
@@ -1025791,7 +1025974,7 @@
 			"no_tag": 1 // 2892
 		},
 		"headModels": [
-			134148
+			127936
 		],
 		"head_icon_data": [
 			[
@@ -1025802,11 +1025985,10 @@
 		"id": 30241,
 		"models": [
 			134117,
-			134147,
-			134150,
-			134149,
-			134145,
-			134146
+			127935,
+			134446,
+			134448,
+			134447
 		],
 		"movementCapabilities": 3,
 		"name": "Skeletal warrior",
@@ -1089660,6 +1089842,7 @@
 			"3484": 3244,
 			"45612": 37172,
 			"47639": 43295,
+			"47783": 21157,
 			"63017": 21932,
 			"6596": 6342,
 			"6688": 6321,
@@ -1089705,6 +1089888,7 @@
 			"3484": 3244,
 			"45612": 37172,
 			"47639": 43295,
+			"47783": 21157,
 			"63017": 21932,
 			"6596": 6342,
 			"6688": 6321,

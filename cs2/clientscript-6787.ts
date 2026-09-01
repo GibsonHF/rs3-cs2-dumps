@@ -8,7 +8,7 @@ function script6787(): number {
         };
         int1 = (int1 + 1);
     };
-    if ((int0 >= 20)) {
+    if (((int0 >= 20) || (varplayer_12314 > 0))) {
         return 1;
     };
     return 0;

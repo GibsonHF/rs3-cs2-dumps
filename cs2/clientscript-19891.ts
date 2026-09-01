@@ -10,7 +10,7 @@ function script19891(int0: number, int1: number, int2: number, int3: number, int
     };
     var int11 = struct_getparam(int2, 1446);
     if (((struct_getparam(int0, 4153) == 0) && (CC_FIND(int3, script653(int1, 3)) == 1))) {
-        CC_SETTEXT(script3930(script12658(int0, int2, int5, int6, int11, 1), 60, 5, 26));
+        CC_SETTEXT(script3930(script12658(int0, int2, int5, int6, int11, 1), 60, 4, 26));
     };
     if ((CC_FIND(int4, int1) == 1)) {
         if ((int7 == 0)) {
