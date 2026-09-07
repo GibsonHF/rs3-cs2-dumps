@@ -14,6 +14,8 @@ function script20295(int0: number, int1: number): number {
             stack(int1);
             unk11040("iiii");
             CC_CALLONRESIZE();
+            stack(-1);
+            unk11040("");
             int4 = (int4 + 1);
         };
         int2 = dbrow_findnext();

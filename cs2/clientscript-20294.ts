@@ -20,6 +20,8 @@ function script20294(int0: number, int1: number, int2: number): number {
             stack(int2);
             unk11040("iiii");
             CC_CALLONRESIZE();
+            stack(-1);
+            unk11040("");
             int6 = (int6 + 1);
         };
         int3 = dbrow_findnext();
