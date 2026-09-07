@@ -13268,6 +13268,7 @@ declare var varplayer_13538: int;
 declare var varplayer_13539: int;
 declare var varplayer_13540: int;
 declare var varplayer_13541: int;
+declare var varplayer_13542: int;
 // ===== npc =====
 declare var varnpc_0: hash64;
 declare var varnpc_1: type_65;

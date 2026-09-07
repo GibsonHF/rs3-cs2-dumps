@@ -14,7 +14,7 @@ function script11988(int0: number, int1: number, int2: number, int3: number, str
             script12543(int3);
             break;
         }
-        case 96665656: {
+        case 96665655: {
             script12543(int3);
             break;
         }

@@ -1,15 +1,15 @@
 //
 function script19706(): number {
+    CC_DELETEALL(comp(1475, 38));  // toplevel_v2_edit_mode:23px_settings
     CC_DELETEALL(comp(1475, 39));  // toplevel_v2_edit_mode:interface_sharing_build
-    CC_DELETEALL(comp(1475, 40));  // toplevel_v2_edit_mode:interface_sharing_click
     CC_DELETEALL(comp(1475, 27));  // toplevel_v2_edit_mode:interface_sharing_scrollbar
     if ((script19705() == 0)) {
         IF_SETHIDE(true, comp(1475, 24));  // toplevel_v2_edit_mode:interface_sharing_contents
-        IF_SETTEXT("", comp(1475, 33));  // toplevel_v2_edit_mode:interface_sharing_player_input
+        IF_SETTEXT("", comp(1475, 32));  // toplevel_v2_edit_mode:interface_sharing_access
         return 0;
     };
     IF_SETHIDE(false, comp(1475, 24));  // toplevel_v2_edit_mode:interface_sharing_contents
-    IF_SETTEXT(varclient_8264, comp(1475, 33));  // toplevel_v2_edit_mode:interface_sharing_player_input
+    IF_SETTEXT(varclient_8264, comp(1475, 32));  // toplevel_v2_edit_mode:interface_sharing_access
     var int0 = -1;
     var int1 = 0;
     var int2 = ENUM_GETOUTPUTCOUNT(10781 as cs2enum);
@@ -46,7 +46,7 @@ function script19706(): number {
             } else {
                 int8 = 0;
             };
-            script7853(96665640, int3, 0, int1, 1, 0, 0, int6, 1, 0, 4476, string0, 1, 1, 1, int8);
+            script7853(96665639, int3, 0, int1, 1, 0, 0, int6, 1, 0, 4476, string0, 1, 1, 1, int8);
             CC_SETOP(1, "Load");
             CC_SETONOP(callback(script19708, -2147483645, -2147483643));
             CC_SETONMOUSEREPEAT(callback(script8799, string1, -2147483645, -2147483643));
@@ -55,7 +55,7 @@ function script19706(): number {
         int0 = (int0 + 1);
         int3 = enum_getvalue(0, 0, 10781, int0);
     };
-    IF_SETSIZE(0, MIN(150, (int1 + int7)), 1, 0, comp(1475, 24));  // toplevel_v2_edit_mode:interface_sharing_contents
+    IF_SETSIZE(0, MIN(159, (int1 + int7)), 1, 0, comp(1475, 24));  // toplevel_v2_edit_mode:interface_sharing_contents
     script19620(96665627, 96665626, int1, -1, -1, 0, 0, int7);
     return (int1 + int7);
 }

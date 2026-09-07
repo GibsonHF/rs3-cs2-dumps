@@ -9,7 +9,7 @@ function script15058(int0: number): void {
             script11702(varclient_6789, varclient_6790);
             break;
         }
-        case 96665652: {
+        case 96665651: {
             script20522();
             break;
         }

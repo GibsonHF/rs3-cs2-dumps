@@ -23,7 +23,7 @@ function script13129(int0: number, int1: number, int2: number, int3: number): [n
             };
             break;
         }
-        case 96665657: {
+        case 96665656: {
             if ((script12542(int2) == 1)) {
                 return [0, "", "", "", -1, -1, -1, -1];
             };
