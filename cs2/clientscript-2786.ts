@@ -19,7 +19,7 @@ function script2786(int0: number): void {
                 break;
             }
             case 1477: {
-                if ((IF_HASSUBOVERLAY(comp(1477, 815), 1420 as overlayinterface) == 0)) {  // toplevel_v2:fullscreen_pop_ups
+                if ((IF_HASSUBOVERLAY(comp(1477, 816), 1420 as overlayinterface) == 0)) {  // toplevel_v2:fixed_overlay_windows
                     script3384(1);
                 } else {
                     script3384(4);

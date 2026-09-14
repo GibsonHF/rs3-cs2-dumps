@@ -7,7 +7,7 @@ function script1108(): void {
         IF_SETGRAPHIC(script10060(), comp(1494, 36));  // marketplace_featured:unavailable_text
         [int0, int1] = IF_GETGRAPHICDIMENSIONS(comp(1494, 36));  // marketplace_featured:unavailable_text
         IF_SETASPECT(int0, int1, comp(1494, 36));  // marketplace_featured:unavailable_text
-        IF_SETSIZE(1, 450, 4, 0, comp(1494, 36));  // marketplace_featured:unavailable_text
+        IF_SETSIZE(IF_GETWIDTH(comp(1494, 36)), 450, 0, 0, comp(1494, 36));  // marketplace_featured:unavailable_text
         IF_SETHIDE(true, comp(1494, 35));  // marketplace_featured:spinner_layer
         IF_SETHIDE(false, comp(1494, 37));
         IF_SETPOSITION(-75, 60, 1, 2, comp(1494, 37));

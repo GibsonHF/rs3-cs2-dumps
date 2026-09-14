@@ -23,9 +23,9 @@ function script6060(int0: number): void {
         int2 = (int2 - 1);
     };
     if ((int1 == true)) {
-        IF_SETNOCLICKTHROUGH(0, comp(1477, 418));  // toplevel_v2:chat_window
+        IF_SETNOCLICKTHROUGH(0, comp(1477, 419));  // toplevel_v2:chat_window_background
         IF_SETNOCLICKTHROUGH(0, comp(137, 87));  // chatdefault:scrollbar
-        script3415(1, 96797095);
+        script3415(1, 96797096);
     } else {
         IF_SETNOCLICKTHROUGH(1, comp(137, 87));  // chatdefault:scrollbar
         script1850(18, varbitplayer_20188);

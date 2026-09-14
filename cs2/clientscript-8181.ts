@@ -8,7 +8,7 @@ function script8181(int0: number, int1: number): void {
             if ((script16266() == 1)) {
                 return;
             };
-            if ((IF_HASSUB(comp(1477, 744)) == 1)) {  // toplevel_v2:big_window
+            if ((IF_HASSUB(comp(1477, 745)) == 1)) {  // toplevel_v2:npc_chat_holder
                 script18123();
             } else {
                 if ((((script4550(1316) == 1) || (script9571(1316) == 1)) || (script4550(516) == 1))) {
@@ -54,10 +54,10 @@ function script8181(int0: number, int1: number): void {
                     if (((script8081(1045, 743) == 1) && (varplayer_9670 == 12))) {
                         return;
                     };
-                    if ((IF_HASSUB(comp(1477, 693)) == 1)) {  // toplevel_v2:bank_window
+                    if ((IF_HASSUB(comp(1477, 694)) == 1)) {  // toplevel_v2:bank_window_background
                         script675();
-                    } else if ((IF_GETHIDE(comp(1477, 787)) == false)) {  // toplevel_v2:context_menu_layer
-                        script2256(96797459);
+                    } else if ((IF_GETHIDE(comp(1477, 788)) == false)) {  // toplevel_v2:context_menu_content_layer
+                        script2256(96797460);
                     } else if ((int0 == 93913160)) {
                         script4143();
                     } else if ((script6431() == 1)) {

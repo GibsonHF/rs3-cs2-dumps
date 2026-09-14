@@ -1,6 +1,6 @@
 //
 function script7998(): void {
-    IF_SETHIDE(false, comp(1477, 804));  // toplevel_v2:floater_layer
+    IF_SETHIDE(false, comp(1477, 805));  // toplevel_v2:escape_menu
     script1998();
     script2464();
     script2466();

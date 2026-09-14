@@ -159,10 +159,10 @@ function script6999(int0: number): void {
         script8844(8, script8825(5, 101), 93716738, -1);
         script8844(1, script8825(5, 82), 93716483, -1);
         script8844(1, script8825(5, 81), 93716482, -1);
-        if ((CC_FIND(comp(1477, 71), 1) == 1)) {  // toplevel_v2:action_window_settings_button
-            script8844(2, script8825(5, 83), 96796743, 1);
+        if ((CC_FIND(comp(1477, 72), 1) == 1)) {  // toplevel_v2:action_window_2
+            script8844(2, script8825(5, 83), 96796744, 1);
         } else {
-            IF_SETONTIMER(callback(script7967, 96796743, 1, -2147483645), comp(1430, 262));  // toplevel_v2_combat_bar:fullscreen_arrow_bg
+            IF_SETONTIMER(callback(script7967, 96796744, 1, -2147483645), comp(1430, 262));  // toplevel_v2_combat_bar:fullscreen_arrow_bg
         };
         script8844(1, script8825(5, 85), 93716493, -1);
         script8844(1, script8825(5, 85), 98566146, -1);
@@ -256,7 +256,7 @@ function script6999(int0: number): void {
         IF_SETOPKEY(10, 0, 0, comp(1430, 262));  // toplevel_v2_combat_bar:fullscreen_arrow_bg
         IF_SETOPKEY(1, 0, 0, comp(1430, 3));  // toplevel_v2_combat_bar:next_bar_listener
         IF_SETOPKEY(1, 0, 0, comp(1430, 2));  // toplevel_v2_combat_bar:previous_bar_listener
-        if ((CC_FIND(comp(1477, 71), 1) == 1)) {  // toplevel_v2:action_window_settings_button
+        if ((CC_FIND(comp(1477, 72), 1) == 1)) {  // toplevel_v2:action_window_2
             CC_SETOPKEY(2, 0, 0, -1, 0, -1, 0, -1, 0, -1, 0);
         };
         IF_SETOPKEY(1, 0, 0, comp(1430, 13));  // toplevel_v2_combat_bar:health_icon

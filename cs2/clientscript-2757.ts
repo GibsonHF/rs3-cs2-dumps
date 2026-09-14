@@ -4,8 +4,8 @@ function script2757(int0: number, int1: number, int2: number, int3: number, int4
         script5500();
         return;
     };
-    var int8 = IF_GETX(comp(1477, 28));  // toplevel_v2:gameview_window
-    var int9 = IF_GETY(comp(1477, 28));  // toplevel_v2:gameview_window
+    var int8 = IF_GETX(comp(1477, 29));  // toplevel_v2:gameview_window_background
+    var int9 = IF_GETY(comp(1477, 29));  // toplevel_v2:gameview_window_background
     var int10 = 0;
     var int11 = 0;
     var int12 = IF_GETPARENTLAYER(comp(1177, 0));  // info_box:mainlayer

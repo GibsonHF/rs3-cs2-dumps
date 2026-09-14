@@ -8,7 +8,7 @@ function script10076(): number {
             break;
         }
         default: {
-            return 96797582;
+            return 96797583;
         }
     };
     return 48759155;

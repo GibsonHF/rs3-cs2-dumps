@@ -4,9 +4,9 @@ function script8053(int0: number): number {
         return 0;
     };
     switch (int0) {
+        case 96796700:
         case 96796699:
-        case 96796698:
-        case 96796700: {
+        case 96796701: {
             return 1;
         }
     };

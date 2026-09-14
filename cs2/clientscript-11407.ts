@@ -1,6 +1,6 @@
 //
 function script11407(int0: number): void {
-    IF_SETHIDE(false, comp(1477, 703));  // toplevel_v2:loot_inventory_window
+    IF_SETHIDE(false, comp(1477, 704));  // toplevel_v2:loot_inventory_window_background
     CC_DELETEALL(int0);
     CC_DELETEALL(comp(1622, 1));  // toplevel_v2_loot:scrolling_layer
     CC_DELETEALL(comp(1622, 0));  // toplevel_v2_loot:scrollbar_layer

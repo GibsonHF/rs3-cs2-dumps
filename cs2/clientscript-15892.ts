@@ -73,7 +73,7 @@ function script15892(int0: number, int1: number, int2: number, int3: number, int
     script84(int0);
     script10492();
     if ((struct_getparam(int1, 6725) == true)) {
-        script2256(96797459);
+        script2256(96797460);
     } else if (((int4 == 1) && (int1 != 37911))) {
         script7544(int0, int3);
     };

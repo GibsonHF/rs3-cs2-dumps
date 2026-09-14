@@ -5,17 +5,21 @@ function script20598(int0: number, int1: number): void {
     var int4 = 0;
     var int5 = 0;
     var int6 = 35897;
+    var int7 = 36523;
     switch (MAP_LANG()) {
         case 1: {
             int6 = 35899;
+            int7 = 36524;
             break;
         }
         case 2: {
             int6 = 35898;
+            int7 = 36525;
             break;
         }
         case 3: {
             int6 = 35900;
+            int7 = 36526;
             break;
         }
     };
@@ -27,17 +31,17 @@ function script20598(int0: number, int1: number): void {
         return;
     };
     IF_SETHIDE(true, comp(1494, 31));  // marketplace_featured:unavailable_layer
-    var int7 = 738;
-    var int8 = 237;
-    var int9 = int7;
+    var int8 = 738;
+    var int9 = 237;
     var int10 = int8;
+    var int11 = int9;
     if ((int0 == comp(1494, 5))) {
-        int7 = 650;
+        int8 = 650;
     };
-    script15938(int0, UI_GETCATEGORY(IF_GETNEXTSUBID(int0)), UI_GETDYNID(IF_GETNEXTSUBID(int0)), 0, 0, 0, 0, int7, int8, 0, 0);
-    var int11 = dbrow_getfield(int1, 1417264, 0);
-    int11 = script20600(int11, int1);
-    script7918(UI_GETCATEGORY(IF_GETNEXTSUBID(int0)), UI_GETDYNID(IF_GETNEXTSUBID(int0)), 0, 0, 1, 0, int9, int10, 0, 0, int11);
+    script15938(int0, UI_GETCATEGORY(IF_GETNEXTSUBID(int0)), UI_GETDYNID(IF_GETNEXTSUBID(int0)), 0, 0, 0, 0, int8, int9, 0, 0);
+    var int12 = dbrow_getfield(int1, 1417264, 0);
+    int12 = script20600(int12, int1);
+    script7918(UI_GETCATEGORY(IF_GETNEXTSUBID(int0)), UI_GETDYNID(IF_GETNEXTSUBID(int0)), 0, 0, 1, 0, int10, int11, 0, 0, int12);
     CC_SETOP(1, "Select");
     if ((script6431() == 0)) {
         if ((int0 == comp(1494, 22))) {  // marketplace_featured:carousel_static
@@ -55,6 +59,9 @@ function script20598(int0: number, int1: number): void {
     if ((dbrow_getfield(int1, 1417504, 0) == 0)) {
         IF_GETNEXTSUBID(int0);
         script7918(UI_GETCATEGORY(IF_GETNEXTSUBID(int0)), UI_GETDYNID(IF_GETNEXTSUBID(int0)), 0, 0, 0, 0, 128, 128, 0, 0, int6);
+    } else if ((dbrow_getfield(int1, 1417536, 0) == 1)) {
+        IF_GETNEXTSUBID(int0);
+        script7918(UI_GETCATEGORY(IF_GETNEXTSUBID(int0)), UI_GETDYNID(IF_GETNEXTSUBID(int0)), 0, 0, 0, 0, 128, 128, 0, 0, int7);
     };
     if ((int0 == comp(1494, 5))) {
         script20599(int1, 97910796, 97910804, 97910805);

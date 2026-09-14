@@ -1,14 +1,14 @@
 //
 function script8079(int0: number): void {
     if ((int0 == 0)) {
-        IF_SETONTIMER(callback(), comp(1477, 45));  // toplevel_v2:world_fade_overlay
+        IF_SETONTIMER(callback(), comp(1477, 46));  // toplevel_v2:infobox_bottom_layer
         script8080(0, 0, 0);
         script8080(1, 0, 0);
         script8080(5, 0, 0);
         script8080(2, 0, 0);
         script6247(0, 0);
     } else {
-        IF_SETONTIMER(callback(script8078, IF_GETWIDTH(script8875(0)), IF_GETHEIGHT(script8875(0)), script8875(0)), comp(1477, 45));  // toplevel_v2:world_fade_overlay
+        IF_SETONTIMER(callback(script8078, IF_GETWIDTH(script8875(0)), IF_GETHEIGHT(script8875(0)), script8875(0)), comp(1477, 46));  // toplevel_v2:infobox_bottom_layer
     };
     return;
 }

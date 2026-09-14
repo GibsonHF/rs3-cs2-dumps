@@ -1,6 +1,6 @@
 //
 function script7946(): void {
-    IF_SETONTIMER(callback(script7948), comp(1477, 800));  // toplevel_v2:worldmap_ui_layer
-    IF_SETONTIMER(callback(), comp(1477, 921));  // toplevel_v2:map_loaded_tracker
+    IF_SETONTIMER(callback(script7948), comp(1477, 801));  // toplevel_v2:tutsys_box_window
+    IF_SETONTIMER(callback(), comp(1477, 922));  // toplevel_v2:minimenu_layer
     return;
 }

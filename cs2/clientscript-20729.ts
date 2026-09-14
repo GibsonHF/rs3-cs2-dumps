@@ -8,12 +8,12 @@ function script20729(): void {
     varclient_8424 = varplayer_12905;
     varclient_8425 = varplayer_12906;
     varclient_8429 = 2;
-    var int0 = SCALE(IF_GETWIDTH(comp(1477, 26)), 100, 33);  // toplevel_v2:background_colour
+    var int0 = SCALE(IF_GETWIDTH(comp(1477, 27)), 100, 33);  // toplevel_v2:viewport
     var int1 = script20789(int0, 0, 1);
     if ((script6431() == 0)) {
         IF_SETSIZE(int1, SCALE(16384, 100, 66), 0, 2, comp(1512, 8));  // house_furniture_catalogue:mainmodal_window_background
     } else {
-        IF_SETSIZE(int1, MAX(470, SCALE(IF_GETHEIGHT(comp(1477, 26) /*toplevel_v2:background_colour*/), 100, 66)), 0, 0, comp(1512, 8) /*house_furniture_catalogue:mainmodal_window_background*/);
+        IF_SETSIZE(int1, MAX(470, SCALE(IF_GETHEIGHT(comp(1477, 27) /*toplevel_v2:viewport*/), 100, 66)), 0, 0, comp(1512, 8) /*house_furniture_catalogue:mainmodal_window_background*/);
     };
     script20742(int1);
     script20738();
@@ -27,7 +27,7 @@ function script20729(): void {
     if ((CC_FIND(comp(1512, 21), 7) == 1)) {  // house_furniture_catalogue:div_filters
         CC_SETMOUSEOVERCURSOR(191);
         CC_SETDRAGRENDERBEHAVIOUR(3);
-        CC_SETDRAGGABLE(comp(1477, 27), -1);  // toplevel_v2:viewport
+        CC_SETDRAGGABLE(comp(1477, 28), -1);  // toplevel_v2:gameview_window
         CC_SETDRAGDEADTIME(1);
         CC_SETDRAGDEADZONE(1);
         CC_SETONDRAG(callback(script20739, -2147483645, -2147483643, int1, -1, 0));

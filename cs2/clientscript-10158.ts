@@ -18,11 +18,11 @@ function script10158(int0: number): void {
     } else {
         [int5, int6] = [120, 70];
     };
-    varbitclient_23081 = MAX(MIN(IF_GETWIDTH(comp(1477, 320)), 2048), MAX(varbitclient_23081, 330));  // toplevel_v2:twitch_window
-    varbitclient_23082 = MAX(MIN(IF_GETHEIGHT(comp(1477, 320)), 2048), MAX(varbitclient_23082, 300));  // toplevel_v2:twitch_window
+    varbitclient_23081 = MAX(MIN(IF_GETWIDTH(comp(1477, 321)), 2048), MAX(varbitclient_23081, 330));  // toplevel_v2:twitch_window_background
+    varbitclient_23082 = MAX(MIN(IF_GETHEIGHT(comp(1477, 321)), 2048), MAX(varbitclient_23082, 300));  // toplevel_v2:twitch_window_background
     if ((int0 == 1)) {
-        varbitclient_23081 = MAX(MIN(IF_GETWIDTH(comp(1477, 320)), 2048), 330);  // toplevel_v2:twitch_window
-        varbitclient_23082 = MAX(MIN(IF_GETHEIGHT(comp(1477, 320)), 2048), 300);  // toplevel_v2:twitch_window
+        varbitclient_23081 = MAX(MIN(IF_GETWIDTH(comp(1477, 321)), 2048), 330);  // toplevel_v2:twitch_window_background
+        varbitclient_23082 = MAX(MIN(IF_GETHEIGHT(comp(1477, 321)), 2048), 300);  // toplevel_v2:twitch_window_background
         [int3, int4, int5, int6, int7] = script8382(int3, int4, int5, int6, 26, 0, 1);
         if ((int7 == 1)) {
             script8387(int3, int4, int5, int6, 26);

@@ -1,13 +1,13 @@
 //
 function script10435(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number, int8: number, int9: number): void {
-    var int10 = 96797563;
-    var int11 = 96797568;
-    var int12 = 96797569;
-    var int13 = 96797567;
-    var int14 = 96797565;
-    var int15 = 96797564;
-    var int16 = 96797574;
-    var int17 = 96797566;
+    var int10 = 96797564;
+    var int11 = 96797569;
+    var int12 = 96797570;
+    var int13 = 96797568;
+    var int14 = 96797566;
+    var int15 = 96797565;
+    var int16 = 96797575;
+    var int17 = 96797567;
     SOUND_VORBIS_VOLUME(36961 as vorbis, 1, 0, 120);
     switch (IF_GETTOP()) {
         case 906: {
@@ -33,14 +33,14 @@ function script10435(int0: number, int1: number, int2: number, int3: number, int
             break;
         }
         default: {
-            int10 = 96797563;
-            int11 = 96797568;
-            int12 = 96797569;
-            int13 = 96797567;
-            int14 = 96797565;
-            int15 = 96797564;
-            int16 = 96797574;
-            int17 = 96797566;
+            int10 = 96797564;
+            int11 = 96797569;
+            int12 = 96797570;
+            int13 = 96797568;
+            int14 = 96797566;
+            int15 = 96797565;
+            int16 = 96797575;
+            int17 = 96797567;
             break;
         }
     };

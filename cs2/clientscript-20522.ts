@@ -1,7 +1,7 @@
 //
 function script20522(): void {
-    var int0 = IF_GETWIDTH(comp(1477, 26));  // toplevel_v2:background_colour
-    var int1 = IF_GETHEIGHT(comp(1477, 26));  // toplevel_v2:background_colour
+    var int0 = IF_GETWIDTH(comp(1477, 27));  // toplevel_v2:viewport
+    var int1 = IF_GETHEIGHT(comp(1477, 27));  // toplevel_v2:viewport
     var int2 = 0;
     var int3 = 0;
     if ((IF_FIND(comp(1475, 51)) == 1)) {  // toplevel_v2_edit_mode:edit_mode_blocker

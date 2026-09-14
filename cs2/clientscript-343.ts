@@ -17,7 +17,7 @@ function script343(int0: number, int1: number, int2: number, int3: number, int4:
     } else {
         WORLDMAP_SETMAP(int11);
     };
-    script10420(93192192, 96796709);
+    script10420(93192192, 96796710);
     script1372(WORLDMAP_GETCONFIGZOOM(int11), 1);
     script291(0, int7, int8, int9, int5, int6);
     if ((varbitclient_21368 == 1)) {

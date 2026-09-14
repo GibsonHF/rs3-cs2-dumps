@@ -18,7 +18,7 @@ function script12323(int0: number): void {
     var int4 = 1;
     var int5 = 0;
     var int6 = CLIENTCLOCK();
-    if (((IF_FIND(int1) == 1) && (IF_FIND[1](comp(1477, 13)) == 1))) {  // toplevel_v2:graph_data_layer
+    if (((IF_FIND(int1) == 1) && (IF_FIND[1](comp(1477, 14)) == 1))) {  // toplevel_v2:graph_data_fine_layer
         if ((((CLIENTCLOCK() > (cc_getparam(5641) + 1)) || (cc_getparam(5639) != varbitclient_30621)) || (cc_getparam(5640) != varbitclient_30622))) {
             script12318(int0);
             return;
@@ -65,7 +65,7 @@ function script12323(int0: number): void {
     var int18 = 0;
     var int19 = 0;
     if ((int16 != 0)) {
-        [int19, int17, int18] = script12310(96796685, int14, int16);
+        [int19, int17, int18] = script12310(96796686, int14, int16);
         if ((int19 == 0)) {
             script12318(int0);
             return;
@@ -82,7 +82,7 @@ function script12323(int0: number): void {
     var int28 = 0;
     if ((int15 != 0)) {
         if ((varbitclient_30621 == 1)) {
-            [int19, int27, int28] = script12310(96796686, 0, 1);
+            [int19, int27, int28] = script12310(96796687, 0, 1);
             if ((int19 == 0)) {
                 script12318(int0);
                 return;

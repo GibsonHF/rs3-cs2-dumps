@@ -10,7 +10,7 @@ function script10815(int0: number): void {
                 return;
             };
             IF_CLOSE();
-            script7941(96796710);
+            script7941(96796711);
             return;
         }
         case 83: {

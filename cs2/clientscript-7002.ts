@@ -18,9 +18,9 @@ function script7002(int0: number, int1: number, int2: number): void {
         return;
     };
     switch (int2) {
+        case 96796700:
         case 96796699:
-        case 96796698:
-        case 96796700: {
+        case 96796701: {
             if ((int4 != -1)) {
                 script6739(16);
                 script7970(int8, int4);

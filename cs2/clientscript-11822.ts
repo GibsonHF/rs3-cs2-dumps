@@ -2,9 +2,9 @@
 function script11822(int0: number): void {
     if ((int0 == 1)) {
         if ((varplayer_5883 == 0)) {
-            IF_SETONTIMER(callback(script12595), comp(1477, 15));  // toplevel_v2:telemetry_stopwatch_timer
+            IF_SETONTIMER(callback(script12595), comp(1477, 16));  // toplevel_v2:gamepad_listener
         } else {
-            IF_SETONTIMER(callback(), comp(1477, 15));  // toplevel_v2:telemetry_stopwatch_timer
+            IF_SETONTIMER(callback(), comp(1477, 16));  // toplevel_v2:gamepad_listener
         };
         return;
     };
@@ -20,6 +20,6 @@ function script11822(int0: number): void {
         return;
     };
     varclient_5078 = 0;
-    IF_SETONTIMER(callback(), comp(1477, 15));  // toplevel_v2:telemetry_stopwatch_timer
+    IF_SETONTIMER(callback(), comp(1477, 16));  // toplevel_v2:gamepad_listener
     return;
 }

@@ -3,7 +3,7 @@ function script9035(): void {
     varclient_6745 = (varclient_6745 - 1);
     if ((varclient_6745 <= 0)) {
         script6999(1);
-        IF_SETONTIMER(callback(), comp(1477, 7));  // toplevel_v2:chat_controller
+        IF_SETONTIMER(callback(), comp(1477, 8));  // toplevel_v2:keyboard_handler
         varclient_6745 = 0;
     };
     return;

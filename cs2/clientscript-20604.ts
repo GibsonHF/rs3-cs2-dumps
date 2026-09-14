@@ -36,6 +36,9 @@ function script20604(int0: number, int1: number, int2: number, int3: number, int
     switch (int1) {
         case 2: {
             script17960(int0, -1, -1, int6, int7, int8, int9, int6, int18);
+            if (((int0 != -1) && (struct_getparam(int0, 3234) != -1 as dbrow))) {
+                script19714(2, int0, int18, struct_getparam(int0, 5166));
+            };
             break;
         }
         case 5: {

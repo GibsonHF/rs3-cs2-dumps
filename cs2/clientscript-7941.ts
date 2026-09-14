@@ -4,7 +4,7 @@ function script7941(int0: number): void {
         CAM2_SETPOSITIONPOINTCOLLISION(0);
     };
     IF_SETONVARCTRANSMIT(callback(), int0);
-    script8764(96796712, 96796713);
+    script8764(96796713, 96796714);
     script7998();
     IF_SETONTIMER(callback(), int0);
     script12447();

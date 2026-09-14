@@ -6,9 +6,9 @@ function script13901(): void {
     };
     var int0 = script15873();
     var int1 = (int0 + IF_GETX(comp(1924, 4)));  // toplevel_v2_combat_bar_mobile_buttons:revo_bar_start
-    var int2 = (((IF_GETWIDTH(comp(1477, 60)) - 250) - 50) + int0);  // toplevel_v2:plugin_build_layer_bottom
+    var int2 = (((IF_GETWIDTH(comp(1477, 61)) - 250) - 50) + int0);  // toplevel_v2:buttons_window
     var int3 = (6 + (28 * varbitplayer_38639));
-    var int4 = ((IF_GETX(comp(1477, 60)) + (IF_GETWIDTH(comp(1477, 60)) / 2)) - (int3 / 2));  // toplevel_v2:plugin_build_layer_bottom
+    var int4 = ((IF_GETX(comp(1477, 61)) + (IF_GETWIDTH(comp(1477, 61)) / 2)) - (int3 / 2));  // toplevel_v2:buttons_window
     var int5 = MIN(-12, (int2 - (int4 + int3)));
     var int6 = varbitplayer_38639;
     var int7 = 0;

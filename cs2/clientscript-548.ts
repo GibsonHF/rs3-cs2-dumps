@@ -1,6 +1,6 @@
 //[clientscript,stats_update]
 function script548(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number, int8: number, int9: number, int10: number, int11: number): void {
-    var int10 = 96797581;
+    var int10 = 96797582;
     if ((varclient_80 == 0)) {
         return;
     };

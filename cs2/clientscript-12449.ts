@@ -6,14 +6,14 @@ function script12449(int0: number, int1: number): void {
     switch (int0) {
         case 5: {
             IF_CLOSE();
-            script7941(96796710);
+            script7941(96796711);
             break;
         }
         case 8: {
             if (((int1 > 0) && (varbitclient_23075 < 1))) {
                 script835();
                 varbitclient_23075 = 1;
-                IF_SETONTIMER(callback(script12448), comp(1477, 16));  // toplevel_v2:gamepad_listener
+                IF_SETONTIMER(callback(script12448), comp(1477, 17));  // toplevel_v2:child_tracking_listener
             };
             break;
         }
@@ -24,7 +24,7 @@ function script12449(int0: number, int1: number): void {
                 } else {
                     IF_SETHIDE(true, comp(475, 8));  // machinima_livecamera:ui
                 };
-                IF_SETONTIMER(callback(script12448), comp(1477, 16));  // toplevel_v2:gamepad_listener
+                IF_SETONTIMER(callback(script12448), comp(1477, 17));  // toplevel_v2:child_tracking_listener
                 varbitclient_23075 = 1;
                 return;
             };

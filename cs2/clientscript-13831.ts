@@ -2,9 +2,9 @@
 function script13831(int0: number): void {
     var int1 = script6431();
     if ((int1 == 1)) {
-        IF_SETNOCLICKTHROUGH(1, comp(1477, 808));  // toplevel_v2:escape_menu_content
+        IF_SETNOCLICKTHROUGH(1, comp(1477, 809));  // toplevel_v2:escape_menu_close_button
         IF_SETSIZE(0, 0, 1, 1, comp(274, 0));  // escape_menu_mobile:root
-        IF_SETOP(1, "", comp(1477, 809));  // toplevel_v2:escape_menu_close_button
+        IF_SETOP(1, "", comp(1477, 810));  // toplevel_v2:advent_calendar
         if ((IF_FIND(comp(274, 0)) == 1)) {  // escape_menu_mobile:root
             stack(9537);
             unk11040("");
@@ -15,8 +15,8 @@ function script13831(int0: number): void {
             IF_SETHIDE(true, comp(274, 25));  // escape_menu_mobile:runecoins_layer
         };
     } else {
-        IF_SETNOCLICKTHROUGH(0, comp(1477, 808));  // toplevel_v2:escape_menu_content
-        IF_SETOP(1, "", comp(1477, 809));  // toplevel_v2:escape_menu_close_button
+        IF_SETNOCLICKTHROUGH(0, comp(1477, 809));  // toplevel_v2:escape_menu_close_button
+        IF_SETOP(1, "", comp(1477, 810));  // toplevel_v2:advent_calendar
         IF_SETSIZE(470, 234, 0, 0, comp(1433, 0));  // escape_menu:root
         IF_SETTEXTFONT(26 as fontmetrics, comp(1433, 4));  // escape_menu:parent_buttons_title
         IF_SETTEXTFONT(26 as fontmetrics, comp(1433, 23));  // escape_menu:quick_switch_text

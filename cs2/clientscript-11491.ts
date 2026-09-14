@@ -5,7 +5,7 @@ function script11491(int0: number, int1: number): void {
             script11497(int0);
         };
     } else if ((int0 == 1)) {
-        script12646(96797360, 1);
+        script12646(96797361, 1);
     };
     return;
 }

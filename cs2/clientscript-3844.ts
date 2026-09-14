@@ -1,6 +1,6 @@
 //
 function script3844(int0: number, int1: number, string0: string, string1: string, string2: string): void {
-    if ((IF_HASSUBMODAL(comp(1477, 693), 517) == 0)) {  // toplevel_v2:bank_window
+    if ((IF_HASSUBMODAL(comp(1477, 694), 517) == 0)) {  // toplevel_v2:bank_window_background
         IF_RESUME_PAUSEBUTTON(33882441);
         IF_SETHIDE(true, comp(517, 318));  // bank:confirm_drop_item_layer
         return;

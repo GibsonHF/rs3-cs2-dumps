@@ -36,7 +36,7 @@ function script15783(): void {
                 int5 = dbrow_getfield(int0, 507920, 0);
             };
             IF_SETHIDE(true, comp(279, 6));  // mobile_ribbon_left:chat_wrapper
-            IF_SETHIDE(true, comp(1477, 420));  // toplevel_v2:chat_window_content
+            IF_SETHIDE(true, comp(1477, 421));  // toplevel_v2:chat_window_edit_block
             IF_SETHIDE(true, comp(279, 3));  // mobile_ribbon_left:internal_notifications_escape_layer
             IF_SETHIDE(true, comp(274, 69));  // escape_menu_mobile:adventures_notification_layer
             IF_SETHIDE(true, comp(279, 10));  // mobile_ribbon_left:activity_tracker_wrapper
@@ -44,9 +44,9 @@ function script15783(): void {
             IF_SETHIDE(true, comp(279, 16));  // mobile_ribbon_left:event_hud_hide
             IF_SETHIDE(true, comp(279, 21));  // mobile_ribbon_left:secondary_event_hud_hide
             if ((varbitclient_44897 == 1)) {
-                IF_SETHIDE(true, comp(1477, 385));  // toplevel_v2:cheevo_tracker_window
+                IF_SETHIDE(true, comp(1477, 386));  // toplevel_v2:cheevo_tracker_window_background
             } else {
-                IF_SETHIDE(script6430(int1), comp(1477, 385));  // toplevel_v2:cheevo_tracker_window
+                IF_SETHIDE(script6430(int1), comp(1477, 386));  // toplevel_v2:cheevo_tracker_window_background
             };
             [int8, int9, int10, int11] = script2956();
             if ((int2 == 1)) {

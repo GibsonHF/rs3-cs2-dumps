@@ -25,7 +25,7 @@ function script9903(): void {
     } else if ((varbitplayer_60446 == 1)) {
         if ((varbitplayer_27169 == 0)) {
             IF_SETSIZE(275, 275, 0, 0, int2);
-            if (((IF_GETX(int2) + 275) > IF_GETWIDTH(comp(1477, 26)))) {  // toplevel_v2:background_colour
+            if (((IF_GETX(int2) + 275) > IF_GETWIDTH(comp(1477, 27)))) {  // toplevel_v2:viewport
                 IF_SETPOSITION(0, IF_GETY(int2), 2, 0, int2);
             };
         };

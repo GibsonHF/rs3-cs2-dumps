@@ -14,7 +14,7 @@ function script16400(int0: number, int1: number, int2: number, int3: number, int
     IF_SETHIDE(true, comp(955, 27));  // uitutorial:arrow_left
     IF_SETHIDE(true, comp(955, 25));  // uitutorial:arrow_right
     if ((varplayer_8745 == 4338 as dbrow)) {
-        if ((((IF_HASSUBMODAL(script8072(), 1316) == 1) || (IF_GETHIDE(comp(1477, 744)) == false)) || (IF_HASSUBMODAL(script8072(), 847) == 1))) {  // toplevel_v2:big_window
+        if ((((IF_HASSUBMODAL(script8072(), 1316) == 1) || (IF_GETHIDE(comp(1477, 745)) == false)) || (IF_HASSUBMODAL(script8072(), 847) == 1))) {  // toplevel_v2:npc_chat_holder
             if ((script6431() == 1)) {
                 IF_SETHIDE(true, comp(673, 0));  // tut5_spotlight:content_layer
                 return;

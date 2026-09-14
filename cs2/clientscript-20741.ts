@@ -4,7 +4,7 @@ function script20741(int0: number): void {
         return;
     };
     if ((int0 == -1)) {
-        var int0 = SCALE(IF_GETWIDTH(comp(1477, 26)), 100, 33);  // toplevel_v2:background_colour
+        var int0 = SCALE(IF_GETWIDTH(comp(1477, 27)), 100, 33);  // toplevel_v2:viewport
     };
     var int1 = script20789(int0, 0, 1);
     IF_SETSIZE(int1, SCALE(16384, 100, 66), 0, 2, comp(1512, 8));  // house_furniture_catalogue:mainmodal_window_background

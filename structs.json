@@ -38123,9 +38123,11 @@
 			"mtxmgt_category": 2, // 2531 chisel:solomons_category
 			"mtxmgt_subcat": 1, // 2532 chisel:SGS_sub_group
 			"mtxmgt_name": "Cape of Devotion", // 2533 chisel:SGS_name
-			"mtxmgt_source": 14, // 2546
+			"mtxmgt_source": 1, // 2546
+			"mtxmgt_pos_string": "rs:accessories:cape_of_devotion", // 4592
 			"mtxmgt_parent_id": 2092, // 4744
-			"mtxmgt_source_custom": "This can be obtained as part of the 'Academy of Mages' Treasure Hunter promotion." // 4751 chisel:cosmetic_unlock_hint
+			"mtxmgt_source_custom": "This cosmetic can be obtained from the Marketplace, or by purchasing from other players.", // 4751 chisel:cosmetic_unlock_hint
+			"mtxmgt_interface_positioning": 18391 // 9254
 		},
 		"id": 2947
 	},
@@ -38134,7 +38136,7 @@
 			"mtxmgt_category": 2, // 2531 chisel:solomons_category
 			"mtxmgt_subcat": 1, // 2532 chisel:SGS_sub_group
 			"mtxmgt_name": "Cape of Devastation", // 2533 chisel:SGS_name
-			"mtxmgt_source": 4, // 2546
+			"mtxmgt_source": 1, // 2546
 			"mtxmgt_pos_string": "rs:accessories:cape_of_devastation", // 4592
 			"release_date": 8867, // 4742 chisel:th_available_date
 			"mtxmgt_parent_id": 2094, // 4744
@@ -38148,9 +38150,10 @@
 			"mtxmgt_category": 2, // 2531 chisel:solomons_category
 			"mtxmgt_subcat": 2, // 2532 chisel:SGS_sub_group
 			"mtxmgt_name": "Symbol of Devotion", // 2533 chisel:SGS_name
-			"mtxmgt_source": 14, // 2546
+			"mtxmgt_source": 1, // 2546
+			"mtxmgt_pos_string": "rs:accessories:symbol_of_devotion", // 4592
 			"mtxmgt_parent_id": 2093, // 4744
-			"mtxmgt_source_custom": "This can be obtained as part of the 'Academy of Mages' Treasure Hunter promotion." // 4751 chisel:cosmetic_unlock_hint
+			"mtxmgt_source_custom": "This cosmetic can be obtained from the Marketplace, or by purchasing from other players." // 4751 chisel:cosmetic_unlock_hint
 		},
 		"id": 2949
 	},
@@ -38159,7 +38162,7 @@
 			"mtxmgt_category": 2, // 2531 chisel:solomons_category
 			"mtxmgt_subcat": 2, // 2532 chisel:SGS_sub_group
 			"mtxmgt_name": "Symbol of Devastation", // 2533 chisel:SGS_name
-			"mtxmgt_source": 4, // 2546
+			"mtxmgt_source": 1, // 2546
 			"mtxmgt_pos_string": "rs:accessories:symbol_of_devastation", // 4592
 			"release_date": 8867, // 4742 chisel:th_available_date
 			"mtxmgt_parent_id": 2095, // 4744
@@ -41901,16 +41904,16 @@
 			"toplevel_v2_window_tab_icon_inactive": 25526, // 3497
 			"toplevel_v2_window_min_width": 0, // 3499
 			"toplevel_v2_window_min_height": 0, // 3500
-			"toplevel_v2_window_layer": 96797141, // 3503
-			"toplevel_v2_window_background_layer": 96797142, // 3504
-			"toplevel_v2_window_content_layer": 96797143, // 3505
-			"toplevel_v2_window_border_layer": 96797145, // 3506
-			"toplevel_v2_window_close_button_layer": 96797146, // 3507
-			"toplevel_v2_window_tabs_background_layer": 96797147, // 3508
-			"toplevel_v2_window_tabs_layer": 96797148, // 3509
-			"toplevel_v2_window_tabs_scroll_layer": 96797149, // 3510
-			"toplevel_v2_window_recycle_bin_layer": 96797150, // 3512
-			"toplevel_v2_window_edit_block_layer": 96797144, // 3513
+			"toplevel_v2_window_layer": 96797142, // 3503
+			"toplevel_v2_window_background_layer": 96797143, // 3504
+			"toplevel_v2_window_content_layer": 96797144, // 3505
+			"toplevel_v2_window_border_layer": 96797146, // 3506
+			"toplevel_v2_window_close_button_layer": 96797147, // 3507
+			"toplevel_v2_window_tabs_background_layer": 96797148, // 3508
+			"toplevel_v2_window_tabs_layer": 96797149, // 3509
+			"toplevel_v2_window_tabs_scroll_layer": 96797150, // 3510
+			"toplevel_v2_window_recycle_bin_layer": 96797151, // 3512
+			"toplevel_v2_window_edit_block_layer": 96797145, // 3513
 			"toplevel_v2_window_skin_data": 21255, // 3518
 			"toplevel_v2_window_allow_tabs": 1, // 3521
 			"toplevel_v2_window_allow_close": 1, // 3522
@@ -45455,7 +45458,7 @@
 			"mtxmgt_category": 7, // 2531 chisel:solomons_category
 			"mtxmgt_name": "Anniversary Architect Display Shield", // 2533 chisel:SGS_name
 			"mtxmgt_preview_prevent_rotation": 1, // 4267
-			"mtxmgt_interface_positioning": 18257, // 9254
+			"mtxmgt_interface_positioning": 6141, // 9254
 			"extra_0024F1": 19522 // 9457
 		},
 		"id": 3567
@@ -45465,7 +45468,7 @@
 			"mtxmgt_category": 7, // 2531 chisel:solomons_category
 			"mtxmgt_name": "Anniversary Architect Display Shield (Crossed)", // 2533 chisel:SGS_name
 			"mtxmgt_preview_prevent_rotation": 1, // 4267
-			"mtxmgt_interface_positioning": 18257, // 9254
+			"mtxmgt_interface_positioning": 6141, // 9254
 			"extra_0024F1": 19523 // 9457
 		},
 		"id": 3568
@@ -60750,6 +60753,316 @@
 			"skillguide_filter": 3 // 2220 chisel:skill_ui_subcategory
 		},
 		"id": 4886
+	},
+	{
+		"extra": {
+			"mtxmgt_category": 2, // 2531 chisel:solomons_category
+			"mtxmgt_subcat": 20, // 2532 chisel:SGS_sub_group
+			"mtxmgt_name": "Tempest Lord Armour", // 2533 chisel:SGS_name
+			"mtxmgt_source": 1, // 2546
+			"extra_000CA2": 20050, // 3234
+			"mtxmgt_pos_string": "rs:outfits:tempest_lord", // 4592
+			"release_date": 8958, // 4742 chisel:th_available_date
+			"mtxmgt_parent_id": 2457, // 4744
+			"mtxmgt_source_custom": "This cosmetic can be obtained from the Marketplace.", // 4751 chisel:cosmetic_unlock_hint
+			"original_release_date": 8958, // 6628
+			"quest_rewards_keys": 20051, // 7887 chisel:quest_has_th_keys_reward
+			"extra_002503": 20052, // 9475
+			"extra_002504": 20053 // 9476
+		},
+		"id": 4887
+	},
+	{
+		"extra": {
+			"mtxmgt_category": 2, // 2531 chisel:solomons_category
+			"mtxmgt_subcat": 0, // 2532 chisel:SGS_sub_group
+			"mtxmgt_name": "Tempest Lord Crown", // 2533 chisel:SGS_name
+			"mtxmgt_source": 1, // 2546
+			"mtxmgt_parent_struct": 4887, // 4419 chisel:outfit_parent_vbId
+			"release_date": 8958, // 4742 chisel:th_available_date
+			"mtxmgt_source_custom": "This cosmetic can be obtained from the Marketplace.", // 4751 chisel:cosmetic_unlock_hint
+			"original_release_date": 8958 // 6628
+		},
+		"id": 4888
+	},
+	{
+		"extra": {
+			"mtxmgt_category": 2, // 2531 chisel:solomons_category
+			"mtxmgt_subcat": 4, // 2532 chisel:SGS_sub_group
+			"mtxmgt_name": "Tempest Lord Chestplate", // 2533 chisel:SGS_name
+			"mtxmgt_source": 1, // 2546
+			"mtxmgt_parent_struct": 4887, // 4419 chisel:outfit_parent_vbId
+			"release_date": 8958, // 4742 chisel:th_available_date
+			"mtxmgt_source_custom": "This cosmetic can be obtained from the Marketplace.", // 4751 chisel:cosmetic_unlock_hint
+			"original_release_date": 8958 // 6628
+		},
+		"id": 4889
+	},
+	{
+		"extra": {
+			"mtxmgt_category": 2, // 2531 chisel:solomons_category
+			"mtxmgt_subcat": 7, // 2532 chisel:SGS_sub_group
+			"mtxmgt_name": "Tempest Lord Platelegs", // 2533 chisel:SGS_name
+			"mtxmgt_source": 1, // 2546
+			"mtxmgt_parent_struct": 4887, // 4419 chisel:outfit_parent_vbId
+			"release_date": 8958, // 4742 chisel:th_available_date
+			"mtxmgt_source_custom": "This cosmetic can be obtained from the Marketplace.", // 4751 chisel:cosmetic_unlock_hint
+			"original_release_date": 8958 // 6628
+		},
+		"id": 4890
+	},
+	{
+		"extra": {
+			"mtxmgt_category": 2, // 2531 chisel:solomons_category
+			"mtxmgt_subcat": 9, // 2532 chisel:SGS_sub_group
+			"mtxmgt_name": "Tempest Lord Gloves", // 2533 chisel:SGS_name
+			"mtxmgt_source": 1, // 2546
+			"mtxmgt_parent_struct": 4887, // 4419 chisel:outfit_parent_vbId
+			"release_date": 8958, // 4742 chisel:th_available_date
+			"mtxmgt_source_custom": "This cosmetic can be obtained from the Marketplace.", // 4751 chisel:cosmetic_unlock_hint
+			"original_release_date": 8958 // 6628
+		},
+		"id": 4891
+	},
+	{
+		"extra": {
+			"mtxmgt_category": 2, // 2531 chisel:solomons_category
+			"mtxmgt_subcat": 10, // 2532 chisel:SGS_sub_group
+			"mtxmgt_name": "Tempest Lord Boots", // 2533 chisel:SGS_name
+			"mtxmgt_source": 1, // 2546
+			"mtxmgt_parent_struct": 4887, // 4419 chisel:outfit_parent_vbId
+			"release_date": 8958, // 4742 chisel:th_available_date
+			"mtxmgt_source_custom": "This cosmetic can be obtained from the Marketplace.", // 4751 chisel:cosmetic_unlock_hint
+			"original_release_date": 8958 // 6628
+		},
+		"id": 4892
+	},
+	{
+		"extra": {
+			"mtxmgt_category": 2, // 2531 chisel:solomons_category
+			"mtxmgt_subcat": 20, // 2532 chisel:SGS_sub_group
+			"mtxmgt_name": "Tempest Lord Armour (static)", // 2533 chisel:SGS_name
+			"mtxmgt_source": 1, // 2546
+			"release_date": 8958, // 4742 chisel:th_available_date
+			"mtxmgt_parent_id": 2457, // 4744
+			"mtxmgt_source_custom": "This cosmetic can be obtained from the Marketplace.", // 4751 chisel:cosmetic_unlock_hint
+			"original_release_date": 8958 // 6628
+		},
+		"id": 4893
+	},
+	{
+		"extra": {
+			"mtxmgt_category": 2, // 2531 chisel:solomons_category
+			"mtxmgt_subcat": 0, // 2532 chisel:SGS_sub_group
+			"mtxmgt_name": "Tempest Lord Crown (static) ", // 2533 chisel:SGS_name
+			"mtxmgt_source": 1, // 2546
+			"mtxmgt_parent_struct": 4893, // 4419 chisel:outfit_parent_vbId
+			"release_date": 8958, // 4742 chisel:th_available_date
+			"mtxmgt_source_custom": "This cosmetic can be obtained from the Marketplace.", // 4751 chisel:cosmetic_unlock_hint
+			"original_release_date": 8958 // 6628
+		},
+		"id": 4894
+	},
+	{
+		"extra": {
+			"mtxmgt_category": 2, // 2531 chisel:solomons_category
+			"mtxmgt_subcat": 4, // 2532 chisel:SGS_sub_group
+			"mtxmgt_name": "Tempest Lord Chestplate (static) ", // 2533 chisel:SGS_name
+			"mtxmgt_source": 1, // 2546
+			"mtxmgt_parent_struct": 4893, // 4419 chisel:outfit_parent_vbId
+			"release_date": 8958, // 4742 chisel:th_available_date
+			"mtxmgt_source_custom": "This cosmetic can be obtained from the Marketplace.", // 4751 chisel:cosmetic_unlock_hint
+			"original_release_date": 8958 // 6628
+		},
+		"id": 4895
+	},
+	{
+		"extra": {
+			"mtxmgt_category": 2, // 2531 chisel:solomons_category
+			"mtxmgt_subcat": 7, // 2532 chisel:SGS_sub_group
+			"mtxmgt_name": "Tempest Lord Platelegs (static) ", // 2533 chisel:SGS_name
+			"mtxmgt_source": 1, // 2546
+			"mtxmgt_parent_struct": 4893, // 4419 chisel:outfit_parent_vbId
+			"release_date": 8958, // 4742 chisel:th_available_date
+			"mtxmgt_source_custom": "This cosmetic can be obtained from the Marketplace.", // 4751 chisel:cosmetic_unlock_hint
+			"original_release_date": 8958 // 6628
+		},
+		"id": 4896
+	},
+	{
+		"extra": {
+			"mtxmgt_category": 2, // 2531 chisel:solomons_category
+			"mtxmgt_subcat": 9, // 2532 chisel:SGS_sub_group
+			"mtxmgt_name": "Tempest Lord Gloves (static) ", // 2533 chisel:SGS_name
+			"mtxmgt_source": 1, // 2546
+			"mtxmgt_parent_struct": 4893, // 4419 chisel:outfit_parent_vbId
+			"release_date": 8958, // 4742 chisel:th_available_date
+			"mtxmgt_source_custom": "This cosmetic can be obtained from the Marketplace.", // 4751 chisel:cosmetic_unlock_hint
+			"original_release_date": 8958 // 6628
+		},
+		"id": 4897
+	},
+	{
+		"extra": {
+			"mtxmgt_category": 2, // 2531 chisel:solomons_category
+			"mtxmgt_subcat": 10, // 2532 chisel:SGS_sub_group
+			"mtxmgt_name": "Tempest Lord Boots (static) ", // 2533 chisel:SGS_name
+			"mtxmgt_source": 1, // 2546
+			"mtxmgt_parent_struct": 4893, // 4419 chisel:outfit_parent_vbId
+			"release_date": 8958, // 4742 chisel:th_available_date
+			"mtxmgt_source_custom": "This cosmetic can be obtained from the Marketplace.", // 4751 chisel:cosmetic_unlock_hint
+			"original_release_date": 8958 // 6628
+		},
+		"id": 4898
+	},
+	{
+		"extra": {
+			"mtxmgt_category": 2, // 2531 chisel:solomons_category
+			"mtxmgt_subcat": 3, // 2532 chisel:SGS_sub_group
+			"mtxmgt_name": "Tempest Lord Maul", // 2533 chisel:SGS_name
+			"mtxmgt_source": 1, // 2546
+			"mtxmgt_filters": 2048, // 4591
+			"release_date": 8958, // 4742 chisel:th_available_date
+			"mtxmgt_parent_id": 2458, // 4744
+			"mtxmgt_source_custom": "This cosmetic can be obtained from the Marketplace.", // 4751 chisel:cosmetic_unlock_hint
+			"original_release_date": 8958 // 6628
+		},
+		"id": 4899
+	},
+	{
+		"extra": {
+			"mtxmgt_category": 2, // 2531 chisel:solomons_category
+			"mtxmgt_subcat": 3, // 2532 chisel:SGS_sub_group
+			"mtxmgt_name": "Tempest Lord Longsword", // 2533 chisel:SGS_name
+			"mtxmgt_source": 1, // 2546
+			"mtxmgt_filters": 524292, // 4591
+			"release_date": 8958, // 4742 chisel:th_available_date
+			"mtxmgt_parent_id": 2458, // 4744
+			"mtxmgt_source_custom": "This cosmetic can be obtained from the Marketplace.", // 4751 chisel:cosmetic_unlock_hint
+			"original_release_date": 8958 // 6628
+		},
+		"id": 4900
+	},
+	{
+		"extra": {
+			"mtxmgt_category": 2, // 2531 chisel:solomons_category
+			"mtxmgt_subcat": 5, // 2532 chisel:SGS_sub_group
+			"mtxmgt_name": "Tempest Lord Offhand Longsword", // 2533 chisel:SGS_name
+			"mtxmgt_source": 1, // 2546
+			"mtxmgt_filters": 524292, // 4591
+			"release_date": 8958, // 4742 chisel:th_available_date
+			"mtxmgt_parent_id": 2458, // 4744
+			"mtxmgt_source_custom": "This cosmetic can be obtained from the Marketplace.", // 4751 chisel:cosmetic_unlock_hint
+			"original_release_date": 8958 // 6628
+		},
+		"id": 4901
+	},
+	{
+		"extra": {
+			"mtxmgt_category": 2, // 2531 chisel:solomons_category
+			"mtxmgt_subcat": 3, // 2532 chisel:SGS_sub_group
+			"mtxmgt_name": "Tempest Lord Staff", // 2533 chisel:SGS_name
+			"mtxmgt_source": 1, // 2546
+			"mtxmgt_filters": 32768, // 4591
+			"release_date": 8958, // 4742 chisel:th_available_date
+			"mtxmgt_parent_id": 2458, // 4744
+			"mtxmgt_source_custom": "This cosmetic can be obtained from the Marketplace.", // 4751 chisel:cosmetic_unlock_hint
+			"original_release_date": 8958 // 6628
+		},
+		"id": 4902
+	},
+	{
+		"extra": {
+			"mtxmgt_category": 4, // 2531 chisel:solomons_category
+			"mtxmgt_subcat": 1, // 2532 chisel:SGS_sub_group
+			"mtxmgt_name": "Tempest Teleport", // 2533 chisel:SGS_name
+			"mtxmgt_preview_anim": 38089, // 2535
+			"mtxmgt_preview_spotanim": 38091, // 2536
+			"mtxmgt_preview_spotanim_model": 145772, // 2537
+			"mtxmgt_preview_spotanim_2": 38089, // 2538
+			"mtxmgt_preview_spotanim_model_2": 145773, // 2539
+			"mtxmgt_preview_zoom_offset": 400, // 2540
+			"mtxmgt_preview_y_offset": 100, // 2541
+			"mtxmgt_source": 4, // 2546
+			"mtxmgt_anim_preview_player_on_top": 0, // 3363
+			"mtxmgt_preview_prevent_rotation": 1, // 4267
+			"mtxmgt_pos_string": "rs:spells:tempest_lord_teleport", // 4592
+			"release_date": 8958, // 4742 chisel:th_available_date
+			"mtxmgt_parent_id": 2459, // 4744
+			"mtxmgt_source_custom": "This cosmetic can be obtained from the Marketplace.", // 4751 chisel:cosmetic_unlock_hint
+			"original_release_date": 8958, // 6628
+			"mtxmgt_preview_default_x_angle": 110, // 8196
+			"mtxmgt_interface_positioning": 20073 // 9254
+		},
+		"id": 4903
+	},
+	{
+		"extra": {
+			"motw_banner_en": 36488, // 6381
+			"motw_banner_de": 36488, // 6385
+			"motw_banner_fr": 36488, // 6386
+			"motw_banner_pt": 36488, // 6387
+			"motw_title": "Lord Of The Tempest", // 6391
+			"motw_onclick": 14 // 6392
+		},
+		"id": 4904
+	},
+	{
+		"extra": {
+			"mtxmgt_name": "Tempest Lord Weapon Bundle", // 2533 chisel:SGS_name
+			"mtxmgt_pos_string": "rs:packs:tempest_lord_weapon_bundle", // 4592
+			"mtxmgt_pack_structs": 13633, // 4717 chisel:sgs_pack_components
+			"release_date": 8958, // 4742 chisel:th_available_date
+			"mtxmgt_parent_id": 2458 // 4744
+		},
+		"id": 4905
+	},
+	{
+		"extra": {
+			"mtxmgt_name": "Tempest Lord Mega Bundle", // 2533 chisel:SGS_name
+			"mtxmgt_pos_string": "rs:packs:tempest_lord_mega_bundle", // 4592
+			"mtxmgt_pack_structs": 13634, // 4717 chisel:sgs_pack_components
+			"release_date": 8958, // 4742 chisel:th_available_date
+			"mtxmgt_parent_id": 2460 // 4744
+		},
+		"id": 4906
+	},
+	{
+		"extra": {
+			"mtxmgt_category": 7, // 2531 chisel:solomons_category
+			"mtxmgt_name": "Ashenfall Adventures Bundle", // 2533 chisel:SGS_name
+			"mtxmgt_pos_string": "rs:packs:dragonwilds_release_bundle", // 4592
+			"mtxmgt_pack_structs": 13635, // 4717 chisel:sgs_pack_components
+			"mtxmgt_parent_id": 2461 // 4744
+		},
+		"id": 4907
+	},
+	{
+		"extra": {
+			"mtxmgt_category": 7, // 2531 chisel:solomons_category
+			"mtxmgt_name": "A Shattered Reign painting", // 2533 chisel:SGS_name
+			"mtxmgt_interface_positioning": 6141, // 9254
+			"extra_0024F1": 6142 // 9457
+		},
+		"id": 4908
+	},
+	{
+		"extra": {
+			"mtxmgt_category": 7, // 2531 chisel:solomons_category
+			"mtxmgt_name": "Midnight in the Sands painting", // 2533 chisel:SGS_name
+			"mtxmgt_interface_positioning": 6141, // 9254
+			"extra_0024F1": 6143 // 9457
+		},
+		"id": 4909
+	},
+	{
+		"extra": {
+			"mtxmgt_category": 7, // 2531 chisel:solomons_category
+			"mtxmgt_name": "The Queen Falls painting", // 2533 chisel:SGS_name
+			"mtxmgt_interface_positioning": 6141, // 9254
+			"extra_0024F1": 6144 // 9457
+		},
+		"id": 4910
 	},
 	{
 		"extra": {
@@ -161842,10 +162155,10 @@
 			"toplevel_v2_window_size_struct": 21327, // 3494
 			"toplevel_v2_window_min_width": 300, // 3499
 			"toplevel_v2_window_min_height": 200, // 3500
-			"toplevel_v2_window_layer": 96797314, // 3503
-			"toplevel_v2_window_background_layer": 96797315, // 3504
-			"toplevel_v2_window_content_layer": 96797316, // 3505
-			"toplevel_v2_window_border_layer": 96797317, // 3506
+			"toplevel_v2_window_layer": 96797315, // 3503
+			"toplevel_v2_window_background_layer": 96797316, // 3504
+			"toplevel_v2_window_content_layer": 96797317, // 3505
+			"toplevel_v2_window_border_layer": 96797318, // 3506
 			"toplevel_v2_window_skin_data": 21260, // 3518
 			"toplevel_v2_window_constricted_by": 1000, // 3520
 			"toplevel_v2_window_allow_move": 1, // 3526
@@ -170951,11 +171264,11 @@
 			"toplevel_v2_window_size_struct": 21326, // 3494
 			"toplevel_v2_window_icon": 18747, // 3495
 			"toplevel_v2_window_sort_to_back": 21275, // 3498
-			"toplevel_v2_window_layer": 96796700, // 3503
-			"toplevel_v2_window_background_layer": 96796701, // 3504
-			"toplevel_v2_window_content_layer": 96796702, // 3505
-			"toplevel_v2_window_border_layer": 96796723, // 3506
-			"toplevel_v2_window_edit_block_layer": 96796722, // 3513
+			"toplevel_v2_window_layer": 96796701, // 3503
+			"toplevel_v2_window_background_layer": 96796702, // 3504
+			"toplevel_v2_window_content_layer": 96796703, // 3505
+			"toplevel_v2_window_border_layer": 96796724, // 3506
+			"toplevel_v2_window_edit_block_layer": 96796723, // 3513
 			"toplevel_v2_window_skin_data": 21255, // 3518
 			"toplevel_v2_window_constricts_others": 1, // 3519
 			"toplevel_v2_window_allow_move": 1, // 3526
@@ -170980,11 +171293,11 @@
 	{
 		"extra": {
 			"toplevel_v2_window_name": "Main Action Bar", // 3493 chisel:interface_name
-			"toplevel_v2_window_layer": 96796739, // 3503
-			"toplevel_v2_window_background_layer": 96796740, // 3504
-			"toplevel_v2_window_content_layer": 96796742, // 3505
-			"toplevel_v2_window_border_layer": 96796741, // 3506
-			"toplevel_v2_window_close_button_layer": 96796743, // 3507
+			"toplevel_v2_window_layer": 96796740, // 3503
+			"toplevel_v2_window_background_layer": 96796741, // 3504
+			"toplevel_v2_window_content_layer": 96796743, // 3505
+			"toplevel_v2_window_border_layer": 96796742, // 3506
+			"toplevel_v2_window_close_button_layer": 96796744, // 3507
 			"toplevel_v2_window_skin_data": 35743, // 3518
 			"toplevel_v2_window_allow_settings": 1, // 3523
 			"toplevel_v2_window_settings_override": 1, // 3524
@@ -171001,13 +171314,13 @@
 			"toplevel_v2_window_name": "Minimap", // 3493 chisel:interface_name
 			"toplevel_v2_window_size_struct": 21328, // 3494
 			"toplevel_v2_window_icon": 18742, // 3495
-			"toplevel_v2_window_layer": 96796764, // 3503
-			"toplevel_v2_window_background_layer": 96796765, // 3504
-			"toplevel_v2_window_content_layer": 96796766, // 3505
-			"toplevel_v2_window_border_layer": 96796770, // 3506
-			"toplevel_v2_window_close_button_layer": 96796771, // 3507
-			"toplevel_v2_window_recycle_bin_layer": 96796772, // 3512
-			"toplevel_v2_window_edit_block_layer": 96796769, // 3513
+			"toplevel_v2_window_layer": 96796765, // 3503
+			"toplevel_v2_window_background_layer": 96796766, // 3504
+			"toplevel_v2_window_content_layer": 96796767, // 3505
+			"toplevel_v2_window_border_layer": 96796771, // 3506
+			"toplevel_v2_window_close_button_layer": 96796772, // 3507
+			"toplevel_v2_window_recycle_bin_layer": 96796773, // 3512
+			"toplevel_v2_window_edit_block_layer": 96796770, // 3513
 			"toplevel_v2_window_skin_data": 21255, // 3518
 			"toplevel_v2_window_allow_settings": 1, // 3523
 			"toplevel_v2_window_settings_override": 1, // 3524
@@ -171029,17 +171342,17 @@
 			"toplevel_v2_window_tab_icon_inactive": 25522, // 3497
 			"toplevel_v2_window_min_width": 0, // 3499
 			"toplevel_v2_window_min_height": 0, // 3500
-			"toplevel_v2_window_layer": 96797090, // 3503
-			"toplevel_v2_window_background_layer": 96797091, // 3504
-			"toplevel_v2_window_content_layer": 96797092, // 3505
-			"toplevel_v2_window_border_layer": 96797095, // 3506
-			"toplevel_v2_window_close_button_layer": 96797096, // 3507
-			"toplevel_v2_window_tabs_background_layer": 96797097, // 3508
-			"toplevel_v2_window_tabs_layer": 96797098, // 3509
-			"toplevel_v2_window_tabs_scroll_layer": 96797099, // 3510
-			"toplevel_v2_window_scroll_layer": 96797094, // 3511
-			"toplevel_v2_window_recycle_bin_layer": 96797100, // 3512
-			"toplevel_v2_window_edit_block_layer": 96797093, // 3513
+			"toplevel_v2_window_layer": 96797091, // 3503
+			"toplevel_v2_window_background_layer": 96797092, // 3504
+			"toplevel_v2_window_content_layer": 96797093, // 3505
+			"toplevel_v2_window_border_layer": 96797096, // 3506
+			"toplevel_v2_window_close_button_layer": 96797097, // 3507
+			"toplevel_v2_window_tabs_background_layer": 96797098, // 3508
+			"toplevel_v2_window_tabs_layer": 96797099, // 3509
+			"toplevel_v2_window_tabs_scroll_layer": 96797100, // 3510
+			"toplevel_v2_window_scroll_layer": 96797095, // 3511
+			"toplevel_v2_window_recycle_bin_layer": 96797101, // 3512
+			"toplevel_v2_window_edit_block_layer": 96797094, // 3513
 			"toplevel_v2_window_skin_data": 21255, // 3518
 			"toplevel_v2_window_allow_tabs": 1, // 3521
 			"toplevel_v2_window_allow_close": 1, // 3522
@@ -171066,16 +171379,16 @@
 			"toplevel_v2_window_tab_icon_inactive": 25523, // 3497
 			"toplevel_v2_window_min_width": 0, // 3499
 			"toplevel_v2_window_min_height": 0, // 3500
-			"toplevel_v2_window_layer": 96797101, // 3503
-			"toplevel_v2_window_background_layer": 96797102, // 3504
-			"toplevel_v2_window_content_layer": 96797103, // 3505
-			"toplevel_v2_window_border_layer": 96797105, // 3506
-			"toplevel_v2_window_close_button_layer": 96797106, // 3507
-			"toplevel_v2_window_tabs_background_layer": 96797107, // 3508
-			"toplevel_v2_window_tabs_layer": 96797108, // 3509
-			"toplevel_v2_window_tabs_scroll_layer": 96797109, // 3510
-			"toplevel_v2_window_recycle_bin_layer": 96797110, // 3512
-			"toplevel_v2_window_edit_block_layer": 96797104, // 3513
+			"toplevel_v2_window_layer": 96797102, // 3503
+			"toplevel_v2_window_background_layer": 96797103, // 3504
+			"toplevel_v2_window_content_layer": 96797104, // 3505
+			"toplevel_v2_window_border_layer": 96797106, // 3506
+			"toplevel_v2_window_close_button_layer": 96797107, // 3507
+			"toplevel_v2_window_tabs_background_layer": 96797108, // 3508
+			"toplevel_v2_window_tabs_layer": 96797109, // 3509
+			"toplevel_v2_window_tabs_scroll_layer": 96797110, // 3510
+			"toplevel_v2_window_recycle_bin_layer": 96797111, // 3512
+			"toplevel_v2_window_edit_block_layer": 96797105, // 3513
 			"toplevel_v2_window_skin_data": 21255, // 3518
 			"toplevel_v2_window_allow_tabs": 1, // 3521
 			"toplevel_v2_window_allow_close": 1, // 3522
@@ -171102,16 +171415,16 @@
 			"toplevel_v2_window_tab_icon_inactive": 25524, // 3497
 			"toplevel_v2_window_min_width": 0, // 3499
 			"toplevel_v2_window_min_height": 0, // 3500
-			"toplevel_v2_window_layer": 96797111, // 3503
-			"toplevel_v2_window_background_layer": 96797112, // 3504
-			"toplevel_v2_window_content_layer": 96797113, // 3505
-			"toplevel_v2_window_border_layer": 96797115, // 3506
-			"toplevel_v2_window_close_button_layer": 96797116, // 3507
-			"toplevel_v2_window_tabs_background_layer": 96797117, // 3508
-			"toplevel_v2_window_tabs_layer": 96797118, // 3509
-			"toplevel_v2_window_tabs_scroll_layer": 96797119, // 3510
-			"toplevel_v2_window_recycle_bin_layer": 96797120, // 3512
-			"toplevel_v2_window_edit_block_layer": 96797114, // 3513
+			"toplevel_v2_window_layer": 96797112, // 3503
+			"toplevel_v2_window_background_layer": 96797113, // 3504
+			"toplevel_v2_window_content_layer": 96797114, // 3505
+			"toplevel_v2_window_border_layer": 96797116, // 3506
+			"toplevel_v2_window_close_button_layer": 96797117, // 3507
+			"toplevel_v2_window_tabs_background_layer": 96797118, // 3508
+			"toplevel_v2_window_tabs_layer": 96797119, // 3509
+			"toplevel_v2_window_tabs_scroll_layer": 96797120, // 3510
+			"toplevel_v2_window_recycle_bin_layer": 96797121, // 3512
+			"toplevel_v2_window_edit_block_layer": 96797115, // 3513
 			"toplevel_v2_window_skin_data": 21255, // 3518
 			"toplevel_v2_window_allow_tabs": 1, // 3521
 			"toplevel_v2_window_allow_close": 1, // 3522
@@ -171138,16 +171451,16 @@
 			"toplevel_v2_window_tab_icon_inactive": 25525, // 3497
 			"toplevel_v2_window_min_width": 0, // 3499
 			"toplevel_v2_window_min_height": 0, // 3500
-			"toplevel_v2_window_layer": 96797121, // 3503
-			"toplevel_v2_window_background_layer": 96797122, // 3504
-			"toplevel_v2_window_content_layer": 96797123, // 3505
-			"toplevel_v2_window_border_layer": 96797125, // 3506
-			"toplevel_v2_window_close_button_layer": 96797126, // 3507
-			"toplevel_v2_window_tabs_background_layer": 96797127, // 3508
-			"toplevel_v2_window_tabs_layer": 96797128, // 3509
-			"toplevel_v2_window_tabs_scroll_layer": 96797129, // 3510
-			"toplevel_v2_window_recycle_bin_layer": 96797130, // 3512
-			"toplevel_v2_window_edit_block_layer": 96797124, // 3513
+			"toplevel_v2_window_layer": 96797122, // 3503
+			"toplevel_v2_window_background_layer": 96797123, // 3504
+			"toplevel_v2_window_content_layer": 96797124, // 3505
+			"toplevel_v2_window_border_layer": 96797126, // 3506
+			"toplevel_v2_window_close_button_layer": 96797127, // 3507
+			"toplevel_v2_window_tabs_background_layer": 96797128, // 3508
+			"toplevel_v2_window_tabs_layer": 96797129, // 3509
+			"toplevel_v2_window_tabs_scroll_layer": 96797130, // 3510
+			"toplevel_v2_window_recycle_bin_layer": 96797131, // 3512
+			"toplevel_v2_window_edit_block_layer": 96797125, // 3513
 			"toplevel_v2_window_skin_data": 21255, // 3518
 			"toplevel_v2_window_allow_tabs": 1, // 3521
 			"toplevel_v2_window_allow_close": 1, // 3522
@@ -171174,16 +171487,16 @@
 			"toplevel_v2_window_tab_icon_inactive": 25527, // 3497
 			"toplevel_v2_window_min_width": 0, // 3499
 			"toplevel_v2_window_min_height": 0, // 3500
-			"toplevel_v2_window_layer": 96797131, // 3503
-			"toplevel_v2_window_background_layer": 96797132, // 3504
-			"toplevel_v2_window_content_layer": 96797133, // 3505
-			"toplevel_v2_window_border_layer": 96797135, // 3506
-			"toplevel_v2_window_close_button_layer": 96797136, // 3507
-			"toplevel_v2_window_tabs_background_layer": 96797137, // 3508
-			"toplevel_v2_window_tabs_layer": 96797138, // 3509
-			"toplevel_v2_window_tabs_scroll_layer": 96797139, // 3510
-			"toplevel_v2_window_recycle_bin_layer": 96797140, // 3512
-			"toplevel_v2_window_edit_block_layer": 96797134, // 3513
+			"toplevel_v2_window_layer": 96797132, // 3503
+			"toplevel_v2_window_background_layer": 96797133, // 3504
+			"toplevel_v2_window_content_layer": 96797134, // 3505
+			"toplevel_v2_window_border_layer": 96797136, // 3506
+			"toplevel_v2_window_close_button_layer": 96797137, // 3507
+			"toplevel_v2_window_tabs_background_layer": 96797138, // 3508
+			"toplevel_v2_window_tabs_layer": 96797139, // 3509
+			"toplevel_v2_window_tabs_scroll_layer": 96797140, // 3510
+			"toplevel_v2_window_recycle_bin_layer": 96797141, // 3512
+			"toplevel_v2_window_edit_block_layer": 96797135, // 3513
 			"toplevel_v2_window_skin_data": 21255, // 3518
 			"toplevel_v2_window_allow_tabs": 1, // 3521
 			"toplevel_v2_window_allow_close": 1, // 3522
@@ -171210,16 +171523,16 @@
 			"toplevel_v2_window_tab_icon_inactive": 1406, // 3497
 			"toplevel_v2_window_min_width": 0, // 3499
 			"toplevel_v2_window_min_height": 0, // 3500
-			"toplevel_v2_window_layer": 96797079, // 3503
-			"toplevel_v2_window_background_layer": 96797080, // 3504
-			"toplevel_v2_window_content_layer": 96797081, // 3505
-			"toplevel_v2_window_border_layer": 96797084, // 3506
-			"toplevel_v2_window_close_button_layer": 96797085, // 3507
-			"toplevel_v2_window_tabs_background_layer": 96797086, // 3508
-			"toplevel_v2_window_tabs_layer": 96797087, // 3509
-			"toplevel_v2_window_tabs_scroll_layer": 96797088, // 3510
-			"toplevel_v2_window_scroll_layer": 96797083, // 3511
-			"toplevel_v2_window_edit_block_layer": 96797082, // 3513
+			"toplevel_v2_window_layer": 96797080, // 3503
+			"toplevel_v2_window_background_layer": 96797081, // 3504
+			"toplevel_v2_window_content_layer": 96797082, // 3505
+			"toplevel_v2_window_border_layer": 96797085, // 3506
+			"toplevel_v2_window_close_button_layer": 96797086, // 3507
+			"toplevel_v2_window_tabs_background_layer": 96797087, // 3508
+			"toplevel_v2_window_tabs_layer": 96797088, // 3509
+			"toplevel_v2_window_tabs_scroll_layer": 96797089, // 3510
+			"toplevel_v2_window_scroll_layer": 96797084, // 3511
+			"toplevel_v2_window_edit_block_layer": 96797083, // 3513
 			"toplevel_v2_window_embedded_layer": 94240774, // 3514
 			"toplevel_v2_window_embedded_background_layer": 94240775, // 3515
 			"toplevel_v2_window_embedded_content_layer": 94240776, // 3516
@@ -171250,17 +171563,17 @@
 			"toplevel_v2_window_tab_icon_inactive": 18793, // 3497
 			"toplevel_v2_window_min_width": 0, // 3499
 			"toplevel_v2_window_min_height": 0, // 3500
-			"toplevel_v2_window_layer": 96796773, // 3503
-			"toplevel_v2_window_background_layer": 96796774, // 3504
-			"toplevel_v2_window_content_layer": 96796775, // 3505
-			"toplevel_v2_window_border_layer": 96796778, // 3506
-			"toplevel_v2_window_close_button_layer": 96796779, // 3507
-			"toplevel_v2_window_tabs_background_layer": 96796780, // 3508
-			"toplevel_v2_window_tabs_layer": 96796781, // 3509
-			"toplevel_v2_window_tabs_scroll_layer": 96796782, // 3510
-			"toplevel_v2_window_scroll_layer": 96796777, // 3511
-			"toplevel_v2_window_recycle_bin_layer": 96796783, // 3512
-			"toplevel_v2_window_edit_block_layer": 96796776, // 3513
+			"toplevel_v2_window_layer": 96796774, // 3503
+			"toplevel_v2_window_background_layer": 96796775, // 3504
+			"toplevel_v2_window_content_layer": 96796776, // 3505
+			"toplevel_v2_window_border_layer": 96796779, // 3506
+			"toplevel_v2_window_close_button_layer": 96796780, // 3507
+			"toplevel_v2_window_tabs_background_layer": 96796781, // 3508
+			"toplevel_v2_window_tabs_layer": 96796782, // 3509
+			"toplevel_v2_window_tabs_scroll_layer": 96796783, // 3510
+			"toplevel_v2_window_scroll_layer": 96796778, // 3511
+			"toplevel_v2_window_recycle_bin_layer": 96796784, // 3512
+			"toplevel_v2_window_edit_block_layer": 96796777, // 3513
 			"toplevel_v2_window_embedded_layer": 96600064, // 3514
 			"toplevel_v2_window_embedded_background_layer": 96600065, // 3515
 			"toplevel_v2_window_embedded_content_layer": 96600066, // 3516
@@ -171301,17 +171614,17 @@
 			"toplevel_v2_window_tab_icon_inactive": 32072, // 3497
 			"toplevel_v2_window_min_width": 0, // 3499
 			"toplevel_v2_window_min_height": 0, // 3500
-			"toplevel_v2_window_layer": 96796817, // 3503
-			"toplevel_v2_window_background_layer": 96796818, // 3504
-			"toplevel_v2_window_content_layer": 96796819, // 3505
-			"toplevel_v2_window_border_layer": 96796822, // 3506
-			"toplevel_v2_window_close_button_layer": 96796823, // 3507
-			"toplevel_v2_window_tabs_background_layer": 96796824, // 3508
-			"toplevel_v2_window_tabs_layer": 96796825, // 3509
-			"toplevel_v2_window_tabs_scroll_layer": 96796826, // 3510
-			"toplevel_v2_window_scroll_layer": 96796821, // 3511
-			"toplevel_v2_window_recycle_bin_layer": 96796827, // 3512
-			"toplevel_v2_window_edit_block_layer": 96796820, // 3513
+			"toplevel_v2_window_layer": 96796818, // 3503
+			"toplevel_v2_window_background_layer": 96796819, // 3504
+			"toplevel_v2_window_content_layer": 96796820, // 3505
+			"toplevel_v2_window_border_layer": 96796823, // 3506
+			"toplevel_v2_window_close_button_layer": 96796824, // 3507
+			"toplevel_v2_window_tabs_background_layer": 96796825, // 3508
+			"toplevel_v2_window_tabs_layer": 96796826, // 3509
+			"toplevel_v2_window_tabs_scroll_layer": 96796827, // 3510
+			"toplevel_v2_window_scroll_layer": 96796822, // 3511
+			"toplevel_v2_window_recycle_bin_layer": 96796828, // 3512
+			"toplevel_v2_window_edit_block_layer": 96796821, // 3513
 			"toplevel_v2_window_embedded_layer": 95027211, // 3514
 			"toplevel_v2_window_embedded_background_layer": 95027208, // 3515
 			"toplevel_v2_window_embedded_content_layer": 95027209, // 3516
@@ -171345,17 +171658,17 @@
 			"toplevel_v2_window_tab_icon_inactive": 31270, // 3497
 			"toplevel_v2_window_min_width": 0, // 3499
 			"toplevel_v2_window_min_height": 0, // 3500
-			"toplevel_v2_window_layer": 96796828, // 3503
-			"toplevel_v2_window_background_layer": 96796829, // 3504
-			"toplevel_v2_window_content_layer": 96796830, // 3505
-			"toplevel_v2_window_border_layer": 96796833, // 3506
-			"toplevel_v2_window_close_button_layer": 96796834, // 3507
-			"toplevel_v2_window_tabs_background_layer": 96796835, // 3508
-			"toplevel_v2_window_tabs_layer": 96796836, // 3509
-			"toplevel_v2_window_tabs_scroll_layer": 96796837, // 3510
-			"toplevel_v2_window_scroll_layer": 96796832, // 3511
-			"toplevel_v2_window_recycle_bin_layer": 96796838, // 3512
-			"toplevel_v2_window_edit_block_layer": 96796831, // 3513
+			"toplevel_v2_window_layer": 96796829, // 3503
+			"toplevel_v2_window_background_layer": 96796830, // 3504
+			"toplevel_v2_window_content_layer": 96796831, // 3505
+			"toplevel_v2_window_border_layer": 96796834, // 3506
+			"toplevel_v2_window_close_button_layer": 96796835, // 3507
+			"toplevel_v2_window_tabs_background_layer": 96796836, // 3508
+			"toplevel_v2_window_tabs_layer": 96796837, // 3509
+			"toplevel_v2_window_tabs_scroll_layer": 96796838, // 3510
+			"toplevel_v2_window_scroll_layer": 96796833, // 3511
+			"toplevel_v2_window_recycle_bin_layer": 96796839, // 3512
+			"toplevel_v2_window_edit_block_layer": 96796832, // 3513
 			"toplevel_v2_window_embedded_layer": 95420422, // 3514
 			"toplevel_v2_window_embedded_background_layer": 95420419, // 3515
 			"toplevel_v2_window_embedded_content_layer": 95420420, // 3516
@@ -171388,17 +171701,17 @@
 			"toplevel_v2_window_tab_icon_inactive": 30013, // 3497
 			"toplevel_v2_window_min_width": 0, // 3499
 			"toplevel_v2_window_min_height": 0, // 3500
-			"toplevel_v2_window_layer": 96796839, // 3503
-			"toplevel_v2_window_background_layer": 96796840, // 3504
-			"toplevel_v2_window_content_layer": 96796841, // 3505
-			"toplevel_v2_window_border_layer": 96796844, // 3506
-			"toplevel_v2_window_close_button_layer": 96796845, // 3507
-			"toplevel_v2_window_tabs_background_layer": 96796846, // 3508
-			"toplevel_v2_window_tabs_layer": 96796847, // 3509
-			"toplevel_v2_window_tabs_scroll_layer": 96796848, // 3510
-			"toplevel_v2_window_scroll_layer": 96796843, // 3511
-			"toplevel_v2_window_recycle_bin_layer": 96796849, // 3512
-			"toplevel_v2_window_edit_block_layer": 96796842, // 3513
+			"toplevel_v2_window_layer": 96796840, // 3503
+			"toplevel_v2_window_background_layer": 96796841, // 3504
+			"toplevel_v2_window_content_layer": 96796842, // 3505
+			"toplevel_v2_window_border_layer": 96796845, // 3506
+			"toplevel_v2_window_close_button_layer": 96796846, // 3507
+			"toplevel_v2_window_tabs_background_layer": 96796847, // 3508
+			"toplevel_v2_window_tabs_layer": 96796848, // 3509
+			"toplevel_v2_window_tabs_scroll_layer": 96796849, // 3510
+			"toplevel_v2_window_scroll_layer": 96796844, // 3511
+			"toplevel_v2_window_recycle_bin_layer": 96796850, // 3512
+			"toplevel_v2_window_edit_block_layer": 96796843, // 3513
 			"toplevel_v2_window_embedded_layer": 95617030, // 3514
 			"toplevel_v2_window_embedded_background_layer": 95617027, // 3515
 			"toplevel_v2_window_embedded_content_layer": 95617028, // 3516
@@ -171430,17 +171743,17 @@
 			"toplevel_v2_window_tab_icon_inactive": 31258, // 3497
 			"toplevel_v2_window_min_width": 0, // 3499
 			"toplevel_v2_window_min_height": 0, // 3500
-			"toplevel_v2_window_layer": 96796938, // 3503
-			"toplevel_v2_window_background_layer": 96796939, // 3504
-			"toplevel_v2_window_content_layer": 96796940, // 3505
-			"toplevel_v2_window_border_layer": 96796943, // 3506
-			"toplevel_v2_window_close_button_layer": 96796944, // 3507
-			"toplevel_v2_window_tabs_background_layer": 96796945, // 3508
-			"toplevel_v2_window_tabs_layer": 96796946, // 3509
-			"toplevel_v2_window_tabs_scroll_layer": 96796947, // 3510
-			"toplevel_v2_window_scroll_layer": 96796942, // 3511
-			"toplevel_v2_window_recycle_bin_layer": 96796948, // 3512
-			"toplevel_v2_window_edit_block_layer": 96796941, // 3513
+			"toplevel_v2_window_layer": 96796939, // 3503
+			"toplevel_v2_window_background_layer": 96796940, // 3504
+			"toplevel_v2_window_content_layer": 96796941, // 3505
+			"toplevel_v2_window_border_layer": 96796944, // 3506
+			"toplevel_v2_window_close_button_layer": 96796945, // 3507
+			"toplevel_v2_window_tabs_background_layer": 96796946, // 3508
+			"toplevel_v2_window_tabs_layer": 96796947, // 3509
+			"toplevel_v2_window_tabs_scroll_layer": 96796948, // 3510
+			"toplevel_v2_window_scroll_layer": 96796943, // 3511
+			"toplevel_v2_window_recycle_bin_layer": 96796949, // 3512
+			"toplevel_v2_window_edit_block_layer": 96796942, // 3513
 			"toplevel_v2_window_embedded_layer": 123207686, // 3514
 			"toplevel_v2_window_embedded_background_layer": 123207683, // 3515
 			"toplevel_v2_window_embedded_content_layer": 123207684, // 3516
@@ -171470,17 +171783,17 @@
 			"toplevel_v2_window_tab_icon_inactive": 18795, // 3497
 			"toplevel_v2_window_min_width": 0, // 3499
 			"toplevel_v2_window_min_height": 0, // 3500
-			"toplevel_v2_window_layer": 96796806, // 3503
-			"toplevel_v2_window_background_layer": 96796807, // 3504
-			"toplevel_v2_window_content_layer": 96796808, // 3505
-			"toplevel_v2_window_border_layer": 96796811, // 3506
-			"toplevel_v2_window_close_button_layer": 96796812, // 3507
-			"toplevel_v2_window_tabs_background_layer": 96796813, // 3508
-			"toplevel_v2_window_tabs_layer": 96796814, // 3509
-			"toplevel_v2_window_tabs_scroll_layer": 96796815, // 3510
-			"toplevel_v2_window_scroll_layer": 96796810, // 3511
-			"toplevel_v2_window_recycle_bin_layer": 96796816, // 3512
-			"toplevel_v2_window_edit_block_layer": 96796809, // 3513
+			"toplevel_v2_window_layer": 96796807, // 3503
+			"toplevel_v2_window_background_layer": 96796808, // 3504
+			"toplevel_v2_window_content_layer": 96796809, // 3505
+			"toplevel_v2_window_border_layer": 96796812, // 3506
+			"toplevel_v2_window_close_button_layer": 96796813, // 3507
+			"toplevel_v2_window_tabs_background_layer": 96796814, // 3508
+			"toplevel_v2_window_tabs_layer": 96796815, // 3509
+			"toplevel_v2_window_tabs_scroll_layer": 96796816, // 3510
+			"toplevel_v2_window_scroll_layer": 96796811, // 3511
+			"toplevel_v2_window_recycle_bin_layer": 96796817, // 3512
+			"toplevel_v2_window_edit_block_layer": 96796810, // 3513
 			"toplevel_v2_window_embedded_layer": 95485954, // 3514
 			"toplevel_v2_window_embedded_background_layer": 95485955, // 3515
 			"toplevel_v2_window_embedded_content_layer": 95485956, // 3516
@@ -171526,17 +171839,17 @@
 			"toplevel_v2_window_tab_icon_inactive": 18791, // 3497
 			"toplevel_v2_window_min_width": 84, // 3499
 			"toplevel_v2_window_min_height": 64, // 3500
-			"toplevel_v2_window_layer": 96796970, // 3503
-			"toplevel_v2_window_background_layer": 96796971, // 3504
-			"toplevel_v2_window_content_layer": 96796972, // 3505
-			"toplevel_v2_window_border_layer": 96796975, // 3506
-			"toplevel_v2_window_close_button_layer": 96796976, // 3507
-			"toplevel_v2_window_tabs_background_layer": 96796977, // 3508
-			"toplevel_v2_window_tabs_layer": 96796978, // 3509
-			"toplevel_v2_window_tabs_scroll_layer": 96796979, // 3510
-			"toplevel_v2_window_scroll_layer": 96796974, // 3511
-			"toplevel_v2_window_recycle_bin_layer": 96796980, // 3512
-			"toplevel_v2_window_edit_block_layer": 96796973, // 3513
+			"toplevel_v2_window_layer": 96796971, // 3503
+			"toplevel_v2_window_background_layer": 96796972, // 3504
+			"toplevel_v2_window_content_layer": 96796973, // 3505
+			"toplevel_v2_window_border_layer": 96796976, // 3506
+			"toplevel_v2_window_close_button_layer": 96796977, // 3507
+			"toplevel_v2_window_tabs_background_layer": 96796978, // 3508
+			"toplevel_v2_window_tabs_layer": 96796979, // 3509
+			"toplevel_v2_window_tabs_scroll_layer": 96796980, // 3510
+			"toplevel_v2_window_scroll_layer": 96796975, // 3511
+			"toplevel_v2_window_recycle_bin_layer": 96796981, // 3512
+			"toplevel_v2_window_edit_block_layer": 96796974, // 3513
 			"toplevel_v2_window_embedded_layer": 20971520, // 3514
 			"toplevel_v2_window_embedded_background_layer": 20971521, // 3515
 			"toplevel_v2_window_embedded_content_layer": 20971522, // 3516
@@ -171568,17 +171881,17 @@
 			"toplevel_v2_window_tab_icon_inactive": 18804, // 3497
 			"toplevel_v2_window_min_width": 190, // 3499
 			"toplevel_v2_window_min_height": 150, // 3500
-			"toplevel_v2_window_layer": 96796981, // 3503
-			"toplevel_v2_window_background_layer": 96796982, // 3504
-			"toplevel_v2_window_content_layer": 96796983, // 3505
-			"toplevel_v2_window_border_layer": 96796986, // 3506
-			"toplevel_v2_window_close_button_layer": 96796987, // 3507
-			"toplevel_v2_window_tabs_background_layer": 96796988, // 3508
-			"toplevel_v2_window_tabs_layer": 96796989, // 3509
-			"toplevel_v2_window_tabs_scroll_layer": 96796990, // 3510
-			"toplevel_v2_window_scroll_layer": 96796985, // 3511
-			"toplevel_v2_window_recycle_bin_layer": 96796991, // 3512
-			"toplevel_v2_window_edit_block_layer": 96796984, // 3513
+			"toplevel_v2_window_layer": 96796982, // 3503
+			"toplevel_v2_window_background_layer": 96796983, // 3504
+			"toplevel_v2_window_content_layer": 96796984, // 3505
+			"toplevel_v2_window_border_layer": 96796987, // 3506
+			"toplevel_v2_window_close_button_layer": 96796988, // 3507
+			"toplevel_v2_window_tabs_background_layer": 96796989, // 3508
+			"toplevel_v2_window_tabs_layer": 96796990, // 3509
+			"toplevel_v2_window_tabs_scroll_layer": 96796991, // 3510
+			"toplevel_v2_window_scroll_layer": 96796986, // 3511
+			"toplevel_v2_window_recycle_bin_layer": 96796992, // 3512
+			"toplevel_v2_window_edit_block_layer": 96796985, // 3513
 			"toplevel_v2_window_embedded_layer": 12255232, // 3514
 			"toplevel_v2_window_embedded_background_layer": 12255233, // 3515
 			"toplevel_v2_window_embedded_content_layer": 12255234, // 3516
@@ -171607,17 +171920,17 @@
 			"toplevel_v2_window_tab_icon_inactive": 18803, // 3497
 			"toplevel_v2_window_min_width": 190, // 3499
 			"toplevel_v2_window_min_height": 150, // 3500
-			"toplevel_v2_window_layer": 96797215, // 3503
-			"toplevel_v2_window_background_layer": 96797216, // 3504
-			"toplevel_v2_window_content_layer": 96797217, // 3505
-			"toplevel_v2_window_border_layer": 96797220, // 3506
-			"toplevel_v2_window_close_button_layer": 96797221, // 3507
-			"toplevel_v2_window_tabs_background_layer": 96797222, // 3508
-			"toplevel_v2_window_tabs_layer": 96797223, // 3509
-			"toplevel_v2_window_tabs_scroll_layer": 96797224, // 3510
-			"toplevel_v2_window_scroll_layer": 96797219, // 3511
-			"toplevel_v2_window_recycle_bin_layer": 96797225, // 3512
-			"toplevel_v2_window_edit_block_layer": 96797218, // 3513
+			"toplevel_v2_window_layer": 96797216, // 3503
+			"toplevel_v2_window_background_layer": 96797217, // 3504
+			"toplevel_v2_window_content_layer": 96797218, // 3505
+			"toplevel_v2_window_border_layer": 96797221, // 3506
+			"toplevel_v2_window_close_button_layer": 96797222, // 3507
+			"toplevel_v2_window_tabs_background_layer": 96797223, // 3508
+			"toplevel_v2_window_tabs_layer": 96797224, // 3509
+			"toplevel_v2_window_tabs_scroll_layer": 96797225, // 3510
+			"toplevel_v2_window_scroll_layer": 96797220, // 3511
+			"toplevel_v2_window_recycle_bin_layer": 96797226, // 3512
+			"toplevel_v2_window_edit_block_layer": 96797219, // 3513
 			"toplevel_v2_window_embedded_layer": 2228232, // 3514
 			"toplevel_v2_window_embedded_background_layer": 2228224, // 3515
 			"toplevel_v2_window_embedded_content_layer": 2228225, // 3516
@@ -171648,17 +171961,17 @@
 			"toplevel_v2_window_tab_icon_inactive": 18800, // 3497
 			"toplevel_v2_window_min_width": 0, // 3499
 			"toplevel_v2_window_min_height": 0, // 3500
-			"toplevel_v2_window_layer": 96797171, // 3503
-			"toplevel_v2_window_background_layer": 96797172, // 3504
-			"toplevel_v2_window_content_layer": 96797173, // 3505
-			"toplevel_v2_window_border_layer": 96797176, // 3506
-			"toplevel_v2_window_close_button_layer": 96797177, // 3507
-			"toplevel_v2_window_tabs_background_layer": 96797178, // 3508
-			"toplevel_v2_window_tabs_layer": 96797179, // 3509
-			"toplevel_v2_window_tabs_scroll_layer": 96797180, // 3510
-			"toplevel_v2_window_scroll_layer": 96797175, // 3511
-			"toplevel_v2_window_recycle_bin_layer": 96797181, // 3512
-			"toplevel_v2_window_edit_block_layer": 96797174, // 3513
+			"toplevel_v2_window_layer": 96797172, // 3503
+			"toplevel_v2_window_background_layer": 96797173, // 3504
+			"toplevel_v2_window_content_layer": 96797174, // 3505
+			"toplevel_v2_window_border_layer": 96797177, // 3506
+			"toplevel_v2_window_close_button_layer": 96797178, // 3507
+			"toplevel_v2_window_tabs_background_layer": 96797179, // 3508
+			"toplevel_v2_window_tabs_layer": 96797180, // 3509
+			"toplevel_v2_window_tabs_scroll_layer": 96797181, // 3510
+			"toplevel_v2_window_scroll_layer": 96797176, // 3511
+			"toplevel_v2_window_recycle_bin_layer": 96797182, // 3512
+			"toplevel_v2_window_edit_block_layer": 96797175, // 3513
 			"toplevel_v2_window_embedded_layer": 94437376, // 3514
 			"toplevel_v2_window_embedded_background_layer": 94437377, // 3515
 			"toplevel_v2_window_embedded_content_layer": 94437378, // 3516
@@ -171689,17 +172002,17 @@
 			"toplevel_v2_window_tab_icon_inactive": 18802, // 3497
 			"toplevel_v2_window_min_width": 0, // 3499
 			"toplevel_v2_window_min_height": 0, // 3500
-			"toplevel_v2_window_layer": 96797182, // 3503
-			"toplevel_v2_window_background_layer": 96797183, // 3504
-			"toplevel_v2_window_content_layer": 96797184, // 3505
-			"toplevel_v2_window_border_layer": 96797187, // 3506
-			"toplevel_v2_window_close_button_layer": 96797188, // 3507
-			"toplevel_v2_window_tabs_background_layer": 96797189, // 3508
-			"toplevel_v2_window_tabs_layer": 96797190, // 3509
-			"toplevel_v2_window_tabs_scroll_layer": 96797191, // 3510
-			"toplevel_v2_window_scroll_layer": 96797186, // 3511
-			"toplevel_v2_window_recycle_bin_layer": 96797192, // 3512
-			"toplevel_v2_window_edit_block_layer": 96797185, // 3513
+			"toplevel_v2_window_layer": 96797183, // 3503
+			"toplevel_v2_window_background_layer": 96797184, // 3504
+			"toplevel_v2_window_content_layer": 96797185, // 3505
+			"toplevel_v2_window_border_layer": 96797188, // 3506
+			"toplevel_v2_window_close_button_layer": 96797189, // 3507
+			"toplevel_v2_window_tabs_background_layer": 96797190, // 3508
+			"toplevel_v2_window_tabs_layer": 96797191, // 3509
+			"toplevel_v2_window_tabs_scroll_layer": 96797192, // 3510
+			"toplevel_v2_window_scroll_layer": 96797187, // 3511
+			"toplevel_v2_window_recycle_bin_layer": 96797193, // 3512
+			"toplevel_v2_window_edit_block_layer": 96797186, // 3513
 			"toplevel_v2_window_embedded_layer": 94371842, // 3514
 			"toplevel_v2_window_embedded_background_layer": 94371843, // 3515
 			"toplevel_v2_window_embedded_content_layer": 94371844, // 3516
@@ -171730,17 +172043,17 @@
 			"toplevel_v2_window_tab_icon_inactive": 18801, // 3497
 			"toplevel_v2_window_min_width": 0, // 3499
 			"toplevel_v2_window_min_height": 0, // 3500
-			"toplevel_v2_window_layer": 96797226, // 3503
-			"toplevel_v2_window_background_layer": 96797227, // 3504
-			"toplevel_v2_window_content_layer": 96797228, // 3505
-			"toplevel_v2_window_border_layer": 96797231, // 3506
-			"toplevel_v2_window_close_button_layer": 96797232, // 3507
-			"toplevel_v2_window_tabs_background_layer": 96797233, // 3508
-			"toplevel_v2_window_tabs_layer": 96797234, // 3509
-			"toplevel_v2_window_tabs_scroll_layer": 96797235, // 3510
-			"toplevel_v2_window_scroll_layer": 96797230, // 3511
-			"toplevel_v2_window_recycle_bin_layer": 96797236, // 3512
-			"toplevel_v2_window_edit_block_layer": 96797229, // 3513
+			"toplevel_v2_window_layer": 96797227, // 3503
+			"toplevel_v2_window_background_layer": 96797228, // 3504
+			"toplevel_v2_window_content_layer": 96797229, // 3505
+			"toplevel_v2_window_border_layer": 96797232, // 3506
+			"toplevel_v2_window_close_button_layer": 96797233, // 3507
+			"toplevel_v2_window_tabs_background_layer": 96797234, // 3508
+			"toplevel_v2_window_tabs_layer": 96797235, // 3509
+			"toplevel_v2_window_tabs_scroll_layer": 96797236, // 3510
+			"toplevel_v2_window_scroll_layer": 96797231, // 3511
+			"toplevel_v2_window_recycle_bin_layer": 96797237, // 3512
+			"toplevel_v2_window_edit_block_layer": 96797230, // 3513
 			"toplevel_v2_window_embedded_layer": 72679456, // 3514
 			"toplevel_v2_window_embedded_background_layer": 72679439, // 3515
 			"toplevel_v2_window_embedded_content_layer": 72679440, // 3516
@@ -171770,16 +172083,16 @@
 			"toplevel_v2_window_tab_icon": 18788, // 3496
 			"toplevel_v2_window_min_width": 190, // 3499
 			"toplevel_v2_window_min_height": 261, // 3500
-			"toplevel_v2_window_layer": 96796960, // 3503
-			"toplevel_v2_window_background_layer": 96796961, // 3504
-			"toplevel_v2_window_content_layer": 96796962, // 3505
-			"toplevel_v2_window_border_layer": 96796964, // 3506
-			"toplevel_v2_window_close_button_layer": 96796966, // 3507
-			"toplevel_v2_window_tabs_background_layer": 96796965, // 3508
-			"toplevel_v2_window_tabs_layer": 96796967, // 3509
-			"toplevel_v2_window_tabs_scroll_layer": 96796968, // 3510
-			"toplevel_v2_window_scroll_layer": 96796963, // 3511
-			"toplevel_v2_window_recycle_bin_layer": 96796969, // 3512
+			"toplevel_v2_window_layer": 96796961, // 3503
+			"toplevel_v2_window_background_layer": 96796962, // 3504
+			"toplevel_v2_window_content_layer": 96796963, // 3505
+			"toplevel_v2_window_border_layer": 96796965, // 3506
+			"toplevel_v2_window_close_button_layer": 96796967, // 3507
+			"toplevel_v2_window_tabs_background_layer": 96796966, // 3508
+			"toplevel_v2_window_tabs_layer": 96796968, // 3509
+			"toplevel_v2_window_tabs_scroll_layer": 96796969, // 3510
+			"toplevel_v2_window_scroll_layer": 96796964, // 3511
+			"toplevel_v2_window_recycle_bin_layer": 96796970, // 3512
 			"toplevel_v2_window_skin_data": 21255, // 3518
 			"toplevel_v2_window_allow_tabs": 1, // 3521
 			"toplevel_v2_window_allow_close": 1, // 3522
@@ -171801,11 +172114,11 @@
 			"toplevel_v2_window_size_struct": 21320, // 3494
 			"toplevel_v2_window_min_width": 190, // 3499
 			"toplevel_v2_window_min_height": 261, // 3500
-			"toplevel_v2_window_layer": 96797409, // 3503
-			"toplevel_v2_window_background_layer": 96797410, // 3504
-			"toplevel_v2_window_content_layer": 96797412, // 3505
-			"toplevel_v2_window_border_layer": 96797413, // 3506
-			"toplevel_v2_window_close_button_layer": 96797414, // 3507
+			"toplevel_v2_window_layer": 96797410, // 3503
+			"toplevel_v2_window_background_layer": 96797411, // 3504
+			"toplevel_v2_window_content_layer": 96797413, // 3505
+			"toplevel_v2_window_border_layer": 96797414, // 3506
+			"toplevel_v2_window_close_button_layer": 96797415, // 3507
 			"toplevel_v2_window_skin_data": 21259, // 3518
 			"toplevel_v2_window_allow_close": 1, // 3522
 			"toplevel_v2_window_allow_move": 1, // 3526
@@ -171817,20 +172130,20 @@
 		"extra": {
 			"toplevel_v2_window_name": "Management Windows", // 3493 chisel:interface_name
 			"toplevel_v2_window_size_struct": 1294, // 3494
-			"toplevel_v2_window_layer": 96797380, // 3503
-			"toplevel_v2_window_background_layer": 96797381, // 3504
-			"toplevel_v2_window_content_layer": 96797387, // 3505
-			"toplevel_v2_window_border_layer": 96797384, // 3506
-			"toplevel_v2_window_close_button_layer": 96797389, // 3507
-			"toplevel_v2_window_tabs_background_layer": 96797385, // 3508
-			"toplevel_v2_window_tabs_layer": 96797386, // 3509
+			"toplevel_v2_window_layer": 96797381, // 3503
+			"toplevel_v2_window_background_layer": 96797382, // 3504
+			"toplevel_v2_window_content_layer": 96797388, // 3505
+			"toplevel_v2_window_border_layer": 96797385, // 3506
+			"toplevel_v2_window_close_button_layer": 96797390, // 3507
+			"toplevel_v2_window_tabs_background_layer": 96797386, // 3508
+			"toplevel_v2_window_tabs_layer": 96797387, // 3509
 			"toplevel_v2_window_skin_data": 21258, // 3518
 			"toplevel_v2_window_allow_close": 1, // 3522
 			"toplevel_v2_window_allow_move": 1, // 3526
 			"toplevel_v2_window_allow_title": 1, // 3545
-			"toplevel_v2_window_help_button_layer": 96797388, // 4470
-			"toplevel_v2_window_banner_layer": 96797382, // 6320
-			"toplevel_v2_window_banner_overlay_layer": 96797383 // 6321
+			"toplevel_v2_window_help_button_layer": 96797389, // 4470
+			"toplevel_v2_window_banner_layer": 96797383, // 6320
+			"toplevel_v2_window_banner_overlay_layer": 96797384 // 6321
 		},
 		"id": 21301
 	},
@@ -171840,10 +172153,10 @@
 			"toplevel_v2_window_size_struct": 21327, // 3494
 			"toplevel_v2_window_min_width": 190, // 3499
 			"toplevel_v2_window_min_height": 261, // 3500
-			"toplevel_v2_window_layer": 96797310, // 3503
-			"toplevel_v2_window_background_layer": 96797311, // 3504
-			"toplevel_v2_window_content_layer": 96797312, // 3505
-			"toplevel_v2_window_border_layer": 96797313, // 3506
+			"toplevel_v2_window_layer": 96797311, // 3503
+			"toplevel_v2_window_background_layer": 96797312, // 3504
+			"toplevel_v2_window_content_layer": 96797313, // 3505
+			"toplevel_v2_window_border_layer": 96797314, // 3506
 			"toplevel_v2_window_skin_data": 21260, // 3518
 			"toplevel_v2_window_constricted_by": 1000, // 3520
 			"toplevel_v2_window_allow_move": 1, // 3526
@@ -171859,27 +172172,27 @@
 	{
 		"extra": {
 			"toplevel_v2_window_name": "Dialogue Box", // 3493 chisel:interface_name
-			"toplevel_v2_window_layer": 96797419, // 3503
-			"toplevel_v2_window_background_layer": 96797420, // 3504
-			"toplevel_v2_window_content_layer": 96797422, // 3505
-			"toplevel_v2_window_border_layer": 96797423, // 3506
+			"toplevel_v2_window_layer": 96797420, // 3503
+			"toplevel_v2_window_background_layer": 96797421, // 3504
+			"toplevel_v2_window_content_layer": 96797423, // 3505
+			"toplevel_v2_window_border_layer": 96797424, // 3506
 			"toplevel_v2_window_skin_data": 21261, // 3518
 			"toplevel_v2_window_allow_move": 1, // 3526
 			"toplevel_v2_window_allow_snapping": 0, // 3528
 			"toplevel_v2_window_hide_borders": 1, // 3533
 			"toplevel_v2_window_allow_title": 1, // 3545
 			"toplevel_v2_window_prevent_clickthrough": 0, // 3734
-			"toplevel_v2_window_content_layer_mobile": 96797418 // 6121
+			"toplevel_v2_window_content_layer_mobile": 96797419 // 6121
 		},
 		"id": 21303
 	},
 	{
 		"extra": {
 			"toplevel_v2_window_name": "Central Interface", // 3493 chisel:interface_name
-			"toplevel_v2_window_layer": 96797404, // 3503
-			"toplevel_v2_window_background_layer": 96797405, // 3504
-			"toplevel_v2_window_content_layer": 96797407, // 3505
-			"toplevel_v2_window_border_layer": 96797408, // 3506
+			"toplevel_v2_window_layer": 96797405, // 3503
+			"toplevel_v2_window_background_layer": 96797406, // 3504
+			"toplevel_v2_window_content_layer": 96797408, // 3505
+			"toplevel_v2_window_border_layer": 96797409, // 3506
 			"toplevel_v2_window_skin_data": 21262, // 3518
 			"toplevel_v2_window_allow_move": 1, // 3526
 			"toplevel_v2_window_allow_snapping": 0, // 3528
@@ -171905,10 +172218,10 @@
 	{
 		"extra": {
 			"toplevel_v2_window_name": "XP Tracker", // 3493 chisel:interface_name
-			"toplevel_v2_window_layer": 96797270, // 3503
-			"toplevel_v2_window_background_layer": 96797271, // 3504
-			"toplevel_v2_window_content_layer": 96797272, // 3505
-			"toplevel_v2_window_border_layer": 96797273, // 3506
+			"toplevel_v2_window_layer": 96797271, // 3503
+			"toplevel_v2_window_background_layer": 96797272, // 3504
+			"toplevel_v2_window_content_layer": 96797273, // 3505
+			"toplevel_v2_window_border_layer": 96797274, // 3506
 			"toplevel_v2_window_skin_data": 21272, // 3518
 			"toplevel_v2_window_allow_move": 1, // 3526
 			"toplevel_v2_window_resize_direction": 0, // 3527
@@ -171922,10 +172235,10 @@
 	{
 		"extra": {
 			"toplevel_v2_window_name": "Subscribe", // 3493 chisel:interface_name
-			"toplevel_v2_window_layer": 96797492, // 3503
-			"toplevel_v2_window_background_layer": 96797493, // 3504
-			"toplevel_v2_window_content_layer": 96797494, // 3505
-			"toplevel_v2_window_border_layer": 96797495, // 3506
+			"toplevel_v2_window_layer": 96797493, // 3503
+			"toplevel_v2_window_background_layer": 96797494, // 3504
+			"toplevel_v2_window_content_layer": 96797495, // 3505
+			"toplevel_v2_window_border_layer": 96797496, // 3506
 			"toplevel_v2_window_skin_data": 21273, // 3518
 			"toplevel_v2_window_allow_move": 1, // 3526
 			"toplevel_v2_window_resize_direction": 0, // 3527
@@ -171940,10 +172253,10 @@
 		"extra": {
 			"toplevel_v2_window_name": "Bank", // 3493 chisel:interface_name
 			"toplevel_v2_window_size_struct": 21329, // 3494
-			"toplevel_v2_window_layer": 96797365, // 3503
-			"toplevel_v2_window_background_layer": 96797366, // 3504
-			"toplevel_v2_window_content_layer": 96797367, // 3505
-			"toplevel_v2_window_border_layer": 96797368, // 3506
+			"toplevel_v2_window_layer": 96797366, // 3503
+			"toplevel_v2_window_background_layer": 96797367, // 3504
+			"toplevel_v2_window_content_layer": 96797368, // 3505
+			"toplevel_v2_window_border_layer": 96797369, // 3506
 			"toplevel_v2_window_skin_data": 21270, // 3518
 			"toplevel_v2_window_allow_move": 1, // 3526
 			"toplevel_v2_window_resize_direction": 3, // 3527
@@ -171957,10 +172270,10 @@
 	{
 		"extra": {
 			"toplevel_v2_window_name": "Gravestone Items", // 3493 chisel:interface_name
-			"toplevel_v2_window_layer": 96797279, // 3503
-			"toplevel_v2_window_background_layer": 96797280, // 3504
-			"toplevel_v2_window_content_layer": 96797281, // 3505
-			"toplevel_v2_window_border_layer": 96797282, // 3506
+			"toplevel_v2_window_layer": 96797280, // 3503
+			"toplevel_v2_window_background_layer": 96797281, // 3504
+			"toplevel_v2_window_content_layer": 96797282, // 3505
+			"toplevel_v2_window_border_layer": 96797283, // 3506
 			"toplevel_v2_window_skin_data": 21263, // 3518
 			"toplevel_v2_window_allow_move": 1, // 3526
 			"toplevel_v2_window_resize_direction": 0, // 3527
@@ -171974,10 +172287,10 @@
 	{
 		"extra": {
 			"toplevel_v2_window_name": "Task Complete", // 3493 chisel:interface_name
-			"toplevel_v2_window_layer": 96797296, // 3503
-			"toplevel_v2_window_background_layer": 96797298, // 3504
-			"toplevel_v2_window_content_layer": 96797299, // 3505
-			"toplevel_v2_window_border_layer": 96797300, // 3506
+			"toplevel_v2_window_layer": 96797300, // 3503
+			"toplevel_v2_window_background_layer": 96797302, // 3504
+			"toplevel_v2_window_content_layer": 96797303, // 3505
+			"toplevel_v2_window_border_layer": 96797304, // 3506
 			"toplevel_v2_window_skin_data": 21264, // 3518
 			"toplevel_v2_window_allow_move": 1, // 3526
 			"toplevel_v2_window_resize_direction": 0, // 3527
@@ -172004,10 +172317,10 @@
 	{
 		"extra": {
 			"toplevel_v2_window_name": "Death Status", // 3493 chisel:interface_name
-			"toplevel_v2_window_layer": 96797291, // 3503
-			"toplevel_v2_window_background_layer": 96797292, // 3504
-			"toplevel_v2_window_content_layer": 96797293, // 3505
-			"toplevel_v2_window_border_layer": 96797294, // 3506
+			"toplevel_v2_window_layer": 96797292, // 3503
+			"toplevel_v2_window_background_layer": 96797293, // 3504
+			"toplevel_v2_window_content_layer": 96797294, // 3505
+			"toplevel_v2_window_border_layer": 96797295, // 3506
 			"toplevel_v2_window_skin_data": 21266, // 3518
 			"toplevel_v2_window_allow_move": 1, // 3526
 			"toplevel_v2_window_resize_direction": 0, // 3527
@@ -172024,10 +172337,10 @@
 			"toplevel_v2_window_size_struct": 44203, // 3494
 			"toplevel_v2_window_min_width": 32, // 3499
 			"toplevel_v2_window_min_height": 32, // 3500
-			"toplevel_v2_window_layer": 96797287, // 3503
-			"toplevel_v2_window_background_layer": 96797288, // 3504
-			"toplevel_v2_window_content_layer": 96797289, // 3505
-			"toplevel_v2_window_border_layer": 96797290, // 3506
+			"toplevel_v2_window_layer": 96797288, // 3503
+			"toplevel_v2_window_background_layer": 96797289, // 3504
+			"toplevel_v2_window_content_layer": 96797290, // 3505
+			"toplevel_v2_window_border_layer": 96797291, // 3506
 			"toplevel_v2_window_skin_data": 21267, // 3518
 			"toplevel_v2_window_allow_move": 1, // 3526
 			"toplevel_v2_window_resize_direction": 3, // 3527
@@ -172042,10 +172355,10 @@
 	{
 		"extra": {
 			"toplevel_v2_window_name": "Area Status", // 3493 chisel:interface_name
-			"toplevel_v2_window_layer": 96797304, // 3503
-			"toplevel_v2_window_background_layer": 96797305, // 3504
-			"toplevel_v2_window_content_layer": 96797306, // 3505
-			"toplevel_v2_window_border_layer": 96797307, // 3506
+			"toplevel_v2_window_layer": 96797305, // 3503
+			"toplevel_v2_window_background_layer": 96797306, // 3504
+			"toplevel_v2_window_content_layer": 96797307, // 3505
+			"toplevel_v2_window_border_layer": 96797308, // 3506
 			"toplevel_v2_window_skin_data": 21268, // 3518
 			"toplevel_v2_window_allow_move": 1, // 3526
 			"toplevel_v2_window_resize_direction": 0, // 3527
@@ -172059,10 +172372,10 @@
 	{
 		"extra": {
 			"toplevel_v2_window_name": "Crafting Progress", // 3493 chisel:interface_name
-			"toplevel_v2_window_layer": 96797295, // 3503
-			"toplevel_v2_window_background_layer": 96797301, // 3504
-			"toplevel_v2_window_content_layer": 96797302, // 3505
-			"toplevel_v2_window_border_layer": 96797303, // 3506
+			"toplevel_v2_window_layer": 96797296, // 3503
+			"toplevel_v2_window_background_layer": 96797297, // 3504
+			"toplevel_v2_window_content_layer": 96797298, // 3505
+			"toplevel_v2_window_border_layer": 96797299, // 3506
 			"toplevel_v2_window_skin_data": 21271, // 3518
 			"toplevel_v2_window_allow_move": 1, // 3526
 			"toplevel_v2_window_resize_direction": 0, // 3527
@@ -172082,17 +172395,17 @@
 			"toplevel_v2_window_tab_icon_inactive": 28725, // 3497
 			"toplevel_v2_window_min_width": 190, // 3499
 			"toplevel_v2_window_min_height": 0, // 3500
-			"toplevel_v2_window_layer": 96796795, // 3503
-			"toplevel_v2_window_background_layer": 96796796, // 3504
-			"toplevel_v2_window_content_layer": 96796797, // 3505
-			"toplevel_v2_window_border_layer": 96796800, // 3506
-			"toplevel_v2_window_close_button_layer": 96796801, // 3507
-			"toplevel_v2_window_tabs_background_layer": 96796802, // 3508
-			"toplevel_v2_window_tabs_layer": 96796803, // 3509
-			"toplevel_v2_window_tabs_scroll_layer": 96796804, // 3510
-			"toplevel_v2_window_scroll_layer": 96796799, // 3511
-			"toplevel_v2_window_recycle_bin_layer": 96796805, // 3512
-			"toplevel_v2_window_edit_block_layer": 96796798, // 3513
+			"toplevel_v2_window_layer": 96796796, // 3503
+			"toplevel_v2_window_background_layer": 96796797, // 3504
+			"toplevel_v2_window_content_layer": 96796798, // 3505
+			"toplevel_v2_window_border_layer": 96796801, // 3506
+			"toplevel_v2_window_close_button_layer": 96796802, // 3507
+			"toplevel_v2_window_tabs_background_layer": 96796803, // 3508
+			"toplevel_v2_window_tabs_layer": 96796804, // 3509
+			"toplevel_v2_window_tabs_scroll_layer": 96796805, // 3510
+			"toplevel_v2_window_scroll_layer": 96796800, // 3511
+			"toplevel_v2_window_recycle_bin_layer": 96796806, // 3512
+			"toplevel_v2_window_edit_block_layer": 96796799, // 3513
 			"toplevel_v2_window_skin_data": 21255, // 3518
 			"toplevel_v2_window_allow_tabs": 1, // 3521
 			"toplevel_v2_window_allow_close": 1, // 3522
@@ -180458,10 +180771,10 @@
 		"extra": {
 			"toplevel_v2_window_name": "Split Private Chat", // 3493 chisel:interface_name
 			"toplevel_v2_window_size_struct": 23003, // 3494
-			"toplevel_v2_window_layer": 96797318, // 3503
-			"toplevel_v2_window_background_layer": 96797319, // 3504
-			"toplevel_v2_window_content_layer": 96797320, // 3505
-			"toplevel_v2_window_border_layer": 96797321, // 3506
+			"toplevel_v2_window_layer": 96797319, // 3503
+			"toplevel_v2_window_background_layer": 96797320, // 3504
+			"toplevel_v2_window_content_layer": 96797321, // 3505
+			"toplevel_v2_window_border_layer": 96797322, // 3506
 			"toplevel_v2_window_skin_data": 23082, // 3518
 			"toplevel_v2_window_allow_move": 1, // 3526
 			"toplevel_v2_window_resize_direction": 3, // 3527
@@ -191859,17 +192172,17 @@
 			"toplevel_v2_window_tab_icon_inactive": 23669, // 3497
 			"toplevel_v2_window_min_width": 0, // 3499
 			"toplevel_v2_window_min_height": 0, // 3500
-			"toplevel_v2_window_layer": 96796992, // 3503
-			"toplevel_v2_window_background_layer": 96796993, // 3504
-			"toplevel_v2_window_content_layer": 96796994, // 3505
-			"toplevel_v2_window_border_layer": 96796997, // 3506
-			"toplevel_v2_window_close_button_layer": 96796998, // 3507
-			"toplevel_v2_window_tabs_background_layer": 96796999, // 3508
-			"toplevel_v2_window_tabs_layer": 96797000, // 3509
-			"toplevel_v2_window_tabs_scroll_layer": 96797001, // 3510
-			"toplevel_v2_window_scroll_layer": 96796996, // 3511
-			"toplevel_v2_window_recycle_bin_layer": 96797002, // 3512
-			"toplevel_v2_window_edit_block_layer": 96796995, // 3513
+			"toplevel_v2_window_layer": 96796993, // 3503
+			"toplevel_v2_window_background_layer": 96796994, // 3504
+			"toplevel_v2_window_content_layer": 96796995, // 3505
+			"toplevel_v2_window_border_layer": 96796998, // 3506
+			"toplevel_v2_window_close_button_layer": 96796999, // 3507
+			"toplevel_v2_window_tabs_background_layer": 96797000, // 3508
+			"toplevel_v2_window_tabs_layer": 96797001, // 3509
+			"toplevel_v2_window_tabs_scroll_layer": 96797002, // 3510
+			"toplevel_v2_window_scroll_layer": 96796997, // 3511
+			"toplevel_v2_window_recycle_bin_layer": 96797003, // 3512
+			"toplevel_v2_window_edit_block_layer": 96796996, // 3513
 			"toplevel_v2_window_skin_data": 21255, // 3518
 			"toplevel_v2_window_allow_tabs": 1, // 3521
 			"toplevel_v2_window_allow_close": 1, // 3522
@@ -191891,16 +192204,16 @@
 			"toplevel_v2_window_tab_icon": 23668, // 3496
 			"toplevel_v2_window_min_width": 0, // 3499
 			"toplevel_v2_window_min_height": 0, // 3500
-			"toplevel_v2_window_layer": 96797003, // 3503
-			"toplevel_v2_window_background_layer": 96797004, // 3504
-			"toplevel_v2_window_content_layer": 96797005, // 3505
-			"toplevel_v2_window_border_layer": 96797008, // 3506
-			"toplevel_v2_window_tabs_background_layer": 96797009, // 3508
-			"toplevel_v2_window_tabs_layer": 96797010, // 3509
-			"toplevel_v2_window_tabs_scroll_layer": 96797011, // 3510
-			"toplevel_v2_window_scroll_layer": 96797007, // 3511
-			"toplevel_v2_window_recycle_bin_layer": 96797012, // 3512
-			"toplevel_v2_window_edit_block_layer": 96797006, // 3513
+			"toplevel_v2_window_layer": 96797004, // 3503
+			"toplevel_v2_window_background_layer": 96797005, // 3504
+			"toplevel_v2_window_content_layer": 96797006, // 3505
+			"toplevel_v2_window_border_layer": 96797009, // 3506
+			"toplevel_v2_window_tabs_background_layer": 96797010, // 3508
+			"toplevel_v2_window_tabs_layer": 96797011, // 3509
+			"toplevel_v2_window_tabs_scroll_layer": 96797012, // 3510
+			"toplevel_v2_window_scroll_layer": 96797008, // 3511
+			"toplevel_v2_window_recycle_bin_layer": 96797013, // 3512
+			"toplevel_v2_window_edit_block_layer": 96797007, // 3513
 			"toplevel_v2_window_skin_data": 21255, // 3518
 			"toplevel_v2_window_allow_tabs": 1, // 3521
 			"toplevel_v2_window_allow_move": 1, // 3526
@@ -212968,10 +213281,10 @@
 	{
 		"extra": {
 			"toplevel_v2_window_name": "Combat Target", // 3493 chisel:interface_name
-			"toplevel_v2_window_layer": 96797266, // 3503
-			"toplevel_v2_window_background_layer": 96797267, // 3504
-			"toplevel_v2_window_content_layer": 96797268, // 3505
-			"toplevel_v2_window_border_layer": 96797269, // 3506
+			"toplevel_v2_window_layer": 96797267, // 3503
+			"toplevel_v2_window_background_layer": 96797268, // 3504
+			"toplevel_v2_window_content_layer": 96797269, // 3505
+			"toplevel_v2_window_border_layer": 96797270, // 3506
 			"toplevel_v2_window_skin_data": 21267, // 3518
 			"toplevel_v2_window_allow_move": 1, // 3526
 			"toplevel_v2_window_resize_direction": 0, // 3527
@@ -221208,10 +221521,10 @@
 	{
 		"extra": {
 			"toplevel_v2_window_name": "Boss Kill Timer", // 3493 chisel:interface_name
-			"toplevel_v2_window_layer": 96797326, // 3503
-			"toplevel_v2_window_background_layer": 96797327, // 3504
-			"toplevel_v2_window_content_layer": 96797328, // 3505
-			"toplevel_v2_window_border_layer": 96797329, // 3506
+			"toplevel_v2_window_layer": 96797327, // 3503
+			"toplevel_v2_window_background_layer": 96797328, // 3504
+			"toplevel_v2_window_content_layer": 96797329, // 3505
+			"toplevel_v2_window_border_layer": 96797330, // 3506
 			"toplevel_v2_window_skin_data": 21267, // 3518
 			"toplevel_v2_window_allow_move": 1, // 3526
 			"toplevel_v2_window_resize_direction": 0, // 3527
@@ -223582,16 +223895,16 @@
 			"toplevel_v2_window_tab_icon_inactive": 21861, // 3497
 			"toplevel_v2_window_min_width": 0, // 3499
 			"toplevel_v2_window_min_height": 0, // 3500
-			"toplevel_v2_window_layer": 96797151, // 3503
-			"toplevel_v2_window_background_layer": 96797152, // 3504
-			"toplevel_v2_window_content_layer": 96797153, // 3505
-			"toplevel_v2_window_border_layer": 96797155, // 3506
-			"toplevel_v2_window_close_button_layer": 96797156, // 3507
-			"toplevel_v2_window_tabs_background_layer": 96797157, // 3508
-			"toplevel_v2_window_tabs_layer": 96797158, // 3509
-			"toplevel_v2_window_tabs_scroll_layer": 96797159, // 3510
-			"toplevel_v2_window_recycle_bin_layer": 96797160, // 3512
-			"toplevel_v2_window_edit_block_layer": 96797154, // 3513
+			"toplevel_v2_window_layer": 96797152, // 3503
+			"toplevel_v2_window_background_layer": 96797153, // 3504
+			"toplevel_v2_window_content_layer": 96797154, // 3505
+			"toplevel_v2_window_border_layer": 96797156, // 3506
+			"toplevel_v2_window_close_button_layer": 96797157, // 3507
+			"toplevel_v2_window_tabs_background_layer": 96797158, // 3508
+			"toplevel_v2_window_tabs_layer": 96797159, // 3509
+			"toplevel_v2_window_tabs_scroll_layer": 96797160, // 3510
+			"toplevel_v2_window_recycle_bin_layer": 96797161, // 3512
+			"toplevel_v2_window_edit_block_layer": 96797155, // 3513
 			"toplevel_v2_window_skin_data": 21255, // 3518
 			"toplevel_v2_window_allow_tabs": 1, // 3521
 			"toplevel_v2_window_allow_close": 1, // 3522
@@ -223618,17 +223931,17 @@
 			"toplevel_v2_window_tab_icon_inactive": 28656, // 3497
 			"toplevel_v2_window_min_width": 0, // 3499
 			"toplevel_v2_window_min_height": 0, // 3500
-			"toplevel_v2_window_layer": 96797193, // 3503
-			"toplevel_v2_window_background_layer": 96797194, // 3504
-			"toplevel_v2_window_content_layer": 96797195, // 3505
-			"toplevel_v2_window_border_layer": 96797198, // 3506
-			"toplevel_v2_window_close_button_layer": 96797199, // 3507
-			"toplevel_v2_window_tabs_background_layer": 96797200, // 3508
-			"toplevel_v2_window_tabs_layer": 96797201, // 3509
-			"toplevel_v2_window_tabs_scroll_layer": 96797202, // 3510
-			"toplevel_v2_window_scroll_layer": 96797197, // 3511
-			"toplevel_v2_window_recycle_bin_layer": 96797203, // 3512
-			"toplevel_v2_window_edit_block_layer": 96797196, // 3513
+			"toplevel_v2_window_layer": 96797194, // 3503
+			"toplevel_v2_window_background_layer": 96797195, // 3504
+			"toplevel_v2_window_content_layer": 96797196, // 3505
+			"toplevel_v2_window_border_layer": 96797199, // 3506
+			"toplevel_v2_window_close_button_layer": 96797200, // 3507
+			"toplevel_v2_window_tabs_background_layer": 96797201, // 3508
+			"toplevel_v2_window_tabs_layer": 96797202, // 3509
+			"toplevel_v2_window_tabs_scroll_layer": 96797203, // 3510
+			"toplevel_v2_window_scroll_layer": 96797198, // 3511
+			"toplevel_v2_window_recycle_bin_layer": 96797204, // 3512
+			"toplevel_v2_window_edit_block_layer": 96797197, // 3513
 			"toplevel_v2_window_embedded_layer": 100139014, // 3514
 			"toplevel_v2_window_embedded_background_layer": 100139015, // 3515
 			"toplevel_v2_window_embedded_content_layer": 100139016, // 3516
@@ -223653,10 +223966,10 @@
 	{
 		"extra": {
 			"toplevel_v2_window_name": "Group Invitations", // 3493 chisel:interface_name
-			"toplevel_v2_window_layer": 96797390, // 3503
-			"toplevel_v2_window_background_layer": 96797391, // 3504
-			"toplevel_v2_window_content_layer": 96797392, // 3505
-			"toplevel_v2_window_border_layer": 96797393, // 3506
+			"toplevel_v2_window_layer": 96797391, // 3503
+			"toplevel_v2_window_background_layer": 96797392, // 3504
+			"toplevel_v2_window_content_layer": 96797393, // 3505
+			"toplevel_v2_window_border_layer": 96797394, // 3506
 			"toplevel_v2_window_skin_data": 28882, // 3518
 			"toplevel_v2_window_allow_move": 1, // 3526
 			"toplevel_v2_window_resize_direction": 0, // 3527
@@ -226262,17 +226575,17 @@
 			"toplevel_v2_window_tab_icon_inactive": 18794, // 3497
 			"toplevel_v2_window_min_width": 0, // 3499
 			"toplevel_v2_window_min_height": 0, // 3500
-			"toplevel_v2_window_layer": 96796784, // 3503
-			"toplevel_v2_window_background_layer": 96796785, // 3504
-			"toplevel_v2_window_content_layer": 96796786, // 3505
-			"toplevel_v2_window_border_layer": 96796789, // 3506
-			"toplevel_v2_window_close_button_layer": 96796790, // 3507
-			"toplevel_v2_window_tabs_background_layer": 96796791, // 3508
-			"toplevel_v2_window_tabs_layer": 96796792, // 3509
-			"toplevel_v2_window_tabs_scroll_layer": 96796793, // 3510
-			"toplevel_v2_window_scroll_layer": 96796788, // 3511
-			"toplevel_v2_window_recycle_bin_layer": 96796794, // 3512
-			"toplevel_v2_window_edit_block_layer": 96796787, // 3513
+			"toplevel_v2_window_layer": 96796785, // 3503
+			"toplevel_v2_window_background_layer": 96796786, // 3504
+			"toplevel_v2_window_content_layer": 96796787, // 3505
+			"toplevel_v2_window_border_layer": 96796790, // 3506
+			"toplevel_v2_window_close_button_layer": 96796791, // 3507
+			"toplevel_v2_window_tabs_background_layer": 96796792, // 3508
+			"toplevel_v2_window_tabs_layer": 96796793, // 3509
+			"toplevel_v2_window_tabs_scroll_layer": 96796794, // 3510
+			"toplevel_v2_window_scroll_layer": 96796789, // 3511
+			"toplevel_v2_window_recycle_bin_layer": 96796795, // 3512
+			"toplevel_v2_window_edit_block_layer": 96796788, // 3513
 			"toplevel_v2_window_embedded_layer": 95813632, // 3514
 			"toplevel_v2_window_embedded_background_layer": 95813633, // 3515
 			"toplevel_v2_window_embedded_content_layer": 95813634, // 3516
@@ -226741,10 +227054,10 @@
 		"extra": {
 			"toplevel_v2_window_name": "Player Inspect", // 3493 chisel:interface_name
 			"toplevel_v2_window_size_struct": 29000, // 3494
-			"toplevel_v2_window_layer": 96797370, // 3503
-			"toplevel_v2_window_background_layer": 96797371, // 3504
-			"toplevel_v2_window_content_layer": 96797372, // 3505
-			"toplevel_v2_window_border_layer": 96797373, // 3506
+			"toplevel_v2_window_layer": 96797371, // 3503
+			"toplevel_v2_window_background_layer": 96797372, // 3504
+			"toplevel_v2_window_content_layer": 96797373, // 3505
+			"toplevel_v2_window_border_layer": 96797374, // 3506
 			"toplevel_v2_window_skin_data": 29003, // 3518
 			"toplevel_v2_window_allow_move": 1, // 3526
 			"toplevel_v2_window_resize_direction": 1, // 3527
@@ -228881,17 +229194,17 @@
 			"toplevel_v2_window_tab_icon_inactive": 31262, // 3497
 			"toplevel_v2_window_min_width": 0, // 3499
 			"toplevel_v2_window_min_height": 0, // 3500
-			"toplevel_v2_window_layer": 96796850, // 3503
-			"toplevel_v2_window_background_layer": 96796851, // 3504
-			"toplevel_v2_window_content_layer": 96796852, // 3505
-			"toplevel_v2_window_border_layer": 96796855, // 3506
-			"toplevel_v2_window_close_button_layer": 96796856, // 3507
-			"toplevel_v2_window_tabs_background_layer": 96796857, // 3508
-			"toplevel_v2_window_tabs_layer": 96796858, // 3509
-			"toplevel_v2_window_tabs_scroll_layer": 96796859, // 3510
-			"toplevel_v2_window_scroll_layer": 96796854, // 3511
-			"toplevel_v2_window_recycle_bin_layer": 96796860, // 3512
-			"toplevel_v2_window_edit_block_layer": 96796853, // 3513
+			"toplevel_v2_window_layer": 96796851, // 3503
+			"toplevel_v2_window_background_layer": 96796852, // 3504
+			"toplevel_v2_window_content_layer": 96796853, // 3505
+			"toplevel_v2_window_border_layer": 96796856, // 3506
+			"toplevel_v2_window_close_button_layer": 96796857, // 3507
+			"toplevel_v2_window_tabs_background_layer": 96796858, // 3508
+			"toplevel_v2_window_tabs_layer": 96796859, // 3509
+			"toplevel_v2_window_tabs_scroll_layer": 96796860, // 3510
+			"toplevel_v2_window_scroll_layer": 96796855, // 3511
+			"toplevel_v2_window_recycle_bin_layer": 96796861, // 3512
+			"toplevel_v2_window_edit_block_layer": 96796854, // 3513
 			"toplevel_v2_window_embedded_layer": 95617030, // 3514
 			"toplevel_v2_window_embedded_background_layer": 95617027, // 3515
 			"toplevel_v2_window_embedded_content_layer": 95617028, // 3516
@@ -235698,10 +236011,10 @@
 	{
 		"extra": {
 			"toplevel_v2_window_name": "Clock", // 3493 chisel:interface_name
-			"toplevel_v2_window_layer": 96797334, // 3503
-			"toplevel_v2_window_background_layer": 96797335, // 3504
-			"toplevel_v2_window_content_layer": 96797336, // 3505
-			"toplevel_v2_window_border_layer": 96797337, // 3506
+			"toplevel_v2_window_layer": 96797335, // 3503
+			"toplevel_v2_window_background_layer": 96797336, // 3504
+			"toplevel_v2_window_content_layer": 96797337, // 3505
+			"toplevel_v2_window_border_layer": 96797338, // 3506
 			"toplevel_v2_window_skin_data": 21273, // 3518
 			"toplevel_v2_window_allow_move": 1, // 3526
 			"toplevel_v2_window_resize_direction": 0, // 3527
@@ -237555,10 +237868,10 @@
 	{
 		"extra": {
 			"toplevel_v2_window_name": "XP Popups", // 3493 chisel:interface_name
-			"toplevel_v2_window_layer": 96797338, // 3503
-			"toplevel_v2_window_background_layer": 96797339, // 3504
-			"toplevel_v2_window_content_layer": 96797340, // 3505
-			"toplevel_v2_window_border_layer": 96797341, // 3506
+			"toplevel_v2_window_layer": 96797339, // 3503
+			"toplevel_v2_window_background_layer": 96797340, // 3504
+			"toplevel_v2_window_content_layer": 96797341, // 3505
+			"toplevel_v2_window_border_layer": 96797342, // 3506
 			"toplevel_v2_window_skin_data": 21272, // 3518
 			"toplevel_v2_window_allow_move": 1, // 3526
 			"toplevel_v2_window_resize_direction": 0, // 3527
@@ -243449,16 +243762,16 @@
 			"toplevel_v2_window_tab_icon_inactive": 26741, // 3497
 			"toplevel_v2_window_min_width": 0, // 3499
 			"toplevel_v2_window_min_height": 0, // 3500
-			"toplevel_v2_window_layer": 96797013, // 3503
-			"toplevel_v2_window_background_layer": 96797014, // 3504
-			"toplevel_v2_window_content_layer": 96797015, // 3505
-			"toplevel_v2_window_border_layer": 96797018, // 3506
-			"toplevel_v2_window_close_button_layer": 96797023, // 3507
-			"toplevel_v2_window_tabs_background_layer": 96797019, // 3508
-			"toplevel_v2_window_tabs_layer": 96797020, // 3509
-			"toplevel_v2_window_tabs_scroll_layer": 96797021, // 3510
-			"toplevel_v2_window_recycle_bin_layer": 96797022, // 3512
-			"toplevel_v2_window_edit_block_layer": 96797016, // 3513
+			"toplevel_v2_window_layer": 96797014, // 3503
+			"toplevel_v2_window_background_layer": 96797015, // 3504
+			"toplevel_v2_window_content_layer": 96797016, // 3505
+			"toplevel_v2_window_border_layer": 96797019, // 3506
+			"toplevel_v2_window_close_button_layer": 96797024, // 3507
+			"toplevel_v2_window_tabs_background_layer": 96797020, // 3508
+			"toplevel_v2_window_tabs_layer": 96797021, // 3509
+			"toplevel_v2_window_tabs_scroll_layer": 96797022, // 3510
+			"toplevel_v2_window_recycle_bin_layer": 96797023, // 3512
+			"toplevel_v2_window_edit_block_layer": 96797017, // 3513
 			"toplevel_v2_window_embedded_layer": 110166016, // 3514
 			"toplevel_v2_window_embedded_background_layer": 110166017, // 3515
 			"toplevel_v2_window_embedded_content_layer": 110166018, // 3516
@@ -248213,10 +248526,10 @@
 	{
 		"extra": {
 			"toplevel_v2_window_name": "JMod Toolbox", // 3493 chisel:interface_name
-			"toplevel_v2_window_layer": 96797342, // 3503
-			"toplevel_v2_window_background_layer": 96797343, // 3504
-			"toplevel_v2_window_content_layer": 96797344, // 3505
-			"toplevel_v2_window_border_layer": 96797345, // 3506
+			"toplevel_v2_window_layer": 96797343, // 3503
+			"toplevel_v2_window_background_layer": 96797344, // 3504
+			"toplevel_v2_window_content_layer": 96797345, // 3505
+			"toplevel_v2_window_border_layer": 96797346, // 3506
 			"toplevel_v2_window_skin_data": 21273, // 3518
 			"toplevel_v2_window_allow_move": 1, // 3526
 			"toplevel_v2_window_resize_direction": 0, // 3527
@@ -250751,10 +251064,10 @@
 		"extra": {
 			"toplevel_v2_window_name": "Loot", // 3493 chisel:interface_name
 			"toplevel_v2_window_size_struct": 31388, // 3494
-			"toplevel_v2_window_layer": 96797375, // 3503
-			"toplevel_v2_window_background_layer": 96797376, // 3504
-			"toplevel_v2_window_content_layer": 96797377, // 3505
-			"toplevel_v2_window_border_layer": 96797378, // 3506
+			"toplevel_v2_window_layer": 96797376, // 3503
+			"toplevel_v2_window_background_layer": 96797377, // 3504
+			"toplevel_v2_window_content_layer": 96797378, // 3505
+			"toplevel_v2_window_border_layer": 96797379, // 3506
 			"toplevel_v2_window_skin_data": 21272, // 3518
 			"toplevel_v2_window_allow_move": 1, // 3526
 			"toplevel_v2_window_resize_direction": 3, // 3527
@@ -250796,10 +251109,10 @@
 	{
 		"extra": {
 			"toplevel_v2_window_name": "Debug text", // 3493 chisel:interface_name
-			"toplevel_v2_window_layer": 96797274, // 3503
-			"toplevel_v2_window_background_layer": 96797275, // 3504
-			"toplevel_v2_window_content_layer": 96797276, // 3505
-			"toplevel_v2_window_border_layer": 96797278, // 3506
+			"toplevel_v2_window_layer": 96797275, // 3503
+			"toplevel_v2_window_background_layer": 96797276, // 3504
+			"toplevel_v2_window_content_layer": 96797277, // 3505
+			"toplevel_v2_window_border_layer": 96797279, // 3506
 			"toplevel_v2_window_skin_data": 21272, // 3518
 			"toplevel_v2_window_allow_move": 1, // 3526
 			"toplevel_v2_window_resize_direction": 0, // 3527
@@ -253648,10 +253961,10 @@
 	{
 		"extra": {
 			"toplevel_v2_window_name": "Challenge Gem", // 3493 chisel:interface_name
-			"toplevel_v2_window_layer": 96797350, // 3503
-			"toplevel_v2_window_background_layer": 96797351, // 3504
-			"toplevel_v2_window_content_layer": 96797352, // 3505
-			"toplevel_v2_window_border_layer": 96797353, // 3506
+			"toplevel_v2_window_layer": 96797351, // 3503
+			"toplevel_v2_window_background_layer": 96797352, // 3504
+			"toplevel_v2_window_content_layer": 96797353, // 3505
+			"toplevel_v2_window_border_layer": 96797354, // 3506
 			"toplevel_v2_window_skin_data": 29003, // 3518
 			"toplevel_v2_window_allow_move": 1, // 3526
 			"toplevel_v2_window_resize_direction": 0, // 3527
@@ -254217,10 +254530,10 @@
 	{
 		"extra": {
 			"toplevel_v2_window_name": "Slayer Counter", // 3493 chisel:interface_name
-			"toplevel_v2_window_layer": 96797346, // 3503
-			"toplevel_v2_window_background_layer": 96797347, // 3504
-			"toplevel_v2_window_content_layer": 96797348, // 3505
-			"toplevel_v2_window_border_layer": 96797349, // 3506
+			"toplevel_v2_window_layer": 96797347, // 3503
+			"toplevel_v2_window_background_layer": 96797348, // 3504
+			"toplevel_v2_window_content_layer": 96797349, // 3505
+			"toplevel_v2_window_border_layer": 96797350, // 3506
 			"toplevel_v2_window_skin_data": 21272, // 3518
 			"toplevel_v2_window_allow_move": 1, // 3526
 			"toplevel_v2_window_resize_direction": 0, // 3527
@@ -260887,11 +261200,11 @@
 	{
 		"extra": {
 			"toplevel_v2_window_name": "Additional Action Bar 1", // 3493 chisel:interface_name
-			"toplevel_v2_window_layer": 96796744, // 3503
-			"toplevel_v2_window_background_layer": 96796745, // 3504
-			"toplevel_v2_window_content_layer": 96796747, // 3505
-			"toplevel_v2_window_border_layer": 96796746, // 3506
-			"toplevel_v2_window_close_button_layer": 96796748, // 3507
+			"toplevel_v2_window_layer": 96796745, // 3503
+			"toplevel_v2_window_background_layer": 96796746, // 3504
+			"toplevel_v2_window_content_layer": 96796748, // 3505
+			"toplevel_v2_window_border_layer": 96796747, // 3506
+			"toplevel_v2_window_close_button_layer": 96796749, // 3507
 			"toplevel_v2_window_skin_data": 35743, // 3518
 			"toplevel_v2_window_allow_settings": 1, // 3523
 			"toplevel_v2_window_settings_override": 1, // 3524
@@ -260906,11 +261219,11 @@
 	{
 		"extra": {
 			"toplevel_v2_window_name": "Additional Action Bar 2", // 3493 chisel:interface_name
-			"toplevel_v2_window_layer": 96796749, // 3503
-			"toplevel_v2_window_background_layer": 96796750, // 3504
-			"toplevel_v2_window_content_layer": 96796752, // 3505
-			"toplevel_v2_window_border_layer": 96796751, // 3506
-			"toplevel_v2_window_close_button_layer": 96796753, // 3507
+			"toplevel_v2_window_layer": 96796750, // 3503
+			"toplevel_v2_window_background_layer": 96796751, // 3504
+			"toplevel_v2_window_content_layer": 96796753, // 3505
+			"toplevel_v2_window_border_layer": 96796752, // 3506
+			"toplevel_v2_window_close_button_layer": 96796754, // 3507
 			"toplevel_v2_window_skin_data": 35743, // 3518
 			"toplevel_v2_window_allow_settings": 1, // 3523
 			"toplevel_v2_window_settings_override": 1, // 3524
@@ -260925,11 +261238,11 @@
 	{
 		"extra": {
 			"toplevel_v2_window_name": "Additional Action Bar 3", // 3493 chisel:interface_name
-			"toplevel_v2_window_layer": 96796754, // 3503
-			"toplevel_v2_window_background_layer": 96796755, // 3504
-			"toplevel_v2_window_content_layer": 96796757, // 3505
-			"toplevel_v2_window_border_layer": 96796756, // 3506
-			"toplevel_v2_window_close_button_layer": 96796758, // 3507
+			"toplevel_v2_window_layer": 96796755, // 3503
+			"toplevel_v2_window_background_layer": 96796756, // 3504
+			"toplevel_v2_window_content_layer": 96796758, // 3505
+			"toplevel_v2_window_border_layer": 96796757, // 3506
+			"toplevel_v2_window_close_button_layer": 96796759, // 3507
 			"toplevel_v2_window_skin_data": 35743, // 3518
 			"toplevel_v2_window_allow_settings": 1, // 3523
 			"toplevel_v2_window_settings_override": 1, // 3524
@@ -260944,11 +261257,11 @@
 	{
 		"extra": {
 			"toplevel_v2_window_name": "Additional Action Bar 4", // 3493 chisel:interface_name
-			"toplevel_v2_window_layer": 96796759, // 3503
-			"toplevel_v2_window_background_layer": 96796760, // 3504
-			"toplevel_v2_window_content_layer": 96796762, // 3505
-			"toplevel_v2_window_border_layer": 96796761, // 3506
-			"toplevel_v2_window_close_button_layer": 96796763, // 3507
+			"toplevel_v2_window_layer": 96796760, // 3503
+			"toplevel_v2_window_background_layer": 96796761, // 3504
+			"toplevel_v2_window_content_layer": 96796763, // 3505
+			"toplevel_v2_window_border_layer": 96796762, // 3506
+			"toplevel_v2_window_close_button_layer": 96796764, // 3507
 			"toplevel_v2_window_skin_data": 35743, // 3518
 			"toplevel_v2_window_allow_settings": 1, // 3523
 			"toplevel_v2_window_settings_override": 1, // 3524
@@ -261929,17 +262242,17 @@
 			"toplevel_v2_window_tab_icon_inactive": 26743, // 3497
 			"toplevel_v2_window_min_width": 0, // 3499
 			"toplevel_v2_window_min_height": 0, // 3500
-			"toplevel_v2_window_layer": 96797024, // 3503
-			"toplevel_v2_window_background_layer": 96797025, // 3504
-			"toplevel_v2_window_content_layer": 96797026, // 3505
-			"toplevel_v2_window_border_layer": 96797029, // 3506
-			"toplevel_v2_window_close_button_layer": 96797034, // 3507
-			"toplevel_v2_window_tabs_background_layer": 96797030, // 3508
-			"toplevel_v2_window_tabs_layer": 96797031, // 3509
-			"toplevel_v2_window_tabs_scroll_layer": 96797032, // 3510
-			"toplevel_v2_window_scroll_layer": 96797028, // 3511
-			"toplevel_v2_window_recycle_bin_layer": 96797033, // 3512
-			"toplevel_v2_window_edit_block_layer": 96797027, // 3513
+			"toplevel_v2_window_layer": 96797025, // 3503
+			"toplevel_v2_window_background_layer": 96797026, // 3504
+			"toplevel_v2_window_content_layer": 96797027, // 3505
+			"toplevel_v2_window_border_layer": 96797030, // 3506
+			"toplevel_v2_window_close_button_layer": 96797035, // 3507
+			"toplevel_v2_window_tabs_background_layer": 96797031, // 3508
+			"toplevel_v2_window_tabs_layer": 96797032, // 3509
+			"toplevel_v2_window_tabs_scroll_layer": 96797033, // 3510
+			"toplevel_v2_window_scroll_layer": 96797029, // 3511
+			"toplevel_v2_window_recycle_bin_layer": 96797034, // 3512
+			"toplevel_v2_window_edit_block_layer": 96797028, // 3513
 			"toplevel_v2_window_embedded_layer": 110034945, // 3514
 			"toplevel_v2_window_embedded_background_layer": 110034946, // 3515
 			"toplevel_v2_window_embedded_content_layer": 110034947, // 3516
@@ -269927,17 +270240,17 @@
 			"toplevel_v2_window_tab_icon_inactive": 26745, // 3497
 			"toplevel_v2_window_min_width": 0, // 3499
 			"toplevel_v2_window_min_height": 0, // 3500
-			"toplevel_v2_window_layer": 96797035, // 3503
-			"toplevel_v2_window_background_layer": 96797036, // 3504
-			"toplevel_v2_window_content_layer": 96797037, // 3505
-			"toplevel_v2_window_border_layer": 96797040, // 3506
-			"toplevel_v2_window_close_button_layer": 96797045, // 3507
-			"toplevel_v2_window_tabs_background_layer": 96797041, // 3508
-			"toplevel_v2_window_tabs_layer": 96797042, // 3509
-			"toplevel_v2_window_tabs_scroll_layer": 96797043, // 3510
-			"toplevel_v2_window_scroll_layer": 96797039, // 3511
-			"toplevel_v2_window_recycle_bin_layer": 96797044, // 3512
-			"toplevel_v2_window_edit_block_layer": 96797038, // 3513
+			"toplevel_v2_window_layer": 96797036, // 3503
+			"toplevel_v2_window_background_layer": 96797037, // 3504
+			"toplevel_v2_window_content_layer": 96797038, // 3505
+			"toplevel_v2_window_border_layer": 96797041, // 3506
+			"toplevel_v2_window_close_button_layer": 96797046, // 3507
+			"toplevel_v2_window_tabs_background_layer": 96797042, // 3508
+			"toplevel_v2_window_tabs_layer": 96797043, // 3509
+			"toplevel_v2_window_tabs_scroll_layer": 96797044, // 3510
+			"toplevel_v2_window_scroll_layer": 96797040, // 3511
+			"toplevel_v2_window_recycle_bin_layer": 96797045, // 3512
+			"toplevel_v2_window_edit_block_layer": 96797039, // 3513
 			"toplevel_v2_window_embedded_layer": 113573888, // 3514
 			"toplevel_v2_window_embedded_background_layer": 113573889, // 3515
 			"toplevel_v2_window_embedded_content_layer": 113573890, // 3516
@@ -273388,10 +273701,10 @@
 			"toplevel_v2_window_name": "Events", // 3493 chisel:interface_name
 			"toplevel_v2_window_min_width": 116, // 3499
 			"toplevel_v2_window_min_height": 75, // 3500
-			"toplevel_v2_window_layer": 96797262, // 3503
-			"toplevel_v2_window_background_layer": 96797263, // 3504
-			"toplevel_v2_window_content_layer": 96797264, // 3505
-			"toplevel_v2_window_border_layer": 96797265, // 3506
+			"toplevel_v2_window_layer": 96797263, // 3503
+			"toplevel_v2_window_background_layer": 96797264, // 3504
+			"toplevel_v2_window_content_layer": 96797265, // 3505
+			"toplevel_v2_window_border_layer": 96797266, // 3506
 			"toplevel_v2_window_skin_data": 21260, // 3518
 			"toplevel_v2_window_allow_move": 1, // 3526
 			"toplevel_v2_window_resize_direction": 0, // 3527
@@ -280567,17 +280880,17 @@
 			"toplevel_v2_window_tab_icon_inactive": 32078, // 3497
 			"toplevel_v2_window_min_width": 0, // 3499
 			"toplevel_v2_window_min_height": 0, // 3500
-			"toplevel_v2_window_layer": 96797046, // 3503
-			"toplevel_v2_window_background_layer": 96797047, // 3504
-			"toplevel_v2_window_content_layer": 96797048, // 3505
-			"toplevel_v2_window_border_layer": 96797051, // 3506
-			"toplevel_v2_window_close_button_layer": 96797056, // 3507
-			"toplevel_v2_window_tabs_background_layer": 96797052, // 3508
-			"toplevel_v2_window_tabs_layer": 96797053, // 3509
-			"toplevel_v2_window_tabs_scroll_layer": 96797054, // 3510
-			"toplevel_v2_window_scroll_layer": 96797050, // 3511
-			"toplevel_v2_window_recycle_bin_layer": 96797055, // 3512
-			"toplevel_v2_window_edit_block_layer": 96797049, // 3513
+			"toplevel_v2_window_layer": 96797047, // 3503
+			"toplevel_v2_window_background_layer": 96797048, // 3504
+			"toplevel_v2_window_content_layer": 96797049, // 3505
+			"toplevel_v2_window_border_layer": 96797052, // 3506
+			"toplevel_v2_window_close_button_layer": 96797057, // 3507
+			"toplevel_v2_window_tabs_background_layer": 96797053, // 3508
+			"toplevel_v2_window_tabs_layer": 96797054, // 3509
+			"toplevel_v2_window_tabs_scroll_layer": 96797055, // 3510
+			"toplevel_v2_window_scroll_layer": 96797051, // 3511
+			"toplevel_v2_window_recycle_bin_layer": 96797056, // 3512
+			"toplevel_v2_window_edit_block_layer": 96797050, // 3513
 			"toplevel_v2_window_embedded_layer": 116850688, // 3514
 			"toplevel_v2_window_embedded_background_layer": 116850689, // 3515
 			"toplevel_v2_window_embedded_content_layer": 116850690, // 3516
@@ -299100,7 +299413,7 @@
 	},
 	{
 		"extra": {
-			"toplevel_v2_ragdoll_suboverlay_layer": 96797584, // 6397
+			"toplevel_v2_ragdoll_suboverlay_layer": 96797585, // 6397
 			"toplevel_v2_ragdoll_model_component": 121044997, // 6398
 			"toplevel_v2_ragdoll_drag_layer": 121044998, // 6399
 			"toplevel_v2_ragdoll_layer": 121044995, // 6400
@@ -299348,10 +299661,10 @@
 			"toplevel_v2_window_size_struct": 44203, // 3494
 			"toplevel_v2_window_min_width": 32, // 3499
 			"toplevel_v2_window_min_height": 32, // 3500
-			"toplevel_v2_window_layer": 96797283, // 3503
-			"toplevel_v2_window_background_layer": 96797284, // 3504
-			"toplevel_v2_window_content_layer": 96797285, // 3505
-			"toplevel_v2_window_border_layer": 96797286, // 3506
+			"toplevel_v2_window_layer": 96797284, // 3503
+			"toplevel_v2_window_background_layer": 96797285, // 3504
+			"toplevel_v2_window_content_layer": 96797286, // 3505
+			"toplevel_v2_window_border_layer": 96797287, // 3506
 			"toplevel_v2_window_skin_data": 21267, // 3518
 			"toplevel_v2_window_allow_move": 1, // 3526
 			"toplevel_v2_window_resize_direction": 3, // 3527
@@ -320851,16 +321164,16 @@
 			"toplevel_v2_window_tab_icon_inactive": 31203, // 3497
 			"toplevel_v2_window_min_width": 250, // 3499
 			"toplevel_v2_window_min_height": 155, // 3500
-			"toplevel_v2_window_layer": 96797057, // 3503
-			"toplevel_v2_window_background_layer": 96797058, // 3504
-			"toplevel_v2_window_content_layer": 96797059, // 3505
-			"toplevel_v2_window_border_layer": 96797062, // 3506
-			"toplevel_v2_window_close_button_layer": 96797067, // 3507
-			"toplevel_v2_window_tabs_background_layer": 96797063, // 3508
-			"toplevel_v2_window_tabs_layer": 96797064, // 3509
-			"toplevel_v2_window_tabs_scroll_layer": 96797065, // 3510
-			"toplevel_v2_window_recycle_bin_layer": 96797066, // 3512
-			"toplevel_v2_window_edit_block_layer": 96797060, // 3513
+			"toplevel_v2_window_layer": 96797058, // 3503
+			"toplevel_v2_window_background_layer": 96797059, // 3504
+			"toplevel_v2_window_content_layer": 96797060, // 3505
+			"toplevel_v2_window_border_layer": 96797063, // 3506
+			"toplevel_v2_window_close_button_layer": 96797068, // 3507
+			"toplevel_v2_window_tabs_background_layer": 96797064, // 3508
+			"toplevel_v2_window_tabs_layer": 96797065, // 3509
+			"toplevel_v2_window_tabs_scroll_layer": 96797066, // 3510
+			"toplevel_v2_window_recycle_bin_layer": 96797067, // 3512
+			"toplevel_v2_window_edit_block_layer": 96797061, // 3513
 			"toplevel_v2_window_embedded_layer": 121569280, // 3514
 			"toplevel_v2_window_embedded_background_layer": 121569281, // 3515
 			"toplevel_v2_window_embedded_content_layer": 121569282, // 3516
@@ -321124,17 +321437,17 @@
 			"toplevel_v2_window_tab_icon_inactive": 31782, // 3497
 			"toplevel_v2_window_min_width": 0, // 3499
 			"toplevel_v2_window_min_height": 0, // 3500
-			"toplevel_v2_window_layer": 96796861, // 3503
-			"toplevel_v2_window_background_layer": 96796862, // 3504
-			"toplevel_v2_window_content_layer": 96796863, // 3505
-			"toplevel_v2_window_border_layer": 96796866, // 3506
-			"toplevel_v2_window_close_button_layer": 96796867, // 3507
-			"toplevel_v2_window_tabs_background_layer": 96796868, // 3508
-			"toplevel_v2_window_tabs_layer": 96796869, // 3509
-			"toplevel_v2_window_tabs_scroll_layer": 96796870, // 3510
-			"toplevel_v2_window_scroll_layer": 96796865, // 3511
-			"toplevel_v2_window_recycle_bin_layer": 96796871, // 3512
-			"toplevel_v2_window_edit_block_layer": 96796864, // 3513
+			"toplevel_v2_window_layer": 96796862, // 3503
+			"toplevel_v2_window_background_layer": 96796863, // 3504
+			"toplevel_v2_window_content_layer": 96796864, // 3505
+			"toplevel_v2_window_border_layer": 96796867, // 3506
+			"toplevel_v2_window_close_button_layer": 96796868, // 3507
+			"toplevel_v2_window_tabs_background_layer": 96796869, // 3508
+			"toplevel_v2_window_tabs_layer": 96796870, // 3509
+			"toplevel_v2_window_tabs_scroll_layer": 96796871, // 3510
+			"toplevel_v2_window_scroll_layer": 96796866, // 3511
+			"toplevel_v2_window_recycle_bin_layer": 96796872, // 3512
+			"toplevel_v2_window_edit_block_layer": 96796865, // 3513
 			"toplevel_v2_window_embedded_layer": 95617030, // 3514
 			"toplevel_v2_window_embedded_background_layer": 95617027, // 3515
 			"toplevel_v2_window_embedded_content_layer": 95617028, // 3516
@@ -321243,17 +321556,17 @@
 			"toplevel_v2_window_tab_icon_inactive": 31892, // 3497
 			"toplevel_v2_window_min_width": 0, // 3499
 			"toplevel_v2_window_min_height": 0, // 3500
-			"toplevel_v2_window_layer": 96796872, // 3503
-			"toplevel_v2_window_background_layer": 96796873, // 3504
-			"toplevel_v2_window_content_layer": 96796874, // 3505
-			"toplevel_v2_window_border_layer": 96796877, // 3506
-			"toplevel_v2_window_close_button_layer": 96796878, // 3507
-			"toplevel_v2_window_tabs_background_layer": 96796879, // 3508
-			"toplevel_v2_window_tabs_layer": 96796880, // 3509
-			"toplevel_v2_window_tabs_scroll_layer": 96796881, // 3510
-			"toplevel_v2_window_scroll_layer": 96796876, // 3511
-			"toplevel_v2_window_recycle_bin_layer": 96796882, // 3512
-			"toplevel_v2_window_edit_block_layer": 96796875, // 3513
+			"toplevel_v2_window_layer": 96796873, // 3503
+			"toplevel_v2_window_background_layer": 96796874, // 3504
+			"toplevel_v2_window_content_layer": 96796875, // 3505
+			"toplevel_v2_window_border_layer": 96796878, // 3506
+			"toplevel_v2_window_close_button_layer": 96796879, // 3507
+			"toplevel_v2_window_tabs_background_layer": 96796880, // 3508
+			"toplevel_v2_window_tabs_layer": 96796881, // 3509
+			"toplevel_v2_window_tabs_scroll_layer": 96796882, // 3510
+			"toplevel_v2_window_scroll_layer": 96796877, // 3511
+			"toplevel_v2_window_recycle_bin_layer": 96796883, // 3512
+			"toplevel_v2_window_edit_block_layer": 96796876, // 3513
 			"toplevel_v2_window_embedded_layer": 95617030, // 3514
 			"toplevel_v2_window_embedded_background_layer": 95617027, // 3515
 			"toplevel_v2_window_embedded_content_layer": 95617028, // 3516
@@ -321287,17 +321600,17 @@
 			"toplevel_v2_window_tab_icon_inactive": 31786, // 3497
 			"toplevel_v2_window_min_width": 0, // 3499
 			"toplevel_v2_window_min_height": 0, // 3500
-			"toplevel_v2_window_layer": 96796883, // 3503
-			"toplevel_v2_window_background_layer": 96796884, // 3504
-			"toplevel_v2_window_content_layer": 96796885, // 3505
-			"toplevel_v2_window_border_layer": 96796888, // 3506
-			"toplevel_v2_window_close_button_layer": 96796889, // 3507
-			"toplevel_v2_window_tabs_background_layer": 96796890, // 3508
-			"toplevel_v2_window_tabs_layer": 96796891, // 3509
-			"toplevel_v2_window_tabs_scroll_layer": 96796892, // 3510
-			"toplevel_v2_window_scroll_layer": 96796887, // 3511
-			"toplevel_v2_window_recycle_bin_layer": 96796893, // 3512
-			"toplevel_v2_window_edit_block_layer": 96796886, // 3513
+			"toplevel_v2_window_layer": 96796884, // 3503
+			"toplevel_v2_window_background_layer": 96796885, // 3504
+			"toplevel_v2_window_content_layer": 96796886, // 3505
+			"toplevel_v2_window_border_layer": 96796889, // 3506
+			"toplevel_v2_window_close_button_layer": 96796890, // 3507
+			"toplevel_v2_window_tabs_background_layer": 96796891, // 3508
+			"toplevel_v2_window_tabs_layer": 96796892, // 3509
+			"toplevel_v2_window_tabs_scroll_layer": 96796893, // 3510
+			"toplevel_v2_window_scroll_layer": 96796888, // 3511
+			"toplevel_v2_window_recycle_bin_layer": 96796894, // 3512
+			"toplevel_v2_window_edit_block_layer": 96796887, // 3513
 			"toplevel_v2_window_embedded_layer": 95617030, // 3514
 			"toplevel_v2_window_embedded_background_layer": 95617027, // 3515
 			"toplevel_v2_window_embedded_content_layer": 95617028, // 3516
@@ -321331,17 +321644,17 @@
 			"toplevel_v2_window_tab_icon_inactive": 18799, // 3497
 			"toplevel_v2_window_min_width": 0, // 3499
 			"toplevel_v2_window_min_height": 0, // 3500
-			"toplevel_v2_window_layer": 96796927, // 3503
-			"toplevel_v2_window_background_layer": 96796928, // 3504
-			"toplevel_v2_window_content_layer": 96796929, // 3505
-			"toplevel_v2_window_border_layer": 96796932, // 3506
-			"toplevel_v2_window_close_button_layer": 96796933, // 3507
-			"toplevel_v2_window_tabs_background_layer": 96796934, // 3508
-			"toplevel_v2_window_tabs_layer": 96796935, // 3509
-			"toplevel_v2_window_tabs_scroll_layer": 96796936, // 3510
-			"toplevel_v2_window_scroll_layer": 96796931, // 3511
-			"toplevel_v2_window_recycle_bin_layer": 96796937, // 3512
-			"toplevel_v2_window_edit_block_layer": 96796930, // 3513
+			"toplevel_v2_window_layer": 96796928, // 3503
+			"toplevel_v2_window_background_layer": 96796929, // 3504
+			"toplevel_v2_window_content_layer": 96796930, // 3505
+			"toplevel_v2_window_border_layer": 96796933, // 3506
+			"toplevel_v2_window_close_button_layer": 96796934, // 3507
+			"toplevel_v2_window_tabs_background_layer": 96796935, // 3508
+			"toplevel_v2_window_tabs_layer": 96796936, // 3509
+			"toplevel_v2_window_tabs_scroll_layer": 96796937, // 3510
+			"toplevel_v2_window_scroll_layer": 96796932, // 3511
+			"toplevel_v2_window_recycle_bin_layer": 96796938, // 3512
+			"toplevel_v2_window_edit_block_layer": 96796931, // 3513
 			"toplevel_v2_window_embedded_layer": 123207686, // 3514
 			"toplevel_v2_window_embedded_background_layer": 123207683, // 3515
 			"toplevel_v2_window_embedded_content_layer": 123207684, // 3516
@@ -321371,17 +321684,17 @@
 			"toplevel_v2_window_tab_icon_inactive": 31254, // 3497
 			"toplevel_v2_window_min_width": 0, // 3499
 			"toplevel_v2_window_min_height": 0, // 3500
-			"toplevel_v2_window_layer": 96796949, // 3503
-			"toplevel_v2_window_background_layer": 96796950, // 3504
-			"toplevel_v2_window_content_layer": 96796951, // 3505
-			"toplevel_v2_window_border_layer": 96796954, // 3506
-			"toplevel_v2_window_close_button_layer": 96796955, // 3507
-			"toplevel_v2_window_tabs_background_layer": 96796956, // 3508
-			"toplevel_v2_window_tabs_layer": 96796957, // 3509
-			"toplevel_v2_window_tabs_scroll_layer": 96796958, // 3510
-			"toplevel_v2_window_scroll_layer": 96796953, // 3511
-			"toplevel_v2_window_recycle_bin_layer": 96796959, // 3512
-			"toplevel_v2_window_edit_block_layer": 96796952, // 3513
+			"toplevel_v2_window_layer": 96796950, // 3503
+			"toplevel_v2_window_background_layer": 96796951, // 3504
+			"toplevel_v2_window_content_layer": 96796952, // 3505
+			"toplevel_v2_window_border_layer": 96796955, // 3506
+			"toplevel_v2_window_close_button_layer": 96796956, // 3507
+			"toplevel_v2_window_tabs_background_layer": 96796957, // 3508
+			"toplevel_v2_window_tabs_layer": 96796958, // 3509
+			"toplevel_v2_window_tabs_scroll_layer": 96796959, // 3510
+			"toplevel_v2_window_scroll_layer": 96796954, // 3511
+			"toplevel_v2_window_recycle_bin_layer": 96796960, // 3512
+			"toplevel_v2_window_edit_block_layer": 96796953, // 3513
 			"toplevel_v2_window_embedded_layer": 123207686, // 3514
 			"toplevel_v2_window_embedded_background_layer": 123207683, // 3515
 			"toplevel_v2_window_embedded_content_layer": 123207684, // 3516
@@ -323536,7 +323849,7 @@
 			"prayer_child_scrollbar": 95551508, // 8123
 			"prayer_child_buttons": 95551528, // 8124
 			"prayer_child_main": 95551492, // 8125
-			"prayer_child_frame": 96796811, // 8126
+			"prayer_child_frame": 96796812, // 8126
 			"prayer_child_stats": 95551497, // 8127
 			"prayer_child_glow": 95551527, // 8128
 			"prayer_child_mouseover": 95551488, // 8129
@@ -333832,17 +334145,17 @@
 			"toplevel_v2_window_tab_icon_inactive": 31694, // 3497
 			"toplevel_v2_window_min_width": 265, // 3499
 			"toplevel_v2_window_min_height": 0, // 3500
-			"toplevel_v2_window_layer": 96797068, // 3503
-			"toplevel_v2_window_background_layer": 96797069, // 3504
-			"toplevel_v2_window_content_layer": 96797070, // 3505
-			"toplevel_v2_window_border_layer": 96797073, // 3506
-			"toplevel_v2_window_close_button_layer": 96797078, // 3507
-			"toplevel_v2_window_tabs_background_layer": 96797074, // 3508
-			"toplevel_v2_window_tabs_layer": 96797075, // 3509
-			"toplevel_v2_window_tabs_scroll_layer": 96797076, // 3510
-			"toplevel_v2_window_scroll_layer": 96797072, // 3511
-			"toplevel_v2_window_recycle_bin_layer": 96797077, // 3512
-			"toplevel_v2_window_edit_block_layer": 96797071, // 3513
+			"toplevel_v2_window_layer": 96797069, // 3503
+			"toplevel_v2_window_background_layer": 96797070, // 3504
+			"toplevel_v2_window_content_layer": 96797071, // 3505
+			"toplevel_v2_window_border_layer": 96797074, // 3506
+			"toplevel_v2_window_close_button_layer": 96797079, // 3507
+			"toplevel_v2_window_tabs_background_layer": 96797075, // 3508
+			"toplevel_v2_window_tabs_layer": 96797076, // 3509
+			"toplevel_v2_window_tabs_scroll_layer": 96797077, // 3510
+			"toplevel_v2_window_scroll_layer": 96797073, // 3511
+			"toplevel_v2_window_recycle_bin_layer": 96797078, // 3512
+			"toplevel_v2_window_edit_block_layer": 96797072, // 3513
 			"toplevel_v2_window_embedded_layer": 124190720, // 3514
 			"toplevel_v2_window_embedded_background_layer": 124190721, // 3515
 			"toplevel_v2_window_embedded_content_layer": 124190722, // 3516
@@ -336282,10 +336595,10 @@
 	{
 		"extra": {
 			"toplevel_v2_window_name": "Central Interface (Overlay)", // 3493 chisel:interface_name
-			"toplevel_v2_window_layer": 96797400, // 3503
-			"toplevel_v2_window_background_layer": 96797401, // 3504
-			"toplevel_v2_window_content_layer": 96797402, // 3505
-			"toplevel_v2_window_border_layer": 96797403, // 3506
+			"toplevel_v2_window_layer": 96797401, // 3503
+			"toplevel_v2_window_background_layer": 96797402, // 3504
+			"toplevel_v2_window_content_layer": 96797403, // 3505
+			"toplevel_v2_window_border_layer": 96797404, // 3506
 			"toplevel_v2_window_skin_data": 21262, // 3518
 			"toplevel_v2_window_allow_move": 1, // 3526
 			"toplevel_v2_window_allow_snapping": 0, // 3528
@@ -336343,10 +336656,10 @@
 			"toplevel_v2_window_name": "Dungeoneering Map", // 3493 chisel:interface_name
 			"toplevel_v2_window_min_width": 280, // 3499
 			"toplevel_v2_window_min_height": 280, // 3500
-			"toplevel_v2_window_layer": 96797258, // 3503
-			"toplevel_v2_window_background_layer": 96797259, // 3504
-			"toplevel_v2_window_content_layer": 96797260, // 3505
-			"toplevel_v2_window_border_layer": 96797261, // 3506
+			"toplevel_v2_window_layer": 96797259, // 3503
+			"toplevel_v2_window_background_layer": 96797260, // 3504
+			"toplevel_v2_window_content_layer": 96797261, // 3505
+			"toplevel_v2_window_border_layer": 96797262, // 3506
 			"toplevel_v2_window_skin_data": 21267, // 3518
 			"toplevel_v2_window_allow_move": 1, // 3526
 			"toplevel_v2_window_resize_direction": 0, // 3527
@@ -336500,12 +336813,12 @@
 		"extra": {
 			"toplevel_v2_window_name": "Ribbon", // 3493 chisel:interface_name
 			"toplevel_v2_window_size_struct": 38883, // 3494
-			"toplevel_v2_window_layer": 96796733, // 3503
-			"toplevel_v2_window_background_layer": 96796734, // 3504
-			"toplevel_v2_window_content_layer": 96796736, // 3505
-			"toplevel_v2_window_border_layer": 96796735, // 3506
-			"toplevel_v2_window_close_button_layer": 96796737, // 3507
-			"toplevel_v2_window_recycle_bin_layer": 96796738, // 3512
+			"toplevel_v2_window_layer": 96796734, // 3503
+			"toplevel_v2_window_background_layer": 96796735, // 3504
+			"toplevel_v2_window_content_layer": 96796737, // 3505
+			"toplevel_v2_window_border_layer": 96796736, // 3506
+			"toplevel_v2_window_close_button_layer": 96796738, // 3507
+			"toplevel_v2_window_recycle_bin_layer": 96796739, // 3512
 			"toplevel_v2_window_skin_data": 39928, // 3518
 			"toplevel_v2_window_allow_settings": 1, // 3523
 			"toplevel_v2_window_settings_override": 1, // 3524
@@ -350964,10 +351277,10 @@
 	{
 		"extra": {
 			"toplevel_v2_window_name": "Extra Action Button", // 3493 chisel:interface_name
-			"toplevel_v2_window_layer": 96797254, // 3503
-			"toplevel_v2_window_background_layer": 96797255, // 3504
-			"toplevel_v2_window_content_layer": 96797256, // 3505
-			"toplevel_v2_window_border_layer": 96797257, // 3506
+			"toplevel_v2_window_layer": 96797255, // 3503
+			"toplevel_v2_window_background_layer": 96797256, // 3504
+			"toplevel_v2_window_content_layer": 96797257, // 3505
+			"toplevel_v2_window_border_layer": 96797258, // 3506
 			"toplevel_v2_window_skin_data": 21272, // 3518
 			"toplevel_v2_window_allow_move": 1, // 3526
 			"toplevel_v2_window_resize_direction": 0, // 3527
@@ -353767,10 +354080,10 @@
 	{
 		"extra": {
 			"toplevel_v2_window_name": "Central Interface (Large)", // 3493 chisel:interface_name
-			"toplevel_v2_window_layer": 96797396, // 3503
-			"toplevel_v2_window_background_layer": 96797397, // 3504
-			"toplevel_v2_window_content_layer": 96797398, // 3505
-			"toplevel_v2_window_border_layer": 96797399, // 3506
+			"toplevel_v2_window_layer": 96797397, // 3503
+			"toplevel_v2_window_background_layer": 96797398, // 3504
+			"toplevel_v2_window_content_layer": 96797399, // 3505
+			"toplevel_v2_window_border_layer": 96797400, // 3506
 			"toplevel_v2_window_skin_data": 21262, // 3518
 			"toplevel_v2_window_allow_move": 1, // 3526
 			"toplevel_v2_window_allow_snapping": 0, // 3528
@@ -368853,10 +369166,11 @@
 			"mtxmgt_category": 2, // 2531 chisel:solomons_category
 			"mtxmgt_subcat": 20, // 2532 chisel:SGS_sub_group
 			"mtxmgt_name": "Plague Doctor outfit (green)", // 2533 chisel:SGS_name
+			"mtxmgt_source": 1, // 2546
+			"mtxmgt_pos_string": "rs:outfits:plague_doctor_green", // 4592
 			"release_date": 6084, // 4742 chisel:th_available_date
-			"withdraw_date": 6088, // 4743 chisel:available_till
-			"rerun_start_date": 7421, // 6350
-			"rerun_end_date": 7427 // 6351
+			"mtxmgt_source_custom": "This cosmetic can be obtained from the Marketplace.", // 4751 chisel:cosmetic_unlock_hint
+			"rerun_start_date": 7421 // 6350
 		},
 		"id": 41862
 	},
@@ -368865,9 +369179,10 @@
 			"mtxmgt_category": 2, // 2531 chisel:solomons_category
 			"mtxmgt_subcat": 20, // 2532 chisel:SGS_sub_group
 			"mtxmgt_name": "Plague Doctor outfit (cyan)", // 2533 chisel:SGS_name
+			"mtxmgt_source": 1, // 2546
+			"mtxmgt_pos_string": "rs:outfits:plague_doctor_cyan", // 4592
 			"release_date": 6084, // 4742 chisel:th_available_date
-			"withdraw_date": 6088, // 4743 chisel:available_till
-			"mtxmgt_source_custom": "This item can be unlocked by completing your Plague Doctor task list, during the Treasure Hunter event." // 4751 chisel:cosmetic_unlock_hint
+			"mtxmgt_source_custom": "This cosmetic can be obtained from the Marketplace." // 4751 chisel:cosmetic_unlock_hint
 		},
 		"id": 41863
 	},
@@ -368876,9 +369191,10 @@
 			"mtxmgt_category": 2, // 2531 chisel:solomons_category
 			"mtxmgt_subcat": 20, // 2532 chisel:SGS_sub_group
 			"mtxmgt_name": "Plague Doctor outfit (Purple)", // 2533 chisel:SGS_name
+			"mtxmgt_source": 1, // 2546
+			"mtxmgt_pos_string": "rs:outfits:plague_doctor_purple", // 4592
 			"release_date": 6084, // 4742 chisel:th_available_date
-			"withdraw_date": 6088, // 4743 chisel:available_till
-			"mtxmgt_source_custom": "This item can be unlocked by completing your Plague Doctor task list, during the Treasure Hunter event." // 4751 chisel:cosmetic_unlock_hint
+			"mtxmgt_source_custom": "This cosmetic can be obtained from the Marketplace." // 4751 chisel:cosmetic_unlock_hint
 		},
 		"id": 41864
 	},
@@ -368887,11 +369203,11 @@
 			"mtxmgt_category": 2, // 2531 chisel:solomons_category
 			"mtxmgt_subcat": 0, // 2532 chisel:SGS_sub_group
 			"mtxmgt_name": "Plague Doctor Herbed Mask (green)", // 2533 chisel:SGS_name
+			"mtxmgt_source": 1, // 2546
 			"release_date": 6084, // 4742 chisel:th_available_date
-			"withdraw_date": 6088, // 4743 chisel:available_till
 			"mtxmgt_parent_id": 556, // 4744
-			"rerun_start_date": 7421, // 6350
-			"rerun_end_date": 7427 // 6351
+			"mtxmgt_source_custom": "This cosmetic can be obtained from the Marketplace.", // 4751 chisel:cosmetic_unlock_hint
+			"rerun_start_date": 7421 // 6350
 		},
 		"id": 41865
 	},
@@ -368900,11 +369216,11 @@
 			"mtxmgt_category": 2, // 2531 chisel:solomons_category
 			"mtxmgt_subcat": 4, // 2532 chisel:SGS_sub_group
 			"mtxmgt_name": "Plague Doctor Waxed Armour (green)", // 2533 chisel:SGS_name
+			"mtxmgt_source": 1, // 2546
 			"release_date": 6084, // 4742 chisel:th_available_date
-			"withdraw_date": 6088, // 4743 chisel:available_till
 			"mtxmgt_parent_id": 557, // 4744
-			"rerun_start_date": 7421, // 6350
-			"rerun_end_date": 7427 // 6351
+			"mtxmgt_source_custom": "This cosmetic can be obtained from the Marketplace.", // 4751 chisel:cosmetic_unlock_hint
+			"rerun_start_date": 7421 // 6350
 		},
 		"id": 41866
 	},
@@ -368913,11 +369229,11 @@
 			"mtxmgt_category": 2, // 2531 chisel:solomons_category
 			"mtxmgt_subcat": 7, // 2532 chisel:SGS_sub_group
 			"mtxmgt_name": "Plague Doctor Leather Britches (green)", // 2533 chisel:SGS_name
+			"mtxmgt_source": 1, // 2546
 			"release_date": 6084, // 4742 chisel:th_available_date
-			"withdraw_date": 6088, // 4743 chisel:available_till
 			"mtxmgt_parent_id": 558, // 4744
-			"rerun_start_date": 7421, // 6350
-			"rerun_end_date": 7427 // 6351
+			"mtxmgt_source_custom": "This cosmetic can be obtained from the Marketplace.", // 4751 chisel:cosmetic_unlock_hint
+			"rerun_start_date": 7421 // 6350
 		},
 		"id": 41867
 	},
@@ -368926,11 +369242,11 @@
 			"mtxmgt_category": 2, // 2531 chisel:solomons_category
 			"mtxmgt_subcat": 9, // 2532 chisel:SGS_sub_group
 			"mtxmgt_name": "Plague Doctor Miasma Guards (green)", // 2533 chisel:SGS_name
+			"mtxmgt_source": 1, // 2546
 			"release_date": 6084, // 4742 chisel:th_available_date
-			"withdraw_date": 6088, // 4743 chisel:available_till
 			"mtxmgt_parent_id": 559, // 4744
-			"rerun_start_date": 7421, // 6350
-			"rerun_end_date": 7427 // 6351
+			"mtxmgt_source_custom": "This cosmetic can be obtained from the Marketplace.", // 4751 chisel:cosmetic_unlock_hint
+			"rerun_start_date": 7421 // 6350
 		},
 		"id": 41868
 	},
@@ -368939,11 +369255,11 @@
 			"mtxmgt_category": 2, // 2531 chisel:solomons_category
 			"mtxmgt_subcat": 10, // 2532 chisel:SGS_sub_group
 			"mtxmgt_name": "Plague Doctor Bloused Boots (green)", // 2533 chisel:SGS_name
+			"mtxmgt_source": 1, // 2546
 			"release_date": 6084, // 4742 chisel:th_available_date
-			"withdraw_date": 6088, // 4743 chisel:available_till
 			"mtxmgt_parent_id": 559, // 4744
-			"rerun_start_date": 7421, // 6350
-			"rerun_end_date": 7427 // 6351
+			"mtxmgt_source_custom": "This cosmetic can be obtained from the Marketplace.", // 4751 chisel:cosmetic_unlock_hint
+			"rerun_start_date": 7421 // 6350
 		},
 		"id": 41869
 	},
@@ -368952,10 +369268,10 @@
 			"mtxmgt_category": 2, // 2531 chisel:solomons_category
 			"mtxmgt_subcat": 0, // 2532 chisel:SGS_sub_group
 			"mtxmgt_name": "Plague Doctor Herbed Mask (cyan)", // 2533 chisel:SGS_name
+			"mtxmgt_source": 1, // 2546
 			"release_date": 6084, // 4742 chisel:th_available_date
-			"withdraw_date": 6088, // 4743 chisel:available_till
 			"mtxmgt_parent_id": 560, // 4744
-			"mtxmgt_source_custom": "This item can be unlocked by completing your Plague Doctor task list, during the Treasure Hunter event." // 4751 chisel:cosmetic_unlock_hint
+			"mtxmgt_source_custom": "This cosmetic can be obtained from the Marketplace." // 4751 chisel:cosmetic_unlock_hint
 		},
 		"id": 41870
 	},
@@ -368964,10 +369280,10 @@
 			"mtxmgt_category": 2, // 2531 chisel:solomons_category
 			"mtxmgt_subcat": 4, // 2532 chisel:SGS_sub_group
 			"mtxmgt_name": "Plague Doctor Waxed Armour (cyan)", // 2533 chisel:SGS_name
+			"mtxmgt_source": 1, // 2546
 			"release_date": 6084, // 4742 chisel:th_available_date
-			"withdraw_date": 6088, // 4743 chisel:available_till
 			"mtxmgt_parent_id": 561, // 4744
-			"mtxmgt_source_custom": "This item can be unlocked by completing your Plague Doctor task list, during the Treasure Hunter event." // 4751 chisel:cosmetic_unlock_hint
+			"mtxmgt_source_custom": "This cosmetic can be obtained from the Marketplace." // 4751 chisel:cosmetic_unlock_hint
 		},
 		"id": 41871
 	},
@@ -368976,10 +369292,10 @@
 			"mtxmgt_category": 2, // 2531 chisel:solomons_category
 			"mtxmgt_subcat": 7, // 2532 chisel:SGS_sub_group
 			"mtxmgt_name": "Plague Doctor Leather Britches (cyan)", // 2533 chisel:SGS_name
+			"mtxmgt_source": 1, // 2546
 			"release_date": 6084, // 4742 chisel:th_available_date
-			"withdraw_date": 6088, // 4743 chisel:available_till
 			"mtxmgt_parent_id": 562, // 4744
-			"mtxmgt_source_custom": "This item can be unlocked by completing your Plague Doctor task list, during the Treasure Hunter event." // 4751 chisel:cosmetic_unlock_hint
+			"mtxmgt_source_custom": "This cosmetic can be obtained from the Marketplace." // 4751 chisel:cosmetic_unlock_hint
 		},
 		"id": 41872
 	},
@@ -368988,10 +369304,10 @@
 			"mtxmgt_category": 2, // 2531 chisel:solomons_category
 			"mtxmgt_subcat": 9, // 2532 chisel:SGS_sub_group
 			"mtxmgt_name": "Plague Doctor Miasma Guards (cyan)", // 2533 chisel:SGS_name
+			"mtxmgt_source": 1, // 2546
 			"release_date": 6084, // 4742 chisel:th_available_date
-			"withdraw_date": 6088, // 4743 chisel:available_till
 			"mtxmgt_parent_id": 563, // 4744
-			"mtxmgt_source_custom": "This item can be unlocked by completing your Plague Doctor task list, during the Treasure Hunter event." // 4751 chisel:cosmetic_unlock_hint
+			"mtxmgt_source_custom": "This cosmetic can be obtained from the Marketplace." // 4751 chisel:cosmetic_unlock_hint
 		},
 		"id": 41873
 	},
@@ -368999,11 +369315,11 @@
 		"extra": {
 			"mtxmgt_category": 2, // 2531 chisel:solomons_category
 			"mtxmgt_subcat": 10, // 2532 chisel:SGS_sub_group
-			"mtxmgt_name": "Plague Doctor Bloused Boots(cyan)", // 2533 chisel:SGS_name
+			"mtxmgt_name": "Plague Doctor Bloused Boots (cyan)", // 2533 chisel:SGS_name
+			"mtxmgt_source": 1, // 2546
 			"release_date": 6084, // 4742 chisel:th_available_date
-			"withdraw_date": 6088, // 4743 chisel:available_till
 			"mtxmgt_parent_id": 563, // 4744
-			"mtxmgt_source_custom": "This item can be unlocked by completing your Plague Doctor task list, during the Treasure Hunter event." // 4751 chisel:cosmetic_unlock_hint
+			"mtxmgt_source_custom": "This cosmetic can be obtained from the Marketplace." // 4751 chisel:cosmetic_unlock_hint
 		},
 		"id": 41874
 	},
@@ -369012,10 +369328,10 @@
 			"mtxmgt_category": 2, // 2531 chisel:solomons_category
 			"mtxmgt_subcat": 0, // 2532 chisel:SGS_sub_group
 			"mtxmgt_name": "Plague Doctor Herbed Mask (Purple)", // 2533 chisel:SGS_name
+			"mtxmgt_source": 1, // 2546
 			"release_date": 6084, // 4742 chisel:th_available_date
-			"withdraw_date": 6088, // 4743 chisel:available_till
 			"mtxmgt_parent_id": 564, // 4744
-			"mtxmgt_source_custom": "This item can be unlocked by completing your Plague Doctor task list, during the Treasure Hunter event." // 4751 chisel:cosmetic_unlock_hint
+			"mtxmgt_source_custom": "This cosmetic can be obtained from the Marketplace." // 4751 chisel:cosmetic_unlock_hint
 		},
 		"id": 41875
 	},
@@ -369024,10 +369340,10 @@
 			"mtxmgt_category": 2, // 2531 chisel:solomons_category
 			"mtxmgt_subcat": 4, // 2532 chisel:SGS_sub_group
 			"mtxmgt_name": "Plague Doctor Waxed Armour (Purple)", // 2533 chisel:SGS_name
+			"mtxmgt_source": 1, // 2546
 			"release_date": 6084, // 4742 chisel:th_available_date
-			"withdraw_date": 6088, // 4743 chisel:available_till
 			"mtxmgt_parent_id": 565, // 4744
-			"mtxmgt_source_custom": "This item can be unlocked by completing your Plague Doctor task list, during the Treasure Hunter event." // 4751 chisel:cosmetic_unlock_hint
+			"mtxmgt_source_custom": "This cosmetic can be obtained from the Marketplace." // 4751 chisel:cosmetic_unlock_hint
 		},
 		"id": 41876
 	},
@@ -369036,10 +369352,10 @@
 			"mtxmgt_category": 2, // 2531 chisel:solomons_category
 			"mtxmgt_subcat": 7, // 2532 chisel:SGS_sub_group
 			"mtxmgt_name": "Plague Doctor Leather Britches (Purple)", // 2533 chisel:SGS_name
+			"mtxmgt_source": 1, // 2546
 			"release_date": 6084, // 4742 chisel:th_available_date
-			"withdraw_date": 6088, // 4743 chisel:available_till
 			"mtxmgt_parent_id": 566, // 4744
-			"mtxmgt_source_custom": "This item can be unlocked by completing your Plague Doctor task list, during the Treasure Hunter event." // 4751 chisel:cosmetic_unlock_hint
+			"mtxmgt_source_custom": "This cosmetic can be obtained from the Marketplace." // 4751 chisel:cosmetic_unlock_hint
 		},
 		"id": 41877
 	},
@@ -369048,10 +369364,10 @@
 			"mtxmgt_category": 2, // 2531 chisel:solomons_category
 			"mtxmgt_subcat": 9, // 2532 chisel:SGS_sub_group
 			"mtxmgt_name": "Plague Doctor Miasma Guards (Purple)", // 2533 chisel:SGS_name
+			"mtxmgt_source": 1, // 2546
 			"release_date": 6084, // 4742 chisel:th_available_date
-			"withdraw_date": 6088, // 4743 chisel:available_till
 			"mtxmgt_parent_id": 567, // 4744
-			"mtxmgt_source_custom": "This item can be unlocked by completing your Plague Doctor task list, during the Treasure Hunter event." // 4751 chisel:cosmetic_unlock_hint
+			"mtxmgt_source_custom": "This cosmetic can be obtained from the Marketplace." // 4751 chisel:cosmetic_unlock_hint
 		},
 		"id": 41878
 	},
@@ -369060,10 +369376,10 @@
 			"mtxmgt_category": 2, // 2531 chisel:solomons_category
 			"mtxmgt_subcat": 10, // 2532 chisel:SGS_sub_group
 			"mtxmgt_name": "Plague Doctor Bloused Boots (Purple)", // 2533 chisel:SGS_name
+			"mtxmgt_source": 1, // 2546
 			"release_date": 6084, // 4742 chisel:th_available_date
-			"withdraw_date": 6088, // 4743 chisel:available_till
 			"mtxmgt_parent_id": 567, // 4744
-			"mtxmgt_source_custom": "This item can be unlocked by completing your Plague Doctor task list, during the Treasure Hunter event." // 4751 chisel:cosmetic_unlock_hint
+			"mtxmgt_source_custom": "This cosmetic can be obtained from the Marketplace." // 4751 chisel:cosmetic_unlock_hint
 		},
 		"id": 41879
 	},
@@ -369072,12 +369388,13 @@
 			"mtxmgt_category": 2, // 2531 chisel:solomons_category
 			"mtxmgt_subcat": 3, // 2532 chisel:SGS_sub_group
 			"mtxmgt_name": "Plague Doctor leeching syringe", // 2533 chisel:SGS_name
+			"mtxmgt_source": 1, // 2546
 			"mtxmgt_filters": 262146, // 4591
+			"mtxmgt_pos_string": "rs:combatgear:plague_doctor_syringe", // 4592
 			"release_date": 6084, // 4742 chisel:th_available_date
-			"withdraw_date": 6088, // 4743 chisel:available_till
 			"mtxmgt_parent_id": 568, // 4744
-			"rerun_start_date": 7421, // 6350
-			"rerun_end_date": 7427 // 6351
+			"mtxmgt_source_custom": "This cosmetic can be obtained from the Marketplace.", // 4751 chisel:cosmetic_unlock_hint
+			"rerun_start_date": 7421 // 6350
 		},
 		"id": 41880
 	},
@@ -369086,12 +369403,12 @@
 			"mtxmgt_category": 2, // 2531 chisel:solomons_category
 			"mtxmgt_subcat": 5, // 2532 chisel:SGS_sub_group
 			"mtxmgt_name": "Plague Doctor off-hand leeching syringe", // 2533 chisel:SGS_name
+			"mtxmgt_source": 1, // 2546
 			"mtxmgt_filters": 262146, // 4591
 			"release_date": 6084, // 4742 chisel:th_available_date
-			"withdraw_date": 6088, // 4743 chisel:available_till
 			"mtxmgt_parent_id": 568, // 4744
-			"rerun_start_date": 7421, // 6350
-			"rerun_end_date": 7427 // 6351
+			"mtxmgt_source_custom": "This cosmetic can be obtained from the Marketplace.", // 4751 chisel:cosmetic_unlock_hint
+			"rerun_start_date": 7421 // 6350
 		},
 		"id": 41881
 	},
@@ -369100,12 +369417,13 @@
 			"mtxmgt_category": 2, // 2531 chisel:solomons_category
 			"mtxmgt_subcat": 3, // 2532 chisel:SGS_sub_group
 			"mtxmgt_name": "Plague Doctor lancing cane", // 2533 chisel:SGS_name
+			"mtxmgt_source": 1, // 2546
 			"mtxmgt_filters": 32768, // 4591
+			"mtxmgt_pos_string": "rs:combatgear:plague_doctor_cane", // 4592
 			"release_date": 6084, // 4742 chisel:th_available_date
-			"withdraw_date": 6088, // 4743 chisel:available_till
 			"mtxmgt_parent_id": 569, // 4744
-			"rerun_start_date": 7421, // 6350
-			"rerun_end_date": 7427 // 6351
+			"mtxmgt_source_custom": "This cosmetic can be obtained from the Marketplace.", // 4751 chisel:cosmetic_unlock_hint
+			"rerun_start_date": 7421 // 6350
 		},
 		"id": 41882
 	},
@@ -369131,6 +369449,7 @@
 			"mtxmgt_preview_anim": 32418, // 2535
 			"mtxmgt_preview_spotanim": 32420, // 2536
 			"mtxmgt_preview_spotanim_model": 68357, // 2537
+			"mtxmgt_source": 1, // 2546
 			"mtxmgt_skill_anim": 32417, // 3303
 			"mtxmgt_skill_spotanim": 7137, // 3304
 			"mtxmgt_skill_spotanim2": 7138, // 3305
@@ -369138,11 +369457,11 @@
 			"mtxmgt_preview_prevent_rotation": 1, // 4267
 			"mtxmgt_skill_end_spotanim": 7139, // 4268
 			"mtxmgt_skill_baseanimset": 4331, // 4269
+			"mtxmgt_pos_string": "rs:skills:plague_doctor_rest", // 4592
 			"release_date": 6084, // 4742 chisel:th_available_date
-			"withdraw_date": 6088, // 4743 chisel:available_till
 			"mtxmgt_parent_id": 572, // 4744
+			"mtxmgt_source_custom": "This cosmetic can be obtained from the Marketplace, or by purchasing from other players.", // 4751 chisel:cosmetic_unlock_hint
 			"rerun_start_date": 7421, // 6350
-			"rerun_end_date": 7427, // 6351
 			"mtx_front_end_confirm_ragdoll_angle_y": -50, // 8669
 			"mtx_front_end_confirm_ragdoll_offset_y": 75, // 8670
 			"mtxmgt_spotanim2_loops": 1 // 8751
@@ -369157,16 +369476,18 @@
 			"mtxmgt_preview_anim": 32425, // 2535
 			"mtxmgt_preview_spotanim": 32426, // 2536
 			"mtxmgt_preview_spotanim_model": 68356, // 2537
-			"mtxmgt_preview_zoom_offset": 400, // 2540
+			"mtxmgt_preview_zoom_offset": 450, // 2540
 			"mtxmgt_preview_y_offset": 100, // 2541
+			"mtxmgt_source": 1, // 2546
 			"mtxmgt_anim_preview_player_on_top": 0, // 3363
 			"mtxmgt_preview_prevent_rotation": 1, // 4267
+			"mtxmgt_pos_string": "rs:spells:plague_doctor_teleport", // 4592
 			"release_date": 6084, // 4742 chisel:th_available_date
-			"withdraw_date": 6088, // 4743 chisel:available_till
 			"mtxmgt_parent_id": 570, // 4744
+			"mtxmgt_source_custom": "This cosmetic can be obtained from the Marketplace, or by purchasing from other players.", // 4751 chisel:cosmetic_unlock_hint
 			"rerun_start_date": 7421, // 6350
-			"rerun_end_date": 7427, // 6351
-			"mtxmgt_preview_default_y_angle": 1200 // 8546
+			"mtxmgt_preview_default_y_angle": 1200, // 8546
+			"mtxmgt_interface_positioning": 20073 // 9254
 		},
 		"id": 41885
 	},
@@ -395852,17 +396173,17 @@
 			"toplevel_v2_window_tab_icon_inactive": 31270, // 3497
 			"toplevel_v2_window_min_width": 0, // 3499
 			"toplevel_v2_window_min_height": 0, // 3500
-			"toplevel_v2_window_layer": 96796828, // 3503
-			"toplevel_v2_window_background_layer": 96796829, // 3504
-			"toplevel_v2_window_content_layer": 96796830, // 3505
-			"toplevel_v2_window_border_layer": 96796833, // 3506
-			"toplevel_v2_window_close_button_layer": 96796834, // 3507
-			"toplevel_v2_window_tabs_background_layer": 96796835, // 3508
-			"toplevel_v2_window_tabs_layer": 96796836, // 3509
-			"toplevel_v2_window_tabs_scroll_layer": 96796837, // 3510
-			"toplevel_v2_window_scroll_layer": 96796832, // 3511
-			"toplevel_v2_window_recycle_bin_layer": 96796838, // 3512
-			"toplevel_v2_window_edit_block_layer": 96796831, // 3513
+			"toplevel_v2_window_layer": 96796829, // 3503
+			"toplevel_v2_window_background_layer": 96796830, // 3504
+			"toplevel_v2_window_content_layer": 96796831, // 3505
+			"toplevel_v2_window_border_layer": 96796834, // 3506
+			"toplevel_v2_window_close_button_layer": 96796835, // 3507
+			"toplevel_v2_window_tabs_background_layer": 96796836, // 3508
+			"toplevel_v2_window_tabs_layer": 96796837, // 3509
+			"toplevel_v2_window_tabs_scroll_layer": 96796838, // 3510
+			"toplevel_v2_window_scroll_layer": 96796833, // 3511
+			"toplevel_v2_window_recycle_bin_layer": 96796839, // 3512
+			"toplevel_v2_window_edit_block_layer": 96796832, // 3513
 			"toplevel_v2_window_embedded_layer": 95027211, // 3514
 			"toplevel_v2_window_embedded_background_layer": 95027208, // 3515
 			"toplevel_v2_window_embedded_content_layer": 95027209, // 3516
@@ -395893,17 +396214,17 @@
 			"toplevel_v2_window_tab_icon_inactive": 18795, // 3497
 			"toplevel_v2_window_min_width": 0, // 3499
 			"toplevel_v2_window_min_height": 0, // 3500
-			"toplevel_v2_window_layer": 96796806, // 3503
-			"toplevel_v2_window_background_layer": 96796807, // 3504
-			"toplevel_v2_window_content_layer": 96796808, // 3505
-			"toplevel_v2_window_border_layer": 96796811, // 3506
-			"toplevel_v2_window_close_button_layer": 96796812, // 3507
-			"toplevel_v2_window_tabs_background_layer": 96796813, // 3508
-			"toplevel_v2_window_tabs_layer": 96796814, // 3509
-			"toplevel_v2_window_tabs_scroll_layer": 96796815, // 3510
-			"toplevel_v2_window_scroll_layer": 96796810, // 3511
-			"toplevel_v2_window_recycle_bin_layer": 96796816, // 3512
-			"toplevel_v2_window_edit_block_layer": 96796809, // 3513
+			"toplevel_v2_window_layer": 96796807, // 3503
+			"toplevel_v2_window_background_layer": 96796808, // 3504
+			"toplevel_v2_window_content_layer": 96796809, // 3505
+			"toplevel_v2_window_border_layer": 96796812, // 3506
+			"toplevel_v2_window_close_button_layer": 96796813, // 3507
+			"toplevel_v2_window_tabs_background_layer": 96796814, // 3508
+			"toplevel_v2_window_tabs_layer": 96796815, // 3509
+			"toplevel_v2_window_tabs_scroll_layer": 96796816, // 3510
+			"toplevel_v2_window_scroll_layer": 96796811, // 3511
+			"toplevel_v2_window_recycle_bin_layer": 96796817, // 3512
+			"toplevel_v2_window_edit_block_layer": 96796810, // 3513
 			"toplevel_v2_window_embedded_layer": 95027211, // 3514
 			"toplevel_v2_window_embedded_background_layer": 95027208, // 3515
 			"toplevel_v2_window_embedded_content_layer": 95027209, // 3516
@@ -395930,10 +396251,10 @@
 	{
 		"extra": {
 			"toplevel_v2_window_name": "Combat Mode Icon", // 3493 chisel:interface_name
-			"toplevel_v2_window_layer": 96797246, // 3503
-			"toplevel_v2_window_background_layer": 96797247, // 3504
-			"toplevel_v2_window_content_layer": 96797248, // 3505
-			"toplevel_v2_window_border_layer": 96797249, // 3506
+			"toplevel_v2_window_layer": 96797247, // 3503
+			"toplevel_v2_window_background_layer": 96797248, // 3504
+			"toplevel_v2_window_content_layer": 96797249, // 3505
+			"toplevel_v2_window_border_layer": 96797250, // 3506
 			"toplevel_v2_window_skin_data": 21272, // 3518
 			"toplevel_v2_window_allow_move": 1, // 3526
 			"toplevel_v2_window_resize_direction": 0, // 3527
@@ -409425,10 +409746,10 @@
 	{
 		"extra": {
 			"toplevel_v2_window_name": "Boss Instance Timer", // 3493 chisel:interface_name
-			"toplevel_v2_window_layer": 96797322, // 3503
-			"toplevel_v2_window_background_layer": 96797323, // 3504
-			"toplevel_v2_window_content_layer": 96797324, // 3505
-			"toplevel_v2_window_border_layer": 96797325, // 3506
+			"toplevel_v2_window_layer": 96797323, // 3503
+			"toplevel_v2_window_background_layer": 96797324, // 3504
+			"toplevel_v2_window_content_layer": 96797325, // 3505
+			"toplevel_v2_window_border_layer": 96797326, // 3506
 			"toplevel_v2_window_skin_data": 21267, // 3518
 			"toplevel_v2_window_allow_move": 1, // 3526
 			"toplevel_v2_window_resize_direction": 0, // 3527
@@ -421718,7 +422039,6 @@
 			"mtxmgt_anim_preview_player_on_top": 0, // 3363
 			"mtxmgt_pos_string": "rs:abilities:defenceBarricadeShock", // 4592
 			"release_date": 8587, // 4742 chisel:th_available_date
-			"withdraw_date": 8616, // 4743 chisel:available_till
 			"mtxmgt_parent_id": 1390, // 4744
 			"mtxmgt_source_custom": "This cosmetic can be obtained from the Marketplace, or by purchasing from other players.", // 4751 chisel:cosmetic_unlock_hint
 			"original_release_date": 7537 // 6628
@@ -442888,17 +443208,17 @@
 			"toplevel_v2_window_tab_icon_inactive": 30508, // 3497
 			"toplevel_v2_window_min_width": 0, // 3499
 			"toplevel_v2_window_min_height": 0, // 3500
-			"toplevel_v2_window_layer": 96796894, // 3503
-			"toplevel_v2_window_background_layer": 96796895, // 3504
-			"toplevel_v2_window_content_layer": 96796896, // 3505
-			"toplevel_v2_window_border_layer": 96796899, // 3506
-			"toplevel_v2_window_close_button_layer": 96796900, // 3507
-			"toplevel_v2_window_tabs_background_layer": 96796901, // 3508
-			"toplevel_v2_window_tabs_layer": 96796902, // 3509
-			"toplevel_v2_window_tabs_scroll_layer": 96796903, // 3510
-			"toplevel_v2_window_scroll_layer": 96796898, // 3511
-			"toplevel_v2_window_recycle_bin_layer": 96796904, // 3512
-			"toplevel_v2_window_edit_block_layer": 96796897, // 3513
+			"toplevel_v2_window_layer": 96796895, // 3503
+			"toplevel_v2_window_background_layer": 96796896, // 3504
+			"toplevel_v2_window_content_layer": 96796897, // 3505
+			"toplevel_v2_window_border_layer": 96796900, // 3506
+			"toplevel_v2_window_close_button_layer": 96796901, // 3507
+			"toplevel_v2_window_tabs_background_layer": 96796902, // 3508
+			"toplevel_v2_window_tabs_layer": 96796903, // 3509
+			"toplevel_v2_window_tabs_scroll_layer": 96796904, // 3510
+			"toplevel_v2_window_scroll_layer": 96796899, // 3511
+			"toplevel_v2_window_recycle_bin_layer": 96796905, // 3512
+			"toplevel_v2_window_edit_block_layer": 96796898, // 3513
 			"toplevel_v2_window_embedded_layer": 79101958, // 3514
 			"toplevel_v2_window_embedded_background_layer": 79101955, // 3515
 			"toplevel_v2_window_embedded_content_layer": 79101956, // 3516
@@ -442929,17 +443249,17 @@
 			"toplevel_v2_window_tab_icon_inactive": 30520, // 3497
 			"toplevel_v2_window_min_width": 0, // 3499
 			"toplevel_v2_window_min_height": 0, // 3500
-			"toplevel_v2_window_layer": 96796905, // 3503
-			"toplevel_v2_window_background_layer": 96796906, // 3504
-			"toplevel_v2_window_content_layer": 96796907, // 3505
-			"toplevel_v2_window_border_layer": 96796910, // 3506
-			"toplevel_v2_window_close_button_layer": 96796911, // 3507
-			"toplevel_v2_window_tabs_background_layer": 96796912, // 3508
-			"toplevel_v2_window_tabs_layer": 96796913, // 3509
-			"toplevel_v2_window_tabs_scroll_layer": 96796914, // 3510
-			"toplevel_v2_window_scroll_layer": 96796909, // 3511
-			"toplevel_v2_window_recycle_bin_layer": 96796915, // 3512
-			"toplevel_v2_window_edit_block_layer": 96796908, // 3513
+			"toplevel_v2_window_layer": 96796906, // 3503
+			"toplevel_v2_window_background_layer": 96796907, // 3504
+			"toplevel_v2_window_content_layer": 96796908, // 3505
+			"toplevel_v2_window_border_layer": 96796911, // 3506
+			"toplevel_v2_window_close_button_layer": 96796912, // 3507
+			"toplevel_v2_window_tabs_background_layer": 96796913, // 3508
+			"toplevel_v2_window_tabs_layer": 96796914, // 3509
+			"toplevel_v2_window_tabs_scroll_layer": 96796915, // 3510
+			"toplevel_v2_window_scroll_layer": 96796910, // 3511
+			"toplevel_v2_window_recycle_bin_layer": 96796916, // 3512
+			"toplevel_v2_window_edit_block_layer": 96796909, // 3513
 			"toplevel_v2_window_embedded_layer": 79101958, // 3514
 			"toplevel_v2_window_embedded_background_layer": 79101955, // 3515
 			"toplevel_v2_window_embedded_content_layer": 79101956, // 3516
@@ -442973,17 +443293,17 @@
 			"toplevel_v2_window_tab_icon_inactive": 30522, // 3497
 			"toplevel_v2_window_min_width": 0, // 3499
 			"toplevel_v2_window_min_height": 0, // 3500
-			"toplevel_v2_window_layer": 96796916, // 3503
-			"toplevel_v2_window_background_layer": 96796917, // 3504
-			"toplevel_v2_window_content_layer": 96796918, // 3505
-			"toplevel_v2_window_border_layer": 96796921, // 3506
-			"toplevel_v2_window_close_button_layer": 96796922, // 3507
-			"toplevel_v2_window_tabs_background_layer": 96796923, // 3508
-			"toplevel_v2_window_tabs_layer": 96796924, // 3509
-			"toplevel_v2_window_tabs_scroll_layer": 96796925, // 3510
-			"toplevel_v2_window_scroll_layer": 96796920, // 3511
-			"toplevel_v2_window_recycle_bin_layer": 96796926, // 3512
-			"toplevel_v2_window_edit_block_layer": 96796919, // 3513
+			"toplevel_v2_window_layer": 96796917, // 3503
+			"toplevel_v2_window_background_layer": 96796918, // 3504
+			"toplevel_v2_window_content_layer": 96796919, // 3505
+			"toplevel_v2_window_border_layer": 96796922, // 3506
+			"toplevel_v2_window_close_button_layer": 96796923, // 3507
+			"toplevel_v2_window_tabs_background_layer": 96796924, // 3508
+			"toplevel_v2_window_tabs_layer": 96796925, // 3509
+			"toplevel_v2_window_tabs_scroll_layer": 96796926, // 3510
+			"toplevel_v2_window_scroll_layer": 96796921, // 3511
+			"toplevel_v2_window_recycle_bin_layer": 96796927, // 3512
+			"toplevel_v2_window_edit_block_layer": 96796920, // 3513
 			"toplevel_v2_window_embedded_layer": 79101958, // 3514
 			"toplevel_v2_window_embedded_background_layer": 79101955, // 3515
 			"toplevel_v2_window_embedded_content_layer": 79101956, // 3516
@@ -443011,10 +443331,10 @@
 	{
 		"extra": {
 			"toplevel_v2_window_name": "Boss Health & Activity Progress Bar", // 3493 chisel:interface_name
-			"toplevel_v2_window_layer": 96797242, // 3503
-			"toplevel_v2_window_background_layer": 96797243, // 3504
-			"toplevel_v2_window_content_layer": 96797244, // 3505
-			"toplevel_v2_window_border_layer": 96797245, // 3506
+			"toplevel_v2_window_layer": 96797243, // 3503
+			"toplevel_v2_window_background_layer": 96797244, // 3504
+			"toplevel_v2_window_content_layer": 96797245, // 3505
+			"toplevel_v2_window_border_layer": 96797246, // 3506
 			"toplevel_v2_window_skin_data": 21267, // 3518
 			"toplevel_v2_window_allow_move": 1, // 3526
 			"toplevel_v2_window_resize_direction": 0, // 3527
@@ -454200,10 +454520,10 @@
 	{
 		"extra": {
 			"toplevel_v2_window_name": "Info Box", // 3493 chisel:interface_name
-			"toplevel_v2_window_layer": 96797354, // 3503
-			"toplevel_v2_window_background_layer": 96797355, // 3504
-			"toplevel_v2_window_content_layer": 96797356, // 3505
-			"toplevel_v2_window_border_layer": 96797357, // 3506
+			"toplevel_v2_window_layer": 96797355, // 3503
+			"toplevel_v2_window_background_layer": 96797356, // 3504
+			"toplevel_v2_window_content_layer": 96797357, // 3505
+			"toplevel_v2_window_border_layer": 96797358, // 3506
 			"toplevel_v2_window_skin_data": 21272, // 3518
 			"toplevel_v2_window_allow_move": 1, // 3526
 			"toplevel_v2_window_resize_direction": 0, // 3527
@@ -458697,10 +459017,10 @@
 			"toplevel_v2_window_size_struct": 49466, // 3494
 			"toplevel_v2_window_min_width": 128, // 3499
 			"toplevel_v2_window_min_height": 58, // 3500
-			"toplevel_v2_window_layer": 96797238, // 3503
-			"toplevel_v2_window_background_layer": 96797239, // 3504
-			"toplevel_v2_window_content_layer": 96797240, // 3505
-			"toplevel_v2_window_border_layer": 96797241, // 3506
+			"toplevel_v2_window_layer": 96797239, // 3503
+			"toplevel_v2_window_background_layer": 96797240, // 3504
+			"toplevel_v2_window_content_layer": 96797241, // 3505
+			"toplevel_v2_window_border_layer": 96797242, // 3506
 			"toplevel_v2_window_skin_data": 21267, // 3518
 			"toplevel_v2_window_allow_move": 1, // 3526
 			"toplevel_v2_window_resize_direction": 1, // 3527
@@ -473922,16 +474242,16 @@
 			"toplevel_v2_window_tab_icon_inactive": 34549, // 3497
 			"toplevel_v2_window_min_width": 0, // 3499
 			"toplevel_v2_window_min_height": 0, // 3500
-			"toplevel_v2_window_layer": 96797161, // 3503
-			"toplevel_v2_window_background_layer": 96797162, // 3504
-			"toplevel_v2_window_content_layer": 96797163, // 3505
-			"toplevel_v2_window_border_layer": 96797165, // 3506
-			"toplevel_v2_window_close_button_layer": 96797166, // 3507
-			"toplevel_v2_window_tabs_background_layer": 96797167, // 3508
-			"toplevel_v2_window_tabs_layer": 96797168, // 3509
-			"toplevel_v2_window_tabs_scroll_layer": 96797169, // 3510
-			"toplevel_v2_window_recycle_bin_layer": 96797170, // 3512
-			"toplevel_v2_window_edit_block_layer": 96797164, // 3513
+			"toplevel_v2_window_layer": 96797162, // 3503
+			"toplevel_v2_window_background_layer": 96797163, // 3504
+			"toplevel_v2_window_content_layer": 96797164, // 3505
+			"toplevel_v2_window_border_layer": 96797166, // 3506
+			"toplevel_v2_window_close_button_layer": 96797167, // 3507
+			"toplevel_v2_window_tabs_background_layer": 96797168, // 3508
+			"toplevel_v2_window_tabs_layer": 96797169, // 3509
+			"toplevel_v2_window_tabs_scroll_layer": 96797170, // 3510
+			"toplevel_v2_window_recycle_bin_layer": 96797171, // 3512
+			"toplevel_v2_window_edit_block_layer": 96797165, // 3513
 			"toplevel_v2_window_skin_data": 21255, // 3518
 			"toplevel_v2_window_allow_tabs": 1, // 3521
 			"toplevel_v2_window_allow_close": 1, // 3522
@@ -473958,17 +474278,17 @@
 			"toplevel_v2_window_tab_icon_inactive": 34552, // 3497
 			"toplevel_v2_window_min_width": 0, // 3499
 			"toplevel_v2_window_min_height": 0, // 3500
-			"toplevel_v2_window_layer": 96797204, // 3503
-			"toplevel_v2_window_background_layer": 96797205, // 3504
-			"toplevel_v2_window_content_layer": 96797206, // 3505
-			"toplevel_v2_window_border_layer": 96797209, // 3506
-			"toplevel_v2_window_close_button_layer": 96797210, // 3507
-			"toplevel_v2_window_tabs_background_layer": 96797211, // 3508
-			"toplevel_v2_window_tabs_layer": 96797212, // 3509
-			"toplevel_v2_window_tabs_scroll_layer": 96797213, // 3510
-			"toplevel_v2_window_scroll_layer": 96797208, // 3511
-			"toplevel_v2_window_recycle_bin_layer": 96797214, // 3512
-			"toplevel_v2_window_edit_block_layer": 96797207, // 3513
+			"toplevel_v2_window_layer": 96797205, // 3503
+			"toplevel_v2_window_background_layer": 96797206, // 3504
+			"toplevel_v2_window_content_layer": 96797207, // 3505
+			"toplevel_v2_window_border_layer": 96797210, // 3506
+			"toplevel_v2_window_close_button_layer": 96797211, // 3507
+			"toplevel_v2_window_tabs_background_layer": 96797212, // 3508
+			"toplevel_v2_window_tabs_layer": 96797213, // 3509
+			"toplevel_v2_window_tabs_scroll_layer": 96797214, // 3510
+			"toplevel_v2_window_scroll_layer": 96797209, // 3511
+			"toplevel_v2_window_recycle_bin_layer": 96797215, // 3512
+			"toplevel_v2_window_edit_block_layer": 96797208, // 3513
 			"toplevel_v2_window_skin_data": 21255, // 3518
 			"toplevel_v2_window_allow_tabs": 1, // 3521
 			"toplevel_v2_window_allow_close": 1, // 3522
@@ -473993,16 +474313,16 @@
 			"toplevel_v2_window_tab_icon": 34548, // 3496
 			"toplevel_v2_window_min_width": 190, // 3499
 			"toplevel_v2_window_min_height": 261, // 3500
-			"toplevel_v2_window_layer": 96796960, // 3503
-			"toplevel_v2_window_background_layer": 96796961, // 3504
-			"toplevel_v2_window_content_layer": 96796962, // 3505
-			"toplevel_v2_window_border_layer": 96796964, // 3506
-			"toplevel_v2_window_close_button_layer": 96796966, // 3507
-			"toplevel_v2_window_tabs_background_layer": 96796965, // 3508
-			"toplevel_v2_window_tabs_layer": 96796967, // 3509
-			"toplevel_v2_window_tabs_scroll_layer": 96796968, // 3510
-			"toplevel_v2_window_scroll_layer": 96796963, // 3511
-			"toplevel_v2_window_recycle_bin_layer": 96796969, // 3512
+			"toplevel_v2_window_layer": 96796961, // 3503
+			"toplevel_v2_window_background_layer": 96796962, // 3504
+			"toplevel_v2_window_content_layer": 96796963, // 3505
+			"toplevel_v2_window_border_layer": 96796965, // 3506
+			"toplevel_v2_window_close_button_layer": 96796967, // 3507
+			"toplevel_v2_window_tabs_background_layer": 96796966, // 3508
+			"toplevel_v2_window_tabs_layer": 96796968, // 3509
+			"toplevel_v2_window_tabs_scroll_layer": 96796969, // 3510
+			"toplevel_v2_window_scroll_layer": 96796964, // 3511
+			"toplevel_v2_window_recycle_bin_layer": 96796970, // 3512
 			"toplevel_v2_window_skin_data": 21255, // 3518
 			"toplevel_v2_window_allow_tabs": 1, // 3521
 			"toplevel_v2_window_allow_close": 1, // 3522

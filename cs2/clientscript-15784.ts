@@ -7,7 +7,7 @@ function script15784(): void {
         IF_SETHIDE(false, comp(279, 21));  // mobile_ribbon_left:secondary_event_hud_hide
         IF_SETHIDE(true, comp(276, 4));  // toplevel_v2_mobile:tutorial_settings_layer
         IF_SETHIDE(false, comp(279, 6));  // mobile_ribbon_left:chat_wrapper
-        IF_SETHIDE(false, comp(1477, 420));  // toplevel_v2:chat_window_content
+        IF_SETHIDE(false, comp(1477, 421));  // toplevel_v2:chat_window_edit_block
         IF_SETHIDE(false, comp(279, 3));  // mobile_ribbon_left:internal_notifications_escape_layer
         IF_SETHIDE(false, comp(274, 69));  // escape_menu_mobile:adventures_notification_layer
         IF_SETHIDE(false, comp(279, 10));  // mobile_ribbon_left:activity_tracker_wrapper

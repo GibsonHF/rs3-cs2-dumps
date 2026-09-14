@@ -33,18 +33,18 @@ function script14170(): void {
         var int10 = 0;
         if (((varclient_6403 != 2) && (IF_FIND(int3) == 1))) {
             int9 = CC_GETWIDTH();
-            if (((IF_HASSUB(struct_getparam(21300, 3505)) == 1) || (IF_HASSUB(comp(1477, 739)) == 1))) {  // toplevel_v2:side_modal_window_alt_content
+            if (((IF_HASSUB(struct_getparam(21300, 3505)) == 1) || (IF_HASSUB(comp(1477, 740)) == 1))) {  // toplevel_v2:side_modal_window_content
                 int9 = (int9 + (210 + 10));
             };
-            script4452((IF_GETX(comp(1477, 724)) + CC_GETX()), (IF_GETY(comp(1477, 724)) + CC_GETY()), int9, CC_GETHEIGHT());  // toplevel_v2:fullmodal_window
-            script14171(96797394);
+            script4452((IF_GETX(comp(1477, 725)) + CC_GETX()), (IF_GETY(comp(1477, 725)) + CC_GETY()), int9, CC_GETHEIGHT());  // toplevel_v2:fullmodal_window_background
+            script14171(96797395);
             script4204(5);
             return;
         };
         [int7, int8, int9, int10] = VIEWPORT_GETBOUNDS();
         if ((IF_FIND(int3) == 1)) {
-            int5 = (IF_GETX(comp(1477, 724)) + CC_GETX());  // toplevel_v2:fullmodal_window
-            int6 = (IF_GETY(comp(1477, 724)) + CC_GETY());  // toplevel_v2:fullmodal_window
+            int5 = (IF_GETX(comp(1477, 725)) + CC_GETX());  // toplevel_v2:fullmodal_window_background
+            int6 = (IF_GETY(comp(1477, 725)) + CC_GETY());  // toplevel_v2:fullmodal_window_background
             if ((int5 < int7)) {
                 int9 = (int9 + (int7 - int5));
                 int7 = int5;
@@ -55,11 +55,11 @@ function script14170(): void {
             };
             int9 = MAX(int9, CC_GETWIDTH());
             int10 = MAX(int10, CC_GETHEIGHT());
-            if (((IF_HASSUB(struct_getparam(21300, 3505)) == 1) || (IF_HASSUB(comp(1477, 739)) == 1))) {  // toplevel_v2:side_modal_window_alt_content
+            if (((IF_HASSUB(struct_getparam(21300, 3505)) == 1) || (IF_HASSUB(comp(1477, 740)) == 1))) {  // toplevel_v2:side_modal_window_content
                 int9 = (int9 + (210 + 10));
             };
             script4452(int7, int8, int9, int10);
-            script14172(96797379, 96797394);
+            script14172(96797380, 96797395);
             script4204(5);
         };
         return;
@@ -79,18 +79,18 @@ function script14170(): void {
     int10 = 0;
     if (((varclient_6403 != 2) && (IF_FIND(int3) == 1))) {
         int9 = CC_GETWIDTH();
-        if (((IF_HASSUB(struct_getparam(21300, 3505)) == 1) || (IF_HASSUB(comp(1477, 739)) == 1))) {  // toplevel_v2:side_modal_window_alt_content
+        if (((IF_HASSUB(struct_getparam(21300, 3505)) == 1) || (IF_HASSUB(comp(1477, 740)) == 1))) {  // toplevel_v2:side_modal_window_content
             int9 = (int9 + (210 + 10));
         };
-        script4452((IF_GETX(comp(1477, 724)) + CC_GETX()), (IF_GETY(comp(1477, 724)) + CC_GETY()), int9, CC_GETHEIGHT());  // toplevel_v2:fullmodal_window
-        script14171(96797394);
+        script4452((IF_GETX(comp(1477, 725)) + CC_GETX()), (IF_GETY(comp(1477, 725)) + CC_GETY()), int9, CC_GETHEIGHT());  // toplevel_v2:fullmodal_window_background
+        script14171(96797395);
         script4204(5);
         return;
     };
     [int7, int8, int9, int10] = VIEWPORT_GETBOUNDS();
     if ((IF_FIND(int3) == 1)) {
-        int5 = (IF_GETX(comp(1477, 724)) + CC_GETX());  // toplevel_v2:fullmodal_window
-        int6 = (IF_GETY(comp(1477, 724)) + CC_GETY());  // toplevel_v2:fullmodal_window
+        int5 = (IF_GETX(comp(1477, 725)) + CC_GETX());  // toplevel_v2:fullmodal_window_background
+        int6 = (IF_GETY(comp(1477, 725)) + CC_GETY());  // toplevel_v2:fullmodal_window_background
         if ((int5 < int7)) {
             int9 = (int9 + (int7 - int5));
             int7 = int5;
@@ -101,11 +101,11 @@ function script14170(): void {
         };
         int9 = MAX(int9, CC_GETWIDTH());
         int10 = MAX(int10, CC_GETHEIGHT());
-        if (((IF_HASSUB(struct_getparam(21300, 3505)) == 1) || (IF_HASSUB(comp(1477, 739)) == 1))) {  // toplevel_v2:side_modal_window_alt_content
+        if (((IF_HASSUB(struct_getparam(21300, 3505)) == 1) || (IF_HASSUB(comp(1477, 740)) == 1))) {  // toplevel_v2:side_modal_window_content
             int9 = (int9 + (210 + 10));
         };
         script4452(int7, int8, int9, int10);
-        script14172(96797379, 96797394);
+        script14172(96797380, 96797395);
         script4204(5);
     };
     return;

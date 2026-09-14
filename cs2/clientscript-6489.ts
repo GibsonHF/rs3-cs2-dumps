@@ -1719,6 +1719,9 @@ function script6489(int0: number): number {
             return varbitplayer_61092;
         }
         case 3625: {
+            return varbitplayer_61853;
+        }
+        case 4903: {
             break;
         }
         default: {
@@ -1760,5 +1763,5 @@ function script6489(int0: number): number {
             return 0;
         }
     };
-    return varbitplayer_61853;
+    return varbitplayer_61889;
 }

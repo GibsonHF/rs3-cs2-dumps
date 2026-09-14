@@ -6879,6 +6879,9 @@ function script6488(int0: number): number {
         case 53145: {
             return varbitplayer_61093;
         }
+        case 4903: {
+            return varbitplayer_61892;
+        }
         case 3032: {
             if ((varbitplayer_30318 == 1)) {
                 if (((script611(52501) == 1) || (script611(52504) == 1))) {

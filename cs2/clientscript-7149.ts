@@ -100,6 +100,15 @@ function script7149(int0: number): number {
             };
             break;
         }
+        case 20060: {
+            if ((varbitplayer_61893 == 0)) {
+                if ((((varbitplayer_61890 == 1) || (varbitplayer_61891 == 1)) || (varbitplayer_61892 == 1))) {
+                    return 0;
+                };
+                return 1;
+            };
+            break;
+        }
         case 19412: {
             if ((varbitplayer_61460 == 1)) {
                 return 0;

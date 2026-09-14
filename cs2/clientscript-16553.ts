@@ -5,8 +5,8 @@ function script16553(int0: number, int1: number, int2: number, int3: number, int
     };
     var int5 = 0;
     var int6 = 0;
-    if (((IF_GETHIDE(comp(1477, 787) /*toplevel_v2:context_menu_layer*/) == false) && (IF_HASSUBOVERLAY(comp(1477, 788) /*toplevel_v2:context_menu_content_layer*/, 977 as overlayinterface) == 1))) {
-        script2256(96797459);
+    if (((IF_GETHIDE(comp(1477, 788) /*toplevel_v2:context_menu_content_layer*/) == false) && (IF_HASSUBOVERLAY(comp(1477, 789) /*toplevel_v2:yak_track*/, 977 as overlayinterface) == 1))) {
+        script2256(96797460);
         return;
     };
     script16566(int2);

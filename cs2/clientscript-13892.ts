@@ -258,7 +258,7 @@ function script13892(): void {
                                     CC_SETSIZE(int3, int4, 0, 0);
                                 };
                                 if ((struct_getparam(int5, 3534) != -1)) {
-                                    if (((IF_GETHEIGHT(comp(1477, 60)) - int10) < 410)) {  // toplevel_v2:plugin_build_layer_bottom
+                                    if (((IF_GETHEIGHT(comp(1477, 61)) - int10) < 410)) {  // toplevel_v2:buttons_window
                                         CC_SETSIZE(250, int10, 0, 1);
                                         CC_SETPOSITION(50, int10, 2, 0);
                                     } else {
@@ -312,8 +312,8 @@ function script13892(): void {
         };
         int1 = (int1 + 1);
     };
-    IF_SETPOSITION(int14, int15, 0, 0, comp(1477, 816));  // toplevel_v2:fixed_overlay_windows
-    IF_SETSIZE((int14 + int16), (int15 + int17), 1, 1, comp(1477, 816));  // toplevel_v2:fixed_overlay_windows
+    IF_SETPOSITION(int14, int15, 0, 0, comp(1477, 817));  // toplevel_v2:bond_overlays
+    IF_SETSIZE((int14 + int16), (int15 + int17), 1, 1, comp(1477, 817));  // toplevel_v2:bond_overlays
     if (((varbitclient_49616 == 0) && (script2384(0, 1) < 0))) {
         script1159();
     };
@@ -327,7 +327,7 @@ function script13892(): void {
         script8288(varbitplayer_18994);
     };
     script13893(int8);
-    IF_SETHIDE(true, comp(1477, 883));  // toplevel_v2:hover_text_display
+    IF_SETHIDE(true, comp(1477, 884));  // toplevel_v2:hover_text_listener
     script8144();
     return;
 }

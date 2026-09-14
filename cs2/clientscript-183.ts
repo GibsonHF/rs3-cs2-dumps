@@ -1,5 +1,5 @@
 //
 function script183(): void {
-    IF_CLOSESUBCLIENT(comp(1477, 879));  // toplevel_v2:confirm_save_popup_layer
+    IF_CLOSESUBCLIENT(comp(1477, 880));  // toplevel_v2:no_displayname_layer
     return;
 }

@@ -9,6 +9,9 @@ function script19716(int0: number, int1: number, int2: number, int3: number, int
             script18695(int1, int5, int6, int8, int7, int5, 50, int2, int3);
             break;
         }
+        case 2: {
+            break;
+        }
         default: {
             unk11016(`Variant button selected for an unsupported category ${inttostring(int0, 10)}.`);
             return;

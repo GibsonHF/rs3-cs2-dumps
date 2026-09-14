@@ -10,6 +10,6 @@ function script7991(): void {
     if ((int0 == 1)) {
         return;
     };
-    IF_SETONTIMER(callback(script7992), comp(1477, 920));  // toplevel_v2:fps_monitor
+    IF_SETONTIMER(callback(script7992), comp(1477, 921));  // toplevel_v2:map_loaded_tracker
     return;
 }

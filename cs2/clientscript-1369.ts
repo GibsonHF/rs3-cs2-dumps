@@ -5,7 +5,7 @@ function script1369(int0: number, int1: number, int2: number, int3: number, int4
     if ((varbitplayer_38842 == 1)) {
         script13893(1);
     };
-    if ((IF_FIND(comp(1477, 39)) == 1)) {  // toplevel_v2:camera_controls
+    if ((IF_FIND(comp(1477, 40)) == 1)) {  // toplevel_v2:camera_biglistener
         CC_SETNOCLICKTHROUGH(false);
     };
     IF_SETONRESIZE(callback(script10421, -2147483645), comp(1422, 77));  // worldmap_v2_ui:bottom_bar_panel

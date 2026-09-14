@@ -1,42 +1,18 @@
 //
 function script3554(int0: number): number {
-    switch (int0) {
-        case 0: {
-            return varbitplayer_51334;
-        }
-        case 1: {
-            return varbitplayer_51335;
-        }
-        case 2: {
-            return varbitplayer_51336;
-        }
-        case 3: {
-            return varbitplayer_51337;
-        }
-        case 4: {
-            return varbitplayer_51338;
-        }
-        case 5: {
-            return varbitplayer_51339;
-        }
-        case 6: {
-            return varbitplayer_51340;
-        }
-        case 7: {
-            return varbitplayer_51341;
-        }
-        case 8: {
-            return varbitplayer_51342;
-        }
-        case 9: {
-            return varbitplayer_51343;
-        }
-        case 10: {
-            return varbitplayer_51344;
-        }
-        case 11: {
-            return varbitplayer_51345;
-        }
+    if ((int0 == -1)) {
+        return 0;
     };
-    return -1;
+    var int1 = dbrow_getfield(int0, 1417440, 0);
+    var int2 = dbrow_getfield(int0, 1417424, 0);
+    if (((int1 == 0) && (int2 == 0))) {
+        return 1;
+    };
+    if (((int1 == 1) && (PLAYERMEMBER() == true))) {
+        return 0;
+    };
+    if (((int2 == 1) && (PLAYERMEMBER() == false))) {
+        return 0;
+    };
+    return 1;
 }

@@ -5,7 +5,7 @@ function script1567(int0: number): void {
     };
     switch (IF_GETTOP()) {
         case 1477: {
-            IF_SETHIDE(int0, comp(1477, 923));  // toplevel_v2:softkeyboard_close_layer
+            IF_SETHIDE(int0, comp(1477, 924));
             break;
         }
         case 906: {

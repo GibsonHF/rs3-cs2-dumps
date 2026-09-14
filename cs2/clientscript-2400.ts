@@ -39,12 +39,12 @@ function script2400(int0: number): void {
     var int15 = 0;
     var int16 = (int1 + int2);
     if ((IF_GETWIDTH(comp(1431, 1)) < IF_GETHEIGHT(comp(1431, 1)))) {  // toplevel_v2_ribbon:ribbon_root
-        int12 = script2255(int11, int10, int0, -1, 2, int6, int7, 0, 0, 96797362);
+        int12 = script2255(int11, int10, int0, -1, 2, int6, int7, 0, 0, 96797363);
     } else {
         if ((varbitplayer_22875 == 1)) {
             int11 = (((int3 + int5) * int1) + 8);
         };
-        int12 = script2255(int10, int11, int0, -1, 1, int7, int6, 0, 0, 96797362);
+        int12 = script2255(int10, int11, int0, -1, 1, int7, int6, 0, 0, 96797363);
     };
     script13846(37224453, 37224454, 13319);
     while ((int14 < int16)) {

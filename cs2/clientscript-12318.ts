@@ -307,7 +307,7 @@ function script12318(int0: number): void {
     int26 = (int26 + 1);
     while ((int26 < int23)) {
         if ((int28 == 1)) {
-            [int28, int29, int30] = script12310(96796685, ((((int23 - 1) - int26) * int19) + int20), int19);
+            [int28, int29, int30] = script12310(96796686, ((((int23 - 1) - int26) * int19) + int20), int19);
             int29 = script12311(int29, int30);
             if ((int29 > int17)) {
                 int17 = int29;
@@ -335,10 +335,10 @@ function script12318(int0: number): void {
                 int29 = 0;
                 int30 = 0;
             } else {
-                [int28, int29, int30] = script12310(96796685, 0, int20);
+                [int28, int29, int30] = script12310(96796686, 0, int20);
             };
             if ((int28 == 1)) {
-                [int28, int31, int32] = script12310(96796686, 0, 1);
+                [int28, int31, int32] = script12310(96796687, 0, 1);
             };
             if ((int28 == 1)) {
                 [int29, int30] = script12313(int29, int30, int31, int32);

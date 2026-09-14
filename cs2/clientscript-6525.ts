@@ -1,6 +1,6 @@
 //
 function script6525(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number, int8: number, int9: number, int10: number, int11: number, string0: string): void {
-    var int12 = script5843(96796700, 1024, 780);
+    var int12 = script5843(96796701, 1024, 780);
     IF_SETSIZE(((1024 * int12) / 100), ((576 * int12) / 100), 0, 0, comp(94, 4));  // image_sequence:graphic
     IF_SETSIZE(((1024 * int12) / 100), ((160 * int12) / 100), 0, 0, comp(94, 5));  // image_sequence:text
     IF_SETPOSITION(0, ((-38 * int12) / 100), 1, 1, comp(94, 4));  // image_sequence:graphic

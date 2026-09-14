@@ -1,7 +1,7 @@
 //
 function script10224(int0: number, int1: number, int2: number): void {
     CC_DELETEALL(comp(1422, 4));  // worldmap_v2_ui:mapelement_mouseover_layer
-    if (((varbitplayer_14112 == 1) || (IF_HASSUB(comp(1477, 800)) == 0))) {  // toplevel_v2:worldmap_ui_layer
+    if (((varbitplayer_14112 == 1) || (IF_HASSUB(comp(1477, 801)) == 0))) {  // toplevel_v2:tutsys_box_window
         return;
     };
     CC_CREATE(comp(1422, 4), 5, 0);  // worldmap_v2_ui:mapelement_mouseover_layer

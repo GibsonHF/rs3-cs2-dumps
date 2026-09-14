@@ -6,13 +6,13 @@ function script9048(int0: number): void {
         script7997();
     };
     script1306(int0, 0);
-    IF_SETHIDE(int0, comp(1477, 565));  // toplevel_v2:gameplay_huds
-    IF_SETHIDE(int0, comp(1477, 784));  // toplevel_v2:context_wrapper
-    IF_SETHIDE(int0, comp(1477, 815));  // toplevel_v2:fullscreen_pop_ups
-    IF_SETHIDE(int0, comp(1477, 882));  // toplevel_v2:optext_layer
-    IF_SETHIDE(int0, comp(1477, 909));  // toplevel_v2:tooltips_layer
-    IF_SETHIDE(int0, comp(1477, 804));  // toplevel_v2:floater_layer
-    IF_SETHIDE(int0, comp(1477, 878));  // toplevel_v2:low_fps_layer
-    IF_SETHIDE(int0, comp(1477, 605));  // toplevel_v2:maindebug
+    IF_SETHIDE(int0, comp(1477, 566));  // toplevel_v2:channel_bar_window
+    IF_SETHIDE(int0, comp(1477, 785));  // toplevel_v2:context_sub_menu_layer
+    IF_SETHIDE(int0, comp(1477, 816));  // toplevel_v2:fixed_overlay_windows
+    IF_SETHIDE(int0, comp(1477, 883));  // toplevel_v2:hover_text_display
+    IF_SETHIDE(int0, comp(1477, 910));  // toplevel_v2:tooltips_param_layer
+    IF_SETHIDE(int0, comp(1477, 805));  // toplevel_v2:escape_menu
+    IF_SETHIDE(int0, comp(1477, 879));  // toplevel_v2:confirm_save_popup_layer
+    IF_SETHIDE(int0, comp(1477, 606));  // toplevel_v2:maindebug_window_border
     return;
 }

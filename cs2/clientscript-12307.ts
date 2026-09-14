@@ -1,6 +1,6 @@
 //
 function script12307(): void {
-    CC_DELETEALL(comp(1477, 13));  // toplevel_v2:graph_data_layer
+    CC_DELETEALL(comp(1477, 14));  // toplevel_v2:graph_data_fine_layer
     if ((varbitclient_30618 == 2)) {
         varclient_5157 = 30;
         varclient_5158 = 10;
@@ -12,7 +12,7 @@ function script12307(): void {
     var int0 = -1;
     int0 = (int0 + 1);
     while ((int0 < 256)) {
-        CC_CREATE(comp(1477, 13), 3, int0);  // toplevel_v2:graph_data_layer
+        CC_CREATE(comp(1477, 14), 3, int0);  // toplevel_v2:graph_data_fine_layer
         cc_setparam(5946, 0);
     };
     script12308();

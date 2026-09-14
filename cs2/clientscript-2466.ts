@@ -1,6 +1,6 @@
 //
 function script2466(): void {
     varclient_3474 = 1;
-    IF_CALLONRESIZE(comp(1477, 26));  // toplevel_v2:background_colour
+    IF_CALLONRESIZE(comp(1477, 27));  // toplevel_v2:viewport
     return;
 }

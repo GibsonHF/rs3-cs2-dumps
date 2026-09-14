@@ -41033,18 +41033,6 @@
   },
   {
     "domain": "PLAYER",
-    "id": "10451 [wordgame_temp_letters_1]"
-  },
-  {
-    "domain": "PLAYER",
-    "id": "10452 [wordgame_temp_letters_2]"
-  },
-  {
-    "domain": "PLAYER",
-    "id": "10453 [wordgame_temp_status_1]"
-  },
-  {
-    "domain": "PLAYER",
     "id": "10454 [quest_zamorak_perm]"
   },
   {
@@ -53078,6 +53066,26 @@
   {
     "domain": "PLAYER",
     "id": "13542"
+  },
+  {
+    "domain": "PLAYER",
+    "id": "13543"
+  },
+  {
+    "domain": "PLAYER",
+    "id": "13544"
+  },
+  {
+    "domain": "PLAYER",
+    "id": "13545"
+  },
+  {
+    "domain": "PLAYER",
+    "id": "13546"
+  },
+  {
+    "domain": "PLAYER",
+    "id": "13547"
   },
   {
     "domain": "NPC",
