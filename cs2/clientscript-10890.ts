@@ -1,6 +1,6 @@
 //
 function script10890(int0: number, int1: number, string0: string, string1: string, string2: string, string3: string, string4: string, string5: string, string6: string, string7: string, string8: string, string9: string, string10: string, string11: string, string12: string, string13: string, string14: string, string15: string, string16: string, string17: string, string18: string, string19: string, string20: string): void {
-    var int2 = (78 + (26 * int0));
+    var int2 = (76 + ((26 * int0) - 3));
     var int3 = MAX(209, PARAWIDTH(string0, 512, IF_GETFONTMETRICS(comp(720, 3))));  // modal_choice:title
     IF_SETTEXT(string0, comp(720, 3));  // modal_choice:title
     if ((IF_FIND(comp(720, 3)) == 1)) {  // modal_choice:title

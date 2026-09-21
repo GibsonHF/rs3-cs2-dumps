@@ -22,7 +22,7 @@ function script13637(int0: number, int1: number, int2: number, int3: number, int
     } else {
         CC_SETONMOUSEOVER(callback(script14223, -2147483645, -2147483643, int2, int7));
     };
-    script10629(int6, IF_GETNEXTSUBID(int6), (int4 - (2 * struct_getparam(int5, 7266))), (struct_getparam(int5, 7276) + int8), (struct_getparam(int5, 7266) + 3), int7, string0, struct_getparam(int5, 7273), struct_getparam(int5, 7275), 0, 1, 15, 0);
+    script10629(int6, IF_GETNEXTSUBID(int6), (int4 - (2 * struct_getparam(int5, 7266))), (struct_getparam(int5, 7276) + int8), struct_getparam(int5, 8869), int7, string0, struct_getparam(int5, 7273), struct_getparam(int5, 7275), 0, 1, 15, 0);
     if ((varclient_6403 != 0)) {
         CC_SETMAXLINES(2);
     };

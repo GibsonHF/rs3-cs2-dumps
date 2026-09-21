@@ -1,4 +1,4 @@
-// structured decompile unavailable (OutOfMemoryError: Required array length 2147483639 + 43 is too large); raw disassembly:
+// structured decompile unavailable (OutOfMemoryError: Required array length 2147483639 + 44 is too large); raw disassembly:
 
 // clientscript-8261
 // intArgs=28 stringArgs=2 longArgs=0 localInt=32 localString=3 localLong=0
@@ -11,7 +11,7 @@
 4: pushint -1
 5: POP_INT_LOCAL(30)
 6: PUSH_VAR(3152384)
-7: pushint 2
+7: pushint -1
 8: BRANCH_EQUALS(1)
 9: BRANCH(26)
 10: PUSH_VARBIT(15786752)

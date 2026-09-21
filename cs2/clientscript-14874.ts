@@ -14,7 +14,7 @@ function script14874(int0: number, int1: number, int2: number, int3: number, int
     };
     var int1 = (int1 + ((((int3 - int7) - int8) - ((10 * int6) - 1)) / 2));
     if ((int7 > 0)) {
-        script7924(int0, IF_GETNEXTSUBID(int0), 24, 24, int1, (int2 + ((int4 - 24) / 2)), 30347, 0, 0, 0, 0);
+        script7924(int0, IF_GETNEXTSUBID(int0), 24, 24, int1, (int2 + ((int4 - 24) / 2)), 14885, 0, 0, 0, 0);
         script6203(int0, ((int7 - 24) - 5), int4, ((int1 + 24) + 5), int2, 26, string0, 3);
         CC_SETTEXTALIGN(0, 1, 0);
         CC_SETTEXTSHADOW(int5);

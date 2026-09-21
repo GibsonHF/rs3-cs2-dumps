@@ -45,20 +45,20 @@ function script2162(int0: number, int1: number, int2: number, int3: number, int4
     var int29 = -1;
     var int30 = 0;
     switch (int2) {
-        case 6: {
+        case 7: {
             int30 = 1000;
             break;
         }
-        case 2:
-        case 9: {
+        case 3:
+        case 10: {
             int30 = 100000;
             break;
         }
-        case 7: {
+        case 8: {
             int30 = 1000000;
             break;
         }
-        case 8: {
+        case 9: {
             int30 = 10000000;
             break;
         }
@@ -87,7 +87,7 @@ function script2162(int0: number, int1: number, int2: number, int3: number, int4
                         };
                         break;
                     }
-                    case 1: {
+                    case 2: {
                         switch (unk11171(int27)) {
                             case 1: {
                                 int25 = 0;
@@ -100,7 +100,7 @@ function script2162(int0: number, int1: number, int2: number, int3: number, int4
                         };
                         break;
                     }
-                    case 2: {
+                    case 3: {
                         switch (unk11171(int27)) {
                             case 1: {
                                 int25 = 0;
@@ -115,7 +115,7 @@ function script2162(int0: number, int1: number, int2: number, int3: number, int4
                         pop_array[2]((unk11170[2](int12) + script6268(int27, 1)));
                         break;
                     }
-                    case 3: {
+                    case 4: {
                         switch (unk11171(int27)) {
                             case 1: {
                                 int25 = 4;
@@ -138,7 +138,7 @@ function script2162(int0: number, int1: number, int2: number, int3: number, int4
                         };
                         break;
                     }
-                    case 4: {
+                    case 5: {
                         switch (unk11171(int27)) {
                             case 1: {
                                 int25 = 0;
@@ -151,7 +151,11 @@ function script2162(int0: number, int1: number, int2: number, int3: number, int4
                         };
                         break;
                     }
-                    case 5: {
+                    case 1: {
+                        int25 = int28;
+                        break;
+                    }
+                    case 6: {
                         switch (unk11171(int27)) {
                             case 1: {
                                 int25 = 3;
@@ -164,7 +168,7 @@ function script2162(int0: number, int1: number, int2: number, int3: number, int4
                         };
                         break;
                     }
-                    case 6: {
+                    case 7: {
                         switch (unk11171(int27)) {
                             case 1: {
                                 int25 = 0;
@@ -179,7 +183,7 @@ function script2162(int0: number, int1: number, int2: number, int3: number, int4
                         pop_array[2]((unk11170[2](int12) + script6268(int27, 0)));
                         break;
                     }
-                    case 7: {
+                    case 8: {
                         int25 = quest_getparam(int27, 7836);
                         pop_array[2](int12, ((int25 + 1) * int30));
                         if ((int25 == 42)) {
@@ -196,7 +200,7 @@ function script2162(int0: number, int1: number, int2: number, int3: number, int4
                         };
                         break;
                     }
-                    case 8: {
+                    case 9: {
                         int25 = quest_getparam(int27, 9393);
                         pop_array[2](int12, ((int25 + 1) * int30));
                         pop_array[2]((unk11170[2](int12) + ((MAX((quest_getparam(int27, 7831) - 1), 0) + 1) * 1000000)));
@@ -206,7 +210,7 @@ function script2162(int0: number, int1: number, int2: number, int3: number, int4
                         pop_array[2]((unk11170[2](int12) + int12));
                         break;
                     }
-                    case 9: {
+                    case 10: {
                         int25 = script20419(int27, int28);
                         pop_array[2](int12, ((int25 + 1) * int30));
                         if ((quest_getparam(int27, 9404) != -1)) {

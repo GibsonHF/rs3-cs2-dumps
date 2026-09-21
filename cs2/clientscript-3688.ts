@@ -23,8 +23,6 @@ function script3688(): void {
             case 65:
             case 66:
             case 68:
-            case 69:
-            case 75:
             case 81:
             case 84:
             case 85:

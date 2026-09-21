@@ -10,7 +10,7 @@ function script14924(): number {
     if ((varbitplayer_46759 > 0)) {
         int0 = (int0 + varbitplayer_46759);
     };
-    if ((varplayer_12314 == 2)) {
+    if ((varplayer_12314 == -1)) {
         int0 = (int0 + varbitplayer_61626);
         int0 = (int0 + varbitplayer_61637);
     };

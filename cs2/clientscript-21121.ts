@@ -5,7 +5,7 @@ function script21121(): void {
     if (BRANCH_EQUALS(1)) {
         int0 = (int0 + 500);
     };
-    if ((varplayer_12314 == 2)) {
+    if ((varplayer_12314 == -1)) {
         int0 = (int0 - varbitplayer_61657);
     };
     stack(int0);

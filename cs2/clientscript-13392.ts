@@ -16,9 +16,54 @@ function script13392(int0: number, int1: number, int2: number, int3: number): vo
     [int0, int1, int5, int6, int7, int8, int9, int10] = script13393(int0, int1, int2, int3, int4);
     IF_SETSIZE((int5 + int8), MAX(int6, int9), 0, 0, comp(1322, 5));  // minimenu:universe_layer ?
     IF_SETPOSITION(int0, int1, 0, 0, comp(1322, 5));  // minimenu:universe_layer ?
-    if ((int3 > MAX(3, varplayer_7990))) {
-        if ((int10 == 0)) {
-            script13396(int0, int1, int5, int6, int7, int3, int4);
+    if ((script13749() == 1)) {
+        if ((int3 > 3)) {
+            if ((int10 == 0)) {
+                script13396(int0, int1, int5, int6, int7, int3, int4);
+            } else {
+                if ((int6 != int7)) {
+                    int5 = (int5 - 16);
+                };
+                script13395(int0, int1, int5, int6, int7, int2, int4);
+            };
+        } else if ((script13749() == 0)) {
+            stack(int2);
+            stack(int4);
+            script6238();
+            if (BRANCH_GREATER_THAN()) {
+                if ((int10 == 0)) {
+                    script13396(int0, int1, int5, int6, int7, int3, int4);
+                } else {
+                    if ((int6 != int7)) {
+                        int5 = (int5 - 16);
+                    };
+                    script13395(int0, int1, int5, int6, int7, int2, int4);
+                };
+            } else {
+                if ((int6 != int7)) {
+                    int5 = (int5 - 16);
+                };
+                script13395(int0, int1, int5, int6, int7, int2, int4);
+            };
+        } else {
+            if ((int6 != int7)) {
+                int5 = (int5 - 16);
+            };
+            script13395(int0, int1, int5, int6, int7, int2, int4);
+        };
+    } else if ((script13749() == 0)) {
+        stack(int2);
+        stack(int4);
+        script6238();
+        if (BRANCH_GREATER_THAN()) {
+            if ((int10 == 0)) {
+                script13396(int0, int1, int5, int6, int7, int3, int4);
+            } else {
+                if ((int6 != int7)) {
+                    int5 = (int5 - 16);
+                };
+                script13395(int0, int1, int5, int6, int7, int2, int4);
+            };
         } else {
             if ((int6 != int7)) {
                 int5 = (int5 - 16);

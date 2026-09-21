@@ -16,11 +16,12 @@ function script19706(): number {
     var int3 = 18;
     var int4 = 0;
     var int5 = 0;
-    var int6 = 32;
-    var int7 = 19;
+    var int6 = 24;
+    var int7 = IF_GETWIDTH(comp(1475, 26));  // toplevel_v2_edit_mode:interface_sharing_scrolling
+    var int8 = 19;
     var string0 = "";
     var string1 = "";
-    var int8 = 0;
+    var int9 = 0;
     IF_SETTEXT(`Load ${varclient_8264} Layouts:`, comp(1475, 25));  // toplevel_v2_edit_mode:load_interface_sharing
     while ((int0 < int2)) {
         if ((script19689(int3) == 1)) {
@@ -29,33 +30,35 @@ function script19706(): number {
             if (((int4 <= 0) || (int5 <= 0))) {
                 string0 = script453(int3, 0, 0, 0);
                 string1 = `Resolution unavailable. ${varclient_8264} may not be sharing resolution or the preset was saved before resolution information was tracked.`;
-                int6 = 24;
             } else {
-                string0 = `${script453(int3, 0, 0, 0)}<br>${TOSTRING_LOCALISED(int4, 1)} x ${TOSTRING_LOCALISED(int5, 1)}`;
+                string0 = `${script453(int3, 0, 0, 0)} (${TOSTRING_LOCALISED(int4, 1)} x ${TOSTRING_LOCALISED(int5, 1)})`;
                 string1 = `${string0} resolution (width x height) when preset was saved.`;
-                int6 = 32;
             };
             if ((int3 == varplayer_12049)) {
-                int8 = 1;
+                int9 = 1;
             } else if ((int3 == 18)) {
                 if ((varplayer_12049 == 8)) {
-                    int8 = 1;
+                    int9 = 1;
                 } else {
-                    int8 = 0;
+                    int9 = 0;
                 };
             } else {
-                int8 = 0;
+                int9 = 0;
             };
-            script7853(96665639, int3, 0, int1, 1, 0, 0, int6, 1, 0, 4476, string0, 1, 1, 1, int8);
+            script7853(96665638, int3, 0, int1, 0, 0, int7, int6, 0, 0, 4476, string0, 1, 1, 1, int9);
+            CC_CREATE(comp(1475, 39), 4, int3);  // toplevel_v2_edit_mode:interface_sharing_build
+            CC_SETSIZE(int7, int6, 0, 0);
+            CC_SETPOSITION(0, int1, 0, 0);
             CC_SETOP(1, "Load");
             CC_SETONOP(callback(script19708, -2147483645, -2147483643));
             CC_SETONMOUSEREPEAT(callback(script8799, string1, -2147483645, -2147483643));
+            script10407();
             int1 = (int1 + (int6 + 4));
         };
         int0 = (int0 + 1);
         int3 = enum_getvalue(0, 0, 10781, int0);
     };
-    IF_SETSIZE(0, MIN(159, (int1 + int7)), 1, 0, comp(1475, 24));  // toplevel_v2_edit_mode:interface_sharing_contents
-    script19620(96665627, 96665626, int1, -1, -1, 0, 0, int7);
-    return (int1 + int7);
+    IF_SETSIZE(0, MIN(159, (int1 + int8)), 1, 0, comp(1475, 24));  // toplevel_v2_edit_mode:interface_sharing_contents
+    script19620(96665627, 96665626, int1, -1, -1, 0, 0, int8);
+    return (int1 + int8);
 }

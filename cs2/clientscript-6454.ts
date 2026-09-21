@@ -3,7 +3,7 @@ function script6454(int0: number, int1: number, int2: number): void {
     var string0 = script4693(int1, int2);
     var int3 = (40 + STRINGWIDTH(string0, 28 as fontmetrics));
     IF_SETTEXT(string0, comp(1311, 471));  // mtxmgt:name_text
-    IF_SETSIZE(int3, 34, 0, 0, comp(1311, 470));  // mtxmgt:name_background
+    IF_SETSIZE(int3, 28, 0, 0, comp(1311, 470));  // mtxmgt:name_background
     CC_DELETEALL(comp(1311, 512));  // mtxmgt:title_recolour_buttons
     var int4 = -1 as dbrow;
     var int5 = -1 as struct;

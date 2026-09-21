@@ -72955,7 +72955,7 @@
     "domain": "ITEM",
     "source": "0 [legacyvarobj]",
     "lsb": 0,
-    "msb": 11,
+    "msb": 15,
     "wiki_sync": false,
     "id": "9119 [tzhaar2_ring_charge]"
   },
@@ -380529,6 +380529,14 @@
   },
   {
     "domain": "PLAYER",
+    "source": "6159 [bankpin_extra]",
+    "lsb": 1,
+    "msb": 1,
+    "wiki_sync": false,
+    "id": "47566 [wordgame_temp_char_2]"
+  },
+  {
+    "domain": "PLAYER",
     "source": "9451 [option_toggle3]",
     "lsb": 2,
     "msb": 2,
@@ -410585,6 +410593,182 @@
   },
   {
     "domain": "PLAYER",
+    "source": "6986 [warnings_dontaskagain]",
+    "lsb": 3,
+    "msb": 3,
+    "wiki_sync": false,
+    "id": "51324 [wordgame_temp_char_3]"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "6986 [warnings_dontaskagain]",
+    "lsb": 4,
+    "msb": 4,
+    "wiki_sync": false,
+    "id": "51325 [wordgame_temp_char_4]"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "6986 [warnings_dontaskagain]",
+    "lsb": 5,
+    "msb": 5,
+    "wiki_sync": false,
+    "id": "51326 [wordgame_temp_char_5]"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "6986 [warnings_dontaskagain]",
+    "lsb": 6,
+    "msb": 6,
+    "wiki_sync": false,
+    "id": "51327 [wordgame_temp_char_6]"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "6986 [warnings_dontaskagain]",
+    "lsb": 7,
+    "msb": 7,
+    "wiki_sync": false,
+    "id": "51328 [wordgame_temp_char_7]"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "6986 [warnings_dontaskagain]",
+    "lsb": 8,
+    "msb": 8,
+    "wiki_sync": false,
+    "id": "51329 [wordgame_temp_char_8]"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "6986 [warnings_dontaskagain]",
+    "lsb": 9,
+    "msb": 9,
+    "wiki_sync": false,
+    "id": "51330 [wordgame_temp_char_9]"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "6986 [warnings_dontaskagain]",
+    "lsb": 10,
+    "msb": 10,
+    "wiki_sync": false,
+    "id": "51331 [wordgame_temp_char_10]"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "6986 [warnings_dontaskagain]",
+    "lsb": 11,
+    "msb": 11,
+    "wiki_sync": false,
+    "id": "51332 [wordgame_temp_char_11]"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "6986 [warnings_dontaskagain]",
+    "lsb": 12,
+    "msb": 12,
+    "wiki_sync": false,
+    "id": "51333 [wordgame_temp_char_12]"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "6986 [warnings_dontaskagain]",
+    "lsb": 13,
+    "msb": 13,
+    "wiki_sync": false,
+    "id": "51334 [wordgame_temp_char_1_status]"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "3706 [ability_book_suboverlay_current_page_2]",
+    "lsb": 22,
+    "msb": 22,
+    "wiki_sync": false,
+    "id": "51335 [wordgame_temp_char_2_status]"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "6380 [telemetry_setup_2]",
+    "lsb": 9,
+    "msb": 9,
+    "wiki_sync": false,
+    "id": "51336 [wordgame_temp_char_3_status]"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "13487",
+    "lsb": 30,
+    "msb": 30,
+    "wiki_sync": false,
+    "id": "51337 [wordgame_temp_char_4_status]"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "13487",
+    "lsb": 31,
+    "msb": 31,
+    "wiki_sync": false,
+    "id": "51338 [wordgame_temp_char_5_status]"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "13652",
+    "lsb": 0,
+    "msb": 0,
+    "wiki_sync": false,
+    "id": "51339 [wordgame_temp_char_6_status]"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "13652",
+    "lsb": 1,
+    "msb": 1,
+    "wiki_sync": false,
+    "id": "51340 [wordgame_temp_char_7_status]"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "13652",
+    "lsb": 2,
+    "msb": 2,
+    "wiki_sync": false,
+    "id": "51341 [wordgame_temp_char_8_status]"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "13652",
+    "lsb": 3,
+    "msb": 3,
+    "wiki_sync": false,
+    "id": "51342 [wordgame_temp_char_9_status]"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "13652",
+    "lsb": 4,
+    "msb": 4,
+    "wiki_sync": false,
+    "id": "51343 [wordgame_temp_char_10_status]"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "13652",
+    "lsb": 5,
+    "msb": 5,
+    "wiki_sync": false,
+    "id": "51344 [wordgame_temp_char_11_status]"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "13652",
+    "lsb": 6,
+    "msb": 6,
+    "wiki_sync": false,
+    "id": "51345 [wordgame_temp_char_12_status]"
+  },
+  {
+    "domain": "PLAYER",
     "source": "10399 [mtxmgt_unlock_bitset_41]",
     "lsb": 10,
     "msb": 10,
@@ -410878,6 +411062,14 @@
     "msb": 16,
     "wiki_sync": false,
     "id": "51382 [quest_zamorak_dying_knight_senntisten_state]"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "13652",
+    "lsb": 7,
+    "msb": 7,
+    "wiki_sync": false,
+    "id": "51383 [quest_zamorak_act3_wordgame_id]"
   },
   {
     "domain": "PLAYER",
@@ -495158,5 +495350,77 @@
     "msb": 29,
     "wiki_sync": false,
     "id": "61918"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "13652",
+    "lsb": 8,
+    "msb": 8,
+    "wiki_sync": false,
+    "id": "61919"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "13652",
+    "lsb": 9,
+    "msb": 9,
+    "wiki_sync": false,
+    "id": "61920"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "12030 [mtx_combat_overrides_2]",
+    "lsb": 29,
+    "msb": 29,
+    "wiki_sync": false,
+    "id": "61921"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "12030 [mtx_combat_overrides_2]",
+    "lsb": 30,
+    "msb": 30,
+    "wiki_sync": false,
+    "id": "61922"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "12030 [mtx_combat_overrides_2]",
+    "lsb": 31,
+    "msb": 31,
+    "wiki_sync": false,
+    "id": "61923"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "13653",
+    "lsb": 0,
+    "msb": 0,
+    "wiki_sync": false,
+    "id": "61924"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "13653",
+    "lsb": 1,
+    "msb": 1,
+    "wiki_sync": false,
+    "id": "61925"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "13653",
+    "lsb": 2,
+    "msb": 2,
+    "wiki_sync": false,
+    "id": "61926"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "13653",
+    "lsb": 3,
+    "msb": 3,
+    "wiki_sync": false,
+    "id": "61927"
   }
 ]

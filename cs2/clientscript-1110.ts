@@ -3,7 +3,10 @@ function script1110(int0: number): void {
     if ((int0 != 1)) {
         return;
     };
-    varbitplayer_446 = MIN((varbitplayer_446 + 1), 3);
+    if ((varbitplayer_446 >= 3)) {
+        return;
+    };
+    varbitplayer_446 = MIN((varbitplayer_446 + 1), 4);
     switch (RANDOM(4)) {
         case 0: {
             SOUND_VORBIS_VOLUME(39599 as vorbis, 1, 0, 150);

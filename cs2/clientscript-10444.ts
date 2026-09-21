@@ -9,8 +9,8 @@ function script10444(): void {
             break;
         }
         case 744: {
-            int0 = comp(744, 361);  // loginscreen:minimenu_layer
-            int1 = comp(744, 366);  // loginscreen:32bit_warning_text
+            int0 = comp(744, 350);  // loginscreen:dropdown_panel
+            int1 = comp(744, 355);  // loginscreen:dropdown_list
             break;
         }
         default: {

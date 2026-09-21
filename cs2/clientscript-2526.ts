@@ -380,6 +380,9 @@ function script2526(int0: number): number {
         case 41571: {
             return varbitplayer_30672;
         }
+        case 4946: {
+            return varbitplayer_47566;
+        }
         case 41573: {
             return varbitplayer_35301;
         }
@@ -1216,6 +1219,9 @@ function script2526(int0: number): number {
         }
         case 45334: {
             return varbitplayer_49710;
+        }
+        case 4947: {
+            return varbitplayer_51336;
         }
         case 627: {
             return varbitplayer_50243;

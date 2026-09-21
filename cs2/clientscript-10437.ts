@@ -7,7 +7,7 @@ function script10437(int0: number, int1: number): void {
             break;
         }
         case 744: {
-            int2 = comp(744, 365);  // loginscreen:32bit_warning_content
+            int2 = comp(744, 354);  // loginscreen:dropdown_highlight
             break;
         }
         default: {

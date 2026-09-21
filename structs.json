@@ -6381,7 +6381,8 @@
 			"minimenu_fontcolour": 14404518, // 7273
 			"minimenu_fonthighlightcolour": 15656390, // 7274
 			"minimenu_font": 168, // 7275
-			"minimenu_entry_draw_height": 35 // 7276
+			"minimenu_entry_draw_height": 35, // 7276
+			"activity_progress_bar_hide_animation": 6 // 8869
 		},
 		"id": 668
 	},
@@ -9047,8 +9048,7 @@
 			"activity_progress_bar_area": 2883, // 8863
 			"activity_progress_bar_suboverlay": 1181, // 8865
 			"activity_progress_bar_bslay": 52661, // 8866
-			"activity_progress_bar_data_type": 2, // 8867
-			"activity_progress_bar_hide_animation": 1 // 8869
+			"activity_progress_bar_data_type": 2 // 8867
 		},
 		"id": 956
 	},
@@ -9725,14 +9725,10 @@
 			"toplevel_v2_window_titled_bottom_left_height": 6, // 3560
 			"toplevel_v2_window_titled_bottom_right_width": 6, // 3561
 			"toplevel_v2_window_titled_bottom_right_height": 6, // 3562
-			"toplevel_v2_window_titled_close_bg_width": 16, // 3563
-			"toplevel_v2_window_titled_close_bg_height": 16, // 3564
-			"toplevel_v2_window_titled_close_width": 16, // 3565
-			"toplevel_v2_window_titled_close_height": 16, // 3566
-			"toplevel_v2_window_titled_close_button_offset_x": 15, // 3573
-			"toplevel_v2_window_titled_close_button_offset_y": 15, // 3574
-			"toplevel_v2_window_titled_close_button_bg_offset_x": 15, // 3575
-			"toplevel_v2_window_titled_close_button_bg_offset_y": 15, // 3576
+			"toplevel_v2_window_titled_close_width": 19, // 3565
+			"toplevel_v2_window_titled_close_height": 19, // 3566
+			"toplevel_v2_window_titled_close_button_offset_x": 11, // 3573
+			"toplevel_v2_window_titled_close_button_offset_y": 11, // 3574
 			"toplevel_v2_window_border_top_left_graphic": 20272, // 3590
 			"toplevel_v2_window_border_top_right_graphic": 20272, // 3591
 			"toplevel_v2_window_border_bottom_left_graphic": 20278, // 3592
@@ -9742,8 +9738,8 @@
 			"toplevel_v2_window_border_left_graphic": 20275, // 3596
 			"toplevel_v2_window_border_right_graphic": 20275, // 3597
 			"toplevel_v2_window_titlebar_graphic": 20274, // 3598
-			"toplevel_v2_window_close_button_graphic": 18638, // 3602
-			"toplevel_v2_window_close_button_graphic_over": 18639, // 3603
+			"toplevel_v2_window_close_button_graphic": 32974, // 3602
+			"toplevel_v2_window_close_button_graphic_over": 32975, // 3603
 			"toplevel_v2_window_background_graphic": 18035, // 3619
 			"toplevel_v2_window_titled_title_offset_y": 0 // 3652
 		},
@@ -20188,16 +20184,12 @@
 			"toplevel_v2_window_titled_bottom_left_height": 16, // 3560
 			"toplevel_v2_window_titled_bottom_right_width": 16, // 3561
 			"toplevel_v2_window_titled_bottom_right_height": 16, // 3562
-			"toplevel_v2_window_titled_close_width": 0, // 3565
-			"toplevel_v2_window_titled_close_height": 0, // 3566
 			"toplevel_v2_window_titled_icon_width": 32, // 3567
 			"toplevel_v2_window_titled_icon_height": 32, // 3568
 			"toplevel_v2_window_titled_icon_tab_width": 24, // 3569
 			"toplevel_v2_window_titled_icon_tab_height": 24, // 3570
 			"toplevel_v2_window_titled_icon_offset_x": 0, // 3571
 			"toplevel_v2_window_titled_icon_offset_y": 0, // 3572
-			"toplevel_v2_window_titled_close_button_offset_x": 0, // 3573
-			"toplevel_v2_window_titled_close_button_offset_y": 0, // 3574
 			"toplevel_v2_window_titled_title_minimum_width": 64, // 3585
 			"toplevel_v2_window_titled_background_top_height": 0, // 3586
 			"toplevel_v2_window_titled_background_top_corner_width": 0, // 3587
@@ -61066,6 +61058,778 @@
 	},
 	{
 		"extra": {
+			"activity_progress_bar_name": "Vorago", // 8849 chisel:boss_bar_boss_name
+			"activity_progress_bar_max_progress": 250000, // 8850 chisel:boss_bar_boss_health
+			"activity_progress_bar_area": 1674, // 8863
+			"activity_progress_bar_bslay": 28659, // 8866
+			"activity_progress_bar_data_type": 2 // 8867
+		},
+		"id": 4911
+	},
+	{
+		"extra": {
+			"activity_progress_bar_name": "Queen Black Dragon", // 8849 chisel:boss_bar_boss_name
+			"activity_progress_bar_max_progress": 100000, // 8850 chisel:boss_bar_boss_health
+			"activity_progress_bar_marker_1_pos": 75, // 8853
+			"activity_progress_bar_marker_2_pos": 50, // 8854
+			"activity_progress_bar_marker_3_pos": 25, // 8855
+			"activity_progress_bar_progress_markers": 1, // 8859
+			"activity_progress_bar_area": 1531, // 8863
+			"activity_progress_bar_bslay": 28657 // 8866
+		},
+		"id": 4912
+	},
+	{
+		"extra": {
+			"activity_progress_bar_name": "TzTok-Jad", // 8849 chisel:boss_bar_boss_name
+			"activity_progress_bar_max_progress": 40000, // 8850 chisel:boss_bar_boss_health
+			"activity_progress_bar_area": 869, // 8863
+			"activity_progress_bar_bslay": 28658 // 8866
+		},
+		"id": 4913
+	},
+	{
+		"extra": {
+			"activity_progress_bar_name": "Corporeal Beast", // 8849 chisel:boss_bar_boss_name
+			"activity_progress_bar_max_progress": 100000, // 8850 chisel:boss_bar_boss_health
+			"activity_progress_bar_area": 479, // 8863
+			"activity_progress_bar_bslay": 28645 // 8866
+		},
+		"id": 4914
+	},
+	{
+		"extra": {
+			"activity_progress_bar_name": "Kalphite Queen", // 8849 chisel:boss_bar_boss_name
+			"activity_progress_bar_max_progress": 40000, // 8850 chisel:boss_bar_boss_health
+			"activity_progress_bar_area": 377, // 8863
+			"activity_progress_bar_bslay": 28651 // 8866
+		},
+		"id": 4915
+	},
+	{
+		"extra": {
+			"activity_progress_bar_name": "Exiled Kalphite Queen", // 8849 chisel:boss_bar_boss_name
+			"activity_progress_bar_max_progress": 50000, // 8850 chisel:boss_bar_boss_health
+			"activity_progress_bar_area": 1954, // 8863
+			"activity_progress_bar_bslay": 28651 // 8866
+		},
+		"id": 4916
+	},
+	{
+		"extra": {
+			"activity_progress_bar_name": "Dagannoth Supreme", // 8849 chisel:boss_bar_boss_name
+			"activity_progress_bar_max_progress": 35000, // 8850 chisel:boss_bar_boss_health
+			"activity_progress_bar_area": 365, // 8863
+			"activity_progress_bar_bslay": 28646 // 8866
+		},
+		"id": 4917
+	},
+	{
+		"extra": {
+			"activity_progress_bar_name": "Dagannoth Prime", // 8849 chisel:boss_bar_boss_name
+			"activity_progress_bar_max_progress": 35000, // 8850 chisel:boss_bar_boss_health
+			"activity_progress_bar_area": 365, // 8863
+			"activity_progress_bar_bslay": 28646 // 8866
+		},
+		"id": 4918
+	},
+	{
+		"extra": {
+			"activity_progress_bar_name": "Dagannoth Rex", // 8849 chisel:boss_bar_boss_name
+			"activity_progress_bar_max_progress": 35000, // 8850 chisel:boss_bar_boss_health
+			"activity_progress_bar_area": 365, // 8863
+			"activity_progress_bar_bslay": 28646 // 8866
+		},
+		"id": 4919
+	},
+	{
+		"extra": {
+			"activity_progress_bar_name": "Ahrim the Blighted", // 8849 chisel:boss_bar_boss_name
+			"activity_progress_bar_max_progress": 12000, // 8850 chisel:boss_bar_boss_health
+			"activity_progress_bar_display_outside_area": 1 // 8864
+		},
+		"id": 4920
+	},
+	{
+		"extra": {
+			"activity_progress_bar_name": "Dharok the Wretched", // 8849 chisel:boss_bar_boss_name
+			"activity_progress_bar_max_progress": 12000, // 8850 chisel:boss_bar_boss_health
+			"activity_progress_bar_display_outside_area": 1 // 8864
+		},
+		"id": 4921
+	},
+	{
+		"extra": {
+			"activity_progress_bar_name": "Guthan the Infested", // 8849 chisel:boss_bar_boss_name
+			"activity_progress_bar_max_progress": 12000, // 8850 chisel:boss_bar_boss_health
+			"activity_progress_bar_display_outside_area": 1 // 8864
+		},
+		"id": 4922
+	},
+	{
+		"extra": {
+			"activity_progress_bar_name": "Karil the Tainted", // 8849 chisel:boss_bar_boss_name
+			"activity_progress_bar_max_progress": 12000, // 8850 chisel:boss_bar_boss_health
+			"activity_progress_bar_display_outside_area": 1 // 8864
+		},
+		"id": 4923
+	},
+	{
+		"extra": {
+			"activity_progress_bar_name": "Torag the Corrupted", // 8849 chisel:boss_bar_boss_name
+			"activity_progress_bar_max_progress": 12000, // 8850 chisel:boss_bar_boss_health
+			"activity_progress_bar_display_outside_area": 1 // 8864
+		},
+		"id": 4924
+	},
+	{
+		"extra": {
+			"activity_progress_bar_name": "Verac the Defiled", // 8849 chisel:boss_bar_boss_name
+			"activity_progress_bar_max_progress": 12000, // 8850 chisel:boss_bar_boss_health
+			"activity_progress_bar_display_outside_area": 1 // 8864
+		},
+		"id": 4925
+	},
+	{
+		"extra": {
+			"activity_progress_bar_name": "Akrisae the Doomed", // 8849 chisel:boss_bar_boss_name
+			"activity_progress_bar_max_progress": 12000, // 8850 chisel:boss_bar_boss_health
+			"activity_progress_bar_display_outside_area": 1 // 8864
+		},
+		"id": 4926
+	},
+	{
+		"extra": {
+			"activity_progress_bar_name": "Linza the Disgraced", // 8849 chisel:boss_bar_boss_name
+			"activity_progress_bar_max_progress": 150000, // 8850 chisel:boss_bar_boss_health
+			"activity_progress_bar_display_outside_area": 1 // 8864
+		},
+		"id": 4927
+	},
+	{
+		"extra": {
+			"activity_progress_bar_name": "Chaos Elemental", // 8849 chisel:boss_bar_boss_name
+			"activity_progress_bar_max_progress": 17250, // 8850 chisel:boss_bar_boss_health
+			"activity_progress_bar_display_outside_area": 1, // 8864
+			"activity_progress_bar_bslay": 28643 // 8866
+		},
+		"id": 4928
+	},
+	{
+		"extra": {
+			"activity_progress_bar_name": "General Graardor", // 8849 chisel:boss_bar_boss_name
+			"activity_progress_bar_max_progress": 40000, // 8850 chisel:boss_bar_boss_health
+			"activity_progress_bar_area": 2512, // 8863
+			"activity_progress_bar_bslay": 28647 // 8866
+		},
+		"id": 4929
+	},
+	{
+		"extra": {
+			"activity_progress_bar_name": "General Graardor", // 8849 chisel:boss_bar_boss_name
+			"activity_progress_bar_max_progress": 100000, // 8850 chisel:boss_bar_boss_health
+			"activity_progress_bar_area": 2512, // 8863
+			"activity_progress_bar_bslay": 28647 // 8866
+		},
+		"id": 4930
+	},
+	{
+		"extra": {
+			"activity_progress_bar_name": "Commander Zilyana", // 8849 chisel:boss_bar_boss_name
+			"activity_progress_bar_max_progress": 60000, // 8850 chisel:boss_bar_boss_health
+			"activity_progress_bar_area": 2509, // 8863
+			"activity_progress_bar_bslay": 28644 // 8866
+		},
+		"id": 4931
+	},
+	{
+		"extra": {
+			"activity_progress_bar_name": "Commander Zilyana", // 8849 chisel:boss_bar_boss_name
+			"activity_progress_bar_max_progress": 50000, // 8850 chisel:boss_bar_boss_health
+			"activity_progress_bar_area": 2509, // 8863
+			"activity_progress_bar_bslay": 28644 // 8866
+		},
+		"id": 4932
+	},
+	{
+		"extra": {
+			"activity_progress_bar_name": "K'ril Tsutsaroth", // 8849 chisel:boss_bar_boss_name
+			"activity_progress_bar_max_progress": 55000, // 8850 chisel:boss_bar_boss_health
+			"activity_progress_bar_area": 2510, // 8863
+			"activity_progress_bar_bslay": 28654 // 8866
+		},
+		"id": 4933
+	},
+	{
+		"extra": {
+			"activity_progress_bar_name": "K'ril Tsutsaroth", // 8849 chisel:boss_bar_boss_name
+			"activity_progress_bar_max_progress": 100000, // 8850 chisel:boss_bar_boss_health
+			"activity_progress_bar_area": 2510, // 8863
+			"activity_progress_bar_bslay": 28654 // 8866
+		},
+		"id": 4934
+	},
+	{
+		"extra": {
+			"activity_progress_bar_name": "Kree'arra", // 8849 chisel:boss_bar_boss_name
+			"activity_progress_bar_max_progress": 75000, // 8850 chisel:boss_bar_boss_health
+			"activity_progress_bar_area": 2511, // 8863
+			"activity_progress_bar_bslay": 28653 // 8866
+		},
+		"id": 4935
+	},
+	{
+		"extra": {
+			"activity_progress_bar_name": "Kree'arra", // 8849 chisel:boss_bar_boss_name
+			"activity_progress_bar_max_progress": 100000, // 8850 chisel:boss_bar_boss_health
+			"activity_progress_bar_area": 2511, // 8863
+			"activity_progress_bar_bslay": 28653 // 8866
+		},
+		"id": 4936
+	},
+	{
+		"extra": {
+			"activity_progress_bar_name": "Legio Primus", // 8849 chisel:boss_bar_boss_name
+			"activity_progress_bar_max_progress": 30000, // 8850 chisel:boss_bar_boss_health
+			"activity_progress_bar_area": 1824, // 8863
+			"activity_progress_bar_bslay": 28655 // 8866
+		},
+		"id": 4937
+	},
+	{
+		"extra": {
+			"activity_progress_bar_name": "Legio Secundus", // 8849 chisel:boss_bar_boss_name
+			"activity_progress_bar_max_progress": 30000, // 8850 chisel:boss_bar_boss_health
+			"activity_progress_bar_area": 1824, // 8863
+			"activity_progress_bar_bslay": 28655 // 8866
+		},
+		"id": 4938
+	},
+	{
+		"extra": {
+			"activity_progress_bar_name": "Legio Tertius", // 8849 chisel:boss_bar_boss_name
+			"activity_progress_bar_max_progress": 30000, // 8850 chisel:boss_bar_boss_health
+			"activity_progress_bar_area": 1824, // 8863
+			"activity_progress_bar_bslay": 28655 // 8866
+		},
+		"id": 4939
+	},
+	{
+		"extra": {
+			"activity_progress_bar_name": "Legio Quartus", // 8849 chisel:boss_bar_boss_name
+			"activity_progress_bar_max_progress": 30000, // 8850 chisel:boss_bar_boss_health
+			"activity_progress_bar_area": 1824, // 8863
+			"activity_progress_bar_bslay": 28655 // 8866
+		},
+		"id": 4940
+	},
+	{
+		"extra": {
+			"activity_progress_bar_name": "Legio Quintus", // 8849 chisel:boss_bar_boss_name
+			"activity_progress_bar_max_progress": 30000, // 8850 chisel:boss_bar_boss_health
+			"activity_progress_bar_area": 1824, // 8863
+			"activity_progress_bar_bslay": 28655 // 8866
+		},
+		"id": 4941
+	},
+	{
+		"extra": {
+			"activity_progress_bar_name": "Legio Sextus", // 8849 chisel:boss_bar_boss_name
+			"activity_progress_bar_max_progress": 30000, // 8850 chisel:boss_bar_boss_health
+			"activity_progress_bar_area": 1824, // 8863
+			"activity_progress_bar_bslay": 28655 // 8866
+		},
+		"id": 4942
+	},
+	{
+		"extra": {
+			"activity_progress_bar_name": "Orikalka", // 8849 chisel:boss_bar_boss_name
+			"activity_progress_bar_max_progress": 190000, // 8850 chisel:boss_bar_boss_health
+			"activity_progress_bar_variable_progress": 1, // 8851
+			"activity_progress_bar_area": 2635, // 8863
+			"activity_progress_bar_bslay": 45061 // 8866
+		},
+		"id": 4943
+	},
+	{
+		"extra": {
+			"activity_progress_bar_name": "Rathis", // 8849 chisel:boss_bar_boss_name
+			"activity_progress_bar_max_progress": 190000, // 8850 chisel:boss_bar_boss_health
+			"activity_progress_bar_variable_progress": 1, // 8851
+			"activity_progress_bar_area": 2635, // 8863
+			"activity_progress_bar_bslay": 45061 // 8866
+		},
+		"id": 4944
+	},
+	{
+		"extra": {
+			"activity_progress_bar_name": "Pthentraken", // 8849 chisel:boss_bar_boss_name
+			"activity_progress_bar_max_progress": 190000, // 8850 chisel:boss_bar_boss_health
+			"activity_progress_bar_variable_progress": 1, // 8851
+			"activity_progress_bar_area": 2635, // 8863
+			"activity_progress_bar_bslay": 45061 // 8866
+		},
+		"id": 4945
+	},
+	{
+		"extra": {
+			"control_type": 3, // 7513
+			"settings_label": "Keyboard PIN entry", // 7527 chisel:game_settings_caption
+			"settings_desc": "Allow Bank PIN digits to be entered using the keyboard. This option is only available on Jagex Accounts.", // 7528 chisel:game_settings_subcaption
+			"settings_var_reference": 16824782 // 8966
+		},
+		"id": 4946
+	},
+	{
+		"extra": {
+			"control_checkbox_inverted": 1, // 7524
+			"settings_label": "Show stack information", // 7527 chisel:game_settings_caption
+			"settings_desc": "When an enemy drops items, show stack information above the loot pile." // 7528 chisel:game_settings_subcaption
+		},
+		"id": 4947
+	},
+	{
+		"extra": {
+			"activity_progress_bar_name": "Rise of the Six", // 8849 chisel:boss_bar_boss_name
+			"activity_progress_bar_max_progress": 300000, // 8850 chisel:boss_bar_boss_health
+			"activity_progress_bar_area": 1727, // 8863
+			"activity_progress_bar_bslay": 28642, // 8866
+			"activity_progress_bar_data_type": 2 // 8867
+		},
+		"id": 4948
+	},
+	{
+		"extra": {
+			"mtxmgt_category": 2, // 2531 chisel:solomons_category
+			"mtxmgt_subcat": 14, // 2532 chisel:SGS_sub_group
+			"mtxmgt_name": "Corrupted Aura", // 2533 chisel:SGS_name
+			"mtxmgt_source": 4, // 2546
+			"mtxmgt_pos_string": "rs:effects:corrupted_aura", // 4592
+			"mtxmgt_parent_id": 2470, // 4744
+			"mtxmgt_source_custom": "This cosmetic can be obtained from the Marketplace.", // 4751 chisel:cosmetic_unlock_hint
+			"marketplace_preview_as_trail": 1 // 7522
+		},
+		"id": 4949
+	},
+	{
+		"extra": {
+			"mtxmgt_category": 7, // 2531 chisel:solomons_category
+			"mtxmgt_name": "Artefacts of Chaos Bundle", // 2533 chisel:SGS_name
+			"mtxmgt_pos_string": "rs:packs:symbols_of_chaos_bundle", // 4592
+			"mtxmgt_pack_structs": 13637, // 4717 chisel:sgs_pack_components
+			"mtxmgt_parent_id": 2471 // 4744
+		},
+		"id": 4950
+	},
+	{
+		"extra": {
+			"mtxmgt_category": 7, // 2531 chisel:solomons_category
+			"mtxmgt_name": "Chaotic banner", // 2533 chisel:SGS_name
+			"mtxmgt_interface_positioning": 6155, // 9254
+			"extra_0024F1": 19954 // 9457
+		},
+		"id": 4951
+	},
+	{
+		"extra": {
+			"mtxmgt_category": 7, // 2531 chisel:solomons_category
+			"mtxmgt_name": "Chaotic lamp post", // 2533 chisel:SGS_name
+			"mtxmgt_interface_positioning": 6159, // 9254
+			"extra_0024F1": 20121 // 9457
+		},
+		"id": 4952
+	},
+	{
+		"extra": {
+			"mtxmgt_category": 7, // 2531 chisel:solomons_category
+			"mtxmgt_name": "Chaotic wall light", // 2533 chisel:SGS_name
+			"mtxmgt_preview_prevent_rotation": 1, // 4267
+			"mtxmgt_interface_positioning": 6156, // 9254
+			"extra_0024F1": 19955 // 9457
+		},
+		"id": 4953
+	},
+	{
+		"extra": {
+			"mtxmgt_category": 7, // 2531 chisel:solomons_category
+			"mtxmgt_name": "Chaotic statue", // 2533 chisel:SGS_name
+			"mtxmgt_interface_positioning": 6157, // 9254
+			"extra_0024F1": 19956 // 9457
+		},
+		"id": 4954
+	},
+	{
+		"extra": {
+			"mtxmgt_category": 7, // 2531 chisel:solomons_category
+			"mtxmgt_name": "Chaotic sacrificial altar", // 2533 chisel:SGS_name
+			"mtxmgt_interface_positioning": 6158, // 9254
+			"extra_0024F1": 20119 // 9457
+		},
+		"id": 4955
+	},
+	{
+		"extra": {
+			"mtxmgt_category": 7, // 2531 chisel:solomons_category
+			"mtxmgt_name": "Chaotic storage chest", // 2533 chisel:SGS_name
+			"mtxmgt_interface_positioning": 6160, // 9254
+			"extra_0024F1": 20123 // 9457
+		},
+		"id": 4956
+	},
+	{
+		"extra": {
+			"mtxmgt_category": 7, // 2531 chisel:solomons_category
+			"mtxmgt_name": "Rituals of Chaos Bundle", // 2533 chisel:SGS_name
+			"mtxmgt_pos_string": "rs:packs:rituals_of_chaos_bundle", // 4592
+			"mtxmgt_pack_structs": 13639, // 4717 chisel:sgs_pack_components
+			"mtxmgt_parent_id": 2472 // 4744
+		},
+		"id": 4957
+	},
+	{
+		"extra": {
+			"mtxmgt_category": 7, // 2531 chisel:solomons_category
+			"mtxmgt_name": "Chaos star ritual marker", // 2533 chisel:SGS_name
+			"mtxmgt_interface_positioning": 6161, // 9254
+			"extra_0024F1": 19957 // 9457
+		},
+		"id": 4958
+	},
+	{
+		"extra": {
+			"mtxmgt_category": 7, // 2531 chisel:solomons_category
+			"mtxmgt_name": "Chaotic gatestone ritual marker", // 2533 chisel:SGS_name
+			"mtxmgt_interface_positioning": 6162, // 9254
+			"extra_0024F1": 19958 // 9457
+		},
+		"id": 4959
+	},
+	{
+		"extra": {
+			"mtxmgt_category": 7, // 2531 chisel:solomons_category
+			"mtxmgt_name": "Chaotic power ritual marker", // 2533 chisel:SGS_name
+			"mtxmgt_interface_positioning": 6163, // 9254
+			"extra_0024F1": 19959 // 9457
+		},
+		"id": 4960
+	},
+	{
+		"extra": {
+			"mtxmgt_category": 7, // 2531 chisel:solomons_category
+			"mtxmgt_name": "Chaos star mural", // 2533 chisel:SGS_name
+			"mtxmgt_preview_prevent_rotation": 1, // 4267
+			"mtxmgt_interface_positioning": 6164, // 9254
+			"extra_0024F1": 20109 // 9457
+		},
+		"id": 4961
+	},
+	{
+		"extra": {
+			"mtxmgt_category": 7, // 2531 chisel:solomons_category
+			"mtxmgt_name": "Stalker's eye mural", // 2533 chisel:SGS_name
+			"mtxmgt_preview_prevent_rotation": 1, // 4267
+			"mtxmgt_interface_positioning": 6164, // 9254
+			"extra_0024F1": 20110 // 9457
+		},
+		"id": 4962
+	},
+	{
+		"extra": {
+			"mtxmgt_category": 7, // 2531 chisel:solomons_category
+			"mtxmgt_name": "Chaotic gatestone mural", // 2533 chisel:SGS_name
+			"mtxmgt_preview_prevent_rotation": 1, // 4267
+			"mtxmgt_interface_positioning": 6164, // 9254
+			"extra_0024F1": 20111 // 9457
+		},
+		"id": 4963
+	},
+	{
+		"extra": {
+			"mtxmgt_category": 7, // 2531 chisel:solomons_category
+			"mtxmgt_name": "Box of chaotic candles", // 2533 chisel:SGS_name
+			"mtxmgt_interface_positioning": 6167, // 9254
+			"extra_0024F1": 20112 // 9457
+		},
+		"id": 4964
+	},
+	{
+		"extra": {
+			"mtxmgt_category": 7, // 2531 chisel:solomons_category
+			"mtxmgt_name": "Chaotic candle (lit)", // 2533 chisel:SGS_name
+			"mtxmgt_interface_positioning": 6165, // 9254
+			"extra_0024F1": 20113 // 9457
+		},
+		"id": 4965
+	},
+	{
+		"extra": {
+			"mtxmgt_category": 7, // 2531 chisel:solomons_category
+			"mtxmgt_name": "Chaotic candle cluster (lit)", // 2533 chisel:SGS_name
+			"mtxmgt_interface_positioning": 6166, // 9254
+			"extra_0024F1": 20114 // 9457
+		},
+		"id": 4966
+	},
+	{
+		"extra": {
+			"mtxmgt_category": 7, // 2531 chisel:solomons_category
+			"mtxmgt_name": "Chaotic candle circle (lit)", // 2533 chisel:SGS_name
+			"mtxmgt_interface_positioning": 6166, // 9254
+			"extra_0024F1": 20115 // 9457
+		},
+		"id": 4967
+	},
+	{
+		"extra": {
+			"mtxmgt_category": 7, // 2531 chisel:solomons_category
+			"mtxmgt_name": "Chaotic candle (unlit)", // 2533 chisel:SGS_name
+			"mtxmgt_interface_positioning": 6165, // 9254
+			"extra_0024F1": 20116 // 9457
+		},
+		"id": 4968
+	},
+	{
+		"extra": {
+			"mtxmgt_category": 7, // 2531 chisel:solomons_category
+			"mtxmgt_name": "Chaotic candle cluster (unlit)", // 2533 chisel:SGS_name
+			"mtxmgt_interface_positioning": 6166, // 9254
+			"extra_0024F1": 20117 // 9457
+		},
+		"id": 4969
+	},
+	{
+		"extra": {
+			"mtxmgt_category": 7, // 2531 chisel:solomons_category
+			"mtxmgt_name": "Chaotic candle circle (unlit)", // 2533 chisel:SGS_name
+			"mtxmgt_interface_positioning": 6166, // 9254
+			"extra_0024F1": 20118 // 9457
+		},
+		"id": 4970
+	},
+	{
+		"extra": {
+			"mtxmgt_category": 7, // 2531 chisel:solomons_category
+			"mtxmgt_name": "Chaotic grandmaster portal nexus", // 2533 chisel:SGS_name
+			"mtxmgt_pos_string": "rs:construction:chaotic_portal_nexus", // 4592
+			"mtxmgt_parent_id": 2473, // 4744
+			"mtxmgt_interface_positioning": 6154, // 9254
+			"extra_0024F1": 20124 // 9457
+		},
+		"id": 4971
+	},
+	{
+		"extra": {
+			"mtxmgt_category": 7, // 2531 chisel:solomons_category
+			"mtxmgt_name": "Chaotic ritual markers (3 variants)", // 2533 chisel:SGS_name
+			"mtxmgt_interface_positioning": 6163, // 9254
+			"extra_0024F1": 19959 // 9457
+		},
+		"id": 4972
+	},
+	{
+		"extra": {
+			"mtxmgt_category": 7, // 2531 chisel:solomons_category
+			"mtxmgt_name": "Chaotic murals (3 variants)", // 2533 chisel:SGS_name
+			"mtxmgt_preview_prevent_rotation": 1, // 4267
+			"mtxmgt_interface_positioning": 6164, // 9254
+			"extra_0024F1": 20109 // 9457
+		},
+		"id": 4973
+	},
+	{
+		"extra": {
+			"mtxmgt_category": 7, // 2531 chisel:solomons_category
+			"mtxmgt_name": "Chaotic candles (lit) (3 variants)", // 2533 chisel:SGS_name
+			"mtxmgt_interface_positioning": 6166, // 9254
+			"extra_0024F1": 20115 // 9457
+		},
+		"id": 4974
+	},
+	{
+		"extra": {
+			"mtxmgt_category": 7, // 2531 chisel:solomons_category
+			"mtxmgt_name": "Chaotic candles (unlit) (3 variants)", // 2533 chisel:SGS_name
+			"mtxmgt_interface_positioning": 6166, // 9254
+			"extra_0024F1": 20117 // 9457
+		},
+		"id": 4975
+	},
+	{
+		"extra": {
+			"mtxmgt_name": "House of Chaos Mega Bundle", // 2533 chisel:SGS_name
+			"mtxmgt_pos_string": "rs:packs:chaotic_house_mega_bundle", // 4592
+			"mtxmgt_pack_structs": 13640, // 4717 chisel:sgs_pack_components
+			"release_date": 8972, // 4742 chisel:th_available_date
+			"mtxmgt_parent_id": 2474 // 4744
+		},
+		"id": 4976
+	},
+	{
+		"extra": {
+			"mtxmgt_category": 4, // 2531 chisel:solomons_category
+			"mtxmgt_subcat": 7, // 2532 chisel:SGS_sub_group
+			"mtxmgt_name": "Corrupted Dive", // 2533 chisel:SGS_name
+			"mtxmgt_preview_anim": 38100, // 2535
+			"mtxmgt_preview_spotanim": 38101, // 2536
+			"mtxmgt_preview_spotanim_model": 145853, // 2537
+			"mtxmgt_preview_zoom_offset": 150, // 2540
+			"mtxmgt_preview_y_offset": 50, // 2541
+			"mtxmgt_source": 1, // 2546
+			"mtxmgt_anim_preview_player_on_top": 0, // 3363
+			"mtxmgt_pos_string": "rs:abilities:meleeDiveCorrupted", // 4592
+			"mtxmgt_parent_id": 2463, // 4744
+			"mtxmgt_source_custom": "This cosmetic can be obtained from the Marketplace.", // 4751 chisel:cosmetic_unlock_hint
+			"original_release_date": 8972, // 6628
+			"mtxmgt_preview_default_y_angle": 150 // 8546
+		},
+		"id": 4977
+	},
+	{
+		"extra": {
+			"mtxmgt_category": 4, // 2531 chisel:solomons_category
+			"mtxmgt_subcat": 7, // 2532 chisel:SGS_sub_group
+			"mtxmgt_name": "Corrupted Escape", // 2533 chisel:SGS_name
+			"mtxmgt_preview_anim": 22668, // 2535
+			"mtxmgt_preview_spotanim": 22667, // 2536
+			"mtxmgt_preview_spotanim_model": 145855, // 2537
+			"mtxmgt_preview_zoom_offset": 150, // 2540
+			"mtxmgt_preview_y_offset": 50, // 2541
+			"mtxmgt_source": 1, // 2546
+			"mtxmgt_anim_preview_player_on_top": 0, // 3363
+			"mtxmgt_pos_string": "rs:abilities:rangedEscapeCorrupted", // 4592
+			"mtxmgt_parent_id": 2464, // 4744
+			"mtxmgt_source_custom": "This cosmetic can be obtained from the Marketplace.", // 4751 chisel:cosmetic_unlock_hint
+			"original_release_date": 8972, // 6628
+			"mtxmgt_preview_default_y_angle": 150 // 8546
+		},
+		"id": 4978
+	},
+	{
+		"extra": {
+			"mtxmgt_category": 4, // 2531 chisel:solomons_category
+			"mtxmgt_subcat": 7, // 2532 chisel:SGS_sub_group
+			"mtxmgt_name": "Corrupted Surge", // 2533 chisel:SGS_name
+			"mtxmgt_preview_anim": 37099, // 2535
+			"mtxmgt_preview_spotanim": 36600, // 2536
+			"mtxmgt_preview_spotanim_model": 145857, // 2537
+			"mtxmgt_preview_zoom_offset": 150, // 2540
+			"mtxmgt_preview_y_offset": 50, // 2541
+			"mtxmgt_source": 1, // 2546
+			"mtxmgt_anim_preview_player_on_top": 0, // 3363
+			"mtxmgt_pos_string": "rs:abilities:magicSurgeCorrupted", // 4592
+			"mtxmgt_parent_id": 2465, // 4744
+			"mtxmgt_source_custom": "This cosmetic can be obtained from the Marketplace.", // 4751 chisel:cosmetic_unlock_hint
+			"original_release_date": 8972, // 6628
+			"mtxmgt_preview_default_y_angle": 450 // 8546
+		},
+		"id": 4979
+	},
+	{
+		"extra": {
+			"mtxmgt_category": 4, // 2531 chisel:solomons_category
+			"mtxmgt_subcat": 7, // 2532 chisel:SGS_sub_group
+			"mtxmgt_name": "Corrupted Basic Attack (Necromancy)", // 2533 chisel:SGS_name
+			"mtxmgt_preview_anim": 38102, // 2535
+			"mtxmgt_preview_spotanim": 35450, // 2536
+			"mtxmgt_preview_spotanim_model": 145874, // 2537
+			"mtxmgt_preview_zoom_offset": 150, // 2540
+			"mtxmgt_preview_y_offset": 50, // 2541
+			"mtxmgt_source": 1, // 2546
+			"mtxmgt_anim_preview_player_on_top": 0, // 3363
+			"mtxmgt_pos_string": "rs:abilities:necromancyBasicAttackCorrupted", // 4592
+			"mtxmgt_parent_id": 2466, // 4744
+			"mtxmgt_source_custom": "This cosmetic can be obtained from the Marketplace.", // 4751 chisel:cosmetic_unlock_hint
+			"original_release_date": 8972, // 6628
+			"mtxmgt_preview_default_y_angle": 150 // 8546
+		},
+		"id": 4980
+	},
+	{
+		"extra": {
+			"mtxmgt_category": 4, // 2531 chisel:solomons_category
+			"mtxmgt_subcat": 7, // 2532 chisel:SGS_sub_group
+			"mtxmgt_name": "Corrupted Spectral Scythe", // 2533 chisel:SGS_name
+			"mtxmgt_preview_anim": 38104, // 2535
+			"mtxmgt_preview_spotanim": 38105, // 2536
+			"mtxmgt_preview_spotanim_model": 145868, // 2537
+			"mtxmgt_preview_zoom_offset": 150, // 2540
+			"mtxmgt_preview_y_offset": 50, // 2541
+			"mtxmgt_source": 1, // 2546
+			"mtxmgt_anim_preview_player_on_top": 0, // 3363
+			"mtxmgt_pos_string": "rs:abilities:necromancy_spectral_scythe_corrupted", // 4592
+			"mtxmgt_parent_id": 2467, // 4744
+			"mtxmgt_source_custom": "This cosmetic can be obtained from the Marketplace.", // 4751 chisel:cosmetic_unlock_hint
+			"original_release_date": 8972, // 6628
+			"mtxmgt_preview_default_y_angle": 150, // 8546
+			"extra_002507": 38106, // 9479
+			"extra_002508": 38108 // 9480
+		},
+		"id": 4981
+	},
+	{
+		"extra": {
+			"mtxmgt_category": 4, // 2531 chisel:solomons_category
+			"mtxmgt_subcat": 7, // 2532 chisel:SGS_sub_group
+			"mtxmgt_name": "Corrupted Split Soul", // 2533 chisel:SGS_name
+			"mtxmgt_preview_anim": 38112, // 2535
+			"mtxmgt_preview_spotanim": 38113, // 2536
+			"mtxmgt_preview_spotanim_model": 145871, // 2537
+			"mtxmgt_preview_zoom_offset": 150, // 2540
+			"mtxmgt_preview_y_offset": 50, // 2541
+			"mtxmgt_source": 1, // 2546
+			"mtxmgt_anim_preview_player_on_top": 0, // 3363
+			"mtxmgt_pos_string": "rs:abilities:necromancy_split_soul_corrupted", // 4592
+			"mtxmgt_parent_id": 2468, // 4744
+			"mtxmgt_source_custom": "This cosmetic can be obtained from the Marketplace.", // 4751 chisel:cosmetic_unlock_hint
+			"original_release_date": 8972, // 6628
+			"mtxmgt_preview_default_y_angle": 150 // 8546
+		},
+		"id": 4982
+	},
+	{
+		"extra": {
+			"mtxmgt_category": 4, // 2531 chisel:solomons_category
+			"mtxmgt_subcat": 7, // 2532 chisel:SGS_sub_group
+			"mtxmgt_name": "Corrupted Threads of Fate", // 2533 chisel:SGS_name
+			"mtxmgt_preview_anim": 38110, // 2535
+			"mtxmgt_preview_spotanim": 38111, // 2536
+			"mtxmgt_preview_spotanim_model": 145872, // 2537
+			"mtxmgt_preview_zoom_offset": 150, // 2540
+			"mtxmgt_preview_y_offset": 50, // 2541
+			"mtxmgt_source": 1, // 2546
+			"mtxmgt_anim_preview_player_on_top": 0, // 3363
+			"mtxmgt_pos_string": "rs:abilities:necromancy_threads_of_fate_corrupted", // 4592
+			"mtxmgt_parent_id": 2469, // 4744
+			"mtxmgt_source_custom": "This cosmetic can be obtained from the Marketplace.", // 4751 chisel:cosmetic_unlock_hint
+			"original_release_date": 8972, // 6628
+			"mtxmgt_preview_default_y_angle": 150 // 8546
+		},
+		"id": 4983
+	},
+	{
+		"extra": {
+			"motw_banner_en": 12012, // 6381
+			"motw_banner_de": 12012, // 6385
+			"motw_banner_fr": 12012, // 6386
+			"motw_banner_pt": 12012, // 6387
+			"motw_title": "House of Chaos", // 6391
+			"motw_onclick": 14 // 6392
+		},
+		"id": 4984
+	},
+	{
+		"extra": {
+			"motw_banner_en": 13161, // 6381
+			"motw_banner_de": 13161, // 6385
+			"motw_banner_fr": 13161, // 6386
+			"motw_banner_pt": 13161, // 6387
+			"motw_title": "Chaotic Corruption", // 6391
+			"motw_onclick": 14 // 6392
+		},
+		"id": 4985
+	},
+	{
+		"extra": {
 			"toolbelt_category_name": "Slayer", // 6974
 			"toolbelt_category_button_on": 27923, // 6975
 			"toolbelt_category_button_over": 27977, // 6976
@@ -94982,8 +95746,7 @@
 			"activity_progress_bar_variable_progress": 0, // 8851
 			"activity_progress_bar_hide_progress": 0, // 8852
 			"activity_progress_bar_area": 2496, // 8863
-			"activity_progress_bar_suboverlay": 1181, // 8865
-			"activity_progress_bar_hide_animation": 1 // 8869
+			"activity_progress_bar_suboverlay": 1181 // 8865
 		},
 		"id": 9689
 	},
@@ -94994,8 +95757,7 @@
 			"activity_progress_bar_variable_progress": 0, // 8851
 			"activity_progress_bar_hide_progress": 0, // 8852
 			"activity_progress_bar_area": 2496, // 8863
-			"activity_progress_bar_suboverlay": 1181, // 8865
-			"activity_progress_bar_hide_animation": 1 // 8869
+			"activity_progress_bar_suboverlay": 1181 // 8865
 		},
 		"id": 9690
 	},
@@ -95006,8 +95768,7 @@
 			"activity_progress_bar_variable_progress": 0, // 8851
 			"activity_progress_bar_hide_progress": 0, // 8852
 			"activity_progress_bar_area": 2496, // 8863
-			"activity_progress_bar_suboverlay": 1181, // 8865
-			"activity_progress_bar_hide_animation": 1 // 8869
+			"activity_progress_bar_suboverlay": 1181 // 8865
 		},
 		"id": 9691
 	},
@@ -95018,8 +95779,7 @@
 			"activity_progress_bar_variable_progress": 0, // 8851
 			"activity_progress_bar_hide_progress": 0, // 8852
 			"activity_progress_bar_area": 2496, // 8863
-			"activity_progress_bar_suboverlay": 1181, // 8865
-			"activity_progress_bar_hide_animation": 1 // 8869
+			"activity_progress_bar_suboverlay": 1181 // 8865
 		},
 		"id": 9692
 	},
@@ -95164,8 +95924,7 @@
 			"activity_progress_bar_variable_progress": 0, // 8851
 			"activity_progress_bar_hide_progress": 0, // 8852
 			"activity_progress_bar_area": 2496, // 8863
-			"activity_progress_bar_suboverlay": 1181, // 8865
-			"activity_progress_bar_hide_animation": 1 // 8869
+			"activity_progress_bar_suboverlay": 1181 // 8865
 		},
 		"id": 9710
 	},
@@ -95242,8 +96001,7 @@
 			"activity_progress_bar_variable_progress": 0, // 8851
 			"activity_progress_bar_hide_progress": 0, // 8852
 			"activity_progress_bar_area": 2496, // 8863
-			"activity_progress_bar_suboverlay": 1181, // 8865
-			"activity_progress_bar_hide_animation": 1 // 8869
+			"activity_progress_bar_suboverlay": 1181 // 8865
 		},
 		"id": 9716
 	},
@@ -96821,8 +97579,7 @@
 			"activity_progress_bar_variable_progress": 0, // 8851
 			"activity_progress_bar_hide_progress": 0, // 8852
 			"activity_progress_bar_area": 2496, // 8863
-			"activity_progress_bar_suboverlay": 1181, // 8865
-			"activity_progress_bar_hide_animation": 1 // 8869
+			"activity_progress_bar_suboverlay": 1181 // 8865
 		},
 		"id": 9840
 	},
@@ -96833,8 +97590,7 @@
 			"activity_progress_bar_variable_progress": 0, // 8851
 			"activity_progress_bar_hide_progress": 0, // 8852
 			"activity_progress_bar_area": 2496, // 8863
-			"activity_progress_bar_suboverlay": 1181, // 8865
-			"activity_progress_bar_hide_animation": 1 // 8869
+			"activity_progress_bar_suboverlay": 1181 // 8865
 		},
 		"id": 9841
 	},
@@ -96852,8 +97608,7 @@
 			"activity_progress_bar_variable_progress": 0, // 8851
 			"activity_progress_bar_hide_progress": 0, // 8852
 			"activity_progress_bar_area": 2496, // 8863
-			"activity_progress_bar_suboverlay": 1181, // 8865
-			"activity_progress_bar_hide_animation": 1 // 8869
+			"activity_progress_bar_suboverlay": 1181 // 8865
 		},
 		"id": 9843
 	},
@@ -131025,7 +131780,7 @@
 	{
 		"extra": {
 			"combatv2_ability_name": "Prayer Points Reduced", // 2794 chisel:spell_name
-			"combatv2_ability_icon": 25835, // 2802 chisel:spell_prayer_ability_sprite
+			"combatv2_ability_icon": 18857, // 2802 chisel:spell_prayer_ability_sprite
 			"combatv2_buff_type": 1, // 8109 chisel:is_burn
 			"combatv2_buff_category": 15, // 8114 chisel:buff_category
 			"combatv2_buff_priority": 10 // 8115 chisel:buff_priority
@@ -162155,10 +162910,10 @@
 			"toplevel_v2_window_size_struct": 21327, // 3494
 			"toplevel_v2_window_min_width": 300, // 3499
 			"toplevel_v2_window_min_height": 200, // 3500
-			"toplevel_v2_window_layer": 96797315, // 3503
-			"toplevel_v2_window_background_layer": 96797316, // 3504
-			"toplevel_v2_window_content_layer": 96797317, // 3505
-			"toplevel_v2_window_border_layer": 96797318, // 3506
+			"toplevel_v2_window_layer": 96797313, // 3503
+			"toplevel_v2_window_background_layer": 96797314, // 3504
+			"toplevel_v2_window_content_layer": 96797315, // 3505
+			"toplevel_v2_window_border_layer": 96797316, // 3506
 			"toplevel_v2_window_skin_data": 21260, // 3518
 			"toplevel_v2_window_constricted_by": 1000, // 3520
 			"toplevel_v2_window_allow_move": 1, // 3526
@@ -169487,7 +170242,7 @@
 			"toplevel_v2_window_interface": 1448, // 3444
 			"toplevel_v2_parent_banner_left": 21667, // 3445
 			"toplevel_v2_parent_banner_right": 21670, // 3447
-			"toplevel_v2_parent_tab_struct_1": 26398, // 3448
+			"toplevel_v2_parent_tab_struct_1": 19073, // 3448
 			"toplevel_v2_parent_tab_struct_2": 21170, // 3449
 			"toplevel_v2_parent_tab_struct_3": 21171, // 3450
 			"toplevel_v2_parent_tab_struct_4": 28840, // 3451
@@ -170163,14 +170918,10 @@
 			"toplevel_v2_window_titled_bottom_left_height": 6, // 3560
 			"toplevel_v2_window_titled_bottom_right_width": 6, // 3561
 			"toplevel_v2_window_titled_bottom_right_height": 6, // 3562
-			"toplevel_v2_window_titled_close_bg_width": 16, // 3563
-			"toplevel_v2_window_titled_close_bg_height": 16, // 3564
-			"toplevel_v2_window_titled_close_width": 16, // 3565
-			"toplevel_v2_window_titled_close_height": 16, // 3566
-			"toplevel_v2_window_titled_close_button_offset_x": 15, // 3573
-			"toplevel_v2_window_titled_close_button_offset_y": 15, // 3574
-			"toplevel_v2_window_titled_close_button_bg_offset_x": 15, // 3575
-			"toplevel_v2_window_titled_close_button_bg_offset_y": 15, // 3576
+			"toplevel_v2_window_titled_close_width": 19, // 3565
+			"toplevel_v2_window_titled_close_height": 19, // 3566
+			"toplevel_v2_window_titled_close_button_offset_x": 11, // 3573
+			"toplevel_v2_window_titled_close_button_offset_y": 11, // 3574
 			"toplevel_v2_window_border_top_left_graphic": 20272, // 3590
 			"toplevel_v2_window_border_top_right_graphic": 20272, // 3591
 			"toplevel_v2_window_border_bottom_left_graphic": 20278, // 3592
@@ -170180,8 +170931,8 @@
 			"toplevel_v2_window_border_left_graphic": 20275, // 3596
 			"toplevel_v2_window_border_right_graphic": 20275, // 3597
 			"toplevel_v2_window_titlebar_graphic": 20274, // 3598
-			"toplevel_v2_window_close_button_graphic": 18638, // 3602
-			"toplevel_v2_window_close_button_graphic_over": 18639, // 3603
+			"toplevel_v2_window_close_button_graphic": 32974, // 3602
+			"toplevel_v2_window_close_button_graphic_over": 32975, // 3603
 			"toplevel_v2_window_background_graphic": 18035, // 3619
 			"toplevel_v2_window_titled_title_offset_y": 0 // 3652
 		},
@@ -170801,8 +171552,8 @@
 			"toplevel_v2_window_titled_bottom_left_height": 4, // 3560
 			"toplevel_v2_window_titled_bottom_right_width": 4, // 3561
 			"toplevel_v2_window_titled_bottom_right_height": 4, // 3562
-			"toplevel_v2_window_titled_close_width": 15, // 3565
-			"toplevel_v2_window_titled_close_height": 15, // 3566
+			"toplevel_v2_window_titled_close_width": 12, // 3565
+			"toplevel_v2_window_titled_close_height": 12, // 3566
 			"toplevel_v2_window_titled_icon_width": 15, // 3567
 			"toplevel_v2_window_titled_icon_height": 15, // 3568
 			"toplevel_v2_window_border_top_left_graphic": 18193, // 3590
@@ -172153,10 +172904,10 @@
 			"toplevel_v2_window_size_struct": 21327, // 3494
 			"toplevel_v2_window_min_width": 190, // 3499
 			"toplevel_v2_window_min_height": 261, // 3500
-			"toplevel_v2_window_layer": 96797311, // 3503
-			"toplevel_v2_window_background_layer": 96797312, // 3504
-			"toplevel_v2_window_content_layer": 96797313, // 3505
-			"toplevel_v2_window_border_layer": 96797314, // 3506
+			"toplevel_v2_window_layer": 96797309, // 3503
+			"toplevel_v2_window_background_layer": 96797310, // 3504
+			"toplevel_v2_window_content_layer": 96797311, // 3505
+			"toplevel_v2_window_border_layer": 96797312, // 3506
 			"toplevel_v2_window_skin_data": 21260, // 3518
 			"toplevel_v2_window_constricted_by": 1000, // 3520
 			"toplevel_v2_window_allow_move": 1, // 3526
@@ -172218,10 +172969,10 @@
 	{
 		"extra": {
 			"toplevel_v2_window_name": "XP Tracker", // 3493 chisel:interface_name
-			"toplevel_v2_window_layer": 96797271, // 3503
-			"toplevel_v2_window_background_layer": 96797272, // 3504
-			"toplevel_v2_window_content_layer": 96797273, // 3505
-			"toplevel_v2_window_border_layer": 96797274, // 3506
+			"toplevel_v2_window_layer": 96797269, // 3503
+			"toplevel_v2_window_background_layer": 96797270, // 3504
+			"toplevel_v2_window_content_layer": 96797271, // 3505
+			"toplevel_v2_window_border_layer": 96797272, // 3506
 			"toplevel_v2_window_skin_data": 21272, // 3518
 			"toplevel_v2_window_allow_move": 1, // 3526
 			"toplevel_v2_window_resize_direction": 0, // 3527
@@ -172270,10 +173021,10 @@
 	{
 		"extra": {
 			"toplevel_v2_window_name": "Gravestone Items", // 3493 chisel:interface_name
-			"toplevel_v2_window_layer": 96797280, // 3503
-			"toplevel_v2_window_background_layer": 96797281, // 3504
-			"toplevel_v2_window_content_layer": 96797282, // 3505
-			"toplevel_v2_window_border_layer": 96797283, // 3506
+			"toplevel_v2_window_layer": 96797278, // 3503
+			"toplevel_v2_window_background_layer": 96797279, // 3504
+			"toplevel_v2_window_content_layer": 96797280, // 3505
+			"toplevel_v2_window_border_layer": 96797281, // 3506
 			"toplevel_v2_window_skin_data": 21263, // 3518
 			"toplevel_v2_window_allow_move": 1, // 3526
 			"toplevel_v2_window_resize_direction": 0, // 3527
@@ -172287,10 +173038,10 @@
 	{
 		"extra": {
 			"toplevel_v2_window_name": "Task Complete", // 3493 chisel:interface_name
-			"toplevel_v2_window_layer": 96797300, // 3503
-			"toplevel_v2_window_background_layer": 96797302, // 3504
-			"toplevel_v2_window_content_layer": 96797303, // 3505
-			"toplevel_v2_window_border_layer": 96797304, // 3506
+			"toplevel_v2_window_layer": 96797295, // 3503
+			"toplevel_v2_window_background_layer": 96797297, // 3504
+			"toplevel_v2_window_content_layer": 96797298, // 3505
+			"toplevel_v2_window_border_layer": 96797299, // 3506
 			"toplevel_v2_window_skin_data": 21264, // 3518
 			"toplevel_v2_window_allow_move": 1, // 3526
 			"toplevel_v2_window_resize_direction": 0, // 3527
@@ -172317,10 +173068,10 @@
 	{
 		"extra": {
 			"toplevel_v2_window_name": "Death Status", // 3493 chisel:interface_name
-			"toplevel_v2_window_layer": 96797292, // 3503
-			"toplevel_v2_window_background_layer": 96797293, // 3504
-			"toplevel_v2_window_content_layer": 96797294, // 3505
-			"toplevel_v2_window_border_layer": 96797295, // 3506
+			"toplevel_v2_window_layer": 96797290, // 3503
+			"toplevel_v2_window_background_layer": 96797291, // 3504
+			"toplevel_v2_window_content_layer": 96797292, // 3505
+			"toplevel_v2_window_border_layer": 96797293, // 3506
 			"toplevel_v2_window_skin_data": 21266, // 3518
 			"toplevel_v2_window_allow_move": 1, // 3526
 			"toplevel_v2_window_resize_direction": 0, // 3527
@@ -172337,10 +173088,10 @@
 			"toplevel_v2_window_size_struct": 44203, // 3494
 			"toplevel_v2_window_min_width": 32, // 3499
 			"toplevel_v2_window_min_height": 32, // 3500
-			"toplevel_v2_window_layer": 96797288, // 3503
-			"toplevel_v2_window_background_layer": 96797289, // 3504
-			"toplevel_v2_window_content_layer": 96797290, // 3505
-			"toplevel_v2_window_border_layer": 96797291, // 3506
+			"toplevel_v2_window_layer": 96797286, // 3503
+			"toplevel_v2_window_background_layer": 96797287, // 3504
+			"toplevel_v2_window_content_layer": 96797288, // 3505
+			"toplevel_v2_window_border_layer": 96797289, // 3506
 			"toplevel_v2_window_skin_data": 21267, // 3518
 			"toplevel_v2_window_allow_move": 1, // 3526
 			"toplevel_v2_window_resize_direction": 3, // 3527
@@ -172355,10 +173106,10 @@
 	{
 		"extra": {
 			"toplevel_v2_window_name": "Area Status", // 3493 chisel:interface_name
-			"toplevel_v2_window_layer": 96797305, // 3503
-			"toplevel_v2_window_background_layer": 96797306, // 3504
-			"toplevel_v2_window_content_layer": 96797307, // 3505
-			"toplevel_v2_window_border_layer": 96797308, // 3506
+			"toplevel_v2_window_layer": 96797303, // 3503
+			"toplevel_v2_window_background_layer": 96797304, // 3504
+			"toplevel_v2_window_content_layer": 96797305, // 3505
+			"toplevel_v2_window_border_layer": 96797306, // 3506
 			"toplevel_v2_window_skin_data": 21268, // 3518
 			"toplevel_v2_window_allow_move": 1, // 3526
 			"toplevel_v2_window_resize_direction": 0, // 3527
@@ -172372,10 +173123,10 @@
 	{
 		"extra": {
 			"toplevel_v2_window_name": "Crafting Progress", // 3493 chisel:interface_name
-			"toplevel_v2_window_layer": 96797296, // 3503
-			"toplevel_v2_window_background_layer": 96797297, // 3504
-			"toplevel_v2_window_content_layer": 96797298, // 3505
-			"toplevel_v2_window_border_layer": 96797299, // 3506
+			"toplevel_v2_window_layer": 96797294, // 3503
+			"toplevel_v2_window_background_layer": 96797300, // 3504
+			"toplevel_v2_window_content_layer": 96797301, // 3505
+			"toplevel_v2_window_border_layer": 96797302, // 3506
 			"toplevel_v2_window_skin_data": 21271, // 3518
 			"toplevel_v2_window_allow_move": 1, // 3526
 			"toplevel_v2_window_resize_direction": 0, // 3527
@@ -180739,14 +181490,10 @@
 			"toplevel_v2_window_titled_bottom_left_height": 6, // 3560
 			"toplevel_v2_window_titled_bottom_right_width": 6, // 3561
 			"toplevel_v2_window_titled_bottom_right_height": 6, // 3562
-			"toplevel_v2_window_titled_close_bg_width": 16, // 3563
-			"toplevel_v2_window_titled_close_bg_height": 16, // 3564
-			"toplevel_v2_window_titled_close_width": 16, // 3565
-			"toplevel_v2_window_titled_close_height": 16, // 3566
-			"toplevel_v2_window_titled_close_button_offset_x": 15, // 3573
-			"toplevel_v2_window_titled_close_button_offset_y": 15, // 3574
-			"toplevel_v2_window_titled_close_button_bg_offset_x": 15, // 3575
-			"toplevel_v2_window_titled_close_button_bg_offset_y": 15, // 3576
+			"toplevel_v2_window_titled_close_width": 19, // 3565
+			"toplevel_v2_window_titled_close_height": 19, // 3566
+			"toplevel_v2_window_titled_close_button_offset_x": 11, // 3573
+			"toplevel_v2_window_titled_close_button_offset_y": 11, // 3574
 			"toplevel_v2_window_border_top_left_graphic": 20272, // 3590
 			"toplevel_v2_window_border_top_right_graphic": 20272, // 3591
 			"toplevel_v2_window_border_bottom_left_graphic": 20278, // 3592
@@ -180756,8 +181503,8 @@
 			"toplevel_v2_window_border_left_graphic": 20275, // 3596
 			"toplevel_v2_window_border_right_graphic": 20275, // 3597
 			"toplevel_v2_window_titlebar_graphic": 20274, // 3598
-			"toplevel_v2_window_close_button_graphic": 18638, // 3602
-			"toplevel_v2_window_close_button_graphic_over": 18639, // 3603
+			"toplevel_v2_window_close_button_graphic": 32974, // 3602
+			"toplevel_v2_window_close_button_graphic_over": 32975, // 3603
 			"toplevel_v2_window_background_graphic": 6963, // 3619
 			"toplevel_v2_window_titled_title_offset_y": 0, // 3652
 			"toplevel_v2_window_title_align": 1, // 3796
@@ -180771,10 +181518,10 @@
 		"extra": {
 			"toplevel_v2_window_name": "Split Private Chat", // 3493 chisel:interface_name
 			"toplevel_v2_window_size_struct": 23003, // 3494
-			"toplevel_v2_window_layer": 96797319, // 3503
-			"toplevel_v2_window_background_layer": 96797320, // 3504
-			"toplevel_v2_window_content_layer": 96797321, // 3505
-			"toplevel_v2_window_border_layer": 96797322, // 3506
+			"toplevel_v2_window_layer": 96797317, // 3503
+			"toplevel_v2_window_background_layer": 96797318, // 3504
+			"toplevel_v2_window_content_layer": 96797319, // 3505
+			"toplevel_v2_window_border_layer": 96797320, // 3506
 			"toplevel_v2_window_skin_data": 23082, // 3518
 			"toplevel_v2_window_allow_move": 1, // 3526
 			"toplevel_v2_window_resize_direction": 3, // 3527
@@ -213281,10 +214028,10 @@
 	{
 		"extra": {
 			"toplevel_v2_window_name": "Combat Target", // 3493 chisel:interface_name
-			"toplevel_v2_window_layer": 96797267, // 3503
-			"toplevel_v2_window_background_layer": 96797268, // 3504
-			"toplevel_v2_window_content_layer": 96797269, // 3505
-			"toplevel_v2_window_border_layer": 96797270, // 3506
+			"toplevel_v2_window_layer": 96797265, // 3503
+			"toplevel_v2_window_background_layer": 96797266, // 3504
+			"toplevel_v2_window_content_layer": 96797267, // 3505
+			"toplevel_v2_window_border_layer": 96797268, // 3506
 			"toplevel_v2_window_skin_data": 21267, // 3518
 			"toplevel_v2_window_allow_move": 1, // 3526
 			"toplevel_v2_window_resize_direction": 0, // 3527
@@ -216180,14 +216927,10 @@
 			"toplevel_v2_window_titled_bottom_left_height": 6, // 3560
 			"toplevel_v2_window_titled_bottom_right_width": 6, // 3561
 			"toplevel_v2_window_titled_bottom_right_height": 6, // 3562
-			"toplevel_v2_window_titled_close_bg_width": 16, // 3563
-			"toplevel_v2_window_titled_close_bg_height": 16, // 3564
-			"toplevel_v2_window_titled_close_width": 16, // 3565
-			"toplevel_v2_window_titled_close_height": 16, // 3566
-			"toplevel_v2_window_titled_close_button_offset_x": 15, // 3573
-			"toplevel_v2_window_titled_close_button_offset_y": 15, // 3574
-			"toplevel_v2_window_titled_close_button_bg_offset_x": 15, // 3575
-			"toplevel_v2_window_titled_close_button_bg_offset_y": 15, // 3576
+			"toplevel_v2_window_titled_close_width": 19, // 3565
+			"toplevel_v2_window_titled_close_height": 19, // 3566
+			"toplevel_v2_window_titled_close_button_offset_x": 11, // 3573
+			"toplevel_v2_window_titled_close_button_offset_y": 11, // 3574
 			"toplevel_v2_window_border_top_left_graphic": 20272, // 3590
 			"toplevel_v2_window_border_top_right_graphic": 20272, // 3591
 			"toplevel_v2_window_border_bottom_left_graphic": 20278, // 3592
@@ -216197,8 +216940,8 @@
 			"toplevel_v2_window_border_left_graphic": 20275, // 3596
 			"toplevel_v2_window_border_right_graphic": 20275, // 3597
 			"toplevel_v2_window_titlebar_graphic": 20274, // 3598
-			"toplevel_v2_window_close_button_graphic": 18638, // 3602
-			"toplevel_v2_window_close_button_graphic_over": 18639, // 3603
+			"toplevel_v2_window_close_button_graphic": 32974, // 3602
+			"toplevel_v2_window_close_button_graphic_over": 32975, // 3603
 			"toplevel_v2_window_background_graphic": 18035, // 3619
 			"toplevel_v2_window_titled_title_offset_y": 0 // 3652
 		},
@@ -221521,10 +222264,10 @@
 	{
 		"extra": {
 			"toplevel_v2_window_name": "Boss Kill Timer", // 3493 chisel:interface_name
-			"toplevel_v2_window_layer": 96797327, // 3503
-			"toplevel_v2_window_background_layer": 96797328, // 3504
-			"toplevel_v2_window_content_layer": 96797329, // 3505
-			"toplevel_v2_window_border_layer": 96797330, // 3506
+			"toplevel_v2_window_layer": 96797325, // 3503
+			"toplevel_v2_window_background_layer": 96797326, // 3504
+			"toplevel_v2_window_content_layer": 96797327, // 3505
+			"toplevel_v2_window_border_layer": 96797328, // 3506
 			"toplevel_v2_window_skin_data": 21267, // 3518
 			"toplevel_v2_window_allow_move": 1, // 3526
 			"toplevel_v2_window_resize_direction": 0, // 3527
@@ -236011,10 +236754,10 @@
 	{
 		"extra": {
 			"toplevel_v2_window_name": "Clock", // 3493 chisel:interface_name
-			"toplevel_v2_window_layer": 96797335, // 3503
-			"toplevel_v2_window_background_layer": 96797336, // 3504
-			"toplevel_v2_window_content_layer": 96797337, // 3505
-			"toplevel_v2_window_border_layer": 96797338, // 3506
+			"toplevel_v2_window_layer": 96797333, // 3503
+			"toplevel_v2_window_background_layer": 96797334, // 3504
+			"toplevel_v2_window_content_layer": 96797335, // 3505
+			"toplevel_v2_window_border_layer": 96797336, // 3506
 			"toplevel_v2_window_skin_data": 21273, // 3518
 			"toplevel_v2_window_allow_move": 1, // 3526
 			"toplevel_v2_window_resize_direction": 0, // 3527
@@ -237868,10 +238611,10 @@
 	{
 		"extra": {
 			"toplevel_v2_window_name": "XP Popups", // 3493 chisel:interface_name
-			"toplevel_v2_window_layer": 96797339, // 3503
-			"toplevel_v2_window_background_layer": 96797340, // 3504
-			"toplevel_v2_window_content_layer": 96797341, // 3505
-			"toplevel_v2_window_border_layer": 96797342, // 3506
+			"toplevel_v2_window_layer": 96797337, // 3503
+			"toplevel_v2_window_background_layer": 96797338, // 3504
+			"toplevel_v2_window_content_layer": 96797339, // 3505
+			"toplevel_v2_window_border_layer": 96797340, // 3506
 			"toplevel_v2_window_skin_data": 21272, // 3518
 			"toplevel_v2_window_allow_move": 1, // 3526
 			"toplevel_v2_window_resize_direction": 0, // 3527
@@ -248526,10 +249269,10 @@
 	{
 		"extra": {
 			"toplevel_v2_window_name": "JMod Toolbox", // 3493 chisel:interface_name
-			"toplevel_v2_window_layer": 96797343, // 3503
-			"toplevel_v2_window_background_layer": 96797344, // 3504
-			"toplevel_v2_window_content_layer": 96797345, // 3505
-			"toplevel_v2_window_border_layer": 96797346, // 3506
+			"toplevel_v2_window_layer": 96797341, // 3503
+			"toplevel_v2_window_background_layer": 96797342, // 3504
+			"toplevel_v2_window_content_layer": 96797343, // 3505
+			"toplevel_v2_window_border_layer": 96797344, // 3506
 			"toplevel_v2_window_skin_data": 21273, // 3518
 			"toplevel_v2_window_allow_move": 1, // 3526
 			"toplevel_v2_window_resize_direction": 0, // 3527
@@ -251109,10 +251852,10 @@
 	{
 		"extra": {
 			"toplevel_v2_window_name": "Debug text", // 3493 chisel:interface_name
-			"toplevel_v2_window_layer": 96797275, // 3503
-			"toplevel_v2_window_background_layer": 96797276, // 3504
-			"toplevel_v2_window_content_layer": 96797277, // 3505
-			"toplevel_v2_window_border_layer": 96797279, // 3506
+			"toplevel_v2_window_layer": 96797273, // 3503
+			"toplevel_v2_window_background_layer": 96797274, // 3504
+			"toplevel_v2_window_content_layer": 96797275, // 3505
+			"toplevel_v2_window_border_layer": 96797277, // 3506
 			"toplevel_v2_window_skin_data": 21272, // 3518
 			"toplevel_v2_window_allow_move": 1, // 3526
 			"toplevel_v2_window_resize_direction": 0, // 3527
@@ -253961,10 +254704,10 @@
 	{
 		"extra": {
 			"toplevel_v2_window_name": "Challenge Gem", // 3493 chisel:interface_name
-			"toplevel_v2_window_layer": 96797351, // 3503
-			"toplevel_v2_window_background_layer": 96797352, // 3504
-			"toplevel_v2_window_content_layer": 96797353, // 3505
-			"toplevel_v2_window_border_layer": 96797354, // 3506
+			"toplevel_v2_window_layer": 96797349, // 3503
+			"toplevel_v2_window_background_layer": 96797350, // 3504
+			"toplevel_v2_window_content_layer": 96797351, // 3505
+			"toplevel_v2_window_border_layer": 96797352, // 3506
 			"toplevel_v2_window_skin_data": 29003, // 3518
 			"toplevel_v2_window_allow_move": 1, // 3526
 			"toplevel_v2_window_resize_direction": 0, // 3527
@@ -254530,10 +255273,10 @@
 	{
 		"extra": {
 			"toplevel_v2_window_name": "Slayer Counter", // 3493 chisel:interface_name
-			"toplevel_v2_window_layer": 96797347, // 3503
-			"toplevel_v2_window_background_layer": 96797348, // 3504
-			"toplevel_v2_window_content_layer": 96797349, // 3505
-			"toplevel_v2_window_border_layer": 96797350, // 3506
+			"toplevel_v2_window_layer": 96797345, // 3503
+			"toplevel_v2_window_background_layer": 96797346, // 3504
+			"toplevel_v2_window_content_layer": 96797347, // 3505
+			"toplevel_v2_window_border_layer": 96797348, // 3506
 			"toplevel_v2_window_skin_data": 21272, // 3518
 			"toplevel_v2_window_allow_move": 1, // 3526
 			"toplevel_v2_window_resize_direction": 0, // 3527
@@ -273701,10 +274444,10 @@
 			"toplevel_v2_window_name": "Events", // 3493 chisel:interface_name
 			"toplevel_v2_window_min_width": 116, // 3499
 			"toplevel_v2_window_min_height": 75, // 3500
-			"toplevel_v2_window_layer": 96797263, // 3503
-			"toplevel_v2_window_background_layer": 96797264, // 3504
-			"toplevel_v2_window_content_layer": 96797265, // 3505
-			"toplevel_v2_window_border_layer": 96797266, // 3506
+			"toplevel_v2_window_layer": 96797261, // 3503
+			"toplevel_v2_window_background_layer": 96797262, // 3504
+			"toplevel_v2_window_content_layer": 96797263, // 3505
+			"toplevel_v2_window_border_layer": 96797264, // 3506
 			"toplevel_v2_window_skin_data": 21260, // 3518
 			"toplevel_v2_window_allow_move": 1, // 3526
 			"toplevel_v2_window_resize_direction": 0, // 3527
@@ -299578,8 +300321,8 @@
 			"toplevel_v2_window_titled_bottom_left_height": 2, // 3560
 			"toplevel_v2_window_titled_bottom_right_width": 2, // 3561
 			"toplevel_v2_window_titled_bottom_right_height": 2, // 3562
-			"toplevel_v2_window_titled_close_width": 15, // 3565
-			"toplevel_v2_window_titled_close_height": 15, // 3566
+			"toplevel_v2_window_titled_close_width": 12, // 3565
+			"toplevel_v2_window_titled_close_height": 12, // 3566
 			"toplevel_v2_window_titled_icon_width": 0, // 3567
 			"toplevel_v2_window_titled_icon_height": 0, // 3568
 			"toplevel_v2_window_border_top_left_graphic": 32990, // 3590
@@ -299661,10 +300404,10 @@
 			"toplevel_v2_window_size_struct": 44203, // 3494
 			"toplevel_v2_window_min_width": 32, // 3499
 			"toplevel_v2_window_min_height": 32, // 3500
-			"toplevel_v2_window_layer": 96797284, // 3503
-			"toplevel_v2_window_background_layer": 96797285, // 3504
-			"toplevel_v2_window_content_layer": 96797286, // 3505
-			"toplevel_v2_window_border_layer": 96797287, // 3506
+			"toplevel_v2_window_layer": 96797282, // 3503
+			"toplevel_v2_window_background_layer": 96797283, // 3504
+			"toplevel_v2_window_content_layer": 96797284, // 3505
+			"toplevel_v2_window_border_layer": 96797285, // 3506
 			"toplevel_v2_window_skin_data": 21267, // 3518
 			"toplevel_v2_window_allow_move": 1, // 3526
 			"toplevel_v2_window_resize_direction": 3, // 3527
@@ -336656,10 +337399,10 @@
 			"toplevel_v2_window_name": "Dungeoneering Map", // 3493 chisel:interface_name
 			"toplevel_v2_window_min_width": 280, // 3499
 			"toplevel_v2_window_min_height": 280, // 3500
-			"toplevel_v2_window_layer": 96797259, // 3503
-			"toplevel_v2_window_background_layer": 96797260, // 3504
-			"toplevel_v2_window_content_layer": 96797261, // 3505
-			"toplevel_v2_window_border_layer": 96797262, // 3506
+			"toplevel_v2_window_layer": 96797257, // 3503
+			"toplevel_v2_window_background_layer": 96797258, // 3504
+			"toplevel_v2_window_content_layer": 96797259, // 3505
+			"toplevel_v2_window_border_layer": 96797260, // 3506
 			"toplevel_v2_window_skin_data": 21267, // 3518
 			"toplevel_v2_window_allow_move": 1, // 3526
 			"toplevel_v2_window_resize_direction": 0, // 3527
@@ -338517,7 +339260,7 @@
 	{
 		"extra": {
 			"combatv2_ability_name": "You have a prayer active, draining your prayer points.", // 2794 chisel:spell_name
-			"combatv2_ability_icon": 25835, // 2802 chisel:spell_prayer_ability_sprite
+			"combatv2_ability_icon": 18857, // 2802 chisel:spell_prayer_ability_sprite
 			"combatv2_buff_type": 1, // 8109 chisel:is_burn
 			"combatv2_buff_uses_bespoke_text": 1, // 8113
 			"combatv2_buff_category": 10, // 8114 chisel:buff_category
@@ -350444,7 +351187,9 @@
 			"minimenu_fontcolour": 14404518, // 7273
 			"minimenu_fonthighlightcolour": 15656390, // 7274
 			"minimenu_font": 69, // 7275
-			"minimenu_entry_draw_height": 16 // 7276
+			"minimenu_entry_draw_height": 16, // 7276
+			"activity_progress_bar_hide_animation": 3, // 8869
+			"extra_002506": 2 // 9478
 		},
 		"id": 40069
 	},
@@ -350466,7 +351211,8 @@
 			"minimenu_fontcolour": 14404518, // 7273
 			"minimenu_fonthighlightcolour": 15656390, // 7274
 			"minimenu_font": 170, // 7275
-			"minimenu_entry_draw_height": 35 // 7276
+			"minimenu_entry_draw_height": 35, // 7276
+			"activity_progress_bar_hide_animation": 6 // 8869
 		},
 		"id": 40070
 	},
@@ -351277,10 +352023,10 @@
 	{
 		"extra": {
 			"toplevel_v2_window_name": "Extra Action Button", // 3493 chisel:interface_name
-			"toplevel_v2_window_layer": 96797255, // 3503
-			"toplevel_v2_window_background_layer": 96797256, // 3504
-			"toplevel_v2_window_content_layer": 96797257, // 3505
-			"toplevel_v2_window_border_layer": 96797258, // 3506
+			"toplevel_v2_window_layer": 96797253, // 3503
+			"toplevel_v2_window_background_layer": 96797254, // 3504
+			"toplevel_v2_window_content_layer": 96797255, // 3505
+			"toplevel_v2_window_border_layer": 96797256, // 3506
 			"toplevel_v2_window_skin_data": 21272, // 3518
 			"toplevel_v2_window_allow_move": 1, // 3526
 			"toplevel_v2_window_resize_direction": 0, // 3527
@@ -352575,14 +353321,10 @@
 			"toplevel_v2_window_titled_bottom_left_height": 6, // 3560
 			"toplevel_v2_window_titled_bottom_right_width": 6, // 3561
 			"toplevel_v2_window_titled_bottom_right_height": 6, // 3562
-			"toplevel_v2_window_titled_close_bg_width": 16, // 3563
-			"toplevel_v2_window_titled_close_bg_height": 16, // 3564
-			"toplevel_v2_window_titled_close_width": 16, // 3565
-			"toplevel_v2_window_titled_close_height": 16, // 3566
-			"toplevel_v2_window_titled_close_button_offset_x": 15, // 3573
-			"toplevel_v2_window_titled_close_button_offset_y": 15, // 3574
-			"toplevel_v2_window_titled_close_button_bg_offset_x": 15, // 3575
-			"toplevel_v2_window_titled_close_button_bg_offset_y": 15, // 3576
+			"toplevel_v2_window_titled_close_width": 19, // 3565
+			"toplevel_v2_window_titled_close_height": 19, // 3566
+			"toplevel_v2_window_titled_close_button_offset_x": 11, // 3573
+			"toplevel_v2_window_titled_close_button_offset_y": 11, // 3574
 			"toplevel_v2_window_border_top_left_graphic": 5597, // 3590
 			"toplevel_v2_window_border_top_right_graphic": 5597, // 3591
 			"toplevel_v2_window_border_bottom_left_graphic": 20278, // 3592
@@ -396251,10 +396993,10 @@
 	{
 		"extra": {
 			"toplevel_v2_window_name": "Combat Mode Icon", // 3493 chisel:interface_name
-			"toplevel_v2_window_layer": 96797247, // 3503
-			"toplevel_v2_window_background_layer": 96797248, // 3504
-			"toplevel_v2_window_content_layer": 96797249, // 3505
-			"toplevel_v2_window_border_layer": 96797250, // 3506
+			"toplevel_v2_window_layer": 96797245, // 3503
+			"toplevel_v2_window_background_layer": 96797246, // 3504
+			"toplevel_v2_window_content_layer": 96797247, // 3505
+			"toplevel_v2_window_border_layer": 96797248, // 3506
 			"toplevel_v2_window_skin_data": 21272, // 3518
 			"toplevel_v2_window_allow_move": 1, // 3526
 			"toplevel_v2_window_resize_direction": 0, // 3527
@@ -409746,10 +410488,10 @@
 	{
 		"extra": {
 			"toplevel_v2_window_name": "Boss Instance Timer", // 3493 chisel:interface_name
-			"toplevel_v2_window_layer": 96797323, // 3503
-			"toplevel_v2_window_background_layer": 96797324, // 3504
-			"toplevel_v2_window_content_layer": 96797325, // 3505
-			"toplevel_v2_window_border_layer": 96797326, // 3506
+			"toplevel_v2_window_layer": 96797321, // 3503
+			"toplevel_v2_window_background_layer": 96797322, // 3504
+			"toplevel_v2_window_content_layer": 96797323, // 3505
+			"toplevel_v2_window_border_layer": 96797324, // 3506
 			"toplevel_v2_window_skin_data": 21267, // 3518
 			"toplevel_v2_window_allow_move": 1, // 3526
 			"toplevel_v2_window_resize_direction": 0, // 3527
@@ -437831,8 +438573,7 @@
 			"activity_progress_bar_variable_progress": 1, // 8851
 			"activity_progress_bar_area": 2762, // 8863
 			"activity_progress_bar_suboverlay": 1181, // 8865
-			"activity_progress_bar_bslay": 48463, // 8866
-			"activity_progress_bar_hide_animation": 1 // 8869
+			"activity_progress_bar_bslay": 48463 // 8866
 		},
 		"id": 47804
 	},
@@ -437843,8 +438584,7 @@
 			"activity_progress_bar_variable_progress": 1, // 8851
 			"activity_progress_bar_area": 2762, // 8863
 			"activity_progress_bar_suboverlay": 1181, // 8865
-			"activity_progress_bar_bslay": 48464, // 8866
-			"activity_progress_bar_hide_animation": 1 // 8869
+			"activity_progress_bar_bslay": 48464 // 8866
 		},
 		"id": 47805
 	},
@@ -443331,10 +444071,10 @@
 	{
 		"extra": {
 			"toplevel_v2_window_name": "Boss Health & Activity Progress Bar", // 3493 chisel:interface_name
-			"toplevel_v2_window_layer": 96797243, // 3503
-			"toplevel_v2_window_background_layer": 96797244, // 3504
-			"toplevel_v2_window_content_layer": 96797245, // 3505
-			"toplevel_v2_window_border_layer": 96797246, // 3506
+			"toplevel_v2_window_layer": 96797360, // 3503
+			"toplevel_v2_window_background_layer": 96797242, // 3504
+			"toplevel_v2_window_content_layer": 96797243, // 3505
+			"toplevel_v2_window_border_layer": 96797244, // 3506
 			"toplevel_v2_window_skin_data": 21267, // 3518
 			"toplevel_v2_window_allow_move": 1, // 3526
 			"toplevel_v2_window_resize_direction": 0, // 3527
@@ -446029,7 +446769,6 @@
 			"activity_progress_bar_area": 2777, // 8863
 			"activity_progress_bar_suboverlay": 1225, // 8865
 			"activity_progress_bar_data_type": 2, // 8867
-			"activity_progress_bar_hide_animation": 1, // 8869
 			"activity_progress_bar_suboverlay_delay": 0 // 8871
 		},
 		"id": 48450
@@ -453438,12 +454177,11 @@
 	},
 	{
 		"extra": {
-			"activity_progress_bar_name": "Zemouregal", // 8849 chisel:boss_bar_boss_name
+			"activity_progress_bar_name": "Zemouregal & Vorkath", // 8849 chisel:boss_bar_boss_name
 			"activity_progress_bar_max_progress": 250000, // 8850 chisel:boss_bar_boss_health
 			"activity_progress_bar_area": 2792, // 8863
 			"activity_progress_bar_suboverlay": 1181, // 8865
 			"activity_progress_bar_bslay": 49090, // 8866
-			"activity_progress_bar_hide_animation": 1, // 8869
 			"activity_progress_bar_suboverlay_delay": 0, // 8871
 			"activity_progress_bar_second_healthbar": 49043, // 8990
 			"activity_progress_bar_extension_delay": 10 // 8991
@@ -453452,13 +454190,13 @@
 	},
 	{
 		"extra": {
-			"activity_progress_bar_name": "Vorkath", // 8849 chisel:boss_bar_boss_name
+			"activity_progress_bar_name": "Zemouregal & Vorkath", // 8849 chisel:boss_bar_boss_name
 			"activity_progress_bar_max_progress": 750000, // 8850 chisel:boss_bar_boss_health
 			"activity_progress_bar_marker_1_pos": 75, // 8853
 			"activity_progress_bar_marker_2_pos": 50, // 8854
 			"activity_progress_bar_progress_markers": 1, // 8859
 			"activity_progress_bar_area": 2792, // 8863
-			"activity_progress_bar_hide_animation": 1 // 8869
+			"activity_progress_bar_hide_name": 1 // 8870
 		},
 		"id": 49043
 	},
@@ -454520,10 +455258,10 @@
 	{
 		"extra": {
 			"toplevel_v2_window_name": "Info Box", // 3493 chisel:interface_name
-			"toplevel_v2_window_layer": 96797355, // 3503
-			"toplevel_v2_window_background_layer": 96797356, // 3504
-			"toplevel_v2_window_content_layer": 96797357, // 3505
-			"toplevel_v2_window_border_layer": 96797358, // 3506
+			"toplevel_v2_window_layer": 96797353, // 3503
+			"toplevel_v2_window_background_layer": 96797354, // 3504
+			"toplevel_v2_window_content_layer": 96797355, // 3505
+			"toplevel_v2_window_border_layer": 96797356, // 3506
 			"toplevel_v2_window_skin_data": 21272, // 3518
 			"toplevel_v2_window_allow_move": 1, // 3526
 			"toplevel_v2_window_resize_direction": 0, // 3527
@@ -457994,7 +458732,6 @@
 			"activity_progress_bar_area": 2809, // 8863
 			"activity_progress_bar_suboverlay": 1225, // 8865
 			"activity_progress_bar_data_type": 2, // 8867
-			"activity_progress_bar_hide_animation": 1, // 8869
 			"activity_progress_bar_suboverlay_delay": 0 // 8871
 		},
 		"id": 49395
@@ -459017,10 +459754,10 @@
 			"toplevel_v2_window_size_struct": 49466, // 3494
 			"toplevel_v2_window_min_width": 128, // 3499
 			"toplevel_v2_window_min_height": 58, // 3500
-			"toplevel_v2_window_layer": 96797239, // 3503
-			"toplevel_v2_window_background_layer": 96797240, // 3504
-			"toplevel_v2_window_content_layer": 96797241, // 3505
-			"toplevel_v2_window_border_layer": 96797242, // 3506
+			"toplevel_v2_window_layer": 96797358, // 3503
+			"toplevel_v2_window_background_layer": 96797239, // 3504
+			"toplevel_v2_window_content_layer": 96797240, // 3505
+			"toplevel_v2_window_border_layer": 96797241, // 3506
 			"toplevel_v2_window_skin_data": 21267, // 3518
 			"toplevel_v2_window_allow_move": 1, // 3526
 			"toplevel_v2_window_resize_direction": 1, // 3527
@@ -463815,8 +464552,7 @@
 			"activity_progress_bar_max_progress": 350000, // 8850 chisel:boss_bar_boss_health
 			"activity_progress_bar_variable_progress": 1, // 8851
 			"activity_progress_bar_area": 2811, // 8863
-			"activity_progress_bar_bslay": 45061, // 8866
-			"activity_progress_bar_hide_animation": 1 // 8869
+			"activity_progress_bar_bslay": 45061 // 8866
 		},
 		"id": 49825
 	},
@@ -465855,8 +466591,7 @@
 			"activity_progress_bar_area": 2816, // 8863
 			"activity_progress_bar_display_outside_area": 1, // 8864
 			"activity_progress_bar_suboverlay": 1181, // 8865
-			"activity_progress_bar_bslay": 50088, // 8866
-			"activity_progress_bar_hide_animation": 1 // 8869
+			"activity_progress_bar_bslay": 50088 // 8866
 		},
 		"id": 49995
 	},
@@ -465872,8 +466607,7 @@
 			"activity_progress_bar_area": 2816, // 8863
 			"activity_progress_bar_display_outside_area": 1, // 8864
 			"activity_progress_bar_suboverlay": 1181, // 8865
-			"activity_progress_bar_bslay": 50089, // 8866
-			"activity_progress_bar_hide_animation": 1 // 8869
+			"activity_progress_bar_bslay": 50089 // 8866
 		},
 		"id": 49996
 	},
@@ -465888,8 +466622,7 @@
 			"activity_progress_bar_display_outside_area": 1, // 8864
 			"activity_progress_bar_suboverlay": 1181, // 8865
 			"activity_progress_bar_bslay": 50090, // 8866
-			"activity_progress_bar_data_type": 2, // 8867
-			"activity_progress_bar_hide_animation": 1 // 8869
+			"activity_progress_bar_data_type": 2 // 8867
 		},
 		"id": 49997
 	},
@@ -468494,7 +469227,6 @@
 			"activity_progress_bar_colour": 16007990, // 8860
 			"activity_progress_bar_area": 2820, // 8863
 			"activity_progress_bar_suboverlay": 1181, // 8865
-			"activity_progress_bar_hide_animation": 1, // 8869
 			"activity_progress_bar_custom_start_progress": 1, // 9155
 			"activity_progress_bar_sprite_override": 25573, // 9156
 			"activity_progress_bar_underlay_colour": 957373 // 9157
@@ -468508,8 +469240,7 @@
 			"activity_progress_bar_colour": 4555665, // 8860
 			"activity_progress_bar_area": 2817, // 8863
 			"activity_progress_bar_suboverlay": 1181, // 8865
-			"activity_progress_bar_data_type": 2, // 8867
-			"activity_progress_bar_hide_animation": 1 // 8869
+			"activity_progress_bar_data_type": 2 // 8867
 		},
 		"id": 50216
 	},
@@ -469332,8 +470063,7 @@
 		"extra": {
 			"activity_progress_bar_max_progress": 100, // 8850 chisel:boss_bar_boss_health
 			"activity_progress_bar_area": 2828, // 8863
-			"activity_progress_bar_data_type": 2, // 8867
-			"activity_progress_bar_hide_animation": 1 // 8869
+			"activity_progress_bar_data_type": 2 // 8867
 		},
 		"id": 50279
 	},
@@ -483478,8 +484208,7 @@
 			"activity_progress_bar_name": "Mount Training", // 8849 chisel:boss_bar_boss_name
 			"activity_progress_bar_max_progress": 10000, // 8850 chisel:boss_bar_boss_health
 			"activity_progress_bar_area": 2841, // 8863
-			"activity_progress_bar_data_type": 2, // 8867
-			"activity_progress_bar_hide_animation": 1 // 8869
+			"activity_progress_bar_data_type": 2 // 8867
 		},
 		"id": 51468
 	},
@@ -488073,8 +488802,7 @@
 			"activity_progress_bar_display_outside_area": 1, // 8864
 			"activity_progress_bar_suboverlay": 1181, // 8865
 			"activity_progress_bar_bslay": 52079, // 8866
-			"activity_progress_bar_data_type": 2, // 8867
-			"activity_progress_bar_hide_animation": 1 // 8869
+			"activity_progress_bar_data_type": 2 // 8867
 		},
 		"id": 51839
 	},
@@ -488358,8 +489086,7 @@
 			"activity_progress_bar_progress_markers": 1, // 8859
 			"activity_progress_bar_area": 2852, // 8863
 			"activity_progress_bar_suboverlay": 1181, // 8865
-			"activity_progress_bar_data_type": 1, // 8867
-			"activity_progress_bar_hide_animation": 1 // 8869
+			"activity_progress_bar_data_type": 1 // 8867
 		},
 		"id": 51865
 	},
@@ -492686,8 +493413,7 @@
 			"activity_progress_bar_name": "Portal Progress", // 8849 chisel:boss_bar_boss_name
 			"activity_progress_bar_colour": 3293352, // 8860
 			"activity_progress_bar_display_outside_area": 1, // 8864
-			"activity_progress_bar_data_type": 2, // 8867
-			"activity_progress_bar_hide_animation": 1 // 8869
+			"activity_progress_bar_data_type": 2 // 8867
 		},
 		"id": 52341
 	},
@@ -498588,8 +499314,7 @@
 			"activity_progress_bar_hide_progress": 0, // 8852
 			"activity_progress_bar_progress_markers": 1, // 8859
 			"activity_progress_bar_area": 2496, // 8863
-			"activity_progress_bar_suboverlay": 1181, // 8865
-			"activity_progress_bar_hide_animation": 1 // 8869
+			"activity_progress_bar_suboverlay": 1181 // 8865
 		},
 		"id": 52833
 	},
@@ -498601,8 +499326,7 @@
 			"activity_progress_bar_hide_progress": 0, // 8852
 			"activity_progress_bar_progress_markers": 1, // 8859
 			"activity_progress_bar_area": 2496, // 8863
-			"activity_progress_bar_suboverlay": 1181, // 8865
-			"activity_progress_bar_hide_animation": 1 // 8869
+			"activity_progress_bar_suboverlay": 1181 // 8865
 		},
 		"id": 52834
 	},
@@ -498614,8 +499338,7 @@
 			"activity_progress_bar_hide_progress": 0, // 8852
 			"activity_progress_bar_progress_markers": 1, // 8859
 			"activity_progress_bar_area": 2496, // 8863
-			"activity_progress_bar_suboverlay": 1181, // 8865
-			"activity_progress_bar_hide_animation": 1 // 8869
+			"activity_progress_bar_suboverlay": 1181 // 8865
 		},
 		"id": 52835
 	},
@@ -498627,8 +499350,7 @@
 			"activity_progress_bar_hide_progress": 0, // 8852
 			"activity_progress_bar_progress_markers": 1, // 8859
 			"activity_progress_bar_area": 2496, // 8863
-			"activity_progress_bar_suboverlay": 1181, // 8865
-			"activity_progress_bar_hide_animation": 1 // 8869
+			"activity_progress_bar_suboverlay": 1181 // 8865
 		},
 		"id": 52836
 	},
@@ -498640,8 +499362,7 @@
 			"activity_progress_bar_hide_progress": 0, // 8852
 			"activity_progress_bar_progress_markers": 1, // 8859
 			"activity_progress_bar_area": 2496, // 8863
-			"activity_progress_bar_suboverlay": 1181, // 8865
-			"activity_progress_bar_hide_animation": 1 // 8869
+			"activity_progress_bar_suboverlay": 1181 // 8865
 		},
 		"id": 52837
 	},
@@ -498653,8 +499374,7 @@
 			"activity_progress_bar_hide_progress": 0, // 8852
 			"activity_progress_bar_progress_markers": 1, // 8859
 			"activity_progress_bar_area": 2496, // 8863
-			"activity_progress_bar_suboverlay": 1181, // 8865
-			"activity_progress_bar_hide_animation": 1 // 8869
+			"activity_progress_bar_suboverlay": 1181 // 8865
 		},
 		"id": 52838
 	},
@@ -498666,8 +499386,7 @@
 			"activity_progress_bar_hide_progress": 0, // 8852
 			"activity_progress_bar_progress_markers": 1, // 8859
 			"activity_progress_bar_area": 2496, // 8863
-			"activity_progress_bar_suboverlay": 1181, // 8865
-			"activity_progress_bar_hide_animation": 1 // 8869
+			"activity_progress_bar_suboverlay": 1181 // 8865
 		},
 		"id": 52839
 	},
@@ -498679,8 +499398,7 @@
 			"activity_progress_bar_hide_progress": 0, // 8852
 			"activity_progress_bar_progress_markers": 1, // 8859
 			"activity_progress_bar_area": 2496, // 8863
-			"activity_progress_bar_suboverlay": 1181, // 8865
-			"activity_progress_bar_hide_animation": 1 // 8869
+			"activity_progress_bar_suboverlay": 1181 // 8865
 		},
 		"id": 52840
 	},
@@ -498690,8 +499408,7 @@
 			"activity_progress_bar_max_progress": 40000, // 8850 chisel:boss_bar_boss_health
 			"activity_progress_bar_variable_progress": 1, // 8851
 			"activity_progress_bar_area": 2897, // 8863
-			"activity_progress_bar_bslay": 53047, // 8866
-			"activity_progress_bar_hide_animation": 1 // 8869
+			"activity_progress_bar_bslay": 53047 // 8866
 		},
 		"id": 52841
 	},
@@ -498704,8 +499421,7 @@
 			"activity_progress_bar_marker_2_pos": 33, // 8854
 			"activity_progress_bar_progress_markers": 1, // 8859
 			"activity_progress_bar_area": 2898, // 8863
-			"activity_progress_bar_bslay": 53048, // 8866
-			"activity_progress_bar_hide_animation": 1 // 8869
+			"activity_progress_bar_bslay": 53048 // 8866
 		},
 		"id": 52842
 	},
@@ -500416,8 +501132,7 @@
 		"extra": {
 			"activity_progress_bar_name": "Sanguine heart", // 8849 chisel:boss_bar_boss_name
 			"activity_progress_bar_max_progress": 10000, // 8850 chisel:boss_bar_boss_health
-			"activity_progress_bar_area": 2896, // 8863
-			"activity_progress_bar_hide_animation": 1 // 8869
+			"activity_progress_bar_area": 2896 // 8863
 		},
 		"id": 52990
 	},
@@ -503994,7 +504709,7 @@
 	},
 	{
 		"extra": {
-			"skillguide_name": "Furniture limit increase: 125 pieces", // 2210 chisel:skillguide_what
+			"skillguide_name": "Furniture limit increase: 150 pieces", // 2210 chisel:skillguide_what
 			"skillguide_level": 65, // 2212 chisel:required_level?
 			"skillguide_item": 63208, // 2213
 			"skillguide_skill": 22, // 2215
@@ -504006,7 +504721,7 @@
 	},
 	{
 		"extra": {
-			"skillguide_name": "Furniture limit increase: 150 pieces", // 2210 chisel:skillguide_what
+			"skillguide_name": "Furniture limit increase: 200 pieces", // 2210 chisel:skillguide_what
 			"skillguide_level": 80, // 2212 chisel:required_level?
 			"skillguide_item": 63208, // 2213
 			"skillguide_skill": 22, // 2215
@@ -504018,7 +504733,7 @@
 	},
 	{
 		"extra": {
-			"skillguide_name": "Furniture limit increase: 200 pieces", // 2210 chisel:skillguide_what
+			"skillguide_name": "Furniture limit increase: 300 pieces", // 2210 chisel:skillguide_what
 			"skillguide_level": 95, // 2212 chisel:required_level?
 			"skillguide_item": 63208, // 2213
 			"skillguide_skill": 22, // 2215
@@ -504030,7 +504745,7 @@
 	},
 	{
 		"extra": {
-			"skillguide_name": "Furniture limit increase: 250 pieces", // 2210 chisel:skillguide_what
+			"skillguide_name": "Furniture limit increase: 400 pieces", // 2210 chisel:skillguide_what
 			"skillguide_level": 110, // 2212 chisel:required_level?
 			"skillguide_item": 63208, // 2213
 			"skillguide_skill": 22, // 2215
@@ -504042,7 +504757,7 @@
 	},
 	{
 		"extra": {
-			"skillguide_name": "Furniture limit increase: 300 pieces", // 2210 chisel:skillguide_what
+			"skillguide_name": "Furniture limit increase: 500 pieces", // 2210 chisel:skillguide_what
 			"skillguide_level": 115, // 2212 chisel:required_level?
 			"skillguide_item": 63208, // 2213
 			"skillguide_skill": 22, // 2215

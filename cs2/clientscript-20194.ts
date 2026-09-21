@@ -75,7 +75,7 @@ function script20194(): void {
         int22 = dbrow_getfield(int14, 1577008, 0);
         int23 = dbrow_getfield(int14, 1577024, 0);
         string1 = dbrow_getfield(int14, 1577040, 0);
-        int25 = dbrow_getfield(int14, 1577056, 0);
+        int25 = dbrow_getfield(int14, 1577072, 0);
         if (((int22 == -1) || (WORLDMAP_GETDISPLAYCOORD(int22) >= int23))) {
             int21 = 18459;
             string0 = "";
@@ -97,6 +97,14 @@ function script20194(): void {
                     string3 = "<sprite=35195>";
                     if ((STRING_LENGTH(string1) == 0)) {
                         string1 = "You can obtain this override from the Marketplace.";
+                    };
+                    break;
+                }
+                case 3: {
+                    script6235();
+                    string3 = [];
+                    if ((STRING_LENGTH(string1) == 0)) {
+                        string1 = "You can unlock this override from the Leagues reward shop.";
                     };
                     break;
                 }

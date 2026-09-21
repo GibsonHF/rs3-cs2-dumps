@@ -9,7 +9,7 @@ function script17557(int0: number, int1: number, string0: string): void {
             int3 = varplayer_10947;
             break;
         }
-        case 77398078: {
+        case 77398072: {
             int2 = varplayer_11844;
             int3 = varplayer_11843;
             break;

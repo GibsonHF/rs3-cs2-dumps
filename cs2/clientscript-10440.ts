@@ -14,7 +14,7 @@ function script10440(int0: number, int1: number, int2: number, int3: number, int
             break;
         }
         case 744: {
-            int7 = comp(744, 361);  // loginscreen:minimenu_layer
+            int7 = comp(744, 350);  // loginscreen:dropdown_panel
             break;
         }
         default: {

@@ -27,22 +27,22 @@ function script14159(): void {
             int5 = script8408(126156813);
         } else {
             int9 = 2;
-            int6 = (int5 + (IF_GETHEIGHT(comp(1477, 616)) + 4));  // toplevel_v2:combat_status_window_background
-            int7 = (int5 + (IF_GETHEIGHT(comp(1477, 616)) + 4));  // toplevel_v2:combat_status_window_background
-            int8 = (int8 - (IF_GETWIDTH(comp(1477, 567)) + 4));  // toplevel_v2:channel_bar_window_background
+            int6 = (int5 + (IF_GETHEIGHT(comp(1477, 614)) + 4));  // toplevel_v2:debuffs_window_border
+            int7 = (int5 + (IF_GETHEIGHT(comp(1477, 614)) + 4));  // toplevel_v2:debuffs_window_border
+            int8 = (int8 - (IF_GETWIDTH(comp(1477, 686)) + 4));  // toplevel_v2:mobile_rate_app
         };
     } else {
         int5 = script8408(126025733);
     };
     if ((int9 == 0)) {
-        int5 = (int5 - (IF_GETHEIGHT(comp(1477, 616)) + 4));  // toplevel_v2:combat_status_window_background
+        int5 = (int5 - (IF_GETHEIGHT(comp(1477, 614)) + 4));  // toplevel_v2:debuffs_window_border
         int6 = ((int5 - struct_getparam(49465, 3485)) - 4);
         int7 = ((int5 - struct_getparam(40142, 3485)) - 4);
-        int8 = (int8 - (IF_GETWIDTH(comp(1477, 567)) + 4));  // toplevel_v2:channel_bar_window_background
+        int8 = (int8 - (IF_GETWIDTH(comp(1477, 686)) + 4));  // toplevel_v2:mobile_rate_app
     };
-    IF_SETPOSITION(IF_GETX(comp(1477, 616)), int5, 0, int9, comp(1477, 616));  // toplevel_v2:combat_status_window_background
-    IF_SETPOSITION(IF_GETX(comp(1477, 612)), int5, 0, int9, comp(1477, 612));  // toplevel_v2:debuffs_window_background
-    IF_SETPOSITION(0, int6, 1, int9, comp(1477, 567));  // toplevel_v2:channel_bar_window_background
-    IF_SETPOSITION(int8, int7, 1, int9, comp(1477, 583));  // toplevel_v2:extra_action_button_window_background
+    IF_SETPOSITION(IF_GETX(comp(1477, 614)), int5, 0, int9, comp(1477, 614));  // toplevel_v2:debuffs_window_border
+    IF_SETPOSITION(IF_GETX(comp(1477, 610)), int5, 0, int9, comp(1477, 610));  // toplevel_v2:loot_window_border
+    IF_SETPOSITION(0, int6, 1, int9, comp(1477, 686));  // toplevel_v2:mobile_rate_app
+    IF_SETPOSITION(int8, int7, 1, int9, comp(1477, 581));  // toplevel_v2:inv_drag_options_window_border
     return;
 }

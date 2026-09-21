@@ -1,5 +1,6 @@
 //
 function script16466(int0: number): void {
+    script8421(1572866, 1572884, 1572882, -1, "", 21259, -1, 1, -1, -1);
     var int1 = 2;
     var int2 = 8;
     var int3 = (int2 / int1);

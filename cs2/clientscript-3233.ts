@@ -1,5 +1,5 @@
 //
 function script3233(string0: string): void {
-    IF_SETTEXT(string0, comp(744, 354));  // loginscreen:dropdown_highlight
+    IF_SETTEXT(string0, comp(744, 343));  // loginscreen:popup_text
     return;
 }

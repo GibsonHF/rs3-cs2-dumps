@@ -11,5 +11,5 @@ function script10075(): number {
             return 96797582;
         }
     };
-    return 48759154;
+    return 48759143;
 }

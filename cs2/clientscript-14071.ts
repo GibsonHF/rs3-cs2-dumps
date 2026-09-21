@@ -31,7 +31,7 @@ function script14071(int0: number): void {
         script9324(1);
     };
     IF_SETHIDE(false, comp(517, 257));  // bank:bottom_panel_cancel
-    IF_SETPOSITION(0, 0, 0, 0, comp(517, 257));  // bank:bottom_panel_cancel
+    IF_SETPOSITION(0, 0, 0, 1, comp(517, 257));  // bank:bottom_panel_cancel
     script13993(33882369, -1, 28228, "Clear Filter");
     IF_SETONOP(callback(script13963), comp(517, 259));  // bank:bottom_panel_cancel_button
     return;

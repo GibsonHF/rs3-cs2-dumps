@@ -13,6 +13,12 @@ function script20469(int0: number, int1: number, int2: number, int3: number): [n
         return [0, 0];
     };
     if ((int2 == 1)) {
+        if (((int0 != -1 as struct) && (script6488(int0) == 1))) {
+            if ((int3 == 1)) {
+                script1296("This item is not available to purchase.");
+            };
+            return [0, 1];
+        };
         return [1, -1];
     };
     if ((((int2 == 0) && (int0 != -1 as struct)) && (varplayer_12587 == int0))) {

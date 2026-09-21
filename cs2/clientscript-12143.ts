@@ -12,6 +12,10 @@ function script12143(int0: number, int1: number): void {
         IF_SETMODELANIM(27992 as seq, comp(1708, 95));  // invent_discovery:lightbulb_model
         SOUND_VORBIS_RATE(12230 as vorbis, 1, 0, 240, 270);
     };
-    IF_SETONTIMER(callback(), comp(1708, 55));  // invent_discovery:workbench_overlay
+    if ((int2 == 1)) {
+        IF_SETONTIMER(callback(script20673, (CLIENTCLOCK() + 50)), comp(1708, 55));  // invent_discovery:workbench_overlay
+    } else {
+        IF_SETONTIMER(callback(), comp(1708, 55));  // invent_discovery:workbench_overlay
+    };
     return;
 }

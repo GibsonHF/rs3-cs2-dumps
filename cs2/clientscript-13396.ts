@@ -26,10 +26,10 @@ function script13396(int0: number, int1: number, int2: number, int3: number, int
     while ((int11 < int5)) {
         [int12, string0] = IF_SETONSTORETRANSMIT(int11);
         if ((int12 > 1)) {
-            script13637(`${string0}<col=FFFFFF> <gt>`, 0, -1, int11, int11, int2, int6, 86638602);
+            script13637(`${string0}<col=FFFFFF> <gt>`, 0, -1, int11, ((int5 - int11) - 1), int2, int6, 86638602);
         } else {
             [int13, string1, int14] = NOTIFICATIONS_SENDGROUPEDLOCAL(int11, 0);
-            script13637(string1, 1, int11, 0, int11, int2, int6, 86638602);
+            script13637(string1, 1, int11, 0, ((int5 - int11) - 1), int2, int6, 86638602);
             CC_SETONMOUSEOVER(callback(script14224));
         };
         int11 = (int11 + 1);

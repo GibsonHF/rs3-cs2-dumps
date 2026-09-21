@@ -3,7 +3,7 @@ function script14226(int0: number, int1: number, int2: number, string0: string):
     var int3 = STRINGWIDTH(string0, struct_getparam(int1, 7275));
     var int4 = int3;
     int4 = script13394(int4, int0, int2, int1);
-    var int5 = (((struct_getparam(int1, 7276) * int2) + 6) + struct_getparam(int1, 7265));
+    var int5 = (((struct_getparam(int1, 7276) * int2) + 3) + struct_getparam(int1, 7265));
     int4 = (int4 + 18);
     return [int4, int5];
 }

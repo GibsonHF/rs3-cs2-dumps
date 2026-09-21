@@ -52,7 +52,7 @@ function script5808(int0: number, int1: number): void {
         CC_SETPOSITION(0, int7, 1, 0);
         CC_SETSIZE(IF_GETWIDTH(int4), (14 * 6), 0, 0);
         CC_SETMAXLINES(1);
-        CC_SETTEXTFONT(169 as fontmetrics);
+        CC_SETTEXTFONT(209 as fontmetrics);
         CC_SETTEXTALIGN(1, 1, 0);
         script2731(int4, int8, 3);
         CC_SETTEXT("No stat changes!");

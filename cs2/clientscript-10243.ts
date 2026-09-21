@@ -31,8 +31,8 @@ function script10243(): void {
     IF_SETSIZE(38, 8, 0, 1, comp(517, 158));  // bank:tabs
     IF_SETPOSITION(0, 0, 0, 1, comp(517, 158));  // bank:tabs
     IF_SETPOSITION(0, 7, 0, 0, comp(517, 167));  // bank:all_tab_icon
-    IF_SETSIZE(1, (24 - 1), 1, 0, comp(517, 159));  // bank:tabs_scroll_up
-    IF_SETSIZE(1, (24 - 1), 1, 0, comp(517, 162));  // bank:tabs_scroll_down
+    IF_SETSIZE(4, (24 - 1), 1, 0, comp(517, 159));  // bank:tabs_scroll_up
+    IF_SETSIZE(4, (24 - 1), 1, 0, comp(517, 162));  // bank:tabs_scroll_down
     IF_SETPOSITION(0, 0, 0, 2, comp(517, 162));  // bank:tabs_scroll_down
     IF_SETOP(1, "Scroll Up", comp(517, 159));  // bank:tabs_scroll_up
     IF_SETOP(1, "Scroll Down", comp(517, 162));  // bank:tabs_scroll_down

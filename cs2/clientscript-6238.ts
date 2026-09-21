@@ -1,11 +1,8 @@
 //
 function script6238(): void {
-    if ((varclient_1925 == 1)) {
-        IF_SETHIDE(false, comp(1285, 30));  // qbd2_energybar:timestop_overlay
-        IF_SETHIDE(false, comp(1285, 29));  // qbd2_energybar:layer_grey
-    } else {
-        IF_SETHIDE(true, comp(1285, 30));  // qbd2_energybar:timestop_overlay
-        IF_SETHIDE(true, comp(1285, 29));  // qbd2_energybar:layer_grey
-    };
+    var int1 = script83();
+    var int2 = IF_GETHEIGHT(int1);
+    var int3 = ((((int2 - struct_getparam(int0, 7276)) - struct_getparam(int0, 7265)) - 3) / struct_getparam(int0, 7276));
+    stack(int3);
     return;
 }

@@ -322,10 +322,10 @@ function script547(int0: number, int1: number, int2: number, int3: number): void
     };
     CC_DELETEALL(int4);
     CC_CREATE(int4, 3, IF_GETNEXTSUBID(int4));
-    CC_SETSIZE((int20 + 10), int21, 0, 0);
-    CC_SETPOSITION(int22, int23, 0, 0);
+    CC_SETSIZE((int20 + 8), (int21 - 2), 0, 0);
+    CC_SETPOSITION((int22 + 1), (int23 + 1), 0, 0);
     CC_SETFILL(1);
-    CC_SETCOLOUR(0);
+    CC_SETCOLOUR(986636);
     CC_CREATE(int4, 5, IF_GETNEXTSUBID(int4));
     CC_SETSIZE(10, 10, 0, 0);
     CC_SETPOSITION(int22, int23, 0, 0);

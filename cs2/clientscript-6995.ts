@@ -563,8 +563,44 @@ function script6995(int0: number, int1: number, int2: number, int3: number, int4
                                 CC_SETOP(2, "Customise");
                                 break;
                             }
+                            case 14753: {
+                                CC_SETOP(2, "Varrock");
+                                if (((MAP_MEMBERS() == 1) && (varbitplayer_15546 > 0))) {
+                                    CC_SETOP(3, "Grand Exchange");
+                                };
+                                if (((MAP_MEMBERS() == 1) && (varbitplayer_15630 > 0))) {
+                                    CC_SETOP(4, "North Altar");
+                                };
+                                break;
+                            }
+                            case 14763: {
+                                CC_SETOP(2, "Camelot");
+                                if ((varbitplayer_15936 > 0)) {
+                                    CC_SETOP(3, "Seers' Village");
+                                };
+                                break;
+                            }
+                            case 14773: {
+                                CC_SETOP(2, "Watchtower");
+                                if ((varbitplayer_15886 > 0)) {
+                                    CC_SETOP(3, "Yanille");
+                                };
+                                break;
+                            }
+                            case 14760:
+                            case 53305: {
+                                if ((varbitplayer_1552 == 0)) {
+                                    CC_SETOP(2, "Inside");
+                                    CC_SETOP(3, "Outside");
+                                } else {
+                                    CC_SETOP(2, "Outside");
+                                    CC_SETOP(3, "Inside");
+                                };
+                                break;
+                            }
                             case 53006: {
-                                CC_SETOP(2, "Marigold Farm");
+                                CC_SETOP(2, "Wendlewick");
+                                CC_SETOP(3, "Marigold Farm");
                                 break;
                             }
                         };

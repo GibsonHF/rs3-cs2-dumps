@@ -26,6 +26,12 @@ function script2523(int0: number): number {
             };
             break;
         }
+        case 4946: {
+            if ((varplayer_13550 == 0)) {
+                return 1;
+            };
+            break;
+        }
         case 41513:
         case 41514:
         case 41515:

@@ -45,6 +45,9 @@ function script9284(int0: number, int1: number): number {
             return varbitplayer_50989;
         }
         case 2: {
+            return varbitplayer_51335;
+        }
+        case 3: {
             return varbitplayer_50990;
         }
     };

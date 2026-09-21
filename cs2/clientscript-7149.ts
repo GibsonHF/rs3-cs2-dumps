@@ -131,6 +131,12 @@ function script7149(int0: number): number {
             };
             return 1;
         }
+        case 19540: {
+            if ((((varbitplayer_51383 == 1) || (varbitplayer_61919 == 1)) || (varbitplayer_61920 == 1))) {
+                return 0;
+            };
+            return 1;
+        }
     };
     return 1;
 }

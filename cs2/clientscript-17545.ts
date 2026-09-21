@@ -1,7 +1,7 @@
 //
 function script17545(int0: number): void {
-    var int1 = script18321(int0, 76742684);
-    var int2 = script18321(int0, 76742683);
+    var int1 = script18321(int0, 76742679);
+    var int2 = script18321(int0, 76742678);
     var int3 = script18321(int0, 76742661);
     var int4 = script18321(int0, 76742670);
     var int5 = script18321(int0, 76742671);
@@ -10,7 +10,7 @@ function script17545(int0: number): void {
     var int8 = varbitplayer_53292;
     var int9 = varbitplayer_53294;
     var int10 = 0;
-    if ((((int7 != -1 as struct) && (struct_getparam(int7, 8990) != -1 as struct)) && (int1 != 76742684))) {
+    if ((((int7 != -1 as struct) && (struct_getparam(int7, 8990) != -1 as struct)) && (int1 != 76742679))) {
         int7 = struct_getparam(int7, 8990);
         int8 = varplayer_11535;
         int9 = varplayer_11536;

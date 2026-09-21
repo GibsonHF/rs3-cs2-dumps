@@ -9,7 +9,6 @@ function script12999(int0: number, int1: number): void {
             int5 = 5;
         };
         IF_SETSIZE((int2 + int5), 19, 0, 0, comp(1819, 1));  // quest_endgame_portal_health:health_bar_red
-        IF_SETSIZE((int2 + int5), 19, 0, 0, comp(1819, 12));  // quest_endgame_portal_health:red_wave_effect
         IF_SETCOLOUR(script693(int3, int4, 0), comp(1819, 8));  // quest_endgame_portal_health:health_diamond_left
         IF_SETCOLOUR(script693(int3, int4, 0), comp(1819, 7));  // quest_endgame_portal_health:health_diamond_right
     } else if ((int2 > int0)) {
@@ -17,7 +16,6 @@ function script12999(int0: number, int1: number): void {
             int5 = 5;
         };
         IF_SETSIZE((int2 - int5), 19, 0, 0, comp(1819, 1));  // quest_endgame_portal_health:health_bar_red
-        IF_SETSIZE((int2 - int5), 19, 0, 0, comp(1819, 12));  // quest_endgame_portal_health:red_wave_effect
         IF_SETCOLOUR(script693(int3, int4, 0), comp(1819, 8));  // quest_endgame_portal_health:health_diamond_left
         IF_SETCOLOUR(script693(int3, int4, 0), comp(1819, 7));  // quest_endgame_portal_health:health_diamond_right
     } else {

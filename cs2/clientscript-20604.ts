@@ -61,6 +61,7 @@ function script20604(int0: number, int1: number, int2: number, int3: number, int
             break;
         }
         default: {
+            script11620(int7);
             IF_SETHIDE(true, int6);
             if ((int2 != -1 as graphic)) {
                 IF_SETGRAPHIC(int2, int13);

@@ -23,7 +23,7 @@ function script6465(int0: number, int1: number, int2: number): void {
         return;
     };
     var int6 = STRING_LENGTH(string0);
-    IF_SETSIZE(0, 45, 1, 0, int3);
+    IF_SETSIZE(0, 40, 1, 0, int3);
     var int7 = ENUM_GETOUTPUTCOUNT(int5);
     var int8 = 132;
     if ((int7 < 8)) {
@@ -44,32 +44,8 @@ function script6465(int0: number, int1: number, int2: number): void {
         int8 = 132;
         IF_SETPOSITION(133, 0, 0, 0, comp(1311, 340));  // mtxmgt:header_scrollbar
     };
-    CC_CREATE(int3, 5, IF_GETNEXTSUBID(int3));
-    if ((int2 == 0)) {
-        CC_SETGRAPHIC(19305 as graphic);
-    } else {
-        CC_SETGRAPHIC(19308 as graphic);
-    };
-    CC_SETSIZE(int8, 0, 0, 1);
-    CC_SETPOSITION(0, 0, 1, 0);
-    CC_SETONMOUSEOVER(callback(script5336, -2147483645, CC_GETID(), 19306));
-    if ((int2 == 0)) {
-        CC_SETONMOUSELEAVE(callback(script5336, -2147483645, CC_GETID(), 19305));
-    } else {
-        CC_SETONMOUSELEAVE(callback(script5336, -2147483645, CC_GETID(), 19308));
-    };
-    CC_SETOP(1, "Select");
-    CC_CREATE(int3, 4, IF_GETNEXTSUBID(int3));
-    CC_SETTEXT(string0);
-    CC_SETTEXTFONT(28 as fontmetrics);
-    CC_SETCOLOUR(script10495(3));
-    CC_SETTEXTALIGN(1, 1, 13);
-    CC_SETSIZE(8, 8, 1, 1);
-    CC_SETPOSITION(4, 4, 0, 0);
+    script13998(int3, -1, 35508, 0, 0, int8, IF_GETHEIGHT(int3), IF_GETNEXTSUBID(int3), 0, string0, script42(int2));
     IF_SETONOP(callback(script7492, int1), int3);
-    CC_CREATE(int3, 5, IF_GETNEXTSUBID(int3));
-    CC_SETSIZE(12, 19, 0, 0);
-    CC_SETPOSITION(10, 0, 2, 1);
     IF_SETHIDE(false, int3);
     return;
 }

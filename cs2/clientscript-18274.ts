@@ -204,6 +204,7 @@ function script18274(int0: number, int1: number): void {
         case 50579:
         case 50580:
         case 987:
+        case 4980:
         case 988:
         case 989:
         case 990:
@@ -229,7 +230,12 @@ function script18274(int0: number, int1: number): void {
         case 2962:
         case 51607:
         case 985:
-        case 980: {
+        case 980:
+        case 4979:
+        case 4982:
+        case 4983:
+        case 4981:
+        case 4977: {
             IF_SETONTIMER(callback(script18275, int0, int1, (SEQLENGTH(struct_getparam(int0, 2535)) + 1)), comp(1311, 657));  // mtxmgt:anim_listener
             break;
         }

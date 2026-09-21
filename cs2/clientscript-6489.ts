@@ -1712,6 +1712,27 @@ function script6489(int0: number): number {
         case 986: {
             return varbitplayer_44620;
         }
+        case 4977: {
+            return varbitplayer_61921;
+        }
+        case 4978: {
+            return varbitplayer_61922;
+        }
+        case 4979: {
+            return varbitplayer_61923;
+        }
+        case 4980: {
+            return varbitplayer_61924;
+        }
+        case 4981: {
+            return varbitplayer_61925;
+        }
+        case 4982: {
+            return varbitplayer_61926;
+        }
+        case 4983: {
+            return varbitplayer_61927;
+        }
         case 977: {
             return varbitplayer_39240;
         }

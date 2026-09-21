@@ -98,6 +98,10 @@ function script8843(int0: number, int1: number): void {
             script9888(int1);
             break;
         }
+        case 110: {
+            stack(script20671(int1));
+            break;
+        }
         case 27: {
             script1311(int1);
             break;

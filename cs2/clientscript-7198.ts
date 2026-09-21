@@ -15,7 +15,7 @@ function script7198(): void {
         IF_SETHIDE(true, comp(1477, 93));  // toplevel_v2:minimap_window_background
         IF_SETHIDE(true, comp(1477, 68));  // toplevel_v2:action_window_background
         IF_SETHIDE(true, comp(1477, 62));  // toplevel_v2:buttons_window_background
-        IF_SETHIDE(true, comp(1477, 639));  // toplevel_v2:hud_window_background
+        IF_SETHIDE(true, comp(1477, 637));  // toplevel_v2:xp_popup_text_window_content
     };
     if ((varclient_4667 < 64)) {
         varclient_4667 = (64 + ((1024 - 64) / 2));

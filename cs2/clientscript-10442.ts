@@ -7,7 +7,7 @@ function script10442(): void {
             break;
         }
         case 744: {
-            int0 = comp(744, 361);  // loginscreen:minimenu_layer
+            int0 = comp(744, 350);  // loginscreen:dropdown_panel
             break;
         }
         default: {

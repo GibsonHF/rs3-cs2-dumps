@@ -18,7 +18,7 @@ function script13903(): void {
     IF_SETONTIMER(callback(script9830, string0, CLIENTCLOCK(), 33882345, 33882314, 1), comp(517, 233));  // bank:search_icon
     script9833(33882346, 33882347, 33882348, 33882349, 33882351, 0, 0);
     IF_SETHIDE(false, comp(517, 257));  // bank:bottom_panel_cancel
-    IF_SETPOSITION(0, 0, 2, 2, comp(517, 257));  // bank:bottom_panel_cancel
+    IF_SETPOSITION(0, 0, 2, 1, comp(517, 257));  // bank:bottom_panel_cancel
     script13993(33882369, -1, 28228, "Cancel Search");
     IF_SETONOP(callback(script13898), comp(517, 259));  // bank:bottom_panel_cancel_button
     return;

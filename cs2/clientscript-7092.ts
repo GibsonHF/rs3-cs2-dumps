@@ -83,7 +83,7 @@ function script7092(): void {
         IF_SETPOSITION(0, 0, 1, 2, comp(1251, 2));  // makex2012_progress_dialogue:xp_and_progress_layers
         IF_SETSIZE(IF_GETWIDTH(comp(1251, 8)), (IF_GETHEIGHT(comp(1251, 8)) - 45), 0, 0, comp(1251, 8));  // makex2012_progress_dialogue:modal_dialog_window
     };
-    IF_SETSIZE(IF_GETWIDTH(comp(1477, 624) /*toplevel_v2:makex_progress_window*/), (IF_GETHEIGHT(comp(1251, 8) /*makex2012_progress_dialogue:modal_dialog_window*/) + 35), 0, 0, comp(1477, 624) /*toplevel_v2:makex_progress_window*/);
+    IF_SETSIZE(IF_GETWIDTH(comp(1477, 622) /*toplevel_v2:grave_status_window_border*/), (IF_GETHEIGHT(comp(1251, 8) /*makex2012_progress_dialogue:modal_dialog_window*/) + 35), 0, 0, comp(1477, 622) /*toplevel_v2:grave_status_window_border*/);
     if ((varbitplayer_3034 == 1)) {
         IF_SETHIDE(true, comp(1251, 8));  // makex2012_progress_dialogue:modal_dialog_window
     } else {

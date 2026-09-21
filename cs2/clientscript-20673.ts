@@ -1,8 +1,9 @@
 //
 function script20673(int0: number): number {
-    if ((int0 == -1)) {
-        return -1;
+    if ((CLIENTCLOCK() < int0)) {
+        return;
     };
-    var int1 = WORLDMAP_GETDISPLAYCOORD(script20672(int0));
-    return int1;
+    IF_SETONTIMER(callback(), comp(1708, 55));  // invent_discovery:workbench_overlay
+    script12145();
+    return;
 }

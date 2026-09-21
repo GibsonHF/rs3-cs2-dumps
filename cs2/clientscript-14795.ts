@@ -1,6 +1,6 @@
 //
 function script14795(int0: number, int1: number): void {
-    if ((int1 != 1)) {
+    if ((int1 != 2)) {
         return;
     };
     script9554(43712528, 43712536, 43712529, dbrow_getfield(int0, 352288, 0), 21217);

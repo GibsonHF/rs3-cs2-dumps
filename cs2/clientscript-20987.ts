@@ -1,6 +1,6 @@
 //
 function script20987(): void {
-    if ((varplayer_12314 != 2)) {
+    if ((varplayer_12314 != -1)) {
         stack(0);
         return;
     };

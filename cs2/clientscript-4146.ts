@@ -123,8 +123,8 @@ function script4146(): void {
     };
     CC_DELETEALL(comp(14, 18));  // bankpin_settings:message
     CC_CREATE(comp(14, 18), 4, 0);  // bankpin_settings:message
-    CC_SETTEXTFONT(27 as fontmetrics);
-    CC_SETCOLOUR(16750623);
+    CC_SETTEXTFONT(26 as fontmetrics);
+    CC_SETCOLOUR(14931919);
     CC_SETTEXTSHADOW(true);
     CC_SETTEXTALIGN(0, 1, 0);
     CC_SETTEXT(varclient_2352);

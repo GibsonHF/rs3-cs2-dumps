@@ -1,6 +1,10 @@
 //
 function script20981(): void {
-    switch (2) {
+    switch (-1) {
+        case -1: {
+            stack(0);
+            return;
+        }
         case 1: {
             stack(dbrow_getfield(int0, 1368080, 0));
             return;
@@ -10,7 +14,7 @@ function script20981(): void {
             return;
         }
     };
-    script12478(`League ${inttostring(2, 10)} has not been plugged in to task validation.`);
+    script12478(`League ${inttostring(-1, 10)} has not been plugged in to task validation.`);
     stack(0);
     return;
 }

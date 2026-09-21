@@ -16,10 +16,10 @@ function script19507(): void {
     var int4 = 213;
     var int5 = script6431();
     if ((int5 == 1)) {
-        IF_SETPOSITION(70, 12, 2, 0, comp(1313, 120));  // group_ironman_storage:help_button_layer
+        IF_SETPOSITION(52, 10, 2, 0, comp(1313, 120));  // group_ironman_storage:help_button_layer
         int4 = 253;
     } else {
-        IF_SETPOSITION(50, 15, 2, 0, comp(1313, 120));  // group_ironman_storage:help_button_layer
+        IF_SETPOSITION(36, 11, 2, 0, comp(1313, 120));  // group_ironman_storage:help_button_layer
     };
     var int6 = IF_GETHEIGHT(comp(1313, 4));  // group_ironman_storage:content
     IF_SETSIZE(int4, 0, 0, 1, comp(1313, 5));  // group_ironman_storage:right_panel

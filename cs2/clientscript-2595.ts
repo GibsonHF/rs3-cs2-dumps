@@ -23,7 +23,7 @@ function script2595(int0: number): void {
             if ((int0 == 4)) {
                 IF_SETONCLICK(callback(script7926), comp(882, 12));  // loginscreen_graphics_options:mainmodal_window_close_button
             } else {
-                IF_SETONRESIZE(callback(script2919, 1, int0), comp(744, 196));  // loginscreen:popup_content_layer
+                IF_SETONRESIZE(callback(script2919, 1, int0), comp(744, 192));  // loginscreen:options
             };
             script8421(57802761, 57802763, 57802762, 57802764, "Graphics Options", 21218, -1, 1, -1, -1);
             if ((int0 == 4)) {

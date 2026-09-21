@@ -1,6 +1,6 @@
 //
 function script20991(): void {
-    if (((varplayer_12314 == 2) && (varbitplayer_61641 == 1))) {
+    if (((varplayer_12314 == -1) && (varbitplayer_61641 == 1))) {
         stack(1);
         return;
     };

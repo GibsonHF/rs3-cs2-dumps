@@ -208,7 +208,7 @@ function script8284(int0: number, int1: number): number {
             while ((int3 <= int4)) {
                 switch (int3) {
                     case 1: {
-                        int2 = 0;
+                        int2 = 1;
                         break;
                     }
                     case 2: {

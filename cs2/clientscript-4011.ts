@@ -6,16 +6,16 @@ function script4011(): void {
     var int0 = varclient_699;
     var int1 = script2193(int0);
     if ((int1 == 2)) {
-        IF_SETTEXT("Quest complete!", comp(1500, 425));  // quest_journal:prog_text
+        IF_SETTEXT("Quest complete!", comp(1500, 426));
     } else if ((int1 == 1)) {
-        IF_SETTEXT("Started", comp(1500, 425));  // quest_journal:prog_text
+        IF_SETTEXT("Started", comp(1500, 426));
     } else {
-        IF_SETTEXT("Not started", comp(1500, 425));  // quest_journal:prog_text
+        IF_SETTEXT("Not started", comp(1500, 426));
     };
-    if ((IF_GETHIDE(comp(1500, 419)) == true)) {  // quest_journal:accept_job_2
-        IF_SETSIZE(260, 0, 1, 1, comp(1500, 425));  // quest_journal:prog_text
+    if ((IF_GETHIDE(comp(1500, 420)) == true)) {  // quest_journal:accept_build_2
+        IF_SETSIZE(260, 0, 1, 1, comp(1500, 426));
     } else {
-        IF_SETSIZE(424, 0, 1, 1, comp(1500, 425));  // quest_journal:prog_text
+        IF_SETSIZE(424, 0, 1, 1, comp(1500, 426));
     };
     var string0 = script2103(int0);
     IF_SETSIZE((STRINGWIDTH(string0, IF_GETFONTMETRICS(comp(1500, 331) /*quest_journal:title_1*/)) + 30), IF_GETHEIGHT(comp(1500, 330) /*quest_journal:titlebox_1*/), 0, 0, comp(1500, 330) /*quest_journal:titlebox_1*/);
@@ -29,8 +29,8 @@ function script4011(): void {
     };
     var string1 = `${QUEST_GETNAME(int0)}/Quick guide`;
     IF_SETONBUTTONCLICK(callback(script7808, string1), 98304333);
-    IF_SETGRAPHIC(quest_getparam(int0, 7829), comp(1500, 391));  // quest_journal:quest_icon
-    IF_SETTEXT(inttostring(quest_getparam(int0, 7834), 10), comp(1500, 390));  // quest_journal:quest_icon_footer
+    IF_SETGRAPHIC(quest_getparam(int0, 7829), comp(1500, 392));  // quest_journal:5th_age_icon
+    IF_SETTEXT(inttostring(quest_getparam(int0, 7834), 10), comp(1500, 391));  // quest_journal:quest_icon
     var int2 = script10495(0);
     var int3 = script4249(`${inttostring(PUSH_CONSTANT_INT[16]("<col=", int2))}>Start Point:</col>`, quest_getparam(int0, 7814), 98304343, 98304344, 98304345, -1, -1, int1, 0);
     string0 = "";
@@ -124,7 +124,7 @@ function script4011(): void {
         IF_SETHIDE(true, comp(1500, 360));  // quest_journal:suggested_special_layer
     };
     var string5 = script6392(quest_getparam(int0, 949), quest_getparam(int0, 887), quest_getparam(int0, 3822), quest_getparam(int0, 950), quest_getparam(int0, 888), quest_getparam(int0, 4061), quest_getparam(int0, 951), quest_getparam(int0, 889), quest_getparam(int0, 4472), quest_getparam(int0, 952), quest_getparam(int0, 890), quest_getparam(int0, 4812), quest_getparam(int0, 1212), quest_getparam(int0, 891), quest_getparam(int0, 4867), quest_getparam(int0, 1270), quest_getparam(int0, 892), quest_getparam(int0, 5481), quest_getparam(int0, 1330), quest_getparam(int0, 893), quest_getparam(int0, 6529), quest_getparam(int0, 1360), quest_getparam(int0, 894), quest_getparam(int0, 6532), quest_getparam(int0, 1361), quest_getparam(int0, 895), quest_getparam(int0, 6830), quest_getparam(int0, 1362), quest_getparam(int0, 896), quest_getparam(int0, 6831), quest_getparam(int0, 1363), quest_getparam(int0, 898), quest_getparam(int0, 6850), quest_getparam(int0, 3291), quest_getparam(int0, 948), quest_getparam(int0, 6851), quest_getparam(int0, 7815), "None.", ", ");
-    int3 = script4249(`${inttostring(PUSH_CONSTANT_INT[16]("<col=", int2))}>Required Items:</col>`, string5, 98304366, 98304367, 98304368, 98304369, 98304374, int1, int3);
+    int3 = script4249(`${inttostring(PUSH_CONSTANT_INT[16]("<col=", int2))}>Required Items:</col>`, string5, 98304367, 98304368, 98304369, 98304370, 98304375, int1, int3);
     var string6 = quest_getparam(int0, 7816);
     var int4 = quest_getparam(int0, 857);
     if (((STRING_LENGTH(string6) == STRING_LENGTH("None.")) && (int4 > 1))) {
@@ -134,16 +134,18 @@ function script4011(): void {
             string6 = `You must defeat an enemy of at least: ${enum_getvalue(0, 36, 3613, int4)}.`;
         };
     };
-    int3 = script4249(`${inttostring(PUSH_CONSTANT_INT[16]("<col=", int2))}>Combat:</col>`, string6, 98304375, 98304376, 98304377, -1, -1, int1, int3);
+    int3 = script4249(`${inttostring(PUSH_CONSTANT_INT[16]("<col=", int2))}>Combat:</col>`, string6, 98304376, 98304377, 98304378, -1, -1, int1, int3);
+    string0 = `${enum_getvalue(0, 36, 2251, script2105(int0))}.`;
+    int3 = script4249(`${inttostring(PUSH_CONSTANT_INT[16]("<col=", int2))}>Difficulty:</col>`, string0, 98304363, 98304427, 98304428, -1, -1, int1, int3);
     string0 = `${enum_getvalue(0, 36, 13354, quest_getparam(int0, 7855))}.`;
-    int3 = script4249(`${inttostring(PUSH_CONSTANT_INT[16]("<col=", int2))}>Length:</col>`, string0, 98304363, 98304364, 98304365, -1, -1, int1, int3);
+    int3 = script4249(`${inttostring(PUSH_CONSTANT_INT[16]("<col=", int2))}>Length:</col>`, string0, 98304364, 98304365, 98304366, -1, -1, int1, int3);
     switch (int0) {
         case 354: {
-            IF_CLEAROPS(comp(1500, 409));  // quest_journal:accept_click
-            script13977(98304408, 98304409, 28553, "Offer");
-            IF_SETPOSITION(0, IF_GETY(comp(1500, 407)), 1, 0, comp(1500, 407));  // quest_journal:accept_quest
-            IF_SETHIDE(true, comp(1500, 404));  // quest_journal:decline_quest
-            IF_SETHIDE(true, comp(1500, 401));  // quest_journal:checkbox_withlabel
+            IF_CLEAROPS(comp(1500, 410));  // quest_journal:progress_layer
+            script13977(98304409, 98304410, 28553, "Offer");
+            IF_SETPOSITION(0, IF_GETY(comp(1500, 408)), 1, 0, comp(1500, 408));  // quest_journal:accept_build
+            IF_SETHIDE(true, comp(1500, 405));  // quest_journal:decline_build
+            IF_SETHIDE(true, comp(1500, 402));  // quest_journal:layout_build_withlabel
             string0 = varclient_2544;
             break;
         }
@@ -152,7 +154,7 @@ function script4011(): void {
             break;
         }
     };
-    int3 = script4249(`${inttostring(PUSH_CONSTANT_INT[16]("<col=", int2))}>Rewards:</col>`, string0, 98304378, 98304379, 98304380, 98304381, 98304386, int1, int3);
+    int3 = script4249(`${inttostring(PUSH_CONSTANT_INT[16]("<col=", int2))}>Rewards:</col>`, string0, 98304379, 98304380, 98304381, 98304382, 98304387, int1, int3);
     var string7 = "";
     switch (quest_getparam(int0, 7831)) {
         case 1: {
@@ -170,39 +172,39 @@ function script4011(): void {
     };
     if (((STRING_LENGTH(string7) > 0) || (STRING_LENGTH(quest_getparam(int0, 7839)) > 0))) {
         if ((STRING_LENGTH(quest_getparam(int0, 7839)) > 0)) {
-            int3 = script4249(`${inttostring(PUSH_CONSTANT_INT[16]("<col=", int2))}>Note:</col>`, quest_getparam(int0, 7839), 98304387, 98304388, 98304389, -1, -1, int1, int3);
+            int3 = script4249(`${inttostring(PUSH_CONSTANT_INT[16]("<col=", int2))}>Note:</col>`, quest_getparam(int0, 7839), 98304388, 98304389, 98304390, -1, -1, int1, int3);
         } else {
-            int3 = script4249(`${inttostring(PUSH_CONSTANT_INT[16]("<col=", int2))}>Note:</col>`, string7, 98304387, 98304388, 98304389, -1, -1, int1, int3);
+            int3 = script4249(`${inttostring(PUSH_CONSTANT_INT[16]("<col=", int2))}>Note:</col>`, string7, 98304388, 98304389, 98304390, -1, -1, int1, int3);
         };
-        IF_SETHIDE(false, comp(1500, 387));  // quest_journal:age_layer
+        IF_SETHIDE(false, comp(1500, 388));  // quest_journal:age
     } else {
-        IF_SETHIDE(true, comp(1500, 387));  // quest_journal:age_layer
+        IF_SETHIDE(true, comp(1500, 388));  // quest_journal:age
     };
     switch (quest_getparam(int0, 7831)) {
         case 1: {
-            IF_SETHIDE(false, comp(1500, 392));  // quest_journal:5th_age_icon
-            IF_SETHIDE(true, comp(1500, 395));  // quest_journal:6th_age_icon
+            IF_SETHIDE(false, comp(1500, 393));  // quest_journal:5th_age_icon_graphic
+            IF_SETHIDE(true, comp(1500, 396));  // quest_journal:6th_age_icon_graphic
             break;
         }
         case 3:
         case 4: {
-            IF_SETHIDE(true, comp(1500, 392));  // quest_journal:5th_age_icon
-            IF_SETHIDE(false, comp(1500, 395));  // quest_journal:6th_age_icon
+            IF_SETHIDE(true, comp(1500, 393));  // quest_journal:5th_age_icon_graphic
+            IF_SETHIDE(false, comp(1500, 396));  // quest_journal:6th_age_icon_graphic
             break;
         }
         default: {
-            IF_SETHIDE(true, comp(1500, 392));  // quest_journal:5th_age_icon
-            IF_SETHIDE(true, comp(1500, 395));  // quest_journal:6th_age_icon
+            IF_SETHIDE(true, comp(1500, 393));  // quest_journal:5th_age_icon_graphic
+            IF_SETHIDE(true, comp(1500, 396));  // quest_journal:6th_age_icon_graphic
             break;
         }
     };
     IF_SETSCROLLPOS(0, 0, comp(1500, 339));  // quest_journal:text_scrolling_layer_1
     if ((int3 > IF_GETHEIGHT(comp(1500, 339)))) {  // quest_journal:text_scrolling_layer_1
         IF_SETSCROLLSIZE(0, int3, comp(1500, 339));  // quest_journal:text_scrolling_layer_1
-        script7791(98304398, 98304339);
+        script7791(98304399, 98304339);
     } else {
         IF_SETSCROLLSIZE(0, 0, comp(1500, 339));  // quest_journal:text_scrolling_layer_1
-        CC_DELETEALL(comp(1500, 398));  // quest_journal:scrollbar_layer_1
+        CC_DELETEALL(comp(1500, 399));  // quest_journal:start_choice_layer
     };
     return;
 }

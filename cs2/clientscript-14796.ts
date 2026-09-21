@@ -10,12 +10,12 @@ function script14796(int0: number): void {
         int4 = (int4 + 1);
         while ((int4 < int1)) {
             [int2, int3, string0] = script14801(enum_getvalue(0, 74, 14057 as cs2enum, int4));
-            script8844(2, int2, int3, 43712523, int4);
+            script8844(1, int2, int3, 43712523, int4);
         };
     } else {
         int4 = (int4 + 1);
         while ((int4 < int1)) {
-            script8844(2, 0, 0, 43712523, int4);
+            script8844(1, 0, 0, 43712523, int4);
         };
     };
     return;

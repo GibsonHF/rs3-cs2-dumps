@@ -60,7 +60,7 @@ function script15355(int0: number, int1: number, int2: number, int3: number, int
                 CC_SETSIZE(0, 32, 1, 0);
                 CC_SETONOP(callback(script15358, int3, int20, CC_GETY()));
                 CC_SETOP(1, "Select");
-                CC_SETOPBASE(string1);
+                CC_SETOPBASE(script400(string1, "<br>", " "));
                 if (((int20 == int21) || ((varclient_6830 - 1) == enum_getreverseindex(41, 0, int2, int20, 0)))) {
                     script15360(CC_GETY());
                     if ((int6 == 1)) {
@@ -118,7 +118,7 @@ function script15355(int0: number, int1: number, int2: number, int3: number, int
                     CC_SETSIZE(0, 32, 1, 0);
                     CC_SETONOP(callback(script15358, int3, int20, CC_GETY()));
                     CC_SETOP(1, "Select");
-                    CC_SETOPBASE(string1);
+                    CC_SETOPBASE(script400(string1, "<br>", " "));
                     if (((int20 == int21) || ((varclient_6830 - 1) == enum_getreverseindex(41, 0, int2, int20, 0)))) {
                         script15360(CC_GETY());
                         if ((int6 == 1)) {

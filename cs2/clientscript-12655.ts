@@ -1,12 +1,12 @@
 //
 function script12655(): void {
     script12656();
-    IF_SETHIDE(false, comp(1776, 30));  // elr1_map:map_contents
-    IF_SETHIDE(true, comp(1776, 32));  // elr1_map:map_uncharted
-    IF_SETHIDE(true, comp(1776, 76));  // elr1_map:supplies_layer
+    IF_SETHIDE(false, comp(1776, 73));  // elr1_map:positive_button_active_layer
+    IF_SETHIDE(true, comp(1776, 74));  // elr1_map:positive_button_disabled_layer
+    IF_SETHIDE(true, comp(1776, 52));  // elr1_map:top_right_corner
     if ((varbitplayer_34241 == 1)) {
-        IF_SETHIDE(false, comp(1776, 32));  // elr1_map:map_uncharted
-        IF_SETHIDE(false, comp(1776, 76));  // elr1_map:supplies_layer
+        IF_SETHIDE(false, comp(1776, 74));  // elr1_map:positive_button_disabled_layer
+        IF_SETHIDE(false, comp(1776, 52));  // elr1_map:top_right_corner
     };
     IF_SETHIDE(true, comp(1776, 10));  // elr1_map:cyclosis
     IF_SETHIDE(true, comp(1776, 9));  // elr1_map:name_cyclosis
@@ -15,18 +15,18 @@ function script12655(): void {
         IF_SETHIDE(false, comp(1776, 9));  // elr1_map:name_cyclosis
     };
     if ((varplayer_6406 <= 0)) {
-        IF_SETHIDE(true, comp(1776, 43));  // elr1_map:voyage_claimed_button
+        IF_SETHIDE(true, comp(1776, 32));  // elr1_map:map_uncharted
     };
-    IF_SETTEXT(`${inttostring(script12651(), 10)} supplies`, comp(1776, 28));  // elr1_map:elr1_supplies
+    IF_SETTEXT(`${inttostring(script12651(), 10)} supplies`, comp(1776, 55));  // elr1_map:side_tile_right
     var string0 = "Nearby islands with 0-1 rare resources (5 supplies)";
-    IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643), comp(1776, 42));  // elr1_map:voyage_short_button
+    IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643), comp(1776, 31));  // elr1_map:map_arc
     string0 = "Distant islands with 2-3 rare resources (12 supplies)";
-    IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643), comp(1776, 41));  // elr1_map:voyage_median_button
+    IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643), comp(1776, 30));  // elr1_map:map_contents
     string0 = "Remote islands with 3-5 rare resources (20 supplies)";
-    IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643), comp(1776, 40));  // elr1_map:voyage_long_button
+    IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643), comp(1776, 29));  // elr1_map:modal_window
     string0 = "Return to your claimed island (3 supplies)";
-    IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643), comp(1776, 43));  // elr1_map:voyage_claimed_button
+    IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643), comp(1776, 32));  // elr1_map:map_uncharted
     string0 = "Show named islands.";
-    IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643), comp(1776, 44));  // elr1_map:back_button
+    IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643), comp(1776, 33));  // elr1_map:map_parchment_uncharted
     return;
 }

@@ -92,7 +92,7 @@ function script8186(int0: number): void {
                         int28 = struct_getparam(int2, 3614);
                         int27 = struct_getparam(int2, 3613);
                         int19 = script10495(28);
-                        int4 = 20;
+                        int4 = 18;
                         string0 = struct_getparam(int8, 3455);
                         string1 = "";
                         if ((int36 == 0)) {
@@ -100,7 +100,7 @@ function script8186(int0: number): void {
                             int28 = struct_getparam(int2, 6119);
                             int27 = struct_getparam(int2, 6118);
                             int19 = script10495(29);
-                            int4 = 36;
+                            int4 = 32;
                             string1 = "This tab is currently unavailable.";
                         };
                         int10 = STRINGWIDTH(string0, int3);
@@ -164,7 +164,7 @@ function script8186(int0: number): void {
                             int28 = struct_getparam(int2, 3614);
                             int27 = struct_getparam(int2, 3613);
                             int19 = script10495(28);
-                            int4 = 20;
+                            int4 = 18;
                             string0 = struct_getparam(int8, 3455);
                             string1 = "";
                             if ((int36 == 0)) {
@@ -172,7 +172,7 @@ function script8186(int0: number): void {
                                 int28 = struct_getparam(int2, 6119);
                                 int27 = struct_getparam(int2, 6118);
                                 int19 = script10495(29);
-                                int4 = 36;
+                                int4 = 32;
                                 string1 = "This tab is currently unavailable.";
                             };
                             int10 = STRINGWIDTH(string0, int3);
@@ -283,7 +283,7 @@ function script8186(int0: number): void {
                             int28 = struct_getparam(int2, 3614);
                             int27 = struct_getparam(int2, 3613);
                             int19 = script10495(28);
-                            int4 = 20;
+                            int4 = 18;
                             string0 = struct_getparam(int8, 3455);
                             string1 = "";
                             if ((int36 == 0)) {
@@ -291,7 +291,7 @@ function script8186(int0: number): void {
                                 int28 = struct_getparam(int2, 6119);
                                 int27 = struct_getparam(int2, 6118);
                                 int19 = script10495(29);
-                                int4 = 36;
+                                int4 = 32;
                                 string1 = "This tab is currently unavailable.";
                             };
                             int10 = STRINGWIDTH(string0, int3);
@@ -355,7 +355,7 @@ function script8186(int0: number): void {
                                 int28 = struct_getparam(int2, 3614);
                                 int27 = struct_getparam(int2, 3613);
                                 int19 = script10495(28);
-                                int4 = 20;
+                                int4 = 18;
                                 string0 = struct_getparam(int8, 3455);
                                 string1 = "";
                                 if ((int36 == 0)) {
@@ -363,7 +363,7 @@ function script8186(int0: number): void {
                                     int28 = struct_getparam(int2, 6119);
                                     int27 = struct_getparam(int2, 6118);
                                     int19 = script10495(29);
-                                    int4 = 36;
+                                    int4 = 32;
                                     string1 = "This tab is currently unavailable.";
                                 };
                                 int10 = STRINGWIDTH(string0, int3);

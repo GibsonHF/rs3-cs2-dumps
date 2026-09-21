@@ -388,7 +388,7 @@ function script18242(int0: number, int1: number, int2: number): void {
     if ((CC_FIND(comp(1343, 20), int1) == 1)) {  // jobs_main:button_icons
         int11 = struct_getparam(int0, 1271);
         if (((int3 == -1) && (int15 != -2))) {
-            int11 = 13161 as graphic;
+            int11 = 14885 as graphic;
         };
         CC_SETHIDE(false);
         CC_SETGRAPHIC(int11);

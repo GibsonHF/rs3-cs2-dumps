@@ -23,10 +23,12 @@ function script20642(int0: number, int1: number): number {
     var int18 = 0;
     var int19 = 1;
     while ((int2 != -1)) {
+        int7 = -1;
         if ((DB_GETFIELDCOUNT(int2, 1425504) > 0)) {
             int7 = dbrow_getfield(int2, 1425504, 0);
         };
         int8 = dbrow_getfield(int2, 1425520, 0);
+        int6 = -1;
         if ((DB_GETFIELDCOUNT(int2, 1425568) > 0)) {
             int6 = dbrow_getfield(int2, 1425568, 0);
         };

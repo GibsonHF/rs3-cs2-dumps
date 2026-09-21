@@ -14,7 +14,8 @@ function script20197(int0: number): void {
             CC_SETOP(2, "Apply to all");
         } else {
             switch (int11) {
-                case 1: {
+                case 1:
+                case 3: {
                     int15 = 50;
                     int16 = 67;
                     break;

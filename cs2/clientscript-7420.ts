@@ -27,7 +27,7 @@ function script7420(int0: number, int1: number, int2: number, int3: number, int4
     var int23 = 30;
     var int24 = 0;
     var int25 = 22;
-    var int26 = script20117(2);
+    var int26 = script20117(-1);
     var int27 = 4;
     var int28 = int27;
     if ((script6431() == 1)) {

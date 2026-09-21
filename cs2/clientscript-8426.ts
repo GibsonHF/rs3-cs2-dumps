@@ -206,9 +206,9 @@ function script8426(int0: number, int1: number, int2: number, int3: number, int4
     var int14 = -1;
     var int15 = -1;
     var int16 = -1;
-    var int17 = -1 as cs2enum;
+    var int17 = -1;
     var int18 = -1;
-    var int19 = -1 as struct;
+    var int19 = -1;
     var int20 = 0;
     var int21 = 0;
     var int22 = 0;
@@ -266,80 +266,104 @@ function script8426(int0: number, int1: number, int2: number, int3: number, int4
     script8440(int0, string0, string1, string2, string3);
     int17 = script8437(int7, int8);
     int18 = script17688(int7, int8);
-    if ((int17 == -1 as cs2enum)) {
+    if ((int17 == -1)) {
         return;
     };
-    var int29 = -1 as cs2enum;
-    if ((varbitplayer_27168 == 0)) {
+    var int29 = -1;
+    var int30 = 0;
+    if (((varbitplayer_27168 == 0) && (script20669() == 1))) {
         if ((((int7 == 1) || (int7 == 2)) || (int7 == 8))) {
+            int30 = 1;
             int29 = enum_getvalue(26, 26, 10148, int17);
         } else if ((int7 == 3)) {
             if (((int8 == 0) || (int7 == 14))) {
+                int30 = 1;
                 int29 = enum_getvalue(26, 26, 10148, int17);
             } else if ((int7 == 4)) {
                 if (((int8 == 0) || (int7 == 12))) {
+                    int30 = 1;
                     int29 = enum_getvalue(26, 26, 10148, int17);
                 } else if ((int7 == 5)) {
                     if (((int8 == 0) || (int7 == 13))) {
+                        int30 = 1;
                         int29 = enum_getvalue(26, 26, 10148, int17);
                     } else if (((int7 == 5) && (int8 == 1))) {
+                        int30 = 1;
                         int29 = enum_getvalue(26, 26, 10148, int17);
                     };
                 } else if ((int7 == 13)) {
+                    int30 = 1;
                     int29 = enum_getvalue(26, 26, 10148, int17);
                 } else if (((int7 == 5) && (int8 == 1))) {
+                    int30 = 1;
                     int29 = enum_getvalue(26, 26, 10148, int17);
                 };
             } else if ((int7 == 12)) {
+                int30 = 1;
                 int29 = enum_getvalue(26, 26, 10148, int17);
             } else if ((int7 == 5)) {
                 if (((int8 == 0) || (int7 == 13))) {
+                    int30 = 1;
                     int29 = enum_getvalue(26, 26, 10148, int17);
                 } else if (((int7 == 5) && (int8 == 1))) {
+                    int30 = 1;
                     int29 = enum_getvalue(26, 26, 10148, int17);
                 };
             } else if ((int7 == 13)) {
+                int30 = 1;
                 int29 = enum_getvalue(26, 26, 10148, int17);
             } else if (((int7 == 5) && (int8 == 1))) {
+                int30 = 1;
                 int29 = enum_getvalue(26, 26, 10148, int17);
             };
         } else if ((int7 == 14)) {
+            int30 = 1;
             int29 = enum_getvalue(26, 26, 10148, int17);
         } else if ((int7 == 4)) {
             if (((int8 == 0) || (int7 == 12))) {
+                int30 = 1;
                 int29 = enum_getvalue(26, 26, 10148, int17);
             } else if ((int7 == 5)) {
                 if (((int8 == 0) || (int7 == 13))) {
+                    int30 = 1;
                     int29 = enum_getvalue(26, 26, 10148, int17);
                 } else if (((int7 == 5) && (int8 == 1))) {
+                    int30 = 1;
                     int29 = enum_getvalue(26, 26, 10148, int17);
                 };
             } else if ((int7 == 13)) {
+                int30 = 1;
                 int29 = enum_getvalue(26, 26, 10148, int17);
             } else if (((int7 == 5) && (int8 == 1))) {
+                int30 = 1;
                 int29 = enum_getvalue(26, 26, 10148, int17);
             };
         } else if ((int7 == 12)) {
+            int30 = 1;
             int29 = enum_getvalue(26, 26, 10148, int17);
         } else if ((int7 == 5)) {
             if (((int8 == 0) || (int7 == 13))) {
+                int30 = 1;
                 int29 = enum_getvalue(26, 26, 10148, int17);
             } else if (((int7 == 5) && (int8 == 1))) {
+                int30 = 1;
                 int29 = enum_getvalue(26, 26, 10148, int17);
             };
         } else if ((int7 == 13)) {
+            int30 = 1;
             int29 = enum_getvalue(26, 26, 10148, int17);
         } else if (((int7 == 5) && (int8 == 1))) {
+            int30 = 1;
             int29 = enum_getvalue(26, 26, 10148, int17);
         };
     };
     int21 = 264;
-    var int30 = 0;
+    var int31 = 0;
     define_array(int21);
     define_array[65536](int21);
-    var int31 = 0;
     var int32 = 0;
     var int33 = 0;
+    var int34 = 0;
     if ((varclient_1725 >= 11)) {
         int23 = 4;
     } else {
@@ -363,38 +387,38 @@ function script8426(int0: number, int1: number, int2: number, int3: number, int4
         };
         if ((CC_FIND(int3, int22) == 1)) {
             int19 = enum_getvalue(0, 73, int17, int22);
-            int31 = 1;
-            int32 = 0;
-            if ((int19 != -1 as struct)) {
+            int32 = 1;
+            int33 = 0;
+            if ((int19 != -1)) {
                 if ((struct_getparam(int19, 2819) == 1)) {
-                    int33 = script690(int19);
-                    switch (int33) {
+                    int34 = script690(int19);
+                    switch (int34) {
                         case 2: {
-                            int32 = 1;
+                            int33 = 1;
                             break;
                         }
                         case 1: {
-                            int31 = 0;
+                            int32 = 0;
                             break;
                         }
                         case 3: {
-                            int31 = 0;
+                            int32 = 0;
                             break;
                         }
                     };
                 } else if (((struct_getparam(int19, 2806) == 29) && (struct_getparam(int19, 5542) != 11))) {
-                    int33 = script690(int19);
-                    switch (int33) {
+                    int34 = script690(int19);
+                    switch (int34) {
                         case 2: {
-                            int32 = 1;
+                            int33 = 1;
                             break;
                         }
                         case 1: {
-                            int31 = 0;
+                            int32 = 0;
                             break;
                         }
                         case 3: {
-                            int31 = 0;
+                            int32 = 0;
                             break;
                         }
                     };
@@ -407,33 +431,33 @@ function script8426(int0: number, int1: number, int2: number, int3: number, int4
                         switch (int19) {
                             case 47129:
                             case 14665: {
-                                if (((int31 == 1) && (varbitplayer_27344 == 1))) {
-                                    int31 = script2660(int19);
+                                if (((int32 == 1) && (varbitplayer_27344 == 1))) {
+                                    int32 = script2660(int19);
                                 };
                                 break;
                             }
                             default: {
                                 if ((int23 == 4)) {
                                     if ((struct_getparam(int19, 2872) == 0)) {
-                                        int31 = 0;
+                                        int32 = 0;
                                     };
                                 } else if (((struct_getparam(int19, 2871) != 3) && (struct_getparam(int19, 2871) != int23))) {
-                                    int31 = 0;
+                                    int32 = 0;
                                 };
                                 switch (int18) {
                                     case 5: {
                                         if ((struct_getparam(int19, 2880) != 5)) {
-                                            int31 = 0;
-                                        } else if (((varbitplayer_27344 == 1) && (int31 == 1))) {
-                                            int31 = script2660(int19);
+                                            int32 = 0;
+                                        } else if (((varbitplayer_27344 == 1) && (int32 == 1))) {
+                                            int32 = script2660(int19);
                                         };
                                         break;
                                     }
                                     case 0: {
                                         if ((struct_getparam(int19, 2880) != 0)) {
-                                            int31 = 0;
-                                        } else if (((varbitplayer_44637 == 1) && (int31 == 1))) {
-                                            int31 = script2660(int19);
+                                            int32 = 0;
+                                        } else if (((varbitplayer_44637 == 1) && (int32 == 1))) {
+                                            int32 = script2660(int19);
                                         };
                                         break;
                                     }
@@ -441,12 +465,12 @@ function script8426(int0: number, int1: number, int2: number, int3: number, int4
                                     case 4: {
                                         if ((struct_getparam(int19, 2880) != 1)) {
                                             if ((struct_getparam(int19, 2880) != 4)) {
-                                                int31 = 0;
-                                            } else if (((varbitplayer_44637 == 1) && (int31 == 1))) {
-                                                int31 = script2660(int19);
+                                                int32 = 0;
+                                            } else if (((varbitplayer_44637 == 1) && (int32 == 1))) {
+                                                int32 = script2660(int19);
                                             };
-                                        } else if (((varbitplayer_44637 == 1) && (int31 == 1))) {
-                                            int31 = script2660(int19);
+                                        } else if (((varbitplayer_44637 == 1) && (int32 == 1))) {
+                                            int32 = script2660(int19);
                                         };
                                         break;
                                     }
@@ -454,12 +478,12 @@ function script8426(int0: number, int1: number, int2: number, int3: number, int4
                                     case 3: {
                                         if ((struct_getparam(int19, 2880) != 2)) {
                                             if ((struct_getparam(int19, 2880) != 3)) {
-                                                int31 = 0;
-                                            } else if (((varbitplayer_44637 == 1) && (int31 == 1))) {
-                                                int31 = script2660(int19);
+                                                int32 = 0;
+                                            } else if (((varbitplayer_44637 == 1) && (int32 == 1))) {
+                                                int32 = script2660(int19);
                                             };
-                                        } else if (((varbitplayer_44637 == 1) && (int31 == 1))) {
-                                            int31 = script2660(int19);
+                                        } else if (((varbitplayer_44637 == 1) && (int32 == 1))) {
+                                            int32 = script2660(int19);
                                         };
                                         break;
                                     }
@@ -473,17 +497,17 @@ function script8426(int0: number, int1: number, int2: number, int3: number, int4
                         switch (int18) {
                             case 11: {
                                 if ((struct_getparam(int19, 5542) != 11)) {
-                                    int31 = 0;
-                                } else if (((int31 == 1) && (varbitplayer_27344 == 1))) {
-                                    int31 = script2660(int19);
+                                    int32 = 0;
+                                } else if (((int32 == 1) && (varbitplayer_27344 == 1))) {
+                                    int32 = script2660(int19);
                                 };
                                 break;
                             }
                             default: {
                                 if ((struct_getparam(int19, 5542) == 11)) {
-                                    int31 = 0;
-                                } else if (((int31 == 1) && (varbitplayer_44637 == 1))) {
-                                    int31 = script2660(int19);
+                                    int32 = 0;
+                                } else if (((int32 == 1) && (varbitplayer_44637 == 1))) {
+                                    int32 = script2660(int19);
                                 };
                                 break;
                             }
@@ -491,15 +515,15 @@ function script8426(int0: number, int1: number, int2: number, int3: number, int4
                         break;
                     }
                     default: {
-                        if (((int31 == 1) && (varbitplayer_27344 == 1))) {
-                            int31 = script2660(int19);
+                        if (((int32 == 1) && (varbitplayer_27344 == 1))) {
+                            int32 = script2660(int19);
                         };
                         break;
                     }
                 };
-                if ((int31 == 1)) {
+                if ((int32 == 1)) {
                     pop_array(int20, struct_getparam(int19, 2793));
-                    if ((int29 != -1 as cs2enum)) {
+                    if ((int29 != -1)) {
                         if ((enum_hasoutput(73, int29, int19) == 1)) {
                             pop_array[1](int20, enum_getreverseindex(73, 0, int29, int19, 0));
                         };
@@ -507,7 +531,7 @@ function script8426(int0: number, int1: number, int2: number, int3: number, int4
                         pop_array[1](int20, ((struct_getparam(int19, 2807) * (264 + 1)) + struct_getparam(int19, 2793)));
                     };
                     int20 = (int20 + 1);
-                    cc_setparam(4651, int32);
+                    cc_setparam(4651, int33);
                     CC_SETHIDE(false);
                     if ((script757() == 1)) {
                         if ((script690(int19) != 0)) {
@@ -531,9 +555,9 @@ function script8426(int0: number, int1: number, int2: number, int3: number, int4
         };
         int22 = (int22 + 1);
     };
-    int30 = int20;
-    if ((int30 > 0)) {
-        ARRAY_SORT(int30, 1, 0);
+    int31 = int20;
+    if ((int31 > 0)) {
+        ARRAY_SORT(int31, 1, 0);
     };
     if ((varbitplayer_22875 == 1)) {
         IF_SETHIDE(true, int6);
@@ -542,103 +566,118 @@ function script8426(int0: number, int1: number, int2: number, int3: number, int4
         IF_SETSIZE(0, 0, 1, 1, int6);
         IF_SETPOSITION(0, 0, 0, 0, int6);
     };
-    var int34 = 32;
+    var int35 = 32;
     if ((varbitplayer_38842 == 1)) {
         if ((int28 == 1)) {
-            int34 = 0;
+            int35 = 0;
         } else {
-            int34 = 52;
+            int35 = 52;
         };
     };
-    IF_SETSIZE(0, int34, 1, 1, int1);
-    var int35 = MAX(1, IF_GETWIDTH(int1));
-    var int36 = (int27 + 4);
-    int36 = MAX(int36, 1);
-    var int37 = (int26 + 4);
+    IF_SETSIZE(0, int35, 1, 1, int1);
+    var int36 = MAX(1, IF_GETWIDTH(int1));
+    var int37 = (int27 + 4);
+    int37 = MAX(int37, 1);
+    var int38 = (int26 + 4);
     if ((int9 == 1)) {
-        int37 = (int37 + 4);
+        int38 = (int38 + 4);
     };
-    var int38 = 0;
     var int39 = 0;
     var int40 = 0;
     var int41 = 0;
-    [int40, int38, int39] = script8107(int35, int37);
-    int40 = MAX(int40, 1);
     var int42 = 0;
+    [int41, int39, int40] = script8107(int36, int38);
+    int41 = MAX(int41, 1);
     var int43 = 0;
     var int44 = 0;
-    var int45 = -1;
+    var int45 = 0;
+    var int46 = -1;
     int20 = -1;
     int20 = (int20 + 1);
-    while ((int20 < int30)) {
+    while ((int20 < int31)) {
         int19 = enum_getvalue(0, 73, int17, push_array(int20));
-        if ((int19 != -1 as struct)) {
-            if ((int45 == 0)) {
-                int45 = 1;
+        if ((int19 != -1)) {
+            if ((int46 == 0)) {
+                int46 = 1;
             };
-            if ((struct_getparam(int19, 2799) == int45)) {
-                int43 = (int43 + 1);
-                if ((MODULO((int43 - 1), int40) == 0)) {
-                    int42 = (int42 + 1);
+            if ((int46 != -1)) {
+                if (((int30 == 0) || (struct_getparam(int19, 2799) == int46))) {
+                    int44 = (int44 + 1);
+                    if ((MODULO((int44 - 1), int41) == 0)) {
+                        int43 = (int43 + 1);
+                    };
+                } else {
+                    int46 = struct_getparam(int19, 2799);
+                    int43 = (int43 + 1);
+                    int44 = 1;
+                    int45 = (int45 + 1);
+                };
+            } else if ((struct_getparam(int19, 2799) == int46)) {
+                int44 = (int44 + 1);
+                if ((MODULO((int44 - 1), int41) == 0)) {
+                    int43 = (int43 + 1);
                 };
             } else {
-                int45 = struct_getparam(int19, 2799);
-                int42 = (int42 + 1);
-                int43 = 1;
-                int44 = (int44 + 1);
+                int46 = struct_getparam(int19, 2799);
+                int43 = (int43 + 1);
+                int44 = 1;
+                int45 = (int45 + 1);
             };
         };
     };
-    if ((((MAX(1, int42) * int36) + (int44 * 18)) > IF_GETHEIGHT(int1))) {
-        int41 = 1;
-        IF_SETSIZE(16, int34, 1, 1, int1);
-        IF_SETSIZE(16, int34, 0, 1, int2);
+    if ((int30 == 0)) {
+        int45 = 0;
+    };
+    if ((((MAX(1, int43) * int37) + (int45 * 18)) > IF_GETHEIGHT(int1))) {
+        int42 = 1;
+        IF_SETSIZE(16, int35, 1, 1, int1);
+        IF_SETSIZE(16, int35, 0, 1, int2);
         IF_SETPOSITION(0, 0, 2, 2, int2);
-        int35 = MAX(1, IF_GETWIDTH(int1));
-        [int40, int38, int39] = script8107(int35, int37);
-        int42 = 0;
+        int36 = MAX(1, IF_GETWIDTH(int1));
+        [int41, int39, int40] = script8107(int36, int38);
         int43 = 0;
         int44 = 0;
         int45 = 0;
+        int46 = 0;
         int20 = -1;
         int20 = (int20 + 1);
-        while ((int20 < int30)) {
+        while ((int20 < int31)) {
             int19 = enum_getvalue(0, 73, int17, push_array(int20));
-            if ((int19 != -1 as struct)) {
-                if ((int45 == 0)) {
-                    int45 = 1;
+            if ((int19 != -1)) {
+                if ((int46 == 0)) {
+                    int46 = 1;
                 };
-                if ((struct_getparam(int19, 2799) == int45)) {
-                    int43 = (int43 + 1);
-                    if ((MODULO((int43 - 1), int40) == 0)) {
-                        int42 = (int42 + 1);
+                if ((struct_getparam(int19, 2799) == int46)) {
+                    int44 = (int44 + 1);
+                    if ((MODULO((int44 - 1), int41) == 0)) {
+                        int43 = (int43 + 1);
                     };
                 } else {
-                    int45 = struct_getparam(int19, 2799);
-                    int42 = (int42 + 1);
-                    int43 = 1;
-                    int44 = (int44 + 1);
+                    int46 = struct_getparam(int19, 2799);
+                    int43 = (int43 + 1);
+                    int44 = 1;
+                    int45 = (int45 + 1);
                 };
             };
         };
     } else {
         CC_DELETEALL(int2);
     };
-    int42 = MAX(1, int42);
-    define_array[131072](int40);
-    var int46 = 0;
-    while ((int46 < int40)) {
-        pop_array[2](int46, script8108(int38, int39, int46));
-        int46 = (int46 + 1);
-    };
-    int46 = 0;
-    int20 = 0;
+    int43 = MAX(1, int43);
+    define_array[131072](int41);
     var int47 = 0;
+    while ((int47 < int41)) {
+        pop_array[2](int47, script8108(int39, int40, int47));
+        int47 = (int47 + 1);
+    };
+    int47 = 0;
+    int20 = 0;
     var int48 = 0;
-    var int49 = push_array[2](0);
-    var int50 = 0;
+    var int49 = 0;
+    var int50 = push_array[2](0);
+    var int51 = 0;
     if ((CC_FIND(int3, (264 + 1)) == 1)) {
-        if ((int30 == 0)) {
+        if ((int31 == 0)) {
             CC_SETTEXT(script15067(int7, int8));
             CC_SETSIZE(0, 0, 1, 1);
             CC_SETHIDE(false);
@@ -646,49 +685,49 @@ function script8426(int0: number, int1: number, int2: number, int3: number, int4
             CC_SETHIDE(true);
         };
     };
-    int45 = -1;
-    int43 = 0;
-    while ((int20 < int30)) {
+    int46 = -1;
+    int44 = 0;
+    while ((int20 < int31)) {
         int19 = enum_getvalue(0, 73, int17, push_array(int20));
-        if ((int19 != -1 as struct)) {
-            if ((int29 != -1 as cs2enum)) {
-                if ((struct_getparam(int19, 2799) != int45)) {
-                    int45 = struct_getparam(int19, 2799);
-                    if ((int45 == 0)) {
-                        int45 = 1;
+        if ((int19 != -1)) {
+            if ((int29 != -1)) {
+                if ((struct_getparam(int19, 2799) != int46)) {
+                    int46 = struct_getparam(int19, 2799);
+                    if ((int46 == 0)) {
+                        int46 = 1;
                     };
-                    int43 = 1;
-                    if ((int50 > 0)) {
-                        int50 = (int50 + int36);
+                    int44 = 1;
+                    if ((int51 > 0)) {
+                        int51 = (int51 + int37);
                     };
-                    script11219(int3, (push_array(int20) + 1500), 4, int50, script9954(int45));
-                    int49 = push_array[2](MODULO((int43 - 1), int40));
-                    int50 = (int50 + 18);
+                    script11219(int3, (push_array(int20) + 1500), 4, int51, script9954(int46));
+                    int50 = push_array[2](MODULO((int44 - 1), int41));
+                    int51 = (int51 + 18);
                 } else {
-                    int43 = (int43 + 1);
-                    int49 = push_array[2](MODULO((int43 - 1), int40));
-                    if (((int43 > 1) && (MODULO((int43 - 1), int40) == 0))) {
-                        int50 = (int50 + int36);
+                    int44 = (int44 + 1);
+                    int50 = push_array[2](MODULO((int44 - 1), int41));
+                    if (((int44 > 1) && (MODULO((int44 - 1), int41) == 0))) {
+                        int51 = (int51 + int37);
                     };
                 };
             } else {
-                int43 = (int43 + 1);
-                int49 = push_array[2](MODULO((int43 - 1), int40));
-                if (((int43 > 1) && (MODULO((int43 - 1), int40) == 0))) {
-                    int50 = (int50 + int36);
+                int44 = (int44 + 1);
+                int50 = push_array[2](MODULO((int44 - 1), int41));
+                if (((int44 > 1) && (MODULO((int44 - 1), int41) == 0))) {
+                    int51 = (int51 + int37);
                 };
             };
             int25 = struct_getparam(int19, 2793);
             int19 = script8247(int19);
-            int47 = script17453(int19);
+            int48 = script17453(int19);
             if ((CC_FIND(int3, int25) == 1)) {
                 CC_CLEARSCRIPTHOOKS();
                 CC_CLEAROPS();
                 CC_SETTARGETVERB("");
-                CC_SETPOSITION((((int49 + 2) * 16384) / int35), (int50 + 2), 3, 0);
-                int48 = (CC_GETY() + int27);
+                CC_SETPOSITION((((int50 + 2) * 16384) / int36), (int51 + 2), 3, 0);
+                int49 = (CC_GETY() + int27);
                 CC_SETSIZE(int26, int27, 0, 0);
-                if ((int47 == 1)) {
+                if ((int48 == 1)) {
                     CC_SETGRAPHIC(struct_getparam(int19, 8886));
                 } else {
                     CC_SETGRAPHIC(struct_getparam(int19, 2802));
@@ -759,7 +798,7 @@ function script8426(int0: number, int1: number, int2: number, int3: number, int4
                                             stack(callback(script7050, -2147483645, -2147483643));
                                             CC_SETONTARGETLEAVE();
                                             CC_SETTARGETCURSORS(struct_getparam(int19, 2803), 158 as cursor);
-                                        } else if ((int47 == 1)) {
+                                        } else if ((int48 == 1)) {
                                             CC_SETOP(1, "Deactivate");
                                         } else {
                                             CC_SETOP(1, "Activate");
@@ -783,7 +822,7 @@ function script8426(int0: number, int1: number, int2: number, int3: number, int4
                                         stack(callback(script7050, -2147483645, -2147483643));
                                         CC_SETONTARGETLEAVE();
                                         CC_SETTARGETCURSORS(struct_getparam(int19, 2803), 158 as cursor);
-                                    } else if ((int47 == 1)) {
+                                    } else if ((int48 == 1)) {
                                         CC_SETOP(1, "Deactivate");
                                     } else {
                                         CC_SETOP(1, "Activate");
@@ -820,7 +859,7 @@ function script8426(int0: number, int1: number, int2: number, int3: number, int4
                                         stack(callback(script7050, -2147483645, -2147483643));
                                         CC_SETONTARGETLEAVE();
                                         CC_SETTARGETCURSORS(struct_getparam(int19, 2803), 158 as cursor);
-                                    } else if ((int47 == 1)) {
+                                    } else if ((int48 == 1)) {
                                         CC_SETOP(1, "Deactivate");
                                     } else {
                                         CC_SETOP(1, "Activate");
@@ -844,7 +883,7 @@ function script8426(int0: number, int1: number, int2: number, int3: number, int4
                                     stack(callback(script7050, -2147483645, -2147483643));
                                     CC_SETONTARGETLEAVE();
                                     CC_SETTARGETCURSORS(struct_getparam(int19, 2803), 158 as cursor);
-                                } else if ((int47 == 1)) {
+                                } else if ((int48 == 1)) {
                                     CC_SETOP(1, "Deactivate");
                                 } else {
                                     CC_SETOP(1, "Activate");
@@ -894,7 +933,7 @@ function script8426(int0: number, int1: number, int2: number, int3: number, int4
                                         stack(callback(script7050, -2147483645, -2147483643));
                                         CC_SETONTARGETLEAVE();
                                         CC_SETTARGETCURSORS(struct_getparam(int19, 2803), 158 as cursor);
-                                    } else if ((int47 == 1)) {
+                                    } else if ((int48 == 1)) {
                                         CC_SETOP(1, "Deactivate");
                                     } else {
                                         CC_SETOP(1, "Activate");
@@ -918,7 +957,7 @@ function script8426(int0: number, int1: number, int2: number, int3: number, int4
                                     stack(callback(script7050, -2147483645, -2147483643));
                                     CC_SETONTARGETLEAVE();
                                     CC_SETTARGETCURSORS(struct_getparam(int19, 2803), 158 as cursor);
-                                } else if ((int47 == 1)) {
+                                } else if ((int48 == 1)) {
                                     CC_SETOP(1, "Deactivate");
                                 } else {
                                     CC_SETOP(1, "Activate");
@@ -955,7 +994,7 @@ function script8426(int0: number, int1: number, int2: number, int3: number, int4
                                     stack(callback(script7050, -2147483645, -2147483643));
                                     CC_SETONTARGETLEAVE();
                                     CC_SETTARGETCURSORS(struct_getparam(int19, 2803), 158 as cursor);
-                                } else if ((int47 == 1)) {
+                                } else if ((int48 == 1)) {
                                     CC_SETOP(1, "Deactivate");
                                 } else {
                                     CC_SETOP(1, "Activate");
@@ -979,7 +1018,7 @@ function script8426(int0: number, int1: number, int2: number, int3: number, int4
                                 stack(callback(script7050, -2147483645, -2147483643));
                                 CC_SETONTARGETLEAVE();
                                 CC_SETTARGETCURSORS(struct_getparam(int19, 2803), 158 as cursor);
-                            } else if ((int47 == 1)) {
+                            } else if ((int48 == 1)) {
                                 CC_SETOP(1, "Deactivate");
                             } else {
                                 CC_SETOP(1, "Activate");
@@ -1036,7 +1075,7 @@ function script8426(int0: number, int1: number, int2: number, int3: number, int4
                                         stack(callback(script7050, -2147483645, -2147483643));
                                         CC_SETONTARGETLEAVE();
                                         CC_SETTARGETCURSORS(struct_getparam(int19, 2803), 158 as cursor);
-                                    } else if ((int47 == 1)) {
+                                    } else if ((int48 == 1)) {
                                         CC_SETOP(1, "Deactivate");
                                     } else {
                                         CC_SETOP(1, "Activate");
@@ -1060,7 +1099,7 @@ function script8426(int0: number, int1: number, int2: number, int3: number, int4
                                     stack(callback(script7050, -2147483645, -2147483643));
                                     CC_SETONTARGETLEAVE();
                                     CC_SETTARGETCURSORS(struct_getparam(int19, 2803), 158 as cursor);
-                                } else if ((int47 == 1)) {
+                                } else if ((int48 == 1)) {
                                     CC_SETOP(1, "Deactivate");
                                 } else {
                                     CC_SETOP(1, "Activate");
@@ -1097,7 +1136,7 @@ function script8426(int0: number, int1: number, int2: number, int3: number, int4
                                     stack(callback(script7050, -2147483645, -2147483643));
                                     CC_SETONTARGETLEAVE();
                                     CC_SETTARGETCURSORS(struct_getparam(int19, 2803), 158 as cursor);
-                                } else if ((int47 == 1)) {
+                                } else if ((int48 == 1)) {
                                     CC_SETOP(1, "Deactivate");
                                 } else {
                                     CC_SETOP(1, "Activate");
@@ -1121,7 +1160,7 @@ function script8426(int0: number, int1: number, int2: number, int3: number, int4
                                 stack(callback(script7050, -2147483645, -2147483643));
                                 CC_SETONTARGETLEAVE();
                                 CC_SETTARGETCURSORS(struct_getparam(int19, 2803), 158 as cursor);
-                            } else if ((int47 == 1)) {
+                            } else if ((int48 == 1)) {
                                 CC_SETOP(1, "Deactivate");
                             } else {
                                 CC_SETOP(1, "Activate");
@@ -1171,7 +1210,7 @@ function script8426(int0: number, int1: number, int2: number, int3: number, int4
                                     stack(callback(script7050, -2147483645, -2147483643));
                                     CC_SETONTARGETLEAVE();
                                     CC_SETTARGETCURSORS(struct_getparam(int19, 2803), 158 as cursor);
-                                } else if ((int47 == 1)) {
+                                } else if ((int48 == 1)) {
                                     CC_SETOP(1, "Deactivate");
                                 } else {
                                     CC_SETOP(1, "Activate");
@@ -1195,7 +1234,7 @@ function script8426(int0: number, int1: number, int2: number, int3: number, int4
                                 stack(callback(script7050, -2147483645, -2147483643));
                                 CC_SETONTARGETLEAVE();
                                 CC_SETTARGETCURSORS(struct_getparam(int19, 2803), 158 as cursor);
-                            } else if ((int47 == 1)) {
+                            } else if ((int48 == 1)) {
                                 CC_SETOP(1, "Deactivate");
                             } else {
                                 CC_SETOP(1, "Activate");
@@ -1232,7 +1271,7 @@ function script8426(int0: number, int1: number, int2: number, int3: number, int4
                                 stack(callback(script7050, -2147483645, -2147483643));
                                 CC_SETONTARGETLEAVE();
                                 CC_SETTARGETCURSORS(struct_getparam(int19, 2803), 158 as cursor);
-                            } else if ((int47 == 1)) {
+                            } else if ((int48 == 1)) {
                                 CC_SETOP(1, "Deactivate");
                             } else {
                                 CC_SETOP(1, "Activate");
@@ -1256,7 +1295,7 @@ function script8426(int0: number, int1: number, int2: number, int3: number, int4
                             stack(callback(script7050, -2147483645, -2147483643));
                             CC_SETONTARGETLEAVE();
                             CC_SETTARGETCURSORS(struct_getparam(int19, 2803), 158 as cursor);
-                        } else if ((int47 == 1)) {
+                        } else if ((int48 == 1)) {
                             CC_SETOP(1, "Deactivate");
                         } else {
                             CC_SETOP(1, "Activate");
@@ -1320,7 +1359,7 @@ function script8426(int0: number, int1: number, int2: number, int3: number, int4
                                         stack(callback(script7050, -2147483645, -2147483643));
                                         CC_SETONTARGETLEAVE();
                                         CC_SETTARGETCURSORS(struct_getparam(int19, 2803), 158 as cursor);
-                                    } else if ((int47 == 1)) {
+                                    } else if ((int48 == 1)) {
                                         CC_SETOP(1, "Deactivate");
                                     } else {
                                         CC_SETOP(1, "Activate");
@@ -1344,7 +1383,7 @@ function script8426(int0: number, int1: number, int2: number, int3: number, int4
                                     stack(callback(script7050, -2147483645, -2147483643));
                                     CC_SETONTARGETLEAVE();
                                     CC_SETTARGETCURSORS(struct_getparam(int19, 2803), 158 as cursor);
-                                } else if ((int47 == 1)) {
+                                } else if ((int48 == 1)) {
                                     CC_SETOP(1, "Deactivate");
                                 } else {
                                     CC_SETOP(1, "Activate");
@@ -1381,7 +1420,7 @@ function script8426(int0: number, int1: number, int2: number, int3: number, int4
                                     stack(callback(script7050, -2147483645, -2147483643));
                                     CC_SETONTARGETLEAVE();
                                     CC_SETTARGETCURSORS(struct_getparam(int19, 2803), 158 as cursor);
-                                } else if ((int47 == 1)) {
+                                } else if ((int48 == 1)) {
                                     CC_SETOP(1, "Deactivate");
                                 } else {
                                     CC_SETOP(1, "Activate");
@@ -1405,7 +1444,7 @@ function script8426(int0: number, int1: number, int2: number, int3: number, int4
                                 stack(callback(script7050, -2147483645, -2147483643));
                                 CC_SETONTARGETLEAVE();
                                 CC_SETTARGETCURSORS(struct_getparam(int19, 2803), 158 as cursor);
-                            } else if ((int47 == 1)) {
+                            } else if ((int48 == 1)) {
                                 CC_SETOP(1, "Deactivate");
                             } else {
                                 CC_SETOP(1, "Activate");
@@ -1455,7 +1494,7 @@ function script8426(int0: number, int1: number, int2: number, int3: number, int4
                                     stack(callback(script7050, -2147483645, -2147483643));
                                     CC_SETONTARGETLEAVE();
                                     CC_SETTARGETCURSORS(struct_getparam(int19, 2803), 158 as cursor);
-                                } else if ((int47 == 1)) {
+                                } else if ((int48 == 1)) {
                                     CC_SETOP(1, "Deactivate");
                                 } else {
                                     CC_SETOP(1, "Activate");
@@ -1479,7 +1518,7 @@ function script8426(int0: number, int1: number, int2: number, int3: number, int4
                                 stack(callback(script7050, -2147483645, -2147483643));
                                 CC_SETONTARGETLEAVE();
                                 CC_SETTARGETCURSORS(struct_getparam(int19, 2803), 158 as cursor);
-                            } else if ((int47 == 1)) {
+                            } else if ((int48 == 1)) {
                                 CC_SETOP(1, "Deactivate");
                             } else {
                                 CC_SETOP(1, "Activate");
@@ -1516,7 +1555,7 @@ function script8426(int0: number, int1: number, int2: number, int3: number, int4
                                 stack(callback(script7050, -2147483645, -2147483643));
                                 CC_SETONTARGETLEAVE();
                                 CC_SETTARGETCURSORS(struct_getparam(int19, 2803), 158 as cursor);
-                            } else if ((int47 == 1)) {
+                            } else if ((int48 == 1)) {
                                 CC_SETOP(1, "Deactivate");
                             } else {
                                 CC_SETOP(1, "Activate");
@@ -1540,7 +1579,7 @@ function script8426(int0: number, int1: number, int2: number, int3: number, int4
                             stack(callback(script7050, -2147483645, -2147483643));
                             CC_SETONTARGETLEAVE();
                             CC_SETTARGETCURSORS(struct_getparam(int19, 2803), 158 as cursor);
-                        } else if ((int47 == 1)) {
+                        } else if ((int48 == 1)) {
                             CC_SETOP(1, "Deactivate");
                         } else {
                             CC_SETOP(1, "Activate");
@@ -1597,7 +1636,7 @@ function script8426(int0: number, int1: number, int2: number, int3: number, int4
                                     stack(callback(script7050, -2147483645, -2147483643));
                                     CC_SETONTARGETLEAVE();
                                     CC_SETTARGETCURSORS(struct_getparam(int19, 2803), 158 as cursor);
-                                } else if ((int47 == 1)) {
+                                } else if ((int48 == 1)) {
                                     CC_SETOP(1, "Deactivate");
                                 } else {
                                     CC_SETOP(1, "Activate");
@@ -1621,7 +1660,7 @@ function script8426(int0: number, int1: number, int2: number, int3: number, int4
                                 stack(callback(script7050, -2147483645, -2147483643));
                                 CC_SETONTARGETLEAVE();
                                 CC_SETTARGETCURSORS(struct_getparam(int19, 2803), 158 as cursor);
-                            } else if ((int47 == 1)) {
+                            } else if ((int48 == 1)) {
                                 CC_SETOP(1, "Deactivate");
                             } else {
                                 CC_SETOP(1, "Activate");
@@ -1658,7 +1697,7 @@ function script8426(int0: number, int1: number, int2: number, int3: number, int4
                                 stack(callback(script7050, -2147483645, -2147483643));
                                 CC_SETONTARGETLEAVE();
                                 CC_SETTARGETCURSORS(struct_getparam(int19, 2803), 158 as cursor);
-                            } else if ((int47 == 1)) {
+                            } else if ((int48 == 1)) {
                                 CC_SETOP(1, "Deactivate");
                             } else {
                                 CC_SETOP(1, "Activate");
@@ -1682,7 +1721,7 @@ function script8426(int0: number, int1: number, int2: number, int3: number, int4
                             stack(callback(script7050, -2147483645, -2147483643));
                             CC_SETONTARGETLEAVE();
                             CC_SETTARGETCURSORS(struct_getparam(int19, 2803), 158 as cursor);
-                        } else if ((int47 == 1)) {
+                        } else if ((int48 == 1)) {
                             CC_SETOP(1, "Deactivate");
                         } else {
                             CC_SETOP(1, "Activate");
@@ -1732,7 +1771,7 @@ function script8426(int0: number, int1: number, int2: number, int3: number, int4
                                 stack(callback(script7050, -2147483645, -2147483643));
                                 CC_SETONTARGETLEAVE();
                                 CC_SETTARGETCURSORS(struct_getparam(int19, 2803), 158 as cursor);
-                            } else if ((int47 == 1)) {
+                            } else if ((int48 == 1)) {
                                 CC_SETOP(1, "Deactivate");
                             } else {
                                 CC_SETOP(1, "Activate");
@@ -1756,7 +1795,7 @@ function script8426(int0: number, int1: number, int2: number, int3: number, int4
                             stack(callback(script7050, -2147483645, -2147483643));
                             CC_SETONTARGETLEAVE();
                             CC_SETTARGETCURSORS(struct_getparam(int19, 2803), 158 as cursor);
-                        } else if ((int47 == 1)) {
+                        } else if ((int48 == 1)) {
                             CC_SETOP(1, "Deactivate");
                         } else {
                             CC_SETOP(1, "Activate");
@@ -1793,7 +1832,7 @@ function script8426(int0: number, int1: number, int2: number, int3: number, int4
                             stack(callback(script7050, -2147483645, -2147483643));
                             CC_SETONTARGETLEAVE();
                             CC_SETTARGETCURSORS(struct_getparam(int19, 2803), 158 as cursor);
-                        } else if ((int47 == 1)) {
+                        } else if ((int48 == 1)) {
                             CC_SETOP(1, "Deactivate");
                         } else {
                             CC_SETOP(1, "Activate");
@@ -1817,7 +1856,7 @@ function script8426(int0: number, int1: number, int2: number, int3: number, int4
                         stack(callback(script7050, -2147483645, -2147483643));
                         CC_SETONTARGETLEAVE();
                         CC_SETTARGETCURSORS(struct_getparam(int19, 2803), 158 as cursor);
-                    } else if ((int47 == 1)) {
+                    } else if ((int48 == 1)) {
                         CC_SETOP(1, "Deactivate");
                     } else {
                         CC_SETOP(1, "Activate");
@@ -1899,8 +1938,44 @@ function script8426(int0: number, int1: number, int2: number, int3: number, int4
                             };
                             break;
                         }
+                        case 14753: {
+                            CC_SETOP(2, "Varrock");
+                            if (((MAP_MEMBERS() == 1) && (varbitplayer_15546 > 0))) {
+                                CC_SETOP(3, "Grand Exchange");
+                            };
+                            if (((MAP_MEMBERS() == 1) && (varbitplayer_15630 > 0))) {
+                                CC_SETOP(4, "North Altar");
+                            };
+                            break;
+                        }
+                        case 14763: {
+                            CC_SETOP(2, "Camelot");
+                            if ((varbitplayer_15936 > 0)) {
+                                CC_SETOP(3, "Seers' Village");
+                            };
+                            break;
+                        }
+                        case 14773: {
+                            CC_SETOP(2, "Watchtower");
+                            if ((varbitplayer_15886 > 0)) {
+                                CC_SETOP(3, "Yanille");
+                            };
+                            break;
+                        }
+                        case 14760:
+                        case 53305: {
+                            if ((varbitplayer_1552 == 0)) {
+                                CC_SETOP(2, "Inside");
+                                CC_SETOP(3, "Outside");
+                            } else {
+                                CC_SETOP(2, "Outside");
+                                CC_SETOP(3, "Inside");
+                            };
+                            break;
+                        }
                         case 53006: {
-                            CC_SETOP(2, "Marigold Farm");
+                            CC_SETOP(2, "Wendlewick");
+                            CC_SETOP(3, "Marigold Farm");
                             break;
                         }
                     };
@@ -1931,7 +2006,7 @@ function script8426(int0: number, int1: number, int2: number, int3: number, int4
                 };
                 if ((CC_FIND(int6, int25) == 1)) {
                     CC_SETHIDE(false);
-                    CC_SETPOSITION(((int49 * 16384) / int35), int50, 3, 0);
+                    CC_SETPOSITION(((int50 * 16384) / int36), int51, 3, 0);
                     if ((struct_getparam(int19, 2799) == 0)) {
                         if ((varbitplayer_55115 == 0)) {
                             CC_SETGRAPHIC(31686 as graphic);
@@ -1966,12 +2041,12 @@ function script8426(int0: number, int1: number, int2: number, int3: number, int4
         };
         int20 = (int20 + 1);
     };
-    if (((int48 + 4) < IF_GETHEIGHT(int1))) {
+    if (((int49 + 4) < IF_GETHEIGHT(int1))) {
         IF_SETSCROLLSIZE(0, 0, int1);
     } else {
-        IF_SETSCROLLSIZE(0, (int48 + 4), int1);
+        IF_SETSCROLLSIZE(0, (int49 + 4), int1);
     };
-    if ((int41 == 1)) {
+    if ((int42 == 1)) {
         script7791(int2, int1);
         if ((IF_GETSCROLLY(int1) > IF_GETSCROLLHEIGHT(int1))) {
             IF_SETSCROLLPOS(0, IF_GETSCROLLHEIGHT(int1), int1);

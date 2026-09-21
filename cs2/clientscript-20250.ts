@@ -1,7 +1,7 @@
 //
 function script20250(): void {
     CC_DELETEALL(comp(1442, 17));
-    var int0 = script20117(2);
+    var int0 = script20117(-1);
     if ((int0 == -1)) {
         return;
     };
@@ -85,7 +85,7 @@ function script20250(): void {
     IF_SETPOSITION(int24, int25, 1, 1, comp(1442, 14));  // league_parent_ranks:title_tier
     IF_SETTEXT("Trophies are available once the League ends.", comp(1442, 15));  // league_parent_ranks:title_points
     var string2 = "You have already set your nominated account for this league, you cannot change it again.";
-    if ((varplayer_13541 == 2)) {
+    if ((varplayer_13541 == -1)) {
         IF_SETENABLED(false, comp(1442, 10));  // league_parent_ranks:bg_table
         IF_SETONOP(callback(script15194, string2, -2147483645), comp(1442, 10));  // league_parent_ranks:bg_table
     } else {

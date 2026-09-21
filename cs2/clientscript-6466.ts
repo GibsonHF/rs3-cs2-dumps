@@ -58,11 +58,11 @@ function script6466(int0: number, int1: number, int2: number, int3: number, int4
     } else if ((script6489(int0) == 1)) {
         int11 = 24170 as graphic;
         int12 = 24171;
-        int13 = 15777401;
+        int13 = 14931919;
     } else if ((script7388(int0) == 1)) {
         int11 = 24173 as graphic;
         int12 = 24430;
-        int13 = 15777401;
+        int13 = 16771756;
     };
     if (((int5 == 3) && (script19681(int0) != -1))) {
         int11 = 24168 as graphic;
@@ -87,11 +87,11 @@ function script6466(int0: number, int1: number, int2: number, int3: number, int4
     CC_CREATE(int7, 5, int8);
     CC_SETGRAPHIC(int11);
     if ((int3 == 1)) {
-        CC_SETSIZE((int22 - 10), (26 - 0), 0, 0);
+        CC_SETSIZE((int22 - 10), (28 - 4), 0, 0);
     } else {
         CC_SETSIZE(0, 0, 0, 0);
     };
-    CC_SETPOSITION(((int2 * int22) + ((int22 - CC_GETWIDTH()) / 2)), (int1 + ((26 - CC_GETHEIGHT()) / 2)), 0, 0);
+    CC_SETPOSITION(((int2 * int22) + ((int22 - CC_GETWIDTH()) / 2)), (int1 + ((28 - CC_GETHEIGHT()) / 2)), 0, 0);
     CC_SETOP(1, "Preview");
     if ((int11 == 24170 as graphic)) {
         if ((int5 != 1)) {
@@ -283,20 +283,21 @@ function script6466(int0: number, int1: number, int2: number, int3: number, int4
     CC_CREATE(int7, 4, (int8 + 1));
     CC_SETTEXT(string0);
     CC_SETTEXTFONT(26 as fontmetrics);
+    CC_SETTEXTSHADOW(true);
     CC_SETCOLOUR(int13);
     if ((int3 == 1)) {
-        CC_SETSIZE((int22 - 10), (26 - 0), 0, 0);
+        CC_SETSIZE((int22 - 10), 28, 0, 0);
     } else {
         CC_SETSIZE(0, 0, 0, 0);
     };
-    CC_SETPOSITION(((int2 * int22) + ((int22 - CC_GETWIDTH()) / 2)), (int1 + ((26 - CC_GETHEIGHT()) / 2)), 0, 0);
+    CC_SETPOSITION(((int2 * int22) + ((int22 - CC_GETWIDTH()) / 2)), (int1 + ((28 - CC_GETHEIGHT()) / 2)), 0, 0);
     CC_SETTEXTALIGN(1, 1, 13);
     if ((STRING_LENGTH(string1) > 1)) {
         script14990(0, string1);
     };
     if ((int3 == 1)) {
-        IF_SETSIZE(0, (int1 + 26), 1, 0, int7);
-        var int1 = (int1 + 26);
+        IF_SETSIZE(0, (int1 + 28), 1, 0, int7);
+        var int1 = (int1 + 28);
     } else {
         IF_SETSIZE(0, int1, 1, 0, int7);
     };

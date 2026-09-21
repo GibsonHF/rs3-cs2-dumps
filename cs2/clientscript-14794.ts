@@ -36,9 +36,9 @@ function script14794(int0: number): void {
                     script11624(43712522, 43712523, int3, int4, int5, int6, 1);
                     if ((CC_FIND(comp(667, 11), int6) == 1)) {  // arch_site_map:icon_control_layer
                         CC_SETOPBASE(dbrow_getfield(int2, 352288, 0));
-                        CC_SETOP(1, "Info");
-                        CC_SETOP(2, "Fast travel");
-                        CC_SETOPCURSOR(1, 172);
+                        CC_SETOP(1, "Fast travel");
+                        CC_SETOP(2, "Info");
+                        CC_SETOPCURSOR(2, 172);
                         CC_SETONOP(callback(script14795, int2, -2147483644));
                         CC_SETONMOUSEREPEAT(callback(script14732, string0, string1, -2147483645, -2147483643));
                     };

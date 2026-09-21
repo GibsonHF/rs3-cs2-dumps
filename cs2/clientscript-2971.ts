@@ -8,9 +8,9 @@ function script2971(int0: number, int1: number, int2: number, int3: number, int4
     };
     var string0 = dbrow_getfield(int0, 126976, 0);
     var string1 = dbrow_getfield(int0, 126992, 0);
-    var int6 = 13572;
+    var int6 = 6148;
     var int7 = 1;
-    var int8 = 20;
+    var int8 = 24;
     switch (int4) {
         case -1: {
             var int4 = 0;
@@ -28,7 +28,6 @@ function script2971(int0: number, int1: number, int2: number, int3: number, int4
         default: {
             int4 = script9670(int5, int4);
             int6 = 4476;
-            int8 = 24;
             break;
         }
     };

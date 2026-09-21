@@ -1,5 +1,5 @@
 //
 function script3131(): void {
-    IF_SETHIDE(false, comp(744, 301));  // loginscreen:left_top_flurish_2
+    IF_SETHIDE(false, comp(744, 290));  // loginscreen:tnc_decline_popup
     return;
 }

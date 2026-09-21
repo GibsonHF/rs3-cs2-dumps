@@ -6,6 +6,13 @@ function script9395(int0: number): number {
     };
     if ((int1 == 0)) {
         switch (int0) {
+            case 627:
+            case 45336: {
+                if ((varbitplayer_51336 == 1)) {
+                    return 1;
+                };
+                break;
+            }
             case 41660:
             case 41659:
             case 41661: {

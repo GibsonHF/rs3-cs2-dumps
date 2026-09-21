@@ -20,7 +20,7 @@ function script13636(int0: number, int1: number, int2: number, int3: number, int
     script4512(int5, struct_getparam(int3, 7266), struct_getparam(int3, 7265), 0, 0, struct_getparam(int3, 7268));
     script6199(int5, struct_getparam(int3, 7267), struct_getparam(int3, 7266), 0, (int0 - (2 * struct_getparam(int3, 7266))), struct_getparam(int3, 7265));
     script7924(int5, IF_GETNEXTSUBID(int5), struct_getparam(int3, 7266), struct_getparam(int3, 7265), (int0 - struct_getparam(int3, 7266)), 0, struct_getparam(int3, 7268), 1, 0, 0, 0);
-    script10629(int5, IF_GETNEXTSUBID(int5), (int0 - 3), (struct_getparam(int3, 7265) - 3), 6, 3, string0, struct_getparam(int3, 7273), struct_getparam(int3, 7275), 0, 0, 0, 0);
+    script10629(int5, IF_GETNEXTSUBID(int5), (int0 - 3), (struct_getparam(int3, 7265) - 3), struct_getparam(int3, 8869), 3, string0, struct_getparam(int3, 7273), struct_getparam(int3, 7275), 0, 0, 0, 0);
     script10066(int5, IF_GETNEXTSUBID(int5), int0, (int1 - struct_getparam(int3, 7265)), 0, struct_getparam(int3, 7265), struct_getparam(int3, 7260), 1, struct_getparam(int3, 7262));
     script6199(int5, struct_getparam(int3, 7269), 0, struct_getparam(int3, 7265), struct_getparam(int3, 7266), ((int1 - struct_getparam(int3, 7265)) - struct_getparam(int3, 7266)));
     script7924(int5, IF_GETNEXTSUBID(int5), struct_getparam(int3, 7266), ((int1 - struct_getparam(int3, 7265)) - struct_getparam(int3, 7266)), (int0 - struct_getparam(int3, 7266)), struct_getparam(int3, 7265), struct_getparam(int3, 7269), 1, 0, 1, 0);

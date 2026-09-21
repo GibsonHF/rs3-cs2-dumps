@@ -63,10 +63,13 @@ function script12409(int0: number): void {
                 int20 = varbitplayer_23016;
             } else if ((int17 < (8 + 2))) {
                 int19 = -1;
-                while ((int19 == -1)) {
+                while ((int19 == -1 as obj)) {
                     if ((int25 < 8)) {
                         int19 = INV_GETOBJ(795 as inv, int25);
                         int20 = INV_GETNUM(795 as inv, int25);
+                        if (((int19 != -1 as obj) && (script20672(int19) == 0))) {
+                            int19 = -1;
+                        };
                         int25 = (int25 + 1);
                     };
                     if ((int21 != -1)) {
@@ -111,7 +114,7 @@ function script12409(int0: number): void {
                             script10407();
                         };
                         int18 = (int18 + 1);
-                    } else if ((int19 != -1)) {
+                    } else if ((int19 != -1 as obj)) {
                         script14982(int19, int20, push_array(MODULO(int18, int15)), ((int18 / int15) * int11));
                         script12410(int19);
                         CC_SETONMOUSEREPEAT(callback(script12093, int19, 795, int17));
@@ -185,7 +188,7 @@ function script12409(int0: number): void {
                             script10407();
                         };
                         int18 = (int18 + 1);
-                    } else if ((int19 != -1)) {
+                    } else if ((int19 != -1 as obj)) {
                         script14982(int19, int20, push_array(MODULO(int18, int15)), ((int18 / int15) * int11));
                         script12410(int19);
                         CC_SETONMOUSEREPEAT(callback(script12093, int19, 795, int17));
@@ -252,7 +255,7 @@ function script12409(int0: number): void {
                     script10407();
                 };
                 int18 = (int18 + 1);
-            } else if ((int19 != -1)) {
+            } else if ((int19 != -1 as obj)) {
                 script14982(int19, int20, push_array(MODULO(int18, int15)), ((int18 / int15) * int11));
                 script12410(int19);
                 CC_SETONMOUSEREPEAT(callback(script12093, int19, 795, int17));

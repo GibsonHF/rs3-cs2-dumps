@@ -6,7 +6,7 @@ function script21(int0: number, int1: number): void {
         IF_SETSIZE(struct_getparam(int1, 3565), struct_getparam(int1, 3566), 0, 0, int0);
     } else {
         int1 = script9952(int1);
-        IF_SETPOSITION(((struct_getparam(int1, 3573) + struct_getparam(int1, 3565)) + 5), struct_getparam(int1, 3574), 2, 0, int0);
+        IF_SETPOSITION(((struct_getparam(int1, 3573) + struct_getparam(int1, 3565)) + 6), struct_getparam(int1, 3574), 2, 0, int0);
         IF_SETSIZE(struct_getparam(int1, 3565), struct_getparam(int1, 3566), 0, 0, int0);
     };
     return;

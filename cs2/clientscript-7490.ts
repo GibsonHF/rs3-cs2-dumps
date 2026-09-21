@@ -7,7 +7,7 @@ function script7490(int0: number, int1: number): number {
     };
     if ((IF_GETNEXTSUBID(int3) > 0)) {
         IF_SETPOSITION(0, int1, 0, 0, int3);
-        var int1 = (int1 + IF_GETHEIGHT(int3));
+        var int1 = (int1 + (IF_GETHEIGHT(int3) + 4));
     };
     return int1;
 }

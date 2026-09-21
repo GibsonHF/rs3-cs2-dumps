@@ -27,7 +27,7 @@ function script9408(int0: number, int1: number, int2: number): number {
                 return struct_getparam(int3, 1271);
             };
             if ((script17176() != -2)) {
-                return 13161 as graphic;
+                return 14885 as graphic;
             };
             return -1 as graphic;
         }

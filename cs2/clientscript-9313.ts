@@ -19,7 +19,7 @@ function script9313(): void {
         IF_SETPOSITION(0, 0, 1, 0, comp(517, 229));  // bank:bottom_panel
         IF_SETPOSITION(0, 0, 0, 2, comp(517, 4));  // bank:inventory_panel
         IF_SETPOSITION(0, 0, 0, 0, comp(517, 66));  // bank:bank_button_panel
-        IF_SETPOSITION(70, 12, 2, 0, comp(517, 312));  // bank:help_button_layer
+        IF_SETPOSITION(52, 10, 2, 0, comp(517, 312));  // bank:help_button_layer
         int4 = 253;
         int5 = 105;
         int6 = 126;
@@ -28,7 +28,7 @@ function script9313(): void {
         IF_SETPOSITION(0, 0, 1, 2, comp(517, 229));  // bank:bottom_panel
         IF_SETPOSITION(0, 0, 0, 0, comp(517, 4));  // bank:inventory_panel
         IF_SETPOSITION(0, 0, 0, 2, comp(517, 66));  // bank:bank_button_panel
-        IF_SETPOSITION(50, 15, 2, 0, comp(517, 312));  // bank:help_button_layer
+        IF_SETPOSITION(36, 11, 2, 0, comp(517, 312));  // bank:help_button_layer
     };
     var int8 = IF_GETHEIGHT(comp(517, 2));  // bank:content
     var int9 = 0;
@@ -56,11 +56,11 @@ function script9313(): void {
         };
         if ((int8 < ((358 + 239) + int5))) {
             [int9, int10, int11] = [1, 1, 1];
-        } else if ((int8 < ((608 + 138) + int5))) {
+        } else if ((int8 < ((608 + 139) + int5))) {
             [int9, int10, int11] = [0, 1, 1];
         } else if ((int8 < ((608 + 239) + int5))) {
             [int9, int10, int11] = [1, 0, 1];
-        } else if (((int8 < (((909 + 138) + int5) + int6)) || (varclient_6709 == 0))) {
+        } else if (((int8 < (((909 + 139) + int5) + int6)) || (varclient_6709 == 0))) {
             [int9, int10, int11] = [0, 0, 1];
         } else if ((int8 < (((909 + 239) + int5) + int6))) {
             [int9, int10, int11] = [1, 0, 0];
@@ -72,9 +72,9 @@ function script9313(): void {
         IF_SETHIDE(false, comp(517, 151));  // bank:button_panel_tabs
     };
     if ((int9 == 1)) {
-        IF_SETSIZE(0, 138, 1, 0, comp(517, 66));  // bank:bank_button_panel
+        IF_SETSIZE(0, 139, 1, 0, comp(517, 66));  // bank:bank_button_panel
         IF_SETPOSITION(0, 24, 0, 0, comp(517, 87));  // bank:button_panel_inner
-        IF_SETPOSITION(0, 0, 2, 0, comp(517, 153));  // bank:side_tab_presets
+        IF_SETPOSITION(0, 0, 2, 2, comp(517, 153));  // bank:side_tab_presets
         IF_SETPOSITION(0, 0, 0, 0, comp(517, 116));  // bank:share_preset_quick_buttons
         IF_SETSIZE(0, 24, 1, 1, comp(517, 87));  // bank:button_panel_inner
         IF_SETHIDE(true, comp(517, 89));  // bank:button_panel_bg_untabbed
@@ -88,7 +88,7 @@ function script9313(): void {
     } else {
         IF_SETSIZE(0, 239, 1, 0, comp(517, 66));  // bank:bank_button_panel
         IF_SETPOSITION(0, 0, 0, 0, comp(517, 87));  // bank:button_panel_inner
-        IF_SETPOSITION(0, 0, 0, 0, comp(517, 153));  // bank:side_tab_presets
+        IF_SETPOSITION(0, 1, 0, 0, comp(517, 153));  // bank:side_tab_presets
         IF_SETPOSITION(0, 24, 0, 0, comp(517, 116));  // bank:share_preset_quick_buttons
         IF_SETSIZE(0, 0, 1, 1, comp(517, 87));  // bank:button_panel_inner
         IF_SETHIDE(false, comp(517, 89));  // bank:button_panel_bg_untabbed
@@ -117,7 +117,7 @@ function script9313(): void {
     if ((int10 == 1)) {
         if ((int7 == 1)) {
             if ((int8 <= 650)) {
-                IF_SETSIZE(0, (138 + 5), 1, 1, comp(517, 4));  // bank:inventory_panel
+                IF_SETSIZE(0, (139 + 5), 1, 1, comp(517, 4));  // bank:inventory_panel
                 IF_SETSIZE(0, 30, 1, 1, comp(517, 11));  // bank:inventory_container
                 IF_SETSIZE(0, 70, 1, 1, comp(517, 22));  // bank:worn_container
                 IF_SETPOSITION(0, 0, 0, 1, comp(517, 22));  // bank:worn_container

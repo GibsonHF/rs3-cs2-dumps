@@ -1,11 +1,7 @@
 //
 function script9567(int0: number, int1: number, int2: number, int3: number, int4: number, string0: string): void {
-    if ((int0 == 27 as fontmetrics)) {
-        if (((script6431() == 1) || (script15884(string0, " ") <= 5))) {
-            var int0 = 28 as fontmetrics;
-        };
-    } else if ((script15884(string0, " ") <= 5)) {
-        int0 = 28 as fontmetrics;
+    if (((int0 == 27 as fontmetrics) && (script6431() == 1))) {
+        var int0 = 28 as fontmetrics;
     };
     var int5 = ((5 * 2) + 12);
     var int6 = PARAWIDTH(string0, (int2 - int5), int0);

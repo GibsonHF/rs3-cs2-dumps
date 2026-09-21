@@ -1,6 +1,6 @@
 //[proc,login_close]
 function script2941(): void {
-    IF_SETONRESIZE(callback(), comp(744, 93));  // loginscreen:username_input_group_graphic
+    IF_SETONRESIZE(callback(), comp(744, 89));  // loginscreen:login
     varclient_2577 = "";
     script15699();
     varclient_4192 = "";

@@ -11,7 +11,7 @@ function script6487(): void {
     while ((int0 < int1)) {
         int2 = enum_getvalue(0, 26, 9825 as cs2enum, int0);
         string0 = enum_getvalue(0, 36, 9824 as cs2enum, int0);
-        script7852(96665600, int0, 0, 0, 0, 0, 0, 24, 1, 0, 13572, string0);
+        script7852(96665600, int0, 0, 0, 0, 0, 0, 24, 1, 0, 6148, string0);
         CC_SETONOP(callback(script20513, -2147483643));
         CC_SETONSCROLLWHEEL(callback(script36, 96665622, 96665604, -2147483646));
         script20515(int2);

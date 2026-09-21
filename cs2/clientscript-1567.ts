@@ -13,7 +13,7 @@ function script1567(int0: number): void {
             break;
         }
         case 744: {
-            IF_SETHIDE(int0, comp(744, 195));  // loginscreen:com_195
+            IF_SETHIDE(int0, comp(744, 191));  // loginscreen:softkeyboard_close_layer
             break;
         }
     };

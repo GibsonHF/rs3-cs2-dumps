@@ -1,5 +1,5 @@
 //
 function script20924(): void {
-    stack(19883);
+    stack(-1);
     return;
 }

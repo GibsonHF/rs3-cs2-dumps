@@ -88,147 +88,118 @@ function script5683(int0: number): void {
     switch (int0) {
         case 8: {
             IF_SETHIDE(false, comp(1218, 20));  // skillguide:1x1_button_selected_layer
-            IF_SETHIDE(false, comp(1218, 16));  // skillguide:button_highlight
             break;
         }
         case 28: {
             IF_SETHIDE(false, comp(1218, 28));  // skillguide:1x1_button_selected_layer_27
-            IF_SETHIDE(false, comp(1218, 24));  // skillguide:button_highlight_27
             break;
         }
         case 1: {
             IF_SETHIDE(false, comp(1218, 36));  // skillguide:1x1_button_selected_layer_1
-            IF_SETHIDE(false, comp(1218, 32));  // skillguide:button_highlight_1
             break;
         }
         case 6: {
             IF_SETHIDE(false, comp(1218, 44));  // skillguide:1x1_button_selected_layer_2
-            IF_SETHIDE(false, comp(1218, 40));  // skillguide:button_highlight_2
             break;
         }
         case 22: {
             IF_SETHIDE(false, comp(1218, 52));  // skillguide:1x1_button_selected_layer_7
-            IF_SETHIDE(false, comp(1218, 48));  // skillguide:button_highlight_7
             break;
         }
         case 16: {
             IF_SETHIDE(false, comp(1218, 60));  // skillguide:1x1_button_selected_layer_8
-            IF_SETHIDE(false, comp(1218, 56));  // skillguide:button_highlight_8
             break;
         }
         case 11: {
             IF_SETHIDE(false, comp(1218, 69));  // skillguide:1x1_button_selected_layer_9
-            IF_SETHIDE(false, comp(1218, 64));  // skillguide:button_highlight_9
             break;
         }
         case 5: {
             IF_SETHIDE(false, comp(1218, 76));  // skillguide:1x1_button_selected_layer_6
-            IF_SETHIDE(false, comp(1218, 72));  // skillguide:button_highlight_6
             break;
         }
         case 26: {
             IF_SETHIDE(false, comp(1218, 84));  // skillguide:1x1_button_selected_layer_10
-            IF_SETHIDE(false, comp(1218, 80));  // skillguide:button_highlight_10
             break;
         }
         case 25: {
             IF_SETHIDE(false, comp(1218, 92));  // skillguide:1x1_button_selected_layer_25
-            IF_SETHIDE(false, comp(1218, 88));  // skillguide:button_highlight_25
             break;
         }
         case 21: {
             IF_SETHIDE(false, comp(1218, 100));  // skillguide:1x1_button_selected_layer_22
-            IF_SETHIDE(false, comp(1218, 96));  // skillguide:button_highlight_22
             break;
         }
         case 17: {
             IF_SETHIDE(false, comp(1218, 108));  // skillguide:1x1_button_selected_layer_16
-            IF_SETHIDE(false, comp(1218, 104));  // skillguide:button_highlight_16
             break;
         }
         case 15: {
             IF_SETHIDE(false, comp(1218, 116));  // skillguide:1x1_button_selected_layer_12
-            IF_SETHIDE(false, comp(1218, 112));  // skillguide:button_highlight_12
             break;
         }
         case 19: {
             IF_SETHIDE(false, comp(1218, 124));  // skillguide:1x1_button_selected_layer_18
-            IF_SETHIDE(false, comp(1218, 120));  // skillguide:button_highlight_18
             break;
         }
         case 9: {
             IF_SETHIDE(false, comp(1218, 132));  // skillguide:1x1_button_selected_layer_11
-            IF_SETHIDE(false, comp(1218, 128));  // skillguide:button_highlight_11
             break;
         }
         case 23: {
             IF_SETHIDE(false, comp(1218, 140));  // skillguide:1x1_button_selected_layer_23
-            IF_SETHIDE(false, comp(1218, 136));  // skillguide:button_highlight_23
             break;
         }
         case 27: {
             IF_SETHIDE(false, comp(1218, 148));  // skillguide:1x1_button_selected_layer_26
-            IF_SETHIDE(false, comp(1218, 144));  // skillguide:button_highlight_26
             break;
         }
         case 4: {
             IF_SETHIDE(false, comp(1218, 157));  // skillguide:1x1_button_selected_layer_17
-            IF_SETHIDE(false, comp(1218, 153));  // skillguide:button_highlight_17
             break;
         }
         case 13: {
             IF_SETHIDE(false, comp(1218, 165));  // skillguide:1x1_button_selected_layer_3
-            IF_SETHIDE(false, comp(1218, 161));  // skillguide:button_highlight_3
             break;
         }
         case 29: {
             IF_SETHIDE(false, comp(1218, 173));  // skillguide:1x1_button_selected_layer_28
-            IF_SETHIDE(false, comp(1218, 169));  // skillguide:button_highlight_28
             break;
         }
         case 7: {
             IF_SETHIDE(false, comp(1218, 181));  // skillguide:1x1_button_selected_layer_15
-            IF_SETHIDE(false, comp(1218, 177));  // skillguide:button_highlight_15
             break;
         }
         case 3: {
             IF_SETHIDE(false, comp(1218, 189));  // skillguide:1x1_button_selected_layer_13
-            IF_SETHIDE(false, comp(1218, 185));  // skillguide:button_highlight_13
             break;
         }
         case 12: {
             IF_SETHIDE(false, comp(1218, 197));  // skillguide:1x1_button_selected_layer_20
-            IF_SETHIDE(false, comp(1218, 193));  // skillguide:button_highlight_20
             break;
         }
         case 20: {
             IF_SETHIDE(false, comp(1218, 205));  // skillguide:1x1_button_selected_layer_21
-            IF_SETHIDE(false, comp(1218, 201));  // skillguide:button_highlight_21
             break;
         }
         case 14: {
             IF_SETHIDE(false, comp(1218, 213));  // skillguide:1x1_button_selected_layer_5
-            IF_SETHIDE(false, comp(1218, 209));  // skillguide:button_highlight_5
             break;
         }
         case 2: {
             IF_SETHIDE(false, comp(1218, 221));  // skillguide:1x1_button_selected_layer_4
-            IF_SETHIDE(false, comp(1218, 217));  // skillguide:button_highlight_4
             break;
         }
         case 24: {
             IF_SETHIDE(false, comp(1218, 229));  // skillguide:1x1_button_selected_layer_24
-            IF_SETHIDE(false, comp(1218, 225));  // skillguide:button_highlight_24
             break;
         }
         case 10: {
             IF_SETHIDE(false, comp(1218, 237));  // skillguide:1x1_button_selected_layer_14
-            IF_SETHIDE(false, comp(1218, 233));  // skillguide:button_highlight_14
             break;
         }
         case 18: {
             IF_SETHIDE(false, comp(1218, 12));  // skillguide:1x1_button_selected_layer_19
-            IF_SETHIDE(false, comp(1218, 8));  // skillguide:button_highlight_19
             break;
         }
     };

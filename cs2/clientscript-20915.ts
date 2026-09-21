@@ -1,6 +1,6 @@
 //
 function script20915(): void {
-    switch (2) {
+    switch (-1) {
         case 1: {
             stack("<sprite=36300>");
             return;
@@ -14,7 +14,7 @@ function script20915(): void {
             return;
         }
     };
-    script12478(`Spirte string for broadcasts and chat meses not plugged in for league: ${inttostring(2, 10)}`);
+    script12478(`Spirte string for broadcasts and chat meses not plugged in for league: ${inttostring(-1, 10)}`);
     stack("");
     return;
 }

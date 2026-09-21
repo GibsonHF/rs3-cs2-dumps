@@ -19,10 +19,7 @@ function script1237(int0: number, int1: number): void {
         };
         int3 = script11994(int2, int0);
         if ((IF_FIND(struct_getparam(int1, 8150)) == 1)) {
-            if ((varbitplayer_27169 == 1)) {
-                CC_SETSIZE(MIN(160, ((IF_GETWIDTH(struct_getparam(int1, 8130)) - (24 * 2)) - (4 * 3))), 27, 0, 0);
-                CC_SETPOSITION((4 - 2), (4 - 1), 0, 2);
-            } else if ((int4 == 1)) {
+            if ((int4 == 1)) {
                 CC_SETSIZE((4 * 2), 32, 1, 0);
                 CC_SETPOSITION(4, 6, 0, 2);
             } else {
