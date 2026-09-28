@@ -1657,6 +1657,24 @@ function script7163(int0: number): number {
             };
             break;
         }
+        case 333: {
+            if ((varbitplayer_62096 == 0)) {
+                return 0;
+            };
+            break;
+        }
+        case 334: {
+            if ((varbitplayer_62095 < 3)) {
+                return 0;
+            };
+            break;
+        }
+        case 335: {
+            if ((varbitplayer_62130 == 0)) {
+                return 0;
+            };
+            break;
+        }
         default: {
             return 1;
         }

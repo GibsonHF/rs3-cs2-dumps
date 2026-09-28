@@ -1,17 +1,17 @@
 //[proc,worldmap_showmenu]
 function script291(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number): void {
-    IF_SETTEXT(WORLDMAP_GETMAPNAME(WORLDMAP_GETCURRENTMAP()), comp(1422, 94));  // worldmap_v2_ui:mapname
+    IF_SETTEXT(WORLDMAP_GETMAPNAME(WORLDMAP_GETCURRENTMAP()), comp(1422, 95));  // worldmap_v2_ui:map_menu_arrow
     CC_DELETEALL(int2);
     CC_DELETEALL(int3);
     if ((int0 == 0)) {
         IF_SETHIDE(true, int1);
-        IF_SETGRAPHIC(773 as graphic, comp(1422, 95));  // worldmap_v2_ui:map_menu_arrow
-        IF_SETONCLICK(callback(script290, 1, int1, int2, int3, int4, int5), comp(1422, 93));  // worldmap_v2_ui:map_menu_button_section
+        IF_SETGRAPHIC(773 as graphic, comp(1422, 96));  // worldmap_v2_ui:findbox
+        IF_SETONCLICK(callback(script290, 1, int1, int2, int3, int4, int5), comp(1422, 94));  // worldmap_v2_ui:mapname
         return;
     };
     IF_SETHIDE(false, int1);
-    IF_SETGRAPHIC(788 as graphic, comp(1422, 95));  // worldmap_v2_ui:map_menu_arrow
-    IF_SETONCLICK(callback(script290, 0, int1, int2, int3, int4, int5), comp(1422, 93));  // worldmap_v2_ui:map_menu_button_section
+    IF_SETGRAPHIC(788 as graphic, comp(1422, 96));  // worldmap_v2_ui:findbox
+    IF_SETONCLICK(callback(script290, 0, int1, int2, int3, int4, int5), comp(1422, 94));  // worldmap_v2_ui:mapname
     var int6 = ENUM_GETOUTPUTCOUNT(708 as cs2enum);
     define_array((int6 + 1));
     pop_array(0, 0);

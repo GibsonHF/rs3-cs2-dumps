@@ -20,6 +20,9 @@ function script15728(int0: number): number {
             if ((script4148() == 1)) {
                 return 1;
             };
+            if ((MAP_MEMBERS() == 0)) {
+                return 1;
+            };
             break;
         }
     };

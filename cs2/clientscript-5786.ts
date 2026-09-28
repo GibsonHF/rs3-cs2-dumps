@@ -9,7 +9,7 @@ function script5786(int0: number, int1: number, int2: number, int3: number, int4
         script12478("Integer param $slot was out of expected bounds!");
         return 0;
     };
-    if (((int0 < 0) || (int0 >= 1820))) {
+    if (((int0 < 0) || (int0 >= 1920))) {
         script12478("Integer param $bank_slot was out of expected bounds!");
         return 0;
     };

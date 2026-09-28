@@ -9,7 +9,10 @@ function script15747(int0: number, int1: number): number {
     if (((dbrow_getfield(int1, 500000, 0) == 0) && (script4148() == 1))) {
         return 0;
     };
-    if ((dbrow_getfield(int1, 500016, 0) == 1)) {
+    if (((dbrow_getfield(int1, 500016, 0) == 0) && (MAP_MEMBERS() == 0))) {
+        return 0;
+    };
+    if ((dbrow_getfield(int1, 500032, 0) == 1)) {
         switch (int1) {
             case 7081:
             case 7082:
@@ -243,7 +246,7 @@ function script15747(int0: number, int1: number): number {
             break;
         }
     };
-    if (((DB_GETFIELDCOUNT(int1, 500032) > 0) && (script12115(dbrow_getfield(int1, 500032, 0)) == 0))) {
+    if (((DB_GETFIELDCOUNT(int1, 500048) > 0) && (script12115(dbrow_getfield(int1, 500048, 0)) == 0))) {
         return 0;
     };
     return 1;

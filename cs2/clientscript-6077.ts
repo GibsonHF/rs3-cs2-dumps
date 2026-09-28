@@ -28,6 +28,16 @@ function script6077(int0: number, int1: number, int2: number): number {
     if (((int0 == 5) && (item_getparam(int1, 2195) == 35))) {
         int5 = 0;
     };
+    switch (varplayer_304) {
+        case 1016: {
+            int5 = 70;
+            break;
+        }
+        case 1017: {
+            int5 = 60;
+            break;
+        }
+    };
     int3 = MAX(1, (SCALE(script17369(int1), 100, int5) + int4));
     return int3;
 }

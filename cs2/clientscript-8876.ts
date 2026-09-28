@@ -8,6 +8,11 @@ function script8876(int0: number, int1: number, string0: string): void {
             int3 = varplayer_12531;
             break;
         }
+        case 32892:
+        case 32893: {
+            int3 = varclient_8482;
+            break;
+        }
     };
     if (((int3 <= 0) || (npc_getparam(unk11077(), 5715) == 1))) {
         script8880();

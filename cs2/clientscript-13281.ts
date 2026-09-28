@@ -8011,7 +8011,7 @@ function script13281(int0: number): number {
             return varbitplayer_42446;
         }
         case 3649: {
-            return varplayer_8225;
+            return (varplayer_8225 + varplayer_13685);
         }
         case 3650: {
             return varbitplayer_42487;

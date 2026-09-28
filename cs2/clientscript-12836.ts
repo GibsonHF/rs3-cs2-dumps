@@ -173,6 +173,10 @@ function script12836(int0: number, int1: number): number {
             varbitplayer_51676 = int1;
             break;
         }
+        case 55: {
+            varbitplayer_62022 = int1;
+            break;
+        }
         default: {
             script12478(`Unexpected ID ${TOSTRING_LOCALISED(int0, 1)} in cws_setvar. Val=${TOSTRING_LOCALISED(int1, 1)}`);
             break;

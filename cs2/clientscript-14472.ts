@@ -24,12 +24,12 @@ function script14472(): void {
     script14473(8689);
     script14473(9026);
     if ((varbitplayer_41613 == 0)) {
-        IF_SETTEXT("Seed collector<col=ff0000> - Purchased at the Ardougne Farmers' Market</col>", comp(650, 581));  // 6awe3_seedicide:seed_collector_title
-        IF_SETHIDE(true, comp(650, 580));  // 6awe3_seedicide:seed_pickup_toggle_text
+        IF_SETTEXT("Seed collector<col=ff0000> - Purchased at the Ardougne Farmers' Market</col>", comp(650, 583));  // 6awe3_seedicide:button_83
+        IF_SETHIDE(true, comp(650, 582));  // 6awe3_seedicide:info_holder_active_83
     } else {
-        IF_SETTEXT("Seed collector", comp(650, 581));  // 6awe3_seedicide:seed_collector_title
-        IF_SETHIDE(false, comp(650, 580));  // 6awe3_seedicide:seed_pickup_toggle_text
+        IF_SETTEXT("Seed collector", comp(650, 583));  // 6awe3_seedicide:button_83
+        IF_SETHIDE(false, comp(650, 582));  // 6awe3_seedicide:info_holder_active_83
     };
-    script14139(42598979, 42599128, "", "", "", varbitplayer_41615, script6427(varbitplayer_41613));
+    script14139(42598981, 42599130, "", "", "", varbitplayer_41615, script6427(varbitplayer_41613));
     return;
 }

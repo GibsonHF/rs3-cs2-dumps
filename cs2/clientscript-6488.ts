@@ -3150,6 +3150,9 @@ function script6488(int0: number): number {
         case 31869: {
             return varbitplayer_24929;
         }
+        case 31870: {
+            return varbitplayer_60615;
+        }
         case 31871: {
             return varbitplayer_24931;
         }

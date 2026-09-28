@@ -1301,6 +1301,40 @@ function script5828(int0: number, int1: number, int2: number, int3: number, int4
                             };
                             break;
                         }
+                        case 5813: {
+                            int17 = MIN(MAX(SCALE(varbitplayer_62039, 1000, 100), 0), 100);
+                            string2 = "<col=ffffff>";
+                            string12 = inttostring(int17, 10);
+                            if ((int17 <= 50)) {
+                                string2 = "<col=ff0000>";
+                                string12 = `${string2}${string12}${string1}%`;
+                            } else if ((int17 < 100)) {
+                                string2 = "<col=FFA500>";
+                                string12 = `${string2}${string12}${string1}%`;
+                            } else {
+                                string2 = "<col=00ff00>";
+                                string12 = "Full";
+                                string12 = `${string2}${string12}${string1}`;
+                            };
+                            int44 = script7235(`Imaging status: ${string12}`, string3, int2, int3, int4, int44);
+                            if ((varbitplayer_62056 > 0)) {
+                                int46 = -1;
+                                stack(1589248);
+                                stack(varbitplayer_62056);
+                                DB_FIND(0);
+                                int46 = dbrow_findnext();
+                                if ((int46 != -1)) {
+                                    string12 = dbrow_getfield(int46, 1589312, 0);
+                                    int44 = script7235(`Attuned mural: ${string12}`, string3, int2, int3, int4, int44);
+                                };
+                            };
+                            break;
+                        }
+                        case 5814: {
+                            int34 = INV_GETVAR(varclient_5121, varclient_5122, 62023);
+                            int44 = script7236("Charges remaining", int34, int7, "", int2, int3, int4, int44);
+                            break;
+                        }
                         case 4359: {
                             if ((varclient_5121 == 90)) {
                                 if ((varclient_6492 == 1)) {
@@ -1423,7 +1457,7 @@ function script5828(int0: number, int1: number, int2: number, int3: number, int4
                         }
                         case 35: {
                             string12 = inttostring(enum_getvalue(33, 0, 6560, int0), 10);
-                            if (((item_getparam(int0, 485) == 1265) || (item_getparam(int0, 485) == 1300))) {
+                            if ((((item_getparam(int0, 485) == 1265) || (item_getparam(int0, 485) == 1300)) || (item_getparam(int0, 485) == 1300))) {
                                 if ((STAT_BASE(8 as stat) >= struct_getparam(28972, 2212))) {
                                     string12 = inttostring((enum_getvalue(33, 0, 6560, int0) + 2), 10);
                                 };

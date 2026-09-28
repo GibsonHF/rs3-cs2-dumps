@@ -30,10 +30,10 @@ function script343(int0: number, int1: number, int2: number, int3: number, int4:
     } else {
         script1376(1, int6, int10);
     };
-    script341(93192240, varbitclient_21370);
-    IF_SETONRESIZE(callback(script10088, -2147483645), comp(1422, 48));  // worldmap_v2_ui:legend_button_selected_layer
-    script341(93192252, varbitclient_23021);
-    IF_SETONRESIZE(callback(script10089, -2147483645), comp(1422, 60));  // worldmap_v2_ui:key_button_selected_layer
+    script341(93192241, varbitclient_21370);
+    IF_SETONRESIZE(callback(script10088, -2147483645), comp(1422, 49));  // worldmap_v2_ui:legend_button_active_layer
+    script341(93192253, varbitclient_23021);
+    IF_SETONRESIZE(callback(script10089, -2147483645), comp(1422, 61));  // worldmap_v2_ui:key_button_active_layer
     script9639();
     script285(int1);
     script1839(varbitplayer_14108, int2, int3, int4);

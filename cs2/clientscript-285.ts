@@ -2,7 +2,7 @@
 function script285(int0: number): void {
     CC_DELETEALL(int0);
     var int1 = 0;
-    script41(93192266);
+    script41(93192267);
     var int2 = 1;
     var int3 = -1;
     var string0 = "Hide";

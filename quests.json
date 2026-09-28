@@ -17255,5 +17255,58 @@
 				"varbit": 61434
 			}
 		]
+	},
+	{
+		"extra": {
+			"quest_combat_difficulty": 12, // 857 chisel:quest_combat
+			"quest_id": 371, // 1345 chisel:quest_create_req61_id
+			"quest_description": "Prepare for (and deal with) the arrival of the Ghrazi Blood Knights.", // 5968
+			"quest_rewards_item1": 63955, // 6852 chisel:quest_reward_item1
+			"quest_rewards_item2": 63956, // 6853 chisel:quest_reward_item2
+			"quest_rewards_item3": 63957, // 6854 chisel:quest_reward_item3
+			"quest_rewards_item4": 63958, // 6855 chisel:quest_reward_item4
+			"quest_rewards_item5": 63959, // 6856 chisel:quest_reward_item5
+			"quest_achievement": 4782, // 7158 chisel:quest_achieve_id
+			"quest_timeline_category": 8, // 7159
+			"quest_name_first_letter_no_accents": "H", // 7219 chisel:quest_sort_char
+			"quest_start_point": "Speak to Sorrel in Amberfell.", // 7814
+			"quest_req_items": "1 maple log, 4 havensilver bars, a kwuarm potion (unfinished), silver spines, sanguine spines, and combat gear (a havensilver weapon and antisanguine potions are recommended).", // 7815
+			"quest_combat": "You must defeat multiple level 78 sanguine werewolves and two high-level vampyres. Combat level of 110 or higher is recommended.", // 7816 chisel:quest_combat_req
+			"quest_rewards_other": "Ability to mix super and extreme antisanguine potions; ability to smith havensilver halberds; full access to the rest of Havenhythe; access to the Ghrazi Blood Knights boss fight", // 7823 chisel:quest_reward
+			"quest_icon_big": 36584, // 7829 chisel:quest_icon_small_sprite
+			"quest_age": 4, // 7831 chisel:quest_age_period
+			"quest_voice_acted": 1, // 7833
+			"quest_release_year": 2026, // 7834
+			"quest_series": 41, // 7836
+			"quest_series_number": 4, // 7837 chisel:quest_nth_in_series
+			"quest_length": 4, // 7855
+			"quest_start_location": 59 // 9393
+		},
+		"id": 533,
+		"members": true,
+		"name": "Heralds of Crimson",
+		"quest_difficulty": 2,
+		"quest_item_sprite": 36585,
+		"quest_list_name": "Heralds of Crimson",
+		"quest_points": 3,
+		"required_quests": [
+			531
+		],
+		"skill_requirements": {
+			"12": 51,
+			"13": 60,
+			"14": 65,
+			"15": 55
+		},
+		"start_location_path": [
+			61146661
+		],
+		"varbits": [
+			{
+				"endvalue": 215,
+				"startvalue": 5,
+				"varbit": 62090
+			}
+		]
 	}
 ]

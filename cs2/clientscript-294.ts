@@ -9,7 +9,7 @@ function script294(int0: number, int1: number, int2: number, int3: number, int4:
     varclient_2545 = "";
     script308(int4);
     script2046(int5);
-    script41(93192266);
+    script41(93192267);
     WORLDMAP_SETMAP(int0);
     if ((HAS_HTML5() == 1)) {
         script7953(int0);

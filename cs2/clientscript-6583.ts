@@ -340,6 +340,16 @@ function script6583(int0: number, int1: number): void {
             varclient_6609 = (varclient_6609 + int1);
             break;
         }
+        case 53439: {
+            varclient_8484 = (varclient_8484 + int1);
+            varclient_8483 = (varclient_8483 + int1);
+            break;
+        }
+        case 53440: {
+            varclient_8486 = (varclient_8486 + int1);
+            varclient_8485 = (varclient_8485 + int1);
+            break;
+        }
         case 14663: {
             varclient_2168 = (varclient_2168 + int1);
             varclient_2167 = (varclient_2167 + int1);
@@ -556,6 +566,11 @@ function script6583(int0: number, int1: number): void {
         case 28927: {
             varclient_6992 = (varclient_6992 + int1);
             varclient_6991 = (varclient_6991 + int1);
+            break;
+        }
+        case 53444: {
+            varclient_8488 = (varclient_8488 + int1);
+            varclient_8487 = (varclient_8487 + int1);
             break;
         }
         case 48296: {

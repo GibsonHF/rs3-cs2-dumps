@@ -1,6 +1,6 @@
 //
 function script4736(int0: number, int1: number): void {
-    var int2 = 1820;
+    var int2 = 1920;
     var int3 = -1 as inv;
     if ((varbitplayer_3079 > 0)) {
         int3 = enum_getvalue(0, 39, 3879 as cs2enum, varbitplayer_3079);

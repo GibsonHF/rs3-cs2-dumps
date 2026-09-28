@@ -71,7 +71,7 @@ function script2592(int0: number, int1: number, int2: number, int3: number): [nu
             int1 = script14356(script5798(int0));
         };
     };
-    if ((int0 >= 1820)) {
+    if ((int0 >= 1920)) {
         int0 = script705(int0, int1);
     };
     if ((script14344(int0) != -1)) {

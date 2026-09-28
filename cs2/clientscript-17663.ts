@@ -158,6 +158,24 @@ function script17663(int0: number): string {
             string0 = script5359(string0);
             break;
         }
+        case 53445: {
+            stack(string0);
+            script6240();
+            string0 = [];
+            break;
+        }
+        case 53449: {
+            stack(string0);
+            script6244();
+            string0 = [];
+            break;
+        }
+        case 53450: {
+            stack(string0);
+            script6245();
+            string0 = [];
+            break;
+        }
     };
     return string0;
 }

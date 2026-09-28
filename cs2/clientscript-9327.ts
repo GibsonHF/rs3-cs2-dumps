@@ -48,7 +48,7 @@ function script9327(int0: number, int1: number): void {
     };
     if ((int6 == 0)) {
         IF_SETHIDE(false, comp(517, 197));  // bank:message_nofilter
-        while ((int7 < 1820)) {
+        while ((int7 < 1920)) {
             if ((CC_FIND(comp(517, 201), int7) == 1)) {  // bank:bank_inv
                 CC_SETHIDE(true);
             };

@@ -5,7 +5,7 @@ function script15748(string0: string): void {
     if ((int0 == -1)) {
         return;
     };
-    if ((dbrow_getfield(int0, 500016, 0) == 1)) {
+    if ((dbrow_getfield(int0, 500032, 0) == 1)) {
         varclient_6911 = 1;
     };
     switch (int0) {

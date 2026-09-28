@@ -9,7 +9,7 @@ function script2046(int0: number): void {
     CC_DELETEALL(comp(1422, 9));  // worldmap_v2_ui:arrow3
     CC_DELETEALL(comp(1422, 10));  // worldmap_v2_ui:arrow_gravestone
     CC_DELETEALL(comp(1422, 12));  // worldmap_v2_ui:arrow_waypoint
-    CC_DELETEALL(comp(1422, 31));  // worldmap_v2_ui:newcontent_upsell0
+    CC_DELETEALL(comp(1422, 32));  // worldmap_v2_ui:fps
     if ((PLAYERMEMBER() == false)) {
         CC_DELETEALL(comp(1422, 20));  // worldmap_v2_ui:upsell0
         CC_DELETEALL(comp(1422, 21));  // worldmap_v2_ui:upsell1
@@ -22,6 +22,7 @@ function script2046(int0: number): void {
         CC_DELETEALL(comp(1422, 28));  // worldmap_v2_ui:upsell8
         CC_DELETEALL(comp(1422, 29));  // worldmap_v2_ui:upsell9
         CC_DELETEALL(comp(1422, 30));  // worldmap_v2_ui:upsell10
+        CC_DELETEALL(comp(1422, 31));  // worldmap_v2_ui:newcontent_upsell0
     };
     return;
 }

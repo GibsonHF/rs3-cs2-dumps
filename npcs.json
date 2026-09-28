@@ -40047,7 +40047,8 @@
 		"boundSize": 1,
 		"combat": 91,
 		"extra": {
-			"slayer_category": 34 // 50 chisel:slayer_task_id
+			"slayer_category": 34, // 50 chisel:slayer_task_id
+			"combatv2_attackmod": 14 // 2836 chisel:weakness_class
 		},
 		"id": 1023,
 		"models": [
@@ -47235,6 +47236,7 @@
 			"attackbonus": 710, // 29 chisel:accuracy_melee_(npc)
 			"slayer_category": 34, // 50 chisel:slayer_task_id
 			"melee_strength": 1760, // 641 chisel:damage_melee
+			"combatv2_attackmod": 14, // 2836 chisel:weakness_class
 			"combatv2_weakness": 4, // 2848 chisel:weakness
 			"combatv2_npc_armour": 710 // 2865 chisel:armor
 		},
@@ -47306,6 +47308,7 @@
 			"attackbonus": 710, // 29 chisel:accuracy_melee_(npc)
 			"slayer_category": 34, // 50 chisel:slayer_task_id
 			"melee_strength": 1760, // 641 chisel:damage_melee
+			"combatv2_attackmod": 14, // 2836 chisel:weakness_class
 			"combatv2_weakness": 4, // 2848 chisel:weakness
 			"combatv2_npc_armour": 710 // 2865 chisel:armor
 		},
@@ -73132,6 +73135,7 @@
 			"melee_strength": 8640, // 641 chisel:damage_melee
 			"ranged_strength": 8640, // 643 chisel:damage_ranged
 			"magic_strength": 8640, // 965 chisel:damage_magic
+			"combatv2_attackmod": 14, // 2836 chisel:weakness_class
 			"combatv2_weakness": 1, // 2848 chisel:weakness
 			"combatv2_defence_weakest": 90, // 2849 chisel:weakness_modifier_weakness
 			"combatv2_defence_weakclass": 70, // 2850 chisel:weakness_modifier_weak
@@ -130526,6 +130530,7 @@
 			"damagetype": 2, // 26 chisel:potion_effect_unk3
 			"slayer_category": 34, // 50 chisel:slayer_task_id
 			"ranged_strength": 1840, // 643 chisel:damage_ranged
+			"combatv2_attackmod": 14, // 2836 chisel:weakness_class
 			"combatv2_weakness": 5, // 2848 chisel:weakness
 			"combatv2_npc_armour": 755 // 2865 chisel:armor
 		},
@@ -130649,6 +130654,7 @@
 			"attackbonus": 628, // 29 chisel:accuracy_melee_(npc)
 			"slayer_category": 34, // 50 chisel:slayer_task_id
 			"melee_strength": 1600, // 641 chisel:damage_melee
+			"combatv2_attackmod": 14, // 2836 chisel:weakness_class
 			"combatv2_weakness": 2, // 2848 chisel:weakness
 			"combatv2_npc_armour": 628 // 2865 chisel:armor
 		},
@@ -130679,6 +130685,7 @@
 			"attackbonus": 628, // 29 chisel:accuracy_melee_(npc)
 			"slayer_category": 34, // 50 chisel:slayer_task_id
 			"melee_strength": 1600, // 641 chisel:damage_melee
+			"combatv2_attackmod": 14, // 2836 chisel:weakness_class
 			"combatv2_weakness": 2, // 2848 chisel:weakness
 			"combatv2_npc_armour": 628 // 2865 chisel:armor
 		},
@@ -130709,6 +130716,7 @@
 			"attackbonus": 628, // 29 chisel:accuracy_melee_(npc)
 			"slayer_category": 34, // 50 chisel:slayer_task_id
 			"melee_strength": 1600, // 641 chisel:damage_melee
+			"combatv2_attackmod": 14, // 2836 chisel:weakness_class
 			"combatv2_weakness": 2, // 2848 chisel:weakness
 			"combatv2_npc_armour": 628 // 2865 chisel:armor
 		},
@@ -130739,6 +130747,7 @@
 			"attackbonus": 628, // 29 chisel:accuracy_melee_(npc)
 			"slayer_category": 34, // 50 chisel:slayer_task_id
 			"melee_strength": 1600, // 641 chisel:damage_melee
+			"combatv2_attackmod": 14, // 2836 chisel:weakness_class
 			"combatv2_weakness": 2, // 2848 chisel:weakness
 			"combatv2_npc_armour": 628 // 2865 chisel:armor
 		},
@@ -132512,6 +132521,7 @@
 			"damagetype": 2, // 26 chisel:potion_effect_unk3
 			"slayer_category": 34, // 50 chisel:slayer_task_id
 			"ranged_strength": 1840, // 643 chisel:damage_ranged
+			"combatv2_attackmod": 14, // 2836 chisel:weakness_class
 			"combatv2_weakness": 5, // 2848 chisel:weakness
 			"combatv2_npc_armour": 755 // 2865 chisel:armor
 		},
@@ -132544,6 +132554,7 @@
 			"damagetype": 2, // 26 chisel:potion_effect_unk3
 			"slayer_category": 34, // 50 chisel:slayer_task_id
 			"ranged_strength": 1840, // 643 chisel:damage_ranged
+			"combatv2_attackmod": 14, // 2836 chisel:weakness_class
 			"combatv2_weakness": 5, // 2848 chisel:weakness
 			"combatv2_npc_armour": 755 // 2865 chisel:armor
 		},
@@ -133259,6 +133270,7 @@
 			"attackbonus": 628, // 29 chisel:accuracy_melee_(npc)
 			"slayer_category": 34, // 50 chisel:slayer_task_id
 			"melee_strength": 1600, // 641 chisel:damage_melee
+			"combatv2_attackmod": 14, // 2836 chisel:weakness_class
 			"combatv2_weakness": 2, // 2848 chisel:weakness
 			"combatv2_npc_armour": 628 // 2865 chisel:armor
 		},
@@ -133290,6 +133302,7 @@
 			"attackbonus": 628, // 29 chisel:accuracy_melee_(npc)
 			"slayer_category": 34, // 50 chisel:slayer_task_id
 			"melee_strength": 1600, // 641 chisel:damage_melee
+			"combatv2_attackmod": 14, // 2836 chisel:weakness_class
 			"combatv2_weakness": 2, // 2848 chisel:weakness
 			"combatv2_npc_armour": 628 // 2865 chisel:armor
 		},
@@ -175735,6 +175748,7 @@
 			"attackbonus": 668, // 29 chisel:accuracy_melee_(npc)
 			"slayer_category": 34, // 50 chisel:slayer_task_id
 			"melee_strength": 1680, // 641 chisel:damage_melee
+			"combatv2_attackmod": 14, // 2836 chisel:weakness_class
 			"combatv2_weakness": 2, // 2848 chisel:weakness
 			"combatv2_npc_armour": 668 // 2865 chisel:armor
 		},
@@ -175777,6 +175791,7 @@
 			"attackbonus": 668, // 29 chisel:accuracy_melee_(npc)
 			"slayer_category": 34, // 50 chisel:slayer_task_id
 			"melee_strength": 1680, // 641 chisel:damage_melee
+			"combatv2_attackmod": 14, // 2836 chisel:weakness_class
 			"combatv2_weakness": 2, // 2848 chisel:weakness
 			"combatv2_npc_armour": 668 // 2865 chisel:armor
 		},
@@ -232135,6 +232150,7 @@
 			"attackbonus": 1264, // 29 chisel:accuracy_melee_(npc)
 			"slayer_category": 34, // 50 chisel:slayer_task_id
 			"melee_strength": 2560, // 641 chisel:damage_melee
+			"combatv2_attackmod": 14, // 2836 chisel:weakness_class
 			"combatv2_weakness": 4, // 2848 chisel:weakness
 			"combatv2_npc_armour": 1264 // 2865 chisel:armor
 		},
@@ -340587,6 +340603,7 @@
 			"melee_strength": 3000, // 641 chisel:damage_melee
 			"ranged_strength": 0, // 643 chisel:damage_ranged
 			"magic_strength": 0, // 965 chisel:damage_magic
+			"combatv2_attackmod": 14, // 2836 chisel:weakness_class
 			"combatv2_weakness": 4, // 2848 chisel:weakness
 			"combatv2_npc_min_hitchance": 150, // 2864 chisel:npc_min_hitchance
 			"combatv2_npc_armour": 316, // 2865 chisel:armor
@@ -340628,6 +340645,7 @@
 			"melee_strength": 3000, // 641 chisel:damage_melee
 			"ranged_strength": 0, // 643 chisel:damage_ranged
 			"magic_strength": 0, // 965 chisel:damage_magic
+			"combatv2_attackmod": 14, // 2836 chisel:weakness_class
 			"combatv2_weakness": 4, // 2848 chisel:weakness
 			"combatv2_npc_min_hitchance": 150, // 2864 chisel:npc_min_hitchance
 			"combatv2_npc_armour": 316, // 2865 chisel:armor
@@ -502935,6 +502953,7 @@
 			"melee_strength": 800, // 641 chisel:damage_melee
 			"ranged_strength": 0, // 643 chisel:damage_ranged
 			"magic_strength": 0, // 965 chisel:damage_magic
+			"combatv2_attackmod": 14, // 2836 chisel:weakness_class
 			"combatv2_weakness": 6, // 2848 chisel:weakness
 			"combatv2_npc_armour": 0, // 2865 chisel:armor
 			"combatv2_no_resettag": 1, // 2890 chisel:jmod_god_event_elite_spawn
@@ -502973,6 +502992,7 @@
 			"melee_strength": 2000, // 641 chisel:damage_melee
 			"ranged_strength": 0, // 643 chisel:damage_ranged
 			"magic_strength": 0, // 965 chisel:damage_magic
+			"combatv2_attackmod": 14, // 2836 chisel:weakness_class
 			"combatv2_weakness": 6, // 2848 chisel:weakness
 			"combatv2_npc_armour": 202, // 2865 chisel:armor
 			"combatv2_no_resettag": 1, // 2890 chisel:jmod_god_event_elite_spawn
@@ -503011,6 +503031,7 @@
 			"melee_strength": 3000, // 641 chisel:damage_melee
 			"ranged_strength": 0, // 643 chisel:damage_ranged
 			"magic_strength": 0, // 965 chisel:damage_magic
+			"combatv2_attackmod": 14, // 2836 chisel:weakness_class
 			"combatv2_weakness": 6, // 2848 chisel:weakness
 			"combatv2_npc_armour": 120, // 2865 chisel:armor
 			"combatv2_no_resettag": 1, // 2890 chisel:jmod_god_event_elite_spawn
@@ -503086,6 +503107,7 @@
 			"melee_strength": 3000, // 641 chisel:damage_melee
 			"ranged_strength": 0, // 643 chisel:damage_ranged
 			"magic_strength": 0, // 965 chisel:damage_magic
+			"combatv2_attackmod": 14, // 2836 chisel:weakness_class
 			"combatv2_weakness": 6, // 2848 chisel:weakness
 			"combatv2_npc_armour": 381, // 2865 chisel:armor
 			"combatv2_no_resettag": 1, // 2890 chisel:jmod_god_event_elite_spawn
@@ -551424,7 +551446,6 @@
 		"extra": {
 			"slayer_category": 27, // 50 chisel:slayer_task_id
 			"combatv2_attackmod": 9, // 2836 chisel:weakness_class
-			"combatv2_npc_xp_override": 50000, // 2893 chisel:custom_experience
 			"toplevel_v2_hide_overhead_panel": 1 // 5715
 		},
 		"headModels": [
@@ -714334,7 +714355,6 @@
 		],
 		"movementCapabilities": 1,
 		"name": "Ash",
-		"respawnDirection": 6,
 		"turnspeed": 0
 	},
 	{
@@ -770191,6 +770211,7 @@
 			"attackbonus": 640, // 29 chisel:accuracy_melee_(npc)
 			"slayer_category": 34, // 50 chisel:slayer_task_id
 			"melee_strength": 2560, // 641 chisel:damage_melee
+			"combatv2_attackmod": 14, // 2836 chisel:weakness_class
 			"combatv2_weakness": 4, // 2848 chisel:weakness
 			"combatv2_npc_armour": 640 // 2865 chisel:armor
 		},
@@ -770220,6 +770241,7 @@
 			"attackbonus": 640, // 29 chisel:accuracy_melee_(npc)
 			"slayer_category": 34, // 50 chisel:slayer_task_id
 			"melee_strength": 2560, // 641 chisel:damage_melee
+			"combatv2_attackmod": 14, // 2836 chisel:weakness_class
 			"combatv2_weakness": 4, // 2848 chisel:weakness
 			"combatv2_npc_armour": 640 // 2865 chisel:armor
 		},
@@ -787732,6 +787754,19 @@
 		"name": "Bryll Thoksdottir"
 	},
 	{
+		"alwaysontop": true,
+		"ambience": 25,
+		"animation_group": 1902,
+		"boundSize": 1,
+		"combat": 0,
+		"id": 23126,
+		"models": [
+			49770
+		],
+		"movementCapabilities": 3,
+		"name": "Piglet"
+	},
+	{
 		"actions": [
 			"Interact",
 			null,
@@ -789051,6 +789086,38 @@
 			113951
 		],
 		"movementCapabilities": 1
+	},
+	{
+		"alwaysontop": true,
+		"ambience": 15,
+		"animation_group": 1902,
+		"boundSize": 1,
+		"color_replacements": {
+			"2380": 3532
+		},
+		"combat": 0,
+		"headModels": [
+			121926
+		],
+		"id": 23173,
+		"models": [
+			49771
+		],
+		"movementCapabilities": 3,
+		"name": "Piglet"
+	},
+	{
+		"alwaysontop": true,
+		"ambience": 15,
+		"animation_group": 1902,
+		"boundSize": 1,
+		"combat": 0,
+		"id": 23174,
+		"models": [
+			49771
+		],
+		"movementCapabilities": 3,
+		"name": "Piglet"
 	},
 	{
 		"actions": [
@@ -790398,6 +790465,85 @@
 		"movementCapabilities": 1
 	},
 	{
+		"action_cursors": [
+			44,
+			null,
+			null,
+			null,
+			null,
+			null
+		],
+		"actions": [
+			"Talk to",
+			null,
+			null,
+			null,
+			null
+		],
+		"alwaysontop": true,
+		"animation_group": 4920,
+		"boundSize": 1,
+		"combat": 0,
+		"headModels": [
+			145886,
+			145930
+		],
+		"id": 23228,
+		"models": [
+			145885,
+			145934,
+			145918,
+			145921,
+			145929,
+			145907
+		],
+		"movementCapabilities": 3,
+		"name": "Waterface the bog witch"
+	},
+	{
+		"action_cursors": [
+			5,
+			null,
+			44,
+			null,
+			null,
+			null
+		],
+		"actions": [
+			"Exchange",
+			null,
+			"Talk to",
+			"Note produce",
+			"Compost"
+		],
+		"alwaysontop": true,
+		"animation_group": 4921,
+		"boundSize": 1,
+		"color_replacements": {
+			"34081": 33959
+		},
+		"combat": 0,
+		"headModels": [
+			145928,
+			145892
+		],
+		"id": 23229,
+		"models": [
+			145916,
+			145906,
+			145891,
+			145910,
+			145927
+		],
+		"movementCapabilities": 1,
+		"name": "Muckthumb",
+		"respawnDirection": 2,
+		"texture_replacements": {
+			"25015": 25016,
+			"25024": 25025
+		}
+	},
+	{
 		"actions": [
 			"Interact",
 			null,
@@ -790828,6 +790974,269 @@
 		],
 		"movementCapabilities": 1,
 		"name": "Ana"
+	},
+	{
+		"action_cursors": [
+			44,
+			null,
+			null,
+			null,
+			null,
+			null
+		],
+		"actions": [
+			"Talk to",
+			null,
+			null,
+			null,
+			null
+		],
+		"animation_group": 4921,
+		"boundSize": 1,
+		"color_replacements": {
+			"34081": 29993
+		},
+		"combat": 0,
+		"headModels": [
+			145928,
+			145904
+		],
+		"id": 23244,
+		"models": [
+			145927,
+			145915,
+			145905,
+			145903
+		],
+		"movementCapabilities": 1,
+		"name": "Slimegills",
+		"texture_replacements": {
+			"25015": 25018,
+			"25024": 25029
+		}
+	},
+	{
+		"action_cursors": [
+			44,
+			null,
+			null,
+			null,
+			null,
+			null
+		],
+		"actions": [
+			"Talk to",
+			null,
+			null,
+			null,
+			null
+		],
+		"animation_group": 4921,
+		"boundSize": 1,
+		"color_replacements": {
+			"34081": 33959
+		},
+		"combat": 0,
+		"headModels": [
+			145928,
+			145892
+		],
+		"id": 23245,
+		"models": [
+			145916,
+			145906,
+			145891,
+			145910,
+			145927
+		],
+		"movementCapabilities": 1,
+		"name": "Reedfins",
+		"texture_replacements": {
+			"25015": 25016,
+			"25024": 25025
+		}
+	},
+	{
+		"action_cursors": [
+			44,
+			null,
+			null,
+			null,
+			null,
+			null
+		],
+		"actions": [
+			"Talk to",
+			null,
+			null,
+			null,
+			null
+		],
+		"animation_group": 4921,
+		"boundSize": 1,
+		"combat": 0,
+		"headModels": [
+			145928,
+			145890
+		],
+		"id": 23246,
+		"models": [
+			145905,
+			145889,
+			145911,
+			145927
+		],
+		"movementCapabilities": 1,
+		"name": "Creekjoints",
+		"respawnDirection": 2
+	},
+	{
+		"action_cursors": [
+			44,
+			null,
+			null,
+			null,
+			null,
+			null
+		],
+		"actions": [
+			"Talk to",
+			null,
+			null,
+			null,
+			null
+		],
+		"animation_group": 4921,
+		"boundSize": 1,
+		"color_replacements": {
+			"34081": 29993
+		},
+		"combat": 0,
+		"headModels": [
+			145928,
+			145902
+		],
+		"id": 23247,
+		"models": [
+			145905,
+			145901,
+			145918,
+			145927
+		],
+		"movementCapabilities": 1,
+		"name": "Mudflippers",
+		"texture_replacements": {
+			"25015": 25018,
+			"25024": 25029
+		}
+	},
+	{
+		"action_cursors": [
+			44,
+			null,
+			null,
+			null,
+			null,
+			null
+		],
+		"actions": [
+			"Talk to",
+			null,
+			null,
+			null,
+			null
+		],
+		"animation_group": 4921,
+		"boundSize": 1,
+		"color_replacements": {
+			"34081": 33959
+		},
+		"combat": 0,
+		"headModels": [
+			145928
+		],
+		"id": 23248,
+		"models": [
+			145905,
+			145908,
+			145927
+		],
+		"movementCapabilities": 1,
+		"name": "Gumscales",
+		"respawnDirection": 0,
+		"texture_replacements": {
+			"25015": 25016,
+			"25024": 25025
+		}
+	},
+	{
+		"animation_group": 4921,
+		"boundSize": 1,
+		"color_replacements": {
+			"34081": 29993
+		},
+		"combat": 0,
+		"headModels": [
+			145928,
+			145904
+		],
+		"id": 23249,
+		"models": [
+			145927,
+			145915,
+			145905,
+			145903
+		],
+		"movementCapabilities": 3,
+		"name": "Bogolin",
+		"texture_replacements": {
+			"25015": 25018,
+			"25024": 25029
+		}
+	},
+	{
+		"animation_group": 4921,
+		"boundSize": 1,
+		"color_replacements": {
+			"34081": 33959
+		},
+		"combat": 0,
+		"headModels": [
+			145928,
+			145892
+		],
+		"id": 23250,
+		"models": [
+			145916,
+			145906,
+			145891,
+			145910,
+			145927
+		],
+		"movementCapabilities": 3,
+		"name": "Bogolin",
+		"texture_replacements": {
+			"25015": 25016,
+			"25024": 25025
+		}
+	},
+	{
+		"animation_group": 4921,
+		"boundSize": 1,
+		"combat": 0,
+		"headModels": [
+			145928,
+			145890
+		],
+		"id": 23251,
+		"models": [
+			145905,
+			145889,
+			145911,
+			145927
+		],
+		"movementCapabilities": 3,
+		"name": "Bogolin"
 	},
 	{
 		"boundSize": 1,
@@ -796991,6 +797400,54 @@
 		"movementCapabilities": 3
 	},
 	{
+		"animation_group": 4921,
+		"boundSize": 1,
+		"color_replacements": {
+			"34081": 29993
+		},
+		"combat": 0,
+		"headModels": [
+			145928,
+			145902
+		],
+		"id": 23497,
+		"models": [
+			145905,
+			145901,
+			145918,
+			145927
+		],
+		"movementCapabilities": 3,
+		"name": "Bogolin",
+		"texture_replacements": {
+			"25015": 25018,
+			"25024": 25029
+		}
+	},
+	{
+		"animation_group": 4921,
+		"boundSize": 1,
+		"color_replacements": {
+			"34081": 33959
+		},
+		"combat": 0,
+		"headModels": [
+			145928
+		],
+		"id": 23498,
+		"models": [
+			145905,
+			145908,
+			145927
+		],
+		"movementCapabilities": 3,
+		"name": "Bogolin",
+		"texture_replacements": {
+			"25015": 25016,
+			"25024": 25025
+		}
+	},
+	{
 		"animation_group": 3196,
 		"boundSize": 1,
 		"combat": 0,
@@ -799441,6 +799898,84 @@
 		],
 		"movementCapabilities": 3,
 		"name": "Biscuit"
+	},
+	{
+		"animation_group": 4921,
+		"boundSize": 1,
+		"combat": 0,
+		"headModels": [
+			145928,
+			145894,
+			145899
+		],
+		"id": 23612,
+		"models": [
+			145927,
+			145893,
+			145899,
+			145918,
+			145914,
+			145905
+		],
+		"movementCapabilities": 3,
+		"name": "Bogolin"
+	},
+	{
+		"action_cursors": [
+			44,
+			null,
+			null,
+			null,
+			null,
+			null
+		],
+		"actions": [
+			"Talk to",
+			null,
+			null,
+			null,
+			null
+		],
+		"alwaysontop": true,
+		"animation_group": 4920,
+		"boundSize": 1,
+		"color_replacements": {
+			"14736": 6543,
+			"14738": 6546,
+			"14748": 6556,
+			"6370": 49162,
+			"6438": 663,
+			"6553": 6317,
+			"6554": 6314,
+			"6861": 65436,
+			"8128": 50070,
+			"8518": 901,
+			"8636": 901
+		},
+		"combat": 0,
+		"headModels": [
+			145933,
+			145930
+		],
+		"id": 23613,
+		"models": [
+			145932,
+			145935,
+			145918,
+			145921,
+			145897,
+			145907,
+			145929,
+			145925
+		],
+		"movementCapabilities": 3,
+		"name": "Bloodnose, the sang-witch",
+		"texture_replacements": {
+			"25015": 25017,
+			"25019": 25023,
+			"25021": 25022,
+			"25026": 25028
+		}
 	},
 	{
 		"actions": [
@@ -828899,6 +829434,66 @@
 	},
 	{
 		"action_cursors": [
+			5,
+			null,
+			44,
+			null,
+			null,
+			null
+		],
+		"actions": [
+			"Exchange",
+			null,
+			"Talk to",
+			"Note produce",
+			"Compost"
+		],
+		"alwaysontop": true,
+		"animation_group": 4921,
+		"boundSize": 1,
+		"color_replacements": {
+			"10422": 54298,
+			"14736": 6543,
+			"14738": 6546,
+			"14748": 6556,
+			"34081": 65425,
+			"5056": 65444,
+			"6370": 49162,
+			"6438": 663,
+			"6451": 54298,
+			"6553": 6317,
+			"6554": 6314,
+			"6861": 65436,
+			"8128": 50070,
+			"8518": 901,
+			"8636": 901
+		},
+		"combat": 0,
+		"headModels": [
+			145928,
+			145892
+		],
+		"id": 24554,
+		"models": [
+			145916,
+			145906,
+			145891,
+			145910,
+			145927,
+			145925,
+			145924
+		],
+		"movementCapabilities": 1,
+		"name": "Scabfinger",
+		"texture_replacements": {
+			"25015": 25017,
+			"25019": 25023,
+			"25024": 25026
+		},
+		"turnspeed": 0
+	},
+	{
+		"action_cursors": [
 			44,
 			null,
 			null,
@@ -839495,6 +840090,241 @@
 		"respawnDirection": 6
 	},
 	{
+		"action_cursors": [
+			44,
+			null,
+			null,
+			null,
+			null,
+			null
+		],
+		"actions": [
+			"Talk to",
+			null,
+			null,
+			null,
+			null
+		],
+		"alwaysontop": true,
+		"animation_group": 4921,
+		"boundSize": 1,
+		"color_replacements": {
+			"10422": 54298,
+			"14736": 6543,
+			"14738": 6546,
+			"14748": 6556,
+			"34081": 65425,
+			"5056": 65444,
+			"6370": 49162,
+			"6438": 663,
+			"6451": 54298,
+			"6553": 6317,
+			"6554": 6314,
+			"6861": 65436,
+			"8128": 50070,
+			"8518": 901,
+			"8636": 901
+		},
+		"combat": 0,
+		"headModels": [
+			145928,
+			145904,
+			145896
+		],
+		"id": 24798,
+		"models": [
+			145927,
+			145915,
+			145905,
+			145903,
+			145895,
+			145913
+		],
+		"movementCapabilities": 1,
+		"name": "Pinkeye",
+		"respawnDirection": 6,
+		"texture_replacements": {
+			"25015": 25017,
+			"25019": 25023,
+			"25024": 25026
+		},
+		"turnspeed": 0
+	},
+	{
+		"action_cursors": [
+			44,
+			null,
+			null,
+			null,
+			null,
+			null
+		],
+		"actions": [
+			"Talk to",
+			null,
+			null,
+			null,
+			null
+		],
+		"animation_group": 4921,
+		"boundSize": 1,
+		"color_replacements": {
+			"10422": 54298,
+			"14736": 6543,
+			"14738": 6546,
+			"14748": 6556,
+			"34081": 65425,
+			"5056": 65444,
+			"6370": 49162,
+			"6438": 663,
+			"6451": 54298,
+			"6553": 6317,
+			"6554": 6314,
+			"6861": 65436,
+			"8128": 50070,
+			"8518": 901,
+			"8636": 901
+		},
+		"combat": 0,
+		"headModels": [
+			145928,
+			145902
+		],
+		"id": 24799,
+		"models": [
+			145905,
+			145901,
+			145918,
+			145927,
+			145924,
+			145912
+		],
+		"movementCapabilities": 1,
+		"name": "Bloatguts",
+		"respawnDirection": 0,
+		"texture_replacements": {
+			"25015": 25017,
+			"25019": 25023,
+			"25024": 25026
+		}
+	},
+	{
+		"action_cursors": [
+			44,
+			null,
+			null,
+			null,
+			null,
+			null
+		],
+		"actions": [
+			"Talk to",
+			null,
+			null,
+			null,
+			null
+		],
+		"animation_group": 4921,
+		"boundSize": 1,
+		"color_replacements": {
+			"10422": 54298,
+			"14736": 6543,
+			"14738": 6546,
+			"14748": 6556,
+			"34081": 65425,
+			"5056": 65444,
+			"6370": 49162,
+			"6438": 663,
+			"6451": 54298,
+			"6553": 6317,
+			"6554": 6314,
+			"6861": 65436,
+			"8128": 50070,
+			"8518": 901,
+			"8636": 901
+		},
+		"combat": 0,
+		"headModels": [
+			145928
+		],
+		"id": 24800,
+		"models": [
+			145905,
+			145908,
+			145927,
+			145924,
+			145925
+		],
+		"movementCapabilities": 1,
+		"name": "Runnynose",
+		"respawnDirection": 6,
+		"texture_replacements": {
+			"25015": 25017,
+			"25019": 25023,
+			"25024": 25026
+		}
+	},
+	{
+		"action_cursors": [
+			44,
+			null,
+			null,
+			null,
+			null,
+			null
+		],
+		"actions": [
+			"Talk to",
+			null,
+			null,
+			null,
+			null
+		],
+		"animation_group": 4921,
+		"boundSize": 1,
+		"color_replacements": {
+			"10422": 54298,
+			"14736": 6543,
+			"14738": 6546,
+			"14748": 6556,
+			"34081": 65425,
+			"5056": 65444,
+			"6370": 49162,
+			"6438": 663,
+			"6451": 54298,
+			"6553": 6317,
+			"6554": 6314,
+			"6861": 65436,
+			"8128": 50070,
+			"8518": 901,
+			"8636": 901
+		},
+		"combat": 0,
+		"headModels": [
+			145928,
+			145894,
+			145899
+		],
+		"id": 24801,
+		"models": [
+			145927,
+			145893,
+			145899,
+			145918,
+			145914,
+			145924,
+			145905
+		],
+		"movementCapabilities": 1,
+		"name": "Grayface",
+		"respawnDirection": 6,
+		"texture_replacements": {
+			"25015": 25017,
+			"25019": 25023,
+			"25024": 25026
+		}
+	},
+	{
 		"actions": [
 			"Interact",
 			null,
@@ -848644,6 +849474,106 @@
 		"actions": [
 			"Talk to",
 			null,
+			null,
+			null,
+			null
+		],
+		"animation_group": 4921,
+		"boundSize": 1,
+		"color_replacements": {
+			"10422": 54298,
+			"14736": 6543,
+			"14738": 6546,
+			"14748": 6556,
+			"34081": 65425,
+			"5056": 65444,
+			"6370": 49162,
+			"6438": 663,
+			"6451": 54298,
+			"6553": 6317,
+			"6554": 6314,
+			"6861": 65436,
+			"8128": 50070,
+			"8518": 901,
+			"8636": 901
+		},
+		"combat": 0,
+		"headModels": [
+			145928,
+			145890
+		],
+		"id": 25141,
+		"models": [
+			145905,
+			145889,
+			145911,
+			145927,
+			145925,
+			145913
+		],
+		"movementCapabilities": 1,
+		"name": "Rashback",
+		"respawnDirection": 0,
+		"texture_replacements": {
+			"25015": 25017,
+			"25019": 25023,
+			"25024": 25026
+		}
+	},
+	{
+		"animation_group": 4921,
+		"boundSize": 1,
+		"color_replacements": {
+			"10422": 54298,
+			"14736": 6543,
+			"14738": 6546,
+			"14748": 6556,
+			"34081": 65425,
+			"5056": 65444,
+			"6370": 49162,
+			"6438": 663,
+			"6451": 54298,
+			"6553": 6317,
+			"6554": 6314,
+			"6861": 65436,
+			"8128": 50070,
+			"8518": 901,
+			"8636": 901
+		},
+		"combat": 0,
+		"headModels": [
+			145928,
+			145902
+		],
+		"id": 25142,
+		"models": [
+			145905,
+			145901,
+			145918,
+			145927,
+			145924,
+			145912
+		],
+		"movementCapabilities": 3,
+		"name": "Sanguine bogolin",
+		"texture_replacements": {
+			"25015": 25017,
+			"25019": 25023,
+			"25024": 25026
+		}
+	},
+	{
+		"action_cursors": [
+			44,
+			null,
+			null,
+			null,
+			null,
+			null
+		],
+		"actions": [
+			"Talk to",
+			null,
 			"Hand-in for rewards",
 			null,
 			"Open-event"
@@ -849617,6 +850547,225 @@
 			17523
 		],
 		"movementCapabilities": 1
+	},
+	{
+		"animation_group": 4921,
+		"boundSize": 1,
+		"color_replacements": {
+			"10422": 54298,
+			"14736": 6543,
+			"14738": 6546,
+			"14748": 6556,
+			"34081": 65425,
+			"5056": 65444,
+			"6370": 49162,
+			"6438": 663,
+			"6451": 54298,
+			"6553": 6317,
+			"6554": 6314,
+			"6861": 65436,
+			"8128": 50070,
+			"8518": 901,
+			"8636": 901
+		},
+		"combat": 0,
+		"headModels": [
+			145928
+		],
+		"id": 25186,
+		"models": [
+			145905,
+			145908,
+			145927,
+			145924,
+			145925
+		],
+		"movementCapabilities": 3,
+		"name": "Sanguine bogolin",
+		"texture_replacements": {
+			"25015": 25017,
+			"25019": 25023,
+			"25024": 25026
+		}
+	},
+	{
+		"animation_group": 4921,
+		"boundSize": 1,
+		"color_replacements": {
+			"10422": 54298,
+			"14736": 6543,
+			"14738": 6546,
+			"14748": 6556,
+			"34081": 65425,
+			"5056": 65444,
+			"6370": 49162,
+			"6438": 663,
+			"6451": 54298,
+			"6553": 6317,
+			"6554": 6314,
+			"6861": 65436,
+			"8128": 50070,
+			"8518": 901,
+			"8636": 901
+		},
+		"combat": 0,
+		"headModels": [
+			145928,
+			145894,
+			145899
+		],
+		"id": 25187,
+		"models": [
+			145927,
+			145893,
+			145899,
+			145918,
+			145914,
+			145924,
+			145905
+		],
+		"movementCapabilities": 3,
+		"name": "Sanguine bogolin",
+		"texture_replacements": {
+			"25015": 25017,
+			"25019": 25023,
+			"25024": 25026
+		}
+	},
+	{
+		"actions": [
+			null,
+			"Attack",
+			null,
+			null,
+			null
+		],
+		"animation_group": 4919,
+		"attackCursor": 42,
+		"boundSize": 1,
+		"color_replacements": {
+			"10422": 54298,
+			"14736": 6543,
+			"14738": 6546,
+			"14748": 6556,
+			"34081": 65425,
+			"5056": 65444,
+			"6370": 49162,
+			"6438": 663,
+			"6451": 54298,
+			"6553": 6317,
+			"6554": 6314,
+			"6861": 65436,
+			"8128": 50070,
+			"8518": 901,
+			"8636": 901
+		},
+		"combat": 89,
+		"extra": {
+			"attackrate": 4, // 14 chisel:attack_speed
+			"damagetype": 1, // 26 chisel:potion_effect_unk3
+			"attackbonus": 1164, // 29 chisel:accuracy_melee_(npc)
+			"melee_strength": 13600, // 641 chisel:damage_melee
+			"combatv2_attackmod": 13, // 2836 chisel:weakness_class
+			"combatv2_player_hiteffect": 1, // 2838
+			"combatv2_weakness": 4, // 2848 chisel:weakness
+			"combatv2_defence_weakest": 90, // 2849 chisel:weakness_modifier_weakness
+			"combatv2_defence_weakclass": 70, // 2850 chisel:weakness_modifier_weak
+			"combatv2_defence_sameclass": 60, // 2851 chisel:weakness_modifier_same
+			"combatv2_defence_strongclass": 50, // 2852 chisel:weakness_modifier_strong
+			"combatv2_npc_armour": 1264, // 2865 chisel:armor
+			"combatv2_npc_xp_multiplier": 15, // 3318 chisel:combat_xp_multiplier_x10
+			"combatv2_default_attack_type": 5 // 8358
+		},
+		"headModels": [
+			145928,
+			145904,
+			145896
+		],
+		"id": 25188,
+		"models": [
+			145927,
+			145915,
+			145905,
+			145903,
+			145895,
+			145913
+		],
+		"movementCapabilities": 3,
+		"name": "Sanguine bogolin",
+		"texture_replacements": {
+			"25015": 25017,
+			"25019": 25023,
+			"25024": 25026
+		}
+	},
+	{
+		"actions": [
+			null,
+			"Attack",
+			null,
+			null,
+			null
+		],
+		"animation_group": 4919,
+		"attackCursor": 42,
+		"boundSize": 1,
+		"color_replacements": {
+			"10422": 54298,
+			"14736": 6543,
+			"14738": 6546,
+			"14748": 6556,
+			"34081": 65425,
+			"5056": 65444,
+			"6370": 49162,
+			"6438": 663,
+			"6451": 54298,
+			"6553": 6317,
+			"6554": 6314,
+			"6861": 65436,
+			"8128": 50070,
+			"8518": 901,
+			"8636": 901
+		},
+		"combat": 81,
+		"extra": {
+			"attackrate": 4, // 14 chisel:attack_speed
+			"damagetype": 1, // 26 chisel:potion_effect_unk3
+			"attackbonus": 970, // 29 chisel:accuracy_melee_(npc)
+			"melee_strength": 12400, // 641 chisel:damage_melee
+			"combatv2_attackmod": 13, // 2836 chisel:weakness_class
+			"combatv2_player_hiteffect": 1, // 2838
+			"combatv2_weakness": 4, // 2848 chisel:weakness
+			"combatv2_defence_weakest": 90, // 2849 chisel:weakness_modifier_weakness
+			"combatv2_defence_weakclass": 70, // 2850 chisel:weakness_modifier_weak
+			"combatv2_defence_sameclass": 60, // 2851 chisel:weakness_modifier_same
+			"combatv2_defence_strongclass": 50, // 2852 chisel:weakness_modifier_strong
+			"combatv2_npc_armour": 1070, // 2865 chisel:armor
+			"combatv2_npc_xp_multiplier": 15, // 3318 chisel:combat_xp_multiplier_x10
+			"combatv2_default_attack_type": 5 // 8358
+		},
+		"headModels": [
+			145928,
+			145892
+		],
+		"id": 25189,
+		"models": [
+			145916,
+			145906,
+			145891,
+			145910,
+			145927,
+			145925,
+			145924,
+			145913
+		],
+		"movementCapabilities": 3,
+		"name": "Sanguine bogolin",
+		"texture_replacements": {
+			"25015": 25017,
+			"25019": 25023,
+			"25024": 25026
+		}
 	},
 	{
 		"action_cursors": [
@@ -860492,6 +861641,208 @@
 		"name": "Solly"
 	},
 	{
+		"actions": [
+			null,
+			"Attack",
+			null,
+			null,
+			null
+		],
+		"animation_group": 4919,
+		"attackCursor": 42,
+		"boundSize": 1,
+		"color_replacements": {
+			"10422": 54298,
+			"14736": 6543,
+			"14738": 6546,
+			"14748": 6556,
+			"34081": 65425,
+			"5056": 65444,
+			"6370": 49162,
+			"6438": 663,
+			"6451": 54298,
+			"6553": 6317,
+			"6554": 6314,
+			"6861": 65436,
+			"8128": 50070,
+			"8518": 901,
+			"8636": 901
+		},
+		"combat": 85,
+		"extra": {
+			"attackrate": 4, // 14 chisel:attack_speed
+			"damagetype": 1, // 26 chisel:potion_effect_unk3
+			"attackbonus": 1064, // 29 chisel:accuracy_melee_(npc)
+			"melee_strength": 13000, // 641 chisel:damage_melee
+			"combatv2_attackmod": 13, // 2836 chisel:weakness_class
+			"combatv2_player_hiteffect": 1, // 2838
+			"combatv2_weakness": 4, // 2848 chisel:weakness
+			"combatv2_defence_weakest": 90, // 2849 chisel:weakness_modifier_weakness
+			"combatv2_defence_weakclass": 70, // 2850 chisel:weakness_modifier_weak
+			"combatv2_defence_sameclass": 60, // 2851 chisel:weakness_modifier_same
+			"combatv2_defence_strongclass": 50, // 2852 chisel:weakness_modifier_strong
+			"combatv2_npc_armour": 1164, // 2865 chisel:armor
+			"combatv2_npc_xp_multiplier": 15, // 3318 chisel:combat_xp_multiplier_x10
+			"combatv2_default_attack_type": 5 // 8358
+		},
+		"headModels": [
+			145928,
+			145890
+		],
+		"id": 25536,
+		"models": [
+			145905,
+			145889,
+			145911,
+			145927,
+			145925,
+			145913
+		],
+		"movementCapabilities": 3,
+		"name": "Sanguine bogolin",
+		"texture_replacements": {
+			"25015": 25017,
+			"25019": 25023,
+			"25024": 25026
+		}
+	},
+	{
+		"action_cursors": [
+			44,
+			null,
+			null,
+			null,
+			null,
+			null
+		],
+		"actions": [
+			"Talk to",
+			null,
+			null,
+			null,
+			null
+		],
+		"alwaysontop": true,
+		"animation_group": 4920,
+		"boundSize": 1,
+		"color_replacements": {
+			"34081": 29993
+		},
+		"combat": 0,
+		"headModels": [
+			145928,
+			145904
+		],
+		"id": 25537,
+		"models": [
+			145927,
+			145915,
+			145905,
+			145903,
+			145913
+		],
+		"movementCapabilities": 1,
+		"name": "Slugtoes",
+		"respawnDirection": 1,
+		"texture_replacements": {
+			"25015": 25018,
+			"25024": 25029
+		}
+	},
+	{
+		"action_cursors": [
+			44,
+			null,
+			null,
+			null,
+			null,
+			null
+		],
+		"actions": [
+			"Talk to",
+			null,
+			null,
+			null,
+			null
+		],
+		"alwaysontop": true,
+		"animation_group": 4920,
+		"boundSize": 1,
+		"color_replacements": {
+			"34081": 33959
+		},
+		"combat": 0,
+		"headModels": [
+			145928,
+			145892
+		],
+		"id": 25538,
+		"models": [
+			145915,
+			145906,
+			145891,
+			145910,
+			145927,
+			145913
+		],
+		"movementCapabilities": 1,
+		"name": "Dampknees",
+		"respawnDirection": 1,
+		"texture_replacements": {
+			"25015": 25016,
+			"25024": 25025
+		}
+	},
+	{
+		"action_cursors": [
+			44,
+			null,
+			null,
+			null,
+			null,
+			null
+		],
+		"actions": [
+			"Talk to",
+			null,
+			null,
+			null,
+			null
+		],
+		"alwaysontop": true,
+		"animation_group": 4921,
+		"bgsoundrate": [
+			240,
+			260
+		],
+		"boundSize": 1,
+		"color_replacements": {
+			"34081": 33959
+		},
+		"combat": 0,
+		"headModels": [
+			145928,
+			145902
+		],
+		"id": 25539,
+		"models": [
+			145915,
+			145906,
+			145901,
+			145911,
+			145927,
+			145914,
+			146459
+		],
+		"movementCapabilities": 1,
+		"name": "Moldfoot",
+		"respawnDirection": 3,
+		"texture_replacements": {
+			"25015": 25016,
+			"25024": 25025
+		}
+	},
+	{
 		"action_cursors": [
 			200,
 			null,
@@ -864129,6 +865480,64 @@
 		],
 		"movementCapabilities": 3,
 		"name": "Cratos"
+	},
+	{
+		"action_cursors": [
+			44,
+			null,
+			null,
+			null,
+			null,
+			null
+		],
+		"actions": [
+			"Talk to",
+			null,
+			"Collect rewards",
+			null,
+			null
+		],
+		"alwaysontop": true,
+		"animation_group": 4920,
+		"boundSize": 1,
+		"combat": 0,
+		"headModels": [
+			145928,
+			145894,
+			145892
+		],
+		"id": 25641,
+		"models": [
+			145927,
+			145913,
+			145915,
+			145893,
+			145891,
+			145907,
+			145911
+		],
+		"movementCapabilities": 1,
+		"name": "Mossteeth",
+		"respawnDirection": 5,
+		"scaleXZ": 136,
+		"scaleY": 136
+	},
+	{
+		"alwaysontop": true,
+		"animation_group": 4921,
+		"boundSize": 1,
+		"combat": 0,
+		"headModels": [
+			145928
+		],
+		"id": 25642,
+		"models": [
+			145927,
+			145887
+		],
+		"movementCapabilities": 1,
+		"name": "Bogolin woodcutter",
+		"respawnDirection": 0
 	},
 	{
 		"animation_group": 3143,
@@ -886936,6 +888345,80 @@
 		"name": "Goebie prisoner"
 	},
 	{
+		"alwaysontop": true,
+		"animation_group": 4921,
+		"boundSize": 1,
+		"combat": 0,
+		"headModels": [
+			145928
+		],
+		"id": 26246,
+		"models": [
+			145927,
+			145887
+		],
+		"movementCapabilities": 1,
+		"name": "Bogolin woodcutter",
+		"respawnDirection": 0
+	},
+	{
+		"alwaysontop": true,
+		"animation_group": 4921,
+		"boundSize": 1,
+		"color_replacements": {
+			"34081": 33959
+		},
+		"combat": 0,
+		"headModels": [
+			145928,
+			145892
+		],
+		"id": 26247,
+		"models": [
+			145916,
+			145906,
+			145891,
+			145910,
+			145927,
+			145887
+		],
+		"movementCapabilities": 1,
+		"name": "Bogolin woodcutter",
+		"respawnDirection": 2,
+		"texture_replacements": {
+			"25015": 25016,
+			"25024": 25025
+		}
+	},
+	{
+		"alwaysontop": true,
+		"animation_group": 4921,
+		"boundSize": 1,
+		"color_replacements": {
+			"34081": 33959
+		},
+		"combat": 0,
+		"headModels": [
+			145928,
+			145892
+		],
+		"id": 26248,
+		"models": [
+			145916,
+			145906,
+			145891,
+			145910,
+			145927,
+			145887
+		],
+		"movementCapabilities": 1,
+		"name": "Bogolin woodcutter",
+		"texture_replacements": {
+			"25015": 25016,
+			"25024": 25025
+		}
+	},
+	{
 		"actions": [
 			"Catch",
 			null,
@@ -904224,6 +905707,48 @@
 		],
 		"movementCapabilities": 3,
 		"name": "Merry"
+	},
+	{
+		"alwaysontop": true,
+		"animation_group": 4921,
+		"boundSize": 1,
+		"combat": 0,
+		"headModels": [
+			145928,
+			145890
+		],
+		"id": 26767,
+		"models": [
+			145905,
+			145889,
+			145911,
+			145927,
+			145887
+		],
+		"movementCapabilities": 1,
+		"name": "Bogolin woodcutter",
+		"respawnDirection": 6
+	},
+	{
+		"alwaysontop": true,
+		"animation_group": 4921,
+		"boundSize": 1,
+		"combat": 0,
+		"headModels": [
+			145928,
+			145890
+		],
+		"id": 26768,
+		"models": [
+			145905,
+			145889,
+			145911,
+			145927,
+			145887
+		],
+		"movementCapabilities": 1,
+		"name": "Bogolin woodcutter",
+		"respawnDirection": 1
 	},
 	{
 		"alwaysontop": true,
@@ -1102330,8 +1103855,9 @@
 			139498,
 			176
 		],
-		"movementCapabilities": 3,
-		"name": "Shrine Tender Joanna"
+		"movementCapabilities": 1,
+		"name": "Shrine Tender Joanna",
+		"respawnDirection": 0
 	},
 	{
 		"action_cursors": [
@@ -1105112,6 +1106638,7 @@
 			"ranged_strength": 10000, // 643 chisel:damage_ranged
 			"magic_strength": 10000, // 965 chisel:damage_magic
 			"bslay_id": 57, // 1346 chisel:kill_counter_id
+			"combatv2_attackmod": 13, // 2836 chisel:weakness_class
 			"combatv2_player_hiteffect": 1, // 2838
 			"combatv2_weakness": 5, // 2848 chisel:weakness
 			"combatv2_npc_min_hitchance": 150, // 2864 chisel:npc_min_hitchance
@@ -1105234,6 +1106761,7 @@
 		},
 		"combat": 22,
 		"extra": {
+			"combatv2_attackmod": 13, // 2836 chisel:weakness_class
 			"combatv2_weakness": 0, // 2848 chisel:weakness
 			"combatv2_defence_weakclass": 60, // 2850 chisel:weakness_modifier_weak
 			"combatv2_defence_sameclass": 60, // 2851 chisel:weakness_modifier_same
@@ -1111030,6 +1112558,7 @@
 			"damagetype": 3, // 26 chisel:potion_effect_unk3
 			"slayer_category": 195, // 50 chisel:slayer_task_id
 			"magic_strength": 5000, // 965 chisel:damage_magic
+			"combatv2_attackmod": 13, // 2836 chisel:weakness_class
 			"combatv2_weakness": 8, // 2848 chisel:weakness
 			"combatv2_npc_armour": 454, // 2865 chisel:armor
 			"combatv2_default_attack_type": 3 // 8358
@@ -1111092,5 +1112621,5415 @@
 		"name": "Scarlett",
 		"scaleXZ": 56,
 		"scaleY": 56
+	},
+	{
+		"alwaysontop": true,
+		"animation_group": 4921,
+		"boundSize": 1,
+		"color_replacements": {
+			"34081": 29993
+		},
+		"combat": 0,
+		"headModels": [
+			145928,
+			145902
+		],
+		"id": 32801,
+		"models": [
+			145905,
+			145901,
+			145918,
+			145927,
+			145887
+		],
+		"movementCapabilities": 1,
+		"name": "Bogolin woodcutter",
+		"respawnDirection": 3,
+		"texture_replacements": {
+			"25015": 25018,
+			"25024": 25029
+		}
+	},
+	{
+		"alwaysontop": true,
+		"animation_group": 4921,
+		"boundSize": 1,
+		"color_replacements": {
+			"34081": 29993
+		},
+		"combat": 0,
+		"headModels": [
+			145928,
+			145902
+		],
+		"id": 32802,
+		"models": [
+			145905,
+			145901,
+			145918,
+			145927,
+			145887
+		],
+		"movementCapabilities": 1,
+		"name": "Bogolin woodcutter",
+		"respawnDirection": 5,
+		"texture_replacements": {
+			"25015": 25018,
+			"25024": 25029
+		}
+	},
+	{
+		"alwaysontop": true,
+		"animation_group": 4921,
+		"boundSize": 1,
+		"color_replacements": {
+			"34081": 29993
+		},
+		"combat": 0,
+		"headModels": [
+			145928,
+			145902
+		],
+		"id": 32803,
+		"models": [
+			145905,
+			145901,
+			145918,
+			145927,
+			145887
+		],
+		"movementCapabilities": 1,
+		"name": "Bogolin woodcutter",
+		"texture_replacements": {
+			"25015": 25018,
+			"25024": 25029
+		}
+	},
+	{
+		"boundSize": 1,
+		"combat": 0,
+		"id": 32804,
+		"morphs_1": {
+			"ids": [
+				32805,
+				32806,
+				0
+			],
+			"varbit": 62035,
+			"varp": -1
+		},
+		"movementCapabilities": 1
+	},
+	{
+		"action_cursors": [
+			44,
+			null,
+			null,
+			null,
+			null,
+			null
+		],
+		"actions": [
+			"Talk to",
+			null,
+			null,
+			null,
+			null
+		],
+		"animation_group": 4694,
+		"boundSize": 1,
+		"color_replacements": {
+			"25238": 4502,
+			"4533": 4430,
+			"4540": 4437,
+			"4550": 4444,
+			"4554": 4452,
+			"55232": 115,
+			"6798": 107,
+			"8741": 4506
+		},
+		"combat": 0,
+		"headModels": [
+			39726,
+			143283
+		],
+		"id": 32805,
+		"models": [
+			143048,
+			250,
+			139500,
+			139499,
+			139498,
+			176
+		],
+		"movementCapabilities": 3,
+		"name": "Aurriel"
+	},
+	{
+		"action_cursors": [
+			44,
+			null,
+			null,
+			null,
+			null,
+			null
+		],
+		"actions": [
+			"Talk to",
+			null,
+			"Claim stone",
+			null,
+			null
+		],
+		"animation_group": 4694,
+		"boundSize": 1,
+		"color_replacements": {
+			"25238": 4502,
+			"4533": 4430,
+			"4540": 4437,
+			"4550": 4444,
+			"4554": 4452,
+			"55232": 115,
+			"6798": 107,
+			"8741": 4506
+		},
+		"combat": 0,
+		"headModels": [
+			39726,
+			143283
+		],
+		"id": 32806,
+		"models": [
+			143048,
+			250,
+			139500,
+			139499,
+			139498,
+			176
+		],
+		"movementCapabilities": 3,
+		"name": "Aurriel"
+	},
+	{
+		"action_cursors": [
+			44,
+			null,
+			null,
+			null,
+			null,
+			null
+		],
+		"actions": [
+			"Talk to",
+			null,
+			null,
+			null,
+			null
+		],
+		"alwaysontop": true,
+		"animation_group": 4585,
+		"boundSize": 1,
+		"color_replacements": {
+			"3119": 7306,
+			"3121": 7308,
+			"7223": 6285,
+			"8253": 5264,
+			"8298": 7308,
+			"9305": 7306
+		},
+		"combat": 0,
+		"headModels": [
+			124209,
+			124215
+		],
+		"id": 32807,
+		"models": [
+			124208,
+			124214,
+			124216,
+			124218,
+			124220
+		],
+		"movementCapabilities": 3,
+		"name": "Samson",
+		"respawnDirection": 0,
+		"texture_replacements": {
+			"14216": 25011,
+			"14220": 25000
+		}
+	},
+	{
+		"action_cursors": [
+			44,
+			null,
+			null,
+			null,
+			null,
+			null
+		],
+		"actions": [
+			"Talk to",
+			null,
+			null,
+			"Shop",
+			null
+		],
+		"alwaysontop": true,
+		"animation_group": 4585,
+		"boundSize": 1,
+		"color_replacements": {
+			"1602": 6417,
+			"3119": 9289,
+			"3121": 9305,
+			"45087": 5283,
+			"46117": 5283,
+			"546": 19912,
+			"556": 19768,
+			"573": 6417,
+			"578": 19749,
+			"7223": 9323,
+			"8253": 11375
+		},
+		"combat": 0,
+		"headModels": [
+			124209,
+			124215
+		],
+		"id": 32808,
+		"models": [
+			124208,
+			124214,
+			124219,
+			124216,
+			124217,
+			124218,
+			124220
+		],
+		"movementCapabilities": 1,
+		"name": "Magnes",
+		"texture_replacements": {
+			"14216": 25010,
+			"14219": 25013,
+			"14220": 25005
+		}
+	},
+	{
+		"action_cursors": [
+			44,
+			null,
+			null,
+			null,
+			null,
+			null
+		],
+		"actions": [
+			"Talk to",
+			null,
+			null,
+			"Shop",
+			null
+		],
+		"alwaysontop": true,
+		"animation_group": 4585,
+		"boundSize": 1,
+		"color_replacements": {
+			"1602": 19749,
+			"45087": 6417,
+			"46117": 6422,
+			"546": 19912,
+			"556": 19768,
+			"573": 19733,
+			"578": 19749,
+			"64615": 5283,
+			"64736": 5278
+		},
+		"combat": 0,
+		"headModels": [
+			124209,
+			124215
+		],
+		"id": 32809,
+		"models": [
+			124208,
+			124214,
+			124212,
+			124210,
+			124211,
+			124213
+		],
+		"movementCapabilities": 3,
+		"name": "Arsen",
+		"respawnDirection": 0,
+		"texture_replacements": {
+			"14213": 25002,
+			"14214": 25007
+		}
+	},
+	{
+		"action_cursors": [
+			5,
+			null,
+			44,
+			5,
+			51,
+			null
+		],
+		"actions": [
+			"Bank",
+			null,
+			"Talk to",
+			"Collect",
+			"Load Last Preset from"
+		],
+		"alwaysontop": true,
+		"animation_group": 4585,
+		"boundSize": 1,
+		"color_replacements": {
+			"1602": 44050,
+			"3119": 9289,
+			"3121": 9305,
+			"45087": 43153,
+			"46117": 42135,
+			"546": 43160,
+			"556": 43295,
+			"573": 44047,
+			"578": 44050,
+			"64615": 43211,
+			"64736": 43069,
+			"7223": 9323,
+			"8253": 11375
+		},
+		"combat": 0,
+		"headModels": [
+			124209,
+			124215
+		],
+		"id": 32810,
+		"models": [
+			124208,
+			124214,
+			124212,
+			124210,
+			124211,
+			124213
+		],
+		"movementCapabilities": 1,
+		"name": "Pallad",
+		"texture_replacements": {
+			"14213": 25004,
+			"14214": 25008,
+			"14220": 25000
+		}
+	},
+	{
+		"action_cursors": [
+			44,
+			null,
+			null,
+			null,
+			null,
+			null
+		],
+		"actions": [
+			"Talk to",
+			null,
+			null,
+			"Shop",
+			null
+		],
+		"alwaysontop": true,
+		"animation_group": 4585,
+		"boundSize": 1,
+		"color_replacements": {
+			"1602": 4306,
+			"3119": 3367,
+			"3121": 3369,
+			"45087": 4306,
+			"46117": 4306,
+			"573": 4306,
+			"64615": 4306,
+			"64736": 4299,
+			"7223": 4398,
+			"8253": 5427
+		},
+		"combat": 0,
+		"headModels": [
+			124209,
+			124215
+		],
+		"id": 32811,
+		"models": [
+			124208,
+			124214,
+			124216,
+			124217,
+			124218,
+			124220
+		],
+		"movementCapabilities": 3,
+		"name": "Bane",
+		"texture_replacements": {
+			"14216": 25009,
+			"14220": 14217
+		}
+	},
+	{
+		"action_cursors": [
+			44,
+			null,
+			null,
+			null,
+			null,
+			null
+		],
+		"actions": [
+			"Talk to",
+			null,
+			null,
+			"Shop",
+			null
+		],
+		"alwaysontop": true,
+		"animation_group": 4585,
+		"boundSize": 1,
+		"color_replacements": {
+			"3119": 3367,
+			"3121": 3369,
+			"573": 43582,
+			"577": 43586,
+			"7223": 4398,
+			"8253": 5427,
+			"8281": 8386
+		},
+		"combat": 0,
+		"headModels": [
+			124209,
+			124215
+		],
+		"id": 32812,
+		"models": [
+			124208,
+			124214,
+			124216,
+			124217,
+			124218,
+			124220
+		],
+		"movementCapabilities": 3,
+		"name": "Mack",
+		"texture_replacements": {
+			"14216": 14215,
+			"14220": 14217
+		}
+	},
+	{
+		"action_cursors": [
+			44,
+			null,
+			5,
+			null,
+			null,
+			null
+		],
+		"actions": [
+			"Talk to",
+			null,
+			"Exchange",
+			"Shop",
+			null
+		],
+		"alwaysontop": true,
+		"animation_group": 4585,
+		"boundSize": 1,
+		"color_replacements": {
+			"3119": 9289,
+			"3121": 9305,
+			"7223": 9323,
+			"8253": 11375
+		},
+		"combat": 0,
+		"headModels": [
+			124209,
+			124215
+		],
+		"id": 32813,
+		"models": [
+			124208,
+			124214,
+			124216,
+			124219,
+			124217,
+			124218,
+			124220
+		],
+		"movementCapabilities": 1,
+		"name": "Azur",
+		"texture_replacements": {
+			"14216": 25011,
+			"14219": 25014,
+			"14220": 25005
+		},
+		"turnspeed": 0
+	},
+	{
+		"action_cursors": [
+			44,
+			null,
+			null,
+			null,
+			null,
+			null
+		],
+		"actions": [
+			"Talk to",
+			null,
+			null,
+			null,
+			null
+		],
+		"animation_group": 4824,
+		"boundSize": 1,
+		"combat": 0,
+		"drawMapDot": false,
+		"headModels": [
+			121926
+		],
+		"id": 32814,
+		"models": [
+			137242
+		],
+		"movementCapabilities": 1,
+		"name": "Aurora",
+		"scaleXZ": 200,
+		"scaleY": 200
+	},
+	{
+		"action_cursors": [
+			44,
+			null,
+			null,
+			null,
+			null,
+			null
+		],
+		"actions": [
+			"Talk to",
+			null,
+			"Pickpocket",
+			null,
+			null
+		],
+		"alwaysontop": true,
+		"animation_group": 4585,
+		"boundSize": 1,
+		"color_replacements": {
+			"3119": 3367,
+			"3121": 3369,
+			"7223": 4398,
+			"8253": 5427
+		},
+		"combat": 0,
+		"headModels": [
+			124209,
+			124215
+		],
+		"id": 32815,
+		"models": [
+			124208,
+			124214,
+			124216,
+			124217,
+			124218,
+			124220
+		],
+		"movementCapabilities": 1,
+		"name": "Rhod",
+		"respawnDirection": 2,
+		"texture_replacements": {
+			"14220": 14217
+		},
+		"turnspeed": 0
+	},
+	{
+		"actions": [
+			null,
+			"Attack",
+			null,
+			null,
+			null
+		],
+		"animation_group": 4905,
+		"attackCursor": 42,
+		"boundSize": 2,
+		"combat": 77,
+		"extra": {
+			"magicattack": 1466, // 3 chisel:accuracy_magic
+			"attackrate": 4, // 14 chisel:attack_speed
+			"damagetype": 3, // 26 chisel:potion_effect_unk3
+			"slayer_category": 195, // 50 chisel:slayer_task_id
+			"magic_strength": 9000, // 965 chisel:damage_magic
+			"combatv2_attackmod": 13, // 2836 chisel:weakness_class
+			"combatv2_weakness": 8, // 2848 chisel:weakness
+			"combatv2_npc_armour": 1132, // 2865 chisel:armor
+			"combatv2_default_attack_type": 3 // 8358
+		},
+		"id": 32816,
+		"models": [
+			140039
+		],
+		"movementCapabilities": 3,
+		"name": "Sanguine creeper",
+		"scaleXZ": 120,
+		"scaleY": 120
+	},
+	{
+		"actions": [
+			null,
+			"Attack",
+			null,
+			null,
+			null
+		],
+		"animation_group": 13,
+		"attackCursor": 42,
+		"boundSize": 3,
+		"color_replacements": {
+			"31545": 920,
+			"52501": 45205,
+			"52516": 45223,
+			"53534": 45212,
+			"64524": 45205,
+			"64528": 45205
+		},
+		"combat": 64,
+		"extra": {
+			"attackrate": 4, // 14 chisel:attack_speed
+			"damagetype": 1, // 26 chisel:potion_effect_unk3
+			"attackbonus": 655, // 29 chisel:accuracy_melee_(npc)
+			"slayer_category": 13, // 50 chisel:slayer_task_id
+			"melee_strength": 9200, // 641 chisel:damage_melee
+			"combatv2_attackmod": 13, // 2836 chisel:weakness_class
+			"combatv2_weakness": 2, // 2848 chisel:weakness
+			"combatv2_defence_weakest": 90, // 2849 chisel:weakness_modifier_weakness
+			"combatv2_defence_weakclass": 70, // 2850 chisel:weakness_modifier_weak
+			"combatv2_defence_sameclass": 60, // 2851 chisel:weakness_modifier_same
+			"combatv2_defence_strongclass": 50, // 2852 chisel:weakness_modifier_strong
+			"combatv2_npc_armour": 755 // 2865 chisel:armor
+		},
+		"headModels": [
+			121926
+		],
+		"id": 32817,
+		"models": [
+			120081
+		],
+		"movementCapabilities": 3,
+		"name": "Sanguine bear",
+		"scaleXZ": 192,
+		"scaleY": 192,
+		"texture_replacements": {
+			"9167": 24967
+		}
+	},
+	{
+		"actions": [
+			null,
+			"Attack",
+			null,
+			null,
+			null
+		],
+		"animation_group": 301,
+		"attackCursor": 42,
+		"boundSize": 2,
+		"color_replacements": {
+			"31545": 920,
+			"52501": 45205,
+			"52516": 45223,
+			"53534": 45212,
+			"64524": 45205,
+			"64528": 45205
+		},
+		"combat": 42,
+		"extra": {
+			"attackrate": 4, // 14 chisel:attack_speed
+			"damagetype": 1, // 26 chisel:potion_effect_unk3
+			"attackbonus": 354, // 29 chisel:accuracy_melee_(npc)
+			"slayer_category": 13, // 50 chisel:slayer_task_id
+			"melee_strength": 6000, // 641 chisel:damage_melee
+			"combatv2_attackmod": 13, // 2836 chisel:weakness_class
+			"combatv2_weakness": 2, // 2848 chisel:weakness
+			"combatv2_defence_weakest": 90, // 2849 chisel:weakness_modifier_weakness
+			"combatv2_defence_weakclass": 70, // 2850 chisel:weakness_modifier_weak
+			"combatv2_defence_sameclass": 60, // 2851 chisel:weakness_modifier_same
+			"combatv2_defence_strongclass": 50, // 2852 chisel:weakness_modifier_strong
+			"combatv2_npc_armour": 454 // 2865 chisel:armor
+		},
+		"id": 32818,
+		"models": [
+			120081
+		],
+		"movementCapabilities": 3,
+		"name": "Sanguine bear cub",
+		"scaleXZ": 135,
+		"scaleY": 135,
+		"texture_replacements": {
+			"9167": 24967
+		}
+	},
+	{
+		"animation_group": 338,
+		"boundSize": 2,
+		"combat": 168,
+		"extra": {
+			"magicattack": 0, // 3 chisel:accuracy_magic
+			"rangeattack": 0, // 4 chisel:accuracy_ranged
+			"attackrate": 8, // 14 chisel:attack_speed
+			"damagetype": 1, // 26 chisel:potion_effect_unk3
+			"attackbonus": 2458, // 29 chisel:accuracy_melee_(npc)
+			"melee_strength": 13464, // 641 chisel:damage_melee
+			"ranged_strength": 0, // 643 chisel:damage_ranged
+			"magic_strength": 0, // 965 chisel:damage_magic
+			"combatv2_weakness": 2, // 2848 chisel:weakness
+			"combatv2_npc_armour": 4756, // 2865 chisel:armor
+			"combatv2_no_resettag": 1, // 2890 chisel:jmod_god_event_elite_spawn
+			"combatv2_npc_no_tag": 1 // 2892 chisel:no_tag
+		},
+		"id": 32819,
+		"models": [
+			23212
+		],
+		"movementCapabilities": 3,
+		"name": "Fiend of Fenmoor"
+	},
+	{
+		"action_cursors": [
+			44,
+			null,
+			null,
+			null,
+			null,
+			null
+		],
+		"actions": [
+			"Talk to",
+			null,
+			"Locate Inanna",
+			"Travel",
+			null
+		],
+		"alwaysontop": true,
+		"animation_group": 4895,
+		"boundSize": 1,
+		"combat": 0,
+		"drawMapDot": false,
+		"extra": {
+			"general_use_follower_quest": 533, // 9213
+			"general_use_follower_spawn_fail_dialogue": "<p,neutral>I should dismiss my other companions so Anya can join me." // 9418
+		},
+		"headModels": [
+			139464
+		],
+		"id": 32820,
+		"models": [
+			139465,
+			139466
+		],
+		"movementCapabilities": 1,
+		"name": "Anya",
+		"quests": [
+			533
+		]
+	},
+	{
+		"action_cursors": [
+			44,
+			null,
+			null,
+			null,
+			null,
+			null
+		],
+		"actions": [
+			"Talk to",
+			null,
+			null,
+			null,
+			null
+		],
+		"animation_group": 4895,
+		"boundSize": 1,
+		"combat": 0,
+		"headModels": [
+			139464
+		],
+		"id": 32821,
+		"models": [
+			139465,
+			139466
+		],
+		"movementCapabilities": 1,
+		"name": "Anya",
+		"quests": [
+			533
+		]
+	},
+	{
+		"alwaysontop": true,
+		"animation_group": 4895,
+		"boundSize": 1,
+		"combat": 0,
+		"id": 32822,
+		"morphs_1": {
+			"ids": [
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				32821,
+				32821,
+				32821,
+				32821,
+				32821,
+				32821,
+				32821,
+				32821,
+				32821,
+				32821,
+				32821,
+				32821,
+				32821,
+				32821,
+				32821,
+				32821,
+				32821,
+				32821,
+				32821,
+				32821,
+				32821,
+				0
+			],
+			"varbit": 62090,
+			"varp": -1
+		},
+		"movementCapabilities": 1,
+		"respawnDirection": 1,
+		"turnspeed": 0
+	},
+	{
+		"alwaysontop": true,
+		"animation_group": 4895,
+		"boundSize": 1,
+		"combat": 0,
+		"id": 32823,
+		"morphs_1": {
+			"ids": [
+				-1,
+				32821,
+				0
+			],
+			"varbit": 62098,
+			"varp": -1
+		},
+		"movementCapabilities": 1,
+		"respawnDirection": 2,
+		"turnspeed": 0
+	},
+	{
+		"alwaysontop": true,
+		"animation_group": 4895,
+		"boundSize": 1,
+		"combat": 0,
+		"id": 32824,
+		"morphs_1": {
+			"ids": [
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				32821,
+				32821,
+				32821,
+				32821,
+				32821,
+				32821,
+				32821,
+				32821,
+				32821,
+				32821,
+				32821,
+				32821,
+				32821,
+				32821,
+				32821,
+				32821,
+				32821,
+				32821,
+				32821,
+				32821,
+				32821,
+				32821,
+				32821,
+				32821,
+				32821,
+				32821,
+				32821,
+				32821,
+				32821,
+				32821,
+				32821,
+				32821,
+				32821,
+				32821,
+				32821,
+				32821,
+				0
+			],
+			"varbit": 62090,
+			"varp": -1
+		},
+		"movementCapabilities": 1,
+		"turnspeed": 0
+	},
+	{
+		"action_cursors": [
+			44,
+			null,
+			null,
+			null,
+			null,
+			null
+		],
+		"actions": [
+			"Talk to",
+			null,
+			null,
+			null,
+			null
+		],
+		"animation_group": 4895,
+		"boundSize": 1,
+		"combat": 0,
+		"headModels": [
+			139464
+		],
+		"id": 32825,
+		"models": [
+			139465,
+			139466
+		],
+		"movementCapabilities": 1,
+		"name": "Anya",
+		"quests": [
+			533
+		]
+	},
+	{
+		"action_cursors": [
+			44,
+			null,
+			null,
+			null,
+			null,
+			null
+		],
+		"actions": [
+			"Talk to",
+			null,
+			null,
+			null,
+			null
+		],
+		"animation_group": 4908,
+		"boundSize": 3,
+		"combat": 0,
+		"headModels": [
+			140368,
+			143896
+		],
+		"id": 32826,
+		"models": [
+			140367,
+			140419
+		],
+		"movementCapabilities": 1,
+		"name": "Inanna",
+		"quests": [
+			533
+		]
+	},
+	{
+		"animation_group": 4908,
+		"boundSize": 3,
+		"combat": 0,
+		"headModels": [
+			140368,
+			143896
+		],
+		"id": 32827,
+		"models": [
+			140367,
+			140419
+		],
+		"movementCapabilities": 1,
+		"name": "Inanna",
+		"quests": [
+			533
+		]
+	},
+	{
+		"alwaysontop": true,
+		"boundSize": 3,
+		"combat": 0,
+		"id": 32828,
+		"morphs_1": {
+			"ids": [
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				32826,
+				32826,
+				32826,
+				32826,
+				32826,
+				32826,
+				32826,
+				32826,
+				32826,
+				32826,
+				32826,
+				32826,
+				32826,
+				32826,
+				32826,
+				32826,
+				32826,
+				32826,
+				32826,
+				32826,
+				32826,
+				32826,
+				32826,
+				32826,
+				32826,
+				32826,
+				32826,
+				32826,
+				32826,
+				32826,
+				32826,
+				32826,
+				32826,
+				32826,
+				32826,
+				32826,
+				0
+			],
+			"varbit": 62090,
+			"varp": -1
+		},
+		"movementCapabilities": 1,
+		"turnspeed": 0
+	},
+	{
+		"alwaysontop": true,
+		"boundSize": 3,
+		"combat": 0,
+		"id": 32829,
+		"morphs_1": {
+			"ids": [
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				32826,
+				32826,
+				32826,
+				32826,
+				32826,
+				32826,
+				32826,
+				32826,
+				32826,
+				32826,
+				32826,
+				32826,
+				32826,
+				32826,
+				32826,
+				32826,
+				32826,
+				32826,
+				32826,
+				32826,
+				32826,
+				32826,
+				32826,
+				32826,
+				32826,
+				32826,
+				32826,
+				32826,
+				32826,
+				32826,
+				32826,
+				32826,
+				32826,
+				32826,
+				32826,
+				32826,
+				0
+			],
+			"varbit": 62090,
+			"varp": -1
+		},
+		"movementCapabilities": 1,
+		"respawnDirection": 2,
+		"turnspeed": 0
+	},
+	{
+		"alwaysontop": true,
+		"boundSize": 3,
+		"combat": 0,
+		"id": 32830,
+		"morphs_1": {
+			"ids": [
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				32826,
+				32826,
+				32826,
+				32826,
+				32826,
+				32826,
+				32826,
+				32826,
+				32826,
+				32826,
+				32826,
+				0
+			],
+			"varbit": 62090,
+			"varp": -1
+		},
+		"movementCapabilities": 1,
+		"turnspeed": 0
+	},
+	{
+		"action_cursors": [
+			44,
+			null,
+			null,
+			null,
+			null,
+			null
+		],
+		"actions": [
+			"Talk to",
+			null,
+			null,
+			null,
+			null
+		],
+		"animation_group": 4908,
+		"boundSize": 3,
+		"combat": 0,
+		"headModels": [
+			140368,
+			143896
+		],
+		"id": 32831,
+		"models": [
+			140367,
+			140419
+		],
+		"movementCapabilities": 1,
+		"name": "Inanna",
+		"quests": [
+			533
+		]
+	},
+	{
+		"action_cursors": [
+			44,
+			null,
+			null,
+			null,
+			null,
+			null
+		],
+		"actions": [
+			"Talk to",
+			null,
+			null,
+			null,
+			null
+		],
+		"animation_group": 4908,
+		"boundSize": 3,
+		"combat": 0,
+		"headModels": [
+			140368,
+			143896
+		],
+		"id": 32832,
+		"models": [
+			140367,
+			140419
+		],
+		"movementCapabilities": 1,
+		"name": "Inanna",
+		"quests": [
+			533
+		]
+	},
+	{
+		"action_cursors": [
+			44,
+			null,
+			null,
+			null,
+			null,
+			null
+		],
+		"actions": [
+			"Talk to",
+			null,
+			null,
+			null,
+			null
+		],
+		"animation_group": 4923,
+		"boundSize": 1,
+		"color_replacements": {
+			"48553": 46131,
+			"53673": 62625,
+			"54420": 54419,
+			"62887": 46108,
+			"64534": 48140
+		},
+		"combat": 0,
+		"headModels": [
+			145881
+		],
+		"id": 32833,
+		"models": [
+			145880,
+			145876
+		],
+		"movementCapabilities": 1,
+		"name": "Vas",
+		"quests": [
+			533
+		],
+		"scaleXZ": 160,
+		"scaleY": 160,
+		"texture_replacements": {
+			"24999": 24997
+		}
+	},
+	{
+		"animation_group": 4923,
+		"boundSize": 1,
+		"color_replacements": {
+			"48553": 46131,
+			"53673": 62625,
+			"54420": 54419,
+			"62887": 46108,
+			"64534": 48140
+		},
+		"combat": 0,
+		"headModels": [
+			145881
+		],
+		"id": 32834,
+		"models": [
+			145880,
+			145876
+		],
+		"movementCapabilities": 1,
+		"name": "Vas",
+		"quests": [
+			533
+		],
+		"scaleXZ": 160,
+		"scaleY": 160,
+		"texture_replacements": {
+			"24999": 24997
+		}
+	},
+	{
+		"alwaysontop": true,
+		"boundSize": 1,
+		"combat": 0,
+		"id": 32835,
+		"morphs_1": {
+			"ids": [
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				32833,
+				32833,
+				32833,
+				32833,
+				32833,
+				32833,
+				32833,
+				32833,
+				32833,
+				32833,
+				32833,
+				32833,
+				32833,
+				32833,
+				32833,
+				32833,
+				0
+			],
+			"varbit": 62090,
+			"varp": -1
+		},
+		"movementCapabilities": 1,
+		"scaleXZ": 160,
+		"scaleY": 160,
+		"turnspeed": 0
+	},
+	{
+		"alwaysontop": true,
+		"boundSize": 1,
+		"combat": 0,
+		"id": 32836,
+		"morphs_1": {
+			"ids": [
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				32833,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				32833,
+				0
+			],
+			"varbit": 62090,
+			"varp": -1
+		},
+		"movementCapabilities": 1,
+		"respawnDirection": 6,
+		"scaleXZ": 160,
+		"scaleY": 160,
+		"turnspeed": 0
+	},
+	{
+		"action_cursors": [
+			44,
+			null,
+			null,
+			null,
+			null,
+			null
+		],
+		"actions": [
+			"Talk to",
+			null,
+			null,
+			null,
+			null
+		],
+		"alwaysontop": true,
+		"animation_group": 4923,
+		"boundSize": 3,
+		"color_replacements": {
+			"48553": 46131,
+			"53673": 62625,
+			"54420": 54419,
+			"62887": 46108,
+			"64534": 48140
+		},
+		"combat": 0,
+		"headModels": [
+			145881
+		],
+		"id": 32837,
+		"models": [
+			145880,
+			145876
+		],
+		"movementCapabilities": 1,
+		"name": "Vas",
+		"quests": [
+			533
+		],
+		"scaleXZ": 192,
+		"scaleY": 192,
+		"texture_replacements": {
+			"24999": 24997
+		}
+	},
+	{
+		"action_cursors": [
+			44,
+			null,
+			null,
+			null,
+			null,
+			null
+		],
+		"actions": [
+			"Talk to",
+			null,
+			null,
+			null,
+			null
+		],
+		"animation_group": 4922,
+		"boundSize": 1,
+		"color_replacements": {
+			"1308": 48140,
+			"54420": 54419,
+			"57550": 46131,
+			"59692": 62625,
+			"63438": 46108
+		},
+		"combat": 0,
+		"headModels": [
+			145878
+		],
+		"id": 32838,
+		"models": [
+			145877,
+			145875
+		],
+		"movementCapabilities": 1,
+		"name": "Mina",
+		"quests": [
+			533
+		],
+		"scaleXZ": 160,
+		"scaleY": 160,
+		"texture_replacements": {
+			"24998": 24996
+		}
+	},
+	{
+		"animation_group": 4922,
+		"boundSize": 1,
+		"color_replacements": {
+			"1308": 48140,
+			"54420": 54419,
+			"57550": 46131,
+			"59692": 62625,
+			"63438": 46108
+		},
+		"combat": 0,
+		"headModels": [
+			145878
+		],
+		"id": 32839,
+		"models": [
+			145877,
+			145875
+		],
+		"movementCapabilities": 1,
+		"name": "Mina",
+		"quests": [
+			533
+		],
+		"scaleXZ": 160,
+		"scaleY": 160,
+		"texture_replacements": {
+			"24998": 24996
+		}
+	},
+	{
+		"alwaysontop": true,
+		"boundSize": 1,
+		"combat": 0,
+		"id": 32840,
+		"morphs_1": {
+			"ids": [
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				32838,
+				32838,
+				32838,
+				32838,
+				32838,
+				32838,
+				32838,
+				32838,
+				32838,
+				32838,
+				32838,
+				32838,
+				32838,
+				32838,
+				32838,
+				32838,
+				0
+			],
+			"varbit": 62090,
+			"varp": -1
+		},
+		"movementCapabilities": 1,
+		"scaleXZ": 160,
+		"scaleY": 160,
+		"turnspeed": 0
+	},
+	{
+		"alwaysontop": true,
+		"boundSize": 1,
+		"combat": 0,
+		"id": 32841,
+		"morphs_1": {
+			"ids": [
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				32838,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				32838,
+				0
+			],
+			"varbit": 62090,
+			"varp": -1
+		},
+		"movementCapabilities": 1,
+		"respawnDirection": 6,
+		"scaleXZ": 160,
+		"scaleY": 160,
+		"turnspeed": 0
+	},
+	{
+		"action_cursors": [
+			44,
+			null,
+			null,
+			null,
+			null,
+			null
+		],
+		"actions": [
+			"Talk to",
+			null,
+			null,
+			null,
+			null
+		],
+		"alwaysontop": true,
+		"animation_group": 4922,
+		"boundSize": 3,
+		"color_replacements": {
+			"1308": 48140,
+			"54420": 54419,
+			"57550": 46131,
+			"59692": 62625,
+			"63438": 46108
+		},
+		"combat": 0,
+		"headModels": [
+			145878
+		],
+		"id": 32842,
+		"models": [
+			145877,
+			145875
+		],
+		"movementCapabilities": 1,
+		"name": "Mina",
+		"quests": [
+			533
+		],
+		"scaleXZ": 192,
+		"scaleY": 192,
+		"texture_replacements": {
+			"24998": 24996
+		}
+	},
+	{
+		"action_cursors": [
+			44,
+			null,
+			null,
+			null,
+			null,
+			null
+		],
+		"actions": [
+			"Talk to",
+			null,
+			null,
+			null,
+			null
+		],
+		"alwaysontop": true,
+		"animation_group": 2710,
+		"boundSize": 1,
+		"color_replacements": {
+			"16311": 4168,
+			"16323": 4179,
+			"16335": 4191,
+			"16347": 4203,
+			"4533": 5660,
+			"4540": 5667,
+			"4550": 5673,
+			"4554": 5679,
+			"55232": 28,
+			"6798": 16
+		},
+		"combat": 0,
+		"drawMapDot": false,
+		"extra": {
+			"general_use_follower_quest": 533, // 9213
+			"general_use_follower_main_npc": 32847, // 9214
+			"general_use_follower_main_npc_coord": 58000785, // 9215
+			"general_use_follower_spawn_fail_dialogue": "<p,neutral>I should dismiss my other companions so Ash can join me." // 9418
+		},
+		"headModels": [
+			143256,
+			141689
+		],
+		"id": 32843,
+		"models": [
+			143053,
+			246,
+			136085,
+			128315,
+			136681,
+			136682,
+			121080,
+			127217,
+			130870
+		],
+		"movementCapabilities": 1,
+		"name": "Ash",
+		"quests": [
+			533
+		]
+	},
+	{
+		"action_cursors": [
+			44,
+			null,
+			null,
+			null,
+			null,
+			null
+		],
+		"actions": [
+			"Talk to",
+			null,
+			null,
+			null,
+			null
+		],
+		"alwaysontop": true,
+		"animation_group": 2710,
+		"boundSize": 1,
+		"color_replacements": {
+			"16311": 4168,
+			"16323": 4179,
+			"16335": 4191,
+			"16347": 4203,
+			"4533": 5660,
+			"4540": 5667,
+			"4550": 5673,
+			"4554": 5679,
+			"55232": 28,
+			"6798": 16
+		},
+		"combat": 0,
+		"drawMapDot": false,
+		"extra": {
+			"general_use_follower_quest": 533, // 9213
+			"general_use_follower_spawn_fail_dialogue": "<p,neutral>I should dismiss my other companions so Ash can join me." // 9418
+		},
+		"headModels": [
+			143256,
+			141689
+		],
+		"id": 32844,
+		"models": [
+			143053,
+			246,
+			136085,
+			128315,
+			136681,
+			136682,
+			121080,
+			127217,
+			130870
+		],
+		"movementCapabilities": 1,
+		"name": "Ash",
+		"quests": [
+			533
+		]
+	},
+	{
+		"action_cursors": [
+			44,
+			null,
+			null,
+			null,
+			null,
+			null
+		],
+		"actions": [
+			"Talk to",
+			null,
+			null,
+			null,
+			null
+		],
+		"animation_group": 2710,
+		"boundSize": 1,
+		"color_replacements": {
+			"16311": 4168,
+			"16323": 4179,
+			"16335": 4191,
+			"16347": 4203,
+			"4533": 5660,
+			"4540": 5667,
+			"4550": 5673,
+			"4554": 5679,
+			"55232": 28,
+			"6798": 16
+		},
+		"combat": 0,
+		"headModels": [
+			143256,
+			141689
+		],
+		"id": 32845,
+		"models": [
+			143053,
+			246,
+			136085,
+			128315,
+			136681,
+			136682,
+			121080,
+			127217,
+			130870
+		],
+		"movementCapabilities": 1,
+		"name": "Ash",
+		"quests": [
+			533
+		],
+		"turnspeed": 0
+	},
+	{
+		"animation_group": 2710,
+		"boundSize": 1,
+		"color_replacements": {
+			"16311": 4168,
+			"16323": 4179,
+			"16335": 4191,
+			"16347": 4203,
+			"4533": 5660,
+			"4540": 5667,
+			"4550": 5673,
+			"4554": 5679,
+			"55232": 28,
+			"6798": 16
+		},
+		"combat": 0,
+		"headModels": [
+			143256,
+			141689
+		],
+		"id": 32846,
+		"models": [
+			143053,
+			246,
+			136085,
+			128315,
+			136681,
+			136682,
+			121080,
+			127217,
+			130870
+		],
+		"movementCapabilities": 1,
+		"name": "Ash",
+		"quests": [
+			533
+		],
+		"turnspeed": 0
+	},
+	{
+		"alwaysontop": true,
+		"boundSize": 1,
+		"combat": 0,
+		"id": 32847,
+		"morphs_1": {
+			"ids": [
+				-1,
+				32845,
+				0
+			],
+			"varbit": 62100,
+			"varp": -1
+		},
+		"movementCapabilities": 1,
+		"respawnDirection": 2,
+		"turnspeed": 0
+	},
+	{
+		"boundSize": 1,
+		"combat": 0,
+		"id": 32848,
+		"morphs_1": {
+			"ids": [
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				32845,
+				32845,
+				32845,
+				32845,
+				32845,
+				32845,
+				32845,
+				32845,
+				32845,
+				32845,
+				32845,
+				32845,
+				32845,
+				32845,
+				32845,
+				32845,
+				32845,
+				32845,
+				32845,
+				32845,
+				32845,
+				32845,
+				32845,
+				32845,
+				32845,
+				32845,
+				32845,
+				32845,
+				32845,
+				32845,
+				32845,
+				32845,
+				32845,
+				32845,
+				32845,
+				32845,
+				32845,
+				32845,
+				32845,
+				32845,
+				32845,
+				32845,
+				32845,
+				32845,
+				32845,
+				32845,
+				32845,
+				32845,
+				32845,
+				32845,
+				32845,
+				32845,
+				32845,
+				32845,
+				32845,
+				32845,
+				32845,
+				32845,
+				32845,
+				32845,
+				32845,
+				32845,
+				32845,
+				32845,
+				32845,
+				32845,
+				32845,
+				32845,
+				32845,
+				32845,
+				32845,
+				32845,
+				32845,
+				32845,
+				32845,
+				32845,
+				0
+			],
+			"varbit": 62090,
+			"varp": -1
+		},
+		"movementCapabilities": 1,
+		"respawnDirection": 2,
+		"turnspeed": 0
+	},
+	{
+		"boundSize": 1,
+		"combat": 0,
+		"id": 32849,
+		"morphs_1": {
+			"ids": [
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				32845,
+				32845,
+				32845,
+				32845,
+				32845,
+				32845,
+				32845,
+				32845,
+				32845,
+				32845,
+				32845,
+				32845,
+				32845,
+				32845,
+				32845,
+				32845,
+				32845,
+				32845,
+				32845,
+				32845,
+				32845,
+				32845,
+				32845,
+				32845,
+				32845,
+				32845,
+				32845,
+				32845,
+				32845,
+				32845,
+				32845,
+				32845,
+				32845,
+				32845,
+				32845,
+				32845,
+				32845,
+				32845,
+				32845,
+				32845,
+				32845,
+				32845,
+				32845,
+				32845,
+				32845,
+				32845,
+				32845,
+				32845,
+				32845,
+				32845,
+				32845,
+				32845,
+				32845,
+				32845,
+				32845,
+				32845,
+				0
+			],
+			"varbit": 62090,
+			"varp": -1
+		},
+		"movementCapabilities": 1,
+		"turnspeed": 0
+	},
+	{
+		"alwaysontop": true,
+		"boundSize": 1,
+		"combat": 78,
+		"id": 32850,
+		"morphs_1": {
+			"ids": [
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				32851,
+				32851,
+				32851,
+				32851,
+				32851,
+				32851,
+				0
+			],
+			"varbit": 62090,
+			"varp": -1
+		},
+		"movementCapabilities": 1,
+		"turnspeed": 0
+	},
+	{
+		"actions": [
+			"Attack",
+			null,
+			null,
+			null,
+			null
+		],
+		"animation_group": 4928,
+		"attackCursor": 42,
+		"boundSize": 1,
+		"color_replacements": {
+			"1226": 57413,
+			"30746": 51230,
+			"3119": 55308,
+			"3121": 51230,
+			"5293": 55313,
+			"6021": 3149,
+			"64835": 55313,
+			"6698": 65446,
+			"7223": 51247,
+			"8253": 57413,
+			"8298": 7269,
+			"9305": 3149
+		},
+		"combat": 78,
+		"id": 32851,
+		"models": [
+			124208,
+			124214,
+			145883
+		],
+		"movementCapabilities": 1,
+		"name": "Sanguine Sigma",
+		"quests": [
+			533
+		],
+		"texture_replacements": {
+			"14220": 25003
+		}
+	},
+	{
+		"animation_group": 4928,
+		"boundSize": 1,
+		"color_replacements": {
+			"1226": 57413,
+			"30746": 51230,
+			"3119": 55308,
+			"3121": 51230,
+			"5293": 55313,
+			"6021": 3149,
+			"64835": 55313,
+			"6698": 65446,
+			"7223": 51247,
+			"8253": 57413,
+			"8298": 7269,
+			"9305": 3149
+		},
+		"combat": 0,
+		"id": 32852,
+		"models": [
+			124208,
+			124214,
+			145883
+		],
+		"movementCapabilities": 1,
+		"name": "Sanguine Omega",
+		"quests": [
+			533
+		],
+		"texture_replacements": {
+			"14220": 25003
+		}
+	},
+	{
+		"actions": [
+			null,
+			"Attack",
+			null,
+			null,
+			null
+		],
+		"animation_group": 4928,
+		"attackCursor": 42,
+		"boundSize": 1,
+		"color_replacements": {
+			"1226": 57413,
+			"30746": 51230,
+			"3119": 55308,
+			"3121": 51230,
+			"5293": 55313,
+			"6021": 3149,
+			"64835": 55313,
+			"6698": 65446,
+			"7223": 51247,
+			"8253": 57413,
+			"8298": 7269,
+			"9305": 3149
+		},
+		"combat": 78,
+		"extra": {
+			"attackrate": 4, // 14 chisel:attack_speed
+			"damagetype": 1, // 26 chisel:potion_effect_unk3
+			"attackbonus": 1032, // 29 chisel:accuracy_melee_(npc)
+			"slayer_category": 196, // 50 chisel:slayer_task_id
+			"melee_strength": 12000, // 641 chisel:damage_melee
+			"combatv2_attackmod": 13, // 2836 chisel:weakness_class
+			"combatv2_player_hiteffect": 1, // 2838
+			"combatv2_weakness": 3, // 2848 chisel:weakness
+			"combatv2_npc_armour": 2023, // 2865 chisel:armor
+			"combatv2_npc_xp_multiplier": 14, // 3318 chisel:combat_xp_multiplier_x10
+			"slayer_pod_fake_slayer_level": 72, // 7409
+			"combatv2_default_attack_type": 6 // 8358
+		},
+		"id": 32853,
+		"models": [
+			124208,
+			124214,
+			145883
+		],
+		"movementCapabilities": 1,
+		"name": "Sanguine Sigma",
+		"quests": [
+			533
+		],
+		"texture_replacements": {
+			"14220": 25003
+		}
+	},
+	{
+		"actions": [
+			null,
+			"Attack",
+			null,
+			null,
+			null
+		],
+		"animation_group": 4928,
+		"attackCursor": 42,
+		"boundSize": 1,
+		"color_replacements": {
+			"1226": 57413,
+			"30746": 51230,
+			"3119": 55308,
+			"3121": 51230,
+			"5293": 55313,
+			"6021": 3149,
+			"64835": 55313,
+			"6698": 65446,
+			"7223": 51247,
+			"8253": 57413,
+			"8298": 7269,
+			"9305": 3149
+		},
+		"combat": 78,
+		"extra": {
+			"attackrate": 4, // 14 chisel:attack_speed
+			"damagetype": 1, // 26 chisel:potion_effect_unk3
+			"attackbonus": 1032, // 29 chisel:accuracy_melee_(npc)
+			"slayer_category": 196, // 50 chisel:slayer_task_id
+			"melee_strength": 12000, // 641 chisel:damage_melee
+			"combatv2_attackmod": 13, // 2836 chisel:weakness_class
+			"combatv2_player_hiteffect": 1, // 2838
+			"combatv2_weakness": 3, // 2848 chisel:weakness
+			"combatv2_npc_armour": 2023, // 2865 chisel:armor
+			"combatv2_npc_xp_multiplier": 14, // 3318 chisel:combat_xp_multiplier_x10
+			"slayer_pod_fake_slayer_level": 72, // 7409
+			"combatv2_default_attack_type": 6 // 8358
+		},
+		"id": 32854,
+		"models": [
+			124208,
+			124214,
+			145883
+		],
+		"movementCapabilities": 1,
+		"name": "Sanguine Omega",
+		"quests": [
+			533
+		],
+		"texture_replacements": {
+			"14220": 25003
+		}
+	},
+	{
+		"alwaysontop": true,
+		"boundSize": 1,
+		"combat": 0,
+		"custombounding": [
+			-256,
+			-600,
+			-500,
+			256,
+			0,
+			500
+		],
+		"id": 32855,
+		"morphs_1": {
+			"ids": [
+				32626,
+				32626,
+				32626,
+				32626,
+				32626,
+				32856,
+				32626
+			],
+			"varbit": 62097,
+			"varp": -1
+		},
+		"movementCapabilities": 1,
+		"respawnDirection": 2,
+		"scaleXZ": 896,
+		"scaleY": 896
+	},
+	{
+		"actions": [
+			"Pour potion",
+			null,
+			null,
+			null,
+			null
+		],
+		"alwaysontop": true,
+		"animation_group": 4901,
+		"boundSize": 1,
+		"color_replacements": {
+			"1186": 43139,
+			"2219": 43139,
+			"4280": 45212,
+			"4319": 45212,
+			"6153": 47219
+		},
+		"combat": 0,
+		"custombounding": [
+			-256,
+			-600,
+			-500,
+			256,
+			0,
+			500
+		],
+		"headModels": [
+			139461
+		],
+		"id": 32856,
+		"models": [
+			136193,
+			139462
+		],
+		"movementCapabilities": 1,
+		"name": "Silverquill, the Dreadhog",
+		"quests": [
+			533
+		],
+		"respawnDirection": 2,
+		"scaleXZ": 896,
+		"scaleY": 896,
+		"texture_replacements": {
+			"21135": 23451
+		}
+	},
+	{
+		"alwaysontop": true,
+		"boundSize": 1,
+		"combat": 0,
+		"id": 32857,
+		"morphs_1": {
+			"ids": [
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				20510,
+				20510,
+				20510,
+				20510,
+				20510,
+				20510,
+				20510,
+				20510,
+				20510,
+				20510,
+				20510,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				20510,
+				20510,
+				20510,
+				20510,
+				20510,
+				20510,
+				20510,
+				20510,
+				20510,
+				20510,
+				20510,
+				0
+			],
+			"varbit": 62090,
+			"varp": -1
+		},
+		"movementCapabilities": 1,
+		"quests": [
+			533
+		],
+		"respawnDirection": 0,
+		"turnspeed": 0
+	},
+	{
+		"alwaysontop": true,
+		"boundSize": 1,
+		"combat": 0,
+		"id": 32858,
+		"morphs_1": {
+			"ids": [
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				20511,
+				20511,
+				20511,
+				20511,
+				20511,
+				20511,
+				20511,
+				20511,
+				20511,
+				20511,
+				20511,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				20511,
+				20511,
+				20511,
+				20511,
+				20511,
+				20511,
+				20511,
+				20511,
+				20511,
+				20511,
+				20511,
+				0
+			],
+			"varbit": 62090,
+			"varp": -1
+		},
+		"movementCapabilities": 1,
+		"quests": [
+			533
+		],
+		"turnspeed": 0
+	},
+	{
+		"alwaysontop": true,
+		"boundSize": 1,
+		"combat": 0,
+		"id": 32859,
+		"morphs_1": {
+			"ids": [
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				26619,
+				26619,
+				26619,
+				26619,
+				26619,
+				26619,
+				26619,
+				26619,
+				26619,
+				26619,
+				26619,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				26619,
+				26619,
+				26619,
+				26619,
+				26619,
+				26619,
+				26619,
+				26619,
+				26619,
+				26619,
+				26619,
+				0
+			],
+			"varbit": 62090,
+			"varp": -1
+		},
+		"movementCapabilities": 1,
+		"quests": [
+			533
+		],
+		"respawnDirection": 0,
+		"turnspeed": 0
+	},
+	{
+		"alwaysontop": true,
+		"boundSize": 1,
+		"combat": 0,
+		"id": 32860,
+		"morphs_1": {
+			"ids": [
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				20510,
+				20510,
+				20510,
+				20510,
+				20510,
+				20510,
+				20510,
+				20510,
+				20510,
+				20510,
+				20510,
+				20510,
+				20510,
+				20510,
+				20510,
+				20510,
+				0
+			],
+			"varbit": 62090,
+			"varp": -1
+		},
+		"movementCapabilities": 1,
+		"quests": [
+			533
+		],
+		"turnspeed": 0
+	},
+	{
+		"alwaysontop": true,
+		"boundSize": 1,
+		"combat": 0,
+		"id": 32861,
+		"morphs_1": {
+			"ids": [
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				20511,
+				20511,
+				20511,
+				20511,
+				20511,
+				20511,
+				20511,
+				20511,
+				20511,
+				20511,
+				20511,
+				20511,
+				20511,
+				20511,
+				20511,
+				20511,
+				0
+			],
+			"varbit": 62090,
+			"varp": -1
+		},
+		"movementCapabilities": 1,
+		"quests": [
+			533
+		],
+		"respawnDirection": 6,
+		"turnspeed": 0
+	},
+	{
+		"alwaysontop": true,
+		"boundSize": 1,
+		"combat": 0,
+		"id": 32862,
+		"morphs_1": {
+			"ids": [
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				-1,
+				26619,
+				26619,
+				26619,
+				26619,
+				26619,
+				26619,
+				26619,
+				26619,
+				26619,
+				26619,
+				26619,
+				26619,
+				26619,
+				26619,
+				26619,
+				26619,
+				0
+			],
+			"varbit": 62090,
+			"varp": -1
+		},
+		"movementCapabilities": 1,
+		"quests": [
+			533
+		],
+		"respawnDirection": 0,
+		"turnspeed": 0
+	},
+	{
+		"action_cursors": [
+			44,
+			null,
+			null,
+			null,
+			null,
+			null
+		],
+		"actions": [
+			"Talk to",
+			null,
+			null,
+			null,
+			null
+		],
+		"animation_group": 4908,
+		"boundSize": 3,
+		"combat": 0,
+		"headModels": [
+			140368,
+			143896
+		],
+		"id": 32863,
+		"models": [
+			140367,
+			140419
+		],
+		"movementCapabilities": 1,
+		"name": "Inanna",
+		"quests": [
+			533
+		]
+	},
+	{
+		"alwaysontop": true,
+		"animation_group": 4694,
+		"boundSize": 1,
+		"color_replacements": {
+			"2855": 4640,
+			"4524": 4640,
+			"680": 4640
+		},
+		"combat": 0,
+		"headModels": [
+			139558
+		],
+		"id": 32864,
+		"models": [
+			139557
+		],
+		"movementCapabilities": 1,
+		"name": "Adam",
+		"quests": [
+			533
+		],
+		"respawnDirection": 6,
+		"texture_replacements": {
+			"11962": 23537,
+			"11964": 23542,
+			"11966": 23541
+		}
+	},
+	{
+		"alwaysontop": true,
+		"animation_group": 4695,
+		"boundSize": 1,
+		"color_replacements": {
+			"4533": 5889,
+			"4540": 5896,
+			"4550": 7052,
+			"4554": 7054
+		},
+		"combat": 0,
+		"headModels": [
+			139560
+		],
+		"id": 32865,
+		"models": [
+			139559
+		],
+		"movementCapabilities": 1,
+		"name": "Esther",
+		"quests": [
+			533
+		],
+		"respawnDirection": 2
+	},
+	{
+		"alwaysontop": true,
+		"animation_group": 3773,
+		"boundSize": 1,
+		"color_replacements": {
+			"4533": 4522,
+			"4540": 4529,
+			"4550": 4537,
+			"4554": 4545
+		},
+		"combat": 0,
+		"headModels": [
+			139562
+		],
+		"id": 32866,
+		"models": [
+			139561
+		],
+		"movementCapabilities": 1,
+		"name": "Zeke",
+		"quests": [
+			533
+		]
+	},
+	{
+		"actions": [
+			"Calm",
+			null,
+			null,
+			null,
+			null
+		],
+		"alwaysontop": true,
+		"animation_group": 4900,
+		"boundSize": 1,
+		"color_replacements": {
+			"1186": 43139,
+			"2219": 43139,
+			"4280": 45212,
+			"4319": 45212,
+			"6153": 47219
+		},
+		"combat": 0,
+		"custombounding": [
+			-256,
+			-600,
+			-500,
+			256,
+			0,
+			500
+		],
+		"headModels": [
+			139461
+		],
+		"id": 32867,
+		"models": [
+			136193,
+			139462
+		],
+		"movementCapabilities": 1,
+		"name": "Silverquill, the Dreadhog",
+		"quests": [
+			533
+		],
+		"respawnDirection": 6,
+		"scaleXZ": 896,
+		"scaleY": 896,
+		"texture_replacements": {
+			"21135": 23451
+		}
+	},
+	{
+		"action_cursors": [
+			44,
+			null,
+			null,
+			null,
+			null,
+			null
+		],
+		"actions": [
+			"Talk to",
+			null,
+			null,
+			null,
+			null
+		],
+		"alwaysontop": true,
+		"animation_group": 4889,
+		"boundSize": 3,
+		"combat": 0,
+		"headModels": [
+			139433,
+			139417,
+			139424
+		],
+		"id": 32868,
+		"models": [
+			139432,
+			139428,
+			139419,
+			139416,
+			139423,
+			139421,
+			139430
+		],
+		"movementCapabilities": 1,
+		"name": "Ivar, King of Bones",
+		"quests": [
+			533
+		],
+		"respawnDirection": 6,
+		"texture_replacements": {
+			"23435": 23429,
+			"23442": 23434
+		}
+	},
+	{
+		"action_cursors": [
+			44,
+			null,
+			null,
+			null,
+			null,
+			null
+		],
+		"actions": [
+			"Talk to",
+			null,
+			null,
+			null,
+			null
+		],
+		"alwaysontop": true,
+		"animation_group": 4897,
+		"boundSize": 1,
+		"combat": 0,
+		"headModels": [
+			86907,
+			140014
+		],
+		"id": 32869,
+		"models": [
+			86912,
+			140017,
+			140018
+		],
+		"movementCapabilities": 1,
+		"name": "Ben",
+		"quests": [
+			533
+		],
+		"respawnDirection": 2,
+		"turnspeed": 0
+	},
+	{
+		"action_cursors": [
+			44,
+			null,
+			null,
+			null,
+			null,
+			null
+		],
+		"actions": [
+			"Talk to",
+			null,
+			null,
+			null,
+			null
+		],
+		"alwaysontop": true,
+		"animation_group": 4694,
+		"boundSize": 1,
+		"color_replacements": {
+			"16311": 38937,
+			"16323": 38948,
+			"16335": 38960,
+			"16347": 38970,
+			"55232": 115,
+			"6798": 107
+		},
+		"combat": 0,
+		"headModels": [
+			39123
+		],
+		"id": 32870,
+		"models": [
+			128037,
+			127240,
+			104173,
+			127242,
+			176
+		],
+		"movementCapabilities": 1,
+		"name": "Raz",
+		"quests": [
+			533
+		]
+	},
+	{
+		"animation_group": 2693,
+		"boundSize": 1,
+		"color_replacements": {
+			"16311": 24458,
+			"16323": 24464,
+			"16335": 24473,
+			"16347": 24482,
+			"55232": 16
+		},
+		"combat": 9,
+		"extra": {
+			"attackrate": 4, // 14 chisel:attack_speed
+			"damagetype": 1, // 26 chisel:potion_effect_unk3
+			"attackbonus": 171, // 29 chisel:accuracy_melee_(npc)
+			"melee_strength": 280, // 641 chisel:damage_melee
+			"combatv2_weakness": 1, // 2848 chisel:weakness
+			"combatv2_npc_armour": 171, // 2865 chisel:armor
+			"combatv2_transition_anim": 18025, // 2918
+			"combatv2_combat_bas": 2687 // 2955
+		},
+		"headModels": [
+			45003,
+			39254
+		],
+		"id": 32871,
+		"models": [
+			44922,
+			249,
+			141369,
+			128315,
+			128311,
+			128310,
+			73623,
+			128317
+		],
+		"movementCapabilities": 1,
+		"name": "Ranger",
+		"quests": [
+			533
+		],
+		"respawnDirection": 6
+	},
+	{
+		"animation_group": 2693,
+		"boundSize": 1,
+		"color_replacements": {
+			"16311": 24458,
+			"16323": 24464,
+			"16335": 24473,
+			"16347": 24482,
+			"55232": 2859,
+			"6798": 2983
+		},
+		"combat": 9,
+		"extra": {
+			"attackrate": 4, // 14 chisel:attack_speed
+			"damagetype": 1, // 26 chisel:potion_effect_unk3
+			"attackbonus": 171, // 29 chisel:accuracy_melee_(npc)
+			"melee_strength": 280, // 641 chisel:damage_melee
+			"combatv2_weakness": 1, // 2848 chisel:weakness
+			"combatv2_npc_armour": 171, // 2865 chisel:armor
+			"combatv2_transition_anim": 18025, // 2918
+			"combatv2_combat_bas": 2687 // 2955
+		},
+		"headModels": [
+			39069
+		],
+		"id": 32872,
+		"models": [
+			390,
+			141368,
+			128309,
+			128311,
+			128310,
+			73623,
+			128317
+		],
+		"movementCapabilities": 1,
+		"name": "Ranger",
+		"quests": [
+			533
+		],
+		"respawnDirection": 6
+	},
+	{
+		"animation_group": 4649,
+		"boundSize": 1,
+		"combat": 0,
+		"headModels": [
+			139454,
+			139456
+		],
+		"id": 32873,
+		"models": [
+			127074,
+			139455
+		],
+		"movementCapabilities": 1,
+		"name": "Onyx the Black",
+		"quests": [
+			533
+		],
+		"respawnDirection": 2
+	},
+	{
+		"alwaysontop": true,
+		"animation_group": 2676,
+		"boundSize": 1,
+		"color_replacements": {
+			"3468": 7589,
+			"3476": 7597,
+			"3482": 7603,
+			"3488": 7609
+		},
+		"combat": 0,
+		"headModels": [
+			89971
+		],
+		"id": 32874,
+		"models": [
+			90172,
+			90131,
+			90146,
+			90135,
+			90143,
+			78297
+		],
+		"movementCapabilities": 1,
+		"name": "Liat",
+		"quests": [
+			533
+		]
+	},
+	{
+		"alwaysontop": true,
+		"animation_group": 2690,
+		"boundSize": 1,
+		"color_replacements": {
+			"16311": 38937,
+			"16323": 38948,
+			"16335": 38960,
+			"16347": 38970,
+			"4533": 5667,
+			"4540": 5674,
+			"4550": 5681,
+			"4554": 5688,
+			"55232": 16,
+			"6798": 8
+		},
+		"combat": 0,
+		"headModels": [
+			45023,
+			38096
+		],
+		"id": 32875,
+		"models": [
+			141479,
+			141478,
+			141476,
+			141477,
+			44925,
+			251,
+			80057
+		],
+		"movementCapabilities": 1,
+		"name": "Jacob",
+		"quests": [
+			533
+		],
+		"respawnDirection": 6
+	},
+	{
+		"action_cursors": [
+			44,
+			null,
+			null,
+			null,
+			null,
+			null
+		],
+		"actions": [
+			"Talk to",
+			null,
+			null,
+			null,
+			null
+		],
+		"alwaysontop": true,
+		"animation_group": 2690,
+		"boundSize": 1,
+		"color_replacements": {
+			"16311": 10,
+			"16323": 21,
+			"16335": 33,
+			"16347": 45,
+			"4533": 5667,
+			"4540": 5674,
+			"4550": 5681,
+			"4554": 5688
+		},
+		"combat": 0,
+		"headModels": [
+			141758,
+			141689
+		],
+		"id": 32876,
+		"models": [
+			142066,
+			246,
+			141502,
+			119836,
+			119835,
+			176,
+			80057
+		],
+		"movementCapabilities": 1,
+		"name": "Matthew",
+		"quests": [
+			533
+		],
+		"respawnDirection": 6
+	},
+	{
+		"alwaysontop": true,
+		"animation_group": 2690,
+		"boundSize": 1,
+		"color_replacements": {
+			"16311": 11291,
+			"16335": 36496,
+			"4533": 4522,
+			"4540": 4529,
+			"4550": 4537,
+			"4554": 4545,
+			"55232": 4510,
+			"6798": 4634
+		},
+		"combat": 0,
+		"headModels": [
+			141555,
+			143283
+		],
+		"id": 32877,
+		"models": [
+			143044,
+			250,
+			10218,
+			139569,
+			139554,
+			130966,
+			80057
+		],
+		"movementCapabilities": 1,
+		"name": "Arthur",
+		"quests": [
+			533
+		],
+		"respawnDirection": 6
+	},
+	{
+		"alwaysontop": true,
+		"animation_group": 2690,
+		"boundSize": 1,
+		"color_replacements": {
+			"16311": 3724,
+			"16323": 3728,
+			"16335": 33,
+			"16347": 3736,
+			"4533": 5667,
+			"4540": 5674,
+			"4550": 5681,
+			"4554": 5688,
+			"55232": 16,
+			"6798": 8
+		},
+		"combat": 0,
+		"headModels": [
+			39638,
+			141689
+		],
+		"id": 32878,
+		"models": [
+			27629,
+			246,
+			141504,
+			130973,
+			130966,
+			176,
+			80057
+		],
+		"movementCapabilities": 1,
+		"name": "Villager",
+		"quests": [
+			533
+		],
+		"respawnDirection": 6
+	},
+	{
+		"alwaysontop": true,
+		"animation_group": 2690,
+		"boundSize": 1,
+		"color_replacements": {
+			"14621": 4379,
+			"16311": 39432,
+			"16323": 39438,
+			"16335": 39447,
+			"16347": 39456,
+			"36897": 3364,
+			"36912": 3364,
+			"36957": 3364,
+			"4533": 4522,
+			"4540": 4529,
+			"4550": 4537,
+			"4554": 4545,
+			"55232": 6554,
+			"6798": 6798
+		},
+		"combat": 0,
+		"headModels": [
+			45015,
+			39227
+		],
+		"id": 32879,
+		"models": [
+			44914,
+			253,
+			141510,
+			136049,
+			135609,
+			141493,
+			176,
+			80057
+		],
+		"movementCapabilities": 1,
+		"name": "Villager",
+		"quests": [
+			533
+		],
+		"respawnDirection": 6,
+		"texture_replacements": {
+			"20498": 20495,
+			"21064": 21061
+		}
+	},
+	{
+		"alwaysontop": true,
+		"animation_group": 4889,
+		"boundSize": 2,
+		"color_replacements": {
+			"55232": 6820,
+			"6798": 6815
+		},
+		"combat": 26,
+		"extra": {
+			"attackrate": 6, // 14 chisel:attack_speed
+			"damagetype": 1, // 26 chisel:potion_effect_unk3
+			"attackbonus": 157, // 29 chisel:accuracy_melee_(npc)
+			"melee_strength": 4500, // 641 chisel:damage_melee
+			"combatv2_weakness": 1, // 2848 chisel:weakness
+			"combatv2_defence_weakest": 90, // 2849 chisel:weakness_modifier_weakness
+			"combatv2_defence_weakclass": 70, // 2850 chisel:weakness_modifier_weak
+			"combatv2_defence_sameclass": 60, // 2851 chisel:weakness_modifier_same
+			"combatv2_defence_strongclass": 50, // 2852 chisel:weakness_modifier_strong
+			"combatv2_npc_armour": 341 // 2865 chisel:armor
+		},
+		"headModels": [
+			121926
+		],
+		"id": 32880,
+		"models": [
+			139432,
+			139428,
+			139425,
+			139442,
+			139431,
+			139438
+		],
+		"movementCapabilities": 1,
+		"name": "Hill giant",
+		"quests": [
+			533
+		],
+		"respawnDirection": 0
+	},
+	{
+		"alwaysontop": true,
+		"animation_group": 4889,
+		"boundSize": 2,
+		"combat": 26,
+		"extra": {
+			"attackrate": 6, // 14 chisel:attack_speed
+			"damagetype": 1, // 26 chisel:potion_effect_unk3
+			"attackbonus": 157, // 29 chisel:accuracy_melee_(npc)
+			"melee_strength": 4500, // 641 chisel:damage_melee
+			"combatv2_weakness": 1, // 2848 chisel:weakness
+			"combatv2_defence_weakest": 90, // 2849 chisel:weakness_modifier_weakness
+			"combatv2_defence_weakclass": 70, // 2850 chisel:weakness_modifier_weak
+			"combatv2_defence_sameclass": 60, // 2851 chisel:weakness_modifier_same
+			"combatv2_defence_strongclass": 50, // 2852 chisel:weakness_modifier_strong
+			"combatv2_npc_armour": 341 // 2865 chisel:armor
+		},
+		"id": 32881,
+		"models": [
+			139432,
+			139428,
+			139438,
+			139431
+		],
+		"movementCapabilities": 1,
+		"name": "Hill giant",
+		"quests": [
+			533
+		]
+	},
+	{
+		"alwaysontop": true,
+		"animation_group": 4889,
+		"boundSize": 2,
+		"color_replacements": {
+			"55232": 28,
+			"6798": 16
+		},
+		"combat": 26,
+		"extra": {
+			"attackrate": 6, // 14 chisel:attack_speed
+			"damagetype": 1, // 26 chisel:potion_effect_unk3
+			"attackbonus": 157, // 29 chisel:accuracy_melee_(npc)
+			"melee_strength": 4500, // 641 chisel:damage_melee
+			"combatv2_weakness": 1, // 2848 chisel:weakness
+			"combatv2_defence_weakest": 90, // 2849 chisel:weakness_modifier_weakness
+			"combatv2_defence_weakclass": 70, // 2850 chisel:weakness_modifier_weak
+			"combatv2_defence_sameclass": 60, // 2851 chisel:weakness_modifier_same
+			"combatv2_defence_strongclass": 50, // 2852 chisel:weakness_modifier_strong
+			"combatv2_npc_armour": 341 // 2865 chisel:armor
+		},
+		"id": 32882,
+		"models": [
+			139432,
+			139428,
+			139415,
+			139438,
+			139444,
+			139429
+		],
+		"movementCapabilities": 1,
+		"name": "Hill giant",
+		"quests": [
+			533
+		],
+		"respawnDirection": 6
+	},
+	{
+		"alwaysontop": true,
+		"animation_group": 4905,
+		"boundSize": 1,
+		"combat": 0,
+		"id": 32883,
+		"models": [
+			140039
+		],
+		"movementCapabilities": 1,
+		"name": "Sanguine crawler",
+		"quests": [
+			533
+		],
+		"respawnDirection": 6,
+		"scaleXZ": 80,
+		"scaleY": 80
+	},
+	{
+		"alwaysontop": true,
+		"animation_group": 3557,
+		"boundSize": 1,
+		"combat": 0,
+		"headModels": [
+			22786
+		],
+		"id": 32884,
+		"models": [
+			106713
+		],
+		"movementCapabilities": 1,
+		"name": "Vampyre",
+		"quests": [
+			533
+		],
+		"respawnDirection": 2
+	},
+	{
+		"alwaysontop": true,
+		"animation_group": 4926,
+		"boundSize": 3,
+		"combat": 144,
+		"extra": {
+			"magicattack": 3290, // 3 chisel:accuracy_magic
+			"attackrate": 5, // 14 chisel:attack_speed
+			"damagetype": 3, // 26 chisel:potion_effect_unk3
+			"attackbonus": 2243, // 29 chisel:accuracy_melee_(npc)
+			"slayer_category": 197, // 50 chisel:slayer_task_id
+			"melee_strength": 24500, // 641 chisel:damage_melee
+			"magic_strength": 26000, // 965 chisel:damage_magic
+			"combatv2_attackmod": 13, // 2836 chisel:weakness_class
+			"combatv2_player_hiteffect": 1, // 2838
+			"combatv2_weakness": 9, // 2848 chisel:weakness
+			"combatv2_npc_armour": 3242, // 2865 chisel:armor
+			"combatv2_npc_xp_multiplier": 18, // 3318 chisel:combat_xp_multiplier_x10
+			"combatv2_default_attack_type": 1 // 8358
+		},
+		"id": 32885,
+		"models": [
+			146047,
+			146048
+		],
+		"movementCapabilities": 1,
+		"name": "Ravenous strigoi",
+		"quests": [
+			533
+		],
+		"respawnDirection": 2,
+		"scaleXZ": 96,
+		"scaleY": 96
+	},
+	{
+		"actions": [
+			"Track",
+			null,
+			null,
+			null,
+			null
+		],
+		"animation_group": 4902,
+		"boundSize": 1,
+		"color_replacements": {
+			"52501": 5681,
+			"52516": 4550,
+			"53534": 4537
+		},
+		"combat": 0,
+		"id": 32886,
+		"models": [
+			120081
+		],
+		"movementCapabilities": 1,
+		"name": "Dead bear",
+		"quests": [
+			533
+		],
+		"texture_replacements": {
+			"9167": 9172
+		}
+	},
+	{
+		"alwaysontop": true,
+		"animateIdle": false,
+		"boundSize": 1,
+		"combat": 0,
+		"drawMapDot": false,
+		"headModels": [
+			121926
+		],
+		"id": 32887,
+		"models": [
+			121926,
+			133502
+		],
+		"movementCapabilities": 1
+	},
+	{
+		"alwaysontop": true,
+		"animateIdle": false,
+		"boundSize": 1,
+		"combat": 0,
+		"drawMapDot": false,
+		"headModels": [
+			121926
+		],
+		"id": 32888,
+		"models": [
+			121926,
+			135372
+		],
+		"movementCapabilities": 1
+	},
+	{
+		"alwaysontop": true,
+		"animateIdle": false,
+		"boundSize": 1,
+		"combat": 0,
+		"drawMapDot": false,
+		"headModels": [
+			121926
+		],
+		"id": 32889,
+		"models": [
+			121926,
+			135616
+		],
+		"movementCapabilities": 1
+	},
+	{
+		"alwaysontop": true,
+		"animateIdle": false,
+		"boundSize": 1,
+		"combat": 0,
+		"drawMapDot": false,
+		"headModels": [
+			121926
+		],
+		"id": 32890,
+		"models": [
+			121926,
+			130396
+		],
+		"movementCapabilities": 1
+	},
+	{
+		"alwaysontop": true,
+		"animateIdle": false,
+		"boundSize": 1,
+		"combat": 0,
+		"drawMapDot": false,
+		"headModels": [
+			121926
+		],
+		"id": 32891,
+		"models": [
+			121926,
+			139263
+		],
+		"movementCapabilities": 1
+	},
+	{
+		"actions": [
+			null,
+			"Attack",
+			null,
+			null,
+			null
+		],
+		"animation_group": 4922,
+		"attackCursor": 42,
+		"boundSize": 3,
+		"color_replacements": {
+			"1308": 48140,
+			"54420": 54419,
+			"57550": 46131,
+			"59692": 62625,
+			"63438": 46108
+		},
+		"combat": 4914,
+		"extra": {
+			"magicattack": 1386, // 3 chisel:accuracy_magic
+			"rangeattack": 1386, // 4 chisel:accuracy_ranged
+			"attackrate": 5, // 14 chisel:attack_speed
+			"damagetype": 1, // 26 chisel:potion_effect_unk3
+			"attackbonus": 1386, // 29 chisel:accuracy_melee_(npc)
+			"melee_strength": 17500, // 641 chisel:damage_melee
+			"ranged_strength": 17500, // 643 chisel:damage_ranged
+			"magic_strength": 17500, // 965 chisel:damage_magic
+			"combatv2_attackmod": 13, // 2836 chisel:weakness_class
+			"combatv2_player_hiteffect": 1, // 2838
+			"combatv2_weakness": 2, // 2848 chisel:weakness
+			"combatv2_defence_weakclass": 65, // 2850 chisel:weakness_modifier_weak
+			"combatv2_defence_sameclass": 55, // 2851 chisel:weakness_modifier_same
+			"combatv2_defence_strongclass": 55, // 2852 chisel:weakness_modifier_strong
+			"combatv2_npc_min_hitchance": 300, // 2864 chisel:npc_min_hitchance
+			"combatv2_npc_armour": 1486, // 2865 chisel:armor
+			"combatv2_no_resettag": 1, // 2890 chisel:jmod_god_event_elite_spawn
+			"combatv2_npc_no_tag": 1, // 2892 chisel:no_tag
+			"combatv2_npc_xp_override": 100000, // 2893 chisel:custom_experience
+			"combatv2_npc_hide_healthbar": 1, // 6425
+			"health_headbar": 44, // 9114
+			"adrenaline_headbar": 43, // 9115
+			"progress_headbar": 46, // 9116
+			"timer_headbar": 45 // 9117
+		},
+		"headModels": [
+			145878
+		],
+		"id": 32892,
+		"models": [
+			145877,
+			145875
+		],
+		"movementCapabilities": 1,
+		"name": "Lady Karmina Ghrazi",
+		"priorityoffset": 10,
+		"quests": [
+			533
+		],
+		"scaleXZ": 224,
+		"scaleY": 224,
+		"texture_replacements": {
+			"24998": 24996
+		}
+	},
+	{
+		"actions": [
+			null,
+			"Attack",
+			null,
+			null,
+			null
+		],
+		"animation_group": 4923,
+		"attackCursor": 42,
+		"boundSize": 3,
+		"color_replacements": {
+			"48553": 46131,
+			"53673": 62625,
+			"54420": 54419,
+			"62887": 46108,
+			"64534": 48140
+		},
+		"combat": 4914,
+		"extra": {
+			"magicattack": 1824, // 3 chisel:accuracy_magic
+			"rangeattack": 1824, // 4 chisel:accuracy_ranged
+			"attackrate": 5, // 14 chisel:attack_speed
+			"damagetype": 3, // 26 chisel:potion_effect_unk3
+			"attackbonus": 1824, // 29 chisel:accuracy_melee_(npc)
+			"melee_strength": 17500, // 641 chisel:damage_melee
+			"ranged_strength": 17500, // 643 chisel:damage_ranged
+			"magic_strength": 17500, // 965 chisel:damage_magic
+			"combatv2_attackmod": 13, // 2836 chisel:weakness_class
+			"combatv2_player_hiteffect": 1, // 2838
+			"combatv2_weakness": 9, // 2848 chisel:weakness
+			"combatv2_defence_weakclass": 65, // 2850 chisel:weakness_modifier_weak
+			"combatv2_defence_sameclass": 55, // 2851 chisel:weakness_modifier_same
+			"combatv2_defence_strongclass": 55, // 2852 chisel:weakness_modifier_strong
+			"combatv2_npc_min_hitchance": 300, // 2864 chisel:npc_min_hitchance
+			"combatv2_npc_armour": 1486, // 2865 chisel:armor
+			"combatv2_no_resettag": 1, // 2890 chisel:jmod_god_event_elite_spawn
+			"combatv2_npc_no_tag": 1, // 2892 chisel:no_tag
+			"combatv2_npc_xp_override": 100000, // 2893 chisel:custom_experience
+			"combatv2_npc_hide_healthbar": 1, // 6425
+			"health_headbar": 44, // 9114
+			"adrenaline_headbar": 43, // 9115
+			"progress_headbar": 46, // 9116
+			"timer_headbar": 45 // 9117
+		},
+		"headModels": [
+			145881
+		],
+		"id": 32893,
+		"models": [
+			145880,
+			145876
+		],
+		"movementCapabilities": 1,
+		"name": "Lord Vasily Ghrazi",
+		"priorityoffset": 10,
+		"quests": [
+			533
+		],
+		"scaleXZ": 224,
+		"scaleY": 224,
+		"texture_replacements": {
+			"24999": 24997
+		}
+	},
+	{
+		"actions": [
+			null,
+			"Attack",
+			null,
+			null,
+			null
+		],
+		"animation_group": 4579,
+		"attackCursor": 42,
+		"boundSize": 1,
+		"color_replacements": {
+			"2862": 56716,
+			"2867": 56716,
+			"3768": 56716,
+			"8737": 56716
+		},
+		"combat": 500,
+		"extra": {
+			"combatv2_attackmod": 13, // 2836 chisel:weakness_class
+			"combatv2_player_hiteffect": 1 // 2838
+		},
+		"id": 32894,
+		"models": [
+			123742
+		],
+		"movementCapabilities": 1,
+		"name": "Sanguine tumour",
+		"priorityoffset": 6,
+		"scaleXZ": 160,
+		"scaleY": 160,
+		"texture_replacements": {
+			"14156": 23455
+		}
+	},
+	{
+		"animation_group": 4918,
+		"boundSize": 3,
+		"combat": 2134,
+		"extra": {
+			"combatv2_attackmod": 13, // 2836 chisel:weakness_class
+			"combatv2_player_hiteffect": 1, // 2838
+			"combatv2_no_resettag": 1, // 2890 chisel:jmod_god_event_elite_spawn
+			"combatv2_npc_no_tag": 1 // 2892 chisel:no_tag
+		},
+		"id": 32895,
+		"models": [
+			139447,
+			139451,
+			139448
+		],
+		"movementCapabilities": 1,
+		"name": "Sanguine heart",
+		"priorityoffset": 6,
+		"scaleXZ": 192,
+		"scaleY": 192
+	},
+	{
+		"action_cursors": [
+			60,
+			null,
+			null,
+			null,
+			null,
+			null
+		],
+		"actions": [
+			"Harpoon",
+			null,
+			null,
+			null,
+			null
+		],
+		"animation_group": 178,
+		"boundSize": 1,
+		"combat": 0,
+		"drawMapDot": false,
+		"id": 32896,
+		"models": [
+			121700
+		],
+		"movementCapabilities": 5,
+		"name": "Fishing spot",
+		"unknown_184": 5
+	},
+	{
+		"action_cursors": [
+			60,
+			null,
+			null,
+			null,
+			null,
+			null
+		],
+		"actions": [
+			"Harpoon",
+			null,
+			null,
+			null,
+			null
+		],
+		"animation_group": 178,
+		"boundSize": 1,
+		"combat": 0,
+		"drawMapDot": false,
+		"id": 32897,
+		"models": [
+			121700
+		],
+		"movementCapabilities": 5,
+		"name": "Fishing spot",
+		"unknown_184": 5
+	},
+	{
+		"action_cursors": [
+			60,
+			null,
+			null,
+			null,
+			null,
+			null
+		],
+		"actions": [
+			"Harpoon",
+			null,
+			null,
+			null,
+			null
+		],
+		"animation_group": 178,
+		"boundSize": 1,
+		"combat": 0,
+		"drawMapDot": false,
+		"id": 32898,
+		"models": [
+			121700
+		],
+		"movementCapabilities": 5,
+		"name": "Fishing spot",
+		"unknown_184": 5
+	},
+	{
+		"action_cursors": [
+			60,
+			null,
+			60,
+			null,
+			null,
+			null
+		],
+		"actions": [
+			"Lure",
+			null,
+			"Bait",
+			null,
+			null
+		],
+		"animation_group": 178,
+		"boundSize": 1,
+		"combat": 0,
+		"drawMapDot": false,
+		"id": 32899,
+		"models": [
+			121700
+		],
+		"movementCapabilities": 5,
+		"name": "Fishing spot",
+		"unknown_184": 5
+	},
+	{
+		"action_cursors": [
+			60,
+			null,
+			null,
+			null,
+			null,
+			null
+		],
+		"actions": [
+			"Cage",
+			null,
+			null,
+			null,
+			null
+		],
+		"animation_group": 178,
+		"boundSize": 1,
+		"combat": 0,
+		"drawMapDot": false,
+		"id": 32900,
+		"models": [
+			121700
+		],
+		"movementCapabilities": 5,
+		"name": "Fishing spot",
+		"unknown_184": 5
+	},
+	{
+		"action_cursors": [
+			60,
+			null,
+			null,
+			null,
+			null,
+			null
+		],
+		"actions": [
+			"Cage",
+			null,
+			null,
+			null,
+			null
+		],
+		"animation_group": 178,
+		"boundSize": 1,
+		"combat": 0,
+		"drawMapDot": false,
+		"id": 32901,
+		"models": [
+			121700
+		],
+		"movementCapabilities": 5,
+		"name": "Fishing spot",
+		"unknown_184": 5
+	},
+	{
+		"actions": [
+			null,
+			"Attack",
+			null,
+			null,
+			null
+		],
+		"animation_group": 4928,
+		"attackCursor": 42,
+		"boundSize": 2,
+		"color_replacements": {
+			"1226": 57413,
+			"30746": 51230,
+			"3119": 55308,
+			"3121": 51230,
+			"5293": 55313,
+			"6021": 3149,
+			"64835": 55313,
+			"6698": 65446,
+			"7223": 51247,
+			"8253": 57413,
+			"8298": 7269,
+			"9305": 3149
+		},
+		"combat": 120,
+		"extra": {
+			"attackrate": 4, // 14 chisel:attack_speed
+			"damagetype": 1, // 26 chisel:potion_effect_unk3
+			"attackbonus": 2358, // 29 chisel:accuracy_melee_(npc)
+			"slayer_category": 196, // 50 chisel:slayer_task_id
+			"melee_strength": 18000, // 641 chisel:damage_melee
+			"combatv2_attackmod": 13, // 2836 chisel:weakness_class
+			"combatv2_player_hiteffect": 1, // 2838
+			"combatv2_weakness": 3, // 2848 chisel:weakness
+			"combatv2_npc_armour": 2023, // 2865 chisel:armor
+			"combatv2_npc_xp_multiplier": 10, // 3318 chisel:combat_xp_multiplier_x10
+			"slayer_pod_fake_slayer_level": 72, // 7409
+			"combatv2_default_attack_type": 6 // 8358
+		},
+		"id": 32902,
+		"models": [
+			124208,
+			124214,
+			145883
+		],
+		"movementCapabilities": 3,
+		"name": "Sanguine werewolf",
+		"texture_replacements": {
+			"14220": 25003
+		}
+	},
+	{
+		"actions": [
+			null,
+			"Attack",
+			null,
+			null,
+			null
+		],
+		"animation_group": 4929,
+		"attackCursor": 42,
+		"boundSize": 3,
+		"color_replacements": {
+			"1226": 57413,
+			"30746": 51230,
+			"3119": 55308,
+			"3121": 51230,
+			"5293": 55313,
+			"6021": 3149,
+			"64835": 55313,
+			"6698": 65446,
+			"7223": 51247,
+			"8253": 57413,
+			"8298": 7269,
+			"9305": 3149
+		},
+		"combat": 141,
+		"extra": {
+			"attackrate": 4, // 14 chisel:attack_speed
+			"damagetype": 1, // 26 chisel:potion_effect_unk3
+			"attackbonus": 3365, // 29 chisel:accuracy_melee_(npc)
+			"slayer_category": 196, // 50 chisel:slayer_task_id
+			"melee_strength": 21000, // 641 chisel:damage_melee
+			"combatv2_attackmod": 13, // 2836 chisel:weakness_class
+			"combatv2_player_hiteffect": 1, // 2838
+			"combatv2_weakness": 3, // 2848 chisel:weakness
+			"combatv2_npc_armour": 2895, // 2865 chisel:armor
+			"combatv2_npc_xp_multiplier": 25, // 3318 chisel:combat_xp_multiplier_x10
+			"slayer_pod_fake_slayer_level": 72, // 7409
+			"combatv2_default_attack_type": 6 // 8358
+		},
+		"id": 32903,
+		"models": [
+			124208,
+			124214,
+			145883
+		],
+		"movementCapabilities": 3,
+		"name": "Sanguine Alpha",
+		"scaleXZ": 160,
+		"scaleY": 160,
+		"texture_replacements": {
+			"14220": 25003
+		}
+	},
+	{
+		"actions": [
+			null,
+			"Attack",
+			null,
+			null,
+			null
+		],
+		"animation_group": 4926,
+		"attackCursor": 42,
+		"boundSize": 3,
+		"combat": 144,
+		"extra": {
+			"magicattack": 3290, // 3 chisel:accuracy_magic
+			"attackrate": 5, // 14 chisel:attack_speed
+			"damagetype": 3, // 26 chisel:potion_effect_unk3
+			"attackbonus": 2243, // 29 chisel:accuracy_melee_(npc)
+			"slayer_category": 197, // 50 chisel:slayer_task_id
+			"melee_strength": 24500, // 641 chisel:damage_melee
+			"magic_strength": 26000, // 965 chisel:damage_magic
+			"combatv2_attackmod": 13, // 2836 chisel:weakness_class
+			"combatv2_player_hiteffect": 1, // 2838
+			"combatv2_weakness": 9, // 2848 chisel:weakness
+			"combatv2_npc_armour": 3242, // 2865 chisel:armor
+			"combatv2_npc_xp_multiplier": 12, // 3318 chisel:combat_xp_multiplier_x10
+			"combatv2_default_attack_type": 1 // 8358
+		},
+		"id": 32904,
+		"models": [
+			146047,
+			146048
+		],
+		"movementCapabilities": 3,
+		"name": "Ravenous strigoi",
+		"scaleXZ": 96,
+		"scaleY": 96
 	}
 ]

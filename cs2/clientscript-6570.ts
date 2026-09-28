@@ -675,6 +675,24 @@ function script6570(int0: number, int1: number, int2: number, int3: number, int4
                 };
                 break;
             }
+            case 53439: {
+                if ((int3 == 1)) {
+                    varclient_8483 = CLIENTCLOCK();
+                };
+                if ((int4 == 1)) {
+                    varclient_8484 = (((int2 - int1) * 30) + CLIENTCLOCK());
+                };
+                break;
+            }
+            case 53440: {
+                if ((int3 == 1)) {
+                    varclient_8485 = CLIENTCLOCK();
+                };
+                if ((int4 == 1)) {
+                    varclient_8486 = (((int2 - int1) * 30) + CLIENTCLOCK());
+                };
+                break;
+            }
             case 14663: {
                 if ((int3 == 1)) {
                     varclient_2167 = CLIENTCLOCK();
@@ -1135,6 +1153,15 @@ function script6570(int0: number, int1: number, int2: number, int3: number, int4
                 };
                 if ((int4 == 1)) {
                     varclient_8398 = (((int2 - int1) * 30) + CLIENTCLOCK());
+                };
+                break;
+            }
+            case 53444: {
+                if ((int3 == 1)) {
+                    varclient_8487 = CLIENTCLOCK();
+                };
+                if ((int4 == 1)) {
+                    varclient_8488 = (((int2 - int1) * 30) + CLIENTCLOCK());
                 };
                 break;
             }

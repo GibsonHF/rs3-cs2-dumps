@@ -1378,6 +1378,15 @@ function script11073(int0: number): number {
         case 3596: {
             return varclient_8481;
         }
+        case 53441: {
+            return varclient_8489;
+        }
+        case 53442: {
+            return varclient_8490;
+        }
+        case 53443: {
+            return varclient_8491;
+        }
     };
     return CLIENTCLOCK();
 }

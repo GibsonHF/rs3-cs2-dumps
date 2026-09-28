@@ -218,6 +218,12 @@ function script6506(int0: number): [number, number] {
         case 37205: {
             return [varclient_6609, varclient_6610];
         }
+        case 53439: {
+            return [varclient_8483, varclient_8484];
+        }
+        case 53440: {
+            return [varclient_8485, varclient_8486];
+        }
         case 14663: {
             return [varclient_2167, varclient_2168];
         }
@@ -363,6 +369,9 @@ function script6506(int0: number): [number, number] {
         case 45800:
         case 28927: {
             return [varclient_6991, varclient_6992];
+        }
+        case 53444: {
+            return [varclient_8487, varclient_8488];
         }
         case 51271: {
             return [varclient_8292, varclient_8293];

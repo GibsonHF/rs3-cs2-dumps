@@ -1,5 +1,6 @@
 //
 function script15411(int0: number): number {
+    var int1 = -1;
     if ((((struct_getparam(int0, 2806) == 29) && (struct_getparam(int0, 5542) != 11)) && (varbitplayer_53546 < 30))) {
         return 0;
     };
@@ -532,6 +533,16 @@ function script15411(int0: number): number {
         }
         case 52789: {
             return script5566(STAT_BASE(0 as stat), 75, 1);
+        }
+        default: {
+            if ((int0 != -1)) {
+                int1 = struct_getparam(int0, 9487);
+                if ((int1 != -1)) {
+                    return WORLDMAP_GETDISPLAYCOORD(int1);
+                };
+                return 1;
+            };
+            break;
         }
     };
     return 1;

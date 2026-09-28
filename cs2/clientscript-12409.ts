@@ -62,81 +62,11 @@ function script12409(int0: number): void {
                 int19 = 29494;
                 int20 = varbitplayer_23016;
             } else if ((int17 < (8 + 2))) {
-                int19 = -1;
-                while ((int19 == -1 as obj)) {
-                    if ((int25 < 8)) {
-                        int19 = INV_GETOBJ(795 as inv, int25);
-                        int20 = INV_GETNUM(795 as inv, int25);
-                        if (((int19 != -1 as obj) && (script20672(int19) == 0))) {
-                            int19 = -1;
-                        };
-                        int25 = (int25 + 1);
-                    };
-                    if ((int21 != -1)) {
-                        int26 = dbrow_getfield(int21, 270400, 0);
-                        int27 = dbrow_getfield(int21, 270384, 0);
-                        int20 = script14965(int21);
-                        if ((int21 == 2274)) {
-                            int20 = (int20 * 10);
-                        };
-                        if ((int26 != -1)) {
-                            CC_SETSIZE(36, 32, 0, 0);
-                            int27 = -1;
-                        } else {
-                            int26 = 41028;
-                        };
-                        script14982(int26, int20, push_array(MODULO(int18, int15)), ((int18 / int15) * int11));
-                        CC_SETONMOUSEOVER(callback(script3519, int21, -2147483645, -2147483643));
-                        if ((CC_FIND[1](int5, int17) == 1)) {
-                            CC_SETGRAPHIC[1](int27);
-                            if ((int27 != -1 as graphic)) {
-                                CC_SETPOSITION[1]((push_array(MODULO(int18, int15)) + 3), ((((int18 / int15) * int11) + 2) + 1), 0, 0);
-                                CC_SETSIZE[1](32, 32, 0, 0);
-                            };
-                        };
-                        string0 = dbrow_getfield(int21, 270464, 0);
-                        string1 = dbrow_getfield(int21, 270480, 0);
-                        if (((int26 != -1) && (int26 != 41028))) {
-                            CC_SETOPBASE(`${script4033(int26)}${OC_NAME(int26)}`);
-                        };
-                        if (((STRING_LENGTH(string0) != 0) || (STRING_LENGTH(string1) != 0))) {
-                            if ((STRING_LENGTH(string0) != 0)) {
-                                CC_SETOP(1, string0);
-                            };
-                            if ((STRING_LENGTH(string1) != 0)) {
-                                CC_SETOP(2, string1);
-                            };
-                            script10407();
-                        };
-                        if ((dbrow_getfield(int21, 270352, 0) == 1)) {
-                            CC_SETOP(3, "Withdraw");
-                            CC_SETOP(10, "Examine");
-                            script10407();
-                        };
-                        int18 = (int18 + 1);
-                    } else if ((int19 != -1 as obj)) {
-                        script14982(int19, int20, push_array(MODULO(int18, int15)), ((int18 / int15) * int11));
-                        script12410(int19);
-                        CC_SETONMOUSEREPEAT(callback(script12093, int19, 795, int17));
-                        if ((CC_FIND[1](int5, int17) == 1)) {
-                            CC_SETGRAPHIC[1](-1 as graphic);
-                        };
-                        int18 = (int18 + 1);
-                    } else {
-                        CC_SETGRAPHIC[1](-1 as graphic);
-                        CC_CLEAROPS();
-                        CC_SETOBJECT_NONUM(-1 as obj, 0);
-                        CC_SETGRAPHIC(-1 as graphic);
-                        CC_SETONMOUSEREPEAT(callback());
-                        CC_SETONMOUSEOVER(callback());
-                        if ((CC_FIND[1](int1, int17) == 1)) {
-                            CC_SETGRAPHIC[1](-1 as graphic);
-                        };
-                        if ((CC_FIND[1](int5, int17) == 1)) {
-                            CC_SETGRAPHIC[1](-1 as graphic);
-                        };
-                    };
-                    int17 = (int17 + 1);
+                int25 = (int17 - 2);
+                int19 = INV_GETOBJ(795 as inv, int25);
+                int20 = INV_GETNUM(795 as inv, int25);
+                if (((int19 != -1 as obj) && (script20672(int19) == 0))) {
+                    int19 = -1;
                 };
             } else {
                 int19 = -1;

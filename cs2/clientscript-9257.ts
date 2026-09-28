@@ -8,7 +8,7 @@ function script9257(int0: number, int1: number, int2: number): number {
             case 6821:
             case 7349:
             case 7350: {
-                if ((((int1 != 1436 as obj) && (int1 != 7936 as obj)) && (int1 != 55667 as obj))) {
+                if (((((int1 != 1436 as obj) && (int1 != 7936 as obj)) && (int1 != 55667 as obj)) && (int1 != 63938 as obj))) {
                     return 1;
                 };
                 break;
@@ -17,7 +17,9 @@ function script9257(int0: number, int1: number, int2: number): number {
                 return 1;
             }
             default: {
-                if ((((int1 == 1436 as obj) || (int1 == 7936 as obj)) || (int1 == 55667 as obj))) {
+                if (((int1 == 1436 as obj) || (int1 == 7936 as obj))) {
+                    return 1;
+                } else if (((int1 == 55667 as obj) && (int1 == 63938 as obj))) {
                     return 1;
                 };
                 break;

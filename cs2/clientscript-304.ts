@@ -11,9 +11,9 @@ function script304(int0: number): void {
     };
     script2046(93192193);
     varclient_2545 = "";
-    script308(93192292);
-    IF_SETTEXT(WORLDMAP_GETMAPNAME(int1), comp(1422, 94));  // worldmap_v2_ui:mapname
-    script41(93192266);
+    script308(93192293);
+    IF_SETTEXT(WORLDMAP_GETMAPNAME(int1), comp(1422, 95));  // worldmap_v2_ui:map_menu_arrow
+    script41(93192267);
     WORLDMAP_SETMAP_COORD_OVERRIDE(int1, int0);
     if ((HAS_HTML5() == 1)) {
         script8102(int1);

@@ -1,11 +1,15 @@
 //
 function script20677(int0: number, int1: number): [number, number, string] {
-    if ((int0 == -1)) {
-        return [-1, -1, ""];
+    switch (struct_getparam(int0, 9496)) {
+        case 1: {
+            return "Reduces damage from <col=00ffff>Sanguine</col> attacks by <col=00ffff>20%</col>.";
+        }
+        case 2: {
+            break;
+        }
+        default: {
+            return "";
+        }
     };
-    var int2 = -1;
-    var int3 = -1;
-    var string0 = "";
-    [int2, int3, string0] = dbrow_getfield(int0, 1441904, int1);
-    return [int2, int3, string0];
+    return "Reduces damage from <col=00ffff>Sanguine</col> attacks by <col=00ffff>40%</col>.";
 }

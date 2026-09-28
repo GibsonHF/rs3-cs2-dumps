@@ -45,7 +45,7 @@ function script13826(int0: number, int1: number, int2: number, int3: number): vo
         };
         if ((int6 == -1)) {
             if ((int7 == -1)) {
-                varclient_6707 = (1820 + 1);
+                varclient_6707 = (1920 + 1);
                 varclient_6708 = 0;
             } else {
                 if ((int14 == 1)) {
@@ -65,7 +65,7 @@ function script13826(int0: number, int1: number, int2: number, int3: number): vo
                         };
                         if (((int7 != -1) && (CC_FIND[1](comp(517, 201), int7) == 1))) {  // bank:bank_inv
                             if ((int6 == -1)) {
-                                varclient_6707 = (1820 + 1);
+                                varclient_6707 = (1920 + 1);
                                 varclient_6708 = 0;
                                 script13827(33882319);
                             };
@@ -98,7 +98,7 @@ function script13826(int0: number, int1: number, int2: number, int3: number): vo
                     };
                     if (((int7 != -1) && (CC_FIND[1](comp(517, 201), int7) == 1))) {  // bank:bank_inv
                         if ((int6 == -1)) {
-                            varclient_6707 = (1820 + 1);
+                            varclient_6707 = (1920 + 1);
                             varclient_6708 = 0;
                             script13827(33882319);
                         };

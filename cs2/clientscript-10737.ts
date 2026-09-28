@@ -190,8 +190,14 @@ function script10737(int0: number): [number, number, number] {
         case 173: {
             return [varbitplayer_53267, varbitplayer_53268, 96];
         }
+        case 184: {
+            return [varbitplayer_62017, varbitplayer_62016, 96];
+        }
         case 38: {
             return [varbitplayer_92, varbitplayer_93, 84];
+        }
+        case 183: {
+            return [varbitplayer_62014, varbitplayer_62015, 84];
         }
         case 43: {
             return [varbitplayer_124, varbitplayer_129, 94];

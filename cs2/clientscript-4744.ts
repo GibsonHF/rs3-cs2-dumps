@@ -99,6 +99,14 @@ function script4744(int0: number, int1: number): string {
             string0 = strconcat(string0, string1);
         };
     };
+    string1 = script20677(int0);
+    if ((STRING_LENGTH(string1) > 0)) {
+        if ((STRING_LENGTH(string0) > 0)) {
+            string0 = strconcat(string0, `<br>${string1}`);
+        } else {
+            string0 = strconcat(string0, string1);
+        };
+    };
     string1 = script5517(int0);
     if ((STRING_LENGTH(string1) > 0)) {
         if ((STRING_LENGTH(string0) > 0)) {

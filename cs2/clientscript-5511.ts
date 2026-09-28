@@ -230,84 +230,96 @@ function script5511(): void {
                 break;
             }
             case 36: {
+                string0 = "Ravenous strigoi";
+                int2 = varbitplayer_62019;
+                int3 = varbitplayer_62021;
+                break;
+            }
+            case 37: {
                 string0 = "Revenants";
                 int2 = varbitplayer_43665;
                 int3 = varbitplayer_43666;
                 break;
             }
-            case 37: {
+            case 38: {
                 string0 = "Ripper Demons";
                 int2 = varbitplayer_29819;
                 int3 = varbitplayer_29854;
                 break;
             }
-            case 38: {
+            case 39: {
                 string0 = "Rune dragons";
                 int2 = varbitplayer_28375;
                 int3 = varbitplayer_29851;
                 break;
             }
-            case 39: {
+            case 40: {
                 string0 = "Sanguine crawlers";
                 int2 = varbitplayer_60740;
                 int3 = varbitplayer_60741;
                 break;
             }
-            case 40: {
+            case 41: {
+                string0 = "Sanguine werewolves";
+                int2 = varbitplayer_62018;
+                int3 = varbitplayer_62020;
+                break;
+            }
+            case 42: {
                 string0 = "Shadow creatures";
                 int2 = varbitplayer_683;
                 int3 = varbitplayer_29848;
                 break;
             }
-            case 41: {
+            case 43: {
                 string0 = "Skeletal wyverns";
                 int2 = varbitplayer_22927;
                 int3 = varbitplayer_29828;
                 break;
             }
-            case 42: {
+            case 44: {
                 string0 = "Soul devourers";
                 int2 = varbitplayer_36175;
                 int3 = varbitplayer_36177;
                 break;
             }
-            case 43: {
+            case 45: {
                 string0 = "Spiritual mages";
                 int2 = varbitplayer_22934;
                 int3 = varbitplayer_29835;
                 break;
             }
-            case 44: {
+            case 46: {
                 string0 = "Stalker creatures";
                 int2 = varbitplayer_38935;
                 int3 = varbitplayer_38936;
                 break;
             }
-            case 45: {
+            case 47: {
                 string0 = "Terror dogs";
                 int2 = varbitplayer_22921;
                 int3 = varbitplayer_29822;
                 break;
             }
-            case 46: {
+            case 48: {
                 string0 = "Tormented demons";
                 int2 = varbitplayer_22941;
                 int3 = varbitplayer_29842;
                 break;
             }
-            case 47: {
+            case 49: {
                 string0 = "Vile blooms";
                 int2 = varbitplayer_44239;
                 int3 = varbitplayer_44240;
                 break;
             }
-            case 48: {
+            case 50: {
                 string0 = "Warped tortoises";
                 int2 = varbitplayer_22923;
                 int3 = varbitplayer_29824;
                 break;
             }
-            case 49: {
+            case 51: {
                 string0 = "Zemouregal's undead";
                 int2 = varbitplayer_52486;
                 int3 = varbitplayer_52487;

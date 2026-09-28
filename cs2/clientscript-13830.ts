@@ -16,7 +16,7 @@ function script13830(int0: number): void {
     var int6 = -1 as obj;
     var int7 = 0;
     var int8 = 0;
-    while ((int5 < 1820)) {
+    while ((int5 < 1920)) {
         int6 = INV_GETOBJ(95 as inv, int5);
         if ((int6 != -1 as obj)) {
             int7 = (int7 + 1);
@@ -33,10 +33,10 @@ function script13830(int0: number): void {
     var string0 = "Get more bank space!";
     var string1 = "Total number of bank spaces used and available.";
     var string2 = "";
-    if (((15 - int3) > 0)) {
+    if (((17 - int3) > 0)) {
         int10 = 0;
         if ((PLAYERMEMBER() == true)) {
-            string1 = `${string1}<br><br>You may purchase an additional ${inttostring(((15 - int3) * 50), 10)} bank spaces from the Store / Services tab in the Marketplace.`;
+            string1 = `${string1}<br><br>You may purchase an additional ${inttostring(((17 - int3) * 50), 10)} bank spaces from the Store / Services tab in the Marketplace.`;
         };
     };
     if (((1 - int4) > 0)) {

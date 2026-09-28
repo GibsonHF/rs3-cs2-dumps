@@ -931,6 +931,24 @@ function script7164(int0: number): string {
         case 331: {
             return "You must have completed the mystery: 'The Final Revolution'.";
         }
+        case 333: {
+            if ((varbitplayer_62096 == 0)) {
+                return "You must have learnt how to mix super antisanguine potions in the 'Heralds of Crimson' quest.";
+            };
+            break;
+        }
+        case 334: {
+            if ((varbitplayer_62095 < 3)) {
+                return "You must have learnt how to forge havensilver halberds in the 'Heralds of Crimson' quest.";
+            };
+            break;
+        }
+        case 335: {
+            if ((varbitplayer_62130 == 0)) {
+                return "You must have learnt how to make Bog 'n' Hog stew from Waterface in Linbog.";
+            };
+            break;
+        }
         default: {
             return "No requirement";
         }

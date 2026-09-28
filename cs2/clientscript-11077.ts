@@ -501,6 +501,12 @@ function script11077(int0: number): number {
         case 1869: {
             return varbitplayer_60643;
         }
+        default: {
+            if ((struct_getparam(int0, 9486) != -1 as var_reference)) {
+                return WORLDMAP_GETDISPLAYCOORD(struct_getparam(int0, 9486));
+            };
+            break;
+        }
     };
     return 0;
 }

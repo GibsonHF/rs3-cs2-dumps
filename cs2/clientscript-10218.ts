@@ -30,6 +30,11 @@ function script10218(): void {
             int3 = varplayer_12531;
             break;
         }
+        case 32892:
+        case 32893: {
+            int3 = varclient_8482;
+            break;
+        }
     };
     if (((npc_getparam(unk11077(), 4473) == 1) || (strcmp(inttostring(int3, 10), IF_GETTEXT(comp(1490, 34))) != 0))) {  // toplevel_v2_target_info:entity_health_left
         if ((npc_getparam(unk11077(), 4473) == 1)) {

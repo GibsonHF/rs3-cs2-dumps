@@ -19,7 +19,7 @@ function script9330(): void {
     var int12 = int2;
     var int13 = 0;
     var string0 = "";
-    while ((int12 < 1820)) {
+    while ((int12 < 1920)) {
         if ((CC_FIND(comp(517, 201), int12) == 1)) {  // bank:bank_inv
             CC_SETHIDE(true);
         };

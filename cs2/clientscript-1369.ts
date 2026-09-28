@@ -8,7 +8,7 @@ function script1369(int0: number, int1: number, int2: number, int3: number, int4
     if ((IF_FIND(comp(1477, 40)) == 1)) {  // toplevel_v2:camera_biglistener
         CC_SETNOCLICKTHROUGH(false);
     };
-    IF_SETONRESIZE(callback(script10421, -2147483645), comp(1422, 77));  // worldmap_v2_ui:bottom_bar_panel
+    IF_SETONRESIZE(callback(script10421, -2147483645), comp(1422, 78));  // worldmap_v2_ui:bottombar
     script343(int0, int1, int2, int3, int4, int5, int6, int7, int8, int9, int10);
     return;
 }

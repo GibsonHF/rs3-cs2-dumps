@@ -61830,6 +61830,54 @@
 	},
 	{
 		"extra": {
+			"combatv2_ability_name": "Dry Heat - The nearby braziers are drying the tree, making it easier to work.", // 2794 chisel:spell_name
+			"combatv2_ability_icon": 36580, // 2802 chisel:spell_prayer_ability_sprite
+			"combatv2_buff_type": 0, // 8109 chisel:is_burn
+			"combatv2_buff_uses_stacks": 1, // 8110
+			"combatv2_buff_category": 7, // 8114 chisel:buff_category
+			"combatv2_buff_priority": 50, // 8115 chisel:buff_priority
+			"extra_00250E": 13664 // 9486
+		},
+		"id": 4986
+	},
+	{
+		"id": 4987
+	},
+	{
+		"id": 4988
+	},
+	{
+		"id": 4989
+	},
+	{
+		"id": 4990
+	},
+	{
+		"id": 4991
+	},
+	{
+		"id": 4992
+	},
+	{
+		"id": 4993
+	},
+	{
+		"id": 4994
+	},
+	{
+		"id": 4995
+	},
+	{
+		"id": 4996
+	},
+	{
+		"id": 4997
+	},
+	{
+		"id": 4998
+	},
+	{
+		"extra": {
 			"toolbelt_category_name": "Slayer", // 6974
 			"toolbelt_category_button_on": 27923, // 6975
 			"toolbelt_category_button_over": 27977, // 6976
@@ -64981,6 +65029,9 @@
 			"skillguide_filter": 4 // 2220 chisel:skill_ui_subcategory
 		},
 		"id": 5272
+	},
+	{
+		"id": 5273
 	},
 	{
 		"id": 5274
@@ -96853,6 +96904,9 @@
 			"skillguide_filter": 6 // 2220 chisel:skill_ui_subcategory
 		},
 		"id": 9784
+	},
+	{
+		"id": 9785
 	},
 	{
 		"id": 9786
@@ -135758,6 +135812,33 @@
 		"id": 15435
 	},
 	{
+		"id": 15436
+	},
+	{
+		"id": 15437
+	},
+	{
+		"id": 15438
+	},
+	{
+		"id": 15439
+	},
+	{
+		"id": 15440
+	},
+	{
+		"id": 15441
+	},
+	{
+		"id": 15442
+	},
+	{
+		"id": 15443
+	},
+	{
+		"id": 15444
+	},
+	{
 		"extra": {
 			"skillguide_item": 25861, // 2213
 			"skillguide_skill": 11, // 2215
@@ -136291,6 +136372,27 @@
 	},
 	{
 		"id": 15516
+	},
+	{
+		"id": 15517
+	},
+	{
+		"id": 15518
+	},
+	{
+		"id": 15519
+	},
+	{
+		"id": 15520
+	},
+	{
+		"id": 15521
+	},
+	{
+		"id": 15522
+	},
+	{
+		"id": 15523
 	},
 	{
 		"extra": {
@@ -156422,6 +156524,36 @@
 		"id": 18712
 	},
 	{
+		"id": 18713
+	},
+	{
+		"id": 18714
+	},
+	{
+		"id": 18715
+	},
+	{
+		"id": 18716
+	},
+	{
+		"id": 18717
+	},
+	{
+		"id": 18718
+	},
+	{
+		"id": 18719
+	},
+	{
+		"id": 18720
+	},
+	{
+		"id": 18721
+	},
+	{
+		"id": 18722
+	},
+	{
 		"extra": {
 			"skillguide_name": "Death Lotus Armour", // 2210 chisel:skillguide_what
 			"skillguide_level": 90, // 2212 chisel:required_level?
@@ -157637,6 +157769,18 @@
 		"id": 19032
 	},
 	{
+		"id": 19033
+	},
+	{
+		"id": 19034
+	},
+	{
+		"id": 19035
+	},
+	{
+		"id": 19036
+	},
+	{
 		"extra": {
 			"task_name": "God Statues", // 1266 chisel:task_title
 			"task_area": 0, // 1267
@@ -158090,6 +158234,9 @@
 			"skillguide_info_ingredients": 1 // 5443
 		},
 		"id": 19081
+	},
+	{
+		"id": 19082
 	},
 	{
 		"extra": {
@@ -159662,7 +159809,6 @@
 			"combatv2_requires_target_foe": 0, // 3394
 			"combatv2_ability_effect_duration": 16, // 3740 chisel:ability_active_ticks
 			"combatv2_ability_icon_locked": 12390, // 4030
-			"combatv2_ability_icon_locked_mobile": 15600, // 4649
 			"combatv2_ability_unlock_description": "Unlocked by completing the quest 'The World Wakes'.", // 4650
 			"combatv2_spell_classification": 5, // 5542 chisel:ability_tab_id
 			"combatv2_buff_type": 0, // 8109 chisel:is_burn
@@ -159902,6 +160048,9 @@
 			"mtxmgt_parent_struct": 7271 // 4419 chisel:outfit_parent_vbId
 		},
 		"id": 19272
+	},
+	{
+		"id": 19273
 	},
 	{
 		"extra": {
@@ -161515,6 +161664,36 @@
 			"skillguide_info_ingredients": 1 // 5443
 		},
 		"id": 19452
+	},
+	{
+		"id": 19453
+	},
+	{
+		"id": 19454
+	},
+	{
+		"id": 19455
+	},
+	{
+		"id": 19456
+	},
+	{
+		"id": 19457
+	},
+	{
+		"id": 19458
+	},
+	{
+		"id": 19459
+	},
+	{
+		"id": 19460
+	},
+	{
+		"id": 19461
+	},
+	{
+		"id": 19462
 	},
 	{
 		"extra": {
@@ -163464,6 +163643,9 @@
 		"id": 19632
 	},
 	{
+		"id": 19633
+	},
+	{
 		"extra": {
 			"mtxrecol_recolour_rgb": 3956078, // 2502 chisel:rc_color_rgb
 			"mtxrecol_recolour_colour1": 36147, // 2503 chisel:rc_unk_2
@@ -163720,6 +163902,15 @@
 			"skillguide_filter": 4 // 2220 chisel:skill_ui_subcategory
 		},
 		"id": 19661
+	},
+	{
+		"id": 19662
+	},
+	{
+		"id": 19663
+	},
+	{
+		"id": 19664
 	},
 	{
 		"extra": {
@@ -183778,6 +183969,9 @@
 		"id": 23224
 	},
 	{
+		"id": 23225
+	},
+	{
 		"extra": {
 			"skillguide_name": "Elder longbow (sighted)", // 2210 chisel:skillguide_what
 			"skillguide_info": "Ammo: Arrows up to elder", // 2211 chisel:skillguide_req_items
@@ -183835,6 +184029,15 @@
 			"skillguide_filter": 3 // 2220 chisel:skill_ui_subcategory
 		},
 		"id": 23230
+	},
+	{
+		"id": 23231
+	},
+	{
+		"id": 23232
+	},
+	{
+		"id": 23233
 	},
 	{
 		"extra": {
@@ -187987,7 +188190,6 @@
 			"combatv2_abilityanim_enum": 8108, // 2915
 			"combatv2_requires_target_foe": 1, // 3394
 			"combatv2_ability_icon_locked": 12000, // 4030
-			"combatv2_ability_icon_locked_mobile": 15117, // 4649
 			"combatv2_ability_unlock_description": "Unlocked by completing the One Piercing Note quest.", // 4650
 			"combatv2_spell_classification": 5, // 5542 chisel:ability_tab_id
 			"combatv2_ability_icon_mobile": 3122, // 8120 chisel:spell_prayer_ability_mobile_sprite
@@ -188011,7 +188213,6 @@
 			"combatv2_requires_target_foe": 0, // 3394
 			"combatv2_ability_effect_duration": 10, // 3740 chisel:ability_active_ticks
 			"combatv2_ability_icon_locked": 12001, // 4030
-			"combatv2_ability_icon_locked_mobile": 15174, // 4649
 			"combatv2_ability_unlock_description": "Unlocked by completing the One Piercing Note quest.", // 4650
 			"combatv2_spell_classification": 5, // 5542 chisel:ability_tab_id
 			"combatv2_buff_type": 0, // 8109 chisel:is_burn
@@ -193324,6 +193525,9 @@
 			"skillguide_filter": 3 // 2220 chisel:skill_ui_subcategory
 		},
 		"id": 25015
+	},
+	{
+		"id": 25016
 	},
 	{
 		"extra": {
@@ -204994,6 +205198,9 @@
 		"id": 26382
 	},
 	{
+		"id": 26383
+	},
+	{
 		"extra": {
 			"skillguide_name": "Reefwalker's cape", // 2210 chisel:skillguide_what
 			"skillguide_level": 90, // 2212 chisel:required_level?
@@ -216192,7 +216399,6 @@
 			"combatv2_requires_target_foe": 0, // 3394
 			"combatv2_ability_effect_duration": 36, // 3740 chisel:ability_active_ticks
 			"combatv2_ability_icon_locked": 12393, // 4030
-			"combatv2_ability_icon_locked_mobile": 15944, // 4649
 			"combatv2_ability_unlock_description": "Unlocked by reading the Codex Ultimatus after the quest 'The Dig Site'.", // 4650
 			"combatv2_spell_classification": 5, // 5542 chisel:ability_tab_id
 			"combatv2_buff_type": 0, // 8109 chisel:is_burn
@@ -217257,6 +217463,12 @@
 		"id": 28266
 	},
 	{
+		"id": 28267
+	},
+	{
+		"id": 28268
+	},
+	{
 		"extra": {
 			"recipe_ingredient_type_1": 31422, // 2655 chisel:craft_item_1
 			"recipe_ingredient_type_2": 31421, // 2656 chisel:craft_item_2
@@ -218130,6 +218342,9 @@
 		"id": 28343
 	},
 	{
+		"id": 28344
+	},
+	{
 		"extra": {
 			"skillguide_name": "Brawler's jab necklace", // 2210 chisel:skillguide_what
 			"skillguide_level": 30, // 2212 chisel:required_level?
@@ -218348,6 +218563,9 @@
 			"slayer_pod_npc_anim": 17934 // 6604
 		},
 		"id": 28363
+	},
+	{
+		"id": 28364
 	},
 	{
 		"extra": {
@@ -222907,6 +223125,9 @@
 			"timed_event_daily_limit_ignore": 1 // 6644 chisel:isBarrows_Dharok
 		},
 		"id": 28717
+	},
+	{
+		"id": 28718
 	},
 	{
 		"extra": {
@@ -238626,6 +238847,9 @@
 		"id": 30143
 	},
 	{
+		"id": 30144
+	},
+	{
 		"extra": {
 			"task_name": "Hati and Sköll 2015", // 1266 chisel:task_title
 			"task_unique_id": 1259, // 1268
@@ -238658,6 +238882,9 @@
 			"mtxmgt_parent_struct": 30140 // 4419 chisel:outfit_parent_vbId
 		},
 		"id": 30147
+	},
+	{
+		"id": 30148
 	},
 	{
 		"extra": {
@@ -244591,6 +244818,9 @@
 		"id": 30512
 	},
 	{
+		"id": 30513
+	},
+	{
 		"extra": {
 			"skillguide_name": "Staff of darkness", // 2210 chisel:skillguide_what
 			"skillguide_level": 85, // 2212 chisel:required_level?
@@ -249994,6 +250224,54 @@
 		"id": 31201
 	},
 	{
+		"id": 31202
+	},
+	{
+		"id": 31203
+	},
+	{
+		"id": 31204
+	},
+	{
+		"id": 31205
+	},
+	{
+		"id": 31206
+	},
+	{
+		"id": 31207
+	},
+	{
+		"id": 31208
+	},
+	{
+		"id": 31209
+	},
+	{
+		"id": 31210
+	},
+	{
+		"id": 31211
+	},
+	{
+		"id": 31212
+	},
+	{
+		"id": 31213
+	},
+	{
+		"id": 31214
+	},
+	{
+		"id": 31215
+	},
+	{
+		"id": 31216
+	},
+	{
+		"id": 31217
+	},
+	{
 		"extra": {
 			"skillguide_name": "Great Maki", // 2210 chisel:skillguide_what
 			"skillguide_info": "To make: Carefully add seaweed to raw great white shark.", // 2211 chisel:skillguide_req_items
@@ -253110,6 +253388,9 @@
 		"id": 31515
 	},
 	{
+		"id": 31516
+	},
+	{
 		"extra": {
 			"spotlight_item": 42007, // 5067 chisel:thaler_offer_icon_itemId
 			"spotlight_item_price": 15, // 5069 chisel:thaler_offer_price
@@ -254605,7 +254886,6 @@
 			"combatv2_type_of_spell": 5, // 2880
 			"combatv2_abilityanim_enum": 10070, // 2915
 			"combatv2_ability_icon_locked": 12386, // 4030
-			"combatv2_ability_icon_locked_mobile": 15593, // 4649
 			"combatv2_ability_unlock_description": "Unlocked by reading an ability codex dropped from either airut or beastmaster's hounds, or purchased directly from the Armoursmith on Mazcab.", // 4650
 			"combatv2_impactanim_enum": 10071, // 5112
 			"combatv2_spell_classification": 5, // 5542 chisel:ability_tab_id
@@ -256989,14 +257269,16 @@
 	{
 		"extra": {
 			"mtxmgt_category": 6, // 2531 chisel:solomons_category
-			"mtxmgt_name": "Bank Booster +50" // 2533 chisel:SGS_name
+			"mtxmgt_name": "Bank Booster +50", // 2533 chisel:SGS_name
+			"mtxmgt_pos_string": "rs:services:bankbooster15" // 4592
 		},
 		"id": 31870
 	},
 	{
 		"extra": {
 			"mtxmgt_category": 6, // 2531 chisel:solomons_category
-			"mtxmgt_name": "Bank Booster +50" // 2533 chisel:SGS_name
+			"mtxmgt_name": "Bank Booster +50", // 2533 chisel:SGS_name
+			"mtxmgt_pos_string": "rs:services:bankbooster16" // 4592
 		},
 		"id": 31871
 	},
@@ -258245,7 +258527,6 @@
 			"combatv2_abilityanim_enum": 10236, // 2915
 			"combatv2_travel_projanim": 5704, // 2940
 			"combatv2_ability_icon_locked": 12387, // 4030
-			"combatv2_ability_icon_locked_mobile": 15598, // 4649
 			"combatv2_ability_unlock_description": "Unlocked by reading either the Storm Shards and Shatter ability codexes, or the Mazcab ability codex.", // 4650
 			"combatv2_ability_req_any_weapon": 1, // 5195
 			"combatv2_spell_classification": 5, // 5542 chisel:ability_tab_id
@@ -258277,7 +258558,6 @@
 			"combatv2_impact_spotanim": 5707, // 2933
 			"combatv2_travel_projanim": 5709, // 2940
 			"combatv2_ability_icon_locked": 12388, // 4030
-			"combatv2_ability_icon_locked_mobile": 15599, // 4649
 			"combatv2_ability_unlock_description": "Unlocked by reading either the Storm Shards and Shatter ability codexes, or the Mazcab ability codex.", // 4650
 			"combatv2_ability_no_hero_damage": 1, // 5193
 			"combatv2_ability_req_any_weapon": 1, // 5195
@@ -258306,7 +258586,6 @@
 			"combatv2_type_of_spell": 5, // 2880
 			"combatv2_abilityanim_enum": 10235, // 2915
 			"combatv2_ability_icon_locked": 12392, // 4030
-			"combatv2_ability_icon_locked_mobile": 15943, // 4649
 			"combatv2_ability_unlock_description": "Unlocked by reading either the Onslaught ability codex or the Mazcab ability codex.", // 4650
 			"combatv2_ability_manually_removes_adrenaline": 1, // 5194
 			"combatv2_ability_req_any_weapon": 1, // 5195
@@ -259419,6 +259698,54 @@
 			"skillguide_filter": 15 // 2220 chisel:skill_ui_subcategory
 		},
 		"id": 32076
+	},
+	{
+		"id": 32077
+	},
+	{
+		"id": 32078
+	},
+	{
+		"id": 32079
+	},
+	{
+		"id": 32080
+	},
+	{
+		"id": 32081
+	},
+	{
+		"id": 32082
+	},
+	{
+		"id": 32083
+	},
+	{
+		"id": 32084
+	},
+	{
+		"id": 32085
+	},
+	{
+		"id": 32086
+	},
+	{
+		"id": 32087
+	},
+	{
+		"id": 32088
+	},
+	{
+		"id": 32089
+	},
+	{
+		"id": 32090
+	},
+	{
+		"id": 32091
+	},
+	{
+		"id": 32092
 	},
 	{
 		"extra": {
@@ -262618,6 +262945,26 @@
 			"skillguide_filter": 6 // 2220 chisel:skill_ui_subcategory
 		},
 		"id": 32368
+	},
+	{
+		"id": 32369
+	},
+	{
+		"extra": {
+			"activity_progress_bar_name": "The Ghrazi Blood Knights", // 8849 chisel:boss_bar_boss_name
+			"activity_progress_bar_max_progress": 1000000, // 8850 chisel:boss_bar_boss_health
+			"activity_progress_bar_variable_progress": 1, // 8851
+			"activity_progress_bar_marker_1_pos": 60, // 8853
+			"activity_progress_bar_marker_2_pos": 30, // 8854
+			"activity_progress_bar_progress_markers": 1, // 8859
+			"activity_progress_bar_area": 2938, // 8863
+			"activity_progress_bar_suboverlay": 1181, // 8865
+			"activity_progress_bar_data_type": 2 // 8867
+		},
+		"id": 32370
+	},
+	{
+		"id": 32371
 	},
 	{
 		"extra": {
@@ -276387,7 +276734,6 @@
 			"combatv2_requires_target_foe": 0, // 3394
 			"combatv2_ability_effect_duration": 10, // 3740 chisel:ability_active_ticks
 			"combatv2_ability_icon_locked": 12391, // 4030
-			"combatv2_ability_icon_locked_mobile": 15942, // 4649
 			"combatv2_ability_unlock_description": "Unlocked by reading the Reprisal ability codex.", // 4650
 			"combatv2_spell_classification": 5, // 5542 chisel:ability_tab_id
 			"combatv2_buff_type": 0, // 8109 chisel:is_burn
@@ -319108,7 +319454,6 @@
 			"combatv2_ability_effect_duration": 10, // 3740 chisel:ability_active_ticks
 			"combatv2_ability_icon_locked": 12131, // 4030
 			"combatv2_ability_cooldown_zero": 1, // 4499
-			"combatv2_ability_icon_locked_mobile": 15175, // 4649
 			"combatv2_ability_unlock_description": "Unlocked by reading the Ingenuity of the Humans ability codex.", // 4650
 			"combatv2_spell_classification": 5, // 5542 chisel:ability_tab_id
 			"combatv2_ignore_gcd_no_adrenaline": 1, // 5550
@@ -319137,7 +319482,6 @@
 			"combatv2_ability_effect_duration": 17, // 3740 chisel:ability_active_ticks
 			"combatv2_ability_icon_locked": 12132, // 4030
 			"combatv2_ability_cooldown_zero": 1, // 4499
-			"combatv2_ability_icon_locked_mobile": 15176, // 4649
 			"combatv2_ability_unlock_description": "Unlocked by reading the Demon Slayer ability codex.", // 4650
 			"combatv2_spell_classification": 5, // 5542 chisel:ability_tab_id
 			"combatv2_ignore_gcd_no_adrenaline": 1, // 5550
@@ -319166,7 +319510,6 @@
 			"combatv2_ability_effect_duration": 17, // 3740 chisel:ability_active_ticks
 			"combatv2_ability_icon_locked": 12133, // 4030
 			"combatv2_ability_cooldown_zero": 1, // 4499
-			"combatv2_ability_icon_locked_mobile": 15177, // 4649
 			"combatv2_ability_unlock_description": "Unlocked by reading the Dragon Slayer ability codex.", // 4650
 			"combatv2_spell_classification": 5, // 5542 chisel:ability_tab_id
 			"combatv2_ignore_gcd_no_adrenaline": 1, // 5550
@@ -319195,7 +319538,6 @@
 			"combatv2_ability_effect_duration": 17, // 3740 chisel:ability_active_ticks
 			"combatv2_ability_icon_locked": 12134, // 4030
 			"combatv2_ability_cooldown_zero": 1, // 4499
-			"combatv2_ability_icon_locked_mobile": 15358, // 4649
 			"combatv2_ability_unlock_description": "Unlocked by reading the Undead Slayer ability codex.", // 4650
 			"combatv2_spell_classification": 5, // 5542 chisel:ability_tab_id
 			"combatv2_ignore_gcd_no_adrenaline": 1, // 5550
@@ -319224,7 +319566,6 @@
 			"combatv2_ability_effect_duration": 10, // 3740 chisel:ability_active_ticks
 			"combatv2_ability_icon_locked": 12150, // 4030
 			"combatv2_ability_cooldown_zero": 1, // 4499
-			"combatv2_ability_icon_locked_mobile": 15359, // 4649
 			"combatv2_ability_unlock_description": "Unlocked by reading the Limitless ability codex.", // 4650
 			"combatv2_spell_classification": 5, // 5542 chisel:ability_tab_id
 			"combatv2_ignore_gcd_no_adrenaline": 1, // 5550
@@ -319253,7 +319594,6 @@
 			"combatv2_ability_effect_duration": 50, // 3740 chisel:ability_active_ticks
 			"combatv2_ability_icon_locked": 12160, // 4030
 			"combatv2_ability_cooldown_zero": 1, // 4499
-			"combatv2_ability_icon_locked_mobile": 15360, // 4649
 			"combatv2_ability_unlock_description": "Unlocked from the Shattered Worlds Reward Shop for 90,000,000 anima.", // 4650
 			"combatv2_spell_classification": 5, // 5542 chisel:ability_tab_id
 			"combatv2_ignore_gcd_no_adrenaline": 1, // 5550
@@ -319281,7 +319621,6 @@
 			"combatv2_ability_effect_duration": 50, // 3740 chisel:ability_active_ticks
 			"combatv2_ability_icon_locked": 12385, // 4030
 			"combatv2_ability_cooldown_zero": 1, // 4499
-			"combatv2_ability_icon_locked_mobile": 15361, // 4649
 			"combatv2_ability_unlock_description": "Unlocked from the Shattered Worlds Reward Shop for 90,000,000 anima.", // 4650
 			"combatv2_spell_classification": 5, // 5542 chisel:ability_tab_id
 			"combatv2_ignore_gcd_no_adrenaline": 1, // 5550
@@ -326804,6 +327143,211 @@
 		"id": 37865
 	},
 	{
+		"id": 37866
+	},
+	{
+		"id": 37867
+	},
+	{
+		"extra": {
+			"settings_label": "Arachnophobia Warning", // 7527 chisel:game_settings_caption
+			"cws_id": 55 // 7538 chisel:doomsayer_toggle_id
+		},
+		"id": 37868
+	},
+	{
+		"extra": {
+			"skillguide_name": "Heathervein river log balance shortcut", // 2210 chisel:skillguide_what
+			"skillguide_level": 63, // 2212 chisel:required_level?
+			"skillguide_item": 6515, // 2213
+			"skillguide_skill": 8, // 2215
+			"skillguide_members": 1, // 2217 chisel:skillguide_is_members
+			"skillguide_filter": 4 // 2220 chisel:skill_ui_subcategory
+		},
+		"id": 37869
+	},
+	{
+		"extra": {
+			"skillguide_name": "Heathervein river stone pillar shortcut", // 2210 chisel:skillguide_what
+			"skillguide_level": 73, // 2212 chisel:required_level?
+			"skillguide_item": 6515, // 2213
+			"skillguide_skill": 8, // 2215
+			"skillguide_members": 1, // 2217 chisel:skillguide_is_members
+			"skillguide_filter": 4 // 2220 chisel:skill_ui_subcategory
+		},
+		"id": 37870
+	},
+	{
+		"extra": {
+			"skillguide_name": "Berylbrook stepping stone shortcut", // 2210 chisel:skillguide_what
+			"skillguide_level": 72, // 2212 chisel:required_level?
+			"skillguide_item": 6514, // 2213
+			"skillguide_skill": 8, // 2215
+			"skillguide_members": 1, // 2217 chisel:skillguide_is_members
+			"skillguide_filter": 4 // 2220 chisel:skill_ui_subcategory
+		},
+		"id": 37871
+	},
+	{
+		"extra": {
+			"skillguide_name": "South Fenmoor log balance shortcut", // 2210 chisel:skillguide_what
+			"skillguide_level": 83, // 2212 chisel:required_level?
+			"skillguide_item": 6515, // 2213
+			"skillguide_skill": 8, // 2215
+			"skillguide_members": 1, // 2217 chisel:skillguide_is_members
+			"skillguide_filter": 4 // 2220 chisel:skill_ui_subcategory
+		},
+		"id": 37872
+	},
+	{
+		"extra": {
+			"skillguide_name": "Fenmoor stepping stones shortcut", // 2210 chisel:skillguide_what
+			"skillguide_level": 81, // 2212 chisel:required_level?
+			"skillguide_item": 6514, // 2213
+			"skillguide_skill": 8, // 2215
+			"skillguide_members": 1, // 2217 chisel:skillguide_is_members
+			"skillguide_filter": 4 // 2220 chisel:skill_ui_subcategory
+		},
+		"id": 37873
+	},
+	{
+		"extra": {
+			"skillguide_name": "Northeast Fenmoor log balance shortcut", // 2210 chisel:skillguide_what
+			"skillguide_level": 79, // 2212 chisel:required_level?
+			"skillguide_item": 6515, // 2213
+			"skillguide_skill": 8, // 2215
+			"skillguide_members": 1, // 2217 chisel:skillguide_is_members
+			"skillguide_filter": 4 // 2220 chisel:skill_ui_subcategory
+		},
+		"id": 37874
+	},
+	{
+		"extra": {
+			"skillguide_name": "Combat ability: Vampyre slayer", // 2210 chisel:skillguide_what
+			"skillguide_info": "Unlocked by reading the Vampyre slayer ability codex.", // 2211 chisel:skillguide_req_items
+			"skillguide_level": 82, // 2212 chisel:required_level?
+			"skillguide_item_graphic": 36568, // 2214
+			"skillguide_skill": 6, // 2215
+			"skillguide_members": 1, // 2217 chisel:skillguide_is_members
+			"skillguide_filter": 3 // 2220 chisel:skill_ui_subcategory
+		},
+		"id": 37875
+	},
+	{
+		"extra": {
+			"skillguide_name": "Combat ability: Vital drain", // 2210 chisel:skillguide_what
+			"skillguide_info": "Unlocked by reading the Vital drain ability codex.", // 2211 chisel:skillguide_req_items
+			"skillguide_level": 74, // 2212 chisel:required_level?
+			"skillguide_item_graphic": 36568, // 2214
+			"skillguide_skill": 6, // 2215
+			"skillguide_members": 1, // 2217 chisel:skillguide_is_members
+			"skillguide_filter": 3 // 2220 chisel:skill_ui_subcategory
+		},
+		"id": 37876
+	},
+	{
+		"extra": {
+			"skillguide_name": "Hogfish", // 2210 chisel:skillguide_what
+			"skillguide_level": 69, // 2212 chisel:required_level?
+			"skillguide_item": 64009, // 2213
+			"skillguide_skill": 16, // 2215
+			"skillguide_members": 1, // 2217 chisel:skillguide_is_members
+			"skillguide_filter": 2 // 2220 chisel:skill_ui_subcategory
+		},
+		"id": 37877
+	},
+	{
+		"extra": {
+			"skillguide_name": "Stop burning hogfish", // 2210 chisel:skillguide_what
+			"skillguide_level": 85, // 2212 chisel:required_level?
+			"skillguide_item": 64013, // 2213
+			"skillguide_skill": 16, // 2215
+			"skillguide_members": 1, // 2217 chisel:skillguide_is_members
+			"skillguide_filter": 5 // 2220 chisel:skill_ui_subcategory
+		},
+		"id": 37878
+	},
+	{
+		"extra": {
+			"skillguide_name": "Stop burning hogfish when using cooking gauntlets", // 2210 chisel:skillguide_what
+			"skillguide_level": 81, // 2212 chisel:required_level?
+			"skillguide_item": 64013, // 2213
+			"skillguide_skill": 16, // 2215
+			"skillguide_extrareq": "Quest requirement: Family Crest", // 2216 chisel:skillguide_req_extra
+			"skillguide_members": 1, // 2217 chisel:skillguide_is_members
+			"skillguide_filter": 5 // 2220 chisel:skill_ui_subcategory
+		},
+		"id": 37879
+	},
+	{
+		"extra": {
+			"skillguide_name": "Claret crab", // 2210 chisel:skillguide_what
+			"skillguide_level": 56, // 2212 chisel:required_level?
+			"skillguide_item": 64014, // 2213
+			"skillguide_skill": 16, // 2215
+			"skillguide_members": 1, // 2217 chisel:skillguide_is_members
+			"skillguide_filter": 2 // 2220 chisel:skill_ui_subcategory
+		},
+		"id": 37880
+	},
+	{
+		"extra": {
+			"skillguide_name": "Stop burning claret crab", // 2210 chisel:skillguide_what
+			"skillguide_level": 78, // 2212 chisel:required_level?
+			"skillguide_item": 64018, // 2213
+			"skillguide_skill": 16, // 2215
+			"skillguide_members": 1, // 2217 chisel:skillguide_is_members
+			"skillguide_filter": 5 // 2220 chisel:skill_ui_subcategory
+		},
+		"id": 37881
+	},
+	{
+		"extra": {
+			"skillguide_name": "Stop burning claret crab when using cooking gauntlets", // 2210 chisel:skillguide_what
+			"skillguide_level": 74, // 2212 chisel:required_level?
+			"skillguide_item": 64018, // 2213
+			"skillguide_skill": 16, // 2215
+			"skillguide_extrareq": "Quest requirement: Family Crest", // 2216 chisel:skillguide_req_extra
+			"skillguide_members": 1, // 2217 chisel:skillguide_is_members
+			"skillguide_filter": 5 // 2220 chisel:skill_ui_subcategory
+		},
+		"id": 37882
+	},
+	{
+		"extra": {
+			"skillguide_name": "Bog 'n' Hog stew", // 2210 chisel:skillguide_what
+			"skillguide_info": "To make:<br>1. Obtain a bowl and fill with water from a water source<br>2. Pick a bogwart and place in the bowl<br>3. Add some cooked hogfish and claret crab to the bowl<br>4. Cook on stove or fire", // 2211 chisel:skillguide_req_items
+			"skillguide_level": 75, // 2212 chisel:required_level?
+			"skillguide_item": 63878, // 2213
+			"skillguide_skill": 16, // 2215
+			"skillguide_extrareq": "Requirement: Learned from Waterface in Linbog", // 2216 chisel:skillguide_req_extra
+			"skillguide_filter": 4 // 2220 chisel:skill_ui_subcategory
+		},
+		"id": 37883
+	},
+	{
+		"extra": {
+			"skillguide_info": "Process essence lumps into essence", // 2211 chisel:skillguide_req_items
+			"skillguide_level": 51, // 2212 chisel:required_level?
+			"skillguide_item": 63926, // 2213
+			"skillguide_skill": 11, // 2215
+			"skillguide_members": 1, // 2217 chisel:skillguide_is_members
+			"skillguide_filter": 6 // 2220 chisel:skill_ui_subcategory
+		},
+		"id": 37884
+	},
+	{
+		"extra": {
+			"skillguide_info": "Process essence chunks into essence", // 2211 chisel:skillguide_req_items
+			"skillguide_level": 71, // 2212 chisel:required_level?
+			"skillguide_item": 63927, // 2213
+			"skillguide_skill": 11, // 2215
+			"skillguide_members": 1, // 2217 chisel:skillguide_is_members
+			"skillguide_filter": 6 // 2220 chisel:skill_ui_subcategory
+		},
+		"id": 37885
+	},
+	{
 		"extra": {
 			"clock_events_header_category": 201, // 5799
 			"clock_events_date": 130324, // 6045 chisel:date-ddmmyy
@@ -326820,6 +327364,17 @@
 			"clock_events_runeday": 8050 // 7184
 		},
 		"id": 37886
+	},
+	{
+		"extra": {
+			"skillguide_info": "Process essence slabs into essence", // 2211 chisel:skillguide_req_items
+			"skillguide_level": 91, // 2212 chisel:required_level?
+			"skillguide_item": 63928, // 2213
+			"skillguide_skill": 11, // 2215
+			"skillguide_members": 1, // 2217 chisel:skillguide_is_members
+			"skillguide_filter": 6 // 2220 chisel:skill_ui_subcategory
+		},
+		"id": 37887
 	},
 	{
 		"extra": {
@@ -326853,6 +327408,89 @@
 			"skillguide_filter": 3 // 2220 chisel:skill_ui_subcategory
 		},
 		"id": 37890
+	},
+	{
+		"extra": {
+			"skillguide_name": "Colossi Divination", // 2210 chisel:skillguide_what
+			"skillguide_level": 77, // 2212 chisel:required_level?
+			"skillguide_item": 63916, // 2213
+			"skillguide_skill": 26, // 2215
+			"skillguide_members": 1, // 2217 chisel:skillguide_is_members
+			"skillguide_is_milestone": 1, // 2218
+			"skillguide_filter": 8 // 2220 chisel:skill_ui_subcategory
+		},
+		"id": 37891
+	},
+	{
+		"extra": {
+			"skillguide_name": "Mourning Lily", // 2210 chisel:skillguide_what
+			"skillguide_level": 96, // 2212 chisel:required_level?
+			"skillguide_item": 63992, // 2213
+			"skillguide_skill": 21, // 2215
+			"skillguide_members": 1, // 2217 chisel:skillguide_is_members
+			"skillguide_filter": 9 // 2220 chisel:skill_ui_subcategory
+		},
+		"id": 37892
+	},
+	{
+		"extra": {
+			"skillguide_name": "Bogwart", // 2210 chisel:skillguide_what
+			"skillguide_level": 69, // 2212 chisel:required_level?
+			"skillguide_item": 63990, // 2213
+			"skillguide_skill": 21, // 2215
+			"skillguide_members": 1, // 2217 chisel:skillguide_is_members
+			"skillguide_is_milestone": 1, // 2218
+			"skillguide_filter": 9 // 2220 chisel:skill_ui_subcategory
+		},
+		"id": 37893
+	},
+	{
+		"extra": {
+			"skillguide_name": "Hogfish - Harpoon fishing", // 2210 chisel:skillguide_what
+			"skillguide_info": "Locations:<br>- East Havenhythe", // 2211 chisel:skillguide_req_items
+			"skillguide_level": 69, // 2212 chisel:required_level?
+			"skillguide_item": 64011, // 2213
+			"skillguide_skill": 15, // 2215
+			"skillguide_members": 1, // 2217 chisel:skillguide_is_members
+			"skillguide_is_milestone": 1, // 2218
+			"skillguide_filter": 3 // 2220 chisel:skill_ui_subcategory
+		},
+		"id": 37894
+	},
+	{
+		"extra": {
+			"skillguide_name": "Claret Crab - Lobster pot fishing", // 2210 chisel:skillguide_what
+			"skillguide_info": "Locations:<br>- Fenmoor", // 2211 chisel:skillguide_req_items
+			"skillguide_level": 56, // 2212 chisel:required_level?
+			"skillguide_item": 64016, // 2213
+			"skillguide_skill": 15, // 2215
+			"skillguide_members": 1, // 2217 chisel:skillguide_is_members
+			"skillguide_is_milestone": 1, // 2218
+			"skillguide_filter": 3 // 2220 chisel:skill_ui_subcategory
+		},
+		"id": 37895
+	},
+	{
+		"extra": {
+			"skillguide_name": "Fenmoor totem (toad)", // 2210 chisel:skillguide_what
+			"skillguide_level": 65, // 2212 chisel:required_level?
+			"skillguide_item": 63898, // 2213
+			"skillguide_skill": 19, // 2215
+			"skillguide_members": 1, // 2217 chisel:skillguide_is_members
+			"skillguide_filter": 7 // 2220 chisel:skill_ui_subcategory
+		},
+		"id": 37896
+	},
+	{
+		"extra": {
+			"skillguide_name": "Fenmoor totem (mollusc)", // 2210 chisel:skillguide_what
+			"skillguide_level": 85, // 2212 chisel:required_level?
+			"skillguide_item": 63899, // 2213
+			"skillguide_skill": 19, // 2215
+			"skillguide_members": 1, // 2217 chisel:skillguide_is_members
+			"skillguide_filter": 7 // 2220 chisel:skill_ui_subcategory
+		},
+		"id": 37897
 	},
 	{
 		"extra": {
@@ -336747,6 +337385,17 @@
 	},
 	{
 		"extra": {
+			"skillguide_name": "Fenmoor totem (elemental)", // 2210 chisel:skillguide_what
+			"skillguide_level": 105, // 2212 chisel:required_level?
+			"skillguide_item": 63900, // 2213
+			"skillguide_skill": 19, // 2215
+			"skillguide_members": 1, // 2217 chisel:skillguide_is_members
+			"skillguide_filter": 7 // 2220 chisel:skill_ui_subcategory
+		},
+		"id": 38765
+	},
+	{
+		"extra": {
 			"task_name": "Ghost Stories of Gielinor", // 1266 chisel:task_title
 			"task_unique_id": 1260, // 1268
 			"task_next_id": 349, // 1269
@@ -337350,6 +337999,19 @@
 			"toplevel_v2_window_prevent_clickthrough": 0 // 3734
 		},
 		"id": 38865
+	},
+	{
+		"extra": {
+			"skillguide_info": "Ingredients: Kwuarm & exalted essence", // 2211 chisel:skillguide_req_items
+			"skillguide_level": 55, // 2212 chisel:required_level?
+			"skillguide_item": 64021, // 2213
+			"skillguide_skill": 9, // 2215
+			"skillguide_extrareq": "Quest Requirement: Heralds of Crimson", // 2216 chisel:skillguide_req_extra
+			"skillguide_members": 1, // 2217 chisel:skillguide_is_members
+			"skillguide_is_milestone": 1, // 2218
+			"skillguide_filter": 3 // 2220 chisel:skill_ui_subcategory
+		},
+		"id": 38866
 	},
 	{
 		"extra": {
@@ -381722,6 +382384,19 @@
 	},
 	{
 		"extra": {
+			"skillguide_info": "Ingredients: Cadantine & mourning lily", // 2211 chisel:skillguide_req_items
+			"skillguide_level": 85, // 2212 chisel:required_level?
+			"skillguide_item": 64029, // 2213
+			"skillguide_skill": 9, // 2215
+			"skillguide_extrareq": "Quest Requirement: Heralds of Crimson", // 2216 chisel:skillguide_req_extra
+			"skillguide_members": 1, // 2217 chisel:skillguide_is_members
+			"skillguide_is_milestone": 1, // 2218
+			"skillguide_filter": 3 // 2220 chisel:skill_ui_subcategory
+		},
+		"id": 43199
+	},
+	{
+		"extra": {
 			"skillguide_name": "Smelt corrupted ore", // 2210 chisel:skillguide_what
 			"skillguide_level": 89, // 2212 chisel:required_level?
 			"skillguide_item": 32262, // 2213
@@ -388838,10 +389513,13 @@
 		"extra": {
 			"recipe_ingredient_type_1": 1777, // 2655 chisel:craft_item_1
 			"recipe_ingredient_type_2": 53088, // 2656 chisel:craft_item_2
+			"recipe_ingredient_type_3": 63894, // 2657 chisel:craft_item_3
 			"recipe_ingredient_number_1": 1, // 2665 chisel:is_burial_item
 			"recipe_ingredient_number_2": 1, // 2666 chisel:craft_quantity_2
+			"recipe_ingredient_number_3": 1, // 2667 chisel:craft_quantity_3
 			"recipe_ingredient_1_scale_stack": 0, // 2686
-			"recipe_ingredient_2_scale_stack": 0 // 2687
+			"recipe_ingredient_2_scale_stack": 0, // 2687
+			"recipe_ingredient_3_scale_stack": 0 // 2688
 		},
 		"id": 43672
 	},
@@ -394162,6 +394840,17 @@
 	},
 	{
 		"extra": {
+			"skillguide_name": "Earthborne staff", // 2210 chisel:skillguide_what
+			"skillguide_level": 65, // 2212 chisel:required_level?
+			"skillguide_item": 63910, // 2213
+			"skillguide_skill": 4, // 2215
+			"skillguide_members": 1, // 2217 chisel:skillguide_is_members
+			"skillguide_filter": 7 // 2220 chisel:skill_ui_subcategory
+		},
+		"id": 44041
+	},
+	{
+		"extra": {
 			"combatv2_ability_name": "Shadows of the Empire", // 2794 chisel:spell_name
 			"combatv2_ability_info": "The more darkness stacks you have, the exponentially greater the damage you'll take.", // 2795 chisel:spell_desc
 			"combatv2_ability_object": 51656, // 4677 chisel:buff_item_id
@@ -397070,7 +397759,7 @@
 			"combatv2_ability_cooldown": 0, // 2796 chisel:ability_cooldown_ticks
 			"combatv2_ability_adrenaline_type": 7, // 2799 chisel:adrenaline_type
 			"combatv2_ability_adrenaline_generated": 0, // 2800
-			"combatv2_ability_icon": 1601, // 2802 chisel:spell_prayer_ability_sprite
+			"combatv2_ability_icon": 36566, // 2802 chisel:spell_prayer_ability_sprite
 			"combatv2_ability_parent_stat": 6, // 2806 chisel:spell_prayer_ability_req_type
 			"combatv2_ability_level_req": 0, // 2807 chisel:spell_prayer_ability_req_value
 			"combatv2_type_of_spell": 5, // 2880
@@ -397079,7 +397768,7 @@
 			"combatv2_spell_classification": 5, // 5542 chisel:ability_tab_id
 			"combatv2_ignore_gcd_no_adrenaline": 1, // 5550
 			"combatv2_should_revolution_ignore": 1, // 6528
-			"combatv2_ability_icon_mobile": 6894, // 8120 chisel:spell_prayer_ability_mobile_sprite
+			"combatv2_ability_icon_mobile": 36593, // 8120 chisel:spell_prayer_ability_mobile_sprite
 			"combatv2_ability_target_type": 3 // 8170 chisel:ability_target
 		},
 		"id": 44225
@@ -501631,8 +502320,8 @@
 	},
 	{
 		"extra": {
-			"potion_info_duration": 180, // 7658
-			"potion_info_antisanguine": 1 // 9426
+			"potion_info_duration": 360, // 7658
+			"extra_002518": 1 // 9496
 		},
 		"id": 53032
 	},
@@ -504468,6 +505157,28 @@
 	},
 	{
 		"extra": {
+			"skillguide_name": "Mudborne staff", // 2210 chisel:skillguide_what
+			"skillguide_level": 78, // 2212 chisel:required_level?
+			"skillguide_item": 63912, // 2213
+			"skillguide_skill": 4, // 2215
+			"skillguide_members": 1, // 2217 chisel:skillguide_is_members
+			"skillguide_filter": 7 // 2220 chisel:skill_ui_subcategory
+		},
+		"id": 53257
+	},
+	{
+		"extra": {
+			"skillguide_name": "Combat ability: Sanguine offering", // 2210 chisel:skillguide_what
+			"skillguide_info": "Unlocked by reading the Sanguine offering ability codex.", // 2211 chisel:skillguide_req_items
+			"skillguide_level": 96, // 2212 chisel:required_level?
+			"skillguide_item_graphic": 36573, // 2214
+			"skillguide_skill": 4, // 2215
+			"skillguide_filter": 10 // 2220 chisel:skill_ui_subcategory
+		},
+		"id": 53258
+	},
+	{
+		"extra": {
 			"skillguide_name": "Room shape: Square", // 2210 chisel:skillguide_what
 			"skillguide_level": 1, // 2212 chisel:required_level?
 			"skillguide_item_graphic": 36117, // 2214
@@ -505233,5 +505944,897 @@
 			"rewardshop_no_preview": 1 // 9250
 		},
 		"id": 53317
+	},
+	{
+		"extra": {
+			"skillguide_info": "Members can now mine essence veins at the Exalted Mine on Havenhythe.", // 2211 chisel:skillguide_req_items
+			"skillguide_level": 65, // 2212 chisel:required_level?
+			"skillguide_item": 63926, // 2213
+			"skillguide_skill": 13, // 2215
+			"skillguide_extrareq": "Quest requirement: Heralds of Crimson", // 2216 chisel:skillguide_req_extra
+			"skillguide_members": 1, // 2217 chisel:skillguide_is_members
+			"skillguide_filter": 3 // 2220 chisel:skill_ui_subcategory
+		},
+		"id": 53318
+	},
+	{
+		"extra": {
+			"skillguide_info": "Members can now mine essence deposits at the Exalted Mine on Havenhythe.", // 2211 chisel:skillguide_req_items
+			"skillguide_level": 85, // 2212 chisel:required_level?
+			"skillguide_item": 63927, // 2213
+			"skillguide_skill": 13, // 2215
+			"skillguide_extrareq": "Quest requirement: Heralds of Crimson", // 2216 chisel:skillguide_req_extra
+			"skillguide_members": 1, // 2217 chisel:skillguide_is_members
+			"skillguide_filter": 3 // 2220 chisel:skill_ui_subcategory
+		},
+		"id": 53319
+	},
+	{
+		"extra": {
+			"skillguide_info": "Members can now mine large essence deposits at the Exalted Mine on Havenhythe.", // 2211 chisel:skillguide_req_items
+			"skillguide_level": 105, // 2212 chisel:required_level?
+			"skillguide_item": 63928, // 2213
+			"skillguide_skill": 13, // 2215
+			"skillguide_extrareq": "Quest requirement: Heralds of Crimson", // 2216 chisel:skillguide_req_extra
+			"skillguide_members": 1, // 2217 chisel:skillguide_is_members
+			"skillguide_filter": 3 // 2220 chisel:skill_ui_subcategory
+		},
+		"id": 53320
+	},
+	{
+		"extra": {
+			"skillguide_name": "Earthborne staff", // 2210 chisel:skillguide_what
+			"skillguide_info": "Can create earthborne staves", // 2211 chisel:skillguide_req_items
+			"skillguide_level": 52, // 2212 chisel:required_level?
+			"skillguide_item": 63910, // 2213
+			"skillguide_skill": 12, // 2215
+			"skillguide_members": 1, // 2217 chisel:skillguide_is_members
+			"skillguide_is_milestone": 1, // 2218
+			"skillguide_filter": 7 // 2220 chisel:skill_ui_subcategory
+		},
+		"id": 53321
+	},
+	{
+		"extra": {
+			"skillguide_name": "Mudborne staff", // 2210 chisel:skillguide_what
+			"skillguide_info": "Can create mudborne staves", // 2211 chisel:skillguide_req_items
+			"skillguide_level": 52, // 2212 chisel:required_level?
+			"skillguide_item": 63912, // 2213
+			"skillguide_skill": 12, // 2215
+			"skillguide_members": 1, // 2217 chisel:skillguide_is_members
+			"skillguide_is_milestone": 1, // 2218
+			"skillguide_filter": 7 // 2220 chisel:skill_ui_subcategory
+		},
+		"id": 53322
+	},
+	{
+		"extra": {
+			"skillguide_name": "Exalted essence", // 2210 chisel:skillguide_what
+			"skillguide_info": "Can be used to slowly craft runes at altars, granting additional runes and experience.", // 2211 chisel:skillguide_req_items
+			"skillguide_level": 65, // 2212 chisel:required_level?
+			"skillguide_item": 63938, // 2213
+			"skillguide_skill": 12, // 2215
+			"skillguide_members": 1, // 2217 chisel:skillguide_is_members
+			"skillguide_filter": 5 // 2220 chisel:skill_ui_subcategory
+		},
+		"id": 53323
+	},
+	{
+		"extra": {
+			"skillguide_name": "Ravenous Strigoi", // 2210 chisel:skillguide_what
+			"skillguide_info": "Found near Shuruk-Ba on Havenhythe.", // 2211 chisel:skillguide_req_items
+			"skillguide_level": 104, // 2212 chisel:required_level?
+			"skillguide_item": 64036, // 2213
+			"skillguide_skill": 20, // 2215
+			"skillguide_members": 1, // 2217 chisel:skillguide_is_members
+			"skillguide_filter": 3 // 2220 chisel:skill_ui_subcategory
+		},
+		"id": 53324
+	},
+	{
+		"extra": {
+			"skillguide_item": 63871, // 2213
+			"skillguide_skill": 18, // 2215
+			"skillguide_filter": 4 // 2220 chisel:skill_ui_subcategory
+		},
+		"id": 53325
+	},
+	{
+		"extra": {
+			"skillguide_name": "Fenn ivy", // 2210 chisel:skillguide_what
+			"skillguide_info": "Locations:<br>- Fenmoor on Havenhythe.", // 2211 chisel:skillguide_req_items
+			"skillguide_level": 103, // 2212 chisel:required_level?
+			"skillguide_item": 64039, // 2213
+			"skillguide_skill": 18, // 2215
+			"skillguide_members": 1, // 2217 chisel:skillguide_is_members
+			"skillguide_is_milestone": 1, // 2218
+			"skillguide_filter": 3 // 2220 chisel:skill_ui_subcategory
+		},
+		"id": 53326
+	},
+	{
+		"extra": {
+			"skillguide_name": "Petrified Roots", // 2210 chisel:skillguide_what
+			"skillguide_info": "Locations:<br>- Fenmoor on Havenhythe.", // 2211 chisel:skillguide_req_items
+			"skillguide_level": 65, // 2212 chisel:required_level?
+			"skillguide_item": 63888, // 2213
+			"skillguide_skill": 18, // 2215
+			"skillguide_members": 1, // 2217 chisel:skillguide_is_members
+			"skillguide_is_milestone": 1, // 2218
+			"skillguide_filter": 3 // 2220 chisel:skill_ui_subcategory
+		},
+		"id": 53327
+	},
+	{
+		"extra": {
+			"skillguide_name": "Petrified Bark", // 2210 chisel:skillguide_what
+			"skillguide_info": "Locations:<br>- Fenmoor on Havenhythe.", // 2211 chisel:skillguide_req_items
+			"skillguide_level": 85, // 2212 chisel:required_level?
+			"skillguide_item": 63889, // 2213
+			"skillguide_skill": 18, // 2215
+			"skillguide_members": 1, // 2217 chisel:skillguide_is_members
+			"skillguide_is_milestone": 1, // 2218
+			"skillguide_filter": 3 // 2220 chisel:skill_ui_subcategory
+		},
+		"id": 53328
+	},
+	{
+		"extra": {
+			"skillguide_name": "Petrified Wood", // 2210 chisel:skillguide_what
+			"skillguide_info": "Locations:<br>- Fenmoor on Havenhythe.", // 2211 chisel:skillguide_req_items
+			"skillguide_level": 105, // 2212 chisel:required_level?
+			"skillguide_item": 63890, // 2213
+			"skillguide_skill": 18, // 2215
+			"skillguide_members": 1, // 2217 chisel:skillguide_is_members
+			"skillguide_is_milestone": 1, // 2218
+			"skillguide_filter": 3 // 2220 chisel:skill_ui_subcategory
+		},
+		"id": 53329
+	},
+	{
+		"extra": {
+			"skillguide_name": "Chima moss", // 2210 chisel:skillguide_what
+			"skillguide_info": "Locations:<br>- Fenmoor on Havenhythe.", // 2211 chisel:skillguide_req_items
+			"skillguide_level": 62, // 2212 chisel:required_level?
+			"skillguide_item": 63892, // 2213
+			"skillguide_skill": 18, // 2215
+			"skillguide_members": 1, // 2217 chisel:skillguide_is_members
+			"skillguide_is_milestone": 1, // 2218
+			"skillguide_filter": 3 // 2220 chisel:skill_ui_subcategory
+		},
+		"id": 53330
+	},
+	{
+		"extra": {
+			"skillguide_name": "Chimera Tree", // 2210 chisel:skillguide_what
+			"skillguide_info": "Locations:<br>- Fenmoor on Havenhythe.", // 2211 chisel:skillguide_req_items
+			"skillguide_level": 72, // 2212 chisel:required_level?
+			"skillguide_item": 64038, // 2213
+			"skillguide_skill": 18, // 2215
+			"skillguide_members": 1, // 2217 chisel:skillguide_is_members
+			"skillguide_is_milestone": 1, // 2218
+			"skillguide_filter": 3 // 2220 chisel:skill_ui_subcategory
+		},
+		"id": 53331
+	},
+	{
+		"extra": {
+			"worldmap_overlay_upsell_displaycoord": 75517244, // 3867
+			"worldmap_overlay_upsell_main_text": "Havenhythe", // 3868
+			"worldmap_overlay_upsell_optional_text": "Island of Colossi", // 3869
+			"worldmap_overlay_upsell_zone_num": 1, // 3870
+			"worldmap_overlay_upsell_zone0_corner0": 73420220, // 3871
+			"worldmap_overlay_upsell_zone0_corner1": 77614268, // 3872
+			"worldmap_overlay_upsell_bgshield_graphic": 36586, // 3896
+			"worldmap_upsell_content_graphic_0": 36587, // 3899
+			"worldmap_upsell_content_graphic_1": 36588, // 3900
+			"worldmap_upsell_content_graphic_2": 36589, // 3901
+			"worldmap_upsell_content_caption_0_text": "Train at new colossal skilling locations.", // 3902
+			"worldmap_upsell_content_caption_1_text": "Take down the Sanguine threat.", // 3903
+			"worldmap_upsell_content_caption_2_text": "Fight the Ghrazi Blood Knights boss.", // 3904
+			"worldmap_upsell_content_text": "Save an island under threat from vampyric invaders. Discover new skilling methods and learn the history of the Havenhythe colossi!", // 3905
+			"worldmap_upsell_content_bp0_text": "Fight vampyric invaders.", // 3906
+			"worldmap_upsell_content_bp1_text": "Investigate the history of the colossi.", // 3907
+			"worldmap_upsell_content_bp2_text": "Earn new valuable rewards." // 3908
+		},
+		"id": 53332
+	},
+	{
+		"extra": {
+			"slayer_type": 196, // 460 chisel:enum_1563_index
+			"slayer_description": "Sanguine werewolves are werewolves twisted by the Sanguine. You will find them in Berylbrook on Havenhythe.", // 462
+			"slayer_name": "Sanguine werewolves", // 463
+			"slayer_cl_req": 110, // 465
+			"slayer_example_npc": 32902 // 659
+		},
+		"id": 53333
+	},
+	{
+		"extra": {
+			"slayer_type": 197, // 460 chisel:enum_1563_index
+			"slayer_description": "Ravenous strigoi are large beasts from Vampyrium. You will find them near Shuruk-Ba on Havenhythe.", // 462
+			"slayer_name": "Ravenous strigoi", // 463
+			"slayer_sl_req": 104, // 466
+			"slayer_example_npc": 32904 // 659
+		},
+		"id": 53334
+	},
+	{
+		"extra": {
+			"slayer_type": 196, // 460 chisel:enum_1563_index
+			"slayer_description": "Sanguine werewolves are werewolves twisted by the Sanguine. You will find them in Berylbrook on Havenhythe.", // 462
+			"slayer_name": "Sanguine werewolves", // 463
+			"slayer_cl_req": 110, // 465
+			"slayer_example_npc": 32902 // 659
+		},
+		"id": 53335
+	},
+	{
+		"extra": {
+			"slayer_type": 197, // 460 chisel:enum_1563_index
+			"slayer_description": "Ravenous strigoi are large beasts from Vampyrium. You will find them near Shuruk-Ba on Havenhythe.", // 462
+			"slayer_name": "Ravenous strigoi", // 463
+			"slayer_sl_req": 104, // 466
+			"slayer_example_npc": 32904 // 659
+		},
+		"id": 53336
+	},
+	{
+		"extra": {
+			"slayer_type": 196, // 460 chisel:enum_1563_index
+			"slayer_description": "Sanguine werewolves are werewolves twisted by the Sanguine. You will find them in Berylbrook on Havenhythe.", // 462
+			"slayer_name": "Sanguine werewolves", // 463
+			"slayer_cl_req": 110, // 465
+			"slayer_example_npc": 32902 // 659
+		},
+		"id": 53337
+	},
+	{
+		"extra": {
+			"slayer_type": 197, // 460 chisel:enum_1563_index
+			"slayer_description": "Ravenous strigoi are large beasts from Vampyrium. You will find them near Shuruk-Ba on Havenhythe.", // 462
+			"slayer_name": "Ravenous strigoi", // 463
+			"slayer_sl_req": 104, // 466
+			"slayer_example_npc": 32904 // 659
+		},
+		"id": 53338
+	},
+	{
+		"id": 53339
+	},
+	{
+		"id": 53340
+	},
+	{
+		"id": 53341
+	},
+	{
+		"id": 53342
+	},
+	{
+		"id": 53343
+	},
+	{
+		"id": 53344
+	},
+	{
+		"id": 53345
+	},
+	{
+		"id": 53346
+	},
+	{
+		"id": 53347
+	},
+	{
+		"id": 53348
+	},
+	{
+		"id": 53349
+	},
+	{
+		"id": 53350
+	},
+	{
+		"id": 53351
+	},
+	{
+		"id": 53352
+	},
+	{
+		"id": 53353
+	},
+	{
+		"id": 53354
+	},
+	{
+		"id": 53355
+	},
+	{
+		"id": 53356
+	},
+	{
+		"id": 53357
+	},
+	{
+		"id": 53358
+	},
+	{
+		"id": 53359
+	},
+	{
+		"id": 53360
+	},
+	{
+		"id": 53361
+	},
+	{
+		"id": 53362
+	},
+	{
+		"id": 53363
+	},
+	{
+		"id": 53364
+	},
+	{
+		"id": 53365
+	},
+	{
+		"id": 53366
+	},
+	{
+		"id": 53367
+	},
+	{
+		"id": 53368
+	},
+	{
+		"id": 53369
+	},
+	{
+		"id": 53370
+	},
+	{
+		"id": 53371
+	},
+	{
+		"id": 53372
+	},
+	{
+		"id": 53373
+	},
+	{
+		"id": 53374
+	},
+	{
+		"id": 53375
+	},
+	{
+		"id": 53376
+	},
+	{
+		"id": 53377
+	},
+	{
+		"id": 53378
+	},
+	{
+		"id": 53379
+	},
+	{
+		"id": 53380
+	},
+	{
+		"id": 53381
+	},
+	{
+		"id": 53382
+	},
+	{
+		"id": 53383
+	},
+	{
+		"id": 53384
+	},
+	{
+		"id": 53385
+	},
+	{
+		"id": 53386
+	},
+	{
+		"id": 53387
+	},
+	{
+		"id": 53388
+	},
+	{
+		"id": 53389
+	},
+	{
+		"id": 53390
+	},
+	{
+		"id": 53391
+	},
+	{
+		"id": 53392
+	},
+	{
+		"id": 53393
+	},
+	{
+		"id": 53394
+	},
+	{
+		"id": 53395
+	},
+	{
+		"id": 53396
+	},
+	{
+		"id": 53397
+	},
+	{
+		"id": 53398
+	},
+	{
+		"id": 53399
+	},
+	{
+		"id": 53400
+	},
+	{
+		"id": 53401
+	},
+	{
+		"id": 53402
+	},
+	{
+		"id": 53403
+	},
+	{
+		"id": 53404
+	},
+	{
+		"id": 53405
+	},
+	{
+		"id": 53406
+	},
+	{
+		"id": 53407
+	},
+	{
+		"id": 53408
+	},
+	{
+		"id": 53409
+	},
+	{
+		"id": 53410
+	},
+	{
+		"id": 53411
+	},
+	{
+		"id": 53412
+	},
+	{
+		"id": 53413
+	},
+	{
+		"id": 53414
+	},
+	{
+		"id": 53415
+	},
+	{
+		"id": 53416
+	},
+	{
+		"id": 53417
+	},
+	{
+		"id": 53418
+	},
+	{
+		"id": 53419
+	},
+	{
+		"id": 53420
+	},
+	{
+		"id": 53421
+	},
+	{
+		"id": 53422
+	},
+	{
+		"id": 53423
+	},
+	{
+		"id": 53424
+	},
+	{
+		"id": 53425
+	},
+	{
+		"id": 53426
+	},
+	{
+		"id": 53427
+	},
+	{
+		"id": 53428
+	},
+	{
+		"id": 53429
+	},
+	{
+		"id": 53430
+	},
+	{
+		"id": 53431
+	},
+	{
+		"id": 53432
+	},
+	{
+		"id": 53433
+	},
+	{
+		"id": 53434
+	},
+	{
+		"id": 53435
+	},
+	{
+		"id": 53436
+	},
+	{
+		"id": 53437
+	},
+	{
+		"id": 53438
+	},
+	{
+		"extra": {
+			"combatv2_ability_id": 43, // 2793 chisel:unknown_spell_nr
+			"combatv2_ability_name": "Vampyre Slayer", // 2794 chisel:spell_name
+			"combatv2_ability_info": "Gain courage against Vampyric creatures", // 2795 chisel:spell_desc
+			"combatv2_ability_cooldown": 100, // 2796 chisel:ability_cooldown_ticks
+			"combatv2_ability_adrenaline_type": 7, // 2799 chisel:adrenaline_type
+			"combatv2_ability_adrenaline_generated": 0, // 2800
+			"combatv2_ability_icon": 36568, // 2802 chisel:spell_prayer_ability_sprite
+			"combatv2_ability_parent_stat": 6, // 2806 chisel:spell_prayer_ability_req_type
+			"combatv2_ability_level_req": 82, // 2807 chisel:spell_prayer_ability_req_value
+			"combatv2_ability_is_members": 1, // 2809
+			"combatv2_ability_only_display_in_certain_situations": 1, // 2819 chisel:potion_effect_unk5
+			"combatv2_requires_target_foe": 0, // 3394
+			"combatv2_ability_effect_duration": 17, // 3740 chisel:ability_active_ticks
+			"combatv2_ability_icon_locked": 36571, // 4030
+			"combatv2_ability_cooldown_zero": 1, // 4499
+			"combatv2_ability_icon_locked_mobile": 36591, // 4649
+			"combatv2_ability_unlock_description": "Unlocked by reading the Vampyre slayer ability codex.", // 4650
+			"combatv2_spell_classification": 5, // 5542 chisel:ability_tab_id
+			"combatv2_ignore_gcd_no_adrenaline": 1, // 5550
+			"combatv2_should_revolution_ignore": 1, // 6528
+			"combatv2_ability_no_interrupt_channelling": 1, // 8018
+			"combatv2_ability_no_effect_on_revo_cooldown": 1, // 8019
+			"combatv2_ability_target_type": 3, // 8170 chisel:ability_target
+			"extra_00250F": 16839355, // 9487
+			"extra_002510": 13705, // 9488
+			"extra_002511": 13706, // 9489
+			"extra_002512": 13654 // 9490
+		},
+		"id": 53439
+	},
+	{
+		"extra": {
+			"combatv2_ability_id": 44, // 2793 chisel:unknown_spell_nr
+			"combatv2_ability_name": "Vital Drain", // 2794 chisel:spell_name
+			"combatv2_ability_info": "Drain the vitality of foes.", // 2795 chisel:spell_desc
+			"combatv2_ability_cooldown": 150, // 2796 chisel:ability_cooldown_ticks
+			"combatv2_ability_adrenaline_type": 7, // 2799 chisel:adrenaline_type
+			"combatv2_ability_adrenaline_generated": 0, // 2800
+			"combatv2_ability_icon": 36569, // 2802 chisel:spell_prayer_ability_sprite
+			"combatv2_ability_parent_stat": 6, // 2806 chisel:spell_prayer_ability_req_type
+			"combatv2_ability_level_req": 74, // 2807 chisel:spell_prayer_ability_req_value
+			"combatv2_ability_is_members": 1, // 2809
+			"combatv2_ability_only_display_in_certain_situations": 1, // 2819 chisel:potion_effect_unk5
+			"combatv2_requires_target_foe": 0, // 3394
+			"combatv2_ability_effect_duration": 9, // 3740 chisel:ability_active_ticks
+			"combatv2_ability_icon_locked": 36572, // 4030
+			"combatv2_ability_cooldown_zero": 1, // 4499
+			"combatv2_ability_icon_locked_mobile": 36592, // 4649
+			"combatv2_ability_unlock_description": "Unlocked by reading the Vital drain ability codex.", // 4650
+			"combatv2_spell_classification": 5, // 5542 chisel:ability_tab_id
+			"combatv2_ignore_gcd_no_adrenaline": 1, // 5550
+			"combatv2_should_revolution_ignore": 1, // 6528
+			"combatv2_ability_no_interrupt_channelling": 1, // 8018
+			"combatv2_ability_no_effect_on_revo_cooldown": 1, // 8019
+			"combatv2_ability_target_type": 3, // 8170 chisel:ability_target
+			"extra_00250F": 16839356, // 9487
+			"extra_002510": 13707, // 9488
+			"extra_002511": 13708, // 9489
+			"extra_002512": 13655 // 9490
+		},
+		"id": 53440
+	},
+	{
+		"extra": {
+			"combatv2_ability_name": "Afflicted Wound", // 2794 chisel:spell_name
+			"combatv2_ability_info": "Freedom will remove the bleed.", // 2795 chisel:spell_desc
+			"combatv2_ability_icon": 36579, // 2802 chisel:spell_prayer_ability_sprite
+			"combatv2_buff_type": 1, // 8109 chisel:is_burn
+			"combatv2_buff_uses_stacks": 1, // 8110
+			"combatv2_buff_uses_ability_end": 1, // 8112 chisel:buff_uses_timer
+			"combatv2_buff_category": 6, // 8114 chisel:buff_category
+			"combatv2_buff_priority": 60, // 8115 chisel:buff_priority
+			"extra_00250E": 13702 // 9486
+		},
+		"id": 53441
+	},
+	{
+		"extra": {
+			"combatv2_ability_name": "Vampyre slayer - Boosts your damage against vampyric creatures by 15%.", // 2794 chisel:spell_name
+			"combatv2_ability_icon": 36578, // 2802 chisel:spell_prayer_ability_sprite
+			"combatv2_buff_type": 0, // 8109 chisel:is_burn
+			"combatv2_buff_uses_ability_end": 1, // 8112 chisel:buff_uses_timer
+			"combatv2_buff_category": 3, // 8114 chisel:buff_category
+			"combatv2_buff_priority": 30 // 8115 chisel:buff_priority
+		},
+		"id": 53442
+	},
+	{
+		"extra": {
+			"combatv2_ability_name": "Vital drain - Steals health from enemies hit.", // 2794 chisel:spell_name
+			"combatv2_ability_icon": 36569, // 2802 chisel:spell_prayer_ability_sprite
+			"combatv2_buff_type": 0, // 8109 chisel:is_burn
+			"combatv2_buff_uses_ability_end": 1, // 8112 chisel:buff_uses_timer
+			"combatv2_buff_category": 3, // 8114 chisel:buff_category
+			"combatv2_buff_priority": 30 // 8115 chisel:buff_priority
+		},
+		"id": 53443
+	},
+	{
+		"extra": {
+			"combatv2_ability_id": 265, // 2793 chisel:unknown_spell_nr
+			"combatv2_ability_name": "Sanguine offering", // 2794 chisel:spell_name
+			"combatv2_ability_info": "Sacrifice health for power.", // 2795 chisel:spell_desc
+			"combatv2_ability_cooldown": 150, // 2796 chisel:ability_cooldown_ticks
+			"combatv2_ability_adrenaline_type": 7, // 2799 chisel:adrenaline_type
+			"combatv2_ability_adrenaline_generated": 0, // 2800
+			"combatv2_ability_icon": 36573, // 2802 chisel:spell_prayer_ability_sprite
+			"combatv2_ability_parent_stat": 4, // 2806 chisel:spell_prayer_ability_req_type
+			"combatv2_ability_level_req": 96, // 2807 chisel:spell_prayer_ability_req_value
+			"combatv2_ability_is_members": 1, // 2809
+			"combatv2_ability_only_display_in_certain_situations": 1, // 2819 chisel:potion_effect_unk5
+			"combatv2_which_spellbook": 3, // 2871
+			"combatv2_in_dung_spellbook": 1, // 2872
+			"combatv2_type_of_spell": 5, // 2880
+			"combatv2_requires_target_foe": 0, // 3394
+			"combatv2_ability_icon_locked": 36574, // 4030
+			"combatv2_ability_cooldown_zero": 1, // 4499
+			"combatv2_ability_icon_locked_mobile": 36594, // 4649
+			"combatv2_ability_unlock_description": "Unlocked by reading the Sanguine offering ability codex.", // 4650
+			"combatv2_spell_classification": 7, // 5542 chisel:ability_tab_id
+			"combatv2_ignore_gcd_no_adrenaline": 1, // 5550
+			"combatv2_should_revolution_ignore": 1, // 6528
+			"combatv2_ability_no_interrupt_channelling": 1, // 8018
+			"combatv2_ability_no_effect_on_revo_cooldown": 1, // 8019
+			"combatv2_ability_target_type": 3, // 8170 chisel:ability_target
+			"combatv2_ability_allows_unarmed": 1, // 9408
+			"extra_00250F": 16839357, // 9487
+			"extra_002510": 13709, // 9488
+			"extra_002511": 13710, // 9489
+			"extra_002512": 13656 // 9490
+		},
+		"id": 53444
+	},
+	{
+		"extra": {
+			"combatv2_ability_name": "Exploit - Earth" // 2794 chisel:spell_name
+		},
+		"id": 53445
+	},
+	{
+		"extra": {
+			"combatv2_ability_name": "Exploit - Water" // 2794 chisel:spell_name
+		},
+		"id": 53446
+	},
+	{
+		"extra": {
+			"combatv2_ability_name": "Exploit - Air" // 2794 chisel:spell_name
+		},
+		"id": 53447
+	},
+	{
+		"extra": {
+			"combatv2_ability_name": "Exploit - Fire" // 2794 chisel:spell_name
+		},
+		"id": 53448
+	},
+	{
+		"extra": {
+			"combatv2_ability_name": "Exploit - Earth & Water" // 2794 chisel:spell_name
+		},
+		"id": 53449
+	},
+	{
+		"extra": {
+			"combatv2_ability_name": "Night Charged" // 2794 chisel:spell_name
+		},
+		"id": 53450
+	},
+	{
+		"extra": {
+			"combatv2_ability_info": "<col=0x00ff00>+5%</col> Increase to woodcutting success rate.<br>When woodcutting, there is a small chance to award a random woodcutting boost for 5 minutes. Nearby players will also receive the boost for 2 minutes." // 2795 chisel:spell_desc
+		},
+		"id": 53451
+	},
+	{
+		"extra": {
+			"combatv2_ability_info": "<col=0x00ff00>+7%</col> chance to save resources when fletching.<br>Increases the speed you work Fenmoor fletching totems by <col=0x00ff00>0.6s</col>." // 2795 chisel:spell_desc
+		},
+		"id": 53452
+	},
+	{
+		"extra": {
+			"combatv2_ability_info": "<col=0x00ff00>+6%</col> Increase to woodcutting success rate.<br>An additional <col=0x00ff00>+4%</col> increase to woodcutting success rate whilst in Fenmoor." // 2795 chisel:spell_desc
+		},
+		"id": 53453
+	},
+	{
+		"extra": {
+			"poh_bookcase_obj": 63940, // 813 chisel:book_itemId
+			"poh_bookcase_quest": -1, // 923
+			"poh_bookcase_displayname": "Divine Ichor", // 924 chisel:book_title
+			"poh_bookcase_info": "An account of the discover of the Exalted Quarry." // 925 chisel:book_desc
+		},
+		"id": 53454
+	},
+	{
+		"extra": {
+			"potion_info_stat_bonus_attack": -1, // 7604
+			"potion_info_stat_bonus_constitution": 5, // 7605
+			"potion_info_stat_bonus_magic": -1, // 7619
+			"potion_info_stat_bonus_pcent_attack": -4, // 7632
+			"potion_info_stat_bonus_pcent_magic": -4, // 7647
+			"potion_info_stat_bonus_decay": 1 // 7659
+		},
+		"id": 53455
+	},
+	{
+		"extra": {
+			"recipe_ingredient_type_1": 63990, // 2655 chisel:craft_item_1
+			"recipe_ingredient_type_2": 63991, // 2656 chisel:craft_item_2
+			"recipe_ingredient_number_1": 1, // 2665 chisel:is_burial_item
+			"recipe_ingredient_number_2": 1 // 2666 chisel:craft_quantity_2
+		},
+		"id": 53456
+	},
+	{
+		"extra": {
+			"recipe_ingredient_type_1": 64011, // 2655 chisel:craft_item_1
+			"recipe_ingredient_type_2": 64012, // 2656 chisel:craft_item_2
+			"recipe_ingredient_number_1": 1, // 2665 chisel:is_burial_item
+			"recipe_ingredient_number_2": 1 // 2666 chisel:craft_quantity_2
+		},
+		"id": 53457
+	},
+	{
+		"extra": {
+			"recipe_ingredient_type_1": 64016, // 2655 chisel:craft_item_1
+			"recipe_ingredient_type_2": 64017, // 2656 chisel:craft_item_2
+			"recipe_ingredient_number_1": 1, // 2665 chisel:is_burial_item
+			"recipe_ingredient_number_2": 1 // 2666 chisel:craft_quantity_2
+		},
+		"id": 53458
+	},
+	{
+		"extra": {
+			"fishingspot_anim": -1, // 1998
+			"fishingspot_requiredlevel_1": 69, // 2001
+			"fishingspot_fish_1": 64011, // 2003
+			"fishingspot_member": 1 // 2190
+		},
+		"id": 53459
+	},
+	{
+		"extra": {
+			"fishingspot_anim": 24929, // 1998
+			"fishingspot_requiredlevel_1": 56, // 2001
+			"fishingspot_fish_1": 64016, // 2003
+			"fishingspot_member": 1 // 2190
+		},
+		"id": 53460
+	},
+	{
+		"extra": {
+			"potiondoses_4": 64019, // 588 chisel:decant_group_A_charge_4
+			"potiondoses_3": 64021, // 589 chisel:decant_group_A_charge_3
+			"potiondoses_2": 64023, // 590 chisel:decant_group_A_charge_2
+			"potiondoses_1": 64025, // 591 chisel:decant_group_A_charge_1
+			"bigpot_doses6": 63966, // 2241 chisel:decant_group_C_item_1
+			"bigpot_doses5": 63968, // 2242 chisel:decant_group_C_item_2
+			"bigpot_doses4": 63970, // 2243 chisel:decant_group_C_item_3
+			"bigpot_doses3": 63972, // 2244 chisel:decant_group_C_item_4
+			"bigpot_doses2": 63974, // 2245 chisel:decant_group_C_item_5
+			"bigpot_doses1": 63976, // 2246 chisel:decant_group_C_item_6
+			"potion_generic_name": "Super antisanguine potion", // 2524 chisel:decant_item_name
+			"potion_delay_type": 0, // 3743
+			"potion_info": 53463, // 7601
+			"potion_id": 190 // 9453
+		},
+		"id": 53461
+	},
+	{
+		"extra": {
+			"potiondoses_4": 64027, // 588 chisel:decant_group_A_charge_4
+			"potiondoses_3": 64029, // 589 chisel:decant_group_A_charge_3
+			"potiondoses_2": 64031, // 590 chisel:decant_group_A_charge_2
+			"potiondoses_1": 64033, // 591 chisel:decant_group_A_charge_1
+			"bigpot_doses6": 63978, // 2241 chisel:decant_group_C_item_1
+			"bigpot_doses5": 63980, // 2242 chisel:decant_group_C_item_2
+			"bigpot_doses4": 63982, // 2243 chisel:decant_group_C_item_3
+			"bigpot_doses3": 63984, // 2244 chisel:decant_group_C_item_4
+			"bigpot_doses2": 63986, // 2245 chisel:decant_group_C_item_5
+			"bigpot_doses1": 63988, // 2246 chisel:decant_group_C_item_6
+			"potion_generic_name": "Extreme antisanguine potion", // 2524 chisel:decant_item_name
+			"potion_delay_type": 0, // 3743
+			"potion_info": 53464, // 7601
+			"potion_id": 191 // 9453
+		},
+		"id": 53462
+	},
+	{
+		"extra": {
+			"potion_info_duration": 360, // 7658
+			"extra_002518": 2 // 9496
+		},
+		"id": 53463
+	},
+	{
+		"extra": {
+			"potion_info_duration": 720, // 7658
+			"extra_002518": 2 // 9496
+		},
+		"id": 53464
+	},
+	{
+		"id": 53465
+	},
+	{
+		"extra": {
+			"slayer_pod_name": "Sanguine werewolf", // 6600 chisel:slayer_codex_monster_name
+			"slayer_pod_obj": 64035, // 6601 chisel:slayer_codex_monster_item
+			"slayer_pod_npc": 32902, // 6602 chisel:slayer_codex_monster_npc
+			"slayer_pod_npc_anim": 38217 // 6604
+		},
+		"id": 53466
+	},
+	{
+		"extra": {
+			"slayer_pod_name": "Ravenous strigoi", // 6600 chisel:slayer_codex_monster_name
+			"slayer_pod_obj": 64036, // 6601 chisel:slayer_codex_monster_item
+			"slayer_pod_npc": 32904, // 6602 chisel:slayer_codex_monster_npc
+			"slayer_pod_npc_anim": 38190 // 6604
+		},
+		"id": 53467
+	},
+	{
+		"extra": {
+			"motw_banner_en": 1601, // 6381
+			"motw_banner_de": 1601, // 6385
+			"motw_banner_fr": 1601, // 6386
+			"motw_banner_pt": 1601, // 6387
+			"motw_title": "Bank Boosters", // 6391
+			"motw_onclick": 14 // 6392
+		},
+		"id": 53468
 	}
 ]

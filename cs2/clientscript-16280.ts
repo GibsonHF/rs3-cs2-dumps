@@ -10,7 +10,7 @@ function script16280(): void {
     var int5 = 0;
     var int6 = 0;
     var int7 = 5;
-    var int8 = 1624;
+    var int8 = 1629;
     define_array((int8 + 1));
     while ((int2 <= int8)) {
         pop_array(int2, int2);

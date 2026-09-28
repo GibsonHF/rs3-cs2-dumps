@@ -36,6 +36,9 @@ function script16142(int0: number): string {
             if ((script4148() == 1)) {
                 return "This type of package is unavailable for Ironmen.";
             };
+            if ((MAP_MEMBERS() == 0)) {
+                return "This type of package can only be purchased on member worlds.";
+            };
             break;
         }
         default: {

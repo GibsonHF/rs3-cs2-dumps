@@ -130,6 +130,9 @@ function script12835(int0: number): number {
         case 54: {
             return varbitplayer_51676;
         }
+        case 55: {
+            return varbitplayer_62022;
+        }
     };
     script12478(`Unexpected ID ${TOSTRING_LOCALISED(int0, 1)} in cws_getvar.`);
     return 0;

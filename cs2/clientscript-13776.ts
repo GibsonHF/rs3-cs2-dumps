@@ -655,7 +655,7 @@ function script13776(int0: number, int1: number, int2: number, int3: number): nu
                                 break;
                             }
                             case 24205: {
-                                int11 = MIN(INV_GETVAR(varclient_5121, varclient_5122, 53289), 3);
+                                int11 = MIN(INV_GETVAR(varclient_5121, varclient_5122, 53289), 4);
                                 int12 = INV_GETVAR(varclient_5121, varclient_5122, 16521);
                                 break;
                             }
@@ -678,6 +678,10 @@ function script13776(int0: number, int1: number, int2: number, int3: number): nu
                                 }
                                 case 3: {
                                     int10 = 55667;
+                                    break;
+                                }
+                                case 4: {
+                                    int10 = 63938;
                                     break;
                                 }
                             };

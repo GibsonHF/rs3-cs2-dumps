@@ -283,10 +283,11 @@
 			4890,
 			4891,
 			4994,
-			5010
+			5010,
+			4782
 		],
 		"subreq_count": [
-			274
+			275
 		]
 	},
 	{
@@ -8253,12 +8254,26 @@
 				"unk_byte": 0,
 				"val": 31,
 				"varbit": 8225
+			},
+			{
+				"name": "Hogfish",
+				"stepsize": 1,
+				"unk_byte": 0,
+				"val": 0,
+				"varbit": 13685
+			},
+			{
+				"name": "Claret crab",
+				"stepsize": 1,
+				"unk_byte": 0,
+				"val": 1,
+				"varbit": 13685
 			}
 		],
 		"spriteID": 30108,
 		"subcategory": 4760,
 		"subreq_count": [
-			32
+			34
 		]
 	},
 	{
@@ -12284,7 +12299,7 @@
 		],
 		"spriteID": 30108,
 		"subreq_count": [
-			1396
+			1401
 		],
 		"varbit_reqs": [
 			{
@@ -20662,6 +20677,36 @@
 				"unk_byte": 0,
 				"value": 1,
 				"varbit": 56821
+			},
+			{
+				"description": "Heathervein",
+				"unk_byte": 0,
+				"value": 1,
+				"varbit": 56822
+			},
+			{
+				"description": "Moonsylvar Wood",
+				"unk_byte": 0,
+				"value": 1,
+				"varbit": 56823
+			},
+			{
+				"description": "Fenmoor",
+				"unk_byte": 0,
+				"value": 1,
+				"varbit": 56824
+			},
+			{
+				"description": "Shuruk-ba",
+				"unk_byte": 0,
+				"value": 1,
+				"varbit": 56825
+			},
+			{
+				"description": "The Crimson Throne Room",
+				"unk_byte": 0,
+				"value": 1,
+				"varbit": 56826
 			}
 		]
 	},
@@ -80894,6 +80939,7 @@
 			3430,
 			2125,
 			2126,
+			5096,
 			299,
 			2127,
 			2128,
@@ -80940,6 +80986,7 @@
 			2151,
 			2152,
 			2153,
+			5098,
 			2074,
 			2154,
 			2075,
@@ -80959,6 +81006,7 @@
 			2157,
 			2080,
 			2019,
+			5097,
 			3330,
 			4920,
 			2158,
@@ -80971,6 +81019,7 @@
 			3232,
 			3428,
 			2161,
+			5089,
 			1617,
 			2722,
 			2082,
@@ -81017,6 +81066,7 @@
 			2089,
 			2179,
 			2180,
+			5092,
 			2091,
 			2181,
 			3156,
@@ -81164,7 +81214,7 @@
 			2227
 		],
 		"subreq_count": [
-			307
+			312
 		]
 	},
 	{
@@ -81308,6 +81358,7 @@
 			1087,
 			1784,
 			1679,
+			5091,
 			1778,
 			1929,
 			3274,
@@ -81332,6 +81383,7 @@
 			4943,
 			4942,
 			4941,
+			5094,
 			2183,
 			324,
 			1838,
@@ -81354,6 +81406,7 @@
 			1753,
 			359,
 			259,
+			5090,
 			3621,
 			334,
 			2487,
@@ -81384,7 +81437,7 @@
 			2876
 		],
 		"subreq_count": [
-			86
+			89
 		]
 	},
 	{
@@ -195350,6 +195403,23 @@
 		]
 	},
 	{
+		"category": 4746,
+		"description": "Complete this quest.",
+		"id": 4782,
+		"name": "Heralds of Crimson",
+		"op_2": [
+			0
+		],
+		"quest_ids": [
+			533
+		],
+		"spriteID": 36584,
+		"subcategory": 4747,
+		"subreq_count": [
+			1
+		]
+	},
+	{
 		"category": 5619,
 		"description": "Obtain 'the Elven' title by purchasing each of the elven clan capes.",
 		"hidden": 1,
@@ -199727,7 +199797,7 @@
 			{
 				"level": 20,
 				"skillID": 22,
-				"text": "Skill: 40 Construction",
+				"text": "Skill: 80 Construction",
 				"unk_bytes": [
 					0,
 					1
@@ -199737,7 +199807,7 @@
 		"spriteID": 30108,
 		"subcategory": 5738,
 		"subreq_count": [
-			4
+			6
 		],
 		"varbit_reqs": [
 			{
@@ -199763,6 +199833,18 @@
 				"unk_byte": 0,
 				"value": 1,
 				"varbit": 52258
+			},
+			{
+				"description": "Heathervein",
+				"unk_byte": 0,
+				"value": 1,
+				"varbit": 62024
+			},
+			{
+				"description": "Linbog",
+				"unk_byte": 0,
+				"value": 1,
+				"varbit": 62025
 			}
 		]
 	},
@@ -199799,7 +199881,7 @@
 		],
 		"points": 5,
 		"spriteID": 35667,
-		"subcategory": 5739,
+		"subcategory": 5738,
 		"subreq_count": [
 			1
 		],
@@ -199823,7 +199905,7 @@
 		"points": 10,
 		"reward": "Access to Reuben as a tanner and Tali as a member of your Archaeology research team.",
 		"spriteID": 35667,
-		"subcategory": 5739,
+		"subcategory": 5738,
 		"subreq_count": [
 			1
 		],
@@ -199873,7 +199955,7 @@
 			}
 		],
 		"spriteID": 35667,
-		"subcategory": 5739,
+		"subcategory": 5738,
 		"subreq_count": [
 			1
 		],
@@ -199902,7 +199984,7 @@
 			1
 		],
 		"spriteID": 35667,
-		"subcategory": 5739,
+		"subcategory": 5738,
 		"subreq_count": [
 			1
 		],
@@ -199926,7 +200008,7 @@
 		"points": 15,
 		"reward": "Access to platinum rocks in the Highweald ruins.",
 		"spriteID": 35667,
-		"subcategory": 5739,
+		"subcategory": 5738,
 		"subreq_count": [
 			1
 		],
@@ -199949,7 +200031,7 @@
 		],
 		"points": 5,
 		"spriteID": 35667,
-		"subcategory": 5739,
+		"subcategory": 5738,
 		"subreq_count": [
 			6
 		],
@@ -200025,7 +200107,7 @@
 			}
 		],
 		"spriteID": 35667,
-		"subcategory": 5739,
+		"subcategory": 5738,
 		"subreq_count": [
 			2
 		],
@@ -200061,7 +200143,7 @@
 			1
 		],
 		"spriteID": 35667,
-		"subcategory": 5739,
+		"subcategory": 5738,
 		"subreq_count": [
 			3
 		],
@@ -200123,7 +200205,7 @@
 			}
 		],
 		"spriteID": 35667,
-		"subcategory": 5739,
+		"subcategory": 5738,
 		"subreq_count": [
 			1
 		],
@@ -200146,7 +200228,7 @@
 		],
 		"points": 5,
 		"spriteID": 35667,
-		"subcategory": 5739,
+		"subcategory": 5738,
 		"subreq_count": [
 			1
 		],
@@ -200169,7 +200251,7 @@
 		],
 		"points": 20,
 		"spriteID": 35667,
-		"subcategory": 5739,
+		"subcategory": 5738,
 		"subreq_count": [
 			8
 		],
@@ -200234,7 +200316,7 @@
 		],
 		"points": 10,
 		"spriteID": 35667,
-		"subcategory": 5739,
+		"subcategory": 5738,
 		"subreq_count": [
 			1
 		],
@@ -200257,7 +200339,7 @@
 		],
 		"points": 5,
 		"spriteID": 35667,
-		"subcategory": 5739,
+		"subcategory": 5738,
 		"subreq_count": [
 			1
 		],
@@ -200292,7 +200374,7 @@
 			1
 		],
 		"spriteID": 35667,
-		"subcategory": 5739,
+		"subcategory": 5738,
 		"subreq_count": [
 			3
 		],
@@ -200327,7 +200409,7 @@
 		],
 		"points": 5,
 		"spriteID": 35667,
-		"subcategory": 5739,
+		"subcategory": 5738,
 		"subreq_count": [
 			2
 		],
@@ -200365,7 +200447,7 @@
 			2
 		],
 		"spriteID": 35667,
-		"subcategory": 5739,
+		"subcategory": 5738,
 		"subreq_count": [
 			2
 		],
@@ -204396,6 +204478,678 @@
 				"unk_byte": 0,
 				"value": 1,
 				"varbit": 61840
+			}
+		]
+	},
+	{
+		"category": 4868,
+		"description": "Defeat a Sanguine Alpha",
+		"id": 5088,
+		"name": "Bleeder of the Pack",
+		"op_2": [
+			0
+		],
+		"points": 5,
+		"skill_req_count": [
+			1
+		],
+		"spriteID": 30108,
+		"subcategory": 5738,
+		"subreq_count": [
+			1
+		],
+		"varbit_prereqs": [
+			{
+				"description": "Quest (partial): Heralds of Crimson",
+				"unk_byte": 0,
+				"value": 1,
+				"varbit": 62099
+			}
+		],
+		"varbit_reqs": [
+			{
+				"description": "",
+				"unk_byte": 0,
+				"value": 1,
+				"varbit": 62027
+			}
+		]
+	},
+	{
+		"category": 4868,
+		"description": "Give Aurora her favourite mush.",
+		"id": 5089,
+		"name": "Gift of Buggies",
+		"op_2": [
+			0
+		],
+		"points": 5,
+		"skill_req_count": [
+			1
+		],
+		"spriteID": 30108,
+		"subcategory": 5738,
+		"subreq_count": [
+			1
+		],
+		"varbit_prereqs": [
+			{
+				"description": "Quest (partial): Heralds of Crimson",
+				"unk_byte": 0,
+				"value": 1,
+				"varbit": 62127
+			}
+		],
+		"varbit_reqs": [
+			{
+				"description": "",
+				"unk_byte": 0,
+				"value": 1,
+				"varbit": 62028
+			}
+		]
+	},
+	{
+		"category": 4868,
+		"description": "Hand in 100 millipede legs to Azur.",
+		"id": 5090,
+		"name": "One Ten-Thousandth of a Milly",
+		"op_2": [
+			0
+		],
+		"op_32": [
+			2,
+			0,
+			0
+		],
+		"points": 10,
+		"quest_req_for_miniquests": [
+			533
+		],
+		"skill_req_count": [
+			2
+		],
+		"skill_reqs_8": [
+			{
+				"level": 65,
+				"skillID": 14,
+				"text": "Skill: Mining 65",
+				"unk_bytes": [
+					0,
+					1
+				]
+			}
+		],
+		"spriteID": 30108,
+		"subcategory": 5738,
+		"subreq_count": [
+			1
+		],
+		"varbit_reqs": [
+			{
+				"description": "",
+				"unk_byte": 0,
+				"value": 100,
+				"varbit": 62033
+			}
+		]
+	},
+	{
+		"category": 4868,
+		"description": "Crack open each visible part of the millipede colossus.",
+		"id": 5091,
+		"name": "Cracking",
+		"op_2": [
+			0
+		],
+		"points": 15,
+		"reqs23": [
+			{
+				"name": "Essence vein (middle ring) (west)",
+				"stepsize": 1,
+				"unk_byte": 0,
+				"val": 1,
+				"varbit": 13681
+			},
+			{
+				"name": "Essence vein (upper ring) (south)",
+				"stepsize": 1,
+				"unk_byte": 0,
+				"val": 2,
+				"varbit": 13681
+			},
+			{
+				"name": "Essence vein (upper ring) (south-west)",
+				"stepsize": 1,
+				"unk_byte": 0,
+				"val": 3,
+				"varbit": 13681
+			},
+			{
+				"name": "Essence vein (middle ring) (south)",
+				"stepsize": 1,
+				"unk_byte": 0,
+				"val": 4,
+				"varbit": 13681
+			},
+			{
+				"name": "Essence vein (upper ring) (west)",
+				"stepsize": 1,
+				"unk_byte": 0,
+				"val": 5,
+				"varbit": 13681
+			},
+			{
+				"name": "Essence deposit (upper ring) (east)",
+				"stepsize": 1,
+				"unk_byte": 0,
+				"val": 6,
+				"varbit": 13681
+			},
+			{
+				"name": "Essence deposit (middle ring) (east)",
+				"stepsize": 1,
+				"unk_byte": 0,
+				"val": 7,
+				"varbit": 13681
+			},
+			{
+				"name": "Essence deposit (upper ring) (north-east)",
+				"stepsize": 1,
+				"unk_byte": 0,
+				"val": 8,
+				"varbit": 13681
+			},
+			{
+				"name": "Essence deposit (upper ring) (south)",
+				"stepsize": 1,
+				"unk_byte": 0,
+				"val": 9,
+				"varbit": 13681
+			},
+			{
+				"name": "Essence deposit (middle ring) (south-east)",
+				"stepsize": 1,
+				"unk_byte": 0,
+				"val": 10,
+				"varbit": 13681
+			},
+			{
+				"name": "Large essence deposit (middle ring) (north-east)",
+				"stepsize": 1,
+				"unk_byte": 0,
+				"val": 11,
+				"varbit": 13681
+			},
+			{
+				"name": "Large essence deposit (upper ring) (north)",
+				"stepsize": 1,
+				"unk_byte": 0,
+				"val": 12,
+				"varbit": 13681
+			},
+			{
+				"name": "Large essence deposit (upper ring) (north)",
+				"stepsize": 1,
+				"unk_byte": 0,
+				"val": 13,
+				"varbit": 13681
+			},
+			{
+				"name": "Large essence deposit (upper ring) (north-west)",
+				"stepsize": 1,
+				"unk_byte": 0,
+				"val": 14,
+				"varbit": 13681
+			},
+			{
+				"name": "Large essence deposit (middle ring) (north-west)",
+				"stepsize": 1,
+				"unk_byte": 0,
+				"val": 15,
+				"varbit": 13681
+			}
+		],
+		"skill_req_count": [
+			2
+		],
+		"skill_reqs_8": [
+			{
+				"level": 105,
+				"skillID": 14,
+				"text": "Skill: Mining 105",
+				"unk_bytes": [
+					0,
+					1
+				]
+			}
+		],
+		"spriteID": 30108,
+		"subcategory": 5738,
+		"subreq_count": [
+			15
+		],
+		"varbit_prereqs": [
+			{
+				"description": "Quest (partial): Heralds of Crimson",
+				"unk_byte": 0,
+				"value": 1,
+				"varbit": 62127
+			}
+		]
+	},
+	{
+		"category": 4868,
+		"description": "Discover the hidden places in Moonsylvar Wood.",
+		"id": 5092,
+		"name": "Lost and...Found?",
+		"op_2": [
+			0
+		],
+		"points": 0,
+		"quest_req_for_miniquests": [
+			533
+		],
+		"skill_req_count": [
+			1
+		],
+		"spriteID": 30108,
+		"subcategory": 5738,
+		"subreq_count": [
+			5
+		],
+		"varbit_reqs": [
+			{
+				"description": "Rediscover Inanna's Den",
+				"unk_byte": 0,
+				"value": 1,
+				"varbit": 61973
+			},
+			{
+				"description": "Rediscover the ancient willow",
+				"unk_byte": 0,
+				"value": 1,
+				"varbit": 61974
+			},
+			{
+				"description": "Sanguine glade",
+				"unk_byte": 0,
+				"value": 1,
+				"varbit": 61976
+			},
+			{
+				"description": "Sanguine bear cave",
+				"unk_byte": 0,
+				"value": 1,
+				"varbit": 61975
+			},
+			{
+				"description": "Southern marker",
+				"unk_byte": 0,
+				"value": 1,
+				"varbit": 61978
+			}
+		]
+	},
+	{
+		"category": 4868,
+		"description": "Burn a petrified knot in a bogolin brazier.",
+		"id": 5093,
+		"name": "Hot Knot",
+		"op_2": [
+			0
+		],
+		"points": 5,
+		"skill_req_count": [
+			3
+		],
+		"skill_reqs_8": [
+			{
+				"level": 65,
+				"skillID": 8,
+				"text": "Skill: Woodcutting 65",
+				"unk_bytes": [
+					0,
+					1
+				]
+			},
+			{
+				"level": 67,
+				"skillID": 11,
+				"text": "Skill: Firemaking 67",
+				"unk_bytes": [
+					0,
+					1
+				]
+			}
+		],
+		"spriteID": 30108,
+		"subcategory": 5738,
+		"subreq_count": [
+			1
+		],
+		"varbit_prereqs": [
+			{
+				"description": "Quest (partial): Heralds of Crimson",
+				"unk_byte": 0,
+				"value": 155,
+				"varbit": 62090
+			}
+		],
+		"varbit_reqs": [
+			{
+				"description": "",
+				"unk_byte": 0,
+				"value": 1,
+				"varbit": 62032
+			}
+		]
+	},
+	{
+		"category": 4868,
+		"description": "Fletch one of each Linbog totem.",
+		"id": 5094,
+		"name": "Mama-Rummer-Totummer",
+		"op_2": [
+			0
+		],
+		"points": 10,
+		"skill_req_count": [
+			2
+		],
+		"skill_reqs_8": [
+			{
+				"level": 105,
+				"skillID": 9,
+				"text": "Skill: Fletching 105",
+				"unk_bytes": [
+					0,
+					1
+				]
+			}
+		],
+		"spriteID": 30108,
+		"subcategory": 5738,
+		"subreq_count": [
+			3
+		],
+		"varbit_prereqs": [
+			{
+				"description": "Quest (partial): Heralds of Crimson",
+				"unk_byte": 0,
+				"value": 155,
+				"varbit": 62090
+			}
+		],
+		"varbit_reqs": [
+			{
+				"description": "Fletch a toad totem.",
+				"unk_byte": 0,
+				"value": 1,
+				"varbit": 62029
+			},
+			{
+				"description": "Fletch a mollusc totem.",
+				"unk_byte": 0,
+				"value": 1,
+				"varbit": 62030
+			},
+			{
+				"description": "Fletch an elemental totem.",
+				"unk_byte": 0,
+				"value": 1,
+				"varbit": 62031
+			}
+		]
+	},
+	{
+		"category": 4868,
+		"description": "Repair the Fenmoor fairy ring.",
+		"id": 5095,
+		"name": "Moor-ring",
+		"op_2": [
+			0
+		],
+		"points": 5,
+		"reward": "Access to a new fairy ring destination.",
+		"skill_req_count": [
+			2
+		],
+		"skill_reqs_8": [
+			{
+				"level": 79,
+				"skillID": 16,
+				"text": "Skill: Agility 79",
+				"unk_bytes": [
+					0,
+					1
+				]
+			}
+		],
+		"spriteID": 30108,
+		"subcategory": 5738,
+		"subreq_count": [
+			1
+		],
+		"varbit_prereqs": [
+			{
+				"description": "Quest (partial): Heralds of Crimson",
+				"unk_byte": 0,
+				"value": 155,
+				"varbit": 62090
+			}
+		],
+		"varbit_reqs": [
+			{
+				"description": "",
+				"unk_byte": 0,
+				"value": 1,
+				"varbit": 62011
+			}
+		]
+	},
+	{
+		"category": 4868,
+		"description": "Help the bogolins to reach an accord.",
+		"id": 5096,
+		"name": "Bogolin Dichromacy",
+		"op_2": [
+			0
+		],
+		"points": 10,
+		"quest_req_for_miniquests": [
+			533
+		],
+		"reward": "Ability to create Bog 'n' Hog stew, and to use Fenmoor's mushroom and nightshade farming patches.",
+		"skill_req_count": [
+			1
+		],
+		"spriteID": 30108,
+		"subcategory": 5738,
+		"subreq_count": [
+			5
+		],
+		"varbit_reqs": [
+			{
+				"description": "Learn the recipe for Bog 'n' Hog stew.",
+				"unk_byte": 0,
+				"value": 1,
+				"varbit": 62130
+			},
+			{
+				"description": "Deliver a Bog 'n' Hog stew.",
+				"unk_byte": 0,
+				"value": 2,
+				"varbit": 62129
+			},
+			{
+				"description": "Deliver a Reap 'n' Creep stew.",
+				"unk_byte": 0,
+				"value": 3,
+				"varbit": 62129
+			},
+			{
+				"description": "Be granted use of the Globin nightshade patch.",
+				"unk_byte": 0,
+				"value": 1,
+				"varbit": 61972
+			},
+			{
+				"description": "Be granted use of the Linbog mushroom patch.",
+				"unk_byte": 0,
+				"value": 1,
+				"varbit": 61971
+			}
+		]
+	},
+	{
+		"category": 4868,
+		"description": "Restore all colossus murals across Havenhythe.",
+		"id": 5097,
+		"name": "Fates of the Colossi",
+		"op_2": [
+			0
+		],
+		"points": 10,
+		"skill_req_count": [
+			2
+		],
+		"skill_reqs_8": [
+			{
+				"level": 77,
+				"skillID": 25,
+				"text": "Skill: Divination 77",
+				"unk_bytes": [
+					0,
+					1
+				]
+			}
+		],
+		"spriteID": 30108,
+		"subcategory": 5738,
+		"subreq_count": [
+			7
+		],
+		"varbit_prereqs": [
+			{
+				"description": "Quest (partial): Heralds of Crimson",
+				"unk_byte": 0,
+				"value": 155,
+				"varbit": 62090
+			}
+		],
+		"varbit_reqs": [
+			{
+				"description": "Fully restore the bat colossus mural.",
+				"unk_byte": 0,
+				"value": 3,
+				"varbit": 62041
+			},
+			{
+				"description": "Fully restore the fox colossus mural.",
+				"unk_byte": 0,
+				"value": 3,
+				"varbit": 62042
+			},
+			{
+				"description": "Fully restore the millipede colossus mural.",
+				"unk_byte": 0,
+				"value": 3,
+				"varbit": 62043
+			},
+			{
+				"description": "Fully restore the spider colossus mural.",
+				"unk_byte": 0,
+				"value": 3,
+				"varbit": 62044
+			},
+			{
+				"description": "Fully restore the tree colossus mural.",
+				"unk_byte": 0,
+				"value": 3,
+				"varbit": 62045
+			},
+			{
+				"description": "Fully restore the unicorn colossus mural.",
+				"unk_byte": 0,
+				"value": 3,
+				"varbit": 62046
+			},
+			{
+				"description": "Fully restore the wolf colossus mural.",
+				"unk_byte": 0,
+				"value": 3,
+				"varbit": 62047
+			}
+		]
+	},
+	{
+		"category": 4746,
+		"description": "Find all 7 tablets of 'Divine Ichor'.",
+		"id": 5098,
+		"name": "Divine Ichor",
+		"op_2": [
+			0
+		],
+		"points": 20,
+		"skill_req_count": [
+			1
+		],
+		"spriteID": 30108,
+		"subcategory": 4876,
+		"subreq_count": [
+			7
+		],
+		"varbit_prereqs": [
+			{
+				"description": "Quest (partial): Heralds of Crimson",
+				"unk_byte": 0,
+				"value": 155,
+				"varbit": 62090
+			}
+		],
+		"varbit_reqs": [
+			{
+				"description": "Rumblings",
+				"unk_byte": 0,
+				"value": 1,
+				"varbit": 62072
+			},
+			{
+				"description": "The Moving Earth",
+				"unk_byte": 0,
+				"value": 1,
+				"varbit": 62073
+			},
+			{
+				"description": "The Creature",
+				"unk_byte": 0,
+				"value": 1,
+				"varbit": 62074
+			},
+			{
+				"description": "The Harvest",
+				"unk_byte": 0,
+				"value": 1,
+				"varbit": 62075
+			},
+			{
+				"description": "Decay",
+				"unk_byte": 0,
+				"value": 1,
+				"varbit": 62076
+			},
+			{
+				"description": "Hardening",
+				"unk_byte": 0,
+				"value": 1,
+				"varbit": 62078
+			},
+			{
+				"description": "Endless Bounty",
+				"unk_byte": 0,
+				"value": 1,
+				"varbit": 62079
 			}
 		]
 	}

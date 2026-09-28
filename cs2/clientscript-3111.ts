@@ -137,6 +137,11 @@ function script3111(int0: number, int1: number, int2: number, string0: string): 
             string0 = script18627(int0, string0, int1);
             break;
         }
+        case 53444: {
+            stack(int0);
+            string0 = script20676(string0, int1);
+            break;
+        }
         case 44946: {
             string0 = script3726(int0, string0, int1);
             break;
@@ -589,6 +594,17 @@ function script3111(int0: number, int1: number, int2: number, string0: string): 
         }
         case 37205: {
             string0 = script18605(int0, string0, int1);
+            break;
+        }
+        case 53439: {
+            stack(int0);
+            stack(string0);
+            string0 = script20674(int1);
+            break;
+        }
+        case 53440: {
+            stack(int0);
+            string0 = script20675(string0, int1);
             break;
         }
         case 14715: {

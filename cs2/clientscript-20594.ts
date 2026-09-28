@@ -85,7 +85,7 @@ function script20594(): void {
                         int7 = 1;
                         int8 = comp(1494, 28);  // marketplace_featured:fixed_slot_4
                         int17 = (int17 + 1);
-                        if ((varbitplayer_20806 == 0)) {
+                        if (((varbitplayer_20806 == 0) && (MAP_MEMBERS() == 1))) {
                             int1 = 17529;
                             int2 = -1;
                             int26 = 1;
@@ -193,7 +193,7 @@ function script20594(): void {
                     int7 = 1;
                     int8 = comp(1494, 28);  // marketplace_featured:fixed_slot_4
                     int17 = (int17 + 1);
-                    if ((varbitplayer_20806 == 0)) {
+                    if (((varbitplayer_20806 == 0) && (MAP_MEMBERS() == 1))) {
                         int1 = 17529;
                         int2 = -1;
                         int26 = 1;

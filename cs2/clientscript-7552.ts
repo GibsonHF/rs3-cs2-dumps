@@ -244,6 +244,21 @@ function script7552(int0: number, int1: number): number {
             };
             break;
         }
+        case 333: {
+            if ((varbitplayer_62096 == 0)) {
+                return 36585 as graphic;
+            };
+            return enum_getvalue(0, 23, 371 as cs2enum, 9);
+        }
+        case 334: {
+            if ((varbitplayer_62095 < 3)) {
+                return 36585 as graphic;
+            };
+            return enum_getvalue(0, 23, 371 as cs2enum, 14);
+        }
+        case 335: {
+            return enum_getvalue(0, 23, 371 as cs2enum, 16);
+        }
         case 260: {
             return 30032 as graphic;
         }

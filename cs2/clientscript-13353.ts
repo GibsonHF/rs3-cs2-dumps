@@ -22,7 +22,7 @@ function script13353(): void {
         int5 = 20;
         int6 = 5;
     };
-    while ((int0 < 1820)) {
+    while ((int0 < 1920)) {
         CC_CREATE(comp(517, 201), 5, int0);  // bank:bank_inv
         CC_SETSIZE(int3, int4, 0, 0);
         CC_SETOUTLINE(1);

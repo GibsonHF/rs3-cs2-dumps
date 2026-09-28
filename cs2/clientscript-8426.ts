@@ -357,7 +357,7 @@ function script8426(int0: number, int1: number, int2: number, int3: number, int4
             int29 = enum_getvalue(26, 26, 10148, int17);
         };
     };
-    int21 = 264;
+    int21 = 265;
     var int31 = 0;
     define_array(int21);
     define_array[65536](int21);
@@ -528,7 +528,7 @@ function script8426(int0: number, int1: number, int2: number, int3: number, int4
                             pop_array[1](int20, enum_getreverseindex(73, 0, int29, int19, 0));
                         };
                     } else {
-                        pop_array[1](int20, ((struct_getparam(int19, 2807) * (264 + 1)) + struct_getparam(int19, 2793)));
+                        pop_array[1](int20, ((struct_getparam(int19, 2807) * (265 + 1)) + struct_getparam(int19, 2793)));
                     };
                     int20 = (int20 + 1);
                     cc_setparam(4651, int33);
@@ -676,7 +676,7 @@ function script8426(int0: number, int1: number, int2: number, int3: number, int4
     var int49 = 0;
     var int50 = push_array[2](0);
     var int51 = 0;
-    if ((CC_FIND(int3, (264 + 1)) == 1)) {
+    if ((CC_FIND(int3, (265 + 1)) == 1)) {
         if ((int31 == 0)) {
             CC_SETTEXT(script15067(int7, int8));
             CC_SETSIZE(0, 0, 1, 1);

@@ -18,7 +18,7 @@ function script9325(int0: number, string0: string): void {
         script10239();
         script9511(int0);
         IF_SETHIDE(true, comp(517, 202));  // bank:diango_inv
-        while ((int1 < 1820)) {
+        while ((int1 < 1920)) {
             if ((CC_FIND(comp(517, 201), int1) == 1)) {  // bank:bank_inv
                 CC_SETHIDE(true);
             };
@@ -62,7 +62,7 @@ function script9325(int0: number, string0: string): void {
         };
         int1 = (int1 + 1);
     };
-    while ((int3 < 1820)) {
+    while ((int3 < 1920)) {
         if ((CC_FIND(comp(517, 201), int3) == 1)) {  // bank:bank_inv
             CC_SETHIDE(true);
         };

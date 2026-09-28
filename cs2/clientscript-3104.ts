@@ -27,6 +27,9 @@ function script3104(int0: number): number {
             };
             break;
         }
+        case 103: {
+            return script734(varbitplayer_62011);
+        }
         case 111: {
             if ((varplayer_2696 <= 100)) {
                 return 0;

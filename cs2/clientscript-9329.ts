@@ -31,7 +31,7 @@ function script9329(int0: number): void {
             CC_SETHIDE(true);
         };
     };
-    while ((int3 < 1820)) {
+    while ((int3 < 1920)) {
         if ((CC_FIND(comp(517, 201), int3) == 1)) {  // bank:bank_inv
             CC_SETHIDE(true);
         };

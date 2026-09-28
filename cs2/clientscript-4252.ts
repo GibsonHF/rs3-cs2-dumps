@@ -1673,6 +1673,18 @@ function script4252(int0: number, int1: number): void {
             varclient_8481 = int2;
             break;
         }
+        case 53441: {
+            varclient_8489 = int2;
+            break;
+        }
+        case 53442: {
+            varclient_8490 = int2;
+            break;
+        }
+        case 53443: {
+            varclient_8491 = int2;
+            break;
+        }
     };
     return;
 }

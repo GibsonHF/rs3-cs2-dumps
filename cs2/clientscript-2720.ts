@@ -35,5 +35,15 @@ function script2720(int0: number): number {
     if ((item_getparam(int0, 7801) > 0)) {
         int1 = (int1 * 10);
     };
+    switch (varplayer_304) {
+        case 1016: {
+            int1 = SCALE(int1, 100, 250);
+            break;
+        }
+        case 1017: {
+            int1 = SCALE(int1, 100, 200);
+            break;
+        }
+    };
     return MAX(int1, 1);
 }
