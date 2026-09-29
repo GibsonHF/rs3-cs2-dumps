@@ -1,7 +1,7 @@
 //
 function script8136(int0: number): void {
     if ((int0 == 1)) {
-        IF_SETONTIMER(callback(script9035), comp(1477, 8));  // toplevel_v2:keyboard_handler
+        IF_SETONTIMER(callback(script9035), comp(1477, 8));  // toplevel_v2:combatv2_actionbar_keybind_listener
         if ((varclient_6754 == 1)) {
             varclient_6745 = 30;
         } else {

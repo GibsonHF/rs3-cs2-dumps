@@ -9,7 +9,7 @@ function script20801(int0: number, int1: number, int2: number, int3: number, int
     var int15 = (4 / 2);
     var string0 = "";
     var int16 = 1;
-    if (((varbitclient_61875 == 1) && (int0 == comp(1512, 12)))) {  // house_furniture_catalogue:items
+    if (((varbitclient_61875 == 1) && (int0 == comp(1512, 12)))) {  // house_furniture_catalogue:categories
         script7853(int0, 63, 0, int12, 0, 0, 40, 36, 0, 0, callback(script4476), int16, 1, 1, 1);
         CC_SETOP(1, "Select");
         CC_SETONOP(callback(script20805, -2147483645, -2147483643, int3, int4, int5, int6, int7, int8, int9));

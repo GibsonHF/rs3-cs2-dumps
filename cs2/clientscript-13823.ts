@@ -4,7 +4,7 @@ function script13823(): void {
         return;
     };
     if ((script6431() == 0)) {
-        IF_SETONTIMER(callback(script13824), comp(1477, 883));  // toplevel_v2:hover_text_display
+        IF_SETONTIMER(callback(script13824), comp(1477, 883));  // toplevel_v2:flash_yellow_11
     };
     return;
 }

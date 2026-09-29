@@ -2,8 +2,8 @@
 function script9690(int0: number): void {
     var int1 = 0;
     var int2 = 0;
-    var int3 = IF_GETWIDTH(comp(1477, 321));  // toplevel_v2:twitch_window_background
-    var int4 = IF_GETHEIGHT(comp(1477, 321));  // toplevel_v2:twitch_window_background
+    var int3 = IF_GETWIDTH(comp(1477, 321));  // toplevel_v2:twitch_window
+    var int4 = IF_GETHEIGHT(comp(1477, 321));  // toplevel_v2:twitch_window
     if ((((int0 == 26) && (varbitplayer_27169 == 0)) && (varbitplayer_19925 == 0))) {
         [int1, int2] = script8726(8, int0);
         if ((int1 == -1)) {

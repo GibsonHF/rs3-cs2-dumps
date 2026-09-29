@@ -13,21 +13,21 @@ function script4297(int0: number, int1: number): void {
             int3 = 179;
             int4 = 36;
             int5 = 0;
-            IF_SETCOLOUR(script693(int3, int4, int5), comp(1185, 10));  // nature_boss_healthbar_second_bar:health_bar
+            IF_SETCOLOUR(script693(int3, int4, int5), comp(1185, 10));  // nature_boss_healthbar_second_bar:health_bar_fill
             break;
         }
         case 3: {
             int3 = 255;
             int4 = 51;
             int5 = 153;
-            IF_SETCOLOUR(script693(int3, int4, int5), comp(1185, 10));  // nature_boss_healthbar_second_bar:health_bar
+            IF_SETCOLOUR(script693(int3, int4, int5), comp(1185, 10));  // nature_boss_healthbar_second_bar:health_bar_fill
             break;
         }
         case 1: {
             int3 = 163;
             int4 = 0;
             int5 = 200;
-            IF_SETCOLOUR(script693(int3, int4, int5), comp(1185, 10));  // nature_boss_healthbar_second_bar:health_bar
+            IF_SETCOLOUR(script693(int3, int4, int5), comp(1185, 10));  // nature_boss_healthbar_second_bar:health_bar_fill
             break;
         }
     };

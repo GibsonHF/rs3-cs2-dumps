@@ -1,8 +1,8 @@
 //
 function script7898(): void {
     if ((varclient_3484 == 0)) {
-        varclient_3487 = IF_GETMODELANGLE_Y(comp(1420, 46));  // acc_create:avatar_paperdoll
-        varclient_6880 = IF_GETMODELANGLE_Y(comp(1420, 47));  // acc_create:avatar_head
+        varclient_3487 = IF_GETMODELANGLE_Y(comp(1420, 46));  // acc_create:large_3
+        varclient_6880 = IF_GETMODELANGLE_Y(comp(1420, 47));  // acc_create:large_4
         varclient_3483 = GET_MOUSEX();
         varclient_3484 = 1;
         varclient_3494 = CLIENTCLOCK();

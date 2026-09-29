@@ -10,20 +10,20 @@ function script13879(): void {
                         script14175();
                     };
                     script14987(0);
-                    IF_OPENSUBCLIENT(comp(1477, 922), 1921);  // toplevel_v2:minimenu_layer
+                    IF_OPENSUBCLIENT(comp(1477, 922), 1921);  // toplevel_v2:tooltips_param_layer
                     IF_SETONKEY(callback(script736, -2147483640, -2147483639), comp(1921, 1));  // loading_screen:loading_rect
-                    IF_SETONTIMER(callback(script8300, 0), comp(1477, 922));  // toplevel_v2:minimenu_layer
+                    IF_SETONTIMER(callback(script8300, 0), comp(1477, 922));  // toplevel_v2:tooltips_param_layer
                     script19667();
                 } else {
-                    IF_SETONTIMER(callback(script8298), comp(1477, 922));  // toplevel_v2:minimenu_layer
+                    IF_SETONTIMER(callback(script8298), comp(1477, 922));  // toplevel_v2:tooltips_param_layer
                     script6556(5);
                 };
             } else {
-                IF_SETONTIMER(callback(script8298), comp(1477, 922));  // toplevel_v2:minimenu_layer
+                IF_SETONTIMER(callback(script8298), comp(1477, 922));  // toplevel_v2:tooltips_param_layer
                 script6556(5);
             };
         } else {
-            IF_SETONTIMER(callback(script8298), comp(1477, 922));  // toplevel_v2:minimenu_layer
+            IF_SETONTIMER(callback(script8298), comp(1477, 922));  // toplevel_v2:tooltips_param_layer
             script6556(5);
         };
     };

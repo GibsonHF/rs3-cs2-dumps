@@ -8,8 +8,8 @@ function script20517(int0: number): void {
     if ((int2 == comp(-1, 65535))) {
         return;
     };
-    var int3 = IF_GETWIDTH(comp(1477, 27));  // toplevel_v2:viewport
-    var int4 = IF_GETHEIGHT(comp(1477, 27));  // toplevel_v2:viewport
+    var int3 = IF_GETWIDTH(comp(1477, 27));  // toplevel_v2:background_colour
+    var int4 = IF_GETHEIGHT(comp(1477, 27));  // toplevel_v2:background_colour
     var int5 = IF_GETX(int2);
     var int6 = IF_GETY(int2);
     var int7 = IF_GETWIDTH(int2);

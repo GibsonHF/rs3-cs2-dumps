@@ -2,7 +2,7 @@
 function script7381(): void {
     IF_SETHIDE(true, comp(754, 32));  // bslay_shop:items
     IF_SETHIDE(true, comp(754, 84));  // bslay_shop:effects
-    IF_SETHIDE(false, comp(754, 238));  // bslay_shop:rewards
+    IF_SETHIDE(false, comp(754, 238));  // bslay_shop:head_lock_state
     IF_SETHIDE(true, comp(754, 8));  // bslay_shop:items_tab_selected_layer
     IF_SETHIDE(true, comp(754, 17));  // bslay_shop:effects_tab_selected_layer
     IF_SETHIDE(false, comp(754, 26));  // bslay_shop:rewards_tab_selected_layer

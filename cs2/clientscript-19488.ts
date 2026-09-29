@@ -1,6 +1,6 @@
 //
 function script19488(string0: string, string1: string, string2: string, string3: string): void {
-    if ((IF_HASSUBMODAL(comp(1477, 694), 1313) == 0)) {  // toplevel_v2:bank_window_background
+    if ((IF_HASSUBMODAL(comp(1477, 694), 1313) == 0)) {  // toplevel_v2:channel_bar_window_border
         IF_RESUME_PAUSEBUTTON(86048912);
         IF_SETHIDE(true, comp(1313, 134));  // group_ironman_storage:confirm_withdraw_item_layer
         return;

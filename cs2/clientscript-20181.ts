@@ -13,10 +13,10 @@ function script20181(int0: number, int1: number, int2: number, int3: number, str
     var int8 = 44;
     if ((varbitplayer_22875 != 0)) {
         IF_SETHIDE(true, comp(1395, 4));  // league_info_popup:window_decorations
-        IF_SETHIDE(false, comp(1395, 11));  // league_info_popup:window_header
+        IF_SETHIDE(false, comp(1395, 11));  // league_info_popup:window_decorations_legacymobile
     } else {
         IF_SETHIDE(false, comp(1395, 4));  // league_info_popup:window_decorations
-        IF_SETHIDE(true, comp(1395, 11));  // league_info_popup:window_header
+        IF_SETHIDE(true, comp(1395, 11));  // league_info_popup:window_decorations_legacymobile
     };
     IF_SETHIDE(false, comp(1395, 0));  // league_info_popup:base
     if ((int0 != -1 as graphic)) {
@@ -42,30 +42,30 @@ function script20181(int0: number, int1: number, int2: number, int3: number, str
     if ((int4 == -1 as graphic)) {
         var int4 = 36318 as graphic;
     };
-    IF_SETGRAPHIC(int4, comp(1395, 6));  // league_info_popup:trim_l
-    IF_SETGRAPHIC(int4, comp(1395, 10));  // league_info_popup:footer_legacymobile
+    IF_SETGRAPHIC(int4, comp(1395, 6));  // league_info_popup:header_relic_icon
+    IF_SETGRAPHIC(int4, comp(1395, 10));  // league_info_popup:footer_relic_icon
     switch (int3) {
         case 5: {
-            IF_SETCOLOUR(0, comp(1395, 25));  // league_info_popup:graphic_1
-            IF_SETGRAPHIC(36255 as graphic, comp(1395, 21));  // league_info_popup:ribbon_r
-            IF_SETGRAPHIC(36256 as graphic, comp(1395, 23));  // league_info_popup:flash
-            IF_SETGRAPHIC(36257 as graphic, comp(1395, 24));  // league_info_popup:graphic_2
+            IF_SETCOLOUR(0, comp(1395, 25));  // league_info_popup:title
+            IF_SETGRAPHIC(36255 as graphic, comp(1395, 21));  // league_info_popup:ribbon_l
+            IF_SETGRAPHIC(36256 as graphic, comp(1395, 23));  // league_info_popup:ribbon_m
+            IF_SETGRAPHIC(36257 as graphic, comp(1395, 24));  // league_info_popup:ribbon_r
             break;
         }
         case 4: {
-            IF_SETGRAPHIC(36258 as graphic, comp(1395, 21));  // league_info_popup:ribbon_r
-            IF_SETGRAPHIC(36259 as graphic, comp(1395, 23));  // league_info_popup:flash
-            IF_SETGRAPHIC(36260 as graphic, comp(1395, 24));  // league_info_popup:graphic_2
+            IF_SETGRAPHIC(36258 as graphic, comp(1395, 21));  // league_info_popup:ribbon_l
+            IF_SETGRAPHIC(36259 as graphic, comp(1395, 23));  // league_info_popup:ribbon_m
+            IF_SETGRAPHIC(36260 as graphic, comp(1395, 24));  // league_info_popup:ribbon_r
             break;
         }
         default: {
-            IF_SETGRAPHIC(36261 as graphic, comp(1395, 21));  // league_info_popup:ribbon_r
-            IF_SETGRAPHIC(36262 as graphic, comp(1395, 23));  // league_info_popup:flash
-            IF_SETGRAPHIC(36263 as graphic, comp(1395, 24));  // league_info_popup:graphic_2
+            IF_SETGRAPHIC(36261 as graphic, comp(1395, 21));  // league_info_popup:ribbon_l
+            IF_SETGRAPHIC(36262 as graphic, comp(1395, 23));  // league_info_popup:ribbon_m
+            IF_SETGRAPHIC(36263 as graphic, comp(1395, 24));  // league_info_popup:ribbon_r
             break;
         }
     };
-    var int9 = script15891(string1, IF_GETWIDTH(comp(1395, 15)), IF_GETFONTMETRICS(comp(1395, 15)), 0);  // league_info_popup:points_wrapper
+    var int9 = script15891(string1, IF_GETWIDTH(comp(1395, 15)), IF_GETFONTMETRICS(comp(1395, 15)), 0);  // league_info_popup:desc
     var int10 = ((int7 + int9) + int8);
     if ((int10 <= 200)) {
         IF_SETPOSITION(0, 0, 1, 0, comp(1395, 0));  // league_info_popup:base
@@ -74,11 +74,11 @@ function script20181(int0: number, int1: number, int2: number, int3: number, str
         IF_SETPOSITION(0, (0 - int6), 1, 0, comp(1395, 0));  // league_info_popup:base
         IF_SETSIZE(300, (MIN(int10, 200) + int6), 0, 0, comp(1395, 0));  // league_info_popup:base
     };
-    IF_SETSIZE(0, int8, 1, 1, comp(1395, 15));  // league_info_popup:points_wrapper
-    IF_SETTEXT(string0, comp(1395, 25));  // league_info_popup:graphic_1
-    IF_SETTEXT(string1, comp(1395, 15));  // league_info_popup:points_wrapper
-    IF_SETTEXT(string2, comp(1395, 18));  // league_info_popup:ribbon
-    IF_SETTEXT(string3, comp(1395, 19));  // league_info_popup:ribbon_l
+    IF_SETSIZE(0, int8, 1, 1, comp(1395, 15));  // league_info_popup:desc
+    IF_SETTEXT(string0, comp(1395, 25));  // league_info_popup:title
+    IF_SETTEXT(string1, comp(1395, 15));  // league_info_popup:desc
+    IF_SETTEXT(string2, comp(1395, 18));  // league_info_popup:points_gained
+    IF_SETTEXT(string3, comp(1395, 19));  // league_info_popup:points_total
     IF_SETONTIMER(callback(script20182, CLIENTCLOCK()), comp(1395, 0));  // league_info_popup:base
     return;
 }

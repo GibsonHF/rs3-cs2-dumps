@@ -1,6 +1,6 @@
 //
 function script1898(): void {
-    IF_CLEARSCRIPTHOOKS(comp(1477, 38));  // toplevel_v2:machinima_camera
+    IF_CLEARSCRIPTHOOKS(comp(1477, 38));  // toplevel_v2:worldmap_pinch_controls
     script14182(96796710);
     script8808();
     script675();

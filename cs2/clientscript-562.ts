@@ -33,7 +33,7 @@ function script562(int0: number, int1: number, int2: number, int3: number, int4:
     };
     int8 = (int8 + (IF_GETWIDTH(int4) - IF_GETWIDTH(int1)));
     int9 = (int9 + (IF_GETHEIGHT(int4) - IF_GETHEIGHT(int1)));
-    var int16 = (((IF_GETWIDTH(comp(1477, 725)) - int8) - 6) / (113 + 6));  // toplevel_v2:fullmodal_window_background
+    var int16 = (((IF_GETWIDTH(comp(1477, 725)) - int8) - 6) / (113 + 6));  // toplevel_v2:parent_window_tab_background
     var int17 = MAX(script13(varplayer_5148), (int13 * int12));
     script15544(104464419, 104464408);
     script15544(104464419, 104464409);
@@ -56,7 +56,7 @@ function script562(int0: number, int1: number, int2: number, int3: number, int4:
             [int12, int13] = script23(int17, int12, int13);
             int8 = (int8 + ((113 + 6) * MIN(int12, 5)));
             int9 = (int9 + ((113 + 6) * MIN(int13, int14)));
-            if ((int9 >= IF_GETHEIGHT(comp(1477, 725)))) {  // toplevel_v2:fullmodal_window_background
+            if ((int9 >= IF_GETHEIGHT(comp(1477, 725)))) {  // toplevel_v2:parent_window_tab_background
                 int9 = 0;
                 int11 = 1;
             };
@@ -76,7 +76,7 @@ function script562(int0: number, int1: number, int2: number, int3: number, int4:
         [int12, int13] = script23(int17, int12, int13);
         int8 = (int8 + ((113 + 6) * MIN(int12, 5)));
         int9 = (int9 + ((113 + 6) * MIN(int13, int14)));
-        if ((int9 >= IF_GETHEIGHT(comp(1477, 725)))) {  // toplevel_v2:fullmodal_window_background
+        if ((int9 >= IF_GETHEIGHT(comp(1477, 725)))) {  // toplevel_v2:parent_window_tab_background
             int9 = 0;
             int11 = 1;
         };

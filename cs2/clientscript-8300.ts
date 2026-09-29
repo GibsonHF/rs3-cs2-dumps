@@ -6,8 +6,8 @@ function script8300(int0: number): void {
         if ((script14160() == 1)) {
             script14174();
         };
-        IF_CLOSESUBCLIENT(comp(1477, 922));  // toplevel_v2:minimenu_layer
-        IF_SETONTIMER(callback(script8298), comp(1477, 922));  // toplevel_v2:minimenu_layer
+        IF_CLOSESUBCLIENT(comp(1477, 922));  // toplevel_v2:tooltips_param_layer
+        IF_SETONTIMER(callback(script8298), comp(1477, 922));  // toplevel_v2:tooltips_param_layer
         return;
     };
     var int2 = MIN(400, int0);
@@ -17,6 +17,6 @@ function script8300(int0: number): void {
         int2 = MIN(400, (int2 + int3));
         IF_SETSIZE(int2, 15, 0, 0, comp(1921, 6));  // loading_screen:map_loading_bar
     };
-    IF_SETONTIMER(callback(script8300, int2), comp(1477, 922));  // toplevel_v2:minimenu_layer
+    IF_SETONTIMER(callback(script8300, int2), comp(1477, 922));  // toplevel_v2:tooltips_param_layer
     return;
 }

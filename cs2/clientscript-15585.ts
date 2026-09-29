@@ -53,19 +53,19 @@ function script15585(): void {
         script13959(93061179, 655, int2);
         switch (varbitplayer_49039) {
             case 0: {
-                IF_SETGRAPHIC(-1 as graphic, comp(1420, 60));  // acc_create:advanced_icon_ironman
+                IF_SETGRAPHIC(-1 as graphic, comp(1420, 60));  // acc_create:large_17
                 break;
             }
             case 1: {
-                IF_SETGRAPHIC(34557 as graphic, comp(1420, 60));  // acc_create:advanced_icon_ironman
+                IF_SETGRAPHIC(34557 as graphic, comp(1420, 60));  // acc_create:large_17
                 break;
             }
             case 2: {
-                IF_SETGRAPHIC(34558 as graphic, comp(1420, 60));  // acc_create:advanced_icon_ironman
+                IF_SETGRAPHIC(34558 as graphic, comp(1420, 60));  // acc_create:large_17
                 break;
             }
             case 3: {
-                IF_SETGRAPHIC(34553 as graphic, comp(1420, 60));  // acc_create:advanced_icon_ironman
+                IF_SETGRAPHIC(34553 as graphic, comp(1420, 60));  // acc_create:large_17
                 break;
             }
         };

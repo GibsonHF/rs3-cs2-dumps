@@ -1,8 +1,8 @@
 //
 function script5490(string0: string): void {
     var int0 = 0;
-    CC_DELETEALL(comp(1477, 888));  // toplevel_v2:optext_props
-    CC_DELETEALL(comp(1477, 889));  // toplevel_v2:examine_bubble
+    CC_DELETEALL(comp(1477, 888));  // toplevel_v2:flash_white_12
+    CC_DELETEALL(comp(1477, 889));  // toplevel_v2:warning_overlays
     if ((varclient_1691 != -1 as obj)) {
         int0 = script9568(string0, varclient_1691, 96797558, 96797561, -1, -1);
     } else {

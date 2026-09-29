@@ -203,7 +203,7 @@ function script11497(int0: number): void {
                                         CC_SETTEXTALIGN(0, 1, 0);
                                         int18 = TELEMETRY_GET_GRID_VALUE(int5, int12, int8);
                                         int2 = script12285(int6, int13);
-                                        if (((((int0 == 1) && (int9 == 1)) && (varbitclient_2053 == 1)) && (CC_FIND[1](comp(1477, 689), int2) == 1))) {  // toplevel_v2:ribbon_context_wrapper
+                                        if (((((int0 == 1) && (int9 == 1)) && (varbitclient_2053 == 1)) && (CC_FIND[1](comp(1477, 689), int2) == 1))) {  // toplevel_v2:infobox_player_border
                                             cc_setparam[1](5945, CLIENTCLOCK());
                                             CC_SETHIDE[1](false);
                                             cc_setparam[1](5848, int1);
@@ -594,7 +594,7 @@ function script11497(int0: number): void {
         script11825(int0, int25, int14, int15, int39, int40, int41, 110166020, 110166050, varclient_5074, varclient_5075);
         IF_SETONSCROLLWHEEL(callback(), int41);
         script12597(int42, int39, int40, int41);
-    } else if (((int0 == 1) && (IF_HASSUBOVERLAY(comp(1477, 344), 1588 as overlayinterface) == 1))) {  // toplevel_v2:telemetry_window_edit_block
+    } else if (((int0 == 1) && (IF_HASSUBOVERLAY(comp(1477, 344), 1588 as overlayinterface) == 1))) {  // toplevel_v2:telemetry_window_content
         int39 = 104071178;
         int40 = 104071179;
         int41 = 104071170;

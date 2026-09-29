@@ -29,13 +29,13 @@ function script10068(int0: number, int1: number): void {
     switch (varbitplayer_18994) {
         case 3: {
             if ((int2 == 3)) {
-                IF_TRIGGEROP(comp(1477, 24), -1, 1);  // toplevel_v2:intern_notes_daily_challenge
+                IF_TRIGGEROP(comp(1477, 24), -1, 1);  // toplevel_v2:intern_notes_holder
             };
             break;
         }
         case 4: {
             if ((int2 == 6)) {
-                IF_TRIGGEROP(comp(1477, 25), -1, 1);  // toplevel_v2:intern_notes_community_events
+                IF_TRIGGEROP(comp(1477, 25), -1, 1);  // toplevel_v2:intern_notes_daily_challenge
             };
             break;
         }

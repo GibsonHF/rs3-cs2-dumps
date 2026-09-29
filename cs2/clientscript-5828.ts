@@ -75,7 +75,7 @@ function script5828(int0: number, int1: number, int2: number, int3: number, int4
     var int45 = -1;
     if ((((int0 != -1 as obj) && (int1 != -1)) && (STRING_LENGTH(string0) > 0))) {
         int44 = script7235(string0, string7, int1, int3, int4, int44);
-        if (((int3 == 96797558) && (int4 == comp(1477, 889)))) {  // toplevel_v2:examine_bubble
+        if (((int3 == 96797558) && (int4 == comp(1477, 889)))) {  // toplevel_v2:warning_overlays
             int44 = script20487(int3, int4, int44);
             int45 = int44;
         };

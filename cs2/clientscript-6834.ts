@@ -24,10 +24,10 @@ function script6834(int0: number, int1: number): void {
             break;
         }
         case 49414307: {
-            int2 = comp(754, 174);  // bslay_shop:tasks_boss_cost
+            int2 = comp(754, 174);  // bslay_shop:deaths_support_boss_cost
             int3 = comp(754, 172);  // bslay_shop:bonfire_slayer_cost
-            int4 = comp(754, 181);  // bslay_shop:tasks_buy_disabled_layer
-            int6 = comp(754, 175);  // bslay_shop:tasks_buy_layer
+            int4 = comp(754, 181);  // bslay_shop:deaths_support_buy_disabled_layer
+            int6 = comp(754, 175);  // bslay_shop:deaths_support_buy_layer
             int5 = 49414313;
             int7 = comp(754, 168);  // bslay_shop:bonfire_unlocked_text
             break;
@@ -67,27 +67,27 @@ function script6834(int0: number, int1: number): void {
             break;
         }
         case 49414328: {
-            int2 = comp(754, 192);  // bslay_shop:slayer_scroll_boss_cost
-            int4 = comp(754, 199);  // bslay_shop:slayer_scroll_buy_disabled_layer
-            int6 = comp(754, 193);  // bslay_shop:slayer_scroll_buy_layer
+            int2 = comp(754, 192);  // bslay_shop:overcharge_ring_of_death_boss_cost
+            int4 = comp(754, 199);  // bslay_shop:overcharge_ring_of_death_buy_disabled_layer
+            int6 = comp(754, 193);  // bslay_shop:overcharge_ring_of_death_buy_layer
             int5 = 49414334;
-            int7 = comp(754, 189);  // bslay_shop:slayer_scroll_unlocked_text
+            int7 = comp(754, 189);  // bslay_shop:overcharge_ring_of_death_unlocked_text
             break;
         }
         case 49414346: {
-            int2 = comp(754, 210);  // bslay_shop:deaths_support_boss_cost
-            int4 = comp(754, 217);  // bslay_shop:deaths_support_buy_disabled_layer
-            int6 = comp(754, 211);  // bslay_shop:deaths_support_buy_layer
+            int2 = comp(754, 210);  // bslay_shop:gloves_background
+            int4 = comp(754, 217);  // bslay_shop:boots_model
+            int6 = comp(754, 211);  // bslay_shop:gloves_model
             int5 = 49414352;
-            int7 = comp(754, 207);  // bslay_shop:deaths_support_unlocked_text
+            int7 = comp(754, 207);  // bslay_shop:title_icon
             break;
         }
         case 49414364: {
-            int2 = comp(754, 228);  // bslay_shop:overcharge_ring_of_death_boss_cost
-            int4 = comp(754, 235);  // bslay_shop:overcharge_ring_of_death_buy_disabled_layer
-            int6 = comp(754, 229);  // bslay_shop:overcharge_ring_of_death_buy_layer
+            int2 = comp(754, 228);  // bslay_shop:chest_background
+            int4 = comp(754, 235);  // bslay_shop:head_model
+            int6 = comp(754, 229);  // bslay_shop:chest_model
             int5 = 49414370;
-            int7 = comp(754, 225);  // bslay_shop:overcharge_ring_of_death_unlocked_text
+            int7 = comp(754, 225);  // bslay_shop:legs_text
             break;
         }
     };

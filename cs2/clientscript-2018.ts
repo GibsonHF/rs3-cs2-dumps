@@ -1,6 +1,6 @@
 //
 function script2018(int0: number): void {
-    IF_OPENSUBCLIENT(comp(1477, 881), 1476);  // toplevel_v2:plugin_build_layer_top
+    IF_OPENSUBCLIENT(comp(1477, 881), 1476);  // toplevel_v2:if_highlight_11
     var string0 = "";
     var string1 = "";
     var string2 = "";

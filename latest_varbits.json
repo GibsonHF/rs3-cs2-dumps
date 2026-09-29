@@ -3273,11 +3273,11 @@
   },
   {
     "domain": "PLAYER",
-    "source": "13539",
+    "source": "13539 [construction_house_furniture_data_index_413]",
     "lsb": 0,
     "msb": 3,
     "wiki_sync": false,
-    "id": "409 [artisan_temp_metal_colour]"
+    "id": "409"
   },
   {
     "domain": "PLAYER",
@@ -13345,11 +13345,11 @@
   },
   {
     "domain": "PLAYER",
-    "source": "13489",
+    "source": "13489 [league_combat_relic_effects_1]",
     "lsb": 15,
     "msb": 22,
     "wiki_sync": false,
-    "id": "1668 [lifepoints]"
+    "id": "1668"
   },
   {
     "domain": "PLAYER",
@@ -129741,7 +129741,7 @@
     "lsb": 7,
     "msb": 7,
     "wiki_sync": false,
-    "id": "16217 [broodoo_attack]"
+    "id": "16217"
   },
   {
     "domain": "PLAYER",
@@ -129749,23 +129749,23 @@
     "lsb": 20,
     "msb": 24,
     "wiki_sync": false,
-    "id": "16218 [favour_percentage]"
+    "id": "16218"
   },
   {
     "domain": "PLAYER",
-    "source": "13479",
+    "source": "13479 [league_relic_effects_14]",
     "lsb": 0,
     "msb": 6,
     "wiki_sync": false,
-    "id": "16219 [eventchance]"
+    "id": "16219"
   },
   {
     "domain": "PLAYER",
-    "source": "13479",
+    "source": "13479 [league_relic_effects_14]",
     "lsb": 7,
     "msb": 13,
     "wiki_sync": false,
-    "id": "16220 [reinforcemessage]"
+    "id": "16220"
   },
   {
     "domain": "PLAYER",
@@ -196765,7 +196765,7 @@
     "lsb": 6,
     "msb": 7,
     "wiki_sync": false,
-    "id": "24595 [maxlifepoints]"
+    "id": "24595"
   },
   {
     "domain": "PLAYER",
@@ -242513,11 +242513,11 @@
   },
   {
     "domain": "PLAYER",
-    "source": "13486",
+    "source": "13486 [league_relic_reop_coord]",
     "lsb": 0,
     "msb": 0,
     "wiki_sync": false,
-    "id": "30314 [invent_perk_blunted]"
+    "id": "30314"
   },
   {
     "domain": "PLAYER",
@@ -242525,7 +242525,7 @@
     "lsb": 31,
     "msb": 31,
     "wiki_sync": false,
-    "id": "30315 [invent_perk_inaccurate]"
+    "id": "30315"
   },
   {
     "domain": "PLAYER",
@@ -242545,11 +242545,11 @@
   },
   {
     "domain": "PLAYER",
-    "source": "13487",
+    "source": "13487 [league_relic_combat_shard_cooldown]",
     "lsb": 0,
     "msb": 0,
     "wiki_sync": false,
-    "id": "30318 [invent_perk_mediocrity]"
+    "id": "30318"
   },
   {
     "domain": "PLAYER",
@@ -242593,27 +242593,27 @@
   },
   {
     "domain": "PLAYER",
-    "source": "13487",
+    "source": "13487 [league_relic_combat_shard_cooldown]",
     "lsb": 1,
     "msb": 1,
     "wiki_sync": false,
-    "id": "30324 [invent_perk_dragon_bait]"
+    "id": "30324"
   },
   {
     "domain": "PLAYER",
-    "source": "13487",
+    "source": "13487 [league_relic_combat_shard_cooldown]",
     "lsb": 2,
     "msb": 2,
     "wiki_sync": false,
-    "id": "30325 [invent_perk_undead_bait]"
+    "id": "30325"
   },
   {
     "domain": "PLAYER",
-    "source": "13487",
+    "source": "13487 [league_relic_combat_shard_cooldown]",
     "lsb": 3,
     "msb": 3,
     "wiki_sync": false,
-    "id": "30326 [invent_perk_demon_bait]"
+    "id": "30326"
   },
   {
     "domain": "PLAYER",
@@ -242641,11 +242641,11 @@
   },
   {
     "domain": "PLAYER",
-    "source": "13487",
+    "source": "13487 [league_relic_combat_shard_cooldown]",
     "lsb": 4,
     "msb": 4,
     "wiki_sync": false,
-    "id": "30330 [invent_perk_atheist]"
+    "id": "30330"
   },
   {
     "domain": "PLAYER",
@@ -242673,11 +242673,11 @@
   },
   {
     "domain": "PLAYER",
-    "source": "13487",
+    "source": "13487 [league_relic_combat_shard_cooldown]",
     "lsb": 5,
     "msb": 5,
     "wiki_sync": false,
-    "id": "30334 [invent_perk_committed]"
+    "id": "30334"
   },
   {
     "domain": "PLAYER",
@@ -242689,15 +242689,15 @@
   },
   {
     "domain": "PLAYER",
-    "source": "13488",
+    "source": "13488 [league_relic_transmuting_object]",
     "lsb": 0,
     "msb": 0,
     "wiki_sync": false,
-    "id": "30336 [invent_perk_cautious]"
+    "id": "30336"
   },
   {
     "domain": "PLAYER",
-    "source": "13525",
+    "source": "13525 [skilling_offhand_var2]",
     "lsb": 0,
     "msb": 7,
     "wiki_sync": false,
@@ -242777,11 +242777,11 @@
   },
   {
     "domain": "PLAYER",
-    "source": "13488",
+    "source": "13488 [league_relic_transmuting_object]",
     "lsb": 1,
     "msb": 1,
     "wiki_sync": false,
-    "id": "30347 [invent_perk_fatiguing]"
+    "id": "30347"
   },
   {
     "domain": "PLAYER",
@@ -242849,11 +242849,11 @@
   },
   {
     "domain": "PLAYER",
-    "source": "13488",
+    "source": "13488 [league_relic_transmuting_object]",
     "lsb": 2,
     "msb": 2,
     "wiki_sync": false,
-    "id": "30356 [invent_perk_junk_food]"
+    "id": "30356"
   },
   {
     "domain": "PLAYER",
@@ -242913,11 +242913,11 @@
   },
   {
     "domain": "PLAYER",
-    "source": "13488",
+    "source": "13488 [league_relic_transmuting_object]",
     "lsb": 3,
     "msb": 3,
     "wiki_sync": false,
-    "id": "30364 [invent_perk_profane]"
+    "id": "30364"
   },
   {
     "domain": "PLAYER",
@@ -294857,11 +294857,11 @@
   },
   {
     "domain": "PLAYER",
-    "source": "13487",
+    "source": "13487 [league_relic_combat_shard_cooldown]",
     "lsb": 29,
     "msb": 29,
     "wiki_sync": false,
-    "id": "36857 [wordgame_temp_char_1]"
+    "id": "36857"
   },
   {
     "domain": "PLAYER",
@@ -380533,7 +380533,7 @@
     "lsb": 1,
     "msb": 1,
     "wiki_sync": false,
-    "id": "47566 [wordgame_temp_char_2]"
+    "id": "47566"
   },
   {
     "domain": "PLAYER",
@@ -410597,7 +410597,7 @@
     "lsb": 3,
     "msb": 3,
     "wiki_sync": false,
-    "id": "51324 [wordgame_temp_char_3]"
+    "id": "51324"
   },
   {
     "domain": "PLAYER",
@@ -410605,7 +410605,7 @@
     "lsb": 4,
     "msb": 4,
     "wiki_sync": false,
-    "id": "51325 [wordgame_temp_char_4]"
+    "id": "51325"
   },
   {
     "domain": "PLAYER",
@@ -410613,7 +410613,7 @@
     "lsb": 5,
     "msb": 5,
     "wiki_sync": false,
-    "id": "51326 [wordgame_temp_char_5]"
+    "id": "51326"
   },
   {
     "domain": "PLAYER",
@@ -410621,7 +410621,7 @@
     "lsb": 6,
     "msb": 6,
     "wiki_sync": false,
-    "id": "51327 [wordgame_temp_char_6]"
+    "id": "51327"
   },
   {
     "domain": "PLAYER",
@@ -410629,7 +410629,7 @@
     "lsb": 7,
     "msb": 7,
     "wiki_sync": false,
-    "id": "51328 [wordgame_temp_char_7]"
+    "id": "51328"
   },
   {
     "domain": "PLAYER",
@@ -410637,7 +410637,7 @@
     "lsb": 8,
     "msb": 8,
     "wiki_sync": false,
-    "id": "51329 [wordgame_temp_char_8]"
+    "id": "51329"
   },
   {
     "domain": "PLAYER",
@@ -410645,7 +410645,7 @@
     "lsb": 9,
     "msb": 9,
     "wiki_sync": false,
-    "id": "51330 [wordgame_temp_char_9]"
+    "id": "51330"
   },
   {
     "domain": "PLAYER",
@@ -410653,7 +410653,7 @@
     "lsb": 10,
     "msb": 10,
     "wiki_sync": false,
-    "id": "51331 [wordgame_temp_char_10]"
+    "id": "51331"
   },
   {
     "domain": "PLAYER",
@@ -410661,7 +410661,7 @@
     "lsb": 11,
     "msb": 11,
     "wiki_sync": false,
-    "id": "51332 [wordgame_temp_char_11]"
+    "id": "51332"
   },
   {
     "domain": "PLAYER",
@@ -410669,7 +410669,7 @@
     "lsb": 12,
     "msb": 12,
     "wiki_sync": false,
-    "id": "51333 [wordgame_temp_char_12]"
+    "id": "51333"
   },
   {
     "domain": "PLAYER",
@@ -410677,7 +410677,7 @@
     "lsb": 13,
     "msb": 13,
     "wiki_sync": false,
-    "id": "51334 [wordgame_temp_char_1_status]"
+    "id": "51334"
   },
   {
     "domain": "PLAYER",
@@ -410685,7 +410685,7 @@
     "lsb": 22,
     "msb": 22,
     "wiki_sync": false,
-    "id": "51335 [wordgame_temp_char_2_status]"
+    "id": "51335"
   },
   {
     "domain": "PLAYER",
@@ -410693,79 +410693,79 @@
     "lsb": 9,
     "msb": 9,
     "wiki_sync": false,
-    "id": "51336 [wordgame_temp_char_3_status]"
+    "id": "51336"
   },
   {
     "domain": "PLAYER",
-    "source": "13487",
+    "source": "13487 [league_relic_combat_shard_cooldown]",
     "lsb": 30,
     "msb": 30,
     "wiki_sync": false,
-    "id": "51337 [wordgame_temp_char_4_status]"
+    "id": "51337"
   },
   {
     "domain": "PLAYER",
-    "source": "13487",
+    "source": "13487 [league_relic_combat_shard_cooldown]",
     "lsb": 31,
     "msb": 31,
     "wiki_sync": false,
-    "id": "51338 [wordgame_temp_char_5_status]"
+    "id": "51338"
   },
   {
     "domain": "PLAYER",
-    "source": "13652",
+    "source": "13652 [combatv2_greater_chain_child_player_uid_8]",
     "lsb": 0,
     "msb": 0,
     "wiki_sync": false,
-    "id": "51339 [wordgame_temp_char_6_status]"
+    "id": "51339"
   },
   {
     "domain": "PLAYER",
-    "source": "13652",
+    "source": "13652 [combatv2_greater_chain_child_player_uid_8]",
     "lsb": 1,
     "msb": 1,
     "wiki_sync": false,
-    "id": "51340 [wordgame_temp_char_7_status]"
+    "id": "51340"
   },
   {
     "domain": "PLAYER",
-    "source": "13652",
+    "source": "13652 [combatv2_greater_chain_child_player_uid_8]",
     "lsb": 2,
     "msb": 2,
     "wiki_sync": false,
-    "id": "51341 [wordgame_temp_char_8_status]"
+    "id": "51341"
   },
   {
     "domain": "PLAYER",
-    "source": "13652",
+    "source": "13652 [combatv2_greater_chain_child_player_uid_8]",
     "lsb": 3,
     "msb": 3,
     "wiki_sync": false,
-    "id": "51342 [wordgame_temp_char_9_status]"
+    "id": "51342"
   },
   {
     "domain": "PLAYER",
-    "source": "13652",
+    "source": "13652 [combatv2_greater_chain_child_player_uid_8]",
     "lsb": 4,
     "msb": 4,
     "wiki_sync": false,
-    "id": "51343 [wordgame_temp_char_10_status]"
+    "id": "51343"
   },
   {
     "domain": "PLAYER",
-    "source": "13652",
+    "source": "13652 [combatv2_greater_chain_child_player_uid_8]",
     "lsb": 5,
     "msb": 5,
     "wiki_sync": false,
-    "id": "51344 [wordgame_temp_char_11_status]"
+    "id": "51344"
   },
   {
     "domain": "PLAYER",
-    "source": "13652",
+    "source": "13652 [combatv2_greater_chain_child_player_uid_8]",
     "lsb": 6,
     "msb": 6,
     "wiki_sync": false,
-    "id": "51345 [wordgame_temp_char_12_status]"
+    "id": "51345"
   },
   {
     "domain": "PLAYER",
@@ -411065,11 +411065,11 @@
   },
   {
     "domain": "PLAYER",
-    "source": "13652",
+    "source": "13652 [combatv2_greater_chain_child_player_uid_8]",
     "lsb": 7,
     "msb": 7,
     "wiki_sync": false,
-    "id": "51383 [quest_zamorak_act3_wordgame_id]"
+    "id": "51383"
   },
   {
     "domain": "PLAYER",
@@ -467121,11 +467121,11 @@
   },
   {
     "domain": "PLAYER",
-    "source": "13487",
+    "source": "13487 [league_relic_combat_shard_cooldown]",
     "lsb": 13,
     "msb": 13,
     "wiki_sync": false,
-    "id": "58390 [league_locality_overview_tab]"
+    "id": "58390"
   },
   {
     "domain": "PLAYER",
@@ -468089,7 +468089,7 @@
   },
   {
     "domain": "PLAYER",
-    "source": "13513",
+    "source": "13513 [plugin_hub_temp]",
     "lsb": 0,
     "msb": 0,
     "wiki_sync": false,
@@ -472809,11 +472809,11 @@
   },
   {
     "domain": "PLAYER",
-    "source": "13487",
+    "source": "13487 [league_relic_combat_shard_cooldown]",
     "lsb": 14,
     "msb": 14,
     "wiki_sync": false,
-    "id": "59101 [league_task_hunter_catch_crystal_skillchompas_tirannwn_75]"
+    "id": "59101"
   },
   {
     "domain": "PLAYER",
@@ -473833,7 +473833,7 @@
   },
   {
     "domain": "PLAYER",
-    "source": "13519",
+    "source": "13519 [marketplace_featured_carousel_left_dbrow]",
     "lsb": 19,
     "msb": 19,
     "wiki_sync": false,
@@ -477129,7 +477129,7 @@
   },
   {
     "domain": "PLAYER",
-    "source": "13516",
+    "source": "13516 [mtxmgt_unlock_bitset_76]",
     "lsb": 0,
     "msb": 0,
     "wiki_sync": false,
@@ -477137,7 +477137,7 @@
   },
   {
     "domain": "PLAYER",
-    "source": "13516",
+    "source": "13516 [mtxmgt_unlock_bitset_76]",
     "lsb": 1,
     "msb": 1,
     "wiki_sync": false,
@@ -477145,7 +477145,7 @@
   },
   {
     "domain": "PLAYER",
-    "source": "13516",
+    "source": "13516 [mtxmgt_unlock_bitset_76]",
     "lsb": 2,
     "msb": 2,
     "wiki_sync": false,
@@ -477153,7 +477153,7 @@
   },
   {
     "domain": "PLAYER",
-    "source": "13516",
+    "source": "13516 [mtxmgt_unlock_bitset_76]",
     "lsb": 3,
     "msb": 3,
     "wiki_sync": false,
@@ -477161,7 +477161,7 @@
   },
   {
     "domain": "PLAYER",
-    "source": "13516",
+    "source": "13516 [mtxmgt_unlock_bitset_76]",
     "lsb": 4,
     "msb": 4,
     "wiki_sync": false,
@@ -477169,7 +477169,7 @@
   },
   {
     "domain": "PLAYER",
-    "source": "13516",
+    "source": "13516 [mtxmgt_unlock_bitset_76]",
     "lsb": 5,
     "msb": 5,
     "wiki_sync": false,
@@ -477177,7 +477177,7 @@
   },
   {
     "domain": "PLAYER",
-    "source": "13516",
+    "source": "13516 [mtxmgt_unlock_bitset_76]",
     "lsb": 6,
     "msb": 6,
     "wiki_sync": false,
@@ -477185,7 +477185,7 @@
   },
   {
     "domain": "PLAYER",
-    "source": "13516",
+    "source": "13516 [mtxmgt_unlock_bitset_76]",
     "lsb": 7,
     "msb": 7,
     "wiki_sync": false,
@@ -477193,7 +477193,7 @@
   },
   {
     "domain": "PLAYER",
-    "source": "13516",
+    "source": "13516 [mtxmgt_unlock_bitset_76]",
     "lsb": 8,
     "msb": 8,
     "wiki_sync": false,
@@ -477201,7 +477201,7 @@
   },
   {
     "domain": "PLAYER",
-    "source": "13516",
+    "source": "13516 [mtxmgt_unlock_bitset_76]",
     "lsb": 9,
     "msb": 9,
     "wiki_sync": false,
@@ -478713,7 +478713,7 @@
   },
   {
     "domain": "PLAYER",
-    "source": "13516",
+    "source": "13516 [mtxmgt_unlock_bitset_76]",
     "lsb": 11,
     "msb": 11,
     "wiki_sync": false,
@@ -478721,7 +478721,7 @@
   },
   {
     "domain": "PLAYER",
-    "source": "13516",
+    "source": "13516 [mtxmgt_unlock_bitset_76]",
     "lsb": 13,
     "msb": 13,
     "wiki_sync": false,
@@ -478729,7 +478729,7 @@
   },
   {
     "domain": "PLAYER",
-    "source": "13516",
+    "source": "13516 [mtxmgt_unlock_bitset_76]",
     "lsb": 14,
     "msb": 14,
     "wiki_sync": false,
@@ -491725,7 +491725,7 @@
     "lsb": 1,
     "msb": 1,
     "wiki_sync": false,
-    "id": "61465"
+    "id": "61465 [tbw_broodoo_attack]"
   },
   {
     "domain": "PLAYER",
@@ -491733,7 +491733,7 @@
     "lsb": 2,
     "msb": 11,
     "wiki_sync": false,
-    "id": "61466"
+    "id": "61466 [tbw_favour_percentage]"
   },
   {
     "domain": "PLAYER",
@@ -491741,7 +491741,7 @@
     "lsb": 12,
     "msb": 15,
     "wiki_sync": false,
-    "id": "61467"
+    "id": "61467 [tbw_event_chance]"
   },
   {
     "domain": "PLAYER",
@@ -491749,71 +491749,71 @@
     "lsb": 16,
     "msb": 16,
     "wiki_sync": false,
-    "id": "61468"
+    "id": "61468 [tbw_reinforce_message]"
   },
   {
     "domain": "PLAYER",
-    "source": "13475",
+    "source": "13475 [league_relic_effects_10]",
     "lsb": 0,
     "msb": 6,
     "wiki_sync": false,
-    "id": "61469"
+    "id": "61469 [tzhaar_fightcave_pet_owed]"
   },
   {
     "domain": "PLAYER",
-    "source": "13475",
+    "source": "13475 [league_relic_effects_10]",
     "lsb": 7,
     "msb": 13,
     "wiki_sync": false,
-    "id": "61470"
+    "id": "61470 [bankpin_keyboard_enabled]"
   },
   {
     "domain": "PLAYER",
-    "source": "13475",
+    "source": "13475 [league_relic_effects_10]",
     "lsb": 14,
     "msb": 20,
     "wiki_sync": false,
-    "id": "61471"
+    "id": "61471 [warning_pof_quick_sell_animals]"
   },
   {
     "domain": "PLAYER",
-    "source": "13475",
+    "source": "13475 [league_relic_effects_10]",
     "lsb": 21,
     "msb": 27,
     "wiki_sync": false,
-    "id": "61472"
+    "id": "61472 [warning_teleport_prompt_trh28_skill_teleport]"
   },
   {
     "domain": "PLAYER",
-    "source": "13476",
+    "source": "13476 [league_relic_effects_11]",
     "lsb": 0,
     "msb": 6,
     "wiki_sync": false,
-    "id": "61473"
+    "id": "61473 [warning_pvm_portal_zilyana_aggressive_creatures]"
   },
   {
     "domain": "PLAYER",
-    "source": "13476",
+    "source": "13476 [league_relic_effects_11]",
     "lsb": 7,
     "msb": 13,
     "wiki_sync": false,
-    "id": "61474"
+    "id": "61474 [warning_pvm_portal_graardor_aggressive_creatures]"
   },
   {
     "domain": "PLAYER",
-    "source": "13476",
+    "source": "13476 [league_relic_effects_11]",
     "lsb": 14,
     "msb": 20,
     "wiki_sync": false,
-    "id": "61475"
+    "id": "61475 [warning_pvm_portal_kreearra_aggressive_creatures]"
   },
   {
     "domain": "PLAYER",
-    "source": "13476",
+    "source": "13476 [league_relic_effects_11]",
     "lsb": 21,
     "msb": 27,
     "wiki_sync": false,
-    "id": "61476"
+    "id": "61476 [warning_pvm_portal_kril_aggressive_creatures]"
   },
   {
     "domain": "PLAYER",
@@ -491821,31 +491821,31 @@
     "lsb": 21,
     "msb": 29,
     "wiki_sync": false,
-    "id": "61477"
+    "id": "61477 [warning_pvm_portal_bork_aggressive_creatures]"
   },
   {
     "domain": "PLAYER",
-    "source": "13474",
+    "source": "13474 [league_combat_relic_resets]",
     "lsb": 0,
     "msb": 8,
     "wiki_sync": false,
-    "id": "61478"
+    "id": "61478 [warning_dov_abomination_refight]"
   },
   {
     "domain": "PLAYER",
-    "source": "13474",
+    "source": "13474 [league_combat_relic_resets]",
     "lsb": 9,
     "msb": 17,
     "wiki_sync": false,
-    "id": "61479"
+    "id": "61479 [warning_compost_bin_add_all]"
   },
   {
     "domain": "PLAYER",
-    "source": "13488",
+    "source": "13488 [league_relic_transmuting_object]",
     "lsb": 4,
     "msb": 4,
     "wiki_sync": false,
-    "id": "61480"
+    "id": "61480 [warning_world_gate_kethsi_entry]"
   },
   {
     "domain": "PLAYER",
@@ -491853,7 +491853,7 @@
     "lsb": 19,
     "msb": 19,
     "wiki_sync": false,
-    "id": "61481"
+    "id": "61481 [warning_world_gate_tarddiad_entry]"
   },
   {
     "domain": "PLAYER",
@@ -491861,7 +491861,7 @@
     "lsb": 20,
     "msb": 20,
     "wiki_sync": false,
-    "id": "61482"
+    "id": "61482 [exchange_setting_bigger_inc_percent]"
   },
   {
     "domain": "PLAYER",
@@ -491869,7 +491869,7 @@
     "lsb": 4,
     "msb": 4,
     "wiki_sync": false,
-    "id": "61483"
+    "id": "61483 [exchange_setting_bigger_dec_percent]"
   },
   {
     "domain": "PLAYER",
@@ -491877,7 +491877,7 @@
     "lsb": 30,
     "msb": 30,
     "wiki_sync": false,
-    "id": "61484"
+    "id": "61484 [stockcollect_force_buttons_disabled]"
   },
   {
     "domain": "PLAYER",
@@ -491885,23 +491885,23 @@
     "lsb": 10,
     "msb": 24,
     "wiki_sync": false,
-    "id": "61485"
+    "id": "61485 [toplevel_v2_parent_last_parent_tab_id_plugin_hub]"
   },
   {
     "domain": "PLAYER",
-    "source": "13527",
+    "source": "13527 [construction_house_furniture_data_index_401]",
     "lsb": 0,
     "msb": 9,
     "wiki_sync": false,
-    "id": "61486"
+    "id": "61486 [toplevel_v2_parent_lock_league_combat_relics]"
   },
   {
     "domain": "PLAYER",
-    "source": "13527",
+    "source": "13527 [construction_house_furniture_data_index_401]",
     "lsb": 10,
     "msb": 23,
     "wiki_sync": false,
-    "id": "61487"
+    "id": "61487 [toplevel_v2_parent_lock_plugin_hub_browse]"
   },
   {
     "domain": "PLAYER",
@@ -491909,7 +491909,7 @@
     "lsb": 1,
     "msb": 15,
     "wiki_sync": false,
-    "id": "61488"
+    "id": "61488 [toplevel_v2_parent_lock_plugin_hub_manage]"
   },
   {
     "domain": "PLAYER",
@@ -491917,7 +491917,7 @@
     "lsb": 16,
     "msb": 30,
     "wiki_sync": false,
-    "id": "61489"
+    "id": "61489 [league_2_pet_menagerie]"
   },
   {
     "domain": "PLAYER",
@@ -491925,7 +491925,7 @@
     "lsb": 11,
     "msb": 14,
     "wiki_sync": false,
-    "id": "61490"
+    "id": "61490 [player_inspect_herb_powerburst_health_boost]"
   },
   {
     "domain": "PLAYER",
@@ -491933,7 +491933,7 @@
     "lsb": 2,
     "msb": 2,
     "wiki_sync": false,
-    "id": "61491"
+    "id": "61491 [player_inspect_combatv2_prayer_boost_hitpoints]"
   },
   {
     "domain": "PLAYER",
@@ -491941,7 +491941,7 @@
     "lsb": 6,
     "msb": 6,
     "wiki_sync": false,
-    "id": "61492"
+    "id": "61492 [player_inspect_league_relic_combat_true_equilibrium_lifepoints_boost]"
   },
   {
     "domain": "PLAYER",
@@ -491949,7 +491949,7 @@
     "lsb": 7,
     "msb": 7,
     "wiki_sync": false,
-    "id": "61493"
+    "id": "61493 [ability_book_filter_category_titles]"
   },
   {
     "domain": "PLAYER",
@@ -491957,7 +491957,7 @@
     "lsb": 8,
     "msb": 9,
     "wiki_sync": false,
-    "id": "61494"
+    "id": "61494 [lifepoints_old]"
   },
   {
     "domain": "PLAYER",
@@ -491965,7 +491965,7 @@
     "lsb": 14,
     "msb": 16,
     "wiki_sync": false,
-    "id": "61495"
+    "id": "61495 [maxlifepoints_old]"
   },
   {
     "domain": "PLAYER",
@@ -491973,7 +491973,7 @@
     "lsb": 17,
     "msb": 19,
     "wiki_sync": false,
-    "id": "61496"
+    "id": "61496 [rand_reward_gem_bag_upgrade_sapphire_100]"
   },
   {
     "domain": "PLAYER",
@@ -491981,7 +491981,7 @@
     "lsb": 24,
     "msb": 31,
     "wiki_sync": false,
-    "id": "61497"
+    "id": "61497 [rand_reward_gem_bag_upgrade_emerald_100]"
   },
   {
     "domain": "PLAYER",
@@ -491989,7 +491989,7 @@
     "lsb": 20,
     "msb": 27,
     "wiki_sync": false,
-    "id": "61498"
+    "id": "61498 [rand_reward_gem_bag_upgrade_ruby_100]"
   },
   {
     "domain": "PLAYER",
@@ -491997,183 +491997,183 @@
     "lsb": 28,
     "msb": 31,
     "wiki_sync": false,
-    "id": "61499"
+    "id": "61499 [rand_reward_gem_bag_upgrade_diamond_100]"
   },
   {
     "domain": "PLAYER",
-    "source": "13489",
+    "source": "13489 [league_combat_relic_effects_1]",
     "lsb": 0,
     "msb": 10,
     "wiki_sync": false,
-    "id": "61500"
+    "id": "61500 [rand_reward_gem_bag_upgrade_dragon_100]"
   },
   {
     "domain": "PLAYER",
-    "source": "13489",
+    "source": "13489 [league_combat_relic_effects_1]",
     "lsb": 11,
     "msb": 14,
     "wiki_sync": false,
-    "id": "61501"
+    "id": "61501 [rand_reward_gem_bag_upgrade_jade_100]"
   },
   {
     "domain": "PLAYER",
-    "source": "13490",
+    "source": "13490 [league_combat_relic_effects_2]",
     "lsb": 0,
     "msb": 2,
     "wiki_sync": false,
-    "id": "61502"
+    "id": "61502 [rand_reward_gem_bag_upgrade_opal_100]"
   },
   {
     "domain": "PLAYER",
-    "source": "13490",
+    "source": "13490 [league_combat_relic_effects_2]",
     "lsb": 3,
     "msb": 5,
     "wiki_sync": false,
-    "id": "61503"
+    "id": "61503 [rand_reward_gem_bag_upgrade_topaz_100]"
   },
   {
     "domain": "PLAYER",
-    "source": "13490",
+    "source": "13490 [league_combat_relic_effects_2]",
     "lsb": 6,
     "msb": 8,
     "wiki_sync": false,
-    "id": "61504"
+    "id": "61504 [artisan_plans_source_metal]"
   },
   {
     "domain": "PLAYER",
-    "source": "13490",
+    "source": "13490 [league_combat_relic_effects_2]",
     "lsb": 9,
     "msb": 11,
     "wiki_sync": false,
-    "id": "61505"
+    "id": "61505 [menaphos_limitless_ability_active]"
   },
   {
     "domain": "PLAYER",
-    "source": "13490",
+    "source": "13490 [league_combat_relic_effects_2]",
     "lsb": 12,
     "msb": 14,
     "wiki_sync": false,
-    "id": "61506"
+    "id": "61506 [league_2_lobby_splash_state]"
   },
   {
     "domain": "PLAYER",
-    "source": "13490",
+    "source": "13490 [league_combat_relic_effects_2]",
     "lsb": 15,
     "msb": 17,
     "wiki_sync": false,
-    "id": "61507"
+    "id": "61507 [player_inv_reset_in_progress]"
   },
   {
     "domain": "PLAYER",
-    "source": "13490",
+    "source": "13490 [league_combat_relic_effects_2]",
     "lsb": 18,
     "msb": 20,
     "wiki_sync": false,
-    "id": "61508"
+    "id": "61508 [leagues_parent_relics_selected_type]"
   },
   {
     "domain": "PLAYER",
-    "source": "13490",
+    "source": "13490 [league_combat_relic_effects_2]",
     "lsb": 21,
     "msb": 23,
     "wiki_sync": false,
-    "id": "61509"
+    "id": "61509 [league_relic_warning_popup_source]"
   },
   {
     "domain": "PLAYER",
-    "source": "13490",
+    "source": "13490 [league_combat_relic_effects_2]",
     "lsb": 24,
     "msb": 26,
     "wiki_sync": false,
-    "id": "61510"
+    "id": "61510 [league_tutorial_locality]"
   },
   {
     "domain": "PLAYER",
-    "source": "13490",
+    "source": "13490 [league_combat_relic_effects_2]",
     "lsb": 27,
     "msb": 29,
     "wiki_sync": false,
-    "id": "61511"
+    "id": "61511 [league_tutorial_blessing]"
   },
   {
     "domain": "PLAYER",
-    "source": "13491",
+    "source": "13491 [league_combat_relic_effects_3]",
     "lsb": 0,
     "msb": 2,
     "wiki_sync": false,
-    "id": "61512"
+    "id": "61512 [league_task_combat_relic_completed_total]"
   },
   {
     "domain": "PLAYER",
-    "source": "13491",
+    "source": "13491 [league_combat_relic_effects_3]",
     "lsb": 3,
     "msb": 5,
     "wiki_sync": false,
-    "id": "61513"
+    "id": "61513 [league_task_combat_relic_next_tier_total]"
   },
   {
     "domain": "PLAYER",
-    "source": "13491",
+    "source": "13491 [league_combat_relic_effects_3]",
     "lsb": 6,
     "msb": 8,
     "wiki_sync": false,
-    "id": "61514"
+    "id": "61514 [league_task_combat_relic_current_tier]"
   },
   {
     "domain": "PLAYER",
-    "source": "13491",
+    "source": "13491 [league_combat_relic_effects_3]",
     "lsb": 9,
     "msb": 11,
     "wiki_sync": false,
-    "id": "61515"
+    "id": "61515 [league_locality_next_unlock_total]"
   },
   {
     "domain": "PLAYER",
-    "source": "13491",
+    "source": "13491 [league_combat_relic_effects_3]",
     "lsb": 12,
     "msb": 14,
     "wiki_sync": false,
-    "id": "61516"
+    "id": "61516 [league_locality_current_tier]"
   },
   {
     "domain": "PLAYER",
-    "source": "13491",
+    "source": "13491 [league_combat_relic_effects_3]",
     "lsb": 15,
     "msb": 17,
     "wiki_sync": false,
-    "id": "61517"
+    "id": "61517 [league_task_combat_relic_current_tier_total]"
   },
   {
     "domain": "PLAYER",
-    "source": "13492",
+    "source": "13492 [league_combat_relic_effects_4]",
     "lsb": 0,
     "msb": 3,
     "wiki_sync": false,
-    "id": "61518"
+    "id": "61518 [league_combat_relic_choices_tier_0]"
   },
   {
     "domain": "PLAYER",
-    "source": "13492",
+    "source": "13492 [league_combat_relic_effects_4]",
     "lsb": 4,
     "msb": 4,
     "wiki_sync": false,
-    "id": "61519"
+    "id": "61519 [league_combat_relic_choices_tier_1]"
   },
   {
     "domain": "PLAYER",
-    "source": "13492",
+    "source": "13492 [league_combat_relic_effects_4]",
     "lsb": 5,
     "msb": 5,
     "wiki_sync": false,
-    "id": "61520"
+    "id": "61520 [league_combat_relic_choices_tier_2]"
   },
   {
     "domain": "PLAYER",
-    "source": "13492",
+    "source": "13492 [league_combat_relic_effects_4]",
     "lsb": 6,
     "msb": 6,
     "wiki_sync": false,
-    "id": "61521"
+    "id": "61521 [league_combat_relic_choices_tier_3]"
   },
   {
     "domain": "PLAYER",
@@ -492181,823 +492181,823 @@
     "lsb": 30,
     "msb": 31,
     "wiki_sync": false,
-    "id": "61522"
+    "id": "61522 [league_combat_relic_choices_tier_4]"
   },
   {
     "domain": "PLAYER",
-    "source": "13493",
+    "source": "13493 [league_combat_relic_effects_5]",
     "lsb": 0,
     "msb": 1,
     "wiki_sync": false,
-    "id": "61523"
+    "id": "61523 [league_combat_relic_choices_tier_5]"
   },
   {
     "domain": "PLAYER",
-    "source": "13493",
+    "source": "13493 [league_combat_relic_effects_5]",
     "lsb": 2,
     "msb": 2,
     "wiki_sync": false,
-    "id": "61524"
+    "id": "61524 [league_combat_relic_choices_tier_6]"
   },
   {
     "domain": "PLAYER",
-    "source": "13493",
+    "source": "13493 [league_combat_relic_effects_5]",
     "lsb": 3,
     "msb": 3,
     "wiki_sync": false,
-    "id": "61525"
+    "id": "61525 [league_combat_relic_choices_tier_7]"
   },
   {
     "domain": "PLAYER",
-    "source": "13493",
+    "source": "13493 [league_combat_relic_effects_5]",
     "lsb": 4,
     "msb": 5,
     "wiki_sync": false,
-    "id": "61526"
+    "id": "61526 [league_combat_relic_choices_tier_8]"
   },
   {
     "domain": "PLAYER",
-    "source": "13493",
+    "source": "13493 [league_combat_relic_effects_5]",
     "lsb": 6,
     "msb": 8,
     "wiki_sync": false,
-    "id": "61527"
+    "id": "61527 [league_combat_relic_choices_tier_9]"
   },
   {
     "domain": "PLAYER",
-    "source": "13493",
+    "source": "13493 [league_combat_relic_effects_5]",
     "lsb": 9,
     "msb": 9,
     "wiki_sync": false,
-    "id": "61528"
+    "id": "61528 [league_combat_relic_alignment_god_tier_1_zamorak]"
   },
   {
     "domain": "PLAYER",
-    "source": "13493",
+    "source": "13493 [league_combat_relic_effects_5]",
     "lsb": 10,
     "msb": 10,
     "wiki_sync": false,
-    "id": "61529"
+    "id": "61529 [league_combat_relic_alignment_god_tier_1_guthix]"
   },
   {
     "domain": "PLAYER",
-    "source": "13493",
+    "source": "13493 [league_combat_relic_effects_5]",
     "lsb": 11,
     "msb": 11,
     "wiki_sync": false,
-    "id": "61530"
+    "id": "61530 [league_combat_relic_alignment_god_tier_1_saradomin]"
   },
   {
     "domain": "PLAYER",
-    "source": "13493",
+    "source": "13493 [league_combat_relic_effects_5]",
     "lsb": 12,
     "msb": 12,
     "wiki_sync": false,
-    "id": "61531"
+    "id": "61531 [league_combat_relic_alignment_god_tier_2_zamorak]"
   },
   {
     "domain": "PLAYER",
-    "source": "13493",
+    "source": "13493 [league_combat_relic_effects_5]",
     "lsb": 13,
     "msb": 14,
     "wiki_sync": false,
-    "id": "61532"
+    "id": "61532 [league_combat_relic_alignment_god_tier_2_guthix]"
   },
   {
     "domain": "PLAYER",
-    "source": "13493",
+    "source": "13493 [league_combat_relic_effects_5]",
     "lsb": 15,
     "msb": 16,
     "wiki_sync": false,
-    "id": "61533"
+    "id": "61533 [league_combat_relic_alignment_god_tier_2_saradomin]"
   },
   {
     "domain": "PLAYER",
-    "source": "13493",
+    "source": "13493 [league_combat_relic_effects_5]",
     "lsb": 17,
     "msb": 20,
     "wiki_sync": false,
-    "id": "61534"
+    "id": "61534 [league_combat_relic_resets_available]"
   },
   {
     "domain": "PLAYER",
-    "source": "13493",
+    "source": "13493 [league_combat_relic_effects_5]",
     "lsb": 21,
     "msb": 24,
     "wiki_sync": false,
-    "id": "61535"
+    "id": "61535 [league_combat_relic_reset_god_tier_1_given]"
   },
   {
     "domain": "PLAYER",
-    "source": "13493",
+    "source": "13493 [league_combat_relic_effects_5]",
     "lsb": 25,
     "msb": 28,
     "wiki_sync": false,
-    "id": "61536"
+    "id": "61536 [league_combat_relic_reset_god_tier_2_given]"
   },
   {
     "domain": "PLAYER",
-    "source": "13493",
+    "source": "13493 [league_combat_relic_effects_5]",
     "lsb": 29,
     "msb": 29,
     "wiki_sync": false,
-    "id": "61537"
+    "id": "61537 [league_combat_relic_reset_tier_1_given]"
   },
   {
     "domain": "PLAYER",
-    "source": "13493",
+    "source": "13493 [league_combat_relic_effects_5]",
     "lsb": 30,
     "msb": 30,
     "wiki_sync": false,
-    "id": "61538"
+    "id": "61538 [league_combat_relic_reset_hotfix_given]"
   },
   {
     "domain": "PLAYER",
-    "source": "13493",
+    "source": "13493 [league_combat_relic_effects_5]",
     "lsb": 31,
     "msb": 31,
     "wiki_sync": false,
-    "id": "61539"
+    "id": "61539 [league_relic_combat_weapon_upgrade_tier]"
   },
   {
     "domain": "PLAYER",
-    "source": "13494",
+    "source": "13494 [league_combat_relic_effects_6]",
     "lsb": 0,
     "msb": 0,
     "wiki_sync": false,
-    "id": "61540"
+    "id": "61540 [league_relic_arch_farm_fish_mine_woodcut_automatically_bank]"
   },
   {
     "domain": "PLAYER",
-    "source": "13494",
+    "source": "13494 [league_combat_relic_effects_6]",
     "lsb": 1,
     "msb": 1,
     "wiki_sync": false,
-    "id": "61541"
+    "id": "61541 [league_relic_polishing]"
   },
   {
     "domain": "PLAYER",
-    "source": "13494",
+    "source": "13494 [league_combat_relic_effects_6]",
     "lsb": 2,
     "msb": 2,
     "wiki_sync": false,
-    "id": "61542"
+    "id": "61542 [leagues_relic_mining_max_stamina]"
   },
   {
     "domain": "PLAYER",
-    "source": "13494",
+    "source": "13494 [league_combat_relic_effects_6]",
     "lsb": 3,
     "msb": 3,
     "wiki_sync": false,
-    "id": "61543"
+    "id": "61543 [leagues_relic_fishing_woodcutting_reop]"
   },
   {
     "domain": "PLAYER",
-    "source": "13494",
+    "source": "13494 [league_combat_relic_effects_6]",
     "lsb": 4,
     "msb": 4,
     "wiki_sync": false,
-    "id": "61544"
+    "id": "61544 [leagues_relic_golden_feather_drop]"
   },
   {
     "domain": "PLAYER",
-    "source": "13494",
+    "source": "13494 [league_combat_relic_effects_6]",
     "lsb": 5,
     "msb": 5,
     "wiki_sync": false,
-    "id": "61545"
+    "id": "61545 [league_relic_thieving_loot_increase]"
   },
   {
     "domain": "PLAYER",
-    "source": "13494",
+    "source": "13494 [league_combat_relic_effects_6]",
     "lsb": 6,
     "msb": 7,
     "wiki_sync": false,
-    "id": "61546"
+    "id": "61546 [league_relic_thieving_coin_increase]"
   },
   {
     "domain": "PLAYER",
-    "source": "13494",
+    "source": "13494 [league_combat_relic_effects_6]",
     "lsb": 8,
     "msb": 8,
     "wiki_sync": false,
-    "id": "61547"
+    "id": "61547 [league_relic_thieving_stall_chest_reop]"
   },
   {
     "domain": "PLAYER",
-    "source": "13494",
+    "source": "13494 [league_combat_relic_effects_6]",
     "lsb": 9,
     "msb": 9,
     "wiki_sync": false,
-    "id": "61548"
+    "id": "61548 [league_relic_thieving_extra_loot]"
   },
   {
     "domain": "PLAYER",
-    "source": "13494",
+    "source": "13494 [league_combat_relic_effects_6]",
     "lsb": 10,
     "msb": 10,
     "wiki_sync": false,
-    "id": "61549"
+    "id": "61549 [league_relic_woodcutting_tree_never_deplete]"
   },
   {
     "domain": "PLAYER",
-    "source": "13494",
+    "source": "13494 [league_combat_relic_effects_6]",
     "lsb": 11,
     "msb": 11,
     "wiki_sync": false,
-    "id": "61550"
+    "id": "61550 [league_relic_hunter_fishing_automatically_bank]"
   },
   {
     "domain": "PLAYER",
-    "source": "13494",
+    "source": "13494 [league_combat_relic_effects_6]",
     "lsb": 12,
     "msb": 12,
     "wiki_sync": false,
-    "id": "61551"
+    "id": "61551 [league_relic_fishing_catch_additional]"
   },
   {
     "domain": "PLAYER",
-    "source": "13494",
+    "source": "13494 [league_combat_relic_effects_6]",
     "lsb": 13,
     "msb": 13,
     "wiki_sync": false,
-    "id": "61552"
+    "id": "61552 [league_relic_hunter_loot_multiplier]"
   },
   {
     "domain": "PLAYER",
-    "source": "13494",
+    "source": "13494 [league_combat_relic_effects_6]",
     "lsb": 14,
     "msb": 17,
     "wiki_sync": false,
-    "id": "61553"
+    "id": "61553 [league_relic_hunter_marks_multiplier]"
   },
   {
     "domain": "PLAYER",
-    "source": "13494",
+    "source": "13494 [league_combat_relic_effects_6]",
     "lsb": 18,
     "msb": 18,
     "wiki_sync": false,
-    "id": "61554"
+    "id": "61554 [league_relic_hunter_charms_multiplier]"
   },
   {
     "domain": "PLAYER",
-    "source": "13494",
+    "source": "13494 [league_combat_relic_effects_6]",
     "lsb": 19,
     "msb": 19,
     "wiki_sync": false,
-    "id": "61555"
+    "id": "61555 [league_relic_hunter_bgh_baitless]"
   },
   {
     "domain": "PLAYER",
-    "source": "13494",
+    "source": "13494 [league_combat_relic_effects_6]",
     "lsb": 20,
     "msb": 23,
     "wiki_sync": false,
-    "id": "61556"
+    "id": "61556 [league_relic_hunter_bgh_slower_catch]"
   },
   {
     "domain": "PLAYER",
-    "source": "13494",
+    "source": "13494 [league_combat_relic_effects_6]",
     "lsb": 24,
     "msb": 24,
     "wiki_sync": false,
-    "id": "61557"
+    "id": "61557 [league_relic_hunter_quicker_traps]"
   },
   {
     "domain": "PLAYER",
-    "source": "13494",
+    "source": "13494 [league_combat_relic_effects_6]",
     "lsb": 25,
     "msb": 26,
     "wiki_sync": false,
-    "id": "61558"
+    "id": "61558 [league_relic_farming_full_stats]"
   },
   {
     "domain": "PLAYER",
-    "source": "13494",
+    "source": "13494 [league_combat_relic_effects_6]",
     "lsb": 27,
     "msb": 27,
     "wiki_sync": false,
-    "id": "61559"
+    "id": "61559 [league_relic_farming_never_hungry]"
   },
   {
     "domain": "PLAYER",
-    "source": "13494",
+    "source": "13494 [league_combat_relic_effects_6]",
     "lsb": 28,
     "msb": 28,
     "wiki_sync": false,
-    "id": "61560"
+    "id": "61560 [league_relic_farming_buyers_max_price]"
   },
   {
     "domain": "PLAYER",
-    "source": "13494",
+    "source": "13494 [league_combat_relic_effects_6]",
     "lsb": 29,
     "msb": 29,
     "wiki_sync": false,
-    "id": "61561"
+    "id": "61561 [league_relic_farming_animals_more_common]"
   },
   {
     "domain": "PLAYER",
-    "source": "13494",
+    "source": "13494 [league_combat_relic_effects_6]",
     "lsb": 30,
     "msb": 30,
     "wiki_sync": false,
-    "id": "61562"
+    "id": "61562 [league_relic_fish_hunt_farm_bonus_loot]"
   },
   {
     "domain": "PLAYER",
-    "source": "13494",
+    "source": "13494 [league_combat_relic_effects_6]",
     "lsb": 31,
     "msb": 31,
     "wiki_sync": false,
-    "id": "61563"
+    "id": "61563 [league_relic_fish_hunt_bonus_animal]"
   },
   {
     "domain": "PLAYER",
-    "source": "13495",
+    "source": "13495 [league_combat_relic_god_choices]",
     "lsb": 0,
     "msb": 3,
     "wiki_sync": false,
-    "id": "61564"
+    "id": "61564 [league_relic_fish_hunt_bonus_dino]"
   },
   {
     "domain": "PLAYER",
-    "source": "13495",
+    "source": "13495 [league_combat_relic_god_choices]",
     "lsb": 4,
     "msb": 4,
     "wiki_sync": false,
-    "id": "61565"
+    "id": "61565 [league_relic_firemaking_faster_bonfires]"
   },
   {
     "domain": "PLAYER",
-    "source": "13495",
+    "source": "13495 [league_combat_relic_god_choices]",
     "lsb": 5,
     "msb": 5,
     "wiki_sync": false,
-    "id": "61566"
+    "id": "61566 [league_relic_incense_maximise]"
   },
   {
     "domain": "PLAYER",
-    "source": "13495",
+    "source": "13495 [league_combat_relic_god_choices]",
     "lsb": 6,
     "msb": 6,
     "wiki_sync": false,
-    "id": "61567"
+    "id": "61567 [league_relic_fire_spirits]"
   },
   {
     "domain": "PLAYER",
-    "source": "13495",
+    "source": "13495 [league_combat_relic_god_choices]",
     "lsb": 7,
     "msb": 7,
     "wiki_sync": false,
-    "id": "61568"
+    "id": "61568 [league_relic_smithing_extra_bars]"
   },
   {
     "domain": "PLAYER",
-    "source": "13495",
+    "source": "13495 [league_combat_relic_god_choices]",
     "lsb": 8,
     "msb": 8,
     "wiki_sync": false,
-    "id": "61569"
+    "id": "61569 [league_relic_smithing_gauntlets]"
   },
   {
     "domain": "PLAYER",
-    "source": "13495",
+    "source": "13495 [league_combat_relic_god_choices]",
     "lsb": 9,
     "msb": 9,
     "wiki_sync": false,
-    "id": "61570"
+    "id": "61570 [league_relic_smithing_max_heat]"
   },
   {
     "domain": "PLAYER",
-    "source": "13495",
+    "source": "13495 [league_combat_relic_god_choices]",
     "lsb": 10,
     "msb": 10,
     "wiki_sync": false,
-    "id": "61571"
+    "id": "61571 [league_relic_smithing_extra_progress]"
   },
   {
     "domain": "PLAYER",
-    "source": "13495",
+    "source": "13495 [league_combat_relic_god_choices]",
     "lsb": 11,
     "msb": 11,
     "wiki_sync": false,
-    "id": "61572"
+    "id": "61572 [league_relic_smithing_free_breakdown]"
   },
   {
     "domain": "PLAYER",
-    "source": "13495",
+    "source": "13495 [league_combat_relic_god_choices]",
     "lsb": 12,
     "msb": 15,
     "wiki_sync": false,
-    "id": "61573"
+    "id": "61573 [league_relic_smithing_improved_ceremonial_swords]"
   },
   {
     "domain": "PLAYER",
-    "source": "13495",
+    "source": "13495 [league_combat_relic_god_choices]",
     "lsb": 16,
     "msb": 19,
     "wiki_sync": false,
-    "id": "61574"
+    "id": "61574 [league_relic_smithing_burial_xp_boost]"
   },
   {
     "domain": "PLAYER",
-    "source": "13495",
+    "source": "13495 [league_combat_relic_god_choices]",
     "lsb": 20,
     "msb": 20,
     "wiki_sync": false,
-    "id": "61575"
+    "id": "61575 [league_relic_smithing_fire_spirits]"
   },
   {
     "domain": "PLAYER",
-    "source": "13495",
+    "source": "13495 [league_combat_relic_god_choices]",
     "lsb": 21,
     "msb": 21,
     "wiki_sync": false,
-    "id": "61576"
+    "id": "61576 [league_relic_herb_grimy_to_potions]"
   },
   {
     "domain": "PLAYER",
-    "source": "13495",
+    "source": "13495 [league_combat_relic_god_choices]",
     "lsb": 22,
     "msb": 22,
     "wiki_sync": false,
-    "id": "61577"
+    "id": "61577 [league_relic_herb_grimy_batch_clean]"
   },
   {
     "domain": "PLAYER",
-    "source": "13495",
+    "source": "13495 [league_combat_relic_god_choices]",
     "lsb": 23,
     "msb": 23,
     "wiki_sync": false,
-    "id": "61578"
+    "id": "61578 [league_relic_herb_potions_ingredients_saved]"
   },
   {
     "domain": "PLAYER",
-    "source": "13495",
+    "source": "13495 [league_combat_relic_god_choices]",
     "lsb": 24,
     "msb": 24,
     "wiki_sync": false,
-    "id": "61579"
+    "id": "61579 [league_relic_summoning_familiar_boost_increase]"
   },
   {
     "domain": "PLAYER",
-    "source": "13495",
+    "source": "13495 [league_combat_relic_god_choices]",
     "lsb": 25,
     "msb": 25,
     "wiki_sync": false,
-    "id": "61580"
+    "id": "61580 [league_relic_summoning_pouch_bonus]"
   },
   {
     "domain": "PLAYER",
-    "source": "13495",
+    "source": "13495 [league_combat_relic_god_choices]",
     "lsb": 26,
     "msb": 26,
     "wiki_sync": false,
-    "id": "61581"
+    "id": "61581 [league_relic_summoning_bonus_scrolls]"
   },
   {
     "domain": "PLAYER",
-    "source": "13495",
+    "source": "13495 [league_combat_relic_god_choices]",
     "lsb": 27,
     "msb": 27,
     "wiki_sync": false,
-    "id": "61582"
+    "id": "61582 [league_relic_summoning_charm_drop_increase]"
   },
   {
     "domain": "PLAYER",
-    "source": "13495",
+    "source": "13495 [league_combat_relic_god_choices]",
     "lsb": 28,
     "msb": 28,
     "wiki_sync": false,
-    "id": "61583"
+    "id": "61583 [league_relic_div_enriched_only]"
   },
   {
     "domain": "PLAYER",
-    "source": "13495",
+    "source": "13495 [league_combat_relic_god_choices]",
     "lsb": 29,
     "msb": 30,
     "wiki_sync": false,
-    "id": "61584"
+    "id": "61584 [league_relic_div_increased_memory_strand]"
   },
   {
     "domain": "PLAYER",
-    "source": "13495",
+    "source": "13495 [league_combat_relic_god_choices]",
     "lsb": 31,
     "msb": 31,
     "wiki_sync": false,
-    "id": "61585"
+    "id": "61585 [league_relic_div_increased_chronicle_xp]"
   },
   {
     "domain": "PLAYER",
-    "source": "13496",
+    "source": "13496 [league_combat_relic_effects_temp_1]",
     "lsb": 0,
     "msb": 1,
     "wiki_sync": false,
-    "id": "61586"
+    "id": "61586 [league_relic_div_reduced_conversion_cost]"
   },
   {
     "domain": "PLAYER",
-    "source": "13496",
+    "source": "13496 [league_combat_relic_effects_temp_1]",
     "lsb": 2,
     "msb": 5,
     "wiki_sync": false,
-    "id": "61587"
+    "id": "61587 [league_relic_div_convert_bonus_item]"
   },
   {
     "domain": "PLAYER",
-    "source": "13496",
+    "source": "13496 [league_combat_relic_effects_temp_1]",
     "lsb": 6,
     "msb": 6,
     "wiki_sync": false,
-    "id": "61588"
+    "id": "61588 [league_relic_div_reduced_crafting_cost]"
   },
   {
     "domain": "PLAYER",
-    "source": "13496",
+    "source": "13496 [league_combat_relic_effects_temp_1]",
     "lsb": 7,
     "msb": 7,
     "wiki_sync": false,
-    "id": "61589"
+    "id": "61589 [league_relic_herb_free_items]"
   },
   {
     "domain": "PLAYER",
-    "source": "13496",
+    "source": "13496 [league_combat_relic_effects_temp_1]",
     "lsb": 8,
     "msb": 8,
     "wiki_sync": false,
-    "id": "61590"
+    "id": "61590 [league_relic_slayer_free_prefer_block_lists]"
   },
   {
     "domain": "PLAYER",
-    "source": "13496",
+    "source": "13496 [league_combat_relic_effects_temp_1]",
     "lsb": 9,
     "msb": 9,
     "wiki_sync": false,
-    "id": "61591"
+    "id": "61591 [league_relic_slayer_elite_spawn_increase]"
   },
   {
     "domain": "PLAYER",
-    "source": "13496",
+    "source": "13496 [league_combat_relic_effects_temp_1]",
     "lsb": 10,
     "msb": 10,
     "wiki_sync": false,
-    "id": "61592"
+    "id": "61592 [league_relic_slayer_elite_xp_increase]"
   },
   {
     "domain": "PLAYER",
-    "source": "13496",
+    "source": "13496 [league_combat_relic_effects_temp_1]",
     "lsb": 11,
     "msb": 11,
     "wiki_sync": false,
-    "id": "61593"
+    "id": "61593 [league_relic_slayer_corrupted_slayer_mask_passive]"
   },
   {
     "domain": "PLAYER",
-    "source": "13496",
+    "source": "13496 [league_combat_relic_effects_temp_1]",
     "lsb": 12,
     "msb": 12,
     "wiki_sync": false,
-    "id": "61594"
+    "id": "61594 [league_relic_slayer_ushabti_guaranteed]"
   },
   {
     "domain": "PLAYER",
-    "source": "13496",
+    "source": "13496 [league_combat_relic_effects_temp_1]",
     "lsb": 13,
     "msb": 13,
     "wiki_sync": false,
-    "id": "61595"
+    "id": "61595 [league_relic_voidshard_drops]"
   },
   {
     "domain": "PLAYER",
-    "source": "13496",
+    "source": "13496 [league_combat_relic_effects_temp_1]",
     "lsb": 14,
     "msb": 14,
     "wiki_sync": false,
-    "id": "61596"
+    "id": "61596 [league_relic_mining_crit_rockertunity_doubled]"
   },
   {
     "domain": "PLAYER",
-    "source": "13496",
+    "source": "13496 [league_combat_relic_effects_temp_1]",
     "lsb": 15,
     "msb": 15,
     "wiki_sync": false,
-    "id": "61597"
+    "id": "61597 [league_relic_mining_rockertunity_bonus_ore]"
   },
   {
     "domain": "PLAYER",
-    "source": "13496",
+    "source": "13496 [league_combat_relic_effects_temp_1]",
     "lsb": 16,
     "msb": 16,
     "wiki_sync": false,
-    "id": "61598"
+    "id": "61598 [league_relic_arch_double_sprite_focus]"
   },
   {
     "domain": "PLAYER",
-    "source": "13496",
+    "source": "13496 [league_combat_relic_effects_temp_1]",
     "lsb": 17,
     "msb": 17,
     "wiki_sync": false,
-    "id": "61599"
+    "id": "61599 [league_relic_arch_discovery_sprite_gain]"
   },
   {
     "domain": "PLAYER",
-    "source": "13496",
+    "source": "13496 [league_combat_relic_effects_temp_1]",
     "lsb": 18,
     "msb": 18,
     "wiki_sync": false,
-    "id": "61600"
+    "id": "61600 [league_relic_arch_evacated_restored]"
   },
   {
     "domain": "PLAYER",
-    "source": "13496",
+    "source": "13496 [league_combat_relic_effects_temp_1]",
     "lsb": 19,
     "msb": 19,
     "wiki_sync": false,
-    "id": "61601"
+    "id": "61601 [league_relic_mining_woodcutting_fishing_arch_gather_doubled]"
   },
   {
     "domain": "PLAYER",
-    "source": "13496",
+    "source": "13496 [league_combat_relic_effects_temp_1]",
     "lsb": 20,
     "msb": 20,
     "wiki_sync": false,
-    "id": "61602"
+    "id": "61602 [league_relic_transmute_spell_swap]"
   },
   {
     "domain": "PLAYER",
-    "source": "13496",
+    "source": "13496 [league_combat_relic_effects_temp_1]",
     "lsb": 21,
     "msb": 21,
     "wiki_sync": false,
-    "id": "61603"
+    "id": "61603 [league_relic_runecraft_crystal_essence_drop]"
   },
   {
     "domain": "PLAYER",
-    "source": "13496",
+    "source": "13496 [league_combat_relic_effects_temp_1]",
     "lsb": 22,
     "msb": 22,
     "wiki_sync": false,
-    "id": "61604"
+    "id": "61604 [league_relic_transmute_bank_notes]"
   },
   {
     "domain": "PLAYER",
-    "source": "13496",
+    "source": "13496 [league_combat_relic_effects_temp_1]",
     "lsb": 23,
     "msb": 23,
     "wiki_sync": false,
-    "id": "61605"
+    "id": "61605 [league_relic_runecraft_multiplier]"
   },
   {
     "domain": "PLAYER",
-    "source": "13496",
+    "source": "13496 [league_combat_relic_effects_temp_1]",
     "lsb": 24,
     "msb": 24,
     "wiki_sync": false,
-    "id": "61606"
+    "id": "61606 [league_relic_runecraft_multiplier_level_max]"
   },
   {
     "domain": "PLAYER",
-    "source": "13496",
+    "source": "13496 [league_combat_relic_effects_temp_1]",
     "lsb": 25,
     "msb": 25,
     "wiki_sync": false,
-    "id": "61607"
+    "id": "61607 [league_relic_necromancy_ritual_boosts]"
   },
   {
     "domain": "PLAYER",
-    "source": "13496",
+    "source": "13496 [league_combat_relic_effects_temp_1]",
     "lsb": 26,
     "msb": 26,
     "wiki_sync": false,
-    "id": "61608"
+    "id": "61608 [league_relic_necromancy_rituals_free_ingredients]"
   },
   {
     "domain": "PLAYER",
-    "source": "13496",
+    "source": "13496 [league_combat_relic_effects_temp_1]",
     "lsb": 27,
     "msb": 28,
     "wiki_sync": false,
-    "id": "61609"
+    "id": "61609 [league_relic_prayer_bonus_dragon_bone]"
   },
   {
     "domain": "PLAYER",
-    "source": "13496",
+    "source": "13496 [league_combat_relic_effects_temp_1]",
     "lsb": 29,
     "msb": 29,
     "wiki_sync": false,
-    "id": "61610"
+    "id": "61610 [league_relic_arch_max_monolith_energy]"
   },
   {
     "domain": "PLAYER",
-    "source": "13496",
+    "source": "13496 [league_combat_relic_effects_temp_1]",
     "lsb": 30,
     "msb": 31,
     "wiki_sync": false,
-    "id": "61611"
+    "id": "61611 [league_relic_arch_all_relics]"
   },
   {
     "domain": "PLAYER",
-    "source": "13497",
+    "source": "13497 [league_relic_combat_unholy_critual_critical_strike_damage]",
     "lsb": 0,
     "msb": 3,
     "wiki_sync": false,
-    "id": "61612"
+    "id": "61612 [league_relic_arch_automatic_material_storage]"
   },
   {
     "domain": "PLAYER",
-    "source": "13497",
+    "source": "13497 [league_relic_combat_unholy_critual_critical_strike_damage]",
     "lsb": 4,
     "msb": 7,
     "wiki_sync": false,
-    "id": "61613"
+    "id": "61613 [league_relic_arch_ancient_casket_on_collection]"
   },
   {
     "domain": "PLAYER",
-    "source": "13497",
+    "source": "13497 [league_relic_combat_unholy_critual_critical_strike_damage]",
     "lsb": 8,
     "msb": 11,
     "wiki_sync": false,
-    "id": "61614"
+    "id": "61614 [league_relic_arch_fixate]"
   },
   {
     "domain": "PLAYER",
-    "source": "13497",
+    "source": "13497 [league_relic_combat_unholy_critual_critical_strike_damage]",
     "lsb": 12,
     "msb": 15,
     "wiki_sync": false,
-    "id": "61615"
+    "id": "61615 [league_relic_arch_lore_drop_boost_relic]"
   },
   {
     "domain": "PLAYER",
-    "source": "13497",
+    "source": "13497 [league_relic_combat_unholy_critual_critical_strike_damage]",
     "lsb": 16,
     "msb": 19,
     "wiki_sync": false,
-    "id": "61616"
+    "id": "61616 [league_relic_arch_divine_geodes]"
   },
   {
     "domain": "PLAYER",
-    "source": "13497",
+    "source": "13497 [league_relic_combat_unholy_critual_critical_strike_damage]",
     "lsb": 20,
     "msb": 22,
     "wiki_sync": false,
-    "id": "61617"
+    "id": "61617 [league_relic_masterwork_instant]"
   },
   {
     "domain": "PLAYER",
-    "source": "13497",
+    "source": "13497 [league_relic_combat_unholy_critual_critical_strike_damage]",
     "lsb": 23,
     "msb": 23,
     "wiki_sync": false,
-    "id": "61618"
+    "id": "61618 [league_relic_clues_outfit_triple_charges]"
   },
   {
     "domain": "PLAYER",
-    "source": "13498",
+    "source": "13498 [league_task_base_36]",
     "lsb": 0,
     "msb": 14,
     "wiki_sync": false,
-    "id": "61619"
+    "id": "61619 [league_relic_clues_triple_points]"
   },
   {
     "domain": "PLAYER",
-    "source": "13498",
+    "source": "13498 [league_task_base_36]",
     "lsb": 15,
     "msb": 29,
     "wiki_sync": false,
-    "id": "61620"
+    "id": "61620 [league_relic_summoning_familiar_xp]"
   },
   {
     "domain": "PLAYER",
-    "source": "13498",
+    "source": "13498 [league_task_base_36]",
     "lsb": 30,
     "msb": 30,
     "wiki_sync": false,
-    "id": "61621"
+    "id": "61621 [league_relic_summoning_save_scrolls]"
   },
   {
     "domain": "PLAYER",
-    "source": "13498",
+    "source": "13498 [league_task_base_36]",
     "lsb": 31,
     "msb": 31,
     "wiki_sync": false,
-    "id": "61622"
+    "id": "61622 [league_relic_summoning_reduced_point_cost]"
   },
   {
     "domain": "PLAYER",
-    "source": "13499",
+    "source": "13499 [league_task_base_37]",
     "lsb": 0,
     "msb": 14,
     "wiki_sync": false,
-    "id": "61623"
+    "id": "61623 [league_relic_summoning_familiar_extra_damage]"
   },
   {
     "domain": "PLAYER",
-    "source": "13499",
+    "source": "13499 [league_task_base_37]",
     "lsb": 15,
     "msb": 29,
     "wiki_sync": false,
-    "id": "61624"
+    "id": "61624 [league_relic_clues_holes_filled]"
   },
   {
     "domain": "PLAYER",
@@ -493005,7 +493005,7 @@
     "lsb": 1,
     "msb": 1,
     "wiki_sync": false,
-    "id": "61625"
+    "id": "61625 [league_relic_invention_perk_trigger_boost_20]"
   },
   {
     "domain": "PLAYER",
@@ -493013,7 +493013,7 @@
     "lsb": 2,
     "msb": 13,
     "wiki_sync": false,
-    "id": "61626"
+    "id": "61626 [league_relic_invention_machine_increase_capacity]"
   },
   {
     "domain": "PLAYER",
@@ -493021,7 +493021,7 @@
     "lsb": 14,
     "msb": 14,
     "wiki_sync": false,
-    "id": "61627"
+    "id": "61627 [league_relic_invention_no_junk]"
   },
   {
     "domain": "PLAYER",
@@ -493029,7 +493029,7 @@
     "lsb": 15,
     "msb": 16,
     "wiki_sync": false,
-    "id": "61628"
+    "id": "61628 [league_relic_invention_machines_no_level_req]"
   },
   {
     "domain": "PLAYER",
@@ -493037,7 +493037,7 @@
     "lsb": 17,
     "msb": 17,
     "wiki_sync": false,
-    "id": "61629"
+    "id": "61629 [league_relic_invention_toolbox_capacitor_active]"
   },
   {
     "domain": "PLAYER",
@@ -493045,7 +493045,7 @@
     "lsb": 18,
     "msb": 19,
     "wiki_sync": false,
-    "id": "61630"
+    "id": "61630 [league_relic_invention_disassemble_materials_multiplier]"
   },
   {
     "domain": "PLAYER",
@@ -493053,7 +493053,7 @@
     "lsb": 20,
     "msb": 20,
     "wiki_sync": false,
-    "id": "61631"
+    "id": "61631 [league_relic_invention_gizmo_1_perk_1_rank]"
   },
   {
     "domain": "PLAYER",
@@ -493061,7 +493061,7 @@
     "lsb": 21,
     "msb": 21,
     "wiki_sync": false,
-    "id": "61632"
+    "id": "61632 [league_relic_invention_gizmo_1_perk_2_rank]"
   },
   {
     "domain": "PLAYER",
@@ -493069,7 +493069,7 @@
     "lsb": 22,
     "msb": 22,
     "wiki_sync": false,
-    "id": "61633"
+    "id": "61633 [league_relic_invention_gizmo_2_perk_1_rank]"
   },
   {
     "domain": "PLAYER",
@@ -493077,7 +493077,7 @@
     "lsb": 23,
     "msb": 23,
     "wiki_sync": false,
-    "id": "61634"
+    "id": "61634 [league_relic_invention_gizmo_2_perk_2_rank]"
   },
   {
     "domain": "PLAYER",
@@ -493085,7 +493085,7 @@
     "lsb": 24,
     "msb": 27,
     "wiki_sync": false,
-    "id": "61635"
+    "id": "61635 [league_relic_pick_tier_1_to_5]"
   },
   {
     "domain": "PLAYER",
@@ -493093,319 +493093,319 @@
     "lsb": 28,
     "msb": 28,
     "wiki_sync": false,
-    "id": "61636"
+    "id": "61636 [league_relic_magic_seren_spells_unlocked]"
   },
   {
     "domain": "PLAYER",
-    "source": "13506",
+    "source": "13506 [warnings_dontaskagain2]",
     "lsb": 0,
     "msb": 9,
     "wiki_sync": false,
-    "id": "61637"
+    "id": "61637 [league_relic_invention_gizmo_1_perk_1]"
   },
   {
     "domain": "PLAYER",
-    "source": "13506",
+    "source": "13506 [warnings_dontaskagain2]",
     "lsb": 10,
     "msb": 19,
     "wiki_sync": false,
-    "id": "61638"
+    "id": "61638 [league_relic_invention_gizmo_1_perk_2]"
   },
   {
     "domain": "PLAYER",
-    "source": "13506",
+    "source": "13506 [warnings_dontaskagain2]",
     "lsb": 20,
     "msb": 27,
     "wiki_sync": false,
-    "id": "61639"
+    "id": "61639 [league_relic_dummy_infernal_fire]"
   },
   {
     "domain": "PLAYER",
-    "source": "13506",
+    "source": "13506 [warnings_dontaskagain2]",
     "lsb": 28,
     "msb": 30,
     "wiki_sync": false,
-    "id": "61640"
+    "id": "61640 [league_relic_dummy_naragi_edict]"
   },
   {
     "domain": "PLAYER",
-    "source": "13506",
+    "source": "13506 [warnings_dontaskagain2]",
     "lsb": 31,
     "msb": 31,
     "wiki_sync": false,
-    "id": "61641"
+    "id": "61641 [league_relic_invention_gizmo_2_perk_1]"
   },
   {
     "domain": "PLAYER",
-    "source": "13507",
+    "source": "13507 [warnings_dontaskagain3]",
     "lsb": 0,
     "msb": 6,
     "wiki_sync": false,
-    "id": "61642"
+    "id": "61642 [league_relic_invention_gizmo_2_perk_2]"
   },
   {
     "domain": "PLAYER",
-    "source": "13507",
+    "source": "13507 [warnings_dontaskagain3]",
     "lsb": 7,
     "msb": 13,
     "wiki_sync": false,
-    "id": "61643"
+    "id": "61643 [league_relic_no_equipment_degradation]"
   },
   {
     "domain": "PLAYER",
-    "source": "13507",
+    "source": "13507 [warnings_dontaskagain3]",
     "lsb": 14,
     "msb": 21,
     "wiki_sync": false,
-    "id": "61644"
+    "id": "61644 [league_relic_combat_maximum_adrenaline_increase]"
   },
   {
     "domain": "PLAYER",
-    "source": "13507",
+    "source": "13507 [warnings_dontaskagain3]",
     "lsb": 22,
     "msb": 22,
     "wiki_sync": false,
-    "id": "61645"
+    "id": "61645 [league_relic_no_pocket_slot_degradation]"
   },
   {
     "domain": "PLAYER",
-    "source": "13507",
+    "source": "13507 [warnings_dontaskagain3]",
     "lsb": 23,
     "msb": 23,
     "wiki_sync": false,
-    "id": "61646"
+    "id": "61646 [league_relic_combat_attack_range_increase]"
   },
   {
     "domain": "PLAYER",
-    "source": "13507",
+    "source": "13507 [warnings_dontaskagain3]",
     "lsb": 24,
     "msb": 24,
     "wiki_sync": false,
-    "id": "61647"
+    "id": "61647 [league_relic_all_skillcape_passives]"
   },
   {
     "domain": "PLAYER",
-    "source": "13507",
+    "source": "13507 [warnings_dontaskagain3]",
     "lsb": 25,
     "msb": 25,
     "wiki_sync": false,
-    "id": "61648"
+    "id": "61648 [league_relic_lesser_scavenging]"
   },
   {
     "domain": "PLAYER",
-    "source": "13507",
+    "source": "13507 [warnings_dontaskagain3]",
     "lsb": 26,
     "msb": 26,
     "wiki_sync": false,
-    "id": "61649"
+    "id": "61649 [league_relic_faster_boss_spawns]"
   },
   {
     "domain": "PLAYER",
-    "source": "13507",
+    "source": "13507 [warnings_dontaskagain3]",
     "lsb": 27,
     "msb": 27,
     "wiki_sync": false,
-    "id": "61650"
+    "id": "61650 [league_relic_reputation_boost]"
   },
   {
     "domain": "PLAYER",
-    "source": "13507",
+    "source": "13507 [warnings_dontaskagain3]",
     "lsb": 28,
     "msb": 28,
     "wiki_sync": false,
-    "id": "61651"
+    "id": "61651 [league_relic_arch_lore_drop_boost_passive]"
   },
   {
     "domain": "PLAYER",
-    "source": "13507",
+    "source": "13507 [warnings_dontaskagain3]",
     "lsb": 29,
     "msb": 29,
     "wiki_sync": false,
-    "id": "61652"
+    "id": "61652 [league_relic_free_boss_entry]"
   },
   {
     "domain": "PLAYER",
-    "source": "13507",
+    "source": "13507 [warnings_dontaskagain3]",
     "lsb": 30,
     "msb": 30,
     "wiki_sync": false,
-    "id": "61653"
+    "id": "61653 [league_relic_increased_item_xp]"
   },
   {
     "domain": "PLAYER",
-    "source": "13507",
+    "source": "13507 [warnings_dontaskagain3]",
     "lsb": 31,
     "msb": 31,
     "wiki_sync": false,
-    "id": "61654"
+    "id": "61654 [league_relic_spirit_tree_access]"
   },
   {
     "domain": "PLAYER",
-    "source": "13508",
+    "source": "13508 [wordpuzzle_temp_letters_1]",
     "lsb": 0,
     "msb": 9,
     "wiki_sync": false,
-    "id": "61655"
+    "id": "61655 [league_relic_dung_increased_tokens]"
   },
   {
     "domain": "PLAYER",
-    "source": "13508",
+    "source": "13508 [wordpuzzle_temp_letters_1]",
     "lsb": 10,
     "msb": 16,
     "wiki_sync": false,
-    "id": "61656"
+    "id": "61656 [league_relic_combat_maximum_adrenaline_increase_tier_1]"
   },
   {
     "domain": "PLAYER",
-    "source": "13508",
+    "source": "13508 [wordpuzzle_temp_letters_1]",
     "lsb": 17,
     "msb": 25,
     "wiki_sync": false,
-    "id": "61657"
+    "id": "61657 [league_relic_combat_adrenaline_multiplier]"
   },
   {
     "domain": "PLAYER",
-    "source": "13508",
+    "source": "13508 [wordpuzzle_temp_letters_1]",
     "lsb": 26,
     "msb": 30,
     "wiki_sync": false,
-    "id": "61658"
+    "id": "61658 [league_relic_combat_ad_bonus_damage_on_hit]"
   },
   {
     "domain": "PLAYER",
-    "source": "13508",
+    "source": "13508 [wordpuzzle_temp_letters_1]",
     "lsb": 31,
     "msb": 31,
     "wiki_sync": false,
-    "id": "61659"
+    "id": "61659 [league_relic_combat_guthix_grasp_max_hit_count]"
   },
   {
     "domain": "PLAYER",
-    "source": "13509",
+    "source": "13509 [wordpuzzle_temp_letters_2]",
     "lsb": 0,
     "msb": 9,
     "wiki_sync": false,
-    "id": "61660"
+    "id": "61660 [league_relic_combat_food_no_consume]"
   },
   {
     "domain": "PLAYER",
-    "source": "13509",
+    "source": "13509 [wordpuzzle_temp_letters_2]",
     "lsb": 10,
     "msb": 19,
     "wiki_sync": false,
-    "id": "61661"
+    "id": "61661 [league_relic_combat_zamorak_inferno_on_hit_percent_chance]"
   },
   {
     "domain": "PLAYER",
-    "source": "13509",
+    "source": "13509 [wordpuzzle_temp_letters_2]",
     "lsb": 20,
     "msb": 29,
     "wiki_sync": false,
-    "id": "61662"
+    "id": "61662 [league_relic_combat_barkscales_damage_reduction]"
   },
   {
     "domain": "PLAYER",
-    "source": "13509",
+    "source": "13509 [wordpuzzle_temp_letters_2]",
     "lsb": 30,
     "msb": 30,
     "wiki_sync": false,
-    "id": "61663"
+    "id": "61663 [league_relic_combat_basic_attack_damage_increase]"
   },
   {
     "domain": "PLAYER",
-    "source": "13509",
+    "source": "13509 [wordpuzzle_temp_letters_2]",
     "lsb": 31,
     "msb": 31,
     "wiki_sync": false,
-    "id": "61664"
+    "id": "61664 [league_relic_combat_saradomin_light_on_basic_attack]"
   },
   {
     "domain": "PLAYER",
-    "source": "13510",
+    "source": "13510 [wordpuzzle_temp_status_1]",
     "lsb": 0,
     "msb": 0,
     "wiki_sync": false,
-    "id": "61665"
+    "id": "61665 [league_relic_combat_armour_to_damage]"
   },
   {
     "domain": "PLAYER",
-    "source": "13510",
+    "source": "13510 [wordpuzzle_temp_status_1]",
     "lsb": 1,
     "msb": 1,
     "wiki_sync": false,
-    "id": "61666"
+    "id": "61666 [league_relic_combat_health_regeneration]"
   },
   {
     "domain": "PLAYER",
-    "source": "13510",
+    "source": "13510 [wordpuzzle_temp_status_1]",
     "lsb": 2,
     "msb": 3,
     "wiki_sync": false,
-    "id": "61667"
+    "id": "61667 [league_relic_combat_defensive_ability_buffs]"
   },
   {
     "domain": "PLAYER",
-    "source": "13510",
+    "source": "13510 [wordpuzzle_temp_status_1]",
     "lsb": 4,
     "msb": 4,
     "wiki_sync": false,
-    "id": "61668"
+    "id": "61668 [league_relic_combat_damage_buffs_no_ultimates]"
   },
   {
     "domain": "PLAYER",
-    "source": "13510",
+    "source": "13510 [wordpuzzle_temp_status_1]",
     "lsb": 5,
     "msb": 5,
     "wiki_sync": false,
-    "id": "61669"
+    "id": "61669 [league_relic_combat_saradomin_light_multi_attack]"
   },
   {
     "domain": "PLAYER",
-    "source": "13510",
+    "source": "13510 [wordpuzzle_temp_status_1]",
     "lsb": 6,
     "msb": 6,
     "wiki_sync": false,
-    "id": "61670"
+    "id": "61670 [league_relic_combat_saradomin_light_prayer_scaling]"
   },
   {
     "domain": "PLAYER",
-    "source": "13510",
+    "source": "13510 [wordpuzzle_temp_status_1]",
     "lsb": 7,
     "msb": 16,
     "wiki_sync": false,
-    "id": "61671"
+    "id": "61671 [league_relic_combat_maximum_health_increase_percent]"
   },
   {
     "domain": "PLAYER",
-    "source": "13510",
+    "source": "13510 [wordpuzzle_temp_status_1]",
     "lsb": 17,
     "msb": 22,
     "wiki_sync": false,
-    "id": "61672"
+    "id": "61672 [league_relic_combat_health_to_damage]"
   },
   {
     "domain": "PLAYER",
-    "source": "13510",
+    "source": "13510 [wordpuzzle_temp_status_1]",
     "lsb": 23,
     "msb": 23,
     "wiki_sync": false,
-    "id": "61673"
+    "id": "61673 [league_relic_combat_unholy_critual_zamorak_inferno_critical_strike_buff]"
   },
   {
     "domain": "PLAYER",
-    "source": "13510",
+    "source": "13510 [wordpuzzle_temp_status_1]",
     "lsb": 24,
     "msb": 28,
     "wiki_sync": false,
-    "id": "61674"
+    "id": "61674 [league_relic_combat_avernic_rampage_chance]"
   },
   {
     "domain": "PLAYER",
-    "source": "13510",
+    "source": "13510 [wordpuzzle_temp_status_1]",
     "lsb": 29,
     "msb": 31,
     "wiki_sync": false,
-    "id": "61675"
+    "id": "61675 [league_relic_combat_havoc_born_damage_buff]"
   },
   {
     "domain": "PLAYER",
@@ -493413,7 +493413,7 @@
     "lsb": 0,
     "msb": 0,
     "wiki_sync": false,
-    "id": "61676"
+    "id": "61676 [league_relic_combat_havoc_born_hitpoints_debuff]"
   },
   {
     "domain": "PLAYER",
@@ -493421,79 +493421,79 @@
     "lsb": 1,
     "msb": 1,
     "wiki_sync": false,
-    "id": "61677"
+    "id": "61677 [league_relic_combat_havoc_born_armour_debuff]"
   },
   {
     "domain": "PLAYER",
-    "source": "13512",
+    "source": "13512 [plugin_hub_main]",
     "lsb": 0,
     "msb": 4,
     "wiki_sync": false,
-    "id": "61678"
+    "id": "61678 [league_relic_combat_damage_over_time_extension]"
   },
   {
     "domain": "PLAYER",
-    "source": "13512",
+    "source": "13512 [plugin_hub_main]",
     "lsb": 5,
     "msb": 9,
     "wiki_sync": false,
-    "id": "61679"
+    "id": "61679 [league_relic_combat_unholy_critual_critical_strike_chance]"
   },
   {
     "domain": "PLAYER",
-    "source": "13512",
+    "source": "13512 [plugin_hub_main]",
     "lsb": 10,
     "msb": 14,
     "wiki_sync": false,
-    "id": "61680"
+    "id": "61680 [league_relic_combat_unholy_critual_critical_strike_chance_cap]"
   },
   {
     "domain": "PLAYER",
-    "source": "13513",
+    "source": "13513 [plugin_hub_temp]",
     "lsb": 1,
     "msb": 3,
     "wiki_sync": false,
-    "id": "61681"
+    "id": "61681 [league_relic_combat_unholy_critual_zamorak_inferno_critical_strike_damage]"
   },
   {
     "domain": "PLAYER",
-    "source": "13513",
+    "source": "13513 [plugin_hub_temp]",
     "lsb": 4,
     "msb": 4,
     "wiki_sync": false,
-    "id": "61682"
+    "id": "61682 [league_relic_combat_guthix_grasp_damage_over_time]"
   },
   {
     "domain": "PLAYER",
-    "source": "13513",
+    "source": "13513 [plugin_hub_temp]",
     "lsb": 5,
     "msb": 5,
     "wiki_sync": false,
-    "id": "61683"
+    "id": "61683 [league_relic_combat_guthix_grasp_health_scaling]"
   },
   {
     "domain": "PLAYER",
-    "source": "13492",
+    "source": "13492 [league_combat_relic_effects_4]",
     "lsb": 8,
     "msb": 8,
     "wiki_sync": false,
-    "id": "61684"
+    "id": "61684 [league_relic_combat_poison_damage_buff]"
   },
   {
     "domain": "PLAYER",
-    "source": "13513",
+    "source": "13513 [plugin_hub_temp]",
     "lsb": 8,
     "msb": 8,
     "wiki_sync": false,
-    "id": "61685"
+    "id": "61685 [league_relic_combat_poison_disable_immunity]"
   },
   {
     "domain": "PLAYER",
-    "source": "13513",
+    "source": "13513 [plugin_hub_temp]",
     "lsb": 9,
     "msb": 12,
     "wiki_sync": false,
-    "id": "61686"
+    "id": "61686 [league_relic_combat_set_effect_item_value_increase]"
   },
   {
     "domain": "PLAYER",
@@ -493501,7 +493501,7 @@
     "lsb": 27,
     "msb": 27,
     "wiki_sync": false,
-    "id": "61687"
+    "id": "61687 [league_relic_combat_perk_box]"
   },
   {
     "domain": "PLAYER",
@@ -493509,7 +493509,7 @@
     "lsb": 13,
     "msb": 13,
     "wiki_sync": false,
-    "id": "61688"
+    "id": "61688 [league_relic_combat_accuracy_weakness]"
   },
   {
     "domain": "PLAYER",
@@ -493517,7 +493517,7 @@
     "lsb": 24,
     "msb": 24,
     "wiki_sync": false,
-    "id": "61689"
+    "id": "61689 [league_relic_combat_food_no_adrenaline_cost]"
   },
   {
     "domain": "PLAYER",
@@ -493525,7 +493525,7 @@
     "lsb": 0,
     "msb": 0,
     "wiki_sync": false,
-    "id": "61690"
+    "id": "61690 [league_relic_combat_adrenaline_renewal]"
   },
   {
     "domain": "PLAYER",
@@ -493533,7 +493533,7 @@
     "lsb": 27,
     "msb": 27,
     "wiki_sync": false,
-    "id": "61691"
+    "id": "61691 [league_relic_combat_saradomin_light_cooldown]"
   },
   {
     "domain": "PLAYER",
@@ -493541,7 +493541,7 @@
     "lsb": 30,
     "msb": 30,
     "wiki_sync": false,
-    "id": "61692"
+    "id": "61692 [league_relic_combat_god_abilities_empowered]"
   },
   {
     "domain": "PLAYER",
@@ -493549,7 +493549,7 @@
     "lsb": 12,
     "msb": 12,
     "wiki_sync": false,
-    "id": "61693"
+    "id": "61693 [league_relic_combat_aoe_abilities_damage_increase]"
   },
   {
     "domain": "PLAYER",
@@ -493557,7 +493557,7 @@
     "lsb": 24,
     "msb": 24,
     "wiki_sync": false,
-    "id": "61694"
+    "id": "61694 [league_relic_combat_aoe_abilities_damage_increase_by_size]"
   },
   {
     "domain": "PLAYER",
@@ -493565,7 +493565,7 @@
     "lsb": 5,
     "msb": 5,
     "wiki_sync": false,
-    "id": "61695"
+    "id": "61695 [league_relic_combat_true_equilibrium_active]"
   },
   {
     "domain": "PLAYER",
@@ -493573,7 +493573,7 @@
     "lsb": 13,
     "msb": 13,
     "wiki_sync": false,
-    "id": "61696"
+    "id": "61696 [league_relic_combat_saradomin_light_healing]"
   },
   {
     "domain": "PLAYER",
@@ -493581,7 +493581,7 @@
     "lsb": 19,
     "msb": 19,
     "wiki_sync": false,
-    "id": "61697"
+    "id": "61697 [league_combat_relic_choices_chaotic_count]"
   },
   {
     "domain": "PLAYER",
@@ -493589,7 +493589,7 @@
     "lsb": 10,
     "msb": 10,
     "wiki_sync": false,
-    "id": "61698"
+    "id": "61698 [league_combat_relic_choices_order_count]"
   },
   {
     "domain": "PLAYER",
@@ -493597,7 +493597,7 @@
     "lsb": 13,
     "msb": 13,
     "wiki_sync": false,
-    "id": "61699"
+    "id": "61699 [league_combat_relic_choices_balance_count]"
   },
   {
     "domain": "PLAYER",
@@ -493605,7 +493605,7 @@
     "lsb": 27,
     "msb": 27,
     "wiki_sync": false,
-    "id": "61700"
+    "id": "61700 [league_relic_combat_guthix_grasp_hit_count]"
   },
   {
     "domain": "PLAYER",
@@ -493613,7 +493613,7 @@
     "lsb": 5,
     "msb": 5,
     "wiki_sync": false,
-    "id": "61701"
+    "id": "61701 [league_relic_light_strike_on_cooldown]"
   },
   {
     "domain": "PLAYER",
@@ -493621,7 +493621,7 @@
     "lsb": 7,
     "msb": 7,
     "wiki_sync": false,
-    "id": "61702"
+    "id": "61702 [league_relic_lord_of_light_on_cooldown]"
   },
   {
     "domain": "PLAYER",
@@ -493629,7 +493629,7 @@
     "lsb": 10,
     "msb": 10,
     "wiki_sync": false,
-    "id": "61703"
+    "id": "61703 [league_relic_combat_avernic_rampage_active]"
   },
   {
     "domain": "PLAYER",
@@ -493637,7 +493637,7 @@
     "lsb": 18,
     "msb": 18,
     "wiki_sync": false,
-    "id": "61704"
+    "id": "61704 [league_relic_combat_guthix_grasp_dot_hit_count]"
   },
   {
     "domain": "PLAYER",
@@ -493645,7 +493645,7 @@
     "lsb": 27,
     "msb": 27,
     "wiki_sync": false,
-    "id": "61705"
+    "id": "61705 [league_task_kill_tormented_demon_i_50]"
   },
   {
     "domain": "PLAYER",
@@ -493653,7 +493653,7 @@
     "lsb": 12,
     "msb": 12,
     "wiki_sync": false,
-    "id": "61706"
+    "id": "61706 [league_task_hermod_boss_kills_iv]"
   },
   {
     "domain": "PLAYER",
@@ -493661,7 +493661,7 @@
     "lsb": 9,
     "msb": 9,
     "wiki_sync": false,
-    "id": "61707"
+    "id": "61707 [league_task_rasial_boss_kills_iv]"
   },
   {
     "domain": "PLAYER",
@@ -493669,7 +493669,7 @@
     "lsb": 23,
     "msb": 23,
     "wiki_sync": false,
-    "id": "61708"
+    "id": "61708 [league_task_egwd_bik_boss_kills_i]"
   },
   {
     "domain": "PLAYER",
@@ -493677,7 +493677,7 @@
     "lsb": 10,
     "msb": 10,
     "wiki_sync": false,
-    "id": "61709"
+    "id": "61709 [league_task_egwd_jas_boss_kills_iv]"
   },
   {
     "domain": "PLAYER",
@@ -493685,7 +493685,7 @@
     "lsb": 20,
     "msb": 20,
     "wiki_sync": false,
-    "id": "61710"
+    "id": "61710 [league_task_hm_egwd_wen_boss_kills_iii]"
   },
   {
     "domain": "PLAYER",
@@ -493693,7 +493693,7 @@
     "lsb": 30,
     "msb": 30,
     "wiki_sync": false,
-    "id": "61711"
+    "id": "61711 [league_task_mole_kills_iii]"
   },
   {
     "domain": "PLAYER",
@@ -493701,7 +493701,7 @@
     "lsb": 1,
     "msb": 1,
     "wiki_sync": false,
-    "id": "61712"
+    "id": "61712 [league_task_vorago_kills_ii]"
   },
   {
     "domain": "PLAYER",
@@ -493709,7 +493709,7 @@
     "lsb": 4,
     "msb": 4,
     "wiki_sync": false,
-    "id": "61713"
+    "id": "61713 [league_task_nex_kills_iv]"
   },
   {
     "domain": "PLAYER",
@@ -493717,7 +493717,7 @@
     "lsb": 18,
     "msb": 18,
     "wiki_sync": false,
-    "id": "61714"
+    "id": "61714 [league_task_nex2_kills_ii]"
   },
   {
     "domain": "PLAYER",
@@ -493725,7 +493725,7 @@
     "lsb": 29,
     "msb": 29,
     "wiki_sync": false,
-    "id": "61715"
+    "id": "61715 [league_task_qbd_kills_iv]"
   },
   {
     "domain": "PLAYER",
@@ -493733,7 +493733,7 @@
     "lsb": 18,
     "msb": 18,
     "wiki_sync": false,
-    "id": "61716"
+    "id": "61716 [league_task_kalphitequeen_kills_iii]"
   },
   {
     "domain": "PLAYER",
@@ -493741,7 +493741,7 @@
     "lsb": 6,
     "msb": 6,
     "wiki_sync": false,
-    "id": "61717"
+    "id": "61717 [league_task_dominion_tower_defeat_bosses_i]"
   },
   {
     "domain": "PLAYER",
@@ -493749,7 +493749,7 @@
     "lsb": 16,
     "msb": 16,
     "wiki_sync": false,
-    "id": "61718"
+    "id": "61718 [league_task_kk_kills_iii]"
   },
   {
     "domain": "PLAYER",
@@ -493757,7 +493757,7 @@
     "lsb": 6,
     "msb": 6,
     "wiki_sync": false,
-    "id": "61719"
+    "id": "61719 [league_task_twins_kills_iv]"
   },
   {
     "domain": "PLAYER",
@@ -493765,7 +493765,7 @@
     "lsb": 4,
     "msb": 4,
     "wiki_sync": false,
-    "id": "61720"
+    "id": "61720 [league_task_greg_kills_iv]"
   },
   {
     "domain": "PLAYER",
@@ -493773,7 +493773,7 @@
     "lsb": 6,
     "msb": 6,
     "wiki_sync": false,
-    "id": "61721"
+    "id": "61721 [league_task_helwyr_kills_iv]"
   },
   {
     "domain": "PLAYER",
@@ -493781,7 +493781,7 @@
     "lsb": 25,
     "msb": 25,
     "wiki_sync": false,
-    "id": "61722"
+    "id": "61722 [league_task_magister_kills_iii]"
   },
   {
     "domain": "PLAYER",
@@ -493789,7 +493789,7 @@
     "lsb": 30,
     "msb": 30,
     "wiki_sync": false,
-    "id": "61723"
+    "id": "61723 [league_task_dagkings_kills_iv]"
   },
   {
     "domain": "PLAYER",
@@ -493797,7 +493797,7 @@
     "lsb": 1,
     "msb": 1,
     "wiki_sync": false,
-    "id": "61724"
+    "id": "61724 [league_task_hunter_catch_red_chinchompas_ii_30]"
   },
   {
     "domain": "PLAYER",
@@ -493805,7 +493805,7 @@
     "lsb": 18,
     "msb": 18,
     "wiki_sync": false,
-    "id": "61725"
+    "id": "61725 [league_task_dino_boss_kills_iii]"
   },
   {
     "domain": "PLAYER",
@@ -493813,7 +493813,7 @@
     "lsb": 19,
     "msb": 19,
     "wiki_sync": false,
-    "id": "61726"
+    "id": "61726 [league_task_thieving_heist_time_dragonkin]"
   },
   {
     "domain": "PLAYER",
@@ -493821,7 +493821,7 @@
     "lsb": 20,
     "msb": 20,
     "wiki_sync": false,
-    "id": "61727"
+    "id": "61727 [league_task_hunter_catch_crystal_skillchompas_tirannwn_30]"
   },
   {
     "domain": "PLAYER",
@@ -493829,7 +493829,7 @@
     "lsb": 21,
     "msb": 21,
     "wiki_sync": false,
-    "id": "61728"
+    "id": "61728 [league_task_jad_kills_i]"
   },
   {
     "domain": "PLAYER",
@@ -493837,7 +493837,7 @@
     "lsb": 22,
     "msb": 22,
     "wiki_sync": false,
-    "id": "61729"
+    "id": "61729 [league_task_agility_arena_tickets_i_10]"
   },
   {
     "domain": "PLAYER",
@@ -493845,7 +493845,7 @@
     "lsb": 23,
     "msb": 23,
     "wiki_sync": false,
-    "id": "61730"
+    "id": "61730 [league_task_jad_mechanical_no_kill_healers]"
   },
   {
     "domain": "PLAYER",
@@ -493853,7 +493853,7 @@
     "lsb": 24,
     "msb": 24,
     "wiki_sync": false,
-    "id": "61731"
+    "id": "61731 [league_task_haraken_kills_i]"
   },
   {
     "domain": "PLAYER",
@@ -493861,7 +493861,7 @@
     "lsb": 25,
     "msb": 25,
     "wiki_sync": false,
-    "id": "61732"
+    "id": "61732 [league_task_chaoselemental_kills_iii]"
   },
   {
     "domain": "PLAYER",
@@ -493869,7 +493869,7 @@
     "lsb": 26,
     "msb": 26,
     "wiki_sync": false,
-    "id": "61733"
+    "id": "61733 [league_task_kbd_kills_iii]"
   },
   {
     "domain": "PLAYER",
@@ -493877,7 +493877,7 @@
     "lsb": 27,
     "msb": 27,
     "wiki_sync": false,
-    "id": "61734"
+    "id": "61734 [league_task_corp_kills_iv]"
   },
   {
     "domain": "PLAYER",
@@ -493885,863 +493885,863 @@
     "lsb": 28,
     "msb": 28,
     "wiki_sync": false,
-    "id": "61735"
+    "id": "61735 [league_task_dungeon_dragonfort3_kills_i]"
   },
   {
     "domain": "PLAYER",
-    "source": "13516",
+    "source": "13516 [mtxmgt_unlock_bitset_76]",
     "lsb": 10,
     "msb": 10,
     "wiki_sync": false,
-    "id": "61736"
+    "id": "61736 [league_task_dungeon_ulthven3_kills_i]"
   },
   {
     "domain": "PLAYER",
-    "source": "13516",
+    "source": "13516 [mtxmgt_unlock_bitset_76]",
     "lsb": 12,
     "msb": 12,
     "wiki_sync": false,
-    "id": "61737"
+    "id": "61737 [league_task_barrows_kills_iv]"
   },
   {
     "domain": "PLAYER",
-    "source": "13516",
+    "source": "13516 [mtxmgt_unlock_bitset_76]",
     "lsb": 15,
     "msb": 15,
     "wiki_sync": false,
-    "id": "61738"
+    "id": "61738 [league_task_araxxi_kills_iv]"
   },
   {
     "domain": "PLAYER",
-    "source": "13516",
+    "source": "13516 [mtxmgt_unlock_bitset_76]",
     "lsb": 16,
     "msb": 16,
     "wiki_sync": false,
-    "id": "61739"
+    "id": "61739 [league_task_rots_kills_ii]"
   },
   {
     "domain": "PLAYER",
-    "source": "13516",
+    "source": "13516 [mtxmgt_unlock_bitset_76]",
     "lsb": 17,
     "msb": 17,
     "wiki_sync": false,
-    "id": "61740"
+    "id": "61740 [league_task_egwd_ful_boss_kills_i]"
   },
   {
     "domain": "PLAYER",
-    "source": "13516",
+    "source": "13516 [mtxmgt_unlock_bitset_76]",
     "lsb": 18,
     "msb": 18,
     "wiki_sync": false,
-    "id": "61741"
+    "id": "61741 [league_task_raid_rebirth1_slayer_master_boss_kills_ii]"
   },
   {
     "domain": "PLAYER",
-    "source": "13516",
+    "source": "13516 [mtxmgt_unlock_bitset_76]",
     "lsb": 19,
     "msb": 19,
     "wiki_sync": false,
-    "id": "61742"
+    "id": "61742 [league_task_elidinis_boss_kills_ii]"
   },
   {
     "domain": "PLAYER",
-    "source": "13516",
+    "source": "13516 [mtxmgt_unlock_bitset_76]",
     "lsb": 20,
     "msb": 20,
     "wiki_sync": false,
-    "id": "61743"
+    "id": "61743 [league_task_dino_game_title_master]"
   },
   {
     "domain": "PLAYER",
-    "source": "13516",
+    "source": "13516 [mtxmgt_unlock_bitset_76]",
     "lsb": 21,
     "msb": 21,
     "wiki_sync": false,
-    "id": "61744"
+    "id": "61744 [league_task_archaeology_orthen_mystery_hunter]"
   },
   {
     "domain": "PLAYER",
-    "source": "13516",
+    "source": "13516 [mtxmgt_unlock_bitset_76]",
     "lsb": 22,
     "msb": 22,
     "wiki_sync": false,
-    "id": "61745"
+    "id": "61745 [league_task_archaeology_orthen_mystery_xolo_power]"
   },
   {
     "domain": "PLAYER",
-    "source": "13516",
+    "source": "13516 [mtxmgt_unlock_bitset_76]",
     "lsb": 23,
     "msb": 23,
     "wiki_sync": false,
-    "id": "61746"
+    "id": "61746 [league_task_combat_dino_boss_all_cheevo]"
   },
   {
     "domain": "PLAYER",
-    "source": "13516",
+    "source": "13516 [mtxmgt_unlock_bitset_76]",
     "lsb": 24,
     "msb": 24,
     "wiki_sync": false,
-    "id": "61747"
+    "id": "61747 [league_task_combat_rexkings_all_cheevo]"
   },
   {
     "domain": "PLAYER",
-    "source": "13516",
+    "source": "13516 [mtxmgt_unlock_bitset_76]",
     "lsb": 25,
     "msb": 25,
     "wiki_sync": false,
-    "id": "61748"
+    "id": "61748 [league_task_equip_dragon_defender]"
   },
   {
     "domain": "PLAYER",
-    "source": "13516",
+    "source": "13516 [mtxmgt_unlock_bitset_76]",
     "lsb": 26,
     "msb": 26,
     "wiki_sync": false,
-    "id": "61749"
+    "id": "61749 [league_task_bslay_dungeon_aminishi3]"
   },
   {
     "domain": "PLAYER",
-    "source": "13516",
+    "source": "13516 [mtxmgt_unlock_bitset_76]",
     "lsb": 27,
     "msb": 27,
     "wiki_sync": false,
-    "id": "61750"
+    "id": "61750 [league_task_dungeon_aminishi3_kills_i]"
   },
   {
     "domain": "PLAYER",
-    "source": "13516",
+    "source": "13516 [mtxmgt_unlock_bitset_76]",
     "lsb": 28,
     "msb": 28,
     "wiki_sync": false,
-    "id": "61751"
+    "id": "61751 [league_task_itemlog_slayer_asgarnia_misthalin]"
   },
   {
     "domain": "PLAYER",
-    "source": "13516",
+    "source": "13516 [mtxmgt_unlock_bitset_76]",
     "lsb": 29,
     "msb": 29,
     "wiki_sync": false,
-    "id": "61752"
+    "id": "61752 [league_task_combat_mole_all_cheevo]"
   },
   {
     "domain": "PLAYER",
-    "source": "13516",
+    "source": "13516 [mtxmgt_unlock_bitset_76]",
     "lsb": 30,
     "msb": 30,
     "wiki_sync": false,
-    "id": "61753"
+    "id": "61753 [league_task_combat_qbd_all_cheevo]"
   },
   {
     "domain": "PLAYER",
-    "source": "13516",
+    "source": "13516 [mtxmgt_unlock_bitset_76]",
     "lsb": 31,
     "msb": 31,
     "wiki_sync": false,
-    "id": "61754"
+    "id": "61754 [league_task_amascut_boss_kills_i]"
   },
   {
     "domain": "PLAYER",
-    "source": "13517",
+    "source": "13517 [mtxmgt_unlock_bitset_77]",
     "lsb": 0,
     "msb": 0,
     "wiki_sync": false,
-    "id": "61755"
+    "id": "61755 [league_task_fort_boss_zemo_vorkath_kills_ii]"
   },
   {
     "domain": "PLAYER",
-    "source": "13517",
+    "source": "13517 [mtxmgt_unlock_bitset_77]",
     "lsb": 1,
     "msb": 1,
     "wiki_sync": false,
-    "id": "61756"
+    "id": "61756 [league_task_anya_marigolds]"
   },
   {
     "domain": "PLAYER",
-    "source": "13517",
+    "source": "13517 [mtxmgt_unlock_bitset_77]",
     "lsb": 2,
     "msb": 2,
     "wiki_sync": false,
-    "id": "61757"
+    "id": "61757 [league_task_use_outhouse]"
   },
   {
     "domain": "PLAYER",
-    "source": "13517",
+    "source": "13517 [mtxmgt_unlock_bitset_77]",
     "lsb": 3,
     "msb": 3,
     "wiki_sync": false,
-    "id": "61758"
+    "id": "61758 [league_task_burnt_lobster]"
   },
   {
     "domain": "PLAYER",
-    "source": "13517",
+    "source": "13517 [mtxmgt_unlock_bitset_77]",
     "lsb": 4,
     "msb": 4,
     "wiki_sync": false,
-    "id": "61759"
+    "id": "61759 [league_task_inanna_pet]"
   },
   {
     "domain": "PLAYER",
-    "source": "13517",
+    "source": "13517 [mtxmgt_unlock_bitset_77]",
     "lsb": 5,
     "msb": 5,
     "wiki_sync": false,
-    "id": "61760"
+    "id": "61760 [league_task_drunken_villager]"
   },
   {
     "domain": "PLAYER",
-    "source": "13517",
+    "source": "13517 [mtxmgt_unlock_bitset_77]",
     "lsb": 6,
     "msb": 6,
     "wiki_sync": false,
-    "id": "61761"
+    "id": "61761 [league_task_amberfell_fairy_ring]"
   },
   {
     "domain": "PLAYER",
-    "source": "13517",
+    "source": "13517 [mtxmgt_unlock_bitset_77]",
     "lsb": 7,
     "msb": 7,
     "wiki_sync": false,
-    "id": "61762"
+    "id": "61762 [league_task_wendlewick_lighthouse]"
   },
   {
     "domain": "PLAYER",
-    "source": "13517",
+    "source": "13517 [mtxmgt_unlock_bitset_77]",
     "lsb": 8,
     "msb": 8,
     "wiki_sync": false,
-    "id": "61763"
+    "id": "61763 [league_task_havenhythe_boat_stations]"
   },
   {
     "domain": "PLAYER",
-    "source": "13517",
+    "source": "13517 [mtxmgt_unlock_bitset_77]",
     "lsb": 9,
     "msb": 9,
     "wiki_sync": false,
-    "id": "61764"
+    "id": "61764 [league_task_wendle_stash_opened]"
   },
   {
     "domain": "PLAYER",
-    "source": "13517",
+    "source": "13517 [mtxmgt_unlock_bitset_77]",
     "lsb": 10,
     "msb": 10,
     "wiki_sync": false,
-    "id": "61765"
+    "id": "61765 [league_task_quest_wizard_child]"
   },
   {
     "domain": "PLAYER",
-    "source": "13517",
+    "source": "13517 [mtxmgt_unlock_bitset_77]",
     "lsb": 11,
     "msb": 11,
     "wiki_sync": false,
-    "id": "61766"
+    "id": "61766 [league_task_quest_crab]"
   },
   {
     "domain": "PLAYER",
-    "source": "13517",
+    "source": "13517 [mtxmgt_unlock_bitset_77]",
     "lsb": 12,
     "msb": 12,
     "wiki_sync": false,
-    "id": "61767"
+    "id": "61767 [league_task_combat_boulder_crab]"
   },
   {
     "domain": "PLAYER",
-    "source": "13517",
+    "source": "13517 [mtxmgt_unlock_bitset_77]",
     "lsb": 13,
     "msb": 13,
     "wiki_sync": false,
-    "id": "61768"
+    "id": "61768 [league_task_pickpocket_ranger]"
   },
   {
     "domain": "PLAYER",
-    "source": "13517",
+    "source": "13517 [mtxmgt_unlock_bitset_77]",
     "lsb": 14,
     "msb": 14,
     "wiki_sync": false,
-    "id": "61769"
+    "id": "61769 [league_task_wendlewick_ale]"
   },
   {
     "domain": "PLAYER",
-    "source": "13517",
+    "source": "13517 [mtxmgt_unlock_bitset_77]",
     "lsb": 15,
     "msb": 15,
     "wiki_sync": false,
-    "id": "61770"
+    "id": "61770 [league_task_creeping_ivy_20]"
   },
   {
     "domain": "PLAYER",
-    "source": "13517",
+    "source": "13517 [mtxmgt_unlock_bitset_77]",
     "lsb": 16,
     "msb": 16,
     "wiki_sync": false,
-    "id": "61771"
+    "id": "61771 [league_task_jackalope_catch]"
   },
   {
     "domain": "PLAYER",
-    "source": "13517",
+    "source": "13517 [mtxmgt_unlock_bitset_77]",
     "lsb": 17,
     "msb": 17,
     "wiki_sync": false,
-    "id": "61772"
+    "id": "61772 [league_task_jackalope_pouch_create]"
   },
   {
     "domain": "PLAYER",
-    "source": "13517",
+    "source": "13517 [mtxmgt_unlock_bitset_77]",
     "lsb": 18,
     "msb": 18,
     "wiki_sync": false,
-    "id": "61773"
+    "id": "61773 [league_task_spirit_plane_free_craft]"
   },
   {
     "domain": "PLAYER",
-    "source": "13517",
+    "source": "13517 [mtxmgt_unlock_bitset_77]",
     "lsb": 19,
     "msb": 19,
     "wiki_sync": false,
-    "id": "61774"
+    "id": "61774 [league_task_fang_of_mohegan]"
   },
   {
     "domain": "PLAYER",
-    "source": "13517",
+    "source": "13517 [mtxmgt_unlock_bitset_77]",
     "lsb": 20,
     "msb": 20,
     "wiki_sync": false,
-    "id": "61775"
+    "id": "61775 [league_task_spirit_moth]"
   },
   {
     "domain": "PLAYER",
-    "source": "13517",
+    "source": "13517 [mtxmgt_unlock_bitset_77]",
     "lsb": 21,
     "msb": 21,
     "wiki_sync": false,
-    "id": "61776"
+    "id": "61776 [league_task_giant_moth_equipment]"
   },
   {
     "domain": "PLAYER",
-    "source": "13517",
+    "source": "13517 [mtxmgt_unlock_bitset_77]",
     "lsb": 22,
     "msb": 22,
     "wiki_sync": false,
-    "id": "61777"
+    "id": "61777 [league_task_birdhouse_build]"
   },
   {
     "domain": "PLAYER",
-    "source": "13517",
+    "source": "13517 [mtxmgt_unlock_bitset_77]",
     "lsb": 23,
     "msb": 23,
     "wiki_sync": false,
-    "id": "61778"
+    "id": "61778 [league_task_birdhouse_harvest_10]"
   },
   {
     "domain": "PLAYER",
-    "source": "13517",
+    "source": "13517 [mtxmgt_unlock_bitset_77]",
     "lsb": 24,
     "msb": 24,
     "wiki_sync": false,
-    "id": "61779"
+    "id": "61779 [league_task_big_game_hunter_havenhythe_first_kill]"
   },
   {
     "domain": "PLAYER",
-    "source": "13517",
+    "source": "13517 [mtxmgt_unlock_bitset_77]",
     "lsb": 25,
     "msb": 25,
     "wiki_sync": false,
-    "id": "61780"
+    "id": "61780 [league_task_dino_game_kebbit_4_kills]"
   },
   {
     "domain": "PLAYER",
-    "source": "13517",
+    "source": "13517 [mtxmgt_unlock_bitset_77]",
     "lsb": 26,
     "msb": 26,
     "wiki_sync": false,
-    "id": "61781"
+    "id": "61781 [league_task_big_game_hunter_grenwall]"
   },
   {
     "domain": "PLAYER",
-    "source": "13517",
+    "source": "13517 [mtxmgt_unlock_bitset_77]",
     "lsb": 27,
     "msb": 27,
     "wiki_sync": false,
-    "id": "61782"
+    "id": "61782 [league_task_wendle_fish_farm_intro]"
   },
   {
     "domain": "PLAYER",
-    "source": "13517",
+    "source": "13517 [mtxmgt_unlock_bitset_77]",
     "lsb": 28,
     "msb": 28,
     "wiki_sync": false,
-    "id": "61783"
+    "id": "61783 [league_task_wendle_fish_farm_build]"
   },
   {
     "domain": "PLAYER",
-    "source": "13517",
+    "source": "13517 [mtxmgt_unlock_bitset_77]",
     "lsb": 29,
     "msb": 29,
     "wiki_sync": false,
-    "id": "61784"
+    "id": "61784 [league_task_wendle_fish_farm_crayfish_30]"
   },
   {
     "domain": "PLAYER",
-    "source": "13517",
+    "source": "13517 [mtxmgt_unlock_bitset_77]",
     "lsb": 30,
     "msb": 30,
     "wiki_sync": false,
-    "id": "61785"
+    "id": "61785 [league_task_antisanguine]"
   },
   {
     "domain": "PLAYER",
-    "source": "13517",
+    "source": "13517 [mtxmgt_unlock_bitset_77]",
     "lsb": 31,
     "msb": 31,
     "wiki_sync": false,
-    "id": "61786"
+    "id": "61786 [league_task_havensilver_mine_20]"
   },
   {
     "domain": "PLAYER",
-    "source": "13518",
+    "source": "13518 [mtx154_var]",
     "lsb": 0,
     "msb": 0,
     "wiki_sync": false,
-    "id": "61787"
+    "id": "61787 [league_task_havensilver_smith]"
   },
   {
     "domain": "PLAYER",
-    "source": "13518",
+    "source": "13518 [mtx154_var]",
     "lsb": 1,
     "msb": 1,
     "wiki_sync": false,
-    "id": "61788"
+    "id": "61788 [league_task_havensilver_upgrade]"
   },
   {
     "domain": "PLAYER",
-    "source": "13518",
+    "source": "13518 [mtx154_var]",
     "lsb": 2,
     "msb": 2,
     "wiki_sync": false,
-    "id": "61789"
+    "id": "61789 [league_task_sanguine_crawler]"
   },
   {
     "domain": "PLAYER",
-    "source": "13518",
+    "source": "13518 [mtx154_var]",
     "lsb": 3,
     "msb": 3,
     "wiki_sync": false,
-    "id": "61790"
+    "id": "61790 [league_task_sanguine_crawler_seed]"
   },
   {
     "domain": "PLAYER",
-    "source": "13518",
+    "source": "13518 [mtx154_var]",
     "lsb": 4,
     "msb": 4,
     "wiki_sync": false,
-    "id": "61791"
+    "id": "61791 [league_task_sanguine_crawler_gloves]"
   },
   {
     "domain": "PLAYER",
-    "source": "13518",
+    "source": "13518 [mtx154_var]",
     "lsb": 5,
     "msb": 5,
     "wiki_sync": false,
-    "id": "61792"
+    "id": "61792 [league_task_bslay_wendle_giant_boss]"
   },
   {
     "domain": "PLAYER",
-    "source": "13518",
+    "source": "13518 [mtx154_var]",
     "lsb": 6,
     "msb": 6,
     "wiki_sync": false,
-    "id": "61793"
+    "id": "61793 [league_task_wendle_giant_boss_kills_iii]"
   },
   {
     "domain": "PLAYER",
-    "source": "13518",
+    "source": "13518 [mtx154_var]",
     "lsb": 7,
     "msb": 7,
     "wiki_sync": false,
-    "id": "61794"
+    "id": "61794 [league_task_ivar_bonecrusher_club]"
   },
   {
     "domain": "PLAYER",
-    "source": "13518",
+    "source": "13518 [mtx154_var]",
     "lsb": 8,
     "msb": 8,
     "wiki_sync": false,
-    "id": "61795"
+    "id": "61795 [league_task_bslay_wendle_hedgehog_boss]"
   },
   {
     "domain": "PLAYER",
-    "source": "13518",
+    "source": "13518 [mtx154_var]",
     "lsb": 9,
     "msb": 9,
     "wiki_sync": false,
-    "id": "61796"
+    "id": "61796 [league_task_wendle_hedgehog_boss_kills_iii]"
   },
   {
     "domain": "PLAYER",
-    "source": "13518",
+    "source": "13518 [mtx154_var]",
     "lsb": 10,
     "msb": 10,
     "wiki_sync": false,
-    "id": "61797"
+    "id": "61797 [league_task_wendle_hedgehog_boss_fun_havensilver_weapon]"
   },
   {
     "domain": "PLAYER",
-    "source": "13518",
+    "source": "13518 [mtx154_var]",
     "lsb": 11,
     "msb": 11,
     "wiki_sync": false,
-    "id": "61798"
+    "id": "61798 [league_task_arch_guthixian_collections]"
   },
   {
     "domain": "PLAYER",
-    "source": "13518",
+    "source": "13518 [mtx154_var]",
     "lsb": 12,
     "msb": 12,
     "wiki_sync": false,
-    "id": "61799"
+    "id": "61799 [league_task_arch_resarcher_tali]"
   },
   {
     "domain": "PLAYER",
-    "source": "13518",
+    "source": "13518 [mtx154_var]",
     "lsb": 13,
     "msb": 13,
     "wiki_sync": false,
-    "id": "61800"
+    "id": "61800 [league_task_arch_moonrise_enter]"
   },
   {
     "domain": "PLAYER",
-    "source": "13518",
+    "source": "13518 [mtx154_var]",
     "lsb": 14,
     "msb": 14,
     "wiki_sync": false,
-    "id": "61801"
+    "id": "61801 [league_task_arch_anzagar_inanna]"
   },
   {
     "domain": "PLAYER",
-    "source": "13518",
+    "source": "13518 [mtx154_var]",
     "lsb": 15,
     "msb": 15,
     "wiki_sync": false,
-    "id": "61802"
+    "id": "61802 [league_task_arch_bloodwine_anya]"
   },
   {
     "domain": "PLAYER",
-    "source": "13518",
+    "source": "13518 [mtx154_var]",
     "lsb": 16,
     "msb": 16,
     "wiki_sync": false,
-    "id": "61803"
+    "id": "61803 [league_task_slay_scabarites_15]"
   },
   {
     "domain": "PLAYER",
-    "source": "13518",
+    "source": "13518 [mtx154_var]",
     "lsb": 17,
     "msb": 17,
     "wiki_sync": false,
-    "id": "61804"
+    "id": "61804 [league_task_slay_scabarites_elite_5]"
   },
   {
     "domain": "PLAYER",
-    "source": "13518",
+    "source": "13518 [mtx154_var]",
     "lsb": 18,
     "msb": 18,
     "wiki_sync": false,
-    "id": "61805"
+    "id": "61805 [league_task_thieving_heist_loot_kharidet]"
   },
   {
     "domain": "PLAYER",
-    "source": "13518",
+    "source": "13518 [mtx154_var]",
     "lsb": 19,
     "msb": 19,
     "wiki_sync": false,
-    "id": "61806"
+    "id": "61806 [league_task_equip_khopesh]"
   },
   {
     "domain": "PLAYER",
-    "source": "13518",
+    "source": "13518 [mtx154_var]",
     "lsb": 20,
     "msb": 20,
     "wiki_sync": false,
-    "id": "61807"
+    "id": "61807 [league_task_equip_enhanced_khopesh]"
   },
   {
     "domain": "PLAYER",
-    "source": "13518",
+    "source": "13518 [mtx154_var]",
     "lsb": 21,
     "msb": 21,
     "wiki_sync": false,
-    "id": "61808"
+    "id": "61808 [league_task_shatter_phylactery]"
   },
   {
     "domain": "PLAYER",
-    "source": "13518",
+    "source": "13518 [mtx154_var]",
     "lsb": 22,
     "msb": 22,
     "wiki_sync": false,
-    "id": "61809"
+    "id": "61809 [league_task_bslay_beastmaster]"
   },
   {
     "domain": "PLAYER",
-    "source": "13518",
+    "source": "13518 [mtx154_var]",
     "lsb": 23,
     "msb": 23,
     "wiki_sync": false,
-    "id": "61810"
+    "id": "61810 [league_task_bslay_yakamaru]"
   },
   {
     "domain": "PLAYER",
-    "source": "13518",
+    "source": "13518 [mtx154_var]",
     "lsb": 24,
     "msb": 24,
     "wiki_sync": false,
-    "id": "61811"
+    "id": "61811 [league_task_thieve_safe_zemouregal]"
   },
   {
     "domain": "PLAYER",
-    "source": "13518",
+    "source": "13518 [mtx154_var]",
     "lsb": 25,
     "msb": 25,
     "wiki_sync": false,
-    "id": "61812"
+    "id": "61812 [league_task_slay_dragon_metal_ghorrock]"
   },
   {
     "domain": "PLAYER",
-    "source": "13518",
+    "source": "13518 [mtx154_var]",
     "lsb": 26,
     "msb": 26,
     "wiki_sync": false,
-    "id": "61813"
+    "id": "61813 [league_task_woodcut_bloodwood_mahjarrat]"
   },
   {
     "domain": "PLAYER",
-    "source": "13518",
+    "source": "13518 [mtx154_var]",
     "lsb": 27,
     "msb": 27,
     "wiki_sync": false,
-    "id": "61814"
+    "id": "61814 [league_task_quest_elemental_workshop_i]"
   },
   {
     "domain": "PLAYER",
-    "source": "13518",
+    "source": "13518 [mtx154_var]",
     "lsb": 28,
     "msb": 28,
     "wiki_sync": false,
-    "id": "61815"
+    "id": "61815 [league_task_archaeology_stormguard_golem_fist]"
   },
   {
     "domain": "PLAYER",
-    "source": "13518",
+    "source": "13518 [mtx154_var]",
     "lsb": 29,
     "msb": 29,
     "wiki_sync": false,
-    "id": "61816"
+    "id": "61816 [league_task_equip_bowman_hat]"
   },
   {
     "domain": "PLAYER",
-    "source": "13518",
+    "source": "13518 [mtx154_var]",
     "lsb": 30,
     "msb": 30,
     "wiki_sync": false,
-    "id": "61817"
+    "id": "61817 [league_task_legiones_kills_vi]"
   },
   {
     "domain": "PLAYER",
-    "source": "13518",
+    "source": "13518 [mtx154_var]",
     "lsb": 31,
     "msb": 31,
     "wiki_sync": false,
-    "id": "61818"
+    "id": "61818 [league_task_archaeology_warforge_spear_throne]"
   },
   {
     "domain": "PLAYER",
-    "source": "13519",
+    "source": "13519 [marketplace_featured_carousel_left_dbrow]",
     "lsb": 0,
     "msb": 0,
     "wiki_sync": false,
-    "id": "61819"
+    "id": "61819 [league_task_archaeology_warforge_mystery_champion]"
   },
   {
     "domain": "PLAYER",
-    "source": "13519",
+    "source": "13519 [marketplace_featured_carousel_left_dbrow]",
     "lsb": 1,
     "msb": 1,
     "wiki_sync": false,
-    "id": "61820"
+    "id": "61820 [league_task_mqc_req_idols]"
   },
   {
     "domain": "PLAYER",
-    "source": "13519",
+    "source": "13519 [marketplace_featured_carousel_left_dbrow]",
     "lsb": 2,
     "msb": 2,
     "wiki_sync": false,
-    "id": "61821"
+    "id": "61821 [league_task_bslay_egwd_zamorak_boss]"
   },
   {
     "domain": "PLAYER",
-    "source": "13519",
+    "source": "13519 [marketplace_featured_carousel_left_dbrow]",
     "lsb": 3,
     "msb": 3,
     "wiki_sync": false,
-    "id": "61822"
+    "id": "61822 [league_task_egwd_zamorak_boss_kills_ii]"
   },
   {
     "domain": "PLAYER",
-    "source": "13519",
+    "source": "13519 [marketplace_featured_carousel_left_dbrow]",
     "lsb": 4,
     "msb": 4,
     "wiki_sync": false,
-    "id": "61823"
+    "id": "61823 [league_task_equip_bow_last_guardian]"
   },
   {
     "domain": "PLAYER",
-    "source": "13519",
+    "source": "13519 [marketplace_featured_carousel_left_dbrow]",
     "lsb": 5,
     "msb": 5,
     "wiki_sync": false,
-    "id": "61824"
+    "id": "61824 [league_task_egwd_zamorak_boss_freedom_cheevo]"
   },
   {
     "domain": "PLAYER",
-    "source": "13519",
+    "source": "13519 [marketplace_featured_carousel_left_dbrow]",
     "lsb": 6,
     "msb": 6,
     "wiki_sync": false,
-    "id": "61825"
+    "id": "61825 [league_task_bslay_zamorak_500_group_solo]"
   },
   {
     "domain": "PLAYER",
-    "source": "13519",
+    "source": "13519 [marketplace_featured_carousel_left_dbrow]",
     "lsb": 7,
     "msb": 7,
     "wiki_sync": false,
-    "id": "61826"
+    "id": "61826 [league_task_title_egwd_zamorak_boss_solo_gold]"
   },
   {
     "domain": "PLAYER",
-    "source": "13519",
+    "source": "13519 [marketplace_featured_carousel_left_dbrow]",
     "lsb": 8,
     "msb": 8,
     "wiki_sync": false,
-    "id": "61827"
+    "id": "61827 [league_task_archaeology_everlight_statues]"
   },
   {
     "domain": "PLAYER",
-    "source": "13519",
+    "source": "13519 [marketplace_featured_carousel_left_dbrow]",
     "lsb": 9,
     "msb": 9,
     "wiki_sync": false,
-    "id": "61828"
+    "id": "61828 [league_task_smith_necronium_morytania]"
   },
   {
     "domain": "PLAYER",
-    "source": "13519",
+    "source": "13519 [marketplace_featured_carousel_left_dbrow]",
     "lsb": 10,
     "msb": 10,
     "wiki_sync": false,
-    "id": "61829"
+    "id": "61829 [league_task_combat_barrows_all_cheevo]"
   },
   {
     "domain": "PLAYER",
-    "source": "13519",
+    "source": "13519 [marketplace_featured_carousel_left_dbrow]",
     "lsb": 11,
     "msb": 11,
     "wiki_sync": false,
-    "id": "61830"
+    "id": "61830 [league_task_thieve_potion_darkmeyer]"
   },
   {
     "domain": "PLAYER",
-    "source": "13519",
+    "source": "13519 [marketplace_featured_carousel_left_dbrow]",
     "lsb": 12,
     "msb": 12,
     "wiki_sync": false,
-    "id": "61831"
+    "id": "61831 [league_task_dungeon_aminishi3_mechanical_no_hit_grasping_hands]"
   },
   {
     "domain": "PLAYER",
-    "source": "13519",
+    "source": "13519 [marketplace_featured_carousel_left_dbrow]",
     "lsb": 13,
     "msb": 13,
     "wiki_sync": false,
-    "id": "61832"
+    "id": "61832 [league_task_equip_weapon_gwd2]"
   },
   {
     "domain": "PLAYER",
-    "source": "13519",
+    "source": "13519 [marketplace_featured_carousel_left_dbrow]",
     "lsb": 14,
     "msb": 14,
     "wiki_sync": false,
-    "id": "61833"
+    "id": "61833 [league_task_slay_telos_4000]"
   },
   {
     "domain": "PLAYER",
-    "source": "13519",
+    "source": "13519 [marketplace_featured_carousel_left_dbrow]",
     "lsb": 15,
     "msb": 15,
     "wiki_sync": false,
-    "id": "61834"
+    "id": "61834 [league_task_pvm_extinction_event]"
   },
   {
     "domain": "PLAYER",
-    "source": "13519",
+    "source": "13519 [marketplace_featured_carousel_left_dbrow]",
     "lsb": 16,
     "msb": 16,
     "wiki_sync": false,
-    "id": "61835"
+    "id": "61835 [league_task_dino_boss_mechanical_no_unprotected_prayer_hit]"
   },
   {
     "domain": "PLAYER",
-    "source": "13519",
+    "source": "13519 [marketplace_featured_carousel_left_dbrow]",
     "lsb": 17,
     "msb": 17,
     "wiki_sync": false,
-    "id": "61836"
+    "id": "61836 [league_task_combat_dk_all_cheevo]"
   },
   {
     "domain": "PLAYER",
-    "source": "13519",
+    "source": "13519 [marketplace_featured_carousel_left_dbrow]",
     "lsb": 18,
     "msb": 18,
     "wiki_sync": false,
-    "id": "61837"
+    "id": "61837 [league_task_wendle_hedgehog_boss_mechanical_no_lifesteal_damage]"
   },
   {
     "domain": "PLAYER",
-    "source": "13519",
+    "source": "13519 [marketplace_featured_carousel_left_dbrow]",
     "lsb": 20,
     "msb": 20,
     "wiki_sync": false,
-    "id": "61838"
+    "id": "61838 [league_task_combat_ivar_all_cheevo]"
   },
   {
     "domain": "PLAYER",
-    "source": "13519",
+    "source": "13519 [marketplace_featured_carousel_left_dbrow]",
     "lsb": 21,
     "msb": 21,
     "wiki_sync": false,
-    "id": "61839"
+    "id": "61839 [league_task_combat_silverquill_all_cheevo]"
   },
   {
     "domain": "PLAYER",
-    "source": "13519",
+    "source": "13519 [marketplace_featured_carousel_left_dbrow]",
     "lsb": 22,
     "msb": 22,
     "wiki_sync": false,
-    "id": "61840"
+    "id": "61840 [league_task_bslay_legiones]"
   },
   {
     "domain": "PLAYER",
-    "source": "13519",
+    "source": "13519 [marketplace_featured_carousel_left_dbrow]",
     "lsb": 23,
     "msb": 23,
     "wiki_sync": false,
-    "id": "61841"
+    "id": "61841 [league_task_combat_legiones_all_cheevo]"
   },
   {
     "domain": "PLAYER",
-    "source": "13519",
+    "source": "13519 [marketplace_featured_carousel_left_dbrow]",
     "lsb": 24,
     "msb": 24,
     "wiki_sync": false,
-    "id": "61842"
+    "id": "61842 [league_task_egwd_jas_boss_hard_mode_mechanical_perfect]"
   },
   {
     "domain": "PLAYER",
@@ -494749,7 +494749,7 @@
     "lsb": 4,
     "msb": 8,
     "wiki_sync": true,
-    "id": "61843"
+    "id": "61843 [league_task_equip_zuk_cape]"
   },
   {
     "domain": "PLAYER",
@@ -494757,7 +494757,7 @@
     "lsb": 5,
     "msb": 8,
     "wiki_sync": true,
-    "id": "61844"
+    "id": "61844 [league_task_slay_egwd_zamorak_solo_group_1000]"
   },
   {
     "domain": "PLAYER",
@@ -494765,7 +494765,7 @@
     "lsb": 0,
     "msb": 4,
     "wiki_sync": true,
-    "id": "61845"
+    "id": "61845 [league_task_spider_boss_enrage_300]"
   },
   {
     "domain": "PLAYER",
@@ -494773,7 +494773,7 @@
     "lsb": 5,
     "msb": 8,
     "wiki_sync": true,
-    "id": "61846"
+    "id": "61846 [league_task_slay_lost_grove_25]"
   },
   {
     "domain": "PLAYER",
@@ -494781,7 +494781,7 @@
     "lsb": 9,
     "msb": 13,
     "wiki_sync": true,
-    "id": "61847"
+    "id": "61847 [league_task_solak_mechanical_no_resolve_earthen_seed]"
   },
   {
     "domain": "PLAYER",
@@ -494789,7 +494789,7 @@
     "lsb": 14,
     "msb": 18,
     "wiki_sync": true,
-    "id": "61848"
+    "id": "61848 [league_task_catch_crystal_urchin]"
   },
   {
     "domain": "PLAYER",
@@ -494797,7 +494797,7 @@
     "lsb": 19,
     "msb": 22,
     "wiki_sync": true,
-    "id": "61849"
+    "id": "61849 [league_task_equip_prif_music_worker_outfit_piece]"
   },
   {
     "domain": "PLAYER",
@@ -494805,7 +494805,7 @@
     "lsb": 23,
     "msb": 25,
     "wiki_sync": true,
-    "id": "61850"
+    "id": "61850 [league_task_help_teelee_wisps]"
   },
   {
     "domain": "PLAYER",
@@ -494813,15 +494813,15 @@
     "lsb": 26,
     "msb": 30,
     "wiki_sync": true,
-    "id": "61851"
+    "id": "61851 [league_task_equip_blightbound_xbow]"
   },
   {
     "domain": "PLAYER",
-    "source": "13520",
+    "source": "13520 [marketplace_featured_carousel_middle_dbrow]",
     "lsb": 0,
     "msb": 3,
     "wiki_sync": true,
-    "id": "61852"
+    "id": "61852 [league_task_solak_kills_i]"
   },
   {
     "domain": "PLAYER",
@@ -494829,79 +494829,79 @@
     "lsb": 9,
     "msb": 9,
     "wiki_sync": false,
-    "id": "61853"
+    "id": "61853 [league_task_solak_kills_iii]"
   },
   {
     "domain": "PLAYER",
-    "source": "13522",
+    "source": "13522 [marketplace_featured_rotator_index]",
     "lsb": 0,
     "msb": 3,
     "wiki_sync": false,
-    "id": "61854"
+    "id": "61854 [league_task_solak_mechanical_perfect]"
   },
   {
     "domain": "PLAYER",
-    "source": "13522",
+    "source": "13522 [marketplace_featured_rotator_index]",
     "lsb": 4,
     "msb": 4,
     "wiki_sync": false,
-    "id": "61855"
+    "id": "61855 [league_task_bslay_stalker_boss]"
   },
   {
     "domain": "PLAYER",
-    "source": "13487",
+    "source": "13487 [league_relic_combat_shard_cooldown]",
     "lsb": 6,
     "msb": 6,
     "wiki_sync": false,
-    "id": "61856"
+    "id": "61856 [league_task_scatter_searing_ashes_15]"
   },
   {
     "domain": "PLAYER",
-    "source": "13487",
+    "source": "13487 [league_relic_combat_shard_cooldown]",
     "lsb": 7,
     "msb": 7,
     "wiki_sync": false,
-    "id": "61857"
+    "id": "61857 [league_task_stalker_boss_kills_iii]"
   },
   {
     "domain": "PLAYER",
-    "source": "13487",
+    "source": "13487 [league_relic_combat_shard_cooldown]",
     "lsb": 8,
     "msb": 8,
     "wiki_sync": false,
-    "id": "61858"
+    "id": "61858 [league_task_equip_ruinous_weapon]"
   },
   {
     "domain": "PLAYER",
-    "source": "13487",
+    "source": "13487 [league_relic_combat_shard_cooldown]",
     "lsb": 9,
     "msb": 9,
     "wiki_sync": false,
-    "id": "61859"
+    "id": "61859 [league_task_equip_kiln_cape]"
   },
   {
     "domain": "PLAYER",
-    "source": "13487",
+    "source": "13487 [league_relic_combat_shard_cooldown]",
     "lsb": 10,
     "msb": 10,
     "wiki_sync": false,
-    "id": "61860"
+    "id": "61860 [league_task_runespan_siphon]"
   },
   {
     "domain": "PLAYER",
-    "source": "13487",
+    "source": "13487 [league_relic_combat_shard_cooldown]",
     "lsb": 11,
     "msb": 11,
     "wiki_sync": false,
-    "id": "61861"
+    "id": "61861 [league_task_progress_hunter_catch_red_chinchompas_ii]"
   },
   {
     "domain": "PLAYER",
-    "source": "13487",
+    "source": "13487 [league_relic_combat_shard_cooldown]",
     "lsb": 12,
     "msb": 12,
     "wiki_sync": false,
-    "id": "61862"
+    "id": "61862 [league_task_progress_agility_arena_tickets_i]"
   },
   {
     "domain": "PLAYER",
@@ -494909,7 +494909,7 @@
     "lsb": 19,
     "msb": 21,
     "wiki_sync": false,
-    "id": "61863"
+    "id": "61863 [league_task_progress_creeping_ivy]"
   },
   {
     "domain": "PLAYER",
@@ -494917,7 +494917,7 @@
     "lsb": 22,
     "msb": 24,
     "wiki_sync": false,
-    "id": "61864"
+    "id": "61864 [league_task_progress_birdhouse_harvest]"
   },
   {
     "domain": "PLAYER",
@@ -494925,7 +494925,7 @@
     "lsb": 25,
     "msb": 27,
     "wiki_sync": false,
-    "id": "61865"
+    "id": "61865 [league_task_progress_wendle_fish_farm_crayfish]"
   },
   {
     "domain": "PLAYER",
@@ -494933,23 +494933,23 @@
     "lsb": 28,
     "msb": 30,
     "wiki_sync": false,
-    "id": "61866"
+    "id": "61866 [league_task_progress_havensilver_mine]"
   },
   {
     "domain": "PLAYER",
-    "source": "13523",
+    "source": "13523 [marketplace_featured_carousel_banner_count]",
     "lsb": 0,
     "msb": 2,
     "wiki_sync": false,
-    "id": "61867"
+    "id": "61867 [league_task_progress_slay_scabarites]"
   },
   {
     "domain": "PLAYER",
-    "source": "13523",
+    "source": "13523 [marketplace_featured_carousel_banner_count]",
     "lsb": 3,
     "msb": 5,
     "wiki_sync": false,
-    "id": "61868"
+    "id": "61868 [league_task_progress_slay_scabarites_elite]"
   },
   {
     "domain": "PLAYER",
@@ -494957,7 +494957,7 @@
     "lsb": 21,
     "msb": 21,
     "wiki_sync": false,
-    "id": "61869"
+    "id": "61869 [league_task_progress_slay_lost_grove]"
   },
   {
     "domain": "PLAYER",
@@ -494965,7 +494965,7 @@
     "lsb": 22,
     "msb": 22,
     "wiki_sync": false,
-    "id": "61870"
+    "id": "61870 [league_task_progress_scatter_searing_ashes]"
   },
   {
     "domain": "PLAYER",
@@ -494973,15 +494973,15 @@
     "lsb": 23,
     "msb": 23,
     "wiki_sync": false,
-    "id": "61871"
+    "id": "61871 [league_2_teleport_active]"
   },
   {
     "domain": "PLAYER",
-    "source": "13487",
+    "source": "13487 [league_relic_combat_shard_cooldown]",
     "lsb": 15,
     "msb": 15,
     "wiki_sync": false,
-    "id": "61872"
+    "id": "61872 [league_2_trophy_tier_received]"
   },
   {
     "domain": "PLAYER",
@@ -494989,7 +494989,7 @@
     "lsb": 30,
     "msb": 30,
     "wiki_sync": false,
-    "id": "61873"
+    "id": "61873 [league_2_reward_title_owned]"
   },
   {
     "domain": "PLAYER",
@@ -494997,7 +494997,7 @@
     "lsb": 9,
     "msb": 16,
     "wiki_sync": false,
-    "id": "61874"
+    "id": "61874 [wordpuzzle_temp_char_1]"
   },
   {
     "domain": "CLIENT",
@@ -495017,83 +495017,83 @@
   },
   {
     "domain": "PLAYER",
-    "source": "13492",
+    "source": "13492 [league_combat_relic_effects_4]",
     "lsb": 7,
     "msb": 7,
     "wiki_sync": false,
-    "id": "61877"
+    "id": "61877 [wordpuzzle_temp_char_4]"
   },
   {
     "domain": "PLAYER",
-    "source": "13487",
+    "source": "13487 [league_relic_combat_shard_cooldown]",
     "lsb": 16,
     "msb": 16,
     "wiki_sync": false,
-    "id": "61878"
+    "id": "61878 [wordpuzzle_temp_char_5]"
   },
   {
     "domain": "PLAYER",
-    "source": "13487",
+    "source": "13487 [league_relic_combat_shard_cooldown]",
     "lsb": 17,
     "msb": 17,
     "wiki_sync": false,
-    "id": "61879"
+    "id": "61879 [wordpuzzle_temp_char_6]"
   },
   {
     "domain": "PLAYER",
-    "source": "13487",
+    "source": "13487 [league_relic_combat_shard_cooldown]",
     "lsb": 18,
     "msb": 18,
     "wiki_sync": false,
-    "id": "61880"
+    "id": "61880 [wordpuzzle_temp_char_7]"
   },
   {
     "domain": "PLAYER",
-    "source": "13487",
+    "source": "13487 [league_relic_combat_shard_cooldown]",
     "lsb": 19,
     "msb": 19,
     "wiki_sync": false,
-    "id": "61881"
+    "id": "61881 [wordpuzzle_temp_char_8]"
   },
   {
     "domain": "PLAYER",
-    "source": "13487",
+    "source": "13487 [league_relic_combat_shard_cooldown]",
     "lsb": 20,
     "msb": 20,
     "wiki_sync": false,
-    "id": "61882"
+    "id": "61882 [wordpuzzle_temp_char_9]"
   },
   {
     "domain": "PLAYER",
-    "source": "13487",
+    "source": "13487 [league_relic_combat_shard_cooldown]",
     "lsb": 21,
     "msb": 21,
     "wiki_sync": false,
-    "id": "61883"
+    "id": "61883 [wordpuzzle_temp_char_10]"
   },
   {
     "domain": "PLAYER",
-    "source": "13487",
+    "source": "13487 [league_relic_combat_shard_cooldown]",
     "lsb": 22,
     "msb": 22,
     "wiki_sync": false,
-    "id": "61884"
+    "id": "61884 [wordpuzzle_temp_char_11]"
   },
   {
     "domain": "PLAYER",
-    "source": "13487",
+    "source": "13487 [league_relic_combat_shard_cooldown]",
     "lsb": 23,
     "msb": 23,
     "wiki_sync": false,
-    "id": "61885"
+    "id": "61885 [wordpuzzle_temp_char_12]"
   },
   {
     "domain": "PLAYER",
-    "source": "13487",
+    "source": "13487 [league_relic_combat_shard_cooldown]",
     "lsb": 24,
     "msb": 24,
     "wiki_sync": false,
-    "id": "61886"
+    "id": "61886 [wordpuzzle_temp_char_1_status]"
   },
   {
     "domain": "PLAYER",
@@ -495101,7 +495101,7 @@
     "lsb": 17,
     "msb": 17,
     "wiki_sync": false,
-    "id": "61887"
+    "id": "61887 [wordpuzzle_temp_char_2_status]"
   },
   {
     "domain": "PLAYER",
@@ -495109,7 +495109,7 @@
     "lsb": 18,
     "msb": 18,
     "wiki_sync": false,
-    "id": "61888"
+    "id": "61888 [wordpuzzle_temp_char_3_status]"
   },
   {
     "domain": "PLAYER",
@@ -495117,107 +495117,107 @@
     "lsb": 26,
     "msb": 26,
     "wiki_sync": false,
-    "id": "61889"
+    "id": "61889 [wordpuzzle_temp_char_4_status]"
   },
   {
     "domain": "PLAYER",
-    "source": "13487",
+    "source": "13487 [league_relic_combat_shard_cooldown]",
     "lsb": 25,
     "msb": 25,
     "wiki_sync": false,
-    "id": "61890"
+    "id": "61890 [wordpuzzle_temp_char_5_status]"
   },
   {
     "domain": "PLAYER",
-    "source": "13487",
+    "source": "13487 [league_relic_combat_shard_cooldown]",
     "lsb": 26,
     "msb": 26,
     "wiki_sync": false,
-    "id": "61891"
+    "id": "61891 [wordpuzzle_temp_char_6_status]"
   },
   {
     "domain": "PLAYER",
-    "source": "13487",
+    "source": "13487 [league_relic_combat_shard_cooldown]",
     "lsb": 27,
     "msb": 27,
     "wiki_sync": false,
-    "id": "61892"
+    "id": "61892 [wordpuzzle_temp_char_7_status]"
   },
   {
     "domain": "PLAYER",
-    "source": "13487",
+    "source": "13487 [league_relic_combat_shard_cooldown]",
     "lsb": 28,
     "msb": 28,
     "wiki_sync": false,
-    "id": "61893"
+    "id": "61893 [wordpuzzle_temp_char_8_status]"
   },
   {
     "domain": "PLAYER",
-    "source": "13545",
+    "source": "13545 [construction_house_furniture_data_index_419]",
     "lsb": 0,
     "msb": 4,
     "wiki_sync": false,
-    "id": "61894"
+    "id": "61894 [wordpuzzle_temp_char_9_status]"
   },
   {
     "domain": "PLAYER",
-    "source": "13545",
+    "source": "13545 [construction_house_furniture_data_index_419]",
     "lsb": 5,
     "msb": 9,
     "wiki_sync": false,
-    "id": "61895"
+    "id": "61895 [wordpuzzle_temp_char_10_status]"
   },
   {
     "domain": "PLAYER",
-    "source": "13545",
+    "source": "13545 [construction_house_furniture_data_index_419]",
     "lsb": 10,
     "msb": 14,
     "wiki_sync": false,
-    "id": "61896"
+    "id": "61896 [wordpuzzle_temp_char_11_status]"
   },
   {
     "domain": "PLAYER",
-    "source": "13545",
+    "source": "13545 [construction_house_furniture_data_index_419]",
     "lsb": 15,
     "msb": 19,
     "wiki_sync": false,
-    "id": "61897"
+    "id": "61897 [wordpuzzle_temp_char_12_status]"
   },
   {
     "domain": "PLAYER",
-    "source": "13545",
+    "source": "13545 [construction_house_furniture_data_index_419]",
     "lsb": 20,
     "msb": 24,
     "wiki_sync": false,
-    "id": "61898"
+    "id": "61898 [plugin_hub_sort_id]"
   },
   {
     "domain": "PLAYER",
-    "source": "13545",
+    "source": "13545 [construction_house_furniture_data_index_419]",
     "lsb": 25,
     "msb": 29,
     "wiki_sync": false,
-    "id": "61899"
+    "id": "61899 [plugin_hub_auth_skip_flow]"
   },
   {
     "domain": "PLAYER",
-    "source": "13546",
+    "source": "13546 [construction_house_furniture_data_index_420]",
     "lsb": 0,
     "msb": 4,
     "wiki_sync": false,
-    "id": "61900"
+    "id": "61900 [plugin_hub_auth_allow_skip_button]"
   },
   {
     "domain": "PLAYER",
-    "source": "13546",
+    "source": "13546 [construction_house_furniture_data_index_420]",
     "lsb": 5,
     "msb": 9,
     "wiki_sync": false,
-    "id": "61901"
+    "id": "61901 [telemetry_hide_stack_info]"
   },
   {
     "domain": "PLAYER",
-    "source": "13546",
+    "source": "13546 [construction_house_furniture_data_index_420]",
     "lsb": 10,
     "msb": 14,
     "wiki_sync": false,
@@ -495225,7 +495225,7 @@
   },
   {
     "domain": "PLAYER",
-    "source": "13546",
+    "source": "13546 [construction_house_furniture_data_index_420]",
     "lsb": 15,
     "msb": 19,
     "wiki_sync": false,
@@ -495233,7 +495233,7 @@
   },
   {
     "domain": "PLAYER",
-    "source": "13546",
+    "source": "13546 [construction_house_furniture_data_index_420]",
     "lsb": 20,
     "msb": 24,
     "wiki_sync": false,
@@ -495241,7 +495241,7 @@
   },
   {
     "domain": "PLAYER",
-    "source": "13546",
+    "source": "13546 [construction_house_furniture_data_index_420]",
     "lsb": 25,
     "msb": 29,
     "wiki_sync": false,
@@ -495249,7 +495249,7 @@
   },
   {
     "domain": "PLAYER",
-    "source": "13547",
+    "source": "13547 [construction_house_furniture_data_index_421]",
     "lsb": 0,
     "msb": 1,
     "wiki_sync": false,
@@ -495257,7 +495257,7 @@
   },
   {
     "domain": "PLAYER",
-    "source": "13547",
+    "source": "13547 [construction_house_furniture_data_index_421]",
     "lsb": 2,
     "msb": 3,
     "wiki_sync": false,
@@ -495265,7 +495265,7 @@
   },
   {
     "domain": "PLAYER",
-    "source": "13547",
+    "source": "13547 [construction_house_furniture_data_index_421]",
     "lsb": 4,
     "msb": 5,
     "wiki_sync": false,
@@ -495273,7 +495273,7 @@
   },
   {
     "domain": "PLAYER",
-    "source": "13547",
+    "source": "13547 [construction_house_furniture_data_index_421]",
     "lsb": 6,
     "msb": 7,
     "wiki_sync": false,
@@ -495281,7 +495281,7 @@
   },
   {
     "domain": "PLAYER",
-    "source": "13547",
+    "source": "13547 [construction_house_furniture_data_index_421]",
     "lsb": 8,
     "msb": 9,
     "wiki_sync": false,
@@ -495289,7 +495289,7 @@
   },
   {
     "domain": "PLAYER",
-    "source": "13547",
+    "source": "13547 [construction_house_furniture_data_index_421]",
     "lsb": 10,
     "msb": 11,
     "wiki_sync": false,
@@ -495297,7 +495297,7 @@
   },
   {
     "domain": "PLAYER",
-    "source": "13547",
+    "source": "13547 [construction_house_furniture_data_index_421]",
     "lsb": 12,
     "msb": 13,
     "wiki_sync": false,
@@ -495305,7 +495305,7 @@
   },
   {
     "domain": "PLAYER",
-    "source": "13547",
+    "source": "13547 [construction_house_furniture_data_index_421]",
     "lsb": 14,
     "msb": 15,
     "wiki_sync": false,
@@ -495313,7 +495313,7 @@
   },
   {
     "domain": "PLAYER",
-    "source": "13547",
+    "source": "13547 [construction_house_furniture_data_index_421]",
     "lsb": 16,
     "msb": 17,
     "wiki_sync": false,
@@ -495321,7 +495321,7 @@
   },
   {
     "domain": "PLAYER",
-    "source": "13547",
+    "source": "13547 [construction_house_furniture_data_index_421]",
     "lsb": 18,
     "msb": 19,
     "wiki_sync": false,
@@ -495329,7 +495329,7 @@
   },
   {
     "domain": "PLAYER",
-    "source": "13547",
+    "source": "13547 [construction_house_furniture_data_index_421]",
     "lsb": 20,
     "msb": 21,
     "wiki_sync": false,
@@ -495337,7 +495337,7 @@
   },
   {
     "domain": "PLAYER",
-    "source": "13547",
+    "source": "13547 [construction_house_furniture_data_index_421]",
     "lsb": 22,
     "msb": 23,
     "wiki_sync": false,
@@ -495353,7 +495353,7 @@
   },
   {
     "domain": "PLAYER",
-    "source": "13652",
+    "source": "13652 [combatv2_greater_chain_child_player_uid_8]",
     "lsb": 8,
     "msb": 8,
     "wiki_sync": false,
@@ -495361,7 +495361,7 @@
   },
   {
     "domain": "PLAYER",
-    "source": "13652",
+    "source": "13652 [combatv2_greater_chain_child_player_uid_8]",
     "lsb": 9,
     "msb": 9,
     "wiki_sync": false,
@@ -495393,7 +495393,7 @@
   },
   {
     "domain": "PLAYER",
-    "source": "13653",
+    "source": "13653 [combatv2_greater_chain_child_player_uid_9]",
     "lsb": 0,
     "msb": 0,
     "wiki_sync": false,
@@ -495401,7 +495401,7 @@
   },
   {
     "domain": "PLAYER",
-    "source": "13653",
+    "source": "13653 [combatv2_greater_chain_child_player_uid_9]",
     "lsb": 1,
     "msb": 1,
     "wiki_sync": false,
@@ -495409,7 +495409,7 @@
   },
   {
     "domain": "PLAYER",
-    "source": "13653",
+    "source": "13653 [combatv2_greater_chain_child_player_uid_9]",
     "lsb": 2,
     "msb": 2,
     "wiki_sync": false,
@@ -495417,7 +495417,7 @@
   },
   {
     "domain": "PLAYER",
-    "source": "13653",
+    "source": "13653 [combatv2_greater_chain_child_player_uid_9]",
     "lsb": 3,
     "msb": 3,
     "wiki_sync": false,
@@ -495425,7 +495425,7 @@
   },
   {
     "domain": "PLAYER",
-    "source": "13657",
+    "source": "13657 [rand_rewards_gem_bag_upgrade_100]",
     "lsb": 0,
     "msb": 4,
     "wiki_sync": false,
@@ -495433,7 +495433,7 @@
   },
   {
     "domain": "PLAYER",
-    "source": "13657",
+    "source": "13657 [rand_rewards_gem_bag_upgrade_100]",
     "lsb": 5,
     "msb": 9,
     "wiki_sync": false,
@@ -495441,7 +495441,7 @@
   },
   {
     "domain": "PLAYER",
-    "source": "13657",
+    "source": "13657 [rand_rewards_gem_bag_upgrade_100]",
     "lsb": 10,
     "msb": 14,
     "wiki_sync": false,
@@ -495449,7 +495449,7 @@
   },
   {
     "domain": "PLAYER",
-    "source": "13657",
+    "source": "13657 [rand_rewards_gem_bag_upgrade_100]",
     "lsb": 15,
     "msb": 19,
     "wiki_sync": false,
@@ -495457,7 +495457,7 @@
   },
   {
     "domain": "PLAYER",
-    "source": "13657",
+    "source": "13657 [rand_rewards_gem_bag_upgrade_100]",
     "lsb": 20,
     "msb": 24,
     "wiki_sync": false,
@@ -495465,7 +495465,7 @@
   },
   {
     "domain": "PLAYER",
-    "source": "13657",
+    "source": "13657 [rand_rewards_gem_bag_upgrade_100]",
     "lsb": 25,
     "msb": 29,
     "wiki_sync": false,
@@ -495473,7 +495473,7 @@
   },
   {
     "domain": "PLAYER",
-    "source": "13658",
+    "source": "13658 [rand_rewards_gem_bag_upgrade_100_2]",
     "lsb": 0,
     "msb": 4,
     "wiki_sync": false,
@@ -495481,7 +495481,7 @@
   },
   {
     "domain": "PLAYER",
-    "source": "13658",
+    "source": "13658 [rand_rewards_gem_bag_upgrade_100_2]",
     "lsb": 5,
     "msb": 9,
     "wiki_sync": false,
@@ -495489,7 +495489,7 @@
   },
   {
     "domain": "PLAYER",
-    "source": "13658",
+    "source": "13658 [rand_rewards_gem_bag_upgrade_100_2]",
     "lsb": 10,
     "msb": 14,
     "wiki_sync": false,
@@ -495497,7 +495497,7 @@
   },
   {
     "domain": "PLAYER",
-    "source": "13658",
+    "source": "13658 [rand_rewards_gem_bag_upgrade_100_2]",
     "lsb": 15,
     "msb": 19,
     "wiki_sync": false,
@@ -495541,7 +495541,7 @@
     "lsb": 20,
     "msb": 24,
     "wiki_sync": false,
-    "id": "61942"
+    "id": "61942 [mtx158_tempest_lord_teleport_active]"
   },
   {
     "domain": "PLAYER",
@@ -495549,7 +495549,7 @@
     "lsb": 25,
     "msb": 29,
     "wiki_sync": false,
-    "id": "61943"
+    "id": "61943 [mtx154_bundle_aura_weapon_unlocked]"
   },
   {
     "domain": "PLAYER",
@@ -495557,7 +495557,7 @@
     "lsb": 0,
     "msb": 4,
     "wiki_sync": false,
-    "id": "61944"
+    "id": "61944 [mtx154_bundle_obsidian_capes_unlocked]"
   },
   {
     "domain": "PLAYER",
@@ -495565,7 +495565,7 @@
     "lsb": 5,
     "msb": 9,
     "wiki_sync": false,
-    "id": "61945"
+    "id": "61945 [mtx154_infernal_cape_unlocked]"
   },
   {
     "domain": "PLAYER",
@@ -495573,7 +495573,7 @@
     "lsb": 10,
     "msb": 14,
     "wiki_sync": false,
-    "id": "61946"
+    "id": "61946 [mtx154_obsidian_zuk_cape_unlocked]"
   },
   {
     "domain": "PLAYER",
@@ -495581,7 +495581,7 @@
     "lsb": 0,
     "msb": 4,
     "wiki_sync": false,
-    "id": "61947"
+    "id": "61947 [marketplace_store_bundle_iaia_fighter_weapons_unlocked]"
   },
   {
     "domain": "PLAYER",
@@ -495589,7 +495589,7 @@
     "lsb": 5,
     "msb": 9,
     "wiki_sync": false,
-    "id": "61948"
+    "id": "61948 [marketplace_store_bundle_iaia_traveller_weapons_unlocked]"
   },
   {
     "domain": "PLAYER",
@@ -495597,7 +495597,7 @@
     "lsb": 10,
     "msb": 14,
     "wiki_sync": false,
-    "id": "61949"
+    "id": "61949 [marketplace_store_bundle_arcane_apprentice_unlocked]"
   },
   {
     "domain": "PLAYER",
@@ -495605,7 +495605,7 @@
     "lsb": 15,
     "msb": 19,
     "wiki_sync": false,
-    "id": "61950"
+    "id": "61950 [league_2_outfit_1_unlocked]"
   },
   {
     "domain": "PLAYER",
@@ -495613,7 +495613,7 @@
     "lsb": 20,
     "msb": 24,
     "wiki_sync": false,
-    "id": "61951"
+    "id": "61951 [league_2_outfit_2_unlocked]"
   },
   {
     "domain": "PLAYER",
@@ -495621,7 +495621,7 @@
     "lsb": 25,
     "msb": 29,
     "wiki_sync": false,
-    "id": "61952"
+    "id": "61952 [league_2_outfit_3_unlocked]"
   },
   {
     "domain": "PLAYER",
@@ -495629,7 +495629,7 @@
     "lsb": 0,
     "msb": 4,
     "wiki_sync": false,
-    "id": "61953"
+    "id": "61953 [league_2_pet_unlocked]"
   },
   {
     "domain": "PLAYER",
@@ -495637,7 +495637,7 @@
     "lsb": 5,
     "msb": 9,
     "wiki_sync": false,
-    "id": "61954"
+    "id": "61954 [league_2_teleport_override_unlocked]"
   },
   {
     "domain": "PLAYER",
@@ -495645,7 +495645,7 @@
     "lsb": 10,
     "msb": 14,
     "wiki_sync": false,
-    "id": "61955"
+    "id": "61955 [league_2_aura_unlocked]"
   },
   {
     "domain": "PLAYER",
@@ -495653,7 +495653,7 @@
     "lsb": 0,
     "msb": 7,
     "wiki_sync": false,
-    "id": "61956"
+    "id": "61956 [league_2_sword_unlocked]"
   },
   {
     "domain": "PLAYER",
@@ -495661,7 +495661,7 @@
     "lsb": 8,
     "msb": 15,
     "wiki_sync": false,
-    "id": "61957"
+    "id": "61957 [mtx157_blooming_fountain_unlocked]"
   },
   {
     "domain": "PLAYER",
@@ -495669,7 +495669,7 @@
     "lsb": 16,
     "msb": 23,
     "wiki_sync": false,
-    "id": "61958"
+    "id": "61958 [mtx157_blooming_archway_bench_unlocked]"
   },
   {
     "domain": "PLAYER",
@@ -495677,7 +495677,7 @@
     "lsb": 0,
     "msb": 1,
     "wiki_sync": false,
-    "id": "61959"
+    "id": "61959 [mtx157_blooming_gardens_trellis_unlocked]"
   },
   {
     "domain": "PLAYER",
@@ -495685,7 +495685,7 @@
     "lsb": 2,
     "msb": 14,
     "wiki_sync": false,
-    "id": "61960"
+    "id": "61960 [mtx156_anniversary_architect_unlocked]"
   },
   {
     "domain": "PLAYER",
@@ -495693,7 +495693,7 @@
     "lsb": 15,
     "msb": 20,
     "wiki_sync": false,
-    "id": "61961"
+    "id": "61961 [mtx156_party_decorations_unlocked]"
   },
   {
     "domain": "PLAYER",
@@ -495701,7 +495701,7 @@
     "lsb": 0,
     "msb": 1,
     "wiki_sync": false,
-    "id": "61962"
+    "id": "61962 [mtx156_party_cannons_unlocked]"
   },
   {
     "domain": "PLAYER",
@@ -495709,7 +495709,7 @@
     "lsb": 2,
     "msb": 14,
     "wiki_sync": false,
-    "id": "61963"
+    "id": "61963 [mtx155_zarosian_champion_armour_unlocked]"
   },
   {
     "domain": "PLAYER",
@@ -495717,7 +495717,7 @@
     "lsb": 15,
     "msb": 20,
     "wiki_sync": false,
-    "id": "61964"
+    "id": "61964 [mtx155_shadow_champion_armour_unlocked]"
   },
   {
     "domain": "PLAYER",
@@ -495725,7 +495725,7 @@
     "lsb": 0,
     "msb": 1,
     "wiki_sync": false,
-    "id": "61965"
+    "id": "61965 [mtx155_zarosian_battlemage_outfit_unlocked]"
   },
   {
     "domain": "PLAYER",
@@ -495733,7 +495733,7 @@
     "lsb": 2,
     "msb": 14,
     "wiki_sync": false,
-    "id": "61966"
+    "id": "61966 [marketplace_store_bundle_zarosian_weapons_unlocked]"
   },
   {
     "domain": "PLAYER",
@@ -495741,7 +495741,7 @@
     "lsb": 15,
     "msb": 20,
     "wiki_sync": false,
-    "id": "61967"
+    "id": "61967 [marketplace_store_bundle_shadow_weapons_unlocked]"
   },
   {
     "domain": "PLAYER",
@@ -495749,7 +495749,7 @@
     "lsb": 0,
     "msb": 9,
     "wiki_sync": false,
-    "id": "61968"
+    "id": "61968 [marketplace_store_bundle_zarosian_mega_bundle_unlocked]"
   },
   {
     "domain": "PLAYER",
@@ -495757,7 +495757,7 @@
     "lsb": 10,
     "msb": 19,
     "wiki_sync": false,
-    "id": "61969"
+    "id": "61969 [mtx158_outfit_tempest_lord_unlocked]"
   },
   {
     "domain": "PLAYER",
@@ -495765,7 +495765,7 @@
     "lsb": 20,
     "msb": 29,
     "wiki_sync": false,
-    "id": "61970"
+    "id": "61970 [marketplace_store_bundle_tempest_lord_weapons_unlocked]"
   },
   {
     "domain": "PLAYER",
@@ -495773,7 +495773,7 @@
     "lsb": 30,
     "msb": 30,
     "wiki_sync": false,
-    "id": "61971"
+    "id": "61971 [mtx158_tempest_lord_teleport_unlocked]"
   },
   {
     "domain": "PLAYER",
@@ -495781,7 +495781,7 @@
     "lsb": 31,
     "msb": 31,
     "wiki_sync": false,
-    "id": "61972"
+    "id": "61972 [marketplace_store_bundle_tempest_lord_mega_bundle_unlocked]"
   },
   {
     "domain": "PLAYER",
@@ -495789,7 +495789,7 @@
     "lsb": 0,
     "msb": 0,
     "wiki_sync": false,
-    "id": "61973"
+    "id": "61973 [dragonwilds_release_bundle_unlocked]"
   },
   {
     "domain": "PLAYER",
@@ -495797,7 +495797,7 @@
     "lsb": 1,
     "msb": 1,
     "wiki_sync": false,
-    "id": "61974"
+    "id": "61974 [mtx159_outfit_unlocked]"
   },
   {
     "domain": "PLAYER",
@@ -495805,7 +495805,7 @@
     "lsb": 2,
     "msb": 2,
     "wiki_sync": false,
-    "id": "61975"
+    "id": "61975 [combatv2_ability_override_melee_dive_corrupted_unlocked]"
   },
   {
     "domain": "PLAYER",
@@ -495813,7 +495813,7 @@
     "lsb": 3,
     "msb": 3,
     "wiki_sync": false,
-    "id": "61976"
+    "id": "61976 [combatv2_ability_override_ranged_escape_corrupted_unlocked]"
   },
   {
     "domain": "PLAYER",
@@ -495821,7 +495821,7 @@
     "lsb": 4,
     "msb": 4,
     "wiki_sync": false,
-    "id": "61977"
+    "id": "61977 [combatv2_ability_override_magic_surge_corrupted_unlocked]"
   },
   {
     "domain": "PLAYER",
@@ -495829,7 +495829,7 @@
     "lsb": 5,
     "msb": 5,
     "wiki_sync": false,
-    "id": "61978"
+    "id": "61978 [combatv2_ability_override_necromancy_basic_attack_corrupted_unlocked]"
   },
   {
     "domain": "PLAYER",
@@ -495837,7 +495837,7 @@
     "lsb": 6,
     "msb": 6,
     "wiki_sync": false,
-    "id": "61979"
+    "id": "61979 [combatv2_ability_override_necromancy_spectral_scythe_corrupted_unlocked]"
   },
   {
     "domain": "PLAYER",
@@ -495845,7 +495845,7 @@
     "lsb": 7,
     "msb": 7,
     "wiki_sync": false,
-    "id": "61980"
+    "id": "61980 [combatv2_ability_override_necromancy_split_soul_corrupted_unlocked]"
   },
   {
     "domain": "PLAYER",
@@ -495853,7 +495853,7 @@
     "lsb": 20,
     "msb": 22,
     "wiki_sync": false,
-    "id": "61981"
+    "id": "61981 [combatv2_ability_override_necromancy_threads_of_fate_corrupted_unlocked]"
   },
   {
     "domain": "PLAYER",
@@ -495861,7 +495861,7 @@
     "lsb": 23,
     "msb": 25,
     "wiki_sync": false,
-    "id": "61982"
+    "id": "61982 [mtx160_aura_corrupted_unlocked]"
   },
   {
     "domain": "PLAYER",
@@ -495869,7 +495869,7 @@
     "lsb": 26,
     "msb": 28,
     "wiki_sync": false,
-    "id": "61983"
+    "id": "61983 [mtx160_symbols_of_chaos_unlocked]"
   },
   {
     "domain": "PLAYER",
@@ -495877,7 +495877,7 @@
     "lsb": 29,
     "msb": 31,
     "wiki_sync": false,
-    "id": "61984"
+    "id": "61984 [mtx160_rituals_of_chaos_unlocked]"
   },
   {
     "domain": "PLAYER",
@@ -495885,7 +495885,7 @@
     "lsb": 3,
     "msb": 6,
     "wiki_sync": false,
-    "id": "61985"
+    "id": "61985 [mtx160_chaotic_portal_nexus_unlocked]"
   },
   {
     "domain": "PLAYER",
@@ -495893,7 +495893,7 @@
     "lsb": 7,
     "msb": 7,
     "wiki_sync": false,
-    "id": "61986"
+    "id": "61986 [mtx154_ket_cape_owned]"
   },
   {
     "domain": "PLAYER",
@@ -495901,7 +495901,7 @@
     "lsb": 8,
     "msb": 8,
     "wiki_sync": false,
-    "id": "61987"
+    "id": "61987 [mtx154_mej_cape_owned]"
   },
   {
     "domain": "PLAYER",
@@ -495909,7 +495909,7 @@
     "lsb": 9,
     "msb": 9,
     "wiki_sync": false,
-    "id": "61988"
+    "id": "61988 [mtx154_xil_cape_owned]"
   },
   {
     "domain": "PLAYER",
@@ -495917,7 +495917,7 @@
     "lsb": 10,
     "msb": 10,
     "wiki_sync": false,
-    "id": "61989"
+    "id": "61989 [mtx154_mor_cape_owned]"
   },
   {
     "domain": "PLAYER",
@@ -495925,7 +495925,7 @@
     "lsb": 11,
     "msb": 11,
     "wiki_sync": false,
-    "id": "61990"
+    "id": "61990 [mtx154_zuk_cape_owned]"
   },
   {
     "domain": "PLAYER",
@@ -495933,7 +495933,7 @@
     "lsb": 12,
     "msb": 13,
     "wiki_sync": false,
-    "id": "61991"
+    "id": "61991 [combatv2_ability_override_melee_dive_corrupted_active]"
   },
   {
     "domain": "PLAYER",
@@ -495941,7 +495941,7 @@
     "lsb": 14,
     "msb": 14,
     "wiki_sync": false,
-    "id": "61992"
+    "id": "61992 [combatv2_ability_override_ranged_escape_corrupted_active]"
   },
   {
     "domain": "PLAYER",
@@ -495949,7 +495949,7 @@
     "lsb": 15,
     "msb": 16,
     "wiki_sync": false,
-    "id": "61993"
+    "id": "61993 [combatv2_ability_override_magic_surge_corrupted_active]"
   },
   {
     "domain": "PLAYER",
@@ -495957,7 +495957,7 @@
     "lsb": 17,
     "msb": 17,
     "wiki_sync": false,
-    "id": "61994"
+    "id": "61994 [combatv2_ability_override_necromancy_basic_attack_corrupted_active]"
   },
   {
     "domain": "PLAYER",
@@ -495965,7 +495965,7 @@
     "lsb": 18,
     "msb": 19,
     "wiki_sync": false,
-    "id": "61995"
+    "id": "61995 [combatv2_ability_override_necromancy_spectral_scythe_corrupted_active]"
   },
   {
     "domain": "PLAYER",
@@ -495973,7 +495973,7 @@
     "lsb": 20,
     "msb": 20,
     "wiki_sync": false,
-    "id": "61996"
+    "id": "61996 [combatv2_ability_override_necromancy_split_soul_corrupted_active]"
   },
   {
     "domain": "PLAYER",
@@ -495981,7 +495981,7 @@
     "lsb": 21,
     "msb": 22,
     "wiki_sync": false,
-    "id": "61997"
+    "id": "61997 [combatv2_ability_override_necromancy_threads_of_fate_corrupted_active]"
   },
   {
     "domain": "PLAYER",
@@ -495989,7 +495989,7 @@
     "lsb": 23,
     "msb": 23,
     "wiki_sync": false,
-    "id": "61998"
+    "id": "61998 [quest_zamorak_act3_wordpuzzle_id]"
   },
   {
     "domain": "PLAYER",
@@ -495997,7 +495997,7 @@
     "lsb": 24,
     "msb": 24,
     "wiki_sync": false,
-    "id": "61999"
+    "id": "61999 [skilling_offhand_opal]"
   },
   {
     "domain": "PLAYER",
@@ -496005,7 +496005,7 @@
     "lsb": 25,
     "msb": 25,
     "wiki_sync": false,
-    "id": "62000"
+    "id": "62000 [skilling_offhand_jade]"
   },
   {
     "domain": "PLAYER",
@@ -496013,7 +496013,7 @@
     "lsb": 26,
     "msb": 26,
     "wiki_sync": false,
-    "id": "62001"
+    "id": "62001 [skilling_offhand_topaz]"
   },
   {
     "domain": "PLAYER",
@@ -496021,7 +496021,7 @@
     "lsb": 27,
     "msb": 27,
     "wiki_sync": false,
-    "id": "62002"
+    "id": "62002 [combat_set_pest_control]"
   },
   {
     "domain": "PLAYER",
@@ -496029,7 +496029,7 @@
     "lsb": 28,
     "msb": 28,
     "wiki_sync": false,
-    "id": "62003"
+    "id": "62003 [combat_set_pest_control_upgraded]"
   },
   {
     "domain": "PLAYER",
@@ -496037,7 +496037,7 @@
     "lsb": 29,
     "msb": 29,
     "wiki_sync": false,
-    "id": "62004"
+    "id": "62004 [combat_set_demon_slayer]"
   },
   {
     "domain": "PLAYER",
@@ -496045,7 +496045,7 @@
     "lsb": 30,
     "msb": 30,
     "wiki_sync": false,
-    "id": "62005"
+    "id": "62005 [combat_set_ancient_ceremonial]"
   },
   {
     "domain": "PLAYER",
@@ -496053,7 +496053,7 @@
     "lsb": 31,
     "msb": 31,
     "wiki_sync": false,
-    "id": "62006"
+    "id": "62006 [combat_set_qps_reward]"
   },
   {
     "domain": "PLAYER",
@@ -496061,7 +496061,7 @@
     "lsb": 0,
     "msb": 7,
     "wiki_sync": false,
-    "id": "62007"
+    "id": "62007 [combat_set_ghost_hunter]"
   },
   {
     "domain": "PLAYER",
@@ -496069,7 +496069,7 @@
     "lsb": 8,
     "msb": 10,
     "wiki_sync": false,
-    "id": "62008"
+    "id": "62008 [con_contracts_eternal_used]"
   },
   {
     "domain": "PLAYER",
@@ -496077,7 +496077,7 @@
     "lsb": 0,
     "msb": 8,
     "wiki_sync": false,
-    "id": "62009"
+    "id": "62009 [construction_house_selection_skin_mode]"
   },
   {
     "domain": "PLAYER",
@@ -496085,7 +496085,7 @@
     "lsb": 9,
     "msb": 11,
     "wiki_sync": false,
-    "id": "62010"
+    "id": "62010 [construction_house_selection_skin]"
   },
   {
     "domain": "PLAYER",
@@ -496109,7 +496109,7 @@
     "lsb": 22,
     "msb": 30,
     "wiki_sync": false,
-    "id": "62013"
+    "id": "62013 [construction_house_furniture_functional_ports_table_recipe_unlocked]"
   },
   {
     "domain": "PLAYER",
@@ -496117,7 +496117,7 @@
     "lsb": 19,
     "msb": 24,
     "wiki_sync": false,
-    "id": "62014"
+    "id": "62014 [construction_house_furniture_misc_table_recipe_unlocked]"
   },
   {
     "domain": "PLAYER",
@@ -496125,7 +496125,7 @@
     "lsb": 25,
     "msb": 26,
     "wiki_sync": false,
-    "id": "62015"
+    "id": "62015 [construction_house_room_floor_style_paving_terracotta_recipe_unlocked]"
   },
   {
     "domain": "PLAYER",
@@ -496133,7 +496133,7 @@
     "lsb": 27,
     "msb": 28,
     "wiki_sync": false,
-    "id": "62016"
+    "id": "62016 [construction_house_room_floor_style_tile_temple_recipe_unlocked]"
   },
   {
     "domain": "PLAYER",
@@ -496141,7 +496141,7 @@
     "lsb": 0,
     "msb": 7,
     "wiki_sync": false,
-    "id": "62017"
+    "id": "62017 [construction_house_furniture_portal_nexus_t4_leagues_2_recipe_unlocked]"
   },
   {
     "domain": "PLAYER",
@@ -496149,7 +496149,7 @@
     "lsb": 16,
     "msb": 31,
     "wiki_sync": false,
-    "id": "62018"
+    "id": "62018 [construction_house_furniture_exit_portal_guthix_leagues_2_recipe_unlocked]"
   },
   {
     "domain": "PLAYER",
@@ -496157,7 +496157,7 @@
     "lsb": 0,
     "msb": 15,
     "wiki_sync": false,
-    "id": "62019"
+    "id": "62019 [construction_house_furniture_torch_guthix_leagues_2_recipe_unlocked]"
   },
   {
     "domain": "PLAYER",

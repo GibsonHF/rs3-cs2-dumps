@@ -95,7 +95,7 @@ function script12387(int0: number): void {
             string1 = `Next unlock: ${string1}<br>Progress: ${TOSTRING_LOCALISED(int6, 1)}/${TOSTRING_LOCALISED(int7, 1)}`;
         };
     };
-    IF_SETTEXT(string1, comp(1747, 28));  // gwd2_rep:mainmodal_window_content ?
-    IF_SETTEXT(`${string0}: ${TOSTRING_LOCALISED(MIN(2000, int2), 1)}/${TOSTRING_LOCALISED(2000, 1)}`, comp(1747, 35));  // gwd2_rep:com_35 ?
+    IF_SETTEXT(string1, comp(1747, 28));  // gwd2_rep:next_unlock_text ?
+    IF_SETTEXT(`${string0}: ${TOSTRING_LOCALISED(MIN(2000, int2), 1)}/${TOSTRING_LOCALISED(2000, 1)}`, comp(1747, 35));  // gwd2_rep:rep_total_text ?
     return;
 }

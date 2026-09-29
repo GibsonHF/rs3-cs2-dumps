@@ -1,6 +1,6 @@
 {
-  "revision": 949,
-  "date": "2026-08-08",
+  "revision": 950,
+  "date": "2026-09-29",
   "entries": {
     "0": "karamja_underground_fyburglars_tree",
     "1": "karamja_underground_agility_arena",
@@ -5810,6 +5810,9 @@
     "5805": "me_quest_start_construction_tutorial_legacy",
     "5806": "me_quest_progress_construction_tutorial",
     "5807": "me_quest_progress_construction_tutorial_rs3",
-    "5808": "me_quest_progress_construction_tutorial_legacy"
+    "5808": "me_quest_progress_construction_tutorial_legacy",
+    "5809": "construction_workbench_icon",
+    "5810": "construction_workbench_icon_rs3",
+    "5811": "construction_workbench_icon_legacy"
   }
 }

@@ -13,7 +13,7 @@ function script12449(int0: number, int1: number): void {
             if (((int1 > 0) && (varbitclient_23075 < 1))) {
                 script835();
                 varbitclient_23075 = 1;
-                IF_SETONTIMER(callback(script12448), comp(1477, 17));  // toplevel_v2:child_tracking_listener
+                IF_SETONTIMER(callback(script12448), comp(1477, 17));  // toplevel_v2:gamepad_listener
             };
             break;
         }
@@ -24,7 +24,7 @@ function script12449(int0: number, int1: number): void {
                 } else {
                     IF_SETHIDE(true, comp(475, 8));  // machinima_livecamera:ui
                 };
-                IF_SETONTIMER(callback(script12448), comp(1477, 17));  // toplevel_v2:child_tracking_listener
+                IF_SETONTIMER(callback(script12448), comp(1477, 17));  // toplevel_v2:gamepad_listener
                 varbitclient_23075 = 1;
                 return;
             };

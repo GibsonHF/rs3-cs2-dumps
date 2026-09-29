@@ -6,11 +6,11 @@ function script17761(int0: number): void {
         IF_SETTRANS(int1, comp(1171, 7));  // activity_progress_bar:activity_backing_left
         IF_SETTRANS(int1, comp(1171, 8));  // activity_progress_bar:activity_backing_right
         IF_SETTRANS(int1, comp(1171, 6));  // activity_progress_bar:activity_backing_tile
-        IF_SETTRANS(int1, comp(1171, 26));  // activity_progress_bar:progress_diamond_right
+        IF_SETTRANS(int1, comp(1171, 26));  // activity_progress_bar:activity_name_text
         return;
     };
     if ((int1 > 100)) {
-        IF_SETONTIMER(callback(), comp(1171, 10));  // activity_progress_bar:lightning
+        IF_SETONTIMER(callback(), comp(1171, 10));  // activity_progress_bar:activity_name
     };
     return;
 }

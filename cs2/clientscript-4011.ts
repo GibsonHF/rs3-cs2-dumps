@@ -12,7 +12,7 @@ function script4011(): void {
     } else {
         IF_SETTEXT("Not started", comp(1500, 426));
     };
-    if ((IF_GETHIDE(comp(1500, 420)) == true)) {  // quest_journal:accept_build_2
+    if ((IF_GETHIDE(comp(1500, 420)) == true)) {  // quest_journal:accept_job_2
         IF_SETSIZE(260, 0, 1, 1, comp(1500, 426));
     } else {
         IF_SETSIZE(424, 0, 1, 1, comp(1500, 426));
@@ -29,8 +29,8 @@ function script4011(): void {
     };
     var string1 = `${QUEST_GETNAME(int0)}/Quick guide`;
     IF_SETONBUTTONCLICK(callback(script7808, string1), 98304333);
-    IF_SETGRAPHIC(quest_getparam(int0, 7829), comp(1500, 392));  // quest_journal:5th_age_icon
-    IF_SETTEXT(inttostring(quest_getparam(int0, 7834), 10), comp(1500, 391));  // quest_journal:quest_icon
+    IF_SETGRAPHIC(quest_getparam(int0, 7829), comp(1500, 392));  // quest_journal:quest_icon
+    IF_SETTEXT(inttostring(quest_getparam(int0, 7834), 10), comp(1500, 391));  // quest_journal:quest_icon_footer
     var int2 = script10495(0);
     var int3 = script4249(`${inttostring(PUSH_CONSTANT_INT[16]("<col=", int2))}>Start Point:</col>`, quest_getparam(int0, 7814), 98304343, 98304344, 98304345, -1, -1, int1, 0);
     string0 = "";
@@ -141,11 +141,11 @@ function script4011(): void {
     int3 = script4249(`${inttostring(PUSH_CONSTANT_INT[16]("<col=", int2))}>Length:</col>`, string0, 98304364, 98304365, 98304366, -1, -1, int1, int3);
     switch (int0) {
         case 354: {
-            IF_CLEAROPS(comp(1500, 410));  // quest_journal:progress_layer
+            IF_CLEAROPS(comp(1500, 410));  // quest_journal:accept_click
             script13977(98304409, 98304410, 28553, "Offer");
-            IF_SETPOSITION(0, IF_GETY(comp(1500, 408)), 1, 0, comp(1500, 408));  // quest_journal:accept_build
-            IF_SETHIDE(true, comp(1500, 405));  // quest_journal:decline_build
-            IF_SETHIDE(true, comp(1500, 402));  // quest_journal:layout_build_withlabel
+            IF_SETPOSITION(0, IF_GETY(comp(1500, 408)), 1, 0, comp(1500, 408));  // quest_journal:accept_quest
+            IF_SETHIDE(true, comp(1500, 405));  // quest_journal:decline_quest
+            IF_SETHIDE(true, comp(1500, 402));  // quest_journal:checkbox_withlabel
             string0 = varclient_2544;
             break;
         }
@@ -176,25 +176,25 @@ function script4011(): void {
         } else {
             int3 = script4249(`${inttostring(PUSH_CONSTANT_INT[16]("<col=", int2))}>Note:</col>`, string7, 98304388, 98304389, 98304390, -1, -1, int1, int3);
         };
-        IF_SETHIDE(false, comp(1500, 388));  // quest_journal:age
+        IF_SETHIDE(false, comp(1500, 388));  // quest_journal:age_layer
     } else {
-        IF_SETHIDE(true, comp(1500, 388));  // quest_journal:age
+        IF_SETHIDE(true, comp(1500, 388));  // quest_journal:age_layer
     };
     switch (quest_getparam(int0, 7831)) {
         case 1: {
-            IF_SETHIDE(false, comp(1500, 393));  // quest_journal:5th_age_icon_graphic
-            IF_SETHIDE(true, comp(1500, 396));  // quest_journal:6th_age_icon_graphic
+            IF_SETHIDE(false, comp(1500, 393));  // quest_journal:5th_age_icon
+            IF_SETHIDE(true, comp(1500, 396));  // quest_journal:6th_age_icon
             break;
         }
         case 3:
         case 4: {
-            IF_SETHIDE(true, comp(1500, 393));  // quest_journal:5th_age_icon_graphic
-            IF_SETHIDE(false, comp(1500, 396));  // quest_journal:6th_age_icon_graphic
+            IF_SETHIDE(true, comp(1500, 393));  // quest_journal:5th_age_icon
+            IF_SETHIDE(false, comp(1500, 396));  // quest_journal:6th_age_icon
             break;
         }
         default: {
-            IF_SETHIDE(true, comp(1500, 393));  // quest_journal:5th_age_icon_graphic
-            IF_SETHIDE(true, comp(1500, 396));  // quest_journal:6th_age_icon_graphic
+            IF_SETHIDE(true, comp(1500, 393));  // quest_journal:5th_age_icon
+            IF_SETHIDE(true, comp(1500, 396));  // quest_journal:6th_age_icon
             break;
         }
     };
@@ -204,7 +204,7 @@ function script4011(): void {
         script7791(98304399, 98304339);
     } else {
         IF_SETSCROLLSIZE(0, 0, comp(1500, 339));  // quest_journal:text_scrolling_layer_1
-        CC_DELETEALL(comp(1500, 399));  // quest_journal:start_choice_layer
+        CC_DELETEALL(comp(1500, 399));  // quest_journal:scrollbar_layer_1
     };
     return;
 }

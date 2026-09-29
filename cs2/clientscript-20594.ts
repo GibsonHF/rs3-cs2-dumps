@@ -1,12 +1,12 @@
 //
 function script20594(): void {
     if ((script20612() == 0)) {
-        IF_SETHIDE(false, comp(1494, 31));  // marketplace_featured:unavailable_layer
+        IF_SETHIDE(false, comp(1494, 31));  // marketplace_featured:carousel_price_text
         script1106();
         script1108();
         return;
     };
-    IF_SETHIDE(true, comp(1494, 31));  // marketplace_featured:unavailable_layer
+    IF_SETHIDE(true, comp(1494, 31));  // marketplace_featured:carousel_price_text
     var int0 = -1;
     var int1 = -1;
     var int2 = -1;
@@ -48,10 +48,10 @@ function script20594(): void {
     var int33 = 0;
     var int34 = 1;
     varclient_8377 = "";
-    CC_DELETEALL(comp(1494, 25));  // marketplace_featured:fixed_slot_1
-    CC_DELETEALL(comp(1494, 26));  // marketplace_featured:fixed_slot_2
-    CC_DELETEALL(comp(1494, 27));  // marketplace_featured:fixed_slot_3
-    CC_DELETEALL(comp(1494, 28));  // marketplace_featured:fixed_slot_4
+    CC_DELETEALL(comp(1494, 25));  // marketplace_featured:rotator_panel_middle
+    CC_DELETEALL(comp(1494, 26));  // marketplace_featured:rotator_panel_right
+    CC_DELETEALL(comp(1494, 27));  // marketplace_featured:rotator_button_layer
+    CC_DELETEALL(comp(1494, 28));  // marketplace_featured:carousel_standard_frame
     stack(0);
     stack(74);
     stack(9903);
@@ -83,7 +83,7 @@ function script20594(): void {
                         int17 = (int17 + 1);
                     } else if ((int7 == 0)) {
                         int7 = 1;
-                        int8 = comp(1494, 28);  // marketplace_featured:fixed_slot_4
+                        int8 = comp(1494, 28);  // marketplace_featured:carousel_standard_frame
                         int17 = (int17 + 1);
                         if (((varbitplayer_20806 == 0) && (MAP_MEMBERS() == 1))) {
                             int1 = 17529;
@@ -191,7 +191,7 @@ function script20594(): void {
                     int17 = (int17 + 1);
                 } else if ((int7 == 0)) {
                     int7 = 1;
-                    int8 = comp(1494, 28);  // marketplace_featured:fixed_slot_4
+                    int8 = comp(1494, 28);  // marketplace_featured:carousel_standard_frame
                     int17 = (int17 + 1);
                     if (((varbitplayer_20806 == 0) && (MAP_MEMBERS() == 1))) {
                         int1 = 17529;
@@ -325,10 +325,10 @@ function script20594(): void {
         };
         script20850(int22);
         IF_SETHIDE(false, comp(1494, 2));  // marketplace_featured:preview_triggerop_layer
-        IF_SETHIDE(true, comp(1494, 22));  // marketplace_featured:carousel_static
+        IF_SETHIDE(true, comp(1494, 22));  // marketplace_featured:carousel_price_layer
     } else {
         IF_SETHIDE(true, comp(1494, 2));  // marketplace_featured:preview_triggerop_layer
-        IF_SETHIDE(false, comp(1494, 22));  // marketplace_featured:carousel_static
+        IF_SETHIDE(false, comp(1494, 22));  // marketplace_featured:carousel_price_layer
         script20598(97910806, int24);
     };
     script20595();

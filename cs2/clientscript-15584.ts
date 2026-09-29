@@ -6,11 +6,11 @@ function script15584(): void {
             varbitplayer_56619 = 1;
         } else {
             varbitplayer_49039 = varbitplayer_25406;
-            IF_SETHIDE(true, comp(1420, 186));  // acc_create:game_mode
+            IF_SETHIDE(true, comp(1420, 186));  // acc_create:tool_bar_vol_slider
         };
     } else {
         varbitplayer_49039 = varbitplayer_25406;
-        IF_SETHIDE(true, comp(1420, 186));  // acc_create:game_mode
+        IF_SETHIDE(true, comp(1420, 186));  // acc_create:tool_bar_vol_slider
     };
     script15585();
     return;

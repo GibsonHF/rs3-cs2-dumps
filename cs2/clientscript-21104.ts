@@ -3,7 +3,7 @@ function script21104(): void {
     var int0 = 0;
     var int1 = INV_SIZE(93 as inv);
     while ((int0 < int1)) {
-        if (((TESTBIT(varplayer_7255, int0) == 1) && (CC_FIND(comp(1538, 2), int0) == 1))) {
+        if (((TESTBIT(varplayer_7255, int0) == 1) && (CC_FIND(comp(1538, 2), int0) == 1))) {  // league_2_combat_perk_box:inv_contents_layer
             CC_SETTRANS(175);
         };
         int0 = (int0 + 1);

@@ -19,7 +19,7 @@ function script20313(int0: number, int1: number): void {
             CC_SETONTIMER(callback(script20313, int0, (int1 + 1)));
         };
     };
-    if ((CC_FINDBYCATEGORY(comp(1479, 20), script20173(((3000 * 4) + int2))) == 1)) {  // league_parent_tasks:task_scrollbar
+    if ((CC_FINDBYCATEGORY(comp(1479, 20), script20173(((3000 * 4) + int2))) == 1)) {  // league_parent_tasks:task_panel
         CC_SETTEXT(string0);
         if ((int1 >= 10)) {
             CC_SETONTIMER(callback());

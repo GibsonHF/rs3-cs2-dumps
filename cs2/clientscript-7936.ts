@@ -13,15 +13,15 @@ function script7936(int0: number): void {
     script15555();
     script15579();
     if ((script13749() == 0)) {
-        IF_SETHIDE(true, comp(1420, 163));  // acc_create:settings_icon_layer
-        IF_SETPOSITION(0, 150, 1, 0, comp(1420, 43));  // acc_create:base_inner
-        IF_SETPOSITION(-80, 0, 2, 1, comp(1420, 44));  // acc_create:player_avatar
+        IF_SETHIDE(true, comp(1420, 163));  // acc_create:borders
+        IF_SETPOSITION(0, 150, 1, 0, comp(1420, 43));  // acc_create:large_0
+        IF_SETPOSITION(-80, 0, 2, 1, comp(1420, 44));  // acc_create:large_1
     } else {
-        IF_SETPOSITION(-250, 0, 1, 1, comp(1420, 44));  // acc_create:player_avatar
-        IF_SETPOSITION(0, 0, 2, 1, comp(1420, 62));  // acc_create:main_contents
+        IF_SETPOSITION(-250, 0, 1, 1, comp(1420, 44));  // acc_create:large_1
+        IF_SETPOSITION(0, 0, 2, 1, comp(1420, 62));  // acc_create:large_19
     };
-    IF_OPENSUBCLIENT(comp(1420, 183), 882);  // acc_create:graphics_options
-    IF_SETHIDE(true, comp(1420, 183));  // acc_create:graphics_options
+    IF_OPENSUBCLIENT(comp(1420, 183), 882);  // acc_create:tool_bar_vol_slider_backing_1
+    IF_SETHIDE(true, comp(1420, 183));  // acc_create:tool_bar_vol_slider_backing_1
     script15063(1);
     script14987(0);
     return;

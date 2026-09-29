@@ -6382,7 +6382,7 @@
 			"minimenu_fonthighlightcolour": 15656390, // 7274
 			"minimenu_font": 168, // 7275
 			"minimenu_entry_draw_height": 35, // 7276
-			"activity_progress_bar_hide_animation": 6 // 8869
+			"extra_0022A5": 6 // 8869
 		},
 		"id": 668
 	},
@@ -38932,7 +38932,7 @@
 			"combatv2_set_item_5a": 25060, // 3226 chisel:boostOutfitAlternative_5
 			"combatv2_set_item_5b": 24978, // 3227
 			"combatv2_number_of_items_for_set_effect_1": 5, // 5818
-			"extra_002501": 1 // 9473
+			"marketplace_outfit_variant_dbrow_1": 1 // 9473
 		},
 		"id": 3015
 	},
@@ -38965,7 +38965,7 @@
 			"combatv2_set_item_5c": 48417, // 3228
 			"combatv2_set_item_5d": 48418, // 3229
 			"combatv2_number_of_items_for_set_effect_1": 5, // 5818
-			"extra_002501": 1 // 9473
+			"marketplace_outfit_variant_dbrow_1": 1 // 9473
 		},
 		"id": 3016
 	},
@@ -38988,7 +38988,7 @@
 			"combatv2_set_item_5a": 25058, // 3226 chisel:boostOutfitAlternative_5
 			"combatv2_set_item_5b": 24975, // 3227
 			"combatv2_number_of_items_for_set_effect_1": 5, // 5818
-			"extra_002501": 1 // 9473
+			"marketplace_outfit_variant_dbrow_1": 1 // 9473
 		},
 		"id": 3017
 	},
@@ -40015,8 +40015,8 @@
 			"combatv2_set_item_2f": 40531, // 6621
 			"combatv2_set_item_3f": 40534, // 6622
 			"combatv2_set_item_4f": 40537, // 6623
-			"extra_002501": 1, // 9473
-			"extra_002502": 4 // 9474
+			"marketplace_outfit_variant_dbrow_1": 1, // 9473
+			"marketplace_outfit_variant_dbrow_2": 4 // 9474
 		},
 		"id": 3111
 	},
@@ -45451,7 +45451,7 @@
 			"mtxmgt_name": "Anniversary Architect Display Shield", // 2533 chisel:SGS_name
 			"mtxmgt_preview_prevent_rotation": 1, // 4267
 			"mtxmgt_interface_positioning": 6141, // 9254
-			"extra_0024F1": 19522 // 9457
+			"league_locality": 19522 // 9457
 		},
 		"id": 3567
 	},
@@ -45461,7 +45461,7 @@
 			"mtxmgt_name": "Anniversary Architect Display Shield (Crossed)", // 2533 chisel:SGS_name
 			"mtxmgt_preview_prevent_rotation": 1, // 4267
 			"mtxmgt_interface_positioning": 6141, // 9254
-			"extra_0024F1": 19523 // 9457
+			"league_locality": 19523 // 9457
 		},
 		"id": 3568
 	},
@@ -45470,7 +45470,7 @@
 			"mtxmgt_category": 7, // 2531 chisel:solomons_category
 			"mtxmgt_name": "Anniversary Architect Banner", // 2533 chisel:SGS_name
 			"mtxmgt_interface_positioning": 18276, // 9254
-			"extra_0024F1": 19518 // 9457
+			"league_locality": 19518 // 9457
 		},
 		"id": 3569
 	},
@@ -45479,7 +45479,7 @@
 			"mtxmgt_category": 7, // 2531 chisel:solomons_category
 			"mtxmgt_name": "Anniversary Architect Tall Banner", // 2533 chisel:SGS_name
 			"mtxmgt_interface_positioning": 18281, // 9254
-			"extra_0024F1": 19519 // 9457
+			"league_locality": 19519 // 9457
 		},
 		"id": 3570
 	},
@@ -45488,7 +45488,7 @@
 			"mtxmgt_category": 7, // 2531 chisel:solomons_category
 			"mtxmgt_name": "Anniversary Architect Plushie", // 2533 chisel:SGS_name
 			"mtxmgt_interface_positioning": 18379, // 9254
-			"extra_0024F1": 19517 // 9457
+			"league_locality": 19517 // 9457
 		},
 		"id": 3571
 	},
@@ -45497,7 +45497,7 @@
 			"mtxmgt_category": 7, // 2531 chisel:solomons_category
 			"mtxmgt_name": "Anniversary Architect Statue", // 2533 chisel:SGS_name
 			"mtxmgt_interface_positioning": 18256, // 9254
-			"extra_0024F1": 19516 // 9457
+			"league_locality": 19516 // 9457
 		},
 		"id": 3572
 	},
@@ -45507,7 +45507,7 @@
 			"mtxmgt_name": "Anniversary Architect Plaque (Wall)", // 2533 chisel:SGS_name
 			"mtxmgt_preview_prevent_rotation": 1, // 4267
 			"mtxmgt_interface_positioning": 19499, // 9254
-			"extra_0024F1": 19520 // 9457
+			"league_locality": 19520 // 9457
 		},
 		"id": 3573
 	},
@@ -45516,7 +45516,7 @@
 			"mtxmgt_category": 7, // 2531 chisel:solomons_category
 			"mtxmgt_name": "Anniversary Architect Plaque (Floor)", // 2533 chisel:SGS_name
 			"mtxmgt_interface_positioning": 19500, // 9254
-			"extra_0024F1": 19521 // 9457
+			"league_locality": 19521 // 9457
 		},
 		"id": 3574
 	},
@@ -45535,7 +45535,7 @@
 			"mtxmgt_category": 7, // 2531 chisel:solomons_category
 			"mtxmgt_name": "Red Party Balloons (standing)", // 2533 chisel:SGS_name
 			"mtxmgt_interface_positioning": 19502, // 9254
-			"extra_0024F1": 19524 // 9457
+			"league_locality": 19524 // 9457
 		},
 		"id": 3576
 	},
@@ -45544,7 +45544,7 @@
 			"mtxmgt_category": 7, // 2531 chisel:solomons_category
 			"mtxmgt_name": "Red Party Balloons (floor)", // 2533 chisel:SGS_name
 			"mtxmgt_interface_positioning": 19501, // 9254
-			"extra_0024F1": 19525 // 9457
+			"league_locality": 19525 // 9457
 		},
 		"id": 3577
 	},
@@ -45554,7 +45554,7 @@
 			"mtxmgt_name": "Red Party Balloons (wall)", // 2533 chisel:SGS_name
 			"mtxmgt_preview_prevent_rotation": 1, // 4267
 			"mtxmgt_interface_positioning": 19503, // 9254
-			"extra_0024F1": 19526 // 9457
+			"league_locality": 19526 // 9457
 		},
 		"id": 3578
 	},
@@ -45563,7 +45563,7 @@
 			"mtxmgt_category": 7, // 2531 chisel:solomons_category
 			"mtxmgt_name": "Blue Party Balloons (standing)", // 2533 chisel:SGS_name
 			"mtxmgt_interface_positioning": 19502, // 9254
-			"extra_0024F1": 19527 // 9457
+			"league_locality": 19527 // 9457
 		},
 		"id": 3579
 	},
@@ -45572,7 +45572,7 @@
 			"mtxmgt_category": 7, // 2531 chisel:solomons_category
 			"mtxmgt_name": "Blue Party Balloons (floor)", // 2533 chisel:SGS_name
 			"mtxmgt_interface_positioning": 19501, // 9254
-			"extra_0024F1": 19528 // 9457
+			"league_locality": 19528 // 9457
 		},
 		"id": 3580
 	},
@@ -45582,7 +45582,7 @@
 			"mtxmgt_name": "Blue Party Balloons (wall)", // 2533 chisel:SGS_name
 			"mtxmgt_preview_prevent_rotation": 1, // 4267
 			"mtxmgt_interface_positioning": 19503, // 9254
-			"extra_0024F1": 19529 // 9457
+			"league_locality": 19529 // 9457
 		},
 		"id": 3581
 	},
@@ -45591,7 +45591,7 @@
 			"mtxmgt_category": 7, // 2531 chisel:solomons_category
 			"mtxmgt_name": "Yellow Party Balloons (standing)", // 2533 chisel:SGS_name
 			"mtxmgt_interface_positioning": 19502, // 9254
-			"extra_0024F1": 19530 // 9457
+			"league_locality": 19530 // 9457
 		},
 		"id": 3582
 	},
@@ -45600,7 +45600,7 @@
 			"mtxmgt_category": 7, // 2531 chisel:solomons_category
 			"mtxmgt_name": "Yellow Party Balloons (floor)", // 2533 chisel:SGS_name
 			"mtxmgt_interface_positioning": 19501, // 9254
-			"extra_0024F1": 19531 // 9457
+			"league_locality": 19531 // 9457
 		},
 		"id": 3583
 	},
@@ -45610,7 +45610,7 @@
 			"mtxmgt_name": "Yellow Party Balloons (wall)", // 2533 chisel:SGS_name
 			"mtxmgt_preview_prevent_rotation": 1, // 4267
 			"mtxmgt_interface_positioning": 19503, // 9254
-			"extra_0024F1": 19532 // 9457
+			"league_locality": 19532 // 9457
 		},
 		"id": 3584
 	},
@@ -45619,7 +45619,7 @@
 			"mtxmgt_category": 7, // 2531 chisel:solomons_category
 			"mtxmgt_name": "Mixed Party Balloons (standing)", // 2533 chisel:SGS_name
 			"mtxmgt_interface_positioning": 19502, // 9254
-			"extra_0024F1": 19533 // 9457
+			"league_locality": 19533 // 9457
 		},
 		"id": 3585
 	},
@@ -45628,7 +45628,7 @@
 			"mtxmgt_category": 7, // 2531 chisel:solomons_category
 			"mtxmgt_name": "Mixed Party Balloons (floor)", // 2533 chisel:SGS_name
 			"mtxmgt_interface_positioning": 19501, // 9254
-			"extra_0024F1": 19534 // 9457
+			"league_locality": 19534 // 9457
 		},
 		"id": 3586
 	},
@@ -45638,7 +45638,7 @@
 			"mtxmgt_name": "Mixed Party Balloons (wall)", // 2533 chisel:SGS_name
 			"mtxmgt_preview_prevent_rotation": 1, // 4267
 			"mtxmgt_interface_positioning": 19503, // 9254
-			"extra_0024F1": 19535 // 9457
+			"league_locality": 19535 // 9457
 		},
 		"id": 3587
 	},
@@ -45648,7 +45648,7 @@
 			"mtxmgt_name": "Party Bunting", // 2533 chisel:SGS_name
 			"mtxmgt_preview_prevent_rotation": 1, // 4267
 			"mtxmgt_interface_positioning": 19504, // 9254
-			"extra_0024F1": 19536 // 9457
+			"league_locality": 19536 // 9457
 		},
 		"id": 3588
 	},
@@ -45667,7 +45667,7 @@
 			"mtxmgt_category": 7, // 2531 chisel:solomons_category
 			"mtxmgt_name": "Confetti Party Cannon", // 2533 chisel:SGS_name
 			"mtxmgt_interface_positioning": 19505, // 9254
-			"extra_0024F1": 19537 // 9457
+			"league_locality": 19537 // 9457
 		},
 		"id": 3590
 	},
@@ -45676,7 +45676,7 @@
 			"mtxmgt_category": 7, // 2531 chisel:solomons_category
 			"mtxmgt_name": "Firework Party Cannon", // 2533 chisel:SGS_name
 			"mtxmgt_interface_positioning": 19505, // 9254
-			"extra_0024F1": 19538 // 9457
+			"league_locality": 19538 // 9457
 		},
 		"id": 3591
 	},
@@ -46327,7 +46327,7 @@
 			"mtxmgt_category": 7, // 2531 chisel:solomons_category
 			"mtxmgt_name": "Rose posh fountain", // 2533 chisel:SGS_name
 			"mtxmgt_interface_positioning": 13500, // 9254
-			"extra_0024F1": 19557 // 9457
+			"league_locality": 19557 // 9457
 		},
 		"id": 3641
 	},
@@ -46336,7 +46336,7 @@
 			"mtxmgt_category": 7, // 2531 chisel:solomons_category
 			"mtxmgt_name": "Candlelit rose posh fountain", // 2533 chisel:SGS_name
 			"mtxmgt_interface_positioning": 13500, // 9254
-			"extra_0024F1": 19960 // 9457
+			"league_locality": 19960 // 9457
 		},
 		"id": 3642
 	},
@@ -46345,7 +46345,7 @@
 			"mtxmgt_category": 7, // 2531 chisel:solomons_category
 			"mtxmgt_name": "Rose trellis archway", // 2533 chisel:SGS_name
 			"mtxmgt_interface_positioning": 13501, // 9254
-			"extra_0024F1": 19962 // 9457
+			"league_locality": 19962 // 9457
 		},
 		"id": 3643
 	},
@@ -46354,7 +46354,7 @@
 			"mtxmgt_category": 7, // 2531 chisel:solomons_category
 			"mtxmgt_name": "Rose trellis archway", // 2533 chisel:SGS_name
 			"mtxmgt_interface_positioning": 18100, // 9254
-			"extra_0024F1": 19965 // 9457
+			"league_locality": 19965 // 9457
 		},
 		"id": 3644
 	},
@@ -46363,7 +46363,7 @@
 			"mtxmgt_category": 7, // 2531 chisel:solomons_category
 			"mtxmgt_name": "Poison ivy trellis archway", // 2533 chisel:SGS_name
 			"mtxmgt_interface_positioning": 13501, // 9254
-			"extra_0024F1": 19963 // 9457
+			"league_locality": 19963 // 9457
 		},
 		"id": 3645
 	},
@@ -46372,7 +46372,7 @@
 			"mtxmgt_category": 7, // 2531 chisel:solomons_category
 			"mtxmgt_name": "Poison ivy trellis archway", // 2533 chisel:SGS_name
 			"mtxmgt_interface_positioning": 18100, // 9254
-			"extra_0024F1": 19966 // 9457
+			"league_locality": 19966 // 9457
 		},
 		"id": 3646
 	},
@@ -46381,7 +46381,7 @@
 			"mtxmgt_category": 7, // 2531 chisel:solomons_category
 			"mtxmgt_name": "Rose bench", // 2533 chisel:SGS_name
 			"mtxmgt_interface_positioning": 19541, // 9254
-			"extra_0024F1": 19977 // 9457
+			"league_locality": 19977 // 9457
 		},
 		"id": 3647
 	},
@@ -46390,7 +46390,7 @@
 			"mtxmgt_category": 7, // 2531 chisel:solomons_category
 			"mtxmgt_name": "Rose trellis", // 2533 chisel:SGS_name
 			"mtxmgt_interface_positioning": 19542, // 9254
-			"extra_0024F1": 19968 // 9457
+			"league_locality": 19968 // 9457
 		},
 		"id": 3648
 	},
@@ -46399,7 +46399,7 @@
 			"mtxmgt_category": 7, // 2531 chisel:solomons_category
 			"mtxmgt_name": "Poison ivy trellis", // 2533 chisel:SGS_name
 			"mtxmgt_interface_positioning": 19542, // 9254
-			"extra_0024F1": 19969 // 9457
+			"league_locality": 19969 // 9457
 		},
 		"id": 3649
 	},
@@ -46408,7 +46408,7 @@
 			"mtxmgt_category": 7, // 2531 chisel:solomons_category
 			"mtxmgt_name": "Rose trellis", // 2533 chisel:SGS_name
 			"mtxmgt_interface_positioning": 19543, // 9254
-			"extra_0024F1": 19971 // 9457
+			"league_locality": 19971 // 9457
 		},
 		"id": 3650
 	},
@@ -46417,7 +46417,7 @@
 			"mtxmgt_category": 7, // 2531 chisel:solomons_category
 			"mtxmgt_name": "Poison ivy trellis", // 2533 chisel:SGS_name
 			"mtxmgt_interface_positioning": 19543, // 9254
-			"extra_0024F1": 19972 // 9457
+			"league_locality": 19972 // 9457
 		},
 		"id": 3651
 	},
@@ -46426,7 +46426,7 @@
 			"mtxmgt_category": 7, // 2531 chisel:solomons_category
 			"mtxmgt_name": "Rose trellis", // 2533 chisel:SGS_name
 			"mtxmgt_interface_positioning": 13499, // 9254
-			"extra_0024F1": 19974 // 9457
+			"league_locality": 19974 // 9457
 		},
 		"id": 3652
 	},
@@ -46435,7 +46435,7 @@
 			"mtxmgt_category": 7, // 2531 chisel:solomons_category
 			"mtxmgt_name": "Poison ivy trellis", // 2533 chisel:SGS_name
 			"mtxmgt_interface_positioning": 13499, // 9254
-			"extra_0024F1": 19975 // 9457
+			"league_locality": 19975 // 9457
 		},
 		"id": 3653
 	},
@@ -57116,7 +57116,7 @@
 			"bslay_normalmode_term_id": 4, // 8271
 			"bslay_hardmode_term_id": 2, // 8272
 			"bslay_assignable": 0, // 8522
-			"extra_0024F3": 12 // 9459
+			"plugin_api_plugin_id": 12 // 9459
 		},
 		"id": 4555
 	},
@@ -57150,7 +57150,7 @@
 			"bslay_normalmode_term_id": 4, // 8271
 			"bslay_hardmode_term_id": 2, // 8272
 			"bslay_assignable": 0, // 8522
-			"extra_0024F3": 12 // 9459
+			"plugin_api_plugin_id": 12 // 9459
 		},
 		"id": 4556
 	},
@@ -57183,7 +57183,7 @@
 			"bslay_achievement": 1600, // 8227
 			"bslay_normalmode_term_id": 4, // 8271
 			"bslay_hardmode_term_id": 2, // 8272
-			"extra_0024F3": 12 // 9459
+			"plugin_api_plugin_id": 12 // 9459
 		},
 		"id": 4557
 	},
@@ -60758,9 +60758,9 @@
 			"mtxmgt_parent_id": 2457, // 4744
 			"mtxmgt_source_custom": "This cosmetic can be obtained from the Marketplace.", // 4751 chisel:cosmetic_unlock_hint
 			"original_release_date": 8958, // 6628
-			"quest_rewards_keys": 20051, // 7887 chisel:quest_has_th_keys_reward
-			"extra_002503": 20052, // 9475
-			"extra_002504": 20053 // 9476
+			"quest_has_th_keys_reward": 20051, // 7887
+			"marketplace_outfit_variant_dbrow_3": 20052, // 9475
+			"marketplace_outfit_variant_dbrow_4": 20053 // 9476
 		},
 		"id": 4887
 	},
@@ -61034,7 +61034,7 @@
 			"mtxmgt_category": 7, // 2531 chisel:solomons_category
 			"mtxmgt_name": "A Shattered Reign painting", // 2533 chisel:SGS_name
 			"mtxmgt_interface_positioning": 6141, // 9254
-			"extra_0024F1": 6142 // 9457
+			"league_locality": 6142 // 9457
 		},
 		"id": 4908
 	},
@@ -61043,7 +61043,7 @@
 			"mtxmgt_category": 7, // 2531 chisel:solomons_category
 			"mtxmgt_name": "Midnight in the Sands painting", // 2533 chisel:SGS_name
 			"mtxmgt_interface_positioning": 6141, // 9254
-			"extra_0024F1": 6143 // 9457
+			"league_locality": 6143 // 9457
 		},
 		"id": 4909
 	},
@@ -61052,7 +61052,7 @@
 			"mtxmgt_category": 7, // 2531 chisel:solomons_category
 			"mtxmgt_name": "The Queen Falls painting", // 2533 chisel:SGS_name
 			"mtxmgt_interface_positioning": 6141, // 9254
-			"extra_0024F1": 6144 // 9457
+			"league_locality": 6144 // 9457
 		},
 		"id": 4910
 	},
@@ -61426,7 +61426,7 @@
 			"mtxmgt_category": 7, // 2531 chisel:solomons_category
 			"mtxmgt_name": "Chaotic banner", // 2533 chisel:SGS_name
 			"mtxmgt_interface_positioning": 6155, // 9254
-			"extra_0024F1": 19954 // 9457
+			"league_locality": 19954 // 9457
 		},
 		"id": 4951
 	},
@@ -61435,7 +61435,7 @@
 			"mtxmgt_category": 7, // 2531 chisel:solomons_category
 			"mtxmgt_name": "Chaotic lamp post", // 2533 chisel:SGS_name
 			"mtxmgt_interface_positioning": 6159, // 9254
-			"extra_0024F1": 20121 // 9457
+			"league_locality": 20121 // 9457
 		},
 		"id": 4952
 	},
@@ -61445,7 +61445,7 @@
 			"mtxmgt_name": "Chaotic wall light", // 2533 chisel:SGS_name
 			"mtxmgt_preview_prevent_rotation": 1, // 4267
 			"mtxmgt_interface_positioning": 6156, // 9254
-			"extra_0024F1": 19955 // 9457
+			"league_locality": 19955 // 9457
 		},
 		"id": 4953
 	},
@@ -61454,7 +61454,7 @@
 			"mtxmgt_category": 7, // 2531 chisel:solomons_category
 			"mtxmgt_name": "Chaotic statue", // 2533 chisel:SGS_name
 			"mtxmgt_interface_positioning": 6157, // 9254
-			"extra_0024F1": 19956 // 9457
+			"league_locality": 19956 // 9457
 		},
 		"id": 4954
 	},
@@ -61463,7 +61463,7 @@
 			"mtxmgt_category": 7, // 2531 chisel:solomons_category
 			"mtxmgt_name": "Chaotic sacrificial altar", // 2533 chisel:SGS_name
 			"mtxmgt_interface_positioning": 6158, // 9254
-			"extra_0024F1": 20119 // 9457
+			"league_locality": 20119 // 9457
 		},
 		"id": 4955
 	},
@@ -61472,7 +61472,7 @@
 			"mtxmgt_category": 7, // 2531 chisel:solomons_category
 			"mtxmgt_name": "Chaotic storage chest", // 2533 chisel:SGS_name
 			"mtxmgt_interface_positioning": 6160, // 9254
-			"extra_0024F1": 20123 // 9457
+			"league_locality": 20123 // 9457
 		},
 		"id": 4956
 	},
@@ -61491,7 +61491,7 @@
 			"mtxmgt_category": 7, // 2531 chisel:solomons_category
 			"mtxmgt_name": "Chaos star ritual marker", // 2533 chisel:SGS_name
 			"mtxmgt_interface_positioning": 6161, // 9254
-			"extra_0024F1": 19957 // 9457
+			"league_locality": 19957 // 9457
 		},
 		"id": 4958
 	},
@@ -61500,7 +61500,7 @@
 			"mtxmgt_category": 7, // 2531 chisel:solomons_category
 			"mtxmgt_name": "Chaotic gatestone ritual marker", // 2533 chisel:SGS_name
 			"mtxmgt_interface_positioning": 6162, // 9254
-			"extra_0024F1": 19958 // 9457
+			"league_locality": 19958 // 9457
 		},
 		"id": 4959
 	},
@@ -61509,7 +61509,7 @@
 			"mtxmgt_category": 7, // 2531 chisel:solomons_category
 			"mtxmgt_name": "Chaotic power ritual marker", // 2533 chisel:SGS_name
 			"mtxmgt_interface_positioning": 6163, // 9254
-			"extra_0024F1": 19959 // 9457
+			"league_locality": 19959 // 9457
 		},
 		"id": 4960
 	},
@@ -61519,7 +61519,7 @@
 			"mtxmgt_name": "Chaos star mural", // 2533 chisel:SGS_name
 			"mtxmgt_preview_prevent_rotation": 1, // 4267
 			"mtxmgt_interface_positioning": 6164, // 9254
-			"extra_0024F1": 20109 // 9457
+			"league_locality": 20109 // 9457
 		},
 		"id": 4961
 	},
@@ -61529,7 +61529,7 @@
 			"mtxmgt_name": "Stalker's eye mural", // 2533 chisel:SGS_name
 			"mtxmgt_preview_prevent_rotation": 1, // 4267
 			"mtxmgt_interface_positioning": 6164, // 9254
-			"extra_0024F1": 20110 // 9457
+			"league_locality": 20110 // 9457
 		},
 		"id": 4962
 	},
@@ -61539,7 +61539,7 @@
 			"mtxmgt_name": "Chaotic gatestone mural", // 2533 chisel:SGS_name
 			"mtxmgt_preview_prevent_rotation": 1, // 4267
 			"mtxmgt_interface_positioning": 6164, // 9254
-			"extra_0024F1": 20111 // 9457
+			"league_locality": 20111 // 9457
 		},
 		"id": 4963
 	},
@@ -61548,7 +61548,7 @@
 			"mtxmgt_category": 7, // 2531 chisel:solomons_category
 			"mtxmgt_name": "Box of chaotic candles", // 2533 chisel:SGS_name
 			"mtxmgt_interface_positioning": 6167, // 9254
-			"extra_0024F1": 20112 // 9457
+			"league_locality": 20112 // 9457
 		},
 		"id": 4964
 	},
@@ -61557,7 +61557,7 @@
 			"mtxmgt_category": 7, // 2531 chisel:solomons_category
 			"mtxmgt_name": "Chaotic candle (lit)", // 2533 chisel:SGS_name
 			"mtxmgt_interface_positioning": 6165, // 9254
-			"extra_0024F1": 20113 // 9457
+			"league_locality": 20113 // 9457
 		},
 		"id": 4965
 	},
@@ -61566,7 +61566,7 @@
 			"mtxmgt_category": 7, // 2531 chisel:solomons_category
 			"mtxmgt_name": "Chaotic candle cluster (lit)", // 2533 chisel:SGS_name
 			"mtxmgt_interface_positioning": 6166, // 9254
-			"extra_0024F1": 20114 // 9457
+			"league_locality": 20114 // 9457
 		},
 		"id": 4966
 	},
@@ -61575,7 +61575,7 @@
 			"mtxmgt_category": 7, // 2531 chisel:solomons_category
 			"mtxmgt_name": "Chaotic candle circle (lit)", // 2533 chisel:SGS_name
 			"mtxmgt_interface_positioning": 6166, // 9254
-			"extra_0024F1": 20115 // 9457
+			"league_locality": 20115 // 9457
 		},
 		"id": 4967
 	},
@@ -61584,7 +61584,7 @@
 			"mtxmgt_category": 7, // 2531 chisel:solomons_category
 			"mtxmgt_name": "Chaotic candle (unlit)", // 2533 chisel:SGS_name
 			"mtxmgt_interface_positioning": 6165, // 9254
-			"extra_0024F1": 20116 // 9457
+			"league_locality": 20116 // 9457
 		},
 		"id": 4968
 	},
@@ -61593,7 +61593,7 @@
 			"mtxmgt_category": 7, // 2531 chisel:solomons_category
 			"mtxmgt_name": "Chaotic candle cluster (unlit)", // 2533 chisel:SGS_name
 			"mtxmgt_interface_positioning": 6166, // 9254
-			"extra_0024F1": 20117 // 9457
+			"league_locality": 20117 // 9457
 		},
 		"id": 4969
 	},
@@ -61602,7 +61602,7 @@
 			"mtxmgt_category": 7, // 2531 chisel:solomons_category
 			"mtxmgt_name": "Chaotic candle circle (unlit)", // 2533 chisel:SGS_name
 			"mtxmgt_interface_positioning": 6166, // 9254
-			"extra_0024F1": 20118 // 9457
+			"league_locality": 20118 // 9457
 		},
 		"id": 4970
 	},
@@ -61613,7 +61613,7 @@
 			"mtxmgt_pos_string": "rs:construction:chaotic_portal_nexus", // 4592
 			"mtxmgt_parent_id": 2473, // 4744
 			"mtxmgt_interface_positioning": 6154, // 9254
-			"extra_0024F1": 20124 // 9457
+			"league_locality": 20124 // 9457
 		},
 		"id": 4971
 	},
@@ -61622,7 +61622,7 @@
 			"mtxmgt_category": 7, // 2531 chisel:solomons_category
 			"mtxmgt_name": "Chaotic ritual markers (3 variants)", // 2533 chisel:SGS_name
 			"mtxmgt_interface_positioning": 6163, // 9254
-			"extra_0024F1": 19959 // 9457
+			"league_locality": 19959 // 9457
 		},
 		"id": 4972
 	},
@@ -61632,7 +61632,7 @@
 			"mtxmgt_name": "Chaotic murals (3 variants)", // 2533 chisel:SGS_name
 			"mtxmgt_preview_prevent_rotation": 1, // 4267
 			"mtxmgt_interface_positioning": 6164, // 9254
-			"extra_0024F1": 20109 // 9457
+			"league_locality": 20109 // 9457
 		},
 		"id": 4973
 	},
@@ -61641,7 +61641,7 @@
 			"mtxmgt_category": 7, // 2531 chisel:solomons_category
 			"mtxmgt_name": "Chaotic candles (lit) (3 variants)", // 2533 chisel:SGS_name
 			"mtxmgt_interface_positioning": 6166, // 9254
-			"extra_0024F1": 20115 // 9457
+			"league_locality": 20115 // 9457
 		},
 		"id": 4974
 	},
@@ -61650,7 +61650,7 @@
 			"mtxmgt_category": 7, // 2531 chisel:solomons_category
 			"mtxmgt_name": "Chaotic candles (unlit) (3 variants)", // 2533 chisel:SGS_name
 			"mtxmgt_interface_positioning": 6166, // 9254
-			"extra_0024F1": 20117 // 9457
+			"league_locality": 20117 // 9457
 		},
 		"id": 4975
 	},
@@ -61761,8 +61761,8 @@
 			"mtxmgt_source_custom": "This cosmetic can be obtained from the Marketplace.", // 4751 chisel:cosmetic_unlock_hint
 			"original_release_date": 8972, // 6628
 			"mtxmgt_preview_default_y_angle": 150, // 8546
-			"extra_002507": 38106, // 9479
-			"extra_002508": 38108 // 9480
+			"marketplace_furniture_unlock_only": 38106, // 9479
+			"marketplace_bonus_xp_dummy_struct": 38108 // 9480
 		},
 		"id": 4981
 	},
@@ -61836,7 +61836,7 @@
 			"combatv2_buff_uses_stacks": 1, // 8110
 			"combatv2_buff_category": 7, // 8114 chisel:buff_category
 			"combatv2_buff_priority": 50, // 8115 chisel:buff_priority
-			"extra_00250E": 13664 // 9486
+			"con_contracts_build5": 13664 // 9486
 		},
 		"id": 4986
 	},
@@ -97877,8 +97877,8 @@
 			"combatv2_set_item_2f": 40543, // 6621
 			"combatv2_set_item_3f": 40546, // 6622
 			"combatv2_set_item_4f": 40549, // 6623
-			"extra_002501": 1, // 9473
-			"extra_002502": 4 // 9474
+			"marketplace_outfit_variant_dbrow_1": 1, // 9473
+			"marketplace_outfit_variant_dbrow_2": 4 // 9474
 		},
 		"id": 9893
 	},
@@ -97914,8 +97914,8 @@
 			"combatv2_set_item_2f": 40555, // 6621
 			"combatv2_set_item_3f": 40558, // 6622
 			"combatv2_set_item_4f": 40561, // 6623
-			"extra_002501": 1, // 9473
-			"extra_002502": 4 // 9474
+			"marketplace_outfit_variant_dbrow_1": 1, // 9473
+			"marketplace_outfit_variant_dbrow_2": 4 // 9474
 		},
 		"id": 9894
 	},
@@ -97951,8 +97951,8 @@
 			"combatv2_set_item_2f": 40567, // 6621
 			"combatv2_set_item_3f": 40570, // 6622
 			"combatv2_set_item_4f": 40573, // 6623
-			"extra_002501": 1, // 9473
-			"extra_002502": 4 // 9474
+			"marketplace_outfit_variant_dbrow_1": 1, // 9473
+			"marketplace_outfit_variant_dbrow_2": 4 // 9474
 		},
 		"id": 9895
 	},
@@ -139507,8 +139507,8 @@
 			"combatv2_set_item_2f": 40579, // 6621
 			"combatv2_set_item_3f": 40582, // 6622
 			"combatv2_set_item_4f": 40585, // 6623
-			"extra_002501": 1, // 9473
-			"extra_002502": 4 // 9474
+			"marketplace_outfit_variant_dbrow_1": 1, // 9473
+			"marketplace_outfit_variant_dbrow_2": 4 // 9474
 		},
 		"id": 16530
 	},
@@ -139730,8 +139730,8 @@
 			"combatv2_set_item_2f": 40591, // 6621
 			"combatv2_set_item_3f": 40594, // 6622
 			"combatv2_set_item_4f": 40597, // 6623
-			"extra_002501": 1, // 9473
-			"extra_002502": 4 // 9474
+			"marketplace_outfit_variant_dbrow_1": 1, // 9473
+			"marketplace_outfit_variant_dbrow_2": 4 // 9474
 		},
 		"id": 16547
 	},
@@ -150775,8 +150775,8 @@
 			"combatv2_ability_info_set_effect_prefix": 1, // 3825
 			"combatv2_ability_info_onhit_activation": 1, // 3830
 			"combatv2_number_of_items_for_set_effect_1": 4, // 5818
-			"extra_002501": 1, // 9473
-			"extra_002502": 4 // 9474
+			"marketplace_outfit_variant_dbrow_1": 1, // 9473
+			"marketplace_outfit_variant_dbrow_2": 4 // 9474
 		},
 		"id": 17209
 	},
@@ -189980,7 +189980,7 @@
 			"combatv2_set_item_4": 20131, // 3220 chisel:boost_outfit_item_4
 			"combatv2_set_item_5": 20133, // 3225 chisel:boost_outfit_item_5
 			"combatv2_number_of_items_for_set_effect_1": 5, // 5818
-			"extra_002501": 1 // 9473
+			"marketplace_outfit_variant_dbrow_1": 1 // 9473
 		},
 		"id": 24326
 	},
@@ -190021,8 +190021,8 @@
 			"combatv2_set_item_2_alternate_name": "Any Void Knight robes", // 8368
 			"combatv2_set_item_3_alternate_name": "Any Void Knight gloves", // 8369
 			"combatv2_set_item_4_alternate_name": "Any Void Knight deflector", // 8370
-			"extra_002501": 1, // 9473
-			"extra_002502": 4 // 9474
+			"marketplace_outfit_variant_dbrow_1": 1, // 9473
+			"marketplace_outfit_variant_dbrow_2": 4 // 9474
 		},
 		"id": 24327
 	},
@@ -193093,7 +193093,7 @@
 			"bslay_collection": 2717, // 7209
 			"bslay_achievement": 1241, // 8227
 			"bslay_has_hardmode": 0, // 8270
-			"extra_0024F3": 9 // 9459
+			"plugin_api_plugin_id": 9 // 9459
 		},
 		"id": 24975
 	},
@@ -221881,7 +221881,7 @@
 			"bslay_collection": 2718, // 7209
 			"bslay_achievement": 1252, // 8227
 			"bslay_has_hardmode": 0, // 8270
-			"extra_0024F3": 9 // 9459
+			"plugin_api_plugin_id": 9 // 9459
 		},
 		"id": 28641
 	},
@@ -221916,7 +221916,7 @@
 			"bslay_collection": 2719, // 7209
 			"bslay_achievement": 1385, // 8227
 			"bslay_has_hardmode": 0, // 8270
-			"extra_0024F3": 9 // 9459
+			"plugin_api_plugin_id": 9 // 9459
 		},
 		"id": 28642
 	},
@@ -221946,7 +221946,7 @@
 			"bslay_collection": 2720, // 7209
 			"bslay_achievement": 1260, // 8227
 			"bslay_has_hardmode": 0, // 8270
-			"extra_0024F3": 14 // 9459
+			"plugin_api_plugin_id": 14 // 9459
 		},
 		"id": 28643
 	},
@@ -221984,7 +221984,7 @@
 			"cheevo_meta_id": 1735, // 6417
 			"bslay_collection": 2721, // 7209
 			"bslay_achievement": 1664, // 8227
-			"extra_0024F3": 8 // 9459
+			"plugin_api_plugin_id": 8 // 9459
 		},
 		"id": 28644
 	},
@@ -222016,7 +222016,7 @@
 			"bslay_collection": 2722, // 7209
 			"bslay_achievement": 1268, // 8227
 			"bslay_has_hardmode": 0, // 8270
-			"extra_0024F3": 14 // 9459
+			"plugin_api_plugin_id": 14 // 9459
 		},
 		"id": 28645
 	},
@@ -222045,7 +222045,7 @@
 			"bslay_collection": 2723, // 7209
 			"bslay_achievement": 1277, // 8227
 			"bslay_has_hardmode": 0, // 8270
-			"extra_0024F3": 7 // 9459
+			"plugin_api_plugin_id": 7 // 9459
 		},
 		"id": 28646
 	},
@@ -222083,7 +222083,7 @@
 			"cheevo_meta_id": 1735, // 6417
 			"bslay_collection": 2724, // 7209
 			"bslay_achievement": 1619, // 8227
-			"extra_0024F3": 8 // 9459
+			"plugin_api_plugin_id": 8 // 9459
 		},
 		"id": 28647
 	},
@@ -222112,7 +222112,7 @@
 			"cheevo_meta_id": 1735, // 6417
 			"bslay_collection": 2725, // 7209
 			"bslay_achievement": 1287, // 8227
-			"extra_0024F3": 3 // 9459
+			"plugin_api_plugin_id": 3 // 9459
 		},
 		"id": 28648
 	},
@@ -222143,7 +222143,7 @@
 			"bslay_collection": 2742, // 7209
 			"bslay_achievement": 1300, // 8227
 			"bslay_has_hardmode": 0, // 8270
-			"extra_0024F3": 6 // 9459
+			"plugin_api_plugin_id": 6 // 9459
 		},
 		"id": 28649
 	},
@@ -222173,7 +222173,7 @@
 			"bslay_collection": 2728, // 7209
 			"bslay_achievement": 1315, // 8227
 			"bslay_has_hardmode": 0, // 8270
-			"extra_0024F3": 11 // 9459
+			"plugin_api_plugin_id": 11 // 9459
 		},
 		"id": 28650
 	},
@@ -222202,7 +222202,7 @@
 			"bslay_collection": 2729, // 7209
 			"bslay_achievement": 1324, // 8227
 			"bslay_has_hardmode": 0, // 8270
-			"extra_0024F3": 11 // 9459
+			"plugin_api_plugin_id": 11 // 9459
 		},
 		"id": 28651
 	},
@@ -222232,7 +222232,7 @@
 			"bslay_collection": 2730, // 7209
 			"bslay_achievement": 1332, // 8227
 			"bslay_has_hardmode": 0, // 8270
-			"extra_0024F3": 3 // 9459
+			"plugin_api_plugin_id": 3 // 9459
 		},
 		"id": 28652
 	},
@@ -222270,7 +222270,7 @@
 			"cheevo_meta_id": 1735, // 6417
 			"bslay_collection": 2731, // 7209
 			"bslay_achievement": 1634, // 8227
-			"extra_0024F3": 8 // 9459
+			"plugin_api_plugin_id": 8 // 9459
 		},
 		"id": 28653
 	},
@@ -222308,7 +222308,7 @@
 			"cheevo_meta_id": 1735, // 6417
 			"bslay_collection": 2732, // 7209
 			"bslay_achievement": 1649, // 8227
-			"extra_0024F3": 8 // 9459
+			"plugin_api_plugin_id": 8 // 9459
 		},
 		"id": 28654
 	},
@@ -222339,7 +222339,7 @@
 			"bslay_collection": 2733, // 7209
 			"bslay_achievement": 1341, // 8227
 			"bslay_has_hardmode": 0, // 8270
-			"extra_0024F3": 29 // 9459
+			"plugin_api_plugin_id": 29 // 9459
 		},
 		"id": 28655
 	},
@@ -222385,7 +222385,7 @@
 			"bslay_collection": 2736, // 7209
 			"bslay_achievement": 1357, // 8227
 			"bslay_has_hardmode": 0, // 8270
-			"extra_0024F3": 8 // 9459
+			"plugin_api_plugin_id": 8 // 9459
 		},
 		"id": 28656
 	},
@@ -222417,7 +222417,7 @@
 			"bslay_collection": 2739, // 7209
 			"bslay_achievement": 1375, // 8227
 			"bslay_has_hardmode": 0, // 8270
-			"extra_0024F3": 22 // 9459
+			"plugin_api_plugin_id": 22 // 9459
 		},
 		"id": 28657
 	},
@@ -222444,7 +222444,7 @@
 			"bslay_collection": 2742, // 7209
 			"bslay_achievement": 1307, // 8227
 			"bslay_has_hardmode": 0, // 8270
-			"extra_0024F3": 6 // 9459
+			"plugin_api_plugin_id": 6 // 9459
 		},
 		"id": 28658
 	},
@@ -222475,7 +222475,7 @@
 			"cheevo_meta_id": 1735, // 6417
 			"bslay_collection": 2744, // 7209
 			"bslay_achievement": 1418, // 8227
-			"extra_0024F3": 3 // 9459
+			"plugin_api_plugin_id": 3 // 9459
 		},
 		"id": 28659
 	},
@@ -258691,7 +258691,7 @@
 			"bslay_achievement": 1754, // 8227
 			"bslay_has_hardmode": 0, // 8270
 			"bslay_assignable": 0, // 8522
-			"extra_0024F3": 40 // 9459
+			"plugin_api_plugin_id": 40 // 9459
 		},
 		"id": 31987
 	},
@@ -258722,7 +258722,7 @@
 			"bslay_achievement": 1766, // 8227
 			"bslay_has_hardmode": 0, // 8270
 			"bslay_assignable": 0, // 8522
-			"extra_0024F3": 40 // 9459
+			"plugin_api_plugin_id": 40 // 9459
 		},
 		"id": 31988
 	},
@@ -270184,8 +270184,8 @@
 			"combatv2_number_of_items_for_set_effect_1": 3, // 5818
 			"combatv2_number_of_items_for_set_effect_2": 4, // 5819
 			"combatv2_number_of_items_for_set_effect_3": 5, // 5820
-			"extra_002501": 1, // 9473
-			"extra_002502": 5 // 9474
+			"marketplace_outfit_variant_dbrow_1": 1, // 9473
+			"marketplace_outfit_variant_dbrow_2": 5 // 9474
 		},
 		"id": 33050
 	},
@@ -270217,8 +270217,8 @@
 			"combatv2_number_of_items_for_set_effect_1": 3, // 5818
 			"combatv2_number_of_items_for_set_effect_2": 4, // 5819
 			"combatv2_number_of_items_for_set_effect_3": 5, // 5820
-			"extra_002501": 1, // 9473
-			"extra_002502": 5 // 9474
+			"marketplace_outfit_variant_dbrow_1": 1, // 9473
+			"marketplace_outfit_variant_dbrow_2": 5 // 9474
 		},
 		"id": 33051
 	},
@@ -270250,8 +270250,8 @@
 			"combatv2_number_of_items_for_set_effect_1": 3, // 5818
 			"combatv2_number_of_items_for_set_effect_2": 4, // 5819
 			"combatv2_number_of_items_for_set_effect_3": 5, // 5820
-			"extra_002501": 1, // 9473
-			"extra_002502": 5 // 9474
+			"marketplace_outfit_variant_dbrow_1": 1, // 9473
+			"marketplace_outfit_variant_dbrow_2": 5 // 9474
 		},
 		"id": 33052
 	},
@@ -270280,8 +270280,8 @@
 			"combatv2_number_of_items_for_set_effect_2": 3, // 5819
 			"combatv2_number_of_items_for_set_effect_3": 4, // 5820
 			"combatv2_number_of_items_for_set_effect_4": 5, // 5821
-			"extra_002501": 1, // 9473
-			"extra_002502": 5 // 9474
+			"marketplace_outfit_variant_dbrow_1": 1, // 9473
+			"marketplace_outfit_variant_dbrow_2": 5 // 9474
 		},
 		"id": 33053
 	},
@@ -270310,8 +270310,8 @@
 			"combatv2_number_of_items_for_set_effect_2": 3, // 5819
 			"combatv2_number_of_items_for_set_effect_3": 4, // 5820
 			"combatv2_number_of_items_for_set_effect_4": 5, // 5821
-			"extra_002501": 1, // 9473
-			"extra_002502": 5 // 9474
+			"marketplace_outfit_variant_dbrow_1": 1, // 9473
+			"marketplace_outfit_variant_dbrow_2": 5 // 9474
 		},
 		"id": 33054
 	},
@@ -270340,8 +270340,8 @@
 			"combatv2_number_of_items_for_set_effect_2": 3, // 5819
 			"combatv2_number_of_items_for_set_effect_3": 4, // 5820
 			"combatv2_number_of_items_for_set_effect_4": 5, // 5821
-			"extra_002501": 1, // 9473
-			"extra_002502": 5 // 9474
+			"marketplace_outfit_variant_dbrow_1": 1, // 9473
+			"marketplace_outfit_variant_dbrow_2": 5 // 9474
 		},
 		"id": 33055
 	},
@@ -270496,8 +270496,8 @@
 			"combatv2_set_item_6a": 34876, // 5560
 			"combatv2_set_item_6b": 34877, // 5561
 			"combatv2_number_of_items_for_set_effect_1": 3, // 5818
-			"extra_002501": 1, // 9473
-			"extra_002502": 6 // 9474
+			"marketplace_outfit_variant_dbrow_1": 1, // 9473
+			"marketplace_outfit_variant_dbrow_2": 6 // 9474
 		},
 		"id": 33063
 	},
@@ -270532,8 +270532,8 @@
 			"combatv2_set_item_6b": 28790, // 5561
 			"combatv2_set_item_6c": 32033, // 5562
 			"combatv2_number_of_items_for_set_effect_1": 3, // 5818
-			"extra_002501": 1, // 9473
-			"extra_002502": 6 // 9474
+			"marketplace_outfit_variant_dbrow_1": 1, // 9473
+			"marketplace_outfit_variant_dbrow_2": 6 // 9474
 		},
 		"id": 33064
 	},
@@ -270568,8 +270568,8 @@
 			"combatv2_set_item_6b": 28772, // 5561
 			"combatv2_set_item_6c": 32027, // 5562
 			"combatv2_number_of_items_for_set_effect_1": 3, // 5818
-			"extra_002501": 1, // 9473
-			"extra_002502": 6 // 9474
+			"marketplace_outfit_variant_dbrow_1": 1, // 9473
+			"marketplace_outfit_variant_dbrow_2": 6 // 9474
 		},
 		"id": 33065
 	},
@@ -270606,8 +270606,8 @@
 			"combatv2_number_of_items_for_set_effect_1": 3, // 5818
 			"combatv2_number_of_items_for_set_effect_2": 5, // 5819
 			"combatv2_number_of_items_for_set_effect_3": 6, // 5820
-			"extra_002501": 1, // 9473
-			"extra_002502": 6 // 9474
+			"marketplace_outfit_variant_dbrow_1": 1, // 9473
+			"marketplace_outfit_variant_dbrow_2": 6 // 9474
 		},
 		"id": 33066
 	},
@@ -270644,8 +270644,8 @@
 			"combatv2_number_of_items_for_set_effect_1": 3, // 5818
 			"combatv2_number_of_items_for_set_effect_2": 5, // 5819
 			"combatv2_number_of_items_for_set_effect_3": 6, // 5820
-			"extra_002501": 1, // 9473
-			"extra_002502": 6 // 9474
+			"marketplace_outfit_variant_dbrow_1": 1, // 9473
+			"marketplace_outfit_variant_dbrow_2": 6 // 9474
 		},
 		"id": 33067
 	},
@@ -270661,8 +270661,8 @@
 			"combatv2_set_item_6": 27168, // 5559
 			"combatv2_set_item_7": 27170, // 5564
 			"combatv2_number_of_items_for_set_effect_1": 1, // 5818
-			"extra_002501": 1, // 9473
-			"extra_002502": 7 // 9474
+			"marketplace_outfit_variant_dbrow_1": 1, // 9473
+			"marketplace_outfit_variant_dbrow_2": 7 // 9474
 		},
 		"id": 33068
 	},
@@ -273200,8 +273200,8 @@
 			"combatv2_set_item_3b": 37160, // 3217
 			"combatv2_set_item_3c": 37561, // 3218
 			"combatv2_number_of_items_for_set_effect_1": 3, // 5818
-			"extra_002501": 1, // 9473
-			"extra_002502": 3 // 9474
+			"marketplace_outfit_variant_dbrow_1": 1, // 9473
+			"marketplace_outfit_variant_dbrow_2": 3 // 9474
 		},
 		"id": 33299
 	},
@@ -273353,7 +273353,7 @@
 			"cheevo_meta_id": 1735, // 6417
 			"bslay_collection": 2743, // 7209
 			"bslay_achievement": 1728, // 8227
-			"extra_0024F3": 11 // 9459
+			"plugin_api_plugin_id": 11 // 9459
 		},
 		"id": 33312
 	},
@@ -273385,7 +273385,7 @@
 			"cheevo_meta_id": 1735, // 6417
 			"bslay_collection": 2727, // 7209
 			"bslay_achievement": 1698, // 8227
-			"extra_0024F3": 11 // 9459
+			"plugin_api_plugin_id": 11 // 9459
 		},
 		"id": 33313
 	},
@@ -273417,7 +273417,7 @@
 			"cheevo_meta_id": 1735, // 6417
 			"bslay_collection": 2741, // 7209
 			"bslay_achievement": 1713, // 8227
-			"extra_0024F3": 11 // 9459
+			"plugin_api_plugin_id": 11 // 9459
 		},
 		"id": 33314
 	},
@@ -273449,7 +273449,7 @@
 			"cheevo_meta_id": 1735, // 6417
 			"bslay_collection": 2726, // 7209
 			"bslay_achievement": 1684, // 8227
-			"extra_0024F3": 11 // 9459
+			"plugin_api_plugin_id": 11 // 9459
 		},
 		"id": 33315
 	},
@@ -275391,8 +275391,8 @@
 			"combatv2_ability_info_set_effect_prefix": 1, // 3825
 			"combatv2_ability_info_ondamage_activation": 1, // 3831
 			"combatv2_number_of_items_for_set_effect_1": 5, // 5818
-			"extra_002501": 1, // 9473
-			"extra_002502": 5 // 9474
+			"marketplace_outfit_variant_dbrow_1": 1, // 9473
+			"marketplace_outfit_variant_dbrow_2": 5 // 9474
 		},
 		"id": 33506
 	},
@@ -276881,7 +276881,7 @@
 			"bslay_collection": 2740, // 7209
 			"bslay_achievement": 1401, // 8227
 			"bslay_has_hardmode": 0, // 8270
-			"extra_0024F3": 11 // 9459
+			"plugin_api_plugin_id": 11 // 9459
 		},
 		"id": 33661
 	},
@@ -289667,8 +289667,8 @@
 			"combatv2_ability_info_set_effect_prefix": 1, // 3825
 			"combatv2_ability_info_onkill_activation": 1, // 3832
 			"combatv2_number_of_items_for_set_effect_1": 4, // 5818
-			"extra_002501": 1, // 9473
-			"extra_002502": 4 // 9474
+			"marketplace_outfit_variant_dbrow_1": 1, // 9473
+			"marketplace_outfit_variant_dbrow_2": 4 // 9474
 		},
 		"id": 34735
 	},
@@ -289686,8 +289686,8 @@
 			"combatv2_ability_info_set_effect_prefix": 1, // 3825
 			"combatv2_ability_info_onkill_activation": 1, // 3832
 			"combatv2_number_of_items_for_set_effect_1": 4, // 5818
-			"extra_002501": 1, // 9473
-			"extra_002502": 4 // 9474
+			"marketplace_outfit_variant_dbrow_1": 1, // 9473
+			"marketplace_outfit_variant_dbrow_2": 4 // 9474
 		},
 		"id": 34736
 	},
@@ -289705,8 +289705,8 @@
 			"combatv2_ability_info_set_effect_prefix": 1, // 3825
 			"combatv2_ability_info_onkill_activation": 1, // 3832
 			"combatv2_number_of_items_for_set_effect_1": 4, // 5818
-			"extra_002501": 1, // 9473
-			"extra_002502": 4 // 9474
+			"marketplace_outfit_variant_dbrow_1": 1, // 9473
+			"marketplace_outfit_variant_dbrow_2": 4 // 9474
 		},
 		"id": 34737
 	},
@@ -296615,7 +296615,7 @@
 			"bslay_collection": 2737, // 7209
 			"bslay_achievement": 1367, // 8227
 			"bslay_has_hardmode": 0, // 8270
-			"extra_0024F3": 8 // 9459
+			"plugin_api_plugin_id": 8 // 9459
 		},
 		"id": 35367
 	},
@@ -324210,7 +324210,7 @@
 			"bslay_collection": 2735, // 7209
 			"bslay_achievement": 1350, // 8227
 			"bslay_has_hardmode": 0, // 8270
-			"extra_0024F3": 11 // 9459
+			"plugin_api_plugin_id": 11 // 9459
 		},
 		"id": 37612
 	},
@@ -344185,7 +344185,7 @@
 			"combatv2_number_of_items_for_set_effect_1": 2, // 5818
 			"combatv2_number_of_items_for_set_effect_2": 4, // 5819
 			"combatv2_number_of_items_for_set_effect_3": 5, // 5820
-			"extra_002502": 5 // 9474
+			"marketplace_outfit_variant_dbrow_2": 5 // 9474
 		},
 		"id": 39402
 	},
@@ -351850,8 +351850,8 @@
 			"minimenu_fonthighlightcolour": 15656390, // 7274
 			"minimenu_font": 69, // 7275
 			"minimenu_entry_draw_height": 16, // 7276
-			"activity_progress_bar_hide_animation": 3, // 8869
-			"extra_002506": 2 // 9478
+			"extra_0022A5": 3, // 8869
+			"marketplace_furniture_package": 2 // 9478
 		},
 		"id": 40069
 	},
@@ -351874,7 +351874,7 @@
 			"minimenu_fonthighlightcolour": 15656390, // 7274
 			"minimenu_font": 170, // 7275
 			"minimenu_entry_draw_height": 35, // 7276
-			"activity_progress_bar_hide_animation": 6 // 8869
+			"extra_0022A5": 6 // 8869
 		},
 		"id": 40070
 	},
@@ -352793,7 +352793,7 @@
 			"bslay_collection": 2745, // 7209
 			"bslay_achievement": 1394, // 8227
 			"bslay_has_hardmode": 0, // 8270
-			"extra_0024F3": 13 // 9459
+			"plugin_api_plugin_id": 13 // 9459
 		},
 		"id": 40150
 	},
@@ -357383,7 +357383,7 @@
 			"bslay_normalmode_term_id": 4, // 8271
 			"bslay_hardmode_term_id": 2, // 8272
 			"bslay_assignable": 0, // 8522
-			"extra_0024F3": 32 // 9459
+			"plugin_api_plugin_id": 32 // 9459
 		},
 		"id": 40570
 	},
@@ -357419,7 +357419,7 @@
 			"bslay_normalmode_term_id": 4, // 8271
 			"bslay_hardmode_term_id": 2, // 8272
 			"bslay_assignable": 0, // 8522
-			"extra_0024F3": 32 // 9459
+			"plugin_api_plugin_id": 32 // 9459
 		},
 		"id": 40571
 	},
@@ -357454,7 +357454,7 @@
 			"bslay_achievement": 1481, // 8227
 			"bslay_normalmode_term_id": 4, // 8271
 			"bslay_hardmode_term_id": 2, // 8272
-			"extra_0024F3": 32 // 9459
+			"plugin_api_plugin_id": 32 // 9459
 		},
 		"id": 40572
 	},
@@ -361435,7 +361435,7 @@
 			"bslay_normalmode_term_id": 4, // 8271
 			"bslay_hardmode_term_id": 2, // 8272
 			"bslay_assignable": 0, // 8522
-			"extra_0024F3": 14 // 9459
+			"plugin_api_plugin_id": 14 // 9459
 		},
 		"id": 40945
 	},
@@ -361469,7 +361469,7 @@
 			"bslay_normalmode_term_id": 4, // 8271
 			"bslay_hardmode_term_id": 2, // 8272
 			"bslay_assignable": 0, // 8522
-			"extra_0024F3": 14 // 9459
+			"plugin_api_plugin_id": 14 // 9459
 		},
 		"id": 40946
 	},
@@ -361502,7 +361502,7 @@
 			"bslay_achievement": 1537, // 8227
 			"bslay_normalmode_term_id": 4, // 8271
 			"bslay_hardmode_term_id": 2, // 8272
-			"extra_0024F3": 14 // 9459
+			"plugin_api_plugin_id": 14 // 9459
 		},
 		"id": 40947
 	},
@@ -366684,8 +366684,8 @@
 			"combatv2_set_item_5a": 44174, // 3226 chisel:boostOutfitAlternative_5
 			"combatv2_set_item_5b": 44175, // 3227
 			"combatv2_number_of_items_for_set_effect_1": 1, // 5818
-			"extra_002501": 1, // 9473
-			"extra_002502": 5 // 9474
+			"marketplace_outfit_variant_dbrow_1": 1, // 9473
+			"marketplace_outfit_variant_dbrow_2": 5 // 9474
 		},
 		"id": 41436
 	},
@@ -407719,7 +407719,7 @@
 			"bslay_achievement": 2944, // 8227
 			"bslay_normalmode_term_id": 2, // 8271
 			"bslay_hardmode_term_id": 3, // 8272
-			"extra_0024F3": 33 // 9459
+			"plugin_api_plugin_id": 33 // 9459
 		},
 		"id": 45051
 	},
@@ -407864,7 +407864,7 @@
 			"bslay_collection": 3832, // 7209
 			"bslay_achievement": 2972, // 8227
 			"bslay_has_hardmode": 0, // 8270
-			"extra_0024F3": 33 // 9459
+			"plugin_api_plugin_id": 33 // 9459
 		},
 		"id": 45061
 	},
@@ -412547,7 +412547,7 @@
 			"cheevo_meta_id": 1735, // 6417
 			"bslay_collection": 4392, // 7209
 			"bslay_achievement": 2985, // 8227
-			"extra_0024F3": 2 // 9459
+			"plugin_api_plugin_id": 2 // 9459
 		},
 		"id": 45455
 	},
@@ -414462,7 +414462,7 @@
 			"cheevo_meta_id": 1735, // 6417
 			"bslay_collection": 4493, // 7209
 			"bslay_achievement": 3027, // 8227
-			"extra_0024F3": 2 // 9459
+			"plugin_api_plugin_id": 2 // 9459
 		},
 		"id": 45611
 	},
@@ -415517,8 +415517,8 @@
 			"combatv2_number_of_items_for_set_effect_2": 3, // 5819
 			"combatv2_number_of_items_for_set_effect_3": 4, // 5820
 			"combatv2_number_of_items_for_set_effect_4": 5, // 5821
-			"extra_002501": 1, // 9473
-			"extra_002502": 5 // 9474
+			"marketplace_outfit_variant_dbrow_1": 1, // 9473
+			"marketplace_outfit_variant_dbrow_2": 5 // 9474
 		},
 		"id": 45694
 	},
@@ -415871,7 +415871,7 @@
 			"bslay_achievement": 3050, // 8227
 			"bslay_has_hardmode": 0, // 8270
 			"bslay_skilling_boss": 1, // 8570
-			"extra_0024F3": 2 // 9459
+			"plugin_api_plugin_id": 2 // 9459
 		},
 		"id": 45726
 	},
@@ -416845,7 +416845,7 @@
 			"cheevo_meta_id": 1735, // 6417
 			"bslay_collection": 4667, // 7209
 			"bslay_achievement": 3063, // 8227
-			"extra_0024F3": 2 // 9459
+			"plugin_api_plugin_id": 2 // 9459
 		},
 		"id": 45810
 	},
@@ -422673,7 +422673,7 @@
 			"bslay_achievement": 3128, // 8227
 			"bslay_normalmode_term_id": 4, // 8271
 			"bslay_hardmode_term_id": 2, // 8272
-			"extra_0024F3": 2 // 9459
+			"plugin_api_plugin_id": 2 // 9459
 		},
 		"id": 46290
 	},
@@ -425799,8 +425799,8 @@
 			"combatv2_number_of_items_for_set_effect_1": 1, // 5818
 			"combatv2_number_of_items_for_set_effect_2": 2, // 5819
 			"combatv2_number_of_items_for_set_effect_3": 3, // 5820
-			"extra_002501": 1, // 9473
-			"extra_002502": 4 // 9474
+			"marketplace_outfit_variant_dbrow_1": 1, // 9473
+			"marketplace_outfit_variant_dbrow_2": 4 // 9474
 		},
 		"id": 46572
 	},
@@ -447561,7 +447561,7 @@
 			"cheevo_meta_id": 1735, // 6417
 			"bslay_collection": 7576, // 7209
 			"bslay_achievement": 3299, // 8227
-			"extra_0024F3": 35 // 9459
+			"plugin_api_plugin_id": 35 // 9459
 		},
 		"id": 48463
 	},
@@ -447589,7 +447589,7 @@
 			"cheevo_meta_id": 1735, // 6417
 			"bslay_collection": 7577, // 7209
 			"bslay_achievement": 3306, // 8227
-			"extra_0024F3": 35 // 9459
+			"plugin_api_plugin_id": 35 // 9459
 		},
 		"id": 48464
 	},
@@ -455346,8 +455346,8 @@
 			"combatv2_item_anti_switch_charge_time": 15, // 7382 chisel:terrorbird_starting_loc
 			"combatv2_set_var_set_effect": 16831941, // 9002
 			"combatv2_set_var_anti_switch": 16831945, // 9003
-			"extra_002501": 1, // 9473
-			"extra_002502": 5 // 9474
+			"marketplace_outfit_variant_dbrow_1": 1, // 9473
+			"marketplace_outfit_variant_dbrow_2": 5 // 9474
 		},
 		"id": 49085
 	},
@@ -455370,8 +455370,8 @@
 			"combatv2_item_anti_switch_charge_time": 15, // 7382 chisel:terrorbird_starting_loc
 			"combatv2_set_var_set_effect": 16831942, // 9002
 			"combatv2_set_var_anti_switch": 16831946, // 9003
-			"extra_002501": 1, // 9473
-			"extra_002502": 5 // 9474
+			"marketplace_outfit_variant_dbrow_1": 1, // 9473
+			"marketplace_outfit_variant_dbrow_2": 5 // 9474
 		},
 		"id": 49086
 	},
@@ -455388,8 +455388,8 @@
 			"combatv2_item_anti_switch_charge_time": 15, // 7382 chisel:terrorbird_starting_loc
 			"combatv2_set_var_set_effect": 16831939, // 9002
 			"combatv2_set_var_anti_switch": 16831943, // 9003
-			"extra_002501": 1, // 9473
-			"extra_002502": 3 // 9474
+			"marketplace_outfit_variant_dbrow_1": 1, // 9473
+			"marketplace_outfit_variant_dbrow_2": 3 // 9474
 		},
 		"id": 49087
 	},
@@ -455406,8 +455406,8 @@
 			"combatv2_item_anti_switch_charge_time": 15, // 7382 chisel:terrorbird_starting_loc
 			"combatv2_set_var_set_effect": 16831940, // 9002
 			"combatv2_set_var_anti_switch": 16831944, // 9003
-			"extra_002501": 1, // 9473
-			"extra_002502": 3 // 9474
+			"marketplace_outfit_variant_dbrow_1": 1, // 9473
+			"marketplace_outfit_variant_dbrow_2": 3 // 9474
 		},
 		"id": 49088
 	},
@@ -455443,7 +455443,7 @@
 			"cheevo_meta_id": 1735, // 6417
 			"bslay_collection": 12834, // 7209
 			"bslay_achievement": 3411, // 8227
-			"extra_0024F3": 34 // 9459
+			"plugin_api_plugin_id": 34 // 9459
 		},
 		"id": 49090
 	},
@@ -466037,7 +466037,7 @@
 			"bslay_collection": 13534, // 7209
 			"bslay_achievement": 2972, // 8227
 			"bslay_has_hardmode": 0, // 8270
-			"extra_0024F3": 33 // 9459
+			"plugin_api_plugin_id": 33 // 9459
 		},
 		"id": 49885
 	},
@@ -468386,7 +468386,7 @@
 			"bslay_collection": 13651, // 7209
 			"bslay_achievement": 3498, // 8227
 			"bslay_assignable": 0, // 8522
-			"extra_0024F3": 35 // 9459
+			"plugin_api_plugin_id": 35 // 9459
 		},
 		"id": 50088
 	},
@@ -468418,7 +468418,7 @@
 			"bslay_collection": 13651, // 7209
 			"bslay_achievement": 3472, // 8227
 			"bslay_assignable": 0, // 8522
-			"extra_0024F3": 35 // 9459
+			"plugin_api_plugin_id": 35 // 9459
 		},
 		"id": 50089
 	},
@@ -468449,7 +468449,7 @@
 			"cheevo_meta_id": 1735, // 6417
 			"bslay_collection": 13651, // 7209
 			"bslay_achievement": 3485, // 8227
-			"extra_0024F3": 35 // 9459
+			"plugin_api_plugin_id": 35 // 9459
 		},
 		"id": 50090
 	},
@@ -470177,7 +470177,7 @@
 			"bslay_achievement": 3520, // 8227
 			"bslay_has_hardmode": 0, // 8270
 			"bslay_skilling_boss": 1, // 8570
-			"extra_0024F3": 35 // 9459
+			"plugin_api_plugin_id": 35 // 9459
 		},
 		"id": 50235
 	},
@@ -487409,7 +487409,7 @@
 			"combatv2_set_item_2": 28611, // 3210 chisel:boost_outfit_item_2
 			"combatv2_set_item_3": 28614, // 3215 chisel:boost_outfit_item_3
 			"combatv2_number_of_items_for_set_effect_1": 1, // 5818
-			"extra_002501": 1 // 9473
+			"marketplace_outfit_variant_dbrow_1": 1 // 9473
 		},
 		"id": 51673
 	},
@@ -487421,7 +487421,7 @@
 			"combatv2_set_item_2": 43169, // 3210 chisel:boost_outfit_item_2
 			"combatv2_set_item_3": 43172, // 3215 chisel:boost_outfit_item_3
 			"combatv2_number_of_items_for_set_effect_1": 1, // 5818
-			"extra_002501": 1 // 9473
+			"marketplace_outfit_variant_dbrow_1": 1 // 9473
 		},
 		"id": 51674
 	},
@@ -490594,8 +490594,8 @@
 			"combatv2_item_anti_switch_charge_time": 9, // 7382 chisel:terrorbird_starting_loc
 			"combatv2_set_var_set_effect": 16835502, // 9002
 			"combatv2_set_var_anti_switch": 16835503, // 9003
-			"extra_002501": 1, // 9473
-			"extra_002502": 5 // 9474
+			"marketplace_outfit_variant_dbrow_1": 1, // 9473
+			"marketplace_outfit_variant_dbrow_2": 5 // 9474
 		},
 		"id": 52071
 	},
@@ -490699,7 +490699,7 @@
 			"bslay_achievement": 4044, // 8227
 			"bslay_has_hardmode": 1, // 8270
 			"bslay_hardmode_term_id": 5, // 8272
-			"extra_0024F3": 25 // 9459
+			"plugin_api_plugin_id": 25 // 9459
 		},
 		"id": 52079
 	},
@@ -498237,7 +498237,7 @@
 			"bslay_collection": 17384, // 7209
 			"bslay_achievement": 4870, // 8227
 			"bslay_has_hardmode": 0, // 8270
-			"extra_0024F3": 14 // 9459
+			"plugin_api_plugin_id": 14 // 9459
 		},
 		"id": 52661
 	},
@@ -502512,7 +502512,7 @@
 			"cheevo_meta_id": 1735, // 6417
 			"bslay_collection": 6887, // 7209
 			"bslay_achievement": 4894, // 8227
-			"extra_0024F3": 36 // 9459
+			"plugin_api_plugin_id": 36 // 9459
 		},
 		"id": 53047
 	},
@@ -502540,7 +502540,7 @@
 			"cheevo_meta_id": 1735, // 6417
 			"bslay_collection": 6888, // 7209
 			"bslay_achievement": 4904, // 8227
-			"extra_0024F3": 36 // 9459
+			"plugin_api_plugin_id": 36 // 9459
 		},
 		"id": 53048
 	},
@@ -506524,7 +506524,7 @@
 			"combatv2_ability_no_interrupt_channelling": 1, // 8018
 			"combatv2_ability_no_effect_on_revo_cooldown": 1, // 8019
 			"combatv2_ability_target_type": 3, // 8170 chisel:ability_target
-			"extra_00250F": 16839355, // 9487
+			"construction_house_wall_decor_ignore_open_doorways": 16839355, // 9487
 			"extra_002510": 13705, // 9488
 			"extra_002511": 13706, // 9489
 			"extra_002512": 13654 // 9490
@@ -506556,7 +506556,7 @@
 			"combatv2_ability_no_interrupt_channelling": 1, // 8018
 			"combatv2_ability_no_effect_on_revo_cooldown": 1, // 8019
 			"combatv2_ability_target_type": 3, // 8170 chisel:ability_target
-			"extra_00250F": 16839356, // 9487
+			"construction_house_wall_decor_ignore_open_doorways": 16839356, // 9487
 			"extra_002510": 13707, // 9488
 			"extra_002511": 13708, // 9489
 			"extra_002512": 13655 // 9490
@@ -506573,7 +506573,7 @@
 			"combatv2_buff_uses_ability_end": 1, // 8112 chisel:buff_uses_timer
 			"combatv2_buff_category": 6, // 8114 chisel:buff_category
 			"combatv2_buff_priority": 60, // 8115 chisel:buff_priority
-			"extra_00250E": 13702 // 9486
+			"con_contracts_build5": 13702 // 9486
 		},
 		"id": 53441
 	},
@@ -506627,7 +506627,7 @@
 			"combatv2_ability_no_effect_on_revo_cooldown": 1, // 8019
 			"combatv2_ability_target_type": 3, // 8170 chisel:ability_target
 			"combatv2_ability_allows_unarmed": 1, // 9408
-			"extra_00250F": 16839357, // 9487
+			"construction_house_wall_decor_ignore_open_doorways": 16839357, // 9487
 			"extra_002510": 13709, // 9488
 			"extra_002511": 13710, // 9489
 			"extra_002512": 13656 // 9490

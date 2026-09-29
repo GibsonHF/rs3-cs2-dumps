@@ -14,12 +14,12 @@ function script8771(int0: number): void {
         IF_SETOPKEYRATE(9, 1, 1, 96796714);
         IF_SETOPKEYRATE(10, 1, 1, 96796714);
     } else {
-        IF_SETOPKEY(1, 0, 0, comp(1477, 42));  // toplevel_v2:weather_effects_overlay
-        IF_SETOPKEY(2, 0, 0, comp(1477, 42));  // toplevel_v2:weather_effects_overlay
-        IF_SETOPKEY(3, 0, 0, comp(1477, 42));  // toplevel_v2:weather_effects_overlay
-        IF_SETOPKEY(4, 0, 0, comp(1477, 42));  // toplevel_v2:weather_effects_overlay
-        IF_SETOPKEY(9, 0, 0, comp(1477, 42));  // toplevel_v2:weather_effects_overlay
-        IF_SETOPKEY(10, 0, 0, comp(1477, 42));  // toplevel_v2:weather_effects_overlay
+        IF_SETOPKEY(1, 0, 0, comp(1477, 42));  // toplevel_v2:camera_smalllistener
+        IF_SETOPKEY(2, 0, 0, comp(1477, 42));  // toplevel_v2:camera_smalllistener
+        IF_SETOPKEY(3, 0, 0, comp(1477, 42));  // toplevel_v2:camera_smalllistener
+        IF_SETOPKEY(4, 0, 0, comp(1477, 42));  // toplevel_v2:camera_smalllistener
+        IF_SETOPKEY(9, 0, 0, comp(1477, 42));  // toplevel_v2:camera_smalllistener
+        IF_SETOPKEY(10, 0, 0, comp(1477, 42));  // toplevel_v2:camera_smalllistener
     };
     return;
 }

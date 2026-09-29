@@ -9,11 +9,11 @@ function script20236(): void {
     };
     IF_SETTEXT("You can change this setting at any time.", comp(1406, 8));  // league_onboarding_wiki:wiki_smallprint
     if ((varbitplayer_58366 == 1)) {
-        IF_SETENABLED(false, comp(1406, 12));  // league_onboarding_wiki:wiki_link
-        IF_SETTEXT("Enabled", comp(1406, 12));  // league_onboarding_wiki:wiki_link
+        IF_SETENABLED(false, comp(1406, 12));  // league_onboarding_wiki:enable_wiki
+        IF_SETTEXT("Enabled", comp(1406, 12));  // league_onboarding_wiki:enable_wiki
     } else {
-        IF_SETENABLED(true, comp(1406, 12));  // league_onboarding_wiki:wiki_link
-        IF_SETTEXT("Enable WikiSync", comp(1406, 12));  // league_onboarding_wiki:wiki_link
+        IF_SETENABLED(true, comp(1406, 12));  // league_onboarding_wiki:enable_wiki
+        IF_SETTEXT("Enable WikiSync", comp(1406, 12));  // league_onboarding_wiki:enable_wiki
     };
     return;
 }

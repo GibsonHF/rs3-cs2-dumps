@@ -9,14 +9,14 @@ function script1364(): void {
         if ((script8314(1008) == -1)) {
             IF_SETHIDE(false, struct_getparam(21300, 3503));
             IF_SETHIDE(false, struct_getparam(21300, 3505));
-            IF_SETHIDE(true, comp(1477, 740));  // toplevel_v2:side_modal_window_content
+            IF_SETHIDE(true, comp(1477, 740));  // toplevel_v2:moveable_modal_overlay
             script10399(-1);
         };
-    } else if ((IF_HASSUB(comp(1477, 740)) == 1)) {  // toplevel_v2:side_modal_window_content
+    } else if ((IF_HASSUB(comp(1477, 740)) == 1)) {  // toplevel_v2:moveable_modal_overlay
         if ((script8314(1008) == -1)) {
             IF_SETHIDE(false, struct_getparam(21300, 3503));
             IF_SETHIDE(true, struct_getparam(21300, 3505));
-            IF_SETHIDE(false, comp(1477, 740));  // toplevel_v2:side_modal_window_content
+            IF_SETHIDE(false, comp(1477, 740));  // toplevel_v2:moveable_modal_overlay
             script10399(-1);
         };
     } else {
@@ -52,7 +52,7 @@ function script1364(): void {
             IF_SETNOCLICKTHROUGH(1, struct_getparam(21303, 6121));
         };
         script14163();
-    } else if ((IF_HASSUB(comp(1477, 750)) == 1)) {  // toplevel_v2:mes_window_content
+    } else if ((IF_HASSUB(comp(1477, 750)) == 1)) {  // toplevel_v2:side_modal_window_background
         if ((script8847(12) != -1)) {
             script8841(12, 0);
         };
@@ -134,7 +134,7 @@ function script1364(): void {
         };
         script20393(0, 5);
     };
-    if ((IF_HASSUB(comp(1477, 745)) == 1)) {  // toplevel_v2:npc_chat_holder
+    if ((IF_HASSUB(comp(1477, 745)) == 1)) {  // toplevel_v2:modal_window_background
         script20393(1, 7);
     } else {
         script20393(0, 7);

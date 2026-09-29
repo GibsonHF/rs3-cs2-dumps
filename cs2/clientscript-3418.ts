@@ -10,7 +10,7 @@ function script3418(int0: number): number {
     while ((int1 < DB_GETFIELDCOUNT(int0, 634896))) {
         if ((script12653(int0, int1) == 1)) {
             [string0, int2, int3, int4, int4, int4, int4, int5] = dbrow_getfield(int0, 634896, int1);
-            if ((IF_HASSUBOVERLAY(comp(1477, 745), int2) == 1)) {  // toplevel_v2:npc_chat_holder
+            if ((IF_HASSUBOVERLAY(comp(1477, 745), int2) == 1)) {  // toplevel_v2:modal_window_background
                 return int1;
             };
         };

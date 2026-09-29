@@ -13,7 +13,7 @@ function script3216(int0: number, int1: number): void {
         script7879();
         return;
     };
-    if ((IF_GETHIDE(comp(1420, 187)) == false)) {  // acc_create:escape_confirm
+    if ((IF_GETHIDE(comp(1420, 187)) == false)) {  // acc_create:tool_bar_vol_slider_graphic
         return;
     };
     var string0 = "";

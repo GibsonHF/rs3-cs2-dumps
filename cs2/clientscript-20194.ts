@@ -1,6 +1,6 @@
 //
 function script20194(): void {
-    IF_SETHIDE(true, comp(1512, 14));  // house_furniture_catalogue:items_scrolling
+    IF_SETHIDE(true, comp(1512, 14));  // house_furniture_catalogue:items_stairs_toggle
     IF_SETSIZE(16, 0, 1, 1, int0);
     IF_SETSIZE(16, 0, 0, 1, int1);
     CC_DELETEALL(int2);

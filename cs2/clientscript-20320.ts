@@ -8,7 +8,7 @@ function script20320(int0: number, int1: number): number {
         return 0;
     };
     var int3 = -1;
-    if ((int0 == comp(1479, 20))) {  // league_parent_tasks:task_scrollbar
+    if ((int0 == comp(1479, 20))) {  // league_parent_tasks:task_panel
         int3 = script20169(varbitclient_58393, varbitclient_58395, varbitclient_58397, varbitclient_58399, 0);
     } else {
         int3 = script20168(dbrow_getfield(int2, 1335680, 0));

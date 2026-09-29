@@ -58,11 +58,11 @@ function script7899(int0: number, int1: number, int2: number, int3: number): voi
                 varclient_6880 = 1572;
             };
         };
-        if ((IF_GETHIDE(comp(1420, 46)) == false)) {  // acc_create:avatar_paperdoll
-            IF_SETMODELANGLE(0, 130, 0, varclient_3487, 0, 160, comp(1420, 46));  // acc_create:avatar_paperdoll
+        if ((IF_GETHIDE(comp(1420, 46)) == false)) {  // acc_create:large_3
+            IF_SETMODELANGLE(0, 130, 0, varclient_3487, 0, 160, comp(1420, 46));  // acc_create:large_3
         };
-        if ((IF_GETHIDE(comp(1420, 47)) == false)) {  // acc_create:avatar_head
-            IF_SETMODELANGLE(-70, 0, 0, varclient_6880, 0, 950, comp(1420, 47));  // acc_create:avatar_head
+        if ((IF_GETHIDE(comp(1420, 47)) == false)) {  // acc_create:large_4
+            IF_SETMODELANGLE(-70, 0, 0, varclient_6880, 0, 950, comp(1420, 47));  // acc_create:large_4
         };
         IF_SETONTIMER(callback(script7899, int0, (int1 - int3), int2, int3), comp(1420, 11));  // acc_create:avatar_listener
     } else {

@@ -1,7 +1,7 @@
 //
 function script13824(): void {
     if (((varbitplayer_42094 == 1) || (script6431() == 1))) {
-        IF_SETONTIMER(callback(), comp(1477, 883));  // toplevel_v2:hover_text_display
+        IF_SETONTIMER(callback(), comp(1477, 883));  // toplevel_v2:flash_yellow_11
         return;
     };
     var int0 = 0;

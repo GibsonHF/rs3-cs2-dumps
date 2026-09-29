@@ -16,12 +16,12 @@ function script8168(int0: number, int1: number, int2: number): void {
             };
         } else {
             IF_SETONTIMER(callback(), int0);
-            IF_CLOSESUBCLIENT(comp(1477, 819));  // toplevel_v2:infobox_top_layer
+            IF_CLOSESUBCLIENT(comp(1477, 819));  // toplevel_v2:escape_menu_border
             script8164();
         };
     } else {
         IF_SETONTIMER(callback(), int0);
-        IF_CLOSESUBCLIENT(comp(1477, 819));  // toplevel_v2:infobox_top_layer
+        IF_CLOSESUBCLIENT(comp(1477, 819));  // toplevel_v2:escape_menu_border
         script8164();
     };
     return;

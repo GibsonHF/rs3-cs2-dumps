@@ -5,7 +5,7 @@ function script3353(int0: number, int1: number, string0: string): void {
     var int4 = struct_getparam(int3, 7275);
     var int5 = 270;
     var int6 = (3 + (PARAHEIGHT(string0, (int5 - 3), int4) * enum_getvalue(25, 0, 8549 as cs2enum, int4)));
-    var int7 = ((IF_GETHEIGHT(comp(1322, 6)) + int6) + 15);  // minimenu:mobile_tooltip ?
+    var int7 = ((IF_GETHEIGHT(comp(1322, 6)) + int6) + 15);  // minimenu:mobile_tooltip_text ?
     int5 = (int5 + 10);
     var int8 = 0;
     var int9 = 0;
@@ -17,7 +17,7 @@ function script3353(int0: number, int1: number, string0: string): void {
     script4512(int2, struct_getparam(int3, 7266), int6, 0, 0, struct_getparam(int3, 7268));
     script6199(int2, struct_getparam(int3, 7270), struct_getparam(int3, 7266), 0, int5, struct_getparam(int3, 7266));
     script10066(int2, IF_GETNEXTSUBID(int2), (int5 - 6), (int6 + 6), 3, 3, 1444876, 1, 50);
-    if ((IF_GETHEIGHT(comp(1322, 6)) > 0)) {  // minimenu:mobile_tooltip ?
+    if ((IF_GETHEIGHT(comp(1322, 6)) > 0)) {  // minimenu:mobile_tooltip_text ?
         script6199(int2, struct_getparam(int3, 7270), struct_getparam(int3, 7266), (int6 + 5), int5, struct_getparam(int3, 7266));
     };
     script7924(int2, IF_GETNEXTSUBID(int2), struct_getparam(int3, 7266), int6, (int5 - struct_getparam(int3, 7266)), 0, struct_getparam(int3, 7268), 1, 0, 0, 0);
@@ -28,22 +28,22 @@ function script3353(int0: number, int1: number, string0: string): void {
     script7924(int2, IF_GETNEXTSUBID(int2), struct_getparam(int3, 7271), struct_getparam(int3, 7271), (int5 - struct_getparam(int3, 7271)), (int7 - struct_getparam(int3, 7271)), struct_getparam(int3, 7272), 1, 0, 0, 0);
     script10629(int2, IF_GETNEXTSUBID(int2), (int5 - 3), (int6 - 3), 0, 3, string0, struct_getparam(int3, 7273), int4, 1, 0, enum_getvalue(25, 0, 8549 as cs2enum, int4), 0);
     [int8, int9] = script3351(int5, int7, int0, int1);
-    IF_SETSCROLLPOS(0, 0, comp(1322, 7));  // minimenu:mobile_tooltip_text ?
+    IF_SETSCROLLPOS(0, 0, comp(1322, 7));  // minimenu:scroll_bar ?
     if ((varclient_6403 != 0)) {
-        IF_SETSCROLLSIZE(0, (IF_GETHEIGHT(comp(1322, 7)) + 20), comp(1322, 7));  // minimenu:mobile_tooltip_text ?
-        if ((IF_GETHEIGHT(comp(1322, 7)) < int7)) {  // minimenu:mobile_tooltip_text ?
-            IF_SETHIDE(true, comp(1322, 8));  // minimenu:scroll_bar ?
+        IF_SETSCROLLSIZE(0, (IF_GETHEIGHT(comp(1322, 7)) + 20), comp(1322, 7));  // minimenu:scroll_bar ?
+        if ((IF_GETHEIGHT(comp(1322, 7)) < int7)) {  // minimenu:scroll_bar ?
+            IF_SETHIDE(true, comp(1322, 8));  // minimenu:menu_background_layer ?
         } else {
-            IF_SETHIDE(false, comp(1322, 8));  // minimenu:scroll_bar ?
+            IF_SETHIDE(false, comp(1322, 8));  // minimenu:menu_background_layer ?
         };
     };
-    IF_SETSIZE(int5, int7, 0, 0, comp(1322, 6));  // minimenu:mobile_tooltip ?
-    IF_SETPOSITION(int8, int9, 0, 0, comp(1322, 6));  // minimenu:mobile_tooltip ?
-    IF_SETPOSITION(0, (int6 + 9), 0, 0, comp(1322, 7));  // minimenu:mobile_tooltip_text ?
+    IF_SETSIZE(int5, int7, 0, 0, comp(1322, 6));  // minimenu:mobile_tooltip_text ?
+    IF_SETPOSITION(int8, int9, 0, 0, comp(1322, 6));  // minimenu:mobile_tooltip_text ?
+    IF_SETPOSITION(0, (int6 + 9), 0, 0, comp(1322, 7));  // minimenu:scroll_bar ?
     if ((varclient_6403 != 0)) {
         script7791(86638600, 86638599);
     } else {
-        IF_SETHIDE(true, comp(1322, 8));  // minimenu:scroll_bar ?
+        IF_SETHIDE(true, comp(1322, 8));  // minimenu:menu_background_layer ?
     };
     return;
 }

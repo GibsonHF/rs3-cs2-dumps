@@ -23,8 +23,8 @@ function script8702(int0: number, int1: number): void {
     var int13 = 0;
     var int14 = -1;
     var int15 = 0;
-    var int16 = IF_GETWIDTH(comp(1477, 28));  // toplevel_v2:gameview_window
-    var int17 = IF_GETHEIGHT(comp(1477, 28));  // toplevel_v2:gameview_window
+    var int16 = IF_GETWIDTH(comp(1477, 28));  // toplevel_v2:viewport
+    var int17 = IF_GETHEIGHT(comp(1477, 28));  // toplevel_v2:viewport
     var int18 = ENUM_GETOUTPUTCOUNT(7717 as cs2enum);
     if ((int0 == -1)) {
         if ((int1 == 9)) {

@@ -1,6 +1,6 @@
 //
 function script3555(): void {
-    if ((IF_GETHIDE(comp(1477, 806)) == false)) {  // toplevel_v2:escape_menu_background
+    if ((IF_GETHIDE(comp(1477, 806)) == false)) {  // toplevel_v2:event_crafting
         if ((script8292(-1, -1) == 1)) {
             if ((struct_getparam(21301, 3507) != comp(-1, 65535))) {
                 IF_TRIGGEROP(struct_getparam(21301, 3507), 1, 1);

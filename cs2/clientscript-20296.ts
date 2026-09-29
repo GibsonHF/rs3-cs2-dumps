@@ -90,7 +90,7 @@ function script20296(int0: number, int1: number, int2: number, int3: number): vo
             };
         };
     };
-    if ((int0 == comp(1479, 20))) {  // league_parent_tasks:task_scrollbar
+    if ((int0 == comp(1479, 20))) {  // league_parent_tasks:task_panel
         IF_SETONTIMER(callback(script20308, int0, 96927763, 96927765, -2147483645), comp(1479, 6));  // league_parent_tasks:scrollbar_deferred
     } else {
         IF_SETONTIMER(callback(script20308, int0, 89194516, 89194518, -2147483645), comp(1361, 6));  // league_child_tasks:scrollbar_deferred

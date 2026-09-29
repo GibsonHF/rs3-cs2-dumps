@@ -1,15 +1,15 @@
 //
 function script19706(): number {
-    CC_DELETEALL(comp(1475, 38));  // toplevel_v2_edit_mode:23px_settings
-    CC_DELETEALL(comp(1475, 39));  // toplevel_v2_edit_mode:interface_sharing_build
+    CC_DELETEALL(comp(1475, 38));  // toplevel_v2_edit_mode:interface_sharing_build
+    CC_DELETEALL(comp(1475, 39));  // toplevel_v2_edit_mode:interface_sharing_click
     CC_DELETEALL(comp(1475, 27));  // toplevel_v2_edit_mode:interface_sharing_scrollbar
     if ((script19705() == 0)) {
         IF_SETHIDE(true, comp(1475, 24));  // toplevel_v2_edit_mode:interface_sharing_contents
-        IF_SETTEXT("", comp(1475, 32));  // toplevel_v2_edit_mode:interface_sharing_access
+        IF_SETTEXT("", comp(1475, 32));  // toplevel_v2_edit_mode:interface_sharing_player_input
         return 0;
     };
     IF_SETHIDE(false, comp(1475, 24));  // toplevel_v2_edit_mode:interface_sharing_contents
-    IF_SETTEXT(varclient_8264, comp(1475, 32));  // toplevel_v2_edit_mode:interface_sharing_access
+    IF_SETTEXT(varclient_8264, comp(1475, 32));  // toplevel_v2_edit_mode:interface_sharing_player_input
     var int0 = -1;
     var int1 = 0;
     var int2 = ENUM_GETOUTPUTCOUNT(10781 as cs2enum);
@@ -46,7 +46,7 @@ function script19706(): number {
                 int9 = 0;
             };
             script7853(96665638, int3, 0, int1, 0, 0, int7, int6, 0, 0, 4476, string0, 1, 1, 1, int9);
-            CC_CREATE(comp(1475, 39), 4, int3);  // toplevel_v2_edit_mode:interface_sharing_build
+            CC_CREATE(comp(1475, 39), 4, int3);  // toplevel_v2_edit_mode:interface_sharing_click
             CC_SETSIZE(int7, int6, 0, 0);
             CC_SETPOSITION(0, int1, 0, 0);
             CC_SETOP(1, "Load");

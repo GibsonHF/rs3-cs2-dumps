@@ -23,7 +23,7 @@ function script9566(int0: number, int1: number, int2: number, int3: number, int4
         CC_DELETEALL(comp(1486, 14));  // text_tooltip:tooltip_dynamic_text
         IF_SETHIDE(true, comp(1486, 15));  // text_tooltip:tooltip_text
         IF_SETTEXT("null", comp(1486, 15));  // text_tooltip:tooltip_text
-        IF_SETHIDE(true, comp(1477, 913));  // toplevel_v2:client_expire_layer
+        IF_SETHIDE(true, comp(1477, 913));  // toplevel_v2:bespoke_window_border
         if ((int1 != -1)) {
             IF_SETPARAM_INT(4145, int1, int18);
             IF_SETHIDE(false, comp(1486, 14));  // text_tooltip:tooltip_dynamic_text
@@ -192,7 +192,7 @@ function script9566(int0: number, int1: number, int2: number, int3: number, int4
         int25 = MIN(MAX(int25, int20), (int22 - int12));
     };
     IF_SETPOSITION(int25, (int24 - script20394(10)), 0, 0, comp(1486, 1));  // text_tooltip:tooltip_layer
-    if ((((int19 == 1) && (IF_FIND(comp(1486, 1) /*text_tooltip:tooltip_layer*/) == 1)) && (IF_FIND[1](comp(1477, 913) /*toplevel_v2:client_expire_layer*/) == 1))) {
+    if ((((int19 == 1) && (IF_FIND(comp(1486, 1) /*text_tooltip:tooltip_layer*/) == 1)) && (IF_FIND[1](comp(1477, 913) /*toplevel_v2:bespoke_window_border*/) == 1))) {
         CC_SETPOSITION[1](((CC_GETX() + (CC_GETWIDTH() / 2)) - (CC_GETWIDTH[1]() / 2)), (((CC_GETY() + CC_GETHEIGHT()) - CC_GETHEIGHT[1]()) - 5), 0, 0);
     };
     return;

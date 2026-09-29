@@ -57,7 +57,7 @@ function script20250(): void {
     } else {
         string0 = `Earn ${TOSTRING_LOCALISED((int9 - int8), 1)} points to unlock the next trophy`;
     };
-    IF_SETTEXT(string0, comp(1442, 13));  // league_parent_ranks:divider_tier
+    IF_SETTEXT(string0, comp(1442, 13));  // league_parent_ranks:current_title
     var int16 = -1;
     var int17 = -1;
     var int18 = -1;
@@ -71,25 +71,25 @@ function script20250(): void {
     stack(int12);
     script21087();
     [int16, int17, int18, int19, int20, int21, int22, int23, int24, int25] = [];
-    IF_SETMODEL(int16, comp(1442, 14));  // league_parent_ranks:title_tier
-    IF_SETMODELZOOM(int17, comp(1442, 14));  // league_parent_ranks:title_tier
+    IF_SETMODEL(int16, comp(1442, 14));  // league_parent_ranks:next_trophy
+    IF_SETMODELZOOM(int17, comp(1442, 14));  // league_parent_ranks:next_trophy
     if (((int18 != -1) && (int19 != -1))) {
-        IF_SETRETEX(1, int18, int19, comp(1442, 14));  // league_parent_ranks:title_tier
+        IF_SETRETEX(1, int18, int19, comp(1442, 14));  // league_parent_ranks:next_trophy
     };
     if (((int20 != -1) && (int21 != -1))) {
-        IF_SETRECOL(1, int20, int21, comp(1442, 14));  // league_parent_ranks:title_tier
+        IF_SETRECOL(1, int20, int21, comp(1442, 14));  // league_parent_ranks:next_trophy
         if (((int22 != -1) && (int23 != -1))) {
-            IF_SETRECOL(2, int22, int23, comp(1442, 14));  // league_parent_ranks:title_tier
+            IF_SETRECOL(2, int22, int23, comp(1442, 14));  // league_parent_ranks:next_trophy
         };
     };
-    IF_SETPOSITION(int24, int25, 1, 1, comp(1442, 14));  // league_parent_ranks:title_tier
-    IF_SETTEXT("Trophies are available once the League ends.", comp(1442, 15));  // league_parent_ranks:title_points
+    IF_SETPOSITION(int24, int25, 1, 1, comp(1442, 14));  // league_parent_ranks:next_trophy
+    IF_SETTEXT("Trophies are available once the League ends.", comp(1442, 15));  // league_parent_ranks:disclaimer
     var string2 = "You have already set your nominated account for this league, you cannot change it again.";
     if ((varplayer_13541 == -1)) {
-        IF_SETENABLED(false, comp(1442, 10));  // league_parent_ranks:bg_table
-        IF_SETONOP(callback(script15194, string2, -2147483645), comp(1442, 10));  // league_parent_ranks:bg_table
+        IF_SETENABLED(false, comp(1442, 10));  // league_parent_ranks:change_nomination
+        IF_SETONOP(callback(script15194, string2, -2147483645), comp(1442, 10));  // league_parent_ranks:change_nomination
     } else {
-        IF_SETENABLED(true, comp(1442, 10));  // league_parent_ranks:bg_table
+        IF_SETENABLED(true, comp(1442, 10));  // league_parent_ranks:change_nomination
     };
     return;
 }

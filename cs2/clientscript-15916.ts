@@ -21,6 +21,6 @@ function script15916(): void {
         }
     };
     IF_SETONVARCTRANSMIT(callback(script801, 4258, 5129, 5130, 3), comp(1508, 2));  // timed_kill:time_text
-    IF_SETONVARCTRANSMIT(callback(script15917, 4260, 1), comp(1508, 5));  // timed_kill:background_layer
+    IF_SETONVARCTRANSMIT(callback(script15917, 4260, 1), comp(1508, 5));  // timed_kill:content_layer
     return;
 }

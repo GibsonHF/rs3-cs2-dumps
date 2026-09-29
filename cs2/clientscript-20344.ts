@@ -9,9 +9,9 @@ function script20344(): void {
     };
     script8144();
     if ((int2 == 1)) {
-        IF_SETHIDE(true, comp(1431, 9));  // toplevel_v2_ribbon:extra_button
-        IF_SETHIDE(true, comp(1431, 10));  // toplevel_v2_ribbon:mode_button
-        IF_SETHIDE(true, comp(1431, 11));  // toplevel_v2_ribbon:league_button
+        IF_SETHIDE(true, comp(1431, 9));  // toplevel_v2_ribbon:window_click
+        IF_SETHIDE(true, comp(1431, 10));  // toplevel_v2_ribbon:intern_note_layer
+        IF_SETHIDE(true, comp(1431, 11));
     };
     return;
 }

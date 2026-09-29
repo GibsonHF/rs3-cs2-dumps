@@ -1,6 +1,6 @@
 //
 function script20750(int0: number, int1: number, int2: number): void {
-    if ((int1 == comp(1512, 17))) {  // house_furniture_catalogue:items_count
+    if ((int1 == comp(1512, 17))) {  // house_furniture_catalogue:items_obj
         if (((varbitclient_61875 == 1) || (varbitclient_61226 == 62))) {
             return;
         };

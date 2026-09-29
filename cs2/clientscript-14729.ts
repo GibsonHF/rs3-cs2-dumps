@@ -48,8 +48,8 @@ function script14729(int0: number): void {
             break;
         }
         case 82: {
-            if ((IF_GETHIDE(comp(105, 130)) == false)) {  // stockmarket:choosesell5_button_over_layer ?
-                IF_TRIGGEROP(comp(105, 131), -1, 1);  // stockmarket:choosesell5_button_hit_layer ?
+            if ((IF_GETHIDE(comp(105, 130)) == false)) {  // stockmarket:offerlayer ?
+                IF_TRIGGEROP(comp(105, 131), -1, 1);  // stockmarket:backbutton ?
                 return;
             };
             break;

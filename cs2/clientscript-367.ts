@@ -24,8 +24,8 @@ function script367(int0: number): void {
         script2464();
         script2466();
     };
-    IF_SETHIDE(int0, comp(1477, 816));  // toplevel_v2:fixed_overlay_windows
-    IF_SETHIDE(int0, comp(1477, 879));  // toplevel_v2:confirm_save_popup_layer
+    IF_SETHIDE(int0, comp(1477, 816));  // toplevel_v2:floater_layer
+    IF_SETHIDE(int0, comp(1477, 879));  // toplevel_v2:flash_yellow_10
     if ((int0 == true)) {
         CLIENTOPTION_SET(6, 0);
     } else {

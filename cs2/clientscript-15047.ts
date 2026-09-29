@@ -4,10 +4,10 @@ function script15047(): void {
         if ((script20898(0) == 1)) {
             return;
         };
-        IF_SETHIDE(false, comp(105, 224));  // stockmarket:offeritem_marketpriceicon ?
+        IF_SETHIDE(false, comp(105, 224));  // stockmarket:search_warning_layer ?
         script11704();
     } else {
-        if ((IF_FIND(comp(105, 225)) == 1)) {  // stockmarket:offertype_icon ?
+        if ((IF_FIND(comp(105, 225)) == 1)) {  // stockmarket:search_input ?
             varclient_6788 = CC_GETTEXT();
         };
         script20892();

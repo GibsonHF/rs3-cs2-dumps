@@ -1,6 +1,6 @@
 //
 function script18123(): void {
-    if ((IF_HASSUBOVERLAY(comp(1477, 745), 1264 as overlayinterface) == 1)) {  // toplevel_v2:npc_chat_holder
+    if ((IF_HASSUBOVERLAY(comp(1477, 745), 1264 as overlayinterface) == 1)) {  // toplevel_v2:modal_window_background
         if ((IF_GETHIDE(comp(1264, 41)) == false)) {  // q4_awareness_2023:info_overlay
             script18399();
         } else {

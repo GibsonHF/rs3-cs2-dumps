@@ -4,8 +4,8 @@ function script5942(): void {
     var int0 = varclient_1787;
     var int1 = varclient_1788;
     if ((script6431() == 1)) {
-        int0 = (IF_GETX(comp(1477, 61)) + 2);  // toplevel_v2:buttons_window
-        int1 = (IF_GETHEIGHT(comp(1477, 61)) / 2);  // toplevel_v2:buttons_window
+        int0 = (IF_GETX(comp(1477, 61)) + 2);  // toplevel_v2:plugin_build_layer_bottom
+        int1 = (IF_GETHEIGHT(comp(1477, 61)) / 2);  // toplevel_v2:plugin_build_layer_bottom
         IF_SETSIZE(52, 52, 0, 0, comp(1252, 19));  // wheel_of_fortune_button:wof_tick
         IF_SETSIZE(22, 22, 1, 1, comp(1252, 21));  // wheel_of_fortune_button:wof_close_button
         IF_SETPOSITION(0, 0, 2, 0, comp(1252, 19));  // wheel_of_fortune_button:wof_tick

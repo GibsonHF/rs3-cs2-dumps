@@ -1,6 +1,6 @@
 //
 function script10442(): void {
-    var int0 = comp(1477, 892);  // toplevel_v2:dropdown_background
+    var int0 = comp(1477, 892);  // toplevel_v2:no_displayname_layer
     switch (IF_GETTOP()) {
         case 906: {
             int0 = comp(906, 159);  // lobbyscreen:dropdown_panel
@@ -11,7 +11,7 @@ function script10442(): void {
             break;
         }
         default: {
-            int0 = comp(1477, 892);  // toplevel_v2:dropdown_background
+            int0 = comp(1477, 892);  // toplevel_v2:no_displayname_layer
             break;
         }
     };

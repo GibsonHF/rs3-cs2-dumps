@@ -9,10 +9,10 @@ function script20898(int0: number): number {
     if (((varplayer_13480 == -1) && (INV_SIZE(890 as inv) == INV_FREESPACE(890 as inv)))) {
         return 0;
     };
-    IF_SETHIDE(true, comp(105, 224));  // stockmarket:offeritem_marketpriceicon ?
-    CC_DELETEALL(comp(105, 229));  // stockmarket:box2 ?
-    CC_DELETEALL(comp(105, 230));  // stockmarket:quantity_info ?
-    IF_SETTEXT("", comp(105, 225));  // stockmarket:offertype_icon ?
+    IF_SETHIDE(true, comp(105, 224));  // stockmarket:search_warning_layer ?
+    CC_DELETEALL(comp(105, 229));  // stockmarket:search_build ?
+    CC_DELETEALL(comp(105, 230));  // stockmarket:search_obj ?
+    IF_SETTEXT("", comp(105, 225));  // stockmarket:search_input ?
     var int1 = 6881509;
     var int2 = 6881510;
     var int3 = 6881502;

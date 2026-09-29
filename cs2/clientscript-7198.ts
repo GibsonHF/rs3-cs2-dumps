@@ -9,13 +9,13 @@ function script7198(): void {
     IF_SETHIDE(false, comp(475, 25));  // machinima_livecamera:exithint
     IF_SETONTIMER(callback(script2870, -2147483645, (CLIENTCLOCK() + 150)), comp(475, 25));  // machinima_livecamera:exithint
     script3455();
-    IF_SETONTIMER(callback(script7940, -2147483645), comp(1477, 39));  // toplevel_v2:camera_controls
+    IF_SETONTIMER(callback(script7940, -2147483645), comp(1477, 39));  // toplevel_v2:machinima_camera
     script12446();
     if ((varbitplayer_27169 == 1)) {
-        IF_SETHIDE(true, comp(1477, 93));  // toplevel_v2:minimap_window_background
-        IF_SETHIDE(true, comp(1477, 68));  // toplevel_v2:action_window_background
-        IF_SETHIDE(true, comp(1477, 62));  // toplevel_v2:buttons_window_background
-        IF_SETHIDE(true, comp(1477, 637));  // toplevel_v2:xp_popup_text_window_content
+        IF_SETHIDE(true, comp(1477, 93));  // toplevel_v2:minimap_window
+        IF_SETHIDE(true, comp(1477, 68));  // toplevel_v2:action_window
+        IF_SETHIDE(true, comp(1477, 62));  // toplevel_v2:buttons_window
+        IF_SETHIDE(true, comp(1477, 637));  // toplevel_v2:statusicons_window_background
     };
     if ((varclient_4667 < 64)) {
         varclient_4667 = (64 + ((1024 - 64) / 2));
@@ -25,6 +25,6 @@ function script7198(): void {
     };
     script8776();
     script8836(7693);
-    IF_SETONVARCTRANSMIT(callback(script3008, COORD(), 4718, 1), comp(1477, 39));  // toplevel_v2:camera_controls
+    IF_SETONVARCTRANSMIT(callback(script3008, COORD(), 4718, 1), comp(1477, 39));  // toplevel_v2:machinima_camera
     return;
 }

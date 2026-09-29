@@ -7,16 +7,16 @@ function script20778(int0: number): void {
     var int2 = true;
     if ((int0 == 1)) {
         if ((varbitplayer_61207 == 0)) {
-            IF_SETONCLICK(callback(script20780, -2147483645), comp(1477, 31));  // toplevel_v2:render_layer
+            IF_SETONCLICK(callback(script20780, -2147483645), comp(1477, 31));  // toplevel_v2:gameview_window_content
             int1 = false;
             int2 = false;
         } else {
-            IF_SETONCLICK(callback(), comp(1477, 31));  // toplevel_v2:render_layer
+            IF_SETONCLICK(callback(), comp(1477, 31));  // toplevel_v2:gameview_window_content
             int2 = true;
             int1 = false;
         };
     } else {
-        IF_SETONCLICK(callback(), comp(1477, 31));  // toplevel_v2:render_layer
+        IF_SETONCLICK(callback(), comp(1477, 31));  // toplevel_v2:gameview_window_content
         if ((varbitplayer_61207 == 1)) {
             int1 = false;
             int2 = true;

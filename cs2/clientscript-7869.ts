@@ -173,11 +173,11 @@ function script7869(int0: number, int1: number, int2: number, int3: number, int4
             break;
         }
         default: {
-            CC_DELETEALL(comp(1420, 98));  // acc_create:items_bg
-            CC_DELETEALL(comp(1420, 99));  // acc_create:items_icon
-            CC_DELETEALL(comp(1420, 100));  // acc_create:items_member
-            CC_DELETEALL(comp(1420, 130));  // acc_create:colours
-            CC_DELETEALL(comp(1420, 101));  // acc_create:menu_scrollbar
+            CC_DELETEALL(comp(1420, 98));  // acc_create:tab_beard
+            CC_DELETEALL(comp(1420, 99));  // acc_create:tab_beard_click
+            CC_DELETEALL(comp(1420, 100));  // acc_create:tab_beard_graphic
+            CC_DELETEALL(comp(1420, 130));  // acc_create:gender_buttons
+            CC_DELETEALL(comp(1420, 101));  // acc_create:icon_beard
             return;
         }
     };
@@ -195,11 +195,11 @@ function script7869(int0: number, int1: number, int2: number, int3: number, int4
     var string1 = "";
     var int32 = 0;
     var int33 = 0;
-    CC_DELETEALL(comp(1420, 98));  // acc_create:items_bg
-    CC_DELETEALL(comp(1420, 99));  // acc_create:items_icon
-    CC_DELETEALL(comp(1420, 100));  // acc_create:items_member
+    CC_DELETEALL(comp(1420, 98));  // acc_create:tab_beard
+    CC_DELETEALL(comp(1420, 99));  // acc_create:tab_beard_click
+    CC_DELETEALL(comp(1420, 100));  // acc_create:tab_beard_graphic
     if ((((int10 != -1 as cs2enum) && (int11 != -1 as cs2enum)) && (int13 != -1))) {
-        int25 = ((IF_GETWIDTH(comp(1420, 97)) - (4 * 86)) / 5);  // acc_create:items_scrolling
+        int25 = ((IF_GETWIDTH(comp(1420, 97)) - (4 * 86)) / 5);  // acc_create:tabs_inner
         int23 = ENUM_GETOUTPUTCOUNT(int10);
         while ((int21 < int23)) {
             int32 = 0;
@@ -224,7 +224,7 @@ function script7869(int0: number, int1: number, int2: number, int3: number, int4
                 int33 = 0;
             };
             script14408(93061218, 651, int30, int31, int21, 0, int33);
-            if ((CC_FIND(comp(1420, 98), int21) == 1)) {  // acc_create:items_bg
+            if ((CC_FIND(comp(1420, 98), int21) == 1)) {  // acc_create:tab_beard
                 CC_SETOP(1, string1);
                 CC_SETONOP(callback(script7860, -2147483644, int27, int13));
                 CC_SETONCLICK(callback());
@@ -239,28 +239,28 @@ function script7869(int0: number, int1: number, int2: number, int3: number, int4
         };
         int24 = (int24 + 86);
     };
-    if ((int24 > IF_GETHEIGHT(comp(1420, 97)))) {  // acc_create:items_scrolling
-        IF_SETSCROLLSIZE(0, int24, comp(1420, 97));  // acc_create:items_scrolling
-        if ((int29 < IF_GETSCROLLY(comp(1420, 97)))) {  // acc_create:items_scrolling
-            IF_SETSCROLLPOS(0, (int29 - 30), comp(1420, 97));  // acc_create:items_scrolling
-        } else if (((int29 + 86) >= (IF_GETSCROLLY(comp(1420, 97)) + IF_GETHEIGHT(comp(1420, 97))))) {  // acc_create:items_scrolling
-            IF_SETSCROLLPOS(0, (((int29 + 86) + 30) - IF_GETHEIGHT(comp(1420, 97))), comp(1420, 97));  // acc_create:items_scrolling
+    if ((int24 > IF_GETHEIGHT(comp(1420, 97)))) {  // acc_create:tabs_inner
+        IF_SETSCROLLSIZE(0, int24, comp(1420, 97));  // acc_create:tabs_inner
+        if ((int29 < IF_GETSCROLLY(comp(1420, 97)))) {  // acc_create:tabs_inner
+            IF_SETSCROLLPOS(0, (int29 - 30), comp(1420, 97));  // acc_create:tabs_inner
+        } else if (((int29 + 86) >= (IF_GETSCROLLY(comp(1420, 97)) + IF_GETHEIGHT(comp(1420, 97))))) {  // acc_create:tabs_inner
+            IF_SETSCROLLPOS(0, (((int29 + 86) + 30) - IF_GETHEIGHT(comp(1420, 97))), comp(1420, 97));  // acc_create:tabs_inner
         };
         script7791(93061221, 93061217);
     } else {
-        IF_SETSCROLLPOS(0, 0, comp(1420, 97));  // acc_create:items_scrolling
-        IF_SETSCROLLSIZE(0, 0, comp(1420, 97));  // acc_create:items_scrolling
-        CC_DELETEALL(comp(1420, 101));  // acc_create:menu_scrollbar
+        IF_SETSCROLLPOS(0, 0, comp(1420, 97));  // acc_create:tabs_inner
+        IF_SETSCROLLSIZE(0, 0, comp(1420, 97));  // acc_create:tabs_inner
+        CC_DELETEALL(comp(1420, 101));  // acc_create:icon_beard
     };
-    CC_DELETEALL(comp(1420, 130));  // acc_create:colours
+    CC_DELETEALL(comp(1420, 130));  // acc_create:gender_buttons
     var int34 = -1;
     int28 = -1;
     int21 = 0;
     var int35 = (45 + 15);
-    var int36 = ((IF_GETWIDTH(comp(1420, 130)) - (5 * 45)) / 2);  // acc_create:colours
+    var int36 = ((IF_GETWIDTH(comp(1420, 130)) - (5 * 45)) / 2);  // acc_create:gender_buttons
     var int37 = ((int35 * 5) - 15);
-    int37 = ((IF_GETWIDTH(comp(1420, 130)) - int37) / 2);  // acc_create:colours
-    var int38 = (IF_GETHEIGHT(comp(1420, 130)) / int35);  // acc_create:colours
+    int37 = ((IF_GETWIDTH(comp(1420, 130)) - int37) / 2);  // acc_create:gender_buttons
+    var int38 = (IF_GETHEIGHT(comp(1420, 130)) / int35);  // acc_create:gender_buttons
     var int39 = 0;
     var int40 = 19;
     var int41 = 0;
@@ -278,11 +278,11 @@ function script7869(int0: number, int1: number, int2: number, int3: number, int4
                             int40 = (int40 + 50);
                         };
                     };
-                    CC_CREATE(comp(1420, 130), 3, (int21 * 2));  // acc_create:colours
+                    CC_CREATE(comp(1420, 130), 3, (int21 * 2));  // acc_create:gender_buttons
                     CC_SETSIZE(45, 45, 0, 0);
                     CC_SETPOSITION((int37 + (MODULO(int21, 5) * int35)), (int40 + 5), 0, 0);
                     CC_SETFILL(1);
-                    CC_CREATE[1](comp(1420, 130), 5, ((int21 * 2) + 1));  // acc_create:colours
+                    CC_CREATE[1](comp(1420, 130), 5, ((int21 * 2) + 1));  // acc_create:gender_buttons
                     CC_SETSIZE[1]((CC_GETWIDTH() + 7), (CC_GETHEIGHT() + 7), 0, 0);
                     CC_SETPOSITION[1]((CC_GETX() - (7 / 2)), (CC_GETY() - (7 / 2)), 0, 0);
                     CC_SETGRAPHIC[1](19663 as graphic);
@@ -329,7 +329,7 @@ function script7869(int0: number, int1: number, int2: number, int3: number, int4
     } else {
         int23 = 0;
     };
-    IF_SETSIZE(0, int41, 1, 0, comp(1420, 127));  // acc_create:colours_sliding
+    IF_SETSIZE(0, int41, 1, 0, comp(1420, 127));  // acc_create:items_icon
     script15575(int28);
     script15576();
     int23 = (int23 * 2);
@@ -339,7 +339,7 @@ function script7869(int0: number, int1: number, int2: number, int3: number, int4
     int23 = (int23 + 1);
     CC_CREATE[1]();
     if ((int28 != -1)) {
-        if ((CC_FIND(comp(1420, 130), int28) == 1)) {  // acc_create:colours
+        if ((CC_FIND(comp(1420, 130), int28) == 1)) {  // acc_create:gender_buttons
             CC_SETSIZE[1]((CC_GETWIDTH() + 0), (CC_GETHEIGHT() + 0), 0, 0);
             CC_SETPOSITION[1]((CC_GETX() - (0 / 2)), (CC_GETY() - (0 / 2)), 0, 0);
             CC_SETGRAPHIC[1](19634 as graphic);

@@ -1,16 +1,16 @@
 //
 function script20604(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number): void {
-    var int6 = comp(1495, 20);  // marketplace_preview:preview_window_border
+    var int6 = comp(1495, 20);  // marketplace_preview:load_preview
     var int7 = 97976339;
     var int8 = comp(1495, 15);  // marketplace_preview:ragdoll_model
     var int9 = comp(1495, 13);  // marketplace_preview:preview_panel_main_layer
     var int10 = comp(1495, 16);  // marketplace_preview:pet_layer
-    var int11 = comp(1495, 17);  // marketplace_preview:preview_anim_layer
-    var int12 = comp(1495, 18);  // marketplace_preview:preview_dragger
+    var int11 = comp(1495, 17);  // marketplace_preview:construction_layer
+    var int12 = comp(1495, 18);  // marketplace_preview:preview_anim_layer
     var int13 = comp(1495, 14);  // marketplace_preview:preview_graphic
-    var int14 = comp(1495, 26);  // marketplace_preview:recolour_button
-    var int15 = comp(1495, 29);  // marketplace_preview:recolour_buttons_background
-    var int16 = comp(1495, 25);  // marketplace_preview:recolour_button_layer
+    var int14 = comp(1495, 26);  // marketplace_preview:recolour_button_layer
+    var int15 = comp(1495, 29);  // marketplace_preview:recolour_panel
+    var int16 = comp(1495, 25);  // marketplace_preview:variant_buttons_layer
     IF_SETONTIMER(callback(), int9);
     IF_SETHIDE(false, int6);
     IF_SETHIDE(true, int8);
@@ -68,7 +68,7 @@ function script20604(int0: number, int1: number, int2: number, int3: number, int
                 IF_SETHIDE(false, int13);
             } else {
                 IF_SETHIDE(true, int9);
-                IF_SETSIZE(0, 0, 1, 1, comp(1495, 37));  // marketplace_preview:spinner_layer
+                IF_SETSIZE(0, 0, 1, 1, comp(1495, 37));  // marketplace_preview:right_panel_holder
             };
             break;
         }
@@ -79,13 +79,13 @@ function script20604(int0: number, int1: number, int2: number, int3: number, int
     };
     if ((int3 == 1)) {
         if ((STRING_LENGTH(string0) > 0)) {
-            IF_SETTEXT(string0, comp(1495, 33));  // marketplace_preview:rotator_button_backwards
-            IF_SETHIDE(false, comp(1495, 33));  // marketplace_preview:rotator_button_backwards
+            IF_SETTEXT(string0, comp(1495, 33));  // marketplace_preview:preview_panel_item_name
+            IF_SETHIDE(false, comp(1495, 33));  // marketplace_preview:preview_panel_item_name
         } else {
-            IF_SETHIDE(true, comp(1495, 33));  // marketplace_preview:rotator_button_backwards
+            IF_SETHIDE(true, comp(1495, 33));  // marketplace_preview:preview_panel_item_name
         };
     } else {
-        IF_SETHIDE(true, comp(1495, 33));  // marketplace_preview:rotator_button_backwards
+        IF_SETHIDE(true, comp(1495, 33));  // marketplace_preview:preview_panel_item_name
     };
     return;
 }

@@ -14,8 +14,8 @@ function script13392(int0: number, int1: number, int2: number, int3: number): vo
     var int9 = 0;
     var int10 = 0;
     [int0, int1, int5, int6, int7, int8, int9, int10] = script13393(int0, int1, int2, int3, int4);
-    IF_SETSIZE((int5 + int8), MAX(int6, int9), 0, 0, comp(1322, 5));  // minimenu:universe_layer ?
-    IF_SETPOSITION(int0, int1, 0, 0, comp(1322, 5));  // minimenu:universe_layer ?
+    IF_SETSIZE((int5 + int8), MAX(int6, int9), 0, 0, comp(1322, 5));  // minimenu:mobile_tooltip ?
+    IF_SETPOSITION(int0, int1, 0, 0, comp(1322, 5));  // minimenu:mobile_tooltip ?
     if ((script13749() == 1)) {
         if ((int3 > 3)) {
             if ((int10 == 0)) {
@@ -77,10 +77,10 @@ function script13392(int0: number, int1: number, int2: number, int3: number): vo
         script13395(int0, int1, int5, int6, int7, int2, int4);
     };
     if ((script13749() == 0)) {
-        IF_SETONMOUSELEAVE(callback(script14227), comp(1322, 2));  // minimenu:pc_mouse_leave_layer ?
-        IF_SETHIDE(false, comp(1322, 2));  // minimenu:pc_mouse_leave_layer ?
-        IF_SETSIZE(((int5 + int8) + (2 * 31)), ((int6 + int9) + (2 * 31)), 0, 0, comp(1322, 2));  // minimenu:pc_mouse_leave_layer ?
-        IF_SETPOSITION((int0 - 31), (int1 - 31), 0, 0, comp(1322, 2));  // minimenu:pc_mouse_leave_layer ?
+        IF_SETONMOUSELEAVE(callback(script14227), comp(1322, 2));  // minimenu:submenu_blocking_layer ?
+        IF_SETHIDE(false, comp(1322, 2));  // minimenu:submenu_blocking_layer ?
+        IF_SETSIZE(((int5 + int8) + (2 * 31)), ((int6 + int9) + (2 * 31)), 0, 0, comp(1322, 2));  // minimenu:submenu_blocking_layer ?
+        IF_SETPOSITION((int0 - 31), (int1 - 31), 0, 0, comp(1322, 2));  // minimenu:submenu_blocking_layer ?
     };
     return;
 }

@@ -1,6 +1,6 @@
 //
 function script12610(): void {
-    if ((IF_FIND(comp(1477, 28)) == 1)) {  // toplevel_v2:gameview_window
+    if ((IF_FIND(comp(1477, 28)) == 1)) {  // toplevel_v2:viewport
         if ((cc_getparam(5769) != -1 as struct)) {
             return;
         };

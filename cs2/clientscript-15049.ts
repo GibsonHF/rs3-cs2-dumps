@@ -6,7 +6,7 @@ function script15049(): void {
         script15054();
         return;
     };
-    IF_SETHIDE(false, comp(105, 224));  // stockmarket:offeritem_marketpriceicon ?
+    IF_SETHIDE(false, comp(105, 224));  // stockmarket:search_warning_layer ?
     script11704();
     return;
 }

@@ -16,7 +16,7 @@ function script14163(): void {
         } else {
             script20393(0, 4);
         };
-    } else if ((IF_HASSUB(comp(1477, 750)) == 1)) {  // toplevel_v2:mes_window_content
+    } else if ((IF_HASSUB(comp(1477, 750)) == 1)) {  // toplevel_v2:side_modal_window_background
         script20393(0, 4);
     } else {
         script20393(0, 4);

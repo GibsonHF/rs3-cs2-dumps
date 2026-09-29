@@ -7,6 +7,6 @@ function script15576(): void {
             break;
         }
     };
-    IF_SETTEXT(string0, comp(1420, 133));  // acc_create:random_text
+    IF_SETTEXT(string0, comp(1420, 133));  // acc_create:female_button
     return;
 }

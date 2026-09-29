@@ -33,7 +33,7 @@ function script7238(int0: number, int1: number, int2: number, int3: number, int4
         if ((int8 < int11)) {
             int8 = MAX(int8, MIN(PARAWIDTH(string0, int9, int6), int9));
         };
-    } else if ((int3 == comp(1322, 7))) {  // minimenu:mobile_tooltip_text ?
+    } else if ((int3 == comp(1322, 7))) {  // minimenu:scroll_bar ?
         int9 = 270;
         int11 = MIN(int11, int9);
         int10 = 0;

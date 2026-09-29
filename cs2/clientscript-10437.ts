@@ -1,6 +1,6 @@
 //
 function script10437(int0: number, int1: number): void {
-    var int2 = comp(1477, 896);  // toplevel_v2:dropdown_list
+    var int2 = comp(1477, 896);  // toplevel_v2:hover_text_listener
     switch (IF_GETTOP()) {
         case 906: {
             int2 = comp(906, 163);  // lobbyscreen:dropdown_highlight
@@ -11,7 +11,7 @@ function script10437(int0: number, int1: number): void {
             break;
         }
         default: {
-            int2 = comp(1477, 896);  // toplevel_v2:dropdown_list
+            int2 = comp(1477, 896);  // toplevel_v2:hover_text_listener
             break;
         }
     };

@@ -27,7 +27,7 @@ function script2595(int0: number): void {
             };
             script8421(57802761, 57802763, 57802762, 57802764, "Graphics Options", 21218, -1, 1, -1, -1);
             if ((int0 == 4)) {
-                IF_SETHIDE(false, comp(1420, 183));  // acc_create:graphics_options
+                IF_SETHIDE(false, comp(1420, 183));  // acc_create:tool_bar_vol_slider_backing_1
             };
             break;
         }

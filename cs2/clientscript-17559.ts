@@ -27,7 +27,7 @@ function script17559(int0: number, int1: number, int2: number): void {
                 break;
             }
             case 2: {
-                IF_SETCOLOUR(int1, comp(1181, 55));  // activity_progress_bar_extension:progress_bar_fill_underlay
+                IF_SETCOLOUR(int1, comp(1181, 55));  // activity_progress_bar_extension:progress_bar_2_fill_rect
                 break;
             }
         };

@@ -12,16 +12,16 @@ function script11054(): void {
         IF_SETMODELANGLE(0, struct_getparam(int0, 3041), 0, 0, 0, struct_getparam(int0, 3040), comp(1591, 2));  // boss_instance:boss_model
     };
     if ((struct_getparam(varplayer_5144, 4827) != -1 as obj)) {
-        IF_SETHIDE(false, comp(1591, 17));  // boss_instance:item_req
-        IF_SETOBJECT(struct_getparam(varplayer_5144, 4827), -1, comp(1591, 6));  // boss_instance:coins_graphic
-        IF_SETTEXT(inttostring(struct_getparam(varplayer_5144, 4828), 10), comp(1591, 7));  // boss_instance:item_text
+        IF_SETHIDE(false, comp(1591, 17));  // boss_instance:playercount_add_button
+        IF_SETOBJECT(struct_getparam(varplayer_5144, 4827), -1, comp(1591, 6));  // boss_instance:info_holder_active
+        IF_SETTEXT(inttostring(struct_getparam(varplayer_5144, 4828), 10), comp(1591, 7));  // boss_instance:hardmode_layer
         if ((INV_TOTAL(93 as inv, struct_getparam(varplayer_5144, 4827)) >= struct_getparam(varplayer_5144, 4828))) {
-            IF_SETCOLOUR(3342130, comp(1591, 7));  // boss_instance:item_text
+            IF_SETCOLOUR(3342130, comp(1591, 7));  // boss_instance:hardmode_layer
         } else {
-            IF_SETCOLOUR(16724530, comp(1591, 7));  // boss_instance:item_text
+            IF_SETCOLOUR(16724530, comp(1591, 7));  // boss_instance:hardmode_layer
         };
     } else {
-        IF_SETHIDE(true, comp(1591, 17));  // boss_instance:item_req
+        IF_SETHIDE(true, comp(1591, 17));  // boss_instance:playercount_add_button
     };
     return;
 }

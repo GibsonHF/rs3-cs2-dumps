@@ -9,6 +9,6 @@ function script8808(): void {
         varclient_2 = 0;
         script7789(25);
     };
-    IF_SETHIDE(true, comp(1477, 913));  // toplevel_v2:client_expire_layer
+    IF_SETHIDE(true, comp(1477, 913));  // toplevel_v2:bespoke_window_border
     return;
 }

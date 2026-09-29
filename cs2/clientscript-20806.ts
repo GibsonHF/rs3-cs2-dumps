@@ -1,6 +1,6 @@
 //
 function script20806(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number, int7: number): void {
-    if ((int2 == comp(1512, 16))) {  // house_furniture_catalogue:items_obj
+    if ((int2 == comp(1512, 16))) {  // house_furniture_catalogue:items_bg
         if ((varbitclient_61226 == 62)) {
             stack(int0);
             script20751(int1, int2, int3, int4, int5, varbitclient_61230, int7, 1);
@@ -22,7 +22,7 @@ function script20806(int0: number, int1: number, int2: number, int3: number, int
                 return;
             };
         };
-        IF_SETHIDE(true, comp(1512, 14));  // house_furniture_catalogue:items_scrolling
+        IF_SETHIDE(true, comp(1512, 14));  // house_furniture_catalogue:items_stairs_toggle
         IF_SETSIZE(16, 0, 1, 1, int0);
         IF_SETSIZE(16, 0, 0, 1, int1);
     };

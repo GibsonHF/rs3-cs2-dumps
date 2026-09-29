@@ -38,7 +38,7 @@ function script10399(int0: number): void {
                     int4 = IF_GETX(int1);
                     int6 = IF_GETWIDTH(int1);
                 };
-                if ((int4 > (IF_GETWIDTH(comp(1477, 28)) - (int4 + int6)))) {  // toplevel_v2:gameview_window
+                if ((int4 > (IF_GETWIDTH(comp(1477, 28)) - (int4 + int6)))) {  // toplevel_v2:viewport
                     int4 = (int4 - IF_GETWIDTH(int2));
                 } else {
                     int4 = (int4 + int6);

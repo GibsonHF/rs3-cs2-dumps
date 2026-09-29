@@ -1,6 +1,6 @@
 //
 function script15979(int0: number, int1: number, int2: number, int3: number): void {
-    if (((IF_GETHIDE(comp(1477, 788)) == false) && (script6354(93847555) == 1))) {  // toplevel_v2:context_menu_content_layer
+    if (((IF_GETHIDE(comp(1477, 788)) == false) && (script6354(93847555) == 1))) {  // toplevel_v2:com_789
         return;
     };
     if (((script15532(0) == 1) || (varbitplayer_27169 == 1))) {
@@ -66,7 +66,7 @@ function script15979(int0: number, int1: number, int2: number, int3: number): vo
     } else {
         return;
     };
-    IF_OPENSUBCLIENT(comp(1477, 789), 1432);  // toplevel_v2:yak_track
+    IF_OPENSUBCLIENT(comp(1477, 789), 1432);  // toplevel_v2:com_790
     script8421(93847553, 93847555, 93847554, -1, "", 21259, -1, 0, -1, 38884);
     if ((IF_FIND(comp(1432, 4)) == 1)) {  // toplevel_v2_parents_quickchildren:quickchild
         cc_setparam(3642, int4);

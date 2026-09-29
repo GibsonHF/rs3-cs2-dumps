@@ -7,7 +7,7 @@ function script10440(int0: number, int1: number, int2: number, int3: number, int
         script10444();
         return -1;
     };
-    var int7 = comp(1477, 892);  // toplevel_v2:dropdown_background
+    var int7 = comp(1477, 892);  // toplevel_v2:no_displayname_layer
     switch (IF_GETTOP()) {
         case 906: {
             int7 = comp(906, 159);  // lobbyscreen:dropdown_panel
@@ -18,7 +18,7 @@ function script10440(int0: number, int1: number, int2: number, int3: number, int
             break;
         }
         default: {
-            int7 = comp(1477, 892);  // toplevel_v2:dropdown_background
+            int7 = comp(1477, 892);  // toplevel_v2:no_displayname_layer
             break;
         }
     };

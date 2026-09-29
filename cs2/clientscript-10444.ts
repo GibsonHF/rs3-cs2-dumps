@@ -1,7 +1,7 @@
 //
 function script10444(): void {
-    var int0 = comp(1477, 892);  // toplevel_v2:dropdown_background
-    var int1 = comp(1477, 897);  // toplevel_v2:dropdown_build
+    var int0 = comp(1477, 892);  // toplevel_v2:no_displayname_layer
+    var int1 = comp(1477, 897);  // toplevel_v2:optext_bubble
     switch (IF_GETTOP()) {
         case 906: {
             int0 = comp(906, 159);  // lobbyscreen:dropdown_panel
@@ -14,8 +14,8 @@ function script10444(): void {
             break;
         }
         default: {
-            int0 = comp(1477, 892);  // toplevel_v2:dropdown_background
-            int1 = comp(1477, 897);  // toplevel_v2:dropdown_build
+            int0 = comp(1477, 892);  // toplevel_v2:no_displayname_layer
+            int1 = comp(1477, 897);  // toplevel_v2:optext_bubble
             break;
         }
     };

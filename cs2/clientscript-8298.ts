@@ -5,7 +5,7 @@ function script8298(): void {
     };
     if (((MAP_LOADINGSCREEN_ISOPEN() == 1) && (varclient_6564 <= CLIENTCLOCK()))) {
         varclient_6344 = 0;
-        IF_SETONTIMER(callback(script13879), comp(1477, 922));  // toplevel_v2:minimenu_layer
+        IF_SETONTIMER(callback(script13879), comp(1477, 922));  // toplevel_v2:tooltips_param_layer
     };
     if (((varclient_6564 != 0) && (varclient_6564 < CLIENTCLOCK()))) {
         varclient_6564 = 0;

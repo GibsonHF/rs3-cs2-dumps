@@ -2,43 +2,43 @@
 function script1271(int0: number): void {
     switch (varbitplayer_446) {
         case 0: {
-            IF_SETTEXT("First click the FIRST digit.", comp(13, 11));  // bankpin_main:6
-            IF_SETTEXT("?", comp(13, 12));  // bankpin_main:7
-            IF_SETTEXT("?", comp(13, 13));  // bankpin_main:8
-            IF_SETTEXT("?", comp(13, 14));  // bankpin_main:9
-            IF_SETTEXT("?", comp(13, 15));  // bankpin_main:com_15
+            IF_SETTEXT("First click the FIRST digit.", comp(13, 11));  // bankpin_main:next_digit_instruction
+            IF_SETTEXT("?", comp(13, 12));  // bankpin_main:digit_1
+            IF_SETTEXT("?", comp(13, 13));  // bankpin_main:digit_2
+            IF_SETTEXT("?", comp(13, 14));  // bankpin_main:digit_3
+            IF_SETTEXT("?", comp(13, 15));  // bankpin_main:digit_4
             break;
         }
         case 1: {
-            IF_SETTEXT("Now click the SECOND digit.", comp(13, 11));  // bankpin_main:6
-            IF_SETTEXT("*", comp(13, 12));  // bankpin_main:7
-            IF_SETTEXT("?", comp(13, 13));  // bankpin_main:8
-            IF_SETTEXT("?", comp(13, 14));  // bankpin_main:9
-            IF_SETTEXT("?", comp(13, 15));  // bankpin_main:com_15
+            IF_SETTEXT("Now click the SECOND digit.", comp(13, 11));  // bankpin_main:next_digit_instruction
+            IF_SETTEXT("*", comp(13, 12));  // bankpin_main:digit_1
+            IF_SETTEXT("?", comp(13, 13));  // bankpin_main:digit_2
+            IF_SETTEXT("?", comp(13, 14));  // bankpin_main:digit_3
+            IF_SETTEXT("?", comp(13, 15));  // bankpin_main:digit_4
             break;
         }
         case 2: {
-            IF_SETTEXT("Time for the THIRD digit.", comp(13, 11));  // bankpin_main:6
-            IF_SETTEXT("*", comp(13, 12));  // bankpin_main:7
-            IF_SETTEXT("*", comp(13, 13));  // bankpin_main:8
-            IF_SETTEXT("?", comp(13, 14));  // bankpin_main:9
-            IF_SETTEXT("?", comp(13, 15));  // bankpin_main:com_15
+            IF_SETTEXT("Time for the THIRD digit.", comp(13, 11));  // bankpin_main:next_digit_instruction
+            IF_SETTEXT("*", comp(13, 12));  // bankpin_main:digit_1
+            IF_SETTEXT("*", comp(13, 13));  // bankpin_main:digit_2
+            IF_SETTEXT("?", comp(13, 14));  // bankpin_main:digit_3
+            IF_SETTEXT("?", comp(13, 15));  // bankpin_main:digit_4
             break;
         }
         case 3: {
-            IF_SETTEXT("Finally, the FOURTH digit.", comp(13, 11));  // bankpin_main:6
-            IF_SETTEXT("*", comp(13, 12));  // bankpin_main:7
-            IF_SETTEXT("*", comp(13, 13));  // bankpin_main:8
-            IF_SETTEXT("*", comp(13, 14));  // bankpin_main:9
-            IF_SETTEXT("?", comp(13, 15));  // bankpin_main:com_15
+            IF_SETTEXT("Finally, the FOURTH digit.", comp(13, 11));  // bankpin_main:next_digit_instruction
+            IF_SETTEXT("*", comp(13, 12));  // bankpin_main:digit_1
+            IF_SETTEXT("*", comp(13, 13));  // bankpin_main:digit_2
+            IF_SETTEXT("*", comp(13, 14));  // bankpin_main:digit_3
+            IF_SETTEXT("?", comp(13, 15));  // bankpin_main:digit_4
             break;
         }
         case 4: {
-            IF_SETTEXT("Please wait...", comp(13, 11));  // bankpin_main:6
-            IF_SETTEXT("*", comp(13, 12));  // bankpin_main:7
-            IF_SETTEXT("*", comp(13, 13));  // bankpin_main:8
-            IF_SETTEXT("*", comp(13, 14));  // bankpin_main:9
-            IF_SETTEXT("*", comp(13, 15));  // bankpin_main:com_15
+            IF_SETTEXT("Please wait...", comp(13, 11));  // bankpin_main:next_digit_instruction
+            IF_SETTEXT("*", comp(13, 12));  // bankpin_main:digit_1
+            IF_SETTEXT("*", comp(13, 13));  // bankpin_main:digit_2
+            IF_SETTEXT("*", comp(13, 14));  // bankpin_main:digit_3
+            IF_SETTEXT("*", comp(13, 15));  // bankpin_main:digit_4
             IF_RESUME_PAUSEBUTTON(851972);
             return;
         }
@@ -49,11 +49,11 @@ function script1271(int0: number): void {
             break;
         }
         default: {
-            IF_SETTEXT("Please wait...", comp(13, 11));  // bankpin_main:6
-            IF_SETTEXT("*", comp(13, 12));  // bankpin_main:7
-            IF_SETTEXT("*", comp(13, 13));  // bankpin_main:8
-            IF_SETTEXT("*", comp(13, 14));  // bankpin_main:9
-            IF_SETTEXT("*", comp(13, 15));  // bankpin_main:com_15
+            IF_SETTEXT("Please wait...", comp(13, 11));  // bankpin_main:next_digit_instruction
+            IF_SETTEXT("*", comp(13, 12));  // bankpin_main:digit_1
+            IF_SETTEXT("*", comp(13, 13));  // bankpin_main:digit_2
+            IF_SETTEXT("*", comp(13, 14));  // bankpin_main:digit_3
+            IF_SETTEXT("*", comp(13, 15));  // bankpin_main:digit_4
             break;
         }
     };
@@ -84,8 +84,8 @@ function script1271(int0: number): void {
     };
     var int4 = 64;
     var int5 = 64;
-    var int6 = ((IF_GETWIDTH(comp(13, 5)) - int4) / 3);  // bankpin_main:0
-    var int7 = ((IF_GETHEIGHT(comp(13, 5)) - int5) / 2);  // bankpin_main:0
+    var int6 = ((IF_GETWIDTH(comp(13, 5)) - int4) / 3);  // bankpin_main:numberbuttons
+    var int7 = ((IF_GETHEIGHT(comp(13, 5)) - int5) / 2);  // bankpin_main:numberbuttons
     var int8 = (int6 * 2);
     var int9 = (int7 * 2);
     var int10 = (int6 * 3);

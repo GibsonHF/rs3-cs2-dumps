@@ -934,7 +934,7 @@ function script13776(int0: number, int1: number, int2: number, int3: number): nu
         };
     };
     var int24 = 0;
-    if ((int2 == comp(1477, 889))) {  // toplevel_v2:examine_bubble
+    if ((int2 == comp(1477, 889))) {  // toplevel_v2:warning_overlays
         int24 = (10 + (16 / 4));
     };
     if ((int12 > 0)) {

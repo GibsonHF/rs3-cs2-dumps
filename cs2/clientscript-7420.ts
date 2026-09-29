@@ -51,27 +51,27 @@ function script7420(int0: number, int1: number, int2: number, int3: number, int4
         IF_SETHIDE(true, comp(1587, 3));  // whop:switch_mode
         IF_SETONBUTTONCLICK(callback(), 104005636);
         IF_SETONBUTTONCLICK(callback(), 104005638);
-        IF_SETPOSITION(0, 0, 0, 0, comp(1587, 16));  // whop:title_favourite_seperator
-        IF_SETSIZE(0, 0, 1, 1, comp(1587, 16));  // whop:title_favourite_seperator
+        IF_SETPOSITION(0, 0, 0, 0, comp(1587, 16));  // whop:static_panel
+        IF_SETSIZE(0, 0, 1, 1, comp(1587, 16));  // whop:static_panel
     } else {
         int23 = (int23 + 40);
-        IF_SETPOSITION(0, 40, 0, 0, comp(1587, 16));  // whop:title_favourite_seperator
-        IF_SETSIZE(0, 40, 1, 1, comp(1587, 16));  // whop:title_favourite_seperator
+        IF_SETPOSITION(0, 40, 0, 0, comp(1587, 16));  // whop:static_panel
+        IF_SETSIZE(0, 40, 1, 1, comp(1587, 16));  // whop:static_panel
         IF_SETHIDE(false, comp(1587, 3));  // whop:switch_mode
         IF_SETONBUTTONCLICK(callback(script20340, int0, int1, int2, int3, int4, int5, int6, int7), 104005636);
         IF_SETONBUTTONCLICK(callback(script20341, int0, int1, int2, int3, int4, int5, int6, int7), 104005638);
         script20342();
     };
-    IF_SETCOLOUR(0, comp(1587, 20));  // whop:button_sort_world
-    IF_SETCOLOUR(0, comp(1587, 28));  // whop:com_28
-    IF_SETCOLOUR(0, comp(1587, 36));  // whop:com_36
-    IF_SETCOLOUR(0, comp(1587, 44));  // whop:com_44
-    IF_SETCOLOUR(0, comp(1587, 52));  // whop:com_52
-    IF_SETCOLOUR(0, comp(1587, 60));  // whop:com_60
-    IF_SETCOLOUR(0, comp(1587, 68));  // whop:refresh_build
-    IF_SETCOLOUR(16777215, comp(1587, 18));  // whop:title_world_container
-    IF_SETCOLOUR(16777215, comp(1587, 11));  // whop:scrollbar
-    IF_SETCOLOUR(16777215, comp(1587, 69));  // whop:refresh_click
+    IF_SETCOLOUR(0, comp(1587, 20));  // whop:title_favourite_seperator
+    IF_SETCOLOUR(0, comp(1587, 28));  // whop:title_world_seperator
+    IF_SETCOLOUR(0, comp(1587, 36));  // whop:title_players_seperator
+    IF_SETCOLOUR(0, comp(1587, 44));  // whop:title_activity_seperator
+    IF_SETCOLOUR(0, comp(1587, 52));  // whop:title_location_seperator
+    IF_SETCOLOUR(0, comp(1587, 60));  // whop:title_type_seperator
+    IF_SETCOLOUR(0, comp(1587, 68));  // whop:title_loot_seperator
+    IF_SETCOLOUR(16777215, comp(1587, 18));  // whop:title_seperator
+    IF_SETCOLOUR(16777215, comp(1587, 11));  // whop:title_seperator_1
+    IF_SETCOLOUR(16777215, comp(1587, 69));  // whop:footer_seperator
     IF_SETPOSITION(0, int23, 0, 0, int4);
     IF_SETSIZE(IF_GETWIDTH(int4), int24, 0, 0, int4);
     IF_SETSIZE(int17, ((35 + int24) + int23), 0, 1, int0);

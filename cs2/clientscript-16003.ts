@@ -12,7 +12,7 @@ function script16003(int0: number): void {
     } else if (((int0 == 0) && (varbitclient_34074 == 1))) {
         script7013(1, 1);
     };
-    if ((IF_FIND(comp(1477, 72)) == 1)) {  // toplevel_v2:action_window_2
+    if ((IF_FIND(comp(1477, 72)) == 1)) {  // toplevel_v2:action_window_settings_button
         script8133(96796744);
     };
     return;

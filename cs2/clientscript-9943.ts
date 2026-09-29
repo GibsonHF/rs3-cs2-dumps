@@ -15,10 +15,10 @@ function script9943(): void {
     var int12 = 0;
     var int13 = 0;
     var int14 = IF_GETHIDE(struct_getparam(37398, 3503));
-    if ((IF_GETWIDTH(comp(1477, 27)) <= (552 + script19630(0)))) {  // toplevel_v2:viewport
+    if ((IF_GETWIDTH(comp(1477, 27)) <= (552 + script19630(0)))) {  // toplevel_v2:background_colour
         int8 = 1;
     };
-    if ((IF_GETWIDTH(comp(1477, 27)) <= ((552 * 2) + script19630(0)))) {  // toplevel_v2:viewport
+    if ((IF_GETWIDTH(comp(1477, 27)) <= ((552 * 2) + script19630(0)))) {  // toplevel_v2:background_colour
         int9 = 1;
     };
     [int11, int12] = script9950();
@@ -52,7 +52,7 @@ function script9943(): void {
                                 IF_SETPOSITION((int11 + 210), int12, 2, 2, struct_getparam(int1, 3503));
                                 IF_SETSIZE((script19630(int8) - 210), 315, 0, 0, struct_getparam(int1, 3503));
                             } else {
-                                int6 = (((IF_GETHEIGHT(comp(1477, 27)) - 275) - 315) - int12);  // toplevel_v2:viewport
+                                int6 = (((IF_GETHEIGHT(comp(1477, 27)) - 275) - 315) - int12);  // toplevel_v2:background_colour
                                 if ((int6 >= 315)) {
                                     IF_SETPOSITION(int11, ((int12 + 315) + ((int6 - 315) / 2)), 2, 2, struct_getparam(int1, 3503));
                                     IF_SETSIZE(script19630(int8), 315, 0, 0, struct_getparam(int1, 3503));
