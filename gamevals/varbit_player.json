@@ -1,6 +1,6 @@
 {
   "revision": 950,
-  "date": "2026-09-29",
+  "date": "2026-10-06",
   "entries": {
     "0": "zaros_spellbook",
     "1": "popup_kerapac_dnd_shown",
@@ -410,6 +410,7 @@
     "406": "artisan_select_reward",
     "407": "artisan_aksel_appear",
     "408": "artisan_perfect_sword",
+    "409": "plugin_ribbon_position",
     "410": "masterwork_set_effect_buff_icon",
     "411": "artisan_show_grid",
     "412": "artisan_pos_1_on",
@@ -1625,6 +1626,7 @@
     "1665": "pvpwild_logout_timer_task",
     "1666": "pvpwild_test_enable",
     "1667": "hpx10_initiallogin",
+    "1668": "mtx54_bank_space_unlocked15_a",
     "1669": "gravestone_type",
     "1670": "gravestone_transmit",
     "1671": "godwars_remove_crossbow",

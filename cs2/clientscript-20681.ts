@@ -1,12 +1,12 @@
 //
 function script20681(int0: number, int1: number): [number, number, number, string] {
-    if ((int0 == -1)) {
-        return ["", -1, -1, -1];
+    if ((MODULO(CLIENTCLOCK(), 50) != 0)) {
+        return;
     };
-    var string0 = "";
-    var int2 = -1;
-    var int3 = -1;
-    var int4 = -1;
-    [string0, int2, int3, int4] = dbrow_getfield(int0, 1441984, int1);
-    return [string0, int2, int3, int4];
+    if ((CC_FINDBYCATEGORY(comp(1498, 2), int0, int1) == 1)) {  // marketplace_store:items_holder
+        stack(int2);
+        stack(string0);
+        CC_SETTEXT(script20682(string1));
+    };
+    return;
 }

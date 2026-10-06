@@ -17279,7 +17279,7 @@
 			"quest_release_year": 2026, // 7834
 			"quest_series": 41, // 7836
 			"quest_series_number": 4, // 7837 chisel:quest_nth_in_series
-			"quest_length": 4, // 7855
+			"quest_length": 7, // 7855
 			"quest_start_location": 59 // 9393
 		},
 		"id": 533,

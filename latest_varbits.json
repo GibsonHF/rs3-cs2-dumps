@@ -3277,7 +3277,7 @@
     "lsb": 0,
     "msb": 3,
     "wiki_sync": false,
-    "id": "409"
+    "id": "409 [plugin_ribbon_position]"
   },
   {
     "domain": "PLAYER",
@@ -13349,7 +13349,7 @@
     "lsb": 15,
     "msb": 22,
     "wiki_sync": false,
-    "id": "1668"
+    "id": "1668 [mtx54_bank_space_unlocked15_a]"
   },
   {
     "domain": "PLAYER",
@@ -497166,5 +497166,133 @@
     "msb": 15,
     "wiki_sync": false,
     "id": "62145"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "13652 [combatv2_greater_chain_child_player_uid_8]",
+    "lsb": 10,
+    "msb": 10,
+    "wiki_sync": false,
+    "id": "62146"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "13652 [combatv2_greater_chain_child_player_uid_8]",
+    "lsb": 11,
+    "msb": 11,
+    "wiki_sync": false,
+    "id": "62147"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "13652 [combatv2_greater_chain_child_player_uid_8]",
+    "lsb": 12,
+    "msb": 12,
+    "wiki_sync": false,
+    "id": "62148"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "13652 [combatv2_greater_chain_child_player_uid_8]",
+    "lsb": 13,
+    "msb": 13,
+    "wiki_sync": false,
+    "id": "62149"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "13652 [combatv2_greater_chain_child_player_uid_8]",
+    "lsb": 14,
+    "msb": 14,
+    "wiki_sync": false,
+    "id": "62150"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "13652 [combatv2_greater_chain_child_player_uid_8]",
+    "lsb": 15,
+    "msb": 15,
+    "wiki_sync": false,
+    "id": "62151"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "13652 [combatv2_greater_chain_child_player_uid_8]",
+    "lsb": 16,
+    "msb": 16,
+    "wiki_sync": false,
+    "id": "62152"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "13652 [combatv2_greater_chain_child_player_uid_8]",
+    "lsb": 17,
+    "msb": 17,
+    "wiki_sync": false,
+    "id": "62153"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "13652 [combatv2_greater_chain_child_player_uid_8]",
+    "lsb": 18,
+    "msb": 18,
+    "wiki_sync": false,
+    "id": "62154"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "13652 [combatv2_greater_chain_child_player_uid_8]",
+    "lsb": 19,
+    "msb": 19,
+    "wiki_sync": false,
+    "id": "62155"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "13652 [combatv2_greater_chain_child_player_uid_8]",
+    "lsb": 20,
+    "msb": 20,
+    "wiki_sync": false,
+    "id": "62156"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "13652 [combatv2_greater_chain_child_player_uid_8]",
+    "lsb": 21,
+    "msb": 21,
+    "wiki_sync": false,
+    "id": "62157"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "13652 [combatv2_greater_chain_child_player_uid_8]",
+    "lsb": 23,
+    "msb": 23,
+    "wiki_sync": false,
+    "id": "62160"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "13652 [combatv2_greater_chain_child_player_uid_8]",
+    "lsb": 24,
+    "msb": 24,
+    "wiki_sync": false,
+    "id": "62161"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "13652 [combatv2_greater_chain_child_player_uid_8]",
+    "lsb": 25,
+    "msb": 25,
+    "wiki_sync": false,
+    "id": "62162"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "13652 [combatv2_greater_chain_child_player_uid_8]",
+    "lsb": 22,
+    "msb": 22,
+    "wiki_sync": false,
+    "id": "62163"
   }
 ]

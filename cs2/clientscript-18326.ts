@@ -1,6 +1,6 @@
 //
 function script18326(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number): void {
-    var int7 = IF_GETWIDTH(script18321(int0, 76742668));
+    var int7 = IF_GETWIDTH(script18321(int0, 76742669));
     var int8 = 0;
     var int9 = 0;
     var int10 = 0;

@@ -40,7 +40,10 @@ function script1271(int0: number): void {
             IF_SETTEXT("*", comp(13, 14));  // bankpin_main:digit_3
             IF_SETTEXT("*", comp(13, 15));  // bankpin_main:digit_4
             IF_RESUME_PAUSEBUTTON(851972);
-            return;
+            if ((varbitplayer_449 != 0)) {
+                return;
+            };
+            break;
         }
         case 5: {
             if ((int0 == 0)) {

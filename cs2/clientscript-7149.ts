@@ -137,6 +137,24 @@ function script7149(int0: number): number {
             };
             return 1;
         }
+        case 20242: {
+            if ((((((varbitplayer_62151 == 1) || (varbitplayer_62152 == 1)) || (varbitplayer_62153 == 1)) || (varbitplayer_62154 == 1)) || (varbitplayer_62155 == 1))) {
+                return 0;
+            };
+            return 1;
+        }
+        case 20241: {
+            if (((((((varbitplayer_62156 == 1) || (varbitplayer_62157 == 1)) || (varbitplayer_62163 == 1)) || (varbitplayer_62160 == 1)) || (varbitplayer_62161 == 1)) || (varbitplayer_62162 == 1))) {
+                return 0;
+            };
+            return 1;
+        }
+        case 20243: {
+            if ((((((((varbitplayer_62149 == 1) || (varbitplayer_62147 == 1)) || (varbitplayer_62151 == 1)) || (varbitplayer_62152 == 1)) || (varbitplayer_62153 == 1)) || (varbitplayer_62154 == 1)) || (varbitplayer_62155 == 1))) {
+                return 0;
+            };
+            return 1;
+        }
     };
     return 1;
 }

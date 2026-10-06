@@ -1,11 +1,9 @@
 //
 function script20683(int0: number, int1: number): [number, number, string] {
-    if ((int0 == -1)) {
-        return [-1, -1, "null"];
+    script1271(1);
+    if ((varbitplayer_47566 == 1)) {
+        script8841(110, 1);
+        stack(script20671(1));
     };
-    var int2 = -1;
-    var int3 = -1;
-    var string0 = "";
-    [int2, int3, string0] = dbrow_getfield(int0, 1442000, int1);
-    return [int2, int3, string0];
+    return;
 }

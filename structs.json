@@ -8553,12 +8553,12 @@
 			"mtxmgt_preview_spotanim_model": 135056, // 2537
 			"mtxmgt_preview_spotanim_2": 36385, // 2538
 			"mtxmgt_preview_spotanim_model_2": 135059, // 2539
-			"mtxmgt_source": 14, // 2546
+			"mtxmgt_source": 1, // 2546
 			"mtxmgt_anim_preview_player_on_top": 0, // 3363
+			"mtxmgt_pos_string": "rs:spells:batnado_teleport", // 4592
 			"release_date": 8308, // 4742 chisel:th_available_date
-			"withdraw_date": 8312, // 4743 chisel:available_till
 			"mtxmgt_parent_id": 1974, // 4744
-			"mtxmgt_source_custom": "This cosmetic can be unlocked as part of the 'Potion Pandemonium' Treasure Hunter promotion." // 4751 chisel:cosmetic_unlock_hint
+			"mtxmgt_source_custom": "This cosmetic can be obtained from the Marketplace, or by purchasing from other players." // 4751 chisel:cosmetic_unlock_hint
 		},
 		"id": 913
 	},
@@ -8567,13 +8567,12 @@
 			"mtxmgt_category": 2, // 2531 chisel:solomons_category
 			"mtxmgt_subcat": 0, // 2532 chisel:SGS_sub_group
 			"mtxmgt_name": "Shrouded Veil", // 2533 chisel:SGS_name
-			"mtxmgt_source": 14, // 2546
+			"mtxmgt_source": 1, // 2546
+			"mtxmgt_pos_string": "rs:accessories:shrouded_veil", // 4592
 			"release_date": 8308, // 4742 chisel:th_available_date
-			"withdraw_date": 8312, // 4743 chisel:available_till
 			"mtxmgt_parent_id": 1975, // 4744
-			"mtxmgt_source_custom": "This cosmetic can be unlocked as part of the 'Potion Pandemonium' Treasure Hunter promotion.", // 4751 chisel:cosmetic_unlock_hint
-			"original_release_date": 8308, // 6628
-			"mtx_positional_data": 6534 // 8680
+			"mtxmgt_source_custom": "This cosmetic can be obtained from the Marketplace, or by purchasing from other players.", // 4751 chisel:cosmetic_unlock_hint
+			"original_release_date": 8308 // 6628
 		},
 		"id": 914
 	},
@@ -8582,11 +8581,10 @@
 			"mtxmgt_category": 2, // 2531 chisel:solomons_category
 			"mtxmgt_subcat": 0, // 2532 chisel:SGS_sub_group
 			"mtxmgt_name": "Shrouded Veil (Covered)", // 2533 chisel:SGS_name
-			"mtxmgt_source": 14, // 2546
+			"mtxmgt_source": 1, // 2546
 			"release_date": 8308, // 4742 chisel:th_available_date
-			"withdraw_date": 8312, // 4743 chisel:available_till
 			"mtxmgt_parent_id": 1975, // 4744
-			"mtxmgt_source_custom": "This cosmetic can be unlocked as part of the 'Potion Pandemonium' Treasure Hunter promotion.", // 4751 chisel:cosmetic_unlock_hint
+			"mtxmgt_source_custom": "This cosmetic can be obtained from the Marketplace, or by purchasing from other players.", // 4751 chisel:cosmetic_unlock_hint
 			"original_release_date": 8308, // 6628
 			"mtx_positional_data": 6534 // 8680
 		},
@@ -8597,13 +8595,12 @@
 			"mtxmgt_category": 2, // 2531 chisel:solomons_category
 			"mtxmgt_subcat": 0, // 2532 chisel:SGS_sub_group
 			"mtxmgt_name": "Faded Veil", // 2533 chisel:SGS_name
-			"mtxmgt_source": 14, // 2546
+			"mtxmgt_source": 1, // 2546
+			"mtxmgt_pos_string": "rs:accessories:faded_veil", // 4592
 			"release_date": 8308, // 4742 chisel:th_available_date
-			"withdraw_date": 8312, // 4743 chisel:available_till
 			"mtxmgt_parent_id": 1976, // 4744
-			"mtxmgt_source_custom": "This cosmetic can be unlocked as part of the 'Potion Pandemonium' Treasure Hunter promotion.", // 4751 chisel:cosmetic_unlock_hint
-			"original_release_date": 8308, // 6628
-			"mtx_positional_data": 6534 // 8680
+			"mtxmgt_source_custom": "This cosmetic can be obtained from the Marketplace, or by purchasing from other players.", // 4751 chisel:cosmetic_unlock_hint
+			"original_release_date": 8308 // 6628
 		},
 		"id": 916
 	},
@@ -8612,12 +8609,10 @@
 			"mtxmgt_category": 2, // 2531 chisel:solomons_category
 			"mtxmgt_subcat": 0, // 2532 chisel:SGS_sub_group
 			"mtxmgt_name": "Faded Veil (Covered)", // 2533 chisel:SGS_name
-			"mtxmgt_source": 14, // 2546
+			"mtxmgt_source": 1, // 2546
 			"release_date": 8308, // 4742 chisel:th_available_date
-			"withdraw_date": 8312, // 4743 chisel:available_till
 			"mtxmgt_parent_id": 1976, // 4744
-			"mtxmgt_source_custom": "This cosmetic can be unlocked as part of the 'Potion Pandemonium' Treasure Hunter promotion.", // 4751 chisel:cosmetic_unlock_hint
-			"original_release_date": 8308, // 6628
+			"mtxmgt_source_custom": "This cosmetic can be obtained from the Marketplace, or by purchasing from other players.", // 4751 chisel:cosmetic_unlock_hint
 			"mtx_positional_data": 6534 // 8680
 		},
 		"id": 917
@@ -46344,7 +46339,7 @@
 		"extra": {
 			"mtxmgt_category": 7, // 2531 chisel:solomons_category
 			"mtxmgt_name": "Rose trellis archway", // 2533 chisel:SGS_name
-			"mtxmgt_interface_positioning": 13501, // 9254
+			"mtxmgt_interface_positioning": 20268, // 9254
 			"league_locality": 19962 // 9457
 		},
 		"id": 3643
@@ -46353,7 +46348,7 @@
 		"extra": {
 			"mtxmgt_category": 7, // 2531 chisel:solomons_category
 			"mtxmgt_name": "Rose trellis archway", // 2533 chisel:SGS_name
-			"mtxmgt_interface_positioning": 18100, // 9254
+			"mtxmgt_interface_positioning": 20269, // 9254
 			"league_locality": 19965 // 9457
 		},
 		"id": 3644
@@ -46362,7 +46357,7 @@
 		"extra": {
 			"mtxmgt_category": 7, // 2531 chisel:solomons_category
 			"mtxmgt_name": "Poison ivy trellis archway", // 2533 chisel:SGS_name
-			"mtxmgt_interface_positioning": 13501, // 9254
+			"mtxmgt_interface_positioning": 20268, // 9254
 			"league_locality": 19963 // 9457
 		},
 		"id": 3645
@@ -46371,7 +46366,7 @@
 		"extra": {
 			"mtxmgt_category": 7, // 2531 chisel:solomons_category
 			"mtxmgt_name": "Poison ivy trellis archway", // 2533 chisel:SGS_name
-			"mtxmgt_interface_positioning": 18100, // 9254
+			"mtxmgt_interface_positioning": 20269, // 9254
 			"league_locality": 19966 // 9457
 		},
 		"id": 3646
@@ -291226,11 +291221,12 @@
 			"mtxmgt_subcat": 5, // 2532 chisel:SGS_sub_group
 			"mtxmgt_name": "Zombie Walk", // 2533 chisel:SGS_name
 			"mtxmgt_preview_anim": 29588, // 2535
-			"mtxmgt_source": 14, // 2546
+			"mtxmgt_source": 1, // 2546
 			"combatv2_casual_bas": 3903, // 2954
+			"mtxmgt_pos_string": "rs:walks:zombie", // 4592
 			"release_date": 5356, // 4742 chisel:th_available_date
-			"withdraw_date": 5374, // 4743 chisel:available_till
 			"mtxmgt_parent_id": 173, // 4744
+			"mtxmgt_source_custom": "This cosmetic can be obtained from the Marketplace, or by purchasing from other players.", // 4751 chisel:cosmetic_unlock_hint
 			"mtxmgt_walk_override_id": 9 // 5249
 		},
 		"id": 34872
@@ -424592,13 +424588,16 @@
 			"mtxmgt_subcat": 2, // 2532 chisel:SGS_sub_group
 			"mtxmgt_name": "Taboo", // 2533 chisel:SGS_name
 			"mtxmgt_preview_y_offset": 55, // 2541
-			"mtxmgt_source": 14, // 2546
+			"mtxmgt_source": 1, // 2546
+			"mtx_front_end_confirm_pet_offset_y": 175, // 2997 chisel:potion_effect_unk1
 			"mtxmgt_renameable": 0, // 4420
+			"mtxmgt_pos_string": "rs:companions:taboo", // 4592
 			"release_date": 7533, // 4742 chisel:th_available_date
 			"mtxmgt_parent_id": 1382, // 4744
-			"mtxmgt_source_custom": "This customisation can be obtained from tokens available on the Grand Exchange.", // 4751 chisel:cosmetic_unlock_hint
+			"mtxmgt_source_custom": "This cosmetic can be obtained from the Marketplace, or by purchasing from other players.", // 4751 chisel:cosmetic_unlock_hint
 			"original_release_date": 7533, // 6628
-			"mtxmgt_pet_info": 46478 // 8226
+			"mtxmgt_pet_info": 46478, // 8226
+			"mtxmgt_interface_positioning": 20274 // 9254
 		},
 		"id": 46477
 	},
@@ -455716,14 +455715,14 @@
 			"mtxmgt_name": "Lucille", // 2533 chisel:SGS_name
 			"mtxmgt_preview_zoom_offset": -150, // 2540
 			"mtxmgt_preview_y_offset": 200, // 2541
-			"mtxmgt_source": 14, // 2546
+			"mtxmgt_source": 1, // 2546
+			"mtx_front_end_confirm_pet_offset_y": 175, // 2997 chisel:potion_effect_unk1
 			"mtxmgt_renameable": 0, // 4420
+			"mtxmgt_pos_string": "rs:companions:lucille", // 4592
 			"release_date": 7939, // 4742 chisel:th_available_date
-			"withdraw_date": 7943, // 4743 chisel:available_till
 			"mtxmgt_parent_id": 1708, // 4744
-			"mtxmgt_source_custom": "This pet can be unlocked as part of the 'Potion Pandemonium' Treasure Hunter promotion.", // 4751 chisel:cosmetic_unlock_hint
+			"mtxmgt_source_custom": "This cosmetic can be obtained from the Marketplace, or by purchasing from other players.", // 4751 chisel:cosmetic_unlock_hint
 			"rerun_start_date": 8037, // 6350
-			"rerun_end_date": 8041, // 6351
 			"original_release_date": 7939, // 6628
 			"mtxmgt_pet_info": 49109, // 8226
 			"trh_preview_pet_npc": 30738, // 8691
@@ -487014,11 +487013,10 @@
 			"mtxmgt_category": 2, // 2531 chisel:solomons_category
 			"mtxmgt_subcat": 0, // 2532 chisel:SGS_sub_group
 			"mtxmgt_name": "Springbloom Witch Hat", // 2533 chisel:SGS_name
-			"mtxmgt_source": 14, // 2546
+			"mtxmgt_source": 1, // 2546
 			"release_date": 8623, // 4742 chisel:th_available_date
-			"withdraw_date": 8624, // 4743 chisel:available_till
 			"mtxmgt_parent_id": 2186, // 4744
-			"mtxmgt_source_custom": "This cosmetic can be unlocked as part of the 'Potion Pandemonium' Treasure Hunter promotion.", // 4751 chisel:cosmetic_unlock_hint
+			"mtxmgt_source_custom": "This cosmetic can be obtained from the Marketplace, or by purchasing from other players.", // 4751 chisel:cosmetic_unlock_hint
 			"original_release_date": 8492, // 6628
 			"mtx_front_end_confirm_ragdoll_zoom": 100, // 8668
 			"mtx_front_end_confirm_ragdoll_angle_y": 180, // 8669
@@ -487031,11 +487029,11 @@
 			"mtxmgt_category": 2, // 2531 chisel:solomons_category
 			"mtxmgt_subcat": 3, // 2532 chisel:SGS_sub_group
 			"mtxmgt_name": "Springbloom Witch Staff", // 2533 chisel:SGS_name
-			"mtxmgt_source": 14, // 2546
+			"mtxmgt_source": 1, // 2546
+			"mtxmgt_pos_string": "rs:combatgear:springbloom_witch_staff", // 4592
 			"release_date": 8623, // 4742 chisel:th_available_date
-			"withdraw_date": 8624, // 4743 chisel:available_till
 			"mtxmgt_parent_id": 2187, // 4744
-			"mtxmgt_source_custom": "This cosmetic can be unlocked as part of the 'Potion Pandemonium' Treasure Hunter promotion.", // 4751 chisel:cosmetic_unlock_hint
+			"mtxmgt_source_custom": "This cosmetic can be obtained from the Marketplace, or by purchasing from other players.", // 4751 chisel:cosmetic_unlock_hint
 			"original_release_date": 8492, // 6628
 			"mtx_front_end_confirm_ragdoll_angle_y": 1950 // 8669
 		},
@@ -487046,11 +487044,11 @@
 			"mtxmgt_category": 2, // 2531 chisel:solomons_category
 			"mtxmgt_subcat": 14, // 2532 chisel:SGS_sub_group
 			"mtxmgt_name": "Springbloom Aura", // 2533 chisel:SGS_name
-			"mtxmgt_source": 14, // 2546
+			"mtxmgt_source": 1, // 2546
+			"mtxmgt_pos_string": "rs:effects:springbloom_aura", // 4592
 			"release_date": 8623, // 4742 chisel:th_available_date
-			"withdraw_date": 8624, // 4743 chisel:available_till
 			"mtxmgt_parent_id": 2188, // 4744
-			"mtxmgt_source_custom": "This cosmetic can be unlocked as part of the 'Potion Pandemonium' Treasure Hunter promotion.", // 4751 chisel:cosmetic_unlock_hint
+			"mtxmgt_source_custom": "This cosmetic can be obtained from the Marketplace, or by purchasing from other players.", // 4751 chisel:cosmetic_unlock_hint
 			"original_release_date": 8492 // 6628
 		},
 		"id": 51642
@@ -487061,12 +487059,12 @@
 			"mtxmgt_subcat": 5, // 2532 chisel:SGS_sub_group
 			"mtxmgt_name": "Witch's Ride", // 2533 chisel:SGS_name
 			"mtxmgt_preview_anim": 36777, // 2535
-			"mtxmgt_source": 4, // 2546
+			"mtxmgt_source": 1, // 2546
 			"combatv2_casual_bas": 4797, // 2954
+			"mtxmgt_pos_string": "rs:walks:witch_ride", // 4592
 			"release_date": 8623, // 4742 chisel:th_available_date
-			"withdraw_date": 8624, // 4743 chisel:available_till
 			"mtxmgt_parent_id": 2189, // 4744
-			"mtxmgt_source_custom": "This cosmetic can be unlocked as part of the 'Potion Pandemonium' Treasure Hunter promotion.", // 4751 chisel:cosmetic_unlock_hint
+			"mtxmgt_source_custom": "This cosmetic can be obtained from the Marketplace, or by purchasing from other players.", // 4751 chisel:cosmetic_unlock_hint
 			"mtxmgt_walk_override_id": 24, // 5249
 			"mtxmgt_walk_override": 1 // 7224
 		},
@@ -491572,16 +491570,14 @@
 	},
 	{
 		"extra": {
-			"marketplace_preview_recolourable": 1, // 1331
 			"mtxmgt_category": 2, // 2531 chisel:solomons_category
 			"mtxmgt_subcat": 20, // 2532 chisel:SGS_sub_group
 			"mtxmgt_name": "Springbloom Witch Outfit", // 2533 chisel:SGS_name
-			"mtxmgt_source": 14, // 2546
+			"mtxmgt_source": 1, // 2546
+			"mtxmgt_pos_string": "rs:outfits:springbloom_witch_outfit", // 4592
 			"release_date": 8623, // 4742 chisel:th_available_date
-			"withdraw_date": 8624, // 4743 chisel:available_till
-			"mtxmgt_source_custom": "This cosmetic can be unlocked as part of the 'Potion Pandemonium' Treasure Hunter promotion.", // 4751 chisel:cosmetic_unlock_hint
-			"original_release_date": 8590, // 6628
-			"marketplace_spotlight_recol_display": 11231 // 8971
+			"mtxmgt_source_custom": "This cosmetic can be obtained from the Marketplace.", // 4751 chisel:cosmetic_unlock_hint
+			"original_release_date": 8590 // 6628
 		},
 		"id": 52148
 	},
@@ -491590,11 +491586,10 @@
 			"mtxmgt_category": 2, // 2531 chisel:solomons_category
 			"mtxmgt_subcat": 9, // 2532 chisel:SGS_sub_group
 			"mtxmgt_name": "Springbloom Witch Gloves", // 2533 chisel:SGS_name
-			"mtxmgt_source": 14, // 2546
+			"mtxmgt_source": 1, // 2546
 			"release_date": 8623, // 4742 chisel:th_available_date
-			"withdraw_date": 8624, // 4743 chisel:available_till
 			"mtxmgt_parent_id": 2234, // 4744
-			"mtxmgt_source_custom": "This cosmetic can be unlocked as part of the 'Potion Pandemonium' Treasure Hunter promotion.", // 4751 chisel:cosmetic_unlock_hint
+			"mtxmgt_source_custom": "This cosmetic can be obtained from the Marketplace.", // 4751 chisel:cosmetic_unlock_hint
 			"original_release_date": 8590 // 6628
 		},
 		"id": 52149
@@ -491604,11 +491599,10 @@
 			"mtxmgt_category": 2, // 2531 chisel:solomons_category
 			"mtxmgt_subcat": 4, // 2532 chisel:SGS_sub_group
 			"mtxmgt_name": "Springbloom Witch Top", // 2533 chisel:SGS_name
-			"mtxmgt_source": 14, // 2546
+			"mtxmgt_source": 1, // 2546
 			"release_date": 8623, // 4742 chisel:th_available_date
-			"withdraw_date": 8624, // 4743 chisel:available_till
 			"mtxmgt_parent_id": 2235, // 4744
-			"mtxmgt_source_custom": "This cosmetic can be unlocked as part of the 'Potion Pandemonium' Treasure Hunter promotion.", // 4751 chisel:cosmetic_unlock_hint
+			"mtxmgt_source_custom": "This cosmetic can be obtained from the Marketplace.", // 4751 chisel:cosmetic_unlock_hint
 			"original_release_date": 8590 // 6628
 		},
 		"id": 52150
@@ -491618,11 +491612,10 @@
 			"mtxmgt_category": 2, // 2531 chisel:solomons_category
 			"mtxmgt_subcat": 7, // 2532 chisel:SGS_sub_group
 			"mtxmgt_name": "Springbloom Witch Bottoms", // 2533 chisel:SGS_name
-			"mtxmgt_source": 14, // 2546
+			"mtxmgt_source": 1, // 2546
 			"release_date": 8623, // 4742 chisel:th_available_date
-			"withdraw_date": 8624, // 4743 chisel:available_till
 			"mtxmgt_parent_id": 2236, // 4744
-			"mtxmgt_source_custom": "This cosmetic can be unlocked as part of the 'Potion Pandemonium' Treasure Hunter promotion.", // 4751 chisel:cosmetic_unlock_hint
+			"mtxmgt_source_custom": "This cosmetic can be obtained from the Marketplace.", // 4751 chisel:cosmetic_unlock_hint
 			"original_release_date": 8590 // 6628
 		},
 		"id": 52151
@@ -491632,11 +491625,10 @@
 			"mtxmgt_category": 2, // 2531 chisel:solomons_category
 			"mtxmgt_subcat": 10, // 2532 chisel:SGS_sub_group
 			"mtxmgt_name": "Springbloom Witch Boots", // 2533 chisel:SGS_name
-			"mtxmgt_source": 14, // 2546
+			"mtxmgt_source": 1, // 2546
 			"release_date": 8623, // 4742 chisel:th_available_date
-			"withdraw_date": 8624, // 4743 chisel:available_till
 			"mtxmgt_parent_id": 2237, // 4744
-			"mtxmgt_source_custom": "This cosmetic can be unlocked as part of the 'Potion Pandemonium' Treasure Hunter promotion.", // 4751 chisel:cosmetic_unlock_hint
+			"mtxmgt_source_custom": "This cosmetic can be obtained from the Marketplace.", // 4751 chisel:cosmetic_unlock_hint
 			"original_release_date": 8590 // 6628
 		},
 		"id": 52152
@@ -494712,7 +494704,9 @@
 			"mtxmgt_category": 2, // 2531 chisel:solomons_category
 			"mtxmgt_subcat": 20, // 2532 chisel:SGS_sub_group
 			"mtxmgt_name": "Ripper Outfit", // 2533 chisel:SGS_name
-			"mtxmgt_source": 14 // 2546
+			"mtxmgt_source": 1, // 2546
+			"mtxmgt_pos_string": "rs:outfits:ripper_outfit", // 4592
+			"mtxmgt_source_custom": "This cosmetic can be obtained from the Marketplace." // 4751 chisel:cosmetic_unlock_hint
 		},
 		"id": 52391
 	},
@@ -494721,10 +494715,11 @@
 			"mtxmgt_category": 2, // 2531 chisel:solomons_category
 			"mtxmgt_subcat": 0, // 2532 chisel:SGS_sub_group
 			"mtxmgt_name": "Ripper Outfit Head", // 2533 chisel:SGS_name
-			"mtxmgt_source": 14, // 2546
+			"mtxmgt_source": 1, // 2546
 			"release_date": 8672, // 4742 chisel:th_available_date
 			"withdraw_date": 8673, // 4743 chisel:available_till
 			"mtxmgt_parent_id": 2272, // 4744
+			"mtxmgt_source_custom": "This cosmetic can be obtained from the Marketplace.", // 4751 chisel:cosmetic_unlock_hint
 			"original_release_date": 8672, // 6628
 			"mtx_positional_data": 6534 // 8680
 		},
@@ -494735,10 +494730,11 @@
 			"mtxmgt_category": 2, // 2531 chisel:solomons_category
 			"mtxmgt_subcat": 4, // 2532 chisel:SGS_sub_group
 			"mtxmgt_name": "Ripper Outfit Body", // 2533 chisel:SGS_name
-			"mtxmgt_source": 14, // 2546
+			"mtxmgt_source": 1, // 2546
 			"release_date": 8672, // 4742 chisel:th_available_date
 			"withdraw_date": 8673, // 4743 chisel:available_till
 			"mtxmgt_parent_id": 2273, // 4744
+			"mtxmgt_source_custom": "This cosmetic can be obtained from the Marketplace.", // 4751 chisel:cosmetic_unlock_hint
 			"original_release_date": 8672, // 6628
 			"mtx_positional_data": 6535 // 8680
 		},
@@ -494749,10 +494745,11 @@
 			"mtxmgt_category": 2, // 2531 chisel:solomons_category
 			"mtxmgt_subcat": 7, // 2532 chisel:SGS_sub_group
 			"mtxmgt_name": "Ripper Outfit Legs", // 2533 chisel:SGS_name
-			"mtxmgt_source": 14, // 2546
+			"mtxmgt_source": 1, // 2546
 			"release_date": 8672, // 4742 chisel:th_available_date
 			"withdraw_date": 8673, // 4743 chisel:available_till
 			"mtxmgt_parent_id": 2274, // 4744
+			"mtxmgt_source_custom": "This cosmetic can be obtained from the Marketplace.", // 4751 chisel:cosmetic_unlock_hint
 			"original_release_date": 8672, // 6628
 			"mtx_positional_data": 6536 // 8680
 		},
@@ -494763,10 +494760,11 @@
 			"mtxmgt_category": 2, // 2531 chisel:solomons_category
 			"mtxmgt_subcat": 9, // 2532 chisel:SGS_sub_group
 			"mtxmgt_name": "Ripper Outfit Gloves", // 2533 chisel:SGS_name
-			"mtxmgt_source": 14, // 2546
+			"mtxmgt_source": 1, // 2546
 			"release_date": 8672, // 4742 chisel:th_available_date
 			"withdraw_date": 8673, // 4743 chisel:available_till
 			"mtxmgt_parent_id": 2275, // 4744
+			"mtxmgt_source_custom": "This cosmetic can be obtained from the Marketplace.", // 4751 chisel:cosmetic_unlock_hint
 			"original_release_date": 8672, // 6628
 			"mtx_positional_data": 6538 // 8680
 		},
@@ -494777,10 +494775,11 @@
 			"mtxmgt_category": 2, // 2531 chisel:solomons_category
 			"mtxmgt_subcat": 10, // 2532 chisel:SGS_sub_group
 			"mtxmgt_name": "Ripper Outfit Boots", // 2533 chisel:SGS_name
-			"mtxmgt_source": 14, // 2546
+			"mtxmgt_source": 1, // 2546
 			"release_date": 8672, // 4742 chisel:th_available_date
 			"withdraw_date": 8673, // 4743 chisel:available_till
 			"mtxmgt_parent_id": 2276, // 4744
+			"mtxmgt_source_custom": "This cosmetic can be obtained from the Marketplace.", // 4751 chisel:cosmetic_unlock_hint
 			"original_release_date": 8672, // 6628
 			"mtx_positional_data": 6537 // 8680
 		},
@@ -494791,10 +494790,11 @@
 			"mtxmgt_category": 2, // 2531 chisel:solomons_category
 			"mtxmgt_subcat": 10, // 2532 chisel:SGS_sub_group
 			"mtxmgt_name": "Ripper Outfit Cape", // 2533 chisel:SGS_name
-			"mtxmgt_source": 14, // 2546
+			"mtxmgt_source": 1, // 2546
 			"release_date": 8672, // 4742 chisel:th_available_date
 			"withdraw_date": 8673, // 4743 chisel:available_till
 			"mtxmgt_parent_id": 2277, // 4744
+			"mtxmgt_source_custom": "This cosmetic can be obtained from the Marketplace.", // 4751 chisel:cosmetic_unlock_hint
 			"original_release_date": 8672, // 6628
 			"mtx_positional_data": 6539 // 8680
 		},
@@ -506836,5 +506836,317 @@
 			"motw_onclick": 14 // 6392
 		},
 		"id": 53468
+	},
+	{
+		"extra": {
+			"mtxmgt_category": 7, // 2531 chisel:solomons_category
+			"mtxmgt_name": "Gothic Manor House Style", // 2533 chisel:SGS_name
+			"mtxmgt_pos_string": "rs:construction:gothic_facade", // 4592
+			"mtxmgt_pack_structs": 13715, // 4717 chisel:sgs_pack_components
+			"mtxmgt_parent_id": 2477 // 4744
+		},
+		"id": 53469
+	},
+	{
+		"extra": {
+			"mtxmgt_category": 7, // 2531 chisel:solomons_category
+			"mtxmgt_name": "Trick or Treat Bundle", // 2533 chisel:SGS_name
+			"mtxmgt_pos_string": "rs:packs:trick_or_treat_bundle", // 4592
+			"mtxmgt_pack_structs": 13707, // 4717 chisel:sgs_pack_components
+			"mtxmgt_parent_id": 2476 // 4744
+		},
+		"id": 53470
+	},
+	{
+		"extra": {
+			"mtxmgt_category": 7, // 2531 chisel:solomons_category
+			"mtxmgt_name": "Haunted Curios Bundle", // 2533 chisel:SGS_name
+			"mtxmgt_pos_string": "rs:packs:curious_curios_bundle", // 4592
+			"mtxmgt_pack_structs": 13708, // 4717 chisel:sgs_pack_components
+			"mtxmgt_parent_id": 2475 // 4744
+		},
+		"id": 53471
+	},
+	{
+		"extra": {
+			"mtxmgt_category": 7, // 2531 chisel:solomons_category
+			"mtxmgt_name": "Gothic Mega Bundle", // 2533 chisel:SGS_name
+			"mtxmgt_pos_string": "rs:packs:gothic_mega_bundle", // 4592
+			"mtxmgt_pack_structs": 13714, // 4717 chisel:sgs_pack_components
+			"mtxmgt_parent_id": 2478 // 4744
+		},
+		"id": 53472
+	},
+	{
+		"extra": {
+			"mtxmgt_category": 7, // 2531 chisel:solomons_category
+			"mtxmgt_name": "Haunted portraits", // 2533 chisel:SGS_name
+			"mtxmgt_pos_string": "rs:construction:haunted_portraits", // 4592
+			"mtxmgt_pack_structs": 13709, // 4717 chisel:sgs_pack_components
+			"mtxmgt_parent_id": 2480 // 4744
+		},
+		"id": 53473
+	},
+	{
+		"extra": {
+			"mtxmgt_category": 7, // 2531 chisel:solomons_category
+			"mtxmgt_name": "Spooky pumpkin stacks", // 2533 chisel:SGS_name
+			"mtxmgt_pos_string": "rs:construction:spooky_pumpkin_stacks", // 4592
+			"mtxmgt_pack_structs": 13710, // 4717 chisel:sgs_pack_components
+			"mtxmgt_parent_id": 2484 // 4744
+		},
+		"id": 53474
+	},
+	{
+		"extra": {
+			"mtxmgt_category": 7, // 2531 chisel:solomons_category
+			"mtxmgt_name": "Spooky cauldrons", // 2533 chisel:SGS_name
+			"mtxmgt_pos_string": "rs:construction:spooky_cauldrons", // 4592
+			"mtxmgt_pack_structs": 13711, // 4717 chisel:sgs_pack_components
+			"mtxmgt_parent_id": 2487 // 4744
+		},
+		"id": 53475
+	},
+	{
+		"extra": {
+			"mtxmgt_category": 7, // 2531 chisel:solomons_category
+			"mtxmgt_name": "Spooky tombstones", // 2533 chisel:SGS_name
+			"mtxmgt_pos_string": "rs:construction:spooky_tombstones", // 4592
+			"mtxmgt_pack_structs": 13712, // 4717 chisel:sgs_pack_components
+			"mtxmgt_parent_id": 2488 // 4744
+		},
+		"id": 53476
+	},
+	{
+		"extra": {
+			"mtxmgt_category": 7, // 2531 chisel:solomons_category
+			"mtxmgt_name": "Spooky torches", // 2533 chisel:SGS_name
+			"mtxmgt_pos_string": "rs:construction:spooky_torches", // 4592
+			"mtxmgt_pack_structs": 13713, // 4717 chisel:sgs_pack_components
+			"mtxmgt_parent_id": 2489 // 4744
+		},
+		"id": 53477
+	},
+	{
+		"extra": {
+			"mtxmgt_category": 7, // 2531 chisel:solomons_category
+			"mtxmgt_name": "Haunted painting (Bob)", // 2533 chisel:SGS_name
+			"mtxmgt_interface_positioning": 20296, // 9254
+			"league_locality": 20277 // 9457
+		},
+		"id": 53478
+	},
+	{
+		"extra": {
+			"mtxmgt_category": 7, // 2531 chisel:solomons_category
+			"mtxmgt_name": "Haunted painting (Lord)", // 2533 chisel:SGS_name
+			"mtxmgt_interface_positioning": 20296, // 9254
+			"league_locality": 20278 // 9457
+		},
+		"id": 53479
+	},
+	{
+		"extra": {
+			"mtxmgt_category": 7, // 2531 chisel:solomons_category
+			"mtxmgt_name": "Haunted painting (Lady)", // 2533 chisel:SGS_name
+			"mtxmgt_interface_positioning": 20296, // 9254
+			"league_locality": 20279 // 9457
+		},
+		"id": 53480
+	},
+	{
+		"extra": {
+			"mtxmgt_category": 7, // 2531 chisel:solomons_category
+			"mtxmgt_name": "Haunted doll display case", // 2533 chisel:SGS_name
+			"mtxmgt_pos_string": "rs:construction:haunted_doll_case", // 4592
+			"mtxmgt_parent_id": 2481, // 4744
+			"mtxmgt_interface_positioning": 20270, // 9254
+			"league_locality": 20280 // 9457
+		},
+		"id": 53481
+	},
+	{
+		"extra": {
+			"mtxmgt_category": 7, // 2531 chisel:solomons_category
+			"mtxmgt_name": "Haunted rocking unicorn", // 2533 chisel:SGS_name
+			"mtxmgt_pos_string": "rs:construction:haunted_rocking_unicorn", // 4592
+			"mtxmgt_parent_id": 2482, // 4744
+			"mtxmgt_interface_positioning": 20275, // 9254
+			"league_locality": 20283 // 9457
+		},
+		"id": 53482
+	},
+	{
+		"extra": {
+			"mtxmgt_category": 7, // 2531 chisel:solomons_category
+			"mtxmgt_name": "Haunted music box", // 2533 chisel:SGS_name
+			"mtxmgt_pos_string": "rs:construction:haunted_music_box", // 4592
+			"mtxmgt_parent_id": 2479, // 4744
+			"mtxmgt_interface_positioning": 20270, // 9254
+			"league_locality": 20284 // 9457
+		},
+		"id": 53483
+	},
+	{
+		"extra": {
+			"mtxmgt_category": 7, // 2531 chisel:solomons_category
+			"mtxmgt_name": "Haunted urn", // 2533 chisel:SGS_name
+			"mtxmgt_pos_string": "rs:construction:haunted_urn", // 4592
+			"mtxmgt_parent_id": 2483, // 4744
+			"mtxmgt_interface_positioning": 20273, // 9254
+			"league_locality": 20289 // 9457
+		},
+		"id": 53484
+	},
+	{
+		"extra": {
+			"mtxmgt_category": 7, // 2531 chisel:solomons_category
+			"mtxmgt_name": "Spooky green cauldron", // 2533 chisel:SGS_name
+			"mtxmgt_interface_positioning": 20271, // 9254
+			"league_locality": 20281 // 9457
+		},
+		"id": 53485
+	},
+	{
+		"extra": {
+			"mtxmgt_category": 7, // 2531 chisel:solomons_category
+			"mtxmgt_name": "Spooky purple cauldron", // 2533 chisel:SGS_name
+			"mtxmgt_interface_positioning": 20271, // 9254
+			"league_locality": 20282 // 9457
+		},
+		"id": 53486
+	},
+	{
+		"extra": {
+			"mtxmgt_category": 7, // 2531 chisel:solomons_category
+			"mtxmgt_name": "Spooky ghost lantern", // 2533 chisel:SGS_name
+			"mtxmgt_pos_string": "rs:construction:spooky_ghost_lantern", // 4592
+			"mtxmgt_parent_id": 2485, // 4744
+			"mtxmgt_interface_positioning": 20270, // 9254
+			"league_locality": 20285 // 9457
+		},
+		"id": 53487
+	},
+	{
+		"extra": {
+			"mtxmgt_category": 7, // 2531 chisel:solomons_category
+			"mtxmgt_name": "Spooky tombstone (for rent)", // 2533 chisel:SGS_name
+			"mtxmgt_interface_positioning": 20270, // 9254
+			"league_locality": 20286 // 9457
+		},
+		"id": 53488
+	},
+	{
+		"extra": {
+			"mtxmgt_category": 7, // 2531 chisel:solomons_category
+			"mtxmgt_name": "Spooky tombstone (RIP)", // 2533 chisel:SGS_name
+			"mtxmgt_interface_positioning": 20270, // 9254
+			"league_locality": 20287 // 9457
+		},
+		"id": 53489
+	},
+	{
+		"extra": {
+			"mtxmgt_category": 7, // 2531 chisel:solomons_category
+			"mtxmgt_name": "Spooky tombstone (game over)", // 2533 chisel:SGS_name
+			"mtxmgt_interface_positioning": 20270, // 9254
+			"league_locality": 20288 // 9457
+		},
+		"id": 53490
+	},
+	{
+		"extra": {
+			"mtxmgt_category": 7, // 2531 chisel:solomons_category
+			"mtxmgt_name": "Spooky pumpkin stack (left)", // 2533 chisel:SGS_name
+			"mtxmgt_interface_positioning": 20270, // 9254
+			"league_locality": 20290 // 9457
+		},
+		"id": 53491
+	},
+	{
+		"extra": {
+			"mtxmgt_category": 7, // 2531 chisel:solomons_category
+			"mtxmgt_name": "Spooky pumpkin stack (right)", // 2533 chisel:SGS_name
+			"mtxmgt_interface_positioning": 20270, // 9254
+			"league_locality": 20291 // 9457
+		},
+		"id": 53492
+	},
+	{
+		"extra": {
+			"mtxmgt_category": 7, // 2531 chisel:solomons_category
+			"mtxmgt_name": "Cobweb trellis archway", // 2533 chisel:SGS_name
+			"mtxmgt_interface_positioning": 20268, // 9254
+			"league_locality": 20292 // 9457
+		},
+		"id": 53493
+	},
+	{
+		"extra": {
+			"mtxmgt_category": 7, // 2531 chisel:solomons_category
+			"mtxmgt_name": "Cobweb trellis archway", // 2533 chisel:SGS_name
+			"mtxmgt_interface_positioning": 20269, // 9254
+			"league_locality": 20293 // 9457
+		},
+		"id": 53494
+	},
+	{
+		"extra": {
+			"mtxmgt_category": 7, // 2531 chisel:solomons_category
+			"mtxmgt_name": "Spooky green torch", // 2533 chisel:SGS_name
+			"mtxmgt_interface_positioning": 20272, // 9254
+			"league_locality": 20294 // 9457
+		},
+		"id": 53495
+	},
+	{
+		"extra": {
+			"mtxmgt_category": 7, // 2531 chisel:solomons_category
+			"mtxmgt_name": "Spooky purple torch", // 2533 chisel:SGS_name
+			"mtxmgt_interface_positioning": 20272, // 9254
+			"league_locality": 20295 // 9457
+		},
+		"id": 53496
+	},
+	{
+		"extra": {
+			"mtxmgt_category": 7, // 2531 chisel:solomons_category
+			"mtxmgt_name": "Gothic Manor House Style", // 2533 chisel:SGS_name
+			"mtxmgt_interface_positioning": 19539, // 9254
+			"potion_info_antisanguine": 64040 // 9426
+		},
+		"id": 53498
+	},
+	{
+		"extra": {
+			"mtxmgt_category": 7, // 2531 chisel:solomons_category
+			"mtxmgt_name": "Cobweb trellis archways", // 2533 chisel:SGS_name
+			"mtxmgt_pos_string": "rs:construction:cobweb_trellis_arch", // 4592
+			"mtxmgt_pack_structs": 13719, // 4717 chisel:sgs_pack_components
+			"mtxmgt_parent_id": 2486 // 4744
+		},
+		"id": 53499
+	},
+	{
+		"extra": {
+			"motw_banner_en": 11197, // 6381
+			"motw_banner_de": 11197, // 6385
+			"motw_banner_fr": 11197, // 6386
+			"motw_banner_pt": 11197, // 6387
+			"motw_title": "Trick Or Treat", // 6391
+			"motw_onclick": 14 // 6392
+		},
+		"id": 53500
+	},
+	{
+		"extra": {
+			"motw_banner_en": 11198, // 6381
+			"motw_banner_de": 11198, // 6385
+			"motw_banner_fr": 11198, // 6386
+			"motw_banner_pt": 11198, // 6387
+			"motw_title": "Gothic Housing", // 6391
+			"motw_onclick": 14 // 6392
+		},
+		"id": 53501
 	}
 ]

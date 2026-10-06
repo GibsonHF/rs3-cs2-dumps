@@ -1,6 +1,6 @@
 {
   "revision": 950,
-  "date": "2026-09-29",
+  "date": "2026-10-06",
   "entries": {
     "0": "worldmap_overlay_style_gravestone",
     "1": "prem15_retro_dance_joy_pack",
@@ -2527,6 +2527,7 @@
     "3023": "skillguide_runecraft80",
     "3024": "skillguide_runecraft81",
     "3025": "bslay_death_pet_override",
+    "3026": "motw_banner_bankboosters",
     "3033": "skillguide_ranged8",
     "3034": "skillguide_ranged9",
     "3035": "skillguide_ranged10",

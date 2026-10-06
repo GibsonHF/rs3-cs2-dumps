@@ -1,20 +1,22 @@
 //
 function script20682(int0: number): [number, number, string] {
-    var int1 = (script20673(int0) - 1);
-    if ((((int0 == -1) || (script20666(int0) == 2)) || (int1 < 0))) {
-        return [-1, "", -1];
-    };
-    var int2 = -1 as var_reference;
-    var int3 = -1;
-    var string0 = "";
-    var int4 = -1;
-    var int5 = -1;
-    [string0, int2, int4, int5] = script20681(int0, int1);
-    if (((int4 > 0) && (int2 != -1 as var_reference))) {
-        int3 = WORLDMAP_GETDISPLAYCOORD(int2);
-        if ((int5 == 1)) {
-            int3 = BITCOUNT(int3);
+    var int1 = 0;
+    var int2 = 0;
+    var int3 = 0;
+    [int1, int2, int3] = script3985(int0, 1);
+    var string2 = "";
+    if ((int1 <= 0)) {
+        if ((int2 <= 0)) {
+            if ((int3 <= 0)) {
+                string2 = string1;
+            } else {
+                string2 = `${string0}: ${script3382(int1, int2, int3, -1, 1, 0)}`;
+            };
+        } else {
+            string2 = `${string0}: ${script3382(int1, int2, int3, -1, 1, 0)}`;
         };
+    } else {
+        string2 = `${string0}: ${script3382(int1, int2, int3, -1, 1, 0)}`;
     };
-    return [int3, string0, int4];
+    return string2;
 }

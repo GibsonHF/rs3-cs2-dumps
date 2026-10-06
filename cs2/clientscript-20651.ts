@@ -1,11 +1,17 @@
 //
 function script20651(int0: number): string {
-    var int1 = -1 as dbrow;
-    if ((int0 == 1)) {
-        int1 = script20847();
-        if (((int1 != -1 as dbrow) && (DB_GETFIELDCOUNT(int1, 1552384) > 0))) {
-            return dbrow_getfield(int1, 1552384, 0);
-        };
+    var int1 = -1;
+    switch (int0) {
+        case 1: {
+            int1 = script20847();
+            if (((int1 != -1 as dbrow) && (DB_GETFIELDCOUNT(int1, 1552384) > 0))) {
+                return dbrow_getfield(int1, 1552384, 0);
+            };
+            break;
+        }
+        case 10: {
+            return "<sprite=34366> Halloween <sprite=34366>";
+        }
     };
     var int2 = DB_GETFIELDCOUNT(17540 as dbrow, 1421312);
     var int3 = -1;

@@ -129283,6 +129283,20 @@
 				"unk_byte": 0,
 				"val": 2,
 				"varbit": 12309
+			},
+			{
+				"name": "Sanguine werewolf",
+				"stepsize": 1,
+				"unk_byte": 0,
+				"val": 3,
+				"varbit": 12309
+			},
+			{
+				"name": "Ravenous strigoi",
+				"stepsize": 1,
+				"unk_byte": 0,
+				"val": 4,
+				"varbit": 12309
 			}
 		],
 		"skill_req_count": [
@@ -129302,7 +129316,7 @@
 		"spriteID": 30720,
 		"subcategory": 4906,
 		"subreq_count": [
-			173
+			175
 		]
 	},
 	{

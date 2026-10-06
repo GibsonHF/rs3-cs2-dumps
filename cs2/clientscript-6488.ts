@@ -6956,6 +6956,20 @@ function script6488(int0: number): number {
             };
             return 0;
         }
+        case 52391: {
+            if ((varbitplayer_60027 == 63)) {
+                return 1;
+            };
+            return 0;
+        }
+        case 52148: {
+            if ((varbitplayer_58353 == 1)) {
+                return 1;
+            } else if ((((((varbitplayer_58354 == 1) && (varbitplayer_58355 == 1)) && (varbitplayer_58356 == 1)) && (varbitplayer_58357 == 1)) && (varbitplayer_58057 == 1))) {
+                return 1;
+            };
+            return 0;
+        }
         default: {
             return 1;
         }

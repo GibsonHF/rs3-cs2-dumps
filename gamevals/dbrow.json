@@ -1,6 +1,6 @@
 {
   "revision": 950,
-  "date": "2026-09-29",
+  "date": "2026-10-06",
   "entries": {
     "89": "pof_paddock_1",
     "91": "pof_paddock_2",
@@ -76,6 +76,7 @@
     "273": "invent_blueprint_augmented_max_level_15",
     "274": "invent_blueprint_augmented_max_level_20",
     "275": "invent_blueprint_item_xp_consumer",
+    "293": "marketplace_store_service_bank_booster_15",
     "326": "pof_paddock_4",
     "327": "pof_paddock_5",
     "328": "pof_paddock_6",
@@ -629,6 +630,7 @@
     "1500": "smithing_interface_masterwork_items",
     "1501": "smithing_interface_blurite_items",
     "1502": "smithing_interface_obsidian_items",
+    "1503": "marketplace_store_service_bank_booster_16",
     "1504": "uitutorial_helpbutton_settings_ribbon",
     "1505": "smithing_interface_misc_shields",
     "1506": "smithing_interface_godswords",
@@ -3144,6 +3146,7 @@
     "4469": "mobile_shop_membership_prem_gold_20_21",
     "4470": "mhaw_may22_cosmetic_bundle",
     "4471": "background_default",
+    "4472": "marketplace_featured_sept26_bankbooster",
     "4476": "button_cornered_neutral",
     "4477": "marketplace_store_outfit_elven_warrior",
     "4479": "button_default",

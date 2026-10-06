@@ -1,32 +1,37 @@
 //
 function script616(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number): void {
-    if ((int4 == -1)) {
-        return;
-    };
-    var int7 = dbrow_getfield(int4, 1515584, 0);
+    var int8 = -1 as obj;
     if ((int7 == -1 as obj)) {
-        int7 = dbrow_getfield(int4, 1576992, 0);
+        if ((int4 == -1)) {
+            return;
+        };
+        int8 = dbrow_getfield(int4, 1515584, 0);
+        if ((int8 == -1 as obj)) {
+            int8 = dbrow_getfield(int4, 1576992, 0);
+        };
+    } else {
+        int8 = int7;
     };
     IF_SETHIDE(false, int0);
-    IF_SETOBJECT(int7, -1, int2);
-    var int8 = 0;
+    IF_SETOBJECT(int8, -1, int2);
     var int9 = 0;
     var int10 = 0;
     var int11 = 0;
     var int12 = 0;
     var int13 = 0;
+    var int14 = 0;
     if ((int5 != -1 as dbrow)) {
         if ((DB_GETROWTABLE(int5) != 254)) {
             script12478("Invalid table in positional data.");
             return;
         };
-        int8 = dbrow_getfield(int5, 1040384, 0);
-        int9 = dbrow_getfield(int5, 1040400, 0);
-        int10 = dbrow_getfield(int5, 1040416, 0);
-        int11 = dbrow_getfield(int5, 1040432, 0);
-        int12 = dbrow_getfield(int5, 1040448, 0);
-        int13 = dbrow_getfield(int5, 1040464, 0);
-        IF_SETMODELANGLE(int8, int9, int10, int11, int12, int13, int2);
+        int9 = dbrow_getfield(int5, 1040384, 0);
+        int10 = dbrow_getfield(int5, 1040400, 0);
+        int11 = dbrow_getfield(int5, 1040416, 0);
+        int12 = dbrow_getfield(int5, 1040432, 0);
+        int13 = dbrow_getfield(int5, 1040448, 0);
+        int14 = dbrow_getfield(int5, 1040464, 0);
+        IF_SETMODELANGLE(int9, int10, int11, int12, int13, int14, int2);
     };
     if ((int6 == 0)) {
         IF_SETHIDE(false, int1);
