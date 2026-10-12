@@ -227,6 +227,16 @@ function script16084(int0: number): [number, number, number, string] {
             };
             break;
         }
+        case 25: {
+            int4 = 533;
+            string0 = script2103(int4);
+            string0 = `You must complete the quest: '${string0}'.`;
+            int3 = script2107(int4);
+            if ((script2156(int4) == 0)) {
+                int1 = 0;
+            };
+            break;
+        }
     };
     return [int1, int2, int3, string0];
 }

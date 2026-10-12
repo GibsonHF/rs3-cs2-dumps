@@ -31,6 +31,15 @@ function script7361(int0: number): number {
         case 42005: {
             return varplayer_8690;
         }
+        case 64149: {
+            return varplayer_13732;
+        }
+        case 64150: {
+            return varplayer_13733;
+        }
+        case 64151: {
+            return varplayer_13734;
+        }
     };
     return 0;
 }

@@ -20,7 +20,8 @@ function script13378(int0: number): number {
         case 50075:
         case 50076:
         case 52069:
-        case 52070: {
+        case 52070:
+        case 53539: {
             if ((int3 >= 1)) {
                 int4 = (int4 + (enum_getvalue(0, 0, 7443, 100) - enum_getvalue(0, 0, 7443, 95)));
             };

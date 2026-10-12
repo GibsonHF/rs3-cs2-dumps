@@ -277,6 +277,11 @@ function script6732(): void {
                 [int2, int4] = [varbitplayer_60743, varbitplayer_60745];
                 break;
             }
+            case 53545: {
+                [int2, int4] = [varbitplayer_62165, varbitplayer_62167];
+                [int3, int5] = [varbitplayer_62166, varbitplayer_62168];
+                break;
+            }
             default: {
                 int2 = -1;
                 break;

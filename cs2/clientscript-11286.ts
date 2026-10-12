@@ -231,6 +231,10 @@ function script11286(int0: number): number {
             int1 = (varbitplayer_60743 + (varbitplayer_60745 * 60000));
             break;
         }
+        case 53545: {
+            int1 = (((varbitplayer_62165 + (varbitplayer_62167 * 60000)) + varbitplayer_62166) + (varbitplayer_62168 * 60000));
+            break;
+        }
     };
     return int1;
 }

@@ -18,9 +18,6 @@ function script17557(int0: number, int1: number, string0: string): void {
     switch (varplayer_10946) {
         case 49997:
         case 50216: {
-            if (((int2 - int3) > 0)) {
-                string1 = `${string0}${script14945((int2 - int3), 1)}`;
-            };
             break;
         }
         case 51839: {
@@ -39,6 +36,10 @@ function script17557(int0: number, int1: number, string0: string): void {
                     break;
                 }
             };
+            break;
+        }
+        case 53515: {
+            string1 = `${string0}${script14945(int3, 1)}`;
             break;
         }
         default: {

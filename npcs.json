@@ -1063951,7 +1063951,7 @@
 		"actions": [
 			"Talk to",
 			null,
-			"Hand in clan confections",
+			null,
 			null,
 			null
 		],
@@ -1064196,7 +1064196,7 @@
 		"actions": [
 			"Talk to",
 			null,
-			"Hand in clan confections",
+			null,
 			null,
 			null
 		],
@@ -1064228,7 +1064228,7 @@
 		],
 		"movementCapabilities": 1,
 		"name": "Cough",
-		"respawnDirection": 1
+		"respawnDirection": 6
 	},
 	{
 		"alwaysontop": true,
@@ -1064705,20 +1064705,37 @@
 	},
 	{
 		"alwaysontop": true,
-		"animation_group": 2239,
 		"boundSize": 1,
 		"combat": 0,
-		"headModels": [
-			130491
-		],
 		"id": 31310,
-		"models": [
-			130539,
-			130512,
-			130536
-		],
+		"morphs_1": {
+			"ids": [
+				32919,
+				32919,
+				32919,
+				32919,
+				32919,
+				32919,
+				32919,
+				32919,
+				32919,
+				32919,
+				32919,
+				32919,
+				32919,
+				32919,
+				32919,
+				32919,
+				32919,
+				32920,
+				32920,
+				32920,
+				32919
+			],
+			"varbit": 62185,
+			"varp": -1
+		},
 		"movementCapabilities": 1,
-		"name": "Lady Grey",
 		"respawnDirection": 6,
 		"turnspeed": 0
 	},
@@ -1065886,7 +1065903,6 @@
 		],
 		"id": 31355,
 		"models": [
-			134382,
 			134381
 		],
 		"movementCapabilities": 1,
@@ -1065917,7 +1065933,6 @@
 		],
 		"id": 31356,
 		"models": [
-			134382,
 			134381
 		],
 		"movementCapabilities": 3,
@@ -1065956,7 +1065971,6 @@
 		],
 		"id": 31357,
 		"models": [
-			134382,
 			134383
 		],
 		"movementCapabilities": 1,
@@ -1065987,7 +1066001,6 @@
 		],
 		"id": 31358,
 		"models": [
-			134382,
 			134383
 		],
 		"movementCapabilities": 3,
@@ -1118031,5 +1118044,890 @@
 		"name": "Ravenous strigoi",
 		"scaleXZ": 96,
 		"scaleY": 96
+	},
+	{
+		"animation_group": 4922,
+		"boundSize": 3,
+		"color_replacements": {
+			"1308": 48140,
+			"54420": 54419,
+			"57550": 46131,
+			"59692": 62625,
+			"63438": 46108
+		},
+		"combat": 4914,
+		"extra": {
+			"magicattack": 4656, // 3 chisel:accuracy_magic
+			"rangeattack": 4656, // 4 chisel:accuracy_ranged
+			"attackrate": 5, // 14 chisel:attack_speed
+			"damagetype": 1, // 26 chisel:potion_effect_unk3
+			"attackbonus": 4656, // 29 chisel:accuracy_melee_(npc)
+			"melee_strength": 22500, // 641 chisel:damage_melee
+			"ranged_strength": 22500, // 643 chisel:damage_ranged
+			"magic_strength": 22500, // 965 chisel:damage_magic
+			"bslay_id": 58, // 1346 chisel:kill_counter_id
+			"combatv2_attackmod": 13, // 2836 chisel:weakness_class
+			"combatv2_player_hiteffect": 1, // 2838
+			"combatv2_weakness": 0, // 2848 chisel:weakness
+			"combatv2_defence_weakclass": 55, // 2850 chisel:weakness_modifier_weak
+			"combatv2_defence_sameclass": 55, // 2851 chisel:weakness_modifier_same
+			"combatv2_defence_strongclass": 55, // 2852 chisel:weakness_modifier_strong
+			"combatv2_npc_min_hitchance": 1000, // 2864 chisel:npc_min_hitchance
+			"combatv2_npc_armour": 2765, // 2865 chisel:armor
+			"combatv2_no_resettag": 1, // 2890 chisel:jmod_god_event_elite_spawn
+			"combatv2_npc_no_tag": 1, // 2892 chisel:no_tag
+			"combatv2_npc_xp_override": 100000, // 2893 chisel:custom_experience
+			"combatv2_combat_mob_tier": 10, // 3002 chisel:potion_effect_unk6
+			"combatv2_npc_hide_healthbar": 1, // 6425
+			"bslay_tracking_var_mode_normal": 16839381, // 9012
+			"bslay_tracking_var_mode_hard": 16839382, // 9013
+			"health_headbar": 44, // 9114
+			"adrenaline_headbar": 43, // 9115
+			"progress_headbar": 46, // 9116
+			"timer_headbar": 45 // 9117
+		},
+		"headModels": [
+			145878
+		],
+		"id": 32905,
+		"models": [
+			145877,
+			145875,
+			121926
+		],
+		"movementCapabilities": 1,
+		"name": "Lady Karmina Ghrazi",
+		"priorityoffset": 10,
+		"scaleXZ": 224,
+		"scaleY": 224,
+		"texture_replacements": {
+			"24998": 24996
+		}
+	},
+	{
+		"animation_group": 4923,
+		"boundSize": 3,
+		"color_replacements": {
+			"48553": 46131,
+			"53673": 62625,
+			"54420": 54419,
+			"62887": 46108,
+			"64534": 48140
+		},
+		"combat": 4914,
+		"extra": {
+			"magicattack": 4656, // 3 chisel:accuracy_magic
+			"rangeattack": 4656, // 4 chisel:accuracy_ranged
+			"attackrate": 5, // 14 chisel:attack_speed
+			"damagetype": 3, // 26 chisel:potion_effect_unk3
+			"attackbonus": 4656, // 29 chisel:accuracy_melee_(npc)
+			"melee_strength": 22500, // 641 chisel:damage_melee
+			"ranged_strength": 22500, // 643 chisel:damage_ranged
+			"magic_strength": 22500, // 965 chisel:damage_magic
+			"combatv2_attackmod": 13, // 2836 chisel:weakness_class
+			"combatv2_player_hiteffect": 1, // 2838
+			"combatv2_weakness": 0, // 2848 chisel:weakness
+			"combatv2_defence_weakclass": 55, // 2850 chisel:weakness_modifier_weak
+			"combatv2_defence_sameclass": 55, // 2851 chisel:weakness_modifier_same
+			"combatv2_defence_strongclass": 55, // 2852 chisel:weakness_modifier_strong
+			"combatv2_npc_min_hitchance": 1000, // 2864 chisel:npc_min_hitchance
+			"combatv2_npc_armour": 2765, // 2865 chisel:armor
+			"combatv2_no_resettag": 1, // 2890 chisel:jmod_god_event_elite_spawn
+			"combatv2_npc_no_tag": 1, // 2892 chisel:no_tag
+			"combatv2_npc_xp_override": 100000, // 2893 chisel:custom_experience
+			"combatv2_combat_mob_tier": 10, // 3002 chisel:potion_effect_unk6
+			"combatv2_npc_hide_healthbar": 1, // 6425
+			"health_headbar": 44, // 9114
+			"adrenaline_headbar": 43, // 9115
+			"progress_headbar": 46, // 9116
+			"timer_headbar": 45 // 9117
+		},
+		"headModels": [
+			145881
+		],
+		"id": 32906,
+		"models": [
+			145880,
+			145876,
+			121926
+		],
+		"movementCapabilities": 1,
+		"name": "Lord Vasily Ghrazi",
+		"priorityoffset": 10,
+		"scaleXZ": 224,
+		"scaleY": 224,
+		"texture_replacements": {
+			"24999": 24997
+		}
+	},
+	{
+		"actions": [
+			null,
+			"Attack",
+			null,
+			null,
+			null
+		],
+		"animation_group": 4922,
+		"attackCursor": 42,
+		"boundSize": 3,
+		"color_replacements": {
+			"1308": 48140,
+			"54420": 54419,
+			"57550": 46131,
+			"59692": 62625,
+			"63438": 46108
+		},
+		"combat": 4914,
+		"extra": {
+			"magicattack": 4656, // 3 chisel:accuracy_magic
+			"rangeattack": 4656, // 4 chisel:accuracy_ranged
+			"attackrate": 5, // 14 chisel:attack_speed
+			"damagetype": 1, // 26 chisel:potion_effect_unk3
+			"attackbonus": 4656, // 29 chisel:accuracy_melee_(npc)
+			"melee_strength": 22500, // 641 chisel:damage_melee
+			"ranged_strength": 22500, // 643 chisel:damage_ranged
+			"magic_strength": 22500, // 965 chisel:damage_magic
+			"bslay_id": 58, // 1346 chisel:kill_counter_id
+			"combatv2_attackmod": 13, // 2836 chisel:weakness_class
+			"combatv2_player_hiteffect": 1, // 2838
+			"combatv2_weakness": 0, // 2848 chisel:weakness
+			"combatv2_defence_weakclass": 55, // 2850 chisel:weakness_modifier_weak
+			"combatv2_defence_sameclass": 55, // 2851 chisel:weakness_modifier_same
+			"combatv2_defence_strongclass": 55, // 2852 chisel:weakness_modifier_strong
+			"combatv2_npc_min_hitchance": 1000, // 2864 chisel:npc_min_hitchance
+			"combatv2_npc_armour": 2765, // 2865 chisel:armor
+			"combatv2_no_resettag": 1, // 2890 chisel:jmod_god_event_elite_spawn
+			"combatv2_npc_no_tag": 1, // 2892 chisel:no_tag
+			"combatv2_npc_xp_override": 100000, // 2893 chisel:custom_experience
+			"combatv2_combat_mob_tier": 10, // 3002 chisel:potion_effect_unk6
+			"combatv2_npc_hide_healthbar": 1, // 6425
+			"bslay_tracking_var_mode_normal": 16839381, // 9012
+			"bslay_tracking_var_mode_hard": 16839382, // 9013
+			"health_headbar": 44, // 9114
+			"adrenaline_headbar": 43, // 9115
+			"progress_headbar": 46, // 9116
+			"timer_headbar": 45 // 9117
+		},
+		"headModels": [
+			145878
+		],
+		"id": 32907,
+		"models": [
+			145877,
+			145875,
+			121926
+		],
+		"movementCapabilities": 1,
+		"name": "Lady Karmina Ghrazi",
+		"priorityoffset": 10,
+		"scaleXZ": 224,
+		"scaleY": 224,
+		"texture_replacements": {
+			"24998": 24996
+		}
+	},
+	{
+		"actions": [
+			null,
+			"Attack",
+			null,
+			null,
+			null
+		],
+		"animation_group": 4923,
+		"attackCursor": 42,
+		"boundSize": 3,
+		"color_replacements": {
+			"48553": 46131,
+			"53673": 62625,
+			"54420": 54419,
+			"62887": 46108,
+			"64534": 48140
+		},
+		"combat": 4914,
+		"extra": {
+			"magicattack": 4656, // 3 chisel:accuracy_magic
+			"rangeattack": 4656, // 4 chisel:accuracy_ranged
+			"attackrate": 5, // 14 chisel:attack_speed
+			"damagetype": 3, // 26 chisel:potion_effect_unk3
+			"attackbonus": 4656, // 29 chisel:accuracy_melee_(npc)
+			"melee_strength": 22500, // 641 chisel:damage_melee
+			"ranged_strength": 22500, // 643 chisel:damage_ranged
+			"magic_strength": 22500, // 965 chisel:damage_magic
+			"combatv2_attackmod": 13, // 2836 chisel:weakness_class
+			"combatv2_player_hiteffect": 1, // 2838
+			"combatv2_weakness": 0, // 2848 chisel:weakness
+			"combatv2_defence_weakclass": 55, // 2850 chisel:weakness_modifier_weak
+			"combatv2_defence_sameclass": 55, // 2851 chisel:weakness_modifier_same
+			"combatv2_defence_strongclass": 55, // 2852 chisel:weakness_modifier_strong
+			"combatv2_npc_min_hitchance": 1000, // 2864 chisel:npc_min_hitchance
+			"combatv2_npc_armour": 2765, // 2865 chisel:armor
+			"combatv2_no_resettag": 1, // 2890 chisel:jmod_god_event_elite_spawn
+			"combatv2_npc_no_tag": 1, // 2892 chisel:no_tag
+			"combatv2_npc_xp_override": 100000, // 2893 chisel:custom_experience
+			"combatv2_combat_mob_tier": 10, // 3002 chisel:potion_effect_unk6
+			"combatv2_npc_hide_healthbar": 1, // 6425
+			"health_headbar": 44, // 9114
+			"adrenaline_headbar": 43, // 9115
+			"progress_headbar": 46, // 9116
+			"timer_headbar": 45 // 9117
+		},
+		"headModels": [
+			145881
+		],
+		"id": 32908,
+		"models": [
+			145880,
+			145876,
+			121926
+		],
+		"movementCapabilities": 1,
+		"name": "Lord Vasily Ghrazi",
+		"priorityoffset": 10,
+		"scaleXZ": 224,
+		"scaleY": 224,
+		"texture_replacements": {
+			"24999": 24997
+		}
+	},
+	{
+		"actions": [
+			null,
+			"Attack",
+			null,
+			null,
+			null
+		],
+		"animation_group": 4922,
+		"attackCursor": 42,
+		"boundSize": 3,
+		"combat": 4914,
+		"extra": {
+			"magicattack": 4656, // 3 chisel:accuracy_magic
+			"rangeattack": 4656, // 4 chisel:accuracy_ranged
+			"attackrate": 5, // 14 chisel:attack_speed
+			"damagetype": 1, // 26 chisel:potion_effect_unk3
+			"attackbonus": 4656, // 29 chisel:accuracy_melee_(npc)
+			"melee_strength": 22500, // 641 chisel:damage_melee
+			"ranged_strength": 22500, // 643 chisel:damage_ranged
+			"magic_strength": 22500, // 965 chisel:damage_magic
+			"bslay_id": 58, // 1346 chisel:kill_counter_id
+			"combatv2_attackmod": 13, // 2836 chisel:weakness_class
+			"combatv2_player_hiteffect": 1, // 2838
+			"combatv2_weakness": 0, // 2848 chisel:weakness
+			"combatv2_defence_weakclass": 55, // 2850 chisel:weakness_modifier_weak
+			"combatv2_defence_sameclass": 55, // 2851 chisel:weakness_modifier_same
+			"combatv2_defence_strongclass": 55, // 2852 chisel:weakness_modifier_strong
+			"combatv2_npc_min_hitchance": 1000, // 2864 chisel:npc_min_hitchance
+			"combatv2_npc_armour": 2765, // 2865 chisel:armor
+			"combatv2_no_resettag": 1, // 2890 chisel:jmod_god_event_elite_spawn
+			"combatv2_npc_no_tag": 1, // 2892 chisel:no_tag
+			"combatv2_npc_xp_override": 100000, // 2893 chisel:custom_experience
+			"combatv2_combat_mob_tier": 10, // 3002 chisel:potion_effect_unk6
+			"combatv2_npc_hide_healthbar": 1, // 6425
+			"bslay_tracking_var_mode_normal": 16839381, // 9012
+			"bslay_tracking_var_mode_hard": 16839382, // 9013
+			"health_headbar": 44, // 9114
+			"adrenaline_headbar": 43, // 9115
+			"progress_headbar": 46, // 9116
+			"timer_headbar": 45 // 9117
+		},
+		"headModels": [
+			145878
+		],
+		"id": 32909,
+		"models": [
+			145877,
+			145875,
+			121926
+		],
+		"movementCapabilities": 1,
+		"name": "Lady Karmina Ghrazi",
+		"priorityoffset": 10,
+		"scaleXZ": 224,
+		"scaleY": 224
+	},
+	{
+		"actions": [
+			null,
+			"Attack",
+			null,
+			null,
+			null
+		],
+		"animation_group": 4923,
+		"attackCursor": 42,
+		"boundSize": 3,
+		"combat": 4914,
+		"extra": {
+			"magicattack": 4656, // 3 chisel:accuracy_magic
+			"rangeattack": 4656, // 4 chisel:accuracy_ranged
+			"attackrate": 5, // 14 chisel:attack_speed
+			"damagetype": 3, // 26 chisel:potion_effect_unk3
+			"attackbonus": 4656, // 29 chisel:accuracy_melee_(npc)
+			"melee_strength": 22500, // 641 chisel:damage_melee
+			"ranged_strength": 22500, // 643 chisel:damage_ranged
+			"magic_strength": 22500, // 965 chisel:damage_magic
+			"combatv2_attackmod": 13, // 2836 chisel:weakness_class
+			"combatv2_player_hiteffect": 1, // 2838
+			"combatv2_weakness": 0, // 2848 chisel:weakness
+			"combatv2_defence_weakclass": 55, // 2850 chisel:weakness_modifier_weak
+			"combatv2_defence_sameclass": 55, // 2851 chisel:weakness_modifier_same
+			"combatv2_defence_strongclass": 55, // 2852 chisel:weakness_modifier_strong
+			"combatv2_npc_min_hitchance": 1000, // 2864 chisel:npc_min_hitchance
+			"combatv2_npc_armour": 2765, // 2865 chisel:armor
+			"combatv2_no_resettag": 1, // 2890 chisel:jmod_god_event_elite_spawn
+			"combatv2_npc_no_tag": 1, // 2892 chisel:no_tag
+			"combatv2_npc_xp_override": 100000, // 2893 chisel:custom_experience
+			"combatv2_combat_mob_tier": 10, // 3002 chisel:potion_effect_unk6
+			"combatv2_npc_hide_healthbar": 1, // 6425
+			"health_headbar": 44, // 9114
+			"adrenaline_headbar": 43, // 9115
+			"progress_headbar": 46, // 9116
+			"timer_headbar": 45 // 9117
+		},
+		"headModels": [
+			145881
+		],
+		"id": 32910,
+		"models": [
+			145880,
+			145876,
+			121926
+		],
+		"movementCapabilities": 1,
+		"name": "Lord Vasily Ghrazi",
+		"priorityoffset": 10,
+		"scaleXZ": 224,
+		"scaleY": 224
+	},
+	{
+		"animation_group": 4931,
+		"boundSize": 3,
+		"color_replacements": {
+			"48553": 46131,
+			"53673": 62625,
+			"54420": 54419,
+			"62887": 46108,
+			"64534": 48140
+		},
+		"combat": 4914,
+		"extra": {
+			"magicattack": 4656, // 3 chisel:accuracy_magic
+			"rangeattack": 4656, // 4 chisel:accuracy_ranged
+			"attackrate": 5, // 14 chisel:attack_speed
+			"damagetype": 3, // 26 chisel:potion_effect_unk3
+			"attackbonus": 4656, // 29 chisel:accuracy_melee_(npc)
+			"melee_strength": 22500, // 641 chisel:damage_melee
+			"ranged_strength": 22500, // 643 chisel:damage_ranged
+			"magic_strength": 22500, // 965 chisel:damage_magic
+			"combatv2_attackmod": 13, // 2836 chisel:weakness_class
+			"combatv2_player_hiteffect": 1, // 2838
+			"combatv2_weakness": 0, // 2848 chisel:weakness
+			"combatv2_defence_weakclass": 55, // 2850 chisel:weakness_modifier_weak
+			"combatv2_defence_sameclass": 55, // 2851 chisel:weakness_modifier_same
+			"combatv2_defence_strongclass": 55, // 2852 chisel:weakness_modifier_strong
+			"combatv2_npc_min_hitchance": 1000, // 2864 chisel:npc_min_hitchance
+			"combatv2_npc_armour": 2765, // 2865 chisel:armor
+			"combatv2_no_resettag": 1, // 2890 chisel:jmod_god_event_elite_spawn
+			"combatv2_npc_no_tag": 1, // 2892 chisel:no_tag
+			"combatv2_npc_xp_override": 100000, // 2893 chisel:custom_experience
+			"combatv2_combat_mob_tier": 10, // 3002 chisel:potion_effect_unk6
+			"combatv2_npc_hide_healthbar": 1, // 6425
+			"health_headbar": 44, // 9114
+			"adrenaline_headbar": 43, // 9115
+			"progress_headbar": 46, // 9116
+			"timer_headbar": 45 // 9117
+		},
+		"headModels": [
+			145881
+		],
+		"id": 32911,
+		"models": [
+			145880,
+			145876,
+			121926
+		],
+		"movementCapabilities": 1,
+		"name": "Lord Vasily Ghrazi",
+		"priorityoffset": 10,
+		"scaleXZ": 224,
+		"scaleY": 224,
+		"texture_replacements": {
+			"24999": 24997
+		}
+	},
+	{
+		"actions": [
+			"Expunge",
+			null,
+			null,
+			null,
+			null
+		],
+		"animation_group": 4579,
+		"boundSize": 1,
+		"color_replacements": {
+			"2862": 56716,
+			"2867": 56716,
+			"3768": 56716,
+			"8737": 56716
+		},
+		"combat": 500,
+		"extra": {
+			"combatv2_player_hiteffect": 1 // 2838
+		},
+		"id": 32912,
+		"models": [
+			123742
+		],
+		"movementCapabilities": 1,
+		"name": "Sanguine tumour",
+		"priorityoffset": 6,
+		"scaleXZ": 160,
+		"scaleY": 160,
+		"texture_replacements": {
+			"14156": 23455
+		}
+	},
+	{
+		"actions": [
+			null,
+			"Attack",
+			null,
+			null,
+			null
+		],
+		"animation_group": 4579,
+		"attackCursor": 42,
+		"boundSize": 1,
+		"color_replacements": {
+			"2862": 56716,
+			"2867": 56716,
+			"3768": 56716,
+			"8737": 56716
+		},
+		"combat": 500,
+		"extra": {
+			"combatv2_player_hiteffect": 1 // 2838
+		},
+		"id": 32913,
+		"models": [
+			123742
+		],
+		"movementCapabilities": 1,
+		"name": "Sanguine tumour",
+		"priorityoffset": 6,
+		"scaleXZ": 160,
+		"scaleY": 160,
+		"texture_replacements": {
+			"14156": 23455
+		},
+		"turnspeed": 0
+	},
+	{
+		"animation_group": 4918,
+		"boundSize": 3,
+		"combat": 2134,
+		"extra": {
+			"combatv2_player_hiteffect": 1, // 2838
+			"combatv2_weakness": 0, // 2848 chisel:weakness
+			"combatv2_defence_weakclass": 60, // 2850 chisel:weakness_modifier_weak
+			"combatv2_defence_sameclass": 60, // 2851 chisel:weakness_modifier_same
+			"combatv2_defence_strongclass": 60, // 2852 chisel:weakness_modifier_strong
+			"combatv2_npc_armour": 2458, // 2865 chisel:armor
+			"combatv2_no_resettag": 1, // 2890 chisel:jmod_god_event_elite_spawn
+			"combatv2_npc_no_tag": 1, // 2892 chisel:no_tag
+			"health_headbar": 44 // 9114
+		},
+		"id": 32914,
+		"models": [
+			146330
+		],
+		"movementCapabilities": 1,
+		"name": "Sanguine heart",
+		"priorityoffset": 6
+	},
+	{
+		"actions": [
+			null,
+			"Attack",
+			null,
+			null,
+			null
+		],
+		"animation_group": 4918,
+		"attackCursor": 42,
+		"boundSize": 3,
+		"combat": 2134,
+		"extra": {
+			"combatv2_player_hiteffect": 1, // 2838
+			"combatv2_weakness": 0, // 2848 chisel:weakness
+			"combatv2_defence_weakclass": 60, // 2850 chisel:weakness_modifier_weak
+			"combatv2_defence_sameclass": 60, // 2851 chisel:weakness_modifier_same
+			"combatv2_defence_strongclass": 60, // 2852 chisel:weakness_modifier_strong
+			"combatv2_npc_armour": 2458, // 2865 chisel:armor
+			"combatv2_no_resettag": 1, // 2890 chisel:jmod_god_event_elite_spawn
+			"combatv2_npc_no_tag": 1, // 2892 chisel:no_tag
+			"health_headbar": 44 // 9114
+		},
+		"id": 32915,
+		"models": [
+			146330
+		],
+		"movementCapabilities": 1,
+		"name": "Sanguine heart",
+		"priorityoffset": 6
+	},
+	{
+		"animation_group": 4908,
+		"boundSize": 3,
+		"combat": 0,
+		"headModels": [
+			140368,
+			143896
+		],
+		"id": 32916,
+		"models": [
+			140367,
+			140419
+		],
+		"movementCapabilities": 1,
+		"name": "Inanna",
+		"respawnDirection": 2,
+		"turnspeed": 0
+	},
+	{
+		"animation_group": 4895,
+		"boundSize": 1,
+		"combat": 0,
+		"headModels": [
+			139464
+		],
+		"id": 32917,
+		"models": [
+			139465,
+			139466
+		],
+		"movementCapabilities": 1,
+		"name": "Anya",
+		"respawnDirection": 2
+	},
+	{
+		"actions": [
+			null,
+			"Attack",
+			null,
+			null,
+			null
+		],
+		"animation_group": 3557,
+		"attackCursor": 42,
+		"boundSize": 1,
+		"combat": 119,
+		"extra": {
+			"damagetype": 1, // 26 chisel:potion_effect_unk3
+			"slayer_category": 34, // 50 chisel:slayer_task_id
+			"combatv2_attackmod": 6, // 2836 chisel:weakness_class
+			"combatv2_player_hiteffect": 1, // 2838
+			"combatv2_weakness": 0, // 2848 chisel:weakness
+			"combatv2_defence_weakclass": 60, // 2850 chisel:weakness_modifier_weak
+			"combatv2_defence_sameclass": 60, // 2851 chisel:weakness_modifier_same
+			"combatv2_defence_strongclass": 60, // 2852 chisel:weakness_modifier_strong
+			"combatv2_npc_armour": 2178, // 2865 chisel:armor
+			"combatv2_no_resettag": 1, // 2890 chisel:jmod_god_event_elite_spawn
+			"combatv2_npc_no_tag": 1, // 2892 chisel:no_tag
+			"combatv2_npc_xp_override": 0 // 2893 chisel:custom_experience
+		},
+		"headModels": [
+			22786
+		],
+		"id": 32918,
+		"models": [
+			106713
+		],
+		"movementCapabilities": 1,
+		"name": "Strigoi",
+		"priorityoffset": 6
+	},
+	{
+		"alwaysontop": true,
+		"animation_group": 2239,
+		"boundSize": 1,
+		"combat": 0,
+		"headModels": [
+			130491
+		],
+		"id": 32919,
+		"models": [
+			130539,
+			130512,
+			130536
+		],
+		"movementCapabilities": 1,
+		"name": "Lady Grey",
+		"respawnDirection": 6,
+		"turnspeed": 0
+	},
+	{
+		"action_cursors": [
+			44,
+			null,
+			null,
+			null,
+			null,
+			null
+		],
+		"actions": [
+			"Talk to",
+			null,
+			null,
+			null,
+			null
+		],
+		"alwaysontop": true,
+		"animation_group": 2239,
+		"boundSize": 1,
+		"combat": 0,
+		"headModels": [
+			130491
+		],
+		"id": 32920,
+		"models": [
+			130539,
+			130512,
+			130536
+		],
+		"movementCapabilities": 1,
+		"name": "Lady Grey",
+		"respawnDirection": 6,
+		"turnspeed": 0
+	},
+	{
+		"alwaysontop": true,
+		"boundSize": 1,
+		"color_replacements": {
+			"926": 61139
+		},
+		"combat": 0,
+		"id": 32921,
+		"models": [
+			101313,
+			101314,
+			3188
+		],
+		"movementCapabilities": 1,
+		"name": "Do not translate - never seen.",
+		"turnspeed": 0
+	},
+	{
+		"alwaysontop": true,
+		"boundSize": 1,
+		"color_replacements": {
+			"926": 34712
+		},
+		"combat": 0,
+		"id": 32922,
+		"models": [
+			101313,
+			101314,
+			137412
+		],
+		"movementCapabilities": 1,
+		"name": "Do not translate - never seen.",
+		"turnspeed": 0
+	},
+	{
+		"action_cursors": [
+			44,
+			null,
+			null,
+			null,
+			null,
+			null
+		],
+		"actions": [
+			"Talk to",
+			null,
+			null,
+			null,
+			null
+		],
+		"animation_group": 4489,
+		"boundSize": 3,
+		"combat": 0,
+		"headModels": [
+			120646
+		],
+		"id": 32923,
+		"models": [
+			120645
+		],
+		"movementCapabilities": 1,
+		"name": "Death",
+		"quests": [
+			534
+		],
+		"turnspeed": 0
+	},
+	{
+		"animation_group": 4922,
+		"boundSize": 1,
+		"combat": 4914,
+		"extra": {
+			"magicattack": 2358, // 3 chisel:accuracy_magic
+			"rangeattack": 2358, // 4 chisel:accuracy_ranged
+			"attackrate": 5, // 14 chisel:attack_speed
+			"damagetype": 1, // 26 chisel:potion_effect_unk3
+			"attackbonus": 750, // 29 chisel:accuracy_melee_(npc)
+			"melee_strength": 22500, // 641 chisel:damage_melee
+			"ranged_strength": 22500, // 643 chisel:damage_ranged
+			"magic_strength": 22500, // 965 chisel:damage_magic
+			"bslay_id": 58, // 1346 chisel:kill_counter_id
+			"combatv2_player_hiteffect": 1, // 2838
+			"combatv2_weakness": 2, // 2848 chisel:weakness
+			"combatv2_defence_weakclass": 65, // 2850 chisel:weakness_modifier_weak
+			"combatv2_defence_sameclass": 55, // 2851 chisel:weakness_modifier_same
+			"combatv2_defence_strongclass": 55, // 2852 chisel:weakness_modifier_strong
+			"combatv2_npc_min_hitchance": 300, // 2864 chisel:npc_min_hitchance
+			"combatv2_npc_armour": 2458, // 2865 chisel:armor
+			"combatv2_no_resettag": 1, // 2890 chisel:jmod_god_event_elite_spawn
+			"combatv2_npc_no_tag": 1, // 2892 chisel:no_tag
+			"combatv2_npc_xp_override": 100000, // 2893 chisel:custom_experience
+			"combatv2_npc_hide_healthbar": 1, // 6425
+			"bslay_tracking_var_mode_normal": 16839381, // 9012
+			"bslay_tracking_var_mode_hard": 16839382, // 9013
+			"health_headbar": 44, // 9114
+			"adrenaline_headbar": 43, // 9115
+			"progress_headbar": 46, // 9116
+			"timer_headbar": 45 // 9117
+		},
+		"headModels": [
+			145878
+		],
+		"id": 32924,
+		"models": [
+			145877,
+			145875
+		],
+		"movementCapabilities": 1,
+		"name": "Lady Karmina Ghrazi",
+		"priorityoffset": 10,
+		"scaleXZ": 224,
+		"scaleY": 224,
+		"transmogfakenpc": true
+	},
+	{
+		"animation_group": 4923,
+		"boundSize": 1,
+		"combat": 4914,
+		"extra": {
+			"magicattack": 2358, // 3 chisel:accuracy_magic
+			"rangeattack": 2358, // 4 chisel:accuracy_ranged
+			"attackrate": 5, // 14 chisel:attack_speed
+			"damagetype": 3, // 26 chisel:potion_effect_unk3
+			"attackbonus": 750, // 29 chisel:accuracy_melee_(npc)
+			"melee_strength": 22500, // 641 chisel:damage_melee
+			"ranged_strength": 22500, // 643 chisel:damage_ranged
+			"magic_strength": 22500, // 965 chisel:damage_magic
+			"combatv2_player_hiteffect": 1, // 2838
+			"combatv2_weakness": 9, // 2848 chisel:weakness
+			"combatv2_defence_weakclass": 65, // 2850 chisel:weakness_modifier_weak
+			"combatv2_defence_sameclass": 55, // 2851 chisel:weakness_modifier_same
+			"combatv2_defence_strongclass": 55, // 2852 chisel:weakness_modifier_strong
+			"combatv2_npc_min_hitchance": 300, // 2864 chisel:npc_min_hitchance
+			"combatv2_npc_armour": 2458, // 2865 chisel:armor
+			"combatv2_no_resettag": 1, // 2890 chisel:jmod_god_event_elite_spawn
+			"combatv2_npc_no_tag": 1, // 2892 chisel:no_tag
+			"combatv2_npc_xp_override": 100000, // 2893 chisel:custom_experience
+			"combatv2_npc_hide_healthbar": 1, // 6425
+			"health_headbar": 44, // 9114
+			"adrenaline_headbar": 43, // 9115
+			"progress_headbar": 46, // 9116
+			"timer_headbar": 45 // 9117
+		},
+		"headModels": [
+			145881
+		],
+		"id": 32925,
+		"models": [
+			145880,
+			145876
+		],
+		"movementCapabilities": 1,
+		"name": "Lord Vasily Ghrazi",
+		"priorityoffset": 10,
+		"scaleXZ": 224,
+		"scaleY": 224,
+		"transmogfakenpc": true
+	},
+	{
+		"actions": [
+			"Interact",
+			null,
+			"Send home",
+			null,
+			null
+		],
+		"animation_group": 4932,
+		"boundSize": 1,
+		"color_replacements": {
+			"1308": 48140,
+			"54420": 54419,
+			"57550": 46131,
+			"59692": 62625,
+			"63438": 46108
+		},
+		"combat": 0,
+		"drawMapDot": false,
+		"extra": {
+			"follower_obj": 64199, // 75 chisel:pet_item_id
+			"mtx_no_recolour": 1, // 477 chisel:pet_category
+			"mtxmgt_pet_struct": 53543 // 5051 chisel:pet_varbit_reference
+		},
+		"headModels": [
+			145878
+		],
+		"id": 32926,
+		"models": [
+			146636,
+			146638
+		],
+		"movementCapabilities": 3,
+		"name": "Lady Karmini",
+		"texture_replacements": {
+			"24998": 25245
+		}
+	},
+	{
+		"animation_group": 4932,
+		"boundSize": 1,
+		"color_replacements": {
+			"1308": 48140,
+			"54420": 54419,
+			"57550": 46131,
+			"59692": 62625,
+			"63438": 46108
+		},
+		"combat": 0,
+		"drawMapDot": false,
+		"extra": {
+			"mtx_no_recolour": 1, // 477 chisel:pet_category
+			"mtxmgt_pet_struct": 53543 // 5051 chisel:pet_varbit_reference
+		},
+		"headModels": [
+			145878
+		],
+		"id": 32927,
+		"models": [
+			146636,
+			146638
+		],
+		"movementCapabilities": 3,
+		"name": "Lady Karmini",
+		"texture_replacements": {
+			"24998": 25245
+		}
 	}
 ]

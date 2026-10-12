@@ -261,6 +261,11 @@ function script13304(int0: number): [number, number] {
             int1 = varbitplayer_60743;
             break;
         }
+        case 53545: {
+            int1 = varbitplayer_62165;
+            int2 = varbitplayer_62166;
+            break;
+        }
         case -1: {
             script12478("Null struct getting kills.");
             break;

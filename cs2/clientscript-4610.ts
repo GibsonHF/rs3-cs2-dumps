@@ -261,6 +261,11 @@ function script4610(int0: number): [number, number] {
             int1 = varbitplayer_60745;
             break;
         }
+        case 53545: {
+            int1 = varbitplayer_62167;
+            int2 = varbitplayer_62168;
+            break;
+        }
         default: {
             script12478("Unrecognised struct getting prestige.");
             break;

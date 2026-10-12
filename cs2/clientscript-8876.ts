@@ -9,7 +9,11 @@ function script8876(int0: number, int1: number, string0: string): void {
             break;
         }
         case 32892:
-        case 32893: {
+        case 32893:
+        case 32907:
+        case 32909:
+        case 32908:
+        case 32910: {
             int3 = varclient_8482;
             break;
         }

@@ -87,5 +87,7 @@ function script13574(): number {
     int0 = (int0 + (varbitplayer_60353 + (varbitplayer_60354 * 60000)));
     int0 = (int0 + (varbitplayer_60742 + (varbitplayer_60744 * 60000)));
     int0 = (int0 + (varbitplayer_60743 + (varbitplayer_60745 * 60000)));
+    int0 = (int0 + (varbitplayer_62165 + (varbitplayer_62167 * 60000)));
+    int0 = (int0 + (varbitplayer_62166 + (varbitplayer_62168 * 60000)));
     return int0;
 }

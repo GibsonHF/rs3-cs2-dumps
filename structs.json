@@ -6469,8 +6469,8 @@
 			"mtxmgt_name": "War's Greataxe", // 2533 chisel:SGS_name
 			"mtxmgt_source": 8, // 2546
 			"mtxmgt_filters": 2048, // 4591
-			"release_date": 8629, // 4742 chisel:th_available_date
-			"withdraw_date": 8664, // 4743 chisel:available_till
+			"release_date": 8993, // 4742 chisel:th_available_date
+			"withdraw_date": 9021, // 4743 chisel:available_till
 			"mtxmgt_parent_id": 547, // 4744
 			"mtxmgt_source_custom": "This can be obtained from the Harvest Boon shop in the Harvest Hollow, during Halloween.", // 4751 chisel:cosmetic_unlock_hint
 			"original_release_date": 6067 // 6628
@@ -6484,8 +6484,8 @@
 			"mtxmgt_name": "Staff of Famine", // 2533 chisel:SGS_name
 			"mtxmgt_source": 8, // 2546
 			"mtxmgt_filters": 32768, // 4591
-			"release_date": 8629, // 4742 chisel:th_available_date
-			"withdraw_date": 8664, // 4743 chisel:available_till
+			"release_date": 8993, // 4742 chisel:th_available_date
+			"withdraw_date": 9021, // 4743 chisel:available_till
 			"mtxmgt_parent_id": 548, // 4744
 			"mtxmgt_source_custom": "This can be obtained from the Harvest Boon shop in the Harvest Hollow, during Halloween.", // 4751 chisel:cosmetic_unlock_hint
 			"original_release_date": 6067 // 6628
@@ -6499,8 +6499,8 @@
 			"mtxmgt_name": "Pestilence's Bow", // 2533 chisel:SGS_name
 			"mtxmgt_source": 8, // 2546
 			"mtxmgt_filters": 8192, // 4591
-			"release_date": 8629, // 4742 chisel:th_available_date
-			"withdraw_date": 8664, // 4743 chisel:available_till
+			"release_date": 8993, // 4742 chisel:th_available_date
+			"withdraw_date": 9021, // 4743 chisel:available_till
 			"mtxmgt_parent_id": 549, // 4744
 			"mtxmgt_source_custom": "This can be obtained from the Harvest Boon shop in the Harvest Hollow, during Halloween.", // 4751 chisel:cosmetic_unlock_hint
 			"original_release_date": 6067 // 6628
@@ -6514,8 +6514,8 @@
 			"mtxmgt_name": "Lucien's staff", // 2533 chisel:SGS_name
 			"mtxmgt_source": 8, // 2546
 			"mtxmgt_filters": 32768, // 4591
-			"release_date": 8629, // 4742 chisel:th_available_date
-			"withdraw_date": 8664, // 4743 chisel:available_till
+			"release_date": 8993, // 4742 chisel:th_available_date
+			"withdraw_date": 9021, // 4743 chisel:available_till
 			"mtxmgt_parent_id": 550, // 4744
 			"mtxmgt_source_custom": "This can be obtained from the Harvest Boon shop in the Harvest Hollow, during Halloween.", // 4751 chisel:cosmetic_unlock_hint
 			"original_release_date": 6093 // 6628
@@ -6529,8 +6529,8 @@
 			"mtxmgt_name": "The Urnbreakable", // 2533 chisel:SGS_name
 			"mtxmgt_title_id": 481, // 2543 chisel:title_index_in_enum
 			"mtxmgt_source": 8, // 2546
-			"release_date": 8629, // 4742 chisel:th_available_date
-			"withdraw_date": 8664, // 4743 chisel:available_till
+			"release_date": 8993, // 4742 chisel:th_available_date
+			"withdraw_date": 9021, // 4743 chisel:available_till
 			"mtxmgt_source_custom": "This can be obtained from the Harvest Boon shop in the Harvest Hollow, during Halloween.", // 4751 chisel:cosmetic_unlock_hint
 			"original_release_date": 6067 // 6628
 		},
@@ -227876,8 +227876,8 @@
 			"mtxmgt_name": "Ghost Hunter", // 2533 chisel:SGS_name
 			"mtxmgt_title_id": 243, // 2543 chisel:title_index_in_enum
 			"mtxmgt_source": 8, // 2546
-			"release_date": 8629, // 4742 chisel:th_available_date
-			"withdraw_date": 8664, // 4743 chisel:available_till
+			"release_date": 8993, // 4742 chisel:th_available_date
+			"withdraw_date": 9021, // 4743 chisel:available_till
 			"mtxmgt_source_custom": "This can be obtained from the Harvest Boon shop in the Harvest Hollow, during Halloween." // 4751 chisel:cosmetic_unlock_hint
 		},
 		"id": 29147
@@ -264547,8 +264547,8 @@
 			"mtxmgt_preview_y_offset": 50, // 2541
 			"mtxmgt_source": 8, // 2546
 			"mtxmgt_renameable": 0, // 4420
-			"release_date": 8629, // 4742 chisel:th_available_date
-			"withdraw_date": 8664, // 4743 chisel:available_till
+			"release_date": 8993, // 4742 chisel:th_available_date
+			"withdraw_date": 9021, // 4743 chisel:available_till
 			"mtxmgt_source_custom": "This can be obtained from the Harvest Boon shop in the Harvest Hollow, during Halloween.", // 4751 chisel:cosmetic_unlock_hint
 			"mtx_front_end_confirm_pet_zoom": 300, // 8666
 			"trh_preview_pet_bas": 2790 // 8692
@@ -278641,8 +278641,8 @@
 			"mtxmgt_name": "Spooky Spider", // 2533 chisel:SGS_name
 			"mtxmgt_source": 8, // 2546
 			"mtxmgt_pack_structs": 11805, // 4717 chisel:sgs_pack_components
-			"release_date": 8629, // 4742 chisel:th_available_date
-			"withdraw_date": 8664, // 4743 chisel:available_till
+			"release_date": 8993, // 4742 chisel:th_available_date
+			"withdraw_date": 9021, // 4743 chisel:available_till
 			"mtxmgt_parent_id": 168, // 4744
 			"mtxmgt_source_custom": "This can be obtained from the Harvest Boon shop in the Harvest Hollow, during Halloween.", // 4751 chisel:cosmetic_unlock_hint
 			"original_release_date": 5346 // 6628
@@ -286401,8 +286401,8 @@
 			"mtxmgt_preview_y_offset": 70, // 2541
 			"mtxmgt_source": 8, // 2546
 			"mtxmgt_renameable": 0, // 4420
-			"release_date": 8629, // 4742 chisel:th_available_date
-			"withdraw_date": 8664, // 4743 chisel:available_till
+			"release_date": 8993, // 4742 chisel:th_available_date
+			"withdraw_date": 9021, // 4743 chisel:available_till
 			"mtxmgt_parent_id": 166, // 4744
 			"mtxmgt_source_custom": "This can be obtained from the Harvest Boon shop in the Harvest Hollow, during Halloween.", // 4751 chisel:cosmetic_unlock_hint
 			"original_release_date": 5349 // 6628
@@ -286423,8 +286423,8 @@
 			"mtxmgt_name": "Inflorescent Wings", // 2533 chisel:SGS_name
 			"mtxmgt_source": 8, // 2546
 			"mtxmgt_pack_structs": 11677, // 4717 chisel:sgs_pack_components
-			"release_date": 8629, // 4742 chisel:th_available_date
-			"withdraw_date": 8664, // 4743 chisel:available_till
+			"release_date": 8993, // 4742 chisel:th_available_date
+			"withdraw_date": 9021, // 4743 chisel:available_till
 			"mtxmgt_parent_id": 164, // 4744
 			"mtxmgt_source_custom": "This can be obtained from the Harvest Boon shop in the Harvest Hollow, during Halloween.", // 4751 chisel:cosmetic_unlock_hint
 			"original_release_date": 5332 // 6628
@@ -286436,8 +286436,8 @@
 			"mtxmgt_name": "Decaying Wings", // 2533 chisel:SGS_name
 			"mtxmgt_source": 8, // 2546
 			"mtxmgt_pack_structs": 11678, // 4717 chisel:sgs_pack_components
-			"release_date": 8629, // 4742 chisel:th_available_date
-			"withdraw_date": 8664, // 4743 chisel:available_till
+			"release_date": 8993, // 4742 chisel:th_available_date
+			"withdraw_date": 9021, // 4743 chisel:available_till
 			"mtxmgt_parent_id": 165, // 4744
 			"mtxmgt_source_custom": "This can be obtained from the Harvest Boon shop in the Harvest Hollow, during Halloween.", // 4751 chisel:cosmetic_unlock_hint
 			"original_release_date": 5332 // 6628
@@ -286451,8 +286451,8 @@
 			"mtxmgt_name": "Inflorescent Wings", // 2533 chisel:SGS_name
 			"mtxmgt_source": 8, // 2546
 			"mtxmgt_parent_struct": 34489, // 4419 chisel:outfit_parent_vbId
-			"release_date": 8629, // 4742 chisel:th_available_date
-			"withdraw_date": 8664, // 4743 chisel:available_till
+			"release_date": 8993, // 4742 chisel:th_available_date
+			"withdraw_date": 9021, // 4743 chisel:available_till
 			"mtxmgt_source_custom": "This can be obtained from the Harvest Boon shop in the Harvest Hollow, during Halloween.", // 4751 chisel:cosmetic_unlock_hint
 			"original_release_date": 5332 // 6628
 		},
@@ -286465,8 +286465,8 @@
 			"mtxmgt_name": "Decaying Wings", // 2533 chisel:SGS_name
 			"mtxmgt_source": 8, // 2546
 			"mtxmgt_parent_struct": 34490, // 4419 chisel:outfit_parent_vbId
-			"release_date": 8629, // 4742 chisel:th_available_date
-			"withdraw_date": 8664, // 4743 chisel:available_till
+			"release_date": 8993, // 4742 chisel:th_available_date
+			"withdraw_date": 9021, // 4743 chisel:available_till
 			"mtxmgt_source_custom": "This can be obtained from the Harvest Boon shop in the Harvest Hollow, during Halloween.", // 4751 chisel:cosmetic_unlock_hint
 			"original_release_date": 5332 // 6628
 		},
@@ -289712,8 +289712,8 @@
 			"mtxmgt_name": "Spooky Spider", // 2533 chisel:SGS_name
 			"mtxmgt_source": 8, // 2546
 			"mtxmgt_parent_struct": 33813, // 4419 chisel:outfit_parent_vbId
-			"release_date": 8629, // 4742 chisel:th_available_date
-			"withdraw_date": 8664, // 4743 chisel:available_till
+			"release_date": 8993, // 4742 chisel:th_available_date
+			"withdraw_date": 9021, // 4743 chisel:available_till
 			"mtxmgt_source_custom": "This can be obtained from the Harvest Boon shop in the Harvest Hollow, during Halloween.", // 4751 chisel:cosmetic_unlock_hint
 			"original_release_date": 5346 // 6628
 		},
@@ -289726,8 +289726,8 @@
 			"mtxmgt_name": "Spooky Spider Head", // 2533 chisel:SGS_name
 			"mtxmgt_source": 8, // 2546
 			"mtxmgt_parent_struct": 33813, // 4419 chisel:outfit_parent_vbId
-			"release_date": 8629, // 4742 chisel:th_available_date
-			"withdraw_date": 8664, // 4743 chisel:available_till
+			"release_date": 8993, // 4742 chisel:th_available_date
+			"withdraw_date": 9021, // 4743 chisel:available_till
 			"mtxmgt_source_custom": "This can be obtained from the Harvest Boon shop in the Harvest Hollow, during Halloween.", // 4751 chisel:cosmetic_unlock_hint
 			"original_release_date": 5346 // 6628
 		},
@@ -289740,8 +289740,8 @@
 			"mtxmgt_name": "Spooky Spider Top", // 2533 chisel:SGS_name
 			"mtxmgt_source": 8, // 2546
 			"mtxmgt_parent_struct": 33813, // 4419 chisel:outfit_parent_vbId
-			"release_date": 8629, // 4742 chisel:th_available_date
-			"withdraw_date": 8664, // 4743 chisel:available_till
+			"release_date": 8993, // 4742 chisel:th_available_date
+			"withdraw_date": 9021, // 4743 chisel:available_till
 			"mtxmgt_source_custom": "This can be obtained from the Harvest Boon shop in the Harvest Hollow, during Halloween.", // 4751 chisel:cosmetic_unlock_hint
 			"original_release_date": 5346 // 6628
 		},
@@ -289754,8 +289754,8 @@
 			"mtxmgt_name": "Spooky Spider Bottoms", // 2533 chisel:SGS_name
 			"mtxmgt_source": 8, // 2546
 			"mtxmgt_parent_struct": 33813, // 4419 chisel:outfit_parent_vbId
-			"release_date": 8629, // 4742 chisel:th_available_date
-			"withdraw_date": 8664, // 4743 chisel:available_till
+			"release_date": 8993, // 4742 chisel:th_available_date
+			"withdraw_date": 9021, // 4743 chisel:available_till
 			"mtxmgt_source_custom": "This can be obtained from the Harvest Boon shop in the Harvest Hollow, during Halloween.", // 4751 chisel:cosmetic_unlock_hint
 			"original_release_date": 5346 // 6628
 		},
@@ -289768,8 +289768,8 @@
 			"mtxmgt_name": "Spooky Spider Boots", // 2533 chisel:SGS_name
 			"mtxmgt_source": 8, // 2546
 			"mtxmgt_parent_struct": 33813, // 4419 chisel:outfit_parent_vbId
-			"release_date": 8629, // 4742 chisel:th_available_date
-			"withdraw_date": 8664, // 4743 chisel:available_till
+			"release_date": 8993, // 4742 chisel:th_available_date
+			"withdraw_date": 9021, // 4743 chisel:available_till
 			"mtxmgt_source_custom": "This can be obtained from the Harvest Boon shop in the Harvest Hollow, during Halloween.", // 4751 chisel:cosmetic_unlock_hint
 			"original_release_date": 5346 // 6628
 		},
@@ -289782,8 +289782,8 @@
 			"mtxmgt_name": "Spooky Spider Gloves", // 2533 chisel:SGS_name
 			"mtxmgt_source": 8, // 2546
 			"mtxmgt_parent_struct": 33813, // 4419 chisel:outfit_parent_vbId
-			"release_date": 8629, // 4742 chisel:th_available_date
-			"withdraw_date": 8664, // 4743 chisel:available_till
+			"release_date": 8993, // 4742 chisel:th_available_date
+			"withdraw_date": 9021, // 4743 chisel:available_till
 			"mtxmgt_source_custom": "This can be obtained from the Harvest Boon shop in the Harvest Hollow, during Halloween.", // 4751 chisel:cosmetic_unlock_hint
 			"original_release_date": 5346 // 6628
 		},
@@ -289796,8 +289796,8 @@
 			"mtxmgt_name": "Spooky Spider Wings", // 2533 chisel:SGS_name
 			"mtxmgt_source": 8, // 2546
 			"mtxmgt_parent_struct": 33813, // 4419 chisel:outfit_parent_vbId
-			"release_date": 8629, // 4742 chisel:th_available_date
-			"withdraw_date": 8664, // 4743 chisel:available_till
+			"release_date": 8993, // 4742 chisel:th_available_date
+			"withdraw_date": 9021, // 4743 chisel:available_till
 			"mtxmgt_source_custom": "This can be obtained from the Harvest Boon shop in the Harvest Hollow, during Halloween.", // 4751 chisel:cosmetic_unlock_hint
 			"original_release_date": 5346 // 6628
 		},
@@ -289812,8 +289812,8 @@
 			"mtxmgt_preview_y_offset": 70, // 2541
 			"mtxmgt_source": 8, // 2546
 			"mtxmgt_renameable": 0, // 4420
-			"release_date": 8629, // 4742 chisel:th_available_date
-			"withdraw_date": 8664, // 4743 chisel:available_till
+			"release_date": 8993, // 4742 chisel:th_available_date
+			"withdraw_date": 9021, // 4743 chisel:available_till
 			"mtxmgt_parent_id": 169, // 4744
 			"mtxmgt_source_custom": "This can be obtained from the Harvest Boon shop in the Harvest Hollow, during Halloween.", // 4751 chisel:cosmetic_unlock_hint
 			"original_release_date": 5346, // 6628
@@ -290773,8 +290773,8 @@
 			"mtxmgt_preview_y_offset": 50, // 2541
 			"mtxmgt_source": 8, // 2546
 			"mtxmgt_renameable": 0, // 4420
-			"release_date": 8629, // 4742 chisel:th_available_date
-			"withdraw_date": 8664, // 4743 chisel:available_till
+			"release_date": 8993, // 4742 chisel:th_available_date
+			"withdraw_date": 9021, // 4743 chisel:available_till
 			"mtxmgt_source_custom": "This can be obtained from the Harvest Boon shop in the Harvest Hollow, during Halloween." // 4751 chisel:cosmetic_unlock_hint
 		},
 		"id": 34830
@@ -291266,8 +291266,8 @@
 			"mtxmgt_subcat": 0, // 2532 chisel:SGS_sub_group
 			"mtxmgt_name": "Lightning Rod Hat", // 2533 chisel:SGS_name
 			"mtxmgt_source": 8, // 2546
-			"release_date": 8629, // 4742 chisel:th_available_date
-			"withdraw_date": 8664, // 4743 chisel:available_till
+			"release_date": 8993, // 4742 chisel:th_available_date
+			"withdraw_date": 9021, // 4743 chisel:available_till
 			"mtxmgt_source_custom": "This can be obtained from the Harvest Boon shop in the Harvest Hollow, during Halloween.", // 4751 chisel:cosmetic_unlock_hint
 			"original_release_date": 5353 // 6628
 		},
@@ -291280,8 +291280,8 @@
 			"mtxmgt_name": "Mad Professor", // 2533 chisel:SGS_name
 			"mtxmgt_title_id": 386, // 2543 chisel:title_index_in_enum
 			"mtxmgt_source": 8, // 2546
-			"release_date": 8629, // 4742 chisel:th_available_date
-			"withdraw_date": 8664, // 4743 chisel:available_till
+			"release_date": 8993, // 4742 chisel:th_available_date
+			"withdraw_date": 9021, // 4743 chisel:available_till
 			"mtxmgt_source_custom": "This can be obtained from the Harvest Boon shop in the Harvest Hollow, during Halloween." // 4751 chisel:cosmetic_unlock_hint
 		},
 		"id": 34877
@@ -295917,8 +295917,8 @@
 			"mtxmgt_preview_zoom_offset": 500, // 2540
 			"mtxmgt_preview_y_offset": 100, // 2541
 			"mtxmgt_source": 8, // 2546
-			"release_date": 8629, // 4742 chisel:th_available_date
-			"withdraw_date": 8664, // 4743 chisel:available_till
+			"release_date": 8993, // 4742 chisel:th_available_date
+			"withdraw_date": 9021, // 4743 chisel:available_till
 			"mtxmgt_source_custom": "This can be obtained from the Harvest Boon shop in the Harvest Hollow, during Halloween.", // 4751 chisel:cosmetic_unlock_hint
 			"original_release_date": 5346 // 6628
 		},
@@ -337296,8 +337296,8 @@
 			"mtxmgt_name": "Headless Rider Outfit", // 2533 chisel:SGS_name
 			"mtxmgt_source": 8, // 2546
 			"mtxmgt_parent_struct": 38758, // 4419 chisel:outfit_parent_vbId
-			"release_date": 8629, // 4742 chisel:th_available_date
-			"withdraw_date": 8664, // 4743 chisel:available_till
+			"release_date": 8993, // 4742 chisel:th_available_date
+			"withdraw_date": 9021, // 4743 chisel:available_till
 			"mtxmgt_parent_id": 309, // 4744
 			"mtxmgt_source_custom": "This can be obtained from the Harvest Boon shop in the Harvest Hollow, during Halloween.", // 4751 chisel:cosmetic_unlock_hint
 			"original_release_date": 5724 // 6628
@@ -337311,8 +337311,8 @@
 			"mtxmgt_name": "Headless Rider Mask", // 2533 chisel:SGS_name
 			"mtxmgt_source": 8, // 2546
 			"mtxmgt_parent_struct": 38758, // 4419 chisel:outfit_parent_vbId
-			"release_date": 8629, // 4742 chisel:th_available_date
-			"withdraw_date": 8664, // 4743 chisel:available_till
+			"release_date": 8993, // 4742 chisel:th_available_date
+			"withdraw_date": 9021, // 4743 chisel:available_till
 			"mtxmgt_source_custom": "This can be obtained from the Harvest Boon shop in the Harvest Hollow, during Halloween.", // 4751 chisel:cosmetic_unlock_hint
 			"original_release_date": 5724 // 6628
 		},
@@ -337325,8 +337325,8 @@
 			"mtxmgt_name": "Headless Rider Coat", // 2533 chisel:SGS_name
 			"mtxmgt_source": 8, // 2546
 			"mtxmgt_parent_struct": 38758, // 4419 chisel:outfit_parent_vbId
-			"release_date": 8629, // 4742 chisel:th_available_date
-			"withdraw_date": 8664, // 4743 chisel:available_till
+			"release_date": 8993, // 4742 chisel:th_available_date
+			"withdraw_date": 9021, // 4743 chisel:available_till
 			"mtxmgt_source_custom": "This can be obtained from the Harvest Boon shop in the Harvest Hollow, during Halloween.", // 4751 chisel:cosmetic_unlock_hint
 			"original_release_date": 5724 // 6628
 		},
@@ -337339,8 +337339,8 @@
 			"mtxmgt_name": "Headless Rider Legs", // 2533 chisel:SGS_name
 			"mtxmgt_source": 8, // 2546
 			"mtxmgt_parent_struct": 38758, // 4419 chisel:outfit_parent_vbId
-			"release_date": 8629, // 4742 chisel:th_available_date
-			"withdraw_date": 8664, // 4743 chisel:available_till
+			"release_date": 8993, // 4742 chisel:th_available_date
+			"withdraw_date": 9021, // 4743 chisel:available_till
 			"mtxmgt_source_custom": "This can be obtained from the Harvest Boon shop in the Harvest Hollow, during Halloween.", // 4751 chisel:cosmetic_unlock_hint
 			"original_release_date": 5724 // 6628
 		},
@@ -337412,8 +337412,8 @@
 			"mtxmgt_name": "the Ghostwriter", // 2533 chisel:SGS_name
 			"mtxmgt_title_id": 437, // 2543 chisel:title_index_in_enum
 			"mtxmgt_source": 8, // 2546
-			"release_date": 8629, // 4742 chisel:th_available_date
-			"withdraw_date": 8664, // 4743 chisel:available_till
+			"release_date": 8993, // 4742 chisel:th_available_date
+			"withdraw_date": 9021, // 4743 chisel:available_till
 			"mtxmgt_source_custom": "This can be obtained from the Harvest Boon shop in the Harvest Hollow, during Halloween.", // 4751 chisel:cosmetic_unlock_hint
 			"original_release_date": 5724 // 6628
 		},
@@ -406189,8 +406189,8 @@
 			"mtxmgt_preview_y_offset": 70, // 2541
 			"mtxmgt_source": 8, // 2546
 			"mtxmgt_renameable": 0, // 4420
-			"release_date": 8629, // 4742 chisel:th_available_date
-			"withdraw_date": 8664, // 4743 chisel:available_till
+			"release_date": 8993, // 4742 chisel:th_available_date
+			"withdraw_date": 9021, // 4743 chisel:available_till
 			"mtxmgt_parent_id": 940, // 4744
 			"mtxmgt_source_custom": "This can be obtained from the Harvest Boon shop in the Harvest Hollow, during Halloween.", // 4751 chisel:cosmetic_unlock_hint
 			"original_release_date": 6816 // 6628
@@ -406220,8 +406220,8 @@
 			"mtxmgt_subcat": 0, // 2532 chisel:SGS_sub_group
 			"mtxmgt_name": "Death's hood", // 2533 chisel:SGS_name
 			"mtxmgt_source": 8, // 2546
-			"release_date": 8629, // 4742 chisel:th_available_date
-			"withdraw_date": 8664, // 4743 chisel:available_till
+			"release_date": 8993, // 4742 chisel:th_available_date
+			"withdraw_date": 9021, // 4743 chisel:available_till
 			"mtxmgt_parent_id": 941, // 4744
 			"mtxmgt_source_custom": "This can be obtained from the Harvest Boon shop in the Harvest Hollow, during Halloween.", // 4751 chisel:cosmetic_unlock_hint
 			"original_release_date": 6816 // 6628
@@ -406235,8 +406235,8 @@
 			"mtxmgt_name": "Death's ceremonial scythe", // 2533 chisel:SGS_name
 			"mtxmgt_source": 8, // 2546
 			"mtxmgt_filters": 4096, // 4591
-			"release_date": 8629, // 4742 chisel:th_available_date
-			"withdraw_date": 8664, // 4743 chisel:available_till
+			"release_date": 8993, // 4742 chisel:th_available_date
+			"withdraw_date": 9021, // 4743 chisel:available_till
 			"mtxmgt_parent_id": 942, // 4744
 			"mtxmgt_source_custom": "This can be obtained from the Harvest Boon shop in the Harvest Hollow, during Halloween.", // 4751 chisel:cosmetic_unlock_hint
 			"original_release_date": 6816 // 6628
@@ -411611,8 +411611,8 @@
 			"mtxmgt_preview_y_offset": 70, // 2541
 			"mtxmgt_source": 8, // 2546
 			"mtxmgt_renameable": 0, // 4420
-			"release_date": 8629, // 4742 chisel:th_available_date
-			"withdraw_date": 8664, // 4743 chisel:available_till
+			"release_date": 8993, // 4742 chisel:th_available_date
+			"withdraw_date": 9021, // 4743 chisel:available_till
 			"mtxmgt_parent_id": 1174, // 4744
 			"mtxmgt_source_custom": "This can be obtained from the Harvest Boon shop in the Harvest Hollow, during Halloween.", // 4751 chisel:cosmetic_unlock_hint
 			"original_release_date": 7173 // 6628
@@ -412563,8 +412563,8 @@
 			"mtxmgt_name": "Arteria", // 2533 chisel:SGS_name
 			"mtxmgt_source": 8, // 2546
 			"mtxmgt_filters": 256, // 4591
-			"release_date": 8629, // 4742 chisel:th_available_date
-			"withdraw_date": 8664, // 4743 chisel:available_till
+			"release_date": 8993, // 4742 chisel:th_available_date
+			"withdraw_date": 9021, // 4743 chisel:available_till
 			"mtxmgt_parent_id": 1175, // 4744
 			"mtxmgt_source_custom": "This can be obtained from the Harvest Boon shop in the Harvest Hollow, during Halloween.", // 4751 chisel:cosmetic_unlock_hint
 			"original_release_date": 7173 // 6628
@@ -412578,8 +412578,8 @@
 			"mtxmgt_name": "Death's silver ceremonial scythe", // 2533 chisel:SGS_name
 			"mtxmgt_source": 8, // 2546
 			"mtxmgt_filters": 4096, // 4591
-			"release_date": 8629, // 4742 chisel:th_available_date
-			"withdraw_date": 8664, // 4743 chisel:available_till
+			"release_date": 8993, // 4742 chisel:th_available_date
+			"withdraw_date": 9021, // 4743 chisel:available_till
 			"mtxmgt_parent_id": 1176, // 4744
 			"mtxmgt_source_custom": "This can be obtained from the Harvest Boon shop in the Harvest Hollow, during Halloween.", // 4751 chisel:cosmetic_unlock_hint
 			"original_release_date": 7173 // 6628
@@ -417711,7 +417711,7 @@
 			"trh_promo_banner_f2p_fr": 34418, // 9198
 			"trh_promo_banner_f2p_pt": 34419, // 9199
 			"trh_promo_has_f2p_restrictions": 1, // 9200
-			"trh_promo_strapline": "Pumpkin Modifiers and Spooky Cosmetics.<br>Including the <col=00FFFF>Soul Dyed Halloween Mask</col>!" // 9310
+			"trh_promo_strapline": "Pumpkin Modifiers and Spooky Cosmetics.<br>Including the <col=00FFFF>Soul Dyed Hallowe'en Mask</col>!" // 9310
 		},
 		"id": 45877
 	},
@@ -425087,8 +425087,8 @@
 			"mtxmgt_subcat": 20, // 2532 chisel:SGS_sub_group
 			"mtxmgt_name": "Renegade Armour", // 2533 chisel:SGS_name
 			"mtxmgt_source": 8, // 2546
-			"release_date": 8629, // 4742 chisel:th_available_date
-			"withdraw_date": 8664, // 4743 chisel:available_till
+			"release_date": 8993, // 4742 chisel:th_available_date
+			"withdraw_date": 9021, // 4743 chisel:available_till
 			"mtxmgt_parent_id": 1398, // 4744
 			"mtxmgt_source_custom": "This can be obtained from the Harvest Boon shop in the Harvest Hollow, during Halloween.", // 4751 chisel:cosmetic_unlock_hint
 			"original_release_date": 7544 // 6628
@@ -425102,8 +425102,8 @@
 			"mtxmgt_name": "Renegade Helmet", // 2533 chisel:SGS_name
 			"mtxmgt_source": 8, // 2546
 			"mtxmgt_parent_struct": 46520, // 4419 chisel:outfit_parent_vbId
-			"release_date": 8629, // 4742 chisel:th_available_date
-			"withdraw_date": 8664, // 4743 chisel:available_till
+			"release_date": 8993, // 4742 chisel:th_available_date
+			"withdraw_date": 9021, // 4743 chisel:available_till
 			"mtxmgt_source_custom": "This can be obtained from the Harvest Boon shop in the Harvest Hollow, during Halloween.", // 4751 chisel:cosmetic_unlock_hint
 			"original_release_date": 7544 // 6628
 		},
@@ -425116,8 +425116,8 @@
 			"mtxmgt_name": "Renegade Chestpiece", // 2533 chisel:SGS_name
 			"mtxmgt_source": 8, // 2546
 			"mtxmgt_parent_struct": 46520, // 4419 chisel:outfit_parent_vbId
-			"release_date": 8629, // 4742 chisel:th_available_date
-			"withdraw_date": 8664, // 4743 chisel:available_till
+			"release_date": 8993, // 4742 chisel:th_available_date
+			"withdraw_date": 9021, // 4743 chisel:available_till
 			"mtxmgt_source_custom": "This can be obtained from the Harvest Boon shop in the Harvest Hollow, during Halloween.", // 4751 chisel:cosmetic_unlock_hint
 			"original_release_date": 7544 // 6628
 		},
@@ -425130,8 +425130,8 @@
 			"mtxmgt_name": "Renegade Gauntlets", // 2533 chisel:SGS_name
 			"mtxmgt_source": 8, // 2546
 			"mtxmgt_parent_struct": 46520, // 4419 chisel:outfit_parent_vbId
-			"release_date": 8629, // 4742 chisel:th_available_date
-			"withdraw_date": 8664, // 4743 chisel:available_till
+			"release_date": 8993, // 4742 chisel:th_available_date
+			"withdraw_date": 9021, // 4743 chisel:available_till
 			"mtxmgt_source_custom": "This can be obtained from the Harvest Boon shop in the Harvest Hollow, during Halloween.", // 4751 chisel:cosmetic_unlock_hint
 			"original_release_date": 7544 // 6628
 		},
@@ -425144,8 +425144,8 @@
 			"mtxmgt_name": "Renegade Greaves", // 2533 chisel:SGS_name
 			"mtxmgt_source": 8, // 2546
 			"mtxmgt_parent_struct": 46520, // 4419 chisel:outfit_parent_vbId
-			"release_date": 8629, // 4742 chisel:th_available_date
-			"withdraw_date": 8664, // 4743 chisel:available_till
+			"release_date": 8993, // 4742 chisel:th_available_date
+			"withdraw_date": 9021, // 4743 chisel:available_till
 			"mtxmgt_source_custom": "This can be obtained from the Harvest Boon shop in the Harvest Hollow, during Halloween.", // 4751 chisel:cosmetic_unlock_hint
 			"original_release_date": 7544 // 6628
 		},
@@ -425158,8 +425158,8 @@
 			"mtxmgt_name": "Renegade Boots", // 2533 chisel:SGS_name
 			"mtxmgt_source": 8, // 2546
 			"mtxmgt_parent_struct": 46520, // 4419 chisel:outfit_parent_vbId
-			"release_date": 8629, // 4742 chisel:th_available_date
-			"withdraw_date": 8664, // 4743 chisel:available_till
+			"release_date": 8993, // 4742 chisel:th_available_date
+			"withdraw_date": 9021, // 4743 chisel:available_till
 			"mtxmgt_source_custom": "This can be obtained from the Harvest Boon shop in the Harvest Hollow, during Halloween.", // 4751 chisel:cosmetic_unlock_hint
 			"original_release_date": 7544 // 6628
 		},
@@ -425171,8 +425171,8 @@
 			"mtxmgt_subcat": 20, // 2532 chisel:SGS_sub_group
 			"mtxmgt_name": "Vampyric Regalia", // 2533 chisel:SGS_name
 			"mtxmgt_source": 8, // 2546
-			"release_date": 8629, // 4742 chisel:th_available_date
-			"withdraw_date": 8664, // 4743 chisel:available_till
+			"release_date": 8993, // 4742 chisel:th_available_date
+			"withdraw_date": 9021, // 4743 chisel:available_till
 			"mtxmgt_parent_id": 1400, // 4744
 			"mtxmgt_source_custom": "This can be obtained from the Harvest Boon shop in the Harvest Hollow, during Halloween.", // 4751 chisel:cosmetic_unlock_hint
 			"original_release_date": 7544 // 6628
@@ -425186,8 +425186,8 @@
 			"mtxmgt_name": "Vampyric Circlet", // 2533 chisel:SGS_name
 			"mtxmgt_source": 8, // 2546
 			"mtxmgt_parent_struct": 46526, // 4419 chisel:outfit_parent_vbId
-			"release_date": 8629, // 4742 chisel:th_available_date
-			"withdraw_date": 8664, // 4743 chisel:available_till
+			"release_date": 8993, // 4742 chisel:th_available_date
+			"withdraw_date": 9021, // 4743 chisel:available_till
 			"mtxmgt_source_custom": "This can be obtained from the Harvest Boon shop in the Harvest Hollow, during Halloween.", // 4751 chisel:cosmetic_unlock_hint
 			"original_release_date": 7544 // 6628
 		},
@@ -425200,8 +425200,8 @@
 			"mtxmgt_name": "Vampyric Tunic", // 2533 chisel:SGS_name
 			"mtxmgt_source": 8, // 2546
 			"mtxmgt_parent_struct": 46526, // 4419 chisel:outfit_parent_vbId
-			"release_date": 8629, // 4742 chisel:th_available_date
-			"withdraw_date": 8664, // 4743 chisel:available_till
+			"release_date": 8993, // 4742 chisel:th_available_date
+			"withdraw_date": 9021, // 4743 chisel:available_till
 			"mtxmgt_source_custom": "This can be obtained from the Harvest Boon shop in the Harvest Hollow, during Halloween.", // 4751 chisel:cosmetic_unlock_hint
 			"original_release_date": 7544 // 6628
 		},
@@ -425214,8 +425214,8 @@
 			"mtxmgt_name": "Vampyric Gloves", // 2533 chisel:SGS_name
 			"mtxmgt_source": 8, // 2546
 			"mtxmgt_parent_struct": 46526, // 4419 chisel:outfit_parent_vbId
-			"release_date": 8629, // 4742 chisel:th_available_date
-			"withdraw_date": 8664, // 4743 chisel:available_till
+			"release_date": 8993, // 4742 chisel:th_available_date
+			"withdraw_date": 9021, // 4743 chisel:available_till
 			"mtxmgt_source_custom": "This can be obtained from the Harvest Boon shop in the Harvest Hollow, during Halloween.", // 4751 chisel:cosmetic_unlock_hint
 			"original_release_date": 7544 // 6628
 		},
@@ -425228,8 +425228,8 @@
 			"mtxmgt_name": "Vampyric Chausses", // 2533 chisel:SGS_name
 			"mtxmgt_source": 8, // 2546
 			"mtxmgt_parent_struct": 46526, // 4419 chisel:outfit_parent_vbId
-			"release_date": 8629, // 4742 chisel:th_available_date
-			"withdraw_date": 8664, // 4743 chisel:available_till
+			"release_date": 8993, // 4742 chisel:th_available_date
+			"withdraw_date": 9021, // 4743 chisel:available_till
 			"mtxmgt_source_custom": "This can be obtained from the Harvest Boon shop in the Harvest Hollow, during Halloween.", // 4751 chisel:cosmetic_unlock_hint
 			"original_release_date": 7544 // 6628
 		},
@@ -425242,8 +425242,8 @@
 			"mtxmgt_name": "Vampyric Boots", // 2533 chisel:SGS_name
 			"mtxmgt_source": 8, // 2546
 			"mtxmgt_parent_struct": 46526, // 4419 chisel:outfit_parent_vbId
-			"release_date": 8629, // 4742 chisel:th_available_date
-			"withdraw_date": 8664, // 4743 chisel:available_till
+			"release_date": 8993, // 4742 chisel:th_available_date
+			"withdraw_date": 9021, // 4743 chisel:available_till
 			"mtxmgt_source_custom": "This can be obtained from the Harvest Boon shop in the Harvest Hollow, during Halloween.", // 4751 chisel:cosmetic_unlock_hint
 			"original_release_date": 7544 // 6628
 		},
@@ -425256,8 +425256,8 @@
 			"mtxmgt_name": "Death's Death Mask", // 2533 chisel:SGS_name
 			"mtxmgt_source": 8, // 2546
 			"mtxmgt_parent_struct": 46532, // 4419 chisel:outfit_parent_vbId
-			"release_date": 8629, // 4742 chisel:th_available_date
-			"withdraw_date": 8664, // 4743 chisel:available_till
+			"release_date": 8993, // 4742 chisel:th_available_date
+			"withdraw_date": 9021, // 4743 chisel:available_till
 			"mtxmgt_parent_id": 1399, // 4744
 			"mtxmgt_source_custom": "This can be obtained from the Harvest Boon shop in the Harvest Hollow, during Halloween.", // 4751 chisel:cosmetic_unlock_hint
 			"original_release_date": 7544 // 6628
@@ -452927,8 +452927,8 @@
 			"mtxmgt_name": "o'-lantern", // 2533 chisel:SGS_name
 			"mtxmgt_title_id": 651, // 2543 chisel:title_index_in_enum
 			"mtxmgt_source": 8, // 2546
-			"release_date": 8629, // 4742 chisel:th_available_date
-			"withdraw_date": 8664, // 4743 chisel:available_till
+			"release_date": 8993, // 4742 chisel:th_available_date
+			"withdraw_date": 9021, // 4743 chisel:available_till
 			"mtxmgt_parent_id": 1690, // 4744
 			"mtxmgt_source_custom": "This can be obtained from the Harvest Boon shop in the Harvest Hollow, during Halloween.", // 4751 chisel:cosmetic_unlock_hint
 			"original_release_date": 7901 // 6628
@@ -461343,6 +461343,7 @@
 	{
 		"extra": {
 			"combatv2_ability_id": 4, // 2793 chisel:unknown_spell_nr
+			"combatv2_ability_adrenaline_type": 2, // 2799 chisel:adrenaline_type
 			"combatv2_ability_parent_stat": 3, // 2806 chisel:spell_prayer_ability_req_type
 			"combatv2_spell_classification": 6 // 5542 chisel:ability_tab_id
 		},
@@ -470726,12 +470727,12 @@
 			"side_tab_1_icon_neutral": 34366, // 5901
 			"side_tab_1_icon_highlight": 34366, // 5902
 			"side_tab_1_icon_selected": 34366, // 5903
-			"side_tab_1_layer": 84475905, // 5904
+			"side_tab_1_layer": 84475906, // 5904
 			"side_tab_1_tooltip": "Info & Rewards", // 5905
 			"side_tab_2_icon_neutral": 21422, // 5906
 			"side_tab_2_icon_highlight": 21422, // 5907
 			"side_tab_2_icon_selected": 21422, // 5908
-			"side_tab_2_layer": 84475906, // 5909
+			"side_tab_2_layer": 84475907, // 5909
 			"side_tab_2_tooltip": "Progress Overview", // 5910
 			"timed_event_start": 8265, // 6132
 			"timed_event_end": 8285, // 6133
@@ -470760,7 +470761,7 @@
 			"rewardshop_item_list": 2491, // 4842 chisel:shop_inventory
 			"rewardshop_name": "Harvest Boon", // 4843 chisel:shop_name
 			"rewardshop_currency": "Spooky tokens", // 4844 chisel:shop_currency
-			"rewardshop_tab1": "2025 rewards", // 4845 chisel:shop_tab1_name
+			"rewardshop_tab1": "2026 rewards", // 4845 chisel:shop_tab1_name
 			"rewardshop_tab2": "Overrides", // 4846 chisel:shop_tab2_name
 			"rewardshop_tab3": "Cosmetics", // 4847 chisel:shop_tab3_name
 			"rewardshop_tab4": "Utility", // 4848 chisel:shop_tab4_name
@@ -471581,11 +471582,11 @@
 	{
 		"extra": {
 			"rewardshop_item_name": "Clan confections", // 4849 chisel:rewards_interface_item_name
-			"rewardshop_cost": 50000, // 4850 chisel:rewards_interface_cost
-			"rewardshop_obj": 57591, // 4851 chisel:rewards_interface_item
+			"rewardshop_cost": 1000, // 4850 chisel:rewards_interface_cost
+			"rewardshop_obj": 64131, // 4851 chisel:rewards_interface_item
 			"rewardshop_is_reward_obj": 1, // 4853
 			"rewardshop_buy_option_1": 1, // 4854
-			"rewardshop_tooltip": "Clan confections can be taken to Cough by the bonfire in the Harvest Hollow to contribute to your team in The Horsemen in exchange for rewards.", // 4858 chisel:rewards_interface_item_desc
+			"rewardshop_tooltip": "Any missed Horseclan confections from Daily Trick or Treat or Daily skilling can be purchased here.", // 4858 chisel:rewards_interface_item_desc
 			"rewardshop_usetooltip": 1 // 4862 chisel:outfit_piece_4
 		},
 		"id": 50344
@@ -471597,8 +471598,8 @@
 			"mtxmgt_name": "Frank's round shield", // 2533 chisel:SGS_name
 			"mtxmgt_source": 8, // 2546
 			"mtxmgt_filters": 33554432, // 4591
-			"release_date": 8629, // 4742 chisel:th_available_date
-			"withdraw_date": 8664, // 4743 chisel:available_till
+			"release_date": 8993, // 4742 chisel:th_available_date
+			"withdraw_date": 9021, // 4743 chisel:available_till
 			"mtxmgt_parent_id": 1919, // 4744
 			"mtxmgt_source_custom": "This can be obtained from the Harvest Boon shop in the Harvest Hollow, during Halloween.", // 4751 chisel:cosmetic_unlock_hint
 			"original_release_date": 8265 // 6628
@@ -471614,8 +471615,8 @@
 			"mtxmgt_preview_y_offset": 70, // 2541
 			"mtxmgt_source": 8, // 2546
 			"mtxmgt_renameable": 0, // 4420
-			"release_date": 8629, // 4742 chisel:th_available_date
-			"withdraw_date": 8664, // 4743 chisel:available_till
+			"release_date": 8993, // 4742 chisel:th_available_date
+			"withdraw_date": 9021, // 4743 chisel:available_till
 			"mtxmgt_parent_id": 1926, // 4744
 			"mtxmgt_source_custom": "This can be obtained from the seasonal quest, 'Field of Screams', during Halloween.", // 4751 chisel:cosmetic_unlock_hint
 			"original_release_date": 8265, // 6628
@@ -471781,8 +471782,8 @@
 			"mtxmgt_preview_y_offset": 70, // 2541
 			"mtxmgt_source": 8, // 2546
 			"mtxmgt_renameable": 0, // 4420
-			"release_date": 8629, // 4742 chisel:th_available_date
-			"withdraw_date": 8664, // 4743 chisel:available_till
+			"release_date": 8993, // 4742 chisel:th_available_date
+			"withdraw_date": 9021, // 4743 chisel:available_till
 			"mtxmgt_parent_id": 1920, // 4744
 			"mtxmgt_source_custom": "This can be obtained from a Harvest Hollow clan ceremony, during Halloween.", // 4751 chisel:cosmetic_unlock_hint
 			"original_release_date": 8265, // 6628
@@ -472002,8 +472003,8 @@
 			"mtxmgt_subcat": 20, // 2532 chisel:SGS_sub_group
 			"mtxmgt_name": "The Horsemen's Uniform (Death)", // 2533 chisel:SGS_name
 			"mtxmgt_source": 8, // 2546
-			"release_date": 8629, // 4742 chisel:th_available_date
-			"withdraw_date": 8664, // 4743 chisel:available_till
+			"release_date": 8993, // 4742 chisel:th_available_date
+			"withdraw_date": 9021, // 4743 chisel:available_till
 			"mtxmgt_parent_id": 1921, // 4744
 			"mtxmgt_source_custom": "This can be obtained from the seasonal quest, 'Field of Screams', or the Harvest Boon shop in the Harvest Hollow, during Halloween.", // 4751 chisel:cosmetic_unlock_hint
 			"original_release_date": 8265 // 6628
@@ -472017,8 +472018,8 @@
 			"mtxmgt_name": "The Horsemen's Mask (Death)", // 2533 chisel:SGS_name
 			"mtxmgt_source": 8, // 2546
 			"mtxmgt_parent_struct": 50375, // 4419 chisel:outfit_parent_vbId
-			"release_date": 8629, // 4742 chisel:th_available_date
-			"withdraw_date": 8664, // 4743 chisel:available_till
+			"release_date": 8993, // 4742 chisel:th_available_date
+			"withdraw_date": 9021, // 4743 chisel:available_till
 			"mtxmgt_source_custom": "This can be obtained from the seasonal quest, 'Field of Screams', or the Harvest Boon shop in the Harvest Hollow, during Halloween.", // 4751 chisel:cosmetic_unlock_hint
 			"original_release_date": 8265 // 6628
 		},
@@ -472031,8 +472032,8 @@
 			"mtxmgt_name": "The Horsemen's Top (Death)", // 2533 chisel:SGS_name
 			"mtxmgt_source": 8, // 2546
 			"mtxmgt_parent_struct": 50375, // 4419 chisel:outfit_parent_vbId
-			"release_date": 8629, // 4742 chisel:th_available_date
-			"withdraw_date": 8664, // 4743 chisel:available_till
+			"release_date": 8993, // 4742 chisel:th_available_date
+			"withdraw_date": 9021, // 4743 chisel:available_till
 			"mtxmgt_source_custom": "This can be obtained from the seasonal quest, 'Field of Screams', or the Harvest Boon shop in the Harvest Hollow, during Halloween.", // 4751 chisel:cosmetic_unlock_hint
 			"original_release_date": 8265 // 6628
 		},
@@ -472045,8 +472046,8 @@
 			"mtxmgt_name": "The Horsemen's Slacks (Death)", // 2533 chisel:SGS_name
 			"mtxmgt_source": 8, // 2546
 			"mtxmgt_parent_struct": 50375, // 4419 chisel:outfit_parent_vbId
-			"release_date": 8629, // 4742 chisel:th_available_date
-			"withdraw_date": 8664, // 4743 chisel:available_till
+			"release_date": 8993, // 4742 chisel:th_available_date
+			"withdraw_date": 9021, // 4743 chisel:available_till
 			"mtxmgt_source_custom": "This can be obtained from the seasonal quest, 'Field of Screams', or the Harvest Boon shop in the Harvest Hollow, during Halloween.", // 4751 chisel:cosmetic_unlock_hint
 			"original_release_date": 8265 // 6628
 		},
@@ -472059,8 +472060,8 @@
 			"mtxmgt_name": "The Horsemen's Cuffs (Death)", // 2533 chisel:SGS_name
 			"mtxmgt_source": 8, // 2546
 			"mtxmgt_parent_struct": 50375, // 4419 chisel:outfit_parent_vbId
-			"release_date": 8629, // 4742 chisel:th_available_date
-			"withdraw_date": 8664, // 4743 chisel:available_till
+			"release_date": 8993, // 4742 chisel:th_available_date
+			"withdraw_date": 9021, // 4743 chisel:available_till
 			"mtxmgt_source_custom": "This can be obtained from the seasonal quest, 'Field of Screams', or the Harvest Boon shop in the Harvest Hollow, during Halloween.", // 4751 chisel:cosmetic_unlock_hint
 			"original_release_date": 8265 // 6628
 		},
@@ -472073,8 +472074,8 @@
 			"mtxmgt_name": "The Horsemen's Boots (Death)", // 2533 chisel:SGS_name
 			"mtxmgt_source": 8, // 2546
 			"mtxmgt_parent_struct": 50375, // 4419 chisel:outfit_parent_vbId
-			"release_date": 8629, // 4742 chisel:th_available_date
-			"withdraw_date": 8664, // 4743 chisel:available_till
+			"release_date": 8993, // 4742 chisel:th_available_date
+			"withdraw_date": 9021, // 4743 chisel:available_till
 			"mtxmgt_source_custom": "This can be obtained from the seasonal quest, 'Field of Screams', or the Harvest Boon shop in the Harvest Hollow, during Halloween.", // 4751 chisel:cosmetic_unlock_hint
 			"original_release_date": 8265 // 6628
 		},
@@ -472086,8 +472087,8 @@
 			"mtxmgt_subcat": 20, // 2532 chisel:SGS_sub_group
 			"mtxmgt_name": "The Horsemen's Uniform (Famine)", // 2533 chisel:SGS_name
 			"mtxmgt_source": 8, // 2546
-			"release_date": 8629, // 4742 chisel:th_available_date
-			"withdraw_date": 8664, // 4743 chisel:available_till
+			"release_date": 8993, // 4742 chisel:th_available_date
+			"withdraw_date": 9021, // 4743 chisel:available_till
 			"mtxmgt_parent_id": 1922, // 4744
 			"mtxmgt_source_custom": "This can be obtained from the seasonal quest, 'Field of Screams', or the Harvest Boon shop in the Harvest Hollow, during Halloween.", // 4751 chisel:cosmetic_unlock_hint
 			"original_release_date": 8265 // 6628
@@ -472101,8 +472102,8 @@
 			"mtxmgt_name": "The Horsemen's Mask (Famine)", // 2533 chisel:SGS_name
 			"mtxmgt_source": 8, // 2546
 			"mtxmgt_parent_struct": 50381, // 4419 chisel:outfit_parent_vbId
-			"release_date": 8629, // 4742 chisel:th_available_date
-			"withdraw_date": 8664, // 4743 chisel:available_till
+			"release_date": 8993, // 4742 chisel:th_available_date
+			"withdraw_date": 9021, // 4743 chisel:available_till
 			"mtxmgt_source_custom": "This can be obtained from the seasonal quest, 'Field of Screams', or the Harvest Boon shop in the Harvest Hollow, during Halloween.", // 4751 chisel:cosmetic_unlock_hint
 			"original_release_date": 8265 // 6628
 		},
@@ -472115,8 +472116,8 @@
 			"mtxmgt_name": "The Horsemen's Top (Famine)", // 2533 chisel:SGS_name
 			"mtxmgt_source": 8, // 2546
 			"mtxmgt_parent_struct": 50381, // 4419 chisel:outfit_parent_vbId
-			"release_date": 8629, // 4742 chisel:th_available_date
-			"withdraw_date": 8664, // 4743 chisel:available_till
+			"release_date": 8993, // 4742 chisel:th_available_date
+			"withdraw_date": 9021, // 4743 chisel:available_till
 			"mtxmgt_source_custom": "This can be obtained from the seasonal quest, 'Field of Screams', or the Harvest Boon shop in the Harvest Hollow, during Halloween.", // 4751 chisel:cosmetic_unlock_hint
 			"original_release_date": 8265 // 6628
 		},
@@ -472129,8 +472130,8 @@
 			"mtxmgt_name": "The Horsemen's Slacks (Famine)", // 2533 chisel:SGS_name
 			"mtxmgt_source": 8, // 2546
 			"mtxmgt_parent_struct": 50381, // 4419 chisel:outfit_parent_vbId
-			"release_date": 8629, // 4742 chisel:th_available_date
-			"withdraw_date": 8664, // 4743 chisel:available_till
+			"release_date": 8993, // 4742 chisel:th_available_date
+			"withdraw_date": 9021, // 4743 chisel:available_till
 			"mtxmgt_source_custom": "This can be obtained from the seasonal quest, 'Field of Screams', or the Harvest Boon shop in the Harvest Hollow, during Halloween.", // 4751 chisel:cosmetic_unlock_hint
 			"original_release_date": 8265 // 6628
 		},
@@ -472143,8 +472144,8 @@
 			"mtxmgt_name": "The Horsemen's Cuffs (Famine)", // 2533 chisel:SGS_name
 			"mtxmgt_source": 8, // 2546
 			"mtxmgt_parent_struct": 50381, // 4419 chisel:outfit_parent_vbId
-			"release_date": 8629, // 4742 chisel:th_available_date
-			"withdraw_date": 8664, // 4743 chisel:available_till
+			"release_date": 8993, // 4742 chisel:th_available_date
+			"withdraw_date": 9021, // 4743 chisel:available_till
 			"mtxmgt_source_custom": "This can be obtained from the seasonal quest, 'Field of Screams', or the Harvest Boon shop in the Harvest Hollow, during Halloween.", // 4751 chisel:cosmetic_unlock_hint
 			"original_release_date": 8265 // 6628
 		},
@@ -472157,8 +472158,8 @@
 			"mtxmgt_name": "The Horsemen's Boots (Famine)", // 2533 chisel:SGS_name
 			"mtxmgt_source": 8, // 2546
 			"mtxmgt_parent_struct": 50381, // 4419 chisel:outfit_parent_vbId
-			"release_date": 8629, // 4742 chisel:th_available_date
-			"withdraw_date": 8664, // 4743 chisel:available_till
+			"release_date": 8993, // 4742 chisel:th_available_date
+			"withdraw_date": 9021, // 4743 chisel:available_till
 			"mtxmgt_source_custom": "This can be obtained from the seasonal quest, 'Field of Screams', or the Harvest Boon shop in the Harvest Hollow, during Halloween.", // 4751 chisel:cosmetic_unlock_hint
 			"original_release_date": 8265 // 6628
 		},
@@ -472170,8 +472171,8 @@
 			"mtxmgt_subcat": 20, // 2532 chisel:SGS_sub_group
 			"mtxmgt_name": "The Horsemen's Uniform (Frank)", // 2533 chisel:SGS_name
 			"mtxmgt_source": 8, // 2546
-			"release_date": 8629, // 4742 chisel:th_available_date
-			"withdraw_date": 8664, // 4743 chisel:available_till
+			"release_date": 8993, // 4742 chisel:th_available_date
+			"withdraw_date": 9021, // 4743 chisel:available_till
 			"mtxmgt_parent_id": 1923, // 4744
 			"mtxmgt_source_custom": "This can be obtained from the seasonal quest, 'Field of Screams', or the Harvest Boon shop in the Harvest Hollow, during Halloween.", // 4751 chisel:cosmetic_unlock_hint
 			"original_release_date": 8265 // 6628
@@ -472185,8 +472186,8 @@
 			"mtxmgt_name": "The Horsemen's Mask (Frank)", // 2533 chisel:SGS_name
 			"mtxmgt_source": 8, // 2546
 			"mtxmgt_parent_struct": 50387, // 4419 chisel:outfit_parent_vbId
-			"release_date": 8629, // 4742 chisel:th_available_date
-			"withdraw_date": 8664, // 4743 chisel:available_till
+			"release_date": 8993, // 4742 chisel:th_available_date
+			"withdraw_date": 9021, // 4743 chisel:available_till
 			"mtxmgt_source_custom": "This can be obtained from the seasonal quest, 'Field of Screams', or the Harvest Boon shop in the Harvest Hollow, during Halloween.", // 4751 chisel:cosmetic_unlock_hint
 			"original_release_date": 8265 // 6628
 		},
@@ -472199,8 +472200,8 @@
 			"mtxmgt_name": "The Horsemen's Top (Frank)", // 2533 chisel:SGS_name
 			"mtxmgt_source": 8, // 2546
 			"mtxmgt_parent_struct": 50387, // 4419 chisel:outfit_parent_vbId
-			"release_date": 8629, // 4742 chisel:th_available_date
-			"withdraw_date": 8664, // 4743 chisel:available_till
+			"release_date": 8993, // 4742 chisel:th_available_date
+			"withdraw_date": 9021, // 4743 chisel:available_till
 			"mtxmgt_source_custom": "This can be obtained from the seasonal quest, 'Field of Screams', or the Harvest Boon shop in the Harvest Hollow, during Halloween.", // 4751 chisel:cosmetic_unlock_hint
 			"original_release_date": 8265 // 6628
 		},
@@ -472213,8 +472214,8 @@
 			"mtxmgt_name": "The Horsemen's Slacks (Frank)", // 2533 chisel:SGS_name
 			"mtxmgt_source": 8, // 2546
 			"mtxmgt_parent_struct": 50387, // 4419 chisel:outfit_parent_vbId
-			"release_date": 8629, // 4742 chisel:th_available_date
-			"withdraw_date": 8664, // 4743 chisel:available_till
+			"release_date": 8993, // 4742 chisel:th_available_date
+			"withdraw_date": 9021, // 4743 chisel:available_till
 			"mtxmgt_source_custom": "This can be obtained from the seasonal quest, 'Field of Screams', or the Harvest Boon shop in the Harvest Hollow, during Halloween.", // 4751 chisel:cosmetic_unlock_hint
 			"original_release_date": 8265 // 6628
 		},
@@ -472227,8 +472228,8 @@
 			"mtxmgt_name": "The Horsemen's Cuffs (Frank)", // 2533 chisel:SGS_name
 			"mtxmgt_source": 8, // 2546
 			"mtxmgt_parent_struct": 50387, // 4419 chisel:outfit_parent_vbId
-			"release_date": 8629, // 4742 chisel:th_available_date
-			"withdraw_date": 8664, // 4743 chisel:available_till
+			"release_date": 8993, // 4742 chisel:th_available_date
+			"withdraw_date": 9021, // 4743 chisel:available_till
 			"mtxmgt_source_custom": "This can be obtained from the seasonal quest, 'Field of Screams', or the Harvest Boon shop in the Harvest Hollow, during Halloween.", // 4751 chisel:cosmetic_unlock_hint
 			"original_release_date": 8265 // 6628
 		},
@@ -472241,8 +472242,8 @@
 			"mtxmgt_name": "The Horsemen's Boots (Frank)", // 2533 chisel:SGS_name
 			"mtxmgt_source": 8, // 2546
 			"mtxmgt_parent_struct": 50387, // 4419 chisel:outfit_parent_vbId
-			"release_date": 8629, // 4742 chisel:th_available_date
-			"withdraw_date": 8664, // 4743 chisel:available_till
+			"release_date": 8993, // 4742 chisel:th_available_date
+			"withdraw_date": 9021, // 4743 chisel:available_till
 			"mtxmgt_source_custom": "This can be obtained from the seasonal quest, 'Field of Screams', or the Harvest Boon shop in the Harvest Hollow, during Halloween.", // 4751 chisel:cosmetic_unlock_hint
 			"original_release_date": 8265 // 6628
 		},
@@ -472254,8 +472255,8 @@
 			"mtxmgt_subcat": 20, // 2532 chisel:SGS_sub_group
 			"mtxmgt_name": "The Horsemen's Uniform (Pestilence)", // 2533 chisel:SGS_name
 			"mtxmgt_source": 8, // 2546
-			"release_date": 8629, // 4742 chisel:th_available_date
-			"withdraw_date": 8664, // 4743 chisel:available_till
+			"release_date": 8993, // 4742 chisel:th_available_date
+			"withdraw_date": 9021, // 4743 chisel:available_till
 			"mtxmgt_parent_id": 1924, // 4744
 			"mtxmgt_source_custom": "This can be obtained from the seasonal quest, 'Field of Screams', or the Harvest Boon shop in the Harvest Hollow, during Halloween.", // 4751 chisel:cosmetic_unlock_hint
 			"original_release_date": 8265 // 6628
@@ -472269,8 +472270,8 @@
 			"mtxmgt_name": "The Horsemen's Mask (Pestilence)", // 2533 chisel:SGS_name
 			"mtxmgt_source": 8, // 2546
 			"mtxmgt_parent_struct": 50393, // 4419 chisel:outfit_parent_vbId
-			"release_date": 8629, // 4742 chisel:th_available_date
-			"withdraw_date": 8664, // 4743 chisel:available_till
+			"release_date": 8993, // 4742 chisel:th_available_date
+			"withdraw_date": 9021, // 4743 chisel:available_till
 			"mtxmgt_source_custom": "This can be obtained from the seasonal quest, 'Field of Screams', or the Harvest Boon shop in the Harvest Hollow, during Halloween.", // 4751 chisel:cosmetic_unlock_hint
 			"original_release_date": 8265 // 6628
 		},
@@ -472283,8 +472284,8 @@
 			"mtxmgt_name": "The Horsemen's Top (Pestilence)", // 2533 chisel:SGS_name
 			"mtxmgt_source": 8, // 2546
 			"mtxmgt_parent_struct": 50393, // 4419 chisel:outfit_parent_vbId
-			"release_date": 8629, // 4742 chisel:th_available_date
-			"withdraw_date": 8664, // 4743 chisel:available_till
+			"release_date": 8993, // 4742 chisel:th_available_date
+			"withdraw_date": 9021, // 4743 chisel:available_till
 			"mtxmgt_source_custom": "This can be obtained from the seasonal quest, 'Field of Screams', or the Harvest Boon shop in the Harvest Hollow, during Halloween.", // 4751 chisel:cosmetic_unlock_hint
 			"original_release_date": 8265 // 6628
 		},
@@ -472297,8 +472298,8 @@
 			"mtxmgt_name": "The Horsemen's Slacks (Pestilence)", // 2533 chisel:SGS_name
 			"mtxmgt_source": 8, // 2546
 			"mtxmgt_parent_struct": 50393, // 4419 chisel:outfit_parent_vbId
-			"release_date": 8629, // 4742 chisel:th_available_date
-			"withdraw_date": 8664, // 4743 chisel:available_till
+			"release_date": 8993, // 4742 chisel:th_available_date
+			"withdraw_date": 9021, // 4743 chisel:available_till
 			"mtxmgt_source_custom": "This can be obtained from the seasonal quest, 'Field of Screams', or the Harvest Boon shop in the Harvest Hollow, during Halloween.", // 4751 chisel:cosmetic_unlock_hint
 			"original_release_date": 8265 // 6628
 		},
@@ -472311,8 +472312,8 @@
 			"mtxmgt_name": "The Horsemen's Cuffs (Pestilence)", // 2533 chisel:SGS_name
 			"mtxmgt_source": 8, // 2546
 			"mtxmgt_parent_struct": 50393, // 4419 chisel:outfit_parent_vbId
-			"release_date": 8629, // 4742 chisel:th_available_date
-			"withdraw_date": 8664, // 4743 chisel:available_till
+			"release_date": 8993, // 4742 chisel:th_available_date
+			"withdraw_date": 9021, // 4743 chisel:available_till
 			"mtxmgt_source_custom": "This can be obtained from the seasonal quest, 'Field of Screams', or the Harvest Boon shop in the Harvest Hollow, during Halloween.", // 4751 chisel:cosmetic_unlock_hint
 			"original_release_date": 8265 // 6628
 		},
@@ -472325,8 +472326,8 @@
 			"mtxmgt_name": "The Horsemen's Boots (Pestilence)", // 2533 chisel:SGS_name
 			"mtxmgt_source": 8, // 2546
 			"mtxmgt_parent_struct": 50393, // 4419 chisel:outfit_parent_vbId
-			"release_date": 8629, // 4742 chisel:th_available_date
-			"withdraw_date": 8664, // 4743 chisel:available_till
+			"release_date": 8993, // 4742 chisel:th_available_date
+			"withdraw_date": 9021, // 4743 chisel:available_till
 			"mtxmgt_source_custom": "This can be obtained from the seasonal quest, 'Field of Screams', or the Harvest Boon shop in the Harvest Hollow, during Halloween.", // 4751 chisel:cosmetic_unlock_hint
 			"original_release_date": 8265 // 6628
 		},
@@ -472338,8 +472339,8 @@
 			"mtxmgt_subcat": 20, // 2532 chisel:SGS_sub_group
 			"mtxmgt_name": "The Horsemen's Uniform (War)", // 2533 chisel:SGS_name
 			"mtxmgt_source": 8, // 2546
-			"release_date": 8629, // 4742 chisel:th_available_date
-			"withdraw_date": 8664, // 4743 chisel:available_till
+			"release_date": 8993, // 4742 chisel:th_available_date
+			"withdraw_date": 9021, // 4743 chisel:available_till
 			"mtxmgt_parent_id": 1925, // 4744
 			"mtxmgt_source_custom": "This can be obtained from the seasonal quest, 'Field of Screams', or the Harvest Boon shop in the Harvest Hollow, during Halloween.", // 4751 chisel:cosmetic_unlock_hint
 			"original_release_date": 8265 // 6628
@@ -472353,8 +472354,8 @@
 			"mtxmgt_name": "The Horsemen's Mask (War)", // 2533 chisel:SGS_name
 			"mtxmgt_source": 8, // 2546
 			"mtxmgt_parent_struct": 50399, // 4419 chisel:outfit_parent_vbId
-			"release_date": 8629, // 4742 chisel:th_available_date
-			"withdraw_date": 8664, // 4743 chisel:available_till
+			"release_date": 8993, // 4742 chisel:th_available_date
+			"withdraw_date": 9021, // 4743 chisel:available_till
 			"mtxmgt_source_custom": "This can be obtained from the seasonal quest, 'Field of Screams', or the Harvest Boon shop in the Harvest Hollow, during Halloween.", // 4751 chisel:cosmetic_unlock_hint
 			"original_release_date": 8265 // 6628
 		},
@@ -472367,8 +472368,8 @@
 			"mtxmgt_name": "The Horsemen's Top (War)", // 2533 chisel:SGS_name
 			"mtxmgt_source": 8, // 2546
 			"mtxmgt_parent_struct": 50399, // 4419 chisel:outfit_parent_vbId
-			"release_date": 8629, // 4742 chisel:th_available_date
-			"withdraw_date": 8664, // 4743 chisel:available_till
+			"release_date": 8993, // 4742 chisel:th_available_date
+			"withdraw_date": 9021, // 4743 chisel:available_till
 			"mtxmgt_source_custom": "This can be obtained from the seasonal quest, 'Field of Screams', or the Harvest Boon shop in the Harvest Hollow, during Halloween.", // 4751 chisel:cosmetic_unlock_hint
 			"original_release_date": 8265 // 6628
 		},
@@ -472381,8 +472382,8 @@
 			"mtxmgt_name": "The Horsemen's Slacks (War)", // 2533 chisel:SGS_name
 			"mtxmgt_source": 8, // 2546
 			"mtxmgt_parent_struct": 50399, // 4419 chisel:outfit_parent_vbId
-			"release_date": 8629, // 4742 chisel:th_available_date
-			"withdraw_date": 8664, // 4743 chisel:available_till
+			"release_date": 8993, // 4742 chisel:th_available_date
+			"withdraw_date": 9021, // 4743 chisel:available_till
 			"mtxmgt_source_custom": "This can be obtained from the seasonal quest, 'Field of Screams', or the Harvest Boon shop in the Harvest Hollow, during Halloween.", // 4751 chisel:cosmetic_unlock_hint
 			"original_release_date": 8265 // 6628
 		},
@@ -472395,8 +472396,8 @@
 			"mtxmgt_name": "The Horsemen's Cuffs (War)", // 2533 chisel:SGS_name
 			"mtxmgt_source": 8, // 2546
 			"mtxmgt_parent_struct": 50399, // 4419 chisel:outfit_parent_vbId
-			"release_date": 8629, // 4742 chisel:th_available_date
-			"withdraw_date": 8664, // 4743 chisel:available_till
+			"release_date": 8993, // 4742 chisel:th_available_date
+			"withdraw_date": 9021, // 4743 chisel:available_till
 			"mtxmgt_source_custom": "This can be obtained from the seasonal quest, 'Field of Screams', or the Harvest Boon shop in the Harvest Hollow, during Halloween.", // 4751 chisel:cosmetic_unlock_hint
 			"original_release_date": 8265 // 6628
 		},
@@ -472409,8 +472410,8 @@
 			"mtxmgt_name": "The Horsemen's Boots (War)", // 2533 chisel:SGS_name
 			"mtxmgt_source": 8, // 2546
 			"mtxmgt_parent_struct": 50399, // 4419 chisel:outfit_parent_vbId
-			"release_date": 8629, // 4742 chisel:th_available_date
-			"withdraw_date": 8664, // 4743 chisel:available_till
+			"release_date": 8993, // 4742 chisel:th_available_date
+			"withdraw_date": 9021, // 4743 chisel:available_till
 			"mtxmgt_source_custom": "This can be obtained from the seasonal quest, 'Field of Screams', or the Harvest Boon shop in the Harvest Hollow, during Halloween.", // 4751 chisel:cosmetic_unlock_hint
 			"original_release_date": 8265 // 6628
 		},
@@ -474192,8 +474193,8 @@
 			"mtxmgt_name": "of Death", // 2533 chisel:SGS_name
 			"mtxmgt_title_id": 695, // 2543 chisel:title_index_in_enum
 			"mtxmgt_source": 8, // 2546
-			"release_date": 8629, // 4742 chisel:th_available_date
-			"withdraw_date": 8664, // 4743 chisel:available_till
+			"release_date": 8993, // 4742 chisel:th_available_date
+			"withdraw_date": 9021, // 4743 chisel:available_till
 			"mtxmgt_source_custom": "This can be obtained from the seasonal quest, 'Field of Screams', or the Harvest Boon shop in the Harvest Hollow, during Halloween.", // 4751 chisel:cosmetic_unlock_hint
 			"mtxmgt_title_recolour_data": 14212, // 5418
 			"original_release_date": 8265 // 6628
@@ -474207,8 +474208,8 @@
 			"mtxmgt_name": "of Death", // 2533 chisel:SGS_name
 			"mtxmgt_title_id": 696, // 2543 chisel:title_index_in_enum
 			"mtxmgt_source": 8, // 2546
-			"release_date": 8629, // 4742 chisel:th_available_date
-			"withdraw_date": 8664, // 4743 chisel:available_till
+			"release_date": 8993, // 4742 chisel:th_available_date
+			"withdraw_date": 9021, // 4743 chisel:available_till
 			"mtxmgt_source_custom": "This can be obtained by contributing 25 clan confections in the Harvest Hollow, during Halloween.", // 4751 chisel:cosmetic_unlock_hint
 			"mtxmgt_title_recolour_parent": 50559, // 5766
 			"original_release_date": 8265 // 6628
@@ -474222,8 +474223,8 @@
 			"mtxmgt_name": "of Famine", // 2533 chisel:SGS_name
 			"mtxmgt_title_id": 697, // 2543 chisel:title_index_in_enum
 			"mtxmgt_source": 8, // 2546
-			"release_date": 8629, // 4742 chisel:th_available_date
-			"withdraw_date": 8664, // 4743 chisel:available_till
+			"release_date": 8993, // 4742 chisel:th_available_date
+			"withdraw_date": 9021, // 4743 chisel:available_till
 			"mtxmgt_source_custom": "This can be obtained from the seasonal quest, 'Field of Screams', or the Harvest Boon shop in the Harvest Hollow, during Halloween.", // 4751 chisel:cosmetic_unlock_hint
 			"mtxmgt_title_recolour_data": 14213, // 5418
 			"original_release_date": 8265 // 6628
@@ -474237,8 +474238,8 @@
 			"mtxmgt_name": "of Famine", // 2533 chisel:SGS_name
 			"mtxmgt_title_id": 698, // 2543 chisel:title_index_in_enum
 			"mtxmgt_source": 8, // 2546
-			"release_date": 8629, // 4742 chisel:th_available_date
-			"withdraw_date": 8664, // 4743 chisel:available_till
+			"release_date": 8993, // 4742 chisel:th_available_date
+			"withdraw_date": 9021, // 4743 chisel:available_till
 			"mtxmgt_source_custom": "This can be obtained by contributing 25 clan confections in the Harvest Hollow, during Halloween.", // 4751 chisel:cosmetic_unlock_hint
 			"mtxmgt_title_recolour_parent": 50561, // 5766
 			"original_release_date": 8265 // 6628
@@ -474252,8 +474253,8 @@
 			"mtxmgt_name": "of Frank", // 2533 chisel:SGS_name
 			"mtxmgt_title_id": 699, // 2543 chisel:title_index_in_enum
 			"mtxmgt_source": 8, // 2546
-			"release_date": 8629, // 4742 chisel:th_available_date
-			"withdraw_date": 8664, // 4743 chisel:available_till
+			"release_date": 8993, // 4742 chisel:th_available_date
+			"withdraw_date": 9021, // 4743 chisel:available_till
 			"mtxmgt_source_custom": "This can be obtained from the seasonal quest, 'Field of Screams', or the Harvest Boon shop in the Harvest Hollow, during Halloween.", // 4751 chisel:cosmetic_unlock_hint
 			"mtxmgt_title_recolour_data": 14214, // 5418
 			"original_release_date": 8265 // 6628
@@ -474267,8 +474268,8 @@
 			"mtxmgt_name": "of Frank", // 2533 chisel:SGS_name
 			"mtxmgt_title_id": 700, // 2543 chisel:title_index_in_enum
 			"mtxmgt_source": 8, // 2546
-			"release_date": 8629, // 4742 chisel:th_available_date
-			"withdraw_date": 8664, // 4743 chisel:available_till
+			"release_date": 8993, // 4742 chisel:th_available_date
+			"withdraw_date": 9021, // 4743 chisel:available_till
 			"mtxmgt_source_custom": "This can be obtained by contributing 25 clan confections in the Harvest Hollow, during Halloween.", // 4751 chisel:cosmetic_unlock_hint
 			"mtxmgt_title_recolour_parent": 50563, // 5766
 			"original_release_date": 8265 // 6628
@@ -474282,8 +474283,8 @@
 			"mtxmgt_name": "of Pestilence", // 2533 chisel:SGS_name
 			"mtxmgt_title_id": 701, // 2543 chisel:title_index_in_enum
 			"mtxmgt_source": 8, // 2546
-			"release_date": 8629, // 4742 chisel:th_available_date
-			"withdraw_date": 8664, // 4743 chisel:available_till
+			"release_date": 8993, // 4742 chisel:th_available_date
+			"withdraw_date": 9021, // 4743 chisel:available_till
 			"mtxmgt_source_custom": "This can be obtained from the seasonal quest, 'Field of Screams', or the Harvest Boon shop in the Harvest Hollow, during Halloween.", // 4751 chisel:cosmetic_unlock_hint
 			"mtxmgt_title_recolour_data": 14215, // 5418
 			"original_release_date": 8265 // 6628
@@ -474297,8 +474298,8 @@
 			"mtxmgt_name": "of Pestilence", // 2533 chisel:SGS_name
 			"mtxmgt_title_id": 702, // 2543 chisel:title_index_in_enum
 			"mtxmgt_source": 8, // 2546
-			"release_date": 8629, // 4742 chisel:th_available_date
-			"withdraw_date": 8664, // 4743 chisel:available_till
+			"release_date": 8993, // 4742 chisel:th_available_date
+			"withdraw_date": 9021, // 4743 chisel:available_till
 			"mtxmgt_source_custom": "This can be obtained by contributing 25 clan confections in the Harvest Hollow, during Halloween.", // 4751 chisel:cosmetic_unlock_hint
 			"mtxmgt_title_recolour_parent": 50565, // 5766
 			"original_release_date": 8265 // 6628
@@ -474312,8 +474313,8 @@
 			"mtxmgt_name": "of War", // 2533 chisel:SGS_name
 			"mtxmgt_title_id": 703, // 2543 chisel:title_index_in_enum
 			"mtxmgt_source": 8, // 2546
-			"release_date": 8629, // 4742 chisel:th_available_date
-			"withdraw_date": 8664, // 4743 chisel:available_till
+			"release_date": 8993, // 4742 chisel:th_available_date
+			"withdraw_date": 9021, // 4743 chisel:available_till
 			"mtxmgt_source_custom": "This can be obtained from the seasonal quest, 'Field of Screams', or the Harvest Boon shop in the Harvest Hollow, during Halloween.", // 4751 chisel:cosmetic_unlock_hint
 			"mtxmgt_title_recolour_data": 14216, // 5418
 			"original_release_date": 8265 // 6628
@@ -474327,8 +474328,8 @@
 			"mtxmgt_name": "of War", // 2533 chisel:SGS_name
 			"mtxmgt_title_id": 704, // 2543 chisel:title_index_in_enum
 			"mtxmgt_source": 8, // 2546
-			"release_date": 8629, // 4742 chisel:th_available_date
-			"withdraw_date": 8664, // 4743 chisel:available_till
+			"release_date": 8993, // 4742 chisel:th_available_date
+			"withdraw_date": 9021, // 4743 chisel:available_till
 			"mtxmgt_source_custom": "This can be obtained by contributing 25 clan confections in the Harvest Hollow, during Halloween.", // 4751 chisel:cosmetic_unlock_hint
 			"mtxmgt_title_recolour_parent": 50567, // 5766
 			"original_release_date": 8265 // 6628
@@ -494116,12 +494117,12 @@
 			"side_tab_1_icon_neutral": 34366, // 5901
 			"side_tab_1_icon_highlight": 34366, // 5902
 			"side_tab_1_icon_selected": 34366, // 5903
-			"side_tab_1_layer": 84475905, // 5904
+			"side_tab_1_layer": 84475906, // 5904
 			"side_tab_1_tooltip": "Info & Rewards", // 5905
 			"side_tab_2_icon_neutral": 21422, // 5906
 			"side_tab_2_icon_highlight": 21422, // 5907
 			"side_tab_2_icon_selected": 21422, // 5908
-			"side_tab_2_layer": 84475906, // 5909
+			"side_tab_2_layer": 84475907, // 5909
 			"side_tab_2_tooltip": "Progress Overview", // 5910
 			"timed_event_start": 8629, // 6132
 			"timed_event_end": 8656, // 6133
@@ -494299,8 +494300,8 @@
 			"mtxmgt_preview_y_offset": 70, // 2541
 			"mtxmgt_source": 8, // 2546
 			"mtxmgt_renameable": 0, // 4420
-			"release_date": 8629, // 4742 chisel:th_available_date
-			"withdraw_date": 8664, // 4743 chisel:available_till
+			"release_date": 8993, // 4742 chisel:th_available_date
+			"withdraw_date": 9021, // 4743 chisel:available_till
 			"mtxmgt_parent_id": 2281, // 4744
 			"mtxmgt_source_custom": "To unlock the base pet, either complete the 'Guys and Dolls' quest or hand in 75 clan confections. Do both to unlock the burning pet skin.", // 4751 chisel:cosmetic_unlock_hint
 			"original_release_date": 8629, // 6628
@@ -507110,6 +507111,13 @@
 	},
 	{
 		"extra": {
+			"bslay_tactic_title": "The Ghrazi Blood Knights", // 4832 chisel:boss_info_title
+			"bslay_tactic_text": "No tactics available." // 4833 chisel:boss_info_text
+		},
+		"id": 53497
+	},
+	{
+		"extra": {
 			"mtxmgt_category": 7, // 2531 chisel:solomons_category
 			"mtxmgt_name": "Gothic Manor House Style", // 2533 chisel:SGS_name
 			"mtxmgt_interface_positioning": 19539, // 9254
@@ -507148,5 +507156,582 @@
 			"motw_onclick": 14 // 6392
 		},
 		"id": 53501
+	},
+	{
+		"extra": {
+			"task_name": "The Ghrazi Blood Knights", // 1266 chisel:task_title
+			"task_details": "Lord and Lady Ghrazi await you within the Crimson Throne.", // 1273 chisel:task_sub_text
+			"task_game": 2, // 1290
+			"bslay_boss_spec_drops": 13832, // 3039
+			"dndtracker_full_description": "Lord and Lady Ghrazi await you within the Crimson Throne.", // 3631 chisel:task_txt_7
+			"group_min_players": 2, // 4500
+			"group_max_players": 2, // 4501
+			"group_rec_players": 2, // 4502
+			"group_combat_req_rec": 130, // 4504
+			"group_tele_coord": 66782796, // 4506
+			"group_combat_check": 1, // 4507
+			"group_ironman_allowed": 1 // 5312
+		},
+		"id": 53502
+	},
+	{
+		"extra": {
+			"boss_instance_change_spawn_speed": 0, // 3042
+			"boss_instance_initial_facing": 1, // 3315
+			"boss_instance_start_coord": 0, // 3337
+			"boss_instance_width": 64, // 3338
+			"boss_instance_length": 64, // 3339
+			"boss_instance_height": 4, // 3340
+			"boss_instance_entrance_coord": 0, // 3342
+			"boss_instance_boss_npc": 32907, // 3343
+			"boss_instance_boss_specialstart": 1, // 3346
+			"boss_instance_max_players": 2, // 3387
+			"boss_instance_hard_player_requirement": 2, // 3814
+			"boss_instance_boss_name": "The Ghrazi Blood Knights", // 3815
+			"boss_instance_unique_id": 71, // 4825
+			"boss_instance_bossslayer_link": 53545, // 4829
+			"boss_instance_hide_practicemode_checkbox": 1, // 7433
+			"boss_instance_custom_kill_timer_init": 1 // 8285
+		},
+		"id": 53503
+	},
+	{
+		"extra": {
+			"combatv2_ability_name": "Sanguine Influence", // 2794 chisel:spell_name
+			"combatv2_ability_info": "Increases the damage inflicted by the Ghrazi Blood Knights.", // 2795 chisel:spell_desc
+			"combatv2_ability_icon": 36598, // 2802 chisel:spell_prayer_ability_sprite
+			"combatv2_buff_type": 0, // 8109 chisel:is_burn
+			"combatv2_buff_uses_stacks": 1, // 8110
+			"combatv2_buff_category": 6, // 8114 chisel:buff_category
+			"combatv2_buff_priority": 100, // 8115 chisel:buff_priority
+			"con_contracts_build5": 13720 // 9486
+		},
+		"id": 53504
+	},
+	{
+		"extra": {
+			"combatv2_ability_name": "Sanguine Strike", // 2794 chisel:spell_name
+			"combatv2_ability_icon": 36601, // 2802 chisel:spell_prayer_ability_sprite
+			"combatv2_buff_type": 1, // 8109 chisel:is_burn
+			"combatv2_buff_uses_stacks": 1, // 8110
+			"combatv2_buff_uses_ability_end": 1, // 8112 chisel:buff_uses_timer
+			"combatv2_buff_category": 6, // 8114 chisel:buff_category
+			"combatv2_buff_priority": 100, // 8115 chisel:buff_priority
+			"combatv2_buff_tooltip_has_scripted_text": 1 // 8119
+		},
+		"id": 53505
+	},
+	{
+		"extra": {
+			"combatv2_ability_name": "Haemorrhage", // 2794 chisel:spell_name
+			"combatv2_ability_icon": 36579, // 2802 chisel:spell_prayer_ability_sprite
+			"combatv2_buff_type": 1, // 8109 chisel:is_burn
+			"combatv2_buff_uses_stacks": 1, // 8110
+			"combatv2_buff_uses_ability_end": 1, // 8112 chisel:buff_uses_timer
+			"combatv2_buff_category": 6, // 8114 chisel:buff_category
+			"combatv2_buff_priority": 100, // 8115 chisel:buff_priority
+			"combatv2_buff_tooltip_has_scripted_text": 1, // 8119
+			"con_contracts_build5": 13721 // 9486
+		},
+		"id": 53506
+	},
+	{
+		"extra": {
+			"combatv2_ability_name": "Exsanguinated", // 2794 chisel:spell_name
+			"combatv2_ability_icon": 36576, // 2802 chisel:spell_prayer_ability_sprite
+			"combatv2_buff_type": 1, // 8109 chisel:is_burn
+			"combatv2_buff_uses_stacks": 1, // 8110
+			"combatv2_buff_category": 6, // 8114 chisel:buff_category
+			"combatv2_buff_priority": 100, // 8115 chisel:buff_priority
+			"combatv2_buff_tooltip_has_scripted_text": 1, // 8119
+			"con_contracts_build5": 13722 // 9486
+		},
+		"id": 53507
+	},
+	{
+		"extra": {
+			"combatv2_ability_name": "Crimson Lament", // 2794 chisel:spell_name
+			"combatv2_ability_icon": 36599, // 2802 chisel:spell_prayer_ability_sprite
+			"combatv2_buff_type": 1, // 8109 chisel:is_burn
+			"combatv2_buff_uses_stacks": 1, // 8110
+			"combatv2_buff_category": 6, // 8114 chisel:buff_category
+			"combatv2_buff_priority": 100, // 8115 chisel:buff_priority
+			"combatv2_buff_tooltip_has_scripted_text": 1, // 8119
+			"con_contracts_build5": 13723 // 9486
+		},
+		"id": 53508
+	},
+	{
+		"extra": {
+			"combatv2_ability_name": "Blood Challenge", // 2794 chisel:spell_name
+			"combatv2_ability_icon": 36600, // 2802 chisel:spell_prayer_ability_sprite
+			"combatv2_buff_type": 1, // 8109 chisel:is_burn
+			"combatv2_buff_uses_stacks": 1, // 8110
+			"combatv2_buff_category": 6, // 8114 chisel:buff_category
+			"combatv2_buff_priority": 100, // 8115 chisel:buff_priority
+			"combatv2_buff_tooltip_has_scripted_text": 1, // 8119
+			"con_contracts_build5": 13724 // 9486
+		},
+		"id": 53509
+	},
+	{
+		"extra": {
+			"mtxmgt_category": 3, // 2531 chisel:solomons_category
+			"mtxmgt_subcat": 3, // 2532 chisel:SGS_sub_group
+			"mtxmgt_name": "the Purifier", // 2533 chisel:SGS_name
+			"mtxmgt_title_id": 879, // 2543 chisel:title_index_in_enum
+			"mtxmgt_source": 5, // 2546
+			"mtxmgt_was_limited_edition": 1, // 2547 chisel:nature_balance_value_9F3
+			"mtxmgt_source_custom": "This title is unlocked by defeating the Ghrazi Blood Knights at 500% enrage." // 4751 chisel:cosmetic_unlock_hint
+		},
+		"id": 53510
+	},
+	{
+		"extra": {
+			"mtxmgt_category": 3, // 2531 chisel:solomons_category
+			"mtxmgt_subcat": 3, // 2532 chisel:SGS_sub_group
+			"mtxmgt_name": "the Purifier (Bronze)", // 2533 chisel:SGS_name
+			"mtxmgt_title_id": 880, // 2543 chisel:title_index_in_enum
+			"mtxmgt_source": 5, // 2546
+			"mtxmgt_was_limited_edition": 1, // 2547 chisel:nature_balance_value_9F3
+			"mtxmgt_source_custom": "This title is unlocked by defeating the Blood Knight boss at 1,000% enrage." // 4751 chisel:cosmetic_unlock_hint
+		},
+		"id": 53511
+	},
+	{
+		"extra": {
+			"mtxmgt_category": 3, // 2531 chisel:solomons_category
+			"mtxmgt_subcat": 3, // 2532 chisel:SGS_sub_group
+			"mtxmgt_name": "the Purifier (Silver)", // 2533 chisel:SGS_name
+			"mtxmgt_title_id": 881, // 2543 chisel:title_index_in_enum
+			"mtxmgt_source": 5, // 2546
+			"mtxmgt_was_limited_edition": 1, // 2547 chisel:nature_balance_value_9F3
+			"mtxmgt_source_custom": "This title is unlocked by defeating the Ghrazi Blood Knights at 2,000% enrage." // 4751 chisel:cosmetic_unlock_hint
+		},
+		"id": 53512
+	},
+	{
+		"extra": {
+			"mtxmgt_category": 3, // 2531 chisel:solomons_category
+			"mtxmgt_subcat": 3, // 2532 chisel:SGS_sub_group
+			"mtxmgt_name": "the Purifier (Gold)", // 2533 chisel:SGS_name
+			"mtxmgt_title_id": 882, // 2543 chisel:title_index_in_enum
+			"mtxmgt_source": 5, // 2546
+			"mtxmgt_was_limited_edition": 1, // 2547 chisel:nature_balance_value_9F3
+			"mtxmgt_source_custom": "This title is unlocked by defeating the Ghrazi Blood Knights at 4,000% enrage." // 4751 chisel:cosmetic_unlock_hint
+		},
+		"id": 53513
+	},
+	{
+		"id": 53514
+	},
+	{
+		"extra": {
+			"activity_progress_bar_name": "The Ghrazi Blood Knights", // 8849 chisel:boss_bar_boss_name
+			"activity_progress_bar_marker_1_pos": 65, // 8853
+			"activity_progress_bar_marker_2_pos": 30, // 8854
+			"activity_progress_bar_progress_markers": 1, // 8859
+			"activity_progress_bar_area": 2938, // 8863
+			"activity_progress_bar_suboverlay": 1181, // 8865
+			"activity_progress_bar_bslay": 53545, // 8866
+			"activity_progress_bar_data_type": 2 // 8867
+		},
+		"id": 53515
+	},
+	{
+		"extra": {
+			"activity_progress_bar_name": "Lord Ghrazi", // 8849 chisel:boss_bar_boss_name
+			"activity_progress_bar_area": 2938, // 8863
+			"activity_progress_bar_suboverlay": 1181, // 8865
+			"activity_progress_bar_bslay": 53545, // 8866
+			"activity_progress_bar_data_type": 2 // 8867
+		},
+		"id": 53516
+	},
+	{
+		"id": 53517
+	},
+	{
+		"id": 53518
+	},
+	{
+		"extra": {
+			"ribbon_override_icon": 34364, // 5900
+			"side_tab_1_icon_neutral": 34366, // 5901
+			"side_tab_1_icon_highlight": 34366, // 5902
+			"side_tab_1_icon_selected": 34366, // 5903
+			"side_tab_1_layer": 84475905, // 5904
+			"side_tab_1_tooltip": "What's new?", // 5905
+			"side_tab_2_icon_neutral": 21422, // 5906
+			"side_tab_2_icon_highlight": 21422, // 5907
+			"side_tab_2_icon_selected": 21422, // 5908
+			"side_tab_2_layer": 84475906, // 5909
+			"side_tab_2_tooltip": "What's Returning?", // 5910
+			"side_tab_3_icon_neutral": 27844, // 5911
+			"side_tab_3_icon_highlight": 27844, // 5912
+			"side_tab_3_icon_selected": 27844, // 5913
+			"side_tab_3_layer": 84475907, // 5914
+			"side_tab_3_tooltip": "Progress Overview", // 5915
+			"timed_event_start": 8993, // 6132
+			"timed_event_end": 9014, // 6133
+			"timed_event_cleanup": 9021, // 6134
+			"timed_event_name": "Harvest Hollow", // 6135 chisel:tle_name
+			"timed_event_desc": "The Harvest Hollow is back, with a new quest and activities, and new rewards to boot!", // 6136 chisel:tle_subtitle
+			"timed_event_id": 48, // 6145 chisel:mtx_tle_curr_host_id
+			"timed_event_interface_override": 1289, // 8313
+			"timed_event_transmit_global_var_trh": 6 // 9170
+		},
+		"id": 53519
+	},
+	{
+		"extra": {
+			"rewardshop_item_name": "Bursting Trick or Treat bag", // 4849 chisel:rewards_interface_item_name
+			"rewardshop_cost": 50000, // 4850 chisel:rewards_interface_cost
+			"rewardshop_obj": 64133, // 4851 chisel:rewards_interface_item
+			"rewardshop_is_reward_obj": 1, // 4853
+			"rewardshop_buy_option_1": 1, // 4854
+			"rewardshop_tooltip": "A bag full of goodies.", // 4858 chisel:rewards_interface_item_desc
+			"rewardshop_usetooltip": 1, // 4862 chisel:outfit_piece_4
+			"rewardshop_members": 1 // 6406
+		},
+		"id": 53520
+	},
+	{
+		"extra": {
+			"rewardshop_item_name": "Furniture plans: Pumpkin", // 4849 chisel:rewards_interface_item_name
+			"rewardshop_cost": 7500, // 4850 chisel:rewards_interface_cost
+			"rewardshop_obj": 64183, // 4851 chisel:rewards_interface_item
+			"rewardshop_is_reward_obj": 0, // 4853
+			"rewardshop_buy_option_1": 1, // 4854
+			"rewardshop_tooltip": "Unlocks the Pumpkin furniture plans.", // 4858 chisel:rewards_interface_item_desc
+			"rewardshop_usetooltip": 1 // 4862 chisel:outfit_piece_4
+		},
+		"id": 53521
+	},
+	{
+		"extra": {
+			"rewardshop_item_name": "Furniture plans: Hallowe'en pumpkins", // 4849 chisel:rewards_interface_item_name
+			"rewardshop_cost": 10000, // 4850 chisel:rewards_interface_cost
+			"rewardshop_obj": 64184, // 4851 chisel:rewards_interface_item
+			"rewardshop_is_reward_obj": 0, // 4853
+			"rewardshop_buy_option_1": 1, // 4854
+			"rewardshop_tooltip": "Unlocks the Hallowe'en pumpkins furniture plans.", // 4858 chisel:rewards_interface_item_desc
+			"rewardshop_usetooltip": 1 // 4862 chisel:outfit_piece_4
+		},
+		"id": 53522
+	},
+	{
+		"extra": {
+			"rewardshop_item_name": "Furniture plans: Headstones", // 4849 chisel:rewards_interface_item_name
+			"rewardshop_cost": 10000, // 4850 chisel:rewards_interface_cost
+			"rewardshop_obj": 64185, // 4851 chisel:rewards_interface_item
+			"rewardshop_is_reward_obj": 0, // 4853
+			"rewardshop_buy_option_1": 1, // 4854
+			"rewardshop_tooltip": "Unlocks the Headstones furniture plans.", // 4858 chisel:rewards_interface_item_desc
+			"rewardshop_usetooltip": 1 // 4862 chisel:outfit_piece_4
+		},
+		"id": 53523
+	},
+	{
+		"extra": {
+			"rewardshop_item_name": "Furniture plans: Sarcophagi", // 4849 chisel:rewards_interface_item_name
+			"rewardshop_cost": 10000, // 4850 chisel:rewards_interface_cost
+			"rewardshop_obj": 64186, // 4851 chisel:rewards_interface_item
+			"rewardshop_is_reward_obj": 0, // 4853
+			"rewardshop_buy_option_1": 1, // 4854
+			"rewardshop_tooltip": "Unlocks the Sarcophagi furniture plans.", // 4858 chisel:rewards_interface_item_desc
+			"rewardshop_usetooltip": 1 // 4862 chisel:outfit_piece_4
+		},
+		"id": 53524
+	},
+	{
+		"extra": {
+			"rewardshop_item_name": "Furniture plans: Bat Bunting", // 4849 chisel:rewards_interface_item_name
+			"rewardshop_cost": 7500, // 4850 chisel:rewards_interface_cost
+			"rewardshop_obj": 64189, // 4851 chisel:rewards_interface_item
+			"rewardshop_is_reward_obj": 0, // 4853
+			"rewardshop_buy_option_1": 1, // 4854
+			"rewardshop_tooltip": "Unlocks the Bat Bunting furniture plans.", // 4858 chisel:rewards_interface_item_desc
+			"rewardshop_usetooltip": 1 // 4862 chisel:outfit_piece_4
+		},
+		"id": 53525
+	},
+	{
+		"extra": {
+			"rewardshop_item_name": "Furniture plans: Harvest Hollow Portal Nexus", // 4849 chisel:rewards_interface_item_name
+			"rewardshop_cost": 12500, // 4850 chisel:rewards_interface_cost
+			"rewardshop_obj": 64187, // 4851 chisel:rewards_interface_item
+			"rewardshop_is_reward_obj": 0, // 4853
+			"rewardshop_buy_option_1": 1, // 4854
+			"rewardshop_tooltip": "Unlocks the Harvest Hollow Portal Nexus furniture plans.", // 4858 chisel:rewards_interface_item_desc
+			"rewardshop_usetooltip": 1 // 4862 chisel:outfit_piece_4
+		},
+		"id": 53526
+	},
+	{
+		"extra": {
+			"rewardshop_item_name": "Grim hood", // 4849 chisel:rewards_interface_item_name
+			"rewardshop_cost": 50000, // 4850 chisel:rewards_interface_cost
+			"rewardshop_obj": 11789, // 4851 chisel:rewards_interface_item
+			"rewardshop_is_reward_obj": 1, // 4853
+			"rewardshop_buy_option_1": 1, // 4854
+			"rewardshop_tooltip": "Unlocks the Grim hood.", // 4858 chisel:rewards_interface_item_desc
+			"rewardshop_usetooltip": 1 // 4862 chisel:outfit_piece_4
+		},
+		"id": 53527
+	},
+	{
+		"extra": {
+			"mtxmgt_category": 2, // 2531 chisel:solomons_category
+			"mtxmgt_subcat": 0, // 2532 chisel:SGS_sub_group
+			"mtxmgt_name": "Trick or Treat Witch Hat", // 2533 chisel:SGS_name
+			"mtxmgt_source": 9, // 2546
+			"release_date": 8993, // 4742 chisel:th_available_date
+			"mtxmgt_parent_id": 2490, // 4744
+			"mtxmgt_source_custom": "This cosmetic override can be unlocked from the Horseclan Competition during the 2026 Halloween event.", // 4751 chisel:cosmetic_unlock_hint
+			"original_release_date": 8993 // 6628
+		},
+		"id": 53528
+	},
+	{
+		"extra": {
+			"mtxmgt_category": 2, // 2531 chisel:solomons_category
+			"mtxmgt_subcat": 3, // 2532 chisel:SGS_sub_group
+			"mtxmgt_name": "Trick or Treat Broom", // 2533 chisel:SGS_name
+			"mtxmgt_source": 9, // 2546
+			"mtxmgt_filters": 32768, // 4591
+			"release_date": 8993, // 4742 chisel:th_available_date
+			"mtxmgt_parent_id": 2491, // 4744
+			"mtxmgt_source_custom": "This cosmetic override can be unlocked from the Horseclan Competition during the 2026 Halloween event.", // 4751 chisel:cosmetic_unlock_hint
+			"original_release_date": 8993 // 6628
+		},
+		"id": 53529
+	},
+	{
+		"extra": {
+			"combatv2_ability_name": "Close Formation", // 2794 chisel:spell_name
+			"combatv2_ability_icon": 25826, // 2802 chisel:spell_prayer_ability_sprite
+			"combatv2_buff_type": 0, // 8109 chisel:is_burn
+			"combatv2_buff_uses_stacks": 1, // 8110
+			"combatv2_buff_category": 14, // 8114 chisel:buff_category
+			"combatv2_buff_priority": 10, // 8115 chisel:buff_priority
+			"combatv2_buff_tooltip_has_scripted_text": 1, // 8119
+			"con_contracts_build5": 13746 // 9486
+		},
+		"id": 53530
+	},
+	{
+		"extra": {
+			"skillguide_skill": 29, // 2215
+			"skillguide_is_milestone": 1, // 2218
+			"skillguide_filter": 4, // 2220 chisel:skill_ui_subcategory
+			"skillguide_struct": 53536 // 8877
+		},
+		"id": 53531
+	},
+	{
+		"extra": {
+			"mtxmgt_category": 3, // 2531 chisel:solomons_category
+			"mtxmgt_subcat": 3, // 2532 chisel:SGS_sub_group
+			"mtxmgt_name": "the Blood Knight", // 2533 chisel:SGS_name
+			"mtxmgt_title_id": 878, // 2543 chisel:title_index_in_enum
+			"mtxmgt_source": 5, // 2546
+			"mtxmgt_was_limited_edition": 1, // 2547 chisel:nature_balance_value_9F3
+			"cheevo_name": "Blood and Bone", // 6410 chisel:achieve_name
+			"cheevo_details": "Obtained a collection of unique drops from the Ghrazi Blood Knights.", // 6411 chisel:achieve_desc
+			"cheevo_unique_id": 4520, // 6413 chisel:achieve_id
+			"cheevo_rewards": "You are granted the ability to use the title 'the Blood Knight'.", // 6414 chisel:achieve_reward
+			"cheevo_hidden": 1, // 6797 chisel:achieve_ishidden
+			"cheevo_type": 1, // 6798
+			"cheevo_unlock_var": 16839408 // 8993
+		},
+		"id": 53532
+	},
+	{
+		"extra": {
+			"mtxmgt_pet_override_npc": 32926, // 4692
+			"mtxmgt_pet_override_model": 146636, // 4693
+			"mtxmgt_pet_override_bas": 4932, // 4694
+			"mtxmgt_pet_override_model2": 146638 // 5813
+		},
+		"id": 53533
+	},
+	{
+		"extra": {
+			"mtxmgt_category": 3, // 2531 chisel:solomons_category
+			"mtxmgt_subcat": 4, // 2532 chisel:SGS_sub_group
+			"mtxmgt_name": "the Dead Cool", // 2533 chisel:SGS_name
+			"mtxmgt_title_id": 877, // 2543 chisel:title_index_in_enum
+			"mtxmgt_source": 5, // 2546
+			"mtxmgt_source_custom": "This title is unlocked by completing the quest 'All Souls' Eve'." // 4751 chisel:cosmetic_unlock_hint
+		},
+		"id": 53534
+	},
+	{
+		"extra": {
+			"combatv2_ability_name": "Isolated", // 2794 chisel:spell_name
+			"combatv2_ability_info": "Whilst under the effect of this, you can't directly benefit from Heal Other, Heal Group, or Intercept.", // 2795 chisel:spell_desc
+			"combatv2_ability_icon": 36577, // 2802 chisel:spell_prayer_ability_sprite
+			"combatv2_buff_type": 1 // 8109 chisel:is_burn
+		},
+		"id": 53535
+	},
+	{
+		"extra": {
+			"combatv2_ability_id": 111, // 2793 chisel:unknown_spell_nr
+			"combatv2_ability_name": "Invoke Arisen Flesh", // 2794 chisel:spell_name
+			"combatv2_ability_info": "Call on the Arisen Flesh for additional power.", // 2795 chisel:spell_desc
+			"combatv2_ability_cooldown": 6, // 2796 chisel:ability_cooldown_ticks
+			"combatv2_ability_adrenaline_type": 2, // 2799 chisel:adrenaline_type
+			"combatv2_ability_icon": 36582, // 2802 chisel:spell_prayer_ability_sprite
+			"combatv2_ability_parent_stat": 29, // 2806 chisel:spell_prayer_ability_req_type
+			"combatv2_ability_level_req": 95, // 2807 chisel:spell_prayer_ability_req_value
+			"combatv2_ability_is_members": 1, // 2809
+			"combatv2_ability_only_display_in_certain_situations": 1, // 2819 chisel:potion_effect_unk5
+			"combatv2_requires_target_foe": 0, // 3394
+			"combatv2_ability_effect_duration": 150, // 3740 chisel:ability_active_ticks
+			"combatv2_ability_icon_locked": 36583, // 4030
+			"combatv2_ability_unlock_description": "Unlocked by reading the Invoke Arisen Flesh incantation codex.", // 4650
+			"combatv2_spell_classification": 14, // 5542 chisel:ability_tab_id
+			"combatv2_ability_icon_mobile": 36595, // 8120 chisel:spell_prayer_ability_mobile_sprite
+			"combatv2_ability_target_type": 3, // 8170 chisel:ability_target
+			"combatv2_ability_requires_spirit_runes": 10, // 8891
+			"combatv2_ability_requires_bone_runes": 2, // 8892
+			"combatv2_ability_requires_flesh_runes": 8, // 8893
+			"combatv2_ability_requires_miasma_runes": 1, // 8894
+			"combatv2_casting_spotanim": 9467, // 9000
+			"construction_house_wall_decor_ignore_open_doorways": 16839414 // 9487
+		},
+		"id": 53536
+	},
+	{
+		"extra": {
+			"combatv2_ability_name": "Arisen Flesh invocation", // 2794 chisel:spell_name
+			"combatv2_ability_icon": 36581, // 2802 chisel:spell_prayer_ability_sprite
+			"combatv2_buff_type": 0, // 8109 chisel:is_burn
+			"combatv2_buff_uses_ability_end": 1, // 8112 chisel:buff_uses_timer
+			"combatv2_buff_category": 1, // 8114 chisel:buff_category
+			"combatv2_buff_priority": 60, // 8115 chisel:buff_priority
+			"combatv2_buff_tooltip_full_override": 1 // 8116
+		},
+		"id": 53537
+	},
+	{
+		"extra": {
+			"combatv2_ability_name": "Sanguine Volley", // 2794 chisel:spell_name
+			"combatv2_ability_info": "Weapon special ability is on cooldown.", // 2795 chisel:spell_desc
+			"combatv2_ability_object": 64191, // 4677 chisel:buff_item_id
+			"combatv2_buff_type": 1, // 8109 chisel:is_burn
+			"combatv2_buff_uses_ability_end": 1, // 8112 chisel:buff_uses_timer
+			"combatv2_buff_category": 1, // 8114 chisel:buff_category
+			"combatv2_buff_priority": 60 // 8115 chisel:buff_priority
+		},
+		"id": 53538
+	},
+	{
+		"extra": {
+			"combatv2_ability_name": "Stat Upgrade (Malachi's Tooth/Malachi's Claw)", // 2794 chisel:spell_name
+			"combatv2_ability_info": "Increases the damage and accuracy of the Malachi's Tooth and Malachi's Claw by 5 tiers.", // 2795 chisel:spell_desc
+			"combatv2_ability_object": 64191 // 4677 chisel:buff_item_id
+		},
+		"id": 53539
+	},
+	{
+		"id": 53540
+	},
+	{
+		"extra": {
+			"combatv2_ability_name": "Crimson Covenant", // 2794 chisel:spell_name
+			"combatv2_set_item_1": 64191, // 3205 chisel:boost_outfit_item_1
+			"combatv2_set_item_1a": 64193, // 3206 chisel:boostOutfitAlternative_1
+			"combatv2_set_item_2": 64195, // 3210 chisel:boost_outfit_item_2
+			"combatv2_set_item_2a": 64197, // 3211 chisel:boostOutfitAlternative_2
+			"combatv2_number_of_items_for_set_effect_1": 1, // 5818
+			"combatv2_number_of_items_for_set_effect_2": 2, // 5819
+			"combatv2_ability_info_has_scripted_text": 1 // 9118
+		},
+		"id": 53541
+	},
+	{
+		"extra": {
+			"combatv2_ability_name": "Crimson Salvo", // 2794 chisel:spell_name
+			"combatv2_ability_icon": 36575, // 2802 chisel:spell_prayer_ability_sprite
+			"combatv2_buff_type": 0, // 8109 chisel:is_burn
+			"combatv2_buff_uses_ability_end": 1, // 8112 chisel:buff_uses_timer
+			"combatv2_buff_category": 1, // 8114 chisel:buff_category
+			"combatv2_buff_priority": 80, // 8115 chisel:buff_priority
+			"combatv2_buff_icon_override": 1, // 8118
+			"combatv2_buff_tooltip_has_scripted_text": 1 // 8119
+		},
+		"id": 53542
+	},
+	{
+		"extra": {
+			"mtx_no_recolour": 1, // 477 chisel:pet_category
+			"mtxmgt_category": 5, // 2531 chisel:solomons_category
+			"mtxmgt_subcat": 5, // 2532 chisel:SGS_sub_group
+			"mtxmgt_name": "Lady Karmini", // 2533 chisel:SGS_name
+			"mtxmgt_preview_y_offset": 70, // 2541
+			"mtxmgt_source": 5, // 2546
+			"mtxmgt_renameable": 0, // 4420
+			"mtxmgt_parent_id": 2493, // 4744
+			"mtxmgt_source_custom": "This pet is a potential reward from defeating the Ghrazi Blood Knights.", // 4751 chisel:cosmetic_unlock_hint
+			"mtxmgt_pet_overridable": 1, // 5740
+			"mtxmgt_pet_info": 53544, // 8226
+			"mtxmgt_pet_menagerie_var": 16839380 // 8998
+		},
+		"id": 53543
+	},
+	{
+		"extra": {
+			"mtxmgt_pet_adult_npc": 32926 // 3152
+		},
+		"id": 53544
+	},
+	{
+		"extra": {
+			"task_requirement_1_type": 62, // 1294 chisel:achieve_req_type_1
+			"task_requirement_1_value": 25, // 1295 chisel:achieve_req_value_1
+			"bslay_id": 58, // 1346 chisel:kill_counter_id
+			"bslay_npc": 32907, // 1347 chisel:npcId
+			"bslay_name": "The Ghrazi Blood Knights", // 1348
+			"bslay_min_no": 4, // 1350 chisel:reaper_task_min_number
+			"bslay_max_no": 6, // 1351 chisel:reaper_task_max_number
+			"bslay_group_boss": 1, // 1352
+			"bslay_combat_req": 130, // 1353 chisel:recommended_combat_level
+			"bslay_base_xp": 25000, // 1355 chisel:reaper_task_slayer_xp
+			"bslay_hardmode_xp": 37500, // 1356 chisel:reaper_task_slayer_xp_hard_mode
+			"bslay_points": 21, // 1374
+			"bslay_hardmode_points": 28, // 1375
+			"bslay_lod_coord": 33, // 1378 chisel:reaper_task_closest_lodestone
+			"bslay_group_size": 2, // 2237 chisel:recommended_group_size
+			"bslay_combat_level": 4914, // 2238
+			"bslay_back_drop": 36602, // 3038
+			"bslay_boss_spec_drops": 13832, // 3039
+			"bslay_zoom": 2000, // 3040
+			"bslay_yoffset": 315, // 3041
+			"bslay_boss_tactics": 13720, // 4831
+			"cheevo_details": "Lord and Lady Ghrazi await you within the Crimson Throne.", // 6411 chisel:achieve_desc
+			"cheevo_unique_id": 2557, // 6413 chisel:achieve_id
+			"cheevo_meta_id": 1735, // 6417
+			"bslay_collection": 20310, // 7209
+			"bslay_achievement": 5100, // 8227
+			"bslay_has_hardmode": 1, // 8270
+			"bslay_hardmode_term_id": 5, // 8272
+			"plugin_api_plugin_id": 36 // 9459
+		},
+		"id": 53545
+	},
+	{
+		"extra": {
+			"combatv2_ability_name": "Vampyrism", // 2794 chisel:spell_name
+			"combatv2_ability_icon": 35768, // 2802 chisel:spell_prayer_ability_sprite
+			"combatv2_buff_type": 0, // 8109 chisel:is_burn
+			"combatv2_buff_uses_stacks": 1, // 8110
+			"combatv2_buff_category": 14, // 8114 chisel:buff_category
+			"combatv2_buff_priority": 10, // 8115 chisel:buff_priority
+			"combatv2_buff_tooltip_has_scripted_text": 1 // 8119
+		},
+		"id": 53546
 	}
 ]

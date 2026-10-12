@@ -698,6 +698,11 @@ function script6583(int0: number, int1: number): void {
             varclient_7347 = (varclient_7347 + int1);
             break;
         }
+        case 53536: {
+            varclient_8497 = (varclient_8497 + int1);
+            varclient_8496 = (varclient_8496 + int1);
+            break;
+        }
         default: {
             return;
         }

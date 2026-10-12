@@ -236,6 +236,14 @@ function script17732(int0: number, int1: number): string {
             string0 = script20398(49543, string0, int3);
             break;
         }
+        case 64191: {
+            stack(49543);
+            stack(string0);
+            stack(int3);
+            script21129();
+            string0 = [];
+            break;
+        }
         case 1409: {
             string0 = script18718(49542, string0, int3);
             break;
@@ -349,6 +357,10 @@ function script17732(int0: number, int1: number): string {
     switch (int1) {
         case 57162: {
             string0 = script17708(string0, 50070);
+            break;
+        }
+        case 64191: {
+            string0 = script17708(string0, 53542);
             break;
         }
     };

@@ -101,6 +101,24 @@ function script17553(): void {
             };
             break;
         }
+        case 53515:
+        case 53516: {
+            switch (varplayer_10950) {
+                case -1: {
+                    IF_SETTEXT("Story", int0);
+                    break;
+                }
+                case 0: {
+                    IF_SETTEXT("Normal", int0);
+                    break;
+                }
+                default: {
+                    IF_SETTEXT(`Enrage:<br> ${inttostring(varplayer_10950, 10)}%`, int0);
+                    break;
+                }
+            };
+            break;
+        }
         default: {
             switch (varplayer_10950) {
                 case 1: {

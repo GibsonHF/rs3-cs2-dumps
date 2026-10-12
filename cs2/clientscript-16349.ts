@@ -58,7 +58,9 @@ function script16349(int0: number, int1: number, int2: number): number {
         case 9562:
         case 9570:
         case 9572:
-        case 9581: {
+        case 9581:
+        case 13757:
+        case 13826: {
             return enum_getvalue(33, 0, int0, int1);
         }
     };

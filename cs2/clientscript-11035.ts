@@ -1,6 +1,6 @@
 //
 function script11035(): number {
-    var int0 = 69;
+    var int0 = 70;
     var int1 = script178();
     if ((int1 == int0)) {
         return 1;

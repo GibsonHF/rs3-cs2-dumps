@@ -11,7 +11,7 @@ function script11283(int0: number): number {
             return varbitplayer_45678;
         }
         case 4: {
-            return 47;
+            return 49;
         }
     };
     return 0;

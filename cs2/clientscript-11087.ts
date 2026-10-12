@@ -172,6 +172,10 @@ function script11087(int0: number): string {
             string0 = `<br>- <col=25AD37>Ranged attacks</col> deal an additional ${script17719(49543, -1, 20, 1, 1)} with each hit.`;
             break;
         }
+        case 53542: {
+            string0 = `<br>- <col=25AD37>Ranged abilities</col> deal ${script17719(49543, -1, 20, 1, 1)}.`;
+            break;
+        }
         case 46308:
         case 46309: {
             string0 = script18624(int0, string0);
@@ -260,6 +264,37 @@ function script11087(int0: number): string {
         }
         case 45447: {
             string0 = `<br><col=ffffff>On critical strike:</col> Launch a <col=ffffff>Lightning Surge</col> at your target dealing ${script17720(int0, 70, (70 + 20), 0, 1)}.`;
+            break;
+        }
+        case 53505: {
+            string0 = `<br>- Deals damage every <col=ffffff>${script14945(2, 1)}</col>.`;
+            break;
+        }
+        case 53506: {
+            string0 = `<br>- Deals damage every <col=ffffff>${script14945(3, 1)}</col>, increased for each stack.`;
+            break;
+        }
+        case 53507: {
+            string0 = "<br>-  Damage dealt is increased for each stack.";
+            string0 = `${string0}<br>- Damage taken is increased for each stack.`;
+            string0 = `${string0}<br>- Deals fatal damage at maximum stacks.`;
+            string0 = `${string0}<br><br>Maximum stacks: <col=ffffff>${inttostring(100, 10)}</col>.`;
+            break;
+        }
+        case 53508: {
+            string0 = `<br>- Increases damage received by Lord Ghrazi by <col=ffffff>${inttostring(8, 10)}%</col> for each stack.`;
+            break;
+        }
+        case 53509: {
+            string0 = `<br>- Increases damage received by Lady Ghrazi by <col=ffffff>${inttostring(8, 10)}%</col> for each stack.`;
+            break;
+        }
+        case 53530: {
+            string0 = "<br>- The Ghrazi Blood Knights have increased defence when nearby one another.";
+            break;
+        }
+        case 53546: {
+            string0 = "<br>- The Sanguine heals the Ghrazi Blood Knights for a percentage of all damage they deal.";
             break;
         }
     };

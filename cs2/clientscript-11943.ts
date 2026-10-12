@@ -25,6 +25,9 @@ function script11943(int0: number): number {
         case 52070: {
             return varbitplayer_58290;
         }
+        case 53539: {
+            return varbitplayer_62199;
+        }
     };
     return 0;
 }

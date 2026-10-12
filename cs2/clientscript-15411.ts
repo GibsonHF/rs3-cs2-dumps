@@ -534,6 +534,9 @@ function script15411(int0: number): number {
         case 52789: {
             return script5566(STAT_BASE(0 as stat), 75, 1);
         }
+        case 53536: {
+            return varbitplayer_62198;
+        }
         default: {
             if ((int0 != -1)) {
                 int1 = struct_getparam(int0, 9487);

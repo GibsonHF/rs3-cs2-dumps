@@ -361,6 +361,10 @@ function script11088(int0: number): string {
             string0 = `${struct_getparam(int0, 2794)}<br>${script3111(49072, struct_getparam(49072, 2795), 1, 0)}`;
             break;
         }
+        case 53537: {
+            string0 = `${struct_getparam(int0, 2794)}<br>${script3111(53536, struct_getparam(53536, 2795), 1, 0)}`;
+            break;
+        }
         case 48878: {
             string0 = `${script18429(varbitplayer_54950)}<br>${script18431(varbitplayer_54950)}`;
             break;

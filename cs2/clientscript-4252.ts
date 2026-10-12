@@ -1317,6 +1317,10 @@ function script4252(int0: number, int1: number): void {
             varclient_7349 = int2;
             break;
         }
+        case 53537: {
+            varclient_8498 = int2;
+            break;
+        }
         case 48348: {
             varclient_7285 = int2;
             break;
@@ -1639,6 +1643,22 @@ function script4252(int0: number, int1: number): void {
         }
         case 2907: {
             varclient_8410 = int2;
+            break;
+        }
+        case 53505: {
+            varclient_8492 = int2;
+            break;
+        }
+        case 53506: {
+            varclient_8493 = int2;
+            break;
+        }
+        case 53538: {
+            varclient_8494 = int2;
+            break;
+        }
+        case 53542: {
+            varclient_8495 = int2;
             break;
         }
         case 52238: {

@@ -108,6 +108,13 @@ function script20194(): void {
                     };
                     break;
                 }
+                case 4: {
+                    string3 = "<sprite=35195>";
+                    if ((STRING_LENGTH(string1) == 0)) {
+                        string1 = "You can unlock this override from the Harvest Boon shop, when the Harvest Hollow is active.";
+                    };
+                    break;
+                }
             };
             int21 = 18460;
             int24 = 1;

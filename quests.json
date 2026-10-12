@@ -16570,7 +16570,7 @@
 			"quest_age": 2, // 7831 chisel:quest_age_period
 			"quest_release_year": 2024, // 7834
 			"quest_series": 2, // 7836
-			"quest_hidden": 1, // 7838 chisel:quest_is_subquest
+			"quest_hidden": 0, // 7838 chisel:quest_is_subquest
 			"quest_length": 2, // 7855
 			"quest_holiday_hub_signposting": "You can start it by speaking to any of The Horsemen, found in the central courtyard.", // 9392
 			"quest_start_location": 2 // 9393
@@ -16864,7 +16864,7 @@
 			"quest_age": 2, // 7831 chisel:quest_age_period
 			"quest_release_year": 2025, // 7834
 			"quest_series": 2, // 7836
-			"quest_hidden": 1, // 7838 chisel:quest_is_subquest
+			"quest_hidden": 0, // 7838 chisel:quest_is_subquest
 			"quest_length": 2, // 7855
 			"quest_holiday_hub_signposting": "You can start it by speaking to Guy near the bonfire.", // 9392
 			"quest_start_location": 2 // 9393
@@ -17306,6 +17306,45 @@
 				"endvalue": 215,
 				"startvalue": 5,
 				"varbit": 62090
+			}
+		]
+	},
+	{
+		"extra": {
+			"quest_id": 372, // 1345 chisel:quest_create_req61_id
+			"quest_description": "Help Death and the Horsemen celebrate the spooky season!", // 5968
+			"quest_timeline_category": 0, // 7159
+			"quest_name_first_letter_no_accents": "A", // 7219 chisel:quest_sort_char
+			"quest_start_point": "Speak to Death in the courtyard of the Harvest Hollow.", // 7814
+			"quest_req_items": "Five pieces of food.", // 7815
+			"quest_rewards_other": "Trick or Treat Bowl Furniture plans unlocked<br>'the Dead Cool' title<br>10,000 spooky tokens<br>Emotes from previous Halloween events (if not unlocked)", // 7823 chisel:quest_reward
+			"quest_icon_big": 19604, // 7829 chisel:quest_icon_small_sprite
+			"quest_age": 2, // 7831 chisel:quest_age_period
+			"quest_release_year": 2026, // 7834
+			"quest_series": 2, // 7836
+			"quest_hidden": 0, // 7838 chisel:quest_is_subquest
+			"quest_length": 2, // 7855
+			"quest_holiday_hub_signposting": "You can start it by speaking to Death in the central courtyard of the Harvest Hollow.", // 9392
+			"quest_start_location": 2 // 9393
+		},
+		"id": 534,
+		"name": "All Souls' Eve",
+		"quest_difficulty": 0,
+		"quest_item_sprite": 9611,
+		"quest_list_name": "All Souls' Eve",
+		"quest_points": 0,
+		"required_quests": [
+			493,
+			515
+		],
+		"start_location_path": [
+			9963181
+		],
+		"varbits": [
+			{
+				"endvalue": 65,
+				"startvalue": 5,
+				"varbit": 62185
 			}
 		]
 	}

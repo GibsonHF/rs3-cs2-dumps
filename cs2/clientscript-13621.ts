@@ -5518,6 +5518,9 @@ function script13621(int0: number): number {
         case 59770: {
             return varbitplayer_59987;
         }
+        case 64202: {
+            return varbitplayer_62208;
+        }
         case 59641: {
             return script5566(varbitplayer_60069, 1, 1);
         }

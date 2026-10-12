@@ -514,6 +514,14 @@ function script3111(int0: number, int1: number, int2: number, string0: string): 
             string0 = `${string0}<br>- ${script17710(script17444(49072))}.`;
             break;
         }
+        case 53536: {
+            stack(int0);
+            stack(string0);
+            stack(int1);
+            script21128();
+            string0 = [];
+            break;
+        }
         case 48352:
         case 48353:
         case 48354: {

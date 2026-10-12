@@ -1,22 +1,19 @@
 //
 function script20864(int0: number): string {
-    var int1 = 0;
-    var int2 = 0;
-    var int3 = 0;
-    [int1, int2, int3] = script3985(int0, 1);
-    var string0 = "";
-    if ((int1 <= 0)) {
-        if ((int2 <= 0)) {
-            if ((int3 <= 0)) {
-                string0 = "Sale Ended";
-            } else {
-                string0 = `Ends In: ${script3382(int1, int2, int3, -1, 1, 0)}`;
-            };
-        } else {
-            string0 = `Ends In: ${script3382(int1, int2, int3, -1, 1, 0)}`;
-        };
-    } else {
-        string0 = `Ends In: ${script3382(int1, int2, int3, -1, 1, 0)}`;
-    };
-    return string0;
+    var int0 = script10495(2);
+    var int1 = script10495(21);
+    IF_BUTTON_SETTOGGLED(0, comp(1289, 94));
+    IF_BUTTON_SETTOGGLED(1, comp(1289, 96));
+    IF_BUTTON_SETTOGGLED(0, comp(1289, 98));
+    IF_BUTTON_SETTOGGLED(0, comp(1289, 100));
+    IF_SETTEXT("New rewards", comp(1289, 84));
+    IF_SETHIDE(true, comp(1289, 88));
+    IF_SETHIDE(true, comp(1289, 89));
+    IF_SETHIDE(false, comp(1289, 90));
+    IF_SETHIDE(true, comp(1289, 87));
+    IF_SETHIDE(false, comp(1289, 86));
+    IF_SETTEXT(`${inttostring(PUSH_CONSTANT_INT[16]("<col=", int1))}>Trick or Treat Bowl`, comp(1289, 85));
+    var string0 = `${inttostring(PUSH_CONSTANT_INT[16]("<col=", int0))}>Complete: All Souls' Eve.`;
+    IF_SETTEXT(string0, comp(1289, 92));
+    return;
 }

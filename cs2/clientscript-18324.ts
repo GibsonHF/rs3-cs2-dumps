@@ -83,6 +83,12 @@ function script18324(): void {
             script17550();
             break;
         }
+        case 53515:
+        case 53516: {
+            script17549();
+            script17550();
+            break;
+        }
     };
     var int0 = struct_getparam(varplayer_10946, 8990);
     if (((int0 != -1 as struct) && (struct_getparam(int0, 8859) == 1))) {

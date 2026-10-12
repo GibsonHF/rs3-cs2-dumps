@@ -52407,6 +52407,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14305,
 		"op_32": [
 			2,
 			0,
@@ -52567,6 +52568,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14313,
 		"points": 25,
 		"spriteID": 34766,
 		"subcategory": 4822,
@@ -52590,6 +52592,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14305,
 		"points": 15,
 		"spriteID": 34765,
 		"subcategory": 4822,
@@ -52613,6 +52616,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14313,
 		"points": 25,
 		"previous_achievements": [
 			1249
@@ -52642,6 +52646,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14314,
 		"points": 40,
 		"previous_achievements": [
 			1250
@@ -52784,6 +52789,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 13980,
 		"op_32": [
 			2,
 			0,
@@ -53137,6 +53143,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 13980,
 		"op_32": [
 			2,
 			0,
@@ -53297,6 +53304,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 13980,
 		"op_32": [
 			2,
 			0,
@@ -53444,6 +53452,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14042,
 		"op_32": [
 			2,
 			0,
@@ -53604,6 +53613,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14042,
 		"points": 10,
 		"quest_req_for_miniquests": [
 			95,
@@ -53688,6 +53698,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14305,
 		"points": 15,
 		"quest_req_for_miniquests": [
 			95
@@ -53830,6 +53841,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 13980,
 		"op_32": [
 			2,
 			0,
@@ -54064,6 +54076,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14042,
 		"points": 10,
 		"spriteID": 34764,
 		"subcategory": 4826,
@@ -54218,6 +54231,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 13980,
 		"op_32": [
 			2,
 			0,
@@ -54442,6 +54456,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 13980,
 		"op_32": [
 			2,
 			0,
@@ -54721,6 +54736,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14305,
 		"op_32": [
 			2,
 			0,
@@ -54994,6 +55010,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14042,
 		"op_32": [
 			2,
 			0,
@@ -55330,6 +55347,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14305,
 		"op_32": [
 			2,
 			0,
@@ -55490,6 +55508,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14313,
 		"points": 25,
 		"spriteID": 34766,
 		"subcategory": 4830,
@@ -55513,6 +55532,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14305,
 		"points": 15,
 		"spriteID": 34765,
 		"subcategory": 4830,
@@ -55649,6 +55669,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 13980,
 		"op_32": [
 			2,
 			0,
@@ -55809,6 +55830,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 13980,
 		"points": 5,
 		"spriteID": 34763,
 		"subcategory": 4831,
@@ -55905,6 +55927,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 13980,
 		"op_32": [
 			2,
 			0,
@@ -56238,6 +56261,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14042,
 		"op_32": [
 			2,
 			0,
@@ -56438,6 +56462,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14305,
 		"points": 15,
 		"skill_req_count": [
 			1
@@ -56511,6 +56536,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14305,
 		"points": 15,
 		"skill_req_count": [
 			1
@@ -56711,6 +56737,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14305,
 		"op_32": [
 			2,
 			0,
@@ -57007,6 +57034,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14305,
 		"op_32": [
 			2,
 			0,
@@ -57231,6 +57259,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14305,
 		"points": 15,
 		"quest_req_for_miniquests": [
 			65902
@@ -57303,6 +57332,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14313,
 		"points": 25,
 		"skill_req_count": [
 			1
@@ -57485,6 +57515,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14313,
 		"op_32": [
 			2,
 			0,
@@ -57645,6 +57676,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14314,
 		"points": 40,
 		"skill_req_count": [
 			2
@@ -57778,6 +57810,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14042,
 		"op_32": [
 			2,
 			0,
@@ -57978,6 +58011,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14042,
 		"points": 10,
 		"skill_req_count": [
 			1
@@ -58015,6 +58049,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14042,
 		"points": 10,
 		"skill_req_count": [
 			1
@@ -58052,6 +58087,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14042,
 		"points": 10,
 		"quest_req_for_miniquests": [
 			352
@@ -58223,6 +58259,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14305,
 		"op_32": [
 			2,
 			0,
@@ -58383,6 +58420,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14305,
 		"points": 15,
 		"spriteID": 34765,
 		"subcategory": 4837,
@@ -58578,6 +58616,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14313,
 		"op_32": [
 			2,
 			0,
@@ -58862,6 +58901,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14313,
 		"op_32": [
 			2,
 			0,
@@ -59022,6 +59062,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14313,
 		"points": 25,
 		"skill_req_count": [
 			1
@@ -59056,6 +59097,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14313,
 		"points": 25,
 		"skill_req_count": [
 			1
@@ -59135,12 +59177,6 @@
 			0
 		],
 		"points": 5,
-		"previous_achievements": [
-			1410
-		],
-		"skill_req_count": [
-			1
-		],
 		"spriteID": 30108,
 		"subcategory": 4839,
 		"subreq_count": [
@@ -59169,12 +59205,6 @@
 			0
 		],
 		"points": 5,
-		"previous_achievements": [
-			1411
-		],
-		"skill_req_count": [
-			1
-		],
 		"spriteID": 30108,
 		"subcategory": 4839,
 		"subreq_count": [
@@ -59197,19 +59227,14 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14313,
 		"op_32": [
 			2,
 			0,
 			0
 		],
 		"points": 25,
-		"previous_achievements": [
-			1412
-		],
 		"reward": "'the Warden' title.",
-		"skill_req_count": [
-			1
-		],
 		"spriteID": 34766,
 		"subcategory": 4839,
 		"subreq_count": [
@@ -59238,12 +59263,6 @@
 			0
 		],
 		"points": 5,
-		"previous_achievements": [
-			1413
-		],
-		"skill_req_count": [
-			1
-		],
 		"spriteID": 30108,
 		"subcategory": 4839,
 		"subreq_count": [
@@ -59272,13 +59291,7 @@
 			0
 		],
 		"points": 5,
-		"previous_achievements": [
-			1414
-		],
 		"reward": "Bronze 'the Warden' title.",
-		"skill_req_count": [
-			1
-		],
 		"spriteID": 30108,
 		"subcategory": 4839,
 		"subreq_count": [
@@ -59301,14 +59314,9 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14314,
 		"points": 40,
-		"previous_achievements": [
-			1415
-		],
 		"reward": "Silver 'the Warden' title.",
-		"skill_req_count": [
-			1
-		],
 		"spriteID": 34767,
 		"subcategory": 4839,
 		"subreq_count": [
@@ -59331,14 +59339,9 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14420,
 		"points": 50,
-		"previous_achievements": [
-			1416
-		],
 		"reward": "Golden 'the Warden' title.",
-		"skill_req_count": [
-			1
-		],
 		"spriteID": 34768,
 		"subcategory": 4839,
 		"subreq_count": [
@@ -59446,6 +59449,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14313,
 		"op_32": [
 			2,
 			0,
@@ -59716,6 +59720,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14313,
 		"op_32": [
 			2,
 			0,
@@ -59916,6 +59921,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14313,
 		"points": 25,
 		"spriteID": 34766,
 		"subcategory": 4840,
@@ -59939,6 +59945,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14313,
 		"points": 25,
 		"spriteID": 34766,
 		"subcategory": 4840,
@@ -60510,6 +60517,18 @@
 			{
 				"description": "",
 				"unk_byte": 0,
+				"value": 500,
+				"varbit": 62165
+			},
+			{
+				"description": "",
+				"unk_byte": 0,
+				"value": 500,
+				"varbit": 62166
+			},
+			{
+				"description": "",
+				"unk_byte": 0,
 				"value": 1,
 				"varbit": 29880
 			},
@@ -61010,6 +61029,18 @@
 				"unk_byte": 0,
 				"value": 1,
 				"varbit": 60745
+			},
+			{
+				"description": "",
+				"unk_byte": 0,
+				"value": 1,
+				"varbit": 62167
+			},
+			{
+				"description": "",
+				"unk_byte": 0,
+				"value": 1,
+				"varbit": 62168
 			}
 		]
 	},
@@ -61547,6 +61578,18 @@
 			{
 				"description": "",
 				"unk_byte": 0,
+				"value": 1000,
+				"varbit": 62165
+			},
+			{
+				"description": "",
+				"unk_byte": 0,
+				"value": 1000,
+				"varbit": 62166
+			},
+			{
+				"description": "",
+				"unk_byte": 0,
 				"value": 1,
 				"varbit": 29880
 			},
@@ -62047,6 +62090,18 @@
 				"unk_byte": 0,
 				"value": 1,
 				"varbit": 60745
+			},
+			{
+				"description": "",
+				"unk_byte": 0,
+				"value": 1,
+				"varbit": 62167
+			},
+			{
+				"description": "",
+				"unk_byte": 0,
+				"value": 1,
+				"varbit": 62168
 			}
 		]
 	},
@@ -62584,6 +62639,18 @@
 			{
 				"description": "",
 				"unk_byte": 0,
+				"value": 2000,
+				"varbit": 62165
+			},
+			{
+				"description": "",
+				"unk_byte": 0,
+				"value": 2000,
+				"varbit": 62166
+			},
+			{
+				"description": "",
+				"unk_byte": 0,
 				"value": 1,
 				"varbit": 29880
 			},
@@ -63084,6 +63151,18 @@
 				"unk_byte": 0,
 				"value": 1,
 				"varbit": 60745
+			},
+			{
+				"description": "",
+				"unk_byte": 0,
+				"value": 1,
+				"varbit": 62167
+			},
+			{
+				"description": "",
+				"unk_byte": 0,
+				"value": 1,
+				"varbit": 62168
 			}
 		]
 	},
@@ -63621,6 +63700,18 @@
 			{
 				"description": "",
 				"unk_byte": 0,
+				"value": 3000,
+				"varbit": 62165
+			},
+			{
+				"description": "",
+				"unk_byte": 0,
+				"value": 3000,
+				"varbit": 62166
+			},
+			{
+				"description": "",
+				"unk_byte": 0,
 				"value": 1,
 				"varbit": 29880
 			},
@@ -64121,6 +64212,18 @@
 				"unk_byte": 0,
 				"value": 1,
 				"varbit": 60745
+			},
+			{
+				"description": "",
+				"unk_byte": 0,
+				"value": 1,
+				"varbit": 62167
+			},
+			{
+				"description": "",
+				"unk_byte": 0,
+				"value": 1,
+				"varbit": 62168
 			}
 		]
 	},
@@ -64658,6 +64761,18 @@
 			{
 				"description": "",
 				"unk_byte": 0,
+				"value": 4000,
+				"varbit": 62165
+			},
+			{
+				"description": "",
+				"unk_byte": 0,
+				"value": 4000,
+				"varbit": 62166
+			},
+			{
+				"description": "",
+				"unk_byte": 0,
 				"value": 1,
 				"varbit": 29880
 			},
@@ -65158,6 +65273,18 @@
 				"unk_byte": 0,
 				"value": 1,
 				"varbit": 60745
+			},
+			{
+				"description": "",
+				"unk_byte": 0,
+				"value": 1,
+				"varbit": 62167
+			},
+			{
+				"description": "",
+				"unk_byte": 0,
+				"value": 1,
+				"varbit": 62168
 			}
 		]
 	},
@@ -65695,6 +65822,18 @@
 			{
 				"description": "",
 				"unk_byte": 0,
+				"value": 5000,
+				"varbit": 62165
+			},
+			{
+				"description": "",
+				"unk_byte": 0,
+				"value": 5000,
+				"varbit": 62166
+			},
+			{
+				"description": "",
+				"unk_byte": 0,
 				"value": 1,
 				"varbit": 29880
 			},
@@ -66195,6 +66334,18 @@
 				"unk_byte": 0,
 				"value": 1,
 				"varbit": 60745
+			},
+			{
+				"description": "",
+				"unk_byte": 0,
+				"value": 1,
+				"varbit": 62167
+			},
+			{
+				"description": "",
+				"unk_byte": 0,
+				"value": 1,
+				"varbit": 62168
 			}
 		]
 	},
@@ -66266,11 +66417,12 @@
 			4050,
 			4876,
 			4900,
-			4910
+			4910,
+			5106
 		],
 		"subcategory": 4841,
 		"subreq_count": [
-			58
+			59
 		]
 	},
 	{
@@ -66360,6 +66512,7 @@
 			4869,
 			4892,
 			4893,
+			5099,
 			1299,
 			1646,
 			1631,
@@ -66377,11 +66530,12 @@
 			3510,
 			3484,
 			3497,
-			4056
+			4056,
+			5112
 		],
 		"subcategory": 4841,
 		"subreq_count": [
-			88
+			90
 		]
 	},
 	{
@@ -66709,6 +66863,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14305,
 		"op_32": [
 			2,
 			0,
@@ -67245,6 +67400,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14305,
 		"points": 15,
 		"spriteID": 34765,
 		"subcategory": 4843,
@@ -67268,6 +67424,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14305,
 		"points": 15,
 		"spriteID": 34765,
 		"subcategory": 4843,
@@ -67291,6 +67448,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14305,
 		"points": 15,
 		"spriteID": 34765,
 		"subcategory": 4843,
@@ -67411,6 +67569,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14305,
 		"op_32": [
 			2,
 			0,
@@ -67970,6 +68129,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14305,
 		"points": 15,
 		"spriteID": 34765,
 		"subcategory": 4844,
@@ -67993,6 +68153,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14305,
 		"points": 15,
 		"spriteID": 34765,
 		"subcategory": 4844,
@@ -68016,6 +68177,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14305,
 		"points": 15,
 		"spriteID": 34765,
 		"subcategory": 4844,
@@ -68136,6 +68298,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14305,
 		"op_32": [
 			2,
 			0,
@@ -68672,6 +68835,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14305,
 		"points": 15,
 		"spriteID": 34765,
 		"subcategory": 4845,
@@ -68695,6 +68859,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14305,
 		"points": 15,
 		"spriteID": 34765,
 		"subcategory": 4845,
@@ -69154,6 +69319,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14305,
 		"op_32": [
 			2,
 			0,
@@ -69654,6 +69820,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14313,
 		"points": 25,
 		"spriteID": 34766,
 		"subcategory": 4847,
@@ -69677,6 +69844,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14305,
 		"points": 15,
 		"spriteID": 34765,
 		"subcategory": 4847,
@@ -69797,6 +69965,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14305,
 		"op_32": [
 			2,
 			0,
@@ -70297,6 +70466,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14305,
 		"points": 15,
 		"spriteID": 34765,
 		"subcategory": 4848,
@@ -70320,6 +70490,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14305,
 		"points": 15,
 		"spriteID": 34765,
 		"subcategory": 4848,
@@ -70440,6 +70611,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14305,
 		"op_32": [
 			2,
 			0,
@@ -70940,6 +71112,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14305,
 		"points": 15,
 		"spriteID": 34765,
 		"subcategory": 4849,
@@ -70986,6 +71159,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14305,
 		"points": 15,
 		"spriteID": 34765,
 		"subcategory": 4849,
@@ -71516,6 +71690,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14305,
 		"op_32": [
 			2,
 			0,
@@ -72016,6 +72191,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14305,
 		"points": 15,
 		"spriteID": 34765,
 		"subcategory": 4851,
@@ -72062,6 +72238,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14305,
 		"points": 15,
 		"spriteID": 34765,
 		"subcategory": 4851,
@@ -72085,6 +72262,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14042,
 		"points": 10,
 		"spriteID": 34764,
 		"subcategory": 4851,
@@ -72205,6 +72383,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14305,
 		"op_32": [
 			2,
 			0,
@@ -72705,6 +72884,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14305,
 		"points": 15,
 		"spriteID": 34765,
 		"subcategory": 4852,
@@ -72728,6 +72908,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14305,
 		"points": 15,
 		"spriteID": 34765,
 		"subcategory": 4852,
@@ -72751,6 +72932,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14313,
 		"points": 25,
 		"spriteID": 34766,
 		"subcategory": 4852,
@@ -72774,6 +72956,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14305,
 		"points": 15,
 		"spriteID": 34765,
 		"subcategory": 4852,
@@ -72894,6 +73077,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14305,
 		"op_32": [
 			2,
 			0,
@@ -73394,6 +73578,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14313,
 		"points": 25,
 		"spriteID": 34766,
 		"subcategory": 4853,
@@ -73417,6 +73602,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14313,
 		"points": 25,
 		"spriteID": 34766,
 		"subcategory": 4853,
@@ -73440,6 +73626,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14313,
 		"points": 25,
 		"spriteID": 34766,
 		"subcategory": 4853,
@@ -73463,6 +73650,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14313,
 		"points": 25,
 		"spriteID": 34766,
 		"subcategory": 4853,
@@ -73733,6 +73921,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14042,
 		"op_32": [
 			2,
 			0,
@@ -74021,6 +74210,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14305,
 		"op_32": [
 			2,
 			0,
@@ -74442,6 +74632,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14042,
 		"op_32": [
 			2,
 			0,
@@ -74730,6 +74921,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14305,
 		"op_32": [
 			2,
 			0,
@@ -74890,6 +75082,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14042,
 		"points": 10,
 		"skill_req_count": [
 			1,
@@ -74946,6 +75139,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14042,
 		"points": 10,
 		"skill_req_count": [
 			1,
@@ -75184,6 +75378,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14042,
 		"op_32": [
 			2,
 			0,
@@ -75472,6 +75667,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14305,
 		"op_32": [
 			2,
 			0,
@@ -75688,6 +75884,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14042,
 		"points": 10,
 		"skill_req_count": [
 			1,
@@ -75926,6 +76123,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14042,
 		"op_32": [
 			2,
 			0,
@@ -76214,6 +76412,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14305,
 		"op_32": [
 			2,
 			0,
@@ -76374,6 +76573,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14305,
 		"points": 15,
 		"skill_req_count": [
 			1,
@@ -76751,6 +76951,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14042,
 		"op_32": [
 			2,
 			0,
@@ -77091,6 +77292,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14305,
 		"op_32": [
 			2,
 			0,
@@ -77251,6 +77453,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14305,
 		"points": 15,
 		"spriteID": 34765,
 		"subcategory": 4860,
@@ -77385,6 +77588,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14042,
 		"op_32": [
 			2,
 			0,
@@ -77725,6 +77929,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14305,
 		"op_32": [
 			2,
 			0,
@@ -77885,6 +78090,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14305,
 		"points": 40,
 		"quest_req_for_miniquests": [
 			222
@@ -77925,6 +78131,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14305,
 		"points": 15,
 		"skill_req_count": [
 			1
@@ -78073,6 +78280,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14042,
 		"op_32": [
 			2,
 			0,
@@ -78413,6 +78621,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14305,
 		"op_32": [
 			2,
 			0,
@@ -78610,6 +78819,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14305,
 		"points": 15,
 		"spriteID": 34765,
 		"subcategory": 4862,
@@ -78744,6 +78954,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14042,
 		"op_32": [
 			2,
 			0,
@@ -79084,6 +79295,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14305,
 		"op_32": [
 			2,
 			0,
@@ -79244,6 +79456,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14305,
 		"points": 15,
 		"spriteID": 34765,
 		"subcategory": 4863,
@@ -79766,6 +79979,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14313,
 		"op_32": [
 			2,
 			0,
@@ -79966,6 +80180,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14313,
 		"points": 25,
 		"spriteID": 34766,
 		"subcategory": 4866,
@@ -79989,6 +80204,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14313,
 		"points": 25,
 		"spriteID": 34766,
 		"subcategory": 4866,
@@ -80012,6 +80228,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14313,
 		"points": 25,
 		"spriteID": 34766,
 		"subcategory": 4866,
@@ -80035,6 +80252,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14313,
 		"points": 25,
 		"spriteID": 34766,
 		"subcategory": 4866,
@@ -80058,6 +80276,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14313,
 		"points": 25,
 		"spriteID": 34766,
 		"subcategory": 4866,
@@ -80154,6 +80373,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14313,
 		"op_32": [
 			2,
 			0,
@@ -80354,6 +80574,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14313,
 		"points": 25,
 		"spriteID": 34766,
 		"subcategory": 4867,
@@ -80377,6 +80598,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14313,
 		"points": 25,
 		"spriteID": 34766,
 		"subcategory": 4867,
@@ -80400,6 +80622,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14313,
 		"points": 25,
 		"spriteID": 34766,
 		"subcategory": 4867,
@@ -80423,6 +80646,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14313,
 		"points": 25,
 		"spriteID": 34766,
 		"subcategory": 4867,
@@ -80446,6 +80670,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14313,
 		"points": 25,
 		"spriteID": 34766,
 		"subcategory": 4867,
@@ -80615,7 +80840,7 @@
 		"points": 75,
 		"spriteID": 30108,
 		"subreq_count": [
-			30
+			31
 		],
 		"varbit_reqs": [
 			{
@@ -80797,6 +81022,12 @@
 				"unk_byte": 0,
 				"value": 1,
 				"varbit": 52857
+			},
+			{
+				"description": "Invoke Arisen Flesh",
+				"unk_byte": 0,
+				"value": 1,
+				"varbit": 62198
 			}
 		]
 	},
@@ -133500,6 +133731,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14313,
 		"op_32": [
 			2,
 			0,
@@ -133708,6 +133940,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14314,
 		"points": 40,
 		"spriteID": 34767,
 		"subcategory": 4923,
@@ -133731,6 +133964,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14314,
 		"points": 40,
 		"spriteID": 34767,
 		"subcategory": 4923,
@@ -133754,6 +133988,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14313,
 		"points": 25,
 		"spriteID": 34766,
 		"subcategory": 4923,
@@ -134276,6 +134511,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14042,
 		"op_32": [
 			2,
 			0,
@@ -134476,6 +134712,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14305,
 		"points": 15,
 		"spriteID": 34765,
 		"subcategory": 4977,
@@ -134743,6 +134980,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14305,
 		"op_32": [
 			2,
 			0,
@@ -135031,6 +135269,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14313,
 		"op_32": [
 			2,
 			0,
@@ -135191,6 +135430,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14305,
 		"points": 15,
 		"spriteID": 34765,
 		"subcategory": 5010,
@@ -135214,6 +135454,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14313,
 		"points": 25,
 		"spriteID": 34766,
 		"subcategory": 5010,
@@ -135237,6 +135478,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14313,
 		"points": 25,
 		"spriteID": 34766,
 		"subcategory": 5010,
@@ -135260,6 +135502,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14305,
 		"points": 15,
 		"spriteID": 34765,
 		"subcategory": 5010,
@@ -136001,6 +136244,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 13980,
 		"op_32": [
 			2,
 			0,
@@ -136341,6 +136585,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14305,
 		"op_32": [
 			2,
 			0,
@@ -136546,12 +136791,6 @@
 			0
 		],
 		"points": 5,
-		"previous_achievements": [
-			3040
-		],
-		"skill_req_count": [
-			1
-		],
 		"spriteID": 30108,
 		"subcategory": 5031,
 		"subreq_count": [
@@ -136580,12 +136819,6 @@
 			0
 		],
 		"points": 5,
-		"previous_achievements": [
-			3041
-		],
-		"skill_req_count": [
-			1
-		],
 		"spriteID": 30108,
 		"subcategory": 5031,
 		"subreq_count": [
@@ -136608,19 +136841,14 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14313,
 		"op_32": [
 			2,
 			0,
 			0
 		],
 		"points": 25,
-		"previous_achievements": [
-			3042
-		],
 		"reward": "'the Iceborn' title.",
-		"skill_req_count": [
-			1
-		],
 		"spriteID": 34766,
 		"subcategory": 5031,
 		"subreq_count": [
@@ -136649,12 +136877,6 @@
 			0
 		],
 		"points": 5,
-		"previous_achievements": [
-			3043
-		],
-		"skill_req_count": [
-			1
-		],
 		"spriteID": 30108,
 		"subcategory": 5031,
 		"subreq_count": [
@@ -136683,12 +136905,6 @@
 			0
 		],
 		"points": 5,
-		"previous_achievements": [
-			3044
-		],
-		"skill_req_count": [
-			1
-		],
 		"spriteID": 30108,
 		"subcategory": 5031,
 		"subreq_count": [
@@ -136711,14 +136927,9 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14314,
 		"points": 40,
-		"previous_achievements": [
-			3045
-		],
 		"reward": "Silver 'the Iceborn' title.",
-		"skill_req_count": [
-			1
-		],
 		"spriteID": 34767,
 		"subcategory": 5031,
 		"subreq_count": [
@@ -136741,14 +136952,9 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14420,
 		"points": 50,
-		"previous_achievements": [
-			3046
-		],
 		"reward": "Golden 'the Iceborn' title.",
-		"skill_req_count": [
-			1
-		],
 		"spriteID": 34768,
 		"subcategory": 5031,
 		"subreq_count": [
@@ -136794,6 +137000,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14313,
 		"points": 25,
 		"spriteID": 34766,
 		"subcategory": 5010,
@@ -137333,6 +137540,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14313,
 		"op_32": [
 			2,
 			0,
@@ -137633,6 +137841,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14313,
 		"op_32": [
 			2,
 			0,
@@ -137833,6 +138042,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14313,
 		"points": 25,
 		"reward": "Access to the hard mode encounter.",
 		"spriteID": 34766,
@@ -137857,6 +138067,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14314,
 		"points": 40,
 		"reward": "Ability to create an igneous Kal-Zuk cape by fusing together the igneous Kal capes.",
 		"spriteID": 34767,
@@ -139448,6 +139659,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14313,
 		"op_32": [
 			2,
 			0,
@@ -139626,6 +139838,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14313,
 		"op_32": [
 			2,
 			0,
@@ -139930,6 +140143,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14313,
 		"op_32": [
 			2,
 			0,
@@ -139999,6 +140213,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14314,
 		"op_32": [
 			2,
 			0,
@@ -140034,6 +140249,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14314,
 		"points": 40,
 		"previous_achievements": [
 			3160
@@ -140064,6 +140280,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14420,
 		"points": 50,
 		"previous_achievements": [
 			3141
@@ -140117,6 +140334,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14314,
 		"points": 40,
 		"previous_achievements": [
 			3140
@@ -140147,6 +140365,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14420,
 		"points": 50,
 		"previous_achievements": [
 			3144
@@ -146478,6 +146697,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14042,
 		"op_32": [
 			2,
 			0,
@@ -146791,6 +147011,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14305,
 		"op_32": [
 			2,
 			0,
@@ -151395,6 +151616,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14305,
 		"op_32": [
 			2,
 			0,
@@ -151682,6 +151904,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14313,
 		"op_32": [
 			2,
 			0,
@@ -153808,6 +154031,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14305,
 		"op_32": [
 			2,
 			0,
@@ -154078,6 +154302,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14313,
 		"op_32": [
 			2,
 			0,
@@ -154363,6 +154588,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14305,
 		"op_32": [
 			2,
 			0,
@@ -154633,6 +154859,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14313,
 		"op_32": [
 			2,
 			0,
@@ -154919,6 +155146,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14305,
 		"op_32": [
 			2,
 			0,
@@ -155189,6 +155417,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14313,
 		"op_32": [
 			2,
 			0,
@@ -155389,6 +155618,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14305,
 		"points": 15,
 		"spriteID": 34765,
 		"subcategory": 5431,
@@ -159707,6 +159937,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14305,
 		"points": 15,
 		"spriteID": 34765,
 		"subcategory": 4822,
@@ -159730,6 +159961,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14313,
 		"points": 25,
 		"spriteID": 34766,
 		"subcategory": 4822,
@@ -159753,6 +159985,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14314,
 		"points": 40,
 		"spriteID": 34767,
 		"subcategory": 4822,
@@ -159776,6 +160009,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14305,
 		"points": 15,
 		"spriteID": 34765,
 		"subcategory": 4822,
@@ -159799,6 +160033,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14305,
 		"points": 15,
 		"spriteID": 34765,
 		"subcategory": 4822,
@@ -159822,6 +160057,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14305,
 		"points": 15,
 		"spriteID": 34765,
 		"subcategory": 4822,
@@ -159845,6 +160081,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14305,
 		"points": 15,
 		"spriteID": 34765,
 		"subcategory": 4822,
@@ -159868,6 +160105,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14305,
 		"points": 15,
 		"spriteID": 34765,
 		"subcategory": 4822,
@@ -159891,6 +160129,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14305,
 		"points": 15,
 		"spriteID": 34765,
 		"subcategory": 4822,
@@ -159914,6 +160153,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 13980,
 		"points": 5,
 		"spriteID": 34763,
 		"subcategory": 4823,
@@ -159937,6 +160177,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 13980,
 		"points": 5,
 		"spriteID": 34763,
 		"subcategory": 4823,
@@ -159960,6 +160201,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 13980,
 		"points": 5,
 		"spriteID": 34763,
 		"subcategory": 4824,
@@ -159983,6 +160225,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14042,
 		"points": 10,
 		"spriteID": 34764,
 		"subcategory": 4825,
@@ -160006,6 +160249,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14305,
 		"points": 15,
 		"spriteID": 34765,
 		"subcategory": 4825,
@@ -160029,6 +160273,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14042,
 		"points": 10,
 		"spriteID": 34764,
 		"subcategory": 4825,
@@ -160052,6 +160297,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14313,
 		"points": 25,
 		"spriteID": 34766,
 		"subcategory": 4923,
@@ -160075,6 +160321,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14314,
 		"points": 40,
 		"spriteID": 34767,
 		"subcategory": 4923,
@@ -160098,6 +160345,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14420,
 		"points": 50,
 		"spriteID": 34768,
 		"subcategory": 4923,
@@ -160121,6 +160369,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14313,
 		"points": 25,
 		"spriteID": 34766,
 		"subcategory": 4923,
@@ -160144,6 +160393,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14314,
 		"points": 40,
 		"spriteID": 34767,
 		"subcategory": 4923,
@@ -160167,6 +160417,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14313,
 		"points": 25,
 		"spriteID": 34766,
 		"subcategory": 4923,
@@ -160190,6 +160441,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14314,
 		"points": 40,
 		"spriteID": 34767,
 		"subcategory": 4923,
@@ -160213,6 +160465,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14314,
 		"points": 40,
 		"spriteID": 34767,
 		"subcategory": 4923,
@@ -160236,6 +160489,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14313,
 		"points": 25,
 		"spriteID": 34766,
 		"subcategory": 4923,
@@ -160259,6 +160513,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14314,
 		"points": 40,
 		"spriteID": 34767,
 		"subcategory": 4923,
@@ -160282,6 +160537,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14420,
 		"points": 50,
 		"reward": "'the One That Speaks' title.",
 		"spriteID": 34768,
@@ -160314,6 +160570,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14420,
 		"points": 50,
 		"reward": "'Shadow manifestation' pet.<br>'the Shadow Colossus' title.",
 		"spriteID": 34768,
@@ -160346,6 +160603,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14313,
 		"points": 25,
 		"spriteID": 34766,
 		"subcategory": 5091,
@@ -160369,6 +160627,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14314,
 		"points": 40,
 		"spriteID": 34767,
 		"subcategory": 5091,
@@ -160392,6 +160651,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14314,
 		"points": 40,
 		"spriteID": 34767,
 		"subcategory": 5091,
@@ -160415,6 +160675,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14420,
 		"points": 50,
 		"spriteID": 34768,
 		"subcategory": 5091,
@@ -160438,6 +160699,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14313,
 		"points": 25,
 		"spriteID": 34766,
 		"subcategory": 5091,
@@ -160461,6 +160723,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14314,
 		"points": 40,
 		"spriteID": 34767,
 		"subcategory": 5091,
@@ -160484,6 +160747,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14314,
 		"points": 40,
 		"spriteID": 34767,
 		"subcategory": 5091,
@@ -160507,6 +160771,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14314,
 		"points": 40,
 		"spriteID": 34767,
 		"subcategory": 5091,
@@ -160530,6 +160795,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14314,
 		"points": 40,
 		"spriteID": 34767,
 		"subcategory": 5091,
@@ -160553,6 +160819,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14305,
 		"points": 15,
 		"spriteID": 34765,
 		"subcategory": 5010,
@@ -160576,6 +160843,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14313,
 		"points": 25,
 		"spriteID": 34766,
 		"subcategory": 5010,
@@ -160599,6 +160867,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14313,
 		"points": 25,
 		"spriteID": 34766,
 		"subcategory": 5010,
@@ -160622,6 +160891,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14314,
 		"points": 40,
 		"spriteID": 34767,
 		"subcategory": 5010,
@@ -160645,6 +160915,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14420,
 		"points": 50,
 		"spriteID": 34768,
 		"subcategory": 5010,
@@ -160668,6 +160939,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14305,
 		"points": 15,
 		"spriteID": 34765,
 		"subcategory": 5010,
@@ -160691,6 +160963,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14305,
 		"points": 15,
 		"spriteID": 34765,
 		"subcategory": 5010,
@@ -160714,6 +160987,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14313,
 		"points": 25,
 		"spriteID": 34766,
 		"subcategory": 5010,
@@ -160737,6 +161011,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14313,
 		"points": 25,
 		"spriteID": 34766,
 		"subcategory": 5010,
@@ -160760,6 +161035,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14314,
 		"points": 40,
 		"spriteID": 34767,
 		"subcategory": 5010,
@@ -160783,6 +161059,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14314,
 		"points": 40,
 		"spriteID": 34767,
 		"subcategory": 5010,
@@ -160806,6 +161083,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14314,
 		"points": 40,
 		"spriteID": 34767,
 		"subcategory": 5010,
@@ -160829,6 +161107,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14420,
 		"points": 50,
 		"reward": "'the Time Warped' title.",
 		"spriteID": 34768,
@@ -160860,6 +161139,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14420,
 		"points": 50,
 		"reward": "'Echo of' title.",
 		"spriteID": 34768,
@@ -160890,6 +161170,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14305,
 		"points": 15,
 		"spriteID": 34765,
 		"subcategory": 5031,
@@ -160913,6 +161194,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14313,
 		"points": 25,
 		"spriteID": 34766,
 		"subcategory": 5031,
@@ -160936,6 +161218,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14314,
 		"points": 40,
 		"spriteID": 34767,
 		"subcategory": 5031,
@@ -160959,6 +161242,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14420,
 		"points": 50,
 		"spriteID": 34768,
 		"subcategory": 5031,
@@ -160982,6 +161266,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14305,
 		"points": 15,
 		"reward": "Access to the hard mode encounter.",
 		"spriteID": 34765,
@@ -161006,6 +161291,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14314,
 		"points": 40,
 		"spriteID": 34767,
 		"subcategory": 5031,
@@ -161029,6 +161315,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14420,
 		"points": 50,
 		"previous_achievements": [
 			3686
@@ -161058,6 +161345,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14313,
 		"points": 25,
 		"reward": "'Lord of Chaos' title.",
 		"spriteID": 34766,
@@ -161082,6 +161370,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14313,
 		"points": 25,
 		"spriteID": 34766,
 		"subcategory": 5205,
@@ -161105,6 +161394,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14314,
 		"points": 40,
 		"spriteID": 34767,
 		"subcategory": 5205,
@@ -161128,6 +161418,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14420,
 		"points": 50,
 		"spriteID": 34768,
 		"subcategory": 5205,
@@ -161151,6 +161442,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14420,
 		"points": 50,
 		"spriteID": 34768,
 		"subcategory": 5205,
@@ -161174,6 +161466,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14420,
 		"points": 50,
 		"spriteID": 34768,
 		"subcategory": 5205,
@@ -161197,6 +161490,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14420,
 		"points": 50,
 		"reward": "'the UnprEDICTable' title.",
 		"spriteID": 34768,
@@ -161230,6 +161524,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14313,
 		"points": 25,
 		"spriteID": 34766,
 		"subcategory": 5205,
@@ -161253,6 +161548,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14314,
 		"points": 40,
 		"spriteID": 34767,
 		"subcategory": 5205,
@@ -161276,6 +161572,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14314,
 		"points": 40,
 		"spriteID": 34767,
 		"subcategory": 5205,
@@ -161299,6 +161596,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14314,
 		"points": 40,
 		"spriteID": 34767,
 		"subcategory": 5205,
@@ -161322,6 +161620,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14314,
 		"points": 40,
 		"spriteID": 34767,
 		"subcategory": 5205,
@@ -161345,6 +161644,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14314,
 		"points": 40,
 		"spriteID": 34767,
 		"subcategory": 5205,
@@ -161368,6 +161668,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14314,
 		"points": 40,
 		"spriteID": 34767,
 		"subcategory": 5205,
@@ -161391,6 +161692,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14314,
 		"points": 40,
 		"spriteID": 34767,
 		"subcategory": 5205,
@@ -161414,6 +161716,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 13980,
 		"points": 5,
 		"spriteID": 34763,
 		"subcategory": 4827,
@@ -161437,6 +161740,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14042,
 		"points": 10,
 		"spriteID": 34764,
 		"subcategory": 4827,
@@ -161460,6 +161764,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 13980,
 		"points": 5,
 		"spriteID": 34763,
 		"subcategory": 4827,
@@ -161483,6 +161788,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14042,
 		"points": 10,
 		"spriteID": 34764,
 		"subcategory": 4827,
@@ -161506,6 +161812,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 13980,
 		"points": 5,
 		"spriteID": 34763,
 		"subcategory": 4827,
@@ -161529,6 +161836,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14305,
 		"points": 15,
 		"spriteID": 34765,
 		"subcategory": 4828,
@@ -161552,6 +161860,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14313,
 		"points": 25,
 		"spriteID": 34766,
 		"subcategory": 4828,
@@ -161575,6 +161884,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14305,
 		"points": 15,
 		"spriteID": 34765,
 		"subcategory": 4828,
@@ -161598,6 +161908,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14313,
 		"points": 25,
 		"spriteID": 34766,
 		"subcategory": 4828,
@@ -161621,6 +161932,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14042,
 		"points": 10,
 		"spriteID": 34764,
 		"subcategory": 5332,
@@ -161644,6 +161956,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14305,
 		"points": 15,
 		"spriteID": 34765,
 		"subcategory": 5332,
@@ -161667,6 +161980,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14042,
 		"points": 10,
 		"spriteID": 34764,
 		"subcategory": 5332,
@@ -161690,6 +162004,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14042,
 		"points": 10,
 		"spriteID": 34764,
 		"subcategory": 4829,
@@ -161713,6 +162028,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14305,
 		"points": 15,
 		"spriteID": 34765,
 		"subcategory": 4829,
@@ -161736,6 +162052,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14042,
 		"points": 10,
 		"spriteID": 34764,
 		"subcategory": 4829,
@@ -161759,6 +162076,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14305,
 		"points": 15,
 		"spriteID": 34765,
 		"subcategory": 4829,
@@ -161782,6 +162100,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14305,
 		"points": 15,
 		"spriteID": 34765,
 		"subcategory": 4830,
@@ -161805,6 +162124,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14313,
 		"points": 25,
 		"spriteID": 34766,
 		"subcategory": 4830,
@@ -161828,6 +162148,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14305,
 		"points": 15,
 		"spriteID": 34765,
 		"subcategory": 4830,
@@ -161851,6 +162172,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14305,
 		"points": 15,
 		"spriteID": 34765,
 		"subcategory": 4830,
@@ -161874,6 +162196,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14305,
 		"points": 15,
 		"spriteID": 34765,
 		"subcategory": 4830,
@@ -161897,6 +162220,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14305,
 		"points": 15,
 		"spriteID": 34765,
 		"subcategory": 4830,
@@ -161920,6 +162244,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14313,
 		"points": 25,
 		"spriteID": 34766,
 		"subcategory": 4830,
@@ -161943,6 +162268,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 13980,
 		"points": 5,
 		"spriteID": 34763,
 		"subcategory": 4831,
@@ -161966,6 +162292,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14042,
 		"points": 10,
 		"spriteID": 34764,
 		"subcategory": 4831,
@@ -161989,6 +162316,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14042,
 		"points": 10,
 		"spriteID": 34764,
 		"subcategory": 4831,
@@ -162012,6 +162340,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 13980,
 		"points": 5,
 		"spriteID": 34763,
 		"subcategory": 4832,
@@ -162035,6 +162364,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14042,
 		"points": 10,
 		"spriteID": 34764,
 		"subcategory": 4832,
@@ -162058,6 +162388,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 13980,
 		"points": 5,
 		"spriteID": 34763,
 		"subcategory": 4832,
@@ -162081,6 +162412,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14042,
 		"points": 10,
 		"spriteID": 34764,
 		"subcategory": 4832,
@@ -162104,6 +162436,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14042,
 		"points": 10,
 		"spriteID": 34764,
 		"subcategory": 4833,
@@ -162127,6 +162460,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14305,
 		"points": 15,
 		"spriteID": 34765,
 		"subcategory": 4833,
@@ -162150,6 +162484,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14305,
 		"points": 15,
 		"spriteID": 34765,
 		"subcategory": 4833,
@@ -162173,6 +162508,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14305,
 		"points": 15,
 		"spriteID": 34765,
 		"subcategory": 4834,
@@ -162196,6 +162532,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14313,
 		"points": 25,
 		"spriteID": 34766,
 		"subcategory": 4834,
@@ -162219,6 +162556,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14314,
 		"points": 40,
 		"spriteID": 34767,
 		"subcategory": 4834,
@@ -162242,6 +162580,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14305,
 		"points": 15,
 		"spriteID": 34765,
 		"subcategory": 4834,
@@ -162265,6 +162604,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14305,
 		"points": 15,
 		"spriteID": 34765,
 		"subcategory": 4834,
@@ -162288,6 +162628,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14305,
 		"points": 15,
 		"spriteID": 34765,
 		"subcategory": 4834,
@@ -162311,6 +162652,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14305,
 		"points": 15,
 		"spriteID": 34765,
 		"subcategory": 4834,
@@ -162334,6 +162676,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14305,
 		"points": 15,
 		"spriteID": 34765,
 		"subcategory": 4835,
@@ -162357,6 +162700,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14313,
 		"points": 25,
 		"spriteID": 34766,
 		"subcategory": 4835,
@@ -162380,6 +162724,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14314,
 		"points": 40,
 		"spriteID": 34767,
 		"subcategory": 4835,
@@ -162403,6 +162748,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14305,
 		"points": 15,
 		"spriteID": 34765,
 		"subcategory": 4835,
@@ -162426,6 +162772,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14305,
 		"points": 15,
 		"spriteID": 34765,
 		"subcategory": 4835,
@@ -162449,6 +162796,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14305,
 		"points": 15,
 		"spriteID": 34765,
 		"subcategory": 4835,
@@ -162472,6 +162820,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14313,
 		"points": 25,
 		"spriteID": 34766,
 		"subcategory": 4835,
@@ -162495,6 +162844,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14313,
 		"points": 25,
 		"spriteID": 34766,
 		"subcategory": 4835,
@@ -162518,6 +162868,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14313,
 		"points": 25,
 		"spriteID": 34766,
 		"subcategory": 4083,
@@ -162541,6 +162892,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14314,
 		"points": 40,
 		"spriteID": 34767,
 		"subcategory": 4083,
@@ -162564,6 +162916,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14420,
 		"points": 50,
 		"spriteID": 34768,
 		"subcategory": 4083,
@@ -162587,6 +162940,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14314,
 		"points": 40,
 		"spriteID": 34767,
 		"subcategory": 4083,
@@ -162610,6 +162964,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14314,
 		"points": 40,
 		"spriteID": 34767,
 		"subcategory": 4083,
@@ -162633,6 +162988,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14314,
 		"points": 40,
 		"spriteID": 34767,
 		"subcategory": 4083,
@@ -162656,6 +163012,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14313,
 		"points": 25,
 		"spriteID": 34766,
 		"subcategory": 4083,
@@ -162679,6 +163036,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14313,
 		"points": 25,
 		"spriteID": 34766,
 		"subcategory": 4083,
@@ -162702,6 +163060,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14314,
 		"points": 40,
 		"spriteID": 34767,
 		"subcategory": 4083,
@@ -162725,6 +163084,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14314,
 		"points": 40,
 		"spriteID": 34767,
 		"subcategory": 4083,
@@ -162748,6 +163108,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14420,
 		"points": 50,
 		"reward": "'the Final Praesul' title.",
 		"spriteID": 34768,
@@ -162782,6 +163143,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14314,
 		"points": 40,
 		"spriteID": 34767,
 		"subcategory": 4083,
@@ -162805,6 +163167,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14314,
 		"points": 40,
 		"spriteID": 34767,
 		"subcategory": 4083,
@@ -162828,6 +163191,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14314,
 		"points": 40,
 		"spriteID": 34767,
 		"subcategory": 4083,
@@ -162851,6 +163215,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14313,
 		"points": 25,
 		"spriteID": 34766,
 		"subcategory": 4083,
@@ -162874,6 +163239,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14314,
 		"points": 40,
 		"spriteID": 34767,
 		"subcategory": 4083,
@@ -162897,6 +163263,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14313,
 		"points": 25,
 		"spriteID": 34766,
 		"subcategory": 4083,
@@ -162920,6 +163287,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14314,
 		"points": 40,
 		"spriteID": 34767,
 		"subcategory": 4083,
@@ -162943,6 +163311,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14420,
 		"points": 50,
 		"reward": "'the Angel of Death' title.",
 		"spriteID": 34768,
@@ -162977,6 +163346,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14314,
 		"points": 40,
 		"spriteID": 34767,
 		"subcategory": 4083,
@@ -163000,6 +163370,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14420,
 		"points": 50,
 		"spriteID": 34768,
 		"subcategory": 4083,
@@ -163023,6 +163394,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14042,
 		"points": 10,
 		"spriteID": 34764,
 		"subcategory": 4836,
@@ -163046,6 +163418,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14305,
 		"points": 15,
 		"spriteID": 34765,
 		"subcategory": 4836,
@@ -163069,6 +163442,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14042,
 		"points": 10,
 		"spriteID": 34764,
 		"subcategory": 4836,
@@ -163092,6 +163466,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14042,
 		"points": 10,
 		"spriteID": 34764,
 		"subcategory": 4836,
@@ -163115,6 +163490,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14305,
 		"points": 15,
 		"spriteID": 34765,
 		"subcategory": 4836,
@@ -163138,6 +163514,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14305,
 		"points": 15,
 		"spriteID": 34765,
 		"subcategory": 4836,
@@ -163161,6 +163538,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14305,
 		"points": 15,
 		"spriteID": 34765,
 		"subcategory": 5334,
@@ -163184,6 +163562,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14313,
 		"points": 25,
 		"spriteID": 34766,
 		"subcategory": 5334,
@@ -163207,6 +163586,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14314,
 		"points": 40,
 		"spriteID": 34767,
 		"subcategory": 5334,
@@ -163230,6 +163610,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14305,
 		"points": 15,
 		"spriteID": 34765,
 		"subcategory": 5334,
@@ -163253,6 +163634,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14313,
 		"points": 25,
 		"spriteID": 34766,
 		"subcategory": 5334,
@@ -163276,6 +163658,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14313,
 		"points": 25,
 		"spriteID": 34766,
 		"subcategory": 5334,
@@ -163299,6 +163682,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14313,
 		"points": 25,
 		"spriteID": 34766,
 		"subcategory": 5334,
@@ -163322,6 +163706,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14314,
 		"points": 40,
 		"spriteID": 34767,
 		"subcategory": 5334,
@@ -163345,6 +163730,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14314,
 		"points": 40,
 		"spriteID": 34767,
 		"sub_achievements": [
@@ -163375,6 +163761,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14042,
 		"points": 10,
 		"spriteID": 34764,
 		"subcategory": 4977,
@@ -163398,6 +163785,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14042,
 		"points": 10,
 		"spriteID": 34764,
 		"subcategory": 4977,
@@ -163421,6 +163809,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14042,
 		"points": 10,
 		"spriteID": 34764,
 		"subcategory": 4977,
@@ -163444,6 +163833,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14042,
 		"points": 10,
 		"spriteID": 34764,
 		"subcategory": 4977,
@@ -163467,6 +163857,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14042,
 		"points": 10,
 		"spriteID": 34764,
 		"subcategory": 4977,
@@ -163490,6 +163881,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14042,
 		"points": 10,
 		"spriteID": 34764,
 		"subcategory": 4977,
@@ -163513,6 +163905,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14305,
 		"points": 15,
 		"spriteID": 34765,
 		"subcategory": 4837,
@@ -163536,6 +163929,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14313,
 		"points": 25,
 		"spriteID": 34766,
 		"subcategory": 4837,
@@ -163559,6 +163953,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14314,
 		"points": 40,
 		"spriteID": 34767,
 		"subcategory": 4837,
@@ -163582,6 +163977,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14305,
 		"points": 15,
 		"spriteID": 34765,
 		"subcategory": 4837,
@@ -163605,6 +164001,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14305,
 		"points": 15,
 		"spriteID": 34765,
 		"subcategory": 4837,
@@ -163628,6 +164025,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14305,
 		"points": 15,
 		"spriteID": 34765,
 		"subcategory": 4837,
@@ -163651,6 +164049,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14305,
 		"points": 15,
 		"spriteID": 34765,
 		"subcategory": 4837,
@@ -163674,6 +164073,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14305,
 		"points": 15,
 		"spriteID": 34765,
 		"subcategory": 4837,
@@ -163697,6 +164097,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14305,
 		"points": 15,
 		"spriteID": 34765,
 		"subcategory": 4837,
@@ -163720,6 +164121,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14305,
 		"points": 15,
 		"spriteID": 34765,
 		"subcategory": 4837,
@@ -163743,6 +164145,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14313,
 		"points": 25,
 		"spriteID": 34766,
 		"sub_achievements": [
@@ -163776,6 +164179,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14313,
 		"points": 25,
 		"spriteID": 34766,
 		"subcategory": 4837,
@@ -163799,6 +164203,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14313,
 		"points": 25,
 		"spriteID": 34766,
 		"subcategory": 4838,
@@ -163822,6 +164227,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14314,
 		"points": 40,
 		"spriteID": 34767,
 		"subcategory": 4838,
@@ -163845,6 +164251,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14420,
 		"points": 50,
 		"spriteID": 34768,
 		"subcategory": 4838,
@@ -163868,6 +164275,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14313,
 		"points": 25,
 		"spriteID": 34766,
 		"subcategory": 4838,
@@ -163891,6 +164299,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14313,
 		"points": 25,
 		"spriteID": 34766,
 		"subcategory": 4838,
@@ -163914,6 +164323,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14314,
 		"points": 40,
 		"spriteID": 34767,
 		"subcategory": 4838,
@@ -163937,6 +164347,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14313,
 		"points": 25,
 		"spriteID": 34766,
 		"subcategory": 4838,
@@ -163960,6 +164371,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14313,
 		"points": 25,
 		"spriteID": 34766,
 		"subcategory": 4838,
@@ -163983,6 +164395,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14313,
 		"points": 25,
 		"spriteID": 34766,
 		"subcategory": 4838,
@@ -164006,6 +164419,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14314,
 		"points": 40,
 		"spriteID": 34767,
 		"subcategory": 4838,
@@ -164029,6 +164443,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14420,
 		"points": 50,
 		"reward": "'Erethdor's Bane' title.",
 		"spriteID": 34768,
@@ -164063,6 +164478,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14313,
 		"points": 25,
 		"spriteID": 34766,
 		"subcategory": 4838,
@@ -164086,6 +164502,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14313,
 		"points": 25,
 		"spriteID": 34766,
 		"subcategory": 4838,
@@ -164109,6 +164526,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14313,
 		"points": 25,
 		"spriteID": 34766,
 		"subcategory": 4838,
@@ -164132,6 +164550,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14313,
 		"points": 25,
 		"spriteID": 34766,
 		"subcategory": 4838,
@@ -164155,6 +164574,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14314,
 		"points": 40,
 		"spriteID": 34767,
 		"subcategory": 4838,
@@ -164178,6 +164598,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14314,
 		"points": 40,
 		"spriteID": 34767,
 		"subcategory": 4838,
@@ -164201,6 +164622,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14314,
 		"points": 40,
 		"spriteID": 34767,
 		"subcategory": 4838,
@@ -164224,6 +164646,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14314,
 		"points": 40,
 		"spriteID": 34767,
 		"subcategory": 4838,
@@ -164247,6 +164670,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14420,
 		"points": 50,
 		"reward": "'the Blightbound' title.",
 		"spriteID": 34768,
@@ -164282,6 +164706,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14313,
 		"points": 25,
 		"spriteID": 34766,
 		"subcategory": 4839,
@@ -164305,6 +164730,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14314,
 		"points": 40,
 		"spriteID": 34767,
 		"subcategory": 4839,
@@ -164328,6 +164754,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14420,
 		"points": 50,
 		"spriteID": 34768,
 		"subcategory": 4839,
@@ -164351,6 +164778,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14314,
 		"points": 40,
 		"spriteID": 34767,
 		"subcategory": 4839,
@@ -164374,6 +164802,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14314,
 		"points": 40,
 		"spriteID": 34767,
 		"subcategory": 4839,
@@ -164397,6 +164826,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14313,
 		"points": 25,
 		"spriteID": 34766,
 		"subcategory": 4839,
@@ -164420,6 +164850,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14314,
 		"points": 40,
 		"spriteID": 34767,
 		"subcategory": 4839,
@@ -164443,6 +164874,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14314,
 		"points": 40,
 		"spriteID": 34767,
 		"subcategory": 4839,
@@ -164466,6 +164898,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14420,
 		"points": 50,
 		"previous_achievements": [
 			3832
@@ -164495,6 +164928,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14420,
 		"points": 50,
 		"spriteID": 34768,
 		"subcategory": 4839,
@@ -164518,6 +164952,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14420,
 		"points": 50,
 		"reward": "'Anima-golem' pet.",
 		"spriteID": 34768,
@@ -164542,6 +164977,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14313,
 		"points": 25,
 		"spriteID": 34766,
 		"subcategory": 4840,
@@ -164565,6 +165001,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14314,
 		"points": 40,
 		"spriteID": 34767,
 		"subcategory": 4840,
@@ -164588,6 +165025,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14420,
 		"points": 50,
 		"spriteID": 34768,
 		"subcategory": 4840,
@@ -164611,6 +165049,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14313,
 		"points": 25,
 		"spriteID": 34766,
 		"subcategory": 4840,
@@ -164634,6 +165073,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14314,
 		"points": 40,
 		"spriteID": 34767,
 		"subcategory": 4840,
@@ -164657,6 +165097,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14420,
 		"points": 50,
 		"spriteID": 34768,
 		"subcategory": 4840,
@@ -164680,6 +165121,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14313,
 		"points": 25,
 		"spriteID": 34766,
 		"subcategory": 4840,
@@ -164703,6 +165145,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14313,
 		"points": 25,
 		"spriteID": 34766,
 		"subcategory": 4840,
@@ -164726,6 +165169,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14313,
 		"points": 25,
 		"spriteID": 34766,
 		"subcategory": 4840,
@@ -164749,6 +165193,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14313,
 		"points": 25,
 		"spriteID": 34766,
 		"subcategory": 4840,
@@ -164772,6 +165217,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14313,
 		"points": 25,
 		"spriteID": 34766,
 		"subcategory": 4840,
@@ -164795,6 +165241,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14313,
 		"points": 25,
 		"spriteID": 34766,
 		"subcategory": 4840,
@@ -164818,6 +165265,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14313,
 		"points": 25,
 		"spriteID": 34766,
 		"subcategory": 4840,
@@ -164841,6 +165289,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14313,
 		"points": 25,
 		"spriteID": 34766,
 		"subcategory": 4840,
@@ -164864,6 +165313,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14313,
 		"points": 25,
 		"spriteID": 34766,
 		"subcategory": 4840,
@@ -164887,6 +165337,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14313,
 		"points": 25,
 		"spriteID": 34766,
 		"subcategory": 4840,
@@ -164910,6 +165361,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14313,
 		"points": 25,
 		"spriteID": 34766,
 		"subcategory": 4840,
@@ -164933,6 +165385,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14313,
 		"points": 25,
 		"spriteID": 34766,
 		"subcategory": 4840,
@@ -164956,6 +165409,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14313,
 		"points": 25,
 		"spriteID": 34766,
 		"subcategory": 4840,
@@ -164979,6 +165433,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14313,
 		"points": 25,
 		"spriteID": 34766,
 		"subcategory": 4840,
@@ -165002,6 +165457,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14313,
 		"points": 25,
 		"spriteID": 34766,
 		"subcategory": 4840,
@@ -165025,6 +165481,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14313,
 		"points": 25,
 		"spriteID": 34766,
 		"subcategory": 4840,
@@ -165048,6 +165505,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14313,
 		"points": 25,
 		"spriteID": 34766,
 		"subcategory": 4840,
@@ -165071,6 +165529,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14313,
 		"points": 25,
 		"spriteID": 34766,
 		"subcategory": 4840,
@@ -165094,6 +165553,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14313,
 		"points": 25,
 		"spriteID": 34766,
 		"subcategory": 4840,
@@ -165117,6 +165577,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14313,
 		"points": 25,
 		"spriteID": 34766,
 		"subcategory": 4840,
@@ -165140,6 +165601,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14313,
 		"points": 25,
 		"spriteID": 34766,
 		"subcategory": 4840,
@@ -165163,6 +165625,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14313,
 		"points": 25,
 		"reward": "Access to Vorago in hard mode.",
 		"spriteID": 34766,
@@ -165217,6 +165680,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14313,
 		"points": 25,
 		"spriteID": 34766,
 		"subcategory": 4840,
@@ -165240,6 +165704,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14314,
 		"points": 40,
 		"spriteID": 34767,
 		"subcategory": 4840,
@@ -165263,6 +165728,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14420,
 		"points": 50,
 		"reward": "'the Earthshaker' title.",
 		"spriteID": 34768,
@@ -165300,6 +165766,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14420,
 		"points": 50,
 		"reward": "'the Bad Omen' title.",
 		"spriteID": 34768,
@@ -165337,6 +165804,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14313,
 		"points": 25,
 		"spriteID": 34766,
 		"subcategory": 4840,
@@ -165360,6 +165828,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14314,
 		"points": 40,
 		"spriteID": 34767,
 		"subcategory": 4840,
@@ -165383,6 +165852,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14420,
 		"points": 50,
 		"spriteID": 34768,
 		"subcategory": 4840,
@@ -165406,6 +165876,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14313,
 		"points": 25,
 		"reward": "'the Defeater' title.",
 		"spriteID": 34766,
@@ -165484,6 +165955,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14314,
 		"points": 40,
 		"reward": "Silver 'the Defeater' title.",
 		"spriteID": 34767,
@@ -165538,6 +166010,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14420,
 		"points": 50,
 		"reward": "Golden 'the Defeater' title.",
 		"spriteID": 34768,
@@ -165592,6 +166065,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14305,
 		"points": 15,
 		"spriteID": 34765,
 		"subcategory": 4843,
@@ -165615,6 +166089,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14313,
 		"points": 25,
 		"spriteID": 34766,
 		"subcategory": 4843,
@@ -165638,6 +166113,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14305,
 		"points": 15,
 		"spriteID": 34765,
 		"subcategory": 4843,
@@ -165661,6 +166137,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14305,
 		"points": 15,
 		"spriteID": 34765,
 		"subcategory": 4844,
@@ -165684,6 +166161,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14313,
 		"points": 25,
 		"spriteID": 34766,
 		"subcategory": 4844,
@@ -165707,6 +166185,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14305,
 		"points": 15,
 		"spriteID": 34765,
 		"subcategory": 4845,
@@ -165730,6 +166209,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14313,
 		"points": 25,
 		"spriteID": 34766,
 		"subcategory": 4845,
@@ -165753,6 +166233,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14314,
 		"points": 40,
 		"spriteID": 34767,
 		"subcategory": 4845,
@@ -165776,6 +166257,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14420,
 		"points": 50,
 		"spriteID": 34768,
 		"subcategory": 4845,
@@ -165799,6 +166281,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14305,
 		"points": 15,
 		"spriteID": 34765,
 		"subcategory": 4845,
@@ -165822,6 +166305,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14314,
 		"points": 40,
 		"spriteID": 34767,
 		"subcategory": 4845,
@@ -165845,6 +166329,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14305,
 		"points": 15,
 		"spriteID": 34765,
 		"subcategory": 4847,
@@ -165868,6 +166353,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14313,
 		"points": 25,
 		"spriteID": 34766,
 		"subcategory": 4847,
@@ -165891,6 +166377,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14313,
 		"points": 25,
 		"spriteID": 34766,
 		"subcategory": 4847,
@@ -165914,6 +166401,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14313,
 		"points": 25,
 		"spriteID": 34766,
 		"subcategory": 4847,
@@ -165937,6 +166425,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14305,
 		"points": 15,
 		"spriteID": 34765,
 		"subcategory": 4848,
@@ -165960,6 +166449,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14313,
 		"points": 25,
 		"spriteID": 34766,
 		"subcategory": 4848,
@@ -165983,6 +166473,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14305,
 		"points": 15,
 		"spriteID": 34765,
 		"subcategory": 4848,
@@ -166006,6 +166497,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14305,
 		"points": 15,
 		"spriteID": 34765,
 		"subcategory": 4848,
@@ -166029,6 +166521,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14305,
 		"points": 15,
 		"spriteID": 34765,
 		"subcategory": 4848,
@@ -166052,6 +166545,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14305,
 		"points": 15,
 		"spriteID": 34765,
 		"subcategory": 4849,
@@ -166075,6 +166569,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14313,
 		"points": 25,
 		"spriteID": 34766,
 		"subcategory": 4849,
@@ -166098,6 +166593,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14314,
 		"points": 40,
 		"spriteID": 34767,
 		"subcategory": 4849,
@@ -166121,6 +166617,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14420,
 		"points": 50,
 		"spriteID": 34768,
 		"subcategory": 4849,
@@ -166144,6 +166641,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14305,
 		"points": 15,
 		"spriteID": 34765,
 		"subcategory": 4849,
@@ -166167,6 +166665,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14305,
 		"points": 15,
 		"spriteID": 34765,
 		"subcategory": 4849,
@@ -166190,6 +166689,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14305,
 		"points": 15,
 		"spriteID": 34765,
 		"subcategory": 4851,
@@ -166213,6 +166713,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14313,
 		"points": 25,
 		"spriteID": 34766,
 		"subcategory": 4851,
@@ -166236,6 +166737,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14042,
 		"points": 10,
 		"spriteID": 34764,
 		"subcategory": 4851,
@@ -166259,6 +166761,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14042,
 		"points": 10,
 		"spriteID": 34764,
 		"subcategory": 4851,
@@ -166282,6 +166785,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14305,
 		"points": 15,
 		"spriteID": 34765,
 		"subcategory": 4851,
@@ -166305,6 +166809,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14305,
 		"points": 15,
 		"spriteID": 34765,
 		"subcategory": 4852,
@@ -166328,6 +166833,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14313,
 		"points": 25,
 		"spriteID": 34766,
 		"subcategory": 4852,
@@ -166351,6 +166857,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14305,
 		"points": 15,
 		"spriteID": 34765,
 		"subcategory": 4852,
@@ -166374,6 +166881,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14305,
 		"points": 15,
 		"spriteID": 34765,
 		"subcategory": 4853,
@@ -166397,6 +166905,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14313,
 		"points": 25,
 		"spriteID": 34766,
 		"subcategory": 4853,
@@ -166420,6 +166929,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14314,
 		"points": 40,
 		"spriteID": 34767,
 		"subcategory": 4853,
@@ -166443,6 +166953,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14420,
 		"points": 50,
 		"spriteID": 34768,
 		"subcategory": 4853,
@@ -166466,6 +166977,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14313,
 		"points": 25,
 		"spriteID": 34766,
 		"subcategory": 4853,
@@ -166489,6 +167001,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14313,
 		"points": 25,
 		"spriteID": 34766,
 		"subcategory": 4853,
@@ -166512,6 +167025,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14313,
 		"points": 25,
 		"spriteID": 34766,
 		"subcategory": 4853,
@@ -166535,6 +167049,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14313,
 		"points": 25,
 		"spriteID": 34766,
 		"subcategory": 4853,
@@ -166558,6 +167073,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14313,
 		"points": 25,
 		"spriteID": 34766,
 		"subcategory": 4853,
@@ -166581,6 +167097,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14305,
 		"points": 15,
 		"spriteID": 34765,
 		"subcategory": 5378,
@@ -166604,6 +167121,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14313,
 		"points": 25,
 		"spriteID": 34766,
 		"subcategory": 5378,
@@ -166627,6 +167145,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14313,
 		"points": 25,
 		"spriteID": 34766,
 		"subcategory": 5378,
@@ -166650,6 +167169,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14314,
 		"points": 40,
 		"spriteID": 34767,
 		"subcategory": 5378,
@@ -166673,6 +167193,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14420,
 		"points": 50,
 		"spriteID": 34768,
 		"subcategory": 5378,
@@ -166696,6 +167217,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14305,
 		"points": 15,
 		"spriteID": 34765,
 		"subcategory": 5378,
@@ -166719,6 +167241,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14313,
 		"points": 25,
 		"spriteID": 34766,
 		"subcategory": 5378,
@@ -166742,6 +167265,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14313,
 		"points": 25,
 		"spriteID": 34766,
 		"subcategory": 5378,
@@ -166765,6 +167289,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14313,
 		"points": 25,
 		"spriteID": 34766,
 		"subcategory": 5378,
@@ -166788,6 +167313,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14314,
 		"points": 40,
 		"spriteID": 34767,
 		"subcategory": 5378,
@@ -166811,6 +167337,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14314,
 		"points": 40,
 		"spriteID": 34767,
 		"subcategory": 5378,
@@ -166834,6 +167361,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14314,
 		"points": 40,
 		"spriteID": 34767,
 		"subcategory": 5378,
@@ -166857,6 +167385,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14314,
 		"points": 40,
 		"spriteID": 34767,
 		"subcategory": 5378,
@@ -166880,6 +167409,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14042,
 		"points": 10,
 		"spriteID": 34764,
 		"subcategory": 4855,
@@ -166903,6 +167433,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14305,
 		"points": 15,
 		"spriteID": 34765,
 		"subcategory": 4855,
@@ -166926,6 +167457,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14305,
 		"points": 15,
 		"spriteID": 34765,
 		"subcategory": 4855,
@@ -166949,6 +167481,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14313,
 		"points": 25,
 		"spriteID": 34766,
 		"subcategory": 4855,
@@ -166972,6 +167505,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14042,
 		"points": 10,
 		"spriteID": 34764,
 		"subcategory": 4855,
@@ -166995,6 +167529,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14305,
 		"points": 15,
 		"spriteID": 34765,
 		"subcategory": 4855,
@@ -167018,6 +167553,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14305,
 		"points": 15,
 		"spriteID": 34765,
 		"subcategory": 4855,
@@ -167041,6 +167577,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14305,
 		"points": 15,
 		"spriteID": 34765,
 		"subcategory": 4855,
@@ -167064,6 +167601,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14042,
 		"points": 10,
 		"spriteID": 34764,
 		"subcategory": 4856,
@@ -167087,6 +167625,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14305,
 		"points": 15,
 		"spriteID": 34765,
 		"subcategory": 4856,
@@ -167110,6 +167649,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14305,
 		"points": 15,
 		"spriteID": 34765,
 		"subcategory": 4856,
@@ -167133,6 +167673,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14313,
 		"points": 25,
 		"spriteID": 34766,
 		"subcategory": 4856,
@@ -167156,6 +167697,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14042,
 		"points": 10,
 		"spriteID": 34764,
 		"subcategory": 4856,
@@ -167179,6 +167721,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14305,
 		"points": 15,
 		"spriteID": 34765,
 		"subcategory": 4856,
@@ -167202,6 +167745,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14042,
 		"points": 10,
 		"spriteID": 34764,
 		"subcategory": 4857,
@@ -167225,6 +167769,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14305,
 		"points": 15,
 		"spriteID": 34765,
 		"subcategory": 4857,
@@ -167248,6 +167793,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14305,
 		"points": 15,
 		"spriteID": 34765,
 		"subcategory": 4857,
@@ -167271,6 +167817,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14313,
 		"points": 25,
 		"spriteID": 34766,
 		"subcategory": 4857,
@@ -167294,6 +167841,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14042,
 		"points": 10,
 		"spriteID": 34764,
 		"subcategory": 4857,
@@ -167317,6 +167865,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14305,
 		"points": 15,
 		"spriteID": 34765,
 		"subcategory": 4857,
@@ -167340,6 +167889,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14305,
 		"points": 15,
 		"spriteID": 34765,
 		"subcategory": 4857,
@@ -167363,6 +167913,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14042,
 		"points": 10,
 		"spriteID": 34764,
 		"subcategory": 4858,
@@ -167386,6 +167937,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14305,
 		"points": 15,
 		"spriteID": 34765,
 		"subcategory": 4858,
@@ -167409,6 +167961,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14305,
 		"points": 15,
 		"spriteID": 34765,
 		"subcategory": 4858,
@@ -167432,6 +167985,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14313,
 		"points": 25,
 		"spriteID": 34766,
 		"subcategory": 4858,
@@ -167455,6 +168009,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14305,
 		"points": 15,
 		"spriteID": 34765,
 		"subcategory": 4858,
@@ -167478,6 +168033,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14042,
 		"points": 10,
 		"spriteID": 34764,
 		"subcategory": 4860,
@@ -167501,6 +168057,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14305,
 		"points": 15,
 		"spriteID": 34765,
 		"subcategory": 4860,
@@ -167524,6 +168081,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14305,
 		"points": 15,
 		"spriteID": 34765,
 		"subcategory": 4860,
@@ -167547,6 +168105,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14313,
 		"points": 25,
 		"spriteID": 34766,
 		"subcategory": 4860,
@@ -167570,6 +168129,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14305,
 		"points": 15,
 		"spriteID": 34765,
 		"subcategory": 4860,
@@ -167593,6 +168153,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14305,
 		"points": 15,
 		"spriteID": 34765,
 		"subcategory": 4860,
@@ -167616,6 +168177,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14042,
 		"points": 10,
 		"spriteID": 34764,
 		"subcategory": 4861,
@@ -167639,6 +168201,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14305,
 		"points": 15,
 		"spriteID": 34765,
 		"subcategory": 4861,
@@ -167662,6 +168225,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14305,
 		"points": 15,
 		"spriteID": 34765,
 		"subcategory": 4861,
@@ -167685,6 +168249,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14313,
 		"points": 25,
 		"spriteID": 34766,
 		"subcategory": 4861,
@@ -167708,6 +168273,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14305,
 		"points": 15,
 		"spriteID": 34765,
 		"subcategory": 4861,
@@ -167731,6 +168297,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14305,
 		"points": 15,
 		"spriteID": 34765,
 		"subcategory": 4861,
@@ -167754,6 +168321,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14313,
 		"points": 25,
 		"spriteID": 34766,
 		"subcategory": 4861,
@@ -167777,6 +168345,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14313,
 		"points": 25,
 		"spriteID": 34766,
 		"subcategory": 4861,
@@ -167800,6 +168369,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14042,
 		"points": 10,
 		"spriteID": 34764,
 		"subcategory": 4862,
@@ -167823,6 +168393,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14305,
 		"points": 15,
 		"spriteID": 34765,
 		"subcategory": 4862,
@@ -167846,6 +168417,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14305,
 		"points": 15,
 		"spriteID": 34765,
 		"subcategory": 4862,
@@ -167869,6 +168441,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14313,
 		"points": 25,
 		"spriteID": 34766,
 		"subcategory": 4862,
@@ -167892,6 +168465,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14305,
 		"points": 15,
 		"spriteID": 34765,
 		"subcategory": 4862,
@@ -167915,6 +168489,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14305,
 		"points": 15,
 		"spriteID": 34765,
 		"subcategory": 4862,
@@ -167938,6 +168513,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14305,
 		"points": 15,
 		"spriteID": 34765,
 		"subcategory": 4862,
@@ -167961,6 +168537,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14313,
 		"points": 25,
 		"spriteID": 34766,
 		"subcategory": 4862,
@@ -167984,6 +168561,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14313,
 		"points": 25,
 		"spriteID": 34766,
 		"subcategory": 4862,
@@ -168007,6 +168585,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14042,
 		"points": 10,
 		"spriteID": 34764,
 		"subcategory": 4863,
@@ -168030,6 +168609,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14305,
 		"points": 15,
 		"spriteID": 34765,
 		"subcategory": 4863,
@@ -168053,6 +168633,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14305,
 		"points": 15,
 		"spriteID": 34765,
 		"subcategory": 4863,
@@ -168076,6 +168657,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14313,
 		"points": 25,
 		"spriteID": 34766,
 		"subcategory": 4863,
@@ -168099,6 +168681,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14305,
 		"points": 15,
 		"spriteID": 34765,
 		"subcategory": 4863,
@@ -168151,6 +168734,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14314,
 		"points": 40,
 		"reward": "Golden 'the Daredevil' title.",
 		"spriteID": 34767,
@@ -168188,6 +168772,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14313,
 		"points": 25,
 		"spriteID": 34766,
 		"subcategory": 4866,
@@ -168211,6 +168796,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14314,
 		"points": 40,
 		"spriteID": 34767,
 		"subcategory": 4866,
@@ -168234,6 +168820,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14420,
 		"points": 50,
 		"spriteID": 34768,
 		"subcategory": 4866,
@@ -168257,6 +168844,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14314,
 		"points": 40,
 		"spriteID": 34767,
 		"subcategory": 4866,
@@ -168280,6 +168868,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14420,
 		"points": 50,
 		"spriteID": 34768,
 		"subcategory": 4866,
@@ -168303,6 +168892,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14420,
 		"points": 50,
 		"reward": "'Nakatra's Lament' title.",
 		"spriteID": 34768,
@@ -168333,6 +168923,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14305,
 		"points": 15,
 		"spriteID": 34765,
 		"subcategory": 5433,
@@ -168356,6 +168947,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14313,
 		"points": 25,
 		"spriteID": 34766,
 		"subcategory": 5433,
@@ -168379,6 +168971,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14313,
 		"points": 25,
 		"spriteID": 34766,
 		"subcategory": 5433,
@@ -168402,6 +168995,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14314,
 		"points": 40,
 		"spriteID": 34767,
 		"subcategory": 5433,
@@ -168425,6 +169019,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14313,
 		"points": 25,
 		"spriteID": 34766,
 		"subcategory": 5433,
@@ -168448,6 +169043,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14305,
 		"points": 15,
 		"spriteID": 34765,
 		"subcategory": 5433,
@@ -168471,6 +169067,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14305,
 		"points": 15,
 		"spriteID": 34765,
 		"subcategory": 5433,
@@ -168494,6 +169091,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14313,
 		"points": 25,
 		"spriteID": 34766,
 		"subcategory": 5433,
@@ -168517,6 +169115,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14313,
 		"points": 25,
 		"spriteID": 34766,
 		"sub_achievements": [
@@ -168547,6 +169146,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14314,
 		"points": 40,
 		"spriteID": 34767,
 		"sub_achievements": [
@@ -168577,6 +169177,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14305,
 		"points": 15,
 		"spriteID": 34765,
 		"subcategory": 5435,
@@ -168600,6 +169201,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14313,
 		"points": 25,
 		"spriteID": 34766,
 		"subcategory": 5435,
@@ -168623,6 +169225,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14313,
 		"points": 25,
 		"spriteID": 34766,
 		"subcategory": 5435,
@@ -168646,6 +169249,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14314,
 		"points": 40,
 		"spriteID": 34767,
 		"subcategory": 5435,
@@ -168669,6 +169273,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14420,
 		"points": 50,
 		"spriteID": 34768,
 		"subcategory": 5435,
@@ -168692,6 +169297,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14305,
 		"points": 15,
 		"spriteID": 34765,
 		"subcategory": 5435,
@@ -168715,6 +169321,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14313,
 		"points": 25,
 		"spriteID": 34766,
 		"subcategory": 5435,
@@ -168738,6 +169345,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14313,
 		"points": 25,
 		"spriteID": 34766,
 		"subcategory": 5435,
@@ -168761,6 +169369,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14313,
 		"points": 25,
 		"spriteID": 34766,
 		"subcategory": 5435,
@@ -168784,6 +169393,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14314,
 		"points": 40,
 		"spriteID": 34767,
 		"subcategory": 5435,
@@ -168807,6 +169417,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14314,
 		"points": 40,
 		"spriteID": 34767,
 		"subcategory": 5435,
@@ -168830,6 +169441,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14313,
 		"points": 25,
 		"spriteID": 34766,
 		"sub_achievements": [
@@ -168860,6 +169472,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14314,
 		"points": 40,
 		"spriteID": 34767,
 		"sub_achievements": [
@@ -168890,6 +169503,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14305,
 		"points": 15,
 		"spriteID": 34765,
 		"subcategory": 5431,
@@ -168913,6 +169527,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14313,
 		"points": 25,
 		"spriteID": 34766,
 		"subcategory": 5431,
@@ -168936,6 +169551,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14313,
 		"points": 25,
 		"spriteID": 34766,
 		"subcategory": 5431,
@@ -168959,6 +169575,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14314,
 		"points": 40,
 		"spriteID": 34767,
 		"subcategory": 5431,
@@ -168982,6 +169599,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14305,
 		"points": 15,
 		"spriteID": 34765,
 		"subcategory": 5431,
@@ -169005,6 +169623,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14305,
 		"points": 15,
 		"spriteID": 34765,
 		"subcategory": 5431,
@@ -169028,6 +169647,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14305,
 		"points": 15,
 		"spriteID": 34765,
 		"subcategory": 5431,
@@ -169051,6 +169671,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14305,
 		"points": 15,
 		"spriteID": 34765,
 		"subcategory": 5431,
@@ -169074,6 +169695,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14305,
 		"points": 15,
 		"spriteID": 34765,
 		"subcategory": 5431,
@@ -169097,6 +169719,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14313,
 		"points": 25,
 		"spriteID": 34766,
 		"sub_achievements": [
@@ -169128,6 +169751,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14314,
 		"points": 40,
 		"spriteID": 34767,
 		"sub_achievements": [
@@ -169159,6 +169783,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14313,
 		"points": 25,
 		"spriteID": 34766,
 		"subcategory": 4867,
@@ -169182,6 +169807,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14314,
 		"points": 40,
 		"spriteID": 34767,
 		"subcategory": 4867,
@@ -169205,6 +169831,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14420,
 		"points": 50,
 		"spriteID": 34768,
 		"subcategory": 4867,
@@ -169228,6 +169855,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14420,
 		"points": 50,
 		"spriteID": 34768,
 		"subcategory": 4867,
@@ -169976,6 +170604,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14313,
 		"op_32": [
 			2,
 			0,
@@ -170200,6 +170829,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14313,
 		"op_32": [
 			2,
 			0,
@@ -170400,6 +171030,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14313,
 		"op_32": [
 			2,
 			0,
@@ -170435,12 +171066,6 @@
 			0
 		],
 		"points": 5,
-		"previous_achievements": [
-			4057
-		],
-		"skill_req_count": [
-			1
-		],
 		"spriteID": 30108,
 		"subcategory": 5595,
 		"subreq_count": [
@@ -170469,13 +171094,7 @@
 			0
 		],
 		"points": 5,
-		"previous_achievements": [
-			4058
-		],
 		"reward": "Bronze ', God of Destruction' title.",
-		"skill_req_count": [
-			1
-		],
 		"spriteID": 30108,
 		"subcategory": 5595,
 		"subreq_count": [
@@ -170498,19 +171117,14 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14314,
 		"op_32": [
 			2,
 			0,
 			0
 		],
 		"points": 40,
-		"previous_achievements": [
-			4059
-		],
 		"reward": "Silver ', God of Destruction' title.<br>Devourer aura (Amascut) cosmetic override",
-		"skill_req_count": [
-			1
-		],
 		"spriteID": 34767,
 		"subcategory": 5595,
 		"subreq_count": [
@@ -170533,19 +171147,14 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14420,
 		"op_32": [
 			2,
 			0,
 			0
 		],
 		"points": 50,
-		"previous_achievements": [
-			4060
-		],
 		"reward": "Golden ', God of Destruction' title.",
-		"skill_req_count": [
-			1
-		],
 		"spriteID": 34768,
 		"subcategory": 5595,
 		"subreq_count": [
@@ -196918,6 +197527,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14313,
 		"points": 25,
 		"spriteID": 34766,
 		"subcategory": 5595,
@@ -196941,6 +197551,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14314,
 		"points": 40,
 		"spriteID": 34767,
 		"subcategory": 5595,
@@ -196964,6 +197575,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14420,
 		"points": 50,
 		"spriteID": 34768,
 		"subcategory": 5595,
@@ -196987,6 +197599,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14313,
 		"points": 25,
 		"spriteID": 34766,
 		"subcategory": 5595,
@@ -197010,6 +197623,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14313,
 		"points": 25,
 		"spriteID": 34766,
 		"subcategory": 5595,
@@ -197033,6 +197647,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14314,
 		"points": 40,
 		"spriteID": 34767,
 		"subcategory": 5595,
@@ -197056,6 +197671,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14313,
 		"points": 25,
 		"spriteID": 34766,
 		"subcategory": 5595,
@@ -197079,6 +197695,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14313,
 		"points": 25,
 		"spriteID": 34766,
 		"subcategory": 5595,
@@ -197102,6 +197719,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14314,
 		"points": 40,
 		"spriteID": 34767,
 		"subcategory": 5595,
@@ -197125,6 +197743,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14314,
 		"points": 40,
 		"spriteID": 34767,
 		"subcategory": 5595,
@@ -197148,6 +197767,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14313,
 		"points": 25,
 		"spriteID": 34766,
 		"subcategory": 5595,
@@ -197171,6 +197791,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14313,
 		"points": 25,
 		"spriteID": 34766,
 		"subcategory": 5595,
@@ -197194,6 +197815,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14313,
 		"points": 25,
 		"spriteID": 34766,
 		"subcategory": 5595,
@@ -197217,6 +197839,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14420,
 		"points": 50,
 		"reward": "'Tumeken's Light' title.",
 		"spriteID": 34768,
@@ -197251,6 +197874,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14313,
 		"points": 25,
 		"spriteID": 34766,
 		"subcategory": 5595,
@@ -197274,6 +197898,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14313,
 		"points": 25,
 		"spriteID": 34766,
 		"subcategory": 5595,
@@ -197297,6 +197922,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14314,
 		"points": 40,
 		"spriteID": 34767,
 		"subcategory": 5595,
@@ -197320,6 +197946,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14314,
 		"points": 40,
 		"spriteID": 34767,
 		"subcategory": 5595,
@@ -197343,6 +197970,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14314,
 		"points": 40,
 		"spriteID": 34767,
 		"subcategory": 5595,
@@ -197366,6 +197994,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14314,
 		"points": 40,
 		"spriteID": 34767,
 		"subcategory": 5595,
@@ -197389,6 +198018,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14314,
 		"points": 40,
 		"spriteID": 34767,
 		"subcategory": 5595,
@@ -197412,6 +198042,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14420,
 		"points": 50,
 		"reward": "'the Devoured' title.",
 		"spriteID": 34768,
@@ -198308,6 +198939,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14042,
 		"op_32": [
 			2,
 			0,
@@ -199158,6 +199790,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14042,
 		"op_32": [
 			2,
 			0,
@@ -199318,6 +199951,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 13980,
 		"points": 5,
 		"spriteID": 34763,
 		"subcategory": 5727,
@@ -199505,6 +200139,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 14042,
 		"op_32": [
 			2,
 			0,
@@ -199665,6 +200300,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 13980,
 		"points": 5,
 		"spriteID": 34763,
 		"subcategory": 5728,
@@ -199688,6 +200324,7 @@
 		"op_2": [
 			0
 		],
+		"op_26": 13980,
 		"points": 5,
 		"spriteID": 34763,
 		"subcategory": 5728,
@@ -205164,6 +205801,755 @@
 				"unk_byte": 0,
 				"value": 1,
 				"varbit": 62079
+			}
+		]
+	},
+	{
+		"category": 4817,
+		"description": "Unlock the Lady Karmini pet from the Ghrazi Blood Knights.",
+		"id": 5099,
+		"name": "Karmini Ghrazi",
+		"op_2": [
+			0
+		],
+		"spriteID": 30108,
+		"subcategory": 4818,
+		"subreq_count": [
+			1
+		],
+		"varbit_reqs": [
+			{
+				"description": "",
+				"unk_byte": 0,
+				"value": 1,
+				"varbit": 62196
+			}
+		]
+	},
+	{
+		"category": 4817,
+		"description": "Defeat the Ghrazi Blood Knights.",
+		"id": 5100,
+		"name": "The Ghrazi Blood Knights",
+		"op_2": [
+			0
+		],
+		"op_32": [
+			2,
+			0,
+			0
+		],
+		"spriteID": 30108,
+		"subcategory": 5851,
+		"subreq_count": [
+			1
+		],
+		"varbit_reqs": [
+			{
+				"description": "",
+				"unk_byte": 0,
+				"value": 1,
+				"varbit": 62165
+			},
+			{
+				"description": "",
+				"unk_byte": 0,
+				"value": 1,
+				"varbit": 62166
+			},
+			{
+				"description": "",
+				"unk_byte": 0,
+				"value": 1,
+				"varbit": 62167
+			}
+		]
+	},
+	{
+		"category": 4817,
+		"description": "Defeat the Ghrazi Blood Knights.",
+		"id": 5101,
+		"name": "Stake and Honour I",
+		"op_2": [
+			0
+		],
+		"op_32": [
+			2,
+			0,
+			0
+		],
+		"points": 5,
+		"previous_achievements": [
+			5100
+		],
+		"skill_req_count": [
+			1
+		],
+		"spriteID": 30108,
+		"subcategory": 5851,
+		"subreq_count": [
+			1
+		],
+		"varbit_reqs": [
+			{
+				"description": "",
+				"unk_byte": 0,
+				"value": 5,
+				"varbit": 62165
+			},
+			{
+				"description": "",
+				"unk_byte": 0,
+				"value": 5,
+				"varbit": 62166
+			},
+			{
+				"description": "",
+				"unk_byte": 0,
+				"value": 1,
+				"varbit": 62167
+			}
+		]
+	},
+	{
+		"category": 4817,
+		"description": "Defeat the Ghrazi Blood Knights.",
+		"id": 5102,
+		"name": "Stake and Honour II",
+		"op_2": [
+			0
+		],
+		"op_32": [
+			2,
+			0,
+			0
+		],
+		"points": 15,
+		"previous_achievements": [
+			5101
+		],
+		"skill_req_count": [
+			1
+		],
+		"spriteID": 30108,
+		"subcategory": 5851,
+		"subreq_count": [
+			1
+		],
+		"varbit_reqs": [
+			{
+				"description": "",
+				"unk_byte": 0,
+				"value": 10,
+				"varbit": 62165
+			},
+			{
+				"description": "",
+				"unk_byte": 0,
+				"value": 10,
+				"varbit": 62166
+			},
+			{
+				"description": "",
+				"unk_byte": 0,
+				"value": 1,
+				"varbit": 62167
+			}
+		]
+	},
+	{
+		"category": 4817,
+		"description": "Defeat the Ghrazi Blood Knights.",
+		"id": 5103,
+		"name": "Stake and Honour III",
+		"op_2": [
+			0
+		],
+		"op_26": 14313,
+		"op_32": [
+			2,
+			0,
+			0
+		],
+		"points": 25,
+		"previous_achievements": [
+			5102
+		],
+		"skill_req_count": [
+			1
+		],
+		"spriteID": 34766,
+		"subcategory": 5851,
+		"subreq_count": [
+			1
+		],
+		"varbit_reqs": [
+			{
+				"description": "",
+				"unk_byte": 0,
+				"value": 25,
+				"varbit": 62165
+			},
+			{
+				"description": "",
+				"unk_byte": 0,
+				"value": 25,
+				"varbit": 62166
+			},
+			{
+				"description": "",
+				"unk_byte": 0,
+				"value": 1,
+				"varbit": 62167
+			}
+		]
+	},
+	{
+		"category": 4817,
+		"description": "Defeat the Ghrazi Blood Knights.",
+		"id": 5104,
+		"name": "Stake and Honour IV",
+		"op_2": [
+			0
+		],
+		"op_32": [
+			2,
+			0,
+			0
+		],
+		"points": 5,
+		"previous_achievements": [
+			5103
+		],
+		"skill_req_count": [
+			1
+		],
+		"spriteID": 30108,
+		"subcategory": 5851,
+		"subreq_count": [
+			1
+		],
+		"varbit_reqs": [
+			{
+				"description": "",
+				"unk_byte": 0,
+				"value": 50,
+				"varbit": 62165
+			},
+			{
+				"description": "",
+				"unk_byte": 0,
+				"value": 50,
+				"varbit": 62166
+			},
+			{
+				"description": "",
+				"unk_byte": 0,
+				"value": 1,
+				"varbit": 62167
+			}
+		]
+	},
+	{
+		"category": 4817,
+		"description": "Defeat the Ghrazi Blood Knights.",
+		"id": 5105,
+		"name": "Stake and Honour V",
+		"op_2": [
+			0
+		],
+		"op_32": [
+			2,
+			0,
+			0
+		],
+		"points": 5,
+		"previous_achievements": [
+			5104
+		],
+		"skill_req_count": [
+			1
+		],
+		"spriteID": 30108,
+		"subcategory": 5851,
+		"subreq_count": [
+			1
+		],
+		"varbit_reqs": [
+			{
+				"description": "",
+				"unk_byte": 0,
+				"value": 75,
+				"varbit": 62165
+			},
+			{
+				"description": "",
+				"unk_byte": 0,
+				"value": 75,
+				"varbit": 62166
+			},
+			{
+				"description": "",
+				"unk_byte": 0,
+				"value": 1,
+				"varbit": 62167
+			}
+		]
+	},
+	{
+		"category": 4817,
+		"description": "Defeat the Ghrazi Blood Knights.",
+		"id": 5106,
+		"name": "Stake and Honour VI",
+		"op_2": [
+			0
+		],
+		"op_32": [
+			2,
+			0,
+			0
+		],
+		"points": 5,
+		"previous_achievements": [
+			5105
+		],
+		"skill_req_count": [
+			1
+		],
+		"spriteID": 30108,
+		"subcategory": 5851,
+		"subreq_count": [
+			1
+		],
+		"varbit_reqs": [
+			{
+				"description": "",
+				"unk_byte": 0,
+				"value": 100,
+				"varbit": 62165
+			},
+			{
+				"description": "",
+				"unk_byte": 0,
+				"value": 100,
+				"varbit": 62166
+			},
+			{
+				"description": "",
+				"unk_byte": 0,
+				"value": 1,
+				"varbit": 62167
+			}
+		]
+	},
+	{
+		"category": 4817,
+		"description": "Defeat the Ghrazi Blood Knights in enrage mode.",
+		"id": 5107,
+		"name": "Red Dead Rampage I",
+		"op_2": [
+			0
+		],
+		"op_32": [
+			2,
+			0,
+			0
+		],
+		"points": 5,
+		"previous_achievements": [
+			5100
+		],
+		"skill_req_count": [
+			1
+		],
+		"spriteID": 30108,
+		"subcategory": 5851,
+		"subreq_count": [
+			1
+		],
+		"varbit_reqs": [
+			{
+				"description": "",
+				"unk_byte": 0,
+				"value": 5,
+				"varbit": 62166
+			},
+			{
+				"description": "",
+				"unk_byte": 0,
+				"value": 1,
+				"varbit": 62168
+			}
+		]
+	},
+	{
+		"category": 4817,
+		"description": "Defeat the Ghrazi Blood Knights in enrage mode.",
+		"id": 5108,
+		"name": "Red Dead Rampage II",
+		"op_2": [
+			0
+		],
+		"op_26": 14313,
+		"op_32": [
+			2,
+			0,
+			0
+		],
+		"points": 25,
+		"previous_achievements": [
+			5107
+		],
+		"skill_req_count": [
+			1
+		],
+		"spriteID": 34766,
+		"subcategory": 5851,
+		"subreq_count": [
+			1
+		],
+		"varbit_reqs": [
+			{
+				"description": "",
+				"unk_byte": 0,
+				"value": 10,
+				"varbit": 62166
+			},
+			{
+				"description": "",
+				"unk_byte": 0,
+				"value": 1,
+				"varbit": 62168
+			}
+		]
+	},
+	{
+		"category": 4817,
+		"description": "Defeat the Ghrazi Blood Knights in enrage mode.",
+		"id": 5109,
+		"name": "Red Dead Rampage III",
+		"op_2": [
+			0
+		],
+		"op_32": [
+			2,
+			0,
+			0
+		],
+		"points": 5,
+		"previous_achievements": [
+			5108
+		],
+		"skill_req_count": [
+			1
+		],
+		"spriteID": 30108,
+		"subcategory": 5851,
+		"subreq_count": [
+			1
+		],
+		"varbit_reqs": [
+			{
+				"description": "",
+				"unk_byte": 0,
+				"value": 25,
+				"varbit": 62166
+			},
+			{
+				"description": "",
+				"unk_byte": 0,
+				"value": 1,
+				"varbit": 62168
+			}
+		]
+	},
+	{
+		"category": 4817,
+		"description": "Defeat the Ghrazi Blood Knights in enrage mode.",
+		"id": 5110,
+		"name": "Red Dead Rampage IV",
+		"op_2": [
+			0
+		],
+		"op_32": [
+			2,
+			0,
+			0
+		],
+		"points": 5,
+		"previous_achievements": [
+			5109
+		],
+		"skill_req_count": [
+			1
+		],
+		"spriteID": 30108,
+		"subcategory": 5851,
+		"subreq_count": [
+			1
+		],
+		"varbit_reqs": [
+			{
+				"description": "",
+				"unk_byte": 0,
+				"value": 50,
+				"varbit": 62166
+			},
+			{
+				"description": "",
+				"unk_byte": 0,
+				"value": 1,
+				"varbit": 62168
+			}
+		]
+	},
+	{
+		"category": 4817,
+		"description": "Defeat the Ghrazi Blood Knights in enrage mode.",
+		"id": 5111,
+		"name": "Red Dead Rampage V",
+		"op_2": [
+			0
+		],
+		"op_32": [
+			2,
+			0,
+			0
+		],
+		"points": 5,
+		"previous_achievements": [
+			5110
+		],
+		"skill_req_count": [
+			1
+		],
+		"spriteID": 30108,
+		"subcategory": 5851,
+		"subreq_count": [
+			1
+		],
+		"varbit_reqs": [
+			{
+				"description": "",
+				"unk_byte": 0,
+				"value": 75,
+				"varbit": 62166
+			},
+			{
+				"description": "",
+				"unk_byte": 0,
+				"value": 1,
+				"varbit": 62168
+			}
+		]
+	},
+	{
+		"category": 4817,
+		"description": "Defeat the Ghrazi Blood Knights in enrage mode.",
+		"id": 5112,
+		"name": "Red Dead Rampage VI",
+		"op_2": [
+			0
+		],
+		"op_32": [
+			2,
+			0,
+			0
+		],
+		"points": 5,
+		"previous_achievements": [
+			5111
+		],
+		"skill_req_count": [
+			1
+		],
+		"spriteID": 30108,
+		"subcategory": 5851,
+		"subreq_count": [
+			1
+		],
+		"varbit_reqs": [
+			{
+				"description": "",
+				"unk_byte": 0,
+				"value": 100,
+				"varbit": 62166
+			},
+			{
+				"description": "",
+				"unk_byte": 0,
+				"value": 1,
+				"varbit": 62168
+			}
+		]
+	},
+	{
+		"category": 4817,
+		"description": "Defeat the Ghrazi Blood Knights at 500% enrage.",
+		"id": 5113,
+		"name": "Don't Give a Damn 'bout my Bat Reputation I",
+		"op_2": [
+			0
+		],
+		"op_26": 14313,
+		"op_32": [
+			2,
+			0,
+			0
+		],
+		"points": 25,
+		"reward": "'the Purifier' title.",
+		"spriteID": 34766,
+		"subcategory": 5851,
+		"subreq_count": [
+			1
+		],
+		"varbit_reqs": [
+			{
+				"description": "",
+				"unk_byte": 0,
+				"value": 500,
+				"varbit": 62169
+			}
+		]
+	},
+	{
+		"category": 4817,
+		"description": "Defeat the Ghrazi Blood Knights at 750% enrage.",
+		"id": 5114,
+		"name": "Don't Give a Damn 'bout my Bat Reputation II",
+		"op_2": [
+			0
+		],
+		"op_32": [
+			2,
+			0,
+			0
+		],
+		"points": 5,
+		"spriteID": 30108,
+		"subcategory": 5851,
+		"subreq_count": [
+			1
+		],
+		"varbit_reqs": [
+			{
+				"description": "",
+				"unk_byte": 0,
+				"value": 750,
+				"varbit": 62169
+			}
+		]
+	},
+	{
+		"category": 4817,
+		"description": "Defeat the Ghrazi Blood Knights at 1000% enrage.",
+		"id": 5115,
+		"name": "Don't Give a Damn 'bout my Bat Reputation III",
+		"op_2": [
+			0
+		],
+		"op_32": [
+			2,
+			0,
+			0
+		],
+		"points": 5,
+		"reward": "Bronze 'the Purifier' title.",
+		"spriteID": 30108,
+		"subcategory": 5851,
+		"subreq_count": [
+			1
+		],
+		"varbit_reqs": [
+			{
+				"description": "",
+				"unk_byte": 0,
+				"value": 1000,
+				"varbit": 62169
+			}
+		]
+	},
+	{
+		"category": 4817,
+		"description": "Defeat the Ghrazi Blood Knights at 2000% enrage.",
+		"id": 5116,
+		"name": "Don't Give a Damn 'bout my Bat Reputation IV",
+		"op_2": [
+			0
+		],
+		"op_26": 14314,
+		"op_32": [
+			2,
+			0,
+			0
+		],
+		"points": 40,
+		"reward": "Silver 'the Purifier' title.",
+		"spriteID": 34767,
+		"subcategory": 5851,
+		"subreq_count": [
+			1
+		],
+		"varbit_reqs": [
+			{
+				"description": "",
+				"unk_byte": 0,
+				"value": 2000,
+				"varbit": 62169
+			}
+		]
+	},
+	{
+		"category": 4817,
+		"description": "Defeat the Ghrazi Blood Knights at 4000% enrage.",
+		"id": 5117,
+		"name": "Don't Give a Damn 'bout my Bat Reputation V",
+		"op_2": [
+			0
+		],
+		"op_26": 14420,
+		"op_32": [
+			2,
+			0,
+			0
+		],
+		"points": 50,
+		"reward": "Golden 'the Purifier' title.",
+		"spriteID": 34768,
+		"subcategory": 5851,
+		"subreq_count": [
+			1
+		],
+		"varbit_reqs": [
+			{
+				"description": "",
+				"unk_byte": 0,
+				"value": 4000,
+				"varbit": 62169
+			}
+		]
+	},
+	{
+		"category": 4820,
+		"description": "Obtained a collection of unique drops from the Ghrazi Blood Knights.",
+		"id": 5118,
+		"name": "Blood and Bone",
+		"op_2": [
+			0
+		],
+		"reward": "', the Blood Knight' title.",
+		"spriteID": 30108,
+		"subcategory": 4914,
+		"subreq_count": [
+			1
+		],
+		"varbit_reqs": [
+			{
+				"description": "",
+				"unk_byte": 0,
+				"value": 1,
+				"varbit": 62192
 			}
 		]
 	}

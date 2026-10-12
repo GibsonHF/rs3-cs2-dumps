@@ -1,10 +1,5 @@
 //
 function script20694(int0: number, int1: number): [number, string] {
-    if ((int0 == -1)) {
-        return [-1, ""];
-    };
-    var int2 = -1;
-    var string0 = "";
-    [int2, string0] = dbrow_getfield(int0, 1445968, int1);
-    return [int2, string0];
+    script20863();
+    return;
 }

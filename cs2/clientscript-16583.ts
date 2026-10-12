@@ -5,6 +5,9 @@ function script16583(int0: number, int1: number): string {
     };
     switch (int0) {
         case 50082: {
+            return script19021(int1);
+        }
+        case 53541: {
             break;
         }
         default: {
@@ -12,5 +15,7 @@ function script16583(int0: number, int1: number): string {
             return "null";
         }
     };
-    return script19021(int1);
+    stack(int1);
+    script21127();
+    return;
 }

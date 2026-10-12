@@ -1108,6 +1108,9 @@ function script11073(int0: number): number {
         case 49073: {
             return varclient_7349;
         }
+        case 53537: {
+            return varclient_8498;
+        }
         case 48351: {
             return varclient_7288;
         }
@@ -1354,6 +1357,9 @@ function script11073(int0: number): number {
         case 2907: {
             return varclient_8410;
         }
+        case 53542: {
+            return varclient_8495;
+        }
         case 52238: {
             return varclient_8341;
         }
@@ -1386,6 +1392,15 @@ function script11073(int0: number): number {
         }
         case 53443: {
             return varclient_8491;
+        }
+        case 53505: {
+            return varclient_8492;
+        }
+        case 53506: {
+            return varclient_8493;
+        }
+        case 53538: {
+            return varclient_8494;
         }
     };
     return CLIENTCLOCK();

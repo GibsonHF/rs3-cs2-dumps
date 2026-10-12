@@ -33,6 +33,10 @@ function script13377(int0: number, int1: number): void {
             varbitplayer_58290 = int1;
             break;
         }
+        case 53539: {
+            varbitplayer_62199 = int1;
+            break;
+        }
     };
     return;
 }

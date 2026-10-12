@@ -3563,6 +3563,36 @@ function script2476(int0: number, int1: number): number {
         case 876: {
             return varbitplayer_61855;
         }
+        case 878: {
+            return varbitplayer_62192;
+        }
+        case 879: {
+            if ((ACHIEVEMENT_REQSTATE(5113 as achievement) != -2)) {
+                return 0;
+            };
+            break;
+        }
+        case 880: {
+            if ((ACHIEVEMENT_REQSTATE(5115 as achievement) != -2)) {
+                return 0;
+            };
+            break;
+        }
+        case 881: {
+            if ((ACHIEVEMENT_REQSTATE(5116 as achievement) != -2)) {
+                return 0;
+            };
+            break;
+        }
+        case 882: {
+            if ((ACHIEVEMENT_REQSTATE(5117 as achievement) != -2)) {
+                return 0;
+            };
+            break;
+        }
+        case 877: {
+            return varbitplayer_62187;
+        }
     };
     return 1;
 }

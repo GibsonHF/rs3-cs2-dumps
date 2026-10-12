@@ -227,6 +227,12 @@ function script10227(int0: number, int1: number): [number, string] {
             };
             break;
         }
+        case 49: {
+            if ((script2156(533) == 0)) {
+                int2 = 0;
+            };
+            break;
+        }
     };
     if ((int2 == 0)) {
         string0 = dbrow_getfield(int1, 1470528, 0);

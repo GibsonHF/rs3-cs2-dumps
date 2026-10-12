@@ -1,9 +1,25 @@
 //
 function script20693(int0: number): string {
-    if ((int0 == -1)) {
-        return "";
+    var int0 = script10495(2);
+    var int1 = script10495(0);
+    var int2 = script10495(21);
+    var string0 = script17015();
+    var string1 = `${inttostring(PUSH_CONSTANT_INT[16]("<col=", int0))}${inttostring(PUSH_CONSTANT_INT[16](">You are on team:</col> <col=", int1))}>${string0}</col>`;
+    if (((varbitplayer_56136 == 0) || (script18522(515) == 0))) {
+        string1 = `${inttostring(PUSH_CONSTANT_INT[16]("<col=", int0))}>Complete the 'Field of Screams' quest to join The Horsemen.</col>`;
     };
-    var string0 = "";
-    string0 = dbrow_getfield(int0, 1445952, 0);
-    return string0;
+    var int3 = 0;
+    var int4 = 0;
+    if ((varclient_8346 == 0)) {
+        int3 = varbitplayer_56120;
+    } else if ((varclient_8347 == 0)) {
+        int3 = varbitplayer_56121;
+    } else if ((varclient_8348 == 0)) {
+        int3 = varbitplayer_56122;
+    } else if ((varclient_8349 == 0)) {
+        int3 = varbitplayer_59980;
+    };
+    int4 = ((varbitplayer_56120 + varbitplayer_56121) + varbitplayer_56122);
+    IF_SETTEXT(`${string1}${inttostring(PUSH_CONSTANT_INT[16]("<br><col=", int0))}${inttostring(PUSH_CONSTANT_INT[16](">Confections this week:</col> <col=", int2))}>${TOSTRING_LOCALISED(int3, 1)}${inttostring(PUSH_CONSTANT_INT[16]("</col><br><col=", int0))}${inttostring(PUSH_CONSTANT_INT[16](">Confections this event:</col> <col=", int2))}>${TOSTRING_LOCALISED(int4, 1)}</col>`, comp(1289, 44));  // halloween24:reward_shop_layer
+    return;
 }

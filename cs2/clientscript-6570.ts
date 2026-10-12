@@ -1400,6 +1400,15 @@ function script6570(int0: number, int1: number, int2: number, int3: number, int4
                 };
                 break;
             }
+            case 53536: {
+                if ((int3 == 1)) {
+                    varclient_8496 = CLIENTCLOCK();
+                };
+                if ((int4 == 1)) {
+                    varclient_8497 = (((int2 - int1) * 30) + CLIENTCLOCK());
+                };
+                break;
+            }
             case 31820: {
                 if ((int3 == 1)) {
                     varclient_7791 = CLIENTCLOCK();
