@@ -1,9 +1,9 @@
 //
 function script13396(int0: number, int1: number, int2: number, int3: number, int4: number, int5: number, int6: number): void {
-    var int7 = (int2 + (2 * 31));
-    var int8 = (int3 + (2 * 31));
-    var int9 = (int0 - 31);
-    var int10 = (int1 - 31);
+    var int7 = (int2 + (2 * 10));
+    var int8 = (int3 + (2 * 10));
+    var int9 = (int0 - 10);
+    var int10 = (int1 - 10);
     if ((int0 < int9)) {
         int7 = (int7 - (int9 - int0));
         int9 = 0;
@@ -12,11 +12,11 @@ function script13396(int0: number, int1: number, int2: number, int3: number, int
         int8 = (int8 - (int10 - int1));
         int10 = 0;
     };
-    IF_SETHIDE(false, comp(1322, 4));  // minimenu:universe_layer ?
-    IF_SETPOSITION(int9, int10, 0, 0, comp(1322, 4));  // minimenu:universe_layer ?
-    IF_SETSIZE(int7, int8, 0, 0, comp(1322, 4));  // minimenu:universe_layer ?
-    IF_SETSIZE(int2, int3, 0, 0, comp(1322, 11));  // minimenu:submenu_layer ?
-    script13636(int2, int3, int4, int6, 86638602, 86638601, enum_getvalue(0, 36, 14117 as cs2enum, MAP_LANG()));
+    IF_SETHIDE(false, comp(1322, 3));  // minimenu:menu_blocking_layer ?
+    IF_SETPOSITION(int9, int10, 0, 0, comp(1322, 3));  // minimenu:menu_blocking_layer ?
+    IF_SETSIZE(int7, int8, 0, 0, comp(1322, 3));  // minimenu:menu_blocking_layer ?
+    IF_SETSIZE(int2, int3, 0, 0, comp(1322, 10));  // minimenu:menu_layer ?
+    script13636(int2, int3, int4, int6, 86638601, 86638600, enum_getvalue(0, 36, 14117 as cs2enum, MAP_LANG()));
     var int11 = 0;
     var string0 = "0";
     var int12 = 0;
@@ -26,10 +26,10 @@ function script13396(int0: number, int1: number, int2: number, int3: number, int
     while ((int11 < int5)) {
         [int12, string0] = IF_SETONSTORETRANSMIT(int11);
         if ((int12 > 1)) {
-            script13637(`${string0}<col=FFFFFF> <gt>`, 0, -1, int11, ((int5 - int11) - 1), int2, int6, 86638602);
+            script13637(`${string0}<col=FFFFFF> <gt>`, 0, -1, int11, ((int5 - int11) - 1), int2, int6, 86638601);
         } else {
             [int13, string1, int14] = NOTIFICATIONS_SENDGROUPEDLOCAL(int11, 0);
-            script13637(string1, 1, int11, 0, ((int5 - int11) - 1), int2, int6, 86638602);
+            script13637(string1, 1, int11, 0, ((int5 - int11) - 1), int2, int6, 86638601);
             CC_SETONMOUSEOVER(callback(script14224));
         };
         int11 = (int11 + 1);

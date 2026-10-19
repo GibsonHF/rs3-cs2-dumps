@@ -33,18 +33,18 @@ function script14170(): void {
         var int10 = 0;
         if (((varclient_6403 != 2) && (IF_FIND(int3) == 1))) {
             int9 = CC_GETWIDTH();
-            if (((IF_HASSUB(struct_getparam(21300, 3505)) == 1) || (IF_HASSUB(comp(1477, 740)) == 1))) {  // toplevel_v2:moveable_modal_overlay
+            if (((IF_HASSUB(struct_getparam(21300, 3505)) == 1) || (IF_HASSUB(comp(1477, 752)) == 1))) {  // toplevel_v2:side_modal_window_content
                 int9 = (int9 + (210 + 10));
             };
-            script4452((IF_GETX(comp(1477, 725)) + CC_GETX()), (IF_GETY(comp(1477, 725)) + CC_GETY()), int9, CC_GETHEIGHT());  // toplevel_v2:parent_window_tab_background
-            script14171(96797395);
+            script4452((IF_GETX(comp(1477, 737)) + CC_GETX()), (IF_GETY(comp(1477, 737)) + CC_GETY()), int9, CC_GETHEIGHT());  // toplevel_v2:fullmodal_window_background
+            script14171(96797407);
             script4204(5);
             return;
         };
         [int7, int8, int9, int10] = VIEWPORT_GETBOUNDS();
         if ((IF_FIND(int3) == 1)) {
-            int5 = (IF_GETX(comp(1477, 725)) + CC_GETX());  // toplevel_v2:parent_window_tab_background
-            int6 = (IF_GETY(comp(1477, 725)) + CC_GETY());  // toplevel_v2:parent_window_tab_background
+            int5 = (IF_GETX(comp(1477, 737)) + CC_GETX());  // toplevel_v2:fullmodal_window_background
+            int6 = (IF_GETY(comp(1477, 737)) + CC_GETY());  // toplevel_v2:fullmodal_window_background
             if ((int5 < int7)) {
                 int9 = (int9 + (int7 - int5));
                 int7 = int5;
@@ -55,11 +55,11 @@ function script14170(): void {
             };
             int9 = MAX(int9, CC_GETWIDTH());
             int10 = MAX(int10, CC_GETHEIGHT());
-            if (((IF_HASSUB(struct_getparam(21300, 3505)) == 1) || (IF_HASSUB(comp(1477, 740)) == 1))) {  // toplevel_v2:moveable_modal_overlay
+            if (((IF_HASSUB(struct_getparam(21300, 3505)) == 1) || (IF_HASSUB(comp(1477, 752)) == 1))) {  // toplevel_v2:side_modal_window_content
                 int9 = (int9 + (210 + 10));
             };
             script4452(int7, int8, int9, int10);
-            script14172(96797380, 96797395);
+            script14172(96797392, 96797407);
             script4204(5);
         };
         return;
@@ -79,18 +79,18 @@ function script14170(): void {
     int10 = 0;
     if (((varclient_6403 != 2) && (IF_FIND(int3) == 1))) {
         int9 = CC_GETWIDTH();
-        if (((IF_HASSUB(struct_getparam(21300, 3505)) == 1) || (IF_HASSUB(comp(1477, 740)) == 1))) {  // toplevel_v2:moveable_modal_overlay
+        if (((IF_HASSUB(struct_getparam(21300, 3505)) == 1) || (IF_HASSUB(comp(1477, 752)) == 1))) {  // toplevel_v2:side_modal_window_content
             int9 = (int9 + (210 + 10));
         };
-        script4452((IF_GETX(comp(1477, 725)) + CC_GETX()), (IF_GETY(comp(1477, 725)) + CC_GETY()), int9, CC_GETHEIGHT());  // toplevel_v2:parent_window_tab_background
-        script14171(96797395);
+        script4452((IF_GETX(comp(1477, 737)) + CC_GETX()), (IF_GETY(comp(1477, 737)) + CC_GETY()), int9, CC_GETHEIGHT());  // toplevel_v2:fullmodal_window_background
+        script14171(96797407);
         script4204(5);
         return;
     };
     [int7, int8, int9, int10] = VIEWPORT_GETBOUNDS();
     if ((IF_FIND(int3) == 1)) {
-        int5 = (IF_GETX(comp(1477, 725)) + CC_GETX());  // toplevel_v2:parent_window_tab_background
-        int6 = (IF_GETY(comp(1477, 725)) + CC_GETY());  // toplevel_v2:parent_window_tab_background
+        int5 = (IF_GETX(comp(1477, 737)) + CC_GETX());  // toplevel_v2:fullmodal_window_background
+        int6 = (IF_GETY(comp(1477, 737)) + CC_GETY());  // toplevel_v2:fullmodal_window_background
         if ((int5 < int7)) {
             int9 = (int9 + (int7 - int5));
             int7 = int5;
@@ -101,11 +101,11 @@ function script14170(): void {
         };
         int9 = MAX(int9, CC_GETWIDTH());
         int10 = MAX(int10, CC_GETHEIGHT());
-        if (((IF_HASSUB(struct_getparam(21300, 3505)) == 1) || (IF_HASSUB(comp(1477, 740)) == 1))) {  // toplevel_v2:moveable_modal_overlay
+        if (((IF_HASSUB(struct_getparam(21300, 3505)) == 1) || (IF_HASSUB(comp(1477, 752)) == 1))) {  // toplevel_v2:side_modal_window_content
             int9 = (int9 + (210 + 10));
         };
         script4452(int7, int8, int9, int10);
-        script14172(96797380, 96797395);
+        script14172(96797392, 96797407);
         script4204(5);
     };
     return;

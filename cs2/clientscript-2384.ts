@@ -73,10 +73,14 @@ function script2384(int0: number, int1: number): number {
                     break;
                 }
                 case 16: {
-                    int2 = script2390(7);
+                    int2 = 47;
                     break;
                 }
                 case 17: {
+                    int2 = script2390(7);
+                    break;
+                }
+                case 18: {
                     int2 = script2390(9);
                     break;
                 }
@@ -144,10 +148,14 @@ function script2384(int0: number, int1: number): number {
                     break;
                 }
                 case 14: {
-                    int2 = script2390(7);
+                    int2 = 47;
                     break;
                 }
                 case 15: {
+                    int2 = script2390(7);
+                    break;
+                }
+                case 16: {
                     int2 = script2390(9);
                     break;
                 }

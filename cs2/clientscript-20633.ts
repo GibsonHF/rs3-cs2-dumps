@@ -19,19 +19,19 @@ function script20633(int0: number): void {
         case 10: {
             switch (MAP_LANG()) {
                 case 1: {
-                    int6 = 22753;
+                    int6 = 36619;
                     break;
                 }
                 case 2: {
-                    int6 = 27435;
+                    int6 = 36621;
                     break;
                 }
                 case 3: {
-                    int6 = 27542;
+                    int6 = 36622;
                     break;
                 }
                 default: {
-                    int6 = 22754;
+                    int6 = 36620;
                     break;
                 }
             };

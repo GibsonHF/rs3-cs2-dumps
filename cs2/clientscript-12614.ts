@@ -1,6 +1,6 @@
 //
 function script12614(int0: number): void {
-    if (((int0 < 0) || (int0 > 46))) {
+    if (((int0 < 0) || (int0 > 47))) {
         return;
     };
     var int1 = script10405(int0);

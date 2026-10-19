@@ -339,6 +339,11 @@ function script8825(int0: number, int1: number): [number, number] {
                     int3 = varbitclient_56639;
                     break;
                 }
+                case 47: {
+                    int2 = varbitclient_62215;
+                    int3 = varbitclient_62216;
+                    break;
+                }
                 default: {
                     return [0, 0];
                 }

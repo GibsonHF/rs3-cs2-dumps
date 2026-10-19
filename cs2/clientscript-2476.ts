@@ -305,7 +305,7 @@ function script2476(int0: number, int1: number): number {
             break;
         }
         case 71: {
-            if (((varbitplayer_14907 == 0) && (TESTBIT(varplayer_1230, 12) == 0))) {
+            if (((varbitplayer_62368 == 0) && (TESTBIT(varplayer_1230, 12) == 0))) {
                 return 0;
             };
             break;

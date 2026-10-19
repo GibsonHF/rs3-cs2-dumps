@@ -428,127 +428,127 @@ function script13621(int0: number): number {
             break;
         }
         case 24544: {
-            if ((varbitplayer_14883 >= 1)) {
+            if ((varbitplayer_62344 >= 1)) {
                 return 1;
             };
             break;
         }
         case 24545: {
-            if ((varbitplayer_14891 >= 1)) {
+            if ((varbitplayer_62352 >= 1)) {
                 return 1;
             };
             break;
         }
         case 24546: {
-            if ((varbitplayer_14898 >= 1)) {
+            if ((varbitplayer_62359 >= 1)) {
                 return 1;
             };
             break;
         }
         case 24547: {
-            if ((varbitplayer_14884 >= 1)) {
+            if ((varbitplayer_62345 >= 1)) {
                 return 1;
             };
             break;
         }
         case 24548: {
-            if ((varbitplayer_14892 >= 1)) {
+            if ((varbitplayer_62353 >= 1)) {
                 return 1;
             };
             break;
         }
         case 24549: {
-            if ((varbitplayer_14899 >= 1)) {
+            if ((varbitplayer_62360 >= 1)) {
                 return 1;
             };
             break;
         }
         case 24550: {
-            if ((varbitplayer_14885 >= 1)) {
+            if ((varbitplayer_62346 >= 1)) {
                 return 1;
             };
             break;
         }
         case 24551: {
-            if ((varbitplayer_14886 >= 1)) {
+            if ((varbitplayer_62347 >= 1)) {
                 return 1;
             };
             break;
         }
         case 24552: {
-            if ((varbitplayer_14887 >= 1)) {
+            if ((varbitplayer_62348 >= 1)) {
                 return 1;
             };
             break;
         }
         case 24553: {
-            if ((varbitplayer_14888 >= 1)) {
+            if ((varbitplayer_62349 >= 1)) {
                 return 1;
             };
             break;
         }
         case 24554: {
-            if ((varbitplayer_14889 >= 1)) {
+            if ((varbitplayer_62350 >= 1)) {
                 return 1;
             };
             break;
         }
         case 24555: {
-            if ((varbitplayer_14893 >= 1)) {
+            if ((varbitplayer_62354 >= 1)) {
                 return 1;
             };
             break;
         }
         case 24556: {
-            if ((varbitplayer_14894 >= 1)) {
+            if ((varbitplayer_62355 >= 1)) {
                 return 1;
             };
             break;
         }
         case 24557: {
-            if ((varbitplayer_14895 >= 1)) {
+            if ((varbitplayer_62356 >= 1)) {
                 return 1;
             };
             break;
         }
         case 24558: {
-            if ((varbitplayer_14896 >= 1)) {
+            if ((varbitplayer_62357 >= 1)) {
                 return 1;
             };
             break;
         }
         case 24559: {
-            if ((varbitplayer_14897 >= 1)) {
+            if ((varbitplayer_62358 >= 1)) {
                 return 1;
             };
             break;
         }
         case 24560: {
-            if ((varbitplayer_14900 >= 1)) {
+            if ((varbitplayer_62361 >= 1)) {
                 return 1;
             };
             break;
         }
         case 24561: {
-            if ((varbitplayer_14901 >= 1)) {
+            if ((varbitplayer_62362 >= 1)) {
                 return 1;
             };
             break;
         }
         case 24562: {
-            if ((varbitplayer_14902 >= 1)) {
+            if ((varbitplayer_62363 >= 1)) {
                 return 1;
             };
             break;
         }
         case 24563: {
-            if ((varbitplayer_14903 >= 1)) {
+            if ((varbitplayer_62364 >= 1)) {
                 return 1;
             };
             break;
         }
         case 24564: {
-            if ((varbitplayer_14904 >= 1)) {
+            if ((varbitplayer_62365 >= 1)) {
                 return 1;
             };
             break;
@@ -5443,6 +5443,12 @@ function script13621(int0: number): number {
         }
         case 57079: {
             return varbitplayer_55674;
+        }
+        case 64228: {
+            return varbitplayer_62277;
+        }
+        case 64229: {
+            return varbitplayer_62278;
         }
         case 57616: {
             return varbitplayer_56142;

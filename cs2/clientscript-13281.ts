@@ -8615,7 +8615,6 @@ function script13281(int0: number): number {
         case 3905:
         case 3906:
         case 3907:
-        case 3908:
         case 3909:
         case 3910:
         case 3911:
@@ -8625,6 +8624,7 @@ function script13281(int0: number): number {
         case 3920:
         case 3921:
         case 3922:
+        case 4521:
         case 3923:
         case 3924:
         case 3925:
@@ -8636,6 +8636,7 @@ function script13281(int0: number): number {
         case 3935:
         case 3937:
         case 3938:
+        case 4524:
         case 3939:
         case 3940:
         case 3941:
@@ -8643,10 +8644,14 @@ function script13281(int0: number): number {
         case 3943:
         case 3944:
         case 3945:
+        case 4525:
+        case 4526:
         case 3946:
         case 3947:
         case 3948:
-        case 3949: {
+        case 3949:
+        case 4529:
+        case 4530: {
             return varbitplayer_39917;
         }
         case 3913:
@@ -8688,6 +8693,42 @@ function script13281(int0: number): number {
                 return 1;
             };
             if ((varbitplayer_39917 > 66)) {
+                return 1;
+            };
+            return 0;
+        }
+        case 4522: {
+            if (((varbitplayer_39917 == 69) && (INV_GETOBJ(94 as inv, 3) == 841 as obj))) {
+                return 1;
+            };
+            if ((varbitplayer_39917 > 69)) {
+                return 1;
+            };
+            return 0;
+        }
+        case 4523: {
+            if (((varbitplayer_39917 == 69) && (INV_GETOBJ(94 as inv, 13) == 882 as obj))) {
+                return 1;
+            };
+            if ((varbitplayer_39917 > 69)) {
+                return 1;
+            };
+            return 0;
+        }
+        case 4527: {
+            if (((varbitplayer_39917 == 96) && (INV_GETOBJ(94 as inv, 3) == 1379 as obj))) {
+                return 1;
+            };
+            if ((varbitplayer_39917 > 96)) {
+                return 1;
+            };
+            return 0;
+        }
+        case 4528: {
+            if (((varbitplayer_39917 == 96) && (varbitplayer_43 == 14))) {
+                return 1;
+            };
+            if ((varbitplayer_39917 > 96)) {
                 return 1;
             };
             return 0;

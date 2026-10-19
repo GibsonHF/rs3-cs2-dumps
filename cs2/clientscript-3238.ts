@@ -6,7 +6,7 @@ function script3238(int0: number, int1: number, int2: number): void {
             if ((int3 != -3)) {
                 if ((int3 != 21)) {
                     if ((int3 != 1)) {
-                        if ((IF_GETHIDE(comp(744, 336)) == true)) {  // loginscreen:popup
+                        if ((IF_GETHIDE(comp(744, 337)) == true)) {  // loginscreen:com_337
                             if ((APPLET_HASFOCUS() == 1)) {
                                 IF_SETHIDE(false, int1);
                             } else {

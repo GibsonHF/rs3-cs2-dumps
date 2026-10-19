@@ -933411,8 +933411,8 @@
 		"zoom": 6736
 	},
 	{
-		"baseModel": 71716,
-		"category": 2689,
+		"baseModel": 146882,
+		"category": 5859,
 		"extra": {
 			"destroyondrop": 1, // 31 chisel:death_flag_2
 			"nonbankable": 1, // 59 chisel:unbankable
@@ -933448,8 +933448,8 @@
 		"zoom": 1506
 	},
 	{
-		"baseModel": 71704,
-		"category": 2689,
+		"baseModel": 146893,
+		"category": 5859,
 		"extra": {
 			"destroyondrop": 1, // 31 chisel:death_flag_2
 			"nonbankable": 1, // 59 chisel:unbankable
@@ -933485,8 +933485,8 @@
 		"zoom": 1506
 	},
 	{
-		"baseModel": 71709,
-		"category": 2689,
+		"baseModel": 146886,
+		"category": 5859,
 		"extra": {
 			"destroyondrop": 1, // 31 chisel:death_flag_2
 			"nonbankable": 1, // 59 chisel:unbankable
@@ -933522,8 +933522,8 @@
 		"zoom": 1506
 	},
 	{
-		"baseModel": 71697,
-		"category": 2689,
+		"baseModel": 146883,
+		"category": 5859,
 		"extra": {
 			"destroyondrop": 1, // 31 chisel:death_flag_2
 			"nonbankable": 1, // 59 chisel:unbankable
@@ -933559,8 +933559,8 @@
 		"zoom": 866
 	},
 	{
-		"baseModel": 71714,
-		"category": 2689,
+		"baseModel": 146888,
+		"category": 5859,
 		"extra": {
 			"destroyondrop": 1, // 31 chisel:death_flag_2
 			"nonbankable": 1, // 59 chisel:unbankable
@@ -933596,8 +933596,8 @@
 		"zoom": 1506
 	},
 	{
-		"baseModel": 71701,
-		"category": 2689,
+		"baseModel": 146895,
+		"category": 5859,
 		"extra": {
 			"destroyondrop": 1, // 31 chisel:death_flag_2
 			"nonbankable": 1, // 59 chisel:unbankable
@@ -933633,8 +933633,8 @@
 		"zoom": 1506
 	},
 	{
-		"baseModel": 71708,
-		"category": 2690,
+		"baseModel": 146881,
+		"category": 5860,
 		"extra": {
 			"destroyondrop": 1, // 31 chisel:death_flag_2
 			"nonbankable": 1, // 59 chisel:unbankable
@@ -933670,8 +933670,8 @@
 		"zoom": 504
 	},
 	{
-		"baseModel": 71713,
-		"category": 2690,
+		"baseModel": 146892,
+		"category": 5860,
 		"extra": {
 			"destroyondrop": 1, // 31 chisel:death_flag_2
 			"nonbankable": 1, // 59 chisel:unbankable
@@ -933707,8 +933707,8 @@
 		"zoom": 504
 	},
 	{
-		"baseModel": 71720,
-		"category": 2690,
+		"baseModel": 146885,
+		"category": 5860,
 		"extra": {
 			"destroyondrop": 1, // 31 chisel:death_flag_2
 			"nonbankable": 1, // 59 chisel:unbankable
@@ -933745,7 +933745,7 @@
 	},
 	{
 		"baseModel": 71705,
-		"category": 2690,
+		"category": 5860,
 		"extra": {
 			"destroyondrop": 1, // 31 chisel:death_flag_2
 			"nonbankable": 1, // 59 chisel:unbankable
@@ -933781,8 +933781,8 @@
 		"zoom": 987
 	},
 	{
-		"baseModel": 71707,
-		"category": 2690,
+		"baseModel": 146887,
+		"category": 5860,
 		"extra": {
 			"destroyondrop": 1, // 31 chisel:death_flag_2
 			"nonbankable": 1, // 59 chisel:unbankable
@@ -933818,8 +933818,8 @@
 		"zoom": 1216
 	},
 	{
-		"baseModel": 71698,
-		"category": 2690,
+		"baseModel": 146894,
+		"category": 5860,
 		"extra": {
 			"destroyondrop": 1, // 31 chisel:death_flag_2
 			"nonbankable": 1, // 59 chisel:unbankable
@@ -933855,18 +933855,18 @@
 		"zoom": 1216
 	},
 	{
-		"baseModel": 71695,
-		"category": 2691,
+		"baseModel": 146875,
+		"category": 5861,
 		"extra": {
 			"destroyondrop": 1, // 31 chisel:death_flag_2
 			"nonbankable": 1, // 59 chisel:unbankable
 			"no_alchemy": 1, // 689 chisel:is_crystal_mattock
-			"pre_megagame_sweet": 1, // 2525 chisel:gielinor_games_sweet_points
-			"pre_megagame_savoury": 0, // 2526 chisel:gielinor_games_savoury_points
-			"pre_megagame_bitter": 0, // 2527 chisel:gielinor_games_bitter_points
-			"pre_megagame_sour": 0, // 2528 chisel:gielinor_games_sour_points
-			"pre_megagame_fruity": 4, // 2529 chisel:gielinor_games_fruity_points
-			"pre_megagame_spicy": 2 // 2530 chisel:gielinor_games_spicy_points
+			"extra_002533": 1, // 9523
+			"extra_002534": 0, // 9524
+			"extra_002535": 0, // 9525
+			"extra_002536": 0, // 9526
+			"extra_002537": 4, // 9527
+			"extra_002538": 2 // 9528
 		},
 		"ground_actions_cursor": [
 			null,
@@ -933898,18 +933898,18 @@
 		"zoom": 395
 	},
 	{
-		"baseModel": 71679,
-		"category": 2691,
+		"baseModel": 146876,
+		"category": 5861,
 		"extra": {
 			"destroyondrop": 1, // 31 chisel:death_flag_2
 			"nonbankable": 1, // 59 chisel:unbankable
 			"no_alchemy": 1, // 689 chisel:is_crystal_mattock
-			"pre_megagame_sweet": 0, // 2525 chisel:gielinor_games_sweet_points
-			"pre_megagame_savoury": 0, // 2526 chisel:gielinor_games_savoury_points
-			"pre_megagame_bitter": 1, // 2527 chisel:gielinor_games_bitter_points
-			"pre_megagame_sour": 2, // 2528 chisel:gielinor_games_sour_points
-			"pre_megagame_fruity": 4, // 2529 chisel:gielinor_games_fruity_points
-			"pre_megagame_spicy": 0 // 2530 chisel:gielinor_games_spicy_points
+			"extra_002533": 0, // 9523
+			"extra_002534": 0, // 9524
+			"extra_002535": 1, // 9525
+			"extra_002536": 2, // 9526
+			"extra_002537": 4, // 9527
+			"extra_002538": 0 // 9528
 		},
 		"ground_actions_cursor": [
 			null,
@@ -933941,18 +933941,18 @@
 		"zoom": 395
 	},
 	{
-		"baseModel": 71682,
-		"category": 2691,
+		"baseModel": 146874,
+		"category": 5861,
 		"extra": {
 			"destroyondrop": 1, // 31 chisel:death_flag_2
 			"nonbankable": 1, // 59 chisel:unbankable
 			"no_alchemy": 1, // 689 chisel:is_crystal_mattock
-			"pre_megagame_sweet": 2, // 2525 chisel:gielinor_games_sweet_points
-			"pre_megagame_savoury": 0, // 2526 chisel:gielinor_games_savoury_points
-			"pre_megagame_bitter": 0, // 2527 chisel:gielinor_games_bitter_points
-			"pre_megagame_sour": 0, // 2528 chisel:gielinor_games_sour_points
-			"pre_megagame_fruity": 4, // 2529 chisel:gielinor_games_fruity_points
-			"pre_megagame_spicy": 1 // 2530 chisel:gielinor_games_spicy_points
+			"extra_002533": 2, // 9523
+			"extra_002534": 0, // 9524
+			"extra_002535": 0, // 9525
+			"extra_002536": 0, // 9526
+			"extra_002537": 4, // 9527
+			"extra_002538": 1 // 9528
 		},
 		"ground_actions_cursor": [
 			null,
@@ -933984,18 +933984,18 @@
 		"zoom": 329
 	},
 	{
-		"baseModel": 71688,
-		"category": 2691,
+		"baseModel": 146864,
+		"category": 5861,
 		"extra": {
 			"destroyondrop": 1, // 31 chisel:death_flag_2
 			"nonbankable": 1, // 59 chisel:unbankable
 			"no_alchemy": 1, // 689 chisel:is_crystal_mattock
-			"pre_megagame_sweet": 2, // 2525 chisel:gielinor_games_sweet_points
-			"pre_megagame_savoury": 0, // 2526 chisel:gielinor_games_savoury_points
-			"pre_megagame_bitter": 1, // 2527 chisel:gielinor_games_bitter_points
-			"pre_megagame_sour": 0, // 2528 chisel:gielinor_games_sour_points
-			"pre_megagame_fruity": 0, // 2529 chisel:gielinor_games_fruity_points
-			"pre_megagame_spicy": 4 // 2530 chisel:gielinor_games_spicy_points
+			"extra_002533": 2, // 9523
+			"extra_002534": 0, // 9524
+			"extra_002535": 1, // 9525
+			"extra_002536": 0, // 9526
+			"extra_002537": 0, // 9527
+			"extra_002538": 4 // 9528
 		},
 		"ground_actions_cursor": [
 			null,
@@ -934027,18 +934027,18 @@
 		"zoom": 592
 	},
 	{
-		"baseModel": 71693,
-		"category": 2691,
+		"baseModel": 146868,
+		"category": 5861,
 		"extra": {
 			"destroyondrop": 1, // 31 chisel:death_flag_2
 			"nonbankable": 1, // 59 chisel:unbankable
 			"no_alchemy": 1, // 689 chisel:is_crystal_mattock
-			"pre_megagame_sweet": 0, // 2525 chisel:gielinor_games_sweet_points
-			"pre_megagame_savoury": 2, // 2526 chisel:gielinor_games_savoury_points
-			"pre_megagame_bitter": 0, // 2527 chisel:gielinor_games_bitter_points
-			"pre_megagame_sour": 0, // 2528 chisel:gielinor_games_sour_points
-			"pre_megagame_fruity": 1, // 2529 chisel:gielinor_games_fruity_points
-			"pre_megagame_spicy": 4 // 2530 chisel:gielinor_games_spicy_points
+			"extra_002533": 0, // 9523
+			"extra_002534": 2, // 9524
+			"extra_002535": 0, // 9525
+			"extra_002536": 0, // 9526
+			"extra_002537": 1, // 9527
+			"extra_002538": 4 // 9528
 		},
 		"ground_actions_cursor": [
 			null,
@@ -934070,18 +934070,18 @@
 		"zoom": 395
 	},
 	{
-		"baseModel": 71690,
-		"category": 2691,
+		"baseModel": 146871,
+		"category": 5861,
 		"extra": {
 			"destroyondrop": 1, // 31 chisel:death_flag_2
 			"nonbankable": 1, // 59 chisel:unbankable
 			"no_alchemy": 1, // 689 chisel:is_crystal_mattock
-			"pre_megagame_sweet": 0, // 2525 chisel:gielinor_games_sweet_points
-			"pre_megagame_savoury": 1, // 2526 chisel:gielinor_games_savoury_points
-			"pre_megagame_bitter": 0, // 2527 chisel:gielinor_games_bitter_points
-			"pre_megagame_sour": 2, // 2528 chisel:gielinor_games_sour_points
-			"pre_megagame_fruity": 0, // 2529 chisel:gielinor_games_fruity_points
-			"pre_megagame_spicy": 4 // 2530 chisel:gielinor_games_spicy_points
+			"extra_002533": 0, // 9523
+			"extra_002534": 1, // 9524
+			"extra_002535": 0, // 9525
+			"extra_002536": 2, // 9526
+			"extra_002537": 0, // 9527
+			"extra_002538": 4 // 9528
 		},
 		"ground_actions_cursor": [
 			null,
@@ -934113,18 +934113,18 @@
 		"zoom": 329
 	},
 	{
-		"baseModel": 71694,
-		"category": 2691,
+		"baseModel": 146878,
+		"category": 5861,
 		"extra": {
 			"destroyondrop": 1, // 31 chisel:death_flag_2
 			"nonbankable": 1, // 59 chisel:unbankable
 			"no_alchemy": 1, // 689 chisel:is_crystal_mattock
-			"pre_megagame_sweet": 1, // 2525 chisel:gielinor_games_sweet_points
-			"pre_megagame_savoury": 2, // 2526 chisel:gielinor_games_savoury_points
-			"pre_megagame_bitter": 0, // 2527 chisel:gielinor_games_bitter_points
-			"pre_megagame_sour": 4, // 2528 chisel:gielinor_games_sour_points
-			"pre_megagame_fruity": 0, // 2529 chisel:gielinor_games_fruity_points
-			"pre_megagame_spicy": 0 // 2530 chisel:gielinor_games_spicy_points
+			"extra_002533": 1, // 9523
+			"extra_002534": 2, // 9524
+			"extra_002535": 0, // 9525
+			"extra_002536": 4, // 9526
+			"extra_002537": 0, // 9527
+			"extra_002538": 0 // 9528
 		},
 		"ground_actions_cursor": [
 			null,
@@ -934156,18 +934156,18 @@
 		"zoom": 678
 	},
 	{
-		"baseModel": 71681,
-		"category": 2691,
+		"baseModel": 146879,
+		"category": 5861,
 		"extra": {
 			"destroyondrop": 1, // 31 chisel:death_flag_2
 			"nonbankable": 1, // 59 chisel:unbankable
 			"no_alchemy": 1, // 689 chisel:is_crystal_mattock
-			"pre_megagame_sweet": 0, // 2525 chisel:gielinor_games_sweet_points
-			"pre_megagame_savoury": 0, // 2526 chisel:gielinor_games_savoury_points
-			"pre_megagame_bitter": 2, // 2527 chisel:gielinor_games_bitter_points
-			"pre_megagame_sour": 4, // 2528 chisel:gielinor_games_sour_points
-			"pre_megagame_fruity": 1, // 2529 chisel:gielinor_games_fruity_points
-			"pre_megagame_spicy": 0 // 2530 chisel:gielinor_games_spicy_points
+			"extra_002533": 0, // 9523
+			"extra_002534": 0, // 9524
+			"extra_002535": 2, // 9525
+			"extra_002536": 4, // 9526
+			"extra_002537": 1, // 9527
+			"extra_002538": 0 // 9528
 		},
 		"ground_actions_cursor": [
 			null,
@@ -934199,18 +934199,18 @@
 		"zoom": 678
 	},
 	{
-		"baseModel": 71686,
-		"category": 2691,
+		"baseModel": 146877,
+		"category": 5861,
 		"extra": {
 			"destroyondrop": 1, // 31 chisel:death_flag_2
 			"nonbankable": 1, // 59 chisel:unbankable
 			"no_alchemy": 1, // 689 chisel:is_crystal_mattock
-			"pre_megagame_sweet": 1, // 2525 chisel:gielinor_games_sweet_points
-			"pre_megagame_savoury": 0, // 2526 chisel:gielinor_games_savoury_points
-			"pre_megagame_bitter": 0, // 2527 chisel:gielinor_games_bitter_points
-			"pre_megagame_sour": 4, // 2528 chisel:gielinor_games_sour_points
-			"pre_megagame_fruity": 2, // 2529 chisel:gielinor_games_fruity_points
-			"pre_megagame_spicy": 0 // 2530 chisel:gielinor_games_spicy_points
+			"extra_002533": 1, // 9523
+			"extra_002534": 0, // 9524
+			"extra_002535": 0, // 9525
+			"extra_002536": 4, // 9526
+			"extra_002537": 2, // 9527
+			"extra_002538": 0 // 9528
 		},
 		"ground_actions_cursor": [
 			null,
@@ -934242,18 +934242,18 @@
 		"zoom": 592
 	},
 	{
-		"baseModel": 71676,
-		"category": 2691,
+		"baseModel": 146863,
+		"category": 5861,
 		"extra": {
 			"destroyondrop": 1, // 31 chisel:death_flag_2
 			"nonbankable": 1, // 59 chisel:unbankable
 			"no_alchemy": 1, // 689 chisel:is_crystal_mattock
-			"pre_megagame_sweet": 4, // 2525 chisel:gielinor_games_sweet_points
-			"pre_megagame_savoury": 0, // 2526 chisel:gielinor_games_savoury_points
-			"pre_megagame_bitter": 0, // 2527 chisel:gielinor_games_bitter_points
-			"pre_megagame_sour": 2, // 2528 chisel:gielinor_games_sour_points
-			"pre_megagame_fruity": 0, // 2529 chisel:gielinor_games_fruity_points
-			"pre_megagame_spicy": 1 // 2530 chisel:gielinor_games_spicy_points
+			"extra_002533": 4, // 9523
+			"extra_002534": 0, // 9524
+			"extra_002535": 0, // 9525
+			"extra_002536": 2, // 9526
+			"extra_002537": 0, // 9527
+			"extra_002538": 1 // 9528
 		},
 		"ground_actions_cursor": [
 			null,
@@ -934285,18 +934285,18 @@
 		"zoom": 461
 	},
 	{
-		"baseModel": 71677,
-		"category": 2691,
+		"baseModel": 146870,
+		"category": 5861,
 		"extra": {
 			"destroyondrop": 1, // 31 chisel:death_flag_2
 			"nonbankable": 1, // 59 chisel:unbankable
 			"no_alchemy": 1, // 689 chisel:is_crystal_mattock
-			"pre_megagame_sweet": 4, // 2525 chisel:gielinor_games_sweet_points
-			"pre_megagame_savoury": 1, // 2526 chisel:gielinor_games_savoury_points
-			"pre_megagame_bitter": 2, // 2527 chisel:gielinor_games_bitter_points
-			"pre_megagame_sour": 0, // 2528 chisel:gielinor_games_sour_points
-			"pre_megagame_fruity": 0, // 2529 chisel:gielinor_games_fruity_points
-			"pre_megagame_spicy": 0 // 2530 chisel:gielinor_games_spicy_points
+			"extra_002533": 4, // 9523
+			"extra_002534": 1, // 9524
+			"extra_002535": 2, // 9525
+			"extra_002536": 0, // 9526
+			"extra_002537": 0, // 9527
+			"extra_002538": 0 // 9528
 		},
 		"ground_actions_cursor": [
 			null,
@@ -934328,18 +934328,18 @@
 		"zoom": 592
 	},
 	{
-		"baseModel": 71685,
-		"category": 2691,
+		"baseModel": 146869,
+		"category": 5861,
 		"extra": {
 			"destroyondrop": 1, // 31 chisel:death_flag_2
 			"nonbankable": 1, // 59 chisel:unbankable
 			"no_alchemy": 1, // 689 chisel:is_crystal_mattock
-			"pre_megagame_sweet": 4, // 2525 chisel:gielinor_games_sweet_points
-			"pre_megagame_savoury": 0, // 2526 chisel:gielinor_games_savoury_points
-			"pre_megagame_bitter": 0, // 2527 chisel:gielinor_games_bitter_points
-			"pre_megagame_sour": 0, // 2528 chisel:gielinor_games_sour_points
-			"pre_megagame_fruity": 2, // 2529 chisel:gielinor_games_fruity_points
-			"pre_megagame_spicy": 1 // 2530 chisel:gielinor_games_spicy_points
+			"extra_002533": 4, // 9523
+			"extra_002534": 0, // 9524
+			"extra_002535": 0, // 9525
+			"extra_002536": 0, // 9526
+			"extra_002537": 2, // 9527
+			"extra_002538": 1 // 9528
 		},
 		"ground_actions_cursor": [
 			null,
@@ -934371,18 +934371,18 @@
 		"zoom": 720
 	},
 	{
-		"baseModel": 71692,
-		"category": 2691,
+		"baseModel": 146866,
+		"category": 5861,
 		"extra": {
 			"destroyondrop": 1, // 31 chisel:death_flag_2
 			"nonbankable": 1, // 59 chisel:unbankable
 			"no_alchemy": 1, // 689 chisel:is_crystal_mattock
-			"pre_megagame_sweet": 0, // 2525 chisel:gielinor_games_sweet_points
-			"pre_megagame_savoury": 0, // 2526 chisel:gielinor_games_savoury_points
-			"pre_megagame_bitter": 4, // 2527 chisel:gielinor_games_bitter_points
-			"pre_megagame_sour": 1, // 2528 chisel:gielinor_games_sour_points
-			"pre_megagame_fruity": 0, // 2529 chisel:gielinor_games_fruity_points
-			"pre_megagame_spicy": 2 // 2530 chisel:gielinor_games_spicy_points
+			"extra_002533": 0, // 9523
+			"extra_002534": 0, // 9524
+			"extra_002535": 4, // 9525
+			"extra_002536": 1, // 9526
+			"extra_002537": 0, // 9527
+			"extra_002538": 2 // 9528
 		},
 		"ground_actions_cursor": [
 			null,
@@ -934414,18 +934414,18 @@
 		"zoom": 526
 	},
 	{
-		"baseModel": 71683,
-		"category": 2691,
+		"baseModel": 146862,
+		"category": 5861,
 		"extra": {
 			"destroyondrop": 1, // 31 chisel:death_flag_2
 			"nonbankable": 1, // 59 chisel:unbankable
 			"no_alchemy": 1, // 689 chisel:is_crystal_mattock
-			"pre_megagame_sweet": 1, // 2525 chisel:gielinor_games_sweet_points
-			"pre_megagame_savoury": 0, // 2526 chisel:gielinor_games_savoury_points
-			"pre_megagame_bitter": 4, // 2527 chisel:gielinor_games_bitter_points
-			"pre_megagame_sour": 0, // 2528 chisel:gielinor_games_sour_points
-			"pre_megagame_fruity": 2, // 2529 chisel:gielinor_games_fruity_points
-			"pre_megagame_spicy": 0 // 2530 chisel:gielinor_games_spicy_points
+			"extra_002533": 1, // 9523
+			"extra_002534": 0, // 9524
+			"extra_002535": 4, // 9525
+			"extra_002536": 0, // 9526
+			"extra_002537": 2, // 9527
+			"extra_002538": 0 // 9528
 		},
 		"ground_actions_cursor": [
 			null,
@@ -934457,18 +934457,18 @@
 		"zoom": 855
 	},
 	{
-		"baseModel": 71691,
-		"category": 2691,
+		"baseModel": 146865,
+		"category": 5861,
 		"extra": {
 			"destroyondrop": 1, // 31 chisel:death_flag_2
 			"nonbankable": 1, // 59 chisel:unbankable
 			"no_alchemy": 1, // 689 chisel:is_crystal_mattock
-			"pre_megagame_sweet": 1, // 2525 chisel:gielinor_games_sweet_points
-			"pre_megagame_savoury": 2, // 2526 chisel:gielinor_games_savoury_points
-			"pre_megagame_bitter": 4, // 2527 chisel:gielinor_games_bitter_points
-			"pre_megagame_sour": 0, // 2528 chisel:gielinor_games_sour_points
-			"pre_megagame_fruity": 0, // 2529 chisel:gielinor_games_fruity_points
-			"pre_megagame_spicy": 0 // 2530 chisel:gielinor_games_spicy_points
+			"extra_002533": 1, // 9523
+			"extra_002534": 2, // 9524
+			"extra_002535": 4, // 9525
+			"extra_002536": 0, // 9526
+			"extra_002537": 0, // 9527
+			"extra_002538": 0 // 9528
 		},
 		"ground_actions_cursor": [
 			null,
@@ -934500,18 +934500,18 @@
 		"zoom": 395
 	},
 	{
-		"baseModel": 71696,
-		"category": 2691,
+		"baseModel": 146873,
+		"category": 5861,
 		"extra": {
 			"destroyondrop": 1, // 31 chisel:death_flag_2
 			"nonbankable": 1, // 59 chisel:unbankable
 			"no_alchemy": 1, // 689 chisel:is_crystal_mattock
-			"pre_megagame_sweet": 0, // 2525 chisel:gielinor_games_sweet_points
-			"pre_megagame_savoury": 4, // 2526 chisel:gielinor_games_savoury_points
-			"pre_megagame_bitter": 2, // 2527 chisel:gielinor_games_bitter_points
-			"pre_megagame_sour": 1, // 2528 chisel:gielinor_games_sour_points
-			"pre_megagame_fruity": 0, // 2529 chisel:gielinor_games_fruity_points
-			"pre_megagame_spicy": 0 // 2530 chisel:gielinor_games_spicy_points
+			"extra_002533": 0, // 9523
+			"extra_002534": 4, // 9524
+			"extra_002535": 2, // 9525
+			"extra_002536": 1, // 9526
+			"extra_002537": 0, // 9527
+			"extra_002538": 0 // 9528
 		},
 		"ground_actions_cursor": [
 			null,
@@ -934543,18 +934543,18 @@
 		"zoom": 720
 	},
 	{
-		"baseModel": 71687,
-		"category": 2691,
+		"baseModel": 146872,
+		"category": 5861,
 		"extra": {
 			"destroyondrop": 1, // 31 chisel:death_flag_2
 			"nonbankable": 1, // 59 chisel:unbankable
 			"no_alchemy": 1, // 689 chisel:is_crystal_mattock
-			"pre_megagame_sweet": 0, // 2525 chisel:gielinor_games_sweet_points
-			"pre_megagame_savoury": 4, // 2526 chisel:gielinor_games_savoury_points
-			"pre_megagame_bitter": 0, // 2527 chisel:gielinor_games_bitter_points
-			"pre_megagame_sour": 0, // 2528 chisel:gielinor_games_sour_points
-			"pre_megagame_fruity": 1, // 2529 chisel:gielinor_games_fruity_points
-			"pre_megagame_spicy": 2 // 2530 chisel:gielinor_games_spicy_points
+			"extra_002533": 0, // 9523
+			"extra_002534": 4, // 9524
+			"extra_002535": 0, // 9525
+			"extra_002536": 0, // 9526
+			"extra_002537": 1, // 9527
+			"extra_002538": 2 // 9528
 		},
 		"ground_actions_cursor": [
 			null,
@@ -934586,18 +934586,18 @@
 		"zoom": 1118
 	},
 	{
-		"baseModel": 71689,
-		"category": 2691,
+		"baseModel": 146867,
+		"category": 5861,
 		"extra": {
 			"destroyondrop": 1, // 31 chisel:death_flag_2
 			"nonbankable": 1, // 59 chisel:unbankable
 			"no_alchemy": 1, // 689 chisel:is_crystal_mattock
-			"pre_megagame_sweet": 2, // 2525 chisel:gielinor_games_sweet_points
-			"pre_megagame_savoury": 4, // 2526 chisel:gielinor_games_savoury_points
-			"pre_megagame_bitter": 0, // 2527 chisel:gielinor_games_bitter_points
-			"pre_megagame_sour": 0, // 2528 chisel:gielinor_games_sour_points
-			"pre_megagame_fruity": 1, // 2529 chisel:gielinor_games_fruity_points
-			"pre_megagame_spicy": 0 // 2530 chisel:gielinor_games_spicy_points
+			"extra_002533": 2, // 9523
+			"extra_002534": 4, // 9524
+			"extra_002535": 0, // 9525
+			"extra_002536": 0, // 9526
+			"extra_002537": 1, // 9527
+			"extra_002538": 0 // 9528
 		},
 		"ground_actions_cursor": [
 			null,
@@ -934629,8 +934629,8 @@
 		"zoom": 1316
 	},
 	{
-		"baseModel": 71678,
-		"category": 2692,
+		"baseModel": 146880,
+		"category": 5862,
 		"extra": {
 			"destroyondrop": 1, // 31 chisel:death_flag_2
 			"nonbankable": 1, // 59 chisel:unbankable
@@ -934666,8 +934666,8 @@
 		"zoom": 987
 	},
 	{
-		"baseModel": 71726,
-		"category": 2696,
+		"baseModel": 146896,
+		"category": 5857,
 		"extra": {
 			"destroyondrop": 1, // 31 chisel:death_flag_2
 			"no_alchemy": 1, // 689 chisel:is_crystal_mattock
@@ -934716,8 +934716,8 @@
 		"zoom": 1118
 	},
 	{
-		"baseModel": 71724,
-		"category": 2696,
+		"baseModel": 146898,
+		"category": 5857,
 		"extra": {
 			"destroyondrop": 1, // 31 chisel:death_flag_2
 			"no_alchemy": 1, // 689 chisel:is_crystal_mattock
@@ -934767,8 +934767,8 @@
 	},
 	{
 		"Members": true,
-		"baseModel": 71722,
-		"category": 2696,
+		"baseModel": 146897,
+		"category": 5857,
 		"extra": {
 			"destroyondrop": 1, // 31 chisel:death_flag_2
 			"no_alchemy": 1, // 689 chisel:is_crystal_mattock
@@ -934817,7 +934817,7 @@
 		"zoom": 1118
 	},
 	{
-		"baseModel": 71727,
+		"baseModel": 146899,
 		"category": 2752,
 		"extra": {
 			"attackrate": 5, // 14 chisel:attack_speed
@@ -934829,13 +934829,13 @@
 			"weapon_category": 14923, // 686 chisel:unknown_item_reference
 			"no_alchemy": 1, // 689 chisel:is_crystal_mattock
 			"protect_on_death": 1, // 1397 chisel:unknown_clue_scroll_boolean
-			"combatv2_sheath_model": 71761, // 2820 chisel:sheathed_weapon_model
+			"combatv2_sheath_model": 146996, // 2820 chisel:sheathed_weapon_model
 			"combatv2_melee_weapon": 1, // 2825 chisel:is_kalphite_defender
 			"meleeattack": 110, // 3267 chisel:accuracy_melee_weapon
 			"diango_filter_holiday": 1 // 4901 chisel:diango_reclaim_category
 		},
 		"femaleModels": [
-			71757,
+			146995,
 			null,
 			null
 		],
@@ -934848,7 +934848,7 @@
 		],
 		"id": 24547,
 		"maleModels": [
-			71757,
+			146995,
 			null,
 			null
 		],
@@ -934886,7 +934886,7 @@
 		"zoom": 1974
 	},
 	{
-		"baseModel": 71723,
+		"baseModel": 146901,
 		"category": 2752,
 		"extra": {
 			"attackrate": 5, // 14 chisel:attack_speed
@@ -934898,13 +934898,13 @@
 			"weapon_category": 14923, // 686 chisel:unknown_item_reference
 			"no_alchemy": 1, // 689 chisel:is_crystal_mattock
 			"protect_on_death": 1, // 1397 chisel:unknown_clue_scroll_boolean
-			"combatv2_sheath_model": 71759, // 2820 chisel:sheathed_weapon_model
+			"combatv2_sheath_model": 147000, // 2820 chisel:sheathed_weapon_model
 			"combatv2_melee_weapon": 1, // 2825 chisel:is_kalphite_defender
 			"meleeattack": 110, // 3267 chisel:accuracy_melee_weapon
 			"diango_filter_holiday": 1 // 4901 chisel:diango_reclaim_category
 		},
 		"femaleModels": [
-			71758,
+			146999,
 			null,
 			null
 		],
@@ -934917,7 +934917,7 @@
 		],
 		"id": 24548,
 		"maleModels": [
-			71758,
+			146999,
 			null,
 			null
 		],
@@ -934956,7 +934956,7 @@
 	},
 	{
 		"Members": true,
-		"baseModel": 71725,
+		"baseModel": 146900,
 		"category": 2752,
 		"extra": {
 			"attackrate": 5, // 14 chisel:attack_speed
@@ -934968,13 +934968,13 @@
 			"weapon_category": 14923, // 686 chisel:unknown_item_reference
 			"no_alchemy": 1, // 689 chisel:is_crystal_mattock
 			"protect_on_death": 1, // 1397 chisel:unknown_clue_scroll_boolean
-			"combatv2_sheath_model": 71760, // 2820 chisel:sheathed_weapon_model
+			"combatv2_sheath_model": 146998, // 2820 chisel:sheathed_weapon_model
 			"combatv2_melee_weapon": 1, // 2825 chisel:is_kalphite_defender
 			"meleeattack": 110, // 3267 chisel:accuracy_melee_weapon
 			"diango_filter_holiday": 1 // 4901 chisel:diango_reclaim_category
 		},
 		"femaleModels": [
-			71756,
+			146997,
 			null,
 			null
 		],
@@ -934987,7 +934987,7 @@
 		],
 		"id": 24549,
 		"maleModels": [
-			71756,
+			146997,
 			null,
 			null
 		],
@@ -935025,8 +935025,8 @@
 		"zoom": 1974
 	},
 	{
-		"baseModel": 71666,
-		"category": 2697,
+		"baseModel": 146847,
+		"category": 5858,
 		"extra": {
 			"destroyondrop": 1, // 31 chisel:death_flag_2
 			"no_alchemy": 1, // 689 chisel:is_crystal_mattock
@@ -935035,7 +935035,7 @@
 			"destroyondrop_mes": "You can reclaim it from Diango in Draynor or via the bank interface." // 5417 chisel:destroy_msg
 		},
 		"femaleModels": [
-			75112,
+			147003,
 			null,
 			null
 		],
@@ -935048,7 +935048,7 @@
 		],
 		"id": 24550,
 		"maleModels": [
-			73051,
+			146979,
 			null,
 			null
 		],
@@ -935086,8 +935086,8 @@
 		"zoom": 760
 	},
 	{
-		"baseModel": 71671,
-		"category": 2697,
+		"baseModel": 146848,
+		"category": 5858,
 		"extra": {
 			"destroyondrop": 1, // 31 chisel:death_flag_2
 			"no_alchemy": 1, // 689 chisel:is_crystal_mattock
@@ -935096,7 +935096,7 @@
 			"destroyondrop_mes": "You can reclaim it from Diango in Draynor or via the bank interface." // 5417 chisel:destroy_msg
 		},
 		"femaleModels": [
-			75125,
+			147006,
 			null,
 			null
 		],
@@ -935109,7 +935109,7 @@
 		],
 		"id": 24551,
 		"maleModels": [
-			73080,
+			146982,
 			null,
 			null
 		],
@@ -935147,8 +935147,8 @@
 		"zoom": 352
 	},
 	{
-		"baseModel": 71662,
-		"category": 2697,
+		"baseModel": 146851,
+		"category": 5858,
 		"extra": {
 			"destroyondrop": 1, // 31 chisel:death_flag_2
 			"no_alchemy": 1, // 689 chisel:is_crystal_mattock
@@ -935157,7 +935157,7 @@
 			"destroyondrop_mes": "You can reclaim it from Diango in Draynor or via the bank interface." // 5417 chisel:destroy_msg
 		},
 		"femaleModels": [
-			75167,
+			147015,
 			null,
 			null
 		],
@@ -935170,7 +935170,7 @@
 		],
 		"id": 24552,
 		"maleModels": [
-			73188,
+			146992,
 			null,
 			null
 		],
@@ -935208,8 +935208,8 @@
 		"zoom": 987
 	},
 	{
-		"baseModel": 71664,
-		"category": 2697,
+		"baseModel": 146850,
+		"category": 5858,
 		"extra": {
 			"destroyondrop": 1, // 31 chisel:death_flag_2
 			"no_alchemy": 1, // 689 chisel:is_crystal_mattock
@@ -935218,7 +935218,7 @@
 			"destroyondrop_mes": "You can reclaim it from Diango in Draynor or via the bank interface." // 5417 chisel:destroy_msg
 		},
 		"femaleModels": [
-			75146,
+			147012,
 			null,
 			null
 		],
@@ -935231,7 +935231,7 @@
 		],
 		"id": 24553,
 		"maleModels": [
-			73133,
+			146988,
 			null,
 			null
 		],
@@ -935269,8 +935269,8 @@
 		"zoom": 1118
 	},
 	{
-		"baseModel": 71668,
-		"category": 2697,
+		"baseModel": 146849,
+		"category": 5858,
 		"extra": {
 			"destroyondrop": 1, // 31 chisel:death_flag_2
 			"no_alchemy": 1, // 689 chisel:is_crystal_mattock
@@ -935279,11 +935279,11 @@
 			"destroyondrop_mes": "You can reclaim it from Diango in Draynor or via the bank interface." // 5417 chisel:destroy_msg
 		},
 		"femaleHeads": [
-			71647,
+			146820,
 			141083
 		],
 		"femaleModels": [
-			75136,
+			147009,
 			141082,
 			null
 		],
@@ -935296,11 +935296,11 @@
 		],
 		"id": 24554,
 		"maleHeads": [
-			71650,
+			146824,
 			141089
 		],
 		"maleModels": [
-			73110,
+			146985,
 			141088,
 			null
 		],
@@ -935334,8 +935334,8 @@
 		"zoom": 683
 	},
 	{
-		"baseModel": 71667,
-		"category": 2697,
+		"baseModel": 146857,
+		"category": 5858,
 		"extra": {
 			"destroyondrop": 1, // 31 chisel:death_flag_2
 			"no_alchemy": 1, // 689 chisel:is_crystal_mattock
@@ -935344,7 +935344,7 @@
 			"destroyondrop_mes": "You can reclaim it from Diango in Draynor or via the bank interface." // 5417 chisel:destroy_msg
 		},
 		"femaleModels": [
-			75114,
+			147005,
 			null,
 			null
 		],
@@ -935357,7 +935357,7 @@
 		],
 		"id": 24555,
 		"maleModels": [
-			73052,
+			146981,
 			null,
 			null
 		],
@@ -935395,8 +935395,8 @@
 		"zoom": 760
 	},
 	{
-		"baseModel": 71670,
-		"category": 2697,
+		"baseModel": 146858,
+		"category": 5858,
 		"extra": {
 			"destroyondrop": 1, // 31 chisel:death_flag_2
 			"no_alchemy": 1, // 689 chisel:is_crystal_mattock
@@ -935405,7 +935405,7 @@
 			"destroyondrop_mes": "You can reclaim it from Diango in Draynor or via the bank interface." // 5417 chisel:destroy_msg
 		},
 		"femaleModels": [
-			75124,
+			147008,
 			null,
 			null
 		],
@@ -935418,7 +935418,7 @@
 		],
 		"id": 24556,
 		"maleModels": [
-			73079,
+			146984,
 			null,
 			null
 		],
@@ -935456,8 +935456,8 @@
 		"zoom": 352
 	},
 	{
-		"baseModel": 71669,
-		"category": 2697,
+		"baseModel": 146861,
+		"category": 5858,
 		"extra": {
 			"destroyondrop": 1, // 31 chisel:death_flag_2
 			"no_alchemy": 1, // 689 chisel:is_crystal_mattock
@@ -935466,7 +935466,7 @@
 			"destroyondrop_mes": "You can reclaim it from Diango in Draynor or via the bank interface." // 5417 chisel:destroy_msg
 		},
 		"femaleModels": [
-			75165,
+			147017,
 			null,
 			null
 		],
@@ -935479,7 +935479,7 @@
 		],
 		"id": 24557,
 		"maleModels": [
-			73187,
+			146994,
 			null,
 			null
 		],
@@ -935517,8 +935517,8 @@
 		"zoom": 987
 	},
 	{
-		"baseModel": 71663,
-		"category": 2697,
+		"baseModel": 146860,
+		"category": 5858,
 		"extra": {
 			"destroyondrop": 1, // 31 chisel:death_flag_2
 			"no_alchemy": 1, // 689 chisel:is_crystal_mattock
@@ -935527,7 +935527,7 @@
 			"destroyondrop_mes": "You can reclaim it from Diango in Draynor or via the bank interface." // 5417 chisel:destroy_msg
 		},
 		"femaleModels": [
-			75147,
+			147014,
 			null,
 			null
 		],
@@ -935540,7 +935540,7 @@
 		],
 		"id": 24558,
 		"maleModels": [
-			73134,
+			146990,
 			null,
 			null
 		],
@@ -935578,8 +935578,8 @@
 		"zoom": 1118
 	},
 	{
-		"baseModel": 71661,
-		"category": 2697,
+		"baseModel": 146859,
+		"category": 5858,
 		"extra": {
 			"destroyondrop": 1, // 31 chisel:death_flag_2
 			"no_alchemy": 1, // 689 chisel:is_crystal_mattock
@@ -935588,11 +935588,11 @@
 			"destroyondrop_mes": "You can reclaim it from Diango in Draynor or via the bank interface." // 5417 chisel:destroy_msg
 		},
 		"femaleHeads": [
-			71646,
+			146822,
 			141083
 		],
 		"femaleModels": [
-			75137,
+			147011,
 			141082,
 			null
 		],
@@ -935605,11 +935605,11 @@
 		],
 		"id": 24559,
 		"maleHeads": [
-			71651,
+			146827,
 			141089
 		],
 		"maleModels": [
-			73109,
+			146987,
 			141088,
 			null
 		],
@@ -935644,8 +935644,8 @@
 	},
 	{
 		"Members": true,
-		"baseModel": 71675,
-		"category": 2697,
+		"baseModel": 146852,
+		"category": 5858,
 		"extra": {
 			"destroyondrop": 1, // 31 chisel:death_flag_2
 			"no_alchemy": 1, // 689 chisel:is_crystal_mattock
@@ -935654,7 +935654,7 @@
 			"destroyondrop_mes": "You can reclaim it from Diango in Draynor or via the bank interface." // 5417 chisel:destroy_msg
 		},
 		"femaleModels": [
-			75113,
+			147004,
 			null,
 			null
 		],
@@ -935667,7 +935667,7 @@
 		],
 		"id": 24560,
 		"maleModels": [
-			73053,
+			146980,
 			null,
 			null
 		],
@@ -935706,8 +935706,8 @@
 	},
 	{
 		"Members": true,
-		"baseModel": 71665,
-		"category": 2697,
+		"baseModel": 146853,
+		"category": 5858,
 		"extra": {
 			"destroyondrop": 1, // 31 chisel:death_flag_2
 			"no_alchemy": 1, // 689 chisel:is_crystal_mattock
@@ -935716,7 +935716,7 @@
 			"destroyondrop_mes": "You can reclaim it from Diango in Draynor or via the bank interface." // 5417 chisel:destroy_msg
 		},
 		"femaleModels": [
-			75126,
+			147007,
 			null,
 			null
 		],
@@ -935729,7 +935729,7 @@
 		],
 		"id": 24561,
 		"maleModels": [
-			73078,
+			146983,
 			null,
 			null
 		],
@@ -935768,8 +935768,8 @@
 	},
 	{
 		"Members": true,
-		"baseModel": 71674,
-		"category": 2697,
+		"baseModel": 146856,
+		"category": 5858,
 		"extra": {
 			"destroyondrop": 1, // 31 chisel:death_flag_2
 			"no_alchemy": 1, // 689 chisel:is_crystal_mattock
@@ -935778,7 +935778,7 @@
 			"destroyondrop_mes": "You can reclaim it from Diango in Draynor or via the bank interface." // 5417 chisel:destroy_msg
 		},
 		"femaleModels": [
-			75166,
+			147016,
 			null,
 			null
 		],
@@ -935791,7 +935791,7 @@
 		],
 		"id": 24562,
 		"maleModels": [
-			73189,
+			146993,
 			null,
 			null
 		],
@@ -935830,8 +935830,8 @@
 	},
 	{
 		"Members": true,
-		"baseModel": 71672,
-		"category": 2697,
+		"baseModel": 146855,
+		"category": 5858,
 		"extra": {
 			"destroyondrop": 1, // 31 chisel:death_flag_2
 			"no_alchemy": 1, // 689 chisel:is_crystal_mattock
@@ -935840,7 +935840,7 @@
 			"destroyondrop_mes": "You can reclaim it from Diango in Draynor or via the bank interface." // 5417 chisel:destroy_msg
 		},
 		"femaleModels": [
-			75145,
+			147013,
 			null,
 			null
 		],
@@ -935853,7 +935853,7 @@
 		],
 		"id": 24563,
 		"maleModels": [
-			73135,
+			146989,
 			null,
 			null
 		],
@@ -935892,8 +935892,8 @@
 	},
 	{
 		"Members": true,
-		"baseModel": 71673,
-		"category": 2697,
+		"baseModel": 146854,
+		"category": 5858,
 		"extra": {
 			"destroyondrop": 1, // 31 chisel:death_flag_2
 			"no_alchemy": 1, // 689 chisel:is_crystal_mattock
@@ -935902,11 +935902,11 @@
 			"destroyondrop_mes": "You can reclaim it from Diango in Draynor or via the bank interface." // 5417 chisel:destroy_msg
 		},
 		"femaleHeads": [
-			71648,
+			146821,
 			141083
 		],
 		"femaleModels": [
-			75135,
+			147010,
 			141082,
 			null
 		],
@@ -935919,11 +935919,11 @@
 		],
 		"id": 24564,
 		"maleHeads": [
-			71649,
+			146825,
 			141089
 		],
 		"maleModels": [
-			73111,
+			146986,
 			141088,
 			null
 		],
@@ -943454,7 +943454,7 @@
 		"zoom": 3708
 	},
 	{
-		"baseModel": 71702,
+		"baseModel": 146890,
 		"extra": {
 			"nonbankable": 1, // 59 chisel:unbankable
 			"no_alchemy": 1 // 689 chisel:is_crystal_mattock
@@ -943482,7 +943482,7 @@
 		"zoom": 1513
 	},
 	{
-		"baseModel": 71702,
+		"baseModel": 146890,
 		"colours": {
 			"37396": 9748,
 			"37406": 9758,
@@ -943516,7 +943516,7 @@
 		"zoom": 1513
 	},
 	{
-		"baseModel": 71702,
+		"baseModel": 146890,
 		"colours": {
 			"37396": 15,
 			"37406": 20,
@@ -943550,7 +943550,7 @@
 		"zoom": 1513
 	},
 	{
-		"baseModel": 71702,
+		"baseModel": 146890,
 		"colours": {
 			"37396": 21012,
 			"37406": 21022,
@@ -943584,7 +943584,7 @@
 		"zoom": 1513
 	},
 	{
-		"baseModel": 71702,
+		"baseModel": 146890,
 		"colours": {
 			"37396": 532,
 			"37406": 542,
@@ -943618,7 +943618,7 @@
 		"zoom": 1513
 	},
 	{
-		"baseModel": 71700,
+		"baseModel": 146889,
 		"extra": {
 			"nonbankable": 1, // 59 chisel:unbankable
 			"no_alchemy": 1 // 689 chisel:is_crystal_mattock
@@ -943646,7 +943646,7 @@
 		"zoom": 720
 	},
 	{
-		"baseModel": 71700,
+		"baseModel": 146889,
 		"colours": {
 			"37396": 9748,
 			"37406": 9758,
@@ -943680,7 +943680,7 @@
 		"zoom": 720
 	},
 	{
-		"baseModel": 71700,
+		"baseModel": 146889,
 		"colours": {
 			"37396": 15,
 			"37406": 20,
@@ -943714,7 +943714,7 @@
 		"zoom": 720
 	},
 	{
-		"baseModel": 71700,
+		"baseModel": 146889,
 		"colours": {
 			"37396": 21012,
 			"37406": 21022,
@@ -943748,7 +943748,7 @@
 		"zoom": 720
 	},
 	{
-		"baseModel": 71700,
+		"baseModel": 146889,
 		"colours": {
 			"37396": 532,
 			"37406": 542,
@@ -943783,8 +943783,8 @@
 	},
 	{
 		"Members": true,
-		"baseModel": 71703,
-		"category": 2695,
+		"baseModel": 146891,
+		"category": 5863,
 		"extra": {
 			"levelrequire": 1, // 23 chisel:item_tier
 			"nonbankable": 1, // 59 chisel:unbankable
@@ -943814,8 +943814,8 @@
 	},
 	{
 		"Members": true,
-		"baseModel": 71703,
-		"category": 2695,
+		"baseModel": 146891,
+		"category": 5863,
 		"colours": {
 			"37396": 9748,
 			"37406": 9758,
@@ -943851,8 +943851,8 @@
 	},
 	{
 		"Members": true,
-		"baseModel": 71703,
-		"category": 2695,
+		"baseModel": 146891,
+		"category": 5863,
 		"colours": {
 			"37396": 15,
 			"37406": 20,
@@ -943888,8 +943888,8 @@
 	},
 	{
 		"Members": true,
-		"baseModel": 71703,
-		"category": 2695,
+		"baseModel": 146891,
+		"category": 5863,
 		"colours": {
 			"37396": 21012,
 			"37406": 21022,
@@ -943925,8 +943925,8 @@
 	},
 	{
 		"Members": true,
-		"baseModel": 71703,
-		"category": 2695,
+		"baseModel": 146891,
+		"category": 5863,
 		"colours": {
 			"37396": 532,
 			"37406": 542,
@@ -943962,7 +943962,7 @@
 	},
 	{
 		"Members": true,
-		"baseModel": 71706,
+		"baseModel": 146884,
 		"extra": {
 			"nonbankable": 1, // 59 chisel:unbankable
 			"no_alchemy": 1 // 689 chisel:is_crystal_mattock
@@ -943991,7 +943991,7 @@
 	},
 	{
 		"Members": true,
-		"baseModel": 71706,
+		"baseModel": 146884,
 		"colours": {
 			"37396": 9748,
 			"37406": 9758,
@@ -944026,7 +944026,7 @@
 	},
 	{
 		"Members": true,
-		"baseModel": 71706,
+		"baseModel": 146884,
 		"colours": {
 			"37396": 15,
 			"37406": 20,
@@ -944061,7 +944061,7 @@
 	},
 	{
 		"Members": true,
-		"baseModel": 71706,
+		"baseModel": 146884,
 		"colours": {
 			"37396": 21012,
 			"37406": 21022,
@@ -944096,7 +944096,7 @@
 	},
 	{
 		"Members": true,
-		"baseModel": 71706,
+		"baseModel": 146884,
 		"colours": {
 			"37396": 532,
 			"37406": 542,
@@ -944131,7 +944131,7 @@
 	},
 	{
 		"ambiance": 30,
-		"baseModel": 71724,
+		"baseModel": 146898,
 		"dummyItem": 2,
 		"ground_actions_cursor": [
 			null,
@@ -944151,7 +944151,7 @@
 	},
 	{
 		"ambiance": 30,
-		"baseModel": 71722,
+		"baseModel": 146897,
 		"dummyItem": 2,
 		"ground_actions_cursor": [
 			null,
@@ -944248,15 +944248,15 @@
 		"zoom": 1940
 	},
 	{
-		"baseModel": 71666,
-		"category": 2697,
+		"baseModel": 146847,
+		"category": 5858,
 		"extra": {
 			"destroyondrop": 1, // 31 chisel:death_flag_2
 			"no_alchemy": 1, // 689 chisel:is_crystal_mattock
 			"protect_on_death": 1 // 1397 chisel:unknown_clue_scroll_boolean
 		},
 		"femaleModels": [
-			75112,
+			147003,
 			null,
 			null
 		],
@@ -944269,7 +944269,7 @@
 		],
 		"id": 24791,
 		"maleModels": [
-			73051,
+			146979,
 			null,
 			null
 		],
@@ -944307,15 +944307,15 @@
 		"zoom": 760
 	},
 	{
-		"baseModel": 71671,
-		"category": 2697,
+		"baseModel": 146848,
+		"category": 5858,
 		"extra": {
 			"destroyondrop": 1, // 31 chisel:death_flag_2
 			"no_alchemy": 1, // 689 chisel:is_crystal_mattock
 			"protect_on_death": 1 // 1397 chisel:unknown_clue_scroll_boolean
 		},
 		"femaleModels": [
-			75125,
+			147006,
 			null,
 			null
 		],
@@ -944328,7 +944328,7 @@
 		],
 		"id": 24792,
 		"maleModels": [
-			73080,
+			146982,
 			null,
 			null
 		],
@@ -944366,15 +944366,15 @@
 		"zoom": 352
 	},
 	{
-		"baseModel": 71662,
-		"category": 2697,
+		"baseModel": 146851,
+		"category": 5858,
 		"extra": {
 			"destroyondrop": 1, // 31 chisel:death_flag_2
 			"no_alchemy": 1, // 689 chisel:is_crystal_mattock
 			"protect_on_death": 1 // 1397 chisel:unknown_clue_scroll_boolean
 		},
 		"femaleModels": [
-			75167,
+			147015,
 			null,
 			null
 		],
@@ -944387,7 +944387,7 @@
 		],
 		"id": 24793,
 		"maleModels": [
-			73188,
+			146992,
 			null,
 			null
 		],
@@ -944425,15 +944425,15 @@
 		"zoom": 987
 	},
 	{
-		"baseModel": 71664,
-		"category": 2697,
+		"baseModel": 146850,
+		"category": 5858,
 		"extra": {
 			"destroyondrop": 1, // 31 chisel:death_flag_2
 			"no_alchemy": 1, // 689 chisel:is_crystal_mattock
 			"protect_on_death": 1 // 1397 chisel:unknown_clue_scroll_boolean
 		},
 		"femaleModels": [
-			75146,
+			147012,
 			null,
 			null
 		],
@@ -944446,7 +944446,7 @@
 		],
 		"id": 24794,
 		"maleModels": [
-			73133,
+			146988,
 			null,
 			null
 		],
@@ -944484,19 +944484,19 @@
 		"zoom": 1118
 	},
 	{
-		"baseModel": 71668,
-		"category": 2697,
+		"baseModel": 146849,
+		"category": 5858,
 		"extra": {
 			"destroyondrop": 1, // 31 chisel:death_flag_2
 			"no_alchemy": 1, // 689 chisel:is_crystal_mattock
 			"protect_on_death": 1 // 1397 chisel:unknown_clue_scroll_boolean
 		},
 		"femaleHeads": [
-			71647,
+			146820,
 			141083
 		],
 		"femaleModels": [
-			75136,
+			147009,
 			141082,
 			null
 		],
@@ -944509,11 +944509,11 @@
 		],
 		"id": 24795,
 		"maleHeads": [
-			71650,
+			146824,
 			141089
 		],
 		"maleModels": [
-			73110,
+			146985,
 			141088,
 			null
 		],
@@ -944547,15 +944547,15 @@
 		"zoom": 683
 	},
 	{
-		"baseModel": 71667,
-		"category": 2697,
+		"baseModel": 146857,
+		"category": 5858,
 		"extra": {
 			"destroyondrop": 1, // 31 chisel:death_flag_2
 			"no_alchemy": 1, // 689 chisel:is_crystal_mattock
 			"protect_on_death": 1 // 1397 chisel:unknown_clue_scroll_boolean
 		},
 		"femaleModels": [
-			75114,
+			147005,
 			null,
 			null
 		],
@@ -944568,7 +944568,7 @@
 		],
 		"id": 24796,
 		"maleModels": [
-			73052,
+			146981,
 			null,
 			null
 		],
@@ -944606,15 +944606,15 @@
 		"zoom": 760
 	},
 	{
-		"baseModel": 71670,
-		"category": 2697,
+		"baseModel": 146858,
+		"category": 5858,
 		"extra": {
 			"destroyondrop": 1, // 31 chisel:death_flag_2
 			"no_alchemy": 1, // 689 chisel:is_crystal_mattock
 			"protect_on_death": 1 // 1397 chisel:unknown_clue_scroll_boolean
 		},
 		"femaleModels": [
-			75124,
+			147008,
 			null,
 			null
 		],
@@ -944627,7 +944627,7 @@
 		],
 		"id": 24797,
 		"maleModels": [
-			73079,
+			146984,
 			null,
 			null
 		],
@@ -944665,15 +944665,15 @@
 		"zoom": 352
 	},
 	{
-		"baseModel": 71669,
-		"category": 2697,
+		"baseModel": 146861,
+		"category": 5858,
 		"extra": {
 			"destroyondrop": 1, // 31 chisel:death_flag_2
 			"no_alchemy": 1, // 689 chisel:is_crystal_mattock
 			"protect_on_death": 1 // 1397 chisel:unknown_clue_scroll_boolean
 		},
 		"femaleModels": [
-			75165,
+			147017,
 			null,
 			null
 		],
@@ -944686,7 +944686,7 @@
 		],
 		"id": 24798,
 		"maleModels": [
-			73187,
+			146994,
 			null,
 			null
 		],
@@ -944724,15 +944724,15 @@
 		"zoom": 987
 	},
 	{
-		"baseModel": 71663,
-		"category": 2697,
+		"baseModel": 146860,
+		"category": 5858,
 		"extra": {
 			"destroyondrop": 1, // 31 chisel:death_flag_2
 			"no_alchemy": 1, // 689 chisel:is_crystal_mattock
 			"protect_on_death": 1 // 1397 chisel:unknown_clue_scroll_boolean
 		},
 		"femaleModels": [
-			75147,
+			147014,
 			null,
 			null
 		],
@@ -944745,7 +944745,7 @@
 		],
 		"id": 24799,
 		"maleModels": [
-			73134,
+			146990,
 			null,
 			null
 		],
@@ -944783,19 +944783,19 @@
 		"zoom": 1118
 	},
 	{
-		"baseModel": 71661,
-		"category": 2697,
+		"baseModel": 146859,
+		"category": 5858,
 		"extra": {
 			"destroyondrop": 1, // 31 chisel:death_flag_2
 			"no_alchemy": 1, // 689 chisel:is_crystal_mattock
 			"protect_on_death": 1 // 1397 chisel:unknown_clue_scroll_boolean
 		},
 		"femaleHeads": [
-			71646,
+			146822,
 			null
 		],
 		"femaleModels": [
-			75137,
+			147011,
 			null,
 			null
 		],
@@ -944808,11 +944808,11 @@
 		],
 		"id": 24800,
 		"maleHeads": [
-			71651,
+			146827,
 			null
 		],
 		"maleModels": [
-			73109,
+			146987,
 			null,
 			null
 		],
@@ -944847,15 +944847,15 @@
 	},
 	{
 		"Members": true,
-		"baseModel": 71675,
-		"category": 2697,
+		"baseModel": 146852,
+		"category": 5858,
 		"extra": {
 			"destroyondrop": 1, // 31 chisel:death_flag_2
 			"no_alchemy": 1, // 689 chisel:is_crystal_mattock
 			"protect_on_death": 1 // 1397 chisel:unknown_clue_scroll_boolean
 		},
 		"femaleModels": [
-			75113,
+			147004,
 			null,
 			null
 		],
@@ -944868,7 +944868,7 @@
 		],
 		"id": 24801,
 		"maleModels": [
-			73053,
+			146980,
 			null,
 			null
 		],
@@ -944907,15 +944907,15 @@
 	},
 	{
 		"Members": true,
-		"baseModel": 71665,
-		"category": 2697,
+		"baseModel": 146853,
+		"category": 5858,
 		"extra": {
 			"destroyondrop": 1, // 31 chisel:death_flag_2
 			"no_alchemy": 1, // 689 chisel:is_crystal_mattock
 			"protect_on_death": 1 // 1397 chisel:unknown_clue_scroll_boolean
 		},
 		"femaleModels": [
-			75126,
+			147007,
 			null,
 			null
 		],
@@ -944928,7 +944928,7 @@
 		],
 		"id": 24802,
 		"maleModels": [
-			73078,
+			146983,
 			null,
 			null
 		],
@@ -944967,15 +944967,15 @@
 	},
 	{
 		"Members": true,
-		"baseModel": 71674,
-		"category": 2697,
+		"baseModel": 146856,
+		"category": 5858,
 		"extra": {
 			"destroyondrop": 1, // 31 chisel:death_flag_2
 			"no_alchemy": 1, // 689 chisel:is_crystal_mattock
 			"protect_on_death": 1 // 1397 chisel:unknown_clue_scroll_boolean
 		},
 		"femaleModels": [
-			75166,
+			147016,
 			null,
 			null
 		],
@@ -944988,7 +944988,7 @@
 		],
 		"id": 24803,
 		"maleModels": [
-			73189,
+			146993,
 			null,
 			null
 		],
@@ -945027,15 +945027,15 @@
 	},
 	{
 		"Members": true,
-		"baseModel": 71672,
-		"category": 2697,
+		"baseModel": 146855,
+		"category": 5858,
 		"extra": {
 			"destroyondrop": 1, // 31 chisel:death_flag_2
 			"no_alchemy": 1, // 689 chisel:is_crystal_mattock
 			"protect_on_death": 1 // 1397 chisel:unknown_clue_scroll_boolean
 		},
 		"femaleModels": [
-			75145,
+			147013,
 			null,
 			null
 		],
@@ -945048,7 +945048,7 @@
 		],
 		"id": 24804,
 		"maleModels": [
-			73135,
+			146989,
 			null,
 			null
 		],
@@ -945087,19 +945087,19 @@
 	},
 	{
 		"Members": true,
-		"baseModel": 71673,
-		"category": 2697,
+		"baseModel": 146854,
+		"category": 5858,
 		"extra": {
 			"destroyondrop": 1, // 31 chisel:death_flag_2
 			"no_alchemy": 1, // 689 chisel:is_crystal_mattock
 			"protect_on_death": 1 // 1397 chisel:unknown_clue_scroll_boolean
 		},
 		"femaleHeads": [
-			71648,
+			146821,
 			141083
 		],
 		"femaleModels": [
-			75135,
+			147010,
 			141082,
 			null
 		],
@@ -945112,11 +945112,11 @@
 		],
 		"id": 24805,
 		"maleHeads": [
-			71649,
+			146825,
 			141089
 		],
 		"maleModels": [
-			73111,
+			146986,
 			141088,
 			null
 		],
@@ -1082196,10 +1082196,10 @@
 		"zoom": 946
 	},
 	{
-		"baseModel": 86883,
+		"baseModel": 147001,
 		"dummyItem": 2,
 		"femaleModels": [
-			86883,
+			147001,
 			null,
 			null
 		],
@@ -1082212,7 +1082212,7 @@
 		],
 		"id": 28576,
 		"maleModels": [
-			86883,
+			147001,
 			null,
 			null
 		],
@@ -1556368,7 +1556368,7 @@
 	},
 	{
 		"Members": true,
-		"baseModel": 71706,
+		"baseModel": 146884,
 		"colours": {
 			"37396": 21012,
 			"37406": 21022,
@@ -1945669,7 +1945669,7 @@
 		"zoom": 2500
 	},
 	{
-		"baseModel": 71706,
+		"baseModel": 146884,
 		"colours": {
 			"37396": 9748,
 			"37406": 9758,
@@ -2416509,7 +2416509,7 @@
 	},
 	{
 		"Members": true,
-		"baseModel": 71720,
+		"baseModel": 146885,
 		"category": 5582,
 		"extra": {
 			"destroyondrop": 1, // 31 chisel:death_flag_2
@@ -2581725,6 +2581725,7 @@
 			4
 		],
 		"name": "Reap 'n' Creep stew",
+		"notTradeable": true,
 		"rotation": [
 			null,
 			156,
@@ -2591360,5 +2591361,1917 @@
 			null
 		],
 		"zoom": 933
+	},
+	{
+		"baseModel": 146744,
+		"dummyItem": 2,
+		"extra": {
+			"baseanimset": 1381 // 644 chisel:unknown_wield_animation_id
+		},
+		"femaleModels": [
+			146744,
+			null,
+			null
+		],
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64203,
+		"maleModels": [
+			146744,
+			null,
+			null
+		],
+		"modelTranslate": [
+			3,
+			null
+		],
+		"rotation": [
+			null,
+			1562,
+			1778
+		],
+		"stackableSometimes": true,
+		"zoom": 1513
+	},
+	{
+		"baseModel": 146780,
+		"category": 5856,
+		"extra": {
+			"mtxmgt_category": 2, // 2531 chisel:solomons_category
+			"mtxmgt_item_struct": 53565 // 4414 chisel:outfit_info_vbId
+		},
+		"femaleHeads": [
+			146765,
+			141083
+		],
+		"femaleModels": [
+			146764,
+			141082,
+			null
+		],
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64204,
+		"maleHeads": [
+			146781,
+			141089
+		],
+		"maleModels": [
+			146780,
+			141088,
+			null
+		],
+		"name": "Death Seeker Hood",
+		"notTradeable": true,
+		"stackableSometimes": true,
+		"wearPos": [
+			0,
+			8,
+			null
+		]
+	},
+	{
+		"baseModel": 146788,
+		"category": 5856,
+		"extra": {
+			"mtxmgt_category": 2, // 2531 chisel:solomons_category
+			"mtxmgt_item_struct": 53566 // 4414 chisel:outfit_info_vbId
+		},
+		"femaleModels": [
+			146772,
+			146773,
+			null
+		],
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64205,
+		"maleModels": [
+			146788,
+			146789,
+			null
+		],
+		"name": "Death Seeker Top",
+		"notTradeable": true,
+		"stackableSometimes": true,
+		"wearPos": [
+			4,
+			6,
+			null
+		]
+	},
+	{
+		"baseModel": 146784,
+		"category": 5856,
+		"extra": {
+			"mtxmgt_category": 2, // 2531 chisel:solomons_category
+			"mtxmgt_item_struct": 53567 // 4414 chisel:outfit_info_vbId
+		},
+		"femaleModels": [
+			146768,
+			146769,
+			null
+		],
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64206,
+		"maleModels": [
+			146784,
+			146785,
+			null
+		],
+		"name": "Death Seeker Trousers",
+		"notTradeable": true,
+		"stackableSometimes": true,
+		"wearPos": [
+			7,
+			null,
+			null
+		]
+	},
+	{
+		"baseModel": 146779,
+		"category": 5856,
+		"extra": {
+			"mtxmgt_category": 2, // 2531 chisel:solomons_category
+			"mtxmgt_item_struct": 53568 // 4414 chisel:outfit_info_vbId
+		},
+		"femaleModels": [
+			146779,
+			146809,
+			null
+		],
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64207,
+		"maleModels": [
+			146779,
+			146809,
+			null
+		],
+		"name": "Death Seeker Gloves",
+		"notTradeable": true,
+		"stackableSometimes": true,
+		"wearPos": [
+			9,
+			null,
+			null
+		]
+	},
+	{
+		"baseModel": 146776,
+		"category": 5856,
+		"extra": {
+			"mtxmgt_category": 2, // 2531 chisel:solomons_category
+			"mtxmgt_item_struct": 53569 // 4414 chisel:outfit_info_vbId
+		},
+		"femaleModels": [
+			146776,
+			null,
+			null
+		],
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64208,
+		"maleModels": [
+			146776,
+			null,
+			null
+		],
+		"name": "Death Seeker Boots",
+		"notTradeable": true,
+		"stackableSometimes": true,
+		"wearPos": [
+			10,
+			null,
+			null
+		]
+	},
+	{
+		"baseModel": 146780,
+		"category": 5856,
+		"extra": {
+			"mtxmgt_category": 2, // 2531 chisel:solomons_category
+			"mtxmgt_item_struct": 53571 // 4414 chisel:outfit_info_vbId
+		},
+		"femaleHeads": [
+			146765,
+			141083
+		],
+		"femaleModels": [
+			146764,
+			141082,
+			null
+		],
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64209,
+		"maleHeads": [
+			146781,
+			141089
+		],
+		"maleModels": [
+			146780,
+			141088,
+			null
+		],
+		"name": "Death Bringer Hood",
+		"notTradeable": true,
+		"stackableSometimes": true,
+		"textures": {
+			"25313": 25314
+		},
+		"wearPos": [
+			0,
+			8,
+			null
+		]
+	},
+	{
+		"baseModel": 146788,
+		"category": 5856,
+		"extra": {
+			"mtxmgt_category": 2, // 2531 chisel:solomons_category
+			"mtxmgt_item_struct": 53572 // 4414 chisel:outfit_info_vbId
+		},
+		"femaleModels": [
+			146772,
+			146773,
+			146774
+		],
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64210,
+		"maleModels": [
+			146788,
+			146789,
+			146790
+		],
+		"name": "Death Bringer Top",
+		"notTradeable": true,
+		"stackableSometimes": true,
+		"textures": {
+			"25321": 25322
+		},
+		"wearPos": [
+			4,
+			6,
+			null
+		]
+	},
+	{
+		"baseModel": 146784,
+		"category": 5856,
+		"extra": {
+			"mtxmgt_category": 2, // 2531 chisel:solomons_category
+			"mtxmgt_item_struct": 53573 // 4414 chisel:outfit_info_vbId
+		},
+		"femaleModels": [
+			146768,
+			146770,
+			null
+		],
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64211,
+		"maleModels": [
+			146784,
+			146786,
+			null
+		],
+		"name": "Death Bringer Trousers",
+		"notTradeable": true,
+		"stackableSometimes": true,
+		"textures": {
+			"25316": 25317
+		},
+		"wearPos": [
+			7,
+			null,
+			null
+		]
+	},
+	{
+		"baseModel": 146779,
+		"category": 5856,
+		"extra": {
+			"mtxmgt_category": 2, // 2531 chisel:solomons_category
+			"mtxmgt_item_struct": 53574 // 4414 chisel:outfit_info_vbId
+		},
+		"femaleModels": [
+			146779,
+			146809,
+			null
+		],
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64212,
+		"maleModels": [
+			146779,
+			146809,
+			null
+		],
+		"name": "Death Bringer Gloves",
+		"notTradeable": true,
+		"stackableSometimes": true,
+		"textures": {
+			"25306": 25308,
+			"25307": 25311
+		},
+		"wearPos": [
+			9,
+			null,
+			null
+		]
+	},
+	{
+		"baseModel": 146776,
+		"category": 5856,
+		"extra": {
+			"mtxmgt_category": 2, // 2531 chisel:solomons_category
+			"mtxmgt_item_struct": 53575 // 4414 chisel:outfit_info_vbId
+		},
+		"femaleModels": [
+			146776,
+			146777,
+			null
+		],
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64213,
+		"maleModels": [
+			146776,
+			146777,
+			null
+		],
+		"name": "Death Bringer Boots",
+		"notTradeable": true,
+		"stackableSometimes": true,
+		"textures": {
+			"25301": 25302
+		},
+		"wearPos": [
+			10,
+			null,
+			null
+		]
+	},
+	{
+		"baseModel": 146780,
+		"colours": {
+			"41115": 41096
+		},
+		"extra": {
+			"mtxmgt_category": 2, // 2531 chisel:solomons_category
+			"mtxmgt_item_struct": 53577 // 4414 chisel:outfit_info_vbId
+		},
+		"femaleHeads": [
+			146767,
+			141083
+		],
+		"femaleModels": [
+			146764,
+			141082,
+			146766
+		],
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64214,
+		"maleHeads": [
+			146783,
+			141089
+		],
+		"maleModels": [
+			146780,
+			141088,
+			146782
+		],
+		"name": "Death Reaper Hood",
+		"notTradeable": true,
+		"stackableSometimes": true,
+		"textures": {
+			"25313": 25315
+		},
+		"wearPos": [
+			0,
+			8,
+			null
+		]
+	},
+	{
+		"baseModel": 146788,
+		"colours": {
+			"41115": 41096
+		},
+		"extra": {
+			"mtxmgt_category": 2, // 2531 chisel:solomons_category
+			"mtxmgt_item_struct": 53578 // 4414 chisel:outfit_info_vbId
+		},
+		"femaleModels": [
+			146772,
+			146775,
+			146808
+		],
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64215,
+		"maleModels": [
+			146788,
+			146791,
+			146811
+		],
+		"name": "Death Reaper Top",
+		"notTradeable": true,
+		"stackableSometimes": true,
+		"textures": {
+			"25321": 25323
+		},
+		"wearPos": [
+			4,
+			6,
+			null
+		]
+	},
+	{
+		"baseModel": 146784,
+		"colours": {
+			"41115": 41096
+		},
+		"extra": {
+			"mtxmgt_category": 2, // 2531 chisel:solomons_category
+			"mtxmgt_item_struct": 53579 // 4414 chisel:outfit_info_vbId
+		},
+		"femaleModels": [
+			146768,
+			146771,
+			146807
+		],
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64216,
+		"maleModels": [
+			146784,
+			146787,
+			146810
+		],
+		"name": "Death Reaper Trousers",
+		"notTradeable": true,
+		"stackableSometimes": true,
+		"textures": {
+			"25316": 25318
+		},
+		"wearPos": [
+			7,
+			null,
+			null
+		]
+	},
+	{
+		"baseModel": 146779,
+		"extra": {
+			"mtxmgt_category": 2, // 2531 chisel:solomons_category
+			"mtxmgt_item_struct": 53580 // 4414 chisel:outfit_info_vbId
+		},
+		"femaleModels": [
+			146779,
+			146809,
+			null
+		],
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64217,
+		"maleModels": [
+			146779,
+			146809,
+			null
+		],
+		"name": "Death Reaper Gloves",
+		"notTradeable": true,
+		"stackableSometimes": true,
+		"textures": {
+			"25306": 25310,
+			"25307": 25311
+		},
+		"wearPos": [
+			9,
+			null,
+			null
+		]
+	},
+	{
+		"baseModel": 126236,
+		"extra": {
+			"mtxmgt_category": 2, // 2531 chisel:solomons_category
+			"mtxmgt_item_struct": 53581 // 4414 chisel:outfit_info_vbId
+		},
+		"femaleModels": [
+			146776,
+			146778,
+			null
+		],
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64218,
+		"maleModels": [
+			146776,
+			146778,
+			null
+		],
+		"name": "Death Reaper Boots",
+		"notTradeable": true,
+		"stackableSometimes": true,
+		"textures": {
+			"25301": 25304
+		},
+		"wearPos": [
+			10,
+			null,
+			null
+		]
+	},
+	{
+		"baseModel": 2511,
+		"extra": {
+			"weapon_category": 14932, // 686 chisel:unknown_item_reference
+			"no_alchemy": 1, // 689 chisel:is_crystal_mattock
+			"mtxmgt_category": 2, // 2531 chisel:solomons_category
+			"combatv2_sheath_model": 146793, // 2820 chisel:sheathed_weapon_model
+			"mtxmgt_item_struct": 53582 // 4414 chisel:outfit_info_vbId
+		},
+		"femaleModels": [
+			146792,
+			null,
+			null
+		],
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64219,
+		"maleModels": [
+			146792,
+			null,
+			null
+		],
+		"modelTranslate": [
+			1,
+			17
+		],
+		"name": "Death Seeker Scythe",
+		"notTradeable": true,
+		"rotation": [
+			null,
+			336,
+			20
+		],
+		"stackableSometimes": true,
+		"value": 10,
+		"wearPos": [
+			3,
+			5,
+			null
+		],
+		"widget_actions": [
+			null,
+			"Wear",
+			null,
+			null,
+			null
+		],
+		"widget_actions_cursor": [
+			null,
+			51,
+			null,
+			null,
+			null
+		],
+		"zoom": 1930
+	},
+	{
+		"baseModel": 2511,
+		"extra": {
+			"weapon_category": 14932, // 686 chisel:unknown_item_reference
+			"no_alchemy": 1, // 689 chisel:is_crystal_mattock
+			"mtxmgt_category": 2, // 2531 chisel:solomons_category
+			"combatv2_sheath_model": 146795, // 2820 chisel:sheathed_weapon_model
+			"mtxmgt_item_struct": 53583 // 4414 chisel:outfit_info_vbId
+		},
+		"femaleModels": [
+			146794,
+			null,
+			null
+		],
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64220,
+		"maleModels": [
+			146794,
+			null,
+			null
+		],
+		"modelTranslate": [
+			1,
+			17
+		],
+		"name": "Death Bringer Scythe",
+		"notTradeable": true,
+		"rotation": [
+			null,
+			336,
+			20
+		],
+		"stackableSometimes": true,
+		"value": 10,
+		"wearPos": [
+			3,
+			5,
+			null
+		],
+		"widget_actions": [
+			null,
+			"Wear",
+			null,
+			null,
+			null
+		],
+		"widget_actions_cursor": [
+			null,
+			51,
+			null,
+			null,
+			null
+		],
+		"zoom": 1930
+	},
+	{
+		"baseModel": 2511,
+		"extra": {
+			"weapon_category": 14932, // 686 chisel:unknown_item_reference
+			"no_alchemy": 1, // 689 chisel:is_crystal_mattock
+			"mtxmgt_category": 2, // 2531 chisel:solomons_category
+			"combatv2_sheath_model": 146797, // 2820 chisel:sheathed_weapon_model
+			"mtxmgt_item_struct": 53584 // 4414 chisel:outfit_info_vbId
+		},
+		"femaleModels": [
+			146796,
+			146806,
+			null
+		],
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64221,
+		"maleModels": [
+			146796,
+			146806,
+			null
+		],
+		"modelTranslate": [
+			1,
+			17
+		],
+		"name": "Death Repease Scythe",
+		"notTradeable": true,
+		"rotation": [
+			null,
+			336,
+			20
+		],
+		"stackableSometimes": true,
+		"value": 10,
+		"wearPos": [
+			3,
+			5,
+			null
+		],
+		"widget_actions": [
+			null,
+			"Wear",
+			null,
+			null,
+			null
+		],
+		"widget_actions_cursor": [
+			null,
+			51,
+			null,
+			null,
+			null
+		],
+		"zoom": 1930
+	},
+	{
+		"baseModel": 146746,
+		"category": 2840,
+		"extra": {
+			"follower_npc": 32247, // 74 chisel:follower_id
+			"mtxmgt_pet_companion": 1, // 5049 chisel:sgs_is_companion_pet
+			"mtxmgt_pet_struct": 44128 // 5051 chisel:pet_varbit_reference
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64222,
+		"modelTranslate": [
+			65531,
+			15
+		],
+		"name": "Ed 'less",
+		"notTradeable": true,
+		"rotation": [
+			null,
+			635,
+			27
+		],
+		"stackableSometimes": true,
+		"zoom": 2867
+	},
+	{
+		"baseModel": 146746,
+		"category": 2841,
+		"extra": {
+			"follower_npc": 32247, // 74 chisel:follower_id
+			"mtxmgt_pet_companion": 1, // 5049 chisel:sgs_is_companion_pet
+			"mtxmgt_pet_struct": 44128 // 5051 chisel:pet_varbit_reference
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64223,
+		"modelTranslate": [
+			65531,
+			15
+		],
+		"name": "Ed 'less",
+		"notTradeable": true,
+		"rotation": [
+			null,
+			635,
+			27
+		],
+		"stackableSometimes": true,
+		"zoom": 2867
+	},
+	{
+		"baseModel": 146760,
+		"extra": {
+			"chathat": 1, // 624 chisel:unknown_hat_bool
+			"no_alchemy": 1, // 689 chisel:is_crystal_mattock
+			"mtxmgt_category": 2, // 2531 chisel:solomons_category
+			"mtxmgt_item_struct": 53595 // 4414 chisel:outfit_info_vbId
+		},
+		"femaleHeads": [
+			146758,
+			null
+		],
+		"femaleModels": [
+			146760,
+			null,
+			null
+		],
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64224,
+		"maleHeads": [
+			146759,
+			null
+		],
+		"maleModels": [
+			146761,
+			null,
+			null
+		],
+		"modelTranslate": [
+			1,
+			86
+		],
+		"name": "Ravenwing Witch Hat",
+		"notTradeable": true,
+		"stackableSometimes": true,
+		"wearPos": [
+			0,
+			null,
+			null
+		],
+		"widget_actions": [
+			null,
+			"Wear",
+			null,
+			null,
+			null
+		],
+		"widget_actions_cursor": [
+			null,
+			51,
+			null,
+			null,
+			null
+		],
+		"zoom": 800
+	},
+	{
+		"baseModel": 146753,
+		"extra": {
+			"chathat": 1, // 624 chisel:unknown_hat_bool
+			"no_alchemy": 1, // 689 chisel:is_crystal_mattock
+			"mtxmgt_category": 2, // 2531 chisel:solomons_category
+			"mtxmgt_item_struct": 53596 // 4414 chisel:outfit_info_vbId
+		},
+		"femaleHeads": [
+			146751,
+			null
+		],
+		"femaleModels": [
+			146753,
+			null,
+			null
+		],
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64225,
+		"maleHeads": [
+			146752,
+			null
+		],
+		"maleModels": [
+			146754,
+			null,
+			null
+		],
+		"modelTranslate": [
+			1,
+			86
+		],
+		"name": "Graveglow Witch Hat",
+		"notTradeable": true,
+		"stackableSometimes": true,
+		"wearPos": [
+			0,
+			null,
+			null
+		],
+		"widget_actions": [
+			null,
+			"Wear",
+			null,
+			null,
+			null
+		],
+		"widget_actions_cursor": [
+			null,
+			51,
+			null,
+			null,
+			null
+		],
+		"zoom": 800
+	},
+	{
+		"baseModel": 2648,
+		"extra": {
+			"weapon_category": 14937, // 686 chisel:unknown_item_reference
+			"no_alchemy": 1, // 689 chisel:is_crystal_mattock
+			"mtxmgt_category": 2, // 2531 chisel:solomons_category
+			"combatv2_sheath_model": 146763, // 2820 chisel:sheathed_weapon_model
+			"mtxmgt_item_struct": 53597 // 4414 chisel:outfit_info_vbId
+		},
+		"femaleModels": [
+			146762,
+			null,
+			null
+		],
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64226,
+		"maleModels": [
+			146762,
+			null,
+			null
+		],
+		"modelTranslate": [
+			65531,
+			2
+		],
+		"name": "Ravenwing Witch Broom",
+		"notTradeable": true,
+		"rotation": [
+			null,
+			148,
+			1400
+		],
+		"stackableSometimes": true,
+		"wearPos": [
+			3,
+			5,
+			null
+		],
+		"widget_actions": [
+			null,
+			"Wear",
+			null,
+			null,
+			null
+		],
+		"widget_actions_cursor": [
+			null,
+			51,
+			null,
+			null,
+			null
+		],
+		"zoom": 1490
+	},
+	{
+		"baseModel": 2648,
+		"extra": {
+			"weapon_category": 14937, // 686 chisel:unknown_item_reference
+			"no_alchemy": 1, // 689 chisel:is_crystal_mattock
+			"mtxmgt_category": 2, // 2531 chisel:solomons_category
+			"combatv2_sheath_model": 146756, // 2820 chisel:sheathed_weapon_model
+			"mtxmgt_item_struct": 53598 // 4414 chisel:outfit_info_vbId
+		},
+		"femaleModels": [
+			146755,
+			null,
+			null
+		],
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64227,
+		"maleModels": [
+			146755,
+			null,
+			null
+		],
+		"modelTranslate": [
+			65531,
+			2
+		],
+		"name": "Graveglow Witch Broom",
+		"notTradeable": true,
+		"rotation": [
+			null,
+			148,
+			1400
+		],
+		"stackableSometimes": true,
+		"wearPos": [
+			3,
+			5,
+			null
+		],
+		"widget_actions": [
+			null,
+			"Wear",
+			null,
+			null,
+			null
+		],
+		"widget_actions_cursor": [
+			null,
+			51,
+			null,
+			null,
+			null
+		],
+		"zoom": 1490
+	},
+	{
+		"baseModel": 146757,
+		"extra": {
+			"destroyondrop": 1, // 31 chisel:death_flag_2
+			"baseanimset": 4743, // 644 chisel:unknown_wield_animation_id
+			"weapon_category": 14921, // 686 chisel:unknown_item_reference
+			"no_alchemy": 1, // 689 chisel:is_crystal_mattock
+			"protect_on_death": 2, // 1397 chisel:unknown_clue_scroll_boolean
+			"combatv2_item_prevents_you_attacking": 1, // 2804
+			"combatv2_casual_bas": 4743, // 2954
+			"combatv2_combat_bas": 4743, // 2955
+			"mtxmgt_no_override": 1, // 3332
+			"combatv2_casual_bas_legacy": 4743, // 4383
+			"destroyondrop_mes": "You can reclaim it from Diango in Draynor or via the bank interface.", // 5417 chisel:destroy_msg
+			"original_release_date": 9000, // 6628
+			"mtx_positional_data": 6536 // 8680
+		},
+		"femaleModels": [
+			146757,
+			null,
+			null
+		],
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64228,
+		"maleModels": [
+			146757,
+			null,
+			null
+		],
+		"modelTranslate": [
+			3,
+			30
+		],
+		"name": "Ravenwing Witch Basket",
+		"notTradeable": true,
+		"rotation": [
+			null,
+			null,
+			239
+		],
+		"stackableSometimes": true,
+		"wearPos": [
+			3,
+			5,
+			null
+		],
+		"widget_actions": [
+			null,
+			"Wear",
+			null,
+			null,
+			"Destroy"
+		],
+		"widget_actions_cursor": [
+			null,
+			51,
+			null,
+			null,
+			null
+		],
+		"zoom": 933
+	},
+	{
+		"baseModel": 146750,
+		"extra": {
+			"destroyondrop": 1, // 31 chisel:death_flag_2
+			"baseanimset": 4743, // 644 chisel:unknown_wield_animation_id
+			"weapon_category": 14921, // 686 chisel:unknown_item_reference
+			"no_alchemy": 1, // 689 chisel:is_crystal_mattock
+			"protect_on_death": 2, // 1397 chisel:unknown_clue_scroll_boolean
+			"combatv2_item_prevents_you_attacking": 1, // 2804
+			"combatv2_casual_bas": 4743, // 2954
+			"combatv2_combat_bas": 4743, // 2955
+			"mtxmgt_no_override": 1, // 3332
+			"combatv2_casual_bas_legacy": 4743, // 4383
+			"destroyondrop_mes": "You can reclaim it from Diango in Draynor or via the bank interface.", // 5417 chisel:destroy_msg
+			"original_release_date": 9000, // 6628
+			"mtx_positional_data": 6536 // 8680
+		},
+		"femaleModels": [
+			146750,
+			null,
+			null
+		],
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64229,
+		"maleModels": [
+			146750,
+			null,
+			null
+		],
+		"modelTranslate": [
+			3,
+			30
+		],
+		"name": "Graveglow Witch Basket",
+		"notTradeable": true,
+		"rotation": [
+			null,
+			null,
+			239
+		],
+		"stackableSometimes": true,
+		"textures": {
+			"25295": 25296
+		},
+		"wearPos": [
+			3,
+			5,
+			null
+		],
+		"widget_actions": [
+			null,
+			"Wear",
+			null,
+			null,
+			"Destroy"
+		],
+		"widget_actions_cursor": [
+			null,
+			51,
+			null,
+			null,
+			null
+		],
+		"zoom": 933
+	},
+	{
+		"baseModel": 146738,
+		"category": 2840,
+		"extra": {
+			"follower_npc": 32966, // 74 chisel:follower_id
+			"mtxmgt_pet_companion": 1, // 5049 chisel:sgs_is_companion_pet
+			"mtxmgt_pet_struct": 53585 // 5051 chisel:pet_varbit_reference
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64230,
+		"modelTranslate": [
+			69,
+			58
+		],
+		"name": "Death Seeker Steed",
+		"notTradeable": true,
+		"rotation": [
+			null,
+			416,
+			20
+		],
+		"stackableSometimes": true,
+		"zoom": 2288
+	},
+	{
+		"baseModel": 146738,
+		"category": 2841,
+		"extra": {
+			"follower_npc": 32966, // 74 chisel:follower_id
+			"mtxmgt_pet_companion": 1, // 5049 chisel:sgs_is_companion_pet
+			"mtxmgt_pet_struct": 53585 // 5051 chisel:pet_varbit_reference
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64231,
+		"modelTranslate": [
+			69,
+			58
+		],
+		"name": "Death Seeker Steed",
+		"notTradeable": true,
+		"rotation": [
+			null,
+			416,
+			20
+		],
+		"stackableSometimes": true,
+		"zoom": 2288
+	},
+	{
+		"baseModel": 146739,
+		"category": 2840,
+		"extra": {
+			"follower_npc": 32968, // 74 chisel:follower_id
+			"mtxmgt_pet_companion": 1, // 5049 chisel:sgs_is_companion_pet
+			"mtxmgt_pet_struct": 53589 // 5051 chisel:pet_varbit_reference
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64232,
+		"modelTranslate": [
+			69,
+			58
+		],
+		"name": "Death Bringer Steed",
+		"notTradeable": true,
+		"rotation": [
+			null,
+			416,
+			20
+		],
+		"stackableSometimes": true,
+		"zoom": 2288
+	},
+	{
+		"baseModel": 146739,
+		"category": 2841,
+		"extra": {
+			"follower_npc": 32968, // 74 chisel:follower_id
+			"mtxmgt_pet_companion": 1, // 5049 chisel:sgs_is_companion_pet
+			"mtxmgt_pet_struct": 53589 // 5051 chisel:pet_varbit_reference
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64233,
+		"modelTranslate": [
+			69,
+			58
+		],
+		"name": "Death Bringer Steed",
+		"notTradeable": true,
+		"rotation": [
+			null,
+			416,
+			20
+		],
+		"stackableSometimes": true,
+		"zoom": 2288
+	},
+	{
+		"baseModel": 146740,
+		"category": 2840,
+		"extra": {
+			"follower_npc": 32970, // 74 chisel:follower_id
+			"mtxmgt_pet_companion": 1, // 5049 chisel:sgs_is_companion_pet
+			"mtxmgt_pet_struct": 53592 // 5051 chisel:pet_varbit_reference
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64234,
+		"modelTranslate": [
+			69,
+			58
+		],
+		"name": "Death Reaper Steed",
+		"notTradeable": true,
+		"rotation": [
+			null,
+			416,
+			20
+		],
+		"stackableSometimes": true,
+		"zoom": 2288
+	},
+	{
+		"baseModel": 146740,
+		"category": 2841,
+		"extra": {
+			"follower_npc": 32970, // 74 chisel:follower_id
+			"mtxmgt_pet_companion": 1, // 5049 chisel:sgs_is_companion_pet
+			"mtxmgt_pet_struct": 53592 // 5051 chisel:pet_varbit_reference
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64235,
+		"modelTranslate": [
+			69,
+			58
+		],
+		"name": "Death Reaper Steed",
+		"notTradeable": true,
+		"rotation": [
+			null,
+			416,
+			20
+		],
+		"stackableSometimes": true,
+		"zoom": 2288
+	},
+	{
+		"baseModel": 121926,
+		"category": 3457,
+		"extra": {
+			"mtxmgt_item_struct": 53601 // 4414 chisel:outfit_info_vbId
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64236,
+		"name": "Deathbringer Mega Bundle",
+		"notTradeable": true,
+		"stackableSometimes": true
+	},
+	{
+		"baseModel": 0,
+		"bindLink": 64236,
+		"bindTemplate": 20930,
+		"id": 64237,
+		"stackableSometimes": true
+	},
+	{
+		"baseModel": 121926,
+		"category": 3457,
+		"extra": {
+			"mtxmgt_item_struct": 53602 // 4414 chisel:outfit_info_vbId
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64238,
+		"name": "Witch Bundle 1",
+		"notTradeable": true,
+		"stackableSometimes": true
+	},
+	{
+		"baseModel": 0,
+		"bindLink": 64238,
+		"bindTemplate": 20930,
+		"id": 64239,
+		"stackableSometimes": true
+	},
+	{
+		"baseModel": 121926,
+		"category": 3457,
+		"extra": {
+			"mtxmgt_item_struct": 53603 // 4414 chisel:outfit_info_vbId
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64240,
+		"name": "Witch Bundle 2",
+		"notTradeable": true,
+		"stackableSometimes": true
+	},
+	{
+		"baseModel": 0,
+		"bindLink": 64240,
+		"bindTemplate": 20930,
+		"id": 64241,
+		"stackableSometimes": true
+	},
+	{
+		"baseModel": 121926,
+		"category": 3457,
+		"extra": {
+			"mtxmgt_item_struct": 53604 // 4414 chisel:outfit_info_vbId
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64242,
+		"name": "Witch Mega Bundle",
+		"notTradeable": true,
+		"stackableSometimes": true
+	},
+	{
+		"baseModel": 0,
+		"bindLink": 64242,
+		"bindTemplate": 20930,
+		"id": 64243,
+		"stackableSometimes": true
+	},
+	{
+		"baseModel": 121926,
+		"category": 3457,
+		"extra": {
+			"mtxmgt_item_struct": 53564 // 4414 chisel:outfit_info_vbId
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64244,
+		"name": "Deathbringer Outfit (T1)",
+		"notTradeable": true,
+		"stackableSometimes": true
+	},
+	{
+		"baseModel": 0,
+		"bindLink": 64244,
+		"bindTemplate": 20930,
+		"id": 64245,
+		"stackableSometimes": true
+	},
+	{
+		"baseModel": 121926,
+		"category": 3457,
+		"extra": {
+			"mtxmgt_item_struct": 53582 // 4414 chisel:outfit_info_vbId
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64246,
+		"name": "Deathbringer Scythe (T1)",
+		"notTradeable": true,
+		"stackableSometimes": true
+	},
+	{
+		"baseModel": 0,
+		"bindLink": 64246,
+		"bindTemplate": 20930,
+		"id": 64247,
+		"stackableSometimes": true
+	},
+	{
+		"baseModel": 121926,
+		"category": 3457,
+		"extra": {
+			"mtxmgt_item_struct": 44120 // 4414 chisel:outfit_info_vbId
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64248,
+		"name": "Pumpkin Carving Rest",
+		"notTradeable": true,
+		"stackableSometimes": true
+	},
+	{
+		"baseModel": 0,
+		"bindLink": 64248,
+		"bindTemplate": 20930,
+		"id": 64249,
+		"stackableSometimes": true
+	},
+	{
+		"baseModel": 121926,
+		"category": 3457,
+		"extra": {
+			"mtxmgt_item_struct": 44128 // 4414 chisel:outfit_info_vbId
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64250,
+		"name": "Edd",
+		"notTradeable": true,
+		"stackableSometimes": true
+	},
+	{
+		"baseModel": 0,
+		"bindLink": 64250,
+		"bindTemplate": 20930,
+		"id": 64251,
+		"stackableSometimes": true
+	},
+	{
+		"baseModel": 121926,
+		"category": 3457,
+		"extra": {
+			"mtxmgt_item_struct": 53585 // 4414 chisel:outfit_info_vbId
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64252,
+		"name": "Deathbringer Steed",
+		"notTradeable": true,
+		"stackableSometimes": true
+	},
+	{
+		"baseModel": 0,
+		"bindLink": 64252,
+		"bindTemplate": 20930,
+		"id": 64253,
+		"stackableSometimes": true
+	},
+	{
+		"baseModel": 121926,
+		"category": 3457,
+		"extra": {
+			"mtxmgt_item_struct": 53605 // 4414 chisel:outfit_info_vbId
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64254,
+		"name": "Soul Asphyxiate",
+		"notTradeable": true,
+		"stackableSometimes": true
+	},
+	{
+		"baseModel": 0,
+		"bindLink": 64254,
+		"bindTemplate": 20930,
+		"id": 64255,
+		"stackableSometimes": true
+	},
+	{
+		"baseModel": 121926,
+		"category": 3457,
+		"extra": {
+			"mtxmgt_item_struct": 53606 // 4414 chisel:outfit_info_vbId
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64256,
+		"name": "Soul Wild Magic",
+		"notTradeable": true,
+		"stackableSometimes": true
+	},
+	{
+		"baseModel": 0,
+		"bindLink": 64256,
+		"bindTemplate": 20930,
+		"id": 64257,
+		"stackableSometimes": true
+	},
+	{
+		"baseModel": 121926,
+		"category": 3457,
+		"extra": {
+			"mtxmgt_item_struct": 53607 // 4414 chisel:outfit_info_vbId
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64258,
+		"name": "Soul Runic Charge",
+		"notTradeable": true,
+		"stackableSometimes": true
+	},
+	{
+		"baseModel": 0,
+		"bindLink": 64258,
+		"bindTemplate": 20930,
+		"id": 64259,
+		"stackableSometimes": true
+	},
+	{
+		"baseModel": 121926,
+		"category": 3457,
+		"extra": {
+			"mtxmgt_item_struct": 53608 // 4414 chisel:outfit_info_vbId
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64260,
+		"name": "Soul Combust",
+		"notTradeable": true,
+		"stackableSometimes": true
+	},
+	{
+		"baseModel": 0,
+		"bindLink": 64260,
+		"bindTemplate": 20930,
+		"id": 64261,
+		"stackableSometimes": true
+	},
+	{
+		"baseModel": 121926,
+		"category": 3457,
+		"extra": {
+			"mtxmgt_item_struct": 53609 // 4414 chisel:outfit_info_vbId
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64262,
+		"name": "Soul Omnipower",
+		"notTradeable": true,
+		"stackableSometimes": true
+	},
+	{
+		"baseModel": 0,
+		"bindLink": 64262,
+		"bindTemplate": 20930,
+		"id": 64263,
+		"stackableSometimes": true
+	},
+	{
+		"baseModel": 121926,
+		"category": 3457,
+		"extra": {
+			"mtxmgt_item_struct": 48843 // 4414 chisel:outfit_info_vbId
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64264,
+		"name": "Soul Dive",
+		"notTradeable": true,
+		"stackableSometimes": true
+	},
+	{
+		"baseModel": 0,
+		"bindLink": 64264,
+		"bindTemplate": 20930,
+		"id": 64265,
+		"stackableSometimes": true
+	},
+	{
+		"baseModel": 121926,
+		"category": 3457,
+		"extra": {
+			"mtxmgt_item_struct": 52364 // 4414 chisel:outfit_info_vbId
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64266,
+		"name": "Soul Escape",
+		"notTradeable": true,
+		"stackableSometimes": true
+	},
+	{
+		"baseModel": 0,
+		"bindLink": 64266,
+		"bindTemplate": 20930,
+		"id": 64267,
+		"stackableSometimes": true
+	},
+	{
+		"baseModel": 121926,
+		"category": 3457,
+		"extra": {
+			"mtxmgt_item_struct": 48842 // 4414 chisel:outfit_info_vbId
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64268,
+		"name": "Soul Surge",
+		"notTradeable": true,
+		"stackableSometimes": true
+	},
+	{
+		"baseModel": 0,
+		"bindLink": 64268,
+		"bindTemplate": 20930,
+		"id": 64269,
+		"stackableSometimes": true
+	},
+	{
+		"baseModel": 121926,
+		"category": 3457,
+		"extra": {
+			"mtxmgt_item_struct": 52413 // 4414 chisel:outfit_info_vbId
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64270,
+		"name": "Blood Soul Dive",
+		"notTradeable": true,
+		"stackableSometimes": true
+	},
+	{
+		"baseModel": 0,
+		"bindLink": 64270,
+		"bindTemplate": 20930,
+		"id": 64271,
+		"stackableSometimes": true
+	},
+	{
+		"baseModel": 121926,
+		"category": 3457,
+		"extra": {
+			"mtxmgt_item_struct": 52414 // 4414 chisel:outfit_info_vbId
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64272,
+		"name": "Blood Soul Escape",
+		"notTradeable": true,
+		"stackableSometimes": true
+	},
+	{
+		"baseModel": 0,
+		"bindLink": 64272,
+		"bindTemplate": 20930,
+		"id": 64273,
+		"stackableSometimes": true
+	},
+	{
+		"baseModel": 121926,
+		"category": 3457,
+		"extra": {
+			"mtxmgt_item_struct": 52412 // 4414 chisel:outfit_info_vbId
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64274,
+		"name": "Blood Soul Surge",
+		"notTradeable": true,
+		"stackableSometimes": true
+	},
+	{
+		"baseModel": 0,
+		"bindLink": 64274,
+		"bindTemplate": 20930,
+		"id": 64275,
+		"stackableSometimes": true
 	}
 ]

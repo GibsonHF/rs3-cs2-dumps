@@ -1,9 +1,9 @@
 //
 function script8144(): void {
     var int0 = comp(1431, 1);  // toplevel_v2_ribbon:ribbon_root
-    var int1 = comp(1431, 8);  // toplevel_v2_ribbon:league_button
+    var int1 = comp(1431, 5);  // toplevel_v2_ribbon:window_holder
     var int2 = comp(1431, 0);  // toplevel_v2_ribbon:window_build
-    var int3 = comp(1431, 12);
+    var int3 = comp(1431, 9);  // toplevel_v2_ribbon:window_click
     var int4 = IF_GETWIDTH(int0);
     if ((int4 == 0)) {
         return;
@@ -117,7 +117,7 @@ function script8144(): void {
                             IF_SETPARAM_INT(6837, int7, int0);
                             IF_SETPARAM_INT(6838, int6, int0);
                             script8145();
-                            script17044(93782029);
+                            script17044(93782026);
                             script15783();
                             return;
                         };
@@ -172,7 +172,7 @@ function script8144(): void {
                         IF_SETPARAM_INT(6837, int7, int0);
                         IF_SETPARAM_INT(6838, int6, int0);
                         script8145();
-                        script17044(93782029);
+                        script17044(93782026);
                         script15783();
                         return;
                     };
@@ -232,7 +232,7 @@ function script8144(): void {
                         IF_SETPARAM_INT(6837, int7, int0);
                         IF_SETPARAM_INT(6838, int6, int0);
                         script8145();
-                        script17044(93782029);
+                        script17044(93782026);
                         script15783();
                         return;
                     };
@@ -287,7 +287,7 @@ function script8144(): void {
                     IF_SETPARAM_INT(6837, int7, int0);
                     IF_SETPARAM_INT(6838, int6, int0);
                     script8145();
-                    script17044(93782029);
+                    script17044(93782026);
                     script15783();
                     return;
                 };
@@ -352,7 +352,7 @@ function script8144(): void {
                         IF_SETPARAM_INT(6837, int7, int0);
                         IF_SETPARAM_INT(6838, int6, int0);
                         script8145();
-                        script17044(93782029);
+                        script17044(93782026);
                         script15783();
                         return;
                     };
@@ -407,7 +407,7 @@ function script8144(): void {
                     IF_SETPARAM_INT(6837, int7, int0);
                     IF_SETPARAM_INT(6838, int6, int0);
                     script8145();
-                    script17044(93782029);
+                    script17044(93782026);
                     script15783();
                     return;
                 };
@@ -467,7 +467,7 @@ function script8144(): void {
                     IF_SETPARAM_INT(6837, int7, int0);
                     IF_SETPARAM_INT(6838, int6, int0);
                     script8145();
-                    script17044(93782029);
+                    script17044(93782026);
                     script15783();
                     return;
                 };
@@ -551,7 +551,7 @@ function script8144(): void {
     IF_SETPARAM_INT(6837, int7, int0);
     IF_SETPARAM_INT(6838, int6, int0);
     script8145();
-    script17044(93782029);
+    script17044(93782026);
     script15783();
     return;
 }

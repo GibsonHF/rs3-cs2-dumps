@@ -8,8 +8,8 @@ function script10441(int0: number, int1: number, int2: number): void {
     define_array((int4 + 1));
     var int5 = 0;
     var int6 = 0;
-    var int7 = comp(1477, 897);  // toplevel_v2:optext_bubble
-    var int8 = comp(1477, 898);  // toplevel_v2:optext_bg
+    var int7 = comp(1477, 910);  // toplevel_v2:dropdown_blocking
+    var int8 = comp(1477, 911);  // toplevel_v2:bespoke_window_background
     switch (IF_GETTOP()) {
         case 906: {
             int7 = comp(906, 164);  // lobbyscreen:dropdown_list
@@ -17,13 +17,13 @@ function script10441(int0: number, int1: number, int2: number): void {
             break;
         }
         case 744: {
-            int7 = comp(744, 355);  // loginscreen:dropdown_list
-            int8 = comp(744, 356);  // loginscreen:dropdown_build
+            int7 = comp(744, 356);  // loginscreen:dropdown_build
+            int8 = comp(744, 357);  // loginscreen:dropdown_scrollbar
             break;
         }
         default: {
-            int7 = comp(1477, 897);  // toplevel_v2:optext_bubble
-            int8 = comp(1477, 898);  // toplevel_v2:optext_bg
+            int7 = comp(1477, 910);  // toplevel_v2:dropdown_blocking
+            int8 = comp(1477, 911);  // toplevel_v2:bespoke_window_background
             break;
         }
     };

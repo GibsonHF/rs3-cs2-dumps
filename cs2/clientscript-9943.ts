@@ -43,7 +43,7 @@ function script9943(): void {
                 [int5, int6] = script8724(1, int0);
                 IF_SETSIZE(int5, int6, 0, 0, struct_getparam(int1, 3503));
             };
-            if (((((struct_getparam(int1, 3534) != -1) || (int0 == 9)) || (int0 == 12)) || (int0 == 17))) {
+            if ((((((struct_getparam(int1, 3534) != -1) || (int0 == 9)) || (int0 == 12)) || (int0 == 17)) || (int0 == 47))) {
                 if ((int7 != -1)) {
                     if ((int0 == 32)) {
                         if ((varplayer_12314 > 0)) {

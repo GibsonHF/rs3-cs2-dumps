@@ -1,0 +1,56 @@
+//
+function script21226(): void {
+    var string0 = enum_getstring(13835, int4);
+    var string1 = enum_getstring(13836, int4);
+    var int5 = int1;
+    var int6 = ((4 * 2) + 20);
+    var int7 = ((IF_GETWIDTH(int0) - int6) - 4);
+    var int8 = script20478(string1, int7, 2100, 0);
+    stack(int3);
+    stack(int4);
+    script21235();
+    var int9 = [];
+    stack(int0);
+    stack(int1);
+    var int1 = (int1 + 1);
+    script7876(4, int2, 0, 0, 20, 20, 0, 0, callback(script2550), 1, 1, int9);
+    CC_SETOP(1, `Toggle ${string0}`);
+    stack(21227);
+    stack(int0);
+    stack(int5);
+    stack(1);
+    stack(int3);
+    stack(int4);
+    CC_SETONOP("iiiii");
+    stack(int0);
+    stack(int1);
+    int1 = (int1 + 1);
+    script2995(int6, int2, 0, 0, int7, 18, 0, 0, 17514, string0);
+    CC_SETOP(1, `Toggle ${string0}`);
+    stack(21227);
+    stack(int0);
+    stack(int5);
+    stack(0);
+    stack(int3);
+    stack(int4);
+    CC_SETONOP("iiiii");
+    var int2 = (int2 + (18 + 4));
+    stack(int0);
+    stack(int1);
+    int1 = (int1 + 1);
+    script2995(int6, int2, 0, 0, int7, int8, 0, 0, 2100, string1);
+    int2 = (int2 + (int8 + 4));
+    if ((int4 == 0)) {
+        stack(int0);
+        stack(int1);
+        stack(int2);
+        stack(int6);
+        stack(int7);
+        stack(int3);
+        script21228();
+        [int2, int1] = [];
+    };
+    stack(int2);
+    stack(int1);
+    return;
+}

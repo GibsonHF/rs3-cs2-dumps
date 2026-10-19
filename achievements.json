@@ -284,10 +284,11 @@
 			4891,
 			4994,
 			5010,
-			4782
+			4782,
+			5119
 		],
 		"subreq_count": [
-			275
+			276
 		]
 	},
 	{
@@ -80820,13 +80821,14 @@
 			1754,
 			1766,
 			1394,
+			5100,
 			3128,
 			4044,
 			3050,
 			3520
 		],
 		"subreq_count": [
-			57
+			58
 		]
 	},
 	{
@@ -206551,6 +206553,23 @@
 				"value": 1,
 				"varbit": 62192
 			}
+		]
+	},
+	{
+		"category": 4746,
+		"description": "Complete this quest.",
+		"id": 5119,
+		"name": "Learning the Ropes",
+		"op_2": [
+			0
+		],
+		"quest_ids": [
+			535
+		],
+		"spriteID": 30108,
+		"subcategory": 4747,
+		"subreq_count": [
+			1
 		]
 	}
 ]

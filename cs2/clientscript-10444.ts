@@ -1,7 +1,7 @@
 //
 function script10444(): void {
-    var int0 = comp(1477, 892);  // toplevel_v2:no_displayname_layer
-    var int1 = comp(1477, 897);  // toplevel_v2:optext_bubble
+    var int0 = comp(1477, 905);  // toplevel_v2:dropdown_border
+    var int1 = comp(1477, 910);  // toplevel_v2:dropdown_blocking
     switch (IF_GETTOP()) {
         case 906: {
             int0 = comp(906, 159);  // lobbyscreen:dropdown_panel
@@ -9,13 +9,13 @@ function script10444(): void {
             break;
         }
         case 744: {
-            int0 = comp(744, 350);  // loginscreen:dropdown_panel
-            int1 = comp(744, 355);  // loginscreen:dropdown_list
+            int0 = comp(744, 351);  // loginscreen:dropdown_background
+            int1 = comp(744, 356);  // loginscreen:dropdown_build
             break;
         }
         default: {
-            int0 = comp(1477, 892);  // toplevel_v2:no_displayname_layer
-            int1 = comp(1477, 897);  // toplevel_v2:optext_bubble
+            int0 = comp(1477, 905);  // toplevel_v2:dropdown_border
+            int1 = comp(1477, 910);  // toplevel_v2:dropdown_blocking
             break;
         }
     };

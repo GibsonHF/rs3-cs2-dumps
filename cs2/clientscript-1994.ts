@@ -21,7 +21,7 @@ function script1994(int0: number, int1: number, int2: number, int3: number): voi
             var int2 = int6;
             var int3 = 100;
             if ((int6 == 0)) {
-                SOUND_VORBIS_VOLUME(16806 as vorbis, 1, 0, 100);
+                SOUND_VORBIS_VOLUME(60994 as vorbis, 1, 0, 100);
                 SOUND_VORBIS_VOLUME(7649 as vorbis, 1, 0, 155);
             };
         } else {

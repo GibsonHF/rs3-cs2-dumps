@@ -35,7 +35,7 @@ function script10761(int0: number, int1: number, int2: number, int3: number, int
     var string7 = "";
     if (((int21 != -1 as struct) || (int0 != -1 as obj))) {
         var int0 = script13427(int0, 818);
-        if ((int5 != 86638599)) {
+        if ((int5 != 86638598)) {
             var int6 = script7235("Cosmetic Appearance", string0, int3, int4, int5, int6);
         };
         if ((int21 == -1 as struct)) {

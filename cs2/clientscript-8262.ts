@@ -11,7 +11,7 @@ function script8262(): number {
     if ((INV_TOTAL(93 as inv, 42300 as obj) == 0)) {
         int0 = 1;
     };
-    if (((INV_TOTAL(93 as inv, 42303 as obj) == 0) && (INV_TOTAL(93 as inv, 42302 as obj) == 0))) {
+    if ((INV_TOTAL(93 as inv, 42302 as obj) == 0)) {
         int1 = 1;
     };
     if (((int0 == 1) && (int1 == 1))) {
@@ -22,9 +22,6 @@ function script8262(): number {
     };
     if ((int1 == 1)) {
         return 2;
-    };
-    if ((INV_TOTAL(93 as inv, 42303 as obj) > 0)) {
-        return 3;
     };
     return 4;
 }

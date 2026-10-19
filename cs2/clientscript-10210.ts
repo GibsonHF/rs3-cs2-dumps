@@ -521,7 +521,7 @@ function script10210(int0: number, int1: number, int2: number, int3: number, int
             break;
         }
         case 38: {
-            string0 = "Your account does not currently have access to the NXT Beta.";
+            string0 = "Your account does not currently have access to this Beta.";
             break;
         }
         case 60: {

@@ -1,5 +1,6 @@
 //
 function script20327(): void {
-    unk10980(1);
+    stack(1);
+    unk11727();
     return;
 }

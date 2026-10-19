@@ -41,7 +41,8 @@ function script9919(int0: number, int1: number): number {
         case 141:
         case 142:
         case 143:
-        case 145: {
+        case 145:
+        case 33: {
             return 0;
         }
         case 1: {

@@ -30,7 +30,8 @@ function script8505(int0: number, int1: number, int2: number, int3: number, stri
         case 133:
         case 134:
         case 142:
-        case 144: {
+        case 144:
+        case 33: {
             CC_SETTEXT(`${string3}${string0}`);
             break;
         }

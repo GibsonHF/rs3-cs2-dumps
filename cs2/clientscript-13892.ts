@@ -312,8 +312,8 @@ function script13892(): void {
         };
         int1 = (int1 + 1);
     };
-    IF_SETPOSITION(int14, int15, 0, 0, comp(1477, 817));  // toplevel_v2:escape_menu
-    IF_SETSIZE((int14 + int16), (int15 + int17), 1, 1, comp(1477, 817));  // toplevel_v2:escape_menu
+    IF_SETPOSITION(int14, int15, 0, 0, comp(1477, 829));  // toplevel_v2:bond_overlays
+    IF_SETSIZE((int14 + int16), (int15 + int17), 1, 1, comp(1477, 829));  // toplevel_v2:bond_overlays
     if (((varbitclient_49616 == 0) && (script2384(0, 1) < 0))) {
         script1159();
     };
@@ -327,7 +327,7 @@ function script13892(): void {
         script8288(varbitplayer_18994);
     };
     script13893(int8);
-    IF_SETHIDE(true, comp(1477, 884));  // toplevel_v2:flash_white_11
+    IF_SETHIDE(true, comp(1477, 897));  // toplevel_v2:optext_bubble
     script8144();
     return;
 }

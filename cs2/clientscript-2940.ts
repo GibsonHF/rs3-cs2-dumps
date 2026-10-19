@@ -10,10 +10,10 @@ function script2940(int0: number): void {
     };
     IF_SETTEXT(script1346(varclient_2576), comp(744, 107));  // loginscreen:username
     IF_SETTEXT(script2949(varclient_2577), comp(744, 130));  // loginscreen:password
-    if ((IF_GETHIDE(comp(744, 308)) == 0)) {  // loginscreen:recovery_layer
+    if ((IF_GETHIDE(comp(744, 309)) == 0)) {  // loginscreen:com_309
         script15651(113);
         varclient_1099 = STRING_LENGTH(varclient_6896);
-        script3237(48759111, 48759112, 48759113, varclient_6896, 113, 212);
+        script3237(48759112, 48759113, 48759114, varclient_6896, 113, 212);
     } else if ((IF_GETHIDE(comp(744, 143)) == 0)) {  // loginscreen:auth_layer
         script15651(114);
         varclient_1099 = STRING_LENGTH(varclient_4192);

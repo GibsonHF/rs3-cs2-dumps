@@ -3,7 +3,7 @@ function script8182(): void {
     if ((varclient_6524 > 0)) {
         return;
     };
-    if ((IF_GETHIDE(comp(1477, 806)) == true)) {  // toplevel_v2:event_crafting
+    if ((IF_GETHIDE(comp(1477, 818)) == true)) {  // toplevel_v2:escape_menu_background
         script8177();
     } else {
         script8179();

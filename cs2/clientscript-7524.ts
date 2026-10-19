@@ -8,7 +8,7 @@ function script7524(int0: number): void {
         int2 = 4;
     };
     if (((varclient_2705 < int2) && (varclient_2706 == false))) {
-        SOUND_VORBIS_VOLUME(16778 as vorbis, 1, 0, 50);
+        SOUND_VORBIS_VOLUME(60953 as vorbis, 1, 0, 50);
         varclient_2705 = (varclient_2705 + 1);
         IF_SETGRAPHIC(script7504(script7529(varclient_2705)), comp(1393, 11));  // rand_dnd_card_preview:rand_dnd_chosen_card
         IF_SETTEXT(script7505(script7529(varclient_2705)), comp(1393, 4));  // rand_dnd_card_preview:rand_dnd_card_name_text

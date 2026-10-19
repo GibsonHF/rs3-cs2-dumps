@@ -10,7 +10,7 @@ function script8319(int0: number): void {
             break;
         }
         case 1003: {
-            script8132(96796744);
+            script8132(96796745);
             break;
         }
     };

@@ -19,11 +19,11 @@ function script8789(int0: number, int1: number, int2: number, int3: number, int4
     if (((((script8403(int2) >= (0 - int4)) && (script8403(int2) <= (IF_GETWIDTH(int2) + int4))) && (script8404(int2) >= (0 - int3))) && (script8404(int2) <= (IF_GETHEIGHT(int2) + int3)))) {
         return;
     };
-    if ((((IF_GETHIDE(comp(1477, 786)) == false) && (script8403(96797458) >= 0)) && (script8403(96797458) <= IF_GETWIDTH(comp(1477, 786))))) {  // toplevel_v2:com_787
+    if ((((IF_GETHIDE(comp(1477, 798)) == false) && (script8403(96797470) >= 0)) && (script8403(96797470) <= IF_GETWIDTH(comp(1477, 798))))) {  // toplevel_v2:context_sub_menu_content_layer
         return;
     };
     script2256(int2);
-    if ((IF_HASSUBOVERLAY(comp(1477, 789), 1514 as overlayinterface) == 1)) {  // toplevel_v2:com_790
+    if ((IF_HASSUBOVERLAY(comp(1477, 801), 1514 as overlayinterface) == 1)) {  // toplevel_v2:yak_track
         script20799();
     };
     return;

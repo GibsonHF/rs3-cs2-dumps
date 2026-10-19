@@ -568,6 +568,32 @@ function script8284(int0: number, int1: number): number {
             };
             break;
         }
+        case 13: {
+            int3 = (int3 + 1);
+            while ((int3 <= int4)) {
+                switch (int3) {
+                    case 1: {
+                        int2 = varbitplayer_62209;
+                        break;
+                    }
+                    case 2: {
+                        int2 = varbitplayer_62210;
+                        break;
+                    }
+                    default: {
+                        int2 = 1;
+                        break;
+                    }
+                };
+                if ((int2 == 0)) {
+                    if ((int1 == -1)) {
+                        return int3;
+                    };
+                    return 1;
+                };
+            };
+            break;
+        }
     };
     return 0;
 }

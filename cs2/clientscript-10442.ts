@@ -1,17 +1,17 @@
 //
 function script10442(): void {
-    var int0 = comp(1477, 892);  // toplevel_v2:no_displayname_layer
+    var int0 = comp(1477, 905);  // toplevel_v2:dropdown_border
     switch (IF_GETTOP()) {
         case 906: {
             int0 = comp(906, 159);  // lobbyscreen:dropdown_panel
             break;
         }
         case 744: {
-            int0 = comp(744, 350);  // loginscreen:dropdown_panel
+            int0 = comp(744, 351);  // loginscreen:dropdown_background
             break;
         }
         default: {
-            int0 = comp(1477, 892);  // toplevel_v2:no_displayname_layer
+            int0 = comp(1477, 905);  // toplevel_v2:dropdown_border
             break;
         }
     };

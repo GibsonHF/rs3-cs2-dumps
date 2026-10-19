@@ -44,7 +44,7 @@ function script11364(int0: number, int1: number, int2: number): void {
     script6211(int1, int2);
     if ((varclient_2 != 1)) {
         script8808();
-        IF_OPENSUBCLIENT(comp(1477, 910), 1618);  // toplevel_v2:dropdown_blocking
+        IF_OPENSUBCLIENT(comp(1477, 923), 1618);  // toplevel_v2:tooltips_ragdoll_bounding_layer
         varclient_2 = 1;
         string2 = struct_getparam(int0, 5058);
         string3 = struct_getparam(int0, 5059);
@@ -93,8 +93,8 @@ function script11364(int0: number, int1: number, int2: number): void {
         };
         int4 = (int4 + (int6 / 2));
         int4 = MAX(int4, 0);
-        if (((int4 + int18) > IF_GETWIDTH(comp(1477, 910)))) {  // toplevel_v2:dropdown_blocking
-            int4 = (IF_GETWIDTH(comp(1477, 910)) - int18);  // toplevel_v2:dropdown_blocking
+        if (((int4 + int18) > IF_GETWIDTH(comp(1477, 923)))) {  // toplevel_v2:tooltips_ragdoll_bounding_layer
+            int4 = (IF_GETWIDTH(comp(1477, 923)) - int18);  // toplevel_v2:tooltips_ragdoll_bounding_layer
         };
         IF_SETSIZE(int18, int19, 0, 0, int3);
         if ((script6431() == 1)) {

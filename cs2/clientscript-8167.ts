@@ -2,7 +2,7 @@
 function script8167(int0: number, int1: number): void {
     script8059(1);
     if ((CC_FIND(int0, int1) == 1)) {
-        IF_OPENSUBCLIENT(comp(1477, 819), 1478);  // toplevel_v2:escape_menu_border
+        IF_OPENSUBCLIENT(comp(1477, 831), 1478);  // toplevel_v2:infobox_top_layer
         script8169(0, 29, 0);
         script115();
         if ((varbitplayer_19925 == 1)) {

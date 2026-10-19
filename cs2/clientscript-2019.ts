@@ -94,6 +94,25 @@ function script2019(int0: number): [string, string, string, string, string] {
             string3 = "Cancel";
             break;
         }
+        case 14: {
+            string0 = "Remove plugin?";
+            string1 = `Are you sure you want to remove the plugin: ${varclient_8505}?`;
+            string2 = "Remove";
+            string3 = "Cancel";
+            break;
+        }
+        case 15: {
+            string0 = "Disable plugin?";
+            stack("Disabling the ");
+            stack(varclient_8505);
+            stack(" plugin will also disable the following plugins, are you sure you wish to continue?<br>");
+            stack(varclient_8503);
+            script21239();
+            string1 = ``;
+            string2 = "Continue";
+            string3 = "Cancel";
+            break;
+        }
     };
     return [string0, string1, string2, string3, string4];
 }

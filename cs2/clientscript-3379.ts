@@ -144,7 +144,7 @@ function script3379(int0: number, int1: number, int2: number): void {
                 };
             };
         } else {
-            if (((((struct_getparam(int3, 3534) != -1) || (int0 == 9)) || (int0 == 12)) || (int0 == 17))) {
+            if ((((((struct_getparam(int3, 3534) != -1) || (int0 == 9)) || (int0 == 12)) || (int0 == 17)) || (int0 == 47))) {
                 if ((struct_getparam(int3, 9398) == true)) {
                     if ((varbitclient_60445 == 1)) {
                         if ((varbitclient_60444 == varbitclient_22877)) {

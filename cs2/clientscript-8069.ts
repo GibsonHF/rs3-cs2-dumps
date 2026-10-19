@@ -4,21 +4,21 @@ function script8069(int0: number): [number, number] {
     var int2 = script2385(int0, varbitclient_42113);
     if (((int2 >= script9929()) || (int2 == -1))) {
         if ((varbitplayer_27169 == 1)) {
-            if ((IF_GETHIDE(comp(1477, 806)) == true)) {  // toplevel_v2:event_crafting
+            if ((IF_GETHIDE(comp(1477, 818)) == true)) {  // toplevel_v2:escape_menu_background
                 return script8069(9);
             };
             return [93913091, -1];
         };
         if ((int2 != -1)) {
-            if ((IF_GETHIDE(comp(1477, 691)) == false)) {  // toplevel_v2:channel_bar_window
+            if ((IF_GETHIDE(comp(1477, 703)) == false)) {  // toplevel_v2:ribbon_extra_context_menu_content_layer
                 return [37224454, int1];
             };
-            return [93782025, -1];
+            return [93782022, -1];
         };
         return [-1, -1];
     };
     if ((((varbitplayer_27169 == 0) && (varbitplayer_38842 == 0)) && (int1 != -1))) {
         int1 = int0;
     };
-    return [93782028, int1];
+    return [93782025, int1];
 }

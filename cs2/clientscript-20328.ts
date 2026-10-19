@@ -9,7 +9,8 @@ function script20328(): number {
     var int0 = 0;
     var int1 = 0;
     var int2 = 0;
-    [int0, int1, int2] = unk11024();
+    unk11488();
+    [int0, int1, int2] = [];
     if (((int0 == 0) || (int0 == 1))) {
         return 0;
     };

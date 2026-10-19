@@ -16,7 +16,7 @@ function script15384(int0: number): void {
         case 6: {
             int4 = 3;
             int5 = 6;
-            if ((varbitplayer_39917 > 14)) {
+            if ((varbitplayer_39917 > 18)) {
                 int6 = 7;
             };
             break;

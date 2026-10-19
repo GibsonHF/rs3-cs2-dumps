@@ -39,7 +39,7 @@ function script8765(): void {
                 break;
             }
             case 5: {
-                CC_SETGRAPHIC(11744 as graphic);
+                CC_SETGRAPHIC(15380 as graphic);
                 IF_SETTEXT("Claim", comp(246, 49));  // oct13_reward_shop:oct13_confirm_button_text
                 break;
             }

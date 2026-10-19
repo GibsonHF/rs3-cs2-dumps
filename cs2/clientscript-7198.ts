@@ -12,10 +12,10 @@ function script7198(): void {
     IF_SETONTIMER(callback(script7940, -2147483645), comp(1477, 39));  // toplevel_v2:machinima_camera
     script12446();
     if ((varbitplayer_27169 == 1)) {
-        IF_SETHIDE(true, comp(1477, 93));  // toplevel_v2:minimap_window
-        IF_SETHIDE(true, comp(1477, 68));  // toplevel_v2:action_window
-        IF_SETHIDE(true, comp(1477, 62));  // toplevel_v2:buttons_window
-        IF_SETHIDE(true, comp(1477, 637));  // toplevel_v2:statusicons_window_background
+        IF_SETHIDE(true, comp(1477, 94));  // toplevel_v2:minimap_window_background
+        IF_SETHIDE(true, comp(1477, 69));  // toplevel_v2:action_window_background
+        IF_SETHIDE(true, comp(1477, 63));  // toplevel_v2:buttons_window_background
+        IF_SETHIDE(true, comp(1477, 643));  // toplevel_v2:hud_window_background
     };
     if ((varclient_4667 < 64)) {
         varclient_4667 = (64 + ((1024 - 64) / 2));

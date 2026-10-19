@@ -282,11 +282,11 @@ function script11087(int0: number): string {
             break;
         }
         case 53508: {
-            string0 = `<br>- Increases damage received by Lord Ghrazi by <col=ffffff>${inttostring(8, 10)}%</col> for each stack.`;
+            string0 = `<br>- Increases damage received by Lord Ghrazi by <col=ffffff>${inttostring(4, 10)}%</col> for each stack.`;
             break;
         }
         case 53509: {
-            string0 = `<br>- Increases damage received by Lady Ghrazi by <col=ffffff>${inttostring(8, 10)}%</col> for each stack.`;
+            string0 = `<br>- Increases damage received by Lady Ghrazi by <col=ffffff>${inttostring(4, 10)}%</col> for each stack.`;
             break;
         }
         case 53530: {

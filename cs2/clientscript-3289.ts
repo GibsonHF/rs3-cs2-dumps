@@ -1,6 +1,6 @@
 //
 function script3289(): void {
-    script14171(96797365);
+    script14171(96797377);
     script15063(1);
     return;
 }

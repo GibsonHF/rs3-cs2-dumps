@@ -1,12 +1,12 @@
 //
 function script5490(string0: string): void {
     var int0 = 0;
-    CC_DELETEALL(comp(1477, 888));  // toplevel_v2:flash_white_12
-    CC_DELETEALL(comp(1477, 889));  // toplevel_v2:warning_overlays
+    CC_DELETEALL(comp(1477, 901));  // toplevel_v2:examine_bubble
+    CC_DELETEALL(comp(1477, 902));  // toplevel_v2:hover_info_layer
     if ((varclient_1691 != -1 as obj)) {
-        int0 = script9568(string0, varclient_1691, 96797558, 96797561, -1, -1);
+        int0 = script9568(string0, varclient_1691, 96797571, 96797574, -1, -1);
     } else {
-        int0 = script7235(string0, "<col=E3D7CF>", 27826, 96797558, 96797561, int0);
+        int0 = script7235(string0, "<col=E3D7CF>", 27826, 96797571, 96797574, int0);
     };
     var int1 = 0;
     var int2 = 0;
@@ -14,8 +14,8 @@ function script5490(string0: string): void {
         [int1, int2] = unk11051();
         int1 = (int1 - 2);
         if ((int1 > 0)) {
-            int0 = script20487(96797558, 96797561, int0);
-            int0 = script7238(`+<col=E3D7CF>${inttostring(int1, 10)} ${script4583(int1, "option", "options")}</col>`, 14931919, 52669, 96797558, 96797561, int0);
+            int0 = script20487(96797571, 96797574, int0);
+            int0 = script7238(`+<col=E3D7CF>${inttostring(int1, 10)} ${script4583(int1, "option", "options")}</col>`, 14931919, 52669, 96797571, 96797574, int0);
         };
     };
     return;

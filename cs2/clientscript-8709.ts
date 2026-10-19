@@ -372,6 +372,10 @@ function script8709(int0: number, int1: number, int2: number, int3: number, int4
                     [varbitclient_56668, varbitclient_56669, varbitclient_56664, varbitclient_56665, varbitclient_56666, varbitclient_56670, varbitclient_56667, varbitclient_56671] = [int2, int3, int4, int5, int6, int7, int8, int9];
                     break;
                 }
+                case 47: {
+                    [varbitclient_62229, varbitclient_62230, varbitclient_62225, varbitclient_62226, varbitclient_62227, varbitclient_62231, varbitclient_62228, varbitclient_62232] = [int2, int3, int4, int5, int6, int7, int8, int9];
+                    break;
+                }
             };
             break;
         }
@@ -735,6 +739,10 @@ function script8709(int0: number, int1: number, int2: number, int3: number, int4
                 }
                 case 46: {
                     [varbitclient_56684, varbitclient_56685, varbitclient_56680, varbitclient_56681, varbitclient_56682, varbitclient_56686, varbitclient_56683, varbitclient_56687] = [int2, int3, int4, int5, int6, int7, int8, int9];
+                    break;
+                }
+                case 47: {
+                    [varbitclient_62237, varbitclient_62238, varbitclient_62233, varbitclient_62234, varbitclient_62235, varbitclient_62239, varbitclient_62236, varbitclient_62240] = [int2, int3, int4, int5, int6, int7, int8, int9];
                     break;
                 }
             };
@@ -1102,6 +1110,10 @@ function script8709(int0: number, int1: number, int2: number, int3: number, int4
                     [varbitclient_56700, varbitclient_56701, varbitclient_56696, varbitclient_56697, varbitclient_56698, varbitclient_56702, varbitclient_56699, varbitclient_56703] = [int2, int3, int4, int5, int6, int7, int8, int9];
                     break;
                 }
+                case 47: {
+                    [varbitclient_62245, varbitclient_62246, varbitclient_62241, varbitclient_62242, varbitclient_62243, varbitclient_62247, varbitclient_62244, varbitclient_62248] = [int2, int3, int4, int5, int6, int7, int8, int9];
+                    break;
+                }
             };
             break;
         }
@@ -1465,6 +1477,10 @@ function script8709(int0: number, int1: number, int2: number, int3: number, int4
                 }
                 case 46: {
                     [varbitclient_56716, varbitclient_56717, varbitclient_56712, varbitclient_56713, varbitclient_56714, varbitclient_56718, varbitclient_56715, varbitclient_56719] = [int2, int3, int4, int5, int6, int7, int8, int9];
+                    break;
+                }
+                case 47: {
+                    [varbitclient_62253, varbitclient_62254, varbitclient_62249, varbitclient_62250, varbitclient_62251, varbitclient_62255, varbitclient_62252, varbitclient_62256] = [int2, int3, int4, int5, int6, int7, int8, int9];
                     break;
                 }
             };
@@ -1832,6 +1848,10 @@ function script8709(int0: number, int1: number, int2: number, int3: number, int4
                     [varbitclient_56652, varbitclient_56653, varbitclient_56648, varbitclient_56649, varbitclient_56650, varbitclient_56654, varbitclient_56651, varbitclient_56655] = [int2, int3, int4, int5, int6, int7, int8, int9];
                     break;
                 }
+                case 47: {
+                    [varbitclient_62221, varbitclient_62222, varbitclient_62217, varbitclient_62218, varbitclient_62219, varbitclient_62223, varbitclient_62220, varbitclient_62224] = [int2, int3, int4, int5, int6, int7, int8, int9];
+                    break;
+                }
             };
             break;
         }
@@ -2197,6 +2217,10 @@ function script8709(int0: number, int1: number, int2: number, int3: number, int4
                 }
                 case 46: {
                     [varclient_8198, varclient_8199, varclient_8194, varclient_8195, varclient_8196, varclient_8200, varclient_8197, varclient_8201] = [int2, int3, int4, int5, int6, int7, int8, int9];
+                    break;
+                }
+                case 47: {
+                    [varclient_8520, varclient_8521, varclient_8516, varclient_8517, varclient_8518, varclient_8522, varclient_8519, varclient_8523] = [int2, int3, int4, int5, int6, int7, int8, int9];
                     break;
                 }
             };

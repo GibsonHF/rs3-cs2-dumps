@@ -23,7 +23,7 @@ function script9899(int0: number, int1: number, int2: number, int3: number, int4
         case 3: {
             int0 = 21;
             int1 = 0;
-            int2 = 46;
+            int2 = 47;
             break;
         }
         case 4: {

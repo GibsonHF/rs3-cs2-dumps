@@ -123,6 +123,11 @@ function script189(int0: number, int1: number): void {
             };
             break;
         }
+        case 13: {
+            stack(int1);
+            script21259();
+            break;
+        }
     };
     if ((varplayer_8745 == -1 as dbrow)) {
         return;

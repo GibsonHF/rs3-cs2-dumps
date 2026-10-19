@@ -6,6 +6,8 @@ function script16445(int0: number): string {
     if (((int2 != -1) && (struct_getparam(int2, 5396) != 40932 as obj))) {
         int1 = 1;
     };
+    var int3 = 0;
+    var int4 = 0;
     switch (int0) {
         case 4954: {
             if ((int1 == 1)) {
@@ -45,6 +47,16 @@ function script16445(int0: number): string {
         }
         case 17114: {
             string0 = "Completing a task provides League points:<br><sprite=35246> 10 - Easy.<br><sprite=35247> 30 - Medium.<br><sprite=35248> 80 - Hard.<br><sprite=35249> 200 - Elite.<br><sprite=35250> 400 - Master.";
+            break;
+        }
+        case 20340: {
+            string0 = "Some plugins may require you to accept certain permissions before you can enable them. Other plugins may have optional permissions, where certain features are limited until these are accepted. Details of the permissions are provided below:";
+            int3 = 0;
+            int4 = ENUM_GETOUTPUTCOUNT(13835 as cs2enum);
+            while ((int3 < int4)) {
+                string0 = `${string0}<br><br>${enum_getvalue(0, 36, 13835 as cs2enum, int3)}: ${enum_getvalue(0, 36, 13836 as cs2enum, int3)}`;
+                int3 = (int3 + 1);
+            };
             break;
         }
     };

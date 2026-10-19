@@ -1,14 +1,14 @@
 //
 function script9316(): void {
-    if ((IF_HASSUBMODAL(comp(1477, 694), 1387) == 1)) {  // toplevel_v2:channel_bar_window_border
+    if ((IF_HASSUBMODAL(comp(1477, 706), 1387) == 1)) {  // toplevel_v2:bank_window_background
         script595(0);
         return;
     };
-    if ((IF_HASSUBMODAL(comp(1477, 694), 1621) == 1)) {  // toplevel_v2:channel_bar_window_border
+    if ((IF_HASSUBMODAL(comp(1477, 706), 1621) == 1)) {  // toplevel_v2:bank_window_background
         script15069(0);
         return;
     };
-    if ((IF_HASSUBMODAL(comp(1477, 694), 1313) == 1)) {  // toplevel_v2:channel_bar_window_border
+    if ((IF_HASSUBMODAL(comp(1477, 706), 1313) == 1)) {  // toplevel_v2:bank_window_background
         script19511();
         return;
     };

@@ -48,6 +48,10 @@ function script13417(int0: number): number {
             int1 = 6;
             break;
         }
+        case 13: {
+            int1 = 2;
+            break;
+        }
     };
     if ((script6431() == 1)) {
         switch (int0) {

@@ -155,7 +155,7 @@ function script13845(int0: number, int1: number, int2: number, int3: number, int
                 CC_SETTRANS(0);
             };
             if (((int14 == 21186) && (script3609() != -1))) {
-                CC_SETONVARTRANSMIT(callback(script13833, 93782016, 93782028, 9062, 9078, 9080, 9081, 9082, 5));
+                CC_SETONVARTRANSMIT(callback(script13833, 93782016, 93782025, 9062, 9078, 9080, 9081, 9082, 5));
             };
         };
         var int4 = (int4 + 1);

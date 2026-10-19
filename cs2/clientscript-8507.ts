@@ -72,7 +72,8 @@ function script8507(int0: number, int1: number, int2: number, int3: number): num
         case 141:
         case 142:
         case 143:
-        case 145: {
+        case 145:
+        case 33: {
             return int4;
         }
         case 1: {

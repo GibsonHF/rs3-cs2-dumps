@@ -197,7 +197,7 @@ function script1221(int0: number, int1: number): void {
                 case 102:
                 case 103: {
                     varclient_1099 = script1553(int0, varclient_1099, varclient_6896);
-                    script3237(48759111, 48759112, 48759113, varclient_6896, 113, 212);
+                    script3237(48759112, 48759113, 48759114, varclient_6896, 113, 212);
                     return;
                 }
             };
@@ -242,9 +242,9 @@ function script1221(int0: number, int1: number): void {
         }
         case 18: {
             if ((int0 == 13)) {
-                if ((IF_GETHIDE(comp(744, 290)) == 1)) {  // loginscreen:tnc_decline_popup
+                if ((IF_GETHIDE(comp(744, 291)) == 1)) {  // loginscreen:com_291
                     script3131();
-                } else if ((IF_GETHIDE(comp(744, 290)) == 0)) {  // loginscreen:tnc_decline_popup
+                } else if ((IF_GETHIDE(comp(744, 291)) == 0)) {  // loginscreen:com_291
                     script2465();
                 } else {
                     script3133(0);

@@ -1,17 +1,17 @@
 //
 function script10437(int0: number, int1: number): void {
-    var int2 = comp(1477, 896);  // toplevel_v2:hover_text_listener
+    var int2 = comp(1477, 909);  // toplevel_v2:dropdown_build
     switch (IF_GETTOP()) {
         case 906: {
             int2 = comp(906, 163);  // lobbyscreen:dropdown_highlight
             break;
         }
         case 744: {
-            int2 = comp(744, 354);  // loginscreen:dropdown_highlight
+            int2 = comp(744, 355);  // loginscreen:dropdown_list
             break;
         }
         default: {
-            int2 = comp(1477, 896);  // toplevel_v2:hover_text_listener
+            int2 = comp(1477, 909);  // toplevel_v2:dropdown_build
             break;
         }
     };

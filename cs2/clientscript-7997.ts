@@ -14,8 +14,8 @@ function script7997(): void {
     } else {
         script9944();
     };
-    IF_SETHIDE(true, comp(1477, 805));  // toplevel_v2:yak_track_close_button
+    IF_SETHIDE(true, comp(1477, 817));  // toplevel_v2:escape_menu
     script8702(-1, 9);
-    IF_SETHIDE(true, comp(1477, 806));  // toplevel_v2:event_crafting
+    IF_SETHIDE(true, comp(1477, 818));  // toplevel_v2:escape_menu_background
     return;
 }

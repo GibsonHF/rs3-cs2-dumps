@@ -39,6 +39,14 @@ function script10068(int0: number, int1: number): void {
             };
             break;
         }
+        case 13: {
+            stack(3);
+            stack(int2);
+            stack(varclient_8499);
+            stack(-1);
+            script21261();
+            break;
+        }
     };
     script8193();
     script8192();

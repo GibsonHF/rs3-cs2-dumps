@@ -11,25 +11,25 @@ function script8875(int0: number): number {
             return 96796718;
         }
         case 3: {
-            return 96797497;
+            return 96797509;
         }
         case 7: {
-            return 96797416;
+            return 96797428;
         }
         case 4: {
-            return 96797309;
+            return 96797315;
         }
         case 1036: {
-            return 96797313;
+            return 96797319;
         }
         case 5: {
             return 96796716;
         }
         case 6: {
-            return 96797401;
+            return 96797413;
         }
         case 1051: {
-            return 96797360;
+            return 96797368;
         }
     };
     return -1;

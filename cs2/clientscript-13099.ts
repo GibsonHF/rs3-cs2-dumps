@@ -258,6 +258,52 @@ function script13099(int0: number): string {
                                 };
                                 break;
                             }
+                            case 53570:
+                            case 53571:
+                            case 53572:
+                            case 53573:
+                            case 53574:
+                            case 53575: {
+                                if ((varbitplayer_62263 == 1)) {
+                                    string0 = `Slayer tasks completed: ${inttostring(varbitplayer_62262, 10)}/${inttostring(10, 10)}`;
+                                };
+                                break;
+                            }
+                            case 53576:
+                            case 53577:
+                            case 53578:
+                            case 53579:
+                            case 53580:
+                            case 53581: {
+                                if ((varbitplayer_62263 == 1)) {
+                                    string0 = `Slayer tasks completed: ${inttostring(varbitplayer_62262, 10)}/${inttostring(25, 10)}`;
+                                };
+                                break;
+                            }
+                            case 53583: {
+                                if ((varbitplayer_62276 == 1)) {
+                                    string0 = `Slayer tasks completed: ${inttostring(varbitplayer_62262, 10)}/${inttostring(10, 10)}`;
+                                };
+                                break;
+                            }
+                            case 53584: {
+                                if ((varbitplayer_62276 == 1)) {
+                                    string0 = `Slayer tasks completed: ${inttostring(varbitplayer_62262, 10)}/${inttostring(25, 10)}`;
+                                };
+                                break;
+                            }
+                            case 53589: {
+                                if ((varbitplayer_62275 == 1)) {
+                                    string0 = `Slayer tasks completed: ${inttostring(varbitplayer_62262, 10)}/${inttostring(10, 10)}`;
+                                };
+                                break;
+                            }
+                            case 53592: {
+                                if ((varbitplayer_62275 == 1)) {
+                                    string0 = `Slayer tasks completed: ${inttostring(varbitplayer_62262, 10)}/${inttostring(25, 10)}`;
+                                };
+                                break;
+                            }
                         };
                     } else {
                         switch (int2) {
@@ -514,6 +560,52 @@ function script13099(int0: number): string {
                             };
                             break;
                         }
+                        case 53570:
+                        case 53571:
+                        case 53572:
+                        case 53573:
+                        case 53574:
+                        case 53575: {
+                            if ((varbitplayer_62263 == 1)) {
+                                string0 = `Slayer tasks completed: ${inttostring(varbitplayer_62262, 10)}/${inttostring(10, 10)}`;
+                            };
+                            break;
+                        }
+                        case 53576:
+                        case 53577:
+                        case 53578:
+                        case 53579:
+                        case 53580:
+                        case 53581: {
+                            if ((varbitplayer_62263 == 1)) {
+                                string0 = `Slayer tasks completed: ${inttostring(varbitplayer_62262, 10)}/${inttostring(25, 10)}`;
+                            };
+                            break;
+                        }
+                        case 53583: {
+                            if ((varbitplayer_62276 == 1)) {
+                                string0 = `Slayer tasks completed: ${inttostring(varbitplayer_62262, 10)}/${inttostring(10, 10)}`;
+                            };
+                            break;
+                        }
+                        case 53584: {
+                            if ((varbitplayer_62276 == 1)) {
+                                string0 = `Slayer tasks completed: ${inttostring(varbitplayer_62262, 10)}/${inttostring(25, 10)}`;
+                            };
+                            break;
+                        }
+                        case 53589: {
+                            if ((varbitplayer_62275 == 1)) {
+                                string0 = `Slayer tasks completed: ${inttostring(varbitplayer_62262, 10)}/${inttostring(10, 10)}`;
+                            };
+                            break;
+                        }
+                        case 53592: {
+                            if ((varbitplayer_62275 == 1)) {
+                                string0 = `Slayer tasks completed: ${inttostring(varbitplayer_62262, 10)}/${inttostring(25, 10)}`;
+                            };
+                            break;
+                        }
                     };
                 } else {
                     switch (int2) {
@@ -745,6 +837,52 @@ function script13099(int0: number): string {
                     case 3046: {
                         if ((varbitplayer_30318 == 1)) {
                             string0 = "You must own the Igneous Kal-Mor or Igneous Kal-Zuk cape to use this override.";
+                        };
+                        break;
+                    }
+                    case 53570:
+                    case 53571:
+                    case 53572:
+                    case 53573:
+                    case 53574:
+                    case 53575: {
+                        if ((varbitplayer_62263 == 1)) {
+                            string0 = `Slayer tasks completed: ${inttostring(varbitplayer_62262, 10)}/${inttostring(10, 10)}`;
+                        };
+                        break;
+                    }
+                    case 53576:
+                    case 53577:
+                    case 53578:
+                    case 53579:
+                    case 53580:
+                    case 53581: {
+                        if ((varbitplayer_62263 == 1)) {
+                            string0 = `Slayer tasks completed: ${inttostring(varbitplayer_62262, 10)}/${inttostring(25, 10)}`;
+                        };
+                        break;
+                    }
+                    case 53583: {
+                        if ((varbitplayer_62276 == 1)) {
+                            string0 = `Slayer tasks completed: ${inttostring(varbitplayer_62262, 10)}/${inttostring(10, 10)}`;
+                        };
+                        break;
+                    }
+                    case 53584: {
+                        if ((varbitplayer_62276 == 1)) {
+                            string0 = `Slayer tasks completed: ${inttostring(varbitplayer_62262, 10)}/${inttostring(25, 10)}`;
+                        };
+                        break;
+                    }
+                    case 53589: {
+                        if ((varbitplayer_62275 == 1)) {
+                            string0 = `Slayer tasks completed: ${inttostring(varbitplayer_62262, 10)}/${inttostring(10, 10)}`;
+                        };
+                        break;
+                    }
+                    case 53592: {
+                        if ((varbitplayer_62275 == 1)) {
+                            string0 = `Slayer tasks completed: ${inttostring(varbitplayer_62262, 10)}/${inttostring(25, 10)}`;
                         };
                         break;
                     }
@@ -1006,6 +1144,52 @@ function script13099(int0: number): string {
                             };
                             break;
                         }
+                        case 53570:
+                        case 53571:
+                        case 53572:
+                        case 53573:
+                        case 53574:
+                        case 53575: {
+                            if ((varbitplayer_62263 == 1)) {
+                                string0 = `Slayer tasks completed: ${inttostring(varbitplayer_62262, 10)}/${inttostring(10, 10)}`;
+                            };
+                            break;
+                        }
+                        case 53576:
+                        case 53577:
+                        case 53578:
+                        case 53579:
+                        case 53580:
+                        case 53581: {
+                            if ((varbitplayer_62263 == 1)) {
+                                string0 = `Slayer tasks completed: ${inttostring(varbitplayer_62262, 10)}/${inttostring(25, 10)}`;
+                            };
+                            break;
+                        }
+                        case 53583: {
+                            if ((varbitplayer_62276 == 1)) {
+                                string0 = `Slayer tasks completed: ${inttostring(varbitplayer_62262, 10)}/${inttostring(10, 10)}`;
+                            };
+                            break;
+                        }
+                        case 53584: {
+                            if ((varbitplayer_62276 == 1)) {
+                                string0 = `Slayer tasks completed: ${inttostring(varbitplayer_62262, 10)}/${inttostring(25, 10)}`;
+                            };
+                            break;
+                        }
+                        case 53589: {
+                            if ((varbitplayer_62275 == 1)) {
+                                string0 = `Slayer tasks completed: ${inttostring(varbitplayer_62262, 10)}/${inttostring(10, 10)}`;
+                            };
+                            break;
+                        }
+                        case 53592: {
+                            if ((varbitplayer_62275 == 1)) {
+                                string0 = `Slayer tasks completed: ${inttostring(varbitplayer_62262, 10)}/${inttostring(25, 10)}`;
+                            };
+                            break;
+                        }
                     };
                 } else {
                     switch (int2) {
@@ -1262,6 +1446,52 @@ function script13099(int0: number): string {
                         };
                         break;
                     }
+                    case 53570:
+                    case 53571:
+                    case 53572:
+                    case 53573:
+                    case 53574:
+                    case 53575: {
+                        if ((varbitplayer_62263 == 1)) {
+                            string0 = `Slayer tasks completed: ${inttostring(varbitplayer_62262, 10)}/${inttostring(10, 10)}`;
+                        };
+                        break;
+                    }
+                    case 53576:
+                    case 53577:
+                    case 53578:
+                    case 53579:
+                    case 53580:
+                    case 53581: {
+                        if ((varbitplayer_62263 == 1)) {
+                            string0 = `Slayer tasks completed: ${inttostring(varbitplayer_62262, 10)}/${inttostring(25, 10)}`;
+                        };
+                        break;
+                    }
+                    case 53583: {
+                        if ((varbitplayer_62276 == 1)) {
+                            string0 = `Slayer tasks completed: ${inttostring(varbitplayer_62262, 10)}/${inttostring(10, 10)}`;
+                        };
+                        break;
+                    }
+                    case 53584: {
+                        if ((varbitplayer_62276 == 1)) {
+                            string0 = `Slayer tasks completed: ${inttostring(varbitplayer_62262, 10)}/${inttostring(25, 10)}`;
+                        };
+                        break;
+                    }
+                    case 53589: {
+                        if ((varbitplayer_62275 == 1)) {
+                            string0 = `Slayer tasks completed: ${inttostring(varbitplayer_62262, 10)}/${inttostring(10, 10)}`;
+                        };
+                        break;
+                    }
+                    case 53592: {
+                        if ((varbitplayer_62275 == 1)) {
+                            string0 = `Slayer tasks completed: ${inttostring(varbitplayer_62262, 10)}/${inttostring(25, 10)}`;
+                        };
+                        break;
+                    }
                 };
             } else {
                 switch (int2) {
@@ -1493,6 +1723,52 @@ function script13099(int0: number): string {
                 case 3046: {
                     if ((varbitplayer_30318 == 1)) {
                         string0 = "You must own the Igneous Kal-Mor or Igneous Kal-Zuk cape to use this override.";
+                    };
+                    break;
+                }
+                case 53570:
+                case 53571:
+                case 53572:
+                case 53573:
+                case 53574:
+                case 53575: {
+                    if ((varbitplayer_62263 == 1)) {
+                        string0 = `Slayer tasks completed: ${inttostring(varbitplayer_62262, 10)}/${inttostring(10, 10)}`;
+                    };
+                    break;
+                }
+                case 53576:
+                case 53577:
+                case 53578:
+                case 53579:
+                case 53580:
+                case 53581: {
+                    if ((varbitplayer_62263 == 1)) {
+                        string0 = `Slayer tasks completed: ${inttostring(varbitplayer_62262, 10)}/${inttostring(25, 10)}`;
+                    };
+                    break;
+                }
+                case 53583: {
+                    if ((varbitplayer_62276 == 1)) {
+                        string0 = `Slayer tasks completed: ${inttostring(varbitplayer_62262, 10)}/${inttostring(10, 10)}`;
+                    };
+                    break;
+                }
+                case 53584: {
+                    if ((varbitplayer_62276 == 1)) {
+                        string0 = `Slayer tasks completed: ${inttostring(varbitplayer_62262, 10)}/${inttostring(25, 10)}`;
+                    };
+                    break;
+                }
+                case 53589: {
+                    if ((varbitplayer_62275 == 1)) {
+                        string0 = `Slayer tasks completed: ${inttostring(varbitplayer_62262, 10)}/${inttostring(10, 10)}`;
+                    };
+                    break;
+                }
+                case 53592: {
+                    if ((varbitplayer_62275 == 1)) {
+                        string0 = `Slayer tasks completed: ${inttostring(varbitplayer_62262, 10)}/${inttostring(25, 10)}`;
                     };
                     break;
                 }

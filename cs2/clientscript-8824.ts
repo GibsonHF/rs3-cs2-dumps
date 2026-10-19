@@ -39,7 +39,7 @@ function script8824(int0: number, int1: number, int2: number): number {
         }
         case 21: {
             int5 = 0;
-            while ((int5 <= 46)) {
+            while ((int5 <= 47)) {
                 [int3, int4] = script8825(int0, int5);
                 if (((int3 == int1) && (int4 == int2))) {
                     return int5;

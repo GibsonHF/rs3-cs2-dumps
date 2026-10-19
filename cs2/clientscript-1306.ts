@@ -17,9 +17,9 @@ function script1306(int0: number, int1: number): void {
         script2466();
         CLIENTOPTION_SET(6, script42(varclient_987));
     };
-    IF_SETHIDE(int0, comp(1477, 883));  // toplevel_v2:flash_yellow_11
-    IF_SETHIDE(int0, comp(1477, 816));  // toplevel_v2:floater_layer
-    IF_SETHIDE(int0, comp(1477, 879));  // toplevel_v2:flash_yellow_10
+    IF_SETHIDE(int0, comp(1477, 896));  // toplevel_v2:hover_text_listener
+    IF_SETHIDE(int0, comp(1477, 828));  // toplevel_v2:fixed_overlay_windows
+    IF_SETHIDE(int0, comp(1477, 891));  // toplevel_v2:confirm_save_popup_layer
     var int2 = 0;
     var int3 = 0;
     var int4 = 0;

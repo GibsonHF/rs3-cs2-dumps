@@ -1,0 +1,47 @@
+//
+function script21153(): void {
+    stack(int0);
+    stack(10);
+    stack(-1);
+    unk11849();
+    var string0 = [];
+    stack(int0);
+    stack(6);
+    stack(-1);
+    unk11849();
+    var string1 = [];
+    stack(int0);
+    stack(12);
+    stack(-1);
+    unk11849();
+    var string2 = [];
+    stack(int0);
+    stack(7);
+    stack(-1);
+    unk11849();
+    var string3 = [];
+    var string4 = "";
+    stack(int0);
+    stack(14);
+    stack(-1);
+    unk11539();
+    var int1 = [];
+    stack(int0);
+    stack(1);
+    stack(-1);
+    unk11539();
+    var int2 = [];
+    stack(int0);
+    stack(9);
+    stack(-1);
+    unk11849();
+    var string5 = [];
+    stack(string1);
+    stack(string2);
+    stack(string3);
+    stack(string0);
+    stack(int1);
+    stack(int2);
+    stack(string5);
+    return;
+}

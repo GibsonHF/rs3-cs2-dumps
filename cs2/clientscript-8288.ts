@@ -59,6 +59,13 @@ function script8288(int0: number): void {
             };
             break;
         }
+        case 13: {
+            if ((int1 == 0)) {
+                stack(int19);
+                script21258();
+            };
+            break;
+        }
     };
     var int21 = struct_getparam(int4, 6318);
     if (((varbitplayer_22875 == 2) || (varbitplayer_38842 == 1))) {

@@ -215,7 +215,7 @@ function script2162(int0: number, int1: number, int2: number, int3: number, int4
                         pop_array[2](int12, ((int25 + 1) * int30));
                         if ((quest_getparam(int27, 9404) != -1)) {
                             pop_array[2]((unk11170[2](int12) + ((quest_getparam(int27, 9404) - 1999) * 1000)));
-                        } else {
+                        } else if ((int27 != 535 as quest)) {
                             pop_array[2]((unk11170[2](int12) + ((quest_getparam(int27, 7834) - 1999) * 1000)));
                         };
                         if ((quest_getparam(int27, 7160) != -1)) {

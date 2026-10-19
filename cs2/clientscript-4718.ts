@@ -410,14 +410,14 @@ function script4718(int0: number): number {
             };
             break;
         }
-        case 11387: {
-            if ((varbitplayer_14905 == 0)) {
+        case 53610: {
+            if ((varbitplayer_62366 == 0)) {
                 return 0;
             };
             break;
         }
-        case 11388: {
-            if ((varbitplayer_14906 == 0)) {
+        case 53611: {
+            if ((varbitplayer_62367 == 0)) {
                 return 0;
             };
             break;

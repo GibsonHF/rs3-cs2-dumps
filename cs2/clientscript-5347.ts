@@ -3,19 +3,19 @@ function script5347(int0: number, int1: number, int2: number, int3: number, int4
     var int9 = 0;
     switch (int7) {
         case 0: {
-            int9 = script20478(string0, int6, 2100, 0);
+            int9 = script20478(string0, int6, int8, 0);
             break;
         }
         case 1: {
-            int9 = script20478(string0, (IF_GETWIDTH(int0) - int6), 2100, 0);
+            int9 = script20478(string0, (IF_GETWIDTH(int0) - int6), int8, 0);
             break;
         }
         case 2: {
-            int9 = script20478(string0, SCALE(IF_GETWIDTH(int0), 16384, int6), 2100, 0);
+            int9 = script20478(string0, SCALE(IF_GETWIDTH(int0), 16384, int6), int8, 0);
             break;
         }
         default: {
-            int9 = script20478(string0, IF_GETWIDTH(int0), 2100, 0);
+            int9 = script20478(string0, IF_GETWIDTH(int0), int8, 0);
             break;
         }
     };

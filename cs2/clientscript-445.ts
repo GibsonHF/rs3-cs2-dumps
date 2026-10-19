@@ -53,6 +53,10 @@ function script445(int0: number, int1: number): void {
             varbitplayer_58367 = int1;
             break;
         }
+        case 13: {
+            varbitplayer_62195 = int1;
+            break;
+        }
         case 100: {
             varclient_4270 = int1;
             break;

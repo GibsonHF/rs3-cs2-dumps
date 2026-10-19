@@ -57,12 +57,15 @@ function script2385(int0: number, int1: number): number {
                     };
                     break;
                 }
+                case 47: {
+                    return 16;
+                }
                 default: {
                     if ((int0 == script2390(7))) {
-                        return 16;
+                        return 17;
                     };
                     if ((int0 == script2390(9))) {
-                        return 17;
+                        return 18;
                     };
                     break;
                 }
@@ -117,12 +120,15 @@ function script2385(int0: number, int1: number): number {
                     };
                     break;
                 }
+                case 47: {
+                    return 14;
+                }
                 default: {
                     if ((int0 == script2390(7))) {
-                        return 14;
+                        return 15;
                     };
                     if ((int0 == script2390(9))) {
-                        return 15;
+                        return 16;
                     };
                     break;
                 }

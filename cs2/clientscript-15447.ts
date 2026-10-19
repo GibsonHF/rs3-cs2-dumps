@@ -8,7 +8,7 @@ function script15447(): number {
             return script8072();
         }
         case 2: {
-            return 96797380;
+            return 96797392;
         }
         case 3: {
             return script14198();
@@ -26,5 +26,5 @@ function script15447(): number {
             return -1;
         }
     };
-    return 96797366;
+    return 96797378;
 }

@@ -6,8 +6,8 @@ function script15698(int0: number): void {
         IF_SETTEXT(string0, comp(744, 107));  // loginscreen:username
         script3237(48758890, 48758891, 48758892, string0, 100, 212);
     } else if ((int0 == 113)) {
-        IF_SETTEXT(varclient_6896, 48759112);
-        script3237(48759111, 48759112, 48759113, varclient_6896, 113, 212);
+        IF_SETTEXT(varclient_6896, 48759113);
+        script3237(48759112, 48759113, 48759114, varclient_6896, 113, 212);
     };
     return;
 }

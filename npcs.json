@@ -555056,64 +555056,6 @@
 		"scaleY": 32
 	},
 	{
-		"action_cursors": [
-			44,
-			null,
-			null,
-			null,
-			null,
-			null
-		],
-		"actions": [
-			"Talk to",
-			null,
-			"Shop",
-			null,
-			null
-		],
-		"ambience": 20,
-		"animation_group": 4913,
-		"boundSize": 1,
-		"combat": 0,
-		"contrast": 25,
-		"headModels": [
-			71644
-		],
-		"id": 15638,
-		"models": [
-			71779
-		],
-		"movementCapabilities": 1,
-		"name": "Oomad Arrow"
-	},
-	{
-		"ambience": 20,
-		"animation_group": 2562,
-		"boundSize": 1,
-		"combat": 0,
-		"contrast": 25,
-		"id": 15639,
-		"models": [
-			72046
-		],
-		"movementCapabilities": 1,
-		"name": "Blue runner"
-	},
-	{
-		"animation_group": 190,
-		"boundSize": 1,
-		"color_replacements": {
-			"36824": 32736
-		},
-		"combat": 0,
-		"id": 15640,
-		"models": [
-			72052
-		],
-		"movementCapabilities": 1,
-		"name": "Gold runner"
-	},
-	{
 		"alwaysontop": true,
 		"ambience": 20,
 		"animation_group": 2557,
@@ -555132,395 +555074,6 @@
 		],
 		"movementCapabilities": 1,
 		"turnspeed": 1024
-	},
-	{
-		"animation_group": 4913,
-		"boundSize": 1,
-		"color_replacements": {
-			"36824": 992
-		},
-		"combat": 0,
-		"id": 15642,
-		"models": [
-			71777
-		],
-		"movementCapabilities": 1,
-		"name": "Green runner"
-	},
-	{
-		"ambience": 20,
-		"animation_group": 86,
-		"boundSize": 1,
-		"color_replacements": {
-			"36824": 10048
-		},
-		"combat": 0,
-		"contrast": 25,
-		"id": 15643,
-		"models": [
-			72056
-		],
-		"movementCapabilities": 1,
-		"name": "Red runner"
-	},
-	{
-		"animation_group": 1787,
-		"boundSize": 2,
-		"combat": 0,
-		"id": 15644,
-		"models": [
-			72051
-		],
-		"movementCapabilities": 3,
-		"name": "Streaker"
-	},
-	{
-		"animation_group": 3157,
-		"boundSize": 2,
-		"combat": 0,
-		"id": 15645,
-		"models": [
-			91930
-		],
-		"movementCapabilities": 3,
-		"name": "Cow",
-		"respawnDirection": 2
-	},
-	{
-		"boundSize": 1,
-		"combat": 0,
-		"headModels": [
-			1823
-		],
-		"id": 15646,
-		"models": [
-			2680
-		],
-		"movementCapabilities": 3,
-		"name": "Ozan"
-	},
-	{
-		"boundSize": 1,
-		"combat": 0,
-		"headModels": [
-			2686
-		],
-		"id": 15647,
-		"models": [
-			2680
-		],
-		"movementCapabilities": 3,
-		"name": "Tentacle"
-	},
-	{
-		"boundSize": 1,
-		"combat": 0,
-		"headModels": [
-			57933
-		],
-		"id": 15648,
-		"models": [
-			2680
-		],
-		"movementCapabilities": 3,
-		"name": "Mr. Mordaut"
-	},
-	{
-		"boundSize": 1,
-		"combat": 0,
-		"headModels": [
-			52825
-		],
-		"id": 15649,
-		"models": [
-			2680
-		],
-		"movementCapabilities": 3,
-		"name": "Troll"
-	},
-	{
-		"boundSize": 1,
-		"combat": 0,
-		"headModels": [
-			55626
-		],
-		"id": 15650,
-		"models": [
-			2680
-		],
-		"movementCapabilities": 3,
-		"name": "Thok"
-	},
-	{
-		"boundSize": 1,
-		"combat": 0,
-		"headModels": [
-			19963
-		],
-		"id": 15651,
-		"models": [
-			2680
-		],
-		"movementCapabilities": 3,
-		"name": "Raptor"
-	},
-	{
-		"action_cursors": [
-			44,
-			null,
-			null,
-			null,
-			null,
-			null
-		],
-		"actions": [
-			"Talk to",
-			null,
-			"Shop",
-			null,
-			null
-		],
-		"alwaysontop": true,
-		"ambience": 20,
-		"animation_group": 4913,
-		"boundSize": 1,
-		"combat": 0,
-		"contrast": 25,
-		"headModels": [
-			71644
-		],
-		"id": 15652,
-		"models": [
-			71779
-		],
-		"movementCapabilities": 1,
-		"name": "Oomad Arrow",
-		"respawnDirection": 0
-	},
-	{
-		"action_cursors": [
-			44,
-			null,
-			null,
-			null,
-			null,
-			null
-		],
-		"actions": [
-			"Talk to",
-			null,
-			null,
-			null,
-			null
-		],
-		"alwaysontop": true,
-		"ambience": 20,
-		"animation_group": 1801,
-		"boundSize": 1,
-		"combat": 0,
-		"contrast": 25,
-		"headModels": [
-			71954
-		],
-		"id": 15653,
-		"models": [
-			72060
-		],
-		"movementCapabilities": 1,
-		"name": "Sunnel"
-	},
-	{
-		"action_cursors": [
-			44,
-			null,
-			null,
-			null,
-			null,
-			null
-		],
-		"actions": [
-			"Talk to",
-			null,
-			null,
-			null,
-			null
-		],
-		"alwaysontop": true,
-		"animation_group": 2538,
-		"boundSize": 1,
-		"combat": 0,
-		"headModels": [
-			71957
-		],
-		"id": 15654,
-		"models": [
-			72047
-		],
-		"movementCapabilities": 1,
-		"name": "Mikael"
-	},
-	{
-		"action_cursors": [
-			44,
-			null,
-			null,
-			null,
-			null,
-			null
-		],
-		"actions": [
-			"Talk to",
-			null,
-			null,
-			null,
-			null
-		],
-		"alwaysontop": true,
-		"animateIdle": false,
-		"animation_group": 2563,
-		"boundSize": 1,
-		"combat": 0,
-		"headModels": [
-			71959
-		],
-		"id": 15655,
-		"models": [
-			72053
-		],
-		"movementCapabilities": 1,
-		"name": "Larsa",
-		"respawnDirection": 0
-	},
-	{
-		"action_cursors": [
-			44,
-			null,
-			null,
-			null,
-			null,
-			null
-		],
-		"actions": [
-			"Talk to",
-			null,
-			null,
-			null,
-			null
-		],
-		"alwaysontop": true,
-		"animation_group": 2571,
-		"boundSize": 1,
-		"combat": 0,
-		"headModels": [
-			71958
-		],
-		"id": 15656,
-		"models": [
-			72054
-		],
-		"movementCapabilities": 1,
-		"name": "Mudfoot",
-		"respawnDirection": 6
-	},
-	{
-		"action_cursors": [
-			44,
-			null,
-			null,
-			null,
-			null,
-			null
-		],
-		"actions": [
-			"Talk to",
-			null,
-			null,
-			null,
-			null
-		],
-		"alwaysontop": true,
-		"animation_group": 2564,
-		"boundSize": 2,
-		"combat": 0,
-		"headModels": [
-			71956
-		],
-		"id": 15657,
-		"models": [
-			72037
-		],
-		"movementCapabilities": 1,
-		"name": "Unuki",
-		"respawnDirection": 6,
-		"turnspeed": 0
-	},
-	{
-		"action_cursors": [
-			44,
-			null,
-			null,
-			null,
-			null,
-			null
-		],
-		"actions": [
-			"Talk to",
-			null,
-			null,
-			null,
-			null
-		],
-		"alwaysontop": true,
-		"animation_group": 4,
-		"boundSize": 1,
-		"combat": 0,
-		"headModels": [
-			71955
-		],
-		"id": 15658,
-		"models": [
-			72043
-		],
-		"movementCapabilities": 1,
-		"name": "Oluien",
-		"respawnDirection": 0
-	},
-	{
-		"actions": [
-			"Roll",
-			null,
-			null,
-			null,
-			null
-		],
-		"alwaysontop": true,
-		"boundSize": 1,
-		"combat": 0,
-		"id": 15659,
-		"models": [
-			72036
-		],
-		"movementCapabilities": 1,
-		"name": "Wheel of cheese"
-	},
-	{
-		"actions": [
-			"Catch",
-			null,
-			null,
-			null,
-			null
-		],
-		"alwaysontop": true,
-		"animation_group": 2573,
-		"boundSize": 1,
-		"combat": 0,
-		"id": 15660,
-		"models": [
-			72036
-		],
-		"movementCapabilities": 1,
-		"name": "Wheel of cheese"
 	},
 	{
 		"action_cursors": [
@@ -622664,17 +622217,6 @@
 		"name": "\"Wounded Soldier\""
 	},
 	{
-		"animation_group": 3157,
-		"boundSize": 2,
-		"combat": 0,
-		"id": 17674,
-		"models": [
-			95129
-		],
-		"movementCapabilities": 1,
-		"name": "\"Cow\""
-	},
-	{
 		"animation_group": 1787,
 		"boundSize": 2,
 		"combat": 0,
@@ -624021,17 +623563,6 @@
 		],
 		"movementCapabilities": 1,
 		"name": "\"Banker\""
-	},
-	{
-		"animation_group": 66,
-		"boundSize": 2,
-		"combat": 0,
-		"id": 17766,
-		"models": [
-			72048
-		],
-		"movementCapabilities": 1,
-		"name": "\"Cow\""
 	},
 	{
 		"animation_group": 4,
@@ -663514,15 +663045,15 @@
 		"name": "Monkey"
 	},
 	{
-		"animation_group": 2564,
+		"animation_group": 4943,
 		"boundSize": 2,
 		"combat": 0,
 		"headModels": [
-			71956
+			146828
 		],
 		"id": 19292,
 		"models": [
-			72037
+			146975
 		],
 		"movementCapabilities": 1,
 		"name": "Unuki",
@@ -717065,7 +716596,7 @@
 			null
 		],
 		"alwaysontop": true,
-		"animation_group": 2573,
+		"animation_group": 4941,
 		"boundSize": 1,
 		"combat": 0,
 		"id": 21155,
@@ -852778,37 +852309,42 @@
 			null
 		],
 		"alwaysontop": true,
-		"ambience": 20,
 		"animation_group": 2699,
 		"boundSize": 1,
 		"color_replacements": {
-			"10659": 1689,
-			"41": 1699,
-			"55232": 5178,
-			"5528": 5168,
-			"61": 1694,
-			"6798": 5153
+			"16323": 4374,
+			"2184": 63650,
+			"38198": 563,
+			"38343": 563,
+			"39089": 556,
+			"42062": 7494,
+			"42075": 35944,
+			"4374": 3143,
+			"6798": 10283,
+			"7387": 3365
 		},
 		"combat": 0,
 		"headModels": [
-			141661,
-			39180,
-			141652
+			141089,
+			141065,
+			146689
 		],
 		"id": 25273,
 		"models": [
-			198,
-			142066,
-			27646,
-			42894,
-			3330,
-			156,
-			142060,
-			26126,
-			185
+			141088,
+			141064,
+			121569,
+			121570,
+			124722,
+			141087,
+			146691
 		],
 		"movementCapabilities": 1,
-		"name": "Reginald"
+		"name": "Reginald the Gielinor Guide",
+		"texture_replacements": {
+			"13480": 25257,
+			"13482": 25258
+		}
 	},
 	{
 		"action_cursors": [
@@ -852827,38 +852363,31 @@
 			null
 		],
 		"alwaysontop": true,
-		"ambience": 20,
 		"animation_group": 2702,
 		"boundSize": 1,
-		"color_replacements": {
-			"10394": 39218,
-			"11146": 39188,
-			"123": 36940,
-			"25238": 39218,
-			"7446": 38951,
-			"8741": 39218
-		},
 		"combat": 0,
 		"headModels": [
-			39025
+			122122,
+			141083
 		],
 		"id": 25274,
 		"models": [
-			384,
-			9643,
-			6699,
-			3194,
-			143195,
-			11777,
-			27657,
-			26141
+			122125,
+			122127,
+			122126,
+			141087,
+			122123,
+			103790,
+			141082
 		],
 		"movementCapabilities": 1,
-		"name": "Brynna",
+		"name": "Brynna the Survival Expert",
 		"respawnDirection": 0,
 		"texture_replacements": {
-			"604": 745,
-			"760": 620
+			"13783": 25267,
+			"13787": 25270,
+			"13790": 25272,
+			"13792": 25271
 		}
 	},
 	{
@@ -852878,28 +852407,41 @@
 			null
 		],
 		"alwaysontop": true,
-		"ambience": 20,
 		"animation_group": 4,
 		"boundSize": 1,
 		"color_replacements": {
-			"4540": 4637,
-			"4550": 4645,
-			"6798": 5173,
-			"8741": 16696
+			"38474": 17552,
+			"40240": 17691,
+			"43293": 17808,
+			"4533": 6795,
+			"4540": 6802,
+			"4550": 6806,
+			"4554": 6811,
+			"6798": 10283
 		},
 		"combat": 0,
 		"headModels": [
-			39626,
-			42905,
-			39485
+			141071,
+			132977,
+			141089
 		],
 		"id": 25275,
 		"models": [
-			108216
+			141070,
+			132979,
+			132981,
+			141087,
+			132980,
+			132978,
+			141088
 		],
 		"movementCapabilities": 1,
-		"name": "Master chef",
-		"respawnDirection": 2
+		"name": "Lev the Master Chef",
+		"texture_replacements": {
+			"18159": 25273,
+			"18160": 25274,
+			"18161": 25275
+		}
 	},
 	{
 		"action_cursors": [
@@ -852918,35 +852460,29 @@
 			null
 		],
 		"alwaysontop": true,
-		"ambience": 20,
 		"animation_group": 4,
 		"boundSize": 1,
 		"color_replacements": {
-			"10002": 17170,
-			"4626": 16538,
-			"7566": 16496,
-			"8472": 17170,
-			"8483": 17176,
-			"8596": 17172
+			"16311": 18955,
+			"6798": 8
 		},
 		"combat": 0,
 		"headModels": [
-			141758,
-			143279
+			141089,
+			141047
 		],
 		"id": 25276,
 		"models": [
-			142066,
-			249,
-			42892,
-			21868,
-			42104,
-			11869,
-			185
+			141088,
+			141046,
+			128311,
+			128316,
+			128315,
+			128310
 		],
 		"movementCapabilities": 1,
-		"name": "Quest guide",
-		"respawnDirection": 0
+		"name": "Arthur the Quest Guide",
+		"respawnDirection": 6
 	},
 	{
 		"action_cursors": [
@@ -852965,39 +852501,32 @@
 			null
 		],
 		"alwaysontop": true,
-		"ambience": 20,
-		"animation_group": 4,
+		"animation_group": 2,
 		"boundSize": 1,
 		"color_replacements": {
-			"10324": 7346,
-			"10341": 7366,
-			"10353": 7376,
-			"22177": 4259,
-			"3346": 4242,
-			"3974": 4236
+			"3468": 0,
+			"3476": 2,
+			"3482": 8,
+			"3488": 14
 		},
 		"combat": 0,
 		"headModels": [
-			39917,
-			143279
+			90027,
+			90039
 		],
 		"id": 25277,
 		"models": [
-			211,
-			249,
-			19828,
-			20753,
-			11726,
-			19332,
-			509,
-			32066
+			90291,
+			90334,
+			90348,
+			90303,
+			78297,
+			90306,
+			90329
 		],
 		"movementCapabilities": 1,
-		"name": "Mining instructor",
-		"respawnDirection": 0,
-		"texture_replacements": {
-			"620": 311
-		}
+		"name": "Dezzick the Mining Instructor",
+		"respawnDirection": 0
 	},
 	{
 		"action_cursors": [
@@ -853028,7 +852557,8 @@
 			565
 		],
 		"movementCapabilities": 1,
-		"name": "Combat instructor"
+		"name": "Vannaka the Combat Instructor",
+		"respawnDirection": 5
 	},
 	{
 		"action_cursors": [
@@ -853047,37 +852577,24 @@
 			null
 		],
 		"alwaysontop": true,
-		"ambience": 20,
-		"animation_group": 4,
+		"animation_group": 4916,
 		"boundSize": 1,
-		"color_replacements": {
-			"101": 9789,
-			"12": 40966,
-			"25238": 40966,
-			"48010": 40966,
-			"6798": 127,
-			"8741": 40966
-		},
 		"combat": 0,
 		"headModels": [
-			39744,
-			143286
+			42660,
+			63369
 		],
 		"id": 25279,
 		"models": [
-			6848,
-			247,
-			40209,
-			10301,
-			12138,
-			19948
+			62957,
+			62994,
+			63063,
+			62888,
+			62908,
+			63021
 		],
 		"movementCapabilities": 1,
-		"name": "Financial advisor",
-		"texture_replacements": {
-			"608": 620,
-			"745": 746
-		}
+		"name": "Mogle the Financial Advisor"
 	},
 	{
 		"action_cursors": [
@@ -853096,35 +852613,30 @@
 			null
 		],
 		"alwaysontop": true,
-		"ambience": 20,
 		"animation_group": 4,
 		"boundSize": 1,
 		"color_replacements": {
-			"25238": 6550,
-			"6798": 9135
+			"6798": 7744
 		},
 		"combat": 0,
 		"headModels": [
-			39938,
-			141689
+			140971,
+			141089
 		],
 		"id": 25280,
 		"models": [
-			143057,
-			42898,
-			246,
-			16254,
-			16253,
-			176,
-			260,
-			181
+			140970,
+			141088,
+			141087,
+			141086,
+			146695,
+			146694
 		],
 		"movementCapabilities": 1,
-		"name": "Prayer instructor",
+		"name": "Brace the Prayer Instructor",
 		"respawnDirection": 2,
 		"texture_replacements": {
-			"615": 622,
-			"621": 608
+			"25264": 25265
 		}
 	},
 	{
@@ -853144,39 +852656,38 @@
 			null
 		],
 		"alwaysontop": true,
-		"ambience": 20,
-		"animation_group": 119,
+		"animation_group": 2698,
 		"boundSize": 1,
 		"color_replacements": {
-			"41125": 38823,
-			"6798": 5200,
-			"78": 10320,
-			"8078": 38040,
-			"8741": 38823,
-			"908": 38036
+			"6798": 107
 		},
 		"combat": 0,
 		"headModels": [
-			39566,
-			143283,
-			39649
+			140942,
+			141055,
+			121630,
+			141089
 		],
 		"id": 25281,
 		"models": [
-			20398,
-			143048,
-			250,
-			40192,
-			162,
-			176,
-			21895,
-			14460,
-			9617
+			140944,
+			140944,
+			141054,
+			141087,
+			121632,
+			121634,
+			121631,
+			121633,
+			135670,
+			141088
 		],
 		"movementCapabilities": 1,
-		"name": "Magic instructor",
+		"name": "Terrova the Magic Instructor",
 		"texture_replacements": {
-			"611": 614
+			"13523": 25259,
+			"13525": 25261,
+			"13526": 25260,
+			"13527": 25262
 		}
 	},
 	{
@@ -853187,14 +852698,13 @@
 			null,
 			null
 		],
-		"ambience": 20,
-		"animation_group": 1900,
+		"animation_group": 4519,
 		"attackCursor": 42,
 		"boundSize": 1,
 		"combat": 3,
 		"id": 25282,
 		"models": [
-			61009
+			121521
 		],
 		"movementCapabilities": 3,
 		"name": "Giant rat"
@@ -853207,18 +852717,16 @@
 			null,
 			null
 		],
-		"ambience": 25,
 		"animation_group": 3206,
 		"attackCursor": 42,
 		"boundSize": 1,
 		"combat": 1,
-		"contrast": 15,
 		"extra": {
 			"attackrate": 4, // 14 chisel:attack_speed
 			"damagetype": 1, // 26 chisel:potion_effect_unk3
 			"attackbonus": 110, // 29 chisel:accuracy_melee_(npc)
 			"melee_strength": 40, // 641 chisel:damage_melee
-			"combatv2_weakness": 2, // 2848 chisel:weakness
+			"combatv2_weakness": 1, // 2848 chisel:weakness
 			"combatv2_npc_armour": 110 // 2865 chisel:armor
 		},
 		"id": 25283,
@@ -853247,27 +852755,35 @@
 			null
 		],
 		"alwaysontop": true,
-		"animation_group": 2157,
+		"animation_group": 3180,
 		"boundSize": 1,
 		"color_replacements": {
-			"47502": 10279
+			"36900": 36983,
+			"36946": 41071,
+			"36960": 5272,
+			"37895": 36932,
+			"41071": 5272
 		},
 		"combat": 0,
 		"headModels": [
-			39055
+			140720,
+			141083,
+			121601
 		],
 		"id": 25284,
 		"models": [
-			29888,
-			1595,
-			1762
+			140719,
+			141082,
+			133541,
+			133528,
+			141087,
+			133529
 		],
 		"movementCapabilities": 1,
 		"name": "Banker",
 		"texture_replacements": {
-			"604": 622,
-			"622": 618,
-			"743": 746
+			"18377": 25266,
+			"18380": 25269
 		},
 		"turnspeed": 0
 	},
@@ -956231,12 +955747,12 @@
 		"combat": 7000,
 		"contrast": 25,
 		"custombounding": [
-			-3500,
+			-4000,
 			-9000,
-			500,
-			3500,
-			-3000,
-			1000
+			-1000,
+			4000,
+			-3500,
+			1500
 		],
 		"extra": {
 			"magicattack": 4756, // 3 chisel:accuracy_magic
@@ -1067593,13 +1067109,13 @@
 		},
 		"combat": 0,
 		"headModels": [
-			141758,
-			143288
+			141089,
+			141065
 		],
 		"id": 31406,
 		"models": [
-			142066,
-			27646,
+			141088,
+			141064,
 			134852,
 			134851,
 			134896,
@@ -1067636,13 +1067152,13 @@
 		},
 		"combat": 0,
 		"headModels": [
-			141758,
-			143288
+			141089,
+			141065
 		],
 		"id": 31407,
 		"models": [
-			142066,
-			27646,
+			141088,
+			141064,
 			134852,
 			134851,
 			134896,
@@ -1082121,6 +1081637,10 @@
 			"ranged_strength": 0, // 643 chisel:damage_ranged
 			"magic_strength": 0, // 965 chisel:damage_magic
 			"combatv2_weakness": 7, // 2848 chisel:weakness
+			"combatv2_defence_weakest": 90, // 2849 chisel:weakness_modifier_weakness
+			"combatv2_defence_weakclass": 70, // 2850 chisel:weakness_modifier_weak
+			"combatv2_defence_sameclass": 60, // 2851 chisel:weakness_modifier_same
+			"combatv2_defence_strongclass": 50, // 2852 chisel:weakness_modifier_strong
 			"combatv2_npc_armour": 202 // 2865 chisel:armor
 		},
 		"headModels": [
@@ -1091495,16 +1091015,30 @@
 		"name": "Icthlarin"
 	},
 	{
-		"animation_group": 49,
+		"actions": [
+			"Interact",
+			null,
+			null,
+			null,
+			null
+		],
+		"animation_group": 4934,
 		"boundSize": 1,
 		"combat": 0,
 		"drawMapDot": false,
+		"extra": {
+			"follower_obj": 64222, // 75 chisel:pet_item_id
+			"mtx_no_recolour": 1, // 477 chisel:pet_category
+			"mtxmgt_pet_struct": 44128 // 5051 chisel:pet_varbit_reference
+		},
 		"id": 32247,
 		"models": [
-			136179
+			146745,
+			146747,
+			146749
 		],
-		"movementCapabilities": 3,
-		"name": "Happy bees"
+		"movementCapabilities": 1,
+		"name": "Ed 'Less"
 	},
 	{
 		"alwaysontop": true,
@@ -1118929,5 +1118463,1204 @@
 		"texture_replacements": {
 			"24998": 25245
 		}
+	},
+	{
+		"animation_group": 49,
+		"boundSize": 1,
+		"combat": 0,
+		"drawMapDot": false,
+		"id": 32928,
+		"models": [
+			136179
+		],
+		"movementCapabilities": 3,
+		"name": "Happy bees"
+	},
+	{
+		"animation_group": 4286,
+		"boundSize": 1,
+		"combat": 0,
+		"headModels": [
+			121926
+		],
+		"id": 32929,
+		"models": [
+			97091
+		],
+		"movementCapabilities": 3,
+		"name": "Chicken",
+		"scaleXZ": 80,
+		"scaleY": 80
+	},
+	{
+		"animation_group": 4286,
+		"boundSize": 1,
+		"combat": 0,
+		"headModels": [
+			121926
+		],
+		"id": 32930,
+		"models": [
+			97089
+		],
+		"movementCapabilities": 3,
+		"name": "Chicken",
+		"scaleXZ": 80,
+		"scaleY": 80
+	},
+	{
+		"animation_group": 4302,
+		"boundSize": 1,
+		"combat": 0,
+		"headModels": [
+			121926
+		],
+		"id": 32931,
+		"models": [
+			97088
+		],
+		"movementCapabilities": 3,
+		"name": "Rooster",
+		"scaleXZ": 90,
+		"scaleY": 90
+	},
+	{
+		"animation_group": 4626,
+		"boundSize": 1,
+		"combat": 0,
+		"headModels": [
+			121926
+		],
+		"id": 32932,
+		"models": [
+			125411
+		],
+		"movementCapabilities": 3,
+		"name": "Chick"
+	},
+	{
+		"animation_group": 4514,
+		"boundSize": 1,
+		"combat": 0,
+		"headModels": [
+			121926
+		],
+		"id": 32933,
+		"models": [
+			66539
+		],
+		"movementCapabilities": 3,
+		"name": "Cow"
+	},
+	{
+		"animation_group": 4514,
+		"boundSize": 1,
+		"combat": 0,
+		"headModels": [
+			121926
+		],
+		"id": 32934,
+		"models": [
+			66538
+		],
+		"movementCapabilities": 3,
+		"name": "Cow"
+	},
+	{
+		"animation_group": 4514,
+		"boundSize": 1,
+		"combat": 0,
+		"headModels": [
+			121926
+		],
+		"id": 32935,
+		"models": [
+			66535
+		],
+		"movementCapabilities": 3,
+		"name": "Bull"
+	},
+	{
+		"animation_group": 4299,
+		"boundSize": 1,
+		"combat": 0,
+		"headModels": [
+			121926
+		],
+		"id": 32936,
+		"models": [
+			66541
+		],
+		"movementCapabilities": 3,
+		"name": "Calf"
+	},
+	{
+		"animation_group": 4502,
+		"boundSize": 1,
+		"combat": 0,
+		"headModels": [
+			121926
+		],
+		"id": 32937,
+		"models": [
+			120931
+		],
+		"movementCapabilities": 3,
+		"name": "Stag"
+	},
+	{
+		"animation_group": 4502,
+		"boundSize": 1,
+		"combat": 0,
+		"headModels": [
+			121926
+		],
+		"id": 32938,
+		"models": [
+			135435,
+			135434
+		],
+		"movementCapabilities": 3,
+		"name": "Reindeer"
+	},
+	{
+		"animation_group": 4800,
+		"boundSize": 1,
+		"color_replacements": {
+			"65023": 6264
+		},
+		"combat": 0,
+		"headModels": [
+			136188
+		],
+		"id": 32939,
+		"models": [
+			136187
+		],
+		"movementCapabilities": 3,
+		"name": "Duck",
+		"texture_replacements": {
+			"21129": 21131
+		}
+	},
+	{
+		"animation_group": 4801,
+		"boundSize": 1,
+		"color_replacements": {
+			"65023": 6264
+		},
+		"combat": 0,
+		"headModels": [
+			136188
+		],
+		"id": 32940,
+		"models": [
+			136187
+		],
+		"movementCapabilities": 3,
+		"name": "Duck",
+		"texture_replacements": {
+			"21129": 21131
+		}
+	},
+	{
+		"animation_group": 4800,
+		"boundSize": 1,
+		"combat": 0,
+		"headModels": [
+			136188
+		],
+		"id": 32941,
+		"models": [
+			136187
+		],
+		"movementCapabilities": 3,
+		"name": "Duck",
+		"texture_replacements": {
+			"21129": 21128
+		}
+	},
+	{
+		"animation_group": 4801,
+		"boundSize": 1,
+		"combat": 0,
+		"headModels": [
+			136188
+		],
+		"id": 32942,
+		"models": [
+			136187
+		],
+		"movementCapabilities": 3,
+		"name": "Duck",
+		"texture_replacements": {
+			"21129": 21128
+		}
+	},
+	{
+		"animation_group": 4800,
+		"boundSize": 1,
+		"combat": 0,
+		"headModels": [
+			136188
+		],
+		"id": 32943,
+		"models": [
+			136187
+		],
+		"movementCapabilities": 3,
+		"name": "Duck"
+	},
+	{
+		"animation_group": 4801,
+		"boundSize": 1,
+		"combat": 0,
+		"headModels": [
+			136188
+		],
+		"id": 32944,
+		"models": [
+			136187
+		],
+		"movementCapabilities": 3,
+		"name": "Duck"
+	},
+	{
+		"animation_group": 4793,
+		"boundSize": 1,
+		"combat": 0,
+		"headModels": [
+			136190
+		],
+		"id": 32945,
+		"models": [
+			136189
+		],
+		"movementCapabilities": 3,
+		"name": "Duckling",
+		"scaleXZ": 180,
+		"scaleY": 180
+	},
+	{
+		"animation_group": 4794,
+		"boundSize": 1,
+		"combat": 0,
+		"headModels": [
+			136190
+		],
+		"id": 32946,
+		"models": [
+			136189
+		],
+		"movementCapabilities": 3,
+		"name": "Duckling",
+		"scaleXZ": 180,
+		"scaleY": 180
+	},
+	{
+		"animation_group": 4793,
+		"boundSize": 1,
+		"combat": 0,
+		"headModels": [
+			136190
+		],
+		"id": 32947,
+		"models": [
+			136189
+		],
+		"movementCapabilities": 3,
+		"name": "Duckling",
+		"scaleXZ": 180,
+		"scaleY": 180,
+		"texture_replacements": {
+			"21133": 21132
+		}
+	},
+	{
+		"animation_group": 4794,
+		"boundSize": 1,
+		"combat": 0,
+		"headModels": [
+			136190
+		],
+		"id": 32948,
+		"models": [
+			136189
+		],
+		"movementCapabilities": 3,
+		"name": "Duckling",
+		"scaleXZ": 180,
+		"scaleY": 180,
+		"texture_replacements": {
+			"21133": 21132
+		}
+	},
+	{
+		"animation_group": 4795,
+		"boundSize": 1,
+		"combat": 0,
+		"drawMapDot": false,
+		"headModels": [
+			121926
+		],
+		"id": 32949,
+		"models": [
+			136193
+		],
+		"movementCapabilities": 3,
+		"name": "Hedgehog",
+		"scaleXZ": 192,
+		"scaleY": 192
+	},
+	{
+		"animation_group": 4891,
+		"boundSize": 1,
+		"combat": 0,
+		"drawMapDot": false,
+		"headModels": [
+			139458
+		],
+		"id": 32950,
+		"models": [
+			139457
+		],
+		"movementCapabilities": 3,
+		"name": "Badger"
+	},
+	{
+		"animation_group": 98,
+		"boundSize": 1,
+		"combat": 0,
+		"id": 32951,
+		"models": [
+			26254
+		],
+		"movementCapabilities": 3,
+		"name": "Fox"
+	},
+	{
+		"animation_group": 4285,
+		"boundSize": 1,
+		"combat": 0,
+		"headModels": [
+			121926
+		],
+		"id": 32952,
+		"models": [
+			66618
+		],
+		"movementCapabilities": 3,
+		"name": "Rabbit"
+	},
+	{
+		"animation_group": 4285,
+		"boundSize": 1,
+		"combat": 0,
+		"headModels": [
+			121926
+		],
+		"id": 32953,
+		"models": [
+			66558
+		],
+		"movementCapabilities": 3,
+		"name": "Rabbit"
+	},
+	{
+		"animation_group": 4285,
+		"boundSize": 1,
+		"combat": 0,
+		"headModels": [
+			121926
+		],
+		"id": 32954,
+		"models": [
+			66561
+		],
+		"movementCapabilities": 3,
+		"name": "Rabbit"
+	},
+	{
+		"animation_group": 4287,
+		"boundSize": 1,
+		"combat": 0,
+		"headModels": [
+			121926
+		],
+		"id": 32955,
+		"models": [
+			66706
+		],
+		"movementCapabilities": 3,
+		"name": "Sheep"
+	},
+	{
+		"animation_group": 4287,
+		"boundSize": 1,
+		"combat": 0,
+		"headModels": [
+			121926
+		],
+		"id": 32956,
+		"models": [
+			66636
+		],
+		"movementCapabilities": 3,
+		"name": "Sheep"
+	},
+	{
+		"animation_group": 4287,
+		"boundSize": 1,
+		"combat": 0,
+		"headModels": [
+			121926
+		],
+		"id": 32957,
+		"models": [
+			66651
+		],
+		"movementCapabilities": 3,
+		"name": "Ram"
+	},
+	{
+		"animation_group": 4287,
+		"boundSize": 1,
+		"combat": 0,
+		"headModels": [
+			121926
+		],
+		"id": 32958,
+		"models": [
+			66661
+		],
+		"movementCapabilities": 3,
+		"name": "Ram"
+	},
+	{
+		"animation_group": 4514,
+		"boundSize": 1,
+		"combat": 0,
+		"headModels": [
+			121926
+		],
+		"id": 32959,
+		"models": [
+			66539
+		],
+		"movementCapabilities": 3,
+		"name": "Cow"
+	},
+	{
+		"animation_group": 4299,
+		"boundSize": 1,
+		"combat": 0,
+		"headModels": [
+			121926
+		],
+		"id": 32960,
+		"models": [
+			66541
+		],
+		"movementCapabilities": 3,
+		"name": "Calf"
+	},
+	{
+		"animation_group": 4514,
+		"boundSize": 1,
+		"combat": 0,
+		"headModels": [
+			121926
+		],
+		"id": 32961,
+		"models": [
+			66538
+		],
+		"movementCapabilities": 3,
+		"name": "Cow"
+	},
+	{
+		"animation_group": 4286,
+		"boundSize": 1,
+		"combat": 0,
+		"headModels": [
+			121926
+		],
+		"id": 32962,
+		"models": [
+			97089
+		],
+		"movementCapabilities": 3,
+		"name": "Chicken",
+		"scaleXZ": 80,
+		"scaleY": 80
+	},
+	{
+		"animation_group": 4302,
+		"boundSize": 1,
+		"combat": 0,
+		"headModels": [
+			121926
+		],
+		"id": 32963,
+		"models": [
+			97088
+		],
+		"movementCapabilities": 3,
+		"name": "Rooster",
+		"scaleXZ": 90,
+		"scaleY": 90
+	},
+	{
+		"animation_group": 4286,
+		"boundSize": 1,
+		"combat": 0,
+		"headModels": [
+			121926
+		],
+		"id": 32964,
+		"models": [
+			97091
+		],
+		"movementCapabilities": 3,
+		"name": "Chicken",
+		"scaleXZ": 80,
+		"scaleY": 80
+	},
+	{
+		"animation_group": 4934,
+		"boundSize": 1,
+		"combat": 0,
+		"drawMapDot": false,
+		"extra": {
+			"mtx_no_recolour": 1, // 477 chisel:pet_category
+			"mtxmgt_pet_struct": 44128 // 5051 chisel:pet_varbit_reference
+		},
+		"id": 32965,
+		"models": [
+			146745,
+			146747,
+			146749
+		],
+		"movementCapabilities": 3,
+		"name": "Ed 'Less"
+	},
+	{
+		"actions": [
+			"Interact",
+			null,
+			null,
+			null,
+			null
+		],
+		"animation_group": 4435,
+		"boundSize": 2,
+		"combat": 0,
+		"drawMapDot": false,
+		"extra": {
+			"follower_obj": 64230, // 75 chisel:pet_item_id
+			"mtx_no_recolour": 1, // 477 chisel:pet_category
+			"mtxmgt_pet_struct": 53585 // 5051 chisel:pet_varbit_reference
+		},
+		"id": 32966,
+		"models": [
+			146734,
+			146735,
+			146812
+		],
+		"movementCapabilities": 1,
+		"name": "Death Seeker Steed"
+	},
+	{
+		"animation_group": 4435,
+		"boundSize": 2,
+		"combat": 0,
+		"drawMapDot": false,
+		"extra": {
+			"mtx_no_recolour": 1, // 477 chisel:pet_category
+			"mtxmgt_pet_struct": 53585 // 5051 chisel:pet_varbit_reference
+		},
+		"id": 32967,
+		"models": [
+			146734,
+			146735,
+			146812
+		],
+		"movementCapabilities": 3,
+		"name": "Death Seeker Steed"
+	},
+	{
+		"actions": [
+			"Interact",
+			null,
+			null,
+			null,
+			null
+		],
+		"animation_group": 4435,
+		"boundSize": 2,
+		"combat": 0,
+		"drawMapDot": false,
+		"extra": {
+			"follower_obj": 64232, // 75 chisel:pet_item_id
+			"mtx_no_recolour": 1, // 477 chisel:pet_category
+			"mtxmgt_pet_struct": 53589 // 5051 chisel:pet_varbit_reference
+		},
+		"id": 32968,
+		"models": [
+			146734,
+			146736,
+			146741,
+			146813
+		],
+		"movementCapabilities": 1,
+		"name": "Death Bringer Steed",
+		"texture_replacements": {
+			"25288": 25289
+		}
+	},
+	{
+		"animation_group": 4435,
+		"boundSize": 2,
+		"combat": 0,
+		"drawMapDot": false,
+		"extra": {
+			"mtx_no_recolour": 1, // 477 chisel:pet_category
+			"mtxmgt_pet_struct": 53589 // 5051 chisel:pet_varbit_reference
+		},
+		"id": 32969,
+		"models": [
+			146734,
+			146736,
+			146741,
+			146813
+		],
+		"movementCapabilities": 3,
+		"name": "Death Bringer Steed",
+		"texture_replacements": {
+			"25288": 25289
+		}
+	},
+	{
+		"actions": [
+			"Interact",
+			null,
+			null,
+			null,
+			null
+		],
+		"animation_group": 4435,
+		"boundSize": 2,
+		"combat": 0,
+		"drawMapDot": false,
+		"extra": {
+			"follower_obj": 64234, // 75 chisel:pet_item_id
+			"mtx_no_recolour": 1, // 477 chisel:pet_category
+			"mtxmgt_pet_struct": 53592 // 5051 chisel:pet_varbit_reference
+		},
+		"id": 32970,
+		"models": [
+			146734,
+			146737,
+			146742,
+			146814
+		],
+		"movementCapabilities": 1,
+		"name": "Death Reaper Steed",
+		"texture_replacements": {
+			"25285": 25287,
+			"25288": 25291
+		}
+	},
+	{
+		"animation_group": 4435,
+		"boundSize": 2,
+		"combat": 0,
+		"drawMapDot": false,
+		"extra": {
+			"mtx_no_recolour": 1, // 477 chisel:pet_category
+			"mtxmgt_pet_struct": 53592 // 5051 chisel:pet_varbit_reference
+		},
+		"id": 32971,
+		"models": [
+			146734,
+			146737,
+			146742,
+			146814
+		],
+		"movementCapabilities": 3,
+		"name": "Death Reaper Steed",
+		"texture_replacements": {
+			"25285": 25287,
+			"25288": 25291
+		}
+	},
+	{
+		"ambience": 20,
+		"animation_group": 4939,
+		"boundSize": 1,
+		"combat": 0,
+		"contrast": 25,
+		"id": 32972,
+		"models": [
+			147018
+		],
+		"movementCapabilities": 1,
+		"name": "Blue runner"
+	},
+	{
+		"animation_group": 190,
+		"boundSize": 1,
+		"color_replacements": {
+			"36824": 32736
+		},
+		"combat": 0,
+		"id": 32973,
+		"models": [
+			147026
+		],
+		"movementCapabilities": 1,
+		"name": "Gold runner"
+	},
+	{
+		"animation_group": 4913,
+		"boundSize": 1,
+		"color_replacements": {
+			"36824": 992
+		},
+		"combat": 0,
+		"id": 32974,
+		"models": [
+			147022
+		],
+		"movementCapabilities": 1,
+		"name": "Green runner"
+	},
+	{
+		"ambience": 20,
+		"animation_group": 86,
+		"boundSize": 1,
+		"color_replacements": {
+			"36824": 10048
+		},
+		"combat": 0,
+		"contrast": 25,
+		"id": 32975,
+		"models": [
+			147028
+		],
+		"movementCapabilities": 1,
+		"name": "Red runner"
+	},
+	{
+		"animation_group": 1787,
+		"boundSize": 2,
+		"combat": 0,
+		"id": 32976,
+		"models": [
+			147024
+		],
+		"movementCapabilities": 3,
+		"name": "Streaker"
+	},
+	{
+		"animation_group": 3157,
+		"boundSize": 2,
+		"combat": 0,
+		"id": 32977,
+		"models": [
+			91930
+		],
+		"movementCapabilities": 3,
+		"name": "Cow",
+		"respawnDirection": 2
+	},
+	{
+		"actions": [
+			"Roll",
+			null,
+			null,
+			null,
+			null
+		],
+		"alwaysontop": true,
+		"boundSize": 1,
+		"combat": 0,
+		"id": 32978,
+		"models": [
+			146974
+		],
+		"movementCapabilities": 1,
+		"name": "Wheel of cheese"
+	},
+	{
+		"actions": [
+			"Catch",
+			null,
+			null,
+			null,
+			null
+		],
+		"alwaysontop": true,
+		"animation_group": 4941,
+		"boundSize": 1,
+		"combat": 0,
+		"id": 32979,
+		"models": [
+			146974
+		],
+		"movementCapabilities": 1,
+		"name": "Wheel of cheese"
+	},
+	{
+		"boundSize": 1,
+		"combat": 0,
+		"headModels": [
+			1823
+		],
+		"id": 32980,
+		"models": [
+			2680
+		],
+		"movementCapabilities": 3,
+		"name": "Ozan"
+	},
+	{
+		"boundSize": 1,
+		"combat": 0,
+		"headModels": [
+			2686
+		],
+		"id": 32981,
+		"models": [
+			2680
+		],
+		"movementCapabilities": 3,
+		"name": "Tentacle"
+	},
+	{
+		"boundSize": 1,
+		"combat": 0,
+		"headModels": [
+			57933
+		],
+		"id": 32982,
+		"models": [
+			2680
+		],
+		"movementCapabilities": 3,
+		"name": "Mr. Mordaut"
+	},
+	{
+		"boundSize": 1,
+		"combat": 0,
+		"headModels": [
+			52825
+		],
+		"id": 32983,
+		"models": [
+			2680
+		],
+		"movementCapabilities": 3,
+		"name": "Troll"
+	},
+	{
+		"boundSize": 1,
+		"combat": 0,
+		"headModels": [
+			55626
+		],
+		"id": 32984,
+		"models": [
+			2680
+		],
+		"movementCapabilities": 3,
+		"name": "Thok"
+	},
+	{
+		"boundSize": 1,
+		"combat": 0,
+		"headModels": [
+			19963
+		],
+		"id": 32985,
+		"models": [
+			2680
+		],
+		"movementCapabilities": 3,
+		"name": "Raptor"
+	},
+	{
+		"action_cursors": [
+			44,
+			null,
+			null,
+			null,
+			null,
+			null
+		],
+		"actions": [
+			"Talk to",
+			null,
+			"Shop",
+			null,
+			null
+		],
+		"alwaysontop": true,
+		"ambience": 20,
+		"animation_group": 4913,
+		"boundSize": 1,
+		"combat": 0,
+		"contrast": 25,
+		"headModels": [
+			146818
+		],
+		"id": 32986,
+		"models": [
+			147021
+		],
+		"movementCapabilities": 1,
+		"name": "Oomad Arrow",
+		"respawnDirection": 0
+	},
+	{
+		"action_cursors": [
+			44,
+			null,
+			null,
+			null,
+			null,
+			null
+		],
+		"actions": [
+			"Talk to",
+			null,
+			null,
+			null,
+			null
+		],
+		"alwaysontop": true,
+		"ambience": 20,
+		"animation_group": 1801,
+		"boundSize": 1,
+		"combat": 0,
+		"contrast": 25,
+		"headModels": [
+			146819
+		],
+		"id": 32987,
+		"models": [
+			146817
+		],
+		"movementCapabilities": 1,
+		"name": "Sunnel"
+	},
+	{
+		"action_cursors": [
+			44,
+			null,
+			null,
+			null,
+			null,
+			null
+		],
+		"actions": [
+			"Talk to",
+			null,
+			null,
+			null,
+			null
+		],
+		"alwaysontop": true,
+		"animation_group": 2538,
+		"boundSize": 1,
+		"combat": 0,
+		"headModels": [
+			146826
+		],
+		"id": 32988,
+		"models": [
+			147019
+		],
+		"movementCapabilities": 1,
+		"name": "Mikael"
+	},
+	{
+		"action_cursors": [
+			44,
+			null,
+			null,
+			null,
+			null,
+			null
+		],
+		"actions": [
+			"Talk to",
+			null,
+			null,
+			null,
+			null
+		],
+		"alwaysontop": true,
+		"animateIdle": false,
+		"animation_group": 4942,
+		"boundSize": 1,
+		"combat": 0,
+		"headModels": [
+			146830
+		],
+		"id": 32989,
+		"models": [
+			147025
+		],
+		"movementCapabilities": 1,
+		"name": "Larsa",
+		"respawnDirection": 0
+	},
+	{
+		"action_cursors": [
+			44,
+			null,
+			null,
+			null,
+			null,
+			null
+		],
+		"actions": [
+			"Talk to",
+			null,
+			null,
+			null,
+			null
+		],
+		"alwaysontop": true,
+		"animation_group": 4950,
+		"boundSize": 1,
+		"combat": 0,
+		"headModels": [
+			146829
+		],
+		"id": 32990,
+		"models": [
+			147027
+		],
+		"movementCapabilities": 1,
+		"name": "Mudfoot",
+		"respawnDirection": 6
+	},
+	{
+		"action_cursors": [
+			44,
+			null,
+			null,
+			null,
+			null,
+			null
+		],
+		"actions": [
+			"Talk to",
+			null,
+			null,
+			null,
+			null
+		],
+		"alwaysontop": true,
+		"animation_group": 4943,
+		"boundSize": 2,
+		"combat": 0,
+		"headModels": [
+			146828
+		],
+		"id": 32991,
+		"models": [
+			146975
+		],
+		"movementCapabilities": 1,
+		"name": "Unuki",
+		"respawnDirection": 6,
+		"turnspeed": 0
+	},
+	{
+		"action_cursors": [
+			44,
+			null,
+			null,
+			null,
+			null,
+			null
+		],
+		"actions": [
+			"Talk to",
+			null,
+			null,
+			null,
+			null
+		],
+		"alwaysontop": true,
+		"animation_group": 4,
+		"boundSize": 1,
+		"combat": 0,
+		"headModels": [
+			146823
+		],
+		"id": 32992,
+		"models": [
+			146991
+		],
+		"movementCapabilities": 1,
+		"name": "Oluien",
+		"respawnDirection": 0
+	},
+	{
+		"action_cursors": [
+			44,
+			null,
+			null,
+			null,
+			null,
+			null
+		],
+		"actions": [
+			"Talk to",
+			null,
+			"Shop",
+			null,
+			null
+		],
+		"ambience": 20,
+		"animation_group": 4913,
+		"boundSize": 1,
+		"combat": 0,
+		"contrast": 25,
+		"headModels": [
+			146818
+		],
+		"id": 32993,
+		"models": [
+			147021
+		],
+		"movementCapabilities": 1,
+		"name": "Oomad Arrow"
+	},
+	{
+		"animation_group": 66,
+		"boundSize": 2,
+		"combat": 0,
+		"id": 32994,
+		"models": [
+			147023
+		],
+		"movementCapabilities": 1,
+		"name": "\"Cow\""
+	},
+	{
+		"animation_group": 3157,
+		"boundSize": 2,
+		"combat": 0,
+		"id": 32995,
+		"models": [
+			95129
+		],
+		"movementCapabilities": 1,
+		"name": "\"Cow\""
 	}
 ]

@@ -11605,10 +11605,6 @@
   },
   {
     "domain": "PLAYER",
-    "id": "2933 [olyimpics_shop_bits]"
-  },
-  {
-    "domain": "PLAYER",
     "id": "2934 [hw06_extra_var]"
   },
   {
@@ -53880,6 +53876,34 @@
     "id": "13746"
   },
   {
+    "domain": "PLAYER",
+    "id": "13748"
+  },
+  {
+    "domain": "PLAYER",
+    "id": "13749"
+  },
+  {
+    "domain": "PLAYER",
+    "id": "13750"
+  },
+  {
+    "domain": "PLAYER",
+    "id": "13751"
+  },
+  {
+    "domain": "PLAYER",
+    "id": "13752"
+  },
+  {
+    "domain": "PLAYER",
+    "id": "13753"
+  },
+  {
+    "domain": "PLAYER",
+    "id": "13754"
+  },
+  {
     "domain": "NPC",
     "id": "0"
   },
@@ -65254,86 +65278,6 @@
   {
     "domain": "CLIENT",
     "id": "1972 [magic_lunar_statspy_name]"
-  },
-  {
-    "domain": "CLIENT",
-    "id": "1973 [megagames_varc_condition_1_blue]"
-  },
-  {
-    "domain": "CLIENT",
-    "id": "1974 [megagames_varc_condition_2_blue]"
-  },
-  {
-    "domain": "CLIENT",
-    "id": "1975 [megagames_varc_condition_3_blue]"
-  },
-  {
-    "domain": "CLIENT",
-    "id": "1976 [megagames_varc_struggling_blue]"
-  },
-  {
-    "domain": "CLIENT",
-    "id": "1977 [megagames_varc_condition_1_gold]"
-  },
-  {
-    "domain": "CLIENT",
-    "id": "1978 [megagames_varc_condition_2_gold]"
-  },
-  {
-    "domain": "CLIENT",
-    "id": "1979 [megagames_varc_condition_3_gold]"
-  },
-  {
-    "domain": "CLIENT",
-    "id": "1980 [megagames_varc_struggling_gold]"
-  },
-  {
-    "domain": "CLIENT",
-    "id": "1981 [megagames_varc_condition_1_black]"
-  },
-  {
-    "domain": "CLIENT",
-    "id": "1982 [megagames_varc_condition_2_black]"
-  },
-  {
-    "domain": "CLIENT",
-    "id": "1983 [megagames_varc_condition_3_black]"
-  },
-  {
-    "domain": "CLIENT",
-    "id": "1984 [megagames_varc_struggling_black]"
-  },
-  {
-    "domain": "CLIENT",
-    "id": "1985 [megagames_varc_condition_1_green]"
-  },
-  {
-    "domain": "CLIENT",
-    "id": "1986 [megagames_varc_condition_2_green]"
-  },
-  {
-    "domain": "CLIENT",
-    "id": "1987 [megagames_varc_condition_3_green]"
-  },
-  {
-    "domain": "CLIENT",
-    "id": "1988 [megagames_varc_struggling_green]"
-  },
-  {
-    "domain": "CLIENT",
-    "id": "1989 [megagames_varc_condition_1_red]"
-  },
-  {
-    "domain": "CLIENT",
-    "id": "1990 [megagames_varc_condition_2_red]"
-  },
-  {
-    "domain": "CLIENT",
-    "id": "1991 [megagames_varc_condition_3_red]"
-  },
-  {
-    "domain": "CLIENT",
-    "id": "1992 [megagames_varc_struggling_red]"
   },
   {
     "domain": "CLIENT",
@@ -88918,6 +88862,226 @@
   {
     "domain": "CLIENT",
     "id": "8498 [toplevel_v2_visible_window_97_next_tab]"
+  },
+  {
+    "domain": "CLIENT",
+    "id": "8499 [toplevel_v2_visible_window_97_lightweight]"
+  },
+  {
+    "domain": "CLIENT",
+    "id": "8500 [toplevel_v2_preset1_window_savestate_97_1]"
+  },
+  {
+    "domain": "CLIENT",
+    "id": "8501 [toplevel_v2_preset1_window_savestate_97_2]"
+  },
+  {
+    "domain": "CLIENT",
+    "id": "8502 [toplevel_v2_preset2_window_savestate_97_1]"
+  },
+  {
+    "domain": "CLIENT",
+    "id": "8503 [toplevel_v2_preset2_window_savestate_97_2]"
+  },
+  {
+    "domain": "CLIENT",
+    "id": "8504 [toplevel_v2_preset3_window_savestate_97_1]"
+  },
+  {
+    "domain": "CLIENT",
+    "id": "8505 [toplevel_v2_preset3_window_savestate_97_2]"
+  },
+  {
+    "domain": "CLIENT",
+    "id": "8506 [toplevel_v2_preset4_window_savestate_97_1]"
+  },
+  {
+    "domain": "CLIENT",
+    "id": "8507 [toplevel_v2_preset4_window_savestate_97_2]"
+  },
+  {
+    "domain": "CLIENT",
+    "id": "8508 [marketplace_store_filter_sale_only]"
+  },
+  {
+    "domain": "CLIENT",
+    "id": "8509 [marketplace_store_active_sale_dbrow]"
+  },
+  {
+    "domain": "CLIENT",
+    "id": "8510 [construction_house_furniture_portal_nexus_preview_furniture_id]"
+  },
+  {
+    "domain": "CLIENT",
+    "id": "8511 [combatv2_buff_league_relic_combat_light_strike_cooldown_end_client]"
+  },
+  {
+    "domain": "CLIENT",
+    "id": "8512 [combatv2_buff_league_relic_combat_lord_of_light_cooldown_end_client]"
+  },
+  {
+    "domain": "CLIENT",
+    "id": "8513 [combatv2_buff_league_relic_combat_avernic_rampage_cooldown_end_client]"
+  },
+  {
+    "domain": "CLIENT",
+    "id": "8514 [combatv2_buff_league_relic_buff_sliver_of_edicts_cooldown_end_client]"
+  },
+  {
+    "domain": "CLIENT",
+    "id": "8515 [combatv2_debuff_league_relic_debuff_sliver_of_edicts_cooldown_end_client]"
+  },
+  {
+    "domain": "CLIENT",
+    "id": "8516"
+  },
+  {
+    "domain": "CLIENT",
+    "id": "8517"
+  },
+  {
+    "domain": "CLIENT",
+    "id": "8518"
+  },
+  {
+    "domain": "CLIENT",
+    "id": "8519"
+  },
+  {
+    "domain": "CLIENT",
+    "id": "8520"
+  },
+  {
+    "domain": "CLIENT",
+    "id": "8521"
+  },
+  {
+    "domain": "CLIENT",
+    "id": "8522"
+  },
+  {
+    "domain": "CLIENT",
+    "id": "8523"
+  },
+  {
+    "domain": "CLIENT",
+    "id": "8524"
+  },
+  {
+    "domain": "CLIENT",
+    "id": "8525"
+  },
+  {
+    "domain": "CLIENT",
+    "id": "8526"
+  },
+  {
+    "domain": "CLIENT",
+    "id": "8527"
+  },
+  {
+    "domain": "CLIENT",
+    "id": "8528"
+  },
+  {
+    "domain": "CLIENT",
+    "id": "8529"
+  },
+  {
+    "domain": "CLIENT",
+    "id": "8530"
+  },
+  {
+    "domain": "CLIENT",
+    "id": "8531"
+  },
+  {
+    "domain": "CLIENT",
+    "id": "8532"
+  },
+  {
+    "domain": "CLIENT",
+    "id": "8533"
+  },
+  {
+    "domain": "CLIENT",
+    "id": "8534"
+  },
+  {
+    "domain": "CLIENT",
+    "id": "8535"
+  },
+  {
+    "domain": "CLIENT",
+    "id": "8536"
+  },
+  {
+    "domain": "CLIENT",
+    "id": "8537"
+  },
+  {
+    "domain": "CLIENT",
+    "id": "8538"
+  },
+  {
+    "domain": "CLIENT",
+    "id": "8539"
+  },
+  {
+    "domain": "CLIENT",
+    "id": "8540"
+  },
+  {
+    "domain": "CLIENT",
+    "id": "8541"
+  },
+  {
+    "domain": "CLIENT",
+    "id": "8542"
+  },
+  {
+    "domain": "CLIENT",
+    "id": "8543"
+  },
+  {
+    "domain": "CLIENT",
+    "id": "8544"
+  },
+  {
+    "domain": "CLIENT",
+    "id": "8545"
+  },
+  {
+    "domain": "CLIENT",
+    "id": "8546"
+  },
+  {
+    "domain": "CLIENT",
+    "id": "8547"
+  },
+  {
+    "domain": "CLIENT",
+    "id": "8548"
+  },
+  {
+    "domain": "CLIENT",
+    "id": "8549"
+  },
+  {
+    "domain": "CLIENT",
+    "id": "8550"
+  },
+  {
+    "domain": "CLIENT",
+    "id": "8551"
+  },
+  {
+    "domain": "CLIENT",
+    "id": "8552"
+  },
+  {
+    "domain": "CLIENT",
+    "id": "8553"
   },
   {
     "domain": "WORLD",
@@ -118621,346 +118785,6 @@
   },
   {
     "domain": "CONTROLLER",
-    "id": "741"
-  },
-  {
-    "domain": "CONTROLLER",
-    "id": "742"
-  },
-  {
-    "domain": "CONTROLLER",
-    "id": "743"
-  },
-  {
-    "domain": "CONTROLLER",
-    "id": "744"
-  },
-  {
-    "domain": "CONTROLLER",
-    "id": "745"
-  },
-  {
-    "domain": "CONTROLLER",
-    "id": "746"
-  },
-  {
-    "domain": "CONTROLLER",
-    "id": "747"
-  },
-  {
-    "domain": "CONTROLLER",
-    "id": "748"
-  },
-  {
-    "domain": "CONTROLLER",
-    "id": "749"
-  },
-  {
-    "domain": "CONTROLLER",
-    "id": "750"
-  },
-  {
-    "domain": "CONTROLLER",
-    "id": "751"
-  },
-  {
-    "domain": "CONTROLLER",
-    "id": "752"
-  },
-  {
-    "domain": "CONTROLLER",
-    "id": "753"
-  },
-  {
-    "domain": "CONTROLLER",
-    "id": "754"
-  },
-  {
-    "domain": "CONTROLLER",
-    "id": "755"
-  },
-  {
-    "domain": "CONTROLLER",
-    "id": "756"
-  },
-  {
-    "domain": "CONTROLLER",
-    "id": "757"
-  },
-  {
-    "domain": "CONTROLLER",
-    "id": "758"
-  },
-  {
-    "domain": "CONTROLLER",
-    "id": "759"
-  },
-  {
-    "domain": "CONTROLLER",
-    "id": "760"
-  },
-  {
-    "domain": "CONTROLLER",
-    "id": "761"
-  },
-  {
-    "domain": "CONTROLLER",
-    "id": "762"
-  },
-  {
-    "domain": "CONTROLLER",
-    "id": "763"
-  },
-  {
-    "domain": "CONTROLLER",
-    "id": "764"
-  },
-  {
-    "domain": "CONTROLLER",
-    "id": "765"
-  },
-  {
-    "domain": "CONTROLLER",
-    "id": "766"
-  },
-  {
-    "domain": "CONTROLLER",
-    "id": "767"
-  },
-  {
-    "domain": "CONTROLLER",
-    "id": "768"
-  },
-  {
-    "domain": "CONTROLLER",
-    "id": "769"
-  },
-  {
-    "domain": "CONTROLLER",
-    "id": "770"
-  },
-  {
-    "domain": "CONTROLLER",
-    "id": "771"
-  },
-  {
-    "domain": "CONTROLLER",
-    "id": "772"
-  },
-  {
-    "domain": "CONTROLLER",
-    "id": "773"
-  },
-  {
-    "domain": "CONTROLLER",
-    "id": "774"
-  },
-  {
-    "domain": "CONTROLLER",
-    "id": "775"
-  },
-  {
-    "domain": "CONTROLLER",
-    "id": "776"
-  },
-  {
-    "domain": "CONTROLLER",
-    "id": "777"
-  },
-  {
-    "domain": "CONTROLLER",
-    "id": "778"
-  },
-  {
-    "domain": "CONTROLLER",
-    "id": "779"
-  },
-  {
-    "domain": "CONTROLLER",
-    "id": "780"
-  },
-  {
-    "domain": "CONTROLLER",
-    "id": "781"
-  },
-  {
-    "domain": "CONTROLLER",
-    "id": "782"
-  },
-  {
-    "domain": "CONTROLLER",
-    "id": "783"
-  },
-  {
-    "domain": "CONTROLLER",
-    "id": "784"
-  },
-  {
-    "domain": "CONTROLLER",
-    "id": "785"
-  },
-  {
-    "domain": "CONTROLLER",
-    "id": "786"
-  },
-  {
-    "domain": "CONTROLLER",
-    "id": "787"
-  },
-  {
-    "domain": "CONTROLLER",
-    "id": "788"
-  },
-  {
-    "domain": "CONTROLLER",
-    "id": "789"
-  },
-  {
-    "domain": "CONTROLLER",
-    "id": "790"
-  },
-  {
-    "domain": "CONTROLLER",
-    "id": "791"
-  },
-  {
-    "domain": "CONTROLLER",
-    "id": "792"
-  },
-  {
-    "domain": "CONTROLLER",
-    "id": "793"
-  },
-  {
-    "domain": "CONTROLLER",
-    "id": "794"
-  },
-  {
-    "domain": "CONTROLLER",
-    "id": "795"
-  },
-  {
-    "domain": "CONTROLLER",
-    "id": "796"
-  },
-  {
-    "domain": "CONTROLLER",
-    "id": "797"
-  },
-  {
-    "domain": "CONTROLLER",
-    "id": "798"
-  },
-  {
-    "domain": "CONTROLLER",
-    "id": "799"
-  },
-  {
-    "domain": "CONTROLLER",
-    "id": "800"
-  },
-  {
-    "domain": "CONTROLLER",
-    "id": "801"
-  },
-  {
-    "domain": "CONTROLLER",
-    "id": "802"
-  },
-  {
-    "domain": "CONTROLLER",
-    "id": "803"
-  },
-  {
-    "domain": "CONTROLLER",
-    "id": "804"
-  },
-  {
-    "domain": "CONTROLLER",
-    "id": "805"
-  },
-  {
-    "domain": "CONTROLLER",
-    "id": "806"
-  },
-  {
-    "domain": "CONTROLLER",
-    "id": "807"
-  },
-  {
-    "domain": "CONTROLLER",
-    "id": "808"
-  },
-  {
-    "domain": "CONTROLLER",
-    "id": "809"
-  },
-  {
-    "domain": "CONTROLLER",
-    "id": "810"
-  },
-  {
-    "domain": "CONTROLLER",
-    "id": "811"
-  },
-  {
-    "domain": "CONTROLLER",
-    "id": "812"
-  },
-  {
-    "domain": "CONTROLLER",
-    "id": "813"
-  },
-  {
-    "domain": "CONTROLLER",
-    "id": "814"
-  },
-  {
-    "domain": "CONTROLLER",
-    "id": "815"
-  },
-  {
-    "domain": "CONTROLLER",
-    "id": "816"
-  },
-  {
-    "domain": "CONTROLLER",
-    "id": "817"
-  },
-  {
-    "domain": "CONTROLLER",
-    "id": "818"
-  },
-  {
-    "domain": "CONTROLLER",
-    "id": "819"
-  },
-  {
-    "domain": "CONTROLLER",
-    "id": "820"
-  },
-  {
-    "domain": "CONTROLLER",
-    "id": "821"
-  },
-  {
-    "domain": "CONTROLLER",
-    "id": "822"
-  },
-  {
-    "domain": "CONTROLLER",
-    "id": "823"
-  },
-  {
-    "domain": "CONTROLLER",
-    "id": "824"
-  },
-  {
-    "domain": "CONTROLLER",
-    "id": "825"
-  },
-  {
-    "domain": "CONTROLLER",
     "id": "826"
   },
   {
@@ -130846,6 +130670,346 @@
   {
     "domain": "CONTROLLER",
     "id": "3797"
+  },
+  {
+    "domain": "CONTROLLER",
+    "id": "3798"
+  },
+  {
+    "domain": "CONTROLLER",
+    "id": "3799"
+  },
+  {
+    "domain": "CONTROLLER",
+    "id": "3800"
+  },
+  {
+    "domain": "CONTROLLER",
+    "id": "3801"
+  },
+  {
+    "domain": "CONTROLLER",
+    "id": "3802"
+  },
+  {
+    "domain": "CONTROLLER",
+    "id": "3803"
+  },
+  {
+    "domain": "CONTROLLER",
+    "id": "3804"
+  },
+  {
+    "domain": "CONTROLLER",
+    "id": "3805"
+  },
+  {
+    "domain": "CONTROLLER",
+    "id": "3806"
+  },
+  {
+    "domain": "CONTROLLER",
+    "id": "3807"
+  },
+  {
+    "domain": "CONTROLLER",
+    "id": "3808"
+  },
+  {
+    "domain": "CONTROLLER",
+    "id": "3809"
+  },
+  {
+    "domain": "CONTROLLER",
+    "id": "3810"
+  },
+  {
+    "domain": "CONTROLLER",
+    "id": "3811"
+  },
+  {
+    "domain": "CONTROLLER",
+    "id": "3812"
+  },
+  {
+    "domain": "CONTROLLER",
+    "id": "3813"
+  },
+  {
+    "domain": "CONTROLLER",
+    "id": "3814"
+  },
+  {
+    "domain": "CONTROLLER",
+    "id": "3815"
+  },
+  {
+    "domain": "CONTROLLER",
+    "id": "3816"
+  },
+  {
+    "domain": "CONTROLLER",
+    "id": "3817"
+  },
+  {
+    "domain": "CONTROLLER",
+    "id": "3818"
+  },
+  {
+    "domain": "CONTROLLER",
+    "id": "3819"
+  },
+  {
+    "domain": "CONTROLLER",
+    "id": "3820"
+  },
+  {
+    "domain": "CONTROLLER",
+    "id": "3821"
+  },
+  {
+    "domain": "CONTROLLER",
+    "id": "3822"
+  },
+  {
+    "domain": "CONTROLLER",
+    "id": "3823"
+  },
+  {
+    "domain": "CONTROLLER",
+    "id": "3824"
+  },
+  {
+    "domain": "CONTROLLER",
+    "id": "3825"
+  },
+  {
+    "domain": "CONTROLLER",
+    "id": "3826"
+  },
+  {
+    "domain": "CONTROLLER",
+    "id": "3827"
+  },
+  {
+    "domain": "CONTROLLER",
+    "id": "3828"
+  },
+  {
+    "domain": "CONTROLLER",
+    "id": "3829"
+  },
+  {
+    "domain": "CONTROLLER",
+    "id": "3830"
+  },
+  {
+    "domain": "CONTROLLER",
+    "id": "3831"
+  },
+  {
+    "domain": "CONTROLLER",
+    "id": "3832"
+  },
+  {
+    "domain": "CONTROLLER",
+    "id": "3833"
+  },
+  {
+    "domain": "CONTROLLER",
+    "id": "3834"
+  },
+  {
+    "domain": "CONTROLLER",
+    "id": "3835"
+  },
+  {
+    "domain": "CONTROLLER",
+    "id": "3836"
+  },
+  {
+    "domain": "CONTROLLER",
+    "id": "3837"
+  },
+  {
+    "domain": "CONTROLLER",
+    "id": "3838"
+  },
+  {
+    "domain": "CONTROLLER",
+    "id": "3839"
+  },
+  {
+    "domain": "CONTROLLER",
+    "id": "3840"
+  },
+  {
+    "domain": "CONTROLLER",
+    "id": "3841"
+  },
+  {
+    "domain": "CONTROLLER",
+    "id": "3842"
+  },
+  {
+    "domain": "CONTROLLER",
+    "id": "3843"
+  },
+  {
+    "domain": "CONTROLLER",
+    "id": "3844"
+  },
+  {
+    "domain": "CONTROLLER",
+    "id": "3845"
+  },
+  {
+    "domain": "CONTROLLER",
+    "id": "3846"
+  },
+  {
+    "domain": "CONTROLLER",
+    "id": "3847"
+  },
+  {
+    "domain": "CONTROLLER",
+    "id": "3848"
+  },
+  {
+    "domain": "CONTROLLER",
+    "id": "3849"
+  },
+  {
+    "domain": "CONTROLLER",
+    "id": "3850"
+  },
+  {
+    "domain": "CONTROLLER",
+    "id": "3851"
+  },
+  {
+    "domain": "CONTROLLER",
+    "id": "3852"
+  },
+  {
+    "domain": "CONTROLLER",
+    "id": "3853"
+  },
+  {
+    "domain": "CONTROLLER",
+    "id": "3854"
+  },
+  {
+    "domain": "CONTROLLER",
+    "id": "3855"
+  },
+  {
+    "domain": "CONTROLLER",
+    "id": "3856"
+  },
+  {
+    "domain": "CONTROLLER",
+    "id": "3857"
+  },
+  {
+    "domain": "CONTROLLER",
+    "id": "3858"
+  },
+  {
+    "domain": "CONTROLLER",
+    "id": "3859"
+  },
+  {
+    "domain": "CONTROLLER",
+    "id": "3860"
+  },
+  {
+    "domain": "CONTROLLER",
+    "id": "3861"
+  },
+  {
+    "domain": "CONTROLLER",
+    "id": "3862"
+  },
+  {
+    "domain": "CONTROLLER",
+    "id": "3863"
+  },
+  {
+    "domain": "CONTROLLER",
+    "id": "3864"
+  },
+  {
+    "domain": "CONTROLLER",
+    "id": "3865"
+  },
+  {
+    "domain": "CONTROLLER",
+    "id": "3866"
+  },
+  {
+    "domain": "CONTROLLER",
+    "id": "3867"
+  },
+  {
+    "domain": "CONTROLLER",
+    "id": "3868"
+  },
+  {
+    "domain": "CONTROLLER",
+    "id": "3869"
+  },
+  {
+    "domain": "CONTROLLER",
+    "id": "3870"
+  },
+  {
+    "domain": "CONTROLLER",
+    "id": "3871"
+  },
+  {
+    "domain": "CONTROLLER",
+    "id": "3872"
+  },
+  {
+    "domain": "CONTROLLER",
+    "id": "3873"
+  },
+  {
+    "domain": "CONTROLLER",
+    "id": "3874"
+  },
+  {
+    "domain": "CONTROLLER",
+    "id": "3875"
+  },
+  {
+    "domain": "CONTROLLER",
+    "id": "3876"
+  },
+  {
+    "domain": "CONTROLLER",
+    "id": "3877"
+  },
+  {
+    "domain": "CONTROLLER",
+    "id": "3878"
+  },
+  {
+    "domain": "CONTROLLER",
+    "id": "3879"
+  },
+  {
+    "domain": "CONTROLLER",
+    "id": "3880"
+  },
+  {
+    "domain": "CONTROLLER",
+    "id": "3881"
+  },
+  {
+    "domain": "CONTROLLER",
+    "id": "3882"
   },
   {
     "domain": "GLOBAL",

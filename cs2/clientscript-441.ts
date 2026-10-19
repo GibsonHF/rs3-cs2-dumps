@@ -54,6 +54,10 @@ function script441(int0: number): number {
             int1 = varbitplayer_58367;
             break;
         }
+        case 13: {
+            int1 = varbitplayer_62195;
+            break;
+        }
         case 100: {
             int1 = varclient_4270;
             break;

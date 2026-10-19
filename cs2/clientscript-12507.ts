@@ -18,7 +18,7 @@ function script12507(int0: number): void {
     };
     if ((MODULO(int1, 50) == 0)) {
         int2 = ((int1 / 50) - 1);
-        if ((int2 > 46)) {
+        if ((int2 > 47)) {
             return;
         };
         if ((script12510(int2) == 1)) {

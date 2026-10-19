@@ -231,7 +231,7 @@ function script2141(int0: number, int1: number, int2: number, int3: number, int4
         }
         case 1002: {
             if ((script15532(0) == 1)) {
-                varplayer_9773 = -1 as dbrow;
+                varplayer_9773 = -1;
             };
             script8144();
             break;
@@ -357,6 +357,10 @@ function script2141(int0: number, int1: number, int2: number, int3: number, int4
         }
         case 45: {
             script19402();
+            break;
+        }
+        case 47: {
+            script21136();
             break;
         }
     };

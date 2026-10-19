@@ -155,6 +155,42 @@ function script7149(int0: number): number {
             };
             return 1;
         }
+        case 17463: {
+            if ((varbitplayer_62279 == 0)) {
+                if ((((varbitplayer_62263 == 1) || (varbitplayer_62276 == 1)) || (varbitplayer_62275 == 1))) {
+                    return 0;
+                };
+                return 1;
+            };
+            break;
+        }
+        case 17464: {
+            if ((varbitplayer_62280 == 0)) {
+                if ((((varbitplayer_62271 == 1) || (varbitplayer_62273 == 1)) || (varbitplayer_62277 == 1))) {
+                    return 0;
+                };
+                return 1;
+            };
+            break;
+        }
+        case 20342: {
+            if ((varbitplayer_62281 == 0)) {
+                if ((((varbitplayer_62272 == 1) || (varbitplayer_62274 == 1)) || (varbitplayer_62278 == 1))) {
+                    return 0;
+                };
+                return 1;
+            };
+            break;
+        }
+        case 20343: {
+            if ((varbitplayer_62282 == 0)) {
+                if (((((((((varbitplayer_62280 == 1) || (varbitplayer_62281 == 1)) || (varbitplayer_62271 == 1)) || (varbitplayer_62273 == 1)) || (varbitplayer_62277 == 1)) || (varbitplayer_62272 == 1)) || (varbitplayer_62274 == 1)) || (varbitplayer_62278 == 1))) {
+                    return 0;
+                };
+                return 1;
+            };
+            break;
+        }
     };
     return 1;
 }

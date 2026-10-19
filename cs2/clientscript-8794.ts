@@ -22,13 +22,13 @@ function script8794(int0: number, int1: number, int2: number, int3: number): voi
     } else {
         return;
     };
-    IF_SETSIZE((int0 + int6), int1, 0, 0, comp(1477, 786));  // toplevel_v2:com_787
-    IF_SETSIZE(int6, int1, 1, 0, comp(1477, 787));  // toplevel_v2:com_788
+    IF_SETSIZE((int0 + int6), int1, 0, 0, comp(1477, 798));  // toplevel_v2:context_sub_menu_content_layer
+    IF_SETSIZE(int6, int1, 1, 0, comp(1477, 799));  // toplevel_v2:context_menu_layer
     if ((((int4 + int0) + int6) <= IF_GETWIDTH(comp(1477, 28)))) {  // toplevel_v2:viewport
-        IF_SETPOSITION(0, 0, 2, 0, comp(1477, 787));  // toplevel_v2:com_788
+        IF_SETPOSITION(0, 0, 2, 0, comp(1477, 799));  // toplevel_v2:context_menu_layer
         int8 = int4;
     } else {
-        IF_SETPOSITION(0, 0, 0, 0, comp(1477, 787));  // toplevel_v2:com_788
+        IF_SETPOSITION(0, 0, 0, 0, comp(1477, 799));  // toplevel_v2:context_menu_layer
         int8 = (int4 - int0);
     };
     if (((int5 + int1) <= IF_GETHEIGHT(comp(1477, 28)))) {  // toplevel_v2:viewport
@@ -36,8 +36,8 @@ function script8794(int0: number, int1: number, int2: number, int3: number): voi
     } else {
         int9 = (int5 - int1);
     };
-    IF_SETPOSITION(int8, int9, 0, 0, comp(1477, 786));  // toplevel_v2:com_787
-    IF_SETHIDE(false, comp(1477, 786));  // toplevel_v2:com_787
-    IF_SETONMOUSELEAVE(callback(script8795), comp(1477, 786));  // toplevel_v2:com_787
+    IF_SETPOSITION(int8, int9, 0, 0, comp(1477, 798));  // toplevel_v2:context_sub_menu_content_layer
+    IF_SETHIDE(false, comp(1477, 798));  // toplevel_v2:context_sub_menu_content_layer
+    IF_SETONMOUSELEAVE(callback(script8795), comp(1477, 798));  // toplevel_v2:context_sub_menu_content_layer
     return;
 }

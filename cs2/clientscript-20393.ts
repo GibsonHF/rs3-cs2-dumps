@@ -10,11 +10,11 @@ function script20393(int0: number, int1: number): void {
                 break;
             }
             case 2: {
-                script14167(int1, struct_getparam(21301, 3503), 96797380);
+                script14167(int1, struct_getparam(21301, 3503), 96797392);
                 break;
             }
             case 3: {
-                script14167(int1, struct_getparam(38865, 3503), 96797395);
+                script14167(int1, struct_getparam(38865, 3503), 96797407);
                 break;
             }
             case 4: {
@@ -32,13 +32,13 @@ function script20393(int0: number, int1: number): void {
                 break;
             }
             case 7: {
-                script14167(int1, 96797417, 96797417);
+                script14167(int1, 96797429, 96797429);
                 break;
             }
         };
     } else if ((varclient_6403 == int1)) {
         script14174();
-    } else if ((((int1 == 6) && (varclient_6403 == 0)) && (IF_HASSUB(comp(1477, 694)) == 0))) {  // toplevel_v2:channel_bar_window_border
+    } else if ((((int1 == 6) && (varclient_6403 == 0)) && (IF_HASSUB(comp(1477, 706)) == 0))) {  // toplevel_v2:bank_window_background
         script14174();
     };
     return;

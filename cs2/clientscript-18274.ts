@@ -235,7 +235,12 @@ function script18274(int0: number, int1: number): void {
         case 4982:
         case 4983:
         case 4981:
-        case 4977: {
+        case 4977:
+        case 53605:
+        case 53606:
+        case 53607:
+        case 53608:
+        case 53609: {
             IF_SETONTIMER(callback(script18275, int0, int1, (SEQLENGTH(struct_getparam(int0, 2535)) + 1)), comp(1311, 657));  // mtxmgt:anim_listener
             break;
         }

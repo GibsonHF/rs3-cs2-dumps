@@ -6816,6 +6816,9 @@ function script6488(int0: number): number {
         case 53062: {
             return varbitplayer_60897;
         }
+        case 44120: {
+            return varbitplayer_62270;
+        }
         case 34509: {
             if (((((varbitplayer_47533 == 1) && (varbitplayer_47534 == 1)) && (varbitplayer_47531 == 1)) && (varbitplayer_47532 == 1))) {
                 return 1;
@@ -6969,6 +6972,52 @@ function script6488(int0: number): number {
                 return 1;
             };
             return 0;
+        }
+        case 53570:
+        case 53571:
+        case 53572:
+        case 53573:
+        case 53574:
+        case 53575: {
+            if (((varbitplayer_62263 == 1) && (varbitplayer_62262 >= 10))) {
+                return 1;
+            };
+            return 0;
+        }
+        case 53576:
+        case 53577:
+        case 53578:
+        case 53579:
+        case 53580:
+        case 53581: {
+            if (((varbitplayer_62263 == 1) && (varbitplayer_62262 >= 25))) {
+                return 1;
+            };
+            return 0;
+        }
+        case 53583: {
+            if (((varbitplayer_62276 == 1) && (varbitplayer_62262 >= 10))) {
+                return 1;
+            };
+            return 0;
+        }
+        case 53584: {
+            if (((varbitplayer_62276 == 1) && (varbitplayer_62262 >= 25))) {
+                return 1;
+            };
+            return 0;
+        }
+        case 53589: {
+            if (((varbitplayer_62275 == 1) && (varbitplayer_62262 >= 10))) {
+                return 1;
+            };
+            break;
+        }
+        case 53592: {
+            if (((varbitplayer_62275 == 1) && (varbitplayer_62262 >= 25))) {
+                return 1;
+            };
+            break;
         }
         default: {
             return 1;

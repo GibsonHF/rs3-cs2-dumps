@@ -1,6 +1,6 @@
 //[proc,login_popup_full]
 function script3232(int0: number, int1: number, int2: number, string0: string, string1: string): void {
-    if ((IF_GETHIDE(comp(744, 336)) == false)) {  // loginscreen:popup
+    if ((IF_GETHIDE(comp(744, 337)) == false)) {  // loginscreen:com_337
         return;
     };
     if ((varclient_174 != 102)) {
@@ -8,28 +8,28 @@ function script3232(int0: number, int1: number, int2: number, string0: string, s
     };
     script15651(102);
     if ((strcmp(string1, "") == 0)) {
-        IF_SETHIDE(true, comp(744, 344));  // loginscreen:popup_big_button
+        IF_SETHIDE(true, comp(744, 345));  // loginscreen:popup_border
     } else {
-        IF_SETHIDE(false, comp(744, 344));  // loginscreen:popup_big_button
-        IF_SETTEXT(string1, comp(744, 344));  // loginscreen:popup_big_button
+        IF_SETHIDE(false, comp(744, 345));  // loginscreen:popup_border
+        IF_SETTEXT(string1, comp(744, 345));  // loginscreen:popup_border
     };
     script15687(varclient_1089);
-    IF_SETHIDE(false, comp(744, 336));  // loginscreen:popup
-    IF_SETHIDE(false, comp(744, 340));  // loginscreen:popup_content
+    IF_SETHIDE(false, comp(744, 337));  // loginscreen:com_337
+    IF_SETHIDE(false, comp(744, 341));  // loginscreen:popup_throbber_layer
     IF_SETHIDE(true, comp(744, 89));  // loginscreen:login
-    IF_SETTEXT(string0, comp(744, 343));  // loginscreen:popup_text
-    IF_CLEARSCRIPTHOOKS(comp(744, 343));  // loginscreen:popup_text
-    IF_CLEAROPS(comp(744, 343));  // loginscreen:popup_text
+    IF_SETTEXT(string0, comp(744, 344));  // loginscreen:popup_big_button
+    IF_CLEARSCRIPTHOOKS(comp(744, 344));  // loginscreen:popup_big_button
+    IF_CLEAROPS(comp(744, 344));  // loginscreen:popup_big_button
     if (((int0 == 3) || (int0 == 16))) {
-        IF_SETOP(1, "Goto", comp(744, 343));  // loginscreen:popup_text
-        IF_SETOPBASE("Link", comp(744, 343));  // loginscreen:popup_text
-        IF_SETONOP(callback(script15228, 22), comp(744, 343));  // loginscreen:popup_text
+        IF_SETOP(1, "Goto", comp(744, 344));  // loginscreen:popup_big_button
+        IF_SETOPBASE("Link", comp(744, 344));  // loginscreen:popup_big_button
+        IF_SETONOP(callback(script15228, 22), comp(744, 344));  // loginscreen:popup_big_button
     };
     varclient_1092 = 0;
-    IF_SETONTIMER(callback(), comp(744, 341));  // loginscreen:popup_throbber_layer
-    IF_SETGRAPHIC(int2, comp(744, 342));  // loginscreen:popup_throbber
-    IF_SETSIZE(76, 63, 0, 0, comp(744, 342));  // loginscreen:popup_throbber
-    IF_SETPOSITION(0, 5, 1, 0, comp(744, 342));  // loginscreen:popup_throbber
-    script2952(48759128, int0);
+    IF_SETONTIMER(callback(), comp(744, 342));  // loginscreen:popup_throbber
+    IF_SETGRAPHIC(int2, comp(744, 343));  // loginscreen:popup_text
+    IF_SETSIZE(76, 63, 0, 0, comp(744, 343));  // loginscreen:popup_text
+    IF_SETPOSITION(0, 5, 1, 0, comp(744, 343));  // loginscreen:popup_text
+    script2952(48759129, int0);
     return;
 }

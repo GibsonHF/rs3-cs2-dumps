@@ -2,9 +2,9 @@
 function script8145(): void {
     var int0 = 0;
     var int1 = -1;
-    while ((int0 <= 46)) {
+    while ((int0 <= 47)) {
         int1 = script10405(int0);
-        CC_CREATE(comp(1431, 5), 3, int0);  // toplevel_v2_ribbon:window_holder
+        CC_CREATE(comp(1431, 2), 3, int0);  // toplevel_v2_ribbon:quickchild_listener
         if ((int1 != -1)) {
             CC_SETONOP(callback(script8158, int0, 0));
             CC_SETOP(1, "Open");

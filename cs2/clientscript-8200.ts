@@ -12,6 +12,6 @@ function script8200(int0: number, int1: number): void {
     };
     var int7 = ((IF_GETHEIGHT(comp(1444, 2)) / 2) - IF_GETHEIGHT(int2));  // toplevel_v2_keyboard_settings:scrolllayer
     var int8 = MAX(0, MIN((int5 - int7), IF_GETSCROLLHEIGHT(comp(1444, 2))));  // toplevel_v2_keyboard_settings:scrolllayer
-    IF_SETONTIMER(callback(script8201, int8, 100, 94634986, 94633986), comp(1444, 2));  // toplevel_v2_keyboard_settings:scrolllayer
+    IF_SETONTIMER(callback(script8201, int8, 100, 94634987, 94633986), comp(1444, 2));  // toplevel_v2_keyboard_settings:scrolllayer
     return;
 }

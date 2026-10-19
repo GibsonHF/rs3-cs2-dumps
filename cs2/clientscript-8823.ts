@@ -348,6 +348,11 @@ function script8823(int0: number, int1: number, int2: number, int3: number): [nu
                     varbitclient_56639 = int4;
                     break;
                 }
+                case 47: {
+                    varbitclient_62215 = int2;
+                    varbitclient_62216 = int4;
+                    break;
+                }
                 default: {
                     int5 = 0;
                     break;

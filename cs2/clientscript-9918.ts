@@ -41,7 +41,8 @@ function script9918(int0: number): number {
         case 141:
         case 142:
         case 143:
-        case 145: {
+        case 145:
+        case 33: {
             if ((varbitplayer_18805 == 0)) {
                 return 1;
             };

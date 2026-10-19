@@ -1,7 +1,7 @@
 //
 function script5487(int0: number): void {
-    IF_SETHIDE(true, comp(1477, 886));  // toplevel_v2:if_highlight_12_display
-    IF_SETSIZE(0, 0, 0, 0, comp(1477, 886));  // toplevel_v2:if_highlight_12_display
+    IF_SETHIDE(true, comp(1477, 899));  // toplevel_v2:optext_content
+    IF_SETSIZE(0, 0, 0, 0, comp(1477, 899));  // toplevel_v2:optext_content
     varclient_1688 = false;
     if ((int0 == 1)) {
         varclient_1691 = -1 as obj;

@@ -118025,1278 +118025,6 @@
   },
   {
     "domain": "PLAYER",
-    "source": "2911 [megagames_xp_limit]",
-    "lsb": 0,
-    "msb": 14,
-    "wiki_sync": false,
-    "id": "14753 [megagames_athletics_xp_limit]"
-  },
-  {
-    "domain": "PLAYER",
-    "source": "2913 [megagames_xp_limit_3]",
-    "lsb": 0,
-    "msb": 12,
-    "wiki_sync": false,
-    "id": "14754 [megagames_cheesewheel_xp_limt]"
-  },
-  {
-    "domain": "PLAYER",
-    "source": "2912 [megagames_xp_limit_2]",
-    "lsb": 0,
-    "msb": 15,
-    "wiki_sync": false,
-    "id": "14755 [megagames_mining_xp_limit]"
-  },
-  {
-    "domain": "PLAYER",
-    "source": "2912 [megagames_xp_limit_2]",
-    "lsb": 16,
-    "msb": 31,
-    "wiki_sync": false,
-    "id": "14756 [megagames_woodcutting_xp_limit]"
-  },
-  {
-    "domain": "PLAYER",
-    "source": "2914 [megagames_xp_limit_4]",
-    "lsb": 0,
-    "msb": 15,
-    "wiki_sync": false,
-    "id": "14757 [megagames_farming_xp_limit]"
-  },
-  {
-    "domain": "PLAYER",
-    "source": "2915 [megagames_ring_limit]",
-    "lsb": 0,
-    "msb": 15,
-    "wiki_sync": false,
-    "id": "14758 [megagames_bronze_ring_limit]"
-  },
-  {
-    "domain": "PLAYER",
-    "source": "2915 [megagames_ring_limit]",
-    "lsb": 16,
-    "msb": 31,
-    "wiki_sync": false,
-    "id": "14759 [megagames_silver_ring_limit]"
-  },
-  {
-    "domain": "PLAYER",
-    "source": "2913 [megagames_xp_limit_3]",
-    "lsb": 13,
-    "msb": 29,
-    "wiki_sync": false,
-    "id": "14760 [megagames_gold_ring_limit]"
-  },
-  {
-    "domain": "PLAYER",
-    "source": "2911 [megagames_xp_limit]",
-    "lsb": 15,
-    "msb": 18,
-    "wiki_sync": false,
-    "id": "14761 [megagames_team]"
-  },
-  {
-    "domain": "PLAYER",
-    "source": "2911 [megagames_xp_limit]",
-    "lsb": 19,
-    "msb": 19,
-    "wiki_sync": false,
-    "id": "14762 [megagames_human_spoketo]"
-  },
-  {
-    "domain": "PLAYER",
-    "source": "2911 [megagames_xp_limit]",
-    "lsb": 20,
-    "msb": 20,
-    "wiki_sync": false,
-    "id": "14763 [megagames_gnome_spoketo]"
-  },
-  {
-    "domain": "PLAYER",
-    "source": "2911 [megagames_xp_limit]",
-    "lsb": 21,
-    "msb": 21,
-    "wiki_sync": false,
-    "id": "14764 [megagames_elf_spoketo]"
-  },
-  {
-    "domain": "PLAYER",
-    "source": "2911 [megagames_xp_limit]",
-    "lsb": 22,
-    "msb": 22,
-    "wiki_sync": false,
-    "id": "14765 [megagames_goblin_spoketo]"
-  },
-  {
-    "domain": "PLAYER",
-    "source": "2911 [megagames_xp_limit]",
-    "lsb": 23,
-    "msb": 23,
-    "wiki_sync": false,
-    "id": "14766 [megagames_werewolf_spoketo]"
-  },
-  {
-    "domain": "PLAYER",
-    "source": "2911 [megagames_xp_limit]",
-    "lsb": 24,
-    "msb": 24,
-    "wiki_sync": false,
-    "id": "14767 [megagames_monkey_spoketo]"
-  },
-  {
-    "domain": "PLAYER",
-    "source": "2911 [megagames_xp_limit]",
-    "lsb": 25,
-    "msb": 25,
-    "wiki_sync": false,
-    "id": "14768 [megagames_oomad_spokento]"
-  },
-  {
-    "domain": "PLAYER",
-    "source": "2911 [megagames_xp_limit]",
-    "lsb": 26,
-    "msb": 26,
-    "wiki_sync": false,
-    "id": "14769 [megagames_login]"
-  },
-  {
-    "domain": "PLAYER",
-    "source": "2911 [megagames_xp_limit]",
-    "lsb": 27,
-    "msb": 27,
-    "wiki_sync": false,
-    "id": "14770 [megagames_safety]"
-  },
-  {
-    "domain": "PLAYER",
-    "source": "2918 [megagames_marathon_varp]",
-    "lsb": 6,
-    "msb": 7,
-    "wiki_sync": false,
-    "id": "14771 [megagames_cheesewheel_direction]"
-  },
-  {
-    "domain": "PLAYER",
-    "source": "2918 [megagames_marathon_varp]",
-    "lsb": 8,
-    "msb": 8,
-    "wiki_sync": false,
-    "id": "14772 [megagames_jinglecheck]"
-  },
-  {
-    "domain": "PLAYER",
-    "source": "2918 [megagames_marathon_varp]",
-    "lsb": 9,
-    "msb": 9,
-    "wiki_sync": false,
-    "id": "14773 [megagames_athletics_race_started]"
-  },
-  {
-    "domain": "PLAYER",
-    "source": "2918 [megagames_marathon_varp]",
-    "lsb": 10,
-    "msb": 10,
-    "wiki_sync": false,
-    "id": "14774 [megagames_athletics_race_won]"
-  },
-  {
-    "domain": "PLAYER",
-    "source": "2918 [megagames_marathon_varp]",
-    "lsb": 0,
-    "msb": 5,
-    "wiki_sync": false,
-    "id": "14775 [megagames_marathon_point]"
-  },
-  {
-    "domain": "PLAYER",
-    "source": "2921 [megagames_rr_trees]",
-    "lsb": 0,
-    "msb": 0,
-    "wiki_sync": false,
-    "id": "14776 [megagames_rr_bluetree_1]"
-  },
-  {
-    "domain": "PLAYER",
-    "source": "2921 [megagames_rr_trees]",
-    "lsb": 1,
-    "msb": 1,
-    "wiki_sync": false,
-    "id": "14777 [megagames_rr_bluetree_2]"
-  },
-  {
-    "domain": "PLAYER",
-    "source": "2921 [megagames_rr_trees]",
-    "lsb": 2,
-    "msb": 2,
-    "wiki_sync": false,
-    "id": "14778 [megagames_rr_goldtree_1]"
-  },
-  {
-    "domain": "PLAYER",
-    "source": "2921 [megagames_rr_trees]",
-    "lsb": 3,
-    "msb": 3,
-    "wiki_sync": false,
-    "id": "14779 [megagames_rr_goldtree_2]"
-  },
-  {
-    "domain": "PLAYER",
-    "source": "2921 [megagames_rr_trees]",
-    "lsb": 4,
-    "msb": 4,
-    "wiki_sync": false,
-    "id": "14780 [megagames_rr_blacktree_1]"
-  },
-  {
-    "domain": "PLAYER",
-    "source": "2921 [megagames_rr_trees]",
-    "lsb": 5,
-    "msb": 5,
-    "wiki_sync": false,
-    "id": "14781 [megagames_rr_blacktree_2]"
-  },
-  {
-    "domain": "PLAYER",
-    "source": "2921 [megagames_rr_trees]",
-    "lsb": 6,
-    "msb": 6,
-    "wiki_sync": false,
-    "id": "14782 [megagames_rr_greentree_1]"
-  },
-  {
-    "domain": "PLAYER",
-    "source": "2921 [megagames_rr_trees]",
-    "lsb": 7,
-    "msb": 7,
-    "wiki_sync": false,
-    "id": "14783 [megagames_rr_greentree_2]"
-  },
-  {
-    "domain": "PLAYER",
-    "source": "2921 [megagames_rr_trees]",
-    "lsb": 8,
-    "msb": 8,
-    "wiki_sync": false,
-    "id": "14784 [megagames_rr_redtree_1]"
-  },
-  {
-    "domain": "PLAYER",
-    "source": "2921 [megagames_rr_trees]",
-    "lsb": 9,
-    "msb": 9,
-    "wiki_sync": false,
-    "id": "14785 [megagames_rr_redtree_2]"
-  },
-  {
-    "domain": "CONTROLLER",
-    "source": "770",
-    "lsb": 0,
-    "msb": 5,
-    "wiki_sync": false,
-    "id": "14786"
-  },
-  {
-    "domain": "CONTROLLER",
-    "source": "770",
-    "lsb": 6,
-    "msb": 11,
-    "wiki_sync": false,
-    "id": "14787"
-  },
-  {
-    "domain": "CONTROLLER",
-    "source": "770",
-    "lsb": 12,
-    "msb": 17,
-    "wiki_sync": false,
-    "id": "14788"
-  },
-  {
-    "domain": "CONTROLLER",
-    "source": "770",
-    "lsb": 18,
-    "msb": 23,
-    "wiki_sync": false,
-    "id": "14789"
-  },
-  {
-    "domain": "CONTROLLER",
-    "source": "770",
-    "lsb": 24,
-    "msb": 29,
-    "wiki_sync": false,
-    "id": "14790"
-  },
-  {
-    "domain": "CONTROLLER",
-    "source": "771",
-    "lsb": 0,
-    "msb": 5,
-    "wiki_sync": false,
-    "id": "14791"
-  },
-  {
-    "domain": "CONTROLLER",
-    "source": "771",
-    "lsb": 6,
-    "msb": 11,
-    "wiki_sync": false,
-    "id": "14792"
-  },
-  {
-    "domain": "CONTROLLER",
-    "source": "771",
-    "lsb": 12,
-    "msb": 17,
-    "wiki_sync": false,
-    "id": "14793"
-  },
-  {
-    "domain": "CONTROLLER",
-    "source": "771",
-    "lsb": 18,
-    "msb": 23,
-    "wiki_sync": false,
-    "id": "14794"
-  },
-  {
-    "domain": "CONTROLLER",
-    "source": "771",
-    "lsb": 24,
-    "msb": 29,
-    "wiki_sync": false,
-    "id": "14795"
-  },
-  {
-    "domain": "CONTROLLER",
-    "source": "772",
-    "lsb": 0,
-    "msb": 5,
-    "wiki_sync": false,
-    "id": "14796"
-  },
-  {
-    "domain": "CONTROLLER",
-    "source": "772",
-    "lsb": 6,
-    "msb": 11,
-    "wiki_sync": false,
-    "id": "14797"
-  },
-  {
-    "domain": "CONTROLLER",
-    "source": "772",
-    "lsb": 12,
-    "msb": 17,
-    "wiki_sync": false,
-    "id": "14798"
-  },
-  {
-    "domain": "CONTROLLER",
-    "source": "772",
-    "lsb": 18,
-    "msb": 23,
-    "wiki_sync": false,
-    "id": "14799"
-  },
-  {
-    "domain": "CONTROLLER",
-    "source": "772",
-    "lsb": 24,
-    "msb": 29,
-    "wiki_sync": false,
-    "id": "14800"
-  },
-  {
-    "domain": "CONTROLLER",
-    "source": "773",
-    "lsb": 0,
-    "msb": 5,
-    "wiki_sync": false,
-    "id": "14801"
-  },
-  {
-    "domain": "CONTROLLER",
-    "source": "773",
-    "lsb": 6,
-    "msb": 11,
-    "wiki_sync": false,
-    "id": "14802"
-  },
-  {
-    "domain": "CONTROLLER",
-    "source": "773",
-    "lsb": 12,
-    "msb": 17,
-    "wiki_sync": false,
-    "id": "14803"
-  },
-  {
-    "domain": "CONTROLLER",
-    "source": "773",
-    "lsb": 18,
-    "msb": 23,
-    "wiki_sync": false,
-    "id": "14804"
-  },
-  {
-    "domain": "CONTROLLER",
-    "source": "773",
-    "lsb": 24,
-    "msb": 29,
-    "wiki_sync": false,
-    "id": "14805"
-  },
-  {
-    "domain": "CONTROLLER",
-    "source": "774",
-    "lsb": 0,
-    "msb": 5,
-    "wiki_sync": false,
-    "id": "14806"
-  },
-  {
-    "domain": "CONTROLLER",
-    "source": "774",
-    "lsb": 6,
-    "msb": 11,
-    "wiki_sync": false,
-    "id": "14807"
-  },
-  {
-    "domain": "CONTROLLER",
-    "source": "774",
-    "lsb": 12,
-    "msb": 17,
-    "wiki_sync": false,
-    "id": "14808"
-  },
-  {
-    "domain": "CONTROLLER",
-    "source": "774",
-    "lsb": 18,
-    "msb": 23,
-    "wiki_sync": false,
-    "id": "14809"
-  },
-  {
-    "domain": "CONTROLLER",
-    "source": "774",
-    "lsb": 24,
-    "msb": 29,
-    "wiki_sync": false,
-    "id": "14810"
-  },
-  {
-    "domain": "CONTROLLER",
-    "source": "775",
-    "lsb": 0,
-    "msb": 9,
-    "wiki_sync": false,
-    "id": "14811"
-  },
-  {
-    "domain": "CONTROLLER",
-    "source": "775",
-    "lsb": 10,
-    "msb": 19,
-    "wiki_sync": false,
-    "id": "14812"
-  },
-  {
-    "domain": "CONTROLLER",
-    "source": "775",
-    "lsb": 20,
-    "msb": 29,
-    "wiki_sync": false,
-    "id": "14813"
-  },
-  {
-    "domain": "CONTROLLER",
-    "source": "776",
-    "lsb": 0,
-    "msb": 9,
-    "wiki_sync": false,
-    "id": "14814"
-  },
-  {
-    "domain": "CONTROLLER",
-    "source": "776",
-    "lsb": 10,
-    "msb": 19,
-    "wiki_sync": false,
-    "id": "14815"
-  },
-  {
-    "domain": "CONTROLLER",
-    "source": "776",
-    "lsb": 20,
-    "msb": 29,
-    "wiki_sync": false,
-    "id": "14816"
-  },
-  {
-    "domain": "CONTROLLER",
-    "source": "777",
-    "lsb": 0,
-    "msb": 9,
-    "wiki_sync": false,
-    "id": "14817"
-  },
-  {
-    "domain": "CONTROLLER",
-    "source": "777",
-    "lsb": 10,
-    "msb": 19,
-    "wiki_sync": false,
-    "id": "14818"
-  },
-  {
-    "domain": "CONTROLLER",
-    "source": "777",
-    "lsb": 20,
-    "msb": 29,
-    "wiki_sync": false,
-    "id": "14819"
-  },
-  {
-    "domain": "CONTROLLER",
-    "source": "778",
-    "lsb": 0,
-    "msb": 9,
-    "wiki_sync": false,
-    "id": "14820"
-  },
-  {
-    "domain": "CONTROLLER",
-    "source": "778",
-    "lsb": 10,
-    "msb": 19,
-    "wiki_sync": false,
-    "id": "14821"
-  },
-  {
-    "domain": "CONTROLLER",
-    "source": "778",
-    "lsb": 20,
-    "msb": 29,
-    "wiki_sync": false,
-    "id": "14822"
-  },
-  {
-    "domain": "CONTROLLER",
-    "source": "779",
-    "lsb": 0,
-    "msb": 9,
-    "wiki_sync": false,
-    "id": "14823"
-  },
-  {
-    "domain": "CONTROLLER",
-    "source": "779",
-    "lsb": 10,
-    "msb": 19,
-    "wiki_sync": false,
-    "id": "14824"
-  },
-  {
-    "domain": "CONTROLLER",
-    "source": "779",
-    "lsb": 20,
-    "msb": 29,
-    "wiki_sync": false,
-    "id": "14825"
-  },
-  {
-    "domain": "CONTROLLER",
-    "source": "780",
-    "lsb": 0,
-    "msb": 5,
-    "wiki_sync": false,
-    "id": "14826"
-  },
-  {
-    "domain": "CONTROLLER",
-    "source": "780",
-    "lsb": 6,
-    "msb": 11,
-    "wiki_sync": false,
-    "id": "14827"
-  },
-  {
-    "domain": "CONTROLLER",
-    "source": "780",
-    "lsb": 12,
-    "msb": 17,
-    "wiki_sync": false,
-    "id": "14828"
-  },
-  {
-    "domain": "CONTROLLER",
-    "source": "780",
-    "lsb": 18,
-    "msb": 23,
-    "wiki_sync": false,
-    "id": "14829"
-  },
-  {
-    "domain": "CONTROLLER",
-    "source": "780",
-    "lsb": 24,
-    "msb": 29,
-    "wiki_sync": false,
-    "id": "14830"
-  },
-  {
-    "domain": "ITEM",
-    "source": "0 [legacyvarobj]",
-    "lsb": 0,
-    "msb": 5,
-    "wiki_sync": false,
-    "id": "14831 [pre_megagame_sweet]"
-  },
-  {
-    "domain": "ITEM",
-    "source": "0 [legacyvarobj]",
-    "lsb": 6,
-    "msb": 10,
-    "wiki_sync": false,
-    "id": "14832 [pre_megagame_savoury]"
-  },
-  {
-    "domain": "ITEM",
-    "source": "0 [legacyvarobj]",
-    "lsb": 11,
-    "msb": 15,
-    "wiki_sync": false,
-    "id": "14833 [pre_megagame_bitter]"
-  },
-  {
-    "domain": "ITEM",
-    "source": "0 [legacyvarobj]",
-    "lsb": 16,
-    "msb": 20,
-    "wiki_sync": false,
-    "id": "14834 [pre_megagame_sour]"
-  },
-  {
-    "domain": "ITEM",
-    "source": "0 [legacyvarobj]",
-    "lsb": 21,
-    "msb": 25,
-    "wiki_sync": false,
-    "id": "14835 [pre_megagame_fruity]"
-  },
-  {
-    "domain": "ITEM",
-    "source": "0 [legacyvarobj]",
-    "lsb": 26,
-    "msb": 30,
-    "wiki_sync": false,
-    "id": "14836 [pre_megagame_spicy]"
-  },
-  {
-    "domain": "PLAYER",
-    "source": "2923 [pre_megagame_bits]",
-    "lsb": 0,
-    "msb": 2,
-    "wiki_sync": false,
-    "id": "14837 [pre_megagame_current_task]"
-  },
-  {
-    "domain": "PLAYER",
-    "source": "2923 [pre_megagame_bits]",
-    "lsb": 3,
-    "msb": 5,
-    "wiki_sync": false,
-    "id": "14838 [pre_megagame_current_task_count]"
-  },
-  {
-    "domain": "PLAYER",
-    "source": "2923 [pre_megagame_bits]",
-    "lsb": 6,
-    "msb": 8,
-    "wiki_sync": false,
-    "id": "14839 [pre_megagame_current_food_1]"
-  },
-  {
-    "domain": "PLAYER",
-    "source": "2923 [pre_megagame_bits]",
-    "lsb": 9,
-    "msb": 11,
-    "wiki_sync": false,
-    "id": "14840 [pre_megagame_current_food_2]"
-  },
-  {
-    "domain": "PLAYER",
-    "source": "2923 [pre_megagame_bits]",
-    "lsb": 12,
-    "msb": 14,
-    "wiki_sync": false,
-    "id": "14841 [pre_megagame_current_food_3]"
-  },
-  {
-    "domain": "PLAYER",
-    "source": "2923 [pre_megagame_bits]",
-    "lsb": 15,
-    "msb": 15,
-    "wiki_sync": false,
-    "id": "14842 [pre_megagame_medal_task]"
-  },
-  {
-    "domain": "PLAYER",
-    "source": "2923 [pre_megagame_bits]",
-    "lsb": 16,
-    "msb": 16,
-    "wiki_sync": false,
-    "id": "14843 [pre_megagame_construction_task]"
-  },
-  {
-    "domain": "PLAYER",
-    "source": "2923 [pre_megagame_bits]",
-    "lsb": 17,
-    "msb": 17,
-    "wiki_sync": false,
-    "id": "14844 [pre_megagame_food_task]"
-  },
-  {
-    "domain": "PLAYER",
-    "source": "2923 [pre_megagame_bits]",
-    "lsb": 18,
-    "msb": 18,
-    "wiki_sync": false,
-    "id": "14845 [pre_megagame_intro]"
-  },
-  {
-    "domain": "PLAYER",
-    "source": "2923 [pre_megagame_bits]",
-    "lsb": 19,
-    "msb": 25,
-    "wiki_sync": false,
-    "id": "14846 [pre_megagame_food_score_total]"
-  },
-  {
-    "domain": "PLAYER",
-    "source": "2925 [pre_megagame_cooking_ingredients]",
-    "lsb": 0,
-    "msb": 4,
-    "wiki_sync": false,
-    "id": "14847 [pre_megagame_cooking_ingredient_1]"
-  },
-  {
-    "domain": "PLAYER",
-    "source": "2925 [pre_megagame_cooking_ingredients]",
-    "lsb": 5,
-    "msb": 9,
-    "wiki_sync": false,
-    "id": "14848 [pre_megagame_cooking_ingredient_2]"
-  },
-  {
-    "domain": "PLAYER",
-    "source": "2925 [pre_megagame_cooking_ingredients]",
-    "lsb": 10,
-    "msb": 14,
-    "wiki_sync": false,
-    "id": "14849 [pre_megagame_cooking_ingredient_3]"
-  },
-  {
-    "domain": "PLAYER",
-    "source": "2925 [pre_megagame_cooking_ingredients]",
-    "lsb": 15,
-    "msb": 19,
-    "wiki_sync": false,
-    "id": "14850 [pre_megagame_cooking_ingredient_4]"
-  },
-  {
-    "domain": "PLAYER",
-    "source": "2931 [megagames_cards_held]",
-    "lsb": 0,
-    "msb": 9,
-    "wiki_sync": false,
-    "id": "14851 [megagames_top_card]"
-  },
-  {
-    "domain": "PLAYER",
-    "source": "2931 [megagames_cards_held]",
-    "lsb": 10,
-    "msb": 19,
-    "wiki_sync": false,
-    "id": "14852 [megagames_middle_card]"
-  },
-  {
-    "domain": "PLAYER",
-    "source": "2931 [megagames_cards_held]",
-    "lsb": 20,
-    "msb": 29,
-    "wiki_sync": false,
-    "id": "14853 [megagames_bottom_card]"
-  },
-  {
-    "domain": "PLAYER",
-    "source": "2927 [megagames_athletics]",
-    "lsb": 0,
-    "msb": 7,
-    "wiki_sync": false,
-    "id": "14854 [megagames_athletics_turns]"
-  },
-  {
-    "domain": "PLAYER",
-    "source": "2927 [megagames_athletics]",
-    "lsb": 8,
-    "msb": 31,
-    "wiki_sync": false,
-    "id": "14855 [megagames_athletics_points]"
-  },
-  {
-    "domain": "CONTROLLER",
-    "source": "822",
-    "lsb": 0,
-    "msb": 1,
-    "wiki_sync": false,
-    "id": "14856"
-  },
-  {
-    "domain": "CONTROLLER",
-    "source": "822",
-    "lsb": 2,
-    "msb": 3,
-    "wiki_sync": false,
-    "id": "14857"
-  },
-  {
-    "domain": "CONTROLLER",
-    "source": "822",
-    "lsb": 4,
-    "msb": 5,
-    "wiki_sync": false,
-    "id": "14858"
-  },
-  {
-    "domain": "CONTROLLER",
-    "source": "822",
-    "lsb": 6,
-    "msb": 7,
-    "wiki_sync": false,
-    "id": "14859"
-  },
-  {
-    "domain": "CONTROLLER",
-    "source": "822",
-    "lsb": 8,
-    "msb": 9,
-    "wiki_sync": false,
-    "id": "14860"
-  },
-  {
-    "domain": "CONTROLLER",
-    "source": "822",
-    "lsb": 10,
-    "msb": 11,
-    "wiki_sync": false,
-    "id": "14861"
-  },
-  {
-    "domain": "CONTROLLER",
-    "source": "822",
-    "lsb": 12,
-    "msb": 13,
-    "wiki_sync": false,
-    "id": "14862"
-  },
-  {
-    "domain": "CONTROLLER",
-    "source": "822",
-    "lsb": 14,
-    "msb": 15,
-    "wiki_sync": false,
-    "id": "14863"
-  },
-  {
-    "domain": "CONTROLLER",
-    "source": "822",
-    "lsb": 16,
-    "msb": 17,
-    "wiki_sync": false,
-    "id": "14864"
-  },
-  {
-    "domain": "CONTROLLER",
-    "source": "822",
-    "lsb": 18,
-    "msb": 19,
-    "wiki_sync": false,
-    "id": "14865"
-  },
-  {
-    "domain": "CONTROLLER",
-    "source": "822",
-    "lsb": 20,
-    "msb": 21,
-    "wiki_sync": false,
-    "id": "14866"
-  },
-  {
-    "domain": "CONTROLLER",
-    "source": "822",
-    "lsb": 22,
-    "msb": 23,
-    "wiki_sync": false,
-    "id": "14867"
-  },
-  {
-    "domain": "CONTROLLER",
-    "source": "822",
-    "lsb": 24,
-    "msb": 25,
-    "wiki_sync": false,
-    "id": "14868"
-  },
-  {
-    "domain": "CONTROLLER",
-    "source": "822",
-    "lsb": 26,
-    "msb": 27,
-    "wiki_sync": false,
-    "id": "14869"
-  },
-  {
-    "domain": "CONTROLLER",
-    "source": "822",
-    "lsb": 28,
-    "msb": 29,
-    "wiki_sync": false,
-    "id": "14870"
-  },
-  {
-    "domain": "CONTROLLER",
-    "source": "823",
-    "lsb": 0,
-    "msb": 2,
-    "wiki_sync": false,
-    "id": "14871"
-  },
-  {
-    "domain": "CONTROLLER",
-    "source": "823",
-    "lsb": 3,
-    "msb": 5,
-    "wiki_sync": false,
-    "id": "14872"
-  },
-  {
-    "domain": "CONTROLLER",
-    "source": "823",
-    "lsb": 6,
-    "msb": 8,
-    "wiki_sync": false,
-    "id": "14873"
-  },
-  {
-    "domain": "CONTROLLER",
-    "source": "823",
-    "lsb": 9,
-    "msb": 11,
-    "wiki_sync": false,
-    "id": "14874"
-  },
-  {
-    "domain": "CONTROLLER",
-    "source": "823",
-    "lsb": 12,
-    "msb": 14,
-    "wiki_sync": false,
-    "id": "14875"
-  },
-  {
-    "domain": "CONTROLLER",
-    "source": "823",
-    "lsb": 15,
-    "msb": 16,
-    "wiki_sync": false,
-    "id": "14876"
-  },
-  {
-    "domain": "CONTROLLER",
-    "source": "823",
-    "lsb": 17,
-    "msb": 18,
-    "wiki_sync": false,
-    "id": "14877"
-  },
-  {
-    "domain": "CONTROLLER",
-    "source": "823",
-    "lsb": 19,
-    "msb": 20,
-    "wiki_sync": false,
-    "id": "14878"
-  },
-  {
-    "domain": "CONTROLLER",
-    "source": "823",
-    "lsb": 21,
-    "msb": 22,
-    "wiki_sync": false,
-    "id": "14879"
-  },
-  {
-    "domain": "CONTROLLER",
-    "source": "823",
-    "lsb": 23,
-    "msb": 24,
-    "wiki_sync": false,
-    "id": "14880"
-  },
-  {
-    "domain": "CONTROLLER",
-    "source": "823",
-    "lsb": 29,
-    "msb": 29,
-    "wiki_sync": false,
-    "id": "14881"
-  },
-  {
-    "domain": "PLAYER",
-    "source": "2932 [megagames_shop2_base]",
-    "lsb": 0,
-    "msb": 0,
-    "wiki_sync": false,
-    "id": "14882 [megagames_shop2_bought_obj0]"
-  },
-  {
-    "domain": "PLAYER",
-    "source": "2932 [megagames_shop2_base]",
-    "lsb": 1,
-    "msb": 1,
-    "wiki_sync": false,
-    "id": "14883 [megagames_shop2_bought_obj1]"
-  },
-  {
-    "domain": "PLAYER",
-    "source": "2932 [megagames_shop2_base]",
-    "lsb": 2,
-    "msb": 2,
-    "wiki_sync": false,
-    "id": "14884 [megagames_shop2_bought_obj2]"
-  },
-  {
-    "domain": "PLAYER",
-    "source": "2932 [megagames_shop2_base]",
-    "lsb": 3,
-    "msb": 3,
-    "wiki_sync": false,
-    "id": "14885 [megagames_shop2_bought_obj3]"
-  },
-  {
-    "domain": "PLAYER",
-    "source": "2932 [megagames_shop2_base]",
-    "lsb": 4,
-    "msb": 4,
-    "wiki_sync": false,
-    "id": "14886 [megagames_shop2_bought_obj4]"
-  },
-  {
-    "domain": "PLAYER",
-    "source": "2932 [megagames_shop2_base]",
-    "lsb": 5,
-    "msb": 5,
-    "wiki_sync": false,
-    "id": "14887 [megagames_shop2_bought_obj5]"
-  },
-  {
-    "domain": "PLAYER",
-    "source": "2932 [megagames_shop2_base]",
-    "lsb": 6,
-    "msb": 6,
-    "wiki_sync": false,
-    "id": "14888 [megagames_shop2_bought_obj6]"
-  },
-  {
-    "domain": "PLAYER",
-    "source": "2932 [megagames_shop2_base]",
-    "lsb": 7,
-    "msb": 7,
-    "wiki_sync": false,
-    "id": "14889 [megagames_shop2_bought_obj7]"
-  },
-  {
-    "domain": "PLAYER",
-    "source": "2932 [megagames_shop2_base]",
-    "lsb": 8,
-    "msb": 8,
-    "wiki_sync": false,
-    "id": "14890 [megagames_shop2_bought_obj8]"
-  },
-  {
-    "domain": "PLAYER",
-    "source": "2932 [megagames_shop2_base]",
-    "lsb": 9,
-    "msb": 9,
-    "wiki_sync": false,
-    "id": "14891 [megagames_shop2_bought_obj9]"
-  },
-  {
-    "domain": "PLAYER",
-    "source": "2932 [megagames_shop2_base]",
-    "lsb": 10,
-    "msb": 10,
-    "wiki_sync": false,
-    "id": "14892 [megagames_shop2_bought_obj10]"
-  },
-  {
-    "domain": "PLAYER",
-    "source": "2932 [megagames_shop2_base]",
-    "lsb": 11,
-    "msb": 11,
-    "wiki_sync": false,
-    "id": "14893 [megagames_shop2_bought_obj11]"
-  },
-  {
-    "domain": "PLAYER",
-    "source": "2932 [megagames_shop2_base]",
-    "lsb": 12,
-    "msb": 12,
-    "wiki_sync": false,
-    "id": "14894 [megagames_shop2_bought_obj12]"
-  },
-  {
-    "domain": "PLAYER",
-    "source": "2932 [megagames_shop2_base]",
-    "lsb": 13,
-    "msb": 13,
-    "wiki_sync": false,
-    "id": "14895 [megagames_shop2_bought_obj13]"
-  },
-  {
-    "domain": "PLAYER",
-    "source": "2932 [megagames_shop2_base]",
-    "lsb": 14,
-    "msb": 14,
-    "wiki_sync": false,
-    "id": "14896 [megagames_shop2_bought_obj14]"
-  },
-  {
-    "domain": "PLAYER",
-    "source": "2932 [megagames_shop2_base]",
-    "lsb": 15,
-    "msb": 15,
-    "wiki_sync": false,
-    "id": "14897 [megagames_shop2_bought_obj15]"
-  },
-  {
-    "domain": "PLAYER",
-    "source": "2932 [megagames_shop2_base]",
-    "lsb": 16,
-    "msb": 16,
-    "wiki_sync": false,
-    "id": "14898 [megagames_shop2_bought_obj16]"
-  },
-  {
-    "domain": "PLAYER",
-    "source": "2932 [megagames_shop2_base]",
-    "lsb": 17,
-    "msb": 17,
-    "wiki_sync": false,
-    "id": "14899 [megagames_shop2_bought_obj17]"
-  },
-  {
-    "domain": "PLAYER",
-    "source": "2932 [megagames_shop2_base]",
-    "lsb": 18,
-    "msb": 18,
-    "wiki_sync": false,
-    "id": "14900 [megagames_shop2_bought_obj18]"
-  },
-  {
-    "domain": "PLAYER",
-    "source": "2932 [megagames_shop2_base]",
-    "lsb": 19,
-    "msb": 19,
-    "wiki_sync": false,
-    "id": "14901 [megagames_shop2_bought_obj19]"
-  },
-  {
-    "domain": "PLAYER",
-    "source": "2932 [megagames_shop2_base]",
-    "lsb": 20,
-    "msb": 20,
-    "wiki_sync": false,
-    "id": "14902 [megagames_shop2_bought_obj20]"
-  },
-  {
-    "domain": "PLAYER",
-    "source": "2932 [megagames_shop2_base]",
-    "lsb": 21,
-    "msb": 21,
-    "wiki_sync": false,
-    "id": "14903 [megagames_shop2_bought_obj21]"
-  },
-  {
-    "domain": "PLAYER",
-    "source": "2932 [megagames_shop2_base]",
-    "lsb": 22,
-    "msb": 22,
-    "wiki_sync": false,
-    "id": "14904 [megagames_shop2_bought_obj22]"
-  },
-  {
-    "domain": "PLAYER",
-    "source": "2932 [megagames_shop2_base]",
-    "lsb": 23,
-    "msb": 23,
-    "wiki_sync": false,
-    "id": "14905 [megagames_shop2_bought_obj23]"
-  },
-  {
-    "domain": "PLAYER",
-    "source": "2932 [megagames_shop2_base]",
-    "lsb": 24,
-    "msb": 24,
-    "wiki_sync": false,
-    "id": "14906 [megagames_shop2_bought_obj24]"
-  },
-  {
-    "domain": "PLAYER",
-    "source": "2932 [megagames_shop2_base]",
-    "lsb": 25,
-    "msb": 25,
-    "wiki_sync": false,
-    "id": "14907 [megagames_shop2_bought_obj25]"
-  },
-  {
-    "domain": "PLAYER",
-    "source": "2932 [megagames_shop2_base]",
-    "lsb": 26,
-    "msb": 31,
-    "wiki_sync": false,
-    "id": "14908 [megagames_shop2_selected_object_id]"
-  },
-  {
-    "domain": "PLAYER",
-    "source": "2933 [olyimpics_shop_bits]",
-    "lsb": 0,
-    "msb": 0,
-    "wiki_sync": false,
-    "id": "14909 [megagames_shop_unlocked_bronze]"
-  },
-  {
-    "domain": "PLAYER",
-    "source": "2933 [olyimpics_shop_bits]",
-    "lsb": 1,
-    "msb": 1,
-    "wiki_sync": false,
-    "id": "14910 [megagames_shop_unlocked_silver]"
-  },
-  {
-    "domain": "PLAYER",
-    "source": "2933 [olyimpics_shop_bits]",
-    "lsb": 2,
-    "msb": 2,
-    "wiki_sync": false,
-    "id": "14911 [megagames_shop_unlocked_gold]"
-  },
-  {
-    "domain": "PLAYER",
     "source": "2934 [hw06_extra_var]",
     "lsb": 5,
     "msb": 8,
@@ -497561,6 +496289,14 @@
   },
   {
     "domain": "PLAYER",
+    "source": "13750",
+    "lsb": 0,
+    "msb": 3,
+    "wiki_sync": false,
+    "id": "62195"
+  },
+  {
+    "domain": "PLAYER",
     "source": "13652 [combatv2_greater_chain_child_player_uid_8]",
     "lsb": 29,
     "msb": 29,
@@ -497662,5 +496398,1909 @@
     "msb": 28,
     "wiki_sync": false,
     "id": "62208"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "12431 [toplevel_v2_parent_lock_3]",
+    "lsb": 5,
+    "msb": 5,
+    "wiki_sync": false,
+    "id": "62209"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "12431 [toplevel_v2_parent_lock_3]",
+    "lsb": 6,
+    "msb": 6,
+    "wiki_sync": false,
+    "id": "62210"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "13748",
+    "lsb": 0,
+    "msb": 2,
+    "wiki_sync": false,
+    "id": "62211"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "13748",
+    "lsb": 3,
+    "msb": 4,
+    "wiki_sync": false,
+    "id": "62212"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "13749",
+    "lsb": 0,
+    "msb": 0,
+    "wiki_sync": false,
+    "id": "62213"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "13749",
+    "lsb": 1,
+    "msb": 1,
+    "wiki_sync": false,
+    "id": "62214"
+  },
+  {
+    "domain": "CLIENT",
+    "source": "8181 [keybind_toplevel_18]",
+    "lsb": 24,
+    "msb": 31,
+    "wiki_sync": false,
+    "id": "62215"
+  },
+  {
+    "domain": "CLIENT",
+    "source": "7161 [keybind_modifier_toplevel_5]",
+    "lsb": 14,
+    "msb": 15,
+    "wiki_sync": false,
+    "id": "62216"
+  },
+  {
+    "domain": "CLIENT",
+    "source": "8514 [combatv2_buff_league_relic_buff_sliver_of_edicts_cooldown_end_client]",
+    "lsb": 0,
+    "msb": 11,
+    "wiki_sync": false,
+    "id": "62217"
+  },
+  {
+    "domain": "CLIENT",
+    "source": "8514 [combatv2_buff_league_relic_buff_sliver_of_edicts_cooldown_end_client]",
+    "lsb": 12,
+    "msb": 23,
+    "wiki_sync": false,
+    "id": "62218"
+  },
+  {
+    "domain": "CLIENT",
+    "source": "8514 [combatv2_buff_league_relic_buff_sliver_of_edicts_cooldown_end_client]",
+    "lsb": 24,
+    "msb": 30,
+    "wiki_sync": false,
+    "id": "62219"
+  },
+  {
+    "domain": "CLIENT",
+    "source": "8514 [combatv2_buff_league_relic_buff_sliver_of_edicts_cooldown_end_client]",
+    "lsb": 31,
+    "msb": 31,
+    "wiki_sync": false,
+    "id": "62220"
+  },
+  {
+    "domain": "CLIENT",
+    "source": "8515 [combatv2_debuff_league_relic_debuff_sliver_of_edicts_cooldown_end_client]",
+    "lsb": 0,
+    "msb": 11,
+    "wiki_sync": false,
+    "id": "62221"
+  },
+  {
+    "domain": "CLIENT",
+    "source": "8515 [combatv2_debuff_league_relic_debuff_sliver_of_edicts_cooldown_end_client]",
+    "lsb": 12,
+    "msb": 23,
+    "wiki_sync": false,
+    "id": "62222"
+  },
+  {
+    "domain": "CLIENT",
+    "source": "8515 [combatv2_debuff_league_relic_debuff_sliver_of_edicts_cooldown_end_client]",
+    "lsb": 24,
+    "msb": 30,
+    "wiki_sync": false,
+    "id": "62223"
+  },
+  {
+    "domain": "CLIENT",
+    "source": "8515 [combatv2_debuff_league_relic_debuff_sliver_of_edicts_cooldown_end_client]",
+    "lsb": 31,
+    "msb": 31,
+    "wiki_sync": false,
+    "id": "62224"
+  },
+  {
+    "domain": "CLIENT",
+    "source": "8524",
+    "lsb": 0,
+    "msb": 11,
+    "wiki_sync": false,
+    "id": "62225"
+  },
+  {
+    "domain": "CLIENT",
+    "source": "8524",
+    "lsb": 12,
+    "msb": 23,
+    "wiki_sync": false,
+    "id": "62226"
+  },
+  {
+    "domain": "CLIENT",
+    "source": "8524",
+    "lsb": 24,
+    "msb": 30,
+    "wiki_sync": false,
+    "id": "62227"
+  },
+  {
+    "domain": "CLIENT",
+    "source": "8524",
+    "lsb": 31,
+    "msb": 31,
+    "wiki_sync": false,
+    "id": "62228"
+  },
+  {
+    "domain": "CLIENT",
+    "source": "8525",
+    "lsb": 0,
+    "msb": 11,
+    "wiki_sync": false,
+    "id": "62229"
+  },
+  {
+    "domain": "CLIENT",
+    "source": "8525",
+    "lsb": 12,
+    "msb": 23,
+    "wiki_sync": false,
+    "id": "62230"
+  },
+  {
+    "domain": "CLIENT",
+    "source": "8525",
+    "lsb": 24,
+    "msb": 30,
+    "wiki_sync": false,
+    "id": "62231"
+  },
+  {
+    "domain": "CLIENT",
+    "source": "8525",
+    "lsb": 31,
+    "msb": 31,
+    "wiki_sync": false,
+    "id": "62232"
+  },
+  {
+    "domain": "CLIENT",
+    "source": "8526",
+    "lsb": 0,
+    "msb": 11,
+    "wiki_sync": false,
+    "id": "62233"
+  },
+  {
+    "domain": "CLIENT",
+    "source": "8526",
+    "lsb": 12,
+    "msb": 23,
+    "wiki_sync": false,
+    "id": "62234"
+  },
+  {
+    "domain": "CLIENT",
+    "source": "8526",
+    "lsb": 24,
+    "msb": 30,
+    "wiki_sync": false,
+    "id": "62235"
+  },
+  {
+    "domain": "CLIENT",
+    "source": "8526",
+    "lsb": 31,
+    "msb": 31,
+    "wiki_sync": false,
+    "id": "62236"
+  },
+  {
+    "domain": "CLIENT",
+    "source": "8527",
+    "lsb": 0,
+    "msb": 11,
+    "wiki_sync": false,
+    "id": "62237"
+  },
+  {
+    "domain": "CLIENT",
+    "source": "8527",
+    "lsb": 12,
+    "msb": 23,
+    "wiki_sync": false,
+    "id": "62238"
+  },
+  {
+    "domain": "CLIENT",
+    "source": "8527",
+    "lsb": 24,
+    "msb": 30,
+    "wiki_sync": false,
+    "id": "62239"
+  },
+  {
+    "domain": "CLIENT",
+    "source": "8527",
+    "lsb": 31,
+    "msb": 31,
+    "wiki_sync": false,
+    "id": "62240"
+  },
+  {
+    "domain": "CLIENT",
+    "source": "8528",
+    "lsb": 0,
+    "msb": 11,
+    "wiki_sync": false,
+    "id": "62241"
+  },
+  {
+    "domain": "CLIENT",
+    "source": "8528",
+    "lsb": 12,
+    "msb": 23,
+    "wiki_sync": false,
+    "id": "62242"
+  },
+  {
+    "domain": "CLIENT",
+    "source": "8528",
+    "lsb": 24,
+    "msb": 30,
+    "wiki_sync": false,
+    "id": "62243"
+  },
+  {
+    "domain": "CLIENT",
+    "source": "8528",
+    "lsb": 31,
+    "msb": 31,
+    "wiki_sync": false,
+    "id": "62244"
+  },
+  {
+    "domain": "CLIENT",
+    "source": "8529",
+    "lsb": 0,
+    "msb": 11,
+    "wiki_sync": false,
+    "id": "62245"
+  },
+  {
+    "domain": "CLIENT",
+    "source": "8529",
+    "lsb": 12,
+    "msb": 23,
+    "wiki_sync": false,
+    "id": "62246"
+  },
+  {
+    "domain": "CLIENT",
+    "source": "8529",
+    "lsb": 24,
+    "msb": 30,
+    "wiki_sync": false,
+    "id": "62247"
+  },
+  {
+    "domain": "CLIENT",
+    "source": "8529",
+    "lsb": 31,
+    "msb": 31,
+    "wiki_sync": false,
+    "id": "62248"
+  },
+  {
+    "domain": "CLIENT",
+    "source": "8530",
+    "lsb": 0,
+    "msb": 11,
+    "wiki_sync": false,
+    "id": "62249"
+  },
+  {
+    "domain": "CLIENT",
+    "source": "8530",
+    "lsb": 12,
+    "msb": 23,
+    "wiki_sync": false,
+    "id": "62250"
+  },
+  {
+    "domain": "CLIENT",
+    "source": "8530",
+    "lsb": 24,
+    "msb": 30,
+    "wiki_sync": false,
+    "id": "62251"
+  },
+  {
+    "domain": "CLIENT",
+    "source": "8530",
+    "lsb": 31,
+    "msb": 31,
+    "wiki_sync": false,
+    "id": "62252"
+  },
+  {
+    "domain": "CLIENT",
+    "source": "8531",
+    "lsb": 0,
+    "msb": 11,
+    "wiki_sync": false,
+    "id": "62253"
+  },
+  {
+    "domain": "CLIENT",
+    "source": "8531",
+    "lsb": 12,
+    "msb": 23,
+    "wiki_sync": false,
+    "id": "62254"
+  },
+  {
+    "domain": "CLIENT",
+    "source": "8531",
+    "lsb": 24,
+    "msb": 30,
+    "wiki_sync": false,
+    "id": "62255"
+  },
+  {
+    "domain": "CLIENT",
+    "source": "8531",
+    "lsb": 31,
+    "msb": 31,
+    "wiki_sync": false,
+    "id": "62256"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "13753",
+    "lsb": 0,
+    "msb": 0,
+    "wiki_sync": false,
+    "id": "62257"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "13753",
+    "lsb": 1,
+    "msb": 1,
+    "wiki_sync": false,
+    "id": "62258"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "13753",
+    "lsb": 2,
+    "msb": 2,
+    "wiki_sync": false,
+    "id": "62259"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "13753",
+    "lsb": 3,
+    "msb": 3,
+    "wiki_sync": false,
+    "id": "62260"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "12240 [trh_promos_var42]",
+    "lsb": 27,
+    "msb": 27,
+    "wiki_sync": false,
+    "id": "62261"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "13751",
+    "lsb": 0,
+    "msb": 7,
+    "wiki_sync": false,
+    "id": "62262"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "13652 [combatv2_greater_chain_child_player_uid_8]",
+    "lsb": 30,
+    "msb": 30,
+    "wiki_sync": false,
+    "id": "62263"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "13652 [combatv2_greater_chain_child_player_uid_8]",
+    "lsb": 31,
+    "msb": 31,
+    "wiki_sync": false,
+    "id": "62264"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "13752",
+    "lsb": 0,
+    "msb": 0,
+    "wiki_sync": false,
+    "id": "62265"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "13752",
+    "lsb": 1,
+    "msb": 1,
+    "wiki_sync": false,
+    "id": "62266"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "13752",
+    "lsb": 2,
+    "msb": 2,
+    "wiki_sync": false,
+    "id": "62267"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "13752",
+    "lsb": 3,
+    "msb": 3,
+    "wiki_sync": false,
+    "id": "62268"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "13752",
+    "lsb": 4,
+    "msb": 4,
+    "wiki_sync": false,
+    "id": "62269"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "13752",
+    "lsb": 5,
+    "msb": 5,
+    "wiki_sync": false,
+    "id": "62270"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "13752",
+    "lsb": 6,
+    "msb": 6,
+    "wiki_sync": false,
+    "id": "62271"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "13752",
+    "lsb": 7,
+    "msb": 7,
+    "wiki_sync": false,
+    "id": "62272"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "13752",
+    "lsb": 8,
+    "msb": 8,
+    "wiki_sync": false,
+    "id": "62273"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "13752",
+    "lsb": 9,
+    "msb": 9,
+    "wiki_sync": false,
+    "id": "62274"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "13752",
+    "lsb": 10,
+    "msb": 10,
+    "wiki_sync": false,
+    "id": "62275"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "13752",
+    "lsb": 11,
+    "msb": 11,
+    "wiki_sync": false,
+    "id": "62276"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "13752",
+    "lsb": 12,
+    "msb": 12,
+    "wiki_sync": false,
+    "id": "62277"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "13752",
+    "lsb": 13,
+    "msb": 13,
+    "wiki_sync": false,
+    "id": "62278"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "13752",
+    "lsb": 14,
+    "msb": 14,
+    "wiki_sync": false,
+    "id": "62279"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "13752",
+    "lsb": 15,
+    "msb": 15,
+    "wiki_sync": false,
+    "id": "62280"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "13752",
+    "lsb": 16,
+    "msb": 16,
+    "wiki_sync": false,
+    "id": "62281"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "13752",
+    "lsb": 17,
+    "msb": 17,
+    "wiki_sync": false,
+    "id": "62282"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "13653 [combatv2_greater_chain_child_player_uid_9]",
+    "lsb": 4,
+    "msb": 4,
+    "wiki_sync": false,
+    "id": "62283"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "13653 [combatv2_greater_chain_child_player_uid_9]",
+    "lsb": 5,
+    "msb": 5,
+    "wiki_sync": false,
+    "id": "62284"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "13653 [combatv2_greater_chain_child_player_uid_9]",
+    "lsb": 6,
+    "msb": 6,
+    "wiki_sync": false,
+    "id": "62285"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "13653 [combatv2_greater_chain_child_player_uid_9]",
+    "lsb": 7,
+    "msb": 7,
+    "wiki_sync": false,
+    "id": "62286"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "13653 [combatv2_greater_chain_child_player_uid_9]",
+    "lsb": 8,
+    "msb": 8,
+    "wiki_sync": false,
+    "id": "62287"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "2931 [megagames_cards_held]",
+    "lsb": 0,
+    "msb": 9,
+    "wiki_sync": false,
+    "id": "62288"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "2931 [megagames_cards_held]",
+    "lsb": 10,
+    "msb": 19,
+    "wiki_sync": false,
+    "id": "62289"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "2931 [megagames_cards_held]",
+    "lsb": 20,
+    "msb": 29,
+    "wiki_sync": false,
+    "id": "62290"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "2927 [megagames_athletics]",
+    "lsb": 0,
+    "msb": 7,
+    "wiki_sync": false,
+    "id": "62291"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "2927 [megagames_athletics]",
+    "lsb": 8,
+    "msb": 31,
+    "wiki_sync": false,
+    "id": "62292"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "2918 [megagames_marathon_varp]",
+    "lsb": 6,
+    "msb": 7,
+    "wiki_sync": false,
+    "id": "62293"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "2918 [megagames_marathon_varp]",
+    "lsb": 8,
+    "msb": 8,
+    "wiki_sync": false,
+    "id": "62294"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "2918 [megagames_marathon_varp]",
+    "lsb": 9,
+    "msb": 9,
+    "wiki_sync": false,
+    "id": "62295"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "2918 [megagames_marathon_varp]",
+    "lsb": 10,
+    "msb": 10,
+    "wiki_sync": false,
+    "id": "62296"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "2911 [megagames_xp_limit]",
+    "lsb": 0,
+    "msb": 14,
+    "wiki_sync": false,
+    "id": "62297"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "2913 [megagames_xp_limit_3]",
+    "lsb": 0,
+    "msb": 12,
+    "wiki_sync": false,
+    "id": "62298"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "2912 [megagames_xp_limit_2]",
+    "lsb": 0,
+    "msb": 15,
+    "wiki_sync": false,
+    "id": "62299"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "2912 [megagames_xp_limit_2]",
+    "lsb": 16,
+    "msb": 31,
+    "wiki_sync": false,
+    "id": "62300"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "2914 [megagames_xp_limit_4]",
+    "lsb": 0,
+    "msb": 15,
+    "wiki_sync": false,
+    "id": "62301"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "2915 [megagames_ring_limit]",
+    "lsb": 0,
+    "msb": 15,
+    "wiki_sync": false,
+    "id": "62302"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "2915 [megagames_ring_limit]",
+    "lsb": 16,
+    "msb": 31,
+    "wiki_sync": false,
+    "id": "62303"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "2913 [megagames_xp_limit_3]",
+    "lsb": 13,
+    "msb": 29,
+    "wiki_sync": false,
+    "id": "62304"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "2911 [megagames_xp_limit]",
+    "lsb": 15,
+    "msb": 18,
+    "wiki_sync": false,
+    "id": "62305"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "2911 [megagames_xp_limit]",
+    "lsb": 19,
+    "msb": 19,
+    "wiki_sync": false,
+    "id": "62306"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "2911 [megagames_xp_limit]",
+    "lsb": 20,
+    "msb": 20,
+    "wiki_sync": false,
+    "id": "62307"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "2911 [megagames_xp_limit]",
+    "lsb": 21,
+    "msb": 21,
+    "wiki_sync": false,
+    "id": "62308"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "2911 [megagames_xp_limit]",
+    "lsb": 22,
+    "msb": 22,
+    "wiki_sync": false,
+    "id": "62309"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "2911 [megagames_xp_limit]",
+    "lsb": 23,
+    "msb": 23,
+    "wiki_sync": false,
+    "id": "62310"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "2911 [megagames_xp_limit]",
+    "lsb": 24,
+    "msb": 24,
+    "wiki_sync": false,
+    "id": "62311"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "2911 [megagames_xp_limit]",
+    "lsb": 25,
+    "msb": 25,
+    "wiki_sync": false,
+    "id": "62312"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "2911 [megagames_xp_limit]",
+    "lsb": 26,
+    "msb": 26,
+    "wiki_sync": false,
+    "id": "62313"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "2911 [megagames_xp_limit]",
+    "lsb": 27,
+    "msb": 27,
+    "wiki_sync": false,
+    "id": "62314"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "2918 [megagames_marathon_varp]",
+    "lsb": 0,
+    "msb": 5,
+    "wiki_sync": false,
+    "id": "62315"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "2923 [pre_megagame_bits]",
+    "lsb": 0,
+    "msb": 2,
+    "wiki_sync": false,
+    "id": "62316"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "2923 [pre_megagame_bits]",
+    "lsb": 3,
+    "msb": 5,
+    "wiki_sync": false,
+    "id": "62317"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "2923 [pre_megagame_bits]",
+    "lsb": 6,
+    "msb": 8,
+    "wiki_sync": false,
+    "id": "62318"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "2923 [pre_megagame_bits]",
+    "lsb": 9,
+    "msb": 11,
+    "wiki_sync": false,
+    "id": "62319"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "2923 [pre_megagame_bits]",
+    "lsb": 12,
+    "msb": 14,
+    "wiki_sync": false,
+    "id": "62320"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "2923 [pre_megagame_bits]",
+    "lsb": 15,
+    "msb": 15,
+    "wiki_sync": false,
+    "id": "62321"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "2923 [pre_megagame_bits]",
+    "lsb": 16,
+    "msb": 16,
+    "wiki_sync": false,
+    "id": "62322"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "2923 [pre_megagame_bits]",
+    "lsb": 17,
+    "msb": 17,
+    "wiki_sync": false,
+    "id": "62323"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "2923 [pre_megagame_bits]",
+    "lsb": 18,
+    "msb": 18,
+    "wiki_sync": false,
+    "id": "62324"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "2923 [pre_megagame_bits]",
+    "lsb": 19,
+    "msb": 25,
+    "wiki_sync": false,
+    "id": "62325"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "2925 [pre_megagame_cooking_ingredients]",
+    "lsb": 0,
+    "msb": 4,
+    "wiki_sync": false,
+    "id": "62326"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "2925 [pre_megagame_cooking_ingredients]",
+    "lsb": 5,
+    "msb": 9,
+    "wiki_sync": false,
+    "id": "62327"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "2925 [pre_megagame_cooking_ingredients]",
+    "lsb": 10,
+    "msb": 14,
+    "wiki_sync": false,
+    "id": "62328"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "2925 [pre_megagame_cooking_ingredients]",
+    "lsb": 15,
+    "msb": 19,
+    "wiki_sync": false,
+    "id": "62329"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "2921 [megagames_rr_trees]",
+    "lsb": 0,
+    "msb": 0,
+    "wiki_sync": false,
+    "id": "62330"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "2921 [megagames_rr_trees]",
+    "lsb": 1,
+    "msb": 1,
+    "wiki_sync": false,
+    "id": "62331"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "2921 [megagames_rr_trees]",
+    "lsb": 2,
+    "msb": 2,
+    "wiki_sync": false,
+    "id": "62332"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "2921 [megagames_rr_trees]",
+    "lsb": 3,
+    "msb": 3,
+    "wiki_sync": false,
+    "id": "62333"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "2921 [megagames_rr_trees]",
+    "lsb": 4,
+    "msb": 4,
+    "wiki_sync": false,
+    "id": "62334"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "2921 [megagames_rr_trees]",
+    "lsb": 5,
+    "msb": 5,
+    "wiki_sync": false,
+    "id": "62335"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "2921 [megagames_rr_trees]",
+    "lsb": 6,
+    "msb": 6,
+    "wiki_sync": false,
+    "id": "62336"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "2921 [megagames_rr_trees]",
+    "lsb": 7,
+    "msb": 7,
+    "wiki_sync": false,
+    "id": "62337"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "2921 [megagames_rr_trees]",
+    "lsb": 8,
+    "msb": 8,
+    "wiki_sync": false,
+    "id": "62338"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "2921 [megagames_rr_trees]",
+    "lsb": 9,
+    "msb": 9,
+    "wiki_sync": false,
+    "id": "62339"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "13754",
+    "lsb": 0,
+    "msb": 0,
+    "wiki_sync": false,
+    "id": "62340"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "13754",
+    "lsb": 1,
+    "msb": 1,
+    "wiki_sync": false,
+    "id": "62341"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "13754",
+    "lsb": 2,
+    "msb": 2,
+    "wiki_sync": false,
+    "id": "62342"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "2932 [megagames_shop2_base]",
+    "lsb": 0,
+    "msb": 0,
+    "wiki_sync": false,
+    "id": "62343"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "2932 [megagames_shop2_base]",
+    "lsb": 1,
+    "msb": 1,
+    "wiki_sync": false,
+    "id": "62344"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "2932 [megagames_shop2_base]",
+    "lsb": 2,
+    "msb": 2,
+    "wiki_sync": false,
+    "id": "62345"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "2932 [megagames_shop2_base]",
+    "lsb": 3,
+    "msb": 3,
+    "wiki_sync": false,
+    "id": "62346"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "2932 [megagames_shop2_base]",
+    "lsb": 4,
+    "msb": 4,
+    "wiki_sync": false,
+    "id": "62347"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "2932 [megagames_shop2_base]",
+    "lsb": 5,
+    "msb": 5,
+    "wiki_sync": false,
+    "id": "62348"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "2932 [megagames_shop2_base]",
+    "lsb": 6,
+    "msb": 6,
+    "wiki_sync": false,
+    "id": "62349"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "2932 [megagames_shop2_base]",
+    "lsb": 7,
+    "msb": 7,
+    "wiki_sync": false,
+    "id": "62350"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "2932 [megagames_shop2_base]",
+    "lsb": 8,
+    "msb": 8,
+    "wiki_sync": false,
+    "id": "62351"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "2932 [megagames_shop2_base]",
+    "lsb": 9,
+    "msb": 9,
+    "wiki_sync": false,
+    "id": "62352"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "2932 [megagames_shop2_base]",
+    "lsb": 10,
+    "msb": 10,
+    "wiki_sync": false,
+    "id": "62353"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "2932 [megagames_shop2_base]",
+    "lsb": 11,
+    "msb": 11,
+    "wiki_sync": false,
+    "id": "62354"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "2932 [megagames_shop2_base]",
+    "lsb": 12,
+    "msb": 12,
+    "wiki_sync": false,
+    "id": "62355"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "2932 [megagames_shop2_base]",
+    "lsb": 13,
+    "msb": 13,
+    "wiki_sync": false,
+    "id": "62356"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "2932 [megagames_shop2_base]",
+    "lsb": 14,
+    "msb": 14,
+    "wiki_sync": false,
+    "id": "62357"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "2932 [megagames_shop2_base]",
+    "lsb": 15,
+    "msb": 15,
+    "wiki_sync": false,
+    "id": "62358"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "2932 [megagames_shop2_base]",
+    "lsb": 16,
+    "msb": 16,
+    "wiki_sync": false,
+    "id": "62359"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "2932 [megagames_shop2_base]",
+    "lsb": 17,
+    "msb": 17,
+    "wiki_sync": false,
+    "id": "62360"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "2932 [megagames_shop2_base]",
+    "lsb": 18,
+    "msb": 18,
+    "wiki_sync": false,
+    "id": "62361"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "2932 [megagames_shop2_base]",
+    "lsb": 19,
+    "msb": 19,
+    "wiki_sync": false,
+    "id": "62362"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "2932 [megagames_shop2_base]",
+    "lsb": 20,
+    "msb": 20,
+    "wiki_sync": false,
+    "id": "62363"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "2932 [megagames_shop2_base]",
+    "lsb": 21,
+    "msb": 21,
+    "wiki_sync": false,
+    "id": "62364"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "2932 [megagames_shop2_base]",
+    "lsb": 22,
+    "msb": 22,
+    "wiki_sync": false,
+    "id": "62365"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "2932 [megagames_shop2_base]",
+    "lsb": 23,
+    "msb": 23,
+    "wiki_sync": false,
+    "id": "62366"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "2932 [megagames_shop2_base]",
+    "lsb": 24,
+    "msb": 24,
+    "wiki_sync": false,
+    "id": "62367"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "2932 [megagames_shop2_base]",
+    "lsb": 25,
+    "msb": 25,
+    "wiki_sync": false,
+    "id": "62368"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "2932 [megagames_shop2_base]",
+    "lsb": 26,
+    "msb": 31,
+    "wiki_sync": false,
+    "id": "62369"
+  },
+  {
+    "domain": "CONTROLLER",
+    "source": "3819",
+    "lsb": 0,
+    "msb": 1,
+    "wiki_sync": false,
+    "id": "62370"
+  },
+  {
+    "domain": "CONTROLLER",
+    "source": "3819",
+    "lsb": 2,
+    "msb": 3,
+    "wiki_sync": false,
+    "id": "62371"
+  },
+  {
+    "domain": "CONTROLLER",
+    "source": "3819",
+    "lsb": 4,
+    "msb": 5,
+    "wiki_sync": false,
+    "id": "62372"
+  },
+  {
+    "domain": "CONTROLLER",
+    "source": "3819",
+    "lsb": 6,
+    "msb": 7,
+    "wiki_sync": false,
+    "id": "62373"
+  },
+  {
+    "domain": "CONTROLLER",
+    "source": "3819",
+    "lsb": 8,
+    "msb": 9,
+    "wiki_sync": false,
+    "id": "62374"
+  },
+  {
+    "domain": "CONTROLLER",
+    "source": "3819",
+    "lsb": 10,
+    "msb": 11,
+    "wiki_sync": false,
+    "id": "62375"
+  },
+  {
+    "domain": "CONTROLLER",
+    "source": "3819",
+    "lsb": 12,
+    "msb": 13,
+    "wiki_sync": false,
+    "id": "62376"
+  },
+  {
+    "domain": "CONTROLLER",
+    "source": "3819",
+    "lsb": 14,
+    "msb": 15,
+    "wiki_sync": false,
+    "id": "62377"
+  },
+  {
+    "domain": "CONTROLLER",
+    "source": "3819",
+    "lsb": 16,
+    "msb": 17,
+    "wiki_sync": false,
+    "id": "62378"
+  },
+  {
+    "domain": "CONTROLLER",
+    "source": "3819",
+    "lsb": 18,
+    "msb": 19,
+    "wiki_sync": false,
+    "id": "62379"
+  },
+  {
+    "domain": "CONTROLLER",
+    "source": "3819",
+    "lsb": 20,
+    "msb": 21,
+    "wiki_sync": false,
+    "id": "62380"
+  },
+  {
+    "domain": "CONTROLLER",
+    "source": "3819",
+    "lsb": 22,
+    "msb": 23,
+    "wiki_sync": false,
+    "id": "62381"
+  },
+  {
+    "domain": "CONTROLLER",
+    "source": "3819",
+    "lsb": 24,
+    "msb": 25,
+    "wiki_sync": false,
+    "id": "62382"
+  },
+  {
+    "domain": "CONTROLLER",
+    "source": "3819",
+    "lsb": 26,
+    "msb": 27,
+    "wiki_sync": false,
+    "id": "62383"
+  },
+  {
+    "domain": "CONTROLLER",
+    "source": "3819",
+    "lsb": 28,
+    "msb": 29,
+    "wiki_sync": false,
+    "id": "62384"
+  },
+  {
+    "domain": "CONTROLLER",
+    "source": "3820",
+    "lsb": 0,
+    "msb": 2,
+    "wiki_sync": false,
+    "id": "62385"
+  },
+  {
+    "domain": "CONTROLLER",
+    "source": "3820",
+    "lsb": 3,
+    "msb": 5,
+    "wiki_sync": false,
+    "id": "62386"
+  },
+  {
+    "domain": "CONTROLLER",
+    "source": "3820",
+    "lsb": 6,
+    "msb": 8,
+    "wiki_sync": false,
+    "id": "62387"
+  },
+  {
+    "domain": "CONTROLLER",
+    "source": "3820",
+    "lsb": 9,
+    "msb": 11,
+    "wiki_sync": false,
+    "id": "62388"
+  },
+  {
+    "domain": "CONTROLLER",
+    "source": "3820",
+    "lsb": 12,
+    "msb": 14,
+    "wiki_sync": false,
+    "id": "62389"
+  },
+  {
+    "domain": "CONTROLLER",
+    "source": "3820",
+    "lsb": 15,
+    "msb": 16,
+    "wiki_sync": false,
+    "id": "62390"
+  },
+  {
+    "domain": "CONTROLLER",
+    "source": "3820",
+    "lsb": 17,
+    "msb": 18,
+    "wiki_sync": false,
+    "id": "62391"
+  },
+  {
+    "domain": "CONTROLLER",
+    "source": "3820",
+    "lsb": 19,
+    "msb": 20,
+    "wiki_sync": false,
+    "id": "62392"
+  },
+  {
+    "domain": "CONTROLLER",
+    "source": "3820",
+    "lsb": 21,
+    "msb": 22,
+    "wiki_sync": false,
+    "id": "62393"
+  },
+  {
+    "domain": "CONTROLLER",
+    "source": "3820",
+    "lsb": 23,
+    "msb": 24,
+    "wiki_sync": false,
+    "id": "62394"
+  },
+  {
+    "domain": "CONTROLLER",
+    "source": "3820",
+    "lsb": 29,
+    "msb": 29,
+    "wiki_sync": false,
+    "id": "62395"
+  },
+  {
+    "domain": "CONTROLLER",
+    "source": "3832",
+    "lsb": 0,
+    "msb": 5,
+    "wiki_sync": false,
+    "id": "62396"
+  },
+  {
+    "domain": "CONTROLLER",
+    "source": "3832",
+    "lsb": 6,
+    "msb": 11,
+    "wiki_sync": false,
+    "id": "62397"
+  },
+  {
+    "domain": "CONTROLLER",
+    "source": "3832",
+    "lsb": 12,
+    "msb": 17,
+    "wiki_sync": false,
+    "id": "62398"
+  },
+  {
+    "domain": "CONTROLLER",
+    "source": "3832",
+    "lsb": 18,
+    "msb": 23,
+    "wiki_sync": false,
+    "id": "62399"
+  },
+  {
+    "domain": "CONTROLLER",
+    "source": "3832",
+    "lsb": 24,
+    "msb": 29,
+    "wiki_sync": false,
+    "id": "62400"
+  },
+  {
+    "domain": "CONTROLLER",
+    "source": "3833",
+    "lsb": 0,
+    "msb": 5,
+    "wiki_sync": false,
+    "id": "62401"
+  },
+  {
+    "domain": "CONTROLLER",
+    "source": "3833",
+    "lsb": 6,
+    "msb": 11,
+    "wiki_sync": false,
+    "id": "62402"
+  },
+  {
+    "domain": "CONTROLLER",
+    "source": "3833",
+    "lsb": 12,
+    "msb": 17,
+    "wiki_sync": false,
+    "id": "62403"
+  },
+  {
+    "domain": "CONTROLLER",
+    "source": "3833",
+    "lsb": 18,
+    "msb": 23,
+    "wiki_sync": false,
+    "id": "62404"
+  },
+  {
+    "domain": "CONTROLLER",
+    "source": "3833",
+    "lsb": 24,
+    "msb": 29,
+    "wiki_sync": false,
+    "id": "62405"
+  },
+  {
+    "domain": "CONTROLLER",
+    "source": "3834",
+    "lsb": 0,
+    "msb": 5,
+    "wiki_sync": false,
+    "id": "62406"
+  },
+  {
+    "domain": "CONTROLLER",
+    "source": "3834",
+    "lsb": 6,
+    "msb": 11,
+    "wiki_sync": false,
+    "id": "62407"
+  },
+  {
+    "domain": "CONTROLLER",
+    "source": "3834",
+    "lsb": 12,
+    "msb": 17,
+    "wiki_sync": false,
+    "id": "62408"
+  },
+  {
+    "domain": "CONTROLLER",
+    "source": "3834",
+    "lsb": 18,
+    "msb": 23,
+    "wiki_sync": false,
+    "id": "62409"
+  },
+  {
+    "domain": "CONTROLLER",
+    "source": "3834",
+    "lsb": 24,
+    "msb": 29,
+    "wiki_sync": false,
+    "id": "62410"
+  },
+  {
+    "domain": "CONTROLLER",
+    "source": "3835",
+    "lsb": 0,
+    "msb": 5,
+    "wiki_sync": false,
+    "id": "62411"
+  },
+  {
+    "domain": "CONTROLLER",
+    "source": "3835",
+    "lsb": 6,
+    "msb": 11,
+    "wiki_sync": false,
+    "id": "62412"
+  },
+  {
+    "domain": "CONTROLLER",
+    "source": "3835",
+    "lsb": 12,
+    "msb": 17,
+    "wiki_sync": false,
+    "id": "62413"
+  },
+  {
+    "domain": "CONTROLLER",
+    "source": "3835",
+    "lsb": 18,
+    "msb": 23,
+    "wiki_sync": false,
+    "id": "62414"
+  },
+  {
+    "domain": "CONTROLLER",
+    "source": "3835",
+    "lsb": 24,
+    "msb": 29,
+    "wiki_sync": false,
+    "id": "62415"
+  },
+  {
+    "domain": "CONTROLLER",
+    "source": "3836",
+    "lsb": 0,
+    "msb": 5,
+    "wiki_sync": false,
+    "id": "62416"
+  },
+  {
+    "domain": "CONTROLLER",
+    "source": "3836",
+    "lsb": 6,
+    "msb": 11,
+    "wiki_sync": false,
+    "id": "62417"
+  },
+  {
+    "domain": "CONTROLLER",
+    "source": "3836",
+    "lsb": 12,
+    "msb": 17,
+    "wiki_sync": false,
+    "id": "62418"
+  },
+  {
+    "domain": "CONTROLLER",
+    "source": "3836",
+    "lsb": 18,
+    "msb": 23,
+    "wiki_sync": false,
+    "id": "62419"
+  },
+  {
+    "domain": "CONTROLLER",
+    "source": "3836",
+    "lsb": 24,
+    "msb": 29,
+    "wiki_sync": false,
+    "id": "62420"
+  },
+  {
+    "domain": "CONTROLLER",
+    "source": "3837",
+    "lsb": 0,
+    "msb": 9,
+    "wiki_sync": false,
+    "id": "62421"
+  },
+  {
+    "domain": "CONTROLLER",
+    "source": "3837",
+    "lsb": 10,
+    "msb": 19,
+    "wiki_sync": false,
+    "id": "62422"
+  },
+  {
+    "domain": "CONTROLLER",
+    "source": "3837",
+    "lsb": 20,
+    "msb": 29,
+    "wiki_sync": false,
+    "id": "62423"
+  },
+  {
+    "domain": "CONTROLLER",
+    "source": "3838",
+    "lsb": 0,
+    "msb": 9,
+    "wiki_sync": false,
+    "id": "62424"
+  },
+  {
+    "domain": "CONTROLLER",
+    "source": "3838",
+    "lsb": 10,
+    "msb": 19,
+    "wiki_sync": false,
+    "id": "62425"
+  },
+  {
+    "domain": "CONTROLLER",
+    "source": "3838",
+    "lsb": 20,
+    "msb": 29,
+    "wiki_sync": false,
+    "id": "62426"
+  },
+  {
+    "domain": "CONTROLLER",
+    "source": "3839",
+    "lsb": 0,
+    "msb": 9,
+    "wiki_sync": false,
+    "id": "62427"
+  },
+  {
+    "domain": "CONTROLLER",
+    "source": "3839",
+    "lsb": 10,
+    "msb": 19,
+    "wiki_sync": false,
+    "id": "62428"
+  },
+  {
+    "domain": "CONTROLLER",
+    "source": "3839",
+    "lsb": 20,
+    "msb": 29,
+    "wiki_sync": false,
+    "id": "62429"
+  },
+  {
+    "domain": "CONTROLLER",
+    "source": "3840",
+    "lsb": 0,
+    "msb": 9,
+    "wiki_sync": false,
+    "id": "62430"
+  },
+  {
+    "domain": "CONTROLLER",
+    "source": "3840",
+    "lsb": 10,
+    "msb": 19,
+    "wiki_sync": false,
+    "id": "62431"
+  },
+  {
+    "domain": "CONTROLLER",
+    "source": "3840",
+    "lsb": 20,
+    "msb": 29,
+    "wiki_sync": false,
+    "id": "62432"
+  },
+  {
+    "domain": "CONTROLLER",
+    "source": "3841",
+    "lsb": 0,
+    "msb": 9,
+    "wiki_sync": false,
+    "id": "62433"
+  },
+  {
+    "domain": "CONTROLLER",
+    "source": "3841",
+    "lsb": 10,
+    "msb": 19,
+    "wiki_sync": false,
+    "id": "62434"
+  },
+  {
+    "domain": "CONTROLLER",
+    "source": "3841",
+    "lsb": 20,
+    "msb": 29,
+    "wiki_sync": false,
+    "id": "62435"
+  },
+  {
+    "domain": "CONTROLLER",
+    "source": "3842",
+    "lsb": 0,
+    "msb": 5,
+    "wiki_sync": false,
+    "id": "62436"
+  },
+  {
+    "domain": "CONTROLLER",
+    "source": "3842",
+    "lsb": 6,
+    "msb": 11,
+    "wiki_sync": false,
+    "id": "62437"
+  },
+  {
+    "domain": "CONTROLLER",
+    "source": "3842",
+    "lsb": 12,
+    "msb": 17,
+    "wiki_sync": false,
+    "id": "62438"
+  },
+  {
+    "domain": "CONTROLLER",
+    "source": "3842",
+    "lsb": 18,
+    "msb": 23,
+    "wiki_sync": false,
+    "id": "62439"
+  },
+  {
+    "domain": "CONTROLLER",
+    "source": "3842",
+    "lsb": 24,
+    "msb": 29,
+    "wiki_sync": false,
+    "id": "62440"
+  },
+  {
+    "domain": "ITEM",
+    "source": "0 [legacyvarobj]",
+    "lsb": 0,
+    "msb": 5,
+    "wiki_sync": false,
+    "id": "62441"
+  },
+  {
+    "domain": "ITEM",
+    "source": "0 [legacyvarobj]",
+    "lsb": 6,
+    "msb": 10,
+    "wiki_sync": false,
+    "id": "62442"
+  },
+  {
+    "domain": "ITEM",
+    "source": "0 [legacyvarobj]",
+    "lsb": 11,
+    "msb": 15,
+    "wiki_sync": false,
+    "id": "62443"
+  },
+  {
+    "domain": "ITEM",
+    "source": "0 [legacyvarobj]",
+    "lsb": 16,
+    "msb": 20,
+    "wiki_sync": false,
+    "id": "62444"
+  },
+  {
+    "domain": "ITEM",
+    "source": "0 [legacyvarobj]",
+    "lsb": 21,
+    "msb": 25,
+    "wiki_sync": false,
+    "id": "62445"
+  },
+  {
+    "domain": "ITEM",
+    "source": "0 [legacyvarobj]",
+    "lsb": 26,
+    "msb": 30,
+    "wiki_sync": false,
+    "id": "62446"
   }
 ]
