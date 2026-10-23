@@ -30,9 +30,9 @@ function script21244(): void {
     var int26 = 0;
     var int27 = 0;
     var int28 = ((24 - 20) / 2);
-    CC_DELETEALL(comp(1623, 7));
-    CC_DELETEALL(comp(1623, 8));
-    CC_DELETEALL(comp(1623, 5));
+    CC_DELETEALL(comp(1623, 7));  // plugin_hub_parent_manage_permissions:permissions_close_button
+    CC_DELETEALL(comp(1623, 8));  // plugin_hub_parent_manage_permissions:permissions_list
+    CC_DELETEALL(comp(1623, 5));  // plugin_hub_parent_manage_permissions:permissions_layer
     script21252();
     [int11, int12, int13] = [];
     stack(-1);
@@ -111,14 +111,14 @@ function script21244(): void {
                 stack(int5);
                 script21245();
                 [int22, int23] = [];
-                int24 = IF_GETNEXTSUBID(comp(1623, 7));
+                int24 = IF_GETNEXTSUBID(comp(1623, 7));  // plugin_hub_parent_manage_permissions:permissions_close_button
                 if ((int1 == varclient_8509)) {
                     int25 = 1;
                 } else {
                     int25 = 0;
                 };
                 script7853(106364935, int24, int22, int23, 0, 0, 24, 24, 0, 0, 14908, "", 1, 1, 1, int25);
-                if ((CC_FIND(comp(1623, 7), int24) == 1)) {
+                if ((CC_FIND(comp(1623, 7), int24) == 1)) {  // plugin_hub_parent_manage_permissions:permissions_close_button
                     CC_SETOPBASE(string0);
                     CC_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643));
                     CC_SETOP(1, "Open");
@@ -135,7 +135,7 @@ function script21244(): void {
                         CC_SETTEXT();
                     };
                 };
-                script2994(106364935, IF_GETNEXTSUBID(comp(1623, 7)), (int22 + int28), (int23 + int28), 0, 0, 20, 20, 0, 0, int2);
+                script2994(106364935, IF_GETNEXTSUBID(comp(1623, 7)), (int22 + int28), (int23 + int28), 0, 0, 20, 20, 0, 0, int2);  // plugin_hub_parent_manage_permissions:permissions_close_button
                 int20 = (int20 + 1);
                 int19 = (int19 + 1);
             };

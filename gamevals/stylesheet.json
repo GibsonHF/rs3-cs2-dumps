@@ -1,6 +1,6 @@
 {
-  "revision": 950,
-  "date": "2026-10-06",
+  "revision": 951,
+  "date": "2026-10-22",
   "entries": {
     "1": "background_default",
     "2": "button_makex_available",
@@ -219,6 +219,9 @@
     "329": "button_icon_neutral",
     "330": "button_icon_neutral_legacy",
     "331": "button_icon_neutral_mobile",
+    "332": "button_icon_positive",
+    "333": "button_icon_positive_legacy",
+    "334": "button_icon_positive_mobile",
     "335": "button_icon_negative",
     "336": "button_icon_negative_legacy",
     "337": "button_icon_negative_mobile",

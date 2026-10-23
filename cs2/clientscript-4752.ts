@@ -28,6 +28,6 @@ function script4752(): void {
     CC_SETONBUTTONCLICK(callback(script15228, 31));
     int3 = (int3 + 36);
     IF_SETTEXT("Login", comp(744, 373));
-    IF_SETSIZE(300, int3, 0, 0, comp(744, 372));  // loginscreen:launcher_warning_later
+    IF_SETSIZE(300, int3, 0, 0, comp(744, 372));  // loginscreen:launcher_warning_build
     return;
 }

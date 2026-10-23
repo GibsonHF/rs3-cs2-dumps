@@ -6382,7 +6382,7 @@
 			"minimenu_fonthighlightcolour": 15656390, // 7274
 			"minimenu_font": 168, // 7275
 			"minimenu_entry_draw_height": 35, // 7276
-			"extra_0022A5": 6 // 8869
+			"championships_name": 6 // 8869
 		},
 		"id": 668
 	},
@@ -351821,7 +351821,7 @@
 			"minimenu_fonthighlightcolour": 15656390, // 7274
 			"minimenu_font": 69, // 7275
 			"minimenu_entry_draw_height": 16, // 7276
-			"extra_0022A5": 3, // 8869
+			"championships_name": 3, // 8869
 			"marketplace_furniture_package": 2 // 9478
 		},
 		"id": 40069
@@ -351845,7 +351845,7 @@
 			"minimenu_fonthighlightcolour": 15656390, // 7274
 			"minimenu_font": 170, // 7275
 			"minimenu_entry_draw_height": 35, // 7276
-			"extra_0022A5": 6 // 8869
+			"championships_name": 6 // 8869
 		},
 		"id": 40070
 	},
@@ -502310,7 +502310,7 @@
 	{
 		"extra": {
 			"potion_info_duration": 360, // 7658
-			"extra_002518": 1 // 9496
+			"championships_card_description": 1 // 9496
 		},
 		"id": 53032
 	},
@@ -506783,14 +506783,14 @@
 	{
 		"extra": {
 			"potion_info_duration": 360, // 7658
-			"extra_002518": 2 // 9496
+			"championships_card_description": 2 // 9496
 		},
 		"id": 53463
 	},
 	{
 		"extra": {
 			"potion_info_duration": 720, // 7658
-			"extra_002518": 2 // 9496
+			"championships_card_description": 2 // 9496
 		},
 		"id": 53464
 	},
@@ -507109,7 +507109,7 @@
 			"mtxmgt_category": 7, // 2531 chisel:solomons_category
 			"mtxmgt_name": "Gothic Manor House Style", // 2533 chisel:SGS_name
 			"mtxmgt_interface_positioning": 19539, // 9254
-			"potion_info_antisanguine": 64040 // 9426
+			"extra_0024D2": 64040 // 9426
 		},
 		"id": 53498
 	},

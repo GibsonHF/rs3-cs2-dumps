@@ -13,12 +13,12 @@ function script3239(int0: number, int1: number): void {
         varclient_1091 = varclient_1090;
         IF_SETONOP(callback(script1173, varclient_1091), comp(882, 12));  // loginscreen_graphics_options:mainmodal_window_close_button
     };
-    IF_SETHIDE(true, comp(744, 247));  // loginscreen:com_247
-    IF_SETHIDE(true, comp(744, 246));  // loginscreen:driver_warning
+    IF_SETHIDE(true, comp(744, 247));  // loginscreen:driver_warning
+    IF_SETHIDE(true, comp(744, 246));  // loginscreen:32bit_warning
     IF_SETHIDE(true, comp(744, 88));  // loginscreen:launcher_warning
-    IF_SETHIDE(true, comp(744, 349));  // loginscreen:create
-    IF_CLOSESUBCLIENT(comp(744, 349));  // loginscreen:create
-    IF_SETHIDE(true, comp(744, 260));  // loginscreen:com_260
+    IF_SETHIDE(true, comp(744, 349));  // loginscreen:options_firstrun
+    IF_CLOSESUBCLIENT(comp(744, 349));  // loginscreen:options_firstrun
+    IF_SETHIDE(true, comp(744, 260));  // loginscreen:tncs_layer
     IF_SETHIDE(true, comp(744, 204));  // loginscreen:settings_layer
     IF_SETHIDE(true, comp(744, 192));  // loginscreen:options
     IF_SETONRESIZE(callback(), comp(744, 192));  // loginscreen:options
@@ -69,7 +69,7 @@ function script3239(int0: number, int1: number): void {
             script15676();
             script15651(12);
             script12352();
-            IF_SETHIDE(false, comp(744, 247));  // loginscreen:com_247
+            IF_SETHIDE(false, comp(744, 247));  // loginscreen:driver_warning
             break;
         }
         case 18: {
@@ -77,14 +77,14 @@ function script3239(int0: number, int1: number): void {
             IF_SETSIZE(0, 0, 1, 1, comp(744, 29));  // loginscreen:left_hand_panel
             IF_SETHIDE(true, comp(744, 39));  // loginscreen:right_hand_panel
             IF_SETHIDE(false, comp(744, 193));  // loginscreen:popup_windows
-            IF_SETHIDE(false, comp(744, 260));  // loginscreen:com_260
+            IF_SETHIDE(false, comp(744, 260));  // loginscreen:tncs_layer
             break;
         }
         case 0: {
             IF_SETSIZE(0, 0, 1, 1, comp(744, 29));  // loginscreen:left_hand_panel
             IF_SETHIDE(true, comp(744, 39));  // loginscreen:right_hand_panel
             script3385();
-            IF_SETHIDE(false, comp(744, 349));  // loginscreen:create
+            IF_SETHIDE(false, comp(744, 349));  // loginscreen:options_firstrun
             break;
         }
         case 8: {
@@ -184,7 +184,7 @@ function script3239(int0: number, int1: number): void {
         }
         case 15: {
             script15676();
-            IF_SETHIDE(false, comp(744, 309));  // loginscreen:com_309
+            IF_SETHIDE(false, comp(744, 309));  // loginscreen:recovery_layer
             script15651(15);
             if ((script13749() == 0)) {
                 script2940(113);
@@ -193,7 +193,7 @@ function script3239(int0: number, int1: number): void {
         }
         case 19: {
             script15651(19);
-            IF_SETHIDE(false, comp(744, 243));  // loginscreen:com_243
+            IF_SETHIDE(false, comp(744, 243));  // loginscreen:tncs_bottom_layer_popup
             break;
         }
     };

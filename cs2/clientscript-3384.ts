@@ -20,7 +20,7 @@ function script3384(int0: number): void {
             break;
         }
         case 3: {
-            int1 = comp(744, 349);  // loginscreen:create
+            int1 = comp(744, 349);  // loginscreen:options_firstrun
             break;
         }
         default: {

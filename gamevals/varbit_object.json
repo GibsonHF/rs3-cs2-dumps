@@ -1,6 +1,6 @@
 {
-  "revision": 950,
-  "date": "2026-10-06",
+  "revision": 951,
+  "date": "2026-10-22",
   "entries": {
     "0": "polypore_charges",
     "581": "emrg_tick",
@@ -141,12 +141,6 @@
     "13703": "ame_rewards_generosity_charms",
     "13704": "ame_rewards_eventid",
     "14158": "tg08_hp_count",
-    "14324": "pre_megagame_sweet",
-    "14325": "pre_megagame_savoury",
-    "14326": "pre_megagame_bitter",
-    "14327": "pre_megagame_sour",
-    "14328": "pre_megagame_fruity",
-    "14329": "pre_megagame_spicy",
     "14683": "godwars2_degrade_state",
     "14684": "godwars2_key_uses",
     "14758": "dorgesh_route_used_to_get",
@@ -444,6 +438,14 @@
     "57598": "crafting_armour_progress_amount",
     "57599": "crafting_armour_current_item_xp_pool",
     "57600": "crafting_armour_miscuts",
-    "59859": "anniversary_skillcapes_cape_redeem_token_skill_tracker"
+    "59859": "anniversary_skillcapes_cape_redeem_token_skill_tracker",
+    "61728": "colossi_divination_obj_charges",
+    "61729": "pre_championship_sweet",
+    "61730": "pre_championship_savoury",
+    "61731": "pre_championship_bitter",
+    "61732": "pre_championship_sour",
+    "61733": "pre_championship_fruity",
+    "61734": "pre_championship_spicy",
+    "61745": "havenhythe_hero_painting_id"
   }
 }

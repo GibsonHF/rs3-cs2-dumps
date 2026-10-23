@@ -2,7 +2,7 @@
 function script21137(): void {
     var int0 = 106364933;
     CC_DELETEALL(int0);
-    CC_DELETEALL(comp(1623, 8));
+    CC_DELETEALL(comp(1623, 8));  // plugin_hub_parent_manage_permissions:permissions_list
     var int1 = 0;
     unk11717();
     var int2 = [];

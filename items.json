@@ -34449,7 +34449,7 @@
 			"protect_on_death": 1, // 1397 chisel:unknown_clue_scroll_boolean
 			"ge_category": 35, // 2195
 			"recipe_tool_xp_type_1": 19, // 2993 chisel:tool_id
-			"extra_002517": 1 // 9495
+			"championships_card_name": 1 // 9495
 		},
 		"femaleModels": [
 			4045,
@@ -513962,7 +513962,7 @@
 		"category": 1058,
 		"extra": {
 			"bxp_swap": 29658, // 3779 chisel:bxp_replacement_item
-			"extra_002517": 1 // 9495
+			"championships_card_name": 1 // 9495
 		},
 		"ground_actions_cursor": [
 			null,
@@ -514428,7 +514428,7 @@
 		"category": 1058,
 		"extra": {
 			"bxp_swap": 29666, // 3779 chisel:bxp_replacement_item
-			"extra_002517": 1 // 9495
+			"championships_card_name": 1 // 9495
 		},
 		"femaleModels": [
 			43409,
@@ -933863,10 +933863,10 @@
 			"no_alchemy": 1, // 689 chisel:is_crystal_mattock
 			"extra_002533": 1, // 9523
 			"extra_002534": 0, // 9524
-			"extra_002535": 0, // 9525
-			"extra_002536": 0, // 9526
-			"extra_002537": 4, // 9527
-			"extra_002538": 2 // 9528
+			"recipe_add_to_bank": 0, // 9525
+			"marketplace_preview_custom_icon_data": 0, // 9526
+			"marketplace_preview_furniture_obj_override": 4, // 9527
+			"combatv2_buff_stacks_var": 2 // 9528
 		},
 		"ground_actions_cursor": [
 			null,
@@ -933906,10 +933906,10 @@
 			"no_alchemy": 1, // 689 chisel:is_crystal_mattock
 			"extra_002533": 0, // 9523
 			"extra_002534": 0, // 9524
-			"extra_002535": 1, // 9525
-			"extra_002536": 2, // 9526
-			"extra_002537": 4, // 9527
-			"extra_002538": 0 // 9528
+			"recipe_add_to_bank": 1, // 9525
+			"marketplace_preview_custom_icon_data": 2, // 9526
+			"marketplace_preview_furniture_obj_override": 4, // 9527
+			"combatv2_buff_stacks_var": 0 // 9528
 		},
 		"ground_actions_cursor": [
 			null,
@@ -933949,10 +933949,10 @@
 			"no_alchemy": 1, // 689 chisel:is_crystal_mattock
 			"extra_002533": 2, // 9523
 			"extra_002534": 0, // 9524
-			"extra_002535": 0, // 9525
-			"extra_002536": 0, // 9526
-			"extra_002537": 4, // 9527
-			"extra_002538": 1 // 9528
+			"recipe_add_to_bank": 0, // 9525
+			"marketplace_preview_custom_icon_data": 0, // 9526
+			"marketplace_preview_furniture_obj_override": 4, // 9527
+			"combatv2_buff_stacks_var": 1 // 9528
 		},
 		"ground_actions_cursor": [
 			null,
@@ -933992,10 +933992,10 @@
 			"no_alchemy": 1, // 689 chisel:is_crystal_mattock
 			"extra_002533": 2, // 9523
 			"extra_002534": 0, // 9524
-			"extra_002535": 1, // 9525
-			"extra_002536": 0, // 9526
-			"extra_002537": 0, // 9527
-			"extra_002538": 4 // 9528
+			"recipe_add_to_bank": 1, // 9525
+			"marketplace_preview_custom_icon_data": 0, // 9526
+			"marketplace_preview_furniture_obj_override": 0, // 9527
+			"combatv2_buff_stacks_var": 4 // 9528
 		},
 		"ground_actions_cursor": [
 			null,
@@ -934035,10 +934035,10 @@
 			"no_alchemy": 1, // 689 chisel:is_crystal_mattock
 			"extra_002533": 0, // 9523
 			"extra_002534": 2, // 9524
-			"extra_002535": 0, // 9525
-			"extra_002536": 0, // 9526
-			"extra_002537": 1, // 9527
-			"extra_002538": 4 // 9528
+			"recipe_add_to_bank": 0, // 9525
+			"marketplace_preview_custom_icon_data": 0, // 9526
+			"marketplace_preview_furniture_obj_override": 1, // 9527
+			"combatv2_buff_stacks_var": 4 // 9528
 		},
 		"ground_actions_cursor": [
 			null,
@@ -934078,10 +934078,10 @@
 			"no_alchemy": 1, // 689 chisel:is_crystal_mattock
 			"extra_002533": 0, // 9523
 			"extra_002534": 1, // 9524
-			"extra_002535": 0, // 9525
-			"extra_002536": 2, // 9526
-			"extra_002537": 0, // 9527
-			"extra_002538": 4 // 9528
+			"recipe_add_to_bank": 0, // 9525
+			"marketplace_preview_custom_icon_data": 2, // 9526
+			"marketplace_preview_furniture_obj_override": 0, // 9527
+			"combatv2_buff_stacks_var": 4 // 9528
 		},
 		"ground_actions_cursor": [
 			null,
@@ -934121,10 +934121,10 @@
 			"no_alchemy": 1, // 689 chisel:is_crystal_mattock
 			"extra_002533": 1, // 9523
 			"extra_002534": 2, // 9524
-			"extra_002535": 0, // 9525
-			"extra_002536": 4, // 9526
-			"extra_002537": 0, // 9527
-			"extra_002538": 0 // 9528
+			"recipe_add_to_bank": 0, // 9525
+			"marketplace_preview_custom_icon_data": 4, // 9526
+			"marketplace_preview_furniture_obj_override": 0, // 9527
+			"combatv2_buff_stacks_var": 0 // 9528
 		},
 		"ground_actions_cursor": [
 			null,
@@ -934164,10 +934164,10 @@
 			"no_alchemy": 1, // 689 chisel:is_crystal_mattock
 			"extra_002533": 0, // 9523
 			"extra_002534": 0, // 9524
-			"extra_002535": 2, // 9525
-			"extra_002536": 4, // 9526
-			"extra_002537": 1, // 9527
-			"extra_002538": 0 // 9528
+			"recipe_add_to_bank": 2, // 9525
+			"marketplace_preview_custom_icon_data": 4, // 9526
+			"marketplace_preview_furniture_obj_override": 1, // 9527
+			"combatv2_buff_stacks_var": 0 // 9528
 		},
 		"ground_actions_cursor": [
 			null,
@@ -934207,10 +934207,10 @@
 			"no_alchemy": 1, // 689 chisel:is_crystal_mattock
 			"extra_002533": 1, // 9523
 			"extra_002534": 0, // 9524
-			"extra_002535": 0, // 9525
-			"extra_002536": 4, // 9526
-			"extra_002537": 2, // 9527
-			"extra_002538": 0 // 9528
+			"recipe_add_to_bank": 0, // 9525
+			"marketplace_preview_custom_icon_data": 4, // 9526
+			"marketplace_preview_furniture_obj_override": 2, // 9527
+			"combatv2_buff_stacks_var": 0 // 9528
 		},
 		"ground_actions_cursor": [
 			null,
@@ -934250,10 +934250,10 @@
 			"no_alchemy": 1, // 689 chisel:is_crystal_mattock
 			"extra_002533": 4, // 9523
 			"extra_002534": 0, // 9524
-			"extra_002535": 0, // 9525
-			"extra_002536": 2, // 9526
-			"extra_002537": 0, // 9527
-			"extra_002538": 1 // 9528
+			"recipe_add_to_bank": 0, // 9525
+			"marketplace_preview_custom_icon_data": 2, // 9526
+			"marketplace_preview_furniture_obj_override": 0, // 9527
+			"combatv2_buff_stacks_var": 1 // 9528
 		},
 		"ground_actions_cursor": [
 			null,
@@ -934293,10 +934293,10 @@
 			"no_alchemy": 1, // 689 chisel:is_crystal_mattock
 			"extra_002533": 4, // 9523
 			"extra_002534": 1, // 9524
-			"extra_002535": 2, // 9525
-			"extra_002536": 0, // 9526
-			"extra_002537": 0, // 9527
-			"extra_002538": 0 // 9528
+			"recipe_add_to_bank": 2, // 9525
+			"marketplace_preview_custom_icon_data": 0, // 9526
+			"marketplace_preview_furniture_obj_override": 0, // 9527
+			"combatv2_buff_stacks_var": 0 // 9528
 		},
 		"ground_actions_cursor": [
 			null,
@@ -934336,10 +934336,10 @@
 			"no_alchemy": 1, // 689 chisel:is_crystal_mattock
 			"extra_002533": 4, // 9523
 			"extra_002534": 0, // 9524
-			"extra_002535": 0, // 9525
-			"extra_002536": 0, // 9526
-			"extra_002537": 2, // 9527
-			"extra_002538": 1 // 9528
+			"recipe_add_to_bank": 0, // 9525
+			"marketplace_preview_custom_icon_data": 0, // 9526
+			"marketplace_preview_furniture_obj_override": 2, // 9527
+			"combatv2_buff_stacks_var": 1 // 9528
 		},
 		"ground_actions_cursor": [
 			null,
@@ -934379,10 +934379,10 @@
 			"no_alchemy": 1, // 689 chisel:is_crystal_mattock
 			"extra_002533": 0, // 9523
 			"extra_002534": 0, // 9524
-			"extra_002535": 4, // 9525
-			"extra_002536": 1, // 9526
-			"extra_002537": 0, // 9527
-			"extra_002538": 2 // 9528
+			"recipe_add_to_bank": 4, // 9525
+			"marketplace_preview_custom_icon_data": 1, // 9526
+			"marketplace_preview_furniture_obj_override": 0, // 9527
+			"combatv2_buff_stacks_var": 2 // 9528
 		},
 		"ground_actions_cursor": [
 			null,
@@ -934422,10 +934422,10 @@
 			"no_alchemy": 1, // 689 chisel:is_crystal_mattock
 			"extra_002533": 1, // 9523
 			"extra_002534": 0, // 9524
-			"extra_002535": 4, // 9525
-			"extra_002536": 0, // 9526
-			"extra_002537": 2, // 9527
-			"extra_002538": 0 // 9528
+			"recipe_add_to_bank": 4, // 9525
+			"marketplace_preview_custom_icon_data": 0, // 9526
+			"marketplace_preview_furniture_obj_override": 2, // 9527
+			"combatv2_buff_stacks_var": 0 // 9528
 		},
 		"ground_actions_cursor": [
 			null,
@@ -934465,10 +934465,10 @@
 			"no_alchemy": 1, // 689 chisel:is_crystal_mattock
 			"extra_002533": 1, // 9523
 			"extra_002534": 2, // 9524
-			"extra_002535": 4, // 9525
-			"extra_002536": 0, // 9526
-			"extra_002537": 0, // 9527
-			"extra_002538": 0 // 9528
+			"recipe_add_to_bank": 4, // 9525
+			"marketplace_preview_custom_icon_data": 0, // 9526
+			"marketplace_preview_furniture_obj_override": 0, // 9527
+			"combatv2_buff_stacks_var": 0 // 9528
 		},
 		"ground_actions_cursor": [
 			null,
@@ -934508,10 +934508,10 @@
 			"no_alchemy": 1, // 689 chisel:is_crystal_mattock
 			"extra_002533": 0, // 9523
 			"extra_002534": 4, // 9524
-			"extra_002535": 2, // 9525
-			"extra_002536": 1, // 9526
-			"extra_002537": 0, // 9527
-			"extra_002538": 0 // 9528
+			"recipe_add_to_bank": 2, // 9525
+			"marketplace_preview_custom_icon_data": 1, // 9526
+			"marketplace_preview_furniture_obj_override": 0, // 9527
+			"combatv2_buff_stacks_var": 0 // 9528
 		},
 		"ground_actions_cursor": [
 			null,
@@ -934551,10 +934551,10 @@
 			"no_alchemy": 1, // 689 chisel:is_crystal_mattock
 			"extra_002533": 0, // 9523
 			"extra_002534": 4, // 9524
-			"extra_002535": 0, // 9525
-			"extra_002536": 0, // 9526
-			"extra_002537": 1, // 9527
-			"extra_002538": 2 // 9528
+			"recipe_add_to_bank": 0, // 9525
+			"marketplace_preview_custom_icon_data": 0, // 9526
+			"marketplace_preview_furniture_obj_override": 1, // 9527
+			"combatv2_buff_stacks_var": 2 // 9528
 		},
 		"ground_actions_cursor": [
 			null,
@@ -934594,10 +934594,10 @@
 			"no_alchemy": 1, // 689 chisel:is_crystal_mattock
 			"extra_002533": 2, // 9523
 			"extra_002534": 4, // 9524
-			"extra_002535": 0, // 9525
-			"extra_002536": 0, // 9526
-			"extra_002537": 1, // 9527
-			"extra_002538": 0 // 9528
+			"recipe_add_to_bank": 0, // 9525
+			"marketplace_preview_custom_icon_data": 0, // 9526
+			"marketplace_preview_furniture_obj_override": 1, // 9527
+			"combatv2_buff_stacks_var": 0 // 9528
 		},
 		"ground_actions_cursor": [
 			null,
@@ -1252088,7 +1252088,7 @@
 			"item_degrade_ondeath": 2, // 5773
 			"combatv2_item_effect_struct": 47061, // 6186 chisel:hover_text_id
 			"combatv2_held_allow_bladed_dive": 1, // 8569 chisel:is_tavia_rod
-			"extra_002517": 1 // 9495
+			"championships_card_name": 1 // 9495
 		},
 		"femaleModels": [
 			100167,
@@ -1252160,7 +1252160,7 @@
 			"item_degrade_ondeath": 2, // 5773
 			"combatv2_item_effect_struct": 47061, // 6186 chisel:hover_text_id
 			"combatv2_held_allow_bladed_dive": 1, // 8569 chisel:is_tavia_rod
-			"extra_002517": 1 // 9495
+			"championships_card_name": 1 // 9495
 		},
 		"femaleModels": [
 			100167,
@@ -2582361,7 +2582361,7 @@
 			"collection_tracking_var": 16839302, // 8994
 			"collection_tracking_max": 50, // 8995
 			"collection_tracking_quickchat": 3047, // 8996
-			"extra_002517": 1 // 9495
+			"championships_card_name": 1 // 9495
 		},
 		"femaleModels": [
 			146062,

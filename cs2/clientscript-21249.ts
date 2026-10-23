@@ -7,14 +7,14 @@ function script21249(): void {
     var int4 = 1;
     var int5 = 1;
     if ((int0 == 0)) {
-        int1 = IF_GETWIDTH(comp(1623, 4));
+        int1 = IF_GETWIDTH(comp(1623, 4));  // plugin_hub_parent_manage_permissions:permissions_content
         int2 = 24;
         int3 = MAX(1, ((int1 + 2) / (24 + 2)));
         int4 = 1;
         int5 = int3;
     } else {
         int1 = 24;
-        int2 = IF_GETHEIGHT(comp(1623, 4));
+        int2 = IF_GETHEIGHT(comp(1623, 4));  // plugin_hub_parent_manage_permissions:permissions_content
         int3 = 1;
         int4 = MAX(1, ((int2 + 2) / (24 + 2)));
         int5 = int4;

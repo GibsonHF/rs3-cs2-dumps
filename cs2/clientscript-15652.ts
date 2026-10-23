@@ -4,9 +4,9 @@ function script15652(): void {
         return;
     };
     if (((IF_GETHIDE(comp(744, 191)) == false) && (varclient_174 == 113))) {  // loginscreen:softkeyboard_close_layer
-        IF_SETPOSITION(0, 0, 1, 0, comp(744, 311));  // loginscreen:recovery_layer_background
+        IF_SETPOSITION(0, 0, 1, 0, comp(744, 311));  // loginscreen:account_recovery_entry
         return;
     };
-    IF_SETPOSITION(0, 0, 1, 1, comp(744, 311));  // loginscreen:recovery_layer_background
+    IF_SETPOSITION(0, 0, 1, 1, comp(744, 311));  // loginscreen:account_recovery_entry
     return;
 }

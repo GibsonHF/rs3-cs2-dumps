@@ -1,6 +1,6 @@
 {
-  "revision": 950,
-  "date": "2026-10-06",
+  "revision": 951,
+  "date": "2026-10-22",
   "entries": {
     "0": "cabinfever",
     "1": "tower_of_life",
@@ -534,6 +534,9 @@
     "529": "quest_wizard_child",
     "530": "quest_easter26",
     "531": "quest_wendle_secrets",
-    "532": "quest_construction_tutorial"
+    "532": "quest_construction_tutorial",
+    "533": "quest_wendle_heralds",
+    "534": "quest_halloween26",
+    "535": "quest_tut6"
   }
 }

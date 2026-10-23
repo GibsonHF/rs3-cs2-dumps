@@ -7,7 +7,7 @@ function script10442(): void {
             break;
         }
         case 744: {
-            int0 = comp(744, 351);  // loginscreen:dropdown_background
+            int0 = comp(744, 351);  // loginscreen:dropdown_panel
             break;
         }
         default: {

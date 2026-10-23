@@ -2,10 +2,10 @@
 function script12354(): void {
     if ((varclient_5181 >= DATE_RUNEDAY())) {
         varclient_5181 = 0;
-        IF_SETHIDE(true, comp(744, 256));  // loginscreen:driver_warning_update
+        IF_SETHIDE(true, comp(744, 256));  // loginscreen:dont_show_again_checkbox
     } else {
         varclient_5181 = (DATE_RUNEDAY() + 90);
-        IF_SETHIDE(false, comp(744, 256));  // loginscreen:driver_warning_update
+        IF_SETHIDE(false, comp(744, 256));  // loginscreen:dont_show_again_checkbox
     };
     return;
 }

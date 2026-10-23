@@ -1,6 +1,6 @@
 {
-  "revision": 950,
-  "date": "2026-10-06",
+  "revision": 951,
+  "date": "2026-10-22",
   "entries": {
     "2": "duel_start",
     "5": "opn_abbey_ambience_03",
@@ -137,7 +137,6 @@
     "1627": "bobs_on_holiday",
     "1631": "eyeglo_battlefield_cutscene_part3",
     "1634": "slice_of_grand_opening",
-    "1636": "megagames_outro_jingle",
     "1639": "dad_one_easy",
     "1641": "game_lose",
     "1643": "lotr_jingle_1",
@@ -685,7 +684,6 @@
     "9246": "return_of_lucien_2015_v2_edit",
     "9264": "ditty2",
     "9265": "warning_jingle",
-    "9266": "megagames_intro_jingle",
     "9307": "sliske1_empyrean_citadel_v2",
     "9320": "crhouserandom2",
     "9324": "mah4_khazards_frozen_fortress_interior_3",
@@ -1209,7 +1207,6 @@
     "17543": "deadly_catch",
     "17553": "rand_frozen_ambient_9",
     "17564": "rand_warped_ambience_2",
-    "17565": "megagames_cheesewheel_fail_jingle",
     "17590": "scape_scared_2015_v28",
     "17609": "desert_smoke",
     "17644": "return_of_lucien",
@@ -2184,7 +2181,6 @@
     "34736": "pirate_finale_prison_island",
     "34745": "everlasting_fire",
     "34748": "hunter_dnd_game_over_jingle",
-    "34758": "megagames_cheesewheel",
     "34801": "cave_background",
     "34842": "rabid_jack_boss_fight_v2",
     "34843": "mellow",
@@ -2314,7 +2310,6 @@
     "38105": "lasting",
     "38142": "dwarf_theme_2",
     "38164": "tns_darker_threads_01",
-    "38170": "megagames_cheesewheel_intro",
     "38213": "mage_arena",
     "38232": "remnants",
     "38243": "tns_megans_tale_01",
@@ -2658,6 +2653,16 @@
     "85776": "hh_digsite_ext_01",
     "85849": "hh_digsite_int_01",
     "85858": "con120_home_sweet_home_jingle_edit",
-    "85926": "con120_poh_neighbourhood_01"
+    "85926": "con120_poh_neighbourhood_01",
+    "86023": "hh2_crimsonboss_01",
+    "86088": "hh2_fenmoor_01",
+    "86157": "hh2_heathervein_04",
+    "86207": "hh2_lostwoods_03",
+    "86270": "hh2_shurukba_01",
+    "86280": "championships_cheesewheel",
+    "86308": "championships_cheesewheel_intro",
+    "86309": "championships_cheesewheel_fail_jingle",
+    "86310": "championships_intro_jingle",
+    "86312": "championships_outro_jingle"
   }
 }

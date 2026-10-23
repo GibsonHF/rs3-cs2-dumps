@@ -60,6 +60,6 @@ function script3230(): void {
     var int8 = 0;
     [int5, int6, int7, int8] = script2956();
     IF_SETSIZE((int5 + 264), 0, 0, 1, comp(744, 207));  // loginscreen:mobile_settings_root
-    IF_SETPOSITION((int5 + 40), 15, 0, 2, comp(744, 348));  // loginscreen:options_firstrun
+    IF_SETPOSITION((int5 + 40), 15, 0, 2, comp(744, 348));  // loginscreen:language_dropdown
     return;
 }

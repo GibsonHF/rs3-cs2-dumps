@@ -9,8 +9,8 @@ function script10444(): void {
             break;
         }
         case 744: {
-            int0 = comp(744, 351);  // loginscreen:dropdown_background
-            int1 = comp(744, 356);  // loginscreen:dropdown_build
+            int0 = comp(744, 351);  // loginscreen:dropdown_panel
+            int1 = comp(744, 356);  // loginscreen:dropdown_list
             break;
         }
         default: {

@@ -242,9 +242,9 @@ function script1221(int0: number, int1: number): void {
         }
         case 18: {
             if ((int0 == 13)) {
-                if ((IF_GETHIDE(comp(744, 291)) == 1)) {  // loginscreen:com_291
+                if ((IF_GETHIDE(comp(744, 291)) == 1)) {  // loginscreen:tnc_decline_popup
                     script3131();
-                } else if ((IF_GETHIDE(comp(744, 291)) == 0)) {  // loginscreen:com_291
+                } else if ((IF_GETHIDE(comp(744, 291)) == 0)) {  // loginscreen:tnc_decline_popup
                     script2465();
                 } else {
                     script3133(0);

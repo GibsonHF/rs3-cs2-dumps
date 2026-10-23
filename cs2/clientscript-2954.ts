@@ -4,11 +4,11 @@ function script2954(int0: number): void {
         script15687(varclient_1089);
         script15664(48758963, 48759127, 48759126);
     };
-    if ((IF_GETHIDE(comp(744, 337)) == false)) {  // loginscreen:com_337
-        IF_SETTEXT("", comp(744, 345));  // loginscreen:popup_border
+    if ((IF_GETHIDE(comp(744, 337)) == false)) {  // loginscreen:popup
+        IF_SETTEXT("", comp(744, 345));  // loginscreen:popup_big_button
         script15664(48759128, 48758962, 48758961);
-        IF_SETHIDE(true, comp(744, 345));  // loginscreen:popup_border
-        IF_SETHIDE(true, comp(744, 337));  // loginscreen:com_337
+        IF_SETHIDE(true, comp(744, 345));  // loginscreen:popup_big_button
+        IF_SETHIDE(true, comp(744, 337));  // loginscreen:popup
     };
     if ((int0 == 1)) {
         script4142(-1);

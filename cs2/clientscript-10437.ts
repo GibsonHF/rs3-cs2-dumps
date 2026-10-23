@@ -7,7 +7,7 @@ function script10437(int0: number, int1: number): void {
             break;
         }
         case 744: {
-            int2 = comp(744, 355);  // loginscreen:dropdown_list
+            int2 = comp(744, 355);  // loginscreen:dropdown_highlight
             break;
         }
         default: {

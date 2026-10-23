@@ -1,6 +1,6 @@
 {
-  "revision": 950,
-  "date": "2026-10-06",
+  "revision": 951,
+  "date": "2026-10-22",
   "entries": {
     "4": "invent_material_table",
     "5": "invent_blueprint_table",
@@ -128,6 +128,7 @@
     "183": "trh179_modifier",
     "184": "trh184_bonus",
     "186": "trh190_component_data",
+    "187": "havenhythe_hero_item_painting",
     "188": "pride_dbtable",
     "189": "audio_sequence",
     "191": "season2022_task_dbtable",
@@ -262,6 +263,8 @@
     "384": "marketplace_store_sale_data",
     "385": "marketplace_outfit_variants",
     "386": "construction_house_furniture_skins_list",
-    "387": "construction_house_furniture_skin"
+    "387": "construction_house_furniture_skin",
+    "388": "colossi_divination_murals",
+    "390": "marketplace_preview_custom_icon_data"
   }
 }

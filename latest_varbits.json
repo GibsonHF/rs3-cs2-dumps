@@ -128469,7 +128469,7 @@
     "lsb": 7,
     "msb": 7,
     "wiki_sync": false,
-    "id": "16217"
+    "id": "16217 [boss_instance_scores_blood_knight_boss]"
   },
   {
     "domain": "PLAYER",
@@ -128477,7 +128477,7 @@
     "lsb": 20,
     "msb": 24,
     "wiki_sync": false,
-    "id": "16218"
+    "id": "16218 [boss_instance_scores_blood_knight_boss_hard]"
   },
   {
     "domain": "PLAYER",
@@ -128485,7 +128485,7 @@
     "lsb": 0,
     "msb": 6,
     "wiki_sync": false,
-    "id": "16219"
+    "id": "16219 [fenmoor_woodcutting_petrified_tree_1_root_1_multi]"
   },
   {
     "domain": "PLAYER",
@@ -128493,7 +128493,7 @@
     "lsb": 7,
     "msb": 13,
     "wiki_sync": false,
-    "id": "16220"
+    "id": "16220 [fenmoor_woodcutting_petrified_tree_1_bark_1_multi]"
   },
   {
     "domain": "PLAYER",
@@ -130745,7 +130745,7 @@
   },
   {
     "domain": "PLAYER",
-    "source": "13713",
+    "source": "13713 [quest_charos_trail_reward_elite_casket_halloween]",
     "lsb": 0,
     "msb": 2,
     "wiki_sync": false,
@@ -130753,7 +130753,7 @@
   },
   {
     "domain": "PLAYER",
-    "source": "13713",
+    "source": "13713 [quest_charos_trail_reward_elite_casket_halloween]",
     "lsb": 3,
     "msb": 5,
     "wiki_sync": false,
@@ -130761,7 +130761,7 @@
   },
   {
     "domain": "PLAYER",
-    "source": "13713",
+    "source": "13713 [quest_charos_trail_reward_elite_casket_halloween]",
     "lsb": 6,
     "msb": 8,
     "wiki_sync": false,
@@ -130769,7 +130769,7 @@
   },
   {
     "domain": "PLAYER",
-    "source": "13713",
+    "source": "13713 [quest_charos_trail_reward_elite_casket_halloween]",
     "lsb": 9,
     "msb": 11,
     "wiki_sync": false,
@@ -195493,7 +195493,7 @@
     "lsb": 6,
     "msb": 7,
     "wiki_sync": false,
-    "id": "24595"
+    "id": "24595 [fenmoor_woodcutting_petrified_tree_1_wood_1_multi]"
   },
   {
     "domain": "PLAYER",
@@ -241245,7 +241245,7 @@
     "lsb": 0,
     "msb": 0,
     "wiki_sync": false,
-    "id": "30314"
+    "id": "30314 [fenmoor_woodcutting_petrified_tree_1_root_2_multi]"
   },
   {
     "domain": "PLAYER",
@@ -241253,7 +241253,7 @@
     "lsb": 31,
     "msb": 31,
     "wiki_sync": false,
-    "id": "30315"
+    "id": "30315 [fenmoor_woodcutting_petrified_tree_1_bark_2_multi]"
   },
   {
     "domain": "PLAYER",
@@ -241277,7 +241277,7 @@
     "lsb": 0,
     "msb": 0,
     "wiki_sync": false,
-    "id": "30318"
+    "id": "30318 [fenmoor_woodcutting_petrified_tree_1_wood_2_multi]"
   },
   {
     "domain": "PLAYER",
@@ -241325,7 +241325,7 @@
     "lsb": 1,
     "msb": 1,
     "wiki_sync": false,
-    "id": "30324"
+    "id": "30324 [fenmoor_woodcutting_petrified_tree_1_root_3_multi]"
   },
   {
     "domain": "PLAYER",
@@ -241333,7 +241333,7 @@
     "lsb": 2,
     "msb": 2,
     "wiki_sync": false,
-    "id": "30325"
+    "id": "30325 [fenmoor_woodcutting_petrified_tree_1_bark_3_multi]"
   },
   {
     "domain": "PLAYER",
@@ -241341,7 +241341,7 @@
     "lsb": 3,
     "msb": 3,
     "wiki_sync": false,
-    "id": "30326"
+    "id": "30326 [fenmoor_woodcutting_petrified_tree_1_wood_3_multi]"
   },
   {
     "domain": "PLAYER",
@@ -241373,7 +241373,7 @@
     "lsb": 4,
     "msb": 4,
     "wiki_sync": false,
-    "id": "30330"
+    "id": "30330 [fenmoor_woodcutting_petrified_tree_1_wood_4_multi]"
   },
   {
     "domain": "PLAYER",
@@ -241405,7 +241405,7 @@
     "lsb": 5,
     "msb": 5,
     "wiki_sync": false,
-    "id": "30334"
+    "id": "30334 [fenmoor_woodcutting_petrified_tree_2_root_1_multi]"
   },
   {
     "domain": "PLAYER",
@@ -241421,7 +241421,7 @@
     "lsb": 0,
     "msb": 0,
     "wiki_sync": false,
-    "id": "30336"
+    "id": "30336 [fenmoor_woodcutting_petrified_tree_2_bark_1_multi]"
   },
   {
     "domain": "PLAYER",
@@ -241509,7 +241509,7 @@
     "lsb": 1,
     "msb": 1,
     "wiki_sync": false,
-    "id": "30347"
+    "id": "30347 [fenmoor_woodcutting_petrified_tree_2_wood_1_multi]"
   },
   {
     "domain": "PLAYER",
@@ -241581,7 +241581,7 @@
     "lsb": 2,
     "msb": 2,
     "wiki_sync": false,
-    "id": "30356"
+    "id": "30356 [fenmoor_woodcutting_petrified_tree_2_root_2_multi]"
   },
   {
     "domain": "PLAYER",
@@ -241645,7 +241645,7 @@
     "lsb": 3,
     "msb": 3,
     "wiki_sync": false,
-    "id": "30364"
+    "id": "30364 [fenmoor_woodcutting_petrified_tree_2_bark_2_multi]"
   },
   {
     "domain": "PLAYER",
@@ -293589,7 +293589,7 @@
     "lsb": 29,
     "msb": 29,
     "wiki_sync": false,
-    "id": "36857"
+    "id": "36857 [fenmoor_woodcutting_petrified_tree_2_wood_2_multi]"
   },
   {
     "domain": "PLAYER",
@@ -379261,7 +379261,7 @@
     "lsb": 1,
     "msb": 1,
     "wiki_sync": false,
-    "id": "47566"
+    "id": "47566 [fenmoor_woodcutting_petrified_tree_2_root_3_multi]"
   },
   {
     "domain": "PLAYER",
@@ -409325,7 +409325,7 @@
     "lsb": 3,
     "msb": 3,
     "wiki_sync": false,
-    "id": "51324"
+    "id": "51324 [fenmoor_woodcutting_petrified_tree_2_wood_3_multi]"
   },
   {
     "domain": "PLAYER",
@@ -409333,7 +409333,7 @@
     "lsb": 4,
     "msb": 4,
     "wiki_sync": false,
-    "id": "51325"
+    "id": "51325 [fenmoor_woodcutting_petrified_tree_2_wood_4_multi]"
   },
   {
     "domain": "PLAYER",
@@ -409341,7 +409341,7 @@
     "lsb": 5,
     "msb": 5,
     "wiki_sync": false,
-    "id": "51326"
+    "id": "51326 [fenmoor_woodcutting_petrified_tree_3_root_1_multi]"
   },
   {
     "domain": "PLAYER",
@@ -409349,7 +409349,7 @@
     "lsb": 6,
     "msb": 6,
     "wiki_sync": false,
-    "id": "51327"
+    "id": "51327 [fenmoor_woodcutting_petrified_tree_3_bark_1_multi]"
   },
   {
     "domain": "PLAYER",
@@ -409357,7 +409357,7 @@
     "lsb": 7,
     "msb": 7,
     "wiki_sync": false,
-    "id": "51328"
+    "id": "51328 [fenmoor_woodcutting_petrified_tree_3_wood_1_multi]"
   },
   {
     "domain": "PLAYER",
@@ -409365,7 +409365,7 @@
     "lsb": 8,
     "msb": 8,
     "wiki_sync": false,
-    "id": "51329"
+    "id": "51329 [fenmoor_woodcutting_petrified_tree_3_root_2_multi]"
   },
   {
     "domain": "PLAYER",
@@ -409373,7 +409373,7 @@
     "lsb": 9,
     "msb": 9,
     "wiki_sync": false,
-    "id": "51330"
+    "id": "51330 [fenmoor_woodcutting_petrified_tree_3_bark_2_multi]"
   },
   {
     "domain": "PLAYER",
@@ -409381,7 +409381,7 @@
     "lsb": 10,
     "msb": 10,
     "wiki_sync": false,
-    "id": "51331"
+    "id": "51331 [fenmoor_woodcutting_petrified_tree_3_wood_2_multi]"
   },
   {
     "domain": "PLAYER",
@@ -409389,7 +409389,7 @@
     "lsb": 11,
     "msb": 11,
     "wiki_sync": false,
-    "id": "51332"
+    "id": "51332 [fenmoor_woodcutting_petrified_tree_3_bark_3_multi]"
   },
   {
     "domain": "PLAYER",
@@ -409397,7 +409397,7 @@
     "lsb": 12,
     "msb": 12,
     "wiki_sync": false,
-    "id": "51333"
+    "id": "51333 [fenmoor_woodcutting_petrified_tree_3_wood_3_multi]"
   },
   {
     "domain": "PLAYER",
@@ -409405,7 +409405,7 @@
     "lsb": 13,
     "msb": 13,
     "wiki_sync": false,
-    "id": "51334"
+    "id": "51334 [fenmoor_woodcutting_petrified_tree_3_wood_4_multi]"
   },
   {
     "domain": "PLAYER",
@@ -409413,7 +409413,7 @@
     "lsb": 22,
     "msb": 22,
     "wiki_sync": false,
-    "id": "51335"
+    "id": "51335 [fenmoor_woodcutting_petrified_tree_1_brazier_1_multi]"
   },
   {
     "domain": "PLAYER",
@@ -409421,7 +409421,7 @@
     "lsb": 9,
     "msb": 9,
     "wiki_sync": false,
-    "id": "51336"
+    "id": "51336 [fenmoor_woodcutting_petrified_tree_2_brazier_1_multi]"
   },
   {
     "domain": "PLAYER",
@@ -409429,7 +409429,7 @@
     "lsb": 30,
     "msb": 30,
     "wiki_sync": false,
-    "id": "51337"
+    "id": "51337 [fenmoor_woodcutting_petrified_tree_3_brazier_1_multi]"
   },
   {
     "domain": "PLAYER",
@@ -409437,7 +409437,7 @@
     "lsb": 31,
     "msb": 31,
     "wiki_sync": false,
-    "id": "51338"
+    "id": "51338 [fenmoor_fletching_totem_1_state]"
   },
   {
     "domain": "PLAYER",
@@ -409445,7 +409445,7 @@
     "lsb": 0,
     "msb": 0,
     "wiki_sync": false,
-    "id": "51339"
+    "id": "51339 [fenmoor_fletching_totem_1_progress]"
   },
   {
     "domain": "PLAYER",
@@ -409453,7 +409453,7 @@
     "lsb": 1,
     "msb": 1,
     "wiki_sync": false,
-    "id": "51340"
+    "id": "51340 [fenmoor_fletching_reward_package_1_count]"
   },
   {
     "domain": "PLAYER",
@@ -409461,7 +409461,7 @@
     "lsb": 2,
     "msb": 2,
     "wiki_sync": false,
-    "id": "51341"
+    "id": "51341 [fenmoor_fletching_totem_2_state]"
   },
   {
     "domain": "PLAYER",
@@ -409469,7 +409469,7 @@
     "lsb": 3,
     "msb": 3,
     "wiki_sync": false,
-    "id": "51342"
+    "id": "51342 [fenmoor_fletching_totem_2_progress]"
   },
   {
     "domain": "PLAYER",
@@ -409477,7 +409477,7 @@
     "lsb": 4,
     "msb": 4,
     "wiki_sync": false,
-    "id": "51343"
+    "id": "51343 [fenmoor_fletching_reward_package_2_count]"
   },
   {
     "domain": "PLAYER",
@@ -409485,7 +409485,7 @@
     "lsb": 5,
     "msb": 5,
     "wiki_sync": false,
-    "id": "51344"
+    "id": "51344 [fenmoor_fletching_totem_3_state]"
   },
   {
     "domain": "PLAYER",
@@ -409493,7 +409493,7 @@
     "lsb": 6,
     "msb": 6,
     "wiki_sync": false,
-    "id": "51345"
+    "id": "51345 [fenmoor_fletching_totem_3_progress]"
   },
   {
     "domain": "PLAYER",
@@ -409797,7 +409797,7 @@
     "lsb": 7,
     "msb": 7,
     "wiki_sync": false,
-    "id": "51383"
+    "id": "51383 [fenmoor_fletching_reward_package_3_count]"
   },
   {
     "domain": "PLAYER",
@@ -460217,7 +460217,7 @@
   },
   {
     "domain": "PLAYER",
-    "source": "13713",
+    "source": "13713 [quest_charos_trail_reward_elite_casket_halloween]",
     "lsb": 12,
     "msb": 14,
     "wiki_sync": false,
@@ -465853,7 +465853,7 @@
     "lsb": 13,
     "msb": 13,
     "wiki_sync": false,
-    "id": "58390"
+    "id": "58390 [fenmoor_fletching_totem_store_root]"
   },
   {
     "domain": "PLAYER",
@@ -471541,7 +471541,7 @@
     "lsb": 14,
     "msb": 14,
     "wiki_sync": false,
-    "id": "59101"
+    "id": "59101 [fenmoor_fletching_totem_store_bark]"
   },
   {
     "domain": "PLAYER",
@@ -483653,7 +483653,7 @@
     "lsb": 5,
     "msb": 5,
     "wiki_sync": false,
-    "id": "60615 [quest_wendle_sanguine_antisanguine_timer]"
+    "id": "60615"
   },
   {
     "domain": "PLAYER",
@@ -494233,7 +494233,7 @@
   },
   {
     "domain": "PLAYER",
-    "source": "13659",
+    "source": "13659 [egwd_time_warp_cooldown_constitution_vampyre_slayer_progress]",
     "lsb": 0,
     "msb": 4,
     "wiki_sync": false,
@@ -494241,7 +494241,7 @@
   },
   {
     "domain": "PLAYER",
-    "source": "13659",
+    "source": "13659 [egwd_time_warp_cooldown_constitution_vampyre_slayer_progress]",
     "lsb": 5,
     "msb": 9,
     "wiki_sync": false,
@@ -494249,7 +494249,7 @@
   },
   {
     "domain": "PLAYER",
-    "source": "13659",
+    "source": "13659 [egwd_time_warp_cooldown_constitution_vampyre_slayer_progress]",
     "lsb": 10,
     "msb": 14,
     "wiki_sync": false,
@@ -494257,7 +494257,7 @@
   },
   {
     "domain": "PLAYER",
-    "source": "13659",
+    "source": "13659 [egwd_time_warp_cooldown_constitution_vampyre_slayer_progress]",
     "lsb": 15,
     "msb": 19,
     "wiki_sync": false,
@@ -494265,7 +494265,7 @@
   },
   {
     "domain": "PLAYER",
-    "source": "13659",
+    "source": "13659 [egwd_time_warp_cooldown_constitution_vampyre_slayer_progress]",
     "lsb": 20,
     "msb": 24,
     "wiki_sync": false,
@@ -494273,7 +494273,7 @@
   },
   {
     "domain": "PLAYER",
-    "source": "13659",
+    "source": "13659 [egwd_time_warp_cooldown_constitution_vampyre_slayer_progress]",
     "lsb": 25,
     "msb": 29,
     "wiki_sync": false,
@@ -494281,7 +494281,7 @@
   },
   {
     "domain": "PLAYER",
-    "source": "13660",
+    "source": "13660 [egwd_time_warp_cooldown_constitution_vital_drain_progress]",
     "lsb": 0,
     "msb": 4,
     "wiki_sync": false,
@@ -494289,7 +494289,7 @@
   },
   {
     "domain": "PLAYER",
-    "source": "13660",
+    "source": "13660 [egwd_time_warp_cooldown_constitution_vital_drain_progress]",
     "lsb": 5,
     "msb": 9,
     "wiki_sync": false,
@@ -494297,7 +494297,7 @@
   },
   {
     "domain": "PLAYER",
-    "source": "13660",
+    "source": "13660 [egwd_time_warp_cooldown_constitution_vital_drain_progress]",
     "lsb": 10,
     "msb": 14,
     "wiki_sync": false,
@@ -494305,7 +494305,7 @@
   },
   {
     "domain": "PLAYER",
-    "source": "13661",
+    "source": "13661 [egwd_time_warp_cooldown_magic_sanguine_offering_progress]",
     "lsb": 0,
     "msb": 4,
     "wiki_sync": false,
@@ -494313,7 +494313,7 @@
   },
   {
     "domain": "PLAYER",
-    "source": "13661",
+    "source": "13661 [egwd_time_warp_cooldown_magic_sanguine_offering_progress]",
     "lsb": 5,
     "msb": 9,
     "wiki_sync": false,
@@ -494321,7 +494321,7 @@
   },
   {
     "domain": "PLAYER",
-    "source": "13661",
+    "source": "13661 [egwd_time_warp_cooldown_magic_sanguine_offering_progress]",
     "lsb": 10,
     "msb": 14,
     "wiki_sync": false,
@@ -494329,7 +494329,7 @@
   },
   {
     "domain": "PLAYER",
-    "source": "13661",
+    "source": "13661 [egwd_time_warp_cooldown_magic_sanguine_offering_progress]",
     "lsb": 15,
     "msb": 19,
     "wiki_sync": false,
@@ -494337,7 +494337,7 @@
   },
   {
     "domain": "PLAYER",
-    "source": "13661",
+    "source": "13661 [egwd_time_warp_cooldown_magic_sanguine_offering_progress]",
     "lsb": 20,
     "msb": 24,
     "wiki_sync": false,
@@ -494345,7 +494345,7 @@
   },
   {
     "domain": "PLAYER",
-    "source": "13661",
+    "source": "13661 [egwd_time_warp_cooldown_magic_sanguine_offering_progress]",
     "lsb": 25,
     "msb": 29,
     "wiki_sync": false,
@@ -494353,7 +494353,7 @@
   },
   {
     "domain": "PLAYER",
-    "source": "13662",
+    "source": "13662 [fenmoor_woodcutting_petrified_tree_1]",
     "lsb": 0,
     "msb": 4,
     "wiki_sync": false,
@@ -494361,7 +494361,7 @@
   },
   {
     "domain": "PLAYER",
-    "source": "13662",
+    "source": "13662 [fenmoor_woodcutting_petrified_tree_1]",
     "lsb": 5,
     "msb": 9,
     "wiki_sync": false,
@@ -494369,7 +494369,7 @@
   },
   {
     "domain": "PLAYER",
-    "source": "13662",
+    "source": "13662 [fenmoor_woodcutting_petrified_tree_1]",
     "lsb": 10,
     "msb": 14,
     "wiki_sync": false,
@@ -494377,7 +494377,7 @@
   },
   {
     "domain": "PLAYER",
-    "source": "13663",
+    "source": "13663 [fenmoor_woodcutting_petrified_tree_2]",
     "lsb": 0,
     "msb": 7,
     "wiki_sync": false,
@@ -494385,7 +494385,7 @@
   },
   {
     "domain": "PLAYER",
-    "source": "13663",
+    "source": "13663 [fenmoor_woodcutting_petrified_tree_2]",
     "lsb": 8,
     "msb": 15,
     "wiki_sync": false,
@@ -494393,7 +494393,7 @@
   },
   {
     "domain": "PLAYER",
-    "source": "13663",
+    "source": "13663 [fenmoor_woodcutting_petrified_tree_2]",
     "lsb": 16,
     "msb": 23,
     "wiki_sync": false,
@@ -494401,7 +494401,7 @@
   },
   {
     "domain": "PLAYER",
-    "source": "13665",
+    "source": "13665 [fenmoor_woodcutting_petrified_tree_4]",
     "lsb": 0,
     "msb": 1,
     "wiki_sync": false,
@@ -494409,7 +494409,7 @@
   },
   {
     "domain": "PLAYER",
-    "source": "13665",
+    "source": "13665 [fenmoor_woodcutting_petrified_tree_4]",
     "lsb": 2,
     "msb": 14,
     "wiki_sync": false,
@@ -494417,7 +494417,7 @@
   },
   {
     "domain": "PLAYER",
-    "source": "13665",
+    "source": "13665 [fenmoor_woodcutting_petrified_tree_4]",
     "lsb": 15,
     "msb": 20,
     "wiki_sync": false,
@@ -494425,7 +494425,7 @@
   },
   {
     "domain": "PLAYER",
-    "source": "13666",
+    "source": "13666 [fenmoor_woodcutting_petrified_tree_5]",
     "lsb": 0,
     "msb": 1,
     "wiki_sync": false,
@@ -494433,7 +494433,7 @@
   },
   {
     "domain": "PLAYER",
-    "source": "13666",
+    "source": "13666 [fenmoor_woodcutting_petrified_tree_5]",
     "lsb": 2,
     "msb": 14,
     "wiki_sync": false,
@@ -494441,7 +494441,7 @@
   },
   {
     "domain": "PLAYER",
-    "source": "13666",
+    "source": "13666 [fenmoor_woodcutting_petrified_tree_5]",
     "lsb": 15,
     "msb": 20,
     "wiki_sync": false,
@@ -494449,7 +494449,7 @@
   },
   {
     "domain": "PLAYER",
-    "source": "13667",
+    "source": "13667 [fenmoor_woodcutting_petrified_tree_6]",
     "lsb": 0,
     "msb": 1,
     "wiki_sync": false,
@@ -494457,7 +494457,7 @@
   },
   {
     "domain": "PLAYER",
-    "source": "13667",
+    "source": "13667 [fenmoor_woodcutting_petrified_tree_6]",
     "lsb": 2,
     "msb": 14,
     "wiki_sync": false,
@@ -494465,7 +494465,7 @@
   },
   {
     "domain": "PLAYER",
-    "source": "13667",
+    "source": "13667 [fenmoor_woodcutting_petrified_tree_6]",
     "lsb": 15,
     "msb": 20,
     "wiki_sync": false,
@@ -494473,7 +494473,7 @@
   },
   {
     "domain": "PLAYER",
-    "source": "13668",
+    "source": "13668 [fenmoor_woodcutting_braziers]",
     "lsb": 0,
     "msb": 9,
     "wiki_sync": false,
@@ -494481,7 +494481,7 @@
   },
   {
     "domain": "PLAYER",
-    "source": "13668",
+    "source": "13668 [fenmoor_woodcutting_braziers]",
     "lsb": 10,
     "msb": 19,
     "wiki_sync": false,
@@ -494489,7 +494489,7 @@
   },
   {
     "domain": "PLAYER",
-    "source": "13668",
+    "source": "13668 [fenmoor_woodcutting_braziers]",
     "lsb": 20,
     "msb": 29,
     "wiki_sync": false,
@@ -494497,7 +494497,7 @@
   },
   {
     "domain": "PLAYER",
-    "source": "13668",
+    "source": "13668 [fenmoor_woodcutting_braziers]",
     "lsb": 30,
     "msb": 30,
     "wiki_sync": false,
@@ -494505,7 +494505,7 @@
   },
   {
     "domain": "PLAYER",
-    "source": "13668",
+    "source": "13668 [fenmoor_woodcutting_braziers]",
     "lsb": 31,
     "msb": 31,
     "wiki_sync": false,
@@ -494513,7 +494513,7 @@
   },
   {
     "domain": "PLAYER",
-    "source": "13682",
+    "source": "13682 [wild_essence_mine_perm_5]",
     "lsb": 0,
     "msb": 0,
     "wiki_sync": false,
@@ -494521,7 +494521,7 @@
   },
   {
     "domain": "PLAYER",
-    "source": "13682",
+    "source": "13682 [wild_essence_mine_perm_5]",
     "lsb": 1,
     "msb": 1,
     "wiki_sync": false,
@@ -494529,7 +494529,7 @@
   },
   {
     "domain": "PLAYER",
-    "source": "13682",
+    "source": "13682 [wild_essence_mine_perm_5]",
     "lsb": 2,
     "msb": 2,
     "wiki_sync": false,
@@ -494537,7 +494537,7 @@
   },
   {
     "domain": "PLAYER",
-    "source": "13682",
+    "source": "13682 [wild_essence_mine_perm_5]",
     "lsb": 3,
     "msb": 3,
     "wiki_sync": false,
@@ -494545,7 +494545,7 @@
   },
   {
     "domain": "PLAYER",
-    "source": "13682",
+    "source": "13682 [wild_essence_mine_perm_5]",
     "lsb": 4,
     "msb": 4,
     "wiki_sync": false,
@@ -494553,7 +494553,7 @@
   },
   {
     "domain": "PLAYER",
-    "source": "13682",
+    "source": "13682 [wild_essence_mine_perm_5]",
     "lsb": 5,
     "msb": 5,
     "wiki_sync": false,
@@ -494561,7 +494561,7 @@
   },
   {
     "domain": "PLAYER",
-    "source": "13682",
+    "source": "13682 [wild_essence_mine_perm_5]",
     "lsb": 6,
     "msb": 6,
     "wiki_sync": false,
@@ -494569,7 +494569,7 @@
   },
   {
     "domain": "PLAYER",
-    "source": "13682",
+    "source": "13682 [wild_essence_mine_perm_5]",
     "lsb": 7,
     "msb": 7,
     "wiki_sync": false,
@@ -494577,7 +494577,7 @@
   },
   {
     "domain": "PLAYER",
-    "source": "13682",
+    "source": "13682 [wild_essence_mine_perm_5]",
     "lsb": 20,
     "msb": 22,
     "wiki_sync": false,
@@ -494585,7 +494585,7 @@
   },
   {
     "domain": "PLAYER",
-    "source": "13682",
+    "source": "13682 [wild_essence_mine_perm_5]",
     "lsb": 23,
     "msb": 25,
     "wiki_sync": false,
@@ -494593,7 +494593,7 @@
   },
   {
     "domain": "PLAYER",
-    "source": "13682",
+    "source": "13682 [wild_essence_mine_perm_5]",
     "lsb": 26,
     "msb": 28,
     "wiki_sync": false,
@@ -494601,7 +494601,7 @@
   },
   {
     "domain": "PLAYER",
-    "source": "13682",
+    "source": "13682 [wild_essence_mine_perm_5]",
     "lsb": 29,
     "msb": 31,
     "wiki_sync": false,
@@ -494609,7 +494609,7 @@
   },
   {
     "domain": "PLAYER",
-    "source": "13683",
+    "source": "13683 [wild_essence_mine_perm_6]",
     "lsb": 3,
     "msb": 6,
     "wiki_sync": false,
@@ -494617,7 +494617,7 @@
   },
   {
     "domain": "PLAYER",
-    "source": "13683",
+    "source": "13683 [wild_essence_mine_perm_6]",
     "lsb": 7,
     "msb": 7,
     "wiki_sync": false,
@@ -494625,7 +494625,7 @@
   },
   {
     "domain": "PLAYER",
-    "source": "13683",
+    "source": "13683 [wild_essence_mine_perm_6]",
     "lsb": 8,
     "msb": 8,
     "wiki_sync": false,
@@ -494633,7 +494633,7 @@
   },
   {
     "domain": "PLAYER",
-    "source": "13683",
+    "source": "13683 [wild_essence_mine_perm_6]",
     "lsb": 9,
     "msb": 9,
     "wiki_sync": false,
@@ -494641,7 +494641,7 @@
   },
   {
     "domain": "PLAYER",
-    "source": "13683",
+    "source": "13683 [wild_essence_mine_perm_6]",
     "lsb": 10,
     "msb": 10,
     "wiki_sync": false,
@@ -494649,7 +494649,7 @@
   },
   {
     "domain": "PLAYER",
-    "source": "13683",
+    "source": "13683 [wild_essence_mine_perm_6]",
     "lsb": 11,
     "msb": 11,
     "wiki_sync": false,
@@ -494657,7 +494657,7 @@
   },
   {
     "domain": "PLAYER",
-    "source": "13683",
+    "source": "13683 [wild_essence_mine_perm_6]",
     "lsb": 12,
     "msb": 13,
     "wiki_sync": false,
@@ -494665,7 +494665,7 @@
   },
   {
     "domain": "PLAYER",
-    "source": "13683",
+    "source": "13683 [wild_essence_mine_perm_6]",
     "lsb": 14,
     "msb": 14,
     "wiki_sync": false,
@@ -494673,7 +494673,7 @@
   },
   {
     "domain": "PLAYER",
-    "source": "13683",
+    "source": "13683 [wild_essence_mine_perm_6]",
     "lsb": 15,
     "msb": 16,
     "wiki_sync": false,
@@ -494681,7 +494681,7 @@
   },
   {
     "domain": "PLAYER",
-    "source": "13683",
+    "source": "13683 [wild_essence_mine_perm_6]",
     "lsb": 17,
     "msb": 17,
     "wiki_sync": false,
@@ -494689,7 +494689,7 @@
   },
   {
     "domain": "PLAYER",
-    "source": "13683",
+    "source": "13683 [wild_essence_mine_perm_6]",
     "lsb": 18,
     "msb": 19,
     "wiki_sync": false,
@@ -494697,7 +494697,7 @@
   },
   {
     "domain": "PLAYER",
-    "source": "13683",
+    "source": "13683 [wild_essence_mine_perm_6]",
     "lsb": 20,
     "msb": 20,
     "wiki_sync": false,
@@ -494705,7 +494705,7 @@
   },
   {
     "domain": "PLAYER",
-    "source": "13683",
+    "source": "13683 [wild_essence_mine_perm_6]",
     "lsb": 21,
     "msb": 22,
     "wiki_sync": false,
@@ -494713,7 +494713,7 @@
   },
   {
     "domain": "PLAYER",
-    "source": "13683",
+    "source": "13683 [wild_essence_mine_perm_6]",
     "lsb": 23,
     "msb": 23,
     "wiki_sync": false,
@@ -494721,7 +494721,7 @@
   },
   {
     "domain": "PLAYER",
-    "source": "13683",
+    "source": "13683 [wild_essence_mine_perm_6]",
     "lsb": 24,
     "msb": 24,
     "wiki_sync": false,
@@ -494729,7 +494729,7 @@
   },
   {
     "domain": "PLAYER",
-    "source": "13683",
+    "source": "13683 [wild_essence_mine_perm_6]",
     "lsb": 25,
     "msb": 25,
     "wiki_sync": false,
@@ -494737,7 +494737,7 @@
   },
   {
     "domain": "PLAYER",
-    "source": "13683",
+    "source": "13683 [wild_essence_mine_perm_6]",
     "lsb": 26,
     "msb": 26,
     "wiki_sync": false,
@@ -494745,7 +494745,7 @@
   },
   {
     "domain": "PLAYER",
-    "source": "13683",
+    "source": "13683 [wild_essence_mine_perm_6]",
     "lsb": 27,
     "msb": 27,
     "wiki_sync": false,
@@ -494753,7 +494753,7 @@
   },
   {
     "domain": "PLAYER",
-    "source": "13683",
+    "source": "13683 [wild_essence_mine_perm_6]",
     "lsb": 28,
     "msb": 28,
     "wiki_sync": false,
@@ -494761,7 +494761,7 @@
   },
   {
     "domain": "PLAYER",
-    "source": "13683",
+    "source": "13683 [wild_essence_mine_perm_6]",
     "lsb": 29,
     "msb": 29,
     "wiki_sync": false,
@@ -494769,7 +494769,7 @@
   },
   {
     "domain": "PLAYER",
-    "source": "13683",
+    "source": "13683 [wild_essence_mine_perm_6]",
     "lsb": 30,
     "msb": 30,
     "wiki_sync": false,
@@ -494777,7 +494777,7 @@
   },
   {
     "domain": "PLAYER",
-    "source": "13683",
+    "source": "13683 [wild_essence_mine_perm_6]",
     "lsb": 31,
     "msb": 31,
     "wiki_sync": false,
@@ -494785,7 +494785,7 @@
   },
   {
     "domain": "PLAYER",
-    "source": "13684",
+    "source": "13684 [wild_essence_mine_perm_7]",
     "lsb": 0,
     "msb": 7,
     "wiki_sync": false,
@@ -494793,7 +494793,7 @@
   },
   {
     "domain": "PLAYER",
-    "source": "13684",
+    "source": "13684 [wild_essence_mine_perm_7]",
     "lsb": 8,
     "msb": 10,
     "wiki_sync": false,
@@ -494801,7 +494801,7 @@
   },
   {
     "domain": "PLAYER",
-    "source": "13704",
+    "source": "13704 [itemlog_tracking347]",
     "lsb": 0,
     "msb": 8,
     "wiki_sync": false,
@@ -494809,7 +494809,7 @@
   },
   {
     "domain": "PLAYER",
-    "source": "13704",
+    "source": "13704 [itemlog_tracking347]",
     "lsb": 9,
     "msb": 11,
     "wiki_sync": false,
@@ -494865,7 +494865,7 @@
   },
   {
     "domain": "PLAYER",
-    "source": "13712",
+    "source": "13712 [quest_charos_trail_reward_hard_casket_halloween]",
     "lsb": 0,
     "msb": 7,
     "wiki_sync": false,
@@ -494881,7 +494881,7 @@
   },
   {
     "domain": "PLAYER",
-    "source": "13714",
+    "source": "13714 [quest_charos_trail_reward_master_casket_halloween]",
     "lsb": 0,
     "msb": 15,
     "wiki_sync": false,
@@ -494893,7 +494893,7 @@
     "lsb": 16,
     "msb": 23,
     "wiki_sync": false,
-    "id": "62020"
+    "id": "62020 [fenmoor_fletching_totem_store_logs]"
   },
   {
     "domain": "PLAYER",
@@ -494901,7 +494901,7 @@
     "lsb": 24,
     "msb": 31,
     "wiki_sync": false,
-    "id": "62021"
+    "id": "62021 [fenmoor_farming_mushroom_access]"
   },
   {
     "domain": "PLAYER",
@@ -494909,7 +494909,7 @@
     "lsb": 9,
     "msb": 11,
     "wiki_sync": false,
-    "id": "62022"
+    "id": "62022 [fenmoor_farming_belladonna_access]"
   },
   {
     "domain": "ITEM",
@@ -494925,7 +494925,7 @@
     "lsb": 12,
     "msb": 12,
     "wiki_sync": false,
-    "id": "62024"
+    "id": "62024 [moonsylvar_wood_discovered_ancient_willow]"
   },
   {
     "domain": "PLAYER",
@@ -494933,7 +494933,7 @@
     "lsb": 13,
     "msb": 13,
     "wiki_sync": false,
-    "id": "62025"
+    "id": "62025 [moonsylvar_wood_discovered_sanguine_bear_cave]"
   },
   {
     "domain": "PLAYER",
@@ -494941,7 +494941,7 @@
     "lsb": 14,
     "msb": 14,
     "wiki_sync": false,
-    "id": "62026"
+    "id": "62026 [moonsylvar_wood_discovered_sanguine_tree_glade]"
   },
   {
     "domain": "PLAYER",
@@ -494949,7 +494949,7 @@
     "lsb": 15,
     "msb": 15,
     "wiki_sync": false,
-    "id": "62027"
+    "id": "62027 [moonsylvar_wood_discovered_spider_cult]"
   },
   {
     "domain": "PLAYER",
@@ -494957,7 +494957,7 @@
     "lsb": 16,
     "msb": 16,
     "wiki_sync": false,
-    "id": "62028"
+    "id": "62028 [moonsylvar_wood_discovered_southern_marker]"
   },
   {
     "domain": "PLAYER",
@@ -494965,7 +494965,7 @@
     "lsb": 17,
     "msb": 17,
     "wiki_sync": false,
-    "id": "62029"
+    "id": "62029 [moonsylvar_wood_discovered_fenmoor_exit]"
   },
   {
     "domain": "PLAYER",
@@ -494973,7 +494973,7 @@
     "lsb": 18,
     "msb": 18,
     "wiki_sync": false,
-    "id": "62030"
+    "id": "62030 [moonsylvar_wood_discovered_anya_plush_cave]"
   },
   {
     "domain": "PLAYER",
@@ -494981,7 +494981,7 @@
     "lsb": 19,
     "msb": 19,
     "wiki_sync": false,
-    "id": "62031"
+    "id": "62031 [moonsylvar_wood_spider_cult_lock_1_multivar]"
   },
   {
     "domain": "PLAYER",
@@ -494989,7 +494989,7 @@
     "lsb": 20,
     "msb": 20,
     "wiki_sync": false,
-    "id": "62032"
+    "id": "62032 [moonsylvar_wood_spider_cult_lock_2_multivar]"
   },
   {
     "domain": "PLAYER",
@@ -494997,7 +494997,7 @@
     "lsb": 21,
     "msb": 27,
     "wiki_sync": false,
-    "id": "62033"
+    "id": "62033 [moonsylvar_wood_spider_cult_lock_3_multivar]"
   },
   {
     "domain": "ITEM",
@@ -495009,339 +495009,339 @@
   },
   {
     "domain": "PLAYER",
-    "source": "13670",
+    "source": "13670 [fenmoor_fletching_totem_1]",
     "lsb": 0,
     "msb": 0,
     "wiki_sync": false,
-    "id": "62035"
+    "id": "62035 [moonsylvar_wood_ancient_willow_multivar]"
   },
   {
     "domain": "PLAYER",
-    "source": "13670",
+    "source": "13670 [fenmoor_fletching_totem_1]",
     "lsb": 5,
     "msb": 5,
     "wiki_sync": false,
-    "id": "62036"
+    "id": "62036 [moonsylvar_wood_spider_cult_dungeon_entrance_multivar]"
   },
   {
     "domain": "PLAYER",
-    "source": "13670",
+    "source": "13670 [fenmoor_fletching_totem_1]",
     "lsb": 6,
     "msb": 6,
     "wiki_sync": false,
-    "id": "62037"
+    "id": "62037 [moonsylvar_wood_spider_cult_lock_2_complete]"
   },
   {
     "domain": "PLAYER",
-    "source": "13670",
+    "source": "13670 [fenmoor_fletching_totem_1]",
     "lsb": 7,
     "msb": 19,
     "wiki_sync": false,
-    "id": "62038"
+    "id": "62038 [moonsylvar_wood_spider_cult_missing_page_transcribed]"
   },
   {
     "domain": "PLAYER",
-    "source": "13670",
+    "source": "13670 [fenmoor_fletching_totem_1]",
     "lsb": 20,
     "msb": 30,
     "wiki_sync": false,
-    "id": "62039"
+    "id": "62039 [moonsylvar_wood_spider_cult_complete]"
   },
   {
     "domain": "PLAYER",
-    "source": "13670",
+    "source": "13670 [fenmoor_fletching_totem_1]",
     "lsb": 31,
     "msb": 31,
     "wiki_sync": false,
-    "id": "62040"
+    "id": "62040 [moonsylvar_wood_spider_cult_hidden_symbols_0_visible]"
   },
   {
     "domain": "PLAYER",
-    "source": "13671",
+    "source": "13671 [fenmoor_fletching_totem_2]",
     "lsb": 0,
     "msb": 5,
     "wiki_sync": false,
-    "id": "62041"
+    "id": "62041 [moonsylvar_wood_spider_cult_hidden_symbol_1_visible]"
   },
   {
     "domain": "PLAYER",
-    "source": "13671",
+    "source": "13671 [fenmoor_fletching_totem_2]",
     "lsb": 6,
     "msb": 11,
     "wiki_sync": false,
-    "id": "62042"
+    "id": "62042 [moonsylvar_wood_spider_cult_hidden_symbol_1_read]"
   },
   {
     "domain": "PLAYER",
-    "source": "13671",
+    "source": "13671 [fenmoor_fletching_totem_2]",
     "lsb": 12,
     "msb": 17,
     "wiki_sync": false,
-    "id": "62043"
+    "id": "62043 [moonsylvar_wood_spider_cult_hidden_symbol_2_visible]"
   },
   {
     "domain": "PLAYER",
-    "source": "13671",
+    "source": "13671 [fenmoor_fletching_totem_2]",
     "lsb": 18,
     "msb": 23,
     "wiki_sync": false,
-    "id": "62044"
+    "id": "62044 [moonsylvar_wood_spider_cult_hidden_symbol_2_read]"
   },
   {
     "domain": "PLAYER",
-    "source": "13671",
+    "source": "13671 [fenmoor_fletching_totem_2]",
     "lsb": 24,
     "msb": 29,
     "wiki_sync": false,
-    "id": "62045"
+    "id": "62045 [moonsylvar_wood_spider_cult_hidden_symbol_3_visible]"
   },
   {
     "domain": "PLAYER",
-    "source": "13672",
+    "source": "13672 [fenmoor_fletching_totem_3]",
     "lsb": 0,
     "msb": 5,
     "wiki_sync": false,
-    "id": "62046"
+    "id": "62046 [moonsylvar_wood_spider_cult_hidden_symbol_3_read]"
   },
   {
     "domain": "PLAYER",
-    "source": "13672",
+    "source": "13672 [fenmoor_fletching_totem_3]",
     "lsb": 6,
     "msb": 11,
     "wiki_sync": false,
-    "id": "62047"
+    "id": "62047 [moonsylvar_wood_spider_cult_hidden_symbol_4_visible]"
   },
   {
     "domain": "PLAYER",
-    "source": "13672",
+    "source": "13672 [fenmoor_fletching_totem_3]",
     "lsb": 12,
     "msb": 18,
     "wiki_sync": false,
-    "id": "62048"
+    "id": "62048 [moonsylvar_wood_spider_cult_hidden_symbol_4_read]"
   },
   {
     "domain": "PLAYER",
-    "source": "13672",
+    "source": "13672 [fenmoor_fletching_totem_3]",
     "lsb": 12,
     "msb": 12,
     "wiki_sync": false,
-    "id": "62049"
+    "id": "62049 [moonsylvar_wood_spider_cult_cardinal_symbol_1_visible]"
   },
   {
     "domain": "PLAYER",
-    "source": "13672",
+    "source": "13672 [fenmoor_fletching_totem_3]",
     "lsb": 13,
     "msb": 13,
     "wiki_sync": false,
-    "id": "62050"
+    "id": "62050 [moonsylvar_wood_spider_cult_cardinal_symbol_1_read]"
   },
   {
     "domain": "PLAYER",
-    "source": "13672",
+    "source": "13672 [fenmoor_fletching_totem_3]",
     "lsb": 14,
     "msb": 14,
     "wiki_sync": false,
-    "id": "62051"
+    "id": "62051 [moonsylvar_wood_spider_cult_cardinal_symbol_2_visible]"
   },
   {
     "domain": "PLAYER",
-    "source": "13672",
+    "source": "13672 [fenmoor_fletching_totem_3]",
     "lsb": 15,
     "msb": 15,
     "wiki_sync": false,
-    "id": "62052"
+    "id": "62052 [moonsylvar_wood_spider_cult_cardinal_symbol_2_read]"
   },
   {
     "domain": "PLAYER",
-    "source": "13672",
+    "source": "13672 [fenmoor_fletching_totem_3]",
     "lsb": 16,
     "msb": 16,
     "wiki_sync": false,
-    "id": "62053"
+    "id": "62053 [moonsylvar_wood_spider_cult_cardinal_symbol_3_visible]"
   },
   {
     "domain": "PLAYER",
-    "source": "13672",
+    "source": "13672 [fenmoor_fletching_totem_3]",
     "lsb": 17,
     "msb": 17,
     "wiki_sync": false,
-    "id": "62054"
+    "id": "62054 [moonsylvar_wood_spider_cult_cardinal_symbol_3_read]"
   },
   {
     "domain": "PLAYER",
-    "source": "13672",
+    "source": "13672 [fenmoor_fletching_totem_3]",
     "lsb": 18,
     "msb": 18,
     "wiki_sync": false,
-    "id": "62055"
+    "id": "62055 [moonsylvar_wood_spider_cult_cardinal_symbol_4_visible]"
   },
   {
     "domain": "PLAYER",
-    "source": "13672",
+    "source": "13672 [fenmoor_fletching_totem_3]",
     "lsb": 19,
     "msb": 21,
     "wiki_sync": false,
-    "id": "62056"
+    "id": "62056 [moonsylvar_wood_spider_cult_cardinal_symbol_4_read]"
   },
   {
     "domain": "PLAYER",
-    "source": "13673",
+    "source": "13673 [fenmoor_fletching_totem_store]",
     "lsb": 0,
     "msb": 15,
     "wiki_sync": false,
-    "id": "62057"
+    "id": "62057 [moonsylvar_wood_position_index]"
   },
   {
     "domain": "PLAYER",
-    "source": "13673",
+    "source": "13673 [fenmoor_fletching_totem_store]",
     "lsb": 16,
     "msb": 31,
     "wiki_sync": false,
-    "id": "62058"
+    "id": "62058 [moonsylvar_wood_getting_lost]"
   },
   {
     "domain": "PLAYER",
-    "source": "13674",
+    "source": "13674 [fenmoor_tutorial_state]",
     "lsb": 0,
     "msb": 15,
     "wiki_sync": false,
-    "id": "62059"
+    "id": "62059 [championships_top_card]"
   },
   {
     "domain": "PLAYER",
-    "source": "13674",
+    "source": "13674 [fenmoor_tutorial_state]",
     "lsb": 16,
     "msb": 31,
     "wiki_sync": false,
-    "id": "62060"
+    "id": "62060 [championships_middle_card]"
   },
   {
     "domain": "PLAYER",
-    "source": "13675",
+    "source": "13675 [colossi_divination_main]",
     "lsb": 0,
     "msb": 15,
     "wiki_sync": false,
-    "id": "62061"
+    "id": "62061 [championships_bottom_card]"
   },
   {
     "domain": "PLAYER",
-    "source": "13675",
+    "source": "13675 [colossi_divination_main]",
     "lsb": 16,
     "msb": 31,
     "wiki_sync": false,
-    "id": "62062"
+    "id": "62062 [championships_athletics_turns]"
   },
   {
     "domain": "PLAYER",
-    "source": "13676",
+    "source": "13676 [colossi_divination_main_2]",
     "lsb": 0,
     "msb": 15,
     "wiki_sync": false,
-    "id": "62063"
+    "id": "62063 [championships_athletics_points]"
   },
   {
     "domain": "PLAYER",
-    "source": "13676",
+    "source": "13676 [colossi_divination_main_2]",
     "lsb": 16,
     "msb": 31,
     "wiki_sync": false,
-    "id": "62064"
+    "id": "62064 [championships_cheesewheel_direction]"
   },
   {
     "domain": "PLAYER",
-    "source": "13677",
+    "source": "13677 [colossi_divination_main_3]",
     "lsb": 0,
     "msb": 15,
     "wiki_sync": false,
-    "id": "62065"
+    "id": "62065 [championships_jinglecheck]"
   },
   {
     "domain": "PLAYER",
-    "source": "13677",
+    "source": "13677 [colossi_divination_main_3]",
     "lsb": 16,
     "msb": 31,
     "wiki_sync": false,
-    "id": "62066"
+    "id": "62066 [championships_athletics_race_started]"
   },
   {
     "domain": "PLAYER",
-    "source": "13678",
+    "source": "13678 [wild_essence_mine_perm_1]",
     "lsb": 0,
     "msb": 15,
     "wiki_sync": false,
-    "id": "62067"
+    "id": "62067 [championships_athletics_race_won]"
   },
   {
     "domain": "PLAYER",
-    "source": "13678",
+    "source": "13678 [wild_essence_mine_perm_1]",
     "lsb": 16,
     "msb": 31,
     "wiki_sync": false,
-    "id": "62068"
+    "id": "62068 [championships_athletics_xp_limit]"
   },
   {
     "domain": "PLAYER",
-    "source": "13679",
+    "source": "13679 [wild_essence_mine_perm_2]",
     "lsb": 0,
     "msb": 15,
     "wiki_sync": false,
-    "id": "62069"
+    "id": "62069 [championships_cheesewheel_xp_limt]"
   },
   {
     "domain": "PLAYER",
-    "source": "13679",
+    "source": "13679 [wild_essence_mine_perm_2]",
     "lsb": 16,
     "msb": 31,
     "wiki_sync": false,
-    "id": "62070"
+    "id": "62070 [championships_mining_xp_limit]"
   },
   {
     "domain": "PLAYER",
-    "source": "13680",
+    "source": "13680 [wild_essence_mine_perm_3]",
     "lsb": 0,
     "msb": 15,
     "wiki_sync": false,
-    "id": "62071"
+    "id": "62071 [championships_woodcutting_xp_limit]"
   },
   {
     "domain": "PLAYER",
-    "source": "13691",
+    "source": "13691 [boss_instance_blood_knight_boss_encounter_enrage]",
     "lsb": 21,
     "msb": 21,
     "wiki_sync": false,
-    "id": "62072"
+    "id": "62072 [championships_farming_xp_limit]"
   },
   {
     "domain": "PLAYER",
-    "source": "13691",
+    "source": "13691 [boss_instance_blood_knight_boss_encounter_enrage]",
     "lsb": 22,
     "msb": 22,
     "wiki_sync": false,
-    "id": "62073"
+    "id": "62073 [championships_bronze_ring_limit]"
   },
   {
     "domain": "PLAYER",
-    "source": "13691",
+    "source": "13691 [boss_instance_blood_knight_boss_encounter_enrage]",
     "lsb": 23,
     "msb": 23,
     "wiki_sync": false,
-    "id": "62074"
+    "id": "62074 [championships_silver_ring_limit]"
   },
   {
     "domain": "PLAYER",
-    "source": "13691",
+    "source": "13691 [boss_instance_blood_knight_boss_encounter_enrage]",
     "lsb": 24,
     "msb": 24,
     "wiki_sync": false,
-    "id": "62075"
+    "id": "62075 [championships_gold_ring_limit]"
   },
   {
     "domain": "PLAYER",
-    "source": "13691",
+    "source": "13691 [boss_instance_blood_knight_boss_encounter_enrage]",
     "lsb": 25,
     "msb": 25,
     "wiki_sync": false,
-    "id": "62076"
+    "id": "62076 [championships_team]"
   },
   {
     "domain": "PLAYER",
@@ -495349,7 +495349,7 @@
     "lsb": 29,
     "msb": 29,
     "wiki_sync": false,
-    "id": "62077"
+    "id": "62077 [championships_human_spoketo]"
   },
   {
     "domain": "PLAYER",
@@ -495357,7 +495357,7 @@
     "lsb": 30,
     "msb": 30,
     "wiki_sync": false,
-    "id": "62078"
+    "id": "62078 [championships_gnome_spoketo]"
   },
   {
     "domain": "PLAYER",
@@ -495365,7 +495365,7 @@
     "lsb": 31,
     "msb": 31,
     "wiki_sync": false,
-    "id": "62079"
+    "id": "62079 [championships_elf_spoketo]"
   },
   {
     "domain": "PLAYER",
@@ -495373,7 +495373,7 @@
     "lsb": 16,
     "msb": 23,
     "wiki_sync": false,
-    "id": "62080"
+    "id": "62080 [championships_goblin_spoketo]"
   },
   {
     "domain": "PLAYER",
@@ -495381,423 +495381,423 @@
     "lsb": 24,
     "msb": 31,
     "wiki_sync": false,
-    "id": "62081"
+    "id": "62081 [championships_werewolf_spoketo]"
   },
   {
     "domain": "PLAYER",
-    "source": "13686",
+    "source": "13686 [wild_essence_mine_cracked_achievement]",
     "lsb": 0,
     "msb": 7,
     "wiki_sync": false,
-    "id": "62082"
+    "id": "62082 [championships_monkey_spoketo]"
   },
   {
     "domain": "PLAYER",
-    "source": "13686",
+    "source": "13686 [wild_essence_mine_cracked_achievement]",
     "lsb": 8,
     "msb": 15,
     "wiki_sync": false,
-    "id": "62083"
+    "id": "62083 [championships_oomad_spokento]"
   },
   {
     "domain": "PLAYER",
-    "source": "13686",
+    "source": "13686 [wild_essence_mine_cracked_achievement]",
     "lsb": 16,
     "msb": 23,
     "wiki_sync": false,
-    "id": "62084"
+    "id": "62084 [championships_login]"
   },
   {
     "domain": "PLAYER",
-    "source": "13686",
+    "source": "13686 [wild_essence_mine_cracked_achievement]",
     "lsb": 24,
     "msb": 27,
     "wiki_sync": false,
-    "id": "62085"
+    "id": "62085 [championships_safety]"
   },
   {
     "domain": "PLAYER",
-    "source": "13687",
+    "source": "13687 [moonsylvar_perm_1]",
     "lsb": 0,
     "msb": 5,
     "wiki_sync": false,
-    "id": "62086"
+    "id": "62086 [championships_marathon_point]"
   },
   {
     "domain": "PLAYER",
-    "source": "13687",
+    "source": "13687 [moonsylvar_perm_1]",
     "lsb": 6,
     "msb": 11,
     "wiki_sync": false,
-    "id": "62087"
+    "id": "62087 [pre_championship_current_task]"
   },
   {
     "domain": "PLAYER",
-    "source": "13687",
+    "source": "13687 [moonsylvar_perm_1]",
     "lsb": 12,
     "msb": 27,
     "wiki_sync": false,
-    "id": "62088"
+    "id": "62088 [pre_championship_current_task_count]"
   },
   {
     "domain": "PLAYER",
-    "source": "13688",
+    "source": "13688 [moonsylvar_perm_2]",
     "lsb": 0,
     "msb": 7,
     "wiki_sync": false,
-    "id": "62089"
+    "id": "62089 [pre_championship_current_food_1]"
   },
   {
     "domain": "PLAYER",
-    "source": "13689",
+    "source": "13689 [moonsylvar_temp_1]",
     "lsb": 0,
     "msb": 7,
     "wiki_sync": false,
-    "id": "62090"
+    "id": "62090 [pre_championship_current_food_2]"
   },
   {
     "domain": "PLAYER",
-    "source": "13689",
+    "source": "13689 [moonsylvar_temp_1]",
     "lsb": 8,
     "msb": 10,
     "wiki_sync": false,
-    "id": "62091"
+    "id": "62091 [pre_championship_current_food_3]"
   },
   {
     "domain": "PLAYER",
-    "source": "13689",
+    "source": "13689 [moonsylvar_temp_1]",
     "lsb": 11,
     "msb": 12,
     "wiki_sync": false,
-    "id": "62092"
+    "id": "62092 [pre_championship_medal_task]"
   },
   {
     "domain": "PLAYER",
-    "source": "13689",
+    "source": "13689 [moonsylvar_temp_1]",
     "lsb": 13,
     "msb": 14,
     "wiki_sync": false,
-    "id": "62093"
+    "id": "62093 [pre_championship_construction_task]"
   },
   {
     "domain": "PLAYER",
-    "source": "13689",
+    "source": "13689 [moonsylvar_temp_1]",
     "lsb": 15,
     "msb": 16,
     "wiki_sync": false,
-    "id": "62094"
+    "id": "62094 [pre_championship_food_task]"
   },
   {
     "domain": "PLAYER",
-    "source": "13689",
+    "source": "13689 [moonsylvar_temp_1]",
     "lsb": 17,
     "msb": 19,
     "wiki_sync": false,
-    "id": "62095"
+    "id": "62095 [pre_championship_intro]"
   },
   {
     "domain": "PLAYER",
-    "source": "13689",
+    "source": "13689 [moonsylvar_temp_1]",
     "lsb": 20,
     "msb": 21,
     "wiki_sync": false,
-    "id": "62096"
+    "id": "62096 [pre_championship_food_score_total]"
   },
   {
     "domain": "PLAYER",
-    "source": "13689",
+    "source": "13689 [moonsylvar_temp_1]",
     "lsb": 22,
     "msb": 24,
     "wiki_sync": false,
-    "id": "62097"
+    "id": "62097 [pre_championship_cooking_ingredient_1]"
   },
   {
     "domain": "PLAYER",
-    "source": "13689",
+    "source": "13689 [moonsylvar_temp_1]",
     "lsb": 25,
     "msb": 25,
     "wiki_sync": false,
-    "id": "62098"
+    "id": "62098 [pre_championship_cooking_ingredient_2]"
   },
   {
     "domain": "PLAYER",
-    "source": "13689",
+    "source": "13689 [moonsylvar_temp_1]",
     "lsb": 26,
     "msb": 26,
     "wiki_sync": false,
-    "id": "62099"
+    "id": "62099 [pre_championship_cooking_ingredient_3]"
   },
   {
     "domain": "PLAYER",
-    "source": "13689",
+    "source": "13689 [moonsylvar_temp_1]",
     "lsb": 27,
     "msb": 27,
     "wiki_sync": false,
-    "id": "62100"
+    "id": "62100 [pre_championship_cooking_ingredient_4]"
   },
   {
     "domain": "PLAYER",
-    "source": "13689",
+    "source": "13689 [moonsylvar_temp_1]",
     "lsb": 28,
     "msb": 28,
     "wiki_sync": false,
-    "id": "62101"
+    "id": "62101 [championships_rr_bluetree_1]"
   },
   {
     "domain": "PLAYER",
-    "source": "13689",
+    "source": "13689 [moonsylvar_temp_1]",
     "lsb": 29,
     "msb": 29,
     "wiki_sync": false,
-    "id": "62102"
+    "id": "62102 [championships_rr_bluetree_2]"
   },
   {
     "domain": "PLAYER",
-    "source": "13689",
+    "source": "13689 [moonsylvar_temp_1]",
     "lsb": 30,
     "msb": 30,
     "wiki_sync": false,
-    "id": "62103"
+    "id": "62103 [championships_rr_goldtree_1]"
   },
   {
     "domain": "PLAYER",
-    "source": "13689",
+    "source": "13689 [moonsylvar_temp_1]",
     "lsb": 31,
     "msb": 31,
     "wiki_sync": false,
-    "id": "62104"
+    "id": "62104 [championships_rr_goldtree_2]"
   },
   {
     "domain": "PLAYER",
-    "source": "13690",
+    "source": "13690 [blood_knight_boss_varp_1]",
     "lsb": 0,
     "msb": 2,
     "wiki_sync": false,
-    "id": "62105"
+    "id": "62105 [championships_rr_blacktree_1]"
   },
   {
     "domain": "PLAYER",
-    "source": "13690",
+    "source": "13690 [blood_knight_boss_varp_1]",
     "lsb": 3,
     "msb": 5,
     "wiki_sync": false,
-    "id": "62106"
+    "id": "62106 [championships_rr_blacktree_2]"
   },
   {
     "domain": "PLAYER",
-    "source": "13690",
+    "source": "13690 [blood_knight_boss_varp_1]",
     "lsb": 6,
     "msb": 7,
     "wiki_sync": false,
-    "id": "62107"
+    "id": "62107 [championships_rr_greentree_1]"
   },
   {
     "domain": "PLAYER",
-    "source": "13690",
+    "source": "13690 [blood_knight_boss_varp_1]",
     "lsb": 8,
     "msb": 9,
     "wiki_sync": false,
-    "id": "62108"
+    "id": "62108 [championships_rr_greentree_2]"
   },
   {
     "domain": "PLAYER",
-    "source": "13690",
+    "source": "13690 [blood_knight_boss_varp_1]",
     "lsb": 10,
     "msb": 11,
     "wiki_sync": false,
-    "id": "62109"
+    "id": "62109 [championships_rr_redtree_1]"
   },
   {
     "domain": "PLAYER",
-    "source": "13690",
+    "source": "13690 [blood_knight_boss_varp_1]",
     "lsb": 12,
     "msb": 13,
     "wiki_sync": false,
-    "id": "62110"
+    "id": "62110 [championships_rr_redtree_2]"
   },
   {
     "domain": "PLAYER",
-    "source": "13690",
+    "source": "13690 [blood_knight_boss_varp_1]",
     "lsb": 14,
     "msb": 15,
     "wiki_sync": false,
-    "id": "62111"
+    "id": "62111 [championships_shop_unlocked_bronze]"
   },
   {
     "domain": "PLAYER",
-    "source": "13690",
+    "source": "13690 [blood_knight_boss_varp_1]",
     "lsb": 16,
     "msb": 17,
     "wiki_sync": false,
-    "id": "62112"
+    "id": "62112 [championships_shop_unlocked_silver]"
   },
   {
     "domain": "PLAYER",
-    "source": "13690",
+    "source": "13690 [blood_knight_boss_varp_1]",
     "lsb": 18,
     "msb": 19,
     "wiki_sync": false,
-    "id": "62113"
+    "id": "62113 [championships_shop_unlocked_gold]"
   },
   {
     "domain": "PLAYER",
-    "source": "13690",
+    "source": "13690 [blood_knight_boss_varp_1]",
     "lsb": 20,
     "msb": 21,
     "wiki_sync": false,
-    "id": "62114"
+    "id": "62114 [championships_shop2_bought_obj0]"
   },
   {
     "domain": "PLAYER",
-    "source": "13690",
+    "source": "13690 [blood_knight_boss_varp_1]",
     "lsb": 22,
     "msb": 22,
     "wiki_sync": false,
-    "id": "62115"
+    "id": "62115 [championships_shop2_bought_obj1]"
   },
   {
     "domain": "PLAYER",
-    "source": "13690",
+    "source": "13690 [blood_knight_boss_varp_1]",
     "lsb": 23,
     "msb": 23,
     "wiki_sync": false,
-    "id": "62116"
+    "id": "62116 [championships_shop2_bought_obj2]"
   },
   {
     "domain": "PLAYER",
-    "source": "13690",
+    "source": "13690 [blood_knight_boss_varp_1]",
     "lsb": 24,
     "msb": 27,
     "wiki_sync": false,
-    "id": "62117"
+    "id": "62117 [championships_shop2_bought_obj3]"
   },
   {
     "domain": "PLAYER",
-    "source": "13690",
+    "source": "13690 [blood_knight_boss_varp_1]",
     "lsb": 28,
     "msb": 29,
     "wiki_sync": false,
-    "id": "62118"
+    "id": "62118 [championships_shop2_bought_obj4]"
   },
   {
     "domain": "PLAYER",
-    "source": "13690",
+    "source": "13690 [blood_knight_boss_varp_1]",
     "lsb": 30,
     "msb": 30,
     "wiki_sync": false,
-    "id": "62119"
+    "id": "62119 [championships_shop2_bought_obj5]"
   },
   {
     "domain": "PLAYER",
-    "source": "13690",
+    "source": "13690 [blood_knight_boss_varp_1]",
     "lsb": 31,
     "msb": 31,
     "wiki_sync": false,
-    "id": "62120"
+    "id": "62120 [championships_shop2_bought_obj6]"
   },
   {
     "domain": "PLAYER",
-    "source": "13691",
+    "source": "13691 [boss_instance_blood_knight_boss_encounter_enrage]",
     "lsb": 0,
     "msb": 2,
     "wiki_sync": false,
-    "id": "62121"
+    "id": "62121 [championships_shop2_bought_obj7]"
   },
   {
     "domain": "PLAYER",
-    "source": "13691",
+    "source": "13691 [boss_instance_blood_knight_boss_encounter_enrage]",
     "lsb": 3,
     "msb": 5,
     "wiki_sync": false,
-    "id": "62122"
+    "id": "62122 [championships_shop2_bought_obj8]"
   },
   {
     "domain": "PLAYER",
-    "source": "13691",
+    "source": "13691 [boss_instance_blood_knight_boss_encounter_enrage]",
     "lsb": 6,
     "msb": 8,
     "wiki_sync": false,
-    "id": "62123"
+    "id": "62123 [championships_shop2_bought_obj9]"
   },
   {
     "domain": "PLAYER",
-    "source": "13691",
+    "source": "13691 [boss_instance_blood_knight_boss_encounter_enrage]",
     "lsb": 9,
     "msb": 11,
     "wiki_sync": false,
-    "id": "62124"
+    "id": "62124 [championships_shop2_bought_obj10]"
   },
   {
     "domain": "PLAYER",
-    "source": "13691",
+    "source": "13691 [boss_instance_blood_knight_boss_encounter_enrage]",
     "lsb": 12,
     "msb": 14,
     "wiki_sync": false,
-    "id": "62125"
+    "id": "62125 [championships_shop2_bought_obj11]"
   },
   {
     "domain": "PLAYER",
-    "source": "13691",
+    "source": "13691 [boss_instance_blood_knight_boss_encounter_enrage]",
     "lsb": 15,
     "msb": 16,
     "wiki_sync": false,
-    "id": "62126"
+    "id": "62126 [championships_shop2_bought_obj12]"
   },
   {
     "domain": "PLAYER",
-    "source": "13691",
+    "source": "13691 [boss_instance_blood_knight_boss_encounter_enrage]",
     "lsb": 17,
     "msb": 17,
     "wiki_sync": false,
-    "id": "62127"
+    "id": "62127 [championships_shop2_bought_obj13]"
   },
   {
     "domain": "PLAYER",
-    "source": "13691",
+    "source": "13691 [boss_instance_blood_knight_boss_encounter_enrage]",
     "lsb": 18,
     "msb": 20,
     "wiki_sync": false,
-    "id": "62128"
+    "id": "62128 [championships_shop2_bought_obj14]"
   },
   {
     "domain": "PLAYER",
-    "source": "13691",
+    "source": "13691 [boss_instance_blood_knight_boss_encounter_enrage]",
     "lsb": 26,
     "msb": 27,
     "wiki_sync": false,
-    "id": "62129"
+    "id": "62129 [championships_shop2_bought_obj15]"
   },
   {
     "domain": "PLAYER",
-    "source": "13691",
+    "source": "13691 [boss_instance_blood_knight_boss_encounter_enrage]",
     "lsb": 28,
     "msb": 28,
     "wiki_sync": false,
-    "id": "62130"
+    "id": "62130 [championships_shop2_bought_obj16]"
   },
   {
     "domain": "PLAYER",
-    "source": "13691",
+    "source": "13691 [boss_instance_blood_knight_boss_encounter_enrage]",
     "lsb": 29,
     "msb": 29,
     "wiki_sync": false,
-    "id": "62131"
+    "id": "62131 [championships_shop2_bought_obj17]"
   },
   {
     "domain": "PLAYER",
-    "source": "13691",
+    "source": "13691 [boss_instance_blood_knight_boss_encounter_enrage]",
     "lsb": 30,
     "msb": 30,
     "wiki_sync": false,
-    "id": "62132"
+    "id": "62132 [championships_shop2_bought_obj18]"
   },
   {
     "domain": "PLAYER",
-    "source": "13691",
+    "source": "13691 [boss_instance_blood_knight_boss_encounter_enrage]",
     "lsb": 31,
     "msb": 31,
     "wiki_sync": false,
-    "id": "62133"
+    "id": "62133 [championships_shop2_bought_obj19]"
   },
   {
     "domain": "CONTROLLER",
@@ -495809,35 +495809,35 @@
   },
   {
     "domain": "PLAYER",
-    "source": "13692",
+    "source": "13692 [blood_knight_boss_varp_temp_1]",
     "lsb": 0,
     "msb": 0,
     "wiki_sync": false,
-    "id": "62135"
+    "id": "62135 [championships_shop2_bought_obj21]"
   },
   {
     "domain": "PLAYER",
-    "source": "13692",
+    "source": "13692 [blood_knight_boss_varp_temp_1]",
     "lsb": 1,
     "msb": 1,
     "wiki_sync": false,
-    "id": "62136"
+    "id": "62136 [championships_shop2_bought_obj22]"
   },
   {
     "domain": "PLAYER",
-    "source": "13692",
+    "source": "13692 [blood_knight_boss_varp_temp_1]",
     "lsb": 2,
     "msb": 2,
     "wiki_sync": false,
-    "id": "62137"
+    "id": "62137 [championships_shop2_bought_obj23]"
   },
   {
     "domain": "PLAYER",
-    "source": "13692",
+    "source": "13692 [blood_knight_boss_varp_temp_1]",
     "lsb": 3,
     "msb": 3,
     "wiki_sync": false,
-    "id": "62138"
+    "id": "62138 [championships_shop2_bought_obj24]"
   },
   {
     "domain": "PLAYER",
@@ -495845,7 +495845,7 @@
     "lsb": 29,
     "msb": 29,
     "wiki_sync": false,
-    "id": "62139"
+    "id": "62139 [championships_shop2_bought_obj25]"
   },
   {
     "domain": "PLAYER",
@@ -495853,7 +495853,7 @@
     "lsb": 30,
     "msb": 30,
     "wiki_sync": false,
-    "id": "62140"
+    "id": "62140 [championships_shop2_selected_object_id]"
   },
   {
     "domain": "PLAYER",
@@ -495861,7 +495861,7 @@
     "lsb": 31,
     "msb": 31,
     "wiki_sync": false,
-    "id": "62141"
+    "id": "62141 [bpets_blood_knight_boss_menagerie]"
   },
   {
     "domain": "PLAYER",
@@ -495869,31 +495869,31 @@
     "lsb": 12,
     "msb": 21,
     "wiki_sync": false,
-    "id": "62142"
+    "id": "62142 [mtx162_deathbringer_pet_menagerie]"
   },
   {
     "domain": "PLAYER",
-    "source": "13700",
+    "source": "13700 [halloween26_perm_1]",
     "lsb": 0,
     "msb": 15,
     "wiki_sync": false,
-    "id": "62143"
+    "id": "62143 [mtx162_deathbringer_pet_t2_menagerie]"
   },
   {
     "domain": "PLAYER",
-    "source": "13700",
+    "source": "13700 [halloween26_perm_1]",
     "lsb": 16,
     "msb": 31,
     "wiki_sync": false,
-    "id": "62144"
+    "id": "62144 [mtx162_deathbringer_pet_t3_menagerie]"
   },
   {
     "domain": "PLAYER",
-    "source": "13701",
+    "source": "13701 [halloween26_perm_2]",
     "lsb": 0,
     "msb": 15,
     "wiki_sync": false,
-    "id": "62145"
+    "id": "62145 [mtx162_headless_rider_pet_menagerie]"
   },
   {
     "domain": "PLAYER",
@@ -495901,7 +495901,7 @@
     "lsb": 10,
     "msb": 10,
     "wiki_sync": false,
-    "id": "62146"
+    "id": "62146 [antisanguine_timer]"
   },
   {
     "domain": "PLAYER",
@@ -495909,7 +495909,7 @@
     "lsb": 11,
     "msb": 11,
     "wiki_sync": false,
-    "id": "62147"
+    "id": "62147 [antisanguine_tier]"
   },
   {
     "domain": "PLAYER",
@@ -495917,7 +495917,7 @@
     "lsb": 12,
     "msb": 12,
     "wiki_sync": false,
-    "id": "62148"
+    "id": "62148 [fairyring_fenmoor_unlocked]"
   },
   {
     "domain": "PLAYER",
@@ -495925,7 +495925,7 @@
     "lsb": 13,
     "msb": 13,
     "wiki_sync": false,
-    "id": "62149"
+    "id": "62149 [sniper_bloodtree_9]"
   },
   {
     "domain": "PLAYER",
@@ -495933,7 +495933,7 @@
     "lsb": 14,
     "msb": 14,
     "wiki_sync": false,
-    "id": "62150"
+    "id": "62150 [sniper_bloodtree_time_9]"
   },
   {
     "domain": "PLAYER",
@@ -495941,7 +495941,7 @@
     "lsb": 15,
     "msb": 15,
     "wiki_sync": false,
-    "id": "62151"
+    "id": "62151 [farming_belladonna_havenhythe_varbit]"
   },
   {
     "domain": "PLAYER",
@@ -495949,7 +495949,7 @@
     "lsb": 16,
     "msb": 16,
     "wiki_sync": false,
-    "id": "62152"
+    "id": "62152 [farming_compost_varbit_belladonna_havenhythe]"
   },
   {
     "domain": "PLAYER",
@@ -495957,7 +495957,7 @@
     "lsb": 17,
     "msb": 17,
     "wiki_sync": false,
-    "id": "62153"
+    "id": "62153 [farming_compost_varbit_mushroom_havenhythe]"
   },
   {
     "domain": "PLAYER",
@@ -495965,7 +495965,7 @@
     "lsb": 18,
     "msb": 18,
     "wiki_sync": false,
-    "id": "62154"
+    "id": "62154 [farming_mushroom_patch_havenhythe_varbit]"
   },
   {
     "domain": "PLAYER",
@@ -495973,7 +495973,7 @@
     "lsb": 19,
     "msb": 19,
     "wiki_sync": false,
-    "id": "62155"
+    "id": "62155 [bslay_kills_sanguine_werewolf]"
   },
   {
     "domain": "PLAYER",
@@ -495981,7 +495981,7 @@
     "lsb": 20,
     "msb": 20,
     "wiki_sync": false,
-    "id": "62156"
+    "id": "62156 [bslay_kills_ravenous_strigoi]"
   },
   {
     "domain": "PLAYER",
@@ -495989,7 +495989,7 @@
     "lsb": 21,
     "msb": 21,
     "wiki_sync": false,
-    "id": "62157"
+    "id": "62157 [bslay_prestige_sanguine_werewolf]"
   },
   {
     "domain": "PLAYER",
@@ -495997,15 +495997,15 @@
     "lsb": 16,
     "msb": 31,
     "wiki_sync": false,
-    "id": "62158"
+    "id": "62158 [bslay_prestige_ravenous_strigoi]"
   },
   {
     "domain": "PLAYER",
-    "source": "13742",
+    "source": "13742 [championships_card_tracker_3]",
     "lsb": 0,
     "msb": 15,
     "wiki_sync": false,
-    "id": "62159"
+    "id": "62159 [bslay_kills_blood_knight_boss]"
   },
   {
     "domain": "PLAYER",
@@ -496013,7 +496013,7 @@
     "lsb": 23,
     "msb": 23,
     "wiki_sync": false,
-    "id": "62160"
+    "id": "62160 [bslay_kills_blood_knight_boss_hardmode]"
   },
   {
     "domain": "PLAYER",
@@ -496021,7 +496021,7 @@
     "lsb": 24,
     "msb": 24,
     "wiki_sync": false,
-    "id": "62161"
+    "id": "62161 [bslay_prestige_blood_knight_boss]"
   },
   {
     "domain": "PLAYER",
@@ -496029,7 +496029,7 @@
     "lsb": 25,
     "msb": 25,
     "wiki_sync": false,
-    "id": "62162"
+    "id": "62162 [bslay_prestige_blood_knight_boss_hardmode]"
   },
   {
     "domain": "PLAYER",
@@ -496037,7 +496037,7 @@
     "lsb": 22,
     "msb": 22,
     "wiki_sync": false,
-    "id": "62163"
+    "id": "62163 [cws_arachnophobia_toggle]"
   },
   {
     "domain": "PLAYER",
@@ -496049,7 +496049,7 @@
   },
   {
     "domain": "PLAYER",
-    "source": "13745",
+    "source": "13745 [championships_xp_limit_2]",
     "lsb": 0,
     "msb": 15,
     "wiki_sync": false,
@@ -496057,7 +496057,7 @@
   },
   {
     "domain": "PLAYER",
-    "source": "13745",
+    "source": "13745 [championships_xp_limit_2]",
     "lsb": 16,
     "msb": 31,
     "wiki_sync": false,
@@ -496081,7 +496081,7 @@
   },
   {
     "domain": "PLAYER",
-    "source": "13716",
+    "source": "13716 [quest_wendle_heralds_basevar2]",
     "lsb": 0,
     "msb": 15,
     "wiki_sync": false,
@@ -496089,7 +496089,7 @@
   },
   {
     "domain": "PLAYER",
-    "source": "13716",
+    "source": "13716 [quest_wendle_heralds_basevar2]",
     "lsb": 16,
     "msb": 31,
     "wiki_sync": false,
@@ -496097,7 +496097,7 @@
   },
   {
     "domain": "PLAYER",
-    "source": "13718",
+    "source": "13718 [quest_wendle_heralds_tempvar1]",
     "lsb": 0,
     "msb": 0,
     "wiki_sync": false,
@@ -496105,7 +496105,7 @@
   },
   {
     "domain": "PLAYER",
-    "source": "13718",
+    "source": "13718 [quest_wendle_heralds_tempvar1]",
     "lsb": 1,
     "msb": 3,
     "wiki_sync": false,
@@ -496161,7 +496161,7 @@
   },
   {
     "domain": "PLAYER",
-    "source": "13726",
+    "source": "13726 [combatv2_debuff_isolated_active]",
     "lsb": 0,
     "msb": 14,
     "wiki_sync": false,
@@ -496169,7 +496169,7 @@
   },
   {
     "domain": "PLAYER",
-    "source": "13726",
+    "source": "13726 [combatv2_debuff_isolated_active]",
     "lsb": 15,
     "msb": 29,
     "wiki_sync": false,
@@ -496177,7 +496177,7 @@
   },
   {
     "domain": "PLAYER",
-    "source": "13726",
+    "source": "13726 [combatv2_debuff_isolated_active]",
     "lsb": 30,
     "msb": 30,
     "wiki_sync": false,
@@ -496185,7 +496185,7 @@
   },
   {
     "domain": "PLAYER",
-    "source": "13727",
+    "source": "13727 [combatv2_cooldown_necromancy_invoke_arisen_flesh_start]",
     "lsb": 0,
     "msb": 4,
     "wiki_sync": false,
@@ -496193,7 +496193,7 @@
   },
   {
     "domain": "PLAYER",
-    "source": "13727",
+    "source": "13727 [combatv2_cooldown_necromancy_invoke_arisen_flesh_start]",
     "lsb": 5,
     "msb": 9,
     "wiki_sync": false,
@@ -496201,7 +496201,7 @@
   },
   {
     "domain": "PLAYER",
-    "source": "13727",
+    "source": "13727 [combatv2_cooldown_necromancy_invoke_arisen_flesh_start]",
     "lsb": 10,
     "msb": 14,
     "wiki_sync": false,
@@ -496209,7 +496209,7 @@
   },
   {
     "domain": "PLAYER",
-    "source": "13728",
+    "source": "13728 [combatv2_cooldown_necromancy_invoke_arisen_flesh_end]",
     "lsb": 0,
     "msb": 6,
     "wiki_sync": false,
@@ -496217,7 +496217,7 @@
   },
   {
     "domain": "PLAYER",
-    "source": "13728",
+    "source": "13728 [combatv2_cooldown_necromancy_invoke_arisen_flesh_end]",
     "lsb": 7,
     "msb": 9,
     "wiki_sync": false,
@@ -496225,7 +496225,7 @@
   },
   {
     "domain": "PLAYER",
-    "source": "13728",
+    "source": "13728 [combatv2_cooldown_necromancy_invoke_arisen_flesh_end]",
     "lsb": 10,
     "msb": 10,
     "wiki_sync": false,
@@ -496241,7 +496241,7 @@
   },
   {
     "domain": "PLAYER",
-    "source": "13688",
+    "source": "13688 [moonsylvar_perm_2]",
     "lsb": 8,
     "msb": 15,
     "wiki_sync": false,
@@ -496249,7 +496249,7 @@
   },
   {
     "domain": "PLAYER",
-    "source": "13688",
+    "source": "13688 [moonsylvar_perm_2]",
     "lsb": 16,
     "msb": 23,
     "wiki_sync": false,
@@ -496257,7 +496257,7 @@
   },
   {
     "domain": "PLAYER",
-    "source": "13688",
+    "source": "13688 [moonsylvar_perm_2]",
     "lsb": 24,
     "msb": 31,
     "wiki_sync": false,
@@ -496313,7 +496313,7 @@
   },
   {
     "domain": "PLAYER",
-    "source": "13740",
+    "source": "13740 [championships_card_tracker_1]",
     "lsb": 0,
     "msb": 0,
     "wiki_sync": false,
@@ -496321,7 +496321,7 @@
   },
   {
     "domain": "PLAYER",
-    "source": "13741",
+    "source": "13741 [championships_card_tracker_2]",
     "lsb": 0,
     "msb": 3,
     "wiki_sync": false,
@@ -496417,7 +496417,7 @@
   },
   {
     "domain": "PLAYER",
-    "source": "13748",
+    "source": "13748 [championships_ring_limit]",
     "lsb": 0,
     "msb": 2,
     "wiki_sync": false,
@@ -496425,7 +496425,7 @@
   },
   {
     "domain": "PLAYER",
-    "source": "13748",
+    "source": "13748 [championships_ring_limit]",
     "lsb": 3,
     "msb": 4,
     "wiki_sync": false,
@@ -496433,7 +496433,7 @@
   },
   {
     "domain": "PLAYER",
-    "source": "13749",
+    "source": "13749 [championships_marathon_varp]",
     "lsb": 0,
     "msb": 0,
     "wiki_sync": false,
@@ -496441,7 +496441,7 @@
   },
   {
     "domain": "PLAYER",
-    "source": "13749",
+    "source": "13749 [championships_marathon_varp]",
     "lsb": 1,
     "msb": 1,
     "wiki_sync": false,
@@ -496529,7 +496529,7 @@
   },
   {
     "domain": "CLIENT",
-    "source": "8524",
+    "source": "8524 [championships_varc_struggling_blue]",
     "lsb": 0,
     "msb": 11,
     "wiki_sync": false,
@@ -496537,7 +496537,7 @@
   },
   {
     "domain": "CLIENT",
-    "source": "8524",
+    "source": "8524 [championships_varc_struggling_blue]",
     "lsb": 12,
     "msb": 23,
     "wiki_sync": false,
@@ -496545,7 +496545,7 @@
   },
   {
     "domain": "CLIENT",
-    "source": "8524",
+    "source": "8524 [championships_varc_struggling_blue]",
     "lsb": 24,
     "msb": 30,
     "wiki_sync": false,
@@ -496553,7 +496553,7 @@
   },
   {
     "domain": "CLIENT",
-    "source": "8524",
+    "source": "8524 [championships_varc_struggling_blue]",
     "lsb": 31,
     "msb": 31,
     "wiki_sync": false,
@@ -496561,7 +496561,7 @@
   },
   {
     "domain": "CLIENT",
-    "source": "8525",
+    "source": "8525 [championships_varc_condition_1_gold]",
     "lsb": 0,
     "msb": 11,
     "wiki_sync": false,
@@ -496569,7 +496569,7 @@
   },
   {
     "domain": "CLIENT",
-    "source": "8525",
+    "source": "8525 [championships_varc_condition_1_gold]",
     "lsb": 12,
     "msb": 23,
     "wiki_sync": false,
@@ -496577,7 +496577,7 @@
   },
   {
     "domain": "CLIENT",
-    "source": "8525",
+    "source": "8525 [championships_varc_condition_1_gold]",
     "lsb": 24,
     "msb": 30,
     "wiki_sync": false,
@@ -496585,7 +496585,7 @@
   },
   {
     "domain": "CLIENT",
-    "source": "8525",
+    "source": "8525 [championships_varc_condition_1_gold]",
     "lsb": 31,
     "msb": 31,
     "wiki_sync": false,
@@ -496593,7 +496593,7 @@
   },
   {
     "domain": "CLIENT",
-    "source": "8526",
+    "source": "8526 [championships_varc_condition_2_gold]",
     "lsb": 0,
     "msb": 11,
     "wiki_sync": false,
@@ -496601,7 +496601,7 @@
   },
   {
     "domain": "CLIENT",
-    "source": "8526",
+    "source": "8526 [championships_varc_condition_2_gold]",
     "lsb": 12,
     "msb": 23,
     "wiki_sync": false,
@@ -496609,7 +496609,7 @@
   },
   {
     "domain": "CLIENT",
-    "source": "8526",
+    "source": "8526 [championships_varc_condition_2_gold]",
     "lsb": 24,
     "msb": 30,
     "wiki_sync": false,
@@ -496617,7 +496617,7 @@
   },
   {
     "domain": "CLIENT",
-    "source": "8526",
+    "source": "8526 [championships_varc_condition_2_gold]",
     "lsb": 31,
     "msb": 31,
     "wiki_sync": false,
@@ -496625,7 +496625,7 @@
   },
   {
     "domain": "CLIENT",
-    "source": "8527",
+    "source": "8527 [championships_varc_condition_3_gold]",
     "lsb": 0,
     "msb": 11,
     "wiki_sync": false,
@@ -496633,7 +496633,7 @@
   },
   {
     "domain": "CLIENT",
-    "source": "8527",
+    "source": "8527 [championships_varc_condition_3_gold]",
     "lsb": 12,
     "msb": 23,
     "wiki_sync": false,
@@ -496641,7 +496641,7 @@
   },
   {
     "domain": "CLIENT",
-    "source": "8527",
+    "source": "8527 [championships_varc_condition_3_gold]",
     "lsb": 24,
     "msb": 30,
     "wiki_sync": false,
@@ -496649,7 +496649,7 @@
   },
   {
     "domain": "CLIENT",
-    "source": "8527",
+    "source": "8527 [championships_varc_condition_3_gold]",
     "lsb": 31,
     "msb": 31,
     "wiki_sync": false,
@@ -496657,7 +496657,7 @@
   },
   {
     "domain": "CLIENT",
-    "source": "8528",
+    "source": "8528 [championships_varc_struggling_gold]",
     "lsb": 0,
     "msb": 11,
     "wiki_sync": false,
@@ -496665,7 +496665,7 @@
   },
   {
     "domain": "CLIENT",
-    "source": "8528",
+    "source": "8528 [championships_varc_struggling_gold]",
     "lsb": 12,
     "msb": 23,
     "wiki_sync": false,
@@ -496673,7 +496673,7 @@
   },
   {
     "domain": "CLIENT",
-    "source": "8528",
+    "source": "8528 [championships_varc_struggling_gold]",
     "lsb": 24,
     "msb": 30,
     "wiki_sync": false,
@@ -496681,7 +496681,7 @@
   },
   {
     "domain": "CLIENT",
-    "source": "8528",
+    "source": "8528 [championships_varc_struggling_gold]",
     "lsb": 31,
     "msb": 31,
     "wiki_sync": false,
@@ -496689,7 +496689,7 @@
   },
   {
     "domain": "CLIENT",
-    "source": "8529",
+    "source": "8529 [championships_varc_condition_1_black]",
     "lsb": 0,
     "msb": 11,
     "wiki_sync": false,
@@ -496697,7 +496697,7 @@
   },
   {
     "domain": "CLIENT",
-    "source": "8529",
+    "source": "8529 [championships_varc_condition_1_black]",
     "lsb": 12,
     "msb": 23,
     "wiki_sync": false,
@@ -496705,7 +496705,7 @@
   },
   {
     "domain": "CLIENT",
-    "source": "8529",
+    "source": "8529 [championships_varc_condition_1_black]",
     "lsb": 24,
     "msb": 30,
     "wiki_sync": false,
@@ -496713,7 +496713,7 @@
   },
   {
     "domain": "CLIENT",
-    "source": "8529",
+    "source": "8529 [championships_varc_condition_1_black]",
     "lsb": 31,
     "msb": 31,
     "wiki_sync": false,
@@ -496721,7 +496721,7 @@
   },
   {
     "domain": "CLIENT",
-    "source": "8530",
+    "source": "8530 [championships_varc_condition_2_black]",
     "lsb": 0,
     "msb": 11,
     "wiki_sync": false,
@@ -496729,7 +496729,7 @@
   },
   {
     "domain": "CLIENT",
-    "source": "8530",
+    "source": "8530 [championships_varc_condition_2_black]",
     "lsb": 12,
     "msb": 23,
     "wiki_sync": false,
@@ -496737,7 +496737,7 @@
   },
   {
     "domain": "CLIENT",
-    "source": "8530",
+    "source": "8530 [championships_varc_condition_2_black]",
     "lsb": 24,
     "msb": 30,
     "wiki_sync": false,
@@ -496745,7 +496745,7 @@
   },
   {
     "domain": "CLIENT",
-    "source": "8530",
+    "source": "8530 [championships_varc_condition_2_black]",
     "lsb": 31,
     "msb": 31,
     "wiki_sync": false,
@@ -496753,7 +496753,7 @@
   },
   {
     "domain": "CLIENT",
-    "source": "8531",
+    "source": "8531 [championships_varc_condition_3_black]",
     "lsb": 0,
     "msb": 11,
     "wiki_sync": false,
@@ -496761,7 +496761,7 @@
   },
   {
     "domain": "CLIENT",
-    "source": "8531",
+    "source": "8531 [championships_varc_condition_3_black]",
     "lsb": 12,
     "msb": 23,
     "wiki_sync": false,
@@ -496769,7 +496769,7 @@
   },
   {
     "domain": "CLIENT",
-    "source": "8531",
+    "source": "8531 [championships_varc_condition_3_black]",
     "lsb": 24,
     "msb": 30,
     "wiki_sync": false,
@@ -496777,7 +496777,7 @@
   },
   {
     "domain": "CLIENT",
-    "source": "8531",
+    "source": "8531 [championships_varc_condition_3_black]",
     "lsb": 31,
     "msb": 31,
     "wiki_sync": false,
@@ -496785,35 +496785,35 @@
   },
   {
     "domain": "PLAYER",
-    "source": "13753",
+    "source": "13753 [championships_points]",
     "lsb": 0,
     "msb": 0,
     "wiki_sync": false,
-    "id": "62257"
+    "id": "62257 [colossi_divination_image_counter]"
   },
   {
     "domain": "PLAYER",
-    "source": "13753",
+    "source": "13753 [championships_points]",
     "lsb": 1,
     "msb": 1,
     "wiki_sync": false,
-    "id": "62258"
+    "id": "62258 [colossi_divination_amulet_given]"
   },
   {
     "domain": "PLAYER",
-    "source": "13753",
+    "source": "13753 [championships_points]",
     "lsb": 2,
     "msb": 2,
     "wiki_sync": false,
-    "id": "62259"
+    "id": "62259 [colossi_divination_mural_bat_state]"
   },
   {
     "domain": "PLAYER",
-    "source": "13753",
+    "source": "13753 [championships_points]",
     "lsb": 3,
     "msb": 3,
     "wiki_sync": false,
-    "id": "62260"
+    "id": "62260 [colossi_divination_mural_fox_state]"
   },
   {
     "domain": "PLAYER",
@@ -496821,7 +496821,7 @@
     "lsb": 27,
     "msb": 27,
     "wiki_sync": false,
-    "id": "62261"
+    "id": "62261 [colossi_divination_mural_millipede_state]"
   },
   {
     "domain": "PLAYER",
@@ -496829,7 +496829,7 @@
     "lsb": 0,
     "msb": 7,
     "wiki_sync": false,
-    "id": "62262"
+    "id": "62262 [colossi_divination_mural_spider_state]"
   },
   {
     "domain": "PLAYER",
@@ -496837,7 +496837,7 @@
     "lsb": 30,
     "msb": 30,
     "wiki_sync": false,
-    "id": "62263"
+    "id": "62263 [colossi_divination_mural_tree_state]"
   },
   {
     "domain": "PLAYER",
@@ -496845,151 +496845,151 @@
     "lsb": 31,
     "msb": 31,
     "wiki_sync": false,
-    "id": "62264"
+    "id": "62264 [colossi_divination_mural_unicorn_state]"
   },
   {
     "domain": "PLAYER",
-    "source": "13752",
+    "source": "13752 [pre_championship_bits]",
     "lsb": 0,
     "msb": 0,
     "wiki_sync": false,
-    "id": "62265"
+    "id": "62265 [colossi_divination_mural_wolf_state]"
   },
   {
     "domain": "PLAYER",
-    "source": "13752",
+    "source": "13752 [pre_championship_bits]",
     "lsb": 1,
     "msb": 1,
     "wiki_sync": false,
-    "id": "62266"
+    "id": "62266 [colossi_divination_mural_cycle]"
   },
   {
     "domain": "PLAYER",
-    "source": "13752",
+    "source": "13752 [pre_championship_bits]",
     "lsb": 2,
     "msb": 2,
     "wiki_sync": false,
-    "id": "62267"
+    "id": "62267 [colossi_divination_mural_cycle_bat]"
   },
   {
     "domain": "PLAYER",
-    "source": "13752",
+    "source": "13752 [pre_championship_bits]",
     "lsb": 3,
     "msb": 3,
     "wiki_sync": false,
-    "id": "62268"
+    "id": "62268 [colossi_divination_mural_cycle_unicorn]"
   },
   {
     "domain": "PLAYER",
-    "source": "13752",
+    "source": "13752 [pre_championship_bits]",
     "lsb": 4,
     "msb": 4,
     "wiki_sync": false,
-    "id": "62269"
+    "id": "62269 [colossi_divination_mural_cycle_tree]"
   },
   {
     "domain": "PLAYER",
-    "source": "13752",
+    "source": "13752 [pre_championship_bits]",
     "lsb": 5,
     "msb": 5,
     "wiki_sync": false,
-    "id": "62270"
+    "id": "62270 [colossi_divination_mural_cycle_wolf]"
   },
   {
     "domain": "PLAYER",
-    "source": "13752",
+    "source": "13752 [pre_championship_bits]",
     "lsb": 6,
     "msb": 6,
     "wiki_sync": false,
-    "id": "62271"
+    "id": "62271 [colossi_divination_mural_cycle_fox]"
   },
   {
     "domain": "PLAYER",
-    "source": "13752",
+    "source": "13752 [pre_championship_bits]",
     "lsb": 7,
     "msb": 7,
     "wiki_sync": false,
-    "id": "62272"
+    "id": "62272 [colossi_divination_mural_cycle_spider]"
   },
   {
     "domain": "PLAYER",
-    "source": "13752",
+    "source": "13752 [pre_championship_bits]",
     "lsb": 8,
     "msb": 8,
     "wiki_sync": false,
-    "id": "62273"
+    "id": "62273 [colossi_divination_mural_cycle_millipede]"
   },
   {
     "domain": "PLAYER",
-    "source": "13752",
+    "source": "13752 [pre_championship_bits]",
     "lsb": 9,
     "msb": 9,
     "wiki_sync": false,
-    "id": "62274"
+    "id": "62274 [colossi_divination_attuned_mural]"
   },
   {
     "domain": "PLAYER",
-    "source": "13752",
+    "source": "13752 [pre_championship_bits]",
     "lsb": 10,
     "msb": 10,
     "wiki_sync": false,
-    "id": "62275"
+    "id": "62275 [wild_essence_mine_essence_vein_1]"
   },
   {
     "domain": "PLAYER",
-    "source": "13752",
+    "source": "13752 [pre_championship_bits]",
     "lsb": 11,
     "msb": 11,
     "wiki_sync": false,
-    "id": "62276"
+    "id": "62276 [wild_essence_mine_essence_vein_2]"
   },
   {
     "domain": "PLAYER",
-    "source": "13752",
+    "source": "13752 [pre_championship_bits]",
     "lsb": 12,
     "msb": 12,
     "wiki_sync": false,
-    "id": "62277"
+    "id": "62277 [wild_essence_mine_essence_vein_3]"
   },
   {
     "domain": "PLAYER",
-    "source": "13752",
+    "source": "13752 [pre_championship_bits]",
     "lsb": 13,
     "msb": 13,
     "wiki_sync": false,
-    "id": "62278"
+    "id": "62278 [wild_essence_mine_essence_vein_4]"
   },
   {
     "domain": "PLAYER",
-    "source": "13752",
+    "source": "13752 [pre_championship_bits]",
     "lsb": 14,
     "msb": 14,
     "wiki_sync": false,
-    "id": "62279"
+    "id": "62279 [wild_essence_mine_essence_vein_5]"
   },
   {
     "domain": "PLAYER",
-    "source": "13752",
+    "source": "13752 [pre_championship_bits]",
     "lsb": 15,
     "msb": 15,
     "wiki_sync": false,
-    "id": "62280"
+    "id": "62280 [wild_essence_mine_essence_deposit_1]"
   },
   {
     "domain": "PLAYER",
-    "source": "13752",
+    "source": "13752 [pre_championship_bits]",
     "lsb": 16,
     "msb": 16,
     "wiki_sync": false,
-    "id": "62281"
+    "id": "62281 [wild_essence_mine_essence_deposit_2]"
   },
   {
     "domain": "PLAYER",
-    "source": "13752",
+    "source": "13752 [pre_championship_bits]",
     "lsb": 17,
     "msb": 17,
     "wiki_sync": false,
-    "id": "62282"
+    "id": "62282 [wild_essence_mine_essence_deposit_3]"
   },
   {
     "domain": "PLAYER",
@@ -496997,7 +496997,7 @@
     "lsb": 4,
     "msb": 4,
     "wiki_sync": false,
-    "id": "62283"
+    "id": "62283 [wild_essence_mine_essence_deposit_4]"
   },
   {
     "domain": "PLAYER",
@@ -497005,7 +497005,7 @@
     "lsb": 5,
     "msb": 5,
     "wiki_sync": false,
-    "id": "62284"
+    "id": "62284 [wild_essence_mine_essence_deposit_5]"
   },
   {
     "domain": "PLAYER",
@@ -497013,7 +497013,7 @@
     "lsb": 6,
     "msb": 6,
     "wiki_sync": false,
-    "id": "62285"
+    "id": "62285 [wild_essence_mine_essence_deposit_large_1]"
   },
   {
     "domain": "PLAYER",
@@ -497021,7 +497021,7 @@
     "lsb": 7,
     "msb": 7,
     "wiki_sync": false,
-    "id": "62286"
+    "id": "62286 [wild_essence_mine_essence_deposit_large_2]"
   },
   {
     "domain": "PLAYER",
@@ -497029,251 +497029,251 @@
     "lsb": 8,
     "msb": 8,
     "wiki_sync": false,
-    "id": "62287"
+    "id": "62287 [wild_essence_mine_essence_deposit_large_3]"
   },
   {
     "domain": "PLAYER",
-    "source": "2931 [megagames_cards_held]",
+    "source": "2931",
     "lsb": 0,
     "msb": 9,
     "wiki_sync": false,
-    "id": "62288"
+    "id": "62288 [wild_essence_mine_essence_deposit_large_4]"
   },
   {
     "domain": "PLAYER",
-    "source": "2931 [megagames_cards_held]",
+    "source": "2931",
     "lsb": 10,
     "msb": 19,
     "wiki_sync": false,
-    "id": "62289"
+    "id": "62289 [wild_essence_mine_essence_deposit_large_5]"
   },
   {
     "domain": "PLAYER",
-    "source": "2931 [megagames_cards_held]",
+    "source": "2931",
     "lsb": 20,
     "msb": 29,
     "wiki_sync": false,
-    "id": "62290"
+    "id": "62290 [wild_essence_mine_book_page_1]"
   },
   {
     "domain": "PLAYER",
-    "source": "2927 [megagames_athletics]",
+    "source": "2927",
     "lsb": 0,
     "msb": 7,
     "wiki_sync": false,
-    "id": "62291"
+    "id": "62291 [wild_essence_mine_book_page_2]"
   },
   {
     "domain": "PLAYER",
-    "source": "2927 [megagames_athletics]",
+    "source": "2927",
     "lsb": 8,
     "msb": 31,
     "wiki_sync": false,
-    "id": "62292"
+    "id": "62292 [wild_essence_mine_book_page_3]"
   },
   {
     "domain": "PLAYER",
-    "source": "2918 [megagames_marathon_varp]",
+    "source": "2918",
     "lsb": 6,
     "msb": 7,
     "wiki_sync": false,
-    "id": "62293"
+    "id": "62293 [wild_essence_mine_book_page_4]"
   },
   {
     "domain": "PLAYER",
-    "source": "2918 [megagames_marathon_varp]",
+    "source": "2918",
     "lsb": 8,
     "msb": 8,
     "wiki_sync": false,
-    "id": "62294"
+    "id": "62294 [wild_essence_mine_book_page_5]"
   },
   {
     "domain": "PLAYER",
-    "source": "2918 [megagames_marathon_varp]",
+    "source": "2918",
     "lsb": 9,
     "msb": 9,
     "wiki_sync": false,
-    "id": "62295"
+    "id": "62295 [wild_essence_mine_book_page_6_multiloc]"
   },
   {
     "domain": "PLAYER",
-    "source": "2918 [megagames_marathon_varp]",
+    "source": "2918",
     "lsb": 10,
     "msb": 10,
     "wiki_sync": false,
-    "id": "62296"
+    "id": "62296 [wild_essence_mine_book_page_6]"
   },
   {
     "domain": "PLAYER",
-    "source": "2911 [megagames_xp_limit]",
+    "source": "2911",
     "lsb": 0,
     "msb": 14,
     "wiki_sync": false,
-    "id": "62297"
+    "id": "62297 [wild_essence_mine_book_page_7]"
   },
   {
     "domain": "PLAYER",
-    "source": "2913 [megagames_xp_limit_3]",
+    "source": "2913",
     "lsb": 0,
     "msb": 12,
     "wiki_sync": false,
-    "id": "62298"
+    "id": "62298 [blood_knight_boss_highest_enrage]"
   },
   {
     "domain": "PLAYER",
-    "source": "2912 [megagames_xp_limit_2]",
+    "source": "2912",
     "lsb": 0,
     "msb": 15,
     "wiki_sync": false,
-    "id": "62299"
+    "id": "62299 [blood_knight_boss_last_enrage]"
   },
   {
     "domain": "PLAYER",
-    "source": "2912 [megagames_xp_limit_2]",
+    "source": "2912",
     "lsb": 16,
     "msb": 31,
     "wiki_sync": false,
-    "id": "62300"
+    "id": "62300 [blood_knight_boss_debug_mode]"
   },
   {
     "domain": "PLAYER",
-    "source": "2914 [megagames_xp_limit_4]",
+    "source": "2914",
     "lsb": 0,
     "msb": 15,
     "wiki_sync": false,
-    "id": "62301"
+    "id": "62301 [blood_knight_boss_path_active]"
   },
   {
     "domain": "PLAYER",
-    "source": "2915 [megagames_ring_limit]",
+    "source": "2915",
     "lsb": 0,
     "msb": 15,
     "wiki_sync": false,
-    "id": "62302"
+    "id": "62302 [halloween_hub_trick_or_treat_complete]"
   },
   {
     "domain": "PLAYER",
-    "source": "2915 [megagames_ring_limit]",
+    "source": "2915",
     "lsb": 16,
     "msb": 31,
     "wiki_sync": false,
-    "id": "62303"
+    "id": "62303 [halloween_hub_trick_or_treat_pink_mask_unlocked]"
   },
   {
     "domain": "PLAYER",
-    "source": "2913 [megagames_xp_limit_3]",
+    "source": "2913",
     "lsb": 13,
     "msb": 29,
     "wiki_sync": false,
-    "id": "62304"
+    "id": "62304 [halloween_hub_trick_or_treat_pink_mask_blp]"
   },
   {
     "domain": "PLAYER",
-    "source": "2911 [megagames_xp_limit]",
+    "source": "2911",
     "lsb": 15,
     "msb": 18,
     "wiki_sync": false,
-    "id": "62305"
+    "id": "62305 [halloween26_ceremony_week_1_rewards_claimed]"
   },
   {
     "domain": "PLAYER",
-    "source": "2911 [megagames_xp_limit]",
+    "source": "2911",
     "lsb": 19,
     "msb": 19,
     "wiki_sync": false,
-    "id": "62306"
+    "id": "62306 [halloween26_ceremony_week_2_rewards_claimed]"
   },
   {
     "domain": "PLAYER",
-    "source": "2911 [megagames_xp_limit]",
+    "source": "2911",
     "lsb": 20,
     "msb": 20,
     "wiki_sync": false,
-    "id": "62307"
+    "id": "62307 [halloween26_ceremony_week_3_rewards_claimed]"
   },
   {
     "domain": "PLAYER",
-    "source": "2911 [megagames_xp_limit]",
+    "source": "2911",
     "lsb": 21,
     "msb": 21,
     "wiki_sync": false,
-    "id": "62308"
+    "id": "62308 [halloween26_ceremony_confections_last_received_trick]"
   },
   {
     "domain": "PLAYER",
-    "source": "2911 [megagames_xp_limit]",
+    "source": "2911",
     "lsb": 22,
     "msb": 22,
     "wiki_sync": false,
-    "id": "62309"
+    "id": "62309 [halloween26_ceremony_confections_last_received_skill]"
   },
   {
     "domain": "PLAYER",
-    "source": "2911 [megagames_xp_limit]",
+    "source": "2911",
     "lsb": 23,
     "msb": 23,
     "wiki_sync": false,
-    "id": "62310"
+    "id": "62310 [halloween26_ceremony_confections_skill_owed]"
   },
   {
     "domain": "PLAYER",
-    "source": "2911 [megagames_xp_limit]",
+    "source": "2911",
     "lsb": 24,
     "msb": 24,
     "wiki_sync": false,
-    "id": "62311"
+    "id": "62311 [halloween26_ceremony_confections_received_trick]"
   },
   {
     "domain": "PLAYER",
-    "source": "2911 [megagames_xp_limit]",
+    "source": "2911",
     "lsb": 25,
     "msb": 25,
     "wiki_sync": false,
-    "id": "62312"
+    "id": "62312 [halloween26_ceremony_confections_received_skill]"
   },
   {
     "domain": "PLAYER",
-    "source": "2911 [megagames_xp_limit]",
+    "source": "2911",
     "lsb": 26,
     "msb": 26,
     "wiki_sync": false,
-    "id": "62313"
+    "id": "62313 [halloween26_ceremony_confections_purchased]"
   },
   {
     "domain": "PLAYER",
-    "source": "2911 [megagames_xp_limit]",
+    "source": "2911",
     "lsb": 27,
     "msb": 27,
     "wiki_sync": false,
-    "id": "62314"
+    "id": "62314 [quest_halloween26_main]"
   },
   {
     "domain": "PLAYER",
-    "source": "2918 [megagames_marathon_varp]",
+    "source": "2918",
     "lsb": 0,
     "msb": 5,
     "wiki_sync": false,
-    "id": "62315"
+    "id": "62315 [quest_halloween26_main_food_burnt]"
   },
   {
     "domain": "PLAYER",
-    "source": "2923 [pre_megagame_bits]",
+    "source": "2923",
     "lsb": 0,
     "msb": 2,
     "wiki_sync": false,
-    "id": "62316"
+    "id": "62316 [quest_halloween26_reward_title_unlocked]"
   },
   {
     "domain": "PLAYER",
-    "source": "2923 [pre_megagame_bits]",
+    "source": "2923",
     "lsb": 3,
     "msb": 5,
     "wiki_sync": false,
-    "id": "62317"
+    "id": "62317 [extra_action_button_blood_knight_boss_encounter_warning]"
   },
   {
     "domain": "PLAYER",
-    "source": "2923 [pre_megagame_bits]",
+    "source": "2923",
     "lsb": 6,
     "msb": 8,
     "wiki_sync": false,
@@ -497281,7 +497281,7 @@
   },
   {
     "domain": "PLAYER",
-    "source": "2923 [pre_megagame_bits]",
+    "source": "2923",
     "lsb": 9,
     "msb": 11,
     "wiki_sync": false,
@@ -497289,403 +497289,403 @@
   },
   {
     "domain": "PLAYER",
-    "source": "2923 [pre_megagame_bits]",
+    "source": "2923",
     "lsb": 12,
     "msb": 14,
     "wiki_sync": false,
-    "id": "62320"
+    "id": "62320 [itemlog_item_havenhythe_hero_painting_piece_1]"
   },
   {
     "domain": "PLAYER",
-    "source": "2923 [pre_megagame_bits]",
+    "source": "2923",
     "lsb": 15,
     "msb": 15,
     "wiki_sync": false,
-    "id": "62321"
+    "id": "62321 [itemlog_item_havenhythe_hero_painting_piece_2]"
   },
   {
     "domain": "PLAYER",
-    "source": "2923 [pre_megagame_bits]",
+    "source": "2923",
     "lsb": 16,
     "msb": 16,
     "wiki_sync": false,
-    "id": "62322"
+    "id": "62322 [itemlog_item_havenhythe_hero_painting_piece_3]"
   },
   {
     "domain": "PLAYER",
-    "source": "2923 [pre_megagame_bits]",
+    "source": "2923",
     "lsb": 17,
     "msb": 17,
     "wiki_sync": false,
-    "id": "62323"
+    "id": "62323 [itemlog_item_havenhythe_hero_painting_piece_4]"
   },
   {
     "domain": "PLAYER",
-    "source": "2923 [pre_megagame_bits]",
+    "source": "2923",
     "lsb": 18,
     "msb": 18,
     "wiki_sync": false,
-    "id": "62324"
+    "id": "62324 [itemlog_item_havenhythe_hero_painting_piece_5]"
   },
   {
     "domain": "PLAYER",
-    "source": "2923 [pre_megagame_bits]",
+    "source": "2923",
     "lsb": 19,
     "msb": 25,
     "wiki_sync": false,
-    "id": "62325"
+    "id": "62325 [itemlog_item_hero_hatchet]"
   },
   {
     "domain": "PLAYER",
-    "source": "2925 [pre_megagame_cooking_ingredients]",
+    "source": "2925",
     "lsb": 0,
     "msb": 4,
     "wiki_sync": false,
-    "id": "62326"
+    "id": "62326 [itemlog_item_fenmoor_fletching_knife]"
   },
   {
     "domain": "PLAYER",
-    "source": "2925 [pre_megagame_cooking_ingredients]",
+    "source": "2925",
     "lsb": 5,
     "msb": 9,
     "wiki_sync": false,
-    "id": "62327"
+    "id": "62327 [itemlog_item_fenmoor_woodcutting_torch]"
   },
   {
     "domain": "PLAYER",
-    "source": "2925 [pre_megagame_cooking_ingredients]",
+    "source": "2925",
     "lsb": 10,
     "msb": 14,
     "wiki_sync": false,
-    "id": "62328"
+    "id": "62328 [itemlog_item_havenhythe_crimson_ichor]"
   },
   {
     "domain": "PLAYER",
-    "source": "2925 [pre_megagame_cooking_ingredients]",
+    "source": "2925",
     "lsb": 15,
     "msb": 19,
     "wiki_sync": false,
-    "id": "62329"
+    "id": "62329 [itemlog_item_nightblood_ring]"
   },
   {
     "domain": "PLAYER",
-    "source": "2921 [megagames_rr_trees]",
+    "source": "2921",
     "lsb": 0,
     "msb": 0,
     "wiki_sync": false,
-    "id": "62330"
+    "id": "62330 [itemlog_item_ranged_ghrazi_crossbow_t95]"
   },
   {
     "domain": "PLAYER",
-    "source": "2921 [megagames_rr_trees]",
+    "source": "2921",
     "lsb": 1,
     "msb": 1,
     "wiki_sync": false,
-    "id": "62331"
+    "id": "62331 [itemlog_item_ranged_ghrazi_crossbow_oh_t95]"
   },
   {
     "domain": "PLAYER",
-    "source": "2921 [megagames_rr_trees]",
+    "source": "2921",
     "lsb": 2,
     "msb": 2,
     "wiki_sync": false,
-    "id": "62332"
+    "id": "62332 [itemlog_item_combatv2_ability_codex_necromancy_invoke_arisen_flesh]"
   },
   {
     "domain": "PLAYER",
-    "source": "2921 [megagames_rr_trees]",
+    "source": "2921",
     "lsb": 3,
     "msb": 3,
     "wiki_sync": false,
-    "id": "62333"
+    "id": "62333 [itemlog_bosses_blood_knight_boss_title]"
   },
   {
     "domain": "PLAYER",
-    "source": "2921 [megagames_rr_trees]",
+    "source": "2921",
     "lsb": 4,
     "msb": 4,
     "wiki_sync": false,
-    "id": "62334"
+    "id": "62334 [mtx162_pumpkin_rest_active]"
   },
   {
     "domain": "PLAYER",
-    "source": "2921 [megagames_rr_trees]",
+    "source": "2921",
     "lsb": 5,
     "msb": 5,
     "wiki_sync": false,
-    "id": "62335"
+    "id": "62335 [mtx162_tasks_completed]"
   },
   {
     "domain": "PLAYER",
-    "source": "2921 [megagames_rr_trees]",
+    "source": "2921",
     "lsb": 6,
     "msb": 6,
     "wiki_sync": false,
-    "id": "62336"
+    "id": "62336 [marketplace_store_bundle_chaotic_house_mega_bundle]"
   },
   {
     "domain": "PLAYER",
-    "source": "2921 [megagames_rr_trees]",
+    "source": "2921",
     "lsb": 7,
     "msb": 7,
     "wiki_sync": false,
-    "id": "62337"
+    "id": "62337 [mtx161_curious_curios_bundle_unlocked]"
   },
   {
     "domain": "PLAYER",
-    "source": "2921 [megagames_rr_trees]",
+    "source": "2921",
     "lsb": 8,
     "msb": 8,
     "wiki_sync": false,
-    "id": "62338"
+    "id": "62338 [mtx161_trick_or_treat_bundle_unlocked]"
   },
   {
     "domain": "PLAYER",
-    "source": "2921 [megagames_rr_trees]",
+    "source": "2921",
     "lsb": 9,
     "msb": 9,
     "wiki_sync": false,
-    "id": "62339"
+    "id": "62339 [mtx161_house_facade_unlocked]"
   },
   {
     "domain": "PLAYER",
-    "source": "13754",
+    "source": "13754 [pre_championship_cooking_ingredients]",
     "lsb": 0,
     "msb": 0,
     "wiki_sync": false,
-    "id": "62340"
+    "id": "62340 [mtx161_gothic_mega_bundle_unlocked]"
   },
   {
     "domain": "PLAYER",
-    "source": "13754",
+    "source": "13754 [pre_championship_cooking_ingredients]",
     "lsb": 1,
     "msb": 1,
     "wiki_sync": false,
-    "id": "62341"
+    "id": "62341 [mtx161_haunted_music_box_unlocked]"
   },
   {
     "domain": "PLAYER",
-    "source": "13754",
+    "source": "13754 [pre_championship_cooking_ingredients]",
     "lsb": 2,
     "msb": 2,
     "wiki_sync": false,
-    "id": "62342"
+    "id": "62342 [mtx161_haunted_portraits_unlocked]"
   },
   {
     "domain": "PLAYER",
-    "source": "2932 [megagames_shop2_base]",
+    "source": "2932",
     "lsb": 0,
     "msb": 0,
     "wiki_sync": false,
-    "id": "62343"
+    "id": "62343 [mtx161_haunted_doll_case_unlocked]"
   },
   {
     "domain": "PLAYER",
-    "source": "2932 [megagames_shop2_base]",
+    "source": "2932",
     "lsb": 1,
     "msb": 1,
     "wiki_sync": false,
-    "id": "62344"
+    "id": "62344 [mtx161_haunted_rocking_unicorn_unlocked]"
   },
   {
     "domain": "PLAYER",
-    "source": "2932 [megagames_shop2_base]",
+    "source": "2932",
     "lsb": 2,
     "msb": 2,
     "wiki_sync": false,
-    "id": "62345"
+    "id": "62345 [mtx161_haunted_urn_unlocked]"
   },
   {
     "domain": "PLAYER",
-    "source": "2932 [megagames_shop2_base]",
+    "source": "2932",
     "lsb": 3,
     "msb": 3,
     "wiki_sync": false,
-    "id": "62346"
+    "id": "62346 [mtx161_spooky_pumpkin_stacks_unlocked]"
   },
   {
     "domain": "PLAYER",
-    "source": "2932 [megagames_shop2_base]",
+    "source": "2932",
     "lsb": 4,
     "msb": 4,
     "wiki_sync": false,
-    "id": "62347"
+    "id": "62347 [mtx161_spooky_ghost_lantern_unlocked]"
   },
   {
     "domain": "PLAYER",
-    "source": "2932 [megagames_shop2_base]",
+    "source": "2932",
     "lsb": 5,
     "msb": 5,
     "wiki_sync": false,
-    "id": "62348"
+    "id": "62348 [mtx161_cobweb_trellis_arches_unlocked]"
   },
   {
     "domain": "PLAYER",
-    "source": "2932 [megagames_shop2_base]",
+    "source": "2932",
     "lsb": 6,
     "msb": 6,
     "wiki_sync": false,
-    "id": "62349"
+    "id": "62349 [mtx161_spooky_cauldrons_unlocked]"
   },
   {
     "domain": "PLAYER",
-    "source": "2932 [megagames_shop2_base]",
+    "source": "2932",
     "lsb": 7,
     "msb": 7,
     "wiki_sync": false,
-    "id": "62350"
+    "id": "62350 [mtx161_spooky_tombstones_unlocked]"
   },
   {
     "domain": "PLAYER",
-    "source": "2932 [megagames_shop2_base]",
+    "source": "2932",
     "lsb": 8,
     "msb": 8,
     "wiki_sync": false,
-    "id": "62351"
+    "id": "62351 [mtx161_spooky_torches_unlocked]"
   },
   {
     "domain": "PLAYER",
-    "source": "2932 [megagames_shop2_base]",
+    "source": "2932",
     "lsb": 9,
     "msb": 9,
     "wiki_sync": false,
-    "id": "62352"
+    "id": "62352 [halloween26_trick_or_treat_witch_hat_unlocked]"
   },
   {
     "domain": "PLAYER",
-    "source": "2932 [megagames_shop2_base]",
+    "source": "2932",
     "lsb": 10,
     "msb": 10,
     "wiki_sync": false,
-    "id": "62353"
+    "id": "62353 [halloween26_trick_or_treat_broom_unlocked]"
   },
   {
     "domain": "PLAYER",
-    "source": "2932 [megagames_shop2_base]",
+    "source": "2932",
     "lsb": 11,
     "msb": 11,
     "wiki_sync": false,
-    "id": "62354"
+    "id": "62354 [halloween26_trick_or_treat_basket_unlocked]"
   },
   {
     "domain": "PLAYER",
-    "source": "2932 [megagames_shop2_base]",
+    "source": "2932",
     "lsb": 12,
     "msb": 12,
     "wiki_sync": false,
-    "id": "62355"
+    "id": "62355 [bpets_blood_knight_boss_unlocked]"
   },
   {
     "domain": "PLAYER",
-    "source": "2932 [megagames_shop2_base]",
+    "source": "2932",
     "lsb": 13,
     "msb": 13,
     "wiki_sync": false,
-    "id": "62356"
+    "id": "62356 [mtx162_deathbringer_outfit_unlocked]"
   },
   {
     "domain": "PLAYER",
-    "source": "2932 [megagames_shop2_base]",
+    "source": "2932",
     "lsb": 14,
     "msb": 14,
     "wiki_sync": false,
-    "id": "62357"
+    "id": "62357 [combatv2_ability_override_magic_asphyxiate_soul_unlocked]"
   },
   {
     "domain": "PLAYER",
-    "source": "2932 [megagames_shop2_base]",
+    "source": "2932",
     "lsb": 15,
     "msb": 15,
     "wiki_sync": false,
-    "id": "62358"
+    "id": "62358 [combatv2_ability_override_magic_wild_magic_soul_unlocked]"
   },
   {
     "domain": "PLAYER",
-    "source": "2932 [megagames_shop2_base]",
+    "source": "2932",
     "lsb": 16,
     "msb": 16,
     "wiki_sync": false,
-    "id": "62359"
+    "id": "62359 [combatv2_ability_override_magic_runic_charge_soul_unlocked]"
   },
   {
     "domain": "PLAYER",
-    "source": "2932 [megagames_shop2_base]",
+    "source": "2932",
     "lsb": 17,
     "msb": 17,
     "wiki_sync": false,
-    "id": "62360"
+    "id": "62360 [combatv2_ability_override_magic_combust_soul_unlocked]"
   },
   {
     "domain": "PLAYER",
-    "source": "2932 [megagames_shop2_base]",
+    "source": "2932",
     "lsb": 18,
     "msb": 18,
     "wiki_sync": false,
-    "id": "62361"
+    "id": "62361 [combatv2_ability_override_magic_omnipower_soul_unlocked]"
   },
   {
     "domain": "PLAYER",
-    "source": "2932 [megagames_shop2_base]",
+    "source": "2932",
     "lsb": 19,
     "msb": 19,
     "wiki_sync": false,
-    "id": "62362"
+    "id": "62362 [mtx162_headless_rider_pet_unlocked]"
   },
   {
     "domain": "PLAYER",
-    "source": "2932 [megagames_shop2_base]",
+    "source": "2932",
     "lsb": 20,
     "msb": 20,
     "wiki_sync": false,
-    "id": "62363"
+    "id": "62363 [mtx162_pumpkin_rest_unlocked]"
   },
   {
     "domain": "PLAYER",
-    "source": "2932 [megagames_shop2_base]",
+    "source": "2932",
     "lsb": 21,
     "msb": 21,
     "wiki_sync": false,
-    "id": "62364"
+    "id": "62364 [mtx162_witch_hat_1_unlocked]"
   },
   {
     "domain": "PLAYER",
-    "source": "2932 [megagames_shop2_base]",
+    "source": "2932",
     "lsb": 22,
     "msb": 22,
     "wiki_sync": false,
-    "id": "62365"
+    "id": "62365 [mtx162_witch_hat_2_unlocked]"
   },
   {
     "domain": "PLAYER",
-    "source": "2932 [megagames_shop2_base]",
+    "source": "2932",
     "lsb": 23,
     "msb": 23,
     "wiki_sync": false,
-    "id": "62366"
+    "id": "62366 [mtx162_witch_broom_1_unlocked]"
   },
   {
     "domain": "PLAYER",
-    "source": "2932 [megagames_shop2_base]",
+    "source": "2932",
     "lsb": 24,
     "msb": 24,
     "wiki_sync": false,
-    "id": "62367"
+    "id": "62367 [mtx162_witch_broom_2_unlocked]"
   },
   {
     "domain": "PLAYER",
-    "source": "2932 [megagames_shop2_base]",
+    "source": "2932",
     "lsb": 25,
     "msb": 25,
     "wiki_sync": false,
-    "id": "62368"
+    "id": "62368 [mtx162_deathbringer_pet_unlocked]"
   },
   {
     "domain": "PLAYER",
-    "source": "2932 [megagames_shop2_base]",
+    "source": "2932",
     "lsb": 26,
     "msb": 31,
     "wiki_sync": false,
-    "id": "62369"
+    "id": "62369 [mtx162_deathbringer_scythe_unlocked]"
   },
   {
     "domain": "CONTROLLER",

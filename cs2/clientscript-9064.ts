@@ -1,6 +1,6 @@
 //
 function script9064(): void {
-    IF_SETHIDE(true, comp(744, 309));  // loginscreen:com_309
+    IF_SETHIDE(true, comp(744, 309));  // loginscreen:recovery_layer
     if ((IF_SET2DANGLE() == 1)) {
         script15660();
     };

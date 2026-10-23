@@ -11517,23 +11517,23 @@
   },
   {
     "domain": "PLAYER",
-    "id": "2911 [megagames_xp_limit]"
+    "id": "2911"
   },
   {
     "domain": "PLAYER",
-    "id": "2912 [megagames_xp_limit_2]"
+    "id": "2912"
   },
   {
     "domain": "PLAYER",
-    "id": "2913 [megagames_xp_limit_3]"
+    "id": "2913"
   },
   {
     "domain": "PLAYER",
-    "id": "2914 [megagames_xp_limit_4]"
+    "id": "2914"
   },
   {
     "domain": "PLAYER",
-    "id": "2915 [megagames_ring_limit]"
+    "id": "2915"
   },
   {
     "domain": "PLAYER",
@@ -11545,7 +11545,7 @@
   },
   {
     "domain": "PLAYER",
-    "id": "2918 [megagames_marathon_varp]"
+    "id": "2918"
   },
   {
     "domain": "PLAYER",
@@ -11557,51 +11557,51 @@
   },
   {
     "domain": "PLAYER",
-    "id": "2921 [megagames_rr_trees]"
+    "id": "2921"
   },
   {
     "domain": "PLAYER",
-    "id": "2922 [megagames_rr_bestscore]"
+    "id": "2922"
   },
   {
     "domain": "PLAYER",
-    "id": "2923 [pre_megagame_bits]"
+    "id": "2923"
   },
   {
     "domain": "PLAYER",
-    "id": "2924 [megagames_points]"
+    "id": "2924"
   },
   {
     "domain": "PLAYER",
-    "id": "2925 [pre_megagame_cooking_ingredients]"
+    "id": "2925"
   },
   {
     "domain": "PLAYER",
-    "id": "2926 [megagames_athletics_score]"
+    "id": "2926"
   },
   {
     "domain": "PLAYER",
-    "id": "2927 [megagames_athletics]"
+    "id": "2927"
   },
   {
     "domain": "PLAYER",
-    "id": "2928 [megagames_card_tracker_1]"
+    "id": "2928"
   },
   {
     "domain": "PLAYER",
-    "id": "2929 [megagames_card_tracker_2]"
+    "id": "2929"
   },
   {
     "domain": "PLAYER",
-    "id": "2930 [megagames_card_tracker_3]"
+    "id": "2930"
   },
   {
     "domain": "PLAYER",
-    "id": "2931 [megagames_cards_held]"
+    "id": "2931"
   },
   {
     "domain": "PLAYER",
-    "id": "2932 [megagames_shop2_base]"
+    "id": "2932"
   },
   {
     "domain": "PLAYER",
@@ -53529,243 +53529,243 @@
   },
   {
     "domain": "PLAYER",
-    "id": "13659"
+    "id": "13659 [egwd_time_warp_cooldown_constitution_vampyre_slayer_progress]"
   },
   {
     "domain": "PLAYER",
-    "id": "13660"
+    "id": "13660 [egwd_time_warp_cooldown_constitution_vital_drain_progress]"
   },
   {
     "domain": "PLAYER",
-    "id": "13661"
+    "id": "13661 [egwd_time_warp_cooldown_magic_sanguine_offering_progress]"
   },
   {
     "domain": "PLAYER",
-    "id": "13662"
+    "id": "13662 [fenmoor_woodcutting_petrified_tree_1]"
   },
   {
     "domain": "PLAYER",
-    "id": "13663"
+    "id": "13663 [fenmoor_woodcutting_petrified_tree_2]"
   },
   {
     "domain": "PLAYER",
-    "id": "13664"
+    "id": "13664 [fenmoor_woodcutting_petrified_tree_3]"
   },
   {
     "domain": "PLAYER",
-    "id": "13665"
+    "id": "13665 [fenmoor_woodcutting_petrified_tree_4]"
   },
   {
     "domain": "PLAYER",
-    "id": "13666"
+    "id": "13666 [fenmoor_woodcutting_petrified_tree_5]"
   },
   {
     "domain": "PLAYER",
-    "id": "13667"
+    "id": "13667 [fenmoor_woodcutting_petrified_tree_6]"
   },
   {
     "domain": "PLAYER",
-    "id": "13668"
+    "id": "13668 [fenmoor_woodcutting_braziers]"
   },
   {
     "domain": "PLAYER",
-    "id": "13669"
+    "id": "13669 [fenmoor_woodcutting_active_brazier]"
   },
   {
     "domain": "PLAYER",
-    "id": "13670"
+    "id": "13670 [fenmoor_fletching_totem_1]"
   },
   {
     "domain": "PLAYER",
-    "id": "13671"
+    "id": "13671 [fenmoor_fletching_totem_2]"
   },
   {
     "domain": "PLAYER",
-    "id": "13672"
+    "id": "13672 [fenmoor_fletching_totem_3]"
   },
   {
     "domain": "PLAYER",
-    "id": "13673"
+    "id": "13673 [fenmoor_fletching_totem_store]"
   },
   {
     "domain": "PLAYER",
-    "id": "13674"
+    "id": "13674 [fenmoor_tutorial_state]"
   },
   {
     "domain": "PLAYER",
-    "id": "13675"
+    "id": "13675 [colossi_divination_main]"
   },
   {
     "domain": "PLAYER",
-    "id": "13676"
+    "id": "13676 [colossi_divination_main_2]"
   },
   {
     "domain": "PLAYER",
-    "id": "13677"
+    "id": "13677 [colossi_divination_main_3]"
   },
   {
     "domain": "PLAYER",
-    "id": "13678"
+    "id": "13678 [wild_essence_mine_perm_1]"
   },
   {
     "domain": "PLAYER",
-    "id": "13679"
+    "id": "13679 [wild_essence_mine_perm_2]"
   },
   {
     "domain": "PLAYER",
-    "id": "13680"
+    "id": "13680 [wild_essence_mine_perm_3]"
   },
   {
     "domain": "PLAYER",
-    "id": "13681"
+    "id": "13681 [wild_essence_mine_perm_4]"
   },
   {
     "domain": "PLAYER",
-    "id": "13682"
+    "id": "13682 [wild_essence_mine_perm_5]"
   },
   {
     "domain": "PLAYER",
-    "id": "13683"
+    "id": "13683 [wild_essence_mine_perm_6]"
   },
   {
     "domain": "PLAYER",
-    "id": "13684"
+    "id": "13684 [wild_essence_mine_perm_7]"
   },
   {
     "domain": "PLAYER",
-    "id": "13685"
+    "id": "13685 [wild_essence_mine_perm_8]"
   },
   {
     "domain": "PLAYER",
-    "id": "13686"
+    "id": "13686 [wild_essence_mine_cracked_achievement]"
   },
   {
     "domain": "PLAYER",
-    "id": "13687"
+    "id": "13687 [moonsylvar_perm_1]"
   },
   {
     "domain": "PLAYER",
-    "id": "13688"
+    "id": "13688 [moonsylvar_perm_2]"
   },
   {
     "domain": "PLAYER",
-    "id": "13689"
+    "id": "13689 [moonsylvar_temp_1]"
   },
   {
     "domain": "PLAYER",
-    "id": "13690"
+    "id": "13690 [blood_knight_boss_varp_1]"
   },
   {
     "domain": "PLAYER",
-    "id": "13691"
+    "id": "13691 [boss_instance_blood_knight_boss_encounter_enrage]"
   },
   {
     "domain": "PLAYER",
-    "id": "13692"
+    "id": "13692 [blood_knight_boss_varp_temp_1]"
   },
   {
     "domain": "PLAYER",
-    "id": "13693"
+    "id": "13693 [blood_knight_boss_minion_tumours_alive]"
   },
   {
     "domain": "PLAYER",
-    "id": "13694"
+    "id": "13694 [blood_knight_boss_buff_temp_enrage]"
   },
   {
     "domain": "PLAYER",
-    "id": "13695"
+    "id": "13695 [blood_knight_boss_debuff_heartbroken_stacks]"
   },
   {
     "domain": "PLAYER",
-    "id": "13696"
+    "id": "13696 [combatv2_debuff_blood_knight_boss_encounter_exsanguinated_stacks]"
   },
   {
     "domain": "PLAYER",
-    "id": "13697"
+    "id": "13697 [combatv2_debuff_blood_knight_boss_encounter_lord_ghrazi_antitank_stacks]"
   },
   {
     "domain": "PLAYER",
-    "id": "13698"
+    "id": "13698 [combatv2_debuff_blood_knight_boss_encounter_lady_ghrazi_antitank_stacks]"
   },
   {
     "domain": "PLAYER",
-    "id": "13699"
+    "id": "13699 [combatv2_buff_blood_knight_boss_encounter_close_formation]"
   },
   {
     "domain": "PLAYER",
-    "id": "13700"
+    "id": "13700 [halloween26_perm_1]"
   },
   {
     "domain": "PLAYER",
-    "id": "13701"
+    "id": "13701 [halloween26_perm_2]"
   },
   {
     "domain": "PLAYER",
-    "id": "13702"
+    "id": "13702 [quest_halloween26_basevar1]"
   },
   {
     "domain": "PLAYER",
-    "id": "13703"
+    "id": "13703 [cheevo_eat_fish_var_2]"
   },
   {
     "domain": "PLAYER",
-    "id": "13704"
+    "id": "13704 [itemlog_tracking347]"
   },
   {
     "domain": "PLAYER",
-    "id": "13705"
+    "id": "13705 [itemlog_tracking348]"
   },
   {
     "domain": "PLAYER",
-    "id": "13706"
+    "id": "13706 [itemlog_tracking349]"
   },
   {
     "domain": "PLAYER",
-    "id": "13707"
+    "id": "13707 [itemlog_tracking350]"
   },
   {
     "domain": "PLAYER",
-    "id": "13708"
+    "id": "13708 [mtx162_var]"
   },
   {
     "domain": "PLAYER",
-    "id": "13709"
+    "id": "13709 [mtxmgt_unlock_bitset_78]"
   },
   {
     "domain": "PLAYER",
-    "id": "13710"
+    "id": "13710 [quest_charos_trail_reward_easy_casket_halloween]"
   },
   {
     "domain": "PLAYER",
-    "id": "13711"
+    "id": "13711 [quest_charos_trail_reward_medium_casket_halloween]"
   },
   {
     "domain": "PLAYER",
-    "id": "13712"
+    "id": "13712 [quest_charos_trail_reward_hard_casket_halloween]"
   },
   {
     "domain": "PLAYER",
-    "id": "13713"
+    "id": "13713 [quest_charos_trail_reward_elite_casket_halloween]"
   },
   {
     "domain": "PLAYER",
-    "id": "13714"
+    "id": "13714 [quest_charos_trail_reward_master_casket_halloween]"
   },
   {
     "domain": "PLAYER",
-    "id": "13715"
+    "id": "13715 [quest_wendle_heralds_basevar1]"
   },
   {
     "domain": "PLAYER",
-    "id": "13716"
+    "id": "13716 [quest_wendle_heralds_basevar2]"
   },
   {
     "domain": "PLAYER",
-    "id": "13717"
+    "id": "13717 [quest_wendle_heralds_basevar3]"
   },
   {
     "domain": "PLAYER",
-    "id": "13718"
+    "id": "13718 [quest_wendle_heralds_tempvar1]"
   },
   {
     "domain": "PLAYER",
@@ -53789,99 +53789,99 @@
   },
   {
     "domain": "PLAYER",
-    "id": "13724"
+    "id": "13724 [combatv2_buff_vampyre_slayer_active]"
   },
   {
     "domain": "PLAYER",
-    "id": "13726"
+    "id": "13726 [combatv2_debuff_isolated_active]"
   },
   {
     "domain": "PLAYER",
-    "id": "13727"
+    "id": "13727 [combatv2_cooldown_necromancy_invoke_arisen_flesh_start]"
   },
   {
     "domain": "PLAYER",
-    "id": "13728"
+    "id": "13728 [combatv2_cooldown_necromancy_invoke_arisen_flesh_end]"
   },
   {
     "domain": "PLAYER",
-    "id": "13729"
+    "id": "13729 [combatv2_buff_necromancy_invoke_arisen_flesh_active]"
   },
   {
     "domain": "PLAYER",
-    "id": "13730"
+    "id": "13730 [combatv2_buff_ranged_ghrazi_t95_bonus_damage_active]"
   },
   {
     "domain": "PLAYER",
-    "id": "13731"
+    "id": "13731 [combatv2_ability_unlocked_2]"
   },
   {
     "domain": "PLAYER",
-    "id": "13732"
+    "id": "13732 [combatv2_innate_mastery_unlocked_2]"
   },
   {
     "domain": "PLAYER",
-    "id": "13733"
+    "id": "13733 [mining_parent_damage_20]"
   },
   {
     "domain": "PLAYER",
-    "id": "13734"
+    "id": "13734 [mining_parent_damage_21]"
   },
   {
     "domain": "PLAYER",
-    "id": "13735"
+    "id": "13735 [sanguine_werewolf_bleed_stacks]"
   },
   {
     "domain": "PLAYER",
-    "id": "13736"
+    "id": "13736 [sanguine_werewolf_bleed_duration]"
   },
   {
     "domain": "PLAYER",
-    "id": "13737"
+    "id": "13737 [boss_instance_scores_44]"
   },
   {
     "domain": "PLAYER",
-    "id": "13738"
+    "id": "13738 [championships_athletics_score]"
   },
   {
     "domain": "PLAYER",
-    "id": "13739"
+    "id": "13739 [championships_athletics]"
   },
   {
     "domain": "PLAYER",
-    "id": "13740"
+    "id": "13740 [championships_card_tracker_1]"
   },
   {
     "domain": "PLAYER",
-    "id": "13741"
+    "id": "13741 [championships_card_tracker_2]"
   },
   {
     "domain": "PLAYER",
-    "id": "13742"
+    "id": "13742 [championships_card_tracker_3]"
   },
   {
     "domain": "PLAYER",
-    "id": "13743"
+    "id": "13743 [championships_cards_held]"
   },
   {
     "domain": "PLAYER",
-    "id": "13744"
+    "id": "13744 [championships_xp_limit]"
   },
   {
     "domain": "PLAYER",
-    "id": "13745"
+    "id": "13745 [championships_xp_limit_2]"
   },
   {
     "domain": "PLAYER",
-    "id": "13746"
+    "id": "13746 [championships_xp_limit_3]"
   },
   {
     "domain": "PLAYER",
-    "id": "13748"
+    "id": "13748 [championships_ring_limit]"
   },
   {
     "domain": "PLAYER",
-    "id": "13749"
+    "id": "13749 [championships_marathon_varp]"
   },
   {
     "domain": "PLAYER",
@@ -53893,15 +53893,15 @@
   },
   {
     "domain": "PLAYER",
-    "id": "13752"
+    "id": "13752 [pre_championship_bits]"
   },
   {
     "domain": "PLAYER",
-    "id": "13753"
+    "id": "13753 [championships_points]"
   },
   {
     "domain": "PLAYER",
-    "id": "13754"
+    "id": "13754 [pre_championship_cooking_ingredients]"
   },
   {
     "domain": "NPC",
@@ -88933,155 +88933,155 @@
   },
   {
     "domain": "CLIENT",
-    "id": "8516"
+    "id": "8516 [combatv2_debuff_blood_knight_boss_encounter_sanguine_strike_end_client]"
   },
   {
     "domain": "CLIENT",
-    "id": "8517"
+    "id": "8517 [combatv2_debuff_blood_knight_boss_encounter_heartbroken_end_client]"
   },
   {
     "domain": "CLIENT",
-    "id": "8518"
+    "id": "8518 [blood_knight_boss_encounter_current_health_client]"
   },
   {
     "domain": "CLIENT",
-    "id": "8519"
+    "id": "8519 [plugin_hub_gle_action_count]"
   },
   {
     "domain": "CLIENT",
-    "id": "8520"
+    "id": "8520 [plugin_hub_gle_open_clientclock]"
   },
   {
     "domain": "CLIENT",
-    "id": "8521"
+    "id": "8521 [championships_varc_condition_1_blue]"
   },
   {
     "domain": "CLIENT",
-    "id": "8522"
+    "id": "8522 [championships_varc_condition_2_blue]"
   },
   {
     "domain": "CLIENT",
-    "id": "8523"
+    "id": "8523 [championships_varc_condition_3_blue]"
   },
   {
     "domain": "CLIENT",
-    "id": "8524"
+    "id": "8524 [championships_varc_struggling_blue]"
   },
   {
     "domain": "CLIENT",
-    "id": "8525"
+    "id": "8525 [championships_varc_condition_1_gold]"
   },
   {
     "domain": "CLIENT",
-    "id": "8526"
+    "id": "8526 [championships_varc_condition_2_gold]"
   },
   {
     "domain": "CLIENT",
-    "id": "8527"
+    "id": "8527 [championships_varc_condition_3_gold]"
   },
   {
     "domain": "CLIENT",
-    "id": "8528"
+    "id": "8528 [championships_varc_struggling_gold]"
   },
   {
     "domain": "CLIENT",
-    "id": "8529"
+    "id": "8529 [championships_varc_condition_1_black]"
   },
   {
     "domain": "CLIENT",
-    "id": "8530"
+    "id": "8530 [championships_varc_condition_2_black]"
   },
   {
     "domain": "CLIENT",
-    "id": "8531"
+    "id": "8531 [championships_varc_condition_3_black]"
   },
   {
     "domain": "CLIENT",
-    "id": "8532"
+    "id": "8532 [championships_varc_struggling_black]"
   },
   {
     "domain": "CLIENT",
-    "id": "8533"
+    "id": "8533 [championships_varc_condition_1_green]"
   },
   {
     "domain": "CLIENT",
-    "id": "8534"
+    "id": "8534 [championships_varc_condition_2_green]"
   },
   {
     "domain": "CLIENT",
-    "id": "8535"
+    "id": "8535 [championships_varc_condition_3_green]"
   },
   {
     "domain": "CLIENT",
-    "id": "8536"
+    "id": "8536 [championships_varc_struggling_green]"
   },
   {
     "domain": "CLIENT",
-    "id": "8537"
+    "id": "8537 [championships_varc_condition_1_red]"
   },
   {
     "domain": "CLIENT",
-    "id": "8538"
+    "id": "8538 [championships_varc_condition_2_red]"
   },
   {
     "domain": "CLIENT",
-    "id": "8539"
+    "id": "8539 [championships_varc_condition_3_red]"
   },
   {
     "domain": "CLIENT",
-    "id": "8540"
+    "id": "8540 [championships_varc_struggling_red]"
   },
   {
     "domain": "CLIENT",
-    "id": "8541"
+    "id": "8541 [combatv2_cooldown_constitution_vampyre_slayer_start_client]"
   },
   {
     "domain": "CLIENT",
-    "id": "8542"
+    "id": "8542 [combatv2_cooldown_constitution_vampyre_slayer_end_client]"
   },
   {
     "domain": "CLIENT",
-    "id": "8543"
+    "id": "8543 [combatv2_cooldown_constitution_vital_drain_start_client]"
   },
   {
     "domain": "CLIENT",
-    "id": "8544"
+    "id": "8544 [combatv2_cooldown_constitution_vital_drain_end_client]"
   },
   {
     "domain": "CLIENT",
-    "id": "8545"
+    "id": "8545 [combatv2_cooldown_magic_sanguine_offering_start_client]"
   },
   {
     "domain": "CLIENT",
-    "id": "8546"
+    "id": "8546 [combatv2_cooldown_magic_sanguine_offering_end_client]"
   },
   {
     "domain": "CLIENT",
-    "id": "8547"
+    "id": "8547 [sanguine_werewolf_bleed_debuff_end_client]"
   },
   {
     "domain": "CLIENT",
-    "id": "8548"
+    "id": "8548 [combatv2_buff_vampyre_slayer_end_effect_client]"
   },
   {
     "domain": "CLIENT",
-    "id": "8549"
+    "id": "8549 [combatv2_buff_vital_drain_end_effect_client]"
   },
   {
     "domain": "CLIENT",
-    "id": "8550"
+    "id": "8550 [combatv2_cooldown_weapon_ranged_ghrazi_crossbow_t95_end_client]"
   },
   {
     "domain": "CLIENT",
-    "id": "8551"
+    "id": "8551 [combatv2_buff_ranged_ghrazi_t95_bonus_damage_end_client]"
   },
   {
     "domain": "CLIENT",
-    "id": "8552"
+    "id": "8552 [combatv2_cooldown_necromancy_invoke_arisen_flesh_start_client]"
   },
   {
     "domain": "CLIENT",
-    "id": "8553"
+    "id": "8553 [combatv2_cooldown_necromancy_invoke_arisen_flesh_end_client]"
   },
   {
     "domain": "WORLD",

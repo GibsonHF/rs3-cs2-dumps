@@ -77,13 +77,13 @@ function script2045(int0: number, int1: number, int2: number, int3: number, int4
             CC_DELETEALL(comp(1422, 28));  // worldmap_v2_ui:upsell8
             CC_DELETEALL(comp(1422, 29));  // worldmap_v2_ui:upsell9
             CC_DELETEALL(comp(1422, 30));  // worldmap_v2_ui:upsell10
-            CC_DELETEALL(comp(1422, 31));  // worldmap_v2_ui:newcontent_upsell0
+            CC_DELETEALL(comp(1422, 31));  // worldmap_v2_ui:upsell11
         };
     };
     if ((WORLDMAP_GETCURRENTMAP() == 28)) {
         script9331(93192224, script13350(), int0, int10, int11, int12, int13);
     } else {
-        CC_DELETEALL(comp(1422, 32));  // worldmap_v2_ui:fps
+        CC_DELETEALL(comp(1422, 32));  // worldmap_v2_ui:newcontent_upsell0
     };
     return;
 }

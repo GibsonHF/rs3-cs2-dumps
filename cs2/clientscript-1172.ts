@@ -71,7 +71,7 @@ function script1172(): void {
         IF_SETHIDE(true, comp(744, 221));  // loginscreen:desktop_settings
         IF_SETHIDE(false, comp(744, 31));  // loginscreen:mobile_settings_button_layer
         IF_SETHIDE(true, comp(744, 35));  // loginscreen:desktop_settings_button_layer
-        IF_SETHIDE(false, comp(744, 348));  // loginscreen:options_firstrun
+        IF_SETHIDE(false, comp(744, 348));  // loginscreen:language_dropdown
     } else {
         IF_SETSIZE(0, 0, 1, 1, comp(744, 29));  // loginscreen:left_hand_panel
         IF_SETSIZE(0, 0, 1, 1, comp(744, 39));  // loginscreen:right_hand_panel
@@ -98,7 +98,7 @@ function script1172(): void {
         IF_SETHIDE(true, comp(744, 205));  // loginscreen:mobile_settings
         IF_SETHIDE(true, comp(744, 31));  // loginscreen:mobile_settings_button_layer
         IF_SETHIDE(false, comp(744, 35));  // loginscreen:desktop_settings_button_layer
-        IF_SETHIDE(true, comp(744, 348));  // loginscreen:options_firstrun
+        IF_SETHIDE(true, comp(744, 348));  // loginscreen:language_dropdown
     };
     varclient_6712 = 1;
     var int0 = 0;
