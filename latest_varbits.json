@@ -118025,6 +118025,126 @@
   },
   {
     "domain": "PLAYER",
+    "source": "13755 [championships_rr_trees]",
+    "lsb": 0,
+    "msb": 14,
+    "wiki_sync": false,
+    "id": "14753"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "13682 [wild_essence_mine_perm_5]",
+    "lsb": 10,
+    "msb": 19,
+    "wiki_sync": false,
+    "id": "14754"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "13682 [wild_essence_mine_perm_5]",
+    "lsb": 8,
+    "msb": 8,
+    "wiki_sync": false,
+    "id": "14755"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "13682 [wild_essence_mine_perm_5]",
+    "lsb": 9,
+    "msb": 9,
+    "wiki_sync": false,
+    "id": "14756"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "13428 [construction_house_furniture_recipe_unlocks_2]",
+    "lsb": 31,
+    "msb": 31,
+    "wiki_sync": false,
+    "id": "14757"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "13756 [championships_rr_bestscore]",
+    "lsb": 0,
+    "msb": 0,
+    "wiki_sync": false,
+    "id": "14758"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "13756 [championships_rr_bestscore]",
+    "lsb": 1,
+    "msb": 1,
+    "wiki_sync": false,
+    "id": "14759"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "13756 [championships_rr_bestscore]",
+    "lsb": 2,
+    "msb": 2,
+    "wiki_sync": false,
+    "id": "14760"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "13756 [championships_rr_bestscore]",
+    "lsb": 3,
+    "msb": 3,
+    "wiki_sync": false,
+    "id": "14761"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "13756 [championships_rr_bestscore]",
+    "lsb": 4,
+    "msb": 4,
+    "wiki_sync": false,
+    "id": "14762"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "13756 [championships_rr_bestscore]",
+    "lsb": 5,
+    "msb": 5,
+    "wiki_sync": false,
+    "id": "14763"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "13756 [championships_rr_bestscore]",
+    "lsb": 6,
+    "msb": 6,
+    "wiki_sync": false,
+    "id": "14764"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "13756 [championships_rr_bestscore]",
+    "lsb": 7,
+    "msb": 7,
+    "wiki_sync": false,
+    "id": "14765"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "13757 [championships_shop_bits]",
+    "lsb": 0,
+    "msb": 15,
+    "wiki_sync": false,
+    "id": "14766"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "13758 [championships_shop2_base]",
+    "lsb": 0,
+    "msb": 0,
+    "wiki_sync": false,
+    "id": "14767"
+  },
+  {
+    "domain": "PLAYER",
     "source": "2934 [hw06_extra_var]",
     "lsb": 5,
     "msb": 8,

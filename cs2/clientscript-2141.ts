@@ -360,6 +360,7 @@ function script2141(int0: number, int1: number, int2: number, int3: number, int4
             break;
         }
         case 47: {
+            stack(0);
             script21136();
             break;
         }

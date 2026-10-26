@@ -12,6 +12,7 @@ function script21133(): void {
     stack("ii");
     stack(106364930);
     unk11383();
+    stack(1);
     script21136();
     return;
 }

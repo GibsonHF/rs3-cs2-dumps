@@ -555056,6 +555056,43 @@
 		"scaleY": 32
 	},
 	{
+		"action_cursors": [
+			44,
+			null,
+			null,
+			null,
+			null,
+			null
+		],
+		"actions": [
+			"Talk to",
+			null,
+			null,
+			"Shop",
+			null
+		],
+		"animation_group": 4921,
+		"boundSize": 1,
+		"combat": 0,
+		"headModels": [
+			145928,
+			145894,
+			145899
+		],
+		"id": 15638,
+		"models": [
+			145927,
+			145893,
+			145899,
+			145918,
+			145914,
+			145905
+		],
+		"movementCapabilities": 1,
+		"name": "Sneechbelly",
+		"respawnDirection": 2
+	},
+	{
 		"alwaysontop": true,
 		"ambience": 20,
 		"animation_group": 2557,
@@ -790600,7 +790637,7 @@
 			"Talk to",
 			null,
 			null,
-			null,
+			"Shop",
 			null
 		],
 		"animation_group": 4921,
@@ -1118044,6 +1118081,7 @@
 		},
 		"combat": 500,
 		"extra": {
+			"combatv2_attackmod": 13, // 2836 chisel:weakness_class
 			"combatv2_player_hiteffect": 1 // 2838
 		},
 		"id": 32913,
@@ -1118065,6 +1118103,7 @@
 		"boundSize": 3,
 		"combat": 2134,
 		"extra": {
+			"combatv2_attackmod": 13, // 2836 chisel:weakness_class
 			"combatv2_player_hiteffect": 1, // 2838
 			"combatv2_weakness": 0, // 2848 chisel:weakness
 			"combatv2_defence_weakclass": 60, // 2850 chisel:weakness_modifier_weak
@@ -1118081,7 +1118120,8 @@
 		],
 		"movementCapabilities": 1,
 		"name": "Sanguine heart",
-		"priorityoffset": 6
+		"priorityoffset": 6,
+		"turnspeed": 0
 	},
 	{
 		"actions": [
@@ -1118096,6 +1118136,7 @@
 		"boundSize": 3,
 		"combat": 2134,
 		"extra": {
+			"combatv2_attackmod": 13, // 2836 chisel:weakness_class
 			"combatv2_player_hiteffect": 1, // 2838
 			"combatv2_weakness": 0, // 2848 chisel:weakness
 			"combatv2_defence_weakclass": 60, // 2850 chisel:weakness_modifier_weak
@@ -1118112,7 +1118153,8 @@
 		],
 		"movementCapabilities": 1,
 		"name": "Sanguine heart",
-		"priorityoffset": 6
+		"priorityoffset": 6,
+		"turnspeed": 0
 	},
 	{
 		"animation_group": 4908,

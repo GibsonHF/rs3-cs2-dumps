@@ -2580999,7 +2580999,7 @@
 			"destroyondrop": 1, // 31 chisel:death_flag_2
 			"no_alchemy": 1, // 689 chisel:is_crystal_mattock
 			"protect_on_death": 2, // 1397 chisel:unknown_clue_scroll_boolean
-			"destroyondrop_mes": "#If you destroy this item you cannot reclaim it and will have to obtain another." // 5417 chisel:destroy_msg
+			"destroyondrop_mes": "If you destroy this item you cannot reclaim it and will have to obtain another." // 5417 chisel:destroy_msg
 		},
 		"ground_actions_cursor": [
 			null,
@@ -2582358,6 +2582358,7 @@
 			"ge_category": 35, // 2195
 			"combatv2_sheath_model": 146066, // 2820 chisel:sheathed_weapon_model
 			"combatv2_item_effect_struct": 53452, // 6186 chisel:hover_text_id
+			"combatv2_held_allow_bladed_dive": 1, // 8569 chisel:is_tavia_rod
 			"collection_tracking_var": 16839302, // 8994
 			"collection_tracking_max": 50, // 8995
 			"collection_tracking_quickchat": 3047, // 8996
@@ -2582430,6 +2582431,7 @@
 			"ge_category": 35, // 2195
 			"combatv2_sheath_model": 146076, // 2820 chisel:sheathed_weapon_model
 			"combatv2_item_effect_struct": 53453, // 6186 chisel:hover_text_id
+			"combatv2_held_allow_bladed_dive": 1, // 8569 chisel:is_tavia_rod
 			"collection_tracking_var": 16839303, // 8994
 			"collection_tracking_max": 50, // 8995
 			"collection_tracking_quickchat": 3048 // 8996
@@ -2593272,6 +2593274,3088 @@
 		"bindLink": 64274,
 		"bindTemplate": 20930,
 		"id": 64275,
+		"stackableSometimes": true
+	},
+	{
+		"Members": true,
+		"ambiance": -25,
+		"baseModel": 146256,
+		"colours": {
+			"6707": 3365,
+			"7952": 2334
+		},
+		"extra": {
+			"ge_category": 4 // 2195
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64276,
+		"modelTranslate": [
+			65516,
+			null
+		],
+		"name": "'Perfect' petrified log.",
+		"rotation": [
+			null,
+			162,
+			120
+		],
+		"scale": [
+			16,
+			16,
+			16
+		],
+		"stackableSometimes": true,
+		"value": 150000,
+		"zoom": 1500
+	},
+	{
+		"baseModel": 0,
+		"id": 64277,
+		"noteData": 64276,
+		"noteTemplate": 799,
+		"stackableSometimes": true
+	},
+	{
+		"Members": true,
+		"ambiance": 64,
+		"baseModel": 146067,
+		"extra": {
+			"ge_category": 4 // 2195
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64278,
+		"modelTranslate": [
+			3,
+			1
+		],
+		"name": "Bogolin glow orb",
+		"rotation": [
+			null,
+			35,
+			332
+		],
+		"scale": [
+			32,
+			32,
+			32
+		],
+		"stackableSometimes": true,
+		"value": 70000,
+		"zoom": 600
+	},
+	{
+		"baseModel": 0,
+		"id": 64279,
+		"noteData": 64278,
+		"noteTemplate": 799,
+		"stackableSometimes": true
+	},
+	{
+		"Members": true,
+		"baseModel": 9832,
+		"colours": {
+			"4524": 24,
+			"4536": 36,
+			"4553": 18,
+			"4625": 23500,
+			"4632": 21438,
+			"4635": 22468,
+			"4641": 43,
+			"4656": 50,
+			"4673": 30
+		},
+		"extra": {
+			"ge_category": 4 // 2195
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64280,
+		"name": "Hardened knot",
+		"rotation": [
+			null,
+			500,
+			83
+		],
+		"stackableSometimes": true,
+		"value": 70000,
+		"zoom": 1200
+	},
+	{
+		"baseModel": 0,
+		"id": 64281,
+		"noteData": 64280,
+		"noteTemplate": 799,
+		"stackableSometimes": true
+	},
+	{
+		"Members": true,
+		"baseModel": 146259,
+		"category": 5769,
+		"extra": {
+			"levelrequire": 64, // 23 chisel:item_tier
+			"destroyondrop": 1, // 31 chisel:death_flag_2
+			"protect_on_death": 1, // 1397 chisel:unknown_clue_scroll_boolean
+			"recipe_requirement_type_1": 22, // 2640 chisel:create_requirement_type_1
+			"recipe_requirement_type_2": 67, // 2641 chisel:create_requirement_type_2
+			"recipe_requirement_value_1": 64, // 2645 chisel:create_requirement_value_1
+			"recipe_tool_type_1": 2347, // 2650 chisel:create_requirement_tool_1
+			"recipe_tool_type_2": 8794, // 2651 chisel:create_requirement_tool_2
+			"recipe_ingredient_type_1": 64276, // 2655 chisel:craft_item_1
+			"recipe_ingredient_type_2": 8780, // 2656 chisel:craft_item_2
+			"recipe_ingredient_number_1": 1, // 2665 chisel:is_burial_item
+			"recipe_ingredient_number_2": 6, // 2666 chisel:craft_quantity_2
+			"recipe_xp_type_1": 22, // 2696 chisel:craft_xp_skill_1
+			"destroyondrop_mes": "If you destroy this item you will need to construct another.", // 5417 chisel:destroy_msg
+			"recipe_cycles": 10 // 5446 chisel:is_biscuit_dough
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64282,
+		"name": "Toad totem (small)",
+		"notTradeable": true,
+		"rotation": [
+			null,
+			42,
+			314
+		],
+		"stackableSometimes": true,
+		"value": 100,
+		"widget_actions": [
+			null,
+			null,
+			null,
+			null,
+			"Destroy"
+		],
+		"zoom": 8193
+	},
+	{
+		"baseModel": 0,
+		"id": 64283,
+		"noteData": 64282,
+		"noteTemplate": 799,
+		"stackableSometimes": true
+	},
+	{
+		"Members": true,
+		"baseModel": 146259,
+		"category": 5769,
+		"extra": {
+			"levelrequire": 84, // 23 chisel:item_tier
+			"destroyondrop": 1, // 31 chisel:death_flag_2
+			"protect_on_death": 1, // 1397 chisel:unknown_clue_scroll_boolean
+			"recipe_requirement_type_1": 22, // 2640 chisel:create_requirement_type_1
+			"recipe_requirement_type_2": 67, // 2641 chisel:create_requirement_type_2
+			"recipe_requirement_value_1": 84, // 2645 chisel:create_requirement_value_1
+			"recipe_tool_type_1": 2347, // 2650 chisel:create_requirement_tool_1
+			"recipe_tool_type_2": 8794, // 2651 chisel:create_requirement_tool_2
+			"recipe_ingredient_type_1": 64276, // 2655 chisel:craft_item_1
+			"recipe_ingredient_type_2": 8782, // 2656 chisel:craft_item_2
+			"recipe_ingredient_number_1": 2, // 2665 chisel:is_burial_item
+			"recipe_ingredient_number_2": 6, // 2666 chisel:craft_quantity_2
+			"recipe_xp_type_1": 22, // 2696 chisel:craft_xp_skill_1
+			"destroyondrop_mes": "If you destroy this item you will need to construct another.", // 5417 chisel:destroy_msg
+			"recipe_cycles": 10 // 5446 chisel:is_biscuit_dough
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64284,
+		"name": "Toad totem (medium)",
+		"notTradeable": true,
+		"rotation": [
+			null,
+			42,
+			314
+		],
+		"stackableSometimes": true,
+		"value": 100,
+		"widget_actions": [
+			null,
+			null,
+			null,
+			null,
+			"Destroy"
+		],
+		"zoom": 8193
+	},
+	{
+		"baseModel": 0,
+		"id": 64285,
+		"noteData": 64284,
+		"noteTemplate": 799,
+		"stackableSometimes": true
+	},
+	{
+		"Members": true,
+		"baseModel": 146259,
+		"category": 5769,
+		"extra": {
+			"levelrequire": 104, // 23 chisel:item_tier
+			"destroyondrop": 1, // 31 chisel:death_flag_2
+			"protect_on_death": 1, // 1397 chisel:unknown_clue_scroll_boolean
+			"recipe_requirement_type_1": 22, // 2640 chisel:create_requirement_type_1
+			"recipe_requirement_type_2": 67, // 2641 chisel:create_requirement_type_2
+			"recipe_requirement_value_1": 104, // 2645 chisel:create_requirement_value_1
+			"recipe_tool_type_1": 2347, // 2650 chisel:create_requirement_tool_1
+			"recipe_tool_type_2": 8794, // 2651 chisel:create_requirement_tool_2
+			"recipe_ingredient_type_1": 64276, // 2655 chisel:craft_item_1
+			"recipe_ingredient_type_2": 63190, // 2656 chisel:craft_item_2
+			"recipe_ingredient_number_1": 3, // 2665 chisel:is_burial_item
+			"recipe_ingredient_number_2": 9, // 2666 chisel:craft_quantity_2
+			"recipe_xp_type_1": 22, // 2696 chisel:craft_xp_skill_1
+			"destroyondrop_mes": "If you destroy this item you will need to construct another.", // 5417 chisel:destroy_msg
+			"recipe_cycles": 10 // 5446 chisel:is_biscuit_dough
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64286,
+		"name": "Toad totem (large)",
+		"notTradeable": true,
+		"rotation": [
+			null,
+			42,
+			314
+		],
+		"stackableSometimes": true,
+		"value": 100,
+		"widget_actions": [
+			null,
+			null,
+			null,
+			null,
+			"Destroy"
+		],
+		"zoom": 8193
+	},
+	{
+		"baseModel": 0,
+		"id": 64287,
+		"noteData": 64286,
+		"noteTemplate": 799,
+		"stackableSometimes": true
+	},
+	{
+		"Members": true,
+		"baseModel": 146258,
+		"category": 5769,
+		"extra": {
+			"levelrequire": 64, // 23 chisel:item_tier
+			"destroyondrop": 1, // 31 chisel:death_flag_2
+			"protect_on_death": 1, // 1397 chisel:unknown_clue_scroll_boolean
+			"recipe_requirement_type_1": 22, // 2640 chisel:create_requirement_type_1
+			"recipe_requirement_type_2": 67, // 2641 chisel:create_requirement_type_2
+			"recipe_requirement_value_1": 64, // 2645 chisel:create_requirement_value_1
+			"recipe_tool_type_1": 2347, // 2650 chisel:create_requirement_tool_1
+			"recipe_tool_type_2": 8794, // 2651 chisel:create_requirement_tool_2
+			"recipe_ingredient_type_1": 64276, // 2655 chisel:craft_item_1
+			"recipe_ingredient_type_2": 8780, // 2656 chisel:craft_item_2
+			"recipe_ingredient_number_1": 1, // 2665 chisel:is_burial_item
+			"recipe_ingredient_number_2": 6, // 2666 chisel:craft_quantity_2
+			"recipe_xp_type_1": 22, // 2696 chisel:craft_xp_skill_1
+			"destroyondrop_mes": "If you destroy this item you will need to construct another.", // 5417 chisel:destroy_msg
+			"recipe_cycles": 10 // 5446 chisel:is_biscuit_dough
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64288,
+		"name": "Mollusc totem (small)",
+		"notTradeable": true,
+		"rotation": [
+			null,
+			42,
+			314
+		],
+		"stackableSometimes": true,
+		"value": 100,
+		"widget_actions": [
+			null,
+			null,
+			null,
+			null,
+			"Destroy"
+		],
+		"zoom": 8193
+	},
+	{
+		"baseModel": 0,
+		"id": 64289,
+		"noteData": 64288,
+		"noteTemplate": 799,
+		"stackableSometimes": true
+	},
+	{
+		"Members": true,
+		"baseModel": 146258,
+		"category": 5769,
+		"extra": {
+			"levelrequire": 84, // 23 chisel:item_tier
+			"destroyondrop": 1, // 31 chisel:death_flag_2
+			"protect_on_death": 1, // 1397 chisel:unknown_clue_scroll_boolean
+			"recipe_requirement_type_1": 22, // 2640 chisel:create_requirement_type_1
+			"recipe_requirement_type_2": 67, // 2641 chisel:create_requirement_type_2
+			"recipe_requirement_value_1": 84, // 2645 chisel:create_requirement_value_1
+			"recipe_tool_type_1": 2347, // 2650 chisel:create_requirement_tool_1
+			"recipe_tool_type_2": 8794, // 2651 chisel:create_requirement_tool_2
+			"recipe_ingredient_type_1": 64276, // 2655 chisel:craft_item_1
+			"recipe_ingredient_type_2": 8782, // 2656 chisel:craft_item_2
+			"recipe_ingredient_number_1": 2, // 2665 chisel:is_burial_item
+			"recipe_ingredient_number_2": 6, // 2666 chisel:craft_quantity_2
+			"recipe_xp_type_1": 22, // 2696 chisel:craft_xp_skill_1
+			"destroyondrop_mes": "If you destroy this item you will need to construct another.", // 5417 chisel:destroy_msg
+			"recipe_cycles": 10 // 5446 chisel:is_biscuit_dough
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64290,
+		"name": "Mollusc totem (medium)",
+		"notTradeable": true,
+		"rotation": [
+			null,
+			42,
+			314
+		],
+		"stackableSometimes": true,
+		"value": 100,
+		"widget_actions": [
+			null,
+			null,
+			null,
+			null,
+			"Destroy"
+		],
+		"zoom": 8193
+	},
+	{
+		"baseModel": 0,
+		"id": 64291,
+		"noteData": 64290,
+		"noteTemplate": 799,
+		"stackableSometimes": true
+	},
+	{
+		"Members": true,
+		"baseModel": 146258,
+		"category": 5769,
+		"extra": {
+			"levelrequire": 104, // 23 chisel:item_tier
+			"destroyondrop": 1, // 31 chisel:death_flag_2
+			"protect_on_death": 1, // 1397 chisel:unknown_clue_scroll_boolean
+			"recipe_requirement_type_1": 22, // 2640 chisel:create_requirement_type_1
+			"recipe_requirement_type_2": 67, // 2641 chisel:create_requirement_type_2
+			"recipe_requirement_value_1": 104, // 2645 chisel:create_requirement_value_1
+			"recipe_tool_type_1": 2347, // 2650 chisel:create_requirement_tool_1
+			"recipe_tool_type_2": 8794, // 2651 chisel:create_requirement_tool_2
+			"recipe_ingredient_type_1": 64276, // 2655 chisel:craft_item_1
+			"recipe_ingredient_type_2": 63190, // 2656 chisel:craft_item_2
+			"recipe_ingredient_number_1": 3, // 2665 chisel:is_burial_item
+			"recipe_ingredient_number_2": 9, // 2666 chisel:craft_quantity_2
+			"recipe_xp_type_1": 22, // 2696 chisel:craft_xp_skill_1
+			"destroyondrop_mes": "If you destroy this item you will need to construct another.", // 5417 chisel:destroy_msg
+			"recipe_cycles": 10 // 5446 chisel:is_biscuit_dough
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64292,
+		"name": "Mollusc totem (large)",
+		"notTradeable": true,
+		"rotation": [
+			null,
+			42,
+			314
+		],
+		"stackableSometimes": true,
+		"value": 100,
+		"widget_actions": [
+			null,
+			null,
+			null,
+			null,
+			"Destroy"
+		],
+		"zoom": 8193
+	},
+	{
+		"baseModel": 0,
+		"id": 64293,
+		"noteData": 64292,
+		"noteTemplate": 799,
+		"stackableSometimes": true
+	},
+	{
+		"Members": true,
+		"baseModel": 146254,
+		"category": 5769,
+		"extra": {
+			"levelrequire": 64, // 23 chisel:item_tier
+			"destroyondrop": 1, // 31 chisel:death_flag_2
+			"protect_on_death": 1, // 1397 chisel:unknown_clue_scroll_boolean
+			"recipe_requirement_type_1": 22, // 2640 chisel:create_requirement_type_1
+			"recipe_requirement_type_2": 67, // 2641 chisel:create_requirement_type_2
+			"recipe_requirement_value_1": 64, // 2645 chisel:create_requirement_value_1
+			"recipe_tool_type_1": 2347, // 2650 chisel:create_requirement_tool_1
+			"recipe_tool_type_2": 8794, // 2651 chisel:create_requirement_tool_2
+			"recipe_ingredient_type_1": 64276, // 2655 chisel:craft_item_1
+			"recipe_ingredient_type_2": 8780, // 2656 chisel:craft_item_2
+			"recipe_ingredient_number_1": 1, // 2665 chisel:is_burial_item
+			"recipe_ingredient_number_2": 6, // 2666 chisel:craft_quantity_2
+			"recipe_xp_type_1": 22, // 2696 chisel:craft_xp_skill_1
+			"destroyondrop_mes": "If you destroy this item you will need to construct another.", // 5417 chisel:destroy_msg
+			"recipe_cycles": 10 // 5446 chisel:is_biscuit_dough
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64294,
+		"name": "Elemental totem (small)",
+		"notTradeable": true,
+		"rotation": [
+			null,
+			42,
+			314
+		],
+		"stackableSometimes": true,
+		"value": 100,
+		"widget_actions": [
+			null,
+			null,
+			null,
+			null,
+			"Destroy"
+		],
+		"zoom": 8193
+	},
+	{
+		"baseModel": 0,
+		"id": 64295,
+		"noteData": 64294,
+		"noteTemplate": 799,
+		"stackableSometimes": true
+	},
+	{
+		"Members": true,
+		"baseModel": 146254,
+		"category": 5769,
+		"extra": {
+			"levelrequire": 84, // 23 chisel:item_tier
+			"destroyondrop": 1, // 31 chisel:death_flag_2
+			"protect_on_death": 1, // 1397 chisel:unknown_clue_scroll_boolean
+			"recipe_requirement_type_1": 22, // 2640 chisel:create_requirement_type_1
+			"recipe_requirement_type_2": 67, // 2641 chisel:create_requirement_type_2
+			"recipe_requirement_value_1": 84, // 2645 chisel:create_requirement_value_1
+			"recipe_tool_type_1": 2347, // 2650 chisel:create_requirement_tool_1
+			"recipe_tool_type_2": 8794, // 2651 chisel:create_requirement_tool_2
+			"recipe_ingredient_type_1": 64276, // 2655 chisel:craft_item_1
+			"recipe_ingredient_type_2": 8782, // 2656 chisel:craft_item_2
+			"recipe_ingredient_number_1": 2, // 2665 chisel:is_burial_item
+			"recipe_ingredient_number_2": 6, // 2666 chisel:craft_quantity_2
+			"recipe_xp_type_1": 22, // 2696 chisel:craft_xp_skill_1
+			"destroyondrop_mes": "If you destroy this item you will need to construct another.", // 5417 chisel:destroy_msg
+			"recipe_cycles": 10 // 5446 chisel:is_biscuit_dough
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64296,
+		"name": "Elemental totem (medium)",
+		"notTradeable": true,
+		"rotation": [
+			null,
+			42,
+			314
+		],
+		"stackableSometimes": true,
+		"value": 100,
+		"widget_actions": [
+			null,
+			null,
+			null,
+			null,
+			"Destroy"
+		],
+		"zoom": 8193
+	},
+	{
+		"baseModel": 0,
+		"id": 64297,
+		"noteData": 64296,
+		"noteTemplate": 799,
+		"stackableSometimes": true
+	},
+	{
+		"Members": true,
+		"baseModel": 146254,
+		"category": 5769,
+		"extra": {
+			"levelrequire": 104, // 23 chisel:item_tier
+			"destroyondrop": 1, // 31 chisel:death_flag_2
+			"protect_on_death": 1, // 1397 chisel:unknown_clue_scroll_boolean
+			"recipe_requirement_type_1": 22, // 2640 chisel:create_requirement_type_1
+			"recipe_requirement_type_2": 67, // 2641 chisel:create_requirement_type_2
+			"recipe_requirement_value_1": 104, // 2645 chisel:create_requirement_value_1
+			"recipe_tool_type_1": 2347, // 2650 chisel:create_requirement_tool_1
+			"recipe_tool_type_2": 8794, // 2651 chisel:create_requirement_tool_2
+			"recipe_ingredient_type_1": 64276, // 2655 chisel:craft_item_1
+			"recipe_ingredient_type_2": 63190, // 2656 chisel:craft_item_2
+			"recipe_ingredient_number_1": 3, // 2665 chisel:is_burial_item
+			"recipe_ingredient_number_2": 9, // 2666 chisel:craft_quantity_2
+			"recipe_xp_type_1": 22, // 2696 chisel:craft_xp_skill_1
+			"destroyondrop_mes": "If you destroy this item you will need to construct another.", // 5417 chisel:destroy_msg
+			"recipe_cycles": 10 // 5446 chisel:is_biscuit_dough
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64298,
+		"name": "Elemental totem (large)",
+		"notTradeable": true,
+		"rotation": [
+			null,
+			42,
+			314
+		],
+		"stackableSometimes": true,
+		"value": 100,
+		"widget_actions": [
+			null,
+			null,
+			null,
+			null,
+			"Destroy"
+		],
+		"zoom": 8193
+	},
+	{
+		"baseModel": 0,
+		"id": 64299,
+		"noteData": 64298,
+		"noteTemplate": 799,
+		"stackableSometimes": true
+	},
+	{
+		"Members": true,
+		"baseModel": 146255,
+		"category": 5769,
+		"extra": {
+			"levelrequire": 64, // 23 chisel:item_tier
+			"destroyondrop": 1, // 31 chisel:death_flag_2
+			"protect_on_death": 1, // 1397 chisel:unknown_clue_scroll_boolean
+			"recipe_requirement_type_1": 22, // 2640 chisel:create_requirement_type_1
+			"recipe_requirement_type_2": 67, // 2641 chisel:create_requirement_type_2
+			"recipe_requirement_value_1": 64, // 2645 chisel:create_requirement_value_1
+			"recipe_tool_type_1": 2347, // 2650 chisel:create_requirement_tool_1
+			"recipe_tool_type_2": 8794, // 2651 chisel:create_requirement_tool_2
+			"recipe_ingredient_type_1": 64276, // 2655 chisel:craft_item_1
+			"recipe_ingredient_type_2": 8780, // 2656 chisel:craft_item_2
+			"recipe_ingredient_number_1": 1, // 2665 chisel:is_burial_item
+			"recipe_ingredient_number_2": 6, // 2666 chisel:craft_quantity_2
+			"recipe_xp_type_1": 22, // 2696 chisel:craft_xp_skill_1
+			"destroyondrop_mes": "If you destroy this item you will need to construct another.", // 5417 chisel:destroy_msg
+			"recipe_cycles": 10 // 5446 chisel:is_biscuit_dough
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64300,
+		"name": "Rummertum totem (small)",
+		"notTradeable": true,
+		"rotation": [
+			null,
+			42,
+			314
+		],
+		"stackableSometimes": true,
+		"value": 100,
+		"widget_actions": [
+			null,
+			null,
+			null,
+			null,
+			"Destroy"
+		],
+		"zoom": 8193
+	},
+	{
+		"baseModel": 0,
+		"id": 64301,
+		"noteData": 64300,
+		"noteTemplate": 799,
+		"stackableSometimes": true
+	},
+	{
+		"Members": true,
+		"baseModel": 146255,
+		"category": 5769,
+		"extra": {
+			"levelrequire": 84, // 23 chisel:item_tier
+			"destroyondrop": 1, // 31 chisel:death_flag_2
+			"protect_on_death": 1, // 1397 chisel:unknown_clue_scroll_boolean
+			"recipe_requirement_type_1": 22, // 2640 chisel:create_requirement_type_1
+			"recipe_requirement_type_2": 67, // 2641 chisel:create_requirement_type_2
+			"recipe_requirement_value_1": 84, // 2645 chisel:create_requirement_value_1
+			"recipe_tool_type_1": 2347, // 2650 chisel:create_requirement_tool_1
+			"recipe_tool_type_2": 8794, // 2651 chisel:create_requirement_tool_2
+			"recipe_ingredient_type_1": 64276, // 2655 chisel:craft_item_1
+			"recipe_ingredient_type_2": 8782, // 2656 chisel:craft_item_2
+			"recipe_ingredient_number_1": 2, // 2665 chisel:is_burial_item
+			"recipe_ingredient_number_2": 6, // 2666 chisel:craft_quantity_2
+			"recipe_xp_type_1": 22, // 2696 chisel:craft_xp_skill_1
+			"destroyondrop_mes": "If you destroy this item you will need to construct another.", // 5417 chisel:destroy_msg
+			"recipe_cycles": 10 // 5446 chisel:is_biscuit_dough
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64302,
+		"name": "Rummertum totem (medium)",
+		"notTradeable": true,
+		"rotation": [
+			null,
+			42,
+			314
+		],
+		"stackableSometimes": true,
+		"value": 100,
+		"widget_actions": [
+			null,
+			null,
+			null,
+			null,
+			"Destroy"
+		],
+		"zoom": 8193
+	},
+	{
+		"baseModel": 0,
+		"id": 64303,
+		"noteData": 64302,
+		"noteTemplate": 799,
+		"stackableSometimes": true
+	},
+	{
+		"Members": true,
+		"baseModel": 146255,
+		"category": 5769,
+		"extra": {
+			"levelrequire": 104, // 23 chisel:item_tier
+			"destroyondrop": 1, // 31 chisel:death_flag_2
+			"protect_on_death": 1, // 1397 chisel:unknown_clue_scroll_boolean
+			"recipe_requirement_type_1": 22, // 2640 chisel:create_requirement_type_1
+			"recipe_requirement_type_2": 67, // 2641 chisel:create_requirement_type_2
+			"recipe_requirement_value_1": 104, // 2645 chisel:create_requirement_value_1
+			"recipe_tool_type_1": 2347, // 2650 chisel:create_requirement_tool_1
+			"recipe_tool_type_2": 8794, // 2651 chisel:create_requirement_tool_2
+			"recipe_ingredient_type_1": 64276, // 2655 chisel:craft_item_1
+			"recipe_ingredient_type_2": 63190, // 2656 chisel:craft_item_2
+			"recipe_ingredient_number_1": 3, // 2665 chisel:is_burial_item
+			"recipe_ingredient_number_2": 9, // 2666 chisel:craft_quantity_2
+			"recipe_xp_type_1": 22, // 2696 chisel:craft_xp_skill_1
+			"destroyondrop_mes": "If you destroy this item you will need to construct another.", // 5417 chisel:destroy_msg
+			"recipe_cycles": 10 // 5446 chisel:is_biscuit_dough
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64304,
+		"name": "Rummertum totem (large)",
+		"notTradeable": true,
+		"rotation": [
+			null,
+			42,
+			314
+		],
+		"stackableSometimes": true,
+		"value": 100,
+		"widget_actions": [
+			null,
+			null,
+			null,
+			null,
+			"Destroy"
+		],
+		"zoom": 8193
+	},
+	{
+		"baseModel": 0,
+		"id": 64305,
+		"noteData": 64304,
+		"noteTemplate": 799,
+		"stackableSometimes": true
+	},
+	{
+		"Members": true,
+		"baseModel": 146237,
+		"category": 5769,
+		"extra": {
+			"levelrequire": 74, // 23 chisel:item_tier
+			"destroyondrop": 1, // 31 chisel:death_flag_2
+			"protect_on_death": 1, // 1397 chisel:unknown_clue_scroll_boolean
+			"recipe_requirement_type_1": 22, // 2640 chisel:create_requirement_type_1
+			"recipe_requirement_type_2": 67, // 2641 chisel:create_requirement_type_2
+			"recipe_requirement_value_1": 74, // 2645 chisel:create_requirement_value_1
+			"recipe_tool_type_1": 2347, // 2650 chisel:create_requirement_tool_1
+			"recipe_tool_type_2": 8794, // 2651 chisel:create_requirement_tool_2
+			"recipe_ingredient_type_1": 64278, // 2655 chisel:craft_item_1
+			"recipe_ingredient_type_2": 8782, // 2656 chisel:craft_item_2
+			"recipe_ingredient_number_1": 1, // 2665 chisel:is_burial_item
+			"recipe_ingredient_number_2": 4, // 2666 chisel:craft_quantity_2
+			"recipe_xp_type_1": 22, // 2696 chisel:craft_xp_skill_1
+			"destroyondrop_mes": "If you destroy this item you will need to construct another.", // 5417 chisel:destroy_msg
+			"recipe_cycles": 10 // 5446 chisel:is_biscuit_dough
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64306,
+		"modelTranslate": [
+			null,
+			20
+		],
+		"name": "Bog light (single)",
+		"notTradeable": true,
+		"rotation": [
+			null,
+			42,
+			314
+		],
+		"stackableSometimes": true,
+		"value": 100,
+		"widget_actions": [
+			null,
+			null,
+			null,
+			null,
+			"Destroy"
+		],
+		"zoom": 7103
+	},
+	{
+		"baseModel": 0,
+		"id": 64307,
+		"noteData": 64306,
+		"noteTemplate": 799,
+		"stackableSometimes": true
+	},
+	{
+		"Members": true,
+		"baseModel": 146238,
+		"category": 5769,
+		"extra": {
+			"levelrequire": 76, // 23 chisel:item_tier
+			"destroyondrop": 1, // 31 chisel:death_flag_2
+			"protect_on_death": 1, // 1397 chisel:unknown_clue_scroll_boolean
+			"recipe_requirement_type_1": 22, // 2640 chisel:create_requirement_type_1
+			"recipe_requirement_type_2": 67, // 2641 chisel:create_requirement_type_2
+			"recipe_requirement_value_1": 76, // 2645 chisel:create_requirement_value_1
+			"recipe_tool_type_1": 2347, // 2650 chisel:create_requirement_tool_1
+			"recipe_tool_type_2": 8794, // 2651 chisel:create_requirement_tool_2
+			"recipe_ingredient_type_1": 64278, // 2655 chisel:craft_item_1
+			"recipe_ingredient_type_2": 8782, // 2656 chisel:craft_item_2
+			"recipe_ingredient_number_1": 2, // 2665 chisel:is_burial_item
+			"recipe_ingredient_number_2": 4, // 2666 chisel:craft_quantity_2
+			"recipe_xp_type_1": 22, // 2696 chisel:craft_xp_skill_1
+			"destroyondrop_mes": "If you destroy this item you will need to construct another.", // 5417 chisel:destroy_msg
+			"recipe_cycles": 10 // 5446 chisel:is_biscuit_dough
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64308,
+		"modelTranslate": [
+			null,
+			20
+		],
+		"name": "Bog light (double)",
+		"notTradeable": true,
+		"rotation": [
+			null,
+			42,
+			314
+		],
+		"stackableSometimes": true,
+		"value": 100,
+		"widget_actions": [
+			null,
+			null,
+			null,
+			null,
+			"Destroy"
+		],
+		"zoom": 7103
+	},
+	{
+		"baseModel": 0,
+		"id": 64309,
+		"noteData": 64308,
+		"noteTemplate": 799,
+		"stackableSometimes": true
+	},
+	{
+		"Members": true,
+		"baseModel": 146239,
+		"category": 5769,
+		"extra": {
+			"levelrequire": 78, // 23 chisel:item_tier
+			"destroyondrop": 1, // 31 chisel:death_flag_2
+			"protect_on_death": 1, // 1397 chisel:unknown_clue_scroll_boolean
+			"recipe_requirement_type_1": 22, // 2640 chisel:create_requirement_type_1
+			"recipe_requirement_type_2": 67, // 2641 chisel:create_requirement_type_2
+			"recipe_requirement_value_1": 78, // 2645 chisel:create_requirement_value_1
+			"recipe_tool_type_1": 2347, // 2650 chisel:create_requirement_tool_1
+			"recipe_tool_type_2": 8794, // 2651 chisel:create_requirement_tool_2
+			"recipe_ingredient_type_1": 64278, // 2655 chisel:craft_item_1
+			"recipe_ingredient_type_2": 8782, // 2656 chisel:craft_item_2
+			"recipe_ingredient_number_1": 3, // 2665 chisel:is_burial_item
+			"recipe_ingredient_number_2": 4, // 2666 chisel:craft_quantity_2
+			"recipe_xp_type_1": 22, // 2696 chisel:craft_xp_skill_1
+			"destroyondrop_mes": "If you destroy this item you will need to construct another.", // 5417 chisel:destroy_msg
+			"recipe_cycles": 10 // 5446 chisel:is_biscuit_dough
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64310,
+		"modelTranslate": [
+			null,
+			20
+		],
+		"name": "Bog light (triple)",
+		"notTradeable": true,
+		"rotation": [
+			null,
+			42,
+			314
+		],
+		"stackableSometimes": true,
+		"value": 100,
+		"widget_actions": [
+			null,
+			null,
+			null,
+			null,
+			"Destroy"
+		],
+		"zoom": 7103
+	},
+	{
+		"baseModel": 0,
+		"id": 64311,
+		"noteData": 64310,
+		"noteTemplate": 799,
+		"stackableSometimes": true
+	},
+	{
+		"Members": true,
+		"baseModel": 146226,
+		"category": 5769,
+		"extra": {
+			"levelrequire": 88, // 23 chisel:item_tier
+			"destroyondrop": 1, // 31 chisel:death_flag_2
+			"protect_on_death": 1, // 1397 chisel:unknown_clue_scroll_boolean
+			"recipe_requirement_type_1": 22, // 2640 chisel:create_requirement_type_1
+			"recipe_requirement_type_2": 67, // 2641 chisel:create_requirement_type_2
+			"recipe_requirement_value_1": 88, // 2645 chisel:create_requirement_value_1
+			"recipe_tool_type_1": 2347, // 2650 chisel:create_requirement_tool_1
+			"recipe_tool_type_2": 8794, // 2651 chisel:create_requirement_tool_2
+			"recipe_ingredient_type_1": 64280, // 2655 chisel:craft_item_1
+			"recipe_ingredient_type_2": 1513, // 2656 chisel:craft_item_2
+			"recipe_ingredient_type_3": 2351, // 2657 chisel:craft_item_3
+			"recipe_ingredient_number_1": 1, // 2665 chisel:is_burial_item
+			"recipe_ingredient_number_2": 4, // 2666 chisel:craft_quantity_2
+			"recipe_ingredient_number_3": 4, // 2667 chisel:craft_quantity_3
+			"recipe_xp_type_1": 22, // 2696 chisel:craft_xp_skill_1
+			"destroyondrop_mes": "If you destroy this item you will need to construct another.", // 5417 chisel:destroy_msg
+			"recipe_cycles": 5 // 5446 chisel:is_biscuit_dough
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64312,
+		"name": "Swamp brazier",
+		"notTradeable": true,
+		"rotation": [
+			null,
+			42,
+			314
+		],
+		"stackableSometimes": true,
+		"value": 100,
+		"widget_actions": [
+			null,
+			null,
+			null,
+			null,
+			"Destroy"
+		],
+		"zoom": 5483
+	},
+	{
+		"baseModel": 0,
+		"id": 64313,
+		"noteData": 64312,
+		"noteTemplate": 799,
+		"stackableSometimes": true
+	},
+	{
+		"Members": true,
+		"baseModel": 146226,
+		"category": 5769,
+		"extra": {
+			"levelrequire": 106, // 23 chisel:item_tier
+			"destroyondrop": 1, // 31 chisel:death_flag_2
+			"protect_on_death": 1, // 1397 chisel:unknown_clue_scroll_boolean
+			"recipe_requirement_type_1": 22, // 2640 chisel:create_requirement_type_1
+			"recipe_requirement_type_2": 67, // 2641 chisel:create_requirement_type_2
+			"recipe_requirement_value_1": 106, // 2645 chisel:create_requirement_value_1
+			"recipe_tool_type_1": 2347, // 2650 chisel:create_requirement_tool_1
+			"recipe_tool_type_2": 8794, // 2651 chisel:create_requirement_tool_2
+			"recipe_ingredient_type_1": 64280, // 2655 chisel:craft_item_1
+			"recipe_ingredient_type_2": 58250, // 2656 chisel:craft_item_2
+			"recipe_ingredient_type_3": 2351, // 2657 chisel:craft_item_3
+			"recipe_ingredient_number_1": 3, // 2665 chisel:is_burial_item
+			"recipe_ingredient_number_2": 4, // 2666 chisel:craft_quantity_2
+			"recipe_ingredient_number_3": 4, // 2667 chisel:craft_quantity_3
+			"recipe_xp_type_1": 22, // 2696 chisel:craft_xp_skill_1
+			"destroyondrop_mes": "If you destroy this item you will need to construct another.", // 5417 chisel:destroy_msg
+			"recipe_cycles": 5 // 5446 chisel:is_biscuit_dough
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64314,
+		"name": "Swamp brazier (green)",
+		"notTradeable": true,
+		"rotation": [
+			null,
+			42,
+			314
+		],
+		"stackableSometimes": true,
+		"value": 100,
+		"widget_actions": [
+			null,
+			null,
+			null,
+			null,
+			"Destroy"
+		],
+		"zoom": 5483
+	},
+	{
+		"baseModel": 0,
+		"id": 64315,
+		"noteData": 64314,
+		"noteTemplate": 799,
+		"stackableSometimes": true
+	},
+	{
+		"Members": true,
+		"baseModel": 139879,
+		"category": 5769,
+		"extra": {
+			"levelrequire": 65, // 23 chisel:item_tier
+			"destroyondrop": 1, // 31 chisel:death_flag_2
+			"protect_on_death": 1, // 1397 chisel:unknown_clue_scroll_boolean
+			"recipe_requirement_type_1": 22, // 2640 chisel:create_requirement_type_1
+			"recipe_requirement_type_2": 67, // 2641 chisel:create_requirement_type_2
+			"recipe_requirement_value_1": 65, // 2645 chisel:create_requirement_value_1
+			"recipe_tool_type_1": 2347, // 2650 chisel:create_requirement_tool_1
+			"recipe_tool_type_2": 8794, // 2651 chisel:create_requirement_tool_2
+			"recipe_ingredient_type_1": 63926, // 2655 chisel:craft_item_1
+			"recipe_ingredient_number_1": 5, // 2665 chisel:is_burial_item
+			"recipe_xp_type_1": 22, // 2696 chisel:craft_xp_skill_1
+			"destroyondrop_mes": "If you destroy this item you will need to construct another.", // 5417 chisel:destroy_msg
+			"recipe_cycles": 5 // 5446 chisel:is_biscuit_dough
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64316,
+		"name": "Wolf statue (small)",
+		"notTradeable": true,
+		"rotation": [
+			null,
+			135,
+			1666
+		],
+		"stackableSometimes": true,
+		"value": 100,
+		"widget_actions": [
+			null,
+			null,
+			null,
+			null,
+			"Destroy"
+		],
+		"zoom": 5400
+	},
+	{
+		"baseModel": 0,
+		"id": 64317,
+		"noteData": 64316,
+		"noteTemplate": 799,
+		"stackableSometimes": true
+	},
+	{
+		"Members": true,
+		"baseModel": 139879,
+		"category": 5769,
+		"extra": {
+			"levelrequire": 85, // 23 chisel:item_tier
+			"destroyondrop": 1, // 31 chisel:death_flag_2
+			"protect_on_death": 1, // 1397 chisel:unknown_clue_scroll_boolean
+			"recipe_requirement_type_1": 22, // 2640 chisel:create_requirement_type_1
+			"recipe_requirement_type_2": 67, // 2641 chisel:create_requirement_type_2
+			"recipe_requirement_value_1": 85, // 2645 chisel:create_requirement_value_1
+			"recipe_tool_type_1": 2347, // 2650 chisel:create_requirement_tool_1
+			"recipe_tool_type_2": 8794, // 2651 chisel:create_requirement_tool_2
+			"recipe_ingredient_type_1": 63927, // 2655 chisel:craft_item_1
+			"recipe_ingredient_number_1": 5, // 2665 chisel:is_burial_item
+			"recipe_xp_type_1": 22, // 2696 chisel:craft_xp_skill_1
+			"destroyondrop_mes": "If you destroy this item you will need to construct another.", // 5417 chisel:destroy_msg
+			"recipe_cycles": 5 // 5446 chisel:is_biscuit_dough
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64318,
+		"name": "Wolf statue (medium)",
+		"notTradeable": true,
+		"rotation": [
+			null,
+			135,
+			1666
+		],
+		"stackableSometimes": true,
+		"value": 100,
+		"widget_actions": [
+			null,
+			null,
+			null,
+			null,
+			"Destroy"
+		],
+		"zoom": 5200
+	},
+	{
+		"baseModel": 0,
+		"id": 64319,
+		"noteData": 64318,
+		"noteTemplate": 799,
+		"stackableSometimes": true
+	},
+	{
+		"Members": true,
+		"baseModel": 139878,
+		"category": 5769,
+		"extra": {
+			"levelrequire": 105, // 23 chisel:item_tier
+			"destroyondrop": 1, // 31 chisel:death_flag_2
+			"protect_on_death": 1, // 1397 chisel:unknown_clue_scroll_boolean
+			"recipe_requirement_type_1": 22, // 2640 chisel:create_requirement_type_1
+			"recipe_requirement_type_2": 67, // 2641 chisel:create_requirement_type_2
+			"recipe_requirement_value_1": 105, // 2645 chisel:create_requirement_value_1
+			"recipe_tool_type_1": 2347, // 2650 chisel:create_requirement_tool_1
+			"recipe_tool_type_2": 8794, // 2651 chisel:create_requirement_tool_2
+			"recipe_ingredient_type_1": 63928, // 2655 chisel:craft_item_1
+			"recipe_ingredient_number_1": 5, // 2665 chisel:is_burial_item
+			"recipe_xp_type_1": 22, // 2696 chisel:craft_xp_skill_1
+			"destroyondrop_mes": "If you destroy this item you will need to construct another.", // 5417 chisel:destroy_msg
+			"recipe_cycles": 5 // 5446 chisel:is_biscuit_dough
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64320,
+		"name": "Wolf statue (large)",
+		"notTradeable": true,
+		"rotation": [
+			null,
+			135,
+			1666
+		],
+		"stackableSometimes": true,
+		"value": 100,
+		"widget_actions": [
+			null,
+			null,
+			null,
+			null,
+			"Destroy"
+		],
+		"zoom": 5200
+	},
+	{
+		"baseModel": 0,
+		"id": 64321,
+		"noteData": 64320,
+		"noteTemplate": 799,
+		"stackableSometimes": true
+	},
+	{
+		"Members": true,
+		"baseModel": 133419,
+		"category": 5769,
+		"colours": {
+			"16335": 50464
+		},
+		"extra": {
+			"levelrequire": 64, // 23 chisel:item_tier
+			"destroyondrop": 1, // 31 chisel:death_flag_2
+			"protect_on_death": 1, // 1397 chisel:unknown_clue_scroll_boolean
+			"recipe_requirement_type_1": 22, // 2640 chisel:create_requirement_type_1
+			"recipe_requirement_type_2": 67, // 2641 chisel:create_requirement_type_2
+			"recipe_requirement_value_1": 64, // 2645 chisel:create_requirement_value_1
+			"recipe_tool_type_1": 2347, // 2650 chisel:create_requirement_tool_1
+			"recipe_tool_type_2": 8794, // 2651 chisel:create_requirement_tool_2
+			"recipe_ingredient_type_1": 8782, // 2655 chisel:craft_item_1
+			"recipe_ingredient_type_2": 8790, // 2656 chisel:craft_item_2
+			"recipe_ingredient_type_3": 8784, // 2657 chisel:craft_item_3
+			"recipe_ingredient_type_4": 49512, // 2658 chisel:craft_item_4
+			"recipe_ingredient_number_1": 2, // 2665 chisel:is_burial_item
+			"recipe_ingredient_number_2": 2, // 2666 chisel:craft_quantity_2
+			"recipe_ingredient_number_3": 1, // 2667 chisel:craft_quantity_3
+			"recipe_ingredient_number_4": 1, // 2668 chisel:craft_quantity_4
+			"recipe_xp_type_1": 22, // 2696 chisel:craft_xp_skill_1
+			"destroyondrop_mes": "If you destroy this item you will need to construct another.", // 5417 chisel:destroy_msg
+			"recipe_cycles": 10 // 5446 chisel:is_biscuit_dough
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64322,
+		"name": "Opulent chaise longue",
+		"notTradeable": true,
+		"rotation": [
+			null,
+			192,
+			1219
+		],
+		"stackableSometimes": true,
+		"value": 100,
+		"widget_actions": [
+			null,
+			null,
+			null,
+			null,
+			"Destroy"
+		],
+		"zoom": 4007
+	},
+	{
+		"baseModel": 0,
+		"id": 64323,
+		"noteData": 64322,
+		"noteTemplate": 799,
+		"stackableSometimes": true
+	},
+	{
+		"Members": true,
+		"baseModel": 146220,
+		"category": 5769,
+		"extra": {
+			"levelrequire": 100, // 23 chisel:item_tier
+			"destroyondrop": 1, // 31 chisel:death_flag_2
+			"protect_on_death": 1, // 1397 chisel:unknown_clue_scroll_boolean
+			"recipe_requirement_type_1": 22, // 2640 chisel:create_requirement_type_1
+			"recipe_requirement_type_2": 67, // 2641 chisel:create_requirement_type_2
+			"recipe_requirement_value_1": 100, // 2645 chisel:create_requirement_value_1
+			"recipe_tool_type_1": 2347, // 2650 chisel:create_requirement_tool_1
+			"recipe_tool_type_2": 8794, // 2651 chisel:create_requirement_tool_2
+			"recipe_ingredient_type_1": 63931, // 2655 chisel:craft_item_1
+			"recipe_ingredient_number_1": 10, // 2665 chisel:is_burial_item
+			"recipe_xp_type_1": 22, // 2696 chisel:craft_xp_skill_1
+			"destroyondrop_mes": "If you destroy this item you will need to construct another.", // 5417 chisel:destroy_msg
+			"recipe_cycles": 5 // 5446 chisel:is_biscuit_dough
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64324,
+		"modelTranslate": [
+			15,
+			65521
+		],
+		"name": "Colossi statue",
+		"notTradeable": true,
+		"scale": [
+			16,
+			16,
+			16
+		],
+		"stackableSometimes": true,
+		"value": 100,
+		"widget_actions": [
+			null,
+			null,
+			null,
+			null,
+			"Destroy"
+		],
+		"zoom": 2800
+	},
+	{
+		"baseModel": 0,
+		"id": 64325,
+		"noteData": 64324,
+		"noteTemplate": 799,
+		"stackableSometimes": true
+	},
+	{
+		"Members": true,
+		"baseModel": 139076,
+		"category": 5769,
+		"extra": {
+			"levelrequire": 65, // 23 chisel:item_tier
+			"destroyondrop": 1, // 31 chisel:death_flag_2
+			"protect_on_death": 1, // 1397 chisel:unknown_clue_scroll_boolean
+			"recipe_requirement_type_1": 22, // 2640 chisel:create_requirement_type_1
+			"recipe_requirement_value_1": 65, // 2645 chisel:create_requirement_value_1
+			"recipe_ingredient_type_1": 64371, // 2655 chisel:craft_item_1
+			"recipe_ingredient_number_1": 1, // 2665 chisel:is_burial_item
+			"recipe_xp_type_1": 22, // 2696 chisel:craft_xp_skill_1
+			"destroyondrop_mes": "If you destroy this item you will need to construct another.", // 5417 chisel:destroy_msg
+			"recipe_cycles": 5 // 5446 chisel:is_biscuit_dough
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64326,
+		"modelTranslate": [
+			null,
+			65491
+		],
+		"name": "Bogwart (house)",
+		"notTradeable": true,
+		"rotation": [
+			null,
+			189,
+			138
+		],
+		"stackableSometimes": true,
+		"value": 10,
+		"widget_actions": [
+			null,
+			null,
+			null,
+			null,
+			"Destroy"
+		],
+		"zoom": 2034
+	},
+	{
+		"baseModel": 0,
+		"id": 64327,
+		"noteData": 64326,
+		"noteTemplate": 799,
+		"stackableSometimes": true
+	},
+	{
+		"Members": true,
+		"baseModel": 139072,
+		"category": 5769,
+		"colours": {
+			"35028": 13532,
+			"41409": 18883
+		},
+		"extra": {
+			"levelrequire": 68, // 23 chisel:item_tier
+			"destroyondrop": 1, // 31 chisel:death_flag_2
+			"protect_on_death": 1, // 1397 chisel:unknown_clue_scroll_boolean
+			"recipe_requirement_type_1": 22, // 2640 chisel:create_requirement_type_1
+			"recipe_requirement_value_1": 68, // 2645 chisel:create_requirement_value_1
+			"recipe_ingredient_type_1": 64373, // 2655 chisel:craft_item_1
+			"recipe_ingredient_number_1": 1, // 2665 chisel:is_burial_item
+			"recipe_xp_type_1": 22, // 2696 chisel:craft_xp_skill_1
+			"destroyondrop_mes": "If you destroy this item you will need to construct another.", // 5417 chisel:destroy_msg
+			"recipe_cycles": 5 // 5446 chisel:is_biscuit_dough
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64328,
+		"modelTranslate": [
+			null,
+			65491
+		],
+		"name": "Luminous mushroom",
+		"notTradeable": true,
+		"rotation": [
+			null,
+			189,
+			138
+		],
+		"scale": [
+			200,
+			200,
+			200
+		],
+		"stackableSometimes": true,
+		"textures": {
+			"23220": 23574
+		},
+		"value": 10,
+		"widget_actions": [
+			null,
+			null,
+			null,
+			null,
+			"Destroy"
+		],
+		"zoom": 2379
+	},
+	{
+		"baseModel": 0,
+		"id": 64329,
+		"noteData": 64328,
+		"noteTemplate": 799,
+		"stackableSometimes": true
+	},
+	{
+		"Members": true,
+		"baseModel": 137890,
+		"category": 5769,
+		"colours": {
+			"1736": 49871
+		},
+		"extra": {
+			"levelrequire": 71, // 23 chisel:item_tier
+			"destroyondrop": 1, // 31 chisel:death_flag_2
+			"protect_on_death": 1, // 1397 chisel:unknown_clue_scroll_boolean
+			"recipe_requirement_type_1": 22, // 2640 chisel:create_requirement_type_1
+			"recipe_requirement_value_1": 71, // 2645 chisel:create_requirement_value_1
+			"recipe_ingredient_type_1": 64375, // 2655 chisel:craft_item_1
+			"recipe_ingredient_number_1": 1, // 2665 chisel:is_burial_item
+			"recipe_xp_type_1": 22, // 2696 chisel:craft_xp_skill_1
+			"destroyondrop_mes": "If you destroy this item you will need to construct another.", // 5417 chisel:destroy_msg
+			"recipe_cycles": 5 // 5446 chisel:is_biscuit_dough
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64330,
+		"modelTranslate": [
+			null,
+			65491
+		],
+		"name": "Nightshade mushroom",
+		"notTradeable": true,
+		"rotation": [
+			null,
+			189,
+			138
+		],
+		"scale": [
+			200,
+			200,
+			200
+		],
+		"stackableSometimes": true,
+		"textures": {
+			"22966": 23575
+		},
+		"value": 10,
+		"widget_actions": [
+			null,
+			null,
+			null,
+			null,
+			"Destroy"
+		],
+		"zoom": 3024
+	},
+	{
+		"baseModel": 0,
+		"id": 64331,
+		"noteData": 64330,
+		"noteTemplate": 799,
+		"stackableSometimes": true
+	},
+	{
+		"Members": true,
+		"baseModel": 137878,
+		"category": 5769,
+		"colours": {
+			"1994": 39491
+		},
+		"extra": {
+			"levelrequire": 74, // 23 chisel:item_tier
+			"destroyondrop": 1, // 31 chisel:death_flag_2
+			"protect_on_death": 1, // 1397 chisel:unknown_clue_scroll_boolean
+			"recipe_requirement_type_1": 22, // 2640 chisel:create_requirement_type_1
+			"recipe_requirement_value_1": 74, // 2645 chisel:create_requirement_value_1
+			"recipe_ingredient_type_1": 64377, // 2655 chisel:craft_item_1
+			"recipe_ingredient_number_1": 1, // 2665 chisel:is_burial_item
+			"recipe_xp_type_1": 22, // 2696 chisel:craft_xp_skill_1
+			"destroyondrop_mes": "If you destroy this item you will need to construct another.", // 5417 chisel:destroy_msg
+			"recipe_cycles": 5 // 5446 chisel:is_biscuit_dough
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64332,
+		"modelTranslate": [
+			null,
+			65491
+		],
+		"name": "Blue deathcap",
+		"notTradeable": true,
+		"rotation": [
+			null,
+			189,
+			138
+		],
+		"scale": [
+			200,
+			200,
+			200
+		],
+		"stackableSometimes": true,
+		"textures": {
+			"22959": 23573
+		},
+		"value": 10,
+		"widget_actions": [
+			null,
+			null,
+			null,
+			null,
+			"Destroy"
+		],
+		"zoom": 3024
+	},
+	{
+		"baseModel": 0,
+		"id": 64333,
+		"noteData": 64332,
+		"noteTemplate": 799,
+		"stackableSometimes": true
+	},
+	{
+		"Members": true,
+		"baseModel": 137897,
+		"category": 5769,
+		"extra": {
+			"levelrequire": 77, // 23 chisel:item_tier
+			"destroyondrop": 1, // 31 chisel:death_flag_2
+			"protect_on_death": 1, // 1397 chisel:unknown_clue_scroll_boolean
+			"recipe_requirement_type_1": 22, // 2640 chisel:create_requirement_type_1
+			"recipe_requirement_value_1": 77, // 2645 chisel:create_requirement_value_1
+			"recipe_ingredient_type_1": 64379, // 2655 chisel:craft_item_1
+			"recipe_ingredient_number_1": 1, // 2665 chisel:is_burial_item
+			"recipe_xp_type_1": 22, // 2696 chisel:craft_xp_skill_1
+			"destroyondrop_mes": "If you destroy this item you will need to construct another.", // 5417 chisel:destroy_msg
+			"recipe_cycles": 5 // 5446 chisel:is_biscuit_dough
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64334,
+		"modelTranslate": [
+			null,
+			65491
+		],
+		"name": "Morchella mushrooms (house)",
+		"notTradeable": true,
+		"rotation": [
+			null,
+			189,
+			138
+		],
+		"stackableSometimes": true,
+		"value": 10,
+		"widget_actions": [
+			null,
+			null,
+			null,
+			null,
+			"Destroy"
+		],
+		"zoom": 1897
+	},
+	{
+		"baseModel": 0,
+		"id": 64335,
+		"noteData": 64334,
+		"noteTemplate": 799,
+		"stackableSometimes": true
+	},
+	{
+		"Members": true,
+		"baseModel": 139085,
+		"category": 5769,
+		"extra": {
+			"levelrequire": 80, // 23 chisel:item_tier
+			"destroyondrop": 1, // 31 chisel:death_flag_2
+			"protect_on_death": 1, // 1397 chisel:unknown_clue_scroll_boolean
+			"recipe_requirement_type_1": 22, // 2640 chisel:create_requirement_type_1
+			"recipe_requirement_value_1": 80, // 2645 chisel:create_requirement_value_1
+			"recipe_ingredient_type_1": 64381, // 2655 chisel:craft_item_1
+			"recipe_ingredient_number_1": 1, // 2665 chisel:is_burial_item
+			"recipe_xp_type_1": 22, // 2696 chisel:craft_xp_skill_1
+			"destroyondrop_mes": "If you destroy this item you will need to construct another.", // 5417 chisel:destroy_msg
+			"recipe_cycles": 5 // 5446 chisel:is_biscuit_dough
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64336,
+		"modelTranslate": [
+			null,
+			65491
+		],
+		"name": "Marshtable mushrooms",
+		"notTradeable": true,
+		"rotation": [
+			null,
+			189,
+			138
+		],
+		"stackableSometimes": true,
+		"value": 10,
+		"widget_actions": [
+			null,
+			null,
+			null,
+			null,
+			"Destroy"
+		],
+		"zoom": 1931
+	},
+	{
+		"baseModel": 0,
+		"id": 64337,
+		"noteData": 64336,
+		"noteTemplate": 799,
+		"stackableSometimes": true
+	},
+	{
+		"Members": true,
+		"baseModel": 139089,
+		"category": 5769,
+		"extra": {
+			"levelrequire": 83, // 23 chisel:item_tier
+			"destroyondrop": 1, // 31 chisel:death_flag_2
+			"protect_on_death": 1, // 1397 chisel:unknown_clue_scroll_boolean
+			"recipe_requirement_type_1": 22, // 2640 chisel:create_requirement_type_1
+			"recipe_requirement_value_1": 83, // 2645 chisel:create_requirement_value_1
+			"recipe_ingredient_type_1": 64383, // 2655 chisel:craft_item_1
+			"recipe_ingredient_number_1": 1, // 2665 chisel:is_burial_item
+			"recipe_xp_type_1": 22, // 2696 chisel:craft_xp_skill_1
+			"destroyondrop_mes": "If you destroy this item you will need to construct another.", // 5417 chisel:destroy_msg
+			"recipe_cycles": 5 // 5446 chisel:is_biscuit_dough
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64338,
+		"name": "Toad tongue mushrooms",
+		"notTradeable": true,
+		"rotation": [
+			null,
+			189,
+			138
+		],
+		"stackableSometimes": true,
+		"value": 10,
+		"widget_actions": [
+			null,
+			null,
+			null,
+			null,
+			"Destroy"
+		],
+		"zoom": 1655
+	},
+	{
+		"baseModel": 0,
+		"id": 64339,
+		"noteData": 64338,
+		"noteTemplate": 799,
+		"stackableSometimes": true
+	},
+	{
+		"Members": true,
+		"baseModel": 137884,
+		"category": 5769,
+		"colours": {
+			"4420": 36927
+		},
+		"extra": {
+			"levelrequire": 86, // 23 chisel:item_tier
+			"destroyondrop": 1, // 31 chisel:death_flag_2
+			"protect_on_death": 1, // 1397 chisel:unknown_clue_scroll_boolean
+			"recipe_requirement_type_1": 22, // 2640 chisel:create_requirement_type_1
+			"recipe_requirement_value_1": 86, // 2645 chisel:create_requirement_value_1
+			"recipe_ingredient_type_1": 64385, // 2655 chisel:craft_item_1
+			"recipe_ingredient_number_1": 1, // 2665 chisel:is_burial_item
+			"recipe_xp_type_1": 22, // 2696 chisel:craft_xp_skill_1
+			"destroyondrop_mes": "If you destroy this item you will need to construct another.", // 5417 chisel:destroy_msg
+			"recipe_cycles": 5 // 5446 chisel:is_biscuit_dough
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64340,
+		"modelTranslate": [
+			null,
+			65491
+		],
+		"name": "Sourcap mushrooms",
+		"notTradeable": true,
+		"rotation": [
+			null,
+			189,
+			138
+		],
+		"stackableSometimes": true,
+		"textures": {
+			"22962": 22963
+		},
+		"value": 10,
+		"widget_actions": [
+			null,
+			null,
+			null,
+			null,
+			"Destroy"
+		],
+		"zoom": 1724
+	},
+	{
+		"baseModel": 0,
+		"id": 64341,
+		"noteData": 64340,
+		"noteTemplate": 799,
+		"stackableSometimes": true
+	},
+	{
+		"Members": true,
+		"baseModel": 71647,
+		"category": 5769,
+		"extra": {
+			"levelrequire": 65, // 23 chisel:item_tier
+			"destroyondrop": 1, // 31 chisel:death_flag_2
+			"protect_on_death": 1, // 1397 chisel:unknown_clue_scroll_boolean
+			"recipe_requirement_type_1": 22, // 2640 chisel:create_requirement_type_1
+			"recipe_requirement_type_2": 67, // 2641 chisel:create_requirement_type_2
+			"recipe_requirement_value_1": 66, // 2645 chisel:create_requirement_value_1
+			"recipe_tool_type_1": 2347, // 2650 chisel:create_requirement_tool_1
+			"recipe_tool_type_2": 8794, // 2651 chisel:create_requirement_tool_2
+			"recipe_ingredient_type_1": 8782, // 2655 chisel:craft_item_1
+			"recipe_ingredient_type_2": 970, // 2656 chisel:craft_item_2
+			"recipe_ingredient_type_3": 4622, // 2657 chisel:craft_item_3
+			"recipe_ingredient_number_1": 2, // 2665 chisel:is_burial_item
+			"recipe_ingredient_number_2": 1, // 2666 chisel:craft_quantity_2
+			"recipe_ingredient_number_3": 1, // 2667 chisel:craft_quantity_3
+			"recipe_xp_type_1": 22, // 2696 chisel:craft_xp_skill_1
+			"destroyondrop_mes": "If you destroy this item you will need to construct another.", // 5417 chisel:destroy_msg
+			"recipe_cycles": 10 // 5446 chisel:is_biscuit_dough
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64342,
+		"modelTranslate": [
+			33,
+			59
+		],
+		"name": "Havenhythe painting",
+		"notTradeable": true,
+		"rotation": [
+			null,
+			42,
+			314
+		],
+		"stackableSometimes": true,
+		"value": 100,
+		"widget_actions": [
+			null,
+			null,
+			null,
+			null,
+			"Destroy"
+		],
+		"zoom": 2133
+	},
+	{
+		"Members": true,
+		"baseModel": 146258,
+		"category": 5771,
+		"extra": {
+			"destroyondrop": 1, // 31 chisel:death_flag_2
+			"no_alchemy": 1, // 689 chisel:is_crystal_mattock
+			"protect_on_death": 2 // 1397 chisel:unknown_clue_scroll_boolean
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64343,
+		"modelTranslate": [
+			36,
+			65451
+		],
+		"name": "Furniture plans: Small totems",
+		"notTradeable": true,
+		"rotation": [
+			null,
+			42,
+			314
+		],
+		"stackableSometimes": true,
+		"widget_actions": [
+			"Learn",
+			null,
+			null,
+			null,
+			"Destroy"
+		],
+		"zoom": 8103
+	},
+	{
+		"Members": true,
+		"baseModel": 146254,
+		"category": 5771,
+		"extra": {
+			"destroyondrop": 1, // 31 chisel:death_flag_2
+			"no_alchemy": 1, // 689 chisel:is_crystal_mattock
+			"protect_on_death": 2 // 1397 chisel:unknown_clue_scroll_boolean
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64344,
+		"modelTranslate": [
+			36,
+			65451
+		],
+		"name": "Furniture plans: Medium totems",
+		"notTradeable": true,
+		"rotation": [
+			null,
+			42,
+			314
+		],
+		"stackableSometimes": true,
+		"widget_actions": [
+			"Learn",
+			null,
+			null,
+			null,
+			"Destroy"
+		],
+		"zoom": 8103
+	},
+	{
+		"Members": true,
+		"baseModel": 146255,
+		"category": 5771,
+		"extra": {
+			"destroyondrop": 1, // 31 chisel:death_flag_2
+			"no_alchemy": 1, // 689 chisel:is_crystal_mattock
+			"protect_on_death": 2 // 1397 chisel:unknown_clue_scroll_boolean
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64345,
+		"modelTranslate": [
+			36,
+			65451
+		],
+		"name": "Furniture plans: Large totems",
+		"notTradeable": true,
+		"rotation": [
+			null,
+			42,
+			314
+		],
+		"stackableSometimes": true,
+		"widget_actions": [
+			"Learn",
+			null,
+			null,
+			null,
+			"Destroy"
+		],
+		"zoom": 8103
+	},
+	{
+		"Members": true,
+		"baseModel": 146259,
+		"category": 5808,
+		"colours": {
+			"5191": 6331,
+			"8245": 12708
+		},
+		"extra": {
+			"destroyondrop": 0, // 31 chisel:death_flag_2
+			"no_alchemy": 1, // 689 chisel:is_crystal_mattock
+			"protect_on_death": 2 // 1397 chisel:unknown_clue_scroll_boolean
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64346,
+		"modelTranslate": [
+			36,
+			65451
+		],
+		"name": "Furniture plans: Mossy totems",
+		"rotation": [
+			null,
+			42,
+			314
+		],
+		"stackableSometimes": true,
+		"textures": {
+			"25140": 25141
+		},
+		"widget_actions": [
+			"Learn",
+			null,
+			null,
+			null,
+			null
+		],
+		"zoom": 8103
+	},
+	{
+		"baseModel": 0,
+		"id": 64347,
+		"noteData": 64346,
+		"noteTemplate": 799,
+		"stackableSometimes": true
+	},
+	{
+		"Members": true,
+		"baseModel": 146237,
+		"category": 5771,
+		"extra": {
+			"destroyondrop": 1, // 31 chisel:death_flag_2
+			"no_alchemy": 1, // 689 chisel:is_crystal_mattock
+			"protect_on_death": 2 // 1397 chisel:unknown_clue_scroll_boolean
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64348,
+		"modelTranslate": [
+			null,
+			20
+		],
+		"name": "Furniture plans: Bog light (single)",
+		"notTradeable": true,
+		"rotation": [
+			null,
+			42,
+			314
+		],
+		"stackableSometimes": true,
+		"widget_actions": [
+			"Learn",
+			null,
+			null,
+			null,
+			"Destroy"
+		],
+		"zoom": 7103
+	},
+	{
+		"Members": true,
+		"baseModel": 146238,
+		"category": 5771,
+		"extra": {
+			"destroyondrop": 1, // 31 chisel:death_flag_2
+			"no_alchemy": 1, // 689 chisel:is_crystal_mattock
+			"protect_on_death": 2 // 1397 chisel:unknown_clue_scroll_boolean
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64349,
+		"modelTranslate": [
+			null,
+			20
+		],
+		"name": "Furniture plans: Bog light (double)",
+		"notTradeable": true,
+		"rotation": [
+			null,
+			42,
+			314
+		],
+		"stackableSometimes": true,
+		"widget_actions": [
+			"Learn",
+			null,
+			null,
+			null,
+			"Destroy"
+		],
+		"zoom": 7103
+	},
+	{
+		"Members": true,
+		"baseModel": 146239,
+		"category": 5771,
+		"extra": {
+			"destroyondrop": 1, // 31 chisel:death_flag_2
+			"no_alchemy": 1, // 689 chisel:is_crystal_mattock
+			"protect_on_death": 2 // 1397 chisel:unknown_clue_scroll_boolean
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64350,
+		"modelTranslate": [
+			null,
+			20
+		],
+		"name": "Furniture plans: Bog light (triple)",
+		"notTradeable": true,
+		"rotation": [
+			null,
+			42,
+			314
+		],
+		"stackableSometimes": true,
+		"widget_actions": [
+			"Learn",
+			null,
+			null,
+			null,
+			"Destroy"
+		],
+		"zoom": 7103
+	},
+	{
+		"Members": true,
+		"baseModel": 146226,
+		"category": 5771,
+		"extra": {
+			"destroyondrop": 1, // 31 chisel:death_flag_2
+			"no_alchemy": 1, // 689 chisel:is_crystal_mattock
+			"protect_on_death": 2 // 1397 chisel:unknown_clue_scroll_boolean
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64351,
+		"name": "Furniture plans: Swamp brazier",
+		"notTradeable": true,
+		"rotation": [
+			null,
+			42,
+			314
+		],
+		"stackableSometimes": true,
+		"widget_actions": [
+			"Learn",
+			null,
+			null,
+			null,
+			"Destroy"
+		],
+		"zoom": 5483
+	},
+	{
+		"Members": true,
+		"baseModel": 146226,
+		"category": 5771,
+		"extra": {
+			"destroyondrop": 1, // 31 chisel:death_flag_2
+			"no_alchemy": 1, // 689 chisel:is_crystal_mattock
+			"protect_on_death": 2 // 1397 chisel:unknown_clue_scroll_boolean
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64352,
+		"name": "Furniture plans: Swamp brazier (green)",
+		"notTradeable": true,
+		"rotation": [
+			null,
+			42,
+			314
+		],
+		"stackableSometimes": true,
+		"widget_actions": [
+			"Learn",
+			null,
+			null,
+			null,
+			"Destroy"
+		],
+		"zoom": 5483
+	},
+	{
+		"baseModel": 146259,
+		"colours": {
+			"5191": 6331,
+			"8245": 12708
+		},
+		"dummyItem": 2,
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64353,
+		"rotation": [
+			null,
+			42,
+			314
+		],
+		"stackableSometimes": true,
+		"textures": {
+			"25140": 25141
+		},
+		"zoom": 8193
+	},
+	{
+		"baseModel": 146259,
+		"colours": {
+			"5191": 6331,
+			"8245": 12708
+		},
+		"dummyItem": 2,
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64354,
+		"rotation": [
+			null,
+			42,
+			314
+		],
+		"stackableSometimes": true,
+		"textures": {
+			"25140": 25141
+		},
+		"zoom": 8193
+	},
+	{
+		"baseModel": 146259,
+		"colours": {
+			"5191": 6331,
+			"8245": 12708
+		},
+		"dummyItem": 2,
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64355,
+		"rotation": [
+			null,
+			42,
+			314
+		],
+		"stackableSometimes": true,
+		"textures": {
+			"25140": 25141
+		},
+		"zoom": 8193
+	},
+	{
+		"baseModel": 146258,
+		"colours": {
+			"5191": 6331,
+			"8245": 12708
+		},
+		"dummyItem": 2,
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64356,
+		"rotation": [
+			null,
+			42,
+			314
+		],
+		"stackableSometimes": true,
+		"textures": {
+			"25143": 25144
+		},
+		"zoom": 8193
+	},
+	{
+		"baseModel": 146258,
+		"colours": {
+			"5191": 6331,
+			"8245": 12708
+		},
+		"dummyItem": 2,
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64357,
+		"rotation": [
+			null,
+			42,
+			314
+		],
+		"stackableSometimes": true,
+		"textures": {
+			"25143": 25144
+		},
+		"zoom": 8193
+	},
+	{
+		"baseModel": 146258,
+		"colours": {
+			"5191": 6331,
+			"8245": 12708
+		},
+		"dummyItem": 2,
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64358,
+		"rotation": [
+			null,
+			42,
+			314
+		],
+		"stackableSometimes": true,
+		"textures": {
+			"25143": 25144
+		},
+		"zoom": 8193
+	},
+	{
+		"baseModel": 146254,
+		"colours": {
+			"5191": 6331,
+			"8245": 12708
+		},
+		"dummyItem": 2,
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64359,
+		"rotation": [
+			null,
+			42,
+			314
+		],
+		"stackableSometimes": true,
+		"textures": {
+			"25138": 25139
+		},
+		"zoom": 8193
+	},
+	{
+		"baseModel": 146254,
+		"colours": {
+			"5191": 6331,
+			"8245": 12708
+		},
+		"dummyItem": 2,
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64360,
+		"rotation": [
+			null,
+			42,
+			314
+		],
+		"stackableSometimes": true,
+		"textures": {
+			"25138": 25139
+		},
+		"zoom": 8193
+	},
+	{
+		"baseModel": 146254,
+		"colours": {
+			"5191": 6331,
+			"8245": 12708
+		},
+		"dummyItem": 2,
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64361,
+		"rotation": [
+			null,
+			42,
+			314
+		],
+		"stackableSometimes": true,
+		"textures": {
+			"25138": 25139
+		},
+		"zoom": 8193
+	},
+	{
+		"baseModel": 146255,
+		"colours": {
+			"5191": 6331,
+			"8245": 12708
+		},
+		"dummyItem": 2,
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64362,
+		"rotation": [
+			null,
+			42,
+			314
+		],
+		"stackableSometimes": true,
+		"textures": {
+			"25140": 25141
+		},
+		"zoom": 8193
+	},
+	{
+		"baseModel": 146255,
+		"colours": {
+			"5191": 6331,
+			"8245": 12708
+		},
+		"dummyItem": 2,
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64363,
+		"rotation": [
+			null,
+			42,
+			314
+		],
+		"stackableSometimes": true,
+		"textures": {
+			"25140": 25141
+		},
+		"zoom": 8193
+	},
+	{
+		"baseModel": 146255,
+		"colours": {
+			"5191": 6331,
+			"8245": 12708
+		},
+		"dummyItem": 2,
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64364,
+		"rotation": [
+			null,
+			42,
+			314
+		],
+		"stackableSometimes": true,
+		"textures": {
+			"25140": 25141
+		},
+		"zoom": 8193
+	},
+	{
+		"baseModel": 71654,
+		"dummyItem": 2,
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64365,
+		"modelTranslate": [
+			33,
+			59
+		],
+		"rotation": [
+			null,
+			42,
+			314
+		],
+		"stackableSometimes": true,
+		"zoom": 2133
+	},
+	{
+		"baseModel": 71648,
+		"dummyItem": 2,
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64366,
+		"modelTranslate": [
+			33,
+			59
+		],
+		"rotation": [
+			null,
+			42,
+			314
+		],
+		"stackableSometimes": true,
+		"zoom": 2133
+	},
+	{
+		"baseModel": 71649,
+		"dummyItem": 2,
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64367,
+		"modelTranslate": [
+			33,
+			59
+		],
+		"rotation": [
+			null,
+			42,
+			314
+		],
+		"stackableSometimes": true,
+		"zoom": 2133
+	},
+	{
+		"baseModel": 71650,
+		"dummyItem": 2,
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64368,
+		"modelTranslate": [
+			33,
+			59
+		],
+		"rotation": [
+			null,
+			42,
+			314
+		],
+		"stackableSometimes": true,
+		"zoom": 2133
+	},
+	{
+		"baseModel": 71651,
+		"dummyItem": 2,
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64369,
+		"modelTranslate": [
+			33,
+			59
+		],
+		"rotation": [
+			null,
+			42,
+			314
+		],
+		"stackableSometimes": true,
+		"zoom": 2133
+	},
+	{
+		"baseModel": 71646,
+		"dummyItem": 2,
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64370,
+		"modelTranslate": [
+			33,
+			59
+		],
+		"rotation": [
+			null,
+			42,
+			314
+		],
+		"stackableSometimes": true,
+		"zoom": 2133
+	},
+	{
+		"Members": true,
+		"baseModel": 71644,
+		"colours": {
+			"6935": 32447
+		},
+		"extra": {
+			"drop_sound": 4166 // 537 chisel:drop_sound_id
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64371,
+		"modelTranslate": [
+			null,
+			65436
+		],
+		"name": "Bagged bogwart mycelium",
+		"rotation": [
+			null,
+			249,
+			null
+		],
+		"stackableSometimes": true,
+		"value": 10000,
+		"zoom": 919
+	},
+	{
+		"baseModel": 0,
+		"id": 64372,
+		"noteData": 64371,
+		"noteTemplate": 799,
+		"stackableSometimes": true
+	},
+	{
+		"Members": true,
+		"baseModel": 71644,
+		"colours": {
+			"6935": 23622
+		},
+		"extra": {
+			"drop_sound": 4166 // 537 chisel:drop_sound_id
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64373,
+		"modelTranslate": [
+			null,
+			65436
+		],
+		"name": "Bagged luminous mycelium",
+		"rotation": [
+			null,
+			249,
+			null
+		],
+		"stackableSometimes": true,
+		"value": 11000,
+		"zoom": 919
+	},
+	{
+		"baseModel": 0,
+		"id": 64374,
+		"noteData": 64373,
+		"noteTemplate": 799,
+		"stackableSometimes": true
+	},
+	{
+		"Members": true,
+		"baseModel": 71644,
+		"colours": {
+			"6935": 49343
+		},
+		"extra": {
+			"drop_sound": 4166 // 537 chisel:drop_sound_id
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64375,
+		"modelTranslate": [
+			null,
+			65436
+		],
+		"name": "Bagged nightshade mycelium",
+		"rotation": [
+			null,
+			249,
+			null
+		],
+		"stackableSometimes": true,
+		"value": 12000,
+		"zoom": 919
+	},
+	{
+		"baseModel": 0,
+		"id": 64376,
+		"noteData": 64375,
+		"noteTemplate": 799,
+		"stackableSometimes": true
+	},
+	{
+		"Members": true,
+		"baseModel": 71644,
+		"colours": {
+			"6935": 41167
+		},
+		"extra": {
+			"drop_sound": 4166 // 537 chisel:drop_sound_id
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64377,
+		"modelTranslate": [
+			null,
+			65436
+		],
+		"name": "Bagged blue deathcap mycelium",
+		"rotation": [
+			null,
+			249,
+			null
+		],
+		"stackableSometimes": true,
+		"value": 13000,
+		"zoom": 919
+	},
+	{
+		"baseModel": 0,
+		"id": 64378,
+		"noteData": 64377,
+		"noteTemplate": 799,
+		"stackableSometimes": true
+	},
+	{
+		"Members": true,
+		"baseModel": 71644,
+		"colours": {
+			"6935": 59995
+		},
+		"extra": {
+			"drop_sound": 4166 // 537 chisel:drop_sound_id
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64379,
+		"modelTranslate": [
+			null,
+			65436
+		],
+		"name": "Bagged morchella mycelium",
+		"rotation": [
+			null,
+			249,
+			null
+		],
+		"stackableSometimes": true,
+		"value": 14000,
+		"zoom": 919
+	},
+	{
+		"baseModel": 0,
+		"id": 64380,
+		"noteData": 64379,
+		"noteTemplate": 799,
+		"stackableSometimes": true
+	},
+	{
+		"Members": true,
+		"baseModel": 71644,
+		"colours": {
+			"6935": 6935
+		},
+		"extra": {
+			"drop_sound": 4166 // 537 chisel:drop_sound_id
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64381,
+		"modelTranslate": [
+			null,
+			65436
+		],
+		"name": "Bagged marshtable mycelium",
+		"rotation": [
+			null,
+			249,
+			null
+		],
+		"stackableSometimes": true,
+		"value": 15000,
+		"zoom": 919
+	},
+	{
+		"baseModel": 0,
+		"id": 64382,
+		"noteData": 64381,
+		"noteTemplate": 799,
+		"stackableSometimes": true
+	},
+	{
+		"Members": true,
+		"baseModel": 71644,
+		"colours": {
+			"6935": 4894
+		},
+		"extra": {
+			"drop_sound": 4166 // 537 chisel:drop_sound_id
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64383,
+		"modelTranslate": [
+			null,
+			65436
+		],
+		"name": "Bagged toad tongue mycelium",
+		"rotation": [
+			null,
+			249,
+			null
+		],
+		"stackableSometimes": true,
+		"value": 16000,
+		"zoom": 919
+	},
+	{
+		"baseModel": 0,
+		"id": 64384,
+		"noteData": 64383,
+		"noteTemplate": 799,
+		"stackableSometimes": true
+	},
+	{
+		"Members": true,
+		"baseModel": 71644,
+		"colours": {
+			"6935": 23658
+		},
+		"extra": {
+			"drop_sound": 4166 // 537 chisel:drop_sound_id
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64385,
+		"modelTranslate": [
+			null,
+			65436
+		],
+		"name": "Bagged sourcap mycelium",
+		"rotation": [
+			null,
+			249,
+			null
+		],
+		"stackableSometimes": true,
+		"value": 17000,
+		"zoom": 919
+	},
+	{
+		"baseModel": 0,
+		"id": 64386,
+		"noteData": 64385,
+		"noteTemplate": 799,
+		"stackableSometimes": true
+	},
+	{
+		"baseModel": 0,
+		"id": 64387,
+		"noteData": 64342,
+		"noteTemplate": 799,
+		"stackableSometimes": true
+	},
+	{
+		"baseModel": 121926,
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64388,
+		"name": "Do not translate - never seen.",
+		"notTradeable": true,
+		"stackableSometimes": true
+	},
+	{
+		"baseModel": 0,
+		"bindLink": 64388,
+		"bindTemplate": 20930,
+		"id": 64389,
+		"stackableSometimes": true
+	},
+	{
+		"baseModel": 121926,
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64390,
+		"name": "Do not translate - never seen.",
+		"notTradeable": true,
+		"stackableSometimes": true
+	},
+	{
+		"baseModel": 0,
+		"bindLink": 64390,
+		"bindTemplate": 20930,
+		"id": 64391,
+		"stackableSometimes": true
+	},
+	{
+		"baseModel": 121926,
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64392,
+		"name": "Do not translate - never seen.",
+		"notTradeable": true,
+		"stackableSometimes": true
+	},
+	{
+		"baseModel": 0,
+		"bindLink": 64392,
+		"bindTemplate": 20930,
+		"id": 64393,
+		"stackableSometimes": true
+	},
+	{
+		"baseModel": 121926,
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64394,
+		"name": "Do not translate - never seen.",
+		"notTradeable": true,
+		"stackableSometimes": true
+	},
+	{
+		"baseModel": 0,
+		"bindLink": 64394,
+		"bindTemplate": 20930,
+		"id": 64395,
+		"stackableSometimes": true
+	},
+	{
+		"baseModel": 121926,
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64396,
+		"name": "Do not translate - never seen.",
+		"notTradeable": true,
+		"stackableSometimes": true
+	},
+	{
+		"baseModel": 0,
+		"bindLink": 64396,
+		"bindTemplate": 20930,
+		"id": 64397,
+		"stackableSometimes": true
+	},
+	{
+		"baseModel": 121926,
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64398,
+		"name": "Do not translate - never seen.",
+		"notTradeable": true,
+		"stackableSometimes": true
+	},
+	{
+		"baseModel": 0,
+		"bindLink": 64398,
+		"bindTemplate": 20930,
+		"id": 64399,
 		"stackableSometimes": true
 	}
 ]

@@ -10,17 +10,17 @@ function script15820(int0: number, int1: number, int2: number, int3: number, int
             if ((int0 != -1)) {
                 if ((DB_GETROWTABLE(int0) == 122)) {
                     if ((STRING_LENGTH(string0) == 0)) {
-                        var string0 = dbrow_getfield(int0, 499824, 0);
+                        var string0 = dbrow_getfield(int0, 499840, 0);
                     };
-                    if ((dbrow_getfield(int0, 499936, 0) == 1)) {
+                    if ((dbrow_getfield(int0, 499952, 0) == 1)) {
                         if (((script248() == 1) || (varbitplayer_51791 == 3))) {
                             var string1 = script14145(string1, "Warning", `You will not be able to use Treasure Hunter Keys until competitive mode is over. ${script16827()}`);
                         };
                     };
-                    unk11082(string1, dbrow_getfield(int0, 499840, 0), dbrow_getfield(int0, 499856, 0), int7);
+                    unk11082(string1, dbrow_getfield(int0, 499856, 0), dbrow_getfield(int0, 499872, 0), int7);
                     string1 = script14145(script11623());
-                    string1 = script14145(string1, dbrow_getfield(int0, 499872, 0), dbrow_getfield(int0, 499888, 0));
-                    string1 = script14145(string1, "You currently own:", script14241(dbrow_getfield(int0, 499936, 0)));
+                    string1 = script14145(string1, dbrow_getfield(int0, 499888, 0), dbrow_getfield(int0, 499904, 0));
+                    string1 = script14145(string1, "You currently own:", script14241(dbrow_getfield(int0, 499952, 0)));
                     IF_SETONOP(callback(script15743, string3), comp(891, 27));  // mtx_front_end_confirm:buy_button
                 };
                 IF_SETHIDE(true, comp(891, 29));  // mtx_front_end_confirm:soft_currency_wrapper

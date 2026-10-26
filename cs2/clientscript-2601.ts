@@ -1,43 +1,49 @@
 //
 function script2601(): void {
-    var string0 = "Membership";
+    var string0 = "";
     var int0 = 0;
     var string1 = "";
-    var string2 = "";
     var int1 = 0;
     var int2 = 0;
     var int3 = 0;
     [int2, int3, int1] = USERDETAIL_LOBBY_MEMBERSHIP();
-    var string3 = FORMAT_DATETIME_FROM_MINUTES(int2);
+    var string2 = FORMAT_DATETIME_FROM_MINUTES(int2);
     var int4 = 0;
-    var int5 = 0;
-    var int6 = 0;
-    var int7 = -1;
-    var string4 = "";
+    var int5 = -1;
+    var string3 = "";
     if ((int1 == 1)) {
-        string1 = "Subscription Active";
-        string2 = "You have an active subscription. Use this button to view your account information. Make sure you play on a members' world to enjoy all of your members' benefits.";
-        int7 = 2518;
+        string0 = "Your membership is active.";
+        string1 = "Use this button for more detail and to manage your membership.";
+        switch (PLATFORMTYPE()) {
+            case 0:
+            case 5: {
+                int5 = 2518;
+                break;
+            }
+            default: {
+                int5 = 2517;
+                break;
+            }
+        };
     } else if ((PLAYERMEMBER() == true)) {
         int4 = (int3 / 1440);
-        int5 = (MODULO(int3, 1440) / 60);
-        int6 = MODULO(int3, 60);
         if ((int4 < 7)) {
             int0 = 2;
         } else if ((int4 < 13)) {
             int0 = 1;
         };
-        if ((((int4 + int5) + int6) != 0)) {
-            string4 = ` (in ${script4582(int4, int5, int6)})`;
+        if ((int4 == 0)) {
+            string0 = "You have less than 1 day of membership remaining.";
+        } else {
+            string0 = `You have ${inttostring(int4, 10)} ${script4583(int4, "day", "days")} of membership remaining.`;
         };
-        string1 = `Expires ${string3}`;
-        string2 = `Your membership will expire on ${string3}${string4}. Renew now to avoid losing member status. Use this button to renew.`;
-        int7 = 2517;
+        string1 = "Use this button to renew your membership.";
+        int5 = 2517;
     } else {
         int0 = 1;
-        string1 = "Not a Member";
-        string2 = "You are not a member. Members get loads of extra benefits and features. Use this button to become a member.";
-        int7 = 2517;
+        string0 = "You are not a member.";
+        string1 = "Use this button to become a member.";
+        int5 = 2517;
     };
     if ((int0 == 2)) {
         script10017(59375752, -1, 6, 2, "null", -1);
@@ -49,7 +55,7 @@ function script2601(): void {
     } else {
         script13959(59375754, 28697, 0);
     };
-    script10059(string0, string1, string2, 59375753);
-    IF_SETONBUTTONCLICK(callback(script3088, int7), 59375753);
+    script10059(string0, "", string1, 59375753);
+    IF_SETONBUTTONCLICK(callback(script3088, int5), 59375753);
     return;
 }

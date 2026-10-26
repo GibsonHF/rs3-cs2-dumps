@@ -15,7 +15,7 @@ function script15376(int0: number, int1: number, int2: number, int3: number, int
     var int10 = -1;
     var int11 = -1;
     var int12 = -1;
-    var int13 = dbrow_getfield(int3, 549344, 0);
+    var int13 = dbrow_getfield(int3, 549360, 0);
     if ((DB_GETFIELDCOUNT(int3, 548912) > 0)) {
         [int10, int11, int12] = dbrow_getfield(int3, 548912, 0);
         switch (MAP_LANG()) {

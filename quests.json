@@ -17368,7 +17368,7 @@
 		},
 		"id": 535,
 		"name": "Learning the Ropes",
-		"quest_difficulty": 3,
+		"quest_difficulty": 0,
 		"quest_item_sprite": 34899,
 		"quest_list_name": "Learning the Ropes",
 		"quest_points": 0,

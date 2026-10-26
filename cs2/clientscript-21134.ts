@@ -6,6 +6,7 @@ function script21134(): void {
     if (BRANCH_NOT(8)) {
         return;
     };
+    stack(1);
     script21136();
     return;
 }

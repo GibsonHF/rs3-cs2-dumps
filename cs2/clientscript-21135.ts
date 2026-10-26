@@ -18,6 +18,7 @@ function script21135(): void {
         }
     };
     if ((varclient_8510 < CLIENTCLOCK())) {
+        stack(1);
         script21244();
         script21139();
         varclient_8510 = CLIENTCLOCK();

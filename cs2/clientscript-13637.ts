@@ -6,23 +6,25 @@ function script13637(int0: number, int1: number, int2: number, int3: number, int
     if ((MODULO(int3, 2) == 0)) {
         if ((struct_getparam(int5, 7260) != struct_getparam(int5, 7261))) {
             script10066(int6, IF_GETNEXTSUBID(int6), (int4 - (2 * struct_getparam(int5, 7266))), (struct_getparam(int5, 7276) + int8), struct_getparam(int5, 7266), int7, struct_getparam(int5, 7261), 1, struct_getparam(int5, 7262));
-            CC_SETONMOUSELEAVE(callback(script13867, -2147483645, -2147483643, struct_getparam(int5, 7261), int0));
+            CC_SETONMOUSELEAVE(callback(script13867, -2147483645, -2147483643, struct_getparam(int5, 7261), 1));
         } else {
             script10066(int6, IF_GETNEXTSUBID(int6), (int4 - (2 * struct_getparam(int5, 7266))), (struct_getparam(int5, 7276) + int8), struct_getparam(int5, 7266), int7, struct_getparam(int5, 7260), 1, struct_getparam(int5, 7262));
-            CC_SETONMOUSELEAVE(callback(script13867, -2147483645, -2147483643, struct_getparam(int5, 7260), int0));
+            CC_SETONMOUSELEAVE(callback(script13867, -2147483645, -2147483643, struct_getparam(int5, 7260), 1));
         };
     } else {
         script10066(int6, IF_GETNEXTSUBID(int6), (int4 - (2 * struct_getparam(int5, 7266))), (struct_getparam(int5, 7276) + int8), struct_getparam(int5, 7266), int7, struct_getparam(int5, 7260), 1, struct_getparam(int5, 7262));
-        CC_SETONMOUSELEAVE(callback(script13867, -2147483645, -2147483643, struct_getparam(int5, 7260), int0));
+        CC_SETONMOUSELEAVE(callback(script13867, -2147483645, -2147483643, struct_getparam(int5, 7260), 1));
     };
-    CC_SETONMOUSEREPEAT(callback(script13855, -2147483645, -2147483643, int0));
+    CC_SETONMOUSEREPEAT(callback(script13855, -2147483645, -2147483643, 1));
     if ((int0 == 1)) {
         cc_setparam(7258, int1);
         cc_setparam(7259, int2);
     } else {
+        cc_setparam(7258, int2);
+        cc_setparam(7259, 0);
         CC_SETONMOUSEOVER(callback(script14223, -2147483645, -2147483643, int2, int7));
     };
-    script10629(int6, IF_GETNEXTSUBID(int6), (int4 - (2 * struct_getparam(int5, 7266))), (struct_getparam(int5, 7276) + int8), struct_getparam(int5, 8869), int7, string0, struct_getparam(int5, 7273), struct_getparam(int5, 7275), 0, 1, 15, 0);
+    script10629(int6, IF_GETNEXTSUBID(int6), (int4 - (2 * struct_getparam(int5, 7266))), (struct_getparam(int5, 7276) + int8), struct_getparam(int5, 8869), int7, string0, struct_getparam(int5, 7273), struct_getparam(int5, 7275), 0, 1, 15, 1);
     if ((varclient_6403 != 0)) {
         CC_SETMAXLINES(2);
     };

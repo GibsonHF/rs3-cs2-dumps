@@ -258,7 +258,7 @@ function script13393(int0: number, int1: number, int2: number, int3: number, int
                 int7 = (int24 - 10);
                 int6 = (int6 + 16);
             };
-            int1 = ((int24 - 5) - int7);
+            int1 = MAX(int21, MIN(int1, (((int24 - 5) - int7) + int21)));
         };
     };
     if ((script6431() == 1)) {

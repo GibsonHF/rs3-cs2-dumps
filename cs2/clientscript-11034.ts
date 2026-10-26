@@ -272,6 +272,12 @@ function script11034(): number {
                     };
                     break;
                 }
+                case 58: {
+                    if (((varbitplayer_62166 < int2) && (varbitplayer_62168 == 0))) {
+                        int3 = 0;
+                    };
+                    break;
+                }
                 case 40: {
                     if (((((varbitplayer_48687 + varbitplayer_48688) < int2) && (varbitplayer_48689 == 0)) && (varbitplayer_48690 == 0))) {
                         int3 = 0;

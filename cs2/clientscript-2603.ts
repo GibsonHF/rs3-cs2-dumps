@@ -18,6 +18,7 @@ function script2603(int0: number, int1: number, int2: number, int3: number): num
     var int16 = 0;
     var int17 = 0;
     define_array[23](3);
+    var int18 = int3;
     pop_array(0, 13987);
     pop_array(1, 13988);
     pop_array(2, 13989);
@@ -31,6 +32,7 @@ function script2603(int0: number, int1: number, int2: number, int3: number): num
         int14 = 1;
         int15 = 0;
         int17 = 0;
+        int18 = int3;
         if ((int11 != -1 as obj)) {
             int9 = MODULO(int6, 4);
             int10 = (int6 / 4);
@@ -43,10 +45,10 @@ function script2603(int0: number, int1: number, int2: number, int3: number): num
                     int14 = 0;
                 };
             };
-            switch (int3) {
+            switch (int18) {
                 case 3: {
                     if ((int17 == 0)) {
-                        var int3 = 0;
+                        int18 = 0;
                     };
                     break;
                 }
@@ -64,21 +66,21 @@ function script2603(int0: number, int1: number, int2: number, int3: number): num
             };
             CC_CREATE(int2, 5, int1);
             CC_SETPOSITION(int7, int8, 0, 0);
-            if ((int3 == 3)) {
+            if ((int18 == 3)) {
                 if ((varplayer_8332 != -1 as dbrow)) {
                     if ((enum_getvalue(33, 74, 2531 as cs2enum, int11) == varplayer_8332)) {
                         int15 = 1;
-                    } else if ((int3 == 4)) {
+                    } else if ((int18 == 4)) {
                         if (((int11 == varplayer_8333) || (item_getparam(int11, 7806) == varplayer_8333))) {
                             int15 = 1;
                         };
                     };
-                } else if ((int3 == 4)) {
+                } else if ((int18 == 4)) {
                     if (((int11 == varplayer_8333) || (item_getparam(int11, 7806) == varplayer_8333))) {
                         int15 = 1;
                     };
                 };
-            } else if ((int3 == 4)) {
+            } else if ((int18 == 4)) {
                 if (((int11 == varplayer_8333) || (item_getparam(int11, 7806) == varplayer_8333))) {
                     int15 = 1;
                 };
@@ -102,7 +104,7 @@ function script2603(int0: number, int1: number, int2: number, int3: number): num
             CC_SETSIZE(46, 46, 0, 0);
             CC_CREATE(int2, 5, int1);
             int1 = (int1 + 1);
-            if ((int3 == 3)) {
+            if ((int18 == 3)) {
                 CC_SETOP(2, `Deposit all ${OC_NAME(int11)}`);
                 CC_SETOP(3, `Deposit-X ${OC_NAME(int11)}`);
                 CC_SETOP(4, `Withdraw all ${OC_NAME(int11)}`);
@@ -120,9 +122,9 @@ function script2603(int0: number, int1: number, int2: number, int3: number): num
                 CC_SETOBJECT_NONUM(int11, 1);
             };
             cc_setparam(7811, int11);
-            if ((int3 != 5)) {
+            if ((int18 != 5)) {
                 CC_SETOP(1, `Select ${OC_NAME(int11)}`);
-                CC_SETONOP(callback(script2585, -2147483645, -2147483643, -2147483644, int3));
+                CC_SETONOP(callback(script2585, -2147483645, -2147483643, -2147483644, int18));
             };
             CC_SETPOSITION(((int7 + ((46 - 36) / 2)) + 2), (int8 + ((46 - 32) / 2)), 0, 0);
             CC_SETSIZE(36, 32, 0, 0);

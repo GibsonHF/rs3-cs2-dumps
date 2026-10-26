@@ -4,34 +4,44 @@ function script9690(int0: number): void {
     var int2 = 0;
     var int3 = IF_GETWIDTH(comp(1477, 322));  // toplevel_v2:twitch_window_background
     var int4 = IF_GETHEIGHT(comp(1477, 322));  // toplevel_v2:twitch_window_background
-    if ((((int0 == 26) && (varbitplayer_27169 == 0)) && (varbitplayer_19925 == 0))) {
-        [int1, int2] = script8726(8, int0);
-        if ((int1 == -1)) {
-            if ((int2 == -1)) {
-                if ((int3 <= 200)) {
-                    if ((int4 <= 135)) {
-                        IF_SETHIDE(true, comp(231, 17));  // twitch_stream:minimise_button
-                        IF_SETHIDE(false, comp(231, 16));  // twitch_stream:maximise_button
+    switch (int0) {
+        case 26: {
+            if (((varbitplayer_27169 == 0) && (varbitplayer_19925 == 0))) {
+                [int1, int2] = script8726(8, int0);
+                if ((int1 == -1)) {
+                    if ((int2 == -1)) {
+                        if ((int3 <= 200)) {
+                            if ((int4 <= 135)) {
+                                IF_SETHIDE(true, comp(231, 17));  // twitch_stream:minimise_button
+                                IF_SETHIDE(false, comp(231, 16));  // twitch_stream:maximise_button
+                            } else {
+                                IF_SETHIDE(false, comp(231, 17));  // twitch_stream:minimise_button
+                                IF_SETHIDE(true, comp(231, 16));  // twitch_stream:maximise_button
+                                return;
+                            };
+                        } else {
+                            IF_SETHIDE(false, comp(231, 17));  // twitch_stream:minimise_button
+                            IF_SETHIDE(true, comp(231, 16));  // twitch_stream:maximise_button
+                            return;
+                        };
                     } else {
-                        IF_SETHIDE(false, comp(231, 17));  // twitch_stream:minimise_button
                         IF_SETHIDE(true, comp(231, 16));  // twitch_stream:maximise_button
+                        IF_SETHIDE(true, comp(231, 17));  // twitch_stream:minimise_button
                         return;
                     };
                 } else {
-                    IF_SETHIDE(false, comp(231, 17));  // twitch_stream:minimise_button
                     IF_SETHIDE(true, comp(231, 16));  // twitch_stream:maximise_button
+                    IF_SETHIDE(true, comp(231, 17));  // twitch_stream:minimise_button
                     return;
                 };
-            } else {
-                IF_SETHIDE(true, comp(231, 16));  // twitch_stream:maximise_button
-                IF_SETHIDE(true, comp(231, 17));  // twitch_stream:minimise_button
-                return;
             };
-        } else {
-            IF_SETHIDE(true, comp(231, 16));  // twitch_stream:maximise_button
-            IF_SETHIDE(true, comp(231, 17));  // twitch_stream:minimise_button
-            return;
-        };
+            break;
+        }
+        case 47: {
+            stack(1);
+            script21136();
+            break;
+        }
     };
     return;
 }

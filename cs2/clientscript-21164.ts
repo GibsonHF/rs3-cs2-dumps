@@ -1,8 +1,10 @@
 //
 function script21164(): void {
-    if ((((varbitplayer_62213 == 1) && (STAFFMODLEVEL() >= 2)) && (unk11001() != 0))) {
-        stack(8);
-        return;
+    if (((varbitplayer_62213 == 1) || (varclient_8512 == 8))) {
+        if (((STAFFMODLEVEL() >= 2) && (unk11001() != 0))) {
+            stack(8);
+            return;
+        };
     };
     switch (int0) {
         case 0: {

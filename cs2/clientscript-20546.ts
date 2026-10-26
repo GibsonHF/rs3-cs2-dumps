@@ -20,5 +20,5 @@ function script20546(int0: number): string {
             return "12 Months Membership";
         }
     };
-    return dbrow_getfield(int0, 499824, 0);
+    return dbrow_getfield(int0, 499840, 0);
 }

@@ -53904,6 +53904,22 @@
     "id": "13754 [pre_championship_cooking_ingredients]"
   },
   {
+    "domain": "PLAYER",
+    "id": "13755 [championships_rr_trees]"
+  },
+  {
+    "domain": "PLAYER",
+    "id": "13756 [championships_rr_bestscore]"
+  },
+  {
+    "domain": "PLAYER",
+    "id": "13757 [championships_shop_bits]"
+  },
+  {
+    "domain": "PLAYER",
+    "id": "13758 [championships_shop2_base]"
+  },
+  {
     "domain": "NPC",
     "id": "0"
   },
@@ -118782,6 +118798,14 @@
   {
     "domain": "CONTROLLER",
     "id": "740"
+  },
+  {
+    "domain": "CONTROLLER",
+    "id": "741"
+  },
+  {
+    "domain": "CONTROLLER",
+    "id": "742"
   },
   {
     "domain": "CONTROLLER",

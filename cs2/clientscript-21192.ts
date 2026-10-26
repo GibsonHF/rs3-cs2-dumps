@@ -14,6 +14,8 @@ function script21192(): void {
             if ((CC_FINDBYCATEGORY() == 1)) {
                 CC_SETTEXT("Installed");
                 script7872(0, 1, 0, 0);
+                CC_SETONMOUSEREPEAT(callback());
+                script8808();
                 return;
             };
         };

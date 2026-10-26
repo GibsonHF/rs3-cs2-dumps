@@ -27,7 +27,20 @@ function script20610(int0: number): void {
                 break;
             }
         };
-        IF_SETHIDE(false, comp(1495, 39));  // marketplace_preview:preview_popup
+        switch (int1) {
+            case 1: {
+                IF_SETHIDE(false, comp(1495, 39));  // marketplace_preview:preview_popup
+                break;
+            }
+            case 2: {
+                script15230(1019);
+                break;
+            }
+            default: {
+                IF_SETHIDE(false, comp(1495, 39));  // marketplace_preview:preview_popup
+                break;
+            }
+        };
         script20625(1);
     } else {
         IF_SETHIDE(false, comp(1495, 39));  // marketplace_preview:preview_popup

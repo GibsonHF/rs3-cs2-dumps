@@ -97,6 +97,10 @@ function script15234(int0: number): void {
             string1 = "360001358698";
             break;
         }
+        case 1019: {
+            string1 = "207126289";
+            break;
+        }
         default: {
             return;
         }

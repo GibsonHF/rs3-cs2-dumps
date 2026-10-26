@@ -105599,6 +105599,35 @@
 	},
 	{
 		"extra": {
+			"rewardshop_item_list": 5926, // 4842 chisel:shop_inventory
+			"rewardshop_name": "Creekjoint's Boggy Builds", // 4843 chisel:shop_name
+			"rewardshop_currency": "Totems Completed", // 4844 chisel:shop_currency
+			"rewardshop_tab1": "Furniture Plans", // 4845 chisel:shop_tab1_name
+			"rewardshop_currency_singular": "Totems", // 4900
+			"rewardshop_currency_lowercase": "totems", // 5871
+			"rewardshop_currency_singular_lowercase": "totems", // 5874
+			"rewardshop_currency_doesnt_decrease": 1 // 8698
+		},
+		"id": 11388
+	},
+	{
+		"extra": {
+			"rewardshop_cost": 5, // 4850 chisel:rewards_interface_cost
+			"rewardshop_obj": 64343, // 4851 chisel:rewards_interface_item
+			"rewardshop_icon": -1, // 4852 chisel:rewards_interface_sprite
+			"rewardshop_buy_option_1": 1, // 4854
+			"rewardshop_tooltip": "Unlocks the small bogolin totems for your player-owned house.", // 4858 chisel:rewards_interface_item_desc
+			"rewardshop_usetooltip": 1, // 4862 chisel:outfit_piece_4
+			"rewardshop_buy_button_label": "Unlock", // 5091
+			"rewardshop_owned_button_label": "Unlocked", // 5093
+			"rewardshop_owned_button_tooltip": "You have unlocked this.", // 5204
+			"rewardshop_unaffordable_button_tooltip": "You need to complete more bogolin totems to unlock this.", // 7141
+			"rewardshop_no_preview": 1 // 9250
+		},
+		"id": 11389
+	},
+	{
+		"extra": {
 			"mtxmgt_category": 2, // 2531 chisel:solomons_category
 			"mtxmgt_subcat": 0, // 2532 chisel:SGS_sub_group
 			"mtxmgt_name": "Tropical Islander Headdress", // 2533 chisel:SGS_name
@@ -255363,7 +255392,7 @@
 			"task_next_id": 3020, // 1269
 			"task_icon": 4267, // 1271
 			"task_details": "Slay powerful demons as they cross over into this world.", // 1273 chisel:task_sub_text
-			"task_step_1": "Powerful demons will spawn in one of various locations, inside and outside of the wilderness <col=ffffff>every hour</col>.", // 1274 chisel:task_txt_1
+			"task_step_1": "Powerful demons will spawn at one of several locations in the Wilderness <col=ffffff>every hour</col>.", // 1274 chisel:task_txt_1
 			"task_step_2": "These demons are <col=ffffff>very dangerous</col> and it is recommended to fight them in a group. You can fight the demons <col=ffffff>as often as you wish</col>, but will have to deal a significant blow to the demon boss in order to be eligible for rewards.", // 1275 chisel:task_txt_2
 			"task_step_1_arrow": 103848177, // 1282
 			"task_rewards": "Various rewards including <col=ffffff>Demon slayer equipment</col>, <col=ffffff>Demon familiars</col> and <col=ffffff>Demon titles</col>.", // 1292 chisel:task_txt_8
@@ -411676,7 +411705,7 @@
 			"release_date": 7082, // 4742 chisel:th_available_date
 			"withdraw_date": -1, // 4743 chisel:available_till
 			"mtxmgt_parent_id": 1119, // 4744
-			"mtxmgt_source_custom": "This item can be obtained from the July 2021 3 month or 12 month package." // 4751 chisel:cosmetic_unlock_hint
+			"mtxmgt_source_custom": "This item can be obtained from a Membership Package on Mobile or Steam." // 4751 chisel:cosmetic_unlock_hint
 		},
 		"id": 45386
 	},
@@ -411689,7 +411718,7 @@
 			"mtxmgt_parent_struct": 45386, // 4419 chisel:outfit_parent_vbId
 			"release_date": 7082, // 4742 chisel:th_available_date
 			"withdraw_date": -1, // 4743 chisel:available_till
-			"mtxmgt_source_custom": "This item can be obtained from the July 2021 3 month or 12 month package." // 4751 chisel:cosmetic_unlock_hint
+			"mtxmgt_source_custom": "This item can be obtained from a Membership Package on Mobile or Steam." // 4751 chisel:cosmetic_unlock_hint
 		},
 		"id": 45387
 	},
@@ -411702,7 +411731,7 @@
 			"mtxmgt_parent_struct": 45386, // 4419 chisel:outfit_parent_vbId
 			"release_date": 7082, // 4742 chisel:th_available_date
 			"withdraw_date": -1, // 4743 chisel:available_till
-			"mtxmgt_source_custom": "This item can be obtained from the July 2021 3 month or 12 month package." // 4751 chisel:cosmetic_unlock_hint
+			"mtxmgt_source_custom": "This item can be obtained from a Membership Package on Mobile or Steam." // 4751 chisel:cosmetic_unlock_hint
 		},
 		"id": 45388
 	},
@@ -411715,7 +411744,7 @@
 			"mtxmgt_parent_struct": 45386, // 4419 chisel:outfit_parent_vbId
 			"release_date": 7082, // 4742 chisel:th_available_date
 			"withdraw_date": -1, // 4743 chisel:available_till
-			"mtxmgt_source_custom": "This item can be obtained from the July 2021 3 month or 12 month package." // 4751 chisel:cosmetic_unlock_hint
+			"mtxmgt_source_custom": "This item can be obtained from a Membership Package on Mobile or Steam." // 4751 chisel:cosmetic_unlock_hint
 		},
 		"id": 45389
 	},
@@ -411728,7 +411757,7 @@
 			"mtxmgt_parent_struct": 45386, // 4419 chisel:outfit_parent_vbId
 			"release_date": 7082, // 4742 chisel:th_available_date
 			"withdraw_date": -1, // 4743 chisel:available_till
-			"mtxmgt_source_custom": "This item can be obtained from the July 2021 3 month or 12 month package." // 4751 chisel:cosmetic_unlock_hint
+			"mtxmgt_source_custom": "This item can be obtained from a Membership Package on Mobile or Steam." // 4751 chisel:cosmetic_unlock_hint
 		},
 		"id": 45390
 	},
@@ -411741,7 +411770,7 @@
 			"mtxmgt_parent_struct": 45386, // 4419 chisel:outfit_parent_vbId
 			"release_date": 7082, // 4742 chisel:th_available_date
 			"withdraw_date": -1, // 4743 chisel:available_till
-			"mtxmgt_source_custom": "This item can be obtained from the July 2021 3 month or 12 month package." // 4751 chisel:cosmetic_unlock_hint
+			"mtxmgt_source_custom": "This item can be obtained from a Membership Package on Mobile or Steam." // 4751 chisel:cosmetic_unlock_hint
 		},
 		"id": 45391
 	},
@@ -411755,7 +411784,7 @@
 			"release_date": 7082, // 4742 chisel:th_available_date
 			"withdraw_date": -1, // 4743 chisel:available_till
 			"mtxmgt_parent_id": 1120, // 4744
-			"mtxmgt_source_custom": "This item can be obtained from the July 2021 Steam 1 month or 12 month package." // 4751 chisel:cosmetic_unlock_hint
+			"mtxmgt_source_custom": "This item can be obtained from a Membership Package on Mobile or Steam." // 4751 chisel:cosmetic_unlock_hint
 		},
 		"id": 45392
 	},
@@ -411772,7 +411801,7 @@
 			"release_date": 7082, // 4742 chisel:th_available_date
 			"withdraw_date": -1, // 4743 chisel:available_till
 			"mtxmgt_parent_id": 1121, // 4744
-			"mtxmgt_source_custom": "This item can be obtained from the July 2021 12 month package." // 4751 chisel:cosmetic_unlock_hint
+			"mtxmgt_source_custom": "This item can be obtained from a Membership Package on Mobile or Steam." // 4751 chisel:cosmetic_unlock_hint
 		},
 		"id": 45393
 	},
@@ -423462,7 +423491,8 @@
 			"mtxmgt_source": 4, // 2546
 			"release_date": 7537, // 4742 chisel:th_available_date
 			"withdraw_date": -1, // 4743 chisel:available_till
-			"mtxmgt_parent_id": 1391 // 4744
+			"mtxmgt_parent_id": 1391, // 4744
+			"mtxmgt_source_custom": "This item can be obtained from a Membership Package on Mobile or Steam." // 4751 chisel:cosmetic_unlock_hint
 		},
 		"id": 46361
 	},
@@ -423474,7 +423504,8 @@
 			"mtxmgt_source": 4, // 2546
 			"mtxmgt_parent_struct": 46361, // 4419 chisel:outfit_parent_vbId
 			"release_date": 7537, // 4742 chisel:th_available_date
-			"withdraw_date": -1 // 4743 chisel:available_till
+			"withdraw_date": -1, // 4743 chisel:available_till
+			"mtxmgt_source_custom": "This item can be obtained from a Membership Package on Mobile or Steam." // 4751 chisel:cosmetic_unlock_hint
 		},
 		"id": 46362
 	},
@@ -423486,7 +423517,8 @@
 			"mtxmgt_source": 4, // 2546
 			"mtxmgt_parent_struct": 46361, // 4419 chisel:outfit_parent_vbId
 			"release_date": 7537, // 4742 chisel:th_available_date
-			"withdraw_date": -1 // 4743 chisel:available_till
+			"withdraw_date": -1, // 4743 chisel:available_till
+			"mtxmgt_source_custom": "This item can be obtained from a Membership Package on Mobile or Steam." // 4751 chisel:cosmetic_unlock_hint
 		},
 		"id": 46363
 	},
@@ -423498,7 +423530,8 @@
 			"mtxmgt_source": 4, // 2546
 			"mtxmgt_parent_struct": 46361, // 4419 chisel:outfit_parent_vbId
 			"release_date": 7537, // 4742 chisel:th_available_date
-			"withdraw_date": -1 // 4743 chisel:available_till
+			"withdraw_date": -1, // 4743 chisel:available_till
+			"mtxmgt_source_custom": "This item can be obtained from a Membership Package on Mobile or Steam." // 4751 chisel:cosmetic_unlock_hint
 		},
 		"id": 46364
 	},
@@ -423510,7 +423543,8 @@
 			"mtxmgt_source": 4, // 2546
 			"mtxmgt_parent_struct": 46361, // 4419 chisel:outfit_parent_vbId
 			"release_date": 7537, // 4742 chisel:th_available_date
-			"withdraw_date": -1 // 4743 chisel:available_till
+			"withdraw_date": -1, // 4743 chisel:available_till
+			"mtxmgt_source_custom": "This item can be obtained from a Membership Package on Mobile or Steam." // 4751 chisel:cosmetic_unlock_hint
 		},
 		"id": 46365
 	},
@@ -423522,7 +423556,8 @@
 			"mtxmgt_source": 4, // 2546
 			"mtxmgt_parent_struct": 46361, // 4419 chisel:outfit_parent_vbId
 			"release_date": 7537, // 4742 chisel:th_available_date
-			"withdraw_date": -1 // 4743 chisel:available_till
+			"withdraw_date": -1, // 4743 chisel:available_till
+			"mtxmgt_source_custom": "This item can be obtained from a Membership Package on Mobile or Steam." // 4751 chisel:cosmetic_unlock_hint
 		},
 		"id": 46366
 	},
@@ -423538,7 +423573,8 @@
 			"mtxmgt_renameable": 0, // 4420
 			"release_date": 7537, // 4742 chisel:th_available_date
 			"withdraw_date": -1, // 4743 chisel:available_till
-			"mtxmgt_parent_id": 1392 // 4744
+			"mtxmgt_parent_id": 1392, // 4744
+			"mtxmgt_source_custom": "This item can be obtained from a Membership Package on Mobile or Steam." // 4751 chisel:cosmetic_unlock_hint
 		},
 		"id": 46367
 	},
@@ -507446,12 +507482,12 @@
 	},
 	{
 		"extra": {
-			"rewardshop_item_name": "Furniture plans: Harvest Hollow Portal Nexus", // 4849 chisel:rewards_interface_item_name
+			"rewardshop_item_name": "Furniture plans: Harvest Hollow Grandmaster Portal Nexus", // 4849 chisel:rewards_interface_item_name
 			"rewardshop_cost": 12500, // 4850 chisel:rewards_interface_cost
 			"rewardshop_obj": 64187, // 4851 chisel:rewards_interface_item
 			"rewardshop_is_reward_obj": 0, // 4853
 			"rewardshop_buy_option_1": 1, // 4854
-			"rewardshop_tooltip": "Unlocks the Harvest Hollow Portal Nexus furniture plans.", // 4858 chisel:rewards_interface_item_desc
+			"rewardshop_tooltip": "Unlocks the Harvest Hollow Grandmaster Portal Nexus furniture plans.", // 4858 chisel:rewards_interface_item_desc
 			"rewardshop_usetooltip": 1 // 4862 chisel:outfit_piece_4
 		},
 		"id": 53526
@@ -508646,5 +508682,157 @@
 			"withdraw_date": 6635 // 4743 chisel:available_till
 		},
 		"id": 53612
+	},
+	{
+		"extra": {
+			"rewardshop_cost": 25, // 4850 chisel:rewards_interface_cost
+			"rewardshop_obj": 64344, // 4851 chisel:rewards_interface_item
+			"rewardshop_icon": -1, // 4852 chisel:rewards_interface_sprite
+			"rewardshop_buy_option_1": 1, // 4854
+			"rewardshop_tooltip": "Unlocks the medium bogolin totems for your player-owned house.", // 4858 chisel:rewards_interface_item_desc
+			"rewardshop_usetooltip": 1, // 4862 chisel:outfit_piece_4
+			"rewardshop_buy_button_label": "Unlock", // 5091
+			"rewardshop_owned_button_label": "Unlocked", // 5093
+			"rewardshop_owned_button_tooltip": "You have unlocked this.", // 5204
+			"rewardshop_unaffordable_button_tooltip": "You need to complete more bogolin totems to unlock this.", // 7141
+			"rewardshop_no_preview": 1 // 9250
+		},
+		"id": 53613
+	},
+	{
+		"extra": {
+			"rewardshop_cost": 50, // 4850 chisel:rewards_interface_cost
+			"rewardshop_obj": 64345, // 4851 chisel:rewards_interface_item
+			"rewardshop_icon": -1, // 4852 chisel:rewards_interface_sprite
+			"rewardshop_buy_option_1": 1, // 4854
+			"rewardshop_tooltip": "Unlocks the large bogolin totems for your player-owned house.", // 4858 chisel:rewards_interface_item_desc
+			"rewardshop_usetooltip": 1, // 4862 chisel:outfit_piece_4
+			"rewardshop_buy_button_label": "Unlock", // 5091
+			"rewardshop_owned_button_label": "Unlocked", // 5093
+			"rewardshop_owned_button_tooltip": "You have unlocked this.", // 5204
+			"rewardshop_unaffordable_button_tooltip": "You need to complete more bogolin totems to unlock this.", // 7141
+			"rewardshop_no_preview": 1 // 9250
+		},
+		"id": 53614
+	},
+	{
+		"extra": {
+			"rewardshop_cost": 100, // 4850 chisel:rewards_interface_cost
+			"rewardshop_obj": 64346, // 4851 chisel:rewards_interface_item
+			"rewardshop_icon": -1, // 4852 chisel:rewards_interface_sprite
+			"rewardshop_buy_option_1": 1, // 4854
+			"rewardshop_tooltip": "Unlocks the mossy bogolin totem skins for your player-owned house.", // 4858 chisel:rewards_interface_item_desc
+			"rewardshop_usetooltip": 1, // 4862 chisel:outfit_piece_4
+			"rewardshop_buy_button_label": "Unlock", // 5091
+			"rewardshop_owned_button_label": "Unlocked", // 5093
+			"rewardshop_owned_button_tooltip": "You have unlocked this.", // 5204
+			"rewardshop_unaffordable_button_tooltip": "You need to complete more bogolin totems to unlock this.", // 7141
+			"rewardshop_no_preview": 1 // 9250
+		},
+		"id": 53615
+	},
+	{
+		"extra": {
+			"rewardshop_cost": 10, // 4850 chisel:rewards_interface_cost
+			"rewardshop_obj": 64348, // 4851 chisel:rewards_interface_item
+			"rewardshop_icon": -1, // 4852 chisel:rewards_interface_sprite
+			"rewardshop_buy_option_1": 1, // 4854
+			"rewardshop_tooltip": "Unlocks the single bog light for your player-owned house.", // 4858 chisel:rewards_interface_item_desc
+			"rewardshop_usetooltip": 1, // 4862 chisel:outfit_piece_4
+			"rewardshop_buy_button_label": "Unlock", // 5091
+			"rewardshop_owned_button_label": "Unlocked", // 5093
+			"rewardshop_owned_button_tooltip": "You have unlocked this.", // 5204
+			"rewardshop_unaffordable_button_tooltip": "You need to complete more bogolin totems to unlock this.", // 7141
+			"rewardshop_no_preview": 1 // 9250
+		},
+		"id": 53616
+	},
+	{
+		"extra": {
+			"rewardshop_cost": 20, // 4850 chisel:rewards_interface_cost
+			"rewardshop_obj": 64349, // 4851 chisel:rewards_interface_item
+			"rewardshop_icon": -1, // 4852 chisel:rewards_interface_sprite
+			"rewardshop_buy_option_1": 1, // 4854
+			"rewardshop_tooltip": "Unlocks the double bog light for your player-owned house.", // 4858 chisel:rewards_interface_item_desc
+			"rewardshop_usetooltip": 1, // 4862 chisel:outfit_piece_4
+			"rewardshop_buy_button_label": "Unlock", // 5091
+			"rewardshop_owned_button_label": "Unlocked", // 5093
+			"rewardshop_owned_button_tooltip": "You have unlocked this.", // 5204
+			"rewardshop_unaffordable_button_tooltip": "You need to complete more bogolin totems to unlock this.", // 7141
+			"rewardshop_no_preview": 1 // 9250
+		},
+		"id": 53617
+	},
+	{
+		"extra": {
+			"rewardshop_cost": 30, // 4850 chisel:rewards_interface_cost
+			"rewardshop_obj": 64350, // 4851 chisel:rewards_interface_item
+			"rewardshop_icon": -1, // 4852 chisel:rewards_interface_sprite
+			"rewardshop_buy_option_1": 1, // 4854
+			"rewardshop_tooltip": "Unlocks the triple bog light for your player-owned house.", // 4858 chisel:rewards_interface_item_desc
+			"rewardshop_usetooltip": 1, // 4862 chisel:outfit_piece_4
+			"rewardshop_buy_button_label": "Unlock", // 5091
+			"rewardshop_owned_button_label": "Unlocked", // 5093
+			"rewardshop_owned_button_tooltip": "You have unlocked this.", // 5204
+			"rewardshop_unaffordable_button_tooltip": "You need to complete more bogolin totems to unlock this.", // 7141
+			"rewardshop_no_preview": 1 // 9250
+		},
+		"id": 53618
+	},
+	{
+		"extra": {
+			"rewardshop_cost": 15, // 4850 chisel:rewards_interface_cost
+			"rewardshop_obj": 64351, // 4851 chisel:rewards_interface_item
+			"rewardshop_icon": -1, // 4852 chisel:rewards_interface_sprite
+			"rewardshop_buy_option_1": 1, // 4854
+			"rewardshop_tooltip": "Unlocks the swamp brazier for your player-owned house.", // 4858 chisel:rewards_interface_item_desc
+			"rewardshop_usetooltip": 1, // 4862 chisel:outfit_piece_4
+			"rewardshop_buy_button_label": "Unlock", // 5091
+			"rewardshop_owned_button_label": "Unlocked", // 5093
+			"rewardshop_owned_button_tooltip": "You have unlocked this.", // 5204
+			"rewardshop_unaffordable_button_tooltip": "You need to complete more bogolin totems to unlock this.", // 7141
+			"rewardshop_no_preview": 1 // 9250
+		},
+		"id": 53619
+	},
+	{
+		"extra": {
+			"rewardshop_cost": 75, // 4850 chisel:rewards_interface_cost
+			"rewardshop_obj": 64352, // 4851 chisel:rewards_interface_item
+			"rewardshop_icon": -1, // 4852 chisel:rewards_interface_sprite
+			"rewardshop_buy_option_1": 1, // 4854
+			"rewardshop_tooltip": "Unlocks the green swamp brazier for your player-owned house.", // 4858 chisel:rewards_interface_item_desc
+			"rewardshop_usetooltip": 1, // 4862 chisel:outfit_piece_4
+			"rewardshop_buy_button_label": "Unlock", // 5091
+			"rewardshop_owned_button_label": "Unlocked", // 5093
+			"rewardshop_owned_button_tooltip": "You have unlocked this.", // 5204
+			"rewardshop_unaffordable_button_tooltip": "You need to complete more bogolin totems to unlock this.", // 7141
+			"rewardshop_no_preview": 1 // 9250
+		},
+		"id": 53620
+	},
+	{
+		"extra": {
+			"combatv2_ability_name": "Dry Heat - The nearby braziers are empowered.", // 2794 chisel:spell_name
+			"combatv2_ability_icon": 36631, // 2802 chisel:spell_prayer_ability_sprite
+			"combatv2_buff_type": 0, // 8109 chisel:is_burn
+			"combatv2_buff_uses_stacks": 1, // 8110
+			"combatv2_buff_category": 7, // 8114 chisel:buff_category
+			"combatv2_buff_priority": 50, // 8115 chisel:buff_priority
+			"con_contracts_build5": 13664 // 9486
+		},
+		"id": 53621
+	},
+	{
+		"extra": {
+			"mtxmgt_category": 3, // 2531 chisel:solomons_category
+			"mtxmgt_subcat": 4, // 2532 chisel:SGS_sub_group
+			"mtxmgt_name": "the First Blood", // 2533 chisel:SGS_name
+			"mtxmgt_title_id": 883, // 2543 chisel:title_index_in_enum
+			"mtxmgt_source": 5, // 2546
+			"mtxmgt_was_limited_edition": 1, // 2547 chisel:nature_balance_value_9F3
+			"mtxmgt_source_custom": "This title cannot be obtained." // 4751 chisel:cosmetic_unlock_hint
+		},
+		"id": 53622
 	}
 ]

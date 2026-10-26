@@ -21,10 +21,13 @@ function script21200(): void {
                 int6 = (int6 + 4);
                 script14391(int1, int3, 0, int6, 0, 0, 0, 72, 1, 0);
                 stack(int1);
-                stack(0);
+                stack(int3);
                 stack(int4);
                 script21190();
-                if ((CC_FIND(int1, int7) == 1)) {
+                stack(int1);
+                stack((int7 + int3));
+                script21130();
+                if ((CC_FINDBYCATEGORY() == 1)) {
                     CC_DELETE();
                 };
                 int6 = (int6 + 72);

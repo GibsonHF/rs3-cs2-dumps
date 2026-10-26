@@ -6,6 +6,7 @@ function script21251(): void {
         varclient_8509 = int0;
     };
     script21154();
+    stack(1);
     script21244();
     script21139();
     return;

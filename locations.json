@@ -128628,6 +128628,64 @@
 		"occludes_2": false
 	},
 	{
+		"actions": [
+			null,
+			null,
+			null,
+			null,
+			"Move"
+		],
+		"active": true,
+		"extra": {
+			"construction_house_rename_op_flag": 1, // 1993
+			"construction_house_furniture_dbrow": 20330 // 4550
+		},
+		"id": 4615,
+		"model": false,
+		"models": [
+			{
+				"type": 10,
+				"values": [
+					146259
+				]
+			}
+		],
+		"name": "Toadtem",
+		"occludes_2": false,
+		"scaleX": 32,
+		"scaleY": 32,
+		"scaleZ": 32
+	},
+	{
+		"actions": [
+			null,
+			null,
+			null,
+			null,
+			"Move"
+		],
+		"active": true,
+		"extra": {
+			"construction_house_rename_op_flag": 1, // 1993
+			"construction_house_furniture_dbrow": 20331 // 4550
+		},
+		"id": 4616,
+		"model": false,
+		"models": [
+			{
+				"type": 10,
+				"values": [
+					146259
+				]
+			}
+		],
+		"name": "Toadtem",
+		"occludes_2": false,
+		"scaleX": 64,
+		"scaleY": 64,
+		"scaleZ": 64
+	},
+	{
 		"action_cursors": [
 			56,
 			0,
@@ -966747,6 +966805,35 @@
 			null,
 			null,
 			null,
+			"Move"
+		],
+		"active": true,
+		"extra": {
+			"construction_house_rename_op_flag": 1, // 1993
+			"construction_house_furniture_dbrow": 20368 // 4550
+		},
+		"id": 34279,
+		"model": false,
+		"models": [
+			{
+				"type": 10,
+				"values": [
+					146259
+				]
+			}
+		],
+		"name": "Toadtem",
+		"occludes_2": false,
+		"scaleX": 80,
+		"scaleY": 80,
+		"scaleZ": 80
+	},
+	{
+		"actions": [
+			null,
+			null,
+			null,
+			null,
 			"Remove"
 		],
 		"id": 34280,
@@ -1094028,12 +1094115,6 @@
 		"antimacro": true,
 		"blockrange": false,
 		"blockwalk": true,
-		"colours": [
-			{
-				"original": 15629,
-				"replacement": 15635
-			}
-		],
 		"hillchange": "tree_skew",
 		"hillchange_value": 80,
 		"id": 38741,
@@ -1094044,32 +1094125,18 @@
 			{
 				"type": 10,
 				"values": [
-					64864,
+					71655,
 					146675
 				]
 			}
 		],
 		"name": "Oak",
 		"occludes_2": false,
-		"scaleX": 90,
-		"scaleY": 90,
-		"scaleZ": 90,
+		"scaleX": 200,
+		"scaleY": 215,
+		"scaleZ": 200,
 		"scenery_icon_id": [
 			0
-		],
-		"textures": [
-			{
-				"original": 2653,
-				"replacement": 23232
-			},
-			{
-				"original": 2637,
-				"replacement": 23232
-			},
-			{
-				"original": 2665,
-				"replacement": 12356
-			}
 		],
 		"width": 3
 	},
@@ -1094332,12 +1094399,6 @@
 		"antimacro": true,
 		"blockrange": false,
 		"blockwalk": true,
-		"colours": [
-			{
-				"original": 15629,
-				"replacement": 15635
-			}
-		],
 		"hillchange": "tree_skew",
 		"hillchange_value": 80,
 		"id": 38754,
@@ -1094348,32 +1094409,18 @@
 			{
 				"type": 10,
 				"values": [
-					64865,
+					71655,
 					146675
 				]
 			}
 		],
 		"name": "Oak",
 		"occludes_2": false,
-		"scaleX": 90,
-		"scaleY": 90,
-		"scaleZ": 90,
+		"scaleX": 200,
+		"scaleY": 215,
+		"scaleZ": 200,
 		"scenery_icon_id": [
 			0
-		],
-		"textures": [
-			{
-				"original": 2653,
-				"replacement": 23232
-			},
-			{
-				"original": 2637,
-				"replacement": 23232
-			},
-			{
-				"original": 2665,
-				"replacement": 12356
-			}
 		],
 		"width": 3
 	},
@@ -1535475,7 +1535522,7 @@
 		],
 		"contrast": 20,
 		"hillchange": "tree_skew",
-		"hillchange_value": 80,
+		"hillchange_value": 32,
 		"id": 54766,
 		"length": 2,
 		"minimumlodleveloverride": 2,
@@ -1535491,9 +1535538,6 @@
 		],
 		"name": "Tree Stump",
 		"occludes_2": false,
-		"scaleX": 95,
-		"scaleY": 95,
-		"scaleZ": 95,
 		"scenery_icon_id": [
 			3
 		],
@@ -2073021,6 +2073065,585 @@
 		"width": 6
 	},
 	{
+		"actions": [
+			null,
+			null,
+			null,
+			null,
+			"Move"
+		],
+		"active": true,
+		"extra": {
+			"construction_house_rename_op_flag": 1, // 1993
+			"construction_house_furniture_dbrow": 20369 // 4550
+		},
+		"id": 73660,
+		"model": false,
+		"models": [
+			{
+				"type": 10,
+				"values": [
+					146258
+				]
+			}
+		],
+		"name": "Mollusc totem",
+		"occludes_2": false,
+		"scaleX": 32,
+		"scaleY": 32,
+		"scaleZ": 32
+	},
+	{
+		"actions": [
+			null,
+			null,
+			null,
+			null,
+			"Move"
+		],
+		"active": true,
+		"extra": {
+			"construction_house_rename_op_flag": 1, // 1993
+			"construction_house_furniture_dbrow": 20370 // 4550
+		},
+		"id": 73661,
+		"model": false,
+		"models": [
+			{
+				"type": 10,
+				"values": [
+					146258
+				]
+			}
+		],
+		"name": "Mollusc totem",
+		"occludes_2": false,
+		"scaleX": 64,
+		"scaleY": 64,
+		"scaleZ": 64
+	},
+	{
+		"actions": [
+			null,
+			null,
+			null,
+			null,
+			"Move"
+		],
+		"active": true,
+		"extra": {
+			"construction_house_rename_op_flag": 1, // 1993
+			"construction_house_furniture_dbrow": 20371 // 4550
+		},
+		"id": 73662,
+		"model": false,
+		"models": [
+			{
+				"type": 10,
+				"values": [
+					146258
+				]
+			}
+		],
+		"name": "Nautotem",
+		"occludes_2": false,
+		"scaleX": 80,
+		"scaleY": 80,
+		"scaleZ": 80
+	},
+	{
+		"actions": [
+			null,
+			null,
+			null,
+			null,
+			"Move"
+		],
+		"active": true,
+		"extra": {
+			"construction_house_rename_op_flag": 1, // 1993
+			"construction_house_furniture_dbrow": 20375 // 4550
+		},
+		"id": 73663,
+		"model": false,
+		"models": [
+			{
+				"type": 10,
+				"values": [
+					146255
+				]
+			}
+		],
+		"name": "Rummertum totem",
+		"occludes_2": false,
+		"scaleX": 32,
+		"scaleY": 32,
+		"scaleZ": 32
+	},
+	{
+		"actions": [
+			null,
+			null,
+			null,
+			null,
+			"Move"
+		],
+		"active": true,
+		"extra": {
+			"construction_house_rename_op_flag": 1, // 1993
+			"construction_house_furniture_dbrow": 20376 // 4550
+		},
+		"id": 73664,
+		"model": false,
+		"models": [
+			{
+				"type": 10,
+				"values": [
+					146255
+				]
+			}
+		],
+		"name": "Rummertum totem",
+		"occludes_2": false,
+		"scaleX": 64,
+		"scaleY": 64,
+		"scaleZ": 64
+	},
+	{
+		"actions": [
+			null,
+			null,
+			null,
+			null,
+			"Move"
+		],
+		"active": true,
+		"extra": {
+			"construction_house_rename_op_flag": 1, // 1993
+			"construction_house_furniture_dbrow": 20377 // 4550
+		},
+		"id": 73665,
+		"model": false,
+		"models": [
+			{
+				"type": 10,
+				"values": [
+					146255
+				]
+			}
+		],
+		"name": "Mumma Rummertum totem.",
+		"occludes_2": false,
+		"scaleX": 80,
+		"scaleY": 80,
+		"scaleZ": 80
+	},
+	{
+		"actions": [
+			null,
+			null,
+			null,
+			null,
+			"Move"
+		],
+		"active": true,
+		"extra": {
+			"construction_house_rename_op_flag": 1, // 1993
+			"construction_house_furniture_dbrow": 20372 // 4550
+		},
+		"id": 73666,
+		"model": false,
+		"models": [
+			{
+				"type": 10,
+				"values": [
+					146254
+				]
+			}
+		],
+		"name": "'Fenmoor' totem",
+		"occludes_2": false,
+		"scaleX": 32,
+		"scaleY": 32,
+		"scaleZ": 32
+	},
+	{
+		"actions": [
+			null,
+			null,
+			null,
+			null,
+			"Move"
+		],
+		"active": true,
+		"extra": {
+			"construction_house_rename_op_flag": 1, // 1993
+			"construction_house_furniture_dbrow": 20373 // 4550
+		},
+		"id": 73667,
+		"model": false,
+		"models": [
+			{
+				"type": 10,
+				"values": [
+					146254
+				]
+			}
+		],
+		"name": "'Fenmoor' totem",
+		"occludes_2": false,
+		"scaleX": 64,
+		"scaleY": 64,
+		"scaleZ": 64
+	},
+	{
+		"actions": [
+			null,
+			null,
+			null,
+			null,
+			"Move"
+		],
+		"active": true,
+		"extra": {
+			"construction_house_rename_op_flag": 1, // 1993
+			"construction_house_furniture_dbrow": 20374 // 4550
+		},
+		"id": 73668,
+		"model": false,
+		"models": [
+			{
+				"type": 10,
+				"values": [
+					146254
+				]
+			}
+		],
+		"name": "'Fenmoor' totem",
+		"occludes_2": false,
+		"scaleX": 80,
+		"scaleY": 80,
+		"scaleZ": 80
+	},
+	{
+		"actions": [
+			null,
+			null,
+			null,
+			null,
+			"Move"
+		],
+		"active": true,
+		"extra": {
+			"construction_house_rename_op_flag": 1, // 1993
+			"construction_house_furniture_dbrow": 20378 // 4550
+		},
+		"id": 73669,
+		"model": false,
+		"models": [
+			{
+				"type": 10,
+				"values": [
+					146237
+				]
+			}
+		],
+		"name": "Bog light",
+		"occludes_2": false
+	},
+	{
+		"actions": [
+			null,
+			null,
+			null,
+			null,
+			"Move"
+		],
+		"active": true,
+		"extra": {
+			"construction_house_rename_op_flag": 1, // 1993
+			"construction_house_furniture_dbrow": 20379 // 4550
+		},
+		"id": 73670,
+		"model": false,
+		"models": [
+			{
+				"type": 10,
+				"values": [
+					146238
+				]
+			}
+		],
+		"name": "Bog lights",
+		"occludes_2": false
+	},
+	{
+		"actions": [
+			null,
+			null,
+			null,
+			null,
+			"Move"
+		],
+		"active": true,
+		"extra": {
+			"construction_house_rename_op_flag": 1, // 1993
+			"construction_house_furniture_dbrow": 20380 // 4550
+		},
+		"id": 73671,
+		"model": false,
+		"models": [
+			{
+				"type": 10,
+				"values": [
+					146239
+				]
+			}
+		],
+		"name": "Bog lights",
+		"occludes_2": false
+	},
+	{
+		"actions": [
+			null,
+			null,
+			null,
+			null,
+			"Move"
+		],
+		"active": true,
+		"bgsound": 3473,
+		"blockwalk": true,
+		"extra": {
+			"construction_house_rename_op_flag": 1, // 1993
+			"construction_house_furniture_dbrow": 20381 // 4550
+		},
+		"id": 73672,
+		"length": 2,
+		"model": false,
+		"models": [
+			{
+				"type": 10,
+				"values": [
+					146226,
+					146228,
+					146227
+				]
+			}
+		],
+		"name": "Swamp brazier",
+		"occludes_2": false,
+		"vfx_count": 1,
+		"width": 2
+	},
+	{
+		"actions": [
+			null,
+			null,
+			null,
+			null,
+			"Move"
+		],
+		"active": true,
+		"bgsound": 3473,
+		"extra": {
+			"construction_house_rename_op_flag": 1, // 1993
+			"construction_house_furniture_dbrow": 20382 // 4550
+		},
+		"id": 73673,
+		"length": 2,
+		"model": false,
+		"models": [
+			{
+				"type": 10,
+				"values": [
+					146226,
+					146228
+				]
+			}
+		],
+		"name": "Swamp brazier",
+		"occludes_2": false,
+		"vfx_count": 1,
+		"width": 2
+	},
+	{
+		"actions": [
+			null,
+			null,
+			null,
+			null,
+			"Move"
+		],
+		"active": true,
+		"extra": {
+			"construction_house_rename_op_flag": 1, // 1993
+			"construction_house_furniture_dbrow": 20383 // 4550
+		},
+		"id": 73674,
+		"model": false,
+		"models": [
+			{
+				"type": 10,
+				"values": [
+					139879
+				]
+			}
+		],
+		"name": "Wolf statue (small)",
+		"occludes_2": false,
+		"scaleX": 64,
+		"scaleY": 64,
+		"scaleZ": 64
+	},
+	{
+		"actions": [
+			null,
+			null,
+			null,
+			null,
+			"Move"
+		],
+		"active": true,
+		"extra": {
+			"construction_house_rename_op_flag": 1, // 1993
+			"construction_house_furniture_dbrow": 20384 // 4550
+		},
+		"id": 73675,
+		"model": false,
+		"models": [
+			{
+				"type": 10,
+				"values": [
+					139879
+				]
+			}
+		],
+		"name": "Wolf statue (medium)",
+		"occludes_2": false
+	},
+	{
+		"actions": [
+			null,
+			null,
+			null,
+			null,
+			"Move"
+		],
+		"active": true,
+		"extra": {
+			"construction_house_rename_op_flag": 1, // 1993
+			"construction_house_furniture_dbrow": 20385 // 4550
+		},
+		"id": 73676,
+		"model": false,
+		"models": [
+			{
+				"type": 10,
+				"values": [
+					139878
+				]
+			}
+		],
+		"name": "Wolf statue (large)",
+		"occludes_2": false
+	},
+	{
+		"actions": [
+			null,
+			null,
+			null,
+			null,
+			"Move"
+		],
+		"active": true,
+		"colours": [
+			{
+				"original": 16335,
+				"replacement": -15072
+			}
+		],
+		"extra": {
+			"construction_house_rename_op_flag": 1, // 1993
+			"construction_house_furniture_dbrow": 20386 // 4550
+		},
+		"id": 73677,
+		"model": false,
+		"models": [
+			{
+				"type": 10,
+				"values": [
+					133419
+				]
+			}
+		],
+		"name": "Opulent chaise longue",
+		"occludes_2": false
+	},
+	{
+		"actions": [
+			null,
+			null,
+			null,
+			null,
+			"Move"
+		],
+		"active": true,
+		"extra": {
+			"construction_house_rename_op_flag": 1, // 1993
+			"construction_house_furniture_dbrow": 20387 // 4550
+		},
+		"id": 73678,
+		"length": 3,
+		"model": false,
+		"models": [
+			{
+				"type": 10,
+				"values": [
+					146220
+				]
+			}
+		],
+		"name": "Colossi Statue",
+		"occludes_2": false,
+		"scaleX": 48,
+		"scaleY": 48,
+		"scaleZ": 48,
+		"width": 3
+	},
+	{
+		"actions": [
+			null,
+			null,
+			null,
+			null,
+			"Move"
+		],
+		"active": true,
+		"extra": {
+			"construction_house_rename_op_flag": 1, // 1993
+			"construction_house_furniture_dbrow": 20388 // 4550
+		},
+		"id": 73679,
+		"model": false,
+		"models": [
+			{
+				"type": 10,
+				"values": [
+					139076
+				]
+			},
+			{
+				"type": 22,
+				"values": [
+					139077
+				]
+			}
+		],
+		"name": "Bogwart",
+		"occludes_2": false
+	},
+	{
 		"active": false,
 		"findable": true,
 		"forcedecor": true,
@@ -2073244,6 +2073867,1059 @@
 			}
 		],
 		"translateZ": -32
+	},
+	{
+		"actions": [
+			null,
+			null,
+			null,
+			null,
+			"Move"
+		],
+		"active": true,
+		"colours": [
+			{
+				"original": -24127,
+				"replacement": 18883
+			},
+			{
+				"original": -30508,
+				"replacement": 13532
+			}
+		],
+		"extra": {
+			"construction_house_rename_op_flag": 1, // 1993
+			"construction_house_furniture_dbrow": 20389 // 4550
+		},
+		"id": 73686,
+		"model": false,
+		"models": [
+			{
+				"type": 10,
+				"values": [
+					139072
+				]
+			},
+			{
+				"type": 22,
+				"values": [
+					139073
+				]
+			}
+		],
+		"name": "Luminous mushroom",
+		"occludes_2": false,
+		"scaleX": 200,
+		"scaleY": 200,
+		"scaleZ": 200,
+		"textures": [
+			{
+				"original": 23220,
+				"replacement": 23574
+			}
+		]
+	},
+	{
+		"actions": [
+			null,
+			null,
+			null,
+			null,
+			"Move"
+		],
+		"active": true,
+		"colours": [
+			{
+				"original": 1736,
+				"replacement": -15665
+			}
+		],
+		"extra": {
+			"construction_house_rename_op_flag": 1, // 1993
+			"construction_house_furniture_dbrow": 20390 // 4550
+		},
+		"id": 73687,
+		"model": false,
+		"models": [
+			{
+				"type": 10,
+				"values": [
+					137890
+				]
+			},
+			{
+				"type": 22,
+				"values": [
+					137891
+				]
+			}
+		],
+		"name": "Nightshade mushroom",
+		"occludes_2": false,
+		"scaleX": 200,
+		"scaleY": 200,
+		"scaleZ": 200,
+		"textures": [
+			{
+				"original": 22966,
+				"replacement": 23575
+			}
+		]
+	},
+	{
+		"actions": [
+			null,
+			null,
+			null,
+			null,
+			"Move"
+		],
+		"active": true,
+		"colours": [
+			{
+				"original": 1994,
+				"replacement": -26045
+			}
+		],
+		"extra": {
+			"construction_house_rename_op_flag": 1, // 1993
+			"construction_house_furniture_dbrow": 20391 // 4550
+		},
+		"id": 73688,
+		"model": false,
+		"models": [
+			{
+				"type": 10,
+				"values": [
+					137878
+				]
+			},
+			{
+				"type": 22,
+				"values": [
+					137879
+				]
+			}
+		],
+		"name": "Blue deathcap",
+		"occludes_2": false,
+		"scaleX": 200,
+		"scaleY": 200,
+		"scaleZ": 200,
+		"textures": [
+			{
+				"original": 22959,
+				"replacement": 23573
+			}
+		]
+	},
+	{
+		"actions": [
+			null,
+			null,
+			null,
+			null,
+			"Move"
+		],
+		"active": true,
+		"extra": {
+			"construction_house_rename_op_flag": 1, // 1993
+			"construction_house_furniture_dbrow": 20392 // 4550
+		},
+		"id": 73689,
+		"model": false,
+		"models": [
+			{
+				"type": 10,
+				"values": [
+					137897
+				]
+			},
+			{
+				"type": 22,
+				"values": [
+					137898
+				]
+			}
+		],
+		"name": "Morchella mushrooms",
+		"occludes_2": false
+	},
+	{
+		"actions": [
+			null,
+			null,
+			null,
+			null,
+			"Move"
+		],
+		"active": true,
+		"extra": {
+			"construction_house_rename_op_flag": 1, // 1993
+			"construction_house_furniture_dbrow": 20393 // 4550
+		},
+		"id": 73690,
+		"model": false,
+		"models": [
+			{
+				"type": 10,
+				"values": [
+					139085
+				]
+			},
+			{
+				"type": 22,
+				"values": [
+					139086
+				]
+			}
+		],
+		"name": "Marshtable mushrooms",
+		"occludes_2": false
+	},
+	{
+		"actions": [
+			null,
+			null,
+			null,
+			null,
+			"Move"
+		],
+		"active": true,
+		"extra": {
+			"construction_house_rename_op_flag": 1, // 1993
+			"construction_house_furniture_dbrow": 20394 // 4550
+		},
+		"id": 73691,
+		"model": false,
+		"models": [
+			{
+				"type": 10,
+				"values": [
+					139089
+				]
+			},
+			{
+				"type": 22,
+				"values": [
+					139090
+				]
+			}
+		],
+		"name": "Toad tongue mushrooms",
+		"occludes_2": false
+	},
+	{
+		"actions": [
+			null,
+			null,
+			null,
+			null,
+			"Move"
+		],
+		"active": true,
+		"colours": [
+			{
+				"original": 4420,
+				"replacement": -28609
+			}
+		],
+		"extra": {
+			"construction_house_rename_op_flag": 1, // 1993
+			"construction_house_furniture_dbrow": 20395 // 4550
+		},
+		"id": 73692,
+		"model": false,
+		"models": [
+			{
+				"type": 10,
+				"values": [
+					137884
+				]
+			},
+			{
+				"type": 22,
+				"values": [
+					137885
+				]
+			}
+		],
+		"name": "Sourcap mushrooms",
+		"occludes_2": false,
+		"textures": [
+			{
+				"original": 22962,
+				"replacement": 22963
+			}
+		]
+	},
+	{
+		"actions": [
+			null,
+			null,
+			null,
+			null,
+			"Move"
+		],
+		"active": true,
+		"blockwalk": false,
+		"extra": {
+			"construction_house_rename_op_flag": 1 // 1993
+		},
+		"id": 73693,
+		"model": false,
+		"models": [
+			{
+				"type": 4,
+				"values": [
+					71647
+				]
+			}
+		],
+		"name": "Havenhythe painting",
+		"occludes_2": false,
+		"translateY": -40
+	},
+	{
+		"actions": [
+			null,
+			null,
+			null,
+			null,
+			"Move"
+		],
+		"active": true,
+		"colours": [
+			{
+				"original": 5191,
+				"replacement": 6331
+			},
+			{
+				"original": 8245,
+				"replacement": 12708
+			}
+		],
+		"extra": {
+			"construction_house_rename_op_flag": 1 // 1993
+		},
+		"id": 73694,
+		"model": false,
+		"models": [
+			{
+				"type": 10,
+				"values": [
+					146259
+				]
+			}
+		],
+		"name": "Toadtem",
+		"occludes_2": false,
+		"scaleX": 32,
+		"scaleY": 32,
+		"scaleZ": 32,
+		"textures": [
+			{
+				"original": 25140,
+				"replacement": 25141
+			}
+		]
+	},
+	{
+		"actions": [
+			null,
+			null,
+			null,
+			null,
+			"Move"
+		],
+		"active": true,
+		"colours": [
+			{
+				"original": 5191,
+				"replacement": 6331
+			},
+			{
+				"original": 8245,
+				"replacement": 12708
+			}
+		],
+		"extra": {
+			"construction_house_rename_op_flag": 1 // 1993
+		},
+		"id": 73695,
+		"model": false,
+		"models": [
+			{
+				"type": 10,
+				"values": [
+					146259
+				]
+			}
+		],
+		"name": "Toadtem",
+		"occludes_2": false,
+		"scaleX": 64,
+		"scaleY": 64,
+		"scaleZ": 64,
+		"textures": [
+			{
+				"original": 25140,
+				"replacement": 25141
+			}
+		]
+	},
+	{
+		"actions": [
+			null,
+			null,
+			null,
+			null,
+			"Move"
+		],
+		"active": true,
+		"colours": [
+			{
+				"original": 5191,
+				"replacement": 6331
+			},
+			{
+				"original": 8245,
+				"replacement": 12708
+			}
+		],
+		"extra": {
+			"construction_house_rename_op_flag": 1 // 1993
+		},
+		"id": 73696,
+		"model": false,
+		"models": [
+			{
+				"type": 10,
+				"values": [
+					146259
+				]
+			}
+		],
+		"name": "Toadtem",
+		"occludes_2": false,
+		"scaleX": 80,
+		"scaleY": 80,
+		"scaleZ": 80,
+		"textures": [
+			{
+				"original": 25140,
+				"replacement": 25141
+			}
+		]
+	},
+	{
+		"actions": [
+			null,
+			null,
+			null,
+			null,
+			"Move"
+		],
+		"active": true,
+		"colours": [
+			{
+				"original": 5191,
+				"replacement": 6331
+			},
+			{
+				"original": 8245,
+				"replacement": 12708
+			}
+		],
+		"extra": {
+			"construction_house_rename_op_flag": 1 // 1993
+		},
+		"id": 73697,
+		"model": false,
+		"models": [
+			{
+				"type": 10,
+				"values": [
+					146258
+				]
+			}
+		],
+		"name": "Mollusc totem",
+		"occludes_2": false,
+		"scaleX": 32,
+		"scaleY": 32,
+		"scaleZ": 32,
+		"textures": [
+			{
+				"original": 25143,
+				"replacement": 25144
+			}
+		]
+	},
+	{
+		"actions": [
+			null,
+			null,
+			null,
+			null,
+			"Move"
+		],
+		"active": true,
+		"colours": [
+			{
+				"original": 5191,
+				"replacement": 6331
+			},
+			{
+				"original": 8245,
+				"replacement": 12708
+			}
+		],
+		"extra": {
+			"construction_house_rename_op_flag": 1 // 1993
+		},
+		"id": 73698,
+		"model": false,
+		"models": [
+			{
+				"type": 10,
+				"values": [
+					146258
+				]
+			}
+		],
+		"name": "Mollusc totem",
+		"occludes_2": false,
+		"scaleX": 64,
+		"scaleY": 64,
+		"scaleZ": 64,
+		"textures": [
+			{
+				"original": 25143,
+				"replacement": 25144
+			}
+		]
+	},
+	{
+		"actions": [
+			null,
+			null,
+			null,
+			null,
+			"Move"
+		],
+		"active": true,
+		"colours": [
+			{
+				"original": 5191,
+				"replacement": 6331
+			},
+			{
+				"original": 8245,
+				"replacement": 12708
+			}
+		],
+		"extra": {
+			"construction_house_rename_op_flag": 1 // 1993
+		},
+		"id": 73699,
+		"model": false,
+		"models": [
+			{
+				"type": 10,
+				"values": [
+					146258
+				]
+			}
+		],
+		"name": "Nautotem",
+		"occludes_2": false,
+		"scaleX": 80,
+		"scaleY": 80,
+		"scaleZ": 80,
+		"textures": [
+			{
+				"original": 25143,
+				"replacement": 25144
+			}
+		]
+	},
+	{
+		"actions": [
+			null,
+			null,
+			null,
+			null,
+			"Move"
+		],
+		"active": true,
+		"colours": [
+			{
+				"original": 5191,
+				"replacement": 6331
+			},
+			{
+				"original": 8245,
+				"replacement": 12708
+			}
+		],
+		"extra": {
+			"construction_house_rename_op_flag": 1 // 1993
+		},
+		"id": 73700,
+		"model": false,
+		"models": [
+			{
+				"type": 10,
+				"values": [
+					146254
+				]
+			}
+		],
+		"name": "'Fenmoor' totem",
+		"occludes_2": false,
+		"scaleX": 32,
+		"scaleY": 32,
+		"scaleZ": 32,
+		"textures": [
+			{
+				"original": 25138,
+				"replacement": 25139
+			}
+		]
+	},
+	{
+		"actions": [
+			null,
+			null,
+			null,
+			null,
+			"Move"
+		],
+		"active": true,
+		"colours": [
+			{
+				"original": 5191,
+				"replacement": 6331
+			},
+			{
+				"original": 8245,
+				"replacement": 12708
+			}
+		],
+		"extra": {
+			"construction_house_rename_op_flag": 1 // 1993
+		},
+		"id": 73701,
+		"model": false,
+		"models": [
+			{
+				"type": 10,
+				"values": [
+					146254
+				]
+			}
+		],
+		"name": "'Fenmoor' totem",
+		"occludes_2": false,
+		"scaleX": 64,
+		"scaleY": 64,
+		"scaleZ": 64,
+		"textures": [
+			{
+				"original": 25138,
+				"replacement": 25139
+			}
+		]
+	},
+	{
+		"actions": [
+			null,
+			null,
+			null,
+			null,
+			"Move"
+		],
+		"active": true,
+		"colours": [
+			{
+				"original": 5191,
+				"replacement": 6331
+			},
+			{
+				"original": 8245,
+				"replacement": 12708
+			}
+		],
+		"extra": {
+			"construction_house_rename_op_flag": 1 // 1993
+		},
+		"id": 73702,
+		"model": false,
+		"models": [
+			{
+				"type": 10,
+				"values": [
+					146254
+				]
+			}
+		],
+		"name": "'Fenmoor' totem",
+		"occludes_2": false,
+		"scaleX": 80,
+		"scaleY": 80,
+		"scaleZ": 80,
+		"textures": [
+			{
+				"original": 25138,
+				"replacement": 25139
+			}
+		]
+	},
+	{
+		"actions": [
+			null,
+			null,
+			null,
+			null,
+			"Move"
+		],
+		"active": true,
+		"colours": [
+			{
+				"original": 5191,
+				"replacement": 6331
+			},
+			{
+				"original": 8245,
+				"replacement": 12708
+			}
+		],
+		"extra": {
+			"construction_house_rename_op_flag": 1 // 1993
+		},
+		"id": 73703,
+		"model": false,
+		"models": [
+			{
+				"type": 10,
+				"values": [
+					146255
+				]
+			}
+		],
+		"name": "Rummertum totem",
+		"occludes_2": false,
+		"scaleX": 32,
+		"scaleY": 32,
+		"scaleZ": 32,
+		"textures": [
+			{
+				"original": 25140,
+				"replacement": 25141
+			}
+		]
+	},
+	{
+		"actions": [
+			null,
+			null,
+			null,
+			null,
+			"Move"
+		],
+		"active": true,
+		"colours": [
+			{
+				"original": 5191,
+				"replacement": 6331
+			},
+			{
+				"original": 8245,
+				"replacement": 12708
+			}
+		],
+		"extra": {
+			"construction_house_rename_op_flag": 1 // 1993
+		},
+		"id": 73704,
+		"model": false,
+		"models": [
+			{
+				"type": 10,
+				"values": [
+					146255
+				]
+			}
+		],
+		"name": "Rummertum totem",
+		"occludes_2": false,
+		"scaleX": 64,
+		"scaleY": 64,
+		"scaleZ": 64,
+		"textures": [
+			{
+				"original": 25140,
+				"replacement": 25141
+			}
+		]
+	},
+	{
+		"actions": [
+			null,
+			null,
+			null,
+			null,
+			"Move"
+		],
+		"active": true,
+		"colours": [
+			{
+				"original": 5191,
+				"replacement": 6331
+			},
+			{
+				"original": 8245,
+				"replacement": 12708
+			}
+		],
+		"extra": {
+			"construction_house_rename_op_flag": 1 // 1993
+		},
+		"id": 73705,
+		"model": false,
+		"models": [
+			{
+				"type": 10,
+				"values": [
+					146255
+				]
+			}
+		],
+		"name": "Mumma Rummertum totem.",
+		"occludes_2": false,
+		"scaleX": 80,
+		"scaleY": 80,
+		"scaleZ": 80,
+		"textures": [
+			{
+				"original": 25140,
+				"replacement": 25141
+			}
+		]
+	},
+	{
+		"actions": [
+			null,
+			null,
+			null,
+			null,
+			"Move"
+		],
+		"active": true,
+		"blockwalk": false,
+		"extra": {
+			"construction_house_rename_op_flag": 1 // 1993
+		},
+		"id": 73706,
+		"model": false,
+		"models": [
+			{
+				"type": 4,
+				"values": [
+					71654
+				]
+			}
+		],
+		"name": "'Wood giants' painting",
+		"occludes_2": false,
+		"translateY": -40
+	},
+	{
+		"actions": [
+			null,
+			null,
+			null,
+			null,
+			"Move"
+		],
+		"active": true,
+		"blockwalk": false,
+		"extra": {
+			"construction_house_rename_op_flag": 1 // 1993
+		},
+		"id": 73707,
+		"model": false,
+		"models": [
+			{
+				"type": 4,
+				"values": [
+					71648
+				]
+			}
+		],
+		"name": "'Echoes' painting",
+		"occludes_2": false,
+		"translateY": -40
+	},
+	{
+		"actions": [
+			null,
+			null,
+			null,
+			null,
+			"Move"
+		],
+		"active": true,
+		"blockwalk": false,
+		"extra": {
+			"construction_house_rename_op_flag": 1 // 1993
+		},
+		"id": 73708,
+		"model": false,
+		"models": [
+			{
+				"type": 4,
+				"values": [
+					71649
+				]
+			}
+		],
+		"name": "'Downstream' painting",
+		"occludes_2": false,
+		"translateY": -40
+	},
+	{
+		"actions": [
+			null,
+			null,
+			null,
+			null,
+			"Move"
+		],
+		"active": true,
+		"blockwalk": false,
+		"extra": {
+			"construction_house_rename_op_flag": 1 // 1993
+		},
+		"id": 73709,
+		"model": false,
+		"models": [
+			{
+				"type": 4,
+				"values": [
+					71650
+				]
+			}
+		],
+		"name": "'The moon pool' painting",
+		"occludes_2": false,
+		"translateY": -40
+	},
+	{
+		"actions": [
+			null,
+			null,
+			null,
+			null,
+			"Move"
+		],
+		"active": true,
+		"blockwalk": false,
+		"extra": {
+			"construction_house_rename_op_flag": 1 // 1993
+		},
+		"id": 73710,
+		"model": false,
+		"models": [
+			{
+				"type": 4,
+				"values": [
+					71651
+				]
+			}
+		],
+		"name": "'Stonevein' painting",
+		"occludes_2": false,
+		"translateY": -40
+	},
+	{
+		"actions": [
+			null,
+			null,
+			null,
+			null,
+			"Move"
+		],
+		"active": true,
+		"blockwalk": false,
+		"extra": {
+			"construction_house_rename_op_flag": 1 // 1993
+		},
+		"id": 73711,
+		"model": false,
+		"models": [
+			{
+				"type": 4,
+				"values": [
+					71646
+				]
+			}
+		],
+		"name": "'The blood city' painting",
+		"occludes_2": false,
+		"translateY": -40
+	},
+	{
+		"active": true,
+		"bgsound": 3473,
+		"blockrange": false,
+		"blockwalk": true,
+		"id": 73712,
+		"length": 2,
+		"morphs_1": {
+			"ids": [
+				140871,
+				140871
+			],
+			"varbit": 61956,
+			"varp": -1
+		},
+		"width": 2
+	},
+	{
+		"active": true,
+		"bgsound": 3473,
+		"blockrange": false,
+		"blockwalk": true,
+		"id": 73713,
+		"length": 2,
+		"morphs_1": {
+			"ids": [
+				140871,
+				140871
+			],
+			"varbit": 61957,
+			"varp": -1
+		},
+		"width": 2
+	},
+	{
+		"active": true,
+		"bgsound": 3473,
+		"blockrange": false,
+		"blockwalk": true,
+		"id": 73714,
+		"length": 2,
+		"morphs_1": {
+			"ids": [
+				140871,
+				140871
+			],
+			"varbit": 61958,
+			"varp": -1
+		},
+		"width": 2
 	},
 	{
 		"active": false,
@@ -3409072,11 +3410748,9 @@
 	},
 	{
 		"active": true,
-		"ambient": 35,
 		"antimacro": true,
 		"blockrange": false,
 		"blockwalk": true,
-		"contrast": 50,
 		"hillchange": "tree_skew",
 		"hillchange_value": 80,
 		"id": 125489,
@@ -3629300,7 +3630974,8 @@
 	},
 	{
 		"active": true,
-		"blockwalk": false,
+		"blockrange": false,
+		"blockwalk": true,
 		"id": 134322,
 		"model": false,
 		"models": [
@@ -3694585,7 +3696260,7 @@
 		],
 		"name": "Cave",
 		"occludes_2": false,
-		"width": 2
+		"width": 5
 	},
 	{
 		"active": false,

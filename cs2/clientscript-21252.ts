@@ -26,7 +26,6 @@ function script21252(): void {
         };
         int2 = (int2 + 1);
     };
-    int1 = int0;
     stack(int4);
     stack(int0);
     stack(int1);

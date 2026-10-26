@@ -1556,6 +1556,12 @@ function script8232(int0: number): number {
             if ((OC_CATEGORY(int0) == 4617 as category)) {
                 return 0;
             };
+            if ((enum_hasoutput(33, 5927 as cs2enum, int0) == 1)) {
+                return 5;
+            };
+            if ((enum_hasoutput(33, 5928 as cs2enum, int0) == 1)) {
+                return 6;
+            };
             return script8113(int0, -1);
         }
     };

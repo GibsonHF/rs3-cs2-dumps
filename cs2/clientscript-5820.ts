@@ -5,7 +5,7 @@ function script5820(int0: number): string {
             return `${TOSTRING_LOCALISED((50000 - varplayer_10237), 1)} Left`;
         }
         case 4842: {
-            return `${TOSTRING_LOCALISED((dbrow_getfield(int0, 549328, 0) - varbitplayer_50401), 1)} Left`;
+            return `${TOSTRING_LOCALISED((dbrow_getfield(int0, 549344, 0) - varbitplayer_50401), 1)} Left`;
         }
         case 4152:
         case 4135: {

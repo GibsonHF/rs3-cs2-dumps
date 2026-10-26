@@ -7,6 +7,7 @@ function script21180(): void {
     stack(-1);
     stack(-1);
     script21261();
+    stack(1);
     script21136();
     return;
 }

@@ -14,5 +14,5 @@ function script20661(int0: number): string {
             return "Become a RuneScape member and you'll get access to loads of members-only content, including extra quests, new skills, awesome minigames and more places to explore!<br><br>PLUS the following Rewards and Benefits:<br>- Sclerite Outfit<br>- Rolly the Dung Beetle Pet<br>- Sclerite Cape<br>- 100 Bank Spaces";
         }
     };
-    return dbrow_getfield(int0, 499856, 0);
+    return dbrow_getfield(int0, 499872, 0);
 }

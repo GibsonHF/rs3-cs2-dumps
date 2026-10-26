@@ -8,5 +8,5 @@ function script20660(int0: number): string {
             return "<col=E0D471>12 Months Membership (Recurring/Subscription)</col>";
         }
     };
-    return dbrow_getfield(int0, 499840, 0);
+    return dbrow_getfield(int0, 499856, 0);
 }

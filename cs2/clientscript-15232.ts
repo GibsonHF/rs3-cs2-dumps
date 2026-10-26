@@ -318,9 +318,7 @@ function script15232(int0: number, int1: number): void {
             break;
         }
         case 2518: {
-            if (((PLATFORMTYPE() == 0) || (PLATFORMTYPE() == 5))) {
-                OPENURL("billing_core", "userdetails.ws", 1);
-            };
+            OPENURLRAW("https://account.runescape.com/memberships", 1);
             break;
         }
         case 2519: {
@@ -336,7 +334,7 @@ function script15232(int0: number, int1: number): void {
             break;
         }
         default: {
-            if (((int0 >= 1000) && (int0 <= 1018))) {
+            if (((int0 >= 1000) && (int0 <= 1019))) {
                 script15234(int0);
             };
             break;

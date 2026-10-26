@@ -4230,7 +4230,7 @@ function script13621(int0: number): number {
             break;
         }
         case 44211: {
-            if ((varbitplayer_42139 >= 1)) {
+            if ((varbitplayer_42139 == 1)) {
                 return 1;
             };
             break;

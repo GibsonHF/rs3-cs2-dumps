@@ -3,23 +3,23 @@ function script12115(int0: number): number {
     if ((int0 == -1)) {
         return 0;
     };
-    if (((dbrow_getfield(int0, 549216, 0) == 0) && (script4148() == 1))) {
+    if (((dbrow_getfield(int0, 549232, 0) == 0) && (script4148() == 1))) {
         return 0;
     };
-    if (((dbrow_getfield(int0, 549264, 0) == 0) && (script248() == 1))) {
+    if (((dbrow_getfield(int0, 549280, 0) == 0) && (script248() == 1))) {
         return 0;
     };
-    if (((dbrow_getfield(int0, 549232, 0) == 0) && (PLAYERMEMBER() == false))) {
+    if (((dbrow_getfield(int0, 549248, 0) == 0) && (PLAYERMEMBER() == false))) {
         return 0;
     };
-    if (((dbrow_getfield(int0, 549248, 0) == 0) && (PLAYERMEMBER() == true))) {
+    if (((dbrow_getfield(int0, 549264, 0) == 0) && (PLAYERMEMBER() == true))) {
         return 0;
     };
-    if (((dbrow_getfield(int0, 549280, 0) == 1) && (script12961(int0) == 1))) {
+    if (((dbrow_getfield(int0, 549296, 0) == 1) && (script12961(int0) == 1))) {
         return 0;
     };
-    var int1 = dbrow_getfield(int0, 549296, 0);
-    var int2 = dbrow_getfield(int0, 549312, 0);
+    var int1 = dbrow_getfield(int0, 549312, 0);
+    var int2 = dbrow_getfield(int0, 549328, 0);
     if (((varplayer_3079 < int1) || (varplayer_3079 > int2))) {
         return 0;
     };
@@ -127,7 +127,7 @@ function script12115(int0: number): number {
             return script16079(varbitplayer_34085, varbitplayer_50401, 4842);
         }
         case 7003: {
-            if (((varplayer_3079 >= dbrow_getfield(12788 as dbrow, 549296, 0)) && (varplayer_3079 <= dbrow_getfield(12788 as dbrow, 549312, 0)))) {
+            if (((varplayer_3079 >= dbrow_getfield(12788 as dbrow, 549312, 0)) && (varplayer_3079 <= dbrow_getfield(12788 as dbrow, 549328, 0)))) {
                 return 0;
             };
             if ((varbitplayer_52327 == 1)) {
