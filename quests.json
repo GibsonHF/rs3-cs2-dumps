@@ -16570,7 +16570,7 @@
 			"quest_age": 2, // 7831 chisel:quest_age_period
 			"quest_release_year": 2024, // 7834
 			"quest_series": 2, // 7836
-			"quest_hidden": 0, // 7838 chisel:quest_is_subquest
+			"quest_hidden": 1, // 7838 chisel:quest_is_subquest
 			"quest_length": 2, // 7855
 			"quest_holiday_hub_signposting": "You can start it by speaking to any of The Horsemen, found in the central courtyard.", // 9392
 			"quest_start_location": 2 // 9393
@@ -16864,7 +16864,7 @@
 			"quest_age": 2, // 7831 chisel:quest_age_period
 			"quest_release_year": 2025, // 7834
 			"quest_series": 2, // 7836
-			"quest_hidden": 0, // 7838 chisel:quest_is_subquest
+			"quest_hidden": 1, // 7838 chisel:quest_is_subquest
 			"quest_length": 2, // 7855
 			"quest_holiday_hub_signposting": "You can start it by speaking to Guy near the bonfire.", // 9392
 			"quest_start_location": 2 // 9393
@@ -17322,7 +17322,7 @@
 			"quest_age": 2, // 7831 chisel:quest_age_period
 			"quest_release_year": 2026, // 7834
 			"quest_series": 2, // 7836
-			"quest_hidden": 0, // 7838 chisel:quest_is_subquest
+			"quest_hidden": 1, // 7838 chisel:quest_is_subquest
 			"quest_length": 2, // 7855
 			"quest_holiday_hub_signposting": "You can start it by speaking to Death in the central courtyard of the Harvest Hollow.", // 9392
 			"quest_start_location": 2 // 9393

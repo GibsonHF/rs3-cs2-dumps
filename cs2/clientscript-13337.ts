@@ -22,9 +22,6 @@ function script13337(int0: number): string {
         case 49811: {
             return `${inttostring(script18944(), 10)} Credits`;
         }
-        case 40302: {
-            return `${inttostring(script18942(), 10)} ${OC_NAME(56018 as obj)}`;
-        }
     };
     var string0 = struct_getparam(int0, 4849);
     var int3 = struct_getparam(int0, 4851);

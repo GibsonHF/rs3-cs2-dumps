@@ -191,6 +191,18 @@ function script7149(int0: number): number {
             };
             break;
         }
+        case 20453: {
+            if (((((((((((varbitplayer_14770 == 1) || (varbitplayer_14771 == 1)) || (varbitplayer_14772 == 1)) || (varbitplayer_14773 == 1)) || (varbitplayer_14774 == 1)) || (varbitplayer_14775 == 1)) || (varbitplayer_14776 == 1)) || (varbitplayer_14777 == 1)) || (varbitplayer_14780 == 1)) || (varbitplayer_14781 == 1))) {
+                return 0;
+            };
+            return 1;
+        }
+        case 20468: {
+            if (((varbitplayer_14768 == 1) || (varbitplayer_14778 == 1))) {
+                return 0;
+            };
+            return 1;
+        }
     };
     return 1;
 }

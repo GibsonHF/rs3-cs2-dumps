@@ -19,7 +19,6 @@ function script14364(int0: number, int1: number): void {
     var int5 = 48447 as obj;
     var int6 = 0;
     var string0 = script13591();
-    var string1 = script13685();
     while ((int1 != int0)) {
         if ((CC_FIND(comp(517, 201), int1) == 1)) {  // bank:bank_inv
             int5 = CC_GETINVOBJECT();

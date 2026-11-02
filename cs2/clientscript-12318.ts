@@ -253,198 +253,154 @@ function script12318(int0: number): void {
     var int23 = ((IF_GETWIDTH(int3) + varbitclient_30621) / int22);
     int23 = MIN(int23, int21);
     IF_SETSIZE(((int23 * int22) - varbitclient_30621), 0, 0, 1, int2);
-    int7 = struct_getparam(int0, 5651);
-    var string0 = "";
-    var int24 = 0;
-    if ((int7 != comp(-1, 65535))) {
-        if ((IF_GETX(int2) >= int22)) {
-            IF_SETSIZE(IF_GETWIDTH(int2), 0, 1, 1, int7);
-        } else {
-            IF_SETSIZE(0, 0, 0, 1, int7);
-        };
-        CC_DELETEALL(int7);
-        CC_CREATE(int7, 3, 0);
-        CC_SETPOSITION(0, 0, 0, 0);
-        CC_SETSIZE(0, 0, 1, 1);
-        CC_SETFILL(1);
-        CC_SETTRANS(205);
-        if (((varbitclient_30618 == 3) || (varbitclient_30618 == 1))) {
-            if (((PLATFORMTYPE() == 0) || (PLATFORMTYPE() == 5))) {
-                CC_SETOP(1, "Open link");
-                if ((varbitclient_30618 == 3)) {
-                    CC_SETONOP(callback(script10395, -2147483645, -2147483643));
-                } else if ((varbitclient_30618 == 1)) {
-                    CC_SETONOP(callback(script1148, -2147483645, -2147483643, varbitclient_30619));
-                };
-            };
-            CC_SETCOLOUR(script10495(3));
-            CC_SETONMOUSEOVER(callback(script1356, -2147483645, -2147483643, script10495(4)));
-            CC_SETONMOUSELEAVE(callback(script1356, -2147483645, -2147483643, script10495(3)));
-            CC_SETONCLICK(callback(script2140, -2147483645, -2147483643, 180));
-            CC_SETONRELEASE(callback(script2140, -2147483645, -2147483643, 205));
-            string0 = script9465(14);
-            CC_SETONMOUSEREPEAT(callback(script3876, string0, -2147483645, -2147483643));
-            if (((PLATFORMTYPE() == 0) || (PLATFORMTYPE() == 5))) {
-                CC_CREATE(int7, 5, 1);
-                CC_SETGRAPHIC(26766 as graphic);
-                CC_SETTRANS(127);
-                CC_SETSIZE(16, 16, 0, 0);
-                int24 = MIN(0, (IF_GETWIDTH(CC_GETLAYER()) - CC_GETWIDTH()));
-                int24 = ((int24 / 2) + MODULO(int24, 2));
-                CC_SETPOSITION(int24, 0, 1, 1);
-            };
-        } else {
-            CC_SETCOLOUR(script10495(5));
-        };
-    };
     int23 = (int23 - varbitclient_30621);
-    var int25 = IF_GETHEIGHT(int2);
-    var int26 = -1;
-    var int27 = 0;
-    var int28 = 1;
+    var int24 = IF_GETHEIGHT(int2);
+    var int25 = -1;
+    var int26 = 0;
+    var int27 = 1;
+    var int28 = 0;
     var int29 = 0;
-    var int30 = 0;
-    int26 = (int26 + 1);
-    while ((int26 < int23)) {
-        if ((int28 == 1)) {
-            [int28, int29, int30] = script12310(96796686, ((((int23 - 1) - int26) * int19) + int20), int19);
-            int29 = script12311(int29, int30);
-            if ((int29 > int17)) {
-                int17 = int29;
-            } else if ((int29 < int18)) {
-                int18 = int29;
+    int25 = (int25 + 1);
+    while ((int25 < int23)) {
+        if ((int27 == 1)) {
+            [int27, int28, int29] = script12310(96796686, ((((int23 - 1) - int25) * int19) + int20), int19);
+            int28 = script12311(int28, int29);
+            if ((int28 > int17)) {
+                int17 = int28;
+            } else if ((int28 < int18)) {
+                int18 = int28;
             };
         };
-        CC_CREATE(int2, 3, int26);
+        CC_CREATE(int2, 3, int25);
         if ((varbitclient_30621 == 1)) {
             CC_SETSIZE((int22 - 1), 0, 0, 0);
             CC_SETFILL(1);
         } else {
             CC_SETSIZE(int22, 0, 0, 0);
         };
-        cc_setparam(5946, int29);
+        cc_setparam(5946, int28);
         CC_SETTRANS(127);
         CC_SETONMOUSEREPEAT(callback(script12326, -2147483645, -2147483643));
     };
+    var int30 = 0;
     var int31 = 0;
-    var int32 = 0;
     if ((varbitclient_30621 == 1)) {
         int23 = (int23 + 1);
         if ((int23 > 0)) {
-            if (((int20 == 0) || (int28 == 0))) {
+            if (((int20 == 0) || (int27 == 0))) {
+                int28 = 0;
                 int29 = 0;
-                int30 = 0;
             } else {
-                [int28, int29, int30] = script12310(96796686, 0, int20);
+                [int27, int28, int29] = script12310(96796686, 0, int20);
             };
-            if ((int28 == 1)) {
-                [int28, int31, int32] = script12310(96796687, 0, 1);
+            if ((int27 == 1)) {
+                [int27, int30, int31] = script12310(96796687, 0, 1);
             };
-            if ((int28 == 1)) {
-                [int29, int30] = script12313(int29, int30, int31, int32);
+            if ((int27 == 1)) {
+                [int28, int29] = script12313(int28, int29, int30, int31);
             };
-            int29 = script12311(int29, int30);
-            if ((int29 > int17)) {
-                int17 = int29;
-            } else if ((int29 < int18)) {
-                int18 = int29;
+            int28 = script12311(int28, int29);
+            if ((int28 > int17)) {
+                int17 = int28;
+            } else if ((int28 < int18)) {
+                int18 = int28;
             };
-            CC_CREATE(int2, 3, int26);
+            CC_CREATE(int2, 3, int25);
             CC_SETSIZE((int22 - 1), 0, 0, 0);
             CC_SETFILL(1);
-            cc_setparam(5946, int29);
+            cc_setparam(5946, int28);
             CC_SETTRANS(127);
             CC_SETONMOUSEREPEAT(callback(script12326, -2147483645, -2147483643));
         };
     };
     IF_SETPARAM_INT(5644, int17, int2);
     IF_SETPARAM_INT(5645, int18, int2);
-    var int33 = -1;
-    if ((int28 == 0)) {
-        int33 = (CLIENTCLOCK() + 1500);
+    var int32 = -1;
+    if ((int27 == 0)) {
+        int32 = (CLIENTCLOCK() + 1500);
     };
-    IF_SETONTIMER(callback(script12322, int0, int33), int3);
+    IF_SETONTIMER(callback(script12322, int0, int32), int3);
     IF_SETONVARTRANSMIT(callback(script12317, int0, 3814, 1), int3);
-    string0 = "";
-    var int34 = -1;
-    var int35 = 0;
-    var int36 = script10495(0);
-    var int37 = 16777215;
-    var int38 = script10495(3);
+    var string0 = "";
+    var int33 = -1;
+    var int34 = 0;
+    var int35 = script10495(0);
+    var int36 = 16777215;
+    var int37 = script10495(3);
+    var int38 = 0;
     var int39 = 0;
-    var int40 = 0;
-    var int41 = -1;
-    var int42 = 0;
+    var int40 = -1;
+    var int41 = 0;
     if ((int23 > 0)) {
         IF_SETONSCROLLWHEEL(callback(script12301, -2147483646), int3);
         if ((int8 == 1)) {
-            int35 = (((10 * varclient_5157) * int19) / 50);
+            int34 = (((10 * varclient_5157) * int19) / 50);
             string0 = `Zoom: ${script12304()}`;
-            string0 = `Interval: ${script12291(int35)}<br>${string0}`;
-            int35 = (int35 * int23);
-            string0 = `Time window: ${script12291(int35)}<br>${string0}`;
+            string0 = `Interval: ${script12291(int34)}<br>${string0}`;
+            int34 = (int34 * int23);
+            string0 = `Time window: ${script12291(int34)}<br>${string0}`;
         } else if (((int1 == 1) && (IF_GETHIDE(int15) == false))) {
-            int35 = (((10 * varclient_5157) * int19) / 50);
+            int34 = (((10 * varclient_5157) * int19) / 50);
             string0 = `Zoom: ${script12304()}`;
-            string0 = `Interval: ${script12291(int35)}<br>${string0}`;
-            int35 = (int35 * int23);
-            string0 = `Time window: ${script12291(int35)}<br>${string0}`;
+            string0 = `Interval: ${script12291(int34)}<br>${string0}`;
+            int34 = (int34 * int23);
+            string0 = `Time window: ${script12291(int34)}<br>${string0}`;
         };
         if (((int1 == 1) && (IF_GETHIDE(int15) == false))) {
             IF_SETONSCROLLWHEEL(callback(script12301, -2147483646), int15);
             CC_CREATE(int15, 4, 0);
             CC_SETTEXTFONT(26 as fontmetrics);
-            CC_SETCOLOUR(int37);
+            CC_SETCOLOUR(int36);
             CC_SETTEXTSHADOW(true);
             CC_SETTEXTALIGN(1, 1, 0);
             CC_SETPOSITION(0, 0, 2, 2);
             CC_SETSIZE(0, 0, 1, 1);
-            CC_SETTEXT(script12291(int35));
+            CC_SETTEXT(script12291(int34));
             CC_SETONMOUSEREPEAT(callback(script3876, string0, -2147483645, -2147483643));
         };
         if ((int8 == 1)) {
             CC_CREATE(int5, 4, 0);
             CC_SETTEXTFONT(29 as fontmetrics);
-            CC_SETCOLOUR(int37);
+            CC_SETCOLOUR(int36);
             CC_SETTEXTSHADOW(true);
             CC_SETTEXTALIGN(2, 1, 0);
             CC_SETPOSITION(0, 0, 2, 0);
-            [int34, int39] = script12299(varbitclient_30618);
-            CC_SETTEXT(enum_getvalue(0, 36, 10039 as cs2enum, int34));
+            [int33, int38] = script12299(varbitclient_30618);
+            CC_SETTEXT(enum_getvalue(0, 36, 10039 as cs2enum, int33));
             CC_SETSIZE((PARAWIDTH(CC_GETTEXT(), 1000, CC_GETFONTMETRICS()) + 4), 4, 0, 1);
             int16 = IF_GETWIDTH(CC_GETLAYER());
-            int40 = PARAWIDTH("-888W", 1000, CC_GETFONTMETRICS());
+            int39 = PARAWIDTH("-888W", 1000, CC_GETFONTMETRICS());
             if ((varbitplayer_28120 == 1)) {
-                int41 = PARAWIDTH("-2,088,888,888", 1000, CC_GETFONTMETRICS());
+                int40 = PARAWIDTH("-2,088,888,888", 1000, CC_GETFONTMETRICS());
             };
-            if ((int16 >= (((MAX(int40, int41) + CC_GETWIDTH()) + 25) + 4))) {
-            } else if ((int16 < int40)) {
-                int42 = 3;
+            if ((int16 >= (((MAX(int39, int40) + CC_GETWIDTH()) + 25) + 4))) {
+            } else if ((int16 < int39)) {
+                int41 = 3;
+            } else if ((int16 < (int39 + CC_GETWIDTH()))) {
+                int41 = 3;
             } else if ((int16 < (int40 + CC_GETWIDTH()))) {
-                int42 = 3;
-            } else if ((int16 < (int41 + CC_GETWIDTH()))) {
-                int42 = 2;
-            } else if ((int16 < (((MAX(int40, int41) + CC_GETWIDTH()) + 25) + 4))) {
-                int42 = 1;
+                int41 = 2;
+            } else if ((int16 < (((MAX(int39, int40) + CC_GETWIDTH()) + 25) + 4))) {
+                int41 = 1;
             };
             CC_CREATE[1](int5, 4, 1);
             CC_SETTEXTFONT[1](29 as fontmetrics);
-            CC_SETCOLOUR[1](int37);
+            CC_SETCOLOUR[1](int36);
             CC_SETTEXTSHADOW[1](true);
             CC_SETTEXTALIGN[1](2, 1, 0);
             CC_SETPOSITION[1](0, 0, 0, 0);
-            if ((int42 >= 3)) {
+            if ((int41 >= 3)) {
                 CC_SETHIDE(true);
                 CC_SETSIZE[1](0, 4, 1, 1);
             } else {
                 CC_SETSIZE[1](CC_GETWIDTH(), 4, 1, 1);
             };
-            cc_setparam[1](4261, int35);
-            if ((int42 >= 2)) {
+            cc_setparam[1](4261, int34);
+            if ((int41 >= 2)) {
                 cc_setparam[1](5946, 0);
             };
             CC_CREATE(int5, 5, 2);
-            if ((int42 < 1)) {
+            if ((int41 < 1)) {
                 CC_SETSIZE(25, 25, 0, 0);
                 CC_SETPOSITION(0, (((28 - 4) - 25) / 2), 0, 0);
                 CC_SETGRAPHIC(script12288(varbitclient_30618, varbitclient_30619));
@@ -457,14 +413,14 @@ function script12318(int0: number): void {
         if ((int10 == 1)) {
             CC_CREATE(int9, 4, 0);
             CC_SETTEXTFONT(26 as fontmetrics);
-            CC_SETCOLOUR(int37);
+            CC_SETCOLOUR(int36);
             CC_SETTEXTSHADOW(true);
             CC_SETTEXTALIGN(2, 1, 0);
             CC_SETPOSITION(4, 0, 2, 2);
             CC_SETSIZE(4, script7593("8888", 1000, CC_GETFONTMETRICS(), 0), 1, 0);
             CC_CREATE(int9, 4, 1);
             CC_SETTEXTFONT(26 as fontmetrics);
-            CC_SETCOLOUR(int37);
+            CC_SETCOLOUR(int36);
             CC_SETTEXTSHADOW(true);
             CC_SETTEXTALIGN(2, 1, 0);
             CC_SETPOSITION(4, 0, 2, 0);
@@ -473,14 +429,14 @@ function script12318(int0: number): void {
         if ((varbitclient_30626 == 1)) {
             CC_CREATE(int11, 4, 0);
             CC_SETTEXTFONT(26 as fontmetrics);
-            CC_SETCOLOUR(int37);
+            CC_SETCOLOUR(int36);
             CC_SETTEXTSHADOW(true);
             CC_SETTEXTALIGN(0, 1, 0);
             CC_SETPOSITION(1, 0, 0, 2);
             CC_SETSIZE(0, script7593("8888", 1000, CC_GETFONTMETRICS(), 0), 1, 0);
             CC_CREATE(int11, 4, 1);
             CC_SETTEXTFONT(26 as fontmetrics);
-            CC_SETCOLOUR(int37);
+            CC_SETCOLOUR(int36);
             CC_SETTEXTSHADOW(true);
             CC_SETTEXTALIGN(0, 1, 0);
             CC_SETPOSITION(1, 0, 0, 0);
@@ -488,7 +444,7 @@ function script12318(int0: number): void {
         };
         CC_CREATE(int3, 3, 0);
         if ((varbitclient_30628 == 1)) {
-            CC_SETPOSITION(0, (int27 / int23), 0, 2);
+            CC_SETPOSITION(0, (int26 / int23), 0, 2);
             CC_SETSIZE(0, 2, 1, 0);
             CC_SETCOLOUR(16773632);
             CC_SETTRANS(127);

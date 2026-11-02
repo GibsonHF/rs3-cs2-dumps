@@ -62,7 +62,8 @@ function script20604(int0: number, int1: number, int2: number, int3: number, int
         }
         case 7: {
             stack(int7);
-            script616(int8, int12, int10, struct_getparam(int0, 9457), int19, struct_getparam(int0, 4267), struct_getparam(int0, 9426));
+            stack(int8);
+            script616(int12, int10, struct_getparam(int0, 9457), int19, struct_getparam(int0, 4267), struct_getparam(int0, 9426), struct_getparam(int0, 2526));
             break;
         }
         default: {

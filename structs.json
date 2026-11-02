@@ -55080,21 +55080,6 @@
 	},
 	{
 		"extra": {
-			"mtxmgt_item_struct": 46372, // 4414 chisel:outfit_info_vbId
-			"rewardshop_item_name": "Woodland Archer's Outfit token (untradeable)", // 4849 chisel:rewards_interface_item_name
-			"rewardshop_cost": 50000, // 4850 chisel:rewards_interface_cost
-			"rewardshop_obj": 56276, // 4851 chisel:rewards_interface_item
-			"rewardshop_icon": -1, // 4852 chisel:rewards_interface_sprite
-			"rewardshop_is_reward_obj": 1, // 4853
-			"rewardshop_buy_option_1": 1, // 4854
-			"rewardshop_tooltip": "You will receive the Woodland Archer's Outfit token (untradeable)", // 4858 chisel:rewards_interface_item_desc
-			"rewardshop_usetooltip": 1, // 4862 chisel:outfit_piece_4
-			"rewardshop_required_freespace": 1 // 4899
-		},
-		"id": 4386
-	},
-	{
-		"extra": {
 			"mtxmgt_category": 2, // 2531 chisel:solomons_category
 			"mtxmgt_subcat": 20, // 2532 chisel:SGS_sub_group
 			"mtxmgt_name": "Dark Mage outfit", // 2533 chisel:SGS_name
@@ -61767,7 +61752,7 @@
 			"mtxmgt_subcat": 7, // 2532 chisel:SGS_sub_group
 			"mtxmgt_name": "Corrupted Split Soul", // 2533 chisel:SGS_name
 			"mtxmgt_preview_anim": 38112, // 2535
-			"mtxmgt_preview_spotanim": 38113, // 2536
+			"mtxmgt_preview_spotanim": 35451, // 2536
 			"mtxmgt_preview_spotanim_model": 145871, // 2537
 			"mtxmgt_preview_zoom_offset": 150, // 2540
 			"mtxmgt_preview_y_offset": 50, // 2541
@@ -81502,7 +81487,7 @@
 		"extra": {
 			"skillguide_name": "Life points", // 2210 chisel:skillguide_what
 			"skillguide_info": "Your Constitution tells you how healthy your character can be. A character with low Constitution will only have a small number of life points when they're fully healed, whereas a character with a high Constitution can have many more life points.", // 2211 chisel:skillguide_req_items
-			"skillguide_level": 0, // 2212 chisel:required_level?
+			"skillguide_level": 1, // 2212 chisel:required_level?
 			"skillguide_item": 14640, // 2213
 			"skillguide_skill": 6, // 2215
 			"skillguide_extrareq": "[Select for more information on life points]", // 2216 chisel:skillguide_req_extra
@@ -271285,17 +271270,17 @@
 			"toplevel_v2_parent_tab_suboverlay_1_x": 0, // 3457
 			"toplevel_v2_parent_tab_suboverlay_1_y": 0, // 3458
 			"toplevel_v2_parent_tab_suboverlay_1_width": 340, // 3459
-			"toplevel_v2_parent_tab_suboverlay_1_height": 190, // 3460
+			"toplevel_v2_parent_tab_suboverlay_1_height": 450, // 3460
 			"toplevel_v2_parent_tab_suboverlay_2": 1737, // 3461
-			"toplevel_v2_parent_tab_suboverlay_2_x": 0, // 3462
-			"toplevel_v2_parent_tab_suboverlay_2_y": 198, // 3463
-			"toplevel_v2_parent_tab_suboverlay_2_width": 340, // 3464
-			"toplevel_v2_parent_tab_suboverlay_2_height": 206, // 3465
+			"toplevel_v2_parent_tab_suboverlay_2_x": 348, // 3462
+			"toplevel_v2_parent_tab_suboverlay_2_y": 0, // 3463
+			"toplevel_v2_parent_tab_suboverlay_2_width": 394, // 3464
+			"toplevel_v2_parent_tab_suboverlay_2_height": 154, // 3465
 			"toplevel_v2_parent_tab_suboverlay_3": 1736, // 3466
 			"toplevel_v2_parent_tab_suboverlay_3_x": 348, // 3467
-			"toplevel_v2_parent_tab_suboverlay_3_y": 0, // 3468
+			"toplevel_v2_parent_tab_suboverlay_3_y": 164, // 3468
 			"toplevel_v2_parent_tab_suboverlay_3_width": 394, // 3469
-			"toplevel_v2_parent_tab_suboverlay_3_height": 450 // 3470
+			"toplevel_v2_parent_tab_suboverlay_3_height": 160 // 3470
 		},
 		"id": 33123
 	},
@@ -271306,17 +271291,17 @@
 			"toplevel_v2_parent_tab_suboverlay_1_x": 0, // 3457
 			"toplevel_v2_parent_tab_suboverlay_1_y": 0, // 3458
 			"toplevel_v2_parent_tab_suboverlay_1_width": 340, // 3459
-			"toplevel_v2_parent_tab_suboverlay_1_height": 306, // 3460
+			"toplevel_v2_parent_tab_suboverlay_1_height": 450, // 3460
 			"toplevel_v2_parent_tab_suboverlay_2": 1735, // 3461
-			"toplevel_v2_parent_tab_suboverlay_2_x": 0, // 3462
-			"toplevel_v2_parent_tab_suboverlay_2_y": 314, // 3463
+			"toplevel_v2_parent_tab_suboverlay_2_x": 348, // 3462
+			"toplevel_v2_parent_tab_suboverlay_2_y": 0, // 3463
 			"toplevel_v2_parent_tab_suboverlay_2_width": 340, // 3464
 			"toplevel_v2_parent_tab_suboverlay_2_height": 90, // 3465
 			"toplevel_v2_parent_tab_suboverlay_3": 1734, // 3466
 			"toplevel_v2_parent_tab_suboverlay_3_x": 348, // 3467
-			"toplevel_v2_parent_tab_suboverlay_3_y": 0, // 3468
+			"toplevel_v2_parent_tab_suboverlay_3_y": 98, // 3468
 			"toplevel_v2_parent_tab_suboverlay_3_width": 394, // 3469
-			"toplevel_v2_parent_tab_suboverlay_3_height": 450 // 3470
+			"toplevel_v2_parent_tab_suboverlay_3_height": 120 // 3470
 		},
 		"id": 33124
 	},
@@ -295132,8 +295117,8 @@
 			"motw_banner_de": 23140, // 6385
 			"motw_banner_fr": 23141, // 6386
 			"motw_banner_pt": 23187, // 6387
-			"motw_start_date": 8829, // 6388
-			"motw_end_date": 8839, // 6389
+			"motw_start_date": 9018, // 6388
+			"motw_end_date": 9028, // 6389
 			"motw_onclick": 4 // 6392
 		},
 		"id": 35237
@@ -354535,20 +354520,6 @@
 			"toplevel_v2_window_titled_header_text_minus_width_override": 0 // 9397
 		},
 		"id": 40301
-	},
-	{
-		"extra": {
-			"rewardshop_item_name": "2000 DXP Tokens", // 4849 chisel:rewards_interface_item_name
-			"rewardshop_cost": 0, // 4850 chisel:rewards_interface_cost
-			"rewardshop_obj": 56018, // 4851 chisel:rewards_interface_item
-			"rewardshop_buy_option_1": 1, // 4854
-			"rewardshop_tooltip": "Exchange 1hr of DXP time for 2000 DXP Tokens.", // 4858 chisel:rewards_interface_item_desc
-			"rewardshop_requirements": "Ironmen are unable to purchase this item.", // 4859
-			"rewardshop_usetooltip": 1, // 4862 chisel:outfit_piece_4
-			"rewardshop_buy_button_label": "Exchange", // 5091
-			"rewardshop_cost_override_string": "1hr of DXP time" // 8685
-		},
-		"id": 40302
 	},
 	{
 		"extra": {
@@ -441622,65 +441593,6 @@
 	},
 	{
 		"extra": {
-			"rewardshop_item_list": 16173, // 4842 chisel:shop_inventory
-			"rewardshop_name": "DXP Token Store", // 4843 chisel:shop_name
-			"rewardshop_currency": "DXP Tokens", // 4844 chisel:shop_currency
-			"rewardshop_tab1": "Tokens", // 4845 chisel:shop_tab1_name
-			"rewardshop_tab2": "Skill Outfits", // 4846 chisel:shop_tab2_name
-			"rewardshop_tab3": "Special Outfits", // 4847 chisel:shop_tab3_name
-			"rewardshop_tab4": "Other", // 4848 chisel:shop_tab4_name
-			"rewardshop_currency_obj": 56018, // 4866 chisel:shop_currency_itemId
-			"rewardshop_currency_singular": "DXP Token", // 4900
-			"rewardshop_premium_currency_store": 1, // 5444
-			"rewardshop_currency_lowercase": "DXP Tokens", // 5871
-			"rewardshop_currency_singular_lowercase": "DXP Token" // 5874
-		},
-		"id": 47980
-	},
-	{
-		"extra": {
-			"rewardshop_item_name": "Small prismatic star", // 4849 chisel:rewards_interface_item_name
-			"rewardshop_cost": 850, // 4850 chisel:rewards_interface_cost
-			"rewardshop_obj": 30550, // 4851 chisel:rewards_interface_item
-			"rewardshop_icon": -1, // 4852 chisel:rewards_interface_sprite
-			"rewardshop_buy_option_1": 1, // 4854
-			"rewardshop_buy_option_2": 5, // 4855
-			"rewardshop_buy_option_3": 10, // 4856
-			"rewardshop_tooltip": "Grants a small amount of Bonus XP in any skill.", // 4858 chisel:rewards_interface_item_desc
-			"rewardshop_usetooltip": 1 // 4862 chisel:outfit_piece_4
-		},
-		"id": 47981
-	},
-	{
-		"extra": {
-			"rewardshop_item_name": "Medium prismatic star", // 4849 chisel:rewards_interface_item_name
-			"rewardshop_cost": 1600, // 4850 chisel:rewards_interface_cost
-			"rewardshop_obj": 30523, // 4851 chisel:rewards_interface_item
-			"rewardshop_icon": -1, // 4852 chisel:rewards_interface_sprite
-			"rewardshop_buy_option_1": 1, // 4854
-			"rewardshop_buy_option_2": 5, // 4855
-			"rewardshop_buy_option_3": 10, // 4856
-			"rewardshop_tooltip": "Grants a medium amount of Bonus XP in any skill.", // 4858 chisel:rewards_interface_item_desc
-			"rewardshop_usetooltip": 1 // 4862 chisel:outfit_piece_4
-		},
-		"id": 47982
-	},
-	{
-		"extra": {
-			"rewardshop_item_name": "Large prismatic star", // 4849 chisel:rewards_interface_item_name
-			"rewardshop_cost": 3100, // 4850 chisel:rewards_interface_cost
-			"rewardshop_obj": 29923, // 4851 chisel:rewards_interface_item
-			"rewardshop_icon": -1, // 4852 chisel:rewards_interface_sprite
-			"rewardshop_buy_option_1": 1, // 4854
-			"rewardshop_buy_option_2": 5, // 4855
-			"rewardshop_buy_option_3": 10, // 4856
-			"rewardshop_tooltip": "Grants a large amount of Bonus XP in any skill.", // 4858 chisel:rewards_interface_item_desc
-			"rewardshop_usetooltip": 1 // 4862 chisel:outfit_piece_4
-		},
-		"id": 47983
-	},
-	{
-		"extra": {
 			"mtxmgt_category": 2, // 2531 chisel:solomons_category
 			"mtxmgt_subcat": 9, // 2532 chisel:SGS_sub_group
 			"mtxmgt_name": "Umbral Guardian Gauntlets", // 2533 chisel:SGS_name
@@ -453493,831 +453405,6 @@
 	},
 	{
 		"extra": {
-			"rewardshop_item_name": "Huge prismatic star", // 4849 chisel:rewards_interface_item_name
-			"rewardshop_cost": 6000, // 4850 chisel:rewards_interface_cost
-			"rewardshop_obj": 29896, // 4851 chisel:rewards_interface_item
-			"rewardshop_icon": -1, // 4852 chisel:rewards_interface_sprite
-			"rewardshop_buy_option_1": 1, // 4854
-			"rewardshop_buy_option_2": 5, // 4855
-			"rewardshop_buy_option_3": 10, // 4856
-			"rewardshop_tooltip": "Grants a huge amount of Bonus XP in any skill.", // 4858 chisel:rewards_interface_item_desc
-			"rewardshop_usetooltip": 1 // 4862 chisel:outfit_piece_4
-		},
-		"id": 48909
-	},
-	{
-		"extra": {
-			"rewardshop_daily_cap": 1, // 4166
-			"rewardshop_item_name": "Oil of Enchantment", // 4849 chisel:rewards_interface_item_name
-			"rewardshop_cost": 9500, // 4850 chisel:rewards_interface_cost
-			"rewardshop_obj": 52861, // 4851 chisel:rewards_interface_item
-			"rewardshop_icon": -1, // 4852 chisel:rewards_interface_sprite
-			"rewardshop_buy_option_1": 1, // 4854
-			"rewardshop_tooltip": "Used to charge the Sceptre of Enchantment and the Coin of Enchantment.", // 4858 chisel:rewards_interface_item_desc
-			"rewardshop_requirements": "Purchase limit: one per day.", // 4859
-			"rewardshop_usetooltip": 1, // 4862 chisel:outfit_piece_4
-			"rewardshop_locked_button_label": "Locked" // 5092
-		},
-		"id": 48910
-	},
-	{
-		"extra": {
-			"rewardshop_item_name": "Coin of Enchantment", // 4849 chisel:rewards_interface_item_name
-			"rewardshop_cost": 19000, // 4850 chisel:rewards_interface_cost
-			"rewardshop_obj": 52862, // 4851 chisel:rewards_interface_item
-			"rewardshop_icon": -1, // 4852 chisel:rewards_interface_sprite
-			"rewardshop_is_reward_obj": 1, // 4853
-			"rewardshop_buy_option_1": 1, // 4854
-			"rewardshop_tooltip": "Flip this coin once a day to grant a 2% XP boost to yourself and a lesser boost to those around you.", // 4858 chisel:rewards_interface_item_desc
-			"rewardshop_usetooltip": 1, // 4862 chisel:outfit_piece_4
-			"rewardshop_required_freespace": 1, // 4899
-			"rewardshop_no_preview": 1 // 9250
-		},
-		"id": 48911
-	},
-	{
-		"extra": {
-			"rewardshop_item_name": "Advanced pulse core", // 4849 chisel:rewards_interface_item_name
-			"rewardshop_cost": 1500, // 4850 chisel:rewards_interface_cost
-			"rewardshop_obj": 34918, // 4851 chisel:rewards_interface_item
-			"rewardshop_icon": -1, // 4852 chisel:rewards_interface_sprite
-			"rewardshop_buy_option_1": 1, // 4854
-			"rewardshop_buy_option_2": 5, // 4855
-			"rewardshop_buy_option_3": 10, // 4856
-			"rewardshop_tooltip": "Grants +50% XP while active. Once consumed it will explode granting an XP bonus (up to 10%) to you and others nearby.", // 4858 chisel:rewards_interface_item_desc
-			"rewardshop_usetooltip": 1 // 4862 chisel:outfit_piece_4
-		},
-		"id": 48912
-	},
-	{
-		"extra": {
-			"rewardshop_item_name": "Cinder core", // 4849 chisel:rewards_interface_item_name
-			"rewardshop_cost": 1500, // 4850 chisel:rewards_interface_cost
-			"rewardshop_obj": 48544, // 4851 chisel:rewards_interface_item
-			"rewardshop_icon": -1, // 4852 chisel:rewards_interface_sprite
-			"rewardshop_buy_option_1": 1, // 4854
-			"rewardshop_buy_option_2": 5, // 4855
-			"rewardshop_buy_option_3": 10, // 4856
-			"rewardshop_tooltip": "A powerful item that grants +150% Bonus XP burn rate when in the pocket slot. Once consumed it will explode, granting a stackable Bonus XP burn bonus (up to +10%) to you and everyone nearby.", // 4858 chisel:rewards_interface_item_desc
-			"rewardshop_usetooltip": 1 // 4862 chisel:outfit_piece_4
-		},
-		"id": 48913
-	},
-	{
-		"extra": {
-			"rewardshop_item_name": "Protean Powerup", // 4849 chisel:rewards_interface_item_name
-			"rewardshop_cost": 1500, // 4850 chisel:rewards_interface_cost
-			"rewardshop_obj": 41052, // 4851 chisel:rewards_interface_item
-			"rewardshop_icon": -1, // 4852 chisel:rewards_interface_sprite
-			"rewardshop_buy_option_1": 1, // 4854
-			"rewardshop_buy_option_2": 5, // 4855
-			"rewardshop_buy_option_3": 10, // 4856
-			"rewardshop_tooltip": "Protean powerups speed up the rate at which protean items can be used for 5 minutes.", // 4858 chisel:rewards_interface_item_desc
-			"rewardshop_usetooltip": 1 // 4862 chisel:outfit_piece_4
-		},
-		"id": 48914
-	},
-	{
-		"extra": {
-			"rewardshop_item_name": "Protean Prolonger", // 4849 chisel:rewards_interface_item_name
-			"rewardshop_cost": 1700, // 4850 chisel:rewards_interface_cost
-			"rewardshop_obj": 55167, // 4851 chisel:rewards_interface_item
-			"rewardshop_icon": -1, // 4852 chisel:rewards_interface_sprite
-			"rewardshop_buy_option_1": 1, // 4854
-			"rewardshop_buy_option_2": 5, // 4855
-			"rewardshop_buy_option_3": 10, // 4856
-			"rewardshop_tooltip": "Doubles the maximum amount of Proteans that can be used without needing to rest. Lasts 10 minutes.", // 4858 chisel:rewards_interface_item_desc
-			"rewardshop_usetooltip": 1 // 4862 chisel:outfit_piece_4
-		},
-		"id": 48915
-	},
-	{
-		"extra": {
-			"rewardshop_item_name": "Artisan's outfit piece", // 4849 chisel:rewards_interface_item_name
-			"rewardshop_cost": 3200, // 4850 chisel:rewards_interface_cost
-			"rewardshop_obj": 25186, // 4851 chisel:rewards_interface_item
-			"rewardshop_icon": 1488, // 4852 chisel:rewards_interface_sprite
-			"rewardshop_is_reward_obj": 1, // 4853
-			"rewardshop_buy_option_1": 1, // 4854
-			"rewardshop_tooltip": "You will receive a piece of the skill outfit that you do not own.", // 4858 chisel:rewards_interface_item_desc
-			"rewardshop_usetooltip": 1, // 4862 chisel:outfit_piece_4
-			"rewardshop_no_preview": 1 // 9250
-		},
-		"id": 48916
-	},
-	{
-		"extra": {
-			"rewardshop_item_name": "Blacksmith's outfit piece", // 4849 chisel:rewards_interface_item_name
-			"rewardshop_cost": 3200, // 4850 chisel:rewards_interface_cost
-			"rewardshop_obj": 25196, // 4851 chisel:rewards_interface_item
-			"rewardshop_icon": 1491, // 4852 chisel:rewards_interface_sprite
-			"rewardshop_is_reward_obj": 1, // 4853
-			"rewardshop_buy_option_1": 1, // 4854
-			"rewardshop_tooltip": "You will receive a piece of the skill outfit that you do not own.", // 4858 chisel:rewards_interface_item_desc
-			"rewardshop_usetooltip": 1, // 4862 chisel:outfit_piece_4
-			"rewardshop_no_preview": 1 // 9250
-		},
-		"id": 48917
-	},
-	{
-		"extra": {
-			"rewardshop_item_name": "Botanist's outfit piece", // 4849 chisel:rewards_interface_item_name
-			"rewardshop_cost": 3200, // 4850 chisel:rewards_interface_cost
-			"rewardshop_obj": 25191, // 4851 chisel:rewards_interface_item
-			"rewardshop_icon": 1486, // 4852 chisel:rewards_interface_sprite
-			"rewardshop_is_reward_obj": 1, // 4853
-			"rewardshop_buy_option_1": 1, // 4854
-			"rewardshop_tooltip": "You will receive a piece of the skill outfit that you do not own.", // 4858 chisel:rewards_interface_item_desc
-			"rewardshop_usetooltip": 1, // 4862 chisel:outfit_piece_4
-			"rewardshop_no_preview": 1 // 9250
-		},
-		"id": 48918
-	},
-	{
-		"extra": {
-			"rewardshop_item_name": "Diviner's outfit piece", // 4849 chisel:rewards_interface_item_name
-			"rewardshop_cost": 3200, // 4850 chisel:rewards_interface_cost
-			"rewardshop_obj": 29866, // 4851 chisel:rewards_interface_item
-			"rewardshop_icon": 9204, // 4852 chisel:rewards_interface_sprite
-			"rewardshop_is_reward_obj": 1, // 4853
-			"rewardshop_buy_option_1": 1, // 4854
-			"rewardshop_tooltip": "You will receive a piece of the skill outfit that you do not own.", // 4858 chisel:rewards_interface_item_desc
-			"rewardshop_usetooltip": 1, // 4862 chisel:outfit_piece_4
-			"rewardshop_no_preview": 1 // 9250
-		},
-		"id": 48919
-	},
-	{
-		"extra": {
-			"rewardshop_item_name": "Farmer's outfit piece", // 4849 chisel:rewards_interface_item_name
-			"rewardshop_cost": 3200, // 4850 chisel:rewards_interface_cost
-			"rewardshop_obj": 31346, // 4851 chisel:rewards_interface_item
-			"rewardshop_icon": 1498, // 4852 chisel:rewards_interface_sprite
-			"rewardshop_is_reward_obj": 1, // 4853
-			"rewardshop_buy_option_1": 1, // 4854
-			"rewardshop_tooltip": "You will receive a piece of the skill outfit that you do not own.", // 4858 chisel:rewards_interface_item_desc
-			"rewardshop_usetooltip": 1, // 4862 chisel:outfit_piece_4
-			"rewardshop_no_preview": 1 // 9250
-		},
-		"id": 48920
-	},
-	{
-		"extra": {
-			"rewardshop_item_name": "First age outfit piece", // 4849 chisel:rewards_interface_item_name
-			"rewardshop_cost": 3200, // 4850 chisel:rewards_interface_cost
-			"rewardshop_obj": 27587, // 4851 chisel:rewards_interface_item
-			"rewardshop_icon": 1482, // 4852 chisel:rewards_interface_sprite
-			"rewardshop_is_reward_obj": 1, // 4853
-			"rewardshop_buy_option_1": 1, // 4854
-			"rewardshop_tooltip": "You will receive a piece of the skill outfit that you do not own.", // 4858 chisel:rewards_interface_item_desc
-			"rewardshop_usetooltip": 1, // 4862 chisel:outfit_piece_4
-			"rewardshop_no_preview": 1 // 9250
-		},
-		"id": 48921
-	},
-	{
-		"extra": {
-			"rewardshop_item_name": "Shaman's outfit piece", // 4849 chisel:rewards_interface_item_name
-			"rewardshop_cost": 3200, // 4850 chisel:rewards_interface_cost
-			"rewardshop_obj": 28996, // 4851 chisel:rewards_interface_item
-			"rewardshop_icon": 1503, // 4852 chisel:rewards_interface_sprite
-			"rewardshop_is_reward_obj": 1, // 4853
-			"rewardshop_buy_option_1": 1, // 4854
-			"rewardshop_tooltip": "You will receive a piece of the skill outfit that you do not own.", // 4858 chisel:rewards_interface_item_desc
-			"rewardshop_usetooltip": 1, // 4862 chisel:outfit_piece_4
-			"rewardshop_no_preview": 1 // 9250
-		},
-		"id": 48922
-	},
-	{
-		"extra": {
-			"rewardshop_item_name": "Sous chef outfit piece", // 4849 chisel:rewards_interface_item_name
-			"rewardshop_cost": 3200, // 4850 chisel:rewards_interface_cost
-			"rewardshop_obj": 25181, // 4851 chisel:rewards_interface_item
-			"rewardshop_icon": 1493, // 4852 chisel:rewards_interface_sprite
-			"rewardshop_is_reward_obj": 1, // 4853
-			"rewardshop_buy_option_1": 1, // 4854
-			"rewardshop_tooltip": "You will receive a piece of the skill outfit that you do not own.", // 4858 chisel:rewards_interface_item_desc
-			"rewardshop_usetooltip": 1, // 4862 chisel:outfit_piece_4
-			"rewardshop_no_preview": 1 // 9250
-		},
-		"id": 48923
-	},
-	{
-		"extra": {
-			"rewardshop_item_name": "Fletcher's outfit piece", // 4849 chisel:rewards_interface_item_name
-			"rewardshop_cost": 3200, // 4850 chisel:rewards_interface_cost
-			"rewardshop_obj": 36898, // 4851 chisel:rewards_interface_item
-			"rewardshop_icon": 1489, // 4852 chisel:rewards_interface_sprite
-			"rewardshop_is_reward_obj": 1, // 4853
-			"rewardshop_buy_option_1": 1, // 4854
-			"rewardshop_tooltip": "You will receive a piece of the skill outfit that you do not own.", // 4858 chisel:rewards_interface_item_desc
-			"rewardshop_usetooltip": 1, // 4862 chisel:outfit_piece_4
-			"rewardshop_no_preview": 1 // 9250
-		},
-		"id": 48924
-	},
-	{
-		"extra": {
-			"rewardshop_item_name": "Nimble outfit piece", // 4849 chisel:rewards_interface_item_name
-			"rewardshop_cost": 3200, // 4850 chisel:rewards_interface_cost
-			"rewardshop_obj": 36893, // 4851 chisel:rewards_interface_item
-			"rewardshop_icon": 1485, // 4852 chisel:rewards_interface_sprite
-			"rewardshop_is_reward_obj": 1, // 4853
-			"rewardshop_buy_option_1": 1, // 4854
-			"rewardshop_tooltip": "You will receive a piece of the skill outfit that you do not own.", // 4858 chisel:rewards_interface_item_desc
-			"rewardshop_usetooltip": 1, // 4862 chisel:outfit_piece_4
-			"rewardshop_no_preview": 1 // 9250
-		},
-		"id": 48925
-	},
-	{
-		"extra": {
-			"rewardshop_item_name": "Lumberjack outfit piece", // 4849 chisel:rewards_interface_item_name
-			"rewardshop_cost": 3200, // 4850 chisel:rewards_interface_cost
-			"rewardshop_obj": 10939, // 4851 chisel:rewards_interface_item
-			"rewardshop_icon": 1495, // 4852 chisel:rewards_interface_sprite
-			"rewardshop_is_reward_obj": 1, // 4853
-			"rewardshop_buy_option_1": 1, // 4854
-			"rewardshop_tooltip": "You will receive a piece of the skill outfit that you do not own.", // 4858 chisel:rewards_interface_item_desc
-			"rewardshop_usetooltip": 1, // 4862 chisel:outfit_piece_4
-			"rewardshop_no_preview": 1 // 9250
-		},
-		"id": 48926
-	},
-	{
-		"extra": {
-			"rewardshop_item_name": "Constructor outfit piece", // 4849 chisel:rewards_interface_item_name
-			"rewardshop_cost": 3200, // 4850 chisel:rewards_interface_cost
-			"rewardshop_obj": 21447, // 4851 chisel:rewards_interface_item
-			"rewardshop_icon": 1502, // 4852 chisel:rewards_interface_sprite
-			"rewardshop_is_reward_obj": 1, // 4853
-			"rewardshop_buy_option_1": 1, // 4854
-			"rewardshop_tooltip": "You will receive a piece of the skill outfit that you do not own.", // 4858 chisel:rewards_interface_item_desc
-			"rewardshop_usetooltip": 1, // 4862 chisel:outfit_piece_4
-			"rewardshop_no_preview": 1 // 9250
-		},
-		"id": 48927
-	},
-	{
-		"extra": {
-			"rewardshop_item_name": "Golden Mining outfit piece", // 4849 chisel:rewards_interface_item_name
-			"rewardshop_cost": 3200, // 4850 chisel:rewards_interface_cost
-			"rewardshop_obj": 20791, // 4851 chisel:rewards_interface_item
-			"rewardshop_icon": 1490, // 4852 chisel:rewards_interface_sprite
-			"rewardshop_is_reward_obj": 1, // 4853
-			"rewardshop_buy_option_1": 1, // 4854
-			"rewardshop_tooltip": "You will receive a piece of the skill outfit that you do not own.", // 4858 chisel:rewards_interface_item_desc
-			"rewardshop_usetooltip": 1, // 4862 chisel:outfit_piece_4
-			"rewardshop_no_preview": 1 // 9250
-		},
-		"id": 48928
-	},
-	{
-		"extra": {
-			"rewardshop_item_name": "Black Ibis outfit piece", // 4849 chisel:rewards_interface_item_name
-			"rewardshop_cost": 3200, // 4850 chisel:rewards_interface_cost
-			"rewardshop_obj": 21532, // 4851 chisel:rewards_interface_item
-			"rewardshop_icon": 1487, // 4852 chisel:rewards_interface_sprite
-			"rewardshop_is_reward_obj": 1, // 4853
-			"rewardshop_buy_option_1": 1, // 4854
-			"rewardshop_tooltip": "You will receive a piece of the skill outfit that you do not own.", // 4858 chisel:rewards_interface_item_desc
-			"rewardshop_usetooltip": 1, // 4862 chisel:outfit_piece_4
-			"rewardshop_no_preview": 1 // 9250
-		},
-		"id": 48929
-	},
-	{
-		"extra": {
-			"rewardshop_item_name": "Master Runecrafter outfit piece", // 4849 chisel:rewards_interface_item_name
-			"rewardshop_cost": 3200, // 4850 chisel:rewards_interface_cost
-			"rewardshop_obj": 21516, // 4851 chisel:rewards_interface_item
-			"rewardshop_icon": 1496, // 4852 chisel:rewards_interface_sprite
-			"rewardshop_is_reward_obj": 1, // 4853
-			"rewardshop_buy_option_1": 1, // 4854
-			"rewardshop_tooltip": "You will receive a piece of the skill outfit that you do not own.", // 4858 chisel:rewards_interface_item_desc
-			"rewardshop_usetooltip": 1, // 4862 chisel:outfit_piece_4
-			"rewardshop_no_preview": 1 // 9250
-		},
-		"id": 48930
-	},
-	{
-		"extra": {
-			"rewardshop_item_name": "Emerald golem outfit piece", // 4849 chisel:rewards_interface_item_name
-			"rewardshop_cost": 10000, // 4850 chisel:rewards_interface_cost
-			"rewardshop_obj": 31581, // 4851 chisel:rewards_interface_item
-			"rewardshop_icon": -1, // 4852 chisel:rewards_interface_sprite
-			"rewardshop_is_reward_obj": 1, // 4853
-			"rewardshop_buy_option_1": 1, // 4854
-			"rewardshop_tooltip": "You will receive a piece of the emerald golem outfit that you do not own.", // 4858 chisel:rewards_interface_item_desc
-			"rewardshop_usetooltip": 1, // 4862 chisel:outfit_piece_4
-			"rewardshop_no_preview": 1 // 9250
-		},
-		"id": 48931
-	},
-	{
-		"extra": {
-			"rewardshop_item_name": "Ruby golem outfit piece", // 4849 chisel:rewards_interface_item_name
-			"rewardshop_cost": 10000, // 4850 chisel:rewards_interface_cost
-			"rewardshop_obj": 31586, // 4851 chisel:rewards_interface_item
-			"rewardshop_icon": -1, // 4852 chisel:rewards_interface_sprite
-			"rewardshop_is_reward_obj": 1, // 4853
-			"rewardshop_buy_option_1": 1, // 4854
-			"rewardshop_tooltip": "You will receive a piece of the ruby golem outfit that you do not own.", // 4858 chisel:rewards_interface_item_desc
-			"rewardshop_usetooltip": 1, // 4862 chisel:outfit_piece_4
-			"rewardshop_no_preview": 1 // 9250
-		},
-		"id": 48932
-	},
-	{
-		"extra": {
-			"rewardshop_item_name": "Sapphire golem outfit piece", // 4849 chisel:rewards_interface_item_name
-			"rewardshop_cost": 10000, // 4850 chisel:rewards_interface_cost
-			"rewardshop_obj": 31576, // 4851 chisel:rewards_interface_item
-			"rewardshop_icon": -1, // 4852 chisel:rewards_interface_sprite
-			"rewardshop_is_reward_obj": 1, // 4853
-			"rewardshop_buy_option_1": 1, // 4854
-			"rewardshop_tooltip": "You will receive a piece of the sapphire golem outfit that you do not own.", // 4858 chisel:rewards_interface_item_desc
-			"rewardshop_usetooltip": 1, // 4862 chisel:outfit_piece_4
-			"rewardshop_no_preview": 1 // 9250
-		},
-		"id": 48933
-	},
-	{
-		"extra": {
-			"rewardshop_item_name": "Blood ethereal outfit piece", // 4849 chisel:rewards_interface_item_name
-			"rewardshop_cost": 10000, // 4850 chisel:rewards_interface_cost
-			"rewardshop_obj": 32348, // 4851 chisel:rewards_interface_item
-			"rewardshop_icon": -1, // 4852 chisel:rewards_interface_sprite
-			"rewardshop_is_reward_obj": 1, // 4853
-			"rewardshop_buy_option_1": 1, // 4854
-			"rewardshop_tooltip": "You will receive a piece of the blood ethereal outfit that you do not own.", // 4858 chisel:rewards_interface_item_desc
-			"rewardshop_usetooltip": 1, // 4862 chisel:outfit_piece_4
-			"rewardshop_no_preview": 1 // 9250
-		},
-		"id": 48934
-	},
-	{
-		"extra": {
-			"rewardshop_item_name": "Death ethereal outfit piece", // 4849 chisel:rewards_interface_item_name
-			"rewardshop_cost": 10000, // 4850 chisel:rewards_interface_cost
-			"rewardshop_obj": 32353, // 4851 chisel:rewards_interface_item
-			"rewardshop_icon": -1, // 4852 chisel:rewards_interface_sprite
-			"rewardshop_is_reward_obj": 1, // 4853
-			"rewardshop_buy_option_1": 1, // 4854
-			"rewardshop_tooltip": "You will receive a piece of the death ethereal outfit that you do not own.", // 4858 chisel:rewards_interface_item_desc
-			"rewardshop_usetooltip": 1, // 4862 chisel:outfit_piece_4
-			"rewardshop_no_preview": 1 // 9250
-		},
-		"id": 48935
-	},
-	{
-		"extra": {
-			"rewardshop_item_name": "Law ethereal outfit piece", // 4849 chisel:rewards_interface_item_name
-			"rewardshop_cost": 10000, // 4850 chisel:rewards_interface_cost
-			"rewardshop_obj": 32343, // 4851 chisel:rewards_interface_item
-			"rewardshop_icon": -1, // 4852 chisel:rewards_interface_sprite
-			"rewardshop_is_reward_obj": 1, // 4853
-			"rewardshop_buy_option_1": 1, // 4854
-			"rewardshop_tooltip": "You will receive a piece of the law ethereal outfit that you do not own.", // 4858 chisel:rewards_interface_item_desc
-			"rewardshop_usetooltip": 1, // 4862 chisel:outfit_piece_4
-			"rewardshop_no_preview": 1 // 9250
-		},
-		"id": 48936
-	},
-	{
-		"extra": {
-			"rewardshop_item_name": "Shark outfit piece", // 4849 chisel:rewards_interface_item_name
-			"rewardshop_cost": 10000, // 4850 chisel:rewards_interface_cost
-			"rewardshop_obj": 34200, // 4851 chisel:rewards_interface_item
-			"rewardshop_icon": -1, // 4852 chisel:rewards_interface_sprite
-			"rewardshop_is_reward_obj": 1, // 4853
-			"rewardshop_buy_option_1": 1, // 4854
-			"rewardshop_tooltip": "You will receive a piece of the shark outfit that you do not own.", // 4858 chisel:rewards_interface_item_desc
-			"rewardshop_usetooltip": 1, // 4862 chisel:outfit_piece_4
-			"rewardshop_no_preview": 1 // 9250
-		},
-		"id": 48937
-	},
-	{
-		"extra": {
-			"rewardshop_item_name": "Tiger shark outfit piece", // 4849 chisel:rewards_interface_item_name
-			"rewardshop_cost": 10000, // 4850 chisel:rewards_interface_cost
-			"rewardshop_obj": 34205, // 4851 chisel:rewards_interface_item
-			"rewardshop_icon": -1, // 4852 chisel:rewards_interface_sprite
-			"rewardshop_is_reward_obj": 1, // 4853
-			"rewardshop_buy_option_1": 1, // 4854
-			"rewardshop_tooltip": "You will receive a piece of the tiger shark outfit that you do not own.", // 4858 chisel:rewards_interface_item_desc
-			"rewardshop_usetooltip": 1, // 4862 chisel:outfit_piece_4
-			"rewardshop_no_preview": 1 // 9250
-		},
-		"id": 48938
-	},
-	{
-		"extra": {
-			"rewardshop_item_name": "Burnt shark outfit piece", // 4849 chisel:rewards_interface_item_name
-			"rewardshop_cost": 10000, // 4850 chisel:rewards_interface_cost
-			"rewardshop_obj": 34210, // 4851 chisel:rewards_interface_item
-			"rewardshop_icon": -1, // 4852 chisel:rewards_interface_sprite
-			"rewardshop_is_reward_obj": 1, // 4853
-			"rewardshop_buy_option_1": 1, // 4854
-			"rewardshop_tooltip": "You will receive a piece of the burnt shark outfit that you do not own.", // 4858 chisel:rewards_interface_item_desc
-			"rewardshop_usetooltip": 1, // 4862 chisel:outfit_piece_4
-			"rewardshop_no_preview": 1 // 9250
-		},
-		"id": 48939
-	},
-	{
-		"extra": {
-			"rewardshop_item_name": "Divination energy outfit piece", // 4849 chisel:rewards_interface_item_name
-			"rewardshop_cost": 10000, // 4850 chisel:rewards_interface_cost
-			"rewardshop_obj": 35964, // 4851 chisel:rewards_interface_item
-			"rewardshop_icon": -1, // 4852 chisel:rewards_interface_sprite
-			"rewardshop_is_reward_obj": 1, // 4853
-			"rewardshop_buy_option_1": 1, // 4854
-			"rewardshop_tooltip": "You will receive a piece of the divination energy outfit that you do not own.", // 4858 chisel:rewards_interface_item_desc
-			"rewardshop_usetooltip": 1, // 4862 chisel:outfit_piece_4
-			"rewardshop_no_preview": 1 // 9250
-		},
-		"id": 48940
-	},
-	{
-		"extra": {
-			"rewardshop_item_name": "Divination chronicle outfit piece", // 4849 chisel:rewards_interface_item_name
-			"rewardshop_cost": 10000, // 4850 chisel:rewards_interface_cost
-			"rewardshop_obj": 35969, // 4851 chisel:rewards_interface_item
-			"rewardshop_icon": -1, // 4852 chisel:rewards_interface_sprite
-			"rewardshop_is_reward_obj": 1, // 4853
-			"rewardshop_buy_option_1": 1, // 4854
-			"rewardshop_tooltip": "You will receive a piece of the divination chronicle outfit that you do not own.", // 4858 chisel:rewards_interface_item_desc
-			"rewardshop_usetooltip": 1, // 4862 chisel:outfit_piece_4
-			"rewardshop_no_preview": 1 // 9250
-		},
-		"id": 48941
-	},
-	{
-		"extra": {
-			"rewardshop_item_name": "Divination memory outfit piece", // 4849 chisel:rewards_interface_item_name
-			"rewardshop_cost": 10000, // 4850 chisel:rewards_interface_cost
-			"rewardshop_obj": 35974, // 4851 chisel:rewards_interface_item
-			"rewardshop_icon": -1, // 4852 chisel:rewards_interface_sprite
-			"rewardshop_is_reward_obj": 1, // 4853
-			"rewardshop_buy_option_1": 1, // 4854
-			"rewardshop_tooltip": "You will receive a piece of the divination memory outfit that you do not own.", // 4858 chisel:rewards_interface_item_desc
-			"rewardshop_usetooltip": 1, // 4862 chisel:outfit_piece_4
-			"rewardshop_no_preview": 1 // 9250
-		},
-		"id": 48942
-	},
-	{
-		"extra": {
-			"rewardshop_item_name": "Keldagrim camouflage outfit piece", // 4849 chisel:rewards_interface_item_name
-			"rewardshop_cost": 10000, // 4850 chisel:rewards_interface_cost
-			"rewardshop_obj": 37344, // 4851 chisel:rewards_interface_item
-			"rewardshop_icon": -1, // 4852 chisel:rewards_interface_sprite
-			"rewardshop_is_reward_obj": 1, // 4853
-			"rewardshop_buy_option_1": 1, // 4854
-			"rewardshop_tooltip": "You will receive a piece of the Keldagrim camouflage outfit that you do not own.", // 4858 chisel:rewards_interface_item_desc
-			"rewardshop_usetooltip": 1, // 4862 chisel:outfit_piece_4
-			"rewardshop_no_preview": 1 // 9250
-		},
-		"id": 48943
-	},
-	{
-		"extra": {
-			"rewardshop_item_name": "Prifddinas camouflage outfit piece", // 4849 chisel:rewards_interface_item_name
-			"rewardshop_cost": 10000, // 4850 chisel:rewards_interface_cost
-			"rewardshop_obj": 37349, // 4851 chisel:rewards_interface_item
-			"rewardshop_icon": -1, // 4852 chisel:rewards_interface_sprite
-			"rewardshop_is_reward_obj": 1, // 4853
-			"rewardshop_buy_option_1": 1, // 4854
-			"rewardshop_tooltip": "You will receive a piece of the Prifddinas camouflage outfit that you do not own.", // 4858 chisel:rewards_interface_item_desc
-			"rewardshop_usetooltip": 1, // 4862 chisel:outfit_piece_4
-			"rewardshop_no_preview": 1 // 9250
-		},
-		"id": 48944
-	},
-	{
-		"extra": {
-			"rewardshop_item_name": "Desert camouflage outfit piece", // 4849 chisel:rewards_interface_item_name
-			"rewardshop_cost": 10000, // 4850 chisel:rewards_interface_cost
-			"rewardshop_obj": 37354, // 4851 chisel:rewards_interface_item
-			"rewardshop_icon": -1, // 4852 chisel:rewards_interface_sprite
-			"rewardshop_is_reward_obj": 1, // 4853
-			"rewardshop_buy_option_1": 1, // 4854
-			"rewardshop_tooltip": "You will receive a piece of the desert camouflage outfit that you do not own.", // 4858 chisel:rewards_interface_item_desc
-			"rewardshop_usetooltip": 1, // 4862 chisel:outfit_piece_4
-			"rewardshop_no_preview": 1 // 9250
-		},
-		"id": 48945
-	},
-	{
-		"extra": {
-			"rewardshop_item_name": "Frozen gorajan outfit piece", // 4849 chisel:rewards_interface_item_name
-			"rewardshop_cost": 10000, // 4850 chisel:rewards_interface_cost
-			"rewardshop_obj": 38522, // 4851 chisel:rewards_interface_item
-			"rewardshop_icon": -1, // 4852 chisel:rewards_interface_sprite
-			"rewardshop_is_reward_obj": 1, // 4853
-			"rewardshop_buy_option_1": 1, // 4854
-			"rewardshop_tooltip": "You will receive a piece of the frozen gorajan trailblazer outfit that you do not own.", // 4858 chisel:rewards_interface_item_desc
-			"rewardshop_usetooltip": 1, // 4862 chisel:outfit_piece_4
-			"rewardshop_no_preview": 1 // 9250
-		},
-		"id": 48946
-	},
-	{
-		"extra": {
-			"rewardshop_item_name": "Furnished gorajan outfit piece", // 4849 chisel:rewards_interface_item_name
-			"rewardshop_cost": 10000, // 4850 chisel:rewards_interface_cost
-			"rewardshop_obj": 38527, // 4851 chisel:rewards_interface_item
-			"rewardshop_icon": -1, // 4852 chisel:rewards_interface_sprite
-			"rewardshop_is_reward_obj": 1, // 4853
-			"rewardshop_buy_option_1": 1, // 4854
-			"rewardshop_tooltip": "You will receive a piece of the furnished gorajan trailblazer outfit that you do not own.", // 4858 chisel:rewards_interface_item_desc
-			"rewardshop_usetooltip": 1, // 4862 chisel:outfit_piece_4
-			"rewardshop_no_preview": 1 // 9250
-		},
-		"id": 48947
-	},
-	{
-		"extra": {
-			"rewardshop_item_name": "Abandoned gorajan outfit piece", // 4849 chisel:rewards_interface_item_name
-			"rewardshop_cost": 10000, // 4850 chisel:rewards_interface_cost
-			"rewardshop_obj": 38532, // 4851 chisel:rewards_interface_item
-			"rewardshop_icon": -1, // 4852 chisel:rewards_interface_sprite
-			"rewardshop_is_reward_obj": 1, // 4853
-			"rewardshop_buy_option_1": 1, // 4854
-			"rewardshop_tooltip": "You will receive a piece of the abandoned gorajan trailblazer outfit that you do not own.", // 4858 chisel:rewards_interface_item_desc
-			"rewardshop_usetooltip": 1, // 4862 chisel:outfit_piece_4
-			"rewardshop_no_preview": 1 // 9250
-		},
-		"id": 48948
-	},
-	{
-		"extra": {
-			"rewardshop_item_name": "Occult gorajan outfit piece", // 4849 chisel:rewards_interface_item_name
-			"rewardshop_cost": 10000, // 4850 chisel:rewards_interface_cost
-			"rewardshop_obj": 38537, // 4851 chisel:rewards_interface_item
-			"rewardshop_icon": -1, // 4852 chisel:rewards_interface_sprite
-			"rewardshop_is_reward_obj": 1, // 4853
-			"rewardshop_buy_option_1": 1, // 4854
-			"rewardshop_tooltip": "You will receive a piece of the occult gorajan trailblazer outfit that you do not own.", // 4858 chisel:rewards_interface_item_desc
-			"rewardshop_usetooltip": 1, // 4862 chisel:outfit_piece_4
-			"rewardshop_no_preview": 1 // 9250
-		},
-		"id": 48949
-	},
-	{
-		"extra": {
-			"rewardshop_item_name": "Desert trapper outfit piece", // 4849 chisel:rewards_interface_item_name
-			"rewardshop_cost": 10000, // 4850 chisel:rewards_interface_cost
-			"rewardshop_obj": 41009, // 4851 chisel:rewards_interface_item
-			"rewardshop_icon": -1, // 4852 chisel:rewards_interface_sprite
-			"rewardshop_is_reward_obj": 1, // 4853
-			"rewardshop_buy_option_1": 1, // 4854
-			"rewardshop_tooltip": "You will receive a piece of the desert trapper outfit that you do not own.", // 4858 chisel:rewards_interface_item_desc
-			"rewardshop_usetooltip": 1, // 4862 chisel:outfit_piece_4
-			"rewardshop_no_preview": 1 // 9250
-		},
-		"id": 48950
-	},
-	{
-		"extra": {
-			"rewardshop_item_name": "Jungle trapper outfit piece", // 4849 chisel:rewards_interface_item_name
-			"rewardshop_cost": 10000, // 4850 chisel:rewards_interface_cost
-			"rewardshop_obj": 41014, // 4851 chisel:rewards_interface_item
-			"rewardshop_icon": -1, // 4852 chisel:rewards_interface_sprite
-			"rewardshop_is_reward_obj": 1, // 4853
-			"rewardshop_buy_option_1": 1, // 4854
-			"rewardshop_tooltip": "You will receive a piece of the jungle trapper outfit that you do not own.", // 4858 chisel:rewards_interface_item_desc
-			"rewardshop_usetooltip": 1, // 4862 chisel:outfit_piece_4
-			"rewardshop_no_preview": 1 // 9250
-		},
-		"id": 48951
-	},
-	{
-		"extra": {
-			"rewardshop_item_name": "Arctic trapper outfit piece", // 4849 chisel:rewards_interface_item_name
-			"rewardshop_cost": 10000, // 4850 chisel:rewards_interface_cost
-			"rewardshop_obj": 41019, // 4851 chisel:rewards_interface_item
-			"rewardshop_icon": -1, // 4852 chisel:rewards_interface_sprite
-			"rewardshop_is_reward_obj": 1, // 4853
-			"rewardshop_buy_option_1": 1, // 4854
-			"rewardshop_tooltip": "You will receive a piece of the arctic trapper outfit that you do not own.", // 4858 chisel:rewards_interface_item_desc
-			"rewardshop_usetooltip": 1, // 4862 chisel:outfit_piece_4
-			"rewardshop_no_preview": 1 // 9250
-		},
-		"id": 48952
-	},
-	{
-		"extra": {
-			"rewardshop_item_name": "Oaken sentinel outfit piece", // 4849 chisel:rewards_interface_item_name
-			"rewardshop_cost": 10000, // 4850 chisel:rewards_interface_cost
-			"rewardshop_obj": 39731, // 4851 chisel:rewards_interface_item
-			"rewardshop_icon": -1, // 4852 chisel:rewards_interface_sprite
-			"rewardshop_is_reward_obj": 1, // 4853
-			"rewardshop_buy_option_1": 1, // 4854
-			"rewardshop_tooltip": "You will receive a piece of the oaken sentinel outfit that you do not own.", // 4858 chisel:rewards_interface_item_desc
-			"rewardshop_usetooltip": 1, // 4862 chisel:outfit_piece_4
-			"rewardshop_no_preview": 1 // 9250
-		},
-		"id": 48953
-	},
-	{
-		"extra": {
-			"rewardshop_item_name": "Willow sentinel outfit piece", // 4849 chisel:rewards_interface_item_name
-			"rewardshop_cost": 10000, // 4850 chisel:rewards_interface_cost
-			"rewardshop_obj": 39736, // 4851 chisel:rewards_interface_item
-			"rewardshop_icon": -1, // 4852 chisel:rewards_interface_sprite
-			"rewardshop_is_reward_obj": 1, // 4853
-			"rewardshop_buy_option_1": 1, // 4854
-			"rewardshop_tooltip": "You will receive a piece of the willow sentinel outfit that you do not own.", // 4858 chisel:rewards_interface_item_desc
-			"rewardshop_usetooltip": 1, // 4862 chisel:outfit_piece_4
-			"rewardshop_no_preview": 1 // 9250
-		},
-		"id": 48954
-	},
-	{
-		"extra": {
-			"rewardshop_item_name": "Maple sentinel outfit piece", // 4849 chisel:rewards_interface_item_name
-			"rewardshop_cost": 10000, // 4850 chisel:rewards_interface_cost
-			"rewardshop_obj": 39741, // 4851 chisel:rewards_interface_item
-			"rewardshop_icon": -1, // 4852 chisel:rewards_interface_sprite
-			"rewardshop_is_reward_obj": 1, // 4853
-			"rewardshop_buy_option_1": 1, // 4854
-			"rewardshop_tooltip": "You will receive a piece of the maple sentinel outfit that you do not own.", // 4858 chisel:rewards_interface_item_desc
-			"rewardshop_usetooltip": 1, // 4862 chisel:outfit_piece_4
-			"rewardshop_no_preview": 1 // 9250
-		},
-		"id": 48955
-	},
-	{
-		"extra": {
-			"rewardshop_item_name": "Exquisite weapon", // 4849 chisel:rewards_interface_item_name
-			"rewardshop_cost": 1900, // 4850 chisel:rewards_interface_cost
-			"rewardshop_obj": 28388, // 4851 chisel:rewards_interface_item
-			"rewardshop_icon": -1, // 4852 chisel:rewards_interface_sprite
-			"rewardshop_is_reward_obj": 1, // 4853
-			"rewardshop_buy_option_1": 1, // 4854
-			"rewardshop_tooltip": "You will receive a exquisite weapon that you do not own.", // 4858 chisel:rewards_interface_item_desc
-			"rewardshop_usetooltip": 1, // 4862 chisel:outfit_piece_4
-			"rewardshop_required_freespace": 2, // 4899
-			"rewardshop_no_preview": 1 // 9250
-		},
-		"id": 48956
-	},
-	{
-		"extra": {
-			"rewardshop_item_name": "Skill outfit head addon", // 4849 chisel:rewards_interface_item_name
-			"rewardshop_cost": 3200, // 4850 chisel:rewards_interface_cost
-			"rewardshop_obj": 34919, // 4851 chisel:rewards_interface_item
-			"rewardshop_icon": -1, // 4852 chisel:rewards_interface_sprite
-			"rewardshop_is_reward_obj": 1, // 4853
-			"rewardshop_buy_option_1": 1, // 4854
-			"rewardshop_tooltip": "You will receive a skill outfit head addon that you do not own.", // 4858 chisel:rewards_interface_item_desc
-			"rewardshop_usetooltip": 1, // 4862 chisel:outfit_piece_4
-			"rewardshop_no_preview": 1 // 9250
-		},
-		"id": 48957
-	},
-	{
-		"extra": {
-			"rewardshop_item_name": "Starfire weapon", // 4849 chisel:rewards_interface_item_name
-			"rewardshop_cost": 2500, // 4850 chisel:rewards_interface_cost
-			"rewardshop_obj": 28095, // 4851 chisel:rewards_interface_item
-			"rewardshop_icon": -1, // 4852 chisel:rewards_interface_sprite
-			"rewardshop_is_reward_obj": 1, // 4853
-			"rewardshop_buy_option_1": 1, // 4854
-			"rewardshop_tooltip": "You will receive a starfire weapon that you do not own.", // 4858 chisel:rewards_interface_item_desc
-			"rewardshop_usetooltip": 1, // 4862 chisel:outfit_piece_4
-			"rewardshop_required_freespace": 1, // 4899
-			"rewardshop_no_preview": 1 // 9250
-		},
-		"id": 48958
-	},
-	{
-		"extra": {
-			"rewardshop_item_name": "Starfire armour", // 4849 chisel:rewards_interface_item_name
-			"rewardshop_cost": 1900, // 4850 chisel:rewards_interface_cost
-			"rewardshop_obj": 35587, // 4851 chisel:rewards_interface_item
-			"rewardshop_icon": -1, // 4852 chisel:rewards_interface_sprite
-			"rewardshop_is_reward_obj": 1, // 4853
-			"rewardshop_buy_option_1": 1, // 4854
-			"rewardshop_tooltip": "You will receive a starfire armour piece that you do not own.", // 4858 chisel:rewards_interface_item_desc
-			"rewardshop_usetooltip": 1, // 4862 chisel:outfit_piece_4
-			"rewardshop_required_freespace": 1, // 4899
-			"rewardshop_no_preview": 1 // 9250
-		},
-		"id": 48959
-	},
-	{
-		"extra": {
-			"rewardshop_obj_count": 1, // 4448
-			"rewardshop_item_name": "Starborn diamond", // 4849 chisel:rewards_interface_item_name
-			"rewardshop_cost": 1200, // 4850 chisel:rewards_interface_cost
-			"rewardshop_obj": 28091, // 4851 chisel:rewards_interface_item
-			"rewardshop_icon": -1, // 4852 chisel:rewards_interface_sprite
-			"rewardshop_is_reward_obj": 1, // 4853
-			"rewardshop_buy_option_1": 1, // 4854
-			"rewardshop_buy_option_2": 5, // 4855
-			"rewardshop_buy_option_3": 10, // 4856
-			"rewardshop_tooltip": "A starborn diamond that can upgrade starfire objects to the starfury version. Warning: These are redundant once you've upgraded all starfire items.", // 4858 chisel:rewards_interface_item_desc
-			"rewardshop_usetooltip": 1, // 4862 chisel:outfit_piece_4
-			"rewardshop_required_freespace": 1 // 4899
-		},
-		"id": 48960
-	},
-	{
-		"extra": {
-			"rewardshop_item_name": "TzHaar whip", // 4849 chisel:rewards_interface_item_name
-			"rewardshop_cost": 12500, // 4850 chisel:rewards_interface_cost
-			"rewardshop_obj": 26192, // 4851 chisel:rewards_interface_item
-			"rewardshop_icon": -1, // 4852 chisel:rewards_interface_sprite
-			"rewardshop_is_reward_obj": 1, // 4853
-			"rewardshop_buy_option_1": 1, // 4854
-			"rewardshop_tooltip": "You will receive the TzHaar whip.", // 4858 chisel:rewards_interface_item_desc
-			"rewardshop_usetooltip": 1, // 4862 chisel:outfit_piece_4
-			"rewardshop_required_freespace": 1 // 4899
-		},
-		"id": 48961
-	},
-	{
-		"extra": {
-			"rewardshop_item_name": "Slayer mask (Batch 1, 2, 3 & 4)", // 4849 chisel:rewards_interface_item_name
-			"rewardshop_cost": 1900, // 4850 chisel:rewards_interface_cost
-			"rewardshop_obj": 35285, // 4851 chisel:rewards_interface_item
-			"rewardshop_icon": -1, // 4852 chisel:rewards_interface_sprite
-			"rewardshop_is_reward_obj": 1, // 4853
-			"rewardshop_buy_option_1": 1, // 4854
-			"rewardshop_tooltip": "You will receive a slayer mask from the following creature that you do not own. (Crawling Hand, Cockatrice, Basilisk, Kurask, Abyssal Demon, Banshee, Dust Devil, Gargoyle, Jadinko, Jelly, Bloodvelds, Aberrant Spectre, Dark Beast, Jungle Strykewyrm, Desert Strykewrym, Ice Strykewyrm, Airut, Aquanite, Automaton, Dagannoth, Black Demon, Ganodermic, Troll)", // 4858 chisel:rewards_interface_item_desc
-			"rewardshop_usetooltip": 1, // 4862 chisel:outfit_piece_4
-			"rewardshop_required_freespace": 1, // 4899
-			"rewardshop_no_preview": 1 // 9250
-		},
-		"id": 48962
-	},
-	{
-		"extra": {
-			"rewardshop_item_name": "Grotesque armour", // 4849 chisel:rewards_interface_item_name
-			"rewardshop_cost": 1900, // 4850 chisel:rewards_interface_cost
-			"rewardshop_obj": 36745, // 4851 chisel:rewards_interface_item
-			"rewardshop_buy_option_1": 1, // 4854
-			"rewardshop_tooltip": "You will receive a Grotesque armour piece that you do not own.", // 4858 chisel:rewards_interface_item_desc
-			"rewardshop_usetooltip": 1, // 4862 chisel:outfit_piece_4
-			"rewardshop_no_preview": 1 // 9250
-		},
-		"id": 48963
-	},
-	{
-		"extra": {
-			"rewardshop_obj_count": 1, // 4448
-			"rewardshop_item_name": "Soul gem", // 4849 chisel:rewards_interface_item_name
-			"rewardshop_cost": 1200, // 4850 chisel:rewards_interface_cost
-			"rewardshop_obj": 36735, // 4851 chisel:rewards_interface_item
-			"rewardshop_is_reward_obj": 1, // 4853
-			"rewardshop_buy_option_1": 1, // 4854
-			"rewardshop_buy_option_2": 5, // 4855
-			"rewardshop_buy_option_3": 10, // 4856
-			"rewardshop_tooltip": "A Soul gem that can upgrade Grotesque armour. Warning: These are redundant once you've upgraded all Grotesque items.", // 4858 chisel:rewards_interface_item_desc
-			"rewardshop_requirements": "You have already fully enhanced your Grotesque armour.", // 4859
-			"rewardshop_usetooltip": 1, // 4862 chisel:outfit_piece_4
-			"rewardshop_required_freespace": 1, // 4899
-			"rewardshop_locked_button_label": "Locked" // 5092
-		},
-		"id": 48964
-	},
-	{
-		"extra": {
-			"rewardshop_item_name": "Sunfury armour", // 4849 chisel:rewards_interface_item_name
-			"rewardshop_cost": 1900, // 4850 chisel:rewards_interface_cost
-			"rewardshop_obj": 38141, // 4851 chisel:rewards_interface_item
-			"rewardshop_buy_option_1": 1, // 4854
-			"rewardshop_tooltip": "You will receive a Sunfury armour piece that you do not own.", // 4858 chisel:rewards_interface_item_desc
-			"rewardshop_usetooltip": 1, // 4862 chisel:outfit_piece_4
-			"rewardshop_no_preview": 1 // 9250
-		},
-		"id": 48965
-	},
-	{
-		"extra": {
-			"rewardshop_obj_count": 1, // 4448
-			"rewardshop_item_name": "Gem of aspiration", // 4849 chisel:rewards_interface_item_name
-			"rewardshop_cost": 1200, // 4850 chisel:rewards_interface_cost
-			"rewardshop_obj": 38136, // 4851 chisel:rewards_interface_item
-			"rewardshop_is_reward_obj": 1, // 4853
-			"rewardshop_buy_option_1": 1, // 4854
-			"rewardshop_buy_option_2": 5, // 4855
-			"rewardshop_buy_option_3": 10, // 4856
-			"rewardshop_tooltip": "A gem that can be used to enhance the look of your Sunfury armour. Warning: These are redundant once you've upgraded all Sunfury items.", // 4858 chisel:rewards_interface_item_desc
-			"rewardshop_requirements": "You have already fully enhanced your Sunfury armour.", // 4859
-			"rewardshop_usetooltip": 1, // 4862 chisel:outfit_piece_4
-			"rewardshop_required_freespace": 1, // 4899
-			"rewardshop_locked_button_label": "Locked" // 5092
-		},
-		"id": 48966
-	},
-	{
-		"extra": {
 			"motw_banner_en": 33007, // 6381
 			"motw_banner_de": 33039, // 6385
 			"motw_banner_fr": 33071, // 6386
@@ -464910,94 +463997,6 @@
 			"toplevel_v2_parent_tab_suboverlay_1_height": 450 // 3460
 		},
 		"id": 49793
-	},
-	{
-		"extra": {
-			"mtxmgt_item_struct": 3709, // 4414 chisel:outfit_info_vbId
-			"rewardshop_item_name": "Herald's Outfit token (untradeable)", // 4849 chisel:rewards_interface_item_name
-			"rewardshop_cost": 50000, // 4850 chisel:rewards_interface_cost
-			"rewardshop_obj": 56274, // 4851 chisel:rewards_interface_item
-			"rewardshop_icon": -1, // 4852 chisel:rewards_interface_sprite
-			"rewardshop_is_reward_obj": 1, // 4853
-			"rewardshop_buy_option_1": 1, // 4854
-			"rewardshop_tooltip": "You will receive the Herald's Outfit token (untradeable)", // 4858 chisel:rewards_interface_item_desc
-			"rewardshop_requirements": "Members only item.", // 4859
-			"rewardshop_usetooltip": 1, // 4862 chisel:outfit_piece_4
-			"rewardshop_required_freespace": 1, // 4899
-			"rewardshop_locked_button_label": "Locked" // 5092
-		},
-		"id": 49794
-	},
-	{
-		"extra": {
-			"rewardshop_item_name": "Lunarfury armour & weapons", // 4849 chisel:rewards_interface_item_name
-			"rewardshop_cost": 2500, // 4850 chisel:rewards_interface_cost
-			"rewardshop_obj": 39871, // 4851 chisel:rewards_interface_item
-			"rewardshop_buy_option_1": 1, // 4854
-			"rewardshop_tooltip": "You will receive a Lunarfury armour piece or weapon that you do not own.", // 4858 chisel:rewards_interface_item_desc
-			"rewardshop_usetooltip": 1, // 4862 chisel:outfit_piece_4
-			"rewardshop_no_preview": 1 // 9250
-		},
-		"id": 49795
-	},
-	{
-		"extra": {
-			"rewardshop_obj_count": 1, // 4448
-			"rewardshop_item_name": "Lunar Shard", // 4849 chisel:rewards_interface_item_name
-			"rewardshop_cost": 1500, // 4850 chisel:rewards_interface_cost
-			"rewardshop_obj": 39866, // 4851 chisel:rewards_interface_item
-			"rewardshop_is_reward_obj": 1, // 4853
-			"rewardshop_buy_option_1": 1, // 4854
-			"rewardshop_buy_option_2": 5, // 4855
-			"rewardshop_buy_option_3": 10, // 4856
-			"rewardshop_tooltip": "A shard that can be used to enhance the look of your Lunarfury armour. Warning: These are redundant once you've upgraded all Lunarfury items.", // 4858 chisel:rewards_interface_item_desc
-			"rewardshop_requirements": "You have already fully enhanced your Lunarfury armour & weapons.", // 4859
-			"rewardshop_usetooltip": 1, // 4862 chisel:outfit_piece_4
-			"rewardshop_required_freespace": 1, // 4899
-			"rewardshop_locked_button_label": "Locked" // 5092
-		},
-		"id": 49796
-	},
-	{
-		"extra": {
-			"rewardshop_item_name": "Skilling backpack", // 4849 chisel:rewards_interface_item_name
-			"rewardshop_cost": 20000, // 4850 chisel:rewards_interface_cost
-			"rewardshop_obj": 37698, // 4851 chisel:rewards_interface_item
-			"rewardshop_is_reward_obj": 1, // 4853
-			"rewardshop_buy_option_1": 1, // 4854
-			"rewardshop_tooltip": "A fully upgraded Skilling backpack with 5 charges. Purchasing will upgrade any existing skilling backpack if applicable.", // 4858 chisel:rewards_interface_item_desc
-			"rewardshop_usetooltip": 1, // 4862 chisel:outfit_piece_4
-			"rewardshop_required_freespace": 1 // 4899
-		},
-		"id": 49797
-	},
-	{
-		"extra": {
-			"rewardshop_daily_cap": 1, // 4166
-			"rewardshop_item_name": "Powerpack", // 4849 chisel:rewards_interface_item_name
-			"rewardshop_cost": 10000, // 4850 chisel:rewards_interface_cost
-			"rewardshop_obj": 43398, // 4851 chisel:rewards_interface_item
-			"rewardshop_buy_option_1": 1, // 4854
-			"rewardshop_tooltip": "A Powerpack to add charges to your Skilling backpack.", // 4858 chisel:rewards_interface_item_desc
-			"rewardshop_requirements": "To unlock this reward, you must first own a fully upgraded Skilling backpack. Purchase limit: one per day.", // 4859
-			"rewardshop_usetooltip": 1, // 4862 chisel:outfit_piece_4
-			"rewardshop_locked_button_label": "Locked" // 5092
-		},
-		"id": 49798
-	},
-	{
-		"extra": {
-			"rewardshop_daily_cap": 1, // 4166
-			"rewardshop_item_name": "Fading memory", // 4849 chisel:rewards_interface_item_name
-			"rewardshop_cost": 10000, // 4850 chisel:rewards_interface_cost
-			"rewardshop_obj": 31713, // 4851 chisel:rewards_interface_item
-			"rewardshop_buy_option_1": 1, // 4854
-			"rewardshop_tooltip": "A Fading memory which provides bonuses for Divination.", // 4858 chisel:rewards_interface_item_desc
-			"rewardshop_requirements": "Members only item. Purchase limit: one per day.", // 4859
-			"rewardshop_usetooltip": 1, // 4862 chisel:outfit_piece_4
-			"rewardshop_locked_button_label": "Locked" // 5092
-		},
-		"id": 49799
 	},
 	{
 		"extra": {
@@ -489007,20 +488006,6 @@
 	{
 		"extra": {
 			"rewardshop_item_name": "Ritualist's outfit piece", // 4849 chisel:rewards_interface_item_name
-			"rewardshop_cost": 3200, // 4850 chisel:rewards_interface_cost
-			"rewardshop_obj": 57698, // 4851 chisel:rewards_interface_item
-			"rewardshop_icon": 30937, // 4852 chisel:rewards_interface_sprite
-			"rewardshop_is_reward_obj": 1, // 4853
-			"rewardshop_buy_option_1": 1, // 4854
-			"rewardshop_tooltip": "You will receive a piece of the skill outfit that you do not own.", // 4858 chisel:rewards_interface_item_desc
-			"rewardshop_usetooltip": 1, // 4862 chisel:outfit_piece_4
-			"rewardshop_no_preview": 1 // 9250
-		},
-		"id": 51806
-	},
-	{
-		"extra": {
-			"rewardshop_item_name": "Ritualist's outfit piece", // 4849 chisel:rewards_interface_item_name
 			"rewardshop_cost": 250, // 4850 chisel:rewards_interface_cost
 			"rewardshop_obj": 57698, // 4851 chisel:rewards_interface_item
 			"rewardshop_icon": 30937, // 4852 chisel:rewards_interface_sprite
@@ -507397,7 +506382,7 @@
 			"side_tab_3_layer": 84475907, // 5914
 			"side_tab_3_tooltip": "Progress Overview", // 5915
 			"timed_event_start": 8993, // 6132
-			"timed_event_end": 9014, // 6133
+			"timed_event_end": 9013, // 6133
 			"timed_event_cleanup": 9021, // 6134
 			"timed_event_name": "Harvest Hollow", // 6135 chisel:tle_name
 			"timed_event_desc": "The Harvest Hollow is back, with a new quest and activities, and new rewards to boot!", // 6136 chisel:tle_subtitle
@@ -508834,5 +507819,650 @@
 			"mtxmgt_source_custom": "This title cannot be obtained." // 4751 chisel:cosmetic_unlock_hint
 		},
 		"id": 53622
+	},
+	{
+		"extra": {
+			"mtxmgt_name": "Arcane Scholar Crystals", // 2533 chisel:SGS_name
+			"mtxmgt_pos_string": "rs:packs:arcane_scholar_weapons", // 4592
+			"mtxmgt_pack_structs": 5940, // 4717 chisel:sgs_pack_components
+			"release_date": 9014, // 4742 chisel:th_available_date
+			"mtxmgt_parent_id": 2524 // 4744
+		},
+		"id": 53623
+	},
+	{
+		"extra": {
+			"mtxmgt_name": "Arcane Scholar Bundle", // 2533 chisel:SGS_name
+			"mtxmgt_pos_string": "rs:packs:arcane_scholar_bundle", // 4592
+			"mtxmgt_pack_structs": 5941, // 4717 chisel:sgs_pack_components
+			"release_date": 9014, // 4742 chisel:th_available_date
+			"mtxmgt_parent_id": 2525 // 4744
+		},
+		"id": 53624
+	},
+	{
+		"extra": {
+			"mtxmgt_category": 7, // 2531 chisel:solomons_category
+			"mtxmgt_name": "Arcane Artefacts Bundle", // 2533 chisel:SGS_name
+			"mtxmgt_pos_string": "rs:packs:arcane_artefacts_bundle", // 4592
+			"mtxmgt_pack_structs": 5929, // 4717 chisel:sgs_pack_components
+			"mtxmgt_parent_id": 2515 // 4744
+		},
+		"id": 53625
+	},
+	{
+		"extra": {
+			"mtxmgt_category": 7, // 2531 chisel:solomons_category
+			"mtxmgt_name": "Arcane Bookcases", // 2533 chisel:SGS_name
+			"mtxmgt_pos_string": "rs:packs:arcane_artefacts_bookcase_bundle", // 4592
+			"mtxmgt_pack_structs": 5935, // 4717 chisel:sgs_pack_components
+			"mtxmgt_parent_id": 2526 // 4744
+		},
+		"id": 53626
+	},
+	{
+		"extra": {
+			"gielinor_games_savoury_points": 7463, // 2526
+			"mtxmgt_category": 7, // 2531 chisel:solomons_category
+			"mtxmgt_name": "Floating quill", // 2533 chisel:SGS_name
+			"mtxmgt_pos_string": "rs:construction:arcane_artefacts_floating_quill_ink", // 4592
+			"mtxmgt_parent_id": 2516, // 4744
+			"mtxmgt_interface_positioning": 20473, // 9254
+			"league_locality": 20484 // 9457
+		},
+		"id": 53627
+	},
+	{
+		"extra": {
+			"gielinor_games_savoury_points": 7463, // 2526
+			"mtxmgt_category": 7, // 2531 chisel:solomons_category
+			"mtxmgt_name": "Floating candles (3 variants)", // 2533 chisel:SGS_name
+			"mtxmgt_interface_positioning": 20473, // 9254
+			"league_locality": 20485 // 9457
+		},
+		"id": 53628
+	},
+	{
+		"extra": {
+			"gielinor_games_savoury_points": 7463, // 2526
+			"mtxmgt_category": 7, // 2531 chisel:solomons_category
+			"mtxmgt_name": "Floating candles", // 2533 chisel:SGS_name
+			"mtxmgt_pos_string": "rs:construction:arcane_artefacts_floating_candles", // 4592
+			"mtxmgt_pack_structs": 5930, // 4717 chisel:sgs_pack_components
+			"mtxmgt_parent_id": 2517 // 4744
+		},
+		"id": 53629
+	},
+	{
+		"extra": {
+			"gielinor_games_savoury_points": 7463, // 2526
+			"mtxmgt_category": 7, // 2531 chisel:solomons_category
+			"mtxmgt_name": "Floating candle set", // 2533 chisel:SGS_name
+			"mtxmgt_interface_positioning": 20473, // 9254
+			"league_locality": 20485 // 9457
+		},
+		"id": 53630
+	},
+	{
+		"extra": {
+			"gielinor_games_savoury_points": 7463, // 2526
+			"mtxmgt_category": 7, // 2531 chisel:solomons_category
+			"mtxmgt_name": "Floating candle cluster (1)", // 2533 chisel:SGS_name
+			"mtxmgt_interface_positioning": 20473, // 9254
+			"league_locality": 20486 // 9457
+		},
+		"id": 53631
+	},
+	{
+		"extra": {
+			"gielinor_games_savoury_points": 7463, // 2526
+			"mtxmgt_category": 7, // 2531 chisel:solomons_category
+			"mtxmgt_name": "Floating candle cluster (2)", // 2533 chisel:SGS_name
+			"mtxmgt_interface_positioning": 20473, // 9254
+			"league_locality": 20487 // 9457
+		},
+		"id": 53632
+	},
+	{
+		"extra": {
+			"gielinor_games_savoury_points": 7463, // 2526
+			"mtxmgt_category": 7, // 2531 chisel:solomons_category
+			"mtxmgt_name": "Floating arcane books (3 variants)", // 2533 chisel:SGS_name
+			"mtxmgt_interface_positioning": 20473, // 9254
+			"league_locality": 20488 // 9457
+		},
+		"id": 53633
+	},
+	{
+		"extra": {
+			"gielinor_games_savoury_points": 7463, // 2526
+			"mtxmgt_category": 7, // 2531 chisel:solomons_category
+			"mtxmgt_name": "Floating arcane books", // 2533 chisel:SGS_name
+			"mtxmgt_pos_string": "rs:construction:arcane_artefacts_floating_books", // 4592
+			"mtxmgt_pack_structs": 5931, // 4717 chisel:sgs_pack_components
+			"mtxmgt_parent_id": 2518 // 4744
+		},
+		"id": 53634
+	},
+	{
+		"extra": {
+			"gielinor_games_savoury_points": 7463, // 2526
+			"mtxmgt_category": 7, // 2531 chisel:solomons_category
+			"mtxmgt_name": "Floating arcane books (3 books 1)", // 2533 chisel:SGS_name
+			"mtxmgt_interface_positioning": 20473, // 9254
+			"league_locality": 20488 // 9457
+		},
+		"id": 53635
+	},
+	{
+		"extra": {
+			"gielinor_games_savoury_points": 7463, // 2526
+			"mtxmgt_category": 7, // 2531 chisel:solomons_category
+			"mtxmgt_name": "Floating arcane books (3 books 2)", // 2533 chisel:SGS_name
+			"mtxmgt_interface_positioning": 20473, // 9254
+			"league_locality": 20489 // 9457
+		},
+		"id": 53636
+	},
+	{
+		"extra": {
+			"gielinor_games_savoury_points": 7463, // 2526
+			"mtxmgt_category": 7, // 2531 chisel:solomons_category
+			"mtxmgt_name": "Floating arcane books (5 books)", // 2533 chisel:SGS_name
+			"mtxmgt_interface_positioning": 20473, // 9254
+			"league_locality": 20490 // 9457
+		},
+		"id": 53637
+	},
+	{
+		"extra": {
+			"mtxmgt_category": 7, // 2531 chisel:solomons_category
+			"mtxmgt_name": "Pile of arcane books (3 variants)", // 2533 chisel:SGS_name
+			"mtxmgt_interface_positioning": 20470, // 9254
+			"league_locality": 20491 // 9457
+		},
+		"id": 53638
+	},
+	{
+		"extra": {
+			"mtxmgt_category": 7, // 2531 chisel:solomons_category
+			"mtxmgt_name": "Pile of arcane books", // 2533 chisel:SGS_name
+			"mtxmgt_pos_string": "rs:construction:arcane_artefacts_pile_of_books", // 4592
+			"mtxmgt_pack_structs": 5932, // 4717 chisel:sgs_pack_components
+			"mtxmgt_parent_id": 2519, // 4744
+			"mtxmgt_interface_positioning": 20470 // 9254
+		},
+		"id": 53639
+	},
+	{
+		"extra": {
+			"mtxmgt_category": 7, // 2531 chisel:solomons_category
+			"mtxmgt_name": "Pile of arcane books (1)", // 2533 chisel:SGS_name
+			"mtxmgt_interface_positioning": 20470, // 9254
+			"league_locality": 20491 // 9457
+		},
+		"id": 53640
+	},
+	{
+		"extra": {
+			"mtxmgt_category": 7, // 2531 chisel:solomons_category
+			"mtxmgt_name": "Pile of arcane books (2)", // 2533 chisel:SGS_name
+			"mtxmgt_interface_positioning": 20470, // 9254
+			"league_locality": 20492 // 9457
+		},
+		"id": 53641
+	},
+	{
+		"extra": {
+			"mtxmgt_category": 7, // 2531 chisel:solomons_category
+			"mtxmgt_name": "Pile of arcane books (3)", // 2533 chisel:SGS_name
+			"mtxmgt_interface_positioning": 20470, // 9254
+			"league_locality": 20493 // 9457
+		},
+		"id": 53642
+	},
+	{
+		"extra": {
+			"mtxmgt_category": 7, // 2531 chisel:solomons_category
+			"mtxmgt_name": "Pile of arcane scrolls (3 variants)", // 2533 chisel:SGS_name
+			"mtxmgt_interface_positioning": 20471, // 9254
+			"league_locality": 20494 // 9457
+		},
+		"id": 53643
+	},
+	{
+		"extra": {
+			"mtxmgt_category": 7, // 2531 chisel:solomons_category
+			"mtxmgt_name": "Pile of arcane scrolls", // 2533 chisel:SGS_name
+			"mtxmgt_pos_string": "rs:construction:arcane_artefacts_pile_of_scrolls", // 4592
+			"mtxmgt_pack_structs": 5933, // 4717 chisel:sgs_pack_components
+			"mtxmgt_parent_id": 2520, // 4744
+			"mtxmgt_interface_positioning": 20471 // 9254
+		},
+		"id": 53644
+	},
+	{
+		"extra": {
+			"mtxmgt_category": 7, // 2531 chisel:solomons_category
+			"mtxmgt_name": "Pile of arcane scrolls (1)", // 2533 chisel:SGS_name
+			"mtxmgt_interface_positioning": 20471, // 9254
+			"league_locality": 20494 // 9457
+		},
+		"id": 53645
+	},
+	{
+		"extra": {
+			"mtxmgt_category": 7, // 2531 chisel:solomons_category
+			"mtxmgt_name": "Pile of arcane scrolls (2)", // 2533 chisel:SGS_name
+			"mtxmgt_interface_positioning": 20471, // 9254
+			"league_locality": 20495 // 9457
+		},
+		"id": 53646
+	},
+	{
+		"extra": {
+			"mtxmgt_category": 7, // 2531 chisel:solomons_category
+			"mtxmgt_name": "Pile of arcane scrolls (3)", // 2533 chisel:SGS_name
+			"mtxmgt_interface_positioning": 20471, // 9254
+			"league_locality": 20496 // 9457
+		},
+		"id": 53647
+	},
+	{
+		"extra": {
+			"mtxmgt_category": 7, // 2531 chisel:solomons_category
+			"mtxmgt_name": "Chest of arcane artefacts", // 2533 chisel:SGS_name
+			"mtxmgt_pos_string": "rs:construction:arcane_artefacts_chest_of_magical_items", // 4592
+			"mtxmgt_parent_id": 2521, // 4744
+			"mtxmgt_interface_positioning": 20270, // 9254
+			"league_locality": 20512 // 9457
+		},
+		"id": 53648
+	},
+	{
+		"extra": {
+			"mtxmgt_category": 7, // 2531 chisel:solomons_category
+			"mtxmgt_name": "Arcane telescope", // 2533 chisel:SGS_name
+			"mtxmgt_pos_string": "rs:construction:arcane_artefacts_telescope", // 4592
+			"mtxmgt_parent_id": 2522, // 4744
+			"mtxmgt_interface_positioning": 20270, // 9254
+			"league_locality": 20514 // 9457
+		},
+		"id": 53649
+	},
+	{
+		"extra": {
+			"gielinor_games_savoury_points": 17134, // 2526
+			"mtxmgt_category": 7, // 2531 chisel:solomons_category
+			"mtxmgt_name": "Arcane crystal of power", // 2533 chisel:SGS_name
+			"mtxmgt_pos_string": "rs:construction:arcane_artefacts_crystal_ball", // 4592
+			"mtxmgt_parent_id": 2523, // 4744
+			"mtxmgt_interface_positioning": 20476, // 9254
+			"league_locality": 20516 // 9457
+		},
+		"id": 53650
+	},
+	{
+		"extra": {
+			"mtxmgt_category": 7, // 2531 chisel:solomons_category
+			"mtxmgt_name": "Wizard's Lecterns", // 2533 chisel:SGS_name
+			"mtxmgt_pos_string": "rs:packs:arcane_artefacts_lectern_bundle", // 4592
+			"mtxmgt_pack_structs": 5934, // 4717 chisel:sgs_pack_components
+			"mtxmgt_parent_id": 2527, // 4744
+			"mtxmgt_interface_positioning": 20478 // 9254
+		},
+		"id": 53651
+	},
+	{
+		"extra": {
+			"mtxmgt_category": 7, // 2531 chisel:solomons_category
+			"mtxmgt_name": "Wizard's lectern", // 2533 chisel:SGS_name
+			"mtxmgt_parent_id": 2527, // 4744
+			"mtxmgt_interface_positioning": 20479, // 9254
+			"league_locality": 20518 // 9457
+		},
+		"id": 53652
+	},
+	{
+		"extra": {
+			"mtxmgt_category": 7, // 2531 chisel:solomons_category
+			"mtxmgt_name": "Dark Wizard's lectern", // 2533 chisel:SGS_name
+			"mtxmgt_parent_id": 2527, // 4744
+			"mtxmgt_interface_positioning": 20478, // 9254
+			"league_locality": 20520 // 9457
+		},
+		"id": 53653
+	},
+	{
+		"extra": {
+			"mtxmgt_category": 7, // 2531 chisel:solomons_category
+			"mtxmgt_name": "Arcane bookcase", // 2533 chisel:SGS_name
+			"mtxmgt_parent_id": 2526, // 4744
+			"mtxmgt_interface_positioning": 20474, // 9254
+			"league_locality": 20525 // 9457
+		},
+		"id": 53654
+	},
+	{
+		"extra": {
+			"mtxmgt_category": 7, // 2531 chisel:solomons_category
+			"mtxmgt_name": "Arcane bookcase with ladder", // 2533 chisel:SGS_name
+			"mtxmgt_parent_id": 2526, // 4744
+			"mtxmgt_interface_positioning": 20474, // 9254
+			"league_locality": 20526 // 9457
+		},
+		"id": 53655
+	},
+	{
+		"extra": {
+			"mtxmgt_category": 7, // 2531 chisel:solomons_category
+			"mtxmgt_name": "Arcane corner bookcase", // 2533 chisel:SGS_name
+			"mtxmgt_parent_id": 2526, // 4744
+			"mtxmgt_interface_positioning": 20475, // 9254
+			"league_locality": 20531 // 9457
+		},
+		"id": 53656
+	},
+	{
+		"extra": {
+			"mtxmgt_category": 7, // 2531 chisel:solomons_category
+			"mtxmgt_name": "Elemental Rune Rug Bundle", // 2533 chisel:SGS_name
+			"mtxmgt_pos_string": "rs:packs:elemental_rune_rugs_bundle", // 4592
+			"mtxmgt_pack_structs": 5936, // 4717 chisel:sgs_pack_components
+			"mtxmgt_parent_id": 2528 // 4744
+		},
+		"id": 53657
+	},
+	{
+		"extra": {
+			"mtxmgt_category": 7, // 2531 chisel:solomons_category
+			"mtxmgt_name": "Air Rune Rug", // 2533 chisel:SGS_name
+			"mtxmgt_parent_id": 2528, // 4744
+			"mtxmgt_interface_positioning": 20472, // 9254
+			"league_locality": 20497 // 9457
+		},
+		"id": 53658
+	},
+	{
+		"extra": {
+			"mtxmgt_category": 7, // 2531 chisel:solomons_category
+			"mtxmgt_name": "Water Rune Rug", // 2533 chisel:SGS_name
+			"mtxmgt_parent_id": 2528, // 4744
+			"mtxmgt_interface_positioning": 20472, // 9254
+			"league_locality": 20498 // 9457
+		},
+		"id": 53659
+	},
+	{
+		"extra": {
+			"mtxmgt_category": 7, // 2531 chisel:solomons_category
+			"mtxmgt_name": "Earth Rune Rug", // 2533 chisel:SGS_name
+			"mtxmgt_parent_id": 2528, // 4744
+			"mtxmgt_interface_positioning": 20472, // 9254
+			"league_locality": 20499 // 9457
+		},
+		"id": 53660
+	},
+	{
+		"extra": {
+			"mtxmgt_category": 7, // 2531 chisel:solomons_category
+			"mtxmgt_name": "Fire Rune Rug", // 2533 chisel:SGS_name
+			"mtxmgt_parent_id": 2528, // 4744
+			"mtxmgt_interface_positioning": 20472, // 9254
+			"league_locality": 20500 // 9457
+		},
+		"id": 53661
+	},
+	{
+		"extra": {
+			"mtxmgt_category": 7, // 2531 chisel:solomons_category
+			"mtxmgt_name": "Catalytic Rune Rug Bundle 1", // 2533 chisel:SGS_name
+			"mtxmgt_pos_string": "rs:packs:catalytic_rune_rugs_set_1_bundle", // 4592
+			"mtxmgt_pack_structs": 5937, // 4717 chisel:sgs_pack_components
+			"mtxmgt_parent_id": 2529 // 4744
+		},
+		"id": 53662
+	},
+	{
+		"extra": {
+			"mtxmgt_category": 7, // 2531 chisel:solomons_category
+			"mtxmgt_name": "Mind Rune Rug", // 2533 chisel:SGS_name
+			"mtxmgt_parent_id": 2529, // 4744
+			"mtxmgt_interface_positioning": 20472, // 9254
+			"league_locality": 20501 // 9457
+		},
+		"id": 53663
+	},
+	{
+		"extra": {
+			"mtxmgt_category": 7, // 2531 chisel:solomons_category
+			"mtxmgt_name": "Body Rune Rug", // 2533 chisel:SGS_name
+			"mtxmgt_parent_id": 2529, // 4744
+			"mtxmgt_interface_positioning": 20472, // 9254
+			"league_locality": 20502 // 9457
+		},
+		"id": 53664
+	},
+	{
+		"extra": {
+			"mtxmgt_category": 7, // 2531 chisel:solomons_category
+			"mtxmgt_name": "Blood Rune Rug", // 2533 chisel:SGS_name
+			"mtxmgt_parent_id": 2529, // 4744
+			"mtxmgt_interface_positioning": 20472, // 9254
+			"league_locality": 20503 // 9457
+		},
+		"id": 53665
+	},
+	{
+		"extra": {
+			"mtxmgt_category": 7, // 2531 chisel:solomons_category
+			"mtxmgt_name": "Death Rune Rug", // 2533 chisel:SGS_name
+			"mtxmgt_parent_id": 2529, // 4744
+			"mtxmgt_interface_positioning": 20472, // 9254
+			"league_locality": 20504 // 9457
+		},
+		"id": 53666
+	},
+	{
+		"extra": {
+			"mtxmgt_category": 7, // 2531 chisel:solomons_category
+			"mtxmgt_name": "Soul Rune Rug", // 2533 chisel:SGS_name
+			"mtxmgt_parent_id": 2529, // 4744
+			"mtxmgt_interface_positioning": 20472, // 9254
+			"league_locality": 20505 // 9457
+		},
+		"id": 53667
+	},
+	{
+		"extra": {
+			"mtxmgt_category": 7, // 2531 chisel:solomons_category
+			"mtxmgt_name": "Catalytic Rune Rug Bundle 2", // 2533 chisel:SGS_name
+			"mtxmgt_pos_string": "rs:packs:catalytic_rune_rugs_set_2_bundle", // 4592
+			"mtxmgt_pack_structs": 5938, // 4717 chisel:sgs_pack_components
+			"mtxmgt_parent_id": 2530 // 4744
+		},
+		"id": 53668
+	},
+	{
+		"extra": {
+			"mtxmgt_category": 7, // 2531 chisel:solomons_category
+			"mtxmgt_name": "Chaos Rune Rug", // 2533 chisel:SGS_name
+			"mtxmgt_parent_id": 2530, // 4744
+			"mtxmgt_interface_positioning": 20472, // 9254
+			"league_locality": 20506 // 9457
+		},
+		"id": 53669
+	},
+	{
+		"extra": {
+			"mtxmgt_category": 7, // 2531 chisel:solomons_category
+			"mtxmgt_name": "Cosmic Rune Rug", // 2533 chisel:SGS_name
+			"mtxmgt_parent_id": 2530, // 4744
+			"mtxmgt_interface_positioning": 20472, // 9254
+			"league_locality": 20507 // 9457
+		},
+		"id": 53670
+	},
+	{
+		"extra": {
+			"mtxmgt_category": 7, // 2531 chisel:solomons_category
+			"mtxmgt_name": "Astral Rune Rug", // 2533 chisel:SGS_name
+			"mtxmgt_parent_id": 2530, // 4744
+			"mtxmgt_interface_positioning": 20472, // 9254
+			"league_locality": 20508 // 9457
+		},
+		"id": 53671
+	},
+	{
+		"extra": {
+			"mtxmgt_category": 7, // 2531 chisel:solomons_category
+			"mtxmgt_name": "Nature Rune Rug", // 2533 chisel:SGS_name
+			"mtxmgt_parent_id": 2530, // 4744
+			"mtxmgt_interface_positioning": 20472, // 9254
+			"league_locality": 20509 // 9457
+		},
+		"id": 53672
+	},
+	{
+		"extra": {
+			"mtxmgt_category": 7, // 2531 chisel:solomons_category
+			"mtxmgt_name": "Law Rune Rug", // 2533 chisel:SGS_name
+			"mtxmgt_parent_id": 2530, // 4744
+			"mtxmgt_interface_positioning": 20472, // 9254
+			"league_locality": 20510 // 9457
+		},
+		"id": 53673
+	},
+	{
+		"extra": {
+			"mtxmgt_category": 7, // 2531 chisel:solomons_category
+			"mtxmgt_name": "Time Rune Rug", // 2533 chisel:SGS_name
+			"mtxmgt_parent_id": 2530, // 4744
+			"mtxmgt_interface_positioning": 20472, // 9254
+			"league_locality": 20511 // 9457
+		},
+		"id": 53674
+	},
+	{
+		"extra": {
+			"marketplace_preview_recolourable": 1, // 1331
+			"marketplace_preview_default_colour": 10, // 2274
+			"mtxmgt_category": 2, // 2531 chisel:solomons_category
+			"mtxmgt_subcat": 20, // 2532 chisel:SGS_sub_group
+			"mtxmgt_name": "Arcane Scholar Uniform", // 2533 chisel:SGS_name
+			"mtxmgt_source": 1, // 2546
+			"mtxmgt_pos_string": "rs:outfits:arcane_scholar", // 4592
+			"mtxmgt_parent_id": 2514, // 4744
+			"mtxmgt_source_custom": "This cosmetic can be obtained from the Marketplace." // 4751 chisel:cosmetic_unlock_hint
+		},
+		"id": 53675
+	},
+	{
+		"extra": {
+			"mtxmgt_category": 2, // 2531 chisel:solomons_category
+			"mtxmgt_subcat": 0, // 2532 chisel:SGS_sub_group
+			"mtxmgt_name": "Arcane Scholar Spectacles", // 2533 chisel:SGS_name
+			"mtxmgt_source": 1, // 2546
+			"mtxmgt_parent_struct": 53675, // 4419 chisel:outfit_parent_vbId
+			"mtxmgt_source_custom": "This cosmetic can be obtained from the Marketplace." // 4751 chisel:cosmetic_unlock_hint
+		},
+		"id": 53676
+	},
+	{
+		"extra": {
+			"mtxmgt_category": 2, // 2531 chisel:solomons_category
+			"mtxmgt_subcat": 4, // 2532 chisel:SGS_sub_group
+			"mtxmgt_name": "Arcane Scholar Torso", // 2533 chisel:SGS_name
+			"mtxmgt_source": 1, // 2546
+			"mtxmgt_parent_struct": 53675, // 4419 chisel:outfit_parent_vbId
+			"mtxmgt_source_custom": "This cosmetic can be obtained from the Marketplace." // 4751 chisel:cosmetic_unlock_hint
+		},
+		"id": 53677
+	},
+	{
+		"extra": {
+			"mtxmgt_category": 2, // 2531 chisel:solomons_category
+			"mtxmgt_subcat": 7, // 2532 chisel:SGS_sub_group
+			"mtxmgt_name": "Arcane Scholar Legs", // 2533 chisel:SGS_name
+			"mtxmgt_source": 1, // 2546
+			"mtxmgt_parent_struct": 53675, // 4419 chisel:outfit_parent_vbId
+			"mtxmgt_source_custom": "This cosmetic can be obtained from the Marketplace." // 4751 chisel:cosmetic_unlock_hint
+		},
+		"id": 53678
+	},
+	{
+		"extra": {
+			"mtxmgt_category": 2, // 2531 chisel:solomons_category
+			"mtxmgt_subcat": 9, // 2532 chisel:SGS_sub_group
+			"mtxmgt_name": "Arcane Scholar Gloves", // 2533 chisel:SGS_name
+			"mtxmgt_source": 1, // 2546
+			"mtxmgt_parent_struct": 53675, // 4419 chisel:outfit_parent_vbId
+			"mtxmgt_source_custom": "This cosmetic can be obtained from the Marketplace." // 4751 chisel:cosmetic_unlock_hint
+		},
+		"id": 53679
+	},
+	{
+		"extra": {
+			"mtxmgt_category": 2, // 2531 chisel:solomons_category
+			"mtxmgt_subcat": 10, // 2532 chisel:SGS_sub_group
+			"mtxmgt_name": "Arcane Scholar Boots", // 2533 chisel:SGS_name
+			"mtxmgt_source": 1, // 2546
+			"mtxmgt_parent_struct": 53675, // 4419 chisel:outfit_parent_vbId
+			"mtxmgt_source_custom": "This cosmetic can be obtained from the Marketplace." // 4751 chisel:cosmetic_unlock_hint
+		},
+		"id": 53680
+	},
+	{
+		"extra": {
+			"mtxmgt_category": 2, // 2531 chisel:solomons_category
+			"mtxmgt_subcat": 3, // 2532 chisel:SGS_sub_group
+			"mtxmgt_name": "Arcane Scholar Crystal", // 2533 chisel:SGS_name
+			"mtxmgt_source": 1, // 2546
+			"mtxmgt_filters": 65536, // 4591
+			"release_date": 9014, // 4742 chisel:th_available_date
+			"mtxmgt_parent_id": 2524, // 4744
+			"mtxmgt_source_custom": "This cosmetic can be obtained from the Marketplace.", // 4751 chisel:cosmetic_unlock_hint
+			"original_release_date": 9014 // 6628
+		},
+		"id": 53681
+	},
+	{
+		"extra": {
+			"mtxmgt_category": 2, // 2531 chisel:solomons_category
+			"mtxmgt_subcat": 5, // 2532 chisel:SGS_sub_group
+			"mtxmgt_name": "Arcane Scholar Offhand Crystal", // 2533 chisel:SGS_name
+			"mtxmgt_source": 1, // 2546
+			"mtxmgt_filters": 67108864, // 4591
+			"release_date": 9014, // 4742 chisel:th_available_date
+			"mtxmgt_parent_id": 2524, // 4744
+			"mtxmgt_source_custom": "This cosmetic can be obtained from the Marketplace.", // 4751 chisel:cosmetic_unlock_hint
+			"original_release_date": 9014 // 6628
+		},
+		"id": 53682
+	},
+	{
+		"extra": {
+			"motw_banner_en": 36669, // 6381
+			"motw_banner_de": 36669, // 6385
+			"motw_banner_fr": 36669, // 6386
+			"motw_banner_pt": 36669, // 6387
+			"motw_title": "Arcane Scholar", // 6391
+			"motw_onclick": 14 // 6392
+		},
+		"id": 53683
+	},
+	{
+		"extra": {
+			"motw_banner_en": 36670, // 6381
+			"motw_banner_de": 36670, // 6385
+			"motw_banner_fr": 36670, // 6386
+			"motw_banner_pt": 36670, // 6387
+			"motw_title": "Arcane Artefacts", // 6391
+			"motw_onclick": 14 // 6392
+		},
+		"id": 53684
+	},
+	{
+		"id": 53685
 	}
 ]

@@ -5,7 +5,7 @@ function script9321(): void {
     var int2 = 0;
     var int3 = 0;
     var string0 = script13591();
-    var string1 = script13685();
+    var string1 = "";
     while ((int0 < 1920)) {
         if ((CC_FIND(comp(517, 201), int0) == 1)) {  // bank:bank_inv
             int1 = INV_GETOBJ(95 as inv, int0);
@@ -15,12 +15,18 @@ function script9321(): void {
             int2 = INV_GETNUM(95 as inv, int0);
             int3 = CC_GETINVCOUNT();
             if ((int1 != CC_GETINVOBJECT())) {
+                stack(int1);
+                string1 = script13685();
                 script13798(string0, string1, int1, int2);
             } else if ((int3 == 0)) {
                 if ((int2 > 0)) {
+                    stack(int1);
+                    string1 = script13685();
                     script13798(string0, string1, int1, int2);
                 } else if ((int2 == 0)) {
                     if ((int3 > 0)) {
+                        stack(int1);
+                        string1 = script13685();
                         script13798(string0, string1, int1, int2);
                     } else if ((int1 == 48447 as obj)) {
                         CC_SETOBJECT_NONUM(48447 as obj, 0);
@@ -34,6 +40,8 @@ function script9321(): void {
                 };
             } else if ((int2 == 0)) {
                 if ((int3 > 0)) {
+                    stack(int1);
+                    string1 = script13685();
                     script13798(string0, string1, int1, int2);
                 } else if ((int1 == 48447 as obj)) {
                     CC_SETOBJECT_NONUM(48447 as obj, 0);

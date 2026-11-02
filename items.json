@@ -149252,7 +149252,7 @@
 		"stackableSometimes": true
 	},
 	{
-		"baseModel": 39022,
+		"baseModel": 141638,
 		"colours": {
 			"8741": 61347
 		},
@@ -149303,7 +149303,7 @@
 		"zoom": 855
 	},
 	{
-		"baseModel": 40678,
+		"baseModel": 141669,
 		"colours": {
 			"8741": 61347
 		},
@@ -2273759,7 +2273759,6 @@
 	},
 	{
 		"baseModel": 62760,
-		"category": 5363,
 		"colours": {
 			"418": 54692,
 			"427": 54701,
@@ -2273796,18 +2273795,11 @@
 		],
 		"stackableAlways": true,
 		"widget_actions": [
-			"Info",
-			"Shop",
-			"Add to currency pouch",
-			"Withdraw from currency pouch",
+			null,
+			null,
+			null,
+			null,
 			"Destroy"
-		],
-		"widget_actions_cursor": [
-			172,
-			null,
-			null,
-			null,
-			null
 		],
 		"zoom": 661
 	},
@@ -2580471,13 +2580463,17 @@
 			null
 		],
 		"id": 63858,
+		"modelTranslate": [
+			65526,
+			null
+		],
 		"rotation": [
 			null,
 			108,
 			1781
 		],
 		"stackableSometimes": true,
-		"zoom": 3408
+		"zoom": 4189
 	},
 	{
 		"baseModel": 145851,
@@ -2596357,5 +2596353,2790 @@
 		"bindTemplate": 20930,
 		"id": 64399,
 		"stackableSometimes": true
+	},
+	{
+		"baseModel": 121926,
+		"extra": {
+			"no_alchemy": 1, // 689 chisel:is_crystal_mattock
+			"protect_on_death": 1, // 1397 chisel:unknown_clue_scroll_boolean
+			"mtxmgt_category": 2, // 2531 chisel:solomons_category
+			"mtxmgt_item_struct": 53675 // 4414 chisel:outfit_info_vbId
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64400,
+		"name": "Arcane scholar uniform",
+		"notTradeable": true,
+		"stackableSometimes": true
+	},
+	{
+		"baseModel": 0,
+		"bindLink": 64400,
+		"bindTemplate": 20930,
+		"id": 64401,
+		"stackableSometimes": true
+	},
+	{
+		"baseModel": 142918,
+		"category": 5876,
+		"extra": {
+			"mtxmgt_category": 2, // 2531 chisel:solomons_category
+			"mtxmgt_item_struct": 53676 // 4414 chisel:outfit_info_vbId
+		},
+		"femaleHeads": [
+			71656,
+			null
+		],
+		"femaleModels": [
+			71658,
+			null,
+			null
+		],
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64402,
+		"maleHeads": [
+			71663,
+			null
+		],
+		"maleModels": [
+			71664,
+			null,
+			null
+		],
+		"modelTranslate": [
+			null,
+			65532
+		],
+		"name": "Arcane scholar spectacles",
+		"notTradeable": true,
+		"rotation": [
+			null,
+			121,
+			null
+		],
+		"stackableSometimes": true,
+		"value": 44,
+		"wearPos": [
+			0,
+			null,
+			null
+		],
+		"widget_actions": [
+			null,
+			"Wear",
+			null,
+			null,
+			null
+		],
+		"widget_actions_cursor": [
+			null,
+			51,
+			null,
+			null,
+			null
+		],
+		"zoom": 921
+	},
+	{
+		"baseModel": 142920,
+		"category": 5876,
+		"colours": {
+			"16311": 16311,
+			"16323": 16323,
+			"16335": 16335,
+			"16347": 16347
+		},
+		"extra": {
+			"mtxrecol_set": 11063, // 2500 chisel:recolor_enum_id
+			"mtxmgt_category": 2, // 2531 chisel:solomons_category
+			"mtxmgt_item_struct": 53677, // 4414 chisel:outfit_info_vbId
+			"mtxrecol_id": 861 // 5099 chisel:unknown_mtx_outfit_nr
+		},
+		"femaleModels": [
+			71660,
+			null,
+			null
+		],
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64403,
+		"maleModels": [
+			71666,
+			null,
+			null
+		],
+		"modelTranslate": [
+			null,
+			13
+		],
+		"name": "Arcane scholar torso",
+		"notTradeable": true,
+		"rotation": [
+			null,
+			485,
+			null
+		],
+		"stackableNever": true,
+		"value": 160,
+		"wearPos": [
+			4,
+			6,
+			null
+		],
+		"widget_actions": [
+			null,
+			"Wear",
+			null,
+			null,
+			null
+		],
+		"widget_actions_cursor": [
+			null,
+			51,
+			null,
+			null,
+			null
+		],
+		"zoom": 1447
+	},
+	{
+		"baseModel": 142919,
+		"category": 5876,
+		"colours": {
+			"16311": 16311,
+			"16323": 16323,
+			"16335": 16335,
+			"16347": 16347
+		},
+		"extra": {
+			"mtxrecol_set": 11063, // 2500 chisel:recolor_enum_id
+			"mtxmgt_category": 2, // 2531 chisel:solomons_category
+			"mtxmgt_item_struct": 53678, // 4414 chisel:outfit_info_vbId
+			"mtxrecol_id": 862 // 5099 chisel:unknown_mtx_outfit_nr
+		},
+		"femaleModels": [
+			71659,
+			null,
+			null
+		],
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64404,
+		"maleModels": [
+			71665,
+			null,
+			null
+		],
+		"modelTranslate": [
+			7,
+			3
+		],
+		"name": "Arcane scholar legs",
+		"notTradeable": true,
+		"rotation": [
+			null,
+			525,
+			null
+		],
+		"stackableNever": true,
+		"value": 80,
+		"wearPos": [
+			7,
+			null,
+			null
+		],
+		"widget_actions": [
+			null,
+			"Wear",
+			null,
+			null,
+			null
+		],
+		"widget_actions_cursor": [
+			null,
+			51,
+			null,
+			null,
+			null
+		],
+		"zoom": 1730
+	},
+	{
+		"baseModel": 142915,
+		"category": 5876,
+		"extra": {
+			"mtxmgt_category": 2, // 2531 chisel:solomons_category
+			"mtxmgt_item_struct": 53679 // 4414 chisel:outfit_info_vbId
+		},
+		"femaleModels": [
+			71662,
+			null,
+			null
+		],
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64405,
+		"maleModels": [
+			71662,
+			null,
+			null
+		],
+		"modelTranslate": [
+			3,
+			65529
+		],
+		"name": "Arcane scholar gloves",
+		"notTradeable": true,
+		"rotation": [
+			null,
+			420,
+			828
+		],
+		"stackableSometimes": true,
+		"value": 100,
+		"wearPos": [
+			9,
+			null,
+			null
+		],
+		"widget_actions": [
+			null,
+			"Wear",
+			null,
+			null,
+			null
+		],
+		"widget_actions_cursor": [
+			null,
+			51,
+			null,
+			null,
+			null
+		],
+		"zoom": 930
+	},
+	{
+		"baseModel": 142914,
+		"category": 5876,
+		"extra": {
+			"mtxmgt_category": 2, // 2531 chisel:solomons_category
+			"mtxmgt_item_struct": 53680 // 4414 chisel:outfit_info_vbId
+		},
+		"femaleModels": [
+			71661,
+			71657,
+			null
+		],
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64406,
+		"maleModels": [
+			71661,
+			null,
+			null
+		],
+		"modelTranslate": [
+			null,
+			65528
+		],
+		"name": "Arcane scholar boots",
+		"notTradeable": true,
+		"rotation": [
+			null,
+			164,
+			156
+		],
+		"stackableSometimes": true,
+		"value": 24,
+		"wearPos": [
+			10,
+			null,
+			null
+		],
+		"widget_actions": [
+			null,
+			"Wear",
+			null,
+			null,
+			null
+		],
+		"widget_actions_cursor": [
+			null,
+			51,
+			null,
+			null,
+			null
+		],
+		"zoom": 789
+	},
+	{
+		"baseModel": 121926,
+		"extra": {
+			"weapon_category": 14938, // 686 chisel:unknown_item_reference
+			"mtxmgt_category": 2, // 2531 chisel:solomons_category
+			"mtxmgt_source": 1, // 2546
+			"combatv2_sheath_model": 71669, // 2820 chisel:sheathed_weapon_model
+			"mtxmgt_item_struct": 53681, // 4414 chisel:outfit_info_vbId
+			"mtxmgt_source_custom": "This cosmetic can be obtained from the Marketplace." // 4751 chisel:cosmetic_unlock_hint
+		},
+		"femaleModels": [
+			71667,
+			71698,
+			null
+		],
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64407,
+		"maleModels": [
+			71667,
+			71698,
+			null
+		],
+		"name": "Arcane scholar crystal",
+		"notTradeable": true,
+		"stackableSometimes": true,
+		"wearPos": [
+			3,
+			null,
+			null
+		]
+	},
+	{
+		"baseModel": 121926,
+		"extra": {
+			"weapon_category": 19415, // 686 chisel:unknown_item_reference
+			"mtxmgt_category": 2, // 2531 chisel:solomons_category
+			"mtxmgt_source": 1, // 2546
+			"combatv2_sheath_model": 71670, // 2820 chisel:sheathed_weapon_model
+			"mtxmgt_item_struct": 53682, // 4414 chisel:outfit_info_vbId
+			"mtxmgt_source_custom": "This cosmetic can be obtained from the Marketplace." // 4751 chisel:cosmetic_unlock_hint
+		},
+		"femaleModels": [
+			71668,
+			71700,
+			null
+		],
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64408,
+		"maleModels": [
+			71668,
+			71700,
+			null
+		],
+		"name": "Arcane scholar offhand crystal",
+		"notTradeable": true,
+		"stackableSometimes": true,
+		"wearPos": [
+			5,
+			null,
+			null
+		]
+	},
+	{
+		"baseModel": 121926,
+		"category": 5798,
+		"extra": {
+			"league_brooch": 20434 // 9458
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64409,
+		"name": "Arcane Artefacts Bundle",
+		"notTradeable": true,
+		"stackableSometimes": true
+	},
+	{
+		"baseModel": 0,
+		"bindLink": 64409,
+		"bindTemplate": 20930,
+		"id": 64410,
+		"stackableSometimes": true
+	},
+	{
+		"baseModel": 121926,
+		"category": 5798,
+		"extra": {
+			"league_brooch": 20435 // 9458
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64411,
+		"name": "Floating quill",
+		"notTradeable": true,
+		"stackableSometimes": true
+	},
+	{
+		"baseModel": 0,
+		"bindLink": 64411,
+		"bindTemplate": 20930,
+		"id": 64412,
+		"stackableSometimes": true
+	},
+	{
+		"baseModel": 121926,
+		"category": 5798,
+		"extra": {
+			"league_brooch": 20436 // 9458
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64413,
+		"name": "Floating candles",
+		"notTradeable": true,
+		"stackableSometimes": true
+	},
+	{
+		"baseModel": 0,
+		"bindLink": 64413,
+		"bindTemplate": 20930,
+		"id": 64414,
+		"stackableSometimes": true
+	},
+	{
+		"baseModel": 121926,
+		"category": 5798,
+		"extra": {
+			"league_brooch": 20437 // 9458
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64415,
+		"name": "Floating arcane books",
+		"notTradeable": true,
+		"stackableSometimes": true
+	},
+	{
+		"baseModel": 0,
+		"bindLink": 64415,
+		"bindTemplate": 20930,
+		"id": 64416,
+		"stackableSometimes": true
+	},
+	{
+		"baseModel": 121926,
+		"category": 5798,
+		"extra": {
+			"league_brooch": 20438 // 9458
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64417,
+		"name": "Pile of arcane books",
+		"notTradeable": true,
+		"stackableSometimes": true
+	},
+	{
+		"baseModel": 0,
+		"bindLink": 64417,
+		"bindTemplate": 20930,
+		"id": 64418,
+		"stackableSometimes": true
+	},
+	{
+		"baseModel": 121926,
+		"category": 5798,
+		"extra": {
+			"league_brooch": 20439 // 9458
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64419,
+		"name": "Pile of arcane scrolls",
+		"notTradeable": true,
+		"stackableSometimes": true
+	},
+	{
+		"baseModel": 0,
+		"bindLink": 64419,
+		"bindTemplate": 20930,
+		"id": 64420,
+		"stackableSometimes": true
+	},
+	{
+		"baseModel": 121926,
+		"category": 5798,
+		"extra": {
+			"league_brooch": 20440 // 9458
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64421,
+		"name": "Chest of arcane artefacts",
+		"notTradeable": true,
+		"stackableSometimes": true
+	},
+	{
+		"baseModel": 0,
+		"bindLink": 64421,
+		"bindTemplate": 20930,
+		"id": 64422,
+		"stackableSometimes": true
+	},
+	{
+		"baseModel": 121926,
+		"category": 5798,
+		"extra": {
+			"league_brooch": 20441 // 9458
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64423,
+		"name": "Arcane telescope",
+		"notTradeable": true,
+		"stackableSometimes": true
+	},
+	{
+		"baseModel": 0,
+		"bindLink": 64423,
+		"bindTemplate": 20930,
+		"id": 64424,
+		"stackableSometimes": true
+	},
+	{
+		"baseModel": 121926,
+		"category": 5798,
+		"extra": {
+			"league_brooch": 20442 // 9458
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64425,
+		"name": "Arcane crystal of power",
+		"notTradeable": true,
+		"stackableSometimes": true
+	},
+	{
+		"baseModel": 0,
+		"bindLink": 64425,
+		"bindTemplate": 20930,
+		"id": 64426,
+		"stackableSometimes": true
+	},
+	{
+		"baseModel": 121926,
+		"category": 5798,
+		"extra": {
+			"league_brooch": 20443 // 9458
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64427,
+		"name": "Wizard's Lecterns",
+		"notTradeable": true,
+		"stackableSometimes": true
+	},
+	{
+		"baseModel": 0,
+		"bindLink": 64427,
+		"bindTemplate": 20930,
+		"id": 64428,
+		"stackableSometimes": true
+	},
+	{
+		"baseModel": 121926,
+		"category": 5798,
+		"extra": {
+			"league_brooch": 20444 // 9458
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64429,
+		"name": "Arcane Bookcases",
+		"notTradeable": true,
+		"stackableSometimes": true
+	},
+	{
+		"baseModel": 0,
+		"bindLink": 64429,
+		"bindTemplate": 20930,
+		"id": 64430,
+		"stackableSometimes": true
+	},
+	{
+		"baseModel": 121926,
+		"category": 5798,
+		"extra": {
+			"league_brooch": 20445 // 9458
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64431,
+		"name": "Elemental Rune Rug Bundle",
+		"notTradeable": true,
+		"stackableSometimes": true
+	},
+	{
+		"baseModel": 0,
+		"bindLink": 64431,
+		"bindTemplate": 20930,
+		"id": 64432,
+		"stackableSometimes": true
+	},
+	{
+		"baseModel": 121926,
+		"category": 5798,
+		"extra": {
+			"league_brooch": 20446 // 9458
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64433,
+		"name": "Catalytic Rune Rug Bundle 1",
+		"notTradeable": true,
+		"stackableSometimes": true
+	},
+	{
+		"baseModel": 0,
+		"bindLink": 64433,
+		"bindTemplate": 20930,
+		"id": 64434,
+		"stackableSometimes": true
+	},
+	{
+		"baseModel": 121926,
+		"category": 5798,
+		"extra": {
+			"league_brooch": 20447 // 9458
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64435,
+		"name": "Catalytic Rune Rug Bundle 2",
+		"notTradeable": true,
+		"stackableSometimes": true
+	},
+	{
+		"baseModel": 0,
+		"bindLink": 64435,
+		"bindTemplate": 20930,
+		"id": 64436,
+		"stackableSometimes": true
+	},
+	{
+		"baseModel": 121926,
+		"category": 3457,
+		"extra": {
+			"mtxmgt_item_struct": 53675 // 4414 chisel:outfit_info_vbId
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64437,
+		"name": "Arcane Scholar Uniform",
+		"notTradeable": true,
+		"stackableSometimes": true
+	},
+	{
+		"baseModel": 0,
+		"bindLink": 64437,
+		"bindTemplate": 20930,
+		"id": 64438,
+		"stackableSometimes": true
+	},
+	{
+		"baseModel": 121926,
+		"category": 3457,
+		"extra": {
+			"mtxmgt_item_struct": 53623 // 4414 chisel:outfit_info_vbId
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64439,
+		"name": "Arcane Scholar Crystals",
+		"notTradeable": true,
+		"stackableSometimes": true
+	},
+	{
+		"baseModel": 0,
+		"bindLink": 64439,
+		"bindTemplate": 20930,
+		"id": 64440,
+		"stackableSometimes": true
+	},
+	{
+		"baseModel": 121926,
+		"category": 3457,
+		"extra": {
+			"mtxmgt_item_struct": 53624 // 4414 chisel:outfit_info_vbId
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64441,
+		"name": "Arcane Scholar Bundle",
+		"notTradeable": true,
+		"stackableSometimes": true
+	},
+	{
+		"baseModel": 0,
+		"bindLink": 64441,
+		"bindTemplate": 20930,
+		"id": 64442,
+		"stackableSometimes": true
+	},
+	{
+		"Members": true,
+		"baseModel": 71675,
+		"category": 5769,
+		"extra": {
+			"levelrequire": 29, // 23 chisel:item_tier
+			"destroyondrop": 1, // 31 chisel:death_flag_2
+			"protect_on_death": 1, // 1397 chisel:unknown_clue_scroll_boolean
+			"ge_category": 5, // 2195
+			"recipe_requirement_type_1": 22, // 2640 chisel:create_requirement_type_1
+			"recipe_requirement_value_1": 29, // 2645 chisel:create_requirement_value_1
+			"recipe_tool_type_1": 2347, // 2650 chisel:create_requirement_tool_1
+			"recipe_tool_type_2": 8794, // 2651 chisel:create_requirement_tool_2
+			"recipe_ingredient_type_1": 8778, // 2655 chisel:craft_item_1
+			"recipe_ingredient_number_1": 3, // 2665 chisel:is_burial_item
+			"recipe_xp_type_1": 22, // 2696 chisel:craft_xp_skill_1
+			"destroyondrop_mes": "If you destroy this item you will need to construct another.", // 5417 chisel:destroy_msg
+			"recipe_cycles": 10 // 5446 chisel:is_biscuit_dough
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64443,
+		"name": "Oak corner bookcase",
+		"rotation": [
+			null,
+			138,
+			1863
+		],
+		"stackableSometimes": true,
+		"value": 50,
+		"widget_actions": [
+			null,
+			null,
+			null,
+			null,
+			"Destroy"
+		],
+		"zoom": 4916
+	},
+	{
+		"baseModel": 0,
+		"id": 64444,
+		"noteData": 64443,
+		"noteTemplate": 799,
+		"stackableSometimes": true
+	},
+	{
+		"Members": true,
+		"baseModel": 71676,
+		"category": 5769,
+		"extra": {
+			"levelrequire": 40, // 23 chisel:item_tier
+			"destroyondrop": 1, // 31 chisel:death_flag_2
+			"protect_on_death": 1, // 1397 chisel:unknown_clue_scroll_boolean
+			"ge_category": 5, // 2195
+			"recipe_requirement_type_1": 22, // 2640 chisel:create_requirement_type_1
+			"recipe_requirement_value_1": 40, // 2645 chisel:create_requirement_value_1
+			"recipe_tool_type_1": 2347, // 2650 chisel:create_requirement_tool_1
+			"recipe_tool_type_2": 8794, // 2651 chisel:create_requirement_tool_2
+			"recipe_ingredient_type_1": 8780, // 2655 chisel:craft_item_1
+			"recipe_ingredient_number_1": 3, // 2665 chisel:is_burial_item
+			"recipe_xp_type_1": 22, // 2696 chisel:craft_xp_skill_1
+			"destroyondrop_mes": "If you destroy this item you will need to construct another.", // 5417 chisel:destroy_msg
+			"recipe_cycles": 10 // 5446 chisel:is_biscuit_dough
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64445,
+		"name": "Teak corner bookcase",
+		"rotation": [
+			null,
+			138,
+			1863
+		],
+		"stackableSometimes": true,
+		"value": 100,
+		"widget_actions": [
+			null,
+			null,
+			null,
+			null,
+			"Destroy"
+		],
+		"zoom": 4916
+	},
+	{
+		"baseModel": 0,
+		"id": 64446,
+		"noteData": 64445,
+		"noteTemplate": 799,
+		"stackableSometimes": true
+	},
+	{
+		"Members": true,
+		"baseModel": 71673,
+		"category": 5769,
+		"extra": {
+			"levelrequire": 64, // 23 chisel:item_tier
+			"destroyondrop": 1, // 31 chisel:death_flag_2
+			"protect_on_death": 1, // 1397 chisel:unknown_clue_scroll_boolean
+			"ge_category": 5, // 2195
+			"recipe_requirement_type_1": 22, // 2640 chisel:create_requirement_type_1
+			"recipe_requirement_value_1": 64, // 2645 chisel:create_requirement_value_1
+			"recipe_tool_type_1": 2347, // 2650 chisel:create_requirement_tool_1
+			"recipe_tool_type_2": 8794, // 2651 chisel:create_requirement_tool_2
+			"recipe_ingredient_type_1": 8782, // 2655 chisel:craft_item_1
+			"recipe_ingredient_number_1": 3, // 2665 chisel:is_burial_item
+			"recipe_xp_type_1": 22, // 2696 chisel:craft_xp_skill_1
+			"destroyondrop_mes": "If you destroy this item you will need to construct another.", // 5417 chisel:destroy_msg
+			"recipe_cycles": 10 // 5446 chisel:is_biscuit_dough
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64447,
+		"name": "Mahogany corner bookcase",
+		"rotation": [
+			null,
+			138,
+			1863
+		],
+		"stackableSometimes": true,
+		"value": 250,
+		"widget_actions": [
+			null,
+			null,
+			null,
+			null,
+			"Destroy"
+		],
+		"zoom": 4916
+	},
+	{
+		"baseModel": 0,
+		"id": 64448,
+		"noteData": 64447,
+		"noteTemplate": 799,
+		"stackableSometimes": true
+	},
+	{
+		"Members": true,
+		"baseModel": 71671,
+		"category": 5769,
+		"extra": {
+			"levelrequire": 99, // 23 chisel:item_tier
+			"destroyondrop": 1, // 31 chisel:death_flag_2
+			"protect_on_death": 1, // 1397 chisel:unknown_clue_scroll_boolean
+			"ge_category": 5, // 2195
+			"recipe_requirement_type_1": 22, // 2640 chisel:create_requirement_type_1
+			"recipe_requirement_value_1": 99, // 2645 chisel:create_requirement_value_1
+			"recipe_tool_type_1": 2347, // 2650 chisel:create_requirement_tool_1
+			"recipe_tool_type_2": 8794, // 2651 chisel:create_requirement_tool_2
+			"recipe_ingredient_type_1": 63190, // 2655 chisel:craft_item_1
+			"recipe_ingredient_number_1": 3, // 2665 chisel:is_burial_item
+			"recipe_xp_type_1": 22, // 2696 chisel:craft_xp_skill_1
+			"destroyondrop_mes": "If you destroy this item you will need to construct another.", // 5417 chisel:destroy_msg
+			"recipe_cycles": 10 // 5446 chisel:is_biscuit_dough
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64449,
+		"name": "Eternal corner bookcase",
+		"rotation": [
+			null,
+			138,
+			1863
+		],
+		"stackableSometimes": true,
+		"value": 1000,
+		"widget_actions": [
+			null,
+			null,
+			null,
+			null,
+			"Destroy"
+		],
+		"zoom": 4916
+	},
+	{
+		"baseModel": 0,
+		"id": 64450,
+		"noteData": 64449,
+		"noteTemplate": 799,
+		"stackableSometimes": true
+	},
+	{
+		"baseModel": 145601,
+		"category": 5769,
+		"extra": {
+			"levelrequire": 11, // 23 chisel:item_tier
+			"destroyondrop": 1, // 31 chisel:death_flag_2
+			"no_alchemy": 1, // 689 chisel:is_crystal_mattock
+			"protect_on_death": 2, // 1397 chisel:unknown_clue_scroll_boolean
+			"extra_00057B": 1, // 1403
+			"recipe_requirement_type_1": 22, // 2640 chisel:create_requirement_type_1
+			"recipe_requirement_type_2": 67, // 2641 chisel:create_requirement_type_2
+			"recipe_requirement_value_1": 11, // 2645 chisel:create_requirement_value_1
+			"recipe_tool_type_1": 2347, // 2650 chisel:create_requirement_tool_1
+			"recipe_tool_type_2": 8794, // 2651 chisel:create_requirement_tool_2
+			"recipe_ingredient_type_1": 4622, // 2655 chisel:craft_item_1
+			"recipe_ingredient_type_2": 314, // 2656 chisel:craft_item_2
+			"recipe_ingredient_type_3": 556, // 2657 chisel:craft_item_3
+			"recipe_ingredient_number_1": 1, // 2665 chisel:is_burial_item
+			"recipe_ingredient_number_2": 1, // 2666 chisel:craft_quantity_2
+			"recipe_ingredient_number_3": 5, // 2667 chisel:craft_quantity_3
+			"recipe_xp_type_1": 22, // 2696 chisel:craft_xp_skill_1
+			"destroyondrop_mes": "If you destroy this item you will need to construct another.", // 5417 chisel:destroy_msg
+			"recipe_cycles": 10 // 5446 chisel:is_biscuit_dough
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64451,
+		"modelTranslate": [
+			14,
+			28
+		],
+		"name": "Floating quill",
+		"notTradeable": true,
+		"rotation": [
+			null,
+			null,
+			1141
+		],
+		"stackableSometimes": true,
+		"value": 1,
+		"widget_actions": [
+			null,
+			null,
+			null,
+			null,
+			"Destroy"
+		],
+		"zoom": 1892
+	},
+	{
+		"baseModel": 0,
+		"id": 64452,
+		"noteData": 64451,
+		"noteTemplate": 799,
+		"stackableSometimes": true
+	},
+	{
+		"baseModel": 145609,
+		"category": 5769,
+		"extra": {
+			"levelrequire": 13, // 23 chisel:item_tier
+			"destroyondrop": 1, // 31 chisel:death_flag_2
+			"no_alchemy": 1, // 689 chisel:is_crystal_mattock
+			"protect_on_death": 2, // 1397 chisel:unknown_clue_scroll_boolean
+			"extra_00057B": 1, // 1403
+			"recipe_requirement_type_1": 22, // 2640 chisel:create_requirement_type_1
+			"recipe_requirement_type_2": 67, // 2641 chisel:create_requirement_type_2
+			"recipe_requirement_value_1": 13, // 2645 chisel:create_requirement_value_1
+			"recipe_tool_type_1": 2347, // 2650 chisel:create_requirement_tool_1
+			"recipe_tool_type_2": 8794, // 2651 chisel:create_requirement_tool_2
+			"recipe_ingredient_type_1": 36, // 2655 chisel:craft_item_1
+			"recipe_ingredient_type_2": 556, // 2656 chisel:craft_item_2
+			"recipe_ingredient_number_1": 3, // 2665 chisel:is_burial_item
+			"recipe_ingredient_number_2": 10, // 2666 chisel:craft_quantity_2
+			"recipe_xp_type_1": 22, // 2696 chisel:craft_xp_skill_1
+			"destroyondrop_mes": "If you destroy this item you will need to construct another.", // 5417 chisel:destroy_msg
+			"recipe_cycles": 10 // 5446 chisel:is_biscuit_dough
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64453,
+		"modelTranslate": [
+			1,
+			51
+		],
+		"name": "Floating candle set",
+		"notTradeable": true,
+		"rotation": [
+			null,
+			null,
+			429
+		],
+		"stackableSometimes": true,
+		"value": 1,
+		"widget_actions": [
+			null,
+			null,
+			null,
+			null,
+			"Destroy"
+		],
+		"zoom": 1824
+	},
+	{
+		"baseModel": 0,
+		"id": 64454,
+		"noteData": 64453,
+		"noteTemplate": 799,
+		"stackableSometimes": true
+	},
+	{
+		"baseModel": 145611,
+		"category": 5769,
+		"extra": {
+			"levelrequire": 13, // 23 chisel:item_tier
+			"destroyondrop": 1, // 31 chisel:death_flag_2
+			"no_alchemy": 1, // 689 chisel:is_crystal_mattock
+			"protect_on_death": 2, // 1397 chisel:unknown_clue_scroll_boolean
+			"extra_00057B": 1, // 1403
+			"recipe_requirement_type_1": 22, // 2640 chisel:create_requirement_type_1
+			"recipe_requirement_type_2": 67, // 2641 chisel:create_requirement_type_2
+			"recipe_requirement_value_1": 13, // 2645 chisel:create_requirement_value_1
+			"recipe_tool_type_1": 2347, // 2650 chisel:create_requirement_tool_1
+			"recipe_tool_type_2": 8794, // 2651 chisel:create_requirement_tool_2
+			"recipe_ingredient_type_1": 36, // 2655 chisel:craft_item_1
+			"recipe_ingredient_type_2": 556, // 2656 chisel:craft_item_2
+			"recipe_ingredient_number_1": 4, // 2665 chisel:is_burial_item
+			"recipe_ingredient_number_2": 10, // 2666 chisel:craft_quantity_2
+			"recipe_xp_type_1": 22, // 2696 chisel:craft_xp_skill_1
+			"destroyondrop_mes": "If you destroy this item you will need to construct another.", // 5417 chisel:destroy_msg
+			"recipe_cycles": 10 // 5446 chisel:is_biscuit_dough
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64455,
+		"modelTranslate": [
+			6,
+			51
+		],
+		"name": "Floating candle cluster (1)",
+		"notTradeable": true,
+		"rotation": [
+			null,
+			null,
+			187
+		],
+		"stackableSometimes": true,
+		"value": 1,
+		"widget_actions": [
+			null,
+			null,
+			null,
+			null,
+			"Destroy"
+		],
+		"zoom": 2196
+	},
+	{
+		"baseModel": 0,
+		"id": 64456,
+		"noteData": 64455,
+		"noteTemplate": 799,
+		"stackableSometimes": true
+	},
+	{
+		"baseModel": 145613,
+		"category": 5769,
+		"extra": {
+			"levelrequire": 13, // 23 chisel:item_tier
+			"destroyondrop": 1, // 31 chisel:death_flag_2
+			"no_alchemy": 1, // 689 chisel:is_crystal_mattock
+			"protect_on_death": 2, // 1397 chisel:unknown_clue_scroll_boolean
+			"extra_00057B": 1, // 1403
+			"recipe_requirement_type_1": 22, // 2640 chisel:create_requirement_type_1
+			"recipe_requirement_type_2": 67, // 2641 chisel:create_requirement_type_2
+			"recipe_requirement_value_1": 13, // 2645 chisel:create_requirement_value_1
+			"recipe_tool_type_1": 2347, // 2650 chisel:create_requirement_tool_1
+			"recipe_tool_type_2": 8794, // 2651 chisel:create_requirement_tool_2
+			"recipe_ingredient_type_1": 36, // 2655 chisel:craft_item_1
+			"recipe_ingredient_type_2": 556, // 2656 chisel:craft_item_2
+			"recipe_ingredient_number_1": 4, // 2665 chisel:is_burial_item
+			"recipe_ingredient_number_2": 10, // 2666 chisel:craft_quantity_2
+			"recipe_xp_type_1": 22, // 2696 chisel:craft_xp_skill_1
+			"destroyondrop_mes": "If you destroy this item you will need to construct another.", // 5417 chisel:destroy_msg
+			"recipe_cycles": 10 // 5446 chisel:is_biscuit_dough
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64457,
+		"modelTranslate": [
+			1,
+			51
+		],
+		"name": "Floating candle cluster (2)",
+		"notTradeable": true,
+		"rotation": [
+			null,
+			null,
+			76
+		],
+		"stackableSometimes": true,
+		"value": 1,
+		"widget_actions": [
+			null,
+			null,
+			null,
+			null,
+			"Destroy"
+		],
+		"zoom": 1689
+	},
+	{
+		"baseModel": 0,
+		"id": 64458,
+		"noteData": 64457,
+		"noteTemplate": 799,
+		"stackableSometimes": true
+	},
+	{
+		"baseModel": 145595,
+		"category": 5769,
+		"extra": {
+			"levelrequire": 18, // 23 chisel:item_tier
+			"destroyondrop": 1, // 31 chisel:death_flag_2
+			"no_alchemy": 1, // 689 chisel:is_crystal_mattock
+			"protect_on_death": 2, // 1397 chisel:unknown_clue_scroll_boolean
+			"extra_00057B": 1, // 1403
+			"recipe_requirement_type_1": 22, // 2640 chisel:create_requirement_type_1
+			"recipe_requirement_type_2": 67, // 2641 chisel:create_requirement_type_2
+			"recipe_requirement_value_1": 18, // 2645 chisel:create_requirement_value_1
+			"recipe_tool_type_1": 2347, // 2650 chisel:create_requirement_tool_1
+			"recipe_tool_type_2": 8794, // 2651 chisel:create_requirement_tool_2
+			"recipe_ingredient_type_1": 970, // 2655 chisel:craft_item_1
+			"recipe_ingredient_type_2": 1734, // 2656 chisel:craft_item_2
+			"recipe_ingredient_type_3": 556, // 2657 chisel:craft_item_3
+			"recipe_ingredient_number_1": 1, // 2665 chisel:is_burial_item
+			"recipe_ingredient_number_2": 1, // 2666 chisel:craft_quantity_2
+			"recipe_ingredient_number_3": 15, // 2667 chisel:craft_quantity_3
+			"recipe_xp_type_1": 22, // 2696 chisel:craft_xp_skill_1
+			"destroyondrop_mes": "If you destroy this item you will need to construct another.", // 5417 chisel:destroy_msg
+			"recipe_cycles": 10 // 5446 chisel:is_biscuit_dough
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64459,
+		"modelTranslate": [
+			2,
+			43
+		],
+		"name": "Floating arcane books (3)",
+		"notTradeable": true,
+		"rotation": [
+			null,
+			null,
+			968
+		],
+		"stackableSometimes": true,
+		"value": 1,
+		"widget_actions": [
+			null,
+			null,
+			null,
+			null,
+			"Destroy"
+		],
+		"zoom": 1419
+	},
+	{
+		"baseModel": 0,
+		"id": 64460,
+		"noteData": 64459,
+		"noteTemplate": 799,
+		"stackableSometimes": true
+	},
+	{
+		"baseModel": 145597,
+		"category": 5769,
+		"extra": {
+			"levelrequire": 18, // 23 chisel:item_tier
+			"destroyondrop": 1, // 31 chisel:death_flag_2
+			"no_alchemy": 1, // 689 chisel:is_crystal_mattock
+			"protect_on_death": 2, // 1397 chisel:unknown_clue_scroll_boolean
+			"extra_00057B": 1, // 1403
+			"recipe_requirement_type_1": 22, // 2640 chisel:create_requirement_type_1
+			"recipe_requirement_type_2": 67, // 2641 chisel:create_requirement_type_2
+			"recipe_requirement_value_1": 18, // 2645 chisel:create_requirement_value_1
+			"recipe_tool_type_1": 2347, // 2650 chisel:create_requirement_tool_1
+			"recipe_tool_type_2": 8794, // 2651 chisel:create_requirement_tool_2
+			"recipe_ingredient_type_1": 970, // 2655 chisel:craft_item_1
+			"recipe_ingredient_type_2": 1734, // 2656 chisel:craft_item_2
+			"recipe_ingredient_type_3": 556, // 2657 chisel:craft_item_3
+			"recipe_ingredient_number_1": 2, // 2665 chisel:is_burial_item
+			"recipe_ingredient_number_2": 2, // 2666 chisel:craft_quantity_2
+			"recipe_ingredient_number_3": 15, // 2667 chisel:craft_quantity_3
+			"recipe_xp_type_1": 22, // 2696 chisel:craft_xp_skill_1
+			"destroyondrop_mes": "If you destroy this item you will need to construct another.", // 5417 chisel:destroy_msg
+			"recipe_cycles": 10 // 5446 chisel:is_biscuit_dough
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64461,
+		"modelTranslate": [
+			65510,
+			33
+		],
+		"name": "Floating arcane book cluster (3)",
+		"notTradeable": true,
+		"rotation": [
+			null,
+			null,
+			941
+		],
+		"stackableSometimes": true,
+		"value": 1,
+		"widget_actions": [
+			null,
+			null,
+			null,
+			null,
+			"Destroy"
+		],
+		"zoom": 1926
+	},
+	{
+		"baseModel": 0,
+		"id": 64462,
+		"noteData": 64461,
+		"noteTemplate": 799,
+		"stackableSometimes": true
+	},
+	{
+		"baseModel": 145599,
+		"category": 5769,
+		"extra": {
+			"levelrequire": 18, // 23 chisel:item_tier
+			"destroyondrop": 1, // 31 chisel:death_flag_2
+			"no_alchemy": 1, // 689 chisel:is_crystal_mattock
+			"protect_on_death": 2, // 1397 chisel:unknown_clue_scroll_boolean
+			"extra_00057B": 1, // 1403
+			"recipe_requirement_type_1": 22, // 2640 chisel:create_requirement_type_1
+			"recipe_requirement_type_2": 67, // 2641 chisel:create_requirement_type_2
+			"recipe_requirement_value_1": 18, // 2645 chisel:create_requirement_value_1
+			"recipe_tool_type_1": 2347, // 2650 chisel:create_requirement_tool_1
+			"recipe_tool_type_2": 8794, // 2651 chisel:create_requirement_tool_2
+			"recipe_ingredient_type_1": 970, // 2655 chisel:craft_item_1
+			"recipe_ingredient_type_2": 1734, // 2656 chisel:craft_item_2
+			"recipe_ingredient_type_3": 556, // 2657 chisel:craft_item_3
+			"recipe_ingredient_number_1": 3, // 2665 chisel:is_burial_item
+			"recipe_ingredient_number_2": 3, // 2666 chisel:craft_quantity_2
+			"recipe_ingredient_number_3": 15, // 2667 chisel:craft_quantity_3
+			"recipe_xp_type_1": 22, // 2696 chisel:craft_xp_skill_1
+			"destroyondrop_mes": "If you destroy this item you will need to construct another.", // 5417 chisel:destroy_msg
+			"recipe_cycles": 10 // 5446 chisel:is_biscuit_dough
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64463,
+		"modelTranslate": [
+			9,
+			26
+		],
+		"name": "Floating arcane books (5)",
+		"notTradeable": true,
+		"rotation": [
+			null,
+			62,
+			1653
+		],
+		"stackableSometimes": true,
+		"value": 1,
+		"widget_actions": [
+			null,
+			null,
+			null,
+			null,
+			"Destroy"
+		],
+		"zoom": 1959
+	},
+	{
+		"baseModel": 0,
+		"id": 64464,
+		"noteData": 64463,
+		"noteTemplate": 799,
+		"stackableSometimes": true
+	},
+	{
+		"baseModel": 121245,
+		"category": 5769,
+		"extra": {
+			"levelrequire": 9, // 23 chisel:item_tier
+			"destroyondrop": 1, // 31 chisel:death_flag_2
+			"no_alchemy": 1, // 689 chisel:is_crystal_mattock
+			"protect_on_death": 2, // 1397 chisel:unknown_clue_scroll_boolean
+			"extra_00057B": 1, // 1403
+			"recipe_requirement_type_1": 22, // 2640 chisel:create_requirement_type_1
+			"recipe_requirement_type_2": 67, // 2641 chisel:create_requirement_type_2
+			"recipe_requirement_value_1": 9, // 2645 chisel:create_requirement_value_1
+			"recipe_tool_type_1": 2347, // 2650 chisel:create_requirement_tool_1
+			"recipe_tool_type_2": 8794, // 2651 chisel:create_requirement_tool_2
+			"recipe_ingredient_type_1": 970, // 2655 chisel:craft_item_1
+			"recipe_ingredient_type_2": 1734, // 2656 chisel:craft_item_2
+			"recipe_ingredient_number_1": 1, // 2665 chisel:is_burial_item
+			"recipe_ingredient_number_2": 1, // 2666 chisel:craft_quantity_2
+			"recipe_xp_type_1": 22, // 2696 chisel:craft_xp_skill_1
+			"destroyondrop_mes": "If you destroy this item you will need to construct another.", // 5417 chisel:destroy_msg
+			"recipe_cycles": 10 // 5446 chisel:is_biscuit_dough
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64465,
+		"modelTranslate": [
+			null,
+			2
+		],
+		"name": "Pile of arcane books (1)",
+		"notTradeable": true,
+		"rotation": [
+			null,
+			97,
+			588
+		],
+		"stackableSometimes": true,
+		"value": 1,
+		"widget_actions": [
+			null,
+			null,
+			null,
+			null,
+			"Destroy"
+		],
+		"zoom": 1723
+	},
+	{
+		"baseModel": 0,
+		"id": 64466,
+		"noteData": 64465,
+		"noteTemplate": 799,
+		"stackableSometimes": true
+	},
+	{
+		"baseModel": 121244,
+		"category": 5769,
+		"extra": {
+			"levelrequire": 9, // 23 chisel:item_tier
+			"destroyondrop": 1, // 31 chisel:death_flag_2
+			"no_alchemy": 1, // 689 chisel:is_crystal_mattock
+			"protect_on_death": 2, // 1397 chisel:unknown_clue_scroll_boolean
+			"extra_00057B": 1, // 1403
+			"recipe_requirement_type_1": 22, // 2640 chisel:create_requirement_type_1
+			"recipe_requirement_type_2": 67, // 2641 chisel:create_requirement_type_2
+			"recipe_requirement_value_1": 9, // 2645 chisel:create_requirement_value_1
+			"recipe_tool_type_1": 2347, // 2650 chisel:create_requirement_tool_1
+			"recipe_tool_type_2": 8794, // 2651 chisel:create_requirement_tool_2
+			"recipe_ingredient_type_1": 970, // 2655 chisel:craft_item_1
+			"recipe_ingredient_type_2": 1734, // 2656 chisel:craft_item_2
+			"recipe_ingredient_number_1": 2, // 2665 chisel:is_burial_item
+			"recipe_ingredient_number_2": 2, // 2666 chisel:craft_quantity_2
+			"recipe_xp_type_1": 22, // 2696 chisel:craft_xp_skill_1
+			"destroyondrop_mes": "If you destroy this item you will need to construct another.", // 5417 chisel:destroy_msg
+			"recipe_cycles": 10 // 5446 chisel:is_biscuit_dough
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64467,
+		"modelTranslate": [
+			4,
+			65521
+		],
+		"name": "Pile of arcane books (2)",
+		"notTradeable": true,
+		"rotation": [
+			null,
+			145,
+			629
+		],
+		"stackableSometimes": true,
+		"value": 1,
+		"widget_actions": [
+			null,
+			null,
+			null,
+			null,
+			"Destroy"
+		],
+		"zoom": 1824
+	},
+	{
+		"baseModel": 0,
+		"id": 64468,
+		"noteData": 64467,
+		"noteTemplate": 799,
+		"stackableSometimes": true
+	},
+	{
+		"baseModel": 121242,
+		"category": 5769,
+		"extra": {
+			"levelrequire": 9, // 23 chisel:item_tier
+			"destroyondrop": 1, // 31 chisel:death_flag_2
+			"no_alchemy": 1, // 689 chisel:is_crystal_mattock
+			"protect_on_death": 2, // 1397 chisel:unknown_clue_scroll_boolean
+			"extra_00057B": 1, // 1403
+			"recipe_requirement_type_1": 22, // 2640 chisel:create_requirement_type_1
+			"recipe_requirement_type_2": 67, // 2641 chisel:create_requirement_type_2
+			"recipe_requirement_value_1": 9, // 2645 chisel:create_requirement_value_1
+			"recipe_tool_type_1": 2347, // 2650 chisel:create_requirement_tool_1
+			"recipe_tool_type_2": 8794, // 2651 chisel:create_requirement_tool_2
+			"recipe_ingredient_type_1": 970, // 2655 chisel:craft_item_1
+			"recipe_ingredient_type_2": 1734, // 2656 chisel:craft_item_2
+			"recipe_ingredient_number_1": 3, // 2665 chisel:is_burial_item
+			"recipe_ingredient_number_2": 3, // 2666 chisel:craft_quantity_2
+			"recipe_xp_type_1": 22, // 2696 chisel:craft_xp_skill_1
+			"destroyondrop_mes": "If you destroy this item you will need to construct another.", // 5417 chisel:destroy_msg
+			"recipe_cycles": 10 // 5446 chisel:is_biscuit_dough
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64469,
+		"modelTranslate": [
+			3,
+			null
+		],
+		"name": "Pile of arcane books (3)",
+		"notTradeable": true,
+		"rotation": [
+			null,
+			145,
+			470
+		],
+		"stackableSometimes": true,
+		"value": 1,
+		"widget_actions": [
+			null,
+			null,
+			null,
+			null,
+			"Destroy"
+		],
+		"zoom": 2095
+	},
+	{
+		"baseModel": 0,
+		"id": 64470,
+		"noteData": 64469,
+		"noteTemplate": 799,
+		"stackableSometimes": true
+	},
+	{
+		"baseModel": 145603,
+		"category": 5769,
+		"extra": {
+			"levelrequire": 2, // 23 chisel:item_tier
+			"destroyondrop": 1, // 31 chisel:death_flag_2
+			"no_alchemy": 1, // 689 chisel:is_crystal_mattock
+			"protect_on_death": 2, // 1397 chisel:unknown_clue_scroll_boolean
+			"extra_00057B": 1, // 1403
+			"recipe_requirement_type_1": 22, // 2640 chisel:create_requirement_type_1
+			"recipe_requirement_type_2": 67, // 2641 chisel:create_requirement_type_2
+			"recipe_requirement_value_1": 2, // 2645 chisel:create_requirement_value_1
+			"recipe_tool_type_1": 2347, // 2650 chisel:create_requirement_tool_1
+			"recipe_tool_type_2": 8794, // 2651 chisel:create_requirement_tool_2
+			"recipe_ingredient_type_1": 970, // 2655 chisel:craft_item_1
+			"recipe_ingredient_number_1": 3, // 2665 chisel:is_burial_item
+			"recipe_xp_type_1": 22, // 2696 chisel:craft_xp_skill_1
+			"destroyondrop_mes": "If you destroy this item you will need to construct another.", // 5417 chisel:destroy_msg
+			"recipe_cycles": 10 // 5446 chisel:is_biscuit_dough
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64471,
+		"modelTranslate": [
+			7,
+			6
+		],
+		"name": "Pile of arcane scrolls (1)",
+		"notTradeable": true,
+		"rotation": [
+			null,
+			83,
+			920
+		],
+		"stackableSometimes": true,
+		"value": 1,
+		"widget_actions": [
+			null,
+			null,
+			null,
+			null,
+			"Destroy"
+		],
+		"zoom": 2534
+	},
+	{
+		"baseModel": 0,
+		"id": 64472,
+		"noteData": 64471,
+		"noteTemplate": 799,
+		"stackableSometimes": true
+	},
+	{
+		"baseModel": 145605,
+		"category": 5769,
+		"extra": {
+			"levelrequire": 2, // 23 chisel:item_tier
+			"destroyondrop": 1, // 31 chisel:death_flag_2
+			"no_alchemy": 1, // 689 chisel:is_crystal_mattock
+			"protect_on_death": 2, // 1397 chisel:unknown_clue_scroll_boolean
+			"extra_00057B": 1, // 1403
+			"recipe_requirement_type_1": 22, // 2640 chisel:create_requirement_type_1
+			"recipe_requirement_type_2": 67, // 2641 chisel:create_requirement_type_2
+			"recipe_requirement_value_1": 2, // 2645 chisel:create_requirement_value_1
+			"recipe_tool_type_1": 2347, // 2650 chisel:create_requirement_tool_1
+			"recipe_tool_type_2": 8794, // 2651 chisel:create_requirement_tool_2
+			"recipe_ingredient_type_1": 970, // 2655 chisel:craft_item_1
+			"recipe_ingredient_number_1": 1, // 2665 chisel:is_burial_item
+			"recipe_xp_type_1": 22, // 2696 chisel:craft_xp_skill_1
+			"destroyondrop_mes": "If you destroy this item you will need to construct another.", // 5417 chisel:destroy_msg
+			"recipe_cycles": 10 // 5446 chisel:is_biscuit_dough
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64473,
+		"modelTranslate": [
+			16,
+			null
+		],
+		"name": "Pile of arcane scrolls (2)",
+		"notTradeable": true,
+		"rotation": [
+			null,
+			138,
+			816
+		],
+		"stackableSometimes": true,
+		"value": 1,
+		"widget_actions": [
+			null,
+			null,
+			null,
+			null,
+			"Destroy"
+		],
+		"zoom": 2331
+	},
+	{
+		"baseModel": 0,
+		"id": 64474,
+		"noteData": 64473,
+		"noteTemplate": 799,
+		"stackableSometimes": true
+	},
+	{
+		"baseModel": 145607,
+		"category": 5769,
+		"extra": {
+			"levelrequire": 2, // 23 chisel:item_tier
+			"destroyondrop": 1, // 31 chisel:death_flag_2
+			"no_alchemy": 1, // 689 chisel:is_crystal_mattock
+			"protect_on_death": 2, // 1397 chisel:unknown_clue_scroll_boolean
+			"extra_00057B": 1, // 1403
+			"recipe_requirement_type_1": 22, // 2640 chisel:create_requirement_type_1
+			"recipe_requirement_type_2": 67, // 2641 chisel:create_requirement_type_2
+			"recipe_requirement_value_1": 2, // 2645 chisel:create_requirement_value_1
+			"recipe_tool_type_1": 2347, // 2650 chisel:create_requirement_tool_1
+			"recipe_tool_type_2": 8794, // 2651 chisel:create_requirement_tool_2
+			"recipe_ingredient_type_1": 970, // 2655 chisel:craft_item_1
+			"recipe_ingredient_number_1": 2, // 2665 chisel:is_burial_item
+			"recipe_xp_type_1": 22, // 2696 chisel:craft_xp_skill_1
+			"destroyondrop_mes": "If you destroy this item you will need to construct another.", // 5417 chisel:destroy_msg
+			"recipe_cycles": 10 // 5446 chisel:is_biscuit_dough
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64475,
+		"modelTranslate": [
+			9,
+			65533
+		],
+		"name": "Pile of arcane scrolls (3)",
+		"notTradeable": true,
+		"rotation": [
+			null,
+			97,
+			207
+		],
+		"stackableSometimes": true,
+		"value": 1,
+		"widget_actions": [
+			null,
+			null,
+			null,
+			null,
+			"Destroy"
+		],
+		"zoom": 2331
+	},
+	{
+		"baseModel": 0,
+		"id": 64476,
+		"noteData": 64475,
+		"noteTemplate": 799,
+		"stackableSometimes": true
+	},
+	{
+		"baseModel": 145615,
+		"category": 5769,
+		"extra": {
+			"levelrequire": 1, // 23 chisel:item_tier
+			"destroyondrop": 1, // 31 chisel:death_flag_2
+			"no_alchemy": 1, // 689 chisel:is_crystal_mattock
+			"protect_on_death": 2, // 1397 chisel:unknown_clue_scroll_boolean
+			"extra_00057B": 1, // 1403
+			"recipe_requirement_type_1": 22, // 2640 chisel:create_requirement_type_1
+			"recipe_requirement_type_2": 67, // 2641 chisel:create_requirement_type_2
+			"recipe_requirement_value_1": 1, // 2645 chisel:create_requirement_value_1
+			"recipe_tool_type_1": 2347, // 2650 chisel:create_requirement_tool_1
+			"recipe_tool_type_2": 8794, // 2651 chisel:create_requirement_tool_2
+			"recipe_ingredient_type_1": 8790, // 2655 chisel:craft_item_1
+			"recipe_ingredient_number_1": 1, // 2665 chisel:is_burial_item
+			"recipe_xp_type_1": 22, // 2696 chisel:craft_xp_skill_1
+			"destroyondrop_mes": "If you destroy this item you will need to construct another.", // 5417 chisel:destroy_msg
+			"recipe_cycles": 10 // 5446 chisel:is_biscuit_dough
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64477,
+		"name": "Air rune rug",
+		"notTradeable": true,
+		"rotation": [
+			null,
+			246,
+			1940
+		],
+		"stackableSometimes": true,
+		"value": 1,
+		"widget_actions": [
+			null,
+			null,
+			null,
+			null,
+			"Destroy"
+		],
+		"zoom": 3600
+	},
+	{
+		"baseModel": 0,
+		"id": 64478,
+		"noteData": 64477,
+		"noteTemplate": 799,
+		"stackableSometimes": true
+	},
+	{
+		"baseModel": 145640,
+		"category": 5769,
+		"extra": {
+			"levelrequire": 1, // 23 chisel:item_tier
+			"destroyondrop": 1, // 31 chisel:death_flag_2
+			"no_alchemy": 1, // 689 chisel:is_crystal_mattock
+			"protect_on_death": 2, // 1397 chisel:unknown_clue_scroll_boolean
+			"extra_00057B": 1, // 1403
+			"recipe_requirement_type_1": 22, // 2640 chisel:create_requirement_type_1
+			"recipe_requirement_type_2": 67, // 2641 chisel:create_requirement_type_2
+			"recipe_requirement_value_1": 1, // 2645 chisel:create_requirement_value_1
+			"recipe_tool_type_1": 2347, // 2650 chisel:create_requirement_tool_1
+			"recipe_tool_type_2": 8794, // 2651 chisel:create_requirement_tool_2
+			"recipe_ingredient_type_1": 8790, // 2655 chisel:craft_item_1
+			"recipe_ingredient_number_1": 1, // 2665 chisel:is_burial_item
+			"recipe_xp_type_1": 22, // 2696 chisel:craft_xp_skill_1
+			"destroyondrop_mes": "If you destroy this item you will need to construct another.", // 5417 chisel:destroy_msg
+			"recipe_cycles": 10 // 5446 chisel:is_biscuit_dough
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64479,
+		"name": "Water rune rug",
+		"notTradeable": true,
+		"rotation": [
+			null,
+			246,
+			1940
+		],
+		"stackableSometimes": true,
+		"value": 1,
+		"widget_actions": [
+			null,
+			null,
+			null,
+			null,
+			"Destroy"
+		],
+		"zoom": 3600
+	},
+	{
+		"baseModel": 0,
+		"id": 64480,
+		"noteData": 64479,
+		"noteTemplate": 799,
+		"stackableSometimes": true
+	},
+	{
+		"baseModel": 145625,
+		"category": 5769,
+		"extra": {
+			"levelrequire": 1, // 23 chisel:item_tier
+			"destroyondrop": 1, // 31 chisel:death_flag_2
+			"no_alchemy": 1, // 689 chisel:is_crystal_mattock
+			"protect_on_death": 2, // 1397 chisel:unknown_clue_scroll_boolean
+			"extra_00057B": 1, // 1403
+			"recipe_requirement_type_1": 22, // 2640 chisel:create_requirement_type_1
+			"recipe_requirement_type_2": 67, // 2641 chisel:create_requirement_type_2
+			"recipe_requirement_value_1": 1, // 2645 chisel:create_requirement_value_1
+			"recipe_tool_type_1": 2347, // 2650 chisel:create_requirement_tool_1
+			"recipe_tool_type_2": 8794, // 2651 chisel:create_requirement_tool_2
+			"recipe_ingredient_type_1": 8790, // 2655 chisel:craft_item_1
+			"recipe_ingredient_number_1": 1, // 2665 chisel:is_burial_item
+			"recipe_xp_type_1": 22, // 2696 chisel:craft_xp_skill_1
+			"destroyondrop_mes": "If you destroy this item you will need to construct another.", // 5417 chisel:destroy_msg
+			"recipe_cycles": 10 // 5446 chisel:is_biscuit_dough
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64481,
+		"name": "Earth rune rug",
+		"notTradeable": true,
+		"rotation": [
+			null,
+			246,
+			1940
+		],
+		"stackableSometimes": true,
+		"value": 1,
+		"widget_actions": [
+			null,
+			null,
+			null,
+			null,
+			"Destroy"
+		],
+		"zoom": 3600
+	},
+	{
+		"baseModel": 0,
+		"id": 64482,
+		"noteData": 64481,
+		"noteTemplate": 799,
+		"stackableSometimes": true
+	},
+	{
+		"baseModel": 145626,
+		"category": 5769,
+		"extra": {
+			"levelrequire": 1, // 23 chisel:item_tier
+			"destroyondrop": 1, // 31 chisel:death_flag_2
+			"no_alchemy": 1, // 689 chisel:is_crystal_mattock
+			"protect_on_death": 2, // 1397 chisel:unknown_clue_scroll_boolean
+			"extra_00057B": 1, // 1403
+			"recipe_requirement_type_1": 22, // 2640 chisel:create_requirement_type_1
+			"recipe_requirement_type_2": 67, // 2641 chisel:create_requirement_type_2
+			"recipe_requirement_value_1": 1, // 2645 chisel:create_requirement_value_1
+			"recipe_tool_type_1": 2347, // 2650 chisel:create_requirement_tool_1
+			"recipe_tool_type_2": 8794, // 2651 chisel:create_requirement_tool_2
+			"recipe_ingredient_type_1": 8790, // 2655 chisel:craft_item_1
+			"recipe_ingredient_number_1": 1, // 2665 chisel:is_burial_item
+			"recipe_xp_type_1": 22, // 2696 chisel:craft_xp_skill_1
+			"destroyondrop_mes": "If you destroy this item you will need to construct another.", // 5417 chisel:destroy_msg
+			"recipe_cycles": 10 // 5446 chisel:is_biscuit_dough
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64483,
+		"name": "Fire rune rug",
+		"notTradeable": true,
+		"rotation": [
+			null,
+			246,
+			1940
+		],
+		"stackableSometimes": true,
+		"value": 1,
+		"widget_actions": [
+			null,
+			null,
+			null,
+			null,
+			"Destroy"
+		],
+		"zoom": 3600
+	},
+	{
+		"baseModel": 0,
+		"id": 64484,
+		"noteData": 64483,
+		"noteTemplate": 799,
+		"stackableSometimes": true
+	},
+	{
+		"baseModel": 145631,
+		"category": 5769,
+		"extra": {
+			"levelrequire": 1, // 23 chisel:item_tier
+			"destroyondrop": 1, // 31 chisel:death_flag_2
+			"no_alchemy": 1, // 689 chisel:is_crystal_mattock
+			"protect_on_death": 2, // 1397 chisel:unknown_clue_scroll_boolean
+			"extra_00057B": 1, // 1403
+			"recipe_requirement_type_1": 22, // 2640 chisel:create_requirement_type_1
+			"recipe_requirement_type_2": 67, // 2641 chisel:create_requirement_type_2
+			"recipe_requirement_value_1": 1, // 2645 chisel:create_requirement_value_1
+			"recipe_tool_type_1": 2347, // 2650 chisel:create_requirement_tool_1
+			"recipe_tool_type_2": 8794, // 2651 chisel:create_requirement_tool_2
+			"recipe_ingredient_type_1": 8790, // 2655 chisel:craft_item_1
+			"recipe_ingredient_number_1": 1, // 2665 chisel:is_burial_item
+			"recipe_xp_type_1": 22, // 2696 chisel:craft_xp_skill_1
+			"destroyondrop_mes": "If you destroy this item you will need to construct another.", // 5417 chisel:destroy_msg
+			"recipe_cycles": 10 // 5446 chisel:is_biscuit_dough
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64485,
+		"name": "Mind rune rug",
+		"notTradeable": true,
+		"rotation": [
+			null,
+			246,
+			1940
+		],
+		"stackableSometimes": true,
+		"value": 1,
+		"widget_actions": [
+			null,
+			null,
+			null,
+			null,
+			"Destroy"
+		],
+		"zoom": 3600
+	},
+	{
+		"baseModel": 0,
+		"id": 64486,
+		"noteData": 64485,
+		"noteTemplate": 799,
+		"stackableSometimes": true
+	},
+	{
+		"baseModel": 145619,
+		"category": 5769,
+		"extra": {
+			"levelrequire": 1, // 23 chisel:item_tier
+			"destroyondrop": 1, // 31 chisel:death_flag_2
+			"no_alchemy": 1, // 689 chisel:is_crystal_mattock
+			"protect_on_death": 2, // 1397 chisel:unknown_clue_scroll_boolean
+			"extra_00057B": 1, // 1403
+			"recipe_requirement_type_1": 22, // 2640 chisel:create_requirement_type_1
+			"recipe_requirement_type_2": 67, // 2641 chisel:create_requirement_type_2
+			"recipe_requirement_value_1": 1, // 2645 chisel:create_requirement_value_1
+			"recipe_tool_type_1": 2347, // 2650 chisel:create_requirement_tool_1
+			"recipe_tool_type_2": 8794, // 2651 chisel:create_requirement_tool_2
+			"recipe_ingredient_type_1": 8790, // 2655 chisel:craft_item_1
+			"recipe_ingredient_number_1": 1, // 2665 chisel:is_burial_item
+			"recipe_xp_type_1": 22, // 2696 chisel:craft_xp_skill_1
+			"destroyondrop_mes": "If you destroy this item you will need to construct another.", // 5417 chisel:destroy_msg
+			"recipe_cycles": 10 // 5446 chisel:is_biscuit_dough
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64487,
+		"name": "Body rune rug",
+		"notTradeable": true,
+		"rotation": [
+			null,
+			246,
+			1940
+		],
+		"stackableSometimes": true,
+		"value": 1,
+		"widget_actions": [
+			null,
+			null,
+			null,
+			null,
+			"Destroy"
+		],
+		"zoom": 3600
+	},
+	{
+		"baseModel": 0,
+		"id": 64488,
+		"noteData": 64487,
+		"noteTemplate": 799,
+		"stackableSometimes": true
+	},
+	{
+		"baseModel": 145618,
+		"category": 5769,
+		"extra": {
+			"levelrequire": 1, // 23 chisel:item_tier
+			"destroyondrop": 1, // 31 chisel:death_flag_2
+			"no_alchemy": 1, // 689 chisel:is_crystal_mattock
+			"protect_on_death": 2, // 1397 chisel:unknown_clue_scroll_boolean
+			"extra_00057B": 1, // 1403
+			"recipe_requirement_type_1": 22, // 2640 chisel:create_requirement_type_1
+			"recipe_requirement_type_2": 67, // 2641 chisel:create_requirement_type_2
+			"recipe_requirement_value_1": 1, // 2645 chisel:create_requirement_value_1
+			"recipe_tool_type_1": 2347, // 2650 chisel:create_requirement_tool_1
+			"recipe_tool_type_2": 8794, // 2651 chisel:create_requirement_tool_2
+			"recipe_ingredient_type_1": 8790, // 2655 chisel:craft_item_1
+			"recipe_ingredient_number_1": 1, // 2665 chisel:is_burial_item
+			"recipe_xp_type_1": 22, // 2696 chisel:craft_xp_skill_1
+			"destroyondrop_mes": "If you destroy this item you will need to construct another.", // 5417 chisel:destroy_msg
+			"recipe_cycles": 10 // 5446 chisel:is_biscuit_dough
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64489,
+		"name": "Blood rune rug",
+		"notTradeable": true,
+		"rotation": [
+			null,
+			246,
+			1940
+		],
+		"stackableSometimes": true,
+		"value": 1,
+		"widget_actions": [
+			null,
+			null,
+			null,
+			null,
+			"Destroy"
+		],
+		"zoom": 3600
+	},
+	{
+		"baseModel": 0,
+		"id": 64490,
+		"noteData": 64489,
+		"noteTemplate": 799,
+		"stackableSometimes": true
+	},
+	{
+		"baseModel": 145623,
+		"category": 5769,
+		"extra": {
+			"levelrequire": 1, // 23 chisel:item_tier
+			"destroyondrop": 1, // 31 chisel:death_flag_2
+			"no_alchemy": 1, // 689 chisel:is_crystal_mattock
+			"protect_on_death": 2, // 1397 chisel:unknown_clue_scroll_boolean
+			"extra_00057B": 1, // 1403
+			"recipe_requirement_type_1": 22, // 2640 chisel:create_requirement_type_1
+			"recipe_requirement_type_2": 67, // 2641 chisel:create_requirement_type_2
+			"recipe_requirement_value_1": 1, // 2645 chisel:create_requirement_value_1
+			"recipe_tool_type_1": 2347, // 2650 chisel:create_requirement_tool_1
+			"recipe_tool_type_2": 8794, // 2651 chisel:create_requirement_tool_2
+			"recipe_ingredient_type_1": 8790, // 2655 chisel:craft_item_1
+			"recipe_ingredient_number_1": 1, // 2665 chisel:is_burial_item
+			"recipe_xp_type_1": 22, // 2696 chisel:craft_xp_skill_1
+			"destroyondrop_mes": "If you destroy this item you will need to construct another.", // 5417 chisel:destroy_msg
+			"recipe_cycles": 10 // 5446 chisel:is_biscuit_dough
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64491,
+		"name": "Death rune rug",
+		"notTradeable": true,
+		"rotation": [
+			null,
+			246,
+			1940
+		],
+		"stackableSometimes": true,
+		"value": 1,
+		"widget_actions": [
+			null,
+			null,
+			null,
+			null,
+			"Destroy"
+		],
+		"zoom": 3600
+	},
+	{
+		"baseModel": 0,
+		"id": 64492,
+		"noteData": 64491,
+		"noteTemplate": 799,
+		"stackableSometimes": true
+	},
+	{
+		"baseModel": 145636,
+		"category": 5769,
+		"extra": {
+			"levelrequire": 1, // 23 chisel:item_tier
+			"destroyondrop": 1, // 31 chisel:death_flag_2
+			"no_alchemy": 1, // 689 chisel:is_crystal_mattock
+			"protect_on_death": 2, // 1397 chisel:unknown_clue_scroll_boolean
+			"extra_00057B": 1, // 1403
+			"recipe_requirement_type_1": 22, // 2640 chisel:create_requirement_type_1
+			"recipe_requirement_type_2": 67, // 2641 chisel:create_requirement_type_2
+			"recipe_requirement_value_1": 1, // 2645 chisel:create_requirement_value_1
+			"recipe_tool_type_1": 2347, // 2650 chisel:create_requirement_tool_1
+			"recipe_tool_type_2": 8794, // 2651 chisel:create_requirement_tool_2
+			"recipe_ingredient_type_1": 8790, // 2655 chisel:craft_item_1
+			"recipe_ingredient_number_1": 1, // 2665 chisel:is_burial_item
+			"recipe_xp_type_1": 22, // 2696 chisel:craft_xp_skill_1
+			"destroyondrop_mes": "If you destroy this item you will need to construct another.", // 5417 chisel:destroy_msg
+			"recipe_cycles": 10 // 5446 chisel:is_biscuit_dough
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64493,
+		"name": "Soul rune rug",
+		"notTradeable": true,
+		"rotation": [
+			null,
+			246,
+			1940
+		],
+		"stackableSometimes": true,
+		"value": 1,
+		"widget_actions": [
+			null,
+			null,
+			null,
+			null,
+			"Destroy"
+		],
+		"zoom": 3600
+	},
+	{
+		"baseModel": 0,
+		"id": 64494,
+		"noteData": 64493,
+		"noteTemplate": 799,
+		"stackableSometimes": true
+	},
+	{
+		"baseModel": 145621,
+		"category": 5769,
+		"extra": {
+			"levelrequire": 1, // 23 chisel:item_tier
+			"destroyondrop": 1, // 31 chisel:death_flag_2
+			"no_alchemy": 1, // 689 chisel:is_crystal_mattock
+			"protect_on_death": 2, // 1397 chisel:unknown_clue_scroll_boolean
+			"extra_00057B": 1, // 1403
+			"recipe_requirement_type_1": 22, // 2640 chisel:create_requirement_type_1
+			"recipe_requirement_type_2": 67, // 2641 chisel:create_requirement_type_2
+			"recipe_requirement_value_1": 1, // 2645 chisel:create_requirement_value_1
+			"recipe_tool_type_1": 2347, // 2650 chisel:create_requirement_tool_1
+			"recipe_tool_type_2": 8794, // 2651 chisel:create_requirement_tool_2
+			"recipe_ingredient_type_1": 8790, // 2655 chisel:craft_item_1
+			"recipe_ingredient_number_1": 1, // 2665 chisel:is_burial_item
+			"recipe_xp_type_1": 22, // 2696 chisel:craft_xp_skill_1
+			"destroyondrop_mes": "If you destroy this item you will need to construct another.", // 5417 chisel:destroy_msg
+			"recipe_cycles": 10 // 5446 chisel:is_biscuit_dough
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64495,
+		"name": "Chaos rune rug",
+		"notTradeable": true,
+		"rotation": [
+			null,
+			246,
+			1940
+		],
+		"stackableSometimes": true,
+		"value": 1,
+		"widget_actions": [
+			null,
+			null,
+			null,
+			null,
+			"Destroy"
+		],
+		"zoom": 3600
+	},
+	{
+		"baseModel": 0,
+		"id": 64496,
+		"noteData": 64495,
+		"noteTemplate": 799,
+		"stackableSometimes": true
+	},
+	{
+		"baseModel": 145622,
+		"category": 5769,
+		"extra": {
+			"levelrequire": 1, // 23 chisel:item_tier
+			"destroyondrop": 1, // 31 chisel:death_flag_2
+			"no_alchemy": 1, // 689 chisel:is_crystal_mattock
+			"protect_on_death": 2, // 1397 chisel:unknown_clue_scroll_boolean
+			"extra_00057B": 1, // 1403
+			"recipe_requirement_type_1": 22, // 2640 chisel:create_requirement_type_1
+			"recipe_requirement_type_2": 67, // 2641 chisel:create_requirement_type_2
+			"recipe_requirement_value_1": 1, // 2645 chisel:create_requirement_value_1
+			"recipe_tool_type_1": 2347, // 2650 chisel:create_requirement_tool_1
+			"recipe_tool_type_2": 8794, // 2651 chisel:create_requirement_tool_2
+			"recipe_ingredient_type_1": 8790, // 2655 chisel:craft_item_1
+			"recipe_ingredient_number_1": 1, // 2665 chisel:is_burial_item
+			"recipe_xp_type_1": 22, // 2696 chisel:craft_xp_skill_1
+			"destroyondrop_mes": "If you destroy this item you will need to construct another.", // 5417 chisel:destroy_msg
+			"recipe_cycles": 10 // 5446 chisel:is_biscuit_dough
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64497,
+		"name": "Cosmic rune rug",
+		"notTradeable": true,
+		"rotation": [
+			null,
+			246,
+			1940
+		],
+		"stackableSometimes": true,
+		"value": 1,
+		"widget_actions": [
+			null,
+			null,
+			null,
+			null,
+			"Destroy"
+		],
+		"zoom": 3600
+	},
+	{
+		"baseModel": 0,
+		"id": 64498,
+		"noteData": 64497,
+		"noteTemplate": 799,
+		"stackableSometimes": true
+	},
+	{
+		"baseModel": 145617,
+		"category": 5769,
+		"extra": {
+			"levelrequire": 1, // 23 chisel:item_tier
+			"destroyondrop": 1, // 31 chisel:death_flag_2
+			"no_alchemy": 1, // 689 chisel:is_crystal_mattock
+			"protect_on_death": 2, // 1397 chisel:unknown_clue_scroll_boolean
+			"extra_00057B": 1, // 1403
+			"recipe_requirement_type_1": 22, // 2640 chisel:create_requirement_type_1
+			"recipe_requirement_type_2": 67, // 2641 chisel:create_requirement_type_2
+			"recipe_requirement_value_1": 1, // 2645 chisel:create_requirement_value_1
+			"recipe_tool_type_1": 2347, // 2650 chisel:create_requirement_tool_1
+			"recipe_tool_type_2": 8794, // 2651 chisel:create_requirement_tool_2
+			"recipe_ingredient_type_1": 8790, // 2655 chisel:craft_item_1
+			"recipe_ingredient_number_1": 1, // 2665 chisel:is_burial_item
+			"recipe_xp_type_1": 22, // 2696 chisel:craft_xp_skill_1
+			"destroyondrop_mes": "If you destroy this item you will need to construct another.", // 5417 chisel:destroy_msg
+			"recipe_cycles": 10 // 5446 chisel:is_biscuit_dough
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64499,
+		"name": "Astral rune rug",
+		"notTradeable": true,
+		"rotation": [
+			null,
+			246,
+			1940
+		],
+		"stackableSometimes": true,
+		"value": 1,
+		"widget_actions": [
+			null,
+			null,
+			null,
+			null,
+			"Destroy"
+		],
+		"zoom": 3600
+	},
+	{
+		"baseModel": 0,
+		"id": 64500,
+		"noteData": 64499,
+		"noteTemplate": 799,
+		"stackableSometimes": true
+	},
+	{
+		"baseModel": 145634,
+		"category": 5769,
+		"extra": {
+			"levelrequire": 1, // 23 chisel:item_tier
+			"destroyondrop": 1, // 31 chisel:death_flag_2
+			"no_alchemy": 1, // 689 chisel:is_crystal_mattock
+			"protect_on_death": 2, // 1397 chisel:unknown_clue_scroll_boolean
+			"extra_00057B": 1, // 1403
+			"recipe_requirement_type_1": 22, // 2640 chisel:create_requirement_type_1
+			"recipe_requirement_type_2": 67, // 2641 chisel:create_requirement_type_2
+			"recipe_requirement_value_1": 1, // 2645 chisel:create_requirement_value_1
+			"recipe_tool_type_1": 2347, // 2650 chisel:create_requirement_tool_1
+			"recipe_tool_type_2": 8794, // 2651 chisel:create_requirement_tool_2
+			"recipe_ingredient_type_1": 8790, // 2655 chisel:craft_item_1
+			"recipe_ingredient_number_1": 1, // 2665 chisel:is_burial_item
+			"recipe_xp_type_1": 22, // 2696 chisel:craft_xp_skill_1
+			"destroyondrop_mes": "If you destroy this item you will need to construct another.", // 5417 chisel:destroy_msg
+			"recipe_cycles": 10 // 5446 chisel:is_biscuit_dough
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64501,
+		"name": "Nature rune rug",
+		"notTradeable": true,
+		"rotation": [
+			null,
+			246,
+			1940
+		],
+		"stackableSometimes": true,
+		"value": 1,
+		"widget_actions": [
+			null,
+			null,
+			null,
+			null,
+			"Destroy"
+		],
+		"zoom": 3600
+	},
+	{
+		"baseModel": 0,
+		"id": 64502,
+		"noteData": 64501,
+		"noteTemplate": 799,
+		"stackableSometimes": true
+	},
+	{
+		"baseModel": 145629,
+		"category": 5769,
+		"extra": {
+			"levelrequire": 1, // 23 chisel:item_tier
+			"destroyondrop": 1, // 31 chisel:death_flag_2
+			"no_alchemy": 1, // 689 chisel:is_crystal_mattock
+			"protect_on_death": 2, // 1397 chisel:unknown_clue_scroll_boolean
+			"extra_00057B": 1, // 1403
+			"recipe_requirement_type_1": 22, // 2640 chisel:create_requirement_type_1
+			"recipe_requirement_type_2": 67, // 2641 chisel:create_requirement_type_2
+			"recipe_requirement_value_1": 1, // 2645 chisel:create_requirement_value_1
+			"recipe_tool_type_1": 2347, // 2650 chisel:create_requirement_tool_1
+			"recipe_tool_type_2": 8794, // 2651 chisel:create_requirement_tool_2
+			"recipe_ingredient_type_1": 8790, // 2655 chisel:craft_item_1
+			"recipe_ingredient_number_1": 1, // 2665 chisel:is_burial_item
+			"recipe_xp_type_1": 22, // 2696 chisel:craft_xp_skill_1
+			"destroyondrop_mes": "If you destroy this item you will need to construct another.", // 5417 chisel:destroy_msg
+			"recipe_cycles": 10 // 5446 chisel:is_biscuit_dough
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64503,
+		"name": "Law rune rug",
+		"notTradeable": true,
+		"rotation": [
+			null,
+			246,
+			1940
+		],
+		"stackableSometimes": true,
+		"value": 1,
+		"widget_actions": [
+			null,
+			null,
+			null,
+			null,
+			"Destroy"
+		],
+		"zoom": 3600
+	},
+	{
+		"baseModel": 0,
+		"id": 64504,
+		"noteData": 64503,
+		"noteTemplate": 799,
+		"stackableSometimes": true
+	},
+	{
+		"baseModel": 145639,
+		"category": 5769,
+		"extra": {
+			"levelrequire": 1, // 23 chisel:item_tier
+			"destroyondrop": 1, // 31 chisel:death_flag_2
+			"no_alchemy": 1, // 689 chisel:is_crystal_mattock
+			"protect_on_death": 2, // 1397 chisel:unknown_clue_scroll_boolean
+			"extra_00057B": 1, // 1403
+			"recipe_requirement_type_1": 22, // 2640 chisel:create_requirement_type_1
+			"recipe_requirement_type_2": 67, // 2641 chisel:create_requirement_type_2
+			"recipe_requirement_value_1": 1, // 2645 chisel:create_requirement_value_1
+			"recipe_tool_type_1": 2347, // 2650 chisel:create_requirement_tool_1
+			"recipe_tool_type_2": 8794, // 2651 chisel:create_requirement_tool_2
+			"recipe_ingredient_type_1": 8790, // 2655 chisel:craft_item_1
+			"recipe_ingredient_number_1": 1, // 2665 chisel:is_burial_item
+			"recipe_xp_type_1": 22, // 2696 chisel:craft_xp_skill_1
+			"destroyondrop_mes": "If you destroy this item you will need to construct another.", // 5417 chisel:destroy_msg
+			"recipe_cycles": 10 // 5446 chisel:is_biscuit_dough
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64505,
+		"name": "Time rune rug",
+		"notTradeable": true,
+		"rotation": [
+			null,
+			246,
+			1940
+		],
+		"stackableSometimes": true,
+		"value": 1,
+		"widget_actions": [
+			null,
+			null,
+			null,
+			null,
+			"Destroy"
+		],
+		"zoom": 3600
+	},
+	{
+		"baseModel": 0,
+		"id": 64506,
+		"noteData": 64505,
+		"noteTemplate": 799,
+		"stackableSometimes": true
+	},
+	{
+		"baseModel": 71686,
+		"dummyItem": 2,
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64507,
+		"modelTranslate": [
+			65516,
+			null
+		],
+		"rotation": [
+			null,
+			108,
+			1781
+		],
+		"stackableSometimes": true,
+		"zoom": 4189
+	},
+	{
+		"baseModel": 71690,
+		"dummyItem": 2,
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64508,
+		"modelTranslate": [
+			65533,
+			65506
+		],
+		"rotation": [
+			null,
+			126,
+			1788
+		],
+		"stackableSometimes": true,
+		"zoom": 3176
+	},
+	{
+		"baseModel": 71694,
+		"dummyItem": 2,
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64509,
+		"modelTranslate": [
+			null,
+			65533
+		],
+		"rotation": [
+			null,
+			123,
+			1365
+		],
+		"stackableSometimes": true,
+		"zoom": 2500
+	},
+	{
+		"baseModel": 71692,
+		"dummyItem": 2,
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64510,
+		"modelTranslate": [
+			9,
+			65522
+		],
+		"rotation": [
+			null,
+			165,
+			1880
+		],
+		"stackableSometimes": true,
+		"zoom": 3100
+	},
+	{
+		"baseModel": 71691,
+		"dummyItem": 2,
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64511,
+		"modelTranslate": [
+			9,
+			80
+		],
+		"rotation": [
+			null,
+			165,
+			1780
+		],
+		"stackableSometimes": true,
+		"zoom": 3100
+	},
+	{
+		"baseModel": 71688,
+		"dummyItem": 2,
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64512,
+		"rotation": [
+			null,
+			138,
+			1863
+		],
+		"stackableSometimes": true,
+		"zoom": 4916
+	},
+	{
+		"baseModel": 71689,
+		"dummyItem": 2,
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64513,
+		"rotation": [
+			null,
+			138,
+			1863
+		],
+		"stackableSometimes": true,
+		"zoom": 4916
+	},
+	{
+		"baseModel": 71687,
+		"dummyItem": 2,
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64514,
+		"rotation": [
+			null,
+			138,
+			1863
+		],
+		"stackableSometimes": true,
+		"zoom": 4916
 	}
 ]

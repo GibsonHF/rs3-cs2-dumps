@@ -55,10 +55,10 @@ function script17266(int0: number): number {
             break;
         }
         case 35237: {
-            if (((DATE_MINUTES() <= (DATE_MINUTES_FROMRUNEDAY(8829) + 720)) || (DATE_MINUTES() >= (DATE_MINUTES_FROMRUNEDAY(8839) + 720)))) {
+            if (((DATE_MINUTES() <= (DATE_MINUTES_FROMRUNEDAY(9018) + 720)) || (DATE_MINUTES() >= (DATE_MINUTES_FROMRUNEDAY(9028) + 720)))) {
                 return 0;
             };
-            if (((varbitplayer_45314 == 27) && (varplayer_9017 == 0))) {
+            if (((varbitplayer_45314 == 28) && (varplayer_9017 == 0))) {
                 return 0;
             };
             if ((RANDOM(2) == 0)) {

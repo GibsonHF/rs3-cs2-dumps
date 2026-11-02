@@ -1090584,8 +1090584,7 @@
 				"type": 10,
 				"values": [
 					139202,
-					139207,
-					146676
+					139207
 				]
 			}
 		],
@@ -1090974,8 +1090973,7 @@
 				"type": 10,
 				"values": [
 					139208,
-					139210,
-					146676
+					139210
 				]
 			}
 		],
@@ -1093661,8 +1093659,7 @@
 				"type": 10,
 				"values": [
 					139206,
-					139207,
-					146676
+					139207
 				]
 			}
 		],
@@ -1093889,8 +1093886,7 @@
 			{
 				"type": 10,
 				"values": [
-					140085,
-					146675
+					140085
 				]
 			}
 		],
@@ -1093939,8 +1093935,7 @@
 			{
 				"type": 10,
 				"values": [
-					140085,
-					146675
+					140085
 				]
 			}
 		],
@@ -1094125,8 +1094120,7 @@
 			{
 				"type": 10,
 				"values": [
-					71655,
-					146675
+					71655
 				]
 			}
 		],
@@ -1094409,8 +1094403,7 @@
 			{
 				"type": 10,
 				"values": [
-					71655,
-					146675
+					71655
 				]
 			}
 		],
@@ -1094461,8 +1094454,7 @@
 			{
 				"type": 10,
 				"values": [
-					64873,
-					146677
+					64873
 				]
 			}
 		],
@@ -1094552,8 +1094544,7 @@
 			{
 				"type": 10,
 				"values": [
-					64872,
-					146677
+					64872
 				]
 			}
 		],
@@ -1451242,8 +1451233,7 @@
 			{
 				"type": 10,
 				"values": [
-					20513,
-					146674
+					20513
 				]
 			}
 		],
@@ -1535531,8 +1535521,7 @@
 			{
 				"type": 10,
 				"values": [
-					20512,
-					146674
+					20512
 				]
 			}
 		],
@@ -1625166,8 +1625155,7 @@
 				"type": 10,
 				"values": [
 					139202,
-					139207,
-					146676
+					139207
 				]
 			}
 		],
@@ -1956839,8 +1956827,7 @@
 			{
 				"type": 10,
 				"values": [
-					68885,
-					146673
+					68885
 				]
 			}
 		],
@@ -1956885,8 +1956872,7 @@
 			{
 				"type": 10,
 				"values": [
-					68885,
-					146673
+					68885
 				]
 			}
 		],
@@ -1956931,8 +1956917,7 @@
 			{
 				"type": 10,
 				"values": [
-					68885,
-					146673
+					68885
 				]
 			}
 		],
@@ -1956972,8 +1956957,7 @@
 			{
 				"type": 10,
 				"values": [
-					68885,
-					146673
+					68885
 				]
 			}
 		],
@@ -1957019,8 +1957003,7 @@
 			{
 				"type": 10,
 				"values": [
-					68883,
-					146673
+					68883
 				]
 			}
 		],
@@ -1957051,8 +1957034,7 @@
 			{
 				"type": 10,
 				"values": [
-					68883,
-					146673
+					68883
 				]
 			}
 		],
@@ -1957083,8 +1957065,7 @@
 			{
 				"type": 10,
 				"values": [
-					68883,
-					146673
+					68883
 				]
 			}
 		],
@@ -1957109,8 +1957090,7 @@
 			{
 				"type": 10,
 				"values": [
-					68883,
-					146673
+					68883
 				]
 			}
 		],
@@ -2074920,6 +2074900,1429 @@
 			"varp": -1
 		},
 		"width": 2
+	},
+	{
+		"active": false,
+		"animatedtexture": true,
+		"blockrange": false,
+		"blockwalk": true,
+		"id": 73715,
+		"model": false,
+		"models": [
+			{
+				"type": 10,
+				"values": [
+					71688
+				]
+			}
+		],
+		"occludes_2": false,
+		"vfx_count": 6
+	},
+	{
+		"active": false,
+		"animatedtexture": true,
+		"blockrange": false,
+		"blockwalk": true,
+		"id": 73716,
+		"model": false,
+		"models": [
+			{
+				"type": 10,
+				"values": [
+					71689
+				]
+			}
+		],
+		"occludes_2": false,
+		"vfx_count": 5
+	},
+	{
+		"active": false,
+		"animatedtexture": true,
+		"blockrange": false,
+		"blockwalk": true,
+		"id": 73717,
+		"model": false,
+		"models": [
+			{
+				"type": 10,
+				"values": [
+					71687
+				]
+			}
+		],
+		"occludes_2": false,
+		"vfx_count": 8
+	},
+	{
+		"active": false,
+		"blockrange": false,
+		"blockwalk": true,
+		"id": 73718,
+		"model": false,
+		"models": [
+			{
+				"type": 10,
+				"values": [
+					71690
+				]
+			}
+		],
+		"occludes_2": false
+	},
+	{
+		"active": false,
+		"anim": 17134,
+		"blockrange": false,
+		"blockwalk": true,
+		"id": 73719,
+		"model": false,
+		"models": [
+			{
+				"type": 10,
+				"values": [
+					71694
+				]
+			}
+		],
+		"occludes_2": false
+	},
+	{
+		"active": false,
+		"animatedtexture": true,
+		"blockrange": false,
+		"blockwalk": true,
+		"id": 73720,
+		"model": false,
+		"models": [
+			{
+				"type": 10,
+				"values": [
+					71692
+				]
+			}
+		],
+		"occludes_2": false,
+		"vfx_count": 3
+	},
+	{
+		"active": false,
+		"animatedtexture": true,
+		"blockrange": false,
+		"blockwalk": true,
+		"id": 73721,
+		"model": false,
+		"models": [
+			{
+				"type": 10,
+				"values": [
+					71691
+				]
+			}
+		],
+		"occludes_2": false,
+		"vfx_count": 3
+	},
+	{
+		"action_cursors": [
+			56,
+			0,
+			0,
+			0,
+			0,
+			0
+		],
+		"actions": [
+			"Search",
+			null,
+			null,
+			null,
+			"Move"
+		],
+		"active": true,
+		"blockwalk": true,
+		"extra": {
+			"construction_house_rename_op_flag": 1, // 1993
+			"construction_house_furniture_dbrow": 20480 // 4550
+		},
+		"id": 73722,
+		"model": false,
+		"models": [
+			{
+				"type": 10,
+				"values": [
+					71675
+				]
+			}
+		],
+		"name": "Oak corner bookcase",
+		"occludes_2": false
+	},
+	{
+		"action_cursors": [
+			50,
+			0,
+			0,
+			0,
+			0,
+			0
+		],
+		"actions": [
+			"Read",
+			null,
+			null,
+			null,
+			"Move"
+		],
+		"active": true,
+		"blockrange": false,
+		"blockwalk": true,
+		"extra": {
+			"construction_house_rename_op_flag": 1, // 1993
+			"construction_house_furniture_dbrow": 20481 // 4550
+		},
+		"id": 73723,
+		"model": false,
+		"models": [
+			{
+				"type": 10,
+				"values": [
+					71676
+				]
+			}
+		],
+		"name": "Teak corner bookcase",
+		"occludes_2": false
+	},
+	{
+		"action_cursors": [
+			56,
+			0,
+			0,
+			0,
+			0,
+			0
+		],
+		"actions": [
+			"Search",
+			null,
+			null,
+			null,
+			"Move"
+		],
+		"active": true,
+		"blockwalk": true,
+		"extra": {
+			"construction_house_rename_op_flag": 1, // 1993
+			"construction_house_furniture_dbrow": 20482 // 4550
+		},
+		"id": 73724,
+		"model": false,
+		"models": [
+			{
+				"type": 10,
+				"values": [
+					71673
+				]
+			}
+		],
+		"name": "Mahogany corner bookcase",
+		"occludes_2": false
+	},
+	{
+		"action_cursors": [
+			50,
+			0,
+			0,
+			0,
+			0,
+			0
+		],
+		"actions": [
+			"Read",
+			null,
+			null,
+			null,
+			"Move"
+		],
+		"active": true,
+		"blockrange": false,
+		"blockwalk": true,
+		"extra": {
+			"construction_house_rename_op_flag": 1, // 1993
+			"construction_house_furniture_dbrow": 20483 // 4550
+		},
+		"id": 73725,
+		"model": false,
+		"models": [
+			{
+				"type": 10,
+				"values": [
+					71671
+				]
+			}
+		],
+		"name": "Eternal corner bookcase",
+		"occludes_2": false
+	},
+	{
+		"actions": [
+			null,
+			null,
+			null,
+			null,
+			"Move"
+		],
+		"active": true,
+		"anim": 7463,
+		"blockrange": false,
+		"blockwalk": true,
+		"extra": {
+			"construction_house_rename_op_flag": 1, // 1993
+			"construction_house_furniture_dbrow": 20484 // 4550
+		},
+		"id": 73726,
+		"model": false,
+		"models": [
+			{
+				"type": 0,
+				"values": [
+					145602
+				]
+			},
+			{
+				"type": 10,
+				"values": [
+					145601
+				]
+			}
+		],
+		"name": "Floating quill"
+	},
+	{
+		"actions": [
+			null,
+			null,
+			null,
+			null,
+			"Move"
+		],
+		"active": true,
+		"anim": 7463,
+		"blockrange": false,
+		"blockwalk": true,
+		"extra": {
+			"construction_house_rename_op_flag": 1, // 1993
+			"construction_house_furniture_dbrow": 20485 // 4550
+		},
+		"id": 73727,
+		"model": false,
+		"models": [
+			{
+				"type": 10,
+				"values": [
+					145609
+				]
+			},
+			{
+				"type": 22,
+				"values": [
+					145610
+				]
+			}
+		],
+		"name": "Floating candle set",
+		"occludes_2": false
+	},
+	{
+		"actions": [
+			null,
+			null,
+			null,
+			null,
+			"Move"
+		],
+		"active": true,
+		"anim": 7463,
+		"blockrange": false,
+		"blockwalk": true,
+		"extra": {
+			"construction_house_rename_op_flag": 1, // 1993
+			"construction_house_furniture_dbrow": 20486 // 4550
+		},
+		"id": 73728,
+		"model": false,
+		"models": [
+			{
+				"type": 10,
+				"values": [
+					145611
+				]
+			},
+			{
+				"type": 22,
+				"values": [
+					145612
+				]
+			}
+		],
+		"name": "Floating candle cluster (1)",
+		"occludes_2": false
+	},
+	{
+		"actions": [
+			null,
+			null,
+			null,
+			null,
+			"Move"
+		],
+		"active": true,
+		"anim": 7463,
+		"blockrange": false,
+		"blockwalk": true,
+		"extra": {
+			"construction_house_rename_op_flag": 1, // 1993
+			"construction_house_furniture_dbrow": 20487 // 4550
+		},
+		"id": 73729,
+		"model": false,
+		"models": [
+			{
+				"type": 10,
+				"values": [
+					145613
+				]
+			},
+			{
+				"type": 22,
+				"values": [
+					145614
+				]
+			}
+		],
+		"name": "Floating candle cluster (2)",
+		"occludes_2": false
+	},
+	{
+		"actions": [
+			null,
+			null,
+			null,
+			null,
+			"Move"
+		],
+		"active": true,
+		"anim": 7463,
+		"blockrange": false,
+		"blockwalk": true,
+		"extra": {
+			"construction_house_rename_op_flag": 1, // 1993
+			"construction_house_furniture_dbrow": 20488 // 4550
+		},
+		"id": 73730,
+		"model": false,
+		"models": [
+			{
+				"type": 10,
+				"values": [
+					145595
+				]
+			},
+			{
+				"type": 22,
+				"values": [
+					145596
+				]
+			}
+		],
+		"name": "Floating arcane books (3)",
+		"occludes_2": false
+	},
+	{
+		"actions": [
+			null,
+			null,
+			null,
+			null,
+			"Move"
+		],
+		"active": true,
+		"anim": 7463,
+		"blockrange": false,
+		"blockwalk": true,
+		"extra": {
+			"construction_house_rename_op_flag": 1, // 1993
+			"construction_house_furniture_dbrow": 20489 // 4550
+		},
+		"id": 73731,
+		"model": false,
+		"models": [
+			{
+				"type": 10,
+				"values": [
+					145597
+				]
+			},
+			{
+				"type": 22,
+				"values": [
+					145598
+				]
+			}
+		],
+		"name": "Floating arcane book cluster (3)",
+		"occludes_2": false
+	},
+	{
+		"actions": [
+			null,
+			null,
+			null,
+			null,
+			"Move"
+		],
+		"active": true,
+		"anim": 7463,
+		"blockrange": false,
+		"blockwalk": true,
+		"extra": {
+			"construction_house_rename_op_flag": 1, // 1993
+			"construction_house_furniture_dbrow": 20490 // 4550
+		},
+		"id": 73732,
+		"model": false,
+		"models": [
+			{
+				"type": 10,
+				"values": [
+					145599
+				]
+			},
+			{
+				"type": 22,
+				"values": [
+					145600
+				]
+			}
+		],
+		"name": "Floating arcane books (5)",
+		"occludes_2": false
+	},
+	{
+		"actions": [
+			null,
+			null,
+			null,
+			null,
+			"Move"
+		],
+		"active": true,
+		"blockrange": false,
+		"blockwalk": true,
+		"extra": {
+			"construction_house_rename_op_flag": 1, // 1993
+			"construction_house_furniture_dbrow": 20491 // 4550
+		},
+		"id": 73733,
+		"model": false,
+		"models": [
+			{
+				"type": 10,
+				"values": [
+					121245
+				]
+			},
+			{
+				"type": 22,
+				"values": [
+					138726
+				]
+			}
+		],
+		"name": "Pile of arcane books (1)",
+		"occludes_2": false
+	},
+	{
+		"actions": [
+			null,
+			null,
+			null,
+			null,
+			"Move"
+		],
+		"active": true,
+		"blockrange": false,
+		"blockwalk": true,
+		"extra": {
+			"construction_house_rename_op_flag": 1, // 1993
+			"construction_house_furniture_dbrow": 20492 // 4550
+		},
+		"id": 73734,
+		"model": false,
+		"models": [
+			{
+				"type": 10,
+				"values": [
+					121244
+				]
+			},
+			{
+				"type": 22,
+				"values": [
+					138725
+				]
+			}
+		],
+		"name": "Pile of arcane books (2)",
+		"occludes_2": false
+	},
+	{
+		"actions": [
+			null,
+			null,
+			null,
+			null,
+			"Move"
+		],
+		"active": true,
+		"blockrange": false,
+		"blockwalk": true,
+		"extra": {
+			"construction_house_rename_op_flag": 1, // 1993
+			"construction_house_furniture_dbrow": 20493 // 4550
+		},
+		"id": 73735,
+		"model": false,
+		"models": [
+			{
+				"type": 10,
+				"values": [
+					121242
+				]
+			},
+			{
+				"type": 22,
+				"values": [
+					138723
+				]
+			}
+		],
+		"name": "Pile of arcane books (3)",
+		"occludes_2": false
+	},
+	{
+		"actions": [
+			null,
+			null,
+			null,
+			null,
+			"Move"
+		],
+		"active": true,
+		"blockrange": false,
+		"blockwalk": true,
+		"extra": {
+			"construction_house_rename_op_flag": 1, // 1993
+			"construction_house_furniture_dbrow": 20494 // 4550
+		},
+		"id": 73736,
+		"model": false,
+		"models": [
+			{
+				"type": 10,
+				"values": [
+					145603
+				]
+			},
+			{
+				"type": 22,
+				"values": [
+					145604
+				]
+			}
+		],
+		"name": "Pile of arcane scrolls (1)",
+		"occludes_2": false
+	},
+	{
+		"actions": [
+			null,
+			null,
+			null,
+			null,
+			"Move"
+		],
+		"active": true,
+		"blockrange": false,
+		"blockwalk": true,
+		"extra": {
+			"construction_house_rename_op_flag": 1, // 1993
+			"construction_house_furniture_dbrow": 20495 // 4550
+		},
+		"id": 73737,
+		"model": false,
+		"models": [
+			{
+				"type": 10,
+				"values": [
+					145605
+				]
+			},
+			{
+				"type": 22,
+				"values": [
+					145606
+				]
+			}
+		],
+		"name": "Pile of arcane scrolls (2)",
+		"occludes_2": false
+	},
+	{
+		"actions": [
+			null,
+			null,
+			null,
+			null,
+			"Move"
+		],
+		"active": true,
+		"blockrange": false,
+		"blockwalk": true,
+		"extra": {
+			"construction_house_rename_op_flag": 1, // 1993
+			"construction_house_furniture_dbrow": 20496 // 4550
+		},
+		"id": 73738,
+		"model": false,
+		"models": [
+			{
+				"type": 10,
+				"values": [
+					145607
+				]
+			},
+			{
+				"type": 22,
+				"values": [
+					145608
+				]
+			}
+		],
+		"name": "Pile of arcane scrolls (3)",
+		"occludes_2": false
+	},
+	{
+		"actions": [
+			null,
+			null,
+			null,
+			null,
+			"Move"
+		],
+		"active": true,
+		"blockwalk": false,
+		"extra": {
+			"construction_house_rename_op_flag": 1, // 1993
+			"construction_house_furniture_dbrow": 20497 // 4550
+		},
+		"id": 73739,
+		"length": 2,
+		"model": false,
+		"models": [
+			{
+				"type": 22,
+				"values": [
+					145615
+				]
+			}
+		],
+		"name": "Air rune rug",
+		"occludes_2": false,
+		"width": 2
+	},
+	{
+		"actions": [
+			null,
+			null,
+			null,
+			null,
+			"Move"
+		],
+		"active": true,
+		"blockwalk": false,
+		"extra": {
+			"construction_house_rename_op_flag": 1, // 1993
+			"construction_house_furniture_dbrow": 20498 // 4550
+		},
+		"id": 73740,
+		"length": 2,
+		"model": false,
+		"models": [
+			{
+				"type": 22,
+				"values": [
+					145640
+				]
+			}
+		],
+		"name": "Water rune rug",
+		"occludes_2": false,
+		"width": 2
+	},
+	{
+		"actions": [
+			null,
+			null,
+			null,
+			null,
+			"Move"
+		],
+		"active": true,
+		"blockwalk": false,
+		"extra": {
+			"construction_house_rename_op_flag": 1, // 1993
+			"construction_house_furniture_dbrow": 20499 // 4550
+		},
+		"id": 73741,
+		"length": 2,
+		"model": false,
+		"models": [
+			{
+				"type": 22,
+				"values": [
+					145625
+				]
+			}
+		],
+		"name": "Earth rune rug",
+		"occludes_2": false,
+		"width": 2
+	},
+	{
+		"actions": [
+			null,
+			null,
+			null,
+			null,
+			"Move"
+		],
+		"active": true,
+		"blockwalk": false,
+		"extra": {
+			"construction_house_rename_op_flag": 1, // 1993
+			"construction_house_furniture_dbrow": 20500 // 4550
+		},
+		"id": 73742,
+		"length": 2,
+		"model": false,
+		"models": [
+			{
+				"type": 22,
+				"values": [
+					145626
+				]
+			}
+		],
+		"name": "Fire rune rug",
+		"occludes_2": false,
+		"width": 2
+	},
+	{
+		"actions": [
+			null,
+			null,
+			null,
+			null,
+			"Move"
+		],
+		"active": true,
+		"blockwalk": false,
+		"extra": {
+			"construction_house_rename_op_flag": 1, // 1993
+			"construction_house_furniture_dbrow": 20501 // 4550
+		},
+		"id": 73743,
+		"length": 2,
+		"model": false,
+		"models": [
+			{
+				"type": 22,
+				"values": [
+					145631
+				]
+			}
+		],
+		"name": "Mind rune rug",
+		"occludes_2": false,
+		"width": 2
+	},
+	{
+		"actions": [
+			null,
+			null,
+			null,
+			null,
+			"Move"
+		],
+		"active": true,
+		"blockwalk": false,
+		"extra": {
+			"construction_house_rename_op_flag": 1, // 1993
+			"construction_house_furniture_dbrow": 20502 // 4550
+		},
+		"id": 73744,
+		"length": 2,
+		"model": false,
+		"models": [
+			{
+				"type": 22,
+				"values": [
+					145619
+				]
+			}
+		],
+		"name": "Body rune rug",
+		"occludes_2": false,
+		"width": 2
+	},
+	{
+		"actions": [
+			null,
+			null,
+			null,
+			null,
+			"Move"
+		],
+		"active": true,
+		"blockwalk": false,
+		"extra": {
+			"construction_house_rename_op_flag": 1, // 1993
+			"construction_house_furniture_dbrow": 20503 // 4550
+		},
+		"id": 73745,
+		"length": 2,
+		"model": false,
+		"models": [
+			{
+				"type": 22,
+				"values": [
+					145618
+				]
+			}
+		],
+		"name": "Blood rune rug",
+		"occludes_2": false,
+		"width": 2
+	},
+	{
+		"actions": [
+			null,
+			null,
+			null,
+			null,
+			"Move"
+		],
+		"active": true,
+		"blockwalk": false,
+		"extra": {
+			"construction_house_rename_op_flag": 1, // 1993
+			"construction_house_furniture_dbrow": 20504 // 4550
+		},
+		"id": 73746,
+		"length": 2,
+		"model": false,
+		"models": [
+			{
+				"type": 22,
+				"values": [
+					145623
+				]
+			}
+		],
+		"name": "Death rune rug",
+		"occludes_2": false,
+		"width": 2
+	},
+	{
+		"actions": [
+			null,
+			null,
+			null,
+			null,
+			"Move"
+		],
+		"active": true,
+		"blockwalk": false,
+		"extra": {
+			"construction_house_rename_op_flag": 1, // 1993
+			"construction_house_furniture_dbrow": 20505 // 4550
+		},
+		"id": 73747,
+		"length": 2,
+		"model": false,
+		"models": [
+			{
+				"type": 22,
+				"values": [
+					145636
+				]
+			}
+		],
+		"name": "Soul rune rug",
+		"occludes_2": false,
+		"width": 2
+	},
+	{
+		"actions": [
+			null,
+			null,
+			null,
+			null,
+			"Move"
+		],
+		"active": true,
+		"blockwalk": false,
+		"extra": {
+			"construction_house_rename_op_flag": 1, // 1993
+			"construction_house_furniture_dbrow": 20506 // 4550
+		},
+		"id": 73748,
+		"length": 2,
+		"model": false,
+		"models": [
+			{
+				"type": 22,
+				"values": [
+					145621
+				]
+			}
+		],
+		"name": "Chaos rune rug",
+		"occludes_2": false,
+		"width": 2
+	},
+	{
+		"actions": [
+			null,
+			null,
+			null,
+			null,
+			"Move"
+		],
+		"active": true,
+		"blockwalk": false,
+		"extra": {
+			"construction_house_rename_op_flag": 1, // 1993
+			"construction_house_furniture_dbrow": 20507 // 4550
+		},
+		"id": 73749,
+		"length": 2,
+		"model": false,
+		"models": [
+			{
+				"type": 22,
+				"values": [
+					145622
+				]
+			}
+		],
+		"name": "Cosmic rune rug",
+		"occludes_2": false,
+		"width": 2
+	},
+	{
+		"actions": [
+			null,
+			null,
+			null,
+			null,
+			"Move"
+		],
+		"active": true,
+		"blockwalk": false,
+		"extra": {
+			"construction_house_rename_op_flag": 1, // 1993
+			"construction_house_furniture_dbrow": 20508 // 4550
+		},
+		"id": 73750,
+		"length": 2,
+		"model": false,
+		"models": [
+			{
+				"type": 22,
+				"values": [
+					145617
+				]
+			}
+		],
+		"name": "Astral rune rug",
+		"occludes_2": false,
+		"width": 2
+	},
+	{
+		"actions": [
+			null,
+			null,
+			null,
+			null,
+			"Move"
+		],
+		"active": true,
+		"blockwalk": false,
+		"extra": {
+			"construction_house_rename_op_flag": 1, // 1993
+			"construction_house_furniture_dbrow": 20509 // 4550
+		},
+		"id": 73751,
+		"length": 2,
+		"model": false,
+		"models": [
+			{
+				"type": 22,
+				"values": [
+					145634
+				]
+			}
+		],
+		"name": "Nature rune rug",
+		"occludes_2": false,
+		"width": 2
+	},
+	{
+		"actions": [
+			null,
+			null,
+			null,
+			null,
+			"Move"
+		],
+		"active": true,
+		"blockwalk": false,
+		"extra": {
+			"construction_house_rename_op_flag": 1, // 1993
+			"construction_house_furniture_dbrow": 20510 // 4550
+		},
+		"id": 73752,
+		"length": 2,
+		"model": false,
+		"models": [
+			{
+				"type": 22,
+				"values": [
+					145629
+				]
+			}
+		],
+		"name": "Law rune rug",
+		"occludes_2": false,
+		"width": 2
+	},
+	{
+		"actions": [
+			null,
+			null,
+			null,
+			null,
+			"Move"
+		],
+		"active": true,
+		"blockwalk": false,
+		"extra": {
+			"construction_house_rename_op_flag": 1, // 1993
+			"construction_house_furniture_dbrow": 20511 // 4550
+		},
+		"id": 73753,
+		"length": 2,
+		"model": false,
+		"models": [
+			{
+				"type": 22,
+				"values": [
+					145639
+				]
+			}
+		],
+		"name": "Time rune rug",
+		"occludes_2": false,
+		"width": 2
+	},
+	{
+		"actions": [
+			null,
+			null,
+			null,
+			null,
+			"Move"
+		],
+		"active": true,
+		"blockrange": false,
+		"blockwalk": true,
+		"extra": {
+			"construction_house_rename_op_flag": 1 // 1993
+		},
+		"id": 73754,
+		"model": false,
+		"models": [
+			{
+				"type": 10,
+				"values": [
+					71686,
+					145671
+				]
+			}
+		],
+		"name": "Chest of arcane artefacts",
+		"occludes_2": false
+	},
+	{
+		"actions": [
+			"Observe",
+			null,
+			null,
+			null,
+			"Move"
+		],
+		"active": true,
+		"blockrange": false,
+		"blockwalk": true,
+		"extra": {
+			"construction_house_rename_op_flag": 1 // 1993
+		},
+		"forceapproach": 14,
+		"id": 73755,
+		"model": false,
+		"models": [
+			{
+				"type": 10,
+				"values": [
+					71693
+				]
+			}
+		],
+		"name": "Arcane telescope",
+		"occludes_2": false
+	},
+	{
+		"actions": [
+			null,
+			null,
+			null,
+			null,
+			"Move"
+		],
+		"active": true,
+		"anim": 17134,
+		"bgsound": 22783,
+		"bgsoundvolume": 80,
+		"blockrange": false,
+		"blockwalk": true,
+		"extra": {
+			"construction_house_rename_op_flag": 1 // 1993
+		},
+		"id": 73756,
+		"model": false,
+		"models": [
+			{
+				"type": 10,
+				"values": [
+					71694
+				]
+			}
+		],
+		"name": "Arcane crystal of power",
+		"occludes_2": false
+	},
+	{
+		"action_cursors": [
+			50,
+			0,
+			0,
+			0,
+			0,
+			0
+		],
+		"actions": [
+			"Study",
+			null,
+			null,
+			null,
+			"Move"
+		],
+		"active": true,
+		"animatedtexture": true,
+		"blockrange": false,
+		"blockwalk": true,
+		"extra": {
+			"construction_house_rename_op_flag": 1, // 1993
+			"recipe_cycles": 3 // 5446 chisel:is_biscuit_dough
+		},
+		"forceapproach": 14,
+		"id": 73757,
+		"model": false,
+		"models": [
+			{
+				"type": 10,
+				"values": [
+					71692
+				]
+			}
+		],
+		"name": "Wizard's lectern",
+		"occludes_2": false,
+		"vfx_count": 3
+	},
+	{
+		"action_cursors": [
+			50,
+			0,
+			0,
+			0,
+			0,
+			0
+		],
+		"actions": [
+			"Study",
+			null,
+			null,
+			null,
+			"Move"
+		],
+		"active": true,
+		"animatedtexture": true,
+		"blockrange": false,
+		"blockwalk": true,
+		"extra": {
+			"construction_house_rename_op_flag": 1, // 1993
+			"recipe_cycles": 3 // 5446 chisel:is_biscuit_dough
+		},
+		"forceapproach": 14,
+		"id": 73758,
+		"model": false,
+		"models": [
+			{
+				"type": 10,
+				"values": [
+					71691
+				]
+			}
+		],
+		"name": "Dark Wizard's lectern",
+		"occludes_2": false,
+		"vfx_count": 3
+	},
+	{
+		"action_cursors": [
+			50,
+			0,
+			0,
+			0,
+			0,
+			0
+		],
+		"actions": [
+			"Read",
+			null,
+			null,
+			null,
+			"Move"
+		],
+		"active": true,
+		"animatedtexture": true,
+		"blockrange": false,
+		"blockwalk": true,
+		"extra": {
+			"construction_house_rename_op_flag": 1 // 1993
+		},
+		"id": 73759,
+		"model": false,
+		"models": [
+			{
+				"type": 10,
+				"values": [
+					71688
+				]
+			}
+		],
+		"name": "Arcane bookcase",
+		"occludes_2": false,
+		"vfx_count": 6
+	},
+	{
+		"action_cursors": [
+			50,
+			0,
+			0,
+			0,
+			0,
+			0
+		],
+		"actions": [
+			"Read",
+			null,
+			null,
+			null,
+			"Move"
+		],
+		"active": true,
+		"animatedtexture": true,
+		"blockrange": false,
+		"blockwalk": true,
+		"extra": {
+			"construction_house_rename_op_flag": 1 // 1993
+		},
+		"id": 73760,
+		"model": false,
+		"models": [
+			{
+				"type": 10,
+				"values": [
+					71689
+				]
+			}
+		],
+		"name": "Arcane bookcase with ladder",
+		"occludes_2": false,
+		"vfx_count": 5
+	},
+	{
+		"action_cursors": [
+			50,
+			0,
+			0,
+			0,
+			0,
+			0
+		],
+		"actions": [
+			"Read",
+			null,
+			null,
+			null,
+			"Move"
+		],
+		"active": true,
+		"animatedtexture": true,
+		"blockrange": false,
+		"blockwalk": true,
+		"extra": {
+			"construction_house_rename_op_flag": 1 // 1993
+		},
+		"id": 73761,
+		"model": false,
+		"models": [
+			{
+				"type": 10,
+				"values": [
+					71687
+				]
+			}
+		],
+		"name": "Arcane corner bookcase",
+		"occludes_2": false,
+		"vfx_count": 8
 	},
 	{
 		"active": false,
@@ -3410681,8 +3412084,7 @@
 				"type": 10,
 				"values": [
 					139202,
-					139207,
-					146676
+					139207
 				]
 			}
 		],
@@ -3410732,8 +3412134,7 @@
 				"type": 10,
 				"values": [
 					139208,
-					139210,
-					146676
+					139210
 				]
 			}
 		],
@@ -3410761,8 +3412162,7 @@
 				"type": 10,
 				"values": [
 					139206,
-					139207,
-					146676
+					139207
 				]
 			}
 		],
@@ -3410812,8 +3412212,7 @@
 			{
 				"type": 10,
 				"values": [
-					64873,
-					146677
+					64873
 				]
 			}
 		],
@@ -3410847,8 +3412246,7 @@
 			{
 				"type": 10,
 				"values": [
-					64872,
-					146677
+					64872
 				]
 			}
 		],
@@ -3671459,8 +3672857,7 @@
 				"type": 10,
 				"values": [
 					139209,
-					139210,
-					146676
+					139210
 				]
 			}
 		],
@@ -3671488,8 +3672885,7 @@
 				"type": 10,
 				"values": [
 					139212,
-					139213,
-					146676
+					139213
 				]
 			}
 		],

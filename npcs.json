@@ -1063504,7 +1063504,7 @@
 		"actions": [
 			"Talk to",
 			null,
-			null,
+			"Shop",
 			null,
 			null
 		],
@@ -1063536,7 +1063536,6 @@
 		],
 		"movementCapabilities": 1,
 		"name": "Cough",
-		"respawnDirection": 2,
 		"turnspeed": 0
 	},
 	{

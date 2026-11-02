@@ -173,7 +173,6 @@ function script2833(int0: number, int1: number, int2: number, int3: number): voi
         case 4040:
         case 4355:
         case 5248:
-        case 5363:
         case 5096: {
             script12405(int0, int1);
             return;

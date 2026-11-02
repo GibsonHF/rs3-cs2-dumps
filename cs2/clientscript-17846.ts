@@ -22,15 +22,6 @@ function script17846(int0: number): number {
         case 48538: {
             return varbitplayer_54110;
         }
-        case 48910: {
-            return varbitplayer_54644;
-        }
-        case 49798: {
-            return varbitplayer_55474;
-        }
-        case 49799: {
-            return varbitplayer_55475;
-        }
         case 47447:
         case 47448:
         case 47449:

@@ -29,18 +29,6 @@ function script17845(int0: number, int1: number): void {
             varbitplayer_54110 = int1;
             break;
         }
-        case 48910: {
-            varbitplayer_54644 = int1;
-            break;
-        }
-        case 49798: {
-            varbitplayer_55474 = int1;
-            break;
-        }
-        case 49799: {
-            varbitplayer_55475 = int1;
-            break;
-        }
         case 47447:
         case 47448:
         case 47449:
