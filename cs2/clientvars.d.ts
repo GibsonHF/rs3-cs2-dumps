@@ -14475,6 +14475,8 @@ declare var varnpc_990: int;
 declare var varnpc_991: int;
 declare var varnpc_992: int;
 declare var varnpc_993: int;
+declare var varnpc_994: int;
+declare var varnpc_995: int;
 // ===== client =====
 declare var varclient_0: int;
 declare var varclient_1: int;
@@ -44401,6 +44403,8 @@ declare var varbitplayer_14781: number;
 declare var varbitplayer_14782: number;
 declare var varbitplayer_14783: number;
 declare var varbitplayer_14784: number;
+declare var varbitplayer_14785: number;
+declare var varbitplayer_14786: number;
 declare var varbitplayer_14912: number;
 declare var varbitplayer_14913: number;
 declare var varbitplayer_14914: number;

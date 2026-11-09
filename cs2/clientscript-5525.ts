@@ -23,7 +23,6 @@ function script5525(int0: number, int1: number): void {
         if (((((int2 >= int4) && (int2 < (int4 + int7))) && (int3 >= int5)) && (int3 < (int5 + int6)))) {
             GETDEFAULTWINDOWMODE(cc_getparam(7258), cc_getparam(7259), script8401(), script8402());
             script14228();
-            MINIMENU_CLOSE();
         };
     };
     return;

@@ -11,7 +11,6 @@ function script21256(): void {
         script21257();
         if (BRANCH_EQUALS(0)) {
             script14228();
-            MINIMENU_CLOSE();
         };
     };
     return;

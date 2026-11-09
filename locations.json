@@ -51677,7 +51677,7 @@
 			{
 				"type": 10,
 				"values": [
-					14985
+					73048
 				]
 			}
 		],
@@ -2076323,6 +2076323,61 @@
 		"name": "Arcane corner bookcase",
 		"occludes_2": false,
 		"vfx_count": 8
+	},
+	{
+		"active": false,
+		"ambient": 0,
+		"blockwalk": false,
+		"colours": [
+			{
+				"original": 25650,
+				"replacement": 5170
+			},
+			{
+				"original": 25657,
+				"replacement": 5176
+			},
+			{
+				"original": 25633,
+				"replacement": 5165
+			},
+			{
+				"original": 25642,
+				"replacement": 5167
+			},
+			{
+				"original": 4368,
+				"replacement": 4378
+			},
+			{
+				"original": 4396,
+				"replacement": 4386
+			},
+			{
+				"original": 6227,
+				"replacement": 13395
+			}
+		],
+		"id": 73762,
+		"minimumlodleveloverride": 4,
+		"model": false,
+		"models": [
+			{
+				"type": 3,
+				"values": [
+					138427,
+					138425
+				]
+			},
+			{
+				"type": 10,
+				"values": [
+					138426,
+					138424
+				]
+			}
+		],
+		"occludes_2": false
 	},
 	{
 		"active": false,

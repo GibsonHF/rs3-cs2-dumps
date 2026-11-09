@@ -55,6 +55,7 @@ function script21184(): void {
             stack(int0);
             stack(int7);
             stack(int9);
+            stack(0);
             script21190();
             int8 = (int8 + (72 + 4));
         };

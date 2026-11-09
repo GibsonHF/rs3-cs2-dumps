@@ -118281,6 +118281,22 @@
   },
   {
     "domain": "PLAYER",
+    "source": "13748 [championships_ring_limit]",
+    "lsb": 5,
+    "msb": 5,
+    "wiki_sync": false,
+    "id": "14785"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "7866 [player_prefix_unlocks]",
+    "lsb": 13,
+    "msb": 13,
+    "wiki_sync": false,
+    "id": "14786"
+  },
+  {
+    "domain": "PLAYER",
     "source": "2934 [hw06_extra_var]",
     "lsb": 5,
     "msb": 8,

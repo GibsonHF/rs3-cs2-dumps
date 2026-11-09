@@ -36,6 +36,20 @@ function script21153(): void {
     stack(-1);
     unk11849();
     var string5 = [];
+    stack(int0);
+    stack(51);
+    stack(int0);
+    stack(50);
+    stack(-1);
+    unk11539();
+    stack(SUB(1));
+    unk11539();
+    var int3 = [];
+    stack(int0);
+    stack(53);
+    stack(int3);
+    unk11539();
+    var int4 = SCALE(1048576, 100);
     stack(string1);
     stack(string2);
     stack(string3);
@@ -43,5 +57,6 @@ function script21153(): void {
     stack(int1);
     stack(int2);
     stack(string5);
+    stack(int4);
     return;
 }

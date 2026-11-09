@@ -57900,6 +57900,14 @@
     "id": "993"
   },
   {
+    "domain": "NPC",
+    "id": "994"
+  },
+  {
+    "domain": "NPC",
+    "id": "995"
+  },
+  {
     "domain": "CLIENT",
     "id": "0 [quickchat_listdialog_000]"
   },
@@ -118813,6 +118821,18 @@
   },
   {
     "domain": "CONTROLLER",
+    "id": "743"
+  },
+  {
+    "domain": "CONTROLLER",
+    "id": "744"
+  },
+  {
+    "domain": "CONTROLLER",
+    "id": "745"
+  },
+  {
+    "domain": "CONTROLLER",
     "id": "826"
   },
   {
@@ -130622,34 +130642,6 @@
   {
     "domain": "CONTROLLER",
     "id": "3778"
-  },
-  {
-    "domain": "CONTROLLER",
-    "id": "3779"
-  },
-  {
-    "domain": "CONTROLLER",
-    "id": "3780"
-  },
-  {
-    "domain": "CONTROLLER",
-    "id": "3781"
-  },
-  {
-    "domain": "CONTROLLER",
-    "id": "3782"
-  },
-  {
-    "domain": "CONTROLLER",
-    "id": "3783"
-  },
-  {
-    "domain": "CONTROLLER",
-    "id": "3784"
-  },
-  {
-    "domain": "CONTROLLER",
-    "id": "3785"
   },
   {
     "domain": "CONTROLLER",

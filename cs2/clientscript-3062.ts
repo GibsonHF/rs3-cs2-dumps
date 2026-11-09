@@ -42,6 +42,7 @@ function script3062(int0: number): number {
         script5861(varplayer_1747);
     };
     script3064(0);
+    script14228();
     LOBBY_ENTERGAME(varclient_4192, varclient_4193);
     DETAILGET_SOUNDVOL();
     var int5 = [];

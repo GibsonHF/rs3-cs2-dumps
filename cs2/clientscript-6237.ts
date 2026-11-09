@@ -4,5 +4,6 @@ function script6237(): void {
         return;
     };
     IF_OPENSUBCLIENT(int0, 1322);
+    script14228();
     return;
 }

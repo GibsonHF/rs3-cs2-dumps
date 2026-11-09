@@ -13,9 +13,10 @@ function script21209(): void {
     var int3 = -1;
     var int4 = -1;
     var string4 = "";
+    var int5 = -1;
     stack(int2);
     script21153();
-    [string0, string1, string2, string3, int3, int4, string4] = [];
+    [string0, string1, string2, string3, int3, int4, string4, int5] = [];
     if (((STRING_LENGTH(varclient_8500) >= 2) && (STRING_INDEXOF_STRING(LOWERCASE(string0), varclient_8500, 0) == -1))) {
         stack(0);
         return;
@@ -24,45 +25,45 @@ function script21209(): void {
     stack(3);
     stack(-1);
     unk11539();
-    var int5 = script734();
+    var int6 = script734();
     var string5 = "Enabled";
-    if ((int5 == 0)) {
+    if ((int6 == 0)) {
         string5 = "Disabled";
     };
-    var int6 = ((2500 * 1) + int1);
-    var int7 = ((2500 * 2) + int1);
-    var int8 = ((2500 * 3) + int1);
-    var int9 = ((2500 * 4) + int1);
-    var int10 = ((2500 * 5) + int1);
-    var int11 = ((2500 * 6) + int1);
-    var int12 = ((2500 * 7) + int1);
-    var int13 = ((2500 * 8) + int1);
-    var int14 = ((2500 * 9) + int1);
-    var int15 = ((2500 * 10) + int1);
-    var int16 = ((2500 * 11) + int1);
-    var int17 = ((2500 * 12) + int1);
-    var int18 = ((2500 * 13) + int1);
-    var int19 = ((2500 * 14) + int1);
-    var int20 = ((2500 * 15) + int1);
-    var int21 = ((2500 * 16) + int1);
-    var int22 = ((2500 * 17) + int1);
-    var int23 = ((2500 * 18) + int1);
-    var int24 = ((2500 * 19) + int1);
-    var int25 = ((2500 * 20) + int1);
-    var int26 = ((2500 * 21) + int1);
-    var int27 = ((2500 * 22) + int1);
-    var int28 = ((2500 * 23) + int1);
-    var int29 = ((2500 * 24) + int1);
-    var int30 = ((2500 * 25) + int1);
-    var int31 = 4;
+    var int7 = ((2500 * 1) + int1);
+    var int8 = ((2500 * 2) + int1);
+    var int9 = ((2500 * 3) + int1);
+    var int10 = ((2500 * 4) + int1);
+    var int11 = ((2500 * 5) + int1);
+    var int12 = ((2500 * 6) + int1);
+    var int13 = ((2500 * 7) + int1);
+    var int14 = ((2500 * 8) + int1);
+    var int15 = ((2500 * 9) + int1);
+    var int16 = ((2500 * 10) + int1);
+    var int17 = ((2500 * 11) + int1);
+    var int18 = ((2500 * 12) + int1);
+    var int19 = ((2500 * 13) + int1);
+    var int20 = ((2500 * 14) + int1);
+    var int21 = ((2500 * 15) + int1);
+    var int22 = ((2500 * 16) + int1);
+    var int23 = ((2500 * 17) + int1);
+    var int24 = ((2500 * 18) + int1);
+    var int25 = ((2500 * 19) + int1);
+    var int26 = ((2500 * 20) + int1);
+    var int27 = ((2500 * 21) + int1);
+    var int28 = ((2500 * 22) + int1);
+    var int29 = ((2500 * 23) + int1);
+    var int30 = ((2500 * 24) + int1);
+    var int31 = ((2500 * 25) + int1);
+    var int32 = 4;
     var string6 = "";
     var string7 = "There are no settings available for this plugin.";
     stack(int2);
     script21221();
-    var int32 = [];
+    var int33 = [];
     var string8 = "This plugin has required permissions that must be accepted before it can be enabled.";
     if ((CC_FIND(int0, int1) == 1)) {
-        stack(int6);
+        stack(int7);
         script21130();
         script16109(0, 0, 0, 0, 0, 0, 1, 1, int1, 0);
         stack(21215);
@@ -73,61 +74,61 @@ function script21209(): void {
         stack(-2147483646);
         stack("iiiii");
         unk11208();
-        stack(int10);
+        stack(int11);
         script21130();
         script7918(4, 0, 0, 1, 112, 63, 0, 0, -1);
         stack(string3);
         unk11564();
-        stack(int7);
+        stack(int8);
         script21130();
         script10485(120, 4, 0, 0, 300, 18, 0, 0, 17514, string0);
-        stack(int8);
+        stack(int9);
         script21130();
         script10485(4, 4, 2, 0, 170, 16, 0, 0, 2100, `by ${string1}`);
         CC_SETTEXTALIGN(2, 1, 0);
-        stack(int9);
+        stack(int10);
         script21130();
         script10485(120, 6, 0, 2, 170, 16, 0, 0, 2100, "Loading...");
-        if ((int32 == 1)) {
+        if ((int33 == 1)) {
             stack(int2);
             script21236();
             if (BRANCH_EQUALS(0)) {
-                stack(int11);
+                stack(int12);
                 script21130();
-                script7883(120, (22 + 2), 0, 0, 200, 20, 0, 0, 2550, string5, 0, 1, int5);
+                script7883(120, (22 + 2), 0, 0, 200, 20, 0, 0, 2550, string5, 0, 1, int6);
                 CC_SETONMOUSEREPEAT(callback(script8799, string8, -2147483645, -2147483643));
                 CC_SETONMOUSELEAVE(callback(script8805));
             } else {
-                stack(int11);
+                stack(int12);
                 script21130();
-                script7883(120, (22 + 2), 0, 0, 200, 20, 0, 0, 2550, string5, 1, 1, int5);
+                script7883(120, (22 + 2), 0, 0, 200, 20, 0, 0, 2550, string5, 1, 1, int6);
                 CC_SETOP(1, `Toggle ${string0}`);
                 stack(21212);
                 stack(int2);
                 stack(string0);
-                stack(int5);
+                stack(int6);
                 stack(int0);
                 stack(CC_GETID());
                 CC_SETONOP("isiii");
             };
         } else {
-            stack(int11);
+            stack(int12);
             script21130();
-            script7883(120, (22 + 2), 0, 0, 200, 20, 0, 0, 2550, string5, 1, 1, int5);
+            script7883(120, (22 + 2), 0, 0, 200, 20, 0, 0, 2550, string5, 1, 1, int6);
             CC_SETOP(1, `Toggle ${string0}`);
             stack(21212);
             stack(int2);
             stack(string0);
-            stack(int5);
+            stack(int6);
             stack(int0);
             stack(CC_GETID());
             CC_SETONOP("isiii");
         };
         if ((CC_FIND(int0, int1) == 1)) {
-            stack(int25);
-            script21130();
-            script15937(int31, 4, 2, 2, 24, 24, 0, 0);
             stack(int26);
+            script21130();
+            script15937(int32, 4, 2, 2, 24, 24, 0, 0);
+            stack(int27);
             script21130();
             script7858(0, 0, 1, 1, 0, 0, 1, 1, callback(script14908));
             CC_SETOP(1, `Remove ${string0}`);
@@ -137,7 +138,7 @@ function script21209(): void {
             stack(int2);
             stack(string0);
             CC_SETONOP("iiis");
-            stack(int27);
+            stack(int28);
             script21130();
             script7918(0, 0, 1, 1, 18, 18, 0, 0, 36608);
             CC_SETONMOUSEOVER(callback(script688, -2147483645, -2147483643, 36608));
@@ -145,19 +146,19 @@ function script21209(): void {
             string6 = `Remove ${string0}.`;
             CC_SETONMOUSEREPEAT(callback(script8799, string6, -2147483645, -2147483643));
         };
-        int31 = (int31 + (24 + 4));
+        int32 = (int32 + (24 + 4));
         if ((CC_FIND(int0, int1) == 1)) {
-            stack(int22);
-            script21130();
-            script15937(int31, 4, 2, 2, 24, 24, 0, 0);
             stack(int23);
             script21130();
+            script15937(int32, 4, 2, 2, 24, 24, 0, 0);
+            stack(int24);
+            script21130();
             script7858(0, 0, 1, 1, 0, 0, 1, 1, 14908, "");
-            if ((int5 == 0)) {
+            if ((int6 == 0)) {
                 script7872(0, 1, 0, 0);
                 CC_SETONMOUSEREPEAT(callback(script8799, string7, -2147483645, -2147483643));
                 CC_SETONMOUSELEAVE(callback(script8805));
-                stack(int24);
+                stack(int25);
                 script21130();
                 script7918(0, 0, 1, 1, 18, 18, 0, 0, 36611);
             } else {
@@ -169,7 +170,7 @@ function script21209(): void {
                     script7872(0, 1, 0, 0);
                     CC_SETONMOUSEREPEAT(callback(script8799, string7, -2147483645, -2147483643));
                     CC_SETONMOUSELEAVE(callback(script8805));
-                    stack(int24);
+                    stack(int25);
                     script21130();
                     script7918(0, 0, 1, 1, 18, 18, 0, 0, 36611);
                 } else {
@@ -179,7 +180,7 @@ function script21209(): void {
                     stack(string3);
                     stack(string0);
                     CC_SETONOP("iss");
-                    stack(int24);
+                    stack(int25);
                     script21130();
                     script7918(0, 0, 1, 1, 18, 18, 0, 0, 36610);
                     CC_SETONMOUSEOVER(callback(script688, -2147483645, -2147483643, 36610));
@@ -189,12 +190,12 @@ function script21209(): void {
                 };
             };
         };
-        int31 = (int31 + (24 + 4));
+        int32 = (int32 + (24 + 4));
         if ((CC_FIND(int0, int1) == 1)) {
-            stack(int19);
-            script21130();
-            script15937(int31, 4, 2, 2, 24, 24, 0, 0);
             stack(int20);
+            script21130();
+            script15937(int32, 4, 2, 2, 24, 24, 0, 0);
+            stack(int21);
             script21130();
             script7858(0, 0, 1, 1, 0, 0, 1, 1, callback(script14908));
             CC_SETOP(1, `Report ${string0}`);
@@ -204,7 +205,7 @@ function script21209(): void {
             stack(int2);
             stack(string4);
             CC_SETONOP("iiis");
-            stack(int21);
+            stack(int22);
             script21130();
             script7918(0, 0, 1, 1, 18, 18, 0, 0, 36609);
             CC_SETONMOUSEOVER(callback(script688, -2147483645, -2147483643, 36609));
@@ -212,12 +213,12 @@ function script21209(): void {
             string6 = `Report ${string0} on Mod.io.`;
             CC_SETONMOUSEREPEAT(callback(script8799, string6, -2147483645, -2147483643));
         };
-        int31 = (int31 + (24 + 4));
+        int32 = (int32 + (24 + 4));
         if ((CC_FIND(int0, int1) == 1)) {
-            stack(int16);
-            script21130();
-            script15937(int31, 4, 2, 2, 24, 24, 0, 0);
             stack(int17);
+            script21130();
+            script15937(int32, 4, 2, 2, 24, 24, 0, 0);
+            stack(int18);
             script21130();
             script7858(0, 0, 1, 1, 0, 0, 1, 1, callback(script14908));
             CC_SETOP(1, "More Information");
@@ -227,7 +228,7 @@ function script21209(): void {
             stack(int2);
             stack(string4);
             CC_SETONOP("iiis");
-            stack(int18);
+            stack(int19);
             script21130();
             script7918(0, 0, 1, 1, 18, 18, 0, 0, 36606);
             CC_SETONMOUSEOVER(callback(script688, -2147483645, -2147483643, 36606));
@@ -235,13 +236,13 @@ function script21209(): void {
             string6 = `Visit Mod.io for more information about ${string0}.`;
             CC_SETONMOUSEREPEAT(callback(script8799, string6, -2147483645, -2147483643));
         };
-        int31 = (int31 + (24 + 4));
-        if ((int32 == 1)) {
+        int32 = (int32 + (24 + 4));
+        if ((int33 == 1)) {
             if ((CC_FIND(int0, int1) == 1)) {
-                stack(int28);
-                script21130();
-                script15937(int31, 4, 2, 2, 24, 24, 0, 0);
                 stack(int29);
+                script21130();
+                script15937(int32, 4, 2, 2, 24, 24, 0, 0);
+                stack(int30);
                 script21130();
                 script7858(0, 0, 1, 1, 0, 0, 1, 1, callback(script14908));
                 CC_SETOP(1, "Manage permissions");
@@ -249,7 +250,7 @@ function script21209(): void {
                 stack(int2);
                 stack(string0);
                 CC_SETONOP("is");
-                stack(int30);
+                stack(int31);
                 script21130();
                 script7918(0, 0, 1, 1, 18, 18, 0, 0, 36613);
                 CC_SETONMOUSEOVER(callback(script688, -2147483645, -2147483643, 36613));
@@ -257,7 +258,7 @@ function script21209(): void {
                 string6 = `Manage permissions for ${string0}.`;
                 CC_SETONMOUSEREPEAT(callback(script8799, string6, -2147483645, -2147483643));
             };
-            int31 = (int31 + (24 + 4));
+            int32 = (int32 + (24 + 4));
         };
         if ((CC_FIND(int0, int1) == 1)) {
             stack(21211);
@@ -265,16 +266,16 @@ function script21209(): void {
             stack(int2);
             stack(int1);
             CC_SETONTIMER("iii");
-            stack(int12);
-            script21130();
-            script10485((((int31 + 24) + 4) + 10), 6, 2, 2, 170, 16, 0, 0, callback(script2100));
-            CC_SETTEXTALIGN(2, 1, 0);
-            CC_SETHIDE(true);
             stack(int13);
             script21130();
-            script15937(int31, 4, 2, 2, 24, 24, 0, 0);
+            script10485((((int32 + 24) + 4) + 10), 6, 2, 2, 170, 16, 0, 0, callback(script2100));
+            CC_SETTEXTALIGN(2, 1, 0);
             CC_SETHIDE(true);
             stack(int14);
+            script21130();
+            script15937(int32, 4, 2, 2, 24, 24, 0, 0);
+            CC_SETHIDE(true);
+            stack(int15);
             script21130();
             script7858(0, 0, 1, 1, 0, 0, 1, 1, callback(script14908));
             CC_SETOP(1, `Update ${string0}`);
@@ -284,7 +285,7 @@ function script21209(): void {
             stack(int2);
             stack(string0);
             CC_SETONOP("iiis");
-            stack(int15);
+            stack(int16);
             script21130();
             script7918(0, 0, 1, 1, 18, 18, 0, 0, 36612);
             CC_SETONMOUSEOVER(callback(script688, -2147483645, -2147483643, 36612));

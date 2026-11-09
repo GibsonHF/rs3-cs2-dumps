@@ -23,6 +23,7 @@ function script21200(): void {
                 stack(int1);
                 stack(int3);
                 stack(int4);
+                stack(1);
                 script21190();
                 stack(int1);
                 stack((int7 + int3));

@@ -55080,6 +55080,18 @@
 	},
 	{
 		"extra": {
+			"mtxmgt_category": 3, // 2531 chisel:solomons_category
+			"mtxmgt_subcat": 4, // 2532 chisel:SGS_sub_group
+			"mtxmgt_name": "Luanatic", // 2533 chisel:SGS_name
+			"mtxmgt_title_id": 884, // 2543 chisel:title_index_in_enum
+			"mtxmgt_source": 5, // 2546
+			"mtxmgt_was_limited_edition": 1, // 2547 chisel:nature_balance_value_9F3
+			"mtxmgt_source_custom": "This title is awarded to players who have made significant contributions to the RuneScape Plugin Hub." // 4751 chisel:cosmetic_unlock_hint
+		},
+		"id": 4386
+	},
+	{
+		"extra": {
 			"mtxmgt_category": 2, // 2531 chisel:solomons_category
 			"mtxmgt_subcat": 20, // 2532 chisel:SGS_sub_group
 			"mtxmgt_name": "Dark Mage outfit", // 2533 chisel:SGS_name
@@ -506195,7 +506207,6 @@
 			"boss_instance_boss_npc": 32907, // 3343
 			"boss_instance_boss_specialstart": 1, // 3346
 			"boss_instance_max_players": 2, // 3387
-			"boss_instance_hard_player_requirement": 2, // 3814
 			"boss_instance_boss_name": "The Ghrazi Blood Knights", // 3815
 			"boss_instance_unique_id": 71, // 4825
 			"boss_instance_bossslayer_link": 53545, // 4829

@@ -75,8 +75,10 @@ function script21199(): void {
             IF_SETTEXT("", comp(1589, 14));
             IF_SETHIDE(true, comp(1589, 15));
             IF_SETHIDE(false, comp(1589, 13));
+            script9525(104136717, 4, -1);
             IF_SETENABLED(false, comp(1589, 14));
             IF_SETHIDE(false, comp(1589, 10));
+            IF_SETTEXT("Installing...", comp(1589, 11));
             IF_SETENABLED(false, comp(1589, 11));
             IF_SETENABLED(true, comp(1589, 12));
             IF_SETONBUTTONCLICK(callback(), 104136718);
@@ -85,6 +87,7 @@ function script21199(): void {
             stack(int0);
             stack(int1);
             IF_SETONBUTTONCLICK("ii", 104136716);
+            script14947(int0, 1);
             break;
         }
         case 4: {

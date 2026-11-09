@@ -63,7 +63,7 @@ function script21183(): void {
     stack(2);
     unk11516();
     if ((STRING_LENGTH(varclient_8500) >= 2)) {
-        string1 = URLENCODE(`*${varclient_8500}*`);
+        string1 = `*${varclient_8500}*`;
         stack(0);
         stack(0);
         stack(string1);

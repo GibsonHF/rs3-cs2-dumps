@@ -364,14 +364,30 @@ function script13776(int0: number, int1: number, int2: number, int3: number): nu
                 while ((int20 < int21)) {
                     int10 = enum_getvalue(0, 33, 15320, int20);
                     int12 = script7361(int10);
-                    stack(int2);
-                    stack(5);
-                    stack(int3);
-                    int3 = (int3 + 1);
-                    CC_CREATE();
-                    CC_SETSIZE(36, 32, 0, 0);
-                    CC_SETOBJECT_ALWAYSNUM(int10, int12);
-                    int20 = (int20 + 1);
+                    script9928(int10);
+                    if (BRANCH_EQUALS(1)) {
+                        if ((int12 == 0)) {
+                            int20 = (int20 + 1);
+                        } else {
+                            stack(int2);
+                            stack(5);
+                            stack(int3);
+                            int3 = (int3 + 1);
+                            CC_CREATE();
+                            CC_SETSIZE(36, 32, 0, 0);
+                            CC_SETOBJECT_ALWAYSNUM(int10, int12);
+                            int20 = (int20 + 1);
+                        };
+                    } else {
+                        stack(int2);
+                        stack(5);
+                        stack(int3);
+                        int3 = (int3 + 1);
+                        CC_CREATE();
+                        CC_SETSIZE(36, 32, 0, 0);
+                        CC_SETOBJECT_ALWAYSNUM(int10, int12);
+                        int20 = (int20 + 1);
+                    };
                 };
                 int20 = 0;
                 int12 = (int3 - int23);
