@@ -9277,6 +9277,7 @@
 	{
 		"extra": {
 			"mtxmgt_category": 4, // 2531 chisel:solomons_category
+			"mtxmgt_subcat": 8, // 2532 chisel:SGS_sub_group
 			"mtxmgt_name": "Occult Loot Beam", // 2533 chisel:SGS_name
 			"mtxmgt_preview_spotanim": 36933, // 2536
 			"mtxmgt_preview_spotanim_model": 140360, // 2537
@@ -9409,7 +9410,8 @@
 			"mtxmgt_parent_id": 2379, // 4744
 			"mtxmgt_source_custom": "This cosmetic can be obtained from the Marketplace.", // 4751 chisel:cosmetic_unlock_hint
 			"original_release_date": 8839, // 6628
-			"mtxmgt_preview_default_y_angle": 150 // 8546
+			"mtxmgt_preview_default_y_angle": 150, // 8546
+			"mtxmgt_interface_positioning": 20581 // 9254
 		},
 		"id": 984
 	},
@@ -269969,7 +269971,8 @@
 			"release_date": 5097, // 4742 chisel:th_available_date
 			"mtxmgt_parent_id": 72, // 4744
 			"mtx_front_end_confirm_pet_zoom": 400, // 8666
-			"trh_preview_pet_bas": 3671 // 8692
+			"trh_preview_pet_bas": 3671, // 8692
+			"mtxmgt_interface_positioning": 20033 // 9254
 		},
 		"id": 33034
 	},
@@ -282041,7 +282044,7 @@
 			"mtxmgt_pet_multi_appearance": 1, // 7494
 			"mtxmgt_pet_appearance_npc_enum": 14997, // 8210
 			"mtxmgt_pet_appearance_poh_npc_enum": 14998, // 8211
-			"mtxmgt_pet_appearance_tooltip_enum": 14996 // 8213
+			"mtxmgt_pet_appearance_tooltip_enum": 5949 // 8213
 		},
 		"id": 34089
 	},
@@ -282066,7 +282069,7 @@
 			"mtxmgt_pet_multi_appearance": 1, // 7494
 			"mtxmgt_pet_appearance_npc_enum": 15003, // 8210
 			"mtxmgt_pet_appearance_poh_npc_enum": 15112, // 8211
-			"mtxmgt_pet_appearance_tooltip_enum": 14996 // 8213
+			"mtxmgt_pet_appearance_tooltip_enum": 5949 // 8213
 		},
 		"id": 34091
 	},
@@ -282091,7 +282094,7 @@
 			"mtxmgt_pet_multi_appearance": 1, // 7494
 			"mtxmgt_pet_appearance_npc_enum": 15134, // 8210
 			"mtxmgt_pet_appearance_poh_npc_enum": 15135, // 8211
-			"mtxmgt_pet_appearance_tooltip_enum": 14996 // 8213
+			"mtxmgt_pet_appearance_tooltip_enum": 5949 // 8213
 		},
 		"id": 34093
 	},
@@ -282116,7 +282119,7 @@
 			"mtxmgt_pet_multi_appearance": 1, // 7494
 			"mtxmgt_pet_appearance_npc_enum": 15154, // 8210
 			"mtxmgt_pet_appearance_poh_npc_enum": 15155, // 8211
-			"mtxmgt_pet_appearance_tooltip_enum": 14996 // 8213
+			"mtxmgt_pet_appearance_tooltip_enum": 5949 // 8213
 		},
 		"id": 34095
 	},
@@ -282141,7 +282144,7 @@
 			"mtxmgt_pet_multi_appearance": 1, // 7494
 			"mtxmgt_pet_appearance_npc_enum": 15168, // 8210
 			"mtxmgt_pet_appearance_poh_npc_enum": 15188, // 8211
-			"mtxmgt_pet_appearance_tooltip_enum": 14996 // 8213
+			"mtxmgt_pet_appearance_tooltip_enum": 5949 // 8213
 		},
 		"id": 34097
 	},
@@ -282166,7 +282169,7 @@
 			"mtxmgt_pet_multi_appearance": 1, // 7494
 			"mtxmgt_pet_appearance_npc_enum": 15190, // 8210
 			"mtxmgt_pet_appearance_poh_npc_enum": 15357, // 8211
-			"mtxmgt_pet_appearance_tooltip_enum": 14996 // 8213
+			"mtxmgt_pet_appearance_tooltip_enum": 5949 // 8213
 		},
 		"id": 34099
 	},
@@ -282191,7 +282194,7 @@
 			"mtxmgt_pet_multi_appearance": 1, // 7494
 			"mtxmgt_pet_appearance_npc_enum": 15401, // 8210
 			"mtxmgt_pet_appearance_poh_npc_enum": 15402, // 8211
-			"mtxmgt_pet_appearance_tooltip_enum": 14996 // 8213
+			"mtxmgt_pet_appearance_tooltip_enum": 5951 // 8213
 		},
 		"id": 34101
 	},
@@ -282216,7 +282219,7 @@
 			"mtxmgt_pet_multi_appearance": 1, // 7494
 			"mtxmgt_pet_appearance_npc_enum": 15453, // 8210
 			"mtxmgt_pet_appearance_poh_npc_enum": 15458, // 8211
-			"mtxmgt_pet_appearance_tooltip_enum": 14996 // 8213
+			"mtxmgt_pet_appearance_tooltip_enum": 5949 // 8213
 		},
 		"id": 34103
 	},
@@ -282241,7 +282244,7 @@
 			"mtxmgt_pet_multi_appearance": 1, // 7494
 			"mtxmgt_pet_appearance_npc_enum": 15460, // 8210
 			"mtxmgt_pet_appearance_poh_npc_enum": 15463, // 8211
-			"mtxmgt_pet_appearance_tooltip_enum": 14996 // 8213
+			"mtxmgt_pet_appearance_tooltip_enum": 5949 // 8213
 		},
 		"id": 34105
 	},
@@ -282266,7 +282269,7 @@
 			"mtxmgt_pet_multi_appearance": 1, // 7494
 			"mtxmgt_pet_appearance_npc_enum": 15476, // 8210
 			"mtxmgt_pet_appearance_poh_npc_enum": 15495, // 8211
-			"mtxmgt_pet_appearance_tooltip_enum": 14996 // 8213
+			"mtxmgt_pet_appearance_tooltip_enum": 5949 // 8213
 		},
 		"id": 34107
 	},
@@ -282291,7 +282294,7 @@
 			"mtxmgt_pet_multi_appearance": 1, // 7494
 			"mtxmgt_pet_appearance_npc_enum": 15512, // 8210
 			"mtxmgt_pet_appearance_poh_npc_enum": 15513, // 8211
-			"mtxmgt_pet_appearance_tooltip_enum": 14996 // 8213
+			"mtxmgt_pet_appearance_tooltip_enum": 5949 // 8213
 		},
 		"id": 34109
 	},
@@ -282317,7 +282320,7 @@
 			"mtxmgt_pet_multi_appearance": 1, // 7494
 			"mtxmgt_pet_appearance_npc_enum": 15739, // 8210
 			"mtxmgt_pet_appearance_poh_npc_enum": 15742, // 8211
-			"mtxmgt_pet_appearance_tooltip_enum": 14996 // 8213
+			"mtxmgt_pet_appearance_tooltip_enum": 5949 // 8213
 		},
 		"id": 34111
 	},
@@ -282342,7 +282345,7 @@
 			"mtxmgt_pet_multi_appearance": 1, // 7494
 			"mtxmgt_pet_appearance_npc_enum": 15744, // 8210
 			"mtxmgt_pet_appearance_poh_npc_enum": 15868, // 8211
-			"mtxmgt_pet_appearance_tooltip_enum": 14996 // 8213
+			"mtxmgt_pet_appearance_tooltip_enum": 5949 // 8213
 		},
 		"id": 34113
 	},
@@ -282367,7 +282370,7 @@
 			"mtxmgt_pet_multi_appearance": 1, // 7494
 			"mtxmgt_pet_appearance_npc_enum": 15946, // 8210
 			"mtxmgt_pet_appearance_poh_npc_enum": 15964, // 8211
-			"mtxmgt_pet_appearance_tooltip_enum": 14996 // 8213
+			"mtxmgt_pet_appearance_tooltip_enum": 5949 // 8213
 		},
 		"id": 34115
 	},
@@ -282392,7 +282395,7 @@
 			"mtxmgt_pet_multi_appearance": 1, // 7494
 			"mtxmgt_pet_appearance_npc_enum": 16180, // 8210
 			"mtxmgt_pet_appearance_poh_npc_enum": 16181, // 8211
-			"mtxmgt_pet_appearance_tooltip_enum": 14996 // 8213
+			"mtxmgt_pet_appearance_tooltip_enum": 5949 // 8213
 		},
 		"id": 34117
 	},
@@ -282417,7 +282420,7 @@
 			"mtxmgt_pet_multi_appearance": 1, // 7494
 			"mtxmgt_pet_appearance_npc_enum": 16361, // 8210
 			"mtxmgt_pet_appearance_poh_npc_enum": 16399, // 8211
-			"mtxmgt_pet_appearance_tooltip_enum": 14996 // 8213
+			"mtxmgt_pet_appearance_tooltip_enum": 5952 // 8213
 		},
 		"id": 34119
 	},
@@ -282442,7 +282445,7 @@
 			"mtxmgt_pet_multi_appearance": 1, // 7494
 			"mtxmgt_pet_appearance_npc_enum": 16401, // 8210
 			"mtxmgt_pet_appearance_poh_npc_enum": 16402, // 8211
-			"mtxmgt_pet_appearance_tooltip_enum": 14996 // 8213
+			"mtxmgt_pet_appearance_tooltip_enum": 5949 // 8213
 		},
 		"id": 34121
 	},
@@ -282467,7 +282470,7 @@
 			"mtxmgt_pet_multi_appearance": 1, // 7494
 			"mtxmgt_pet_appearance_npc_enum": 16584, // 8210
 			"mtxmgt_pet_appearance_poh_npc_enum": 16618, // 8211
-			"mtxmgt_pet_appearance_tooltip_enum": 14996 // 8213
+			"mtxmgt_pet_appearance_tooltip_enum": 5949 // 8213
 		},
 		"id": 34123
 	},
@@ -282492,7 +282495,7 @@
 			"mtxmgt_pet_multi_appearance": 1, // 7494
 			"mtxmgt_pet_appearance_npc_enum": 16627, // 8210
 			"mtxmgt_pet_appearance_poh_npc_enum": 16628, // 8211
-			"mtxmgt_pet_appearance_tooltip_enum": 14996 // 8213
+			"mtxmgt_pet_appearance_tooltip_enum": 5949 // 8213
 		},
 		"id": 34125
 	},
@@ -282554,7 +282557,7 @@
 	{
 		"extra": {
 			"mtxmgt_pet_override_npc": 23188, // 4692
-			"mtxmgt_pet_override_model": 113988, // 4693
+			"mtxmgt_pet_override_model": 71709, // 4693
 			"mtxmgt_pet_override_bas": 3822 // 4694
 		},
 		"id": 34133
@@ -282626,7 +282629,7 @@
 	{
 		"extra": {
 			"mtxmgt_pet_override_npc": 23206, // 4692
-			"mtxmgt_pet_override_model": 113996, // 4693
+			"mtxmgt_pet_override_model": 71703, // 4693
 			"mtxmgt_pet_override_bas": 3823 // 4694
 		},
 		"id": 34142
@@ -296670,7 +296673,8 @@
 			"withdraw_date": 5483, // 4743 chisel:available_till
 			"mtxmgt_parent_id": 238, // 4744
 			"mtxmgt_source_custom": "This pet can be unlocked by taking part in the sprite event.", // 4751 chisel:cosmetic_unlock_hint
-			"mtx_front_end_confirm_pet_zoom": 400 // 8666
+			"mtx_front_end_confirm_pet_zoom": 400, // 8666
+			"mtxmgt_interface_positioning": 20128 // 9254
 		},
 		"id": 35372
 	},
@@ -311817,7 +311821,7 @@
 			"mtxmgt_pet_multi_appearance": 1, // 7494
 			"mtxmgt_pet_appearance_npc_enum": 16654, // 8210
 			"mtxmgt_pet_appearance_poh_npc_enum": 16655, // 8211
-			"mtxmgt_pet_appearance_tooltip_enum": 14996 // 8213
+			"mtxmgt_pet_appearance_tooltip_enum": 5950 // 8213
 		},
 		"id": 36637
 	},
@@ -311833,7 +311837,8 @@
 			"mtxmgt_pet_override_npc": 27008, // 4692
 			"mtxmgt_pet_override_model": 87124, // 4693
 			"mtxmgt_pet_override_bas": 4434, // 4694
-			"mtxmgt_pet_override_model2": 87125 // 5813
+			"mtxmgt_pet_override_model2": 87125, // 5813
+			"mtxmgt_pet_override_model3": 71725 // 7955
 		},
 		"id": 36639
 	},
@@ -338549,7 +338554,7 @@
 			"mtxmgt_pet_multi_appearance": 1, // 7494
 			"mtxmgt_pet_appearance_npc_enum": 16630, // 8210
 			"mtxmgt_pet_appearance_poh_npc_enum": 16631, // 8211
-			"mtxmgt_pet_appearance_tooltip_enum": 14996 // 8213
+			"mtxmgt_pet_appearance_tooltip_enum": 5949 // 8213
 		},
 		"id": 38913
 	},
@@ -338574,7 +338579,7 @@
 			"mtxmgt_pet_multi_appearance": 1, // 7494
 			"mtxmgt_pet_appearance_npc_enum": 16633, // 8210
 			"mtxmgt_pet_appearance_poh_npc_enum": 16634, // 8211
-			"mtxmgt_pet_appearance_tooltip_enum": 14996 // 8213
+			"mtxmgt_pet_appearance_tooltip_enum": 5949 // 8213
 		},
 		"id": 38915
 	},
@@ -338599,7 +338604,7 @@
 			"mtxmgt_pet_multi_appearance": 1, // 7494
 			"mtxmgt_pet_appearance_npc_enum": 16636, // 8210
 			"mtxmgt_pet_appearance_poh_npc_enum": 16637, // 8211
-			"mtxmgt_pet_appearance_tooltip_enum": 14996 // 8213
+			"mtxmgt_pet_appearance_tooltip_enum": 5949 // 8213
 		},
 		"id": 38917
 	},
@@ -338624,7 +338629,7 @@
 			"mtxmgt_pet_multi_appearance": 1, // 7494
 			"mtxmgt_pet_appearance_npc_enum": 16639, // 8210
 			"mtxmgt_pet_appearance_poh_npc_enum": 16640, // 8211
-			"mtxmgt_pet_appearance_tooltip_enum": 14996 // 8213
+			"mtxmgt_pet_appearance_tooltip_enum": 5949 // 8213
 		},
 		"id": 38919
 	},
@@ -338649,7 +338654,7 @@
 			"mtxmgt_pet_multi_appearance": 1, // 7494
 			"mtxmgt_pet_appearance_npc_enum": 16642, // 8210
 			"mtxmgt_pet_appearance_poh_npc_enum": 16643, // 8211
-			"mtxmgt_pet_appearance_tooltip_enum": 14996 // 8213
+			"mtxmgt_pet_appearance_tooltip_enum": 5949 // 8213
 		},
 		"id": 38921
 	},
@@ -338674,7 +338679,7 @@
 			"mtxmgt_pet_multi_appearance": 1, // 7494
 			"mtxmgt_pet_appearance_npc_enum": 16645, // 8210
 			"mtxmgt_pet_appearance_poh_npc_enum": 16646, // 8211
-			"mtxmgt_pet_appearance_tooltip_enum": 14996 // 8213
+			"mtxmgt_pet_appearance_tooltip_enum": 5949 // 8213
 		},
 		"id": 38923
 	},
@@ -338699,7 +338704,7 @@
 			"mtxmgt_pet_multi_appearance": 1, // 7494
 			"mtxmgt_pet_appearance_npc_enum": 16648, // 8210
 			"mtxmgt_pet_appearance_poh_npc_enum": 16649, // 8211
-			"mtxmgt_pet_appearance_tooltip_enum": 14996 // 8213
+			"mtxmgt_pet_appearance_tooltip_enum": 5949 // 8213
 		},
 		"id": 38925
 	},
@@ -338724,7 +338729,7 @@
 			"mtxmgt_pet_multi_appearance": 1, // 7494
 			"mtxmgt_pet_appearance_npc_enum": 16651, // 8210
 			"mtxmgt_pet_appearance_poh_npc_enum": 16652, // 8211
-			"mtxmgt_pet_appearance_tooltip_enum": 14996 // 8213
+			"mtxmgt_pet_appearance_tooltip_enum": 5949 // 8213
 		},
 		"id": 38927
 	},
@@ -349560,7 +349565,7 @@
 	{
 		"extra": {
 			"mtxmgt_pet_override_npc": 29502, // 4692
-			"mtxmgt_pet_override_model": 113988, // 4693
+			"mtxmgt_pet_override_model": 71709, // 4693
 			"mtxmgt_pet_override_bas": 3822, // 4694
 			"mtxmgt_pet_override_model2": 126821 // 5813
 		},
@@ -354532,6 +354537,20 @@
 			"toplevel_v2_window_titled_header_text_minus_width_override": 0 // 9397
 		},
 		"id": 40301
+	},
+	{
+		"extra": {
+			"mtxmgt_category": 3, // 2531 chisel:solomons_category
+			"mtxmgt_subcat": 4, // 2532 chisel:SGS_sub_group
+			"mtxmgt_name": "the Restorer", // 2533 chisel:SGS_name
+			"mtxmgt_title_id": 885, // 2543 chisel:title_index_in_enum
+			"mtxmgt_source": 9, // 2546
+			"mtxmgt_was_limited_edition": 1, // 2547 chisel:nature_balance_value_9F3
+			"release_date": 9028, // 4742 chisel:th_available_date
+			"withdraw_date": 9036, // 4743 chisel:available_till
+			"mtxmgt_source_custom": "This title is unlocked by donating any MTX items to the Well of Restoration." // 4751 chisel:cosmetic_unlock_hint
+		},
+		"id": 40302
 	},
 	{
 		"extra": {
@@ -389624,7 +389643,7 @@
 	{
 		"extra": {
 			"mtxmgt_pet_override_npc": 29520, // 4692
-			"mtxmgt_pet_override_model": 113996, // 4693
+			"mtxmgt_pet_override_model": 71703, // 4693
 			"mtxmgt_pet_override_bas": 3823, // 4694
 			"mtxmgt_pet_override_model2": 126834 // 5813
 		},
@@ -422735,8 +422754,9 @@
 			"mtxmgt_pet_override_npc": 29544, // 4692
 			"mtxmgt_pet_override_model": 87124, // 4693
 			"mtxmgt_pet_override_bas": 4434, // 4694
+			"mtxmgt_pet_override_model4": 126806, // 5008
 			"mtxmgt_pet_override_model2": 87125, // 5813
-			"mtxmgt_pet_override_model3": 126806 // 7955
+			"mtxmgt_pet_override_model3": 71725 // 7955
 		},
 		"id": 46300
 	},
@@ -432748,7 +432768,8 @@
 			"mtxmgt_parent_id": 2047, // 4744
 			"mtxmgt_source_custom": "This cosmetic can be obtained from the Marketplace, or by purchasing from other players.", // 4751 chisel:cosmetic_unlock_hint
 			"original_release_date": 8363, // 6628
-			"mtxmgt_preview_default_y_angle": 150 // 8546
+			"mtxmgt_preview_default_y_angle": 150, // 8546
+			"mtxmgt_interface_positioning": 20581 // 9254
 		},
 		"id": 47184
 	},
@@ -433078,7 +433099,8 @@
 			"mtxmgt_parent_id": 1433, // 4744
 			"mtxmgt_source_custom": "This pet can be unlocked via the Heartments store during the Gifts from the Heart promotion.", // 4751 chisel:cosmetic_unlock_hint
 			"mtxmgt_pet_info": 47214, // 8226
-			"mtx_front_end_confirm_pet_zoom": 250 // 8666
+			"mtx_front_end_confirm_pet_zoom": 250, // 8666
+			"mtxmgt_interface_positioning": 19980 // 9254
 		},
 		"id": 47212
 	},
@@ -437365,7 +437387,7 @@
 	{
 		"extra": {
 			"mtxmgt_pet_override_npc": 29973, // 4692
-			"mtxmgt_pet_override_model": 113988, // 4693
+			"mtxmgt_pet_override_model": 71709, // 4693
 			"mtxmgt_pet_override_bas": 3822, // 4694
 			"mtxmgt_pet_override_model2": 128098 // 5813
 		},
@@ -437446,7 +437468,7 @@
 	{
 		"extra": {
 			"mtxmgt_pet_override_npc": 29991, // 4692
-			"mtxmgt_pet_override_model": 113996, // 4693
+			"mtxmgt_pet_override_model": 71703, // 4693
 			"mtxmgt_pet_override_bas": 3823, // 4694
 			"mtxmgt_pet_override_model2": 128122 // 5813
 		},
@@ -437556,8 +437578,9 @@
 			"mtxmgt_pet_override_npc": 30015, // 4692
 			"mtxmgt_pet_override_model": 87124, // 4693
 			"mtxmgt_pet_override_bas": 4434, // 4694
+			"mtxmgt_pet_override_model4": 128080, // 5008
 			"mtxmgt_pet_override_model2": 87125, // 5813
-			"mtxmgt_pet_override_model3": 128080 // 7955
+			"mtxmgt_pet_override_model3": 71725 // 7955
 		},
 		"id": 47572
 	},
@@ -440003,7 +440026,8 @@
 			"mtxmgt_parent_id": 1525, // 4744
 			"mtxmgt_source_custom": "This cosmetic can be obtained from the Marketplace, or by purchasing from other players.", // 4751 chisel:cosmetic_unlock_hint
 			"original_release_date": 7848, // 6628
-			"mtxmgt_preview_default_y_angle": 150 // 8546
+			"mtxmgt_preview_default_y_angle": 150, // 8546
+			"mtxmgt_interface_positioning": 20582 // 9254
 		},
 		"id": 47857
 	},
@@ -441602,6 +441626,87 @@
 			"original_release_date": 8002 // 6628
 		},
 		"id": 47979
+	},
+	{
+		"extra": {
+			"mtxmgt_category": 5, // 2531 chisel:solomons_category
+			"mtxmgt_subcat": 2, // 2532 chisel:SGS_sub_group
+			"mtxmgt_name": "Infernal Archie", // 2533 chisel:SGS_name
+			"mtx_front_end_confirm_pet_offset_y": 90, // 2997 chisel:potion_effect_unk1
+			"mtxmgt_pos_string": "rs:companions:infernalArchie", // 4592
+			"mtxmgt_pet_override_npc": 15642, // 4692
+			"mtxmgt_pet_override_model": 87124, // 4693
+			"mtxmgt_pet_override_bas": 4434, // 4694
+			"mtxmgt_parent_id": 2532, // 4744
+			"mtxmgt_pet_override_model2": 87125, // 5813
+			"mtxmgt_pet_override_texture_source": 12048, // 7241
+			"mtxmgt_pet_override_texture_destination": 25372, // 7242
+			"mtxmgt_pet_override_colour_1_source": 4160, // 7243
+			"mtxmgt_pet_override_colour_1_destination": 665, // 7287
+			"mtxmgt_pet_override_colour_2_source": 6213, // 7396
+			"mtxmgt_pet_override_colour_2_destination": 545, // 7397
+			"mtxmgt_pet_override_model3": 71723, // 7955
+			"mtxmgt_pet_override_texture_2_source": 12050, // 8320
+			"mtxmgt_pet_override_texture_2_destination": 25376, // 8321
+			"mtxmgt_pet_override_colour_3_source": 3126, // 8322
+			"mtxmgt_pet_override_colour_3_destination": 657, // 8323
+			"mtxmgt_pet_override_colour_4_source": 37051, // 8324
+			"mtxmgt_pet_override_colour_4_destination": 4930, // 8325
+			"mtx_front_end_confirm_pet_zoom": 300 // 8666
+		},
+		"id": 47980
+	},
+	{
+		"extra": {
+			"mtxmgt_category": 5, // 2531 chisel:solomons_category
+			"mtxmgt_subcat": 2, // 2532 chisel:SGS_sub_group
+			"mtxmgt_name": "Beekeeper Brains", // 2533 chisel:SGS_name
+			"mtx_front_end_confirm_pet_offset_y": 90, // 2997 chisel:potion_effect_unk1
+			"mtxmgt_pos_string": "rs:companions:beekeeperBrains", // 4592
+			"mtxmgt_pet_override_npc": 15644, // 4692
+			"mtxmgt_pet_override_model": 71720, // 4693
+			"mtxmgt_pet_override_bas": 3822, // 4694
+			"mtxmgt_parent_id": 2533, // 4744
+			"mtx_front_end_confirm_pet_zoom": 300 // 8666
+		},
+		"id": 47981
+	},
+	{
+		"extra": {
+			"mtxmgt_category": 5, // 2531 chisel:solomons_category
+			"mtxmgt_subcat": 2, // 2532 chisel:SGS_sub_group
+			"mtxmgt_name": "Abyssal Crabbe", // 2533 chisel:SGS_name
+			"mtx_front_end_confirm_pet_offset_y": 160, // 2997 chisel:potion_effect_unk1
+			"mtxmgt_pos_string": "rs:companions:abyssalCrabbe", // 4592
+			"mtxmgt_pet_override_npc": 15639, // 4692
+			"mtxmgt_pet_override_model": 71703, // 4693
+			"mtxmgt_pet_override_bas": 3823, // 4694
+			"mtxmgt_parent_id": 2531, // 4744
+			"mtxmgt_pet_override_texture_source": 25370, // 7241
+			"mtxmgt_pet_override_texture_destination": 25368, // 7242
+			"mtxmgt_pet_override_colour_1_source": 37938, // 7243
+			"mtxmgt_pet_override_colour_1_destination": 49323, // 7287
+			"mtxmgt_pet_override_colour_2_source": 37931, // 7396
+			"mtxmgt_pet_override_colour_2_destination": 50337, // 7397
+			"mtxmgt_pet_override_colour_3_source": 960, // 8322
+			"mtxmgt_pet_override_colour_3_destination": 55232, // 8323
+			"mtx_front_end_confirm_pet_zoom": 350 // 8666
+		},
+		"id": 47982
+	},
+	{
+		"extra": {
+			"mtxmgt_category": 2, // 2531 chisel:solomons_category
+			"mtxmgt_subcat": 20, // 2532 chisel:SGS_sub_group
+			"mtxmgt_name": "Araxyte Hunter Outfit", // 2533 chisel:SGS_name
+			"mtxmgt_source": 1, // 2546
+			"mtxmgt_pos_string": "rs:outfits:SpiderSlayer", // 4592
+			"release_date": 9028, // 4742 chisel:th_available_date
+			"mtxmgt_parent_id": 2534, // 4744
+			"mtxmgt_source_custom": "This cosmetic can be obtained from the Marketplace.", // 4751 chisel:cosmetic_unlock_hint
+			"original_release_date": 9028 // 6628
+		},
+		"id": 47983
 	},
 	{
 		"extra": {
@@ -446651,7 +446756,7 @@
 			"mtxmgt_pet_multi_appearance": 1, // 7494
 			"mtxmgt_pet_appearance_npc_enum": 17366, // 8210
 			"mtxmgt_pet_appearance_poh_npc_enum": 17367, // 8211
-			"mtxmgt_pet_appearance_tooltip_enum": 14996 // 8213
+			"mtxmgt_pet_appearance_tooltip_enum": 5949 // 8213
 		},
 		"id": 48382
 	},
@@ -450068,7 +450173,8 @@
 			"mtxmgt_source_custom": "This cosmetic can be obtained from the Marketplace.", // 4751 chisel:cosmetic_unlock_hint
 			"original_release_date": 7859, // 6628
 			"mtxmgt_preview_default_y_angle": 150, // 8546
-			"ability_struct": 14709 // 8950
+			"ability_struct": 14709, // 8950
+			"mtxmgt_interface_positioning": 20583 // 9254
 		},
 		"id": 48678
 	},
@@ -453414,6 +453520,228 @@
 			"settings_desc": "Display clock as Local time." // 7528 chisel:game_settings_subcaption
 		},
 		"id": 48908
+	},
+	{
+		"extra": {
+			"mtxmgt_category": 2, // 2531 chisel:solomons_category
+			"mtxmgt_subcat": 0, // 2532 chisel:SGS_sub_group
+			"mtxmgt_name": "Araxyte Hunter Helmet", // 2533 chisel:SGS_name
+			"mtxmgt_source": 1, // 2546
+			"mtxmgt_parent_struct": 47983, // 4419 chisel:outfit_parent_vbId
+			"release_date": 9028, // 4742 chisel:th_available_date
+			"mtxmgt_source_custom": "This cosmetic can be obtained from the Marketplace.", // 4751 chisel:cosmetic_unlock_hint
+			"original_release_date": 9028 // 6628
+		},
+		"id": 48909
+	},
+	{
+		"extra": {
+			"mtxmgt_category": 2, // 2531 chisel:solomons_category
+			"mtxmgt_subcat": 4, // 2532 chisel:SGS_sub_group
+			"mtxmgt_name": "Araxyte Hunter Torso", // 2533 chisel:SGS_name
+			"mtxmgt_source": 1, // 2546
+			"mtxmgt_parent_struct": 47983, // 4419 chisel:outfit_parent_vbId
+			"release_date": 9028, // 4742 chisel:th_available_date
+			"mtxmgt_source_custom": "This cosmetic can be obtained from the Marketplace.", // 4751 chisel:cosmetic_unlock_hint
+			"original_release_date": 9028 // 6628
+		},
+		"id": 48910
+	},
+	{
+		"extra": {
+			"mtxmgt_category": 2, // 2531 chisel:solomons_category
+			"mtxmgt_subcat": 7, // 2532 chisel:SGS_sub_group
+			"mtxmgt_name": "Araxyte Hunter Legs", // 2533 chisel:SGS_name
+			"mtxmgt_source": 1, // 2546
+			"mtxmgt_parent_struct": 47983, // 4419 chisel:outfit_parent_vbId
+			"release_date": 9028, // 4742 chisel:th_available_date
+			"mtxmgt_source_custom": "This cosmetic can be obtained from the Marketplace.", // 4751 chisel:cosmetic_unlock_hint
+			"original_release_date": 9028 // 6628
+		},
+		"id": 48911
+	},
+	{
+		"extra": {
+			"mtxmgt_category": 2, // 2531 chisel:solomons_category
+			"mtxmgt_subcat": 10, // 2532 chisel:SGS_sub_group
+			"mtxmgt_name": "Araxyte Hunter Boots", // 2533 chisel:SGS_name
+			"mtxmgt_source": 1, // 2546
+			"mtxmgt_parent_struct": 47983, // 4419 chisel:outfit_parent_vbId
+			"release_date": 9028, // 4742 chisel:th_available_date
+			"mtxmgt_source_custom": "This cosmetic can be obtained from the Marketplace.", // 4751 chisel:cosmetic_unlock_hint
+			"original_release_date": 9028 // 6628
+		},
+		"id": 48912
+	},
+	{
+		"extra": {
+			"mtxmgt_category": 2, // 2531 chisel:solomons_category
+			"mtxmgt_subcat": 9, // 2532 chisel:SGS_sub_group
+			"mtxmgt_name": "Araxyte Hunter Gloves", // 2533 chisel:SGS_name
+			"mtxmgt_source": 1, // 2546
+			"mtxmgt_parent_struct": 47983, // 4419 chisel:outfit_parent_vbId
+			"release_date": 9028, // 4742 chisel:th_available_date
+			"mtxmgt_source_custom": "This cosmetic can be obtained from the Marketplace.", // 4751 chisel:cosmetic_unlock_hint
+			"original_release_date": 9028 // 6628
+		},
+		"id": 48913
+	},
+	{
+		"extra": {
+			"mtxmgt_category": 2, // 2531 chisel:solomons_category
+			"mtxmgt_subcat": 14, // 2532 chisel:SGS_sub_group
+			"mtxmgt_name": "Noxious Trail", // 2533 chisel:SGS_name
+			"mtxmgt_source": 1, // 2546
+			"mtxmgt_anim_preview_player_on_top": 0, // 3363
+			"mtxmgt_pos_string": "rs:effects:acidTrail", // 4592
+			"mtxmgt_parent_id": 2540, // 4744
+			"mtxmgt_source_custom": "This cosmetic can be obtained from the Marketplace.", // 4751 chisel:cosmetic_unlock_hint
+			"marketplace_preview_as_trail": 1 // 7522
+		},
+		"id": 48914
+	},
+	{
+		"extra": {
+			"motw_banner_en": 36645, // 6381
+			"motw_banner_de": 36671, // 6385
+			"motw_banner_fr": 36646, // 6386
+			"motw_banner_pt": 36659, // 6387
+			"motw_start_date": 9035, // 6388
+			"motw_end_date": 9042, // 6389
+			"motw_title": "Black Friday Sale", // 6391
+			"motw_onclick": 14 // 6392
+		},
+		"id": 48915
+	},
+	{
+		"extra": {
+			"mtxmgt_name": "Skilling Pet Skin Bundle", // 2533 chisel:SGS_name
+			"mtxmgt_pos_string": "rs:packs:mtx164PetBundle", // 4592
+			"mtxmgt_pack_structs": 5947, // 4717 chisel:sgs_pack_components
+			"release_date": 9028, // 4742 chisel:th_available_date
+			"mtxmgt_parent_id": 2541 // 4744
+		},
+		"id": 48916
+	},
+	{
+		"extra": {
+			"mtxmgt_category": 4, // 2531 chisel:solomons_category
+			"mtxmgt_subcat": 7, // 2532 chisel:SGS_sub_group
+			"mtxmgt_name": "Noxious Pulverise", // 2533 chisel:SGS_name
+			"mtxmgt_preview_anim": 18540, // 2535
+			"mtxmgt_preview_spotanim": 37851, // 2536
+			"mtxmgt_preview_spotanim_model": 71756, // 2537
+			"mtxmgt_preview_zoom_offset": 150, // 2540
+			"mtxmgt_preview_y_offset": 50, // 2541
+			"mtxmgt_source": 1, // 2546
+			"mtxmgt_pos_string": "rs:abilities:meleePulveriseAcid", // 4592
+			"mtxmgt_parent_id": 2535, // 4744
+			"mtxmgt_source_custom": "This cosmetic can be obtained from the Marketplace.", // 4751 chisel:cosmetic_unlock_hint
+			"mtxmgt_preview_default_y_angle": 150, // 8546
+			"ability_struct": 14709, // 8950
+			"mtxmgt_interface_positioning": 20583 // 9254
+		},
+		"id": 48917
+	},
+	{
+		"extra": {
+			"mtxmgt_category": 4, // 2531 chisel:solomons_category
+			"mtxmgt_subcat": 7, // 2532 chisel:SGS_sub_group
+			"mtxmgt_name": "Noxious Overpower", // 2533 chisel:SGS_name
+			"mtxmgt_preview_anim": 18179, // 2535
+			"mtxmgt_preview_spotanim": 36624, // 2536
+			"mtxmgt_preview_spotanim_model": 71777, // 2537
+			"mtxmgt_preview_zoom_offset": 150, // 2540
+			"mtxmgt_preview_y_offset": 50, // 2541
+			"mtxmgt_source": 1, // 2546
+			"mtxmgt_anim_preview_player_on_top": 0, // 3363
+			"mtxmgt_pos_string": "rs:abilities:meleeOverpowerAcid", // 4592
+			"mtxmgt_parent_id": 2536, // 4744
+			"mtxmgt_source_custom": "This cosmetic can be obtained from the Marketplace.", // 4751 chisel:cosmetic_unlock_hint
+			"mtxmgt_preview_default_y_angle": 150, // 8546
+			"mtxmgt_interface_positioning": 20581 // 9254
+		},
+		"id": 48918
+	},
+	{
+		"extra": {
+			"mtxmgt_category": 4, // 2531 chisel:solomons_category
+			"mtxmgt_subcat": 7, // 2532 chisel:SGS_sub_group
+			"mtxmgt_name": "Noxious Meteor Strike", // 2533 chisel:SGS_name
+			"mtxmgt_preview_anim": 18175, // 2535
+			"mtxmgt_preview_spotanim": 17136, // 2536
+			"mtxmgt_preview_spotanim_model": 71779, // 2537
+			"mtxmgt_preview_zoom_offset": 550, // 2540
+			"mtxmgt_preview_y_offset": 200, // 2541
+			"mtxmgt_source": 1, // 2546
+			"mtxmgt_anim_preview_player_on_top": 0, // 3363
+			"mtxmgt_preview_prevent_rotation": 1, // 4267
+			"mtxmgt_pos_string": "rs:abilities:meleeMeteorStrikeAcid", // 4592
+			"mtxmgt_parent_id": 2537, // 4744
+			"mtxmgt_source_custom": "This cosmetic can be obtained from the Marketplace.", // 4751 chisel:cosmetic_unlock_hint
+			"mtxmgt_interface_positioning": 20580 // 9254
+		},
+		"id": 48919
+	},
+	{
+		"extra": {
+			"mtxmgt_category": 4, // 2531 chisel:solomons_category
+			"mtxmgt_subcat": 7, // 2532 chisel:SGS_sub_group
+			"mtxmgt_name": "Noxious Assault", // 2533 chisel:SGS_name
+			"mtxmgt_preview_anim": 18577, // 2535
+			"mtxmgt_preview_spotanim": 37850, // 2536
+			"mtxmgt_preview_spotanim_model": 71738, // 2537
+			"mtxmgt_preview_zoom_offset": 150, // 2540
+			"mtxmgt_preview_y_offset": 50, // 2541
+			"mtxmgt_source": 1, // 2546
+			"mtxmgt_anim_preview_player_on_top": 0, // 3363
+			"mtxmgt_pos_string": "rs:abilities:meleeAssaultAcid", // 4592
+			"mtxmgt_parent_id": 2538, // 4744
+			"mtxmgt_source_custom": "This cosmetic can be obtained from the Marketplace.", // 4751 chisel:cosmetic_unlock_hint
+			"mtxmgt_preview_default_y_angle": 150, // 8546
+			"mtxmgt_interface_positioning": 20582 // 9254
+		},
+		"id": 48920
+	},
+	{
+		"extra": {
+			"mtxmgt_category": 4, // 2531 chisel:solomons_category
+			"mtxmgt_subcat": 7, // 2532 chisel:SGS_sub_group
+			"mtxmgt_name": "Noxious Flurry", // 2533 chisel:SGS_name
+			"mtxmgt_preview_anim": 37428, // 2535
+			"mtxmgt_preview_spotanim": 37430, // 2536
+			"mtxmgt_preview_spotanim_model": 71739, // 2537
+			"mtxmgt_preview_zoom_offset": 150, // 2540
+			"mtxmgt_preview_y_offset": 50, // 2541
+			"mtxmgt_source": 1, // 2546
+			"mtxmgt_pos_string": "rs:abilities:meleeFlurryAcid", // 4592
+			"mtxmgt_parent_id": 2539, // 4744
+			"mtxmgt_source_custom": "This cosmetic can be obtained from the Marketplace.", // 4751 chisel:cosmetic_unlock_hint
+			"mtxmgt_preview_default_y_angle": 150 // 8546
+		},
+		"id": 48921
+	},
+	{
+		"extra": {
+			"motw_banner_en": 36694, // 6381
+			"motw_banner_de": 36694, // 6385
+			"motw_banner_fr": 36694, // 6386
+			"motw_banner_pt": 36694, // 6387
+			"motw_title": "Araxyte Hunter", // 6391
+			"motw_onclick": 14 // 6392
+		},
+		"id": 48922
+	},
+	{
+		"extra": {
+			"motw_banner_en": 36695, // 6381
+			"motw_banner_de": 36695, // 6385
+			"motw_banner_fr": 36695, // 6386
+			"motw_banner_pt": 36695, // 6387
+			"motw_title": "Skillpet Appearances", // 6391
+			"motw_onclick": 14 // 6392
+		},
+		"id": 48923
 	},
 	{
 		"extra": {
@@ -458312,7 +458640,8 @@
 			"withdraw_date": 8775, // 4743 chisel:available_till
 			"mtxmgt_parent_id": 1782, // 4744
 			"mtxmgt_pet_info": 49376, // 8226
-			"mtx_front_end_confirm_pet_zoom": 250 // 8666
+			"mtx_front_end_confirm_pet_zoom": 250, // 8666
+			"mtxmgt_interface_positioning": 20223 // 9254
 		},
 		"id": 49375
 	},
@@ -460285,7 +460614,8 @@
 			"mtxmgt_parent_id": 1791, // 4744
 			"mtxmgt_source_custom": "This cosmetic can be obtained from the Marketplace, or by purchasing from other players.", // 4751 chisel:cosmetic_unlock_hint
 			"original_release_date": 8044, // 6628
-			"mtxmgt_preview_default_y_angle": 150 // 8546
+			"mtxmgt_preview_default_y_angle": 150, // 8546
+			"mtxmgt_interface_positioning": 20582 // 9254
 		},
 		"id": 49528
 	},
@@ -492598,6 +492928,7 @@
 	{
 		"extra": {
 			"mtxmgt_category": 4, // 2531 chisel:solomons_category
+			"mtxmgt_subcat": 8, // 2532 chisel:SGS_sub_group
 			"mtxmgt_name": "Frozen Loot Beam", // 2533 chisel:SGS_name
 			"mtxmgt_preview_spotanim": 36933, // 2536
 			"mtxmgt_preview_spotanim_model": 137235, // 2537
@@ -492610,6 +492941,7 @@
 	{
 		"extra": {
 			"mtxmgt_category": 4, // 2531 chisel:solomons_category
+			"mtxmgt_subcat": 8, // 2532 chisel:SGS_sub_group
 			"mtxmgt_name": "Warped Loot Beam", // 2533 chisel:SGS_name
 			"mtxmgt_preview_spotanim": 36933, // 2536
 			"mtxmgt_preview_spotanim_model": 137239, // 2537
@@ -496302,6 +496634,7 @@
 	{
 		"extra": {
 			"mtxmgt_category": 4, // 2531 chisel:solomons_category
+			"mtxmgt_subcat": 8, // 2532 chisel:SGS_sub_group
 			"mtxmgt_name": "Mariner Lootbeam", // 2533 chisel:SGS_name
 			"mtxmgt_preview_spotanim": 36933, // 2536
 			"mtxmgt_preview_spotanim_model": 137989, // 2537
@@ -496314,6 +496647,7 @@
 	{
 		"extra": {
 			"mtxmgt_category": 4, // 2531 chisel:solomons_category
+			"mtxmgt_subcat": 8, // 2532 chisel:SGS_sub_group
 			"mtxmgt_name": "Corsair Lootbeam", // 2533 chisel:SGS_name
 			"mtxmgt_preview_spotanim": 36933, // 2536
 			"mtxmgt_preview_spotanim_model": 137991, // 2537
@@ -508147,7 +508481,7 @@
 	{
 		"extra": {
 			"mtxmgt_category": 7, // 2531 chisel:solomons_category
-			"mtxmgt_name": "Arcane bookcase", // 2533 chisel:SGS_name
+			"mtxmgt_name": "Arcane bookcase (4 variants)", // 2533 chisel:SGS_name
 			"mtxmgt_parent_id": 2526, // 4744
 			"mtxmgt_interface_positioning": 20474, // 9254
 			"league_locality": 20525 // 9457

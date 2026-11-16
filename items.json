@@ -2595911,7 +2595911,7 @@
 		],
 		"rotation": [
 			null,
-			42,
+			null,
 			314
 		],
 		"stackableSometimes": true,
@@ -2599131,6 +2599131,546 @@
 			null
 		],
 		"id": 64514,
+		"rotation": [
+			null,
+			138,
+			1863
+		],
+		"stackableSometimes": true,
+		"zoom": 4916
+	},
+	{
+		"baseModel": 121926,
+		"extra": {
+			"mtxmgt_category": 2, // 2531 chisel:solomons_category
+			"mtxmgt_item_struct": 48909 // 4414 chisel:outfit_info_vbId
+		},
+		"femaleHeads": [
+			71728,
+			141083
+		],
+		"femaleModels": [
+			71727,
+			141082,
+			null
+		],
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64515,
+		"maleHeads": [
+			71734,
+			141089
+		],
+		"maleModels": [
+			71733,
+			141088,
+			null
+		],
+		"name": "Araxyte Hunter Helmet",
+		"notTradeable": true,
+		"stackableSometimes": true,
+		"wearPos": [
+			0,
+			8,
+			null
+		]
+	},
+	{
+		"baseModel": 121926,
+		"extra": {
+			"mtxmgt_category": 2, // 2531 chisel:solomons_category
+			"mtxmgt_item_struct": 48910 // 4414 chisel:outfit_info_vbId
+		},
+		"femaleModels": [
+			71730,
+			null,
+			null
+		],
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64516,
+		"maleModels": [
+			71736,
+			null,
+			null
+		],
+		"name": "Araxyte Hunter Torso",
+		"notTradeable": true,
+		"stackableSometimes": true,
+		"wearPos": [
+			4,
+			6,
+			null
+		]
+	},
+	{
+		"baseModel": 121926,
+		"extra": {
+			"mtxmgt_category": 2, // 2531 chisel:solomons_category
+			"mtxmgt_item_struct": 48911 // 4414 chisel:outfit_info_vbId
+		},
+		"femaleModels": [
+			71729,
+			null,
+			null
+		],
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64517,
+		"maleModels": [
+			71735,
+			null,
+			null
+		],
+		"name": "Araxyte Hunter Legs",
+		"notTradeable": true,
+		"stackableSometimes": true,
+		"wearPos": [
+			7,
+			null,
+			null
+		]
+	},
+	{
+		"baseModel": 121926,
+		"extra": {
+			"mtxmgt_category": 2, // 2531 chisel:solomons_category
+			"mtxmgt_item_struct": 48912 // 4414 chisel:outfit_info_vbId
+		},
+		"femaleModels": [
+			71726,
+			null,
+			null
+		],
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64518,
+		"maleModels": [
+			71731,
+			null,
+			null
+		],
+		"name": "Araxyte Hunter Boots",
+		"notTradeable": true,
+		"stackableSometimes": true,
+		"wearPos": [
+			10,
+			null,
+			null
+		]
+	},
+	{
+		"baseModel": 121926,
+		"extra": {
+			"mtxmgt_category": 2, // 2531 chisel:solomons_category
+			"mtxmgt_item_struct": 48913 // 4414 chisel:outfit_info_vbId
+		},
+		"femaleModels": [
+			71732,
+			null,
+			null
+		],
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64519,
+		"maleModels": [
+			71732,
+			null,
+			null
+		],
+		"name": "Araxyte Hunter Gloves",
+		"notTradeable": true,
+		"stackableSometimes": true,
+		"wearPos": [
+			9,
+			null,
+			null
+		]
+	},
+	{
+		"baseModel": 121926,
+		"extra": {
+			"destroyondrop": 1, // 31 chisel:death_flag_2
+			"no_alchemy": 1, // 689 chisel:is_crystal_mattock
+			"mtxmgt_category": 2, // 2531 chisel:solomons_category
+			"mtxmgt_item_struct": 48914 // 4414 chisel:outfit_info_vbId
+		},
+		"femaleModels": [
+			8396,
+			8396,
+			71758
+		],
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64520,
+		"maleModels": [
+			8396,
+			8396,
+			71758
+		],
+		"name": "Noxious Trail",
+		"notTradeable": true,
+		"stackableSometimes": true,
+		"wearPos": [
+			14,
+			null,
+			null
+		]
+	},
+	{
+		"baseModel": 121926,
+		"category": 3457,
+		"extra": {
+			"mtxmgt_item_struct": 48914 // 4414 chisel:outfit_info_vbId
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64521,
+		"name": "Noxious Trail",
+		"notTradeable": true,
+		"stackableSometimes": true
+	},
+	{
+		"baseModel": 0,
+		"bindLink": 64521,
+		"bindTemplate": 20930,
+		"id": 64522,
+		"stackableSometimes": true
+	},
+	{
+		"baseModel": 121926,
+		"category": 3457,
+		"extra": {
+			"mtxmgt_item_struct": 47982 // 4414 chisel:outfit_info_vbId
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64523,
+		"name": "Abyssal Crabbe",
+		"notTradeable": true,
+		"stackableSometimes": true
+	},
+	{
+		"baseModel": 0,
+		"bindLink": 64523,
+		"bindTemplate": 20930,
+		"id": 64524,
+		"stackableSometimes": true
+	},
+	{
+		"baseModel": 121926,
+		"category": 3457,
+		"extra": {
+			"mtxmgt_item_struct": 47980 // 4414 chisel:outfit_info_vbId
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64525,
+		"name": "Infernal Archie",
+		"notTradeable": true,
+		"stackableSometimes": true
+	},
+	{
+		"baseModel": 0,
+		"bindLink": 64525,
+		"bindTemplate": 20930,
+		"id": 64526,
+		"stackableSometimes": true
+	},
+	{
+		"baseModel": 121926,
+		"category": 3457,
+		"extra": {
+			"mtxmgt_item_struct": 47981 // 4414 chisel:outfit_info_vbId
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64527,
+		"name": "Beekeeper Brains",
+		"notTradeable": true,
+		"stackableSometimes": true
+	},
+	{
+		"baseModel": 0,
+		"bindLink": 64527,
+		"bindTemplate": 20930,
+		"id": 64528,
+		"stackableSometimes": true
+	},
+	{
+		"baseModel": 121926,
+		"category": 3457,
+		"extra": {
+			"mtxmgt_item_struct": 48916 // 4414 chisel:outfit_info_vbId
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64529,
+		"name": "Beekeeper Brains",
+		"notTradeable": true,
+		"stackableSometimes": true
+	},
+	{
+		"baseModel": 0,
+		"bindLink": 64529,
+		"bindTemplate": 20930,
+		"id": 64530,
+		"stackableSometimes": true
+	},
+	{
+		"baseModel": 121926,
+		"category": 3457,
+		"extra": {
+			"mtxmgt_item_struct": 47983 // 4414 chisel:outfit_info_vbId
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64531,
+		"name": "Araxyte Hunter Outfit",
+		"notTradeable": true,
+		"stackableSometimes": true
+	},
+	{
+		"baseModel": 0,
+		"bindLink": 64531,
+		"bindTemplate": 20930,
+		"id": 64532,
+		"stackableSometimes": true
+	},
+	{
+		"baseModel": 121926,
+		"category": 3457,
+		"extra": {
+			"mtxmgt_item_struct": 48917 // 4414 chisel:outfit_info_vbId
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64533,
+		"name": "Noxious Pulverise",
+		"notTradeable": true,
+		"stackableSometimes": true
+	},
+	{
+		"baseModel": 0,
+		"bindLink": 64533,
+		"bindTemplate": 20930,
+		"id": 64534,
+		"stackableSometimes": true
+	},
+	{
+		"baseModel": 121926,
+		"category": 3457,
+		"extra": {
+			"mtxmgt_item_struct": 48918 // 4414 chisel:outfit_info_vbId
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64535,
+		"name": "Noxious Overpower",
+		"notTradeable": true,
+		"stackableSometimes": true
+	},
+	{
+		"baseModel": 0,
+		"bindLink": 64535,
+		"bindTemplate": 20930,
+		"id": 64536,
+		"stackableSometimes": true
+	},
+	{
+		"baseModel": 121926,
+		"category": 3457,
+		"extra": {
+			"mtxmgt_item_struct": 48919 // 4414 chisel:outfit_info_vbId
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64537,
+		"name": "Noxious Meteor Strike",
+		"notTradeable": true,
+		"stackableSometimes": true
+	},
+	{
+		"baseModel": 0,
+		"bindLink": 64537,
+		"bindTemplate": 20930,
+		"id": 64538,
+		"stackableSometimes": true
+	},
+	{
+		"baseModel": 121926,
+		"category": 3457,
+		"extra": {
+			"mtxmgt_item_struct": 48920 // 4414 chisel:outfit_info_vbId
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64539,
+		"name": "Noxious Assault",
+		"notTradeable": true,
+		"stackableSometimes": true
+	},
+	{
+		"baseModel": 0,
+		"bindLink": 64539,
+		"bindTemplate": 20930,
+		"id": 64540,
+		"stackableSometimes": true
+	},
+	{
+		"baseModel": 121926,
+		"category": 3457,
+		"extra": {
+			"mtxmgt_item_struct": 48921 // 4414 chisel:outfit_info_vbId
+		},
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64541,
+		"name": "Noxious Flurry",
+		"notTradeable": true,
+		"stackableSometimes": true
+	},
+	{
+		"baseModel": 0,
+		"bindLink": 64541,
+		"bindTemplate": 20930,
+		"id": 64542,
+		"stackableSometimes": true
+	},
+	{
+		"baseModel": 71780,
+		"dummyItem": 2,
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64543,
+		"rotation": [
+			null,
+			138,
+			1863
+		],
+		"stackableSometimes": true,
+		"zoom": 4916
+	},
+	{
+		"baseModel": 71954,
+		"dummyItem": 2,
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64544,
+		"rotation": [
+			null,
+			138,
+			1863
+		],
+		"stackableSometimes": true,
+		"zoom": 4916
+	},
+	{
+		"baseModel": 71955,
+		"dummyItem": 2,
+		"ground_actions_cursor": [
+			null,
+			null,
+			45,
+			null,
+			null
+		],
+		"id": 64545,
 		"rotation": [
 			null,
 			138,

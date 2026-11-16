@@ -16,7 +16,7 @@ function script20633(int0: number): void {
             int1 = (int1 + script20862(int1));
             break;
         }
-        case 10: {
+        case 11: {
             switch (MAP_LANG()) {
                 case 1: {
                     int6 = 36619;
@@ -77,9 +77,11 @@ function script20633(int0: number): void {
                 int8 = script20642(int2, 0);
                 int1 = script20637(int1, int8, int2);
                 if ((int8 > 0)) {
-                    script20641(script20651(int0), int5);
+                    stack(int0);
+                    script20641(script20651(1), int5);
                 } else if (((int7 + int8) == 0)) {
-                    script20641(script20651(int0), int5);
+                    stack(int0);
+                    script20641(script20651(1), int5);
                     script2995(98172930, IF_GETNEXTSUBID(comp(1498, 2)), 11, int1, 0, 0, 22, 20, 1, 0, 2099, "No items to display.");  // marketplace_store:items_holder
                 } else {
                     int1 = int5;

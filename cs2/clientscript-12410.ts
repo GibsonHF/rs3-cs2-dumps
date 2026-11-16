@@ -3,11 +3,11 @@ function script12410(int0: number): void {
     CC_SETOPBASE(`${script4033(int0)}${OC_NAME(int0)}`);
     switch (int0) {
         case 29492: {
-            script2410("Withdraw", -1, "Redeem", -1, "Deposit", -1, "", -1, "", -1, item_getparam(int0, 5410), item_getparam(int0, 5411), item_getparam(int0, 5412), OC_NAME(int0), 1);
+            script2410("Withdraw", -1, "Redeem", -1, "Deposit", -1, "Buy", -1, "", -1, item_getparam(int0, 5410), item_getparam(int0, 5411), item_getparam(int0, 5412), OC_NAME(int0), 1);
             break;
         }
         case 29494: {
-            script2410("Redeem", -1, "Convert", -1, "Withdraw", -1, "Deposit", -1, "", -1, item_getparam(int0, 5410), item_getparam(int0, 5411), item_getparam(int0, 5412), OC_NAME(int0), 1);
+            script2410("Redeem", -1, "Convert", -1, "Withdraw", -1, "Deposit", -1, "Buy", -1, item_getparam(int0, 5410), item_getparam(int0, 5411), item_getparam(int0, 5412), OC_NAME(int0), 1);
             break;
         }
         case 60174: {

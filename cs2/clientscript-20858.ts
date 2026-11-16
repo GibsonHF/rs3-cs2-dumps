@@ -6,7 +6,9 @@ function script20858(): void {
     };
     varclient_8472 = 0;
     varclient_8473 = script20847();
-    varclient_8376 = MAX(0, varclient_8376);
+    if ((varclient_8376 == -1)) {
+        varclient_8376 = script20865();
+    };
     if ((script20473(varclient_8376) == 0)) {
         varclient_8376 = 0;
     };

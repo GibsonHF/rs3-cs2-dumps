@@ -2074832,7 +2074832,7 @@
 			"Move"
 		],
 		"active": true,
-		"blockwalk": false,
+		"blockrange": false,
 		"extra": {
 			"construction_house_rename_op_flag": 1 // 1993
 		},
@@ -2076246,7 +2076246,7 @@
 				]
 			}
 		],
-		"name": "Arcane bookcase",
+		"name": "Arcane bookcase (1)",
 		"occludes_2": false,
 		"vfx_count": 6
 	},
@@ -2076378,6 +2076378,159 @@
 			}
 		],
 		"occludes_2": false
+	},
+	{
+		"active": true,
+		"id": 73763,
+		"length": 2,
+		"morphs_1": {
+			"ids": [
+				87989,
+				73764,
+				87989
+			],
+			"varbit": 14788,
+			"varp": -1
+		},
+		"width": 2
+	},
+	{
+		"actions": [
+			"Donate Items",
+			"Open Bank",
+			"View Donation List",
+			null,
+			null
+		],
+		"active": true,
+		"ambient": 25,
+		"contrast": 15,
+		"hardshadow": false,
+		"id": 73764,
+		"length": 2,
+		"model": false,
+		"models": [
+			{
+				"type": 10,
+				"values": [
+					91269
+				]
+			}
+		],
+		"name": "Well of Restoration",
+		"occludes_2": false,
+		"width": 2
+	},
+	{
+		"action_cursors": [
+			50,
+			0,
+			0,
+			0,
+			0,
+			0
+		],
+		"actions": [
+			"Read",
+			null,
+			null,
+			null,
+			"Move"
+		],
+		"active": true,
+		"animatedtexture": true,
+		"blockrange": false,
+		"blockwalk": true,
+		"extra": {
+			"construction_house_rename_op_flag": 1 // 1993
+		},
+		"id": 73765,
+		"model": false,
+		"models": [
+			{
+				"type": 10,
+				"values": [
+					71780
+				]
+			}
+		],
+		"name": "Arcane bookcase (2)",
+		"occludes_2": false,
+		"vfx_count": 2
+	},
+	{
+		"action_cursors": [
+			50,
+			0,
+			0,
+			0,
+			0,
+			0
+		],
+		"actions": [
+			"Read",
+			null,
+			null,
+			null,
+			"Move"
+		],
+		"active": true,
+		"animatedtexture": true,
+		"blockrange": false,
+		"blockwalk": true,
+		"extra": {
+			"construction_house_rename_op_flag": 1 // 1993
+		},
+		"id": 73766,
+		"model": false,
+		"models": [
+			{
+				"type": 10,
+				"values": [
+					71954
+				]
+			}
+		],
+		"name": "Arcane bookcase (3)",
+		"occludes_2": false,
+		"vfx_count": 4
+	},
+	{
+		"action_cursors": [
+			50,
+			0,
+			0,
+			0,
+			0,
+			0
+		],
+		"actions": [
+			"Read",
+			null,
+			null,
+			null,
+			"Move"
+		],
+		"active": true,
+		"animatedtexture": true,
+		"blockrange": false,
+		"blockwalk": true,
+		"extra": {
+			"construction_house_rename_op_flag": 1 // 1993
+		},
+		"id": 73767,
+		"model": false,
+		"models": [
+			{
+				"type": 10,
+				"values": [
+					71955
+				]
+			}
+		],
+		"name": "Arcane bookcase (4)",
+		"occludes_2": false,
+		"vfx_count": 1
 	},
 	{
 		"active": false,

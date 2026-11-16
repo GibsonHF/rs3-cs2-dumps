@@ -53924,6 +53924,14 @@
     "id": "13759 [mtx_pets_menagerie_12]"
   },
   {
+    "domain": "PLAYER",
+    "id": "13760 [antisanguine]"
+  },
+  {
+    "domain": "PLAYER",
+    "id": "13761 [combatv2_cooldown_constitution_vampyre_slayer_start]"
+  },
+  {
     "domain": "NPC",
     "id": "0"
   },
@@ -89110,6 +89118,10 @@
   {
     "domain": "CLIENT",
     "id": "8553 [combatv2_cooldown_necromancy_invoke_arisen_flesh_end_client]"
+  },
+  {
+    "domain": "CLIENT",
+    "id": "8554 [combatv2_buff_necromancy_invoke_arisen_flesh_end_client]"
   },
   {
     "domain": "WORLD",
@@ -133622,6 +133634,14 @@
   {
     "domain": "GLOBAL",
     "id": "647"
+  },
+  {
+    "domain": "GLOBAL",
+    "id": "648"
+  },
+  {
+    "domain": "GLOBAL",
+    "id": "649"
   },
   {
     "domain": "PLAYER_GROUP",

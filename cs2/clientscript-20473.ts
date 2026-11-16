@@ -4,13 +4,13 @@ function script20473(int0: number): number {
         case 1: {
             return script20848();
         }
-        case 10: {
+        case 11: {
             if ((script15113() > 9020)) {
                 return 0;
             };
             break;
         }
-        case 9: {
+        case 10: {
             if (((PLATFORMTYPE() == 3) || (PLATFORMTYPE() == 2))) {
                 return 0;
             };
@@ -18,6 +18,12 @@ function script20473(int0: number): number {
                 return 0;
             };
             if ((MAP_MEMBERS() == 0)) {
+                return 0;
+            };
+            break;
+        }
+        case 9: {
+            if (((PLATFORMTYPE() == 3) || (PLATFORMTYPE() == 2))) {
                 return 0;
             };
             break;

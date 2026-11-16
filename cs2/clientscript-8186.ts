@@ -93,7 +93,9 @@ function script8186(int0: number): void {
                         int27 = struct_getparam(int2, 3613);
                         int19 = script10495(28);
                         int4 = 18;
-                        string0 = struct_getparam(int8, 3455);
+                        stack(int8);
+                        script21192();
+                        string0 = [];
                         string1 = "";
                         if ((int36 == 0)) {
                             int26 = struct_getparam(int2, 6117);
@@ -165,7 +167,9 @@ function script8186(int0: number): void {
                             int27 = struct_getparam(int2, 3613);
                             int19 = script10495(28);
                             int4 = 18;
-                            string0 = struct_getparam(int8, 3455);
+                            stack(int8);
+                            script21192();
+                            string0 = [];
                             string1 = "";
                             if ((int36 == 0)) {
                                 int26 = struct_getparam(int2, 6117);
@@ -284,7 +288,9 @@ function script8186(int0: number): void {
                             int27 = struct_getparam(int2, 3613);
                             int19 = script10495(28);
                             int4 = 18;
-                            string0 = struct_getparam(int8, 3455);
+                            stack(int8);
+                            script21192();
+                            string0 = [];
                             string1 = "";
                             if ((int36 == 0)) {
                                 int26 = struct_getparam(int2, 6117);
@@ -356,7 +362,9 @@ function script8186(int0: number): void {
                                 int27 = struct_getparam(int2, 3613);
                                 int19 = script10495(28);
                                 int4 = 18;
-                                string0 = struct_getparam(int8, 3455);
+                                stack(int8);
+                                script21192();
+                                string0 = [];
                                 string1 = "";
                                 if ((int36 == 0)) {
                                     int26 = struct_getparam(int2, 6117);

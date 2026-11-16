@@ -62,7 +62,22 @@ function script95(int0: number, int1: number, int2: number): void {
             } else {
                 CC_SETOBJECT_NONUM(int13, 1);
             };
-            CC_SETONMOUSEREPEAT(callback(script9564, int13, -2147483645, CC_GETID()));
+            switch (int0) {
+                case 5944: {
+                    stack(14193);
+                    stack(int13);
+                    stack(script18942());
+                    stack(int13);
+                    stack(-2147483645);
+                    stack(CC_GETID());
+                    CC_SETONMOUSEREPEAT("siii");
+                    break;
+                }
+                default: {
+                    CC_SETONMOUSEREPEAT(callback(script9564, int13, -2147483645, CC_GETID()));
+                    break;
+                }
+            };
             CC_CREATE[1](int5, 4, int10);
             CC_SETSIZE[1](40, 36, 0, 0);
             CC_SETPOSITION[1](int11, int12, 0, 0);

@@ -159249,8 +159249,11 @@
 			3641,
 			1327,
 			1280,
+			5122,
 			1263,
+			5123,
 			3731,
+			5120,
 			3703,
 			3705,
 			1331,
@@ -159270,7 +159273,7 @@
 			1295
 		],
 		"subreq_count": [
-			22
+			25
 		]
 	},
 	{
@@ -159299,8 +159302,10 @@
 			3774,
 			3791,
 			1648,
+			4872,
 			1715,
 			3787,
+			5121,
 			1382,
 			3931,
 			1622,
@@ -159330,6 +159335,7 @@
 			1309,
 			1377,
 			3714,
+			5124,
 			3728,
 			3772,
 			1383,
@@ -159348,7 +159354,7 @@
 			1667
 		],
 		"subreq_count": [
-			61
+			64
 		]
 	},
 	{
@@ -206571,6 +206577,126 @@
 		"subcategory": 4747,
 		"subreq_count": [
 			1
+		]
+	},
+	{
+		"category": 4817,
+		"description": "Defeat Flesh-hatcher Mhekarnahz.",
+		"id": 5120,
+		"name": "Flesh-hatcher Mhekarnahz Novice Speed Killer",
+		"op_2": [
+			0
+		],
+		"op_26": 13980,
+		"points": 5,
+		"spriteID": 34763,
+		"subcategory": 5678,
+		"subreq_count": [
+			1
+		],
+		"varbit_reqs": [
+			{
+				"description": "",
+				"unk_byte": 0,
+				"value": 1,
+				"varbit": 14812
+			}
+		]
+	},
+	{
+		"category": 4817,
+		"description": "Defeat Flesh-hatcher Mhekarnahz.",
+		"id": 5121,
+		"name": "Flesh-hatcher Mhekarnahz Beginner Speed Killer",
+		"op_2": [
+			0
+		],
+		"op_26": 14042,
+		"points": 10,
+		"spriteID": 34764,
+		"subcategory": 5678,
+		"subreq_count": [
+			1
+		],
+		"varbit_reqs": [
+			{
+				"description": "",
+				"unk_byte": 0,
+				"value": 1,
+				"varbit": 14813
+			}
+		]
+	},
+	{
+		"category": 4817,
+		"description": "Defeat Flesh-hatcher Mhekarnahz without being hit by their 'Warped Strike', and 'Warped Shape' attacks.",
+		"id": 5122,
+		"name": "Don't Blink",
+		"op_2": [
+			0
+		],
+		"op_26": 13980,
+		"points": 5,
+		"spriteID": 34763,
+		"subcategory": 5678,
+		"subreq_count": [
+			1
+		],
+		"varbit_reqs": [
+			{
+				"description": "",
+				"unk_byte": 0,
+				"value": 1,
+				"varbit": 14814
+			}
+		]
+	},
+	{
+		"category": 4817,
+		"description": "Defeat Flesh-hatcher Mhekarnahz without being stunned by their 'Warped Strike' attack.",
+		"id": 5123,
+		"name": "Eyes On The Prize",
+		"op_2": [
+			0
+		],
+		"op_26": 13980,
+		"points": 5,
+		"spriteID": 34763,
+		"subcategory": 5678,
+		"subreq_count": [
+			1
+		],
+		"varbit_reqs": [
+			{
+				"description": "",
+				"unk_byte": 0,
+				"value": 1,
+				"varbit": 14815
+			}
+		]
+	},
+	{
+		"category": 4817,
+		"description": "Defeat Flesh-hatcher Mhekarnahz without allowing any of your Warped flesh sacs to hatch.",
+		"id": 5124,
+		"name": "Nipped in the Bud",
+		"op_2": [
+			0
+		],
+		"op_26": 14042,
+		"points": 10,
+		"spriteID": 34764,
+		"subcategory": 5678,
+		"subreq_count": [
+			1
+		],
+		"varbit_reqs": [
+			{
+				"description": "",
+				"unk_byte": 0,
+				"value": 1,
+				"varbit": 14816
+			}
 		]
 	}
 ]

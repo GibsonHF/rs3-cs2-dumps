@@ -1,6 +1,6 @@
 //
 function script21185(): void {
-    if (((varclient_8502 + 250) > CLIENTCLOCK())) {
+    if (((varclient_8502 + 750) > CLIENTCLOCK())) {
         return;
     };
     IF_SETONTIMER(callback(), comp(1586, 2));  // plugin_hub_parent_manage:main

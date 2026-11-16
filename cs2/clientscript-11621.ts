@@ -134,7 +134,12 @@ function script11621(int0: number, int1: number, int2: number, int3: number, int
         case 53606:
         case 53607:
         case 53608:
-        case 53609: {
+        case 53609:
+        case 48917:
+        case 48918:
+        case 48919:
+        case 48920:
+        case 48921: {
             IF_SETONTIMER(callback(script18277, int0, int1, -1, int5, int4, int6, (SEQLENGTH(struct_getparam(int0, 2535)) + 1), int7), int4);
             break;
         }

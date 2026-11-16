@@ -17,7 +17,8 @@ function script20631(int0: number): void {
         [int3, string0] = dbrow_getfield(17540 as dbrow, 1421312, int2);
         if ((script20473(int3) == 1)) {
             if ((int0 == 1)) {
-                script20857(98172929, int3, script20651(int3), int4);
+                stack(98172929);
+                script20857(int3, int3, script20651(0), int4);
                 CC_SETONOP(callback(script20629, int3));
                 script20632(int3);
                 int4 = (int4 + 28);
@@ -35,7 +36,7 @@ function script20631(int0: number): void {
         int4 = (int4 + 4);
         script7223(98172929, IF_GETNEXTSUBID(comp(1498, 1)), 0, int4, 0, 0, 0, 0, 1, 0, script10495(7));  // marketplace_store:categories_layer
         int4 = (int4 + 4);
-        script7876(98172929, 1000, 0, int4, 0, 0, 0, 24, 1, 0, 2550, "Sale Only", 1, 1, varclient_8472);
+        script7876(98172929, 1000, 0, int4, 0, 0, 0, 24, 1, 0, 2550, "<sprite=36705> Sale Only", 1, 1, varclient_8472);
         CC_SETONBUTTONCLICK(callback(script20859));
     };
     return;

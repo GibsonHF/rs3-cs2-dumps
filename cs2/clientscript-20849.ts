@@ -13,6 +13,26 @@ function script20849(int0: number): [number, number] {
                 int2 = script584();
                 break;
             }
+            case 20556: {
+                int2 = script734(varbitplayer_33634);
+                break;
+            }
+            case 20557: {
+                int2 = script734(varbitplayer_46460);
+                break;
+            }
+            case 20558: {
+                int2 = script734(varbitplayer_33625);
+                break;
+            }
+            case 20559: {
+                if ((((varbitplayer_33634 == 1) || (varbitplayer_46460 == 1)) || (varbitplayer_33625 == 1))) {
+                    int2 = 1;
+                } else {
+                    int2 = 0;
+                };
+                break;
+            }
         };
     };
     return [int1, int2];

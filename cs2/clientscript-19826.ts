@@ -661,6 +661,14 @@ function script19826(int0: number, string0: string): string {
             string0 = `Defeat Amascut, the Devourer at ${inttostring(2000, 10)}% or higher enrage while completing the listed achievements.`;
             break;
         }
+        case 5120: {
+            string0 = `Defeat Flesh-hatcher Mhekarnahz in less than ${script19827(130)}.`;
+            break;
+        }
+        case 5121: {
+            string0 = `Defeat Flesh-hatcher Mhekarnahz in less than ${script19827(90)}.`;
+            break;
+        }
     };
     return string0;
 }

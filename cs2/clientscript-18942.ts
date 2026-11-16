@@ -1,7 +1,6 @@
 //
 function script18942(): number {
-    if ((MAP_MEMBERS() == 0)) {
-        return 400;
-    };
-    return 2000;
+    var int1 = enum_getvalue(33, 0, 5943 as cs2enum, int0);
+    var string0 = `Donate value: ${TOSTRING_LOCALISED(int1, 1)} coins`;
+    return string0;
 }

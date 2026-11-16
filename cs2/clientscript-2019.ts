@@ -113,6 +113,13 @@ function script2019(int0: number): [string, string, string, string, string] {
             string3 = "Cancel";
             break;
         }
+        case 16: {
+            string0 = "Update plugin?";
+            string1 = "Updating this plugin may cause your game client to crash. If this happens, you can remove and reinstall the plugin to safely update it to the latest version. Your plugin settings will be kept.<br><br>Do you want to continue with the update?";
+            string2 = "Continue";
+            string3 = "Cancel";
+            break;
+        }
     };
     return [string0, string1, string2, string3, string4];
 }

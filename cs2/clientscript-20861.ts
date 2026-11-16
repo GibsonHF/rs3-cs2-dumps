@@ -25,7 +25,8 @@ function script20861(int0: number, int1: number): [number, number] {
                 };
                 int1 = script20637(int1, int7, int6);
                 if ((int7 > 0)) {
-                    script20641(script20651(int4), int9);
+                    stack(int4);
+                    script20641(script20651(1), int9);
                     int8 = (int8 + int7);
                 } else {
                     int1 = int9;

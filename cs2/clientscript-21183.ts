@@ -23,7 +23,7 @@ function script21183(): void {
         IF_SETONTIMER("iiii", 103940097);
         return;
     };
-    if (((varclient_8502 + 50) > CLIENTCLOCK())) {
+    if ((((varclient_8554 + 25) > CLIENTCLOCK()) || ((varclient_8502 + 75) > CLIENTCLOCK()))) {
         stack(21182);
         stack(int0);
         stack(int1);

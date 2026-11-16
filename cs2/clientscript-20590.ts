@@ -93,7 +93,7 @@ function script20590(int0: number, int1: number): void {
     CC_SETPOSITION(int11, ((int7 + (int3 / 2)) + MODULO(int3, 2)), 2, 0);
     if ((IF_FIND(comp(1491, 6)) == 1)) {  // marketplace_currency_banner:currency_buy_runecoins_button
         CC_SETHIDE(false);
-        string1 = "Purchase RuneCoins";
+        string1 = "Buy RuneCoins";
         CC_SETPOSITION(int11, int7, 2, 0);
         CC_SETSIZE(int3, int3, 0, 0);
         script14990(2, string1);
@@ -114,7 +114,7 @@ function script20590(int0: number, int1: number): void {
     CC_SETPOSITION(int13, ((int6 + (int2 / 2)) + MODULO(int2, 2)), 2, 0);
     if ((IF_FIND(comp(1491, 8)) == 1)) {  // marketplace_currency_banner:currency_buy_bonds_button
         CC_SETHIDE(false);
-        string1 = "Purchase Bonds";
+        string1 = "Buy Bonds";
         CC_SETPOSITION(int13, int6, 2, 0);
         CC_SETSIZE(int2, int2, 0, 0);
         script14990(2, string1);

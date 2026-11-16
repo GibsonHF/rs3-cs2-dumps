@@ -1761,6 +1761,21 @@ function script6489(int0: number): number {
             return varbitplayer_62286;
         }
         case 53609: {
+            return varbitplayer_62287;
+        }
+        case 48917: {
+            return varbitplayer_14804;
+        }
+        case 48918: {
+            return varbitplayer_14805;
+        }
+        case 48919: {
+            return varbitplayer_14806;
+        }
+        case 48920: {
+            return varbitplayer_14807;
+        }
+        case 48921: {
             break;
         }
         default: {
@@ -1802,5 +1817,5 @@ function script6489(int0: number): number {
             return 0;
         }
     };
-    return varbitplayer_62287;
+    return varbitplayer_14808;
 }

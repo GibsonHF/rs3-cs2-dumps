@@ -203,6 +203,15 @@ function script7149(int0: number): number {
             };
             return 1;
         }
+        case 20559: {
+            if ((varbitplayer_14803 == 0)) {
+                if ((((varbitplayer_14793 == 1) || (varbitplayer_14795 == 1)) || (varbitplayer_14794 == 1))) {
+                    return 0;
+                };
+                return 1;
+            };
+            break;
+        }
     };
     return 1;
 }

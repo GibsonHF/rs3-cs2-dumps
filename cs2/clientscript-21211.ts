@@ -27,17 +27,21 @@ function script21211(): void {
         };
         return;
     };
+    var string2 = "To update the plugin to the latest version, remove and reinstall the plugin. Your plugin settings will be kept.";
     stack(int0);
     stack(int5);
     script21130();
     if ((CC_FINDBYCATEGORY() == 1)) {
         CC_SETHIDE(false);
         CC_SETTEXT(`Update available: ${string1}`);
+        if ((varbitplayer_14817 == 1)) {
+            CC_SETONMOUSEREPEAT(callback(script8799, string2, -2147483645, -2147483643));
+        };
     };
     stack(int0);
     stack(int6);
     script21130();
-    if ((CC_FINDBYCATEGORY() == 1)) {
+    if (((CC_FINDBYCATEGORY() == 1) && (varbitplayer_14817 == 0))) {
         CC_SETHIDE(false);
     };
     if ((CC_FIND(int0, int2) == 1)) {

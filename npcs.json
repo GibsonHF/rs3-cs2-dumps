@@ -555093,6 +555093,68 @@
 		"respawnDirection": 2
 	},
 	{
+		"actions": [
+			"Interact",
+			null,
+			"Send home",
+			null,
+			null
+		],
+		"animation_group": 3823,
+		"boundSize": 1,
+		"color_replacements": {
+			"37931": 50337,
+			"37938": 49323,
+			"960": 55232
+		},
+		"combat": 0,
+		"drawMapDot": false,
+		"extra": {
+			"follower_obj": 38105, // 75 chisel:pet_item_id
+			"mtx_no_recolour": 1, // 477 chisel:pet_category
+			"mtxmgt_pet_struct": 34119, // 5051 chisel:pet_varbit_reference
+			"mtxmgt_skill_pet": 1 // 5898 chisel:is_skill_pet
+		},
+		"headModels": [
+			71706
+		],
+		"id": 15639,
+		"models": [
+			71703
+		],
+		"movementCapabilities": 3,
+		"name": "Crabbe",
+		"texture_replacements": {
+			"25370": 25368
+		}
+	},
+	{
+		"animation_group": 3823,
+		"boundSize": 1,
+		"color_replacements": {
+			"37931": 50337,
+			"37938": 49323,
+			"960": 55232
+		},
+		"combat": 0,
+		"drawMapDot": false,
+		"extra": {
+			"mtx_no_recolour": 1 // 477 chisel:pet_category
+		},
+		"headModels": [
+			71706
+		],
+		"id": 15640,
+		"models": [
+			71703
+		],
+		"movementCapabilities": 3,
+		"name": "Crabbe",
+		"texture_replacements": {
+			"25370": 25368
+		}
+	},
+	{
 		"alwaysontop": true,
 		"ambience": 20,
 		"animation_group": 2557,
@@ -555111,6 +555173,120 @@
 		],
 		"movementCapabilities": 1,
 		"turnspeed": 1024
+	},
+	{
+		"actions": [
+			"Interact",
+			null,
+			"Send home",
+			null,
+			null
+		],
+		"ambience": 16,
+		"animation_group": 4434,
+		"boundSize": 1,
+		"color_replacements": {
+			"3126": 657,
+			"37051": 49300,
+			"4160": 665,
+			"6213": 545
+		},
+		"combat": 0,
+		"drawMapDot": false,
+		"extra": {
+			"follower_obj": 50148, // 75 chisel:pet_item_id
+			"mtx_no_recolour": 1, // 477 chisel:pet_category
+			"mtxmgt_pet_struct": 36637, // 5051 chisel:pet_varbit_reference
+			"mtxmgt_skill_pet": 1 // 5898 chisel:is_skill_pet
+		},
+		"headModels": [
+			87160,
+			71724
+		],
+		"id": 15642,
+		"models": [
+			87124,
+			87125,
+			71723
+		],
+		"movementCapabilities": 3,
+		"name": "Archie",
+		"texture_replacements": {
+			"12048": 25372,
+			"12050": 25376
+		}
+	},
+	{
+		"ambience": 16,
+		"animation_group": 4434,
+		"boundSize": 1,
+		"combat": 0,
+		"drawMapDot": false,
+		"extra": {
+			"mtx_no_recolour": 1 // 477 chisel:pet_category
+		},
+		"headModels": [
+			87160,
+			71724
+		],
+		"id": 15643,
+		"models": [
+			87124,
+			87125,
+			71723
+		],
+		"movementCapabilities": 3,
+		"name": "Archie",
+		"texture_replacements": {
+			"12048": 25372,
+			"12050": 25376
+		}
+	},
+	{
+		"actions": [
+			"Interact",
+			null,
+			"Send home",
+			null,
+			null
+		],
+		"animation_group": 3822,
+		"boundSize": 1,
+		"combat": 0,
+		"drawMapDot": false,
+		"extra": {
+			"follower_obj": 38087, // 75 chisel:pet_item_id
+			"mtx_no_recolour": 1, // 477 chisel:pet_category
+			"mtxmgt_pet_struct": 34101, // 5051 chisel:pet_varbit_reference
+			"mtxmgt_skill_pet": 1 // 5898 chisel:is_skill_pet
+		},
+		"headModels": [
+			71722
+		],
+		"id": 15644,
+		"models": [
+			71720
+		],
+		"movementCapabilities": 3,
+		"name": "Brains"
+	},
+	{
+		"animation_group": 3822,
+		"boundSize": 1,
+		"combat": 0,
+		"drawMapDot": false,
+		"extra": {
+			"mtx_no_recolour": 1 // 477 chisel:pet_category
+		},
+		"headModels": [
+			71722
+		],
+		"id": 15645,
+		"models": [
+			71720
+		],
+		"movementCapabilities": 3,
+		"name": "Brains"
 	},
 	{
 		"action_cursors": [
@@ -710776,7 +710952,8 @@
 		"id": 20933,
 		"models": [
 			87124,
-			87125
+			87125,
+			71725
 		],
 		"movementCapabilities": 3,
 		"name": "Archie"
@@ -789025,11 +789202,11 @@
 			"mtxmgt_skill_pet": 1 // 5898 chisel:is_skill_pet
 		},
 		"headModels": [
-			141884
+			71714
 		],
 		"id": 23188,
 		"models": [
-			113988
+			71709
 		],
 		"movementCapabilities": 3,
 		"name": "Brains"
@@ -789044,11 +789221,11 @@
 			"mtxmgt_pet_struct": 34101 // 5051 chisel:pet_varbit_reference
 		},
 		"headModels": [
-			141884
+			71714
 		],
 		"id": 23189,
 		"models": [
-			113988
+			71709
 		],
 		"movementCapabilities": 3,
 		"name": "Brains"
@@ -789464,11 +789641,11 @@
 			"mtxmgt_skill_pet": 1 // 5898 chisel:is_skill_pet
 		},
 		"headModels": [
-			113978
+			71706
 		],
 		"id": 23206,
 		"models": [
-			113996
+			71703
 		],
 		"movementCapabilities": 3,
 		"name": "Crabbe"
@@ -789483,11 +789660,11 @@
 			"mtxmgt_pet_struct": 34119 // 5051 chisel:pet_varbit_reference
 		},
 		"headModels": [
-			113978
+			71706
 		],
 		"id": 23207,
 		"models": [
-			113996
+			71703
 		],
 		"movementCapabilities": 3,
 		"name": "Crabbe"
@@ -913457,7 +913634,8 @@
 		"id": 27008,
 		"models": [
 			87124,
-			87125
+			87125,
+			71725
 		],
 		"movementCapabilities": 3,
 		"name": "Archie"
@@ -998441,11 +998619,11 @@
 			"mtxmgt_skill_pet": 1 // 5898 chisel:is_skill_pet
 		},
 		"headModels": [
-			127001
+			71716
 		],
 		"id": 29502,
 		"models": [
-			113988,
+			71709,
 			126821
 		],
 		"movementCapabilities": 3,
@@ -998460,11 +998638,11 @@
 			"mtx_no_recolour": 1 // 477 chisel:pet_category
 		},
 		"headModels": [
-			127001
+			71716
 		],
 		"id": 29503,
 		"models": [
-			113988,
+			71709,
 			126821
 		],
 		"movementCapabilities": 3,
@@ -998889,11 +999067,11 @@
 			"mtxmgt_skill_pet": 1 // 5898 chisel:is_skill_pet
 		},
 		"headModels": [
-			127010
+			71707
 		],
 		"id": 29520,
 		"models": [
-			113996,
+			71703,
 			126834
 		],
 		"movementCapabilities": 3,
@@ -998908,11 +999086,11 @@
 			"mtx_no_recolour": 1 // 477 chisel:pet_category
 		},
 		"headModels": [
-			127010
+			71707
 		],
 		"id": 29521,
 		"models": [
-			113996,
+			71703,
 			126834
 		],
 		"movementCapabilities": 3,
@@ -999472,6 +999650,7 @@
 		"models": [
 			87124,
 			87125,
+			71725,
 			126806
 		],
 		"movementCapabilities": 3,
@@ -999493,6 +999672,7 @@
 		"models": [
 			87124,
 			87125,
+			71725,
 			126806
 		],
 		"movementCapabilities": 3,
@@ -1018706,11 +1018886,11 @@
 			"mtxmgt_skill_pet": 1 // 5898 chisel:is_skill_pet
 		},
 		"headModels": [
-			128099
+			71713
 		],
 		"id": 29973,
 		"models": [
-			113988,
+			71709,
 			128098
 		],
 		"movementCapabilities": 3,
@@ -1018725,11 +1018905,11 @@
 			"mtx_no_recolour": 1 // 477 chisel:pet_category
 		},
 		"headModels": [
-			128099
+			71713
 		],
 		"id": 29974,
 		"models": [
-			113988,
+			71709,
 			128098
 		],
 		"movementCapabilities": 3,
@@ -1019154,11 +1019334,11 @@
 			"mtxmgt_skill_pet": 1 // 5898 chisel:is_skill_pet
 		},
 		"headModels": [
-			128123
+			71704
 		],
 		"id": 29991,
 		"models": [
-			113996,
+			71703,
 			128122
 		],
 		"movementCapabilities": 3,
@@ -1019173,11 +1019353,11 @@
 			"mtx_no_recolour": 1 // 477 chisel:pet_category
 		},
 		"headModels": [
-			128123
+			71704
 		],
 		"id": 29992,
 		"models": [
-			113996,
+			71703,
 			128122
 		],
 		"movementCapabilities": 3,
@@ -1019737,6 +1019917,7 @@
 		"models": [
 			87124,
 			87125,
+			71725,
 			128080
 		],
 		"movementCapabilities": 3,
@@ -1019758,6 +1019939,7 @@
 		"models": [
 			87124,
 			87125,
+			71725,
 			128080
 		],
 		"movementCapabilities": 3,

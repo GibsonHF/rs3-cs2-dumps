@@ -7,6 +7,9 @@ function script20630(int0: number): void {
         return;
     };
     IF_SETHIDE(true, comp(1498, 8));  // marketplace_store:unavailable_layer
+    if ((int0 == -1)) {
+        var int0 = script20865();
+    };
     varclient_8376 = int0;
     script20633(int0);
     return;

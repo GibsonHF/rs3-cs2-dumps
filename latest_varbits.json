@@ -118296,6 +118296,262 @@
     "id": "14786"
   },
   {
+    "domain": "WORLD",
+    "source": "31",
+    "lsb": 5,
+    "msb": 5,
+    "wiki_sync": false,
+    "id": "14787"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "12175 [timed_event_time_mage_perm]",
+    "lsb": 21,
+    "msb": 21,
+    "wiki_sync": false,
+    "id": "14788"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "12175 [timed_event_time_mage_perm]",
+    "lsb": 22,
+    "msb": 22,
+    "wiki_sync": false,
+    "id": "14789"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "12175 [timed_event_time_mage_perm]",
+    "lsb": 23,
+    "msb": 23,
+    "wiki_sync": false,
+    "id": "14790"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "12175 [timed_event_time_mage_perm]",
+    "lsb": 24,
+    "msb": 24,
+    "wiki_sync": false,
+    "id": "14791"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "12175 [timed_event_time_mage_perm]",
+    "lsb": 25,
+    "msb": 25,
+    "wiki_sync": false,
+    "id": "14792"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "13759 [mtx_pets_menagerie_12]",
+    "lsb": 3,
+    "msb": 3,
+    "wiki_sync": false,
+    "id": "14793"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "13759 [mtx_pets_menagerie_12]",
+    "lsb": 4,
+    "msb": 4,
+    "wiki_sync": false,
+    "id": "14794"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "13759 [mtx_pets_menagerie_12]",
+    "lsb": 5,
+    "msb": 5,
+    "wiki_sync": false,
+    "id": "14795"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "13759 [mtx_pets_menagerie_12]",
+    "lsb": 6,
+    "msb": 6,
+    "wiki_sync": false,
+    "id": "14796"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "13759 [mtx_pets_menagerie_12]",
+    "lsb": 7,
+    "msb": 7,
+    "wiki_sync": false,
+    "id": "14797"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "13759 [mtx_pets_menagerie_12]",
+    "lsb": 8,
+    "msb": 8,
+    "wiki_sync": false,
+    "id": "14798"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "13759 [mtx_pets_menagerie_12]",
+    "lsb": 9,
+    "msb": 9,
+    "wiki_sync": false,
+    "id": "14799"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "13759 [mtx_pets_menagerie_12]",
+    "lsb": 10,
+    "msb": 10,
+    "wiki_sync": false,
+    "id": "14800"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "13759 [mtx_pets_menagerie_12]",
+    "lsb": 11,
+    "msb": 11,
+    "wiki_sync": false,
+    "id": "14801"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "13759 [mtx_pets_menagerie_12]",
+    "lsb": 12,
+    "msb": 12,
+    "wiki_sync": false,
+    "id": "14802"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "13759 [mtx_pets_menagerie_12]",
+    "lsb": 13,
+    "msb": 13,
+    "wiki_sync": false,
+    "id": "14803"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "13653 [combatv2_greater_chain_child_player_uid_9]",
+    "lsb": 9,
+    "msb": 9,
+    "wiki_sync": false,
+    "id": "14804"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "13653 [combatv2_greater_chain_child_player_uid_9]",
+    "lsb": 10,
+    "msb": 10,
+    "wiki_sync": false,
+    "id": "14805"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "13653 [combatv2_greater_chain_child_player_uid_9]",
+    "lsb": 11,
+    "msb": 11,
+    "wiki_sync": false,
+    "id": "14806"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "13653 [combatv2_greater_chain_child_player_uid_9]",
+    "lsb": 12,
+    "msb": 12,
+    "wiki_sync": false,
+    "id": "14807"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "13653 [combatv2_greater_chain_child_player_uid_9]",
+    "lsb": 13,
+    "msb": 13,
+    "wiki_sync": false,
+    "id": "14808"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "12532 [stalker_boss_varp_temp_1]",
+    "lsb": 2,
+    "msb": 2,
+    "wiki_sync": false,
+    "id": "14809"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "12532 [stalker_boss_varp_temp_1]",
+    "lsb": 3,
+    "msb": 3,
+    "wiki_sync": false,
+    "id": "14810"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "12532 [stalker_boss_varp_temp_1]",
+    "lsb": 4,
+    "msb": 4,
+    "wiki_sync": false,
+    "id": "14811"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "13761 [combatv2_cooldown_constitution_vampyre_slayer_start]",
+    "lsb": 0,
+    "msb": 0,
+    "wiki_sync": false,
+    "id": "14812"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "13761 [combatv2_cooldown_constitution_vampyre_slayer_start]",
+    "lsb": 1,
+    "msb": 1,
+    "wiki_sync": false,
+    "id": "14813"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "12135 [combat_mastery_mechanical_varp_9]",
+    "lsb": 11,
+    "msb": 11,
+    "wiki_sync": false,
+    "id": "14814"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "12135 [combat_mastery_mechanical_varp_9]",
+    "lsb": 12,
+    "msb": 12,
+    "wiki_sync": false,
+    "id": "14815"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "12135 [combat_mastery_mechanical_varp_9]",
+    "lsb": 13,
+    "msb": 13,
+    "wiki_sync": false,
+    "id": "14816"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "13749 [championships_marathon_varp]",
+    "lsb": 2,
+    "msb": 2,
+    "wiki_sync": false,
+    "id": "14817"
+  },
+  {
+    "domain": "PLAYER",
+    "source": "13749 [championships_marathon_varp]",
+    "lsb": 3,
+    "msb": 3,
+    "wiki_sync": false,
+    "id": "14818"
+  },
+  {
     "domain": "PLAYER",
     "source": "2934 [hw06_extra_var]",
     "lsb": 5,
