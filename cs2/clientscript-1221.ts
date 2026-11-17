@@ -40,7 +40,7 @@ function script1221(int0: number, int1: number): void {
                     script315();
                     varclient_175 = CLIENTCLOCK();
                     varclient_1099 = STRING_LENGTH(script2949(varclient_2577));
-                    script3237(48758913, 48758914, 48758915, script2949(varclient_2577), 101, 212);
+                    script3237(48758917, 48758918, 48758919, script2949(varclient_2577), 101, 212);
                     return;
                 }
                 case 96:
@@ -50,7 +50,7 @@ function script1221(int0: number, int1: number): void {
                 case 102:
                 case 103: {
                     varclient_1099 = script1553(int0, varclient_1099, varclient_2576);
-                    script3237(48758890, 48758891, 48758892, varclient_2576, 100, 212);
+                    script3237(48758894, 48758895, 48758896, varclient_2576, 100, 212);
                     return;
                 }
             };
@@ -96,7 +96,7 @@ function script1221(int0: number, int1: number): void {
                     script15651(100);
                     varclient_175 = CLIENTCLOCK();
                     varclient_1099 = STRING_LENGTH(varclient_2576);
-                    script3237(48758890, 48758891, 48758892, varclient_2576, 100, 212);
+                    script3237(48758894, 48758895, 48758896, varclient_2576, 100, 212);
                     return;
                 }
                 case 96:
@@ -106,7 +106,7 @@ function script1221(int0: number, int1: number): void {
                 case 102:
                 case 103: {
                     varclient_1099 = script1553(int0, varclient_1099, script2949(varclient_2577));
-                    script3237(48758913, 48758914, 48758915, script2949(varclient_2577), 101, 212);
+                    script3237(48758917, 48758918, 48758919, script2949(varclient_2577), 101, 212);
                     return;
                 }
             };
@@ -146,7 +146,7 @@ function script1221(int0: number, int1: number): void {
                 case 102:
                 case 103: {
                     varclient_1099 = script1553(int0, varclient_1099, varclient_4192);
-                    script3237(48758944, 48758945, 48758946, varclient_4192, 114, 212);
+                    script3237(48758948, 48758949, 48758950, varclient_4192, 114, 212);
                     return;
                 }
                 case 13: {
@@ -158,8 +158,8 @@ function script1221(int0: number, int1: number): void {
                 return;
             };
             [varclient_4192, varclient_1099] = script802(varclient_1099, varclient_4192, 1, int0, int1);
-            IF_SETTEXT(varclient_4192, 48758945);
-            script3237(48758944, 48758945, 48758946, varclient_4192, 114, 212);
+            IF_SETTEXT(varclient_4192, 48758949);
+            script3237(48758948, 48758949, 48758950, varclient_4192, 114, 212);
             script15700();
             return;
         }
@@ -197,7 +197,7 @@ function script1221(int0: number, int1: number): void {
                 case 102:
                 case 103: {
                     varclient_1099 = script1553(int0, varclient_1099, varclient_6896);
-                    script3237(48759112, 48759113, 48759114, varclient_6896, 113, 212);
+                    script3237(48759124, 48759125, 48759126, varclient_6896, 113, 212);
                     return;
                 }
             };
@@ -242,9 +242,9 @@ function script1221(int0: number, int1: number): void {
         }
         case 18: {
             if ((int0 == 13)) {
-                if ((IF_GETHIDE(comp(744, 291)) == 1)) {  // loginscreen:tnc_decline_popup
+                if ((IF_GETHIDE(comp(744, 303)) == 1)) {  // loginscreen:right_top_flurish_2
                     script3131();
-                } else if ((IF_GETHIDE(comp(744, 291)) == 0)) {  // loginscreen:tnc_decline_popup
+                } else if ((IF_GETHIDE(comp(744, 303)) == 0)) {  // loginscreen:right_top_flurish_2
                     script2465();
                 } else {
                     script3133(0);
@@ -305,13 +305,6 @@ function script1221(int0: number, int1: number): void {
         case 20: {
             if ((int0 == 13)) {
                 script19992();
-                return;
-            };
-            break;
-        }
-        case 21: {
-            if ((int0 == 13)) {
-                script4801();
                 return;
             };
             break;

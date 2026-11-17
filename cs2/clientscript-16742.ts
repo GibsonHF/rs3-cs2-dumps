@@ -1,8 +1,8 @@
 //
 function script16742(int0: number): void {
     var int1 = script2948();
-    var int2 = comp(744, 135);  // loginscreen:login_button
-    var int3 = comp(744, 337);  // loginscreen:popup
+    var int2 = comp(744, 139);  // loginscreen:continue_text
+    var int3 = comp(744, 349);  // loginscreen:options_firstrun
     switch (int1) {
         case 49: {
             if ((varclient_1100 != 49)) {
@@ -131,7 +131,7 @@ function script16742(int0: number): void {
     };
     script2954(0);
     IF_SETONCLICK(callback(script2944), int2);
-    IF_SETONTIMER(callback(), comp(744, 337));  // loginscreen:popup
+    IF_SETONTIMER(callback(), comp(744, 349));  // loginscreen:options_firstrun
     var string2 = "";
     var int6 = 1;
     var int7 = 0;
@@ -404,15 +404,7 @@ function script16742(int0: number): void {
             break;
         }
         case 3: {
-            if ((varclient_1414 == 1)) {
-                string2 = "Invalid username or password.";
-            } else if ((varclient_1414 == 2)) {
-                string2 = "Invalid email or password.";
-            } else {
-                string2 = "Invalid login or password.";
-            };
-            string2 = strconcat(string2, "<br><br>For accounts created after the 24th of November 2010, please use your email address to login. Otherwise please login with your username.<br><br>You may need to use the Jagex Launcher to continue playing. Download from <col=134ED8>https://www.jagex.com/launcher</col>");
-            string3 = "Forgotten your password?";
+            string2 = "You now need to play via the Jagex Launcher.<br><br>We've moved to the Jagex Launcher and Jagex Accounts to give you a more stable and secure way to play.<br><br>Download the Launcher and follow the prompts to migrate. Your character and progress will carry over safely.";
             script380(3989);
             break;
         }
@@ -490,7 +482,7 @@ function script16742(int0: number): void {
             varclient_200 = [];
             [int13, int14, int15] = script6716(varclient_200);
             string2 = `Your ban will be lifted in<br>${inttostring(int13, 10)} hours, ${inttostring(int14, 10)} minutes, ${inttostring(int15, 10)} seconds`;
-            IF_SETONTIMER(callback(script6715), comp(744, 337));  // loginscreen:popup
+            IF_SETONTIMER(callback(script6715), comp(744, 349));  // loginscreen:options_firstrun
             string3 = "More info";
             break;
         }

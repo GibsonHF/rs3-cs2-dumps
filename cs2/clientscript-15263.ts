@@ -1,6 +1,6 @@
 //
 function script15263(): void {
-    IF_SETONTIMER(callback(), comp(744, 337));  // loginscreen:popup
+    IF_SETONTIMER(callback(), comp(744, 349));  // loginscreen:options_firstrun
     if ((LOGIN_INPROGRESS() == 1)) {
         LOGIN_CANCEL();
     };

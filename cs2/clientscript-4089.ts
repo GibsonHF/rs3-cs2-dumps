@@ -5,7 +5,7 @@ function script4089(): void {
         SSO_LOGOUT();
         script4142(16);
     } else if ((PLATFORMTYPE() == 5)) {
-        script426("To change the account you are logged in to please close the game client and change account in the Jagex Launcher.", 48758871, -1, 0);
+        script426("To change the account you are logged in to please close the game client and change account in the Jagex Launcher.", 48758873, -1, 0);
     };
     return;
 }

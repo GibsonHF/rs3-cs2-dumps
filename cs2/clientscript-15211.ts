@@ -6,23 +6,19 @@ function script15211(int0: number, int1: number): number {
         int2 = (int2 + 1);
         pop_array(7);
     };
-    if ((script15212() == 1)) {
-        stack(int2);
-        int2 = (int2 + 1);
-        pop_array(3);
-    } else if ((script15213() == 1)) {
-        stack(int2);
-        int2 = (int2 + 1);
-        pop_array(4);
+    switch (PLATFORMTYPE()) {
+        case 2: {
+            stack(int2);
+            int2 = (int2 + 1);
+            pop_array(5);
+            break;
+        }
+        case 3: {
+            stack(int2);
+            int2 = (int2 + 1);
+            pop_array(6);
+            break;
+        }
     };
-    stack(int2);
-    int2 = (int2 + 1);
-    pop_array(5);
-    stack(int2);
-    int2 = (int2 + 1);
-    pop_array(6);
-    stack(int2);
-    int2 = (int2 + 1);
-    pop_array(1);
     return int2;
 }

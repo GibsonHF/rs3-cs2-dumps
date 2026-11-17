@@ -17,8 +17,8 @@ function script10441(int0: number, int1: number, int2: number): void {
             break;
         }
         case 744: {
-            int7 = comp(744, 356);  // loginscreen:dropdown_list
-            int8 = comp(744, 357);  // loginscreen:dropdown_build
+            int7 = comp(744, 368);  // loginscreen:32bit_warning_okay
+            int8 = comp(744, 369);  // loginscreen:32bit_warning_border
             break;
         }
         default: {

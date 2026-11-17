@@ -14,7 +14,7 @@ function script10440(int0: number, int1: number, int2: number, int3: number, int
             break;
         }
         case 744: {
-            int7 = comp(744, 351);  // loginscreen:dropdown_panel
+            int7 = comp(744, 363);  // loginscreen:com_363
             break;
         }
         default: {

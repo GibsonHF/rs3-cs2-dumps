@@ -4,6 +4,6 @@ function script15697(): void {
     if ((STRING_LENGTH(varclient_4192) > 0)) {
         int0 = 1;
     };
-    script7871(48758948, int0, 1, 0, 0);
+    script7871(48758952, int0, 1, 0, 0);
     return;
 }

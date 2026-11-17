@@ -18,6 +18,6 @@ function script15702(): void {
     } else {
         string1 = "There is nothing in your clipboard to be pasted.";
     };
-    script10943(string1, 48758944);
+    script10943(string1, 48758948);
     return;
 }

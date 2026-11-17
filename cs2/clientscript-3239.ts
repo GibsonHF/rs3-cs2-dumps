@@ -13,21 +13,21 @@ function script3239(int0: number, int1: number): void {
         varclient_1091 = varclient_1090;
         IF_SETONOP(callback(script1173, varclient_1091), comp(882, 12));  // loginscreen_graphics_options:mainmodal_window_close_button
     };
-    IF_SETHIDE(true, comp(744, 247));  // loginscreen:driver_warning
-    IF_SETHIDE(true, comp(744, 246));  // loginscreen:32bit_warning
-    IF_SETHIDE(true, comp(744, 88));  // loginscreen:launcher_warning
-    IF_SETHIDE(true, comp(744, 349));  // loginscreen:options_firstrun
-    IF_CLOSESUBCLIENT(comp(744, 349));  // loginscreen:options_firstrun
-    IF_SETHIDE(true, comp(744, 260));  // loginscreen:tncs_layer
-    IF_SETHIDE(true, comp(744, 204));  // loginscreen:settings_layer
-    IF_SETHIDE(true, comp(744, 192));  // loginscreen:options
-    IF_SETONRESIZE(callback(), comp(744, 192));  // loginscreen:options
+    IF_SETHIDE(true, comp(744, 259));  // loginscreen:driver_warning_border
+    IF_SETHIDE(true, comp(744, 251));  // loginscreen:driver_warning_content
+    IF_SETHIDE(true, comp(744, 90));  // loginscreen:username_group
+    IF_SETHIDE(true, comp(744, 361));  // loginscreen:tooltips_param_layer
+    IF_CLOSESUBCLIENT(comp(744, 361));  // loginscreen:tooltips_param_layer
+    IF_SETHIDE(true, comp(744, 272));  // loginscreen:right_top_flurish_1
+    IF_SETHIDE(true, comp(744, 208));  // loginscreen:mobile_settings_bg
+    IF_SETHIDE(true, comp(744, 196));  // loginscreen:popup_content_layer
+    IF_SETONRESIZE(callback(), comp(744, 196));  // loginscreen:popup_content_layer
     IF_SETONRESIZE(callback(), comp(882, 1));  // loginscreen_graphics_options:universe
-    IF_SETHIDE(true, comp(744, 194));  // loginscreen:windowmode_confirm
-    if ((IF_FIND(comp(744, 201)) == 1)) {  // loginscreen:windowmode_confirm_yes
+    IF_SETHIDE(true, comp(744, 198));  // loginscreen:windowmode_confirm_content
+    if ((IF_FIND(comp(744, 205)) == 1)) {  // loginscreen:mobile_settings
         CC_SETONBUTTONCLICK(callback());
     };
-    if ((IF_FIND(comp(744, 202)) == 1)) {  // loginscreen:windowmode_confirm_no
+    if ((IF_FIND(comp(744, 206)) == 1)) {  // loginscreen:com_206
         CC_SETONBUTTONCLICK(callback());
     };
     var int3 = 0;
@@ -69,29 +69,31 @@ function script3239(int0: number, int1: number): void {
             script15676();
             script15651(12);
             script12352();
-            IF_SETHIDE(false, comp(744, 247));  // loginscreen:driver_warning
+            IF_SETHIDE(false, comp(744, 259));  // loginscreen:driver_warning_border
             break;
         }
         case 18: {
             script15651(18);
             IF_SETSIZE(0, 0, 1, 1, comp(744, 29));  // loginscreen:left_hand_panel
             IF_SETHIDE(true, comp(744, 39));  // loginscreen:right_hand_panel
-            IF_SETHIDE(false, comp(744, 193));  // loginscreen:popup_windows
-            IF_SETHIDE(false, comp(744, 260));  // loginscreen:tncs_layer
+            IF_SETHIDE(false, comp(744, 197));  // loginscreen:windowmode_confirm_background
+            IF_SETHIDE(false, comp(744, 272));  // loginscreen:right_top_flurish_1
             break;
         }
         case 0: {
             IF_SETSIZE(0, 0, 1, 1, comp(744, 29));  // loginscreen:left_hand_panel
             IF_SETHIDE(true, comp(744, 39));  // loginscreen:right_hand_panel
             script3385();
-            IF_SETHIDE(false, comp(744, 349));  // loginscreen:options_firstrun
+            IF_SETHIDE(false, comp(744, 361));  // loginscreen:tooltips_param_layer
             break;
         }
         case 8: {
             script15676();
-            script15643();
+            if ((script13749() == 1)) {
+                script15643();
+            };
             varclient_547 = 0;
-            IF_SETONCLICK(callback(script2944), comp(744, 135));  // loginscreen:login_button
+            IF_SETONCLICK(callback(script2944), comp(744, 139));  // loginscreen:continue_text
             script15687(8);
             varclient_1089 = -1;
             if ((script13749() == 0)) {
@@ -120,7 +122,7 @@ function script3239(int0: number, int1: number): void {
             script15676();
             script15687(17);
             script15651(17);
-            IF_OPENSUBCLIENT(comp(744, 168), 724);  // loginscreen:steam
+            IF_OPENSUBCLIENT(comp(744, 172), 724);  // loginscreen:login_progress_popup_username_text
             varclient_1089 = -1;
             varclient_547 = 0;
             script15246();
@@ -163,14 +165,14 @@ function script3239(int0: number, int1: number): void {
         case 4: {
             SOUND_VORBIS_VOLUME(36961 as vorbis, 1, 0, 120);
             script15651(4);
-            IF_OPENSUBCLIENT(comp(744, 192), 882);  // loginscreen:options
+            IF_OPENSUBCLIENT(comp(744, 196), 882);  // loginscreen:popup_content_layer
             script2595(0);
-            IF_SETHIDE(false, comp(744, 192));  // loginscreen:options
+            IF_SETHIDE(false, comp(744, 196));  // loginscreen:popup_content_layer
             break;
         }
         case 7: {
             script15651(108);
-            IF_SETHIDE(false, comp(744, 194));  // loginscreen:windowmode_confirm
+            IF_SETHIDE(false, comp(744, 198));  // loginscreen:windowmode_confirm_content
             break;
         }
         case 14: {
@@ -184,7 +186,7 @@ function script3239(int0: number, int1: number): void {
         }
         case 15: {
             script15676();
-            IF_SETHIDE(false, comp(744, 309));  // loginscreen:recovery_layer
+            IF_SETHIDE(false, comp(744, 321));  // loginscreen:forgot_password
             script15651(15);
             if ((script13749() == 0)) {
                 script2940(113);
@@ -193,7 +195,7 @@ function script3239(int0: number, int1: number): void {
         }
         case 19: {
             script15651(19);
-            IF_SETHIDE(false, comp(744, 243));  // loginscreen:tncs_bottom_layer_popup
+            IF_SETHIDE(false, comp(744, 248));  // loginscreen:com_248
             break;
         }
     };

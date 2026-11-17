@@ -8,7 +8,7 @@ function script15645(int0: number, int1: number, int2: number, int3: number): vo
     };
     CC_DELETEALL(int0);
     CC_DELETEALL(int1);
-    define_array(6);
+    define_array(5);
     if ((int2 == 0)) {
         var int3 = 0;
     };
@@ -158,6 +158,10 @@ function script15645(int0: number, int1: number, int2: number, int3: number): vo
         };
     };
     IF_SETSIZE(IF_GETWIDTH(comp(744, 69)), int8, 0, 0, comp(744, 69));  // loginscreen:oauth2_username_email_btn
+    if ((int2 == 2)) {
+        int26 = (IF_GETY(comp(744, 65)) + ((int8 + 15) * (int23 + 1)));  // loginscreen:oauth2_other_platform_btns
+        IF_SETPOSITION(0, int26, 1, 0, comp(744, 69));  // loginscreen:oauth2_username_email_btn
+    };
     script10410(48758854, -1, 28557, 0, 0, int7, int8, -1, callback(script0));
     script4512(48758854, struct_getparam(631, 3915), MIN(int8, struct_getparam(631, 3916)), (0 + 3), (0 + 3), struct_getparam(631, 3910));
     script6200(48758854, (((int7 - 40) - 10) - 10), int8, ((0 + 40) + 10), 0, 28, struct_getparam(631, 8263), 0);

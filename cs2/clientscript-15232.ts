@@ -158,27 +158,6 @@ function script15232(int0: number, int1: number): void {
             OPENURLRAW("https://rs.runescape.com/play?utm_source=rs3_client&utm_medium=game_client&utm_campaign=download_launcher_cutover", 0);
             break;
         }
-        case 32: {
-            switch (CLIENTOPTION_GET(34)) {
-                case 1: {
-                    OPENURLRAW("https://rs.game/ja-date-DE", 0);
-                    break;
-                }
-                case 2: {
-                    OPENURLRAW("https://rs.game/ja-date-FR", 0);
-                    break;
-                }
-                case 3: {
-                    OPENURLRAW("https://rs.game/ja-date-PT", 0);
-                    break;
-                }
-                default: {
-                    OPENURLRAW("https://rs.game/ja-date", 0);
-                    break;
-                }
-            };
-            break;
-        }
         case 500: {
             OPENURL("forum", "forums.ws", 1);
             break;
@@ -334,7 +313,7 @@ function script15232(int0: number, int1: number): void {
             break;
         }
         default: {
-            if (((int0 >= 1000) && (int0 <= 1019))) {
+            if (((int0 >= 1000) && (int0 <= 1020))) {
                 script15234(int0);
             };
             break;

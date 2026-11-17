@@ -22,14 +22,14 @@ function script10435(int0: number, int1: number, int2: number, int3: number, int
             break;
         }
         case 744: {
-            int10 = 48759135;
-            int11 = 48759140;
-            int12 = 48759141;
-            int13 = 48759139;
-            int14 = 48759137;
-            int15 = 48759136;
-            int16 = 48759142;
-            int17 = 48759138;
+            int10 = 48759147;
+            int11 = 48759152;
+            int12 = 48759153;
+            int13 = 48759151;
+            int14 = 48759149;
+            int15 = 48759148;
+            int16 = 48759154;
+            int17 = 48759150;
             break;
         }
         default: {

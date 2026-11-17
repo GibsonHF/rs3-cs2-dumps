@@ -1,14 +1,14 @@
 //[proc,login_popup_close]
 function script2954(int0: number): void {
-    if ((IF_GETHIDE(comp(744, 169)) == false)) {  // loginscreen:login_progress_popup
+    if ((IF_GETHIDE(comp(744, 173)) == false)) {  // loginscreen:login_progress_popup_password
         script15687(varclient_1089);
-        script15664(48758963, 48759127, 48759126);
+        script15664(48758967, 48759139, 48759138);
     };
-    if ((IF_GETHIDE(comp(744, 337)) == false)) {  // loginscreen:popup
-        IF_SETTEXT("", comp(744, 345));  // loginscreen:popup_big_button
-        script15664(48759128, 48758962, 48758961);
-        IF_SETHIDE(true, comp(744, 345));  // loginscreen:popup_big_button
-        IF_SETHIDE(true, comp(744, 337));  // loginscreen:popup
+    if ((IF_GETHIDE(comp(744, 349)) == false)) {  // loginscreen:options_firstrun
+        IF_SETTEXT("", comp(744, 357));  // loginscreen:dropdown_build
+        script15664(48759140, 48758966, 48758965);
+        IF_SETHIDE(true, comp(744, 357));  // loginscreen:dropdown_build
+        IF_SETHIDE(true, comp(744, 349));  // loginscreen:options_firstrun
     };
     if ((int0 == 1)) {
         script4142(-1);
