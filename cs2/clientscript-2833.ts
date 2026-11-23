@@ -80,7 +80,6 @@ function script2833(int0: number, int1: number, int2: number, int3: number): voi
         }
         case 31091:
         case 31089:
-        case 31101:
         case 31099:
         case 31095:
         case 31097:

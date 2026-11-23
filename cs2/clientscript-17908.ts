@@ -15,7 +15,7 @@ function script17908(int0: number, int1: number, int2: number, int3: number, int
             break;
         }
         case 8158: {
-            string0 = "When earning Marks of War, you'll gain 1 Hero point for every 5 marks of war.";
+            string0 = "Defeat bosses to earn Hero Points. Tougher bosses grant more progress.";
             break;
         }
         default: {

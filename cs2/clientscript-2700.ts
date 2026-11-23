@@ -26,9 +26,6 @@ function script2700(int0: number): string {
         case 7: {
             return inttostring(10, 10);
         }
-        case 8: {
-            return "Daily 1%, Weekly 5%, Monthly 20";
-        }
         case 9: {
             return inttostring(10, 10);
         }

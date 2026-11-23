@@ -888,7 +888,7 @@
 			"timed_event_end": 7018, // 6133
 			"timed_event_cleanup": 7047, // 6134
 			"timed_event_name": "Mental Health Awareness Week", // 6135 chisel:tle_name
-			"timed_event_long_desc": "Support our Charities by purchasing the Meditation bundle. For more information on CPSL Mind and Rise Above the Disorder please head to the Charities tab.<br><br>In the bundle you will receive:<br> The Cloak and Banner of Meditation<br> The Stone of Meditation<br> 10x Advanced pulse core<br> 5x Cinder core<br> 5x Portable skilling pack<br> 5x Large protean pack<br><br>Use your Stone of Meditation to grant you a 4% XP boost whilst giving those around you a 2% boost for an hour. 2 additional charges are awarded daily (up to a maximum of 5) until June 13th, after which your Stone of Meditation will be converted into 2500 Oddments.", // 6137 chisel:tle_body
+			"timed_event_long_desc": "Support our Charities by purchasing the Meditation bundle. For more information on CPSL Mind and Rise Above the Disorder please head to the Charities tab.<br><br>In the bundle you will receive:<br> The Cloak and Banner of Meditation<br> 1x Cabbage<br> 1x Cabbage<br> 1x Cabbage<br> 1x Cabbage<br> 1x Cabbage", // 6137 chisel:tle_body
 			"timed_event_bg_graphic": 13388, // 6138 chisel:tle_banner_sprite
 			"timed_event_type": 2, // 6139
 			"timed_event_id": 25, // 6145 chisel:mtx_tle_curr_host_id
@@ -5039,7 +5039,7 @@
 			"timed_event_start": 7376, // 6132
 			"timed_event_end": 7382, // 6133
 			"timed_event_name": "Mental Health Awareness Week", // 6135 chisel:tle_name
-			"timed_event_long_desc": "Support our Charities by purchasing one of our Bundles. For more information on CPSL Mind and Rise Above the Disorder please head to the Charities tab.<br><br>Purchase the Power Bundle to claim your Rock of Resilience which grants you a 4% XP boost and those around you a 2% boost for an hour.<br><br>In the Power Bundle you will receive:<br>- Rock of Resilience (+15 charges for the Rock)<br>- 2x Deathtouched Darts<br>- 2x Aura Refresh<br>- 2x Life Refresh<br>- 2x Box of clue scrolls (untradeable)<br>- 10x Advanced pulse core<br>- 10x Cinder core<br>- 5x Large protean pack<br>- 3x Large skill training dummy crate", // 6137 chisel:tle_body
+			"timed_event_long_desc": "Support our Charities by purchasing one of our Bundles. For more information on CPSL Mind and Rise Above the Disorder please head to the Charities tab.<br><br>In the Power Bundle you will receive:<br>- 1 Cabbage<br>- 1x Cabbage<br>- 2x Aura Refresh<br>- 2x Box of clue scrolls (untradeable)<br>- 1x Cabbage<br>- 1x Cabbage<br>- 1x Cabbage<br>- 1x Cabbage", // 6137 chisel:tle_body
 			"timed_event_bg_graphic": 13388, // 6138 chisel:tle_banner_sprite
 			"timed_event_type": 2, // 6139
 			"timed_event_id": 28, // 6145 chisel:mtx_tle_curr_host_id
@@ -5840,7 +5840,7 @@
 	{
 		"extra": {
 			"rewardshop_item_name": "Altar of War ability cooldown reset", // 4849 chisel:rewards_interface_item_name
-			"rewardshop_cost": 0, // 4850 chisel:rewards_interface_cost
+			"rewardshop_cost": 500, // 4850 chisel:rewards_interface_cost
 			"rewardshop_icon": 14695, // 4852 chisel:rewards_interface_sprite
 			"rewardshop_buy_option_1": 1, // 4854
 			"rewardshop_tooltip": "Upgrade the Altar of War to additionally reset your ability cooldowns.", // 4858 chisel:rewards_interface_item_desc
@@ -5849,7 +5849,6 @@
 			"rewardshop_buy_button_label": "Unlock", // 5091
 			"rewardshop_owned_button_label": "Unlocked", // 5093
 			"rewardshop_owned_button_tooltip": "You have unlocked this.", // 5204
-			"rewardshop_cost2": 500, // 5878
 			"rewardshop_unaffordable_button_tooltip": "You need to kill more boss monsters." // 7141
 		},
 		"id": 623
@@ -5975,9 +5974,9 @@
 			"rewardshop_cost": 250, // 4850 chisel:rewards_interface_cost
 			"rewardshop_obj": 53101, // 4851 chisel:rewards_interface_item
 			"rewardshop_buy_option_1": 1, // 4854
-			"rewardshop_tooltip": "Power Bundle contents:<br>Rock of Resilience (+15 charges for the Rock), 2 Deathtouched Darts, 2 Aura Refresh, 2 Life Refresh, 2 Box of clue scrolls (untradeable), 10 Advanced pulse core, 10 Cinder core, 5 Large protean pack, 3 Large skill training dummy crate", // 4858 chisel:rewards_interface_item_desc
+			"rewardshop_tooltip": "Power Bundle contents:<br>1 Cabbage, 1 Cabbage, 2 Aura Refresh, 2 Box of clue scrolls (untradeable), 1x Cabbage, 1x Cabbage, 1x Cabbage, 1x Cabbage", // 4858 chisel:rewards_interface_item_desc
 			"rewardshop_usetooltip": 1, // 4862 chisel:outfit_piece_4
-			"rewardshop_obj_override": 51498, // 6131
+			"rewardshop_obj_override": 1965, // 6131
 			"rewardshop_cost_reduced": 250 // 6613 chisel:reward_shop_70_percent_cost
 		},
 		"id": 634
@@ -8483,15 +8482,8 @@
 	},
 	{
 		"extra": {
-			"rewardshop_item_name": "Spirit of Battle", // 4849 chisel:rewards_interface_item_name
-			"rewardshop_cost": 100000000, // 4850 chisel:rewards_interface_cost
-			"rewardshop_obj": 31101, // 4851 chisel:rewards_interface_item
-			"rewardshop_is_reward_obj": 1, // 4853
-			"rewardshop_buy_option_1": 1, // 4854
-			"rewardshop_buy_option_2": 2, // 4855
-			"rewardshop_buy_option_3": 5, // 4856
-			"rewardshop_tooltip": "Can be used on a slayer mask to reset its kill count.", // 4858 chisel:rewards_interface_item_desc
-			"rewardshop_usetooltip": 1 // 4862 chisel:outfit_piece_4
+			"combatv2_ability_name": "Cross Cut", // 2794 chisel:spell_name
+			"combatv2_ability_ignore_npc_scaling": 1 // 9234
 		},
 		"id": 908
 	},
@@ -8665,7 +8657,7 @@
 			"side_tab_2_icon_neutral": 28983, // 5906
 			"side_tab_2_icon_highlight": 28983, // 5907
 			"side_tab_2_icon_selected": 28983, // 5908
-			"side_tab_2_layer": 12517385, // 5909
+			"side_tab_2_layer": 12517388, // 5909
 			"side_tab_2_tooltip": "Winter Weeks", // 5910
 			"timed_event_start": 8314, // 6132
 			"timed_event_end": 8348, // 6133
@@ -16247,7 +16239,7 @@
 	{
 		"extra": {
 			"rewardshop_item_name": "Mask of the Abyss", // 4849 chisel:rewards_interface_item_name
-			"rewardshop_cost": 100000000, // 4850 chisel:rewards_interface_cost
+			"rewardshop_cost": 20000000, // 4850 chisel:rewards_interface_cost
 			"rewardshop_obj": 27624, // 4851 chisel:rewards_interface_item
 			"rewardshop_icon": -1, // 4852 chisel:rewards_interface_sprite
 			"rewardshop_is_reward_obj": 1, // 4853
@@ -16260,7 +16252,7 @@
 	{
 		"extra": {
 			"rewardshop_item_name": "Mask of Reflection", // 4849 chisel:rewards_interface_item_name
-			"rewardshop_cost": 3500000, // 4850 chisel:rewards_interface_cost
+			"rewardshop_cost": 700000, // 4850 chisel:rewards_interface_cost
 			"rewardshop_obj": 27620, // 4851 chisel:rewards_interface_item
 			"rewardshop_icon": -1, // 4852 chisel:rewards_interface_sprite
 			"rewardshop_is_reward_obj": 1, // 4853
@@ -16273,7 +16265,7 @@
 	{
 		"extra": {
 			"rewardshop_item_name": "Mask of Stone", // 4849 chisel:rewards_interface_item_name
-			"rewardshop_cost": 2500000, // 4850 chisel:rewards_interface_cost
+			"rewardshop_cost": 500000, // 4850 chisel:rewards_interface_cost
 			"rewardshop_obj": 27618, // 4851 chisel:rewards_interface_item
 			"rewardshop_icon": -1, // 4852 chisel:rewards_interface_sprite
 			"rewardshop_is_reward_obj": 1, // 4853
@@ -16286,7 +16278,7 @@
 	{
 		"extra": {
 			"rewardshop_item_name": "Mask of Broken Fingers", // 4849 chisel:rewards_interface_item_name
-			"rewardshop_cost": 500000, // 4850 chisel:rewards_interface_cost
+			"rewardshop_cost": 100000, // 4850 chisel:rewards_interface_cost
 			"rewardshop_obj": 27616, // 4851 chisel:rewards_interface_item
 			"rewardshop_icon": -1, // 4852 chisel:rewards_interface_sprite
 			"rewardshop_is_reward_obj": 1, // 4853
@@ -16299,7 +16291,7 @@
 	{
 		"extra": {
 			"rewardshop_item_name": "Mask of the Kura", // 4849 chisel:rewards_interface_item_name
-			"rewardshop_cost": 7000000, // 4850 chisel:rewards_interface_cost
+			"rewardshop_cost": 1400000, // 4850 chisel:rewards_interface_cost
 			"rewardshop_obj": 27622, // 4851 chisel:rewards_interface_item
 			"rewardshop_icon": -1, // 4852 chisel:rewards_interface_sprite
 			"rewardshop_is_reward_obj": 1, // 4853
@@ -16312,7 +16304,7 @@
 	{
 		"extra": {
 			"rewardshop_item_name": "Mask of Mourning", // 4849 chisel:rewards_interface_item_name
-			"rewardshop_cost": 1500000, // 4850 chisel:rewards_interface_cost
+			"rewardshop_cost": 300000, // 4850 chisel:rewards_interface_cost
 			"rewardshop_obj": 28686, // 4851 chisel:rewards_interface_item
 			"rewardshop_icon": -1, // 4852 chisel:rewards_interface_sprite
 			"rewardshop_is_reward_obj": 1, // 4853
@@ -16325,7 +16317,7 @@
 	{
 		"extra": {
 			"rewardshop_item_name": "Mask of Dust", // 4849 chisel:rewards_interface_item_name
-			"rewardshop_cost": 6500000, // 4850 chisel:rewards_interface_cost
+			"rewardshop_cost": 1300000, // 4850 chisel:rewards_interface_cost
 			"rewardshop_obj": 28690, // 4851 chisel:rewards_interface_item
 			"rewardshop_icon": -1, // 4852 chisel:rewards_interface_sprite
 			"rewardshop_is_reward_obj": 1, // 4853
@@ -16338,7 +16330,7 @@
 	{
 		"extra": {
 			"rewardshop_item_name": "Mask of Granite", // 4849 chisel:rewards_interface_item_name
-			"rewardshop_cost": 22000000, // 4850 chisel:rewards_interface_cost
+			"rewardshop_cost": 4400000, // 4850 chisel:rewards_interface_cost
 			"rewardshop_obj": 28692, // 4851 chisel:rewards_interface_item
 			"rewardshop_icon": -1, // 4852 chisel:rewards_interface_sprite
 			"rewardshop_is_reward_obj": 1, // 4853
@@ -16351,7 +16343,7 @@
 	{
 		"extra": {
 			"rewardshop_item_name": "Mask of Vines", // 4849 chisel:rewards_interface_item_name
-			"rewardshop_cost": 24000000, // 4850 chisel:rewards_interface_cost
+			"rewardshop_cost": 4800000, // 4850 chisel:rewards_interface_cost
 			"rewardshop_obj": 28694, // 4851 chisel:rewards_interface_item
 			"rewardshop_icon": -1, // 4852 chisel:rewards_interface_sprite
 			"rewardshop_is_reward_obj": 1, // 4853
@@ -16364,7 +16356,7 @@
 	{
 		"extra": {
 			"rewardshop_item_name": "Mask of Gelatin", // 4849 chisel:rewards_interface_item_name
-			"rewardshop_cost": 5500000, // 4850 chisel:rewards_interface_cost
+			"rewardshop_cost": 1100000, // 4850 chisel:rewards_interface_cost
 			"rewardshop_obj": 28688, // 4851 chisel:rewards_interface_item
 			"rewardshop_icon": -1, // 4852 chisel:rewards_interface_sprite
 			"rewardshop_is_reward_obj": 1, // 4853
@@ -16377,7 +16369,7 @@
 	{
 		"extra": {
 			"rewardshop_item_name": "Mask of Stench", // 4849 chisel:rewards_interface_item_name
-			"rewardshop_cost": 6000000, // 4850 chisel:rewards_interface_cost
+			"rewardshop_cost": 1200000, // 4850 chisel:rewards_interface_cost
 			"rewardshop_obj": 31091, // 4851 chisel:rewards_interface_item
 			"rewardshop_icon": -1, // 4852 chisel:rewards_interface_sprite
 			"rewardshop_is_reward_obj": 1, // 4853
@@ -16390,7 +16382,7 @@
 	{
 		"extra": {
 			"rewardshop_item_name": "Mask of Crimson", // 4849 chisel:rewards_interface_item_name
-			"rewardshop_cost": 5000000, // 4850 chisel:rewards_interface_cost
+			"rewardshop_cost": 1000000, // 4850 chisel:rewards_interface_cost
 			"rewardshop_obj": 31089, // 4851 chisel:rewards_interface_item
 			"rewardshop_icon": -1, // 4852 chisel:rewards_interface_sprite
 			"rewardshop_is_reward_obj": 1, // 4853
@@ -16403,7 +16395,7 @@
 	{
 		"extra": {
 			"rewardshop_item_name": "Mask of Gloom", // 4849 chisel:rewards_interface_item_name
-			"rewardshop_cost": 60000000, // 4850 chisel:rewards_interface_cost
+			"rewardshop_cost": 12000000, // 4850 chisel:rewards_interface_cost
 			"rewardshop_obj": 31099, // 4851 chisel:rewards_interface_item
 			"rewardshop_icon": -1, // 4852 chisel:rewards_interface_sprite
 			"rewardshop_is_reward_obj": 1, // 4853
@@ -16416,7 +16408,7 @@
 	{
 		"extra": {
 			"rewardshop_item_name": "Mask of the Yellow Wyrm", // 4849 chisel:rewards_interface_item_name
-			"rewardshop_cost": 23000000, // 4850 chisel:rewards_interface_cost
+			"rewardshop_cost": 4600000, // 4850 chisel:rewards_interface_cost
 			"rewardshop_obj": 31095, // 4851 chisel:rewards_interface_item
 			"rewardshop_icon": -1, // 4852 chisel:rewards_interface_sprite
 			"rewardshop_is_reward_obj": 1, // 4853
@@ -16429,7 +16421,7 @@
 	{
 		"extra": {
 			"rewardshop_item_name": "Mask of the White Wyrm", // 4849 chisel:rewards_interface_item_name
-			"rewardshop_cost": 60000000, // 4850 chisel:rewards_interface_cost
+			"rewardshop_cost": 12000000, // 4850 chisel:rewards_interface_cost
 			"rewardshop_obj": 31097, // 4851 chisel:rewards_interface_item
 			"rewardshop_icon": -1, // 4852 chisel:rewards_interface_sprite
 			"rewardshop_is_reward_obj": 1, // 4853
@@ -16442,7 +16434,7 @@
 	{
 		"extra": {
 			"rewardshop_item_name": "Mask of the Green Wyrm", // 4849 chisel:rewards_interface_item_name
-			"rewardshop_cost": 21000000, // 4850 chisel:rewards_interface_cost
+			"rewardshop_cost": 4200000, // 4850 chisel:rewards_interface_cost
 			"rewardshop_obj": 31093, // 4851 chisel:rewards_interface_item
 			"rewardshop_icon": -1, // 4852 chisel:rewards_interface_sprite
 			"rewardshop_is_reward_obj": 1, // 4853
@@ -16455,7 +16447,7 @@
 	{
 		"extra": {
 			"rewardshop_item_name": "Mask of the Airut", // 4849 chisel:rewards_interface_item_name
-			"rewardshop_cost": 60000000, // 4850 chisel:rewards_interface_cost
+			"rewardshop_cost": 12000000, // 4850 chisel:rewards_interface_cost
 			"rewardshop_obj": 35285, // 4851 chisel:rewards_interface_item
 			"rewardshop_icon": -1, // 4852 chisel:rewards_interface_sprite
 			"rewardshop_is_reward_obj": 1, // 4853
@@ -16468,7 +16460,7 @@
 	{
 		"extra": {
 			"rewardshop_item_name": "Mask of the Aquanites", // 4849 chisel:rewards_interface_item_name
-			"rewardshop_cost": 23000000, // 4850 chisel:rewards_interface_cost
+			"rewardshop_cost": 4600000, // 4850 chisel:rewards_interface_cost
 			"rewardshop_obj": 35289, // 4851 chisel:rewards_interface_item
 			"rewardshop_icon": -1, // 4852 chisel:rewards_interface_sprite
 			"rewardshop_is_reward_obj": 1, // 4853
@@ -16481,7 +16473,7 @@
 	{
 		"extra": {
 			"rewardshop_item_name": "Mask of the Automatons", // 4849 chisel:rewards_interface_item_name
-			"rewardshop_cost": 20000000, // 4850 chisel:rewards_interface_cost
+			"rewardshop_cost": 4000000, // 4850 chisel:rewards_interface_cost
 			"rewardshop_obj": 35283, // 4851 chisel:rewards_interface_item
 			"rewardshop_icon": -1, // 4852 chisel:rewards_interface_sprite
 			"rewardshop_is_reward_obj": 1, // 4853
@@ -16494,7 +16486,7 @@
 	{
 		"extra": {
 			"rewardshop_item_name": "Mask of the Dagannoth", // 4849 chisel:rewards_interface_item_name
-			"rewardshop_cost": 40000000, // 4850 chisel:rewards_interface_cost
+			"rewardshop_cost": 8000000, // 4850 chisel:rewards_interface_cost
 			"rewardshop_obj": 35277, // 4851 chisel:rewards_interface_item
 			"rewardshop_icon": -1, // 4852 chisel:rewards_interface_sprite
 			"rewardshop_is_reward_obj": 1, // 4853
@@ -16507,7 +16499,7 @@
 	{
 		"extra": {
 			"rewardshop_item_name": "Mask of the Black Demon", // 4849 chisel:rewards_interface_item_name
-			"rewardshop_cost": 5000000, // 4850 chisel:rewards_interface_cost
+			"rewardshop_cost": 1000000, // 4850 chisel:rewards_interface_cost
 			"rewardshop_obj": 35287, // 4851 chisel:rewards_interface_item
 			"rewardshop_icon": -1, // 4852 chisel:rewards_interface_sprite
 			"rewardshop_is_reward_obj": 1, // 4853
@@ -16520,7 +16512,7 @@
 	{
 		"extra": {
 			"rewardshop_item_name": "Mask of the Ganodermic", // 4849 chisel:rewards_interface_item_name
-			"rewardshop_cost": 60000000, // 4850 chisel:rewards_interface_cost
+			"rewardshop_cost": 12000000, // 4850 chisel:rewards_interface_cost
 			"rewardshop_obj": 35281, // 4851 chisel:rewards_interface_item
 			"rewardshop_icon": -1, // 4852 chisel:rewards_interface_sprite
 			"rewardshop_is_reward_obj": 1, // 4853
@@ -43864,7 +43856,7 @@
 			"rewardshop_obj": 37005, // 4851 chisel:rewards_interface_item
 			"rewardshop_is_reward_obj": 1, // 4853
 			"rewardshop_buy_option_1": 1, // 4854
-			"rewardshop_tooltip": "Charge the aurelian cape with butterfly jars to release daily for XP in your lowest skill.", // 4858 chisel:rewards_interface_item_desc
+			"rewardshop_tooltip": "Unlocks the cosmetic Aurelian cape.", // 4858 chisel:rewards_interface_item_desc
 			"rewardshop_usetooltip": 1 // 4862 chisel:outfit_piece_4
 		},
 		"id": 3444
@@ -44874,6 +44866,7 @@
 			"rewardshop_tab2": "Outfits", // 4846 chisel:shop_tab2_name
 			"rewardshop_tab3": "Pets", // 4847 chisel:shop_tab3_name
 			"rewardshop_tab4": "Cloaks", // 4848 chisel:shop_tab4_name
+			"rewardshop_currency_obj": 55904, // 4866 chisel:shop_currency_itemId
 			"rewardshop_currency_singular": "Fallen Leaf", // 4900
 			"rewardshop_premium_currency_store": 1, // 5444
 			"rewardshop_currency_lowercase": "fallen leaves", // 5871
@@ -54393,9 +54386,9 @@
 			"rewardshop_cost": 250, // 4850 chisel:rewards_interface_cost
 			"rewardshop_obj": 51494, // 4851 chisel:rewards_interface_item
 			"rewardshop_buy_option_1": 1, // 4854
-			"rewardshop_tooltip": "Meditation bundle contents:<br>The Cloak and Banner of Meditation, Stone of Meditation, 10 Advanced pulse cores, 5 Cinder cores, 5 Portable skilling packs, and 5 Large protean packs.<br>Ironman accounts will ONLY receive the Cloak and Banner of Meditation.", // 4858 chisel:rewards_interface_item_desc
+			"rewardshop_tooltip": "Meditation bundle contents:<br>The Cloak and Banner of Meditation, 1 Cabbage, 1x Cabbage, 1x Cabbage, 1x Cabbage, and 1x Cabbage.<br>Ironman accounts will ONLY receive the Cloak and Banner of Meditation.", // 4858 chisel:rewards_interface_item_desc
 			"rewardshop_usetooltip": 1, // 4862 chisel:outfit_piece_4
-			"rewardshop_obj_override": 51498 // 6131
+			"rewardshop_obj_override": 1965 // 6131
 		},
 		"id": 4330
 	},
@@ -54433,7 +54426,7 @@
 			"package_title": "Meditation bundle", // 4412 chisel:bonds_redeem_name
 			"package_info": "A bundle to support our chosen charities.", // 4415 chisel:bonds_redeem_quantity
 			"package_graphic": 30411, // 4416 chisel:bonds_redeem_sprite
-			"package_tooltip": "Redeem 1 Bond for:<br>The Cloak and Banner of Meditation, Stone of Meditation, 10 Advanced pulse cores, 5 Cinder cores, 5 Portable skilling packs, and 5 Large protean packs.<br>Ironman accounts will ONLY receive the Cloak and Banner of Meditation." // 4417 chisel:bonds_redeem_desc
+			"package_tooltip": "Redeem 1 Bond for:<br>The Cloak and Banner of Meditation, 1 Cabbage, 1x Cabbage, 1x Cabbage, 1x Cabbage, and 1x Cabbage.<br>Ironman accounts will ONLY receive the Cloak and Banner of Meditation." // 4417 chisel:bonds_redeem_desc
 		},
 		"id": 4333
 	},
@@ -54445,10 +54438,10 @@
 			"package_graphic": 20642, // 4416 chisel:bonds_redeem_sprite
 			"package_tooltip": "Redeem 1 Bond for the Meditation bundle.", // 4417 chisel:bonds_redeem_desc
 			"rewardshop_item_name": "Meditation bundle", // 4849 chisel:rewards_interface_item_name
-			"rewardshop_obj": 51498, // 4851 chisel:rewards_interface_item
+			"rewardshop_obj": 1965, // 4851 chisel:rewards_interface_item
 			"rewardshop_is_reward_obj": 0, // 4853
 			"rewardshop_buy_option_1": 1, // 4854
-			"rewardshop_tooltip": "Meditation bundle contents:<br>The Cloak and Banner of Meditation, Stone of Meditation, 10 Advanced pulse cores, 5 Cinder cores, 5 Portable skilling packs, and 5 Large protean packs.<br>Ironman accounts will ONLY receive the Cloak and Banner of Meditation.", // 4858 chisel:rewards_interface_item_desc
+			"rewardshop_tooltip": "Meditation bundle contents:<br>The Cloak and Banner of Meditation, 1 Cabbage, 1x Cabbage, 1x Cabbage, 1x Cabbage, and 1x Cabbage.<br>Ironman accounts will ONLY receive the Cloak and Banner of Meditation.", // 4858 chisel:rewards_interface_item_desc
 			"rewardshop_usetooltip": 1, // 4862 chisel:outfit_piece_4
 			"rewardshop_cost2": 1 // 5878
 		},
@@ -57345,13 +57338,10 @@
 	},
 	{
 		"extra": {
-			"combatv2_ability_name": "Rock of Resilience - 4% XP Boost", // 2794 chisel:spell_name
-			"combatv2_ability_object": 53112, // 4677 chisel:buff_item_id
+			"combatv2_ability_name": "", // 2794 chisel:spell_name
 			"combatv2_buff_type": 0, // 8109 chisel:is_burn
-			"combatv2_buff_uses_ability_end": 1, // 8112 chisel:buff_uses_timer
 			"combatv2_buff_category": 9, // 8114 chisel:buff_category
-			"combatv2_buff_priority": 50, // 8115 chisel:buff_priority
-			"combatv2_buff_tooltip_full_override": 1 // 8116
+			"combatv2_buff_priority": 50 // 8115 chisel:buff_priority
 		},
 		"id": 4574
 	},
@@ -75734,29 +75724,23 @@
 	},
 	{
 		"extra": {
-			"rewardshop_item_name": "Advanced pulse core", // 4849 chisel:rewards_interface_item_name
-			"rewardshop_cost": 50, // 4850 chisel:rewards_interface_cost
-			"rewardshop_obj": 34918, // 4851 chisel:rewards_interface_item
-			"rewardshop_icon": -1, // 4852 chisel:rewards_interface_sprite
-			"rewardshop_buy_option_1": 1, // 4854
-			"rewardshop_buy_option_2": 5, // 4855
-			"rewardshop_buy_option_3": 10, // 4856
-			"rewardshop_tooltip": "Grants +50% XP while active. Once consumed it will explode granting an XP bonus (up to 10%) to you and others nearby.", // 4858 chisel:rewards_interface_item_desc
-			"rewardshop_usetooltip": 1 // 4862 chisel:outfit_piece_4
+			"mtxmgt_category": 3, // 2531 chisel:solomons_category
+			"mtxmgt_subcat": 4, // 2532 chisel:SGS_sub_group
+			"mtxmgt_name": "the Bloodbane", // 2533 chisel:SGS_name
+			"mtxmgt_title_id": 886, // 2543 chisel:title_index_in_enum
+			"mtxmgt_source": 5, // 2546
+			"mtxmgt_was_limited_edition": 1 // 2547 chisel:nature_balance_value_9F3
 		},
 		"id": 6228
 	},
 	{
 		"extra": {
-			"rewardshop_item_name": "Cinder core", // 4849 chisel:rewards_interface_item_name
-			"rewardshop_cost": 50, // 4850 chisel:rewards_interface_cost
-			"rewardshop_obj": 48544, // 4851 chisel:rewards_interface_item
-			"rewardshop_icon": -1, // 4852 chisel:rewards_interface_sprite
-			"rewardshop_buy_option_1": 1, // 4854
-			"rewardshop_buy_option_2": 5, // 4855
-			"rewardshop_buy_option_3": 10, // 4856
-			"rewardshop_tooltip": "Grants +150% Bonus XP burn rate while active. Once consumed it will explode granting a buff to bonus XP burn rate (up to 10%) to you and others nearby.", // 4858 chisel:rewards_interface_item_desc
-			"rewardshop_usetooltip": 1 // 4862 chisel:outfit_piece_4
+			"mtxmgt_category": 3, // 2531 chisel:solomons_category
+			"mtxmgt_subcat": 4, // 2532 chisel:SGS_sub_group
+			"mtxmgt_name": "the Exsanguinated", // 2533 chisel:SGS_name
+			"mtxmgt_title_id": 887, // 2543 chisel:title_index_in_enum
+			"mtxmgt_source": 5, // 2546
+			"mtxmgt_was_limited_edition": 1 // 2547 chisel:nature_balance_value_9F3
 		},
 		"id": 6229
 	},
@@ -75775,31 +75759,10 @@
 	},
 	{
 		"extra": {
-			"rewardshop_item_name": "Medium portable skilling pack", // 4849 chisel:rewards_interface_item_name
-			"rewardshop_cost": 100, // 4850 chisel:rewards_interface_cost
-			"rewardshop_obj": 34026, // 4851 chisel:rewards_interface_item
-			"rewardshop_icon": -1, // 4852 chisel:rewards_interface_sprite
-			"rewardshop_buy_option_1": 1, // 4854
-			"rewardshop_buy_option_2": 5, // 4855
-			"rewardshop_buy_option_3": 10, // 4856
-			"rewardshop_tooltip": "Contains 3 portable skilling stations of your choice. Can help to train Firemaking, Crafting, Fletching, Cooking, Herblore, Smithing or Construction.", // 4858 chisel:rewards_interface_item_desc
-			"rewardshop_usetooltip": 1 // 4862 chisel:outfit_piece_4
+			"combatv2_ability_name": "Basic attack", // 2794 chisel:spell_name
+			"combatv2_ability_ignore_npc_scaling": 1 // 9234
 		},
 		"id": 6231
-	},
-	{
-		"extra": {
-			"rewardshop_item_name": "Protean powerup", // 4849 chisel:rewards_interface_item_name
-			"rewardshop_cost": 50, // 4850 chisel:rewards_interface_cost
-			"rewardshop_obj": 41052, // 4851 chisel:rewards_interface_item
-			"rewardshop_icon": -1, // 4852 chisel:rewards_interface_sprite
-			"rewardshop_buy_option_1": 1, // 4854
-			"rewardshop_buy_option_2": 5, // 4855
-			"rewardshop_buy_option_3": 10, // 4856
-			"rewardshop_tooltip": "Speeds up the rate at which protean items can be used for 5 minutes.", // 4858 chisel:rewards_interface_item_desc
-			"rewardshop_usetooltip": 1 // 4862 chisel:outfit_piece_4
-		},
-		"id": 6232
 	},
 	{
 		"extra": {
@@ -81173,7 +81136,7 @@
 	{
 		"extra": {
 			"skillguide_name": "Grifolaroo", // 2210 chisel:skillguide_what
-			"skillguide_level": 82, // 2212 chisel:required_level?
+			"skillguide_level": 62, // 2212 chisel:required_level?
 			"skillguide_item": 3248, // 2213
 			"skillguide_skill": 20, // 2215
 			"skillguide_members": 1, // 2217 chisel:skillguide_is_members
@@ -81218,7 +81181,7 @@
 	{
 		"extra": {
 			"skillguide_name": "Grifolapine", // 2210 chisel:skillguide_what
-			"skillguide_level": 88, // 2212 chisel:required_level?
+			"skillguide_level": 68, // 2212 chisel:required_level?
 			"skillguide_item": 3246, // 2213
 			"skillguide_skill": 20, // 2215
 			"skillguide_members": 1, // 2217 chisel:skillguide_is_members
@@ -81265,7 +81228,7 @@
 	{
 		"extra": {
 			"skillguide_name": "Ganodermic creatures", // 2210 chisel:skillguide_what
-			"skillguide_level": 95, // 2212 chisel:required_level?
+			"skillguide_level": 75, // 2212 chisel:required_level?
 			"skillguide_item": 3244, // 2213
 			"skillguide_skill": 20, // 2215
 			"skillguide_members": 1, // 2217 chisel:skillguide_is_members
@@ -83060,43 +83023,10 @@
 	},
 	{
 		"extra": {
-			"rewardshop_daily_cap": 60, // 4166
-			"rewardshop_item_name": "Small Protean Pack", // 4849 chisel:rewards_interface_item_name
-			"rewardshop_cost": 500, // 4850 chisel:rewards_interface_cost
-			"rewardshop_obj": 34023, // 4851 chisel:rewards_interface_item
-			"rewardshop_icon": 18936, // 4852 chisel:rewards_interface_sprite
-			"rewardshop_is_reward_obj": 1, // 4853
-			"rewardshop_buy_option_1": 1, // 4854
-			"rewardshop_buy_option_2": 5, // 4855
-			"rewardshop_buy_option_3": 10, // 4856
-			"rewardshop_buy_option_4": 25, // 4857
-			"rewardshop_requirements": "Ironman accounts are not eligible to purchase this item.", // 4859
-			"rewardshop_usetooltip": 2 // 4862 chisel:outfit_piece_4
-		},
-		"id": 6840
-	},
-	{
-		"extra": {
-			"rewardshop_item_name": "Small Portable Skilling Pack", // 4849 chisel:rewards_interface_item_name
-			"rewardshop_cost": 250, // 4850 chisel:rewards_interface_cost
-			"rewardshop_obj": 44707, // 4851 chisel:rewards_interface_item
-			"rewardshop_icon": 18935, // 4852 chisel:rewards_interface_sprite
-			"rewardshop_is_reward_obj": 1, // 4853
-			"rewardshop_buy_option_1": 1, // 4854
-			"rewardshop_buy_option_2": 5, // 4855
-			"rewardshop_buy_option_3": 10, // 4856
-			"rewardshop_buy_option_4": 25, // 4857
-			"rewardshop_requirements": "Ironman accounts are not eligible to purchase this item.", // 4859
-			"rewardshop_usetooltip": 2 // 4862 chisel:outfit_piece_4
-		},
-		"id": 6841
-	},
-	{
-		"extra": {
 			"rewardshop_obj_count": 100, // 4448
 			"rewardshop_item_name": "Enchanted Notepaper", // 4849 chisel:rewards_interface_item_name
 			"rewardshop_cost": 500, // 4850 chisel:rewards_interface_cost
-			"rewardshop_obj": 43045, // 4851 chisel:rewards_interface_item
+			"rewardshop_obj": 30372, // 4851 chisel:rewards_interface_item
 			"rewardshop_icon": 19104, // 4852 chisel:rewards_interface_sprite
 			"rewardshop_is_reward_obj": 1, // 4853
 			"rewardshop_buy_option_1": 1, // 4854
@@ -83768,17 +83698,6 @@
 			"clan_admin_mes_desc": "[Player A] has allowed/disallowed Guests entering the Clan Chat." // 4189 chisel:clan_sys_msg_internal
 		},
 		"id": 6898
-	},
-	{
-		"extra": {
-			"combatv2_ability_name": "Protean Powerup - Protean items can be used with increased speed.", // 2794 chisel:spell_name
-			"combatv2_ability_object": 41052, // 4677 chisel:buff_item_id
-			"combatv2_buff_type": 0, // 8109 chisel:is_burn
-			"combatv2_buff_uses_ability_end": 1, // 8112 chisel:buff_uses_timer
-			"combatv2_buff_category": 7, // 8114 chisel:buff_category
-			"combatv2_buff_priority": 30 // 8115 chisel:buff_priority
-		},
-		"id": 6899
 	},
 	{
 		"extra": {
@@ -96240,7 +96159,7 @@
 			"rewardshop_obj": 31451, // 4851 chisel:rewards_interface_item
 			"rewardshop_is_reward_obj": 1, // 4853
 			"rewardshop_buy_option_1": 1, // 4854
-			"rewardshop_tooltip": "Reading this scroll permanently unlocks the Proficient Construction trait: when constructing a piece of furniture that requires three planks or more, there is a chance that you will retain one plank. The chance is 50% for normal planks, 25% for oak, 20% for teak, 10% for mahogany and 5% for protean.", // 4858 chisel:rewards_interface_item_desc
+			"rewardshop_tooltip": "Reading this scroll permanently unlocks the Proficient Construction trait: when constructing a piece of furniture that requires three planks or more, there is a chance that you will retain one plank. The chance is 50% for normal planks, 25% for oak, 20% for teak, 10% for mahogany and 5% for eternal.", // 4858 chisel:rewards_interface_item_desc
 			"rewardshop_requirements": "You need level 60 in Dungeoneering and Construction to buy this.", // 4859
 			"rewardshop_usetooltip": 1, // 4862 chisel:outfit_piece_4
 			"rewardshop_members": 1 // 6406
@@ -96968,7 +96887,7 @@
 	{
 		"extra": {
 			"skillguide_name": "Soul Devourer: Salawa akh", // 2210 chisel:skillguide_what
-			"skillguide_level": 105, // 2212 chisel:required_level?
+			"skillguide_level": 95, // 2212 chisel:required_level?
 			"skillguide_item": 40504, // 2213
 			"skillguide_skill": 20, // 2215
 			"skillguide_members": 1, // 2217 chisel:skillguide_is_members
@@ -96980,7 +96899,7 @@
 	{
 		"extra": {
 			"skillguide_name": "Soul Devourer: Feline akh", // 2210 chisel:skillguide_what
-			"skillguide_level": 107, // 2212 chisel:required_level?
+			"skillguide_level": 100, // 2212 chisel:required_level?
 			"skillguide_item": 40505, // 2213
 			"skillguide_skill": 20, // 2215
 			"skillguide_members": 1, // 2217 chisel:skillguide_is_members
@@ -96992,7 +96911,7 @@
 	{
 		"extra": {
 			"skillguide_name": "Soul Devourer: Scarab akh", // 2210 chisel:skillguide_what
-			"skillguide_level": 109, // 2212 chisel:required_level?
+			"skillguide_level": 105, // 2212 chisel:required_level?
 			"skillguide_item": 40508, // 2213
 			"skillguide_skill": 20, // 2215
 			"skillguide_members": 1, // 2217 chisel:skillguide_is_members
@@ -107828,7 +107747,7 @@
 	{
 		"extra": {
 			"rewardshop_item_name": "Adrenaline potion refresh", // 4849 chisel:rewards_interface_item_name
-			"rewardshop_cost": 0, // 4850 chisel:rewards_interface_cost
+			"rewardshop_cost": 2000, // 4850 chisel:rewards_interface_cost
 			"rewardshop_obj": 49239, // 4851 chisel:rewards_interface_item
 			"rewardshop_buy_option_1": 1, // 4854
 			"rewardshop_tooltip": "Unlocks the ability to refresh the cooldown of adrenaline potions when channelling an adrenaline crystal.", // 4858 chisel:rewards_interface_item_desc
@@ -107837,7 +107756,6 @@
 			"rewardshop_buy_button_label": "Unlock", // 5091
 			"rewardshop_owned_button_label": "Unlocked", // 5093
 			"rewardshop_owned_button_tooltip": "You have unlocked this.", // 5204
-			"rewardshop_cost2": 2000, // 5878
 			"rewardshop_members": 1, // 6406
 			"rewardshop_unaffordable_button_tooltip": "You need to kill more boss monsters." // 7141
 		},
@@ -108171,24 +108089,19 @@
 		"extra": {
 			"rewardshop_item_list": 6185, // 4842 chisel:shop_inventory
 			"rewardshop_name": "War's Wares", // 4843 chisel:shop_name
-			"rewardshop_currency": "Marks of War", // 4844 chisel:shop_currency
+			"rewardshop_currency": "Boss Kills", // 4844 chisel:shop_currency
 			"rewardshop_tab1": "Upgrades", // 4845 chisel:shop_tab1_name
-			"rewardshop_tab2": "Consumables", // 4846 chisel:shop_tab2_name
-			"rewardshop_currency_singular": "Mark of War", // 4900
-			"rewardshop_currency_lowercase": "marks of war", // 5871
-			"rewardshop_currency2": "Boss Kills", // 5872
-			"rewardshop_currency2_lowercase": "boss kills", // 5873
-			"rewardshop_currency_singular_lowercase": "mark of war", // 5874
-			"rewardshop_currency2_singular": "Boss Kill", // 5875
-			"rewardshop_currency2_singular_lowercase": "boss kill", // 5876
-			"rewardshop_usescurrency2": 1 // 5978
+			"rewardshop_currency_singular": "Boss Kill", // 4900
+			"rewardshop_currency_lowercase": "boss kills", // 5871
+			"rewardshop_currency_singular_lowercase": "boss kill", // 5874
+			"rewardshop_currency_doesnt_decrease": 1 // 8698
 		},
 		"id": 11621
 	},
 	{
 		"extra": {
 			"rewardshop_item_name": "Hub Teleport", // 4849 chisel:rewards_interface_item_name
-			"rewardshop_cost": 0, // 4850 chisel:rewards_interface_cost
+			"rewardshop_cost": 10, // 4850 chisel:rewards_interface_cost
 			"rewardshop_icon": 35042, // 4852 chisel:rewards_interface_sprite
 			"rewardshop_buy_option_1": 1, // 4854
 			"rewardshop_tooltip": "Access to a spell that can teleport you to War's Retreat.", // 4858 chisel:rewards_interface_item_desc
@@ -108197,7 +108110,6 @@
 			"rewardshop_buy_button_label": "Unlock", // 5091
 			"rewardshop_owned_button_label": "Unlocked", // 5093
 			"rewardshop_owned_button_tooltip": "You have unlocked this.", // 5204
-			"rewardshop_cost2": 10, // 5878
 			"rewardshop_unaffordable_button_tooltip": "You need to kill more boss monsters." // 7141
 		},
 		"id": 11622
@@ -108205,7 +108117,7 @@
 	{
 		"extra": {
 			"rewardshop_item_name": "Portal", // 4849 chisel:rewards_interface_item_name
-			"rewardshop_cost": 0, // 4850 chisel:rewards_interface_cost
+			"rewardshop_cost": 100, // 4850 chisel:rewards_interface_cost
 			"rewardshop_icon": 14403, // 4852 chisel:rewards_interface_sprite
 			"rewardshop_buy_option_1": 1, // 4854
 			"rewardshop_tooltip": "Access to the eastern portal.", // 4858 chisel:rewards_interface_item_desc
@@ -108214,7 +108126,6 @@
 			"rewardshop_buy_button_label": "Unlock", // 5091
 			"rewardshop_owned_button_label": "Unlocked", // 5093
 			"rewardshop_owned_button_tooltip": "You have unlocked this.", // 5204
-			"rewardshop_cost2": 100, // 5878
 			"rewardshop_unaffordable_button_tooltip": "You need to kill more boss monsters." // 7141
 		},
 		"id": 11623
@@ -108222,7 +108133,7 @@
 	{
 		"extra": {
 			"rewardshop_item_name": "Altar of War", // 4849 chisel:rewards_interface_item_name
-			"rewardshop_cost": 0, // 4850 chisel:rewards_interface_cost
+			"rewardshop_cost": 200, // 4850 chisel:rewards_interface_cost
 			"rewardshop_icon": 14695, // 4852 chisel:rewards_interface_sprite
 			"rewardshop_buy_option_1": 1, // 4854
 			"rewardshop_tooltip": "Access to the altar of War which restores prayer and summoning points.", // 4858 chisel:rewards_interface_item_desc
@@ -108231,7 +108142,6 @@
 			"rewardshop_buy_button_label": "Unlock", // 5091
 			"rewardshop_owned_button_label": "Unlocked", // 5093
 			"rewardshop_owned_button_tooltip": "You have unlocked this.", // 5204
-			"rewardshop_cost2": 200, // 5878
 			"rewardshop_unaffordable_button_tooltip": "You need to kill more boss monsters." // 7141
 		},
 		"id": 11624
@@ -108239,7 +108149,7 @@
 	{
 		"extra": {
 			"rewardshop_item_name": "Adrenaline crystal", // 4849 chisel:rewards_interface_item_name
-			"rewardshop_cost": 0, // 4850 chisel:rewards_interface_cost
+			"rewardshop_cost": 1000, // 4850 chisel:rewards_interface_cost
 			"rewardshop_obj": 49239, // 4851 chisel:rewards_interface_item
 			"rewardshop_buy_option_1": 1, // 4854
 			"rewardshop_tooltip": "Access to the crystals throughout the garden which generate adrenaline.", // 4858 chisel:rewards_interface_item_desc
@@ -108248,15 +108158,15 @@
 			"rewardshop_buy_button_label": "Unlock", // 5091
 			"rewardshop_owned_button_label": "Unlocked", // 5093
 			"rewardshop_owned_button_tooltip": "You have unlocked this.", // 5204
-			"rewardshop_cost2": 1000, // 5878
 			"rewardshop_unaffordable_button_tooltip": "You need to kill more boss monsters." // 7141
 		},
 		"id": 11625
 	},
 	{
 		"extra": {
+			"rewardshop_is_upgrade": 1, // 4645
 			"rewardshop_item_name": "Upgrade: Oak campfire", // 4849 chisel:rewards_interface_item_name
-			"rewardshop_cost": 1000, // 4850 chisel:rewards_interface_cost
+			"rewardshop_cost": 0, // 4850 chisel:rewards_interface_cost
 			"rewardshop_obj": 1521, // 4851 chisel:rewards_interface_item
 			"rewardshop_buy_option_1": 1, // 4854
 			"rewardshop_tooltip": "An upgrade to the campfire (requires 1,000 oak logs and 15 Firemaking).", // 4858 chisel:rewards_interface_item_desc
@@ -108267,8 +108177,9 @@
 	},
 	{
 		"extra": {
+			"rewardshop_is_upgrade": 1, // 4645
 			"rewardshop_item_name": "Upgrade: Willow campfire", // 4849 chisel:rewards_interface_item_name
-			"rewardshop_cost": 1000, // 4850 chisel:rewards_interface_cost
+			"rewardshop_cost": 0, // 4850 chisel:rewards_interface_cost
 			"rewardshop_obj": 1519, // 4851 chisel:rewards_interface_item
 			"rewardshop_buy_option_1": 1, // 4854
 			"rewardshop_tooltip": "An upgrade to the campfire (requires previous upgrade, 1,000 willow logs and 30 Firemaking).", // 4858 chisel:rewards_interface_item_desc
@@ -108279,8 +108190,9 @@
 	},
 	{
 		"extra": {
+			"rewardshop_is_upgrade": 1, // 4645
 			"rewardshop_item_name": "Upgrade: Maple campfire", // 4849 chisel:rewards_interface_item_name
-			"rewardshop_cost": 1000, // 4850 chisel:rewards_interface_cost
+			"rewardshop_cost": 0, // 4850 chisel:rewards_interface_cost
 			"rewardshop_obj": 1517, // 4851 chisel:rewards_interface_item
 			"rewardshop_buy_option_1": 1, // 4854
 			"rewardshop_tooltip": "An upgrade to the campfire (requires previous upgrade, 1,000 maple logs and 45 Firemaking).", // 4858 chisel:rewards_interface_item_desc
@@ -108291,8 +108203,9 @@
 	},
 	{
 		"extra": {
+			"rewardshop_is_upgrade": 1, // 4645
 			"rewardshop_item_name": "Upgrade: Yew campfire", // 4849 chisel:rewards_interface_item_name
-			"rewardshop_cost": 1000, // 4850 chisel:rewards_interface_cost
+			"rewardshop_cost": 0, // 4850 chisel:rewards_interface_cost
 			"rewardshop_obj": 1515, // 4851 chisel:rewards_interface_item
 			"rewardshop_buy_option_1": 1, // 4854
 			"rewardshop_tooltip": "An upgrade to the campfire (requires previous upgrade, 1,000 yew logs and 60 Firemaking).", // 4858 chisel:rewards_interface_item_desc
@@ -108303,8 +108216,9 @@
 	},
 	{
 		"extra": {
+			"rewardshop_is_upgrade": 1, // 4645
 			"rewardshop_item_name": "Upgrade: Magic campfire", // 4849 chisel:rewards_interface_item_name
-			"rewardshop_cost": 1000, // 4850 chisel:rewards_interface_cost
+			"rewardshop_cost": 0, // 4850 chisel:rewards_interface_cost
 			"rewardshop_obj": 1513, // 4851 chisel:rewards_interface_item
 			"rewardshop_buy_option_1": 1, // 4854
 			"rewardshop_tooltip": "An upgrade to the campfire (requires previous upgrade, 1,000 magic logs and 75 Firemaking).", // 4858 chisel:rewards_interface_item_desc
@@ -108315,8 +108229,9 @@
 	},
 	{
 		"extra": {
+			"rewardshop_is_upgrade": 1, // 4645
 			"rewardshop_item_name": "Upgrade: Elder campfire", // 4849 chisel:rewards_interface_item_name
-			"rewardshop_cost": 1000, // 4850 chisel:rewards_interface_cost
+			"rewardshop_cost": 0, // 4850 chisel:rewards_interface_cost
 			"rewardshop_obj": 29556, // 4851 chisel:rewards_interface_item
 			"rewardshop_buy_option_1": 1, // 4854
 			"rewardshop_tooltip": "An upgrade to the campfire (requires previous upgrade, 1,000 elder logs and 90 Firemaking).", // 4858 chisel:rewards_interface_item_desc
@@ -108381,21 +108296,6 @@
 			"rewardshop_members": 1 // 6406
 		},
 		"id": 11635
-	},
-	{
-		"extra": {
-			"rewardshop_item_name": "Life refresh", // 4849 chisel:rewards_interface_item_name
-			"rewardshop_cost": 2500, // 4850 chisel:rewards_interface_cost
-			"rewardshop_obj": 42662, // 4851 chisel:rewards_interface_item
-			"rewardshop_is_reward_obj": 1, // 4853
-			"rewardshop_buy_option_1": 1, // 4854
-			"rewardshop_buy_option_2": 5, // 4855
-			"rewardshop_buy_option_3": 10, // 4856
-			"rewardshop_tooltip": "This can be used to reset the cooldown of signs and portents of life or death, or the Defence skillcape perk.", // 4858 chisel:rewards_interface_item_desc
-			"rewardshop_usetooltip": 1, // 4862 chisel:outfit_piece_4
-			"rewardshop_members": 1 // 6406
-		},
-		"id": 11636
 	},
 	{
 		"extra": {
@@ -109946,7 +109846,7 @@
 	},
 	{
 		"extra": {
-			"combatv2_ability_info": "Stores up to 1,000 of each decorated or exquisite urn (empty), or incubated effigy (empty).<br>Portable skill station effects are twice as likely to trigger.<br>Skill distraction effects are enhanced.<br>Occasionally receive a blessing from the gods when using non-combat skills which can be captured for invention components." // 2795 chisel:spell_desc
+			"combatv2_ability_info": "Stores up to 1,000 of each decorated or exquisite urn (empty), or incubated effigy (empty).<br>Unlocked chance based Dungeoneering scroll effects gain +5% while worn.<br>Skill distraction effects are enhanced.<br>Occasionally receive a blessing from the gods when using non-combat skills which can be captured for invention components." // 2795 chisel:spell_desc
 		},
 		"id": 11751
 	},
@@ -178332,8 +178232,9 @@
 	},
 	{
 		"extra": {
+			"rewardshop_is_upgrade": 1, // 4645
 			"rewardshop_item_name": "Upgrade: Eternal magic campfire", // 4849 chisel:rewards_interface_item_name
-			"rewardshop_cost": 1000, // 4850 chisel:rewards_interface_cost
+			"rewardshop_cost": 0, // 4850 chisel:rewards_interface_cost
 			"rewardshop_obj": 58250, // 4851 chisel:rewards_interface_item
 			"rewardshop_buy_option_1": 1, // 4854
 			"rewardshop_tooltip": "An upgrade to the campfire (requires previous upgrade, 1,000 eternal magic logs and 100 Firemaking).", // 4858 chisel:rewards_interface_item_desc
@@ -196430,9 +196331,7 @@
 	{
 		"extra": {
 			"recipe_ingredient_type_1": 227, // 2655 chisel:craft_item_1
-			"recipe_ingredient_type_2": 30363, // 2656 chisel:craft_item_2
-			"recipe_ingredient_number_1": 1, // 2665 chisel:is_burial_item
-			"recipe_ingredient_number_2": 1 // 2666 chisel:craft_quantity_2
+			"recipe_ingredient_number_1": 1 // 2665 chisel:is_burial_item
 		},
 		"id": 25676
 	},
@@ -222313,7 +222212,7 @@
 	{
 		"extra": {
 			"task_requirement_1_type": 20, // 1294 chisel:achieve_req_type_1
-			"task_requirement_1_value": 95, // 1295 chisel:achieve_req_value_1
+			"task_requirement_1_value": 88, // 1295 chisel:achieve_req_value_1
 			"task_requirement_2_type": 62, // 1296 chisel:achieve_req_type_2
 			"task_requirement_2_value": 8, // 1297 chisel:achieve_req_value_2
 			"bslay_id": 16, // 1346 chisel:kill_counter_id
@@ -223817,38 +223716,6 @@
 			"thedrop_answer_4": "Turael" // 4759 chisel:quiz_answer_4
 		},
 		"id": 28783
-	},
-	{
-		"extra": {
-			"combatv2_ability_name": "Totem of wisdom.<br>You currently own a totem of wisdom and will gain extra XP from it.", // 2794 chisel:spell_name
-			"combatv2_ability_icon": 23717, // 2802 chisel:spell_prayer_ability_sprite
-			"combatv2_buff_type": 0, // 8109 chisel:is_burn
-			"combatv2_buff_category": 7, // 8114 chisel:buff_category
-			"combatv2_buff_priority": 30 // 8115 chisel:buff_priority
-		},
-		"id": 28784
-	},
-	{
-		"extra": {
-			"combatv2_ability_name": "Attuned to a totem of wisdom.<br>You are attuned to a totem of wisdom and will gain bonus XP when the owner gains XP.", // 2794 chisel:spell_name
-			"combatv2_ability_icon": 23718, // 2802 chisel:spell_prayer_ability_sprite
-			"combatv2_buff_type": 0, // 8109 chisel:is_burn
-			"combatv2_buff_uses_ability_end": 1, // 8112 chisel:buff_uses_timer
-			"combatv2_buff_category": 7, // 8114 chisel:buff_category
-			"combatv2_buff_priority": 30 // 8115 chisel:buff_priority
-		},
-		"id": 28785
-	},
-	{
-		"extra": {
-			"combatv2_ability_name": "Residual totem attunement.<br>You have residual totem attunement and you cannot attune yourself to a new totem until this fades.", // 2794 chisel:spell_name
-			"combatv2_ability_icon": 23719, // 2802 chisel:spell_prayer_ability_sprite
-			"combatv2_buff_type": 1, // 8109 chisel:is_burn
-			"combatv2_buff_uses_ability_end": 1, // 8112 chisel:buff_uses_timer
-			"combatv2_buff_category": 7, // 8114 chisel:buff_category
-			"combatv2_buff_priority": 10 // 8115 chisel:buff_priority
-		},
-		"id": 28786
 	},
 	{
 		"extra": {
@@ -228138,61 +228005,6 @@
 	},
 	{
 		"extra": {
-			"combatv2_ability_name": "Sweet tooth<br>You have recently eaten a chocolate and can't have another one.", // 2794 chisel:spell_name
-			"combatv2_ability_icon": 24538, // 2802 chisel:spell_prayer_ability_sprite
-			"combatv2_buff_type": 1, // 8109 chisel:is_burn
-			"combatv2_buff_uses_ability_end": 1, // 8112 chisel:buff_uses_timer
-			"combatv2_buff_category": 3, // 8114 chisel:buff_category
-			"combatv2_buff_priority": 30 // 8115 chisel:buff_priority
-		},
-		"id": 29170
-	},
-	{
-		"extra": {
-			"combatv2_ability_name": "Healer's chocolate<br>You are currently regenerating health.", // 2794 chisel:spell_name
-			"combatv2_ability_icon": 24532, // 2802 chisel:spell_prayer_ability_sprite
-			"combatv2_buff_type": 0, // 8109 chisel:is_burn
-			"combatv2_buff_uses_ability_end": 1, // 8112 chisel:buff_uses_timer
-			"combatv2_buff_category": 3, // 8114 chisel:buff_category
-			"combatv2_buff_priority": 60 // 8115 chisel:buff_priority
-		},
-		"id": 29171
-	},
-	{
-		"extra": {
-			"combatv2_ability_name": "Knight's chocolate<br>You are currently shielded from some damage.", // 2794 chisel:spell_name
-			"combatv2_ability_icon": 24537, // 2802 chisel:spell_prayer_ability_sprite
-			"combatv2_buff_type": 0, // 8109 chisel:is_burn
-			"combatv2_buff_uses_ability_end": 1, // 8112 chisel:buff_uses_timer
-			"combatv2_buff_category": 3, // 8114 chisel:buff_category
-			"combatv2_buff_priority": 60 // 8115 chisel:buff_priority
-		},
-		"id": 29172
-	},
-	{
-		"extra": {
-			"combatv2_ability_name": "Berserker's chocolate<br>Your attacks of all types currently do extra damage.", // 2794 chisel:spell_name
-			"combatv2_ability_icon": 24535, // 2802 chisel:spell_prayer_ability_sprite
-			"combatv2_buff_type": 0, // 8109 chisel:is_burn
-			"combatv2_buff_uses_ability_end": 1, // 8112 chisel:buff_uses_timer
-			"combatv2_buff_category": 3, // 8114 chisel:buff_category
-			"combatv2_buff_priority": 60 // 8115 chisel:buff_priority
-		},
-		"id": 29173
-	},
-	{
-		"extra": {
-			"combatv2_ability_name": "Porter's chocolate<br>You will send some items you gather to the bank automatically.", // 2794 chisel:spell_name
-			"combatv2_ability_icon": 24536, // 2802 chisel:spell_prayer_ability_sprite
-			"combatv2_buff_type": 0, // 8109 chisel:is_burn
-			"combatv2_buff_uses_ability_end": 1, // 8112 chisel:buff_uses_timer
-			"combatv2_buff_category": 3, // 8114 chisel:buff_category
-			"combatv2_buff_priority": 50 // 8115 chisel:buff_priority
-		},
-		"id": 29174
-	},
-	{
-		"extra": {
 			"mtxmgt_pet_adult_npc": 28639 // 3152
 		},
 		"id": 29175
@@ -231163,7 +230975,7 @@
 	{
 		"extra": {
 			"skillguide_name": "Edimmu dungeon", // 2210 chisel:skillguide_what
-			"skillguide_level": 115, // 2212 chisel:required_level?
+			"skillguide_level": 92, // 2212 chisel:required_level?
 			"skillguide_item": 18503, // 2213
 			"skillguide_skill": 25, // 2215
 			"skillguide_extrareq": "Also requires: Access to Prifddinas", // 2216 chisel:skillguide_req_extra
@@ -244295,28 +244107,6 @@
 	},
 	{
 		"extra": {
-			"combatv2_ability_name": "+2% XP Love Potion Active", // 2794 chisel:spell_name
-			"combatv2_ability_object": 34010, // 4677 chisel:buff_item_id
-			"combatv2_buff_type": 0, // 8109 chisel:is_burn
-			"combatv2_buff_uses_ability_end": 1, // 8112 chisel:buff_uses_timer
-			"combatv2_buff_category": 3, // 8114 chisel:buff_category
-			"combatv2_buff_priority": 10 // 8115 chisel:buff_priority
-		},
-		"id": 30471
-	},
-	{
-		"extra": {
-			"combatv2_ability_name": "+1% XP Love Potion Active", // 2794 chisel:spell_name
-			"combatv2_ability_object": 34010, // 4677 chisel:buff_item_id
-			"combatv2_buff_type": 0, // 8109 chisel:is_burn
-			"combatv2_buff_uses_ability_end": 1, // 8112 chisel:buff_uses_timer
-			"combatv2_buff_category": 3, // 8114 chisel:buff_category
-			"combatv2_buff_priority": 10 // 8115 chisel:buff_priority
-		},
-		"id": 30472
-	},
-	{
-		"extra": {
 			"bslay_tactic_title": "Nature's Blessing", // 4832 chisel:boss_info_title
 			"bslay_tactic_text": "Nature's Blessing is an <col=FFFFFF>extra action</col> granted to you during the fight. It causes a protective dome to appear around your location and is specifically helpful when dealing with Solak's <col=FFFFFF>Blighted Anima Rain</col> attack." // 4833 chisel:boss_info_text
 		},
@@ -245330,7 +245120,7 @@
 	{
 		"extra": {
 			"bslay_tactic_title": "Path One: More Spiders!", // 4832 chisel:boss_info_title
-			"bslay_tactic_text": "If you take the top path, Araxxor will try and spawn spiders to help kill you. Other than standard spiders, he can spawn a <col=FFFFFF>pulsing spider</col> that will heal him while it lives, and a <col=FFFFFF>mirrorback spider</col> that will make the boss reflect all damage while the mirrorback is alive." // 4833 chisel:boss_info_text
+			"bslay_tactic_text": "If you take the top path, Araxxor will try and spawn spiders to help kill you. Other than standard spiders, he can spawn a <col=FFFFFF>pulsing spider</col> that will heal him while it lives, and a <col=FFFFFF>mirrorback spider</col> that, after a brief delay, shields the boss and reflects 25% of incoming damage back at you, increasing with enrage." // 4833 chisel:boss_info_text
 		},
 		"id": 30566
 	},
@@ -248188,20 +247978,6 @@
 	},
 	{
 		"extra": {
-			"rewardshop_item_name": "Advanced pulse core", // 4849 chisel:rewards_interface_item_name
-			"rewardshop_cost": 35, // 4850 chisel:rewards_interface_cost
-			"rewardshop_obj": 34918, // 4851 chisel:rewards_interface_item
-			"rewardshop_icon": -1, // 4852 chisel:rewards_interface_sprite
-			"rewardshop_buy_option_1": 1, // 4854
-			"rewardshop_buy_option_2": 5, // 4855
-			"rewardshop_buy_option_3": 10, // 4856
-			"rewardshop_tooltip": "Grants +50% XP while active. Once consumed it will explode granting an XP bonus (up to 10%) to you and others nearby.", // 4858 chisel:rewards_interface_item_desc
-			"rewardshop_usetooltip": 1 // 4862 chisel:outfit_piece_4
-		},
-		"id": 30850
-	},
-	{
-		"extra": {
 			"rewardshop_item_name": "Artisan's outfit piece", // 4849 chisel:rewards_interface_item_name
 			"rewardshop_cost": 250, // 4850 chisel:rewards_interface_cost
 			"rewardshop_obj": 25186, // 4851 chisel:rewards_interface_item
@@ -248422,20 +248198,6 @@
 			"rewardshop_no_preview": 1 // 9250
 		},
 		"id": 30866
-	},
-	{
-		"extra": {
-			"rewardshop_item_name": "Small protean pack", // 4849 chisel:rewards_interface_item_name
-			"rewardshop_cost": 70, // 4850 chisel:rewards_interface_cost
-			"rewardshop_obj": 34023, // 4851 chisel:rewards_interface_item
-			"rewardshop_icon": -1, // 4852 chisel:rewards_interface_sprite
-			"rewardshop_buy_option_1": 1, // 4854
-			"rewardshop_buy_option_2": 5, // 4855
-			"rewardshop_buy_option_3": 10, // 4856
-			"rewardshop_tooltip": "A pack that contains your choice of 75 protean items.", // 4858 chisel:rewards_interface_item_desc
-			"rewardshop_usetooltip": 1 // 4862 chisel:outfit_piece_4
-		},
-		"id": 30867
 	},
 	{
 		"extra": {
@@ -248994,18 +248756,6 @@
 			"mtxrecol_recolour_colour4": 65463 // 2506 chisel:rc_unk_1
 		},
 		"id": 30924
-	},
-	{
-		"extra": {
-			"combatv2_ability_name": "Pulse Core - 2% XP Boost", // 2794 chisel:spell_name
-			"combatv2_ability_object": 34918, // 4677 chisel:buff_item_id
-			"combatv2_buff_type": 0, // 8109 chisel:is_burn
-			"combatv2_buff_uses_ability_end": 1, // 8112 chisel:buff_uses_timer
-			"combatv2_buff_category": 3, // 8114 chisel:buff_category
-			"combatv2_buff_priority": 50, // 8115 chisel:buff_priority
-			"combatv2_buff_tooltip_full_override": 1 // 8116
-		},
-		"id": 30925
 	},
 	{
 		"extra": {
@@ -252965,18 +252715,6 @@
 			"spotlight_item_ironman_check": 1 // 5086 chisel:unknown_thaler_13de
 		},
 		"id": 31475
-	},
-	{
-		"extra": {
-			"spotlight_item_name": "Silverhawk down (x10)", // 5066
-			"spotlight_item": 34823, // 5067 chisel:thaler_offer_icon_itemId
-			"spotlight_quantity": 10, // 5068 chisel:thaler_store_item_quantity
-			"spotlight_item_price": 35, // 5069 chisel:thaler_offer_price
-			"spotlight_item_tooltip": "This fluffy down is used to charge the Silverhawk boots. Cannot be traded.", // 5070 chisel:thaler_offer_desc
-			"spotlight_item_ironman_check": 1, // 5086 chisel:unknown_thaler_13de
-			"spotlight_item_multiple": 1 // 5634
-		},
-		"id": 31476
 	},
 	{
 		"extra": {
@@ -268151,14 +267889,6 @@
 	},
 	{
 		"extra": {
-			"xp_reward_medium_obj": 39409, // 5744
-			"xp_reward_item_name": "stickers", // 5747
-			"xp_reward_claim_mode": 5 // 8524
-		},
-		"id": 32800
-	},
-	{
-		"extra": {
 			"mtxmgt_category": 2, // 2531 chisel:solomons_category
 			"mtxmgt_subcat": 0, // 2532 chisel:SGS_sub_group
 			"mtxmgt_name": "Shadow Dragoon Helm", // 2533 chisel:SGS_name
@@ -268389,34 +268119,6 @@
 	},
 	{
 		"id": 32848
-	},
-	{
-		"extra": {
-			"rewardshop_item_name": "Medium protean pack", // 4849 chisel:rewards_interface_item_name
-			"rewardshop_cost": 135, // 4850 chisel:rewards_interface_cost
-			"rewardshop_obj": 34024, // 4851 chisel:rewards_interface_item
-			"rewardshop_icon": -1, // 4852 chisel:rewards_interface_sprite
-			"rewardshop_buy_option_1": 1, // 4854
-			"rewardshop_buy_option_2": 5, // 4855
-			"rewardshop_buy_option_3": 10, // 4856
-			"rewardshop_tooltip": "A pack that contains your choice of 150 protean items.", // 4858 chisel:rewards_interface_item_desc
-			"rewardshop_usetooltip": 1 // 4862 chisel:outfit_piece_4
-		},
-		"id": 32849
-	},
-	{
-		"extra": {
-			"rewardshop_item_name": "Large protean pack", // 4849 chisel:rewards_interface_item_name
-			"rewardshop_cost": 240, // 4850 chisel:rewards_interface_cost
-			"rewardshop_obj": 34025, // 4851 chisel:rewards_interface_item
-			"rewardshop_icon": -1, // 4852 chisel:rewards_interface_sprite
-			"rewardshop_buy_option_1": 1, // 4854
-			"rewardshop_buy_option_2": 5, // 4855
-			"rewardshop_buy_option_3": 10, // 4856
-			"rewardshop_tooltip": "A pack that contains your choice of 300 protean items.", // 4858 chisel:rewards_interface_item_desc
-			"rewardshop_usetooltip": 1 // 4862 chisel:outfit_piece_4
-		},
-		"id": 32850
 	},
 	{
 		"extra": {
@@ -270124,13 +269826,10 @@
 	},
 	{
 		"extra": {
-			"combatv2_ability_name": "Valentine's Slam - 4% XP Boost", // 2794 chisel:spell_name
-			"combatv2_ability_object": 36776, // 4677 chisel:buff_item_id
+			"combatv2_ability_name": "", // 2794 chisel:spell_name
 			"combatv2_buff_type": 0, // 8109 chisel:is_burn
-			"combatv2_buff_uses_ability_end": 1, // 8112 chisel:buff_uses_timer
 			"combatv2_buff_category": 9, // 8114 chisel:buff_category
-			"combatv2_buff_priority": 50, // 8115 chisel:buff_priority
-			"combatv2_buff_tooltip_full_override": 1 // 8116
+			"combatv2_buff_priority": 50 // 8115 chisel:buff_priority
 		},
 		"id": 33047
 	},
@@ -271521,11 +271220,6 @@
 			"combatv2_set_item_3": 36891, // 3215 chisel:boost_outfit_item_3
 			"combatv2_set_item_4": 36892, // 3220 chisel:boost_outfit_item_4
 			"combatv2_set_item_5": 36890, // 3225 chisel:boost_outfit_item_5
-			"combatv2_set_item_5a": 30920, // 3226 chisel:boostOutfitAlternative_5
-			"combatv2_set_item_5b": 30921, // 3227
-			"combatv2_set_item_5c": 30922, // 3228
-			"combatv2_set_item_5d": 30923, // 3229
-			"combatv2_set_item_5e": 30924, // 5509
 			"combatv2_ability_info_2": "+2% Agility XP", // 5814
 			"combatv2_ability_info_3": "+3% Agility XP", // 5815
 			"combatv2_ability_info_4": "+4% Agility XP", // 5816
@@ -278660,7 +278354,7 @@
 			"rewardshop_obj": -1, // 4851 chisel:rewards_interface_item
 			"rewardshop_icon": 13212, // 4852 chisel:rewards_interface_sprite
 			"rewardshop_buy_option_1": 1, // 4854
-			"rewardshop_tooltip": "Unlock the ability to cook food at the grill next to the Waiko food merchant.<br>The Waiko grill has the same chance as a portable range to cook an extra portion of Eastern Lands food.", // 4858 chisel:rewards_interface_item_desc
+			"rewardshop_tooltip": "Unlock the ability to cook food at the grill next to the Waiko food merchant.<br>The Waiko grill has a 5% chance to cook an extra portion of Eastern Lands food.", // 4858 chisel:rewards_interface_item_desc
 			"rewardshop_usetooltip": 1 // 4862 chisel:outfit_piece_4
 		},
 		"id": 33814
@@ -282913,20 +282607,6 @@
 	},
 	{
 		"extra": {
-			"rewardshop_item_name": "Gem of Aspiration", // 4849 chisel:rewards_interface_item_name
-			"rewardshop_cost": 1000, // 4850 chisel:rewards_interface_cost
-			"rewardshop_obj": 38136, // 4851 chisel:rewards_interface_item
-			"rewardshop_is_reward_obj": 1, // 4853
-			"rewardshop_buy_option_1": 1, // 4854
-			"rewardshop_buy_option_2": 5, // 4855
-			"rewardshop_buy_option_3": 10, // 4856
-			"rewardshop_tooltip": "Gem of Aspiration - Consuming this will add 500 sanctification points towards upgrading your Sunfury Armour.", // 4858 chisel:rewards_interface_item_desc
-			"rewardshop_usetooltip": 1 // 4862 chisel:outfit_piece_4
-		},
-		"id": 34164
-	},
-	{
-		"extra": {
 			"mtxmgt_name": "Sunfury (Tier 1)", // 2533 chisel:SGS_name
 			"mtxmgt_source": 14, // 2546
 			"mtxmgt_pack_structs": 11564, // 4717 chisel:sgs_pack_components
@@ -282971,17 +282651,6 @@
 	},
 	{
 		"extra": {
-			"combatv2_ability_name": "Lucky Clover XP Boost", // 2794 chisel:spell_name
-			"combatv2_ability_object": 36113, // 4677 chisel:buff_item_id
-			"combatv2_buff_type": 0, // 8109 chisel:is_burn
-			"combatv2_buff_uses_ability_end": 1, // 8112 chisel:buff_uses_timer
-			"combatv2_buff_category": 9, // 8114 chisel:buff_category
-			"combatv2_buff_priority": 30 // 8115 chisel:buff_priority
-		},
-		"id": 34169
-	},
-	{
-		"extra": {
 			"trh_promo_start": 5314, // 4630 chisel:th_promo_start
 			"trh_promo_end": 5318, // 4631 chisel:th_promo_end
 			"trh_promo_banner_de": 28216, // 4639 chisel:th_promo_banner_sprite_de
@@ -282994,7 +282663,6 @@
 	},
 	{
 		"extra": {
-			"trh_cleanup_item_1": 38135, // 3790
 			"trh_promo_start": 5328, // 4630 chisel:th_promo_start
 			"trh_promo_end": 5332, // 4631 chisel:th_promo_end
 			"trh_promo_clearup": 5360, // 4632 chisel:th_item_removal
@@ -283225,28 +282893,6 @@
 			"slayer_pod_npc_anim": 32767 // 6604
 		},
 		"id": 34192
-	},
-	{
-		"extra": {
-			"xp_reward_small_obj": 48261, // 5743
-			"xp_reward_medium_obj": 48262, // 5744
-			"xp_reward_large_obj": 48263, // 5745
-			"xp_reward_huge_obj": 48264, // 5746
-			"xp_reward_item_name": "dawn lanterns", // 5747
-			"xp_reward_claim_mode": 5 // 8524
-		},
-		"id": 34193
-	},
-	{
-		"extra": {
-			"xp_reward_small_obj": 48265, // 5743
-			"xp_reward_medium_obj": 48266, // 5744
-			"xp_reward_large_obj": 48267, // 5745
-			"xp_reward_huge_obj": 48268, // 5746
-			"xp_reward_item_name": "dusk lanterns", // 5747
-			"xp_reward_claim_mode": 5 // 8524
-		},
-		"id": 34194
 	},
 	{
 		"extra": {
@@ -284588,24 +284234,6 @@
 	},
 	{
 		"extra": {
-			"rewardshop_daily_cap": 80, // 4166
-			"rewardshop_obj_count": 2, // 4448
-			"rewardshop_item_name": "Cinder Core", // 4849 chisel:rewards_interface_item_name
-			"rewardshop_cost": 250, // 4850 chisel:rewards_interface_cost
-			"rewardshop_obj": 48544, // 4851 chisel:rewards_interface_item
-			"rewardshop_icon": 18916, // 4852 chisel:rewards_interface_sprite
-			"rewardshop_is_reward_obj": 1, // 4853
-			"rewardshop_buy_option_1": 1, // 4854
-			"rewardshop_buy_option_2": 5, // 4855
-			"rewardshop_buy_option_3": 10, // 4856
-			"rewardshop_buy_option_4": 25, // 4857
-			"rewardshop_requirements": "Ironman accounts are not eligible to purchase this item.", // 4859
-			"rewardshop_usetooltip": 2 // 4862 chisel:outfit_piece_4
-		},
-		"id": 34335
-	},
-	{
-		"extra": {
 			"trh_promo_floaterchest": 77873, // 858
 			"trh_promo_floateranim_idle": 22665, // 859
 			"trh_promo_floateranim_selected": 22664, // 860
@@ -284644,18 +284272,6 @@
 			"trh_chest_setup_ypos_5": 55 // 8004
 		},
 		"id": 34337
-	},
-	{
-		"extra": {
-			"combatv2_ability_name": "Cinder Core - 2% Bonus XP Burn Boost", // 2794 chisel:spell_name
-			"combatv2_ability_object": 48544, // 4677 chisel:buff_item_id
-			"combatv2_buff_type": 0, // 8109 chisel:is_burn
-			"combatv2_buff_uses_ability_end": 1, // 8112 chisel:buff_uses_timer
-			"combatv2_buff_category": 3, // 8114 chisel:buff_category
-			"combatv2_buff_priority": 50, // 8115 chisel:buff_priority
-			"combatv2_buff_tooltip_full_override": 1 // 8116
-		},
-		"id": 34338
 	},
 	{
 		"extra": {
@@ -284982,9 +284598,9 @@
 		"extra": {
 			"rewardshop_item_name": "Boon of Plenty I", // 4849 chisel:rewards_interface_item_name
 			"rewardshop_cost": 2500, // 4850 chisel:rewards_interface_cost
-			"rewardshop_obj": 34918, // 4851 chisel:rewards_interface_item
+			"rewardshop_obj": 35451, // 4851 chisel:rewards_interface_item
 			"rewardshop_buy_option_1": 1, // 4854
-			"rewardshop_tooltip": "Provides a collection of items that can help you level your skills. This includes:<br>- 10 medium prismatic stars, which give you Bonus XP in a skill of your choice.<br>-5 pulse cores, which grant a +50% XP boost while worn until consumed.<br>- 5 cinder cores, which grant a +150% Bonus XP burn boost while worn until consumed.<br>- 50 of each protean item, which can be consumed to grant XP in a specific skill.", // 4858 chisel:rewards_interface_item_desc
+			"rewardshop_tooltip": "Provides a collection of items that can help you level your skills. This includes:<br>- 10 medium bonus XP stars, which give you Bonus XP in a skill of your choice.<br>- 3 cabbages.", // 4858 chisel:rewards_interface_item_desc
 			"rewardshop_usetooltip": 1, // 4862 chisel:outfit_piece_4
 			"rewardshop_buy_button_label": "Claim", // 5091
 			"rewardshop_owned_button_label": "Claimed", // 5093
@@ -285015,9 +284631,9 @@
 		"extra": {
 			"rewardshop_item_name": "Boon of Plenty II", // 4849 chisel:rewards_interface_item_name
 			"rewardshop_cost": 3500, // 4850 chisel:rewards_interface_cost
-			"rewardshop_obj": 50442, // 4851 chisel:rewards_interface_item
+			"rewardshop_obj": 1965, // 4851 chisel:rewards_interface_item
 			"rewardshop_buy_option_1": 1, // 4854
-			"rewardshop_tooltip": "Provides a collection of items that can help you level your skills. This includes:<br>- 10 tiny portable skilling packs, which hold portable skilling stations that let you train certain skills more efficiently until consumed.<br>- 10 combat dummies, which let you train your combat skills until consumed.<br>- 5 medium skill training dummy crates, which hold dummies that let you train certain skills until consumed.", // 4858 chisel:rewards_interface_item_desc
+			"rewardshop_tooltip": "Provides a collection of items that can help you level your skills. This includes:<br>- 3 cabbages.", // 4858 chisel:rewards_interface_item_desc
 			"rewardshop_usetooltip": 1, // 4862 chisel:outfit_piece_4
 			"rewardshop_buy_button_label": "Claim", // 5091
 			"rewardshop_owned_button_label": "Claimed", // 5093
@@ -285033,7 +284649,7 @@
 			"rewardshop_cost": 4500, // 4850 chisel:rewards_interface_cost
 			"rewardshop_obj": 31612, // 4851 chisel:rewards_interface_item
 			"rewardshop_buy_option_1": 1, // 4854
-			"rewardshop_tooltip": "Provides a collection of items that can help you level your skills. This includes:<br>- The spring cleaner, which can convert selected enemy drops into various helpful resources while charged with springs or tight springs.<br>- 100 tight springs, which can charge or upgrade the spring cleaner.<br>- The silverhawk boots, which periodically grant Agility XP while running or skilling, if charged with silverhawk feathers or down.<br>- 100 silverhawk down, which can charge the silverhawk boots.<br>- 100 magic notepaper, which can note items to make them stackable.<br>If you already own the spring cleaner or silverhawk boots, you will not receive them from this collection.", // 4858 chisel:rewards_interface_item_desc
+			"rewardshop_tooltip": "Provides a collection of items that can help you level your skills. This includes:<br>- The spring cleaner, which can convert selected enemy drops into various helpful resources while charged with springs or tight springs.<br>- 100 tight springs, which can charge or upgrade the spring cleaner.<br>- A cosmetic pair of silverhawk boots.<br>- 1 cabbage.<br>- 100 magic notepaper, which can note items to make them stackable.<br>If you already own the spring cleaner or silverhawk boots, you will not receive them from this collection.", // 4858 chisel:rewards_interface_item_desc
 			"rewardshop_usetooltip": 1, // 4862 chisel:outfit_piece_4
 			"rewardshop_buy_button_label": "Claim", // 5091
 			"rewardshop_owned_button_label": "Claimed", // 5093
@@ -295162,34 +294778,6 @@
 	},
 	{
 		"extra": {
-			"rewardshop_item_name": "Medium skill training dummy crate", // 4849 chisel:rewards_interface_item_name
-			"rewardshop_cost": 110, // 4850 chisel:rewards_interface_cost
-			"rewardshop_obj": 36200, // 4851 chisel:rewards_interface_item
-			"rewardshop_icon": -1, // 4852 chisel:rewards_interface_sprite
-			"rewardshop_buy_option_1": 1, // 4854
-			"rewardshop_buy_option_2": 5, // 4855
-			"rewardshop_buy_option_3": 10, // 4856
-			"rewardshop_tooltip": "A medium crate that contains your choice of 2 skill training dummies.", // 4858 chisel:rewards_interface_item_desc
-			"rewardshop_usetooltip": 1 // 4862 chisel:outfit_piece_4
-		},
-		"id": 35240
-	},
-	{
-		"extra": {
-			"rewardshop_item_name": "Large skill training dummy crate", // 4849 chisel:rewards_interface_item_name
-			"rewardshop_cost": 200, // 4850 chisel:rewards_interface_cost
-			"rewardshop_obj": 36196, // 4851 chisel:rewards_interface_item
-			"rewardshop_icon": -1, // 4852 chisel:rewards_interface_sprite
-			"rewardshop_buy_option_1": 1, // 4854
-			"rewardshop_buy_option_2": 5, // 4855
-			"rewardshop_buy_option_3": 10, // 4856
-			"rewardshop_tooltip": "A large crate that contains your choice of 4 skill training dummies.", // 4858 chisel:rewards_interface_item_desc
-			"rewardshop_usetooltip": 1 // 4862 chisel:outfit_piece_4
-		},
-		"id": 35241
-	},
-	{
-		"extra": {
 			"rewardshop_item_name": "Grotesque armour", // 4849 chisel:rewards_interface_item_name
 			"rewardshop_cost": 200, // 4850 chisel:rewards_interface_cost
 			"rewardshop_obj": 36745, // 4851 chisel:rewards_interface_item
@@ -300214,7 +299802,7 @@
 		"extra": {
 			"rewardshop_obj_count": 10, // 4448
 			"rewardshop_item_name": "Air altar teleport", // 4849 chisel:rewards_interface_item_name
-			"rewardshop_cost": 2000, // 4850 chisel:rewards_interface_cost
+			"rewardshop_cost": 400, // 4850 chisel:rewards_interface_cost
 			"rewardshop_obj": 13599, // 4851 chisel:rewards_interface_item
 			"rewardshop_is_reward_obj": 1, // 4853
 			"rewardshop_buy_option_1": 1, // 4854
@@ -300229,7 +299817,7 @@
 		"extra": {
 			"rewardshop_obj_count": 10, // 4448
 			"rewardshop_item_name": "Mind altar teleport", // 4849 chisel:rewards_interface_item_name
-			"rewardshop_cost": 2000, // 4850 chisel:rewards_interface_cost
+			"rewardshop_cost": 400, // 4850 chisel:rewards_interface_cost
 			"rewardshop_obj": 13600, // 4851 chisel:rewards_interface_item
 			"rewardshop_is_reward_obj": 1, // 4853
 			"rewardshop_buy_option_1": 1, // 4854
@@ -300244,7 +299832,7 @@
 		"extra": {
 			"rewardshop_obj_count": 10, // 4448
 			"rewardshop_item_name": "Water altar teleport", // 4849 chisel:rewards_interface_item_name
-			"rewardshop_cost": 2000, // 4850 chisel:rewards_interface_cost
+			"rewardshop_cost": 400, // 4850 chisel:rewards_interface_cost
 			"rewardshop_obj": 13601, // 4851 chisel:rewards_interface_item
 			"rewardshop_is_reward_obj": 1, // 4853
 			"rewardshop_buy_option_1": 1, // 4854
@@ -300259,7 +299847,7 @@
 		"extra": {
 			"rewardshop_obj_count": 10, // 4448
 			"rewardshop_item_name": "Earth altar teleport", // 4849 chisel:rewards_interface_item_name
-			"rewardshop_cost": 2000, // 4850 chisel:rewards_interface_cost
+			"rewardshop_cost": 400, // 4850 chisel:rewards_interface_cost
 			"rewardshop_obj": 13602, // 4851 chisel:rewards_interface_item
 			"rewardshop_is_reward_obj": 1, // 4853
 			"rewardshop_buy_option_1": 1, // 4854
@@ -300274,7 +299862,7 @@
 		"extra": {
 			"rewardshop_obj_count": 10, // 4448
 			"rewardshop_item_name": "Fire altar teleport", // 4849 chisel:rewards_interface_item_name
-			"rewardshop_cost": 2000, // 4850 chisel:rewards_interface_cost
+			"rewardshop_cost": 400, // 4850 chisel:rewards_interface_cost
 			"rewardshop_obj": 13603, // 4851 chisel:rewards_interface_item
 			"rewardshop_is_reward_obj": 1, // 4853
 			"rewardshop_buy_option_1": 1, // 4854
@@ -300289,7 +299877,7 @@
 		"extra": {
 			"rewardshop_obj_count": 10, // 4448
 			"rewardshop_item_name": "Body altar teleport", // 4849 chisel:rewards_interface_item_name
-			"rewardshop_cost": 2000, // 4850 chisel:rewards_interface_cost
+			"rewardshop_cost": 400, // 4850 chisel:rewards_interface_cost
 			"rewardshop_obj": 13604, // 4851 chisel:rewards_interface_item
 			"rewardshop_is_reward_obj": 1, // 4853
 			"rewardshop_buy_option_1": 1, // 4854
@@ -300304,7 +299892,7 @@
 		"extra": {
 			"rewardshop_obj_count": 10, // 4448
 			"rewardshop_item_name": "Cosmic altar teleport", // 4849 chisel:rewards_interface_item_name
-			"rewardshop_cost": 2000, // 4850 chisel:rewards_interface_cost
+			"rewardshop_cost": 400, // 4850 chisel:rewards_interface_cost
 			"rewardshop_obj": 13605, // 4851 chisel:rewards_interface_item
 			"rewardshop_is_reward_obj": 1, // 4853
 			"rewardshop_buy_option_1": 1, // 4854
@@ -300320,7 +299908,7 @@
 		"extra": {
 			"rewardshop_obj_count": 10, // 4448
 			"rewardshop_item_name": "Chaos altar teleport", // 4849 chisel:rewards_interface_item_name
-			"rewardshop_cost": 2000, // 4850 chisel:rewards_interface_cost
+			"rewardshop_cost": 400, // 4850 chisel:rewards_interface_cost
 			"rewardshop_obj": 13606, // 4851 chisel:rewards_interface_item
 			"rewardshop_is_reward_obj": 1, // 4853
 			"rewardshop_buy_option_1": 1, // 4854
@@ -300336,7 +299924,7 @@
 		"extra": {
 			"rewardshop_obj_count": 10, // 4448
 			"rewardshop_item_name": "Astral altar teleport", // 4849 chisel:rewards_interface_item_name
-			"rewardshop_cost": 2000, // 4850 chisel:rewards_interface_cost
+			"rewardshop_cost": 400, // 4850 chisel:rewards_interface_cost
 			"rewardshop_obj": 13611, // 4851 chisel:rewards_interface_item
 			"rewardshop_is_reward_obj": 1, // 4853
 			"rewardshop_buy_option_1": 1, // 4854
@@ -300352,7 +299940,7 @@
 		"extra": {
 			"rewardshop_obj_count": 10, // 4448
 			"rewardshop_item_name": "Nature altar teleport", // 4849 chisel:rewards_interface_item_name
-			"rewardshop_cost": 2000, // 4850 chisel:rewards_interface_cost
+			"rewardshop_cost": 400, // 4850 chisel:rewards_interface_cost
 			"rewardshop_obj": 13607, // 4851 chisel:rewards_interface_item
 			"rewardshop_is_reward_obj": 1, // 4853
 			"rewardshop_buy_option_1": 1, // 4854
@@ -300368,7 +299956,7 @@
 		"extra": {
 			"rewardshop_obj_count": 10, // 4448
 			"rewardshop_item_name": "Law altar teleport", // 4849 chisel:rewards_interface_item_name
-			"rewardshop_cost": 2000, // 4850 chisel:rewards_interface_cost
+			"rewardshop_cost": 400, // 4850 chisel:rewards_interface_cost
 			"rewardshop_obj": 13608, // 4851 chisel:rewards_interface_item
 			"rewardshop_is_reward_obj": 1, // 4853
 			"rewardshop_buy_option_1": 1, // 4854
@@ -300384,7 +299972,7 @@
 		"extra": {
 			"rewardshop_obj_count": 10, // 4448
 			"rewardshop_item_name": "Death altar teleport", // 4849 chisel:rewards_interface_item_name
-			"rewardshop_cost": 2000, // 4850 chisel:rewards_interface_cost
+			"rewardshop_cost": 400, // 4850 chisel:rewards_interface_cost
 			"rewardshop_obj": 13609, // 4851 chisel:rewards_interface_item
 			"rewardshop_is_reward_obj": 1, // 4853
 			"rewardshop_buy_option_1": 1, // 4854
@@ -300400,7 +299988,7 @@
 		"extra": {
 			"rewardshop_obj_count": 10, // 4448
 			"rewardshop_item_name": "Blood altar teleport", // 4849 chisel:rewards_interface_item_name
-			"rewardshop_cost": 2000, // 4850 chisel:rewards_interface_cost
+			"rewardshop_cost": 400, // 4850 chisel:rewards_interface_cost
 			"rewardshop_obj": 13610, // 4851 chisel:rewards_interface_item
 			"rewardshop_is_reward_obj": 1, // 4853
 			"rewardshop_buy_option_1": 1, // 4854
@@ -301031,21 +300619,6 @@
 			"trh118_lunarfury_armour_tier": 2 // 6404
 		},
 		"id": 35769
-	},
-	{
-		"extra": {
-			"rewardshop_item_name": "Lunar Shard", // 4849 chisel:rewards_interface_item_name
-			"rewardshop_cost": 1000, // 4850 chisel:rewards_interface_cost
-			"rewardshop_obj": 39866, // 4851 chisel:rewards_interface_item
-			"rewardshop_is_reward_obj": 1, // 4853
-			"rewardshop_buy_option_1": 1, // 4854
-			"rewardshop_buy_option_2": 5, // 4855
-			"rewardshop_buy_option_3": 10, // 4856
-			"rewardshop_tooltip": "Lunar Shard - Consuming this will add 500 fortification points towards upgrading your Lunarfury Armour.", // 4858 chisel:rewards_interface_item_desc
-			"rewardshop_usetooltip": 3, // 4862 chisel:outfit_piece_4
-			"rewardshop_owned_button_tooltip": "You already have the maximum number of fortification points." // 5204
-		},
-		"id": 35770
 	},
 	{
 		"extra": {
@@ -324076,7 +323649,7 @@
 	{
 		"extra": {
 			"skillguide_name": "The Magister", // 2210 chisel:skillguide_what
-			"skillguide_level": 115, // 2212 chisel:required_level?
+			"skillguide_level": 95, // 2212 chisel:required_level?
 			"skillguide_item": 40510, // 2213
 			"skillguide_skill": 20, // 2215
 			"skillguide_members": 1, // 2217 chisel:skillguide_is_members
@@ -324187,7 +323760,7 @@
 			"task_requirement_1_type": 62, // 1294 chisel:achieve_req_type_1
 			"task_requirement_1_value": 11, // 1295 chisel:achieve_req_value_1
 			"task_requirement_2_type": 20, // 1296 chisel:achieve_req_type_2
-			"task_requirement_2_value": 115, // 1297 chisel:achieve_req_value_2
+			"task_requirement_2_value": 95, // 1297 chisel:achieve_req_value_2
 			"task_requirement_3_type": 62, // 1298 chisel:achieve_req_type_3
 			"task_requirement_3_value": 16, // 1299 chisel:achieve_req_value_3
 			"bslay_id": 29, // 1346 chisel:kill_counter_id
@@ -325552,29 +325125,11 @@
 			"rewardshop_icon": 19023, // 4852 chisel:rewards_interface_sprite
 			"rewardshop_is_reward_obj": 1, // 4853
 			"rewardshop_buy_option_1": 1, // 4854
-			"rewardshop_tooltip": "Boots that can be charged with silverhawk feathers or silverhawk down to train Agility. Wearing the boots will grant you Agility XP periodically while running or skilling, or when using ultimate abilities, so long as they have charges.", // 4858 chisel:rewards_interface_item_desc
+			"rewardshop_tooltip": "A cosmetic pair of boots decorated with silver wings.", // 4858 chisel:rewards_interface_item_desc
 			"rewardshop_requirements": "Ironman accounts are not eligible to purchase this item.", // 4859
 			"rewardshop_usetooltip": 1 // 4862 chisel:outfit_piece_4
 		},
 		"id": 37719
-	},
-	{
-		"extra": {
-			"rewardshop_obj_count": 25, // 4448
-			"rewardshop_item_name": "Silverhawk Down", // 4849 chisel:rewards_interface_item_name
-			"rewardshop_cost": 200, // 4850 chisel:rewards_interface_cost
-			"rewardshop_obj": 34823, // 4851 chisel:rewards_interface_item
-			"rewardshop_icon": 9157, // 4852 chisel:rewards_interface_sprite
-			"rewardshop_is_reward_obj": 1, // 4853
-			"rewardshop_buy_option_1": 1, // 4854
-			"rewardshop_buy_option_2": 5, // 4855
-			"rewardshop_buy_option_3": 10, // 4856
-			"rewardshop_buy_option_4": 25, // 4857
-			"rewardshop_tooltip": "Feathers that are used to charge the silverhawk boots. Wearing the boots will grant you Agility XP periodically while running or skilling, or when using ultimate abilities, so long as they have charges. Cannot be traded.", // 4858 chisel:rewards_interface_item_desc
-			"rewardshop_requirements": "Ironman accounts are not eligible to purchase this item.", // 4859
-			"rewardshop_usetooltip": 1 // 4862 chisel:outfit_piece_4
-		},
-		"id": 37720
 	},
 	{
 		"extra": {
@@ -325595,7 +325150,7 @@
 			"rewardshop_obj_count": 25, // 4448
 			"rewardshop_item_name": "Tight Springs", // 4849 chisel:rewards_interface_item_name
 			"rewardshop_cost": 200, // 4850 chisel:rewards_interface_cost
-			"rewardshop_obj": 36090, // 4851 chisel:rewards_interface_item
+			"rewardshop_obj": 31613, // 4851 chisel:rewards_interface_item
 			"rewardshop_icon": 9158, // 4852 chisel:rewards_interface_sprite
 			"rewardshop_is_reward_obj": 1, // 4853
 			"rewardshop_buy_option_1": 1, // 4854
@@ -340449,14 +340004,6 @@
 	},
 	{
 		"extra": {
-			"xp_reward_medium_obj": 41606, // 5744
-			"xp_reward_item_name": "contracts", // 5747
-			"xp_reward_claim_mode": 5 // 8524
-		},
-		"id": 39071
-	},
-	{
-		"extra": {
 			"skillguide_item": 41634, // 2213
 			"skillguide_skill": 19, // 2215
 			"skillguide_members": 1, // 2217 chisel:skillguide_is_members
@@ -340503,22 +340050,6 @@
 			"rewardshop_no_preview": 1 // 9250
 		},
 		"id": 39075
-	},
-	{
-		"extra": {
-			"rewardshop_obj_count": 1, // 4448
-			"rewardshop_item_name": "Gem of aspiration", // 4849 chisel:rewards_interface_item_name
-			"rewardshop_cost": 100, // 4850 chisel:rewards_interface_cost
-			"rewardshop_obj": 38136, // 4851 chisel:rewards_interface_item
-			"rewardshop_is_reward_obj": 1, // 4853
-			"rewardshop_buy_option_1": 1, // 4854
-			"rewardshop_buy_option_2": 5, // 4855
-			"rewardshop_buy_option_3": 10, // 4856
-			"rewardshop_tooltip": "A gem that can be used to enhance the look of your sunfury armour. Warning: These are redundant once you've upgraded all sunfury items.", // 4858 chisel:rewards_interface_item_desc
-			"rewardshop_usetooltip": 1, // 4862 chisel:outfit_piece_4
-			"rewardshop_required_freespace": 1 // 4899
-		},
-		"id": 39076
 	},
 	{
 		"extra": {
@@ -342028,7 +341559,7 @@
 	},
 	{
 		"extra": {
-			"trh_cleanup_item_1": 41719, // 3790
+			"trh_cleanup_item_1": 41720, // 3790
 			"trh_promo_start": 5825, // 4630 chisel:th_promo_start
 			"trh_promo_end": 5829, // 4631 chisel:th_promo_end
 			"trh_promo_clearup": 5843, // 4632 chisel:th_item_removal
@@ -342036,8 +341567,7 @@
 			"trh_promo_banner_en": 32213, // 4640 chisel:th_promo_banner_sprite_en
 			"trh_promo_banner_fr": 32215, // 4642 chisel:th_promo_banner_sprite_fr
 			"trh_promo_banner_pt": 32216, // 4643 chisel:th_promo_banner_sprite_pt
-			"trh_promo_info_dbrow": 5253, // 4921 chisel:th_prizes_enum_2
-			"trh_cleanup_item_2": 41720 // 6881
+			"trh_promo_info_dbrow": 5253 // 4921 chisel:th_prizes_enum_2
 		},
 		"id": 39205
 	},
@@ -344939,12 +344469,12 @@
 	},
 	{
 		"extra": {
-			"rewardshop_item_name": "D&D token (daily)", // 4849 chisel:rewards_interface_item_name
+			"rewardshop_item_name": "Cabbage", // 4849 chisel:rewards_interface_item_name
 			"rewardshop_cost": 250000, // 4850 chisel:rewards_interface_cost
-			"rewardshop_obj": 27234, // 4851 chisel:rewards_interface_item
+			"rewardshop_obj": 1965, // 4851 chisel:rewards_interface_item
 			"rewardshop_is_reward_obj": 1, // 4853
 			"rewardshop_buy_option_1": 1, // 4854
-			"rewardshop_tooltip": "Resets a daily D&D of your choice.", // 4858 chisel:rewards_interface_item_desc
+			"rewardshop_tooltip": "A cabbage.", // 4858 chisel:rewards_interface_item_desc
 			"rewardshop_requirements": "There are no items available.", // 4859
 			"rewardshop_usetooltip": 1, // 4862 chisel:outfit_piece_4
 			"rewardshop_locked_button_label": "Sold Out" // 5092
@@ -344953,12 +344483,12 @@
 	},
 	{
 		"extra": {
-			"rewardshop_item_name": "D&D token (weekly)", // 4849 chisel:rewards_interface_item_name
+			"rewardshop_item_name": "Cabbage", // 4849 chisel:rewards_interface_item_name
 			"rewardshop_cost": 400000, // 4850 chisel:rewards_interface_cost
-			"rewardshop_obj": 27235, // 4851 chisel:rewards_interface_item
+			"rewardshop_obj": 1965, // 4851 chisel:rewards_interface_item
 			"rewardshop_is_reward_obj": 1, // 4853
 			"rewardshop_buy_option_1": 1, // 4854
-			"rewardshop_tooltip": "Resets a weekly D&D of your choice.", // 4858 chisel:rewards_interface_item_desc
+			"rewardshop_tooltip": "A cabbage.", // 4858 chisel:rewards_interface_item_desc
 			"rewardshop_requirements": "There are no items available.", // 4859
 			"rewardshop_usetooltip": 1, // 4862 chisel:outfit_piece_4
 			"rewardshop_locked_button_label": "Sold Out" // 5092
@@ -344967,12 +344497,12 @@
 	},
 	{
 		"extra": {
-			"rewardshop_item_name": "D&D token (monthly)", // 4849 chisel:rewards_interface_item_name
+			"rewardshop_item_name": "Cabbage", // 4849 chisel:rewards_interface_item_name
 			"rewardshop_cost": 1000000, // 4850 chisel:rewards_interface_cost
-			"rewardshop_obj": 27236, // 4851 chisel:rewards_interface_item
+			"rewardshop_obj": 1965, // 4851 chisel:rewards_interface_item
 			"rewardshop_is_reward_obj": 1, // 4853
 			"rewardshop_buy_option_1": 1, // 4854
-			"rewardshop_tooltip": "Resets a monthly D&D of your choice", // 4858 chisel:rewards_interface_item_desc
+			"rewardshop_tooltip": "A cabbage.", // 4858 chisel:rewards_interface_item_desc
 			"rewardshop_requirements": "There are no items available.", // 4859
 			"rewardshop_usetooltip": 1, // 4862 chisel:outfit_piece_4
 			"rewardshop_locked_button_label": "Sold Out" // 5092
@@ -345071,35 +344601,6 @@
 	},
 	{
 		"extra": {
-			"rewardshop_item_name": "Advanced pulse core", // 4849 chisel:rewards_interface_item_name
-			"rewardshop_cost": 800000, // 4850 chisel:rewards_interface_cost
-			"rewardshop_obj": 34918, // 4851 chisel:rewards_interface_item
-			"rewardshop_is_reward_obj": 1, // 4853
-			"rewardshop_buy_option_1": 1, // 4854
-			"rewardshop_tooltip": "A powerful item that grants 150% bonus XP while active. Once consumed it will explode granting an XP bonus (up to 10%) to everyone around you, including yourself. (1-3)", // 4858 chisel:rewards_interface_item_desc
-			"rewardshop_requirements": "There are no items available.", // 4859
-			"rewardshop_usetooltip": 1, // 4862 chisel:outfit_piece_4
-			"rewardshop_locked_button_label": "Sold Out" // 5092
-		},
-		"id": 39494
-	},
-	{
-		"extra": {
-			"rewardshop_obj_count": 50, // 4448
-			"rewardshop_item_name": "Silverhawk Down", // 4849 chisel:rewards_interface_item_name
-			"rewardshop_cost": 1500000, // 4850 chisel:rewards_interface_cost
-			"rewardshop_obj": 34823, // 4851 chisel:rewards_interface_item
-			"rewardshop_is_reward_obj": 1, // 4853
-			"rewardshop_buy_option_1": 1, // 4854
-			"rewardshop_tooltip": "Used to charge Silverhawk boots. (50-100)", // 4858 chisel:rewards_interface_item_desc
-			"rewardshop_requirements": "There are no items available.", // 4859
-			"rewardshop_usetooltip": 1, // 4862 chisel:outfit_piece_4
-			"rewardshop_locked_button_label": "Sold Out" // 5092
-		},
-		"id": 39495
-	},
-	{
-		"extra": {
 			"rewardshop_item_name": "Crystal triskelion", // 4849 chisel:rewards_interface_item_name
 			"rewardshop_cost": 2000000, // 4850 chisel:rewards_interface_cost
 			"rewardshop_obj": 28550, // 4851 chisel:rewards_interface_item
@@ -345181,20 +344682,6 @@
 			"rewardshop_locked_button_label": "Sold Out" // 5092
 		},
 		"id": 39501
-	},
-	{
-		"extra": {
-			"rewardshop_item_name": "Deathtouched dart", // 4849 chisel:rewards_interface_item_name
-			"rewardshop_cost": 5000000, // 4850 chisel:rewards_interface_cost
-			"rewardshop_obj": 25202, // 4851 chisel:rewards_interface_item
-			"rewardshop_is_reward_obj": 1, // 4853
-			"rewardshop_buy_option_1": 1, // 4854
-			"rewardshop_tooltip": "A dart that kills almost anything. Does not work in PvP.", // 4858 chisel:rewards_interface_item_desc
-			"rewardshop_requirements": "There are no items available.", // 4859
-			"rewardshop_usetooltip": 1, // 4862 chisel:outfit_piece_4
-			"rewardshop_locked_button_label": "Sold Out" // 5092
-		},
-		"id": 39502
 	},
 	{
 		"extra": {
@@ -345856,7 +345343,6 @@
 	},
 	{
 		"extra": {
-			"trh_cleanup_item_1": 42315, // 3790
 			"trh_promo_first_run": 5860, // 3838
 			"trh_promo_start": 5860, // 4630 chisel:th_promo_start
 			"trh_promo_end": 5864, // 4631 chisel:th_promo_end
@@ -345865,8 +345351,7 @@
 			"trh_promo_banner_en": 33087, // 4640 chisel:th_promo_banner_sprite_en
 			"trh_promo_banner_fr": 33089, // 4642 chisel:th_promo_banner_sprite_fr
 			"trh_promo_banner_pt": 33090, // 4643 chisel:th_promo_banner_sprite_pt
-			"trh_promo_info_dbrow": 5255, // 4921 chisel:th_prizes_enum_2
-			"trh_cleanup_item_2": 42316 // 6881
+			"trh_promo_info_dbrow": 5255 // 4921 chisel:th_prizes_enum_2
 		},
 		"id": 39558
 	},
@@ -348781,7 +348266,7 @@
 			"trh_promo_banner_fr": 33530, // 4642 chisel:th_promo_banner_sprite_fr
 			"trh_promo_banner_pt": 33531, // 4643 chisel:th_promo_banner_sprite_pt
 			"trh_promo_info_dbrow": 5645, // 4921 chisel:th_prizes_enum_2
-			"trh_promo_oddments": 52860, // 5396 chisel:th_disp_rarity_15
+			"trh_promo_oddments": 1965, // 5396 chisel:th_disp_rarity_15
 			"motw_banner_en": 33526, // 6381
 			"motw_banner_de": 33525, // 6385
 			"motw_banner_fr": 33524, // 6386
@@ -348804,13 +348289,10 @@
 	},
 	{
 		"extra": {
-			"combatv2_ability_name": "Valentine's Flip - 2% XP Boost", // 2794 chisel:spell_name
-			"combatv2_ability_object": 52862, // 4677 chisel:buff_item_id
+			"combatv2_ability_name": "", // 2794 chisel:spell_name
 			"combatv2_buff_type": 0, // 8109 chisel:is_burn
-			"combatv2_buff_uses_ability_end": 1, // 8112 chisel:buff_uses_timer
 			"combatv2_buff_category": 9, // 8114 chisel:buff_category
-			"combatv2_buff_priority": 50, // 8115 chisel:buff_priority
-			"combatv2_buff_tooltip_full_override": 1 // 8116
+			"combatv2_buff_priority": 50 // 8115 chisel:buff_priority
 		},
 		"id": 39803
 	},
@@ -352296,20 +351778,6 @@
 	},
 	{
 		"extra": {
-			"rewardshop_item_name": "Life refresh", // 4849 chisel:rewards_interface_item_name
-			"rewardshop_cost": 150, // 4850 chisel:rewards_interface_cost
-			"rewardshop_obj": 42662, // 4851 chisel:rewards_interface_item
-			"rewardshop_is_reward_obj": 1, // 4853
-			"rewardshop_buy_option_1": 1, // 4854
-			"rewardshop_buy_option_2": 5, // 4855
-			"rewardshop_buy_option_3": 10, // 4856
-			"rewardshop_tooltip": "This can be used to reset the cooldown of signs and portents of life or death, or the Defence skillcape perk.", // 4858 chisel:rewards_interface_item_desc
-			"rewardshop_usetooltip": 1 // 4862 chisel:outfit_piece_4
-		},
-		"id": 40104
-	},
-	{
-		"extra": {
 			"mtxmgt_category": 2, // 2531 chisel:solomons_category
 			"mtxmgt_subcat": 3, // 2532 chisel:SGS_sub_group
 			"mtxmgt_name": "Valkyrie Lance", // 2533 chisel:SGS_name
@@ -352860,20 +352328,6 @@
 			"rewardshop_no_preview": 1 // 9250
 		},
 		"id": 40155
-	},
-	{
-		"extra": {
-			"rewardshop_item_name": "Large dwarven toolbox", // 4849 chisel:rewards_interface_item_name
-			"rewardshop_cost": 50, // 4850 chisel:rewards_interface_cost
-			"rewardshop_obj": 34527, // 4851 chisel:rewards_interface_item
-			"rewardshop_icon": -1, // 4852 chisel:rewards_interface_sprite
-			"rewardshop_buy_option_1": 1, // 4854
-			"rewardshop_buy_option_2": 5, // 4855
-			"rewardshop_buy_option_3": 10, // 4856
-			"rewardshop_tooltip": "A Dwarven toolbox which can aid you with fishing, mining or woodcutting.", // 4858 chisel:rewards_interface_item_desc
-			"rewardshop_usetooltip": 1 // 4862 chisel:outfit_piece_4
-		},
-		"id": 40156
 	},
 	{
 		"extra": {
@@ -356963,7 +356417,7 @@
 			"rewardshop_buy_option_1": 1, // 4854
 			"rewardshop_buy_option_2": 5, // 4855
 			"rewardshop_buy_option_3": 10, // 4856
-			"rewardshop_tooltip": "Magical trinkets that give Slayer XP, note items and land a finishing blow when fighting chromatic dragons.", // 4858 chisel:rewards_interface_item_desc
+			"rewardshop_tooltip": "Magical trinkets that teleport you to chromatic dragon locations.", // 4858 chisel:rewards_interface_item_desc
 			"rewardshop_requirements": "You require a free inventory space to buy this.", // 4859
 			"rewardshop_usetooltip": 1 // 4862 chisel:outfit_piece_4
 		},
@@ -356980,7 +356434,7 @@
 			"rewardshop_buy_option_1": 1, // 4854
 			"rewardshop_buy_option_2": 5, // 4855
 			"rewardshop_buy_option_3": 10, // 4856
-			"rewardshop_tooltip": "Magical trinkets that you can set up to give you Slayer XP, note items and land a finishing blow when fighting metallic dragons.", // 4858 chisel:rewards_interface_item_desc
+			"rewardshop_tooltip": "Magical trinkets that teleport you to metallic dragon locations.", // 4858 chisel:rewards_interface_item_desc
 			"rewardshop_requirements": "You require a free inventory space to buy this.", // 4859
 			"rewardshop_usetooltip": 1 // 4862 chisel:outfit_piece_4
 		},
@@ -359025,24 +358479,6 @@
 			"rewardshop_usetooltip": 2 // 4862 chisel:outfit_piece_4
 		},
 		"id": 40705
-	},
-	{
-		"extra": {
-			"rewardshop_daily_cap": 80, // 4166
-			"rewardshop_obj_count": 2, // 4448
-			"rewardshop_item_name": "Pulse Core", // 4849 chisel:rewards_interface_item_name
-			"rewardshop_cost": 250, // 4850 chisel:rewards_interface_cost
-			"rewardshop_obj": 34918, // 4851 chisel:rewards_interface_item
-			"rewardshop_icon": 19020, // 4852 chisel:rewards_interface_sprite
-			"rewardshop_is_reward_obj": 1, // 4853
-			"rewardshop_buy_option_1": 1, // 4854
-			"rewardshop_buy_option_2": 5, // 4855
-			"rewardshop_buy_option_3": 10, // 4856
-			"rewardshop_buy_option_4": 25, // 4857
-			"rewardshop_requirements": "Ironman accounts are not eligible to purchase this item.", // 4859
-			"rewardshop_usetooltip": 2 // 4862 chisel:outfit_piece_4
-		},
-		"id": 40706
 	},
 	{
 		"extra": {
@@ -362613,10 +362049,10 @@
 	},
 	{
 		"extra": {
-			"rsraffle_prize_name": "Large Protean Pack", // 7434
-			"rsraffle_prize_description": "3 large protean packs.", // 7435
-			"rsraffle_prize_object": 34025, // 7437
-			"rsraffle_prize_object_quantity": 3 // 7439
+			"rsraffle_prize_name": "Cabbage", // 7434
+			"rsraffle_prize_description": "One cabbage.", // 7435
+			"rsraffle_prize_object": 1965, // 7437
+			"rsraffle_prize_object_quantity": 1 // 7439
 		},
 		"id": 41053
 	},
@@ -362637,10 +362073,10 @@
 	},
 	{
 		"extra": {
-			"rsraffle_prize_name": "Deathtouched Dart", // 7434
-			"rsraffle_prize_description": "Three deathtouched darts.", // 7435
-			"rsraffle_prize_object": 25202, // 7437
-			"rsraffle_prize_object_quantity": 3, // 7439
+			"rsraffle_prize_name": "Cabbage", // 7434
+			"rsraffle_prize_description": "One cabbage.", // 7435
+			"rsraffle_prize_object": 1965, // 7437
+			"rsraffle_prize_object_quantity": 1, // 7439
 			"rsraffle_prize_xangle": 284, // 7443
 			"rsraffle_prize_zoom": 300, // 7446
 			"rsraffle_prize_chance": 100 // 8363
@@ -382651,7 +382087,7 @@
 	{
 		"extra": {
 			"skillguide_name": "Godsword blade", // 2210 chisel:skillguide_what
-			"skillguide_level": 80, // 2212 chisel:required_level?
+			"skillguide_level": 75, // 2212 chisel:required_level?
 			"skillguide_item": 11690, // 2213
 			"skillguide_skill": 14, // 2215
 			"skillguide_members": 1, // 2217 chisel:skillguide_is_members
@@ -390045,11 +389481,12 @@
 	{
 		"extra": {
 			"rewardshop_item_name": "Luminite Injector", // 4849 chisel:rewards_interface_item_name
-			"rewardshop_cost": 100000, // 4850 chisel:rewards_interface_cost
+			"rewardshop_cost": 20000, // 4850 chisel:rewards_interface_cost
 			"rewardshop_obj": 44837, // 4851 chisel:rewards_interface_item
 			"rewardshop_icon": -1, // 4852 chisel:rewards_interface_sprite
 			"rewardshop_is_reward_obj": 1, // 4853
 			"rewardshop_buy_option_1": 1, // 4854
+			"rewardshop_buy_option_2": 5, // 4855
 			"rewardshop_tooltip": "When used on the luminite receiver in the artisans workshop this overloads the workshop allowing all players to generate an additional progress per swing while smithing.", // 4858 chisel:rewards_interface_item_desc
 			"rewardshop_usetooltip": 1 // 4862 chisel:outfit_piece_4
 		},
@@ -392828,7 +392265,7 @@
 			"combatv2_has_extra_cast_requirement": 1, // 2882
 			"combatv2_requires_target_foe": 0, // 3394
 			"combatv2_ability_icon_locked": 12710, // 4030
-			"combatv2_ability_unlock_description": "Unlocked by wearing the full master archaeologist's outfit or consuming a Fixate charge token.", // 4650
+			"combatv2_ability_unlock_description": "Unlocked by wearing the full master archaeologist's outfit or having stored Fixate charges.", // 4650
 			"combatv2_spell_classification": 2, // 5542 chisel:ability_tab_id
 			"combatv2_ability_icon_mobile": 16384 // 8120 chisel:spell_prayer_ability_mobile_sprite
 		},
@@ -402150,14 +401587,6 @@
 	},
 	{
 		"extra": {
-			"trh142_prize_title": "Restored Artefact Replicator - Use this item on a restored artefact to replicate it.", // 855
-			"trh142_prize_graphic": 12024, // 856
-			"mtxmgt_name": "Restored Artefact Replicator" // 2533 chisel:SGS_name
-		},
-		"id": 44579
-	},
-	{
-		"extra": {
 			"trh142_prize_title": "Dwarven Excavator - A prototype dwarven tool that can increase discovery rate or material gain.", // 855
 			"trh142_prize_graphic": 12026, // 856
 			"mtxmgt_name": "Dwarven Excavator" // 2533 chisel:SGS_name
@@ -402321,14 +401750,6 @@
 			"mtxmgt_source_custom": "This item can be obtained from the Yak Coin Shop in the Marketplace." // 4751 chisel:cosmetic_unlock_hint
 		},
 		"id": 44598
-	},
-	{
-		"extra": {
-			"trh142_prize_title": "Fixate Charge Token - Use to gain a single charge of the 'fixate' ability.", // 855
-			"trh142_prize_graphic": 12025, // 856
-			"mtxmgt_name": "Fixate Charge Token" // 2533 chisel:SGS_name
-		},
-		"id": 44599
 	},
 	{
 		"extra": {
@@ -402888,20 +402309,6 @@
 			"rs3tli_button_layer_master_struct": 44647 // 4405
 		},
 		"id": 44652
-	},
-	{
-		"extra": {
-			"rewardshop_item_name": "Combat training dummy", // 4849 chisel:rewards_interface_item_name
-			"rewardshop_cost": 30, // 4850 chisel:rewards_interface_cost
-			"rewardshop_obj": 31785, // 4851 chisel:rewards_interface_item
-			"rewardshop_icon": -1, // 4852 chisel:rewards_interface_sprite
-			"rewardshop_buy_option_1": 1, // 4854
-			"rewardshop_buy_option_2": 5, // 4855
-			"rewardshop_buy_option_3": 10, // 4856
-			"rewardshop_tooltip": "A combat training dummy, on which to train either your melee, ranged or magic skills.", // 4858 chisel:rewards_interface_item_desc
-			"rewardshop_usetooltip": 1 // 4862 chisel:outfit_piece_4
-		},
-		"id": 44653
 	},
 	{
 		"extra": {
@@ -407139,7 +406546,7 @@
 	{
 		"extra": {
 			"skillguide_name": "Reaver's ring", // 2210 chisel:skillguide_what
-			"skillguide_info": "Materials: Heart of the berserker, 10x Berserker ring.", // 2211 chisel:skillguide_req_items
+			"skillguide_info": "Materials: Heart of the berserker, 5x Berserker ring.", // 2211 chisel:skillguide_req_items
 			"skillguide_level": 70, // 2212 chisel:required_level?
 			"skillguide_item": 51470, // 2213
 			"skillguide_skill": 11, // 2215
@@ -407151,7 +406558,7 @@
 	{
 		"extra": {
 			"skillguide_name": "Stalker's ring", // 2210 chisel:skillguide_what
-			"skillguide_info": "Materials: Heart of the archer, 10x Archers' ring.", // 2211 chisel:skillguide_req_items
+			"skillguide_info": "Materials: Heart of the archer, 5x Archers' ring.", // 2211 chisel:skillguide_req_items
 			"skillguide_level": 70, // 2212 chisel:required_level?
 			"skillguide_item": 51468, // 2213
 			"skillguide_skill": 11, // 2215
@@ -407163,7 +406570,7 @@
 	{
 		"extra": {
 			"skillguide_name": "Channeller's ring", // 2210 chisel:skillguide_what
-			"skillguide_info": "Materials: Heart of the seer, 10x Seers' ring.", // 2211 chisel:skillguide_req_items
+			"skillguide_info": "Materials: Heart of the seer, 5x Seers' ring.", // 2211 chisel:skillguide_req_items
 			"skillguide_level": 70, // 2212 chisel:required_level?
 			"skillguide_item": 51467, // 2213
 			"skillguide_skill": 11, // 2215
@@ -407175,7 +406582,7 @@
 	{
 		"extra": {
 			"skillguide_name": "Champion's ring", // 2210 chisel:skillguide_what
-			"skillguide_info": "Materials: Heart of the warrior, 10x Warrior ring.", // 2211 chisel:skillguide_req_items
+			"skillguide_info": "Materials: Heart of the warrior, 5x Warrior ring.", // 2211 chisel:skillguide_req_items
 			"skillguide_level": 70, // 2212 chisel:required_level?
 			"skillguide_item": 51469, // 2213
 			"skillguide_skill": 11, // 2215
@@ -411234,7 +410641,7 @@
 		"extra": {
 			"skillguide_name": "Snape grass", // 2210 chisel:skillguide_what
 			"skillguide_info": "You can protect this by paying a farmer 15 dwellberries.", // 2211 chisel:skillguide_req_items
-			"skillguide_level": 80, // 2212 chisel:required_level?
+			"skillguide_level": 34, // 2212 chisel:required_level?
 			"skillguide_item": 231, // 2213
 			"skillguide_skill": 21, // 2215
 			"skillguide_members": 1, // 2217 chisel:skillguide_is_members
@@ -413926,7 +413333,7 @@
 	{
 		"extra": {
 			"rsraffle_prize_name": "Item Pack", // 7434
-			"rsraffle_prize_description": "One of the following (3 large protean packs, 3 large skill training dummy crates, 20 combat training dummies, 10 large dwarven toolboxes, 3 boxes of clue scrolls).", // 7435
+			"rsraffle_prize_description": "One of the following (1 cabbage, 1 cabbage, 1 cabbage, 1 cabbage, 3 boxes of clue scrolls).", // 7435
 			"rsraffle_prize_object": 47914, // 7437
 			"rsraffle_prize_object_list": 16470, // 7438
 			"rsraffle_prize_object_quantity": -1, // 7439
@@ -413942,28 +413349,28 @@
 	},
 	{
 		"extra": {
-			"rsraffle_prize_name": "Large Skill Training Dummy Crate", // 7434
-			"rsraffle_prize_description": "3 large skill training dummy crates.", // 7435
-			"rsraffle_prize_object": 36196, // 7437
-			"rsraffle_prize_object_quantity": 3 // 7439
+			"rsraffle_prize_name": "Cabbage", // 7434
+			"rsraffle_prize_description": "One cabbage.", // 7435
+			"rsraffle_prize_object": 1965, // 7437
+			"rsraffle_prize_object_quantity": 1 // 7439
 		},
 		"id": 45571
 	},
 	{
 		"extra": {
-			"rsraffle_prize_name": "Combat Training Dummy", // 7434
-			"rsraffle_prize_description": "20 combat training dummies.", // 7435
-			"rsraffle_prize_object": 50442, // 7437
-			"rsraffle_prize_object_quantity": 20 // 7439
+			"rsraffle_prize_name": "Cabbage", // 7434
+			"rsraffle_prize_description": "One cabbage.", // 7435
+			"rsraffle_prize_object": 1965, // 7437
+			"rsraffle_prize_object_quantity": 1 // 7439
 		},
 		"id": 45572
 	},
 	{
 		"extra": {
-			"rsraffle_prize_name": "Large Dwarven Toolbox", // 7434
-			"rsraffle_prize_description": "10 large dwarven toolboxes.", // 7435
-			"rsraffle_prize_object": 34527, // 7437
-			"rsraffle_prize_object_quantity": 10 // 7439
+			"rsraffle_prize_name": "Cabbage", // 7434
+			"rsraffle_prize_description": "One cabbage.", // 7435
+			"rsraffle_prize_object": 1965, // 7437
+			"rsraffle_prize_object_quantity": 1 // 7439
 		},
 		"id": 45573
 	},
@@ -415191,6 +414598,7 @@
 			"xp_reward_large_obj": 35452, // 5745
 			"xp_reward_huge_obj": 35453, // 5746
 			"xp_reward_item_name": "stars", // 5747
+			"xp_reward_giant_obj": 64590, // 8523
 			"xp_reward_claim_mode": 1 // 8524
 		},
 		"id": 45670
@@ -415262,7 +414670,7 @@
 			"mtxmgt_pos_string": "rs:packs:osdOct21Bundle", // 4592
 			"release_date": 7152, // 4742 chisel:th_available_date
 			"withdraw_date": 7159, // 4743 chisel:available_till
-			"mtx_front_end_confirm_details_override": "This bundle contains:<br>- Felix's One Special Costume<br>- Felix's Snowy Shorthair fur texture<br>- 5x Aura refresh<br>- 5x Life refresh<br>- 5x Slayer VIP Coupon<br>- Box of clue scrolls (untradeable)", // 8663
+			"mtx_front_end_confirm_details_override": "This bundle contains:<br>- Felix's One Special Costume<br>- Felix's Snowy Shorthair fur texture<br>- 5x Aura refresh<br>- 5x Slayer VIP Coupon<br>- Box of clue scrolls (untradeable)", // 8663
 			"mtx_front_end_confirm_restrictions_override": "Ironman accounts will ONLY receive Felix's One Special Costume and Snowy Shorthair fur texture.", // 8664
 			"mtx_front_end_confirm_pet_zoom": 300, // 8666
 			"mtx_front_end_confirm_modular_pet_models": 818, // 8671
@@ -415462,20 +414870,6 @@
 			"mtxmgt_pet_override_colour_11_destination": 18199 // 8339
 		},
 		"id": 45690
-	},
-	{
-		"extra": {
-			"rewardshop_obj_count": 1, // 4448
-			"rewardshop_cost": 1500, // 4850 chisel:rewards_interface_cost
-			"rewardshop_obj": 34199, // 4851 chisel:rewards_interface_item
-			"rewardshop_is_reward_obj": 1, // 4853
-			"rewardshop_buy_option_1": 1, // 4854
-			"rewardshop_buy_option_2": 5, // 4855
-			"rewardshop_buy_option_3": 10, // 4856
-			"rewardshop_usetooltip": 2, // 4862 chisel:outfit_piece_4
-			"rewardshop_members": 1 // 6406
-		},
-		"id": 45691
 	},
 	{
 		"extra": {
@@ -417700,7 +417094,7 @@
 			"trh_promo_banner_fr": 35442, // 4642 chisel:th_promo_banner_sprite_fr
 			"trh_promo_banner_pt": 35443, // 4643 chisel:th_promo_banner_sprite_pt
 			"trh_promo_info_dbrow": 5286, // 4921 chisel:th_prizes_enum_2
-			"trh_promo_oddments": 52555, // 5396 chisel:th_disp_rarity_15
+			"trh_promo_oddments": 1965, // 5396 chisel:th_disp_rarity_15
 			"trh_featured_prize": 59802, // 5409 chisel:th_item_amounts_18
 			"motw_banner_en": 35306, // 6381
 			"motw_banner_de": 35307, // 6385
@@ -418824,7 +418218,7 @@
 			"withdraw_date": 8727, // 4743 chisel:available_till
 			"mtxmgt_parent_id": 1234, // 4744
 			"mtxmgt_source_custom": "This can be obtained from the Christmas Spirit Shop in the Christmas Village, during Christmas.", // 4751 chisel:cosmetic_unlock_hint
-			"original_release_date": 8678 // 6628
+			"original_release_date": 9043 // 6628
 		},
 		"id": 45965
 	},
@@ -421602,22 +420996,6 @@
 			"combatv2_ability_info": "Increases the <col=0x00ffff>porter storage cap</col> to <col=0x00ffff>2000</col>.<br>Reduces the <col=0x00ffff>skill prayer drain rate</col> by a further <col=0x00ffff>50%</col> (<col=0x00ffff>100%</col> total)." // 2795 chisel:spell_desc
 		},
 		"id": 46191
-	},
-	{
-		"extra": {
-			"rewardshop_obj_count": 1, // 4448
-			"rewardshop_item_name": "Royal battleship kit", // 4849 chisel:rewards_interface_item_name
-			"rewardshop_cost": 100, // 4850 chisel:rewards_interface_cost
-			"rewardshop_obj": 33768, // 4851 chisel:rewards_interface_item
-			"rewardshop_is_reward_obj": 1, // 4853
-			"rewardshop_buy_option_1": 1, // 4854
-			"rewardshop_buy_option_2": 5, // 4855
-			"rewardshop_buy_option_3": 10, // 4856
-			"rewardshop_buy_option_4": 25, // 4857
-			"rewardshop_requirements": "Ironman accounts are not eligible to purchase this item.", // 4859
-			"rewardshop_usetooltip": 2 // 4862 chisel:outfit_piece_4
-		},
-		"id": 46192
 	},
 	{
 		"extra": {
@@ -424736,7 +424114,7 @@
 			"mtxmgt_pos_string": "rs:packs:mhad22PowerBundle", // 4592
 			"release_date": 7530, // 4742 chisel:th_available_date
 			"withdraw_date": 7537, // 4743 chisel:available_till
-			"mtx_front_end_confirm_details_override": "This bundle contains:<br>- Rock of Resilience (+15 charges for the rock)<br>- 2 x Aura refresh<br>- 2 x Life refresh<br>- 2 x Item protection contract<br>2 x box of clue scrolls (untradeable)<br>- 10 x Advanced pulse core<br>- 10 x Cinder core<br>5 x medium protean pack<br>- 3 x large skill training dummy crate<br><br>The Rock of Resilience grants you a 4% XP boost and those around you a 2% XP boost for 60 minutes per charge. This can be used once a day.", // 8663
+			"mtx_front_end_confirm_details_override": "This bundle contains:<br>- 1 Cabbage<br>- 2 x Aura refresh<br>- 2 x Item protection contract<br>2 x box of clue scrolls (untradeable)<br>- 1 x Cabbage<br>- 1 x Cabbage<br>1x Cabbage<br>- 1x Cabbage", // 8663
 			"mtx_front_end_confirm_restrictions_override": "A maximum of 3 of these packages can be purchased.", // 8664
 			"marketplace_spotlight_description": "Support our Mental Health charities by purchasing this package, available until October 17th.", // 8969
 			"marketplace_spotlight_membership_discount": 0, // 8972
@@ -424784,7 +424162,7 @@
 			"mtxmgt_pos_string": "rs:packs:osdOct22Bundle", // 4592
 			"release_date": 7527, // 4742 chisel:th_available_date
 			"withdraw_date": 7537, // 4743 chisel:available_till
-			"mtx_front_end_confirm_details_override": "This bundle contains:<br>- One Special Beach Day outfit<br>- 3 x medium protean pack <br>- 5 x protean powerup<br>- 3 x medium skill training dummy crate<br>- 6 x combat training dummy<br>- 1 x box of clue scrolls (untradeable)", // 8663
+			"mtx_front_end_confirm_details_override": "This bundle contains:<br>- One Special Beach Day outfit<br>- 1x Cabbage <br>- 1x Cabbage<br>- 1x Cabbage<br>- 1x Cabbage<br>- 1 x box of clue scrolls (untradeable)", // 8663
 			"mtx_front_end_confirm_restrictions_override": "Ironman accounts will ONLY receive the One Special Beach Day outfit.", // 8664
 			"marketplace_spotlight_description": "Support SpecialEffect by purchasing the One Special Day Bundle, available until October 17th.", // 8969
 			"marketplace_spotlight_membership_discount": 0, // 8972
@@ -431745,7 +431123,7 @@
 			"mtxmgt_parent_id": 1423, // 4744
 			"mtxmgt_source_custom": "This can be obtained from the Christmas Spirit Shop in the Christmas Village, during Christmas.", // 4751 chisel:cosmetic_unlock_hint
 			"trh_preview_outfit_anim": 35106, // 5406 chisel:th_item_amounts_15
-			"original_release_date": 8678 // 6628
+			"original_release_date": 9043 // 6628
 		},
 		"id": 47067
 	},
@@ -435778,7 +435156,7 @@
 			"mtxmgt_pos_string": "rs:packs:mhawmay23PowerBundle", // 4592
 			"release_date": 7747, // 4742 chisel:th_available_date
 			"withdraw_date": 7753, // 4743 chisel:available_till
-			"mtx_front_end_confirm_details_override": "This bundle contains:<br>- Rock of Resilience (+15 charges for the rock)<br>- 2 x Aura refresh<br>- 2 x Life refresh<br>- 2 x Item protection contract<br>- 2 x box of clue scrolls (untradeable)<br>- 10 x Advanced pulse core<br>- 10 x Cinder core<br>- 50 x Protean bar, plank, cog, trap, hide, log, memory, shake, protein and essence <br>- 4 x medium skill training dummy crate<br><br>The Rock of Resilience grants you a 4% XP boost and those around you a 2% XP boost for 60 minutes per charge. This can be used once a day.", // 8663
+			"mtx_front_end_confirm_details_override": "This bundle contains:<br>- 1 Cabbage<br>- 2 x Aura refresh<br>- 2 x Item protection contract<br>- 2 x box of clue scrolls (untradeable)<br>- 1 x Cabbage<br>- 1 x Cabbage<br>- 10 x Cabbage <br>- 1x Cabbage", // 8663
 			"mtx_front_end_confirm_restrictions_override": "A maximum of 3 of these packages can be purchased.", // 8664
 			"marketplace_spotlight_description": "Available from 2023 Mental Health Awareness Week Event.", // 8969
 			"marketplace_spotlight_membership_discount": 0, // 8972
@@ -436378,17 +435756,6 @@
 			"rewardshop_usetooltip": 3 // 4862 chisel:outfit_piece_4
 		},
 		"id": 47459
-	},
-	{
-		"extra": {
-			"combatv2_ability_name": "Protean Prolonger - Doubles the maximum actions of any Protean production actions.", // 2794 chisel:spell_name
-			"combatv2_ability_object": 55167, // 4677 chisel:buff_item_id
-			"combatv2_buff_type": 0, // 8109 chisel:is_burn
-			"combatv2_buff_uses_ability_end": 1, // 8112 chisel:buff_uses_timer
-			"combatv2_buff_category": 7, // 8114 chisel:buff_category
-			"combatv2_buff_priority": 30 // 8115 chisel:buff_priority
-		},
-		"id": 47460
 	},
 	{
 		"extra": {
@@ -439554,11 +438921,11 @@
 	{
 		"extra": {
 			"variety_task_events_task_title": "Boss", // 8809
-			"variety_task_events_task_description": "Defeat bosses to earn Marks of War for a chance to receive:", // 8810
-			"variety_task_events_task_description_continued": "You are guaranteed a shard from this task after earning 2,500 Marks of War during the event.<br><br>You can learn more about Marks of War at War's Retreat, by touching War's Insignia north of the Draynor Village lodestone.", // 8811
+			"variety_task_events_task_description": "Defeat bosses for a chance to receive:", // 8810
+			"variety_task_events_task_description_continued": "You are guaranteed a shard from this task after reaching 2,500 boss progress during the event. Tougher bosses grant more progress.", // 8811
 			"variety_task_events_task_activity_roll_description": "as you defeat this boss", // 9018
-			"variety_task_events_task_activity_completion_description": "By earning Marks of War", // 9019
-			"variety_task_events_task_progress_title": "Marks of War", // 9020
+			"variety_task_events_task_activity_completion_description": "By defeating bosses", // 9019
+			"variety_task_events_task_progress_title": "Boss progress", // 9020
 			"variety_task_events_task_button_graphic": 15066, // 9021
 			"variety_task_events_task_progress_var": 16830168, // 9022
 			"variety_task_events_task_requirement": 2500 // 9023
@@ -439568,7 +438935,7 @@
 	{
 		"extra": {
 			"variety_task_events_task_title": "Buy", // 8809
-			"variety_task_events_task_description": "A shady crafter can be found in the north-east of the Grand Exchange. Bring him <col=FFDF00>15 million coins</col> or <col=FFDF00>5,000 protean items</col> to buy:", // 8810
+			"variety_task_events_task_description": "A shady crafter can be found in the north-east of the Grand Exchange. Bring him <col=FFDF00>15 million coins</col> to buy:", // 8810
 			"variety_task_events_task_activity_completion_description": "By paying to complete this task", // 9019
 			"variety_task_events_task_button_graphic": 33389 // 9021
 		},
@@ -448309,7 +447676,7 @@
 	{
 		"extra": {
 			"rewardshop_daily_cap": 2, // 4166
-			"rewardshop_extra_desc": "<col=0xE0D471>Contents:</col><br><col=FFFFFF>2 Tiny protean packs</col><br><br><col=FFFFFF>One of the following:</col><br>- 2-5 Alchemist's keys<br>- 2-5 Crystal keys<br>- 1 Menaphite gift offering (small)<br>- 1 Menaphite gift offering (medium)<br>- 1 Menaphite gift offering (large)<br>- 200-400 Chimes<br>- 1-2 Taijitu<br>- 1 Small goebie burial charm<br>- 1 Large goebie burial charm<br>- 1 Unstable air rune<br>- 1 Small dungeoneering token box<br>- 1 Medium dungeoneering token box<br>- 1 Large dungeoneering token box<br><br><col=FFFFFF>One of the following:</col><br>- 10-30 Onyx dust<br>- 1 Box of clue scrolls (untradeable)<br>- 1 Gift for the Reaper<br>- 1 Crystal triskelion fragment<br>- 1 Slayer VIP Coupon<br>- 1 Ports resource crate<br>- 1 Large bag of components<br>- 1 Starved ancient effigy<br>- 1 Unfocused damage enhancer charge<br>- 1 Unfocused reward enhancer charge<br>- 60k-80k Shattered anima<br>- 1 Strange rock<br>- 1 Golden rock", // 4167
+			"rewardshop_extra_desc": "<col=0xE0D471>Contents:</col><br><col=FFFFFF>1 cabbage</col><br><br><col=FFFFFF>One of the following:</col><br>- 2-5 Alchemist's keys<br>- 2-5 Crystal keys<br>- 1 Menaphite gift offering (small)<br>- 1 Menaphite gift offering (medium)<br>- 1 Menaphite gift offering (large)<br>- 200-400 Chimes<br>- 1-2 Taijitu<br>- 1 Small goebie burial charm<br>- 1 Large goebie burial charm<br>- 1 Unstable air rune<br><br><col=FFFFFF>One of the following:</col><br>- 10-30 Onyx dust<br>- 1 Box of clue scrolls (untradeable)<br>- 1 Gift for the Reaper<br>- 1 Crystal triskelion fragment<br>- 1 Slayer VIP Coupon<br>- 1 Ports resource crate<br>- 1 Large bag of components<br>- 1 Starved ancient effigy<br>- 1 Unfocused damage enhancer charge<br>- 1 Unfocused reward enhancer charge<br>- 60k-80k Shattered anima<br>- 1 Strange rock<br>- 1 Golden rock", // 4167
 			"rewardshop_cost": 250, // 4850 chisel:rewards_interface_cost
 			"rewardshop_obj": 55781, // 4851 chisel:rewards_interface_item
 			"rewardshop_icon": 8771, // 4852 chisel:rewards_interface_sprite
@@ -451814,7 +451181,7 @@
 			"mtxmgt_pos_string": "rs:packs:osdOct23Bundle", // 4592
 			"release_date": 7891, // 4742 chisel:th_available_date
 			"withdraw_date": 7898, // 4743 chisel:available_till
-			"mtx_front_end_confirm_details_override": "This bundle contains:<br>- One Special Off-Duty outfit<br>- 3 x medium protean pack <br>- 5 x protean powerup<br>- 3 x medium skill training dummy crate<br>- 6 x combat training dummy<br>- 1 x box of clue scrolls (untradeable)", // 8663
+			"mtx_front_end_confirm_details_override": "This bundle contains:<br>- One Special Off-Duty outfit<br>- 1x Cabbage <br>- 1x Cabbage<br>- 1x Cabbage<br>- 1x Cabbage<br>- 1 x box of clue scrolls (untradeable)", // 8663
 			"mtx_front_end_confirm_restrictions_override": "Ironman accounts will ONLY receive the One Special Off-Duty outfit.", // 8664
 			"marketplace_spotlight_description": "Support SpecialEffect by purchasing the One Special Day Bundle, available until October 13th.", // 8969
 			"marketplace_spotlight_membership_discount": 0, // 8972
@@ -453742,6 +453109,306 @@
 			"motw_onclick": 14 // 6392
 		},
 		"id": 48923
+	},
+	{
+		"id": 48924
+	},
+	{
+		"extra": {
+			"skillguide_name": "Masterwork smithing", // 2210 chisel:skillguide_what
+			"skillguide_info": "Can create tier 90 Masterwork armour and materials, Masterwork melee armour trim and essences", // 2211 chisel:skillguide_req_items
+			"skillguide_level": 99, // 2212 chisel:required_level?
+			"skillguide_item_graphic": 33477, // 2214
+			"skillguide_skill": 14, // 2215
+			"skillguide_members": 1, // 2217 chisel:skillguide_is_members
+			"skillguide_is_milestone": 1, // 2218
+			"skillguide_filter": 3 // 2220 chisel:skill_ui_subcategory
+		},
+		"id": 48925
+	},
+	{
+		"extra": {
+			"skillguide_name": "Trimmed masterwork melee armour", // 2210 chisel:skillguide_what
+			"skillguide_info": "Can create tier 100 trimmed masterwork melee armour with primal components after completing the Elder Rune +5 achievement", // 2211 chisel:skillguide_req_items
+			"skillguide_level": 110, // 2212 chisel:required_level?
+			"skillguide_item": 46053, // 2213
+			"skillguide_skill": 14, // 2215
+			"skillguide_members": 1, // 2217 chisel:skillguide_is_members
+			"skillguide_is_milestone": 1, // 2218
+			"skillguide_filter": 3 // 2220 chisel:skill_ui_subcategory
+		},
+		"id": 48926
+	},
+	{
+		"extra": {
+			"skillguide_name": "Trimmed masterwork armour", // 2210 chisel:skillguide_what
+			"skillguide_level": 99, // 2212 chisel:required_level?
+			"skillguide_item": 46053, // 2213
+			"skillguide_skill": 5, // 2215
+			"skillguide_is_milestone": 1, // 2218
+			"skillguide_filter": 2 // 2220 chisel:skill_ui_subcategory
+		},
+		"id": 48927
+	},
+	{
+		"extra": {
+			"recipe_ingredient_type_1": 57444, // 2655 chisel:craft_item_1
+			"recipe_ingredient_type_2": 47066, // 2656 chisel:craft_item_2
+			"recipe_ingredient_number_1": 1, // 2665 chisel:is_burial_item
+			"recipe_ingredient_number_2": 1, // 2666 chisel:craft_quantity_2
+			"recipe_ingredient_extra_info_2": 45, // 5457 chisel:metal_bank_enum_item_id2
+			"recipe_multi_name_override": "Primed Glorious Bar", // 7762
+			"recipe_multi_object_override": 57444 // 7763
+		},
+		"id": 48928
+	},
+	{
+		"extra": {
+			"motw_banner_en": 516, // 6381
+			"motw_banner_de": 517, // 6385
+			"motw_banner_fr": 518, // 6386
+			"motw_banner_pt": 519, // 6387
+			"motw_title": "12 Month Membership", // 6391
+			"motw_onclick": 13 // 6392
+		},
+		"id": 48929
+	},
+	{
+		"extra": {
+			"mtxmgt_category": 2, // 2531 chisel:solomons_category
+			"mtxmgt_subcat": 20, // 2532 chisel:SGS_sub_group
+			"mtxmgt_name": "Dragon Slayer Armour", // 2533 chisel:SGS_name
+			"mtxmgt_source": 4, // 2546
+			"mtxmgt_pos_string": "rs:outfits:dragonslayer_armour", // 4592
+			"release_date": 9035, // 4742 chisel:th_available_date
+			"withdraw_date": 9400, // 4743 chisel:available_till
+			"mtxmgt_parent_id": 2542, // 4744
+			"mtxmgt_source_custom": "This item is unlocked via 12 Months Membership.", // 4751 chisel:cosmetic_unlock_hint
+			"original_release_date": 9035 // 6628
+		},
+		"id": 48930
+	},
+	{
+		"extra": {
+			"mtxmgt_category": 2, // 2531 chisel:solomons_category
+			"mtxmgt_subcat": 0, // 2532 chisel:SGS_sub_group
+			"mtxmgt_name": "Dragon Slayer Helmet", // 2533 chisel:SGS_name
+			"mtxmgt_source": 4, // 2546
+			"mtxmgt_parent_struct": 48930, // 4419 chisel:outfit_parent_vbId
+			"release_date": 9035, // 4742 chisel:th_available_date
+			"withdraw_date": 9400, // 4743 chisel:available_till
+			"mtxmgt_source_custom": "This item is unlocked via 12 Months Membership.", // 4751 chisel:cosmetic_unlock_hint
+			"original_release_date": 9035 // 6628
+		},
+		"id": 48931
+	},
+	{
+		"extra": {
+			"mtxmgt_category": 2, // 2531 chisel:solomons_category
+			"mtxmgt_subcat": 4, // 2532 chisel:SGS_sub_group
+			"mtxmgt_name": "Dragon Slayer Cuirass", // 2533 chisel:SGS_name
+			"mtxmgt_source": 4, // 2546
+			"mtxmgt_parent_struct": 48930, // 4419 chisel:outfit_parent_vbId
+			"release_date": 9035, // 4742 chisel:th_available_date
+			"withdraw_date": 9400, // 4743 chisel:available_till
+			"mtxmgt_source_custom": "This item is unlocked via 12 Months Membership.", // 4751 chisel:cosmetic_unlock_hint
+			"original_release_date": 9035 // 6628
+		},
+		"id": 48932
+	},
+	{
+		"extra": {
+			"mtxmgt_category": 2, // 2531 chisel:solomons_category
+			"mtxmgt_subcat": 7, // 2532 chisel:SGS_sub_group
+			"mtxmgt_name": "Dragon Slayer Greaves", // 2533 chisel:SGS_name
+			"mtxmgt_source": 4, // 2546
+			"mtxmgt_parent_struct": 48930, // 4419 chisel:outfit_parent_vbId
+			"release_date": 9035, // 4742 chisel:th_available_date
+			"withdraw_date": 9400, // 4743 chisel:available_till
+			"mtxmgt_source_custom": "This item is unlocked via 12 Months Membership.", // 4751 chisel:cosmetic_unlock_hint
+			"original_release_date": 9035 // 6628
+		},
+		"id": 48933
+	},
+	{
+		"extra": {
+			"mtxmgt_category": 2, // 2531 chisel:solomons_category
+			"mtxmgt_subcat": 9, // 2532 chisel:SGS_sub_group
+			"mtxmgt_name": "Dragon Slayer Gauntlets", // 2533 chisel:SGS_name
+			"mtxmgt_source": 4, // 2546
+			"mtxmgt_parent_struct": 48930, // 4419 chisel:outfit_parent_vbId
+			"release_date": 9035, // 4742 chisel:th_available_date
+			"withdraw_date": 9400, // 4743 chisel:available_till
+			"mtxmgt_source_custom": "This item is unlocked via 12 Months Membership.", // 4751 chisel:cosmetic_unlock_hint
+			"original_release_date": 9035 // 6628
+		},
+		"id": 48934
+	},
+	{
+		"extra": {
+			"mtxmgt_category": 2, // 2531 chisel:solomons_category
+			"mtxmgt_subcat": 10, // 2532 chisel:SGS_sub_group
+			"mtxmgt_name": "Dragon Slayer Boots", // 2533 chisel:SGS_name
+			"mtxmgt_source": 4, // 2546
+			"mtxmgt_parent_struct": 48930, // 4419 chisel:outfit_parent_vbId
+			"release_date": 9035, // 4742 chisel:th_available_date
+			"withdraw_date": 9400, // 4743 chisel:available_till
+			"mtxmgt_source_custom": "This item is unlocked via 12 Months Membership.", // 4751 chisel:cosmetic_unlock_hint
+			"original_release_date": 9035 // 6628
+		},
+		"id": 48935
+	},
+	{
+		"extra": {
+			"mtxmgt_category": 2, // 2531 chisel:solomons_category
+			"mtxmgt_subcat": 1, // 2532 chisel:SGS_sub_group
+			"mtxmgt_name": "Dragon Slayer Cape", // 2533 chisel:SGS_name
+			"mtxmgt_source": 4, // 2546
+			"mtxmgt_parent_struct": 48930, // 4419 chisel:outfit_parent_vbId
+			"release_date": 9035, // 4742 chisel:th_available_date
+			"withdraw_date": 9400, // 4743 chisel:available_till
+			"mtxmgt_source_custom": "This item is unlocked via 12 Months Membership.", // 4751 chisel:cosmetic_unlock_hint
+			"original_release_date": 9035 // 6628
+		},
+		"id": 48936
+	},
+	{
+		"extra": {
+			"mtx_no_recolour": 1, // 477 chisel:pet_category
+			"mtxmgt_category": 5, // 2531 chisel:solomons_category
+			"mtxmgt_subcat": 2, // 2532 chisel:SGS_sub_group
+			"mtxmgt_name": "Dottie", // 2533 chisel:SGS_name
+			"mtxmgt_preview_y_offset": 100, // 2541
+			"mtxmgt_source": 4, // 2546
+			"mtxmgt_renameable": 0, // 4420
+			"mtxmgt_pos_string": "rs:companions:baby_dragon", // 4592
+			"release_date": 9035, // 4742 chisel:th_available_date
+			"withdraw_date": 9400, // 4743 chisel:available_till
+			"mtxmgt_parent_id": 2542, // 4744
+			"mtxmgt_source_custom": "This item is unlocked via 12 Months Membership.", // 4751 chisel:cosmetic_unlock_hint
+			"original_release_date": 9035, // 6628
+			"mtxmgt_pet_info": 48938, // 8226
+			"mtxmgt_interface_positioning": 20601 // 9254
+		},
+		"id": 48937
+	},
+	{
+		"extra": {
+			"mtxmgt_pet_adult_npc": 15646 // 3152
+		},
+		"id": 48938
+	},
+	{
+		"id": 48939
+	},
+	{
+		"extra": {
+			"mtxmgt_pet_override_npc": 15646, // 4692
+			"mtxmgt_pet_override_model": 71956, // 4693
+			"mtxmgt_pet_override_bas": 2558, // 4694
+			"mtxmgt_pet_override_size_scalar": 150 // 4695 chisel:unk_familiar_value_1257
+		},
+		"id": 48940
+	},
+	{
+		"extra": {
+			"mtxmgt_category": 7, // 2531 chisel:solomons_category
+			"mtxmgt_name": "Story Arcs Diorama", // 2533 chisel:SGS_name
+			"mtxmgt_interface_positioning": 20270, // 9254
+			"league_locality": 20603 // 9457
+		},
+		"id": 48941
+	},
+	{
+		"extra": {
+			"mtxmgt_name": "Dragon Slayer Bundle", // 2533 chisel:SGS_name
+			"mtxmgt_pos_string": "rs:packs:dragon_slayer_bundle", // 4592
+			"mtxmgt_pack_structs": 5953, // 4717 chisel:sgs_pack_components
+			"release_date": 9035, // 4742 chisel:th_available_date
+			"mtxmgt_parent_id": 2542 // 4744
+		},
+		"id": 48942
+	},
+	{
+		"extra": {
+			"toplevel_v2_parent_banner_left": 25907, // 3445
+			"toplevel_v2_parent_banner_right": 26132, // 3447
+			"toplevel_v2_window_icon": 25906, // 3495
+			"ribbon_override_icon": 25904, // 5900
+			"side_tab_1_icon_neutral": 28983, // 5901
+			"side_tab_1_icon_highlight": 28983, // 5902
+			"side_tab_1_icon_selected": 28983, // 5903
+			"side_tab_1_layer": 12517385, // 5904
+			"side_tab_1_tooltip": "Advent Calendar", // 5905
+			"side_tab_2_icon_neutral": 25906, // 5906
+			"side_tab_2_icon_highlight": 25906, // 5907
+			"side_tab_2_icon_selected": 25906, // 5908
+			"side_tab_2_layer": 12517387, // 5909
+			"side_tab_2_tooltip": "Coming Soon", // 5910
+			"timed_event_start": 9043, // 6132
+			"timed_event_end": 9066, // 6133
+			"timed_event_cleanup": 9076, // 6134
+			"timed_event_name": "Advent Calendar 2026", // 6135 chisel:tle_name
+			"timed_event_id": 49, // 6145 chisel:mtx_tle_curr_host_id
+			"timed_event_interface_override": 191 // 8313
+		},
+		"id": 48943
+	},
+	{
+		"extra": {
+			"mtxmgt_category": 2, // 2531 chisel:solomons_category
+			"mtxmgt_subcat": 4, // 2532 chisel:SGS_sub_group
+			"mtxmgt_name": "Christmas jumper (Santa hat)", // 2533 chisel:SGS_name
+			"mtxmgt_source": 8, // 2546
+			"release_date": 8678, // 4742 chisel:th_available_date
+			"withdraw_date": 8727, // 4743 chisel:available_till
+			"mtxmgt_parent_id": 2543, // 4744
+			"mtxmgt_source_custom": "This can be obtained from the Advent Calendar during Christmas.", // 4751 chisel:cosmetic_unlock_hint
+			"original_release_date": 9049 // 6628
+		},
+		"id": 48944
+	},
+	{
+		"extra": {
+			"mtxmgt_category": 2, // 2531 chisel:solomons_category
+			"mtxmgt_subcat": 4, // 2532 chisel:SGS_sub_group
+			"mtxmgt_name": "Christmas jumper (Present)", // 2533 chisel:SGS_name
+			"mtxmgt_source": 8, // 2546
+			"release_date": 8678, // 4742 chisel:th_available_date
+			"withdraw_date": 8727, // 4743 chisel:available_till
+			"mtxmgt_parent_id": 2544, // 4744
+			"mtxmgt_source_custom": "This can be obtained from the Advent Calendar during Christmas.", // 4751 chisel:cosmetic_unlock_hint
+			"original_release_date": 9049 // 6628
+		},
+		"id": 48945
+	},
+	{
+		"extra": {
+			"rewardshop_item_name": "Forsaken dye kit", // 4849 chisel:rewards_interface_item_name
+			"rewardshop_cost": 100000, // 4850 chisel:rewards_interface_cost
+			"rewardshop_obj": 64593, // 4851 chisel:rewards_interface_item
+			"rewardshop_is_reward_obj": 1, // 4853
+			"rewardshop_buy_option_1": 1, // 4854
+			"rewardshop_tooltip": "Permanently converts supported equipment into its untradeable Forsaken equivalent. Lost equipment must be crafted again.", // 4858 chisel:rewards_interface_item_desc
+			"rewardshop_usetooltip": 1 // 4862 chisel:outfit_piece_4
+		},
+		"id": 48946
+	},
+	{
+		"extra": {
+			"rewardshop_obj_count": 5, // 4448
+			"rewardshop_item_name": "Omni altar teleport", // 4849 chisel:rewards_interface_item_name
+			"rewardshop_cost": 500, // 4850 chisel:rewards_interface_cost
+			"rewardshop_obj": 64591, // 4851 chisel:rewards_interface_item
+			"rewardshop_is_reward_obj": 1, // 4853
+			"rewardshop_buy_option_1": 1, // 4854
+			"rewardshop_buy_option_2": 5, // 4855
+			"rewardshop_buy_option_3": 10, // 4856
+			"rewardshop_tooltip": "Break this to teleport to the any altar.", // 4858 chisel:rewards_interface_item_desc
+			"rewardshop_usetooltip": 1, // 4862 chisel:outfit_piece_4
+			"rewardshop_members": 1 // 6406
+		},
+		"id": 48947
 	},
 	{
 		"extra": {
@@ -457616,7 +457283,7 @@
 		"extra": {
 			"mtxmgt_name": "Christmas Currency Packs", // 2533 chisel:SGS_name
 			"mtxmgt_front_end_graphic": 31520, // 8346
-			"mtx_front_end_confirm_details_override": "The small pack contains:<br>- Holly Knight swords (Cosmetic Overrides)<br>- 35 Treasure Hunter Keys<br>- 420 RuneCoins<br>- 4 Knowledge bombs<br>- 10 Medium Prismatic stars<br><br>The medium pack contains:<br>- Holly Knight armour (Cosmetic Override)<br>- 450 Treasure Hunter Keys<br>- 2400 RuneCoins<br>- 8 Knowledge bombs<br>- 10 Large Prismatic stars<br>- 1 Umbral chest<br><br> The large pack contains:<br>- Holly Knight armour and swords (Cosmetic Overrides)<br>- 950 Treasure Hunter Keys<br>- 5200 RuneCoins<br>- 16 Knowledge bombs<br>- 20 Huge Prismatic stars<br>- 3 Umbral chests", // 8663
+			"mtx_front_end_confirm_details_override": "The small pack contains:<br>- Holly Knight swords (Cosmetic Overrides)<br>- 35 Treasure Hunter Keys<br>- 420 RuneCoins<br>- 1 Cabbage<br>- 1 Cabbage<br><br>The medium pack contains:<br>- Holly Knight armour (Cosmetic Override)<br>- 450 Treasure Hunter Keys<br>- 2400 RuneCoins<br>- 1 Cabbage<br>- 1 Cabbage<br>- 1 Umbral chest<br><br> The large pack contains:<br>- Holly Knight armour and swords (Cosmetic Overrides)<br>- 950 Treasure Hunter Keys<br>- 5200 RuneCoins<br>- 1 Cabbage<br>- 1 Cabbage<br>- 3 Umbral chests", // 8663
 			"mtx_front_end_confirm_restrictions_override": "Each pack can only be purchased once.<br>Ironmen will only receive Runecoins and Cosmetic items.<br>Available until the 3rd January 2024.", // 8664
 			"marketplace_spotlight_description": "Treat yourself this Christmas with bumper bundles of Cosmetics, Keys, RuneCoins and more! With these three one-time purchase packs - grab them before they go on the 3rd January 2024.", // 8969
 			"marketplace_spotlight_membership_discount": 0, // 8972
@@ -459903,21 +459570,6 @@
 			"toplevel_v2_window_prevent_clickthrough": 0 // 3734
 		},
 		"id": 49467
-	},
-	{
-		"extra": {
-			"rewardshop_item_name": "Small dwarven toolbox", // 4849 chisel:rewards_interface_item_name
-			"rewardshop_cost": 500, // 4850 chisel:rewards_interface_cost
-			"rewardshop_obj": 34526, // 4851 chisel:rewards_interface_item
-			"rewardshop_is_reward_obj": 1, // 4853
-			"rewardshop_buy_option_1": 1, // 4854
-			"rewardshop_buy_option_2": 5, // 4855
-			"rewardshop_buy_option_3": 10, // 4856
-			"rewardshop_buy_option_4": 25, // 4857
-			"rewardshop_requirements": "Ironman accounts are not eligible to purchase this item.", // 4859
-			"rewardshop_usetooltip": 2 // 4862 chisel:outfit_piece_4
-		},
-		"id": 49468
 	},
 	{
 		"extra": {
@@ -465921,30 +465573,6 @@
 	},
 	{
 		"extra": {
-			"trh142_prize_obj": 57064 // 9111
-		},
-		"id": 49937
-	},
-	{
-		"extra": {
-			"trh142_prize_obj": 57059 // 9111
-		},
-		"id": 49938
-	},
-	{
-		"extra": {
-			"trh142_prize_obj": 57065 // 9111
-		},
-		"id": 49939
-	},
-	{
-		"extra": {
-			"trh142_prize_obj": 57068 // 9111
-		},
-		"id": 49940
-	},
-	{
-		"extra": {
 			"trh_mark_tutorial_seen": 1, // 388
 			"trh_promo_floateranim_idle": 22665, // 859
 			"trh_promo_floateranim_selected": 22664, // 860
@@ -465967,9 +465595,6 @@
 			"trh_promo_hide_ticker": 1 // 8712
 		},
 		"id": 49941
-	},
-	{
-		"id": 49942
 	},
 	{
 		"extra": {
@@ -476197,7 +475822,7 @@
 			"slayer_description": "Grifolapines live in a cave north-east of the Mage Training Arena. The creatures of that dungeon are coated in toxic fungus, so you should fight them from a distance, and dodge when they charge at you. The fungus helps them repair physical damage, so you might prefer using magical attacks.", // 462
 			"slayer_name": "grifolapines", // 463
 			"slayer_cl_req": 75, // 465
-			"slayer_sl_req": 88, // 466
+			"slayer_sl_req": 68, // 466
 			"slayer_example_npc": 14688 // 659
 		},
 		"id": 50768
@@ -476208,7 +475833,7 @@
 			"slayer_description": "Grifolaroos live in a cave north-east of the Mage Training Arena. The creatures of that dungeon are coated in toxic fungus, so you should fight them from a distance, although they'll try to hop over obstacles towards you. The fungus helps them repair physical damage, so you might prefer using magical attacks.", // 462
 			"slayer_name": "grifolaroos", // 463
 			"slayer_cl_req": 75, // 465
-			"slayer_sl_req": 82, // 466
+			"slayer_sl_req": 62, // 466
 			"slayer_example_npc": 14700 // 659
 		},
 		"id": 50769
@@ -476575,7 +476200,7 @@
 			"slayer_description": "Grifolapines live in a cave north-east of the Mage Training Arena. The creatures of that dungeon are coated in toxic fungus, so you should fight them from a distance, and dodge when they charge at you. The fungus helps them repair physical damage, so you might prefer using magical attacks.", // 462
 			"slayer_name": "grifolapines", // 463
 			"slayer_cl_req": 75, // 465
-			"slayer_sl_req": 88, // 466
+			"slayer_sl_req": 68, // 466
 			"slayer_example_npc": 14688 // 659
 		},
 		"id": 50805
@@ -476586,7 +476211,7 @@
 			"slayer_description": "Grifolaroos live in a cave north-east of the Mage Training Arena. The creatures of that dungeon are coated in toxic fungus, so you should fight them from a distance, although they'll try to hop over obstacles towards you. The fungus helps them repair physical damage, so you might prefer using magical attacks.", // 462
 			"slayer_name": "grifolaroos", // 463
 			"slayer_cl_req": 75, // 465
-			"slayer_sl_req": 82, // 466
+			"slayer_sl_req": 62, // 466
 			"slayer_example_npc": 14700 // 659
 		},
 		"id": 50806
@@ -477005,7 +476630,7 @@
 			"slayer_type": 96, // 460 chisel:enum_1563_index
 			"slayer_description": "Ganodermic beasts and runts live in the depths of a cave north-east of the Mage Training Arena. The creatures of that dungeon are coated in toxic fungus, so you should fight them from a distance. The fungus helps them repair physical damage, so you might prefer using magical attacks.", // 462
 			"slayer_name": "ganodermic creatures", // 463
-			"slayer_sl_req": 95, // 466
+			"slayer_sl_req": 75, // 466
 			"slayer_example_npc": 14696 // 659
 		},
 		"id": 50847
@@ -477015,7 +476640,7 @@
 			"slayer_type": 97, // 460 chisel:enum_1563_index
 			"slayer_description": "Grifolapines live in a cave north-east of the Mage Training Arena. The creatures of that dungeon are coated in toxic fungus, so you should fight them from a distance, and dodge when they charge at you. The fungus helps them repair physical damage, so you might prefer using magical attacks.", // 462
 			"slayer_name": "grifolapines", // 463
-			"slayer_sl_req": 88, // 466
+			"slayer_sl_req": 68, // 466
 			"slayer_example_npc": 14688 // 659
 		},
 		"id": 50848
@@ -477025,7 +476650,7 @@
 			"slayer_type": 98, // 460 chisel:enum_1563_index
 			"slayer_description": "Grifolaroos live in a cave north-east of the Mage Training Arena. The creatures of that dungeon are coated in toxic fungus, so you should fight them from a distance, although they'll try to hop over obstacles towards you. The fungus helps them repair physical damage, so you might prefer using magical attacks.", // 462
 			"slayer_name": "grifolaroos", // 463
-			"slayer_sl_req": 82, // 466
+			"slayer_sl_req": 62, // 466
 			"slayer_example_npc": 14700 // 659
 		},
 		"id": 50849
@@ -477452,7 +477077,7 @@
 			"slayer_type": 96, // 460 chisel:enum_1563_index
 			"slayer_description": "Ganodermic beasts and runts live in the depths of a cave north-east of the Mage Training Arena. The creatures of that dungeon are coated in toxic fungus, so you should fight them from a distance. The fungus helps them repair physical damage, so you might prefer using magical attacks.", // 462
 			"slayer_name": "ganodermic creatures", // 463
-			"slayer_sl_req": 95, // 466
+			"slayer_sl_req": 75, // 466
 			"slayer_example_npc": 14696 // 659
 		},
 		"id": 50891
@@ -477462,7 +477087,7 @@
 			"slayer_type": 97, // 460 chisel:enum_1563_index
 			"slayer_description": "Grifolapines live in the depths of a cave north-east of the Mage Training Arena. The creatures of that dungeon are coated in toxic fungus, so you should fight them from a distance, and dodge when they charge at you. The fungus helps them repair physical damage, so you might prefer using magical attacks.", // 462
 			"slayer_name": "grifolapines", // 463
-			"slayer_sl_req": 88, // 466
+			"slayer_sl_req": 68, // 466
 			"slayer_example_npc": 14688 // 659
 		},
 		"id": 50892
@@ -477472,7 +477097,7 @@
 			"slayer_type": 98, // 460 chisel:enum_1563_index
 			"slayer_description": "Grifolaroos live in the depths of a cave north-east of the Mage Training Arena. The creatures of that dungeon are coated in toxic fungus, so you should fight them from a distance, although they'll try to hop over obstacles towards you. The fungus helps them repair physical damage, so you might prefer using magical attacks.", // 462
 			"slayer_name": "grifolaroos", // 463
-			"slayer_sl_req": 82, // 466
+			"slayer_sl_req": 62, // 466
 			"slayer_example_npc": 14700 // 659
 		},
 		"id": 50893
@@ -477938,7 +477563,7 @@
 			"slayer_type": 96, // 460 chisel:enum_1563_index
 			"slayer_description": "Ganodermic beasts and runts live in the depths of a cave north-east of the Mage Training Arena. The creatures of that dungeon are coated in toxic fungus, so you should fight them from a distance. The fungus helps them repair physical damage, so you might prefer using magical attacks.", // 462
 			"slayer_name": "ganodermic creatures", // 463
-			"slayer_sl_req": 95, // 466
+			"slayer_sl_req": 75, // 466
 			"slayer_example_npc": 14696 // 659
 		},
 		"id": 50939
@@ -478606,7 +478231,7 @@
 			"slayer_type": 96, // 460 chisel:enum_1563_index
 			"slayer_description": "Ganodermic beasts and runts live in the depths of a cave north-east of the Mage Training Arena. The creatures of that dungeon are coated in toxic fungus, so you should fight them from a distance. The fungus helps them repair physical damage, so you might prefer using magical attacks.", // 462
 			"slayer_name": "ganodermic creatures", // 463
-			"slayer_sl_req": 95, // 466
+			"slayer_sl_req": 75, // 466
 			"slayer_example_npc": 14696 // 659
 		},
 		"id": 51005
@@ -480084,30 +479709,6 @@
 	},
 	{
 		"extra": {
-			"combatv2_ability_name": "Love Letter XP Boost", // 2794 chisel:spell_name
-			"combatv2_ability_object": 58411, // 4677 chisel:buff_item_id
-			"combatv2_buff_type": 0, // 8109 chisel:is_burn
-			"combatv2_buff_uses_ability_end": 1, // 8112 chisel:buff_uses_timer
-			"combatv2_buff_category": 9, // 8114 chisel:buff_category
-			"combatv2_buff_priority": 50, // 8115 chisel:buff_priority
-			"combatv2_buff_tooltip_full_override": 1 // 8116
-		},
-		"id": 51129
-	},
-	{
-		"extra": {
-			"combatv2_ability_name": "Love Letter Bonus XP Burn Boost", // 2794 chisel:spell_name
-			"combatv2_ability_object": 58411, // 4677 chisel:buff_item_id
-			"combatv2_buff_type": 0, // 8109 chisel:is_burn
-			"combatv2_buff_uses_ability_end": 1, // 8112 chisel:buff_uses_timer
-			"combatv2_buff_category": 9, // 8114 chisel:buff_category
-			"combatv2_buff_priority": 50, // 8115 chisel:buff_priority
-			"combatv2_buff_tooltip_full_override": 1 // 8116
-		},
-		"id": 51130
-	},
-	{
-		"extra": {
 			"trh_mark_tutorial_seen": 1, // 388
 			"trh_promo_floaterchest": 135615, // 858
 			"trh_promo_floateranim_idle": 22645, // 859
@@ -480118,7 +479719,7 @@
 			"trh_promo_banner_fr": 34712, // 4642 chisel:th_promo_banner_sprite_fr
 			"trh_promo_banner_pt": 34713, // 4643 chisel:th_promo_banner_sprite_pt
 			"trh_promo_info_dbrow": 14887, // 4921 chisel:th_prizes_enum_2
-			"trh_promo_oddments": 52860, // 5396 chisel:th_disp_rarity_15
+			"trh_promo_oddments": 1965, // 5396 chisel:th_disp_rarity_15
 			"motw_banner_en": 34708, // 6381
 			"motw_banner_de": 34707, // 6385
 			"motw_banner_fr": 34706, // 6386
@@ -480294,7 +479895,7 @@
 	{
 		"extra": {
 			"rewardshop_item_name": "War's Grimoire", // 4849 chisel:rewards_interface_item_name
-			"rewardshop_cost": 0, // 4850 chisel:rewards_interface_cost
+			"rewardshop_cost": 750, // 4850 chisel:rewards_interface_cost
 			"rewardshop_icon": 35016, // 4852 chisel:rewards_interface_sprite
 			"rewardshop_buy_option_1": 1, // 4854
 			"rewardshop_tooltip": "Access to War's Grimoire, which allows you to switch your spellbook.", // 4858 chisel:rewards_interface_item_desc
@@ -480303,7 +479904,6 @@
 			"rewardshop_buy_button_label": "Unlock", // 5091
 			"rewardshop_owned_button_label": "Unlocked", // 5093
 			"rewardshop_owned_button_tooltip": "You have unlocked this.", // 5204
-			"rewardshop_cost2": 750, // 5878
 			"rewardshop_members": 1, // 6406
 			"rewardshop_unaffordable_button_tooltip": "You need to kill more boss monsters." // 7141
 		},
@@ -480657,7 +480257,7 @@
 		"extra": {
 			"mtxmgt_name": "DXP Protean Bundle", // 2533 chisel:SGS_name
 			"mtxmgt_front_end_graphic": 34777, // 8346
-			"mtx_front_end_confirm_details_override": "Bundle Contains:<br>- 2 Large Protean Packs<br>- 5 Medium Protean Packs<br>- 8 Small Protean Packs<br><br>Total Proteans : 1950<br><br><br>Package available until the 24th of November 2025.", // 8663
+			"mtx_front_end_confirm_details_override": "Bundle Contains:<br>- 1x Cabbage<br>- 1x Cabbage<br>- 1x Cabbage<br><br>Total Proteans : 1950<br><br><br>Package available until the 24th of November 2025.", // 8663
 			"mtx_front_end_confirm_restrictions_override": "This pack can only be purchased once.", // 8664
 			"marketplace_spotlight_description": "Make the most of Double XP with this selection of Proteans!", // 8969
 			"marketplace_spotlight_membership_discount": 0, // 8972
@@ -480673,7 +480273,7 @@
 		"extra": {
 			"mtxmgt_name": "DXP Protean Bond Bundle", // 2533 chisel:SGS_name
 			"mtxmgt_front_end_graphic": 34777, // 8346
-			"mtx_front_end_confirm_details_override": "Bundle Contains:<br>- 2 Large Protean Packs<br>- 5 Medium Protean Packs<br>- 8 Small Protean Packs<br><br>Total Proteans : 1950<br><br><br>Package available until the 24th of November 2025.", // 8663
+			"mtx_front_end_confirm_details_override": "Bundle Contains:<br>- 1x Cabbage<br>- 1x Cabbage<br>- 1x Cabbage<br><br>Total Proteans : 1950<br><br><br>Package available until the 24th of November 2025.", // 8663
 			"mtx_front_end_confirm_restrictions_override": "This pack can only be purchased once.", // 8664
 			"marketplace_spotlight_description": "Make the most of Double XP with this selection of Proteans!", // 8969
 			"marketplace_spotlight_membership_discount": 0, // 8972
@@ -484214,9 +483814,9 @@
 		"extra": {
 			"mtxmgt_name": "Golden Gear Bundles", // 2533 chisel:SGS_name
 			"mtxmgt_front_end_graphic": 558, // 8346
-			"mtx_front_end_confirm_details_override": "The small pack contains:<br>- Golden dragonwing scimitars (cosmetic overrides)<br>- 3 Large skill training dummy crates<br>- 1000 Assorted unstable proteans<br>- 2 Small knowledge bombs<br>- 10 Medium prismatic stars<br><br>The medium pack contains:<br>- Golden mage robes (cosmetic overrides)<br>- 6 Large skill training dummy crates<br>- 2000 Assorted unstable proteans<br>- 6 Small knowledge bombs<br>- 10 Large prismatic stars<br>- 1 Umbral chest<br><br> The large pack contains:<br>- Golden Torva armour, Golden dragonwing scimitars, Golden mage robes (cosmetic overrides)<br>- 1 Golden Cosmetic Token (used to unlock 1 previous golden item as a cosmetic override)<br>- 15 Large skill training dummy crates<br>- 4000 Assorted unstable proteans<br>- 15 Small knowledge bombs<br>- 10 Huge prismatic stars<br>- 2 Umbral chests", // 8663
+			"mtx_front_end_confirm_details_override": "The small pack contains:<br>- Golden dragonwing scimitars (cosmetic overrides)<br>- 3 Large skill training dummy crates<br>- 10 Cabbages<br>- 1 Cabbage<br>- 1 Cabbage<br><br>The medium pack contains:<br>- Golden mage robes (cosmetic overrides)<br>- 6 Large skill training dummy crates<br>- 10 Cabbages<br>- 1 Cabbage<br>- 1 Cabbage<br>- 1 Umbral chest<br><br> The large pack contains:<br>- Golden Torva armour, Golden dragonwing scimitars, Golden mage robes (cosmetic overrides)<br>- 1 Golden Cosmetic Token (used to unlock 1 previous golden item as a cosmetic override)<br>- 15 Large skill training dummy crates<br>- 10 Cabbages<br>- 1 Cabbage<br>- 1 Cabbage<br>- 2 Umbral chests", // 8663
 			"mtx_front_end_confirm_restrictions_override": "Each pack can only be purchased once.<br>Ironmen will only receive Cosmetic items.<br>Available until the 8th April 2025.", // 8664
-			"marketplace_spotlight_description": "Bling yourself out with bundles of Cosmetics, Stars, Unstable Proteans and more! With these three one-time purchase packs - grab them before they go on the 8th April 2025.", // 8969
+			"marketplace_spotlight_description": "Bling yourself out with bundles of Cosmetics, Stars and more! With these three one-time purchase packs - grab them before they go on the 8th April 2025.", // 8969
 			"marketplace_spotlight_membership_discount": 0, // 8972
 			"marketplace_spotlight_custom_banner_text": "New!", // 8974
 			"marketplace_spotlight_start_date": 8426, // 8977
@@ -488657,8 +488257,8 @@
 			"marketplace_spotlight_membership_discount": 0, // 8972
 			"marketplace_spotlight_custom_banner_text": "Available!", // 8974
 			"marketplace_spotlight_banner_text_allow_overwrite": 1, // 8975
-			"marketplace_spotlight_start_date": 8546, // 8977
-			"marketplace_spotlight_end_date": 8552, // 8978
+			"marketplace_spotlight_start_date": 0, // 8977
+			"marketplace_spotlight_end_date": 0, // 8978
 			"marketplace_spotlight_direct_purchase": 1, // 8979
 			"marketplace_spotlight_custom_entry_small": 1, // 9311
 			"marketplace_spotlight_allow_cooldown": 1, // 9312
@@ -488679,8 +488279,8 @@
 			"marketplace_spotlight_membership_discount": 0, // 8972
 			"marketplace_spotlight_custom_banner_text": "Available!", // 8974
 			"marketplace_spotlight_banner_text_allow_overwrite": 1, // 8975
-			"marketplace_spotlight_start_date": 8546, // 8977
-			"marketplace_spotlight_end_date": 8552, // 8978
+			"marketplace_spotlight_start_date": 0, // 8977
+			"marketplace_spotlight_end_date": 0, // 8978
 			"marketplace_spotlight_direct_purchase": 1, // 8979
 			"marketplace_spotlight_custom_entry_small": 1, // 9311
 			"marketplace_spotlight_allow_cooldown": 1, // 9312
@@ -488701,8 +488301,8 @@
 			"marketplace_spotlight_membership_discount": 0, // 8972
 			"marketplace_spotlight_custom_banner_text": "Available!", // 8974
 			"marketplace_spotlight_banner_text_allow_overwrite": 1, // 8975
-			"marketplace_spotlight_start_date": 8546, // 8977
-			"marketplace_spotlight_end_date": 8552, // 8978
+			"marketplace_spotlight_start_date": 0, // 8977
+			"marketplace_spotlight_end_date": 0, // 8978
 			"marketplace_spotlight_direct_purchase": 1, // 8979
 			"marketplace_spotlight_custom_entry_small": 1, // 9311
 			"marketplace_spotlight_allow_cooldown": 1, // 9312
@@ -488723,8 +488323,8 @@
 			"marketplace_spotlight_membership_discount": 0, // 8972
 			"marketplace_spotlight_custom_banner_text": "Available!", // 8974
 			"marketplace_spotlight_banner_text_allow_overwrite": 1, // 8975
-			"marketplace_spotlight_start_date": 8546, // 8977
-			"marketplace_spotlight_end_date": 8552, // 8978
+			"marketplace_spotlight_start_date": 0, // 8977
+			"marketplace_spotlight_end_date": 0, // 8978
 			"marketplace_spotlight_direct_purchase": 1, // 8979
 			"marketplace_spotlight_custom_entry_small": 1, // 9311
 			"marketplace_spotlight_allow_cooldown": 1, // 9312
@@ -488745,8 +488345,8 @@
 			"marketplace_spotlight_membership_discount": 0, // 8972
 			"marketplace_spotlight_custom_banner_text": "Available!", // 8974
 			"marketplace_spotlight_banner_text_allow_overwrite": 1, // 8975
-			"marketplace_spotlight_start_date": 8546, // 8977
-			"marketplace_spotlight_end_date": 8552, // 8978
+			"marketplace_spotlight_start_date": 0, // 8977
+			"marketplace_spotlight_end_date": 0, // 8978
 			"marketplace_spotlight_direct_purchase": 1, // 8979
 			"marketplace_spotlight_custom_entry_small": 1, // 9311
 			"marketplace_spotlight_allow_cooldown": 1, // 9312
@@ -488767,8 +488367,8 @@
 			"marketplace_spotlight_membership_discount": 0, // 8972
 			"marketplace_spotlight_custom_banner_text": "Available!", // 8974
 			"marketplace_spotlight_banner_text_allow_overwrite": 1, // 8975
-			"marketplace_spotlight_start_date": 8546, // 8977
-			"marketplace_spotlight_end_date": 8552, // 8978
+			"marketplace_spotlight_start_date": 0, // 8977
+			"marketplace_spotlight_end_date": 0, // 8978
 			"marketplace_spotlight_direct_purchase": 1, // 8979
 			"marketplace_spotlight_custom_entry_small": 1, // 9311
 			"marketplace_spotlight_allow_cooldown": 1, // 9312
@@ -492213,7 +491813,7 @@
 	},
 	{
 		"extra": {
-			"combatv2_ability_info": "Holds an unlimited number of each exquisite urn (empty).<br>Portable skill station effects are twice as likely to trigger, and can trigger without needing the skilling station.<br>Skill distraction effects are enhanced.<br>Occasionally receive a blessing from the gods; Seren spirits; Manifested knowledge; and Catalysts of alteration when using non-combat skills." // 2795 chisel:spell_desc
+			"combatv2_ability_info": "Holds an unlimited number of each exquisite urn (empty).<br>Unlocked chance based Dungeoneering scroll effects gain +5% while worn.<br>Skill distraction effects are enhanced.<br>Occasionally receive a blessing from the gods; Seren spirits; Manifested knowledge; and Catalysts of alteration when using non-combat skills." // 2795 chisel:spell_desc
 		},
 		"id": 52243
 	},
@@ -494578,7 +494178,7 @@
 			"release_date": 8650, // 4742 chisel:th_available_date
 			"withdraw_date": 9028, // 4743 chisel:available_till
 			"mtxmgt_parent_id": 2282, // 4744
-			"mtxmgt_source_custom": "This item is unlocked via 12 Months Membership." // 4751 chisel:cosmetic_unlock_hint
+			"mtxmgt_source_custom": "This was unlocked as a previous 12 Months Membership reward." // 4751 chisel:cosmetic_unlock_hint
 		},
 		"id": 52422
 	},
@@ -494592,7 +494192,7 @@
 			"release_date": 8650, // 4742 chisel:th_available_date
 			"withdraw_date": 9028, // 4743 chisel:available_till
 			"mtxmgt_parent_id": 2282, // 4744
-			"mtxmgt_source_custom": "This item is unlocked via 12 Months Membership.", // 4751 chisel:cosmetic_unlock_hint
+			"mtxmgt_source_custom": "This was unlocked as a previous 12 Months Membership reward.", // 4751 chisel:cosmetic_unlock_hint
 			"original_release_date": 8650 // 6628
 		},
 		"id": 52423
@@ -494606,7 +494206,7 @@
 			"mtxmgt_parent_struct": 52423, // 4419 chisel:outfit_parent_vbId
 			"release_date": 8650, // 4742 chisel:th_available_date
 			"withdraw_date": 9028, // 4743 chisel:available_till
-			"mtxmgt_source_custom": "This item is unlocked via 12 Months Membership.", // 4751 chisel:cosmetic_unlock_hint
+			"mtxmgt_source_custom": "This was unlocked as a previous 12 Months Membership reward.", // 4751 chisel:cosmetic_unlock_hint
 			"original_release_date": 8650 // 6628
 		},
 		"id": 52424
@@ -494620,7 +494220,7 @@
 			"mtxmgt_parent_struct": 52423, // 4419 chisel:outfit_parent_vbId
 			"release_date": 8650, // 4742 chisel:th_available_date
 			"withdraw_date": 9028, // 4743 chisel:available_till
-			"mtxmgt_source_custom": "This item is unlocked via 12 Months Membership.", // 4751 chisel:cosmetic_unlock_hint
+			"mtxmgt_source_custom": "This was unlocked as a previous 12 Months Membership reward.", // 4751 chisel:cosmetic_unlock_hint
 			"original_release_date": 8650 // 6628
 		},
 		"id": 52425
@@ -494634,7 +494234,7 @@
 			"mtxmgt_parent_struct": 52423, // 4419 chisel:outfit_parent_vbId
 			"release_date": 8650, // 4742 chisel:th_available_date
 			"withdraw_date": 9028, // 4743 chisel:available_till
-			"mtxmgt_source_custom": "This item is unlocked via 12 Months Membership.", // 4751 chisel:cosmetic_unlock_hint
+			"mtxmgt_source_custom": "This was unlocked as a previous 12 Months Membership reward.", // 4751 chisel:cosmetic_unlock_hint
 			"original_release_date": 8650 // 6628
 		},
 		"id": 52426
@@ -494648,7 +494248,7 @@
 			"mtxmgt_parent_struct": 52423, // 4419 chisel:outfit_parent_vbId
 			"release_date": 8650, // 4742 chisel:th_available_date
 			"withdraw_date": 9028, // 4743 chisel:available_till
-			"mtxmgt_source_custom": "This item is unlocked via 12 Months Membership.", // 4751 chisel:cosmetic_unlock_hint
+			"mtxmgt_source_custom": "This was unlocked as a previous 12 Months Membership reward.", // 4751 chisel:cosmetic_unlock_hint
 			"original_release_date": 8650 // 6628
 		},
 		"id": 52427
@@ -494662,7 +494262,7 @@
 			"mtxmgt_parent_struct": 52423, // 4419 chisel:outfit_parent_vbId
 			"release_date": 8650, // 4742 chisel:th_available_date
 			"withdraw_date": 9028, // 4743 chisel:available_till
-			"mtxmgt_source_custom": "This item is unlocked via 12 Months Membership.", // 4751 chisel:cosmetic_unlock_hint
+			"mtxmgt_source_custom": "This was unlocked as a previous 12 Months Membership reward.", // 4751 chisel:cosmetic_unlock_hint
 			"original_release_date": 8650 // 6628
 		},
 		"id": 52428
@@ -494676,7 +494276,7 @@
 			"mtxmgt_parent_struct": 52423, // 4419 chisel:outfit_parent_vbId
 			"release_date": 8650, // 4742 chisel:th_available_date
 			"withdraw_date": 9028, // 4743 chisel:available_till
-			"mtxmgt_source_custom": "This item is unlocked via 12 Months Membership.", // 4751 chisel:cosmetic_unlock_hint
+			"mtxmgt_source_custom": "This was unlocked as a previous 12 Months Membership reward.", // 4751 chisel:cosmetic_unlock_hint
 			"original_release_date": 8650 // 6628
 		},
 		"id": 52429
@@ -494700,7 +494300,7 @@
 			"release_date": 8650, // 4742 chisel:th_available_date
 			"withdraw_date": 9028, // 4743 chisel:available_till
 			"mtxmgt_parent_id": 2282, // 4744
-			"mtxmgt_source_custom": "This item is unlocked via 12 Months Membership.", // 4751 chisel:cosmetic_unlock_hint
+			"mtxmgt_source_custom": "This was unlocked as a previous 12 Months Membership reward.", // 4751 chisel:cosmetic_unlock_hint
 			"original_release_date": 8650, // 6628
 			"mtxmgt_pet_info": 52430, // 8226
 			"mtx_front_end_confirm_pet_zoom": 400, // 8666
@@ -495876,7 +495476,7 @@
 			"mtxmgt_name": "Overhead Emote: Merry Smile", // 2533 chisel:SGS_name
 			"mtxmgt_source": 9, // 2546
 			"release_date": 8678, // 4742 chisel:th_available_date
-			"withdraw_date": 8708, // 4743 chisel:available_till
+			"withdraw_date": 9077, // 4743 chisel:available_till
 			"mtxmgt_parent_id": 2300, // 4744
 			"mtxmgt_source_custom": "This reward is available from the 2025 Advent Calendar." // 4751 chisel:cosmetic_unlock_hint
 		},
@@ -495889,7 +495489,7 @@
 			"mtxmgt_name": "Overhead Emote: Merry Sing", // 2533 chisel:SGS_name
 			"mtxmgt_source": 9, // 2546
 			"release_date": 8678, // 4742 chisel:th_available_date
-			"withdraw_date": 8708, // 4743 chisel:available_till
+			"withdraw_date": 9077, // 4743 chisel:available_till
 			"mtxmgt_parent_id": 2301, // 4744
 			"mtxmgt_source_custom": "This reward is available from the 2025 Advent Calendar." // 4751 chisel:cosmetic_unlock_hint
 		},
@@ -495902,7 +495502,7 @@
 			"mtxmgt_name": "Overhead Emote: Snowverload Laugh", // 2533 chisel:SGS_name
 			"mtxmgt_source": 9, // 2546
 			"release_date": 8678, // 4742 chisel:th_available_date
-			"withdraw_date": 8708, // 4743 chisel:available_till
+			"withdraw_date": 9077, // 4743 chisel:available_till
 			"mtxmgt_parent_id": 2302, // 4744
 			"mtxmgt_source_custom": "This reward is available from the 2025 Advent Calendar." // 4751 chisel:cosmetic_unlock_hint
 		},
@@ -495915,7 +495515,7 @@
 			"mtxmgt_name": "Overhead Emote: Black Candy Cane", // 2533 chisel:SGS_name
 			"mtxmgt_source": 9, // 2546
 			"release_date": 8678, // 4742 chisel:th_available_date
-			"withdraw_date": 8708, // 4743 chisel:available_till
+			"withdraw_date": 9077, // 4743 chisel:available_till
 			"mtxmgt_parent_id": 2303, // 4744
 			"mtxmgt_source_custom": "This reward is available from the 2025 Advent Calendar." // 4751 chisel:cosmetic_unlock_hint
 		},
@@ -495928,7 +495528,7 @@
 			"mtxmgt_name": "Overhead Emote: Candy Cane", // 2533 chisel:SGS_name
 			"mtxmgt_source": 9, // 2546
 			"release_date": 8678, // 4742 chisel:th_available_date
-			"withdraw_date": 8708, // 4743 chisel:available_till
+			"withdraw_date": 9077, // 4743 chisel:available_till
 			"mtxmgt_parent_id": 2304, // 4744
 			"mtxmgt_source_custom": "This reward is available from the 2025 Advent Calendar." // 4751 chisel:cosmetic_unlock_hint
 		},
@@ -495941,7 +495541,7 @@
 			"mtxmgt_name": "Overhead Emote: Christmas Pudding", // 2533 chisel:SGS_name
 			"mtxmgt_source": 9, // 2546
 			"release_date": 8678, // 4742 chisel:th_available_date
-			"withdraw_date": 8708, // 4743 chisel:available_till
+			"withdraw_date": 9077, // 4743 chisel:available_till
 			"mtxmgt_parent_id": 2305, // 4744
 			"mtxmgt_source_custom": "This reward is available from the 2025 Advent Calendar." // 4751 chisel:cosmetic_unlock_hint
 		},
@@ -496183,7 +495783,7 @@
 			"mtxmgt_title_id": 804, // 2543 chisel:title_index_in_enum
 			"mtxmgt_source": 9, // 2546
 			"release_date": 8678, // 4742 chisel:th_available_date
-			"withdraw_date": 8708, // 4743 chisel:available_till
+			"withdraw_date": 9077, // 4743 chisel:available_till
 			"mtxmgt_parent_id": 2306, // 4744
 			"mtxmgt_source_custom": "This reward is available from the 2025 Advent Calendar." // 4751 chisel:cosmetic_unlock_hint
 		},
@@ -496197,7 +495797,7 @@
 			"mtxmgt_title_id": 805, // 2543 chisel:title_index_in_enum
 			"mtxmgt_source": 9, // 2546
 			"release_date": 8678, // 4742 chisel:th_available_date
-			"withdraw_date": 8708, // 4743 chisel:available_till
+			"withdraw_date": 9077, // 4743 chisel:available_till
 			"mtxmgt_parent_id": 2307, // 4744
 			"mtxmgt_source_custom": "This reward is available from the 2025 Advent Calendar." // 4751 chisel:cosmetic_unlock_hint
 		},
@@ -496321,7 +495921,7 @@
 			"mtxmgt_source": 14, // 2546
 			"mtxmgt_renameable": 0, // 4420
 			"release_date": 8678, // 4742 chisel:th_available_date
-			"withdraw_date": 8708, // 4743 chisel:available_till
+			"withdraw_date": 9077, // 4743 chisel:available_till
 			"mtxmgt_parent_id": 2308, // 4744
 			"mtxmgt_source_custom": "This pet can be obtained via the Showdown Store using Showdown Sigils.", // 4751 chisel:cosmetic_unlock_hint
 			"original_release_date": 8678, // 6628
@@ -496826,7 +496426,7 @@
 			"side_tab_2_icon_neutral": 28983, // 5906
 			"side_tab_2_icon_highlight": 28983, // 5907
 			"side_tab_2_icon_selected": 28983, // 5908
-			"side_tab_2_layer": 12517385, // 5909
+			"side_tab_2_layer": 12517388, // 5909
 			"side_tab_2_tooltip": "Winter Weeks", // 5910
 			"timed_event_start": 8678, // 6132
 			"timed_event_end": 8712, // 6133
@@ -504267,7 +503867,7 @@
 	},
 	{
 		"extra": {
-			"rewardshop_cost": 0, // 4850 chisel:rewards_interface_cost
+			"rewardshop_cost": 2500, // 4850 chisel:rewards_interface_cost
 			"rewardshop_obj": 63103, // 4851 chisel:rewards_interface_item
 			"rewardshop_buy_option_1": 1, // 4854
 			"rewardshop_tooltip": "Ability to build your own altar of War in your player-owned house.", // 4858 chisel:rewards_interface_item_desc
@@ -504276,7 +503876,6 @@
 			"rewardshop_buy_button_label": "Unlock", // 5091
 			"rewardshop_owned_button_label": "Unlocked", // 5093
 			"rewardshop_owned_button_tooltip": "You have unlocked this.", // 5204
-			"rewardshop_cost2": 2500, // 5878
 			"rewardshop_unaffordable_button_tooltip": "You need to kill more boss monsters." // 7141
 		},
 		"id": 53234

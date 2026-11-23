@@ -18,7 +18,7 @@ function script3508(): void {
         IF_SETTEXT("Unavailable - Please log out and in.", comp(578, 24));  // mobile_founders_pack:date_day_3
     };
     IF_SETTEXT("Radiant Dawn Armour<br>Immobile Rest<br>Steel Panther Pet", comp(578, 11));  // mobile_founders_pack:rewards_day_1
-    IF_SETTEXT("4x Large Protean Pack", comp(578, 18));  // mobile_founders_pack:rewards_day_2
+    IF_SETTEXT("1x Cabbage", comp(578, 18));  // mobile_founders_pack:rewards_day_2
     IF_SETTEXT("Huge Lamp Chest", comp(578, 25));  // mobile_founders_pack:rewards_day_3
     script3535();
     return;

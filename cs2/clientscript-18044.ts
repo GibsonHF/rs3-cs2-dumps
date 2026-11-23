@@ -38,7 +38,7 @@ function script18044(int0: number, int1: number): void {
     [int2, int3] = script18045(int0, int2, int4, int3, 1, string0, int5);
     string0 = "While completing clue scroll steps you'll receive <col=2EF8FF>1</col>/<col=2EF8FF>1</col>/<col=2EF8FF>2</col>/<col=2EF8FF>4</col>/<col=2EF8FF>5</col> Hero Points depending on the difficulty of the clue.";
     [int2, int3] = script18045(int0, int2, int4, int3, 1, string0, int5);
-    string0 = "You'll receive <col=2EF8FF>1</col> Hero Point per <col=2EF8FF>5</col> Marks of War earned.";
+    string0 = "Defeat bosses to earn Hero Points. Tougher bosses grant more progress.";
     [int2, int3] = script18045(int0, int2, int4, int3, 1, string0, int5);
     script17927();
     string0 = "Emblems and the Hero Store";

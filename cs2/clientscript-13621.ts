@@ -1,6 +1,402 @@
 //
 function script13621(int0: number): number {
     switch (int0) {
+        case 30819: {
+            if ((varbitplayer_34993 >= 1)) {
+                return 1;
+            };
+            break;
+        }
+        case 30820: {
+            if ((varbitplayer_34994 >= 1)) {
+                return 1;
+            };
+            break;
+        }
+        case 30821: {
+            if ((varbitplayer_34995 >= 1)) {
+                return 1;
+            };
+            break;
+        }
+        case 30822: {
+            if ((varbitplayer_34990 >= 1)) {
+                return 1;
+            };
+            break;
+        }
+        case 30823: {
+            if ((varbitplayer_34973 >= 1)) {
+                return 1;
+            };
+            break;
+        }
+        case 34859: {
+            if ((varbitplayer_35010 >= 1)) {
+                return 1;
+            };
+            break;
+        }
+        case 23679: {
+            if ((varbitplayer_34974 >= 1)) {
+                return 1;
+            };
+            break;
+        }
+        case 23680: {
+            if ((varbitplayer_34977 >= 1)) {
+                return 1;
+            };
+            break;
+        }
+        case 23681: {
+            if ((varbitplayer_34976 >= 1)) {
+                return 1;
+            };
+            break;
+        }
+        case 23682: {
+            if ((varbitplayer_34975 >= 1)) {
+                return 1;
+            };
+            break;
+        }
+        case 23683: {
+            if ((varbitplayer_34978 >= 1)) {
+                return 1;
+            };
+            break;
+        }
+        case 23684: {
+            if ((varbitplayer_34987 >= 1)) {
+                return 1;
+            };
+            break;
+        }
+        case 23685: {
+            if ((varbitplayer_34988 >= 1)) {
+                return 1;
+            };
+            break;
+        }
+        case 23686: {
+            if ((varbitplayer_34989 >= 1)) {
+                return 1;
+            };
+            break;
+        }
+        case 23687: {
+            if ((varbitplayer_34991 >= 1)) {
+                return 1;
+            };
+            break;
+        }
+        case 23688: {
+            if ((varbitplayer_34992 >= 1)) {
+                return 1;
+            };
+            break;
+        }
+        case 23689: {
+            if ((varbitplayer_35002 >= 1)) {
+                return 1;
+            };
+            break;
+        }
+        case 23690: {
+            if ((varbitplayer_34979 >= 1)) {
+                return 1;
+            };
+            break;
+        }
+        case 23691: {
+            if ((varbitplayer_35003 >= 1)) {
+                return 1;
+            };
+            break;
+        }
+        case 23692: {
+            if ((varbitplayer_34999 >= 1)) {
+                return 1;
+            };
+            break;
+        }
+        case 23693: {
+            if ((varbitplayer_35001 >= 1)) {
+                return 1;
+            };
+            break;
+        }
+        case 23694: {
+            if ((varbitplayer_35000 >= 1)) {
+                return 1;
+            };
+            break;
+        }
+        case 28083: {
+            if ((varbitplayer_35004 >= 1)) {
+                return 1;
+            };
+            break;
+        }
+        case 23696: {
+            if ((varbitplayer_35005 >= 1)) {
+                return 1;
+            };
+            break;
+        }
+        case 23700: {
+            if ((varbitplayer_35006 >= 1)) {
+                return 1;
+            };
+            break;
+        }
+        case 23697: {
+            if ((varbitplayer_35007 >= 1)) {
+                return 1;
+            };
+            break;
+        }
+        case 23699: {
+            if ((varbitplayer_35008 >= 1)) {
+                return 1;
+            };
+            break;
+        }
+        case 23698: {
+            if ((varbitplayer_35009 >= 1)) {
+                return 1;
+            };
+            break;
+        }
+        case 34070: {
+            if ((varbitplayer_34984 >= 1)) {
+                return 1;
+            };
+            break;
+        }
+        case 34072: {
+            if ((varbitplayer_35011 >= 1)) {
+                return 1;
+            };
+            break;
+        }
+        case 34074: {
+            if ((varbitplayer_34985 >= 1)) {
+                return 1;
+            };
+            break;
+        }
+        case 34076: {
+            if ((varbitplayer_35012 >= 1)) {
+                return 1;
+            };
+            break;
+        }
+        case 34078: {
+            if ((varbitplayer_34981 >= 1)) {
+                return 1;
+            };
+            break;
+        }
+        case 34080: {
+            if ((varbitplayer_35013 >= 1)) {
+                return 1;
+            };
+            break;
+        }
+        case 34082: {
+            if ((varbitplayer_34980 >= 1)) {
+                return 1;
+            };
+            break;
+        }
+        case 34084: {
+            if ((varbitplayer_34986 >= 1)) {
+                return 1;
+            };
+            break;
+        }
+        case 34086: {
+            if ((varbitplayer_34983 >= 1)) {
+                return 1;
+            };
+            break;
+        }
+        case 34088: {
+            if ((varbitplayer_34982 >= 1)) {
+                return 1;
+            };
+            break;
+        }
+        case 34090: {
+            if ((varbitplayer_35014 >= 1)) {
+                return 1;
+            };
+            break;
+        }
+        case 34092: {
+            if ((varbitplayer_34996 >= 1)) {
+                return 1;
+            };
+            break;
+        }
+        case 34094: {
+            if ((varbitplayer_34998 >= 1)) {
+                return 1;
+            };
+            break;
+        }
+        case 34096: {
+            if ((varbitplayer_34997 >= 1)) {
+                return 1;
+            };
+            break;
+        }
+        case 40529: {
+            if ((varbitplayer_36409 >= 1)) {
+                return 1;
+            };
+            break;
+        }
+        case 40535: {
+            if ((varbitplayer_36410 >= 1)) {
+                return 1;
+            };
+            break;
+        }
+        case 40538: {
+            if ((varbitplayer_36411 >= 1)) {
+                return 1;
+            };
+            break;
+        }
+        case 40532: {
+            if ((varbitplayer_36412 >= 1)) {
+                return 1;
+            };
+            break;
+        }
+        case 40541: {
+            if ((varbitplayer_36413 >= 1)) {
+                return 1;
+            };
+            break;
+        }
+        case 40547: {
+            if ((varbitplayer_36414 >= 1)) {
+                return 1;
+            };
+            break;
+        }
+        case 40550: {
+            if ((varbitplayer_36415 >= 1)) {
+                return 1;
+            };
+            break;
+        }
+        case 40544: {
+            if ((varbitplayer_36416 >= 1)) {
+                return 1;
+            };
+            break;
+        }
+        case 40553: {
+            if ((varbitplayer_36417 >= 1)) {
+                return 1;
+            };
+            break;
+        }
+        case 40559: {
+            if ((varbitplayer_36418 >= 1)) {
+                return 1;
+            };
+            break;
+        }
+        case 40562: {
+            if ((varbitplayer_36419 >= 1)) {
+                return 1;
+            };
+            break;
+        }
+        case 40556: {
+            if ((varbitplayer_36420 >= 1)) {
+                return 1;
+            };
+            break;
+        }
+        case 40565: {
+            if ((varbitplayer_36421 >= 1)) {
+                return 1;
+            };
+            break;
+        }
+        case 40571: {
+            if ((varbitplayer_36422 >= 1)) {
+                return 1;
+            };
+            break;
+        }
+        case 40574: {
+            if ((varbitplayer_36423 >= 1)) {
+                return 1;
+            };
+            break;
+        }
+        case 40568: {
+            if ((varbitplayer_36424 >= 1)) {
+                return 1;
+            };
+            break;
+        }
+        case 40577: {
+            if ((varbitplayer_36425 >= 1)) {
+                return 1;
+            };
+            break;
+        }
+        case 40583: {
+            if ((varbitplayer_36426 >= 1)) {
+                return 1;
+            };
+            break;
+        }
+        case 40586: {
+            if ((varbitplayer_36427 >= 1)) {
+                return 1;
+            };
+            break;
+        }
+        case 40580: {
+            if ((varbitplayer_36428 >= 1)) {
+                return 1;
+            };
+            break;
+        }
+        case 40589: {
+            if ((varbitplayer_36429 >= 1)) {
+                return 1;
+            };
+            break;
+        }
+        case 40595: {
+            if ((varbitplayer_36430 >= 1)) {
+                return 1;
+            };
+            break;
+        }
+        case 40598: {
+            if ((varbitplayer_36431 >= 1)) {
+                return 1;
+            };
+            break;
+        }
+        case 40592: {
+            if ((varbitplayer_36432 >= 1)) {
+                return 1;
+            };
+            break;
+        }
         case 1037: {
             return TESTBIT(varplayer_413, 1);
         }
@@ -751,14 +1147,8 @@ function script13621(int0: number): number {
             };
             break;
         }
-        case 25055: {
-            if ((varbitplayer_18399 >= 1)) {
-                return 1;
-            };
-            break;
-        }
         case 25056: {
-            if ((varbitplayer_18400 >= 1)) {
+            if (((varbitplayer_18400 >= 1) || (varbitplayer_18399 >= 1))) {
                 return 1;
             };
             break;
@@ -1330,14 +1720,8 @@ function script13621(int0: number): number {
         case 28142: {
             return 1;
         }
-        case 28185: {
-            if ((varbitplayer_18397 >= 1)) {
-                return 1;
-            };
-            break;
-        }
         case 28186: {
-            if ((varbitplayer_18398 >= 1)) {
+            if (((varbitplayer_18398 >= 1) || (varbitplayer_18397 >= 1))) {
                 return 1;
             };
             break;
@@ -1618,7 +2002,7 @@ function script13621(int0: number): number {
             };
             break;
         }
-        case 29407: {
+        case 64592: {
             if ((varbitplayer_20365 >= 1)) {
                 return 1;
             };
@@ -2051,14 +2435,8 @@ function script13621(int0: number): number {
             };
             break;
         }
-        case 33737: {
-            if ((varbitplayer_26529 >= 1)) {
-                return 1;
-            };
-            break;
-        }
         case 33738: {
-            if ((varbitplayer_26530 >= 1)) {
+            if (((varbitplayer_26530 >= 1) || (varbitplayer_26529 >= 1))) {
                 return 1;
             };
             break;
@@ -2711,30 +3089,6 @@ function script13621(int0: number): number {
             };
             break;
         }
-        case 36762: {
-            if ((varbitplayer_30464 >= 1)) {
-                return 1;
-            };
-            break;
-        }
-        case 36763: {
-            if ((varbitplayer_30465 >= 1)) {
-                return 1;
-            };
-            break;
-        }
-        case 36764: {
-            if ((varbitplayer_30466 >= 1)) {
-                return 1;
-            };
-            break;
-        }
-        case 36765: {
-            if ((varbitplayer_30467 >= 1)) {
-                return 1;
-            };
-            break;
-        }
         case 36856: {
             if ((varbitplayer_30601 >= 1)) {
                 return 1;
@@ -2922,19 +3276,7 @@ function script13621(int0: number): number {
             break;
         }
         case 37694: {
-            if (((varbitplayer_32682 == 1) && (varbitplayer_32690 == 1))) {
-                return 1;
-            };
-            break;
-        }
-        case 37696: {
-            if (((varbitplayer_32682 == 1) && (varbitplayer_32690 == 2))) {
-                return 1;
-            };
-            break;
-        }
-        case 37698: {
-            if (((varbitplayer_32682 == 1) && (varbitplayer_32690 == 3))) {
+            if ((varbitplayer_32682 == 1)) {
                 return 1;
             };
             break;
@@ -3209,258 +3551,6 @@ function script13621(int0: number): number {
             };
             break;
         }
-        case 30819: {
-            if ((varbitplayer_34993 >= 1)) {
-                return 1;
-            };
-            break;
-        }
-        case 30820: {
-            if ((varbitplayer_34994 >= 1)) {
-                return 1;
-            };
-            break;
-        }
-        case 30821: {
-            if ((varbitplayer_34995 >= 1)) {
-                return 1;
-            };
-            break;
-        }
-        case 30822: {
-            if ((varbitplayer_34990 >= 1)) {
-                return 1;
-            };
-            break;
-        }
-        case 30823: {
-            if ((varbitplayer_34973 >= 1)) {
-                return 1;
-            };
-            break;
-        }
-        case 34859: {
-            if ((varbitplayer_35010 >= 1)) {
-                return 1;
-            };
-            break;
-        }
-        case 23679: {
-            if ((varbitplayer_34974 >= 1)) {
-                return 1;
-            };
-            break;
-        }
-        case 23680: {
-            if ((varbitplayer_34977 >= 1)) {
-                return 1;
-            };
-            break;
-        }
-        case 23681: {
-            if ((varbitplayer_34976 >= 1)) {
-                return 1;
-            };
-            break;
-        }
-        case 23682: {
-            if ((varbitplayer_34975 >= 1)) {
-                return 1;
-            };
-            break;
-        }
-        case 23683: {
-            if ((varbitplayer_34978 >= 1)) {
-                return 1;
-            };
-            break;
-        }
-        case 23684: {
-            if ((varbitplayer_34987 >= 1)) {
-                return 1;
-            };
-            break;
-        }
-        case 23685: {
-            if ((varbitplayer_34988 >= 1)) {
-                return 1;
-            };
-            break;
-        }
-        case 23686: {
-            if ((varbitplayer_34989 >= 1)) {
-                return 1;
-            };
-            break;
-        }
-        case 23687: {
-            if ((varbitplayer_34991 >= 1)) {
-                return 1;
-            };
-            break;
-        }
-        case 23688: {
-            if ((varbitplayer_34992 >= 1)) {
-                return 1;
-            };
-            break;
-        }
-        case 23689: {
-            if ((varbitplayer_35002 >= 1)) {
-                return 1;
-            };
-            break;
-        }
-        case 23690: {
-            if ((varbitplayer_34979 >= 1)) {
-                return 1;
-            };
-            break;
-        }
-        case 23691: {
-            if ((varbitplayer_35003 >= 1)) {
-                return 1;
-            };
-            break;
-        }
-        case 23692: {
-            if ((varbitplayer_34999 >= 1)) {
-                return 1;
-            };
-            break;
-        }
-        case 23693: {
-            if ((varbitplayer_35001 >= 1)) {
-                return 1;
-            };
-            break;
-        }
-        case 23694: {
-            if ((varbitplayer_35000 >= 1)) {
-                return 1;
-            };
-            break;
-        }
-        case 28083: {
-            if ((varbitplayer_35004 >= 1)) {
-                return 1;
-            };
-            break;
-        }
-        case 23696: {
-            if ((varbitplayer_35005 >= 1)) {
-                return 1;
-            };
-            break;
-        }
-        case 23700: {
-            if ((varbitplayer_35006 >= 1)) {
-                return 1;
-            };
-            break;
-        }
-        case 23697: {
-            if ((varbitplayer_35007 >= 1)) {
-                return 1;
-            };
-            break;
-        }
-        case 23699: {
-            if ((varbitplayer_35008 >= 1)) {
-                return 1;
-            };
-            break;
-        }
-        case 23698: {
-            if ((varbitplayer_35009 >= 1)) {
-                return 1;
-            };
-            break;
-        }
-        case 34070: {
-            if ((varbitplayer_34984 >= 1)) {
-                return 1;
-            };
-            break;
-        }
-        case 34072: {
-            if ((varbitplayer_35011 >= 1)) {
-                return 1;
-            };
-            break;
-        }
-        case 34074: {
-            if ((varbitplayer_34985 >= 1)) {
-                return 1;
-            };
-            break;
-        }
-        case 34076: {
-            if ((varbitplayer_35012 >= 1)) {
-                return 1;
-            };
-            break;
-        }
-        case 34078: {
-            if ((varbitplayer_34981 >= 1)) {
-                return 1;
-            };
-            break;
-        }
-        case 34080: {
-            if ((varbitplayer_35013 >= 1)) {
-                return 1;
-            };
-            break;
-        }
-        case 34082: {
-            if ((varbitplayer_34980 >= 1)) {
-                return 1;
-            };
-            break;
-        }
-        case 34084: {
-            if ((varbitplayer_34986 >= 1)) {
-                return 1;
-            };
-            break;
-        }
-        case 34086: {
-            if ((varbitplayer_34983 >= 1)) {
-                return 1;
-            };
-            break;
-        }
-        case 34088: {
-            if ((varbitplayer_34982 >= 1)) {
-                return 1;
-            };
-            break;
-        }
-        case 34090: {
-            if ((varbitplayer_35014 >= 1)) {
-                return 1;
-            };
-            break;
-        }
-        case 34092: {
-            if ((varbitplayer_34996 >= 1)) {
-                return 1;
-            };
-            break;
-        }
-        case 34094: {
-            if ((varbitplayer_34998 >= 1)) {
-                return 1;
-            };
-            break;
-        }
-        case 34096: {
-            if ((varbitplayer_34997 >= 1)) {
-                return 1;
-            };
-            break;
-        }
         case 39854: {
             if ((varbitplayer_35266 >= 1)) {
                 return 1;
@@ -3535,150 +3625,6 @@ function script13621(int0: number): number {
         }
         case 40524: {
             if (((varbitplayer_36405 >= 1) && (varbitplayer_36436 == 0))) {
-                return 1;
-            };
-            break;
-        }
-        case 40529: {
-            if ((varbitplayer_36409 >= 1)) {
-                return 1;
-            };
-            break;
-        }
-        case 40535: {
-            if ((varbitplayer_36410 >= 1)) {
-                return 1;
-            };
-            break;
-        }
-        case 40538: {
-            if ((varbitplayer_36411 >= 1)) {
-                return 1;
-            };
-            break;
-        }
-        case 40532: {
-            if ((varbitplayer_36412 >= 1)) {
-                return 1;
-            };
-            break;
-        }
-        case 40541: {
-            if ((varbitplayer_36413 >= 1)) {
-                return 1;
-            };
-            break;
-        }
-        case 40547: {
-            if ((varbitplayer_36414 >= 1)) {
-                return 1;
-            };
-            break;
-        }
-        case 40550: {
-            if ((varbitplayer_36415 >= 1)) {
-                return 1;
-            };
-            break;
-        }
-        case 40544: {
-            if ((varbitplayer_36416 >= 1)) {
-                return 1;
-            };
-            break;
-        }
-        case 40553: {
-            if ((varbitplayer_36417 >= 1)) {
-                return 1;
-            };
-            break;
-        }
-        case 40559: {
-            if ((varbitplayer_36418 >= 1)) {
-                return 1;
-            };
-            break;
-        }
-        case 40562: {
-            if ((varbitplayer_36419 >= 1)) {
-                return 1;
-            };
-            break;
-        }
-        case 40556: {
-            if ((varbitplayer_36420 >= 1)) {
-                return 1;
-            };
-            break;
-        }
-        case 40565: {
-            if ((varbitplayer_36421 >= 1)) {
-                return 1;
-            };
-            break;
-        }
-        case 40571: {
-            if ((varbitplayer_36422 >= 1)) {
-                return 1;
-            };
-            break;
-        }
-        case 40574: {
-            if ((varbitplayer_36423 >= 1)) {
-                return 1;
-            };
-            break;
-        }
-        case 40568: {
-            if ((varbitplayer_36424 >= 1)) {
-                return 1;
-            };
-            break;
-        }
-        case 40577: {
-            if ((varbitplayer_36425 >= 1)) {
-                return 1;
-            };
-            break;
-        }
-        case 40583: {
-            if ((varbitplayer_36426 >= 1)) {
-                return 1;
-            };
-            break;
-        }
-        case 40586: {
-            if ((varbitplayer_36427 >= 1)) {
-                return 1;
-            };
-            break;
-        }
-        case 40580: {
-            if ((varbitplayer_36428 >= 1)) {
-                return 1;
-            };
-            break;
-        }
-        case 40589: {
-            if ((varbitplayer_36429 >= 1)) {
-                return 1;
-            };
-            break;
-        }
-        case 40595: {
-            if ((varbitplayer_36430 >= 1)) {
-                return 1;
-            };
-            break;
-        }
-        case 40598: {
-            if ((varbitplayer_36431 >= 1)) {
-                return 1;
-            };
-            break;
-        }
-        case 40592: {
-            if ((varbitplayer_36432 >= 1)) {
                 return 1;
             };
             break;
@@ -5065,12 +5011,6 @@ function script13621(int0: number): number {
         case 51499: {
             return varbitplayer_49339;
         }
-        case 53112: {
-            if ((varbitplayer_4364 > 0)) {
-                return 1;
-            };
-            break;
-        }
         case 51505: {
             if (((varbitplayer_49359 == 1) && (varbitplayer_49361 > 0))) {
                 return 1;
@@ -5275,12 +5215,6 @@ function script13621(int0: number): number {
         case 54067: {
             return varbitplayer_52326;
         }
-        case 54800: {
-            return varbitplayer_52912;
-        }
-        case 54803: {
-            return varbitplayer_52913;
-        }
         case 54790:
         case 54791: {
             if ((((script17336(int0) - script17337(int0)) > 0) && (script259(int0) < (script17336(int0) - script17337(int0))))) {
@@ -5328,10 +5262,7 @@ function script13621(int0: number): number {
             break;
         }
         case 58439: {
-            if (((((varbitplayer_4609 + varbitplayer_4608) - varbitplayer_57671) > 0) && (script259(int0) < ((varbitplayer_4609 + varbitplayer_4608) - varbitplayer_57671)))) {
-                return 1;
-            };
-            break;
+            return 0;
         }
         case 58907: {
             if ((((varbitplayer_30295 - varbitplayer_30296) > 0) && (script259(int0) < (varbitplayer_30295 - varbitplayer_30296)))) {
@@ -5340,10 +5271,7 @@ function script13621(int0: number): number {
             break;
         }
         case 58908: {
-            if (((((varbitplayer_30298 + varbitplayer_30297) - varbitplayer_58042) > 0) && (script259(int0) < ((varbitplayer_30298 + varbitplayer_30297) - varbitplayer_58042)))) {
-                return 1;
-            };
-            break;
+            return 0;
         }
         case 59648: {
             if ((((varbitplayer_58361 - varbitplayer_58362) > 0) && (script259(int0) < (varbitplayer_58361 - varbitplayer_58362)))) {
@@ -5352,10 +5280,7 @@ function script13621(int0: number): number {
             break;
         }
         case 59649: {
-            if (((((varbitplayer_58364 + varbitplayer_58363) - varbitplayer_58365) > 0) && (script259(int0) < ((varbitplayer_58364 + varbitplayer_58363) - varbitplayer_58365)))) {
-                return 1;
-            };
-            break;
+            return 0;
         }
         case 59870: {
             if ((((varbitplayer_60071 - varbitplayer_60072) > 0) && (script259(int0) < (varbitplayer_60071 - varbitplayer_60072)))) {
@@ -5364,10 +5289,7 @@ function script13621(int0: number): number {
             break;
         }
         case 59871: {
-            if (((((varbitplayer_60074 + varbitplayer_60073) - varbitplayer_60075) > 0) && (script259(int0) < ((varbitplayer_60074 + varbitplayer_60073) - varbitplayer_60075)))) {
-                return 1;
-            };
-            break;
+            return 0;
         }
         case 56178: {
             return varbitplayer_54911;

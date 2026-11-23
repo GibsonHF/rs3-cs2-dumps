@@ -23413,10 +23413,6 @@
   },
   {
     "domain": "PLAYER",
-    "id": "5950"
-  },
-  {
-    "domain": "PLAYER",
     "id": "5951"
   },
   {
@@ -42873,10 +42869,6 @@
   },
   {
     "domain": "PLAYER",
-    "id": "10927 [trh_consumable_bxp_exchanger_skill_1]"
-  },
-  {
-    "domain": "PLAYER",
     "id": "10928 [necromancy_prerelease]"
   },
   {
@@ -53932,6 +53924,34 @@
     "id": "13761 [combatv2_cooldown_constitution_vampyre_slayer_start]"
   },
   {
+    "domain": "PLAYER",
+    "id": "13762 [combatv2_cooldown_constitution_vampyre_slayer_end]"
+  },
+  {
+    "domain": "PLAYER",
+    "id": "13763 [combatv2_cooldown_constitution_vital_drain_start]"
+  },
+  {
+    "domain": "PLAYER",
+    "id": "13764 [combatv2_cooldown_constitution_vital_drain_end]"
+  },
+  {
+    "domain": "PLAYER",
+    "id": "13765 [combatv2_cooldown_magic_sanguine_offering_start]"
+  },
+  {
+    "domain": "PLAYER",
+    "id": "13766 [combatv2_cooldown_magic_sanguine_offering_end]"
+  },
+  {
+    "domain": "PLAYER",
+    "id": "13767 [combatv2_ability_weapon_cooldown_sanguine_volley_start]"
+  },
+  {
+    "domain": "PLAYER",
+    "id": "13768 [combatv2_ability_weapon_cooldown_sanguine_volley_end]"
+  },
+  {
     "domain": "NPC",
     "id": "0"
   },
@@ -54929,10 +54949,6 @@
   },
   {
     "domain": "NPC",
-    "id": "249"
-  },
-  {
-    "domain": "NPC",
     "id": "250"
   },
   {
@@ -55114,10 +55130,6 @@
   {
     "domain": "NPC",
     "id": "295"
-  },
-  {
-    "domain": "NPC",
-    "id": "296"
   },
   {
     "domain": "NPC",
@@ -118833,15 +118845,27 @@
   },
   {
     "domain": "CONTROLLER",
-    "id": "743"
-  },
-  {
-    "domain": "CONTROLLER",
-    "id": "744"
-  },
-  {
-    "domain": "CONTROLLER",
     "id": "745"
+  },
+  {
+    "domain": "CONTROLLER",
+    "id": "746"
+  },
+  {
+    "domain": "CONTROLLER",
+    "id": "747"
+  },
+  {
+    "domain": "CONTROLLER",
+    "id": "748"
+  },
+  {
+    "domain": "CONTROLLER",
+    "id": "749"
+  },
+  {
+    "domain": "CONTROLLER",
+    "id": "750"
   },
   {
     "domain": "CONTROLLER",
@@ -124853,210 +124877,6 @@
   },
   {
     "domain": "CONTROLLER",
-    "id": "2328"
-  },
-  {
-    "domain": "CONTROLLER",
-    "id": "2329"
-  },
-  {
-    "domain": "CONTROLLER",
-    "id": "2330"
-  },
-  {
-    "domain": "CONTROLLER",
-    "id": "2331"
-  },
-  {
-    "domain": "CONTROLLER",
-    "id": "2332"
-  },
-  {
-    "domain": "CONTROLLER",
-    "id": "2333"
-  },
-  {
-    "domain": "CONTROLLER",
-    "id": "2334"
-  },
-  {
-    "domain": "CONTROLLER",
-    "id": "2335"
-  },
-  {
-    "domain": "CONTROLLER",
-    "id": "2336"
-  },
-  {
-    "domain": "CONTROLLER",
-    "id": "2337"
-  },
-  {
-    "domain": "CONTROLLER",
-    "id": "2338"
-  },
-  {
-    "domain": "CONTROLLER",
-    "id": "2339"
-  },
-  {
-    "domain": "CONTROLLER",
-    "id": "2340"
-  },
-  {
-    "domain": "CONTROLLER",
-    "id": "2341"
-  },
-  {
-    "domain": "CONTROLLER",
-    "id": "2342"
-  },
-  {
-    "domain": "CONTROLLER",
-    "id": "2343"
-  },
-  {
-    "domain": "CONTROLLER",
-    "id": "2344"
-  },
-  {
-    "domain": "CONTROLLER",
-    "id": "2345"
-  },
-  {
-    "domain": "CONTROLLER",
-    "id": "2346"
-  },
-  {
-    "domain": "CONTROLLER",
-    "id": "2347"
-  },
-  {
-    "domain": "CONTROLLER",
-    "id": "2348"
-  },
-  {
-    "domain": "CONTROLLER",
-    "id": "2349"
-  },
-  {
-    "domain": "CONTROLLER",
-    "id": "2350"
-  },
-  {
-    "domain": "CONTROLLER",
-    "id": "2351"
-  },
-  {
-    "domain": "CONTROLLER",
-    "id": "2352"
-  },
-  {
-    "domain": "CONTROLLER",
-    "id": "2353"
-  },
-  {
-    "domain": "CONTROLLER",
-    "id": "2354"
-  },
-  {
-    "domain": "CONTROLLER",
-    "id": "2355"
-  },
-  {
-    "domain": "CONTROLLER",
-    "id": "2356"
-  },
-  {
-    "domain": "CONTROLLER",
-    "id": "2357"
-  },
-  {
-    "domain": "CONTROLLER",
-    "id": "2358"
-  },
-  {
-    "domain": "CONTROLLER",
-    "id": "2359"
-  },
-  {
-    "domain": "CONTROLLER",
-    "id": "2360"
-  },
-  {
-    "domain": "CONTROLLER",
-    "id": "2361"
-  },
-  {
-    "domain": "CONTROLLER",
-    "id": "2362"
-  },
-  {
-    "domain": "CONTROLLER",
-    "id": "2363"
-  },
-  {
-    "domain": "CONTROLLER",
-    "id": "2364"
-  },
-  {
-    "domain": "CONTROLLER",
-    "id": "2365"
-  },
-  {
-    "domain": "CONTROLLER",
-    "id": "2366"
-  },
-  {
-    "domain": "CONTROLLER",
-    "id": "2367"
-  },
-  {
-    "domain": "CONTROLLER",
-    "id": "2368"
-  },
-  {
-    "domain": "CONTROLLER",
-    "id": "2369"
-  },
-  {
-    "domain": "CONTROLLER",
-    "id": "2370"
-  },
-  {
-    "domain": "CONTROLLER",
-    "id": "2371"
-  },
-  {
-    "domain": "CONTROLLER",
-    "id": "2372"
-  },
-  {
-    "domain": "CONTROLLER",
-    "id": "2373"
-  },
-  {
-    "domain": "CONTROLLER",
-    "id": "2374"
-  },
-  {
-    "domain": "CONTROLLER",
-    "id": "2375"
-  },
-  {
-    "domain": "CONTROLLER",
-    "id": "2376"
-  },
-  {
-    "domain": "CONTROLLER",
-    "id": "2377"
-  },
-  {
-    "domain": "CONTROLLER",
-    "id": "2378"
-  },
-  {
-    "domain": "CONTROLLER",
     "id": "2379"
   },
   {
@@ -130649,14 +130469,6 @@
   },
   {
     "domain": "CONTROLLER",
-    "id": "3777"
-  },
-  {
-    "domain": "CONTROLLER",
-    "id": "3778"
-  },
-  {
-    "domain": "CONTROLLER",
     "id": "3786"
   },
   {
@@ -133642,6 +133454,10 @@
   {
     "domain": "GLOBAL",
     "id": "649"
+  },
+  {
+    "domain": "GLOBAL",
+    "id": "650"
   },
   {
     "domain": "PLAYER_GROUP",

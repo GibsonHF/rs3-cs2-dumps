@@ -86,7 +86,6 @@ function script7552(int0: number, int1: number): number {
         case 96:
         case 97:
         case 98:
-        case 125:
         case 130: {
             return enum_getvalue(0, 23, 371 as cs2enum, 22);
         }

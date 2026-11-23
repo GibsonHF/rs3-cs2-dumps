@@ -4,6 +4,9 @@ function script7149(int0: number): number {
         case 17881: {
             return script11172(17267);
         }
+        case 20600: {
+            return script11172(20602);
+        }
         case 17916: {
             if ((varbitplayer_60903 == 0)) {
                 if ((((varbitplayer_50561 == 1) || (varbitplayer_60897 == 1)) || (varbitplayer_60435 == 1))) {

@@ -4,7 +4,7 @@ function script16323(int0: number): number {
     stack(int0);
     DB_FIND(0);
     var int1 = dbrow_findnext();
-    if (((int1 == -1) && (int0 != 8677))) {
+    if (((int1 == -1) && (int0 != 9042))) {
         script12478(`No data was found for advent calendar on the specified date: ${inttostring(int0, 10)}`);
     };
     return int1;

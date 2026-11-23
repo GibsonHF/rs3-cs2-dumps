@@ -21,18 +21,36 @@ function script18223(int0: number, int1: number, int2: number, int3: number, int
         };
     };
     var string0 = "";
-    if ((((int6 != -1 as obj) && (int5 > 0)) && (CC_FINDBYCATEGORY(int0, int1, 0) == 1))) {
-        script7918(int1, 1, 0, 0, 0, 0, 81, int7, 0, 0, script18226(int9, int4));
-        script9861(int1, 3, 2, int8, 1, 1, 44, 39, 0, 0, int6, int5, 2, 0);
-        CC_SETOP(1, "Info");
-        CC_SETOPBASE(`${script4033(int6)}${OC_NAME(int6)}`);
-        CC_SETONOP(callback(script18227, int6, int5));
-        CC_SETMOUSEOVERCURSOR(172);
-        string0 = `${inttostring(int5, 10)} x ${OC_NAME(int6)}`;
-        if ((CC_FINDBYCATEGORY(int0, int1, 3) == 1)) {
-            CC_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643));
+    if ((int6 != -1 as obj)) {
+        if ((int5 > 0)) {
+            if ((CC_FINDBYCATEGORY(int0, int1, 0) == 1)) {
+                script7918(int1, 1, 0, 0, 0, 0, 81, int7, 0, 0, script18226(int9, int4));
+                script9861(int1, 3, 2, int8, 1, 1, 44, 39, 0, 0, int6, int5, 2, 0);
+                CC_SETOP(1, "Info");
+                CC_SETOPBASE(`${script4033(int6)}${OC_NAME(int6)}`);
+                CC_SETONOP(callback(script18227, int6, int5));
+                CC_SETMOUSEOVERCURSOR(172);
+                string0 = `${inttostring(int5, 10)} x ${OC_NAME(int6)}`;
+                if ((CC_FINDBYCATEGORY(int0, int1, 3) == 1)) {
+                    CC_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643));
+                };
+                script7918(int1, 4, 6, 5, 0, 2, 32, 32, 0, 0, script18225(int9, int4));
+                if ((int1 > 1)) {
+                    script18224(int1, int9);
+                };
+            };
+        } else if ((CC_FINDBYCATEGORY(int0, int1, 0) == 1)) {
+            script7918(int1, 1, 0, 0, 0, 0, 81, int7, 0, 0, script18226(2, int4));
+            script10485(int1, 3, 0, int8, 0, 1, 81, 32, 0, 0, 2100, "No reward");
+            CC_SETTEXTALIGN(1, 1, 0);
+            if ((int1 > 1)) {
+                script18224(int1, int9);
+            };
         };
-        script7918(int1, 4, 6, 5, 0, 2, 32, 32, 0, 0, script18225(int9, int4));
+    } else if ((CC_FINDBYCATEGORY(int0, int1, 0) == 1)) {
+        script7918(int1, 1, 0, 0, 0, 0, 81, int7, 0, 0, script18226(2, int4));
+        script10485(int1, 3, 0, int8, 0, 1, 81, 32, 0, 0, 2100, "No reward");
+        CC_SETTEXTALIGN(1, 1, 0);
         if ((int1 > 1)) {
             script18224(int1, int9);
         };

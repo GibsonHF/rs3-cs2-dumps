@@ -1,5 +1,6 @@
 //
 function script1647(): void {
+    IF_SETHIDE(true, comp(1034, 22));  // wof65_valentines_shop:random_chocolate_button
     if ((varbitplayer_21620 == 1)) {
         IF_SETTRANS(200, comp(1034, 3));  // wof65_valentines_shop:love_emote_icon
     };

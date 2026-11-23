@@ -1,99 +1,99 @@
 //
 function script16322(int0: number, int1: number): number {
     switch (int0) {
-        case 8678: {
+        case 9043: {
             varbitplayer_50687 = int1;
             break;
         }
-        case 8679: {
+        case 9044: {
             varbitplayer_50688 = int1;
             break;
         }
-        case 8680: {
+        case 9045: {
             varbitplayer_50689 = int1;
             break;
         }
-        case 8681: {
+        case 9046: {
             varbitplayer_50690 = int1;
             break;
         }
-        case 8682: {
+        case 9047: {
             varbitplayer_50691 = int1;
             break;
         }
-        case 8683: {
+        case 9048: {
             varbitplayer_50692 = int1;
             break;
         }
-        case 8684: {
+        case 9049: {
             varbitplayer_50693 = int1;
             break;
         }
-        case 8685: {
+        case 9050: {
             varbitplayer_50694 = int1;
             break;
         }
-        case 8686: {
+        case 9051: {
             varbitplayer_50695 = int1;
             break;
         }
-        case 8687: {
+        case 9052: {
             varbitplayer_50696 = int1;
             break;
         }
-        case 8688: {
+        case 9053: {
             varbitplayer_50697 = int1;
             break;
         }
-        case 8689: {
+        case 9054: {
             varbitplayer_50698 = int1;
             break;
         }
-        case 8690: {
+        case 9055: {
             varbitplayer_50699 = int1;
             break;
         }
-        case 8691: {
+        case 9056: {
             varbitplayer_50700 = int1;
             break;
         }
-        case 8692: {
+        case 9057: {
             varbitplayer_50701 = int1;
             break;
         }
-        case 8693: {
+        case 9058: {
             varbitplayer_50702 = int1;
             break;
         }
-        case 8694: {
+        case 9059: {
             varbitplayer_50703 = int1;
             break;
         }
-        case 8695: {
+        case 9060: {
             varbitplayer_50704 = int1;
             break;
         }
-        case 8696: {
+        case 9061: {
             varbitplayer_50705 = int1;
             break;
         }
-        case 8697: {
+        case 9062: {
             varbitplayer_50706 = int1;
             break;
         }
-        case 8698: {
+        case 9063: {
             varbitplayer_50707 = int1;
             break;
         }
-        case 8699: {
+        case 9064: {
             varbitplayer_50708 = int1;
             break;
         }
-        case 8700: {
+        case 9065: {
             varbitplayer_50709 = int1;
             break;
         }
-        case 8701: {
+        case 9066: {
             varbitplayer_50710 = int1;
             break;
         }

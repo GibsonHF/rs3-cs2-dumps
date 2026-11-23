@@ -3337,6 +3337,18 @@ function script2476(int0: number, int1: number): number {
         case 794: {
             return varbitplayer_58212;
         }
+        case 886: {
+            if ((ACHIEVEMENT_REQSTATE(5134 as achievement) != -2)) {
+                return 0;
+            };
+            break;
+        }
+        case 887: {
+            if ((ACHIEVEMENT_REQSTATE(5135 as achievement) != -2)) {
+                return 0;
+            };
+            break;
+        }
         case 796: {
             if ((ACHIEVEMENT_REQSTATE(4836 as achievement) != -2)) {
                 return 0;

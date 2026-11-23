@@ -13,8 +13,8 @@ function script15412(): void {
     };
     IF_SETSIZE(200, 120, 0, 0, comp(1253, 32));  // wheel_of_fortune:wheel_spin_button_layer_1
     IF_SETPOSITION(100, 60, 0, 0, comp(1253, 32));  // wheel_of_fortune:wheel_spin_button_layer_1
-    IF_SETOPCURSOR(1, 46, comp(760, 43));  // trh193_overlay:currency_buy_button
+    IF_SETHIDE(true, comp(760, 39));  // trh193_overlay:currency_count_layer
+    IF_SETHIDE(true, comp(760, 43));  // trh193_overlay:currency_buy_button
     script15413();
-    script15414();
     return;
 }

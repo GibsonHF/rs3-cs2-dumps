@@ -1,16 +1,5 @@
 //
 function script4009(int0: number, int1: number, int2: number): [number, string] {
-    switch (int0) {
-        case 30920: {
-            return [0, `${OC_NAME(int0)} will lose all of its charges. Do you wish to continue?`];
-        }
-        case 30921:
-        case 30922:
-        case 30923:
-        case 30924: {
-            return [0, `${OC_NAME(int0)} will lose all of its charges and costs ${TOSTRING_LOCALISED(item_getparam(int0, 3322), 1)} to reclaim from Diango. Do you wish to continue?`];
-        }
-    };
     if ((script6552(int0) == 1)) {
         if ((item_getparam(int0, 3322) > 0)) {
             return [0, `${OC_NAME(int0)} costs ${TOSTRING_LOCALISED(item_getparam(int0, 3322), 1)} to reclaim from Diango. Do you wish to continue?`];

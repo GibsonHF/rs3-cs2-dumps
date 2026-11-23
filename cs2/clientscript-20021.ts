@@ -13,7 +13,8 @@ function script20021(): void {
     };
     IF_SETSIZE(200, 120, 0, 0, comp(1253, 32));  // wheel_of_fortune:wheel_spin_button_layer_1
     IF_SETPOSITION(100, 60, 0, 0, comp(1253, 32));  // wheel_of_fortune:wheel_spin_button_layer_1
-    IF_SETOPCURSOR(1, 46, comp(1340, 63));  // trh210_overlay:currency_buy_button
+    IF_SETHIDE(true, comp(1340, 58));  // trh210_overlay:currency_count_layer
+    IF_SETHIDE(true, comp(1340, 63));  // trh210_overlay:currency_buy_button
     IF_SETOPCURSOR(1, 201, comp(1340, 31));  // trh210_overlay:trail_pos_1
     script20023();
     return;

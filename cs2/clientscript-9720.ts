@@ -35,10 +35,6 @@ function script9720(int0: number, int1: number): void {
                         string2 = "You have too many butterfly tokens and cannot claim this prize at the moment.";
                         break;
                     }
-                    case 38172: {
-                        string2 = "You have too many sailing tokens and cannot claim this prize at the moment.";
-                        break;
-                    }
                 };
                 break;
             }

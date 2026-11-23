@@ -39,12 +39,6 @@ function script247(int0: number, int1: number, int2: number, int3: number, strin
             };
             break;
         }
-        case 33146: {
-            if ((((int0 == 5) && (varbitplayer_30607 == 0)) && (OC_CATEGORY(INV_GETOBJ(94 as inv, 10)) == 3168 as category))) {
-                int4 = 1;
-            };
-            break;
-        }
     };
     if ((int4 == 1)) {
         var string0 = string1;

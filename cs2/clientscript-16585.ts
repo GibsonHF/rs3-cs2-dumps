@@ -36,19 +36,19 @@ function script16585(int0: number): number {
             return MAX(0, ((varbitplayer_57667 - varbitplayer_57668) - script259(int0)));
         }
         case 58439: {
-            return MAX(0, (((varbitplayer_4609 + varbitplayer_4608) - varbitplayer_57671) - script259(int0)));
+            return 0;
         }
         case 58907: {
             return MAX(0, ((varbitplayer_30295 - varbitplayer_30296) - script259(int0)));
         }
         case 58908: {
-            return MAX(0, (((varbitplayer_30298 + varbitplayer_30297) - varbitplayer_58042) - script259(int0)));
+            return 0;
         }
         case 59648: {
             return MAX(0, ((varbitplayer_58361 - varbitplayer_58362) - script259(int0)));
         }
         case 59649: {
-            return MAX(0, (((varbitplayer_58364 + varbitplayer_58363) - varbitplayer_58365) - script259(int0)));
+            return 0;
         }
         case 59870: {
             return MAX(0, ((varbitplayer_60071 - varbitplayer_60072) - script259(int0)));
@@ -60,5 +60,5 @@ function script16585(int0: number): number {
             return 1;
         }
     };
-    return MAX(0, (((varbitplayer_60074 + varbitplayer_60073) - varbitplayer_60075) - script259(int0)));
+    return 0;
 }

@@ -39,10 +39,6 @@ function script9722(int0: number, int1: number, int2: number, int3: number, int4
                     string2 = "Tiny protean pack";
                     break;
                 }
-                case 7: {
-                    string2 = "Tiny portable pack";
-                    break;
-                }
                 case 9: {
                     string2 = OC_NAME(struct_getparam(int8, 5743));
                     break;
@@ -79,10 +75,6 @@ function script9722(int0: number, int1: number, int2: number, int3: number, int4
                 }
                 case 6: {
                     string2 = "Small protean pack";
-                    break;
-                }
-                case 7: {
-                    string2 = "Small portable pack";
                     break;
                 }
                 case 9: {
@@ -123,10 +115,6 @@ function script9722(int0: number, int1: number, int2: number, int3: number, int4
                     string2 = "Medium protean pack";
                     break;
                 }
-                case 7: {
-                    string2 = "Medium portable pack";
-                    break;
-                }
                 case 9: {
                     string2 = OC_NAME(struct_getparam(int8, 5745));
                     break;
@@ -165,10 +153,6 @@ function script9722(int0: number, int1: number, int2: number, int3: number, int4
                     string2 = "Large protean pack";
                     break;
                 }
-                case 7: {
-                    string2 = "Large portable pack";
-                    break;
-                }
                 case 8: {
                     string2 = "Medium skill training dummy crate";
                     break;
@@ -197,10 +181,6 @@ function script9722(int0: number, int1: number, int2: number, int3: number, int4
                 }
                 case 6: {
                     string2 = "Huge protean pack";
-                    break;
-                }
-                case 7: {
-                    string2 = "Huge portable pack";
                     break;
                 }
                 case 8: {

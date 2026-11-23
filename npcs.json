@@ -524689,7 +524689,7 @@
 		"animation_group": 2269,
 		"attackCursor": 42,
 		"boundSize": 1,
-		"combat": 103,
+		"combat": 87,
 		"extra": {
 			"magicattack": 1650, // 3 chisel:accuracy_magic
 			"rangeattack": 1650, // 4 chisel:accuracy_ranged
@@ -524719,7 +524719,7 @@
 		"animation_group": 2269,
 		"attackCursor": 42,
 		"boundSize": 1,
-		"combat": 103,
+		"combat": 87,
 		"extra": {
 			"magicattack": 1650, // 3 chisel:accuracy_magic
 			"rangeattack": 1650, // 4 chisel:accuracy_ranged
@@ -524913,7 +524913,7 @@
 		"animation_group": 2265,
 		"attackCursor": 42,
 		"boundSize": 3,
-		"combat": 112,
+		"combat": 95,
 		"extra": {
 			"magicattack": 1924, // 3 chisel:accuracy_magic
 			"attackrate": 4, // 14 chisel:attack_speed
@@ -524941,7 +524941,7 @@
 		"animation_group": 2265,
 		"attackCursor": 42,
 		"boundSize": 3,
-		"combat": 112,
+		"combat": 95,
 		"extra": {
 			"magicattack": 1694, // 3 chisel:accuracy_magic
 			"attackrate": 4, // 14 chisel:attack_speed
@@ -524969,7 +524969,7 @@
 		"animation_group": 2266,
 		"attackCursor": 42,
 		"boundSize": 1,
-		"combat": 112,
+		"combat": 95,
 		"extra": {
 			"magicattack": 1924, // 3 chisel:accuracy_magic
 			"attackrate": 4, // 14 chisel:attack_speed
@@ -524997,7 +524997,7 @@
 		"animation_group": 2266,
 		"attackCursor": 42,
 		"boundSize": 1,
-		"combat": 112,
+		"combat": 95,
 		"extra": {
 			"magicattack": 1486, // 3 chisel:accuracy_magic
 			"attackrate": 4, // 14 chisel:attack_speed
@@ -525025,7 +525025,7 @@
 		"animation_group": 2271,
 		"attackCursor": 42,
 		"boundSize": 1,
-		"combat": 107,
+		"combat": 82,
 		"extra": {
 			"magicattack": 1783, // 3 chisel:accuracy_magic
 			"rangeattack": 1783, // 4 chisel:accuracy_ranged
@@ -525055,7 +525055,7 @@
 		"animation_group": 2271,
 		"attackCursor": 42,
 		"boundSize": 1,
-		"combat": 107,
+		"combat": 82,
 		"extra": {
 			"magicattack": 1783, // 3 chisel:accuracy_magic
 			"rangeattack": 1783, // 4 chisel:accuracy_ranged
@@ -555287,6 +555287,66 @@
 		],
 		"movementCapabilities": 3,
 		"name": "Brains"
+	},
+	{
+		"actions": [
+			"Interact",
+			null,
+			null,
+			null,
+			null
+		],
+		"animation_group": 2558,
+		"boundSize": 1,
+		"combat": 0,
+		"custombounding": [
+			-250,
+			-900,
+			-128,
+			300,
+			-500,
+			310
+		],
+		"drawMapDot": false,
+		"extra": {
+			"follower_obj": 64562, // 75 chisel:pet_item_id
+			"mtx_no_recolour": 1, // 477 chisel:pet_category
+			"mtxmgt_pet_struct": 48937 // 5051 chisel:pet_varbit_reference
+		},
+		"id": 15646,
+		"models": [
+			71956
+		],
+		"movementCapabilities": 1,
+		"name": "Dottie",
+		"scaleXZ": 192,
+		"scaleY": 192
+	},
+	{
+		"animation_group": 2558,
+		"boundSize": 1,
+		"combat": 0,
+		"custombounding": [
+			-250,
+			-900,
+			-128,
+			300,
+			-500,
+			310
+		],
+		"drawMapDot": false,
+		"extra": {
+			"mtx_no_recolour": 1, // 477 chisel:pet_category
+			"mtxmgt_pet_struct": 48937 // 5051 chisel:pet_varbit_reference
+		},
+		"id": 15647,
+		"models": [
+			71956
+		],
+		"movementCapabilities": 3,
+		"name": "Dottie",
+		"scaleXZ": 192,
+		"scaleY": 192
 	},
 	{
 		"action_cursors": [
@@ -605008,26 +605068,6 @@
 		"name": "Party cake"
 	},
 	{
-		"actions": [
-			"Take food",
-			null,
-			"Check remaining",
-			null,
-			null
-		],
-		"alwaysontop": true,
-		"animateIdle": false,
-		"boundSize": 1,
-		"combat": 0,
-		"drawMapDot": false,
-		"id": 17113,
-		"models": [
-			85630
-		],
-		"movementCapabilities": 1,
-		"name": "Corn chip platter"
-	},
-	{
 		"action_cursors": [
 			44,
 			null,
@@ -615866,9 +615906,9 @@
 			"boss_instance_npc_spawn_coord": 626476982, // 3336
 			"bslay_tracking_var_mode_normal": 16833203, // 9012
 			"health_headbar": 50, // 9114
-			"adrenaline_headbar": 43, // 9115
-			"progress_headbar": 46, // 9116
-			"timer_headbar": 45 // 9117
+			"adrenaline_headbar": 68, // 9115
+			"progress_headbar": 70, // 9116
+			"timer_headbar": 69 // 9117
 		},
 		"headModels": [
 			143309
@@ -621880,9 +621920,9 @@
 			"boss_instance_npc_spawn_coord": 626476982, // 3336
 			"bslay_tracking_var_mode_normal": 16833203, // 9012
 			"health_headbar": 50, // 9114
-			"adrenaline_headbar": 43, // 9115
-			"progress_headbar": 46, // 9116
-			"timer_headbar": 45 // 9117
+			"adrenaline_headbar": 68, // 9115
+			"progress_headbar": 70, // 9116
+			"timer_headbar": 69 // 9117
 		},
 		"headModels": [
 			143309
@@ -621966,9 +622006,9 @@
 			"boss_instance_npc_spawn_coord": 626476982, // 3336
 			"bslay_tracking_var_mode_normal": 16833203, // 9012
 			"health_headbar": 50, // 9114
-			"adrenaline_headbar": 43, // 9115
-			"progress_headbar": 46, // 9116
-			"timer_headbar": 45 // 9117
+			"adrenaline_headbar": 68, // 9115
+			"progress_headbar": 70, // 9116
+			"timer_headbar": 69 // 9117
 		},
 		"headModels": [
 			143309
@@ -651961,10 +652001,10 @@
 			"combatv2_npc_xp_multiplier": 5, // 3318 chisel:combat_xp_multiplier_x10
 			"bslay_tracking_var_mode_normal": 16835403, // 9012
 			"bslay_tracking_var_mode_hard": 16835404, // 9013
-			"health_headbar": 44, // 9114
-			"adrenaline_headbar": 43, // 9115
-			"progress_headbar": 46, // 9116
-			"timer_headbar": 45, // 9117
+			"health_headbar": 66, // 9114
+			"adrenaline_headbar": 68, // 9115
+			"progress_headbar": 70, // 9116
+			"timer_headbar": 69, // 9117
 			"combatv2_attackmod_amascut_follower": 1, // 9232
 			"combatv2_provoke_range": 32 // 9325
 		},
@@ -669399,29 +669439,6 @@
 		],
 		"movementCapabilities": 3,
 		"name": "Spitting spider"
-	},
-	{
-		"actions": [
-			"Attune to",
-			null,
-			"Check",
-			"Recover",
-			"Remove attunement"
-		],
-		"animation_group": 3197,
-		"bgsoundrate": [
-			230,
-			270
-		],
-		"boundSize": 1,
-		"combat": 0,
-		"drawMapDot": false,
-		"id": 19461,
-		"models": [
-			96986
-		],
-		"movementCapabilities": 1,
-		"name": "Totem of wisdom"
 	},
 	{
 		"actions": [
@@ -697183,10 +697200,10 @@
 			"combatv2_npc_xp_multiplier": 5, // 3318 chisel:combat_xp_multiplier_x10
 			"bslay_tracking_var_mode_normal": 16835403, // 9012
 			"bslay_tracking_var_mode_hard": 16835404, // 9013
-			"health_headbar": 44, // 9114
-			"adrenaline_headbar": 43, // 9115
-			"progress_headbar": 46, // 9116
-			"timer_headbar": 45, // 9117
+			"health_headbar": 66, // 9114
+			"adrenaline_headbar": 68, // 9115
+			"progress_headbar": 70, // 9116
+			"timer_headbar": 69, // 9117
 			"combatv2_attackmod_amascut_follower": 1, // 9232
 			"combatv2_provoke_range": 32 // 9325
 		},
@@ -698174,234 +698191,6 @@
 		],
 		"movementCapabilities": 1,
 		"name": "Smuggler"
-	},
-	{
-		"action_cursors": [
-			45,
-			null,
-			44,
-			null,
-			null,
-			null
-		],
-		"actions": [
-			"Pick up",
-			null,
-			"Talk to",
-			null,
-			null
-		],
-		"animation_group": 3353,
-		"boundSize": 1,
-		"color_replacements": {
-			"16311": 16311,
-			"16323": 16323,
-			"16335": 16335,
-			"16347": 16347
-		},
-		"combat": 0,
-		"drawMapDot": false,
-		"extra": {
-			"follower_obj": 33769, // 75 chisel:pet_item_id
-			"lore_ownership": 51, // 395 chisel:unknown_pet_nr
-			"lore_f2p": 1 // 3302 chisel:pet_value_unknown_CE6
-		},
-		"id": 20524,
-		"models": [
-			101499
-		],
-		"movementCapabilities": 1,
-		"name": "Toy royal battleship"
-	},
-	{
-		"action_cursors": [
-			45,
-			null,
-			44,
-			null,
-			null,
-			null
-		],
-		"actions": [
-			"Pick up",
-			null,
-			"Talk to",
-			null,
-			null
-		],
-		"animation_group": 3353,
-		"boundSize": 1,
-		"color_replacements": {
-			"16311": 16311,
-			"16323": 16323,
-			"16335": 16335,
-			"16347": 16347
-		},
-		"combat": 0,
-		"drawMapDot": false,
-		"extra": {
-			"follower_obj": 33769, // 75 chisel:pet_item_id
-			"lore_ownership": 51, // 395 chisel:unknown_pet_nr
-			"lore_f2p": 1 // 3302 chisel:pet_value_unknown_CE6
-		},
-		"id": 20525,
-		"models": [
-			101499
-		],
-		"movementCapabilities": 1,
-		"name": "Toy royal battleship"
-	},
-	{
-		"action_cursors": [
-			45,
-			null,
-			44,
-			null,
-			null,
-			null
-		],
-		"actions": [
-			"Pick up",
-			null,
-			"Talk to",
-			null,
-			null
-		],
-		"animation_group": 3353,
-		"boundSize": 1,
-		"color_replacements": {
-			"16311": 16311,
-			"16323": 16323,
-			"16335": 16335,
-			"16347": 16347
-		},
-		"combat": 0,
-		"drawMapDot": false,
-		"extra": {
-			"follower_obj": 33769, // 75 chisel:pet_item_id
-			"lore_ownership": 51, // 395 chisel:unknown_pet_nr
-			"lore_f2p": 1 // 3302 chisel:pet_value_unknown_CE6
-		},
-		"id": 20526,
-		"models": [
-			101499
-		],
-		"movementCapabilities": 1,
-		"name": "Toy royal battleship"
-	},
-	{
-		"action_cursors": [
-			45,
-			null,
-			44,
-			null,
-			null,
-			null
-		],
-		"actions": [
-			"Pick up",
-			null,
-			"Talk to",
-			null,
-			null
-		],
-		"animation_group": 3353,
-		"boundSize": 1,
-		"color_replacements": {
-			"16311": 16311,
-			"16323": 16323,
-			"16335": 16335,
-			"16347": 16347
-		},
-		"combat": 0,
-		"drawMapDot": false,
-		"extra": {
-			"follower_obj": 33773, // 75 chisel:pet_item_id
-			"lore_ownership": 51, // 395 chisel:unknown_pet_nr
-			"lore_f2p": 1 // 3302 chisel:pet_value_unknown_CE6
-		},
-		"id": 20527,
-		"models": [
-			101500
-		],
-		"movementCapabilities": 1,
-		"name": "Toy royal battleship (battleworn)"
-	},
-	{
-		"action_cursors": [
-			45,
-			null,
-			44,
-			null,
-			null,
-			null
-		],
-		"actions": [
-			"Pick up",
-			null,
-			"Talk to",
-			null,
-			null
-		],
-		"animation_group": 3353,
-		"boundSize": 1,
-		"color_replacements": {
-			"16311": 16311,
-			"16323": 16323,
-			"16335": 16335,
-			"16347": 16347
-		},
-		"combat": 0,
-		"drawMapDot": false,
-		"extra": {
-			"follower_obj": 33773, // 75 chisel:pet_item_id
-			"lore_ownership": 51, // 395 chisel:unknown_pet_nr
-			"lore_f2p": 1 // 3302 chisel:pet_value_unknown_CE6
-		},
-		"id": 20528,
-		"models": [
-			101500
-		],
-		"movementCapabilities": 1,
-		"name": "Toy royal battleship (battleworn)"
-	},
-	{
-		"action_cursors": [
-			45,
-			null,
-			44,
-			null,
-			null,
-			null
-		],
-		"actions": [
-			"Pick up",
-			null,
-			"Talk to",
-			null,
-			null
-		],
-		"animation_group": 3353,
-		"boundSize": 1,
-		"color_replacements": {
-			"16311": 16311,
-			"16323": 16323,
-			"16335": 16335,
-			"16347": 16347
-		},
-		"combat": 0,
-		"drawMapDot": false,
-		"extra": {
-			"follower_obj": 33773, // 75 chisel:pet_item_id
-			"lore_ownership": 51, // 395 chisel:unknown_pet_nr
-			"lore_f2p": 1 // 3302 chisel:pet_value_unknown_CE6
-		},
-		"id": 20529,
-		"models": [
-			101500
-		],
-		"movementCapabilities": 1,
-		"name": "Toy royal battleship (battleworn)"
 	},
 	{
 		"actions": [
@@ -727650,58 +727439,6 @@
 		"name": "Ninja Master"
 	},
 	{
-		"ambience": 25,
-		"boundSize": 1,
-		"combat": 0,
-		"drawMapDot": false,
-		"id": 21508,
-		"models": [
-			105467,
-			7766
-		],
-		"movementCapabilities": 1,
-		"name": "Novtumber Festival plant",
-		"scaleXZ": 95,
-		"scaleY": 95
-	},
-	{
-		"ambience": 25,
-		"boundSize": 1,
-		"combat": 0,
-		"drawMapDot": false,
-		"id": 21509,
-		"models": [
-			105468,
-			7766
-		],
-		"movementCapabilities": 1,
-		"name": "Novtumber Festival plant",
-		"scaleXZ": 95,
-		"scaleY": 95
-	},
-	{
-		"actions": [
-			"Harvest",
-			null,
-			null,
-			null,
-			null
-		],
-		"ambience": 25,
-		"boundSize": 1,
-		"combat": 0,
-		"drawMapDot": false,
-		"id": 21510,
-		"models": [
-			105469,
-			7766
-		],
-		"movementCapabilities": 1,
-		"name": "Novtumber Festival plant",
-		"scaleXZ": 95,
-		"scaleY": 95
-	},
-	{
 		"action_cursors": [
 			44,
 			null,
@@ -747748,77 +747485,6 @@
 		"movementCapabilities": 1,
 		"name": "Thieving skill training dummy",
 		"turnspeed": 1024
-	},
-	{
-		"actions": [
-			null,
-			"Attack",
-			null,
-			null,
-			null
-		],
-		"ambience": 20,
-		"animation_group": 3652,
-		"attackCursor": 42,
-		"boundSize": 1,
-		"combat": 0,
-		"contrast": 25,
-		"extra": {
-			"attackrate": 4, // 14 chisel:attack_speed
-			"attackbonus": 110, // 29 chisel:accuracy_melee_(npc)
-			"combatv2_weakness": 0, // 2848 chisel:weakness
-			"combatv2_npc_armour": 110, // 2865 chisel:armor
-			"combatv2_no_resettag": 1, // 2890 chisel:jmod_god_event_elite_spawn
-			"combatv2_npc_no_tag": 1, // 2892 chisel:no_tag
-			"combatv2_npc_xp_override": 0, // 2893 chisel:custom_experience
-			"toplevel_v2_target_hide_lifepoints": 1, // 4473 chisel:hide_hitpoints
-			"combatv2_no_miss": 1 // 7560
-		},
-		"headModels": [
-			121926
-		],
-		"id": 22057,
-		"models": [
-			108201
-		],
-		"movementCapabilities": 1,
-		"name": "Loot Piñata",
-		"turnspeed": 0
-	},
-	{
-		"actions": [
-			null,
-			"Attack",
-			null,
-			null,
-			null
-		],
-		"ambience": 20,
-		"attackCursor": 42,
-		"boundSize": 1,
-		"combat": 0,
-		"contrast": 25,
-		"extra": {
-			"attackrate": 4, // 14 chisel:attack_speed
-			"attackbonus": 110, // 29 chisel:accuracy_melee_(npc)
-			"melee_strength": 1, // 641 chisel:damage_melee
-			"ranged_strength": 1, // 643 chisel:damage_ranged
-			"magic_strength": 1, // 965 chisel:damage_magic
-			"combatv2_weakness": 0, // 2848 chisel:weakness
-			"combatv2_npc_armour": 110, // 2865 chisel:armor
-			"combatv2_no_resettag": 1, // 2890 chisel:jmod_god_event_elite_spawn
-			"combatv2_npc_no_tag": 1, // 2892 chisel:no_tag
-			"combatv2_npc_xp_override": 0, // 2893 chisel:custom_experience
-			"toplevel_v2_target_hide_lifepoints": 1, // 4473 chisel:hide_hitpoints
-			"combatv2_no_miss": 1 // 7560
-		},
-		"id": 22058,
-		"models": [
-			108202
-		],
-		"movementCapabilities": 1,
-		"name": "Loot Piñata",
-		"turnspeed": 0
 	},
 	{
 		"actions": [
@@ -783772,21 +783438,6 @@
 		"respawnDirection": 2
 	},
 	{
-		"action_cursors": [
-			44,
-			null,
-			null,
-			null,
-			null,
-			null
-		],
-		"actions": [
-			"Talk to",
-			null,
-			"Open Death's Vault",
-			null,
-			null
-		],
 		"animation_group": 2687,
 		"boundSize": 1,
 		"color_replacements": {
@@ -789968,66 +789619,6 @@
 		"respawnDirection": 2,
 		"scaleXZ": 100,
 		"scaleY": 100
-	},
-	{
-		"actions": [
-			"Harvest",
-			null,
-			"Prune",
-			null,
-			null
-		],
-		"ambience": 25,
-		"boundSize": 1,
-		"combat": 0,
-		"drawMapDot": false,
-		"id": 23218,
-		"models": [
-			114011,
-			7766
-		],
-		"movementCapabilities": 1,
-		"name": "Harvest Festival plant"
-	},
-	{
-		"actions": [
-			"Harvest",
-			null,
-			"Prune",
-			null,
-			null
-		],
-		"ambience": 25,
-		"boundSize": 1,
-		"combat": 0,
-		"drawMapDot": false,
-		"id": 23219,
-		"models": [
-			114012,
-			7766
-		],
-		"movementCapabilities": 1,
-		"name": "Harvest Festival plant"
-	},
-	{
-		"actions": [
-			"Harvest",
-			null,
-			"Prune",
-			null,
-			null
-		],
-		"ambience": 25,
-		"boundSize": 1,
-		"combat": 0,
-		"drawMapDot": false,
-		"id": 23220,
-		"models": [
-			114015,
-			7766
-		],
-		"movementCapabilities": 1,
-		"name": "Harvest Festival plant"
 	},
 	{
 		"alwaysontop": true,
@@ -803527,74 +803118,6 @@
 		"movementCapabilities": 1,
 		"multivar": true,
 		"name": "Zamorak, Lord of Chaos"
-	},
-	{
-		"actions": [
-			null,
-			"Attack",
-			null,
-			null,
-			null
-		],
-		"ambience": 20,
-		"animation_group": 3652,
-		"attackCursor": 42,
-		"boundSize": 1,
-		"combat": 0,
-		"contrast": 25,
-		"extra": {
-			"attackrate": 4, // 14 chisel:attack_speed
-			"attackbonus": 110, // 29 chisel:accuracy_melee_(npc)
-			"combatv2_weakness": 0, // 2848 chisel:weakness
-			"combatv2_npc_armour": 110, // 2865 chisel:armor
-			"combatv2_no_resettag": 1, // 2890 chisel:jmod_god_event_elite_spawn
-			"combatv2_npc_no_tag": 1, // 2892 chisel:no_tag
-			"combatv2_npc_xp_override": 0, // 2893 chisel:custom_experience
-			"toplevel_v2_target_hide_lifepoints": 1, // 4473 chisel:hide_hitpoints
-			"combatv2_no_miss": 1 // 7560
-		},
-		"id": 23763,
-		"models": [
-			116090
-		],
-		"movementCapabilities": 1,
-		"name": "Christmas Loot Piñata",
-		"turnspeed": 0
-	},
-	{
-		"actions": [
-			null,
-			"Attack",
-			null,
-			null,
-			null
-		],
-		"ambience": 20,
-		"attackCursor": 42,
-		"boundSize": 1,
-		"combat": 0,
-		"contrast": 25,
-		"extra": {
-			"attackrate": 4, // 14 chisel:attack_speed
-			"attackbonus": 110, // 29 chisel:accuracy_melee_(npc)
-			"melee_strength": 1, // 641 chisel:damage_melee
-			"ranged_strength": 1, // 643 chisel:damage_ranged
-			"magic_strength": 1, // 965 chisel:damage_magic
-			"combatv2_weakness": 0, // 2848 chisel:weakness
-			"combatv2_npc_armour": 110, // 2865 chisel:armor
-			"combatv2_no_resettag": 1, // 2890 chisel:jmod_god_event_elite_spawn
-			"combatv2_npc_no_tag": 1, // 2892 chisel:no_tag
-			"combatv2_npc_xp_override": 0, // 2893 chisel:custom_experience
-			"toplevel_v2_target_hide_lifepoints": 1, // 4473 chisel:hide_hitpoints
-			"combatv2_no_miss": 1 // 7560
-		},
-		"id": 23764,
-		"models": [
-			116091
-		],
-		"movementCapabilities": 1,
-		"name": "Christmas Loot Piñata",
-		"turnspeed": 0
 	},
 	{
 		"action_cursors": [
@@ -823687,96 +823210,6 @@
 		"movementCapabilities": 1,
 		"name": "Almarid",
 		"respawnDirection": 2,
-		"turnspeed": 0
-	},
-	{
-		"alwaysontop": true,
-		"boundSize": 1,
-		"combat": 0,
-		"drawMapDot": false,
-		"id": 24400,
-		"morphs_1": {
-			"ids": [
-				24401,
-				0
-			],
-			"varbit": 35915,
-			"varp": -1
-		},
-		"movementCapabilities": 1,
-		"turnspeed": 0
-	},
-	{
-		"action_cursors": [
-			45,
-			null,
-			null,
-			null,
-			null,
-			null
-		],
-		"actions": [
-			"Pick-up",
-			null,
-			null,
-			null,
-			null
-		],
-		"alwaysontop": true,
-		"boundSize": 1,
-		"combat": 0,
-		"drawMapDot": false,
-		"id": 24401,
-		"models": [
-			117750
-		],
-		"movementCapabilities": 1,
-		"name": "Ancient relic",
-		"turnspeed": 0
-	},
-	{
-		"alwaysontop": true,
-		"boundSize": 1,
-		"combat": 0,
-		"drawMapDot": false,
-		"id": 24402,
-		"morphs_1": {
-			"ids": [
-				24403,
-				0
-			],
-			"varbit": 35916,
-			"varp": -1
-		},
-		"movementCapabilities": 1,
-		"turnspeed": 0
-	},
-	{
-		"action_cursors": [
-			45,
-			null,
-			null,
-			null,
-			null,
-			null
-		],
-		"actions": [
-			"Pick-up",
-			null,
-			null,
-			null,
-			null
-		],
-		"alwaysontop": true,
-		"boundSize": 1,
-		"combat": 0,
-		"drawMapDot": false,
-		"id": 24403,
-		"models": [
-			117750
-		],
-		"movementCapabilities": 1,
-		"name": "Ancient relic",
 		"turnspeed": 0
 	},
 	{
@@ -862324,74 +861757,6 @@
 		"name": "Recollection butterfly"
 	},
 	{
-		"actions": [
-			null,
-			"Attack",
-			null,
-			null,
-			null
-		],
-		"ambience": 20,
-		"animation_group": 3652,
-		"attackCursor": 42,
-		"boundSize": 1,
-		"combat": 0,
-		"contrast": 25,
-		"extra": {
-			"attackrate": 4, // 14 chisel:attack_speed
-			"attackbonus": 110, // 29 chisel:accuracy_melee_(npc)
-			"combatv2_weakness": 0, // 2848 chisel:weakness
-			"combatv2_npc_armour": 110, // 2865 chisel:armor
-			"combatv2_no_resettag": 1, // 2890 chisel:jmod_god_event_elite_spawn
-			"combatv2_npc_no_tag": 1, // 2892 chisel:no_tag
-			"combatv2_npc_xp_override": 0, // 2893 chisel:custom_experience
-			"toplevel_v2_target_hide_lifepoints": 1, // 4473 chisel:hide_hitpoints
-			"combatv2_no_miss": 1 // 7560
-		},
-		"id": 25566,
-		"models": [
-			108201
-		],
-		"movementCapabilities": 1,
-		"name": "Summer Piñata",
-		"turnspeed": 0
-	},
-	{
-		"actions": [
-			null,
-			"Attack",
-			null,
-			null,
-			null
-		],
-		"ambience": 20,
-		"attackCursor": 42,
-		"boundSize": 1,
-		"combat": 0,
-		"contrast": 25,
-		"extra": {
-			"attackrate": 4, // 14 chisel:attack_speed
-			"attackbonus": 110, // 29 chisel:accuracy_melee_(npc)
-			"melee_strength": 1, // 641 chisel:damage_melee
-			"ranged_strength": 1, // 643 chisel:damage_ranged
-			"magic_strength": 1, // 965 chisel:damage_magic
-			"combatv2_weakness": 0, // 2848 chisel:weakness
-			"combatv2_npc_armour": 110, // 2865 chisel:armor
-			"combatv2_no_resettag": 1, // 2890 chisel:jmod_god_event_elite_spawn
-			"combatv2_npc_no_tag": 1, // 2892 chisel:no_tag
-			"combatv2_npc_xp_override": 0, // 2893 chisel:custom_experience
-			"toplevel_v2_target_hide_lifepoints": 1, // 4473 chisel:hide_hitpoints
-			"combatv2_no_miss": 1 // 7560
-		},
-		"id": 25567,
-		"models": [
-			108202
-		],
-		"movementCapabilities": 1,
-		"name": "Summer Piñata",
-		"turnspeed": 0
-	},
-	{
 		"action_cursors": [
 			44,
 			null,
@@ -880566,74 +879931,6 @@
 		],
 		"movementCapabilities": 2,
 		"name": "Slippy"
-	},
-	{
-		"actions": [
-			null,
-			"Attack",
-			null,
-			null,
-			null
-		],
-		"ambience": 20,
-		"animation_group": 3652,
-		"attackCursor": 42,
-		"boundSize": 1,
-		"combat": 0,
-		"contrast": 25,
-		"extra": {
-			"attackrate": 4, // 14 chisel:attack_speed
-			"attackbonus": 110, // 29 chisel:accuracy_melee_(npc)
-			"combatv2_weakness": 0, // 2848 chisel:weakness
-			"combatv2_npc_armour": 110, // 2865 chisel:armor
-			"combatv2_no_resettag": 1, // 2890 chisel:jmod_god_event_elite_spawn
-			"combatv2_npc_no_tag": 1, // 2892 chisel:no_tag
-			"combatv2_npc_xp_override": 0, // 2893 chisel:custom_experience
-			"toplevel_v2_target_hide_lifepoints": 1, // 4473 chisel:hide_hitpoints
-			"combatv2_no_miss": 1 // 7560
-		},
-		"id": 26019,
-		"models": [
-			116090
-		],
-		"movementCapabilities": 1,
-		"name": "Christmas Loot Piñata",
-		"turnspeed": 0
-	},
-	{
-		"actions": [
-			null,
-			"Attack",
-			null,
-			null,
-			null
-		],
-		"ambience": 20,
-		"attackCursor": 42,
-		"boundSize": 1,
-		"combat": 0,
-		"contrast": 25,
-		"extra": {
-			"attackrate": 4, // 14 chisel:attack_speed
-			"attackbonus": 110, // 29 chisel:accuracy_melee_(npc)
-			"melee_strength": 1, // 641 chisel:damage_melee
-			"ranged_strength": 1, // 643 chisel:damage_ranged
-			"magic_strength": 1, // 965 chisel:damage_magic
-			"combatv2_weakness": 0, // 2848 chisel:weakness
-			"combatv2_npc_armour": 110, // 2865 chisel:armor
-			"combatv2_no_resettag": 1, // 2890 chisel:jmod_god_event_elite_spawn
-			"combatv2_npc_no_tag": 1, // 2892 chisel:no_tag
-			"combatv2_npc_xp_override": 0, // 2893 chisel:custom_experience
-			"toplevel_v2_target_hide_lifepoints": 1, // 4473 chisel:hide_hitpoints
-			"combatv2_no_miss": 1 // 7560
-		},
-		"id": 26020,
-		"models": [
-			116091
-		],
-		"movementCapabilities": 1,
-		"name": "Christmas Loot Piñata",
-		"turnspeed": 0
 	},
 	{
 		"action_cursors": [
@@ -905592,7 +904889,7 @@
 			"Talk to",
 			null,
 			"Shop",
-			"Check cooldown",
+			null,
 			"Combat mastery overview"
 		],
 		"alwaysontop": true,
@@ -978954,21 +978251,6 @@
 		}
 	},
 	{
-		"action_cursors": [
-			44,
-			null,
-			null,
-			null,
-			null,
-			null
-		],
-		"actions": [
-			"Talk to",
-			null,
-			"Open Rasial's Vault",
-			null,
-			null
-		],
 		"animation_group": 2687,
 		"boundSize": 1,
 		"combat": 0,
@@ -987101,74 +986383,6 @@
 			"904": 14836,
 			"905": 14836
 		}
-	},
-	{
-		"actions": [
-			null,
-			"Attack",
-			null,
-			null,
-			null
-		],
-		"ambience": 20,
-		"animation_group": 3652,
-		"attackCursor": 42,
-		"boundSize": 1,
-		"combat": 0,
-		"contrast": 25,
-		"extra": {
-			"attackrate": 4, // 14 chisel:attack_speed
-			"attackbonus": 110, // 29 chisel:accuracy_melee_(npc)
-			"combatv2_weakness": 0, // 2848 chisel:weakness
-			"combatv2_npc_armour": 110, // 2865 chisel:armor
-			"combatv2_no_resettag": 1, // 2890 chisel:jmod_god_event_elite_spawn
-			"combatv2_npc_no_tag": 1, // 2892 chisel:no_tag
-			"combatv2_npc_xp_override": 0, // 2893 chisel:custom_experience
-			"toplevel_v2_target_hide_lifepoints": 1, // 4473 chisel:hide_hitpoints
-			"combatv2_no_miss": 1 // 7560
-		},
-		"id": 29225,
-		"models": [
-			108201
-		],
-		"movementCapabilities": 1,
-		"name": "Summer Piñata",
-		"turnspeed": 0
-	},
-	{
-		"actions": [
-			null,
-			"Attack",
-			null,
-			null,
-			null
-		],
-		"ambience": 20,
-		"attackCursor": 42,
-		"boundSize": 1,
-		"combat": 0,
-		"contrast": 25,
-		"extra": {
-			"attackrate": 4, // 14 chisel:attack_speed
-			"attackbonus": 110, // 29 chisel:accuracy_melee_(npc)
-			"melee_strength": 1, // 641 chisel:damage_melee
-			"ranged_strength": 1, // 643 chisel:damage_ranged
-			"magic_strength": 1, // 965 chisel:damage_magic
-			"combatv2_weakness": 0, // 2848 chisel:weakness
-			"combatv2_npc_armour": 110, // 2865 chisel:armor
-			"combatv2_no_resettag": 1, // 2890 chisel:jmod_god_event_elite_spawn
-			"combatv2_npc_no_tag": 1, // 2892 chisel:no_tag
-			"combatv2_npc_xp_override": 0, // 2893 chisel:custom_experience
-			"toplevel_v2_target_hide_lifepoints": 1, // 4473 chisel:hide_hitpoints
-			"combatv2_no_miss": 1 // 7560
-		},
-		"id": 29226,
-		"models": [
-			108202
-		],
-		"movementCapabilities": 1,
-		"name": "Summer Piñata",
-		"turnspeed": 0
 	},
 	{
 		"alwaysontop": true,
@@ -1002996,21 +1002210,6 @@
 		"name": "Spirit yak"
 	},
 	{
-		"action_cursors": [
-			44,
-			null,
-			null,
-			null,
-			null,
-			null
-		],
-		"actions": [
-			"Talk to",
-			null,
-			"Open Solar Store",
-			null,
-			null
-		],
 		"animation_group": 2687,
 		"boundSize": 1,
 		"combat": 0,
@@ -1003033,21 +1002232,6 @@
 		"turnspeed": 0
 	},
 	{
-		"action_cursors": [
-			44,
-			null,
-			null,
-			null,
-			null,
-			null
-		],
-		"actions": [
-			"Talk to",
-			null,
-			"Open Lunar Store",
-			null,
-			null
-		],
 		"animation_group": 4324,
 		"boundSize": 1,
 		"combat": 0,
@@ -1046657,10 +1045841,10 @@
 			"combatv2_npc_death_effect": 1, // 4745 chisel:quest_banner_sprite
 			"combatv2_npc_hide_healthbar": 1, // 6425
 			"bslay_tracking_var_mode_normal": 16837569, // 9012
-			"health_headbar": 44, // 9114
-			"adrenaline_headbar": 43, // 9115
-			"progress_headbar": 46, // 9116
-			"timer_headbar": 45 // 9117
+			"health_headbar": 66, // 9114
+			"adrenaline_headbar": 68, // 9115
+			"progress_headbar": 70, // 9116
+			"timer_headbar": 69 // 9117
 		},
 		"headModels": [
 			138072
@@ -1051247,7 +1050431,7 @@
 		"actions": [
 			"Talk to",
 			null,
-			"Open Shadow Gem Shop",
+			null,
 			null,
 			null
 		],
@@ -1057008,10 +1056192,10 @@
 			"combatv2_npc_xp_multiplier": 5, // 3318 chisel:combat_xp_multiplier_x10
 			"bslay_tracking_var_mode_normal": 16832946, // 9012
 			"bslay_tracking_var_mode_hard": 16832947, // 9013
-			"health_headbar": 44, // 9114
-			"adrenaline_headbar": 43, // 9115
-			"progress_headbar": 46, // 9116
-			"timer_headbar": 45, // 9117
+			"health_headbar": 66, // 9114
+			"adrenaline_headbar": 68, // 9115
+			"progress_headbar": 70, // 9116
+			"timer_headbar": 69, // 9117
 			"combatv2_attackmod_amascut_follower": 1 // 9232
 		},
 		"fastpicking": false,
@@ -1057060,10 +1056244,10 @@
 			"combatv2_npc_no_tag": 1, // 2892 chisel:no_tag
 			"combatv2_combat_mob_tier": 10, // 3002 chisel:potion_effect_unk6
 			"combatv2_npc_xp_multiplier": 5, // 3318 chisel:combat_xp_multiplier_x10
-			"health_headbar": 44, // 9114
-			"adrenaline_headbar": 43, // 9115
-			"progress_headbar": 46, // 9116
-			"timer_headbar": 45 // 9117
+			"health_headbar": 66, // 9114
+			"adrenaline_headbar": 68, // 9115
+			"progress_headbar": 70, // 9116
+			"timer_headbar": 69 // 9117
 		},
 		"id": 31099,
 		"models": [
@@ -1057117,10 +1056301,10 @@
 			"combatv2_npc_xp_multiplier": 5, // 3318 chisel:combat_xp_multiplier_x10
 			"bslay_tracking_var_mode_normal": 16832948, // 9012
 			"bslay_tracking_var_mode_hard": 16832949, // 9013
-			"health_headbar": 44, // 9114
-			"adrenaline_headbar": 43, // 9115
-			"progress_headbar": 46, // 9116
-			"timer_headbar": 45, // 9117
+			"health_headbar": 66, // 9114
+			"adrenaline_headbar": 68, // 9115
+			"progress_headbar": 70, // 9116
+			"timer_headbar": 69, // 9117
 			"combatv2_attackmod_amascut_follower": 1 // 9232
 		},
 		"fastpicking": false,
@@ -1057253,10 +1056437,10 @@
 			"combatv2_npc_xp_multiplier": 5, // 3318 chisel:combat_xp_multiplier_x10
 			"bslay_tracking_var_mode_normal": 16832950, // 9012
 			"bslay_tracking_var_mode_hard": 16832951, // 9013
-			"health_headbar": 44, // 9114
-			"adrenaline_headbar": 43, // 9115
-			"progress_headbar": 46, // 9116
-			"timer_headbar": 45, // 9117
+			"health_headbar": 66, // 9114
+			"adrenaline_headbar": 68, // 9115
+			"progress_headbar": 70, // 9116
+			"timer_headbar": 69, // 9117
 			"combatv2_attackmod_amascut_follower": 1 // 9232
 		},
 		"headModels": [
@@ -1057313,10 +1056497,10 @@
 			"combatv2_npc_no_tag": 1, // 2892 chisel:no_tag
 			"combatv2_combat_mob_tier": 10, // 3002 chisel:potion_effect_unk6
 			"combatv2_npc_xp_multiplier": 5, // 3318 chisel:combat_xp_multiplier_x10
-			"health_headbar": 44, // 9114
-			"adrenaline_headbar": 43, // 9115
-			"progress_headbar": 46, // 9116
-			"timer_headbar": 45, // 9117
+			"health_headbar": 66, // 9114
+			"adrenaline_headbar": 68, // 9115
+			"progress_headbar": 70, // 9116
+			"timer_headbar": 69, // 9117
 			"combatv2_attackmod_amascut_follower": 1 // 9232
 		},
 		"id": 31104,
@@ -1057573,10 +1056757,10 @@
 			"combatv2_npc_xp_multiplier": 5, // 3318 chisel:combat_xp_multiplier_x10
 			"bslay_tracking_var_mode_normal": 16832950, // 9012
 			"bslay_tracking_var_mode_hard": 16832951, // 9013
-			"health_headbar": 44, // 9114
-			"adrenaline_headbar": 43, // 9115
-			"progress_headbar": 46, // 9116
-			"timer_headbar": 45 // 9117
+			"health_headbar": 66, // 9114
+			"adrenaline_headbar": 68, // 9115
+			"progress_headbar": 70, // 9116
+			"timer_headbar": 69 // 9117
 		},
 		"headModels": [
 			121926
@@ -1057624,10 +1056808,10 @@
 			"combatv2_npc_no_tag": 1, // 2892 chisel:no_tag
 			"combatv2_combat_mob_tier": 10, // 3002 chisel:potion_effect_unk6
 			"combatv2_npc_xp_multiplier": 5, // 3318 chisel:combat_xp_multiplier_x10
-			"health_headbar": 44, // 9114
-			"adrenaline_headbar": 43, // 9115
-			"progress_headbar": 46, // 9116
-			"timer_headbar": 45 // 9117
+			"health_headbar": 66, // 9114
+			"adrenaline_headbar": 68, // 9115
+			"progress_headbar": 70, // 9116
+			"timer_headbar": 69 // 9117
 		},
 		"headModels": [
 			133625
@@ -1057686,10 +1056870,10 @@
 			"combatv2_npc_xp_multiplier": 5, // 3318 chisel:combat_xp_multiplier_x10
 			"bslay_tracking_var_mode_normal": 16832948, // 9012
 			"bslay_tracking_var_mode_hard": 16832949, // 9013
-			"health_headbar": 44, // 9114
-			"adrenaline_headbar": 43, // 9115
-			"progress_headbar": 46, // 9116
-			"timer_headbar": 45 // 9117
+			"health_headbar": 66, // 9114
+			"adrenaline_headbar": 68, // 9115
+			"progress_headbar": 70, // 9116
+			"timer_headbar": 69 // 9117
 		},
 		"fastpicking": false,
 		"headModels": [
@@ -1057740,10 +1056924,10 @@
 			"combatv2_npc_xp_multiplier": 5, // 3318 chisel:combat_xp_multiplier_x10
 			"bslay_tracking_var_mode_normal": 16832946, // 9012
 			"bslay_tracking_var_mode_hard": 16832947, // 9013
-			"health_headbar": 44, // 9114
-			"adrenaline_headbar": 43, // 9115
-			"progress_headbar": 46, // 9116
-			"timer_headbar": 45 // 9117
+			"health_headbar": 66, // 9114
+			"adrenaline_headbar": 68, // 9115
+			"progress_headbar": 70, // 9116
+			"timer_headbar": 69 // 9117
 		},
 		"headModels": [
 			121926
@@ -1057758,21 +1056942,6 @@
 		"transmogfakenpc": true
 	},
 	{
-		"action_cursors": [
-			44,
-			null,
-			null,
-			null,
-			null,
-			null
-		],
-		"actions": [
-			"Talk to",
-			null,
-			"Open Phoenix Armoury",
-			null,
-			null
-		],
 		"animation_group": 2687,
 		"boundSize": 1,
 		"color_replacements": {
@@ -1057813,21 +1056982,6 @@
 		"turnspeed": 0
 	},
 	{
-		"action_cursors": [
-			44,
-			null,
-			null,
-			null,
-			null,
-			null
-		],
-		"actions": [
-			"Talk to",
-			null,
-			"Open Dark Phoenix Armoury",
-			null,
-			null
-		],
 		"animation_group": 3521,
 		"boundSize": 1,
 		"color_replacements": {
@@ -1067804,7 +1066958,7 @@
 		"actions": [
 			"Talk to",
 			null,
-			"Open Pestilent Torva Trove",
+			null,
 			null,
 			null
 		],
@@ -1071072,9 +1070226,9 @@
 			"boss_instance_npc_spawn_coord": 626476982, // 3336
 			"bslay_tracking_var_mode_normal": 16833203, // 9012
 			"health_headbar": 50, // 9114
-			"adrenaline_headbar": 43, // 9115
-			"progress_headbar": 46, // 9116
-			"timer_headbar": 45 // 9117
+			"adrenaline_headbar": 68, // 9115
+			"progress_headbar": 70, // 9116
+			"timer_headbar": 69 // 9117
 		},
 		"headModels": [
 			143309
@@ -1071129,9 +1070283,9 @@
 			"boss_instance_npc_spawn_coord": 626476982, // 3336
 			"bslay_tracking_var_mode_normal": 16833203, // 9012
 			"health_headbar": 50, // 9114
-			"adrenaline_headbar": 43, // 9115
-			"progress_headbar": 46, // 9116
-			"timer_headbar": 45 // 9117
+			"adrenaline_headbar": 68, // 9115
+			"progress_headbar": 70, // 9116
+			"timer_headbar": 69 // 9117
 		},
 		"headModels": [
 			143309
@@ -1074868,7 +1074022,7 @@
 		"actions": [
 			"Talk to",
 			null,
-			"Give Love Letter",
+			null,
 			null,
 			null
 		],
@@ -1074915,7 +1074069,7 @@
 		"actions": [
 			"Talk to",
 			null,
-			"Give Love Letter",
+			null,
 			null,
 			null
 		],
@@ -1074968,7 +1074122,7 @@
 		"actions": [
 			"Talk to",
 			null,
-			"Give Love Letter",
+			null,
 			null,
 			null
 		],
@@ -1075023,7 +1074177,7 @@
 		"actions": [
 			"Talk to",
 			null,
-			"Give Love Letter",
+			null,
 			null,
 			null
 		],
@@ -1075076,7 +1074230,7 @@
 		"actions": [
 			"Talk to",
 			null,
-			"Give Love Letter",
+			null,
 			null,
 			null
 		],
@@ -1075128,7 +1074282,7 @@
 		"actions": [
 			"Talk to",
 			null,
-			"Give Love Letter",
+			null,
 			null,
 			null
 		],
@@ -1075181,7 +1074335,7 @@
 		"actions": [
 			"Talk to",
 			null,
-			"Give Love Letter",
+			null,
 			null,
 			null
 		],
@@ -1075239,7 +1074393,7 @@
 		"actions": [
 			"Talk to",
 			null,
-			"Give Love Letter",
+			null,
 			null,
 			null
 		],
@@ -1075289,7 +1074443,7 @@
 		"actions": [
 			"Talk to",
 			null,
-			"Give Love Letter",
+			null,
 			null,
 			null
 		],
@@ -1075348,7 +1074502,7 @@
 		"actions": [
 			"Talk to",
 			null,
-			"Give Love Letter",
+			null,
 			null,
 			null
 		],
@@ -1085544,10 +1084698,10 @@
 			"combatv2_npc_no_tag": 1, // 2892 chisel:no_tag
 			"combatv2_combat_mob_tier": 10, // 3002 chisel:potion_effect_unk6
 			"combatv2_npc_xp_multiplier": 5, // 3318 chisel:combat_xp_multiplier_x10
-			"health_headbar": 44, // 9114
-			"adrenaline_headbar": 43, // 9115
-			"progress_headbar": 46, // 9116
-			"timer_headbar": 45, // 9117
+			"health_headbar": 66, // 9114
+			"adrenaline_headbar": 68, // 9115
+			"progress_headbar": 70, // 9116
+			"timer_headbar": 69, // 9117
 			"combatv2_attackmod_amascut_follower": 1 // 9232
 		},
 		"headModels": [
@@ -1085593,10 +1084747,10 @@
 			"combatv2_no_resettag": 1, // 2890 chisel:jmod_god_event_elite_spawn
 			"combatv2_npc_no_tag": 1, // 2892 chisel:no_tag
 			"combatv2_combat_mob_tier": 10, // 3002 chisel:potion_effect_unk6
-			"health_headbar": 44, // 9114
-			"adrenaline_headbar": 43, // 9115
-			"progress_headbar": 46, // 9116
-			"timer_headbar": 45, // 9117
+			"health_headbar": 66, // 9114
+			"adrenaline_headbar": 68, // 9115
+			"progress_headbar": 70, // 9116
+			"timer_headbar": 69, // 9117
 			"combatv2_attackmod_amascut_follower": 1 // 9232
 		},
 		"headModels": [
@@ -1091058,21 +1090212,6 @@
 		"scaleY": 200
 	},
 	{
-		"action_cursors": [
-			44,
-			null,
-			null,
-			null,
-			null,
-			null
-		],
-		"actions": [
-			"Talk to",
-			null,
-			"Open Amascut's Armoury",
-			null,
-			null
-		],
 		"animation_group": 2687,
 		"boundSize": 1,
 		"color_replacements": {
@@ -1091103,21 +1090242,6 @@
 		"turnspeed": 0
 	},
 	{
-		"action_cursors": [
-			44,
-			null,
-			null,
-			null,
-			null,
-			null
-		],
-		"actions": [
-			"Talk to",
-			null,
-			"Open Tumeken's Trove",
-			null,
-			null
-		],
 		"animation_group": 2687,
 		"boundSize": 1,
 		"combat": 0,
@@ -1099248,7 +1098372,7 @@
 		"actions": [
 			"Talk to",
 			null,
-			"Open Showdown Store",
+			null,
 			null,
 			null
 		],
@@ -1099287,7 +1098411,7 @@
 		"actions": [
 			"Talk to",
 			null,
-			"Open Showdown Store",
+			null,
 			null,
 			null
 		],
@@ -1101444,10 +1100568,10 @@
 			"combatv2_provoke_immune": 1, // 3381
 			"combatv2_npc_death_effect": 1, // 4745 chisel:quest_banner_sprite
 			"bslay_tracking_var_mode_normal": 16837569, // 9012
-			"health_headbar": 44, // 9114
-			"adrenaline_headbar": 43, // 9115
-			"progress_headbar": 46, // 9116
-			"timer_headbar": 45 // 9117
+			"health_headbar": 66, // 9114
+			"adrenaline_headbar": 68, // 9115
+			"progress_headbar": 70, // 9116
+			"timer_headbar": 69 // 9117
 		},
 		"headModels": [
 			138072
@@ -1117339,10 +1116463,10 @@
 			"combatv2_npc_no_tag": 1, // 2892 chisel:no_tag
 			"combatv2_npc_xp_override": 100000, // 2893 chisel:custom_experience
 			"combatv2_npc_hide_healthbar": 1, // 6425
-			"health_headbar": 44, // 9114
-			"adrenaline_headbar": 43, // 9115
-			"progress_headbar": 46, // 9116
-			"timer_headbar": 45 // 9117
+			"health_headbar": 66, // 9114
+			"adrenaline_headbar": 68, // 9115
+			"progress_headbar": 70, // 9116
+			"timer_headbar": 69 // 9117
 		},
 		"headModels": [
 			145878
@@ -1117404,10 +1116528,10 @@
 			"combatv2_npc_no_tag": 1, // 2892 chisel:no_tag
 			"combatv2_npc_xp_override": 100000, // 2893 chisel:custom_experience
 			"combatv2_npc_hide_healthbar": 1, // 6425
-			"health_headbar": 44, // 9114
-			"adrenaline_headbar": 43, // 9115
-			"progress_headbar": 46, // 9116
-			"timer_headbar": 45 // 9117
+			"health_headbar": 66, // 9114
+			"adrenaline_headbar": 68, // 9115
+			"progress_headbar": 70, // 9116
+			"timer_headbar": 69 // 9117
 		},
 		"headModels": [
 			145881
@@ -1117833,10 +1116957,10 @@
 			"combatv2_npc_hide_healthbar": 1, // 6425
 			"bslay_tracking_var_mode_normal": 16839381, // 9012
 			"bslay_tracking_var_mode_hard": 16839382, // 9013
-			"health_headbar": 44, // 9114
-			"adrenaline_headbar": 43, // 9115
-			"progress_headbar": 46, // 9116
-			"timer_headbar": 45 // 9117
+			"health_headbar": 66, // 9114
+			"adrenaline_headbar": 68, // 9115
+			"progress_headbar": 70, // 9116
+			"timer_headbar": 69 // 9117
 		},
 		"headModels": [
 			145878
@@ -1117889,10 +1117013,10 @@
 			"combatv2_npc_xp_override": 100000, // 2893 chisel:custom_experience
 			"combatv2_combat_mob_tier": 10, // 3002 chisel:potion_effect_unk6
 			"combatv2_npc_hide_healthbar": 1, // 6425
-			"health_headbar": 44, // 9114
-			"adrenaline_headbar": 43, // 9115
-			"progress_headbar": 46, // 9116
-			"timer_headbar": 45 // 9117
+			"health_headbar": 66, // 9114
+			"adrenaline_headbar": 68, // 9115
+			"progress_headbar": 70, // 9116
+			"timer_headbar": 69 // 9117
 		},
 		"headModels": [
 			145881
@@ -1117956,10 +1117080,10 @@
 			"combatv2_npc_hide_healthbar": 1, // 6425
 			"bslay_tracking_var_mode_normal": 16839381, // 9012
 			"bslay_tracking_var_mode_hard": 16839382, // 9013
-			"health_headbar": 44, // 9114
-			"adrenaline_headbar": 43, // 9115
-			"progress_headbar": 46, // 9116
-			"timer_headbar": 45 // 9117
+			"health_headbar": 66, // 9114
+			"adrenaline_headbar": 68, // 9115
+			"progress_headbar": 70, // 9116
+			"timer_headbar": 69 // 9117
 		},
 		"headModels": [
 			145878
@@ -1118020,10 +1117144,10 @@
 			"combatv2_npc_xp_override": 100000, // 2893 chisel:custom_experience
 			"combatv2_combat_mob_tier": 10, // 3002 chisel:potion_effect_unk6
 			"combatv2_npc_hide_healthbar": 1, // 6425
-			"health_headbar": 44, // 9114
-			"adrenaline_headbar": 43, // 9115
-			"progress_headbar": 46, // 9116
-			"timer_headbar": 45 // 9117
+			"health_headbar": 66, // 9114
+			"adrenaline_headbar": 68, // 9115
+			"progress_headbar": 70, // 9116
+			"timer_headbar": 69 // 9117
 		},
 		"headModels": [
 			145881
@@ -1118080,10 +1117204,10 @@
 			"combatv2_npc_hide_healthbar": 1, // 6425
 			"bslay_tracking_var_mode_normal": 16839381, // 9012
 			"bslay_tracking_var_mode_hard": 16839382, // 9013
-			"health_headbar": 44, // 9114
-			"adrenaline_headbar": 43, // 9115
-			"progress_headbar": 46, // 9116
-			"timer_headbar": 45 // 9117
+			"health_headbar": 66, // 9114
+			"adrenaline_headbar": 68, // 9115
+			"progress_headbar": 70, // 9116
+			"timer_headbar": 69 // 9117
 		},
 		"headModels": [
 			145878
@@ -1118134,10 +1117258,10 @@
 			"combatv2_npc_xp_override": 100000, // 2893 chisel:custom_experience
 			"combatv2_combat_mob_tier": 10, // 3002 chisel:potion_effect_unk6
 			"combatv2_npc_hide_healthbar": 1, // 6425
-			"health_headbar": 44, // 9114
-			"adrenaline_headbar": 43, // 9115
-			"progress_headbar": 46, // 9116
-			"timer_headbar": 45 // 9117
+			"health_headbar": 66, // 9114
+			"adrenaline_headbar": 68, // 9115
+			"progress_headbar": 70, // 9116
+			"timer_headbar": 69 // 9117
 		},
 		"headModels": [
 			145881
@@ -1118187,10 +1117311,10 @@
 			"combatv2_npc_xp_override": 100000, // 2893 chisel:custom_experience
 			"combatv2_combat_mob_tier": 10, // 3002 chisel:potion_effect_unk6
 			"combatv2_npc_hide_healthbar": 1, // 6425
-			"health_headbar": 44, // 9114
-			"adrenaline_headbar": 43, // 9115
-			"progress_headbar": 46, // 9116
-			"timer_headbar": 45 // 9117
+			"health_headbar": 66, // 9114
+			"adrenaline_headbar": 68, // 9115
+			"progress_headbar": 70, // 9116
+			"timer_headbar": 69 // 9117
 		},
 		"headModels": [
 			145881
@@ -1118283,6 +1117407,14 @@
 		"animation_group": 4918,
 		"boundSize": 3,
 		"combat": 2134,
+		"custombounding": [
+			-325,
+			-3000,
+			-700,
+			768,
+			0,
+			700
+		],
 		"extra": {
 			"combatv2_attackmod": 13, // 2836 chisel:weakness_class
 			"combatv2_player_hiteffect": 1, // 2838
@@ -1118293,7 +1117425,7 @@
 			"combatv2_npc_armour": 2458, // 2865 chisel:armor
 			"combatv2_no_resettag": 1, // 2890 chisel:jmod_god_event_elite_spawn
 			"combatv2_npc_no_tag": 1, // 2892 chisel:no_tag
-			"health_headbar": 44 // 9114
+			"health_headbar": 66 // 9114
 		},
 		"id": 32914,
 		"models": [
@@ -1118316,6 +1117448,14 @@
 		"attackCursor": 42,
 		"boundSize": 3,
 		"combat": 2134,
+		"custombounding": [
+			-325,
+			-3000,
+			-700,
+			768,
+			0,
+			700
+		],
 		"extra": {
 			"combatv2_attackmod": 13, // 2836 chisel:weakness_class
 			"combatv2_player_hiteffect": 1, // 2838
@@ -1118326,7 +1117466,7 @@
 			"combatv2_npc_armour": 2458, // 2865 chisel:armor
 			"combatv2_no_resettag": 1, // 2890 chisel:jmod_god_event_elite_spawn
 			"combatv2_npc_no_tag": 1, // 2892 chisel:no_tag
-			"health_headbar": 44 // 9114
+			"health_headbar": 66 // 9114
 		},
 		"id": 32915,
 		"models": [
@@ -1118555,10 +1117695,10 @@
 			"combatv2_npc_hide_healthbar": 1, // 6425
 			"bslay_tracking_var_mode_normal": 16839381, // 9012
 			"bslay_tracking_var_mode_hard": 16839382, // 9013
-			"health_headbar": 44, // 9114
-			"adrenaline_headbar": 43, // 9115
-			"progress_headbar": 46, // 9116
-			"timer_headbar": 45 // 9117
+			"health_headbar": 66, // 9114
+			"adrenaline_headbar": 68, // 9115
+			"progress_headbar": 70, // 9116
+			"timer_headbar": 69 // 9117
 		},
 		"headModels": [
 			145878
@@ -1118599,10 +1117739,10 @@
 			"combatv2_npc_no_tag": 1, // 2892 chisel:no_tag
 			"combatv2_npc_xp_override": 100000, // 2893 chisel:custom_experience
 			"combatv2_npc_hide_healthbar": 1, // 6425
-			"health_headbar": 44, // 9114
-			"adrenaline_headbar": 43, // 9115
-			"progress_headbar": 46, // 9116
-			"timer_headbar": 45 // 9117
+			"health_headbar": 66, // 9114
+			"adrenaline_headbar": 68, // 9115
+			"progress_headbar": 70, // 9116
+			"timer_headbar": 69 // 9117
 		},
 		"headModels": [
 			145881

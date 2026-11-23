@@ -95,22 +95,6 @@ function script11088(int0: number): string {
             };
             break;
         }
-        case 33047: {
-            if ((varbitplayer_30395 == 4)) {
-                string0 = "Valentine's Slam - 4% XP Boost";
-            } else if ((varbitplayer_30395 == 2)) {
-                string0 = "Valentine's Slam - 2% XP Boost";
-            };
-            break;
-        }
-        case 39803: {
-            string0 = `Valentine's Flip - ${inttostring(varbitplayer_51034, 10)}% XP boost`;
-            break;
-        }
-        case 30925: {
-            string0 = `Pulse Core - ${inttostring((varbitplayer_27395 * 2), 10)}% XP Boost`;
-            break;
-        }
         case 6938:
         case 6939:
         case 6940:
@@ -148,10 +132,6 @@ function script11088(int0: number): string {
         }
         case 31984: {
             string0 = "Onslaught Active";
-            break;
-        }
-        case 34338: {
-            string0 = `Cinder Core - ${inttostring((varbitplayer_45289 * 2), 10)}% Bonus XP Burn Boost`;
             break;
         }
         case 35990: {
@@ -205,10 +185,6 @@ function script11088(int0: number): string {
         }
         case 39632: {
             string0 = `You are earning ${inttostring(varclient_6897, 10)}% more XP in this area while the Spring Festival is active.`;
-            break;
-        }
-        case 4574: {
-            string0 = `Rock of Resilience - ${inttostring(varbitplayer_29061, 10)}% XP boost`;
             break;
         }
         case 45449: {
@@ -383,14 +359,6 @@ function script11088(int0: number): string {
         }
         case 29054: {
             string0 = `Lumberjack's Intuition<br>${script19675()}`;
-            break;
-        }
-        case 51129: {
-            string0 = `Love Letter - ${inttostring(varbitplayer_57161, 10)}% XP Boost`;
-            break;
-        }
-        case 51130: {
-            string0 = `Love Letter - ${inttostring(varbitplayer_57163, 10)}% Bonus XP Burn Boost`;
             break;
         }
         case 51665: {

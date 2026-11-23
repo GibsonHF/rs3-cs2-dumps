@@ -23,18 +23,6 @@ function script13101(int0: number): [number, number] {
             };
             break;
         }
-        case 34166: {
-            if ((varbitplayer_33691 == 1)) {
-                return [1, 1];
-            };
-            break;
-        }
-        case 35738: {
-            if ((((((((varbitplayer_35230 >= 1) && (varbitplayer_35231 >= 1)) && (varbitplayer_35232 >= 1)) && (varbitplayer_35233 >= 1)) && (varbitplayer_35234 >= 1)) && (varbitplayer_35235 >= 1)) && (varbitplayer_35237 >= 1))) {
-                return [1, 1];
-            };
-            break;
-        }
         case 4171: {
             if ((varbitplayer_44307 < 1)) {
                 return [0, 0];

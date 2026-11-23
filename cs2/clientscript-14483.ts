@@ -1,11 +1,8 @@
 //
 function script14483(int0: number): string {
     switch (int0) {
-        case 52555: {
-            return "You discard your prize and are given H'oddments in its place.";
-        }
-        case 52860: {
-            return "You discard your prize and are given Heartments in its place.";
+        case 1965: {
+            return "You discard your prize and receive one cabbage.";
         }
     };
     return "You discard your prize and are given oddments in its place.";

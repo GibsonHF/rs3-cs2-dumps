@@ -46,11 +46,6 @@ function script10565(): void {
     } else {
         IF_SETTEXT(TOSTRING_LOCALISED(500, 1), comp(1533, 17));  // trh29_pirate_coins_shop:beards_cost
     };
-    if ((INV_TOTAL(93 as inv, 32094 as obj) < 100)) {
-        IF_SETTEXT(`<col=990000>${TOSTRING_LOCALISED(100, 1)}</col>`, comp(1533, 19));  // trh29_pirate_coins_shop:biscuit_cost
-    } else {
-        IF_SETTEXT(TOSTRING_LOCALISED(100, 1), comp(1533, 19));  // trh29_pirate_coins_shop:biscuit_cost
-    };
     script10577();
     IF_SETHIDE(true, comp(1533, 29));  // trh29_pirate_coins_shop:popup_layer
     varbitplayer_24852 = 0;

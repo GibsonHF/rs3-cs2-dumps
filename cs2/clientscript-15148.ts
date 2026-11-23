@@ -40,8 +40,6 @@ function script15148(int0: number): number {
         };
     } else if ((script16844() == 1)) {
         int1 = script16845(int0, int1);
-    } else if ((script17428() == 1)) {
-        int1 = script17429(int0, int1);
     };
     return int1;
 }

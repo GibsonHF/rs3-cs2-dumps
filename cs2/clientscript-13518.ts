@@ -2,6 +2,9 @@
 function script13518(): void {
     var int0 = script15513();
     var int1 = script14480(int0);
+    if ((int1 == 1965)) {
+        return;
+    };
     var string0 = script14481(int1);
     var int2 = script14484(int1);
     var long0 = script18491(int1, 1, 1);

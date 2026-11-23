@@ -1,5 +1,6 @@
 //
 function script1150(): void {
+    IF_SETHIDE(true, comp(215, 3));  // trh148_overlay:shop_holder
     var int0 = -1;
     var int1 = -1;
     CC_DELETEALL(comp(1253, 556));  // wheel_of_fortune:fake_op

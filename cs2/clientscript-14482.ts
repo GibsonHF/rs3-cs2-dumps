@@ -1,11 +1,8 @@
 //
 function script14482(int0: number): string {
     switch (int0) {
-        case 52555: {
-            return "Or convert to H'oddments :";
-        }
-        case 52860: {
-            return "Or convert to Heartments :";
+        case 1965: {
+            return "Discard your prize:";
         }
     };
     return "Or convert to Oddments :";

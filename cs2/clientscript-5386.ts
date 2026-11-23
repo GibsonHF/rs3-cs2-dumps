@@ -2,28 +2,28 @@
 function script5386(int0: number): void {
     if ((int0 == 1)) {
         if ((varbitplayer_15013 == 1)) {
-            script1725(75563015);
+            script1725(75563014);
         };
         if ((varbitplayer_15014 == 1)) {
-            script1725(75563034);
+            script1725(75563033);
         };
         if ((varbitplayer_15015 == 1)) {
-            script1725(75563036);
+            script1725(75563035);
         };
         if ((varbitplayer_15016 == 1)) {
-            script1725(75563038);
+            script1725(75563037);
         };
         if ((varbitplayer_15017 == 1)) {
-            script1725(75563040);
+            script1725(75563039);
         };
         if ((varbitplayer_15018 == 1)) {
-            script1725(75563042);
+            script1725(75563041);
         };
         if ((varbitplayer_15019 == 1)) {
             script1725(75563088);
         };
         if ((varbitplayer_15020 == 1)) {
-            script1725(75563013);
+            script1725(75563012);
         };
         if ((varbitplayer_15021 == 1)) {
             script1725(75563091);
@@ -44,14 +44,14 @@ function script5386(int0: number): void {
             script1725(75563101);
         };
     } else if ((int0 < 1)) {
-        script1728(75563015);
-        script1728(75563034);
-        script1728(75563036);
-        script1728(75563038);
-        script1728(75563040);
-        script1728(75563042);
+        script1728(75563014);
+        script1728(75563033);
+        script1728(75563035);
+        script1728(75563037);
+        script1728(75563039);
+        script1728(75563041);
         script1728(75563088);
-        script1728(75563013);
+        script1728(75563012);
         script1728(75563091);
         script1728(75563093);
         script1728(75563095);

@@ -288,11 +288,7 @@ function script13096(int0: number): number {
         case 30942: {
             return 1;
         }
-        case 30920:
-        case 30921:
-        case 30922:
-        case 30923:
-        case 30924: {
+        case 30920: {
             return 1;
         }
         case 31343: {

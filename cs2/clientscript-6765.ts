@@ -8,7 +8,6 @@ function script6765(): void {
     };
     IF_SETONVARTRANSMIT(callback(script6775, 11462, 11462, 2), comp(631, 28));  // trh196_overlay:bonus_item_model_layer
     IF_SETONVARTRANSMIT(callback(script6773, 11464, 11465, 2), comp(631, 25));  // trh196_overlay:blackboard_item_list
-    IF_SETONVARTRANSMIT(callback(script6769, 11466, 1), comp(631, 8));  // trh196_overlay:currency_total
     DB_LISTALL(162);
     var int1 = dbrow_findnext();
     var int2 = -1;
@@ -26,14 +25,9 @@ function script6765(): void {
         };
         int1 = dbrow_findnext();
     };
-    script7852(41353227, 0, 0, 0, 0, 0, 0, 0, 1, 1, 4479, inttostring(600, 10));
-    CC_SETOP(1, "Purchase with Fallen Leaves");
-    CC_SETONOP(callback(script6777, 2, 1));
-    CC_SETMOUSEOVERCURSOR(46);
-    script7852(41353285, 0, 0, 0, 0, 0, 0, 0, 1, 1, 4479, "Seasons Store");
-    CC_SETOP(1, "Open");
-    CC_SETONOP(callback(script6777, 3, 1));
-    CC_SETMOUSEOVERCURSOR(46);
+    IF_SETHIDE(true, comp(631, 29));  // trh196_overlay:skip_holder
+    IF_SETHIDE(true, comp(631, 11));  // trh196_overlay:seasonal_oddments_skip_button
+    IF_SETHIDE(true, comp(631, 69));  // trh196_overlay:seasonal_oddments_store_button
     script13310(41353235, 41353236, 61, (8 * 1000));
     script6783();
     IF_SETONTIMER(callback(script6784, 0, 0), comp(631, 0));  // trh196_overlay:splash_screen

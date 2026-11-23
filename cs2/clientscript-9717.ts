@@ -74,30 +74,6 @@ function script9717(int0: number): void {
         int5 = INV_TOTAL(93 as inv, 34025 as obj);
         int6 = INV_TOTAL(93 as inv, 52194 as obj);
         IF_SETHIDE(false, struct_getparam(int0, 8529));
-    } else if ((OC_CATEGORY(varclient_1799) == 4698)) {
-        int1 = 7;
-        IF_SETTEXT("Use all tiny packs", struct_getparam(int0, 8530));
-        IF_SETTEXT("Use all small packs", struct_getparam(int0, 8531));
-        IF_SETTEXT("Use all medium packs", struct_getparam(int0, 8532));
-        IF_SETTEXT("Use all large packs", struct_getparam(int0, 8533));
-        IF_SETTEXT("Use all huge packs", struct_getparam(int0, 8534));
-        IF_SETHIDE(false, struct_getparam(int0, 8529));
-        int2 = INV_TOTAL(93 as inv, 52195 as obj);
-        int3 = INV_TOTAL(93 as inv, 44707 as obj);
-        int4 = INV_TOTAL(93 as inv, 34026 as obj);
-        int5 = INV_TOTAL(93 as inv, 52196 as obj);
-        int6 = INV_TOTAL(93 as inv, 52197 as obj);
-    } else if ((OC_CATEGORY(varclient_1799) == 3729)) {
-        int1 = 8;
-        IF_SETTEXT("Use all medium crates", struct_getparam(int0, 8533));
-        IF_SETTEXT("Use all large crates", struct_getparam(int0, 8534));
-        IF_SETHIDE(true, struct_getparam(int0, 8525));
-        IF_SETHIDE(true, struct_getparam(int0, 8526));
-        IF_SETHIDE(true, struct_getparam(int0, 8527));
-        IF_SETHIDE(false, struct_getparam(int0, 8528));
-        IF_SETHIDE(false, struct_getparam(int0, 8529));
-        int5 = script9295(93, 36200);
-        int6 = script9295(93, 36196);
     };
     if ((int2 > 0)) {
         int7 = varbitplayer_22565;

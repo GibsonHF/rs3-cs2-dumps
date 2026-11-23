@@ -13,10 +13,6 @@ function script15415(int0: number, int1: number, int2: number): void {
             string0 = `These bonuses <col=FF00>increase any multipliers on the trail by up to ${inttostring(int1, 10)}</col>! (max multiplier: x${inttostring(8, 10)}).`;
             break;
         }
-        case 49807407: {
-            string0 = `<col=FFFF00>Curios</col> are obtained with each key.<br>You can buy a <col=FF00>Curio Bonus</col> every <col=FFFF00>${inttostring(400, 10)} Curios</col>.`;
-            break;
-        }
         case 49807368: {
             switch (int2) {
                 case 59956: {

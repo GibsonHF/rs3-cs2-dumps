@@ -6,7 +6,6 @@ function script19834(int0: number): string {
             string0 = `${string0}Quick access to the central Sarcophagus during the Barrows encounter.<br>`;
             string0 = `${string0}${script19838(5)}`;
             string0 = `${string0}${script19839(1)}`;
-            string0 = `${string0}${script19840(5)}`;
             break;
         }
         case 58413: {
@@ -15,7 +14,6 @@ function script19834(int0: number): string {
             string0 = `${string0}Your Sign of Life cooldown is reduced by 50%.<br>`;
             string0 = `${string0}${script19838(10)}`;
             string0 = `${string0}${script19839(2)}`;
-            string0 = `${string0}${script19840(10)}`;
             break;
         }
         case 58414: {
@@ -23,8 +21,6 @@ function script19834(int0: number): string {
             string0 = `${string0}${script19837("Araxxor")}`;
             string0 = `${string0}War's Grimoire will now allow you to change your prayer book.<br>`;
             string0 = `${string0}${script19838(25)}`;
-            string0 = `${string0}${script19840(25)}`;
-            string0 = `${string0}${script19841(500)}`;
             break;
         }
         case 58415: {
@@ -33,8 +29,6 @@ function script19834(int0: number): string {
             string0 = `${string0}${script19836(1, 58424)}`;
             string0 = `${string0}${script19836(1, 58425)}`;
             string0 = `${string0}${script19838(100)}`;
-            string0 = `${string0}${script19840(50)}`;
-            string0 = `${string0}${script19841(1000)}`;
             break;
         }
     };

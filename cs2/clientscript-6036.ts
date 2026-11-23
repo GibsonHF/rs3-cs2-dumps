@@ -210,11 +210,6 @@ function script6036(int0: number, int1: number, int2: number): string {
         case 28910: {
             return `${enum_getvalue(17, 36, 680, int0)} XP`;
         }
-        case 25200:
-        case 25201:
-        case 26492: {
-            return `${enum_getvalue(17, 36, 680, int0)} XP`;
-        }
         case 30226: {
             int3 = ((int1 * enum_getvalue(17, 0, 8103, int0)) / 10);
             break;
@@ -233,12 +228,6 @@ function script6036(int0: number, int1: number, int2: number): string {
             int3 = ((script1128(int0, 0) * varclient_4173) + (script1128(int0, 1) * varclient_6903));
             int3 = (int3 / 10);
             break;
-        }
-        case 31929: {
-            return `You will receive ${inttostring(script10267(int0), 10)} ${enum_getvalue(17, 36, 680, int0)} XP.`;
-        }
-        case 31931: {
-            return enum_getvalue(17, 36, 680, int0);
         }
         case 32193: {
             switch (varbitplayer_25049) {
@@ -471,13 +460,6 @@ function script6036(int0: number, int1: number, int2: number): string {
         }
         case 21409: {
             return `${TOSTRING_LOCALISED(script5345(int0), 1)} ${enum_getvalue(17, 36, 680, int0)} XP`;
-        }
-        case 55178: {
-            return `You will exchange ${script7653(script17430(int0), 1, 1, 0, 1)} Bonus XP from ${enum_getvalue(17, 36, 680, int0)}.`;
-        }
-        case 55179: {
-            [int1, int3] = script17431(int0, int1);
-            return `You will gain ${script7653(int3, 1, 1, 0, 1)} Bonus XP in ${enum_getvalue(17, 36, 680, int0)}.`;
         }
         case 22340: {
             if ((int0 == 5 as stat)) {

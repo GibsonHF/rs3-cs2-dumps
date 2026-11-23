@@ -87,7 +87,7 @@ function script10966(int0: number): void {
             break;
         }
         case 103743508: {
-            string0 = "With rose petals you can make love potions as well as unlock previous year Valentine rewards that you may have missed.";
+            string0 = "With rose petals you can unlock previous year Valentine rewards that you may have missed.";
             break;
         }
         case 103743564: {

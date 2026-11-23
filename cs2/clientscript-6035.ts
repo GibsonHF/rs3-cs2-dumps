@@ -10,7 +10,7 @@ function script6035(int0: number, int1: number, int2: number, int3: number): num
         };
         return 0;
     };
-    if ((((((MAP_MEMBERS() == 0) && (enum_hasoutput(17, 5472 as cs2enum, int0) == 1)) && (STAT_BASE(int0) >= script12038(int0))) && (OC_CATEGORY(int2) != 3074 as category)) && (int2 != 31822 as obj))) {
+    if (((((((MAP_MEMBERS() == 0) && (enum_hasoutput(17, 5472 as cs2enum, int0) == 1)) && (STAT_BASE(int0) >= script12038(int0))) && (OC_CATEGORY(int2) != 3074 as category)) && (OC_CATEGORY(int2) != 3637 as category)) && (int2 != 31822 as obj))) {
         if ((int3 == 1)) {
             if ((PLAYERMEMBER() == false)) {
                 printmessage("You have reached the maximum level for this skill in the free game. To gain more XP you must subscribe.");
@@ -879,12 +879,6 @@ function script6035(int0: number, int1: number, int2: number, int3: number): num
             };
             return 0;
         }
-        case 31931: {
-            if ((TESTBIT(varbitplayer_23327, enum_getvalue(17, 0, 1482 as cs2enum, int0)) == 1)) {
-                return 0;
-            };
-            return 1;
-        }
         case 32307:
         case 43364: {
             if ((script212(int0, STAT_BASE(int0), 1, 0) > 0)) {
@@ -1175,21 +1169,6 @@ function script6035(int0: number, int1: number, int2: number, int3: number): num
         }
         case 21409: {
             return script6679(int0, int3);
-        }
-        case 55178: {
-            if ((script495(int0) > 0)) {
-                return 1;
-            };
-            return 0;
-        }
-        case 55179: {
-            if ((int0 == varplayer_10927)) {
-                return 0;
-            };
-            if ((script495(int0) == 1000000000)) {
-                return 0;
-            };
-            return script12970(int0);
         }
     };
     if ((((((((((((item_getparam(int2, 4018) == 1) || (item_getparam(int2, 4019) == 1)) || (item_getparam(int2, 4020) == 1)) || (item_getparam(int2, 4021) == 1)) || (item_getparam(int2, 4022) == 1)) || (item_getparam(int2, 4023) == 1)) || (item_getparam(int2, 4024) == 1)) || (item_getparam(int2, 4025) == 1)) || (item_getparam(int2, 4026) == 1)) || (item_getparam(int2, 4027) == 1)) || (item_getparam(int2, 7946) == 1))) {

@@ -56621,9 +56621,9 @@
 		],
 		"skill_reqs_8": [
 			{
-				"level": 115,
+				"level": 95,
 				"skillID": 18,
-				"text": "Skill: 115 Slayer",
+				"text": "Skill: 95 Slayer",
 				"unk_bytes": [
 					0,
 					1
@@ -94872,9 +94872,9 @@
 		],
 		"skill_reqs_8": [
 			{
-				"level": 115,
+				"level": 92,
 				"skillID": 24,
-				"text": "Skill: 115 Dungeoneering",
+				"text": "Skill: 92 Dungeoneering",
 				"unk_bytes": [
 					0,
 					1
@@ -145715,7 +145715,7 @@
 				"varbit": 6633
 			},
 			{
-				"name": "Spring cleaner and Tight springs",
+				"name": "Spring cleaner and Springs",
 				"stepsize": 1,
 				"unk_byte": 0,
 				"val": 17,
@@ -159572,6 +159572,7 @@
 			3138,
 			3887,
 			2994,
+			5127,
 			3794,
 			3803,
 			3804,
@@ -159583,6 +159584,7 @@
 			3817,
 			3978,
 			3852,
+			5131,
 			3858,
 			4057,
 			3695,
@@ -159593,6 +159595,7 @@
 			3856,
 			3955,
 			3127,
+			5133,
 			1762,
 			1408,
 			3902,
@@ -159601,6 +159604,7 @@
 			1763,
 			2999,
 			4010,
+			5113,
 			3926,
 			3855,
 			3421,
@@ -159616,6 +159620,7 @@
 			1764,
 			3819,
 			3960,
+			5136,
 			3916,
 			1614,
 			3709,
@@ -159645,6 +159650,8 @@
 			4001,
 			3942,
 			3948,
+			5125,
+			5139,
 			3979,
 			3651,
 			3847,
@@ -159682,6 +159689,7 @@
 			1520,
 			3646,
 			3779,
+			5108,
 			1777,
 			3818,
 			3862,
@@ -159697,6 +159705,7 @@
 			3861,
 			3043,
 			3812,
+			5103,
 			4829,
 			1409,
 			3493,
@@ -159729,6 +159738,7 @@
 			3836,
 			3839,
 			3868,
+			5132,
 			1250,
 			3914,
 			3848,
@@ -159748,7 +159758,7 @@
 			3920
 		],
 		"subreq_count": [
-			186
+			196
 		]
 	},
 	{
@@ -159791,6 +159801,7 @@
 			4828,
 			3755,
 			3760,
+			5116,
 			3930,
 			3655,
 			3763,
@@ -159801,6 +159812,7 @@
 			3831,
 			3666,
 			4013,
+			5137,
 			4012,
 			3928,
 			1374,
@@ -159808,10 +159820,12 @@
 			3927,
 			4839,
 			3764,
+			5129,
 			3823,
 			3670,
 			3996,
 			4002,
+			5130,
 			3820,
 			3141,
 			3738,
@@ -159836,6 +159850,7 @@
 			3822,
 			3766,
 			3762,
+			5128,
 			3806,
 			3046,
 			3701,
@@ -159868,7 +159883,7 @@
 			3921
 		],
 		"subreq_count": [
-			103
+			108
 		]
 	},
 	{
@@ -159896,6 +159911,10 @@
 			4061,
 			3692,
 			3687,
+			5117,
+			5135,
+			5134,
+			5138,
 			3671,
 			3679,
 			3680,
@@ -159934,7 +159953,7 @@
 			3922
 		],
 		"subreq_count": [
-			49
+			53
 		]
 	},
 	{
@@ -206696,6 +206715,357 @@
 				"unk_byte": 0,
 				"value": 1,
 				"varbit": 14816
+			}
+		]
+	},
+	{
+		"category": 4817,
+		"description": "Defeat the Ghrazi Blood Knights.",
+		"id": 5125,
+		"name": "The Last Drop",
+		"op_2": [
+			0
+		],
+		"op_26": 14313,
+		"points": 25,
+		"spriteID": 34766,
+		"subcategory": 5851,
+		"subreq_count": [
+			1
+		],
+		"varbit_reqs": [
+			{
+				"description": "",
+				"unk_byte": 0,
+				"value": 1,
+				"varbit": 14850
+			}
+		]
+	},
+	{
+		"category": 4817,
+		"description": "Defeat the Ghrazi Blood Knights without allowing Blood Eruption to be removed by their 'Arena Destruction' attack during phase 5.",
+		"id": 5127,
+		"name": "Blood Eruption Preservation Society",
+		"op_2": [
+			0
+		],
+		"op_26": 14313,
+		"points": 25,
+		"spriteID": 34766,
+		"subcategory": 5851,
+		"subreq_count": [
+			1
+		],
+		"varbit_reqs": [
+			{
+				"description": "",
+				"unk_byte": 0,
+				"value": 1,
+				"varbit": 14852
+			}
+		]
+	},
+	{
+		"category": 4817,
+		"description": "Defeat the Ghrazi Blood Knights.",
+		"id": 5128,
+		"name": "Some Stacks Short of a Dozen",
+		"op_2": [
+			0
+		],
+		"op_26": 14314,
+		"points": 40,
+		"spriteID": 34767,
+		"subcategory": 5851,
+		"subreq_count": [
+			1
+		],
+		"varbit_reqs": [
+			{
+				"description": "",
+				"unk_byte": 0,
+				"value": 1,
+				"varbit": 14853
+			}
+		]
+	},
+	{
+		"category": 4817,
+		"description": "Defeat the Ghrazi Blood Knights.",
+		"id": 5129,
+		"name": "Just the Right Distance",
+		"op_2": [
+			0
+		],
+		"op_26": 14314,
+		"points": 40,
+		"spriteID": 34767,
+		"subcategory": 5851,
+		"subreq_count": [
+			1
+		],
+		"varbit_reqs": [
+			{
+				"description": "",
+				"unk_byte": 0,
+				"value": 1,
+				"varbit": 14854
+			}
+		]
+	},
+	{
+		"category": 4817,
+		"description": "Defeat the Ghrazi Blood Knights.",
+		"id": 5130,
+		"name": "Long-Distance Relationship",
+		"op_2": [
+			0
+		],
+		"op_26": 14314,
+		"points": 40,
+		"spriteID": 34767,
+		"subcategory": 5851,
+		"subreq_count": [
+			1
+		],
+		"varbit_reqs": [
+			{
+				"description": "",
+				"unk_byte": 0,
+				"value": 1,
+				"varbit": 14855
+			}
+		]
+	},
+	{
+		"category": 4817,
+		"description": "Defeat the Ghrazi Blood Knights after using the correct protection prayer against all of their 'Cross Cut' attacks.",
+		"id": 5131,
+		"name": "Cross Your Prayers",
+		"op_2": [
+			0
+		],
+		"op_26": 14313,
+		"points": 25,
+		"spriteID": 34766,
+		"subcategory": 5851,
+		"subreq_count": [
+			1
+		],
+		"varbit_reqs": [
+			{
+				"description": "",
+				"unk_byte": 0,
+				"value": 1,
+				"varbit": 14856
+			}
+		]
+	},
+	{
+		"category": 4817,
+		"description": "Defeat the Ghrazi Blood Knights without anyone being hit by their 'Blood Diamond' or 'Blood Wave' attacks.",
+		"id": 5132,
+		"name": "Wave and a Miss",
+		"op_2": [
+			0
+		],
+		"op_26": 14313,
+		"points": 25,
+		"spriteID": 34766,
+		"subcategory": 5851,
+		"subreq_count": [
+			1
+		],
+		"varbit_reqs": [
+			{
+				"description": "",
+				"unk_byte": 0,
+				"value": 1,
+				"varbit": 14857
+			}
+		]
+	},
+	{
+		"category": 4817,
+		"description": "Defeat the Ghrazi Blood Knights after allowing each Blood Eruption to be removed by their 'Arena Destruction' attack.",
+		"id": 5133,
+		"name": "Controlled Demolition",
+		"op_2": [
+			0
+		],
+		"op_26": 14313,
+		"points": 25,
+		"spriteID": 34766,
+		"subcategory": 5851,
+		"subreq_count": [
+			1
+		],
+		"varbit_reqs": [
+			{
+				"description": "",
+				"unk_byte": 0,
+				"value": 1,
+				"varbit": 14858
+			}
+		]
+	},
+	{
+		"category": 4817,
+		"description": "Defeat the Ghrazi Blood Knights.",
+		"id": 5134,
+		"name": "The Ghrazi Blood Knights (Perfect)",
+		"op_2": [
+			0
+		],
+		"op_26": 14420,
+		"points": 50,
+		"reward": "'the Bloodbane' title.",
+		"spriteID": 34768,
+		"sub_achievements": [
+			5131,
+			5132,
+			5128,
+			5129,
+			5133
+		],
+		"subcategory": 5851,
+		"subreq_count": [
+			6
+		],
+		"varbit_reqs": [
+			{
+				"description": "",
+				"unk_byte": 0,
+				"value": 1,
+				"varbit": 14859
+			}
+		]
+	},
+	{
+		"category": 4817,
+		"description": "Defeat the Ghrazi Blood Knights.",
+		"id": 5135,
+		"name": "The Ghrazi Blood Knights (Unorthodox)",
+		"op_2": [
+			0
+		],
+		"op_26": 14420,
+		"points": 50,
+		"reward": "'the Exsanguinated' title.",
+		"spriteID": 34768,
+		"sub_achievements": [
+			5130,
+			5139,
+			5127,
+			5125
+		],
+		"subcategory": 5851,
+		"subreq_count": [
+			5
+		],
+		"varbit_reqs": [
+			{
+				"description": "",
+				"unk_byte": 0,
+				"value": 1,
+				"varbit": 14860
+			}
+		]
+	},
+	{
+		"category": 4817,
+		"description": "Defeat the Ghrazi Blood Knights.",
+		"id": 5136,
+		"name": "Ghrazi Blood Knights (EM) Elite Speed Killer",
+		"op_2": [
+			0
+		],
+		"op_26": 14313,
+		"points": 25,
+		"spriteID": 34766,
+		"subcategory": 5851,
+		"subreq_count": [
+			1
+		],
+		"varbit_reqs": [
+			{
+				"description": "",
+				"unk_byte": 0,
+				"value": 1,
+				"varbit": 14847
+			}
+		]
+	},
+	{
+		"category": 4817,
+		"description": "Defeat the Ghrazi Blood Knights.",
+		"id": 5137,
+		"name": "Ghrazi Blood Knights (EM) Master Speed Killer",
+		"op_2": [
+			0
+		],
+		"op_26": 14314,
+		"points": 40,
+		"spriteID": 34767,
+		"subcategory": 5851,
+		"subreq_count": [
+			1
+		],
+		"varbit_reqs": [
+			{
+				"description": "",
+				"unk_byte": 0,
+				"value": 1,
+				"varbit": 14848
+			}
+		]
+	},
+	{
+		"category": 4817,
+		"description": "Defeat the Ghrazi Blood Knights.",
+		"id": 5138,
+		"name": "Ghrazi Blood Knights (EM) Grandmaster Speed Killer",
+		"op_2": [
+			0
+		],
+		"op_26": 14420,
+		"points": 50,
+		"spriteID": 34768,
+		"subcategory": 5851,
+		"subreq_count": [
+			1
+		],
+		"varbit_reqs": [
+			{
+				"description": "",
+				"unk_byte": 0,
+				"value": 1,
+				"varbit": 14849
+			}
+		]
+	},
+	{
+		"category": 4817,
+		"description": "Defeat the Ghrazi Blood Knights after killing no more than two Sanguine Tumours during each preparation section of phase 3 with a team size of 2.",
+		"id": 5139,
+		"name": "Live and Let Grow",
+		"op_2": [
+			0
+		],
+		"op_26": 14313,
+		"points": 25,
+		"spriteID": 34766,
+		"subcategory": 5851,
+		"subreq_count": [
+			1
+		],
+		"varbit_reqs": [
+			{
+				"description": "",
+				"unk_byte": 0,
+				"value": 1,
+				"varbit": 14862
 			}
 		]
 	}

@@ -1,18 +1,6 @@
 //
 function script6951(int0: number): [number, number, number, number, number, number] {
     switch (int0) {
-        case 23674: {
-            return [75, 0, 0, 0, 0, 0];
-        }
-        case 24850: {
-            return [35, 0, 0, 0, 0, 0];
-        }
-        case 24851: {
-            return [45, 0, 0, 0, 0, 0];
-        }
-        case 24852: {
-            return [55, 0, 0, 0, 0, 0];
-        }
         case 23679: {
             return [75, 0, 0, 0, 0, 0];
         }

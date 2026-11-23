@@ -783,23 +783,6 @@ function script5828(int0: number, int1: number, int2: number, int3: number, int4
         if ((item_getparam(int0, 6663) != -1)) {
             int44 = script14793(int0, int7, int2, int3, int4, int44);
         };
-        if ((item_getparam(int0, 8229) == 1)) {
-            if ((INV_GETVAR(varclient_5121, varclient_5122, 27398) == 1)) {
-                if ((int0 == 50682)) {
-                    int44 = script7235("Discovery mode", string3, int2, int3, int4, int44);
-                } else {
-                    int44 = script7235("XP mode", string3, int2, int3, int4, int44);
-                };
-            } else if ((INV_GETVAR(varclient_5121, varclient_5122, 27398) == 2)) {
-                if ((int0 == 50682)) {
-                    int44 = script7235("Material mode", string3, int2, int3, int4, int44);
-                } else if ((int0 == 34519)) {
-                    int44 = script7235("Damage mode", string3, int2, int3, int4, int44);
-                } else {
-                    int44 = script7235("Resource mode", string3, int2, int3, int4, int44);
-                };
-            };
-        };
         if ((OC_CATEGORY(int0) == 5694)) {
             [int11, int12, int14] = script4705(item_getparam(int0, 9432));
             int44 = script7235(`Seeds required: <col=FF00>${inttostring(item_getparam(int0, 9433), 10)}`, string3, int2, int3, int4, int44);
@@ -1035,10 +1018,6 @@ function script5828(int0: number, int1: number, int2: number, int3: number, int4
                     int44 = script7235(`Reward rate: ${inttostring((int34 / 10), 10)}.${inttostring(MODULO(int34, 10), 10)}x`, string3, int2, int3, int4, int44);
                     break;
                 }
-                case 28014: {
-                    int44 = script7235(`Charges remaining: ${TOSTRING_LOCALISED((100 - INV_GETVAR(varclient_5121, varclient_5122, 18289)), 1)}`, string3, int2, int3, int4, int44);
-                    break;
-                }
                 case 48680: {
                     int44 = script7235(`Doses remaining: ${inttostring((INV_GETVAR(varclient_5121, varclient_5122, 18550) / 500), 10)}`, string3, int2, int3, int4, int44);
                     break;
@@ -1068,11 +1047,6 @@ function script5828(int0: number, int1: number, int2: number, int3: number, int4
                     } else {
                         int44 = script7235("On activation: heals 4% of your maximum life points 5 times over 20 seconds. 5 minute cooldown.", string3, int2, int3, int4, int44);
                     };
-                    break;
-                }
-                case 57066: {
-                    int44 = script7235(`You have performed ${inttostring(INV_GETVAR(varclient_5121, varclient_5122, 55665), 10)}/${inttostring(INV_GETVAR(varclient_5121, varclient_5122, 55664), 10)} rituals.`, string3, int2, int3, int4, int44);
-                    int44 = script7235(`Preferred ritual type: ${enum_getvalue(0, 36, 17518, INV_GETVAR(varclient_5121, varclient_5122, 55663))} rituals.`, string3, int2, int3, int4, int44);
                     break;
                 }
                 case 58325:
@@ -1437,11 +1411,6 @@ function script5828(int0: number, int1: number, int2: number, int3: number, int4
                             int44 = script7235(`Corruption stored: ${inttostring(int17, 10)}`, string3, int2, int3, int4, int44);
                             break;
                         }
-                        case 5292: {
-                            int44 = script7235(`Mode: ${enum_getvalue(0, 36, 16911, INV_GETVAR(varclient_5121, varclient_5122, 52915))}`, string3, int2, int3, int4, int44);
-                            int44 = script7235(`Charges: ${TOSTRING_LOCALISED(INV_GETVAR(varclient_5121, varclient_5122, 52916), 1)}`, string3, int2, int3, int4, int44);
-                            break;
-                        }
                         case 5315: {
                             int44 = script7235(script17493(varclient_5121, int0, varclient_5122, 1), string3, int2, int3, int4, int44);
                             break;
@@ -1647,10 +1616,6 @@ function script5828(int0: number, int1: number, int2: number, int3: number, int4
                     int44 = script7235("Call upon elvish dark magic to restore 37% of your total prayer points over 30 seconds. 5 Minute cooldown between each use.", string3, int2, int3, int4, int44);
                     break;
                 }
-                case 28015: {
-                    int44 = script7235(`Charges remaining: ${inttostring(100, 10)}`, string3, int2, int3, int4, int44);
-                    break;
-                }
                 case 24135:
                 case 24136: {
                     int44 = script7235(`Charges remaining: ${inttostring((item_getparam(int0, 7706) - varbitplayer_15705), 10)}`, string3, int2, int3, int4, int44);
@@ -1801,10 +1766,6 @@ function script5828(int0: number, int1: number, int2: number, int3: number, int4
                 }
                 case 56630: {
                     int44 = script7235(`Charges: ${inttostring(varbitplayer_55320, 10)}`, string3, int2, int3, int4, int44);
-                    break;
-                }
-                case 57064: {
-                    int44 = script7235(script18986(), string3, int2, int3, int4, int44);
                     break;
                 }
                 case 57517: {
@@ -2015,30 +1976,6 @@ function script5828(int0: number, int1: number, int2: number, int3: number, int4
                                 };
                             };
                             int11 = 0;
-                            break;
-                        }
-                        case 3567: {
-                            string2 = "<col=ffffff>";
-                            if ((varbitplayer_27394 <= 50000)) {
-                                string2 = "<col=ff0000>";
-                            } else if ((varbitplayer_27394 <= 100000)) {
-                                string2 = "<col=FFA500>";
-                            } else {
-                                string2 = "<col=00ff00>";
-                            };
-                            int44 = script7235(`XP remaining: ${string2}${TOSTRING_LOCALISED((varbitplayer_27394 / 10), 1)}`, string3, int2, int3, int4, int44);
-                            break;
-                        }
-                        case 4564: {
-                            string2 = "<col=ffffff>";
-                            if ((varbitplayer_45288 <= (varbitplayer_45291 / 4))) {
-                                string2 = "<col=ff0000>";
-                            } else if ((varbitplayer_45288 <= (varbitplayer_45291 / 2))) {
-                                string2 = "<col=FFA500>";
-                            } else {
-                                string2 = "<col=00ff00>";
-                            };
-                            int44 = script7235(`Bonus XP burn remaining: ${string2}${TOSTRING_LOCALISED((varbitplayer_45288 / 10), 1)}`, string3, int2, int3, int4, int44);
                             break;
                         }
                         case 4058: {

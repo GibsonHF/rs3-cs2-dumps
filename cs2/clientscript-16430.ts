@@ -25,9 +25,7 @@ function script16430(): void {
         };
         int1 = dbrow_findnext();
     };
-    script7852(43843594, 0, 0, 0, 0, 0, 0, 0, 1, 1, 4479, inttostring(500, 10));
-    CC_SETOP(1, "Purchase with Heartments");
-    CC_SETONOP(callback(script16437, 3, 1));
+    IF_SETHIDE(true, comp(669, 10));  // trh177_overlay:seasonal_oddments_skip_button
     script13310(43843604, 43843605, 54, (8 * 1000));
     return;
 }

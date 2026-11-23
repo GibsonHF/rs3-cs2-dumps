@@ -1,37 +1,37 @@
 //
 function script5385(int0: number): void {
     switch (int0) {
-        case 75563015: {
+        case 75563014: {
             if ((varbitplayer_15013 > 0)) {
                 IF_SETGRAPHIC(7936 as graphic, int0);
             };
             break;
         }
-        case 75563034: {
+        case 75563033: {
             if ((varbitplayer_15014 > 0)) {
                 IF_SETGRAPHIC(7936 as graphic, int0);
             };
             break;
         }
-        case 75563036: {
+        case 75563035: {
             if ((varbitplayer_15015 > 0)) {
                 IF_SETGRAPHIC(7936 as graphic, int0);
             };
             break;
         }
-        case 75563038: {
+        case 75563037: {
             if ((varbitplayer_15016 > 0)) {
                 IF_SETGRAPHIC(7936 as graphic, int0);
             };
             break;
         }
-        case 75563040: {
+        case 75563039: {
             if ((varbitplayer_15017 > 0)) {
                 IF_SETGRAPHIC(7936 as graphic, int0);
             };
             break;
         }
-        case 75563042: {
+        case 75563041: {
             if ((varbitplayer_15018 > 0)) {
                 IF_SETGRAPHIC(7936 as graphic, int0);
             };
@@ -43,7 +43,7 @@ function script5385(int0: number): void {
             };
             break;
         }
-        case 75563013: {
+        case 75563012: {
             if ((varbitplayer_15020 > 0)) {
                 IF_SETGRAPHIC(7942 as graphic, int0);
             };

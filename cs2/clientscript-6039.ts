@@ -19,19 +19,7 @@ function script6039(int0: number, int1: number, int2: number, int3: number): voi
             int9 = 29355;
         };
     };
-    if ((item_getparam(varclient_1799, 7953) == 1)) {
-        if ((script473(int0, 5, 1) == 1)) {
-            int7 = 29354;
-            int8 = 29356;
-            int9 = 29355;
-        };
-    } else if ((item_getparam(varclient_1799, 7954) == 1)) {
-        if ((script473(int0, 5, 2) == 1)) {
-            int7 = 29354;
-            int8 = 29356;
-            int9 = 29355;
-        };
-    } else if ((varclient_1799 == 43364)) {
+    if ((varclient_1799 == 43364)) {
         if ((varbitplayer_41402 == int4)) {
             int7 = 29354;
             int8 = 29356;
@@ -148,7 +136,7 @@ function script6039(int0: number, int1: number, int2: number, int3: number): voi
     if ((int5 == 0)) {
         string0 = `${string0} - Unavailable`;
         CC_SETTRANS(150);
-    } else if ((((varclient_1799 == 32307) || (varclient_1799 == 43364)) || (varclient_1799 == 55178))) {
+    } else if (((varclient_1799 == 32307) || (varclient_1799 == 43364))) {
         string0 = `${string0} - ${TOSTRING_LOCALISED((script11151(int0) / 10), 1)} Bonus XP${string1}`;
     };
     IF_SETONMOUSEREPEAT(callback(script8799, string0, -2147483645, -2147483643), int1);

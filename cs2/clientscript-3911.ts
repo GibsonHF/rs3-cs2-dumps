@@ -162,22 +162,10 @@ function script3911(int0: number, int1: number): number {
                 break;
             }
             case 51189: {
-                if ((varbitplayer_20806 == 1)) {
-                    return 0;
-                };
-                if ((varbitplayer_60073 == 1)) {
-                    return 0;
-                };
-                break;
+                return 0;
             }
             case 51190: {
-                if ((varbitplayer_20806 == 1)) {
-                    return 0;
-                };
-                if ((varbitplayer_60074 == 1)) {
-                    return 0;
-                };
-                break;
+                return 0;
             }
             case 2960: {
                 if (((PLATFORMTYPE() == 1) || (varbitplayer_57723 == 1))) {

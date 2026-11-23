@@ -103,7 +103,6 @@ function script9257(int0: number, int1: number, int2: number): number {
         return 1;
     };
     switch (int1) {
-        case 32817:
         case 32818:
         case 32819:
         case 32820:

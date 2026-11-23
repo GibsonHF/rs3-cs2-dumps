@@ -22,5 +22,10 @@ function script10955(): void {
     } else {
         script10960();
     };
+    IF_SETHIDE(true, comp(1583, 25));  // trh44_valentines15_milestones:petals
+    IF_SETHIDE(true, comp(1583, 75));  // trh44_valentines15_milestones:love_button_active_layer
+    IF_SETHIDE(true, comp(1583, 83));  // trh44_valentines15_milestones:hate_button_active_layer
+    IF_SETHIDE(true, comp(1583, 91));  // trh44_valentines15_milestones:flip_button_active_layer
+    IF_SETHIDE(true, comp(1583, 97));  // trh44_valentines15_milestones:popup_layer
     return;
 }

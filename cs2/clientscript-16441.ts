@@ -108,7 +108,7 @@ function script16441(int0: number): void {
         switch (int12) {
             case 52865:
             case 52863:
-            case 52861:
+            case 1965:
             case 54409:
             case 56377:
             case 56375:

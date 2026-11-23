@@ -28,7 +28,6 @@ function script1643(): void {
     IF_SETTEXT(TOSTRING_LOCALISED(1750, 1), comp(1034, 11));  // wof65_valentines_shop:hate_emote_cost
     IF_SETTEXT(TOSTRING_LOCALISED(1000, 1), comp(1034, 13));  // wof65_valentines_shop:hate_weapon_cost
     IF_SETTEXT(TOSTRING_LOCALISED(800, 1), comp(1034, 15));  // wof65_valentines_shop:hate_crown_cost
-    IF_SETTEXT(TOSTRING_LOCALISED(50, 1), comp(1034, 16));  // wof65_valentines_shop:random_chocolate_cost
     script1647();
     IF_SETHIDE(true, comp(1034, 23));  // wof65_valentines_shop:popup_layer
     varbitplayer_21623 = 0;

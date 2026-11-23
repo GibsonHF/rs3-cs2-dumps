@@ -34,7 +34,7 @@ function script15413(): void {
                     script15415(49807383, int4, -1);
                 };
             };
-        } else {
+        } else if (((int3 > 0) || (int4 > 0))) {
             script12478(`Missing bonus icon for bonus with ID: ${inttostring(int0, 10)}`);
         };
         int0 = (int0 + 1);

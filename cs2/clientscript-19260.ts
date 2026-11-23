@@ -40,9 +40,9 @@ function script19260(int0: number): void {
         IF_SETMODELLIGHTING(2000, 1024, 0, 255, 255, 255, 0, 0, 0, 3224 as material, comp(886, 86));  // trh175_overlay:npc_model_1
         IF_SETOBJECT_HIGHRES(59820 as obj, 58064976);
         IF_SETOBJECT_HIGHRES(54939 as obj, 58064977);
-        IF_SETOBJECT_HIGHRES(52555 as obj, 58064978);
+        IF_SETHIDE(true, comp(886, 82));  // trh175_overlay:hoddments_obj
     } else {
-        IF_SETTEXT("NEW Soul Dyed Hallowe'en Mask and NEW H'oddment store stock!", comp(886, 84));  // trh175_overlay:splash_preview_desc
+        IF_SETTEXT("NEW Soul Dyed Hallowe'en Mask!", comp(886, 84));  // trh175_overlay:splash_preview_desc
         IF_SETHIDE(true, comp(886, 73));  // trh175_overlay:splash_preview
         IF_SETNPCMODEL(32417 as npc, comp(886, 86));  // trh175_overlay:npc_model_1
         IF_SETMODELANIM(-1 as seq, comp(886, 86));  // trh175_overlay:npc_model_1
@@ -52,6 +52,7 @@ function script19260(int0: number): void {
         IF_SETPOSITION(66, 92, 1, 0, comp(886, 80));  // trh175_overlay:mask_obj
         IF_SETOBJECT_HIGHRES(59813 as obj, 58064977);
         IF_SETPOSITION(106, 177, 1, 0, comp(886, 81));  // trh175_overlay:dye_obj
+        IF_SETHIDE(false, comp(886, 82));  // trh175_overlay:hoddments_obj
         IF_SETOBJECT_HIGHRES(59817 as obj, 58064978);
         IF_SETPOSITION(166, 92, 1, 0, comp(886, 82));  // trh175_overlay:hoddments_obj
     };

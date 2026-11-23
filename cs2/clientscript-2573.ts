@@ -1,8 +1,8 @@
 //
 function script2573(int0: number, int1: number): void {
-    if ((IF_GETHIDE(comp(1615, 283)) == true)) {  // trh53_spring_cleaner_updated:panel
-        IF_SETHIDE(true, comp(1615, 281));  // trh53_spring_cleaner_updated:hover_prompt
-        IF_SETHIDE(false, comp(1615, 283));  // trh53_spring_cleaner_updated:panel
+    if ((IF_GETHIDE(comp(1615, 276)) == true)) {  // trh53_spring_cleaner_updated:srping_mode_checkbox
+        IF_SETHIDE(true, comp(1615, 274));  // trh53_spring_cleaner_updated:srping_mode_checkbox_selected_1
+        IF_SETHIDE(false, comp(1615, 276));  // trh53_spring_cleaner_updated:srping_mode_checkbox
     };
     var int2 = -1;
     switch (int0) {
@@ -290,8 +290,8 @@ function script2573(int0: number, int1: number): void {
     if ((int2 == -1)) {
         return;
     };
-    IF_SETTEXT(struct_getparam(int2, 5034), comp(1615, 311));  // trh53_spring_cleaner_updated:obj_cat
-    IF_SETOBJECT_NONUM(struct_getparam(int2, 5035), 0, comp(1615, 309));  // trh53_spring_cleaner_updated:selected_item_model
+    IF_SETTEXT(struct_getparam(int2, 5034), comp(1615, 300));  // trh53_spring_cleaner_updated:disassembly_mode
+    IF_SETOBJECT_NONUM(struct_getparam(int2, 5035), 0, comp(1615, 298));  // trh53_spring_cleaner_updated:alch_value
     var int3 = -1;
     var int4 = -1;
     var int5 = -1;
@@ -303,35 +303,30 @@ function script2573(int0: number, int1: number): void {
         int5 = struct_getparam(int2, 5038);
         int6 = struct_getparam(int2, 5039);
         int7 = struct_getparam(int2, 5040);
-        IF_SETOBJECT_NONUM(int3, 0, comp(1615, 287));  // trh53_spring_cleaner_updated:dismantle_item_1
-        IF_SETOBJECT_NONUM(int4, 0, comp(1615, 288));  // trh53_spring_cleaner_updated:dismantle_item_2
-        IF_SETOBJECT_NONUM(int5, 0, comp(1615, 289));  // trh53_spring_cleaner_updated:dismantle_item_3
-        IF_SETOBJECT_NONUM(int6, 0, comp(1615, 290));  // trh53_spring_cleaner_updated:dismantle_item_4
-        IF_SETOBJECT_NONUM(int7, 0, comp(1615, 291));  // trh53_spring_cleaner_updated:dismantle_item_5
+        IF_SETOBJECT_NONUM(int3, 0, comp(1615, 280));  // trh53_spring_cleaner_updated:com_280
+        IF_SETOBJECT_NONUM(int4, 0, comp(1615, 281));  // trh53_spring_cleaner_updated:hover_prompt
+        IF_SETOBJECT_NONUM(int5, 0, comp(1615, 282));  // trh53_spring_cleaner_updated:com_282
+        IF_SETOBJECT_NONUM(int6, 0, comp(1615, 283));  // trh53_spring_cleaner_updated:panel
+        IF_SETOBJECT_NONUM(int7, 0, comp(1615, 284));  // trh53_spring_cleaner_updated:dismantle_mode
     } else {
-        IF_SETOBJECT_NONUM(-1 as obj, 0, comp(1615, 287));  // trh53_spring_cleaner_updated:dismantle_item_1
-        IF_SETOBJECT_NONUM(-1 as obj, 0, comp(1615, 288));  // trh53_spring_cleaner_updated:dismantle_item_2
-        IF_SETOBJECT_NONUM(-1 as obj, 0, comp(1615, 289));  // trh53_spring_cleaner_updated:dismantle_item_3
-        IF_SETOBJECT_NONUM(-1 as obj, 0, comp(1615, 290));  // trh53_spring_cleaner_updated:dismantle_item_4
-        IF_SETOBJECT_NONUM(-1 as obj, 0, comp(1615, 291));  // trh53_spring_cleaner_updated:dismantle_item_5
-    };
-    if ((struct_getparam(int2, 5041) != -1)) {
-        IF_SETTEXT(`Bonus ${enum_getvalue(17, 36, 680, struct_getparam(int2, 5041))} XP`, comp(1615, 294));  // trh53_spring_cleaner_updated:skill_name
-    } else {
-        IF_SETTEXT("", comp(1615, 294));  // trh53_spring_cleaner_updated:skill_name
+        IF_SETOBJECT_NONUM(-1 as obj, 0, comp(1615, 280));  // trh53_spring_cleaner_updated:com_280
+        IF_SETOBJECT_NONUM(-1 as obj, 0, comp(1615, 281));  // trh53_spring_cleaner_updated:hover_prompt
+        IF_SETOBJECT_NONUM(-1 as obj, 0, comp(1615, 282));  // trh53_spring_cleaner_updated:com_282
+        IF_SETOBJECT_NONUM(-1 as obj, 0, comp(1615, 283));  // trh53_spring_cleaner_updated:panel
+        IF_SETOBJECT_NONUM(-1 as obj, 0, comp(1615, 284));  // trh53_spring_cleaner_updated:dismantle_mode
     };
     if ((STRING_LENGTH(struct_getparam(int2, 7783)) <= 0)) {
-        IF_SETTEXT("", comp(1615, 298));  // trh53_spring_cleaner_updated:alch_value
+        IF_SETTEXT("", comp(1615, 287));  // trh53_spring_cleaner_updated:dismantle_item_1
     } else {
-        IF_SETTEXT(`Alch value ${struct_getparam(int2, 7783)}`, comp(1615, 298));  // trh53_spring_cleaner_updated:alch_value
+        IF_SETTEXT(`Alch value ${struct_getparam(int2, 7783)}`, comp(1615, 287));  // trh53_spring_cleaner_updated:dismantle_item_1
     };
     if ((struct_getparam(int2, 7784) != -1)) {
-        IF_SETGRAPHIC(struct_getparam(int2, 7784), comp(1615, 303));  // trh53_spring_cleaner_updated:invention_item
-        IF_SETGRAPHIC(struct_getparam(int2, 7785), comp(1615, 304));  // trh53_spring_cleaner_updated:invention_1
-        IF_SETGRAPHIC(struct_getparam(int2, 7786), comp(1615, 305));  // trh53_spring_cleaner_updated:invention_2
-        IF_SETGRAPHIC(struct_getparam(int2, 7787), comp(1615, 306));  // trh53_spring_cleaner_updated:invention_3
-        IF_SETGRAPHIC(struct_getparam(int2, 7788), comp(1615, 307));  // trh53_spring_cleaner_updated:invention_4
-        IF_SETGRAPHIC(struct_getparam(int2, 7789), comp(1615, 308));  // trh53_spring_cleaner_updated:invention_5
+        IF_SETGRAPHIC(struct_getparam(int2, 7784), comp(1615, 292));  // trh53_spring_cleaner_updated:research_mode
+        IF_SETGRAPHIC(struct_getparam(int2, 7785), comp(1615, 293));  // trh53_spring_cleaner_updated:info_holder_inactive_8
+        IF_SETGRAPHIC(struct_getparam(int2, 7786), comp(1615, 294));  // trh53_spring_cleaner_updated:skill_name
+        IF_SETGRAPHIC(struct_getparam(int2, 7787), comp(1615, 295));  // trh53_spring_cleaner_updated:com_295
+        IF_SETGRAPHIC(struct_getparam(int2, 7788), comp(1615, 296));  // trh53_spring_cleaner_updated:high_alch_mode
+        IF_SETGRAPHIC(struct_getparam(int2, 7789), comp(1615, 297));  // trh53_spring_cleaner_updated:info_holder_inactive_9
     };
     return;
 }

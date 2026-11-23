@@ -3,7 +3,7 @@ function script6672(int0: number, int1: number): void {
     var int2 = script15513();
     var int3 = 40932 as obj;
     if ((int2 != -1)) {
-        if (((varplayer_7101 == 52555 as obj) || (varplayer_7101 == 52860 as obj))) {
+        if ((varplayer_7101 == 1965 as obj)) {
             int3 = varplayer_7101;
         } else if ((struct_getparam(int2, 5396) != 40932 as obj)) {
             if ((varplayer_7101 != -1 as obj)) {
@@ -27,7 +27,13 @@ function script6672(int0: number, int1: number): void {
     } else if ((script328(int0) == 1)) {
         int4 = false;
     };
-    IF_SETOP(1, `Convert to : ${OC_NAME(int3)}`, comp(1253, 282));  // wheel_of_fortune:reward_convert_button
+    if ((int3 == 1965 as obj)) {
+        string0 = "Discard your prize. You will still receive one cabbage.";
+        string1 = "You cannot discard your prize right now.";
+        IF_SETOP(1, "Discard", comp(1253, 282));  // wheel_of_fortune:reward_convert_button
+    } else {
+        IF_SETOP(1, `Convert to : ${OC_NAME(int3)}`, comp(1253, 282));  // wheel_of_fortune:reward_convert_button
+    };
     IF_SETENABLED(int4, comp(1253, 282));  // wheel_of_fortune:reward_convert_button
     if ((int4 == true)) {
         IF_SETONMOUSEREPEAT(callback(script3876, string0, -2147483645, -1), comp(1253, 282));  // wheel_of_fortune:reward_convert_button

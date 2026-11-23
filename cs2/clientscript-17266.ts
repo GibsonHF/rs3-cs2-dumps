@@ -129,6 +129,12 @@ function script17266(int0: number): number {
             };
             break;
         }
+        case 48929: {
+            if ((script15757() == 1)) {
+                return 0;
+            };
+            break;
+        }
         case 153: {
             if ((PLAYERMEMBER() == true)) {
                 return 0;

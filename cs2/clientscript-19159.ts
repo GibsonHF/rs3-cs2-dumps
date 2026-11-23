@@ -16,7 +16,7 @@ function script19159(): void {
         script18548();
         return;
     };
-    script15492(84410520, "Defeat Zamorak's Minions to gain Tokens of Heroes.<br>These can be exchanged for unique ability overrides!");
+    script15492(84410520, "Defeat Zamorak's Minions to earn prizes!");
     script15492(84410497, "Ice Barricade");
     script15492(84410505, "Corrupted Combust");
     script15492(84410511, "Champion's Hurricane");

@@ -14,15 +14,15 @@ function script19826(int0: number, string0: string): string {
             break;
         }
         case 3631: {
-            string0 = `Defeat Araxxi solo in less than ${script19827(500)}.`;
+            string0 = `Defeat Araxxi solo in less than ${script19827(475)}.`;
             break;
         }
         case 3632: {
-            string0 = `Defeat Araxxi solo in less than ${script19827(300)}.`;
+            string0 = `Defeat Araxxi solo in less than ${script19827(270)}.`;
             break;
         }
         case 3633: {
-            string0 = `Defeat Araxxi solo in less than ${script19827(170)}.`;
+            string0 = `Defeat Araxxi solo in less than ${script19827(135)}.`;
             break;
         }
         case 3939: {
@@ -366,19 +366,19 @@ function script19826(int0: number, string0: string): string {
             break;
         }
         case 3895: {
-            string0 = `Defeat the Black Stone Dragon solo in less than ${script19827(550)}.`;
+            string0 = `Defeat the Black Stone Dragon solo in less than ${script19827(500)}.`;
             break;
         }
         case 3896: {
-            string0 = `Defeat the Black Stone Dragon solo in less than ${script19827(400)}.`;
+            string0 = `Defeat the Black Stone Dragon solo in less than ${script19827(350)}.`;
             break;
         }
         case 3897: {
-            string0 = `Defeat the Black Stone Dragon solo in less than ${script19827(225)}.`;
+            string0 = `Defeat the Black Stone Dragon solo in less than ${script19827(175)}.`;
             break;
         }
         case 3898: {
-            string0 = `Defeat the Black Stone Dragon solo in less than ${script19827(175)}.`;
+            string0 = `Defeat the Black Stone Dragon solo in less than ${script19827(140)}.`;
             break;
         }
         case 3980: {
@@ -651,6 +651,42 @@ function script19826(int0: number, string0: string): string {
         }
         case 4825: {
             string0 = `Defeat Amascut, the Devourer at ${inttostring(2000, 10)}% or higher enrage in less than ${script19827(785)}.`;
+            break;
+        }
+        case 5136: {
+            string0 = `Defeat the Ghrazi Blood Knights at ${inttostring(500, 10)}% or higher enrage in less than ${script19827(550)}.`;
+            break;
+        }
+        case 5137: {
+            string0 = `Defeat the Ghrazi Blood Knights at ${inttostring(1000, 10)}% or higher enrage in less than ${script19827(500)}.`;
+            break;
+        }
+        case 5138: {
+            string0 = `Defeat the Ghrazi Blood Knights at ${inttostring(2000, 10)}% or higher enrage in less than ${script19827(475)}.`;
+            break;
+        }
+        case 5125: {
+            string0 = `Defeat the Ghrazi Blood Knights after reaching ${inttostring(85, 10)} Exsanguinated stacks in phase 5 before cleansing.`;
+            break;
+        }
+        case 5128: {
+            string0 = `Defeat the Ghrazi Blood Knights without anyone gaining more than ${inttostring(12, 10)} ${struct_getparam(53509, 2794)} or ${struct_getparam(53508, 2794)} stacks in duo mode at ${inttostring(1000, 10)}% or higher enrage.`;
+            break;
+        }
+        case 5129: {
+            string0 = `Defeat the Ghrazi Blood Knights without anyone leaving the optimal Blood Bomb bounce distance at ${inttostring(2000, 10)}% or higher enrage.`;
+            break;
+        }
+        case 5130: {
+            string0 = `Defeat the Ghrazi Blood Knights while being at least ${inttostring(10, 10)} tiles apart for every Blood Bomb bounce at ${inttostring(2000, 10)}% or higher enrage.`;
+            break;
+        }
+        case 5134: {
+            string0 = `Defeat the Ghrazi Blood Knights at ${inttostring(2000, 10)}% or higher enrage in a team size of 2 without anyone dying while completing all of the listed achievements.`;
+            break;
+        }
+        case 5135: {
+            string0 = `Defeat the Ghrazi Blood Knights at ${inttostring(2000, 10)}% or higher enrage in a team size of 2 without anyone dying while completing all of the listed achievements.`;
             break;
         }
         case 4836: {

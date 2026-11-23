@@ -134,12 +134,6 @@ function script11073(int0: number): number {
         case 30869: {
             return varclient_5112;
         }
-        case 33047: {
-            return varclient_5127;
-        }
-        case 39803: {
-            return varclient_7049;
-        }
         case 21215: {
             return varclient_5152;
         }
@@ -161,29 +155,8 @@ function script11073(int0: number): number {
         case 28638: {
             return varclient_4244;
         }
-        case 28785: {
-            return varclient_4261;
-        }
-        case 28786: {
-            return varclient_4262;
-        }
         case 24334: {
             return varclient_4490;
-        }
-        case 29171: {
-            return varclient_4621;
-        }
-        case 29172: {
-            return varclient_4623;
-        }
-        case 29173: {
-            return varclient_4622;
-        }
-        case 29174: {
-            return varclient_4620;
-        }
-        case 29170: {
-            return varclient_4620;
         }
         case 29594: {
             return varclient_4627;
@@ -241,15 +214,6 @@ function script11073(int0: number): number {
         }
         case 29340: {
             return varclient_4625;
-        }
-        case 30471: {
-            return varclient_4720;
-        }
-        case 30472: {
-            return varclient_4721;
-        }
-        case 30925: {
-            return varclient_4744;
         }
         case 14684:
         case 52782: {
@@ -362,9 +326,6 @@ function script11073(int0: number): number {
         case 33658: {
             return varclient_5493;
         }
-        case 33689: {
-            return varclient_5494;
-        }
         case 33795: {
             return varclient_5832;
         }
@@ -382,9 +343,6 @@ function script11073(int0: number): number {
         }
         case 34189: {
             return varclient_5869;
-        }
-        case 34169: {
-            return varclient_5870;
         }
         case 34878: {
             return varclient_5878;
@@ -451,12 +409,6 @@ function script11073(int0: number): number {
         }
         case 37659: {
             return varclient_6256;
-        }
-        case 6899: {
-            return varclient_6295;
-        }
-        case 47460: {
-            return varclient_7155;
         }
         case 39027: {
             return varclient_6350;
@@ -747,9 +699,6 @@ function script11073(int0: number): number {
         case 37207: {
             return varclient_6596;
         }
-        case 34338: {
-            return varclient_6725;
-        }
         case 36920: {
             return varclient_6730;
         }
@@ -910,9 +859,6 @@ function script11073(int0: number): number {
         }
         case 29217: {
             return varclient_6905;
-        }
-        case 4574: {
-            return varclient_6904;
         }
         case 45116: {
             return varclient_6907;
@@ -1254,12 +1200,6 @@ function script11073(int0: number): number {
         }
         case 29054: {
             return varclient_8259;
-        }
-        case 51129: {
-            return varclient_8282;
-        }
-        case 51130: {
-            return varclient_8283;
         }
         case 51272: {
             return varclient_8294;

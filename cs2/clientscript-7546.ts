@@ -24,7 +24,6 @@ function script7546(): void {
     IF_SETTEXT(TOSTRING_LOCALISED(1750, 1), comp(222, 19));  // wof33_valentines_shop:hate_emote_cost
     IF_SETTEXT(TOSTRING_LOCALISED(1000, 1), comp(222, 21));  // wof33_valentines_shop:hate_weapon_cost
     IF_SETTEXT(TOSTRING_LOCALISED(750, 1), comp(222, 23));  // wof33_valentines_shop:hate_pendant_cost
-    IF_SETTEXT(TOSTRING_LOCALISED(50, 1), comp(222, 24));  // wof33_valentines_shop:random_choccy_cost
     script7548();
     IF_SETHIDE(true, comp(222, 27));  // wof33_valentines_shop:tooltip_box
     IF_SETHIDE(true, comp(222, 28));  // wof33_valentines_shop:popup_layer

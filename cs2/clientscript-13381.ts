@@ -66,7 +66,11 @@ function script13381(int0: number): [number, number, number, string] {
     var int6 = enum_getvalue(0, 33, 12586 as cs2enum, int5);
     var string0 = "";
     if ((int6 != -1 as obj)) {
-        string0 = item_getparam(int6, 4085);
+        if ((int6 == 1965 as obj)) {
+            string0 = "Contains one cabbage.";
+        } else {
+            string0 = item_getparam(int6, 4085);
+        };
     };
     switch (int0) {
         case 0: {

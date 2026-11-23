@@ -202,10 +202,7 @@ function script12115(int0: number): number {
             return script2102();
         }
         case 14799: {
-            if ((varbitplayer_60074 == 1)) {
-                return 0;
-            };
-            return 1;
+            return 0;
         }
         case 4151:
         case 12763: {

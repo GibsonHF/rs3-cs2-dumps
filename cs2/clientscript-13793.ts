@@ -44,9 +44,6 @@ function script13793(int0: number): number {
             };
             break;
         }
-        case 31929: {
-            return 0;
-        }
         case 32274:
         case 28995: {
             if ((varbitplayer_25193 == 1)) {

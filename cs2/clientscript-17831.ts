@@ -7,7 +7,6 @@ function script17831(): number {
     if ((script13040(29, 0) == 1)) {
         int0 = (int0 + script17829(5));
     };
-    int0 = (int0 + script18985(5));
     stack(int0);
     stack(5);
     script20968();

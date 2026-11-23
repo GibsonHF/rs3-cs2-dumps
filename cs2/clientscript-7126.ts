@@ -23,9 +23,7 @@ function script7126(int0: number, int1: number): void {
     if ((int3 != 0)) {
         int5 = 0;
         int7 = item_getparam(int1, 2697);
-        if ((int1 == 33769 as obj)) {
-            int7 = (script2181(2, 22, 0) / 2);
-        } else if ((item_getparam(int1, 223) != -1 as obj)) {
+        if ((item_getparam(int1, 223) != -1 as obj)) {
             int7 = script9883(item_getparam(int1, 223));
         } else if ((OC_CATEGORY(int1) == 5769 as category)) {
             int7 = script16259(int1);

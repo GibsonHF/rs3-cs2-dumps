@@ -829,13 +829,6 @@ function script13776(int0: number, int1: number, int2: number, int3: number): nu
                         };
                         break;
                     }
-                    case 3168: {
-                        int12 = INV_GETVAR(varclient_5121, varclient_5122, 21711);
-                        if ((int12 > 0)) {
-                            int3 = script13777(int2, int3, int4, int6, 30915, int12);
-                        };
-                        break;
-                    }
                     case 4699: {
                         int21 = ENUM_GETOUTPUTCOUNT(15971 as cs2enum);
                         int22 = 0;

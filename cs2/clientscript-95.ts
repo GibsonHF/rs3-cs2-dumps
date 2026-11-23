@@ -73,6 +73,16 @@ function script95(int0: number, int1: number, int2: number): void {
                     CC_SETONMOUSEREPEAT("siii");
                     break;
                 }
+                case 6005: {
+                    stack(14193);
+                    stack(int13);
+                    script3807();
+                    stack(int13);
+                    stack(-2147483645);
+                    stack(CC_GETID());
+                    CC_SETONMOUSEREPEAT("siii");
+                    break;
+                }
                 default: {
                     CC_SETONMOUSEREPEAT(callback(script9564, int13, -2147483645, CC_GETID()));
                     break;

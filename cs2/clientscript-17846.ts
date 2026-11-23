@@ -7,15 +7,6 @@ function script17846(int0: number): number {
         case 40704: {
             return varbitplayer_47440;
         }
-        case 40706: {
-            return varbitplayer_35379;
-        }
-        case 34335: {
-            return varbitplayer_35406;
-        }
-        case 6840: {
-            return varbitplayer_37053;
-        }
         case 37718: {
             return varbitplayer_37054;
         }

@@ -1,5 +1,6 @@
 //
 function script10577(): void {
+    IF_SETHIDE(true, comp(1533, 28));  // trh29_pirate_coins_shop:biscuit_button
     if ((varbitplayer_24919 == 1)) {
         IF_SETTRANS(200, comp(1533, 3));  // trh29_pirate_coins_shop:pirate_sheep_icon
         IF_SETHIDE(false, comp(1533, 59));  // trh29_pirate_coins_shop:pirate_sheep_button_disabled_layer

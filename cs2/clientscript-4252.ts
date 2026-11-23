@@ -170,18 +170,6 @@ function script4252(int0: number, int1: number): void {
             varclient_4644 = int2;
             break;
         }
-        case 30471: {
-            varclient_4720 = int2;
-            break;
-        }
-        case 30472: {
-            varclient_4721 = int2;
-            break;
-        }
-        case 30925: {
-            varclient_4744 = int2;
-            break;
-        }
         case 45323: {
             varclient_6921 = int2;
             break;
@@ -218,14 +206,6 @@ function script4252(int0: number, int1: number): void {
             varclient_6929 = int2;
             break;
         }
-        case 6899: {
-            varclient_6295 = int2;
-            break;
-        }
-        case 47460: {
-            varclient_7155 = int2;
-            break;
-        }
         case 31989: {
             varclient_4982 = int2;
             break;
@@ -256,14 +236,6 @@ function script4252(int0: number, int1: number): void {
         }
         case 30869: {
             varclient_5112 = int2;
-            break;
-        }
-        case 33047: {
-            varclient_5127 = int2;
-            break;
-        }
-        case 39803: {
-            varclient_7049 = int2;
             break;
         }
         case 21215: {
@@ -298,10 +270,6 @@ function script4252(int0: number, int1: number): void {
             varclient_5493 = int2;
             break;
         }
-        case 33689: {
-            varclient_5494 = int2;
-            break;
-        }
         case 33795: {
             varclient_5832 = int2;
             break;
@@ -320,10 +288,6 @@ function script4252(int0: number, int1: number): void {
         }
         case 33986: {
             varclient_5839 = int2;
-            break;
-        }
-        case 34169: {
-            varclient_5870 = int2;
             break;
         }
         case 34188: {
@@ -830,10 +794,6 @@ function script4252(int0: number, int1: number): void {
             varclient_6646 = int2;
             break;
         }
-        case 34338: {
-            varclient_6725 = int2;
-            break;
-        }
         case 14674: {
             varclient_6647 = int2;
             break;
@@ -1050,10 +1010,6 @@ function script4252(int0: number, int1: number): void {
         }
         case 29217: {
             varclient_6905 = int2;
-            break;
-        }
-        case 4574: {
-            varclient_6904 = int2;
             break;
         }
         case 45116: {
@@ -1495,14 +1451,6 @@ function script4252(int0: number, int1: number): void {
         }
         case 29054: {
             varclient_8259 = int2;
-            break;
-        }
-        case 51129: {
-            varclient_8282 = int2;
-            break;
-        }
-        case 51130: {
-            varclient_8283 = int2;
             break;
         }
         case 51272: {

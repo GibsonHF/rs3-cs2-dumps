@@ -53,7 +53,7 @@ function script3144(int0: number): number {
             return 95;
         }
         case 17: {
-            return 115;
+            return 92;
         }
         case 18: {
             return 100;

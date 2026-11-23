@@ -21,19 +21,17 @@ function script6793(int0: number, int1: number): void {
     if ((int0 == 1)) {
         if ((varbitplayer_45140 == 1)) {
             int4 = script8232(int2);
-            if (((int4 != 5) && (int4 != 6))) {
-                if ((int4 != -1)) {
-                    if ((item_getparam(int2, 1989) == true)) {
-                        script1296("This item cannot be destroyed from the bank.");
-                        return;
-                    };
-                    [int8, string0] = script4009(int2, 95, int1);
-                    if ((script8919(int2, 95, "Destroy Item", string0, "Destroy") == 1)) {
-                        script14289(int2, int3, int1);
-                    };
+            if ((int4 != -1)) {
+                if ((item_getparam(int2, 1989) == true)) {
+                    script1296("This item cannot be destroyed from the bank.");
+                    return;
                 };
-                return;
+                [int8, string0] = script4009(int2, 95, int1);
+                if ((script8919(int2, 95, "Destroy Item", string0, "Destroy") == 1)) {
+                    script14289(int2, int3, int1);
+                };
             };
+            return;
         };
         var int0 = varbitplayer_45189;
     };

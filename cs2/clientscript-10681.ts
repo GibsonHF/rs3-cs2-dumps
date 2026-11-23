@@ -12,7 +12,7 @@ function script10681(int0: number, int1: number): void {
     };
     IF_SETNPCMODEL(int2, comp(1544, 30));  // trh31_costume:preview_model
     IF_SETTEXT(struct_getparam(int1, 4601), comp(1544, 8));  // trh31_costume:preview_title
-    var string0 = `Cost: ${TOSTRING_LOCALISED(struct_getparam(int1, 4600), 1)} ghostweave.<br>Allows ${inttostring(struct_getparam(int1, 4604), 10)} sweets (${inttostring(struct_getparam(int1, 4603), 10)} per day) from trick or treating.`;
+    var string0 = `Cost: ${TOSTRING_LOCALISED(struct_getparam(int1, 4600), 1)} ghostweave.`;
     IF_SETTEXT(string0, comp(1544, 9));  // trh31_costume:preview_text
     if ((int0 == 1)) {
         IF_SETTEXT("Recover", comp(1544, 82));  // trh31_costume:make_button_text

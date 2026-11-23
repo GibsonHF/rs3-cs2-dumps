@@ -82,14 +82,14 @@ function script18479(): void {
     IF_SETMODEL(137991 as model, comp(1082, 187));  // trh189_overlay:npc_8
     IF_SETTEXT(`Attack the <col=FFFF00>${string0}</col> for a <col=FFFF00>Rarity Bonus!</col>`, comp(1082, 146));  // trh189_overlay:splash_1_text
     IF_SETTEXT(`Attack the <col=FFFF00>${string1}</col> for a <col=FF00>Multiplier Bonus!</col>`, comp(1082, 31));  // trh189_overlay:splash_2_text
-    IF_SETTEXT("Defeat the fighters to get <col=FFFF00>Sigils</col> which can be exchanged for <col=FFFF00>pirate themed cosmetics</col>!", comp(1082, 138));  // trh189_overlay:splash_3_text_1
+    IF_SETTEXT("Defeat the fighters to earn prizes!", comp(1082, 138));  // trh189_overlay:splash_3_text_1
     if ((script6953() == 13837)) {
         IF_SETTEXT("Unlock all Solite or Lunite pieces to unlock a <col=FFFF00>bonus weapon or shield for FREE!</col> Inquisitor armour is not required for bonus rewards.", comp(1082, 139));  // trh189_overlay:splash_3_text_2
     } else {
         IF_SETTEXT("Unlock all outfit pieces and weapons in a set to unlock a <col=FFFF00>bonus reward for FREE!</col>", comp(1082, 139));  // trh189_overlay:splash_3_text_2
     };
-    IF_SETTEXT(`<col=FFFF00>${string2}</col> and <col=FFFF00>${string3}</col> have a chance to spawn which will provide <col=FFFF00>greater prize modifiers</col> while they are active!<br>Bosses give <col=FFFF00>2x Sigils</col> when defeated.`, comp(1082, 140));  // trh189_overlay:splash_4_text
-    IF_SETTEXT("During Final Showdown, <col=FFFF00>all previous showdown cosmetics are available</col> via the Showdown Store!", comp(1082, 188));  // trh189_overlay:splash_5_text
+    IF_SETTEXT(`<col=FFFF00>${string2}</col> and <col=FFFF00>${string3}</col> have a chance to spawn which will provide <col=FFFF00>greater prize modifiers</col> while they are active!`, comp(1082, 140));  // trh189_overlay:splash_4_text
+    IF_SETTEXT("The Showdown Store is no longer available. Existing cosmetic unlocks are retained.", comp(1082, 188));  // trh189_overlay:splash_5_text
     script11163(5);
     return;
 }

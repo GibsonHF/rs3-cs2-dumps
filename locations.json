@@ -1476614,98 +1476614,6 @@
 		"width": 2
 	},
 	{
-		"actions": [
-			"Replace focus",
-			"Remove focus",
-			"Repair all",
-			"Check durability all",
-			"Clear site"
-		],
-		"active": true,
-		"id": 52843,
-		"model": false,
-		"models": [
-			{
-				"type": 10,
-				"values": [
-					133517,
-					129485
-				]
-			}
-		],
-		"name": "Pedestal (lesser lost things)",
-		"occludes_2": false
-	},
-	{
-		"actions": [
-			"Replace focus",
-			"Remove focus",
-			"Repair all",
-			"Check durability all",
-			"Clear site"
-		],
-		"active": true,
-		"id": 52844,
-		"model": false,
-		"models": [
-			{
-				"type": 10,
-				"values": [
-					133517,
-					129485
-				]
-			}
-		],
-		"name": "Pedestal (powerful lost things)",
-		"occludes_2": false
-	},
-	{
-		"actions": [
-			"Replace focus",
-			"Remove focus",
-			"Repair all",
-			"Check durability all",
-			"Clear site"
-		],
-		"active": true,
-		"id": 52845,
-		"model": false,
-		"models": [
-			{
-				"type": 10,
-				"values": [
-					133517,
-					133028
-				]
-			}
-		],
-		"name": "Pedestal (lesser lost things)",
-		"occludes_2": false
-	},
-	{
-		"actions": [
-			"Replace focus",
-			"Remove focus",
-			"Repair all",
-			"Check durability all",
-			"Clear site"
-		],
-		"active": true,
-		"id": 52846,
-		"model": false,
-		"models": [
-			{
-				"type": 10,
-				"values": [
-					133517,
-					133028
-				]
-			}
-		],
-		"name": "Pedestal (powerful lost things)",
-		"occludes_2": false
-	},
-	{
 		"active": false,
 		"blockwalk": true,
 		"hardshadow": false,
@@ -2076531,6 +2076439,364 @@
 		"name": "Arcane bookcase (4)",
 		"occludes_2": false,
 		"vfx_count": 1
+	},
+	{
+		"active": false,
+		"blockwalk": false,
+		"id": 73768,
+		"length": 2,
+		"model": false,
+		"models": [
+			{
+				"type": 10,
+				"values": [
+					71974,
+					71975,
+					71977,
+					71978
+				]
+			}
+		],
+		"occludes_2": false,
+		"width": 2
+	},
+	{
+		"active": false,
+		"blockwalk": false,
+		"id": 73769,
+		"length": 2,
+		"model": false,
+		"models": [
+			{
+				"type": 10,
+				"values": [
+					71974,
+					71975
+				]
+			}
+		],
+		"occludes_2": false,
+		"width": 2
+	},
+	{
+		"actions": [
+			null,
+			"Admire",
+			null,
+			null,
+			"Move"
+		],
+		"active": true,
+		"blockrange": false,
+		"blockwalk": true,
+		"extra": {
+			"construction_house_rename_op_flag": 1, // 1993
+			"construction_house_furniture_dbrow": 20603 // 4550
+		},
+		"id": 73770,
+		"length": 2,
+		"model": false,
+		"models": [
+			{
+				"type": 10,
+				"values": [
+					71974,
+					71975
+				]
+			}
+		],
+		"name": "Story arcs diorama",
+		"occludes_2": false,
+		"width": 2
+	},
+	{
+		"active": true,
+		"ambient": 0,
+		"blockwalk": true,
+		"id": 73771,
+		"length": 2,
+		"minimumlodleveloverride": 2,
+		"model": false,
+		"models": [
+			{
+				"type": 10,
+				"values": [
+					71980
+				]
+			}
+		],
+		"name": "Santa's chair",
+		"occludes_2": false,
+		"width": 2
+	},
+	{
+		"active": true,
+		"animatedtexture": true,
+		"blockwalk": true,
+		"id": 73772,
+		"length": 2,
+		"minimumlodleveloverride": 4,
+		"model": false,
+		"models": [
+			{
+				"type": 10,
+				"values": [
+					71986,
+					71983,
+					71982
+				]
+			}
+		],
+		"name": "Christmas tree",
+		"occludes_2": false,
+		"textures": [
+			{
+				"original": 13229,
+				"replacement": 17547
+			}
+		],
+		"vfx_count": 12,
+		"width": 2
+	},
+	{
+		"active": true,
+		"animatedtexture": true,
+		"blockwalk": true,
+		"id": 73773,
+		"length": 2,
+		"minimumlodleveloverride": 4,
+		"model": false,
+		"models": [
+			{
+				"type": 10,
+				"values": [
+					71992,
+					71991,
+					71988,
+					71990
+				]
+			}
+		],
+		"name": "Ugly Christmas tree",
+		"occludes_2": false,
+		"vfx_count": 7,
+		"width": 2
+	},
+	{
+		"actions": [
+			null,
+			null,
+			null,
+			null,
+			"Move"
+		],
+		"active": true,
+		"animatedtexture": true,
+		"blockwalk": true,
+		"extra": {
+			"construction_house_rename_op_flag": 1, // 1993
+			"construction_house_furniture_dbrow": 20609 // 4550
+		},
+		"id": 73774,
+		"length": 2,
+		"minimumlodleveloverride": 4,
+		"model": false,
+		"models": [
+			{
+				"type": 10,
+				"values": [
+					71986,
+					71983,
+					71982
+				]
+			}
+		],
+		"name": "Christmas tree",
+		"occludes_2": false,
+		"vfx_count": 12,
+		"width": 2
+	},
+	{
+		"actions": [
+			null,
+			null,
+			null,
+			null,
+			"Move"
+		],
+		"active": true,
+		"blockrange": false,
+		"blockwalk": true,
+		"extra": {
+			"construction_house_rename_op_flag": 1, // 1993
+			"construction_house_furniture_dbrow": 20610 // 4550
+		},
+		"id": 73775,
+		"length": 4,
+		"minimumlodleveloverride": 4,
+		"model": false,
+		"models": [
+			{
+				"type": 10,
+				"values": [
+					127317
+				]
+			}
+		],
+		"name": "Massive pile of presents",
+		"occludes_2": false,
+		"width": 4
+	},
+	{
+		"actions": [
+			null,
+			null,
+			null,
+			null,
+			"Move"
+		],
+		"active": true,
+		"blockrange": false,
+		"blockwalk": true,
+		"extra": {
+			"construction_house_rename_op_flag": 1, // 1993
+			"construction_house_furniture_dbrow": 20611 // 4550
+		},
+		"id": 73776,
+		"minimumlodleveloverride": 4,
+		"model": false,
+		"models": [
+			{
+				"type": 10,
+				"values": [
+					132107
+				]
+			}
+		],
+		"name": "Pile of presents (1)",
+		"occludes_2": false
+	},
+	{
+		"actions": [
+			null,
+			null,
+			null,
+			null,
+			"Move"
+		],
+		"active": true,
+		"blockrange": false,
+		"blockwalk": true,
+		"extra": {
+			"construction_house_rename_op_flag": 1, // 1993
+			"construction_house_furniture_dbrow": 20612 // 4550
+		},
+		"id": 73777,
+		"minimumlodleveloverride": 4,
+		"model": false,
+		"models": [
+			{
+				"type": 10,
+				"values": [
+					132108
+				]
+			}
+		],
+		"name": "Pile of presents (2)",
+		"occludes_2": false
+	},
+	{
+		"actions": [
+			null,
+			null,
+			null,
+			null,
+			"Move"
+		],
+		"active": true,
+		"blockrange": false,
+		"blockwalk": true,
+		"extra": {
+			"construction_house_rename_op_flag": 1, // 1993
+			"construction_house_furniture_dbrow": 20613 // 4550
+		},
+		"id": 73778,
+		"length": 2,
+		"minimumlodleveloverride": 4,
+		"model": false,
+		"models": [
+			{
+				"type": 10,
+				"values": [
+					132109
+				]
+			}
+		],
+		"name": "Big pile of presents (1)",
+		"occludes_2": false,
+		"width": 2
+	},
+	{
+		"actions": [
+			null,
+			null,
+			null,
+			null,
+			"Move"
+		],
+		"active": true,
+		"blockrange": false,
+		"blockwalk": true,
+		"extra": {
+			"construction_house_rename_op_flag": 1, // 1993
+			"construction_house_furniture_dbrow": 20614 // 4550
+		},
+		"id": 73779,
+		"length": 2,
+		"minimumlodleveloverride": 4,
+		"model": false,
+		"models": [
+			{
+				"type": 10,
+				"values": [
+					132110
+				]
+			}
+		],
+		"name": "Big pile of presents (2)",
+		"occludes_2": false,
+		"width": 2
+	},
+	{
+		"actions": [
+			null,
+			null,
+			null,
+			null,
+			"Move"
+		],
+		"active": true,
+		"ambient": 0,
+		"blockwalk": true,
+		"extra": {
+			"construction_house_rename_op_flag": 1, // 1993
+			"construction_house_furniture_dbrow": 20615 // 4550
+		},
+		"id": 73780,
+		"length": 2,
+		"minimumlodleveloverride": 2,
+		"model": false,
+		"models": [
+			{
+				"type": 10,
+				"values": [
+					71980
+				]
+			}
+		],
+		"name": "Santa's chair",
+		"occludes_2": false,
+		"width": 2
 	},
 	{
 		"active": false,
@@ -3455939,8 +3456205,8 @@
 				127148,
 				129009,
 				127319,
-				52843,
-				52844,
+				127319,
+				127319,
 				130827,
 				131617,
 				127319,
@@ -3513852,8 +3514118,8 @@
 				129035,
 				129035,
 				129010,
-				52845,
-				52846,
+				129035,
+				129035,
 				130828,
 				131618,
 				133792,

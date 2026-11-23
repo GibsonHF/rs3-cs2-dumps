@@ -7,7 +7,8 @@ function script11172(int0: number): number {
         return 0;
     };
     switch (int0) {
-        case 17267: {
+        case 17267:
+        case 20602: {
             if ((script15757() == 1)) {
                 return 1;
             };

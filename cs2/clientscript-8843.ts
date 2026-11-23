@@ -310,10 +310,6 @@ function script8843(int0: number, int1: number): void {
             script1459(int1);
             break;
         }
-        case 88: {
-            script3829(int1);
-            break;
-        }
         case 90: {
             script11292(int1);
             break;

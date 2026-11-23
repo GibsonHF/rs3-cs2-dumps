@@ -30,7 +30,7 @@ function script10618(int0: number, int1: number): void {
         }
         case 5: {
             string0 = "Boss";
-            string1 = "Defeat bosses to earn Marks of War for a chance to receive a golden partyhat shard.";
+            string1 = "Defeat bosses for a chance to receive a golden partyhat shard.";
             break;
         }
         case 6: {

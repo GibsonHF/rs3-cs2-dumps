@@ -1,6 +1,5 @@
 //
 function script10957(): void {
-    IF_SETTEXT(TOSTRING_LOCALISED(INV_TOTAL(93 as inv, 33968 as obj), 1), comp(1583, 25));  // trh44_valentines15_milestones:petals
     IF_SETTEXT(TOSTRING_LOCALISED(200, 1), comp(1583, 35));  // trh44_valentines15_milestones:love_low_cost
     IF_SETTEXT(TOSTRING_LOCALISED(200, 1), comp(1583, 36));  // trh44_valentines15_milestones:hate_low_cost
     IF_SETTEXT(TOSTRING_LOCALISED(400, 1), comp(1583, 33));  // trh44_valentines15_milestones:love_med_cost

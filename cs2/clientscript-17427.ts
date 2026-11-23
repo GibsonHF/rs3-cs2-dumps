@@ -12,57 +12,6 @@ function script17427(int0: number): string {
         return string0;
     };
     switch (int0) {
-        case 27616: {
-            return "Provides bonuses while fighting crawling hands.";
-        }
-        case 27618: {
-            return "Provides bonuses while fighting cockatrices.";
-        }
-        case 27620: {
-            return "Provides bonuses while fighting basilisks.";
-        }
-        case 27622: {
-            return "Provides bonuses while fighting kurasks.";
-        }
-        case 27624: {
-            return "Provides bonuses while fighting abyssal demons.";
-        }
-        case 28686: {
-            return "Provides bonuses while fighting banshees.";
-        }
-        case 28688: {
-            return "Provides bonuses while fighting jellies.";
-        }
-        case 28690: {
-            return "Provides bonuses while fighting dust devils.";
-        }
-        case 28692: {
-            return "Provides bonuses while fighting gargoyles.";
-        }
-        case 28694: {
-            return "Provides bonuses while fighting mutated jadinkos.";
-        }
-        case 31089: {
-            return "Provides bonuses while fighting bloodvelds.";
-        }
-        case 31091: {
-            return "Provides bonuses while fighting aberrant spectres.";
-        }
-        case 31093: {
-            return "Provides bonuses while fighting jungle strykewyrms.";
-        }
-        case 31095: {
-            return "Provides bonuses while fighting desert strykewyrms.";
-        }
-        case 31097: {
-            return "Provides bonuses while fighting ice strykewyrms.";
-        }
-        case 31099: {
-            return "Provides bonuses while fighting dark beasts.";
-        }
-        case 28148: {
-            return "A plain wrap plus a random topping. Different toppings boost different stats.";
-        }
         case 28551: {
             return "Combine this with a Marid handle and spout to build a Marid lamp.";
         }
@@ -451,62 +400,6 @@ function script17427(int0: number): string {
                     string0 = "Use this on a skill set item to add extra bonus days.";
                     break;
                 }
-                case 25299: {
-                    string0 = "Contains a small amount of construction resources.";
-                    break;
-                }
-                case 25300: {
-                    string0 = "Contains a large amount of construction resources.";
-                    break;
-                }
-                case 25301: {
-                    string0 = "Contains a small amount of crafting resources.";
-                    break;
-                }
-                case 25302: {
-                    string0 = "Contains a large amount of crafting resources.";
-                    break;
-                }
-                case 25303: {
-                    string0 = "Contains a small amount of farming resources.";
-                    break;
-                }
-                case 25304: {
-                    string0 = "Contains a large amount of farming resources.";
-                    break;
-                }
-                case 25305: {
-                    string0 = "Contains a small amount of herblore resources.";
-                    break;
-                }
-                case 25306: {
-                    string0 = "Contains a large amount of herblore resources.";
-                    break;
-                }
-                case 25307: {
-                    string0 = "Contains a small amount of smithing resources.";
-                    break;
-                }
-                case 25308: {
-                    string0 = "Contains a large amount of smithing resources.";
-                    break;
-                }
-                case 25309: {
-                    string0 = "Contains a small amount of summoning resources.";
-                    break;
-                }
-                case 25310: {
-                    string0 = "Contains a large amount of summoning resources.";
-                    break;
-                }
-                case 28513: {
-                    string0 = "Contains a small amount of fletching resources.";
-                    break;
-                }
-                case 28514: {
-                    string0 = "Contains a large amount of fletching resources.";
-                    break;
-                }
                 case 28023: {
                     string0 = "Provides piercing ideas.";
                     break;
@@ -555,26 +448,6 @@ function script17427(int0: number): string {
                     string0 = "Always appreciates your jokes, even if others don't. (Non-combat pet)";
                     break;
                 }
-                case 27624: {
-                    string0 = "A mask that displays your affinity with abyssal demons. Requires Defence (50).";
-                    break;
-                }
-                case 27620: {
-                    string0 = "A mask that displays your affinity with basilisks. Requires Defence (30).";
-                    break;
-                }
-                case 27618: {
-                    string0 = "A mask that displays your affinity with cockatrices. Requires Defence (20).";
-                    break;
-                }
-                case 27616: {
-                    string0 = "A mask that displays your affinity with crawling hands. Requires Defence (1).";
-                    break;
-                }
-                case 27622: {
-                    string0 = "A mask that displays your affinity with kurasks. Requires Defence (45).";
-                    break;
-                }
                 case 28186: {
                     string0 = "A resplendent amulet that provides its owner with gold.";
                     break;
@@ -589,54 +462,6 @@ function script17427(int0: number): string {
                 }
                 case 28508: {
                     string0 = "A bow, crafted from the antlers of a white stag, that can change its power to suit its wielder.";
-                    break;
-                }
-                case 28686: {
-                    string0 = "A mask that displays your affinity with banshees. Requires Defence (15).";
-                    break;
-                }
-                case 28690: {
-                    string0 = "A mask that displays your affinity with dust devils. Requires Defence (40).";
-                    break;
-                }
-                case 28692: {
-                    string0 = "A mask that displays your affinity with gargoyles. Requires Defence (45).";
-                    break;
-                }
-                case 28694: {
-                    string0 = "A mask that displays your affinity with mutated jadinkos. Requires Defence (50).";
-                    break;
-                }
-                case 28688: {
-                    string0 = "A mask that displays your affinity with jellies. Requires Defence (35).";
-                    break;
-                }
-                case 31089: {
-                    string0 = "A mask that displays your affinity with bloodvelds. Requires Defence (35).";
-                    break;
-                }
-                case 31091: {
-                    string0 = "A mask that displays your affinity with aberrant spectres. Requires Defence (40).";
-                    break;
-                }
-                case 31093: {
-                    string0 = "A mask that displays your affinity with jungle strykewyrms. Requires Defence (45).";
-                    break;
-                }
-                case 31095: {
-                    string0 = "A mask that displays your affinity with desert strykewyrms. Requires Defence (45).";
-                    break;
-                }
-                case 31097: {
-                    string0 = "A mask that displays your affinity with ice strykewyrms. Requires Defence (55).";
-                    break;
-                }
-                case 31099: {
-                    string0 = "A mask that displays your affinity with dark beasts. Requires Defence (55).";
-                    break;
-                }
-                case 31101: {
-                    string0 = "Allows you to reset a slayer mask of your choice.";
                     break;
                 }
                 case 30750: {
